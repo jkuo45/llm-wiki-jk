@@ -1288,10 +1288,10 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "14d1ea1c8e9d",
+    "id": "2fb1c8566638",
     "subject": "Bcl-2 family",
     "predicate": "includes",
-    "object": "Bak",
+    "object": "BAK",
     "context": {
       "en-US": "Bcl-2 family includes Bak. The Bcl-2 protein family comprises pro-apoptotic effectors (Bax, Bak) and BH3-only activators balanced against anti-apoptotic guardians (Bcl-2, Bcl-xL, Mcl-1, Bcl-w) that set the mitochondrial death threshold. Bak is a pro-apoptotic Bcl-2 effector anchored at the mitochondrial outer membrane that cooperates with Bax to execute MOMP. The relationship is directional, with Bcl-2 family acting as the operative agent upon Bak rather than the reverse. Together these facts situate the relationship within the broader architecture of cancer biology, clarifying how the two entities connect as part of the hallmark or taxonomic framework.",
       "zh-TW": "Bcl-2 family 包括 Bak。 Bcl-2 蛋白家族包括促凋亡效應子 (Bax、Bak) 和僅 BH3 活化劑，與設定粒線體死亡閾值的抗凋亡衛士 (Bcl-2、Bcl-xL、Mcl-1、Bcl-w) 保持平衡。 Bak 是一種促凋亡 Bcl-2 效應子，錨定在粒線體外膜上，與 Bax 合作執行 MOMP。這種關係是有方向的，Bcl-2 family 充當 Bak 的操作主體，而不是相反。這些事實將這種關係​​置於更廣泛的癌症生物學架構中，闡明瞭這兩個實體如何作為標誌或分類框架的一部分連結。"
@@ -1299,13 +1299,13 @@
     "confidence": 0.95,
     "source_document": "Bcl-2 family.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
-    "id": "967bb30bb505",
+    "id": "22e52f5f0862",
     "subject": "Bcl-2 family",
     "predicate": "includes",
-    "object": "Bax",
+    "object": "BAX",
     "context": {
       "en-US": "Bcl-2 family includes Bax. The Bcl-2 protein family comprises pro-apoptotic effectors (Bax, Bak) and BH3-only activators balanced against anti-apoptotic guardians (Bcl-2, Bcl-xL, Mcl-1, Bcl-w) that set the mitochondrial death threshold. Bax is a pro-apoptotic Bcl-2 effector that, upon activation, oligomerizes to form the pores that permeabilize the mitochondrial outer membrane. The relationship is directional, with Bcl-2 family acting as the operative agent upon Bax rather than the reverse. Together these facts situate the relationship within the broader architecture of cancer biology, clarifying how the two entities connect as part of the hallmark or taxonomic framework.",
       "zh-TW": "Bcl-2 family 包括Bax。 Bcl-2 蛋白家族包括促凋亡效應子 (Bax、Bak) 和僅 BH3 活化劑，與設定粒線體死亡閾值的抗凋亡衛士 (Bcl-2、Bcl-xL、Mcl-1、Bcl-w) 保持平衡。 Bax 是一種促凋亡 Bcl-2 效應子，活化後會寡聚形成使粒線體外膜通透的孔。這種關係是有方向的，Bcl-2 family 充當Bax 的操作主體，而不是相反。這些事實將這種關係​​置於更廣泛的癌症生物學架構中，闡明瞭這兩個實體如何作為標誌或分類框架的一部分連結。"
@@ -1313,7 +1313,7 @@
     "confidence": 0.95,
     "source_document": "Bcl-2 family.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "7de2bfd72a07",
@@ -2240,8 +2240,8 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "c5f6f2a6f2dc",
-    "subject": "Omi/HtrA2",
+    "id": "16c2b61e2f01",
+    "subject": "Omi-HtrA2",
     "predicate": "antagonizes",
     "object": "Inhibitor of Apoptosis Proteins",
     "context": {
@@ -2251,7 +2251,7 @@
     "confidence": 0.95,
     "source_document": "Inhibitor of Apoptosis Proteins.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "09be50de3c82",

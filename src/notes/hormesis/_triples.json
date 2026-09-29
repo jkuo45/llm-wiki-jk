@@ -476,10 +476,10 @@
     "updated": "2026-09-04T14:27:19Z"
   },
   {
-    "id": "0957d13a03bb",
+    "id": "a9d3305d39c0",
     "subject": "Curcumin",
     "predicate": "inhibits",
-    "object": "NF-kB",
+    "object": "NF-κB",
     "context": {
       "en-US": "Curcumin modulates inflammatory pathways by inhibiting NF-kB signaling. Because turmeric contains only about 3% curcumin with low bioavailability, its in vivo efficacy often requires high doses or formulation strategies such as co-administration with piperine from black pepper.",
       "zh-TW": "Curcumin 透過抑制 NF-kB 訊號調控發炎路徑。由於薑黃僅含約 3% 的 Curcumin 且生物可利用率低，其在體內的功效常需高劑量或配方策略，例如與黑胡椒中的 piperine 併用。"
@@ -487,7 +487,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - 2025_dietary-hormesis-beyond-nutrition_NPJ-SciFood.md",
     "created": "2026-09-04T14:27:19Z",
-    "updated": "2026-09-04T14:27:19Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
     "id": "8e7527716b0a",
@@ -756,10 +756,10 @@
     "updated": "2026-09-04T14:27:19Z"
   },
   {
-    "id": "65fcb102ed80",
+    "id": "a9d22da3effc",
     "subject": "Exercise",
     "predicate": "activates",
-    "object": "PGC-1alpha",
+    "object": "PGC-1α",
     "context": {
       "en-US": "Exercise enhances mitochondrial biogenesis via the AMPK-SIRT1-PGC-1alpha axis, including the downstream FNDC5/irisin/BDNF cascade demonstrated in AD rat models. Belviranli et al. showed treadmill exercise restored AMPK/SIRT1/PGC-1alpha signaling and elevated MG53 across brain, muscle, and circulation while reducing plasma tau. This links systemic energy sensing to central neurotrophic and mitochondrial adaptation.",
       "zh-TW": "Exercise 經由 AMPK-SIRT1-PGC-1alpha 軸增強粒線體新生，包括在 AD 大鼠模型中證實的下游 FNDC5/irisin/BDNF 級聯。Belviranli 等人顯示跑步機運動恢復 AMPK/SIRT1/PGC-1alpha 訊號，並在腦、肌肉與循環中提升 MG53，同時降低血漿 tau。這將全身性能量感測與中樞神經營養及粒線體適應連結起來。"
@@ -767,7 +767,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - 2026_Liu_redox-exercise_Nrf2-BDNF_Front-Nutr-1850414.md",
     "created": "2026-09-04T14:27:19Z",
-    "updated": "2026-09-04T14:27:19Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
     "id": "2426a01a0f5a",
@@ -854,10 +854,10 @@
     "updated": "2026-09-04T14:27:19Z"
   },
   {
-    "id": "c52b5c076a9b",
+    "id": "b2504560b153",
     "subject": "Zinc Supplementation",
     "predicate": "worsens",
-    "object": "Alzheimers Disease",
+    "object": "Alzheimer's Disease",
     "context": {
       "en-US": "Dietary zinc (10 ppm) worsened spatial memory in CRND8/E4 late-onset AD mice carrying ApoE epsilon4, increasing soluble and insoluble Abeta via altered metal-amyloid interactions and zinc transporter expression. This genotype-dependent harm contrasts with zinc's canonical antioxidant role in SOD and membrane stabilization. It shows antioxidant efficacy depends on ApoE genotype, baseline redox status, and disease biology.",
       "zh-TW": "飲食鋅 (10 ppm) 在攜帶 ApoE epsilon4 的 CRND8/E4 晚發型 AD 小鼠中惡化空間記憶，經由改變的金屬-類澱粉交互作用與鋅轉運體表現增加可溶性與不可溶性 Abeta。此基因型依賴性傷害與鋅在 SOD 與膜穩定中的典型抗氧化角色形成對比。顯示抗氧化療效取決於 ApoE 基因型、基礎氧化還原狀態與疾病生物學。"
@@ -865,7 +865,7 @@
     "confidence": 0.8,
     "source_document": "_document_ - 2026_Liu_redox-exercise_Nrf2-BDNF_Front-Nutr-1850414.md",
     "created": "2026-09-04T14:27:19Z",
-    "updated": "2026-09-04T14:27:19Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "4e1772847803",

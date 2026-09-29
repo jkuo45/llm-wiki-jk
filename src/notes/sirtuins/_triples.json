@@ -98,10 +98,10 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "3646c2090800",
+    "id": "40602e94ff33",
     "subject": "Adiponectin",
     "predicate": "improves",
-    "object": "Insulin sensitivity",
+    "object": "Insulin Sensitivity",
     "context": {
       "en-US": "Administration of adiponectin to obese, high-fat-fed mice improves insulin sensitivity and lowers blood glucose, reflecting its role as an insulin-sensitizing adipokine. It acts through the AdipoR1/2 receptors to activate AMPK and PPAR-α pathways that enhance fatty-acid oxidation and glucose uptake. Directionally, adiponectin sits upstream of improved insulin action in peripheral tissues. Because SIRT1 raises adiponectin via the FOXO1–C/EBPα axis, this forms part of SIRT1's anti-diabetic circuitry, and declining adiponectin with obesity contributes to the insulin resistance that sirtuin-activating interventions aim to reverse.",
       "zh-TW": "向肥胖的高脂飲食小鼠施用脂聯素可改善胰島素敏感性並降低血糖，反映其作為胰島素增敏脂肪因子的作用。它通過 AdipoR1/2 受體活化 AMPK 和 PPAR-α 通路，增強脂肪酸氧化和葡萄糖攝取。在方向性上，脂聯素位於周圍組織改善胰島素作用的上游。由於 SIRT1 通過 FOXO1–C/EBPα 軸提高脂聯素，這構成 SIRT1 抗糖尿病電路的一部分，肥胖伴隨的脂聯素下降導致胰島素抵抗，sirtuin 活化干預旨在逆轉這一過程。"
@@ -109,7 +109,7 @@
     "confidence": 0.95,
     "source_document": "Adiponectin.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-08-20T08:17:33Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "931461977730",
@@ -182,10 +182,10 @@
     "updated": "2026-09-02T06:30:30Z"
   },
   {
-    "id": "b02f2d719b47",
+    "id": "abb90b48c3a6",
     "subject": "AGK2",
     "predicate": "confers_neuroprotection_in",
-    "object": "Ischemic stroke",
+    "object": "Ischemic Stroke",
     "context": {
       "en-US": "AGK2 confers neuroprotection under ischemic and hypoxic conditions by suppressing phospho-JNK and FOXO3a and preventing caspase-3 cleavage. Directionally, AGK2/SIRT2 inhibition sits upstream of reduced neuronal death. This broadens AGK2's neuroprotective utility beyond proteinopathy, and it reinforces the inverse therapeutic logic for SIRT2. By blunting JNK and FOXO3a death signaling and preventing effector-caspase activation, AGK2 protects neurons in ischemic stroke models. These findings support SIRT2 inhibition as a candidate strategy across diverse forms of acute and chronic neurodegeneration.",
       "zh-TW": "AGK2 在缺血和缺氧條件下賦予神經保護，透過抑制磷酸化 JNK 和 FOXO3a 並防止 caspase-3 切割。在方向性上，AGK2/SIRT2 抑制位於減少神經元死亡的上游。這擴展了 AGK2 超越蛋白質病變的神經保護效用，並強化了 SIRT2 的反向治療邏輯。透過削弱 JNK 和 FOXO3a 死亡訊號並防止效應型 caspase 活化，AGK2 在缺血性中風模型中保護神經元。這些發現支持 SIRT2 抑制作為跨多種急性和慢性神經退行性疾病的候選策略。"
@@ -193,7 +193,7 @@
     "confidence": 0.95,
     "source_document": "AGK2.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-08-20T08:16:51Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "7cb21f9bfb11",
@@ -336,10 +336,10 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "9a91aa157064",
+    "id": "1990ab7b0331",
     "subject": "Anti-CD38 mAbs",
     "predicate": "reshape",
-    "object": "Tumor microenvironment",
+    "object": "Tumor Microenvironment",
     "context": {
       "en-US": "Anti-CD38 monoclonal antibodies eliminate CD38+ Tregs and MDSCs and reduce adenosine-mediated immunosuppression, restoring T- and NK-cell function in the tumor microenvironment. Directionally, anti-CD38 therapy sits upstream of tumor-microenvironment reprogramming. This is both an anticancer action and a means to spare NAD+ for sirtuins, and it illustrates the dual therapeutic logic of CD38 targeting. By depleting immunosuppressive cells and reducing adenosine, these antibodies restore effector immune responses. The resulting reshaping of the tumor microenvironment contributes to the efficacy of anti-CD38 antibodies in multiple myeloma and other cancers.",
       "zh-TW": "抗 CD38 單克隆抗體消除 CD38+ 調節性 T 細胞和 MDSC，並減少腺苷介導的免疫抑制，恢復腫瘤微環境中 T 細胞和 NK 細胞的功能。在方向性上，抗 CD38 治療位於腫瘤微環境重編程的上游。這既是抗癌作用也是為 sirtuin 節省 NAD+ 的手段，說明了 CD38 靶向的雙重治療邏輯。透過清除免疫抑制細胞和減少腺苷，這些抗體恢復效應免疫反應。由此產生的腫瘤微環境重塑有助於抗 CD38 抗體在多發性骨髓瘤和其他癌症中的療效。"
@@ -347,7 +347,7 @@
     "confidence": 0.95,
     "source_document": "Tumor Microenvironment.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-08-20T08:16:51Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "f0a5851137d4",
@@ -1218,8 +1218,8 @@
     "updated": "2026-08-20T08:12:22Z"
   },
   {
-    "id": "375a5eb44dc7",
-    "subject": "Cigarette smoke",
+    "id": "bc50c4686587",
+    "subject": "Cigarette Smoke",
     "predicate": "decreases_interaction_between",
     "object": "SIRT1 and RelA/p65",
     "context": {
@@ -1229,7 +1229,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - sirtuins in health and disease s41392-022-01257-8.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-08-20T08:17:33Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "7d03d35e3d42",
@@ -1386,10 +1386,10 @@
     "updated": "2026-08-20T08:17:33Z"
   },
   {
-    "id": "9eecbde116b4",
+    "id": "ce559648b0f8",
     "subject": "Daratumumab",
     "predicate": "treats",
-    "object": "Multiple myeloma",
+    "object": "Multiple Myeloma",
     "context": {
       "en-US": "Daratumumab is a frontline anti-CD38 antibody therapy for multiple myeloma, where CD38 is highly expressed on malignant plasma cells. Its clinical efficacy stems from direct and immune-mediated elimination of these cells, including complement-dependent cytotoxicity, antibody-dependent cellular cytotoxicity, and antibody-dependent cellular phagocytosis. Directionally, daratumumab sits upstream of myeloma cell clearance. Beyond oncology, its CD38 inhibition has the secondary effect of sparing NAD+ pools that sirtuins depend on, and it depletes CD38+ regulatory immune cells, reshaping the tumor microenvironment to restore anti-tumor T-cell and NK-cell responses.",
       "zh-TW": "Daratumumab 是多發性骨髓瘤的一線抗 CD38 抗體療法，其中 CD38 在惡性漿細胞上高度表達。其臨床療效源於直接和免疫介導的這些細胞的消除，包括補體依賴性細胞毒性、抗體依賴性細胞毒性和抗體依賴性細胞吞噬作用。在方向性上，Daratumumab 位於骨髓瘤細胞清除的上游。除了腫瘤學之外，其 CD38 抑制的次級效應是節省 sirtuin 依賴的 NAD+ 池，並耗竭 CD38+ 調節性免疫細胞，重塑腫瘤微環境以恢復抗腫瘤 T 細胞和 NK 細胞反應。"
@@ -1397,7 +1397,7 @@
     "confidence": 0.95,
     "source_document": "Daratumumab.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-08-20T08:17:33Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "a694005ea855",
@@ -1568,10 +1568,10 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "bc3ddbbb33b2",
+    "id": "0ea0ee72c7a7",
     "subject": "DSB repair and RCM",
     "predicate": "may_advance",
-    "object": "Epigenetic clock",
+    "object": "Epigenetic Clock",
     "context": {
       "en-US": "DSB repair and RCM may advance epigenetic clocks by affecting DNA methylation machinery (e.g., TET enzymes and DNMTs). Because the response to DNA damage follows conserved mechanisms, aging becomes somewhat predictable despite random damage, leading to consistent epigenetic drift. Directionally, DNA damage repair and the consequent relocalization of chromatin modifiers sit upstream of clock-measured epigenetic age acceleration, linking RCM to quantitative measures of biological aging.",
       "zh-TW": "雙股斷裂（DSB）修復和 RCM 可能透過影響 DNA 甲基化機制（例如 TET 酶和 DNMTs）來推進表觀遺傳時鐘。由於 DNA 損傷反應遵循保守的機制，衰老因此具有一定的可預測性，儘管損傷是隨機的，導致一致的表觀遺傳漂移。從作用方向而言，DNA 損傷修復及隨後的染色質修飾因子再定位位於時鐘測量的表觀遺傳年齡加速的上游，將 RCM 與生物衰老的量化測量聯繫起來。"
@@ -1579,7 +1579,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - relocalization of sirtuins - chromatin modifiers, grok.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-08-20T08:12:22Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "e92c330d2a7e",
@@ -2142,10 +2142,10 @@
     "updated": "2026-09-02T06:30:30Z"
   },
   {
-    "id": "f5468cd628a1",
+    "id": "f0556f018c22",
     "subject": "Honokiol",
     "predicate": "reverses",
-    "object": "Cardiac hypertrophy",
+    "object": "Cardiac Hypertrophy",
     "context": {
       "en-US": "Through SIRT3 activation, honokiol reverses pathological cardiac hypertrophy and protects against doxorubicin-induced cardiotoxicity in preclinical models. Directionally, honokiol activates SIRT3 to engage antihypertrophic and antioxidant programs. By activating mitochondrial defenses, it counters the oxidative and energetic deficits of failing myocardium and suppresses the ROS-driven signaling that sustains hypertrophic growth. This positions SIRT3 as a therapeutic node in heart failure, consistent with the observations that SIRT3-deficient mice develop severe hypertrophy and fibrosis while SIRT3-overexpressing mice are resistant to hypertrophy-inducing stimuli.",
       "zh-TW": "通過 SIRT3 活化，厚朴酚在臨床前模型中逆轉病理性心臟肥大並保護對抗 doxorubicin 誘導的心臟毒性。在方向性上，厚朴酚活化 SIRT3 以啟動抗肥大和抗氧化程序。通過活化粒線體防禦，它對抗衰竭心肌的氧化和能量缺陷，並抑制維持肥大生長的 ROS 驅動信號。這將 SIRT3 定位為心臟衰竭的治療節點，與 SIRT3 缺乏小鼠發展嚴重肥大和纖維化而 SIRT3 過量表達小鼠對肥大誘導刺激具有抗性的觀察一致。"
@@ -2153,13 +2153,13 @@
     "confidence": 0.95,
     "source_document": "Honokiol.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-08-20T08:17:33Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
-    "id": "4d912b18b588",
+    "id": "29f8eb773b1b",
     "subject": "Honokiol",
     "predicate": "is_a_positive_allosteric_modulator_of",
-    "object": "GABA-A receptor",
+    "object": "GABA_A receptor",
     "context": {
       "en-US": "Honokiol is a positive allosteric modulator (PAM) of the GABA-A receptor, including both synaptic and extrasynaptic receptors, acting at the benzodiazepine site. It shows higher efficacy at delta-subunit-containing receptors and its anxiolytic effect is blocked by the antagonist bicuculline and by flumazenil.",
       "zh-TW": "Honokiol 是 GABA-A 受體的正面異位調節劑（PAM），涵蓋突觸和突觸外受體，作用於苯二氮平類藥物位點。它在含 δ 亞基的受體上表現出更高效能，其抗焦慮作用會被拮抗劑 bicuculline 和 flumazenil 阻斷。"
@@ -2167,7 +2167,7 @@
     "confidence": 0.95,
     "source_document": "Honokiol.md",
     "created": "2026-09-02T06:30:30Z",
-    "updated": "2026-09-02T06:30:30Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "7a044d58b78c",
@@ -2198,10 +2198,10 @@
     "updated": "2026-09-02T06:30:30Z"
   },
   {
-    "id": "f0e562f622ab",
+    "id": "7777c49ddbd9",
     "subject": "Honokiol",
     "predicate": "suppresses",
-    "object": "NF-kB",
+    "object": "NF-κB",
     "context": {
       "en-US": "Honokiol inhibits NF-kB activation downstream of PKC and MAPK, reducing TNF-alpha, NO, and COX-2 expression in macrophages, microglia, astrocytes, and dendritic cells. It also suppresses NF-kB/TGF-beta1 signaling partly via SIRT3, limiting fibrotic and inflammatory responses.",
       "zh-TW": "Honokiol 抑制 PKC 和 MAPK 下游的 NF-kB 活化，減少巨噬細胞、微膠質細胞、星狀細胞和樹突狀細胞中的 TNF-α、NO 和 COX-2 表達。它還部分透過 SIRT3 抑制 NF-kB/TGF-β1 信號，限制纖維化和發炎反應。"
@@ -2209,7 +2209,7 @@
     "confidence": 0.9,
     "source_document": "Honokiol.md",
     "created": "2026-09-02T06:30:30Z",
-    "updated": "2026-09-02T06:30:30Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
     "id": "4f32ca9c880c",
@@ -2296,10 +2296,10 @@
     "updated": "2026-08-20T08:16:51Z"
   },
   {
-    "id": "beb92c2ddc21",
+    "id": "4c89adadc2eb",
     "subject": "ICE Mouse",
     "predicate": "shifts",
-    "object": "Epigenetic clock",
+    "object": "Epigenetic Clock",
     "context": {
       "en-US": "Double-strand-break induction in the ICE Mouse shifts the epigenetic (DNA-methylation) clock, consistent with chromatin modifiers such as SIRT1 relocalizing away from native sites during repair. Directionally, double-strand-break repair sits upstream of clock acceleration. This provides a quantitative readout of epigenetic drift, and it links the RCM model to measurable aging biomarkers. By demonstrating that DNA damage alone can advance the epigenetic clock, the ICE Mouse connects the loss of epigenetic information to the rate of aging. This finding supports the use of DNA-methylation clocks as indicators of biological age.",
       "zh-TW": "ICE 小鼠中的雙鏈斷裂誘導改變了表觀遺傳（DNA 甲基化）時鐘，與染色質修飾因子如 SIRT1 在修復期間從原始位點重新定位一致。在方向性上，雙鏈斷裂修復位於時鐘加速的上游。這提供了表觀遺傳漂變的量化讀數，並將 RCM 模型與可測量的衰老生物標誌物聯繫起來。透過證明僅 DNA 損傷就能推進表觀遺傳時鐘，ICE 小鼠將表觀遺傳資訊的喪失與衰老速率聯繫起來。此發現支持使用 DNA 甲基化時鐘作為生物年齡的指標。"
@@ -2307,7 +2307,7 @@
     "confidence": 0.95,
     "source_document": "ICE Mouse.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-08-20T08:16:51Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "c70a9ffc7fd9",
@@ -3024,8 +3024,8 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "7f3bf6c0c5ea",
-    "subject": "NADPH oxidase",
+    "id": "af7a525154d2",
+    "subject": "NADPH Oxidase",
     "predicate": "is_inhibited_by",
     "object": "SIRT3",
     "context": {
@@ -3035,7 +3035,7 @@
     "confidence": 0.95,
     "source_document": "NADPH oxidase.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "70ed93c891c7",
@@ -3486,8 +3486,8 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "2e0a21e3a3ec",
-    "subject": "Partial reprogramming",
+    "id": "7484e58f53b7",
+    "subject": "Partial Reprogramming",
     "predicate": "can_reset",
     "object": "epigenetic information",
     "context": {
@@ -3497,7 +3497,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - relocalization of sirtuins - chromatin modifiers, grok.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-08-20T08:12:22Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "45da8c8def41",
@@ -3556,10 +3556,10 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "6caacd920ddf",
+    "id": "6ab52f24234b",
     "subject": "PGC-1α",
     "predicate": "regulates",
-    "object": "Mitochondrial biogenesis",
+    "object": "Mitochondrial Biogenesis",
     "context": {
       "en-US": "PGC-1α is the master coactivator controlling mitochondrial biogenesis, stimulating transcription of nuclear-encoded respiratory-chain subunits and coordinating with mitochondrial DNA replication. Its activation by SIRT1, through deacetylation, and by AMPK, through phosphorylation, increases mitochondrial number and oxidative capacity in response to energy demand. Directionally, PGC-1α sits upstream of new mitochondrion formation, partnering with NRF1, NRF2, ERRα, and TFAM to execute the program.",
       "zh-TW": "PGC-1α 是調節粒線體生成與細胞能量代謝的重要轉錄共活化因子，包括呼吸鏈複合體的形成以及粒線體分裂與融合等過程。研究發現 urolithin A 增強 PGC-1α 的表現與活化，改善粒線體功能並增加粒線體數量，這對確保充足的肌肉能量供應並支持耐力表現至關重要。因此，PGC-1α 活化是 urolithin A 對粒線體健康效應的核心機制。"
@@ -3567,7 +3567,7 @@
     "confidence": 0.95,
     "source_document": "Mitochondrial Biogenesis.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-08-20T07:35:35Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "a638301546da",
@@ -4130,10 +4130,10 @@
     "updated": "2026-08-20T08:16:51Z"
   },
   {
-    "id": "fecc52160bb9",
+    "id": "84d397aef0ba",
     "subject": "Resveratrol (high-calorie diet mice)",
     "predicate": "increases",
-    "object": "Mitochondrial biogenesis",
+    "object": "Mitochondrial Biogenesis",
     "context": {
       "en-US": "In mice on a high-calorie diet, resveratrol increases mitochondrial number and function, an effect accompanied by elevated SIRT1 and PGC-1α activity. This shift counters diet-induced metabolic dysfunction by improving oxidative capacity, increasing endurance, and protecting against the metabolic consequences of overnutrition. Directionally, resveratrol activates SIRT1/PGC-1α to drive mitochondrial biogenesis. The finding, from Baur and Sinclair's 2006 study in Cell, helped popularize resveratrol as a caloric-restriction mimetic against diet-induced obesity and demonstrated that a small molecule could reproduce key metabolic benefits of dietary restriction in mammals.",
       "zh-TW": "在高熱量飲食小鼠中，白藜蘆醇增加粒線體數量和功能，這種效應伴隨著 SIRT1 和 PGC-1α 活性的升高。這種轉變通過提高氧化能力、增加耐力和保護對抗過度營養的代謝後果來對抗飲食誘導的代謝功能障礙。在方向性上，白藜蘆醇活化 SIRT1/PGC-1α 以驅動粒線體生物合成。這一發現來自 Baur 和 Sinclair 2006 年在 Cell 上的研究，幫助推廣白藜蘆醇作為熱量限制模擬物對抗飲食誘導的肥胖，並證明小分子可以在哺乳動物中重現飲食限制的關鍵代謝益處。"
@@ -4141,7 +4141,7 @@
     "confidence": 0.95,
     "source_document": "Mitochondrial Biogenesis.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-08-20T08:17:33Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "8228a35373e1",
@@ -4466,10 +4466,10 @@
     "updated": "2026-08-20T08:17:33Z"
   },
   {
-    "id": "105fe4316e24",
+    "id": "f5b510565a80",
     "subject": "SIRT1",
     "predicate": "activates",
-    "object": "ADAM-10",
+    "object": "ADAM10",
     "context": {
       "en-US": "SIRT1 upregulates ADAM-10 (α-secretase), shifting APP processing away from amyloid-β and protecting against Alzheimer's pathology.",
       "zh-TW": "SIRT1 上調 ADAM-10（α-secretase），將 APP 處理過程從類澱粉 β 方向轉移，從而預防阿茲海默症的病理變化。"
@@ -4477,7 +4477,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "a44daff09c59",
@@ -4760,10 +4760,10 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "0612c11b7815",
+    "id": "5ec017c1d104",
     "subject": "SIRT1",
     "predicate": "dose_dependently_affects",
-    "object": "Cardiac hypertrophy",
+    "object": "Cardiac Hypertrophy",
     "context": {
       "en-US": "SIRT1 has dose-dependent effects on cardiac hypertrophy: low (2.5-fold) or moderate (7.5-fold) overexpression attenuates hypertrophy, whereas high (12.5-fold) overexpression increases it. Directionally, SIRT1 expression level determines whether the outcome is protective or detrimental. This biphasic behavior explains conflicting reports in the literature on SIRT1's cardiac effects, which differ depending on the degree of overexpression studied. The finding underscores that more SIRT1 is not always better, and that therapeutic approaches must consider dosing windows.",
       "zh-TW": "SIRT1對心臟肥大具有劑量依賴性的效果：低（2.5倍）或中等（7.5倍）過表達可減輕肥大，而高（12.5倍）過表達則加重肥大。方向上，SIRT1表達水平決定了結果是保護性還是有害。這種雙相行為解釋了文獻中關於SIRT1心臟效果的矛盾報導，這些報導因研究的過表達程度不同而異。此發現強調更多的SIRT1並非總是更好，治療方法必須考慮劑量窗口。"
@@ -4771,7 +4771,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Sirtuins Guardians of Mammalian Healthspan.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "829625546d74",
@@ -4872,10 +4872,10 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "63fd11d8e344",
+    "id": "8cead4e7d5a0",
     "subject": "SIRT1",
     "predicate": "functions_in_aging",
-    "object": "Cell cycle arrest",
+    "object": "Cell Cycle Arrest",
     "context": {
       "en-US": "SIRT1 governs cell-cycle checkpoints by deacetylating p53 (reducing its transcriptional activity) and RB, supporting DNA-repair-coupled arrest rather than apoptosis or premature senescence; age-related SIRT1 decline biases G1/S and G2/M responses toward senescence (reviewed in the source review).",
       "zh-TW": "SIRT1 透過去乙醯化 p53（減少其轉錄活性）和 RB 來控制細胞週期檢查點，支持 DNA 修復偶聯的停滯而非凋亡或過早衰老；與年齡相關的 SIRT1 下降使 G1/S 和 G2/M 反應偏向衰老（參見文獻綜述）。"
@@ -4883,13 +4883,13 @@
     "confidence": 0.9,
     "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
-    "id": "68deb68764d2",
+    "id": "a72aafaa1abc",
     "subject": "SIRT1",
     "predicate": "functions_in_aging",
-    "object": "Cellular senescence",
+    "object": "Cellular Senescence",
     "context": {
       "en-US": "SIRT1 opposes cellular senescence by deacetylating p53, FOXOs, p66Shc, and histones at SASP loci: SIRT1 activation reduces SASP factor secretion (including IL-6 and PAI-1) and delays replicative/oncogene-induced senescence, while its decline with age is a driver of the senescence phenotype (source review; Giblin et al., 2014).",
       "zh-TW": "SIRT1 透過去乙醯化 p53、FOXOs、p66Shc 和 SASP 位點的組蛋白來對抗細胞衰老：SIRT1 活化減少 SASP 因子分泌（包括 IL-6 和 PAI-1）並延遲複製性/癌基因誘導的衰老，而其隨年齡的下降是衰老表型的驅動因素（文獻綜述；Giblin et al., 2014）。"
@@ -4897,7 +4897,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "aaadba9e6db3",
@@ -4928,10 +4928,10 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "036efbb35f23",
+    "id": "63808bbd0581",
     "subject": "SIRT1",
     "predicate": "functions_in",
-    "object": "cholesterol metabolism",
+    "object": "Cholesterol Metabolism",
     "context": {
       "en-US": "SIRT1 regulates cholesterol metabolism by deacetylating LXR and modulating hepatic lipid-gene programs, supporting reverse cholesterol transport and lipid homeostasis; its actions on bile-acid (FXR) and cholesterol (SREBP) pathways contribute to cardiovascular protection.",
       "zh-TW": "SIRT1 透過去乙醯化 LXR 和調節肝臟脂質基因程序來調控膽固醇代謝，支持反向膽固醇運輸和脂質恆定；其對膽汁酸（FXR）和膽固醇（SREBP）通路的作用有助於心血管保護。"
@@ -4939,7 +4939,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "bae044c9cfa1",
@@ -5085,7 +5085,7 @@
     "id": "219f56c7c979",
     "subject": "SIRT1",
     "predicate": "functions_in",
-    "object": "differentiation",
+    "object": "Differentiation",
     "context": {
       "en-US": "SIRT1 controls differentiation in a lineage-dependent manner: it inhibits myogenesis by deacetylating PCAF and MyoD and repressing myogenin, while promoting osteoblast differentiation over adipogenesis by repressing PPAR-gamma and supporting RUNX2. This reflects SIRT1's context-specific role in cell-fate decisions.",
       "zh-TW": "SIRT1 以譜系依賴的方式控制分化：它透過去乙醯化 PCAF 和 MyoD 並抑制 myogenin 來抑制肌生成，同時透過抑制 PPAR-gamma 並支持 RUNX2 來促進成骨細胞分化而非脂肪生成。這反映了 SIRT1 在細胞命運決定中的環境特異性角色。"
@@ -5093,7 +5093,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "9101f8acd460",
@@ -5124,10 +5124,10 @@
     "updated": "2026-08-20T08:16:51Z"
   },
   {
-    "id": "971e4f695089",
+    "id": "bb0606a5312b",
     "subject": "SIRT1",
     "predicate": "functions_in",
-    "object": "DNA repair",
+    "object": "DNA Repair",
     "context": {
       "en-US": "SIRT1 functions in DNA repair, one of its core physiological roles tied to NAD+-dependent deacetylation and caloric-restriction-mediated longevity. SIRT1 relocalizes to DNA double-strand breaks, where it deacetylates H4K16 and other targets to promote homologous-recombination repair and maintain heterochromatin, supporting genomic stability with age (Oberdoerffer et al., 2008, PMC2853975). Its decline with falling NAD+ impairs this repair coupling, connecting sirtuin biology to the DNA-damage response.",
       "zh-TW": "SIRT1 在 DNA 修復中發揮功能，這是其與 NAD+ 依賴性去乙醯化和熱量限制介導的長壽相關的核心生理功能之一。SIRT1 再定位至 DNA 雙股斷裂處，在那裡去乙醯化 H4K16 及其他靶點以促進同源重組修復並維持異染色質，支持隨年齡增長的基因組穩定性（Oberdoerffer et al., 2008, PMC2853975）。隨著 NAD+ 下降而導致的其功能減弱損害了這種修復耦合，將 sirtuin 生物學與 DNA 損傷反應聯繫起來。"
@@ -5135,7 +5135,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "9a82ab2fa5d8",
@@ -5295,7 +5295,7 @@
     "id": "a46fb25c3140",
     "subject": "SIRT1",
     "predicate": "deacetylates",
-    "object": "FOXO1",
+    "object": "FoxO1",
     "context": {
       "en-US": "SIRT1 deacetylates the forkhead factor FOXO1, redirecting its transcriptional program toward metabolic homeostasis and stress resistance while tempering apoptosis. Deacetylated FOXO1 cooperates with C/EBPα to induce adiponectin and with PGC-1α to support oxidative metabolism, gluconeogenesis, and antioxidant gene expression. Directionally, SIRT1 enzymatically modifies FOXO1 to reshape its target-gene output. This regulation is central to SIRT1's control of glucose handling and insulin sensitivity, and the two proteins form a positive feedback loop in which FOXO1 also activates the SIRT1 promoter, amplifying stress-resistance and metabolic-adaptation programs across tissues.",
       "zh-TW": "SIRT1 去乙醯化叉頭因子 FOXO1，將其轉錄程序重新導向代謝穩態和壓力抗性，同時調節凋亡。去乙醯化的 FOXO1 與 C/EBPα 協同誘導脂聯素，與 PGC-1α 協同支持氧化代謝、糖質新生和抗氧化基因表達。在方向性上，SIRT1 在酶學上修飾 FOXO1 以重塑其靶基因輸出。這種調節是 SIRT1 控制葡萄糖處理和胰島素敏感性的核心，兩種蛋白形成正回饋迴路，其中 FOXO1 也活化 SIRT1 啟動子，在各組織中放大壓力抗性和代謝適應程序。"
@@ -5303,13 +5303,13 @@
     "confidence": 0.95,
     "source_document": "SIRT1.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-08-20T08:17:33Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "bd19eba60343",
     "subject": "SIRT1",
     "predicate": "forms_positive_feedback_loop_with",
-    "object": "FOXO1",
+    "object": "FoxO1",
     "context": {
       "en-US": "A positive feedback loop operates between SIRT1 and the transcription factor FOXO1: SIRT1 deacetylates FOXO1, enhancing its transcriptional activity, while FOXO1 in turn activates SIRT1 expression by binding a regulatory site in the SIRT1 promoter. Directionally, the loop is bidirectional, with each protein reinforcing the other. This self-reinforcing circuit amplifies stress resistance and metabolic adaptation, ensuring robust responses to conditions such as fasting, oxidative stress, and nutrient deprivation. Because both proteins regulate genes for antioxidant defense, autophagy, and metabolism, the loop coordinates a coherent cellular response.",
       "zh-TW": "SIRT1與轉錄因子FOXO1之間存在正反饋迴路：SIRT1去乙醯化FOXO1，增強其轉錄活性，而FOXO1反過來透過結合SIRT1啟動子中的調控位點活化SIRT1表達。方向上，此迴路是雙向的，每個蛋白都加強對方。這種自我強化迴路放大了壓力抗性和代謝適應，確保對禁食、氧化壓力和營養剝奪等條件的強健反應。由於兩個蛋白都調節抗氧化防禦、自噬和代謝的基因，此迴路協調了一個一致的細胞反應。"
@@ -5317,7 +5317,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - SIRT1 Protein roles at the nexus of health, disease, and therapeutics.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-08-20T08:16:51Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "04ceb828fb2c",
@@ -5614,10 +5614,10 @@
     "updated": "2026-08-20T08:16:51Z"
   },
   {
-    "id": "3f4f8dffa0fe",
+    "id": "a04a51a72ad9",
     "subject": "SIRT1",
     "predicate": "inhibits",
-    "object": "histone acetylation",
+    "object": "Histone Acetylation",
     "context": {
       "en-US": "SIRT1 removes acetyl groups from histones, promoting a repressive/condensed chromatin state at target loci.",
       "zh-TW": "SIRT1 移除組蛋白上的乙醯基團，促進靶位點的抑制性/凝縮染色質狀態。"
@@ -5625,7 +5625,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "210d4700048f",
@@ -5670,10 +5670,10 @@
     "updated": "2026-08-20T08:16:51Z"
   },
   {
-    "id": "9f42b592d6b9",
+    "id": "2b8dc9019a04",
     "subject": "SIRT1",
     "predicate": "promotes",
-    "object": "homologous recombination",
+    "object": "Homologous Recombination",
     "context": {
       "en-US": "SIRT1 activation enhances homologous recombination, a function that could help to decrease tumours by stabilising chromosomes and/or extending the lifespan by maintaining rDNA arrays. In human cells SIRT1 activation enhances homologous recombination. SIRT1 also contributes to telomere maintenance and augments global homologous recombination, linking nuclear sirtuin activity to genome stability and longevity.",
       "zh-TW": "SIRT1活化增強同源重組，此功能可能透過穩定染色體和/或維持rDNA陣列的壽命來幫助減少腫瘤或延長壽命。在人類細胞中，SIRT1活化增強同源重組。SIRT1也有助於端粒維護並增強整體同源重組，將核sirtuin活性與基因組穩定性和長壽聯繫起來。"
@@ -5681,7 +5681,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-08-20T08:16:51Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "c27d1decebed",
@@ -5698,10 +5698,10 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "11f424919308",
+    "id": "ac7e06166c43",
     "subject": "SIRT1",
     "predicate": "functions_in",
-    "object": "insulin secretion",
+    "object": "Insulin Secretion",
     "context": {
       "en-US": "SIRT1 supports glucose-stimulated insulin secretion by transcriptionally repressing UCP2 in pancreatic beta-cells, preserving mitochondrial membrane potential and ATP synthesis; beta-cell SIRT1 overexpression enhances, while SIRT1 loss impairs, the insulin response, linking SIRT1 to beta-cell function and diabetes.",
       "zh-TW": "SIRT1 透過轉錄抑制胰腺 β 細胞中的 UCP2 來支持葡萄糖刺激的胰島素分泌，維持粒線體膜電位和 ATP 合成；β 細胞 SIRT1 過表達可增強胰島素反應，而 SIRT1 缺失則損害胰島素反應，將 SIRT1 與 β 細胞功能和糖尿病聯繫起來。"
@@ -5709,7 +5709,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "350198b9ba1b",
@@ -5894,10 +5894,10 @@
     "updated": "2026-08-20T08:16:51Z"
   },
   {
-    "id": "fffcfc409e52",
+    "id": "2ce348ad4d84",
     "subject": "SIRT1",
     "predicate": "promotes",
-    "object": "Mitochondrial biogenesis",
+    "object": "Mitochondrial Biogenesis",
     "context": {
       "en-US": "Through deacetylation and activation of PGC-1α, and cooperation with AMPK, SIRT1 promotes the transcription of nuclear- and mitochondrial-encoded respiratory-chain components, increasing mitochondrial number and function. This program expands oxidative capacity and supports the bioenergetic demands of muscle, liver, and brain. Directionally, SIRT1 and PGC-1α sit upstream of new mitochondrion formation. This program underlies many metabolic and neuroprotective benefits attributed to SIRT1 activation and to caloric restriction, and its decline with age contributes to the mitochondrial dysfunction associated with aging, metabolic disease, and neurodegeneration.",
       "zh-TW": "通過去乙醯化並活化 PGC-1α 以及與 AMPK 協同，SIRT1 促進核編碼和粒線體編碼的呼吸鏈成分的轉錄，增加粒線體數量和功能。該程序擴展氧化能力並支持肌肉、肝臟和大腦的生物能量需求。在方向性上，SIRT1 和 PGC-1α 位於新粒線體形成的上游。這個程序是歸因於 SIRT1 活化和熱量限制的許多代謝和神經保護益處的基礎，其隨年齡的下降促進了與衰老、代謝疾病和神經退行性疾病相關的粒線體功能障礙。"
@@ -5905,7 +5905,7 @@
     "confidence": 0.95,
     "source_document": "SIRT1.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-08-20T08:17:33Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "32f9fe47027c",
@@ -6051,7 +6051,7 @@
     "id": "ea0e7967013b",
     "subject": "SIRT1",
     "predicate": "functions_in",
-    "object": "neuroprotection",
+    "object": "Neuroprotection",
     "context": {
       "en-US": "SIRT1 confers neuroprotection by deacetylating FOXO and PGC-1alpha to drive antioxidant and mitochondrial programs, suppressing NF-kB-mediated neuroinflammation, and promoting non-amyloidogenic APP processing via ADAM10; it protects against beta-amyloid toxicity and supports BDNF expression through Hes1 deacetylation.",
       "zh-TW": "SIRT1 透過去乙醯化 FOXO 和 PGC-1alpha 來驅動抗氧化和粒線體程序，抑制 NF-kB 介導的神經發炎反應，並透過 ADAM10 促進非類澱粉樣 APP 處理，從而賦予神經保護作用；它保護免受 β-類澱粉毒性並透過 Hes1 去乙醯化支持 BDNF 表達。"
@@ -6059,7 +6059,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "3e23aef58a6d",
@@ -6132,10 +6132,10 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "d1a3b82a72ee",
+    "id": "55a46c25d428",
     "subject": "SIRT1",
     "predicate": "inhibits",
-    "object": "NLRP3 inflammasome",
+    "object": "NLRP3 Inflammasome",
     "context": {
       "en-US": "SIRT1 plays a protective role in inflammation by deacetylating and attenuating NLRP3 inflammasome activity, reducing caspase-1 activation and IL-1β maturation. Directionally, SIRT1 sits upstream of suppressed NLRP3. This is mediated in part through the AMPKα/spliced-XBP1 pathway in macrophages, and SIRT1 also inhibits NLRP3 by reducing mitochondrial ROS that prime the inflammasome. It links sirtuins to innate immune regulation and metabolic inflammation, and its decline with age is associated with inflammasome-driven pathology. SIRT1-dependent restraint of the NLRP3 inflammasome is thus a key mechanism in aging and inflammation.",
       "zh-TW": "SIRT1 通過去乙醯化並減弱 NLRP3 炎症小體活性在發炎中發揮保護作用，減少 caspase-1 活化和 IL-1β 成熟。在方向性上，SIRT1 位於被抑制的 NLRP3 上游。這部分通過巨噬細胞中的 AMPKα/spliced-XBP1 通路介導，SIRT1 還通過減少粒線體 ROS（這些 ROS 作為炎症小體的引發因子）來抑制 NLRP3。這將 sirtuin 與先天免疫調節和代謝性發炎聯繫起來，其隨年齡的下降與炎症小體驅動的病理相關。SIRT1 依賴性的 NLRP3 炎症小體抑制因此是衰老和發炎中的關鍵機制。"
@@ -6143,7 +6143,7 @@
     "confidence": 0.95,
     "source_document": "SIRT1.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-08-20T08:17:33Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "e1f60a98aa60",
@@ -6163,7 +6163,7 @@
     "id": "17142c61b1c7",
     "subject": "SIRT1",
     "predicate": "activates",
-    "object": "Nrf2",
+    "object": "NRF2",
     "context": {
       "en-US": "SIRT1 activates the transcription factor Nrf2 by modifying the structure of its cytoplasmic repressor Keap1, permitting Nrf2 nuclear translocation and induction of antioxidant genes. Directionally, SIRT1 sits upstream of Nrf2 activation. This boosts expression of phase-II detoxifying and antioxidant enzymes, providing broad protection against oxidative and electrophilic stress. It is a major cytoprotective pathway engaged by SIRT1, complementing its deacetylation of FOXO and PGC-1α. Because Nrf2 coordinates hundreds of protective genes, SIRT1-dependent Nrf2 activation is central to SIRT1's stress-resistance and longevity-associated phenotypes.",
       "zh-TW": "SIRT1 通過修改其細胞質抑制因子 Keap1 的結構來活化轉錄因子 Nrf2，允許 Nrf2 核轉位並誘導抗氧化基因。在方向性上，SIRT1 位於 Nrf2 活化的上游。這增強第二相解毒和抗氧化酶的表達，提供對氧化和親電子壓力的廣泛保護。這是 SIRT1 啟動的主要細胞保護通路，與其對 FOXO 和 PGC-1α 的去乙醯化互補。由於 Nrf2 協調數百個保護基因，SIRT1 依賴性的 Nrf2 活化是 SIRT1 壓力抗性和長壽相關表型的核心。"
@@ -6171,7 +6171,7 @@
     "confidence": 0.95,
     "source_document": "SIRT1.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-08-20T08:17:33Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "2ae377d155d6",
@@ -6289,7 +6289,7 @@
     "id": "b613e5dad19e",
     "subject": "SIRT1",
     "predicate": "inhibited_by",
-    "object": "p16INK4a",
+    "object": "p16INK4A",
     "context": {
       "en-US": "p16INK4a (CDKN2A) accumulation with age drives senescence and opposes SIRT1-dependent replicative programs; SIRT1 represses p16INK4a expression via promoter deacetylation and via the Akt/p70S6K1 axis, and p16INK4a upregulation is a hallmark of aging-related SIRT1 decline (Li & Tollefsbol, 2011, PLoS One 6:e17421, PMID 21390332).",
       "zh-TW": "p16INK4a（CDKN2A）隨年齡的積累驅動衰老並對抗 SIRT1 依賴性的複製程序；SIRT1 透過啟動子去乙醯化和 Akt/p70S6K1 軸抑制 p16INK4a 表達，而 p16INK4a 的上調是衰老相關 SIRT1 下降的標誌（Li & Tollefsbol, 2011, PLoS One 6:e17421, PMID 21390332）。"
@@ -6297,7 +6297,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "90aa583071d7",
@@ -6317,7 +6317,7 @@
     "id": "4f6b3ed55b53",
     "subject": "SIRT1",
     "predicate": "inhibits",
-    "object": "p300",
+    "object": "P300",
     "context": {
       "en-US": "SIRT1 inhibits the coactivator p300 by deacetylation, dampening p300-dependent transcriptional programs.",
       "zh-TW": "SIRT1 透過去乙醯化作用抑制共活化因子 p300，減弱 p300 依賴性的轉錄程序。"
@@ -6325,7 +6325,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "54a704e28b69",
@@ -6401,7 +6401,7 @@
     "id": "b634cd677343",
     "subject": "SIRT1",
     "predicate": "inhibits",
-    "object": "p66Shc",
+    "object": "P66shc",
     "context": {
       "en-US": "SIRT1 inhibits p66Shc, a lifespan-associated redox adapter: SIRT1 represses p66Shc transcription (SIRT1 knockdown raises p66Shc), and p66Shc elevation promotes reactive-oxygen-species generation and endothelial dysfunction, contributing to SIRT1 decline and vascular aging (Zhou et al., 2011, PMID 21778425). By keeping p66Shc low, SIRT1 reduces oxidative stress and age-related damage.",
       "zh-TW": "SIRT1 抑制 p66Shc（一種與壽命相關的氧化還原接頭蛋白）：SIRT1 抑制 p66Shc 的轉錄（SIRT1 下調會增加 p66Shc），而 p66Shc 的升高促進活性氧生成和內皮功能障礙，參與 SIRT1 下降和血管衰老（Zhou et al., 2011, PMID 21778425）。透過維持低水平的 p66Shc，SIRT1 減少氧化壓力和年齡相關的損傷。"
@@ -6409,7 +6409,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "06d8f298a431",
@@ -6496,10 +6496,10 @@
     "updated": "2026-08-20T08:16:51Z"
   },
   {
-    "id": "403e6331a9ff",
+    "id": "2e7de179a690",
     "subject": "SIRT1",
     "predicate": "deacetylates",
-    "object": "PGC-1alpha",
+    "object": "PGC-1α",
     "context": {
       "en-US": "SIRT1 deacetylates PGC-1alpha to induce oxidative phosphorylation genes and mitochondrial biogenesis. This PGC-1alpha activation is a key downstream effector for SIRT1's metabolic and neuroprotective effects.",
       "zh-TW": "SIRT1 去乙醯化 PGC-1alpha，以誘導氧化磷酸化基因與粒線體生物合成。此 PGC-1alpha 活化是 SIRT1 代謝與神經保護作用的關鍵下游效應。"
@@ -6507,21 +6507,7 @@
     "confidence": 0.9,
     "source_document": "SIRT1.md",
     "created": "2026-09-02T06:49:19Z",
-    "updated": "2026-09-02T06:49:19Z"
-  },
-  {
-    "id": "62ba91a726b7",
-    "subject": "SIRT1",
-    "predicate": "deacetylates",
-    "object": "PGC-1α",
-    "context": {
-      "en-US": "SIRT1 deacetylates and activates PGC-1alpha (Rodgers 2005 PMID 15931387), switching it from a repressed to an active transcriptional coactivator that drives mitochondrial and oxidative-metabolism genes. Deacetylated PGC-1alpha enters the nucleus to induce oxidative phosphorylation, gluconeogenesis, fatty-acid oxidation, and antioxidant programs. This canonical node links sirtuins to energy expenditure, exercise response, and longevity, and is complemented by AMPK, which both activates PGC-1alpha directly and promotes SIRT1 activity through NAD+ elevation. Together these pathways coordinate mitochondrial biogenesis and metabolic flexibility in response to nutrient and energy demand.",
-      "zh-TW": "SIRT1 是一種 NAD+ 依賴性去乙醯酶，當被上升的 NAD+ 濃度激活時，會去乙醯化並激活轉錄輔激活因子 PGC-1alpha。PGC-1alpha 進而共同調節粒線體基因與清除活性氧的解毒酶，提升粒線體活性與生物生成，並帶來改善的代謝與抗氧化保護。此 SIRT1-PGC1alpha 軸將 NAD+ 前驅物攝取與粒線體健康連結起來，其作用標的包括 FOXO1 與 FOXO3a 轉錄因子。NR 與 NMN 透過此路徑改善粒線體功能、增強氧化代謝與能量消耗，並保護如 myocardium 等組織免於氧化壓力與細胞凋亡。"
-    },
-    "confidence": 0.95,
-    "source_document": "SIRT1.md",
-    "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-08-20T07:12:28Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
     "id": "5df472c781ee",
@@ -6849,7 +6835,7 @@
     "id": "8a7e67007a44",
     "subject": "SIRT1",
     "predicate": "activates",
-    "object": "Suv39h1",
+    "object": "SUV39H1",
     "context": {
       "en-US": "SIRT1 deacetylates and cooperates with the H3K9 methyltransferase Suv39h1 to enforce heterochromatin and silencing.",
       "zh-TW": "SIRT1 去乙醯化並與 H3K9 甲基轉移酶 Suv39h1 協同作用，以強化異染色質和基因沉默。"
@@ -6857,7 +6843,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "2d70bf9afea4",
@@ -6972,10 +6958,10 @@
     "updated": "2026-08-20T08:16:51Z"
   },
   {
-    "id": "0dc1842b305a",
+    "id": "e349fce91210",
     "subject": "SIRT1",
     "predicate": "inhibits",
-    "object": "TNF-α",
+    "object": "TNFα",
     "context": {
       "en-US": "SIRT1 suppresses TNF-α production/ signaling downstream of NF-κB deacetylation, blunting inflammation.",
       "zh-TW": "SIRT1 在 NF-κB 去乙醯化的下游抑制 TNF-α 的產生/信號傳導，減輕發炎反應。"
@@ -6983,7 +6969,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "78e70f00511c",
@@ -7252,10 +7238,10 @@
     "updated": "2026-08-20T08:17:33Z"
   },
   {
-    "id": "423588efe1dc",
+    "id": "263bc953f201",
     "subject": "SIRT1 allele variants",
     "predicate": "associated_with",
-    "object": "Energy expenditure",
+    "object": "Energy Expenditure",
     "context": {
       "en-US": "Several single-nucleotide polymorphisms in the human SIRT1 gene are significantly associated with systemic energy expenditure in Finnish cohorts, suggesting that SIRT1 variation influences metabolic rate. These variants may alter SIRT1 expression or activity, shifting how individuals burn fuel at rest and during activity. Directionally, genetic SIRT1 variation is linked to an energy-expenditure phenotype. As with most genetic-association findings, effect sizes are modest and context-dependent, and replication in other populations is needed.",
       "zh-TW": "人類 SIRT1 基因中的幾個單核苷酸多態性與芬蘭研究組的全身能量消耗顯著相關，表明 SIRT1 變異影響代謝率。這些變異可能改變 SIRT1 的表達或活性，改變個體在靜息和活動狀態下的燃料燃燒方式。在方向性上，遺傳性 SIRT1 變異與能量消耗表型相關。與大多數遺傳關聯研究一樣，效應量 modest 且取決於情境，需要在其他人群中進行複製驗證。"
@@ -7263,7 +7249,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - sirtuins in health and disease s41392-022-01257-8.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-08-20T08:17:33Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "dd75cf33c690",
@@ -7280,10 +7266,10 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "a59815f7ed8d",
+    "id": "eb2239a6fe94",
     "subject": "SIRT1 and SIRT2",
     "predicate": "promote_cell_proliferation_and_play_a_pro_tumorigenic_role_in",
-    "object": "lung cancer",
+    "object": "Lung Cancer",
     "context": {
       "en-US": "SIRT1 and SIRT2 promote cell proliferation and play a pro-tumorigenic role in lung cancer. Expression of sirtuin 1 and 2 is associated with poor prognosis in non-small cell lung cancer patients. Directionally, SIRT1 and SIRT2 sit upstream of lung cancer cell proliferation and aggressive disease. Their elevated expression is linked to poor prognosis, supporting SIRT1 and SIRT2 as therapeutic targets and prognostic biomarkers in lung cancer.",
       "zh-TW": "SIRT1 和 SIRT2 促進細胞增殖並在肺癌中發揮促腫瘤作用。Sirtuin 1 和 2 的表達與非小細胞肺癌患者的不良預後相關。從作用方向而言，SIRT1 和 SIRT2 位於肺癌細胞增殖和侵襲性疾病的上游。其表達上調與不良預後相關，支持 SIRT1 和 SIRT2 作為肺癌的治療靶點和預後生物標記。"
@@ -7291,7 +7277,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-08-20T08:12:22Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "6cef2189be44",
@@ -7350,10 +7336,10 @@
     "updated": "2026-08-20T08:16:51Z"
   },
   {
-    "id": "9c5e7f02a488",
+    "id": "0ed47fbd1ed7",
     "subject": "SIRT1 deacetylation of H2A.Z",
     "predicate": "protects_against",
-    "object": "Cardiac hypertrophy",
+    "object": "Cardiac Hypertrophy",
     "context": {
       "en-US": "SIRT1-mediated deacetylation and degradation of H2A.Z helps protect the heart from failure by removing a histone variant that drives maladaptive cardiac hypertrophic gene programs. Deacetylated H2A.Z is targeted for proteasomal degradation, reducing its presence at promoters that would otherwise sustain pathological remodeling. Directionally, SIRT1 promotes H2A.Z loss, which attenuates hypertrophy. This is a mechanistically plausible explanation for why SIRT1 activation is cardioprotective, though the in vivo evidence carries moderate confidence.",
       "zh-TW": "SIRT1 介導的 H2A.Z 去乙醯化和降解通過移除驅動適應不良心臟肥大基因程序的組蛋白變體，幫助保護心臟免於衰竭。去乙醯化的 H2A.Z 被標記進行蛋白酶體降解，減少其在否則會維持病理性重塑的啟動子處的存在。在方向性上，SIRT1 促進 H2A.Z 的缺失，從而減弱肥大。這是 SIRT1 活化具有心臟保護作用的一個機制上合理的解釋，儘管體內證據的信心程度為中等。"
@@ -7361,7 +7347,7 @@
     "confidence": 0.75,
     "source_document": "Cardiac Hypertrophy.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-08-20T08:17:33Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "4255fe890978",
@@ -7490,10 +7476,10 @@
     "updated": "2026-08-20T08:16:51Z"
   },
   {
-    "id": "92894986cddc",
+    "id": "5feee78f8ca4",
     "subject": "SIRT1 inhibition",
     "predicate": "sensitizes_cells_to",
-    "object": "Paclitaxel",
+    "object": "paclitaxel",
     "context": {
       "en-US": "In breast tumor cell lines where SIRT1 is primarily cytoplasmic, SIRT1 inhibition causes rapid caspase-2/14-3-3-zeta dissociation and markedly enhances paclitaxel sensitivity. This is therapeutically relevant during mitotic arrest when transcription is not ongoing.",
       "zh-TW": "在 SIRT1 主要位於細胞質的乳腺腫瘤細胞系中，抑制 SIRT1 會導致快速的 caspase-2/14-3-3ζ 解離，並顯著增強對太平洋紫杉醇（paclitaxel）的敏感性。這在有絲分裂停滯、轉錄不進行時具有治療相關性。"
@@ -7501,7 +7487,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - A Biotin Switch-Based Proteomics Approach Identifies 14-3-3zeta as a Target of Sirt1 in the Metabolic Regulation of Caspase-2.md",
     "created": "2026-09-02T06:30:30Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "2b4f8b7f0e19",
@@ -7661,7 +7647,7 @@
     "id": "6970fa00e8bb",
     "subject": "SIRT2",
     "predicate": "inhibited_by",
-    "object": "AKT",
+    "object": "Akt",
     "context": {
       "en-US": "Akt signaling is associated with inhibition of SIRT2-dependent cell-cycle and stress outputs (e.g., cyclin E-CDK2 phosphorylates SIRT2 at Ser331 to reduce its deacetylase activity), placing AKT signaling among negative regulators of the SIRT2 pathway (Pandithage et al., 2008, J Cell Biol, PMID 18504304).",
       "zh-TW": "Akt 信號與 SIRT2 依賴性的細胞週期和壓力輸出的抑制相關（例如 cyclin E-CDK2 在 Ser331 處磷酸化 SIRT2 以降低其去乙醯酶活性），將 AKT 信號列為 SIRT2 通路的負向調節因子（Pandithage et al., 2008, J Cell Biol, PMID 18504304）。"
@@ -7669,13 +7655,13 @@
     "confidence": 0.9,
     "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
-    "id": "f5594662ae03",
+    "id": "fbd408ace4cf",
     "subject": "SIRT2",
     "predicate": "functions_in",
-    "object": "anti-inflammatory",
+    "object": "Anti-inflammatory",
     "context": {
       "en-US": "SIRT2 has an anti-inflammatory role in myeloid and joint cells by deacetylating NF-kB/p65, reducing cytokines and ameliorating arthritis, though it promotes Th2 responses in allergic asthma; this context-dependence reflects SIRT2's diverse substrates and its differential expression across immune cell types.",
       "zh-TW": "SIRT2 在髓系和關節細胞中具有抗發炎作用，透過去乙醯化 NF-kB/p65 減少細胞因子並改善關節炎，但在過敏性氣喘中促進 Th2 反應；這種環境依賴性反映了 SIRT2 多樣化的底物及其在不同免疫細胞類型中的差異表達。"
@@ -7683,13 +7669,13 @@
     "confidence": 0.9,
     "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "698d18e28673",
     "subject": "SIRT2",
     "predicate": "deacetylates",
-    "object": "ATG4B",
+    "object": "Atg4B",
     "context": {
       "en-US": "Starvation induces SIRT2 activity, which deacetylates ATG4B, a cysteine protease required for LC3 processing and autophagy induction. Directionally, SIRT2 enzymatically activates ATG4B. This is necessary for proper autophagosome formation during nutrient deprivation, and it adds SIRT2 to the sirtuin network controlling autophagy. By promoting LC3 processing, SIRT2 supports the elongation of autophagosome membranes during starvation. This nutrient-responsive regulation connects SIRT2 to the cellular adaptation to fasting, complementing the roles of SIRT1 in autophagy regulation.",
       "zh-TW": "飢餓誘導 SIRT2 活性，後者去乙醯化 ATG4B——一種 LC3 加工和自噬誘導所需的半胱氨酸蛋白酶。在方向性上，SIRT2 以酶性方式活化 ATG4B。這在營養缺乏期間對適當的自噬體形成是必需的，並為控制自噬的 sirtuin 網絡增添了 SIRT2。透過促進 LC3 加工，SIRT2 在飢餓期間支持自噬體膜的延伸。這種營養反應性調控將 SIRT2 與細胞對禁食的適應聯繫起來，與 SIRT1 在自噬調控中的角色互補。"
@@ -7697,7 +7683,7 @@
     "confidence": 0.95,
     "source_document": "SIRT2.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-08-20T08:16:51Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "764dfb7bcfd9",
@@ -7899,7 +7885,7 @@
     "id": "72608a9cd827",
     "subject": "SIRT2",
     "predicate": "deacetylates",
-    "object": "FOXO1",
+    "object": "FoxO1",
     "context": {
       "en-US": "SIRT2 deacetylates FOXO1 in the cytoplasm, regulating its transcriptional and pro-autophagic activity in a manner distinct from nuclear SIRT1. Directionally, SIRT2 enzymatically tunes FOXO1. This influences metabolic and stress responses in the cytosolic compartment, and it shows overlapping yet compartment-specific sirtuin control of FOXO factors. By modifying cytoplasmic FOXO1, SIRT2 affects its stability, localization, and interactions without directly altering nuclear transcription. This spatial dimension adds complexity to the sirtuin-FOXO regulatory network.",
       "zh-TW": "SIRT2 在細胞質中去乙醯化 FOXO1，以與核 SIRT1 不同的方式調節其轉錄和促自噬活性。在方向性上，SIRT2 以酶性方式調節 FOXO1。這影響細胞質區室中的代謝和壓力反應，並顯示 sirtuin 對 FOXO 因子具有重疊但區室特異性的控制。透過修飾細胞質 FOXO1，SIRT2 影響其穩定性、定位和相互作用，而不直接改變核轉錄。這種空間維度為 sirtuin-FOXO 調控網絡增添了複雜性。"
@@ -7907,13 +7893,13 @@
     "confidence": 0.95,
     "source_document": "SIRT2.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-08-20T08:16:51Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "19e692a2a348",
     "subject": "SIRT2",
     "predicate": "inhibits",
-    "object": "FOXO1",
+    "object": "FoxO1",
     "context": {
       "en-US": "SIRT2 inhibits FOXO1 by deacetylation (e.g., NF-κB, p53, FOXO1), generally restraining their transcriptional/apoptotic output.",
       "zh-TW": "SIRT2 透過去乙醯化抑制 FOXO1（例如 NF-κB、p53、FOXO1），通常抑制其轉錄/凋亡輸出。"
@@ -7921,7 +7907,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "583a8d786585",
@@ -8120,10 +8106,10 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "719979fd5478",
+    "id": "3575d7f4c835",
     "subject": "SIRT2",
     "predicate": "functions_in",
-    "object": "lipid metabolism",
+    "object": "Lipid Metabolism",
     "context": {
       "en-US": "SIRT2 prevents hepatic steatosis by deacetylating HNF4alpha, a master regulator of hepatic lipid genes, and suppresses adipocyte differentiation via FoxO1 deacetylation that restrains PPAR-gamma; reduced SIRT2 in obese adipose progenitors is linked to visceral fat expansion.",
       "zh-TW": "SIRT2 透過去乙醯化肝臟脂質基因的主調控因子 HNF4α 來預防肝脂肪變性，並透過 FoxO1 去乙醯化抑制脂肪細胞分化（FoxO1 去乙醯化可抑制 PPAR-γ）；肥胖脂肪前體細胞中 SIRT2 的減少與內臟脂肪擴增相關。"
@@ -8131,13 +8117,13 @@
     "confidence": 0.9,
     "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
-    "id": "a2a364dc012a",
+    "id": "045989789656",
     "subject": "SIRT2",
     "predicate": "decreases_atherosclerotic_plaque_via",
-    "object": "Macrophage polarization",
+    "object": "Macrophage Polarization",
     "context": {
       "en-US": "SIRT2 decreases atherosclerotic plaque formation in LDL receptor-deficient mice by regulating macrophage polarization. Directionally, SIRT2 sits upstream of anti-atherogenic macrophage phenotypes. By steering macrophages toward less inflammatory states, SIRT2 reduces the foam-cell accumulation and chronic inflammation that drive plaque development. This links SIRT2 to innate immune modulation in vascular disease, complementing the anti-inflammatory actions of other sirtuins. Because macrophages are central to atherosclerosis, interventions that preserve SIRT2 activity in these cells could help limit plaque burden and stabilize existing lesions, reducing the risk of cardiovascular events.",
       "zh-TW": "SIRT2在LDL受體缺陷小鼠中透過調節巨噬細胞極化來減少動脈粥樣硬化斑塊的形成。方向上，SIRT2位於抗動脈粥樣硬化的巨噬細胞表型的上游。透過將巨噬細胞引導至較不發炎的狀態，SIRT2減少了驅動斑塊發展的泡沫細胞積累和慢性發炎。這將SIRT2與血管疾病中的先天免疫調節聯繫起來，補充了其他sirtuin的抗發炎作用。由於巨噬細胞是動脈粥樣硬化的核心，維持這些細胞中SIRT2活性的介入措施可能有助於限制斑塊負荷並穩定現有病變，降低心血管事件的風險。"
@@ -8145,7 +8131,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - sirtuins in health and disease s41392-022-01257-8.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-08-20T08:16:51Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "ca7715f29ce2",
@@ -8232,10 +8218,10 @@
     "updated": "2026-08-20T08:17:33Z"
   },
   {
-    "id": "8f2cd716dca6",
+    "id": "43750198dbfc",
     "subject": "SIRT2",
     "predicate": "modulates_via_alpha_tubulin_deacetylation",
-    "object": "NLRP3 inflammasome",
+    "object": "NLRP3 Inflammasome",
     "context": {
       "en-US": "SIRT2 modulates activation of the NLRP3 inflammasome through deacetylation of alpha-tubulin, an effect that has been implicated in vascular inflammation and in the endothelial dysfunction that accompanies insulin resistance. Directionally, SIRT2's tubulin deacetylation sits upstream of altered NLRP3 inflammasome activity. The net outcome is context-dependent, reflecting the complex roles of both SIRT2 and NLRP3 in different tissues and inflammatory milieus. Because NLRP3-driven inflammation underpins aspects of atherosclerosis and metabolic disease, defining when SIRT2 dampens versus promotes the inflammasome is important for predicting the cardiovascular effects of SIRT2-modulating drugs.",
       "zh-TW": "SIRT2透過α-tubulin去乙醯化調節NLRP3發炎小體的活化，此作用已被認為與血管發炎和伴隨胰島素阻抗的內皮功能障礙有關。方向上，SIRT2的tubulin去乙醯化位於NLRP3發炎小體活性改變的上游。最終結果取決於環境，反映了SIRT2和NLRP3在不同組織和發炎環境中的複雜作用。由於NLRP3驅動的發炎是動脈粥樣硬化和代謝疾病的基礎，確定SIRT2何時抑制或促進發炎小體對於預測SIRT2調節藥物的心血管效應非常重要。"
@@ -8243,7 +8229,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "f0625192c05e",
@@ -8302,10 +8288,10 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "3c88bc4771ba",
+    "id": "ac5059ef7aa6",
     "subject": "SIRT2",
     "predicate": "is_overexpressed_in",
-    "object": "Parkinson's disease",
+    "object": "Parkinson's Disease",
     "context": {
       "en-US": "SIRT2 is found to be overexpressed in Parkinson's disease. SIRT2 is also overexpressed in neurodegenerative disorders generally and protects neural cells from oxidative damage caused by ageing and disease. Directionally, elevated SIRT2 sits upstream of neurodegeneration in Parkinson's disease. Sirtuin inhibitors have been considered for the treatment of Parkinson's disease, alongside cancer therapy, because of this SIRT2 involvement.",
       "zh-TW": "SIRT2 被發現在帕金森氏症中過度表達。SIRT2 在神經退行性疾病中也普遍過度表達，並保護神經細胞免受衰老和疾病引起的氧化損傷。從作用方向而言，SIRT2 的升高位於帕金森氏症神經退行性變的上游。由於 SIRT2 的這種參與，sirtuin 抑制劑已被考慮用於帕金森氏症的治療以及癌症治療。"
@@ -8313,7 +8299,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-08-20T08:12:22Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "fc0bc22549c9",
@@ -8764,10 +8750,10 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "92568666672d",
+    "id": "2fb83491863a",
     "subject": "SIRT3",
     "predicate": "activates",
-    "object": "AMPK/PGC-1α pathway",
+    "object": "AMPK-PGC-1α Pathway",
     "context": {
       "en-US": "SIRT3 activates the AMPK/PGC-1α pathway, driving mitochondrial metabolic reprogramming toward oxidative phosphorylation and biogenesis. Directionally, SIRT3 sits upstream of AMPK/PGC-1α activation. This enhances energy production and stress resistance while limiting glycolytic reliance, supporting the bioenergetic capacity of muscle, heart, and liver. It is a core mechanism for SIRT3's metabolic and cardioprotective benefits, and it reinforces the reciprocal relationship between sirtuins and AMPK. By promoting oxidative metabolism, SIRT3 helps maintain metabolic flexibility that declines with age and is impaired in obesity and diabetes.",
       "zh-TW": "SIRT3 活化 AMPK/PGC-1α 通路，驅動粒線體代謝重編程向氧化磷酸化和生物合成方向。在方向性上，SIRT3 位於 AMPK/PGC-1α 活化的上游。這增強能量產生和壓力抗性，同時限制對糖解的依賴，支持肌肉、心臟和肝臟的生物能量能力。這是 SIRT3 代謝和心臟保護益處的核心機制，強化了 sirtuin 與 AMPK 之間的互惠關係。通過促進氧化代謝，SIRT3 幫助維持隨年齡下降且在肥胖和糖尿病中受損的代謝靈活性。"
@@ -8775,7 +8761,7 @@
     "confidence": 0.95,
     "source_document": "SIRT3.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-08-20T08:17:33Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "a51c1cc22b0b",
@@ -8974,10 +8960,10 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "c68feb7b32c8",
+    "id": "e67b0e8c2ff1",
     "subject": "SIRT3",
     "predicate": "is_most_abundantly_expressed_sirtuin_in",
-    "object": "Central nervous system",
+    "object": "Central Nervous System",
     "context": {
       "en-US": "Among the sirtuin family of proteins, SIRT3 is the most abundantly expressed in the central nervous system. This neuronal predominance positions SIRT3 as the primary mitochondrial deacetylase governing brain energy metabolism. However, its mRNA expression exhibits progressive decline from clinical Alzheimer's specimens to experimental rodent models, making SIRT3 loss a candidate early biomarker of neurodegenerative mitochondrial dysfunction.",
       "zh-TW": "在 Sirtuin 蛋白家族中，SIRT3 在中樞神經系統中表現最豐富。這種神經元優勢使 SIRT3 成為控制大腦能量代謝的主要粒線體去乙醯化酶。然而，从临床阿尔茨海默病标本到实验啮齿动物模型，其 mRNA 表达逐渐下降，这使得 SIRT3 的丧失成为神经退行性线粒体功能障碍的候选早期生物标志物。"
@@ -8985,7 +8971,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Roles of SIRT3 in aging and aging-related diseases.md",
     "created": "2026-08-21T18:59:11Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "443f866ad8e8",
@@ -9044,10 +9030,10 @@
     "updated": "2026-08-20T08:17:33Z"
   },
   {
-    "id": "a431d347534c",
+    "id": "6756a343f11b",
     "subject": "SIRT3",
     "predicate": "is_a_marker_for",
-    "object": "colon cancer",
+    "object": "Colon Cancer",
     "context": {
       "en-US": "SIRT3 could also be used as a marker for colon cancer. In colon cancer, SIRT3 deficiency reduces cell proliferation, invasion, and migration while increasing apoptosis. Directionally, SIRT3 expression levels sit upstream of colon cancer behaviour, with loss of SIRT3 restraining tumour aggressiveness. SIRT3 therefore has potential diagnostic and prognostic utility in colorectal cancer.",
       "zh-TW": "SIRT3也可以作為結腸癌的標誌物。在結腸癌中，SIRT3缺乏減少細胞增殖、侵襲和遷移，同時增加凋亡。方向上，SIRT3表達水平位於結腸癌行為的上游，SIRT3缺失限制腫瘤侵襲性。因此SIRT3在大腸直腸癌中具有潛在的診斷和預後價值。"
@@ -9055,7 +9041,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-08-20T08:16:51Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "3dcfc4c197a7",
@@ -9215,7 +9201,7 @@
     "id": "dbdc009279fe",
     "subject": "SIRT3",
     "predicate": "activates",
-    "object": "FoxO3a",
+    "object": "FOXO3a",
     "context": {
       "en-US": "SIRT3 activates FoxO3a gene expression, increasing transcription of MnSOD and catalase to eliminate mitochondrial ROS. Directionally, SIRT3 sits upstream of FoxO3a-driven antioxidant programs. This links mitochondrial sirtuin activity to nuclear antioxidant transcription, providing a coordinated mitochondrial and cytosolic defense against oxidative stress. It is a key SIRT3 mechanism for redox defense, and it complements SIRT3's direct activation of MnSOD through deacetylation. The SIRT3-FoxO3a axis is particularly important in the heart and during caloric restriction, where it preserves mitochondrial function and limits oxidative injury.",
       "zh-TW": "SIRT3 活化 FoxO3a 基因表達，增加 MnSOD 和過氧化氫酶的轉錄以消除粒線體 ROS。在方向性上，SIRT3 位於 FoxO3a 驅動的抗氧化程式的上游。這將粒線體 sirtuin 活性與核抗氧化轉錄聯繫起來，提供對氧化壓力的協調粒線體和細胞質防禦。這是 SIRT3 紅氧防禦的關鍵機制，與 SIRT3 透過去乙醯化直接活化 MnSOD 互補。SIRT3-FoxO3a 軸線在心臟和限制熱量期間特別重要，在此期間它維護粒線體功能並限制氧化損傷。"
@@ -9223,13 +9209,13 @@
     "confidence": 0.95,
     "source_document": "SIRT3.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-08-20T08:16:51Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "00c1a706df90",
     "subject": "SIRT3",
     "predicate": "activated_by",
-    "object": "FOXO3A",
+    "object": "FOXO3a",
     "context": {
       "en-US": "FOXO3a translocates to mitochondria where it binds the SIRT3 promoter and induces SIRT3 expression, which in turn activates MnSOD to reduce ROS, forming a FOXO3a-SIRT3-PGC-1α mitochondrial-protective loop (source review; Tseng et al., 2013; also PMC2532794).",
       "zh-TW": "FOXO3a 轉位至粒線體，在那裡結合 SIRT3 啟動子並誘導 SIRT3 表達，後者反過來活化 MnSOD 以減少 ROS，形成 FOXO3a-SIRT3-PGC-1α 粒線體保護迴圈（文獻綜述；Tseng et al., 2013；另見 PMC2532794）。"
@@ -9237,7 +9223,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "8f04c27ccb32",
@@ -9422,10 +9408,10 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "426c26cc2d89",
+    "id": "9d276b04097d",
     "subject": "SIRT3",
     "predicate": "destabilizes",
-    "object": "HIF-1alpha",
+    "object": "HIF-1α",
     "context": {
       "en-US": "SIRT3 destabilizes hypoxia-inducible factor 1alpha (HIF-1alpha), thereby attenuating the Warburg effect, a characteristic metabolic adaptation of rapidly proliferating tumors. Transcriptomic profiling in castration-resistant prostate cancer reveals that SIRT3 also suppresses aconitase 2 activation, disrupting glutamine-driven lipogenesis, supporting SIRT3's predominantly tumor-suppressive metabolic role in early oncogenic transformation.",
       "zh-TW": "SIRT3 不穩定化缺氧誘導因子 1alpha（HIF-1alpha），從而減輕 Warburg 效應——快速增殖腫瘤的特徵性代謝適應。去勢抗性前列腺癌的轉錄體分析顯示 SIRT3 還抑制烏頭酸酶 2 的活化，干擾穀氨醯胺驅動的脂肪合成，支持 SIRT3 在早期致癌轉化中以腫瘤抑制性代謝角色為主。"
@@ -9433,7 +9419,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Roles of SIRT3 in aging and aging-related diseases.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
     "id": "1bb2fe05ec63",
@@ -9663,7 +9649,7 @@
     "id": "7eb70f5cf908",
     "subject": "SIRT3",
     "predicate": "functions_in",
-    "object": "ketogenesis",
+    "object": "Ketogenesis",
     "context": {
       "en-US": "SIRT3 supports ketogenesis and energy balance during fasting by activating enzymes of fatty-acid oxidation and mitochondrial metabolism, providing ketone bodies as alternative fuel; SIRT3 is induced by caloric restriction and fasting.",
       "zh-TW": "SIRT3 透過活化脂肪酸氧化和粒線體代謝的酶來支持禁食期間的生酮作用和能量平衡，提供酮體作為替代燃料；SIRT3 受熱量限制和禁食誘導。"
@@ -9671,7 +9657,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "17d41cd1a5cb",
@@ -9730,10 +9716,10 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "54ae37ebddac",
+    "id": "3fddccc0ec8b",
     "subject": "SIRT3",
     "predicate": "functions_in",
-    "object": "lipid metabolism",
+    "object": "Lipid Metabolism",
     "context": {
       "en-US": "SIRT3 supports lipid metabolism by activating fatty-acid beta-oxidation enzymes (LCAD) while suppressing lipogenesis (ACC1), favoring oxidative disposal of lipids; its actions oppose SIRT4's lipid-conserving brake, and the SIRT3/SIRT4 balance governs hepatic fat handling.",
       "zh-TW": "SIRT3 透過活化脂肪酸 β-氧化酶（LCAD）同時抑制脂肪生成（ACC1）來支持脂質代謝，促進脂質的氧化分解；其作用與 SIRT4 的脂質保存制動相反，SIRT3/SIRT4 的平衡調控肝臟脂肪處理。"
@@ -9741,7 +9727,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "fa539ee65d8f",
@@ -9982,10 +9968,10 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "1b978c82f041",
+    "id": "9fa5bb5d540f",
     "subject": "SIRT3",
     "predicate": "functions_in_aging",
-    "object": "Mitochondrial function",
+    "object": "Mitochondrial Function",
     "context": {
       "en-US": "SIRT3 is the principal mitochondrial deacetylase, regulating the majority of the mitochondrial acetylome to sustain oxidative-phosphorylation enzymes, fatty-acid oxidation, and the TCA/mitochondrial electron transport chain; SIRT3 declines with age, impairing mitochondrial function (source review; Hebert et al., 2013).",
       "zh-TW": "SIRT3 是主要的粒線體去乙醯酶，調節粒線體乙醯化組的大部分蛋白質以維持氧化磷酸化酶、脂肪酸氧化和 TCA/粒線體電子傳輸鏈；SIRT3 隨年齡下降，損害粒線體功能（文獻綜述；Hebert et al., 2013）。"
@@ -9993,7 +9979,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "c985aa1d1dc4",
@@ -10150,10 +10136,10 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "b9d21cd37c42",
+    "id": "9efdc389537d",
     "subject": "SIRT3",
     "predicate": "suppresses",
-    "object": "NLRP3 inflammasome",
+    "object": "NLRP3 Inflammasome",
     "context": {
       "en-US": "SIRT3 suppresses NLRP3 inflammasome formation and subsequent inflammatory responses by lowering mitochondrial ROS, a principal trigger of NLRP3 assembly and activation, and by inhibiting IkappaBalpha phosphorylation and modulating the NF-kappaB/TGF-beta1/Smad axis. SIRT3-knockout models show greater ROS accumulation, amplified NLRP3 oligomerization, and exacerbated mitochondrial structural abnormalities compared with wild-type controls. Because ROS and mitochondrial DNA released from damaged organelles prime the inflammasome, SIRT3 sits at the interface of mitochondrial redox and innate immune signaling, and its induction by fasting or pharmacological activation reduces inflammasome-driven inflammation.",
       "zh-TW": "SIRT3 與 SIRT1 和 SIRT2 一起，透過多種機制抑制 NF-kB 與 NLRP3 發炎體的活性。由於 sirtuins 依賴 NAD+，使用 NR 等前驅物提升 NAD+ 可增強此抑制作用。在人類周邊血單核細胞中，24 小時的 NR 投予重現了禁食效果，即透過 SIRT3 依賴的方式抑制 NLRP3 發炎體活化並增強粒線體品質控制，進而減少 IL-1beta 與 TNF-alpha 的分泌。這種由 sirtuin 介導的 NLRP3 發炎體抑制，有助於在嚴重感染中預防細胞激素風暴，並減緩與老化和代謝疾病相關的慢性發炎。"
@@ -10161,7 +10147,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Roles of SIRT3 in aging and aging-related diseases.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "af6777ce8746",
@@ -10290,10 +10276,10 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "3847042a7636",
+    "id": "e816527f2999",
     "subject": "SIRT3",
     "predicate": "functions_in_aging",
-    "object": "Oxidative stress",
+    "object": "Oxidative Stress",
     "context": {
       "en-US": "SIRT3 deacetylates and activates SOD2 (MnSOD) at Lys68/Lys122 and supports glutathione-dependent antioxidant pathways, reducing mitochondrial ROS; aging-associated SIRT3 decline increases oxidative stress, and SIRT3 knockout mice show accelerated aging phenotypes (source review; Qiu et al., 2010).",
       "zh-TW": "SIRT3 在 Lys68/Lys122 處去乙醯化並活化 SOD2（MnSOD），支持穀胱甘肽依賴性的抗氧化通路，減少粒線體 ROS；衰老相關的 SIRT3 下降增加氧化壓力，SIRT3 敲除小鼠顯示加速的衰老表型（文獻綜述；Qiu et al., 2010）。"
@@ -10301,7 +10287,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "73ffeb058ab6",
@@ -10867,7 +10853,7 @@
     "id": "5584c78ab149",
     "subject": "SIRT3",
     "predicate": "functions_in",
-    "object": "β-oxidation",
+    "object": "Oxidation",
     "context": {
       "en-US": "SIRT3 promotes fatty-acid beta-oxidation by deacetylating LCAD and other beta-oxidation enzymes, supporting energy harvest from fat during fasting; loss of SIRT3 impairs beta-oxidation efficiency and triggers hepatic steatosis.",
       "zh-TW": "SIRT3 透過去乙醯化 LCAD 和其他 β-氧化酶來促進脂肪酸 β-氧化，支持禁食期間從脂肪中獲取能量；SIRT3 的缺失損害 β-氧化效率並引發肝脂肪變性。"
@@ -10875,7 +10861,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "e01741ffffc9",
@@ -11189,7 +11175,7 @@
     "id": "adf40fbd245e",
     "subject": "SIRT4",
     "predicate": "inhibited_by",
-    "object": "Bax",
+    "object": "BAX",
     "context": {
       "en-US": "Pro-apoptotic Bax opposes SIRT4's anti-apoptotic effects on mitochondria; under stress Bax-mediated mitochondrial permeabilization is associated with decreased SIRT4-mediated protection, so Bax is listed among negative regulators of SIRT4 in Table 3.",
       "zh-TW": "促凋亡 Bax 拮抗 SIRT4 對粒線體的抗凋亡作用；在壓力下，Bax 介導的粒線體通透化與 SIRT4 介導的保護減少相關，因此 Bax 被列為表 3 中 SIRT4 的負向調節因子。"
@@ -11197,7 +11183,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "db2dea6ae98a",
@@ -11214,10 +11200,10 @@
     "updated": "2026-08-20T08:16:51Z"
   },
   {
-    "id": "816944dcf694",
+    "id": "c56b4a00705a",
     "subject": "SIRT4",
     "predicate": "promotes",
-    "object": "Cardiac fibrosis",
+    "object": "Cardiac Fibrosis",
     "context": {
       "en-US": "SIRT4 contributes to cardiac fibrosis; global SIRT4 knockout in mice confers resistance to angiotensin-II infusion by suppressing fibrotic deposition. Directionally, SIRT4 sits upstream of profibrotic signaling. This aligns with SIRT4's general tendency to promote pathological remodeling, contrasting with the antifibrotic SIRT1/SIRT3/SIRT6 members. SIRT4's profibrotic action likely reflects its inhibition of mitochondrial oxidative metabolism and promotion of oxidative stress. The opposing roles of SIRT4 versus the protective sirtuins in cardiac fibrosis illustrate the functional antagonism within the sirtuin family and the importance of the SIRT3/SIRT4 balance.",
       "zh-TW": "SIRT4 促進心臟纖維化；SIRT4 的全身敲除通過抑制纖維化沉積賦予對血管張力素 II 輸注的抗性。在方向性上，SIRT4 位於促纖維化信號的上游。這與 SIRT4 促進病理性重塑的總體趨勢一致，與抗纖維化的 SIRT1/SIRT3/SIRT6 成員形成對比。SIRT4 的促纖維化作用可能反映其對粒線體氧化代謝的抑制和對氧化壓力的促進。SIRT4 與保護性 sirtuin 在心臟纖維化中的對立角色說明了 sirtuin 家族內的功能拮抗以及 SIRT3/SIRT4 平衡的重要性。"
@@ -11225,7 +11211,7 @@
     "confidence": 0.95,
     "source_document": "SIRT4.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-08-20T08:17:33Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "1821e73fe47f",
@@ -11354,10 +11340,10 @@
     "updated": "2026-09-02T06:30:30Z"
   },
   {
-    "id": "ffb3f4384206",
+    "id": "c3a67693d358",
     "subject": "SIRT4",
     "predicate": "inhibits",
-    "object": "Glutamine metabolism",
+    "object": "Glutamine Metabolism",
     "context": {
       "en-US": "SIRT4 inhibits glutamine metabolism in colorectal cancer cells—for example by restraining GDH-dependent anaplerosis—acting as a tumor suppressor that limits nutrient fueling of proliferation. Directionally, SIRT4 sits upstream of suppressed glutamine catabolism. This constrains the glutamine addiction of many tumors, which rely on glutamine as a carbon and nitrogen source. It illustrates SIRT4's context-dependent tumor-suppressive role, contrasting with its metabolic-brake functions in normal tissue. Because glutamine metabolism supports both bioenergetics and nucleotide synthesis in cancer, SIRT4-mediated suppression of anaplerosis represents a potential therapeutic strategy.",
       "zh-TW": "SIRT4 在大腸癌細胞中抑制穀氨酰胺代謝——例如通過限制 GDH 依賴性的回補反應——充時代謝抑制因子，限制增殖的營養燃料供應。在方向性上，SIRT4 位於抑制的穀氨酰胺分解代謝上游。這限制了許多腫瘤對穀氨酰胺的成癮依賴性，這些腫瘤依賴穀氨酰胺作為碳和氮源。它說明了 SIRT4 情境依賴性的腫瘤抑制角色，與其在正常組織中的代謝制動功能形成對比。由於穀氨酰胺代謝在癌症中支持生物能量學和核苷酸合成，SIRT4 介導的回補反應抑制代表了一種潛在的治療策略。"
@@ -11365,13 +11351,13 @@
     "confidence": 0.95,
     "source_document": "SIRT4.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-08-20T08:17:33Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
-    "id": "7f25b3c95177",
+    "id": "9880b17382da",
     "subject": "SIRT4",
     "predicate": "functions_in",
-    "object": "glutamine metabolism",
+    "object": "Glutamine Metabolism",
     "context": {
       "en-US": "SIRT4 inhibits glutamine metabolism by suppressing GDH-dependent anaplerosis, acting as a tumor suppressor in colorectal and other cancers that depend on glutamine; this restrains the glutamine addiction of proliferating cells.",
       "zh-TW": "SIRT4 透過抑制 GDH 依賴性的回補反應來抑制穀胺酸代謝，在依賴穀胺酸的結直腸癌和其他癌症中作為腫瘤抑制因子；這抑制了增殖細胞對穀胺酸的成癮性。"
@@ -11379,7 +11365,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "59aefeea2fa9",
@@ -11396,10 +11382,10 @@
     "updated": "2026-08-20T08:16:51Z"
   },
   {
-    "id": "aae6443f2b67",
+    "id": "481343af20d1",
     "subject": "SIRT4",
     "predicate": "functions_in",
-    "object": "insulin secretion",
+    "object": "Insulin Secretion",
     "context": {
       "en-US": "SIRT4 restrains amino-acid-stimulated insulin secretion by mono-ADP-ribosylating and inhibiting glutamate dehydrogenase, limiting anaplerotic ATP generation in beta-cells; caloric restriction downregulates SIRT4 to improve beta-cell metabolic flexibility.",
       "zh-TW": "SIRT4 透過單 ADP-核糖基化並抑制穀氨酸脫氫酶來抑制氨基酸刺激的胰島素分泌，限制 β 細胞中回補性 ATP 的生成；熱量限制下調 SIRT4 以改善 β 細胞的代謝靈活性。"
@@ -11407,7 +11393,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "6b246612402d",
@@ -11763,7 +11749,7 @@
     "id": "3f76c27df884",
     "subject": "SIRT5",
     "predicate": "functions_in",
-    "object": "apoptosis",
+    "object": "Apoptosis",
     "context": {
       "en-US": "SIRT5 modulates apoptosis by desuccinylating/deacylating death-related and metabolic targets (e.g., LDHB, SOD1) and by supporting cell survival under oxidative and ammonia stress; in cancer it can be pro- or anti-apoptotic depending on context.",
       "zh-TW": "SIRT5 透過去琥珀酰化/去酰基化死亡相關和代謝靶點（例如 LDHB、SOD1）以及支持細胞在氧化和氨壓力下的存活來調節凋亡；在癌症中，它可以根據環境發揮促凋亡或抗凋亡作用。"
@@ -11771,7 +11757,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "5ec61c2c131d",
@@ -11844,10 +11830,10 @@
     "updated": "2026-08-20T08:16:51Z"
   },
   {
-    "id": "7f9d2d8820b9",
+    "id": "025e0a5bcddb",
     "subject": "SIRT5",
     "predicate": "enhances_glutaminolysis_in",
-    "object": "Colorectal cancer",
+    "object": "Colorectal Cancer",
     "context": {
       "en-US": "SIRT5 contributes to colorectal carcinogenesis by enhancing glutaminolysis in a deglutarylation-dependent manner, promoting cancer cell metabolism and proliferation. Directionally, SIRT5 sits upstream of enhanced glutamine catabolism in colorectal cancer. By supporting the use of glutamine as a fuel and carbon source, SIRT5 provides tumor cells with the metabolic flexibility required for rapid growth. This oncogenic function illustrates that sirtuins can promote as well as suppress cancer, depending on the tissue and the specific metabolic demands of the tumor. Inhibiting SIRT5 may therefore be a strategy to starve colorectal cancer cells of the glutamine-dependent metabolism they rely on.",
       "zh-TW": "SIRT5透過以去穀胱甘肽化依賴的方式增強穀氨醯胺分解來促進大腸直腸癌的發生，促進癌細胞代謝和增殖。方向上，SIRT5位於大腸直腸癌中穀氨醯胺分解代謝增強的上游。透過支持將穀氨醯胺用作燃料和碳源，SIRT5為腫瘤細胞提供了快速生長所需的代謝靈活性。這種致癌功能說明了sirtuin可以根據組織和腫瘤的特定代謝需求促進或抑制癌症。因此抑制SIRT5可能是使大腸直腸癌細胞失去其依賴的穀氨醯胺代謝的策略。"
@@ -11855,7 +11841,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - sirtuins in health and disease s41392-022-01257-8.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-08-20T08:16:51Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "f9333c27d881",
@@ -11886,10 +11872,10 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "24b5fece337c",
+    "id": "1edd36500ec1",
     "subject": "SIRT5",
     "predicate": "functions_in",
-    "object": "fatty acid oxidation",
+    "object": "Fatty acid oxidation",
     "context": {
       "en-US": "SIRT5 activates fatty-acid oxidation enzymes (VLCAD, LCAD, MCAD, ECHA) via desuccinylation, supporting lipid catabolism during fasting; SIRT5 deficiency impairs fatty-acid metabolism and lowers ATP.",
       "zh-TW": "SIRT5 透過去琥珀酰化活化脂肪酸氧化酶（VLCAD、LCAD、MCAD、ECHA），支持禁食期間的脂質分解代謝；SIRT5 缺乏損害脂肪酸代謝並降低 ATP。"
@@ -11897,7 +11883,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "c8b9d74b7e33",
@@ -12124,10 +12110,10 @@
     "updated": "2026-08-20T08:16:51Z"
   },
   {
-    "id": "e36c0facf12c",
+    "id": "3048428615de",
     "subject": "SIRT5",
     "predicate": "functions_in_aging",
-    "object": "Oxidative stress",
+    "object": "Oxidative Stress",
     "context": {
       "en-US": "SIRT5 desuccinylates enzymes of the urea cycle and electron-transport chain to sustain mitochondrial function under ammonia and oxidative stress, mitigating accumulation of damaged mitochondria with age; it also supports antioxidant capacity during fasting (source review; Nakagawa et al., 2009).",
       "zh-TW": "SIRT5 去琥珀酰化尿素循環和電子傳輸鏈的酶以在氨和氧化壓力下維持粒線體功能，減輕受損粒線體隨年齡的積累；它還在禁食期間支持抗氧化能力（文獻綜述；Nakagawa et al., 2009）。"
@@ -12135,7 +12121,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "d8c1a1336dda",
@@ -12418,10 +12404,10 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "b0bfb43cec9c",
+    "id": "9a4ba7799a7d",
     "subject": "SIRT6",
     "predicate": "required_for",
-    "object": "Base excision repair",
+    "object": "Base Excision Repair",
     "context": {
       "en-US": "SIRT6 is required for efficient base-excision repair (BER), the pathway that removes oxidized and alkylated bases, and SIRT6-deficient cells accumulate DNA damage from defective BER. SIRT6 supports BER in part by mono-ADP-ribosylating and recruiting repair factors such as PARP1 and by maintaining heterochromatin at damaged sites. Directionally, SIRT6 activity sits upstream of proper BER execution. This function explains the genomic instability and premature aging of SIRT6 knockout mice, and links SIRT6 to tumor suppression, since loss of SIRT6-dependent repair predisposes cells to mutation accumulation and oncogenic transformation.",
       "zh-TW": "SIRT6 對高效的鹼基切除修復（BER）至關重要，該通路移除氧化和烷基化鹼基，SIRT6 缺乏的細胞會因 BER 缺陷而累積 DNA 損傷。SIRT6 部分通過單 ADP-核糖基化並招募修復因子（如 PARP1）以及在損傷位點維持異染色質來支持 BER。在方向性上，SIRT6 活性位於正確 BER 執行的上游。此功能解釋了 SIRT6 敲除小鼠的基因組不穩定性和早衰，並將 SIRT6 與腫瘤抑制聯繫起來，因為 SIRT6 依賴性修復的缺失使細胞容易累積突變並發生腫瘤轉化。"
@@ -12429,7 +12415,7 @@
     "confidence": 0.95,
     "source_document": "SIRT6.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-08-20T08:17:33Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "5a04559f4a54",
@@ -12474,10 +12460,10 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "bd18f9302f61",
+    "id": "826c380d6cf7",
     "subject": "SIRT6",
     "predicate": "inhibits_transcriptional_activity_of",
-    "object": "c-MYC",
+    "object": "c-Myc",
     "context": {
       "en-US": "SIRT6 inhibits the transcriptional activities of c-MYC, resulting in repression of the glycolytic metabolic reprogramming that supports tumor growth. Directionally, SIRT6 sits upstream of c-MYC inhibition and tumor suppression. This complements SIRT6's repression of HIF-1alpha, giving SIRT6 a dual brake on the two major oncogenic drivers of glycolysis. By restricting the metabolic switch to aerobic glycolysis, SIRT6 limits the biosynthetic and energetic advantages that cancer cells depend on. This positions SIRT6 as a central regulator of the metabolic reprogramming that underlies many cancers and as a rational target for therapeutic activation.",
       "zh-TW": "SIRT6抑制c-MYC的轉錄活性，導致支持腫瘤生長的糖解代謝重編程被抑制。方向上，SIRT6位於c-MYC抑制和腫瘤抑制的上游。這補充了SIRT6對HIF-1alpha的抑制，賦予SIRT6對兩個主要糖解致癌驅動因子的雙重制動。透過限制向有氧糖解的代謝轉換，SIRT6限制了癌細胞依賴的生物合成和能量優勢。這將SIRT6定位為支撐許多癌症的代謝重編程的核心調節因子，以及治療活化的合理靶點。"
@@ -12485,7 +12471,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Sirtuins Guardians of Mammalian Healthspan.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "f72b456fe7ec",
@@ -12572,10 +12558,10 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "1e68eb8cbeaf",
+    "id": "ce646ca3d71c",
     "subject": "SIRT6",
     "predicate": "functions_in",
-    "object": "DNA repair",
+    "object": "DNA Repair",
     "context": {
       "en-US": "SIRT6 functions in DNA repair; as the nuclear/chromatin sirtuin it guards genome integrity, telomeres, metabolism, and inflammation (Mostoslavsky 2006; Mao 2011 PMID 21680843). It is a core DNA double-strand-break repair factor: recruited to DSBs, it deacetylates H3K9/H3K56 and CtIP and stimulates PARP1 to promote homologous recombination and genomic stability (Kaidi et al., 2010, PMC2943420).",
       "zh-TW": "SIRT6 參與 DNA 修復功能；作為細胞核/染色質 sirtuin，它維護基因組完整性、端粒、代謝和發炎調控（Mostoslavsky 2006; Mao 2011 PMID 21680843）。SIRT6 是 DNA 雙股斷裂修復的核心因子：被招募至 DSB 處後，它去乙醯化 H3K9/H3K56 及 CtIP，並刺激 PARP1 促進同源重組及基因組穩定性（Kaidi et al., 2010, PMC2943420）。"
@@ -12583,7 +12569,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "346ee3d0e481",
@@ -12617,7 +12603,7 @@
     "id": "8d4f73831dbd",
     "subject": "SIRT6",
     "predicate": "inhibits_expression_of",
-    "object": "ERK1/2",
+    "object": "ERK1_2",
     "context": {
       "en-US": "SIRT6 deacetylates H3K9 at ERK1/2 gene promoters, inhibiting ERK1/2 expression and thereby dampening pro-hypertrophic MAPK signaling. Directionally, SIRT6 sits upstream of ERK1/2 suppression. Reduced ERK signaling limits growth and fibrotic responses in the heart and vasculature, and it adds a MAPK-regulatory dimension to SIRT6's cardiovascular protection. By directly controlling the expression of the ERK1/2 genes themselves, rather than only their activity, SIRT6 provides sustained restraint of this pro-growth pathway, complementing its inhibition of IGF-Akt signaling in cardiac hypertrophy.",
       "zh-TW": "SIRT6 在 ERK1/2 基因啟動子上去乙醯化 H3K9，抑制 ERK1/2 的表達，從而抑制促肥大的 MAPK 訊號。在方向性上，SIRT6 位於 ERK1/2 抑制的上游。減少的 ERK 訊號限制了心臟和血管中的生長和纖維化反應，並為 SIRT6 的心血管保護增添了 MAPK 調節維度。透過直接控制 ERK1/2 基因本身的表達（而不僅僅是其活性），SIRT6 對此促生長通路提供了持久的抑制，與其在心臟肥大中抑制 IGF-Akt 訊號的作用互補。"
@@ -12625,7 +12611,7 @@
     "confidence": 0.95,
     "source_document": "SIRT6.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-08-20T08:16:51Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "0fcb163b5950",
@@ -12908,10 +12894,10 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "efdd80158d4b",
+    "id": "f3aa51f6a32a",
     "subject": "SIRT6",
     "predicate": "represses",
-    "object": "IGF-Akt signaling",
+    "object": "IGF-Akt Signaling",
     "context": {
       "en-US": "SIRT6 blocks IGF-Akt signaling and thereby cardiac hypertrophy development by targeting c-Jun, interrupting a pro-hypertrophic survival pathway. Directionally, SIRT6 sits upstream of IGF-Akt repression. This protects the heart from maladaptive growth, and SIRT6 knockout mice develop cardiac hypertrophy that is abrogated when IGF signaling is inhibited in vivo. It complements SIRT6's anti-fibrotic actions in cardiovascular tissue and illustrates the importance of restraining growth-factor signaling in the heart. SIRT6's co-repression of c-Jun-dependent transcription at the chromatin level links epigenetic control to cardiac remodeling.",
       "zh-TW": "SIRT6 通過靶向 c-Jun 阻斷 IGF-Akt 信號從而阻止心臟肥大的發展，中斷一個促肥大的存活通路。在方向性上，SIRT6 位於 IGF-Akt 抑制的上游。這保護心臟免受適應不良生長，SIRT6 敲除小鼠發展心臟肥大，在體內抑制 IGF 信號時被消除。它與 SIRT6 在心血管組織中的抗纖維化作用互補，說明了限制心臟中生長因子信號的重要性。SIRT6 在染色質水平對 c-Jun 依賴性轉錄的共抑制將表觀遺傳控制與心臟重塑聯繫起來。"
@@ -12919,13 +12905,13 @@
     "confidence": 0.95,
     "source_document": "SIRT6.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-08-20T08:17:33Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "d1107852fcfa",
     "subject": "SIRT6",
     "predicate": "functions_in",
-    "object": "inflammation",
+    "object": "Inflammation",
     "context": {
       "en-US": "SIRT6 suppresses inflammation by deacetylating H3K9 at NF-kB target-gene promoters and promoting p65 degradation, restraining pro-inflammatory transcription; loss of SIRT6 elevates inflammatory output and contributes to age-related inflammation.",
       "zh-TW": "SIRT6 透過去乙醯化 NF-kB 靶基因啟動子上的 H3K9 並促進 p65 降解來抑制發炎反應，抑制促發炎轉錄；SIRT6 的缺失增加發炎輸出並促成年齡相關的發炎。"
@@ -12933,7 +12919,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "73c311548bd2",
@@ -13121,7 +13107,7 @@
     "id": "703c4140eeb9",
     "subject": "SIRT6",
     "predicate": "activated_by",
-    "object": "Nrf2",
+    "object": "NRF2",
     "context": {
       "en-US": "Nrf2, the master antioxidant transcription factor, induces SIRT6-responsive antioxidant and DNA-repair programs; SIRT6 binds the Nrf2 promoter and cooperates with Nrf2 to maintain glutathione and redox balance, and Nrf2 deacetylation is itself regulated by SIRT6 (Pan et al., 2016, Cell Res).",
       "zh-TW": "Nrf2 是主要的抗氧化轉錄因子，可誘導 SIRT6 相關的抗氧化及 DNA 修復程序；SIRT6 結合 Nrf2 啟動子並與 Nrf2 協同維持穀胱甘肽和氧化還原平衡，而 Nrf2 的去乙醯化本身也受 SIRT6 調節（Pan et al., 2016, Cell Res）。"
@@ -13129,7 +13115,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "d025c49e2499",
@@ -13524,10 +13510,10 @@
     "updated": "2026-08-20T08:17:33Z"
   },
   {
-    "id": "45e4793301ea",
+    "id": "38a55ca30f1c",
     "subject": "SIRT6",
     "predicate": "inhibits",
-    "object": "TNF-α",
+    "object": "TNFα",
     "context": {
       "en-US": "SIRT6 suppresses TNF-α signaling downstream of NF-κB chromatin deacetylation.",
       "zh-TW": "SIRT6 在 NF-κB 染色質去乙醯化的下游抑制 TNF-α 信號。"
@@ -13535,7 +13521,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "0dcd9f050310",
@@ -13860,10 +13846,10 @@
     "updated": "2026-08-20T08:16:51Z"
   },
   {
-    "id": "0ad006f77176",
+    "id": "1294ddb4ca1f",
     "subject": "SIRT7",
     "predicate": "is_overexpressed_in",
-    "object": "Breast cancer",
+    "object": "Breast Cancer",
     "context": {
       "en-US": "SIRT7 expression is significantly elevated in breast carcinoma compared with normal breast tissue, and high SIRT7 correlates with poorer prognosis in several tumor types. Its overexpression supports tumor growth and ribosomal biogenesis, and it can deacetylate oncogenic transcription factors such as GATA4. The directionality is that increased SIRT7 abundance is associated with and likely promotes malignant phenotypes. A caveat is that sirtuin roles in cancer are context-dependent, and SIRT7 can be either tumor-promoting or, in some tissues, tumor-suppressive.",
       "zh-TW": "與正常乳腺組織相比，SIRT7 在乳腺癌中顯著高表達，且高 SIRT7 與多種腫瘤類型的較差預後相關。其過量表達支持腫瘤生長和核糖體生物合成，並可去乙醯化致癌轉錄因子如 GATA4。其方向性為 SIRT7 表達量增加與惡性表型相關並可能促進之。需要注意的是，sirtuin 在癌症中的角色取決於情境，SIRT7 可能促進或在某些組織中抑制腫瘤。"
@@ -13871,13 +13857,13 @@
     "confidence": 0.95,
     "source_document": "SIRT7.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-08-20T08:17:33Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
-    "id": "7e2dbb6b218f",
+    "id": "c918384386ec",
     "subject": "SIRT7",
     "predicate": "promotes",
-    "object": "Cardiac fibrosis",
+    "object": "Cardiac Fibrosis",
     "context": {
       "en-US": "Enhanced expression and phosphorylation of SIRT7 promotes cardiac fibrosis via activation of Smad2 and ERK signaling pathways. Directionally, SIRT7 sits upstream of fibrogenic signaling. This reveals a pathological, profibrotic side of SIRT7 in the heart, contrasting with its nucleolar homeostatic roles and its protective actions against stress-induced hypertrophy. Thus SIRT7 can be maladaptive under stress despite protecting the myocardium in other settings, and its role in fibrosis depends on context, phosphorylation state, and the balance of its downstream effectors. SIRT7's dual cardiac roles illustrate the complexity of sirtuin signaling in disease.",
       "zh-TW": "SIRT7 的表達增強和磷酸化通過活化 Smad2 和 ERK 信號通路促進心臟纖維化。在方向性上，SIRT7 位於纖維化信號的上游。這揭示了 SIRT7 在心臟中的病理性、促纖維化面向，與其核仁穩態角色和對壓力誘導肥大的保護作用形成對比。因此 SIRT7 在壓力下可能是適應不良的，儘管在其他情境下保護心肌，其在纖維化中的作用取決於情境、磷酸化狀態及其下游效應因子的平衡。SIRT7 的雙重心臟角色說明了 sirtuin 信號在疾病中的複雜性。"
@@ -13885,7 +13871,7 @@
     "confidence": 0.95,
     "source_document": "SIRT7.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-08-20T08:17:33Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "b9ca3c7a4017",
@@ -14199,7 +14185,7 @@
     "id": "ea2ae581b339",
     "subject": "SIRT7",
     "predicate": "inhibited_by",
-    "object": "Myc",
+    "object": "MYC",
     "context": {
       "en-US": "The SIRT7-Myc axis is bidirectional: SIRT7 assembles with Myc at ribosomal protein (RP) gene promoters to silence gene expression and relieve ER stress, while Myc-driven proliferation opposes SIRT7-dependent growth-quiescence programs in some contexts; Table 3 lists Myc among negative regulators of SIRT7 (Shin et al., 2013, PMID 24210820).",
       "zh-TW": "SIRT7-Myc 軸線是雙向的：SIRT7 與 Myc 在核糖體蛋白（RP）基因啟動子處組裝以沉默基因表現並緩解內質網壓力，而 Myc 驅動的增殖在某些情境下對抗 SIRT7 依賴的生長靜止程序；表 3 將 Myc 列為 SIRT7 的負向調節因子（Shin et al., 2013, PMID 24210820）。"
@@ -14207,7 +14193,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "108cf62c5507",
@@ -14462,10 +14448,10 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "708f0d4041d2",
+    "id": "45085bd8596c",
     "subject": "SIRT7 inactivation",
     "predicate": "reduces_breast_cancer_metastasis_by_blocking",
-    "object": "TGF-β signaling",
+    "object": "TGF-β Signaling",
     "context": {
       "en-US": "SIRT7 inactivation reduces breast cancer metastasis by blocking TGF-β signalling. SIRT7 deacetylase activity inhibits metastasis of breast cancer by antagonising transforming growth factor-β signalling. Directionally, SIRT7 sits upstream of TGF-β-driven metastasis in breast cancer. By promoting TGF-β signalling, SIRT7 supports the metastatic spread of breast cancer cells, and its inactivation curbs this process regardless of changes in original tumour development.",
       "zh-TW": "SIRT7失活透過阻斷TGF-β訊號來減少乳腺癌轉移。SIRT7去乙醯酶活性透過拮抗轉化生長因子-β訊號來抑制乳腺癌轉移。方向上，SIRT7位於乳腺癌中TGF-β驅動的轉移的上游。透過促進TGF-β訊號，SIRT7支持乳腺癌細胞的轉移性擴散，其失活無論原始腫瘤發展的變化如何都限制了此過程。"
@@ -14473,7 +14459,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-08-20T08:16:51Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "2a2ccd7c385d",
@@ -14616,10 +14602,10 @@
     "updated": "2026-08-20T08:17:33Z"
   },
   {
-    "id": "c10c5e6dd02b",
+    "id": "e02f611607e9",
     "subject": "Sirtuin Fluorimetric Activity",
     "predicate": "is_used_to_identify",
-    "object": "Sirtuin inhibitors",
+    "object": "Sirtuin Inhibitors",
     "context": {
       "en-US": "Sirtuin fluorimetric activity assays (e.g., the Fluor de Lys system) are the most commonly used methods to screen molecules as sirtuin inhibitors. Deacetylation of a fluorophore-decoupled substrate sensitizes it to a developer that releases a measurable fluorophore, and percent inhibition is calculated from fluorescence. These assays identified indoles (EX-527), tenovins, JGB1741, sirtinol analogues, and cambinol analogues. A key caveat is that the aminomethylcoumarin moiety of the fluorogenic substrates can affect binding of other small molecules to the enzyme, so confirmation with orthogonal assays is recommended.",
       "zh-TW": "Sirtuin 螢光活性測定（例如 Fluor de Lys 系統）是篩選分子作為 sirtuin 抑制劑最常用的方法。去乙醯化的螢光基團解偶聯受質經顯色劑處理後釋放出可量化的螢光基團，從螢光訊號計算抑制百分比。這些測定鑑定了吲哚類（EX-527）、tenovin、JGB1741、sirtinol 類似物和 cambinol 類似物。一個關鍵注意事項是螢光受質的氨基甲基香豆素部分可能影響其他小分子與酵素的結合，因此建議使用正交測定進行確認。"
@@ -14627,7 +14613,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "720ac5f5a6b4",

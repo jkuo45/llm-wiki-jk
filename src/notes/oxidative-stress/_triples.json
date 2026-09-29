@@ -350,8 +350,8 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "de6e56d0d34b",
-    "subject": "Anti-TNF therapy",
+    "id": "e7f5121e9444",
+    "subject": "Anti-TNF Therapy",
     "predicate": "reduces",
     "object": "Oxidative Stress Markers",
     "context": {
@@ -361,7 +361,7 @@
     "confidence": 0.95,
     "source_document": "Anti-TNF Therapy.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "585dc905b181",
@@ -588,8 +588,8 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "0b68d9b3a915",
-    "subject": "Cigarette smoke",
+    "id": "ba16ec8fa097",
+    "subject": "Cigarette Smoke",
     "predicate": "contains",
     "object": "Free Radicals",
     "context": {
@@ -599,7 +599,7 @@
     "confidence": 0.95,
     "source_document": "Free Radicals.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "1d712ab8d43c",
@@ -910,8 +910,8 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "c6d7a0b8508c",
-    "subject": "Fenton reaction",
+    "id": "46de4bd77012",
+    "subject": "Fenton Reaction",
     "predicate": "produces",
     "object": "Hydroxyl Radicals",
     "context": {
@@ -921,11 +921,11 @@
     "confidence": 0.95,
     "source_document": "Hydroxyl Radicals.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
-    "id": "601b155088fd",
-    "subject": "Fenton reaction",
+    "id": "d5d29dff440b",
+    "subject": "Fenton Reaction",
     "predicate": "is_the_primary_mechanism_converting",
     "object": "Hydroxyl Radicals",
     "context": {
@@ -935,7 +935,7 @@
     "confidence": 0.95,
     "source_document": "Hydroxyl Radicals.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "c297870765f5",
@@ -1247,7 +1247,7 @@
   },
   {
     "id": "f4a6f0e13b81",
-    "subject": "GPx4",
+    "subject": "GPX4",
     "predicate": "protects_against",
     "object": "Ferroptosis",
     "context": {
@@ -1257,7 +1257,7 @@
     "confidence": 0.95,
     "source_document": "Multiple Sclerosis.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "43fa25c63dca",
@@ -1386,10 +1386,10 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "1b0bdad8a958",
+    "id": "813ea0ea09ea",
     "subject": "Hypochlorous Acid",
     "predicate": "inactivates",
-    "object": "Alpha-1 Antitrypsin",
+    "object": "alpha-1 Antitrypsin",
     "context": {
       "en-US": "Hypochlorous acid inactivates alpha-1 antitrypsin by oxidizing critical residues, especially methionine, abolishing its ability to inhibit neutrophil elastase. In COPD and similar conditions this unleashes unopposed proteolysis that destroys lung matrix. The directionality is HOCl to serpin inactivation to tissue damage. A caveat is that cigarette smoke and other oxidants also inactivate alpha-1 antitrypsin, so HOCl is one of several mechanisms. The same oxidative inactivation contributes to emphysema in cigarette smokers, where neutrophil-derived HOCl meets a poorly protected lung interstitium.",
       "zh-TW": "Hypochlorous acid 透過氧化關鍵殘基（尤其是蛋胺酸）使 alpha-1 antitrypsin 失去活性，從而消除其抑制嗜中性球彈性蛋白酶的能力。在慢性阻塞性肺病和類似的情況下，這會釋放出不受對抗的蛋白質分解作用，從而破壞肺基質。方向性是 HOCl 至絲胺酸蛋白酶抑制劑失活至組織損傷。需要注意的是，cigarette smoke 和其他氧化劑也會使 alpha-1 antitrypsin 失活，因此 HOCl 是多種機制之一。同樣的氧化失活會導致 cigarette smokers 中的肺氣腫，其中中性粒細胞衍生的次氯酸與保護不良的肺間質相遇。"
@@ -1397,7 +1397,7 @@
     "confidence": 0.95,
     "source_document": "Hypochlorous Acid.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "0304dca04754",
@@ -2254,10 +2254,10 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "5c137516cc07",
+    "id": "3d4bc6e1085d",
     "subject": "NOX2",
     "predicate": "causes",
-    "object": "Chronic granulomatous disease",
+    "object": "Chronic Granulomatous Disease",
     "context": {
       "en-US": "NOX2 deficiency causes chronic granulomatous disease, a group of genetic defects in NOX2 (gp91phox) subunits that abolish the phagocyte respiratory burst. Patients suffer recurrent, life-threatening bacterial and fungal infections due to failure to generate microbicidal ROS. The directionality is enzyme defect to immunodeficiency. A caveat is that the disease severity varies with the specific mutation and residual oxidase activity, and some organisms evade even normal ROS killing. X-linked CGD from CYBB mutations is most common, and patients show granuloma formation, colitis-like inflammation, and susceptibility to catalase-positive organisms.",
       "zh-TW": "NOX2 缺陷會導致 chronic granulomatous disease，這是 NOX2 (gp91phox) 亞基中的一組遺傳缺陷，可消除吞噬細胞 respiratory burst。由於無法產生殺菌劑 ROS，患者會重複遭受危及生命的細菌和真菌感染。方向性是酵素缺陷到免疫缺陷。需要注意的是，疾病的嚴重程度會隨著特定突變和殘留氧化酶活性的不同而變化，有些生物體甚至會逃避正常的 ROS 殺滅。 CYBB 突變導致的 X 連鎖 CGD 最為常見，患者表現出肉芽腫形成、結腸炎樣發炎以及對 catalase 陽性微生物的易感性。"
@@ -2265,7 +2265,7 @@
     "confidence": 0.95,
     "source_document": "NOX2.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "c4c9b2e031af",
@@ -2898,8 +2898,8 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "3db21e9e44e6",
-    "subject": "Protein carbonylation",
+    "id": "0880852d681b",
+    "subject": "Protein Carbonylation",
     "predicate": "is_an_irreversible_modification_of",
     "object": "Proteins",
     "context": {
@@ -2909,7 +2909,7 @@
     "confidence": 0.95,
     "source_document": "Proteins.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "215e52c5c595",
@@ -3318,10 +3318,10 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "956a7bf6c797",
+    "id": "714eabe0d97c",
     "subject": "TGF-beta",
     "predicate": "suppresses",
-    "object": "PGC-1alpha",
+    "object": "PGC-1α",
     "context": {
       "en-US": "TGF-beta suppresses PGC-1alpha, shifting the redox balance toward a pro-oxidant state by lowering mitochondrial biogenesis and antioxidant gene expression. This reinforces TGF-beta-driven fibrotic and senescence phenotypes. The directionality is TGF-beta to reduced PGC-1alpha to oxidative tilt. A caveat is that the suppression is context-specific and can be opposed by exercise and other PGC-1alpha inducers. Restoring PGC-1alpha, for example through exercise or pharmacological activation, may counteract TGF-beta-driven oxidative and fibrotic stress.",
       "zh-TW": "TGF-beta 抑制 PGC-1alpha，透過降低 mitochondria1 生物合成和抗氧化基因表達，將氧化還原平衡轉向促氧化狀態。這強化了 TGF-beta 驅動的纖維化和老化表型。方向性為TGF-beta至還原PGC-1alpha至氧化傾斜。需要注意的是，這種抑制是針對特定情況的，可以透過運動和其他 PGC-1alpha 誘導劑來對抗。恢復 PGC-1alpha，例如透過運動或藥物激活，可以抵消 TGF-beta 驅動的氧化和纖維化壓力。"
@@ -3329,7 +3329,7 @@
     "confidence": 0.95,
     "source_document": "TGF-beta.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
     "id": "d2277a43178f",
@@ -3612,10 +3612,10 @@
     "updated": "2026-09-04T18:32:56Z"
   },
   {
-    "id": "77fc729449ae",
+    "id": "b2a8fa426d50",
     "subject": "Chronic Granulomatous Disease",
     "predicate": "is_associated_with",
-    "object": "Crohn's disease",
+    "object": "Crohn's Disease",
     "context": {
       "en-US": "Sterile granulomas and colitis in chronic granulomatous disease resemble Crohn's disease, an established clinical overlap. Shared granulomatous pathology links the entities.",
       "zh-TW": "慢性肉芽腫病的無菌肉芽腫與結腸炎類似 Crohn's disease，是既定的臨床重疊。共享的肉芽腫病理連結兩實體。"
@@ -3623,7 +3623,7 @@
     "confidence": 0.75,
     "source_document": "Chronic Granulomatous Disease.md",
     "created": "2026-09-04T18:32:56Z",
-    "updated": "2026-09-04T18:32:56Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "23319d3281c0",
@@ -3920,8 +3920,8 @@
     "updated": "2026-09-04T18:32:56Z"
   },
   {
-    "id": "5090d32f936f",
-    "subject": "Ascorbic Acid",
+    "id": "2332517e5e29",
+    "subject": "Vitamin C",
     "predicate": "regenerates",
     "object": "Vitamin E",
     "context": {
@@ -3931,7 +3931,7 @@
     "confidence": 0.85,
     "source_document": "Lipid peroxyl radical.md",
     "created": "2026-09-04T18:32:56Z",
-    "updated": "2026-09-04T18:32:56Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
     "id": "a80a4190996a",
@@ -3990,8 +3990,8 @@
     "updated": "2026-09-04T18:32:56Z"
   },
   {
-    "id": "3a1513eaf060",
-    "subject": "Ascorbic Acid",
+    "id": "2457d76063c3",
+    "subject": "Vitamin C",
     "predicate": "protects_against",
     "object": "UV-induced photoaging",
     "context": {
@@ -4001,7 +4001,7 @@
     "confidence": 0.72,
     "source_document": "UV-induced photoaging.md",
     "created": "2026-09-04T18:32:56Z",
-    "updated": "2026-09-04T18:32:56Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
     "id": "c716ccf0beb5",
@@ -4718,8 +4718,8 @@
     "updated": "2026-09-04T18:34:06Z"
   },
   {
-    "id": "770cce7db74d",
-    "subject": "Ascorbic Acid",
+    "id": "a40200a51996",
+    "subject": "Vitamin C",
     "predicate": "reduces",
     "object": "Silver",
     "context": {
@@ -4729,7 +4729,7 @@
     "confidence": 0.75,
     "source_document": "Silver.md",
     "created": "2026-09-04T18:34:06Z",
-    "updated": "2026-09-04T18:34:06Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
     "id": "7fc1a63a0059",
@@ -4872,8 +4872,8 @@
     "updated": "2026-09-04T18:34:06Z"
   },
   {
-    "id": "897ad8b25f2b",
-    "subject": "Ascorbic Acid",
+    "id": "6ed7af6de6d7",
+    "subject": "Vitamin C",
     "predicate": "reduces",
     "object": "Silver sulfide albuminates",
     "context": {
@@ -4883,7 +4883,7 @@
     "confidence": 0.7,
     "source_document": "Silver sulfide albuminates.md",
     "created": "2026-09-04T18:34:06Z",
-    "updated": "2026-09-04T18:34:06Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
     "id": "a6c1f6505617",

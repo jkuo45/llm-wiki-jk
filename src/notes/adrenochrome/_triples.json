@@ -1414,20 +1414,6 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "f08eda485472",
-    "subject": "Aminoguanidine",
-    "predicate": "inhibits",
-    "object": "Advanced Glycation End Products formation",
-    "context": {
-      "en-US": "Aminoguanidine was the first agent introduced as an AGE inhibitor. It and related inhibitors such as pyridoxamine prevent AGE accumulation by interacting with highly reactive carbonyl species and acting as carbonyl traps. Aminoguanidine prevented diabetic renal, retinal, and neural complications through the inhibition of AGE formation in animal models. However, it cannot be used clinically due to safety concerns including pro-oxidant activities and inhibition of nitric oxide synthase, so its role is now primarily as a research tool and reference compound.",
-      "zh-TW": "Aminoguanidine 是首個被引入作為 AGE inhibitor 的 agent。它與 pyridoxamine 等相關 inhibitors 透過與 highly reactive carbonyl species 交互作用並作為 carbonyl traps，來防止 AGE accumulation。Aminoguanidine 在 animal models 中透過抑制 AGE formation，預防了 diabetic renal、retinal 與 neural complications。然而，由於包括 pro-oxidant activities 與抑制 nitric oxide synthase 在內的 safety concerns，它無法臨床使用，因此其角色現主要作為 research tool 與 reference compound。"
-    },
-    "confidence": 0.95,
-    "source_document": "_document_ - The role of glycation in the pathogenesis of aging and its prevention through herbal products and physical exercise.md",
-    "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:00:54Z"
-  },
-  {
     "id": "3cd169f613e7",
     "subject": "Aminoguanidine",
     "predicate": "inhibits",
@@ -1778,8 +1764,8 @@
     "updated": "2026-08-20T06:38:23Z"
   },
   {
-    "id": "a7a232658b03",
-    "subject": "Ascorbic Acid",
+    "id": "c6c9e5db396c",
+    "subject": "Vitamin C",
     "predicate": "reduces",
     "object": "Adrenochrome",
     "context": {
@@ -1789,11 +1775,11 @@
     "confidence": 0.75,
     "source_document": "_document_ - intermediates, precursor, hemoglobin.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:43:53Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
-    "id": "13c5e4c18d19",
-    "subject": "Ascorbic Acid",
+    "id": "7695fd3e6ddb",
+    "subject": "Vitamin C",
     "predicate": "inhibits",
     "object": "Adrenochrome formation",
     "context": {
@@ -1803,11 +1789,11 @@
     "confidence": 0.9,
     "source_document": "_document_ - molecular composition, mechanism.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:00:54Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
-    "id": "be943611b01a",
-    "subject": "Ascorbic Acid",
+    "id": "52109b276ee6",
+    "subject": "Vitamin C",
     "predicate": "reduces",
     "object": "o-quinone",
     "context": {
@@ -1817,11 +1803,11 @@
     "confidence": 0.9,
     "source_document": "_document_ - formation, chemical stability.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:19:41Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
-    "id": "6473ba96b85e",
-    "subject": "Ascorbic Acid",
+    "id": "accaf20bbdb5",
+    "subject": "Vitamin C",
     "predicate": "reduces",
     "object": "Silver compounds",
     "context": {
@@ -1831,7 +1817,7 @@
     "confidence": 0.7,
     "source_document": "_document_ - Silver(1+) oxide.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:38:23Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
     "id": "bc404d1ae428",
@@ -2464,10 +2450,10 @@
     "updated": "2026-08-20T06:43:53Z"
   },
   {
-    "id": "917d8056e2db",
-    "subject": "Dietary Advanced Glycation End Products",
+    "id": "2f255f4e5357",
+    "subject": "Advanced Glycation End Products",
     "predicate": "accelerate",
-    "object": "Endothelial dysfunction",
+    "object": "Endothelial Dysfunction",
     "context": {
       "en-US": "Exogenous advanced glycation end products from the diet contribute to vascular aging. A 9-month dietary exposure to CML in mice accelerated endothelial dysfunction and arterial aging, and dietary CML-enriched protein induces functional arterial aging in a RAGE-dependent manner. These effects link dietary glycotoxins to cardiovascular aging through AGE-RAGE signaling and ECM cross-linking. Because modern diets cooked at high heat are rich in dietary AGEs, restricting dietary AGE intake is proposed as an effective way to reduce the AGE burden and protect vascular function.",
       "zh-TW": "來自 diet 的 exogenous advanced glycation end products 促成 vascular aging。Mice 中為期 9 個月的 CML dietary exposure 加速了 endothelial dysfunction 與 arterial aging，而 dietary CML-enriched protein 以 RAGE-dependent manner 誘發 functional arterial aging。這些 effects 透過 AGE-RAGE signaling 與 ECM cross-linking，將 dietary glycotoxins 與 cardiovascular aging 連結起來。由於 modern diets 高溫 cooked 富含 dietary AGEs，限制 dietary AGE intake 被提議為降低 AGE burden 與保護 vascular function 的有效方法。"
@@ -2475,11 +2461,11 @@
     "confidence": 0.85,
     "source_document": "_document_ - The role of glycation in the pathogenesis of aging and its prevention through herbal products and physical exercise.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:00:54Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
-    "id": "ecbc85a4b559",
-    "subject": "Dietary Advanced Glycation End Products",
+    "id": "ea65e9ee11db",
+    "subject": "Advanced Glycation End Products",
     "predicate": "increase",
     "object": "serum AGE levels",
     "context": {
@@ -2489,21 +2475,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - The role of glycation in the pathogenesis of aging and its prevention through herbal products and physical exercise.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:00:54Z"
-  },
-  {
-    "id": "9f258e096396",
-    "subject": "Dietary Advanced Glycation End Products",
-    "predicate": "impair",
-    "object": "Wound Healing",
-    "context": {
-      "en-US": "Dietary advanced glycation end products are exogenous glycotoxins absorbed from food that trigger organ dysfunction and tissue aging. In genetically diabetic mice, adverse effects of dietary glycotoxins on wound healing have been demonstrated, and dietary AGEs also accelerate endothelial dysfunction and arterial aging with prolonged exposure. Because AGEs promote inflammation via RAGE and cross-link extracellular matrix proteins, dietary glycotoxins burden the body in addition to endogenous glycation. Restricting dietary AGEs reduces circulating AGE levels and may protect against AGE-related tissue damage.",
-      "zh-TW": "Dietary advanced glycation end products 是從食物吸收的 exogenous glycotoxins，會引發 organ dysfunction 與 tissue aging。在 genetically diabetic mice 中，已證實 dietary glycotoxins 對 wound healing 有 adverse effects，且長期暴露下 dietary AGEs 也會加速 endothelial dysfunction 與 arterial aging。由於 AGEs 透過 RAGE 促進 inflammation 並使 extracellular matrix proteins 交聯，dietary glycotoxins 在 endogenous glycation 之外還會加重身體負擔。限制 dietary AGEs 可降低 circulating AGE levels，並可能保護免受 AGE-related tissue damage。"
-    },
-    "confidence": 0.9,
-    "source_document": "_document_ - The role of glycation in the pathogenesis of aging and its prevention through herbal products and physical exercise.md",
-    "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:00:54Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
     "id": "24996b38dda0",
@@ -2534,8 +2506,8 @@
     "updated": "2026-08-20T06:54:12Z"
   },
   {
-    "id": "2205eb3c1b15",
-    "subject": "Dietary AGEs",
+    "id": "dafada7de016",
+    "subject": "Advanced Glycation End Products",
     "predicate": "enter",
     "object": "Circulation",
     "context": {
@@ -2545,11 +2517,11 @@
     "confidence": 0.9,
     "source_document": "_document_ - Dietary Advanced Glycation End Products and Aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:54:12Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
-    "id": "7399ce6cd726",
-    "subject": "Dietary AGEs",
+    "id": "64f34aa91ded",
+    "subject": "Advanced Glycation End Products",
     "predicate": "increase",
     "object": "Plasma AGEs",
     "context": {
@@ -2559,11 +2531,11 @@
     "confidence": 0.9,
     "source_document": "_document_ - Dietary Advanced Glycation End Products and Aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:54:12Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
-    "id": "e0af775bc97c",
-    "subject": "Dietary AGEs",
+    "id": "8e0658241b3e",
+    "subject": "Advanced Glycation End Products",
     "predicate": "activate",
     "object": "RAGE",
     "context": {
@@ -2573,7 +2545,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - Dietary Advanced Glycation End Products and Aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:54:12Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
     "id": "636c921afa9f",
@@ -2912,10 +2884,10 @@
     "updated": "2026-08-20T06:43:53Z"
   },
   {
-    "id": "5587ab29f056",
+    "id": "3c04c64a103d",
     "subject": "Genistein",
     "predicate": "inhibits",
-    "object": "Advanced Glycation End Products formation",
+    "object": "Advanced Glycation End Products",
     "context": {
       "en-US": "Genistein is an isoflavone flavonoid reported to possess anti-glycation properties. Together with other flavonoids such as kaempferol, quercitrin, and quercetin, genistein inhibits the glycation process in vitro. The anti-glycation activities of these polyphenols are similar to or even stronger than aminoguanidine, and they act in part through trapping reactive carbonyl species and antioxidant capacity. Herbal products and dietary plants containing these flavonoids are therefore considered promising, relatively safe agents for preventing glycation and AGE accumulation during aging.",
       "zh-TW": "Genistein 是一種異黃酮類黃酮，據報導具有抗糖化特性。與其他黃酮類如 kaempferol、quercitrin 與 quercetin 一起，Genistein 在體外抑制糖化過程。這些多酚的抗糖化活性與 aminoguanidine 相似甚至更強，且部分透過捕捉活性羰基物種與抗氧化能力來作用。因此，含有這些黃酮類的草藥產品與食用植物被視為在老化過程中預防糖化與 AGE 堆積的具潛力且相對安全的物質。"
@@ -2923,7 +2895,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - The role of glycation in the pathogenesis of aging and its prevention through herbal products and physical exercise.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:12:28Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
     "id": "7a7962105cb2",
@@ -3472,8 +3444,8 @@
     "updated": "2026-08-20T07:14:47Z"
   },
   {
-    "id": "2f4bebfd40f6",
-    "subject": "Hypochlorous acid",
+    "id": "3d25eee4a455",
+    "subject": "Hypochlorous Acid",
     "predicate": "damages",
     "object": "microbial macromolecules",
     "context": {
@@ -3483,7 +3455,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - neutrophils role in adrenochrome production.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:51:10Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "9ef76d5bada5",
@@ -3864,8 +3836,8 @@
     "updated": "2026-08-20T06:00:59Z"
   },
   {
-    "id": "0b8d99dfd4ee",
-    "subject": "Mitochondrial dysfunction",
+    "id": "54074a8cd5af",
+    "subject": "Mitochondrial Dysfunction",
     "predicate": "increases",
     "object": "Reactive Oxygen Species",
     "context": {
@@ -3875,7 +3847,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - molecular composition, mechanism.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:56:15Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "83a4e3519050",
@@ -3990,10 +3962,10 @@
     "updated": "2026-08-20T06:51:10Z"
   },
   {
-    "id": "3968655464ab",
+    "id": "28dd38e49da1",
     "subject": "Myeloperoxidase",
     "predicate": "produces",
-    "object": "Hypochlorous acid",
+    "object": "Hypochlorous Acid",
     "context": {
       "en-US": "Myeloperoxidase (MPO) uses hydrogen peroxide as a substrate to catalyze the two-electron oxidation of halides, mainly chloride, into hypohalous acids, with the primary reaction converting chloride to hypochlorous acid (HOCl): MPO + H2O2 + Cl- produces HOCl + H2O. Hypochlorous acid is a potent antimicrobial oxidant that damages microbial proteins, lipids, and DNA, and this halogenation cycle is central to the neutrophil's oxidative burst. The same oxidant can damage host tissues when released in excess, linking MPO to tissue injury, atherosclerosis, and chronic inflammatory diseases.",
       "zh-TW": "Myeloperoxidase（MPO）以hydrogen peroxide為substrate，催化halides（mainly chloride）的two-electron oxidation生成hypohalous acids，其主要reaction將chloride轉化為hypochlorous acid（HOCl）：MPO + H2O2 + Cl- produces HOCl + H2O。Hypochlorous acid是一種potent antimicrobial oxidant，可damages microbial proteins、lipids與DNA，此halogenation cycle是neutrophil's oxidative burst的核心。當此oxidant過量released時，同樣會damages host tissues，將MPO與tissue injury、atherosclerosis及chronic inflammatory diseases聯繫起來。"
@@ -4001,7 +3973,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - neutrophils role in adrenochrome production.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:51:10Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "c46ebfca62df",
@@ -4242,8 +4214,8 @@
     "updated": "2026-08-20T06:51:10Z"
   },
   {
-    "id": "8fb3085a5689",
-    "subject": "NADPH oxidase",
+    "id": "c76a24f0716e",
+    "subject": "NADPH Oxidase",
     "predicate": "produces",
     "object": "Superoxide anion",
     "context": {
@@ -4253,7 +4225,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - neutrophils role in adrenochrome production.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:51:10Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "5e852c6deb1b",
@@ -6076,10 +6048,10 @@
     "updated": "2026-08-20T07:27:43Z"
   },
   {
-    "id": "bca748329914",
+    "id": "8bcb5502eafd",
     "subject": "Pyridoxamine",
     "predicate": "inhibits",
-    "object": "Advanced Glycation End Products formation",
+    "object": "Advanced Glycation End Products",
     "context": {
       "en-US": "Pyridoxamine is a synthetic AGE inhibitor that prevents AGE accumulation by interacting with highly reactive carbonyl species and acting as a carbonyl trap, similar to aminoguanidine. By scavenging carbonyl intermediates, pyridoxamine blocks the formation of advanced glycation end products and is considered a candidate for preventing glycation-mediated pathology. Unlike aminoguanidine, pyridoxamine (a vitamin B6 derivative) has a more favorable safety profile. AGE inhibitors and carbonyl-trapping agents remain an active area of research for reducing AGE burden in diabetes and aging.",
       "zh-TW": "Pyridoxamine 是一種 synthetic AGE inhibitor，透過與 highly reactive carbonyl species 交互作用並作為 carbonyl trap 來防止 AGE accumulation，類似於 aminoguanidine。透過 scavenging carbonyl intermediates，pyridoxamine 阻斷 advanced glycation end products 的形成，並被視為預防 glycation-mediated pathology 的 candidate。不同於 aminoguanidine，pyridoxamine（一種 vitamin B6 derivative）具有更有利的 safety profile。AGE inhibitors 與 carbonyl-trapping agents 仍是減少 diabetes 與 aging 中 AGE burden 的活躍研究領域。"
@@ -6087,7 +6059,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - The role of glycation in the pathogenesis of aging and its prevention through herbal products and physical exercise.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:00:54Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
     "id": "10fd1eab43ec",
@@ -6398,10 +6370,10 @@
     "updated": "2026-08-20T07:14:47Z"
   },
   {
-    "id": "8d6c5aef0d03",
+    "id": "b560b4a0a7f4",
     "subject": "SARS-CoV-2 Nsp3",
     "predicate": "hydrolyzes",
-    "object": "ADP-Ribose",
+    "object": "ADP-ribose",
     "context": {
       "en-US": "The ADP-ribosylhydrolase macrodomain of the viral nonstructural protein nsp3 reverses the antiviral effect of PARPs, which is required for inhibition of viral replication during infection, and the activity of nsp3 is itself required for SARS-CoV-2 virulence. By removing mono-ADP-ribose (MARylation) marks deposited on viral proteins by IFN-induced PARP activation, nsp3 counteracts the host's antiviral ADP-ribosylation response. These events occur within the infected cell's NAD+ metabolome, and boosting NAD+ content through nicotinamide riboside and nicotinamide kinase pathways may restore antiviral PARP functions to support innate immunity to SARS-CoV-2.",
       "zh-TW": "病毒非結構蛋白 nsp3 的 ADP-ribosylhydrolase（ADP-核糖水解酶）macrodomain 逆轉了 PARPs 的抗病毒效果，而後者為感染期間抑制病毒複製所必需，且 nsp3 的活性本身為 SARS-CoV-2 毒力所必需。透過移除由 IFN 誘發的 PARP 活化沉積在病毒蛋白上的 mono-ADP-ribose（MARylation，單-ADP-核糖）標記，nsp3 抵銷了宿主的抗病毒 ADP-ribosylation（ADP-核糖基化）反應。這些事件發生在被感染細胞的 NAD+ 代謝組內，而透過 nicotinamide riboside 與 nicotinamide 激酶路徑提升 NAD+ 含量可能恢復抗病毒 PARP 功能，以支援對 SARS-CoV-2 的先天免疫。"
@@ -6409,7 +6381,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:32:19Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "50d4f0e8f063",
@@ -7028,8 +7000,8 @@
     "updated": "2026-08-20T06:43:53Z"
   },
   {
-    "id": "7b5bb7e76478",
-    "subject": "Superoxide dismutase",
+    "id": "d4a81997a555",
+    "subject": "Superoxide Dismutase",
     "predicate": "prevents_formation_of",
     "object": "Adrenochrome",
     "context": {
@@ -7039,7 +7011,7 @@
     "confidence": 0.75,
     "source_document": "_document_ - neutrophils role in adrenochrome production.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-01T04:17:56Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "649d9811b6e2",
@@ -7434,10 +7406,10 @@
     "updated": "2026-08-20T07:35:35Z"
   },
   {
-    "id": "edb6cc905051",
+    "id": "69f8020aaae5",
     "subject": "Urolithin A",
     "predicate": "increases",
-    "object": "p21",
+    "object": "p21 CIP1",
     "context": {
       "en-US": "Urolithin A can regulate the cell cycle by increasing the levels of cell cycle inhibitory proteins such as p21 and p27, complementing its inhibition of cyclin-dependent kinase activity and its reduction of cyclin D1 expression. Elevation of these cell cycle inhibitory proteins promotes cell cycle arrest in the G1 phase. Together these effects define urolithin A's capacity to modulate cell cycle progression, a property with relevance to its anti-tumor and antiproliferative activity in cancer contexts.",
       "zh-TW": "Urolithin A 可透過提升如 p21 與 p27 等細胞週期抑制蛋白的水平來調節細胞週期，補足其對 cyclin-dependent kinase 活性的抑制以及對 cyclin D1 表現的降低。這些細胞週期抑制蛋白的升高促進 G1 期細胞週期停滯。這些效應共同界定了 urolithin A 調節細胞週期進程的能力，此特性與其在癌症情境中的抗腫瘤與抗增殖活性相關。"
@@ -7445,7 +7417,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:35:35Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
     "id": "3f2d68e4fc62",
@@ -8078,8 +8050,8 @@
     "updated": "2026-09-04T17:13:28Z"
   },
   {
-    "id": "a492987201ce",
-    "subject": "Hypochlorous acid",
+    "id": "9bfd61d082d3",
+    "subject": "Hypochlorous Acid",
     "predicate": "produces",
     "object": "3-Chlorotyrosine",
     "context": {
@@ -8089,11 +8061,11 @@
     "confidence": 0.85,
     "source_document": "HOCl-mediated Oxidation.md",
     "created": "2026-09-04T17:13:28Z",
-    "updated": "2026-09-04T17:13:28Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
-    "id": "413f84025c7d",
-    "subject": "Hypochlorous acid",
+    "id": "7b75e437dea6",
+    "subject": "Hypochlorous Acid",
     "predicate": "activates",
     "object": "Metalloproteinases",
     "context": {
@@ -8103,7 +8075,7 @@
     "confidence": 0.8,
     "source_document": "HOCl-mediated Oxidation.md",
     "created": "2026-09-04T17:13:28Z",
-    "updated": "2026-09-04T17:13:28Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "a04725dd8820",
@@ -8218,8 +8190,8 @@
     "updated": "2026-09-04T17:13:28Z"
   },
   {
-    "id": "f2012a623f6f",
-    "subject": "Calcineurin",
+    "id": "4f2c01a363ca",
+    "subject": "calcineurin",
     "predicate": "activates",
     "object": "Transcription factor EB",
     "context": {
@@ -8229,7 +8201,7 @@
     "confidence": 0.85,
     "source_document": "Transcription factor EB.md",
     "created": "2026-09-04T17:13:28Z",
-    "updated": "2026-09-04T17:13:28Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "25401f400d41",

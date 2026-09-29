@@ -882,10 +882,10 @@
     "updated": "2026-09-02T06:31:39Z"
   },
   {
-    "id": "2d6c1f3e3331",
+    "id": "80225bc28eb9",
     "subject": "APE1",
     "predicate": "activates",
-    "object": "NF-kappaB",
+    "object": "NF-κB",
     "context": {
       "en-US": "APE1/Ref-1, maintained in the reduced state by thioredoxin-1, activates the redox-sensitive transcription factor NF-kappaB by reducing critical cysteine residues on its p50/p65 subunits. This links oxidative stress to inflammatory gene expression in neurodegeneration and age-related conditions.",
       "zh-TW": "由硫氧還蛋白-1 維持在還原態的 APE1/Ref-1，透過還原 NF-kappaB 之 p50/p65 次單元上的關鍵半胱氨酸殘基來活化此氧化還原敏感的轉錄因子。這將氧化壓力與神經退化及年齡相關疾病中的發炎基因表現連結起來。"
@@ -893,7 +893,7 @@
     "confidence": 0.85,
     "source_document": "APE1.md",
     "created": "2026-09-02T06:31:39Z",
-    "updated": "2026-09-02T06:31:39Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
     "id": "1e7462a3504a",
@@ -1190,10 +1190,10 @@
     "updated": "2026-08-20T05:41:58Z"
   },
   {
-    "id": "139870fa73e4",
+    "id": "519c2eaca924",
     "subject": "Apigenin",
     "predicate": "upregulates",
-    "object": "p21",
+    "object": "p21 CIP1",
     "context": {
       "en-US": "Apigenin consistently induces the cyclin-dependent kinase inhibitor p21/Waf1/Cip1 across cancer models, which mediates its cell-cycle-arrest and pro-apoptotic effects. In prostate LNCaP cells p21 is induced in a p53-dependent manner alongside p27/Kip1, whereas in p53-mutant colon and osteosarcoma cells apigenin still elevated p21/Waf1 in a dose- and time-dependent manner via a p53-independent pathway. Apigenin also functions as an HDAC inhibitor that increases global histone acetylation and hyperacetylates histone H3 specifically at the p21/Waf1 promoter, directly driving p21 transcription in triple-negative breast cancer cells.",
       "zh-TW": "芹菜素在多種癌症模型中一致地誘導細胞週期依賴性激酶抑制劑p21/Waf1/Cip1，此作用介導其細胞週期停滯與促凋亡效果。在前列腺LNCaP細胞中，p21以p53依賴性方式與p27/Kip1一同被誘導；而在p53突變的結腸癌與骨肉瘤細胞中，芹菜素仍能經由p53非依賴性途徑，以劑量與時間依賴方式提高p21/Waf1。芹菜素同時也是HDAC抑制劑，可增加整體組蛋白乙醯化，並特別在p21/Waf1啟動子處高度乙醯化組蛋白H3，在三陰性乳癌細胞中直接驅動p21轉錄。"
@@ -1201,7 +1201,7 @@
     "confidence": 0.92,
     "source_document": "_document_ - Plant flavone apigenin An emerging anticancer agent.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T05:41:58Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
     "id": "840070f8d655",
@@ -1568,10 +1568,10 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "6184713f39ea",
+    "id": "770ac62f81b8",
     "subject": "Auranofin",
     "predicate": "inhibits",
-    "object": "NF-kappaB",
+    "object": "NF-κB",
     "context": {
       "en-US": "Auranofin blocks IKK/NF-kappaB activation, contributing to both its anti-inflammatory effects in rheumatoid arthritis and its pro-apoptotic effects in cancer. This adds an immunomodulatory and survival-signaling dimension to the drug's mechanism.",
       "zh-TW": "Auranofin 會阻斷 IKK/NF-kappaB 活化，促成其在類風濕性關節炎中的抗發炎作用以及在癌症中的促凋亡作用。這為該藥物的機制增添了免疫調節與存活訊息傳遞的面向。"
@@ -1579,7 +1579,7 @@
     "confidence": 0.85,
     "source_document": "Auranofin.md",
     "created": "2026-09-02T06:31:39Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
     "id": "b96310545f59",
@@ -2173,7 +2173,7 @@
     "id": "6d16eb055435",
     "subject": "Clofarabine",
     "predicate": "is_approved_for",
-    "object": "Leukemia",
+    "object": "leukemia",
     "context": {
       "en-US": "Clofarabine received FDA accelerated approval in December 2004 for pediatric patients (ages 1-21) with relapsed or refractory acute lymphoblastic leukemia after at least two prior regimens. It was the first new drug approved for pediatric leukemia in over a decade.",
       "zh-TW": "Clofarabine 於 2004 年 12 月獲得 FDA 加速核准，用於至少接受過兩種先前療程後復發或難治型急性淋巴性白血病的兒童患者（1-21 歲）。它是十多年來第一個獲核准用於兒童白血病的藥物。"
@@ -2181,13 +2181,13 @@
     "confidence": 0.95,
     "source_document": "Clofarabine.md",
     "created": "2026-09-02T06:31:39Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
-    "id": "bd5f9acc188c",
+    "id": "21ef0780e6a4",
     "subject": "Clofarabine",
     "predicate": "inhibits",
-    "object": "Ribonucleotide Reductase",
+    "object": "ribonucleotide reductase",
     "context": {
       "en-US": "Clofarabine's diphosphate inhibits ribonucleotide reductase (IC50 about 65 nM), depleting dNTP pools and further starving DNA synthesis. This direct RNR inhibition is complemented by DNA polymerase inhibition and chain termination by the incorporated triphosphate.",
       "zh-TW": "Clofarabine 的二磷酸形式抑制核醣核苷酸還原酶（IC50 約 65 nM），耗竭 dNTP 池並進一步使 DNA 合成匱乏。此直接的 RNR 抑制與嵌入的三磷酸所造成的 DNA 聚合酶抑制及鏈終止相互補。"
@@ -2195,7 +2195,7 @@
     "confidence": 0.95,
     "source_document": "Clofarabine.md",
     "created": "2026-09-02T06:31:39Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "3bba8933aa68",
@@ -3291,7 +3291,7 @@
   },
   {
     "id": "de4d052b7614",
-    "subject": "Endostatin",
+    "subject": "endostatin",
     "predicate": "declines_with",
     "object": "Aging",
     "context": {
@@ -3301,7 +3301,7 @@
     "confidence": 0.8,
     "source_document": "endostatin.md",
     "created": "2026-09-02T06:56:57Z",
-    "updated": "2026-09-02T06:56:57Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "0a71933823e2",
@@ -3584,8 +3584,8 @@
     "updated": "2026-08-20T05:46:48Z"
   },
   {
-    "id": "2995d970ba8c",
-    "subject": "Fat Free Mass",
+    "id": "75137d56d465",
+    "subject": "Fat-Free Mass",
     "predicate": "is_the_major_determinant_of",
     "object": "Resting Metabolic Rate",
     "context": {
@@ -3595,7 +3595,7 @@
     "confidence": 0.94,
     "source_document": "_document_ - speakman2003_Resting Metabolic Rate.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T05:46:48Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "eade03f21088",
@@ -4340,10 +4340,10 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "f32faf56b136",
+    "id": "8b326c8dce14",
     "subject": "Glutaredoxin",
     "predicate": "reduces",
-    "object": "Ribonucleotide Reductase",
+    "object": "ribonucleotide reductase",
     "context": {
       "en-US": "Glutaredoxin donates electrons to ribonucleotide reductase (RNR), providing a glutathione-routed backup to thioredoxin for de novo dNTP synthesis. Glutaredoxin was discovered through its ability to reduce RNR, and both systems can sustain ribonucleotide reduction.",
       "zh-TW": "Glutaredoxin 提供電子給核醣核苷酸還原酶（RNR），為 de novo dNTP 合成提供一條經由麩胱甘肽路線、與硫氧還蛋白並行的備援途徑。Glutaredoxin 正是因其還原 RNR 的能力而被發現，兩者皆能維持核醣核苷酸還原作用。"
@@ -4351,7 +4351,7 @@
     "confidence": 0.95,
     "source_document": "Glutaredoxin.md",
     "created": "2026-09-02T06:31:39Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "477aa41d5f10",
@@ -6734,10 +6734,10 @@
     "updated": "2026-09-02T06:56:57Z"
   },
   {
-    "id": "89178b016bcb",
+    "id": "2b8d08919f79",
     "subject": "MCC950",
     "predicate": "inhibits",
-    "object": "NLRP3 inflammasome",
+    "object": "NLRP3 Inflammasome",
     "context": {
       "en-US": "MCC950 is a potent, selective, and cell-active inhibitor of the NLRP3 inflammasome. It binds the NACHT domain of NLRP3, blocking inflammasome assembly, ASC speck formation, and caspase-1 activation to reduce IL-1beta and IL-18 secretion.",
       "zh-TW": "MCC950 是 NLRP3 發炎體的強效、選擇性、細胞活性抑制劑。它結合 NLRP3 的 NACHT 結構域，阻斷發炎體組裝、ASC 斑點形成與 caspase-1 活化，以減少 IL-1β 與 IL-18 分泌。"
@@ -6745,7 +6745,7 @@
     "confidence": 0.9,
     "source_document": "MCC950.md",
     "created": "2026-09-02T06:56:57Z",
-    "updated": "2026-09-02T06:56:57Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "159498ea3501",
@@ -9157,7 +9157,7 @@
   },
   {
     "id": "d52bdcf6d76c",
-    "subject": "Nrf2",
+    "subject": "NRF2",
     "predicate": "is_sequestered_by",
     "object": "Keap1",
     "context": {
@@ -9167,7 +9167,7 @@
     "confidence": 0.9,
     "source_document": "NRF2.md",
     "created": "2026-09-02T06:56:57Z",
-    "updated": "2026-09-02T06:56:57Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "bcc5be94dc65",
@@ -9185,7 +9185,7 @@
   },
   {
     "id": "6455f4a949ce",
-    "subject": "Nrf2",
+    "subject": "NRF2",
     "predicate": "is_co_activated_by",
     "object": "Sirtuins",
     "context": {
@@ -9195,7 +9195,7 @@
     "confidence": 0.8,
     "source_document": "NRF2.md",
     "created": "2026-09-02T06:56:57Z",
-    "updated": "2026-09-02T06:56:57Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "8358aea48fb4",
@@ -9297,7 +9297,7 @@
   },
   {
     "id": "9d0333758d00",
-    "subject": "Paclitaxel",
+    "subject": "paclitaxel",
     "predicate": "stabilizes",
     "object": "Tubulin",
     "context": {
@@ -9307,7 +9307,7 @@
     "confidence": 0.9,
     "source_document": "Tubulin.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T06:19:41Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "0718fcb31ca8",
@@ -9618,10 +9618,10 @@
     "updated": "2026-08-20T06:07:10Z"
   },
   {
-    "id": "3505fa650aed",
+    "id": "f3002b749552",
     "subject": "Physical Activity",
     "predicate": "is_measured_by",
-    "object": "Doubly Labelled Water",
+    "object": "Doubly-Labelled Water",
     "context": {
       "en-US": "The doubly labelled water (DLW) technique is the gold-standard method for measuring total daily energy expenditure and the physical activity component of the energy budget in free-living humans. Subjects drink water labeled with the stable isotopes deuterium and oxygen-18; carbon dioxide production is calculated from the differential loss rates of the two isotopes, and energy expenditure is derived using standard equations. In the studies reviewed by Speakman, DLW has been used to quantify total daily energy expenditure (TEE) over 7-14 day periods, showing that within-individual day-to-day variability of TEE is small even when physical activity varies.",
       "zh-TW": "雙標記水（DLW）技術是測量自由生活人類每日總能量支出和能量預算中體力活動成分的黃金標準方法。受試者飲用含有穩定同位素氘和氧-18標記的水；二氧化碳產生量根據兩種同位素的差異損失率計算，能量支出使用標準方程式得出。在Speakman回顧的研究中，DLW被用於量化7-14天期間的每日總能量支出（TEE），顯示即使體力活動變化，個體內每日TEE變異性也很小。"
@@ -9629,7 +9629,7 @@
     "confidence": 0.92,
     "source_document": "_document_ - speakman2003_Resting Metabolic Rate.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T06:07:10Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "6c8e198c51a2",
@@ -10808,10 +10808,10 @@
     "updated": "2026-08-20T06:14:36Z"
   },
   {
-    "id": "4a270a67a0bb",
+    "id": "042150a15b87",
     "subject": "Resting Metabolic Rate",
     "predicate": "correlates_with",
-    "object": "Fat Free Mass",
+    "object": "Fat-Free Mass",
     "context": {
       "en-US": "Across and within individuals, resting metabolic rate (RMR) is most strongly predicted by fat free mass (FFM), which typically accounts for roughly 60-80 percent of the variance in RMR. Larger organs such as liver, brain, heart, and kidneys are metabolically expensive, so differences in lean mass drive most of the between-individual variation in RMR. Within a single individual, day-to-day variability of RMR is small, and the residual variability not explained by FFM includes fat mass, age, thyroid status, and ambient temperature. Because lean tissue is the primary metabolic driver, changes in muscle mass through training can modestly raise RMR.",
       "zh-TW": "在個體之間和內部，靜息代謝率（RMR）最強烈地由去脂體重（FFM）預測，FFM通常佔RMR變異的大約60-80%。較大的器官如肝臟、大腦、心臟和腎臟在代謝上成本高昂，因此瘦體重的差異驅動了個體之間RMR的大部分變化。在單個個體內部，RMR的日常變異性很小，FFM未解釋的殘餘變異性包括脂肪質量、年齡、甲狀腺狀態和環境溫度。由於瘦組織是主要的代謝驅動因素，通過訓練改變肌肉質量可以適度提高RMR。"
@@ -10819,7 +10819,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - speakman2003_Resting Metabolic Rate.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T06:14:36Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "d75a453468c7",
@@ -10906,8 +10906,8 @@
     "updated": "2026-09-02T06:56:57Z"
   },
   {
-    "id": "86336685e365",
-    "subject": "Ribonucleotide Reductase",
+    "id": "2077cbdb1a3b",
+    "subject": "ribonucleotide reductase",
     "predicate": "synthesizes",
     "object": "dNTP",
     "context": {
@@ -10917,11 +10917,11 @@
     "confidence": 0.98,
     "source_document": "Ribonucleotide Reductase.md",
     "created": "2026-09-02T06:31:39Z",
-    "updated": "2026-09-27T03:43:23Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
-    "id": "eb3204bd5e64",
-    "subject": "Ribonucleotide Reductase",
+    "id": "913d988a9ac3",
+    "subject": "ribonucleotide reductase",
     "predicate": "is_inhibited_by",
     "object": "Gemcitabine",
     "context": {
@@ -10931,11 +10931,11 @@
     "confidence": 0.95,
     "source_document": "Ribonucleotide Reductase.md",
     "created": "2026-09-02T06:31:39Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
-    "id": "99876c7a25c6",
-    "subject": "Ribonucleotide Reductase",
+    "id": "7332f0e4a623",
+    "subject": "ribonucleotide reductase",
     "predicate": "is_inhibited_by",
     "object": "Hydroxyurea",
     "context": {
@@ -10945,11 +10945,11 @@
     "confidence": 0.95,
     "source_document": "Ribonucleotide Reductase.md",
     "created": "2026-09-02T06:31:39Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
-    "id": "d59fcb866c8a",
-    "subject": "Ribonucleotide Reductase",
+    "id": "8acbd458b828",
+    "subject": "ribonucleotide reductase",
     "predicate": "has_subunit",
     "object": "RRM1",
     "context": {
@@ -10959,11 +10959,11 @@
     "confidence": 0.95,
     "source_document": "Ribonucleotide Reductase.md",
     "created": "2026-09-02T06:31:39Z",
-    "updated": "2026-09-27T03:43:23Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
-    "id": "5597a7b8a8fe",
-    "subject": "Ribonucleotide Reductase",
+    "id": "b5303fc245f0",
+    "subject": "ribonucleotide reductase",
     "predicate": "has_subunit",
     "object": "RRM2",
     "context": {
@@ -10973,11 +10973,11 @@
     "confidence": 0.95,
     "source_document": "Ribonucleotide Reductase.md",
     "created": "2026-09-02T06:31:39Z",
-    "updated": "2026-09-27T03:43:23Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
-    "id": "792ffa121166",
-    "subject": "Ribonucleotide Reductase",
+    "id": "6660e4103d55",
+    "subject": "ribonucleotide reductase",
     "predicate": "has_subunit",
     "object": "RRM2B",
     "context": {
@@ -10987,7 +10987,7 @@
     "confidence": 0.95,
     "source_document": "Ribonucleotide Reductase.md",
     "created": "2026-09-02T06:31:39Z",
-    "updated": "2026-09-27T03:43:23Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "5b45b39b1109",
@@ -11956,10 +11956,10 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "5e6031ecd45b",
+    "id": "645fd1d8e5f8",
     "subject": "SMURF2",
     "predicate": "negatively_regulates",
-    "object": "TGF-β",
+    "object": "TGFβ",
     "context": {
       "en-US": "Beyond SIRT1, SMURF2's canonical function is negative regulation of TGF-β/BMP signaling: as a HECT-domain E3 ligase it ubiquitinates SMAD proteins and SMAD7-bound receptor complexes, shaping the strength and duration of the pathway. This dual identity — SMAD regulator and SIRT1 E3 — makes SMURF2 a node where developmental signaling and sirtuin-controlled stress metabolism intersect.",
       "zh-TW": "除了 SIRT1 之外，SMURF2 的典型功能是對 TGF-β/BMP 訊號的負向調節：作為 HECT 結構域的 E3 連接酶，它會泛素化 SMAD 蛋白及與 SMAD7 結合的受體複合體，從而塑造路徑的強度與持續時間。這種雙重身份——SMAD 調節者與 SIRT1 的 E3——使 SMURF2 成為發育訊號與 sirtuin 控制的壓力代謝相互交會的節點。"
@@ -11967,7 +11967,7 @@
     "confidence": 0.88,
     "source_document": "SMURF2.md",
     "created": "2026-08-29T02:00:00Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "df2e88f5a322",
@@ -12071,7 +12071,7 @@
     "id": "247ba42dfdd3",
     "subject": "Sulfiredoxin",
     "predicate": "is_induced_by",
-    "object": "Nrf2",
+    "object": "NRF2",
     "context": {
       "en-US": "Sulfiredoxin (SRXN1) is a repair enzyme that reverses the over-oxidation of typical 2-Cys peroxiredoxins such as Peroxiredoxin 3. Its expression is induced by oxidative stress through Nrf2, forming a feed-forward repair loop that reinforces antioxidant defense.",
       "zh-TW": "硫氧還蛋白（Sulfiredoxin/SRXN1）是逆轉典型 2-Cys 過氧化還原酶（如 Peroxiredoxin 3）過度氧化的修復酶。其表現由氧化壓力經由 Nrf2 誘導，形成強化抗氧化防禦的前饋修復迴路。"
@@ -12079,7 +12079,7 @@
     "confidence": 0.9,
     "source_document": "Sulfiredoxin.md",
     "created": "2026-09-02T06:56:57Z",
-    "updated": "2026-09-02T06:56:57Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "b12b8eb7e2d4",
@@ -12460,10 +12460,10 @@
     "updated": "2026-09-02T06:31:39Z"
   },
   {
-    "id": "a4bb3f5d30df",
+    "id": "00cdef546898",
     "subject": "Thioredoxin",
     "predicate": "provides_electrons_to",
-    "object": "Ribonucleotide Reductase",
+    "object": "ribonucleotide reductase",
     "context": {
       "en-US": "Thioredoxin supplies reducing equivalents to ribonucleotide reductase, providing the electrons needed to regenerate the enzyme between catalytic cycles for de novo dNTP synthesis. This links the thioredoxin redox system directly to DNA replication and repair.",
       "zh-TW": "硫氧還蛋白供應還原當量給核醣核苷酸還原酶，提供在催化循環之間再生成酵素以進行 de novo dNTP 合成所需的電子。這將硫氧還蛋白氧化還原系統直接與 DNA 複製及修復連結起來。"
@@ -12471,7 +12471,7 @@
     "confidence": 0.9,
     "source_document": "Thioredoxin.md",
     "created": "2026-09-02T06:31:39Z",
-    "updated": "2026-09-02T06:31:39Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "875c5fb40b65",
@@ -12614,10 +12614,10 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "75b61088c7a7",
+    "id": "51e56ad999bf",
     "subject": "Thioredoxin-1",
     "predicate": "enhances",
-    "object": "HIF-1alpha",
+    "object": "HIF-1α",
     "context": {
       "en-US": "Thioredoxin-1 (Trx1) enhances the stability and activity of the transcription factor HIF-1alpha, supporting the cellular hypoxic response. By maintaining HIF-1alpha in its reduced, active state, Trx1 contributes to redox-dependent gene regulation under low-oxygen conditions.",
       "zh-TW": "Thioredoxin-1 (Trx1) 會增強轉錄因子 HIF-1alpha 的穩定性與活性，支持細胞的低氧反應。藉由維持 HIF-1alpha 的還原且活化狀態，Trx1 有助於低氧條件下的氧化還原依賴性基因調控。"
@@ -12625,7 +12625,7 @@
     "confidence": 0.9,
     "source_document": "Thioredoxin-1.md",
     "created": "2026-09-02T06:31:39Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
     "id": "7051596876e4",
@@ -12670,10 +12670,10 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "f527a32a5df2",
+    "id": "3669ff0e67bb",
     "subject": "Thioredoxin-1",
     "predicate": "modulates",
-    "object": "NF-kappaB",
+    "object": "NF-κB",
     "context": {
       "en-US": "Thioredoxin-1 (Trx1) modulates the DNA-binding activity of the p50 subunit of the transcription factor NF-kappaB, influencing inflammatory gene expression in a context-dependent pro- or anti-inflammatory manner. This couples the cellular redox state to inflammatory and survival signaling.",
       "zh-TW": "Thioredoxin-1 (Trx1) 會調節轉錄因子 NF-kappaB 之 p50 次單元的 DNA 結合活性，以情境依賴的方式影響發炎基因表現，可為促發炎或抗發炎。這將細胞的氧化還原狀態與發炎及存活訊息傳遞連結起來。"
@@ -12681,7 +12681,7 @@
     "confidence": 0.9,
     "source_document": "Thioredoxin-1.md",
     "created": "2026-09-02T06:31:39Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
     "id": "75262f41c661",
@@ -12698,10 +12698,10 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "82e3c416dc6f",
+    "id": "f28d07d2e6a6",
     "subject": "Thioredoxin-1",
     "predicate": "regenerates",
-    "object": "Ribonucleotide Reductase",
+    "object": "ribonucleotide reductase",
     "context": {
       "en-US": "Thioredoxin-1 (Trx1) is the dominant physiological electron donor that regenerates ribonucleotide reductase (RNR) between catalytic cycles, re-reducing the enzyme's active-site disulfide. Through this link the thioredoxin system directly fuels de novo dNTP synthesis for DNA replication and repair.",
       "zh-TW": "Thioredoxin-1 (Trx1) 是再生成核醣核苷酸還原酶（RNR）的主要生理電子供體，在每個催化循環之間重新還原酵素的活性中心雙硫鍵。透過此連結，硫氧還蛋白系統直接供應 DNA 複製與修復所需的 de novo dNTP 合成。"
@@ -12709,7 +12709,7 @@
     "confidence": 0.95,
     "source_document": "Thioredoxin-1.md",
     "created": "2026-09-02T06:31:39Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "9166f4145b31",
@@ -13034,10 +13034,10 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "e86f24a08f21",
+    "id": "d2475f61523b",
     "subject": "Triapine",
     "predicate": "inhibits",
-    "object": "Ribonucleotide Reductase",
+    "object": "ribonucleotide reductase",
     "context": {
       "en-US": "Triapine (3-AP) is an investigational alpha-N-heterocyclic thiosemicarbazone iron chelator that inhibits ribonucleotide reductase by chelating the iron of the RRM2/RRM2B small subunits. This strips the tyrosyl-radical cofactor, inactivating RNR and collapsing de novo dNTP synthesis.",
       "zh-TW": "Triapine（3-AP）是研究性的 alpha-N-雜環硫代半卡巴腙鐵螯合劑，透過螯合 RRM2/RRM2B 小次單元的鐵來抑制核醣核苷酸還原酶。這剝離酪胺醯自由基輔因子，使 RNR 失活並使 de novo dNTP 合成崩潰。"
@@ -13045,7 +13045,7 @@
     "confidence": 0.95,
     "source_document": "Triapine.md",
     "created": "2026-09-02T06:31:39Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "73f44efbbd02",
@@ -14560,10 +14560,10 @@
     "updated": "2026-09-04T17:05:28Z"
   },
   {
-    "id": "d86df69869cb",
+    "id": "b5e5f371306c",
     "subject": "Navitoclax",
     "predicate": "inhibits",
-    "object": "BCL-2",
+    "object": "Bcl-2",
     "context": {
       "en-US": "Navitoclax inhibits BCL-2 and BCL-XL to push SCAP-dependent senescent cells into apoptosis. Inhibition is the senolytic mechanism.",
       "zh-TW": "Navitoclax 抑制 BCL-2 與 BCL-XL 以將 SCAP 依賴的衰老細胞推入凋亡。抑制是 senolytic 機制。"
@@ -14571,7 +14571,7 @@
     "confidence": 0.88,
     "source_document": "Senolytics.md",
     "created": "2026-09-04T17:05:28Z",
-    "updated": "2026-09-04T17:05:28Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "ec6dbc565513",
@@ -14602,10 +14602,10 @@
     "updated": "2026-09-04T17:05:28Z"
   },
   {
-    "id": "abe2c2d5e285",
+    "id": "57bb2fe70501",
     "subject": "Apigenin",
     "predicate": "inhibits",
-    "object": "CDK4",
+    "object": "CDK4 6",
     "context": {
       "en-US": "Apigenin ATP-competitively inhibits CDK4, blocking cyclin association and G1 progression. Inhibition parallels the CDK6 edge.",
       "zh-TW": "Apigenin 以 ATP 競爭抑制 CDK4，阻斷 cyclin 結合與 G1 進展。抑制與 CDK6 邊平行。"
@@ -14613,21 +14613,7 @@
     "confidence": 0.9,
     "source_document": "Apigenin.md",
     "created": "2026-09-04T17:05:28Z",
-    "updated": "2026-09-04T17:05:28Z"
-  },
-  {
-    "id": "f8524f2444c5",
-    "subject": "Apigenin",
-    "predicate": "inhibits",
-    "object": "CDK6",
-    "context": {
-      "en-US": "Apigenin ATP-competitively inhibits CDK6 with the same G1-blockade mechanism as CDK4. Dual inhibition enforces arrest.",
-      "zh-TW": "Apigenin 以與 CDK4 相同的 G1 封鎖機制抑制 CDK6。雙重抑制執行停滯。"
-    },
-    "confidence": 0.9,
-    "source_document": "Apigenin.md",
-    "created": "2026-09-04T17:05:28Z",
-    "updated": "2026-09-04T17:05:28Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
     "id": "af1db516a74c",
@@ -15820,8 +15806,8 @@
     "updated": "2026-09-17T17:35:08Z"
   },
   {
-    "id": "403eb2a936f3",
-    "subject": "Ellagic Acid",
+    "id": "b34d648a986d",
+    "subject": "Ellagic acid",
     "predicate": "converts_to",
     "object": "Urolithin A",
     "context": {
@@ -15831,7 +15817,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A.md",
     "created": "2026-09-17T17:35:08Z",
-    "updated": "2026-09-17T17:35:08Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "d4d6f2889b33",
@@ -15890,10 +15876,10 @@
     "updated": "2026-09-18T17:50:24Z"
   },
   {
-    "id": "38953818804f",
+    "id": "282ff2610a3e",
     "subject": "Gordonibacter urolithinfaciens",
     "predicate": "metabolizes",
-    "object": "Ellagic Acid",
+    "object": "Ellagic acid",
     "context": {
       "en-US": "Gordonibacter urolithinfaciens, an Eggerthellaceae gut anaerobe, metabolizes dietary Ellagic Acid as the principal upstream converter in the urolithin pathway, generating intermediate urolithins (M5/D/C) that downstream consortium members finish to Urolithin A; its carriage underpins metabotype A converter status.",
       "zh-TW": "Gordonibacter urolithinfaciens 為 Eggerthellaceae 腸道厭氧菌，是 urolithin 途徑的主要上游轉換者，代謝飲食 Ellagic Acid 產生中間 urolithins（M5/D/C），再由下游菌叢完成為 Urolithin A；其攜帶與否決定 metabotype A 轉換者身分。"
@@ -15901,7 +15887,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A.md",
     "created": "2026-09-18T17:50:24Z",
-    "updated": "2026-09-18T17:50:24Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "ebe5a6a4d842",
@@ -69104,48 +69090,6 @@
     "updated": "2026-09-29T17:18:44Z"
   },
   {
-    "id": "3665cb70b7ff",
-    "subject": "Antioxidants",
-    "predicate": "inhibits",
-    "object": "Autoxidation",
-    "context": {
-      "en-US": "Antioxidants such as sodium metabisulfite and ascorbic acid act as sacrificial reductants that intercept propagating radicals in epinephrine preparations, slowing the chain reaction. Together with chelating agents, acidic pH buffering, inert-gas headspace purging and oxygen-impermeable packaging, they limit — but never fully eliminate — trace adrenochrome in aged formulations.",
-      "zh-TW": "Sodium Metabisulfite 與 Ascorbic Acid 等抗氧化劑作為牺牲性還原劑，在 Epinephrine 製劑中攔截傳播中的自由基、減慢鏈反應。它們與螯合劑、酸性 pH 緩衝、惰性氣體頂空置換及不透氧包裝共同作用，可減少——但絕無法完全消除——老化製劑中的微量 Adrenochrome。"
-    },
-    "confidence": 0.85,
-    "source_document": "Autoxidation.md",
-    "created": "2026-09-29T17:18:44Z",
-    "updated": "2026-09-29T17:18:44Z"
-  },
-  {
-    "id": "1d6f4722b8ed",
-    "subject": "Bisulfite",
-    "predicate": "is_a_type_of",
-    "object": "Antioxidants",
-    "context": {
-      "en-US": "Bisulfite (HSO3-), and sodium bisulfite in particular, is among the antioxidants routinely incorporated into epinephrine formulations. As a reducing agent it intercepts propagating radicals during storage, slowing the oxidative degradation of the active drug.",
-      "zh-TW": "Bisulfite（HSO3-），尤其是 Sodium Metabisulfite，是 routinely 添加於 Epinephrine 製劑中的抗氧化劑之一。作為還原劑，它在儲存期間攔截傳播中的自由基，減慢活性藥物的氧化降解。"
-    },
-    "confidence": 0.9,
-    "source_document": "Bisulfite.md",
-    "created": "2026-09-29T17:18:44Z",
-    "updated": "2026-09-29T17:18:44Z"
-  },
-  {
-    "id": "312c4f90d54a",
-    "subject": "Thioglycerol",
-    "predicate": "is_a_type_of",
-    "object": "Antioxidants",
-    "context": {
-      "en-US": "Thioglycerol is a low-molecular-weight thiol that acts as a reducing and radical-scavenging agent within the broader antioxidants class: the sulfhydryl group is oxidized to the corresponding disulfide while protecting other molecules, and thiol-disulfide exchange helps maintain a reduced environment.",
-      "zh-TW": "Thioglycerol 是一種低分子量硫醇，在更廣義的 Antioxidants 類別中作為還原劑與自由基清除劑：其硫氫基被氧化為相應的雙硫鍵，同時保護其他分子免於氧化，而硫醇—雙硫鍵交換則有助於維持還原性環境。"
-    },
-    "confidence": 0.85,
-    "source_document": "Thioglycerol.md",
-    "created": "2026-09-29T17:18:44Z",
-    "updated": "2026-09-29T17:18:44Z"
-  },
-  {
     "id": "52f34058b135",
     "subject": "Apolipoprotein B",
     "predicate": "is_a_component_of",
@@ -69170,62 +69114,6 @@
     },
     "confidence": 0.8,
     "source_document": "Creatine Transporters (CRTR).md",
-    "created": "2026-09-29T17:18:44Z",
-    "updated": "2026-09-29T17:18:44Z"
-  },
-  {
-    "id": "d5fd88a0ee84",
-    "subject": "IL-1alpha",
-    "predicate": "is_released_during",
-    "object": "Pyroptosis",
-    "context": {
-      "en-US": "Unlike IL-1β, IL-1alpha is constitutively bioactive and needs no inflammasome cleavage. It escapes fully potent through Gasdermin D pores during pyroptosis, co-released with IL-1β, HMGB1 and mtDNA as a lytic alarm signal.",
-      "zh-TW": "與 IL-1β 不同，IL-1alpha 具有組成性活性，不需發炎小體切割。在 pyroptosis 過程中它經由 Gasdermin D 孔洞以完全活性的形式釋放，與 IL-1β、HMGB1 及 mtDNA 一同釋出，作為裂解性警報訊號。"
-    },
-    "confidence": 0.9,
-    "source_document": "IL-1alpha.md",
-    "created": "2026-09-29T17:18:44Z",
-    "updated": "2026-09-29T17:18:44Z"
-  },
-  {
-    "id": "9e72664bae17",
-    "subject": "IL-1alpha",
-    "predicate": "activates",
-    "object": "NF-κB",
-    "context": {
-      "en-US": "Extracellular IL-1alpha binds IL-1R1, which recruits IL-1RAcP and MyD88 to activate NF-κB and MAPK in neighboring cells, so a lytic release event converts membrane rupture into a defined inflammatory signal.",
-      "zh-TW": "細胞外的 IL-1alpha 與 IL-1R1 結合，後者招募 IL-1RAcP 與 MyD88，在鄰近細胞中活化 NF-κB 與 MAPK，因此裂解性釋放事件可將膜破裂轉化為明確的發炎訊號。"
-    },
-    "confidence": 0.9,
-    "source_document": "IL-1alpha.md",
-    "created": "2026-09-29T17:18:44Z",
-    "updated": "2026-09-29T17:18:44Z"
-  },
-  {
-    "id": "3499a33208fa",
-    "subject": "IL-1alpha",
-    "predicate": "is_released_during",
-    "object": "Necrosis",
-    "context": {
-      "en-US": "During accidental necrotic rupture IL-1alpha leaks passively as a sterile-inflammation driver alongside HMGB1. Calpain-processed forms add a regulated-release route in some myeloid settings.",
-      "zh-TW": "在意外發生的壞死性膜破裂中，IL-1alpha 與 HMGB1 一同以被動方式外漏，成為無菌性發炎的驅動因子。在某些髓系細胞情境下，calpain 切割後的形式則提供了一條受調控的釋放途徑。"
-    },
-    "confidence": 0.85,
-    "source_document": "IL-1alpha.md",
-    "created": "2026-09-29T17:18:44Z",
-    "updated": "2026-09-29T17:18:44Z"
-  },
-  {
-    "id": "86ce29298a32",
-    "subject": "IL-1alpha",
-    "predicate": "differs_from",
-    "object": "IL-1β",
-    "context": {
-      "en-US": "IL-1alpha is the constitutively bioactive alarmin whose precursor needs no processing, whereas IL-1β requires inflammasome maturation before secretion. The two are co-released during pyroptosis and together define the total IL-1R1 signaling load.",
-      "zh-TW": "IL-1alpha 是組成性活性的 alarmine，其前驅物不需加工即可作用；相對地，IL-1β 必須經發炎小體成熟後才能分泌。兩者在 pyroptosis 期間共同釋放，共同決定 IL-1R1 訊號的總負荷。"
-    },
-    "confidence": 0.85,
-    "source_document": "IL-1alpha.md",
     "created": "2026-09-29T17:18:44Z",
     "updated": "2026-09-29T17:18:44Z"
   },

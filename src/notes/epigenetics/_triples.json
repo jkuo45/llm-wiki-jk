@@ -1050,8 +1050,8 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "ffcc52a4fb6f",
-    "subject": "Epithelial-to-Mesenchymal Transition",
+    "id": "a33003fed932",
+    "subject": "Epithelial-to-mesenchymal transition",
     "predicate": "opposes",
     "object": "Mesenchymal-to-Epithelial Transition",
     "context": {
@@ -1061,7 +1061,7 @@
     "confidence": 0.95,
     "source_document": "Mesenchymal-to-Epithelial Transition.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "56e9fa6ddf80",
@@ -1358,10 +1358,10 @@
     "updated": "2026-09-02T06:30:43Z"
   },
   {
-    "id": "f30103f54440",
+    "id": "d1f41133f12c",
     "subject": "Gemcitabine",
     "predicate": "inhibits",
-    "object": "Ribonucleotide Reductase",
+    "object": "ribonucleotide reductase",
     "context": {
       "en-US": "The diphosphate form of gemcitabine (dFdCDP) is a potent inhibitor of ribonucleotide reductase, the rate-limiting enzyme for de novo synthesis of deoxyribonucleoside triphosphates. This inhibition depletes intracellular dNTP pools, particularly dCTP, which paradoxically enhances incorporation of gemcitabine triphosphate into DNA.",
       "zh-TW": "Gemcitabine 的二磷酸形式（dFdCDP）是 ribonucleotide reductase 的強效抑制劑，該酶是從頭合成去氧核苷三磷酸的速率限制酶。此抑制會耗竭細胞內 dNTP 池（尤其 dCTP），反而提高 gemcitabine 三磷酸嵌入 DNA 的程度。"
@@ -1369,7 +1369,7 @@
     "confidence": 0.95,
     "source_document": "Gemcitabine.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "feacb395f633",
@@ -1806,10 +1806,10 @@
     "updated": "2026-09-02T06:30:43Z"
   },
   {
-    "id": "399a2e9c0e23",
+    "id": "1ab6733897fd",
     "subject": "Hydroxyurea",
     "predicate": "inhibits",
-    "object": "Ribonucleotide Reductase",
+    "object": "ribonucleotide reductase",
     "context": {
       "en-US": "Hydroxyurea acts as a free radical scavenger that quenches the tyrosyl radical in the R2 subunit of ribonucleotide reductase, preventing conversion of ribonucleoside diphosphates to deoxyribonucleoside diphosphates. This causes rapid depletion of intracellular dNTP pools.",
       "zh-TW": "Hydroxyurea 作為自由基清除劑，淬滅 ribonucleotide reductase R2 亞基中的酪氨酰自由基，阻止核糖核苷二磷酸轉化為去氧核糖核苷二磷酸。這造成細胞內 dNTP 池的快速耗竭。"
@@ -1817,7 +1817,7 @@
     "confidence": 0.95,
     "source_document": "Hydroxyurea.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "5afa29ec6d82",
@@ -2156,10 +2156,10 @@
     "updated": "2026-09-02T06:30:43Z"
   },
   {
-    "id": "bf179a79019d",
+    "id": "5dc6c203d866",
     "subject": "MET gene",
     "predicate": "induces",
-    "object": "Epithelial-to-Mesenchymal Transition",
+    "object": "Epithelial-to-mesenchymal transition",
     "context": {
       "en-US": "HGF-MET signaling produces the invasive growth program including branching morphogenesis, migration, and epithelial-to-mesenchymal transition-like scattering of epithelial cells. MET recapitulates this program through GRB2/SOS, PI3K-AKT, STAT3 and SRC-family kinase signaling.",
       "zh-TW": "HGF-MET 訊號產生侵入性生長程式，包括分支形態發生、遷移和上皮細胞的類上皮-間質轉化散射。MET 透過 GRB2/SOS、PI3K-AKT、STAT3 和 SRC 家族激酶訊號重現此程式。"
@@ -2167,7 +2167,7 @@
     "confidence": 0.9,
     "source_document": "MET gene.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "95c6c4c4efbd",
@@ -2282,10 +2282,10 @@
     "updated": "2026-09-02T06:30:43Z"
   },
   {
-    "id": "7f8237bf22f8",
+    "id": "3e18e22f3c05",
     "subject": "miR-217",
     "predicate": "activates",
-    "object": "NF-kB",
+    "object": "NF-κB",
     "context": {
       "en-US": "By silencing SIRT1, miR-217 removes a key brake on inflammatory signaling, leading to hyperacetylation of RelA/p65 at Lys310 and stabilization of active NF-kB. This drives chronic inflammation and connects miRNA dysregulation to inflammaging.",
       "zh-TW": "透過沉默 SIRT1，miR-217 移除發炎訊號的一個關鍵制動器，導致 RelA/p65 在 Lys310 過度乙醯化並穩定活化的 NF-kB。這驅動慢性發炎，並將 miRNA 失調與發炎性衰老連結起來。"
@@ -2293,7 +2293,7 @@
     "confidence": 0.9,
     "source_document": "miR-217.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
     "id": "dfd5fd5f9721",
@@ -2352,10 +2352,10 @@
     "updated": "2026-09-02T06:30:43Z"
   },
   {
-    "id": "cc1a80f0d4d9",
+    "id": "7fe65c64ecd8",
     "subject": "miR-378",
     "predicate": "activates",
-    "object": "NF-kB",
+    "object": "NF-κB",
     "context": {
       "en-US": "Through suppression of SIRT1 in aging tissues, miR-378 enables RelA/p65 hyperacetylation and sustained NF-kB inflammatory signaling. It is grouped with miR-217 and miR-543 as part of a pro-inflammatory senescence-associated miRNA network.",
       "zh-TW": "透過在老化組織中抑制 SIRT1，miR-378 促成 RelA/p65 過度乙醯化和持續的 NF-kB 發炎訊號。它與 miR-217 和 miR-543 一起被歸類為促發炎的衰老相關 miRNA 網路的一部分。"
@@ -2363,7 +2363,7 @@
     "confidence": 0.8,
     "source_document": "miR-378.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
     "id": "8d35d2a4a180",
@@ -2422,10 +2422,10 @@
     "updated": "2026-09-02T06:30:43Z"
   },
   {
-    "id": "a603bb1b6cc9",
+    "id": "c30a32465290",
     "subject": "miR-543",
     "predicate": "activates",
-    "object": "NF-kB",
+    "object": "NF-κB",
     "context": {
       "en-US": "Because miR-543 resides in the methylation-controlled DLK1-DIO3 cluster, its dysregulation connects epigenetic drift directly to the SIRT1-NF-kB inflammatory axis. SIRT1 loss through miR-543 stabilizes active NF-kB and a self-sustaining inflammatory loop.",
       "zh-TW": "由於 miR-543 位於受甲基化控制的 DLK1-DIO3 簇中，其失調將表觀遺傳漂移直接連結到 SIRT1-NF-kB 發炎軸。透過 miR-543 造成的 SIRT1 缺失會穩定活化的 NF-kB 和自我維持的發炎迴圈。"
@@ -2433,7 +2433,7 @@
     "confidence": 0.82,
     "source_document": "miR-543.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
     "id": "fb5f87aae4e9",
@@ -2478,8 +2478,8 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "28122fcc293c",
-    "subject": "Non-Coding RNA",
+    "id": "b34bbdbcce0c",
+    "subject": "Non-coding RNA",
     "predicate": "is_mechanism_of",
     "object": "Epigenetics",
     "context": {
@@ -2489,7 +2489,7 @@
     "confidence": 0.95,
     "source_document": "Epigenetics.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "bddcf5aa13bf",
@@ -3738,10 +3738,10 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "171506501c49",
+    "id": "0e0285a7864d",
     "subject": "p16INK4A",
     "predicate": "binds",
-    "object": "CDK4",
+    "object": "CDK4 6",
     "context": {
       "en-US": "p16INK4A binds CDK4 and prevents cyclin D association, blocking G1/S progression. This direct binding is the molecular basis of INK4-mediated arrest in senescence and quiescence.",
       "zh-TW": "p16INK4A 結合 CDK4 並阻止 cyclin D 結合，阻斷 G1/S 進展。此直接結合是衰老與靜止中 INK4 介導停滯的分子基礎。"
@@ -3749,21 +3749,7 @@
     "confidence": 0.95,
     "source_document": "p16INK4A.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
-  },
-  {
-    "id": "5c3009aa165c",
-    "subject": "p16INK4A",
-    "predicate": "binds",
-    "object": "CDK6",
-    "context": {
-      "en-US": "p16INK4A binds CDK6 with the same INK4 mechanism as CDK4, providing redundant G1 blockade. Dual CDK4/6 engagement makes p16 a potent enforcer of durable arrest.",
-      "zh-TW": "p16INK4A 以與 CDK4 相同的 INK4 機制結合 CDK6，提供冗餘的 G1 封鎖。雙重 CDK4/6 結合使 p16 成為持久停滯的強效執行者。"
-    },
-    "confidence": 0.95,
-    "source_document": "p16INK4A.md",
-    "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
     "id": "4d2351f33964",
@@ -4886,10 +4872,10 @@
     "updated": "2026-09-04T16:55:31Z"
   },
   {
-    "id": "9c143f0c2cc8",
+    "id": "166447175dd9",
     "subject": "TGF-beta Signaling Pathway",
     "predicate": "induces",
-    "object": "Epithelial-to-Mesenchymal Transition",
+    "object": "Epithelial-to-mesenchymal transition",
     "context": {
       "en-US": "TGF-beta is the canonical EMT inducer via SNAIL/ZEB/TWIST programs. Induction defines its developmental and fibrotic roles.",
       "zh-TW": "TGF-beta 是經由 SNAIL/ZEB/TWIST 程序的典型 EMT 誘發因子。誘發定義其發育與纖維化角色。"
@@ -4897,7 +4883,7 @@
     "confidence": 0.95,
     "source_document": "TGF-beta Signaling Pathway.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "23c860943695",
@@ -4998,10 +4984,10 @@
     "updated": "2026-09-04T16:55:31Z"
   },
   {
-    "id": "99131c87fb5d",
+    "id": "f4ee75094502",
     "subject": "TGF-beta Receptor",
     "predicate": "induces",
-    "object": "Epithelial-to-Mesenchymal Transition",
+    "object": "Epithelial-to-mesenchymal transition",
     "context": {
       "en-US": "Receptor activity drives the TGF-beta EMT program in epithelia. Upstream position, same program as the pathway edge.",
       "zh-TW": "受體活性在上皮驅動 TGF-beta EMT 程序。上游位置，與路徑邊相同程序。"
@@ -5009,7 +4995,7 @@
     "confidence": 0.85,
     "source_document": "TGF-beta Receptor.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "915a6edb8e4e",
@@ -5040,10 +5026,10 @@
     "updated": "2026-09-04T16:55:31Z"
   },
   {
-    "id": "2fc05a5631e0",
+    "id": "df84ecedd497",
     "subject": "SMAD Proteins",
     "predicate": "induces",
-    "object": "Epithelial-to-Mesenchymal Transition",
+    "object": "Epithelial-to-mesenchymal transition",
     "context": {
       "en-US": "SMAD complexes drive EMT transcription via Snail/Slug/Zeb1. Nuclear effector leg of the EMT program.",
       "zh-TW": "SMAD 複合體經由 Snail/Slug/Zeb1 驅動 EMT 轉錄。EMT 程序的核效應分支。"
@@ -5051,7 +5037,7 @@
     "confidence": 0.85,
     "source_document": "SMAD Proteins.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "9c57f34f1e06",
@@ -5754,10 +5740,10 @@
     "updated": "2026-09-04T16:55:31Z"
   },
   {
-    "id": "e8727f0accaa",
+    "id": "e47318fa44bf",
     "subject": "Gastrulation",
     "predicate": "involves",
-    "object": "Epithelial-to-Mesenchymal Transition",
+    "object": "Epithelial-to-mesenchymal transition",
     "context": {
       "en-US": "EMT drives cell internalization movements of gastrulation. Involvement places morphogenesis in the transition logic.",
       "zh-TW": "EMT 驅動原腸形成的細胞內移運動。涉及將形態發生置於轉換邏輯。"
@@ -5765,7 +5751,7 @@
     "confidence": 0.9,
     "source_document": "Gastrulation.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "bc2771f9d1b1",
@@ -6664,10 +6650,10 @@
     "updated": "2026-09-04T16:55:31Z"
   },
   {
-    "id": "25f7bfd503d2",
+    "id": "9ffcdc0d38c6",
     "subject": "FAK Signaling",
     "predicate": "promotes",
-    "object": "Epithelial-to-Mesenchymal Transition",
+    "object": "Epithelial-to-mesenchymal transition",
     "context": {
       "en-US": "The FAK-EMT axis links adhesion signaling to transition programs. Weaker note text, strong general knowledge.",
       "zh-TW": "FAK-EMT 軸將黏附訊號連結到轉換程序。筆記文字較弱，一般知識強。"
@@ -6675,7 +6661,7 @@
     "confidence": 0.72,
     "source_document": "FAK Signaling.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "48d6298a75e0",
@@ -6748,8 +6734,8 @@
     "updated": "2026-09-04T16:55:31Z"
   },
   {
-    "id": "8ab5fdf1741c",
-    "subject": "Epithelial-to-Mesenchymal Transition",
+    "id": "020d26562cab",
+    "subject": "Epithelial-to-mesenchymal transition",
     "predicate": "disrupts",
     "object": "Adherens Junction",
     "context": {
@@ -6759,7 +6745,7 @@
     "confidence": 0.9,
     "source_document": "Adherens Junction.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "dd8963db647b",
@@ -6916,8 +6902,8 @@
     "updated": "2026-09-04T16:55:31Z"
   },
   {
-    "id": "0a0a1fdae627",
-    "subject": "Epithelial-to-Mesenchymal Transition",
+    "id": "1344b69f315b",
+    "subject": "Epithelial-to-mesenchymal transition",
     "predicate": "upregulates",
     "object": "CDH2",
     "context": {
@@ -6927,7 +6913,7 @@
     "confidence": 0.88,
     "source_document": "CDH2.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "d395f38f2277",
@@ -7000,8 +6986,8 @@
     "updated": "2026-09-04T16:55:31Z"
   },
   {
-    "id": "95336bbde7a8",
-    "subject": "Epithelial-to-Mesenchymal Transition",
+    "id": "4e3cad54b5ac",
+    "subject": "Epithelial-to-mesenchymal transition",
     "predicate": "involves",
     "object": "Actin Cytoskeleton",
     "context": {
@@ -7011,7 +6997,7 @@
     "confidence": 0.8,
     "source_document": "Actin Cytoskeleton.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "bd93f46b93c7",
@@ -7308,8 +7294,8 @@
     "updated": "2026-09-04T16:55:31Z"
   },
   {
-    "id": "9e55454c6a58",
-    "subject": "Epithelial-to-Mesenchymal Transition",
+    "id": "7a988fed99a9",
+    "subject": "Epithelial-to-mesenchymal transition",
     "predicate": "contributes_to",
     "object": "Fibrosis",
     "context": {
@@ -7319,7 +7305,7 @@
     "confidence": 0.8,
     "source_document": "Fibrosis.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "66e07bb4b5c3",
@@ -7336,10 +7322,10 @@
     "updated": "2026-09-04T16:55:31Z"
   },
   {
-    "id": "854fca815f8c",
+    "id": "81b51c41f622",
     "subject": "Snail",
     "predicate": "drives",
-    "object": "Epithelial-to-Mesenchymal Transition",
+    "object": "Epithelial-to-mesenchymal transition",
     "context": {
       "en-US": "Snail (SNAI1) is a core zinc-finger driver of EMT. Driving is the defining transcription program.",
       "zh-TW": "Snail（SNAI1）是 EMT 的核心鋅指驅動者。驅動是定義性轉錄程序。"
@@ -7347,7 +7333,7 @@
     "confidence": 0.92,
     "source_document": "Snail.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "aec41d8c7dd5",
@@ -7406,10 +7392,10 @@
     "updated": "2026-09-04T16:55:31Z"
   },
   {
-    "id": "55eef7626117",
+    "id": "2bc20cf16328",
     "subject": "Slug",
     "predicate": "drives",
-    "object": "Epithelial-to-Mesenchymal Transition",
+    "object": "Epithelial-to-mesenchymal transition",
     "context": {
       "en-US": "Slug (SNAI2) is a core zinc-finger driver of EMT. Parallel driver to Snail.",
       "zh-TW": "Slug（SNAI2）是 EMT 的核心鋅指驅動者。與 Snail 平行的驅動者。"
@@ -7417,7 +7403,7 @@
     "confidence": 0.9,
     "source_document": "Slug.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "43fe6bad6518",
@@ -7462,10 +7448,10 @@
     "updated": "2026-09-04T16:55:31Z"
   },
   {
-    "id": "dc5a5515c600",
+    "id": "c679c17a0807",
     "subject": "Zeb1",
     "predicate": "drives",
-    "object": "Epithelial-to-Mesenchymal Transition",
+    "object": "Epithelial-to-mesenchymal transition",
     "context": {
       "en-US": "Zeb1 is a core E-box-binding driver of EMT. Driving defines its transition role.",
       "zh-TW": "Zeb1 是 EMT 的核心 E-box 結合驅動者。驅動定義其轉換角色。"
@@ -7473,7 +7459,7 @@
     "confidence": 0.9,
     "source_document": "Zeb1.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "062228c2c316",
@@ -7591,7 +7577,7 @@
     "id": "b4148fc196b9",
     "subject": "Phenylbutyrate",
     "predicate": "upregulates",
-    "object": "Hsp70",
+    "object": "HSP70",
     "context": {
       "en-US": "Hsp70 is the major transcriptional target of phenylbutyrate mediating cytoprotection and refolding. Upregulation is the chaperone output.",
       "zh-TW": "Hsp70 是 phenylbutyrate 介導細胞保護與重折疊的主要轉錄標的。上調是伴侶輸出。"
@@ -7599,7 +7585,7 @@
     "confidence": 0.78,
     "source_document": "Phenylbutyrate.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "9a5b2e464d9f",
@@ -8176,10 +8162,10 @@
     "updated": "2026-09-04T16:55:31Z"
   },
   {
-    "id": "637b891d3da0",
+    "id": "d5a89f7144f3",
     "subject": "FRAT2",
     "predicate": "promotes",
-    "object": "Wnt Signaling",
+    "object": "Wnt signaling",
     "context": {
       "en-US": "FRAT2 amplifies canonical beta-catenin signaling toward MYCN stabilization and DNMT3A. Promotion is the cascade input.",
       "zh-TW": "FRAT2 放大典型 beta-catenin 訊號朝向 MYCN 穩定與 DNMT3A。促進是級聯輸入。"
@@ -8187,7 +8173,7 @@
     "confidence": 0.85,
     "source_document": "FRAT2.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "898867653f2b",
@@ -9464,10 +9450,10 @@
     "updated": "2026-09-04T18:02:52Z"
   },
   {
-    "id": "1caf6a711b24",
+    "id": "7c66a757c844",
     "subject": "XIST",
     "predicate": "is_a_type_of",
-    "object": "Non-Coding RNA",
+    "object": "Non-coding RNA",
     "context": {
       "en-US": "XIST is a long non-coding RNA coating the inactive X chromosome.",
       "zh-TW": "XIST 是包被不活化 X 染色體的長非編碼 RNA。"
@@ -9475,7 +9461,7 @@
     "confidence": 0.97,
     "source_document": "XIST.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "53be4b428fd7",
@@ -9786,8 +9772,8 @@
     "updated": "2026-09-04T18:02:52Z"
   },
   {
-    "id": "89d3b339458a",
-    "subject": "RNA interference",
+    "id": "8ceb69581435",
+    "subject": "RNA Interference",
     "predicate": "used_in",
     "object": "Caenorhabditis elegans",
     "context": {
@@ -9797,7 +9783,7 @@
     "confidence": 0.88,
     "source_document": "Caenorhabditis elegans.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "e36d14ad4a02",
@@ -10360,10 +10346,10 @@
     "updated": "2026-09-04T18:02:52Z"
   },
   {
-    "id": "a761c988eaea",
+    "id": "2add541332b8",
     "subject": "Contact Inhibition",
     "predicate": "opposes",
-    "object": "Epithelial-to-Mesenchymal Transition",
+    "object": "Epithelial-to-mesenchymal transition",
     "context": {
       "en-US": "E-cadherin loss during transition abolishes contact inhibition.",
       "zh-TW": "轉換期間 E-cadherin 缺失廢除接觸抑制。"
@@ -10371,7 +10357,7 @@
     "confidence": 0.72,
     "source_document": "Contact Inhibition.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "0ff3f55106d8",
@@ -10500,10 +10486,10 @@
     "updated": "2026-09-04T18:02:52Z"
   },
   {
-    "id": "97bfb729c434",
+    "id": "82c0c62091ec",
     "subject": "PODXL",
     "predicate": "promotes",
-    "object": "Epithelial-to-Mesenchymal Transition",
+    "object": "Epithelial-to-mesenchymal transition",
     "context": {
       "en-US": "Upregulated PODXL drives pro-migratory transition in carcinoma metastasis.",
       "zh-TW": "上調的 PODXL 在癌轉移驅動促遷移轉換。"
@@ -10511,7 +10497,7 @@
     "confidence": 0.75,
     "source_document": "PODXL.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "f5d6a968dd42",

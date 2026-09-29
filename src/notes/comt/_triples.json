@@ -154,10 +154,10 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "44d4c38bc9ef",
+    "id": "0d4c1a005d37",
     "subject": "Betaine",
     "predicate": "is",
-    "object": "methyl donor",
+    "object": "Methyl Donor",
     "context": {
       "en-US": "Betaine acts as a direct methyl donor in the methylation cycle by transferring one of its three methyl groups to homocysteine to form methionine, a reaction catalyzed by betaine-homocysteine methyltransferase (BHMT). This BHMT-mediated pathway supplements the folate-dependent remethylation route and helps maintain the SAMe-to-S-adenosylhomocysteine ratio that governs methylation capacity. Because it adds methyl groups directly to the cycle, betaine supplementation can raise SAMe and increase the methyl burden. This is why it must be used cautiously in slow COMT individuals who are sensitive to methyl load and may experience mood changes.",
       "zh-TW": "Betaine 通过将其三个 methyl groups 之一转移到高半胱氨酸形成蛋氨酸，充当 methylation cycle 中的直接 methyl donor，这是由甜菜碱-高半胱氨酸甲基转移酶 (BHMT) 催化的反应。这种 BHMT 介导的途径补充了 folate 依赖性的再甲基化途径，并有助于维持控制甲基化能力的 SAMe 与 S-adenosylhomocysteine 的比率。因为它将 methyl groups 直接添加到循环中，所以补充甜菜碱可以提高 SAMe 并增加甲基负担。這就是為什麼它必須謹慎用於對甲基負荷敏感並可能經歷情緒變化的緩慢 COMT 個體。"
@@ -165,7 +165,7 @@
     "confidence": 0.94,
     "source_document": "Betaine.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "7caa4a0b538e",
@@ -238,10 +238,10 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "a35f78d106b1",
+    "id": "87c8a57b0326",
     "subject": "CamKIIα",
     "predicate": "is_essential_for",
-    "object": "synaptic plasticity",
+    "object": "Synaptic plasticity",
     "context": {
       "en-US": "CaMKIIalpha is essential for synaptic plasticity, including long-term potentiation (LTP) and long-term depression (LTD), by phosphorylating AMPA receptor subunits and structural proteins that consolidate changes in synaptic efficacy. Inhibition or knockout of CaMKIIalpha abolishes LTP at many synapses, confirming its necessity. Its autophosphorylation at threonine 286 generates calcium-independent activity that maintains potentiated transmission over time. It thus serves as a molecular switch converting transient calcium signals into lasting synaptic memory.",
       "zh-TW": "CaMKIIalpha 對於 synaptic plasticity 至關重要，包括長時程增強 (LTP) 和長時程抑制 (LTD)，透過磷酸化 AMPA 受體亞基和結構蛋白來鞏固突觸功效的變化。抑製或敲除 CaMKIIalpha 可消除許多突觸的 LTP，證實了其必要性。其蘇氨酸 286 處的自磷酸化產生不依賴鈣的活性，可隨著時間的推移維持增強的傳輸。因此，它充當分子開關，將瞬態鈣訊號轉換為持久的突觸記憶。"
@@ -249,7 +249,7 @@
     "confidence": 0.96,
     "source_document": "CamKIIα.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "2c0735ed79f3",
@@ -420,10 +420,10 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "bd0b0c91634b",
+    "id": "66449ea48821",
     "subject": "COMT",
     "predicate": "promotes",
-    "object": "Adrenochrome pathway",
+    "object": "Adrenochrome Pathway",
     "context": {
       "en-US": "COMT inhibition promotes the adrenochrome pathway by allowing epinephrine (and its oxidation product adrenochrome) to accumulate when O-methylation is impaired, shifting catecholamine disposition away from metanephrine formation. Adrenochrome is an auto-oxidation and cyclization product of epinephrine that has been speculated to contribute to psychoactive and neurotoxic effects, though human relevance remains debated. The association is plausible mechanistically but less well established than the rise in epinephrine itself.",
       "zh-TW": "當 O-甲基化受損時，COMT 抑製作用允許腎上腺素（及其氧化產物腎上腺素紅）積累，從而促進腎上腺素紅途徑，從而使兒茶酚胺的配置遠離變腎上腺素的形成。 Adrenochrome 是腎上腺素的自動氧化和環化產物，據推測會導致精神活性和神經毒性作用，但與人類的相關性仍存在爭議。這種關聯在機制上是合理的，但不如腎上腺素本身的增加那麼明確。"
@@ -431,13 +431,13 @@
     "confidence": 0.95,
     "source_document": "COMT.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "d3896db61c75",
     "subject": "COMT",
     "predicate": "predominates_in",
-    "object": "brain",
+    "object": "Brain",
     "context": {
       "en-US": "MB-COMT (membrane-bound COMT) predominates in the brain, where its membrane-anchored localization near catechol release sites allows efficient perisynaptic O-methylation of dopamine and norepinephrine. This makes MB-COMT the major determinant of central COMT activity and of the genotype-dependent cognitive effects associated with Val158Met. Peripheral tissues instead rely more on the soluble S-COMT isoform, which has lower substrate affinity. This regional isoform distribution explains why COMT genotype affects brain and periphery differently.",
       "zh-TW": "MB-COMT（膜結合型 COMT）在 brain 中占主導地位，其在兒茶酚釋放位點附近的膜錨定定位允許多巴胺和 norepinephrine 進行有效的突觸周圍 O-甲基化。這使得 MB-COMT 成為中樞 COMT activity 以及與 Val158Met 相關的基因型依賴性認知效應的主要決定因素。相反，週邊組織更依賴可溶性 S-COMT 亞型，其底物親和力較低。這種區域亞型分佈解釋了為什麼 COMT genotype 對 brain 和周邊細胞的影響不同。"
@@ -445,13 +445,13 @@
     "confidence": 0.95,
     "source_document": "COMT.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "edca4563798c",
     "subject": "COMT",
     "predicate": "has_higher_affinity_for",
-    "object": "catecholamines",
+    "object": "Catecholamines",
     "context": {
       "en-US": "MB-COMT (membrane-bound COMT) has higher affinity for catecholamine substrates than the soluble S-COMT isoform, owing to structural features at its membrane-anchored active site and its proximity to catechol release sites. This higher affinity makes MB-COMT especially efficient at inactivating dopamine and norepinephrine at low concentrations, such as those found at synapses. As the predominant brain isoform, its kinetics dominate central COMT activity and the cognitive effects of COMT genotype. The isoform difference is fundamental to understanding tissue-specific catechol regulation.",
       "zh-TW": "MB-COMT（膜結合型 COMT）由於其膜錨定活性位點的結構特徵以及鄰近兒茶酚釋放位點的結構特徵，比可溶性 S-COMT 亞型對兒茶酚胺底物具有更高的親和力。這種更高的親和力使得 MB-COMT 在低濃度下（例如在突觸中發現的多巴胺和 norepinephrine）特別有效地滅活多巴胺和 norepinephrine。作為主要的 brain 亞型，其動力學主導中樞 COMT activity 和 COMT genotype 的認知效應。同工型差異對於理解組織特異性兒茶酚調節至關重要。"
@@ -459,7 +459,7 @@
     "confidence": 0.93,
     "source_document": "COMT.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "e0e165421ab3",
@@ -490,10 +490,10 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "539025bf2e4e",
+    "id": "1c53e75be12e",
     "subject": "COMT",
     "predicate": "modulates",
-    "object": "cognitive performance",
+    "object": "Cognitive Performance",
     "context": {
       "en-US": "COMT modulates cognitive performance through an inverted-U (or tonic-phasic) relationship in which intermediate dopamine levels in the prefrontal cortex optimize executive function, while both excessively high (slow COMT) and low (fast COMT) activity shift performance away from the optimum. Met-bearing (slow) genotypes favor stability and working memory under calm conditions, whereas Val-bearing (fast) genotypes favor rapid processing under stress. Thus COMT genotype is a major determinant of individual differences in cognition.",
       "zh-TW": "COMT 透過倒 U（或強直相位）關係調節 cognitive performance，其中前額葉皮質中的中間多巴胺水平優化 executive function，而過高（慢 COMT）和低（快 COMT）活動會使性能偏離最佳狀態。含有 Met 的（慢速）基因型有利於平靜條件下的穩定性和工作記憶，而含有 Val 的（快速）基因型則有利於在壓力下快速處理。因此，COMT genotype 是認知個體差異的主要決定因素。"
@@ -501,7 +501,7 @@
     "confidence": 0.96,
     "source_document": "COMT.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "286e06d2bc78",
@@ -742,10 +742,10 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "f65a1612dc4b",
+    "id": "e0b890938177",
     "subject": "COMT",
     "predicate": "impairs",
-    "object": "stimulus-response learning",
+    "object": "Stimulus-response learning",
     "context": {
       "en-US": "COMT overexpression impairs stimulus-response (S-R) learning, as demonstrated in COMT-OE mouse models where excess enzyme accelerates dopamine clearance in striatal circuits that mediate habit learning. Excessive catecholamine inactivation reduces the dopamine signaling needed for efficient S-R acquisition, slowing task learning and producing perseveration. This phenotype mirrors aspects of fast-human COMT cognition, linking the animal model to human genetic findings. The specificity of the deficit supports a circuit-level rather than generalized effect of COMT excess.",
       "zh-TW": "COMT 過度表現會損害刺激反應 (S-R) 學習，如 COMT-OE mouse models 所示，過量的酵素會加速介導習慣學習的紋狀體迴路中的多巴胺清除。兒茶酚胺過度失活會減少有效獲取 S-R 所需的多巴胺訊號，從而減慢任務學習並產生毅力。這種表型反映了快速人類 COMT 認知的各個方面，將動物模型與人類遺傳發現聯繫起來。赤字的特殊性支持電路級而非 COMT 過剩的普遍影響。"
@@ -753,7 +753,7 @@
     "confidence": 0.92,
     "source_document": "COMT.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "5286bd1a4ab1",
@@ -1386,10 +1386,10 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "cf19c04bcd45",
+    "id": "5ce0cf7656e9",
     "subject": "Luteolin",
     "predicate": "crosses",
-    "object": "blood-brain barrier",
+    "object": "Blood-Brain Barrier",
     "context": {
       "en-US": "Luteolin is lipophilic enough to cross the blood-brain barrier, which underlies its central nervous system interest. This property allows it to reach brain parenchyma and modulate catecholamine metabolism and neuroinflammation. It is investigated as a nutraceutical for cognitive health.",
       "zh-TW": "Luteolin 具有足夠的親脂性，可穿越 blood-brain barrier，這正是它在中樞神經系統受到關注的基礎。此特性使其能到達腦實質並調節兒茶酚胺代謝和神經發炎。它作為認知健康營養補充劑受到研究。"
@@ -1397,7 +1397,7 @@
     "confidence": 0.9,
     "source_document": "Luteolin.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "fc1ade264c60",
@@ -1445,7 +1445,7 @@
     "id": "c1602c133e94",
     "subject": "Luteolin",
     "predicate": "is_a",
-    "object": "flavone",
+    "object": "Flavone",
     "context": {
       "en-US": "Luteolin is a naturally occurring flavone, a subclass of flavonoids, with the chemical structure 3',4',5,7-tetrahydroxyflavone. It is abundant in parsley, celery, broccoli, green peppers, thyme, and chamomile. It is among the most studied dietary polyphenols for anti-inflammatory and neuroprotective activities.",
       "zh-TW": "Luteolin 是天然存在的黃酮（flavone），是 Flavonoids 的一個亞類，化學結構為 3',4',5,7-四羥基黃酮。它大量存在於歐芹、芹菜、綠花椰菜、青椒、百里香和洋甘菊中。它是研究最多的膳食多酚之一，具有抗發炎和神經保護活性。"
@@ -1453,7 +1453,7 @@
     "confidence": 0.95,
     "source_document": "Luteolin.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "17f5708b93c1",
@@ -1708,10 +1708,10 @@
     "updated": "2026-09-02T06:27:57Z"
   },
   {
-    "id": "e9a81b499df2",
+    "id": "cb65892f3cb7",
     "subject": "Methyl groups",
     "predicate": "regulate",
-    "object": "gene expression",
+    "object": "Gene Expression",
     "context": {
       "en-US": "Methyl-group transfers are among the most pervasive regulatory reactions in biology. DNA and histone methylation regulates gene expression without changing the DNA sequence, a process known as epigenetics. Methylation also governs chromatin state, signal transduction, xenobiotic clearance, and neurotransmitter metabolism.",
       "zh-TW": "Methyl groups 的轉移是生物學中最普遍的調節反應之一。DNA 和組蛋白甲基化在不改變 DNA 序列的情況下調節 gene expression，這個過程稱為表觀遺傳學。甲基化也調控染色質狀態、訊號傳導、異生物質清除和神經傳導物質代謝。"
@@ -1719,7 +1719,7 @@
     "confidence": 0.9,
     "source_document": "Methyl groups.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "16f2b3bd4cc8",
@@ -1792,10 +1792,10 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "1518b865e50b",
+    "id": "fbad7ed8f6f9",
     "subject": "Methylation",
     "predicate": "regulates",
-    "object": "gene expression",
+    "object": "Gene Expression",
     "context": {
       "en-US": "Methylation regulates gene expression primarily through DNA methyltransferase-mediated addition of methyl groups to cytosine residues in CpG islands, typically repressing transcription and enabling cellular differentiation and genomic imprinting. It also modifies histones and transcription factors via SAMe-dependent reactions, forming an epigenetic regulatory layer responsive to environment and diet. Because SAMe is the universal donor, COMT activity and methyl donor availability indirectly influence the pool available for epigenetic regulation. This connection links catechol metabolism to broader gene regulation.",
       "zh-TW": "Methylation 主要透過 DNA 甲基轉移酶介導的 methyl groups 添加到 CpG 島的胞嘧啶殘基來調節 gene expression，通常抑制轉錄並實現細胞分化和基因組印記。它也透過 SAMe 依賴性反應修飾組蛋白和轉錄因子，形成對環境和飲食敏感的表觀遺傳調控層。由於 SAMe 是通用供體，COMT activity 和 methyl donor 的可用性間接影響可用於表觀遺傳調控的函式庫。這種關聯將兒茶酚代謝與更廣泛的基因調控聯繫起來。"
@@ -1803,13 +1803,13 @@
     "confidence": 0.95,
     "source_document": "Methyl groups.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
-    "id": "4c2d7c3b8983",
+    "id": "8f73db5f8126",
     "subject": "Methylation",
     "predicate": "transfers",
-    "object": "methyl groups",
+    "object": "Methyl groups",
     "context": {
       "en-US": "Methylation is the biochemical transfer of a methyl group (-CH3) from a donor such as S-adenosylmethionine to an acceptor molecule, DNA, proteins, lipids, or small metabolites like catechols. This covalent modification alters the chemical properties, activity, or signaling of the target without changing its carbon skeleton, enabling regulation of gene expression, neurotransmitter inactivation, and detoxification. COMT-catalyzed catechol methylation is a classic example within neurotransmitter metabolism. Methylation is thus a universal regulatory and detoxifying mechanism.",
       "zh-TW": "Methylation 是甲基 (-CH3) 從 S-adenosylmethionine 等供體向受體分子、DNA、蛋白質、脂質或兒茶酚等小代謝物的生化轉移。這種共價修飾改變了標靶的化學性質、活性或訊號傳導，而不改變其碳骨架，從而能夠調節 gene expression、神經傳導物質失活和解毒。 COMT 催化的兒茶酚甲基化是神經傳導物質代謝的經典例子。因此，Methylation 是一種通用的調節和解毒機制。"
@@ -1817,7 +1817,7 @@
     "confidence": 0.96,
     "source_document": "Methyl groups.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "39ff5d2d7a62",
@@ -1876,10 +1876,10 @@
     "updated": "2026-09-02T06:27:57Z"
   },
   {
-    "id": "9e9b47ce974d",
+    "id": "182de1b1cdf6",
     "subject": "MethylB12",
     "predicate": "is",
-    "object": "methyl donor",
+    "object": "Methyl Donor",
     "context": {
       "en-US": "Methylcobalamin is a key methyl donor in the methylation cycle, acting as the B12 cofactor for methionine synthase that enables conversion of homocysteine to methionine and hence SAMe formation. This positions it upstream of COMT's methyl donor supply, directly supporting catechol O-methylation capacity. Because it directly contributes methyl groups, its supplementation must be managed carefully in slow COMT individuals, who may be sensitive to methyl load. It is a standard component of methylation support protocols.",
       "zh-TW": "Methylcobalamin 是 methylation cycle 中的关键 methyl donor，充当蛋氨酸合酶的 B12 辅因子，能够转化 homocysteine to methionine，从而形成 SAMe。這使其位於 COMT methyl donor 供應的上游，直接支持兒茶酚 O-甲基化產能。由于它直接贡献 methyl groups，因此在缓慢的 COMT 个体中必须小心管理其补充，这些个体可能对甲基负荷敏感。它是甲基化支持協議的標準組成部分。"
@@ -1887,7 +1887,7 @@
     "confidence": 0.94,
     "source_document": "MethylB12.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "e01334b15976",
@@ -1974,10 +1974,10 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "9064af6ebd9e",
+    "id": "9ab0b90b12ce",
     "subject": "Methylfolate",
     "predicate": "crosses",
-    "object": "blood-brain barrier",
+    "object": "Blood-Brain Barrier",
     "context": {
       "en-US": "Methylfolate is the predominant folate species in plasma and the sole folate derivative that can cross the blood-brain barrier. This makes it central to CNS methylation and monoamine metabolism. Its ability to enter the brain underlies its relevance to psychiatric and neurodevelopmental contexts.",
       "zh-TW": "Methylfolate 是血漿中主要的葉酸物種，也是唯一能穿越 blood-brain barrier 的葉酸衍生物。這使它在中樞神經系統甲基化和單胺代謝中至關重要。其進入 brain 的能力是其與精神科和神經發育相關的背景基礎。"
@@ -1985,7 +1985,7 @@
     "confidence": 0.9,
     "source_document": "Methylfolate.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "7a3e54e1d749",
@@ -2159,7 +2159,7 @@
     "id": "3f9014f132df",
     "subject": "MTHFD1",
     "predicate": "metabolizes",
-    "object": "folate",
+    "object": "Folate",
     "context": {
       "en-US": "MTHFD1 metabolizes folate as a trifunctional enzyme catalyzing NADP-dependent methylenetetrahydrofolate dehydrogenase, cyclohydrolase, and formyltetrahydrofolate synthetase reactions in the cytosolic folate cycle. These steps produce 10-formyl-THF used in purine synthesis and contribute to the one-carbon pool that supports methylation. Disruption of MTHFD1 perturbs nucleotide synthesis and the methyl donor supply downstream of folate, indirectly affecting COMT by limiting SAMe availability. It is a central node in cytosolic one-carbon metabolism.",
       "zh-TW": "MTHFD1 將 folate 代謝為三功能酶，催化細胞質 folate 循環中的 NADP 依賴性亞甲基四氫葉酸脫氫酶、環化水解酶和甲醯四氫葉酸合成酶反應。這些步驟產生用於嘌呤合成的 10-甲醯基-THF，並有助於形成支持甲基化的一碳庫。 MTHFD1 的破壞會擾亂核苷酸合成和 folate 下游的 methyl donor 供應，透過限制 SAMe 的可用性來間接影響 COMT。它是細胞質一碳代謝的中心節點。"
@@ -2167,13 +2167,13 @@
     "confidence": 0.93,
     "source_document": "MTHFD1.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
-    "id": "6ecfe3e6a8ff",
+    "id": "70ff361dfa12",
     "subject": "MTHFD1",
     "predicate": "is_part_of",
-    "object": "methylation cycle",
+    "object": "Methylation Cycle",
     "context": {
       "en-US": "MTHFD1 (methylenetetrahydrofolate dehydrogenase/cyclohydrolase/formyltetrahydrofolate synthetase) is part of the folate-mediated one-carbon metabolism network that supplies methyl groups and formyl units for the methylation cycle and nucleotide synthesis. By generating 10-formyl-THF and interconverting folate derivatives, it supports the production of 5-methyl-THF that feeds methionine synthase and ultimately SAMe, the methyl donor for COMT. Its activity therefore links folate status and one-carbon flux to COMT substrate availability. Mutations in MTHFD1 can impair methylation efficiency similarly to MTHFR variants.",
       "zh-TW": "MTHFD1（亞甲基四氫葉酸脫氫酶/環化水解酶/甲醯四氫葉酸合成酶）是 folate 介導的一碳代謝網絡的一部分，為 methylation cycle 和核苷酸合成提供 methyl groups 和甲醯基單位。透過生成 10-甲酰基-THF 和互變 folate 衍生物，它支持 5-甲基-THF 的生產，為蛋氨酸合成酶提供原料，並最終為 SAMe（COMT 的 methyl donor）提供原料。因此，其活性將 folate 狀態和一碳通量與 COMT 底物可用性連結起來。與 MTHFR variants 類似，MTHFD1 的突變也會損害 methylation efficiency。"
@@ -2181,7 +2181,7 @@
     "confidence": 0.93,
     "source_document": "MTHFD1.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "391f2a5faaf4",
@@ -2268,10 +2268,10 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "17ff8aa8db74",
+    "id": "aae2c799b947",
     "subject": "MTRR",
     "predicate": "is_part_of",
-    "object": "methylation cycle",
+    "object": "Methylation Cycle",
     "context": {
       "en-US": "MTRR (methionine synthase reductase) is part of the methylation cycle, responsible for maintaining methionine synthase in its active, reduced cobalamin-dependent state by regenerating the B12 cofactor after oxidative inactivation. By supporting homocysteine remethylation to methionine, MTRR sustains the methionine-to-SAMe axis that supplies methyl donors to COMT and other methyltransferases. Its inclusion in the cycle makes it a determinant of overall methyl donor capacity alongside MTHFR and B12 status. MTRR variants can therefore influence methylation efficiency.",
       "zh-TW": "MTRR（蛋氨酸合成酶還原酶）是 methylation cycle 的一部分，負責透過在氧化失活後再生 B12 輔因子來維持蛋氨酸合成酶處於活性、還原的鈷胺素依賴性狀態。透過支持同型半胱氨酸再甲基化為蛋氨酸，MTRR 維持蛋氨酸至 SAMe 軸，為 COMT 和其他甲基轉移酶提供甲基供體。它包含在循環中使其成為 methyl donor 總體產能以及 MTHFR 和 B12 狀態的決定因素。因此，MTRR 變異體會影響 methylation efficiency。"
@@ -2279,7 +2279,7 @@
     "confidence": 0.93,
     "source_document": "MTRR.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "0af18eecd2f1",
@@ -2394,10 +2394,10 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "6ed74e963402",
+    "id": "3646c97cd1cb",
     "subject": "Norepinephrine transporter",
     "predicate": "reuptakes",
-    "object": "norepinephrine",
+    "object": "Norepinephrine",
     "context": {
       "en-US": "The norepinephrine transporter is responsible for the reuptake of norepinephrine from the synaptic cleft into presynaptic terminals, terminating noradrenergic signaling and recycling the transmitter. As a member of the SLC6A family, NET is the primary determinant of noradrenergic tone in brain and periphery, and its blockade underlies many antidepressants and attention treatments. Its dopamine-reuptake capacity additionally links it to prefrontal dopamine regulation where DAT is sparse. It is a major target in psychopharmacology.",
       "zh-TW": "norepinephrine轉運蛋白負責將norepinephrine從突觸間隙重新攝取到突觸前末梢，終止去甲腎上腺素訊號傳導並回收發射器。作為 SLC6A 家族的一員，NET 是 brain 和周邊去甲腎上腺素能張力的主要決定因素，其阻斷是許多抗憂鬱藥物和注意力治療的基礎。它還具有多巴胺再攝取能力，與 DAT 稀疏的前額多巴胺調節有關。它是精神藥理學的一個主要目標。"
@@ -2405,7 +2405,7 @@
     "confidence": 0.95,
     "source_document": "Norepinephrine transporter.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "1fc55cf7a4e0",
@@ -2632,10 +2632,10 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "509b0b6180eb",
+    "id": "9a8fefacb920",
     "subject": "Prefrontal Cortex",
     "predicate": "controls",
-    "object": "executive function",
+    "object": "Executive Function",
     "context": {
       "en-US": "The prefrontal cortex controls executive function, encompassing planning, decision-making, inhibition, and cognitive flexibility, through its extensive reciprocal connections with posterior cortex, striatum, and thalamus. Its operations depend critically on an optimal, COMT-genotype-sensitive level of dopamine, with both excess and deficiency degrading performance. Because prefrontal DAT is sparse, COMT and NET set the dopamine tone that governs these high-level functions. Dysregulation of prefrontal dopamine is implicated in numerous psychiatric and cognitive disorders.",
       "zh-TW": "前額葉皮質透過與後皮質、紋狀體和丘腦的廣泛相互連結來控制 executive function，包括計畫、決策、抑制和認知靈活性。其運作關鍵取決於 COMT 基因型敏感的最佳多巴胺水平，過量和缺乏都會降低表現。由於前額葉 DAT 稀疏，COMT 和 NET 設定了控制這些高階功能的多巴胺基調。前額葉多巴胺的失調與許多精神和認知障礙有關。"
@@ -2643,7 +2643,7 @@
     "confidence": 0.95,
     "source_document": "Prefrontal Cortex.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "99543b92fe9d",
@@ -2940,10 +2940,10 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "2789142e18d6",
+    "id": "e3dd0588f77c",
     "subject": "Stimulus-response learning",
     "predicate": "underlies",
-    "object": "addiction",
+    "object": "Addiction",
     "context": {
       "en-US": "Stimulus-response learning underlies both adaptive expertise and maladaptive habits, including addiction and compulsive behaviors. Its COMT dependence links genetic dopamine regulation to individual differences in habit formation. Understanding S-R mechanisms informs therapeutic approaches to compulsive and addictive disorders.",
       "zh-TW": "Stimulus-response learning 既構成適應性專長，也構成適應不良習慣，包括成癮和強迫行為。其對 COMT 的依賴將遺傳性多巴胺調節與習慣形成的個體差異連結起來。了解 S-R 機制有助於治療強迫性和成癮性疾病的介入方法。"
@@ -2951,7 +2951,7 @@
     "confidence": 0.9,
     "source_document": "Stimulus-response learning.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "c8dbea22f145",
@@ -3038,10 +3038,10 @@
     "updated": "2026-09-02T06:53:17Z"
   },
   {
-    "id": "0999c09871ac",
+    "id": "e20ff4570dbe",
     "subject": "Striatum",
     "predicate": "is_part_of",
-    "object": "basal ganglia",
+    "object": "Basal Ganglia",
     "context": {
       "en-US": "The striatum is part of the basal ganglia, forming the principal input station that receives excitatory cortical and thalamic afferents and dopaminergic input from the substantia nigra pars compacta. Its output via the direct and indirect pathways regulates thalamocortical motor and associative loops, making it central to movement, habit, and reward. COMT and DAT modulate the dopamine that shapes this circuitry, with DAT dominating striatal clearance. This anatomical position underlies its broad functional significance in the brain.",
       "zh-TW": "紋狀體是 basal ganglia 的一部分，形成主要輸入站，接收興奮性皮質和丘腦傳入神經以及來自黑質緻密部的多巴胺能輸入。它透過直接和間接途徑的輸出調節丘腦皮質運動和聯想環路，使其成為 movement、習慣和 reward 的核心。 COMT 和 DAT 調節形成此電路的多巴胺，其中 DAT 控制紋狀體間隙。這種解剖位置是其在 brain 中廣泛功能意義的基礎。"
@@ -3049,7 +3049,7 @@
     "confidence": 0.96,
     "source_document": "Medium spiny neurons.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "0a0683cb6c05",
@@ -3164,10 +3164,10 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "aa415072ec96",
+    "id": "21ed7bbd76d9",
     "subject": "Val158Met",
     "predicate": "impacts",
-    "object": "cognitive performance",
+    "object": "Cognitive Performance",
     "context": {
       "en-US": "Val158Met impacts cognitive performance by setting prefrontal dopamine availability through its effect on COMT activity, with the inverted-U model predicting better stability and working memory in Met carriers and better stress processing in Val carriers. Meta-analyses confirm small-to-moderate, task-dependent effects on executive function and working memory, moderated by sex, age, and environment. The variant is a leading model for gene-cognition association. Its effects are most apparent under cognitive load and stress.",
       "zh-TW": "Val158Met 透過對 COMT activity 的影響來設定前額多巴胺的可用性，從而影響 cognitive performance，倒 U 模型預測 Met 攜帶者有更好的穩定性和工作記憶，Val 攜帶者有更好的壓力處理。統合分析證實對 executive function 和工作記憶有小到中度的任務依賴性影響，並受到性別、年齡和環境的調節。該變異是基因認知關聯的領先模型。它的影響在認知負荷和壓力下最為明顯。"
@@ -3175,7 +3175,7 @@
     "confidence": 0.94,
     "source_document": "Val158Met.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "46e0846684ba",
@@ -3374,10 +3374,10 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "1623aec4eaff",
+    "id": "2340ce781e67",
     "subject": "Val158Met",
     "predicate": "impacts",
-    "object": "stimulus-response learning",
+    "object": "Stimulus-response learning",
     "context": {
       "en-US": "The Val158Met polymorphism impacts stimulus-response (S-R) learning, a striatal-dependent form of habit learning sensitive to dopamine signaling. Fast (Val) genotypes alter the dopamine dynamics in corticostriatal circuits that support S-R acquisition, and COMT overexpression models show impaired S-R learning when excess enzyme accelerates dopamine clearance. The direction and magnitude of the effect depend on whether COMT activity is increased or decreased and on the specific task parameters. This extends COMT's influence from prefrontal cognition into striatal habit formation.",
       "zh-TW": "Val158Met 多態性會影響刺激反應（S-R）學習，這是一種對多巴胺訊號敏感的紋狀體依賴性習慣學習形式。 Fast (Val) 基因型改變了支持 S-R 獲取的皮質紋狀體迴路中的多巴胺動態，而當過量的酶加速多巴胺清除時，COMT 過度表現模型顯示 S-R 學習受損。效果的方向和幅度取決於 COMT activity 是增加還是減少以及特定的任務參數。這將 COMT 的影響從前額認知擴展到紋狀體 habit formation。"
@@ -3385,7 +3385,7 @@
     "confidence": 0.74,
     "source_document": "Val158Met.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "22d813cc8803",
@@ -3514,10 +3514,10 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "1d939c05d185",
+    "id": "8fcab28e0eeb",
     "subject": "Working Memory",
     "predicate": "is_component_of",
-    "object": "executive function",
+    "object": "Executive Function",
     "context": {
       "en-US": "Working memory is a core component of executive function, providing the online workspace needed for planning, inhibition, and cognitive flexibility, and deficits in working memory propagate to broader executive impairments. Its dependence on prefrontal dopamine links it directly to COMT genotype, since COMT dominates prefrontal dopamine clearance and sets the tone that gates working memory capacity. This makes working memory a primary target of COMT-cognition research. It is central to adaptive, goal-directed behavior.",
       "zh-TW": "工作記憶是 executive function 的核心組成部分，提供規劃、抑制和認知靈活性所需的線上工作空間，工作記憶的缺陷會傳播到更廣泛的執行障礙。它對前額葉多巴胺的依賴直接與 COMT genotype 聯繫起來，因為 COMT 主導著前額葉多巴胺清除並設定了控制工作記憶容量的基調。這使得工作記憶成為 COMT 認知研究的主要目標。它是適應性、目標導向行為的核心。"
@@ -3525,7 +3525,7 @@
     "confidence": 0.95,
     "source_document": "Working Memory.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "8960f132e6af",
@@ -3962,10 +3962,10 @@
     "updated": "2026-09-04T17:55:44Z"
   },
   {
-    "id": "b9b2da75ea9f",
+    "id": "9ef435fba137",
     "subject": "Aspirin",
     "predicate": "reduces",
-    "object": "Thromboxane A2",
+    "object": "Thromboxane A₂",
     "context": {
       "en-US": "Aspirin suppresses thromboxane A2 synthesis in platelets, which cannot resynthesize COX, shifting hemostasis toward reduced clot formation at low doses. TXA2 suppression is the antiplatelet mechanism behind its cardiovascular prophylaxis.",
       "zh-TW": "Aspirin 抑制血小板中血栓素 A2 合成，血小板無法重新合成 COX，低劑量使止血傾向減少凝塊形成。TXA2 抑制是其心血管預防背後的抗血小板機制。"
@@ -3973,7 +3973,7 @@
     "confidence": 0.92,
     "source_document": "Aspirin.md",
     "created": "2026-09-04T17:55:44Z",
-    "updated": "2026-09-04T17:55:44Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "3298d9e2b408",

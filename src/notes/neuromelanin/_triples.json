@@ -238,8 +238,8 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "e24a79bd4359",
-    "subject": "Ascorbic Acid",
+    "id": "327bd5932731",
+    "subject": "Vitamin C",
     "predicate": "bidirectionally_linked_with",
     "object": "Dopamine",
     "context": {
@@ -249,11 +249,11 @@
     "confidence": 0.95,
     "source_document": "_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator.md",
     "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
-    "id": "8d1989f2704a",
-    "subject": "Ascorbic Acid",
+    "id": "25cf5dfd41bc",
+    "subject": "Vitamin C",
     "predicate": "protects_against",
     "object": "Oxidative Stress",
     "context": {
@@ -263,7 +263,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator.md",
     "created": "2026-07-27T18:31:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
     "id": "3650b481c6cd",

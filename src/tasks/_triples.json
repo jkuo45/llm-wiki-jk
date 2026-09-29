@@ -1,7 +1,7 @@
 [
   {
-    "id": "8c03e06668a7",
-    "subject": "Acid Ceramidase",
+    "id": "3d34644f06bb",
+    "subject": "Acid ceramidase",
     "predicate": "is_encoded_by",
     "object": "ASAH1",
     "context": {
@@ -11,11 +11,11 @@
     "confidence": 0.95,
     "source_document": "task_output_acid_ceramidase_27_July_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
-    "id": "f81e7134ce4c",
-    "subject": "Acid Ceramidase",
+    "id": "cbce09a2d45b",
+    "subject": "Acid ceramidase",
     "predicate": "cleaves",
     "object": "Ceramide",
     "context": {
@@ -25,11 +25,11 @@
     "confidence": 0.95,
     "source_document": "task_output_acid_ceramidase_27_July_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
-    "id": "0fdd3023e32f",
-    "subject": "Acid Ceramidase",
+    "id": "ebf3cc0646e2",
+    "subject": "Acid ceramidase",
     "predicate": "is_overexpressed_in",
     "object": "Senescent Cells",
     "context": {
@@ -39,11 +39,11 @@
     "confidence": 0.95,
     "source_document": "task_output_acid_ceramidase_27_July_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
-    "id": "b2b087dbe588",
-    "subject": "Acid Ceramidase",
+    "id": "31de06bd2490",
+    "subject": "Acid ceramidase",
     "predicate": "raises",
     "object": "Sphingosine-1-phosphate",
     "context": {
@@ -53,7 +53,7 @@
     "confidence": 0.9,
     "source_document": "task_output_acid_ceramidase_27_July_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "cab9f6ae5e5a",
@@ -84,8 +84,8 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "9ebf15aea4a7",
-    "subject": "AKT",
+    "id": "dc06d5c87c3f",
+    "subject": "Akt",
     "predicate": "phosphorylates",
     "object": "Caspase-9",
     "context": {
@@ -95,11 +95,11 @@
     "confidence": 0.95,
     "source_document": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "e0b84cd387ed",
-    "subject": "AKT",
+    "subject": "Akt",
     "predicate": "phosphorylates",
     "object": "XIAP",
     "context": {
@@ -109,7 +109,7 @@
     "confidence": 0.95,
     "source_document": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "adc4377bef54",
@@ -238,10 +238,10 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "660ac05299e8",
+    "id": "ca37ba4631e1",
     "subject": "ARN14794",
     "predicate": "inhibits",
-    "object": "Acid Ceramidase",
+    "object": "Acid ceramidase",
     "context": {
       "en-US": "ARN14794 has IC50 ~100 nM against acid ceramidase and was specifically used in the Soriano-Castell 2026 ferroptosis study to reduce membrane PL-PUFA content.",
       "zh-TW": "ARN14794 對酸性神經醯胺酶的 IC50 約為 100 nM，並在 Soriano-Castell 2026 年的鐵蛋白死亡研究中被專門用於降低膜磷脂中 PL-PUFA 的含量。"
@@ -249,11 +249,11 @@
     "confidence": 0.95,
     "source_document": "task_output_acid_ceramidase_27_July_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
-    "id": "a7a232658b03",
-    "subject": "Ascorbic Acid",
+    "id": "c6c9e5db396c",
+    "subject": "Vitamin C",
     "predicate": "reduces",
     "object": "Adrenochrome",
     "context": {
@@ -263,7 +263,7 @@
     "confidence": 0.75,
     "source_document": "task_output_adrenochrome_protocol_traces_20_AUG_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
     "id": "c14518c94f80",
@@ -504,10 +504,10 @@
     "updated": "2026-09-27T03:43:23Z"
   },
   {
-    "id": "019b47f415f8",
+    "id": "2ddbd701b9c0",
     "subject": "Carmofur",
     "predicate": "inhibits",
-    "object": "Acid Ceramidase",
+    "object": "Acid ceramidase",
     "context": {
       "en-US": "Carmofur has IC50 29 nM against acid ceramidase, is clinically approved in Japan, crosses the BBB, and is a repurposing candidate for senolytic therapy.",
       "zh-TW": "Carmofur 對酸性神經醯胺酶的 IC50 為 29 nM，已在日本獲臨床核准，可穿過血腦屏障（BBB），是去衰老（senolytic）治療的再利用候選藥物。"
@@ -515,7 +515,7 @@
     "confidence": 0.95,
     "source_document": "task_output_acid_ceramidase_27_July_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "0b68cd5022dd",
@@ -647,7 +647,7 @@
     "id": "7eeabd0a5187",
     "subject": "CDK5",
     "predicate": "phosphorylates",
-    "object": "NOXA",
+    "object": "Noxa",
     "context": {
       "en-US": "CDK5 phosphorylates NOXA at Ser13, causing inactivation in metabolically regulated T-cell leukemia cells.",
       "zh-TW": "CDK5 在 Ser13 磷酸化 NOXA，在代謝調節的 T 細胞白血病細胞中造成不活化。"
@@ -655,7 +655,7 @@
     "confidence": 0.95,
     "source_document": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "e08200fdd6a0",
@@ -770,10 +770,10 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "a5c10465f8b0",
+    "id": "2984299ea868",
     "subject": "DJ-1",
     "predicate": "stabilizes",
-    "object": "Nrf2",
+    "object": "NRF2",
     "context": {
       "en-US": "DJ-1 stabilizes Nrf2 by blocking KEAP1, driving GLO1/GLO2 transcription for enhanced dicarbonyl clearance and HO-1/NQO1 for antioxidant defense.",
       "zh-TW": "DJ-1 透過阻斷 KEAP1 穩定 Nrf2，驅動 GLO1/GLO2 轉錄以增強二羰基清除，以及 HO-1/NQO1 以進行抗氧化防禦。"
@@ -781,7 +781,7 @@
     "confidence": 0.95,
     "source_document": "task_output_dj1_glycation_trace_27_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "3308aaaff9b3",
@@ -801,7 +801,7 @@
     "id": "1e6755692bfd",
     "subject": "ERK",
     "predicate": "phosphorylates",
-    "object": "BIM",
+    "object": "Bim",
     "context": {
       "en-US": "ERK phosphorylates BIM at Ser55/Ser65/Ser100, causing inactivation under the control of cytokine IL3.",
       "zh-TW": "ERK 在 Ser55/Ser65/Ser100 磷酸化 BIM，在細胞激素 IL3 的控制下造成不活化。"
@@ -809,11 +809,11 @@
     "confidence": 0.95,
     "source_document": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "c20feaa190f9",
-    "subject": "ERK1/2",
+    "subject": "ERK1_2",
     "predicate": "phosphorylates",
     "object": "BAX",
     "context": {
@@ -823,7 +823,7 @@
     "confidence": 0.95,
     "source_document": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "b12ec93f0cf4",
@@ -1274,10 +1274,10 @@
     "updated": "2026-09-27T03:43:23Z"
   },
   {
-    "id": "4e0337994f02",
+    "id": "51b51c1a7575",
     "subject": "Intermittent Hypoxia",
     "predicate": "induces",
-    "object": "HIF-1alpha",
+    "object": "HIF-1α",
     "context": {
       "en-US": "Controlled, intermittent mild hypoxia stabilizes HIF-1alpha, the 'hormetic amplifier': in C. elegans mild hypoxia → transient mitochondrial ROS → HIF-1 → positive ROS feedback → AMPK negative feedback → net ROS homeostasis with lifespan extension and enhanced immunity (Li et al., 2024); in mammals it drives erythropoietin, antioxidant and BDNF programs.",
       "zh-TW": "受控的間歇性輕度缺氧穩定 HIF-1alpha，即「荷爾蒙放大器」：在 C. elegans 中輕度缺氧 → 短暫粒線體 ROS → HIF-1 → 正回饋 ROS → AMPK 負回饋 → 淨 ROS 恆定並延壽與增強免疫力（Li et al., 2024）；在哺乳類中驅動紅血球生成素、抗氧化與 BDNF 程式。"
@@ -1285,7 +1285,7 @@
     "confidence": 0.85,
     "source_document": "task_output_hormesis_overlooked_paradigms_30_Aug_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
     "id": "798227fcb8ff",
@@ -1445,7 +1445,7 @@
     "id": "6c91e08f6c89",
     "subject": "JNK",
     "predicate": "activates",
-    "object": "BIM",
+    "object": "Bim",
     "context": {
       "en-US": "JNK and p38 MAPK phosphorylate BIM at Ser65, activating it for pro-apoptotic function.",
       "zh-TW": "JNK 與 p38 MAPK 在 Ser65 磷酸化 BIM，活化其促凋亡功能。"
@@ -1453,11 +1453,11 @@
     "confidence": 0.95,
     "source_document": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
-    "id": "d447b7968dc8",
-    "subject": "K-RAS",
+    "id": "834a9c32a798",
+    "subject": "KRAS",
     "predicate": "blocks_activation_of",
     "object": "BAK",
     "context": {
@@ -1467,7 +1467,7 @@
     "confidence": 0.9,
     "source_document": "task_output_caspase_01_JUN_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "e19986159240",
@@ -1877,7 +1877,7 @@
   },
   {
     "id": "35184ca2b8a9",
-    "subject": "Nrf2",
+    "subject": "NRF2",
     "predicate": "transactivates",
     "object": "SIRT6",
     "context": {
@@ -1887,7 +1887,7 @@
     "confidence": 0.9,
     "source_document": "task_output_dj1_glycation_trace_27_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "6ea0d1a1d7a1",
@@ -2044,8 +2044,8 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "56093cf33822",
-    "subject": "PGC-1alpha",
+    "id": "c3740bbdd14c",
+    "subject": "PGC-1α",
     "predicate": "drives",
     "object": "MnSOD",
     "context": {
@@ -2055,11 +2055,11 @@
     "confidence": 0.9,
     "source_document": "task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-27T03:43:23Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
-    "id": "38b9b756b5ec",
-    "subject": "PGC-1alpha",
+    "id": "ca037d082a1f",
+    "subject": "PGC-1α",
     "predicate": "activates",
     "object": "TFEB",
     "context": {
@@ -2069,7 +2069,7 @@
     "confidence": 0.85,
     "source_document": "task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
     "id": "5e355e8d9cd3",
@@ -2268,10 +2268,10 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "50bcf20346dc",
+    "id": "d9368c56f467",
     "subject": "RSK",
     "predicate": "phosphorylates",
-    "object": "APAF-1",
+    "object": "Apaf-1",
     "context": {
       "en-US": "RSK phosphorylates APAF-1 at Ser268, causing inhibition in prostate cancer cells.",
       "zh-TW": "RSK 在 Ser268 磷酸化 APAF-1，在攝護腺癌細胞中造成抑制。"
@@ -2279,7 +2279,7 @@
     "confidence": 0.95,
     "source_document": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "50fc0fe931d2",
@@ -4704,10 +4704,10 @@
     "updated": "2026-09-04T16:40:50Z"
   },
   {
-    "id": "7cb221e45023",
+    "id": "2ae94ad4bc93",
     "subject": "SIRT1",
     "predicate": "deacetylates",
-    "object": "14-3-3ζ",
+    "object": "14-3-3",
     "context": {
       "en-US": "SIRT1 deacetylates 14-3-3zeta, gating caspase-2-dependent death signaling (PMID 21884983). This sirtuin-caspase crosstalk edge constrains the pro-apoptotic adaptor.",
       "zh-TW": "SIRT1 去乙醯化 14-3-3zeta，門控 caspase-2 依賴的死亡訊號（PMID 21884983）。此 sirtuin-caspase 交互邊約束促凋亡銜接蛋白。"
@@ -4715,7 +4715,7 @@
     "confidence": 0.78,
     "source_document": "task_output_sirtuin_caspase_crosstalk_28_AUG_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "923b6cf6bfc2",
@@ -4928,10 +4928,10 @@
     "updated": "2026-09-04T16:40:50Z"
   },
   {
-    "id": "593d7824fcf0",
+    "id": "1a1ca9d1778b",
     "subject": "Thioredoxin-1",
     "predicate": "reduces",
-    "object": "Ribonucleotide Reductase",
+    "object": "ribonucleotide reductase",
     "context": {
       "en-US": "Reduced thioredoxin-1 regenerates ribonucleotide reductase each turnover for dNTP synthesis. This textbook electron flow links redox tone to DNA synthesis capacity.",
       "zh-TW": "還原型 thioredoxin-1 在每次周轉再生 ribonucleotide reductase 以合成 dNTP。此教科書電子流將氧化還原張力連結到 DNA 合成能力。"
@@ -4939,13 +4939,13 @@
     "confidence": 0.9,
     "source_document": "task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
-    "id": "e86f24a08f21",
+    "id": "d2475f61523b",
     "subject": "Triapine",
     "predicate": "inhibits",
-    "object": "Ribonucleotide Reductase",
+    "object": "ribonucleotide reductase",
     "context": {
       "en-US": "Triapine inhibits ribonucleotide reductase by iron-chelator destruction of the RRM2 radical cofactor. This pushes cells past the hormetic window into replication catastrophe.",
       "zh-TW": "Triapine 經由鐵螯合破壞 RRM2 自由基輔因子抑制 ribonucleotide reductase。此將細胞推過荷爾蒙窗口進入複製災難。"
@@ -4953,13 +4953,13 @@
     "confidence": 0.8,
     "source_document": "task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
-    "id": "399a2e9c0e23",
+    "id": "1ab6733897fd",
     "subject": "Hydroxyurea",
     "predicate": "inhibits",
-    "object": "Ribonucleotide Reductase",
+    "object": "ribonucleotide reductase",
     "context": {
       "en-US": "Hydroxyurea quenches the ribonucleotide reductase tyrosyl radical, blocking dNTP supply. Same push-past-the-window logic as triapine in hormetic pharmacology.",
       "zh-TW": "Hydroxyurea 淬滅 ribonucleotide reductase 酪氨酸自由基，阻斷 dNTP 供應。在荷爾蒙藥理中與 triapine 同為推過窗口邏輯。"
@@ -4967,7 +4967,7 @@
     "confidence": 0.8,
     "source_document": "task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "6c530a1088f9",
@@ -5166,10 +5166,10 @@
     "updated": "2026-09-29T16:40:48Z"
   },
   {
-    "id": "f1bef0b32add",
+    "id": "b4b2ab4f8254",
     "subject": "Caloric Restriction",
     "predicate": "activates",
-    "object": "PGC-1alpha",
+    "object": "PGC-1α",
     "context": {
       "en-US": "Caloric restriction activates PGC-1alpha via SIRT1 for mitochondrial biogenesis. ASCII spelling matches existing triples; the mechanism couples energy deficit to organelle renewal.",
       "zh-TW": "熱量限制經由 SIRT1 活化 PGC-1alpha 以進行粒線體生成。ASCII 拼寫沿用既有 triple；此機制將能量虧損耦合到胞器更新。"
@@ -5177,7 +5177,7 @@
     "confidence": 0.85,
     "source_document": "task_output_cr_vs_spermidine_autophagy_15_July_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
     "id": "2a66a793c6e0",
@@ -5222,10 +5222,10 @@
     "updated": "2026-09-04T16:40:50Z"
   },
   {
-    "id": "3fa9a7064fed",
+    "id": "d4a6a5a9f9d1",
     "subject": "IL-6",
     "predicate": "induces_upregulation_of",
-    "object": "Acid Ceramidase",
+    "object": "Acid ceramidase",
     "context": {
       "en-US": "Recombinant IL-6/IL-8 recapitulates trans-well paracrine ACase upregulation in bystander proliferative cells. This grounds the SASP-to-ACase axis in defined cytokines.",
       "zh-TW": "重組 IL-6/IL-8 重現 trans-well 旁分泌 ACase 上調。此以明確的細胞激素奠定 SASP 到 ACase 軸的基礎。"
@@ -5233,13 +5233,13 @@
     "confidence": 0.85,
     "source_document": "task_output_acid_ceramidase_27_July_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
-    "id": "0a56e9ed8023",
+    "id": "f7bc9e87164b",
     "subject": "IL-8",
     "predicate": "induces_upregulation_of",
-    "object": "Acid Ceramidase",
+    "object": "Acid ceramidase",
     "context": {
       "en-US": "Same 2:1 IL-6/IL-8 paracrine experiment as the IL-6 leg; IL-8 co-drives ACase induction and ferroptotic sensitization. Parallel ligand, same evidence class.",
       "zh-TW": "與 IL-6 路徑相同的 2:1 IL-6/IL-8 旁分泌實驗；IL-8 共同驅動 ACase 誘發與鐵死亡敏感化。平行配體，相同證據等級。"
@@ -5247,13 +5247,13 @@
     "confidence": 0.85,
     "source_document": "task_output_acid_ceramidase_27_July_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
-    "id": "d69caa9a76b9",
+    "id": "ed282396a4ae",
     "subject": "ARN14974",
     "predicate": "inhibits",
-    "object": "Acid Ceramidase",
+    "object": "Acid ceramidase",
     "context": {
       "en-US": "ARN14974 is a brain-penetrant ACase inhibitor (IC50 79 nM) distinct from ARN14794, which already has a triple. Separate chemistry, separate edge.",
       "zh-TW": "ARN14974 是可入腦的 ACase 抑制劑（IC50 79 nM），不同於已有 triple 的 ARN14794。不同化學，獨立邊。"
@@ -5261,7 +5261,7 @@
     "confidence": 0.9,
     "source_document": "task_output_acid_ceramidase_27_July_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "a01ccdf3fe56",
@@ -5432,10 +5432,10 @@
     "updated": "2026-09-04T16:40:50Z"
   },
   {
-    "id": "65fcb102ed80",
+    "id": "a9d22da3effc",
     "subject": "Exercise",
     "predicate": "activates",
-    "object": "PGC-1alpha",
+    "object": "PGC-1α",
     "context": {
       "en-US": "Exercise-generated ROS bursts drive PGC-1alpha-dependent mitochondrial biogenesis (Ristow reviews). ASCII spelling matches existing triples; post-workout antioxidants blunt this signal.",
       "zh-TW": "運動產生的 ROS 爆發驅動 PGC-1alpha 依賴的粒線體生成（Ristow 回顧）。ASCII 拼寫沿用既有 triple；運動後抗氧化劑減弱此訊號。"
@@ -5443,7 +5443,7 @@
     "confidence": 0.85,
     "source_document": "task_output_mitohormesis_antioxidants_05_August_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
     "id": "9173c1126c53",
@@ -5460,8 +5460,8 @@
     "updated": "2026-09-04T16:40:50Z"
   },
   {
-    "id": "643dbefc19ca",
-    "subject": "PGC-1alpha",
+    "id": "8c384f20b8b1",
+    "subject": "PGC-1α",
     "predicate": "drives",
     "object": "Mitochondrial Biogenesis",
     "context": {
@@ -5471,7 +5471,7 @@
     "confidence": 0.9,
     "source_document": "task_output_mitohormesis_antioxidants_05_August_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
     "id": "f47977f3eec7",
@@ -5712,10 +5712,10 @@
     "updated": "2026-09-04T16:40:50Z"
   },
   {
-    "id": "93e6be475eb8",
+    "id": "4c5fa32620c7",
     "subject": "Intermittent Hypoxia",
     "predicate": "stabilizes",
-    "object": "HIF-1alpha",
+    "object": "HIF-1α",
     "context": {
       "en-US": "Controlled intermittent mild hypoxia stabilizes HIF-1alpha driving EPO, antioxidant and BDNF programs (Li 2024). ASCII spelling matches the existing induces-HIF-1alpha edge.",
       "zh-TW": "受控間歇輕度缺氧穩定 HIF-1alpha，驅動 EPO、抗氧化與 BDNF 程序（Li 2024）。ASCII 拼寫沿用既有的 induces-HIF-1alpha 邊。"
@@ -5723,7 +5723,7 @@
     "confidence": 0.78,
     "source_document": "task_output_hormesis_overlooked_paradigms_30_Aug_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
     "id": "4d57235aa86f",
@@ -5838,10 +5838,10 @@
     "updated": "2026-09-04T16:40:50Z"
   },
   {
-    "id": "02ae2a8bbdb6",
+    "id": "b68f4c83817d",
     "subject": "DJ-1",
     "predicate": "inhibits",
-    "object": "KEAP1",
+    "object": "Keap1",
     "context": {
       "en-US": "DJ-1 blocks KEAP1 to stabilize Nrf2, the mechanistic basis of the existing DJ-1-Nrf2 edge. Upstream cause recorded as its own triple.",
       "zh-TW": "DJ-1 阻斷 KEAP1 以穩定 Nrf2，是既有 DJ-1-Nrf2 邊的機制基礎。上游原因記錄為獨立 triple。"
@@ -5849,7 +5849,7 @@
     "confidence": 0.8,
     "source_document": "task_output_dj1_glycation_trace_27_JUL_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "7175b5ce2b49",
@@ -7140,8 +7140,8 @@
     "updated": "2026-09-27T03:09:16Z"
   },
   {
-    "id": "248222d01a94",
-    "subject": "HIF-1alpha",
+    "id": "a09cd2357816",
+    "subject": "HIF-1α",
     "predicate": "induces",
     "object": "VEGF",
     "context": {
@@ -7151,7 +7151,7 @@
     "confidence": 0.85,
     "source_document": "task_output_hormetic_range_expansion_03_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
     "id": "e510b82ef263",
@@ -7322,10 +7322,10 @@
     "updated": "2026-09-27T03:09:16Z"
   },
   {
-    "id": "3a6a2a68d1a2",
+    "id": "6061f3caa841",
     "subject": "Retinoic Acid",
     "predicate": "activates",
-    "object": "PGC-1alpha",
+    "object": "PGC-1α",
     "context": {
       "en-US": "Retinoic acid drives mitochondrial biogenesis through p38 MAPK to PGC-1alpha in muscle and primary myoblasts and through PPAR-delta in human hepatocytes, raising PGC-1alpha, NRF1, mtDNA and ATP. Because it raises biogenesis and the fission rate together, retinoic acid is best read as a differentiation signal that supplies new biomass for fission to partition.",
       "zh-TW": "Retinoic acid 在肌肉與原代肌母細胞中經 p38 MAPK 活化 PGC-1alpha，在人類肝細胞中則經 PPAR-delta 途徑驅動粒線體生物發生，提升 PGC-1alpha、NRF1、mtDNA 與 ATP。由於它同時提高生物發生與分裂率，retinoic acid 最好被理解為分化訊號，為分裂提供可供分配的全新生物量。"
@@ -7333,7 +7333,7 @@
     "confidence": 0.8,
     "source_document": "task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
     "id": "e94b6a25eefe",
@@ -8260,8 +8260,8 @@
     "updated": "2026-09-27T03:09:16Z"
   },
   {
-    "id": "8047ff80d627",
-    "subject": "Acid Ceramidase",
+    "id": "e3f14a748620",
+    "subject": "Acid ceramidase",
     "predicate": "promotes",
     "object": "Lipid Peroxidation",
     "context": {
@@ -8271,7 +8271,7 @@
     "confidence": 0.85,
     "source_document": "task_output_node_analysis_biology_16_AUG_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:43:23Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "6124878df85d",
@@ -8288,8 +8288,8 @@
     "updated": "2026-09-27T03:09:16Z"
   },
   {
-    "id": "345bba26a7c3",
-    "subject": "Acid Ceramidase",
+    "id": "0dfe5b109039",
+    "subject": "Acid ceramidase",
     "predicate": "promotes",
     "object": "Ferroptosis",
     "context": {
@@ -8299,13 +8299,13 @@
     "confidence": 0.8,
     "source_document": "task_output_node_analysis_biology_16_AUG_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:43:23Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
-    "id": "bebaf81dc867",
+    "id": "3a987cea78d2",
     "subject": "SASP",
     "predicate": "induces",
-    "object": "Acid Ceramidase",
+    "object": "Acid ceramidase",
     "context": {
       "en-US": "SASP cytokines such as IL-6 and IL-8 induce acid ceramidase in bystander cells. The secretory program of senescence therefore rewires neighbouring membranes toward a pro-ferroptotic state, extending the damage beyond the cells that actually senesced. This is the paracrine route by which a small senescent population can sensitize a whole tissue. SASP cytokines IL-6 and IL-8 induce ACase upregulation and ferroptotic sensitization in neighboring proliferative cells via paracrine signaling.",
       "zh-TW": "SASP 中的細胞激素（如 IL-6 與 IL-8）會在旁觀細胞中誘導酸性神經醯胺酶。衰老的分泌程序因此會把鄰近細胞的膜重新設定為促鐵死亡狀態，使損傷超出真正進入衰老的那些細胞。這是少數衰老細胞可以使整個組織敏感的旁分泌途徑。 SASP 細胞激素 IL-6 與 IL-8 透過旁分泌訊號，誘導鄰近增生細胞中 ACase 的上調與鐵蛋白死亡（ferroptosis）敏感化。"
@@ -8313,7 +8313,7 @@
     "confidence": 0.8,
     "source_document": "task_output_node_analysis_biology_16_AUG_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:43:23Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "585311dbde38",
@@ -8400,10 +8400,10 @@
     "updated": "2026-09-27T03:09:16Z"
   },
   {
-    "id": "3650b481c6cd",
+    "id": "ef34626be00a",
     "subject": "Autophagy",
     "predicate": "protects_against",
-    "object": "Alpha-synuclein Aggregation",
+    "object": "Alpha-Synuclein Aggregation",
     "context": {
       "en-US": "Autophagy protects against alpha-synuclein aggregation, and it is autophagic dysfunction, not autophagy itself, that contributes to Parkinson's Disease. An earlier edge had the direction inverted, claiming autophagy impairs Parkinson's Disease, which would corrupt any path query about autophagy and neurodegeneration. The correct edge was kept and the inverted one excluded.",
       "zh-TW": "自噬可防止 alpha-synuclein 聚集，而促成帕金森氏症的是自噬功能失常（dysfunction），而非自噬本身。先前有一條方向顛倒的邊，主張自噬損害帕金森氏症，這會污染任何關於自噬與神經退化的路徑查詢。正確的邊被保留，方向顛倒的那條則被排除。"
@@ -8411,7 +8411,7 @@
     "confidence": 0.9,
     "source_document": "task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "45f228421206",

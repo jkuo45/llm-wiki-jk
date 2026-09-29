@@ -1064,10 +1064,10 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "3f76a0db92f9",
+    "id": "16716d915301",
     "subject": "HLA-E",
     "predicate": "suppresses",
-    "object": "CD8 T Cells",
+    "object": "CD8 T cells",
     "context": {
       "en-US": "HLA-E-NKG2A/CD94 engagement on CD8+ T cells suppresses their cytotoxic killing, extending the immune-evasive effect beyond NK cells to the adaptive compartment. This allows HLA-E-upregulated senescent and malignant cells to evade cytotoxic T lymphocytes, contributing to failed clearance and persistence. The suppression reinforces the dual innate and adaptive immune evasion conferred by HLA-E and mirrors the checkpoint biology exploited by tumors. Pharmacological blockade of the interaction is being explored as a strategy to restore CD8+ T-cell responses.",
       "zh-TW": "HLA-E-NKG2A/CD94 在 CD8+ T 細胞上的參與抑制其細胞毒性殺死，將免疫逃脫效應從 NK 細胞擴展到適應區室。這允許 HLA-E 上升的衰老與惡性細胞逃避免疫毒性 T 淋巴球，貢獻失敗清除與持續。此抑制強化 HLA-E 賦予的雙重先天與適應免疫逃脫，並反映腫瘤利用的檢查點生物學。藥理阻斷此交互作用正被探索作為恢復 CD8+ T 細胞反應的策略。"
@@ -1075,7 +1075,7 @@
     "confidence": 0.9,
     "source_document": "HLA-E.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "787f83f94154",
@@ -2380,10 +2380,10 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "8089c765593d",
+    "id": "31c4eeb10ad6",
     "subject": "p15INK4b",
     "predicate": "inhibits",
-    "object": "CDK4",
+    "object": "CDK4 6",
     "context": {
       "en-US": "p15INK4b specifically binds and inhibits CDK4 and CDK6, preventing cyclin D-CDK complex formation and Rb phosphorylation. This enforces a G1 cell-cycle block that is central to paracrine and oncogene-induced senescence, and its action parallels p16INK4a, providing redundant CDK inhibition. The inhibition is direct and is a canonical mechanism of the INK4 family of CDK inhibitors. By maintaining hypophosphorylated Rb, p15 keeps E2F transcription factors sequestered and silences S-phase genes, ensuring durable arrest.",
       "zh-TW": "p15INK4b 特異結合並抑制 CDK4 與 CDK6，防止 cyclin D-CDK 複合體形成與 Rb 磷酸化。這強制對旁分泌與致癌基因誘發衰老至為核心的 G1 細胞週期封鎖，且其作用與 p16INK4a 平行，提供冗餘 CDK 抑制。此抑制直接，且是 INK4 家族 CDK 抑制因子的典型機制。透過維持低磷酸化 Rb，p15 使 E2F 轉錄因子隔離並靜默 S 期基因，確保持久停滯。"
@@ -2391,7 +2391,7 @@
     "confidence": 0.95,
     "source_document": "CDKN2B.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
     "id": "6ea2305be811",
@@ -2422,10 +2422,10 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "b811a98cdc0c",
+    "id": "346b338f2e1f",
     "subject": "p16",
     "predicate": "inhibits",
-    "object": "CDK4",
+    "object": "CDK4 6",
     "context": {
       "en-US": "p16INK4a inhibits cyclin-dependent kinase 4 (CDK4) by binding the cyclin D-CDK4 complex, preventing Rb phosphorylation and maintaining the growth-suppressive, hypophosphorylated state of Rb. This is a primary mechanism by which p16 enforces the durable, p53-independent phase of senescence, and loss of p16 is a common event in cancer, underscoring its tumor-suppressive role. The inhibition is direct and well established, and its expression rises with age and senescent burden. p16 is therefore both a cell-cycle brake and a senescence biomarker.",
       "zh-TW": "p16INK4a 抑制 cyclin-dependent kinase 4（CDK4），透過結合 cyclin D-CDK4 複合體，防止 Rb 磷酸化並維持 Rb 的生長抑制、低磷酸化狀態。這是 p16 執行衰老持久、獨立於 p53 階段的主要機制，且 p16 缺失是癌症常見事件，凸顯其腫瘤抑制角色。此抑制直接且確立牢固，且其表現隨年齡與衰老負擔上升。p16 因此既是細胞週期煞車也是衰老生物標記。"
@@ -2433,21 +2433,7 @@
     "confidence": 0.96,
     "source_document": "_document_ - Small molecule compounds that induce cellular senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
-    "id": "820e3de655df",
-    "subject": "p16",
-    "predicate": "inhibits",
-    "object": "CDK6",
-    "context": {
-      "en-US": "p16INK4a also inhibits cyclin-dependent kinase 6 (CDK6), similarly preventing cyclin D-CDK6-mediated Rb phosphorylation and stabilizing the arrested state. This broad inhibition of both CDK4 and CDK6 ensures a robust G1 blockade, and the dual targeting makes p16 a potent, non-redundant cell-cycle inhibitor. Its action underpins the irreversibility of established senescence, complementing the p53/p21 arm. p16 is consequently a key mediator of permanent growth arrest and a widely used senescence marker.",
-      "zh-TW": "p16INK4a 也抑制 cyclin-dependent kinase 6（CDK6），類似地防止 cyclin D-CDK6 介導的 Rb 磷酸化並穩定停滯狀態。此對 CDK4 與 CDK6 的廣泛抑制確保強健的 G1 封鎖，且雙重標靶使 p16 成為強效、非冗餘的細胞週期抑制因子。其動作支撐已確立衰老的不可逆性，補充 p53/p21 臂。p16 因此是永久生長停滯與廣泛使用的衰老標記的關鍵介導者。"
-    },
-    "confidence": 0.95,
-    "source_document": "_document_ - Small molecule compounds that induce cellular senescence.md",
-    "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
     "id": "2769122117fb",
@@ -3878,10 +3864,10 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "b35fffc39fc8",
+    "id": "99666d0a5561",
     "subject": "SASP",
     "predicate": "is_composed_of",
-    "object": "TNFalpha",
+    "object": "TNF-alpha",
     "context": {
       "en-US": "Tumor necrosis factor alpha (TNFalpha) is a pro-inflammatory SASP cytokine that contributes to immune modulation, NF-kB reinforcement, and inflammaging. It can act in an autocrine loop to amplify the secretome and in a paracrine manner to affect neighboring cells, and it cooperates with IL-1 family cytokines in driving inflammatory gene programs. TNFalpha is less universally dominant than IL-6 in the SASP but is consistently present in many senescence models and is a canonical target of anti-inflammatory biologics. Its pleiotropic actions solidify its status as a canonical SASP component.",
       "zh-TW": "腫瘤壞死因子 alpha（TNFalpha）是一種促發炎性 SASP 細胞激素，貢獻免疫調節、NF-κB 強化與 inflammaging。它可在自分泌迴圈中放大分泌組，並以旁分泌方式影響鄰近細胞，且與 IL-1 家族細胞激素協作驅動發炎基因程序。TNFalpha 在 SASP 中不如 IL-6 普遍主導，但在許多衰老模型中一致存在，且是抗發炎生物製劑的典型標靶。其多效作用鞏固其作為典型 SASP 組成的地位。"
@@ -3889,7 +3875,7 @@
     "confidence": 0.9,
     "source_document": "SASP.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "5d0cbfc1c9c7",
@@ -4480,10 +4466,10 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "cfdfd590a16c",
+    "id": "f246e1cb602c",
     "subject": "Senescent Cells",
     "predicate": "resist_apoptosis_via",
-    "object": "Senescent-Cell Anti-Apoptotic Pathways",
+    "object": "Senescent cell anti-apoptotic pathways",
     "context": {
       "en-US": "Senescent cells are resistant to apoptosis because they upregulate Senescent-Cell Anti-Apoptotic Pathways (SCAPs), including Bcl-2 family pro-survival proteins and the PI3K/Akt axis. Different senescent cell types rely on different SCAPs, which is why no single senolytic clears all senescent cells — and why SCAP-targeting drugs such as Fisetin, D+Q, and Navitoclax show cell-type selectivity.",
       "zh-TW": "衰老細胞因上調 Senescent-Cell Anti-Apoptotic Pathways（SCAPs，包括 Bcl-2 家族促存活蛋白與 PI3K/Akt 軸）而抵抗細胞凋亡。不同衰老細胞類型依賴不同的 SCAPs，因此沒有任何單一 senolytic 能清除所有衰老細胞——這也是為何攻擊 SCAPs 的藥物如 Fisetin、D+Q 與 Navitoclax 呈現細胞類型選擇性的原因。"
@@ -4491,7 +4477,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Fisetin is a senotherapeutic that extends health and lifespan.md",
     "created": "2026-08-21T00:00:00Z",
-    "updated": "2026-08-21T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "753256a7099c",
@@ -5236,10 +5222,10 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "37b804552a36",
+    "id": "8b6f9c06499c",
     "subject": "TGFβ",
     "predicate": "drives",
-    "object": "Epithelial-to-mesenchymal Transition",
+    "object": "Epithelial-to-mesenchymal transition",
     "context": {
       "en-US": "TGFbeta is a master regulator driving epithelial-to-mesenchymal transition (EMT) in neighbouring cells during chronic SASP exposure, activating SMAD and non-SMAD pathways that downregulate epithelial markers and induce mesenchymal traits. EMT enhances invasiveness and stemness, contributing to fibrosis and metastasis, and is mechanistically intertwined with the acquisition of cancer stem-cell properties. The relationship is a canonical TGFbeta function repurposed in the senescence secretome and is well established in developmental and pathological contexts.",
       "zh-TW": "TGFbeta 是在慢性 SASP 暴露期間驅動鄰近細胞上皮—間質轉化（EMT）的總調節者，活化 SMAD 與非 SMAD 路徑下調上皮標記並誘發間質特性。EMT 增強侵襲性與幹性，貢獻纖維化與轉移表型。在衰老中，慢性 TGFbeta 暴露將 SASP 連結到組織重塑與惡性進展，是其促纖維化與促腫瘤角色的核心。此驅動是慢性分泌組的關鍵後果。"
@@ -5247,7 +5233,7 @@
     "confidence": 0.92,
     "source_document": "_document_ - cellular_senescence_ipf_diseases-14-00201.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "249417b367b3",
@@ -5628,20 +5614,6 @@
     "updated": "2026-09-04T16:31:31Z"
   },
   {
-    "id": "2c2a25a0f878",
-    "subject": "p15INK4b",
-    "predicate": "inhibits",
-    "object": "CDK6",
-    "context": {
-      "en-US": "p15INK4b binds and inhibits CDK6 as well as CDK4, preventing cyclin D-CDK complex formation and Rb phosphorylation. This dual INK4 blockade enforces G1 arrest in paracrine and oncogene-induced senescence, paralleling the established p16-CDK6 mechanism.",
-      "zh-TW": "p15INK4b 結合並抑制 CDK6 與 CDK4，防止 cyclin D-CDK 複合體形成與 Rb 磷酸化。此雙重 INK4 封鎖在旁分泌與致癌基因誘發衰老中執行 G1 停滯，與已確立的 p16-CDK6 機制平行。"
-    },
-    "confidence": 0.93,
-    "source_document": "CDKN2B.md",
-    "created": "2026-09-04T16:31:31Z",
-    "updated": "2026-09-04T16:31:31Z"
-  },
-  {
     "id": "7d781ad66e93",
     "subject": "CDKN2B",
     "predicate": "is_induced_by",
@@ -5656,10 +5628,10 @@
     "updated": "2026-09-04T16:31:31Z"
   },
   {
-    "id": "d9618559fec7",
+    "id": "cdf3158e3519",
     "subject": "CCL20",
     "predicate": "is_induced_by",
-    "object": "TNFalpha",
+    "object": "TNF-alpha",
     "context": {
       "en-US": "TNFalpha activates NF-kB to induce CCL20 expression, a textbook chemokine-induction axis in senescence and inflammation. This integrates TNFalpha with the IL-1-driven chemokine program that recruits TH17 and dendritic cells.",
       "zh-TW": "TNFalpha 活化 NF-κB 以誘發 CCL20 表現，是衰老與發炎中典型的趨化因子誘發軸。此將 TNFalpha 與 IL-1 驅動的趨化因子程序整合，共同招募 TH17 與樹突細胞。"
@@ -5667,7 +5639,7 @@
     "confidence": 0.8,
     "source_document": "CCL20.md",
     "created": "2026-09-04T16:31:31Z",
-    "updated": "2026-09-04T16:31:31Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "643a55a68e92",

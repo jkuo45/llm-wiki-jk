@@ -112,10 +112,10 @@
     "updated": "2026-08-20T07:39:11Z"
   },
   {
-    "id": "8fb521db23af",
+    "id": "4737798079e9",
     "subject": "AMPK",
     "predicate": "activates_autophagy_during",
-    "object": "Caloric restriction",
+    "object": "Caloric Restriction",
     "context": {
       "en-US": "During caloric restriction, AMPK activates autophagy by sensing the elevated AMP/ATP ratio and directly phosphorylating ULK1 while inhibiting mTORC1 via TSC2 and Raptor phosphorylation. This dual action removes the principal brake on autophagy and simultaneously initiates phagophore formation. AMPK thereby serves as the executive enzyme translating energy scarcity into degradative activation. Its central role explains why CR-mimetics that activate AMPK recapitulate the autophagic benefits of dieting.",
       "zh-TW": "在熱量限制期間，AMPK 透過感知升高的 AMP/ATP 比值並直接磷酸化 ULK1，同時經由 TSC2 和 Raptor 磷酸化抑制 mTORC1，來活化自噬。此雙重作用移除了自噬的主要制動，同時啟動吞噬體形成。因此 AMPK 作為將能量稀缺轉譯為降解活化的執行酵素。其中樞角色解釋了為何活化 AMPK 的熱量限制擬似物能重現節食的自噬益處。"
@@ -123,7 +123,7 @@
     "confidence": 0.95,
     "source_document": "LKB1.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "c36eb0d6d267",
@@ -182,8 +182,8 @@
     "updated": "2026-09-04T17:22:34Z"
   },
   {
-    "id": "ac8f52dfe0e6",
-    "subject": "Autophagic flux",
+    "id": "5a2b373cccd3",
+    "subject": "Autophagic Flux",
     "predicate": "declines_with",
     "object": "Aging",
     "context": {
@@ -193,7 +193,7 @@
     "confidence": 0.95,
     "source_document": "Autophagic Flux.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T07:39:11Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "35b54a7e1107",
@@ -210,10 +210,10 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "44b98e26cbb6",
+    "id": "6f7d60ec2ddc",
     "subject": "Autophagy",
     "predicate": "prevents",
-    "object": "Arterial aging",
+    "object": "Arterial Aging",
     "context": {
       "en-US": "Autophagy prevents arterial aging by removing damaged mitochondria, misfolded proteins, and lipid aggregates that would otherwise promote endothelial dysfunction, inflammation, and vascular stiffening. Impaired autophagic flux in aged vessels permits oxidative stress and senescence to accumulate, driving the loss of nitric-oxide-mediated relaxation. Enhancing autophagy—pharmacologically or by caloric restriction—rescues the vascular phenotype and restores endothelial function in preclinical models. The pathway is thus a central defender of vascular youth.",
       "zh-TW": "自噬透過移除受損粒線體、錯誤折疊蛋白和脂質聚集物來防止動脈老化，這些物質否則會促進內皮功能障礙、發炎和血管僵硬化。老化血管中自噬流受損會讓氧化壓力和衰老累積，驅動一氧化氮介導舒張能力的喪失。增強自噬——藥理學上或透過熱量限制——在臨床前模型中拯救血管表型並恢復內皮功能。因此此途徑是血管年輕的主要守護者。"
@@ -221,7 +221,7 @@
     "confidence": 0.95,
     "source_document": "Autophagy.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "40c920b68d3e",
@@ -336,10 +336,10 @@
     "updated": "2026-08-20T07:39:11Z"
   },
   {
-    "id": "23d40372aa63",
+    "id": "366876304458",
     "subject": "Beclin1",
     "predicate": "is_a",
-    "object": "Tumor suppressor",
+    "object": "Tumor Suppressor",
     "context": {
       "en-US": "Beclin 1 is a core autophagy protein and a haploinsufficient tumor suppressor whose monoallelic deletion is frequently observed in human ovarian, breast, and prostate cancers. Loss of one BECN1 allele reduces autophagic flux, increasing susceptibility to oxidative damage, genomic instability, and inflammation that favor tumor initiation. Mechanistically, Beclin 1 functions as the scaffold of the PI3K III nucleation complex, and its interaction with Bcl-2 family members further couples autophagy to apoptotic regulation. Its frequent deletion in epithelial cancers established autophagy as a genuine tumor-suppression pathway.",
       "zh-TW": "Beclin 1是一種核心自噬蛋白和單倍體不足型腫瘤抑制因子，其單等位基因缺失常見於人類卵巢癌、乳腺癌和前列腺癌。失去一個BECN1等位基因會降低自噬流，增加對氧化損傷、基因組不穩定和發炎的易感性，有利於腫瘤起始。在機制上，Beclin 1作為PI3K III成核複合體的支架，其與Bcl-2家族成員的交互作用進一步將自噬與凋亡調控耦合。它在上皮癌中的頻繁缺失確立了自噬作為一條真正的腫瘤抑制途徑。"
@@ -347,11 +347,11 @@
     "confidence": 0.95,
     "source_document": "Tumor Suppressor.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "61c8592e25bf",
-    "subject": "Calcineurin",
+    "subject": "calcineurin",
     "predicate": "dephosphorylates",
     "object": "TFEB",
     "context": {
@@ -361,7 +361,7 @@
     "confidence": 0.95,
     "source_document": "calcineurin.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "28418ea24221",
@@ -462,8 +462,8 @@
     "updated": "2026-08-20T07:39:11Z"
   },
   {
-    "id": "74a3eebd57c7",
-    "subject": "CDK4/6",
+    "id": "5fc59e9b8b64",
+    "subject": "CDK4 6",
     "predicate": "phosphorylates",
     "object": "TFEB",
     "context": {
@@ -473,11 +473,11 @@
     "confidence": 0.95,
     "source_document": "_document_ - Lysosome biogenesis Regulation and functions.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
-    "id": "de1a4a9bcfb1",
-    "subject": "CDK4/6",
+    "id": "0d7b7e3d57a2",
+    "subject": "CDK4 6",
     "predicate": "phosphorylates",
     "object": "TFEB at Ser142",
     "context": {
@@ -487,7 +487,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Lysosome biogenesis Regulation and functions.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "5e3ab9f54c95",
@@ -589,7 +589,7 @@
   },
   {
     "id": "4161515dce8d",
-    "subject": "FOXO1",
+    "subject": "FoxO1",
     "predicate": "phosphorylated_by",
     "object": "Akt",
     "context": {
@@ -599,7 +599,7 @@
     "confidence": 0.75,
     "source_document": "_document_ - mTOR signaling at a glance.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "046a78a298af",
@@ -826,8 +826,8 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "77b88f1b2299",
-    "subject": "Insulin signaling",
+    "id": "ef9d0686bf08",
+    "subject": "Insulin Signaling",
     "predicate": "inhibits",
     "object": "Autophagy",
     "context": {
@@ -837,7 +837,7 @@
     "confidence": 0.95,
     "source_document": "Autophagy.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "9c5d2ab7d1c7",
@@ -924,10 +924,10 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "125b14bf9bee",
+    "id": "0dd5817611c6",
     "subject": "Lysosome",
     "predicate": "biogenesis_regulated_by",
-    "object": "CDK4/6",
+    "object": "CDK4 6",
     "context": {
       "en-US": "Lysosome biogenesis is regulated by CDK4/6 such that inhibition of these kinases leads to nuclear retention of TFEB and enhanced expression of lysosomal genes. During active proliferation, CDK4/6-mediated phosphorylation of TFEB restrains lysosomal expansion; when CDK4/6 is blocked, the degradative network is unleashed. This regulation connects cell-cycle control to organelle homeostasis and may contribute to the metabolic effects of CDK4/6 inhibitors used in cancer therapy. It reveals lysosomal biogenesis as a cell-cycle-responsive process.",
       "zh-TW": "溶酶體生物發生受 CDK4/6 調節：抑制這些激酶會導致 TFEB 的核保留以及溶酶體基因表現增強。在活躍增殖期間，CDK4/6 介導的 TFEB 磷酸化約束溶酶體擴張；當 CDK4/6 被阻斷時，降解網絡隨之釋放。此調節將細胞週期控制連結到胞器恆定性，並可能促成用於癌症治療的 CDK4/6 抑制劑的代謝效應。它揭示溶酶體生物發生是一種對細胞週期有反應的過程。"
@@ -935,7 +935,7 @@
     "confidence": 0.75,
     "source_document": "_document_ - Lysosome biogenesis Regulation and functions.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "31fd7830693e",
@@ -1120,10 +1120,10 @@
     "updated": "2026-08-20T06:07:10Z"
   },
   {
-    "id": "2e980f05be49",
+    "id": "49854402614d",
     "subject": "mTORC1",
     "predicate": "promotes",
-    "object": "Lipid synthesis",
+    "object": "Lipid Synthesis",
     "context": {
       "en-US": "mTORC1 promotes lipid and cholesterol synthesis by activating the sterol regulatory element-binding proteins (SREBP1) and peroxisome proliferator-activated receptor gamma (PPARγ), transcription factors that drive expression of lipogenic and adipogenic enzymes. This anabolic output supports membrane biogenesis and energy storage during growth. The lipid-synthetic program is coordinated with mTORC1's stimulation of protein and nucleotide synthesis to build cellular mass. Its dysregulation contributes to hepatic steatosis and metabolic syndrome.",
       "zh-TW": "mTORC1 透過活化固醇調節元件結合蛋白（SREBP1）和過氧化物酶體增殖物活化受體 gamma（PPARγ）——驅動脂肪生成和成脂酵素表現的轉錄因子——來促進脂質和膽固醇合成。此合成代謝輸出在生長期間支持膜生物發生和能量儲存。脂質合成程序與 mTORC1 對蛋白質和核苷酸合成的刺激協調，以建構細胞質量。其失調促成肝臟脂肪變性和代謝症候群。"
@@ -1131,7 +1131,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - mTOR signaling at a glance.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "bb97c44c35a1",
@@ -1162,10 +1162,10 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "c57393c6ce78",
+    "id": "eee39565e37b",
     "subject": "mTORC1",
     "predicate": "promotes",
-    "object": "Protein synthesis",
+    "object": "Protein Synthesis",
     "context": {
       "en-US": "mTORC1 promotes cap-dependent protein synthesis by phosphorylating the eukaryotic initiation factor 4E-binding protein 1 (4E-BP1), releasing eIF4E to initiate translation, and by phosphorylating S6 kinase 1 (S6K1), which enhances ribosome biogenesis and translational capacity. These outputs prioritize anabolic processes when nutrients and growth factors are plentiful. The stimulation of protein synthesis is a major consumer of cellular energy and amino acids, balanced against the catabolic program of autophagy. Dysregulated mTORC1-driven translation contributes to hypertrophy and malignancy.",
       "zh-TW": "mTORC1 透過磷酸化真核起始因子 4E 結合蛋白 1（4E-BP1）促進帽依賴性蛋白質合成，釋放 eIF4E 以起始轉譯，並透過磷酸化 S6 激酶 1（S6K1）增強核醣體生物發生和轉譯能力。這些輸出在營養和生長因子充裕時優先安排合成代謝過程。蛋白質合成的刺激是細胞能量和胺基酸的主要消耗者，需與自噬的分解代謝程序取得平衡。失調的 mTORC1 驅動轉譯促成肥大和惡性腫瘤。"
@@ -1173,7 +1173,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - mTOR signaling at a glance.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "9818df0db60f",
@@ -1344,10 +1344,10 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "ed0413e6fd4c",
+    "id": "871e73e8bd43",
     "subject": "MYC",
     "predicate": "represses",
-    "object": "Lysosome biogenesis",
+    "object": "Lysosome Biogenesis",
     "context": {
       "en-US": "MYC antagonizes TFEB and TFE3 transcriptional activities at lysosomal gene promoters, thereby repressing lysosome biogenesis in proliferating cells. Through direct competition for CLEAR elements and broader chromatin effects, MYC suppresses the degradative capacity that would otherwise constrain growth. This repression aligns cellular resources toward biosynthesis rather than turnover during oncogenic drive. The MYC-lysosome antagonism is a key axis by which cancer cells reshape their degradative landscape.",
       "zh-TW": "MYC 在溶酶體基因啟動子處拮抗 TFEB 和 TFE3 的轉錄活性，從而在增殖細胞中抑制溶酶體生物發生。透過對 CLEAR 元件的直接競爭以及更廣泛的染色質效應，MYC 抑制了本會限制生長的降解能力。此抑制將細胞資源在致癌驅動下導向生物合成而非更新。MYC-溶酶體拮抗作用是癌細胞重塑其降解景觀的關鍵軸。"
@@ -1355,7 +1355,7 @@
     "confidence": 0.95,
     "source_document": "MYC.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "94a14885c0d7",
@@ -1375,7 +1375,7 @@
     "id": "0db99960d619",
     "subject": "P300",
     "predicate": "acetylates",
-    "object": "ATG4B",
+    "object": "Atg4B",
     "context": {
       "en-US": "The acetyltransferase p300 acetylates ATG4B, an modification that inhibits its proteolytic activity required for LC3 lipidation and autophagosome formation, thereby restraining autophagy under normal conditions. This acetylation-dependent repression adds a transcriptional coactivator-derived control layer to core autophagy machinery beyond the well-studied phosphorylation circuits. Relief of p300-mediated acetylation during stress can de-repress ATG4B and facilitate autophagic flux. The finding situates autophagy regulation within the broader acetylome governed by p300/CBP.",
       "zh-TW": "乙醯轉移酶 p300 乙醯化 ATG4B，此修飾抑制其為 LC3 脂化和自噬體形成所需的蛋白水解活性，從而在正常條件下約束自噬。此依賴乙醯化的抑制在眾所周知的磷酸化電路之外，為核心自噬機械增添了源自轉錄共活化因子的控制層次。在壓力期間 p300 媒介乙醯化的解除可解除 ATG4B 的抑制並促進自噬流。此發現將自噬調節置於 p300/CBP 所統轄的更廣泛乙醯體中。"
@@ -1383,7 +1383,7 @@
     "confidence": 0.75,
     "source_document": "_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "5a3b6facdb09",
@@ -1781,7 +1781,7 @@
     "id": "698d18e28673",
     "subject": "SIRT2",
     "predicate": "deacetylates",
-    "object": "ATG4B",
+    "object": "Atg4B",
     "context": {
       "en-US": "SIRT2, a cytosolic NAD+-dependent deacetylase, deacetylates ATG4B in response to starvation, modulating the activity of this cysteine protease that processes and delipidates the autophagosome marker LC3/GABARAP. Deacetylation of ATG4B influences the dynamics of LC3 conjugation and autophagosome maturation, fine-tuning autophagic flux. Because SIRT2 activity rises when NAD+ is elevated during CR and exercise, this modification links energy status to autophagosome biogenesis. The SIRT2-ATG4B axis adds an acetylation layer to core autophagy machinery regulation.",
       "zh-TW": "SIRT2 是一種胞質 NAD+ 依賴的去乙醯酶，在回應飢餓時去乙醯化 ATG4B——該半胱氨酸蛋白酶負責處理並去脂化自噬體標記 LC3/GABARAP。ATG4B 的去乙醯化影響 LC3 共軛和自噬體成熟的動力學，精細調諧自噬流。由於 SIRT2 活性在熱量限制和運動期間 NAD+ 升高時上升，此修飾將能量狀態與自噬體生物發生連結起來。SIRT2-ATG4B 軸為核心自噬機械的調節增添了乙醯化層次。"
@@ -1789,7 +1789,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "7fd1b366d717",
@@ -1806,10 +1806,10 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "162ed4c781c4",
+    "id": "c3c3258464db",
     "subject": "Spermidine",
     "predicate": "reverses",
-    "object": "Arterial aging",
+    "object": "Arterial Aging",
     "context": {
       "en-US": "Spermidine reverses features of arterial aging, including large elastic artery stiffening, and restores nitric-oxide-mediated endothelial function in aged vessels. These vascular benefits are linked to spermidine-induced autophagy, which clears damaged mitochondria and reduces vascular oxidative stress and inflammation. By improving endothelial-dependent vasodilation, spermidine counteracts the stiffening that drives systolic hypertension and cardiovascular risk with age. The findings support spermidine as a candidate intervention for vascular rejuvenation.",
       "zh-TW": "精胺逆轉動脈老化的特徵，包括大彈性動脈僵硬化，並恢復老化血管中一氧化氮介導的內皮功能。這些血管益處與精胺誘發的自噬相關，後者清除受損粒線體並減少血管氧化壓力和發炎。透過改善內皮依賴性血管舒張，精胺抵消了隨年齡驅動收縮期高血壓和心血管風險的僵硬化。這些發現支持精胺作為血管回春的候選介入。"
@@ -1817,7 +1817,7 @@
     "confidence": 0.95,
     "source_document": "Arterial Aging.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "d7b5aadb954a",
@@ -1876,10 +1876,10 @@
     "updated": "2026-08-20T07:39:11Z"
   },
   {
-    "id": "13b9e30447fb",
+    "id": "12f3228ac7a8",
     "subject": "Spermidine",
     "predicate": "reduces",
-    "object": "Oxidative stress",
+    "object": "Oxidative Stress",
     "context": {
       "en-US": "Spermidine supplementation reduces oxidative stress in arterial and other tissues by enhancing autophagic and mitochondrial quality control, limiting the accumulation of reactive oxygen species-generating damaged organelles. The polyamine also exerts direct antioxidant effects and supports redox homeostasis through improved proteostasis. Reduced oxidative damage is a key mediator of spermidine's cardiovascular and cognitive protective effects. This antioxidant action is tightly coupled to its autophagy-inducing capacity.",
       "zh-TW": "精胺補充透過增強自噬和粒線體品質控制，減少動脈和其他組織中的氧化壓力，限制產生活性氧的受損胞器之累積。此多胺也發揮直接抗氧化效應，並透過改善的蛋白質穩態支持氧化還原恆定性。降低的氧化損傷是精胺心血管和認知保護效應的關鍵介導者。此抗氧化作用與其誘發自噬的能力緊密耦合。"
@@ -1887,7 +1887,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - The autophagy enhancer spermidine reverses arterial aging.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "77fbcd3ba85a",
@@ -1932,10 +1932,10 @@
     "updated": "2026-09-02T06:30:25Z"
   },
   {
-    "id": "457d3a0cf3bb",
+    "id": "b6357d89bc76",
     "subject": "TFE3",
     "predicate": "activated_in_response_to",
-    "object": "ER stress",
+    "object": "ER Stress",
     "context": {
       "en-US": "TFE3 is activated in response to endoplasmic reticulum (ER) stress through a pathway that is mTORC1-independent but requires the ER stress sensor PERK. Under unfolded protein accumulation, PERK signaling promotes TFE3 nuclear translocation, engaging lysosomal and autophagic genes to alleviate proteotoxic burden. This distinct trigger allows TFE3 to contribute to the integrated stress response without relying on nutrient sensing. The mechanism expands the repertoire of stressors that can recruit the MiT/TFE degradative program.",
       "zh-TW": "TFE3 在回應內質網（ER）壓力時透過一條不依賴 mTORC1、但需要 ER 壓力感測器 PERK 的途徑被活化。在未折疊蛋白累積時，PERK 信號促進 TFE3 核轉位，啟動溶酶體和自噬基因以減輕蛋白毒性負擔。此獨特觸發因子使 TFE3 能在不依賴營養感知的情況下，貢獻於整合性壓力反應。此機制擴展了能夠招募 MiT/TFE 降解程序的壓力因子 repertoire。"
@@ -1943,13 +1943,13 @@
     "confidence": 0.95,
     "source_document": "TFE3.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
-    "id": "9a4278c7b452",
+    "id": "db5a274607e7",
     "subject": "TFE3",
     "predicate": "is_master_regulator_of",
-    "object": "Lysosomal biogenesis",
+    "object": "Lysosomal Biogenesis",
     "context": {
       "en-US": "TFE3 is, together with TFEB, a master regulator of lysosomal biogenesis, binding CLEAR elements to induce expression of lysosomal and autophagic genes. Its activation occurs via mTORC1 inhibition, calcineurin signaling, and ER-stress-dependent PERK activation, providing partially distinct triggers from TFEB. TFE3 overexpression similarly expands lysosomal capacity and promotes autophagic flux. The overlapping master-regulator roles of TFE3 and TFEB ensure robustness in the control of cellular degradation.",
       "zh-TW": "TFE3 與 TFEB 一同是溶酶體生物發生的主調節者，結合 CLEAR 元件以誘發溶酶體和自噬基因的表現。其活化透過 mTORC1 抑制、calcineurin 信號和內質網壓力依賴的 PERK 活化發生，提供了與 TFEB 部分不同的觸發因子。TFE3 過度表現同樣擴展溶酶體能力並促進自噬流。TFE3 和 TFEB 重疊的主調節者角色確保了對細胞降解控制的穩健性。"
@@ -1957,13 +1957,13 @@
     "confidence": 0.95,
     "source_document": "TFE3.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
-    "id": "3ced116c14ed",
+    "id": "e6879b6a56f8",
     "subject": "TFE3",
     "predicate": "activates",
-    "object": "Lysosome biogenesis",
+    "object": "Lysosome Biogenesis",
     "context": {
       "en-US": "TFE3, the closely related MiT/TFE family member, also binds CLEAR elements and induces lysosomal biogenesis and autophagy in response to nutrient deprivation and stress. Like TFEB, TFE3 is repressed by mTORC1 through phosphorylation and released upon starvation, calcineurin activation, or ER stress. The overlapping but non-identical target sets of TFEB and TFE3 provide redundancy and specificity in the lysosomal program. TFE3's distinct regulation, including PERK-dependent activation, broadens the stress-responsive control of degradation.",
       "zh-TW": "TFE3 是關係密切的 MiT/TFE 家族成員，同樣結合 CLEAR 元件，並在營養匱乏和壓力下誘發溶酶體生物發生與自噬。如同 TFEB，TFE3 經由磷酸化受 mTORC1 抑制，並在飢餓、calcineurin 活化或內質網壓力時釋放。TFEB 與 TFE3 重疊但非完全相同的標的組，提供了溶酶體程序中的冗餘與特異性。TFE3 獨特的調節——包括 PERK 依賴的活化——拓寬了對降解的壓力反應性控制。"
@@ -1971,7 +1971,7 @@
     "confidence": 0.95,
     "source_document": "TFE3.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "2e6cc4548775",
@@ -2058,10 +2058,10 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "1b8f12c6a585",
+    "id": "ce5d55bff2ff",
     "subject": "TFEB",
     "predicate": "controls",
-    "object": "Glutamine metabolism",
+    "object": "Glutamine Metabolism",
     "context": {
       "en-US": "TFEB controls glutamine metabolism by promoting transcription of glutaminase and related genes that support glutamine utilization for biosynthesis and energy production. In pancreatic cancer, TFEB-driven glutaminase expression supplies the carbon and nitrogen needed to sustain tumor growth under nutrient stress. This metabolic dimension reveals TFEB as a regulator not only of degradation but also of anabolic substrate flux. The link positions TFEB within the metabolic rewiring that characterizes malignancy.",
       "zh-TW": "TFEB 透過促進 glutaminase 及相關基因的轉錄來控制麩醯胺酸代謝，這些基因支持麩醯胺酸用於生物合成和能量產生的利用。在胰腺癌中，TFEB 驅動的 glutaminase 表現提供了在營養壓力下維持腫瘤生長所需的碳和氮。此代謝層面揭示 TFEB 不僅是降解的調節者，也是合成代謝受質通量的調節者。此連結將 TFEB 置於惡性腫瘤特徵性的代謝重編程中。"
@@ -2069,7 +2069,7 @@
     "confidence": 0.75,
     "source_document": "Glutamine Metabolism.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "3fd631da1cfe",
@@ -2114,10 +2114,10 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "4f675c61dc8c",
+    "id": "b3aff2fb3c8c",
     "subject": "TFEB",
     "predicate": "regulates",
-    "object": "Lipid catabolism",
+    "object": "Lipid Catabolism",
     "context": {
       "en-US": "TFEB regulates lipid catabolism by upregulating genes involved in fatty acid import, beta-oxidation, lysosomal acid lipase (LAL)-mediated lipophagy, and the transcriptional coactivators PGC-1α and PPAR-α. Through these targets, TFEB coordinates the mobilization and oxidation of stored lipids during fasting and stress. This lipid-catabolic program complements TFEB's role in protein and organelle turnover, rendering it a comprehensive metabolic regulator. Enhanced TFEB activity improves lipid handling and protects against hepatic steatosis.",
       "zh-TW": "TFEB 透過上調參與脂肪酸輸入、β 氧化、溶酶體酸性脂肪酶（LAL）介導的脂噬，以及轉錄共活化因子 PGC-1α 和 PPAR-α 的基因，來調節脂質分解代謝。透過這些標的，TFEB 在禁食和壓力期間協調儲存脂質的動員和氧化。此脂質分解代謝程序補充了 TFEB 在蛋白質和胞器週轉中的角色，使它成為全面的代謝調節者。增強的 TFEB 活性改善脂質處理並保護對抗肝臟脂肪變性。"
@@ -2125,13 +2125,13 @@
     "confidence": 0.95,
     "source_document": "Lipid Catabolism.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
-    "id": "a383c84bba94",
+    "id": "06393dc49f8b",
     "subject": "TFEB",
     "predicate": "is_master_regulator_of",
-    "object": "Lysosomal biogenesis",
+    "object": "Lysosomal Biogenesis",
     "context": {
       "en-US": "TFEB is a master transcriptional regulator of lysosomal biogenesis, and its overexpression drives coordinated activation of numerous lysosomal genes encoding membrane proteins, hydrolases, and v-ATPase subunits. This global upregulation increases both the number and functional capacity of lysosomes, expanding degradative reserve. As the central node of the CLEAR network, TFEB integrates diverse stress signals into a unified lysosomal expansion program. Its master-regulator status makes it a prime target for therapies aimed at enhancing cellular clearance.",
       "zh-TW": "TFEB 是溶酶體生物發生的主轉錄調節者，其過度表現驅動編碼膜蛋白、水解酶和 v-ATPase 次單元的眾多溶酶體基因的協調活化。此全局上調增加了溶酶體的數量和功能能力，擴展了降解儲備。作為 CLEAR 網絡的中樞節點，TFEB 將多樣的壓力信號整合為統一的溶酶體擴張程序。其主調節者地位使它成為旨在增強細胞清除之療法的首要標靶。"
@@ -2139,13 +2139,13 @@
     "confidence": 0.95,
     "source_document": "_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
-    "id": "9c055a178821",
+    "id": "75916cc2966f",
     "subject": "TFEB",
     "predicate": "induces",
-    "object": "Lysosomal exocytosis",
+    "object": "Lysosomal Exocytosis",
     "context": {
       "en-US": "TFEB induces lysosomal exocytosis by increasing the number of lysosomes ready to dock and fuse with the plasma membrane and by eliciting intracellular calcium release through activation of its target gene TRPML1 (MCOLN1). This process promotes cellular clearance in several lysosomal storage disease cell models, including Sanfilippo syndrome, multiple sulfatase deficiency, and Batten disease. TFEB-mediated lysosomal exocytosis plays important roles in bone remodeling and copper homeostasis. Overexpression of TFEB or TFE3 is sufficient to induce lysosome fusion with the plasma membrane.",
       "zh-TW": "TFEB 透過增加準備停靠並與質膜融合的溶酶體數量，並經由活化其標的基因 TRPML1（MCOLN1）誘發細胞內鈣釋放，來誘導溶酶體胞吐。此過程在數種溶酶體儲存疾病細胞模型中促進細胞清除，包括 Sanfilippo 症候群、多重硫酸酯酶缺乏症和 Batten 病。TFEB 介導的溶酶體胞吐在骨重塑和銅恆定性中發揮重要作用。TFEB 或 TFE3 的過度表現足以誘導溶酶體與質膜融合。"
@@ -2153,13 +2153,13 @@
     "confidence": 0.95,
     "source_document": "_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS.md",
     "created": "2026-09-02T06:30:25Z",
-    "updated": "2026-09-02T06:30:25Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
-    "id": "066af1cef5c4",
+    "id": "e8637925f13d",
     "subject": "TFEB",
     "predicate": "activates",
-    "object": "Lysosome biogenesis",
+    "object": "Lysosome Biogenesis",
     "context": {
       "en-US": "TFEB activates lysosome biogenesis by binding CLEAR elements in the promoters of genes encoding lysosomal membrane proteins, hydrolases, and v-ATPase subunits, coordinately increasing lysosomal number and capacity. This transcriptional program ensures that autophagic demand is matched by degradative capacity, preventing futile autophagosome accumulation. TFEB activation therefore expands the entire lysosomal network rather than individual enzymes. The effect is a cornerstone of cellular adaptation to starvation and stress.",
       "zh-TW": "TFEB 透過結合編碼溶酶體膜蛋白、水解酶和 v-ATPase 次單元的基因啟動子中的 CLEAR 元件，活化溶酶體生物發生，協調性地增加溶酶體的數量與能力。此轉錄程序確保自噬需求由降解能力所匹配，防止徒勞的自噬體累積。因此 TFEB 活化擴展了整個溶酶體網絡而非個別酵素。此效應是細胞適應飢餓與壓力的基石。"
@@ -2167,7 +2167,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "44bd2a45ed2e",
@@ -2212,10 +2212,10 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "1ffcd1483ba6",
+    "id": "19109e101293",
     "subject": "TFEB",
     "predicate": "plays_protective_role_in",
-    "object": "Neurodegenerative diseases",
+    "object": "Neurodegenerative Diseases",
     "context": {
       "en-US": "TFEB activation is protective in neurodegenerative diseases because enhanced autophagy-lysosomal clearance reduces the accumulation of toxic protein aggregates such as amyloid-beta, tau, and alpha-synuclein. Genetic or pharmacological activation of TFEB in neuronal and glia models improves clearance and mitigates toxicity and behavioral deficits. The protective effect stems from TFEB's coordinated upregulation of both autophagosome biogenesis and lysosomal degradative capacity. Consequently, TFEB has emerged as a leading therapeutic target for Parkinson's, Alzheimer's, and related proteinopathies.",
       "zh-TW": "TFEB 活化在神經退化性疾病中具有保護作用，因為增強的自噬—溶酶體清除減少了 amyloid-beta、tau 和 alpha-synuclein 等毒性蛋白聚集物的累積。在神經元和膠質細胞模型中，TFEB 的基因或藥理活化改善了清除並減輕毒性和行為缺陷。保護效應源自 TFEB 對自噬體生物發生和溶酶體降解能力的協調上調。因此，TFEB 已成為帕金森氏症、阿茲海默症和相關蛋白病的主要治療標靶。"
@@ -2223,7 +2223,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "c601e4b4a351",
@@ -2254,10 +2254,10 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "a7c3c6260705",
+    "id": "46a83360a3e4",
     "subject": "TFEB",
     "predicate": "activated_in",
-    "object": "Pancreatic ductal adenocarcinoma",
+    "object": "Pancreatic Ductal Adenocarcinoma",
     "context": {
       "en-US": "In pancreatic ductal adenocarcinoma (PDA), TFEB remains constitutively nuclear-localized and active independent of nutrient status, supporting the tumor's high demand for lysosomal degradation and metabolic flexibility. This aberrant activation promotes expression of glutaminase and other catabolic genes that fuel PDA growth under the harsh tumor microenvironment. The nutrient-independent nuclear TFEB state distinguishes PDA from normal epithelial regulation and contributes to therapy resistance. Targeting TFEB or its effectors is being explored as a therapeutic strategy in this lethal cancer.",
       "zh-TW": "在胰腺導管腺癌（PDA）中，TFEB 持續性地核定位並維持活化，獨立於營養狀態，支持腫瘤對溶酶體降解和代謝靈活性的高需求。此異常活化促進了 glutaminase 和其他分解代謝基因的表現，在嚴苛的腫瘤微環境中供給 PDA 生長。此不依賴營養的核 TFEB 狀態將 PDA 與正常上皮調節區分開來，並促成治療抗性或耐藥。標靶 TFEB 或其效應物正被探索作為此致命癌症的治療策略。"
@@ -2265,7 +2265,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "26089aae2ca6",
@@ -3290,10 +3290,10 @@
     "updated": "2026-09-04T17:22:34Z"
   },
   {
-    "id": "078efc4f54c3",
+    "id": "7d474983f7f2",
     "subject": "S6K1",
     "predicate": "phosphorylates",
-    "object": "ribosomal protein S6",
+    "object": "Ribosomal Protein S6",
     "context": {
       "en-US": "S6K1 phosphorylation of ribosomal protein S6 defines its substrate. Phosphorylation is the translation-output step.",
       "zh-TW": "S6K1 磷酸化核糖體蛋白 S6 定義其受質。磷酸化是轉譯輸出步驟。"
@@ -3301,7 +3301,7 @@
     "confidence": 0.9,
     "source_document": "S6K1.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "528bd99df586",

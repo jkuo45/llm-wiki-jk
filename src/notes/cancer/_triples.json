@@ -941,7 +941,7 @@
     "id": "05e26836d98d",
     "subject": "Bik",
     "predicate": "activates",
-    "object": "Bak",
+    "object": "BAK",
     "context": {
       "en-US": "Bik activates Bak. Bik is a BH3-only protein that directly activates Bax/Bak and is itself suppressed by oncogenic kinase signaling. Bak is a pro-apoptotic Bcl-2 effector anchored at the mitochondrial outer membrane that cooperates with Bax to execute MOMP. The relationship is directional, with Bik acting as the operative agent upon Bak rather than the reverse. This directional link makes the interaction a meaningful node in tumor biology, with implications for understanding disease progression and for identifying therapeutic or biomarker opportunities.",
       "zh-TW": "Bik 激活 Bak。 Bik 是一種僅含有 BH3 的蛋白質，可直接活化 Bax/Bak，且本身受到致癌激酶訊號傳導的抑制。 Bak 是一種促凋亡 Bcl-2 效應子，錨定在粒線體外膜上，與 Bax 合作執行 MOMP。這種關係是有方向的，Bik 充當 Bak 的操作主體，而不是相反。這種定向聯繫使相互作用成為腫瘤生物學中有意義的節點，對於理解疾病進展和識別治療或生物標記機會具有重要意義。"
@@ -949,13 +949,13 @@
     "confidence": 0.95,
     "source_document": "Bik.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "f3792734fca2",
     "subject": "Bik",
     "predicate": "activates",
-    "object": "Bax",
+    "object": "BAX",
     "context": {
       "en-US": "Bik activates Bax. Bik is a BH3-only protein that directly activates Bax/Bak and is itself suppressed by oncogenic kinase signaling. Bax is a pro-apoptotic Bcl-2 effector that, upon activation, oligomerizes to form the pores that permeabilize the mitochondrial outer membrane. The relationship is directional, with Bik acting as the operative agent upon Bax rather than the reverse. This directional link makes the interaction a meaningful node in tumor biology, with implications for understanding disease progression and for identifying therapeutic or biomarker opportunities.",
       "zh-TW": "Bik 激活 Bax。 Bik 是一種僅含有 BH3 的蛋白質，可直接活化 Bax/Bak，且本身受到致癌激酶訊號傳導的抑制。 Bax 是一種促凋亡 Bcl-2 效應子，活化後會寡聚形成使粒線體外膜通透的孔。這種關係是有方向的，Bik 充當 Bax 的操作主體，而不是相反。這種定向聯繫使相互作用成為腫瘤生物學中有意義的節點，對於理解疾病進展和識別治療或生物標記機會具有重要意義。"
@@ -963,7 +963,7 @@
     "confidence": 0.95,
     "source_document": "Bik.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "a3958272e538",
@@ -1095,7 +1095,7 @@
     "id": "7a17b7e8ad60",
     "subject": "Bmf",
     "predicate": "activates",
-    "object": "Bak",
+    "object": "BAK",
     "context": {
       "en-US": "Bmf activates Bak. Bmf is a cytoskeleton-sequestered BH3-only protein that enforces anoikis and restrains dissemination of detached cells. Bak is a pro-apoptotic Bcl-2 effector anchored at the mitochondrial outer membrane that cooperates with Bax to execute MOMP. The relationship is directional, with Bmf acting as the operative agent upon Bak rather than the reverse. This directional link makes the interaction a meaningful node in tumor biology, with implications for understanding disease progression and for identifying therapeutic or biomarker opportunities.",
       "zh-TW": "Bmf 活化 Bak。 Bmf 是一種細胞骨架隔離的 BH3 蛋白，可增強失巢凋亡並抑制脫落細胞的傳播。 Bak 是一種促凋亡 Bcl-2 效應子，錨定在粒線體外膜上，與 Bax 合作執行 MOMP。這種關係是有方向的，Bmf 充當 Bak 的操作主體，而不是相反。這種定向聯繫使相互作用成為腫瘤生物學中有意義的節點，對於理解疾病進展和識別治療或生物標記機會具有重要意義。"
@@ -1103,13 +1103,13 @@
     "confidence": 0.95,
     "source_document": "Bmf.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "680cc3204974",
     "subject": "Bmf",
     "predicate": "activates",
-    "object": "Bax",
+    "object": "BAX",
     "context": {
       "en-US": "Bmf activates Bax. Bmf is a cytoskeleton-sequestered BH3-only protein that enforces anoikis and restrains dissemination of detached cells. Bax is a pro-apoptotic Bcl-2 effector that, upon activation, oligomerizes to form the pores that permeabilize the mitochondrial outer membrane. The relationship is directional, with Bmf acting as the operative agent upon Bax rather than the reverse. This directional link makes the interaction a meaningful node in tumor biology, with implications for understanding disease progression and for identifying therapeutic or biomarker opportunities.",
       "zh-TW": "Bmf 激活 Bax。 Bmf 是一種細胞骨架隔離的 BH3 蛋白，可增強失巢凋亡並抑制脫落細胞的傳播。 Bax 是一種促凋亡 Bcl-2 效應子，活化後會寡聚形成使粒線體外膜通透的孔。這種關係是有方向的，Bmf 充當 Bax 的操作主體，而不是相反。這種定向聯繫使相互作用成為腫瘤生物學中有意義的節點，對於理解疾病進展和識別治療或生物標記機會具有重要意義。"
@@ -1117,7 +1117,7 @@
     "confidence": 0.95,
     "source_document": "Bmf.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "65f9aa62de50",
@@ -1806,10 +1806,10 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "882069144b14",
+    "id": "1e9bad1d2dba",
     "subject": "Cell Cycle Arrest",
     "predicate": "is_induced_by",
-    "object": "p21",
+    "object": "p21 CIP1",
     "context": {
       "en-US": "Induction of the CDK inhibitor p21 enforces cell cycle arrest, often through a p53-dependent pathway. p21 blocks cyclin-CDK activity, halting progression at defined checkpoints. Induction of p21 is a core mechanism linking stress signaling to cell cycle arrest.",
       "zh-TW": "CDK 抑制劑 p21 的誘導會強制實施細胞週期停滯，通常透過 p53 依賴途徑。p21 會阻斷 cyclin–CDK 活性，使進程停滯在特定檢查點。p21 的誘導是將壓力訊號與細胞週期停滯連結的核心機制。"
@@ -1817,7 +1817,7 @@
     "confidence": 0.82,
     "source_document": "Cell Cycle Arrest.md",
     "created": "2026-09-02T06:33:55Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
     "id": "e134ded64c6c",
@@ -2016,10 +2016,10 @@
     "updated": "2026-09-02T06:33:55Z"
   },
   {
-    "id": "444854036f43",
+    "id": "7b858846b549",
     "subject": "Colon Cancer",
     "predicate": "is_driven_by",
-    "object": "Wnt Signaling",
+    "object": "Wnt signaling",
     "context": {
       "en-US": "Colon Cancer is driven by Wnt Signaling. Constitutive Wnt/β-catenin signaling—initiated by APC loss—is the initiating driver in the majority of sporadic colon cancers, leading to dysplastic aberrant crypt foci and progression along the adenoma-carcinoma sequence.",
       "zh-TW": "大腸癌（Colon Cancer）由 Wnt 訊息傳遞（Wnt Signaling）所驅動。由 APC 缺失所啟動的持續 Wnt/β-catenin 訊息傳遞是多數散發性大腸癌的起始驅動因子，導致發育不良的異常隱窩病灶，並沿腺瘤-癌序列進展。"
@@ -2027,7 +2027,7 @@
     "confidence": 0.92,
     "source_document": "Colon Cancer.md",
     "created": "2026-09-02T06:50:18Z",
-    "updated": "2026-09-02T06:50:18Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "fd0caa25b2b1",
@@ -2565,7 +2565,7 @@
     "id": "fd0a7c51f493",
     "subject": "Fenbendazole",
     "predicate": "inhibits",
-    "object": "Leukemia",
+    "object": "leukemia",
     "context": {
       "en-US": "Benzimidazole anthelmintics including fenbendazole show preclinical anticancer activity across leukemic models via microtubule disruption.",
       "zh-TW": "Benzimidazole 包括芬苯達唑在內的驅蟲藥物透過微管破壞在白血病模型中顯示出臨牀前抗癌活性。"
@@ -2573,7 +2573,7 @@
     "confidence": 0.7,
     "source_document": "Leukemia.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "fec2b8429387",
@@ -3531,7 +3531,7 @@
     "id": "071c7fa86d30",
     "subject": "Ivermectin",
     "predicate": "inhibits",
-    "object": "Leukemia",
+    "object": "leukemia",
     "context": {
       "en-US": "Ivermectin preferentially kills leukemia cells at low concentrations while sparing normal hematopoietic cells in preclinical screens (Tang et al., 2020; PMID 32971268).",
       "zh-TW": "Ivermectin 在臨牀前篩選中優先殺死低濃度的白血病細胞，同時保留正常造血細胞（Tang et al., 2020；PMID 32971268）。"
@@ -3539,7 +3539,7 @@
     "confidence": 0.8,
     "source_document": "Leukemia.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "be58d317162c",
@@ -3879,7 +3879,7 @@
   },
   {
     "id": "e276e9088c37",
-    "subject": "Leukemia",
+    "subject": "leukemia",
     "predicate": "is_a",
     "object": "Cancer",
     "context": {
@@ -3889,11 +3889,11 @@
     "confidence": 0.97,
     "source_document": "Leukemia.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "a0ea150c0ec4",
-    "subject": "Leukemia",
+    "subject": "leukemia",
     "predicate": "is_treated_by",
     "object": "Chemotherapy",
     "context": {
@@ -3903,11 +3903,11 @@
     "confidence": 0.9,
     "source_document": "Leukemia.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
-    "id": "e33131ed3902",
-    "subject": "Leukemia",
+    "id": "c2d3fa127ada",
+    "subject": "leukemia",
     "predicate": "originates_from",
     "object": "Hematopoietic stem cells",
     "context": {
@@ -3917,7 +3917,7 @@
     "confidence": 0.9,
     "source_document": "Leukemia.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "62819b5154d8",
@@ -4133,7 +4133,7 @@
     "id": "91ff46d296ac",
     "subject": "Mebendazole",
     "predicate": "inhibits",
-    "object": "Leukemia",
+    "object": "leukemia",
     "context": {
       "en-US": "Mebendazole exerts preclinical antileukemic effects through tubulin depolymerization and mitotic arrest.",
       "zh-TW": "Mebendazole 透過微管蛋白解聚和有絲分裂停滯發揮臨牀前抗白血病作用。"
@@ -4141,7 +4141,7 @@
     "confidence": 0.7,
     "source_document": "Leukemia.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "6c1edb2033eb",
@@ -4679,7 +4679,7 @@
     "id": "26efbff2db88",
     "subject": "MOMP",
     "predicate": "is_driven_by",
-    "object": "Bak",
+    "object": "BAK",
     "context": {
       "en-US": "MOMP is driven by Bak. Mitochondrial outer membrane permeabilization (MOMP) is the committed, largely irreversible step of intrinsic apoptosis that releases intermembrane-space proteins. Bak is a pro-apoptotic Bcl-2 effector anchored at the mitochondrial outer membrane that cooperates with Bax to execute MOMP. The directionality runs from Bak toward MOMP, so Bak is the active agent and MOMP the recipient of the effect. This directional link makes the interaction a meaningful node in tumor biology, with implications for understanding disease progression and for identifying therapeutic or biomarker opportunities.",
       "zh-TW": "MOMP 由Bak 驅動。粒線體外膜透化 (MOMP) 是釋放膜間空間蛋白的內在細胞凋亡中關鍵的、基本上不可逆的步驟。 Bak 是一種促凋亡 Bcl-2 效應子，錨定在粒線體外膜上，與 Bax 合作執行 MOMP。方向性從 Bak 向 MOMP，因此 Bak 是活性劑，MOMP 是效果的接受者。這種定向聯繫使相互作用成為腫瘤生物學中有意義的節點，對於理解疾病進展和識別治療或生物標記機會具有重要意義。"
@@ -4687,13 +4687,13 @@
     "confidence": 0.95,
     "source_document": "MOMP.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "10671bd9224b",
     "subject": "MOMP",
     "predicate": "is_driven_by",
-    "object": "Bax",
+    "object": "BAX",
     "context": {
       "en-US": "MOMP is driven by Bax. Mitochondrial outer membrane permeabilization (MOMP) is the committed, largely irreversible step of intrinsic apoptosis that releases intermembrane-space proteins. Bax is a pro-apoptotic Bcl-2 effector that, upon activation, oligomerizes to form the pores that permeabilize the mitochondrial outer membrane. The directionality runs from Bax toward MOMP, so Bax is the active agent and MOMP the recipient of the effect. This directional link makes the interaction a meaningful node in tumor biology, with implications for understanding disease progression and for identifying therapeutic or biomarker opportunities.",
       "zh-TW": "MOMP 由Bax 驅動。粒線體外膜透化 (MOMP) 是釋放膜間空間蛋白的內在細胞凋亡中關鍵的、基本上不可逆的步驟。 Bax 是一種促凋亡 Bcl-2 效應子，活化後會寡聚形成使粒線體外膜通透的孔。方向性從 Bax 朝向 MOMP，因此 Bax 是活性劑，MOMP 是效果的接受者。這種定向聯繫使相互作用成為腫瘤生物學中有意義的節點，對於理解疾病進展和識別治療或生物標記機會具有重要意義。"
@@ -4701,7 +4701,7 @@
     "confidence": 0.95,
     "source_document": "MOMP.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "d17da1a3a1e4",
@@ -4928,8 +4928,8 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "804b867c38f1",
-    "subject": "Omi/HtrA2",
+    "id": "9fb5bd7a0088",
+    "subject": "Omi-HtrA2",
     "predicate": "promotes",
     "object": "Apoptosis",
     "context": {
@@ -4939,11 +4939,11 @@
     "confidence": 0.95,
     "source_document": "Omi-HtrA2.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
-    "id": "17f461df3597",
-    "subject": "Omi/HtrA2",
+    "id": "2926f3d762e5",
+    "subject": "Omi-HtrA2",
     "predicate": "is_released_from",
     "object": "MOMP",
     "context": {
@@ -4953,11 +4953,11 @@
     "confidence": 0.95,
     "source_document": "MOMP.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
-    "id": "a7045a22b629",
-    "subject": "Omi/HtrA2",
+    "id": "4457f755bef5",
+    "subject": "Omi-HtrA2",
     "predicate": "antagonizes",
     "object": "XIAP",
     "context": {
@@ -4967,7 +4967,7 @@
     "confidence": 0.95,
     "source_document": "XIAP.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "c4a2438a422d",
@@ -5614,10 +5614,10 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "1ffc20848090",
+    "id": "fea5e28661c6",
     "subject": "Small-cell lung cancer",
     "predicate": "is_associated_with",
-    "object": "BCL-2",
+    "object": "Bcl-2",
     "context": {
       "en-US": "BCL-2 overexpression is a frequent molecular feature of small-cell lung cancer, contributing to evasion of apoptosis and chemoresistance. Along with PTEN loss and PI3K/AKT/mTOR dysregulation, BCL-2 overexpression shapes the SCLC phenotype. It represents a therapeutic target in SCLC.",
       "zh-TW": "BCL-2 過度表現是 Small-cell lung cancer 的常見分子特徵，促成逃避細胞凋亡與化療抗性。與 PTEN 缺失及 PI3K/AKT/mTOR 失調並列，BCL-2 過度表現塑造了 SCLC 的表型。它代表 SCLC 中的治療靶點。"
@@ -5625,7 +5625,7 @@
     "confidence": 0.8,
     "source_document": "Small-cell lung cancer.md",
     "created": "2026-09-02T06:33:55Z",
-    "updated": "2026-09-02T06:33:55Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "525dc21aea7b",
@@ -5922,10 +5922,10 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "ecfbdd12bb03",
+    "id": "44788aed033b",
     "subject": "Therapy-Induced Senescence",
     "predicate": "is_enforced_by",
-    "object": "p21",
+    "object": "p21 CIP1",
     "context": {
       "en-US": "Therapy-Induced Senescence is enforced by p21. Therapy-induced senescence is the durable arrest imposed on tumor cells by genotoxic treatments, with both tumor-suppressive and relapse-promoting consequences. p21 (CDKN1A) is a p53-inducible CDK inhibitor that enforces G1 arrest during senescence and DNA-damage responses. The directionality runs from p21 toward Therapy-Induced Senescence, so p21 is the active agent and Therapy-Induced Senescence the recipient of the effect. This directional link makes the interaction a meaningful node in tumor biology, with implications for understanding disease progression and for identifying therapeutic or biomarker opportunities.",
       "zh-TW": "Therapy-Induced Senescence 由p21 強制執行。 Therapy-Induced Senescence是基因毒性治療對腫瘤細胞的持久抑制，具有抑制腫瘤和促進復發的後果。 p21 (CDKN1A) 是一種 p53 誘導型 CDK 抑制劑，可在老化和 DNA 損傷反應期間強制 G1 期停滯。方向性從 p21 向 Therapy-Induced Senescence，因此 p21 是活性劑，Therapy-Induced Senescence 是效果的接受者。這種定向聯繫使相互作用成為腫瘤生物學中有意義的節點，對於理解疾病進展和識別治療或生物標記機會具有重要意義。"
@@ -5933,7 +5933,7 @@
     "confidence": 0.95,
     "source_document": "Therapy-Induced Senescence.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
     "id": "c240f341e234",
@@ -6737,7 +6737,7 @@
     "id": "3d9b3e140286",
     "subject": "Bim",
     "predicate": "activates",
-    "object": "Bax",
+    "object": "BAX",
     "context": {
       "en-US": "Bim is a direct activator of the effectors Bax and Bak; stress-released Bim triggers Bax oligomerization and MOMP.",
       "zh-TW": "Bim 是效應因子 Bax 與 Bak 的直接激活因子；壓力釋放的 Bim 觸發 Bax 寡聚化與 MOMP。"
@@ -6745,7 +6745,7 @@
     "confidence": 0.95,
     "source_document": "Bim.md",
     "created": "2026-09-04T17:33:00Z",
-    "updated": "2026-09-04T17:33:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "1f9fa209c007",
@@ -6804,10 +6804,10 @@
     "updated": "2026-09-04T17:33:00Z"
   },
   {
-    "id": "91c9db3884c9",
+    "id": "41879f032f2e",
     "subject": "Mcl-1",
     "predicate": "inhibits",
-    "object": "Bax",
+    "object": "BAX",
     "context": {
       "en-US": "Mcl-1 sequesters pro-apoptotic effectors including Bax, blocking their oligomerization and raising the MOMP threshold.",
       "zh-TW": "Mcl-1 隔離包括 Bax 在內的促凋亡效應因子，阻斷其寡聚化並提高 MOMP 閾值。"
@@ -6815,13 +6815,13 @@
     "confidence": 0.9,
     "source_document": "Mcl-1.md",
     "created": "2026-09-04T17:33:00Z",
-    "updated": "2026-09-04T17:33:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "6852f447d9b3",
     "subject": "Puma",
     "predicate": "activates",
-    "object": "Bax",
+    "object": "BAX",
     "context": {
       "en-US": "p53-induced Puma neutralizes anti-apoptotic Bcl-2 proteins and can directly engage Bax/Bak to trigger the intrinsic pathway.",
       "zh-TW": "p53 誘導的 Puma 中和抗凋亡 Bcl-2 蛋白，並可直接作用於 Bax/Bak 以觸發 Intrinsic Pathway。"
@@ -6829,7 +6829,7 @@
     "confidence": 0.8,
     "source_document": "Puma.md",
     "created": "2026-09-04T17:33:00Z",
-    "updated": "2026-09-04T17:33:00Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "64388b0521c3",
@@ -7210,8 +7210,8 @@
     "updated": "2026-09-04T17:50:46Z"
   },
   {
-    "id": "ec59a80d51a7",
-    "subject": "p21",
+    "id": "b1cc7aed8501",
+    "subject": "p21 CIP1",
     "predicate": "inhibits",
     "object": "CDK1",
     "context": {
@@ -7221,13 +7221,13 @@
     "confidence": 0.85,
     "source_document": "CDK1.md",
     "created": "2026-09-04T17:50:46Z",
-    "updated": "2026-09-04T17:50:46Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
-    "id": "e7432681eae7",
+    "id": "873a778b232d",
     "subject": "Cyclin D1",
     "predicate": "activates",
-    "object": "CDK4",
+    "object": "CDK4 6",
     "context": {
       "en-US": "Cyclin D1 is the catalytic partner of CDK4 driving Rb phosphorylation and G1 progression.",
       "zh-TW": "Cyclin D1 是 CDK4 的催化夥伴，驅動 Rb 磷酸化與 G1 進展。"
@@ -7235,7 +7235,7 @@
     "confidence": 0.88,
     "source_document": "Cyclin D1.md",
     "created": "2026-09-04T17:50:46Z",
-    "updated": "2026-09-04T17:50:46Z"
+    "updated": "2026-09-29T18:24:13Z"
   },
   {
     "id": "e8d1054ac95d",
@@ -7267,7 +7267,7 @@
   },
   {
     "id": "bacacd3afe60",
-    "subject": "Bax",
+    "subject": "BAX",
     "predicate": "is_phosphorylated_by",
     "object": "Akt",
     "context": {
@@ -7277,7 +7277,7 @@
     "confidence": 0.8,
     "source_document": "_document_ - Caspase.md",
     "created": "2026-09-04T17:50:46Z",
-    "updated": "2026-09-04T17:50:46Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "b536f6b93a29",
@@ -7504,10 +7504,10 @@
     "updated": "2026-09-04T17:50:46Z"
   },
   {
-    "id": "505371fce088",
+    "id": "2349b8f16ba9",
     "subject": "PKCζ",
     "predicate": "inhibits",
-    "object": "Bax",
+    "object": "BAX",
     "context": {
       "en-US": "PKCζ suppresses the pro-apoptotic effector Bax.",
       "zh-TW": "PKCζ 抑制促凋亡效應器 Bax。"
@@ -7515,7 +7515,7 @@
     "confidence": 0.75,
     "source_document": "PKCζ.md",
     "created": "2026-09-04T17:50:46Z",
-    "updated": "2026-09-04T17:50:46Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "fd095bc59557",
@@ -8149,7 +8149,7 @@
   },
   {
     "id": "2e4d5bd40439",
-    "subject": "BUBR1",
+    "subject": "BubR1",
     "predicate": "inhibits",
     "object": "CDC20",
     "context": {
@@ -8159,7 +8159,7 @@
     "confidence": 0.9,
     "source_document": "CDC20.md",
     "created": "2026-09-04T17:50:46Z",
-    "updated": "2026-09-04T17:50:46Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "d2cac0513580",
@@ -8316,10 +8316,10 @@
     "updated": "2026-09-04T17:50:46Z"
   },
   {
-    "id": "38d1348a0513",
+    "id": "068515e672b4",
     "subject": "Ubiquitination",
     "predicate": "is_a_type_of",
-    "object": "Post-translational modification",
+    "object": "Post-translational Modification",
     "context": {
       "en-US": "Ubiquitination is a definitional post-translational protein modification.",
       "zh-TW": "泛素化是定義性的轉譯後蛋白修飾。"
@@ -8327,13 +8327,13 @@
     "confidence": 0.95,
     "source_document": "Ubiquitination.md",
     "created": "2026-09-04T17:50:46Z",
-    "updated": "2026-09-04T17:50:46Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
-    "id": "2c554fca516e",
+    "id": "ef31b7d7b31e",
     "subject": "Phosphorylation",
     "predicate": "is_a_type_of",
-    "object": "Post-translational modification",
+    "object": "Post-translational Modification",
     "context": {
       "en-US": "Phosphorylation is a definitional post-translational protein modification.",
       "zh-TW": "磷酸化是定義性的轉譯後蛋白修飾。"
@@ -8341,7 +8341,7 @@
     "confidence": 0.95,
     "source_document": "Phosphorylation.md",
     "created": "2026-09-04T17:50:46Z",
-    "updated": "2026-09-04T17:50:46Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "135442aa65ec",
@@ -8459,7 +8459,7 @@
     "id": "4b41e3859de7",
     "subject": "p53",
     "predicate": "induces",
-    "object": "Bax",
+    "object": "BAX",
     "context": {
       "en-US": "Bax is a core p53 apoptotic target whose loss raises the MOMP threshold.",
       "zh-TW": "Bax 是核心 p53 凋亡標的，其缺失提高 MOMP 閾值。"
@@ -8467,7 +8467,7 @@
     "confidence": 0.78,
     "source_document": "_document_ - Evading apoptosis in cancer.md",
     "created": "2026-09-04T17:50:46Z",
-    "updated": "2026-09-04T17:50:46Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "0e2a20fac6ee",
@@ -8512,10 +8512,10 @@
     "updated": "2026-09-04T17:50:46Z"
   },
   {
-    "id": "e104d86da6ef",
+    "id": "8fde0dd76722",
     "subject": "A1-Bfl-1",
     "predicate": "binds",
-    "object": "Bax",
+    "object": "BAX",
     "context": {
       "en-US": "A1-Bfl-1 sequesters the effector Bax, blocking oligomerization.",
       "zh-TW": "A1-Bfl-1 隔離效應器 Bax，阻斷寡聚化。"
@@ -8523,13 +8523,13 @@
     "confidence": 0.85,
     "source_document": "A1-Bfl-1.md",
     "created": "2026-09-04T17:50:46Z",
-    "updated": "2026-09-04T17:50:46Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
-    "id": "b48dfcb84e80",
+    "id": "b25794b9e691",
     "subject": "A1-Bfl-1",
     "predicate": "binds",
-    "object": "Bak",
+    "object": "BAK",
     "context": {
       "en-US": "A1-Bfl-1 sequesters the effector Bak, blocking MOMP execution.",
       "zh-TW": "A1-Bfl-1 隔離效應器 Bak，阻斷 MOMP 執行。"
@@ -8537,7 +8537,7 @@
     "confidence": 0.85,
     "source_document": "A1-Bfl-1.md",
     "created": "2026-09-04T17:50:46Z",
-    "updated": "2026-09-04T17:50:46Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "407662533793",
@@ -8862,10 +8862,10 @@
     "updated": "2026-09-04T17:50:46Z"
   },
   {
-    "id": "c0a5219af3cd",
+    "id": "f5da60309237",
     "subject": "Wnt",
     "predicate": "stabilizes",
-    "object": "β-catenin",
+    "object": "β-Catenin",
     "context": {
       "en-US": "Wnt/Frizzled inhibits the destruction complex so beta-catenin accumulates; core canonical mechanism.",
       "zh-TW": "Wnt/Frizzled 抑制破壞複合體使 β-catenin 累積；核心典型機制。"
@@ -8873,7 +8873,7 @@
     "confidence": 0.9,
     "source_document": "Wnt.md",
     "created": "2026-09-04T17:50:46Z",
-    "updated": "2026-09-04T17:50:46Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "d965dca657ad",
@@ -9691,7 +9691,7 @@
     "id": "79d188bb53bd",
     "subject": "Exosomes",
     "predicate": "contains",
-    "object": "microRNA",
+    "object": "MicroRNA",
     "context": {
       "en-US": "Tumor exosomes traffic microRNA cargo between cells.",
       "zh-TW": "腫瘤外泌體在細胞間運送 microRNA 貨物。"
@@ -9699,7 +9699,7 @@
     "confidence": 0.85,
     "source_document": "Exosomes.md",
     "created": "2026-09-04T17:50:46Z",
-    "updated": "2026-09-04T17:50:46Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "ec2fc1c27b6b",
@@ -9982,10 +9982,10 @@
     "updated": "2026-09-04T17:50:46Z"
   },
   {
-    "id": "bb00b2bea287",
+    "id": "bd8538eb156c",
     "subject": "Oral squamous cell carcinoma",
     "predicate": "is_a_type_of",
-    "object": "Head and Neck Cancer",
+    "object": "Head and neck cancer",
     "context": {
       "en-US": "Oral SCC belongs to the anatomical head-and-neck cancer parent class.",
       "zh-TW": "口腔鱗癌屬於解剖學頭頸癌母類。"
@@ -9993,7 +9993,7 @@
     "confidence": 0.9,
     "source_document": "Oral squamous cell carcinoma.md",
     "created": "2026-09-04T17:50:46Z",
-    "updated": "2026-09-04T17:50:46Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "6008a3aa3c58",
