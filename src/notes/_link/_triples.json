@@ -71034,5 +71034,2861 @@
     "source_document": "Mitochondrial Function.md",
     "created": "2026-09-29T17:23:44Z",
     "updated": "2026-09-29T17:23:44Z"
+  },
+  {
+    "id": "27102dfdf1ed",
+    "subject": "Methionine Restriction",
+    "predicate": "is_partially_mediated_by",
+    "object": "FGF21",
+    "context": {
+      "en-US": "The metabolic response to Methionine restriction is partially dependent on FGF21, consistent with MR acting through the same endocrine axis as Protein Restriction; in humans, sulfur amino acid restriction increased FGF21, reduced leptin, and reduced body weight. MR also inhibits mTORC1 signaling, coupling amino acid scarcity to reduced anabolic signaling, and most MR studies require cysteine depletion for the benefits to appear.",
+      "zh-TW": "Methionine restriction 的代謝反應部分仰賴 FGF21，這與 MR 經由和 Protein Restriction 相同的內分泌軸作用一致；在人類中，限制含硫胺基酸會提高 FGF21、降低瘦素並減少體重。MR 也會抑制 mTORC1 訊號，將胺基酸匱乏與合成訊號降低連結起來，且多數 MR 研究都需搭配半胱胺酸耗竭才能觀察到效益。"
+    },
+    "confidence": 0.95,
+    "source_document": "Methionine Restriction.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "fc3ac044214b",
+    "subject": "Methionine Restriction",
+    "predicate": "reduces",
+    "object": "Methyl Donor",
+    "context": {
+      "en-US": "Methionine is the precursor of S-adenosylmethionine (SAM), the universal methyl donor, so Methionine restriction reduces methyl-donor availability and alters Histone Methylation and DNA methylation landscapes. Cells partially preserve heterochromatic stability during methionine depletion by upregulating H3K9 mono-methylation in the liver, so the epigenome is a key target of MR alongside FGF21 and mTORC1.",
+      "zh-TW": "Methionine 是 S-adenosylmethionine（SAM，通用甲基供體）的前驅物，因此 Methionine restriction 會降低甲基供體的可用性，並改變 Histone Methylation 與 DNA 甲基化的景觀。在甲硫胺酸耗竭期間，細胞會藉由上調肝臟中的 H3K9 單甲基化來部分維持異染色質穩定，因此表觀基因組與 FGF21、mTORC1 並列為 MR 的重要作用標的。"
+    },
+    "confidence": 0.9,
+    "source_document": "Methionine Restriction.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "e68a491ae1a9",
+    "subject": "Methionine Restriction",
+    "predicate": "recapitulates",
+    "object": "Protein Restriction",
+    "context": {
+      "en-US": "Among individual essential amino acids, Methionine is one of the most effective at recapitulating the benefits of Protein restriction, alongside isoleucine and valine. Because cysteine can be synthesized from methionine via transsulfuration, most methionine restriction studies also require cysteine depletion, which places MR and PR on a shared endocrine and methyl-donor axis.",
+      "zh-TW": "在個別必需胺基酸之中，Methionine 是最能重現 Protein Restriction 效益者之一，與 isoleucine、valine 並列。由於半胱胺酸可經由轉硫作用由甲硫胺酸合成，因此多數甲硫胺酸限制研究也需搭配半胱胺酸耗竭，使 MR 與 PR 落在共享的內分泌與甲基供體軸線上。"
+    },
+    "confidence": 0.9,
+    "source_document": "Methionine Restriction.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "f70875191eff",
+    "subject": "Methionine",
+    "predicate": "is_a_precursor_of",
+    "object": "S-adenosylmethionine",
+    "context": {
+      "en-US": "Methionine is one of the nine essential amino acids and the only sulfur-containing essential amino acid in mammals. It is adenylated to form S-adenosylmethionine (SAM), the universal Methyl Donor used by DNA and histone methyltransferases, which places methionine at the interface of diet, one-carbon metabolism, and the Epigenome. Dietary methionine deprivation therefore reduces methyl-donor availability and shifts DNA and Histone Methylation programs.",
+      "zh-TW": "Methionine 是九種必需胺基酸之一，也是哺乳動物中唯一含硫的必需胺基酸。它經腺苷酸化形成 S-adenosylmethionine（SAM），即供 DNA 與組蛋白甲基轉移酶使用的通用 Methyl Donor，使甲硫胺酸位於飲食、單碳代謝與 Epigenome 的交界處。因此飲食中甲硫胺酸缺乏會降低甲基供體可用性，並改變 DNA 與 Histone Methylation 程序。"
+    },
+    "confidence": 0.95,
+    "source_document": "Methionine.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "d2a187d42111",
+    "subject": "Methionine",
+    "predicate": "is_restricted_in",
+    "object": "Methionine Restriction",
+    "context": {
+      "en-US": "Dietary Methionine restriction extends the lifespan of many species and recapitulates many benefits of Protein Restriction. The response is partially dependent on FGF21 and also inhibits mTORC1; most methionine restriction studies additionally require Cysteine depletion, since cysteine can be synthesized from methionine via transsulfuration. Methionine is therefore one of the primary drivers of protein restriction benefits alongside the branched-chain amino acids.",
+      "zh-TW": "飲食性的 Methionine restriction 可延長多種動物的壽命，並重現 Protein Restriction 的多項效益。此反應部分依賴 FGF21，也會抑制 mTORC1；多數甲硫胺酸限制研究另需搭配 Cysteine 耗竭，因為半胱胺酸可經轉硫作用由甲硫胺酸合成。因此 Methionine 是蛋白質限制效益的主要驅動者之一，與支鏈胺基酸並列。"
+    },
+    "confidence": 0.95,
+    "source_document": "Methionine.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "5d4b240bfea2",
+    "subject": "Methyl Donor",
+    "predicate": "is_needed_for",
+    "object": "DNA Methylation",
+    "context": {
+      "en-US": "Methyl donors are compounds that supply a labile methyl group (−CH₃) for methylation reactions in one-carbon metabolism. The principal methyl donor is SAMe (S-adenosylmethionine), which transfers its methyl group to DNA, RNA, histones, proteins, phospholipids, and neurotransmitters; DNA Methylation is thus directly dependent on this donor pool, making methylation a core epigenetic mechanism and underpins the folate/choline/betaine/methionine/B12 dietary axis.",
+      "zh-TW": "甲基供體是為單碳代謝中的甲基化反應提供不穩定甲基（−CH₃）的化合物。主要的甲基供體為 SAMe（S-adenosylmethionine），它將甲基轉移給 DNA、RNA、組蛋白、蛋白質、磷脂質與神經傳遞物質；因此 DNA Methylation 直接依賴此供體庫，使甲基化成為核心表觀遺傳機制，也構成 folate／choline／betaine／methionine／B12 的飲食軸線。"
+    },
+    "confidence": 0.95,
+    "source_document": "Methyl Donor.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "d94ee766da90",
+    "subject": "Methylfolate",
+    "predicate": "regenerates",
+    "object": "Methionine",
+    "context": {
+      "en-US": "Methylfolate (5-methyltetrahydrofolate) and Betaine (trimethylglycine) act as alternative methyl donors that regenerate methionine from Homocysteine via the Methylation Cycle, using folate and choline as dietary precursors and Vitamin B12 as a cofactor. This remethylation arm is the route by which dietary methyl-donor status replenishes the methionine pool.",
+      "zh-TW": "Methylfolate（5-甲基四氫葉酸）與 Betaine（甜菜鹼）作為替代性甲基供體，經由 Methylation Cycle 將 Homocysteine 再甲基化以再生 methionine，其中 folate 與 choline 為飲食前驅物，Vitamin B12 則作為輔因子。這條再甲基化支路正是飲食甲基供體狀態 replenish 甲硫胺酸池的途徑。"
+    },
+    "confidence": 0.9,
+    "source_document": "Methyl Donor.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "a6291927046f",
+    "subject": "Methionine Synthase",
+    "predicate": "supports",
+    "object": "Methylation Cycle",
+    "context": {
+      "en-US": "Methionine Synthase catalyzes the methylation of homocysteine to methionine, coupling the folate-dependent one-carbon pool to methionine recycling and thereby to the availability of S-adenosylmethionine as the universal methyl donor. Dysregulation of its activity is implicated in metabolic disorders, oxidative stress-related pathologies, and cancer, and pharmacological modulation of this enzyme is a therapeutic strategy for diseases involving its pathway.",
+      "zh-TW": "Methionine Synthase 催化同型半胱胺酸再甲基化為 methionine，將依賴 folate 的單碳池與甲硫胺酸回收相連結，進而連結到 S-adenosylmethionine 作為通用甲基供體的可用性。其活性失調與代謝疾病、氧化壓力相關病理及癌症有關，而對此酵素進行藥理調節是涉及其途徑之疾病的治療策略。"
+    },
+    "confidence": 0.85,
+    "source_document": "Methionine Synthase.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "8aee184d60d2",
+    "subject": "MFN1",
+    "predicate": "drives",
+    "object": "Mitochondrial Fusion",
+    "context": {
+      "en-US": "MFN1 is a dynamin-related GTPase of the outer mitochondrial membrane whose oligomerization and GTP hydrolysis tether two outer membranes and merge them, making it an essential driver of outer-membrane fusion in Mitochondrial Fusion.",
+      "zh-TW": "MFN1 是外粒線體膜上的動素相關 GTP 酶，其寡聚化與 GTP 水解會將兩層外膜繫結並融合，因此是 Mitochondrial Fusion 中外膜融合不可或缺的驅動因子。"
+    },
+    "confidence": 0.95,
+    "source_document": "Mitochondrial Fusion.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "db791313b260",
+    "subject": "MFN2",
+    "predicate": "drives",
+    "object": "Mitochondrial Fusion",
+    "context": {
+      "en-US": "MFN2 is the second outer-membrane fusion GTPase; it drives outer membrane fusion together with MFN1, also tethers mitochondria to the endoplasmic reticulum, and heterozygous MFN2 mutations cause Charcot-Marie-Tooth disease type 2A.",
+      "zh-TW": "MFN2 是外膜融合的第二個 GTP 酶，與 MFN1 共同驅動外膜融合；它同時將粒線體繫結於內質網，且 MFN2 的異型合子突變會造成 Charcot-Marie-Tooth Disease Type 2A。"
+    },
+    "confidence": 0.95,
+    "source_document": "Mitochondrial Fusion.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "1ce90f57d727",
+    "subject": "SIRT3",
+    "predicate": "deacetylates",
+    "object": "OPA1",
+    "context": {
+      "en-US": "The mitochondrial sirtuin SIRT3 deacetylates OPA1 at Lys926 and Lys931, which elevates OPA1 GTPase activity and thereby enhances inner-membrane fusion in Mitochondrial Fusion.",
+      "zh-TW": "粒線體 sirtuin SIRT3 會在 Lys926 與 Lys931 位置上對 OPA1 去乙醯化，提升其 GTP 酶活性，進而增強 Mitochondrial Fusion 的內膜融合。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial Fusion.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "ad66d773245d",
+    "subject": "YME1L",
+    "predicate": "cleaves",
+    "object": "OPA1",
+    "context": {
+      "en-US": "YME1L is a inner-membrane protease that proteolytically processes OPA1 at the S2/S3 sites, generating the short S-OPA1 isoform and thereby controlling the L/S-OPA1 balance that sets the fusion competence of the inner membrane.",
+      "zh-TW": "YME1L 是粒線體內膜蛋白酶，在 S2/S3 位點切割 OPA1，產生短型 S-OPA1，藉此調控 L-OPA1 與 S-OPA1 的比例，決定內膜的融合能力。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial Fusion.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "eb17ef38063d",
+    "subject": "PINK1",
+    "predicate": "phosphorylates",
+    "object": "MFN2",
+    "context": {
+      "en-US": "Under stress, PINK1 phosphorylates MFN2, which leads to its ubiquitination by Parkin and subsequent mitophagy — linking loss of fusion capacity to selective removal of the damaged organelle.",
+      "zh-TW": "在壓力下 PINK1 會磷酸化 MFN2，導致 MFN2 被 Parkin 泛素化並隨後被 mitophagy 清除，將融合能力的喪失與受損胞器的選擇性清除連結起來。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial Fusion.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "9904894b5f7d",
+    "subject": "Mitochondrial Fusion",
+    "predicate": "maintains",
+    "object": "Mitochondrial Integrity",
+    "context": {
+      "en-US": "Fusion complements damaged mitochondrial components by mixing mtDNA, proteins, and metabolites between organelles and equalizes membrane potential across the network, thereby maintaining Mitochondrial Integrity alongside fission-mediated quality control.",
+      "zh-TW": "融合藉由在胞器間混合 mtDNA、蛋白質與代謝物來補償受損的粒線體成分，並使網絡內的膜電位趨於一致，因而與分裂介導的品質管制共同維持 Mitochondrial Integrity。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial Fusion.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "f709f095002e",
+    "subject": "Mitochondrial Fusion",
+    "predicate": "promotes",
+    "object": "Mitochondrial Integrity",
+    "context": {
+      "en-US": "Fusion promotes Mitochondrial Integrity by permitting content complementation, so a defective genome or protein can be diluted with wild-type material and the organelle's function rescued without degradation.",
+      "zh-TW": "融合透過內容物互補來促進 Mitochondrial Integrity：缺陷的基因組或蛋白可與野生型物質混合而被稀釋，胞器功能得以挽救而無須被降解。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial Integrity.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "79f23d38ebf0",
+    "subject": "Mitochondrial Fission",
+    "predicate": "promotes",
+    "object": "Mitochondrial Integrity",
+    "context": {
+      "en-US": "Fission promotes Mitochondrial Integrity by isolating damaged segments of the network so they can be selectively removed by mitophagy, complementing the complementation role of fusion.",
+      "zh-TW": "分裂藉由隔離網絡中受損的區段，使其可被 mitophagy 選擇性清除，進而促進 Mitochondrial Integrity，與融合的互補作用相輔相成。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial Integrity.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "c91207331204",
+    "subject": "Mitophagy",
+    "predicate": "contributes_to",
+    "object": "Mitochondrial Integrity",
+    "context": {
+      "en-US": "Mitophagy is the selective autophagic clearance of damaged mitochondria and is one of the two arms, with fission, that uphold Mitochondrial Integrity, the other being fusion-mediated complementation.",
+      "zh-TW": "Mitophagy 是受損粒線體的選擇性自噬清除，與分裂並列為維持 Mitochondrial Integrity 的兩大支柱之一，另一個則是融合介導的互補作用。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial Integrity.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "62dd92253081",
+    "subject": "Mitochondrial Intermembrane Space",
+    "predicate": "is_a_component_of",
+    "object": "Mitochondria",
+    "context": {
+      "en-US": "The Mitochondrial Intermembrane Space is the narrow compartment enclosed between the outer and inner mitochondrial membranes, containing a distinct proteome that includes cytochrome c and the IMS-facing domains of the fusion GTPases.",
+      "zh-TW": "Mitochondrial Intermembrane Space 是外膜與內膜之間狹窄的區室，含有獨特的蛋白質組，包括 cytochrome c 以及融合 GTP 酶朝向 IMS 的結構域。"
+    },
+    "confidence": 0.95,
+    "source_document": "Mitochondrial Intermembrane Space.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "90d4959a23b2",
+    "subject": "MFN1",
+    "predicate": "localized_to",
+    "object": "Mitochondrial Intermembrane Space",
+    "context": {
+      "en-US": "In the current topology model, MFN1's C-terminal HR2 heptad-repeat domain faces the Mitochondrial Intermembrane Space, where it engages in trans interactions with the HR2 domain of a neighbouring mitofusin to tether the two outer membranes.",
+      "zh-TW": "在目前的拓撲模型中，MFN1 的 C 端 HR2 七重重複結構域朝向 Mitochondrial Intermembrane Space，並在此與相鄰 mitofusin 的 HR2 域進行反式交互作用，將兩層外膜繫結。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial Intermembrane Space.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "5ffda278b317",
+    "subject": "MFN2",
+    "predicate": "localized_to",
+    "object": "Mitochondrial Intermembrane Space",
+    "context": {
+      "en-US": "MFN2's HR2 domain extends into the Mitochondrial Intermembrane Space, where oxidation of two cysteine residues by oxidized glutathione forms disulfide bonds that drive mitofusin oligomerization and outer-membrane fusion.",
+      "zh-TW": "MFN2 的 HR2 域伸入 Mitochondrial Intermembrane Space，其中兩個半胱胺酸殘基被氧化態的 glutathione 氧化形成雙硫鍵，驅動 mitofusin 寡聚化與外膜融合。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial Intermembrane Space.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "07a374879f88",
+    "subject": "OPA1",
+    "predicate": "localized_to",
+    "object": "Mitochondrial Intermembrane Space",
+    "context": {
+      "en-US": "The bulk of short-form OPA1 (S-OPA1) faces the Mitochondrial Intermembrane Space, positioning the membrane-remodelling GTPase on the matrix side of the inner membrane so it can drive inner-membrane merger.",
+      "zh-TW": "大部分短型 OPA1（S-OPA1）朝向 Mitochondrial Intermembrane Space，使負責重塑膜的 GTP 酶位於內膜的基質側，得以驅動內膜融合。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial Intermembrane Space.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "1f93f021d391",
+    "subject": "Citric Acid Cycle",
+    "predicate": "occurs_in",
+    "object": "Mitochondrial Matrix",
+    "context": {
+      "en-US": "The Mitochondrial Matrix is the site of the Citric Acid Cycle, where acetyl-CoA is oxidized to generate the NADH and FADH2 that feed the mitochondrial electron transport chain.",
+      "zh-TW": "Mitochondrial Matrix 是 Citric Acid Cycle 進行的場所，acetyl-CoA 在此被氧化，產生供應粒線體電子傳遞鏈的 NADH 與 FADH2。"
+    },
+    "confidence": 0.95,
+    "source_document": "Mitochondrial Matrix.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "9e00540bff2c",
+    "subject": "Mitochondrial DNA",
+    "predicate": "localized_to",
+    "object": "Mitochondrial Matrix",
+    "context": {
+      "en-US": "Mitochondrial DNA resides in the Mitochondrial Matrix together with the organelle's own translation machinery, making the matrix the compartment housing both the mitochondrial genome and the ribosomes that read it.",
+      "zh-TW": "Mitochondrial DNA 與胞器自身的轉譯機制一同位於 Mitochondrial Matrix，使基質成為同時容納粒線體基因組與解讀其序列的核糖體的區室。"
+    },
+    "confidence": 0.95,
+    "source_document": "Mitochondrial Matrix.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "d81fad73e17d",
+    "subject": "OPA1",
+    "predicate": "is_imported_into",
+    "object": "Mitochondrial Matrix",
+    "context": {
+      "en-US": "OPA1 is synthesized in the cytosol and imported into the Mitochondrial Matrix, where its N-terminal mitochondrial targeting sequence is removed by the matrix processing protease, yielding the mature isoforms that later regulate fusion.",
+      "zh-TW": "OPA1 在細胞質合成後被輸入 Mitochondrial Matrix，其 N 端 targeting sequence 在此由基質處理蛋白酶切除，產生之後調控融合的成熟異構型。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial Matrix.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "d73375aebfbc",
+    "subject": "Mitochondrial Matrix",
+    "predicate": "contributes_to",
+    "object": "Mitochondrial Integrity",
+    "context": {
+      "en-US": "Matrix composition and volume are tightly regulated; perturbing matrix metabolism and proteostasis destabilizes cristae architecture and contributes to aging and disease, so the matrix is a determinant of Mitochondrial Integrity.",
+      "zh-TW": "基質的組成與體積受到嚴密調控；擾動基質代謝與蛋白質恆定會破壞嵴狀結構並促成老化與疾病，因此基質是決定 Mitochondrial Integrity 的因素。"
+    },
+    "confidence": 0.85,
+    "source_document": "Mitochondrial Matrix.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "2d49f3f4ddab",
+    "subject": "Mitochondrial Electron Transport Chain",
+    "predicate": "generates",
+    "object": "Mitochondrial Membrane Potential",
+    "context": {
+      "en-US": "The Mitochondrial Electron Transport Chain pumps protons across the inner membrane, building the electrochemical gradient ΔΨm that defines the Mitochondrial Membrane Potential and drives ATP synthesis; its collapse is an early event in oxidative neuronal injury.",
+      "zh-TW": "Mitochondrial Electron Transport Chain 將質子泵送過內膜，建立定義 Mitochondrial Membrane Potential 的電化學梯度 ΔΨm 並驅動 ATP 合成；其崩解是氧化性神經損傷的早期事件。"
+    },
+    "confidence": 0.95,
+    "source_document": "Mitochondrial Membrane Potential.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "c8f96f47ab10",
+    "subject": "Methylene blue",
+    "predicate": "maintains",
+    "object": "Mitochondrial Membrane Potential",
+    "context": {
+      "en-US": "Methylene blue attenuates glutamate-induced depolarization of the Mitochondrial Membrane Potential in HT-22 cells, preserving the JC-1 polymer signal; preservation of ΔΨm correlates strongly with neuroprotection (Pearson r = 0.9456).",
+      "zh-TW": "Methylene blue 可在 HT-22 細胞中抑制 glutamate 引起的 Mitochondrial Membrane Potential 去極化，維持 JC-1 的聚合體訊號；ΔΨm 的維持與神經保護高度相關（Pearson r = 0.9456）。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial Membrane Potential.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "9d0d8281d822",
+    "subject": "Toluidine Blue O",
+    "predicate": "maintains",
+    "object": "Mitochondrial Membrane Potential",
+    "context": {
+      "en-US": "Toluidine Blue O is the most potent of the methylene blue derivatives tested at maintaining the Mitochondrial Membrane Potential under glutamate challenge (EC50 1.54 nM), ahead of methylene blue (17.72 nM) and phenothiazine (21.18 nM).",
+      "zh-TW": "在受 glutamate 挑戰下，Toluidine Blue O 是測試的 methylene blue 衍生物中維持 Mitochondrial Membrane Potential 效力最強者（EC50 1.54 nM），優於 methylene blue（17.72 nM）與 phenothiazine（21.18 nM）。"
+    },
+    "confidence": 0.85,
+    "source_document": "Mitochondrial Membrane Potential.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "d2ba60ae567d",
+    "subject": "Mitochondrial Processing Peptidase",
+    "predicate": "cleaves",
+    "object": "Mitochondrial Targeting Sequence",
+    "context": {
+      "en-US": "Mitochondrial Processing Peptidase is the matrix-localized metalloprotease that removes N-terminal Mitochondrial Targeting Sequences from newly imported nuclear-encoded proteins shortly after they traverse the inner membrane, enabling proper folding and function.",
+      "zh-TW": "Mitochondrial Processing Peptidase 是位於基質的金屬蛋白酶，在新輸入的核基因編碼蛋白穿過內膜後不久，即切除其 N 端 Mitochondrial Targeting Sequence，使其得以正確摺疊並發揮功能。"
+    },
+    "confidence": 0.95,
+    "source_document": "Mitochondrial Processing Peptidase.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "a2d63e5f4526",
+    "subject": "Mitochondrial Processing Peptidase",
+    "predicate": "cleaves",
+    "object": "PINK1",
+    "context": {
+      "en-US": "Mitochondrial Processing Peptidase cleaves the PINK1 mitochondrial targeting sequence (residues 1–34) on import; together with PARL this ensures PINK1 is fully imported and degraded under healthy conditions, preventing spurious mitophagy activation.",
+      "zh-TW": "Mitochondrial Processing Peptidase 在 PINK1 輸入時切除其粒線體 targeting sequence（殘基 1–34）；與 PARL 共同確保健康狀態下 PINK1 被完整輸入並降解，避免 mitophagy 被不當活化。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial Processing Peptidase.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "c300bc75c5e4",
+    "subject": "Mitochondrial Processing Peptidase",
+    "predicate": "localized_to",
+    "object": "Mitochondrial Matrix",
+    "context": {
+      "en-US": "Mitochondrial Processing Peptidase resides and acts within the Mitochondrial Matrix, the compartment into which substrates are delivered by the translocase before their targeting sequences are removed.",
+      "zh-TW": "Mitochondrial Processing Peptidase 存在並作用於 Mitochondrial Matrix；受質先由轉位酶送入此區室，之後其 targeting sequence 才被切除。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial Processing Peptidase.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "bc433255de34",
+    "subject": "PARL",
+    "predicate": "cleaves",
+    "object": "PINK1",
+    "context": {
+      "en-US": "PARL cleaves PINK1 after import, working with Mitochondrial Processing Peptidase to gate the PINK1 import-and-degrade pathway; when membrane potential is lost, import fails and PINK1 accumulates on the outer membrane to recruit Parkin.",
+      "zh-TW": "PARL 在 PINK1 輸入後將其切割，與 Mitochondrial Processing Peptidase 共同把關 PINK1 的輸入與降解途徑；當膜電位喪失時輸入受阻，PINK1 便累積於外膜並招募 Parkin。"
+    },
+    "confidence": 0.85,
+    "source_document": "Mitochondrial Processing Peptidase.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "c7e45357436e",
+    "subject": "Mitophagy",
+    "predicate": "is_a_component_of",
+    "object": "Mitochondrial Quality Control",
+    "context": {
+      "en-US": "Mitophagy, the autophagic degradation of damaged mitochondria, is a core arm of Mitochondrial Quality Control; it is driven by the PINK1/Parkin/p62 axis and is reduced in senescent cells.",
+      "zh-TW": "Mitophagy（受損粒線體的自噬降解）是 Mitochondrial Quality Control 的核心環節，由 PINK1/Parkin/p62 軸驅動，並在衰老細胞中減少。"
+    },
+    "confidence": 0.95,
+    "source_document": "Mitochondrial Quality Control.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "fcc1f274a3bf",
+    "subject": "Mitochondrial Dynamics",
+    "predicate": "is_a_component_of",
+    "object": "Mitochondrial Quality Control",
+    "context": {
+      "en-US": "Mitochondrial Dynamics (fission and fusion) is a component of Mitochondrial Quality Control because the balance of the two determines mitochondrial morphology and turnover; senescent cells downregulate the fission machinery DRP1/FIS1.",
+      "zh-TW": "Mitochondrial Dynamics（分裂與融合）是 Mitochondrial Quality Control 的組成部分，因為兩者的平衡決定粒線體的形態與汰換；衰老細胞會下調分裂機制 DRP1/FIS1。"
+    },
+    "confidence": 0.95,
+    "source_document": "Mitochondrial Quality Control.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "4729152ce349",
+    "subject": "Mitochondrial Biogenesis",
+    "predicate": "is_a_component_of",
+    "object": "Mitochondrial Quality Control",
+    "context": {
+      "en-US": "Mitochondrial Biogenesis, the generation of new mitochondria, is a component of Mitochondrial Quality Control alongside dynamics, mitophagy, the UPRmt and proteostasis, restoring capacity when the existing pool is compromised.",
+      "zh-TW": "Mitochondrial Biogenesis（新生粒線體的生成）與動態、mitophagy、UPRmt 及蛋白質恆定並列，構成 Mitochondrial Quality Control，在既有粒線體池受損時恢復其功能容量。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial Quality Control.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "5e373599d467",
+    "subject": "Mitochondrial Unfolded Protein Response",
+    "predicate": "is_a_component_of",
+    "object": "Mitochondrial Quality Control",
+    "context": {
+      "en-US": "The Mitochondrial Unfolded Protein Response (UPRmt) is the organelle's unfolded-protein stress arm of Mitochondrial Quality Control, inducing chaperones such as HSP60 and proteases such as LONP1 when mitochondrial proteins misfold or fail to assemble.",
+      "zh-TW": "Mitochondrial Unfolded Protein Response（UPRmt）是粒線體未折疊蛋白壓力下 Mitochondrial Quality Control 的胞器層級反應，在粒線體蛋白錯誤折疊或無法組裝時誘導 HSP60 等分子伴護蛋白與 LONP1 等蛋白酶。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial Quality Control.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "cb780f8222d2",
+    "subject": "Senescence",
+    "predicate": "impairs",
+    "object": "Mitochondrial Quality Control",
+    "context": {
+      "en-US": "Impaired Mitochondrial Quality Control is a central feature of Senescence: senescent cells show reduced mitophagy, downregulated DRP1/FIS1, altered fusion dynamics, and accumulation of dysfunctional elongated mitochondria that produce excess ROS and feed the SASP via NLRP3 and JNK.",
+      "zh-TW": "Mitochondrial Quality Control 受損是 Senescence 的核心特徵：衰老細胞的 mitophagy 減少、DRP1/FIS1 下調、融合動態改變，並累積過度產生 ROS 的功能異常細長粒線體，經 NLRP3 與 JNK 促進 SASP。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial Quality Control.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "2b76b87df555",
+    "subject": "Mitochondrial ROS",
+    "predicate": "is_produced_by",
+    "object": "Complex I",
+    "context": {
+      "en-US": "Mitochondrial ROS are generated predominantly at Complex I, especially by succinate-driven reverse electron transport under high membrane potential; leak is greatest in nutrient-excess conditions, tying mtROS output to metabolic state.",
+      "zh-TW": "Mitochondrial ROS 主要在 Complex I 產生，尤其是高膜電位下由 succinate 驅動的反向電子傳遞；滲漏在營養過剩的條件下最大，使 mtROS 的產出與代謝狀態緊密相連。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial ROS.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "474227ed64f1",
+    "subject": "Mitochondrial ROS",
+    "predicate": "is_produced_by",
+    "object": "Complex III",
+    "context": {
+      "en-US": "Complex III is the second major site of Mitochondrial ROS generation, where electrons leak from the ubiquinol oxidation reaction to reduce molecular oxygen to superoxide.",
+      "zh-TW": "Complex III 是 Mitochondrial ROS 生成的第二大場所，電子自 ubiquinol 氧化反應中滲漏，將分子氧還原為 superoxide。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial ROS.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "04131989a703",
+    "subject": "Superoxide Dismutase",
+    "predicate": "dismutates",
+    "object": "Mitochondrial ROS",
+    "context": {
+      "en-US": "Matrix Superoxide Dismutase (SOD2) rapidly converts the superide precursor of Mitochondrial ROS to hydrogen peroxide, which can then diffuse as a signal or be scavenged by glutathione and peroxiredoxin systems.",
+      "zh-TW": "基質中的 Superoxide Dismutase（SOD2）會迅速將 Mitochondrial ROS 的前驅物 superoxide 轉為過氧化氫，後者可擴散作為訊號，或被 glutathione 與 peroxiredoxin 系統清除。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial ROS.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "cac972468b1f",
+    "subject": "Mitochondrial ROS",
+    "predicate": "drives",
+    "object": "Mitohormesis",
+    "context": {
+      "en-US": "Low, transient Mitochondrial ROS act as signalling molecules that stabilize HIF-1α, activate NRF2 and AMPK, and induce PGC-1α and the UPRmt — the adaptive strengthening of respiratory capacity that defines Mitohormesis and supports longevity.",
+      "zh-TW": "低濃度、短暫的 Mitochondrial ROS 會作為訊號分子穩定 HIF-1α、活化 NRF2 與 AMPK，並誘導 PGC-1α 與 UPRmt；這種呼吸能力的適應性強化即定義了 Mitohormesis，並支持長壽。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial ROS.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "4bb38dcb0a16",
+    "subject": "Mitochondrial ROS",
+    "predicate": "promotes",
+    "object": "Mitochondrial outer membrane permeabilization",
+    "context": {
+      "en-US": "At high flux Mitochondrial ROS damage cardiolipin, proteins and mtDNA, promoting Mitochondrial Dysfunction and triggering Apoptosis via Mitochondrial outer membrane permeabilization with cytochrome c release.",
+      "zh-TW": "高流量的 Mitochondrial ROS 會損傷 cardiolipin、蛋白質與 mtDNA，促進 Mitochondrial Dysfunction，並透過伴隨 cytochrome c 釋放的 Mitochondrial outer membrane permeabilization 觸發 Apoptosis。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial ROS.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "8125071aef78",
+    "subject": "Mitochondrial ROS",
+    "predicate": "is_associated_with",
+    "object": "Mitochondrial Membrane Potential",
+    "context": {
+      "en-US": "Electron leak and therefore Mitochondrial ROS production is greatest under a high Mitochondrial Membrane Potential, because the back-pressure of the proton gradient drives reverse electron transport into Complex I.",
+      "zh-TW": "電子滲漏、因而 Mitochondrial ROS 的產生，在高 Mitochondrial Membrane Potential 下最為顯著，因為質子梯度的反向壓力會將電子經 Complex I 驅回而形成反向電子傳遞。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial ROS.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "e2a29145f7e6",
+    "subject": "Mitochondrial Electron Transport Chain",
+    "predicate": "drives",
+    "object": "Mitochondrial Respiration",
+    "context": {
+      "en-US": "The Mitochondrial Electron Transport Chain (Complexes I–IV) receives electrons from NADH and FADH2 generated by the TCA cycle; the resulting proton pumping builds the gradient whose dissipation through ATP Synthase defines Mitochondrial Respiration.",
+      "zh-TW": "Mitochondrial Electron Transport Chain（Complexes I–IV）接受 TCA cycle 產生的 NADH 與 FADH2 的電子；由此驅動的質子泵送建立梯度，其經 ATP Synthase 的消散即定義了 Mitochondrial Respiration。"
+    },
+    "confidence": 0.95,
+    "source_document": "Mitochondrial Respiration.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "05a9eb0f5fb8",
+    "subject": "ATP Synthase",
+    "predicate": "produces",
+    "object": "ATP",
+    "context": {
+      "en-US": "ATP Synthase allows protons to flow back into the matrix down the electrochemical gradient, converting the proton motive force into ATP and thereby supplying the majority of cellular ATP during Mitochondrial Respiration.",
+      "zh-TW": "ATP Synthase 讓質子順著電化學梯度回流至基質，將質子動力勢轉換為 ATP，因此在 Mitochondrial Respiration 過程中供應細胞大部分的 ATP。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial Respiration.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "48f326438245",
+    "subject": "AMPK",
+    "predicate": "regulates",
+    "object": "Mitochondrial Respiration",
+    "context": {
+      "en-US": "AMPK is a key energy-sensing regulator of Mitochondrial Respiration, adjusting respiratory flux in response to cellular ATP demand together with PGC-1α and mTORC1.",
+      "zh-TW": "AMPK 是調控 Mitochondrial Respiration 的重要能量感知因子，與 PGC-1α 及 mTORC1 一同依細胞 ATP 需求調整呼吸通量。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial Respiration.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "e98f08ed293a",
+    "subject": "Mitochondrial Respiration",
+    "predicate": "produces",
+    "object": "Mitochondrial ROS",
+    "context": {
+      "en-US": "A small fraction of electrons leak at Complex I and III during Mitochondrial Respiration, producing Mitochondrial ROS; modest leak underpins Mitohormesis, whereas excessive leak contributes to oxidative damage.",
+      "zh-TW": "在 Mitochondrial Respiration 過程中，Complex I 與 III 會有少部分電子滲漏而產生 Mitochondrial ROS；適度的滲漏是 Mitohormesis 的基礎，過量滲漏則造成氧化傷害。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial Respiration.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "fc317fb5b9e8",
+    "subject": "Mitochondrial Superoxide",
+    "predicate": "is_produced_by",
+    "object": "Complex I",
+    "context": {
+      "en-US": "Mitochondrial Superoxide is generated chiefly when electrons leak from Complex I, chiefly during succinate-driven reverse electron transfer, and is dismutated by matrix SOD2 to hydrogen peroxide once formed.",
+      "zh-TW": "Mitochondrial Superoxide 主要在電子自 Complex I 滲漏時生成，尤以 succinate 驅動的反向電子傳遞為主；形成後即由基質的 SOD2 歧化為過氧化氫。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial Superoxide.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "f40bba002bf0",
+    "subject": "Mitochondrial Superoxide",
+    "predicate": "is_produced_by",
+    "object": "Complex III",
+    "context": {
+      "en-US": "Complex III is the other principal leak site of Mitochondrial Superoxide; leak there is greatest at high Mitochondrial Membrane Potential, and the resulting superoxide is rapidly dismutated or can damage cardiolipin, proteins and mtDNA.",
+      "zh-TW": "Complex III 是 Mitochondrial Superoxide 的另一個主要滲漏位點；該處的滲漏在高 Mitochondrial Membrane Potential 下最大，產生的 superoxide 會被迅速歧化，否則便損傷 cardiolipin、蛋白質與 mtDNA。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial Superoxide.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "c6f2de242c51",
+    "subject": "Superoxide Dismutase",
+    "predicate": "dismutates",
+    "object": "Mitochondrial Superoxide",
+    "context": {
+      "en-US": "Matrix SOD2 (MnSOD) rapidly dismutates Mitochondrial Superoxide to hydrogen peroxide, which is then removed by glutathione and peroxiredoxin systems; failure of these defences lets superoxide accumulate and drive oxidative damage.",
+      "zh-TW": "基質中的 SOD2（MnSOD）會迅速將 Mitochondrial Superoxide 歧化為過氧化氫，後者再由 glutathione 與 peroxiredoxin 系統清除；這些防禦失效時 superoxide 會累積並造成氧化傷害。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial Superoxide.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "921874a1029e",
+    "subject": "Mitochondrial Superoxide",
+    "predicate": "drives",
+    "object": "Mitohormesis",
+    "context": {
+      "en-US": "Mitochondrial Superoxide has a dose-dependent duality: transient low-level production supports adaptive signalling and Mitohormesis, whereas sustained excess triggers permeability transition, cytochrome c release and apoptosis.",
+      "zh-TW": "Mitochondrial Superoxide 具有劑量依賴的雙面性：短暫的低量產生可支持適應性訊號傳遞與 Mitohormesis，而持續過量則會觸發通透性轉換、cytochrome c 釋放與 apoptosis。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial Superoxide.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "87f2a40d09b1",
+    "subject": "Mitochondrial Targeting Sequence",
+    "predicate": "targets",
+    "object": "Inner Mitochondrial Membrane",
+    "context": {
+      "en-US": "The Mitochondrial Targeting Sequence is an N-terminal amphipathic helix on OPA1 isoforms that directs the protein to the Inner Mitochondrial Membrane, a classic signal peptide recognized by the mitochondrial import machinery.",
+      "zh-TW": "Mitochondrial Targeting Sequence 是 OPA1 異構型上的 N 端兩親性螺旋，將蛋白導向 Inner Mitochondrial Membrane，是粒線體輸入機制所辨識的典型訊號胜肽。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial Targeting Sequence.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "3ca9dbb3aa3f",
+    "subject": "Mitochondrial Targeting Sequence",
+    "predicate": "is_required_for",
+    "object": "Mitochondrial Integrity",
+    "context": {
+      "en-US": "Because the Mitochondrial Targeting Sequence localizes OPA1 to the inner membrane where it mediates fusion, its processing and localization are prerequisites for maintaining cristae structure and Mitochondrial Integrity; defects contribute to Dominant Optic Atrophy.",
+      "zh-TW": "由於 Mitochondrial Targeting Sequence 將 OPA1 定位到負責介導融合的內膜，其加工與定位是維持嵴狀結構與 Mitochondrial Integrity 的前提；其缺陷會促成 Dominant Optic Atrophy。"
+    },
+    "confidence": 0.85,
+    "source_document": "Mitochondrial Targeting Sequence.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "df00799426a8",
+    "subject": "Mitochondrial Translation",
+    "predicate": "is_required_for",
+    "object": "Oxidative Phosphorylation",
+    "context": {
+      "en-US": "Human mtDNA encodes 13 Oxidative Phosphorylation subunits among 22 tRNAs and 2 rRNAs; because these subunits are needed to assemble the respiratory chain, organelle-autonomous Mitochondrial Translation is a rate-limiting step for bioenergetic function.",
+      "zh-TW": "人類 mtDNA 在 22 個 tRNA 與 2 個 rRNA 之外還編碼 13 個 Oxidative Phosphorylation 次單元；由於這些次單元是組裝呼吸鏈所必需，胞器自主的 Mitochondrial Translation 是生物能量功能的速率限制步驟。"
+    },
+    "confidence": 0.95,
+    "source_document": "Mitochondrial Translation.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "5e10f5d3606b",
+    "subject": "Taurine",
+    "predicate": "is_required_for",
+    "object": "Mitochondrial Translation",
+    "context": {
+      "en-US": "Taurine conjugates to the wobble uridine of mitochondrial tRNAs (taurine-modified tRNAs for leucine and lysine codons), stabilizing codon–anticodon interactions; taurine deficiency therefore impairs efficient synthesis of respiratory-chain subunits.",
+      "zh-TW": "Taurine 與粒線體 tRNA 的擺動位 uridine 結合（leucine 與 lysine 密碼子的 taurine 修飾 tRNA），穩定密碼子—反密碼子交互作用；因此 taurine 缺乏會妨礙呼吸鏈次單元的有效合成。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial Translation.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "16fb0b7dbe19",
+    "subject": "Mitochondrial Translation",
+    "predicate": "occurs_in",
+    "object": "Mitochondrial Matrix",
+    "context": {
+      "en-US": "Mitochondrial Translation takes place inside the Mitochondrial Matrix, where 55S mitoribosomes (39S large plus 28S small subunits, protein-rich relative to bacterial ribosomes) translate the polycistronic mtDNA transcripts.",
+      "zh-TW": "Mitochondrial Translation 在 Mitochondrial Matrix 內進行，55S 的 mitoribosome（39S 大次單元加 28S 小次單元，蛋白質比例高於細菌核糖體）將多順反子 mtDNA 轉錄本轉譯。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial Translation.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "27ad1d4b1367",
+    "subject": "ATF4",
+    "predicate": "mediates",
+    "object": "Mitochondrial Unfolded Protein Response",
+    "context": {
+      "en-US": "When mitochondrial translation yields misfolded or unassembled subunits, ATF4 together with ATF5 and CHOP mediates the Mitochondrial Unfolded Protein Response, inducing chaperones such as HSP60 and proteases such as LONP1.",
+      "zh-TW": "當粒線體轉譯產生錯誤折疊或無法組裝的次單元時，ATF4 與 ATF5、CHOP 共同介導 Mitochondrial Unfolded Protein Response，誘導 HSP60 等分子伴護蛋白與 LONP1 等蛋白酶。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial Translation.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "5a180901b1fd",
+    "subject": "MELAS",
+    "predicate": "impairs",
+    "object": "Mitochondrial Translation",
+    "context": {
+      "en-US": "The m.3243A>G MELAS mutation in the mitochondrial tRNA-Leu gene causes severe Mitochondrial Translation defects and disease, illustrating how tRNA failure cripples organelle protein synthesis.",
+      "zh-TW": "粒線體 tRNA-Leu 基因的 m.3243A>G MELAS 突變會造成嚴重的 Mitochondrial Translation 缺陷與疾病，說明 tRNA 失效如何癱瘓胞器的蛋白質合成。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial Translation.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "d80d2e93f698",
+    "subject": "Heteroplasmy",
+    "predicate": "impairs",
+    "object": "Mitochondrial Translation",
+    "context": {
+      "en-US": "Rising heteroplasmy — mutant mtDNA burden — compromises translation output, and age-related decline in translation fidelity and efficiency alongside rising heteroplasmy contributes to bioenergetic decline in stem cells and post-mitotic tissues.",
+      "zh-TW": "heteroplasmy 上升（突變 mtDNA 的負擔）會削弱轉譯產出；轉譯保真度與效率的年齡相關衰退，伴隨 heteroplasmy 上升，造成幹細胞與分裂後組織的能量代謝衰退。"
+    },
+    "confidence": 0.85,
+    "source_document": "Mitochondrial Translation.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "c9d12dee7682",
+    "subject": "SIRT4",
+    "predicate": "destabilizes",
+    "object": "Mitochondrial Trifunctional Protein α",
+    "context": {
+      "en-US": "SIRT4 destabilizes Mitochondrial Trifunctional Protein α (MTPα, HADHB) in hepatocytes, shifting metabolism away from mitochondrial fatty-acid utilization toward anabolic lipid conservation.",
+      "zh-TW": "SIRT4 在肝細胞中使 Mitochondrial Trifunctional Protein α（MTPα，HADHB）去穩定，使代謝由粒線體脂肪酸利用轉向合成型脂質保存。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial Trifunctional Protein α.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "85c82d322423",
+    "subject": "Mitochondrial Trifunctional Protein α",
+    "predicate": "is_required_for",
+    "object": "Fatty acid oxidation",
+    "context": {
+      "en-US": "Mitochondrial Trifunctional Protein α is the alpha subunit of the enzyme complex that catalyzes the last three steps of long-chain Fatty acid oxidation β-oxidation, so its stability sets mitochondrial fatty-acid catabolic capacity.",
+      "zh-TW": "Mitochondrial Trifunctional Protein α 是催化長鏈 Fatty acid oxidation β-氧化最後三個步驟之酵素複合體的 α 次單元，因此其穩定性決定粒線體的脂肪酸分解能力。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial Trifunctional Protein α.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "ccd215a50e0e",
+    "subject": "SIRT4",
+    "predicate": "inhibits",
+    "object": "PPARα",
+    "context": {
+      "en-US": "SIRT4 represses PPARα signaling, the transcriptional program that drives expression of Mitochondrial Trifunctional Protein α; this couples NAD+-dependent sirtuin activity to lipid catabolism.",
+      "zh-TW": "SIRT4 抑制 PPARα 訊號傳遞，而 PPARα 正是驅動 Mitochondrial Trifunctional Peptide α 表現的轉錄程式；此機制將 NAD+ 依賴的 sirtuin 活性與脂質分解代謝相連結。"
+    },
+    "confidence": 0.85,
+    "source_document": "Mitochondrial Trifunctional Protein α.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "294610258f11",
+    "subject": "Mitochondrial Uncoupling",
+    "predicate": "reduces",
+    "object": "Mitochondrial Membrane Potential",
+    "context": {
+      "en-US": "Mitochondrial Uncoupling dissipates the proton motive force across the inner membrane without ATP synthesis, releasing the energy as heat and therefore lowering the Mitochondrial Membrane Potential.",
+      "zh-TW": "Mitochondrial Uncoupling 讓內膜兩側的質子動力勢在未合成 ATP 的情況下消散，能量以熱的形式釋放，因而降低 Mitochondrial Membrane Potential。"
+    },
+    "confidence": 0.95,
+    "source_document": "Mitochondrial Uncoupling.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "9fa28d0e516e",
+    "subject": "UCP1",
+    "predicate": "mediates",
+    "object": "Mitochondrial Uncoupling",
+    "context": {
+      "en-US": "UCP1 in brown adipose tissue is the physiological uncoupler that drives Mitochondrial Uncoupling for adaptive thermogenesis; pharmacological mild uncoupling for metabolic disease and longevity is explored via UCP1 activation.",
+      "zh-TW": "棕色脂肪組織的 UCP1 是驅動 Mitochondrial Uncoupling 以產生適應性產熱的生理性解偶聯蛋白；針對代謝疾病與長壽的藥理性輕度解偶聯，正是透過活化 UCP1 來探索。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial Uncoupling.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "b1c8e043d834",
+    "subject": "Mitochondrial Uncoupling",
+    "predicate": "increases",
+    "object": "Electron Transport Chain",
+    "context": {
+      "en-US": "By lowering the proton gradient, Mitochondrial Uncoupling accelerates Electron Transport Chain flux and increases oxygen consumption, while reducing ROS production at high membrane potential.",
+      "zh-TW": "藉由降低質子梯度，Mitochondrial Uncoupling 會加速 Electron Transport Chain 的電子流與氧消耗，同時在高膜電位下減少 ROS 的產生。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial Uncoupling.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "a643cd3be21c",
+    "subject": "Mitochondrial Uncoupling",
+    "predicate": "contributes_to",
+    "object": "Resting Metabolic Rate",
+    "context": {
+      "en-US": "Mitochondrial proton leak, the basal component of Mitochondrial Uncoupling, accounts for roughly 20% of basal Resting Metabolic Rate in mammals, making uncoupling a determinant of individual variation in RMR.",
+      "zh-TW": "粒線體質子滲漏是 Mitochondrial Uncoupling 的基礎形式，在哺乳類中約佔基礎 Resting Metabolic Rate 的 20%，使解偶聯成為個體間 RMR 差異的決定因素。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial Uncoupling.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "b17c0c40581d",
+    "subject": "Sirtuins",
+    "predicate": "modulates",
+    "object": "Mitochondrial Uncoupling",
+    "context": {
+      "en-US": "Sirtuins modulate uncoupling-related metabolism, and mild pharmacological uncoupling is a key mechanism in sirtuin-mediated stress resistance, positioning the sirtuin system as a lever on Mitochondrial Uncoupling.",
+      "zh-TW": "Sirtuins 可調節與解偶聯相關的代謝，而輕度藥理性解偶聯是 sirtuin 介導抗壓反應的關鍵機制，使 sirtuin 系統成為調控 Mitochondrial Uncoupling 的槓桿。"
+    },
+    "confidence": 0.85,
+    "source_document": "Mitochondrial Uncoupling.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "21acfd7d24c8",
+    "subject": "BAX",
+    "predicate": "mediates",
+    "object": "Mitochondrial outer membrane permeabilization",
+    "context": {
+      "en-US": "BH3-only proteins activate BAX and dislodge BAK from anti-apoptotic restraint, allowing BAX/BAK oligomerization into lipidic pores; full synchronized pore formation is the pivotal commitment event of intrinsic apoptosis.",
+      "zh-TW": "BH3-only 蛋白會活化 BAX 並將 BAK 從抗凋亡的抑制中釋放，使 BAX/BAK 寡聚化形成脂質孔道；全面同步的成孔即為內在性凋亡的關鍵承諾事件。"
+    },
+    "confidence": 0.95,
+    "source_document": "Mitochondrial outer membrane permeabilization.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "901189dd183b",
+    "subject": "BAK",
+    "predicate": "mediates",
+    "object": "Mitochondrial outer membrane permeabilization",
+    "context": {
+      "en-US": "BAK is the constitutive pro-apoptotic pore former held in check by anti-apoptotic Bcl-2 family members; BH3-only signalling releases it so it oligomerizes into the pores that execute MOMP.",
+      "zh-TW": "BAK 是組成型促凋亡成孔蛋白，平時受抗凋亡 Bcl-2 家族成員抑制；BH3-only 訊號將其釋放，使其寡聚成執行 MOMP 的孔道。"
+    },
+    "confidence": 0.95,
+    "source_document": "Mitochondrial outer membrane permeabilization.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "6666be5a93c3",
+    "subject": "Mitochondrial outer membrane permeabilization",
+    "predicate": "releases",
+    "object": "Cytochrome c",
+    "context": {
+      "en-US": "Full, synchronized Mitochondrial outer membrane permeabilization releases the bulk of intermembrane Cytochrome c, which nucleates the apoptosome and activates Caspase-9 and Caspase-3 to execute apoptosis.",
+      "zh-TW": "全面同步的 Mitochondrial outer membrane permeabilization 會釋放大部分膜間腔的 Cytochrome c，後者成核 apoptosome 並活化 Caspase-9 與 Caspase-3 以執行 apoptosis。"
+    },
+    "confidence": 0.95,
+    "source_document": "Mitochondrial outer membrane permeabilization.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "2fac19b6cc86",
+    "subject": "Mitochondrial outer membrane permeabilization",
+    "predicate": "activates",
+    "object": "cGAS-STING Pathway",
+    "context": {
+      "en-US": "Sublethal MOMP, in which only a minority of mitochondria are permeabilized, keeps the cell viable while released mtDNA and other DAMPs signal through the cGAS-STING Pathway, driving the senescence-associated secretory phenotype.",
+      "zh-TW": "次致命 MOMP（僅少數粒線體被通透化）使細胞維持存活，同時釋出的 mtDNA 與其他 DAMP 經由 cGAS-STING Pathway 傳遞訊號，驅動衰老相關分泌表型。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial outer membrane permeabilization.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "53e87866cb50",
+    "subject": "Minority MOMP",
+    "predicate": "induces",
+    "object": "Senescence",
+    "context": {
+      "en-US": "Minority MOMP is the sublethal variant of MOMP in which released factors fall below the apoptotic threshold; it converts MOMP from a death switch into a driver of Senescence and SASP via cGAS–STING.",
+      "zh-TW": "Minority MOMP 是 MOMP 的次致命變體，釋出的因子低於凋亡閾值；它使 MOMP 由死亡開關轉為經由 cGAS–STING 驅動 Senescence 與 SASP 的因子。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial outer membrane permeabilization.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "c7f7e88cae6e",
+    "subject": "Mitochondrial outer membrane permeabilization",
+    "predicate": "is_regulated_by",
+    "object": "Bcl-2",
+    "context": {
+      "en-US": "Mitochondrial outer membrane permeabilization is regulated by the Bcl-2 family of proteins, in which pro-apoptotic members such as BAX and BAK form pores while anti-apoptotic members restrain them — making the BCL-2 family a major oncology target exploited by BH3 mimetics.",
+      "zh-TW": "Mitochondrial outer membrane permeabilization 受 Bcl-2 家族蛋白調控：促凋亡成員如 BAX、BAK 形成孔道，抗凋亡成員則加以 restrain；因此 BCL-2 家族是受 BH3 模擬物利用的主要腫瘤學標的。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial outer membrane permeabilization.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "197651d0c878",
+    "subject": "Mitochondrial DNA",
+    "predicate": "encodes",
+    "object": "Mitochondrial-Derived Peptide",
+    "context": {
+      "en-US": "Mitochondrial DNA encodes the Mitochondrial-Derived Peptide family within its rRNA loci — Humanin in MT-RNR2 (16S rRNA) and MOTS-c in MT-RNR1 (12S rRNA) — transcribed and translated independently of the 13 canonical proteins.",
+      "zh-TW": "Mitochondrial DNA 在其 rRNA 位點編碼 Mitochondrial-Derived Peptide 家族：Humanin 位於 MT-RNR2（16S rRNA），MOTS-c 位於 MT-RNR1（12S rRNA），其轉錄與轉譯獨立於 13 個典型蛋白。"
+    },
+    "confidence": 0.95,
+    "source_document": "Mitochondrial-Derived Peptide.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "5a6deaa6730a",
+    "subject": "Humanin",
+    "predicate": "is_a_type_of",
+    "object": "Mitochondrial-Derived Peptide",
+    "context": {
+      "en-US": "Humanin is the first and most studied Mitochondrial-Derived Peptide, a 24-residue peptide encoded in MT-RNR2 that exerts neuroprotective and anti-apoptotic effects by binding partners such as Bax, Bid and IGFBP3.",
+      "zh-TW": "Humanin 是第一個也是研究最深入的 Mitochondrial-Derived Peptide，為 MT-RNR2 編碼的 24 殘基胜肽，透過與 Bax、Bid、IGFBP3 等結合而發揮神經保護與抗凋亡作用。"
+    },
+    "confidence": 0.95,
+    "source_document": "Mitochondrial-Derived Peptide.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "fd8921cc9e4c",
+    "subject": "MOTS-c",
+    "predicate": "is_a_type_of",
+    "object": "Mitochondrial-Derived Peptide",
+    "context": {
+      "en-US": "MOTS-c is a 16-residue Mitochondrial-Derived Peptide encoded in MT-RNR1 (12S rRNA) that regulates glucose metabolism, mediates the exercise response and is associated with longevity.",
+      "zh-TW": "MOTS-c 是由 MT-RNR1（12S rRNA）編碼的 16 殘基 Mitochondrial-Derived Peptide，可調控葡萄糖代謝、介導運動反應，並與長壽相關。"
+    },
+    "confidence": 0.95,
+    "source_document": "Mitochondrial-Derived Peptide.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "a0a4358b135f",
+    "subject": "Mitochondrial-Derived Peptide",
+    "predicate": "is_a_type_of",
+    "object": "Mitokines",
+    "context": {
+      "en-US": "Mitochondrial-Derived Peptides are considered mitokines — circulating mitochondrial factors — because they are secreted into the circulation and act on distant tissues via receptors such as CNTFR/WSX-1/gp130, FPRL1 and IGF1R.",
+      "zh-TW": "Mitochondrial-Derived Peptide 被視為 Mitokines（循環中的粒線體因子），因為它們可分泌進入血液循環，經由 CNTFR/WSX-1/gp130、FPRL1 與 IGF1R 等受體作用於遠端組織。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial-Derived Peptide.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "57647dfe4102",
+    "subject": "Mitochondrial-Derived Peptide",
+    "predicate": "is_associated_with",
+    "object": "Retrograde Signaling",
+    "context": {
+      "en-US": "Mitochondrial-Derived Peptides are a distinct class of Retrograde Signaling molecules because, unlike Ca²⁺, ROS and cytochrome c, they are encoded within the mitochondrial genome itself rather than being secondary products of metabolism.",
+      "zh-TW": "Mitochondrial-Derived Peptide 是一類獨特的 Retrograde Signaling 分子，因為與 Ca²⁺、ROS、cytochrome c 不同，它們直接編碼於粒線體基因組之內，而非代謝的次級產物。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial-Derived Peptide.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "9c7643a429c1",
+    "subject": "SIRT1",
+    "predicate": "regulates",
+    "object": "Mitochondrial-Derived Peptide",
+    "context": {
+      "en-US": "Mitochondrial-Derived Peptide expression is upregulated by NAD+/SIRT1 and AMPK under nutrient sensing, whereas mTORC1 suppresses it and levels decline with age.",
+      "zh-TW": "在營養感知下，Mitochondrial-Derived Peptide 的表現會被 NAD+/SIRT1 與 AMPK 上調，而 mTORC1 則抑制其表現，且其濃度隨年齡下降。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial-Derived Peptide.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "0028a4713f6e",
+    "subject": "Mitochondrial-Derived Peptide",
+    "predicate": "protects_against",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "Mitochondrial-Derived Peptide expression is induced by mitochondrial stress and oxidative stress, and the peptides in turn preserve redox homeostasis and stress resistance.",
+      "zh-TW": "Mitochondrial-Derived Peptide 的表現會被粒線體壓力與氧化壓力誘導，而這些胜肽反過來維持氧化還原恆定與抗壓能力。"
+    },
+    "confidence": 0.85,
+    "source_document": "Mitochondrial-Derived Peptide.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "842a8a98a194",
+    "subject": "Mitosis",
+    "predicate": "is_a_type_of",
+    "object": "Cell Division",
+    "context": {
+      "en-US": "Mitosis is the nuclear division phase of Cell Division, in which a single eukaryotic cell partitions its duplicated chromosomes into two identical daughter nuclei through prophase, prometaphase, metaphase, anaphase and telophase followed by cytokinesis.",
+      "zh-TW": "Mitosis 是 Cell Division 的核分裂階段，單一真核細胞經由前期、前中期、中期、後期與末期，將複製的染色體分配為兩個相同的子細胞核，隨後進行 cytokinesis。"
+    },
+    "confidence": 0.95,
+    "source_document": "Mitosis.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "6b5c8f8743d4",
+    "subject": "Mitosis",
+    "predicate": "is_a_component_of",
+    "object": "Cell Cycle",
+    "context": {
+      "en-US": "Mitosis constitutes the M phase of the Cell Cycle, with the mitotic spindle of microtubules attaching to kinetochores on centromeres and the spindle assembly checkpoint monitoring attachment.",
+      "zh-TW": "Mitosis 構成 Cell Cycle 的 M 期，其中由微管組成的紡錘體附著於 centromere 上的 kinetochore，並由 spindle assembly checkpoint 監控附著狀態。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitosis.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "6539a13bad42",
+    "subject": "CDK1",
+    "predicate": "drives",
+    "object": "Mitosis",
+    "context": {
+      "en-US": "The cyclin-dependent kinase CDK1, complexed with Cyclin B as MPF, is the master driver of Mitosis, coordinating entry into mitosis and progression through the mitotic stages.",
+      "zh-TW": "細胞周期蛋白依賴激酶 CDK1 與 Cyclin B 結合成 MPF，是 Mitosis 的主要驅動因子，協調進入有絲分裂並推動各階段的進行。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitosis.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "961f38dc3374",
+    "subject": "Cyclin B",
+    "predicate": "regulates",
+    "object": "Mitosis",
+    "context": {
+      "en-US": "Cyclin B is the regulatory subunit of CDK1; its binding activates the complex and its APC C-mediated destruction permits anaphase onset, making Cyclin B the switch that releases the cell into anaphase.",
+      "zh-TW": "Cyclin B 是 CDK1 的調節次單元；其結合活化激酶複合體，而其經 APC C 介導的降解則容許後期啟動，因此 Cyclin B 是將細胞釋放進入後期�的開關。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitosis.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "1c48cac0fdf1",
+    "subject": "paclitaxel",
+    "predicate": "inhibits",
+    "object": "Mitosis",
+    "context": {
+      "en-US": "Paclitaxel is a taxane chemotherapeutic that stabilizes microtubules and prevents their dynamic rearrangement, arresting cells in Mitosis — the basis for its use as an anticancer drug.",
+      "zh-TW": "Paclitaxel 屬於 taxane 類化療藥物，可穩定微管並阻止其動態重排，使細胞停滯於 Mitosis；這正是其作為抗癌藥物使用的基礎。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitosis.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "6123d92afb23",
+    "subject": "Mitotane",
+    "predicate": "treats",
+    "object": "Adrenocortical carcinomas",
+    "context": {
+      "en-US": "Mitotane (o,p'-DDD; Lysodren) is the adrenolytic agent used in Adrenocortical carcinomas as adjuvant therapy after resection and for advanced disease; it accumulates in adrenocortical tissue, damaging mitochondria, inhibiting steroidogenesis via CYP11A1/CYP11B1 and killing tumour cells.",
+      "zh-TW": "Mitotane（o,p'-DDD；Lysodren）是治療 Adrenocortical carcinomas 的腎上腺皮質溶解劑，作為切除後的輔助療法與晚期疾病用藥；它累積於腎上腺皮質組織，損傷粒線體、經 CYP11A1/CYP11B1 抑制類固醇生成並殺傷腫瘤細胞。"
+    },
+    "confidence": 0.95,
+    "source_document": "Mitotane.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "5e1391f69f34",
+    "subject": "Adrenocortical carcinomas",
+    "predicate": "is_sensitive_to",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "Adrenocortical carcinomas show significantly increased GPX4 expression and sensitivity to Ferroptosis, so inducing ferroptosis may be more effective and less toxic than mitotane, positioning ferroptosis as a next-generation ACC strategy.",
+      "zh-TW": "Adrenocortical carcinomas 顯示 GPX4 顯著升高且對 Ferroptosis 敏感，因此誘發 ferroptosis 可能比 mitotane 更有效且毒性更低，使 ferroptosis 成為下一代 ACC 治療策略。"
+    },
+    "confidence": 0.85,
+    "source_document": "Mitotane.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "7672f316d6d7",
+    "subject": "RSL3",
+    "predicate": "induces",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "RSL3 is a ferroptosis inducer proposed as an alternative to mitotane in adrenocortical carcinoma, exploiting the tumour's GPX4-high phenotype to achieve equivalent or better efficacy with less systemic toxicity.",
+      "zh-TW": "RSL3 是 feroptosis 誘導劑，利用腫瘤 GPX4 高表型的特性，被提出作為腎上腺皮質癌中 mitotane 的替代方案，以更低的全身毒性取得相當或更佳的療效。"
+    },
+    "confidence": 0.85,
+    "source_document": "Mitotane.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "4a771ee209e4",
+    "subject": "Monoacylglycerol Lipase",
+    "predicate": "is_a_component_of",
+    "object": "Lipid Metabolism",
+    "context": {
+      "en-US": "Monoacylglycerol Lipase hydrolyses monoacylglycerol to glycerol and free fatty acid, completing adipose triglyceride catabolism and therefore acting as the final-step lipase of Lipid Metabolism.",
+      "zh-TW": "Monoacylglycerol Lipase 將 monoacylglycerol 水解為 glycerol 與游離脂肪酸，完成脂肪組織三酸甘油酯的分解，因此是 Lipid Metabolism 的最後一步脂肪酶。"
+    },
+    "confidence": 0.9,
+    "source_document": "Monoacylglycerol Lipase.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "d22e14767bf2",
+    "subject": "Monoacylglycerol Lipase",
+    "predicate": "is_associated_with",
+    "object": "HSL",
+    "context": {
+      "en-US": "HSL is the upstream diacylglycerol lipase that generates the monoacylglycerol substrate Monoacylglycerol Lipase then hydrolyses; together with ATGL it governs lipid mobilization from adipose tissue.",
+      "zh-TW": "HSL 是上游的 diglyceride 脂肪酶，產生 Monoacylglycerol Lipase 隨後水解的 monoacylglycerol 基質；它與 ATGL 共同調控脂肪組織的脂質動員。"
+    },
+    "confidence": 0.85,
+    "source_document": "Monoacylglycerol Lipase.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "b63019740fdf",
+    "subject": "ATGL",
+    "predicate": "is_associated_with",
+    "object": "Monoacylglycerol Lipase",
+    "context": {
+      "en-US": "ATGL is the initiator lipase of the adipose lipolytic cascade and acts upstream of HSL and Monoacylglycerol Lipase, which together with ATGL govern the mobilization of stored triglyceride.",
+      "zh-TW": "ATGL 是脂肪組織脂解級聯的起始脂肪酶，作用於 HSL 與 Monoacylglycerol Lipase 的上游；三者共同調控儲存三酸甘油酯的動員。"
+    },
+    "confidence": 0.85,
+    "source_document": "Monoacylglycerol Lipase.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "2297c9bc9c3b",
+    "subject": "Monoamine Oxidase Inhibitor",
+    "predicate": "inhibits",
+    "object": "Monoamine oxidase",
+    "context": {
+      "en-US": "Monoamine Oxidase Inhibitor agents block Monoamine oxidase, the enzyme that catabolizes monoamine neurotransmitters, thereby raising synaptic serotonin, dopamine and norepinephrine and producing antidepressant and anxiolytic effects.",
+      "zh-TW": "Monoamine Oxidase Inhibitor 類藥物抑制分解單胺神經傳遞物質的 Monoamine oxidase，因而提高突觸內的 serotonin、dopamine 與 norepinephrine，產生抗憂鬱與抗焦慮作用。"
+    },
+    "confidence": 0.95,
+    "source_document": "Monoamine Oxidase Inhibitor.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "c78e2db3d174",
+    "subject": "Phenelzine",
+    "predicate": "is_a_type_of",
+    "object": "Monoamine Oxidase Inhibitor",
+    "context": {
+      "en-US": "Phenelzine is a classical irreversible Monoamine Oxidase Inhibitor antidepressant, the pharmacological prototype of the class that raises synaptic monoamines to produce antidepressant and anxiolytic effects.",
+      "zh-TW": "Phenelzine 是經典的不可逆 Monoamine Oxidase Inhibitor 抗憂鬱藥，是該類提高突觸單胺以產生抗憂鬱與抗焦慮作用的藥理原型。"
+    },
+    "confidence": 0.9,
+    "source_document": "Monoamine Oxidase Inhibitor.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "07813db5b842",
+    "subject": "Monoamine oxidase",
+    "predicate": "oxidizes",
+    "object": "Dopamine",
+    "context": {
+      "en-US": "Monoamine oxidase performs the oxidative deamination of dopamine in the brain; dopamine taken up by the dopamine transporter into dopaminergic terminals is either packaged into vesicles or metabolized by Monoamine oxidase.",
+      "zh-TW": "Monoamine oxidase 在腦內對 dopamine 進行氧化脫氨；由 dopamine transporter 攝入多巴胺神經末梢的 dopamine，或被包裝進儲存囊泡，或被 Monoamine oxidase 代謝。"
+    },
+    "confidence": 0.9,
+    "source_document": "Monoamine oxidase.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "82a161bc6311",
+    "subject": "Monoamine oxidase",
+    "predicate": "oxidizes",
+    "object": "Norepinephrine",
+    "context": {
+      "en-US": "Monoamine oxidase is one of the enzymes responsible for degrading the monoamine neurotransmitter norepinephrine, using oxidative deamination rather than the methylation route used by COMT.",
+      "zh-TW": "Monoamine oxidase 是負責降解單胺神經傳遞物質 norepinephrine 的酵素之一，採用氧化脫氨而非 COMT 所用的甲基化途徑。"
+    },
+    "confidence": 0.9,
+    "source_document": "Monoamine oxidase.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "2875c1d72c2a",
+    "subject": "Monoamine oxidase",
+    "predicate": "oxidizes",
+    "object": "Serotonin",
+    "context": {
+      "en-US": "Monoamine oxidase catalyses the oxidative deamination of serotonin, making it a principal terminator of serotonergic signalling alongside reuptake.",
+      "zh-TW": "Monoamine oxidase 催化 serotonin 的氧化脫氨，使其與再攝取並列成為血清素能訊號傳遞的主要終止機制。"
+    },
+    "confidence": 0.9,
+    "source_document": "Monoamine oxidase.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "2b5590ebba28",
+    "subject": "Monoamine oxidase",
+    "predicate": "cooperates_with",
+    "object": "COMT",
+    "context": {
+      "en-US": "Monoamine oxidase and COMT are the two major enzymes of catecholamine metabolism: COMT methylates while Monoamine oxidase oxidatively deaminates, and together they ensure proper clearance and balance of neurotransmitters in the brain.",
+      "zh-TW": "Monoamine oxidase 與 COMT 是兒茶酚胺代謝的兩大酵素：COMT 進行甲基化，Monoamine oxidase 進行氧化脫氨，兩者共同確保腦內神經傳遞物質的正確清除與平衡。"
+    },
+    "confidence": 0.9,
+    "source_document": "Monoamine oxidase.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "040621f232fa",
+    "subject": "Monocytes",
+    "predicate": "differentiates_into",
+    "object": "Macrophages",
+    "context": {
+      "en-US": "Monocytes are produced in the bone marrow, circulate for 1–3 days, then migrate into tissues where local cytokines and growth factors (M-CSF, GM-CSF, IL-4/IL-13, IFN-γ/LPS) direct their differentiation into M1- or M2-like Macrophages.",
+      "zh-TW": "Monocytes 在骨髓產生，於血液中循環 1–3 天後 migrate 至組織，在局部細胞激素與生長因子（M-CSF、GM-CSF、IL-4/IL-13、IFN-γ/LPS）引導下分化為 M1 型或 M2 型 Macrophages。"
+    },
+    "confidence": 0.95,
+    "source_document": "Monocytes.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "c4accfbb9862",
+    "subject": "CCL2",
+    "predicate": "recruits",
+    "object": "Monocytes",
+    "context": {
+      "en-US": "CCL2 (MCP-1) is the principal monocyte chemoattractant, binding CCR2 on classical monocytes and being produced by endothelial cells, fibroblasts and macrophages in response to inflammatory stimuli; senescent cells secrete CCL2 to recruit monocytes.",
+      "zh-TW": "CCL2（MCP-1）是主要的單核細胞趨化因子，與典型單核細胞上的 CCR2 結合，並由內皮細胞、纖維母細胞與巨噬細胞在發炎刺激下產生；衰老細胞分泌 CCL2 以招募 Monocytes。"
+    },
+    "confidence": 0.95,
+    "source_document": "Monocytes.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "72ada978842b",
+    "subject": "MMP-12",
+    "predicate": "cleaves",
+    "object": "CCL2",
+    "context": {
+      "en-US": "MMP-12 processes the CC chemokines CCL2, CCL7, CCL8 and CCL13 into CCR antagonists, which dampens monocyte recruitment and makes this chemokine-processing activity central to MMP-12's role in resolving inflammation.",
+      "zh-TW": "MMP-12 將 CC 趨化因子 CCL2、CCL7、CCL8 與 CCL13 加工成 CCR 拮抗劑，因而抑制單核細胞招募，使此趨化因子加工活性成為 MMP-12 在發炎消退中角色的核心。"
+    },
+    "confidence": 0.9,
+    "source_document": "Monocytes.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "d7f68676acf2",
+    "subject": "SASP",
+    "predicate": "recruits",
+    "object": "Monocytes",
+    "context": {
+      "en-US": "Senescent cells secrete SASP chemokines such as CCL2 and GM-CSF that recruit Monocytes into the tissue microenvironment, where they differentiate into macrophages that sustain chronic inflammation and contribute to tissue remodelling.",
+      "zh-TW": "衰老細胞分泌 CCL2、GM-CSF 等 SASP 趨化因子，將 Monocytes 招募至組織微環境，並分化為巨噬細胞以維持慢性發炎並參與組織重塑。"
+    },
+    "confidence": 0.9,
+    "source_document": "Monocytes.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "00542a85fc64",
+    "subject": "Monocytes",
+    "predicate": "produces",
+    "object": "TNFα",
+    "context": {
+      "en-US": "Monocytes phagocytose pathogens and produce pro-inflammatory cytokines including TNFα, IL-1β and IL-6, and generate ROS via NADPH oxidase, forming a first line of defence against bacterial and fungal infection.",
+      "zh-TW": "Monocytes 吞噬病原體並產生 TNFα、IL-1β、IL-6 等促發炎細胞激素，並透過 NADPH oxidase 產生 ROS，構成對抗細菌與真菌感染的第一線防禦。"
+    },
+    "confidence": 0.9,
+    "source_document": "Monocytes.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "dfd0bfa130d1",
+    "subject": "Monocytes",
+    "predicate": "contributes_to",
+    "object": "Atherosclerosis",
+    "context": {
+      "en-US": "Monocyte infiltration of the arterial intima is an early event in atherogenesis: recruited monocytes differentiate into macrophages that engulf oxidised LDL to become foam cells, with CCL2/CCR2 signalling critical for recruitment to plaques.",
+      "zh-TW": "Monocytes 浸潤動脈內膜是動脈粥樣硬化的早期事件：被招募的 Monocytes 分化為巨噬細胞，吞噬氧化 LDL 成為泡沫細胞，而 CCL2/CCR2 訊號對斑塊招募至關重要。"
+    },
+    "confidence": 0.9,
+    "source_document": "Monocytes.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "8f2a9f6e266a",
+    "subject": "Monocytes",
+    "predicate": "contributes_to",
+    "object": "Inflammaging",
+    "context": {
+      "en-US": "In obesity, increased circulating monocyte counts and infiltration into adipose tissue lead Monocytes to sustain chronic low-grade inflammation and insulin resistance, a mechanism underlying Inflammaging.",
+      "zh-TW": "在肥胖狀態下，循環 Monocytes 數量增加並浸潤脂肪組織，使這些細胞維持慢性低度發炎與胰島素阻抗，此機制正是 Inflammaging 的成因之一。"
+    },
+    "confidence": 0.85,
+    "source_document": "Monocytes.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "5aeee50f9afd",
+    "subject": "Rapamycin",
+    "predicate": "causes",
+    "object": "Mucositis",
+    "context": {
+      "en-US": "At high or chronic doses Rapamycin and its rapalogs cause stomatitis and mucositis — ulceration of the oral and digestive tract mucosa; in off-label longevity surveys mouth ulcers were the only side effect significantly more common in rapamycin users, and were mild, reversible on discontinuation.",
+      "zh-TW": "在高劑量或長期使用下，Rapamycin 及其 rapalogs 會造成 stomatitis 與 Mucositis（口腔與消化道黏膜潰瘍）；在非標籤長壽調查中，口腔潰瘍是 rapamycin 使用者中唯一顯著較常見的副作用，且多為輕度、停藥後可逆。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mucositis.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "c3fcb989ef2d",
+    "subject": "Rapalog",
+    "predicate": "causes",
+    "object": "Mucositis",
+    "context": {
+      "en-US": "Rapalogs share the mTORC1-dependent class effect of Rapamycin, so mucosal ulceration of the oral and digestive tract is a dose-limiting adverse event across the class, not unique to rapamycin.",
+      "zh-TW": "Rapalogs 與 Rapamycin 共享 mTORC1 依賴的類別效應，因此口腔與消化道黏膜潰瘍是整個類別的劑量限制性不良事件，並非 rapamycin 特有。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mucositis.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "7d081093ee0d",
+    "subject": "Stomatitis",
+    "predicate": "is_a_type_of",
+    "object": "Mucositis",
+    "context": {
+      "en-US": "Stomatitis (oral mucositis) is the oral manifestation of Mucositis, the broader inflammation and ulceration of mucous membranes lining the gastrointestinal tract including the oral cavity.",
+      "zh-TW": "Stomatitis（口腔黏膜炎）是 Mucositis 的口腔表現，後者指覆蓋胃腸道（含口腔）黏膜的發炎與潰瘍這個更廣泛的病況。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mucositis.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "c6e96c39b0cf",
+    "subject": "Multiple Myeloma",
+    "predicate": "is_a_type_of",
+    "object": "Cancer",
+    "context": {
+      "en-US": "Multiple Myeloma is a malignancy of terminally differentiated B lymphocytes (plasma cells) that accumulate in the bone marrow, produce a monoclonal immunoglobulin M-protein and cause end-organ damage (CRAB criteria), making it the second most common hematologic malignancy.",
+      "zh-TW": "Multiple Myeloma 是終末分化 B 淋巴球（漿細胞）的惡性腫瘤，腫瘤細胞在骨髓累積、產生單株免疫球蛋白（M-protein）並造成 CRAB 標準所列的臟器損傷，是第二常見的血液腫瘤。"
+    },
+    "confidence": 0.95,
+    "source_document": "Multiple Myeloma.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "3efe656e8203",
+    "subject": "CD38",
+    "predicate": "is_overexpressed_in",
+    "object": "Multiple Myeloma",
+    "context": {
+      "en-US": "Malignant plasma cells in Multiple Myeloma express extremely high levels of CD38, which makes CD38 the premier therapeutic target in the disease; loss of CD38 from the surface by trogocytosis is a key resistance mechanism to anti-CD38 antibodies.",
+      "zh-TW": "Multiple Myeloma 的惡性漿細胞極度高表達 CD38，使 CD38 成為該疾病最主要的治療標的；而透過 trogocytosis 自細胞表面剝除 CD38 則是對抗 anti-CD38 抗體的關鍵抗藥機制。"
+    },
+    "confidence": 0.95,
+    "source_document": "Multiple Myeloma.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "33d46f9369c6",
+    "subject": "Isatuximab",
+    "predicate": "targets",
+    "object": "CD38",
+    "context": {
+      "en-US": "Isatuximab is the second approved anti-CD38 monoclonal antibody (2020), binding a CD38 epitope distinct from daratumumab's and showing stronger direct induction of apoptosis; it is standard of care in Multiple Myeloma.",
+      "zh-TW": "Isatuximab 是第二個獲核准的 anti-CD38 單株抗體（2020 年），其結合的 CD38 表位與 Daratumumab 不同，且直接誘發凋亡的作用更強；它是 Multiple Myeloma 的標準治療。"
+    },
+    "confidence": 0.95,
+    "source_document": "Multiple Myeloma.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "9eecbde116b4",
+    "subject": "Daratumumab",
+    "predicate": "treats",
+    "object": "Multiple Myeloma",
+    "context": {
+      "en-US": "Daratumumab treats Multiple Myeloma in combination with IMiDs, proteasome inhibitors and steroids across newly diagnosed and relapsed/refractory settings, and is paired with Isatuximab in an investigational strategy to overcome CD38 downregulation.",
+      "zh-TW": "Daratumumab 與 IMiD、蛋白酶體抑制劑及類固醇併用，治療新診斷與復發／難治期的 Multiple Myeloma；目前也在研究性策略中與 Isatuximab 併用以克服 CD38 下調。"
+    },
+    "confidence": 0.9,
+    "source_document": "Multiple Myeloma.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "f0d846114fc6",
+    "subject": "Mus musculus",
+    "predicate": "is_a_model_organism_for",
+    "object": "Senescence",
+    "context": {
+      "en-US": "Mus musculus is the premier mammalian model organism for Senescence and Aging studies, owing to its short lifespan, genetic tractability and physiological similarity to humans; common models include naturally aged mice, irradiation-induced senescence, and BubR1 hypomorphic or p21 knockout strains.",
+      "zh-TW": "Mus musculus 因壽命短、遺傳易操作且與人類生理相似，是 Senescence 與 Aging 研究最主要的哺乳類模式生物；常見模型包括自然老化小鼠、輻射誘導衰老，以及 BubR1 低效或 p21 剔除品系。"
+    },
+    "confidence": 0.95,
+    "source_document": "Mus musculus.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "f1adeec96b5b",
+    "subject": "Mus musculus",
+    "predicate": "is_a_model_organism_for",
+    "object": "Alzheimer's Disease",
+    "context": {
+      "en-US": "Transgenic Mus musculus models such as 3xTg-AD, APP/PS1 and rTg(tauP301L)4510 reproduce aspects of Alzheimer's Disease pathology, making the mouse a key model for linking mitochondrial-senescence mechanisms to neurodegeneration.",
+      "zh-TW": "3xTg-AD、APP/PS1 與 rTg(tauP301L)4510 等轉殖 Mus musculus 模型可重現 Alzheimer's Disease 病理的若干面向，使小鼠成為連結粒線體—衰老機制與神經退化疾病的重要模式。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mus musculus.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "961157b88f3c",
+    "subject": "Senolytics",
+    "predicate": "is_studied_in",
+    "object": "Mus musculus",
+    "context": {
+      "en-US": "Mouse models are used to test senolytic interventions in vivo, allowing evaluation of whether clearing senescent cells extends lifespan or delays age-related disease phenotypes.",
+      "zh-TW": "小鼠模型被用於體內測試 Senolytics 介入的效果，可評估清除衰老細胞是否延長壽命或延緩與年齡相關的疾病表型。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mus musculus.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "0f9512c2a907",
+    "subject": "mTORC1",
+    "predicate": "promotes",
+    "object": "Muscle Hypertrophy",
+    "context": {
+      "en-US": "mTORC1 is the central anabolic driver of Muscle Hypertrophy. Mechanical tension and metabolic stress during resistance exercise activate the PI3K/Akt pathway and leucine sensing upstream of mTORC1, which raises translation initiation and boosts myofibrillar protein accretion. Sustained mTORC1 signalling is what makes a muscle grow rather than merely adapt.",
+      "zh-TW": "mTORC1 是 Muscle Hypertrophy 的核心合成代謝驅動因子。阻力運動期間的機械張力與代謝壓力會經由 PI3K/Akt 路徑與 leucine 感測在 mTORC1 上游活化它，進而提升轉譯起始並促進肌原纖維蛋白的累積。持續的 mTORC1 訊號正是肌肉生長而非僅止於適應的關鍵。"
+    },
+    "confidence": 0.95,
+    "source_document": "Muscle Hypertrophy.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "f7269fbf708c",
+    "subject": "FOXO",
+    "predicate": "inhibits",
+    "object": "Muscle Hypertrophy",
+    "context": {
+      "en-US": "FOXO transcription factors act as the principal brake on Muscle Hypertrophy. Activated FOXO drives expression of the ubiquitin ligases Atrogin-1 and MuRF1, routing myofibrillar protein to the Ubiquitin-Proteasome System for degradation and forcing a negative net protein balance that opposes muscle growth.",
+      "zh-TW": "FOXO 轉錄因子是抑制 Muscle Hypertrophy 的主要煞車。活化的 FOXO 會促進泛素連接酶 Atrogin-1 與 MuRF1 的表現，將肌原纖維蛋白送往 Ubiquitin-Proteasome System 降解，導致淨蛋白質平衡轉負，進而對抗肌肉生長。"
+    },
+    "confidence": 0.9,
+    "source_document": "Muscle Hypertrophy.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "ee2df58bc853",
+    "subject": "Ubiquitin-Proteasome System",
+    "predicate": "suppresses",
+    "object": "Muscle Hypertrophy",
+    "context": {
+      "en-US": "The Ubiquitin-Proteasome System degrades the same contractile proteins that hypertrophy must accumulate. Because Muscle Hypertrophy requires a positive net protein balance, suppressing proteasomal breakdown is mechanistically equivalent to stimulating synthesis; resistance training and adequate protein both work by tilting this balance.",
+      "zh-TW": "Ubiquitin-Proteasome System 會分解 hypertrophy 必須累積的同一批收縮蛋白。由於 Muscle Hypertrophy 需要淨蛋白質平衡為正，抑制蛋白酶體分解在機制上等同於促進合成；阻力訓練與充足蛋白質攝取都是藉由扭轉這個平衡而生效。"
+    },
+    "confidence": 0.85,
+    "source_document": "Muscle Hypertrophy.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "9c5d24a6b1cf",
+    "subject": "Creatine",
+    "predicate": "enhances",
+    "object": "Muscle Hypertrophy",
+    "context": {
+      "en-US": "Creatine supplementation is a first-line, evidence-based adjunct for Muscle Hypertrophy. By expanding the intramuscular phosphocreatine pool it raises training capacity and the anabolic response to resistance loading, letting heavier sets add more contractile protein over time.",
+      "zh-TW": "Creatine 補充是 Muscle Hypertrophy 的一線、具實證根據的輔助手段。藉由擴增肌肉內的磷酸肌酸庫，它能提升訓練能力與阻力負荷下的合成代謝反應，讓更重的組數隨時間累積更多收縮蛋白。"
+    },
+    "confidence": 0.85,
+    "source_document": "Muscle Hypertrophy.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "b5a43115045f",
+    "subject": "Urolithin A",
+    "predicate": "supports",
+    "object": "Muscle Hypertrophy",
+    "context": {
+      "en-US": "Urolithin A may augment Muscle Hypertrophy indirectly, by improving Mitochondria function, ATP supply and recovery between sessions. Better energy availability lets a trainee sustain the mechanical tension that is itself the anabolic stimulus, so the effect is permissive rather than direct.",
+      "zh-TW": "Urolithin A 可能透過間接方式促進 Muscle Hypertrophy：改善 Mitochondria 功能、ATP 供應以及組間恢復。更好的能量可用性讓訓練者能維持作為合成刺激本身的機械張力，因此其作用是允許性的而非直接的。"
+    },
+    "confidence": 0.7,
+    "source_document": "Muscle Hypertrophy.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "a4477cd03c08",
+    "subject": "Muscular Dystrophies (MD)",
+    "predicate": "is_caused_by",
+    "object": "Dystrophin",
+    "context": {
+      "en-US": "Dystrophin defects are the classic cause of Muscular Dystrophies (MD). Loss of functional dystrophin breaks the sarcolemmal linkage to the cytoskeleton, so contractions tear the muscle membrane and drive repeated fibre necrosis — the lesion underlying Duchenne and Becker dystrophy.",
+      "zh-TW": "Dystrophin 缺陷是 Muscular Dystrophies (MD) 的典型病因。功能性 dystrophin 流失會破壞肌膜與細胞骨架的連結，使收縮時撕裂肌膜並引發反覆的肌纖維壞死——這正是 Duchenne 與 Becker 肌營養不良症的病灶基礎。"
+    },
+    "confidence": 0.9,
+    "source_document": "Muscular Dystrophies (MD).md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "53a1852418fd",
+    "subject": "Muscular Dystrophies (MD)",
+    "predicate": "involves",
+    "object": "Inflammation",
+    "context": {
+      "en-US": "Muscular Dystrophies (MD) generate a chronic Inflammation secondary to the primary genetic lesion. Repeated fibre necrosis releases contents that recruit immune cells, and the resulting fibro-fatty replacement progressively reduces viable contractile tissue and force production.",
+      "zh-TW": "Muscular Dystrophies (MD) 會因初級遺傳病變而引發繼發的慢性 Inflammation。反覆的肌纖維壞死釋出細胞內容物並招募免疫細胞，隨後的纖維脂肪替換使可收縮的組織與力量產生逐步下降。"
+    },
+    "confidence": 0.85,
+    "source_document": "Muscular Dystrophies (MD).md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "100743b124c7",
+    "subject": "Muscular Dystrophies (MD)",
+    "predicate": "involves",
+    "object": "Muscle Atrophy",
+    "context": {
+      "en-US": "Progressive Muscle Atrophy is a defining feature of Muscular Dystrophies (MD). Because the primary damaged tissue is muscle itself, rather than the neuron as in most neurodegenerative disease, the loss of functional mass remains partly reversible with interventions that support anabolism and energy supply.",
+      "zh-TW": "漸進性的 Muscle Atrophy 是 Muscular Dystrophies (MD) 的定義性特徵。由於受損的主要組織是肌肉本身，而非多數神經退化疾病中的神經元，功能性肌量的流失仍可透過支持合成代謝與能量供應的介入部分逆轉。"
+    },
+    "confidence": 0.85,
+    "source_document": "Muscular Dystrophies (MD).md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "2e15c89831eb",
+    "subject": "Creatine Supplementation",
+    "predicate": "improves",
+    "object": "Muscular Dystrophies (MD)",
+    "context": {
+      "en-US": "Creatine Supplementation improves strength and function in Muscular Dystrophies (MD). A Cochrane systematic review (Kley et al.) found high-quality RCT evidence that short- and medium-term creatine raises muscle strength and improves functional outcomes, results that are more promising than in neurodegenerative disease where neuronal loss caps reversibility.",
+      "zh-TW": "Creatine Supplementation 可改善 Muscular Dystrophies (MD) 的肌力與功能。Cochrane 系統性回顧（Kley 等）找到高品質 RCT 證據，顯示短期與中期 creatine 可提升肌力並改善功能性結局；其結果比在神經退化疾病中更有前景，因為後者受神經元流失限制、可逆性較低。"
+    },
+    "confidence": 0.9,
+    "source_document": "Muscular Dystrophies (MD).md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "e247afe05663",
+    "subject": "Oligodendrocytes",
+    "predicate": "produces",
+    "object": "Myelin",
+    "context": {
+      "en-US": "Oligodendrocytes produce Myelin in the central nervous system. Each oligodendrocyte extends processes that wrap multiple axons, generating the multilamellar lipid-protein sheath that electrically insulates axons and clusters sodium channels at Nodes of Ranvier for saltatory conduction.",
+      "zh-TW": "Oligodendrocytes 在中樞神經系統製造 Myelin。每一個 oligodendrocyte 伸出突起並包覆多條軸突，形成多層脂質—蛋白質鞘，於電學上絕緣軸突並將鈉離子通道聚集於 Ranvier 結節以進行跳躍式傳導。"
+    },
+    "confidence": 0.95,
+    "source_document": "Myelin.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "b97d6db520c1",
+    "subject": "Myelin",
+    "predicate": "contains",
+    "object": "Cholesterol",
+    "context": {
+      "en-US": "Cholesterol is a major lipid component of Myelin, which is roughly 70–80% lipid by dry weight. Together with Galactocerebroside-type glycolipids and Sphingomyelin, it enforces the compact, hydrophobic, high-resistance membrane that makes myelin a poor conductor and a good insulator.",
+      "zh-TW": "Cholesterol 是 Myelin 的主要脂質成分；Myelin 以乾重計約有 70–80% 為脂質。它與 Galactocerebroside 類醣脂及 Sphingomyelin 共同構成緊密、疏水、高電阻的膜，使髓鞘成為不良導體與良好絕緣體。"
+    },
+    "confidence": 0.9,
+    "source_document": "Myelin.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "5bc26e2db03f",
+    "subject": "Myelin",
+    "predicate": "contains",
+    "object": "Sphingomyelin",
+    "context": {
+      "en-US": "Sphingomyelin is one of the major lipids of CNS Myelin, sitting alongside cholesterol in the compacted sheath. Sphingolipid content is what sets the sheath's low dielectric environment, and a defect in sphingolipid breakdown — sphingomyelinase activity — is a recognized mechanism of myelin destruction in leukodystrophies.",
+      "zh-TW": "Sphingomyelin 是中樞 Myelin 的主要脂質之一，與 cholesterol 一同存在於壓實的髓鞘中。鞘磷脂的含量決定了髓鞘低介電的環境；而鞘磷脂分解的缺陷——即 sphingomyelinase 活性——是 leukodystrophies 中髓鞘遭破壞的公認機制。"
+    },
+    "confidence": 0.9,
+    "source_document": "Myelin.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "4e29f0807a89",
+    "subject": "Multiple Sclerosis",
+    "predicate": "impairs",
+    "object": "Myelin",
+    "context": {
+      "en-US": "Multiple Sclerosis impairs Myelin through an autoimmune, T cell-mediated attack on myelin antigens such as MBP, PLP and MOG. Stripping the sheath in the central nervous system disrupts saltatory conduction and removes the trophic signals myelin provides to axons, so demyelination converts an inflammatory lesion into irreversible axonal degeneration.",
+      "zh-TW": "Multiple Sclerosis 透過針對 MBP、PLP 與 MOG 等髓鞘抗原的自體免疫性 T 細胞攻擊損害 Myelin。在中樞神經系統剝除髓鞘會破壞跳躍式傳導，並移除髓鞘提供給軸突的營養訊號，因此脫髓鞘會把發炎性病灶轉為不可逆的軸突變性。"
+    },
+    "confidence": 0.9,
+    "source_document": "Myelin.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "df110f276996",
+    "subject": "Aging",
+    "predicate": "impairs",
+    "object": "Myelin",
+    "context": {
+      "en-US": "Aging progressively degrades Myelin: myelin is lost along axons, oligodendrocytes generate fewer new wraps, and the resulting conduction slowing correlates with Cognitive Decline. Because myelin also supplies axonal energy and survival signals, age-related myelin loss is a plausible contributor to neurodegeneration.",
+      "zh-TW": "Aging 會逐步使 Myelin 退化：軸突上的髓鞘流失，oligodendrocyte 生成的新髓鞘減少，隨之而來的傳導減慢與 Cognitive Decline 相關。由於髓鞘同時供應軸突能量與存活訊號，年齡相關的髓鞘流失是神經退化的合理成因之一。"
+    },
+    "confidence": 0.8,
+    "source_document": "Myelin.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "ce5ce1bd4d78",
+    "subject": "Myeloperoxidase",
+    "predicate": "is_produced_by",
+    "object": "Neutrophils",
+    "context": {
+      "en-US": "Neutrophils are the principal source of Myeloperoxidase, storing it in their azurophilic granules at high concentration. Release of this pre-formed reservoir during the respiratory burst is what converts a neutrophil into a killing effector, which is why elevated MPO doubles as a marker of neutrophil activation.",
+      "zh-TW": "Neutrophils 是 Myeloperoxidase 的主要來源，並以高濃度儲存在其嗜天青顆粒中。呼吸爆發時釋放這個預先形成的儲存庫，正是使 neutrophil 轉化為殺傷效應細胞的機制，因此 MPO 升高也常作為 neutrophil 活化的標記。"
+    },
+    "confidence": 0.95,
+    "source_document": "Myeloperoxidase.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "cf098534a921",
+    "subject": "Myeloperoxidase",
+    "predicate": "oxidizes",
+    "object": "Epinephrine",
+    "context": {
+      "en-US": "Myeloperoxidase oxidizes Epinephrine to Adrenochrome. This reaction is favoured by the highly oxidative environment of the neutrophil respiratory burst, which is why adrenochrome and related aminochromes accumulate wherever MPO is released — oxidative stress, and notably in the adrenal and cardiac tissue hit in the context of Adrenochrome.",
+      "zh-TW": "Myeloperoxidase 會將 Epinephrine 氧化為 Adrenochrome。此反應受 neutrophil 呼吸爆發所營造的高度氧化環境促進，因此 MPO 釋放處就會累積 adrenochrome 與相關的 aminochrome——在氧化壓力情境中皆然，Adrenochrome 相關情境下的腎上腺與心肌組織尤其明顯。"
+    },
+    "confidence": 0.85,
+    "source_document": "Myeloperoxidase.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "19af2d48ff6d",
+    "subject": "Myeloperoxidase",
+    "predicate": "requires",
+    "object": "Hydrogen Peroxide",
+    "context": {
+      "en-US": "Myeloperoxidase requires Hydrogen Peroxide as its obligatory co-substrate. The heme iron cycles between oxidation states, using peroxide to reduce chloride or iodide, and it is this peroxide-driven cycle that couples the enzyme to the Reactive Oxygen Species burst of the neutrophil.",
+      "zh-TW": "Myeloperoxidase 需要 Hydrogen Peroxide 作為其必備的共同受質。血基質鐵在氧化態之間循環，利用過氧化物還原氯離子或碘離子；正是這個由過氧化物驅動的循環，把酵素與 neutrophil 的 Reactive Oxygen Species 爆發連結起來。"
+    },
+    "confidence": 0.9,
+    "source_document": "Myeloperoxidase.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "0739da8181ea",
+    "subject": "Myeloperoxidase",
+    "predicate": "contributes_to",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "Excessive Myeloperoxidase activity contributes to Oxidative Stress. The same HOCl chemistry that kills pathogens causes collateral oxidative damage to host tissue, which is why chronic MPO elevation is implicated in the vessel wall injury of Atherosclerosis and in tissue damage during myocardial infarction.",
+      "zh-TW": "過度的 Myeloperoxidase 活性會促成 Oxidative Stress。同一套殺死病原體的 HOCl 化學作用也會對宿主組織造成附帶的氧化損傷，因此 MPO 慢性升高被認為與 Atherosclerosis 的血管壁傷害，以及心肌梗塞期間的組織損傷有關。"
+    },
+    "confidence": 0.85,
+    "source_document": "Myeloperoxidase.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "70e88b53e33e",
+    "subject": "SIRT1",
+    "predicate": "protects_against",
+    "object": "Myocardial Ischemia-Reperfusion Injury",
+    "context": {
+      "en-US": "SIRT1 protects against Myocardial Ischemia-Reperfusion Injury. Cardiac-specific SIRT1 knockout enlarges infarct size, whereas overexpression upregulates the FoxO1/MnSOD antioxidant pathway and downregulates the pro-apoptotic caspase-3/Bax axis. Upstream, miR-132 inhibition and lncRNA Oip5-as1 converge on a SIRT1/AMPK/PGC-1α module.",
+      "zh-TW": "SIRT1 可保護心臟免受 Myocardial Ischemia-Reperfusion Injury。心肌特異性 SIRT1 剔除會擴大梗死面積，而過量表現則會上調 FoxO1/MnSOD 抗氧化路徑並下調促凋亡的 caspase-3/Bax 軸。上游方面，miR-132 抑制與 lncRNA Oip5-as1 都收斂到 SIRT1/AMPK/PGC-1α 模組。"
+    },
+    "confidence": 0.9,
+    "source_document": "Myocardial Ischemia-Reperfusion Injury.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "7fce431a48a6",
+    "subject": "SIRT3",
+    "predicate": "protects_against",
+    "object": "Myocardial Ischemia-Reperfusion Injury",
+    "context": {
+      "en-US": "SIRT3 protects against Myocardial Ischemia-Reperfusion Injury as the primary mitochondrial deacetylase. SIRT3 deficiency exacerbates reperfusion damage, because the enzyme normally sustains oxidative phosphorylation and mitochondrial quality control precisely when the mitochondrion is stressed during reflow.",
+      "zh-TW": "SIRT3 作為主要的粒線體去乙醯化酶，保護心臟免受 Myocardial Ischemia-Reperfusion Injury。SIRT3 功能缺失會加重再灌流傷害，因為此酵素正是在再流動這個粒線體受壓的時刻維持氧化磷酸化與粒線體品質管制。"
+    },
+    "confidence": 0.9,
+    "source_document": "Myocardial Ischemia-Reperfusion Injury.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "bca00770789c",
+    "subject": "SIRT6",
+    "predicate": "protects_against",
+    "object": "Myocardial Ischemia-Reperfusion Injury",
+    "context": {
+      "en-US": "SIRT6 protects against Myocardial Ischemia-Reperfusion Injury through FoxO3α-dependent antioxidant defense and by attenuating the accumulation of the lysosomal adapter CHMP2B during reperfusion stress.",
+      "zh-TW": "SIRT6 透過 FoxO3α 依賴的抗氧化防禦，並藉由減少再灌流壓力下溶小體接合蛋白 CHMP2B 的累積，保護心臟免受 Myocardial Ischemia-Reperfusion Injury。"
+    },
+    "confidence": 0.85,
+    "source_document": "Myocardial Ischemia-Reperfusion Injury.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "33ab8c9b95e5",
+    "subject": "SIRT4",
+    "predicate": "protects_against",
+    "object": "Myocardial Ischemia-Reperfusion Injury",
+    "context": {
+      "en-US": "SIRT4 protects against Myocardial Ischemia-Reperfusion Injury. Its expression is downregulated after the ischaemic-reperfusion event, while forced overexpression decreases infarct size through preservation of mitochondrial integrity and reduced apoptosis.",
+      "zh-TW": "SIRT4 可保護免受 Myocardial Ischemia-Reperfusion Injury。其表現在缺血—再灌流事件後被下調，而強制過量表現則透過維持粒線體完整性與減少凋亡而縮小梗死面積。"
+    },
+    "confidence": 0.85,
+    "source_document": "Myocardial Ischemia-Reperfusion Injury.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "edea92c27bd1",
+    "subject": "SIRT5",
+    "predicate": "protects_against",
+    "object": "Myocardial Ischemia-Reperfusion Injury",
+    "context": {
+      "en-US": "SIRT5 protects against Myocardial Ischemia-Reperfusion Injury: loss of SIRT5 increases infarct size. The effect is mediated by its regulation of protein succinylation, placing a lysine post-translational modification on the list of post-translational modifications that govern infarct outcome.",
+      "zh-TW": "SIRT5 可保護免受 Myocardial Ischemia-Reperfusion Injury：SIRT5 流失會增加梗死面積。此效應由其對蛋白質 succinylation 的調控所中介，使離胺酸轉譯後修飾成為影響梗死結局的轉譯後修飾之一。"
+    },
+    "confidence": 0.8,
+    "source_document": "Myocardial Ischemia-Reperfusion Injury.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "6f97643a243a",
+    "subject": "Atherosclerosis",
+    "predicate": "is_associated_with",
+    "object": "Myocardial Ischemia-Reperfusion Injury",
+    "context": {
+      "en-US": "Atherosclerosis is the coronary artery disease predisposing to Myocardial Ischemia-Reperfusion Injury. Narrowed, unstable plaques set up the ischaemic event whose reperfusion — mandated by the standard of care in acute myocardial infarction — then triggers the oxidative burst, calcium overload and mitochondrial permeability transition that expand the infarct.",
+      "zh-TW": "Atherosclerosis 是導致 Myocardial Ischemia-Reperfusion Injury 的冠狀動脈疾病。狹窄且不穩定的斑塊造成缺血事件，而急性心肌 infarction 的標準處置所要求的再灌流，隨即引發氧化爆發、鈣超載與粒線體通透性轉換，使梗死範圍擴大。"
+    },
+    "confidence": 0.8,
+    "source_document": "Myocardial Ischemia-Reperfusion Injury.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "be4a120e9f89",
+    "subject": "Myostatin",
+    "predicate": "inhibits",
+    "object": "Muscle Hypertrophy",
+    "context": {
+      "en-US": "Myostatin is the principal negative regulator of Muscle Hypertrophy. Binding activin type IIB receptors and recruiting ALK4/5 to phosphorylate SMAD2/3, it represses myogenic genes, blocks myoblast proliferation and differentiation, and antagonizes Akt/mTORC1 anabolic signalling — the brake that loss-of-function 'double-muscling' mutations remove.",
+      "zh-TW": "Myostatin 是 Muscle Hypertrophy 的主要負向調節因子。它結合 activin type IIB 受體並招募 ALK4/5 去磷酸化 SMAD2/3，抑制肌源性基因、阻斷 myoblast 的增殖與分化，並拮抗 Akt/mTORC1 的合成代謝訊號——這正是功能喪失型「double-muscling」突變所解除的煞車。"
+    },
+    "confidence": 0.95,
+    "source_document": "Myostatin.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "afc5a9d627bf",
+    "subject": "Myostatin",
+    "predicate": "promotes",
+    "object": "Muscle Atrophy",
+    "context": {
+      "en-US": "Myostatin promotes Muscle Atrophy. In addition to repressing myogenic transcription, it drives protein catabolism and antagonizes Akt/mTORC1 signalling, so the net effect of myostatin signalling is loss of contractile mass — the reason it is a therapeutic target in Sarcopenia, Cachexia and muscular dystrophy.",
+      "zh-TW": "Myostatin 會促進 Muscle Atrophy。除了抑制肌源性轉錄外，它還促進蛋白質分解代謝並拮抗 Akt/mTORC1 訊號，因此 myostatin 訊號的淨效應就是收縮性肌量的流失——這也是它在 Sarcopenia、Cachexia 與肌營養不良症中成為治療標的原因。"
+    },
+    "confidence": 0.95,
+    "source_document": "Myostatin.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "34f8e32dc419",
+    "subject": "Myostatin",
+    "predicate": "inhibits",
+    "object": "mTORC1",
+    "context": {
+      "en-US": "Myostatin inhibits mTORC1-driven anabolism. By antagonizing Akt signalling it blocks the translation-initiation machinery that drives protein accretion, and by promoting catabolism it tilts the net balance negative — coupling the two arms of muscle mass regulation to a single extracellular ligand.",
+      "zh-TW": "Myostatin 抑制 mTORC1 驅動的合成代謝。它藉由拮抗 Akt 訊號阻斷驅動蛋白質累積的轉譯起始機制，並藉由促進分解代謝使淨平衡轉負——把肌量調控的兩端耦合到單一細胞外配體上。"
+    },
+    "confidence": 0.9,
+    "source_document": "Myostatin.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "15e6e3aba76c",
+    "subject": "Myostatin",
+    "predicate": "activates",
+    "object": "SMAD",
+    "context": {
+      "en-US": "Myostatin signals through the SMAD pathway. After binding activin type IIB receptors it recruits ALK4/5, whose kinase activity phosphorylates SMAD2/3; these complexes then enter the nucleus and repress the myogenic programme that would otherwise build muscle.",
+      "zh-TW": "Myostatin 透過 SMAD 路徑傳遞訊號。結合 activin type IIB 受體後，它招募 ALK4/5，由其激酶活性磷酸化 SMAD2/3；這些複合體隨後進入細胞核，抑制原本會建構肌肉的肌源性計畫。"
+    },
+    "confidence": 0.9,
+    "source_document": "Myostatin.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "0fe50b656e91",
+    "subject": "Myostatin",
+    "predicate": "is_a_target_in",
+    "object": "Cachexia",
+    "context": {
+      "en-US": "Myostatin is a target in Cachexia and Sarcopenia. Because blocking myostatin raises muscle mass, strength and often reduces adiposity, anti-myostatin antibodies, ACVR2B ligand traps, follistatin overexpression and SARM-based combinations are all pursued to reverse the wasting of these conditions; myostatin inhibition also improves bone density, linking muscle and skeletal health in Aging.",
+      "zh-TW": "Myostatin 是 Cachexia 與 Sarcopenia 的治療標的。由於阻斷 myostatin 可提升肌量與肌力並常伴隨脂肪減少，抗 myostatin 抗體、ACVR2B 配體陷阱、follistatin 過量表現與 SARM 組合皆被用來逆轉這些疾病的消耗狀態；myostatin 抑制也能改善骨密度，將肌肉與骨骼健康在 Aging 中連結起來。"
+    },
+    "confidence": 0.8,
+    "source_document": "Myostatin.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "19aed6f7f22b",
+    "subject": "Myricetin",
+    "predicate": "is_a_type_of",
+    "object": "Flavonol",
+    "context": {
+      "en-US": "Myricetin is a Flavonol within the wider Flavonoids class, a polyphenol found across many fruits, vegetables and medicinal herbs. Its reported antioxidant and anti-inflammatory activity follows the general structure-activity pattern of flavonols, and it was screened alongside Fisetin, Quercetin and Luteolin.",
+      "zh-TW": "Myricetin 是更廣泛 Flavonoids 類別中的 Flavonol，為存在於多種水果、蔬菜與藥草的多酚。其已知的抗氧化與抗發炎活性符合 flavonol 一般的結構—活性型態，並與 Fisetin、Quercetin、Luteolin 一同接受篩選。"
+    },
+    "confidence": 0.9,
+    "source_document": "Myricetin.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "00f34aa6b0a6",
+    "subject": "Myricetin",
+    "predicate": "is_associated_with",
+    "object": "Senolytic",
+    "context": {
+      "en-US": "Myricetin showed weak senotherapeutic activity in the ten-flavonoid screen reported by Yousefzadeh et al. (2018). Tested at 5 μM in Ercc1-null MEFs, it was clearly inferior to Fisetin, which is why myricetin is not regarded as a leading Senolytic despite sharing the flavonol scaffold.",
+      "zh-TW": "在 Yousefzadeh 等（2018）報告的十種 flavonoid 篩選中，Myricetin 的 senotherapeutic 活性偏弱。它在 Ercc1 缺失的 MEF 中以 5 μM 測試，表現明顯不如 Fisetin；因此儘管共享 flavonol 骨架，myricetin 並不被視為領先的 Senolytic。"
+    },
+    "confidence": 0.85,
+    "source_document": "Myricetin.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "afedddb7f2a3",
+    "subject": "Myricetin",
+    "predicate": "enhances",
+    "object": "Antioxidant",
+    "context": {
+      "en-US": "Myricetin contributes to Antioxidant capacity and is commonly listed alongside Fisetin and Quercetin among dietary flavonoid antioxidants. The evidence base is largely in vitro and epidemiological rather than interventional, so the claim is about intrinsic redox activity rather than proven clinical benefit.",
+      "zh-TW": "Myricetin 有助於提升 Antioxidant 能力，並常與 Fisetin、Quercetin 一同被列為膳食類黃酮抗氧化劑。相關證據多來自體外與流行病學研究而非介入性試驗，因此此說法指的本質是內源性氧化還原活性，而非已證實的臨床效益。"
+    },
+    "confidence": 0.7,
+    "source_document": "Myricetin.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "7784fd184311",
+    "subject": "Myxomatous Mitral Valve Disease",
+    "predicate": "is_associated_with",
+    "object": "Senescence",
+    "context": {
+      "en-US": "Myxomatous Mitral Valve Disease (MMVD) is characterized by a senescent phenotype in activated valve interstitial cells. Senescent aVICs show impaired autophagic flux with immature autophagosomes, and the resulting CDKN2A/p16 and CDKN1A/p21 burden drives SASP secretion, so targeting the senescence axis is a disease-modifying strategy rather than mere cytprotection.",
+      "zh-TW": "Myxomatous Mitral Valve Disease (MMVD) 的特徵是活化的瓣膜間質細胞呈現 senescent 表型。senescent aVIC 的 autophagic flux 受損並出現未成熟 autophagosome，隨後 CDKN2A/p16 與 CDKN1A/p21 的累積驅動 SASP 分泌，因此以 senescence 軸為標的是一種疾病修正策略，而不只是細胞保護。"
+    },
+    "confidence": 0.9,
+    "source_document": "Myxomatous Mitral Valve Disease.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "6b23f8628a91",
+    "subject": "p62",
+    "predicate": "degrades",
+    "object": "p16",
+    "context": {
+      "en-US": "p62 (SQSTM1) directly degrades p16 through selective autophagy. In canine MMVD valve cells, p62-mediated selective autophagy clears the CDK inhibitor independent of the ubiquitin-proteasome system, providing a direct molecular bridge from mTOR inhibition to Autophagy to CDKI clearance and hence to reduced SASP.",
+      "zh-TW": "p62 (SQSTM1) 透過選擇性自噬直接降解 p16。在犬 MMVD 瓣膜細胞中，p62 媒介的選擇性自噬可獨立於泛素—蛋白酶體系統清除此 CDK 抑制因子，提供從 mTOR 抑制到 Autophagy、到 CDK 抑制因子清除、再到 SASP 減少的分子橋樑。"
+    },
+    "confidence": 0.85,
+    "source_document": "Myxomatous Mitral Valve Disease.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "45945dee28e8",
+    "subject": "p62",
+    "predicate": "degrades",
+    "object": "p21 CIP1",
+    "context": {
+      "en-US": "p62 (SQSTM1) also directly degrades p21, the second CDK inhibitor cleared in Myxomatous Mitral Valve Disease. Because both p16 and p21 impose the senescence arrest, their combined p62-mediated removal explains how restoring Autophagy flux can reverse the senescent phenotype in aVICs.",
+      "zh-TW": "p62 (SQSTM1) 也直接降解 p21，即在 Myxomatous Mitral Valve Disease 中被清除的第二個 CDK 抑制因子。由於 p16 與 p21 共同造成 senescence 停滯，兩者經 p62 媒介的清除，便解釋了恢復 Autophagy flux 為何能逆轉 aVIC 的 senescent 表型。"
+    },
+    "confidence": 0.85,
+    "source_document": "Myxomatous Mitral Valve Disease.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "1c488129b5f2",
+    "subject": "Rapamycin",
+    "predicate": "reverses",
+    "object": "Myxomatous Mitral Valve Disease",
+    "context": {
+      "en-US": "Rapamycin reverses the senescent valve-cell phenotype of Myxomatous Mitral Valve Disease. As an mTOR inhibitor it de-represses mTORC1-dependent autophagy, restoring autophagic flux in aVICs and lowering CDKN2A/p16, CDKN1A/p21 and SASP output; ATG7/ATG3 overexpression reproduces the effect, while ATG deficiency induces it.",
+      "zh-TW": "Rapamycin 可逆轉 Myxomatous Mitral Valve Disease 的 senescent 瓣膜細胞表型。作為 mTOR 抑制劑，它解除對 mTORC1 依賴性自噬的壓制，恢復 aVIC 的 autophagic flux，並降低 CDKN2A/p16、CDKN1A/p21 與 SASP 輸出；ATG7/ATG3 的過量表現可重現此效應，而 ATG 缺乏則誘發之。"
+    },
+    "confidence": 0.85,
+    "source_document": "Myxomatous Mitral Valve Disease.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "4b8c03acdf4d",
+    "subject": "TGF-beta",
+    "predicate": "activates",
+    "object": "mTORC1",
+    "context": {
+      "en-US": "TGF-beta activates a PI3K/AKT/mTORC1 cascade in valve interstitial cells of Myxomatous Mitral Valve Disease. The TGF-beta signalling axis drives both the myofibroblast transition and senescence in canine VICs, so inhibiting mTORC1 downstream simultaneously addresses the fibrotic and the senescent arm of the disease.",
+      "zh-TW": "在 Myxomatous Mitral Valve Disease 的瓣膜間質細胞中，TGF-beta 會活化 PI3K/AKT/mTORC1 級聯反應。TGF-beta 訊號軸在犬 VIC 中同時驅動肌成纖維細胞轉分化與 senescence，因此抑制其下游的 mTORC1 可同時處理此疾病的纖維化與 senescent 兩條軸。"
+    },
+    "confidence": 0.8,
+    "source_document": "Myxomatous Mitral Valve Disease.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "1525099cd1de",
+    "subject": "N-Acetylcysteine",
+    "predicate": "increases",
+    "object": "Glutathione",
+    "context": {
+      "en-US": "N-Acetylcysteine raises intracellular Glutathione. Cysteine is the rate-limiting residue of GSH synthesis, and NAC supplies bioavailable cysteine after deacetylation; replenishing the GSH pool is the principal mechanism behind NAC's reduction of Oxidative Stress and its clinical use in acetaminophen poisoning, where it restores hepatic GSH and prevents NAPQI adduction.",
+      "zh-TW": "N-Acetylcysteine 會提升細胞內 Glutathione。Cysteine 是 GSH 合成的限速殘基，而 NAC 在去乙醯化後供應可利用的 cysteine；補充 GSH 池正是 NAC 降低 Oxidative Stress 的主要機制，也是其在乙醯胺酚中毒的臨床用途——恢復肝臟 GSH 並阻止 NAPQI 加合。"
+    },
+    "confidence": 0.95,
+    "source_document": "N-Acetylcysteine.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "c96eca811027",
+    "subject": "N-Acetylcysteine",
+    "predicate": "inhibits",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "N-Acetylcysteine modulates redox-sensitive signalling including the NF-κB and MAPK pathways. Because NF-κB activity depends on the cellular redox state, scavenging reactive radicals and lifting Oxidative Stress indirectly dampens inflammatory gene transcription, giving NAC a mechanism that extends beyond free-radical scavenging.",
+      "zh-TW": "N-Acetylcysteine 會調節包括 NF-κB 與 MAPK 在內的氧化還原敏感訊號傳遞。由於 NF-κB 活性取決於細胞的氧化還原狀態，清除活性自由基並降低 Oxidative Stress 便間接抑制發炎性基因轉錄，使 NAC 的作用機制超越單純的自由基清除。"
+    },
+    "confidence": 0.8,
+    "source_document": "N-Acetylcysteine.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "a1d2b08bfe5a",
+    "subject": "N-Acetylcysteine",
+    "predicate": "is_a_component_of",
+    "object": "GlyNAC",
+    "context": {
+      "en-US": "N-Acetylcysteine is a core component of the GlyNAC supplement (glycine plus NAC). In a clinical study of older adults, GlyNAC improved several hallmarks of Aging at once — oxidative stress, Inflammation, insulin resistance, Mitochondrial Dysfunction, endothelial function and physical performance — which supports the oxidative stress–mitochondrial theory of aging.",
+      "zh-TW": "N-Acetylcysteine 是 GlyNAC 保健食品（glycine 加 NAC）的核心成分。在一項針對老年人的臨床研究中，GlyNAC 同時改善了多項 Aging 的特徵——氧化壓力、Inflammation、胰島素阻抗、Mitochondrial Dysfunction、內皮功能與體能表現——此結果支持「氧化壓力—粒線體」的老化理論。"
+    },
+    "confidence": 0.9,
+    "source_document": "N-Acetylcysteine.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "fb28e3441733",
+    "subject": "N-Formylkynurenine",
+    "predicate": "is_produced_by",
+    "object": "IDO1",
+    "context": {
+      "en-US": "N-Formylkynurenine is produced by IDO1 activity on Tryptophan. IDO1 opens the indole ring of tryptophan at the 2,3-position in an O2-dependent reaction driven by its heme iron centre, yielding the formylated intermediate that is the first committed step of the kynurenine pathway.",
+      "zh-TW": "N-Formylkynurenine 由 IDO1 作用於 Tryptophan 而產生。IDO1 以血基質鐵中心驅動，在需氧反應中切開 tryptophan 的吲哚環 2,3 位，產出這個甲醯化中間產物——它是 kynurenine 路徑的第一個承諾步驟。"
+    },
+    "confidence": 0.95,
+    "source_document": "N-Formylkynurenine.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "03cda5ec1da0",
+    "subject": "N-Formylkynurenine",
+    "predicate": "is_produced_by",
+    "object": "TDO",
+    "context": {
+      "en-US": "TDO also produces N-Formylkynurenine, but in a tissue-restricted way: hepatic tryptophan dioxygenase runs the same oxidative deamination. Having IDO1 and TDO generate the identical intermediate means tryptophan catabolism can be targeted at either entry point, and that N-Formylkynurenine is not a marker of one specific enzyme's activity.",
+      "zh-TW": "TDO 也會產生 N-Formylkynurenine，但侷限於特定組織：肝臟的 tryptophan dioxygenase 執行相同的氧化脫胺反應。由於 IDO1 與 TDO 生成相同的中間產物，表示 tryptophan 分解可在任一入口被標定，也表示 N-Formylkynurenine 並非某一特定酵素活性的專一標記。"
+    },
+    "confidence": 0.9,
+    "source_document": "N-Formylkynurenine.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "74b1a0af961d",
+    "subject": "Tryptophan",
+    "predicate": "is_precursor_of",
+    "object": "N-Formylkynurenine",
+    "context": {
+      "en-US": "Tryptophan is the precursor of N-Formylkynurenine in both enzymatic and non-enzymatic routes. Beyond IDO1/TDO, Reactive Oxygen Species can oxidize tryptophan residues within proteins non-enzymatically, in which case N-Formylkynurenine functions instead as a covalent marker of protein oxidative damage in states of Oxidative Stress such as Aging, Inflammation and Cataract.",
+      "zh-TW": "Tryptophan 在酵素性與非酵素性途徑中都是 N-Formylkynurenine 的前驅物。除 IDO1/TDO 外，Reactive Oxygen Species 可非酵素地氧化蛋白質中的 tryptophan 殘基；此時 N-Formylkynurenine 反而作為蛋白質氧化損傷的共價標記，出現在 Aging、Inflammation 與 Cataract 等 Oxidative Stress 狀態中。"
+    },
+    "confidence": 0.9,
+    "source_document": "N-Formylkynurenine.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "d2929f88825d",
+    "subject": "N-Formylkynurenine",
+    "predicate": "is_associated_with",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "N-Formylkynurenine is associated with Oxidative Stress as a readout rather than a cause. Because ROS-mediated tryptophan oxidation makes it non-enzymatically, its abundance tracks the oxidative burden on proteins; because the enzyme route is rapidly cleared, high levels point to oxidative conditions rather than high IDO1/TDO flux.",
+      "zh-TW": "N-Formylkynurenine 與 Oxidative Stress 的關聯屬於讀值而非病因。由於 ROS 媒介的 tryptophan 氧化可使其非酵素性生成，其濃度會追蹤蛋白質承受的氧化負擔；又因酵素途徑產物被迅速清除，高濃度指向氧化狀態而非高 IDO1/TDO 通量。"
+    },
+    "confidence": 0.75,
+    "source_document": "N-Formylkynurenine.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "8db530e19435",
+    "subject": "METTL3",
+    "predicate": "produces",
+    "object": "N6-methyladenosine",
+    "context": {
+      "en-US": "METTL3 is the catalytic subunit of the writer complex that deposits N6-methyladenosine on mRNA co-transcriptionally, working with METTL14 and accessory proteins such as WTAP and VIRMA. It methylates roughly 0.1–0.4% of adenosines, preferentially in the DRACH consensus motif near stop codons, 3′ UTRs and long internal exons.",
+      "zh-TW": "METTL3 是催化次單元，與 METTL14 及 WTAP、VIRMA 等輔助蛋白共同組成 writer 複合體，於轉錄時在 mRNA 上沉積 N6-methyladenosine。它甲基化約 0.1–0.4% 的腺苷，偏好位於終止密碼子、3′ UTR 與長內含子附近的 DRACH 共識序列。"
+    },
+    "confidence": 0.95,
+    "source_document": "N6-methyladenosine.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "ad25c9a1a535",
+    "subject": "METTL14",
+    "predicate": "is_associated_with",
+    "object": "N6-methyladenosine",
+    "context": {
+      "en-US": "METTL14 is the scaffolding partner of METTL3 in the writer complex for N6-methyladenosine, stabilising the methyltransferase and shaping which adenosines are modified. In senescence the METTL3–METTL14 complex also redistributes genome-wide and accumulates at enhancers of SASP genes, an activity-independent structural role.",
+      "zh-TW": "METTL14 是 N6-methyladenosine writer 複合體中 METTL3 的支架夥伴，負責穩定甲基轉移酶並決定哪些腺苷被修飾。在 senescence 中，METTL3–METTL14 複合體還會全基因組重新分布並累積於 SASP 基因的增強子，屬於不依賴催化活性的結構性角色。"
+    },
+    "confidence": 0.9,
+    "source_document": "N6-methyladenosine.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "0249e92121b0",
+    "subject": "N6-methyladenosine",
+    "predicate": "regulates",
+    "object": "SASP",
+    "context": {
+      "en-US": "N6-methyladenosine regulates SASP at two levels. Post-transcriptionally, m6A marks on SASP-related transcripts modulate their stability and translation, while the writer complex promotes enhancer–promoter looping at SASP loci. YTHDF2 promotes decay of marked transcripts and YTHDC1 influences splicing and export, making m6A turnover a rapid rheostat over secretome output.",
+      "zh-TW": "N6-methyladenosine 在兩個層次上調控 SASP。在轉錄後層次，SASP 相關轉錄本上的 m6A 標記調節其穩定性與轉譯，而 writer 複合體則促進 SASP 位點的增強子—啟動子環化。YTHDF2 促進帶標記轉錄本的降解，YTHDC1 影響剪接與輸出，使 m6A 周轉成為分泌組輸出的快速調節閥。"
+    },
+    "confidence": 0.8,
+    "source_document": "N6-methyladenosine.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "0ff113c09254",
+    "subject": "N6-methyladenosine",
+    "predicate": "is_a_target_for",
+    "object": "Senomorphic",
+    "context": {
+      "en-US": "N6-methyladenosine is a target for Senomorphic strategies. Since senomorphics aim to dampen SASP without killing senescent cells, the enhancer-looping function of the m6A writer complex is a plausible lever: METTL3 inhibitors such as STM2457 and FTO inhibitors are being pursued, and rewiring m6A could blunt the secretome while preserving the arrested cell.",
+      "zh-TW": "N6-methyladenosine 是 Senomorphic 策略的標的。由於 senomorphics 旨在抑制 SASP 而不殺死 senescent 細胞，m6A writer 複合體的增強子環化功能便成為合理的著力點：METTL3 抑制劑如 STM2457 與 FTO 抑制劑正被開發，而重新布署 m6A 訊號可在保留停滯細胞的同時削弱分泌組。"
+    },
+    "confidence": 0.65,
+    "source_document": "N6-methyladenosine.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "efc2079ad5d1",
+    "subject": "NAD+ Biosynthesis",
+    "predicate": "produces",
+    "object": "NAD+",
+    "context": {
+      "en-US": "NAD+ Biosynthesis produces NAD+ through three routes: the salvage pathway (NAMPT converting nicotinamide to NMN, the dominant route), the Preiss-Handler route from Niacin/Vitamin B3, and a minor de novo route from tryptophan. Extracellular NR and NMN bypass NAMPT and are phosphorylated via NMRK1/NMRK2 and NMNAT.",
+      "zh-TW": "NAD+ Biosynthesis 透過三條途徑產生 NAD+：salvage 路徑（NAMPT 將 nicotinamide 轉為 NMN，為主導途徑）、由 Niacin/Vitamin B3 出發的 Preiss-Handler 途徑，以及源自 tryptophan 的次要 de novo 途徑。細胞外的 NR 與 NMN 可繞過 NAMPT，並經 NMRK1/NMRK2 與 NMNAT 磷酸化。"
+    },
+    "confidence": 0.95,
+    "source_document": "NAD+ Biosynthesis.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "18d01c613ab1",
+    "subject": "NAD+ Biosynthesis",
+    "predicate": "activates",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "NAD+ Biosynthesis activates Autophagy through the NAD+/SIRT1 axis. NAD+ enables SIRT1 to deacetylate FOXO3a, inducing the autophagy genes LC3, BNIP3 and GABARAPL1; to deacetylate TFEB, promoting lysosomal biogenesis and autophagic flux; and to act on Atg5, Atg7 and LC3 directly, which is why autophagy declines when NAD+ falls.",
+      "zh-TW": "NAD+ Biosynthesis 透過 NAD+/SIRT1 軸活化 Autophagy。NAD+ 使 SIRT1 能去乙醯化 FOXO3a，誘導 LC3、BNIP3 與 GABARAPL1 等自噬基因；去乙醯化 TFEB，促進溶小體生成與 autophagic flux；並直接作用於 Atg5、Atg7 與 LC3——這也是 NAD+ 下降時自噬隨之衰退的原因。"
+    },
+    "confidence": 0.9,
+    "source_document": "NAD+ Biosynthesis.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "501d2fc67ab9",
+    "subject": "NAD+ Biosynthesis",
+    "predicate": "activates",
+    "object": "Mitophagy",
+    "context": {
+      "en-US": "NAD+ Biosynthesis supports Mitophagy through two converging NAD+-dependent cascades. NAD+/SIRT1 drives FOXO3a-dependent expression of the mitophagy receptor BNIP3, while NAD+-dependent SIRT3 sets mitochondrial redox balance through MnSOD, modulating ROS that stabilizes HIF-1α; HIF1A then transactivates BNIP3 and BNIP3L, closing the cascade that clears dysfunctional mitochondria.",
+      "zh-TW": "NAD+ Biosynthesis 透過兩條收斂的 NAD+ 依賴級聯支持 Mitophagy。NAD+/SIRT1 驅動 FOXO3a 依賴性的 mitophagy 受體 BNIP3 表現；NAD+ 依賴的 SIRT3 則經由 MnSOD 設定粒線體氧化還原平衡，調節穩定 HIF-1α 的 ROS；HIF1A 接著反式活化 BNIP3 與 BNIP3L，完成清除功能異常粒線體的級聯反應。"
+    },
+    "confidence": 0.9,
+    "source_document": "NAD+ Biosynthesis.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "3909d4a3329c",
+    "subject": "CD38",
+    "predicate": "depletes",
+    "object": "NAD+",
+    "context": {
+      "en-US": "CD38 depletes NAD+ pools. Alongside Sirtuins and PARP1, it is one of the three dominant sinks whose consumption must be offset by biosynthesis, and because CD38 is an ectoenzyme that rises in immune cells with age, chronic low-grade Inflammation drives NAD+ decline through this route.",
+      "zh-TW": "CD38 會耗竭 NAD+ 池。與 Sirtuins 及 PARP1 並列，它是三個主要消耗端之一，其消耗必須由生物合成來抵銷；又因 CD38 是會隨年齡在免疫細胞中上升的胞外酶，慢性低度 Inflammation 便透過此途徑驅動 NAD+ 衰退。"
+    },
+    "confidence": 0.9,
+    "source_document": "NAD+ Biosynthesis.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "eeb953dcdd44",
+    "subject": "NAD+ Salvage Pathway",
+    "predicate": "produces",
+    "object": "NAD+",
+    "context": {
+      "en-US": "The NAD+ Salvage Pathway produces NAD+ as the dominant biosynthetic route in most mammalian tissues. It recycles nicotinamide released by NAD+-consuming enzymes back into NAD+ in two steps: NAMPT generates NMN, then NMNAT converts NMN to NAD+, so salvage efficiency sets the co-substrate supply for sirtuins, PARPs and CD38.",
+      "zh-TW": "NAD+ Salvage Pathway 產生 NAD+，是大多數哺乳動物組織中的主導生合成途徑。它以兩步把 NAD+ 消耗酵素所釋出的 nicotinamide 回收成 NAD+：先由 NAMPT 生成 NMN，再由 NMNAT 將 NMN 轉為 NAD+；因此 salvage 效率決定了 sirtuins、PARPs 與 CD38 的共同受質供應。"
+    },
+    "confidence": 0.95,
+    "source_document": "NAD+ Salvage Pathway.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "ca4379c4bc01",
+    "subject": "NAMPT",
+    "predicate": "is_a_component_of",
+    "object": "NAD+ Salvage Pathway",
+    "context": {
+      "en-US": "NAMPT is the rate-limiting enzyme of the NAD+ Salvage Pathway. It catalyses the condensation of nicotinamide with PRPP to form NMN, and because its expression declines with age, loss of this single step is sufficient to produce the age-related NAD+ decline that impairs sirtuin activity and DNA repair.",
+      "zh-TW": "NAMPT 是 NAD+ Salvage Pathway 的限速酵素。它催化 nicotinamide 與 PRPP 縮合生成 NMN；由於其表現隨年齡衰退，單這一步的流失就足以造成與年齡相關的 NAD+ 下降，進而損害 sirtuin 活性與 DNA 修復。"
+    },
+    "confidence": 0.95,
+    "source_document": "NAD+ Salvage Pathway.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "85161b8b77a3",
+    "subject": "SIRT1",
+    "predicate": "upregulates",
+    "object": "NAMPT",
+    "context": {
+      "en-US": "SIRT1 upregulates NAMPT, creating a positive feedback loop. SIRT1 deacetylates and activates PGC-1α, which drives NAMPT transcription; the resulting NAD+ then re-enables SIRT1, so the SIRT1 → NAMPT → NAD+ → SIRT1 loop is self-reinforcing and self-limiting as NAD+ accumulates.",
+      "zh-TW": "SIRT1 上調 NAMPT，形成正回饋迴路。SIRT1 去乙醯化並活化 PGC-1α，後者驅動 NAMPT 的轉錄；所產生的 NAD+ 又重新使 SIRT1 得以作用，因此 SIRT1 → NAMPT → NAD+ → SIRT1 這個迴路會自我強化，並隨 NAD+ 累積而自我限制。"
+    },
+    "confidence": 0.85,
+    "source_document": "NAD+ Salvage Pathway.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "ecc98ed4278d",
+    "subject": "NAMPT",
+    "predicate": "declines_with",
+    "object": "Aging",
+    "context": {
+      "en-US": "NAMPT expression and activity decline with Aging. The resulting NAD+ fall is a hallmark of ageing that reduces sirtuin activity, impairs DNA repair and worsens metabolic dysfunction, and it is why NAD+ repletion via NMN, NR or NAMPT activators is pursued as a healthspan strategy.",
+      "zh-TW": "NAMPT 的表現與活性隨 Aging 而衰退。由此造成的 NAD+ 下降是老化的標誌之一，會降低 sirtuin 活性、損害 DNA 修復並加重代謝功能障礙；這也是透過 NMN、NR 或 NAMPT 活化劑補充 NAD+ 被當作健康壽命策略的原因。"
+    },
+    "confidence": 0.9,
+    "source_document": "NAD+ Salvage Pathway.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "a125a77c9e7f",
+    "subject": "Circadian Rhythm",
+    "predicate": "regulates",
+    "object": "NAD+ Salvage Pathway",
+    "context": {
+      "en-US": "Circadian Rhythm regulates the NAD+ Salvage Pathway: NAMPT expression oscillates with the clock, generating daily oscillations in NAD+ that feed back to gate SIRT1 activity and clock-controlled gene expression. The result is a ~24-hour NAD+ cycle, whose disruption by shift work or jet lag is a proposed metabolic lesion.",
+      "zh-TW": "Circadian Rhythm 會調節 NAD+ Salvage Pathway：NAMPT 的表現隨生理時鐘振盪，產生每日 NAD+ 振盪，再回饋以調節 SIRT1 活性與時鐘控制的基因表現。結果是約 24 小時的 NAD+ 週期，而輪班工作或時差造成的週期破壞即被視為一種代謝病灶。"
+    },
+    "confidence": 0.85,
+    "source_document": "NAD+ Salvage Pathway.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "15be9a93bd9f",
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "NAMPT",
+    "context": {
+      "en-US": "SIRT1 deacetylates NAMPT, enhancing its enzymatic activity. Because NAMPT sets the NAD+ pool and SIRT1 consumes NAD+, this post-translational modification is a second, faster feedback route — alongside transcriptional control through PGC-1α — for tying sirtuin activity to NAD+ supply.",
+      "zh-TW": "SIRT1 會去乙醯化 NAMPT，增強其酵素活性。由於 NAMPT 決定 NAD+ 池而 SIRT1 又消耗 NAD+，這項轉譯後修飾是除了經 PGC-1α 的轉錄調控之外，第二條更快速的回饋途徑，用來把 sirtuin 活性與 NAD+ 供應綁在一起。"
+    },
+    "confidence": 0.85,
+    "source_document": "NAD+ Salvage Pathway.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "aeded2eab01f",
+    "subject": "NADH-dependent methemoglobin reductase",
+    "predicate": "reduces",
+    "object": "Methemoglobin",
+    "context": {
+      "en-US": "NADH-dependent methemoglobin reductase reduces Methemoglobin back to functional Hemoglobin. The enzyme, also called Cytochrome b5 reductase or Diaphorase, keeps ferric iron (Fe3+) at the low spontaneous rate of formation (typically under 1–2% of total Hemoglobin), so without it functional oxygen-carrying capacity is lost to methemoglobinemia.",
+      "zh-TW": "NADH-dependent methemoglobin reductase 將 Methemoglobin 還原為具有功能的 Hemoglobin。此酵素又稱 Cytochrome b5 reductase 或 Diaphorase，將血基質鐵（Fe3+）維持在自發形成的低速率（通常低於總 Hemoglobin 的 1–2%），因此若缺乏它，功能性攜氧能力就會流失而形成 methemoglobinemia。"
+    },
+    "confidence": 0.95,
+    "source_document": "NADH-dependent methemoglobin reductase.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "277fe53863cf",
+    "subject": "NADH-dependent methemoglobin reductase",
+    "predicate": "requires",
+    "object": "NADH",
+    "context": {
+      "en-US": "NADH-dependent methemoglobin reductase requires NADH as its electron donor, which is the origin of its name. Transfer of reducing equivalents from NADH through FAD to the methemoglobin haem is what drives the Fe3+ → Fe2+ conversion, so the enzyme's activity tracks the cell's redox state.",
+      "zh-TW": "NADH-dependent methemoglobin reductase 需要 NADH 作為其電子供體，這也是其名稱的由來。還原當量自 NADH 經 FAD 傳遞至 methemoglobin 的血基質，推動 Fe3+ → Fe2+ 的轉換，因此該酵素的活性會反映細胞的氧化還原狀態。"
+    },
+    "confidence": 0.9,
+    "source_document": "NADH-dependent methemoglobin reductase.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "38accd393ce3",
+    "subject": "Pentose Phosphate Pathway",
+    "predicate": "reduces",
+    "object": "NADP+",
+    "context": {
+      "en-US": "The Pentose Phosphate Pathway reduces NADP+ to NADPH. This oxidative branch is the main source of cellular reducing power; NADPH then regenerates reduced Glutathione and drives reductive biosynthesis, so the pathway sits upstream of glutathione-dependent antioxidant defense.",
+      "zh-TW": "Pentose Phosphate Pathway 將 NADP+ 還原成 NADPH。這條氧化支路是細胞還原力的主要來源；所產生的 NADPH 接著再生還原態的 Glutathione 並驅動還原性生合成，因此該路徑位於穀胱甘肽依賴型抗氧化防禦的上游。"
+    },
+    "confidence": 0.95,
+    "source_document": "NADP+.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "c5d7bba54640",
+    "subject": "NADP+",
+    "predicate": "is_precursor_of",
+    "object": "NADPH",
+    "context": {
+      "en-US": "NADP+ is the oxidized precursor of NADPH. It accepts two electrons and a proton from the Pentose Phosphate Pathway and other dehydrogenases; keeping NADP+ distinct from the NADH pool lets the cell run reductive biosynthesis and antioxidant recycling independently of the NADH used for ATP production.",
+      "zh-TW": "NADP+ 是 NADPH 的氧化態前驅物。它接受來自 Pentose Phosphate Pathway 與其他去氫酶的兩個電子與一個質子；將 NADP+ 與用於 ATP 生成的 NADH 池分開，使細胞能獨立於 NADH 進行還原性生合成與抗氧化回收。"
+    },
+    "confidence": 0.95,
+    "source_document": "NADP+.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "0b5f2c7845ec",
+    "subject": "NADPH",
+    "predicate": "reduces",
+    "object": "Methemoglobin",
+    "context": {
+      "en-US": "NADPH supports reduction of Methemoglobin, as in methylene blue's NADPH-dependent methemoglobin reductase activity. This is the mechanism behind methylene blue as an antidote: it cannot reduce methemoglobin directly, only after being reduced itself by NADPH, making NADPH availability the limiting factor.",
+      "zh-TW": "NADPH 支援 Methemoglobin 的還原，例如 methylene blue 的 NADPH 依賴型 methemoglobin reductase 活性。這正是 methylene blue 能作為解毒劑的機制：它本身無法直接還原 methemoglobin，必須先由 NADPH 還原自身，因此 NADPH 的可用性才是限制因子。"
+    },
+    "confidence": 0.8,
+    "source_document": "NADP+.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "b37ae37f85f0",
+    "subject": "FSP1",
+    "predicate": "requires",
+    "object": "NADPH",
+    "context": {
+      "en-US": "FSP1 requires NADPH (or NADH) as its electron donor. FSP1 uses the reducing power to convert ubiquinone to the radical-trapping ubiquinol at the plasma membrane; without a supply of NAD(P)H the radical trap collapses, sensitizing cells to Lipid Peroxidation and Ferroptosis.",
+      "zh-TW": "FSP1 需要 NADPH（或 NADH）作為電子供體。FSP1 利用還原力在質膜處將 ubiquinone 轉成可捕捉自由基的 ubiquinol；若缺乏 NAD(P)H 供應，自由基陷阱就會瓦解，使細胞易於發生 Lipid Peroxidation 與 Ferroptosis。"
+    },
+    "confidence": 0.95,
+    "source_document": "NADPH.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "308158a30422",
+    "subject": "NADPH",
+    "predicate": "supports",
+    "object": "GPX4",
+    "context": {
+      "en-US": "NADPH supports the GPX4 axis by feeding glutathione reductase, which keeps the GSH pool that GPX4 needs to reduce phospholipid hydroperoxides. NAD(P)H availability is therefore a shared determinant of both ferroptosis defence pillars — the FSP1/CoQ10 radical trap and the GPX4/GSH pair.",
+      "zh-TW": "NADPH 藉由供應 glutathione reductase 而支持 GPX4 軸，維持 GPX4 還原磷脂過氧化物所需的 GSH 池。因此 NAD(P)H 的可用性是兩大 Ferroptosis 防禦支柱——FSP1/CoQ10 自由基陷阱與 GPX4/GSH 配對——的共同決定因素。"
+    },
+    "confidence": 0.95,
+    "source_document": "NADPH.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "a86f6dee3248",
+    "subject": "NADPH",
+    "predicate": "reduces",
+    "object": "Ubiquinone",
+    "context": {
+      "en-US": "NADPH reduces Ubiquinone to ubiquinol through FSP1-catalysed AOX at the plasma membrane. This reaction is the first pillar of Ferroptosis defence, and it only works if ubiquinone is supplied by the Mevalonate pathway — so loss of CoQ10 (statins, squalene-synthase engagement) converges on FSP1 regardless of how abundant NADPH is.",
+      "zh-TW": "NADPH 經 FSP1 催化的 AOX 在質膜處將 Ubiquinone 還原為 ubiquinol。此反應是 Ferroptosis 防禦的第一根支柱，且只有在 ubiquinone 由 Mevalonate pathway 供應時才有效——因此 CoQ10 流失（statin、squalene synthase 抑制）不論 NADPH 多寡都會收斂到 FSP1 上。"
+    },
+    "confidence": 0.9,
+    "source_document": "NADPH.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "d2b03388a79f",
+    "subject": "Pentose Phosphate Pathway",
+    "predicate": "produces",
+    "object": "NADPH",
+    "context": {
+      "en-US": "The Pentose Phosphate Pathway produces NADPH, via glucose-6-phosphate dehydrogenase and 6-phosphogluconate dehydrogenase, with malic enzyme and folate metabolism contributing. Since the PPP and one-carbon metabolism sit upstream, their activity indirectly gates FSP1 and GPX4 function — the metabolic route to ferroptosis sensitivity.",
+      "zh-TW": "Pentose Phosphate Pathway 透過 glucose-6-phosphate dehydrogenase 與 6-phosphogluconate dehydrogenase 產生 NADPH，malic enzyme 與葉酸代謝亦有貢獻。由於 PPP 與一碳代謝位於上游，它們的活性會間接調節 FSP1 與 GPX4 的功能——這是通往 Ferroptosis 敏感性的代謝途徑。"
+    },
+    "confidence": 0.95,
+    "source_document": "NADPH.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "05e9974b44d1",
+    "subject": "NADPH",
+    "predicate": "protects_against",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "High NADPH flux protects against Ferroptosis. Tumor cells with strong NADPH generation resist ferroptosis through both the FSP1 and GPX4 axes, whereas agents that drain NADPH sensitize them; for that reason NAD(P)H levels have been proposed as a biomarker of ferroptosis sensitivity across cancer cell lines.",
+      "zh-TW": "高的 NADPH 通量可保護免受 Ferroptosis。NADPH 生成旺盛的腫瘤細胞可同時透過 FSP1 與 GPX4 兩軸抵抗 Ferroptosis，而耗竭 NADPH 的藥劑則使其敏感化；因此 NAD(P)H 濃度已被提出作為跨癌細胞株評估 Ferroptosis 敏感性的生物標記。"
+    },
+    "confidence": 0.9,
+    "source_document": "NADPH.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "f14c8ee5f733",
+    "subject": "NAMPT",
+    "predicate": "produces",
+    "object": "NAD+",
+    "context": {
+      "en-US": "NAMPT produces NAD+ by controlling NMN synthesis upstream of the salvage pathway. As the primary upstream master regulator of sirtuin-mediated deacetylation, its activity sets the NAD+ pool that SIRT1 depends on; because NAMPT expression declines with age, NAD+ depletion and diminished sirtuin activity are mechanistically linked.",
+      "zh-TW": "NAMPT 藉由在 salvage 路徑上游控制 NMNT 合成來產生 NAD+。作為 sirtuin 媒介去乙醯化的主要上游總調節因子，其活性決定 SIRT1 所依賴的 NAD+ 池；由於 NAMPT 表現隨年齡衰退，NAD+ 耗竭與 sirtuin 活性降低在機制上是互相連結的。"
+    },
+    "confidence": 0.9,
+    "source_document": "NAMPT.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "71455b6655d4",
+    "subject": "NAMPT",
+    "predicate": "produces",
+    "object": "Nicotinamide Mononucleotide",
+    "context": {
+      "en-US": "NAMPT produces Nicotinamide Mononucleotide (NMN) by condensing nicotinamide with PRPP. NMN is then adenylylated to NAD+ by NMNAT, making NAMPT the first committed and rate-limiting step of the salvage route and the point at which nicotinamide recycling enters NAD+ metabolism.",
+      "zh-TW": "NAMPT 藉由 nicotinamide 與 PRPP 縮合產生 Nicotinamide Mononucleotide (NMN)。NMN 之後由 NMNAT 腺苷酸化為 NAD+，因此 NAMPT 是 salvage 途徑中第一個承諾且限速的步驟，也是 nicotinamide 回收進入 NAD+ 代謝的切入點。"
+    },
+    "confidence": 0.9,
+    "source_document": "NAMPT.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "936694956b78",
+    "subject": "AMPK",
+    "predicate": "phosphorylates",
+    "object": "NAMPT",
+    "context": {
+      "en-US": "AMPK phosphorylates and activates NAMPT during energetic stress, raising NAD+ to boost SIRT1 activity. The same axis is engaged indirectly by resveratrol, which inhibits PDE4, accumulates cAMP, triggers calcium release and thereby activates AMPK upstream of NAMPT upregulation.",
+      "zh-TW": "在能量壓力下，AMPK 會磷酸化並活化 NAMPT，提高 NAD+ 以增強 SIRT1 活性。相同的軸也被 resveratrol 間接啟動：resveratrol 抑制 PDE4、累積 cAMP、引發鈣釋放，進而活化 AMPK 並上調 NAMPT。"
+    },
+    "confidence": 0.85,
+    "source_document": "NAMPT.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "d5482887ae1b",
+    "subject": "NAMPT",
+    "predicate": "is_associated_with",
+    "object": "Diabetes Mellitus",
+    "context": {
+      "en-US": "Decreased NAMPT activity is associated with insulin resistance, obesity and type 2 Diabetes Mellitus. The relationship is bidirectional in the therapeutic direction: NAMPT overexpression or NMN supplementation improves glucose tolerance and lipid profiles in animal models, while many cancer cells overexpress NAMPT and are being targeted with FK866-class inhibitors.",
+      "zh-TW": "NAMPT 活性下降與胰島素阻抗、肥胖及第二型 Diabetes Mellitus 相關。在治療方向上此關係是雙向的：NAMPT 過量表現或 NMN 補充在動物模型中可改善葡萄糖耐受度與脂質profiles，而許多癌細胞會過量表現 NAMPT，現正以 FK866 類抑制劑為標的加以攻擊。"
+    },
+    "confidence": 0.8,
+    "source_document": "NAMPT.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "b665118a5382",
+    "subject": "NAPRT",
+    "predicate": "is_a_component_of",
+    "object": "Preiss-Handler Pathway",
+    "context": {
+      "en-US": "NAPRT is the first committed enzyme of the Preiss-Handler Pathway. It catalyses the rate-limiting conversion of nicotinic acid to nicotinic acid mononucleotide (NaMN), the key step in using dietary Niacin (vitamin B3) for NAD+ production; NMNAT then converts NaMN to NaAD, and NAD+ synthase closes the route to NAD+.",
+      "zh-TW": "NAPRT 是 Preiss-Handler Pathway 的第一個承諾酵素。它催化限速的 nicotinic acid 轉為 nicotinic acid mononucleotide (NaMN) 反應，是利用膳食 Niacin（vitamin B3）製造 NAD+ 的關鍵步驟；之後由 NMNAT 將 NaMN 轉為 NaAD，再由 NAD+ synthase 將途徑收斂到 NAD+。"
+    },
+    "confidence": 0.9,
+    "source_document": "NAPRT.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "95d7489e1003",
+    "subject": "NAPRT",
+    "predicate": "uses",
+    "object": "Niacin",
+    "context": {
+      "en-US": "NAPRT uses Niacin as its substrate, catalysing nicotinic acid + PRPP → NaMN + PPi in a reaction requiring Mg2+ and PRPP. Because this is how dietary niacin is funnelled into NAD+, NAPRT activity and polymorphisms directly affect how efficiently a vitamin B3 supplement raises NAD+.",
+      "zh-TW": "NAPRT 以 Niacin 為受質，催化 nicotinic acid + PRPP → NaMN + PPi，該反應需要 Mg2+ 與 PRPP。由於膳食 niacin 正是透過此步驟流入 NAD+，NAPRT 的活性與多型性會直接影響維生素 B3 補充品提升 NAD+ 的效率。"
+    },
+    "confidence": 0.9,
+    "source_document": "NAPRT.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "6f8266bfc03b",
+    "subject": "NAPRT",
+    "predicate": "is_inhibited_by",
+    "object": "NAD+",
+    "context": {
+      "en-US": "NAPRT is inhibited by NAD+ and by NADH, classic feedback inhibition. The product (and the reduced pool) therefore throttles its own synthesis route, which is a general principle of NAD+ metabolism: when the pool is sufficient, biosynthetic enzymes are held back and degradation dominates.",
+      "zh-TW": "NAPRT 受 NAD+ 與 NADH 抑制，屬於典型的回饋抑制。因此產物（以及其還原態的池）會限制自身的生合成途徑，這是 NAD+ 代謝的一般原則：當池量充足時，生合成酵素受到抑制，分解代謝便居主導。"
+    },
+    "confidence": 0.85,
+    "source_document": "NAPRT.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "a7a72cc9f09d",
+    "subject": "NAMPT",
+    "predicate": "competes_with",
+    "object": "NAPRT",
+    "context": {
+      "en-US": "NAMPT competes with NAPRT as the two entry points into NAD+ biosynthesis: NAMPT recycles nicotinamide in the dominant salvage route, while NAPRT funnels nicotinic acid through the Preiss-Handler route. Because both control NAD+ supply to Sirtuins, the balance between salvage and de novo-from-niacin can gate sirtuin activity.",
+      "zh-TW": "NAMPT 與 NAPRT 競爭作為 NAD+ 生物合成的兩個入口：NAMPT 在主導的 salvage 途徑中回收 nicotinamide，NAPRT 則讓 nicotinic acid 經由 Preiss-Handler 途徑流入。因為兩者都控制供應 Sirtuins 的 NAD+，salvage 與源自 niacin 的 de novo 之間的平衡便能調節 sirtuin 活性。"
+    },
+    "confidence": 0.8,
+    "source_document": "NAPRT.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "1876b92863cf",
+    "subject": "NAPRT",
+    "predicate": "is_a_component_of",
+    "object": "NAD+ Biosynthesis",
+    "context": {
+      "en-US": "NAPRT is a key enzyme of NAD+ Biosynthesis, specifically the Preiss-Handler branch. It is highly expressed in liver, kidney and small intestine — tissues with high NAD+ turnover — so niacin utilization and thus NAD+ availability for sirtuins is uneven across the body.",
+      "zh-TW": "NAPRT 是 NAD+ Biosynthesis 的關鍵酵素，專屬於 Preiss-Handler 分支。它在肝臟、腎臟與小腸高度表現——這些正是 NAD+ 周轉率高的組織——因此 niacin 的利用效率、進而供應 sirtuins 的 NAD+ 可得性，在全身各處並不均勻。"
+    },
+    "confidence": 0.85,
+    "source_document": "NAPRT.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "cf5a64ba2e15",
+    "subject": "NASH",
+    "predicate": "is_a_type_of",
+    "object": "Non-alcoholic Fatty Liver Disease",
+    "context": {
+      "en-US": "NASH is the inflammatory, potentially progressive form of Non-alcoholic Fatty Liver Disease. Where simple steatosis is fat accumulation alone, NASH adds hepatocyte injury, Inflammation and variable fibrosis, and it can progress to cirrhosis and hepatocellular carcinoma.",
+      "zh-TW": "NASH 是 Non-alcoholic Fatty Liver Disease 中具發炎性且可能進展的形式。單純脂肪肝僅有脂肪堆積，而 NASH 額外加上肝細胞損傷、Inflammation 與程度不一的纖維化，並可進展為肝硬化與肝細胞癌。"
+    },
+    "confidence": 0.95,
+    "source_document": "NASH.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "f62aa7e05c30",
+    "subject": "SIRT1",
+    "predicate": "protects_against",
+    "object": "NASH",
+    "context": {
+      "en-US": "SIRT1 protects against NASH by deacetylating the lipogenic regulators ChREBP and SREBP-1c, maintaining hepatic lipid homeostasis, and by blocking hepatic stellate cell activation so it antagonizes liver fibrosis. Hepocyte-specific sirtuin knockout models show markedly elevated fibrosis and oxidative stress, and the protective role reverses in alcoholic liver disease.",
+      "zh-TW": "SIRT1 藉由去乙醯化脂肪生成調節因子 ChREBP 與 SREBP-1c 以維持肝臟脂質恆定，並藉由阻斷 Hepatic Stellate Cells 的活化來對抗肝纖維化，因而保護免受 NASH。肝細胞特異性 sirtuin 剔除模型可見纖維化與氧化壓力顯著升高，且此保護角色在酒精性肝病中會反轉。"
+    },
+    "confidence": 0.85,
+    "source_document": "NASH.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "fcfe48f718e6",
+    "subject": "SIRT6",
+    "predicate": "protects_against",
+    "object": "NASH",
+    "context": {
+      "en-US": "SIRT6 protects against NASH: hepatocyte-specific SIRT6 knockout elevates fibrosis and oxidative stress in NASH mice. Like SIRT1, it acts by deacetylating ChREBP and SREBP-1c, so the two sirtuins converge on the same lipogenic nodes, which is why SIRT1/SIRT6 activation is proposed as a therapeutic strategy in steatohepatitis.",
+      "zh-TW": "SIRT6 保護免受 NASH：肝細胞特異性 SIRT6 剔除會在 NASH 小鼠中升高纖維化與氧化壓力。與 SIRT1 相同，它也是藉由去乙醯化 ChREBP 與 SREBP-1c 作用，因此兩者收斂到相同的脂肪生成節點；這也是 SIRT1/SIRT6 活化被提出作為脂肪性肝炎治療策略的原因。"
+    },
+    "confidence": 0.85,
+    "source_document": "NASH.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "dc47c9a6aead",
+    "subject": "SIRT3",
+    "predicate": "protects_against",
+    "object": "NASH",
+    "context": {
+      "en-US": "SIRT3 protects against NASH by improving mitochondrial function, deacetylating mitochondrial trifunctional proteins and LCAD. Because lipid metabolic dysregulation and mitochondrial dysfunction are both drivers of NASH progression, this positions the NAD+-dependent mitochondrial deacetylase as a brake on the disease.",
+      "zh-TW": "SIRT3 藉由改善粒線體功能、而去乙醯化粒線體三功能蛋白與 LCAD，來保護免受 NASH。由於脂質代謝失調與粒線體功能障礙都是 NASH 進展的驅動因素，這使這個 NAD+ 依賴型粒線體去乙醯化酶成為對此疾病的煞車。"
+    },
+    "confidence": 0.85,
+    "source_document": "NASH.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "ebd3b061e79a",
+    "subject": "SIRT5",
+    "predicate": "is_associated_with",
+    "object": "NASH",
+    "context": {
+      "en-US": "SIRT5 is required for normal lipid handling in NASH: systemic SIRT5 knockout impairs medium-chain fatty acid oxidation, producing periportal macrovascular steatosis. The phenotype is a direct demonstration that fatty acid oxidation capacity, not just lipogenesis, sets the ceiling on hepatic fat accumulation.",
+      "zh-TW": "NASH 中 SIRT5 對正常脂質處理是必要的：全身性 SIRT5 剔除會損害中鏈脂肪酸氧化，造成門周小動脈血管性脂肪肝。此表型直接證明脂肪酸氧化能力（而非僅脂肪生成）才是肝臟脂肪累積的上限。"
+    },
+    "confidence": 0.8,
+    "source_document": "NASH.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "ebeb847ee8b3",
+    "subject": "SIRT7",
+    "predicate": "is_associated_with",
+    "object": "NASH",
+    "context": {
+      "en-US": "SIRT7 is associated with NASH in a harmful direction: high expression in NAFLD is deleterious, contrasting with the protective roles of SIRT1, SIRT3 and SIRT6. This makes SIRT7 activity a possible liability rather than a therapeutic lever in steatohepatitis.",
+      "zh-TW": "SIRT7 與 NASH 的關聯方向是有害的：其在 NAFLD 中的高表現不利，與 SIRT1、SIRT3、SIRT6 的保護角色形成對比。這使 SIRT7 活性在脂肪性肝炎中成為可能的負債而非治療著力點。"
+    },
+    "confidence": 0.7,
+    "source_document": "NASH.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "455b0544fb37",
+    "subject": "NB-4746",
+    "predicate": "inhibits",
+    "object": "SARM1",
+    "context": {
+      "en-US": "NB-4746 inhibits the NAD+-hydrolysing TIR domain of SARM1, preventing the axonal NAD+ catastrophe that drives Wallerian degeneration. Its brain-penetrant profile distinguishes it from earlier peripherally-restricted candidates and enables central nervous system indications.",
+      "zh-TW": "NB-4746 抑制 SARM1 水解 NAD+ 的 TIR 結構域，阻止驅動 Wallerian 變性的軸突 NAD+ 災難。其可穿過血腦障礙的特性使它有別於早期僅限周邊的候選藥物，並得以開展中樞神經系統的適應症。"
+    },
+    "confidence": 0.95,
+    "source_document": "NB-4746.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "a101ea0a8149",
+    "subject": "NB-4746",
+    "predicate": "protects",
+    "object": "NAD+",
+    "context": {
+      "en-US": "NB-4746 protects NAD+ from hydrolysis. By blocking SARM1, the drug preserves the axonal NAD+ pool during the acute injury window, halting axonal degeneration before it becomes irreversible and permitting regeneration and functional recovery.",
+      "zh-TW": "NB-4746 保護 NAD+ 免於被水解。藉由阻斷 SARM1，該藥物在急性損傷期保住軸突的 NAD+ 池，在軸突變性變得不可逆之前將其停止，讓再生與功能恢復得以進行。"
+    },
+    "confidence": 0.85,
+    "source_document": "NB-4746.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "8f2492e50cd1",
+    "subject": "NB-4746",
+    "predicate": "targets",
+    "object": "Traumatic Brain Injury",
+    "context": {
+      "en-US": "NB-4746 targets acute injury indications including Traumatic Brain Injury and chemotherapy-induced peripheral neuropathy. It completed Phase 1 in healthy volunteers in 2024 with targeted plasma and CSF exposure and no serious adverse events, and advanced to Phase 1b/2 in 2025.",
+      "zh-TW": "NB-4746 的標的是包括 Traumatic Brain Injury 與化療引發的周邊神經病變等急性損傷適應症。它於 2024 年在健康志願者完成第一期試驗，達到目標血漿與 CSF 暴露且無嚴重不良事件，並於 2025 年推進至第一 b/二期試驗。"
+    },
+    "confidence": 0.85,
+    "source_document": "NB-4746.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "9333f2d6c991",
+    "subject": "NBR1",
+    "predicate": "mediates",
+    "object": "Mitophagy",
+    "context": {
+      "en-US": "NBR1 mediates Mitophagy as a cytoplasmic selective autophagy receptor. Its ubiquitin-binding domains recognize ubiquitinated damaged mitochondria, and its LIR Motif binds LC3 on the autophagosomal membrane, tethering cargo for delivery into the autophagosome.",
+      "zh-TW": "NBR1 作為細胞質內的選擇性自噬受體，媒介 Mitophagy。它的泛素結合區辨識被泛素化的受損粒線體，並透過 LIR Motif 與 autophagosome 膜上的 LC3 結合，將貨物質拴住並送入 autophagosome。"
+    },
+    "confidence": 0.95,
+    "source_document": "NBR1.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "a95eb3435bc2",
+    "subject": "NBR1",
+    "predicate": "binds",
+    "object": "LC3",
+    "context": {
+      "en-US": "NBR1 binds LC3 through its LIR Motif. This interaction is the physical bridge that links cargo recognition to autophagosomal membrane biogenesis, allowing ubiquitinated substrates to be engulfed and delivered for lysosomal degradation.",
+      "zh-TW": "NBR1 透過其 LIR Motif 與 LC3 結合。這項交互作用是把貨物辨識與 autophagosome 膜生成連結起來的實體橋樑，使被泛素化的受質得以被吞入並送交溶小體降解。"
+    },
+    "confidence": 0.9,
+    "source_document": "NBR1.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "c1c583b50f92",
+    "subject": "NBR1",
+    "predicate": "cooperates_with",
+    "object": "p62",
+    "context": {
+      "en-US": "NBR1 cooperates with p62, the prototypical selective autophagy receptor, alongside NDP52 and Optineurin. These receptors share the domain architecture for bridging ubiquitinated cargo to the autophagosome, providing redundancy and specificity so cells can fine-tune quality control responses to different substrate types.",
+      "zh-TW": "NBR1 與作為選擇性自噬受體典範的 p62 合作，並與 NDP52、Optineurin 一同作用。這些受體共有把泛素化貨物橋接到 autophagosome 的區域結構，提供冗餘與專一性，使細胞能依受質類型微調品質管制反應。"
+    },
+    "confidence": 0.9,
+    "source_document": "NBR1.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "7fadbd69d4ec",
+    "subject": "NBR1",
+    "predicate": "cooperates_with",
+    "object": "NDP52",
+    "context": {
+      "en-US": "NBR1 cooperates with NDP52 and Optineurin as well as p62. NDP52 is involved in xenophagy and mitophagy, while Optineurin links autophagy dysfunction to glaucoma and ALS; together the receptor set lets redundant recognition cover mitophagy, xenophagy and aggregate clearance.",
+      "zh-TW": "NBR1 除與 p62 外，也與 NDP52 及 Optineurin 合作。NDP52 參與 xenophagy 與 mitophagy，Optineurin 則把自噬功能障礙與青光眼及 ALS 連結起來；這組受體讓冗餘辨識得以涵蓋 mitophagy、xenophagy 與聚集物清除。"
+    },
+    "confidence": 0.85,
+    "source_document": "NBR1.md",
+    "created": "2026-09-29T17:27:20Z",
+    "updated": "2026-09-29T17:27:20Z"
   }
 ]
