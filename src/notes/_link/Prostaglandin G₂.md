@@ -17,7 +17,7 @@ aliases: [PGG2, Prostaglandin G₂, Prostaglandin G2, PG-G2]
 
 ## Formation and Chemistry
 
-[[Cyclooxygenases]] catalyze two sequential reactions at a single heme-containing active site:
+[[Cyclooxygenase]] catalyze two sequential reactions at a single heme-containing active site:
 
 1. **Bis-dioxygenation**: two molecules of O₂ are added to arachidonic acid to form the bicyclic endoperoxide PGG₂, retaining a C15 hydroperoxide group. This is the "cyclooxygenase" activity and is the site of aspirin's irreversible acetylation of Ser530.
 2. **Reduction**: the same enzyme's peroxidase site reduces the C15-OOH to C15-OH, yielding [[Prostaglandin H₂]] (PGH₂), the common precursor of prostaglandins, [[Thromboxane A₂]], and prostacyclin.
@@ -57,7 +57,7 @@ List of documents that mention this entity
 ## Connections
 
 - [[Arachidonic acid]]: Substrate for the bis-dioxygenation that forms PGG₂.
-- [[Cyclooxygenases]]: COX-1/COX-2 catalyze PGG₂ formation.
+- [[Cyclooxygenase]]: COX-1/COX-2 catalyze PGG₂ formation.
 - [[Prostaglandin H₂]]: Peroxidase product of PGG₂ and common prostanoid precursor.
 - [[Prostaglandins]]: The family of downstream isomerase products.
 - [[Thromboxane A₂]]: Vasoconstrictor prostanoid derived from PGH₂.
@@ -71,6 +71,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Arachidonic acid]], [[Cyclooxygenases]], [[Prostaglandin H₂]], [[Prostaglandins]], [[Thromboxane A₂]], [[Prostacyclin]], [[Lipid Peroxidation]], [[Lipid hydroperoxide]], [[Hydroxyeicosatetraenoic acids]], [[F2-Isoprostanes]], [[Oxidized LDL]], [[Polyunsaturated fatty acids]]
+- New links added: [[Arachidonic acid]], [[Cyclooxygenase]], [[Prostaglandin H₂]], [[Prostaglandins]], [[Thromboxane A₂]], [[Prostacyclin]], [[Lipid Peroxidation]], [[Lipid hydroperoxide]], [[Hydroxyeicosatetraenoic acids]], [[F2-Isoprostanes]], [[Oxidized LDL]], [[Polyunsaturated fatty acids]]
 - Suggested new entity notes to create: [[Prostaglandin H₂]], [[Prostacyclin]], [[Thromboxane A₂]], [[Prostaglandins]]
-- Strong connections to strengthen: [[Prostaglandin G₂]] ↔ [[Cyclooxygenases]], [[Prostaglandin G₂]] ↔ [[Lipid Peroxidation]], [[Prostaglandin G₂]] ↔ [[Arachidonic acid]]
+- Strong connections to strengthen: [[Prostaglandin G₂]] ↔ [[Cyclooxygenase]], [[Prostaglandin G₂]] ↔ [[Lipid Peroxidation]], [[Prostaglandin G₂]] ↔ [[Arachidonic acid]]

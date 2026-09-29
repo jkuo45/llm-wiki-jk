@@ -13,7 +13,7 @@ aliases: [Prostaglandin, PGs, Prostanoids]
 
 # Prostaglandins
 
-**Prostaglandins (PGs)** are 20-carbon lipid autacoids derived from [[Arachidonic acid]] through the [[Cyclooxygenases|cyclooxygenase]] pathway. They act locally rather than as circulating hormones, and mediate inflammation, pain, fever, vascular tone, and platelet aggregation.
+**Prostaglandins (PGs)** are 20-carbon lipid autacoids derived from [[Arachidonic acid]] through the [[Cyclooxygenase|cyclooxygenase]] pathway. They act locally rather than as circulating hormones, and mediate inflammation, pain, fever, vascular tone, and platelet aggregation.
 
 ## Biosynthesis
 
@@ -61,7 +61,7 @@ List of documents that mention this entity
 
 - [[Arachidonic acid]]: Parent fatty acid released by cPLA2.
 - [[Prostaglandin G₂]]: First committed intermediate of the cascade.
-- [[Cyclooxygenases]]: COX-1 and COX-2 catalyze PGG₂/PGH₂ formation.
+- [[Cyclooxygenase]]: COX-1 and COX-2 catalyze PGG₂/PGH₂ formation.
 - [[Prostacyclin]]: Vasodilator, anti-aggregatory prostanoid from PGH₂.
 - [[Thromboxane A₂]]: Vasoconstrictor, pro-aggregatory prostanoid from PGH₂.
 - [[Lipid Peroxidation]]: COX peroxidase cycle can leak radicals into surrounding lipids.
@@ -74,6 +74,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Arachidonic acid]], [[Prostaglandin G₂]], [[Cyclooxygenases]], [[Prostacyclin]], [[Thromboxane A₂]], [[Lipid Peroxidation]], [[F2-Isoprostanes]], [[Hydroxyeicosatetraenoic acids]], [[Polyunsaturated fatty acids]], [[Inflammation]], [[Atherosclerosis]], [[Glutathione]]
+- New links added: [[Arachidonic acid]], [[Prostaglandin G₂]], [[Cyclooxygenase]], [[Prostacyclin]], [[Thromboxane A₂]], [[Lipid Peroxidation]], [[F2-Isoprostanes]], [[Hydroxyeicosatetraenoic acids]], [[Polyunsaturated fatty acids]], [[Inflammation]], [[Atherosclerosis]], [[Glutathione]]
 - Suggested new entity notes to create: [[Prostaglandin H₂]], [[Prostacyclin]], [[Thromboxane A₂]]
 - Strong connections to strengthen: [[Prostaglandins]] ↔ [[Lipid Peroxidation]], [[Prostaglandins]] ↔ [[Inflammation]], [[Prostaglandins]] ↔ [[Prostaglandin G₂]]

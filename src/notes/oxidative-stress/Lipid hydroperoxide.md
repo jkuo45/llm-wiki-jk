@@ -25,7 +25,7 @@ LOOH is produced during the propagation phase of lipid peroxidation:
 
 > LOO• + PUFA–H → LOOH + L• (new carbon-centered radical)
 
-It also arises enzymatically: [[Lipoxygenase]] isoforms insert O₂ directly into [[Arachidonic acid]] to give HPETEs (hydroperoxyeicosatetraenoic acids), and [[Cyclooxygenases]] form [[Prostaglandin G₂|PGG₂]] with a C15 hydroperoxide. Enzymatic LOOH is stereospecific (predominantly *S* configuration), whereas radical LOOH is racemic — the basis for separating the two in lipidomics.
+It also arises enzymatically: [[Lipoxygenase]] isoforms insert O₂ directly into [[Arachidonic acid]] to give HPETEs (hydroperoxyeicosatetraenoic acids), and [[Cyclooxygenase]] form [[Prostaglandin G₂|PGG₂]] with a C15 hydroperoxide. Enzymatic LOOH is stereospecific (predominantly *S* configuration), whereas radical LOOH is racemic — the basis for separating the two in lipidomics.
 
 Each LOOH carries an oxygen–oxygen bond that can be cleaved by reduced transition metals, branching the chain reaction:
 
@@ -59,7 +59,7 @@ LOOH is the most direct measure of ongoing lipid peroxidation. Common assays inc
 - [[Selenium]]: Required for GPX4's catalytic selenocysteine; deficiency raises LOOH.
 - [[RSL3]] / [[ML162]]: Electrophilic GPX4 inhibitors that cause lethal LOOH accumulation.
 - [[Lipoxygenase]]: Enzymatic source of stereospecific hydroperoxy fatty acids (HPETEs).
-- [[Cyclooxygenases]]: Enzymatic source of [[Prostaglandin G₂]] bearing a C15 hydroperoxide.
+- [[Cyclooxygenase]]: Enzymatic source of [[Prostaglandin G₂]] bearing a C15 hydroperoxide.
 - [[4-Hydroxynonenal]]: Cytotoxic aldehyde fragmentation product derived from LOOH.
 - [[Malondialdehyde]]: Aldehyde biomarker formed from LOOH decomposition.
 - [[Acrolein]]: Alkenal fragment released from LOOH, especially of n-3 PUFAs.
@@ -73,7 +73,7 @@ LOOH is the most direct measure of ongoing lipid peroxidation. Common assays inc
 
 ## Linking Summary
 
-- New links added: [[Lipid Peroxidation]], [[Lipid peroxyl radical]], [[Ferroptosis]], [[GPX4]], [[Glutathione]], [[Selenium]], [[RSL3]], [[ML162]], [[Lipoxygenase]], [[Cyclooxygenases]], [[Prostaglandin G₂]], [[4-Hydroxynonenal]], [[Malondialdehyde]], [[Acrolein]], [[F2-Isoprostanes]], [[Iron]], [[Vitamin E]], [[Coenzyme Q10]], [[Mitochondria]], [[Apoptosis]], [[Atherosclerosis]], [[Polyunsaturated fatty acids]]
+- New links added: [[Lipid Peroxidation]], [[Lipid peroxyl radical]], [[Ferroptosis]], [[GPX4]], [[Glutathione]], [[Selenium]], [[RSL3]], [[ML162]], [[Lipoxygenase]], [[Cyclooxygenase]], [[Prostaglandin G₂]], [[4-Hydroxynonenal]], [[Malondialdehyde]], [[Acrolein]], [[F2-Isoprostanes]], [[Iron]], [[Vitamin E]], [[Coenzyme Q10]], [[Mitochondria]], [[Apoptosis]], [[Atherosclerosis]], [[Polyunsaturated fatty acids]]
 - Suggested new entity notes to create: [[HPETE]]
 - Strong connections to strengthen:
     - [[Lipid hydroperoxide]] ↔ [[Ferroptosis]]

@@ -462,7 +462,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Complex III]] | Enzyme | Complex III (cytochrome bc1 complex, ubiquinol-cytochrome c oxidoreductase) is the third complex of the Electron Transport Chain in the inner Mitochondria membrane. It catalyzes the transfer of ele... |
 | [[Complex IV]] | Enzyme | Complex IV (cytochrome c oxidase) is the terminal enzyme of the Mitochondria electron transport chain. It catalyzes the transfer of electrons from cytochrome c to oxygen, reducing O₂ to H₂O and bui... |
 | [[COX-2]] | Enzyme | Catalytic function: COX-2 is an enzyme that catalyzes biochemical reactions essential for cellular metabolism and homeostasis. |
-| [[Cyclooxygenases]] | Enzyme | Catalytic function: Cyclooxygenases is an enzyme that catalyzes biochemical reactions essential for cellular metabolism and homeostasis. |
+| [[Cyclooxygenase]] | Enzyme | Catalytic function: Cyclooxygenases is an enzyme that catalyzes biochemical reactions essential for cellular metabolism and homeostasis. |
 | [[CYP2C9]] | Enzyme | Catalytic function: CYP2C9 is an enzyme that catalyzes biochemical reactions essential for cellular metabolism and homeostasis. |
 | [[CYP2D6]] | Enzyme | Catalytic function: CYP2D6 is an enzyme that catalyzes biochemical reactions essential for cellular metabolism and homeostasis. |
 | [[CYP3A4]] | Enzyme | Catalytic function: CYP3A4 is an enzyme that catalyzes biochemical reactions essential for cellular metabolism and homeostasis. |

@@ -16772,8 +16772,8 @@
     "updated": "2026-09-27T03:37:54Z"
   },
   {
-    "id": "2cc06437615d",
-    "subject": "Cyclooxygenases",
+    "id": "d162f8825e8e",
+    "subject": "Cyclooxygenase",
     "predicate": "synthesizes",
     "object": "Prostaglandin G₂",
     "context": {
@@ -16783,7 +16783,7 @@
     "confidence": 0.9,
     "source_document": "Prostaglandins.md",
     "created": "2026-09-27T03:37:54Z",
-    "updated": "2026-09-27T03:37:54Z"
+    "updated": "2026-09-29T15:55:39Z"
   },
   {
     "id": "72c61e5ce9b0",
@@ -16842,10 +16842,10 @@
     "updated": "2026-09-27T03:37:54Z"
   },
   {
-    "id": "595629a8c662",
+    "id": "62ab84784be6",
     "subject": "Aspirin",
     "predicate": "inhibits",
-    "object": "Cyclooxygenases",
+    "object": "Cyclooxygenase",
     "context": {
       "en-US": "Aspirin irreversibly acetylates COX-1 Ser530. Because platelets are nucleate-free and cannot resynthesize COX, low-dose aspirin suppresses platelet Thromboxane A2 for the platelet's roughly 10-day lifespan, while nucleate endothelium largely escapes by resynthesizing the enzyme. This selectivity is the mechanistic basis of low-dose aspirin prophylaxis in Atherosclerosis and vascular events, and the same balance is why nonselective NSAIDs and COX-2 inhibitors shift the vessel toward thrombosis.",
       "zh-TW": "Aspirin 不可逆地乙醯化 COX-1 的 Ser530。由於血小板無細胞核、無法重新合成 COX，低劑量 aspirin 會在血小板約 10 天的生命期中抑制其 Thromboxane A2；而有細胞核的內皮則可藉重新合成酵素而大致逃脫。此選擇性正是低劑量 aspirin 預防 Atherosclerosis 與血管事件預防的機制基礎，也是非選擇性 NSAID 與 COX-2 抑制劑會把血管推向血栓的原因。"
@@ -16853,7 +16853,7 @@
     "confidence": 0.95,
     "source_document": "Prostaglandins.md",
     "created": "2026-09-27T03:37:54Z",
-    "updated": "2026-09-27T03:37:54Z"
+    "updated": "2026-09-29T15:55:39Z"
   },
   {
     "id": "8fed06b0d683",

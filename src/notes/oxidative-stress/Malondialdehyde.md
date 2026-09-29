@@ -26,7 +26,7 @@ At neutral pH MDA exists mainly as its enolate and is highly electrophilic. Its 
 MDA is classically measured as **thiobarbituric acid reactive substances** ([[TBARS]]), but TBA cross-reacts with [[4-Hydroxynonenal]], [[Acrolein]], and glycated proteins, and processing can artifactually generate MDA—so TBARS overestimates true MDA. Specific methods include HPLC, GC-MS, and LC-MS/MS with deuterated MDA-d₂ internal standard (current gold standard). Healthy plasma MDA by LC-MS/MS is ~0.5–1.5 μM (TBARS 1–4 μM). Elevated MDA is reported in [[Cardiovascular Disease]], [[Diabetes Mellitus]] (correlating with HbA1c), [[Neurodegenerative Diseases]] (Alzheimer's, Parkinson's), [[Chronic Kidney Disease]], and [[Cancer]] (breast, lung, colorectal, liver).
 
 > [!warning] Not all MDA reflects oxidative damage
-> MDA is also released during prostanoid biosynthesis — [[Prostaglandin G₂]] and PGH₂ fragment to MDA via the [[Cyclooxygenases|COX]] pathway, and thromboxane synthase generates it from PGH₂. Basal MDA therefore reflects both oxidative stress and eicosanoid turnover. Interpretation is safest when MDA is reported alongside a more specific marker such as [[F2-Isoprostanes]] or M₁dG adducts, and when sample handling (BHT, cold chain) is standardized.
+> MDA is also released during prostanoid biosynthesis — [[Prostaglandin G₂]] and PGH₂ fragment to MDA via the [[Cyclooxygenase|COX]] pathway, and thromboxane synthase generates it from PGH₂. Basal MDA therefore reflects both oxidative stress and eicosanoid turnover. Interpretation is safest when MDA is reported alongside a more specific marker such as [[F2-Isoprostanes]] or M₁dG adducts, and when sample handling (BHT, cold chain) is standardized.
 
 Urinary MDA and MDA-lysine adducts offer non-invasive readouts less sensitive to the artifact problems of plasma TBARS.
 
@@ -74,6 +74,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[M₁dG]], [[MDA-LDL]], [[TBARS]], [[4-Hydroxynonenal]], [[Acrolein]], [[Polyunsaturated fatty acids]], [[Lipid hydroperoxide]], [[F2-Isoprostanes]], [[Prostaglandin G₂]], [[Cyclooxygenases]], [[CD36 Receptor]], [[Macrophages]], [[Oxidized LDL]], [[Glutathione]]
+- New links added: [[M₁dG]], [[MDA-LDL]], [[TBARS]], [[4-Hydroxynonenal]], [[Acrolein]], [[Polyunsaturated fatty acids]], [[Lipid hydroperoxide]], [[F2-Isoprostanes]], [[Prostaglandin G₂]], [[Cyclooxygenase]], [[CD36 Receptor]], [[Macrophages]], [[Oxidized LDL]], [[Glutathione]]
 - Suggested new entity notes to create: [[MDA-lysine adduct]]
 - Strong connections to strengthen: [[Malondialdehyde]] ↔ [[Lipid Peroxidation]], [[Malondialdehyde]] ↔ [[Atherosclerosis]], [[Malondialdehyde]] ↔ [[Cancer]], [[Malondialdehyde]] ↔ [[M₁dG]]
