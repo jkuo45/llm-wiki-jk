@@ -33976,5 +33976,2497 @@
     "source_document": "Tau Pathology.md",
     "created": "2026-09-29T14:42:33Z",
     "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "51e3b8e8fd01",
+    "subject": "Chaperone-Mediated Autophagy",
+    "predicate": "is_a_type_of",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Chaperone-Mediated Autophagy (CMA) is one of the three canonical types of Autophagy (alongside Macroautophagy and Microautophagy). Unlike the other routes it does not require vesicle formation: cytosolic proteins carrying a KFERQ-like motif are delivered directly into the lysosome for enzymatic degradation.",
+      "zh-TW": "Chaperone-Mediated Autophagy (CMA) 是 Autophagy 的三種典型類型之一（與 Macroautophagy、Microautophagy 並列）。與其他途徑不同，它不需要囊泡形成：帶有 KFERQ 類基序的細胞質蛋白質直接被運送進 lysosome 進行酵素分解。"
+    },
+    "confidence": 0.95,
+    "source_document": "Chaperone-Mediated Autophagy.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "73a948cd8f38",
+    "subject": "Chaperone-Mediated Autophagy",
+    "predicate": "degrades_in",
+    "object": "Lysosome",
+    "context": {
+      "en-US": "Chaperone-Mediated Autophagy is the selective, lysosome-dependent route by which individual cytosolic proteins are degraded: the substrate-chaperone complex is delivered to the lysosomal membrane and translocated into the lysosome lumen, where lysosomal proteases destroy the cargo. Its decline during Aging correlates with toxic protein aggregate accumulation.",
+      "zh-TW": "Chaperone-Mediated Autophagy 是選擇性、依賴 lysosome 的途徑，藉由它分解個別細胞質蛋白質：受質—chaperone 複合體被運送至 lysosome 膜並轉位進入 lysosome 腔內，由 lysosome 蛋白酶分解負載物。其活性隨 Aging 下降，並與毒性蛋白聚集物的累積相關。"
+    },
+    "confidence": 0.9,
+    "source_document": "Chaperone-Mediated Autophagy.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "0a4661980553",
+    "subject": "LAMP-2A",
+    "predicate": "is_required_for",
+    "object": "Chaperone-Mediated Autophagy",
+    "context": {
+      "en-US": "LAMP-2A (lysosome-associated membrane protein type 2A) is the lysosomal receptor that makes Chaperone-Mediated Autophagy possible: the Hsc70-bound substrate docks on LAMP-2A, which translocates the protein into the lysosome for degradation. Without LAMP-2A the substrate never crosses the membrane.",
+      "zh-TW": "LAMP-2A（lysosome-associated membrane protein type 2A）是使 Chaperone-Mediated Autophagy 得以進行的 lysosome 受體：由 Hsc70 結合的受質停靠在 LAMP-2A 上，後者將蛋白質轉位進 lysosome 進行分解。缺乏 LAMP-2A 時受質無法跨越膜。"
+    },
+    "confidence": 0.9,
+    "source_document": "Chaperone-Mediated Autophagy.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "25804a1e0641",
+    "subject": "Cholesterol Metabolism",
+    "predicate": "involves",
+    "object": "Mevalonate pathway",
+    "context": {
+      "en-US": "Cholesterol Metabolism comprises biosynthesis via the Mevalonate pathway, uptake via the LDL Receptor, esterification by ACAT1, and efflux through ABCA1 and ABCG1. ACAT1 also acts outside lipid handling, regulating TFEB activity through acetylation.",
+      "zh-TW": "Cholesterol Metabolism 包含經由 Mevalonate pathway 的生合成、經 LDL Receptor 的攝取、由 ACAT1 催化的酯化，以及經 ABCA1 與 ABCG1 的外排。ACAT1 也參與脂質處理以外的調節，透過乙醯化調控 TFEB 活性。"
+    },
+    "confidence": 0.9,
+    "source_document": "Cholesterol Metabolism.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "72863344b079",
+    "subject": "Cholesterol Metabolism",
+    "predicate": "supports",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Cholesterol Metabolism and Autophagy are linked in both directions: Autophagy delivers cholesterol from lipid droplets to lysosomes for hydrolysis by Lysosomal Acid Lipase, while accumulated cholesterol impairs autophagic flux. Conversely, adequate autophagic capacity supports cholesterol efflux and prevents lipotoxic accumulation.",
+      "zh-TW": "Cholesterol Metabolism 與 Autophagy 呈雙向關聯：Autophagy 將胆固醇從脂滴運送至 lysosome，由 Lysosomal Acid Lipase 水解；反之，胆固醇堆積會損害自噬流。足夠的自噬能力則支持胆固醇外排，避免脂毒性累積。"
+    },
+    "confidence": 0.85,
+    "source_document": "Cholesterol Metabolism.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "0af508c9aebb",
+    "subject": "DAF-7",
+    "predicate": "is_ortholog_of",
+    "object": "TGFβ",
+    "context": {
+      "en-US": "DAF-7 is the C. elegans TGFβ ortholog, expressed mainly in sensory neurons. Unlike the insulin/insulin-receptor pathway, DAF-7 responds to environmental cues such as food availability and pheromones and acts on a different transcriptional output, notably not through the metabolic repressor MXL-3.",
+      "zh-TW": "DAF-7 是 C. elegans 的 TGFβ 直系同源物，主要在感覺神經元表現。與 insulin/insulin receptor 路徑不同，DAF-7 會對食物可得性與費洛蒙等環境線索作出反應，且作用於不同的轉錄輸出，尤其並非透過代謝抑制因子 MXL-3。"
+    },
+    "confidence": 0.9,
+    "source_document": "DAF-7.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "a1c6e9e2d292",
+    "subject": "DAF-7",
+    "predicate": "regulates",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "DAF-7 links nutrient conditions to Autophagy in C. elegans: TGFβ signaling adjusts dauer entry, fat metabolism and autophagic activity under environmental stress. Loss of daf-7 (daf-7(e1372)) therefore perturbs stress-adaptive autophagy even though it leaves MXL-3 expression largely unchanged.",
+      "zh-TW": "DAF-7 在 C. elegans 中把營養狀況與 Autophagy 連結起來：TGFβ 訊號在環境壓力下調整 dauer 進入、脂肪代謝與自噬活性。因此 daf-7（daf-7(e1372)）的缺失會擾亂壓力適應性自噬，即使 MXL-3 表現大致不受影響。"
+    },
+    "confidence": 0.8,
+    "source_document": "DAF-7.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "10fcc387adf6",
+    "subject": "Dopamine Neuron",
+    "predicate": "is_protected_by",
+    "object": "TFEB",
+    "context": {
+      "en-US": "TFEB-mediated autophagy protects Dopamine Neuron from Alpha-synuclein toxicity. Dopamine neurons of the Substantia Nigra pars compacta are selectively vulnerable in Parkinson's Disease, and deleting TFEB (or Atg7) in mice triggers their degeneration together with protein aggregation.",
+      "zh-TW": "由 TFEB 介導的自噬可保護 Dopamine Neuron 免受 Alpha-synuclein 毒性傷害。Substantia Nigra pars compacta 的多巴胺神經元在 Parkinson's Disease 中具有選擇易感性，在小鼠中剔除 TFEB（或 Atg7）會誘發其退化與蛋白聚集。"
+    },
+    "confidence": 0.9,
+    "source_document": "Dopamine Neuron.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "b3aecb92fdd2",
+    "subject": "Dopamine Neuron",
+    "predicate": "is_required_for",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Dopamine Neuron survival depends on basal Autophagy: impairment of autophagy machinery causes dopamine neuron degeneration and protein aggregation. The reverse framing is equally important — basal autophagy is a prerequisite for maintaining these neurons, whose loss is a hallmark of Parkinson's Disease.",
+      "zh-TW": "Dopamine Neuron 的存活依賴基礎的 Autophagy：自噬機制受損會造成多巴胺神經元退化與蛋白聚集。反過來說同樣重要——基礎自噬是維持這些神經元的前提，而其流失正是 Parkinson's Disease 的標誌。"
+    },
+    "confidence": 0.85,
+    "source_document": "Dopamine Neuron.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "c6b35ec5e3b8",
+    "subject": "ESCRT",
+    "predicate": "is_required_for",
+    "object": "Selective Autophagy",
+    "context": {
+      "en-US": "ESCRT machinery (complexes 0-III) performs the membrane scission that lets Selective Autophagy capture damaged organelles. After a defective peroxisome is tagged with ubiquitin and sensed by PERO1, ESCRT is recruited and engages LC3 to initiate engulfment into an autophagosome.",
+      "zh-TW": "ESCRT 機制（0-III 複合體）執行膜切割，使 Selective Autophagy 能夠包圍受損胞器。當缺陷的 peroxisome 被泛素標記並由 PERO1 辨識後，ESCRT 被招募並與 LC3 互動，啟動包裹進 autophagosome 的過程。"
+    },
+    "confidence": 0.9,
+    "source_document": "ESCRT.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "0dd5eef8da2a",
+    "subject": "ESCRT",
+    "predicate": "interacts_with",
+    "object": "LC3",
+    "context": {
+      "en-US": "LC3 on the autophagosome recruits ESCRT to drive the scission step that seals the autophagosome around cargo. ESCRT complexes 0-III also mediate membrane scission in multivesicular body formation, cytokinesis and autophagosome closure.",
+      "zh-TW": "autophagosome 上的 LC3 招募 ESCRT，推動將囊泡封閉於負載物周圍的切割步驟。ESCRT 0-III 複合體也參與 multivesicular body 形成、細胞分裂以及 autophagosome 閉合的膜切割。"
+    },
+    "confidence": 0.85,
+    "source_document": "ESCRT.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "2610ede897ef",
+    "subject": "Endocytic Lysosome Reformation",
+    "predicate": "regenerates",
+    "object": "Lysosome",
+    "context": {
+      "en-US": "Endocytic Lysosome Reformation (ELR) is an ATP-dependent pathway that rebuilds Lysosome from endolysosomes after endocytic cargo has been degraded. It is distinct from Autophagic Lysosome Reformation, which regenerates lysosomes from autolysosomes after autophagic turnover.",
+      "zh-TW": "Endocytic Lysosome Reformation (ELR) 是一條 ATP 依賴途徑，在內吞負載物被分解後由 endolysosome 重建 Lysosome。它與 Autophagic Lysosome Reformation 不同，後者是在自噬周轉之後由 autolysosome 再生 lysosome。"
+    },
+    "confidence": 0.9,
+    "source_document": "Endocytic Lysosome Reformation.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "74e7f54cb250",
+    "subject": "PIKfyve",
+    "predicate": "is_required_for",
+    "object": "Endocytic Lysosome Reformation",
+    "context": {
+      "en-US": "PIKfyve generates the phosphoinositide PtdIns(3,5)P2 on endolysosomal membranes, and that lipid signal is required for Endocytic Lysosome Reformation together with calcium-channel activation. Without PIKfyve, endolysosomes cannot be converted back into mature lysosomes.",
+      "zh-TW": "PIKfyve 在 endolysosome 膜上產生磷脂質 PtdIns(3,5)P2，該脂質訊號與鈣離子通道活化一同為 Endocytic Lysosome Reformation 所必需。缺乏 PIKfyve 時，endolysosome 無法轉回成熟 lysosome。"
+    },
+    "confidence": 0.9,
+    "source_document": "Endocytic Lysosome Reformation.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "7fc229bb6728",
+    "subject": "TRPML1",
+    "predicate": "is_required_for",
+    "object": "Endocytic Lysosome Reformation",
+    "context": {
+      "en-US": "TRPML1 is the lysosomal calcium channel whose activation triggers calcium efflux and tubulation during Endocytic Lysosome Reformation. Activating TRPML1 alongside PIKfyve-dependent PtdIns(3,5)P2 production drives regeneration of tubular lysosomal structures.",
+      "zh-TW": "TRPML1 是 lysosome 鈣離子通道，其活化引發鈣離子外流與管狀化，是 Endocytic Lysosome Reformation 的關鍵。TRPML1 活化搭配 PIKfyve 依賴的 PtdIns(3,5)P2 生成，可推動管狀 lysosome 結構的再生。"
+    },
+    "confidence": 0.85,
+    "source_document": "Endocytic Lysosome Reformation.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "924ee3a38482",
+    "subject": "Ezetimibe",
+    "predicate": "activates",
+    "object": "TFEB",
+    "context": {
+      "en-US": "Ezetimibe, a cholesterol-lowering drug, activates TFEB indirectly through AMPK and thereby increases Autophagy; this pathway ameliorates steatohepatitis. As an autophagy inducer, Ezetimibe's effects may also underlie part of its anti-inflammatory and anti-atherogenic benefit.",
+      "zh-TW": "Ezetimibe 是一種降膽固醇藥物，透過 AMPK 間接活化 TFEB，進而提升 Autophagy；此途徑可改善 steatohepatitis。作為自噬誘導劑，Ezetimibe 的效應可能也是其抗發炎與抗動脈粥樣硬化部分益處的來源。"
+    },
+    "confidence": 0.85,
+    "source_document": "Ezetimibe.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "5de62bf0d805",
+    "subject": "Ezetimibe",
+    "predicate": "induces",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Ezetimibe induces hepatic Autophagy and reduces steatosis in NAFLD models by modulating cholesterol flux. Its autophagy-inducing action also cooperates with Statins for LDL-C lowering, the two acting synergistically at the level of cholesterol absorption.",
+      "zh-TW": "Ezetimibe 透過調節膽固醇流，在 NAFLD 模型中誘導肝臟 Autophagy 並減少脂肪變性。其誘導自噬的作用也可與 Statins 協同降低 LDL-C，兩者在膽固醇吸收層面上具加成效果。"
+    },
+    "confidence": 0.8,
+    "source_document": "Ezetimibe.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "9b48463054f8",
+    "subject": "Ezetimibe",
+    "predicate": "targets",
+    "object": "Cholesterol Metabolism",
+    "context": {
+      "en-US": "Ezetimibe targets Cholesterol Metabolism at the intestine: it blocks the NPC1L1 cholesterol transporter at the brush border, cutting dietary and biliary cholesterol absorption by roughly half and lowering LDL-C, especially in combination with Statins.",
+      "zh-TW": "Ezetimibe 在腸道層面針對 Cholesterol Metabolism：阻斷刷狀緣的 NPC1L1 膽固醇轉運蛋白，使飲食與膽汁中的膽固醇吸收減少約一半，並降低 LDL-C，與 Statins 併用時效果尤其明顯。"
+    },
+    "confidence": 0.9,
+    "source_document": "Ezetimibe.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "62a39f93b342",
+    "subject": "FACT complex",
+    "predicate": "binds",
+    "object": "TFEB",
+    "context": {
+      "en-US": "The FACT complex (SSRP1/SUPT16H) is a histone chaperone that binds TFEB and thereby facilitates expression of lysosomal and antioxidant genes. SUMOylation of TFEB at K316 attenuates its transcriptional activity by reducing its binding to FACT complex.",
+      "zh-TW": "FACT complex（SSRP1/SUPT16H）是 histone chaperone，可與 TFEB 結合，藉此促進 lysosome 與抗氧化基因的表現。TFEB 在 K316 的 SUMO 化會減少其與 FACT complex 的結合，因而削弱其轉錄活性。"
+    },
+    "confidence": 0.9,
+    "source_document": "FACT complex.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "df2d2b4dc60d",
+    "subject": "FACT complex",
+    "predicate": "regulates",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "FACT complex sets chromatin accessibility at Autophagy gene promoters, and FACT inhibition increases Autophagy by altering that epigenetic landscape. FACT also promotes transcription elongation by displacing and replacing H2A-H2B dimers during RNA polymerase II passage.",
+      "zh-TW": "FACT complex 決定 Autophagy 基因啟動子上的染色質可及性；抑制 FACT 會藉由改變表觀遺傳景觀而提升 Autophagy。FACT 也透過在 RNA polymerase II 行進時置換 H2A-H2B 二聚體來促進轉錄延伸。"
+    },
+    "confidence": 0.8,
+    "source_document": "FACT complex.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "8a705384db0b",
+    "subject": "FACT complex",
+    "predicate": "binds",
+    "object": "TFE3",
+    "context": {
+      "en-US": "TFE3 is one of the two MiT/TFEB-family transcription factors to which FACT complex binds; the chaperone interaction helps these factors drive lysosomal and antioxidant gene transcription, which in turn supports lysosomal biogenesis and autophagic flux.",
+      "zh-TW": "TFE3 是與 FACT complex 結合的兩個 MiT/TFEB 家族轉錄因子之一；此 chaperone 互動協助這些因子啟動 lysosome 與抗氧化基因的轉錄，進而支持 lysosome 生成與自噬流。"
+    },
+    "confidence": 0.85,
+    "source_document": "FACT complex.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "26a91ab37a19",
+    "subject": "FIP200",
+    "predicate": "is_required_for",
+    "object": "Macroautophagy",
+    "context": {
+      "en-US": "FIP200 (RB1CC1) is a core component of the ULK1 complex and the mammalian ortholog of yeast Atg17; it is essential for Macroautophagy initiation. It scaffolds the ULK1-Atg13-Atg101 kinase complex so that the autophagy-initiation signal is transmitted to nascent Autophagosome nucleation.",
+      "zh-TW": "FIP200（RB1CC1）是 ULK1 複合體的核心成員，也是酵母 Atg17 的哺乳類直系同源物，對 Macroautophagy 的起始不可或缺。它作為支架連結 ULK1-Atg13-Atg101 kinase 複合體，使自噬起始訊號得以傳遞至新生 Autophagosome 的成核。"
+    },
+    "confidence": 0.95,
+    "source_document": "FIP200.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "add4b64ea79c",
+    "subject": "FIP200",
+    "predicate": "scaffolds",
+    "object": "Atg13",
+    "context": {
+      "en-US": "FIP200 scaffolds the ULK1-Atg13-Atg101 kinase complex: without the FIP200 scaffold the Atg13 and Atg101 subunits cannot assemble productively with ULK1, and Autophagosome formation fails. mTORC1 controls Autophagy chiefly through this ULK1/Atg13/FIP200 complex.",
+      "zh-TW": "FIP200 作為支架連結 ULK1-Atg13-Atg101 kinase 複合體：沒有 FIP200 支架，Atg13 與 Atg101 次單元便無法與 ULK1 有效組裝，Autophagosome 形成隨之失敗。mTORC1 主要透過此 ULK1/Atg13/FIP200 複合體調控 Autophagy。"
+    },
+    "confidence": 0.9,
+    "source_document": "FIP200.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "8a6269ee0774",
+    "subject": "FIP200",
+    "predicate": "is_ortholog_of",
+    "object": "Atg17",
+    "context": {
+      "en-US": "FIP200 (RB1CC1) is the mammalian ortholog of yeast Atg17. As the Atg17 scaffold, FIP200 holds the ULK1-Atg13-Atg101 kinase complex together and is required for Autophagosome formation during Macroautophagy initiation.",
+      "zh-TW": "FIP200（RB1CC1）是酵母 Atg17 的哺乳類直系同源物。作為 Atg17 支架，FIP200 將 ULK1-Atg13-Atg101 kinase 複合體維持在一起，並為 Macroautophagy 起始時的 Autophagosome 形成所必需。"
+    },
+    "confidence": 0.9,
+    "source_document": "FIP200.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "2fd19c74ef37",
+    "subject": "FNIP1",
+    "predicate": "regulates",
+    "object": "mTORC1",
+    "context": {
+      "en-US": "FNIP1 forms a ternary complex with Folliculin and FNIP2 that acts as a GTPase-activating protein for Rag GTPases, converting RagC/D from GTP- to GDP-bound state so that mTORC1 is recruited to the lysosome upon amino acid stimulation. FNIP1 deletion impairs mTORC1 activation and causes constitutive nuclear translocation of TFE3 and TFEB.",
+      "zh-TW": "FNIP1 與 Folliculin 及 FNIP2 組成三元複合體，作為 Rag GTPases 的 GTPase-activating protein，將 RagC/D 由 GTP 結合態轉為 GDP 結合態，使 mTORC1 在胺基酸刺激下被招募至 lysosome。FNIP1 缺失會損害 mTORC1 活化並造成 TFE3 與 TFEB 的組成性核轉位。"
+    },
+    "confidence": 0.9,
+    "source_document": "FNIP1.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "4fb9dbbcf9ff",
+    "subject": "FNIP1",
+    "predicate": "cooperates_with",
+    "object": "Folliculin",
+    "context": {
+      "en-US": "FNIP1 cooperates with Folliculin and FNIP2 in the FLCN-FNIP1/2 complex, whose RagC/D GAP activity gates Amino Acid Sensing-driven mTORC1 recruitment. FNIP1 also carries a DENN domain and AMPK phosphorylation sites, coupling the complex to energy state.",
+      "zh-TW": "FNIP1 與 Folliculin 及 FNIP2 在 FLCN-FNIP1/2 複合體中协同作用，該複合體的 RagC/D GAP 活性把關 Amino Acid Sensing 驅動的 mTORC1 招募。FNIP1 另含 DENN 結構域與 AMPK 磷酸化位點，將複合體與能量狀態耦合。"
+    },
+    "confidence": 0.9,
+    "source_document": "FNIP1.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "68981918c2f6",
+    "subject": "FNIP1",
+    "predicate": "is_required_for",
+    "object": "Folliculin",
+    "context": {
+      "en-US": "FNIP1 is required for Folliculin-dependent regulation of cell growth and for Autophagy suppression under nutrient-replete conditions. Removing FNIP1 lifts Folliculin's brake on mTORC1, releasing TFE3/TFEB into the nucleus and increasing autophagic transcription.",
+      "zh-TW": "FNIP1 是 Folliculin 依賴的細胞生長調控以及營養充足條件下 Autophagy 抑制所必需。移除 FNIP1 會解除 Folliculin 對 mTORC1 的抑制，使 TFE3/TFEB 釋放至細胞核並提高自噬相關轉錄。"
+    },
+    "confidence": 0.8,
+    "source_document": "FNIP1.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "c27109700bd7",
+    "subject": "FNIP2",
+    "predicate": "regulates",
+    "object": "mTORC1",
+    "context": {
+      "en-US": "FNIP2 sits upstream of mTORC1 as a scaffold of the Folliculin-FNIP1/2 complex, whose Rag GTPase GAP activity regulates mTORC1 translocation to the lysosomal surface in response to Amino Acid Sensing. AMPK directly phosphorylates FNIP2, linking Energy Homeostasis to mTORC1 regulation.",
+      "zh-TW": "FNIP2 作為 Folliculin-FNIP1/2 複合體的支架位於 mTORC1 上游，該複合體的 Rag GTPase GAP 活性依 Amino Acid Sensing 調控 mTORC1 轉位至 lysosome 表面。AMPK 直接磷酸化 FNIP2，將 Energy Homeostasis 與 mTORC1 調控連結起來。"
+    },
+    "confidence": 0.9,
+    "source_document": "FNIP2.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "72cc835c31ab",
+    "subject": "AMPK",
+    "predicate": "phosphorylates",
+    "object": "FNIP2",
+    "context": {
+      "en-US": "AMPK directly phosphorylates FNIP2, which is how Energy Homeostasis is wired to mTORC1 control. FNIP2 deficiency or AMPK failure leaves Rag GTPases in their activating state, so amino-acid-dependent mTORC1 activation and Autophagy regulation both fail to respond.",
+      "zh-TW": "AMPK 直接磷酸化 FNIP2，這是 Energy Homeostasis 與 mTORC1 控制相互連結的方式。FNIP2 缺失或 AMPK 失效會使 Rag GTPases 維持在活化狀態，導致胺基酸依賴的 mTORC1 活化與 Autophagy 調控皆無法正常反應。"
+    },
+    "confidence": 0.85,
+    "source_document": "FNIP2.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "4bf7cdaa279c",
+    "subject": "FNIP2",
+    "predicate": "is_associated_with",
+    "object": "Birt-Hogg-Dube syndrome",
+    "context": {
+      "en-US": "Missense mutations in FNIP2 are associated with Birt-Hogg-Dube syndrome-like phenotypes such as fibrofolliculomas and renal cell carcinoma, and FNIP2 has been identified as a susceptibility locus in genome-wide association studies for chronic kidney disease, linking it to Folliculin-pathway tumor suppressor biology.",
+      "zh-TW": "FNIP2 的錯義突變與 Birt-Hogg-Dube syndrome 類表型（例如纖毛濾泡瘤與腎細胞癌）相關，且 FNIP2 在慢性腎病的全基因體關聯研究中被鑑定為易感位點，將其與 Folliculin 路徑的腫瘤抑制功能連結。"
+    },
+    "confidence": 0.8,
+    "source_document": "FNIP2.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "4824e58df799",
+    "subject": "FNIP2",
+    "predicate": "is_required_for",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "FNIP2 is required for proper Autophagy regulation and metabolic adaptation: FNIP2 deficiency impairs amino acid-dependent mTORC1 activation and disrupts autophagic flux. FNIP2 also heterodimerizes with Folliculin and FNIP1, sharing a DENN domain and an AMPK phosphorylation motif with FNIP1.",
+      "zh-TW": "FNIP2 對正常的 Autophagy 調控與代謝適應是必需的：FNIP2 缺失會損害胺基酸依賴的 mTORC1 活化並破壞自噬流。FNIP2 亦可與 Folliculin 及 FNIP1 形成異二聚體，並與 FNIP1 共享 DENN 結構域與 AMPK 磷酸化基序。"
+    },
+    "confidence": 0.85,
+    "source_document": "FNIP2.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "2015cef6fb85",
+    "subject": "Folliculin",
+    "predicate": "regulates",
+    "object": "mTORC1",
+    "context": {
+      "en-US": "Folliculin (FLCN) is a tumor suppressor that regulates mTORC1 activity and Lysosome positioning as a guanine nucleotide exchange factor and RagC/D GAP for Rag proteins in complex with FNIP1/FNIP2. Loss of FLCN leaves TFEB permanently nuclear because mTORC1 can no longer phosphorylate it.",
+      "zh-TW": "Folliculin（FLCN）是腫瘤抑制因子，與 FNIP1/FNIP2 組成複合體，作為 Rag proteins 的 guanine nucleotide exchange factor 與 RagC/D GAP，調控 mTORC1 活性與 Lysosome 定位。FLCN 流失會使 TFEB 永久停留於細胞核，因為 mTORC1 已無法磷酸化它。"
+    },
+    "confidence": 0.9,
+    "source_document": "Folliculin.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "e4d0b22713ed",
+    "subject": "Folliculin",
+    "predicate": "interacts_with",
+    "object": "Rag proteins",
+    "context": {
+      "en-US": "Folliculin acts on Rag proteins as a guanine nucleotide exchange factor, and within the FLCN-FNIP1/2 complex as the RagC/D GAP, thereby controlling which Rag heterodimer state is presented at the lysosome — RagA/B GDP-RagC/D GTP under starvation versus RagA/B GTP-RagC/D GDP in nutrient-replete conditions.",
+      "zh-TW": "Folliculin 作為 guanine nucleotide exchange factor 作用於 Rag proteins，並在 FLCN-FNIP1/2 複合體中作為 RagC/D GAP，控制 lysosome 上呈現的 Rag 異二聚體狀態——禁食時為 RagA/B GDP-RagC/D GTP，營養充足時則為 RagA/B GTP-RagC/D GDP。"
+    },
+    "confidence": 0.85,
+    "source_document": "Folliculin.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "7cd157db4ffe",
+    "subject": "Folliculin",
+    "predicate": "is_a",
+    "object": "Tumor Suppressor",
+    "context": {
+      "en-US": "Folliculin is a Tumor Suppressor whose loss drives disease: FLCN mutations cause Birt-Hogg-Dube syndrome with fibrofolliculomas, lung cysts and renal cancer. Loss of Folliculin also triggers constitutive TFE3/TFEB nuclear translocation, derepressing lysosomal-autophagy transcription.",
+      "zh-TW": "Folliculin 是一個 Tumor Suppressor，其功能喪失會導致疾病：FLCN 突變引起 Birt-Hogg-Dube syndrome，表現為纖毛濾泡瘤、肺囊腫與腎癌。Folliculin 流失也會觸發 TFE3/TFEB 的組成性核轉位，解除對 lysosome-自噬轉錄的抑制。"
+    },
+    "confidence": 0.9,
+    "source_document": "Folliculin.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "c88ed44a9130",
+    "subject": "Foxp3",
+    "predicate": "is_a_type_of",
+    "object": "T Cell",
+    "context": {
+      "en-US": "Foxp3 (Forkhead Box P3) is the forkhead transcription factor that specifies the Regulatory T Cell (Treg) lineage, making it the master regulator of Treg identity. Spermidine can promote differentiation of CD4+ T cells toward this Foxp3+ phenotype with an anti-inflammatory profile.",
+      "zh-TW": "Foxp3（Forkhead Box P3）是指定 Regulatory T Cell（Treg）譜系的 forkhead 轉錄因子，是 Treg 身分的總調控因子。Spermidine 可促進 CD4+ T cells 向此 Foxp3+、具抗發炎特徵的表型分化。"
+    },
+    "confidence": 0.9,
+    "source_document": "Foxp3.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "03ef9d1b4c4a",
+    "subject": "Spermidine",
+    "predicate": "induces",
+    "object": "Foxp3",
+    "context": {
+      "en-US": "Spermidine induces the Foxp3+ regulatory phenotype in CD4+ T cells, but this induction is abrogated in Atg5-deficient T cells that cannot initiate Autophagy. Spermidine's pro-Treg effect is therefore autophagy-dependent rather than purely transcriptional.",
+      "zh-TW": "Spermidine 在 CD4+ T cells 中誘導 Foxp3+ 調節表型，但此誘導在無法啟動 Autophagy 的 Atg5 缺失 T cells 中被廢除。因此 Spermidine 的促 Treg 作用是自噬依賴的，而非純粹轉錄層面的。"
+    },
+    "confidence": 0.85,
+    "source_document": "Foxp3.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "9efaed15ab9b",
+    "subject": "Autophagy",
+    "predicate": "maintains",
+    "object": "Regulatory T Cell",
+    "context": {
+      "en-US": "Autophagy maintains Regulatory T Cell metabolic fitness and suppressive function; loss of Atg5 in Treg-like cells abolishes the Foxp3+ phenotype induced by Spermidine. Autophagy is thus a metabolic fitness requirement for Treg suppressive activity.",
+      "zh-TW": "Autophagy 維持 Regulatory T Cell 的代謝適應度與抑制功能；在 Treg 樣細胞中失去 Atg5 會廢除 Spermidine 誘導的 Foxp3+ 表型。因此自噬是 Treg 抑制活性所需的代謝適應條件。"
+    },
+    "confidence": 0.85,
+    "source_document": "Foxp3.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "f2c9629e62c2",
+    "subject": "GABARAP",
+    "predicate": "is_a_type_of",
+    "object": "Atg8",
+    "context": {
+      "en-US": "GABARAP belongs to the Atg8 protein family together with LC3 and GATE-16. It is conjugated to phosphatidylethanolamine on the Autophagosome membrane through the ubiquitin-like conjugation system and supports later maturation steps.",
+      "zh-TW": "GABARAP 與 LC3、GATE-16 同屬 Atg8 蛋白家族。它經由類泛素接合系統被接附到 Autophagosome 膜上的磷脂乙醇胺，並支援後續的成熟步驟。"
+    },
+    "confidence": 0.9,
+    "source_document": "GABARAP.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "2aec79b416db",
+    "subject": "GABARAP",
+    "predicate": "mediates",
+    "object": "Lysosome",
+    "context": {
+      "en-US": "GABARAP mediates Autophagosome-Lysosome fusion by interacting with LAMP1 and PLEKHM1 on the lysosomal side. As an Atg8 family member it also recruits GABARAP-interacting proteins for Selective Autophagy cargo recognition on the nascent autophagosome.",
+      "zh-TW": "GABARAP 透過與 lysosome 側的 LAMP1 及 PLEKHM1 互動，介導 Autophagosome 與 Lysosome 的融合。作為 Atg8 家族成員，它也會招募 GABARAP 互動蛋白，參與新生 autophagosome 上 Selective Autophagy 負載物的辨識。"
+    },
+    "confidence": 0.85,
+    "source_document": "GABARAP.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "655ae10d63a0",
+    "subject": "GABARAP",
+    "predicate": "is_required_for",
+    "object": "Autophagosome",
+    "context": {
+      "en-US": "As an Atg8 family protein, GABARAP is required for the later stages of Autophagosome maturation and its fusion with the Lysosome. Mammalian LC3, its family sibling, can likewise promote Atg1 kinase activity together with GATE-16 and GABARAP.",
+      "zh-TW": "作為 Atg8 家族蛋白，GABARAP 為 Autophagosome 後期成熟步驟及其與 Lysosome 融合所必需。哺乳類 LC3 作為同家族成員，也可與 GATE-16 及 GABARAP 一同促進 Atg1 kinase 活性。"
+    },
+    "confidence": 0.85,
+    "source_document": "GABARAP.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "0bcba2475fbf",
+    "subject": "GATE-16",
+    "predicate": "is_a_type_of",
+    "object": "Atg8",
+    "context": {
+      "en-US": "GATE-16 (GABARAPL2) is a Golgi-associated member of the Atg8 protein family, involved in intra-Golgi transport as well as Autophagy. It is conjugated to autophagosomal membranes similarly to LC3 and GABARAP.",
+      "zh-TW": "GATE-16（GABARAPL2）是 Atg8 蛋白家族中與 Golgi 關聯的成員，參與 Golgi 內運輸以及 Autophagy。它與 LC3 及 GABARAP 類似地被接附到 autophagosome 膜上。"
+    },
+    "confidence": 0.9,
+    "source_document": "GATE-16.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "9261f10e7b96",
+    "subject": "GATE-16",
+    "predicate": "is_required_for",
+    "object": "Autophagosome",
+    "context": {
+      "en-US": "GATE-16 is required for Autophagosome formation as well as intra-Golgi transport. Its Atg8-family role in mammals mirrors yeast Atg8, and it can promote Atg1 kinase activity alongside LC3 and GABARAP.",
+      "zh-TW": "GATE-16 對 Autophagosome 形成以及 Golgi 內運輸皆為必需。它在哺乳類中的 Atg8 家族角色對應酵母 Atg8，並可與 LC3 及 GABARAP 一同促進 Atg1 kinase 活性。"
+    },
+    "confidence": 0.85,
+    "source_document": "GATE-16.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "cc23e36a7a95",
+    "subject": "GATE-16",
+    "predicate": "involved_in",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "GATE-16 participates in Autophagy while also serving intra-Golgi transport. Because GATE-16 is lipidated onto autophagosomal membranes like LC3 and GABARAP, it links autophagosome biogenesis to Golgi membrane dynamics.",
+      "zh-TW": "GATE-16 參與 Autophagy，同時也服務於 Golgi 內運輸。由於 GATE-16 與 LC3、GABARAP 類似會被脂質化接附到 autophagosome 膜上，它將 autophagosome 的生成與 Golgi 膜動態連結起來。"
+    },
+    "confidence": 0.8,
+    "source_document": "GATE-16.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "7891ffa61f87",
+    "subject": "Glucosylation",
+    "predicate": "regulates",
+    "object": "TFEB",
+    "context": {
+      "en-US": "Glucosylation is one of the post-translational modifications that set TFEB activity and subcellular localization, alongside phosphorylation, acetylation, ubiquitination, PARylation, SUMOylation, oxidation and S-sulfhydration. SetA-mediated glucosylation of TFEB shifts it to the nucleus.",
+      "zh-TW": "Glucosylation 是決定 TFEB 活性與細胞內定位的轉譯後修飾之一，與磷酸化、乙醯化、泛素化、PAR 化、SUMO 化、氧化及 S-硫氫化並列。SetA 媒介的 TFEB glucosylation 會使其轉移至細胞核。"
+    },
+    "confidence": 0.85,
+    "source_document": "Glucosylation.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "5b0d93af8353",
+    "subject": "HDACs",
+    "predicate": "deacetylates",
+    "object": "TFEB",
+    "context": {
+      "en-US": "HDACs (histone deacetylases) remove acetyl groups from histones and non-histone proteins, and their action on TFEB lowers its transcriptional output. Two enzyme classes acetylate TFEB (GCN5, ACAT1) while SIRT1 and HDACs deacetylate it, making the acetylation balance a key switch for lysosomal-autophagy transcription.",
+      "zh-TW": "HDACs（histone deacetylases）移除組蛋白與非組蛋白上的乙醯基，其對 TFEB 的作用會降低其轉錄輸出。GCN5 與 ACAT1 兩類酵素可使 TFEB 乙醯化，而 SIRT1 與 HDACs 則使其去乙醯化，使乙醯化平衡成為 lysosome-自噬轉錄的關鍵開關。"
+    },
+    "confidence": 0.9,
+    "source_document": "HDACs.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "60587f122cbf",
+    "subject": "SAHA",
+    "predicate": "inhibits",
+    "object": "HDACs",
+    "context": {
+      "en-US": "SAHA (vorinostat) is an HDAC inhibitor; by blocking histone deacetylase activity it keeps TFEB acetylated and thereby enhances TFEB activity. HDAC inhibitors such as SAHA and Trichostatin A induce Autophagy through TFEB and FOXO activation.",
+      "zh-TW": "SAHA（vorinostat）是 HDAC 抑制劑；藉由阻斷 histone 去乙醯化活性，它使 TFEB 維持乙醯化態，從而提升 TFEB 活性。像 SAHA 與 Trichostatin A 這類 HDAC 抑制劑會經由活化 TFEB 與 FOXO 誘導 Autophagy。"
+    },
+    "confidence": 0.85,
+    "source_document": "HDACs.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "8967b7fede6d",
+    "subject": "HDACs",
+    "predicate": "regulates",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "HDAC activity regulates Autophagy at several points: inhibitors induce Autophagy by activating TFEB and FOXO, while HDAC6 specifically governs autophagosome-lysosome fusion by deacetylating Cortactin, whose acetylated form blocks fusion.",
+      "zh-TW": "HDAC 活性在數個層面調控 Autophagy：抑制劑藉由活化 TFEB 與 FOXO 誘導 Autophagy，而 HDAC6 則透過使 Cortactin 去乙醯化來調控 autophagosome-lysosome 融合，因為 Cortactin 的乙醯化型會阻斷融合。"
+    },
+    "confidence": 0.85,
+    "source_document": "HDACs.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "18698de373d6",
+    "subject": "Trichostatin A",
+    "predicate": "inhibits",
+    "object": "HDACs",
+    "context": {
+      "en-US": "Trichostatin A is a hydroxamate HDAC inhibitor used alongside SAHA to demonstrate that deacetylation restrains autophagy. Its inhibition of HDACs de-represses TFEB and FOXO targets, raising Autophagy activity.",
+      "zh-TW": "Trichostatin A 是羥胺酸類的 HDAC 抑制劑，常與 SAHA 併用以證明去乙醯化會壓抑自噬。其對 HDACs 的抑制會解除 TFEB 與 FOXO 標的基因的壓抑，提高 Autophagy 活性。"
+    },
+    "confidence": 0.85,
+    "source_document": "HDACs.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "71b1a23539a7",
+    "subject": "METTL3",
+    "predicate": "methylates",
+    "object": "TFEB",
+    "context": {
+      "en-US": "METTL3 is the m6A writer that methylates two RRACU consensus sequences in the TFEB 3'-UTR. The m6A mark installed by METTL3 promotes association of the RNA-binding protein HNRNPD with TFEB pre-mRNA, leading to rapid degradation and reduced TFEB protein.",
+      "zh-TW": "METTL3 是 m6A 寫入酵素，在 TFEB 3'-UTR 的兩段 RRACU 共識序列上進行甲基化。METTL3 安裝的 m6A 標記會促進 RNA 結合蛋白 HNRNPD 與 TFEB 前驅 mRNA 結合，導致其快速降解並使 TFEB 蛋白減少。"
+    },
+    "confidence": 0.9,
+    "source_document": "HNRNPD.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "2e4dd473c03c",
+    "subject": "HNRNPD",
+    "predicate": "reduces",
+    "object": "TFEB",
+    "context": {
+      "en-US": "HNRNPD (AUF1) binds AU-rich elements in target mRNAs and, when the transcript carries m6A installed by METTL3, destabilizes TFEB pre-mRNA, lowering TFEB protein and attenuating lysosomal-autophagy transcription. Reader proteins such as YTHDF2 contribute to the m6A-dependent targeting.",
+      "zh-TW": "HNRNPD（AUF1）會結合目標 mRNA 的 AU-rich 元素；當轉錄本帶有 METTL3 安裝的 m6A 標記時，它會使 TFEB 前驅 mRNA 去穩定，降低 TFEB 蛋白並削弱 lysosome-自噬轉錄。诸如 YTHDF2 等 reader 蛋白參與此 m6A 依賴的標定。"
+    },
+    "confidence": 0.9,
+    "source_document": "HNRNPD.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "c35179b5129f",
+    "subject": "HNRNPD",
+    "predicate": "stabilizes",
+    "object": "ULK1",
+    "context": {
+      "en-US": "HNRNPD (AUF1) stabilizes ULK1 and Beclin1 transcripts, supporting the abundance of the autophagy initiation complex. The same protein therefore sits at a bidirectional post-transcriptional checkpoint: it promotes Autophagy initiation factors while suppressing TFEB-driven lysosomal-autophagy transcription.",
+      "zh-TW": "HNRNPD（AUF1）會穩定 ULK1 與 Beclin1 的轉錄本，支持自噬起始複合體的豐度。因此同一蛋白位於雙向的轉錄後檢查點：它一方面促進自噬起始因子，另一方面抑制 TFEB 驅動的 lysosome-自噬轉錄。"
+    },
+    "confidence": 0.85,
+    "source_document": "HNRNPD.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "7aed522d9c3a",
+    "subject": "HNRNPD",
+    "predicate": "is_associated_with",
+    "object": "Aging",
+    "context": {
+      "en-US": "HNRNPD dysregulation contributes to the age-related decline in Autophagy: reduced stabilization of ULK1/Beclin1 transcripts and enhanced TFEB mRNA decay erode the autophagic reserve implicated in Aging and Neurodegeneration. In Cancer, AUF1 often promotes proliferation and metastasis though context-dependent tumor-suppressive roles exist.",
+      "zh-TW": "HNRNPD 的失調會促成 Autophagy 的老化相關衰退：ULK1/Beclin1 轉錄本穩定性下降與 TFEB mRNA 降解增加，侵蝕與 Aging 及 Neurodegeneration 相關的自噬儲備。在 Cancer 中，AUF1 常促進增殖與轉移，但亦存在依情境而定的腫瘤抑制角色。"
+    },
+    "confidence": 0.8,
+    "source_document": "HNRNPD.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "43297cfa01c2",
+    "subject": "HepG2",
+    "predicate": "is_used_to_study",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "HepG2 is a human hepatocellular carcinoma cell line widely used to model human liver metabolism, protein synthesis and Autophagy. It supports siRNA-mediated knockdown of TFEB and nutrient-deprivation protocols, making it a convenient human system for lysosomal-autophagy studies.",
+      "zh-TW": "HepG2 是人類肝細胞癌細胞系，廣泛用於模擬人類肝臟代謝、蛋白質合成與 Autophagy。它支援 TFEB 的 siRNA 敲低與營養剝奪實驗流程，是研究 lysosome-自噬的便利人類系統。"
+    },
+    "confidence": 0.85,
+    "source_document": "HepG2.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "3a2fcc047c26",
+    "subject": "TFEB",
+    "predicate": "upregulates",
+    "object": "LC3",
+    "context": {
+      "en-US": "TFEB transcriptionally upregulates LC3 together with Lysosomal Acid Lipase during nutrient stress, a conserved lipophagy response demonstrated in HepG2 cells. The same TFEB program links nutrient sensing to lysosomal capacity and autophagic flux.",
+      "zh-TW": "在營養壓力下，TFEB 會與 Lysosomal Acid Lipase 一同轉錄性上調 LC3，這是在 HepG2 細胞中證實的保守 lipophagy 反應。同一套 TFEB 計畫把營養感知與 lysosome 容量及自噬流連結起來。"
+    },
+    "confidence": 0.85,
+    "source_document": "HepG2.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "063d2d9998af",
+    "subject": "Hypusination",
+    "predicate": "modifies",
+    "object": "eIF5A",
+    "context": {
+      "en-US": "Hypusination converts lysine K50 of eIF5A to hypusine through the sequential action of DHPS and DOHH. This unique post-translational modification is required for eIF5A to function in translation elongation, and it is the reason Spermidine can raise the synthesis of proteins such as TFEB.",
+      "zh-TW": "Hypusination 透過 DHPS 與 DOHH 的連續作用，將 eIF5A 的 K50 離胺酸轉換為 hypusine。此獨特的轉譯後修飾是 eIF5A 執行轉譯延伸功能的必要條件，也是 Spermidine 能提高 TFEB 等蛋白質合成的原因。"
+    },
+    "confidence": 0.9,
+    "source_document": "Hypusination.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "e57422600caf",
+    "subject": "Spermidine",
+    "predicate": "promotes",
+    "object": "Hypusination",
+    "context": {
+      "en-US": "Spermidine is a polyamine that feeds the deoxyhypusine pathway, thereby promoting Hypusination of eIF5A and the downstream synthesis of proteins such as TFEB. This is one route by which a polyamine supplement can influence lysosomal-autophagy transcription.",
+      "zh-TW": "Spermidine 是多胺，可供給 deoxyhypusine 路徑，藉此促進 eIF5A 的 Hypusination 及其下游 TFEB 等蛋白質的合成。這是聚胺補充劑能影響 lysosome-自噬轉錄的途徑之一。"
+    },
+    "confidence": 0.8,
+    "source_document": "Hypusination.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "01347bdb6c72",
+    "subject": "Hypusination",
+    "predicate": "is_required_for",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Hypusination of eIF5A is essential for eIF5A function in translation elongation and for Autophagy. Without the hypusine modification, de novo protein synthesis of autophagic components such as TFEB falls, blunting the autophagy response.",
+      "zh-TW": "eIF5A 的 Hypusination 對 eIF5A 在轉譯延伸中的功能以及 Autophagy 皆為必要。若缺乏 hypusine 修飾，TFEB 等自噬成分的新生蛋白合成會下降，使自噬反應減弱。"
+    },
+    "confidence": 0.8,
+    "source_document": "Hypusination.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "a41175ddddd2",
+    "subject": "Immunometabolism",
+    "predicate": "involves",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Immunometabolism examines how metabolic pathways such as Autophagy, Glycolysis and OxPhos regulate immune cell function and differentiation. Selective Autophagy is central to it: it modulates immunity through metabolic reprogramming and facilitates energy metabolism during effector T Cell activation.",
+      "zh-TW": "Immunometabolism 研究 Autophagy、Glycolysis 與 OxPhos 等代謝途徑如何調節免疫細胞功能與分化。Selective Autophagy 是其核心：它透過代謝重編程調節免疫，並在效應型 T Cell 活化期間促進能量代謝。"
+    },
+    "confidence": 0.9,
+    "source_document": "Immunometabolism.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "4aa49d063e2b",
+    "subject": "Immunometabolism",
+    "predicate": "is_associated_with",
+    "object": "Immune Aging",
+    "context": {
+      "en-US": "Immunometabolism is closely tied to Immune Aging, which involves transcriptional and metabolic reprogramming in individual immune cells. Pharmacological metabolic reprogramming is one strategy: Metformin improves memory immune responses by metabolically reprogramming memory CD8+ T cells.",
+      "zh-TW": "Immunometabolism 與 Immune Aging 密切相關，後者涉及個別免疫細胞的轉錄與代謝重編程。藥理性的代謝重編程是策略之一：Metformin 透過代謝重編程記憶 CD8+ T cells，改善記憶性免疫反應。"
+    },
+    "confidence": 0.85,
+    "source_document": "Immunometabolism.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "ba2c88d329d6",
+    "subject": "Metformin",
+    "predicate": "improves",
+    "object": "T Cell",
+    "context": {
+      "en-US": "Metformin improves memory T Cell responses by metabolically reprogramming memory CD8+ T cells. Within Immunometabolism this illustrates the general principle that altering a cell's metabolic program changes its immune fate and durability.",
+      "zh-TW": "Metformin 透過代謝重編程記憶 CD8+ T cells 來改善記憶 T Cell 的反應。在 Immunometabolism 的脈絡中，這說明了改變細胞代謝程式即可改變其免疫命運與持久性的一般原理。"
+    },
+    "confidence": 0.8,
+    "source_document": "Immunometabolism.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "c4856bd97f34",
+    "subject": "Ketogenesis",
+    "predicate": "is_induced_by",
+    "object": "Caloric Restriction",
+    "context": {
+      "en-US": "Ketogenesis is induced whenever glucose availability falls, as under Caloric Restriction, Intermittent Fasting or a Ketogenic Diet. During fasting the inhibition of mTORC1 (rising AMP/ATP) promotes Ketogenesis while inhibiting glycolysis and glutaminolysis in tumor cells.",
+      "zh-TW": "只要葡萄糖可得性下降就會誘導 Ketogenesis，例如在 Caloric Restriction、Intermittent Fasting 或 Ketogenic Diet 之下。禁食期間 mTORC1 的抑制（AMP/ATP 上升）會促進 Ketogenesis，同時在腫瘤細胞中抑制糖解與麩醯胺分解。"
+    },
+    "confidence": 0.9,
+    "source_document": "Ketogenesis.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "3e9dbc692ebc",
+    "subject": "Ketogenesis",
+    "predicate": "induces",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Ketogenesis stimulates Autophagy in tissues including brain and heart: beta-hydroxybutyrate inhibits HDACs and activates FOXO, both of which raise autophagic flux. Ketone bodies also serve as an alternative energy source during starvation, helping maintain Cellular Homeostasis.",
+      "zh-TW": "Ketogenesis 會在包含腦與心臟的組織中刺激 Autophagy：β-hydroxybutyrate 抑制 HDACs 並活化 FOXO，兩者都會提高自噬流。酮體在禁食時也作為替代能量來源，協助維持 Cellular Homeostasis。"
+    },
+    "confidence": 0.85,
+    "source_document": "Ketogenesis.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "2a142ea99ec7",
+    "subject": "Ketogenesis",
+    "predicate": "is_induced_by",
+    "object": "Ketogenic Diet",
+    "context": {
+      "en-US": "Ketogenesis is triggered by a Ketogenic Diet as well as by Caloric Restriction and Intermittent Fasting, because all three lower glucose availability and raise fatty acid delivery to the liver. Promoting Ketogenesis this way is investigated for Neurodegenerative Disease and for enhancing the tumoricidal properties of treatments in some Cancer contexts.",
+      "zh-TW": "Ketogenesis 可由 Ketogenic Diet 觸發，與 Caloric Restriction、Intermittent Fasting 相同，因為三者都降低葡萄糖可得性並提高脂肪酸送抵肝臟。以此方式促進 Ketogenesis 正在被研究用於 Neurodegenerative Disease，以及在某些 Cancer 情境下增強治療的腫瘤殺傷特性。"
+    },
+    "confidence": 0.85,
+    "source_document": "Ketogenesis.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "103b117d9f89",
+    "subject": "Ketogenesis",
+    "predicate": "is_induced_by",
+    "object": "Intermittent Fasting",
+    "context": {
+      "en-US": "Intermittent Fasting induces Ketogenesis by intermittently lowering glucose and depleting hepatic glycogen, so fatty acids are routed to ketone body production. The resulting ketogenic state couples Caloric Restriction-like metabolic stress to Autophagy stimulation.",
+      "zh-TW": "Intermittent Fasting 藉由間歇性降低葡萄糖並耗盡肝醣，使脂肪酸被導向酮體生成，從而誘導 Ketogenesis。所 resulting 的生酮狀態把類似 Caloric Restriction 的代謝壓力與 Autophagy 刺激耦合起來。"
+    },
+    "confidence": 0.85,
+    "source_document": "Ketogenesis.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "9cdfd1bdd0e6",
+    "subject": "LAMP1",
+    "predicate": "marks",
+    "object": "Lysosome",
+    "context": {
+      "en-US": "LAMP1 is the most abundant protein on the lysosomal membrane and serves as the standard marker for Lysosome and Autolysosome. Heavily glycosylated, it protects the membrane from luminal hydrolases and maintains lysosomal stability and integrity.",
+      "zh-TW": "LAMP1 是 lysosome 膜上最豐富的蛋白質，也是 Lysosome 與 Autolysosome 的標準標記。高度醣基化的 LAMP1 保護膜免受腔內水解酶作用，並維持 lysosome 的穩定性與完整性。"
+    },
+    "confidence": 0.9,
+    "source_document": "LAMP1.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "915e6b59d860",
+    "subject": "LAMP1",
+    "predicate": "tethers",
+    "object": "Autophagosome",
+    "context": {
+      "en-US": "LAMP1 tethers Autophagosome to the lysosome through interactions with LC3 and PLEKHM1 during fusion, which is why lysosomal membrane microdomains enriched for LAMP1 are the meeting point for autophagosome-lysosome tethering.",
+      "zh-TW": "LAMP1 透過與 LC3 及 PLEKHM1 的互動，在融合過程中將 Autophagosome 繫於 lysosome；因此富集 LAMP1 的 lysosome 膜微區正是 autophagosome-lysosome 繫合的交會點。"
+    },
+    "confidence": 0.85,
+    "source_document": "LAMP1.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "1bce4d4ac5d6",
+    "subject": "LAMP1",
+    "predicate": "maintains",
+    "object": "Lysosome",
+    "context": {
+      "en-US": "LAMP1 maintains Lysosome: as a heavily glycosylated integral membrane glycoprotein it forms the protective glycocalyx facing the lysosomal lumen, preserving organelle integrity so that hydrolases stay contained and degradation capacity is retained.",
+      "zh-TW": "LAMP1 維持 Lysosome：作為高度醣基化的整合膜糖蛋白，它形成面向 lysosome 腔內的保護性醣萼，維持胞器完整性，使水解酶留在其中並保有降解能力。"
+    },
+    "confidence": 0.85,
+    "source_document": "LAMP1.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "bca0330583d4",
+    "subject": "LGG-2",
+    "predicate": "is_ortholog_of",
+    "object": "GABARAP",
+    "context": {
+      "en-US": "LGG-2 is one of the C. elegans orthologues of the yeast Atg8 and mammalian LC3/GABARAP proteins. As the Atg8 family ortholog of GABARAP, LGG-2 performs the membrane-tethering role that mammalian GABARAP plays in autophagosome formation.",
+      "zh-TW": "LGG-2 是酵母 Atg8 與哺乳類 LC3/GABARAP 在 C. elegans 中的直系同源物之一。作為 GABARAP 的 Atg8 家族直系同源物，LGG-2 執行哺乳類 GABARAP 在 autophagosome 形成中所扮演的膜繫留角色。"
+    },
+    "confidence": 0.9,
+    "source_document": "LGG-2.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "681d1f389911",
+    "subject": "LGG-2",
+    "predicate": "is_required_for",
+    "object": "Lipophagy",
+    "context": {
+      "en-US": "LGG-2 is required for Lipophagy: post-developmental inactivation of both LGG-1 and lgg-2 causes increased fat accumulation in C. elegans, showing the Atg8 family members degrade lipid droplets in the intestine.",
+      "zh-TW": "LGG-2 對 Lipophagy 是必需的：在發育後使 LGG-1 與 lgg-2 失活，會導致 C. elegans 脂肪累積增加，顯示此 Atg8 家族成員可在腸道中分解脂滴。"
+    },
+    "confidence": 0.85,
+    "source_document": "LGG-2.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "aa1a4095e29e",
+    "subject": "HLH-30",
+    "predicate": "upregulates",
+    "object": "LGG-2",
+    "context": {
+      "en-US": "HLH-30 transcriptionally upregulates LGG-2 during Fasting in an HLH-30-dependent manner, linking nutrient deprivation to autophagosome formation. The same TFEB-like transcription factor also induces lipid lipases such as LIPL-2.",
+      "zh-TW": "HLH-30 在 Fasting 期間以 HLH-30 依賴的方式轉錄性上調 LGG-2，把營養剝奪與 autophagosome 形成連結起來。同一個類 TFEB 轉錄因子也會誘導 LIPL-2 等脂肪酶。"
+    },
+    "confidence": 0.85,
+    "source_document": "LGG-2.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "8ad1672a0120",
+    "subject": "LGG-2",
+    "predicate": "is_required_for",
+    "object": "Autophagosome",
+    "context": {
+      "en-US": "LGG-2 plays a role in the formation and maturation of Autophagosome as an Atg8 family member. Losing LGG-1 and lgg-2 blocks autophagosome flux, causing lipid droplet accumulation and fat storage defects in C. elegans.",
+      "zh-TW": "LGG-2 作為 Atg8 家族成員，在 Autophagosome 的形成與成熟中扮演角色。失去 LGG-1 與 lgg-2 會阻斷 autophagosome 流，在 C. elegans 中造成脂滴累積與脂肪儲存缺陷。"
+    },
+    "confidence": 0.85,
+    "source_document": "LGG-2.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "bd4dcaf5e33d",
+    "subject": "HLH-30",
+    "predicate": "upregulates",
+    "object": "LIPL-2",
+    "context": {
+      "en-US": "HLH-30 induces LIPL-2 during fasting, while MXL-3 represses it under well-fed conditions. The reciprocal transcriptional switch is the mechanism by which C. elegans couples nutrient status to Lipophagy, matching the ~12-fold rise in lipl-2 mRNA after six hours of fasting.",
+      "zh-TW": "HLH-30 在禁食期間誘導 LIPL-2，而 MXL-3 在營養充足條件下抑制它。這種互補的轉錄開關是 C. elegans 將營養狀態與 Lipophagy 耦合的機制，對應禁食六小時後 lipl-2 mRNA 約 12 倍的上升。"
+    },
+    "confidence": 0.9,
+    "source_document": "LIPL-2.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "d568b6bc72b7",
+    "subject": "MXL-3",
+    "predicate": "represses",
+    "object": "LIPL-2",
+    "context": {
+      "en-US": "MXL-3 represses LIPL-2, LIPL-1 and LIPL-3 under well-fed conditions; fasting removes this brake via HLH-30 so that lipases are expressed. MXL-3 therefore acts as the nutrient-replete metabolic repressor that keeps Lipophagy low until stress.",
+      "zh-TW": "MXL-3 在營養充足條件下抑制 LIPL-2、LIPL-1 與 LIPL-3；禁食則透過 HLH-30 解除此煞車，使脂肪酶得以表現。因此 MXL-3 是營養充足時的代謝抑制因子，在壓力出現前將 Lipophagy 維持在低水位。"
+    },
+    "confidence": 0.85,
+    "source_document": "LIPL-2.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "eb1c765859a9",
+    "subject": "LIPL-2",
+    "predicate": "is_required_for",
+    "object": "Lipophagy",
+    "context": {
+      "en-US": "LIPL-2 is a C. elegans lysosomal lipase involved in Lipophagy and intestinal lipid droplet turnover, localized to the gut lumen or to vesicles within the intestine. Its fasting-induced upregulation is what lets lipophagy capacity track nutrient status.",
+      "zh-TW": "LIPL-2 是參與 Lipophagy 與腸道脂滴周轉的 C. elegans lysosomal lipase，定位於腸腔或腸道內的囊泡。其禁食誘導的上調，使 lipophagy 容量得以隨營養狀態變動。"
+    },
+    "confidence": 0.85,
+    "source_document": "LIPL-2.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "923fada60278",
+    "subject": "LIPL-2",
+    "predicate": "is_upregulated_during",
+    "object": "Fasting",
+    "context": {
+      "en-US": "LIPL-2 is upregulated approximately 12-fold after six hours of Fasting in fertile adult worms, alongside other C. elegans triglyceride lipases. The fasting response depends on HLH-30 and is opposed by MXL-3 in well-fed animals.",
+      "zh-TW": "在生殖期成蟲中，LIPL-2 於 Fasting 六小時後上調約 12 倍，與其他 C. elegans 三酸甘油酯脂肪酶一致。此禁食反應依賴 HLH-30，並在營養充足個體中受到 MXL-3 對抗。"
+    },
+    "confidence": 0.85,
+    "source_document": "LIPL-2.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "5174fc31cc7b",
+    "subject": "Torin1",
+    "predicate": "inhibits",
+    "object": "mTORC1",
+    "context": {
+      "en-US": "Torin1 is a potent, ATP-competitive and selective inhibitor of mTORC1 and mTORC2 used as a research tool for studying mTOR signaling. By blocking mTORC1 kinase activity it relieves the mTORC1-dependent suppression of autophagy, which is why Torin1 is widely used to probe mTOR-dependent autophagy and the CLEAR network.",
+      "zh-TW": "Torin1 是一種強效、具 ATP 競爭性且選擇性的 mTORC1 與 mTORC2 抑制劑，作為研究 mTOR 訊號的工具藥。藉由阻斷 mTORC1 的激酶活性，它解除 mTORC1 對自噬的抑制，因此 Torin1 被廣泛用於研究 mTOR 依賴性自噬與 CLEAR 網絡。"
+    },
+    "confidence": 0.95,
+    "source_document": "Torin1.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "3dc24147713e",
+    "subject": "Torin1",
+    "predicate": "inhibits",
+    "object": "mTORC2",
+    "context": {
+      "en-US": "Torin1 blocks the ATP-binding site of both mTORC1 and mTORC2, making it a dual-complex inhibitor rather than an mTORC1-specific agent. This dual action distinguishes Torin1 from rapamycin and is exploited in experiments that need complete mTOR pathway suppression, for instance when measuring TFEB nuclear translocation.",
+      "zh-TW": "Torin1 會阻斷 mTORC1 與 mTORC2 的 ATP 結合位點，因此它是雙複合體抑制劑，而非 mTORC1 專一性藥物。這種雙重作用使 Torin1 有別於 rapamycin，並在需要完全抑制 mTOR 路徑的實驗（例如量測 TFEB 核轉位）中被利用。"
+    },
+    "confidence": 0.95,
+    "source_document": "Torin1.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "c68fec08d630",
+    "subject": "Torin1",
+    "predicate": "induces",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Torin1 robustly induces Autophagy by inhibiting mTORC1, which leads to ULK1 activation and TFEB nuclear translocation. Because mTORC1 is the main brake on autophagy initiation, pharmacological mTORC1 blockade with Torin1 is a standard way to trigger the full autophagic program in cultured cells.",
+      "zh-TW": "Torin1 藉由抑制 mTORC1 有效誘導 Autophagy，進而導致 ULK1 活化與 TFEB 核轉位。由於 mTORC1 是自噬起始的主要煞車，以 Torin1 進行 mTORC1 藥理阻斷，是在培養細胞中啟動完整自噬程式的標準方法。"
+    },
+    "confidence": 0.95,
+    "source_document": "Torin1.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "39086d934504",
+    "subject": "Torin1",
+    "predicate": "induces_nuclear_translocation_of",
+    "object": "TFEB",
+    "context": {
+      "en-US": "TFEB is normally retained in the cytoplasm by mTOR-dependent phosphorylation, and Torin1 releases that repression to drive TFEB into the nucleus. Dephosphorylation of the Ser122 and Ser211 sites is required for this translocation, as shown by phosphomimetic S122D mutation of TFEB, which largely blocks the Torin1 effect on TFEB nuclear localization.",
+      "zh-TW": "TFEB 原本因 mTOR 依賴性的磷酸化而被留在細胞質中，Torin1 解除此抑制後促使 TFEB 進入細胞核。TFEB 的 Ser122 與 Ser211 位點去磷酸化是此轉位所必需；TFEB 的 S122D 磷酸擬似突變可大幅阻斷 Torin1 對 TFEB 核定位的效應，即為證據。"
+    },
+    "confidence": 0.9,
+    "source_document": "Torin1.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "d09e8ad54ac9",
+    "subject": "Torin1",
+    "predicate": "activates",
+    "object": "ULK1",
+    "context": {
+      "en-US": "Autophagy induction by Torin1 proceeds through activation of ULK1, the autophagy-initiating kinase that normally sits downstream of mTORC1. Removing mTORC1 kinase activity releases ULK1 from inhibition, allowing it to phosphorylate Atg14 and Beclin1 and to start phagophore formation.",
+      "zh-TW": "Torin1 誘導的自噬經由 ULK1 這個自噬起始激酶的活化而進行；ULK1 原本位於 mTORC1 下游。移除 mTORC1 的激酶活性可解除對 ULK1 的抑制，使其得以磷酸化 Atg14 與 Beclin1 並啟動吞噬膜形成。"
+    },
+    "confidence": 0.85,
+    "source_document": "Torin1.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "4b754cc1c7d4",
+    "subject": "Translation Initiation",
+    "predicate": "requires",
+    "object": "eIF4A",
+    "context": {
+      "en-US": "Translation Initiation depends on eIF4A, the ATP-dependent DEAD-box RNA helicase that unwinds secondary structure in 5' UTRs so the ribosome can scan to the AUG start codon. eIF4A acts within the eIF4F complex together with eIF4E and eIF4G, and its activity on TFEB mRNA is a node at which autophagy gene expression can be controlled.",
+      "zh-TW": "Translation Initiation 依賴 eIF4A，即 ATP 依賴型 DEAD-box RNA 解旋酶；它解开 5' UTR 的二級結構，使核糖體得以掃描至 AUG 起始密碼子。eIF4A 與 eIF4E、eIF4G 一起在 eIF4F 複合體中作用，其對 TFEB mRNA 的活性是調控自噬基因表現的關節點。"
+    },
+    "confidence": 0.9,
+    "source_document": "Translation Initiation.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "aa9ffbe635f0",
+    "subject": "Translation Initiation",
+    "predicate": "requires",
+    "object": "eIF4E",
+    "context": {
+      "en-US": "Cap-dependent Translation Initiation requires eIF4E, the cap-binding component of the eIF4F complex. eIF4E recognizes the 5' cap of the mRNA, which is the first step of the pathway: 43S preinitiation complex recruitment followed by scanning to the AUG start codon. Because mTORC1 controls eIF4E availability through 4E-BP1 phosphorylation, Translation Initiation is a major point through which mTOR signaling modulates protein output.",
+      "zh-TW": "依賴帽的 Translation Initiation 需要 eIF4E，也就是 eIF4F 複合體中負責結合帽的成分。eIF4E 辨識 mRNA 的 5' 帽，這是該路徑的第一步：接著招募 43S 起始前複合體並掃描至 AUG 起始密碼子。由於 mTORC1 透過 4E-BP1 的磷酸化調控 eIF4E 的可用性，Translation Initiation 是 mTOR 訊號調節蛋白質產量的主要切入點。"
+    },
+    "confidence": 0.9,
+    "source_document": "Translation Initiation.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "d89485008efc",
+    "subject": "Translation Initiation",
+    "predicate": "involves",
+    "object": "eIF5A",
+    "context": {
+      "en-US": "Translation Initiation involves eIF5A in addition to the eIF4F subunits. eIF5A undergoes hypusination, a post-translational modification dependent on spermidine, and the modified form supports peptide bond formation at difficult motifs; it is also implicated in TFEB regulation, linking polyamine metabolism to autophagy control.",
+      "zh-TW": "Translation Initiation 除了 eIF4F 次單元外還涉及 eIF5A。eIF5A 會進行 hypusination（一種依賴 spermidine 的轉譯後修飾），修飾後的形式可在困難的序列基序處支援肽鍵形成；它也參與 TFEB 的調控，將多胺代謝連結至自噬調控。"
+    },
+    "confidence": 0.8,
+    "source_document": "Translation Initiation.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "40bebd00ffd0",
+    "subject": "eIF4A",
+    "predicate": "regulates",
+    "object": "TFEB",
+    "context": {
+      "en-US": "eIF4A regulates TFEB at the translational level: the RNA helicase unwinds secondary structure in the TFEB mRNA 5' UTR, allowing efficient translation of TFEB protein. Because TFEB is the master transcriptional activator of the lysosomal-autophagy network, eIF4A activity sets how much TFEB protein is available to drive that program.",
+      "zh-TW": "eIF4A 在轉譯層級調控 TFEB：此 RNA 解旋酶解开 TFEB mRNA 5' UTR 的二級結構，使 TFEB 蛋白得以有效轉譯。由於 TFEB 是溶酶體－自噬網絡的轉錄總開關，eIF4A 的活性決定了有多少 TFEB 蛋白可用來驅動該程式。"
+    },
+    "confidence": 0.85,
+    "source_document": "Translation Initiation.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "e8807eaad2a7",
+    "subject": "XBP1",
+    "predicate": "binds_to",
+    "object": "UPRE",
+    "context": {
+      "en-US": "XBP1, a member of the CEB/P family of transcription factors, binds the UPRE (unfolded protein response element) in the promoters of its target genes. During ER Stress this direct promoter occupancy switches on the unfolded protein response program, and the same XBP1-UPRE axis also contributes to transcriptional regulation of TFEB.",
+      "zh-TW": "XBP1 是 CEB/P 轉錄因子家族的成員，它會與目標基因啟動子上的 UPRE（unfolded protein response element）結合。在 ER Stress 期間，這種直接的啟動子佔位會啟動非折疊蛋白反應程式；同一條 XBP1-UPRE 軸也參與 TFEB 的轉錄調控。"
+    },
+    "confidence": 0.9,
+    "source_document": "UPRE.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "c2c58139173d",
+    "subject": "UPRE",
+    "predicate": "found_in",
+    "object": "TFEB",
+    "context": {
+      "en-US": "The UPRE is a DNA sequence present in the promoters of unfolded protein response target genes, including the promoter of TFEB. Occupation of this element by XBP1 during ER Stress links proteotoxic stress to the transcriptional control of the master lysosomal-autophagy regulator.",
+      "zh-TW": "UPRE 是一段存在於非折疊蛋白反應目標基因啟動子中的 DNA 序列，包括 TFEB 的啟動子。ER Stress 期間 XBP1 佔據此元件，將蛋白質毒性壓力與溶酶體－自噬總調節因子的轉錄調控連結起來。"
+    },
+    "confidence": 0.8,
+    "source_document": "UPRE.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "aa74e647a90f",
+    "subject": "V-ATPase",
+    "predicate": "acidifies",
+    "object": "Lysosome",
+    "context": {
+      "en-US": "The V-ATPase is a multi-subunit proton pump with V0 membrane and V1 cytosolic domains that maintains the acidic lysosomal lumen at about pH 4.5-5.5. This low pH is what activates more than 50 intralysosomal hydrolases, so V-ATPase is the enzyme that makes lysosomal degradation chemistry possible.",
+      "zh-TW": "V-ATPase 是由 V0 膜區與 V1 細胞質區構成的多次單元質子幫浦，負責將溶酶體腔維持在約 pH 4.5–5.5 的酸性環境。這個低 pH 正是活化超過 50 種溶酶體內水解酶的條件，因此 V-ATPase 是使溶酶體降解化學反應得以進行的酵素。"
+    },
+    "confidence": 0.95,
+    "source_document": "V-ATPase.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "821a87e74714",
+    "subject": "V-ATPase",
+    "predicate": "required_for",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "V-ATPase is required for Autophagy because lysosomal acidification is a prerequisite for degradation of autophagic cargo by acid hydrolases. Consequently, V-ATPase inhibitors such as Bafilomycin A1 and Concanamycin A block autophagy and are routinely used to assay autophagic flux: blocked degradation with accumulating autophagosomes is the signature of a late-stage block.",
+      "zh-TW": "V-ATPase 對 Autophagy 而言是必需的，因為溶酶體酸化是酸性水解酶降解自噬貨物的先決條件。因此 V-ATPase 抑制劑如 Bafilomycin A1 與 Concanamycin A 會阻斷自噬，並被常規用來檢測自噬流：降解受阻而自噬體堆積，正是後期阻斷的特徵。"
+    },
+    "confidence": 0.95,
+    "source_document": "V-ATPase.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "cc09f868bb76",
+    "subject": "V-ATPase",
+    "predicate": "supports_recruitment_of",
+    "object": "mTORC1",
+    "context": {
+      "en-US": "Beyond acidifying the lumen, the V-ATPase also supports recruitment of mTORC1 to the lysosome via Ragulator. In this way the same proton pump couples the physical property of lysosomal acidity to the spatial activation of mTORC1 and thus to the nutrient-dependent decision between growth and autophagy.",
+      "zh-TW": "除了酸化腔室之外，V-ATPase 也透過 Ragulator 支持 mTORC1 招募至溶酶體。同一個質子幫浦因此把溶酶體酸性的物理性質與 mTORC1 的空間性活化連結起來，進而連結到營養依賴的生長與自噬之間的取捨。"
+    },
+    "confidence": 0.85,
+    "source_document": "V-ATPase.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "9d19e2e164f0",
+    "subject": "Bafilomycin A1",
+    "predicate": "inhibits",
+    "object": "V-ATPase",
+    "context": {
+      "en-US": "Bafilomycin A1 is a V-ATPase inhibitor that blocks the proton translocation step of the pump. By preventing lysosomal acidification it halts the activity of acid hydrolases, so autophagic cargo that has been sequestered and delivered normally accumulates undegraded inside autolysosomes.",
+      "zh-TW": "Bafilomycin A1 是 V-ATPase 抑制劑，會阻斷該幫浦的質子轉運步驟。它藉由阻止溶酶體酸化而使酸性水解酶停止作用，因此正常被隔離並運送的自噬貨物會在自噬溶酶體內累積而無法降解。"
+    },
+    "confidence": 0.9,
+    "source_document": "V-ATPase.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "ad9ccec41528",
+    "subject": "Bafilomycin A1",
+    "predicate": "inhibits",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Bafilomycin A1 blocks Autophagy at the lysosomal degradation step rather than at autophagosome formation, because the pathway up to cargo delivery still runs. This makes it a canonical tool for measuring autophagic flux: an increase in LC3-positive autophagosomes under Bafilomycin A1 reflects flux, while absence of that increase suggests an upstream block.",
+      "zh-TW": "Bafilomycin A1 是在溶酶體降解步驟而非自噬體形成處阻斷 Autophagy，因為直到貨物運送為止的路徑仍可運行。這使它成為測量自噬流的標準工具：Bafilomycin A1 處理下 LC3 陽性自噬體增加代表自噬流通暢，而若無此增加則提示上游有阻斷。"
+    },
+    "confidence": 0.85,
+    "source_document": "V-ATPase.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "ecebf9fd5a26",
+    "subject": "Vps15",
+    "predicate": "required_for",
+    "object": "Vps34",
+    "context": {
+      "en-US": "Vps34 (PIK3C3), the class III phosphoinositide 3-kinase, requires Vps15 (PIK3R4) as its p150 regulatory subunit. Vps15 recruits Vps34 to membranes and stabilizes its active site, so loss of Vps15 cripples the production of PtdIns3P and everything downstream of it.",
+      "zh-TW": "Vps34（PIK3C3）這項第三類磷脂肌醇 3-激酶，需要 Vps15（PIK3R4）作為其 p150 調節次單元。Vps15 將 Vps34 招募至膜上並穩定其活性位點，因此 Vps15 缺失會使 PtdIns3P 的產生及其下游所有事件癱瘓。"
+    },
+    "confidence": 0.9,
+    "source_document": "Vps15.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "200f433dc8eb",
+    "subject": "Vps15",
+    "predicate": "required_for",
+    "object": "Autophagosome",
+    "context": {
+      "en-US": "The Vps15-Vps34-Atg14 complex is required for Autophagosome formation. PtdIns3P generated by this complex recruits WIPI/Atg18 family proteins to the phagophore, which is what specifies the membrane domain that will expand into an autophagosome.",
+      "zh-TW": "Vps15-Vps34-Atg14 複合體對 Autophagosome 的形成是必需的。該複合體產生的 PtdIns3P 會把 WIPI/Atg18 家族蛋白招募到吞噬膜上，藉此指定將膨脹成自噬體的膜區域。"
+    },
+    "confidence": 0.9,
+    "source_document": "Vps15.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "6c13c2a356e4",
+    "subject": "Vps15",
+    "predicate": "required_for",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "As the regulatory subunit of the class III PI3K complex, Vps15 is required for Autophagy and for endosomal trafficking. Its presence in both contexts reflects that the same PtdIns3P-producing module is reused wherever membrane identity and trafficking need to be specified.",
+      "zh-TW": "作為第三類 PI3K 複合體的調節次單元，Vps15 對 Autophagy 與內體運輸而言都是必需的。它同時出現在這兩種情境中，反映出同一個產生 PtdIns3P 的模組會在需要指定膜身分與運輸的各處被重複使用。"
+    },
+    "confidence": 0.85,
+    "source_document": "Vps15.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "56a51614774f",
+    "subject": "Vps34",
+    "predicate": "is_a_type_of",
+    "object": "PI3K",
+    "context": {
+      "en-US": "Vps34 (Vacuolar Protein Sorting 34), also known as PIK3C3, is the class III phosphoinositide 3-kinase of the autophagy pathway. As a class III PI3K it phosphorylates phosphatidylinositol at the 3 position to make the lipid signaling messenger PtdIns3P, rather than generating the PIP2 and PIP3 lipids made by class I and class II PI3Ks.",
+      "zh-TW": "Vps34（Vacuolar Protein Sorting 34，又稱 PIK3C3）是自噬路徑中的第三類磷脂肌醇 3-激酶。作為第三類 PI3K，它在磷脂肌醇的 3 位點加上磷酸以產生脂質訊號傳遞者 PtdIns3P，而非生成第一類與第二類 PI3K 所製造的 PIP2 與 PIP3。"
+    },
+    "confidence": 0.95,
+    "source_document": "Vps34.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "58aa97678bc8",
+    "subject": "Vps34",
+    "predicate": "produces",
+    "object": "PtdIns3P",
+    "context": {
+      "en-US": "Vps34 produces PtdIns3P, the key signaling lipid required for the nucleation and maturation of autophagosomes. PtdIns3P acts as a membrane-domain landmark that recruits WIPI/Atg18 and other PI3P-binding autophagy factors, converting a region of membrane into a phagophore assembly site.",
+      "zh-TW": "Vps34 產生 PtdIns3P，這是自噬體成核與成熟所必需的關鍵訊號脂質。PtdIns3P 扮演膜區域的標誌，招募 WIPI/Atg18 及其他結合 PI3P 的自噬因子，把一段膜區域轉化為吞噬膜組裝位點。"
+    },
+    "confidence": 0.95,
+    "source_document": "Vps34.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "86c9f9b2c555",
+    "subject": "Vps34",
+    "predicate": "binds_to",
+    "object": "Atg14",
+    "context": {
+      "en-US": "Vps34 binds Atg14 to form the autophagy-specific class III PI3K complex, in which Atg14 stimulates Vps34 kinase activity. Vps34 also forms a distinct complex with UVRAG that supports endocytosis rather than autophagy, so partner choice determines which membrane-trafficking outcome the kinase serves.",
+      "zh-TW": "Vps34 與 Atg14 結合形成自噬專一性的第三類 PI3K 複合體，其中 Atg14 會刺激 Vps34 的激酶活性。Vps34 亦與 UVRAG 形成支援胞吞而非自噬的不同複合體，因此選擇何種伴護蛋白決定了該激酶服務哪一種膜運輸結果。"
+    },
+    "confidence": 0.9,
+    "source_document": "Vps34.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "766b76f267b3",
+    "subject": "Vps34",
+    "predicate": "binds_to",
+    "object": "UVRAG",
+    "context": {
+      "en-US": "Vps34 binds UVRAG in an alternative complex that acts on endosomes instead of autophagosomes. Because the same catalytic subunit is shared between an autophagy complex with Atg14 and an endocytic complex with UVRAG, Vps34 is a branch point where the cell decides between degradative fates for a given membrane.",
+      "zh-TW": "Vps34 會與 UVRAG 結合形成作用於內體而非自噬體的另一個複合體。由於同一催化次單元被含 Atg14 的自噬複合體與含 UVRAG 的胞吞複合體共用，Vps34 構成分支點，由細胞決定某段膜的降解命運。"
+    },
+    "confidence": 0.85,
+    "source_document": "Vps34.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "940ddd3fe013",
+    "subject": "WHAMM",
+    "predicate": "required_for",
+    "object": "Autophagic Lysosome Reformation",
+    "context": {
+      "en-US": "WHAMM is required for Autophagic Lysosome Reformation (ALR): during ALR it drives Arp2/3-dependent, actin-based tubulation of autolysosomes that scission proto-lysosomal tubules and rebuild the lysosomal pool after autophagic degradation. Loss of WHAMM disrupts lysosomal reformation and causes autolysosomal swelling.",
+      "zh-TW": "WHAMM 對 Autophagic Lysosome Reformation（ALR）而言是必需的：在 ALR 過程中，它驅動依賴 Arp2/3 的、以肌動蛋白為基礎的自噬溶酶體管狀化，剪切出前溶酶體管並在自噬降解後重建溶酶體池。WHAMM 缺失會破壞溶酶體再形成並造成自噬溶酶體腫脹。"
+    },
+    "confidence": 0.9,
+    "source_document": "WHAMM.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "1717fd73d10d",
+    "subject": "WHAMM",
+    "predicate": "supports",
+    "object": "Autophagosome",
+    "context": {
+      "en-US": "WHAMM supports Autophagosome biogenesis and trafficking by contributing actin dynamics at ER-phagophore contact sites, where the resulting pushing forces drive membrane expansion and the trafficking of isolation membranes. Its N-terminal membrane-binding region reads phosphoinositides such as PtdIns(4,5)P2 and PtdIns4P to position it at the right membrane.",
+      "zh-TW": "WHAMM 透過在內質網－吞噬膜接觸處貢獻肌動蛋白動力學來支持 Autophagosome 的生成與運輸，所產生的推動力驅動膜膨脹與隔離膜的運送。它的 N 端膜結合區辨識 PtdIns(4,5)P2 與 PtdIns4P 等磷脂，將自身定位到正確的膜上。"
+    },
+    "confidence": 0.85,
+    "source_document": "WHAMM.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "a5167dee3f50",
+    "subject": "WHAMM",
+    "predicate": "binds_to",
+    "object": "AP2",
+    "context": {
+      "en-US": "WHAMM works together with AP2 during autophagic lysosome reformation: PtdIns(4,5)P2, clathrin and AP2 cooperate with WHAMM-dependent actin assembly to promote scission of proto-lysosomal tubules off autolysosomes. The coupling of a clathrin adaptor with actin nucleation is what makes tubule severing directional and efficient.",
+      "zh-TW": "在自噬溶酶體再形成過程中，WHAMM 與 AP2 協同作用：PtdIns(4,5)P2、clathrin 與 AP2 配合 WHAMM 依賴的肌動蛋白組裝，促進前溶酶體管自自噬溶酶體上被剪切下來。接合型蛋白與肌動蛋白成核的耦合，使管狀結構的切割具有方向性且高效率。"
+    },
+    "confidence": 0.85,
+    "source_document": "WHAMM.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "dffe7eea01f7",
+    "subject": "PDCD4",
+    "predicate": "inhibits",
+    "object": "eIF4A",
+    "context": {
+      "en-US": "PDCD4 is a binding protein of eukaryotic initiation factor 4A (eIF4A) and inhibits its helicase activity. Because eIF4A is needed to unwind 5' UTR secondary structure, PDCD4 acts as a translation repressor, lowering output of its targets, among them TFEB and other autophagy regulators.",
+      "zh-TW": "PDCD4 是真核起始因子 4A（eIF4A）的結合蛋白，並抑制其解旋酶活性。由於 eIF4A 必須解开 5' UTR 的二級結構，PDCD4 便作為轉譯抑制因子發揮作用，降低其目標（包括 TFEB 與其他自噬調節因子）的產量。"
+    },
+    "confidence": 0.95,
+    "source_document": "eIF4A.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "ef3818bc9c3a",
+    "subject": "eIF4A",
+    "predicate": "required_for",
+    "object": "Translation Initiation",
+    "context": {
+      "en-US": "Translation Initiation requires eIF4A, the ATP-dependent DEAD-box RNA helicase of the eIF4F complex (eIF4E-eIF4A-eIF4G). It unwinds secondary structure in 5' UTRs so that the 43S preinitiation complex can scan to the AUG start codon and assemble the ribosome.",
+      "zh-TW": "Translation Initiation 需要 eIF4A，也就是 eIF4F 複合體（eIF4E-eIF4A-eIF4G）中的 ATP 依賴型 DEAD-box RNA 解旋酶。它解开 5' UTR 的二級結構，使 43S 起始前複合體得以掃描至 AUG 起始密碼子並組裝核糖體。"
+    },
+    "confidence": 0.9,
+    "source_document": "eIF4A.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "9316b1cf79aa",
+    "subject": "PDCD4",
+    "predicate": "is_a",
+    "object": "Tumor Suppressor",
+    "context": {
+      "en-US": "PDCD4 is a Tumor Suppressor that also functions as a general brake on protein synthesis. Its tumor-suppressive activity follows at least in part from repressing translation of growth- and survival-promoting transcripts, and from lowering TFEB protein levels, which curtails autophagy-lysosomal support of tumors.",
+      "zh-TW": "PDCD4 既是 Tumor Suppressor，也是一般性的蛋白質合成煞車。其腫瘤抑制活性至少部分來自抑制促進生長與存活之轉錄本的轉譯，以及降低 TFEB 蛋白量，進而削弱自噬－溶酶體對腫瘤的支持。"
+    },
+    "confidence": 0.8,
+    "source_document": "eIF4A.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "67572fcfc98b",
+    "subject": "eIF4E",
+    "predicate": "required_for",
+    "object": "cap-dependent translation",
+    "context": {
+      "en-US": "eIF4E is the rate-limiting, cap-binding component of cap-dependent translation: it recognizes the 5' cap of the mRNA and is therefore the initiation factor whose availability sets how much translation happens. Under mTORC1 inhibition eIF4E is sequestered and cap-dependent translation shuts down.",
+      "zh-TW": "eIF4E 是依賴帽轉譯中具速率限制性、負責結合帽的成分：它辨識 mRNA 的 5' 帽，因此其可用性決定了有多少轉譯發生。在 mTORC1 受抑制時，eIF4E 被隔離而依賴帽的轉譯隨之關閉。"
+    },
+    "confidence": 0.95,
+    "source_document": "eIF4E.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "04c0d4b33648",
+    "subject": "4E-BP1",
+    "predicate": "inhibits",
+    "object": "eIF4E",
+    "context": {
+      "en-US": "4E-BP1 inhibits eIF4E by sequestering it away from the mRNA cap, blocking eIF4F assembly and thereby repressing cap-dependent translation. When mTORC1 is inhibited and 4E-BP1 is hypophosphorylated, this repression is lifted, which is one route by which mTOR blockade lowers protein synthesis and relieves autophagy suppression.",
+      "zh-TW": "4E-BP1 藉由將 eIF4E 隔離在遠離 mRNA 帽的位置來抑制它，阻斷 eIF4F 組裝並抑制依賴帽的轉譯。當 mTORC1 受抑制、4E-BP1 處於低磷酸化狀態時，此抑制便被解除，這也是 mTOR 阻斷降低蛋白質合成並解除自噬抑制的途徑之一。"
+    },
+    "confidence": 0.9,
+    "source_document": "eIF4E.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "425437f1cb6c",
+    "subject": "mTORC1",
+    "predicate": "regulates",
+    "object": "eIF4E",
+    "context": {
+      "en-US": "mTORC1 regulates eIF4E indirectly through phosphorylation of 4E-BP1, its dedicated repressor. This is the main pathway by which nutrient and growth-factor availability is converted into a decision about whether proteins, including autophagy regulators, get synthesized.",
+      "zh-TW": "mTORC1 透過磷酸化 4E-BP1（eIF4E 專屬的抑制因子）間接調控 eIF4E。這是把營養與生長因子可用性轉換成「是否合成蛋白質（包括自噬調節因子）」之決策的主要路徑。"
+    },
+    "confidence": 0.9,
+    "source_document": "eIF4E.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "ff1725437f20",
+    "subject": "TFEB",
+    "predicate": "protects_against",
+    "object": "ischemic injury",
+    "context": {
+      "en-US": "Targeted activation of TFEB has been used successfully as a therapeutic strategy in models of ischemic injury, where TFEB activation is protective in both cerebral and cardiac ischemia. Raising TFEB activity expands lysosomal capacity, which improves clearance of damaged mitochondria and protein aggregates during ischemia-reperfusion.",
+      "zh-TW": "以 TFEB 為標的的活化已在缺血性損傷的模型中作為治療策略成功應用，其中 TFEB 活化在腦缺血與心臟缺血中皆具保護作用。提升 TFEB 活性可擴充溶酶體容量，改善缺血再灌注期間對受損粒線體與蛋白聚集體的清除。"
+    },
+    "confidence": 0.85,
+    "source_document": "ischemic injury.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "69d4ccf6b84d",
+    "subject": "Autophagy",
+    "predicate": "protects_against",
+    "object": "ischemic injury",
+    "context": {
+      "en-US": "Autophagy protects against ischemic injury because ischemia-reperfusion injury involves ATP depletion, oxidative stress, Ca2+ overload and cell death upon reperfusion, and autophagy clears the damaged mitochondria that drive much of this damage. It also participates in ischemic preconditioning, whereby brief sublethal ischemic episodes render tissue resistant to a later insult.",
+      "zh-TW": "Autophagy 對缺血性損傷具有保護作用，因為缺血再灌注損傷涉及 ATP 耗竭、氧化壓力、Ca2+ 過載以及再灌注時的細胞死亡，而自噬可清除驅動大部分損傷的受損粒線體。它也參與缺血預適應，也就是短暫的亞致死性缺血暴露使組織對之後的傷害產生抵抗力。"
+    },
+    "confidence": 0.9,
+    "source_document": "ischemic injury.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "d0e5b3a2a9e0",
+    "subject": "Mitophagy",
+    "predicate": "protects_against",
+    "object": "ischemic injury",
+    "context": {
+      "en-US": "Mitophagy is the specific arm of autophagy that protects against ischemic injury by selectively removing damaged mitochondria, the main source of the reactive oxygen species and apoptotic mediators that kill cells on reperfusion. Loss of this selective quality control converts a reversible ischemic insult into irreversible injury.",
+      "zh-TW": "Mitophagy 是自噬中特別負責對抗缺血性損傷的分支，它選擇性清除受損粒線體，而受損粒線體正是在再灌注時造成細胞死亡的活性氧與凋亡介質的主要來源。這項選擇性品質管制的喪失，會把可逆的缺血傷害轉為不可逆損傷。"
+    },
+    "confidence": 0.85,
+    "source_document": "ischemic injury.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "44e9ec0ca94e",
+    "subject": "Spermidine",
+    "predicate": "protects_against",
+    "object": "ischemic injury",
+    "context": {
+      "en-US": "Spermidine, like Trehalose and Melatonin, activates autophagy and protects against ischemia-reperfusion injury in preclinical models of heart, brain, liver and kidney. Since these agents converge on autophagy induction rather than on a single ischemic target, their protective effect in ischemic injury is thought to reflect improved clearance of damaged cargo.",
+      "zh-TW": "Spermidine 與 Trehalose、Melatonin 一樣能活化自噬，並在心臟、腦、肝與腎的臨床前模型中對抗缺血再灌注損傷。由於這些藥物收斂於自噬誘導而非單一缺血標的，其在缺血性損傷中的保護作用被認為反映了对受損貨物的清除改善。"
+    },
+    "confidence": 0.85,
+    "source_document": "ischemic injury.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "4e22db31add4",
+    "subject": "TFEB",
+    "predicate": "is_a_member_of",
+    "object": "leucine zipper transcription Factors",
+    "context": {
+      "en-US": "TFEB belongs to the MiT/TFEB family of transcription factors, which together with the bZIP leucine zipper transcription factors share the basic leucine zipper DNA-binding motif. The motif contains a basic DNA-binding region plus a leucine zipper needed for dimerization, the structural basis of CLEAR-element recognition.",
+      "zh-TW": "TFEB 屬於 MiT/TFEB 家族的轉錄因子；此家族與 bZIP 亮胺酸拉鍊轉錄因子共同具有 basic leucine zipper 的 DNA 結合基序。該基序包含負責結合 DNA 的鹼性區域，以及用於二聚化的亮胺酸拉鍊，後者正是辨識 CLEAR 元件的結構基礎。"
+    },
+    "confidence": 0.85,
+    "source_document": "leucine zipper transcription Factors.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "26e56744681c",
+    "subject": "XBP1",
+    "predicate": "is_a_member_of",
+    "object": "leucine zipper transcription Factors",
+    "context": {
+      "en-US": "XBP1 is a member of the bZIP leucine zipper transcription factors, which contain a basic region for DNA binding and a leucine zipper for dimerization. As a member of this class XBP1 can act as an activating or a repressing heterodimer partner depending on its splice variant, and it occupies the UPRE during ER Stress.",
+      "zh-TW": "XBP1 是 bZIP 亮胺酸拉鍊轉錄因子家族的成員，該家族含有負責結合 DNA 的鹼性區域與用於二聚化的亮胺酸拉鍊。作為此類成員，XBP1 依其剪接變體可作為活化型或抑制型的異二聚體夥伴，並在 ER Stress 期間佔據 UPRE。"
+    },
+    "confidence": 0.9,
+    "source_document": "leucine zipper transcription Factors.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "e719711e0e65",
+    "subject": "ATF4",
+    "predicate": "is_a_member_of",
+    "object": "leucine zipper transcription Factors",
+    "context": {
+      "en-US": "ATF4 is a member of the bZIP leucine zipper transcription factors, the structural class defined by a basic DNA-binding region and a leucine zipper for dimerization. ATF4, CHOP, CREB, FOS and JUN are members of the same family, and several of them, including ATF4, control autophagy gene transcription under stress.",
+      "zh-TW": "ATF4 是 bZIP 亮胺酸拉鍊轉錄因子家族的成員，該結構類別由鹼性 DNA 結合區域與用於二聚化的亮胺酸拉鍊所定義。ATF4、CHOP、CREB、FOS 與 JUN 都是同一家族的成員，其中數個成員（包括 ATF4）在壓力下控制自噬基因的轉錄。"
+    },
+    "confidence": 0.85,
+    "source_document": "leucine zipper transcription Factors.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "8e2fce80e646",
+    "subject": "CHOP",
+    "predicate": "is_a_member_of",
+    "object": "leucine zipper transcription Factors",
+    "context": {
+      "en-US": "CHOP is a member of the bZIP leucine zipper transcription factors, sharing the basic region plus leucine zipper architecture with ATF4, XBP1, CREB, FOS and JUN. This family is relevant to autophagy because its members are activated by stress signals such as ER Stress and nutrient deprivation, where they rewire transcription.",
+      "zh-TW": "CHOP 是 bZIP 亮胺酸拉鍊轉錄因子家族的成員，與 ATF4、XBP1、CREB、FOS、JUN 共用「鹼性區域加亮胺酸拉鍊」的架構。此家族與自噬相關，因為其成員會被 ER Stress 與營養剝奪等壓力訊號活化，並在其中改寫轉錄程式。"
+    },
+    "confidence": 0.85,
+    "source_document": "leucine zipper transcription Factors.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "0b5bd92e019e",
+    "subject": "METTL3",
+    "predicate": "installs",
+    "object": "m6A Modification",
+    "context": {
+      "en-US": "METTL3, together with METTL14 and WTAP, is the writer complex that installs N6-methyladenosine (m6A), the most abundant internal RNA modification. m6A placement controls mRNA stability and translation, so which transcripts get marked determines how long they persist and how efficiently they are translated into protein.",
+      "zh-TW": "METTL3 與 METTL14、WTAP 共同構成 writer 複合體，安裝 N6-甲基腺苷（m6A），即最豐富的 RNA 內部修飾。m6A 的位置控制 mRNA 的穩定性與轉譯，因此哪些轉錄本被標記，就決定了它們能維持多久以及被轉譯成蛋白質的效率。"
+    },
+    "confidence": 0.9,
+    "source_document": "m6A Modification.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "44ce965dc0fe",
+    "subject": "ALKBH5",
+    "predicate": "removes",
+    "object": "m6A Modification",
+    "context": {
+      "en-US": "ALKBH5 is one of the erasers that remove m6A Modification from RNA, acting as a Fe(II)- and 2-oxoglutarate-dependent dioxygenase, together with FTO. By demethylating autophagy transcripts such as ULK1, Beclin1 and TFEB mRNA, ALKBH5 raises their stability and translation and therefore increases autophagy output.",
+      "zh-TW": "ALKBH5 是移除 m6A Modification 的 eraser 之一，與 FTO 一同作為依賴 Fe(II) 與 2-酮戊二酸的雙加氧酶作用。它藉由對 ULK1、Beclin1 與 TFEB mRNA 等自噬轉錄本去甲基化，提高其穩定性與轉譯，因而提升自噬產出。"
+    },
+    "confidence": 0.9,
+    "source_document": "m6A Modification.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "9eb7e1204132",
+    "subject": "METTL14",
+    "predicate": "installs",
+    "object": "m6A Modification",
+    "context": {
+      "en-US": "METTL14 is a catalytic partner of METTL3 in the m6A writer complex, where it stabilizes the methyltransferase conformation so that adenosine in RNA can be methylated. Its activity therefore sets the amount of m6A Modification on a transcript pool, which feeds into the reader proteins YTHDF1-3 and YTHDC1-2.",
+      "zh-TW": "METTL14 是 m6A writer 複合體中 METTL3 的催化夥伴，它穩定甲基轉移酶構形，使 RNA 中的腺苷得以被甲基化。其活性因此決定某轉錄本池上 m6A Modification 的量，並進而影響 reader 蛋白 YTHDF1-3 與 YTHDC1-2 的辨識。"
+    },
+    "confidence": 0.85,
+    "source_document": "m6A Modification.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "47486da7c051",
+    "subject": "m6A Modification",
+    "predicate": "regulates",
+    "object": "TFEB",
+    "context": {
+      "en-US": "m6A Modification regulates TFEB by controlling the stability and translation of TFEB mRNA. METTL3 and ALKBH5 act in opposite directions on this modification, so the methylation state of the TFEB transcript is a rheostat that sets how much TFEB protein is made and hence how strongly the lysosomal-autophagy program is transcribed.",
+      "zh-TW": "m6A Modification 透過控制 TFEB mRNA 的穩定性與轉譯來調控 TFEB。METTL3 與 ALKBH5 對此修飾的作用方向相反，因此 TFEB 轉錄本的甲基化狀態成為決定產生多少 TFEB 蛋白的閥門，進而決定溶酶體－自噬程式的轉錄強度。"
+    },
+    "confidence": 0.9,
+    "source_document": "m6A Modification.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "e65b436e3d54",
+    "subject": "m6A Modification",
+    "predicate": "regulates",
+    "object": "ULK1",
+    "context": {
+      "en-US": "m6A Modification regulates ULK1 expression, with METTL3 and ALKBH5 modulating the metabolism of ULK1 mRNA in cancer and development. Because ULK1 is the autophagy-initiating kinase, RNA methylation of its transcript is an indirect but mechanistically real way of setting the rate at which autophagy begins.",
+      "zh-TW": "m6A Modification 調控 ULK1 的表現，METTL3 與 ALKBH5 在癌症與發育過程中調節 ULK1 mRNA 的代謝。由於 ULK1 是自噬起始激酶，其轉錄本的 RNA 甲基化便是設定自噬啟動速率的一種間接但機制上真實的途徑。"
+    },
+    "confidence": 0.85,
+    "source_document": "m6A Modification.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "8f532fb91c02",
+    "subject": "m6A Modification",
+    "predicate": "regulates",
+    "object": "Beclin1",
+    "context": {
+      "en-US": "m6A Modification regulates Beclin1 expression, with METTL3 and ALKBH5 modulating Beclin1 mRNA metabolism in cancer and development. Beclin1 is the nucleation component of the class III PI3K complex, so methylation-dependent control of its transcript influences autophagosome nucleation rather than a downstream step.",
+      "zh-TW": "m6A Modification 調控 Beclin1 的表現，METTL3 與 ALKBH5 在癌症與發育過程中調節 Beclin1 mRNA 的代謝。Beclin1 是第三類 PI3K 複合體的成核成分，因此依賴甲基化的轉錄本調控影響的是自噬體成核，而非下游步驟。"
+    },
+    "confidence": 0.85,
+    "source_document": "m6A Modification.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "2ae3b092d5e3",
+    "subject": "mSIN1",
+    "predicate": "is_a_component_of",
+    "object": "mTORC2",
+    "context": {
+      "en-US": "mSIN1 (MAPKAP1) is an essential component of mTORC2, one of six proteins in the complex, and it maintains complex integrity so that mTORC2 can function as a kinase rather than dissociate. mTORC2 also contains mTOR, Rictor, Protor-1, mLST8 and Deptor, several of which are shared with mTORC1.",
+      "zh-TW": "mSIN1（MAPKAP1）是 mTORC2 的必需成分，該複合體共含六種蛋白質；它維持複合體完整性，使 mTORC2 得以作為激酶發揮功能而不解離。mTORC2 還包含 mTOR、Rictor、Protor-1、mLST8 與 Deptor，其中數個也與 mTORC1 共用。"
+    },
+    "confidence": 0.95,
+    "source_document": "mSIN1.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "899c7f15b591",
+    "subject": "mSIN1",
+    "predicate": "binds_to",
+    "object": "Rictor",
+    "context": {
+      "en-US": "mSIN1 binds Rictor, and this interaction stabilizes the mTORC2 assembly that defines the complex. Because the Rictor-mSIN1 module is unique to mTORC2 and absent from mTORC1, this binding is what allows the two complexes to signal to different substrates despite sharing mTOR itself.",
+      "zh-TW": "mSIN1 與 Rictor 結合，此交互作用穩定了定義 mTORC2 的組裝。由於 Rictor-mSIN1 模組為 mTORC2 專有、mTORC1 所無，這個結合讓兩種複合體得以在共用 mTOR 的情況下向不同受體傳遞訊號。"
+    },
+    "confidence": 0.9,
+    "source_document": "mSIN1.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "4af42b4b2431",
+    "subject": "mSIN1",
+    "predicate": "recruits",
+    "object": "mTORC2",
+    "context": {
+      "en-US": "mSIN1 recruits mTORC2 to the Plasma Membrane via its pleckstrin homology (PH) domain. Membrane localization is a prerequisite for mTORC2 to phosphorylate its substrates, so mSIN1 is the targeting subunit that converts mTORC2 from a cytosolic pool into an active kinase at the cell surface.",
+      "zh-TW": "mSIN1 透過其pleckstrin homology（PH）結構域將 mTORC2 招募至 Plasma Membrane。膜定位是 mTORC2 磷酸化其受體的前提，因此 mSIN1 是把 mTORC2 從細胞質儲備轉化為細胞表面活化激酶的定位次單元。"
+    },
+    "confidence": 0.9,
+    "source_document": "mSIN1.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "a33136658994",
+    "subject": "mTORC2",
+    "predicate": "phosphorylates",
+    "object": "Akt",
+    "context": {
+      "en-US": "mTORC2 phosphorylates Akt, and mSIN1 confers that substrate specificity within the complex by binding Rictor. Since mTORC2 is the kinase that phosphorylates the hydrophobic motif of Akt, distinct from the kinase normally responsible for the priming site, mSIN1 helps define which Akt pool receives the growth and survival signal.",
+      "zh-TW": "mTORC2 會磷酸化 Akt，而 mSIN1 透過與 Rictor 結合在複合體內賦予此受體專一性。由於 mTORC2 負責磷酸化 Akt 的疏水基序，不同於通常負責引發位點的激酶，mSIN1 有助於界定哪一群 Akt 接受生長與存活訊號。"
+    },
+    "confidence": 0.9,
+    "source_document": "mSIN1.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "27016a8bfba3",
+    "subject": "Ragulator",
+    "predicate": "recruits",
+    "object": "mTORC1",
+    "context": {
+      "en-US": "Ragulator is the multiprotein scaffold anchored at the lysosomal membrane that recruits mTORC1 to the lysosomal surface in response to amino acids. It interacts with Rag GTPases to tether the Rag-mTORC1 complex at the lysosome, so that amino-acid sensing converges with Rheb-mediated activation at one defined site.",
+      "zh-TW": "Ragulator 是錨定於溶酶體膜的多蛋白支架，在胺基酸刺激下把 mTORC1 招募到溶酶體表面。它與 Rag GTP 作用以將 Rag-mTORC1 複合體繫泊於溶酶體，使胺基酸感知與 Rheb 介導的活化在同一定位點收斂。"
+    },
+    "confidence": 0.95,
+    "source_document": "mTORC1-Lysosome Compartment.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "9fd6d1914580",
+    "subject": "Ragulator",
+    "predicate": "required_for",
+    "object": "mTORC1-Lysosome Compartment",
+    "context": {
+      "en-US": "Ragulator is required for the mTORC1-Lysosome Compartment: loss of Ragulator disrupts nutrient-dependent mTORC1 signaling and de-represses autophagy. That double consequence makes Ragulator the lynchpin of lysosomal nutrient coupling, since it is needed both to switch mTORC1 off at the membrane and to prevent constitutive autophagy.",
+      "zh-TW": "Ragulator 對 mTORC1-Lysosome Compartment 而言是必需的：Ragulator 缺失會破壞營養依賴性的 mTORC1 訊號並解除對自噬的抑制。這種雙重後果使 Ragulator 成為溶酶體營養耦合的關鍵，因為它既是關閉膜上 mTORC1 所必需，也是防止自噬持續活化所必需。"
+    },
+    "confidence": 0.9,
+    "source_document": "mTORC1-Lysosome Compartment.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "08e924890915",
+    "subject": "Rag proteins",
+    "predicate": "recruits",
+    "object": "mTORC1",
+    "context": {
+      "en-US": "Rag GTPases (RagA/B and RagC/D) function as heterodimers that bind the mTORC1 subunit Raptor and promote relocalization of mTORC1 to the lysosomal surface, where its activator Rheb resides. Amino-acid sufficiency favors the active Rag conformation and positions mTORC1 for activation.",
+      "zh-TW": "Rag GTP 酶（RagA/B 與 RagC/D）以異二聚體形式結合 mTORC1 次單元 Raptor，並促進 mTORC1 重定位到溶酶體表面，也就是其活化因子 Rheb 所在之處。胺基酸充足會偏向 Rag 的活化構形，使 mTORC1 就位以接受活化。"
+    },
+    "confidence": 0.95,
+    "source_document": "mTORC1-Lysosome Compartment.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "3bef89c42ea0",
+    "subject": "Rag proteins",
+    "predicate": "required_for",
+    "object": "mTORC1-Lysosome Compartment",
+    "context": {
+      "en-US": "Rag proteins are required for the mTORC1-Lysosome Compartment because amino-acid starvation inactivates the Rags, disperses mTORC1 from the lysosome and de-represses autophagy. The Ragulator-Rag axis therefore converts lysosomal amino-acid detection into mTORC1 spatial activation, the core mechanism of nutrient signaling.",
+      "zh-TW": "Rag 蛋白對 mTORC1-Lysosome Compartment 而言是必需的，因為胺基酸飢餓會使 Rag 失活、讓 mTORC1 從溶酶體分散並解除對自噬的抑制。因此 Ragulator–Rag 軸把溶酶體的胺基酸偵測轉換為 mTORC1 的空間性活化，構成營養訊號的核心機制。"
+    },
+    "confidence": 0.9,
+    "source_document": "mTORC1-Lysosome Compartment.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "2aa49ae25e72",
+    "subject": "mTORC1-Lysosome Compartment",
+    "predicate": "controls",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "The mTORC1-Lysosome Compartment controls Autophagy as the principal gatekeeper between anabolic growth and catabolic degradation. When amino acids are abundant mTORC1 docks at the lysosome and drives growth; when they are scarce the complex disperses and autophagy is de-repressed, directly coupling the cell's nutrient state to clearance of damaged organelles and protein aggregates.",
+      "zh-TW": "mTORC1-Lysosome Compartment 是控制 Autophagy 的主要守門人，在合成代謝性生長與分解性降解之間做出取捨。胺基酸豐富時 mTORC1 停靠於溶酶體並驅動生長；匱乏時複合體分散、自噬被解除抑制，因而把細胞的營養狀態直接耦合到受損胞器與蛋白聚集體的清除。"
+    },
+    "confidence": 0.9,
+    "source_document": "mTORC1-Lysosome Compartment.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "64c187ad9dc8",
+    "subject": "metabolic disorders",
+    "predicate": "associated_with",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Metabolic disorders are associated with Autophagy dysfunction, which is a common feature across the class rather than a feature of any single disease. This makes autophagic-lysosomal capacity a therapeutic target of unusually broad reach, and also explains why TFEB activation improves several metabolically distinct conditions at once.",
+      "zh-TW": "代謝疾病與 Autophagy 功能異常相關，而這是整類疾病共有的特徵，而非任一單一疾病的特徵。這使自噬－溶酶體容量成為觸及面極廣的治療標的，也解釋了為何 TFEB 活化能同時改善多種代謝機制不同的疾病。"
+    },
+    "confidence": 0.85,
+    "source_document": "metabolic disorders.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "185d08d5ae8f",
+    "subject": "TFEB",
+    "predicate": "targets",
+    "object": "metabolic disorders",
+    "context": {
+      "en-US": "TFEB is a therapeutic target for metabolic disorders, many of which, including steatosis and diabetic kidney disease, are associated with lysosomal dysfunction and can be improved by targeting TFEB. Restoring lysosomal capacity addresses the shared downstream lesion rather than each disease's proximal cause.",
+      "zh-TW": "TFEB 是代謝疾病的治療標的，其中許多疾病（包括脂肪變性與糖尿病腎病）與溶酶體功能異常相關，並可藉由針對 TFEB 而獲得改善。恢復溶酶體容量處理的正是各疾病共有的下游病變，而非各自的近端病因。"
+    },
+    "confidence": 0.8,
+    "source_document": "metabolic disorders.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "5c8a6e41a7a5",
+    "subject": "Obesity",
+    "predicate": "is_a_type_of",
+    "object": "metabolic disorders",
+    "context": {
+      "en-US": "Obesity is one of the metabolic disorders, alongside Type 2 Diabetes Mellitus and Metabolic Syndrome. Liver autophagy is also decreased in obesity induced either by high-fat diet or by genetic deficiency in leptin, so impaired autophagic capacity is a shared feature of the metabolic disease cluster rather than a specific consequence of excess adiposity.",
+      "zh-TW": "Obesity 是代謝疾病之一，與 Type 2 Diabetes Mellitus 及 Metabolic Syndrome 並列。無論由高脂肪飲食或瘦素基因缺陷誘發的肥胖，其肝臟自噬都會下降，因此自噬容量受損是代謝疾病群共有的特徵，而非脂肪過多所特有的後果。"
+    },
+    "confidence": 0.8,
+    "source_document": "metabolic disorders.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "a908074b081a",
+    "subject": "Type 2 Diabetes Mellitus",
+    "predicate": "is_a_type_of",
+    "object": "metabolic disorders",
+    "context": {
+      "en-US": "Type 2 Diabetes Mellitus is a metabolic disorder in which peripheral tissues fail to respond to insulin. Hepatic suppression of Atg7 results in ER stress and insulin resistance, and Sirtuin 1 is downregulated in insulin resistance and metabolic syndrome, so defective autophagy sits upstream of the insulin-response failure.",
+      "zh-TW": "Type 2 Diabetes Mellitus 是一種周邊組織對胰島素反應不良的代謝疾病。肝臟抑制 Atg7 會造成 ER Stress 與胰島素阻抗，而 Sirtuin 1 在胰島素阻抗與代謝症候群中下調，因此自噬缺陷位於胰島素反應失效的上游。"
+    },
+    "confidence": 0.8,
+    "source_document": "metabolic disorders.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "362e5bbec3b1",
+    "subject": "Metabolic Syndrome",
+    "predicate": "is_a_type_of",
+    "object": "metabolic disorders",
+    "context": {
+      "en-US": "Metabolic Syndrome is a metabolic disorder, and it is one of the conditions in which Sirtuin 1 levels are reduced and autophagic competence declines. Its co-occurrence with insulin resistance, steatosis and impaired autophagy makes it a useful clinical readout of whether autophagic-lysosomal function is failing systemically.",
+      "zh-TW": "Metabolic Syndrome 是一種代謝疾病，也是 Sirtuin 1 濃度下降與自噬能力衰退的狀況之一。它與胰島素阻抗、脂肪變性及自噬受損共同出現，因此是判斷自噬－溶酶體功能是否在全身性衰竭的有用臨床指標。"
+    },
+    "confidence": 0.8,
+    "source_document": "metabolic disorders.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "0d79afb6e2e3",
+    "subject": "transcriptional regulation",
+    "predicate": "controls",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Autophagy gene transcription is under transcriptional regulation by TFEB, TFE3, FOXO, ATF4, XBP1, PPARα, SREBP1 and ZKSCAN3, which respond to nutrients and stress. Because the components of the autophagy machinery are themselves transcriptionally controlled, transcriptional regulation is the level at which the cell decides how much degradative capacity to build.",
+      "zh-TW": "自噬基因的轉錄受到 TFEB、TFE3、FOXO、ATF4、XBP1、PPARα、SREBP1 與 ZKSCAN3 等因子對營養與壓力的 transcriptional regulation 調控。由於自噬機組本身的成分即受轉錄調控，transcriptional regulation 正是細胞決定要建構多少降解容量的層級。"
+    },
+    "confidence": 0.9,
+    "source_document": "transcriptional regulation.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "f56a58b7fee1",
+    "subject": "TFEB",
+    "predicate": "regulates",
+    "object": "transcriptional regulation",
+    "context": {
+      "en-US": "TFEB is the central node of the transcriptional regulation of the autophagic-lysosomal network, driving expression of lysosomal genes, V-ATPase subunits, lysosomal transmembrane proteins and hydrolases. It also self-regulates, and its transcription is modulated by PGC-1α and by XBP1 through the unfolded protein response element, so its output is set at several levels at once.",
+      "zh-TW": "TFEB 是自噬－溶酶體網絡 transcriptional regulation 的核心節點，驅動溶酶體基因、V-ATPase 次單元、溶酶體跨膜蛋白與水解酶的表現。它亦具自我調控，其轉錄受 PGC-1α 與透過 unfolded protein response element 作用的 XBP1 調節，因此其輸出同時受數個層級設定。"
+    },
+    "confidence": 0.9,
+    "source_document": "transcriptional regulation.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "c2544712bd92",
+    "subject": "TFE3",
+    "predicate": "regulates",
+    "object": "transcriptional regulation",
+    "context": {
+      "en-US": "TFE3 participates in transcriptional regulation alongside TFEB, sharing the MiT/TFEB family DNA-binding module and overlapping CLEAR-element target sets. Its activity is likewise controlled by mTOR-dependent phosphorylation, so the TFE3 arm of the network is gated by the same nutrient signal that gates TFEB.",
+      "zh-TW": "TFE3 與 TFEB 一同參與 transcriptional regulation，它們共用 MiT/TFEB 家族的 DNA 結合模組，且 CLEAR 元件的目標集合部分重疊。其活性同樣受 mTOR 依賴性磷酸化調控，因此網絡中 TFE3 這一支由與 TFEB 相同的營養訊號把關。"
+    },
+    "confidence": 0.85,
+    "source_document": "transcriptional regulation.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "4aee801fde32",
+    "subject": "FOXO",
+    "predicate": "regulates",
+    "object": "transcriptional regulation",
+    "context": {
+      "en-US": "FOXO transcription factors mediate transcriptional regulation of autophagy in response to starvation and Sirtuin 1 activation. In mice, FOXO3a depletion prevents autophagy induction by starvation in muscle, and SIRT1 activation deacetylates FOXO3a to favor transactivation of bnip3, a potent autophagy inducer, linking transcriptional control to autophagic flux.",
+      "zh-TW": "FOXO 轉錄因子在飢餓與 Sirtuin 1 活化時，調控自噬的 transcriptional regulation。在小鼠中，肌肉的 FOXO3a 缺失會阻止飢餓誘導的自噬；SIRT1 活化則去乙醯化 FOXO3a，使其利於轉錄活化 bnip3 這個強效自噬誘導因子，將轉錄調控與自噬流連結起來。"
+    },
+    "confidence": 0.85,
+    "source_document": "transcriptional regulation.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "d29606b427ae",
+    "subject": "PGC-1α",
+    "predicate": "regulates",
+    "object": "TFEB",
+    "context": {
+      "en-US": "PGC-1α is a coactivator that participates in transcriptional regulation of TFEB, working with the TFEB program rather than binding CLEAR elements itself. Because SIRT1 deacetylates PGC1a and PGC-1α in turn influences TFEB expression, the Sirtuin axis reaches the lysosomal-autophagy network through this coactivator as well as by deacetylating TFEB directly.",
+      "zh-TW": "PGC-1α 是參與 TFEB transcriptional regulation 的輔激活因子，它與 TFEB 程式協同作用，而非自行結合 CLEAR 元件。由於 SIRT1 會去乙醯化 PGC1a，而 PGC-1α 又影響 TFEB 表現，Sirtuin 軸除了直接去乙醯化 TFEB 之外，也透過這個輔激活因子抵達溶酶體－自噬網絡。"
+    },
+    "confidence": 0.8,
+    "source_document": "transcriptional regulation.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "d7b740d988fc",
+    "subject": "translational-level regulation",
+    "predicate": "controls",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Autophagy is controlled by translational-level regulation through four distinct mechanisms: eIF2α phosphorylation, 4E-BP1/eIF4E control, PDCD4/eIF4A inhibition and m6A Modification of autophagy gene mRNAs. Having several independent handles means the cell can tune autophagic machinery output without changing the transcription of the genes themselves.",
+      "zh-TW": "Autophagy 透過四種不同機制受到 translational-level regulation 調控：eIF2α 磷酸化、4E-BP1/eIF4E 調控、PDCD4/eIF4A 抑制，以及自噬基因 mRNA 的 m6A Modification。擁有多個彼此獨立的著力點，代表細胞可在不改變基因轉錄的情況下調整自噬機組的產出。"
+    },
+    "confidence": 0.9,
+    "source_document": "translational-level regulation.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "b8d960ca8073",
+    "subject": "translational-level regulation",
+    "predicate": "regulates",
+    "object": "TFEB",
+    "context": {
+      "en-US": "Translational-level regulation sets the amount of TFEB protein available: PDCD4 and eIF4A control translation of TFEB mRNA, and spermidine-mediated hypusination of eIF5A is another input. Because TFEB protein level rather than TFEB transcription is the limiting step in many contexts, these mechanisms are a direct way to tune autophagic-lysosomal output.",
+      "zh-TW": "Translational-level regulation 決定可用的 TFEB 蛋白量：PDCD4 與 eIF4A 控制 TFEB mRNA 的轉譯，而由 spermidine 媒介的 eIF5A hypusination 又是另一項輸入。由於許多情境下的限制步驟是 TFEB 蛋白量而非 TFEB 轉錄，這些機制是直接調整自噬－溶酶體產出的方式。"
+    },
+    "confidence": 0.85,
+    "source_document": "translational-level regulation.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "020d37488e44",
+    "subject": "m6A Modification",
+    "predicate": "regulates",
+    "object": "translational-level regulation",
+    "context": {
+      "en-US": "m6A Modification is one of the handles through which translational-level regulation of autophagy operates, because N6-methyladenosine on autophagy gene mRNAs alters their stability and translatability. METTL3 and ALKBH5 shift the methylation state of ULK1, Beclin1 and TFEB transcripts, effectively rewriting translational-level regulation from inside the nucleus.",
+      "zh-TW": "m6A Modification 是自噬 translational-level regulation 的著力點之一，因為自噬基因 mRNA 上的 N6-甲基腺苷會改變其穩定性與可轉譯性。METTL3 與 ALKBH5 改變 ULK1、Beclin1 與 TFEB 轉錄本的甲基化狀態，實際上從細胞核內改寫了 translational-level regulation。"
+    },
+    "confidence": 0.85,
+    "source_document": "translational-level regulation.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "a20673002b3f",
+    "subject": "eIF2α",
+    "predicate": "involves",
+    "object": "translational-level regulation",
+    "context": {
+      "en-US": "eIF2α phosphorylation is a canonical route by which translational-level regulation of autophagy is achieved: phosphorylating eIF2α makes the ternary complex scarce and globally suppresses translation, including that of autophagy regulators. Stress such as ER Stress activates this pathway, so it links proteotoxic conditions to reduced autophagic machinery output.",
+      "zh-TW": "eIF2α 磷酸化是達成自噬 translational-level regulation 的典型途徑：eIF2α 磷酸化使三元複合體匱乏並全面抑制轉譯，其中也包括自噬調節因子的轉譯。ER Stress 等壓力會活化此路徑，因此它把蛋白毒性狀況與自噬機組產出下降連結起來。"
+    },
+    "confidence": 0.8,
+    "source_document": "translational-level regulation.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "3adc53115da2",
+    "subject": "MXL-3",
+    "predicate": "represses",
+    "object": "Lipophagy",
+    "context": {
+      "en-US": "MXL-3 represses lipophagy when food is available. As a Max-like bHLH-LZ transcription factor it occupies the CACGTG sites in the promoters of the lysosomal lipase genes lipl-1, lipl-2, lipl-3 and lipl-5, keeping the lipolytic program off; fasting drops mxl-3 mRNA and MXL-3 rapidly leaves the intestinal nuclei, relieving that repression.",
+      "zh-TW": "在食物可得時，MXL-3 抑制 lipophagy。這個 Max-like bHLH-LZ 轉錄因子佔據溶酶體脂肪酶基因 lipl-1、lipl-2、lipl-3 與 lipl-5 啟動子上的 CACGTG 位點，使脂肪分解程式維持關閉；禁食時 mxl-3 mRNA 下降，MXL-3 迅速離開腸道細胞核，因而解除此抑制。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - MXL-3 and HLH-30 transcriptionally link lipolysis and autophagy to nutrient availability.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "4f1a02d330fe",
+    "subject": "HLH-30",
+    "predicate": "promotes",
+    "object": "Lipophagy",
+    "context": {
+      "en-US": "HLH-30 promotes Lipophagy by inducing the lysosomal lipase genes lipl-2, lipl-3 and lipl-5 and contributing to lipl-1 induction during fasting, at least partly by autoregulating its own transcription. Following fasting HLH-30 is enriched in intestinal nuclei and occupies the lipase promoters, so it hands off from MXL-3 repression to fasting-driven lipolysis.",
+      "zh-TW": "HLH-30 藉由在禁食期間誘導溶酶體脂肪酶基因 lipl-2、lipl-3 與 lipl-5，並協助 lipl-1 的誘導來促進 Lipophagy，部分是透過自我調控自身轉錄。禁食後 HLH-30 會富集於腸道細胞核並佔據脂肪酶啟動子，因此完成從 MXL-3 抑制到禁食驅動脂肪分解的交接。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - MXL-3 and HLH-30 transcriptionally link lipolysis and autophagy to nutrient availability.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "a7eaea2df67a",
+    "subject": "HLH-30",
+    "predicate": "required_for",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "HLH-30 is required for Autophagy in C. elegans: fasting hlh-30 mutants fail to activate transcription of the essential autophagy genes lgg-1, lgg-2 and atg-16.2. The same mutants die prematurely in starvation, showing that HLH-30 is needed to mount the metabolic response that supplies the cell with energy during food deprivation.",
+      "zh-TW": "HLH-30 對 C. elegans 的 Autophagy 而言是必需的：禁食條件下的 hlh-30 突變個體無法活化必要自噬基因 lgg-1、lgg-2 與 atg-16.2 的轉錄。相同突變體在飢餓時會提早死亡，顯示 HLH-30 為啟動食物剝奪期間供能所需的代謝反應所必需。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - MXL-3 and HLH-30 transcriptionally link lipolysis and autophagy to nutrient availability.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "d45d1345a548",
+    "subject": "CeTOR",
+    "predicate": "represses",
+    "object": "HLH-30",
+    "context": {
+      "en-US": "CeTOR represses hlh-30 transcription: inactivation of CeTOR by RNAi induces hlh-30 expression, showing that mTOR controls the C. elegans TFEB orthologue at the transcriptional level. This is a reciprocal arrangement to the mammalian one, where mTOR instead acts on TFEB protein through phosphorylation, and it helps explain why CeTOR inhibition alone is insufficient to fully activate the fat-mobilization program.",
+      "zh-TW": "CeTOR 抑制 hlh-30 的轉錄：以 RNAi 使 CeTOR 失活會誘導 hlh-30 表現，顯示 mTOR 在轉錄層級調控 C. elegans 的 TFEB 直系同源基因。這與哺乳類的安排相反，哺乳類中 mTOR 反而透過磷酸化作用於 TFEB 蛋白；這也有助於解釋為何單純抑制 CeTOR 不足以完全啟動脂肪動員程式。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - MXL-3 and HLH-30 transcriptionally link lipolysis and autophagy to nutrient availability.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "a72c1c8af8aa",
+    "subject": "Lysosomal Acid Lipase",
+    "predicate": "required_for",
+    "object": "Lipophagy",
+    "context": {
+      "en-US": "Lysosomal Acid Lipase, and its C. elegans homologues LIPL-1 and LIPL-3, are required for Lipophagy. These enzymes localize to the lysosomal-related organelle rather than to lipid droplets, yet lipl-1 lipl-3 double mutants show threefold greater fat stores and cannot mobilize fat after fasting, indicating they execute the lipid-droplet fat breakdown step of lipophagy.",
+      "zh-TW": "Lysosomal Acid Lipase 及其 C. elegans 同源基因 LIPL-1 與 LIPL-3 對 Lipophagy 而言是必需的。這些酵素定位於溶酶體相關胞器而非脂滴，但 lipl-1 lipl-3 雙突變個體的脂肪儲備高三倍且禁食後無法動員脂肪，顯示它們執行 lipophagy 中分解脂滴脂肪的步驟。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - MXL-3 and HLH-30 transcriptionally link lipolysis and autophagy to nutrient availability.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "630c18aea2dd",
+    "subject": "LGG-1",
+    "predicate": "required_for",
+    "object": "Lipophagy",
+    "context": {
+      "en-US": "LGG-1, one of the LC3 homologues, is required for Lipophagy: post-developmental dual inactivation of lgg-1 and lgg-2 leads to increased fat accumulation. That lipophagy depends on core autophagy genes indicates it is a conserved mechanism across metazoans rather than a lysosome-specific process, and that the lysosomal lipases act within the same pathway.",
+      "zh-TW": "LGG-1（LC3 同源基因之一）對 Lipophagy 而言是必需的：發育後同時使 lgg-1 與 lgg-2 失活會導致脂肪累積增加。lipophagy 依賴核心自噬基因，顯示它是跨後生動物保守的機制而非溶酶體專有過程，也表示溶酶體脂肪酶是在同一路徑內作用。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - MXL-3 and HLH-30 transcriptionally link lipolysis and autophagy to nutrient availability.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "9e924484469c",
+    "subject": "TFEB",
+    "predicate": "regulates_expression_of",
+    "object": "Lysosomal Acid Lipase",
+    "context": {
+      "en-US": "The same transcriptional coupling observed in worms holds in mammals: TFEB, lysosomal acid lipase and LC3 are all induced in the liver of fasted mice and in serum-deprived HepG2 cells, and siRNA inactivation of TFEB impairs the transcriptional activation of lysosomal acid lipase and LC3 under nutrient deprivation. The MAX homologue of mxl-3 was not repressed, so the MXL-3 arm is not conserved in the same form.",
+      "zh-TW": "在蠕蟲中觀察到的轉錄耦合在哺乳類同樣成立：禁食小鼠的肝臟與血清剝奪的 HepG2 細胞中，TFEB、lysosomal acid lipase 與 LC3 都被誘導；以 siRNA 使 TFEB 失活會削弱營養剝奪下 lysosomal acid lipase 與 LC3 的轉錄活化。mxl-3 的 MAX 同源基因則未受抑制，顯示 MXL-3 這一支並未以相同形式保守。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - MXL-3 and HLH-30 transcriptionally link lipolysis and autophagy to nutrient availability.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "a8ed4683d2bb",
+    "subject": "MXL-3",
+    "predicate": "extends_lifespan_of",
+    "object": "Caenorhabditis elegans",
+    "context": {
+      "en-US": "Loss of MXL-3 extends the lifespan of Caenorhabditis elegans: mxl-3 mutant animals show a constitutive fasting-like transcriptional profile with activated lysosomal lipases and are long lived even in abundant food. The phenotype is additive to caloric restriction, germline stem cell deficiency, mitochondrial dysfunction and daf-2 insulin-receptor mutations, and is suppressed by loss of hlh-30, bec-1, atg-16.2 or pha-4, arguing that the benefit comes from lysosomal lipolysis rather than from increased autophagy.",
+      "zh-TW": "MXL-3 缺失可延長 Caenorhabditis elegans 的壽命：mxl-3 突變個體呈現類禁食的組成性轉錄特徵、溶酶體脂肪酶活化，即使在食物充足時也較長壽。此表型與熱量限制、生殖系幹細胞缺陷、粒線體功能障礙及 daf-2 胰島素受體突變的壽命延長相加效，且會被 hlh-30、bec-1、atg-16.2 或 pha-4 缺失所抑制，論證其效益來自溶酶體脂肪分解而非自噬增加。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - MXL-3 and HLH-30 transcriptionally link lipolysis and autophagy to nutrient availability.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "b7cd1b3c4a1d",
+    "subject": "Autophagy",
+    "predicate": "declines_with",
+    "object": "Aging",
+    "context": {
+      "en-US": "Autophagy declines with Aging: Atg5, Atg7 and Beclin1 are downregulated in normal human brain aging, ULK1, Beclin1 and LC3 are downregulated in osteoarthritis, and Sirtuin 1 is downregulated in insulin resistance and metabolic syndrome. Genetic inhibition of autophagy induces degenerative changes in mammalian tissues that resemble aging itself, suggesting insufficient autophagy is part of the aging phenotype rather than merely correlated with it.",
+      "zh-TW": "Autophagy 隨 Aging 衰退：在正常人類腦老化中 Atg5、Atg7 與 Beclin1 下調；在骨關節炎中 ULK1、Beclin1 與 LC3 下調；在胰島素阻抗與代謝症候群中 Sirtuin 1 下調。遺傳性抑制自噬會在哺乳類組織引發類似老化的退化性變化，暗示自噬不足是老化表型的一部分，而不僅是與之相關。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - rubinsztein2011_autophagy_and_aging.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "095ba703dead",
+    "subject": "Autophagy",
+    "predicate": "required_for",
+    "object": "Caloric Restriction",
+    "context": {
+      "en-US": "Autophagy is required for the anti-aging effects of Caloric Restriction: CR is the most physiological inducer of autophagy, and inhibition of autophagy by mutation of essential Atg genes prevents the gain of longevity in every species tested, including the loss of longevity in eat-2, daf-2 and cnb-1 C. elegans models after bec-1 and atg7 RNAi. CR works through AMPK, SIRT1 and inhibition of insulin/IGF signaling, all of which converge on TOR inhibition and autophagy induction.",
+      "zh-TW": "Autophagy 對 Caloric Restriction 的抗老化效應而言是必需的：CR 是最生理性的自噬誘導因子，而以必要 Atg 基因突變抑制自噬，在所有受測物種中都阻斷了壽命延長，包含 eat-2、daf-2 與 cnb-1 的 C. elegans 模型在 bec-1 與 atg7 RNAi 後壽命效益消失。CR 透過 AMPK、SIRT1 與抑制胰島素／IGF 訊號作用，這些途徑都收斂於 TOR 抑制與自噬誘導。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - rubinsztein2011_autophagy_and_aging.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "22ff850020df",
+    "subject": "Autophagy",
+    "predicate": "required_for",
+    "object": "Rapamycin",
+    "context": {
+      "en-US": "Autophagy is required for the life span-extending effect of Rapamycin: knockout or knockdown of atg genes abolishes the life span extension conferred by rapamycin in all species investigated, and rapamycin fails to extend the lifespan of flies expressing constitutively active S6K. Rapamycin potently induces autophagy via TOR inhibition, and mTOR inhibition also suppresses inflammatory and autoimmune processes, so autophagy is the required component.",
+      "zh-TW": "Autophagy 對 Rapamycin 的延壽效應而言是必需的：在所有受檢物種中，atg 基因的敲除或敲低都會消除 rapamycin 帶來的壽命延長，而 rapamycin 也無法延長表現組成型活化 S6K 的果蠅壽命。Rapamycin 藉由抑制 TOR 有效誘導自噬，且 mTOR 抑制也會壓制發炎與自體免疫過程，因此自ophagy 是其中必需的成分。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - rubinsztein2011_autophagy_and_aging.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "9f6098043555",
+    "subject": "Autophagy",
+    "predicate": "required_for",
+    "object": "Spermidine",
+    "context": {
+      "en-US": "Autophagy is required for the Spermidine-induced longevity effect: the life span extension produced by spermidine is lost in yeast, nematodes and flies when atg genes are knocked out or knocked down, yet is not affected by depletion of SIRT1 orthologs. This sets Spermidine apart from resveratrol and SIRT1: it acts on protein acetylation in the opposite direction while still requiring autophagy.",
+      "zh-TW": "Autophagy 對 Spermidine 誘導的延壽效應而言是必需的：當 atg 基因被敲除或敲低時，spermidine 造成的壽命延長在酵母、線蟲與果蠅中都消失，但卻不受 SIRT1 直系同源基因耗竭影響。這使 Spermidine 與 resveratrol 及 SIRT1 有別：它在蛋白質乙醯化上作用方向相反，卻同樣需要自噬。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - rubinsztein2011_autophagy_and_aging.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "eae6bd47b690",
+    "subject": "mTOR",
+    "predicate": "inhibits",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "mTOR is a primordial negative regulator of Autophagy from yeast to man. It is inhibited under starvation conditions, which contributes to starvation-induced autophagy via activation of its targets Atg13, ULK1 and ULK2, and the same inhibition can be mimicked pharmacologically by rapamycin. Under milder starvation mTOR activity is also reduced while mTORC1 stays lysosome-associated, which clusters lysosomes near the microtubule-organizing center and enhances autophagosome-lysosome fusion.",
+      "zh-TW": "mTOR 是從酵母到人類都存在的自噬原始負向調節因子。飢餓時它被抑制，透過活化其目標 Atg13、ULK1 與 ULK2 而促成禁食誘導的自噬，同樣的抑制也可由 rapamycin 以藥理方式模擬。在較輕度的飢餓下 mTOR 活性同樣下降，而 mTORC1 仍與溶酶體相連，使溶酶體聚集於微管組織中心附近並增強自噬體－溶酶體融合。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - rubinsztein2011_autophagy_and_aging.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "676cee399f70",
+    "subject": "AMPK",
+    "predicate": "activates",
+    "object": "ULK1",
+    "context": {
+      "en-US": "AMPK activates ULK1 directly when nutrients are scarce or the AMP/ATP ratio rises, connecting energy sensing to mitophagy. AMPK and SIRT1 engage in a positive forward loop of mutual activation during caloric restriction, and AMPK activation also induces autophagy indirectly by inhibiting mTOR, so the kinase acts on both sides of the autophagy switch.",
+      "zh-TW": "當營養匱乏或 AMP/ATP 比值升高時，AMPK 直接活化 ULK1，把能量感知與 mitophagy 連結起來。熱量限制期間 AMPK 與 SIRT1 形成互相活化的正向前饋迴路，而 AMPK 活化也藉由抑制 mTOR 間接誘導自噬，因此此激酶作用於自噬開關的兩側。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - rubinsztein2011_autophagy_and_aging.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "26e7b12a4d6c",
+    "subject": "AMPK",
+    "predicate": "inhibits",
+    "object": "mTOR",
+    "context": {
+      "en-US": "AMPK inhibits mTOR, and this is one of two routes by which AMPK induces autophagy (the other being direct ULK1 phosphorylation). The reciprocal relation is visible in the lifespan data: S6K deletion leads to AMPK activation and fails to increase longevity in AMPK-deficient nematodes, so mTOR-S6K and AMPK sit in the same axis governing longevity.",
+      "zh-TW": "AMPK 抑制 mTOR，而這是 AMPK 誘導自噬的兩條途徑之一（另一條是直接磷酸化 ULK1）。這種反向關係在壽命資料中清晰可見：S6K 缺失會導致 AMPK 活化，且在 AMPK 缺陷的線蟲中無法延長壽命，因此 mTOR-S6K 與 AMPK 位於掌控壽命的同一條軸上。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - rubinsztein2011_autophagy_and_aging.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "479a4f0e2e57",
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "Atg5",
+    "context": {
+      "en-US": "SIRT1 is an NAD+-dependent deacetylase that deacetylates several Atg gene products, among them Atg5, Atg7 and Atg8/LC3, and thereby induces autophagy. Knockout or knockdown of atg genes abolishes the life span-prolonging effect of SIRT1, Sir2 overexpression, caloric restriction and resveratrol, so deacetylation of the autophagy machinery is the mechanism that couples SIRT1 to longevity.",
+      "zh-TW": "SIRT1 是 NAD+ 依賴型去乙醯化酶，會去乙醯化數個 Atg 基因產物，其中包括 Atg5、Atg7 與 Atg8/LC3，藉此誘導自噬。atg 基因的敲除或敲低會消除 SIRT1、Sir2 過度表現、熱量限制與 resveratrol 的延壽效應，因此自噬機組的去乙醯化就是把 SIRT1 與壽命連結的機制。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - rubinsztein2011_autophagy_and_aging.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "790422612b7f",
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "Atg8",
+    "context": {
+      "en-US": "SIRT1 deacetylates Atg8/LC3 along with Atg5 and Atg7, and resveratrol induces the deacetylation of dozens of cytoplasmic proteins. Because SIRT1 acts in both nucleus and cytoplasm, and a cytoplasmic variant is as efficient as wild-type SIRT1 at inducing autophagy, cytoplasmic deacetylation targets such as the LC3 machinery appear sufficient to deliver the autophagy response.",
+      "zh-TW": "SIRT1 會去乙醯化 Atg8/LC3 以及 Atg5 與 Atg7，而 resveratrol 會誘導數十種細胞質蛋白去乙醯化。由於 SIRT1 在細胞核與細胞質中皆作用，且細胞質變異型的自噬誘導效率與野生型 SIRT1 相當，LC3 機器這類細胞質去乙醯化標的似乎已足以引出自噬反應。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - rubinsztein2011_autophagy_and_aging.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "0961c10a3d08",
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "p53",
+    "context": {
+      "en-US": "SIRT1 deacetylates p53, which is commonly mutated in human cancers and which can both positively and negatively regulate autophagy via the mTOR pathway. Because the transcription factors SIRT1 deacetylates (p53, HSF1, FOXO3, PGC1a) all influence SIRT1 expression in turn, deacetylation forms a feedback architecture linking SIRT1 activity to stress response and autophagy induction.",
+      "zh-TW": "SIRT1 會去乙醯化 p53；p53 在人類癌症中常突變，且可經由 mTOR 路徑正向與負向調控自噬。由於 SIRT1 所去乙醯化的轉錄因子（p53、HSF1、FOXO3、PGC1a）反過來也影響 SIRT1 表現，去乙醯化因而構成連結 SIRT1 活性與壓力反應及自噬誘導的回饋架構。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - rubinsztein2011_autophagy_and_aging.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "baa1d13f4de5",
+    "subject": "Resveratrol",
+    "predicate": "activates",
+    "object": "SIRT1",
+    "context": {
+      "en-US": "Resveratrol activates SIRT1 directly or indirectly, prolonging life span in model organisms, and this effect is lost in yeast, worms and flies lacking Sir2. Resveratrol and caloric restriction also induce autophagy in a Sir2-dependent fashion, so Resveratrol sits upstream of the autophagy machinery rather than acting on it directly.",
+      "zh-TW": "Resveratrol 直接或間接活化 SIRT1，在模式生物中延長壽命，而此效應會在缺乏 Sir2 的酵母、線蟲與果蠅中消失。Resveratrol 與熱量限制同樣以 Sir2 依賴的方式誘導自噬，因此 Resveratrol 位於自噬機組的上游，而非直接作用於它。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - rubinsztein2011_autophagy_and_aging.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "45fc65205fe2",
+    "subject": "p53",
+    "predicate": "regulates",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "p53 regulates Autophagy in both directions via the mTOR pathway. Oncogenic or genotoxic stress stabilizes and activates p53, which may stimulate autophagy by activating AMPK or by upregulating PTEN and TSC1, whereas genetic or chemical inhibition of p53 also activates autophagy. Knockdown of the C. elegans p53 ortholog CEP1 is sufficient to induce massive autophagy and to increase lifespan, with both effects lost upon simultaneous atg knockdown.",
+      "zh-TW": "p53 經由 mTOR 路徑以兩個方向調控 Autophagy。致癌或基因毒性壓力會穩定並活化 p53，可藉由活化 AMPK 或上調 PTEN 與 TSC1 而刺激自噬；相反地，遺傳性或化學性抑制 p53 也會活化自噬。敲低 C. elegans 的 p53 直系同源基因 CEP1 足以誘導大量自噬並延長壽命，而這兩項效應都會在同時敲低 atg 時消失。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - rubinsztein2011_autophagy_and_aging.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "23d40372aa63",
+    "subject": "Beclin1",
+    "predicate": "is_a",
+    "object": "Tumor Suppressor",
+    "context": {
+      "en-US": "Beclin1 is a Tumor Suppressor and acts as a haploinsufficient one: it is required for autophagy induction yet a heterozygous knockout already enhances inflammation, steatohepatitis, hepatocellular carcinomas, lung adenocarcinomas and lymphomas in aging mice, and increases intraneuronal amyloid beta when human amyloid precursor protein is transgenically expressed. Other essential autophagy mediators such as Atg4c, Ambra-1, UVRAG and Bif-1 are also bona fide oncosuppressors.",
+      "zh-TW": "Beclin1 既是 Tumor Suppressor，且是單倍劑量不足型：它雖為自噬誘導所必需，但異型合子敲除在老化小鼠中就已增強發炎、脂性肝炎、肝細胞癌、肺腺癌與淋巴瘤，並在轉殖表現人類類澱粉前驅蛋白時增加神經元內類澱粉β。其他必要自噬介質如 Atg4c、Ambra-1、UVRAG 與 Bif-1 也都是真正的抑癌因子。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - rubinsztein2011_autophagy_and_aging.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "d400f4c77e1f",
+    "subject": "Autophagy",
+    "predicate": "suppresses",
+    "object": "Inflammation",
+    "context": {
+      "en-US": "Autophagy suppresses Inflammation through several mechanisms: autophagy in dying cells is required for optimal macrophage clearance of apoptotic corpses; autophagy maintains the intracellular ATP needed to expose phosphatidylserine and secrete lysophosphatidylcholine find-me signals; and disabled autophagy causes p62 accumulation that activates NF-kB and NRF2. Autophagy also inhibits NLRP3 inflammasome activation by removing permeabilizing, ROS-producing mitochondria.",
+      "zh-TW": "Autophagy 透過數種機制抑制 Inflammation：死亡細胞中的自噬是巨噬細胞有效清除凋亡屍體所必需；自噬維持細胞內 ATP，以呈現磷脂醯絲胺並分泌溶血磷脂醯膽鹼的 find-me 訊號；而自噬失能會造成 p62 累積，活化 NF-kB 與 NRF2。Autophagy 也藉由移除通透化、產生活性氧的粒線體來抑制 NLRP3 發炎小體活化。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - rubinsztein2011_autophagy_and_aging.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "8071590972e4",
+    "subject": "Autophagy",
+    "predicate": "supports",
+    "object": "Proteostasis",
+    "context": {
+      "en-US": "Autophagy supports Proteostasis, especially in nonproliferating cells such as neurons, where there is no cell division to dilute intracellular debris. Its substrates include aggregate-prone proteins associated with neurodegenerative disease, such as mutant alpha-synuclein, tau and polyglutamine-expanded huntingtin, and inhibiting autophagy in otherwise normal mice causes protein aggregates to form in the cytoplasm.",
+      "zh-TW": "Autophagy 支援 Proteostasis，在神經元等不分裂細胞中尤其重要，因為沒有細胞分裂來稀釋細胞內碎屑。其受質包含與神經退化疾病相關的易聚集蛋白，例如突變型 α-突觸核蛋白、tau 與多麩醯胺酸擴張的 huntingtin；而在原本正常的小鼠中抑制自噬會造成細胞質內蛋白聚集體形成。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - rubinsztein2011_autophagy_and_aging.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "a1e4924c8e93",
+    "subject": "Autophagy",
+    "predicate": "regulates",
+    "object": "Mitochondria",
+    "context": {
+      "en-US": "Autophagy regulates Mitochondria as a quality control mechanism: dysfunctional mitochondria that have lost membrane potential and are more likely to release apoptotic mediators and reactive oxygen species are selectively removed relative to healthy ones. PINK1 phosphorylates mitochondrial targets and the E3 ligase Parkin then ubiquitinates mitochondrial membrane proteins, and autophagy inhibition reproducibly results in deteriorated mitochondrial function in nonmammalian models and mice.",
+      "zh-TW": "Autophagy 藉由品質管制調控 Mitochondria：失去膜電位、較可能釋放凋亡介質與活性氧的功能失常粒線體，會相對於健康粒線體被選擇性移除。PINK1 磷酸化粒線體標的，隨後 E3 泛素連接酶 Parkin 泛素化粒線體膜蛋白；而在非哺乳類模式生物與小鼠中，抑制自噬都會一致地導致粒線體功能惡化。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - rubinsztein2011_autophagy_and_aging.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "6c1ecd72880e",
+    "subject": "PINK1",
+    "predicate": "activates",
+    "object": "Parkin",
+    "context": {
+      "en-US": "PINK1 mediates phosphorylation reactions on dysfunctional mitochondria that activate the E3 ligase Parkin, which then ubiquitinates mitochondrial membrane proteins for autophagic removal. Loss of PINK1 produces a selective mitochondrial defect in complexes I and II in the striatum, and its functions in mitophagy and in the interferon-gamma-inducible knockout phenotype position it as a mitophagy gatekeeper.",
+      "zh-TW": "PINK1 在功能失常的粒線體上媒介磷酸化反應，活化 E3 泛素連接酶 Parkin，後者再泛素化粒線體膜蛋白以利自噬移除。PINK1 缺失會在紋狀體造成選擇性粒線體缺陷（複合體 I 與 II），而它在 mitophagy 中的功能及其在干擾素 γ 可誘導型敲除表型中的作用，使它被定位為 mitophagy 的守門者。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - rubinsztein2011_autophagy_and_aging.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "2fb5a4da3972",
+    "subject": "Atg7",
+    "predicate": "required_for",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Atg7 is required for Autophagy, acting as the E1-like enzyme in both ubiquitin-like conjugation reactions: it conjugates Atg12 to Atg5 (with Atg10 as the E2-like enzyme) and lipidates Atg8/LC3 onto phosphatidylethanolamine with Atg3. Knockout of essential ATG proteins is lethal in the early postnatal period because autophagy is indispensable for mobilizing energy reserves during weaning, whereas tissue-specific knockouts instead produce age-associated stigmata.",
+      "zh-TW": "Atg7 對 Autophagy 而言是必需的，它在兩個類泛素接合反應中扮演 E1 類酵素：將 Atg12 接合到 Atg5（Atg10 為 E2 類酵素），並在 Atg3 協助下將 Atg8/LC3 脂質化接到磷脂醯乙醇胺上。必要 ATG 蛋白的敲除在出生後早期即致命，因為自噬對斷奶期間動員能量儲備不可或缺；組織專一性敲除則會產生與老化相關的徵象。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - rubinsztein2011_autophagy_and_aging.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "7fa158f4d09a",
+    "subject": "Atg8",
+    "predicate": "binds_to",
+    "object": "Phosphatidylethanolamine",
+    "context": {
+      "en-US": "Atg8/LC3 is conjugated to the lipid phosphatidylethanolamine by Atg7 (E1-like) and Atg3 (E2-like) to form LC3-II, which marks the membranes of autophagosomes. This lipid conjugation is what allows the autophagosome to be recognized and trafficked along microtubules to lysosomes, and it is also a standard readout of autophagosome formation.",
+      "zh-TW": "Atg8/LC3 由 Atg7（E1 類）與 Atg3（E2 類）接合到脂質磷脂醯乙醇胺上，形成標記自噬體膜的 LC3-II。這個脂質接合使自噬體得以被辨識並沿微管運送至溶酶體，同时也是量測自噬體形成的標準讀值。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - rubinsztein2011_autophagy_and_aging.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "5a9ee5255c0a",
+    "subject": "Atg5",
+    "predicate": "binds_to",
+    "object": "Atg12",
+    "context": {
+      "en-US": "Atg12 is conjugated to Atg5 by Atg7, with Atg10 acting as the E2-like enzyme, and the resulting Atg5-Atg12 conjugate interacts noncovalently with Atg16. The Atg5-Atg12-Atg16 complex associates with phagophores but dissociates from completed autophagosomes, which is why Atg5-Atg12 is used as a specific marker of the autophagosome-precursor stage.",
+      "zh-TW": "Atg12 由 Atg7 接合到 Atg5，Atg10 扮演 E2 類酵素，所形成的 Atg5-Atg12 接合物再以非共價方式與 Atg16 交互作用。Atg5-Atg12-Atg16 複合體與吞噬膜相結合，卻從已完成的自噬體上解離，因此 Atg5-Atg12 被用作自噬體前驅階段的特異標記。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - rubinsztein2011_autophagy_and_aging.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "7effa805369f",
+    "subject": "Bcl-2",
+    "predicate": "inhibits",
+    "object": "Beclin1",
+    "context": {
+      "en-US": "Bcl-2 inhibits Beclin1, and this interaction is one of the routes by which autophagy is regulated. Starvation activates c-Jun N-terminal kinase-1, which phosphorylates Bcl-2 and thereby disrupts the Bcl-2-Beclin1 interaction to allow autophagy induction. Conversely, autophagy induction liberates Bcl-2 from the Beclin1 complex, potentially making it available to block the intrinsic apoptotic pathway.",
+      "zh-TW": "Bcl-2 抑制 Beclin1，而這種交互作用是自噬調控的途徑之一。飢餓會活化 c-Jun N 端激酶-1，後者磷酸化 Bcl-2，藉由破壞 Bcl-2–Beclin1 交互作用而容許自噬誘導。相反地，自噬誘導會將 Bcl-2 從 Beclin1 複合體中釋出，可能使其得以阻斷內源性凋亡路徑。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - rubinsztein2011_autophagy_and_aging.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "a80cb510b8b9",
+    "subject": "Autophagy",
+    "predicate": "suppresses",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "Autophagy suppresses Apoptosis in postmitotic cells, partly by liberating Bcl-2 from the Beclin1 complex so that it can acutely block the intrinsic apoptotic pathway. Because mitochondrial membrane permeabilization is a rate-limiting step of cell death, autophagic removal of permeabilized organelles raises the threshold for cytochrome c release, decreases reactive oxygen species production and allows acutely injured cells to recover instead of dying.",
+      "zh-TW": "Autophagy 在不分裂細胞中抑制 Apoptosis，部分方式是將 Bcl-2 從 Beclin1 複合體釋出，使其能迅速阻斷內源性凋亡路徑。由於粒線體膜通透化是細胞死亡的速度限制步驟，自噬對已通透化胞器的移除會提高細胞色素 c 釋放的閾值、降低活性氧產生，並讓急性受損細胞得以恢復而非死亡。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - rubinsztein2011_autophagy_and_aging.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "551f29ea6bec",
+    "subject": "Autophagy",
+    "predicate": "prevents",
+    "object": "Cancer",
+    "context": {
+      "en-US": "Autophagy prevents Cancer through cell-autonomous effects such as improved quality control of Mitochondria, ameliorated genetic instability and autophagic removal of the potentially oncogenic protein p62. Consistent with this, oncogenes such as activated Akt1, PI3K and antiapoptotic Bcl-2 family proteins suppress autophagy, while tumor suppressors including PTEN, TSC1, TSC2, LKB1/STK11 and DAPK1 stimulate it, so their loss reduces autophagy.",
+      "zh-TW": "Autophagy 藉由細胞自主性效應預防 Cancer，包括改善粒線體品質管制、減輕遺傳不穩定，以及自噬清除可能致癌的 p62 蛋白。與此一致，活化的 Akt1、PI3K 及抗凋亡的 Bcl-2 家族蛋白等致癌基因會抑制自噬，而 PTEN、TSC1、TSC2、LKB1/STK11 與 DAPK1 等腫瘤抑制因子會促進自噬，因此它們的喪失會降低自噬。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - rubinsztein2011_autophagy_and_aging.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "8a90dc01bc58",
+    "subject": "Intermittent Fasting",
+    "predicate": "alternative_autophagy_inducer_to",
+    "object": "Caloric Restriction",
+    "context": {
+      "en-US": "Intermittent Fasting is an alternative autophagy-inducing intervention to Caloric Restriction: alternating days of starvation with days of ad libitum feeding can increase the life span of rodents as much as chronic caloric restriction, without the major decrease in body mass. That matters because reduced body mass is linked to the negative effects of caloric restriction on bone density and consequent pathological fractures.",
+      "zh-TW": "Intermittent Fasting 是相對於 Caloric Restriction 的另一種自噬誘導介入方式：將禁食日與自由攝食日交替，可使齧齒類的壽命增幅與慢性熱量限制相當，卻不伴隨體重明顯下降。這點很重要，因為體重下降與熱量限制對骨密度的負面效應及隨後的病理性骨折有關。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - rubinsztein2011_autophagy_and_aging.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "fa93c3b9b472",
+    "subject": "FOXO3",
+    "predicate": "promotes",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "FOXO3 stimulates Autophagy in response to starvation or SIRT1 activation. In primary mouse renal cells SIRT1 is activated by caloric restriction and deacetylates FOXO3a, favoring transactivation of bnip3, which codes for a potent autophagy inducer, and FOXO3a inhibition or depletion prevents autophagy induction by starvation in vivo in mouse muscle. Genetic variations in FOXO3 have also been linked to longevity in multiple population studies.",
+      "zh-TW": "FOXO3 在飢餓或 SIRT1 活化時刺激 Autophagy。在原代小鼠腎細胞中，熱量限制活化 SIRT1 並去乙醯化 FOXO3a，使其利於轉錄活化編碼強效自噬誘導因子 bnip3 的基因；而在活體小鼠肌肉中，抑制或耗竭 FOXO3a 會阻止飢餓誘導的自噬。FOXO3 的遺傳變異在多項族群研究中也與長壽相關。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - rubinsztein2011_autophagy_and_aging.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "f0ee112ca10e",
+    "subject": "SIRT1",
+    "predicate": "promotes",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "SIRT1 promotes Autophagy through nonnuclear effects: a cytoplasmic variant of SIRT1 induces autophagy as efficiently as wild-type, and resveratrol induces autophagy in enucleated cells, so SIRT1 can act through cytoplasmic deacetylation of the Atg machinery. Caloric restriction raises SIRT1 expression or activity, and lack of Sir2 abrogates the life span effect of caloric restriction in yeast, worms and flies.",
+      "zh-TW": "SIRT1 透過非核內效應促進 Autophagy：SIRT1 的細胞質變異型誘導自噬的效率與野生型相當，且 resveratrol 可在去核細胞中誘導自噬，因此 SIRT1 可藉由對 Atg 機組的細胞質去乙醯化作用。熱量限制會提升 SIRT1 表現或活性，而缺乏 Sir2 會在酵母、線蟲與果蠅中消除熱量限制的壽命效應。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - rubinsztein2011_autophagy_and_aging.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "5ff0415f59dc",
+    "subject": "Lithium",
+    "predicate": "induces",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Lithium induces Autophagy through an mTOR-independent pathway mediated by inhibition of inositol monophosphatase, which lowers free inositol and myo-inositol-1,4,5-trphosphate levels. Valproate and carbamazepine, drugs used across neurological and psychiatric indications, act through the same pathway, and lowered IP3 also reduces ER calcium influx into mitochondria, mildly impairs respiration and upregulates autophagy via AMPK.",
+      "zh-TW": "Lithium 透過 mTOR 非依賴路徑誘導 Autophagy，機制為抑制肌醇單磷酸酶，進而降低游離肌醇與肌醇-1,4,5-三磷酸（IP3）量。用於多種神經與精神疾病治療的 Valproate 與 carbamazepine 也經由同一路徑作用；而 IP3 下降也會減少內質網 Ca2+ 流入粒線體、輕度損害呼吸，並透過 AMPK 上調自噬。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - rubinsztein2011_autophagy_and_aging.md",
+    "created": "2026-09-29T14:53:48Z",
+    "updated": "2026-09-29T14:53:48Z"
   }
 ]
