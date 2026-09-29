@@ -85804,5 +85804,1643 @@
     "source_document": "Selenoprotein P.md",
     "created": "2026-09-29T17:48:20Z",
     "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "cdb4eb8aa003",
+    "subject": "Sphingosine-1-phosphate",
+    "predicate": "is_derived_from",
+    "object": "Sphingosine",
+    "context": {
+      "en-US": "Sphingosine-1-phosphate (S1P) is a phosphorylated derivative of sphingosine: sphingosine kinases add a phosphate to the amino alcohol backbone, converting Sphingosine into S1P. The note places Sphingosine as the immediate metabolic precursor of S1P, and S1P as the bioactive endpoint of the sphingosine arm of the ceramide/sphingosine/S1P rheostat.",
+      "zh-TW": "Sphingosine-1-phosphate (S1P) 是 sphingosine 的磷酸化衍生物：sphingosine kinase 將磷酸基加到該胺基醇骨架上，把 Sphingosine 轉換為 S1P。此筆記將 Sphingosine 列為 S1P 的直接代謝前驅物，而 S1P 則是 ceramide/sphingosine/S1P 恆定器中 sphingosine 支的生物活性終點。"
+    },
+    "confidence": 0.95,
+    "source_document": "Sphingosine-1-phosphate.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "3496e2340bef",
+    "subject": "Sphingosine-1-phosphate",
+    "predicate": "inhibits",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "Sphingosine-1-phosphate is broadly pro-survival, pro-proliferative and anti-apoptotic: it binds S1P G-protein-coupled receptors and pushes cells away from apoptosis. Sphingosine-1-phosphate therefore functionally opposes Ceramide, whose accumulation is pro-death — the two lipids act as the two arms of a sphingolipid rheostat.",
+      "zh-TW": "Sphingosine-1-phosphate 普遍具有促存活、促增殖與抗凋亡作用：它結合 S1P 的 G 蛋白偶聯受體，使細胞遠離 apoptosis。Sphingosine-1-phosphate 因此在功能上與 Ceramide 相對抗——ceramide 累積為促死亡，兩者構成 sphingolipid 恆定器的兩端。"
+    },
+    "confidence": 0.95,
+    "source_document": "Sphingosine-1-phosphate.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "a97333cfbf57",
+    "subject": "Sphingosine-1-phosphate",
+    "predicate": "opposes",
+    "object": "Ceramide",
+    "context": {
+      "en-US": "Ceramide and Sphingosine-1-phosphate occupy opposite ends of a rheostat: high ceramide is growth-inhibitory and pro-death, whereas high Sphingosine-1-phosphate is pro-survival and anti-apoptotic. This opposition is the core organizing principle of sphingolipid signaling in the note, and the ratio between the two sets the cell's survival set-point.",
+      "zh-TW": "Ceramide 與 Sphingosine-1-phosphate 位於恆定器的相反兩端：ceramide 濃度高時具生長抑制與促死亡作用，而 Sphingosine-1-phosphate 濃度高時則促存活與抗凋亡。此對抗作用是筆記中 sphingolipid 訊息傳遞的核心組織原則，兩者的比值決定細胞的存活設定點。"
+    },
+    "confidence": 0.9,
+    "source_document": "Sphingosine-1-phosphate.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "28290edc0639",
+    "subject": "Acid ceramidase",
+    "predicate": "upregulates",
+    "object": "Sphingosine-1-phosphate",
+    "context": {
+      "en-US": "Over-expression of Acid ceramidase in senescent cells raises the sphingosine pool, and sphingosine kinases phosphorylate that pool into Sphingosine-1-phosphate. The resulting rise in Sphingosine-1-phosphate supports senescent-cell survival and blocks apoptosis, even though the same Acid ceramidase activity simultaneously creates a pro-ferroptotic lipid profile by releasing free fatty acids for membrane phospholipid PUFA enrichment.",
+      "zh-TW": "在 senescent cells 中過量表現 Acid ceramidase 會提高 sphingosine 池，而 sphingosine kinase 將該池磷酸化為 Sphingosine-1-phosphate。Sphingosine-1-phosphate 隨之上升，支撐 senescent cell 存活並阻斷 apoptosis；然而同一 Acid ceramidase 活性也會釋出游離脂肪酸供膜上 phospholipid 的 PUFA 富集，同時製造出促 ferroptosis 的脂質輪廓。"
+    },
+    "confidence": 0.85,
+    "source_document": "Sphingosine-1-phosphate.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "aa4030a2deb7",
+    "subject": "Sphingosine",
+    "predicate": "is_produced_by",
+    "object": "Acid ceramidase",
+    "context": {
+      "en-US": "Sphingosine is generated when Acid ceramidase cleaves the N-acyl linkage of Ceramide, releasing the free sphingosine backbone together with a fatty acid. This hydrolytic step is the point at which ceramide catabolism yields Sphingosine, which is then rapidly phosphorylated to Sphingosine-1-phosphate.",
+      "zh-TW": "當 Acid ceramidase 切斷 Ceramide 的 N-醯基鍵時，會釋出游離的 sphingosine 骨架與脂肪酸，因而產生 Sphingosine。此水解步驟是 ceramide 分解代謝生成 Sphingosine 的關節點，之後 Sphingosine 會迅速被磷酸化為 Sphingosine-1-phosphate。"
+    },
+    "confidence": 0.95,
+    "source_document": "Sphingosine.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "ed95cec938aa",
+    "subject": "Sphingosine",
+    "predicate": "is_a_component_of",
+    "object": "Sphingolipid Metabolism",
+    "context": {
+      "en-US": "Sphingosine is the long-chain amino alcohol that forms the structural backbone of all sphingolipids. Every ceramide, sphingomyelin and sphingosine-1-phosphate species is built on this single scaffold, which is why changes in the Sphingosine pool propagate through the whole Sphingolipid Metabolism network.",
+      "zh-TW": "Sphingosine 是構成所有 sphingolipid 結構骨架的長鏈胺基醇。每一種 ceramide、sphingomyelin 與 sphingosine-1-phosphate 都以這個單一骨架建造，因此 Sphingosine 池的變化會沿整個 Sphingolipid Metabolism 網絡傳播。"
+    },
+    "confidence": 0.9,
+    "source_document": "Sphingosine.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "47c4052ef364",
+    "subject": "Sphingosine",
+    "predicate": "increases_susceptibility_to",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "Although the sphingosine/S1P arm is classically pro-survival, the Sphingosine-producing activity of Acid ceramidase inadvertently creates a pro-ferroptotic lipid profile: the free fatty acids released during Ceramide catabolism feed membrane phospholipid PUFA enrichment, sensitizing cells to Ferroptosis — a death modality that Sphingosine signalling would otherwise protect against.",
+      "zh-TW": "雖然 sphingosine/S1P 支在典型情況下促存活，但 Acid ceramidase 產生 Sphingosine 的活性仍會無意中製造促 ferroptosis 的脂質輪廓：Ceramide 分解時釋放的游離脂肪酸供膜上 phospholipid 的 PUFA 富集，使細胞對 Ferroptosis 敏感——而這正是 Sphingosine 訊息原本會防範的死亡模式。"
+    },
+    "confidence": 0.85,
+    "source_document": "Sphingosine.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "d8b612315962",
+    "subject": "Spinal Cord Injury (SCI)",
+    "predicate": "involves",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "Beyond the primary traumatic or ischemic insult, Spinal Cord Injury (SCI) triggers a secondary injury cascade in which oxidative stress, inflammation and neuronal/glial apoptosis act together below the lesion. This secondary wave of damage, rather than the initial trauma, drives much of the progressive functional loss seen after Spinal Cord Injury (SCI).",
+      "zh-TW": "除了原發的創傷或缺血傷害之外，Spinal Cord Injury (SCI) 還會觸發續發性損傷級聯反應，在病灶以下由 oxidative stress、inflammation 與神經元/膠細胞 apoptosis 共同作用。造成 Spinal Cord Injury (SCI) 後大部分進行性功能喪失的，正是這波續發性損傷，而非初始創傷。"
+    },
+    "confidence": 0.9,
+    "source_document": "Spinal Cord Injury (SCI).md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "c75ff4daeefa",
+    "subject": "Creatine Supplementation",
+    "predicate": "improves",
+    "object": "Spinal Cord Injury (SCI)",
+    "context": {
+      "en-US": "Creatine Supplementation has been reported to support recovery after Spinal Cord Injury (SCI) at both preclinical and clinical levels. In animal models pre- or post-injury creatine reduced scar tissue, preserved gray matter and improved locomotor function; in human rehabilitation trials creatine at 20 g/day raised aerobic capacity and ventilatory anaerobic threshold in cervical injury, and 3 g/day combined with Vitamin D and resistance training improved arm muscle area, strength and function, though some studies found no benefit.",
+      "zh-TW": "在臨床前與臨床層級都有報告指出，Creatine Supplementation 可支持 Spinal Cord Injury (SCI) 後的復原。動物模型中，傷前或傷後给予 creatine 可減少瘢痕組織、保留灰質並改善運動功能；人類復健試驗中，頸部損傷者以 20 g/day creatine 提升有氧能力與通氣無氧閾值，3 g/day 併用 Vitamin D 與 resistance training 則改善手臂肌量、力量與功能，但部分研究未見效益。"
+    },
+    "confidence": 0.8,
+    "source_document": "Spinal Cord Injury (SCI).md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "6c83d9d56be8",
+    "subject": "ASAH1",
+    "predicate": "is_associated_with",
+    "object": "Spinal muscular atrophy with progressive myoclonic epilepsy",
+    "context": {
+      "en-US": "Spinal muscular atrophy with progressive myoclonic epilepsy is caused by hypomorphic mutations in ASAH1 that retain roughly 5–30% residual Acid ceramidase activity. Because the gene retains substantial function, the disorder is milder than the null phenotype; the recurrent c.125C>T (p.Thr42Met) hotspot is a recognized mutation in ASAH1.",
+      "zh-TW": "Spinal muscular atrophy with progressive myoclonic epilepsy 由 ASAH1 的低效突變引起，該突變仍保留約 5–30% 的殘餘 Acid ceramidase 活性。由於此基因保有相當功能，此疾病較同基因 null 表型溫和；反覆出現的 c.125C>T (p.Thr42Met) 熱點突變是 ASAH1 的已知突變。"
+    },
+    "confidence": 0.95,
+    "source_document": "Spinal muscular atrophy with progressive myoclonic epilepsy.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "cdfcc9b49b17",
+    "subject": "Spinal muscular atrophy with progressive myoclonic epilepsy",
+    "predicate": "is_associated_with",
+    "object": "Farber disease",
+    "context": {
+      "en-US": "Spinal muscular atrophy with progressive myoclonic epilepsy is allelic with Farber disease: both arise from mutations in ASAH1. The severity difference is set by residual enzyme activity — ~5–30% in Spinal muscular atrophy with progressive myoclonic epilepsy versus <5% in Farber disease — which explains the milder neurodegenerative rather than widespread lipogranulomatosis phenotype.",
+      "zh-TW": "Spinal muscular atrophy with progressive myoclonic epilepsy 與 Farber disease 為同一基因（ASAH1）的等位基因疾病。兩者嚴重程度由殘餘酵素活性決定：Spinal muscular atrophy with progressive myoclonic epilepsy 約 5–30%，Farber disease 則 <5%，這解釋了前者較輕微的神經退行性表型，而非廣泛脂肪肉芽腫表型。"
+    },
+    "confidence": 0.9,
+    "source_document": "Spinal muscular atrophy with progressive myoclonic epilepsy.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "d9a99a3262ac",
+    "subject": "Acid ceramidase",
+    "predicate": "is_required_for",
+    "object": "Ceramide",
+    "context": {
+      "en-US": "Acid ceramidase is the lysosomal enzyme whose loss of function drives the pathology of both Spinal muscular atrophy with progressive myoclonic epilepsy and Farber disease. When its activity falls below a threshold, Ceramide cannot be efficiently degraded and accumulates — which is why C26-ceramide quantification on dried blood spots serves as a biomarker for these ASAH1-related disorders.",
+      "zh-TW": "Acid ceramidase 是其功能喪失同時驅動 Spinal muscular atrophy with progressive myoclonic epilepsy 與 Farber disease 病理的溶小體酵素。當其活性低於閾值，Ceramide 無法被有效分解而累積——這也是為何乾燥血點的 C26-ceramide 定量可作為這些 ASAH1 相關疾病的生物標記。"
+    },
+    "confidence": 0.9,
+    "source_document": "Spinal muscular atrophy with progressive myoclonic epilepsy.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "d46f82b0219a",
+    "subject": "Spliceosome",
+    "predicate": "is_recruited_by",
+    "object": "cGAS",
+    "context": {
+      "en-US": "Noncanonical nuclear cGAS recruits the spliceosome through its intrinsically disordered region, which mediates liquid-liquid phase separation with chromatin and RNA-processing machinery. Because cGAS binds spliceosome components directly, phase-separated cGAS condensates concentrate splicing factors and can influence alternative splicing decisions independently of canonical cGAS-STING Pathway interferon output.",
+      "zh-TW": "非典型核內 cGAS 透過其 intrinsically disordered region 招募 spliceosome，該區域藉由與染色質及 RNA 加工機器的 liquid-liquid phase separation 達成此作用。由於 cGAS 直接結合 spliceosome 組分，相分離形成的 cGAS 凝聚體可濃縮剪接因子並影響 alternative splicing 決定，且獨立於典型 cGAS-STING Pathway 的干擾素輸出。"
+    },
+    "confidence": 0.9,
+    "source_document": "Spliceosome.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "260c91bd13b2",
+    "subject": "Spliceosome",
+    "predicate": "is_associated_with",
+    "object": "cGAS",
+    "context": {
+      "en-US": "cGAS interactome profiling enriched spliceosome components among the major nuclear interaction partners, alongside the SWI-SNF Complex. Alongside scaffolding of RNA-Binding Proteins, this establishes cGAS as an organizational hub for nuclear RNA metabolism rather than a purely DNA-sensing enzyme, extending its noncanonical role into RNA processing.",
+      "zh-TW": "cGAS 互作組分析在主要核內交互作用夥伴中富集了 spliceosome 組分，並與 SWI-SNF Complex 並列。連同其對 RNA-Binding Proteins 的支架作用，這確立了 cGAS 為核內 RNA 代謝的組織中樞，而非單純的 DNA 感測酵素，將其非典型角色延伸至 RNA 加工。"
+    },
+    "confidence": 0.85,
+    "source_document": "Spliceosome.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "0eff2d2a9aa2",
+    "subject": "Spliceosome",
+    "predicate": "is_localized_to",
+    "object": "Nucleus",
+    "context": {
+      "en-US": "The spliceosome assembles dynamically on nascent transcripts in the Nucleus, where noncanonical cGAS concentrates splicing factors through phase separation. Because cGAS-mediated control of splicing is independent of its STING-dependent interferon output, it offers an RNA-metabolism layer to cGAS nuclear function that could intersect with neurodegeneration.",
+      "zh-TW": "Spliceosome 在 Nucleus 中動態組裝於新生轉錄本上，非典型 cGAS 亦在該處透過相分離濃縮剪接因子。由於 cGAS 對剪接的調控獨立於其 STING 相關的干擾素輸出，這為 cGAS 的核內功能提供了 RNA 代謝層面的作用，並可能與 neurodegeneration 相交會。"
+    },
+    "confidence": 0.85,
+    "source_document": "Spliceosome.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "77bae26b9b8b",
+    "subject": "Squalene synthase",
+    "predicate": "is_a_component_of",
+    "object": "Mevalonate pathway",
+    "context": {
+      "en-US": "Squalene synthase, encoded by FDFT1, catalyzes the first committed step of sterol biosynthesis in the Mevalonate pathway by condensing two farnesyl diphosphate molecules into squalene. As the ER-membrane node where mevalonate-derived isoprenoid flux commits to the sterol branch, it sits at a metabolic branch point rather than a terminal step.",
+      "zh-TW": "Squalene synthase（由 FDFT1 編碼）催化 Mevalonate pathway 中類固醇生合成的第一步反應，將兩個 farnesyl diphosphate 分子縮合成 squalene。作為內質網膜上使 mevalonate 衍生異戊二烯oid通量投入類固醇支的節點，它位於代謝分支點而非末端步驟。"
+    },
+    "confidence": 0.95,
+    "source_document": "Squalene synthase.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "6d46905201a6",
+    "subject": "Squalene synthase",
+    "predicate": "regulates",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "Because the Mevalonate pathway controls selenocysteine tRNA maturation (affecting GPX4) and Coenzyme Q10 synthesis (used by FSP1), perturbations at the Squalene synthase node can indirectly shift Ferroptosis thresholds. Inhibition that diverts flux away from sterols changes the cellular antioxidant landscape, making squalene synthase modulation a plausible — though preclinical — ferroptosis sensitizer in cancer.",
+      "zh-TW": "由於 Mevalonate pathway 掌控 selenocysteine tRNA 成熟（影響 GPX4）與 Coenzyme Q10 合成（供 FSP1 使用），Squalene synthase 節點的擾動可間接移動 Ferroptosis 閾值。將通量從類固醇 diverted 的抑制作用會改變細胞抗氧化環境，使 squalene synthase 調節成為癌症中可能的（但仍屬臨床前）ferroptosis 致敏策略。"
+    },
+    "confidence": 0.8,
+    "source_document": "Squalene synthase.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "9274c2d178f7",
+    "subject": "Squalene synthase",
+    "predicate": "produces",
+    "object": "Cholesterol",
+    "context": {
+      "en-US": "Squalene synthase condenses farnesyl diphosphate to squalene, the precursor to lanosterol and ultimately Cholesterol, and is required for downstream steroid and hormone biosynthesis. It is also the target of cholesterol-lowering squalene synthase inhibitors such as lapaquistat, developed for dyslipidemia.",
+      "zh-TW": "Squalene synthase 將 farnesyl diphosphate 縮合為 squalene，而 squalene 是 lanosterol 乃至最終 Cholesterol 的前驅物；它也是下游類固醇與激素生合成所必需。此酵素同時是 lapaquistat 等降膽固醇 squalene synthase 抑制劑的標的，該類藥物為高膽固醇血症而開發。"
+    },
+    "confidence": 0.9,
+    "source_document": "Squalene synthase.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "a6fbdbb4d7bd",
+    "subject": "Src",
+    "predicate": "phosphorylates",
+    "object": "Caspase-8",
+    "context": {
+      "en-US": "Src is the primary kinase that phosphorylates Caspase-8 at Tyr380 (Tyr397/Tyr465 depending on isoform), together with related SFKs such as Lyn. This phosphorylation blocks proteolytic cleavage and maturation of Caspase-8, shutting down the extrinsic apoptotic pathway and converting Caspase-8 into a scaffolding protein that recruits FAK, calpain-2 and PI3K to drive migration and survival signalling.",
+      "zh-TW": "Src 是磷酸化 Caspase-8 於 Tyr380（依 isoform 為 Tyr397/Tyr465）的主要激酶，Lyn 等相關 SFK 亦同。此磷酸化阻斷 Caspase-8 的蛋白水解切割與成熟，關閉外在凋亡路徑，並將 Caspase-8 轉為支架蛋白，招募 FAK、calpain-2 與 PI3K 以驅動遷移與存活訊息。"
+    },
+    "confidence": 0.95,
+    "source_document": "Src.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "1e3ae38757bc",
+    "subject": "Src",
+    "predicate": "inhibits",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "By phosphorylating Caspase-8 at Tyr380, Src acts as a gain-of-function switch that removes the cell's apoptotic sensitivity: the cell loses the ability to execute the extrinsic apoptotic pathway while gaining pro-migratory and pro-survival capacity. This is a significant mechanism of tumour progression in colon cancer, glioblastoma and breast cancer.",
+      "zh-TW": "藉由磷酸化 Caspase-8 的 Tyr380，Src 成為一種功能獲得性開關，剝除細胞的凋亡敏感性：細胞失去執行外在凋亡路徑的能力，卻獲得促遷移與促存活的能力。這是結腸癌、glioblastoma 與乳癌中腫瘤進展的重要機制。"
+    },
+    "confidence": 0.9,
+    "source_document": "Src.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "b2e28ae86a93",
+    "subject": "Src",
+    "predicate": "activates",
+    "object": "ERK2",
+    "context": {
+      "en-US": "Src activates the RAS/ERK2 and PI3K/Akt proliferative and survival pathways to drive growth. It also phosphorylates FAK and paxillin to promote focal adhesion turnover and cell motility. In its inactive conformation Src is autoinhibited by an SH2-domain interaction with the C-terminal phosphotyrosine Tyr527; activation requires dephosphorylation of Tyr527 or SH3 domain displacement.",
+      "zh-TW": "Src 啟動 RAS/ERK2 與 PI3K/Akt 的增殖與存活路徑以驅動生長，並磷酸化 FAK 與 paxillin 以促進焦點黏附周轉與細胞運動。在不活化構形中，Src 由 SH2 區域與 C 端磷酸化酪胺酸 Tyr527 的分子內交互作用維持自體抑制；活化需 Tyr527 去磷酸化或 SH3 區域位移。"
+    },
+    "confidence": 0.9,
+    "source_document": "Src.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "4df3b67d410a",
+    "subject": "Dasatinib",
+    "predicate": "targets",
+    "object": "Src",
+    "context": {
+      "en-US": "Dasatinib and bosutinib are FDA-approved Src/ABL kinase inhibitors used in chronic myeloid leukaemia and being investigated in solid tumours. By blocking Src's kinase activity they remove the phosphorylative drive on Caspase-8 and FAK, reversing the apoptotic-resistance and migratory signalling that activated Src imposes on tumour cells.",
+      "zh-TW": "Dasatinib 與 bosutinib 是 FDA 核准的 Src/ABL 激酶抑制劑，用於 chronic myeloid leukaemia，並在實體腫瘤中進行研究。藉由阻斷 Src 的激酶活性，它們移除 Src 對 Caspase-8 與 FAK 的磷酸化驅動力，逆轉活化 Src 施加於腫瘤細胞的凋亡抗性與遷移訊息。"
+    },
+    "confidence": 0.9,
+    "source_document": "Src.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "59b235ef878f",
+    "subject": "Statins",
+    "predicate": "inhibits",
+    "object": "NADPH Oxidase",
+    "context": {
+      "en-US": "By blocking the mevalonate pathway, statins reduce the isoprenoid intermediates needed to prenylate Rac1, which lowers NADPH Oxidase activity and superoxide production. This is one route by which Statins exert antioxidant effects beyond cholesterol lowering; some statins such as atorvastatin also directly inhibit Xanthine Oxidase and activate NRF2/ARE signalling.",
+      "zh-TW": "藉阻斷 Mevalonate pathway，statins 減少了 Rac1 進行 post-translational prenylation 所需的異戊二烯中間體，因而降低 NADPH Oxidase 活性與 superoxide 生成。這是 Statins 在降膽固醇之外產生抗氧化作用的途徑之一；部分 statins 如 atorvastatin 亦直接抑制 Xanthine Oxidase 並活化 NRF2/ARE 訊息。"
+    },
+    "confidence": 0.9,
+    "source_document": "Statins.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "509407eb3b32",
+    "subject": "Statins",
+    "predicate": "upregulates",
+    "object": "eNOS",
+    "context": {
+      "en-US": "Statins upregulate eNOS expression and activity directly, by prolonging eNOS mRNA half-life, thereby improving NO bioavailability. Combined with reduced LDL oxidation and oxLDL levels, this endothelial protection contributes to clinical benefit beyond cholesterol reduction alone.",
+      "zh-TW": "Statins 藉由延長 eNOS mRNA 半衰期直接上調 eNOS 的表現與活性，進而改善 NO 的生物可利用性。搭配減少 LDL 氧化與 oxLDL 濃度，這種內皮保護作用使臨床效益超越單純的膽固醇降低。"
+    },
+    "confidence": 0.9,
+    "source_document": "Statins.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "94916648ca5a",
+    "subject": "Statins",
+    "predicate": "reduces",
+    "object": "Coenzyme Q10",
+    "context": {
+      "en-US": "Because HMG-CoA reductase is also required for Coenzyme Q10 biosynthesis, Statins deplete endogenous Coenzyme Q10 levels. This mitochondrial cofactor loss is a leading mechanistic candidate for statin-associated muscle symptoms, and it is the clearest trade-off produced by the single enzymatic block that gives Statins their lipid-lowering efficacy.",
+      "zh-TW": "由於 HMG-CoA reductase 同時也是 Coenzyme Q10 生合成所需，Statins 會耗竭內源性 Coenzyme Q10 水平。此粒線體輔因子的流失是 statin 相關肌肉症狀的主要機制候選者，也是賦予 Statins 降脂效力的單一酵素阻斷所造成的最明確代價。"
+    },
+    "confidence": 0.9,
+    "source_document": "Statins.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "83014b5ee93f",
+    "subject": "Stomatitis",
+    "predicate": "is_induced_by",
+    "object": "mTOR",
+    "context": {
+      "en-US": "Stomatitis is a characteristic, often dose-limiting adverse event of mTOR inhibitor therapy, and therefore an mTORC1-dependent class effect shared by Rapamycin and rapalogs alike. This makes oral and gastrointestinal mucosal ulceration one of the main practical brakes on escalating mTOR inhibition for anti-aging purposes.",
+      "zh-TW": "Stomatitis 是 mTOR 抑制劑療法具代表性且常為劑量限制性的不良事件，因此屬於 Rapamycin 與 rapalogs 共同具備的 mTORC1 相關類效應。這使口腔與胃腸道黏膜潰瘍成為提升 mTOR 抑制強度以用於抗老化時，主要的實務限制。"
+    },
+    "confidence": 0.85,
+    "source_document": "Stomatitis.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "79d709d3c67e",
+    "subject": "Stress Granules",
+    "predicate": "sequesters",
+    "object": "RNA-Binding Proteins",
+    "context": {
+      "en-US": "Stress Granules are membraneless ribonucleoprotein condensates assembled by liquid-liquid phase separation and commonly marked by G3BP1. They transiently concentrate and immobilize RNA-Binding Proteins to halt translation and protect the transcriptome during oxidative stress, heat shock or viral infection, then dissolve once the stress resolves.",
+      "zh-TW": "Stress Granules 是由 liquid-liquid phase separation 組裝的無膜核糖核蛋白凝聚體，通常以 G3BP1 為標記。它們在 oxidative stress、熱休克或病毒感染期間暫時性濃縮並固定 RNA-Binding Proteins，以停止轉譯並保護轉錄組，待壓力解除後即溶解。"
+    },
+    "confidence": 0.9,
+    "source_document": "Stress Granules.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "0dc02118b08b",
+    "subject": "Stress Granules",
+    "predicate": "sequesters",
+    "object": "TDP-43",
+    "context": {
+      "en-US": "Aberrant or persistent Stress Granules trap TDP-43 and other RNA-binding proteins, promoting their aggregation and depleting them from the nucleus — a hallmark of amyotrophic lateral sclerosis and frontotemporal dementia. This sequestration disrupts RNA processing, contributes to neuroinflammation and increases neuronal vulnerability in neurodegenerative disease.",
+      "zh-TW": "異常或持續存在的 Stress Granules 會困住 TDP-43 及其他 RNA-binding protein，促進其聚集並使其在細胞核中耗竭——這是肌萎縮側索硬化症與額顳葉失智症的特徵。此隔離作用破壞 RNA 加工、促成 neuroinflammation，並在 neurodegenerative disease 中加劇神經元脆弱性。"
+    },
+    "confidence": 0.9,
+    "source_document": "Stress Granules.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "f810ed4b0409",
+    "subject": "Stress Granules",
+    "predicate": "is_associated_with",
+    "object": "cGAS",
+    "context": {
+      "en-US": "G3BP1, the core stress-granule component and an RNA-binding protein, directly binds the cGAS intrinsically disordered region, priming cGAS for DNA binding, and is a recurrent cGAS interactor in cGAS interactome studies. This implies that RNA metabolism and DNA sensing converge at phase-separated assemblies, so stress-granule dynamics may modulate cGAS-STING Pathway innate immune activation.",
+      "zh-TW": "G3BP1 是 stress granule 的核心組分且為 RNA-binding protein，它直接結合 cGAS 的 intrinsically disordered region，使 cGAS 預備好進行 DNA 結合，並在 cGAS 互作組研究中反覆出現為 cGAS 交互作用夥伴。這意味著 RNA 代謝與 DNA 感測在相分離的組裝體上交會，因此 stress granule 動態可能調節 cGAS-STING Pathway 的先天免疫活化。"
+    },
+    "confidence": 0.85,
+    "source_document": "Stress Granules.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "0435dcce0b6e",
+    "subject": "Stress-Induced Senescence",
+    "predicate": "is_a_type_of",
+    "object": "Senescence",
+    "context": {
+      "en-US": "Stress-Induced Senescence is a form of Senescence triggered by acute cellular stressors rather than replicative exhaustion. Inducers include genotoxic agents, oxidative stress, oncogene activation, mitochondrial dysfunction (MiDAS), epigenetic disruption and proteotoxic stress, and it engages the p53-p21 and p16-RB tumour suppressor pathways to produce stable cell cycle arrest and SASP activation.",
+      "zh-TW": "Stress-Induced Senescence 是由急性細胞壓力而非複製性耗竭觸發的 Senescence 形式。誘發因子包含 genotoxic agent、oxidative stress、oncogene 活化、mitochondrial dysfunction（MiDAS）、epigenetic 失調與 proteotoxic stress，並啟動 p53-p21 與 p16-RB 腫瘤抑制路徑以造成穩定的細胞週期停滯與 SASP 活化。"
+    },
+    "confidence": 0.95,
+    "source_document": "Stress-Induced Senescence.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "6a86266af1f7",
+    "subject": "Mitochondrial Dysfunction",
+    "predicate": "triggers",
+    "object": "Stress-Induced Senescence",
+    "context": {
+      "en-US": "Mitochondrial dysfunction is a distinct inducer of Stress-Induced Senescence in the form of mitochondrial dysfunction-associated senescence (MiDAS). In neurodegenerative contexts this route links bioenergetic failure to stable cell cycle arrest and SASP secretion, bridging mitochondrial decline and the chronic inflammation of neurodegeneration.",
+      "zh-TW": "Mitochondrial dysfunction 是 Stress-Induced Senescence 的一項獨立誘發因子，表現為 mitochondrial dysfunction-associated senescence（MiDAS）。在神經退行性情境中，此途徑將生物能量失能連結到穩定的細胞週期停滯與 SASP 分泌，銜接粒線體衰退與 neurodegeneration 的慢性發炎。"
+    },
+    "confidence": 0.9,
+    "source_document": "Stress-Induced Senescence.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "8d94e0e32203",
+    "subject": "Oxidative Stress",
+    "predicate": "triggers",
+    "object": "Stress-Induced Senescence",
+    "context": {
+      "en-US": "Oxidative Stress is one of the most common acute inducers of Stress-Induced Senescence, alongside genotoxic agents such as radiation and chemotherapy. Because the resulting arrest is driven by the p53-p21 and p16-RB tumour suppressor pathways, oxidant exposure can impose senescence on cells well before they have exhausted their replicative potential.",
+      "zh-TW": "Oxidative Stress 是 Stress-Induced Senescence 最常見的急性誘發因子之一，與輻射、化學治療等 genotoxic agent 並列。由於所產生的停滯由 p53-p21 與 p16-RB 腫瘤抑制路徑驅動，氧化壓力可在細胞耗盡複製潛能之前很久就使其陷入 senescence。"
+    },
+    "confidence": 0.9,
+    "source_document": "Stress-Induced Senescence.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "c0eb192c13c1",
+    "subject": "Substantia Nigra",
+    "predicate": "is_a_component_of",
+    "object": "Basal Ganglia",
+    "context": {
+      "en-US": "The Substantia Nigra is a critical Basal Ganglia structure located in the midbrain, Latin for 'black substance' after the dark colour provided by high Neuromelanin concentrations in its neurons. It divides into the Substantia Nigra Pars Compacta, rich in dopaminergic neurons and projecting onward to the striatum, and the Substantia Nigra Pars Reticulata, composed mainly of GABAergic neurons and serving as a primary Basal Ganglia output nucleus.",
+      "zh-TW": "Substantia Nigra 是位於 midbrain 的關鍵 Basal Ganglia 結構，其拉丁名「black substance」源自其神經元中高濃度 Neuromelanin 所賦予的深色。它分為富含 dopaminergic neuron、並進一步投射至 striatum 的 Substantia Nigra Pars Compacta，以及主要由 GABAergic neuron 組成、作為 Basal Ganglia 主要輸出核的 Substantia Nigra Pars Reticulata。"
+    },
+    "confidence": 0.6,
+    "source_document": "Substantia Nigra.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "a208c571896a",
+    "subject": "Substantia Nigra Pars Compacta",
+    "predicate": "projects_to",
+    "object": "Nigrostriatal System",
+    "context": {
+      "en-US": "Substantia Nigra Pars Compacta contains a high density of dopaminergic neurons whose axons travel via the Nigrostriatal System to the striatum. Progressive loss of these neurons is the hallmark of Parkinson's Disease, with tremor and Bradykinesia emerging only once a significant fraction of the population has degenerated.",
+      "zh-TW": "Substantia Nigra Pars Compacta 含有高密度的 dopaminergic neuron，其軸突經由 Nigrostriatal System 投射至 striatum。這些神經元的漸進性喪失是 Parkinson's Disease 的標誌病變，且 tremor 與 Bradykinesia 要在相當比例的族群已退化後才會出現。"
+    },
+    "confidence": 0.9,
+    "source_document": "Substantia Nigra.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "f9c4abc4870d",
+    "subject": "Substantia Nigra",
+    "predicate": "is_associated_with",
+    "object": "Parkinson's Disease",
+    "context": {
+      "en-US": "Parkinson's Disease is defined pathologically by the progressive loss of dopaminergic neurons in the Substantia Nigra Pars Compacta. The structure also participates in the Neuromelanin pathway, where Adrenochrome and other Aminochromes serve as intermediates of pigment synthesis, and neurons of the Substantia Nigra can express COMT, which influences presynaptic dopamine regulation and release capacity in the striatum.",
+      "zh-TW": "Parkinson's Disease 在病理上由 Substantia Nigra Pars Compacta 中 dopaminergic neuron 的漸進性喪失所定義。此結構亦參與 Neuromelanin 路徑，其中 Adrenochrome 與其他 Aminochrome 為色素合成的中間物；Substantia Nigra 的神經元可表現 COMT，影響 striatum 中突觸前 dopamine 的調節與釋放能力。"
+    },
+    "confidence": 0.9,
+    "source_document": "Substantia Nigra.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "debb794ed0d3",
+    "subject": "Sulforaphane",
+    "predicate": "inhibits",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "Sulforaphane suppresses NF-κB activation by inhibiting IKKβ phosphorylation and p65 nuclear translocation, so it dampens inflammatory signalling alongside its NRF2-mediated antioxidant effects. It is additionally a weak HDAC inhibitor that raises histone acetylation and tumour suppressor gene expression, and it activates AMPK to promote mitochondrial biogenesis and autophagy.",
+      "zh-TW": "Sulforaphane 藉由抑制 IKKβ 磷酸化與 p65 核轉位來抑制 NF-κB 活化，因此在其 NRF2 介導的抗氧化作用之外還能減弱發炎訊息傳遞。它同時是弱效 HDAC 抑制劑，可提升 histone acetylation 與腫瘤抑制基因表現，並活化 AMPK 以促進 mitochondrial biogenesis 與 autophagy。"
+    },
+    "confidence": 0.9,
+    "source_document": "Sulforaphane.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "4ee049b99e82",
+    "subject": "Sulforaphane",
+    "predicate": "protects_against",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "Through NRF2, Sulforaphane upregulates GPx4 and ferritin, raising the cell's iron-dependent lipid antioxidant capacity and protecting against Ferroptosis. Because GPx4 is the key terminal reductant of ferroptotic lipid peroxidation, this NRF2-dependent induction links dietary Sulforaphane to the same ferroptosis set-point that Coenzyme Q10/FSP1 and GSH/GPX4 systems govern.",
+      "zh-TW": "透過 NRF2，Sulforaphane 上調 GPx4 與 ferritin，提升細胞的鐵依賴性脂質抗氧化能力並防護 Ferroptosis。由於 GPx4 是 ferroptotic lipid peroxidation 的關鍵末端還原劑，此 NRF2 相依賴的誘導將飲食性 Sulforaphane 連結到與 Coenzyme Q10/FSP1 及 GSH/GPX4 系統所管控的同一 ferroptosis 設定點。"
+    },
+    "confidence": 0.9,
+    "source_document": "Sulforaphane.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "fda81f095246",
+    "subject": "Sunitinib",
+    "predicate": "inhibits",
+    "object": "VEGFR",
+    "context": {
+      "en-US": "Sunitinib is a multi-targeted receptor tyrosine-kinase inhibitor of VEGFR, PDGFR and c-KIT, approved for renal cell carcinoma, GIST and pancreatic neuroendocrine tumours. As a representative VEGFR-targeted antiangiogenic TKI it is cited alongside Pazopanib, blocking the VEGF signalling that tumour endothelium depends on for growth.",
+      "zh-TW": "Sunitinib 是 VEGFR、PDGFR 與 c-KIT 的多標靶受體酪胺酸激酶抑制劑，已核准用於 renal cell carcinoma、GIST 與 pancreatic neuroendocrine tumour。作為具代表性的 VEGFR 標靶抗血管生成 TKI，它與 Pazopanib 並列被引用，藉阻斷腫瘤內皮生長所依賴的 VEGF 訊息而作用。"
+    },
+    "confidence": 0.95,
+    "source_document": "Sunitinib.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "e8227e0f3924",
+    "subject": "Sunitinib",
+    "predicate": "targets",
+    "object": "PDGFR",
+    "context": {
+      "en-US": "Alongside VEGFR and c-KIT, Sunitinib targets PDGFR as part of its multi-kinase profile. This breadth is what distinguishes it from single-target agents and underlies its use in GIST, where the driving mutation (typically KIT or PDGFRA) varies between tumours and a single-receptor inhibitor would leave many patients untreated.",
+      "zh-TW": "與 VEGFR 和 c-KIT 並列，Sunitinib 將 PDGFR 納入其多激酶標靶範圍。這種廣度正是它有別於單標靶藥物的特徵，也支撐其在 GIST 的用途——GIST 的驅動突變（通常為 KIT 或 PDGFRA）在腫瘤間各異，單一受體抑制劑將讓許多患者無藥可治。"
+    },
+    "confidence": 0.9,
+    "source_document": "Sunitinib.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "4e08a1c7bad9",
+    "subject": "Superoxide Dismutase",
+    "predicate": "converts_to",
+    "object": "Hydrogen Peroxide",
+    "context": {
+      "en-US": "Superoxide Dismutase catalyses the dismutation of the superoxide radical (O2•−) into ordinary molecular oxygen (O2) and Hydrogen Peroxide (H2O2). As a core enzymatic component of the antioxidant defence system, it protects cells from ROS-induced damage by clearing superoxide before it can oxidise other substrates.",
+      "zh-TW": "Superoxide Dismutase 催化 superoxide radical（O2•−）的歧化反應，生成一般分子氧（O2）與 Hydrogen Peroxide（H2O2）。作為抗氧化防禦系統的核心酵素組分，它在 superoxide 能氧化其他受質之前將其清除，藉此保護細胞免受 ROS 造成的損傷。"
+    },
+    "confidence": 0.95,
+    "source_document": "Superoxide Dismutase.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "8e614837c3d9",
+    "subject": "Superoxide Dismutase",
+    "predicate": "prevents",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "By destroying superoxide anions before they can oxidise Epinephrine, Superoxide Dismutase prevents the 'side pathway' that leads to Adrenochrome formation. Positioning the enzyme upstream of this quinone route is what links SOD activity to protection from quinone-driven neuronal toxicity.",
+      "zh-TW": "藉由在 superoxide anion 氧化 Epinephrine 之前將其摧毀，Superoxide Dismutase 阻斷了通往 Adrenochrome 形成的「side pathway」。將此酵素定位在該 quinone 路徑上游，正是把 SOD 活性與對 quinone 驅動之神經毒性的防護連結起來的機制。"
+    },
+    "confidence": 0.9,
+    "source_document": "Superoxide Dismutase.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "c6aa2dd7d377",
+    "subject": "Suramin",
+    "predicate": "inhibits",
+    "object": "SIRT1",
+    "context": {
+      "en-US": "Suramin is a potent multi-target sirtuin inhibitor: its highly charged sulfonic acid groups bind the basic sirtuin channels and competitively interfere with binding of both the NAD+ co-substrate and the peptide substrate, locking the enzyme inactive. Potency is SIRT1 IC50 = 297 nM, SIRT2 IC50 = 1150 nM and SIRT5 IC50 = 22 µM, giving broad antiviral and cytostatic anticancer activity against sirtuin-supported tumour cell survival.",
+      "zh-TW": "Suramin 是效價強的多標靶 sirtuin 抑制劑：其帶多個電荷的 sulfonic acid 群與 sirtuin 的鹼性通道結合，並競爭性干擾 NAD+ 輔基受質與胜肽受質的結合，將酵素鎖定於不活化狀態。效價為 SIRT1 IC50 = 297 nM、SIRT2 IC50 = 1150 nM、SIRT5 IC50 = 22 µM，對仰賴 sirtuin 存活的腫瘤細胞具有廣效抗病毒與細胞靜止抗腫瘤活性。"
+    },
+    "confidence": 0.9,
+    "source_document": "Suramin.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "7255b413589f",
+    "subject": "Suramin",
+    "predicate": "treats",
+    "object": "Onchocerciasis",
+    "context": {
+      "en-US": "Suramin was standard-of-care for trypanosomiasis and river blindness (Onchocerciasis) and, in 1975, one of only two available drugs alongside Diethylcarbamazine — both used highly satisfactorily. It was superseded by Ivermectin, but its history marks the pre-ivermectin era of antiparasitic therapy.",
+      "zh-TW": "Suramin 曾是 trypanosomiasis 與 river blindness（Onchocerciasis）的標準治療，並且在 1975 年是僅有的兩種可用藥物之一，另一種為 Diethylcarbamazine——兩者使用滿意度都很低。它後來被 Ivermectin 取代，但其歷史標記了驅蟲治療在 ivermectin 之前的時代。"
+    },
+    "confidence": 0.9,
+    "source_document": "Suramin.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "4d374fa7e295",
+    "subject": "Suramin",
+    "predicate": "inhibits",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "In spinal models Suramin protects against intervertebral disc degeneration by directly inhibiting the inflammatory NF-κB signalling pathway. Separately, it perturbs mitochondrial membrane potential and significantly reduces ATP in rapidly dividing leukaemia and solid tumour cells, suppressing their bioenergetic survival independently of its sirtuin effect.",
+      "zh-TW": "在脊椎模型中，Suramin 藉由直接抑制發炎性 NF-κB 訊息傳遞路徑而防護椎間盤退化。另在機制上獨立於其 sirtuin 作用，它擾動粒線體膜電位並顯著降低快速分裂的 leukemia 與實體腫瘤細胞之 ATP，抑制其生物能量存活。"
+    },
+    "confidence": 0.9,
+    "source_document": "Suramin.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "7962600a60c7",
+    "subject": "Synaptophysin",
+    "predicate": "is_a_component_of",
+    "object": "Synapse",
+    "context": {
+      "en-US": "Synaptophysin (SYP) is a 38 kDa transmembrane glycoprotein of synaptic vesicles and among the most abundant proteins of the presynaptic terminal. It forms a channel-like complex with other vesicular proteins and participates in synaptic vesicle biogenesis, trafficking, exocytosis and membrane fusion during neurotransmitter release, making it a structural component of Synapse.",
+      "zh-TW": "Synaptophysin（SYP）是突觸小泡的 38 kDa 跨膜醣蛋白，也是突觸前末端最豐富的蛋白質之一。它與其他囊泡蛋白形成通道狀複合體，參與突觸小泡生成、運輸、exocytosis 與神經傳遞物質釋放時的膜融合，因此是 Synapse 的結構組分。"
+    },
+    "confidence": 0.9,
+    "source_document": "Synaptophysin.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "cabdcc9a368a",
+    "subject": "Synaptophysin",
+    "predicate": "is_expressed_in",
+    "object": "Neuron",
+    "context": {
+      "en-US": "Synaptophysin is expressed in neuronal presynaptic terminals and is used as a pan-neuronal presynaptic immunohistochemical marker of synaptic density and connectivity, colocalising with MAP2 dendritic markers. Because reduced Synaptophysin indicates synaptic loss, it serves as a synaptic-integrity endpoint for comparing neurotoxicity against synaptic protection in ageing and neurodegenerative disease.",
+      "zh-TW": "Synaptophysin 表現於神經元突觸前末端，被用作突觸密度與連結性的泛神經元突觸前免疫組織化學標記，並與 MAP2 樹突標記共定位。由於 Synaptophysin 下降代表突觸喪失，它可作為比較神經毒性與突觸保護的突觸完整性終點指標，用於 ageing 與 neurodegenerative disease。"
+    },
+    "confidence": 0.9,
+    "source_document": "Synaptophysin.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "6893289ef6e4",
+    "subject": "Sympathetic Nervous System",
+    "predicate": "lowers",
+    "object": "Heart Rate Variability",
+    "context": {
+      "en-US": "The Sympathetic Nervous System releases Epinephrine and Norepinephrine from the adrenal medulla and postganglionic terminals, alongside Cortisol from the adrenal cortex, to mobilise the body for action. Its cardiovascular signature is increased heart rate and rhythmicity, which lowers Heart Rate Variability — making HRV the readout by which sympathetic tone is tracked during stress and recovery.",
+      "zh-TW": "Sympathetic Nervous System 由腎上腺髓質與節後神經末梢釋放 Epinephrine 與 Norepinephrine，並連同腎上腺皮質的 Cortisol，使身體動員備戰。其心血管特徵是心率與規律性上升，因而降低 Heart Rate Variability——這使 HRV 成為追蹤壓力與恢復期間交感張力的讀值。"
+    },
+    "confidence": 0.95,
+    "source_document": "Sympathetic Nervous System.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "f68f502c40c7",
+    "subject": "Sympathetic Nervous System",
+    "predicate": "is_a_component_of",
+    "object": "Autonomic Nervous System",
+    "context": {
+      "en-US": "The Sympathetic Nervous System is the 'fight, flight, or freeze' branch of the Autonomic Nervous System, opposed by the Parasympathetic Nervous System. Acute engagement is the intended response to mitohormetic stressors such as HIIT, cold exposure, fasting and heat, and the stressor is only adaptive if the parasympathetic branch subsequently rebounds.",
+      "zh-TW": "Sympathetic Nervous System 是 Autonomic Nervous System 中「fight, flight, or freeze」的分支，與 Parasympathetic Nervous System 相對抗。急性啟動是對 HIIT、寒冷暴露、斷食與熱等 mitohormetic 壓力源的預期反應，而只有當副交感分支隨後回彈時，該壓力源才具適應性。"
+    },
+    "confidence": 0.9,
+    "source_document": "Sympathetic Nervous System.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "340be09933b9",
+    "subject": "Sympathetic Nervous System",
+    "predicate": "impairs",
+    "object": "Mitohormesis",
+    "context": {
+      "en-US": "When Sympathetic Nervous System activation is sustained — concurrent severe caloric restriction, daily high-intensity training and sleep loss — HRV stays suppressed, mitochondrial biogenesis stalls and Mitophagy is impaired, so Mitohormesis degrades into mitochondrial dysfunction and inflammation. Sustained sympathetic tone is therefore what converts a hormetic stressor from adaptive signal into chronic damage.",
+      "zh-TW": "當 Sympathetic Nervous System 持續活化——同時合併嚴重熱量限制、每日高強度訓練與睡眠剝奪——HRV 持續受抑制，mitochondrial biogenesis 停滯，Mitophagy 受損，於是 Mitohormesis 退化为 mitochondrial dysfunction 與 inflammation。因此持續的交感張力正是把 hormetic 壓力源由適應訊號轉為慢性損傷的因素。"
+    },
+    "confidence": 0.9,
+    "source_document": "Sympathetic Nervous System.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "5a45e742a2d3",
+    "subject": "Striatum",
+    "predicate": "is_a_component_of",
+    "object": "Basal Ganglia",
+    "context": {
+      "en-US": "The Striatum (neostriatum or caudate-putamen) is a subcortical forebrain structure and the primary input nucleus of the Basal Ganglia, receiving dense glutamatergic projections from cortex and thalamus plus dopaminergic input from the midbrain. It is subdivided into the dorsal striatum (Caudate Nucleus and Putamen, motor control and habit learning) and the ventral striatum (Nucleus Accumbens and olfactory tubercle, reward and addiction).",
+      "zh-TW": "Striatum（neostriatum 或 caudate-putamen）是皮質下前腦結構，也是 Basal Ganglia 的主要輸入核，接收來自皮質與 thalamus 的密集 glutamatergic 投射，以及來自 midbrain 的 dopaminergic 輸入。它分為 dorsal striatum（Caudate Nucleus 與 Putamen，負責運動控制與習慣學習）與 ventral striatum（Nucleus Accumbens 與嗅結核，負責獎賞與成癮）。"
+    },
+    "confidence": 0.95,
+    "source_document": "Striatum.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "705ba91b35dc",
+    "subject": "Striatum",
+    "predicate": "receives_input_from",
+    "object": "Substantia Nigra Pars Compacta",
+    "context": {
+      "en-US": "The Striatum receives dopaminergic input from the Substantia Nigra Pars Compacta via the Nigrostriatal System, and degeneration of this pathway is the central pathological event in Parkinson's Disease — dopamine depletion in the putamen produces bradykinesia, rigidity and tremor. The Striatum also receives Prefrontal Cortex input forming cortico-basal ganglia loops essential for executive control.",
+      "zh-TW": "Striatum 經由 Nigrostriatal System 接收來自 Substantia Nigra Pars Compacta 的 dopaminergic 輸入，而此路徑的退化正是 Parkinson's Disease 的核心病理事件——putamen 的 dopamine 耗竭造成 bradykinesia、rigidity 與 tremor。Striatum 亦接收 Prefrontal Cortex 輸入，形成執行控制所必需的皮質-basal ganglia 迴路。"
+    },
+    "confidence": 0.95,
+    "source_document": "Striatum.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "e5a3a56ff05a",
+    "subject": "Medium spiny neurons",
+    "predicate": "comprise",
+    "object": "Striatum",
+    "context": {
+      "en-US": "Medium spiny neurons (MSNs) are ~95% of Striatum neurons. These GABAergic projection neurons express either D1 receptor or D2 receptor, forming the direct and indirect basal ganglia pathways respectively, and their selective degeneration in the caudate nucleus underlies Huntington's Disease.",
+      "zh-TW": "Medium spiny neuron（MSN）約佔 Striatum 神經元的 95%。這些 GABAergic projection neuron 分別表現 D1 receptor 或 D2 receptor，構成 basal ganglia 的直接與間接路徑，而其在 caudate nucleus 的選擇性退化正是 Huntington's Disease 的基礎。"
+    },
+    "confidence": 0.9,
+    "source_document": "Striatum.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "2182c5c59fa7",
+    "subject": "Stroke",
+    "predicate": "involves",
+    "object": "Ischemia-reperfusion Injury",
+    "context": {
+      "en-US": "Stroke is a medical emergency caused by interruption of blood supply to the brain, with ~87% of cases ischemic from thrombus or embolus. Its pathophysiology runs through the Ischemia-reperfusion Injury cascade, in which Oxidative Stress, Inflammation, Excitotoxicity and Apoptosis act together to produce tissue damage and neurological deficits.",
+      "zh-TW": "Stroke 是腦部血流中斷所造成的醫療急症，約 87% 屬血栓或栓塞造成的 ischemic stroke。其病理生理經由 Ischemia-reperfusion Injury 級聯反應，過程中 Oxidative Stress、Inflammation、Excitotoxicity 與 Apoptosis 共同作用，造成組織損傷與神經功能缺損。"
+    },
+    "confidence": 0.9,
+    "source_document": "Stroke.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "12f674ac84bb",
+    "subject": "SIRT1",
+    "predicate": "protects_against",
+    "object": "Stroke",
+    "context": {
+      "en-US": "SIRT1 is neuroprotective in cerebral ischemia-reperfusion and Stroke via oxidative, inflammatory, autophagy and apoptotic pathways. NAMPT promotes neuronal survival in a SIRT1-dependent manner, and SIRT1 deacetylates the RNA-binding protein quaking 6, activating PGC-1α through PPAR-γ and inhibiting neuronal apoptosis.",
+      "zh-TW": "SIRT1 在腦部缺血再灌注與 Stroke 中經由 oxidative、inflammatory、autophagy 與 apoptotic 路徑發揮神經保護作用。NAMPT 以 SIRT1 相依賴的方式促進神經元存活，而 SIRT1 去乙醯化 RNA-binding protein quaking 6，經 PPAR-γ 活化 PGC-1α 並抑制神經元 apoptosis。"
+    },
+    "confidence": 0.9,
+    "source_document": "Stroke.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "3bdb2614c392",
+    "subject": "SIRT3",
+    "predicate": "protects_against",
+    "object": "Stroke",
+    "context": {
+      "en-US": "SIRT3 is a prosurvival factor protecting against excitotoxic injury and is protective in ischemic stroke via HIF-1α/VEGF signalling in astrocytes. It is downregulated in cerebral ischemia-reperfusion injury, so enhancing SIRT3 alongside Wnt/β-catenin activation are proposed therapeutic targets for reducing infarct damage.",
+      "zh-TW": "SIRT3 是對抗 excitotoxic injury 的促存活因子，並透過星狀膠細胞中的 HIF-1α/VEGF 訊息在 ischemic stroke 中具保護作用。它在腦部缺血再灌注損傷中被下調，因此提升 SIRT3 搭配 Wnt/β-catenin 活化被提出作為減少梗塞損傷的治療標的。"
+    },
+    "confidence": 0.9,
+    "source_document": "Stroke.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "3ff83fe55e1a",
+    "subject": "SIRT5",
+    "predicate": "increases_susceptibility_to",
+    "object": "Stroke",
+    "context": {
+      "en-US": "Unlike prosurvival SIRT3, SIRT5 mediates ischemia-reperfusion-induced brain damage by increasing blood-brain barrier permeability through occludin degradation. Serum SIRT2 is likewise increased in acute ischemic stroke patients, where it serves as a marker of risk and prognosis, and SIRT2 inhibition is neuroprotective.",
+      "zh-TW": "與促存活的 SIRT3 不同，SIRT5 透過 occludin 降解提高 blood-brain barrier 通透性，因而介導缺血再灌注引起的腦損傷。血清 SIRT2 在 acute ischemic stroke 患者中同樣升高，作為風險與預後的標記，而抑制 SIRT2 則具神經保護作用。"
+    },
+    "confidence": 0.85,
+    "source_document": "Stroke.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "837a75743a6b",
+    "subject": "Honokiol",
+    "predicate": "reduces",
+    "object": "Stroke",
+    "context": {
+      "en-US": "Honokiol reduces infarct volume by 20–70% in middle cerebral artery occlusion models, whether given before or after ischemia, via antioxidant, anti-neutrophil and anti-NF-κB actions and by disrupting the PSD95–nNOS coupling at the NMDA receptor. These actions place Honokiol among the neuro-modulating candidates for limiting ischemic injury.",
+      "zh-TW": "Honokiol 在 middle cerebral artery occlusion 模型中，無論於缺血前或缺血後給藥，都能將梗塞體積減少 20–70%，機轉包含抗氧化、抗嗜中性球與抗 NF-κB 作用，以及干擾 NMDA receptor 上的 PSD95–nNOS 偶聯。這些作用使 Honokiol 成為限制缺血性損傷的 neuro-modulating 候選藥物之一。"
+    },
+    "confidence": 0.85,
+    "source_document": "Stroke.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "675bf5caedb3",
+    "subject": "Stem Cells",
+    "predicate": "is_inhibited_by",
+    "object": "mTORC1",
+    "context": {
+      "en-US": "Excessive mTORC1 activation impairs proliferation and differentiation of stem cells, promoting their aging and apoptosis. The effect is reversed by Rapamycin, which restores stem cell functionality by activating Autophagy, reducing Inflammation and oxidative stress, and inducing growth factors such as IGF1 and VEGF — improving myogenic/chondrogenic differentiation, mesenchymal function in Klotho-deficient mice, and survival of transplanted stem cells after myocardial infarction.",
+      "zh-TW": "過度 mTORC1 活化會損害 stem cell 的增殖與分化，促進其老化與 apoptosis。此效應可被 Rapamycin 逆轉：Rapamycin 藉活化 Autophagy、降低 Inflammation 與 oxidative stress，並誘導 IGF1、VEGF 等生長因子來恢復幹細胞功能——改善成肌/成軟骨分化、Klotho 缺乏小鼠的間質細胞功能，以及心肌梗塞後移植幹細胞的存活。"
+    },
+    "confidence": 0.9,
+    "source_document": "Stem Cells.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "07e7d2a76b4c",
+    "subject": "Mitochondria",
+    "predicate": "regulates",
+    "object": "Stem Cells",
+    "context": {
+      "en-US": "Mitochondria act as metabolic rheostats determining stem cell fate by integrating bioenergetic, redox and epigenetic cues across the spectrum from deep quiescence to active proliferation and senescence. Quiescent stem cells rely on glycolysis and shift toward OXPHOS on activation; mitochondrial membrane potential stratifies old hematopoietic stem cells into distinct states, and its in vivo potentiation improves engraftment and reverses age-associated myeloid-biased output.",
+      "zh-TW": "Mitochondria 作為代謝恆定器決定 stem cell 命運，藉整合生物能量、氧化還原與表觀遺傳線索，涵蓋從深度靜止到積極增殖與 senescence 的各種狀態。靜止幹細胞依賴 glycolysis，活化時轉向 OXPHOS；粒線體膜電位可將老化 hematopoietic stem cell 分層為功能相異的狀態，其體內藥理強化可改善植入效率並逆轉與年齡相關的髓系偏倚輸出。"
+    },
+    "confidence": 0.9,
+    "source_document": "Stem Cells.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "dc3bae9e30ab",
+    "subject": "NAD+",
+    "predicate": "is_required_for",
+    "object": "Stem Cells",
+    "context": {
+      "en-US": "NAD+ depletion leads to senescence, loss of quiescence and diminished regenerative capacity in aged muscle stem cells, neural stem cells and melanocyte stem cells. Restoring NAD+ with nicotinamide riboside reactivated mitochondrial metabolism and delayed stem cell senescence, establishing NAD+ availability as a limiting factor for stem cell maintenance.",
+      "zh-TW": "NAD+ 耗竭會使老化的 muscle stem cell、neural stem cell 與 melanocyte stem cell 進入 senescence、喪失靜止特性並降低再生能力。以 nicotinamide riboside 補回 NAD+ 可重新活化粒線體代謝並延遲幹細胞 senescence，確立了 NAD+ 可用性是幹細胞維持的限制因子。"
+    },
+    "confidence": 0.9,
+    "source_document": "Stem Cells.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "19ed3b70a7d1",
+    "subject": "Mitophagy",
+    "predicate": "is_required_for",
+    "object": "Stem Cells",
+    "context": {
+      "en-US": "Mitophagy failure in stem cells leads to loss of quiescence, reduced self-renewal and premature functional exhaustion. The Mitochondrial Unfolded Protein Response serves as an adaptive checkpoint in the same axis, where acute activation promotes survival but chronic dysregulation converts to terminal senescence, and Mitochondria-Associated Membranes support mitochondrial remodeling during fate transitions and asymmetric division.",
+      "zh-TW": "幹細胞中的 Mitophagy 失效會導致喪失靜止特性、自我更新能力下降與過早的功能耗竭。同一軸線上的 Mitochondrial Unfolded Protein Response 則作為適應性檢查點：急性活化促進存活，但慢性失調會轉為終末 senescence；而 Mitochondria-Associated Membranes 在命運轉換與不對稱分裂期間支援粒線體重塑。"
+    },
+    "confidence": 0.9,
+    "source_document": "Stem Cells.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "e524392fd1aa",
+    "subject": "Synthetic Lethality",
+    "predicate": "is_exploited_by",
+    "object": "PARP1",
+    "context": {
+      "en-US": "The classical application of Synthetic Lethality is BRCA1/BRCA2 mutation combined with PARP1 inhibition: BRCA-mutant cancers are defective in homologous recombination repair and become dependent on the backup pathway, so PARP inhibitors such as olaparib and niraparib selectively kill them. Normal cells retaining both pathways survive the single inhibition, providing the therapeutic window that makes Synthetic Lethality a cornerstone of precision cancer therapy.",
+      "zh-TW": "Synthetic Lethality 的典型應用是 BRCA1/BRCA2 突變搭配 PARP1 抑制：BRCA 突變癌症的 homologous recombination 修復有缺陷，因而依賴備援路徑，使 olaparib、niraparib 等 PARP 抑制劑能選擇性殺傷它們。同時保有兩條路徑的正常細胞可在單一抑制下存活，這個治療窗使 Synthetic Lethality 成為 precision cancer therapy 的基石。"
+    },
+    "confidence": 0.9,
+    "source_document": "Synthetic Lethality.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "d94857a9e949",
+    "subject": "MYC",
+    "predicate": "creates_synthetic_lethality_with",
+    "object": "Complex I",
+    "context": {
+      "en-US": "MYChigh cancer cells exhibit metabolic dependencies that create synthetic lethal opportunities. Elevated OXPHOS and a glutamine-fueled TCA cycle render them selectively vulnerable to co-inhibition of Complex I and Glutaminolysis: Complex I inhibition depletes NAD+ and collapses the TCA cycle while glutaminase inhibition with CB-839 blocks anaplerotic input, and neither alone kills but the combination suppresses tumour growth in MYChigh triple-negative breast cancer PDX models.",
+      "zh-TW": "MYChigh 癌症細胞表現出可形成 synthetic lethal 機會的代謝依賴性。升高的 OXPHOS 與 glutamine 驅動的 TCA cycle 使它們對 Complex I 與 Glutaminolysis 的共同抑制特別脆弱：Complex I 抑制耗竭 NAD+ 並使 TCA cycle 崩塌，而以 CB-839 抑制 glutaminase 則阻斷 anaplerotic 輸入；單獨任一者不足以殺死細胞，但兩者併用可在 MYChigh triple-negative breast cancer 的 PDX 模型中抑制腫瘤生長。"
+    },
+    "confidence": 0.9,
+    "source_document": "Synthetic Lethality.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "51dff93ff3ff",
+    "subject": "DNA Repair",
+    "predicate": "creates_dependency_for",
+    "object": "Synthetic Lethality",
+    "context": {
+      "en-US": "Cancer cells often acquire mutations that disable one DNA Repair pathway, creating dependence on a backup pathway; inhibiting the backup then selectively kills the cancer cells. Because the strategy depends on identifying the relevant genetic alteration, molecular biomarkers are required to select patients, and normal cells that retain both pathways supply the therapeutic window.",
+      "zh-TW": "癌症細胞常取得使某一 DNA Repair 路徑失能的突變，因而依賴備援路徑；抑制該備援路徑即可選擇性殺死癌細胞。由於此策略仰賴辨識相關基因變異，因此需要分子生物標記來篩選患者，而同時保有兩條路徑的正常細胞則提供治療窗。"
+    },
+    "confidence": 0.85,
+    "source_document": "Synthetic Lethality.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "4730b690b0fa",
+    "subject": "System Xc-",
+    "predicate": "is_a_component_of",
+    "object": "SLC7A11",
+    "context": {
+      "en-US": "System Xc- is a heterodimeric plasma-membrane cystine/glutamate antiporter whose light chain is SLC7A11 (xCT), which confers substrate specificity and catalyzes the transport reaction. SLC3A2 supplies the heavy chain that traffics and stabilizes the complex at the cell surface, so the two subunits are functionally linked rather than interchangeable.",
+      "zh-TW": "System Xc- 是質膜上的胱胺酸／麩胺酸反向運輸蛋白，其輕鏈為 SLC7A11（xCT），決定受質專一性並催化運輸反應。SLC3A2 提供重鏈，負責將複合體運送並穩定於細胞表面，因此兩個次單元是功能上相互依存的。"
+    },
+    "confidence": 0.9,
+    "source_document": "System Xc-.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "ac337e61d6f0",
+    "subject": "System Xc-",
+    "predicate": "is_required_for",
+    "object": "Glutathione",
+    "context": {
+      "en-US": "System Xc- imports extracellular cystine at a 1:1 exchange ratio with glutamate; the imported cystine is reduced to cysteine in the cytosol and condensed with glutamate and glycine to build the Glutathione pool. Without cystine import, intracellular GSH falls and the cell loses its frontline antioxidant defense.",
+      "zh-TW": "System Xc- 以 1:1 的比例將胞外胱胺酸換入、麩胺酸換出；進入的胱胺酸在細胞質被還原為半胱胺酸，再與麩胺酸、甘胺酸縮合生成 Glutathione。若缺乏胱胺酸輸入，胞內 GSH 會下降，細胞便失去前線抗氧化防禦。"
+    },
+    "confidence": 0.9,
+    "source_document": "System Xc-.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "274269557561",
+    "subject": "System Xc-",
+    "predicate": "protects_against",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "System Xc- is the core negative regulator of ferroptosis because its cystine import supplies the cysteine that sustains GSH, the obligate cofactor of GPX4 that detoxifies lipid hydroperoxides. Blocking the antiporter therefore converts an antioxidant dependency into the rate-limiting vulnerability that ferroptosis inducers exploit.",
+      "zh-TW": "System Xc- 是鐵死亡的核心負向調控因子，因為其胱胺酸輸入提供半胱胺酸以維持 GSH，而 GSH 是 GPX4 清除脂質過氧化氫物的必要輔因子。阻斷該反向運輸蛋白，等於把抗氧化依賴轉成鐵死亡誘導劑所利用的速率限制弱點。"
+    },
+    "confidence": 0.95,
+    "source_document": "System Xc-.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "2e5ee4c751ba",
+    "subject": "Systemic Lupus Erythematosus",
+    "predicate": "is_treated_by",
+    "object": "Hydroxychloroquine",
+    "context": {
+      "en-US": "Hydroxychloroquine is first-line systemic therapy for Systemic Lupus Erythematosus: it reduces flare frequency and disease activity, and mechanistically it interferes with TLR7/9-dependent nucleic acid sensing that drives the type I interferon loop of the disease.",
+      "zh-TW": "Hydroxychloroquine 是 Systemic Lupus Erythematosus 的一線全身性治療：可降低發作頻率與疾病活性，機制上則是干擾 TLR7/9 依賴的核酸辨識，而此路徑正是該病第一型干擾素迴圈的驅動力。"
+    },
+    "confidence": 0.9,
+    "source_document": "Systemic Lupus Erythematosus.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "d77392f91d9b",
+    "subject": "cGAS-STING Pathway",
+    "predicate": "contributes_to",
+    "object": "Systemic Lupus Erythematosus",
+    "context": {
+      "en-US": "In Systemic Lupus Erythematosus, cytoplasmic DNA sensing through the cGAS-STING pathway, together with endosomal TLR7/9, drives excess type I interferon production by plasmacytoid dendritic cells. That IFN-α then matures dendritic cells, activates B cells, and fuels autoantibody production, closing a self-amplifying loop.",
+      "zh-TW": "在 Systemic Lupus Erythematosus 中，透過 cGAS-STING Pathway 的胞質 DNA 感測，加上內體上的 TLR7/9，會驅動漿細胞樣樹突細胞產生過量的第一型干擾素。該 IFN-α 進而促使樹突細胞成熟、B 細胞活化並促進自體抗體生成，形成自我放大的迴圈。"
+    },
+    "confidence": 0.85,
+    "source_document": "Systemic Lupus Erythematosus.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "c4cae539394a",
+    "subject": "Complement System",
+    "predicate": "is_associated_with",
+    "object": "Systemic Lupus Erythematosus",
+    "context": {
+      "en-US": "Complement defects are central to Systemic Lupus Erythematosus pathogenesis: inherited C1q, C2 and C4 deficiency impairs clearance of apoptotic debris, while ongoing immune complex deposition in disease consumes C3 and C4, so low complement is both a genetic risk and a biomarker of active disease.",
+      "zh-TW": "補體系統缺陷是 Systemic Lupus Erythematosus 致病機制的核心：遺傳性的 C1q、C2、C4 缺乏會妨礙凋亡殘骸的清除，而疾病中持續的免疫複合體沉積又會消耗 C3 與 C4。因此補體偏低既是遺傳風險，也是疾病活動的生物標記。"
+    },
+    "confidence": 0.9,
+    "source_document": "Systemic Lupus Erythematosus.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "8a6c65f645f8",
+    "subject": "T Cell Receptor",
+    "predicate": "binds",
+    "object": "Major Histocompatibility Complex",
+    "context": {
+      "en-US": "The T Cell Receptor recognizes antigenic peptides only in the context of MHC molecules: TCR complementarity-determining regions engage peptide-MHC, Lck then phosphorylates CD3 ITAMs, and ZAP-70 with NF-AT, AP-1 and NF-κB downstream drive proliferation, cytokine production and effector differentiation.",
+      "zh-TW": "T Cell Receptor 只能在 MHC 分子的脈絡中辨識抗原胜肽：TCR 的互補決定區與胜肽-MHC 結合後，Lck 磷酸化 CD3 的 ITAM，接著 ZAP-70 與下游的 NF-AT、AP-1、NF-κB 驅動增殖、細胞激素生成與效應分化。"
+    },
+    "confidence": 0.95,
+    "source_document": "T Cell Receptor.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "c6203a14b257",
+    "subject": "Thymopoiesis",
+    "predicate": "produces",
+    "object": "T Cell Receptor",
+    "context": {
+      "en-US": "The T Cell Receptor repertoire is generated during thymopoiesis by V(D)J recombination: beta chains rearrange in CD4-CD8- thymocytes and alpha chains in CD4+CD8+ thymocytes, with sjTREC released as a byproduct. The combinatorial process yields more than 10^15 potential specificities.",
+      "zh-TW": "T Cell Receptor 的多樣性庫是在胸腺生成過程中透過 V(D)J 重組建立的：β 鏈在 CD4-CD8- 胸腺細胞中重組，α 鏈則在 CD4+CD8+ 胸腺細胞中重組，並釋出 sjTREC 作為副產物。這種組合方式可產生超過 10^15 種潛在專一性。"
+    },
+    "confidence": 0.9,
+    "source_document": "T Cell Receptor.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "abff5879f107",
+    "subject": "Thymic Involution",
+    "predicate": "reduces",
+    "object": "T Cell Receptor",
+    "context": {
+      "en-US": "Thymic involution with age curtails the V(D)J recombination capacity of developing thymocytes, which narrows the peripheral T Cell Receptor repertoire, increases oligoclonal expansion of memory T cells, and contributes to restricted repertoire diversity and immune senescence.",
+      "zh-TW": "隨年齡發生的 thymic involution 會削減發育中胸腺細胞的 V(D)J 重組能力，導致周邊 T Cell Receptor  repertoire 縮窄、記憶 T 細胞寡克隆性擴增增加，並促成 repertoire 多樣性受限與免疫老化。"
+    },
+    "confidence": 0.9,
+    "source_document": "T Cell Receptor.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "678a5b79c444",
+    "subject": "T Lymphocyte",
+    "predicate": "is_produced_by",
+    "object": "Thymus",
+    "context": {
+      "en-US": "T lymphocytes arise in the thymus from bone-marrow lymphoid progenitors that seed the corticomedullary junction, then pass through cortical beta-chain rearrangement, positive selection by cortical thymic epithelial cells, and medullary negative selection before export as naive single-positive cells.",
+      "zh-TW": "T 淋巴球源自骨髓的淋巴系前驅細胞，它們在皮質髓質交界處進入 thymus，隨後經歷皮質中的 β 鏈重組、皮質胸腺上皮細胞的正向選擇，以及髓質的負向選擇，最後以初始單陽性細胞的形式輸出。"
+    },
+    "confidence": 0.9,
+    "source_document": "T Lymphocyte.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "ff4480d4eb71",
+    "subject": "Thymic Involution",
+    "predicate": "reduces",
+    "object": "T Lymphocyte",
+    "context": {
+      "en-US": "Thymic involution is the main cause of age-related T-lymphocyte decline: naive T cell output falls, the T Cell Receptor repertoire narrows, memory T cells expand oligoclonally, and sjTREC levels drop roughly three logs over an 80-year lifespan, raising susceptibility to infection, autoimmunity and cancer.",
+      "zh-TW": "thymic involution 是與年齡相關 T 淋巴球衰退的主因：初始 T 細胞輸出減少、T Cell Receptor repertoire 縮窄、記憶 T 細胞寡克隆性擴增，且 sjTREC 濃度在 80 年壽命中下降約三個數量級，使感染、自身免疫與癌症的易感性上升。"
+    },
+    "confidence": 0.9,
+    "source_document": "T Lymphocyte.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "ff64edba7821",
+    "subject": "TAK1",
+    "predicate": "promotes",
+    "object": "SASP",
+    "context": {
+      "en-US": "In senescent cells ATM and ROS activate TAK1, which then drives both p38 MAPK and mTORC1 signaling - two pathways independently required for full SASP expression. Genetic or pharmacological TAK1 inhibition markedly suppresses IL-6, IL-8 and other SASP factors without necessarily rescuing the cell-cycle arrest, making TAK1 a genuine senomorphic node.",
+      "zh-TW": "在衰老細胞中，ATM 與 ROS 會活化 TAK1，後者再驅動 p38 MAPK 與 mTORC1 訊號——這兩條路徑皆為完整 SASP 表現所必需。以基因或藥物方式抑制 TAK1 可顯著降低 IL-6、IL-8 等 SASP 因子分泌，卻未必能逆轉細胞週期停滯，因此 TAK1 是真正的 senomorphic 節點。"
+    },
+    "confidence": 0.9,
+    "source_document": "TAK1.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "5f1748e572ad",
+    "subject": "TAK1",
+    "predicate": "phosphorylates",
+    "object": "IKK complex",
+    "context": {
+      "en-US": "TAK1 phosphorylates the IKK complex, triggering IkappaBalpha degradation and consequent NF-κB nuclear translocation. This branch is what makes TAK1 kinase activity essential for cytokine-induced NF-κB and AP-1 activation in innate and stress responses.",
+      "zh-TW": "TAK1 磷酸化 IKK complex，導致 IkappaBalpha 降解並使 NF-κB 核轉位。正是這個分支讓 TAK1 的激酶活性成為細胞激素誘發 NF-κB 與 AP-1 活化所必需，並連結先天與壓力反應。"
+    },
+    "confidence": 0.9,
+    "source_document": "TAK1.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "898e70f381be",
+    "subject": "TALE",
+    "predicate": "is_used_for",
+    "object": "mitoTALENs",
+    "context": {
+      "en-US": "TALE repeat arrays are the programmable DNA-binding module of mitoTALENs. Because each 34-residue repeat reads one base pair, a mitoTALEN can be engineered to discriminate a single mutant nucleotide in mitochondrial DNA, and a mitochondrial targeting sequence imports the TALE-FokI fusion into the matrix for selective cleavage.",
+      "zh-TW": "TALE 重复阵列是 mitoTALENs 的可程式化 DNA 結合模組。由於每個 34 殘基重複單元辨識一個鹼基對，mitoTALEN 可被設計成在 mitochondrial DNA 上辨識單一突變核苷酸，再由 mitochondrial targeting sequence 將 TALE–FokI 融合蛋白輸入粒線體基質進行選擇性切割。"
+    },
+    "confidence": 0.9,
+    "source_document": "TALE.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "f40e14ca1e93",
+    "subject": "TALE",
+    "predicate": "binds",
+    "object": "FokI",
+    "context": {
+      "en-US": "TALE arrays are fused to the FokI nuclease domain to build TALENs and mitoTALENs: two monomers binding adjacent half-sites dimerize their FokI cleavage domains and introduce a site-specific double-strand break. TALE was thus the programmable DNA-binding platform used for targeted genome editing before CRISPR.",
+      "zh-TW": "TALE 陣列與 FokI 核酸酶結構域融合以構成 TALEN 與 mitoTALENs：兩個單體結合相鄰半位點後，其 FokI 切割結構域二聚化並造成位點專一性的雙股斷裂。TALE 因此是 CRISPR 之前用於定點基因編輯的可程式化 DNA 結合平台。"
+    },
+    "confidence": 0.85,
+    "source_document": "TALE.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "f77ebbee4c67",
+    "subject": "TARG1",
+    "predicate": "is_synthetic_lethal_with",
+    "object": "PARG",
+    "context": {
+      "en-US": "TARG1 removes the last protein-linked ADP-ribose on Asp/Glu and deacylates O-acyl-ADP-ribose, which PARG cannot do after bulk chain trimming. Dual loss of TARG1 and PARG therefore causes toxic ADP-ribosylation accumulation, replication stress and PARP1-mediated genomic instability, and the pair is proposed as a cancer biomarker for PARP/PARG inhibitor response.",
+      "zh-TW": "TARG1 負責移除 Asp/Glu 上最後一個蛋白連結的 ADP-核糖並去醯化 O-醯基-ADP-核糖，而這是 PARG 在批次修剪 PAR 鏈後無法完成的工作。因此 TARG1 與 PARG 雙重缺失會造成有毒的 ADP-ribosylation 累積、複製壓力與 PARP1 媒介的基因體不穩定；此配對也被提出作為 PARP/PARG 抑制劑反應的癌症生物標記。"
+    },
+    "confidence": 0.85,
+    "source_document": "TARG1.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "9fa225dd63fe",
+    "subject": "TARG1",
+    "predicate": "deacetylates",
+    "object": "ADP-ribosylation",
+    "context": {
+      "en-US": "As a macrodomain ADP-ribose hydrolase, TARG1 hydrolyzes mono-ADP-ribose linked to aspartate and glutamate, cleaves the terminal protein-proximal residue of PAR chains, and converts O-acetyl/O-propionyl/O-butyryl-ADP-ribose - the by-products of sirtuin activity - into ADP-ribose plus free short-chain fatty acid.",
+      "zh-TW": "作為巨結構域 ADP-核糖水解酶，TARG1 會水解連結於天門冬胺酸與麩胺酸上的單 ADP-核糖，剪除 PAR 鏈末端最靠近蛋白質的殘基，並將 sirtuin 活性產生的 O-乙醯基／O-丙醯基／O-丁醯基-ADP-核糖轉為 ADP-核糖與游離短鏈脂肪酸。"
+    },
+    "confidence": 0.85,
+    "source_document": "TARG1.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "6f4593953d2b",
+    "subject": "TASCC",
+    "predicate": "couples",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "The TASCC is defined by spatial colocalization of active mTORC1 with autophagosomes and autolysosomes on the trans-Golgi network in senescent cells. Autophagy-derived amino acids feed mTORC1, which in turn directs cap-dependent translation - a feed-forward loop that resolves the paradox of high autophagy coexisting with vigorous secretion.",
+      "zh-TW": "TASCC 的定義是衰老細胞中活化的 mTORC1 與自噬體、自噬溶體在高基氏體網絡上的空間共定位。自噬回收的胺基酸餵養 mTORC1，後者再引導帽依賴性轉譯——這個前饋迴圈化解了高自噬與旺盛分泌並存的悖論。"
+    },
+    "confidence": 0.9,
+    "source_document": "TASCC.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "4c60d27431a7",
+    "subject": "TASCC",
+    "predicate": "is_required_for",
+    "object": "SASP",
+    "context": {
+      "en-US": "TASCC assembly is required for the robust chronic SASP because it supplies both the amino-acid substrate and the mTORC1 directive for cap-dependent translation of secretory mRNAs such as IL-1alpha. Blocking mTORC1 with rapamycin or blocking early autophagy diminishes SASP output without eliminating senescence itself.",
+      "zh-TW": "TASCC 的組裝是穩健而慢性的 SASP 所必需，因為它同時提供胺基酸原料與 mTORC1 指令，使 IL-1alpha 等分泌性 mRNA 能進行帽依賴性轉譯。以 rapamycin 阻斷 mTORC1 或阻斷早期自噬可削弱 SASP 輸出，卻不會消除衰老狀態本身。"
+    },
+    "confidence": 0.9,
+    "source_document": "TASCC.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "b75897d9847d",
+    "subject": "Rapamycin",
+    "predicate": "reduces",
+    "object": "SASP",
+    "context": {
+      "en-US": "Rapamycin blunts the TASCC-dependent SASP by inhibiting mTORC1, so mTOR inhibition lowers cap-dependent translation of SASP mRNAs and the secreted cytokine load. Senescence and the cell-cycle arrest persist, which is what makes rapamycin a senomorphic rather than a senolytic agent.",
+      "zh-TW": "Rapamycin 透過抑制 mTORC1 削弱 TASCC 依賴的 SASP，使 mTOR 抑制降低 SASP mRNA 的帽依賴性轉譯與分泌的細胞激素量。衰老與細胞週期停滯依然存在，因此 rapamycin 是 senomorphic 而非 senolytic 藥物。"
+    },
+    "confidence": 0.85,
+    "source_document": "TASCC.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "9198c4d9a850",
+    "subject": "TBARS",
+    "predicate": "measures",
+    "object": "Lipid Peroxidation",
+    "context": {
+      "en-US": "Because thiobarbituric acid reacts not only with malondialdehyde but also with 4-hydroxynonenal, acrolein, glyoxal, carbohydrates and amino acids, TBARS is sensitive but not specific and tends to overestimate lipid peroxidation. LC-MS/MS quantification of F2-Isoprostanes is preferred for rigorous measurement, and TBARS is best used for rapid low-cost screening and for validating ferroptosis in culture.",
+      "zh-TW": "由於硫代巴比妥酸不只與 malondialdehyde 反應，也會與 4-hydroxynonenal、acrolein、glyoxal、醣類與胺基酸反應，TBARS 靈敏但不具專一性，容易高估脂質過氧化。嚴格定量以 F2-Isoprostanes 的 LC-MS/MS 為佳；TBARS 適合快速低成本的篩檢，以及在細胞培養中驗證 ferroptosis。"
+    },
+    "confidence": 0.9,
+    "source_document": "TBARS.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "08d2f1989b24",
+    "subject": "TBK1",
+    "predicate": "phosphorylates",
+    "object": "XIAP",
+    "context": {
+      "en-US": "During innate immune activation, TBK1 together with IKKepsilon phosphorylates XIAP at Ser430 in its RING finger domain, triggering Lys48-linked autoubiquitination at Lys322/Lys328 and rapid proteasomal degradation. Ser87 phosphorylation by Akt is the opposing, stabilizing modification.",
+      "zh-TW": "在先天免疫活化期間，TBK1 與 IKKepsilon 會磷酸化 XIAP RING finger 結構域的 Ser430，觸發 Lys322/Lys328 上的 Lys48 連結自泛素化與快速的蛋白酶體降解。相對地，Akt 在 Ser87 的磷酸化是穩定 XIAP 的對抗性修飾。"
+    },
+    "confidence": 0.9,
+    "source_document": "TBK1.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "e279992e3d21",
+    "subject": "TBK1",
+    "predicate": "promotes",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "TBK1 promotes apoptosis indirectly by degrading XIAP: once XIAP is removed, Caspase-3, Caspase-7 and Caspase-9 are released from inhibition and the cell is sensitized to apoptosis. This is notable because TBK1 is generally a survival kinase in other contexts.",
+      "zh-TW": "TBK1 藉由降解 XIAP 間接促進 apoptosis：XIAP 被清除後，Caspase-3、Caspase-7 與 Caspase-9 解除抑制，細胞便被敏化而走向凋。這點值得注意，因為在其他情境下 TBK1 主要是存活促進型激酶。"
+    },
+    "confidence": 0.9,
+    "source_document": "TBK1.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "d441d9fa7e9b",
+    "subject": "STING",
+    "predicate": "activates",
+    "object": "TBK1",
+    "context": {
+      "en-US": "STING acts upstream of TBK1 in the cytosolic DNA-sensing axis: cGAMP-bound STING recruits and phosphorylates TBK1, which then phosphorylates IRF3 and IRF7 to drive interferon-stimulated gene expression. TREX1-deficient cells show the same STING-TBK1-IRF3/IRF7 axis engaged after lysosomal expansion and TFEB activation.",
+      "zh-TW": "在胞質 DNA 感測軸上 STING 位於 TBK1 上游：與 cAMP 結合的 STING 招募並磷酸化 TBK1，後者再磷酸化 IRF3 與 IRF7 以驅動 interferon-stimulated gene 表現。TREX1 缺失細胞在溶體擴張與 TFEB 活化後，同樣出現 STING–TBK1–IRF3/IRF7 軸被啟動的情形。"
+    },
+    "confidence": 0.9,
+    "source_document": "TBK1.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "c33947eaeacf",
+    "subject": "TCA cycle",
+    "predicate": "produces",
+    "object": "Oxidative Phosphorylation",
+    "context": {
+      "en-US": "Each turn of the TCA cycle oxidizes acetyl-CoA, releasing two CO2 and generating 3 NADH, 1 FADH2 and 1 GTP. The NADH and FADH2 are the reducing equivalents fed into the electron transport chain, which is how the TCA cycle powers ATP generation by oxidative phosphorylation.",
+      "zh-TW": "TCA cycle 每轉一圈會氧化 acetyl-CoA，釋出兩個 CO2 並產生 3 NADH、1 FADH2 與 1 GTP。這些 NADH 與 FADH2 就是送入電子傳遞鏈的還原當量，也正是 TCA cycle 藉由氧化磷酸化產生 ATP 的方式。"
+    },
+    "confidence": 0.9,
+    "source_document": "TCA cycle.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "42e424009f5f",
+    "subject": "SLC25A1",
+    "predicate": "is_required_for",
+    "object": "SASP",
+    "context": {
+      "en-US": "In senescence the TCA citrate-acetyl-CoA export axis is a metabolic checkpoint for the SASP: SLC25A1 exports citrate to the cytosol where ACLY regenerates acetyl-CoA used for H3K27ac deposition at SASP loci. Inhibiting SLC25A1 with CTPI2, or blocking MPC pyruvate entry, collapses this axis and selectively suppresses SASP without killing senescent cells.",
+      "zh-TW": "在衰老中，TCA 的 citrate–acetyl-CoA 輸出軸是 SASP 的代謝檢查點：SLC25A1 將 citrate 輸出至細胞質，由 ACLY 再生 acetyl-CoA 供 SASP 基因座上的 H3K27ac 沉積。以 CTPI2 抑制 SLC25A1 或阻斷 MPC 的丙酮酸入口，會使此軸崩潰並選擇性抑制 SASP，而不會殺死衰老細胞。"
+    },
+    "confidence": 0.9,
+    "source_document": "TCA cycle.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "c6a094a701f9",
+    "subject": "TDO",
+    "predicate": "is_competitor_with",
+    "object": "IDO1",
+    "context": {
+      "en-US": "TDO (TDO2) is the hepatic heme enzyme that catalyzes the same first, rate-limiting step of the kynurenine pathway as IDO1, converting tryptophan to N-formylkynurenine. Unlike IDO1 it is selective for L-tryptophan, primarily hepatic, induced by substrate and glucocorticoids rather than interferon-gamma - so in tumors TDO provides a compensatory tryptophan-catabolic route when IDO1 is blocked.",
+      "zh-TW": "TDO（TDO2）是催化 kynurenine Pathway 同一個首要且速率限制步驟的肝臟血紅素酵素，與 IDO1 皆將 tryptophan 轉為 N-Formylkynurenine。與 IDO1 不同，TDO 對 L-tryptophan 具專一性、主要位於肝臟，並受受質與糖皮質素誘導而非 interferon-gamma；因此在腫瘤中 IDO1 被阻斷時，TDO 提供代償性的 tryptophan 分解途徑。"
+    },
+    "confidence": 0.9,
+    "source_document": "TDO.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "eb6a2a041533",
+    "subject": "Epacadostat",
+    "predicate": "is_opposed_by",
+    "object": "TDO",
+    "context": {
+      "en-US": "Epacadostat is an IDO1 inhibitor whose antitumor effect is limited because tumors bypass it through an alternative route: upregulated TDO continues to catabolize tryptophan and sustain the immunosuppressive kynurenine axis. TDO inhibitors such as LM10 are in preclinical development to close this escape route.",
+      "zh-TW": "Epacadostat 是 IDO1 抑制劑，但其抗腫瘤效果有限，因為腫瘤可透過替代途徑繞過它：上調的 TDO 仍會分解 tryptophan，維持免疫抑制性的 kynurenine 軸。TDO 抑制劑（如 LM10）正處於臨床前開發階段，用以封閉這條逃逸路徑。"
+    },
+    "confidence": 0.8,
+    "source_document": "TDO.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "30252b5a1f47",
+    "subject": "TDP-43",
+    "predicate": "activates",
+    "object": "cGAS-STING Pathway",
+    "context": {
+      "en-US": "Pathological or overexpressed TDP-43 gains access to mitochondria through TIM22 import, where its localization induces oxidative stress and opens the mitochondrial permeability transition pore and VDAC1 to release mtDNA into the cytosol. Cytosolic mtDNA then activates cGAS and STING, driving type I interferon and ISG expression and neuroinflammation.",
+      "zh-TW": "病態或過量表現的 TDP-43 透過 TIM22 輸入取得 Mitochondria 通道，其粒線體定位誘發氧化壓力並開啟 mitochondrial permeability transition pore 與 VDAC1，使 mtDNA 釋放至細胞質。胞質中的 mtDNA 隨後活化 cGAS 與 STING，驅動第一型干擾素與 ISG 表現以及神經發炎。"
+    },
+    "confidence": 0.9,
+    "source_document": "TDP-43.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "5da1d28f11f6",
+    "subject": "TDP-43",
+    "predicate": "contributes_to",
+    "object": "Amyotrophic Lateral Sclerosis",
+    "context": {
+      "en-US": "TDP-43 pathology in ALS is not only a loss-of-function aggregation disease: TDP-43-mediated mtDNA release and consequent cGAS-STING activation contribute to motor neuron degeneration. Blocking the mPTP or VDAC1 mitigates neurodegeneration and STING inhibition rescues TDP-43-treated iPSC motor neurons, positioning pore blockade as therapy.",
+      "zh-TW": "ALS 中的 TDP-43 病態不僅是聚集造成的功能喪失：TDP-43 媒介的 mtDNA 釋放與隨後的 cGAS-STING 活化也促成運動神經元退化。阻斷 mPTP 或 VDAC1 可減輕神經退化，抑制 STING 則挽救 TDP-43 處理的 iPSC 運動神經元，使孔道阻斷成為治療策略。"
+    },
+    "confidence": 0.9,
+    "source_document": "TDP-43.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "483ae4a8e8e6",
+    "subject": "Rapamycin",
+    "predicate": "upregulates",
+    "object": "TFAM",
+    "context": {
+      "en-US": "Inhibition of mTOR by rapamycin raises TFAM together with PGC-1alpha, promoting mitochondrial biogenesis, renewal of the mitochondrial population and improved fatty-acid metabolism in senescent tissues such as myocardium and brown adipose tissue. Rapamycin additionally boosts TFAM via cap-independent translation and ATF4/H2S-mediated stress resistance.",
+      "zh-TW": "Rapamycin 抑制 mTOR 會使 TFAM 與 PGC-1alpha 一起上升，促進 mitochondrial biogenesis、粒線體族群的更新，以及心肌與褐色脂肪等衰老組織中的脂肪酸代謝改善。Rapamycin 也透過帽非依賴性轉譯與 ATF4/H2S 媒介的壓力抗性進一步提升 TFAM。"
+    },
+    "confidence": 0.9,
+    "source_document": "TFAM.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "f06acf71ad94",
+    "subject": "TFAM",
+    "predicate": "regulates",
+    "object": "Mitochondria",
+    "context": {
+      "en-US": "TFAM is a nuclear-encoded, mitochondria-targeted DNA-binding protein that binds and packages mitochondrial DNA, regulating its replication and transcription. Because of that role TFAM is a key determinant of mitochondrial biogenesis and respiratory-chain capacity, and one of the major effectors by which mTOR inhibition rebuilds mitochondrial networks.",
+      "zh-TW": "TFAM 是核基因編碼、定位於粒線體的 DNA 結合蛋白，會結合並包裝 mitochondrial DNA，調控其複製與轉錄。有鑒於此角色，TFAM 是 mitochondrial biogenesis 與呼吸鏈容量的關鍵決定因子，也是 mTOR 抑制重建粒線體網絡的主要效應因子之一。"
+    },
+    "confidence": 0.9,
+    "source_document": "TFAM.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "3f0e98048b85",
+    "subject": "TFEB",
+    "predicate": "is_inhibited_by",
+    "object": "mTORC1",
+    "context": {
+      "en-US": "Under nutrient-rich conditions mTORC1 phosphorylates TFEB, sequestering it in the cytoplasm and preventing its nuclear transcription program. Upon starvation or stress TFEB is dephosphorylated (e.g. by calcineurin) and translocates to the nucleus, so TFEB activity is gated by its phosphorylation state and nuclear-cytoplasmic shuttling.",
+      "zh-TW": "在營養充足時 mTORC1 會磷酸化 TFEB，將其滯留在細胞質而阻止其核內轉錄程式；在飢餓或壓力下 TFEB 被去磷酸化（例如由 calcineurin 作用）並轉位至細胞核。因此 TFEB 活性受其磷酸化狀態與核質穿梭共同調控。"
+    },
+    "confidence": 0.9,
+    "source_document": "TFEB.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "aadfa53316b4",
+    "subject": "SIRT2",
+    "predicate": "stabilizes",
+    "object": "TFEB",
+    "context": {
+      "en-US": "SIRT2 binds the 3'UTR of TFEB mRNA and facilitates its stability, raising TFEB expression. The extra TFEB in turn promotes autophagosome-lysosome fusion, so SIRT2 links sirtuin activity to autophagic flux via post-transcriptional control of the master transcription factor.",
+      "zh-TW": "SIRT2 會結合 TFEB mRNA 的 3'UTR 並提高其穩定性，使 TFEB 表現上升。增加的 TFEB 隨後促進 autophagosome 與 lysosome 的融合，因此 SIRT2 透過對主轉錄因子進行轉錄後調控，把 sirtuin 活性連結到自噬通量。"
+    },
+    "confidence": 0.85,
+    "source_document": "TFEB.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "77fbcd3ba85a",
+    "subject": "Spermidine",
+    "predicate": "promotes",
+    "object": "TFEB",
+    "context": {
+      "en-US": "Spermidine acts as the hypusination donor for the translation initiation factor eIF5A. Active, hypusinated eIF5A enables efficient biosynthesis of TFEB, so spermidine supplementation raises TFEB levels and with them the autophagy-lysosome transcriptional program.",
+      "zh-TW": "Spermidine 扮演轉譯起始因子 eIF5A 的 hypusination 供體。活化且已 hypusinated 的 eIF5A 能進行高效率的 TFEB 生合成，因此補充 spermidine 會提高 TFEB  levels，連帶提升 autophagy–lysosome 的轉錄程式。"
+    },
+    "confidence": 0.85,
+    "source_document": "TFEB.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "40fb11083922",
+    "subject": "TGFβ",
+    "predicate": "phosphorylates",
+    "object": "SMAD3",
+    "context": {
+      "en-US": "Latent TGFβ is activated extracellularly by integrins (alpha-v-beta-6/8), proteases and thrombospondin-1, then binds the TGFBR2/TGFBR1 (ALK5) receptor complex, which phosphorylates receptor-regulated SMAD2 and SMAD3. These complex with SMAD4 and translocate to the nucleus to regulate transcription, including pro-fibrotic and SASP genes.",
+      "zh-TW": "潛伏型 TGFβ 經由 integrin（alpha-v-beta-6/8）、蛋白酶與 thrombospondin-1 在胞外被活化，接著結合 TGFBR2/TGFBR1（ALK5）受體複合體，使其磷酸化受體調控型 SMAD2 與 SMAD3。這些 SMAD 與 SMAD4 複合成體後轉位入核，調控包含促纖維化與 SASP 基因在內的轉錄。"
+    },
+    "confidence": 0.9,
+    "source_document": "TGFβ.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "299c4b63b1af",
+    "subject": "TGFβ",
+    "predicate": "promotes",
+    "object": "Epithelial-to-mesenchymal transition",
+    "context": {
+      "en-US": "TGFβ drives epithelial-to-mesenchymal transition together with fibroblast activation, which is why it is a central driver of fibrosis and scar biology. This is also why TGFβ has a dual role in cancer - tumor suppressor early, tumor promoter later - and why context-specific targeting (ALK5/SMAD inhibitors, integrin alpha-v-beta-6 blockers) is essential.",
+      "zh-TW": "TGFβ 會促成 epithelial-to-mesenchymal transition 與纖維母細胞活化，因此是纖維化與疤痕生物學的核心驅動因子。這也是 TGFβ 在癌症中具有雙重角色的原因——早期為腫瘤抑制、晚期為腫瘤促進——並使情境專一性標定（ALK5/SMAD 抑制劑、integrin alpha-v-beta-6 阻斷劑）不可或缺。"
+    },
+    "confidence": 0.9,
+    "source_document": "TGFβ.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "8ddd79ca5b34",
+    "subject": "TH17",
+    "predicate": "is_induced_by",
+    "object": "IL-6",
+    "context": {
+      "en-US": "Naive CD4 T cell commitment to the TH17 phenotype requires TGFβ plus the SASP cytokines IL-6 and IL-1beta: IL-6 signals through IL-6R/gp130-JAK-STAT3, IL-1beta reinforces the program, and STAT3 with ROR-gamma-t induce IL-17A, IL-17F, IL-22 and GM-CSF. TGFβ alone instead diverts cells to a regulatory T cell fate.",
+      "zh-TW": "初始 CD4 T 細胞朝 TH17 表型承諾，需要 TGFβ 加上 SASP 細胞激素 IL-6 與 IL-1beta：IL-6 經 IL-6R/gp130–JAK–STAT3 傳訊，IL-1beta 加強該程式，STAT3 與 ROR-gamma-t 共同誘導 IL-17A、IL-17F、IL-22 與 GM-CSF。若只有 TGFβ，細胞反而偏向調節型 T 細胞命運。"
+    },
+    "confidence": 0.9,
+    "source_document": "TH17.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "2be044e05807",
+    "subject": "TIMP1",
+    "predicate": "inhibits",
+    "object": "MMP-9",
+    "context": {
+      "en-US": "TIMP1 is the principal endogenous inhibitor of MMP-9 (gelatinase B) and also of MMP-12 (macrophage metalloelastase). Its N-terminal inhibitory domain binds the catalytic site of the target MMP in a 1:1 stoichiometric complex, blocking substrate access, so the MMP-9/TIMP1 balance sets net gelatinolytic activity in tissues.",
+      "zh-TW": "TIMP1 是 MMP-9（gelatinase B）的主要內生抑制劑，也抑制 MMP-12（macrophage metalloelastase）。其 N 端抑制結構域以 1:1 化學計量複合體結合目標 MMP 的催化位，阻斷受質接近，因此 MMP-9／TIMP1 的平衡決定組織中淨明膠酶活性。"
+    },
+    "confidence": 0.9,
+    "source_document": "TIMP1.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "90805d832161",
+    "subject": "TGFβ",
+    "predicate": "upregulates",
+    "object": "TIMP1",
+    "context": {
+      "en-US": "TIMP1 is a transcriptional target of the TGF-beta1/SMAD3 pathway: TGF-beta1 activates SMAD3-dependent transcription of pro-fibrotic genes including COL1A1, COL3A1, FN1 and ACTA2 alongside TIMP1. By restraining MMP-mediated proteolysis TIMP1 thereby acts as a central effector of tissue fibrosis and net ECM accumulation.",
+      "zh-TW": "TIMP1 是 TGF-beta1/SMAD3 途徑的轉錄標的：TGF-beta1 啟動 SMAD3 依賴的促纖維化基因轉錄，包含 COL1A1、COL3A1、FN1、ACTA2 與 TIMP1。由於 TIMP1 抑制 MMP 媒介的蛋白水解，它因此成為組織纖維化與淨 ECM 累積的核心效應因子。"
+    },
+    "confidence": 0.9,
+    "source_document": "TIMP1.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "9affa97348eb",
+    "subject": "TIMP1",
+    "predicate": "is_a_component_of",
+    "object": "SASP",
+    "context": {
+      "en-US": "TIMP1 is a SASP factor acting as a molecular switch on SASP output: in PTEN-loss prostate cancer senescence models, deleting TIMP1 reprograms the SASP from a tumor-suppressive toward a pro-tumorigenic phenotype. TIMP1 also contributes to the pro-fibrotic arm of the SASP by preventing MMP-mediated ECM degradation, and its plasma level rises with age as an epigenetic-age surrogate.",
+      "zh-TW": "TIMP1 是 SASP 因子，對 SASP 輸出具有分子開關的作用：在 PTEN 喪失的前列腺癌衰老模型中，刪除 TIMP1 會把 SASP 由腫瘤抑制型重編程為促腫瘤型。TIMP1 也透過阻止 MMP 媒介的 ECM 降解貢獻於 SASP 的促纖維化分支，且其血漿濃度隨年齡上升，並作為表觀遺傳年齡的替代指標。"
+    },
+    "confidence": 0.85,
+    "source_document": "TIMP1.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "a4b9820c079f",
+    "subject": "TIMP2",
+    "predicate": "inhibits",
+    "object": "MMP-2",
+    "context": {
+      "en-US": "TIMP2 binds the catalytic site of MMP-2 (gelatinase A) in a 1:1 complex to inhibit it, but at low concentrations it also acts as a facilitator rather than an inhibitor: TIMP2 bridges MT1-MMP and pro-MMP-2 on the cell surface into a ternary complex, letting adjacent uninhibited MT1-MMP cleave the pro-peptide and generate active 62 kDa MMP-2. This makes TIMP2 a concentration-dependent molecular switch.",
+      "zh-TW": "TIMP2 以 1:1 複合體結合 MMP-2（gelatinase A）的催化位而抑制它；但在低濃度下它反而是促進因子：TIMP2 在細胞表面把 MT1-MMP 與 pro-MMP-2 架橋成三元複合體，使鄰近且未被抑制的 MT1-MMP 剪除前驅物胜肽，生成具活性的 62 kDa MMP-2。這使 TIMP2 成為濃度依賴的分子開關。"
+    },
+    "confidence": 0.9,
+    "source_document": "TIMP2.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "5314667b3faa",
+    "subject": "TIMP2",
+    "predicate": "inhibits",
+    "object": "Angiogenesis",
+    "context": {
+      "en-US": "TIMP2 inhibits MT1-MMP-dependent endothelial cell migration, thereby suppressing angiogenesis. High TIMP2 expression in tumour stroma may therefore restrict tumour angiogenesis, although at low concentrations its pro-MMP-2 activation role can favor invasion - explaining why TIMP2 prognosis is context dependent.",
+      "zh-TW": "TIMP2 抑制 MT1-MMP 依賴的內皮細胞遷移，因而壓抑 angiogenesis。因此腫瘤間質中高度的 TIMP2 表現可能限制腫瘤血管新生；不過在低濃度下其促進 pro-MMP-2 活化的角色又可能有利於侵犯——這解釋了 TIMP2 的預後意義為何依情境而異。"
+    },
+    "confidence": 0.8,
+    "source_document": "TIMP2.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "abc2a15181be",
+    "subject": "TIR domain",
+    "predicate": "is_a_component_of",
+    "object": "SARM1",
+    "context": {
+      "en-US": "The TIR domain is the C-terminal catalytic core of SARM1, autoinhibited by the N-terminal ARM repeats until injury triggers release. On release, TIR domains dimerize across adjacent SARM1 protomers to form the composite NAD+ glycohydrolase active site, with a catalytic glutamate, initiating axonal NAD+ depletion and Wallerian degeneration.",
+      "zh-TW": "TIR domain 是 SARM1 的 C 端催化核心，在損傷觸發釋放前由 N 端 ARM 重複序列自體抑制。釋放後，TIR domain 會在相鄰 SARM1 原體間二聚化，形成複合的 NAD+ 糖苷水解酶活性位（含催化性麩胺酸殘基），啟動軸突 NAD+ 耗竭與 Wallerian degeneration。"
+    },
+    "confidence": 0.9,
+    "source_document": "TIR domain.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "db1bc1ba1368",
+    "subject": "TIR domain",
+    "predicate": "binds",
+    "object": "Disulfiram",
+    "context": {
+      "en-US": "The TIR dimer NAD+-binding pocket is the site of action for SARM1 inhibitors. Disulfiram covalently modifies a TIR cysteine, while DSRM-3716 and GSK-428 occupy the pocket non-covalently; the CD38 inhibitor 78c shares the conserved adduct-forming uncompetitive mechanism, which is why CD38 and SARM1 are paired as parallel NADases.",
+      "zh-TW": "TIR 二聚體的 NAD+ 結合口袋是 SARM1 抑制劑的作用位點。Disulfiram 以共價方式修飾 TIR 的半胱胺酸殘基，DSRM-3716 與 GSK-428 則以非共價方式占據該口袋；CD38 抑制劑 78c 共享同樣的加成物形成型不競爭機制，因此 CD38 與 SARM1 常被並列為平行的 NADase。"
+    },
+    "confidence": 0.9,
+    "source_document": "TIR domain.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "6d2df59d8d4c",
+    "subject": "TIR domain",
+    "predicate": "scaffolds",
+    "object": "TRAF6",
+    "context": {
+      "en-US": "Beyond NADase activity, the TIR domain scaffolds TRAF6 to activate JNK and p38 MAPK, and negatively regulates TLR3/TLR4 innate immune signaling. SARM1 therefore connects injury-induced NAD+ depletion to both degenerative and inflammatory outcomes.",
+      "zh-TW": "除了 NADase 活性之外，TIR domain 還支架化 TRAF6 以活化 JNK 與 p38 MAPK，並負向調控 TLR3/TLR4 的先天免疫訊號。因此 SARM1 把損傷引起的 NAD+ 耗竭與退化性及發炎性結果連結起來。"
+    },
+    "confidence": 0.85,
+    "source_document": "TIR domain.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "d238c954d2de",
+    "subject": "TLR2",
+    "predicate": "interacts_with",
+    "object": "cGAS-STING Pathway",
+    "context": {
+      "en-US": "TLR2 signalling cooperates with the cGAS-STING Pathway-IRF3 axis to shape the antigen-presentation and immune-recruitment arm of the SASP during oncogene-induced senescence. Because TLR2 is upregulated in senescent cells and signals through MyD88-IKK-NF-κB, the two pathways jointly determine the immunological character of the senescent secretome.",
+      "zh-TW": "TLR2 訊號與 cGAS-STING Pathway–IRF3 軸協同作用，在 oncogene-induced senescence 期間塑造 SASP 的抗原呈現與免疫招募分支。由於 TLR2 在衰老細胞中上調並經由 MyD88–IKK–NF-κB 傳訊，兩條途徑共同決定衰老分泌組的免疫學性質。"
+    },
+    "confidence": 0.85,
+    "source_document": "TLR2.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "03b8488277ea",
+    "subject": "TLR2",
+    "predicate": "promotes",
+    "object": "SASP",
+    "context": {
+      "en-US": "TLR2 is induced during senescence and is essential for the immunity-regulating arm of the SASP: engagement recruits MyD88 and TRIF, nucleates a MyD88-IRAK-TRAF6 complex, and activates IKK complex, NF-kB and p38 MAPK. Via NF-kB and IRF signaling TLR2 lets senescent cells communicate with macrophages, NK cells and T cells - underpinning tumor immunosurveillance when acute, maladaptive inflammation when chronic.",
+      "zh-TW": "TLR2 在衰老期間被誘導，且對 SASP 的免疫調節分支不可或缺：配體結合會招募 MyD88 與 TRIF，形成 MyD88–IRAK–TRAF6 複合體並活化 IKK complex、NF-kB 與 p38 MAPK。經由 NF-kB 與 IRF 訊號，TLR2 讓衰老細胞得以與巨噬細胞、NK 細胞與 T 細胞溝通——急性時支撐腫瘤免疫監控，慢性時則導致失調的發炎。"
+    },
+    "confidence": 0.9,
+    "source_document": "TLR2.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "6ebce8536148",
+    "subject": "TLR2",
+    "predicate": "binds",
+    "object": "TLR6",
+    "context": {
+      "en-US": "TLR2 is not a functional receptor on its own: it heterodimerizes with TLR1 or TLR6 to recognize lipopeptides, and the partner sets specificity. The TLR2/TLR6 complex senses diacylated lipopeptides such as MALP-2 and lipoteichoic acid, whereas TLR2/TLR1 senses triacylated lipopeptides - one scaffold, two classes of bacterial lipoprotein.",
+      "zh-TW": "TLR2 單獨並非功能性受體：它必須與 TLR1 或 TLR6 二聚化以辨識脂胜肽，而夥伴受體決定了專一性。TLR2/TLR6 複合體感測二醯化脂胜肽（如 MALP-2）與 lipoteichoic acid，而 TLR2/TLR1 則感測三醯化脂胜肽——同一骨架涵蓋兩類細菌脂蛋白。"
+    },
+    "confidence": 0.9,
+    "source_document": "TLR6.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "72723d775869",
+    "subject": "TLR6",
+    "predicate": "activates",
+    "object": "MyD88",
+    "context": {
+      "en-US": "TLR6 signals exclusively through MyD88, never TRIF: diacylated lipopeptide or lipoteichoic acid binding induces TLR2/TLR6 heterodimerization, the TIR domains recruit MAL/TIRAP which bridges to MyD88 then IRAK4/IRAK1 then TRAF6, and TRAF6 activates TAK1, the IKK complex and NF-kB plus MAPK cascades. Because the TRIF-IRF3 axis is not engaged, output is pro-inflammatory cytokines with little type I interferon.",
+      "zh-TW": "TLR6 僅透過 MyD88 傳訊，絕不走 TRIF：二醯化脂胜肽或 lipoteichoic acid 結合誘發 TLR2/TLR6 二聚化，TIR 結構域招募 MAL/TIRAP，再橋接至 MyD88、IRAK4/IRAK1 與 TRAF6，TRAF6 進而活化 TAK1、IKK complex、NF-kB 與 MAPK 级联。由於 TRIF–IRF3 軸未被啟動，輸出為促發炎細胞激素而第一型干擾素極少。"
+    },
+    "confidence": 0.9,
+    "source_document": "TLR6.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "3eb3a819ac10",
+    "subject": "TLR4",
+    "predicate": "activates",
+    "object": "TRIF",
+    "context": {
+      "en-US": "Unlike TLR3, TLR4 engages both the MyD88 and TRIF adaptors. Its MyD88 branch drives rapid NF-kB and MAPK activation and pro-inflammatory cytokines such as TNF-alpha and IL-6, while its TRIF branch runs TRAF3-TBK1-IRF3 to produce type I interferons, so LPS sensing yields both inflammatory and antiviral outputs.",
+      "zh-TW": "與 TLR3 不同，TLR4 會同時使用 MyD88 與 TRIF 兩個 adaptor。其 MyD88 分支驅動快速的 NF-kB 與 MAPK 活化以及 TNF-alpha、IL-6 等促發炎細胞激素；TRIF 分支則經 TRAF3–TBK1–IRF3 產生第一型干擾素。因此對 LPS 的感測同時帶來發炎性與抗病毒性輸出。"
+    },
+    "confidence": 0.9,
+    "source_document": "TLR4.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "1da4b24b8265",
+    "subject": "TLR4",
+    "predicate": "binds",
+    "object": "LPS",
+    "context": {
+      "en-US": "TLR4 recognizes bacterial lipopolysaccharide through the MD-2/CD14 complex, which is what makes it the defining sensor of Gram-negative bacteria. Excessive TLR4 signaling drives endotoxic shock, sterile inflammation and metabolic inflammatory disease, and is a target for anti-inflammatory therapeutics.",
+      "zh-TW": "TLR4 透過 MD-2/CD14 複合體辨識細菌 lipopolysaccharide（LPS），這使它成為革蘭氏陰性菌的代表性感測器。過度的 TLR4 訊號會造成內毒素休克、無菌性發炎與代謝性發炎疾病，因此也是抗發炎治療的標的。"
+    },
+    "confidence": 0.85,
+    "source_document": "TLR4.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "d46eca9d7779",
+    "subject": "Sytox Green",
+    "predicate": "measures",
+    "object": "NETosis",
+    "context": {
+      "en-US": "Sytox Green is a membrane-impermeant, high-affinity DNA dye that is non-fluorescent until it binds nucleic acids, so live-cell Sytox positivity reports either membrane rupture or extracellular DNA. That makes it the standard real-time readout of NETosis, used alongside endpoint cit-H3 and MPO-DNA staining to confirm NET origin.",
+      "zh-TW": "Sytox Green 是無法穿透膜、對核酸具高親和力的染劑，在結合核酸前不發螢光，因此活細胞的 Sytox 陽性反應即代表膜破裂或胞外 DNA。這使它成為 NETosis 的標準即時讀值方法，並常與終點的 cit-H3 與 MPO–DNA 染色並用以確認 NET 來源。"
+    },
+    "confidence": 0.85,
+    "source_document": "Sytox Green.md",
+    "created": "2026-09-29T17:54:11Z",
+    "updated": "2026-09-29T17:54:11Z"
   }
 ]
