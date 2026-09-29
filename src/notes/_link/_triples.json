@@ -68990,5 +68990,243 @@
     "source_document": "Lovastatin.md",
     "created": "2026-09-29T17:16:03Z",
     "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "71cd63d74f97",
+    "subject": "Gnathostomiasis",
+    "predicate": "is_associated_with",
+    "object": "Eosinophils",
+    "context": {
+      "en-US": "Peripheral blood eosinophilia — an expansion of circulating eosinophils — is a hallmark laboratory finding in both cutaneous and visceral gnathostomiasis, often exceeding 20% of the total leukocyte count, and CSF eosinophilic pleocytosis is characteristic of the eosinophilic meningitis form. Eosinophilia in a patient with migratory subcutaneous swellings and relevant travel history is highly suggestive of gnathostomiasis.",
+      "zh-TW": "周邊血液 eosinophilia（循環中 eosinophils 的擴增）是皮膚型與內臟型 gnathostomiasis 共同的典型實驗室表現，常超過總白血球計數的 20%；腦脊髓液中的嗜酸性球增多則是 eosinophilic meningitis 型的特徵。對於有移行性皮下腫脹及相關旅遊史的病人，eosinophilia 高度提示 gnathostomiasis。"
+    },
+    "confidence": 0.85,
+    "source_document": "Gnathostomiasis.md",
+    "created": "2026-09-29T17:18:44Z",
+    "updated": "2026-09-29T17:18:44Z"
+  },
+  {
+    "id": "baaa506526c3",
+    "subject": "HIV-1",
+    "predicate": "encodes",
+    "object": "TAT",
+    "context": {
+      "en-US": "HIV-1 encodes the accessory protein TAT, a transactivator of transcription required for efficient elongation of viral transcripts from the LTR promoter, alongside Rev, Vpr, Vpu, Nef and Vif. TAT also enhances transcription driven by host factor NF-κB and is exploited in research as a cell-penetrating peptide sequence fused to cargo peptides.",
+      "zh-TW": "HIV-1 會編碼附屬蛋白 TAT，它是 transactivator of transcription，對由 LTR 啟動子驅動的病毒轉錄本有效延長而言不可或缺，其他附屬蛋白還包括 Rev、Vpr、Vpu、Nef 與 Vif。TAT 亦可增強宿主因子 NF-κB 驅動的轉錄，並在研究中被利用作為與貨物胜肽融合的細胞穿透胜肽序列。"
+    },
+    "confidence": 0.95,
+    "source_document": "HIV-1.md",
+    "created": "2026-09-29T17:18:44Z",
+    "updated": "2026-09-29T17:18:44Z"
+  },
+  {
+    "id": "e9b2e76d24ed",
+    "subject": "HIV-1",
+    "predicate": "targets",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "Host factor NF-κB activates HIV-1 transcription from the viral LTR promoter, linking chronic immune activation to viral replication. The viral protein TAT cooperates with NF-κB to drive proviral transcription, and NF-κB-driven immune activation is itself one of the mechanisms that contributes to progressive CD4+ T cell depletion and AIDS.",
+      "zh-TW": "宿主因子 NF-κB 會由病毒的 LTR 啟動子活化 HIV-1 的轉錄，將慢性免疫活化與病毒複製連結起來。病毒蛋白 TAT 與 NF-κB 協同驅動前病毒轉錄，而 NF-κB 驅動的免疫活化本身也是造成 CD4+ T 細胞逐步耗竭與 AIDS 的機制之一。"
+    },
+    "confidence": 0.85,
+    "source_document": "HIV-1.md",
+    "created": "2026-09-29T17:18:44Z",
+    "updated": "2026-09-29T17:18:44Z"
+  },
+  {
+    "id": "9a8580ed55ee",
+    "subject": "HIV-1",
+    "predicate": "causes",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "HIV-1 infection depletes CD4+ T cells through several mechanisms, of which bystander apoptosis of uninfected cells is a major contributor alongside direct viral killing, pyroptosis of abortively infected cells and chronic immune activation. Apoptotic loss of bystander CD4+ T cells helps explain progressive immunodeficiency even when direct cytolysis alone would not account for the observed decline.",
+      "zh-TW": "HIV-1 感染透過數種機制耗竭 CD4+ T 細胞，其中未受感染細胞的旁觀 apoptosis 是主要貢獻者之一，與直接病毒殺傷、abortively infected 細胞的 pyroptosis 及慢性免疫活化並列。旁觀 CD4+ T 細胞的凋亡性流失，可解釋為何即使僅以直接細胞裂解也無法說明所觀察到的下降幅度。"
+    },
+    "confidence": 0.85,
+    "source_document": "HIV-1.md",
+    "created": "2026-09-29T17:18:44Z",
+    "updated": "2026-09-29T17:18:44Z"
+  },
+  {
+    "id": "c7a2192badd6",
+    "subject": "Leishmaniasis",
+    "predicate": "replicates_in",
+    "object": "Macrophages",
+    "context": {
+      "en-US": "In leishmaniasis, metacyclic promastigotes injected by the sandfly are rapidly phagocytosed by resident macrophages, inside which they transform into round, non-flagellated amastigotes within a parasitophorous vacuole. Amastigotes then multiply by binary fission until the host cell ruptures and infects neighbouring macrophages, making the macrophage the primary host cell and replicative niche of the parasite.",
+      "zh-TW": "在 leishmaniasis 中，沙蠅注入的 metacyclic promastigote 會迅速被 resident macrophages 吞噬，並在 parasitophorous vacuole 內轉變為圓形、無鞭毛的 amastigote。Amastigote 接著以二分裂增殖，直到宿主細胞破裂並感染鄰近的 macrophages，因此 macrophage 是此寄生蟲的主要宿主細胞與增殖棲位。"
+    },
+    "confidence": 0.85,
+    "source_document": "Leishmaniasis.md",
+    "created": "2026-09-29T17:18:44Z",
+    "updated": "2026-09-29T17:18:44Z"
+  },
+  {
+    "id": "8a2dfe50acdb",
+    "subject": "Albendazole",
+    "predicate": "targets",
+    "object": "Microtubule",
+    "context": {
+      "en-US": "Albendazole is the co-administered benzimidazole partner of ivermectin in lymphatic filariasis mass drug administration, and it kills adult filarial worms by targeting their intestinal microtubules. The same microtubule-destabilizing mechanism is shared with other benzimidazoles of anticancer interest, which is why the drug appears in the ivermectin-oncology repurposing literature.",
+      "zh-TW": "Albendazole 是 lymphatic filariasis mass drug administration 中與 ivermectin 併用的 benzimidazole 搭檔，藉由作用於成蟲的腸道 microtubules 殺死成蟲。相同的 destabilize microtubule 機制也見於其他具抗癌興趣的 benzimidazoles，因此該藥也出現在 ivermectin 腫瘤再定位的文獻中。"
+    },
+    "confidence": 0.85,
+    "source_document": "Lymphatic Filariasis.md",
+    "created": "2026-09-29T17:18:44Z",
+    "updated": "2026-09-29T17:18:44Z"
+  },
+  {
+    "id": "68e727c24c5d",
+    "subject": "PGP-2",
+    "predicate": "is_required_for",
+    "object": "LIPL-1",
+    "context": {
+      "en-US": "PGP-2 is a C. elegans ABC (ATP-binding cassette) transporter localized to lysosome-related organelle (LRO) membranes that is essential for their biogenesis; these LROs — the gut granules — serve as fat storage sites. PGP-2 co-localizes with the lysosomal lipases LIPL-1 and LIPL-3, and its absence results in loss of gut granules and altered lipid storage.",
+      "zh-TW": "PGP-2 是 C. elegans 的 ABC（ATP 結合盒）轉運蛋白，定位於溶酶體相關胞器（LRO）膜上，對其生成不可或缺；這些 LRO（即腸顆粒）是脂肪儲存場所。PGP-2 與溶酶體脂肪酶 LIPL-1 與 LIPL-3 共定位，其缺失會造成腸顆粒消失與脂質儲存改變。"
+    },
+    "confidence": 0.8,
+    "source_document": "PGP-2.md",
+    "created": "2026-09-29T17:18:44Z",
+    "updated": "2026-09-29T17:18:44Z"
+  },
+  {
+    "id": "88946993e220",
+    "subject": "PtdIns3P",
+    "predicate": "recruits",
+    "object": "Atg16L1",
+    "context": {
+      "en-US": "PtdIns3P is the defining lipid landmark of the autophagy initiation machinery: on the phagophore it serves as a docking platform for PX/FYVE-domain effectors, notably the WIPI family, which bind and localize Atg16L1 to drive LC3 lipidation and autophagosome expansion.",
+      "zh-TW": "PtdIns3P 是自噬起始機器的定義性脂質標記：在 phagophore 上，它作為 PX/FYVE 結構域效應蛋白（尤其是 WIPI 家族）的停靠平台，這些效應蛋白結合並定位 Atg16L1，以驅動 LC3 脂質化與 autophagosome 擴張。"
+    },
+    "confidence": 0.9,
+    "source_document": "PtdIns3P.md",
+    "created": "2026-09-29T17:18:44Z",
+    "updated": "2026-09-29T17:18:44Z"
+  },
+  {
+    "id": "3665cb70b7ff",
+    "subject": "Antioxidants",
+    "predicate": "inhibits",
+    "object": "Autoxidation",
+    "context": {
+      "en-US": "Antioxidants such as sodium metabisulfite and ascorbic acid act as sacrificial reductants that intercept propagating radicals in epinephrine preparations, slowing the chain reaction. Together with chelating agents, acidic pH buffering, inert-gas headspace purging and oxygen-impermeable packaging, they limit — but never fully eliminate — trace adrenochrome in aged formulations.",
+      "zh-TW": "Sodium Metabisulfite 與 Ascorbic Acid 等抗氧化劑作為牺牲性還原劑，在 Epinephrine 製劑中攔截傳播中的自由基、減慢鏈反應。它們與螯合劑、酸性 pH 緩衝、惰性氣體頂空置換及不透氧包裝共同作用，可減少——但絕無法完全消除——老化製劑中的微量 Adrenochrome。"
+    },
+    "confidence": 0.85,
+    "source_document": "Autoxidation.md",
+    "created": "2026-09-29T17:18:44Z",
+    "updated": "2026-09-29T17:18:44Z"
+  },
+  {
+    "id": "1d6f4722b8ed",
+    "subject": "Bisulfite",
+    "predicate": "is_a_type_of",
+    "object": "Antioxidants",
+    "context": {
+      "en-US": "Bisulfite (HSO3-), and sodium bisulfite in particular, is among the antioxidants routinely incorporated into epinephrine formulations. As a reducing agent it intercepts propagating radicals during storage, slowing the oxidative degradation of the active drug.",
+      "zh-TW": "Bisulfite（HSO3-），尤其是 Sodium Metabisulfite，是 routinely 添加於 Epinephrine 製劑中的抗氧化劑之一。作為還原劑，它在儲存期間攔截傳播中的自由基，減慢活性藥物的氧化降解。"
+    },
+    "confidence": 0.9,
+    "source_document": "Bisulfite.md",
+    "created": "2026-09-29T17:18:44Z",
+    "updated": "2026-09-29T17:18:44Z"
+  },
+  {
+    "id": "312c4f90d54a",
+    "subject": "Thioglycerol",
+    "predicate": "is_a_type_of",
+    "object": "Antioxidants",
+    "context": {
+      "en-US": "Thioglycerol is a low-molecular-weight thiol that acts as a reducing and radical-scavenging agent within the broader antioxidants class: the sulfhydryl group is oxidized to the corresponding disulfide while protecting other molecules, and thiol-disulfide exchange helps maintain a reduced environment.",
+      "zh-TW": "Thioglycerol 是一種低分子量硫醇，在更廣義的 Antioxidants 類別中作為還原劑與自由基清除劑：其硫氫基被氧化為相應的雙硫鍵，同時保護其他分子免於氧化，而硫醇—雙硫鍵交換則有助於維持還原性環境。"
+    },
+    "confidence": 0.85,
+    "source_document": "Thioglycerol.md",
+    "created": "2026-09-29T17:18:44Z",
+    "updated": "2026-09-29T17:18:44Z"
+  },
+  {
+    "id": "52f34058b135",
+    "subject": "Apolipoprotein B",
+    "predicate": "is_a_component_of",
+    "object": "LDL",
+    "context": {
+      "en-US": "Apolipoprotein B is the primary apolipoprotein of chylomicrons and LDL particles, and its B100 form serves as the ligand for the LDL receptor, making it essential for lipoprotein assembly and metabolism. LDL oxidation alters the apoB protein moiety through fragmentation and cross-linking of reactive aldehydes and oxysterols; resveratrol reduces this radical-induced alteration and chelates copper bound to apoB. Elevated apoB-containing lipoproteins drive plaque formation.",
+      "zh-TW": "Apolipoprotein B 是乳糜微粒與 LDL 顆粒的主要載脂蛋白，其 B100 形式作為 LDL receptor 的配體，因此對脂蛋白組裝與代謝至關重要。LDL 氧化會透過活性醛與氧化膽固醇的斷裂與交聯改變 apoB 蛋白部分；resveratrol 可減少此自由基誘發的變化並螯合結合於 apoB 的銅。含 apoB 的脂蛋白濃度升高會驅動斑塊形成。"
+    },
+    "confidence": 0.9,
+    "source_document": "Apolipoprotein B.md",
+    "created": "2026-09-29T17:18:44Z",
+    "updated": "2026-09-29T17:18:44Z"
+  },
+  {
+    "id": "9366b66f2acb",
+    "subject": "Creatine Transporters (CRTR)",
+    "predicate": "includes",
+    "object": "SLC6A8",
+    "context": {
+      "en-US": "Creatine transporters are sodium- and chloride-dependent symporters of the SLC6 family, of which SLC6A8 (CT1) is the principal isoform mediating cellular creatine uptake. SLC6A8 is expressed in brain, muscle, heart, and at the blood-brain and blood-CSF barriers, and imported creatine feeds the creatine phosphate shuttle via creatine kinase.",
+      "zh-TW": "creatine transporter 是 SLC6 家族的鈉與氯依賴性同向運輸體，其中 SLC6A8（CT1）是負責細胞攝取 creatine 的主要異型酶。SLC6A8 表現於腦、肌肉、心臟以及 blood-brain 與血腦脊髓液屏障，而攝入的 creatine 透過 creatine kinase 供應 Creatine Phosphate Shuttle。"
+    },
+    "confidence": 0.8,
+    "source_document": "Creatine Transporters (CRTR).md",
+    "created": "2026-09-29T17:18:44Z",
+    "updated": "2026-09-29T17:18:44Z"
+  },
+  {
+    "id": "d5fd88a0ee84",
+    "subject": "IL-1alpha",
+    "predicate": "is_released_during",
+    "object": "Pyroptosis",
+    "context": {
+      "en-US": "Unlike IL-1β, IL-1alpha is constitutively bioactive and needs no inflammasome cleavage. It escapes fully potent through Gasdermin D pores during pyroptosis, co-released with IL-1β, HMGB1 and mtDNA as a lytic alarm signal.",
+      "zh-TW": "與 IL-1β 不同，IL-1alpha 具有組成性活性，不需發炎小體切割。在 pyroptosis 過程中它經由 Gasdermin D 孔洞以完全活性的形式釋放，與 IL-1β、HMGB1 及 mtDNA 一同釋出，作為裂解性警報訊號。"
+    },
+    "confidence": 0.9,
+    "source_document": "IL-1alpha.md",
+    "created": "2026-09-29T17:18:44Z",
+    "updated": "2026-09-29T17:18:44Z"
+  },
+  {
+    "id": "9e72664bae17",
+    "subject": "IL-1alpha",
+    "predicate": "activates",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "Extracellular IL-1alpha binds IL-1R1, which recruits IL-1RAcP and MyD88 to activate NF-κB and MAPK in neighboring cells, so a lytic release event converts membrane rupture into a defined inflammatory signal.",
+      "zh-TW": "細胞外的 IL-1alpha 與 IL-1R1 結合，後者招募 IL-1RAcP 與 MyD88，在鄰近細胞中活化 NF-κB 與 MAPK，因此裂解性釋放事件可將膜破裂轉化為明確的發炎訊號。"
+    },
+    "confidence": 0.9,
+    "source_document": "IL-1alpha.md",
+    "created": "2026-09-29T17:18:44Z",
+    "updated": "2026-09-29T17:18:44Z"
+  },
+  {
+    "id": "3499a33208fa",
+    "subject": "IL-1alpha",
+    "predicate": "is_released_during",
+    "object": "Necrosis",
+    "context": {
+      "en-US": "During accidental necrotic rupture IL-1alpha leaks passively as a sterile-inflammation driver alongside HMGB1. Calpain-processed forms add a regulated-release route in some myeloid settings.",
+      "zh-TW": "在意外發生的壞死性膜破裂中，IL-1alpha 與 HMGB1 一同以被動方式外漏，成為無菌性發炎的驅動因子。在某些髓系細胞情境下，calpain 切割後的形式則提供了一條受調控的釋放途徑。"
+    },
+    "confidence": 0.85,
+    "source_document": "IL-1alpha.md",
+    "created": "2026-09-29T17:18:44Z",
+    "updated": "2026-09-29T17:18:44Z"
+  },
+  {
+    "id": "86ce29298a32",
+    "subject": "IL-1alpha",
+    "predicate": "differs_from",
+    "object": "IL-1β",
+    "context": {
+      "en-US": "IL-1alpha is the constitutively bioactive alarmin whose precursor needs no processing, whereas IL-1β requires inflammasome maturation before secretion. The two are co-released during pyroptosis and together define the total IL-1R1 signaling load.",
+      "zh-TW": "IL-1alpha 是組成性活性的 alarmine，其前驅物不需加工即可作用；相對地，IL-1β 必須經發炎小體成熟後才能分泌。兩者在 pyroptosis 期間共同釋放，共同決定 IL-1R1 訊號的總負荷。"
+    },
+    "confidence": 0.85,
+    "source_document": "IL-1alpha.md",
+    "created": "2026-09-29T17:18:44Z",
+    "updated": "2026-09-29T17:18:44Z"
   }
 ]
