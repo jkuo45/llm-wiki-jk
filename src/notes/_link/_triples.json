@@ -33024,5 +33024,957 @@
     "source_document": "RHEB-1.md",
     "created": "2026-09-29T14:41:25Z",
     "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "f900351c5284",
+    "subject": "Rab7",
+    "predicate": "is_required_for",
+    "object": "Lysosome",
+    "context": {
+      "en-US": "Rab7 is a small Ras-related GTPase that defines late endosomal and lysosomal identity and governs the terminal steps of degradative membrane traffic. In its GTP-bound state on late endosomal membranes Rab7 drives the maturation of endosomes into lysosomes and is indispensable for the fusion of mature autophagosomes with late endosomes and lysosomes to form autolysosomes, thereby enabling autophagic degradation within the lysosomal lumen.",
+      "zh-TW": "Rab7 是一個小的 Ras 相關 GTP 酶，定義晚內體與溶酶體的身分，並調控降解性膜運輸的最後步驟。在晚內體膜上處於 GTP 結合狀態時，Rab7 驅動內體成熟為溶酶體，對成熟自噬體與晚內體／溶酶體融合形成自噬溶酶體是不可或缺的，藉此在溶酶體腔內進行自噬降解。"
+    },
+    "confidence": 0.95,
+    "source_document": "Rab7.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "834e301e03e0",
+    "subject": "Rab7",
+    "predicate": "mediates",
+    "object": "Autophagosome",
+    "context": {
+      "en-US": "Active Rab7 recruits tethering and fusion machinery that bridges SNARE complexes such as syntaxin 17, promoting membrane merger of autophagosomes with lysosomes. Loss of Rab7 or dominant-negative Rab7 mutants arrest autophagosomes as undigested vesicles and elevate p62 and LC3-II, the classic markers of impaired autophagic flux despite normal autophagosome formation.",
+      "zh-TW": "活化的 Rab7 招募連接與融合機制，橋接如 syntaxin 17 等 SNARE 複合體，促進自噬體與溶酶體的膜融合。Rab7 缺失或表現顯性負效應突變會使自噬體停滯為未消化囊泡，並提高 p62 與 LC3-II（自噬流受阻的典型標記），儘管自噬體形成本身正常。"
+    },
+    "confidence": 0.9,
+    "source_document": "Rab7.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "5887c9c9f9d4",
+    "subject": "Rab7",
+    "predicate": "is_activated_by",
+    "object": "Rab5",
+    "context": {
+      "en-US": "Rab7 activation occurs as endosomes mature: the early endosome-specific GTPase Rab5, together with PtdIns3P, is replaced by late endosome-specific Rab7 and PtdIns(3,5)P2, with the Mon1–Ccz1 complex acting as Rab7's major GEF. Rab7 dysfunction thus reflects failure of the Rab5-to-Rab7 handoff during endolysosomal maturation.",
+      "zh-TW": "Rab7 的活化發生在內體成熟過程中：內體特異的 GTP 酶 Rab5 與 PtdIns3P 被晚內體特異的 Rab7 與 PtdIns(3,5)P2 取代，其中 Mon1–Ccz1 複合體是 Rab7 的主要 GEF。因此 Rab7 的功能失調反映了內體成熟過程中 Rab5 到 Rab7 交接的失敗。"
+    },
+    "confidence": 0.8,
+    "source_document": "Rab7.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "289febf665f9",
+    "subject": "Rab7",
+    "predicate": "promotes",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Rab7 participates in endo-lysosomal positioning, clustering degradative organelles perinuclearly under nutrient stress to facilitate Autophagy. Conversely, defective Rab7-mediated fusion contributes to accumulation of protein aggregates in Neurodegeneration and impairs clearance in Aging, while pathogens and oncogenic signals modulate Rab7 to evade xenophagy or sustain proliferative metabolism in Cancer.",
+      "zh-TW": "Rab7 參與內體－溶酶體的定位，在營養壓力下將降解性胞器聚集於核周以促進自噬。反之，Rab7 介導的融合缺陷會促成神經退化性疾病中蛋白聚集體的累積，並在老化中損害清除能力；病原體與致癌訊號則藉由調節 Rab7 以逃避異源自噬或維持腫瘤的增殖性代謝。"
+    },
+    "confidence": 0.75,
+    "source_document": "Rab7.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "d3cd6d478bd7",
+    "subject": "Rapalog",
+    "predicate": "is_a_type_of",
+    "object": "Rapamycin",
+    "context": {
+      "en-US": "Rapalogs are derivatives of Rapamycin (also known as sirolimus) that act as allosteric inhibitors of mTOR. Members of the class include Everolimus (RAD001), Temsirolimus and Ridaforolimus. Because they are rapamycin analogues, rapalogs share the mTOR-binding mechanism of the parent compound while differing in pharmacokinetic properties.",
+      "zh-TW": "Rapalog 是 Rapamycin（又称 sirolimus）的衍生物，作為 mTOR 的異構性抑制劑。該類成員包括 Everolimus（RAD001）、Temsirolimus 與 Ridaforolimus。由於屬於 rapamycin 的類似物，Rapalog 與母體化合物共享 mTOR 結合機制，但在藥代動力學特性上有所不同。"
+    },
+    "confidence": 0.95,
+    "source_document": "Rapalog.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "bd0468e0c7c1",
+    "subject": "Rapalog",
+    "predicate": "inhibits",
+    "object": "mTORC1",
+    "context": {
+      "en-US": "Rapalogs are allosteric inhibitors of mTOR that act preferentially on mTORC1 and thereby induce Autophagy. Highly mTORC1-selective rapalogs are desired in the clinic to avoid the adverse effects on glucose tolerance that arise from mTORC2 inhibition, which is why rapalogs are widely used in Cancer therapy and as immunosuppressive agents in organ transplantation.",
+      "zh-TW": "Rapalog 是 mTOR 的異構性抑制劑，主要作用於 mTORC1，進而誘導自噬。臨床上希望有高度 mTORC1 選擇性的 Rapalog，以避免因抑制 mTORC2 而造成的葡萄糖耐受不良；因此 Rapalog 廣泛用於癌症治療與器官移植的免疫抑制。"
+    },
+    "confidence": 0.9,
+    "source_document": "Rapalog.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "0f8f62d4ad25",
+    "subject": "Rapalog",
+    "predicate": "induces",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "By inhibiting mTORC1, rapalogs relieve the tonic brake on autophagy initiation and induce Autophagy. This property underlies their investigation as geroprotective treatments for age-associated diseases such as COVID-19 and Osteoarthritis, alongside their established immunosuppressive and anticancer roles.",
+      "zh-TW": "藉由抑制 mTORC1，Rapalog 解除對自噬起始的持續性抑制並誘導自噬。這項性質使它們除了既定的免疫抑制與抗癌用途外，也被研究作為 COVID-19 與骨關節炎等年齡相關疾病的延緩老化治療。"
+    },
+    "confidence": 0.85,
+    "source_document": "Rapalog.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "6c6d347e776a",
+    "subject": "Raptor",
+    "predicate": "is_a_component_of",
+    "object": "mTORC1",
+    "context": {
+      "en-US": "Regulatory-associated protein of mTOR (Raptor) is an essential scaffold component of mTORC1. As the structural backbone of the five-subunit complex, Raptor regulates mTORC1 assembly and activity and is the subunit through which nutrient-loaded Rag GTPases recruit the complex to the lysosomal surface in nutrient-rich conditions.",
+      "zh-TW": "mTOR 的調節相關蛋白 Raptor 是 mTORC1 不可或缺的支架成分。作為這五次單元複合體的結構骨架，Raptor 調控 mTORC1 的組裝與活性，也是富含營養時攜帶營養的 Rag GTP 酶把複合體招募到溶酶體表面的次單元。"
+    },
+    "confidence": 0.95,
+    "source_document": "Raptor.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "453d8562f0a1",
+    "subject": "Raptor",
+    "predicate": "recruits",
+    "object": "S6K1",
+    "context": {
+      "en-US": "Raptor is the substrate-binding scaffold of mTORC1, docking canonical substrates such as S6K1 and 4E-BP1 through their TOS motifs. This short linear motif engagement is what allows mTORC1 to phosphorylate these effectors and thereby control translation initiation and growth.",
+      "zh-TW": "Raptor 是 mTORC1 的受體結合支架，透過 TOS 序列停靠 S6K1 與 4E-BP1 等典型受體。正是這種短線性序列的結合，使 mTORC1 能磷酸化這些效應蛋白，進而控制轉譯起始與生長。"
+    },
+    "confidence": 0.9,
+    "source_document": "Raptor.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "9ee8fbe2811e",
+    "subject": "Raptor",
+    "predicate": "targets",
+    "object": "Lysosome",
+    "context": {
+      "en-US": "Raptor interacts with RagA/B GTP–RagC/D GDP heterodimers to tether mTORC1 to the lysosome in nutrient-abundant conditions, where the lysosomal surface functions as the platform for mTORC1 activation by Rheb. Without this Raptor-mediated recruitment the complex cannot be positioned where its kinase action is coupled to luminal nutrient levels.",
+      "zh-TW": "Raptor 與 RagA/B GTP–RagC/D GDP 異二聚體結合，在營養充足時把 mTORC1 錨定到溶酶體表面；該處正是 Rheb 活化 mTORC1 的平台。若缺乏 Raptor 介導的招募，複合體便無法被定位到其激酶作用與腔內營養濃度相耦合的位置。"
+    },
+    "confidence": 0.85,
+    "source_document": "Raptor.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "18f4d18cc06d",
+    "subject": "Rictor",
+    "predicate": "is_a_component_of",
+    "object": "mTORC2",
+    "context": {
+      "en-US": "Rapamycin-insensitive companion of mTOR (Rictor) is a core component of mTORC2, essential for the structural integrity and kinase activity of the six-protein complex. Rictor scaffolds mTOR, mSIN1, Protor-1 and mLST8, and its rapamycin-insensitivity is what gives mTORC2 its name.",
+      "zh-TW": "Rapamycin 不敏感的 mTOR 伴隨蛋白 Rictor 是 mTORC2 的核心成分，對這個六蛋白複合體的結構完整性與激酶活性不可或缺。Rictor 支架化 mTOR、mSIN1、Protor-1 與 mLST8，而其對 rapamycin 的不敏感性正是 mTORC2 命名之由來。"
+    },
+    "confidence": 0.95,
+    "source_document": "Rictor.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "c0607dd2ab44",
+    "subject": "Rictor",
+    "predicate": "scaffolds",
+    "object": "mSIN1",
+    "context": {
+      "en-US": "Within mTORC2, Rictor acts as the organizing scaffold holding together mTOR, mSIN1, Protor-1 and mLST8. Loss of Rictor destabilizes the assembled complex, and it is this scaffolding role that permits the complex to phosphorylate its downstream effectors such as Akt at S473 and SGK1.",
+      "zh-TW": "在 mTORC2 中，Rictor 作為組織性支架，將 mTOR、mSIN1、Protor-1 與 mLST8 維繫在一起。Rictor 缺失會使組裝好的複合體不穩定，而正是這種支架功能讓複合體得以磷酸化其下游效應蛋白，如 Akt 的 S473 與 SGK1。"
+    },
+    "confidence": 0.85,
+    "source_document": "Rictor.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "1c3a24b84611",
+    "subject": "S-sulfhydration",
+    "predicate": "enhances",
+    "object": "TFEB",
+    "context": {
+      "en-US": "S-sulfhydration (persulfidation) is the post-translational modification of cysteine thiols to persulfides (-SSH) by hydrogen sulfide. TFEB undergoes S-sulfhydration at C212, and the modification enhances TFEB activity by promoting its nuclear translocation, the switch that turns on lysosomal biogenesis and autophagy genes.",
+      "zh-TW": "S-硫氫化（persulfidation）是硫化氫將半胱胺酸硫醇修飾為過硫化物（-SSH）的轉譯後修飾。TFEB 在 C212 發生 S-硫氫化，該修飾藉由促進其核轉位而增強 TFEB 活性，也就是打開溶酶體生成與自噬基因的開關。"
+    },
+    "confidence": 0.9,
+    "source_document": "S-sulfhydration.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "d7595acf018c",
+    "subject": "S-sulfhydration",
+    "predicate": "induces",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Hydrogen sulfide donors such as NaHS and GYY4137 induce Autophagy via TFEB nuclear translocation and AMPK activation. Because S-sulfhydration enhances the activity of TFEB, Keap1 and GAPDH, this H2S-driven modification has therapeutic potential in Myocardial Ischemia-Reperfusion Injury and Neurodegeneration.",
+      "zh-TW": "硫化氫供體如 NaHS 與 GYY4137 會透過 TFEB 核轉位與 AMPK 活化誘導自噬。由於 S-硫氫化可增強 TFEB、Keap1 與 GAPDH 的活性，這條由 H2S 驅動的修飾在心肌缺血再灌注損傷與神經退化性疾病中具有治療潛力。"
+    },
+    "confidence": 0.8,
+    "source_document": "S-sulfhydration.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "1d5707ab9871",
+    "subject": "SGK1",
+    "predicate": "is_activated_by",
+    "object": "mTORC2",
+    "context": {
+      "en-US": "Serum- and glucocorticoid-induced protein kinase 1 (SGK1) is an AGC family kinase that is activated by mTORC2. mTORC2 phosphorylates SGK1 at S422 and PDK1 at T256, and unlike Akt — which retains basal activity when mTORC2 is inhibited — SGK1 activity is totally abrogated under those conditions, making SGK1 a faithful readout of mTORC2 signalling.",
+      "zh-TW": "血清與糖皮質激素誘導蛋白激酶 1（SGK1）是 AGC 激酶家族成員，由 mTORC2 活化。mTORC2 在 S422 磷酸化 SGK1，PDK1 在 T256 磷酸化；與在 mTORC2 受抑制時仍保有基礎活性的 Akt 不同，SGK1 的活性在此條件下會完全消失，因此 SGK1 是 mTORC2 訊號的忠实讀出。"
+    },
+    "confidence": 0.9,
+    "source_document": "SGK1.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "fce9200fbe1b",
+    "subject": "SGK1",
+    "predicate": "regulates",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "SGK1 is a member of the AGC family of kinases that shares functional similarities with Akt in regulating cell survival and stress responses. Downstream of mTORC2 it regulates ion transport, cell survival and Autophagy, placing it at the intersection of growth signalling and the stress-response machinery that governs autophagic induction.",
+      "zh-TW": "SGK1 是 AGC 激酶家族成員，在調節細胞存活與壓力反應上與 Akt 具有功能相似性。在 mTORC2 下游，SGK1 調節離子運輸、細胞存活與自噬，位於生長訊號與調控自噬誘發的壓力反應機制的交會處。"
+    },
+    "confidence": 0.75,
+    "source_document": "SGK1.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "2daa756c6cc6",
+    "subject": "SLC36A1-4",
+    "predicate": "exports",
+    "object": "Lysosome",
+    "context": {
+      "en-US": "SLC36A1-4 (PAT1–PAT4) are proton-coupled amino acid transporters; the lysosomal isoforms PAT1/SLC36A1 and PAT4/SLC36A4 face the lumen and release neutral amino acids such as glycine, alanine and proline to the cytosol, using the inward proton gradient maintained by the V-ATPase. They are secondary-active symporters coupling amino acid efflux to proton influx.",
+      "zh-TW": "SLC36A1-4（PAT1–PAT4）是質子偶聯胺基酸轉運蛋白；溶酶體型的 PAT1/SLC36A1 與 PAT4/SLC36A4 朝向腔內，利用由 V-ATPase 維持的向內質子梯度，將甘胺酸、丙胺酸、脯胺酸等中性胺基酸釋放至細胞質。它們是將胺基酸外流與質子內流偶聯的次級主動同向轉運蛋白。"
+    },
+    "confidence": 0.9,
+    "source_document": "SLC36A1-4.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "d6a6bff572a5",
+    "subject": "SLC36A1-4",
+    "predicate": "activates",
+    "object": "mTORC1",
+    "context": {
+      "en-US": "Lysosomal PAT1 exports the products of autophagic proteolysis into the cytosol, raising cytosolic amino acid pools that — together with the Ragulator–Rag proteins arginine-sensing axis — support mTORC1 activation. Inhibition or depletion of PAT1 conversely reduces amino-acid-dependent mTORC1 signalling and promotes autophagy, closing the loop between lysosomal catabolism and anabolism.",
+      "zh-TW": "溶酶體的 PAT1 將自噬蛋白水解的產物輸出至細胞質，提高細胞質胺基酸儲量；這些胺基酸與 Ragulator–Rag proteins 的精胺酸感測軸共同支持 mTORC1 活化。反之，抑制或耗竭 PAT1 會降低胺基酸依賴性的 mTORC1 訊號並促進自噬，於是連結了溶酶體分解代謝與合成代謝。"
+    },
+    "confidence": 0.85,
+    "source_document": "SLC36A1-4.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "5dfac27e7a65",
+    "subject": "SLC36A1-4",
+    "predicate": "regulates",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "By moving amino acids out of the lysosomal lumen into the cytosol, the SLC36 family connects lysosomal catabolism to cellular nutrient sensing and modulates mTORC1 activity, thereby influencing Autophagy and lysosomal homeostasis. Depleting a member such as PAT1 relieves mTORC1 inhibition and increases autophagic flux.",
+      "zh-TW": "SLC36 家族將胺基酸由溶酶體腔移至細胞質，把溶酶體分解代謝連結到細胞的營養感測並調節 mTORC1 活性，進而影響自噬與溶酶體恆定。耗竭 PAT1 這類成員可解除對 mTORC1 的抑制並提高自噬流。"
+    },
+    "confidence": 0.8,
+    "source_document": "SLC36A1-4.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "cf796e96636d",
+    "subject": "SLC38A9",
+    "predicate": "activates",
+    "object": "mTORC1",
+    "context": {
+      "en-US": "SLC38A9 is a lysosomal sodium-coupled amino acid transporter that also acts as a lysosomal arginine sensor. When luminal arginine is present SLC38A9 engages the Ragulator–Rag proteins complex to promote GTP-loading of RagA/B, recruiting mTORC1 to the lysosomal surface where it is activated by Rheb; autophagy is consequently suppressed.",
+      "zh-TW": "SLC38A9 是溶酶體的鈉偶聯胺基酸轉運蛋白，同時也是溶酶體精胺酸感測器。當腔內存在精胺酸時，SLC38A9 與 Ragulator–Rag proteins 複合體結合以促進 RagA/B 的 GTP 載入，把 mTORC1 招募到溶酶體表面並由 Rheb 活化，結果是自噬受到抑制。"
+    },
+    "confidence": 0.9,
+    "source_document": "SLC38A9.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "2579bdfe751f",
+    "subject": "SLC38A9",
+    "predicate": "binds",
+    "object": "Ragulator",
+    "context": {
+      "en-US": "SLC38A9 binds and transports cationic amino acids — principally arginine and lysine — from the lysosomal lumen using the inward Na+ gradient, and in its sensor capacity allosterically communicates lysosomal arginine availability to Ragulator. Cryo-EM structures show a canonical LeuT-fold architecture with a lysosomal-facing binding site that distinguishes cationic residues.",
+      "zh-TW": "SLC38A9 利用向內的 Na+ 梯度結合並轉運來自溶酶體腔的陽離子胺基酸（主要是精胺酸與離胺酸），並在感測功能上以異構方式將溶酶體內的精胺酸可用性傳遞給 Ragulator。冷凍電顯結構顯示其為典型 LeuT 摺疊架構，具有朝溶酶體側、能區辨陽離子殘基的結合位點。"
+    },
+    "confidence": 0.85,
+    "source_document": "SLC38A9.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "81e9fc25133d",
+    "subject": "SLC38A9",
+    "predicate": "inhibits",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Amino acid starvation or SLC38A9 loss reduces Rag activation, dissociates mTORC1 from the lysosome and de-represses TFEB/TFE3 to induce lysosomal biogenesis and autophagic flux. SLC38A9 thus sits at the apex of the amino acid–mTORC1–autophagy axis and is required for mTORC1 reactivation after starvation refeeding.",
+      "zh-TW": "胺基酸飢餓或 SLC38A9 缺失會降低 Rag 活化、使 mTORC1 與溶酶體解離，並解除對 TFEB/TFE3 的抑制以誘導溶酶體生成與自噬流。SLC38A9 因此位於胺基酸–mTORC1–自噬軸的頂端，且為飢餓後再餵食時 mTORC1 重新活化所必需。"
+    },
+    "confidence": 0.8,
+    "source_document": "SLC38A9.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "9ab36fb0ffa3",
+    "subject": "SMAD3",
+    "predicate": "is_phosphorylated_by",
+    "object": "TGFβ",
+    "context": {
+      "en-US": "SMAD3 is the receptor-regulated (R-SMAD) transcription factor that mediates signalling from the TGFβ superfamily. It is directly phosphorylated at C-terminal serines in the SSXS motif by the TGFBR1 (ALK5) receptor kinase upon TGF-β ligand binding, then heteromerises with SMAD4 and translocates to the nucleus to regulate target gene transcription with co-activators such as P300 and Ski.",
+      "zh-TW": "SMAD3 是受體調控型（R-SMAD）轉錄因子，負責傳遞 TGFβ 超家族的訊號。在 TGF-β 配體結合時，SMAD3 由 TGFBR1（ALK5）受體激酶直接在其 SSXS 序列的 C 端絲胺酸磷酸化，隨後與 SMAD4 形成異源複合體並轉位入核，與 P300、Ski 等輔活化因子共同調控標的基因轉錄。"
+    },
+    "confidence": 0.9,
+    "source_document": "SMAD3.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "7a95966ea6dc",
+    "subject": "SMAD3",
+    "predicate": "represses",
+    "object": "TFEB",
+    "context": {
+      "en-US": "SMAD3 is a critical negative regulator of autophagy through its repression of TFEB. Hyperactivated SMAD3 — under diabetic conditions or chronic TGF-β stimulation — binds the 3'-UTR of the TFEB gene and inhibits its transcription; reduced TFEB expression leads to lysosomal depletion, impaired autophagic clearance, and accumulation of protein aggregates and damaged organelles.",
+      "zh-TW": "SMAD3 透過抑制 TFEB 成為自噬的關鍵負向調節因子。在糖尿病狀態或長期 TGF-β 刺激下，過度活化的 SMAD3 會結合 TFEB 基因的 3'-UTR 並抑制其轉錄；TFEB 表現降低導致溶酶體耗竭、自噬清除受損，以及蛋白聚集體與受損胞器的累積。"
+    },
+    "confidence": 0.9,
+    "source_document": "SMAD3.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "16176642227a",
+    "subject": "SMAD3",
+    "predicate": "promotes",
+    "object": "Fibrosis",
+    "context": {
+      "en-US": "SMAD3 is the primary TGF-β effector driving pathological fibrosis. It directly activates transcription of extracellular matrix genes such as COL1A1 in fibroblasts and myofibroblasts, and Smad3-knockout mice are protected from bleomycin-induced pulmonary fibrosis and carbon tetrachloride-induced liver fibrosis. SMAD3 also promotes EMT, contributing to fibroblast expansion in fibrotic organs.",
+      "zh-TW": "SMAD3 是驅動病理性纖維化的主要 TGF-β 效應因子。它在纖維母細胞與肌纖維母細胞中直接活化細胞外基質基因（如 COL1A1）的轉錄，而 Smad3 基因剔除小鼠可免於博來黴素誘發的肺纖維化與四氯化碳誘發的肝纖維化。SMAD3 也促進 EMT，使纖維化器官中的纖維母細胞擴增。"
+    },
+    "confidence": 0.9,
+    "source_document": "SMAD3.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "9dbb2bfed209",
+    "subject": "SIRT6",
+    "predicate": "suppresses",
+    "object": "SMAD3",
+    "context": {
+      "en-US": "SIRT6 suppresses the SMAD3 transcriptional axis by deacetylating H3K9 at SMAD3 target gene promoters, which reduces pro-fibrotic gene expression. This sirtuin-mediated counterbalance also attenuates EMT by suppressing the TGF-beta1/SMAD3 pathway, providing a brake on the fibrotic output of TGF-β signalling.",
+      "zh-TW": "SIRT6 藉由在 SMAD3 標的基因的啟動子上去乙醯化 H3K9，抑制 SMAD3 的轉錄軸，進而降低促纖維化基因的表現。這條 sirtuin 介導的制衡也透過抑制 TGF-beta1/SMAD3 路徑而減輕 EMT，為 TGF-β 訊號的纖維化輸出提供煞車。"
+    },
+    "confidence": 0.85,
+    "source_document": "SMAD3.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "af1f97646866",
+    "subject": "SIRT7",
+    "predicate": "deacetylates",
+    "object": "SMAD3",
+    "context": {
+      "en-US": "SIRT7 deacetylates SMAD3 directly, reducing its transcriptional activity and pro-fibrotic output. Whereas SIRT6 acts indirectly at chromatin by deacetylating H3K9, SIRT7 removes acetyl groups from the SMAD3 protein itself, providing a second, distinct point of control over the same transcriptional effector.",
+      "zh-TW": "SIRT7 直接去乙醯化 SMAD3，降低其轉錄活性與促纖維化輸出。相較於 SIRT6 在染色質層級藉由去乙醯化 H3K9 而間接作用，SIRT7 是移除 SMAD3 蛋白本身上的乙醯基，為同一轉錄效應因子提供第二個不同的調控點。"
+    },
+    "confidence": 0.8,
+    "source_document": "SMAD3.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "6f7d10e336e5",
+    "subject": "SNARE proteins",
+    "predicate": "mediate",
+    "object": "Autophagosome",
+    "context": {
+      "en-US": "SNARE proteins are a large family of proteins that mediate membrane fusion between organelles, including the fusion of autophagosomes with lysosomes. Autophagosome-specific SNARE components such as STX17, SNAP29 and VAMP8 drive the tethering-and-merge step, with STX17 recruited to the completed autophagosome for fusion.",
+      "zh-TW": "SNARE proteins 是一大族介導胞器間膜融合的蛋白質，包括自噬體與溶酶體的融合。自噬體特異的 SNARE 成分如 STX17、SNAP29 與 VAMP8 驅動連接與融合步驟，其中 STX17 被招募至已完成的自噬體以進行融合。"
+    },
+    "confidence": 0.9,
+    "source_document": "SNARE proteins.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "34448f700bcf",
+    "subject": "SNARE proteins",
+    "predicate": "mediates",
+    "object": "Lysosome",
+    "context": {
+      "en-US": "SNARE proteins mediate membrane fusion between organelles such as the fusion of autophagosomes or phagosomes with lysosomes. The autophagosome–lysosome fusion that these SNAREs execute is itself regulated by nutrients, linking membrane-fusion control to the nutrient status of the cell.",
+      "zh-TW": "SNARE proteins 介導胞器間的膜融合，例如自噬體或吞噬體與溶酶體的融合。這些 SNARE 所執行的自噬體－溶酶體融合本身受營養狀態調控，使膜融合的控制與細胞的營養狀況相連結。"
+    },
+    "confidence": 0.85,
+    "source_document": "SNARE proteins.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "00dbcb0b69e4",
+    "subject": "SREBP1",
+    "predicate": "regulates",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "SREBP1 is a transcription factor controlling lipid biosynthesis genes for fatty acids, triglycerides and phospholipids, and autophagy and lipogenesis are coordinately regulated by mTORC1 to balance lipid anabolism and catabolism. Because the same mTORC1 node drives both SREBP1-dependent lipogenesis and autophagic initiation, lipid synthesis and lipid turnover are reciprocally constrained.",
+      "zh-TW": "SREBP1 是控制脂肪酸、三酸甘油酯與磷脂質等脂質生合成基因的轉錄因子，而自噬與脂質生合成受 mTORC1 協調調控，以平衡脂質合成代謝與分解代謝。由於同一個 mTORC1 節點同時驅動 SREBP1 依賴的脂質生成與自噬起始，脂質合成與脂質周轉因此互相制約。"
+    },
+    "confidence": 0.8,
+    "source_document": "SREBP1.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "5cce88b9e286",
+    "subject": "mTORC1",
+    "predicate": "activates",
+    "object": "SREBP1",
+    "context": {
+      "en-US": "SREBP1 is a master transcription factor for lipid and cholesterol homeostasis whose activity is positively regulated by mTORC1. mTORC1 activates SREBP1 via S6K1 and LIPIN1, so that when nutrients are abundant the lipogenic program is switched on together with growth signalling and autophagy is held in check.",
+      "zh-TW": "SREBP1 是脂質與膽固醇恆定的主要轉錄因子，其活性受 mTORC1 正向調節。mTORC1 透過 S6K1 與 LIPIN1 活化 SREBP1，因此當營養充足時，脂質生成程序與生長訊號一同被開啟，而自噬受到抑制。"
+    },
+    "confidence": 0.9,
+    "source_document": "SREBP1.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "5edfaaab99b9",
+    "subject": "SUMOylation",
+    "predicate": "attenuates",
+    "object": "TFEB",
+    "context": {
+      "en-US": "SUMOylation is a reversible post-translational modification in which Small Ubiquitin-like Modifier proteins are covalently attached to lysine residues of target proteins. SUMOylation of TFEB at K316 attenuates its transcriptional activity, dampening expression of lysosomal and autophagy genes; like ubiquitylation it proceeds through an E1 activating enzyme (SAE1/SAE2), the E2 UBC9 and E3 ligases, but it modulates protein interactions, localization and stability rather than directing degradation.",
+      "zh-TW": "SUMOylation 是一種可逆的轉譯後修飾，Sumo 類泛素修飾蛋白被共價連接到目標蛋白的離胺酸殘基上。TFEB 在 K316 的 SUMOylation 會削弱其轉錄活性，壓低溶酶體與自噬基因的表現；與泛素化相同，它經由 E1 活化酶（SAE1/SAE2）、E2 UBC9 與 E3 連接酶進行，但它調節的是蛋白質交互作用、定位與穩定性，而非導向降解。"
+    },
+    "confidence": 0.9,
+    "source_document": "SUMOylation.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "3ef4ae8e327e",
+    "subject": "SUMOylation",
+    "predicate": "regulates",
+    "object": "ULK1",
+    "context": {
+      "en-US": "In Autophagy, SUMOylation dynamically regulates key nodes including ULK1, TFEB and GABARAP, balancing autophagic induction against lysosomal biogenesis. ULK1 SUMOylation influences its kinase activity and interaction with downstream ATG factors, modulating initiation under stress, while GABARAP family members — key LC3 paralogs for autophagosome closure — are SUMO-regulated to control their membrane association and flux.",
+      "zh-TW": "在自噬中，SUMOylation 動態調節 ULK1、TFEB 與 GABARAP 等關鍵節點，在自噬誘發與溶酶體生成之間取得平衡。ULK1 的 SUMOylation 影響其激酶活性與下游 ATG 因子的交互作用，調節壓力下的起始步驟；而作為自噬體閉合關鍵 LC3 旁系同源的 GABARAP 家族成員，也受 SUMO 調節以控制其膜結合與通量。"
+    },
+    "confidence": 0.85,
+    "source_document": "SUMOylation.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "60377f0493cc",
+    "subject": "SUMOylation",
+    "predicate": "regulates",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "The balance of SUMOylation versus de-SUMOylation by SENP proteases sets the threshold for autophagic induction and autophagic–lysosomal maturation. Altered SUMOylation is implicated in Neurodegeneration, where impaired clearance of SUMO-modified aggregates accumulates, and in Cancer, where SUMO pathway enzymes are dysregulated to support proliferation and stress survival.",
+      "zh-TW": "SUMOylation 與由 SENP 蛋白酶執行的去 SUMOylation 之間的平衡，決定了自噬誘發與自噬－溶酶體成熟的閾值。SUMOylation 的異常與神經退化性疾病相關（SUMO 修飾聚集體的清除受損而累積），也與癌症相關（SUMO 途徑酵素被失調以支持增殖與壓力存活）。"
+    },
+    "confidence": 0.85,
+    "source_document": "SUMOylation.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "2c3bff06b285",
+    "subject": "Sestrin2",
+    "predicate": "inhibits",
+    "object": "mTORC1",
+    "context": {
+      "en-US": "Sestrin2 is a stress-inducible leucine sensor and oxidoreductase that inhibits mTORC1 by binding GATOR2 in the absence of leucine. Because GATOR2 is part of the GATOR1 complex that relays amino acid availability to Rag GTPases, Sestrin2 acts as the low-leucine signal that releases the brake on mTORC1.",
+      "zh-TW": "Sestrin2 是可被壓力誘發的亮胺酸感測蛋白與氧化還原酶，在缺乏亮胺酸時藉由結合 GATOR2 抑制 mTORC1。由於 GATOR2 是將胺基酸可用性傳遞給 Rag GTP 酶之 GATOR1 複合體的一部分，Sestrin2 便扮演低亮胺酸訊號，解除對 mTORC1 的煞車。"
+    },
+    "confidence": 0.9,
+    "source_document": "Sestrin2.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "dc70a5101753",
+    "subject": "Sestrin2",
+    "predicate": "activates",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Sestrin2 activates Autophagy under stress conditions such as hypoxia, genotoxic stress and metabolic stress. It does so by inhibiting mTORC1 through GATOR2 and by activating AMPK via LKB1, two parallel arms that both converge on autophagic induction; Sestrin2 additionally functions as an antioxidant by reducing Peroxiredoxin.",
+      "zh-TW": "Sestrin2 在缺氧、基因毒性壓力與代謝壓力等條件下活化自噬。其方式是透過 GATOR2 抑制 mTORC1，以及透過 LKB1 活化 AMPK，這兩條平行途徑皆匯入自噬誘發；此外 Sestrin2 也藉由還原 Peroxiredoxin 而具有抗氧化功能。"
+    },
+    "confidence": 0.85,
+    "source_document": "Sestrin2.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "49ed6144a452",
+    "subject": "Sestrin2",
+    "predicate": "activates",
+    "object": "AMPK",
+    "context": {
+      "en-US": "Sestrin2 activates AMPK via LKB1. This arm complements its GATOR2-mediated inhibition of mTORC1: because AMPK and mTORC1 are the two principal switches of the autophagy initiation decision, Sestrin2 engages both to make autophagic induction robust rather than threshold-dependent.",
+      "zh-TW": "Sestrin2 透過 LKB1 活化 AMPK。這條途徑與其經由 GATOR2 抑制 mTORC1 的作用互補：由於 AMPK 與 mTORC1 是自噬起始決定的兩個主要開關，Sestrin2 同時調動兩者，使自噬誘發更為穩健而非僅依賴閾值。"
+    },
+    "confidence": 0.85,
+    "source_document": "Sestrin2.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "b5086466872f",
+    "subject": "SetA",
+    "predicate": "glucosylates",
+    "object": "TFEB",
+    "context": {
+      "en-US": "SetA is an effector protein from Legionella pneumophila that glucosylates TFEB at multiple sites, leading to its nuclear enrichment by interfering with 14-3-3 protein binding. Because 14-3-3 binding normally retains TFEB in the cytosol, the glucosylation event hijacks the host's own regulatory mechanism to drive TFEB into the nucleus.",
+      "zh-TW": "SetA 是來自嗜肺性退伍軍人菌的效應蛋白，會在多個位點對 TFEB 進行葡萄糖基化，藉由干擾 14-3-3 protein 的結合而使 TFEB 在核內富集。由於與 14-3-3 的結合通常將 TFEB 侷限於細胞質，這個葡萄糖基化事件劫持了宿主自身的調控機制，把 TFEB 驅入細胞核。"
+    },
+    "confidence": 0.9,
+    "source_document": "SetA.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "e7d2442da5dd",
+    "subject": "SetA",
+    "predicate": "inhibits",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "SetA is a Legionella pneumophila effector with glucosyltransferase activity that modifies host Rab5 and Rab7 to subvert endosomal trafficking and block Autophagy during infection. Glucosylating the very GTPases that define endosomal identity hijacks the host degradative pathway so that the pathogen's replication niche is not destroyed.",
+      "zh-TW": "SetA 是嗜肺性退伍軍人菌的效應蛋白，具有葡萄糖基轉移酶活性，會修飾宿主的 Rab5 與 Rab7 以劫持內體運輸並在感染期間阻斷自噬。對定義內體身分的那些 GTP 酶進行葡萄糖基化，等於劫持宿主的降解途徑，使病原體的複製利基不會被破壞。"
+    },
+    "confidence": 0.8,
+    "source_document": "SetA.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "0bd06d36862e",
+    "subject": "Single-cell Omics",
+    "predicate": "measures",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Single-cell omics comprises technologies such as scRNA-seq, scATAC-seq, single-cell proteomics and spatial transcriptomics that profile individual cells, circumventing the averaging inherent in bulk measurements. In Autophagy research these methods reveal pronounced cell-to-cell heterogeneity in autophagic flux, lysosomal capacity and nutrient sensing, showing how mTORC1 and TFEB programs differ between cells within the same tissue.",
+      "zh-TW": "Single-cell omics 包含 scRNA-seq、scATAC-seq、單細胞蛋白組學與空間轉錄組等技術，可分析個別細胞，避開大量測量的平均化缺陷。在自噬研究中，這些方法揭示了自噬流、溶酶體容量與營養感測的顯著細胞間異質性，顯示同一組織內不同細胞的 mTORC1 與 TFEB 程序如何有所差異。"
+    },
+    "confidence": 0.85,
+    "source_document": "Single-cell Omics.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "c20506b72685",
+    "subject": "Single-cell Omics",
+    "predicate": "reveals",
+    "object": "Cancer",
+    "context": {
+      "en-US": "Single-cell omics has exposed that autophagic heterogeneity underlies resistant clones in Cancer and focal vulnerability in Neurodegeneration, identifying subpopulations of senescent or metabolically stressed cells with high basal autophagy and tumour cells that evade autophagic death. As cost falls these methods are becoming standard for stratifying patients by autophagic–lysosomal health.",
+      "zh-TW": "Single-cell omics 已揭示自噬的異質性是癌症中耐藥克隆的基礎，也是神經退化性疾病中局部脆弱性的來源，並可辨識出具有高基礎自噬的衰老或代謝壓力細胞亞群，以及逃避自噬性死亡的腫瘤細胞。隨著成本下降，這些方法正成為依自噬－溶酶體健康度對患者分層的標準。"
+    },
+    "confidence": 0.8,
+    "source_document": "Single-cell Omics.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "2ad4ac3594af",
+    "subject": "Single-cell Omics",
+    "predicate": "maps",
+    "object": "Atg",
+    "context": {
+      "en-US": "Single-cell omics maps which ATG Genes are required in specific contexts: perturbation atlases combining CRISPR screens with scRNA-seq identify the autophagy machinery genes needed in a given cell state, while lineage tracing coupled to scRNA-seq reveals how Mitophagy and Selective Autophagy programs shift during differentiation.",
+      "zh-TW": "Single-cell omics 可繪出在特定情境下哪些 Atg 基因為必要：結合 CRISPR 篩選與 scRNA-seq 的擾動圖譜能鑑定特定細胞狀態所需的自噬機制基因，而與 scRNA-seq 結合的細胞譜系追蹤則揭示 Mitophagy 與 Selective Autophagy 程序在分化過程中如何變化。"
+    },
+    "confidence": 0.8,
+    "source_document": "Single-cell Omics.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "99c8a3be0334",
+    "subject": "Steatohepatitis",
+    "predicate": "is_protected_against_by",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Autophagy protects against steatohepatitis by clearing lipid droplets (Lipophagy), damaged mitochondria (Mitophagy) and protein aggregates. Steatohepatitis — nonalcoholic steatohepatitis characterized by hepatic steatosis, lobular inflammation and hepatocyte ballooning — progresses to fibrosis, cirrhosis and hepatocellular carcinoma when this clearance fails.",
+      "zh-TW": "自噬藉由清除脂質滴（Lipophagy）、受損粒線體（Mitophagy）與蛋白聚集體來防止脂肪性肝炎。非酒精性脂肪性肝炎以肝脂肪變性、 小葉發炎與肝細胞氣球樣變為特徵，當這種清除失效時，疾病會進展為纖維化、肝硬化與肝細胞癌。"
+    },
+    "confidence": 0.85,
+    "source_document": "Steatohepatitis.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "4ef15a340efe",
+    "subject": "TFEB",
+    "predicate": "treats",
+    "object": "Steatohepatitis",
+    "context": {
+      "en-US": "Targeting TFEB with drugs such as Ezetimibe can ameliorate Steatohepatitis by promoting autophagic clearance. Ezetimibe induces nuclear TFEB translocation by inhibiting a MAPK/ERK-related pathway, and TFEB activation reduces steatosis and inflammation in preclinical NASH models.",
+      "zh-TW": "以 Ezetimibe 等藥物針對 TFEB 可藉由促進自噬清除而改善脂肪性肝炎。Ezetimibe 藉由抑制 MAPK/ERK 相關路徑誘導 TFEB 核轉位，而 TFEB 的活化在臨床前 NASH 模型中可減少脂肪變性與發炎。"
+    },
+    "confidence": 0.85,
+    "source_document": "Steatohepatitis.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "f432a6f75486",
+    "subject": "T Cell",
+    "predicate": "requires",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Autophagy is unexpectedly indispensable for T cell biology, supporting thymic development, naive-to-effector activation, clonal expansion, memory formation and the metabolic reprogramming that fuels proliferation. Loss of Atg proteins in T cells impairs survival, skews cytokine output and diminishes memory generation, because autophagy supplies amino acids and intermediates during the nutrient-limited phases of clonal expansion while preserving proteostasis.",
+      "zh-TW": "自噬對 T 細胞生物學出乎意料地不可或缺，支持胸腺發育、初始 T 細胞到效應 T 細胞的活化、克隆擴增、記憶形成，以及支撐增殖的代謝重編程。T 細胞中 Atg 蛋白的缺失會損害存活、扭曲細胞激素輸出並減少記憶生成，因為自噬在克隆擴增的營養受限階段供應胺基酸與中間產物，同時維持蛋白質恆定。"
+    },
+    "confidence": 0.9,
+    "source_document": "T Cell.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "d99576de3300",
+    "subject": "Mitophagy",
+    "predicate": "supports",
+    "object": "T Cell",
+    "context": {
+      "en-US": "Upon antigen recognition T cells shift from oxidative phosphorylation to aerobic glycolysis while still requiring mitochondrial integrity. Mitophagy removes depolarised mitochondria, preventing excess Oxidative Stress and apoptotic priming and thereby supporting the metabolic switch; in chronic infection and Cancer exhausted T cells show defective autophagic flux that compromises antitumour immunity.",
+      "zh-TW": "抗原被辨識時，T 細胞由氧化磷酸化轉向有氧糖解，但同時仍需要粒線體的完整性。Mitophagy 移除去極化的粒線體，避免過度的氧化壓力與凋亡啟動化，因而支撐這個代謝轉換；在慢性感染與癌症中，耗竭的 T 細胞顯示自噬流缺陷，損害抗腫瘤免疫。"
+    },
+    "confidence": 0.85,
+    "source_document": "T Cell.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "af9d332f0a1b",
+    "subject": "Autophagy",
+    "predicate": "restrains",
+    "object": "Inflammation",
+    "context": {
+      "en-US": "T cell autophagy restrains excessive Inflammation by limiting inflammasome activation and mitochondrial DNA release, and it influences regulatory T cell suppressive function and effector CD8+ cytotoxic activity. Selective autophagy of signalling molecules tunes TCR and cytokine receptor downstream pathways, integrating environmental cues with immune output.",
+      "zh-TW": "T 細胞自噬藉由限制發炎小體活化與粒線體 DNA 釋放來抑制過度的發炎，並影響調節型 T 細胞的抑制功能與 CD8+ 效應細胞的細胞毒性活性。對訊號分子的選擇性自噬可微調 TCR 與細胞激素受體的下游路徑，將環境訊號與免疫輸出整合起來。"
+    },
+    "confidence": 0.8,
+    "source_document": "T Cell.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "6e64cddefe96",
+    "subject": "TAME Trial",
+    "predicate": "tests",
+    "object": "Metformin",
+    "context": {
+      "en-US": "The TAME Trial (Targeting Aging with Metformin) is a FDA-approved clinical study testing whether Metformin delays aging-related multimorbidity. It enrolled 3000 participants aged 65 to 79 and examines whether metformin can attenuate the hallmarks of Aging and delay the onset of age-related diseases, using a framework of blood-based Biomarkers to monitor the intervention's effects.",
+      "zh-TW": "TAME Trial（Targeting Aging with Metformin）是一項經 FDA 核准的臨床研究，測試 Metformin 能否延緩與老化相關的多病共存。它納入了 3000 名 65 至 79 歲的受試者，檢視 metformin 能否減弱老化的特徵並延後年齡相關疾病的發生，並以血液生物標記的框架監測介入的效應。"
+    },
+    "confidence": 0.95,
+    "source_document": "TAME Trial.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "2cfce02bda2b",
+    "subject": "TFEB",
+    "predicate": "rescues",
+    "object": "Lysosome",
+    "context": {
+      "en-US": "In the TFEB disease-model survey, TFEB activation — via mTORC1 inhibition, nuclear translocation, or gene therapy — rescues Lysosome and Autophagy function across lysosomal storage, neurodegenerative and metabolic disease models. In gene-therapy arms, AAV-TFEB or adenovirus-TFEB delivery increased glycogen clearance in GAA knockdown mice, reduced cystine within 24 hours in cystinotic cells, and decreased infarct volume after permanent middle cerebral artery occlusion.",
+      "zh-TW": "在 TFEB 疾病模型綜述中，TFEB 的活化——透過抑制 mTORC1、核轉位或基因治療——可在溶酶體儲積、神經退化與代謝疾病模型中挽救溶酶體與自噬功能。在基因治療組中，AAV-TFEB 或腺病毒 TFEB 的給藥在 GAA 敲低小鼠中增加了肝醣清除、在胱胺酸症細胞中於 24 小時內降低胱胺酸，並在永久性大腦中動脈阻塞後減少了腦梗塞體積。"
+    },
+    "confidence": 0.85,
+    "source_document": "TFEB_disease_model.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "8b0777794e8b",
+    "subject": "mTORC1",
+    "predicate": "inhibits",
+    "object": "TFEB",
+    "context": {
+      "en-US": "Across the TFEB disease-model table, mTORC-mediated phosphorylation of TFEB is the dominant inhibitory axis. mTORC1 inhibition with Torin 1, the mTOR inhibitor CCI-779, or Celastrol all activate TFEB, inhibiting EtOH-induced liver injury and steatosis, attenuating spiral ganglion neuron degeneration, and reducing insoluble phosphorylated Tau aggregates while improving memory deficiency in P301S Tau transgenic mice.",
+      "zh-TW": "在 TFEB 疾病模型表中，mTOR 介導的 TFEB 磷酸化是主要的抑制軸。以 Torin 1、mTOR 抑制劑 CCI-779 或 Celastrol 抑制 mTORC1 皆能活化 TFEB，進而抑制乙醇誘發的肝損傷與脂肪變性、減輕耳螺旋神經節神經元退化，並在 P301S Tau 轉殖小鼠中減少不溶性磷酸化 Tau 聚集體同時改善記憶缺陷。"
+    },
+    "confidence": 0.85,
+    "source_document": "TFEB_disease_model.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "eeb8c032aff1",
+    "subject": "TFEB",
+    "predicate": "treats",
+    "object": "Alzheimer's Disease",
+    "context": {
+      "en-US": "Two distinct TFEB-targeting mechanisms protect against Alzheimer's disease in the model survey. Interrupting the mTORC axis with Celastrol in P301S Tau transgenic mice reduced insoluble phosphorylated Tau aggregates and improved memory deficiency, while SIRT1-mediated deacetylation with resveratrol in fAβ-incubated primary microglia promoted degradation of fAβ.",
+      "zh-TW": "在模型綜述中，有兩種不同的 TFEB 靶向機制可對抗阿茲海默症。在 P301S Tau 轉殖小鼠中以 Celastrol 阻斷 mTOR 軸，可減少不溶性磷酸化 Tau 聚集體並改善記憶缺陷；而在 fAβ 孵育的原代小膠質細胞中，以 resveratrol 促進 SIRT1 介導的去乙醯化，則促進 fAβ 的降解。"
+    },
+    "confidence": 0.8,
+    "source_document": "TFEB_disease_model.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "0acc993b8219",
+    "subject": "TFEB",
+    "predicate": "treats",
+    "object": "Parkinson's Disease",
+    "context": {
+      "en-US": "In the α-synuclein A53T-transgenic model of Parkinson's disease, targeting the p38 MAPK-mediated phosphorylation of TFEB with the inhibitor SB203580 reduced synapsin-1, a presynaptic protein. The finding links loss of TFEB-dependent lysosomal biogenesis to the synaptic degeneration seen in synucleinopathies.",
+      "zh-TW": "在帕金森氏症的 α-突觸核蛋白 A53T 轉殖模型中，以抑制劑 SB203580 針對 p38 MAPK 介導的 TFEB 磷酸化，可降低突觸素-1（一種突觸前蛋白）。此發現將 TFEB 依賴的溶酶體生成喪失與突觸核蛋白病中可見的突觸退化連結起來。"
+    },
+    "confidence": 0.8,
+    "source_document": "TFEB_disease_model.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "5bfea9b17eed",
+    "subject": "TFEC",
+    "predicate": "is_a_member_of",
+    "object": "MiTF TFE family",
+    "context": {
+      "en-US": "Transcription Factor EC (TFEC) is one of four members of the MiTF TFE family, alongside TFEB, TFE3 and MITF. TFEC contains the conserved basic helix-loop-helix leucine zipper (bHLH-LZ) domain characteristic of the family, enabling DNA binding to E-box and CLEAR-box motifs.",
+      "zh-TW": "轉錄因子 EC（TFEC）是 MiTF TFE 家族四個成員之一，其他成員為 TFEB、TFE3 與 MITF。TFEC 含有該家族典型的保守性鹼性螺旋－環－螺旋－白胺酸拉鍊（bHLH-LZ）結構域，可與 E-box 及 CLEAR-box 序列結合。"
+    },
+    "confidence": 0.9,
+    "source_document": "TFEC.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "17c323d0409b",
+    "subject": "TFEC",
+    "predicate": "inhibits",
+    "object": "TFEB",
+    "context": {
+      "en-US": "Unlike other family members, TFEC lacks a transactivation domain in its N-terminal region, and it may function primarily as a transcriptional repressor or modulator of the lysosomal-autophagic program. It forms homo- and heterodimers with TFEB, TFE3 and MITF and may competitively inhibit their activity by occupying CLEAR-box binding sites or forming non-productive heterodimers; TFEC knockout studies suggest compensatory upregulation of TFEB and TFE3.",
+      "zh-TW": "與其他家族成員不同，TFEC 的 N 端區域缺乏轉錄活化結構域，因此它可能主要作為溶酶體－自噬轉錄程序的轉錄抑制子或調節因子。它與 TFEB、TFE3 及 MITF 形成同源與異源二聚體，並可能藉由占據 CLEAR-box 結合位點或形成無功能的異源二聚體來競爭性抑制它們的活性；TFEC 剔除研究顯示 TFEB 與 TFE3 會代償性上調。"
+    },
+    "confidence": 0.7,
+    "source_document": "TFEC.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "e80ca62eb62d",
+    "subject": "TFEC",
+    "predicate": "is_regulated_by",
+    "object": "mTORC1",
+    "context": {
+      "en-US": "Regulation of TFEC nuclear translocation parallels that of other MiTF/TFE family members, involving mTORC1-dependent phosphorylation and 14-3-3 protein-mediated cytosolic retention. As with TFEB and TFE3, phosphorylation by mTORC1 keeps TFEC sequestered in the cytosol and restrains the lysosomal-autophagic transcriptional program.",
+      "zh-TW": "TFEC 核轉位的調控與其他 MiTF/TFE 家族成員平行，涉及 mTORC1 依賴的磷酸化與 14-3-3 protein 介導的細胞質滯留。與 TFEB 和 TFE3 相同，mTORC1 的磷酸化使 TFEC 被滯留於細胞質，抑制溶酶體－自噬轉錄程序。"
+    },
+    "confidence": 0.7,
+    "source_document": "TFEC.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "f1052fbff3f6",
+    "subject": "TGF-β Signaling",
+    "predicate": "activates",
+    "object": "SMAD3",
+    "context": {
+      "en-US": "TGF-β signaling proceeds through SMAD2/3 phosphorylation by the TβRI receptor kinase, complex formation with SMAD4, and nuclear translocation for target gene regulation. SMAD3 is therefore the transducer of the pathway, and its phosphorylation state sets the output of the entire cascade.",
+      "zh-TW": "TGF-β 訊號經由 TβRI 受體激酶磷酸化 SMAD2/3、與 SMAD4 形成複合體，以及核轉位以調控標的基因。SMAD3 因而是此路徑的傳遞者，其磷酸化狀態決定了整個級聯的輸出。"
+    },
+    "confidence": 0.9,
+    "source_document": "TGF-β Signaling.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "c7dbf6872154",
+    "subject": "TGF-β Signaling",
+    "predicate": "induces",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "TGF-β induces autophagy via SMAD3 and ATF4, but the relationship is bidirectional: autophagy also regulates TGF-β by degrading key pathway components. This bidirectional crosstalk matters in fibrosis and cancer, and hyperactivation of the transducer SMAD3 can instead inhibit TFEB expression and blunt autophagic flux.",
+      "zh-TW": "TGF-β 透過 SMAD3 與 ATF4 誘導自噬，但兩者關係是雙向的：自噬也藉由降解關鍵路徑成分來調節 TGF-β。這種雙向交互作用在纖維化與癌症中十分重要；而傳遞者 SMAD3 的過度活化則可能抑制 TFEB 表現並削弱自噬流。"
+    },
+    "confidence": 0.8,
+    "source_document": "TGF-β Signaling.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "011f2f988b3f",
+    "subject": "Autophagy",
+    "predicate": "regulates",
+    "object": "TGF-β Signaling",
+    "context": {
+      "en-US": "The TGF-β–autophagy crosstalk is bidirectional: TGF-β induces autophagy via SMAD3 and ATF4, while autophagy in turn degrades key components of the TGF-β pathway. This reciprocal degradation sets the threshold at which TGF-β activity, and therefore fibrotic output, is switched on or off.",
+      "zh-TW": "TGF-β 與自噬之間的交互作用是雙向的：TGF-β 透過 SMAD3 與 ATF4 誘導自噬，而自噬反過來降解 TGF-β 路徑的關鍵成分。這種相互降解設定了 TGF-β 活性（因而也是纖維化輸出）被開啟或關閉的閾值。"
+    },
+    "confidence": 0.75,
+    "source_document": "TGF-β Signaling.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "cb1f460c069e",
+    "subject": "TNKS2",
+    "predicate": "parsylates",
+    "object": "TFEB",
+    "context": {
+      "en-US": "TNKS2 (tankyrase 2, PARP5B) is one of two tankyrase isozymes that catalyze poly-ADP-ribosylation of substrate proteins. Its ankyrin repeat domain binds substrates such as axin, TRF1 and TFEB, and PARsylation of TFEB promotes its destabilisation and restricts its transcriptional program for lysosomal and autophagic genes.",
+      "zh-TW": "TNKS2（tankyrase 2，PARP5B）是兩種 tankyrase 異構酶之一，催化受體蛋白的 poly-ADP-核糖基化。其 ankyrin repeat 結構域結合 axin、TRF1 與 TFEB 等受體，而 TFEB 的 PARsylation 會促進其去穩定化並限制其溶酶體與自噬基因的轉錄程序。"
+    },
+    "confidence": 0.9,
+    "source_document": "TNKS2.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "21887815f16e",
+    "subject": "TNKS2",
+    "predicate": "regulates",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Inhibition of tankyrases with small molecules such as XAV939 or JW74 stabilises TFEB, enhancing expression of autophagy–lysosome components and boosting clearance of aggregated proteins — relevant to Tau Pathology and Neurodegeneration. The tankyrase–TFEB link thus couples ADP-ribosylation signalling to catabolic flux.",
+      "zh-TW": "以 XAV939 或 JW74 等小分子抑制 tankyrase 可穩定 TFEB，提升自噬－溶酶體成分的表現並促進聚集蛋白的清除，這在 Tau 病理與神經退化性疾病中具有意義。因此 tankyrase–TFEB 的連結把 ADP-核糖基化訊號與分解代謝通量耦合起來。"
+    },
+    "confidence": 0.85,
+    "source_document": "TNKS2.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "9a1c4c5a5ce8",
+    "subject": "Tankyrases",
+    "predicate": "parsylates",
+    "object": "TFEB",
+    "context": {
+      "en-US": "Tankyrases (TNKS1 and TNKS2) are PARP5 poly(ADP-ribose) polymerases that interact with and parsylate TFEB, modulating its stability and nuclear-cytoplasmic shuttling. The PARP domain transfers ADP-ribose units from NAD+ onto glutamate, aspartate or lysine residues, building branched PAR chains that typically tag substrates for proteasomal degradation or altered localisation.",
+      "zh-TW": "Tankyrases（TNKS1 與 TNKS2）是 PARP5 類的 poly(ADP-核糖)聚合酶，會與 TFEB 交互作用並對其進行 PARsylation，調節其穩定性與核－細胞質穿梭。其 PARP 結構域將 ADP-核糖單元從 NAD+ 轉移到麩胺酸、天門冬胺酸或離胺酸殘基上，形成分支的 PAR 鏈，通常將受體標記以供蛋白酶體降解或改變定位。"
+    },
+    "confidence": 0.85,
+    "source_document": "Tankyrases.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "9f194377fd7b",
+    "subject": "Tankyrases",
+    "predicate": "regulates",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Tankyrases regulate telomere maintenance via TRF1, Wnt/β-catenin signaling via AXIN degradation, GLUT4 trafficking, and Autophagy via ULK1/TFEB stabilization. Tankyrase inhibitors are in development for cancer and fibrosis, and tankyrases are also implicated in mitotic spindle function and metabolic disease.",
+      "zh-TW": "Tankyrases 藉由 TRF1 調節端粒維持、藉由 AXIN 降解調節 Wnt/β-catenin 訊號、參與 GLUT4 運輸，並透過 ULK1/TFEB 穩定化調節自噬。Tankyrase 抑制劑正在為癌症與纖維化開發，而 tankyrases 也與有絲分裂紡錘體功能及代謝疾病有關。"
+    },
+    "confidence": 0.85,
+    "source_document": "Tankyrases.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "a018af94b2de",
+    "subject": "TSC1",
+    "predicate": "inhibits",
+    "object": "mTORC1",
+    "context": {
+      "en-US": "Tuberous sclerosis complex 1 (TSC1), also known as hamartin, forms a heterodimer with TSC2 to function as a negative regulator of mTORC1 signaling. The TSC1–TSC2 complex acts as a GTPase-activating protein (GAP) for Rheb, driving Rheb into its GDP-bound inactive state and thereby shutting off the kinase that activates mTORC1.",
+      "zh-TW": "結節性硬化症複合體 1（TSC1，又稱 hamartin）與 TSC2 形成異二聚體，作為 mTORC1 訊號的負向調節因子。TSC1–TSC2 複合體作為 Rheb 的 GTP 酶活化蛋白（GAP），將 Rheb 驅入 GDP 結合的失活狀態，進而關閉活化 mTORC1 的激酶。"
+    },
+    "confidence": 0.95,
+    "source_document": "TSC1.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "11af4dad8baf",
+    "subject": "TSC1",
+    "predicate": "interacts_with",
+    "object": "TSC2",
+    "context": {
+      "en-US": "TSC1 (hamartin) forms a complex with TSC2 (tuberin) that acts as a GAP for Rheb, inhibiting mTORC1. One of the most important sensors involved in regulation of mTORC1 activity, the TSC heterodimer is also recruited to lysosomes by RagA/B GDP–RagC/D GTP heterodimers in starvation conditions, where it is an essential brake on nutrient-deprivation signalling.",
+      "zh-TW": "TSC1（hamartin）與 TSC2（tuberin）形成複合體，該複合體作為 Rheb 的 GAP 而抑制 mTORC1。作為調控 mTORC1 活性最重要的感測器之一，TSC 異二聚體在飢餓條件下也會被 RagA/B GDP–RagC/D GTP 異二聚體招募至溶酶體，在那裡它是營養缺乏訊號不可或缺的煞車。"
+    },
+    "confidence": 0.9,
+    "source_document": "TSC1.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "cf17e8acee16",
+    "subject": "Tau Pathology",
+    "predicate": "is_associated_with",
+    "object": "Alzheimer's Disease",
+    "context": {
+      "en-US": "Tau pathology — abnormal post-translational modification, misfolding and progressive accumulation of the microtubule-associated protein tau within neurons — is a defining feature of Alzheimer's disease and related tauopathies such as progressive supranuclear palsy and frontotemporal dementia. Pathologic tau transitions from physiological microtubule binding into hyperphosphorylated fibrillar species that form Neurofibrillary tangles, impairing axonal transport and synaptic function.",
+      "zh-TW": "Tau 病理——神經元內微管相關蛋白 tau 的異常轉譯後修飾、錯誤摺疊與逐步累積——是阿茲海默症與相關 tau 病（如進行性核上性麻痺與額顳葉失智症）的定義性特徵。病理性 tau 由生理性的微管結合轉為過度磷酸化的纖維狀物種，形成神經纖維糾結，損害軸突運輸與突觸功能。"
+    },
+    "confidence": 0.9,
+    "source_document": "Tau Pathology.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "22c532d91210",
+    "subject": "Tau Pathology",
+    "predicate": "impairs",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Aggregated tau disrupts mitochondria, elevates Oxidative Stress and overwhelms proteostasis, while the autophagic–lysosomal system is the principal degradative route for tau — but in disease it is often impaired, with reduced TFEB-driven lysosomal biogenesis limiting clearance. This is why autophagic–lysosomal induction is a leading therapeutic strategy for tauopathies.",
+      "zh-TW": "聚集的 tau 破壞粒線體、升高氧化壓力並壓垮蛋白質恆定；自噬－溶酶體系統是 tau 的主要降解途徑，但在疾病中常受損，TFEB 驅動的溶酶體生成減少使清除受限。這也是為何自噬－溶酶體誘發被視為 tau 病的主要治療策略。"
+    },
+    "confidence": 0.85,
+    "source_document": "Tau Pathology.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "57ce5264879e",
+    "subject": "TFEB",
+    "predicate": "reduces",
+    "object": "Tau Pathology",
+    "context": {
+      "en-US": "Enhancing TFEB activity transcriptionally upregulates lysosomal enzymes and autophagic receptors, accelerating tau degradation. Small molecules such as Celastrol and related TFEB activators, as well as mTORC1 inhibitors (rapalogues), stimulate autophagic flux and reduce tau burden in models, while Selective Autophagy receptors (p62, NBR1) recognise ubiquitinated tau for delivery to phagophores.",
+      "zh-TW": "提升 TFEB 活性會在轉錄層面上調溶酶體酵素與自噬受體，加速 tau 的降解。小分子如 Celastrol 及相關的 TFEB 活化劑，以及 mTORC1 抑制劑（rapalog 類），能刺激自噬流並在模型中降低 tau 負擔；而選擇性自噬受體（p62、NBR1）則辨識泛素化的 tau 並將其運送至吞噬膜。"
+    },
+    "confidence": 0.85,
+    "source_document": "Tau Pathology.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
+  },
+  {
+    "id": "0291233058e2",
+    "subject": "Tau Pathology",
+    "predicate": "is_associated_with",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "Under pathological stress, kinases such as GSK3β and CDK5 outpace phosphatases, driving tau hyperphosphorylation that reduces microtubule affinity and promotes self-association into oligomers and filaments. These species spread trans-synaptically in a prion-like manner, seed monomers in recipient neurons, disrupt mitochondria, elevate Oxidative Stress, and overwhelm proteostasis.",
+      "zh-TW": "在病理性壓力下，GSK3β 與 CDK5 等激酶的速度超過磷酸酶，驅動 tau 過度磷酸化，降低其對微管的親和力並促進自我聚集形成寡聚體與纖維。這些物種以類普里昂方式在突觸間傳播，在受體神經元中播種單體，破壞粒線體、升高氧化壓力並壓垮蛋白質恆定。"
+    },
+    "confidence": 0.8,
+    "source_document": "Tau Pathology.md",
+    "created": "2026-09-29T14:42:33Z",
+    "updated": "2026-09-29T14:42:33Z"
   }
 ]
