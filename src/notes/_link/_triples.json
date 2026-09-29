@@ -56936,5 +56936,789 @@
     "source_document": "FIS1.md",
     "created": "2026-09-29T16:08:39Z",
     "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "45466b60e418",
+    "subject": "Glutaminolysis",
+    "predicate": "converts_to",
+    "object": "Glutamine",
+    "context": {
+      "en-US": "Glutaminolysis is the catabolic pathway in which glutamine is sequentially converted to glutamate by glutaminase and then to alpha-ketoglutarate, feeding carbon into the TCA cycle. Glutamine is the committed substrate of the pathway, and in MYC-high cancer cells this glutamine-derived alpha-ketoglutarate replaces glucose-derived carbon as the cycle's primary fuel.",
+      "zh-TW": "Glutaminolysis 是 catabolic 途徑：glutamine 先經 glutaminase 轉為 glutamate，再轉為 alpha-ketoglutarate 以供應 TCA cycle 的碳。在 MYC-high 癌細胞中，此 glutamine 衍生的 alpha-ketoglutarate 取代 glucose 衍生碳成為 cycle 的主要燃料。"
+    },
+    "confidence": 0.6,
+    "source_document": "Glutaminolysis.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "62bf2df286d9",
+    "subject": "Glutaminase",
+    "predicate": "converts_to",
+    "object": "Glutamate",
+    "context": {
+      "en-US": "Glutaminase (GLS/GLS2) catalyzes the committed and rate-limiting first step of glutaminolysis, hydrolyzing glutamine to glutamate. Because this step gates anaplerotic carbon entry into the TCA cycle, it is a therapeutic target; the inhibitor CB-839 (telaglenastat) blocks it.",
+      "zh-TW": "Glutaminase（GLS/GLS2）催化 glutaminolysis 的第一步 committed 與 rate-limiting 步驟，將 glutamine 水解為 glutamate。由於此步驟控管 TCA cycle 的 anaplerotic 碳流入，因此是治療標的；抑制劑 CB-839（telaglenastat）可阻斷之。"
+    },
+    "confidence": 0.95,
+    "source_document": "Glutaminolysis.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "162d79dbbeb6",
+    "subject": "Glutaminolysis",
+    "predicate": "feeds",
+    "object": "TCA cycle",
+    "context": {
+      "en-US": "Glutaminolysis feeds the TCA cycle with anaplerotic carbon at the alpha-ketoglutarate node. It is the dominant anaplerotic route in rapidly proliferating cancer cells, and blocking it together with Complex I collapses the glutamine-fueled cycle in MYC-high breast cancer cells.",
+      "zh-TW": "Glutaminolysis 在 alpha-ketoglutarate 節點以 anaplerotic 碳供應 TCA cycle。在快速增殖的癌細胞中它是主要的 anaplerotic 途徑；在 MYC-high 乳癌細胞中，與 Complex I 一起阻斷即可瓦解 glutamine 驅動的 cycle。"
+    },
+    "confidence": 0.95,
+    "source_document": "Glutaminolysis.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "dfde2a060834",
+    "subject": "MYC",
+    "predicate": "enhances",
+    "object": "Glutaminolysis",
+    "context": {
+      "en-US": "MYC enhances glutaminolysis transcriptionally, increasing influx of glutamine-derived alpha-ketoglutarate into the TCA cycle and shifting MYC-high cells from glucose-derived to glutamine-derived carbon. This dependence renders MYC-high triple-negative breast cancer selectively vulnerable to glutaminase inhibition.",
+      "zh-TW": "MYC 在轉錄層級增強 glutaminolysis，增加 glutamine 衍生的 alpha-ketoglutarate 流入 TCA cycle，使 MYC-high 細胞由 glucose 衍生碳轉向 glutamine 衍生碳。這種依賴使 MYC-high triple-negative breast cancer 對 glutaminase 抑制特別脆弱。"
+    },
+    "confidence": 0.9,
+    "source_document": "Glutaminolysis.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "463ee39f5acc",
+    "subject": "Glutathione Peroxidase",
+    "predicate": "reduces",
+    "object": "Hydrogen Peroxide",
+    "context": {
+      "en-US": "Glutathione peroxidase reduces free hydrogen peroxide to water and organic hydroperoxides to their corresponding alcohols, using reduced glutathione as a cofactor. It is one of the main enzymatic components of the cellular antioxidant defense against ROS-induced damage, and its activity is impaired by glycation, raising oxidative stress.",
+      "zh-TW": "Glutathione peroxidase 以還原型 glutathione 為輔因子，將游離 hydrogen peroxide 還原為水，並將有機 hydroperoxide 還原為相應的醇。它是細胞對抗 ROS 損傷的抗氧化防禦主要酵素組件之一，其活性會因 glycation 而下降，導致 oxidative stress 上升。"
+    },
+    "confidence": 0.95,
+    "source_document": "Glutathione Peroxidase.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "9076d40401c4",
+    "subject": "GPX4",
+    "predicate": "suppresses",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "GPX4 is the master negative regulator of ferroptosis: it directly reduces phospholipid, cholesterol, and cardiolipin hydroperoxides embedded in membranes without prior phospholipase A2 hydrolysis. When GPX4 is deleted, selenium is deficient, or RSL3 inhibits it, lipid hydroperoxides accumulate and cells die by ferroptosis.",
+      "zh-TW": "GPX4 是 ferroptosis 的主要負向調控者：它能直接還原嵌入膜中的磷脂、膽固醇與 cardiolipin hydroperoxide，無須先行 phospholipase A2 水解。當 GPX4 被刪除、selenium 缺乏或被 RSL3 抑制時，脂質 hydroperoxide 累積，細胞發生 ferroptosis。"
+    },
+    "confidence": 0.95,
+    "source_document": "Glutathione Peroxidase.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "4e3ecafae993",
+    "subject": "Glutathione Reductase",
+    "predicate": "regenerates",
+    "object": "Glutathione",
+    "context": {
+      "en-US": "Glutathione reductase regenerates the reduced glutathione pool by reducing GSSG to two GSH at the expense of NADPH, coupling glutathione peroxidase activity to the pentose phosphate pathway. Without it the GPx/GSSG cycle cannot be sustained, and glycation impairs its function.",
+      "zh-TW": "Glutathione reductase 以 NADPH 為代價將 GSSG 還原為兩個 GSH，再生還原型 glutathione 庫，將 glutathione peroxidase 活性與 pentose phosphate pathway 耦合。若缺乏此酵素，GPx/GSSG cycle 無法持續，且 glycation 會損害其功能。"
+    },
+    "confidence": 0.95,
+    "source_document": "Glutathione Reductase.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "1d4998261867",
+    "subject": "Glutathione Reductase",
+    "predicate": "maintains",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "By maintaining the reduced glutathione pool, glutathione reductase buffers the cellular redox balance and thereby limits oxidative stress. Its activity can be impaired by glycation and the accumulation of advanced glycation end products, contributing to a pathological redox environment.",
+      "zh-TW": "藉由維持還原型 glutathione 庫，glutathione reductase 緩衝細胞氧化還原平衡，因而限制 oxidative stress。其活性可能因 glycation 與 advanced glycation end products 累積而受損，形成病理性的氧化還原環境。"
+    },
+    "confidence": 0.8,
+    "source_document": "Glutathione Reductase.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "83d280e5026b",
+    "subject": "Glutathione Synthetase",
+    "predicate": "produces",
+    "object": "Glutathione",
+    "context": {
+      "en-US": "Glutathione synthetase catalyzes the second step of glutathione synthesis, adding glycine to gamma-glutamylcysteine to yield GSH. Its product sustains the antioxidant defense against oxidative stress together with glutathione peroxidase, and deficiency causes hemolytic anemia.",
+      "zh-TW": "Glutathione synthetase 催化 glutathione 合成的第二步，將 glycine 加到 gamma-glutamylcysteine 上生成 GSH。其產物與 glutathione peroxidase 共同維持對 oxidative stress 的抗氧化防禦，缺乏時會造成 hemolytic anemia。"
+    },
+    "confidence": 0.95,
+    "source_document": "Glutathione Synthetase.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "bf4efca906fe",
+    "subject": "Glutathione",
+    "predicate": "consumes",
+    "object": "Glutathione Peroxidase",
+    "context": {
+      "en-US": "Glutathione serves as the reducing cofactor consumed by glutathione peroxidase: two GSH reduce one peroxide to water, forming GSSG plus a protein-glutathione mixed disulfide. GPX4 in particular depends entirely on GSH availability to clear membrane lipid hydroperoxides.",
+      "zh-TW": "Glutathione 是 glutathione peroxidase 消耗的還原輔因子：兩個 GSH 將一個 peroxide 還原為水，生成 GSSG 與蛋白質-glutathione mixed disulfide。特別是 GPX4 完全依賴 GSH 的可用性來清除膜上的脂質 hydroperoxide。"
+    },
+    "confidence": 0.9,
+    "source_document": "Glutathione.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "f1343584e266",
+    "subject": "NADPH",
+    "predicate": "is_required_for",
+    "object": "Glutathione",
+    "context": {
+      "en-US": "NADPH from the pentose phosphate pathway is the electron donor that glutathione reductase uses to convert GSSG back to two GSH, so one NADPH regenerates two glutathione. NADPH is also required by the glutathione-independent FSP1-CoQ10 ferroptosis brake.",
+      "zh-TW": "來自 pentose phosphate pathway 的 NADPH 是 glutathione reductase 將 GSSG 還原為兩個 GSH 的電子供體，因此一個 NADPH 可再生兩個 glutathione。NADPH 同時也是 glutathione 非依賴型 FSP1-CoQ10 ferroptosis 煞車所需。"
+    },
+    "confidence": 0.9,
+    "source_document": "Glutathione.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "f8fca88d895c",
+    "subject": "SLC7A11",
+    "predicate": "regulates",
+    "object": "Glutathione",
+    "context": {
+      "en-US": "The cystine/glutamate antiporter system xc- (SLC7A11/xCT) imports cystine in exchange for glutamate, setting the cysteine supply that limits glutathione synthesis. Erastin blocks this antiporter, depleting GSH and triggering ferroptosis, while NRF2 activation upregulates it to raise GSH capacity.",
+      "zh-TW": "Cystine/glutamate antiporter system xc-（SLC7A11/xCT）以 glutamate 換取 cystine 輸入，決定了限制 glutathione 合成的 cysteine 供應。Erastin 阻斷此 antiporter 導致 GSH 耗竭並誘發 ferroptosis；NRF2 活化則上调其表現以提高 GSH 產能。"
+    },
+    "confidence": 0.9,
+    "source_document": "Glutathione.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "3fe6bb3751c2",
+    "subject": "Glutathione",
+    "predicate": "suppresses",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "Glutathione is the rate-limiting cofactor of the ferroptosis defense axis: GPX4 can reduce phospholipid hydroperoxides only while GSH is available. When cystine import via system xc- is blocked by Erastin or GSH synthesis is inhibited by BSO, lipid hydroperoxides accumulate and cells die by ferroptosis; the FSP1-CoQ10 axis acts as a parallel glutathione-independent brake.",
+      "zh-TW": "Glutathione 是 ferroptosis 防禦軸的 rate-limiting 輔因子：只有在 GSH 可用時 GPX4 才能還原磷脂 hydroperoxide。當 system xc- 被 Erastin 阻斷或 GSH 合成被 BSO 抑制時，脂質 hydroperoxide 累積，細胞發生 ferroptosis；FSP1-CoQ10 軸則是並行的 glutathione 非依賴型煞車。"
+    },
+    "confidence": 0.9,
+    "source_document": "Glutathione.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "d7f89434ced8",
+    "subject": "Selenium",
+    "predicate": "is_required_for",
+    "object": "GPX4",
+    "context": {
+      "en-US": "Selenium is required for the catalytic selenocysteine of GPX4: the UGA codon is recoded via a SECIS element in the 3' untranslated region, and selenium incorporation is rate-limited by dietary availability. Selenium deficiency therefore reduces GPx activity and phenocopies glutathione depletion at the membrane level.",
+      "zh-TW": "GPX4 的催化 selenocysteine 需要 selenium：UGA codon 透過 3' 非轉譯區的 SECIS 元件被重新編碼，而 selenium 的摻入速率受飲食供應限制。因此 selenium 缺乏會降低 GPx 活性，並在膜層次上模仿 glutathione 耗竭。"
+    },
+    "confidence": 0.9,
+    "source_document": "Glutathione.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "9cc42e2b5fe0",
+    "subject": "Glyceraldehyde 3-Phosphate",
+    "predicate": "is_converted_to",
+    "object": "1,3-Bisphosphoglycerate",
+    "context": {
+      "en-US": "Glyceraldehyde 3-phosphate is oxidized and phosphorylated to 1,3-bisphosphoglycerate by GAPDH, consuming NAD+ to produce NADH. This is the primary glycolytic step generating reducing equivalents and couples carbon oxidation to cytosolic NAD+ consumption, so a falling NAD+/NADH ratio constrains glycolytic flux.",
+      "zh-TW": "Glyceraldehyde 3-phosphate 由 GAPDH 氧化並磷酸化為 1,3-Bisphosphoglycerate，同時消耗 NAD+ 產生 NADH。這是 glycolysis 中產生還原等價物的主要步驟，將碳氧化與細胞質 NAD+ 消耗耦合，因此 NAD+/NADH 比值下降會限制 glycolysis 通量。"
+    },
+    "confidence": 0.95,
+    "source_document": "Glyceraldehyde 3-Phosphate.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "f002fa5040cf",
+    "subject": "Senescence",
+    "predicate": "inhibits",
+    "object": "Glycolysis",
+    "context": {
+      "en-US": "In senescent cells the NAD+/NADH ratio falls because of reduced TCA/ETC flux and NAD+ consumption by repair pathways. Since glyceraldehyde 3-phosphate oxidation by GAPDH requires NAD+, glycolysis and ATP production are inhibited, and the resulting rise in the AMP+ADP/ATP ratio activates AMPK.",
+      "zh-TW": "在 senescent 細胞中，因 TCA/ETC 通量下降與修復途徑消耗 NAD+，NAD+/NADH 比值降低。由於 GAPDH 氧化 glyceraldehyde 3-phosphate 需要 NAD+，glycolysis 與 ATP 生成受到抑制，隨後 AMP+ADP/ATP 比值上升並活化 AMPK。"
+    },
+    "confidence": 0.9,
+    "source_document": "Glyceraldehyde 3-Phosphate.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "c1ebe5909585",
+    "subject": "Glycine",
+    "predicate": "is_precursor_of",
+    "object": "Glutathione",
+    "context": {
+      "en-US": "Glycine is a stoichiometric precursor of glutathione, joining glutamate and cysteine in its synthesis. GlyNAC (glycine plus N-acetylcysteine) supplementation replenishes age-related glutathione deficiency, lowering oxidative stress and supporting mitochondrial function in older adults.",
+      "zh-TW": "Glycine 是 glutathione 的化學計量前驅物，與 glutamate 及 cysteine 一起參與其合成。GlyNAC（glycine 加 N-acetylcysteine）補充可回補與年齡相關的 glutathione 缺乏，降低 oxidative stress 並支持老年人的粒線體功能。"
+    },
+    "confidence": 0.95,
+    "source_document": "Glycine.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "016748f3f7c1",
+    "subject": "Glycine",
+    "predicate": "is_precursor_of",
+    "object": "Creatine",
+    "context": {
+      "en-US": "Glycine contributes to creatine synthesis, condensing with arginine by AGAT to form guanidinoacetate, which GAMT then methylates to creatine. Glycine also feeds collagen, heme, and purine synthesis and acts as an inhibitory neurotransmitter in spinal cord and brainstem.",
+      "zh-TW": "Glycine 參與 creatine 合成，先與 arginine 經 AGAT 縮合形成 guanidinoacetate，再由 GAMT 甲基化為 creatine。Glycine 同時供應 collagen、heme 與 purine 合成，並在脊髓與腦幹作為抑制性神經傳遞物質。"
+    },
+    "confidence": 0.9,
+    "source_document": "Glycine.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "e69b26936aaa",
+    "subject": "Glycolysis",
+    "predicate": "produces",
+    "object": "Methylglyoxal",
+    "context": {
+      "en-US": "Glycolysis generates methylglyoxal as a byproduct, and methylglyoxal is a potent precursor for advanced glycation end products. The resulting dicarbonyl and AGE burden links glycolytic flux to protein cross-linking and age-related oxidative damage.",
+      "zh-TW": "Glycolysis 會產生副產物 Methylglyoxal，而 Methylglyoxal 是 advanced glycation end products 的強烈前驅物。由此累積的 dicarbonyl 與 AGE 負擔，將 glycolysis 通量與蛋白質交聯及與年齡相關的氧化損傷連結起來。"
+    },
+    "confidence": 0.9,
+    "source_document": "Glycolysis.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "6d8795ff6db1",
+    "subject": "Cancer",
+    "predicate": "depends_on",
+    "object": "Glycolysis",
+    "context": {
+      "en-US": "Cancer cells rely on aerobic glycolysis to support rapid proliferation and biomass production, the Warburg effect, with overexpression of Hexokinase 2, Phosphofructokinase, and Pyruvate Kinase M2 and upregulation of GLUT1 glucose transporters. Anticancer strategies therefore aim to inhibit glycolysis and starve tumor cells.",
+      "zh-TW": "癌細胞依賴 aerobic glycolysis 支撐快速增殖與生物量生成，即 Warburg Effect，並伴隨 Hexokinase 2、Phosphofructokinase 與 Pyruvate Kinase M2 的過度表現以及 GLUT1 glucose transporter 上调。因此抗癌策略常以抑制 glycolysis、讓腫瘤細胞缺葡萄糖為目標。"
+    },
+    "confidence": 0.9,
+    "source_document": "Glycolysis.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "ee82078b1afa",
+    "subject": "Hexokinase-1",
+    "predicate": "is_inhibited_by",
+    "object": "PAR",
+    "context": {
+      "en-US": "Free PAR chains bind a PAR-binding motif on Hexokinase-1 and inhibit its activity about 15 minutes after MNNG, before NAD+ loss. This drives HK1-VDAC dissociation, blocking glycolysis and the pentose phosphate pathway so NADPH and glutathione fall; pyruvate and alpha-ketoglutarate bypass rescue downstream mitochondrial failure.",
+      "zh-TW": "游離 PAR 鏈結合在 Hexokinase-1 的 PAR-binding motif 上並抑制其活性，於 MNNG 後約 15 分鐘發生，早於 NAD+ 流失。這驅使 HK1-VDAC 解離，阻斷 glycolysis 與 pentose phosphate pathway，使 NADPH 與 glutathione 下降；pyruvate 與 alpha-ketoglutarate bypass 可救援下游的粒線體衰竭。"
+    },
+    "confidence": 0.9,
+    "source_document": "Glycolysis.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "aa8c0ab8936a",
+    "subject": "Gout",
+    "predicate": "is_caused_by",
+    "object": "Uric Acid",
+    "context": {
+      "en-US": "Gout is an inflammatory arthritis driven by persistent hyperuricemia, which supersaturates urate and promotes crystallization of monosodium urate in joints, cartilage, and soft tissue. Hyperuricemia arises from increased purine turnover, overproduction via Xanthine Oxidase, or reduced renal excretion.",
+      "zh-TW": "Gout 是由持續性高尿酸血症驅動的發炎性關節炎，尿酸過飽和促使 monosodium urate 在關節、軟骨與軟組織結晶。高尿酸血症來自 purine turnover 增加、經 Xanthine Oxidase 的生成過多，或腎臟排泄減少。"
+    },
+    "confidence": 0.95,
+    "source_document": "Gout.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "73d3fea984ab",
+    "subject": "Gout",
+    "predicate": "activates",
+    "object": "NLRP3 Inflammasome",
+    "context": {
+      "en-US": "Monosodium urate crystals phagocytosed by macrophages and neutrophils activate the NLRP3 inflammasome and release IL-1beta, igniting the acute inflammation of a gout flare. This is why acute attacks respond to colchicine and NSAIDs.",
+      "zh-TW": "被 macrophages 與 neutrophils 吞噬的 monosodium urate 結晶會活化 NLRP3 Inflammasome 並釋放 IL-1beta，點燃 gout 發作的急性 inflammation。這也是急性發作對 colchicine 與 NSAIDs 反應的原因。"
+    },
+    "confidence": 0.9,
+    "source_document": "Gout.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "f9e520f893d8",
+    "subject": "Allopurinol",
+    "predicate": "inhibits",
+    "object": "Xanthine Oxidase",
+    "context": {
+      "en-US": "Allopurinol and febuxostat are Xanthine Oxidase inhibitors that lower urate production as urate-lowering therapy, preventing recurrence of gout. Xanthine Oxidase is the key enzyme of urate generation and the main pharmacologic target in gout.",
+      "zh-TW": "Allopurinol 與 febuxostat 是 Xanthine Oxidase 抑制劑，透過降低 urate 生成作為降尿酸治療，防止 gout 復發。Xanthine Oxidase 是 urate 生成的关键酵素，也是 gout 的主要藥理標的。"
+    },
+    "confidence": 0.9,
+    "source_document": "Gout.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "cfa40e8aeb9d",
+    "subject": "Growth Factor",
+    "predicate": "activates",
+    "object": "PI3K",
+    "context": {
+      "en-US": "Growth factors bind receptor tyrosine kinases or G protein-coupled receptors and activate RAS/RAF/MEK/ERK and PI3K/Akt/mTORC1 as well as JAK/STAT cascades. These cascades increase cyclin levels or reduce CDK inhibitor abundance to drive cell proliferation; dysregulated growth factor signaling is a hallmark of cancer.",
+      "zh-TW": "Growth factors 結合 receptor tyrosine kinases 或 G protein-coupled receptors，活化 RAS/RAF/MEK/ERK 與 PI3K/Akt/mTORC1 以及 JAK/STAT cascade。這些 cascade 增加 cyclin 濃度或降低 CDK inhibitor 豐度以驅動 cell proliferation；growth factor 訊號失調是 cancer 的特徵之一。"
+    },
+    "confidence": 0.9,
+    "source_document": "Growth Factor.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "2066eca9cc60",
+    "subject": "Growth Factor",
+    "predicate": "promotes",
+    "object": "Wound Healing",
+    "context": {
+      "en-US": "Growth factors stimulate proliferation, differentiation, survival, and migration and are used therapeutically in wound healing and regenerative medicine, where they act as mitogens that raise cyclin levels to prime cell-cycle entry.",
+      "zh-TW": "Growth factors 促進 proliferation、differentiation、survival 與 migration，並在 wound healing 與 regenerative medicine 中作治療性使用，作為 mitogen 提高 cyclin 濃度以啟動 cell cycle。"
+    },
+    "confidence": 0.85,
+    "source_document": "Growth Factor.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "a9932b4f517a",
+    "subject": "Growth Factor",
+    "predicate": "promotes",
+    "object": "Cell Proliferation",
+    "context": {
+      "en-US": "Growth factors (mitogens) drive cell proliferation by inducing signaling cascades that ultimately raise cyclin levels or lower CDK inhibitor abundance. The major families include EGF/EGFR, FGF, PDGF, VEGF, IGF, HGF, and TGFbeta.",
+      "zh-TW": "Growth factors（mitogens）藉由誘發訊號 cascade 使 cyclin 濃度上升或降低 CDK inhibitor 豐度，驅動 cell proliferation。主要家族包括 EGF/EGFR、FGF、PDGF、VEGF、IGF、HGF 與 TGFbeta。"
+    },
+    "confidence": 0.9,
+    "source_document": "Growth Factor.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "0a2048d9dd77",
+    "subject": "Guanidinoacetate (GAA)",
+    "predicate": "converts_to",
+    "object": "Creatine",
+    "context": {
+      "en-US": "Guanidinoacetate (glycocyamine) is the direct precursor of creatine, formed in the kidney from arginine and glycine by AGAT and then methylated by GAMT using S-adenosylmethionine to yield creatine in the liver. In GAMT deficiency GAA accumulates to toxic levels and causes neurological damage.",
+      "zh-TW": "Guanidinoacetate（glycocyamine）是 creatine 的直接前驅物，在腎臟由 arginine 與 glycine 經 AGAT 形成，再由 GAMT 以 S-adenosylmethionine 為甲基供體在肝臟甲基化為 creatine。GAMT 缺乏時 GAA 累積至毒性濃度並造成神經損傷。"
+    },
+    "confidence": 0.95,
+    "source_document": "Guanidinoacetate (GAA).md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "9f01621c415a",
+    "subject": "Arginine Glycine Amidinotransferase",
+    "predicate": "produces",
+    "object": "Guanidinoacetate (GAA)",
+    "context": {
+      "en-US": "Arginine glycine amidinotransferase (AGAT) condenses arginine and glycine to form guanidinoacetate and ornithine in the kidney, the committed first step of endogenous creatine synthesis. AGAT deficiency leaves both guanidinoacetate and creatine low.",
+      "zh-TW": "Arginine glycine amidinotransferase（AGAT）在腎臟將 arginine 與 glycine 縮合形成 guanidinoacetate 與 ornithine，是內源性 creatine 合成的第一步 committed 反應。AGAT 缺乏時 guanidinoacetate 與 creatine 皆偏低。"
+    },
+    "confidence": 0.95,
+    "source_document": "Guanidinoacetate (GAA).md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "e41bcd6682a1",
+    "subject": "Guanidinoacetate (GAA)",
+    "predicate": "improves",
+    "object": "Creatine",
+    "context": {
+      "en-US": "Guanidinoacetate is a more potent methyl acceptor than creatine itself and is explored as an alternative or adjunct to creatine supplementation. In chronic fatigue syndrome, 2.4 g/day for three months improved creatine metabolism and work capacity in women, though not general fatigue or musculoskeletal soreness.",
+      "zh-TW": "Guanidinoacetate 是比 creatine 本身更強的 methyl 受體，被探索作為 creatine 補充的替代或輔助。在 chronic fatigue syndrome 中，每日 2.4 g 連用三個月可改善女性的 creatine 代謝與工作能力，但未改善一般疲勞或肌肉骨骼痠痛。"
+    },
+    "confidence": 0.8,
+    "source_document": "Guanidinoacetate (GAA).md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "d9aaefe1658c",
+    "subject": "Guanidinoacetate N-methyltransferase",
+    "predicate": "methylates",
+    "object": "Guanidinoacetate (GAA)",
+    "context": {
+      "en-US": "GAMT is the terminal methyltransferase of creatine biosynthesis, irreversibly methylating guanidinoacetate to form creatine using S-adenosylmethionine as the methyl donor and producing SAH. It is expressed mainly in liver, kidney, and pancreas, so most guanidinoacetate made in the kidney travels to the liver for methylation.",
+      "zh-TW": "GAMT 是 creatine 生合成的末端 methyltransferase，以 S-adenosylmethionine 為甲基供體、生成 SAH，不可逆地將 guanidinoacetate 甲基化為 creatine。它主要表現於肝臟、腎臟與胰臟，因此腎臟產生的大部分 guanidinoacetate 會運送至肝臟進行甲基化。"
+    },
+    "confidence": 0.95,
+    "source_document": "Guanidinoacetate N-methyltransferase.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "f791837bc5e6",
+    "subject": "Guanidinoacetate N-methyltransferase",
+    "predicate": "is_required_for",
+    "object": "Creatine",
+    "context": {
+      "en-US": "GAMT deficiency, an autosomal recessive inborn error of creatine metabolism, causes guanidinoacetate accumulation with depletion of cerebral creatine and phosphocreatine, impairing brain bioenergetics. It presents with developmental delay, often intractable epilepsy, movement disorders, and autistic-like behavior, and is treated with high-dose creatine supplementation.",
+      "zh-TW": "GAMT 缺乏是 creatine 代謝的體染色體隱性先天錯誤，造成 guanidinoacetate 累積與腦內 creatine、phosphocreatine 耗損，損害 brain bioenergetics。表現為發育遲緩、難治性 epilepsy、運動障礙與類自閉行為，治療以高劑量 creatine 補充為主。"
+    },
+    "confidence": 0.9,
+    "source_document": "Guanidinoacetate N-methyltransferase.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "eed1e1abc62c",
+    "subject": "Guanylate Cyclase",
+    "predicate": "produces",
+    "object": "Cyclic Guanosine Monophosphate",
+    "context": {
+      "en-US": "Guanylate cyclase enzymes convert GTP to the second messenger cGMP, which activates protein kinase G and regulates smooth-muscle tone, platelet aggregation, and neuronal signaling. The soluble isoform is the principal receptor for nitric oxide, while particulate isoforms respond to natriuretic peptides.",
+      "zh-TW": "Guanylate cyclase 將 GTP 轉換為第二信使 cGMP，後者活化 protein kinase G 並調節平滑肌張力、血小板聚集與神經訊號。可溶性型是 nitric oxide 的主要受體，顆粒型則對 natriuretic peptide 反應。"
+    },
+    "confidence": 0.95,
+    "source_document": "Guanylate Cyclase.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "84d570af98d5",
+    "subject": "Methylene blue",
+    "predicate": "inhibits",
+    "object": "Guanylate Cyclase",
+    "context": {
+      "en-US": "Methylene blue inhibits guanylate cyclase, specifically soluble guanylyl cyclase, blocking NO to cGMP signaling. Excessive NO/cGMP in distributive shock causes refractory hypotension, and blocking this axis with methylene blue rescues it in vasoplegic shock.",
+      "zh-TW": "Methylene blue 抑制 guanylate cyclase（特別是 soluble guanylyl cyclase），阻斷 NO 到 cGMP 的訊號。分布性休克中過量的 NO/cGMP 會造成難治性低血壓，methylene blue 阻斷此軸可在 vasoplegic shock 中加以救援。"
+    },
+    "confidence": 0.95,
+    "source_document": "Guanylate Cyclase.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "f4e1733edc86",
+    "subject": "Gut Microbiome",
+    "predicate": "produces",
+    "object": "Short-chain Fatty Acids",
+    "context": {
+      "en-US": "The gut microbiome ferments dietary fiber into short-chain fatty acids, notably butyrate, which act on enteroendocrine cells and the enteric nervous system. These anti-inflammatory microbial products also maintain barrier integrity and train the immune system.",
+      "zh-TW": "Gut Microbiome 將 dietary fiber 發酵成 short-chain fatty acids，尤其是 butyrate，並作用於 enteroendocrine cells 與 enteric nervous system。這些抗發炎微生物產物也維持 barrier integrity 並訓練 immune system。"
+    },
+    "confidence": 0.95,
+    "source_document": "Gut Microbiome.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "59ad5e40fbff",
+    "subject": "Gut Microbiome",
+    "predicate": "declines_with",
+    "object": "Aging",
+    "context": {
+      "en-US": "With aging, gut microbial diversity often declines and dysbiosis emerges, correlating with inflammaging, metabolic dysfunction, and neurodegeneration. Diet, fasting, and exercise shift composition toward beneficial taxa, and interventions such as fecal microbiota transplantation target the microbiome to extend healthspan.",
+      "zh-TW": "隨著 aging，腸道菌叢多樣性常下降並出現 dysbiosis，與 inflammaging、代謝功能失調及 neurodegeneration 相關。飲食、fasting 與運動可將菌相轉向有益菌群，而 fecal microbiota transplantation 等介入以腸道菌叢為標的來延長 healthspan。"
+    },
+    "confidence": 0.85,
+    "source_document": "Gut Microbiome.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "5c3cef16b352",
+    "subject": "Gut Microbiome",
+    "predicate": "regulates",
+    "object": "Immune System",
+    "context": {
+      "en-US": "The gut microbiome functions as a metabolic and immune organ that trains and regulates the immune system and maintains barrier integrity. Dysbiosis promotes low-grade inflammation, linking the microbiome to inflammaging and age-related immune change.",
+      "zh-TW": "Gut Microbiome 具代謝與免疫器官的功能，可訓練並調節 immune system 並維持 barrier integrity。Dysbiosis 會促進低度慢性 inflammation，將腸道菌叢與 inflammaging 及與年齡相關的免疫變化連結起來。"
+    },
+    "confidence": 0.9,
+    "source_document": "Gut Microbiome.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "f43a86d1161f",
+    "subject": "Gut-Brain Axis",
+    "predicate": "connects",
+    "object": "Gut Microbiome",
+    "context": {
+      "en-US": "The gut-brain axis is a bidirectional communication network connecting the central nervous system with the gastrointestinal tract and its resident gut microbiome. The vagus nerve provides rapid afferent and efferent signaling, while microbial metabolites such as short-chain fatty acids, cytokines, and the hypothalamic-pituitary-adrenal axis relay hormonal and immune information.",
+      "zh-TW": "Gut-brain axis 是連結中樞神經系統與 gastrointestinal tract 及其 resident gut microbiome 的雙向通訊網絡。Vagus nerve 提供快速的 afferent 與 efferent 訊號，微生物代謝物（如 short-chain fatty acids）、cytokines 與 hypothalamic-pituitary-adrenal axis 則傳遞荷爾蒙與免疫訊息。"
+    },
+    "confidence": 0.9,
+    "source_document": "Gut-Brain Axis.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "758ea724e139",
+    "subject": "Gut-Brain Axis",
+    "predicate": "is_associated_with",
+    "object": "Parkinson's Disease",
+    "context": {
+      "en-US": "Disruption of the gut-brain axis is linked to inflammation, aging, and neurodegeneration, notably Parkinson's Disease, where alpha-synuclein pathology may originate in the gut, and Alzheimer's Disease. Supporting a healthy microbiome through diet, fasting, and exercise is being explored to preserve brain health.",
+      "zh-TW": "Gut-brain axis 的失調與 inflammation、aging 及 neurodegeneration 相關，尤其是 Parkinson's Disease（其 alpha-synuclein 病變可能起源於腸道）與 Alzheimer's Disease。透過飲食、fasting 與運動維持健康菌叢以保護腦健康正在被探索。"
+    },
+    "confidence": 0.85,
+    "source_document": "Gut-Brain Axis.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "69822b9696f9",
+    "subject": "Gyrate Atrophy",
+    "predicate": "is_caused_by",
+    "object": "Ornithine Aminotransferase (OAT) Deficiency",
+    "context": {
+      "en-US": "Gyrate atrophy is a rare autosomal recessive chorioretinal degeneration caused by mutations in the OAT gene encoding ornithine aminotransferase. The deficiency produces sharply demarcated circular atrophic lesions in the mid-peripheral retina that enlarge, coalesce, and lead to tunnel vision and legal blindness by age 40-50.",
+      "zh-TW": "Gyrate atrophy 是一罕見的體染色體隱性脈絡視網膜退化症，由編碼 ornithine aminotransferase 的 OAT 基因突變造成。缺乏使中周邊視網膜出現邊界清楚的圓形萎縮病灶，逐漸擴大融合，導致管狀視野並在 40 至 50 歲達法定失明。"
+    },
+    "confidence": 0.95,
+    "source_document": "Gyrate Atrophy.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "c25044c666ee",
+    "subject": "Gyrate Atrophy",
+    "predicate": "depletes",
+    "object": "Creatine",
+    "context": {
+      "en-US": "Ornithine aminotransferase deficiency raises plasma ornithine 10- to 20-fold; the elevated ornithine inhibits AGAT, reducing endogenous creatine synthesis. The secondary creatine depletion drives muscle atrophy and weakness, which respond to creatine monohydrate supplementation, while arginine restriction lowers ornithine.",
+      "zh-TW": "Ornithine aminotransferase 缺乏使血漿 ornithine 上升 10 至 20 倍，升高的 ornithine 抑制 AGAT，減少內源性 creatine 合成。此繼發性 creatine 耗損造成 muscle atrophy 與 weakness，可由 creatine monohydrate 補充改善，而 arginine 限制則可降低 ornithine。"
+    },
+    "confidence": 0.9,
+    "source_document": "Gyrate Atrophy.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "1ee19acc41a7",
+    "subject": "HAF-1",
+    "predicate": "activates",
+    "object": "ATFS-1",
+    "context": {
+      "en-US": "Under mitochondrial proteotoxic stress HAF-1, an inner-membrane ABC transporter, exports peptides generated by mitochondrial proteases from the matrix into the cytosol. These peptides act as retrograde signals that activate the transcription factor ATFS-1 and thus the mitochondrial unfolded protein response.",
+      "zh-TW": "在粒線體蛋白毒性壓力下，內膜 ABC transporter HAF-1 將粒線體蛋白酶產生的胜肽由 matrix 輸出至細胞質。這些胜肽作為 retrograde 訊號活化轉錄因子 ATFS-1，進而啟動 mitochondrial unfolded protein response。"
+    },
+    "confidence": 0.95,
+    "source_document": "HAF-1.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "303978d49b64",
+    "subject": "HAF-1",
+    "predicate": "is_localized_to",
+    "object": "Mitochondria",
+    "context": {
+      "en-US": "HAF-1 is an ATP-binding cassette transporter localized to the inner membrane of mitochondria in C. elegans, where it is the central effector transmitting mitochondrial stress to the nucleus and linking it to stress resistance, aging, and lifespan across tissues.",
+      "zh-TW": "HAF-1 是在 C. elegans 中定位於粒線體內膜的 ATP-binding cassette transporter，是將粒線體壓力傳遞至細胞核的中樞效應者，並將其與壓力耐受、aging 及跨組織 lifespan 連結起來。"
+    },
+    "confidence": 0.95,
+    "source_document": "HAF-1.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "85a32359ce3d",
+    "subject": "Mdl1",
+    "predicate": "is_ortholog_of",
+    "object": "HAF-1",
+    "context": {
+      "en-US": "The mammalian ortholog Mdl1, of the ABCB10/ABCB7 family, performs analogous mitochondrial peptide export, indicating that the principles of mitochondrial-to-nuclear communication mediated by HAF-1 are evolutionarily conserved.",
+      "zh-TW": "哺乳類同源蛋白 Mdl1（屬 ABCB10/ABCB7 家族）執行類似的粒線體胜肽輸出，表示由 HAF-1 媒介的粒線體到細胞核通訊原理在演化上保守。"
+    },
+    "confidence": 0.85,
+    "source_document": "HAF-1.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "ba67e9e8e4a9",
+    "subject": "HDAC4",
+    "predicate": "binds",
+    "object": "H3K27ac",
+    "context": {
+      "en-US": "HDAC4 is a class IIa histone deacetylase that has lost robust deacetylase activity and instead acts as an epigenetic reader, binding acetyl-lysine motifs at H3K27ac-marked senescence-activated super-enhancers. It shuttles between nucleus and cytoplasm in a 14-3-3- and phosphorylation-dependent manner.",
+      "zh-TW": "HDAC4 是 class IIa histone deacetylase，已失去強大的去乙醯化活性而改作表觀遺傳 reader，在 H3K27ac 標記的 senescence-activated super-enhancers 上結合 acetyl-lysine motif。它以依賴 14-3-3 與磷酸化的方式在細胞核與細胞質間穿梭。"
+    },
+    "confidence": 0.95,
+    "source_document": "HDAC4.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "e6eb4bda6eaa",
+    "subject": "HDAC4",
+    "predicate": "interacts_with",
+    "object": "HDAC3",
+    "context": {
+      "en-US": "Through its N-terminal domain HDAC4 recruits the catalytically active class I deacetylase HDAC3, linking acetyl-lysine reader function to real deacetylase activity. The HDAC4-HDAC3 complex integrates the H3K27ac landscape with control of SASP gene expression at AP-1-regulated enhancers.",
+      "zh-TW": "HDAC4 透過其 N 端結構域招募具有催化活性的 class I 去乙醯化酶 HDAC3，將 acetyl-lysine reader 功能與真正的去乙醯化活性連結。HDAC4-HDAC3 complex 將 H3K27ac 圖景與 AP-1 調控 enhancer 上的 SASP 基因表現控制整合起來。"
+    },
+    "confidence": 0.9,
+    "source_document": "HDAC4.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "d47633b43a57",
+    "subject": "HDAC4",
+    "predicate": "restrains",
+    "object": "SASP",
+    "context": {
+      "en-US": "HDAC4 buffers the AP-1-driven SASP transcriptional program by overseeing H3K27ac status at senescence-activated super-enhancers. Upon entry into senescence HDAC4 is degraded, releasing the NF-kappaB-regulated SASP program; HDAC4 depletion likewise enhances SASP expression, so stabilizing HDAC4 could be senomorphic.",
+      "zh-TW": "HDAC4 藉由監控 senescence-activated super-enhancers 上的 H3K27ac 狀態，緩衝 AP-1 驅動的 SASP 轉錄程式。進入 senescence 時 HDAC4 被降解，釋放 NF-kappaB 調控的 SASP 程式；HDAC4 耗竭同樣會增強 SASP 表現，因此穩定 HDAC4 可能具 senomorphic 效果。"
+    },
+    "confidence": 0.9,
+    "source_document": "HDAC4.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "6189de257cee",
+    "subject": "HDAC6",
+    "predicate": "deacetylates",
+    "object": "MFN1",
+    "context": {
+      "en-US": "HDAC6 is a cytoplasmically localized deacetylase that deacetylates the fusion protein MFN1 under glucose deprivation, enhancing its fusogenic activity. Shifting the balance away from the pro-fission DRP1 axis toward fusion maintains mitochondrial integrity and bioenergetic resilience when nutrient supply is limited.",
+      "zh-TW": "HDAC6 是細胞質定位的 deacetylase，在葡萄糖缺乏時將 fusion 蛋白 MFN1 去乙醯化，增強其 fusogenic 活性。將平衡由 pro-fission 的 DRP1 軸轉向 fusion，可在養分供應受限時維持 mitochondrial integrity 與 bioenergetic 韌性。"
+    },
+    "confidence": 0.9,
+    "source_document": "HDAC6.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "b43f0cfb47f0",
+    "subject": "HDAC6",
+    "predicate": "promotes",
+    "object": "Mitochondrial Fusion",
+    "context": {
+      "en-US": "By deacetylating MFN1, HDAC6 promotes mitochondrial fusion under glucose deprivation, coupling metabolic state to organelle morphology. This illustrates how post-translational modification of fusion factors integrates starvation stress signals.",
+      "zh-TW": "HDAC6 藉由將 MFN1 去乙醯化，在葡萄糖缺乏時促進 mitochondrial fusion，將代謝狀態與胞器形態耦合。這說明 fusion 因子的 post-translational modification 如何整合飢餓壓力訊號。"
+    },
+    "confidence": 0.9,
+    "source_document": "HDAC6.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "1d0670d3638f",
+    "subject": "HDL",
+    "predicate": "mediates",
+    "object": "Reverse Cholesterol Transport",
+    "context": {
+      "en-US": "HDL is the central anti-atherogenic mediator of reverse cholesterol transport, accepting excess cholesterol from peripheral cells and macrophages via ABCA1 and ABCG1 and delivering it to the liver. Oxidized HDL3 loses this efflux capacity.",
+      "zh-TW": "HDL 是 reverse cholesterol transport 的核心抗動脈粥狀硬化媒介，透過 ABCA1 與 ABCG1 從周邊細胞及 macrophages 接受過多 cholesterol 並運送至肝臟。氧化後的 HDL3 則喪失此 efflux 能力。"
+    },
+    "confidence": 0.95,
+    "source_document": "HDL.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "c14d087186d6",
+    "subject": "HDL",
+    "predicate": "protects",
+    "object": "LDL",
+    "context": {
+      "en-US": "HDL protects LDL against oxidation, largely by carrying the antioxidant enzyme PON1. Elevated HDL is associated with reduced atherosclerosis and cardiovascular disease risk, so HDL-based strategies target ABCA1, ABCG1, and PON1.",
+      "zh-TW": "HDL 主要藉由攜帶抗氧化酵素 PON1 保護 LDL 免於氧化。HDL 濃度較高與較低的 atherosclerosis 及 cardiovascular disease 風險相關，因此以 HDL 為基礎的策略針對 ABCA1、ABCG1 與 PON1。"
+    },
+    "confidence": 0.9,
+    "source_document": "HDL.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "97947d734735",
+    "subject": "Oxidative Stress",
+    "predicate": "impairs",
+    "object": "HDL",
+    "context": {
+      "en-US": "Oxidative stress impairs HDL function: Fe/ascorbate stress and Cu-induced oxidation of HDL3 decrease its capacity to mediate cholesterol efflux from macrophages, alter phospholipid fluidity, modify apoprotein structure, and lower PON1 activity. Resveratrol protects HDL3 from copper oxidation and preserves efflux capacity.",
+      "zh-TW": "Oxidative stress 會損害 HDL 功能：Fe/ascorbate 壓力與 Cu 誘發的 HDL3 氧化降低其從 macrophages 介導 cholesterol efflux 的能力，改變磷脂流動性、變形 apoprotein 結構並降低 PON1 活性。Resveratrol 可保護 HDL3 免於銅氧化並維持 efflux 能力。"
+    },
+    "confidence": 0.9,
+    "source_document": "HDL.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "2f5a890cf436",
+    "subject": "PON1",
+    "predicate": "is_carried_by",
+    "object": "HDL",
+    "context": {
+      "en-US": "HDL carries the antioxidant enzyme PON1, which contributes to the particle's antioxidant capacity and protects LDL from oxidation. Oxidation of HDL reduces PON1 activity and thereby weakens the anti-atherogenic function of the lipoprotein.",
+      "zh-TW": "HDL 攜帶抗氧化酵素 PON1，後者貢獻於該顆粒的抗氧化能力並保護 LDL 免於氧化。HDL 的氧化會降低 PON1 活性，因而削弱此 lipoprotein 的抗動脈粥狀硬化功能。"
+    },
+    "confidence": 0.9,
+    "source_document": "HDL.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "4b0b40818835",
+    "subject": "HEK293",
+    "predicate": "is_used_for",
+    "object": "Mitochondria",
+    "context": {
+      "en-US": "HEK293 is the workhorse human cell line for transient and stable recombinant protein production, lentiviral packaging, and CRISPR screens, and is heavily used in mitochondria-related and signaling studies. Its high transfectability makes it ideal for reporter assays probing mTOR, apoptosis, and stress pathways.",
+      "zh-TW": "HEK293 是從事暫時性與穩定性重組蛋白生產、lentiviral packaging 與 CRISPR screen 的主力人類細胞株，並廣泛用於粒線體相關與訊號研究。其高轉染效率使其成為偵測 mTOR、apoptosis 與壓力途徑的 reporter assay 理想模型。"
+    },
+    "confidence": 0.85,
+    "source_document": "HEK293.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "c198c6b521a7",
+    "subject": "HEK293",
+    "predicate": "is_model_for",
+    "object": "MEF",
+    "context": {
+      "en-US": "HEK293's transformed and immortalized phenotype limits direct physiological inference, so findings from HEK293 overexpression of longevity-associated proteins such as sirtuins require validation in primary cells such as MEF, and in aging and neurodegeneration research.",
+      "zh-TW": "HEK293 的轉化與永生化表型限制直接的生理推論，因此 HEK293 中過量表現 sirtuin 等長壽相關蛋白的結果，必須在 MEF 等 primary cells 以及 aging 與 neurodegeneration 研究中加以驗證。"
+    },
+    "confidence": 0.8,
+    "source_document": "HEK293.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "9b883e6ad924",
+    "subject": "HGF",
+    "predicate": "activates",
+    "object": "Muscle Stem Cell",
+    "context": {
+      "en-US": "Skeletal muscle injury induces activation and release of hepatocyte growth factor from the surrounding extracellular matrix, which primes muscle stem cells for proliferation. HGF is thus a paracrine signal coupling tissue damage to stem cell reactivation during repair.",
+      "zh-TW": "骨骼肌損傷會誘發周圍 extracellular matrix 釋放並活化 Hepatocyte Growth Factor，進而使 muscle stem cells 為增殖做好準備。HGF 因此是把組織損傷與修復期間幹細胞再活化連結起來的 paracrine 訊號。"
+    },
+    "confidence": 0.85,
+    "source_document": "HGF.md",
+    "created": "2026-09-29T16:11:04Z",
+    "updated": "2026-09-29T16:11:04Z"
   }
 ]
