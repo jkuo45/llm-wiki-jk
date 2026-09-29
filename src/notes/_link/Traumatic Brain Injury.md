@@ -1,8 +1,8 @@
 ---
 title: Traumatic Brain Injury
-description: Traumatic brain injury (TBI) is mechanical brain damage; methylene blue is studied for neuroprotection in TBI.
+description: Traumatic brain injury (TBI) is an acquired brain injury from external mechanical force causing transient or prolonged neurological deficits; mild TBI (concussion) is common in sport and military populations. Mitochondria-targeted agents are an active neuroprotection research focus.
 created: 2026-07-08
-updated: 2026-07-09
+updated: 2026-09-29
 tags:
   - medical-condition
   - neurology
@@ -10,6 +10,10 @@ tags:
 aliases:
   - TBI
   - Traumatic brain injury
+  - Traumatic Brain Injury (TBI)
+  - Concussion
+  - Mild traumatic brain injury
+  - mTBI
 ---
 
 # Traumatic Brain Injury
@@ -27,6 +31,14 @@ Acute care targets intracranial pressure control, oxygenation, and seizure proph
 
 > [!info] Research Direction
 > Mitochondria-targeted agents that limit the secondary injury cascade are a major focus of TBI neuroprotection research.
+
+## Creatine and TBI
+
+[[Creatine in Health and Disease]] summarizes strong preclinical evidence for [[Neuroprotection]]:
+
+- Sullivan et al.: dietary creatine for 5 days before TBI reduced cortical damage by 36% in rats and 50% in mice, attributed to improved [[Energy Availability|energy availability]].
+- Proposed mechanisms include sustaining the [[Creatine Phosphate Shuttle]] and [[Phosphocreatine (PCr)|PCr]] buffering during ischemia-like secondary injury.
+- Evidence was compelling enough that an international consensus body (per the review) acknowledged creatine's potential in mild concussion/TBI.
 
 ## Documents
 
@@ -48,9 +60,12 @@ Acute care targets intracranial pressure control, oxygenation, and seizure proph
   - [[Neuroinflammation]]: therapeutic target.
   - [[Ischemic Stroke]]: related acute brain injury context.
   - [[Blood-Brain Barrier]]: disrupted after injury.
+  - [[Creatine Supplementation]]: prophylactic agent supporting energy availability during secondary injury.
+  - [[Spinal Cord Injury (SCI)]]: related neurotrauma.
 
 ## Linking Summary
 
   - New links added: [[Methylene blue]], [[Mitochondrial Electron Transport Chain]], [[Mitochondrial Superoxide]], [[Oxidative Stress]], [[Reactive Oxygen Species]], [[Neuroinflammation]], [[Apoptosis]], [[Blood-Brain Barrier]], [[Ischemic Stroke]], [[Creatine]], [[Urolithin A]]
   - Suggested new entity notes to create: [[Glutamate]], [[Excitotoxicity]]
   - Strong connections to strengthen: Traumatic Brain Injury ↔ Methylene blue; TBI ↔ Oxidative Stress
+  - Merged into this note on 2026-09-29 from a duplicate `Traumatic Brain Injury (TBI).md`; the creatine/preclinical section and the `Concussion`, `mTBI`, and `Traumatic Brain Injury (TBI)` aliases were carried over.

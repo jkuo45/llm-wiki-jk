@@ -2814,10 +2814,10 @@
     "updated": "2026-08-20T05:41:58Z"
   },
   {
-    "id": "5c6f68831985",
+    "id": "f0d891be97b6",
     "subject": "Creatine",
     "predicate": "protects_against",
-    "object": "Traumatic Brain Injury (TBI)",
+    "object": "Traumatic Brain Injury",
     "context": {
       "en-US": "Creatine supplementation has shown neuroprotective potential in traumatic brain injury. In animal models, providing creatine in the diet for 5 days prior to TBI decreased cortical brain damage by 36% in rats and 50% in mice, an effect attributed to improved energy availability in the injured brain. Creatine also reduces the severity of mild concussions and ischemic brain damage and improves learning and memory during recovery in neonatal mice. While these preclinical studies cannot be replicated in humans, they support the contention that creatine supplementation may reduce the severity of TBI and serve as an adjunctive strategy in individuals at risk of head injury, complementing its established role in muscle and rehabilitation settings.",
       "zh-TW": "補充肌酸在創傷性腦損傷中已顯示出神經保護潛力。在動物模型中，於 TBI 前以飲食提供肌酸 5 天，可使大鼠的皮質腦損傷減少 36%、小鼠減少 50%，此效應歸因於受損腦部能量可用性的改善。肌酸也能減輕輕度腦震盪與缺血性腦損傷的嚴重程度，並改善新生小鼠恢復期間的學習與記憶。雖然這些臨床前研究無法在人體中複製，但它們支持肌酸補充可能減輕 TBI 嚴重程度、並作為頭部損傷高風險個體的輔助策略之論點，補足其在肌肉與復健領域中已確立的角色。"
@@ -2825,7 +2825,7 @@
     "confidence": 0.8,
     "source_document": "_document_ - Creatine in Health and Disease.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T05:44:23Z"
+    "updated": "2026-09-29T17:59:38Z"
   },
   {
     "id": "798e5bcc1a52",
@@ -87442,5 +87442,1951 @@
     "source_document": "Sytox Green.md",
     "created": "2026-09-29T17:54:11Z",
     "updated": "2026-09-29T17:54:11Z"
+  },
+  {
+    "id": "e8f4b1b686ad",
+    "subject": "Thermic Effect of Food",
+    "predicate": "is_a_component_of",
+    "object": "Energy Expenditure",
+    "context": {
+      "en-US": "The Thermic Effect of Food (TEF, diet-induced thermogenesis) is the post-ingestive rise in energy expenditure above Resting Metabolic Rate that reflects the energetic cost of digesting, absorbing, transporting and storing nutrients. Together with resting metabolism and physical activity, TEF is one of the three canonical components of the daily energy budget, and its magnitude is proportional to the size and protein content of the meal.",
+      "zh-TW": "食物熱效應（TEF，飲食誘導產熱）是進食後能量消耗高於 Resting Metabolic Rate 的增幅，反映消化、吸收、運輸與儲存營養素所需的能量代價。TEF 與休息代謝及身體活動並列為每日能量預算的三大組成部分，其大小與餐食份量及蛋白質含量成正比。"
+    },
+    "confidence": 0.95,
+    "source_document": "Thermic Effect of Food.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "a73c6cd8d384",
+    "subject": "Thermic Effect of Food",
+    "predicate": "is_determined_by",
+    "object": "Protein Turnover",
+    "context": {
+      "en-US": "Dietary protein elicits a larger Thermic Effect of Food than carbohydrate or fat, so the heat increment of feeding tracks dietary protein intake and its post-absorptive cost. Because this component of the energy budget is tied to food intake rather than to activity, Speakman and Selman argue it cannot account for the obesity epidemic — a fall in expenditure through this route would require a matching fall in intake, which has not occurred.",
+      "zh-TW": "膳食蛋白質引起的 Thermic Effect of Food 高於碳水化合物或脂肪，因此進食熱增量會隨飲食蛋白質攝取量及其吸收後的代謝代價而變動。由於此一能量預算組成與食物攝取量而非活動量相關，Speakman 與 Selman 認為它無法解釋肥胖流行——透過此途徑的消耗下降需要攝取量同步下降，而實際上並未發生。"
+    },
+    "confidence": 0.7,
+    "source_document": "Thermic Effect of Food.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "d890627d7950",
+    "subject": "Thermic Effect of Food",
+    "predicate": "is_included_in",
+    "object": "Energy Balance",
+    "context": {
+      "en-US": "The Thermic Effect of Food is an intake-linked expenditure term that enters predictive energy-requirement equations and is one reason fixed physical-activity multipliers approximate daily needs. Small but systematic inter-individual differences in TEF contribute to the residual variance in Energy Balance and hence to weight-gain susceptibility.",
+      "zh-TW": "Thermic Effect of Food 是與攝取量連動的消耗項，會納入預測性能量需求方程，也是固定身體活動乘數只能近似日常需求的理由之一。個體間 TEF 小而系統性的差異，會造成 Energy Balance 中殘餘變異的一部分，進而影響增重易感性。"
+    },
+    "confidence": 0.8,
+    "source_document": "Thermic Effect of Food.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "1236dabf908b",
+    "subject": "Thermogenesis",
+    "predicate": "is_driven_by",
+    "object": "Mitochondrial Uncoupling",
+    "context": {
+      "en-US": "Heat production during Thermogenesis depends on Mitochondrial Uncoupling: proton leak and the uncoupling proteins UCP1, UCP2 and UCP3 dissipate the proton-motive force as heat, uncoupling oxygen consumption from ATP synthesis. This is the dominant mechanism of non-shivering Thermogenesis in brown adipose tissue.",
+      "zh-TW": "Thermogenesis 中的產熱仰賴 Mitochondrial Uncoupling：質子漏與解偶聯蛋白 UCP1、UCP2、UCP3 將質子動力勢以熱的形式耗散，使氧消耗與 ATP 合成脫鉤。這是棕色脂肪組織中非顫抖性 Thermogenesis 的主要機制。"
+    },
+    "confidence": 0.95,
+    "source_document": "Thermogenesis.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "729ad4bca760",
+    "subject": "Thermogenesis",
+    "predicate": "is_upregulated_by",
+    "object": "Triiodothyronine",
+    "context": {
+      "en-US": "Triiodothyronine (T3) up-regulates Thermogenic processes, so thyroid status is a major endocrine determinant of heat production; thyroid hormone resistance correspondingly alters metabolic rate and thermogenic output.",
+      "zh-TW": "Triiodothyronine（T3）會上調產熱過程，因此甲狀腺狀態是產熱的主要內分泌決定因子；甲狀腺荷爾蒙阻抗也會相應改變代謝率與產熱量。"
+    },
+    "confidence": 0.9,
+    "source_document": "Thermogenesis.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "6f7cfd8830ce",
+    "subject": "UCP1",
+    "predicate": "mediates",
+    "object": "Thermogenesis",
+    "context": {
+      "en-US": "UCP1 is the brown-adipose uncoupling protein that drives non-shivering Thermogenesis: it is expressed in Brown Adipose Tissue, where it dissipates the mitochondrial proton gradient to generate heat rather than ATP, making the tissue a major thermogenic organ.",
+      "zh-TW": "UCP1 是棕色脂肪的解偶聯蛋白，驅動非顫抖性 Thermogenesis：它表達於 Brown Adipose Tissue，在此消散粒線體質子梯度以產生熱而非 ATP，使該組織成為主要的產熱器官。"
+    },
+    "confidence": 0.95,
+    "source_document": "Thermogenesis.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "4c34e4af8833",
+    "subject": "Thromboxane A₂",
+    "predicate": "is_derived_from",
+    "object": "Prostaglandin H₂",
+    "context": {
+      "en-US": "Thromboxane A₂ (TXA₂) is the prostanoid produced from the endoperoxide Prostaglandin H₂ by thromboxane synthase, a cytochrome P450-type enzyme that rearranges the endoperoxide bridge into the oxetane ring of the thromboxanes. TXA₂ is highly unstable (half-life ~30 seconds at physiological pH) and hydrolyses to the stable but inactive thromboxane B₂, which is what is measured clinically.",
+      "zh-TW": "Thromboxane A₂（TXA₂）是由血栓素合成酶將內過氧化物 Prostaglandin H₂ 轉換而成的前列腺素類物質；該酶屬細胞色素 P450 型，會將內過氧化物橋重排為血栓素特有的氧雜環丁烷環。TXA₂ 極不穩定（生理 pH 下半衰期約 30 秒），水解為穩定但無活性的 thromboxane B₂，臨床檢測的即為後者。"
+    },
+    "confidence": 0.95,
+    "source_document": "Thromboxane A₂.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "ed85c4f7039c",
+    "subject": "Thromboxane A₂",
+    "predicate": "antagonizes",
+    "object": "Prostacyclin",
+    "context": {
+      "en-US": "Thromboxane A₂ and Prostacyclin (PGI₂) are produced from the same Prostaglandin H₂ pool — TXA₂ predominantly in platelets, PGI₂ in endothelium — and act in opposition: TXA₂ is a vasoconstrictor and the principal promoter of platelet aggregation, while PGI₂ vasodilates and inhibits aggregation. The TXA₂/PGI₂ ratio therefore governs thrombotic tendency, and elevation of the ratio is prothrombotic.",
+      "zh-TW": "Thromboxane A₂ 與 Prostacyclin（PGI₂）由同一個 Prostaglandin H₂ 池產生——TXA₂ 主要在血小板，PGI₂ 則在內皮——兩者作用相反：TXA₂ 促血管收縮並是血小板聚集的主要促進因子，PGI₂ 則血管擴張並抑制聚集。因此 TXA₂/PGI₂ 比值決定血栓傾向，比值升高即偏向血栓形成。"
+    },
+    "confidence": 0.9,
+    "source_document": "Thromboxane A₂.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "99e5c969e859",
+    "subject": "Thromboxane A₂",
+    "predicate": "is_upregulated_by",
+    "object": "Lipid Peroxidation",
+    "context": {
+      "en-US": "Oxidized lipids and Oxidized LDL upregulate thromboxane synthase, shifting prostanoid balance toward Thromboxane A₂. This provides a route by which Lipid Peroxidation raises thrombotic risk, consistent with the observation that atherosclerotic plaques overproduce TXA₂ and that elevated urinary TXB₂ metabolites predict cardiovascular events.",
+      "zh-TW": "氧化脂質與 Oxidized LDL 會上調血栓素合成酶，使前列腺素平衡偏向 Thromboxane A₂。這提供了 Lipid Peroxidation 升高血栓風險的途徑，也與動脈粥樣硬化斑塊過量產生 TXA₂、且尿中 TXB₂ 代謝物升高可預測心血管事件的觀察一致。"
+    },
+    "confidence": 0.8,
+    "source_document": "Thromboxane A₂.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "072ec10daa0b",
+    "subject": "Thymic Epithelial Cells",
+    "predicate": "is_required_for",
+    "object": "Thymopoiesis",
+    "context": {
+      "en-US": "Thymic epithelial cells (TECs) are the stromal cells of the thymus that form the three-dimensional network required for Thymopoiesis. Cortical TECs support early thymocyte development, present self-peptide/MHC for positive selection and provide chemokine gradients, while medullary TECs express tissue-restricted antigens via AIRE and mediate negative selection, establishing central self-tolerance.",
+      "zh-TW": "Thymic epithelial cells（TECs）是胸腺的基質細胞，形成 Thymopoiesis 所必需的三維網絡。皮質 TECs 支持早期胸腺細胞發育、呈現自身胜肽/MHC 以進行正向選擇並提供趨化激素梯度；髓質 TECs 則透過 AIRE 表達組織限定抗原並介導負向選擇，建立中樞自我耐受。"
+    },
+    "confidence": 0.95,
+    "source_document": "Thymic Epithelial Cells.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "98b374835e6b",
+    "subject": "Thymic Epithelial Cells",
+    "predicate": "produces",
+    "object": "IL-7",
+    "context": {
+      "en-US": "Thymic epithelial cells secrete a characteristic cytokine repertoire including IL-7, IL-6, IL-1, IL-3, TGF-β, oncostatin M and leukemia inhibitory factor. IL-7 is the key survival cytokine for immature thymocytes, and its output declines sharply with age, contributing to thymic involution.",
+      "zh-TW": "Thymic epithelial cells 分泌具代表性的細胞激素組合，包括 IL-7、IL-6、IL-1、IL-3、TGF-β、oncostatin M 與 leukemia inhibitory factor。其中 IL-7 是未成熟胸腺細胞的關鍵存活細胞激素，其產量隨年齡顯著下降，促成胸腺退化。"
+    },
+    "confidence": 0.9,
+    "source_document": "Thymic Epithelial Cells.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "5bfc39d2dd39",
+    "subject": "Thymic Epithelial Cells",
+    "predicate": "decreases_during",
+    "object": "Aging",
+    "context": {
+      "en-US": "With Aging, thymic epithelial cell numbers and function decline — reduced proliferation, diminished cytokine output (especially IL-7) and disrupted thymic architecture — making TEC decline a major driver of Thymic Involution and impaired thymocyte–stromal cross-talk.",
+      "zh-TW": "隨著 Aging，Thymic Epithelial Cells 的數量與功能衰退——增殖減少、細胞激素（尤其 IL-7）產量下降、胸腺結構失序——使 TEC 衰退成為 Thymic Involution 與胸腺細胞—基質交互作用受損的主要推動因素。"
+    },
+    "confidence": 0.9,
+    "source_document": "Thymic Epithelial Cells.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "29e90a24fa0a",
+    "subject": "5-Fluorouracil",
+    "predicate": "inhibits",
+    "object": "Thymidylate Synthase",
+    "context": {
+      "en-US": "Thymidylate synthase is the principal target of 5-fluorouracil: its active metabolite FdUMP forms a lethal ternary complex with the enzyme and folate, depleting thymidine pools, triggering DNA repair stress and apoptosis in dividing cells. Fenbendazole overcomes 5-FU-resistant colorectal cells by interfering with glycolysis rather than inhibiting thymidylate synthase.",
+      "zh-TW": "Thymidylate synthase 是 5-Fluorouracil 的主要標的：其活性代謝物 FdUMP 與酵素及葉酸形成致死的三元複合體，耗竭胸腺嘧啶核苷池，在分裂細胞中引發 DNA 修復壓力與細胞凋亡。Fenbendazole 對抗 5-FU 抗藥性的結直腸癌細胞，是藉由干擾糖解作用而非抑制 thymidylate synthase。"
+    },
+    "confidence": 0.95,
+    "source_document": "Thymidylate Synthase.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "b23aa97f1024",
+    "subject": "Thymopoiesis",
+    "predicate": "occurs_in",
+    "object": "Thymus",
+    "context": {
+      "en-US": "Thymopoiesis is the multistep process in which bone-marrow-derived lymphoid progenitors enter the Thymus at the corticomedullary junction, undergo T cell receptor gene rearrangement, positive and negative selection, and mature into functional naive T lymphocytes exported to the periphery as recent thymic emigrants.",
+      "zh-TW": "Thymopoiesis 是骨髓來源的淋巴系前驅細胞進入 Thymus 的皮髓質交界處、進行 T cell receptor 基因重排、正向與負向選擇，最後成熟為可執行周邊免疫監視的功能性初始 T 淋巴球並以 recent thymic emigrants 身分輸出的多步驟過程。"
+    },
+    "confidence": 0.95,
+    "source_document": "Thymopoiesis.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "2f02eea39169",
+    "subject": "Thymopoiesis",
+    "predicate": "is_diminished_by",
+    "object": "Thymic Involution",
+    "context": {
+      "en-US": "Thymic involution progressively diminishes Thymopoiesis: thymic cellularity and T cell receptor rearrangement capacity fall, the output of naive T cells to the periphery drops, repertoire diversity narrows, and sjTREC levels show a three-log decline across an 80-year human lifespan as a molecular readout of active thymopoiesis.",
+      "zh-TW": "Thymic involution 會逐步削弱 Thymopoiesis：胸腺細胞密度與 T cell receptor 重排能力下降、周邊初始 T 細胞輸出減少、 repertoire 多樣性收窄，且 sjTREC 水平在 80 年人一生中下降三個數量級，成為活性胸腺生成作用的分子讀值。"
+    },
+    "confidence": 0.9,
+    "source_document": "Thymopoiesis.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "6bec388c96fb",
+    "subject": "Sex Steroid Ablation",
+    "predicate": "restores",
+    "object": "Thymopoiesis",
+    "context": {
+      "en-US": "Removing sex steroids surgically or via LHRH analogues restores early thymic progenitor numbers and thymic architecture, re-establishing the stromal microenvironment on which Thymopoiesis depends. IL-7, keratinocyte growth factor, IL-22, growth hormone via IGF-1, and ghrelin act through complementary routes to the same end.",
+      "zh-TW": "以外科手術或 LHRH 類似物剝除性類固醇，可恢復早期胸腺前驅細胞數量與胸腺結構，重新建立 Thymopoiesis 所依賴的基質微環境。IL-7、keratinocyte growth factor、IL-22、經由 IGF-1 作用的生長激素以及 ghrelin 則透過互補途徑達到相同目的。"
+    },
+    "confidence": 0.9,
+    "source_document": "Thymopoiesis.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "571fec6b9a04",
+    "subject": "Thymus",
+    "predicate": "is_primary_site_of",
+    "object": "Thymopoiesis",
+    "context": {
+      "en-US": "The Thymus is the bilobed mediastinal organ and primary lymphoid site where Thymopoiesis occurs, organised into the cortex (early thymocyte development, T cell receptor rearrangement, positive selection) and the medulla (negative selection by AIRE-expressing medullary TECs), plus a non-thymopoietic perivascular space that expands with age.",
+      "zh-TW": "Thymus 是雙葉的縱隔器官，也是發生 Thymopoiesis 的主要淋巴器官，分為皮質（早期胸腺細胞發育、T cell receptor 重排、正向選擇）與髓質（由表現 AIRE 的髓質 TECs 進行負向選擇），另有一個隨年齡擴張的非造血周血管空間。"
+    },
+    "confidence": 0.9,
+    "source_document": "Thymus.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "cc86b80ab05f",
+    "subject": "Thymic Involution",
+    "predicate": "increases_susceptibility_to",
+    "object": "Autoimmune Disease",
+    "context": {
+      "en-US": "Because age-related Thymic Involution shrinks the medullary compartment that performs negative selection, the thymus loses part of its self-tolerance machinery and autoimmune risk rises, alongside impaired immune reconstitution after chemotherapy or HIV-1 infection.",
+      "zh-TW": "由於與年齡相關的 Thymic Involution 使負責負向選擇的髓質區域縮小，胸腺喪失部分自我耐受機制，自體免疫風險因而上升，並伴隨化療或 HIV-1 感染後免疫重建受損。"
+    },
+    "confidence": 0.85,
+    "source_document": "Thymus.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "bc7a678bd236",
+    "subject": "Tissue Plasminogen Activator",
+    "predicate": "converts_to",
+    "object": "Plasminogen",
+    "context": {
+      "en-US": "Tissue plasminogen activator (tPA) is a serine protease that cleaves plasminogen at Arg561-Val562 to generate plasmin, the active protease that degrades cross-linked fibrin. Plasmin in turn cleaves single-chain tPA to the more active two-chain form, creating a positive feedback loop that amplifies fibrinolysis at the clot surface.",
+      "zh-TW": "Tissue plasminogen activator（tPA）是一種絲胺酸蛋白酶，於 Arg561-Val562 處切割 plasminogen 生成 plasmin；plasmin 進而切割單鏈 tPA 生成活性更高的雙鏈形式，形成在血塊表面放大 fibrinolysis 的正回饋迴路。"
+    },
+    "confidence": 0.95,
+    "source_document": "Tissue Plasminogen Activator.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "600fc2d4ff7f",
+    "subject": "Tissue Plasminogen Activator",
+    "predicate": "is_inhibited_by",
+    "object": "PAI-1",
+    "context": {
+      "en-US": "PAI-1 is the primary physiological inhibitor of tissue plasminogen activator, rapidly inactivating free tPA in plasma and thereby limiting systemic fibrinolysis. PAI-1 is itself a key SASP factor, so senescence-associated protease inhibitor elevation links cellular senescence to a prothrombotic, fibrinolysis-suppressed state.",
+      "zh-TW": "PAI-1 是 tissue plasminogen activator 的主要生理抑制劑，能在血漿中迅速失活游離 tPA，因而限制全身性 fibrinolysis。PAI-1 本身也是關鍵的 SASP 因子，因此細胞衰老相關的蛋白酶抑制劑上升，將細胞衰老與促血栓、纖維蛋白溶解受抑制的狀態連結起來。"
+    },
+    "confidence": 0.9,
+    "source_document": "Tissue Plasminogen Activator.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "40557402b323",
+    "subject": "Tissue Plasminogen Activator",
+    "predicate": "treats",
+    "object": "Ischemic Stroke",
+    "context": {
+      "en-US": "Alteplase (rt-PA) is the standard-of-care thrombolytic for acute ischaemic stroke, administered within 4.5 hours of symptom onset; tenecteplase is an engineered variant with longer half-life and greater fibrin specificity. Because tPA is fibrin-localised, it is largely spared from systemic proteolysis, though about 30% of patients achieve favourable outcomes and 1–6% develop haemorrhagic transformation through blood-brain barrier disruption.",
+      "zh-TW": "Alteplase（rt-PA）是急性缺血性中風的標準治療溶栓劑，須於症狀出現 4.5 小時內給藥；tenecteplase 則是經工程化改造、半衰期更長且對纖維蛋白更具選擇性的變體。由於 tPA 定位於纖維蛋白，全身性蛋白水解多受避免，但約 30% 患者可達良好預後，1–6% 會因血腦屏障破壞而發生出血性轉化。"
+    },
+    "confidence": 0.95,
+    "source_document": "Tissue Plasminogen Activator.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "ca4ca9dc0e0b",
+    "subject": "Tissue Plasminogen Activator",
+    "predicate": "impairs",
+    "object": "Blood-Brain Barrier",
+    "context": {
+      "en-US": "Excessive tissue plasminogen activator activity in ischaemic brain converts plasminogen to plasmin, which degrades blood-brain barrier components and activates MMP-2, MMP-9 and MMP-12. The resulting matrix disruption exacerbates vascular damage and causes haemorrhagic transformation of the infarct.",
+      "zh-TW": "缺血腦組織中過量的 tissue plasminogen activator 活性會將 plasminogen 轉為 plasmin，後者降解血腦屏障成分並活化 MMP-2、MMP-9 與 MMP-12。由此造成的基質破壞會加劇血管損傷，並造成梗死的出血性轉化。"
+    },
+    "confidence": 0.85,
+    "source_document": "Tissue Plasminogen Activator.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "8e19fb011caf",
+    "subject": "Tolcapone",
+    "predicate": "inhibits",
+    "object": "COMT",
+    "context": {
+      "en-US": "Tolcapone is a nitrocatechol-class COMT inhibitor with an IC₅₀ of roughly 0.048 µM — about 5× more potent than entacapone (~0.23 µM) and 50–100× more potent than fisetin (2.6–5.8 µM). Unlike entacapone it crosses the blood-brain barrier, so it blocks both peripheral and central catecholamine catabolism and prolongs levodopa half-life.",
+      "zh-TW": "Tolcapone 是硝基兒茶酚類的 COMT 抑制劑，IC₅₀ 約 0.048 µM——約比 entacapone（約 0.23 µM）強 5 倍、比 fisetin（2.6–5.8 µM）強 50–100 倍。與 entacapone 不同，tolcapone 可通過血腦屏障，因此同時阻斷周邊與中樞的兒茶酚胺分解代謝，並延長 levodopa 的半衰期。"
+    },
+    "confidence": 0.95,
+    "source_document": "Tolcapone.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "39c8b14e7ee6",
+    "subject": "Tolcapone",
+    "predicate": "treats",
+    "object": "Parkinson's Disease",
+    "context": {
+      "en-US": "Tolcapone is used as an adjunct to levodopa/carbidopa in Parkinson's disease. Its clinical value is offset by a black-box warning for hepatotoxicity — rare but fatal acute liver failure — which necessitates regular liver function monitoring and limits its use relative to entacapone and opicapone.",
+      "zh-TW": "Tolcapone 作為 levodopa/carbidopa 的輔助用於 Parkinson's disease。其臨床價值受到肝毒性黑框警告的限制——罕見但致命的急性肝衰竭——因此必須定期檢測肝功能，且相較 entacapone 與 opicapone 的使用受限。"
+    },
+    "confidence": 0.9,
+    "source_document": "Tolcapone.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "5551297013a6",
+    "subject": "Tolcapone",
+    "predicate": "is_more_potent_than",
+    "object": "Entacapone",
+    "context": {
+      "en-US": "Tolcapone is roughly five-fold more potent than entacapone at COMT inhibition (~0.048 µM vs ~0.23 µM IC₅₀) and uniquely among the clinical COMT inhibitors crosses the blood-brain barrier, whereas entacapone is peripherally restricted and carries a lower hepatotoxicity burden.",
+      "zh-TW": "Tolcapone 在 COMT 抑制上約比 entacapone 強五倍（IC₅₀ 約 0.048 µM 對約 0.23 µM），且在臨床 COMT 抑制劑中獨特的可通過血腦屏障；相較之下 entacapone 作用侷限於周邊，且肝毒性負擔較低。"
+    },
+    "confidence": 0.9,
+    "source_document": "Tolcapone.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "63e02f4c1dce",
+    "subject": "Toluidine Blue O",
+    "predicate": "acts_as",
+    "object": "Methylene blue",
+    "context": {
+      "en-US": "Toluidine Blue O (tolonium chloride) is the 3,7-dimethyl phenothiazine analog of Methylene blue, retaining the free 10-nitrogen and 5-sulfur of the scaffold that give methylene blue its alternative electron-transfer phenotype. Its redox potential (E₁/₂ ≈ −0.012 V vs NHE) is the most negative of the series, correlating with the strongest OCR enhancement and the lowest neuroprotective EC50s in a structure-activity study — TB was the most potent compound tested.",
+      "zh-TW": "Toluidine Blue O（tolonium chloride）是 Methylene blue 的 3,7-二甲基吩噻嗪類似物，保留了賦予 methylene blue 替代電子傳遞表型的游離 10-氮與 5-硫。其氧化還原電位（E₁/₂ ≈ −0.012 V vs NHE）為同系列中最負，與最強的耗氧率提升及最低的神經保護 EC50 相關——在該結構—活性研究中 TB 是測得最強效的化合物。"
+    },
+    "confidence": 0.9,
+    "source_document": "Toluidine Blue O.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "fc76852cb9bc",
+    "subject": "Toluidine Blue O",
+    "predicate": "bypasses",
+    "object": "Respiratory Chain Complex I",
+    "context": {
+      "en-US": "Toluidine Blue O acts as an alternative electron carrier, significantly increasing NADH-driven reduction of Cytochrome c in isolated mitochondria — the Complex I to Complex III shunt — and thus sustaining electron flow when complex I/III are compromised without requiring Coenzyme Q10. This is why it protects against rotenone and iodoacetic acid neurotoxicity.",
+      "zh-TW": "Toluidine Blue O 扮演替代電子載體，在分離的粒線體中顯著增加以 NADH 為電子供體的 Cytochrome c 還原——即 Complex I 至 Complex III 的分流——因而在 complex I/III 受損時仍能維持電子流，且不需 Coenzyme Q10。這正是它能對抗 rotenone 與 iodoacetic acid 神經毒性的原因。"
+    },
+    "confidence": 0.9,
+    "source_document": "Toluidine Blue O.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "a2c456a4223e",
+    "subject": "Toluidine Blue O",
+    "predicate": "upregulates",
+    "object": "Complex IV",
+    "context": {
+      "en-US": "Like Methylene blue, Toluidine Blue O increased Complex IV expression and activity at low nanomolar concentrations, alongside higher oxygen consumption rate and lower extracellular acidification rate. It is not a classical chain-breaking antioxidant — it gave no protection against direct extracellular H₂O₂ from glucose oxidase — but acts upstream on mitochondrial electron flow.",
+      "zh-TW": "與 Methylene blue 相同，Toluidine Blue O 在低奈莫濃度下提高 Complex IV 的表現與活性，並伴隨耗氧率上升與細胞外酸化率下降。它並非典型的鏈斷式抗氧化物——對 glucose oxidase 產生的細胞外 H₂O₂ 完全無保護作用——而是作用於粒線體電子流的上游。"
+    },
+    "confidence": 0.9,
+    "source_document": "Toluidine Blue O.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "f2880056c40c",
+    "subject": "Fisetin",
+    "predicate": "inhibits",
+    "object": "Topoisomerase",
+    "context": {
+      "en-US": "Fisetin, like other flavonoids such as quercetin, is a topoisomerase inhibitor. By trapping topoisomerase–DNA cleavage complexes it induces DNA damage and apoptosis in rapidly dividing cells, which may contribute to fisetin's anti-cancer and senotherapeutic activity.",
+      "zh-TW": "Fisetin 與其他類黃酮（如 quercetin）一樣是 topoisomerase 抑制劑。透過將 topoisomerase–DNA 切割複合體困住，它在快速分裂的細胞中誘發 DNA 損傷與細胞凋亡，這可能促成 fisetin 的抗癌與 senotherapeutic 活性。"
+    },
+    "confidence": 0.9,
+    "source_document": "Topoisomerase.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "9c3e2b13a5ca",
+    "subject": "Topoisomerase",
+    "predicate": "relieves",
+    "object": "DNA Damage",
+    "context": {
+      "en-US": "Topoisomerases normally manage DNA supercoiling and topological stress during replication, transcription and repair by transiently cleaving one (topoisomerase I) or both (topoisomerase II) DNA strands, passing another strand through the break, and religating. Inhibiting them with fisetin or quercetin prevents religation and converts the enzyme from a guardian into a source of DNA damage.",
+      "zh-TW": "Topoisomerase 正常情況下藉由暫時切割一股（topoisomerase I）或兩股（topoisomerase II）DNA、讓另一股穿越斷口再重新接合，來處理複製、轉錄與修復過程中的 DNA 超捲曲與拓撲壓力。以 fisetin 或 quercetin 抑制它們會阻斷再接合，使酵素由守護者轉為 DNA 損傷的來源。"
+    },
+    "confidence": 0.85,
+    "source_document": "Topoisomerase.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "8f61cdad945d",
+    "subject": "Topoisomerase",
+    "predicate": "is_inhibited_by",
+    "object": "Fisetin",
+    "context": {
+      "en-US": "Fisetin belongs to the class of flavonoids — alongside quercetin — that inhibit topoisomerase, trapping the enzyme–DNA cleavage complex in rapidly dividing tumour cells and driving apoptosis. This is one proposed route by which a senolytic can exert anti-cancer activity.",
+      "zh-TW": "Fisetin 與 quercetin 同屬抑制 topoisomerase 的類黃酮類，能在快速分裂的腫瘤細胞中困住酵素–DNA 切割複合體並誘發細胞凋亡。這是 senolytic 得以發揮抗癌活性的可能途徑之一。"
+    },
+    "confidence": 0.8,
+    "source_document": "Topoisomerase.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "75ef94b9fd24",
+    "subject": "Transcription",
+    "predicate": "is_regulated_by",
+    "object": "Chromatin",
+    "context": {
+      "en-US": "Transcription — the copying of a DNA segment into RNA by RNA polymerase — is gated by chromatin accessibility as well as by DNA methylation and histone modification. Loss of this multilayered control with age is termed transcriptional drift, an age-associated failure of transcriptional homeostasis.",
+      "zh-TW": "Transcription——由 RNA polymerase 將某段 DNA 複製成 RNA 的過程——除受 chromatin 可及性調控外，也受 DNA methylation 與 histone modification 調控。此多層調控隨 Aging 流失即稱為 transcriptional drift，一種與年齡相關的轉錄恆定性喪失。"
+    },
+    "confidence": 0.9,
+    "source_document": "Transcription.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "e49a29930118",
+    "subject": "Transferrin",
+    "predicate": "delivers",
+    "object": "Iron",
+    "context": {
+      "en-US": "Transferrin is the principal iron-binding glycoprotein of blood and extracellular fluid. It binds two Fe³⁺ ions and delivers them to cells via receptor-mediated endocytosis through Transferrin receptor 1; its iron-loaded (holo) form docks at the TFR1 surface and iron is released in the acidic endosome, after which apotransferrin and TFR1 recycle.",
+      "zh-TW": "Transferrin 是血液與細胞外液中的主要鐵結合醣蛋白。它結合兩個 Fe³⁺ 離子，並藉由 Transferrin receptor 1 進行受體媒介的胞吞作用將鐵送入細胞；其載鐵（holo）型態在 TFR1 表面結合，鐵在酸性內體中釋放，之後 apo-transferrin 與 TFR1 循環回收。"
+    },
+    "confidence": 0.95,
+    "source_document": "Transferrin.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "86970a55b5a1",
+    "subject": "Transferrin",
+    "predicate": "supplies_iron_for",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "Transferrin-bound iron sets the size of the labile iron pool that drives Fenton-reaction hydroxyl radicals and lipid peroxidation. Because ferroptosis is iron-dependent, more labile iron means more peroxyl radical propagation; iron chelation with deferoxamine or silencing Transferrin receptor 1 blocks erastin-induced ferroptosis.",
+      "zh-TW": "Transferrin 結合的鐵決定了 labile iron pool 的大小，而後者驅動 Fenton reaction 的羥基自由基與脂質過氧化。由於 ferroptosis 依賴鐵，labile iron 越多過氧自由基傳播越劇烈；以 deferoxamine 螯合鐵或靜默 Transferrin receptor 1 可阻斷 erastin 誘發的 ferroptosis。"
+    },
+    "confidence": 0.9,
+    "source_document": "Transferrin.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "70809e7f2924",
+    "subject": "STEAP3",
+    "predicate": "reduces",
+    "object": "Transferrin",
+    "context": {
+      "en-US": "Once iron-loaded transferrin is endocytosed, STEAP3 reduces endosomal Fe³⁺ to Fe²⁺, after which DMT1 exports the ferrous iron into the cytosol labile iron pool. Ceruloplasmin performs the complementary extracellular oxidation of Fe²⁺ to the TF-bindable Fe³⁺, closing the cycle of transferrin-mediated iron uptake.",
+      "zh-TW": "載鐵 transferrin 被胞吞後，STEAP3 在內體中將 Fe³⁺ 還原為 Fe²⁺，隨後 DMT1 將亞鐵離子輸出至細胞質的 labile iron pool。Ceruloplasmin 則在細胞外執行互補的 Fe²⁺ 氧化為可與 TF 結合的 Fe³⁺，完成 transferrin 介導鐵攝入的循環。"
+    },
+    "confidence": 0.85,
+    "source_document": "Transferrin.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "3978b3e0f23f",
+    "subject": "TransitID",
+    "predicate": "detects",
+    "object": "DELE1",
+    "context": {
+      "en-US": "TransitID combines split-TurboID (biotin-phenol, source compartment) with split-BirA (an alternative biotin analog, destination compartment) in a time-gated pulse, so that proteins shuttling between compartments carry a dual-biotinylation signature identified by mass spectrometry. Applied to nuclear export and import kinetics, it resolved how DELE1 and ATFS-1 translocate to report mitochondrial dysfunction, and it also profiles retrograde transport from mitochondria to the cytosol and heat-shock-induced relocalisation.",
+      "zh-TW": "TransitID 將 split-TurboID（biotin-phenol，來源胞器）與 split-BirA（另一種 biotin 類似物，目標胞器）以時間閘控脈衝方式結合，使在胞器間穿梭的蛋白質帶有可由質譜辨識的雙生物素化訊號。應用於核輸出與核輸入動力學時，它解析出 DELE1 與 ATFS-1 如何轉位以回報粒線體功能障礙，也可用於描繪自粒線體回到細胞質的逆行運輸與熱休克誘導的重新定位。"
+    },
+    "confidence": 0.8,
+    "source_document": "TransitID.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "34ac6ad88a74",
+    "subject": "TransitID",
+    "predicate": "uses",
+    "object": "Mass Spectrometry",
+    "context": {
+      "en-US": "After time-gated labeling, TransitID cells are lysed and proteins enriched by streptavidin pulldown, with Mass Spectrometry and specialised LC-MS/MS workflows used to identify proteins biotinylated first by TurboID in the source compartment and then captured by BirA in the destination compartment — the signature of active transit between compartments.",
+      "zh-TW": "時間閘控標記後，TransitID 會將細胞裂解、以 streptavidin pulldown 富集蛋白，再透過 Mass Spectrometry 與專用的 LC-MS/MS 流程，辨識先由來源胞器的 TurboID 標記、再被目標胞器的 BirA 捕捉的蛋白質——這正是胞器間實際轉位的訊號特徵。"
+    },
+    "confidence": 0.9,
+    "source_document": "TransitID.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "13f807653c12",
+    "subject": "Translocase of the Inner Mitochondrial Membrane",
+    "predicate": "transports",
+    "object": "PINK1",
+    "context": {
+      "en-US": "The TIM complex translocates imported precursor proteins bearing mitochondrial targeting sequences across the inner mitochondrial membrane into the matrix, working downstream of the TOM complex. PINK1 passes through TIM during import; successful completion of translocation allows processing by mitochondrial processing peptidase and PARL, which degrades PINK1 and suppresses mitophagy.",
+      "zh-TW": "TIM 複合體在 TOM 複合體下游，將帶有粒線體定位序列的先驅蛋白質跨內膜轉位進入基質。PINK1 在輸入過程中通過 TIM；轉位成功完成後即可被 mitochondrial processing peptidase 與 PARL 加工，導致 PINK1 降解並抑制 mitophagy。"
+    },
+    "confidence": 0.9,
+    "source_document": "Translocase of the Inner Mitochondrial Membrane.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "18ec94e07187",
+    "subject": "Translocase of the Outer Mitochondrial Membrane",
+    "predicate": "hands_off_to",
+    "object": "Translocase of the Inner Mitochondrial Membrane",
+    "context": {
+      "en-US": "The TOM complex is the principal entry gate for nuclear-encoded mitochondrial proteins: it recognises mitochondrial targeting sequences and conducts precursors across the outer mitochondrial membrane into the intermembrane space, then hands them to the Translocase of the Inner Mitochondrial Membrane for further import into the matrix.",
+      "zh-TW": "TOM 複合體是核編碼粒線體蛋白的主要入口：它辨識粒線體定位序列，將前驅蛋白質導引通過粒線體外膜進入膜間腔，再交由 Translocase of the Inner Mitochondrial Membrane 進一步輸入基質。"
+    },
+    "confidence": 0.9,
+    "source_document": "Translocase of the Outer Mitochondrial Membrane.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "4b970b0aace3",
+    "subject": "Mitochondrial Processing Peptidase",
+    "predicate": "degrades",
+    "object": "PINK1",
+    "context": {
+      "en-US": "When mitochondrial import through the TOM and TIM complexes is completed under healthy conditions, PINK1 can be processed by Mitochondrial Processing Peptidase and PARL and is degraded, which prevents mitophagy activation. Loss of membrane potential stalls import instead, so PINK1 accumulates on the outer membrane and recruits Parkin to trigger mitophagy.",
+      "zh-TW": "在健康狀態下，透過 TOM 與 TIM 複合體的粒線體輸入完成時，PINK1 可被 Mitochondrial Processing Peptidase 與 PARL 加工並降解，因而阻止 mitophagy 被活化。膜電位喪失時輸入反而停滯，PINK1 便累積於外膜上、招募 Parkin 並觸發 mitophagy。"
+    },
+    "confidence": 0.9,
+    "source_document": "Translocase of the Outer Mitochondrial Membrane.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "96a690cdd75d",
+    "subject": "Transposable Elements",
+    "predicate": "is_silenced_by",
+    "object": "Heterochromatin",
+    "context": {
+      "en-US": "Transposable elements constitute roughly 45% of the human genome and are normally held transcriptionally silent by heterochromatin, DNA methylation and repressive histone marks such as H3K9me3, with Piwi/KRAB-ZNF providing further post-transcriptional control.",
+      "zh-TW": "Transposable elements 約佔人類基因組的 45%，正常情況下由 heterochromatin、DNA methylation 與诸如 H3K9me3 等抑制性組蛋白標記維持轉錄沉默，並由 Piwi/KRAB-ZNF 提供進一步的轉錄後控制。"
+    },
+    "confidence": 0.9,
+    "source_document": "Transposable Elements.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "f70c2250957c",
+    "subject": "SIRT6",
+    "predicate": "represses",
+    "object": "Transposable Elements",
+    "context": {
+      "en-US": "SIRT6 is a principal repressor of LINE-1 and other transposable elements. Age-related loss of SIRT6, together with heterochromatin erosion and reduced Piwi/KRAB-ZNF control, allows transposable element derepression, so SIRT6 activity links epigenetic silencing to genome stability and exceptional longevity.",
+      "zh-TW": "SIRT6 是 LINE-1 等 transposable elements 的主要抑制者。隨 Aging 伴隨的 SIRT6 下降、heterochromatin 侵蝕以及 Piwi/KRAB-ZNF 控制減弱，使 transposable elements 去抑制，因此 SIRT6 活性把表觀遺傳沉默與基因體穩定性及非凡長壽連結起來。"
+    },
+    "confidence": 0.9,
+    "source_document": "Transposable Elements.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "485c69ddfe0f",
+    "subject": "Transposable Elements",
+    "predicate": "activates",
+    "object": "cGAS-STING Pathway",
+    "context": {
+      "en-US": "Mobilised LINE-1 elements cause insertional mutagenesis and genomic instability, while their cytoplasmic cDNA activates the cGAS-STING Pathway, fuelling inflammaging and the senescence-associated secretory phenotype. Transposable element reactivation is therefore both a marker and a driver of senescence.",
+      "zh-TW": "被動員的 LINE-1 元件會造成插入突變與 genomic instability，而其細胞質 cDNA 則活化 cGAS-STING Pathway，助長 inflammaging 與衰老相關分泌表型。因此 transposable element 再活化既是衰老的標記，也是衰老的推動因素。"
+    },
+    "confidence": 0.9,
+    "source_document": "Transposable Elements.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "e96c7439b701",
+    "subject": "Traumatic Brain Injury",
+    "predicate": "causes",
+    "object": "Excitotoxicity",
+    "context": {
+      "en-US": "Traumatic brain injury (TBI) is acquired brain injury from external mechanical force, and its primary insult is followed by a secondary cascade of energy failure and ATP depletion, glutamate-driven excitotoxicity, oxidative stress, inflammation, mitochondrial dysfunction and edema. The metabolic crisis outlasts the mechanical event, leaving the brain vulnerable for hours to days after impact.",
+      "zh-TW": "Traumatic brain injury（TBI）是由外部機械力造成的後天腦損傷，其原發傷害之後會接續次級級聯：能量衰竭與 ATP 耗竭、glutamate 驅動的 excitotoxicity、oxidative stress、inflammation、mitochondrial dysfunction 與水腫。這場代謝危機比機械性事件持續更久，使腦部在受撞後數小時至數日內仍處於脆弱狀態。"
+    },
+    "confidence": 0.9,
+    "source_document": "Traumatic Brain Injury (TBI).md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:59:38Z"
+  },
+  {
+    "id": "81e61295d32e",
+    "subject": "Creatine Supplementation",
+    "predicate": "protects_against",
+    "object": "Traumatic Brain Injury",
+    "context": {
+      "en-US": "Prophylactic dietary creatine for five days before traumatic brain injury reduced cortical damage by 36% in rats and 50% in mice in the preclinical evidence reviewed, an effect attributed to improved energy availability and to sustaining the creatine phosphate shuttle and phosphocreatine buffering during ischaemia-like secondary injury.",
+      "zh-TW": "在所審閱的前臨床證據中，於 traumatic brain injury 前連續五天給予膳食 creatine 可使皮質損傷在大鼠減少 36%、小鼠減少 50%，此效果歸因於能量可利用性的改善，以及在類缺血次級傷害期間維持 creatine phosphate shuttle 與 phosphocreatine 緩衝。"
+    },
+    "confidence": 0.85,
+    "source_document": "Traumatic Brain Injury (TBI).md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:59:38Z"
+  },
+  {
+    "id": "572a3f4de1ac",
+    "subject": "Methylene blue",
+    "predicate": "is_investigated_for",
+    "object": "Traumatic Brain Injury",
+    "context": {
+      "en-US": "Traumatic brain injury has no approved disease-modifying drug; acute care targets intracranial pressure, oxygenation and seizure prophylaxis. Methylene blue is an investigational neuroprotective agent, attributed to mitochondrial electron transport chain bypass, reduced mitochondrial superoxide and inhibition of neuroinflammation — making mitochondria-targeted agents limiting the secondary injury cascade a major research focus.",
+      "zh-TW": "Traumatic brain injury 尚無核准的疾病修飾藥物；急性照護以顱內壓、氧合與癲癇預防為目標。Methylene blue 是研究中的神經保護劑，其機制歸於粒線體電子傳遞鏈繞道、降低 mitochondrial superoxide 以及抑制 neuroinflammation——使限制次級傷害級聯的粒線體標向藥物成為研究重點。"
+    },
+    "confidence": 0.85,
+    "source_document": "Traumatic Brain Injury.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "ad534ca2cd89",
+    "subject": "Traumatic Brain Injury",
+    "predicate": "disrupts",
+    "object": "Blood-Brain Barrier",
+    "context": {
+      "en-US": "The secondary injury cascade after traumatic brain injury — excitotoxicity from glutamate release, ionic imbalance, oxidative stress with reactive oxygen species, neuroinflammation, mitochondrial dysfunction and neuronal apoptosis — includes blood-brain barrier disruption, which permits edema and immune infiltration and worsens outcomes.",
+      "zh-TW": "Traumatic brain injury 後的次級傷害級聯——glutamate 釋放造成的 excitotoxicity、離子失衡、伴隨活性氧的 oxidative stress、neuroinflammation、mitochondrial dysfunction 與神經元 apoptosis——包含血腦屏障的破壞，使水腫與免疫細胞浸入得以發生並惡化預後。"
+    },
+    "confidence": 0.9,
+    "source_document": "Traumatic Brain Injury.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "e7a2f8cb6d27",
+    "subject": "Trichostatin A",
+    "predicate": "inhibits",
+    "object": "Histone Deacetylase",
+    "context": {
+      "en-US": "Trichostatin A is used in biomedical research as a tool compound to probe epigenetic mechanisms, and it appears among the histone deacetylase inhibitors — alongside sodium butyrate, entinostat, vorinostat, panobinostat and phenylbutyrate — reported to induce cellular senescence. Its safety profile depends on dose and duration of exposure.",
+      "zh-TW": "Trichostatin A 在生物醫學研究中被用作探測表觀遺傳機制的工具化合物，並與 sodium butyrate、entinostat、vorinostat、panobinostat 及 phenylbutyrate 一起，出現在被報導可誘發細胞衰老的 histone deacetylase 抑制劑之列。其安全性取決於劑量與暴露時間。"
+    },
+    "confidence": 0.85,
+    "source_document": "Trichostatin A.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "04dd6fb83e7a",
+    "subject": "Methylene blue",
+    "predicate": "is_contraindicated_with",
+    "object": "Tricyclic Antidepressant",
+    "context": {
+      "en-US": "Methylene blue acts as a monoamine oxidase inhibitor, so combining it with a Tricyclic Antidepressant — which blocks monoamine reuptake including serotonin and norepinephrine — risks serotonin syndrome, as does combination with SSRIs. This interaction explains why methylene blue dosing guidance warns against co-administration with tricyclics.",
+      "zh-TW": "Methylene blue 具有 monoamine oxidase inhibitor 的作用，因此與阻斷包括 serotonin 與 norepinephrine 在內的單胺再攝取的 Tricyclic Antidepressant 併用會有 serotonin syndrome 風險，與 SSRI 併用亦然。這項交互作用即是 methylene blue 劑量指引警告不可與三環類抗憂鬱藥共用的原因。"
+    },
+    "confidence": 0.9,
+    "source_document": "Tricyclic Antidepressant.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "735995b54060",
+    "subject": "Tricyclic Antidepressant",
+    "predicate": "increases_susceptibility_to",
+    "object": "Serotonin Syndrome",
+    "context": {
+      "en-US": "Tricyclic antidepressants are an older antidepressant class that block monoamine reuptake, including serotonin and norepinephrine. Like SSRIs, they are contraindicated with monoamine oxidase inhibitors — including Methylene blue — because the combined serotonergic load carries a risk of serotonin syndrome.",
+      "zh-TW": "Tricyclic antidepressants 屬較舊一代的抗憂鬱藥類別，會阻斷包括 serotonin 與 norepinephrine 的單胺再攝取。與 SSRI 相同，它們與 monoamine oxidase inhibitors（包括 Methylene blue）併用屬禁忌，因為疊加的血清素作用帶來 serotonin syndrome 風險。"
+    },
+    "confidence": 0.9,
+    "source_document": "Tricyclic Antidepressant.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "8b05459950b0",
+    "subject": "Triiodothyronine",
+    "predicate": "is_a_major_determinant_of",
+    "object": "Resting Metabolic Rate",
+    "context": {
+      "en-US": "Triiodothyronine (T3) is the principal active thyroid hormone, produced largely by peripheral 5'-deiodination of thyroxine in liver, kidney and skeletal muscle. It binds nuclear thyroid-hormone receptors to regulate transcription of metabolic genes, and is a major endocrine determinant of basal metabolic rate: hypothyroidism lowers resting metabolic rate while hyperthyroidism raises it.",
+      "zh-TW": "Triiodothyronine（T3）是主要的活性甲狀腺荷爾蒙，主要由肝臟、腎臟與骨骼肌的周邊 5'-去碘化作用將 thyroxine 轉換而來。它結合核內甲狀腺荷爾蒙受體以調控代謝相關基因的轉錄，是基礎代謝率的主要內分泌決定因子：甲狀腺功能低下會降低 Resting Metabolic Rate，功能亢進則使其上升。"
+    },
+    "confidence": 0.95,
+    "source_document": "Triiodothyronine.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "2708eaa49c34",
+    "subject": "Triiodothyronine",
+    "predicate": "upregulates",
+    "object": "ATP",
+    "context": {
+      "en-US": "By regulating transcription of metabolic genes, Triiodothyronine upregulates mitochondrial biogenesis and Na⁺/K⁺-ATPase expression, thereby raising oxygen consumption and ATP turnover. T3 is also listed among the physiological correlates of residual resting metabolic rate variance alongside protein turnover, β-adrenergic markers and mitochondrial proton leak.",
+      "zh-TW": "藉由調控代謝基因的轉錄，Triiodothyronine 會上調粒線體生成與 Na⁺/K⁺-ATPase 的表現，進而提升氧消耗與 ATP 周轉。T3 亦被列為 Resting Metabolic Rate 殘餘變異的生理相關因子，與 protein turnover、β-腎上腺素能標記及粒線體質子漏並列。"
+    },
+    "confidence": 0.85,
+    "source_document": "Triiodothyronine.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "dc8731ee6f96",
+    "subject": "Triiodothyronine",
+    "predicate": "stimulates",
+    "object": "Mitochondrial Uncoupling",
+    "context": {
+      "en-US": "Thyroid hormones such as Triiodothyronine stimulate mitochondrial proton leak and thus mitochondrial uncoupling, adding a thermogenic and expenditure-raising component to their metabolic action. Loss of this drive is part of why fasting, calorie restriction and severe illness lower basal metabolic rate via the low-T3 syndrome.",
+      "zh-TW": "如 Triiodothyronine 等甲狀腺荷爾蒙會刺激粒線體質子漏，因而促進 mitochondrial uncoupling，為其代謝作用增添產熱與提高消耗的成分。禁食、熱量限制與嚴重疾病所致的 low-T3 syndrome 使此驅動力喪失，也是這些情況下基礎代謝率下降的原因之一。"
+    },
+    "confidence": 0.85,
+    "source_document": "Triiodothyronine.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "4597a4268da0",
+    "subject": "Trimethylamine N-oxide",
+    "predicate": "promotes",
+    "object": "Atherosclerosis",
+    "context": {
+      "en-US": "Trimethylamine N-oxide (TMAO) is a metabolite generated from dietary choline, phosphatidylcholine and L-carnitine: gut microbiota produce the trimethylamine precursor, which host hepatic flavin monooxygenase FMO3 oxidises to TMAO. TMAO is a recognised promoter of atherosclerosis and cardiovascular risk.",
+      "zh-TW": "Trimethylamine N-oxide（TMAO）是由膳食膽鹼、磷脂醯膽鹼與 L-carnitine 生成的代謝物：腸道菌群產生三甲胺前驅物，再由宿主肝臟的黃素單加氧酶 FMO3 氧化為 TMAO。TMAO 是公認會促進 atherosclerosis 與心血管風險的因子。"
+    },
+    "confidence": 0.9,
+    "source_document": "Trimethylamine N-oxide.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "95ccf6de56d9",
+    "subject": "SIRT1",
+    "predicate": "attenuates",
+    "object": "Trimethylamine N-oxide",
+    "context": {
+      "en-US": "SIRT1 may attenuate the atherosclerotic plaque formation driven by Trimethylamine N-oxide: in vascular smooth muscle cells, SIRT1 dampens the TMAO-induced inflammatory response and modulates SM22α expression, slowing disease progression along the TMAO–SIRT1 axis.",
+      "zh-TW": "SIRT1 可能抑制由 Trimethylamine N-oxide 驅動的動脈粥樣硬化斑塊形成：在血管平滑肌細胞中，SIRT1 會緩和 TMAO 引發的發炎反應並調節 SM22α 表現，沿著 TMAO–SIRT1 軸減緩疾病進展。"
+    },
+    "confidence": 0.85,
+    "source_document": "Trimethylamine N-oxide.md",
+    "created": "2026-09-29T17:57:28Z",
+    "updated": "2026-09-29T17:57:28Z"
+  },
+  {
+    "id": "0d7ab8187b4e",
+    "subject": "TLR9",
+    "predicate": "is_a_type_of",
+    "object": "Toll-like Receptor",
+    "context": {
+      "en-US": "TLR9 (Toll-Like Receptor 9) is an endosomal Toll-like receptor that senses unmethylated CpG-rich DNA within the lumen of endosomes and lysosomes. Unlike the cytosolic DNA sensor cGAS, TLR9 is confined to the endolysosomal compartment, where it detects pathogen-derived DNA and, in some contexts, endogenous self-DNA delivered to these vesicles.",
+      "zh-TW": "TLR9 (Toll-Like Receptor 9) 是一種內體型 Toll 樣受體，在內體與溶酶體腔內偵測未甲基化的 CpG 富含 DNA。與細胞質 DNA 感測器 cGAS 不同，TLR9 受限於內溶體區室，在該處辨識病原體來源的 DNA，並在某些情境下辨識被運送至此囊泡的內源性自體 DNA。"
+    },
+    "confidence": 0.95,
+    "source_document": "TLR9.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "ba684b5bfa96",
+    "subject": "TLR9",
+    "predicate": "upregulates",
+    "object": "cGAS",
+    "context": {
+      "en-US": "A notable feature of TLR9 is its capacity to regulate cGAS expression: in the retinal pigment epithelium, TLR9 signaling upregulates cGAS, illustrating a positive feed-forward relationship between an endosomal sensor and the cytosolic DNA-sensing pathway. TLR9 therefore acts as an upstream modulator of the cGAS-STING Pathway, shaping the magnitude of downstream innate immune activation.",
+      "zh-TW": "TLR9 的一項顯著特性是能調控 cGAS 的表現：在視網膜色素上皮中，TLR9 訊號會上调 cGAS，呈現內體感測器與細胞質 DNA 感測途徑之間的正向饋送關係。因此 TLR9 作為 cGAS-STING Pathway 的上游調節因子，決定下游先天免疫活化的強度。"
+    },
+    "confidence": 0.9,
+    "source_document": "TLR9.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "d144eec0d7d7",
+    "subject": "TLR9",
+    "predicate": "activates",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "TLR9 activation triggers NF-κB and interferon regulatory factor signaling, linking endosomal DNA detection to Inflammation and type I IFN responses. Because TLR9 signals through NF-κB, its activity modulates the magnitude of inflammatory output downstream of endolysosomal CpG sensing.",
+      "zh-TW": "TLR9 的活化會啟動 NF-κB 與干擾素調節因子訊號，將內體 DNA 偵測連結到 Inflammation 與第一型 IFN 反應。由於 TLR9 經由 NF-κB 傳遞訊號，其活性可調節內溶體 CpG 感知下游的發炎反應強度。"
+    },
+    "confidence": 0.9,
+    "source_document": "TLR9.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "5a820fb17594",
+    "subject": "TLR9",
+    "predicate": "is_associated_with",
+    "object": "Alzheimer's Disease",
+    "context": {
+      "en-US": "The function of TLR9 in the brain is strikingly context dependent: in the Alzheimer's disease CNS, TLR9 is reported to be downregulated, an association interpreted as potentially protective, since excessive endosomal DNA sensing could amplify Neuroinflammation. This contrasts with its upregulation-driven effects in other tissues.",
+      "zh-TW": "TLR9 在腦部的功能極具情境依賴性：在 Alzheimer's Disease 的中樞神經系統中，TLR9 被報導為下調，此關聯被解讀為可能具有保護作用，因為過度的內體 DNA 感知可能放大 Neuroinflammation。這與其他組織中由上调所驅動的效應形成對比。"
+    },
+    "confidence": 0.8,
+    "source_document": "TLR9.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "230093135a93",
+    "subject": "TNF-alpha",
+    "predicate": "activates",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "Tumor necrosis factor alpha (TNF-alpha) is a cell signaling protein (cytokine) involved in systemic Inflammation and one of the cytokines that make up the acute phase reaction. It is a potent activator of the NF-κB pathway, and low-level ROS promote the phosphorylation and degradation of IkappaBalpha by the IKK complex, allowing p65/p50 nuclear translocation. NF-κB then transcriptionally upregulates antioxidant genes (MnSOD, FTH1, HMOX1, glutathione peroxidases, catalase) that form a negative feedback loop limiting TNF-alpha-induced tissue damage.",
+      "zh-TW": "腫瘤壞死因子 alpha (TNF-alpha) 是參與全身性 Inflammation 的細胞訊號蛋白（細胞激素），也是構成急性期反應的細胞激素之一。它是 NF-κB 途徑的強效活化劑；低濃度的 ROS 促進 IKK 複合體對 IkappaBalpha 的磷酸化與降解，使 p65/p50 得以轉位入核。NF-κB 隨後在轉錄層面上調抗氧化基因（MnSOD、FTH1、HMOX1、穀胱甘肽過氧化酶、catalase），形成限制 TNF-alpha 所致組織損傷的負回饋迴路。"
+    },
+    "confidence": 0.95,
+    "source_document": "TNF-alpha.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "fdb4abdbb7f6",
+    "subject": "TNF-alpha",
+    "predicate": "induces",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "TNF-alpha can induce Apoptosis and the production of other cytokines like IL-1β. When NF-κB activation is blocked or insufficient, TNF-alpha signaling shifts from cytoprotective to pro-death: complex I disassembles and RIPK1 associates with FADD and Caspase-8 to form complex II (DISC), the death-inducing signaling complex. Defects in the NF-κB-driven antioxidant response also sensitize cells to TNF-alpha-induced Apoptosis.",
+      "zh-TW": "TNF-alpha 可誘導 Apoptosis 以及 IL-1β 等其他細胞激素的產生。當 NF-κB 的活化被阻斷或不足時，TNF-alpha 訊號會由細胞保護轉為促死亡：complex I 解體，RIPK1 與 FADD、Caspase-8 結合形成 complex II (DISC) 死亡誘導訊號複合體。NF-κB 驅動的抗氧化反應缺陷也會使細胞對 TNF-alpha 誘導的 Apoptosis 更加敏感。"
+    },
+    "confidence": 0.92,
+    "source_document": "TNF-alpha.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "093432def2b1",
+    "subject": "TRAF2",
+    "predicate": "recruits",
+    "object": "TRIM21",
+    "context": {
+      "en-US": "Mitochondrial ROS production is an early and obligatory event in TNFR1 signaling: TRAF2 recruits the E3 ligase TRIM21, which ubiquitinates p65 (NDUFS1) of Respiratory Chain Complex I, causing electron leak and Superoxide Radicals generation. The resulting mitochondrial ROS is required for sustained JNK activation and IL-1β production, coupling TNF-alpha receptor signaling to oxidative stress.",
+      "zh-TW": "粒線體 ROS 的產生是 TNFR1 訊號傳遞中早期且必要的事件：TRAF2 招募 E3 連接酶 TRIM21，後者將 Respiratory Complex I 的 p65 (NDUFS1) 泛素化，造成電子漏出與 Superoxide Radicals 的生成。由此產生的粒線體 ROS 是維持 JNK 活化與 IL-1β 產生所必需，將 TNF-alpha 受體訊號與氧化壓力連結起來。"
+    },
+    "confidence": 0.85,
+    "source_document": "TNF-alpha.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "bc990b65c01c",
+    "subject": "TNF-alpha",
+    "predicate": "impairs",
+    "object": "Insulin Signaling",
+    "context": {
+      "en-US": "TNF-alpha is a major mediator of Insulin Resistance in Obesity and Diabetes Mellitus. TNF-alpha impairs insulin signaling by serine phosphorylation of IRS1 via JNK and IKKbeta, both of which are activated by TNF-alpha-induced ROS. Adipose tissue macrophages from obese individuals secrete elevated TNF-alpha, generating a local oxidative environment that suppresses Adiponectin and promotes lipolysis.",
+      "zh-TW": "TNF-alpha 是 Obesity 與 Diabetes Mellitus 中 Insulin Resistance 的主要介導因子。TNF-alpha 透過 JNK 與 IKKbeta 對 IRS1 進行絲胺酸磷酸化而損害胰島素訊號傳遞，兩者皆由 TNF-alpha 誘導的 ROS 活化。肥胖者的 Adipose Tissue 巨噬細胞分泌較高的 TNF-alpha，製造局部氧化環境，抑制 Adiponectin 並促進脂解。"
+    },
+    "confidence": 0.92,
+    "source_document": "TNF-alpha.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "de20a52dde78",
+    "subject": "SIRT1",
+    "predicate": "suppresses",
+    "object": "TNF-alpha",
+    "context": {
+      "en-US": "SIRT1 deacetylation of NF-κB downregulates pro-inflammatory cytokines including TNF-alpha. By deacetylating the p65 subunit, SIRT1 switches NF-κB from a transcriptionally active state to an inactive one, limiting the inflammatory gene program that TNF-alpha itself helps to initiate — a reciprocal brake on the cytokine axis.",
+      "zh-TW": "SIRT1 對 NF-κB 的去乙醯化作用會下调包括 TNF-alpha 在內的促發炎細胞激素。藉由將 p65 次單元去乙醯化，SIRT1 使 NF-κB 由轉錄活化狀態轉為不活化狀態，限制 TNF-alpha 本身協助啟動的發炎基因程式——這是對該細胞激素軸的反向煞車。"
+    },
+    "confidence": 0.9,
+    "source_document": "TNF-alpha.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "d45989c45c47",
+    "subject": "TOM1",
+    "predicate": "desuccinylation_target_of",
+    "object": "SIRT5",
+    "context": {
+      "en-US": "TOM1 is a substrate of SIRT5: SIRT5-mediated desuccinylation stabilizes TOM1 and promotes autophagic flux, protecting the heart during myocardial infarction. SIRT5 desuccinylates TOM1 at Lys48, enhancing autophagic clearance of damaged mitochondria and protein aggregates in ischemic cardiomyocytes — a cardioprotective, quality-control axis.",
+      "zh-TW": "TOM1 是 SIRT5 的受質：SIRT5 媒介的去 succ 醯化可穩定 TOM1 並促進自噬通量，在心肌梗塞期間保護心臟。SIRT5 在 Lys48 位置對 TOM1 進行去 succ 醯化，增強缺血心肌細胞中受損粒線體與蛋白聚集體的自噬清除——這是一條具心臟保護作用的品質管制軸。"
+    },
+    "confidence": 0.85,
+    "source_document": "TOM1.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "1b0e7ebbd5b6",
+    "subject": "TOM1",
+    "predicate": "inhibits",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "TOM1 acts as a negative regulator of innate immune signaling. TOM1 recruitment to ubiquitinated Toll-like Receptor 4 and IL-1 receptor complexes accelerates their clearance, damping pro-inflammatory NF-κB and cytokine output; TOM1 knockdown enhances TLR- and IL-1β-driven inflammation. By routing ubiquitinated receptors to lysosomes, TOM1 limits receptor half-life and keeps inflammatory signaling balanced.",
+      "zh-TW": "TOM1 作為先天免疫訊號的負向調節因子。TOM1 被招募至泛素化的 Toll-like Receptor 4 與 IL-1 受體複合體後加速其清除，抑制促發炎的 NF-κB 與細胞激素輸出；TOM1 敲低會增強 TLR 與 IL-1β 驅動的發炎反應。藉由將泛素化受體運送至 lysosome，TOM1 限制受體半衰期，使發炎訊號維持平衡。"
+    },
+    "confidence": 0.9,
+    "source_document": "TOM1.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "fbf67c3fabea",
+    "subject": "TOM1",
+    "predicate": "binds",
+    "object": "Ubiquitin",
+    "context": {
+      "en-US": "TOM1 is a membrane-trafficking adaptor protein that couples ubiquitinated cargo to clathrin-coated endosomal machinery. Its central GAT domain provides ubiquitin-binding capacity and is the site of interaction with ubiquitinated cargo; TOM1 recognizes K48/K63-ubiquitinated receptors on early endosomes and routes them into multivesicular bodies for lysosomal degradation, terminating signaling.",
+      "zh-TW": "TOM1 是膜運輸的轉接蛋白，將泛素化貨品與 clathrin 覆蓋的內體機制偶聯。其中央 GAT 結構域提供泛素結合能力，是與泛素化貨品互動的位置；TOM1 辨識早期內體上 K48/K63 泛素化的受體，並將其導向多囊泡體以進行 lysosome 降解，藉此終止訊號。"
+    },
+    "confidence": 0.92,
+    "source_document": "TOM1.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "e483d87be53d",
+    "subject": "TOM1",
+    "predicate": "contributes_to",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "TOM1 participates in selective/ubiquitin-mediated Autophagy, linking ubiquitinated substrates to autophagic machinery (e.g. through interactions with p62/SQSTM1 and GABARAP-family proteins) for clearance of damaged organelles and protein aggregates. TOM1 supports basal and stress-induced Autophagy in metabolically active tissues, including the heart, where autophagic clearance during ischemia/reperfusion limits Apoptosis and preserves cardiomyocyte viability.",
+      "zh-TW": "TOM1 參與選擇性／泛素媒介的 Autophagy，透過與 p62/SQSTM1 及 GABARAP 家族蛋白的互動，將泛素化受質連結至自噬機制，以清除受損胞器與蛋白聚集體。TOM1 在代謝活躍組織（包括心臟）中支持基礎與壓力誘發的 Autophagy；在缺血／再灌流期間，自噬清除可限制 Apoptosis 並維持 cardiomyocyte 存活。"
+    },
+    "confidence": 0.88,
+    "source_document": "TOM1.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "00d5eaf5735f",
+    "subject": "Alpha-synuclein",
+    "predicate": "inhibits",
+    "object": "TOM20",
+    "context": {
+      "en-US": "In Parkinson's disease, toxic α-synuclein (α-Syn) binds to the TOM20 receptor on the outer mitochondrial membrane. This binding blocks protein import into Mitochondria by 50%–60%, triggering ROS production and the accumulation of damaged mitochondria, thereby contributing to mitochondrial dysfunction and impaired Mitophagy.",
+      "zh-TW": "在 Parkinson's Disease 中，有毒的 α-synuclein (α-Syn) 會結合外層粒線體膜上的 TOM20 受體。此結合使進入 Mitochondria 的蛋白質輸入被阻斷 50%–60%，觸發 ROS 產生與受損粒線體累積，進而促成粒線體功能失調與受損的 Mitophagy。"
+    },
+    "confidence": 0.95,
+    "source_document": "TOM20.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "b98b059807b8",
+    "subject": "TOP1",
+    "predicate": "enables",
+    "object": "cGAS",
+    "context": {
+      "en-US": "TOP1 (Topoisomerase 1) relieves DNA supercoiling by creating transient single-strand breaks. Its trapped cleavage complexes (TOP1cc) assist cGAS recognition of and binding to cytoplasmic chromatin fragments (CCFs), which is essential for downstream SASP regulation: TOP1 on these fragments licenses cGAS binding by exposing appropriate DNA topology and co-localizing with the sensor, cooperating with G3BP1.",
+      "zh-TW": "TOP1 (Topoisomerase 1) 藉由製造暫時性單股斷裂來解除 DNA 超螺旋。其被捕捉的裂解複合體 (TOP1cc) 協助 cGAS 辨識並結合細胞質染色質片段 (CCFs)，這對下游 SASP 的調控至关重要：TOP1 藉由呈現適當的 DNA 拓撲並與感測器共定位，使 cGAS 得以結合，並與 G3BP1 協同作用。"
+    },
+    "confidence": 0.9,
+    "source_document": "TOP1.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "f2c535f2c522",
+    "subject": "TOP1",
+    "predicate": "regulates",
+    "object": "SASP",
+    "context": {
+      "en-US": "TOP1cc are essential for cGAS-STING activation in senescence: they link DNA damage/topo stress to SASP regulation through the cytosolic DNA axis, positioning DNA topology and replication stress as upstream triggers of the SASP. Pharmacologic TOP1 trapping (e.g., low-dose irinotecan) can exacerbate senescence-associated interferon signaling, whereas TOP1 modulation attenuates it.",
+      "zh-TW": "在 Senescence 中，TOP1cc 對 cGAS-STING 的活化不可或缺：它們經由細胞質 DNA 軸將 DNA 損傷／拓撲壓力連結到 SASP 的調控，使 DNA 拓撲與複製壓力成為 SASP 的上游觸發因子。藥理性的 TOP1 捕捉（例如低劑量 irinotecan）會加劇與 Senescence 相關的干擾素訊號，而 TOP1 的調節則可減輕之。"
+    },
+    "confidence": 0.9,
+    "source_document": "TOP1.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "3f9a04b34efe",
+    "subject": "MAVS",
+    "predicate": "recruits",
+    "object": "TRAF2",
+    "context": {
+      "en-US": "TRAF2 (TNF receptor-associated factor 2) is a versatile adaptor protein recruited by the MAVS complex to activate an innate immune response following viral infection. As part of the MAVS signaling platform on mitochondria, TRAF2 relays antiviral signals downstream to effectors such as NF-κB.",
+      "zh-TW": "TRAF2 (TNF receptor-associated factor 2) 是一種多功能的轉接蛋白，由 MAVS 複合體招募，以在病毒感染後啟動先天免疫反應。作為粒線體上 MAVS 訊號平台的一部分，TRAF2 將抗病毒訊號向下游傳遞給 NF-κB 等效應器。"
+    },
+    "confidence": 0.9,
+    "source_document": "TRAF2.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "60f075601f7a",
+    "subject": "TRAF2",
+    "predicate": "activates",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "TRAF2 is a key component of the signaling complex recruited by TNFR1, where it helps activate the NF-κB pathway to promote cell survival. In TNFR1 complex I, TRAF2 recruits cIAPs to ubiquitinate RIPK1 (survival mode), and is itself a CYLD deubiquitination substrate at the complex I → complex II handoff. Because of this survival signaling, TRAF2 overactivity can contribute to tumor growth and resistance to apoptosis-inducing therapies.",
+      "zh-TW": "TRAF2 是 TNFR1 所招募訊號複合體的關鍵成分，在其中協助活化 NF-κB 途徑以促進細胞存活。在 TNFR1 complex I 中，TRAF2 招募 cIAPs 對 RIPK1 進行泛素化（存活模式），其本身在 complex I → complex II 的交接處是 CYLD 去泛素化的受質。由於此存活訊號作用，TRAF2 的過度活化可能促成腫瘤生長與對誘導凋亡療法的抗性。"
+    },
+    "confidence": 0.9,
+    "source_document": "TRAF2.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "63ace0722f30",
+    "subject": "TRAF2",
+    "predicate": "inhibits",
+    "object": "Caspase-12",
+    "context": {
+      "en-US": "In the Endoplasmic Reticulum Pathway, TRAF2 is normally bound to pro-caspase-12, keeping the protease inactive. Upon ER stress, TRAF2 dissociates from pro-caspase-12, allowing activation of Caspase-12 and committing the cell to ER-stress-induced Apoptosis.",
+      "zh-TW": "在 Endoplasmic Reticulum Pathway 中，TRAF2 正常情況下與 pro-caspase-12 結合，使該蛋白酶維持不活化。當內質網壓力發生時，TRAF2 從 pro-caspase-12 解離，使 Caspase-12 得以活化，並將細胞推向內質網壓力誘發的 Apoptosis。"
+    },
+    "confidence": 0.9,
+    "source_document": "TRAF2.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "f5232030c9a7",
+    "subject": "TRIF",
+    "predicate": "recruits",
+    "object": "TRAF3",
+    "context": {
+      "en-US": "TRAF3 (TNF receptor-associated factor 3) is a member of the TRAF family of E3 ubiquitin ligase adaptors and a critical node linking TLR3/TRIF and RIG-I-like receptor signaling to type I interferon production. TRAF3 is recruited by TRIF (and MAVS/TRIF-like adaptors), where it binds and activates the TBK1–IKKε kinase complex.",
+      "zh-TW": "TRAF3 (TNF receptor-associated factor 3) 是 TRAF 家族的 E3 泛素連接酶轉接蛋白之一，也是連結 TLR3/TRIF 與 RIG-I 樣受體訊號與第一型干擾素產生的關鍵節點。TRAF3 由 TRIF（以及 MAVS/TRIF 類轉接蛋白）招募，並結合、活化 TBK1–IKKε 激酶複合體。"
+    },
+    "confidence": 0.92,
+    "source_document": "TRAF3.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "fee56eae0cf2",
+    "subject": "TRAF3",
+    "predicate": "activates",
+    "object": "TBK1",
+    "context": {
+      "en-US": "TRAF3 binds and activates the TBK1–IKKε kinase complex that phosphorylates IRF3, driving IFN-β transcription and type I interferon production. This makes TRAF3 a central relay of antiviral innate immunity; dysregulated TRAF3 affects antiviral defense, autoimmunity, and lymphomagenesis.",
+      "zh-TW": "TRAF3 結合並活化 TBK1–IKKε 激酶複合體，後者磷酸化 IRF3，驅動 IFN-β 的轉錄與第一型干擾素的產生。這使 TRAF3 成為抗病毒先天免疫的中繼站；TRAF3 的失調會影響抗病毒防禦、自體免疫與淋巴瘤生成。"
+    },
+    "confidence": 0.92,
+    "source_document": "TRAF3.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "7bf9be663392",
+    "subject": "TRAF3",
+    "predicate": "inhibits",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "Beyond driving interferon induction, TRAF3 also negatively regulates NF-κB and MAPK pathways in certain contexts, balancing inflammatory output. This dual role positions TRAF3 as a node that couples antiviral type I interferon signaling to restraint of inflammatory transcription.",
+      "zh-TW": "除了驅動干擾素誘導之外，TRAF3 在某些情境下也會負向調節 NF-κB 與 MAPK 途徑，以平衡發炎輸出。這種雙重角色使 TRAF3 成為將抗病毒的第一型干擾素訊號與發炎性轉錄的抑制連結在一起的節點。"
+    },
+    "confidence": 0.85,
+    "source_document": "TRAF3.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "db9617b2dd40",
+    "subject": "TRAK1",
+    "predicate": "interacts_with",
+    "object": "OPTN",
+    "context": {
+      "en-US": "TRAK1 (Trafficking kinesin-binding protein 1) is a mitochondrial transport adaptor protein that forms a complex with Optineurin (OPTN) and KIF5B for proper anterograde axonal mitochondrial transport. OPTN directly interacts with TRAK1 and KIF5B in a C-terminal-dependent manner to stabilize them, and the OPTN/TRAK1/KIF5B complex is critical for axonal mitochondrial distribution.",
+      "zh-TW": "TRAK1 (Trafficking kinesin-binding protein 1) 是粒線體運輸轉接蛋白，與 Optineurin (OPTN) 及 KIF5B 形成複合體，以進行正確的軸突順向粒線體運輸。OPTN 以依賴 C 端的方式直接與 TRAK1 及 KIF5B 互動並使其穩定，而 OPTN/TRAK1/KIF5B 複合體對軸突粒線體分布至關重要。"
+    },
+    "confidence": 0.95,
+    "source_document": "TRAK1.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "0c64a5cd7cf3",
+    "subject": "TRAK1",
+    "predicate": "interacts_with",
+    "object": "KIF5B",
+    "context": {
+      "en-US": "TRAK1 forms the OPTN/TRAK1/KIF5B complex with the kinesin motor KIF5B for anterograde axonal mitochondrial transport. Overexpression of OPTN/TRAK1/KIF5B not only prevents neurodegeneration induced by OPTN truncation but also protects against damage from high intraocular pressure while promoting optic nerve regeneration.",
+      "zh-TW": "TRAK1 與 kinesin 馬達蛋白 KIF5B 組成 OPTN/TRAK1/KIF5B 複合體，執行軸突順向粒線體運輸。OPTN/TRAK1/KIF5B 的過度表現不僅能防止 OPTN 截短所誘發的神經退化，還能防護高眼壓造成的損傷並促進視神經再生。"
+    },
+    "confidence": 0.93,
+    "source_document": "TRAK1.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "a0d1248cffe4",
+    "subject": "TREM2",
+    "predicate": "is_expressed_in",
+    "object": "Microglia",
+    "context": {
+      "en-US": "TREM2 (triggering receptor expressed on myeloid cells 2) is an immunoglobulin-superfamily receptor expressed on Microglia and other myeloid cells. It binds ApoE-containing lipid ligands and serves as a master regulator of microglial state, survival, and response to pathology, placing it at the intersection of genetic risk, glial activation, and Neuroinflammation.",
+      "zh-TW": "TREM2 (triggering receptor expressed on myeloid cells 2) 是表現在 Microglia 與其他髓系細胞上的免疫球蛋白超家族受體。它結合含 ApoE 的脂質配體，並作為微膠細胞狀態、存活與病理反應的主控調節因子，處於遺傳風險、膠細胞活化與 Neuroinflammation 的交會點。"
+    },
+    "confidence": 0.95,
+    "source_document": "TREM2.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "54547c3d2dda",
+    "subject": "TREM2",
+    "predicate": "upregulates",
+    "object": "cGAS",
+    "context": {
+      "en-US": "TREM2 signaling activity — independent of disease-associated variants — can itself induce Interferon-Stimulated Genes and upregulate cGAS expression, doing so separately from the canonical Disease-Associated Microglia program. TREM2 activity independently drives cGAS/ISG programs, suggesting that TREM2 functions as a rheostat for cGAS-STING engagement in glial cells.",
+      "zh-TW": "TREM2 的訊號活性——獨立於疾病相關變異之外——本身即可誘導 Interferon-Stimulated Genes 並上调 cGAS 的表現，且此作用獨立於典型的 Disease-Associated Microglia 程式。TREM2 活性可獨立驅動 cGAS/ISG 程式，顯示 TREM2 在膠細胞中是 cGAS-STING 參與程度的調節開關。"
+    },
+    "confidence": 0.9,
+    "source_document": "TREM2.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "54739c9d14d2",
+    "subject": "TREM2",
+    "predicate": "interacts_with",
+    "object": "APOE4",
+    "context": {
+      "en-US": "The TREM2 R47H variant is a well-established AD risk allele that synergizes with the major risk allele APOE4 to amplify cGAS-STING/IFN-I signaling, driving a senescence-like microglial state characterized by mitochondrial stress, cell cycle arrest, and a SASP. This genetic interaction helps explain why carriers of both alleles exhibit accelerated Neurodegeneration across proteinopathies.",
+      "zh-TW": "TREM2 R47H 變異是廣為人知的 AD 風險等位基因，會與主要風險等位基因 APOE4 協同放大 cGAS-STING/IFN-I 訊號，驅動具粒線體壓力、細胞週期停滯與 SASP 特色的類 Senescence 微膠細胞狀態。此遺傳交互作用有助解釋同時帶有兩者等位基因的個體為何在蛋白病變中呈現加速的 Neurodegeneration。"
+    },
+    "confidence": 0.92,
+    "source_document": "TREM2.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "b5c6400a669c",
+    "subject": "TREM2",
+    "predicate": "suppresses",
+    "object": "Astrocyte Senescence",
+    "context": {
+      "en-US": "TREM2 tone bidirectionally shapes both microglial and astrocytic responses: TREM2 haploinsufficiency intensifies Astrocyte Senescence, indicating that loss of TREM2 function accelerates glial senescence. Because TREM2 both gates inflammatory signaling and supports microglial homeostasis, it is a prime target for immunomodulatory strategies that dampen maladaptive IFN-I programs without abolishing protective microglial functions.",
+      "zh-TW": "TREM2 的作用量能雙向塑造微膠細胞與星狀膠細胞的反應：TREM2 單倍體功能不足會加劇 Astrocyte Senescence，顯示 TREM2 功能喪失會加速膠細胞的 Senescence。由於 TREM2 既能閘控發炎訊號又能支持微膠細胞恆定，它是免疫調節策略的绝佳標的，可在不犧牲保護性微膠細胞功能的前提下抑制失適應性的 IFN-I 程式。"
+    },
+    "confidence": 0.9,
+    "source_document": "TREM2.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "8686f6639f1b",
+    "subject": "TREX1",
+    "predicate": "inhibits",
+    "object": "cGAS",
+    "context": {
+      "en-US": "TREX1 (Three Prime Repair Exonuclease 1) is a 3'→5' DNA exonuclease and the major cytosolic DNase in mammalian cells; it degrades cytosolic DNA — genomic DNA leaked from the nucleus, mitochondrial DNA, retroelement-derived DNA, and endogenous retroviral DNA — thereby preventing inappropriate activation of the cGAS-STING pathway and maintaining immune tolerance to self-DNA.",
+      "zh-TW": "TREX1 (Three Prime Repair Exonuclease 1) 是 3'→5' DNA 外切核酸酶，也是哺乳類細胞中主要的細胞質 DNase；它降解細胞質 DNA——由細胞核滲漏的基因組 DNA、粒線體 DNA、轉位元件衍生 DNA 與內源性反轉錄病毒 DNA——藉此避免 cGAS-STING 途徑的不適當活化，並維持對自體 DNA 的免疫耐受性。"
+    },
+    "confidence": 0.95,
+    "source_document": "TREX1.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "dc8ce7c60af0",
+    "subject": "TREX1",
+    "predicate": "is_localized_to",
+    "object": "Endoplasmic Reticulum",
+    "context": {
+      "en-US": "TREX1's C-terminal transmembrane domain anchors it to the endoplasmic reticulum (ER) membrane, where it co-localizes with cGAS and STING. The ER-targeting C-terminal domain is essential for TREX1 function in vivo, as forced cytoplasmic mislocalization impairs its ability to prevent innate immune activation. TREX1 forms homodimers via a hydrophobic interface, with back-to-back active sites enabling processive degradation of cytosolic DNA.",
+      "zh-TW": "TREX1 的 C 端穿膜結構域將其錨定在內質網（ER）膜上，並在該處與 cGAS 及 STING 共定位。ER 定位的 C 端結構域對 TREX1 的體內功能至關重要，因為強迫其錯位至細胞質會損害其抑制先天免疫活化的能力。TREX1 透過疏水介面形成同源二聚體，其背靠背的活性位點可進行細胞質 DNA 的持續性降解。"
+    },
+    "confidence": 0.9,
+    "source_document": "TREX1.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "075fba3a8af1",
+    "subject": "TREX1",
+    "predicate": "is_associated_with",
+    "object": "Interferon",
+    "context": {
+      "en-US": "In the absence of TREX1, cytosolic DNA accumulates and engages the cGAS sensor, leading to 2'3'-cGAMP production and STING activation; this triggers signaling through TBK1 and IRF3, resulting in type I Interferon (IFN-α/β) production and chronic interferon signaling that drives autoimmunity. TREX1 mutations cause Aicardi-Goutières syndrome type 1, the most common genetic cause of this type I interferonopathy.",
+      "zh-TW": "在缺乏 TREX1 的情況下，細胞質 DNA 累積並活化 cGAS 感測器，導致 2'3'-cGAMP 生成與 STING 活化；這會透過 TBK1 與 IRF3 啟動訊號，造成第一型 Interferon (IFN-α/β) 產生與慢性干擾素訊號，進而驅動自體免疫。TREX1 突變造成 Aicardi-Goutières 症候群第一型，是此類第一型干擾素病最常見的遺傳原因。"
+    },
+    "confidence": 0.9,
+    "source_document": "TREX1.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "38d1e4e9634f",
+    "subject": "TRF2",
+    "predicate": "binds",
+    "object": "Telomere",
+    "context": {
+      "en-US": "TRF2 (Telomeric Repeat-binding Factor 2, gene TERF2) is a core subunit of the shelterin complex that binds double-stranded TTAGGG telomeric repeats via its C-terminal Myb/SANT DNA-binding domain. It is the principal protein protecting chromosome ends from being misrecognized as double-strand breaks, thereby safeguarding genome stability across the lifespan.",
+      "zh-TW": "TRF2 (Telomeric Repeat-binding Factor 2，基因 TERF2) 是 shelterin 複合體的核心次單元，透過其 C 端 Myb/SANT DNA 結合結構域結合雙股 TTAGGG 端粒重複序列。它是保護染色體末端不被誤認為雙股斷裂的主要蛋白，因而在整個生命歷程中守護基因體穩定性。"
+    },
+    "confidence": 0.95,
+    "source_document": "TRF2.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "dcaf583e36a7",
+    "subject": "TRF2",
+    "predicate": "inhibits",
+    "object": "ATM",
+    "context": {
+      "en-US": "TRF2 prevents activation of the ATM kinase pathway at chromosome ends and blocks non-homologous end joining by inhibiting 53BP1 and the Ku70/Ku80 heterodimer. Critically short telomeres lose the TRF2-occupied shelterin cap, exposing ends as DNA double-strand breaks and triggering a persistent DDR signal (DNA-SCARS).",
+      "zh-TW": "TRF2 可防止 ATM 激酶途徑在染色體末端被活化，並藉由抑制 53BP1 與 Ku70/Ku80 異二聚體來阻斷非同源末端接合。過短的端粒會失去 TRF2 占据的 shelterin 保護帽，使末端暴露為 DNA 雙股斷裂，進而觸發持續的 DNA 損傷反應訊號 (DNA-SCARS)。"
+    },
+    "confidence": 0.93,
+    "source_document": "TRF2.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "66200fcdce80",
+    "subject": "TRF2",
+    "predicate": "triggers",
+    "object": "Replicative Senescence",
+    "context": {
+      "en-US": "Progressive telomere attrition with cell division (the end-replication problem) causes loss of the protective TRF2-occupied shelterin cap, activating persistent DDR signaling that triggers Replicative Senescence. Deletion or dysfunction of TRF2 leads to telomere end-to-end fusions and genomic instability, counteracting Telomere Attrition-driven aging.",
+      "zh-TW": "隨細胞分裂而逐步發生的端粒耗損（末端複製問題）會造成具保護作用的 TRF2-占据 shelterin 帽流失，啟動持續的 DNA 損傷反應訊號，進而觸發 Replicative Senescence。TRF2 的缺失或功能失常會導致端粒端對端融合與基因體不穩定，對抗 Telomere Attrition 驅動的老化。"
+    },
+    "confidence": 0.9,
+    "source_document": "TRF2.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "f97c7a4e176e",
+    "subject": "SIRT1",
+    "predicate": "upregulates",
+    "object": "TRF2",
+    "context": {
+      "en-US": "DNA microarray analysis of moderately SIRT1-overexpressing hearts identified upregulation of telomere reverse transcriptase (Telomerase) and telomere repeat binding factor 2 (TRF2) among cell-protective/aging-regulatory transcripts. SIRT1 overexpression therefore supports telomere integrity and replicative capacity, counteracting telomere attrition and premature aging.",
+      "zh-TW": "對中度 SIRT1 過度表現之心臟所做的 DNA 微陣列分析，顯示端粒反轉錄酶 (Telomerase) 與端粒重複結合因子 2 (TRF2) 在細胞保護／老化調節轉錄本中遭到上调。因此 SIRT1 的過度表現有助於維持端粒完整性與複製能力，對抗端粒耗損與早熟老化。"
+    },
+    "confidence": 0.88,
+    "source_document": "TRF2.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "9064a2b8af00",
+    "subject": "TRIAD",
+    "predicate": "tests",
+    "object": "Rapamycin",
+    "context": {
+      "en-US": "TRIAD (Test of Rapamycin In Aging Dogs) is a parallel-group, double-masked, randomized, placebo-controlled, multicenter clinical trial testing whether intermittent low-dose Rapamycin extends lifespan and healthspan in healthy middle-aged companion dogs. It is the first rigorous pharmacologic geroscience trial with lifespan endpoints outside the laboratory, in any species.",
+      "zh-TW": "TRIAD (Test of Rapamycin In Aging Dogs) 是一項平行對照、雙盲、隨機、安慰劑對照、多中心的臨床試驗，測試間歇性低劑量 Rapamycin 是否能延長健康中年伴侶犬的壽命與健康壽齡。它是第一個在實驗室之外、以任何物種進行且具壽命終點的嚴謹藥理 geroscience 試驗。"
+    },
+    "confidence": 0.95,
+    "source_document": "TRIAD.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "da4f4321f563",
+    "subject": "Rapamycin",
+    "predicate": "reverses",
+    "object": "Senescence",
+    "context": {
+      "en-US": "In canine mitral valve interstitial cells from dogs with Myxomatous Mitral Valve Disease, rapamycin and torin-1 reverse senescence via autophagy; in canine MSCs, rapamycin phenocopies curcumin's autophagy-mediated delay of senescence. Rapamycin also clears p16/p21 via p62-mediated selective autophagy, giving high biological plausibility for cardiac aging endpoints.",
+      "zh-TW": "在取自罹患 Myxomatous Mitral Valve Disease 之犬的僧帽瓣間質細胞中，rapamycin 與 torin-1 可透過自噬逆轉 Senescence；在犬間質幹細胞中，rapamycin 可模擬薑黃素藉自噬延緩 Senescence 的效果。Rapamycin 亦透過 p62 媒介的選擇性自噬清除 p16/p21，為心臟老化終點提供高度的生物學合理性。"
+    },
+    "confidence": 0.88,
+    "source_document": "TRIAD.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "58002a6ad25f",
+    "subject": "TSC",
+    "predicate": "regulates",
+    "object": "mTORC1",
+    "context": {
+      "en-US": "One of the most important sensors involved in the regulation of mTORC1 activity is the TSC complex, a heterodimer comprising TSC1 (hamartin) and TSC2 (tuberin). Rapamycin and its analogue everolimus are FDA-approved for TSC-associated seizures (EXIST-3), making the TSC-mTOR axis a validated bridge from mTOR biology to the clinic.",
+      "zh-TW": "參與調控 mTORC1 活性的最重要感測器之一是 TSC 複合體，它是由 TSC1 (hamartin) 與 TSC2 (tuberin) 組成的異二聚體。Rapamycin 及其類似物 everolimus 已獲 FDA 核准用於 TSC 相關的癲癇發作 (EXIST-3)，使 TSC-mTOR 軸成為 mTOR 生物学與臨床之間經過驗證的橋樑。"
+    },
+    "confidence": 0.9,
+    "source_document": "TSC.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "441b0624a2da",
+    "subject": "Rapamycin",
+    "predicate": "treats",
+    "object": "TSC",
+    "context": {
+      "en-US": "FDA-approved rapamycin/everolimus is used for TSC seizures (EXIST-3) and serves as the prototype for translating mTOR inhibitors to the clinic. This makes rapamycin a rare compound with both an established clinical indication and an active geroscience testing program such as TRIAD.",
+      "zh-TW": "FDA 核准的 rapamycin/everolimus 用於 TSC 的癲癇發作 (EXIST-3)，並被視為將 mTOR 抑制劑轉譯至臨床的原型。這使 rapamycin 成為少數同時擁有既定臨床適應症與活跃 geroscience 測試計畫（如 TRIAD）的化合物。"
+    },
+    "confidence": 0.88,
+    "source_document": "TSC.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "40f4e356b1c1",
+    "subject": "TUNEL",
+    "predicate": "marks",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "TUNEL (terminal deoxynucleotidyl transferase dUTP nick-end labeling) enzymatically tags free 3′-OH DNA ends with labeled dUTP, visualizing the internucleosomal fragmentation of Apoptosis in tissue sections and fixed cells. It is the canonical histological counterpart to the DNA ladder on gels and cleaved Caspase-3 immunostaining.",
+      "zh-TW": "TUNEL (terminal deoxynucleotidyl transferase dUTP nick-end labeling) 以酵素方式將游離的 3′-OH DNA 末端加上標記的 dUTP，使組織切片與固定細胞中 Apoptosis 的核小體間 DNA 片段化得以可視化。它是凝膠上 DNA ladder 與裂解型 Caspase-3 免疫染色的標準組織學對應物。"
+    },
+    "confidence": 0.95,
+    "source_document": "TUNEL.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "200161bc48d0",
+    "subject": "TUNEL",
+    "predicate": "marks",
+    "object": "Parthanatos",
+    "context": {
+      "en-US": "TUNEL is not apoptosis-specific: it also labels the large-scale fragmentation of Parthanatos, late Necroptosis, and other programs with abundant DNA ends. Parthanatos is TUNEL-positive via ~50-kbp fragmentation and requires PAR/AIF co-markers to distinguish from Apoptosis, so TUNEL should be scored alongside Annexin V/PI status, caspase activity, and morphology — never alone.",
+      "zh-TW": "TUNEL 並非 Apoptosis 專一：它同樣標記 Parthanatos、晚期 Necroptosis 及其他產生大量 DNA 末端的程式。Parthanatos 經由約 50 kbp 的片段化呈 TUNEL 陽性，需搭配 PAR/AIF 共同標記才能與 Apoptosis 區分，因此 TUNEL 應與 Annexin V/PI 狀態、caspase 活性與形態一起判讀——絕不可單獨使用。"
+    },
+    "confidence": 0.92,
+    "source_document": "TUNEL.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "b5aae97ec93c",
+    "subject": "Takotsubo Cardiomyopathy",
+    "predicate": "is_caused_by",
+    "object": "Catecholamines",
+    "context": {
+      "en-US": "Takotsubo cardiomyopathy (stress cardiomyopathy, broken-heart syndrome) is an acute, reversible left ventricular systolic dysfunction that mimics acute myocardial infarction but occurs in the absence of obstructive coronary artery disease. It is classically triggered by intense emotional or physical stress and is driven by a surge of Catecholamines — particularly Epinephrine and Norepinephrine — that directly injures the myocardium.",
+      "zh-TW": "Takotsubo cardiomyopathy（壓力性心肌病變、碎心症候群）是急性、可逆的左心室收縮功能障礙，會模仿急性心肌梗塞卻不伴隨阻塞性冠狀動脈疾病。它典型地由強烈的情緒或生理壓力觸發，並由 Catecholamines——尤其是 Epinephrine 與 Norepinephrine——的驟升所驅動，直接損傷心肌。"
+    },
+    "confidence": 0.95,
+    "source_document": "Takotsubo Cardiomyopathy.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "76b98bab9728",
+    "subject": "Takotsubo Cardiomyopathy",
+    "predicate": "is_a_type_of",
+    "object": "Catecholamine-induced cardiomyopathy",
+    "context": {
+      "en-US": "Takotsubo is the prototypical form of catecholamine-induced cardiomyopathy; the two terms are often used synonymously within the stress-cardiomyopathy spectrum. Physical triggers include critical illness, surgery, high-dose exogenous catecholamines, and Pheochromocytoma, while emotional triggers activate the Sympathetic Nervous System.",
+      "zh-TW": "Takotsubo 是 catecholamine-induced cardiomyopathy 的原型；在壓力性心肌病變範疇中，兩個名詞常被當作同義詞使用。生理性誘因包括危重症、手術、高劑量外源性兒茶酚胺與 Pheochromocytoma；情緒性誘因則活化 Sympathetic Nervous System。"
+    },
+    "confidence": 0.9,
+    "source_document": "Takotsubo Cardiomyopathy.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "4d4a85d09092",
+    "subject": "Adrenochrome",
+    "predicate": "promotes",
+    "object": "Lipid Peroxidation",
+    "context": {
+      "en-US": "In takotsubo pathophysiology, high catecholamine concentrations drive their oxidation to Adrenochrome and related Aminochromes, generating Superoxide and Hydrogen Peroxide via one-electron reduction of O₂ by the semiquinone radical intermediate. Adrenochrome then redox-cycles with NADPH and depletes Glutathione, impairing membrane repair and sustaining Lipid Peroxidation beyond what stoichiometric catecholamine oxidation would produce.",
+      "zh-TW": "在 takotsubo 的病理生理中，高濃度兒茶酚胺會被氧化為 Adrenochrome 與相關的 Aminochromes，經由半醌自由基中間體對 O₂ 的單電子還原產生 Superoxide 與 Hydrogen Peroxide。Adrenochrome 隨後與 NADPH 進行氧化還原循環並耗盡 Glutathione，損害膜修復，使 Lipid Peroxidation 持續進行，其程度超出化學計量式兒茶酚胺氧化所能造成的範圍。"
+    },
+    "confidence": 0.9,
+    "source_document": "Takotsubo Cardiomyopathy.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "ff5edd2aa644",
+    "subject": "Takotsubo Cardiomyopathy",
+    "predicate": "is_associated_with",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "The takotsubo pathophysiologic cascade converges on Oxidative Stress and Lipid Peroxidation: hydrogen peroxide in the presence of catalytic Iron produces the hydroxyl radical via the Fenton Reaction, which abstracts bis-allylic hydrogens from Polyunsaturated fatty acids in cardiomyocyte Cell Membranes, initiating a chain reaction that generates lipid peroxyl radicals and lipid hydroperoxides. Peroxidized membranes lose ion selectivity, causing calcium overload, impaired SERCA2a function, and contractile dysfunction.",
+      "zh-TW": "Takotsubo 的病理級聯最終收斂於 Oxidative Stress 與 Lipid Peroxidation：在催化性 Iron 存在下，hydrogen peroxide 經由 Fenton Reaction 產生羥基自由基，後者從 cardiomyocyte 的 Cell Membranes 中抽取 Polyunsaturated fatty acids 的雙烯丙位氫，啟動生成脂質過氧自由基與脂質過氧化物的鏈式反應。過氧化後的膜失去離子選擇性，造成鈣過載、SERCA2a 功能受損與收縮功能障礙。"
+    },
+    "confidence": 0.9,
+    "source_document": "Takotsubo Cardiomyopathy.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "0676bb563b15",
+    "subject": "Takotsubo Cardiomyopathy",
+    "predicate": "mimics",
+    "object": "Myocardial infarction",
+    "context": {
+      "en-US": "Patients with takotsubo present with chest pain, dyspnea, and ST-segment elevation or deep T-wave inversion on ECG — indistinguishable from ST-elevation Myocardial infarction. Modestly elevated Troponin is often discordant with the degree of wall-motion abnormality, and coronary angiography shows normal or non-obstructive coronaries, with characteristic apical ballooning on ventriculography or echocardiography.",
+      "zh-TW": "Takotsubo 患者會出現胸痛、呼吸困難，以及 ECG 上的 ST 段上升或深 T 波倒置——與 ST 上升型 Myocardial infarction 難以區分。輕度升高的 Troponin 常與室壁運動異常的程度不一致，且冠狀動脈攝影顯示正常或非阻塞性冠狀動脈，心室造影或超音波則可見典型的頂端氣球狀（apical ballooning）變化。"
+    },
+    "confidence": 0.92,
+    "source_document": "Takotsubo Cardiomyopathy.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "5b01259da5e4",
+    "subject": "Tau",
+    "predicate": "binds",
+    "object": "Microtubule",
+    "context": {
+      "en-US": "Tau (microtubule-associated protein tau, MAPT) binds and stabilizes microtubules in axons. Its central microtubule-binding repeats (R1–R4) directly bind the luminal surface of microtubules via electrostatic and hydrophobic interactions; Tau binds microtubules via these repeats, promoting tubulin polymerization and stabilizing microtubule dynamics — a function essential for kinesin/dynein-driven axonal transport.",
+      "zh-TW": "Tau (microtubule-associated protein tau，MAPT) 會結合並穩定軸突中的微管。其中央的微管結合重複序列 (R1–R4) 透過靜電與疏水作用直接結合微管腔面；Tau 藉由這些重複序列結合微管，促進 tubulin 聚合並穩定微管動態——此功能對 kinesin/dynein 驅動的軸突運輸至關重要。"
+    },
+    "confidence": 0.95,
+    "source_document": "Tau.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "286ab179cffe",
+    "subject": "GSK3",
+    "predicate": "phosphorylates",
+    "object": "Tau",
+    "context": {
+      "en-US": "GSK3 (glycogen synthase kinase-3β) is the principal Tau kinase, phosphorylating residues in the microtubule-binding repeats and proline-rich region. In healthy neurons Tau carries 2–3 phosphates per mole; in Alzheimer's disease brain this rises to roughly 7–8, a hyperphosphorylated state that detaches Tau from microtubules and triggers aggregation into neurofibrillary tangles.",
+      "zh-TW": "GSK3 (glycogen synthase kinase-3β) 是主要的 Tau 激酶，磷酸化微管結合重複序列與脯胺酸富含區的殘基。在健康神經元中，每莫耳 Tau 約帶有 2–3 個磷酸基；在 Alzheimer's Disease 的腦中則上升至約 7–8 個，此過度磷酸化狀態使 Tau 從微管脫離並誘發其聚集成神經纖維纏結。"
+    },
+    "confidence": 0.95,
+    "source_document": "Tau.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "29b945cdb19f",
+    "subject": "DYRK1A",
+    "predicate": "phosphorylates",
+    "object": "Tau",
+    "context": {
+      "en-US": "DYRK1A (dual-specificity tyrosine phosphorylation-regulated kinase 1A) is upregulated in Down syndrome and phosphorylates Tau at multiple AD-relevant sites, adding to the kinase load that drives Tau hyperphosphorylation and neurofibrillary pathology.",
+      "zh-TW": "DYRK1A (dual-specificity tyrosine phosphorylation-regulated kinase 1A) 在 Down syndrome 中會上调，並在多個與 AD 相關的位點磷酸化 Tau，增加推動 Tau 過度磷酸化與神經纖維病變的激酶負荷。"
+    },
+    "confidence": 0.85,
+    "source_document": "Tau.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "f59974f83950",
+    "subject": "Tau",
+    "predicate": "is_associated_with",
+    "object": "Alzheimer's Disease",
+    "context": {
+      "en-US": "Tau hyperphosphorylation and aggregation into neurofibrillary tangles is a pathological hallmark of Alzheimer's disease, and Braak staging I–VI of Tau pathology correlates with cognitive decline, with propagation following a predictable anatomical progression from transentorhinal cortex to neocortex. The MAPT H1 haplotype is also associated with increased Alzheimer's disease risk, while H2 is protective.",
+      "zh-TW": "Tau 過度磷酸化並聚集形成神經纖維纏結，是 Alzheimer's disease 的病理標誌；Tau 病變的 Braak 分期 I–VI 與認知衰退相關，且其傳播沿著從內嗅皮質到新皮層的可預測解剖路徑進展。MAPT H1 單倍型也與 Alzheimer's disease 風險升高相關，而 H2 則具有保護作用。"
+    },
+    "confidence": 0.9,
+    "source_document": "Tau.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "4fdf6bd3fa57",
+    "subject": "Tau",
+    "predicate": "activates",
+    "object": "Toll-like Receptor",
+    "context": {
+      "en-US": "Tau is constitutively released from neurons into the cerebrospinal fluid and, at lower concentrations, into blood. This extracellular Tau may serve as a danger-associated molecular pattern that activates microglial Toll-like Receptor signaling and neuroinflammatory pathways, linking Tau propagation to Neuroinflammation.",
+      "zh-TW": "Tau 會持續由神經元釋放至腦脊髓液，並以較低濃度釋放至血液。此細胞外 Tau 可能作為危險相關分子型態，活化微膠細胞的 Toll-like Receptor 訊號與神經發炎途徑，將 Tau 的傳播與 Neuroinflammation 連結起來。"
+    },
+    "confidence": 0.8,
+    "source_document": "Tau.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "51c68668a7c7",
+    "subject": "p38 MAPK",
+    "predicate": "phosphorylates",
+    "object": "Tau",
+    "context": {
+      "en-US": "p38 MAPK and JNK are stress-activated kinases activated by ROS that target Tau at disease-relevant phospho-epitopes. Their oxidative activation adds to the combined kinase load — GSK3, CDK5, DYRK1A, CK1 and AMPK — that drives Tau hyperphosphorylation and neurofibrillary pathology.",
+      "zh-TW": "p38 MAPK 與 JNK 是由 ROS 活化的壓力活化激酶，會在與疾病相關的磷酸表位上作用於 Tau。它們受氧化刺激而活化，會疊加到 GSK3、CDK5、DYRK1A、CK1 與 AMPK 構成的總和激酶負荷上，推動 Tau 過度磷酸化與神經纖維病變。"
+    },
+    "confidence": 0.85,
+    "source_document": "Tau.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "c03edd8f519a",
+    "subject": "Tauopathy",
+    "predicate": "is_defined_by",
+    "object": "Tau",
+    "context": {
+      "en-US": "Tauopathy refers to a class of neurodegenerative diseases defined by the pathological aggregation of the microtubule-associated protein Tau into insoluble fibrils and Neurofibrillary tangles. The spectrum includes Alzheimer's disease and Frontotemporal Dementia, and the progressive spread of pathological tau is a central driver of cognitive decline.",
+      "zh-TW": "Tauopathy 指的是一類以微管相關蛋白 Tau 病理性聚集形成不溶性纖維與 Neurofibrillary tangles 為定義特徵的神經退化疾病。其範疇包括 Alzheimer's disease 與 Frontotemporal Dementia，而病理性 Tau 的漸進性擴散是認知衰退的核心驅動力。"
+    },
+    "confidence": 0.9,
+    "source_document": "Tauopathy.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "c35efb32f59b",
+    "subject": "Tau",
+    "predicate": "activates",
+    "object": "cGAS-STING Pathway",
+    "context": {
+      "en-US": "A distinctive feature of tauopathy is the ability of pathogenic tau to directly activate microglial cGAS-STING signaling. The tau–PQBP1 complex engages cGAS through a direct protein–protein interaction that bypasses the requirement for DNA — an important exception to the otherwise DNA-dependent activation seen across proteinopathies. Depletion of mtDNA also attenuates the tau-induced type I IFN response.",
+      "zh-TW": "tauopathy 的一項獨特特徵是致病性 tau 能直接活化微膠細胞的 cGAS-STING 訊號。tau–PQBP1 複合體透過直接的蛋白質–蛋白質互動接合 cGAS，繞過了對 DNA 的需求——這是各種蛋白病變中普遍存在的 DNA 依賴性活化的一項重要例外。mtDNA 的耗竭也會減弱 tau 所誘發的第一型 IFN 反應。"
+    },
+    "confidence": 0.9,
+    "source_document": "Tauopathy.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "72dba7b86ef6",
+    "subject": "NF-κB",
+    "predicate": "promotes",
+    "object": "Tauopathy",
+    "context": {
+      "en-US": "Pathogenic tau activates microglial NF-κB signaling, inducing a transcriptional program that alters tau handling and promotes release of seed-competent tau species. Genetic inhibition of microglial NF-κB traps tau intracellularly and markedly reduces extracellular tau seeding and in vivo propagation, establishing NF-κB as a key regulator of microglial tau export.",
+      "zh-TW": "致病性 tau 會活化微膠細胞的 NF-κB 訊號，誘導一套轉錄程式，改變 tau 的處理方式並促進具播種能力的 tau 物種釋放。對微膠細胞 NF-κB 的遺傳性抑制會將 tau 困在細胞內，顯著降低細胞外 tau 的播種與體內傳播，確立 NF-κB 為微膠細胞 tau 輸出的關鍵調節因子。"
+    },
+    "confidence": 0.9,
+    "source_document": "Tauopathy.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "031c7167f9b9",
+    "subject": "cGAS",
+    "predicate": "suppresses",
+    "object": "MEF2C",
+    "context": {
+      "en-US": "Microglial cGAS deletion reverses the downregulation of neuronal MEF2C, a resilience transcription factor, linking innate immune signaling to loss of cognitive resilience. Pharmacological cGAS inhibition likewise preserves synapses and phenocopies the protective APOE3 Christchurch (R136S) resilience allele in tauopathy models, validating suppression of cGAS-STING signaling as a strategy to recapitulate genetic protection against tau toxicity.",
+      "zh-TW": "微膠細胞 cGAS 的缺失可逆轉神經元 MEF2C（一種韌性轉錄因子）的下调，將先天免疫訊號與認知韌性的喪失連結起來。藥理性 cGAS 抑制同樣能保留突觸，並在 tauopathy 模型中模擬保護性的 APOE3 Christchurch (R136S) 韌性等位基因，驗證了抑制 cGAS-STING 訊號作為重現對 tau 毒性之遺傳性保護的策略。"
+    },
+    "confidence": 0.88,
+    "source_document": "Tauopathy.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "a84ad9d37f99",
+    "subject": "Taurine",
+    "predicate": "is_derived_from",
+    "object": "Cysteine",
+    "context": {
+      "en-US": "Taurine (2-aminoethanesulfonic acid) is a sulfur-containing β-amino acid synthesized from Cysteine via the transsulfuration pathway: cysteine dioxygenase oxidizes cysteine to cysteine sulfinate, which is decarboxylated to hypotaurine (in a Vitamin B6-dependent step) and then oxidized to taurine. Its tissue levels decline with age, linking it to aging biology.",
+      "zh-TW": "Taurine (2-aminoethanesulfonic acid) 是一種含硫的 β-胺基酸，經由轉硫途徑由 Cysteine 合成：cysteine dioxygenase 將 cysteine 氧化為 cysteine sulfinate，後者經去羧化（依賴 Vitamin B6 的步驟）生成 hypotaurine，再被氧化為 taurine。其組織濃度隨年齡下降，因此與老化生物學相關。"
+    },
+    "confidence": 0.92,
+    "source_document": "Taurine.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "eb3b1c7bb424",
+    "subject": "Taurine",
+    "predicate": "scavenges",
+    "object": "Hypochlorous Acid",
+    "context": {
+      "en-US": "Taurine directly scavenges Hypochlorous Acid (HOCl), forming the more stable taurine chloramine — a relatively long-lived mediator that modulates macrophage function and limits oxidative tissue damage during Inflammation. It also buffers hypochlorous acid generated by Myeloperoxidase in the Respiratory Burst, protecting proteins, lipids, and DNA.",
+      "zh-TW": "Taurine 可直接清除 Hypochlorous Acid (HOCl)，形成較穩定的 taurine chloramine——一種相對長壽命的介導物，可調節巨噬細胞功能並在 Inflammation 期間限制氧化性組織損傷。它也能緩衝 Myeloperoxidase 在 Respiratory Burst 中生成的次氯酸，保護蛋白質、脂質與 DNA。"
+    },
+    "confidence": 0.92,
+    "source_document": "Taurine.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "0ecb62791ea5",
+    "subject": "Taurine",
+    "predicate": "is_required_for",
+    "object": "Oxidative Phosphorylation",
+    "context": {
+      "en-US": "Taurine is incorporated into the wobble position of certain mitochondrial tRNAs as 5-taurinomethyluridine (τm5U). This modification is required for accurate mitochondrial translation of codon families, supporting Oxidative Phosphorylation and mtDNA-encoded complex assembly; its absence underlies the tRNA-modification defects in MELAS (m.3243A>G), which impair mitochondrial translation.",
+      "zh-TW": "Taurine 會以 5-taurinomethyluridine (τm5U) 的形式被納入某些粒線體 tRNA 的擺動位置。此修飾是準確進行粒線體密碼子家族轉譯所必需，可支持 Oxidative Phosphorylation 與 mtDNA 編碼的複合體組裝；其缺失正是 MELAS (m.3243A>G) 中 tRNA 修飾缺陷的成因，並會損害粒線體轉譯。"
+    },
+    "confidence": 0.9,
+    "source_document": "Taurine.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "87960b34995f",
+    "subject": "Taurine",
+    "predicate": "extends",
+    "object": "Healthspan",
+    "context": {
+      "en-US": "Circulating taurine concentrations decline with age across species, from mice and monkeys to humans. In mice, chronic taurine supplementation extended healthspan and lifespan, improving muscle, bone, immune, and metabolic function (Singh et al., 2023, Science; PMID 37561875), linking taurine status to longevity phenotypes.",
+      "zh-TW": "循環中的 taurine 濃度在小鼠、猴與人類等各物種中都隨年齡下降。在小鼠中，長期補充 taurine 可延長健康壽齡與壽命，改善肌肉、骨骼、免疫與代謝功能（Singh 等，2023，Science；PMID 37561875），將 taurine 狀態與長壽表型連結起來。"
+    },
+    "confidence": 0.9,
+    "source_document": "Taurine.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "231b9c39d30c",
+    "subject": "Taurine",
+    "predicate": "protects_against",
+    "object": "Cardiomyocyte",
+    "context": {
+      "en-US": "Taurine modulates calcium flux across membranes, stabilizing Cardiomyocyte function and skeletal muscle contractility. Taurine deficiency (e.g., in taurine-depleted diets, in cats) causes retinal degeneration, cardiomyopathy, and immune dysfunction, and taurine supplementation is therapeutic in these settings.",
+      "zh-TW": "Taurine 調節跨膜的鈣離子通量，穩定 Cardiomyocyte 功能與骨骼肌收縮性。Taurine 缺乏（例如缺乏 taurine 的飲食、貓的情況）會造成視網膜退化、心肌病變與免疫功能失常，而補充 taurine 在這些情況下具有治療作用。"
+    },
+    "confidence": 0.85,
+    "source_document": "Taurine.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "83a1f65a9410",
+    "subject": "Tazemetostat",
+    "predicate": "inhibits",
+    "object": "EZH2",
+    "context": {
+      "en-US": "Tazemetostat (EPZ-6438; trade name Tazverik) is a first-in-class, orally bioavailable, selective SAM-competitive inhibitor that binds the catalytic SET domain of EZH2, the enzymatic subunit of Polycomb Repressive Complex 2 (PRC2). It is approved by the FDA in 2020 for epithelioid sarcoma and EZH2-mutant follicular lymphoma.",
+      "zh-TW": "Tazemetostat（EPZ-6438；商品名 Tazverik）是同類首創、口服生物可利用的選擇性 SAM 競爭性抑制劑，結合 Polycomb Repressive Complex 2 (PRC2) 的酵素次單元 EZH2 的催化 SET 結構域。它於 2020 年獲 FDA 核准用於上皮樣肉瘤與 EZH2 突變型濾泡性淋巴瘤。"
+    },
+    "confidence": 0.95,
+    "source_document": "Tazemetostat.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "24c764513948",
+    "subject": "Tazemetostat",
+    "predicate": "reduces",
+    "object": "H3K27me3",
+    "context": {
+      "en-US": "By blocking EZH2-mediated trimethylation of histone H3 at lysine 27, Tazemetostat reduces the repressive H3K27me3 mark. Loss of aberrant H3K27me3 derepresses silenced tumor-suppressor genes, restoring differentiation and cell-cycle control in cancers addicted to EZH2 activity, and exemplifies targeting the 'writer' enzymes of the epigenome.",
+      "zh-TW": "藉由阻斷 EZH2 對組蛋白 H3 第 27 號離胺酸的三甲基化，Tazemetostat 可降低抑制性的 H3K27me3 標記。異常 H3K27me3 的流失會解除被沉默的腫瘤抑制基因之抑制，在對 EZH2 活性成癮的癌症中恢復分化與細胞週期控制，並 exemplifies 針對表觀基因組「寫入者」酵素的策略。"
+    },
+    "confidence": 0.93,
+    "source_document": "Tazemetostat.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "eac705895935",
+    "subject": "Telomerase",
+    "predicate": "is_associated_with",
+    "object": "TRF2",
+    "context": {
+      "en-US": "SIRT6 overexpression increases the survival of transverse aortic constriction-induced heart failure mice, which might be associated with upregulation of Telomerase reverse transcriptase and telomere repeat binding factor 1/2. Telomerase activity is therefore linked to telomere maintenance and the cytoprotective transcriptional response to moderate SIRT1/SIRT6 elevation.",
+      "zh-TW": "SIRT6 的過度表現可提高橫向主動脈縮窄所誘發心衰竭小鼠的存活率，這可能與端粒反轉錄酶以及端粒重複結合因子 1/2 的上调有關。因此 Telomerase 活性與端粒維持，以及對中度 SIRT1/SIRT6 上升的細胞保護性轉錄反應相互連結。"
+    },
+    "confidence": 0.6,
+    "source_document": "Telomerase.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "d7675d660c94",
+    "subject": "Testosterone",
+    "predicate": "is_derived_from",
+    "object": "Cholesterol",
+    "context": {
+      "en-US": "Testosterone is the primary anabolic androgenic steroid in males, produced by Leydig cells under Luteinizing hormone control. Synthesized from cholesterol via the gonadal steroidogenic cascade, it can be aromatized to Estrogen or reduced to dihydrotestosterone, and it acts through the Androgen Receptor to regulate transcription of growth and metabolic genes.",
+      "zh-TW": "Testosterone 是男性主要的合成代謝性雄性素類固醇，由 Leydig 細胞在 Luteinizing hormone 控制下製造。它經由性腺類固醇生成級聯由 cholesterol 合成，可被芳香化為 Estrogen 或還原為二氫睪固酮，並透過 Androgen Receptor 作用以調控生長與代謝基因的轉錄。"
+    },
+    "confidence": 0.92,
+    "source_document": "Testosterone.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "6b65c93505cf",
+    "subject": "Testosterone",
+    "predicate": "inhibits",
+    "object": "Muscle Atrophy",
+    "context": {
+      "en-US": "Androgen-receptor binding promotes protein synthesis, resistance to Muscle Atrophy, and prevention of Osteoporosis. Testosterone deficiency associates with sarcopenia, adiposity, and inflammaging, whereas balanced androgen tone within a Mitohormesis-like optimum favors Healthspan; supraphysiological dosing instead raises redox and thrombotic risk.",
+      "zh-TW": "雄性素受體的結合促進蛋白質合成、提高對 Muscle Atrophy 的抵抗力並預防 Osteoporosis。Testosterone 缺乏與肌少症、脂肪堆積及 inflammaging 相關；而在類似 Mitohormesis 的最佳範圍內維持平衡的雄性素張力則有利於 Healthspan；超生理劑量的給藥反而會提高氧化還原與血栓風險。"
+    },
+    "confidence": 0.9,
+    "source_document": "Testosterone.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "a02af883c8d3",
+    "subject": "Testosterone",
+    "predicate": "reduces",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "Testosterone supports mitochondrial resilience and lowers Oxidative Stress in muscle and vasculature, partly via SIRT1-associated pathways. It also reduces p-p53 only in oxidative stress models; notably, testosterone lacks the antioxidant telomere protection and may increase oxidative damage, so the redox effect is context-dependent rather than universal.",
+      "zh-TW": "Testosterone 支持粒線體韌性並降低肌肉與血管中的 Oxidative Stress，部分經由 SIRT1 相關途徑。它也僅在氧化壓力模型中降低 p-p53；值得注意的是，testosterone 缺乏抗氧化的端粒保護且可能增加氧化損傷，因此其氧化還原效應是情境依賴而非普遍成立。"
+    },
+    "confidence": 0.82,
+    "source_document": "Testosterone.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "768a8d5fa366",
+    "subject": "Androgen Receptor",
+    "predicate": "activates",
+    "object": "mTORC1",
+    "context": {
+      "en-US": "Testosterone→Androgen Receptor is the closest male counterpart to the estrogen→ER hub. AR→mTOR/Akt/FoxO3a signaling couples androgen tone to growth: PI3K/Akt/mTOR inhibition (not ERK) abolishes the hypertrophy response, and castration lowers IGF-1 mRNA, myofibrillar synthesis, and p-Akt/p-FoxO3a while increasing the atrogenes MuRF1/atrogin-1/REDD1, effects reversed by nandrolone.",
+      "zh-TW": "Testosterone→Androgen Receptor 是 estrogen→ER 這個樞紐最接近的男性對應物。AR→mTOR/Akt/FoxO3a 訊號將雄性素張力與生長偶聯：PI3K/Akt/mTOR 的抑制（而非 ERK）會消除肥大的反應，而去勢會降低 IGF-1 mRNA、肌原纖維合成與 p-Akt/p-FoxO3a，並提高 atrogenes MuRF1/atrogin-1/REDD1；這些效應可被 nandrolone 逆轉。"
+    },
+    "confidence": 0.85,
+    "source_document": "Testosterone.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "c6aaf9247b79",
+    "subject": "Androgen Receptor",
+    "predicate": "inhibits",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "Androgen signaling suppresses immune activation via NF-κB: androgen induces USP18, which inhibits NF-κB in T cells and suppresses antitumor immunity, while AR activity in T cells limits checkpoint blockade efficacy. This parallels estrogen's NF-κB suppression but carries the opposite oncologic valence, since the AR axis promotes prostate cancer.",
+      "zh-TW": "雄性素訊號透過 NF-κB 抑制免疫活化：雄性素誘導 USP18，後者在 T 細胞中抑制 NF-κB 並壓抑抗腫瘤免疫；同時 T 細胞中的 AR 活性會限制免疫檢查點抑制療法的療效。這與雌激素對 NF-κB 的抑制作用平行，但帶有相反的腫瘤學意涵，因為 AR 軸會促進前列腺癌。"
+    },
+    "confidence": 0.82,
+    "source_document": "Testosterone.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "3e647768f46e",
+    "subject": "Th1",
+    "predicate": "is_a_type_of",
+    "object": "CD4+ T Cells",
+    "context": {
+      "en-US": "Type 1 helper T cells (Th1) are a specialized subset of CD4+ T Cells that orchestrate cell-mediated immune responses against intracellular pathogens, including viruses, intracellular bacteria, and protozoa. Th1 cells are defined by their signature production of interferon-gamma and their ability to activate Macrophages for enhanced microbicidal activity.",
+      "zh-TW": "第一型輔助型 T 細胞 (Th1) 是 CD4+ T Cells 的一個特化亞群，負責協調針對細胞內病原體（包含病毒、細胞內細菌與原生生物）的細胞媒介免疫反應。Th1 細胞的定義特徵是產生干擾素-gamma，並能活化 Macrophages 以增強殺菌活性。"
+    },
+    "confidence": 0.95,
+    "source_document": "Th1.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "c375ad512413",
+    "subject": "Th1",
+    "predicate": "produces",
+    "object": "Interferon-gamma",
+    "context": {
+      "en-US": "Interferon-gamma is the signature Th1 cytokine with pleiotropic immune effects: it classically activates macrophages (M1 polarization) with enhanced phagocytosis, ROS and nitric oxide production, upregulates MHC type I and MHC type II on antigen-presenting cells, promotes B-cell switching to opsonizing IgG subclasses, and induces an antiviral state in neighbouring cells.",
+      "zh-TW": "干擾素-gamma 是 Th1 的代表性細胞激素，具有多效性免疫效應：它經典地活化巨噬細胞（M1 極化），增強吞噬作用、ROS 與一氧化氮產生；在抗原呈現細胞上調 MHC type I 與 MHC type II；促進 B 細胞轉換為具調理作用的 IgG 亞類；並在鄰近細胞中誘導抗病毒狀態。"
+    },
+    "confidence": 0.95,
+    "source_document": "Th1.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "a154b15b3389",
+    "subject": "T-bet",
+    "predicate": "activates",
+    "object": "Th1",
+    "context": {
+      "en-US": "T-bet (T-box transcription factor 21, TBX21) is the master regulator of Th1 identity: it directly activates IFNG transcription, induces IL-12Rβ2 chain expression to make cells responsive to IL-12 (positive feedback), and promotes epigenetic remodeling at the IFNG locus. IL-12 from activated Macrophages and Dendritic cells activates STAT4, which induces T-bet expression.",
+      "zh-TW": "T-bet (T-box transcription factor 21，TBX21) 是 Th1 身分的主控調節因子：它直接活化 IFNG 的轉錄、誘導 IL-12Rβ2 鏈的表現使細胞對 IL-12 產生反應（正回饋），並促進 IFNG 位點的表觀遺傳重塑。來自活化 Macrophages 與 Dendritic cells 的 IL-12 會活化 STAT4，進而誘導 T-bet 的表現。"
+    },
+    "confidence": 0.92,
+    "source_document": "Th1.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "5e5275c28459",
+    "subject": "T-bet",
+    "predicate": "inhibits",
+    "object": "Th2",
+    "context": {
+      "en-US": "Th1 differentiation is mutually antagonistic with Th2 and Th17 pathways: T-bet inhibits GATA3, suppressing Th2 development, and sequesters Runx3 from RORγt, limiting Th17 differentiation. T-bet therefore functions as the molecular switch that enforces the Th1 lineage at the expense of alternative CD4 fates.",
+      "zh-TW": "Th1 的分化與 Th2 及 Th17 途徑互相對抗：T-bet 抑制 GATA3，因而壓抑 Th2 的發育；並將 Runx3 從 RORγt 身上隔離，限制 Th17 的分化。因此 T-bet 扮演強制 Th1 譜系、犧牲其他 CD4 命運的分子開關。"
+    },
+    "confidence": 0.9,
+    "source_document": "Th1.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "0a43f7cbb0c4",
+    "subject": "Th1",
+    "predicate": "produces",
+    "object": "TNFα",
+    "context": {
+      "en-US": "Th1 cells produce TNFα, which contributes to macrophage activation, endothelial upregulation of adhesion molecules, and granuloma formation. Together with interferon-gamma, TNFα walls off persistent intracellular pathogens that cannot be fully eliminated, driving granulomatous pathology such as the tuberculin-type delayed-type hypersensitivity reaction.",
+      "zh-TW": "Th1 細胞會產生 TNFα，後者有助於巨噬細胞活化、內皮細胞上調黏附分子以及肉芽腫形成。TNFα 與干擾素-gamma 共同將無法完全清除的持續性細胞內病原體包圍起來，驅動結節性病理，例如結核菌素型的延遲型過敏反應。"
+    },
+    "confidence": 0.9,
+    "source_document": "Th1.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "5ae40f1ceb60",
+    "subject": "Th2",
+    "predicate": "is_a_type_of",
+    "object": "CD4+ T Cells",
+    "context": {
+      "en-US": "Type 2 helper T cells (Th2) are a specialized subset of CD4+ T Cells that orchestrate humoral immunity, anti-helminth defense, and allergic inflammatory responses. Th2 cells are defined by their signature production of IL-4, IL-5, and IL-13, which collectively drive IgE production, eosinophil recruitment, and mucus hypersecretion.",
+      "zh-TW": "第二型輔助型 T 細胞 (Th2) 是 CD4+ T Cells 的一個特化亞群，負責協調體液免疫、抗蠕蟲防禦與過敏性發炎反應。Th2 細胞的定義特徵是產生 IL-4、IL-5 與 IL-13，這些細胞激素共同驅動 IgE 生成、嗜酸性球募集與黏液分泌過多。"
+    },
+    "confidence": 0.95,
+    "source_document": "Th2.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "4aeaa413cf5d",
+    "subject": "IL-4",
+    "predicate": "activates",
+    "object": "Th2",
+    "context": {
+      "en-US": "IL-4 is the primary polarizing cytokine for Th2 differentiation: it activates STAT6, which induces GATA3 expression, and early IL-4 sources include basophils, mast cells, and NKT cells. IL-4 also drives IgE class switching in B cells, autocrine STAT6/GATA3 Th2 self-amplification, M2 macrophage polarization, and eotaxin production.",
+      "zh-TW": "IL-4 是 Th2 分化的主要極化細胞激素：它活化 STAT6，後者誘導 GATA3 的表現；IL-4 的早期來源包括嗜鹼性球、肥大細胞與 NKT 細胞。IL-4 同時驅動 B 細胞的 IgE 類別轉換、經由自分泌 STAT6/GATA3 的 Th2 自我放大、M2 巨噬細胞極化以及 eotaxin 的產生。"
+    },
+    "confidence": 0.92,
+    "source_document": "Th2.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "c1adfbbd7d23",
+    "subject": "Th2",
+    "predicate": "inhibits",
+    "object": "Th1",
+    "context": {
+      "en-US": "Th2 differentiation is mutually antagonistic with Th1 and Th17 pathways. GATA3, the master regulator of Th2 identity, inhibits T-bet and IL12RB2 expression, suppressing Th1 development, and antagonizes RORγt to limit Th17 differentiation. Th2-dominant tumor microenvironments may suppress anti-tumor immunity by inhibiting Th1 responses.",
+      "zh-TW": "Th2 的分化與 Th1 及 Th17 途徑互相對抗。Th2 身分的主控調節因子 GATA3 會抑制 T-bet 與 IL12RB2 的表現而壓抑 Th1 的發育，並與 RORγt 對抗以限制 Th17 的分化。以 Th2 為主的腫瘤微環境可能藉由抑制 Th1 反應來壓抑抗腫瘤免疫。"
+    },
+    "confidence": 0.9,
+    "source_document": "Th2.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "b75306989ffd",
+    "subject": "Th2",
+    "predicate": "drives",
+    "object": "Macrophage Polarization",
+    "context": {
+      "en-US": "IL-4 from Th2 cells drives M2 alternative macrophage polarization, associated with tissue repair and fibrosis, and IL-13 synergizes with IL-4 in this respect with PPARγ acting as a co-activator of the M2 gene program. Th2 cytokines also promote wound healing, fibroblast proliferation, and collagen synthesis — reparative functions that become fibrotic when chronically activated.",
+      "zh-TW": "Th2 細胞分泌的 IL-4 驅動 M2 替代性巨噬細胞極化，與組織修復及纖維化相關；在此方面 IL-13 與 IL-4 協同作用，並由 PPARγ 作為 M2 基因程式的輔活化因子。Th2 細胞激素也促進傷口癒合、纖維母細胞增生與膠原合成——這些修復功能在慢性活化時會轉為纖維化。"
+    },
+    "confidence": 0.88,
+    "source_document": "Th2.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "1dd758c3d849",
+    "subject": "Tau Protein",
+    "predicate": "is_associated_with",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "Oxidative Stress potently activates kinases that hyperphosphorylate Tau Protein, promoting its dissociation from Microtubule and self-aggregation into paired helical filaments. GSK3 (GSK-3β) is the principal tau kinase, and its activity is enhanced by ROS-mediated inhibition of Akt survival signaling; CDK5, activated by p25 from Ca²⁺-driven calpain cleavage of p35, also contributes, as do p38 MAPK and JNK.",
+      "zh-TW": "Oxidative Stress 會強效活化使 Tau Protein 過度磷酸化的激酶，促進其從 Microtubule 解離並自我聚集形成成對螺旋絲 (PHF)。GSK3 (GSK-3β) 是主要的 tau 激酶，其活性因 ROS 介導的 Akt 存活訊號抑制而增強；由 Ca²⁺ 驅動的 calpain 切割 p35 產生的 p25 所活化的 CDK5 也有貢獻，p38 MAPK 與 JNK 亦然。"
+    },
+    "confidence": 0.9,
+    "source_document": "Tau Protein.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "95a175b7fd2e",
+    "subject": "4-Hydroxynonenal",
+    "predicate": "modifies",
+    "object": "Tau Protein",
+    "context": {
+      "en-US": "The lipid peroxidation product 4-Hydroxynonenal (4-HNE) forms covalent Michael adducts with Tau Protein's cysteine and lysine residues, promoting tau oligomerization and inhibiting proteasomal degradation. 4-HNE-modified tau accumulates in Neurofibrillary tangles in Alzheimer's Disease, directly linking lipid peroxidation to tau pathology.",
+      "zh-TW": "脂質過氧化產物 4-Hydroxynonenal (4-HNE) 會與 Tau Protein 的半胱胺酸與離胺酸殘基形成共價的 Michael 加合物，促進 tau 寡聚化並抑制蛋白酶體降解。經 4-HNE 修飾的 tau 累積於 Alzheimer's Disease 的 Neurofibrillary tangles 中，直接將脂質過氧化與 tau 病變連結起來。"
+    },
+    "confidence": 0.9,
+    "source_document": "Tau Protein.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "0e7d30a196df",
+    "subject": "Peroxynitrite",
+    "predicate": "modifies",
+    "object": "Tau Protein",
+    "context": {
+      "en-US": "Peroxynitrite (ONOO⁻) nitrates Tau Protein at Tyr18, Tyr29, and Tyr394, generating 3-Nitrotyrosine. Tyrosine nitration impairs tau-microtubule interaction and enhances PHF formation, so peroxynitrite is a direct oxidative post-translational route from Reactive Oxygen Species to tau aggregation.",
+      "zh-TW": "Peroxynitrite (ONOO⁻) 會在 Tau Protein 的 Tyr18、Tyr29 與 Tyr394 位置進行硝基化，生成 3-Nitrotyrosine。酪胺酸硝基化會損害 tau 與微管的交互作用並促進 PHF 形成，因此 peroxynitrite 是由 Reactive Oxygen Species 通往 tau 聚集的直接氧化後修飾途徑。"
+    },
+    "confidence": 0.88,
+    "source_document": "Tau Protein.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "59241a1bf3ef",
+    "subject": "Tau Protein",
+    "predicate": "impairs",
+    "object": "Mitochondria",
+    "context": {
+      "en-US": "Tau pathology and Mitochondria dysfunction engage in a mutually reinforcing cycle. In Alzheimer's Disease, pathological tau accumulates within mitochondria, binds VDAC, and impairs the Mitochondrial Permeability Transition Pore, increasing ROS leakage and reducing ATP production; conversely, mitochondrial ROS activate the kinases that hyperphosphorylate tau. Tau knockout mice are resistant to mitochondrial toxin-induced neurodegeneration.",
+      "zh-TW": "tau 病變與 Mitochondria 功能失調 形成互相強化的循環。在 Alzheimer's Disease 中，病理性 tau 累積於粒線體內，結合 VDAC 並損害 Mitochondrial Permeability Transition Pore，增加 ROS 漏出並降低 ATP 產生；反之，粒線體 ROS 會活化使 tau 過度磷酸化的激酶。tau 基因敲除小鼠對粒線體毒物誘發的神經退化具有抵抗力。"
+    },
+    "confidence": 0.9,
+    "source_document": "Tau Protein.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "3b95ba6e5d9b",
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "Tau Protein",
+    "context": {
+      "en-US": "Tau acetylation at Lys residues (particularly Lys174, Lys274, Lys280, Lys281), mediated by P300/CBP acetyltransferases, is elevated in Alzheimer's Disease and promotes tau aggregation by neutralizing positive charges in the microtubule-binding region. The NAD+-dependent deacetylase SIRT1 removes tau acetylation; however, SIRT1 activity is reduced under oxidative conditions due to NAD+ depletion and direct ROS-mediated inhibition.",
+      "zh-TW": "Tau Protein 在離胺酸殘基（尤其是 Lys174、Lys274、Lys280、Lys281）的乙醯化由 P300/CBP 乙醯轉移酶媒介，在 Alzheimer's Disease 中升高，並藉由中和微管結合區的正電荷而促進 tau 聚集。依賴 NAD+ 的去乙醯酶 SIRT1 可移除 tau 的乙醯化；然而在氧化條件下，由於 NAD+ 耗竭與 ROS 直接抑制，SIRT1 活性會下降。"
+    },
+    "confidence": 0.88,
+    "source_document": "Tau Protein.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
+  },
+  {
+    "id": "4be3d95bc0e6",
+    "subject": "Glutathione",
+    "predicate": "inhibits",
+    "object": "Tau Protein",
+    "context": {
+      "en-US": "Tau contains two cysteine residues (Cys291 and Cys322); under oxidizing conditions intermolecular disulfide bridge formation between Cys322 residues promotes tau dimerization, a critical nucleation step for aggregation. In the reducing environment maintained by Glutathione, Cys residues are kept reduced, preventing dimerization — so Glutathione repletion (e.g. via N-acetylcysteine) blocks this oxidative aggregation route.",
+      "zh-TW": "Tau 含有兩個半胱胺酸殘基（Cys291 與 Cys322）；在氧化條件下，Cys322 之間形成的分子間雙硫鍵會促進 tau 二聚化，而這是聚集的關鍵成核步驟。在 Glutathione 維持的還原環境中，Cys 殘基保持還原態而阻止二聚化——因此補充 Glutathione（例如透過 N-acetylcysteine）可阻斷這條氧化性聚集途徑。"
+    },
+    "confidence": 0.88,
+    "source_document": "Tau Protein.md",
+    "created": "2026-09-29T17:59:45Z",
+    "updated": "2026-09-29T17:59:45Z"
   }
 ]
