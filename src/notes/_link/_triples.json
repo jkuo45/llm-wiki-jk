@@ -77908,5 +77908,761 @@
     "source_document": "Nanoemulsions.md",
     "created": "2026-09-29T17:40:30Z",
     "updated": "2026-09-29T17:40:30Z"
+  },
+  {
+    "id": "f2fcc21da45b",
+    "subject": "Parkin",
+    "predicate": "is_recruited_by",
+    "object": "PINK1",
+    "context": {
+      "en-US": "Parkin is a cytosolic RBR E3 ubiquitin ligase that is recruited to depolarized mitochondria by PINK1, which accumulates on the outer mitochondrial membrane upon loss of membrane potential. PINK1 first phosphorylates ubiquitin at Ser65, and phosphoubiquitin binding releases Parkin's autoinhibited UBL domain to activate its E3 activity, so Parkin only becomes active where PINK1 has accumulated.",
+      "zh-TW": "Parkin 是一種細胞質的 RBR E3 泛素連接酶，於粒線體去極化時被 PINK1 招募到粒線體上；當膜電位喪失時，PINK1 會累積於粒線體外膜。PINK1 先磷酸化 Ubiquitin 的 Ser65，而磷酸化泛素的結合會釋放 Parkin 自我抑制的 UBL 結構域以活化其 E3 活性，因此 Parkin 僅在 PINK1 累積處才被活化。"
+    },
+    "confidence": 0.95,
+    "source_document": "Parkin.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "9af1d7d747b7",
+    "subject": "Parkin",
+    "predicate": "ubiquitinates",
+    "object": "MFN2",
+    "context": {
+      "en-US": "Once activated, Parkin polyubiquitinates outer mitochondrial membrane proteins such as MFN1/2, Miro and VDAC1. Ubiquitination of MFN2 marks the damaged mitochondrion for mitophagy and blocks its re-fusion with the healthy network, while excessive Parkin-mediated MFN2 ubiquitination drives excessive fragmentation in Parkinson's disease.",
+      "zh-TW": "Parkin 活化後會多泛素化粒線體外膜蛋白，例如 MFN1/2、Miro 與 VDAC1。MFN2 的泛素化標記受損粒線體使其被 mitophagy 清除，並阻止其與健康網絡再融合；而 Parkin 介導的 MFN2 過度泛素化則在 Parkinson's Disease 中造成過度裂解。"
+    },
+    "confidence": 0.9,
+    "source_document": "Parkin.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "ac724a9f4a55",
+    "subject": "PARK2",
+    "predicate": "mutations_cause",
+    "object": "Parkinson's Disease",
+    "context": {
+      "en-US": "PARK2 encodes Parkin; mutations in this gene are the most common cause of autosomal recessive early-onset Parkinson's Disease, accounting for up to 50% of familial cases and roughly 15% of sporadic early-onset cases. Loss of Parkin function impairs mitophagy, allowing dysfunctional mitochondria to accumulate and raising oxidative stress, with selective vulnerability of Substantia Nigra dopaminergic neurons.",
+      "zh-TW": "PARK2 編碼 Parkin；此基因的突變是體染色體隱性早發型 Parkinson's Disease 最常見的病因，約佔家族性病例的 50%，以及散發性早發型病例的約 15%。Parkin 功能喪失會損害 mitophagy，使失能的粒線體累積並提高氧化壓力，導致 Substantia Nigra 多巴胺神經元特別易受傷害。"
+    },
+    "confidence": 0.95,
+    "source_document": "Parkin.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "ff2e784b6d83",
+    "subject": "USP30",
+    "predicate": "opposes",
+    "object": "Parkin",
+    "context": {
+      "en-US": "USP30 is a deubiquitinase anchored on the outer mitochondrial membrane that opposes Parkin-mediated ubiquitylation, trimming ubiquitin chains and limiting mitophagy. It acts as a brake on the PINK1–Parkin axis, and its removal or inhibition increases ubiquitin signalling and mitophagic clearance of damaged mitochondria.",
+      "zh-TW": "USP30 是錨定於粒線體外膜的去泛素化酶，可對抗 Parkin 介導的泛素化，藉由修剪泛素鏈來限制 mitophagy。它是 PINK1–Parkin 軸的煞車；移除或抑制 USP30 會增強泛素訊號與對受損粒線體的 mitophagy 清除。"
+    },
+    "confidence": 0.85,
+    "source_document": "Parkin.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "361e350d9106",
+    "subject": "MUL1",
+    "predicate": "compensates_for",
+    "object": "Parkin",
+    "context": {
+      "en-US": "MUL1 is a parallel outer mitochondrial membrane E3 ligase that compensates for the loss of Parkin, ubiquitinating mitochondrial substrates in a PINK1-independent manner. Cells lacking Parkin can still retain mitophagic capacity through MUL1, which is one reason PARK2-linked Parkinson's disease shows variable penetrance.",
+      "zh-TW": "MUL1 是另一個位於粒線體外膜的 E3 連接酶，以不依賴 PINK1 的方式泛素化粒線體底物，用以補償 Parkin 的缺失。缺乏 Parkin 的細胞仍可透過 MUL1 保有 mitophagy 能力，這也是 PARK2 相關 Parkinson's Disease 表現度不完全的原因之一。"
+    },
+    "confidence": 0.85,
+    "source_document": "Parkin.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "4ba76a53b8ed",
+    "subject": "cGAS",
+    "predicate": "is_a_type_of",
+    "object": "Pattern Recognition Receptors",
+    "context": {
+      "en-US": "cGAS occupies a distinctive position among pattern recognition receptors: it detects double-stranded DNA directly and sequence-independently in both the cytosol and the nucleus, then activates the cGAS-STING Pathway to drive type I interferon production via STING and IRF3. Unlike other PRRs, it also acts in the nucleus as a chromatin- and splicing-associated scaffold.",
+      "zh-TW": "cGAS 在 pattern recognition receptors 中佔有獨特地位：它能直接在細胞質與細胞核中以不依賴序列的方式偵測雙股 DNA，隨後活化 cGAS-STING Pathway，經由 STING 與 IRF3 促進 type I interferon 的產生。與其他 PRR 不同，cGAS 也能在細胞核中作為染色質與剪接相關的支架發揮功能。"
+    },
+    "confidence": 0.9,
+    "source_document": "Pattern Recognition Receptors.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "79aec3ed02fa",
+    "subject": "ZBP1",
+    "predicate": "detects",
+    "object": "Pattern Recognition Receptors",
+    "context": {
+      "en-US": "ZBP1 is a cytosolic pattern recognition receptor that recognizes the noncanonical left-handed Z-DNA conformation, and Z-RNA as well, rather than base sequence. Ligand binding to its Z-RNA-binding domains triggers PANoptosis, giving ZBP1 a distinct output from the interferon-driven DNA sensors such as cGAS.",
+      "zh-TW": "ZBP1 是細胞質內的 pattern recognition receptor，它辨識的是非標準的左手性 Z-DNA 構形，以及 Z-RNA，而非鹼基序列。其 Z-RNA 結合結構域與配體結合後會誘發 PANoptosis，使 ZBP1 的輸出與 cGAS 等以干擾素為主的 DNA 感測器不同。"
+    },
+    "confidence": 0.75,
+    "source_document": "Pattern Recognition Receptors.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "b74b812ba95b",
+    "subject": "Pattern Recognition Receptors",
+    "predicate": "contributes_to",
+    "object": "Neuroinflammation",
+    "context": {
+      "en-US": "Pattern recognition receptors are germline-encoded sentries of the innate immune system, and their activation in microglia, astrocytes and endothelial cells within the central nervous system underpins neuroinflammation across Alzheimer's Disease, Parkinson's Disease and other neurodegenerative diseases.",
+      "zh-TW": "Pattern recognition receptors 是 innate immune system 的生殖系編碼哨兵；它們在中樞神經系統的 Microglia、Astrocytes 與 Endothelial Cells 中被活化，是 Alzheimer's Disease、Parkinson's Disease 及其他 neurodegenerative diseases 中 neuroinflammation 的基礎。"
+    },
+    "confidence": 0.9,
+    "source_document": "Pattern Recognition Receptors.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "b6f4f363ccb0",
+    "subject": "Glucose-6-Phosphate Dehydrogenase",
+    "predicate": "is_required_for",
+    "object": "Pentose Phosphate Pathway",
+    "context": {
+      "en-US": "Glucose-6-Phosphate Dehydrogenase is the rate-limiting enzyme of the Pentose Phosphate Pathway, catalysing the first committed oxidative step. Deficiency of this enzyme limits NADPH and therefore reduced glutathione, which is why Methylene blue, which needs NADPH to reduce methemoglobin, is contraindicated and risks Hemolysis in such patients.",
+      "zh-TW": "Glucose-6-Phosphate Dehydrogenase 是 Pentose Phosphate Pathway 的速率限制酵素，催化第一步不可逆的氧化反應。該酵素缺乏會限制 NADPH 及其下游的還原型 glutathione，因此需要 NADPH 將 methemoglobin 還原的 Methylene blue 在這類病人身上屬禁忌，並有造成 Hemolysis 的風險。"
+    },
+    "confidence": 0.95,
+    "source_document": "Pentose Phosphate Pathway.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "a6430aae74e5",
+    "subject": "Pericytes",
+    "predicate": "constitutes",
+    "object": "Blood-Brain Barrier",
+    "context": {
+      "en-US": "Pericytes are contractile perivascular cells that ensheathe the endothelial lining of capillaries and post-capillary venules while embedded in the basement membrane. Together with Endothelial Cells and astrocytic end-feet they form the neurovascular unit that maintains the Blood-Brain Barrier, and their loss or dysfunction is implicated in neurodegeneration and small-vessel disease.",
+      "zh-TW": "Pericytes 是可收縮的血管周細胞，嵌於基底膜中並包覆微血管與微靜脈後小靜脈的內皮襯裡。它們與 Endothelial Cells 及星狀細胞終足共同構成維持 Blood-Brain Barrier 的 neurovascular unit；其流失或功能異常與 neurodegeneration 及腦小血管病變有關。"
+    },
+    "confidence": 0.85,
+    "source_document": "Pericytes.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "bb3e342ed2b5",
+    "subject": "cGAS",
+    "predicate": "impairs",
+    "object": "Blood-Brain Barrier",
+    "context": {
+      "en-US": "In tauopathy models, activation of cGAS within pericytes destabilizes the neurovascular unit and compromises Blood-Brain Barrier integrity, allowing immune infiltration and exacerbating neuroinflammation. This parallels the endothelial cGAS-STING axis, and chronic pericyte cGAS activation — potentially triggered by mtDNA leakage or DNA damage — makes the vascular compartment a key site where the DNA-sensing pathway drives barrier failure.",
+      "zh-TW": "在 tauopathy 模型中，Pericytes 內 cGAS 的活化會破壞 neurovascular unit 的穩定性並損害 Blood-Brain Barrier 的完整性，使免疫細胞得以浸潤並加劇 neuroinflammation。這與內皮細胞的 cGAS-STING 軸相互呼應；Pericyte 的 cGAS 慢性活化（可能由 mtDNA 外漏或 DNA damage 觸發）使血管區成為 DNA 感測路徑造成屏障失敗的關鍵部位。"
+    },
+    "confidence": 0.9,
+    "source_document": "Pericytes.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "e5588e2c717f",
+    "subject": "Peroxisomes",
+    "predicate": "contains",
+    "object": "Catalase",
+    "context": {
+      "en-US": "Peroxisomes are a major site of cellular oxygen consumption and H2O2 production, and they concentrate Catalase to about 15% of total peroxisomal protein. Catalase decomposes the H2O2 generated in the same organelle by peroxisomal oxidases such as acyl-CoA oxidases, D-amino acid oxidase and polyamine oxidase — a classic case of metabolic compartmentalization that keeps peroxide confined and detoxified.",
+      "zh-TW": "Peroxisomes 是細胞耗氧與產生 H2O2 的主要場所之一，並將 Catalase 濃縮至約佔過氧化體總蛋白的 15%。Catalase 分解同一胞器內由 acyl-CoA oxidase、D-amino acid oxidase 與 polyamine oxidase 等過氧化體氧化酶產生的 H2O2 —— 這是代謝區室化的典型例子，使過氧化物被限制並解毒。"
+    },
+    "confidence": 0.95,
+    "source_document": "Peroxisomes.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "dfbd09a6445c",
+    "subject": "Peroxisomes",
+    "predicate": "is_associated_with",
+    "object": "Neurodegeneration",
+    "context": {
+      "en-US": "Peroxisomes perform beta-oxidation of very-long-chain fatty acids, bile acid synthesis, ether phospholipid (plasmalogen) synthesis critical for myelin, alpha-oxidation of phytanic acid and glyoxylate detoxification. Peroxisomal disorders such as Zellweger Syndrome and X-linked Adrenoleukodystrophy illustrate how peroxisomal dysfunction raises oxidative stress and contributes to neurodegeneration.",
+      "zh-TW": "Peroxisomes 負責超長鏈脂肪酸的 beta-氧化、膽汁酸合成、對髓鞘關鍵的醚磷脂（plasmalogen）合成、植烷酸的 alpha-氧化以及乙醛酸解毒。Zellweger Syndrome 與 X-linked Adrenoleukodystrophy 等過氧化體疾病顯示，過氧化體功能異常會升高氧化壓力並促成 neurodegeneration。"
+    },
+    "confidence": 0.85,
+    "source_document": "Peroxisomes.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "1e98cb00af04",
+    "subject": "Pexophagy",
+    "predicate": "is_a_type_of",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Pexophagy is the selective form of Autophagy that targets Peroxisomes for lysosomal degradation. It is the principal mechanism by which cells adjust peroxisome number and eliminate damaged or superfluous peroxisomes, safeguarding organelle quality control and redox balance; impaired pexophagy allows dysfunctional ROS-generating peroxisomes to accumulate, contributing to oxidative stress and neurodegeneration.",
+      "zh-TW": "Pexophagy 是 Autophagy 中選擇性地將 Peroxisomes 送往 lysosome 降解的形式。它是細胞調整過氧化體數量並清除受損或過剩過氧化體的主要機制，守護胞器品質管制與氧化還原平衡；當 pexophagy 受损時，會產生活性氧的失能過氧化體累積，促成 oxidative stress 與 neurodegeneration。"
+    },
+    "confidence": 0.95,
+    "source_document": "Pexophagy.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "b2924bbdb9de",
+    "subject": "p62",
+    "predicate": "mediates",
+    "object": "Pexophagy",
+    "context": {
+      "en-US": "In mammals, the selective autophagy receptors p62/SQSTM1 and NBR1 recognize ubiquitinated peroxisomal membrane proteins such as PEX5 and PMP70 and bridge them to LC3 on the forming autophagosome. Stress or import failure triggers mono/poly-ubiquitination of PEX5, which is the ubiquitin signal that commits the peroxisome to pexophagosomal turnover.",
+      "zh-TW": "在哺乳動物中，選擇性自噬受體 p62/SQSTM1 與 NBR1 會辨識已被泛素化的過氧化體膜蛋白（例如 PEX5 與 PMP70），並將它們與形成中自噬體膜上的 LC3 橋接。壓力或輸入失效會引發 PEX5 等過氧化體蛋白的單/多泛素化，這個泛素訊號即是把過氧化體送入 pexophagosome 周轉的關鍵。"
+    },
+    "confidence": 0.9,
+    "source_document": "Pexophagy.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "92a2606f6a7b",
+    "subject": "Phenelzine",
+    "predicate": "increases",
+    "object": "Serotonin",
+    "context": {
+      "en-US": "By inhibiting monoamine oxidase, phenelzine raises synaptic concentrations of Serotonin, Norepinephrine, Dopamine and tyramine, relieving depressive and anxious symptoms. The same class of action — monoamine preservation — is exhibited at low doses by Methylene blue, a selective MAO-A inhibitor, which links the two agents mechanistically despite different primary indications.",
+      "zh-TW": "Phenelzine 藉由抑制 monoamine oxidase 提高突觸內 Serotonin、Norepinephrine、Dopamine 與 tyramine 的濃度，藉此緩解憂鬱與焦慮症狀。同一類作用——單胺的保留——也見於低劑量的 Methylene blue（其為選擇性 MAO-A 抑制劑），因此兩者在機制上相互連結，儘管主要適應症不同。"
+    },
+    "confidence": 0.9,
+    "source_document": "Phenelzine.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "6d6fbdc321ab",
+    "subject": "Phenelzine",
+    "predicate": "increases_susceptibility_to",
+    "object": "Serotonin Syndrome",
+    "context": {
+      "en-US": "Because phenelzine irreversibly blocks monoamine oxidase, combining it with serotonergic drugs (SSRIs, SNRIs, certain opioids, or Methylene blue) risks Serotonin Syndrome; it also carries the tyramine 'cheese reaction' of hypertensive crisis. This shared MAO-inhibitory action is why both agents appear together in serotonergic-safety discussions.",
+      "zh-TW": "由於 Phenelzine 不可逆地阻斷 monoamine oxidase，與血清素作用藥物（SSRIs、SNRIs、某些鴉片類藥物或 Methylene blue）併用有發生 Serotonin Syndrome 的風險；它也帶有 tyramine 引起的「起司反應」高血壓危險。這種共同的 MAO 抑制作用，正是兩者在血清素安全性討論中總是一起出現的原因。"
+    },
+    "confidence": 0.9,
+    "source_document": "Phenelzine.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "325a48e922ab",
+    "subject": "Phenothiazine",
+    "predicate": "is_a_precursor_of",
+    "object": "Methylene blue",
+    "context": {
+      "en-US": "Phenothiazine is the tricyclic parent scaffold — a position-5 sulfur fused to a position-10 nitrogen — that launched modern psychopharmacology. Methylene blue is its 3,7-dimethylamino derivative, and a free 10-nitrogen plus the position-5 sulfur are both required for the alternative electron-transfer phenotype: substituting either destroys the mitochondrial electron-carrier action while often preserving a direct antioxidant effect.",
+      "zh-TW": "Phenothiazine 是開啟現代精神藥理學的三環母核——由第 5 位硫與第 10 位氮稠合而成。Methylene blue 是其 3,7-二甲氨基衍生物，而游離的第 10 位氮與第 5 位硫兩者都是替代性電子轉移表型所必需：任一處被取代都會破壞粒線體電子載體功能，卻往往仍保留直接的抗氧化作用。"
+    },
+    "confidence": 0.9,
+    "source_document": "Phenothiazine.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "2c33e1717902",
+    "subject": "Phenothiazine",
+    "predicate": "scavenges",
+    "object": "Reactive Oxygen Species",
+    "context": {
+      "en-US": "The naked phenothiazine nucleus, without amine side chains, is a potent direct free-radical scavenger, protecting HT-22 hippocampal neurons against rotenone and iodoacetic acid neurotoxicity with nanomolar EC50s. Unlike Methylene blue it does not enhance oxygen consumption or shunt electrons between Complex I and Cytochrome c; its protection is a direct, mitochondria/NADH-independent antioxidant action.",
+      "zh-TW": "未帶胺基側鏈的裸露 phenothiazine 母核是 potent 的直接自由基清除劑，可保護 HT-22 海馬神經元免受 rotenone 與 iodoacetic acid 的神經毒性，EC50 達奈莫耳等級。與 Methylene blue 不同，它不會增強耗氧，也不會在 Complex I 與 Cytochrome c 之間穿梭電子；其保護作用是直接的、且不依賴粒線體/NADH 的抗氧化作用。"
+    },
+    "confidence": 0.9,
+    "source_document": "Phenothiazine.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "71df04375ba0",
+    "subject": "Phenothiazine",
+    "predicate": "protects_against",
+    "object": "Parkinson's Disease",
+    "context": {
+      "en-US": "In C. elegans models of Parkinson's Disease, phenothiazine is highly efficacious against rotenone- and MPP+-induced dopaminergic neurodegeneration, outperforming chlorpromazine. This places the bare phenothiazine scaffold, not its antipsychotic derivatives, among the most potent neuroprotective phenothiazines in the MB derivative study.",
+      "zh-TW": "在 C. elegans 的 Parkinson's Disease 模型中，phenothiazine 對 rotenone 與 MPP+ 誘發的多巴胺神經元退化高度有效，表現優於 chlorpromazine。這使裸露的 phenothiazine 母核（而非其抗精神病衍生物）在 Methylene blue 衍生物研究中成為最具神經保護力的 phenothiazines 之一。"
+    },
+    "confidence": 0.85,
+    "source_document": "Phenothiazine.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "afda91c2ab2b",
+    "subject": "Phenotype",
+    "predicate": "results_from",
+    "object": "Genotype",
+    "context": {
+      "en-US": "A phenotype is the set of observable characteristics of an organism, arising from the interaction of the Genotype with environmental, stochastic and epigenetic influences rather than from genes alone. Phenotypes span molecular, cellular, tissue, organismal and population scales, and the same genotype can yield different phenotypes under different conditions — phenotypic plasticity, as with muscle hypertrophy in response to training.",
+      "zh-TW": "Phenotype 是一個生物體可觀察特徵的集合，源自 Genotype 與環境、隨機及表觀遺傳影響的交互作用，而非僅由基因決定。Phenotype 橫跨分子、細胞、組織、個體與族群等尺度；同一 Genotype 在不同條件下可產生不同 Phenotype（即 phenotypic plasticity，例如訓練造成的肌肉肥大）。"
+    },
+    "confidence": 0.9,
+    "source_document": "Phenotype.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "c3db10babc52",
+    "subject": "Hallmarks of Aging",
+    "predicate": "drives",
+    "object": "Phenotype",
+    "context": {
+      "en-US": "In geroscience, the 'aging phenotype' is a composite decline in physiological reserve, increased vulnerability to disease and loss of homeostasis. Geroscience reframes aging as a unifying phenotype driven by the Hallmarks of Aging, which motivates interventions aimed at the overall aging phenotype rather than at single diseases.",
+      "zh-TW": "在 geroscience 中，「老化 phenotype」指生理儲備的綜合性下降、疾病易感性增加與恆定性喪失。Geroscience 將老化重新詮釋為由 Hallmarks of Aging 驅動的統一 phenotype，這促使干預措施以整體老化 phenotype 為目標，而非針對單一疾病。"
+    },
+    "confidence": 0.85,
+    "source_document": "Phenotype.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "3c4113a81f19",
+    "subject": "Pheochromocytoma",
+    "predicate": "produces",
+    "object": "Catecholamines",
+    "context": {
+      "en-US": "Pheochromocytoma is a rare neuroendocrine tumor of the adrenal medulla, arising from chromaffin cells, that secretes excess catecholamines — primarily Epinephrine and Norepinephrine — autonomously or in response to physiological stimuli. Catecholamine excess drives episodic hypertension, cardiac arrhythmias and catecholamine-induced cardiomyopathy.",
+      "zh-TW": "Pheochromocytoma 是源自腎上腺髓質嗜鉻細胞的罕見神經內分泌腫瘤，會自主或因應生理刺激分泌過量 Catecholamines，主要為 Epinephrine 與 Norepinephrine。Catecholamine 過量會造成陣發性高血壓、心律不整與 Catecholamine-induced cardiomyopathy。"
+    },
+    "confidence": 0.95,
+    "source_document": "Pheochromocytoma.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "615f1ab97fc8",
+    "subject": "Catecholamines",
+    "predicate": "is_converted_to",
+    "object": "Aminochromes",
+    "context": {
+      "en-US": "The high local catecholamine concentration in the pheochromocytoma microenvironment favours oxidation to aminochromes including adrenochrome. Epinephrine autoxidation through quinones and superoxide generates reactive electrophiles that damage proteins and contribute to the elevated oxidative stress seen in pheochromocytoma and its surrounding tissue.",
+      "zh-TW": "Pheochromocytoma 微環境中局部 Catecholamines 濃度極高，有利於其被氧化成包括 Adrenochrome 在內的 Aminochromes。Epinephrine 經醌類與超氧自由基自氧化，產生具反應性的親電物，損傷蛋白質並促成 Pheochromocytoma 及其周圍組織所見的氧化壓力升高。"
+    },
+    "confidence": 0.85,
+    "source_document": "Pheochromocytoma.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "5ce174577976",
+    "subject": "Catecholamines",
+    "predicate": "causes",
+    "object": "Catecholamine-induced cardiomyopathy",
+    "context": {
+      "en-US": "Sustained or paroxysmal catecholamine excess in pheochromocytoma produces catecholamine-induced cardiomyopathy, a direct myocardial toxicity of high circulating catecholamine levels. The same surge can trigger Takotsubo Cardiomyopathy, a stress cardiomyopathy, which is why preoperative alpha- and beta-blockade is used before resection.",
+      "zh-TW": "Pheochromocytoma 病人持續或陣發性的 Catecholamines 過量會造成 Catecholamine-induced cardiomyopathy，即高循環 catecholamine 對心肌的直接毒性。同樣的 surge 也可誘發 Takotsubo Cardiomyopathy 這類壓力性心肌病變，因此切除術前會先進行 alpha 與 beta 阻斷的準備。"
+    },
+    "confidence": 0.85,
+    "source_document": "Pheochromocytoma.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "27ea99e83435",
+    "subject": "Phosphatidylethanolamine",
+    "predicate": "is_oxidized_by",
+    "object": "ALOX15",
+    "context": {
+      "en-US": "Phosphatidylethanolamine esterified with arachidonic or adrenic acid at the sn-2 position is the key peroxidation substrate on which Ferroptosis is executed. Lipoxygenases such as ALOX15 directly oxygenate PUFA-PE, and the resulting PE-OOH is the proximal lethal species whose accumulation disrupts membrane integrity; its peroxidation is more lethal than that of phosphatidylcholine.",
+      "zh-TW": "在 sn-2 位置以 arachidonic acid 或 adrenic acid 酯化的 Phosphatidylethanolamine 是 Ferroptosis 執行的關鍵過氧化底物。ALOX15 等 Lipoxygenase 可直接氧化 PUFA-PE，產生的 PE-OOH 是造成細胞死亡的近端致死物種，其累積會破壞膜完整性；PE 的過氧化致死性高於 phosphatidylcholine。"
+    },
+    "confidence": 0.9,
+    "source_document": "Phosphatidylethanolamine.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "6dec20750297",
+    "subject": "ACSL4",
+    "predicate": "supplies",
+    "object": "Phosphatidylethanolamine",
+    "context": {
+      "en-US": "The size of the peroxidizable PUFA-PE pool is set by ACSL4, which activates free PUFAs to acyl-CoAs, and by LPCAT3, which re-esterifies them into phospholipids. Because that pool size is a major determinant of ferroptosis sensitivity, ACSL4/LPCAT3 activity governs susceptibility in cancer, ischemia-reperfusion injury and neurodegeneration.",
+      "zh-TW": "可被氧化的 PUFA-PE 池大小由 ACSL4（將游離 PUFA 活化成 acyl-CoA）與 LPCAT3（將其再酯化回磷脂）決定。由於該池大小是 ferroptosis 敏感性的主要決定因子，ACSL4/LPCAT3 的活性支配了 Cancer、Ischemia-reperfusion Injury 與 neurodegeneration 中的易感性。"
+    },
+    "confidence": 0.9,
+    "source_document": "Phosphatidylethanolamine.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "d9947beaa1a7",
+    "subject": "GPX4",
+    "predicate": "restrains",
+    "object": "Phosphatidylethanolamine",
+    "context": {
+      "en-US": "GPX4, supported by the FSP1–CoQ10 axis, normally reduces lipid peroxides and thereby guards the peroxidation threshold of phosphatidylethanolamine. When these antioxidant systems fail, PUFA-PE peroxidation is propagated by iron via the Fenton Reaction and lipoxygenases, and PE hydroperoxide accumulation collapses membranes and kills the cell.",
+      "zh-TW": "GPX4 在 FSP1–CoQ10 軸的支援下還原脂質過氧化物，因而守住 phosphatidylethanolamine 的過氧化門檻。當這些抗氧化系統失效時，PUFA-PE 的過氧化會由 iron 經 Fenton Reaction 及 lipoxygenase 傳播，PE hydroperoxide 累積導致膜崩解與細胞死亡。"
+    },
+    "confidence": 0.9,
+    "source_document": "Phosphatidylethanolamine.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "39fdf76fbd37",
+    "subject": "Phospholipid",
+    "predicate": "determines",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "The polyunsaturated fatty acid content of phospholipids at the sn-2 position is the critical determinant of lipid peroxidation susceptibility and thus of Ferroptosis. Remodelling occurs through the Kennedy pathway for initial saturated/MUFA incorporation and the Lands cycle, in which Phospholipase A2-mediated sn-2 removal is followed by ACSL4-dependent PUFA re-acylation, setting the rate-limiting substrate pool.",
+      "zh-TW": "磷脂在 sn-2 位置的 polyunsaturated fatty acid 含量，是決定脂質過氧化易感性、進而決定 Ferroptosis 的關鍵。磷脂重塑經由 Kennedy pathway 完成初始的飽和/MUFA 接入，以及 Lands cycle——由 Phospholipase A2 移除 sn-2、再經 ACSL4 依賴的 PUFA 再醯化完成——因而設定了速率限制的底物池。"
+    },
+    "confidence": 0.9,
+    "source_document": "Phospholipid.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "4df5e91b568b",
+    "subject": "Acid ceramidase",
+    "predicate": "increases",
+    "object": "Phospholipid",
+    "context": {
+      "en-US": "Over-expression of Acid ceramidase in senescent WI-38 fibroblasts drove a pro-ferroptotic profile with increased sn-2 PUFA-containing phospholipids, whereas Acid ceramidase knockdown decreased these PL-PUFAs and protected against RSL3-induced Ferroptosis. This effect was independent of GPX4/glutathione and iron, indicating that ceramide-derived free fatty acids raise PUFA-PL content upstream of the canonical ferroptosis regulators.",
+      "zh-TW": "在 senescent WI-38 fibroblasts 中過量表現 Acid ceramidase 會帶出促鐵死亡（pro-ferroptotic）的型態，sn-2 含 PUFA 的磷脂增加；而 Acid ceramidase 敲低則降低這些 PL-PUFAs，並保護免於 RSL3 引發的 Ferroptosis。此效應獨立於 GPX4/glutathione 與 iron，顯示 ceramide 衍生的游離脂肪酸能在典型鐵死亡調控因子之上游提高 PUFA-PL 含量。"
+    },
+    "confidence": 0.9,
+    "source_document": "Phospholipid.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "b2d64c26f8e0",
+    "subject": "Photobiomodulation",
+    "predicate": "activates",
+    "object": "Complex IV",
+    "context": {
+      "en-US": "Photobiomodulation uses red and near-infrared light (roughly 600-1000 nm) whose photons are absorbed by cytochrome c oxidase (Complex IV) in the mitochondria. This accelerates electron transfer and the proton gradient, boosting ATP production and transiently modulating ROS signalling in a hormetic direction, which is why PBM is listed among environmental mitohormetic exposures alongside cold, heat and exercise.",
+      "zh-TW": "Photobiomodulation 使用紅光與近紅外光（約 600–1000 nm），其光子由粒線體中的 cytochrome c oxidase（Complex IV）吸收。這會加速電子傳遞與質子梯度，提升 ATP 產生，並以 hormesis 方向短暫調節 ROS 訊號；因此 PBM 與寒冷、高溫、運動並列為環境性的 mitohormetic 曝露。"
+    },
+    "confidence": 0.9,
+    "source_document": "Photobiomodulation.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "8c52d0a1b4a1",
+    "subject": "Photobiomodulation",
+    "predicate": "increases",
+    "object": "ATP",
+    "context": {
+      "en-US": "By stimulating cytochrome c oxidase, Photobiomodulation enhances ATP production in mitochondria and transiently reduces oxidative stress, supporting recovery from exercise. Daily morning sunlight or dedicated red/NIR devices deliver the same photon stimulus in a cheap, whole-body dose.",
+      "zh-TW": "Photobiomodulation 藉由刺激 cytochrome c oxidase，提升粒線體的 ATP 產生並短暫降低 oxidative stress，因而支持運動後的恢復。每日晨間日照或專用的紅光/近紅外裝置，都能提供相同的光子刺激，成本低且可作用於全身。"
+    },
+    "confidence": 0.85,
+    "source_document": "Photobiomodulation.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "ce79236e44c8",
+    "subject": "Physical Activity Level",
+    "predicate": "is_a_risk_factor_for",
+    "object": "Obesity",
+    "context": {
+      "en-US": "The low Physical Activity Level of modern humans is highlighted as the central feature of the physical-activity side of the obesity epidemic: a 70 kg human expends about 11.7 MJ/d against an allometric prediction of about 18.7 MJ/d. Deliberate exercise helps little — three 30-min vigorous sessions per week raise weekly expenditure by only about 5.3% — so Non-Exercise Activity Thermogenesis is the main behavioural lever on PAL.",
+      "zh-TW": "現代人類偏低的 Physical Activity Level 被視為肥胖流行中活動量面向的核心特徵：70 公斤的人類每日消耗約 11.7 MJ，而異速生長學的預測值約為 18.7 MJ。刻意運動的助益有限——每週三次 30 分鐘的劇烈活動僅使每週消耗增加約 5.3%——因此 Non-Exercise Activity Thermogenesis 才是日常中影響 PAL 的主要行為槓桿。"
+    },
+    "confidence": 0.8,
+    "source_document": "Physical Activity Level.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "c6aa678b3901",
+    "subject": "Piceatannol",
+    "predicate": "activates",
+    "object": "SIRT1",
+    "context": {
+      "en-US": "Piceatannol (3,3',4,5'-tetrahydroxystilbene) is a hydroxylated stilbenoid analogue of Resveratrol and a broad-spectrum sirtuin-activating compound. Table 6 of Zhao et al. (2020) lists it as an activator of SIRT1, SIRT3 and SIRT5, making it one of the few natural compounds reported to stimulate several mammalian sirtuins simultaneously.",
+      "zh-TW": "Piceatannol（3,3',4,5'-tetrahydroxystilbene）是 Resveratrol 的羥基化 stilbenoid 類似物，屬廣效型的 sirtuin 活化化合物。Zhao 等人（2020）的表 6 將其列為 SIRT1、SIRT3 與 SIRT5 的活化劑，使其成為少數同時能刺激多種哺乳類 sirtuin 的天然化合物之一。"
+    },
+    "confidence": 0.9,
+    "source_document": "Piceatannol.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "342d7606ec4a",
+    "subject": "Piceatannol",
+    "predicate": "mimics",
+    "object": "Resveratrol",
+    "context": {
+      "en-US": "Piceatannol shares the biological activities of Resveratrol, being studied for anti-inflammatory, antioxidant and neuroprotective properties and investigated as a caloric-restriction-mimetic agent. It occurs in grapes, red wine, blueberries and passion fruit, and is classed as a member of the Polyphenols.",
+      "zh-TW": "Piceatannol 與 Resveratrol 共享生物活性，被研究用於抗發炎、抗氧化與神經保護性質，並被當作 caloric-restriction-mimetic 試驗。它存在於葡萄、紅酒、藍莓與百香果中，屬於 Polyphenols 的一員。"
+    },
+    "confidence": 0.9,
+    "source_document": "Piceatannol.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "5baf5a2f8acb",
+    "subject": "Pin1",
+    "predicate": "inhibits",
+    "object": "BAX",
+    "context": {
+      "en-US": "In response to survival cytokines such as GM-CSF, ERK2 phosphorylates BAX at Thr167, creating a pThr-Pro motif that Pin1 recognizes. Pin1 isomerizes the peptide bond and locks Bax in an inactive conformation, preventing its translocation to mitochondria and oligomerization, so Pin1 acts as the switch that decides pro-survival versus pro-death outcomes.",
+      "zh-TW": "在 GM-CSF 等存活細胞激素作用下，ERK2 磷酸化 BAX 的 Thr167，形成 Pin1 所辨識的 pThr-Pro motif。Pin1 催化胜肽鍵的順反異構化，將 Bax 鎖定於不活化構形，阻止其轉位至粒線體與寡聚化，因此 Pin1 是決定存活或死亡結果的關鍵開關。"
+    },
+    "confidence": 0.95,
+    "source_document": "Pin1.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "6e2418a17050",
+    "subject": "Pin1",
+    "predicate": "stabilizes",
+    "object": "c-Myc",
+    "context": {
+      "en-US": "Pin1 isomerizes and stabilizes many oncoproteins such as cyclin D1, c-Myc and beta-catenin, while inactivating tumour suppressors including p53 and p27. Pin1 is overexpressed in many cancers and considered an oncogene, with overexpression correlating with poor prognosis in breast, lung and prostate cancer and its inhibition triggering apoptosis.",
+      "zh-TW": "Pin1 異構化並穩定多種致癌蛋白，如 cyclin D1、c-Myc 與 beta-catenin，同時使包括 p53 與 p27 在內的腫瘤抑制因子失活。Pin1 在多種癌症中過度表現並被視為致癌基因，其過度表現與乳癌、肺癌與攝護腺癌的不良預後相關，而抑制 Pin1 會誘發癌細胞凋亡。"
+    },
+    "confidence": 0.9,
+    "source_document": "Pin1.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "84c410267c53",
+    "subject": "Piperine",
+    "predicate": "inhibits",
+    "object": "CYP3A4",
+    "context": {
+      "en-US": "Piperine raises the Bioavailability of co-administered compounds by inhibiting intestinal and hepatic CYP3A4 and other cytochrome P450 enzymes, the efflux transporter P-glycoprotein, and phase-II conjugation by UDP-glucuronosyltransferases. The classic demonstration is a roughly 20-fold increase in Curcumin bioavailability, with similar enhancement explored for Fisetin and other poorly absorbed polyphenols.",
+      "zh-TW": "Piperine 藉由抑制腸道與肝臟的 CYP3A4 及其他 cytochrome P450 酵素、外排轉運蛋白 P-glycoprotein，以及 UDP-glucuronosyltransferase 的第二期結合反應，提高併用化合物的 Bioavailability。經典例子是使 Curcumin 的生體可用度提升約 20 倍；類似的增強效果也在 Fisetin 與其他吸收不良的 polyphenols 上被研究。"
+    },
+    "confidence": 0.95,
+    "source_document": "Piperine.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "0c8321d5d0ed",
+    "subject": "Piperine",
+    "predicate": "increases",
+    "object": "Curcumin",
+    "context": {
+      "en-US": "As a TRPV1 agonist and pungent alkaloid of black pepper, piperine is most exploited as a 'bioenhancer' in nutraceutical formulations, where co-administration raises the plasma exposure of poorly absorbed partners such as Curcumin. Because it inhibits drug-metabolizing enzymes and transporters, the same mechanism raises plasma levels of many prescription drugs, creating herb-drug interaction risk.",
+      "zh-TW": "Piperine 是黑胡椒的 TRPV1 致效劑與辛味生物鹼，在營養保健配方中最被利用的身份是「bioenhancer」：併用時可提高 Curcumin 等吸收不良搭檔的血漿曝露。由於它抑制藥物代謝酵素與轉運蛋白，同一機制也會提高許多處方藥的血漿濃度，造成草藥—藥物交互作用的風險。"
+    },
+    "confidence": 0.9,
+    "source_document": "Piperine.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "ea4afbf74bfa",
+    "subject": "Pirfenidone",
+    "predicate": "inhibits",
+    "object": "TGFβ",
+    "context": {
+      "en-US": "Pirfenidone is a synthetic anti-inflammatory and antifibrotic drug approved for idiopathic pulmonary fibrosis that inhibits TGF-beta signaling and reduces oxidative stress. In the fisetin senolytic screen (Yousefzadeh et al., 2018) it was included in the 10-compound flavonoid panel at 5 uM and showed no significant reduction in senescent cell burden in Ercc1-/- MEFs.",
+      "zh-TW": "Pirfenidone 是合成的小分子抗發炎與抗纖維化藥物，已核准用於 Pulmonary Fibrosis，可抑制 TGFβ 訊號並降低 oxidative stress。在 fisetin senolytic 篩選試驗（Yousefzadeh 等，2018）中，它以 5 µM 納入 10 種化合物組成的 panel，且在 Ercc1-/- MEF 中未顯著降低 senescent cell 數量。"
+    },
+    "confidence": 0.9,
+    "source_document": "Pirfenidone.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "773ad55bef9e",
+    "subject": "Pirfenidone",
+    "predicate": "treats",
+    "object": "Pulmonary Fibrosis",
+    "context": {
+      "en-US": "Pirfenidone is approved for the treatment of idiopathic pulmonary fibrosis, acting as an antifibrotic and anti-inflammatory agent. Despite this indication it showed no significant senolytic activity at 5 uM in the fisetin screen, so it is a senotherapeutic candidate rather than an established senolytic.",
+      "zh-TW": "Pirfenidone 獲核准用於治療 Pulmonary Fibrosis，作為抗纖維化與抗發炎藥物。儘管有此適應症，它在 fisetin 篩選試驗中於 5 µM 並未顯示顯著 senolytic 活性，因此屬於 senotherapeutic 候選，而非已確立的 senolytic。"
+    },
+    "confidence": 0.9,
+    "source_document": "Pirfenidone.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "d2222f96de2f",
+    "subject": "Plasmacytoid Dendritic Cells",
+    "predicate": "senses",
+    "object": "mtDNA",
+    "context": {
+      "en-US": "Extracellular TFAM bound to mtDNA is pro-inflammatory: the TFAM-mtDNA complex engages RAGE on the plasmacytoid dendritic cell surface, allowing mtDNA to be internalized. Once internal, the CpG-containing mtDNA is recognized by endosomal TLR9, which initiates signaling that drives expression of inflammatory factors and makes pDCs the major producers of type I interferon.",
+      "zh-TW": "細胞外的 TFAM 與 mtDNA 結合後具促發炎性：TFAM–mtDNA 複合體與 plasmacytoid dendritic cell 表面上的 RAGE 結合，使 mtDNA 被內吞。進入細胞後，含 CpG 的 mtDNA 由內體膜上的 TLR9 辨識，啟動訊號傳遞並促進發炎因子的表現，也使 pDC 成為 type I interferon 的主要製造者。"
+    },
+    "confidence": 0.9,
+    "source_document": "Plasmacytoid Dendritic Cells.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "c59fc9e8448d",
+    "subject": "Senescence",
+    "predicate": "activates",
+    "object": "Plasmacytoid Dendritic Cells",
+    "context": {
+      "en-US": "In senescence, mitochondrial DAMP release including the TFAM-mtDNA complex can recruit and activate plasmacytoid dendritic cells, contributing to the chronic low-grade inflammation (inflammaging) associated with senescent cell accumulation. This is one of several pathways, alongside cGAS-STING and NLRP3, by which senescence-derived mitochondrial damage engages immunity.",
+      "zh-TW": "在 Senescence 過程中，粒線體釋出 DAMP（包括 TFAM–mtDNA 複合體）可招募並活化 plasmacytoid dendritic cells，促成與 senescent cell 累積相關的慢性低度發炎（inflammaging）。這是除 cGAS-STING 與 NLRP3 之外，senescence 衍生粒線體損傷啟動免疫的其中一條路徑。"
+    },
+    "confidence": 0.85,
+    "source_document": "Plasmacytoid Dendritic Cells.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "3b1c3ef4466e",
+    "subject": "Plasmin",
+    "predicate": "is_precursor_of",
+    "object": "Plasminogen",
+    "context": {
+      "en-US": "Plasminogen is the inactive zymogen precursor of Plasmin: a 92 kDa single-chain glycoprotein synthesised in the liver and secreted into plasma at about 2 µM, containing five kringle domains with lysine-binding sites plus a catalytic serine protease domain. Plasminogen is converted to active two-chain Plasmin by cleavage at Arg561-Val562 by tPA or uPA.",
+      "zh-TW": "Plasminogen 是 Plasmin 的不活化 zymogen 前驅物：由肝臟合成、以約 2 µM 濃度分泌入血漿的 92 kDa 單鏈醣蛋白，含五個帶有離胺酸結合位點的 kringle 結構域與一個催化性 serine protease 結構域。Plasminogen 經 tPA 或 uPA 在 Arg561–Val562 處切割，轉為活化的雙鏈 Plasmin。"
+    },
+    "confidence": 0.95,
+    "source_document": "Plasminogen.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "313c6080d663",
+    "subject": "Plasmin",
+    "predicate": "activates",
+    "object": "MMP-9",
+    "context": {
+      "en-US": "Plasmin is the principal physiological activator of several pro-matrix metalloproteinases, including MMP-3 (stromelysin-1), MMP-9 (gelatinase B) and MMP-12 (macrophage metalloelastase). This connects the fibrinolytic system to collagenolysis and basement-membrane breach, and in the senescence-associated secretory phenotype it amplifies the ECM-degrading capacity far beyond what any single protease achieves.",
+      "zh-TW": "Plasmin 是數種 pro-matrix metalloproteinase 的主要生理活化劑，包括 MMP-3（stromelysin-1）、MMP-9（gelatinase B）與 MMP-12（macrophage metalloelastase）。這將纖維蛋白溶解系統與膠原溶解及基底膜破壞連結起來；在 senescence-associated secretory phenotype 中，它使 ECM 降解能力遠超單一蛋白酶所能達到的程度。"
+    },
+    "confidence": 0.9,
+    "source_document": "Plasmin.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "346321cff726",
+    "subject": "Plasmin",
+    "predicate": "degrades",
+    "object": "Extracellular Matrix",
+    "context": {
+      "en-US": "Beyond fibrinolysis, Plasmin degrades extracellular matrix components including fibronectin, laminin, proteoglycans and collagens IV and V, which facilitates cell migration through tissue barriers. It also cleaves C3 and C5 to generate active complement fragments and chemotactic products, linking the fibrinolytic system to inflammation and the recruitment of Neutrophils.",
+      "zh-TW": "除纖維蛋白溶解外，Plasmin 會降解 extracellular matrix 的 fibronectin、laminin、proteoglycan 以及 type IV 與 V 膠原，使細胞得以穿越組織屏障遷移。它也切割 C3 與 C5 產生具活性的補體片段與趨化產物，將纖維蛋白溶解系統與發炎及 Neutrophils 的招募連結起來。"
+    },
+    "confidence": 0.9,
+    "source_document": "Plasmin.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "cf92e3ce55eb",
+    "subject": "Platelet-Derived Growth Factor",
+    "predicate": "decreases",
+    "object": "MFN2",
+    "context": {
+      "en-US": "Platelet-Derived Growth Factor signalling through PDGF receptor tyrosine kinases activates vascular smooth muscle cells and is associated with decreased MFN2 levels and increased mitochondrial fragmentation. Inhibition of fission with Mdivi-1 counteracts PDGF-induced fragmentation and reduces VSMC proliferation, so PDGF shifts the mitochondrial network toward fission to support pathological vascular remodelling in Atherosclerosis.",
+      "zh-TW": "Platelet-Derived Growth Factor 經由 PDGF 受體酪胺酸激酶作用，活化血管平滑肌細胞，並與 MFN2 濃度下降及粒線體碎裂增加相關。以 Mdivi-1 抑制分裂可抵銷 PDGF 引起的碎裂並降低 VSMC 增殖，顯示 PDGF 將粒線體網絡推向分裂，以支持 Atherosclerosis 中的病理性血管重塑。"
+    },
+    "confidence": 0.9,
+    "source_document": "Platelet-Derived Growth Factor.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "3fbaa0ecc608",
+    "subject": "Platelet-Derived Growth Factor",
+    "predicate": "promotes",
+    "object": "Mitochondrial Fission",
+    "context": {
+      "en-US": "Platelet-Derived Growth Factor drives the mitochondrial network toward Mitochondrial Fission in vascular smooth muscle cells by lowering the fusion protein MFN2. This fission-dependent remodelling supports pathological vascular changes in Atherosclerosis, making the mitochondrial network a mechanistic link between growth factor signalling and vascular disease.",
+      "zh-TW": "Platelet-Derived Growth Factor 藉由降低融合蛋白 MFN2，驅使血管平滑肌細胞的粒線體網絡朝 Mitochondrial Fission 方向移動。這種依賴分裂的重塑支持 Atherosclerosis 中的病理性血管變化，使粒線體網絡成為連結生長因子訊號與血管疾病的機制環節。"
+    },
+    "confidence": 0.85,
+    "source_document": "Platelet-Derived Growth Factor.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "d1930bde2cfe",
+    "subject": "Platelets",
+    "predicate": "mediates",
+    "object": "Platelet aggregation",
+    "context": {
+      "en-US": "Upon vascular injury, anucleate Platelets produced from megakaryocytes rapidly adhere via von Willebrand factor and collagen receptors, then activate with shape change and degranulation. Activated platelets express P-selectin and expose phosphatidylserine, recruiting additional platelets and providing a surface for coagulation cascade assembly; platelet hyperreactivity consequently contributes to atherothrombosis.",
+      "zh-TW": "血管受損時，由巨核細胞產生的無核 Platelets 會藉由 von Willebrand factor 與膠原受體迅速黏附，隨後活化並發生形態改變與脫顆粒。活化的血小板表現 P-selectin 並暴露 phosphatidylserine，招募更多血小板並提供凝血級聯反應組裝的表面；血小板高反應性因此促成 atherothrombosis。"
+    },
+    "confidence": 0.9,
+    "source_document": "Platelets.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "5c97b372a65f",
+    "subject": "Polyphenols",
+    "predicate": "activates",
+    "object": "NRF2",
+    "context": {
+      "en-US": "Polyphenols are electrophilic or are metabolized to electrophilic quinones that modify KEAP1 cysteine residues (Cys151, Cys273, Cys288). This causes KEAP1 conformational change, releases NRF2 from KEAP1-mediated ubiquitination, and drives NRF2 nuclear translocation with ARE binding, inducing more than 200 cytoprotective genes including Glutathione Peroxidase, Catalase, heme oxygenase-1, NQO1, Superoxide Dismutase and glutathione S-transferases.",
+      "zh-TW": "Polyphenols 具親電性，或會被代謝成親電性的醌類，進而修飾 KEAP1 的半胱胺酸殘基（Cys151、Cys273、Cys288）。這造成 KEAP1 構形改變，使 NRF2 從 KEAP1 介導的泛素化中釋放，並促使 NRF2 核轉位與 ARE 結合，誘導超過 200 個細胞保護基因，包括 Glutathione Peroxidase、Catalase、heme oxygenase-1、NQO1、Superoxide Dismutase 與 glutathione S-transferase。"
+    },
+    "confidence": 0.9,
+    "source_document": "Polyphenols.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "7793a9e317ef",
+    "subject": "Polyphenols",
+    "predicate": "inhibits",
+    "object": "Fenton Reaction",
+    "context": {
+      "en-US": "Polyphenols chelate Fe2+/Fe3+ and Cu+/Cu2+ through catechol and galloyl groups, and this metal chelation prevents the Fenton Reaction by suppressing hydroxyl radical generation and inhibits Lipid Peroxidation by removing catalytic iron from membranes. The same chemistry underpins their inhibition of pro-oxidant enzymes and their reduction of non-heme iron absorption.",
+      "zh-TW": "Polyphenols 透過 catechol 與 galloyl 基團螯合 Fe2+/Fe3+ 與 Cu+/Cu2+，這種金屬螯合可防止 Fenton Reaction（抑制 hydroxyl radical 生成），並藉由從膜上移除催化性鐵而抑制 Lipid Peroxidation。相同的化學機制也是它們抑制促氧化酵素與降低非血基鐵吸收的基礎。"
+    },
+    "confidence": 0.85,
+    "source_document": "Polyphenols.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "781ef1f058b8",
+    "subject": "Polyphenols",
+    "predicate": "is_metabolized_by",
+    "object": "Gut Microbiome",
+    "context": {
+      "en-US": "The majority of dietary polyphenols reach the colon intact and are biotransformed by the Gut Microbiome through ring fission, dehydroxylation, demethylation and decarboxylation. The resulting microbial metabolites are absorbed systemically and may contribute significantly to the health effects of polyphenols, often circulating at higher concentrations than the parent compounds.",
+      "zh-TW": "大部分膳食 polyphenols 以完整形式抵達大腸，並由 Gut Microbiome 經由環裂解、去羥基化、去甲基化與去羧化進行生物轉化。所產生的微生物代謝物可被全身吸收，並可能對 polyphenols 的健康效應有顯著貢獻，其循環濃度往往高於母體化合物。"
+    },
+    "confidence": 0.9,
+    "source_document": "Polyphenols.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "63215b29a29b",
+    "subject": "Polyphenols",
+    "predicate": "exhibits",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "Polyphenols exhibit a biphasic hormetic response: at low micromolar doses they activate NRF2, SIRT1 and AMPK, enhance Mitochondrial Biogenesis and glutathione levels, and suppress NF-kappaB-driven inflammation; at concentrations of 100 uM or more they become pro-oxidant, autoxidising to semiquinones and quinones, reducing Fe3+ to Fe2+ to promote Fenton chemistry, depleting glutathione and causing DNA damage.",
+      "zh-TW": "Polyphenols 呈現雙相性的 hormesis 反應：在低微莫耳濃度下活化 NRF2、SIRT1 與 AMPK、促進 Mitochondrial Biogenesis 與 glutathione 濃度，並抑制 NF-κB 驅動的發炎；在 100 µM 以上則轉為促氧化，自分解成 semiquinone 與 quinone、將 Fe3+ 還原成 Fe2+ 以促進 Fenton 化學、耗竭 glutathione 並造成 DNA damage。"
+    },
+    "confidence": 0.9,
+    "source_document": "Polyphenols.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "fa35f81c53f7",
+    "subject": "Polyphenols",
+    "predicate": "inhibits",
+    "object": "Advanced Glycation End Products",
+    "context": {
+      "en-US": "Polyphenols possess high antioxidant capacity and are effective inhibitors of glycation and Advanced Glycation End Products formation. By neutralising Reactive Oxygen Species and trapping reactive carbonyls, they help prevent age-related organ dysfunction induced by glycotoxins, and they are a major subclass within which flavonoids, stilbenes such as Resveratrol, and phenolic acids are classified.",
+      "zh-TW": "Polyphenols 具有高抗氧化能力，並能有效抑制 glycation 與 Advanced Glycation End Products 的形成。藉由中和 Reactive Oxygen Species 並捕捉反應性羰基，它們有助於預防 glycotoxin 引起的年齡相關器官功能障礙；其下分類包括 Flavonoids、Resveratrol 等 stilbenes，以及 phenolic acids。"
+    },
+    "confidence": 0.85,
+    "source_document": "Polyphenols.md",
+    "created": "2026-09-29T17:40:51Z",
+    "updated": "2026-09-29T17:40:51Z"
   }
 ]
