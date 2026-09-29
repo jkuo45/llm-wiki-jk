@@ -73,6 +73,15 @@ brain. That result produced the drug.
 Non-antibody approaches under or in development include the small-molecule α4 antagonists
 firategrast and BIO5192, and ATL1102, an antisense oligonucleotide against the α4 chain.
 
+## Documents
+
+- [[Natalizumab (Tysabri)]]
+  - The drug built on this note's target; supplies the non-competitive antagonism mechanism,
+    the PML boxed warning, and the α4β7/MAdCAM-1 gut indication.
+- [[VCAM-1]]
+  - Supplies the endothelial counter-receptor and the discovery that VCAM-1 engages VLA-4
+    at a site distinct from the fibronectin binding site.
+
 ## Connections
 
 - [[Natalizumab (Tysabri)]] — the clinical proof that VLA-4 blockade works; its efficacy and

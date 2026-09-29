@@ -93,5 +93,5 @@ Beyond enabling worm survival, *Wolbachia* contributes substantially to **pathol
 ## Linking Summary
 
 - New links added: [[Doxycycline]], [[Microfilariae]], [[Simulium]], [[Ivermectin]]
-- Suggested notes to create: [[Dengue]], [[Aedes aegypti]], [[Chikungunya virus]], [[West Nile virus]], [[Cytoplasmic incompatibility]], [[Bacteriophage WO]], [[Dirofilaria immitis]], [[Filarial nematodes]], [[Vector control]], [[Riboflavin]], [[Heme]], [[Rickettsiales]] — removed as already existing: Folate
+- Suggested notes to create: [[Dengue]], [[Aedes aegypti]], [[Chikungunya virus]], [[West Nile virus]], [[Cytoplasmic incompatibility]], [[Bacteriophage WO]], [[Dirofilaria immitis]], [[Filarial nematodes]], [[Vector control]], [[Riboflavin]], [[Heme]], [[Rickettsiales]]
 - Strong connections to strengthen: [[Onchocerca volvulus]] ↔ [[Doxycycline]] (symbiont as drug target); [[Brugia malayi]] ↔ [[Wuchereria bancrofti]] (shared obligate symbiosis)

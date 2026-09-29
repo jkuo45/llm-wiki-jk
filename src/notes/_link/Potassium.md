@@ -33,8 +33,7 @@ Potassium balance has two separable components, and conflating them is the usual
 of confusion in teaching:
 
 - **Internal distribution** (fast, minutes–hours) — controlled by [[Insulin]] and
-  β-adrenergic (β2) signalling, both of which stimulate the [[Sodium Potassium
-  ATPase]] and drive K⁺ into cells. Because the intracellular store is enormous, a
+  β-adrenergic (β2) signalling, both of which stimulate the [[Sodium Potassium ATPase]] and drive K⁺ into cells. Because the intracellular store is enormous, a
   transcellular shift of a few hundred mmol changes plasma K⁺ substantially. This is
   the lever used therapeutically: insulin-with-glucose is first-line treatment for
   acute hyperkalaemia for exactly this reason.

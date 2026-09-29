@@ -35,8 +35,7 @@ Activation and action are both surface-dependent, and that is the point:
    presents it to the thrombin–thrombomodulin complex, augmenting activation roughly
    20-fold. Thrombomodulin localises the whole assembly, so activation happens on
    endothelium rather than in bulk plasma.
-3. **Action.** Activated protein C (APC) dissociates from EPCR and, with [[Protein
-   S]] as cofactor, inactivates factors **Va** and **VIIIa** by limited proteolysis.
+3. **Action.** Activated protein C (APC) dissociates from EPCR and, with [[Protein S]] as cofactor, inactivates factors **Va** and **VIIIa** by limited proteolysis.
    Because Va is the cofactor for the prothrombinase complex, its inactivation is
    what actually terminates thrombin burst.
 

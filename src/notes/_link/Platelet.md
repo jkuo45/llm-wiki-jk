@@ -69,7 +69,7 @@ All three loops converge on a single step: the conformational activation of inte
 Weak agonists such as ADP only activate the surface pool; stronger agonists such as
 thrombin and collagen additionally externalise the internal α-granule pool, raising
 surface receptor density by as much as 50%. The sufficiency of this step was
-established by [[Glanzmann thrombasthenia]] — loss of αIIbβ3 gives bleeding with
+established by [[Glanzmann Thrombasthenia]] — loss of αIIbβ3 gives bleeding with
 absent aggregation despite entirely normal activation.
 
 ## Procoagulant surface
@@ -92,7 +92,7 @@ surface, linking coagulation to leukocyte recruitment and to complement.
 Quantitative or functional platelet defects present as mucocutaneous bleeding. The
 degree of impairment separates the diagnoses: [[Thrombocytopenia]] gives petechiae
 and bruising with prolonged bleeding time but normal function in the remaining
-platelets, whereas [[Glanzmann thrombasthenia]] gives a normal count with absent
+platelets, whereas [[Glanzmann Thrombasthenia]] gives a normal count with absent
 aggregation. [[von Willebrand Disease]] is the commonest inherited bleeding disorder
 and is a defect of adhesion, not of the platelet. Heparin-associated
 [[Thrombocytopenia]] is the paradoxical exception — a low count with a strongly

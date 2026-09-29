@@ -60,10 +60,10 @@ No approved therapy targets WTAP. Its value is as (a) a mechanistic node in m6A 
 - [[FTO]] — FTO is the cytoplasmic eraser; together with ALKBH5 it defines the compartment-specific read/write/erase logic that WTAP helps establish on the nuclear side.
 - [[Alternative Splicing]] — WTAP's speckle localization and reported exon-level regulatory activity are the basis of its proposed m6A-independent function; the strength of this link is the main open question in the field.
 - [[Osteoporosis]] — WTAP-mediated m6A on *CSF1R* restrains osteoclastogenesis, giving a concrete, mechanistically clean physiological output of WTAP activity.
-- [[Nuclear-speckles]] *(suggested)* — WTAP's speckle residency is structurally central to its non-catalytic functions.
+- [[Nuclear-speckles]] — WTAP's speckle residency is structurally central to its non-catalytic functions; this note is the vault's anchor for the writer-complex side of m6A biology, and nuclear speckle biology is the natural extension of the splicing discussion.
 
 ## Linking Summary
 
-- New links added: [[m6A Modification]], [[METTL3]], [[METTL14]], [[ALKBH5]], [[FTO]], [[Alternative Splicing]], [[Osteoporosis]], [[Hepatocellular Carcinoma]], [[Bladder Cancer]], [[Melanoma]], [[Epitranscriptomics]]
-- Suggested notes to create: [[Nuclear-speckles]], [[snRNA]], [[YTHDF2]], [[Epitranscriptomics]], [[WT1]], [[sex determination]], [[CSF1R]] — removed as already existing: MALAT1, Non-coding RNA
+- New links added: [[m6A Modification]], [[METTL3]], [[METTL14]], [[ALKBH5]], [[FTO]], [[Alternative Splicing]], [[Osteoporosis]], [[Hepatocellular Carcinoma]], [[Bladder Cancer]], [[Melanoma]]
+- Suggested notes to create: [[Nuclear-speckles]], [[Epitranscriptomics]], [[snRNA]], [[YTHDF2]], [[WT1]], [[Sex determination]], [[CSF1R]] — removed as already existing: MALAT1, Non-coding RNA
 - Strong connections to strengthen: [[METTL3]] ↔ [[METTL14]] ↔ [[WTAP]] (writer complex); [[ALKBH5]] ↔ [[WTAP]] (nuclear write/erase balance)
