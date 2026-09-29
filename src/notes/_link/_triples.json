@@ -41760,5 +41760,929 @@
     "source_document": "Smoking.md",
     "created": "2026-09-29T15:11:42Z",
     "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "4fc0d70c18eb",
+    "subject": "nuo-6",
+    "predicate": "encodes_subunit_of",
+    "object": "Complex I",
+    "context": {
+      "en-US": "The C. elegans gene nuo-6 (NADH-Ubiquinone Oxidoreductase 6) encodes a subunit of Complex I, the NADH dehydrogenase arm of the mitochondrial electron transport chain, where it contributes to the machinery that transfers electrons from NADH to Ubiquinone.",
+      "zh-TW": "秀麗隱桿線蟲的 nuo-6（NADH-Ubiquinone Oxidoreductase 6）基因編碼 Complex I（電子傳遞鏈中的 NADH 去氫酶）的次單元，參與將電子由 NADH 轉移至 Ubiquinone 的機制。"
+    },
+    "confidence": 0.95,
+    "source_document": "nuo-6.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "5e8b32f74da5",
+    "subject": "nuo-6",
+    "predicate": "is_a_gene_of",
+    "object": "Mitochondria",
+    "context": {
+      "en-US": "nuo-6 acts within the mitochondrion: because it encodes a Complex I subunit, its function is tied to mitochondrial energy conversion, and loss-of-function mutations impair mitochondrial function and reduce respiration in C. elegans.",
+      "zh-TW": "nuo-6 在粒線體內發揮作用：由於它編碼 Complex I 的次單元，其功能與粒線體的能量轉換密切相關，功能缺失突變會損害 C. elegans 的粒線體功能並降低呼吸作用。"
+    },
+    "confidence": 0.85,
+    "source_document": "nuo-6.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "9bd40a52d3b2",
+    "subject": "nuo-6",
+    "predicate": "promotes",
+    "object": "Mitohormesis",
+    "context": {
+      "en-US": "Mutations in nuo-6 impair mitochondrial function and reduce respiration, which — like mutations in isp-1 and clk-1 — extends lifespan. The resulting longevity depends on activation of adaptive stress responses, with Mitohormesis being one of them, so reduced nuo-6 activity acts as a mitohormetic trigger.",
+      "zh-TW": "nuo-6 的突變會損害粒線體功能並降低呼吸作用，與 isp-1、clk-1 的突變相似地延長壽命。這種長壽依賴於適應性壓力反應的活化，而 Mitohormesis 正是其中之一，因此 nuo-6 活性下降可作為啟動 mitohormesis 的誘因。"
+    },
+    "confidence": 0.85,
+    "source_document": "nuo-6.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "e26905e5cf19",
+    "subject": "o-quinone",
+    "predicate": "is_formed_from",
+    "object": "Epinephrine",
+    "context": {
+      "en-US": "Under conditions of Oxidative Stress, the catechol ring of Epinephrine loses electrons to generate an o-quinone (ortho-quinone). This is a highly reactive intermediate of epinephrine oxidation, the step that precedes adrenochrome formation, and it serves as a marker of oxidative decay in catecholamines.",
+      "zh-TW": "在 Oxidative Stress 條件下，Epinephrine 的兒茶酚環失去電子而生成 o-quinone（鄰醌）。它是腎上腺素氧化過程中高度反應性的中間產物，位於形成 Adrenochrome 之前的那一步，並可作為兒茶酚胺氧化劣化的指標。"
+    },
+    "confidence": 0.95,
+    "source_document": "o-quinone.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "c488d4a4d1e3",
+    "subject": "o-quinone",
+    "predicate": "converts_to",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "The o-quinone intermediate is unstable and rapidly undergoes internal cyclization — an intramolecular Michael addition that yields the indoline-5,6-dione structure — to form Adrenochrome. This instability of Adrenochrome is precisely why the o-quinone-derived structure is unstable and requires stabilization by derivatization such as hydrazine.",
+      "zh-TW": "o-quinone 中間產物不穩定，會迅速進行分子內環化（分子內 Michael addition），生成 indoline-5,6-dione 結構而形成 Adrenochrome。Adrenochrome 的不穩定性正源於此 o-quinone 衍生結構，因此通常須以 hydrazine 等方式衍生化加以穩定。"
+    },
+    "confidence": 0.95,
+    "source_document": "o-quinone.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "66b8bc61643c",
+    "subject": "o-quinone",
+    "predicate": "is_a_type_of",
+    "object": "Electrophile",
+    "context": {
+      "en-US": "An o-quinone (ortho-quinone) is a type of organic compound derived from phenols, specifically catechols, and behaves as a highly reactive Electrophile: its quinone carbonyls are prone to nucleophilic attack, for example via Michael addition, which is also the mechanism of its intramolecular cyclization.",
+      "zh-TW": "o-quinone（鄰醌）是由酚類、尤其是兒茶酚衍生而成的一類有機化合物，具有高度反應性的 Electrophile 性質：其醌類羰基容易受到親核性進攻，例如透過 Michael addition，而這也正是其分子內環化的機制。"
+    },
+    "confidence": 0.9,
+    "source_document": "o-quinone.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "05745bbbe62c",
+    "subject": "GAPDH",
+    "predicate": "produces",
+    "object": "1,3-Bisphosphoglycerate",
+    "context": {
+      "en-US": "GAPDH catalyzes the NAD+-dependent conversion of Glyceraldehyde 3-Phosphate to the high-energy glycolytic intermediate 1,3-Bisphosphoglycerate, generating NADH in the process. Because the step consumes NAD+, senescent cells with a lowered NAD+/NADH ratio form less 1,3-Bisphosphoglycerate, which curtails glycolytic ATP production.",
+      "zh-TW": "GAPDH 以 NAD+ 依賴的方式將 Glyceraldehyde 3-Phosphate 轉換成高能糖解中間產物 1,3-Bisphosphoglycerate，並同時生成 NADH。由於此步驟需要 NAD+，NAD+/NADH 比值下降的衰老細胞生成的 1,3-Bisphosphoglycerate 較少，因而抑制糖解產 ATP。"
+    },
+    "confidence": 0.95,
+    "source_document": "1,3-Bisphosphoglycerate.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "660de15aa088",
+    "subject": "1,3-Bisphosphoglycerate",
+    "predicate": "requires",
+    "object": "NAD+",
+    "context": {
+      "en-US": "Formation of 1,3-Bisphosphoglycerate at the glyceraldehyde-3-phosphate dehydrogenase step is strictly NAD+-dependent. Senescent cells lose NAD+ surplus as the NAD+/NADH ratio falls, so the availability of this co-substrate limits 1,3-Bisphosphoglycerate and downstream ATP generation.",
+      "zh-TW": "在甘油醛-3-磷酸脫氫酶步驟中，1,3-Bisphosphoglycerate 的形成嚴格依賴 NAD+。衰老細胞隨著 NAD+/NADH 比值下降而流失 NAD+ 儲備，因此此輔底物的可用性限制了 1,3-Bisphosphoglycerate 及其下游的 ATP 生成。"
+    },
+    "confidence": 0.92,
+    "source_document": "1,3-Bisphosphoglycerate.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "ef4174df7547",
+    "subject": "1,3-Bisphosphoglycerate",
+    "predicate": "is_a_type_of",
+    "object": "Glycolysis",
+    "context": {
+      "en-US": "1,3-Bisphosphoglycerate is a high-energy glycolytic intermediate: it is formed early in Glycolysis and then converted to 3-phosphoglycerate by phosphoglycerate kinase, generating the first ATP of the pathway by substrate-level phosphorylation.",
+      "zh-TW": "1,3-Bisphosphoglycerate 是高能糖解中間產物：在 Glycolysis 早期形成，之後由磷酸甘油酸激酶轉換成 3-磷酸甘油酸，透過受質層次磷酸化產生該途徑的第一個 ATP。"
+    },
+    "confidence": 0.9,
+    "source_document": "1,3-Bisphosphoglycerate.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "886b23bd7161",
+    "subject": "1-Methylnicotinamide",
+    "predicate": "is_produced_by",
+    "object": "NNMT",
+    "context": {
+      "en-US": "NNMT is the enzyme that methylates Nicotinamide using S-adenosylmethionine to form 1-Methylnicotinamide (1-MNA). Because 1-MNA is the terminal, largely non-recyclable sink of nicotinamide, NNMT activity sets how much nicotinamide remains available for NAD+ resynthesis.",
+      "zh-TW": "NNMT 是以 S-腺苷甲硫胺酸將 Nicotinamide 甲基化形成 1-Methylnicotinamide (1-MNA) 的酵素。由於 1-MNA 是菸醯胺終末且大致不可回收的匯，NNMT 活性決定了仍可供 NAD+ 再合成的菸醯胺量。"
+    },
+    "confidence": 0.95,
+    "source_document": "1-Methylnicotinamide.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "c5e328a26740",
+    "subject": "1-Methylnicotinamide",
+    "predicate": "reduces",
+    "object": "NAD+ Salvage Pathway",
+    "context": {
+      "en-US": "Methylation of Nicotinamide into 1-Methylnicotinamide withdraws nicotinamide from the NAD+ Salvage Pathway, limiting NAD+ biosynthesis and thereby indirectly reducing sirtuin activity that depends on NAD+ as a cofactor.",
+      "zh-TW": "將 Nicotinamide 甲基化為 1-Methylnicotinamide 會把菸醯胺從 NAD+ Salvage Pathway 中抽離，限制 NAD+ 的生合成，進而間接降低以 NAD+ 為輔因子的 sirtuin 活性。"
+    },
+    "confidence": 0.9,
+    "source_document": "1-Methylnicotinamide.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "3b14532afafb",
+    "subject": "14-3-3",
+    "predicate": "binds",
+    "object": "TFEB",
+    "context": {
+      "en-US": "14-3-3 acts as a cytosolic chaperone that competes for and sequesters TFEB. Under nutrient-rich conditions mTORC1 phosphorylation of TFEB creates a 14-3-3 binding site, retaining TFEB in the cytoplasm and suppressing lysosomal biogenesis; starvation dephosphorylates TFEB and releases it for nuclear translocation.",
+      "zh-TW": "14-3-3 作為細胞質伴護蛋白與 TFEB 競爭結合並將其隔離。在營養充足時，mTORC1 對 TFEB 的磷酸化會創造 14-3-3 結合位點，使 TFEB 留在細胞質並抑制溶酶體生成；飢餓時 TFEB 去磷酸化而自 14-3-3 釋放，得以轉位入核。"
+    },
+    "confidence": 0.93,
+    "source_document": "14-3-3.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "1ff88ae94ea9",
+    "subject": "14-3-3",
+    "predicate": "inhibits",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "14-3-3 acts as a scaffold and sequestering chaperone that blocks Apoptosis, most classically by binding phosphorylated BAD and masking its BH3 domain, which prevents BAX activation and mitochondrial outer membrane permeabilization.",
+      "zh-TW": "14-3-3 透過支架與隔離作用抑制 Apoptosis，最典型的機制是結合磷酸化的 BAD 並遮蔽其 BH3 結構域，阻止 BAX 活化與粒線體外膜通透化。"
+    },
+    "confidence": 0.9,
+    "source_document": "14-3-3.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "7cb221e45023",
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "14-3-3",
+    "context": {
+      "en-US": "SIRT1 deacetylates 14-3-3ζ at lysine 49, maintaining its phosphorylation-dependent binding to Caspase-2 and shielding caspase-2 Ser135 from dephosphorylation. When pentose-phosphate-pathway flux falls, 14-3-3ζ becomes acetylated and dissociates, permitting Caspase-2 activation.",
+      "zh-TW": "SIRT1 會在離胺酸 49 去乙醯化 14-3-3ζ，維持其依賴磷酸化而與 Caspase-2 的結合，並保護 caspase-2 的 Ser135 不被去磷酸化。當磷酸戊糖途徑通量下降時，14-3-3ζ 被乙醯化而解離，允許 Caspase-2 活化。"
+    },
+    "confidence": 0.92,
+    "source_document": "14-3-3.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "0f0ec9ae3fea",
+    "subject": "14-3-3",
+    "predicate": "regulates",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "By sequestering phosphorylated TFEB in the cytoplasm, 14-3-3 suppresses transcription of autophagy-related and lysosomal biogenesis genes; releasing TFEB under starvation lifts this brake on Autophagy.",
+      "zh-TW": "藉由將磷酸化的 TFEB 隔離在細胞質，14-3-3 抑制自噬相關基因與溶酶體生成基因的轉錄；在飢餓時釋放 TFEB 則解除對 Autophagy 的抑制。"
+    },
+    "confidence": 0.9,
+    "source_document": "14-3-3.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "e286326fa788",
+    "subject": "2-Chlorophenothiazine",
+    "predicate": "protects_against",
+    "object": "Rotenone",
+    "context": {
+      "en-US": "2-Chlorophenothiazine showed nanomolar neuroprotective potency against glutamate, Rotenone and Iodoacetic Acid insult in HT-22 cells (viability EC50 ≈ 4.57 nM), but, like the family, gave no protection against H2O2 generated by Glucose Oxidase.",
+      "zh-TW": "在 HT-22 細胞中，2-Chlorophenothiazine 對 glutamate、Rotenone 與 Iodoacetic Acid 的毒性具有奈米莫耳（nM）級的神經保護效力（存活率 EC50 ≈ 4.57 nM），但與同家族一樣，對 Glucose Oxidase 產生的 H2O2 不具保護作用。"
+    },
+    "confidence": 0.88,
+    "source_document": "2-Chlorophenothiazine.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "81cfdb27b497",
+    "subject": "2-Chlorophenothiazine",
+    "predicate": "is_a_type_of",
+    "object": "Phenothiazine",
+    "context": {
+      "en-US": "2-Chlorophenothiazine is a chlorinated phenothiazine nucleus: it keeps the free 10-nitrogen and position-5 sulfur of the Phenothiazine scaffold but has no amine side chains at positions 3 and 7, which is why it lacks the electron-carrier activity of Methylene blue.",
+      "zh-TW": "2-Chlorophenothiazine 是氯化的 phenothiazine 核：保留 Phenothiazine 骨架的自由 10-氮與第 5 號硫，但在 3 與 7 位置沒有胺基側鏈，因此缺乏 Methylene blue 的電子載體活性。"
+    },
+    "confidence": 0.95,
+    "source_document": "2-Chlorophenothiazine.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "40e32cf80efb",
+    "subject": "24(S)-Hydroxycholesterol",
+    "predicate": "activates",
+    "object": "LXRα",
+    "context": {
+      "en-US": "24(S)-Hydroxycholesterol (24S-OHC) is the brain's principal cholesterol-clearance oxysterol and an endogenous ligand of the liver X receptors, driving reverse-cholesterol-transport genes such as ABCA1, ABCG1 and ApoE across the blood–brain barrier.",
+      "zh-TW": "24(S)-Hydroxycholesterol (24S-OHC) 是腦部主要的膽固醇清除 oxysterol，也是肝 X 受體的內源性配體，可誘發 ABCA1、ABCG1 與 ApoE 等逆向膽固醇運輸基因，作用可跨越血腦障壁。"
+    },
+    "confidence": 0.92,
+    "source_document": "24(S)-Hydroxycholesterol.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "810c3f706bfc",
+    "subject": "24(S)-Hydroxycholesterol",
+    "predicate": "induces",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "24S-OHC is biphasic in neurons: at high concentration it induces non-apoptotic programmed death in cells with low Caspase-8 expression, a modality the note places at the Apoptosis/Necroptosis fate boundary — so controlling 24S-OHC levels may prevent progressive neurodegeneration.",
+      "zh-TW": "24S-OHC 對神經元具有雙相作用：高濃度時會在 Caspase-8 低表現的細胞中誘導非凋亡性的程序性死亡，該筆記將此模式置於 Apoptosis/Necroptosis 的命運邊界，因此控制 24S-OHC 濃度可能可預防進行性的神經退化。"
+    },
+    "confidence": 0.85,
+    "source_document": "24(S)-Hydroxycholesterol.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "3c1eae2b9940",
+    "subject": "24(S)-Hydroxycholesterol",
+    "predicate": "reduces",
+    "object": "Amyloid Beta",
+    "context": {
+      "en-US": "At physiological concentration the ester form of 24(S)-Hydroxycholesterol inhibits Amyloid Beta production in neurons, an anti-amyloidogenic effect that is lost when its level rises high enough to trigger death signalling.",
+      "zh-TW": "在生理濃度下，24(S)-Hydroxycholesterol 的酯型可抑制神經元產生 Amyloid Beta；當其濃度升高到足以啟動死亡訊號時，這項抗類澱粉樣生成的作用便消失。"
+    },
+    "confidence": 0.8,
+    "source_document": "24(S)-Hydroxycholesterol.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "10c109377a07",
+    "subject": "3-Hydroxykynurenine",
+    "predicate": "is_derived_from",
+    "object": "Kynurenine",
+    "context": {
+      "en-US": "3-Hydroxykynurenine (3-HK) is generated from Kynurenine by the enzyme kynurenine 3-monooxygenase (KMO) within the Kynurenine Pathway, and is further metabolized to Quinolinic Acid via 3-hydroxyanthranilic acid.",
+      "zh-TW": "3-Hydroxykynurenine (3-HK) 在 Kynurenine Pathway 中由酵素 kynurenine 3-monooxygenase (KMO) 以 Kynurenine 為前驅物生成，並經 3-羥基鄰氨基苯甲酸進一步代謝為 Quinolinic Acid。"
+    },
+    "confidence": 0.95,
+    "source_document": "3-Hydroxykynurenine.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "3aa0af4a08c6",
+    "subject": "3-Hydroxykynurenine",
+    "predicate": "contributes_to",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "3-Hydroxykynurenine is highly redox-active and generates Reactive Oxygen Species by autooxidation, contributing to Oxidative Stress wherever the Kynurenine Pathway is overactivated, notably in brain and tumour microenvironment.",
+      "zh-TW": "3-Hydroxykynurenine 具有高度氧化還原活性，會經由自氧化產生 Reactive Oxygen Species，因此在 Kynurenine Pathway 過度活化的狀況（尤其在腦部與腫瘤微環境）促成 Oxidative Stress。"
+    },
+    "confidence": 0.92,
+    "source_document": "3-Hydroxykynurenine.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "940cda2b3368",
+    "subject": "3-Hydroxykynurenine",
+    "predicate": "is_precursor_of",
+    "object": "Quinolinic Acid",
+    "context": {
+      "en-US": "3-Hydroxykynurenine sits upstream of Quinolinic Acid in the Kynurenine Pathway, being converted through 3-hydroxyanthranilic acid; the neurotoxicity attributed to this branch is a major reason the pathway is a therapeutic target.",
+      "zh-TW": "在 Kynurenine Pathway 中，3-Hydroxykynurenine 位於 Quinolinic Acid 上游，經由 3-羥基鄰氨基苯甲酸轉換；此分支被歸咎的神經毒性是該途徑成為治療標的的主要原因之一。"
+    },
+    "confidence": 0.9,
+    "source_document": "3-Hydroxykynurenine.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "76ccb077a253",
+    "subject": "5xFAD",
+    "predicate": "models",
+    "object": "Alzheimer's Disease",
+    "context": {
+      "en-US": "5xFAD is a transgenic mouse model that co-expresses five familial Alzheimer's Disease mutations in APP and PSEN1, driving aggressive, early-onset Amyloid Beta plaque deposition. It reproduces amyloid pathology faithfully but with accelerated phenotypes relative to late-onset human disease.",
+      "zh-TW": "5xFAD 是轉殖小鼠模型，共表達 APP 與 PSEN1 上五個家族性 Alzheimer's Disease 突變，造成侵襲性、早發的 Amyloid Beta 斑塊沉積。它能忠實重現類澱粉樣病變，但表型相較於晚發型人類疾病更為加速。"
+    },
+    "confidence": 0.95,
+    "source_document": "5xFAD.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "5d86b1bee37e",
+    "subject": "5xFAD",
+    "predicate": "is_used_to_study",
+    "object": "cGAS-STING Pathway",
+    "context": {
+      "en-US": "In 5xFAD mice, microglial cGAS deletion increases recruitment of Microglia to amyloid plaques and enhances Aβ clearance while suppressing IFN-I signaling — establishing that cGAS-STING inhibition can uncouple neurotoxic inflammation from beneficial phagocytosis, and making the model a testbed for cGAS and STING inhibitors.",
+      "zh-TW": "在 5xFAD 小鼠中，微膠細胞的 cGAS 剔除會增加 Microglia 被招募至類澱粉樣斑塊並提升 Aβ 清除，同時抑制 IFN-I 訊號——證明抑制 cGAS-STING 可將神經毒性發炎與有益的吞噬作用解耦，也使此模型成為測試 cGAS 與 STING 抑制劑的平台。"
+    },
+    "confidence": 0.9,
+    "source_document": "5xFAD.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "b2ec94fdf9df",
+    "subject": "ABCG1",
+    "predicate": "transports",
+    "object": "Cholesterol",
+    "context": {
+      "en-US": "ABCG1 is a half-transporter that dimerizes to move Cholesterol and oxysterols across the plasma membrane from the inner to the outer leaflet, delivering them to mature HDL particles. It is a central effector of reverse cholesterol transport, working alongside ABCA1.",
+      "zh-TW": "ABCG1 是半轉位子，二聚化後將 Cholesterol 與 oxysterol 由細胞膜內葉移至外葉，再交付給成熟 HDL 顆粒。它是逆向膽固醇運輸的核心效應者，與 ABCA1 協同作用。"
+    },
+    "confidence": 0.95,
+    "source_document": "ABCG1.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "1521a56e2468",
+    "subject": "LXRα",
+    "predicate": "upregulates",
+    "object": "ABCG1",
+    "context": {
+      "en-US": "ABCG1 transcription is strongly induced by the liver X receptors (LXRα/β) in response to accumulating oxysterols, coupling intracellular sterol load to efflux capacity. In macrophage foam cells ABCG1-driven cholesterol export to HDL protects against Atherosclerosis.",
+      "zh-TW": "ABCG1 的轉錄會在 oxysterol 累積時受到肝 X 受體 (LXRα/β) 強烈誘導，將細胞內類固醇負載與外排能力相連結。在巨噬細胞泡沫細胞中，ABCG1 驅動的膽固醇外排至 HDL 可防止 Atherosclerosis。"
+    },
+    "confidence": 0.9,
+    "source_document": "ABCG1.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "8799ca147853",
+    "subject": "ABCG1",
+    "predicate": "protects_against",
+    "object": "Atherosclerosis",
+    "context": {
+      "en-US": "By exporting cholesterol from lipid-laden macrophage foam cells to HDL, ABCG1 limits arterial lipid accumulation and modulates Atherosclerosis progression; ABCG1 also works upstream of it in concert with ABCA1, which lipidates apolipoprotein A-I.",
+      "zh-TW": "ABCG1 將膽固醇由富含脂質的巨噬細胞泡沫細胞外排至 HDL，因而限制動脈壁脂質累積並調節 Atherosclerosis 進展；ABCG1 也與 ABCA1 協同，後者負責脂質化 apolipoprotein A-I。"
+    },
+    "confidence": 0.9,
+    "source_document": "ABCG1.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "fe4b35fd92b6",
+    "subject": "ACKR3",
+    "predicate": "binds",
+    "object": "CXCL12",
+    "context": {
+      "en-US": "ACKR3 (formerly CXCR7) is an atypical scavenger/decoy receptor for CXCL12 that, unlike classical GPCRs, signals mainly through β-arrestin-dependent pathways. By sequestering CXCL12 it shapes chemokine gradients and modulates CXCR4-mediated signaling.",
+      "zh-TW": "ACKR3（舊稱 CXCR7）是 CXCL12 的非典型清除型/誘餌受體，與典型 GPCR 不同，主要透過 β-arrestin 依賴的途徑傳訊。藉由隔離 CXCL12，它塑造趨化激素梯度並調節 CXCR4 媒介的訊號。"
+    },
+    "confidence": 0.92,
+    "source_document": "ACKR3.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "3467c68bfe7e",
+    "subject": "Fisetin",
+    "predicate": "reverses",
+    "object": "ACKR3",
+    "context": {
+      "en-US": "Senolytic treatment with Fisetin normalized age-altered chemokine communication in endothelial cells: the elevated Cxcl12-Ackr3 interactions in old vehicle mice and the reduced Cxcl12-Cxcr4 interactions were both reversed, restoring a young-like signaling pattern and improving endothelial function.",
+      "zh-TW": "以 Fisetin 進行 senolytic 治療可矯正內皮細胞中隨年齡改變的趨化激素溝通：老年給予溶劑組升高的 Cxcl12-Ackr3 互作與下降的 Cxcl12-Cxcr4 互作都被逆轉，恢復類似年輕的訊號型態並改善內皮功能。"
+    },
+    "confidence": 0.85,
+    "source_document": "ACKR3.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "41e28c0315a2",
+    "subject": "ACKR3",
+    "predicate": "is_associated_with",
+    "object": "Senescence",
+    "context": {
+      "en-US": "In senescent endothelial cells ACKR3 mRNA is lower with aging but CXCL12-ACKR3 interaction strength is increased, so the shift from CXCR4- to ACKR3-dominant signalling may act as a molecular switch that reinforces the senescent phenotype and promotes endothelial dysfunction.",
+      "zh-TW": "在衰老內皮細胞中，ACKR3 的 mRNA 隨年齡下降但 CXCL12-ACKR3 互作強度上升，因此由 CXCR4 為主轉為 ACKR3 為主的訊號轉換，可能是強化衰老表型並促進內皮功能障礙的分子開關。"
+    },
+    "confidence": 0.82,
+    "source_document": "ACKR3.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "2e0cdf1dfec0",
+    "subject": "ACLY",
+    "predicate": "produces",
+    "object": "Acetyl-CoA",
+    "context": {
+      "en-US": "ACLY is the cytosolic enzyme that cleaves Citrate into Acetyl-CoA and oxaloacetate in an ATP- and CoA-dependent reaction, linking mitochondria-derived citrate to the nuclear acetyl-CoA pool that feeds de novo lipogenesis and Histone Acetylation.",
+      "zh-TW": "ACLY 是細胞質酵素，在 ATP 與 CoA 依賴的反應中將 Citrate 切割為 Acetyl-CoA 與草醯乙酸，把來自粒線體的 citrate 連結到供去新生脂質生成與 Histone Acetylation 使用的核內 acetyl-CoA 池。"
+    },
+    "confidence": 0.95,
+    "source_document": "ACLY.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "b723407752a5",
+    "subject": "ACLY",
+    "predicate": "is_required_for",
+    "object": "SASP",
+    "context": {
+      "en-US": "ACLY is upregulated across irradiation-induced, replicative and doxorubicin-induced senescence models, and silencing it lowers both H3K27ac and SASP gene expression. ACLY-derived cytosolic acetyl-CoA therefore gates the epigenetic activation of the senescence-associated secretory programme.",
+      "zh-TW": "ACLY 在輻射誘導、複製性與 doxorubicin 誘導的衰老模型中皆上调；將其靜音會同時降低 H3K27ac 與 SASP 基因表現。因此 ACLY 產生的細胞質 acetyl-CoA 是衰老相關分泌程式的表觀遺傳活化關卡。"
+    },
+    "confidence": 0.92,
+    "source_document": "ACLY.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "3fd89c515ff4",
+    "subject": "SLC25A1",
+    "predicate": "transports",
+    "object": "Citrate",
+    "context": {
+      "en-US": "SLC25A1 exports mitochondrial Citrate into the cytosol, providing the principal substrate that ACLY converts to cytosolic Acetyl-CoA. Citrate supplementation that mimics this supply raises histone acetylation and induces pro-inflammatory gene expression.",
+      "zh-TW": "SLC25A1 將粒線體的 Citrate 輸出至細胞質，提供 ACLY 轉換成細胞質 Acetyl-CoA 的主要受質。補充 citrate 以模擬此供應會提高組蛋白乙醯化並誘發促發炎基因表現。"
+    },
+    "confidence": 0.88,
+    "source_document": "ACLY.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "d45cd63aed0f",
+    "subject": "ACSS2",
+    "predicate": "produces",
+    "object": "Acetyl-CoA",
+    "context": {
+      "en-US": "ACSS2 is a nuclear-cytosolic acetyl-CoA synthetase that ligates Acetate to coenzyme A to form Acetyl-CoA. Because acetyl-CoA is not membrane permeable, exogenous acetate must be converted intracellularly by ACSS2 to replenish the nuclear pool used for Histone Acetylation.",
+      "zh-TW": "ACSS2 是核—細胞質的 acetyl-CoA 合成酶，催化 Acetate 與輔酶 A 結合形成 Acetyl-CoA。由於 acetyl-CoA 不能穿透細胞膜，外加的 acetate 必須由 ACSS2 在細胞內轉換，才能補回供 Histone Acetylation 使用的核內 acetyl-CoA 池。"
+    },
+    "confidence": 0.95,
+    "source_document": "ACSS2.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "908bcdb68071",
+    "subject": "ACTA2",
+    "predicate": "marks",
+    "object": "Endothelial-to-Mesenchymal Transition",
+    "context": {
+      "en-US": "ACTA2 (α-SMA) is upregulated 5.4-fold during CXCL12-driven Endothelial-to-Mesenchymal Transition, alongside TGFB1, while CDH5 and PECAM1 fall — the reciprocal switch marks acquisition of a contractile mesenchymal/myofibroblast identity.",
+      "zh-TW": "在 CXCL12 驅動的 Endothelial-to-Mesenchymal Transition 中，ACTA2 (α-SMA) 上升 5.4 倍、TGFB1 同步上升，而 CDH5 與 PECAM1 下降——這種反向轉換標誌著收縮性間質/肌成纖維細胞身分的獲得。"
+    },
+    "confidence": 0.9,
+    "source_document": "ACTA2.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "e3e685a50a82",
+    "subject": "TGFβ",
+    "predicate": "upregulates",
+    "object": "ACTA2",
+    "context": {
+      "en-US": "ACTA2 expression is driven by TGF-β/SMAD signalling together with serum response factor (SRF) and myocardin, with TGFβ acting as the upstream inducer of ACTA2 during endothelial-to-mesenchymal conversion and fibrosis.",
+      "zh-TW": "ACTA2 的表現由 TGF-β/SMAD 訊號搭配血清反應因子 (SRF) 與 myocardin 驅動，其中 TGFβ 是內皮—間質轉換與纖維化過程中誘導 ACTA2 的上游因子。"
+    },
+    "confidence": 0.85,
+    "source_document": "ACTA2.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "a31673e79593",
+    "subject": "ADAM10",
+    "predicate": "cleaves",
+    "object": "APP",
+    "context": {
+      "en-US": "ADAM10 is the principal α-secretase of APP: cleaving APP within the Aβ sequence releases a soluble sAPPα ectodomain and precludes generation of neurotoxic Amyloid Beta, positioning ADAM10 on the non-amyloidogenic branch of APP processing opposite to the BACE1 β-secretase pathway.",
+      "zh-TW": "ADAM10 是 APP 的主要 α-secretase：在 Aβ 序列內切斷 APP 會釋出可溶性的 sAPPα 胞外區段，並阻斷具神經毒性的 Amyloid Beta 生成，使 ADAM10 位於 APP 處理的非類澱粉樣生成分支，與 BACE1 的 β-secretase 途徑相對。"
+    },
+    "confidence": 0.95,
+    "source_document": "ADAM10.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "9b2dad39204e",
+    "subject": "SIRT1",
+    "predicate": "upregulates",
+    "object": "ADAM10",
+    "context": {
+      "en-US": "In an Alzheimer's Disease mouse model, SIRT1-mediated deacetylation of RARβ activates ADAM10 transcription, raising α-secretase activity and directing APP away from BACE1 processing to attenuate β-amyloid; brain-specific Sirt1 knockout conversely increases aggregates and worsens phenotypes.",
+      "zh-TW": "在 Alzheimer's Disease 小鼠模型中，SIRT1 對 RARβ 的去乙醯化會活化 ADAM10 轉錄，提升 α-secretase 活性並使 APP 遠離 BACE1 處理而減輕 β-類澱粉樣蛋白；反之，腦部特異性 Sirt1 剔除會增加聚集物並惡化表型。"
+    },
+    "confidence": 0.9,
+    "source_document": "ADAM10.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "5af641aef1ce",
+    "subject": "ADAM10",
+    "predicate": "reduces",
+    "object": "Amyloid Beta",
+    "context": {
+      "en-US": "ADAM10 activity attenuates Amyloid Beta production by cleaving APP non-amyloidogenically; inhibiting or losing this α-secretase shifts APP toward BACE1 and increases plaque burden, which is why ADAM10 is framed as an anti-amyloid gatekeeper.",
+      "zh-TW": "ADAM10 的活性透過非類澱粉樣方式切斷 APP 而降低 Amyloid Beta 生成；抑制或喪失此 α-secretase 會使 APP 轉向 BACE1 並增加斑塊負擔，因此 ADAM10 被視為抗類澱粉樣的關卡守門者。"
+    },
+    "confidence": 0.9,
+    "source_document": "ADAM10.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "613a2fe94f64",
+    "subject": "ADM",
+    "predicate": "is_a_component_of",
+    "object": "DNAmGrimAge",
+    "context": {
+      "en-US": "DNA methylation surrogates of ADM are components of the DNAmGrimAge clock alongside Cystatin C, B2M, GDF15 and PAI-1, translating circulating adrenomedullin levels into an accelerated-aging signal.",
+      "zh-TW": "ADM 的 DNA 甲基化替代指標是 DNAmGrimAge 時鐘的組成成分，與 Cystatin C、B2M、GDF15 及 PAI-1 並列，將循環中的腎上腺髓質素濃度轉譯為加速老化訊號。"
+    },
+    "confidence": 0.9,
+    "source_document": "ADM.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "917f70fd5f25",
+    "subject": "ADP-ribose",
+    "predicate": "activates",
+    "object": "TRPM2",
+    "context": {
+      "en-US": "Free ADP-ribose released by PARG/ARH3 hydrolysis of PAR binds the NUDT9-homology domain of TRPM2 and opens the channel to Ca2+, linking PARP1 hyperactivation in Parthanatos to calcium influx and downstream Calpain and mitochondrial permeability transition.",
+      "zh-TW": "由 PARG/ARH3 水解 PAR 釋出的游離 ADP-ribose 會結合 TRPM2 的 NUDT9 同源結構域並開啟通道讓 Ca2+ 通過，將 Parthanatos 中的 PARP1 過度活化連結到鈣離子流入及下游的 Calpain 與粒線體通透性轉換。"
+    },
+    "confidence": 0.93,
+    "source_document": "ADP-ribose.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "6ef035cfd066",
+    "subject": "PARG",
+    "predicate": "produces",
+    "object": "ADP-ribose",
+    "context": {
+      "en-US": "PARG, together with ARH3, hydrolyzes PAR chains to free ADP-ribose. In parthanatos, PARG-dependent free-ADP-ribose generation is required for TRPM2 gating, whereas endoplasmic reticulum Ca2+ release was PARG-independent.",
+      "zh-TW": "PARG 與 ARH3 一起將 PAR 鏈水解成游離 ADP-ribose。在 parthanatos 中，TRPM2 的開啟需要 PARG 依賴的游離 ADPR 生成，而內質網的 Ca2+ 釋放則不依賴 PARG。"
+    },
+    "confidence": 0.92,
+    "source_document": "ADP-ribose.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "f3405301f0bf",
+    "subject": "Nudix Hydrolases",
+    "predicate": "converts_to",
+    "object": "AMP",
+    "context": {
+      "en-US": "Nudix Hydrolases cleave free ADP-ribose into AMP plus ribose-5-phosphate, an AMP/salvage arm of the parthanatos cascade. AMP can inhibit the mitochondrial adenine nucleotide translocator and activate AMPK–mTORC1 signalling, and ribose-5-phosphate feeds NAD+ salvage.",
+      "zh-TW": "Nudix Hydrolases 將游離 ADP-ribose 切割成 AMP 與核糖-5-磷酸，構成 parthanatos 級聯中的 AMP/回收分支。AMP 可抑制粒線體腺嘌呤核苷轉位酶並活化 AMPK–mTORC1 訊號，核糖-5-磷酸則供應 NAD+ 回收途徑。"
+    },
+    "confidence": 0.88,
+    "source_document": "ADP-ribose.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "c2dacdd272f4",
+    "subject": "ADP",
+    "predicate": "activates",
+    "object": "AMPK",
+    "context": {
+      "en-US": "A transient rise in ADP (and AMP) during exercise or fasting signals a cellular energy deficit, activating AMPK, which then stimulates PGC-1α and mitochondrial biogenesis as part of mitohormetic adaptation.",
+      "zh-TW": "運動或禁食期間 ADP（與 AMP）的暫時上升代表細胞能量赤字，會活化 AMPK，後者再刺激 PGC-1α 與粒線體生合成，構成 mitohormetic 適應的一部分。"
+    },
+    "confidence": 0.9,
+    "source_document": "ADP.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "3d212a7c28c7",
+    "subject": "Creatine",
+    "predicate": "regenerates",
+    "object": "ADP",
+    "context": {
+      "en-US": "The phosphocreatine shuttle regenerates ADP to ATP: creatine accepts a phosphate from ATP via creatine kinase to form phosphocreatine, which then rapidly donates it back to ADP, buffering the ATP/ADP ratio during intense effort and protecting HRV.",
+      "zh-TW": "磷酸肌酸循環可將 ADP 再生回 ATP：creatine 經 creatine kinase 從 ATP 接受磷酸基形成磷酸肌酸，再迅速將磷酸基捐回 ADP，在劇烈運動時緩衝 ATP/ADP 比值並保護 HRV。"
+    },
+    "confidence": 0.9,
+    "source_document": "ADP.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "3618efeb6a6c",
+    "subject": "AGE-1",
+    "predicate": "regulates",
+    "object": "Lifespan",
+    "context": {
+      "en-US": "AGE-1 is the C. elegans class-I PI3K catalytic subunit downstream of the DAF-2 insulin/IGF-1 receptor; reduced AGE-1 signalling derepresses DAF-16/FOXO and extends Lifespan. The age-1(hx546) mutant was among the first single-gene longevity mutants.",
+      "zh-TW": "AGE-1 是 C. elegans 的第一類 PI3K 催化次單元，位於 DAF-2 胰島素/IGF-1 受體下游；AGE-1 訊號下降會解除對 DAF-16/FOXO 的抑制並延長 Lifespan。age-1(hx546) 突變株是最早的單基因長壽突變株之一。"
+    },
+    "confidence": 0.95,
+    "source_document": "AGE-1.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "2426760f3474",
+    "subject": "AGE-1",
+    "predicate": "interacts_with",
+    "object": "CeTOR",
+    "context": {
+      "en-US": "AGE-1 sits in the conserved nutrient-sensing longevity axis alongside CeTOR, mTOR and AMPK, coupling nutrient/insulin signalling to TOR control of growth, stress resistance and aging in Caenorhabditis elegans.",
+      "zh-TW": "AGE-1 位於與 CeTOR、mTOR、AMPK 相同的保守營養感知長壽軸上，在 Caenorhabditis elegans 中把營養/胰島素訊號與 TOR 對生長、抗逆境能力及老化的控制相連結。"
+    },
+    "confidence": 0.85,
+    "source_document": "AGE-1.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "1a393823c8f5",
+    "subject": "AICAR",
+    "predicate": "activates",
+    "object": "AMPK",
+    "context": {
+      "en-US": "AICAR enters cells and is phosphorylated by adenosine kinase to ZMP, an AMP mimic that allosterically activates AMPK without depleting cellular ATP. AICAR is therefore the standard pharmacological probe of AMPK-dependent metabolism.",
+      "zh-TW": "AICAR 進入細胞後由腺苷激酶磷酸化成 ZMP；ZMP 是 AMP 的模擬物，可在不耗竭細胞 ATP 的情況下異位活化 AMPK。因此 AICAR 是研究 AMPK 依賴代謝的標準藥理探針。"
+    },
+    "confidence": 0.95,
+    "source_document": "AICAR.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "130066a2b886",
+    "subject": "AICAR",
+    "predicate": "promotes",
+    "object": "Mitochondrial Biogenesis",
+    "context": {
+      "en-US": "AICAR-driven AMPK activation promotes Mitochondrial Biogenesis partly through PGC-1α, upregulating catabolic pathways such as Fatty acid oxidation and GLUT4 translocation. This has made AICAR a widely used 'exercise mimetic'.",
+      "zh-TW": "AICAR 引發的 AMPK 活化會部分透過 PGC-1α 促進 Mitochondrial Biogenesis，並上調脂肪酸氧化與 GLUT4 轉位等分解代謝途徑。這使 AICAR 成為廣泛使用的「運動模擬劑」。"
+    },
+    "confidence": 0.9,
+    "source_document": "AICAR.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "0f7b7c06b24b",
+    "subject": "AICAR",
+    "predicate": "mimics",
+    "object": "Exercise",
+    "context": {
+      "en-US": "AICAR has been characterized as an exercise mimetic because it reproduces several endurance-training metabolic adaptations in skeletal muscle, which is also why it appears on anti-doping prohibited lists.",
+      "zh-TW": "AICAR 被視為運動模擬劑，因為它能重現骨骼肌中多項耐力訓練的代謝適應；這也是它被列入禁用物質清單的原因。"
+    },
+    "confidence": 0.88,
+    "source_document": "AICAR.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "b5e6cf15f312",
+    "subject": "AIM2",
+    "predicate": "activates",
+    "object": "Inflammasome",
+    "context": {
+      "en-US": "AIM2 is a cytosolic double-stranded DNA sensor of the PYHIN family. On binding dsDNA it oligomerizes with the adaptor ASC to form an Inflammasome, which activates caspase-1 to drive Pyroptosis and release IL-1β and IL-18.",
+      "zh-TW": "AIM2 是 PYHIN 家族的細胞質雙股 DNA 感測器。結合 dsDNA 後它會與接合蛋白 ASC 聚集形成 Inflammasome，活化 caspase-1，進而引發 Pyroptosis 並釋放 IL-1β 與 IL-18。"
+    },
+    "confidence": 0.95,
+    "source_document": "AIM2.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "b2cceb819583",
+    "subject": "AIM2",
+    "predicate": "is_contrasted_with",
+    "object": "cGAS",
+    "context": {
+      "en-US": "AIM2 and cGAS are parallel cytosolic dsDNA sensors engaging distinct effectors: cGAS synthesizes cGAMP to activate the cGAS-STING Pathway and type I IFN, whereas AIM2 assembles an inflammasome that executes inflammatory cell death. Cytosolic DNA of viral, mtDNA or DNA Damage origin can therefore engage either axis.",
+      "zh-TW": "AIM2 與 cGAS 是兩個平行但效應器不同的細胞質 dsDNA 感測器：cGAS 合成 cGAMP 以活化 cGAS-STING Pathway 與第一型 IFN，而 AIM2 則組裝 inflammasome 執行發炎性細胞死亡。因此病毒、mtDNA 或 DNA Damage 來源的細胞質 DNA 皆可啟動其中任一軸。"
+    },
+    "confidence": 0.9,
+    "source_document": "AIM2.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "0923c3f81a33",
+    "subject": "Drosha",
+    "predicate": "promotes",
+    "object": "AIM2",
+    "context": {
+      "en-US": "In Idiopathic Pulmonary Fibrosis, Drosha and AIM2 protein are both elevated in alveolar macrophages, and Drosha deficiency suppresses AIM2 inflammasome-dependent caspase-1 activation and IL-1β/IL-18 secretion, placing the Microprocessor complex upstream of the AIM2 inflammasome.",
+      "zh-TW": "在 Idiopathic Pulmonary Fibrosis 中，肺泡巨噬細胞的 Drosha 與 AIM2 蛋白皆升高；Drosa 缺失會抑制 AIM2 inflammasome 相關的 caspase-1 活化與 IL-1β/IL-18 分泌，顯示 Microprocessor complex 位於 AIM2 inflammasome 上游。"
+    },
+    "confidence": 0.9,
+    "source_document": "AIM2.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "208412ccacff",
+    "subject": "AIM2",
+    "predicate": "contributes_to",
+    "object": "Neuroinflammation",
+    "context": {
+      "en-US": "AIM2 inflammasome activation in microglia and other CNS cells can exacerbate Neuroinflammation and contribute to neurodegeneration, paralleling the pathological consequences of chronic cGAS-STING activation; both sensors are therefore context-dependent targets in neurological disease.",
+      "zh-TW": "AIM2 inflammasome 在小膠細胞與其他中樞神經細胞中的活化會加劇 Neuroinflammation 並促成神經退化，與 cGAS-STING 慢性活化的病理後果平行；因此兩個感測器都是神經疾病中具情境依賴性的治療標的。"
+    },
+    "confidence": 0.85,
+    "source_document": "AIM2.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "793c85be9d8b",
+    "subject": "ALOX15",
+    "predicate": "induces",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "ALOX15 (15-LOX) is a non-heme iron dioxygenase that oxygenates PUFA-phosphatidylethanolamines to PE-OOH hydroperoxides. Downstream of the p53–SAT1 axis it catalyzes the terminal oxidation step that commits the cell to Ferroptosis once GPX4 defences are overwhelmed.",
+      "zh-TW": "ALOX15 (15-LOX) 是非血基質鐵雙加氧酶，將 PUFA-磷脂乙醇胺氧化成 PE-OOH 過氧化氫。在 p53–SAT1 軸下游，當 GPX4 防禦被壓過時，它催化將細胞推入 Ferroptosis 的末端氧化步驟。"
+    },
+    "confidence": 0.93,
+    "source_document": "ALOX15.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "99d7d2af5a8b",
+    "subject": "SAT1",
+    "predicate": "upregulates",
+    "object": "ALOX15",
+    "context": {
+      "en-US": "In the p53 pathway, SAT1 is a p53 transcriptional target whose induction drives ALOX15-dependent lipid peroxidation, so SAT1 sits upstream of the lipoxygenase that executes ferroptotic death (PMID: 25799957).",
+      "zh-TW": "在 p53 途徑中，SAT1 是 p53 的轉錄標的，其誘導會推動 ALOX15 依賴的脂質過氧化，因此 SAT1 位於執行鐵死亡死亡的脂氧酶上游 (PMID: 25799957)。"
+    },
+    "confidence": 0.9,
+    "source_document": "ALOX15.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "a338d2268a79",
+    "subject": "ACSL4",
+    "predicate": "enriches",
+    "object": "Phosphatidylethanolamine",
+    "context": {
+      "en-US": "ACSL4 activates long-chain PUFAs such as arachidonic acid to acyl-CoA thioesters that feed phospholipid remodeling, enriching the sn-2 position of phosphatidylethanolamines and phosphatidylcholines with oxidizable PUFAs — the direct substrates of lipid peroxidation.",
+      "zh-TW": "ACSL4 將 Arachidonic acid 等長鏈多不飽和脂肪酸活化為 acyl-CoA 硫酯以供磷脂重塑，富含 sn-2 位置的磷脂乙醇胺與磷脂醯膽鹼被氧化性多不飽和脂肪酸——正是脂質過氧化的直接受質。"
+    },
+    "confidence": 0.9,
+    "source_document": "ACSL4.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "b1f0feec5455",
+    "subject": "ACSL4",
+    "predicate": "increases_susceptibility_to",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "ACSL4 is a well-established positive regulator of Ferroptosis: overexpression raises membrane PUFA-phospholipid content and ferroptosis sensitivity, while knockdown protects cells from RSL3 and GPX4 inhibition. ACSL4 is itself up-regulated during senescence.",
+      "zh-TW": "ACSL4 是公認的 Ferroptosis 正向調節者：過表現會提高膜上 PUFA-磷脂含量與鐵死亡敏感度，而敲低則可保護細胞免受 RSL3 與 GPX4 抑制的影響。ACSL4 本身也會在衰老期間上调。"
+    },
+    "confidence": 0.94,
+    "source_document": "ACSL4.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "a546e3fe6b4c",
+    "subject": "ALOX5",
+    "predicate": "produces",
+    "object": "Lipid Peroxidation",
+    "context": {
+      "en-US": "ALOX5 (5-LOX) oxygenates arachidonate to leukotriene precursors and peroxidized membrane lipids. In hemorrhagic Stroke, N-acetylcysteine inhibits heme-induced neuronal ferroptosis by neutralizing these ALOX5-dependent toxic lipids, implicating the enzyme in neuronal death downstream of heme/iron liberation.",
+      "zh-TW": "ALOX5 (5-LOX) 將花生四烯酸氧化成白三烯前驅物與過氧化膜脂質。在出血性 Stroke 中，N-acetylcysteine 藉由中和這些 ALOX5 依賴的毒性脂質來抑制血基質誘導的神經元鐵死亡，顯示此酵素參與血基質/鐵釋放後的神經元死亡。"
+    },
+    "confidence": 0.9,
+    "source_document": "ALOX5.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "c0f125cbece0",
+    "subject": "ALOX5",
+    "predicate": "is_contrasted_with",
+    "object": "ALOX15",
+    "context": {
+      "en-US": "ALOX5 and ALOX15 are the two lipoxygenase isoforms emphasized in ferroptosis: ALOX15 drives the canonical p53/SAT1 programme through PUFA-PE peroxidation, whereas ALOX5 is highlighted in heme/iron-driven neuronal ferroptosis of hemorrhagic Stroke — different enzyme, different trigger, same lethal lipid peroxidation.",
+      "zh-TW": "ALOX5 與 ALOX15 是鐵死亡中被強調的兩種脂氧酶異構型：ALOX15 經由 PUFA-PE 過氧化驅動典型的 p53/SAT1 程式，而 ALOX5 則在出血性 Stroke 的血基質/鐵驅動神經元鐵死亡中被突出——酵素不同、觸發因素不同，致命的脂質過氧化則相同。"
+    },
+    "confidence": 0.88,
+    "source_document": "ALOX5.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "b7c6941a0413",
+    "subject": "SARM1",
+    "predicate": "contributes_to",
+    "object": "ALS",
+    "context": {
+      "en-US": "SARM1 is upregulated in spinal motor neurons in ALS, and SARM1 knockout modestly extends survival in the SOD1G93A mouse model, implicating SARM1-mediated NAD+ depletion and axonal degeneration in motor neuron vulnerability. The shared NAD+ consumer network (CD38, PARP1, sirtuins) modulates the metabolic stress background.",
+      "zh-TW": "ALS 的脊髓運動神經元中 SARM1 會上调，且在 SOD1G93A 小鼠模型中剔除 SARM1 可小幅延長存活，顯示 SARM1 媒介的 NAD+ 耗竭與軸突退化參與運動神經元的易損性。共用的 NAD+ 消耗者網絡 (CD38、PARP1、sirtuins) 則調節其代謝壓力背景。"
+    },
+    "confidence": 0.92,
+    "source_document": "ALS.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "4f8647392c33",
+    "subject": "SIRT6",
+    "predicate": "protects_against",
+    "object": "ALS",
+    "context": {
+      "en-US": "SIRT6 activity abrogates the neurotoxicity of ALS-linked mutant SOD1 in astrocytes, whereas SIRT1 and SIRT3 are increased in SOD1G93A mice and in ALS spinal cord respectively, implicating sirtuin dysregulation in the disease.",
+      "zh-TW": "SIRT6 活性可消除 ALS 相關突變型 SOD1 在星狀膠細胞中的神經毒性，而 SIRT1 與 SIRT3 則分別在 SOD1G93A 小鼠與 ALS 脊髓中升高，顯示 sirtuin 調節異常與此疾病有關。"
+    },
+    "confidence": 0.88,
+    "source_document": "ALS.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "c7bdb02d0b5d",
+    "subject": "SIRT3",
+    "predicate": "activates",
+    "object": "AMPK-PGC-1α Pathway",
+    "context": {
+      "en-US": "SIRT3 sits upstream of the AMPK–PGC-1α axis: it deacetylates and stimulates AMPK and components of the respiratory chain, shifting metabolism from glycolytic reliance toward oxidative phosphorylation and new mitochondrion formation. This is a core mechanism of SIRT3's metabolic and cardioprotective effects.",
+      "zh-TW": "SIRT3 位於 AMPK–PGC-1α 軸的上游：它去乙醯化並活化 AMPK 與呼吸鏈的組成成分，使代謝由偏好糖解轉向氧化磷酸化與新生粒線體。這是 SIRT3 代謝與心臟保護效應的核心機制。"
+    },
+    "confidence": 0.93,
+    "source_document": "AMPK-PGC-1α Pathway.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "b3256f55a5d3",
+    "subject": "AMPK-PGC-1α Pathway",
+    "predicate": "promotes",
+    "object": "Mitochondrial Biogenesis",
+    "context": {
+      "en-US": "In the AMPK-PGC-1α Pathway, energy stress raises AMPK activity, AMPK phosphorylates PGC-1α, and the coactivator partners with transcription factors such as NRFs and ERRα to induce nuclear-encoded mitochondrial genes, elevating mitochondrial number, capacity, ATP output and stress resistance.",
+      "zh-TW": "在 AMPK-PGC-1α Pathway 中，能量壓力提升 AMPK 活性，AMPK 磷酸化 PGC-1α，後者再與 NRF、ERRα 等轉錄因子合作誘導核編碼的粒線體基因，提升粒線體數量、容量、ATP 產出與抗逆境能力。"
+    },
+    "confidence": 0.95,
+    "source_document": "AMPK-PGC-1α Pathway.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "840eb5aa0eed",
+    "subject": "AMPK-PGC-1α Pathway",
+    "predicate": "enhances",
+    "object": "Oxidative Phosphorylation",
+    "context": {
+      "en-US": "By steering cells toward efficient oxidative metabolism, the AMPK-PGC-1α Pathway enhances energy production and resilience while limiting glycolytic dependence; enhancing its activity via exercise mimetics, metformin or sirtuin activation is pursued to counteract mitochondrial decline in aging and metabolic syndrome.",
+      "zh-TW": "藉由將細胞導向高效率的氧化代謝，AMPK-PGC-1α Pathway 提升能量生成與韌性，同時降低對糖解的依賴；透過運動模擬劑、metformin 或 sirtuin 活化來增強此軸，是對抗老化與代謝症候群中粒線體衰退的策略。"
+    },
+    "confidence": 0.9,
+    "source_document": "AMPK-PGC-1α Pathway.md",
+    "created": "2026-09-29T15:15:09Z",
+    "updated": "2026-09-29T15:15:09Z"
   }
 ]
