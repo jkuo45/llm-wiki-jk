@@ -90284,5 +90284,1405 @@
     "source_document": "Vitamin D.md",
     "created": "2026-09-29T18:04:22Z",
     "updated": "2026-09-29T18:04:22Z"
+  },
+  {
+    "id": "772fe8f5a139",
+    "subject": "Tryptophan",
+    "predicate": "is_converted_by",
+    "object": "Kynurenine Pathway",
+    "context": {
+      "en-US": "About 95% of dietary tryptophan that is not used for protein synthesis is catabolized through the Kynurenine Pathway, whose terminal product is NAD+; the remaining ~5% is diverted into serotonin synthesis. Tryptophan is therefore both the rate-limiting substrate of de novo NAD+ biosynthesis and the precursor of the neurotransmitter serotonin.",
+      "zh-TW": "約 95% 未用於蛋白質合成的飲食性 Tryptophan 會經由 Kynurenine Pathway 分解，其終產物為 NAD+；剩餘約 5% 則轉入 Serotonin 合成途徑。因此 Tryptophan 既是 NAD+ 從頭合成的速率限制底物，也是神經傳遞物質 Serotonin 的前驅物。"
+    },
+    "confidence": 0.95,
+    "source_document": "Tryptophan.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "41184198c114",
+    "subject": "IDO1",
+    "predicate": "converts",
+    "object": "Tryptophan",
+    "context": {
+      "en-US": "IDO1 (or TDO) catalyses the rate-limiting step of the Kynurenine Pathway, converting tryptophan to N-formylkynurenine. IDO1-mediated tryptophan depletion in the Tumor Microenvironment is a well-established mechanism of local immune suppression, linking tryptophan catabolism to tumor immune evasion.",
+      "zh-TW": "IDO1（或 TDO）催化 Kynurenine Pathway 的速率限制步驟，將 Tryptophan 轉為 N-Formylkynurenine。Tumor Microenvironment 中 IDO1 介導的 Tryptophan 耗竭是局部免疫抑制的確立機制，將 tryptophan 分解與腫瘤免疫逃逸連結起來。"
+    },
+    "confidence": 0.95,
+    "source_document": "Tryptophan.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "071390c135f4",
+    "subject": "Tumor-Associated Macrophage",
+    "predicate": "is_suppressed_by",
+    "object": "CD8+ T Cell",
+    "context": {
+      "en-US": "Tumor-associated macrophages are typically polarized to an immunosuppressive M2-like phenotype that secretes IL-10 and TGF-beta, supports angiogenesis, and suppresses cytotoxic CD8+ T-cell immunity. Their M2 polarization and consequent inhibition of CD8+ T cells make TAM density a negative prognostic factor in solid tumors.",
+      "zh-TW": "Tumor-Associated Macrophage 通常偏極化為免疫抑制的 M2-like 表型，分泌 IL-10 與 TGF-beta、促進血管新生，並抑制細胞毒性 CD8+ T cell 免疫。其 M2 極化與對 CD8+ T cell 的抑制，使 TAM 密度成為實體腫瘤的負面預後因子。"
+    },
+    "confidence": 0.9,
+    "source_document": "Tumor-Associated Macrophage.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "f980e0f30afb",
+    "subject": "SENP1",
+    "predicate": "deSUMOylates",
+    "object": "SIRT3",
+    "context": {
+      "en-US": "In tumor-associated macrophages, the SUMO protease SENP1 deSUMOylates the mitochondrial sirtuin SIRT3; SIRT3 SUMOylation deficiency enhances cholesterol synthesis, raises mitochondrial acetyl-CoA, and drives M2 polarization. This SENP1-SIRT3-cholesterol axis shows that mitochondrial sirtuin activity in immune host cells gates the anti-tumor cytotoxic response.",
+      "zh-TW": "在 Tumor-Associated Macrophage 中，SUMO 蛋白酶 SENP1 將粒線體 sirtuin SIRT3 去 SUMO 化；SIRT3 的 SUMO 化缺失會提升膽固醇合成、提高粒線體 acetyl-CoA，並驅動 M2 極化。此 SENP1-SIRT3-膽固醇軸顯示免疫宿主細胞中的粒線體 sirtuin 活性可調控抗腫瘤細胞毒性反應。"
+    },
+    "confidence": 0.9,
+    "source_document": "Tumor-Associated Macrophage.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "2b7276f9e471",
+    "subject": "SIRT3",
+    "predicate": "buffers",
+    "object": "Redox Homeostasis",
+    "context": {
+      "en-US": "SIRT3 buffers mitochondrial ROS by deacetylating MnSOD and IDH2, letting SIRT3-rich tumor-associated macrophages tolerate the oxidative metabolism that supports their M2 program. This ties mitochondrial sirtuin redox control directly to immune polarization and to the redox homeostasis of the Tumor Microenvironment.",
+      "zh-TW": "SIRT3 藉由去乙醯化 MnSOD 與 IDH2 緩衝粒線體 ROS，使 SIRT3 豐富的 Tumor-Associated Macrophage 能耐受支持其 M2 程序的氧化代謝。這將粒線體 sirtuin 的氧化還原調控直接連結到免疫極化，以及 Tumor Microenvironment 的 Redox Homeostasis。"
+    },
+    "confidence": 0.9,
+    "source_document": "Tumor-Associated Macrophage.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "a47f3501d936",
+    "subject": "Tunneling Nanotubes",
+    "predicate": "transports",
+    "object": "cGAMP",
+    "context": {
+      "en-US": "Tunneling Nanotubes are thin, actin-rich membrane protrusions that establish direct cytoplasmic continuity between distant cells, allowing cGAMP and mtDNA to pass from a stressed sender to a naive receiver. Alongside extracellular vesicles, they are the two recognized routes of contact-dependent cGAS-STING spread.",
+      "zh-TW": "Tunneling Nanotube 是細長富含 actin 的膜突出構造，可讓相距很遠的細胞之間建立細胞質連續性，使 cGAMP 與 mtDNA 從受壓的發送細胞傳至未受刺激的接收細胞。與 extracellular vesicles 並列，它們是接觸依賴型 cGAS-STING 傳播的兩條已知途徑。"
+    },
+    "confidence": 0.9,
+    "source_document": "Tunneling Nanotubes.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "5eca1db61f9a",
+    "subject": "Tunneling Nanotubes",
+    "predicate": "amplifies",
+    "object": "Neuroinflammation",
+    "context": {
+      "en-US": "By moving mitochondria and nucleic-acid cargo between cells, tunneling nanotubes convert localized DNA damage or mitochondrial stress in one neuron or microglial cell into network-wide Neuroinflammation. Disrupting TNT-mediated transfer is therefore an attractive, if technically difficult, way to limit intercellular dissemination of cGAS-STING-driven inflammation.",
+      "zh-TW": "Tunneling Nanotube 藉由在細胞間運送粒線體與核酸 cargo，把單一 neuron 或 microglial cell 內的局部 DNA Damage 或粒線體壓力放大為全網絡的 Neuroinflammation。因此阻斷 TNT 介導的轉移是限制 cGAS-STING 驅動發炎細胞間擴散的一條有吸引力但技術困難的策略。"
+    },
+    "confidence": 0.85,
+    "source_document": "Tunneling Nanotubes.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "86bd4e39dec0",
+    "subject": "SIRT1",
+    "predicate": "protects_against",
+    "object": "Type 2 Diabetes Mellitus",
+    "context": {
+      "en-US": "SIRT1 overexpression protects against Type 2 Diabetes Mellitus by enhancing insulin sensitivity, promoting insulin secretion and reducing inflammation in adipose tissue and liver. Hepatic SIRT1 knockdown also lowers fasting glucose via reduced hepatic glucose production, so SIRT1's net effect on glucose homeostasis is context-dependent.",
+      "zh-TW": "SIRT1 过量表現可對抗 Type 2 Diabetes Mellitus，方式是提升 insulin sensitivity、促進 insulin secretion 並減少脂肪與肝臟的 inflammation。肝臟 SIRT1 knockdown 亦可透過降低肝葡萄糖產生而減少空腹血糖，因此 SIRT1 對葡萄糖恆定的淨效應依情境而異。"
+    },
+    "confidence": 0.9,
+    "source_document": "Type 2 Diabetes Mellitus.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "1686ba0aad22",
+    "subject": "SIRT4",
+    "predicate": "inhibits",
+    "object": "Insulin Secretion",
+    "context": {
+      "en-US": "SIRT4 negatively regulates insulin secretion in pancreatic beta cells by repressing glutamate dehydrogenase (GDH) activity, and its overexpression drives dyslipidemia and lipogenesis while deactivating AMPK. It thus opposes SIRT1's protective role in Type 2 Diabetes Mellitus.",
+      "zh-TW": "SIRT4 藉由抑制 glutamate dehydrogenase (GDH) 活性，負向調控胰臟 beta cell 的 insulin secretion；其過量表現會造成血脂異常與脂肪生成，並使 AMPK 去活化。因此 SIRT4 與 SIRT1 在 Type 2 Diabetes Mellitus 中的保護角色相反。"
+    },
+    "confidence": 0.9,
+    "source_document": "Type 2 Diabetes Mellitus.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "f22365e3005c",
+    "subject": "SIRT3",
+    "predicate": "impairs",
+    "object": "Oxidative Phosphorylation",
+    "context": {
+      "en-US": "SIRT3 depletion in muscle and liver impairs mitochondrial oxidative phosphorylation and worsens insulin resistance, linking mitochondrial dysfunction to Type 2 Diabetes Mellitus pathogenesis. SIRT1-3 levels are reduced while SIRT5 and SIRT6 are elevated in diabetes patients.",
+      "zh-TW": "SIRT3 在肌肉與肝臟的耗竭會損害粒線體的 Oxidative Phosphorylation 並加重 insulin resistance，將粒線體功能障礙連結到 Type 2 Diabetes Mellitus 的致病機制。糖尿病患者中 SIRT1-3 下降，而 SIRT5 與 SIRT6 上升。"
+    },
+    "confidence": 0.85,
+    "source_document": "Type 2 Diabetes Mellitus.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "cc0742d1be17",
+    "subject": "SIRT6",
+    "predicate": "deacetylates",
+    "object": "FoxO1",
+    "context": {
+      "en-US": "SIRT6 induces PGC-1α acetylation and, together with p53, deacetylates FoxO1 to suppress gluconeogenic gene expression and hepatic glucose production. Conversely hepatic SIRT6 loss drives steatosis and insulin resistance, while SIRT6 haploinsufficiency causes lethal hypoglycemia in mice.",
+      "zh-TW": "SIRT6 誘導 PGC-1α 乙醯化，並與 p53 協同去乙醯化 FoxO1，以抑制糖質新生基因表現與肝臟葡萄糖產生。相反地，肝臟 SIRT6 缺失會造成 steatosis 與 insulin resistance，而 SIRT6 單倍剂量不足在小鼠中會導致致死性低血糖。"
+    },
+    "confidence": 0.85,
+    "source_document": "Type 2 Diabetes Mellitus.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "76ee6ad630e5",
+    "subject": "cGAS",
+    "predicate": "produces",
+    "object": "cGAMP",
+    "context": {
+      "en-US": "In the canonical cGAS-STING Pathway, cytosolic dsDNA detection activates cGAS, which synthesizes the second messenger cGAMP. cGAMP then engages STING, which traffics to the ER-Golgi and recruits TBK1 to phosphorylate IRF3 and NF-κB, licensing transcription of Type I Interferon and interferon-stimulated genes.",
+      "zh-TW": "在典型的 cGAS-STING Pathway 中，細胞質 dsDNA 被偵測後活化 cGAS，cGAS 合成第二傳訊者 cGAMP。cGAMP 接著活化 STING，後者運送至 ER-Golgi 並招募 TBK1，磷酸化 IRF3 與 NF-κB，啟動 Type I Interferon 與 interferon-stimulated genes 的轉錄。"
+    },
+    "confidence": 0.95,
+    "source_document": "Type I Interferon.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "2b83072e61de",
+    "subject": "Type I Interferon",
+    "predicate": "binds",
+    "object": "IFNAR1",
+    "context": {
+      "en-US": "Type I Interferon acts through the heterodimeric IFNAR1 receptor, triggering JAK-STAT signaling and a broad interferon-stimulated gene program. Neuronal IFNAR1 is the key conduit by which microglial IFN-I drives non-cell-autonomous neuronal injury.",
+      "zh-TW": "Type I Interferon 透過異二聚體受體 IFNAR1 作用，啟動 JAK-STAT 訊號與廣泛的 interferon-stimulated gene 程式。neuronal IFNAR1 是微膠細胞 IFN-I 造成非細胞自主性神經元損傷的關鍵傳遞途徑。"
+    },
+    "confidence": 0.9,
+    "source_document": "Type I Interferon.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "5c1ae80eb8ff",
+    "subject": "Type I Interferon",
+    "predicate": "drives",
+    "object": "Neurodegeneration",
+    "context": {
+      "en-US": "Type I Interferon is protective during acute infection but maladaptive when sustained: chronic IFN-I signaling promotes microglial activation, synapse loss, plaque accumulation and cognitive decline in Alzheimer's Disease, and restrains protective neuronal resilience programs such as MEF2C.",
+      "zh-TW": "Type I Interferon 在急性感染期間具保護作用，但持續活化時反而有害：慢性 IFN-I 訊號在 Alzheimer's Disease 中促進微膠細胞活化、突觸喪失、斑塊累積與認知衰退，並抑制 MEF2C 等具保護性的神經元韌性程式。"
+    },
+    "confidence": 0.9,
+    "source_document": "Type I Interferon.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "44b2936f45c9",
+    "subject": "Type I vs Type II Cells",
+    "predicate": "determines",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "The type I / type II distinction (Scaffidi et al. 1998) classifies cells by how much mitochondrial amplification death-receptor apoptosis needs. Type I cells execute Caspase-8 → Caspase-3 directly and are not protected by Bcl-2; type II cells require the Caspase-8 → Bid → BAX/BAK → MOMP → Caspase-9 → Caspase-3 relay, which Bcl-2 overexpression can block.",
+      "zh-TW": "type I / type II 的區分（Scaffidi et al. 1998）依死亡受體 Apoptosis 需要多少粒線體放大來分類細胞。type I cell 直接執行 Caspase-8 → Caspase-3，且不受 Bcl-2 保護；type II cell 則需要 Caspase-8 → Bid → BAX/BAK → MOMP → Caspase-9 → Caspase-3 的中繼傳遞，此途徑可被 Bcl-2 過量表現阻斷。"
+    },
+    "confidence": 0.95,
+    "source_document": "Type I vs Type II Cells.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "e08533615736",
+    "subject": "TRAIL",
+    "predicate": "requires",
+    "object": "Bcl-2",
+    "context": {
+      "en-US": "TRAIL agonist efficacy is type-dependent: TRAIL agonists kill type I tumors directly, whereas type II tumors need co-targeting of the Bcl-2 family (e.g. venetoclax or navitoclax) because MOMP amplification is obligatory there. In type II cells even modest c-FLIP downregulation becomes lethal, the window exploited by HDAC-inhibitor plus TRAIL combinations.",
+      "zh-TW": "TRAIL 激動劑的效力取決於細胞型別：TRAIL 激動劑可直接殺死 type I 腫瘤，但 type II 腫瘤需要共同標定 Bcl-2 家族（如 venetoclax 或 navitoclax），因為 MOMP 放大在此為必要條件。在 type II cell 中，即使輕微的 c-FLIP 下調也會致命，這正是 HDAC 抑制劑加上 TRAIL 聯合療法所利用的治療窗。"
+    },
+    "confidence": 0.85,
+    "source_document": "Type I vs Type II Cells.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "c798037a48c1",
+    "subject": "Tyrosinase",
+    "predicate": "produces",
+    "object": "Neuromelanin",
+    "context": {
+      "en-US": "Transgenic rodents expressing human tyrosinase, normally pigment-free in brain, develop age-dependent neuromelanin in catecholaminergic nuclei, showing that enzymatic melanogenesis is sufficient to drive CNS pigment synthesis. Tyrosinase catalyses the rate-limiting hydroxylation of L-tyrosine to L-dopa and the oxidation of L-dopa to dopaquinone.",
+      "zh-TW": "表現人類 tyrosinase 的轉殖鼠，其腦部原本無色素，卻在兒茶酚胺神經核中隨年齡累積 neuromelanin，顯示酵素性黑色素生成足以驅動中樞神經系統色素合成。Tyrosinase 催化 L-tyrosine 羥化為 L-dopa（速率限制步驟），並將 L-dopa 氧化為 dopaquinone。"
+    },
+    "confidence": 0.9,
+    "source_document": "Tyrosinase.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "0f816e4a86e9",
+    "subject": "Tyrosinase",
+    "predicate": "is_a_model_for",
+    "object": "Parkinson's Disease",
+    "context": {
+      "en-US": "Tyrosinase-overexpressing rodents go beyond making pigment: once neuromelanin reaches a critical level they develop progressive motor deficits, dopaminergic neuron loss and neurochemical change. This is the strongest experimental support for the Pathogenic Threshold of Neuromelanin hypothesis linking enzymatic melanogenesis to neurodegeneration.",
+      "zh-TW": "Tyrosinase 過量表現的鼠類不只製造色素：一旦 neuromelanin 累積到臨界程度，就會出現進行性運動障礙、dopaminergic neuron 喪失與神經化學改變。這是支持 Pathogenic Threshold of Neuromelanine 假說（將酵素性黑色素生成連結到神經退化）最有力的實驗證據。"
+    },
+    "confidence": 0.9,
+    "source_document": "Tyrosinase.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "cdbf977e75ff",
+    "subject": "Tyrosinase-related protein-2",
+    "predicate": "acts_on",
+    "object": "Tyrosinase-related protein-1",
+    "context": {
+      "en-US": "In the melanogenic cascade downstream of tyrosinase, dopaquinone cyclizes spontaneously to dopachrome, which is then acted on by Tyrosinase-related protein-2 (dopachrome tautomerase) and Tyrosinase-related protein-1, ultimately polymerizing into eumelanin over a Pheomelanin core.",
+      "zh-TW": "在 tyrosinase 下游的黑色素生成級聯反應中，dopaquinone 會自發環化為 dopachrome，隨後由 Tyrosinase-related protein-2（dopachrome tautomerase）與 Tyrosinase-related protein-1 作用，最終以 Pheomelanin 為核心聚合為 eumelanin。"
+    },
+    "confidence": 0.7,
+    "source_document": "Tyrosinase.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "9dd781cac569",
+    "subject": "Tyrosine",
+    "predicate": "is_precursor_of",
+    "object": "Catecholamines",
+    "context": {
+      "en-US": "Tyrosine is a non-essential amino acid that serves as the precursor of the catecholamine class of neurotransmitters, including dopamine, epinephrine and norepinephrine. Because COMT degrades the resulting neurotransmitters, tyrosine supplementation raises the substrate load on COMT, and slow COMT genotypes can reach excessive dopamine levels.",
+      "zh-TW": "Tyrosine 是一種非必需胺基酸，是 Catecholamines 類神經傳遞物質（包含 dopamine、epinephrine 與 norepinephrine）的前驅物。由於 COMT 會分解這些神經傳遞物，補充 tyrosine 會增加 COMT 的底物負載，而 slow COMT 基因型可能因此達到過高的 dopamine 濃度。"
+    },
+    "confidence": 0.9,
+    "source_document": "Tyrosine.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "86226c7e23be",
+    "subject": "Tyrosine Hydroxylase",
+    "predicate": "converts_to",
+    "object": "Tyrosine",
+    "context": {
+      "en-US": "Tyrosine Hydroxylase is the rate-limiting enzyme of catecholamine biosynthesis, catalysing the hydroxylation of the amino acid Tyrosine to L-DOPA, the precursor of dopamine, norepinephrine and epinephrine. Its expression is the standard histological marker for dopaminergic neurons, and neurons lose TH expression before they die in Parkinson's Disease.",
+      "zh-TW": "Tyrosine Hydroxylase 是 Catecholamine 生合成的速率限制酵素，催化胺基酸 Tyrosine 羥化為 L-DOPA，而 L-DOPA 是 dopamine、norepinephrine 與 epinephrine 的前驅物。其表現是 dopaminergic neuron 的標準組織學標記，且在 Parkinson's Disease 中神經元會在死亡前先失去 TH 表現。"
+    },
+    "confidence": 0.95,
+    "source_document": "Tyrosine Hydroxylase.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "272be07d2f36",
+    "subject": "UCHL1",
+    "predicate": "is_recruited_to",
+    "object": "Mitochondria",
+    "context": {
+      "en-US": "UCHL1 is a neuronal deubiquitinating enzyme encoded by PARK5 whose mutations are linked to Parkinson's Disease. In Alzheimer's Disease, N-terminal tau fragments aberrantly recruit UCHL1 together with Parkin to mitochondria, triggering excessive mitophagy and synaptic loss that accelerate disease progression.",
+      "zh-TW": "UCHL1 是由 PARK5 編碼的神經元去泛素化酵素，其突變與 Parkinson's Disease 相關。在 Alzheimer's Disease 中，N 端 tau 片段會將 UCHL1 與 Parkin 一起異常招募到粒線體，觸發過度的 mitophagy 與突觸喪失，加速疾病進展。"
+    },
+    "confidence": 0.9,
+    "source_document": "UCHL1.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "201ae2f2bb00",
+    "subject": "UCHL1",
+    "predicate": "mutations_cause",
+    "object": "Parkinson's Disease",
+    "context": {
+      "en-US": "UCHL1 (also known as PGP9.5) is highly enriched in neurons and is encoded by the PARK5 gene; PARK5 mutations have been linked to Parkinson's Disease, placing it in the same PD gene-product convergence on ubiquitin-dependent quality control as PINK1 and Parkin.",
+      "zh-TW": "UCHL1（又稱 PGP9.5）在神經元中高度富集，由 PARK5 基因編碼；PARK5 突變已被連結到 Parkinson's Disease，使其與 PINK1、Parkin 一同落在以泛素依賴性蛋白質品質管制為核心的 PD 基因產物匯聚軸上。"
+    },
+    "confidence": 0.85,
+    "source_document": "UCHL1.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "09492130ce4e",
+    "subject": "UCP1",
+    "predicate": "dissipates",
+    "object": "Electron Transport Chain",
+    "context": {
+      "en-US": "UCP1 is a mitochondrial inner-membrane carrier expressed almost exclusively in brown adipose tissue. It transports protons from the intermembrane space back into the matrix, short-circuiting the proton gradient set up by the Electron Transport Chain so that energy is released as heat rather than captured as ATP.",
+      "zh-TW": "UCP1 是幾乎專一表現於 Brown Adipose Tissue 的粒線體內膜載體。它將質子由膜間腔運回基質，使 Electron Transport Chain 建立的質子梯度短路，能量因此以熱的形式釋放，而非被捕捉成 ATP。"
+    },
+    "confidence": 0.95,
+    "source_document": "UCP1.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "f0c6957be913",
+    "subject": "Irisin",
+    "predicate": "induces",
+    "object": "UCP1",
+    "context": {
+      "en-US": "Irisin, a myokine secreted by skeletal muscle during exercise, is a potent activator of UCP1 in white adipose tissue. The PGC-1α-FNDC5-Irisin axis drives browning of subcutaneous white fat, converting energy-storing white adipocytes into energy-dissipating beige adipocytes and raising thermogenesis and energy expenditure.",
+      "zh-TW": "Irisin 是運動時由骨骼肌分泌的 myokine，是白色脂肪組織中 UCP1 的強力活化因子。PGC-1α-FNDC5-Irisin 軸驅動皮下白脂肪「棕化」，將儲能的白色脂肪細胞轉為散熱的 beige 脂肪細胞，提升產熱與能量消耗。"
+    },
+    "confidence": 0.9,
+    "source_document": "UCP1.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "e4e89d771943",
+    "subject": "UCP1",
+    "predicate": "is_induced_by",
+    "object": "Mitohormesis",
+    "context": {
+      "en-US": "Cold exposure activates brown adipose tissue and induces UCP1, increasing mitochondrial density and non-shivering thermogenesis. This controlled cold stress is a classic hormetic stimulus: with a recovery period it enhances mitochondrial quality and metabolic flexibility, making UCP1 induction a marker of Mitohormesis.",
+      "zh-TW": "冷暴露會活化 Brown Adipose Tissue 並誘導 UCP1，提高粒線體密度與非顫抖性產熱。這種受控的冷壓力是典型的 hormetic 刺激：在搭配恢復期時可提升粒線體品質與代謝彈性，因此 UCP1 誘導可作為 Mitohormesis 的標記。"
+    },
+    "confidence": 0.85,
+    "source_document": "UCP1.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "dddfc98a1f1b",
+    "subject": "UCP3",
+    "predicate": "is_expressed_in",
+    "object": "Skeletal Muscle",
+    "context": {
+      "en-US": "UCP3 is a member of the SLC25 mitochondrial carrier family of uncoupling proteins expressed most highly in skeletal muscle and, to a lesser extent, in brown adipose tissue and heart. It localises to the inner mitochondrial membrane and may mediate mild proton leak and fatty-acid handling in muscle.",
+      "zh-TW": "UCP3 是 SLC25 粒線體載體家族的解偶聯蛋白成員，在 Skeletal Muscle 表現最高，在 Brown Adipose Tissue 與心肌次之。它定位於粒線體內膜，可能在肌肉中介導輕微的質子漏與脂肪酸處理。"
+    },
+    "confidence": 0.95,
+    "source_document": "UCP3.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "45dedea81589",
+    "subject": "UCP3",
+    "predicate": "is_downregulated_by",
+    "object": "Exercise",
+    "context": {
+      "en-US": "Endurance training lowers UCP3 protein expression in type I, IIa and IIx muscle fibres, though acute exercise and training may differentially affect UCP3 mRNA. Training-induced down-regulation is a candidate explanation for why resting metabolic rate can fall after intensive training despite gains in lean mass, an interpretation that remains contested.",
+      "zh-TW": "耐力訓練會降低 type I、IIa 與 IIx 肌纖維中的 UCP3 蛋白表現，儘管急性運動與訓練可能對 UCP3 mRNA 有相反影響。訓練誘導的下調是「密集訓練後即使瘦體重增加、resting metabolic rate 仍可下降」的候選解釋，但此詮釋仍有爭議。"
+    },
+    "confidence": 0.9,
+    "source_document": "UCP3.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "68640293b5f9",
+    "subject": "UCP3",
+    "predicate": "is_determined_by",
+    "object": "Resting Metabolic Rate",
+    "context": {
+      "en-US": "Polymorphisms near the UCP2/UCP3 locus are linked to 24-hour energy expenditure and substrate oxidation, making UCP3 a candidate determinant of the residual variation in Resting Metabolic Rate not explained by lean mass. UCP3 therefore modulates skeletal muscle energy-conversion efficiency both during exercise and at rest.",
+      "zh-TW": "UCP2/UCP3 座附近的多型性與 24 小時能量消耗及受質氧化相關，因此 UCP3 是「非由瘦體重解釋的 Resting Metabolic Rate 殘餘變異」的候選決定因子。UCP3 因而在運動中與靜息時皆調節骨骼肌的能量轉換效率。"
+    },
+    "confidence": 0.8,
+    "source_document": "UCP3.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "e09dabeb2526",
+    "subject": "UGA codon",
+    "predicate": "encodes",
+    "object": "Selenocysteine",
+    "context": {
+      "en-US": "In the standard genetic code the UGA codon is a termination signal, but in selenoprotein mRNA a 3′UTR SECIS element bound by SECISBP2 makes the ribosome reinterpret UGA as encoding Selenocysteine, the 21st amino acid. UGA recoding is the sole route to Sec incorporation and underlies the whole selenoprotein family (GPx, TrxR, deiodinases).",
+      "zh-TW": "在標準遺傳密碼中 UGA codon 是終止訊號，但在 selenoprotein 的 mRNA 中，3′UTR 的 SECIS element 結合 SECISBP2，使核糖體將 UGA 重新解讀為編碼 Selenocysteine（第 21 種胺基酸）。UGA recoding 是 Selenocysteine 掺入的唯一途徑，構成整個 selenoprotein 家族（GPx、TrxR、deiodinases）的基礎。"
+    },
+    "confidence": 0.95,
+    "source_document": "UGA codon.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "5f0a2f930a32",
+    "subject": "Um34",
+    "predicate": "is_installed_by",
+    "object": "FTSJ1",
+    "context": {
+      "en-US": "FTSJ1 is the methyltransferase that installs the Um34 2′-O-methyluridine modification on tRNA[Ser]Sec. Loss of Um34 causes ribosomal stalling at the recoded UGA codon and reduced selenocysteine insertion, selectively impairing antioxidant selenoproteins — and, per the melanoma metastasis work, Um34 is necessary for metastatic colonization.",
+      "zh-TW": "FTSJ1 是將 Um34（2′-O-甲基尿苷）修飾安裝到 tRNA[Ser]Sec 上的甲基轉移酶。Um34 缺失會造成核糖體在 recoded UGA codon 停滯、Selenocysteine 掺入減少，選擇性損害具抗氧化功能的 selenoprotein——而依黑色素瘤轉移研究，Um34 對轉移性定殖是必要的。"
+    },
+    "confidence": 0.9,
+    "source_document": "Um34.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "5b2e640146f3",
+    "subject": "Um34",
+    "predicate": "regulates",
+    "object": "Selenocysteine",
+    "context": {
+      "en-US": "Um34 is a post-transcriptional control point that tunes the efficiency of Selenocysteine insertion and thereby the selenoproteome's antioxidant capacity under oxidative stress. Because recoding competes with termination, selenoprotein expression is exquisitely sensitive to translational and redox state as well as to Selenium availability.",
+      "zh-TW": "Um34 是轉錄後調控點，可調整 Selenocysteine 掺入效率，進而調整 selenoproteome 在氧化壓力下的抗氧化能力。由於 recoding 與終止互相競爭，selenoprotein 表現對細胞的轉譯與氧化還原狀態、以及 Selenium 供應都極為敏感。"
+    },
+    "confidence": 0.9,
+    "source_document": "Um34.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "d1e92323cdeb",
+    "subject": "UK5099",
+    "predicate": "suppresses",
+    "object": "SASP",
+    "context": {
+      "en-US": "In senescent cells, MPC inhibition with UK5099 suppresses SASP gene expression and secretion across multiple senescence models without affecting p16/p21 cell-cycle arrest or DNA damage foci. This places mitochondrial pyruvate entry at the citrate-acetyl-CoA axis that sustains H3K27ac at SASP loci.",
+      "zh-TW": "在 senescent cell 中，以 UK5099 抑制 MPC 可在多個 senescence 模型中抑制 SASP 基因表現與分泌，且不影響 p16/p21 細胞週期停滯或 DNA damage foci。這將粒線體丙酮酸入口定位在維持 SASP 位點 H3K27ac 的 citrate-acetyl-CoA 軸上。"
+    },
+    "confidence": 0.9,
+    "source_document": "UK5099.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "83eb34b349e2",
+    "subject": "Necroptosis",
+    "predicate": "depends_on",
+    "object": "Pyruvate",
+    "context": {
+      "en-US": "Necroptosis is a RIPK3/MLKL-driven lytic death whose mitochondrial arm depends on pyruvate oxidation: depleting pyruvate, inhibiting mitochondrial pyruvate transport, or blocking the PDC all inhibit TNF-induced necroptosis. The effect is not universal, however — in hypoxia- and chemotherapy-induced necroptosis cytosolic pyruvate scavenges mitochondrial superoxide without entering mitochondria, so UK5099 does not reverse protection there.",
+      "zh-TW": "Necroptosis 是 RIPK3/MLKL 驅動的裂解性死亡，其粒線體分支依賴丙酮酸氧化：耗竭丙酮酸、抑制粒線體丙酮酸運輸或阻斷 PDC 都可抑制 TNF 誘導的 necroptosis。但此效應並非普遍——在缺氧與化療誘導的 necroptosis 中，細胞質丙酮酸不需進入粒線體即可清除粒線體超氧陰離子，因此 UK5099 在該情境無法逆轉保護作用。"
+    },
+    "confidence": 0.9,
+    "source_document": "UK5099.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "1f77784db0a2",
+    "subject": "UPRam",
+    "predicate": "is_triggered_by",
+    "object": "Mitochondria",
+    "context": {
+      "en-US": "UPRam (unfolded protein response activated by mistargeting of proteins) is a stress pathway triggered when Mitochondria-directed precursor proteins are misdirected to other organelles or accumulate in the cytosol because import is impaired. The cell responds by upregulating chaperones and proteasomal components, with HSF1 and NRF1 coordinating the response and RPN4 a key downstream effector in yeast.",
+      "zh-TW": "UPRam（unfolded protein response activated by mistargeting of proteins）是在粒線體前驅蛋白因輸入受損而被誤送至其他胞器、或於細胞質累積時觸發的壓力途徑。細胞藉由上調 chaperone 與 proteasome 元件因應，由 HSF1 與 NRF1 協調，RPN4 則是酵母中的關鍵下游效應器。"
+    },
+    "confidence": 0.9,
+    "source_document": "UPRam.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "11b48cfc45f1",
+    "subject": "UPRam",
+    "predicate": "is_a_related_pathway_to",
+    "object": "UPRmt",
+    "context": {
+      "en-US": "UPRam sits alongside the matrix-resident UPRmt in the mitochondrial proteostasis network: UPRam handles mistargeted or cytosol-accumulating precursor proteins, whereas UPRmt responds to unfolded protein accumulation inside the mitochondrial matrix, with mitoTAD, mitoCPR, mPOS, MitoStores and mitoRQC as further related degradation routes.",
+      "zh-TW": "在粒線體蛋白穩態網絡中，UPRam 與位於基質的 UPRmt 並列：UPRam 處理被誤送或累積於細胞質的前驅蛋白，UPRmt 則回應粒線體基質內的未折疊蛋白累積；另有 mitoTAD、mitoCPR、mPOS、MitoStores 與 mitoRQC 作為相關的降解途徑。"
+    },
+    "confidence": 0.8,
+    "source_document": "UPRam.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "a58fbf16f7cc",
+    "subject": "UPRmt",
+    "predicate": "is_mediated_by",
+    "object": "ATFS-1",
+    "context": {
+      "en-US": "In C. elegans, proteotoxic stress blocks import of the transcription factor ATFS-1; the protein is excluded from mitochondria, traffics to the nucleus and, with DVE-1 and UBL-5, induces chaperones (HSP-6/mtHSP70) and proteases such as LONP. The same nuclear output in mammals is driven by the ATF4/ATF5/CHOP integrated stress response axis.",
+      "zh-TW": "在 C. elegans 中，蛋白毒性壓力阻斷轉錄因子 ATFS-1 的輸入；該蛋白被排除於粒線體之外而運送至細胞核，並與 DVE-1、UBL-5 共同誘導 chaperone（HSP-6/mtHSP70）與 LONP 等蛋白酶。在哺乳類中，相同的核內輸出由 ATF4/ATF5/CHOP 的 integrated stress response 軸驅動。"
+    },
+    "confidence": 0.95,
+    "source_document": "UPRmt.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "e0d227eb6cdc",
+    "subject": "UPRmt",
+    "predicate": "extends",
+    "object": "Mitohormesis",
+    "context": {
+      "en-US": "Mild mitochondrial stress that activates UPRmt can extend lifespan, a hallmark of Mitohormesis: transient ETC perturbation during development induces a persistent, epigenetically maintained UPRmt that promotes longevity in worms. UPRmt cooperates with Mitophagy and mitokines such as GDF15 and FGF21, though chronic activation can be maladaptive and permit propagation of deleterious mtDNA.",
+      "zh-TW": "能活化 UPRmt 的輕度粒線體壓力可延長壽命，這是 Mitohormesis 的重要特徵：發育期間的短暫 ETC 擾動會誘導持續且以表觀遺傳維持的 UPRmt，在線蟲中促進長壽。UPRmt 與 Mitophagy 及 GDF15、FGF21 等 mitokines 協同作用，但慢性活化可能不適應並允許有害 mtDNA 傳播。"
+    },
+    "confidence": 0.9,
+    "source_document": "UPRmt.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "c9814d392096",
+    "subject": "OMA1",
+    "predicate": "activates",
+    "object": "DELE1",
+    "context": {
+      "en-US": "The mammalian UPRmt uses the OMA1-DELE1-HRI pathway to link inner-membrane stress to eIF2α phosphorylation, the translation-attenuation arm of the integrated stress response. OMA1-dependent cleavage liberates DELE1, which activates the HRI kinase.",
+      "zh-TW": "哺乳類的 UPRmt 透過 OMA1-DELE1-HRI 途徑將內膜壓力連結到 eIF2α 磷酸化，也就是 integrated stress response 的轉譯抑制分支。OMA1 依賴性的切割釋出 DELE1，後者活化 HRI 激酶。"
+    },
+    "confidence": 0.9,
+    "source_document": "UPRmt.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "90cfe65599bc",
+    "subject": "USP30",
+    "predicate": "is_a_therapeutic_target_in",
+    "object": "Parkinson's Disease",
+    "context": {
+      "en-US": "Loss of USP30 in knockout mice prevents behavioural deficits, increases mitophagy, and reduces both phosphorylated S129 alpha-synuclein and dopaminergic neuron loss; the brain-penetrant inhibitor MTX115325 shows similar efficacy in Parkinson's Disease models. USP30 knockdown also cuts lipid ROS by about 40% and reduces ferroptotic neuronal death.",
+      "zh-TW": "在 knockout mouse 中移除 USP30 可預防行為缺陷、增加 mitophagy，並降低磷酸化 S129 的 alpha-synuclein 與 dopaminergic neuron 喪失；可穿過血腦障礙的抑制劑 MTX115325 在 Parkinson's Disease 模型中展現類似效力。USP30 knockdown 還可減少約 40% 的脂質 ROS 並降低 ferroptosis 性的神經元死亡。"
+    },
+    "confidence": 0.9,
+    "source_document": "USP30.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "d8c93e2896b1",
+    "subject": "UTY",
+    "predicate": "is_ortholog_of",
+    "object": "KDM6A",
+    "context": {
+      "en-US": "UTY (KDM6C) is the Y-chromosome homolog of the X-linked H3K27 demethylase KDM6A (UTX). Unlike KDM6A it has no catalytic H3K27 demethylase activity, yet retains non-catalytic tumor-suppressor function and partially compensates for KDM6A loss in males — males with KDM6A LOF plus mosaic chrY loss lose that backup.",
+      "zh-TW": "UTY（KDM6C）是 X 聯結的 H3K27 去甲基化酵素 KDM6A（UTX）的 Y 染色體同源物。與 KDM6A 不同，UTY 不具催化性 H3K27 去甲基化活性，但保有非催化性的腫瘤抑制功能，並在男性中部分補償 KDM6A 缺失——KDM6A 功能喪失合併嵌合性 Y 染色體流失的男性即失去此備援。"
+    },
+    "confidence": 0.95,
+    "source_document": "UTY.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "0f2d2a90a641",
+    "subject": "UTY",
+    "predicate": "is_a_member_of",
+    "object": "EXITS",
+    "context": {
+      "en-US": "UTY is a Y-homolog paralog within the EXITS framework of escape-from-X-inactivation traits, alongside DDX3X/DDX3Y and KDM5C. Because females retain a net EXITS advantage, UTY is not fully equivalent to its X-linked counterparts despite its partial compensation.",
+      "zh-TW": "UTY 是 escape-from-X-inactivation traits（EXITS）框架中的 Y 同源旁系同源基因，與 DDX3X/DDX3Y、KDM5C 並列。由於女性保有淨的 EXITS 優勢，即使有部分補償，UTY 仍不完全等同於其 X 聯結對應基因。"
+    },
+    "confidence": 0.85,
+    "source_document": "UTY.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "aefe1eb0f71a",
+    "subject": "Ubiquinone",
+    "predicate": "is_reduced_by",
+    "object": "FSP1",
+    "context": {
+      "en-US": "Ubiquinone (CoQ10) is the direct electron acceptor for FSP1 at the plasma membrane: FSP1 uses NAD(P)H to reduce ubiquinone to ubiquinol (CoQ10H2). The resulting ubiquinol is a lipophilic radical-trapping antioxidant that donates a hydrogen atom to lipid peroxyl radicals, terminating radical-chain propagation and suppressing ferroptosis.",
+      "zh-TW": "Ubiquinone（CoQ10）是質膜上 FSP1 的直接電子受體：FSP1 利用 NAD(P)H 將 ubiquinone 還原為 ubiquinol（CoQ10H2）。所產生的 ubiquinol 是親脂性自由基捕捉型抗氧化物，可向脂質過氧自由基提供氫原子，終止自由基鏈傳播並抑制 ferroptosis。"
+    },
+    "confidence": 0.95,
+    "source_document": "Ubiquinone.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "0c9978ebe5a1",
+    "subject": "Mevalonate pathway",
+    "predicate": "supplies",
+    "object": "Ubiquinone",
+    "context": {
+      "en-US": "Ubiquinone is a non-sterol product of the Mevalonate pathway. Because that same pathway governs GPX4 through selenocysteine-tRNA maturation, diverting MVA flux away from CoQ10 — by statins inhibiting HMG-CoA reductase, or by the squalene synthase engager FIN56 — depletes ubiquinone and converges on the FSP1 axis, raising ferroptosis sensitivity.",
+      "zh-TW": "Ubiquinone 是 Mevalonate pathway 的非固醇產物。由於同一途徑透過 selenocysteine-tRNA 成熟調控 GPX4，將 MVA 流量從 CoQ10 岔開——例如 statins 抑制 HMG-CoA reductase，或 squalene synthase 結合劑 FIN56——會耗竭 ubiquinone 並匯入 FSP1 軸，提高對 ferroptosis 的敏感性。"
+    },
+    "confidence": 0.9,
+    "source_document": "Ubiquinone.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "edeaa3f0ebb2",
+    "subject": "Ubiquinone",
+    "predicate": "transports_electrons_in",
+    "object": "Electron Transport Chain",
+    "context": {
+      "en-US": "Beyond its antioxidant role, ubiquinone is the lipophilic benzoquinone electron carrier that shuttles electrons from Complex I and II to Complex III in the mitochondrial Electron Transport Chain. Its semiquinone intermediate is also a source of mitochondrial ROS whenever electron leak occurs.",
+      "zh-TW": "除抗氧化角色外，ubiquinone 還是粒線體 Electron Transport Chain 中將電子由 Complex I 與 II 運送至 Complex III 的親脂性苯醌電子載體。其半醌中間態在電子漏出時也是粒線體 ROS 的來源。"
+    },
+    "confidence": 0.9,
+    "source_document": "Ubiquinone.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "185602df2a6b",
+    "subject": "Ubiquitin",
+    "predicate": "is_derived_from",
+    "object": "Ubiquitin-Proteasome System",
+    "context": {
+      "en-US": "Ubiquitin is a conserved 76-amino-acid protein that, through an E1/E2/E3 cascade, is covalently attached to lysines of target proteins. The resulting K48-linked chains are the canonical degradation signal recognized by the Ubiquitin-Proteasome System, while K63-linked chains instead mediate signaling, endocytosis and DNA repair, and deubiquitinases reverse the mark.",
+      "zh-TW": "Ubiquitin 是一種高度保守的 76 胺基酸蛋白質，經由 E1/E2/E3 級聯反應共價連接到目標蛋白的離胺酸殘基。所形成的 K48 鏈是 26S proteasome 辨識的典型降解訊號，而 K63 鏈則參與訊號傳遞、胞吞與 DNA 修復，去泛素化酵素則可逆轉此標記。"
+    },
+    "confidence": 0.95,
+    "source_document": "Ubiquitin.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "62f4426e6721",
+    "subject": "Lewy Bodies",
+    "predicate": "contains",
+    "object": "Ubiquitin",
+    "context": {
+      "en-US": "Lewy bodies and pale bodies in Parkinson's Disease are immunopositive for ubiquitin, marking a failure of Proteostasis: the neuron has attempted, and failed, to clear aggregated alpha-synuclein and oxidized substrates through the Ubiquitin-Proteasome System. Neuromelanin burden in the Substantia Nigra Pars Compacta compounds this proteostatic stress.",
+      "zh-TW": "Parkinson's Disease 中的 Lewy Bodies 與 Pale Bodies 對 ubiquitin 呈免疫陽性，標記出 Proteostasis 的失效：該神經元曾試圖、卻未能經由 Ubiquitin-Proteasome System 清除聚集的 alpha-synuclein 與氧化受質。Substantia Nigra Pars Compacta 中的 neuromelanin 負擔進一步加重此蛋白穩態壓力。"
+    },
+    "confidence": 0.95,
+    "source_document": "Ubiquitin.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "602c039682d8",
+    "subject": "Ubiquitin-Proteasome System",
+    "predicate": "is_impared_in",
+    "object": "Parkinson's Disease",
+    "context": {
+      "en-US": "UPS dysfunction is a hallmark of Parkinson's Disease, seen specifically in neuromelanin-laden regions of the PD brain such as the Substantia Nigra. Ubiquitin and p62 in Lewy bodies indicate failed clearance of aggregated alpha-synuclein, and neuromelanin-filled autophagic structures can physically interfere with the UPS, causing a general failure of cellular proteostasis.",
+      "zh-TW": "UPS 功能障礙是 Parkinson's Disease 的重要特徵，且特定出現在 PD 腦中含 neuromelanin 的區域，如 Substantia Nigra。Lewy Bodies 中的 ubiquitin 與 p62 顯示聚集的 alpha-synuclein 無法被清除，而充滿 neuromelanin 的自噬構造可物理性地干擾 UPS，造成整體細胞蛋白穩態的失效。"
+    },
+    "confidence": 0.9,
+    "source_document": "Ubiquitin-Proteasome System.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "ef69bd23fd52",
+    "subject": "Ubiquitin-Proteasome System",
+    "predicate": "regulates",
+    "object": "TFEB",
+    "context": {
+      "en-US": "The Ubiquitin-Proteasome System sets TFEB levels: E3 ligases such as STUB1 target phosphorylated TFEB for proteasomal degradation, making TFEB activity dependent on the proteolytic machinery. The UPS is also complementary to Autophagy, which is upregulated as compensation when the proteasome is impaired.",
+      "zh-TW": "Ubiquitin-Proteasome System 決定 TFEB 含量：STUB1 等 E3 連接酶會標定磷酸化的 TFEB 進行蛋白酶體降解，使 TFEB 活性依賴蛋白水解機制。UPS 亦與 Autophagy 互補，當蛋白酶體受損時自噬會被上調作為代償。"
+    },
+    "confidence": 0.85,
+    "source_document": "Ubiquitin-Proteasome System.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "37e24fca4c6e",
+    "subject": "Ubiquitin-like domain",
+    "predicate": "is_a_component_of",
+    "object": "Parkin",
+    "context": {
+      "en-US": "Parkin is a multidomain E3 ubiquitin ligase whose N-terminal Ubiquitin-like domain engages RING0 in the autoinhibited state, folding the enzyme closed so that RING2 is occluded. Displacement of the UBL — by PINK1-mediated phosphorylation and ubiquitin-dependent relief of repression — releases active Parkin, which then ubiquitinates mitochondrial substrates during Mitophagy.",
+      "zh-TW": "Parkin 是多結構域的 E3 泛素連接酶，其 N 端 Ubiquitin-like domain 在自抑制狀態下與 RING0 結合，使酵素摺疊成封閉構形而遮蔽 RING2。UBL 的位移——由 PINK1 媒介的磷酸化與泛素依賴性的去抑制促成——會釋出活性 Parkin，後者在 Mitophagy 期間泛素化粒線體受質。"
+    },
+    "confidence": 0.95,
+    "source_document": "Ubiquitin-like domain.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "f965aebcaae8",
+    "subject": "Unfolded Protein Response",
+    "predicate": "is_a_type_of",
+    "object": "ER Stress",
+    "context": {
+      "en-US": "The Unfolded Protein Response is the conserved ER Stress pathway activated when misfolded proteins accumulate in the ER lumen, and it is the central mechanism maintaining ER proteostasis. IRE1, PERK and ATF6 act as three parallel sensor branches, all held inactive by the chaperone BiP (GRP78) until it is titrated away.",
+      "zh-TW": "Unfolded Protein Response 是在錯誤折疊蛋白累積於內質網腔時活化的保守性 ER Stress 途徑，也是維持 ER proteostasis 的核心機制。IRE1、PERK 與 ATF6 為三條平行感測分支，在被伴護蛋白 BiP（GRP78）結合而維持不活化，直到 BiP 被抽調去協助折疊。"
+    },
+    "confidence": 0.95,
+    "source_document": "Unfolded Protein Response.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "464d267dca64",
+    "subject": "CHOP",
+    "predicate": "drives",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "If ER stress is unresolved, the Unfolded Protein Response switches from pro-survival to pro-apoptotic: ATF4 drives the pro-apoptotic transcription factor CHOP, which downregulates Bcl-2, upregulates BIM and induces ERO1α, causing ER hyper-oxidation, calcium release and mitochondrial sensitisation to cytochrome c release. CHOP acts in parallel with IRE1-JNK signaling.",
+      "zh-TW": "若 ER 壓力無法緩解，Unfolded Protein Response 會由促存活轉為促凋亡：ATF4 驅動促凋亡轉錄因子 CHOP，下調 Bcl-2、上調 BIM 並誘導 ERO1α，造成 ER 過氧化、鈣離子釋放，使粒線體對 cytochrome c 釋放敏感。CHOP 與 IRE1-JNK 訊號平行作用。"
+    },
+    "confidence": 0.95,
+    "source_document": "Unfolded Protein Response.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "9c3466332574",
+    "subject": "Uric Acid Crystals",
+    "predicate": "activates",
+    "object": "NLRP3",
+    "context": {
+      "en-US": "Monosodium urate crystals are among the most potent endogenous NLRP3 inflammasome activators. Once phagocytosed by macrophages or neutrophils, their sharp geometry ruptures lysosomes, releasing Cathepsin B into the cytosol to trigger NLRP3 oligomerization, so caspase-1 can mature IL-1β and drive acute gouty inflammation.",
+      "zh-TW": "Monosodium urate（MSU）結晶是最強效的內源性 NLRP3 inflammasome 活化因子之一。被巨噬細胞或嗜中性球吞噬後，其銳利幾何形態使溶酶體破裂，將 Cathepsin B 釋放至細胞質，觸發 NLRP3 寡聚，使 caspase-1 成熟 IL-1β 並引發急性痛風性發炎。"
+    },
+    "confidence": 0.95,
+    "source_document": "Uric Acid Crystals.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "e8177731bcc7",
+    "subject": "Uric Acid Crystals",
+    "predicate": "causes",
+    "object": "Gout",
+    "context": {
+      "en-US": "Monosodium urate crystals are the pathogenic agents of gout: when serum uric acid exceeds roughly 6.8 mg/dL the saturation point, crystals precipitate in joints and soft tissues. Tophaceous gout reflects chronic deposition, and urate-lowering therapy such as allopurinol or febuxostat works by preventing crystal formation in the first place.",
+      "zh-TW": "Monosodium urate（MSU）結晶是 gout 的致病因子：當血清尿酸超過約 6.8 mg/dL 的飽和點，結晶便在關節與軟組織沉澱。Tophaceous gout 反映慢性沉積，而 allopurinol 或 febuxostat 等降尿酸療法的作用機制正是預防結晶形成。"
+    },
+    "confidence": 0.95,
+    "source_document": "Uric Acid Crystals.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "4e5938292cee",
+    "subject": "Canakinumab",
+    "predicate": "treats",
+    "object": "Gout",
+    "context": {
+      "en-US": "Because MSU-driven gout inflammation depends on IL-1β, IL-1 blockade is effective where NSAIDs and colchicine fail: anakinra antagonizes IL-1R1 and canakinumab is an anti-IL-1β antibody approved for gout flares unresponsive to other treatments. This validates the crystal-NLRP3-IL-1β axis as a therapeutic target.",
+      "zh-TW": "由於 MSU 驅動的 gout 發炎依賴 IL-1β，IL-1 阻斷在 NSAID 與 colchicine 失效時仍然有效：anakinra 拮抗 IL-1R1，canakinumab 則是獲准用於對其他治療無反應之 gout 發作的抗 IL-1β 抗體。這驗證了結晶-NLRP3-IL-1β 軸作為治療標的。"
+    },
+    "confidence": 0.9,
+    "source_document": "Uric Acid Crystals.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "9e3eb4f3a3c3",
+    "subject": "Vitamin E",
+    "predicate": "inhibits",
+    "object": "Lipid Peroxidation",
+    "context": {
+      "en-US": "Vitamin E is the only fat-soluble chain-breaking antioxidant: it terminates the propagation phase of lipid peroxidation by donating the phenolic hydrogen of its chromanol ring to a lipid peroxyl radical, at a rate constant near 10^6 M^-1s^-1. The resulting resonance-stabilized tocopheroxyl radical is unreactive toward PUFA, so the chain stops. Because the molecule is not consumed 1:1 with radicals, it acts as a recyclable catalyst of chain termination rather than a one-time scavenger.",
+      "zh-TW": "Vitamin E 是唯一可溶於脂肪的鏈終止型抗氧化物：它將色滿環的酚羥基氫轉移給脂質過氧自由基（LOO•），以約 10^6 M⁻¹s⁻¹ 的速率常數終止脂質過氧化鏈式反應的傳播階段。產生的共振穩定生育酚氧自由基對 PUFA 不具反應性，因此鏈反應停止。由於它並非與自由基 1:1 消耗，Vitamin E 實際上是可回收的鏈終止催化劑，而非一次性清除劑。"
+    },
+    "confidence": 0.95,
+    "source_document": "Vitamin E.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "a91ea6cf0aba",
+    "subject": "Vitamin E",
+    "predicate": "is_regenerated_by",
+    "object": "Vitamin C",
+    "context": {
+      "en-US": "Vitamin E's antioxidant capacity depends on a recycling network. The phytyl tail anchors tocopherol in the bilayer or lipoprotein core while the chromanol ring sits at the lipid-water interface — precisely where the water-soluble Vitamin C regenerates the tocopheroxyl radical (TocO•) back to TocOH. Glutathione and glutathione reductase in turn regenerate ascorbate, closing the loop, so the functional reserve is set by the whole network rather than by tocopherol alone.",
+      "zh-TW": "Vitamin E 的抗氧化能力仰賴一套再生網絡。植物醇尾將生育酚錨定在雙層膜或脂蛋白核心，而色滿環位於脂質—水界面——正是水溶性的 Vitamin C 將生育酚氧自由基（TocO•）還原回 TocOH 的位置。Glutathione 與 glutathione reductase 再還原抗壞血酸，完成循環，因此其功能儲備由整個網絡決定，而非單靠生育酚。"
+    },
+    "confidence": 0.9,
+    "source_document": "Vitamin E.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "7596f8edf2d4",
+    "subject": "Vitamin E",
+    "predicate": "suppresses",
+    "object": "Mitohormesis",
+    "context": {
+      "en-US": "High-dose vitamin E supplements can suppress mitohormesis: tocopherol removes lipid-peroxyl radicals and their reactive breakdown products such as 4-Hydroxynonenal that feed NRF2 activation, and chronically elevated antioxidant capacity flattens the redox signal upstream of AMPK-SIRT1-PGC-1α adaptation. The interference is indirect — tocopherol reacts with membrane peroxyl radicals, not with the superoxide or matrix H2O2 (10-100 nM) that oxidize the cysteine sensors driving mitohormesis. Evidence quality is mixed, since the canonical Ristow 2009 exercise-blunting trial used vitamin C plus vitamin E together.",
+      "zh-TW": "高劑量 Vitamin E 補充劑可能抑制 mitohormesis：生育酚移除脂質過氧自由基及其反應性分解產物（如 4-Hydroxynonenal），而後者正是活化 NRF2 的訊號來源；長期偏高的抗氧化能力也會壓平 AMPK–SIRT1–PGC-1α 適應上游的氧化還原訊號。這種干擾是間接的——生育酚只與膜上的過氧自由基反應，而不與驅動 mitohormesis 的半胱胺酸感測器所受的超氧陰離子或基質 H2O₂（10–100 nM）反應。證據品質參差：Ristow 2009 的經典運動適應受損試驗同時使用 vitamin C 與 vitamin E。"
+    },
+    "confidence": 0.8,
+    "source_document": "Vitamin E.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "b16adb3660f9",
+    "subject": "COMT",
+    "predicate": "modulates",
+    "object": "Vitamin E",
+    "context": {
+      "en-US": "COMT genotype modifies the efficacy and safety of vitamin E (alpha-tocopherol) supplementation. A 10-year follow-up to a vitamin E trial showed that the COMT rs4680 variant affected cancer risk: slow (rs4680 A/A) metabolizers saw reduced cancer rates on vitamin E, while fast (rs4680 G/G) metabolizers may experience a slight increase in cancer risk.",
+      "zh-TW": "COMT 基因型會影響 Vitamin E（alpha-tocopherol）補充的療效與安全性。一項維生素 E 試驗的十年追蹤顯示，COMT rs4680 變異會影響癌症風險：慢代謝型（rs4680 A/A）服用 vitamin E 時癌症率下降，而快代謝型（rs4680 G/G）則可能出現癌症風險輕微上升。"
+    },
+    "confidence": 0.75,
+    "source_document": "Vitamin E.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "56df61cc8ff4",
+    "subject": "Vitamin K",
+    "predicate": "suppresses",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "The reduced form of vitamin K (VKH2) is a potent radical-trapping antioxidant that, like ubiquinol, halts iron-dependent phospholipid peroxidation. Vitamin K thus provides a second, warfarin-insensitive branch of the FSP1 defense alongside the CoQ10/ubiquinone branch, suppressing ferroptosis independently of GPX4 and glutathione. Vitamin K supplementation shows ferroptosis-inhibitory activity in models of organ injury and degeneration.",
+      "zh-TW": "維生素 K 的還原態（VKH2）是效力強勁的自由基捕捉型抗氧化物，與泛醇（ubiquinol）相同，可阻斷鐵依賴性的磷脂過氧化。因此維生素 K 提供了 FSP1 防禦中第二條華法林不敏感的分支，與 CoQ10／泛醌分支平行，可獨立於 GPX4 與 glutathione 抑制 ferroptosis。維生素 K 補充在器官損傷與退化的模型中展現 ferroptosis 抑制活性。"
+    },
+    "confidence": 0.9,
+    "source_document": "Vitamin K.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "9e4c7b5930eb",
+    "subject": "Vitamin K",
+    "predicate": "antagonizes",
+    "object": "Warfarin",
+    "context": {
+      "en-US": "Vitamin K is classically a cofactor of gamma-glutamyl carboxylase in blood clotting and is the target antagonized by the anticoagulant warfarin. Warfarin blocks the canonical vitamin K epoxide reductase (VKOR) cycle, but because the FSP1-driven non-canonical cycle regenerates VKH2 without VKOR, FSP1-mediated vitamin K reduction underlies antidotal rescue from warfarin and superwarfarin toxicity.",
+      "zh-TW": "維生素 K 傳統上是凝血過程中 γ-谷氨醯羧化酶的輔因子，也是抗凝血劑華法林所拮抗的標的。華法林阻斷典型的維生素 K 環氧化物還原酶（VKOR）循環，但由於 FSP1 驅動的非典型循環可在不依賴 VKOR 的情況下再生 VKH2，FSP1 介導的維生素 K 還原構成了華法林與超級華法林中毒的解毒救援機制。"
+    },
+    "confidence": 0.85,
+    "source_document": "Vitamin K.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "d5ffc1cd0113",
+    "subject": "WI-38",
+    "predicate": "undergoes",
+    "object": "Replicative Senescence",
+    "context": {
+      "en-US": "WI-38 is a diploid human fetal lung fibroblast cell line derived by Leonard Hayflick in 1962. It has a finite replicative lifespan and enters replicative senescence after roughly 50 population doublings (reaching PDL55-60 by serial passage), which makes it a classical model system for cellular aging research.",
+      "zh-TW": "WI-38 是 Leonard Hayflick 於 1962 年建立的二倍體人類胎兒肺纖維母細胞株。它具有有限的複製壽命，在約 50 次族群倍增後進入 replicative senescence（連續傳代約於 PDL55–60 達到），因此是細胞老化研究的經典模型系統。"
+    },
+    "confidence": 0.95,
+    "source_document": "WI-38.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "cbbf53a94f99",
+    "subject": "SARM1",
+    "predicate": "degrades",
+    "object": "NAD+",
+    "context": {
+      "en-US": "Wallerian degeneration is executed by SARM1. Axonal injury disrupts NMNAT2 transport and triggers its proteasomal degradation, so NMN accumulates and raises the NMN/NAD+ ratio, relieving SARM1 autoinhibition. Activated SARM1 then cleaves NAD+, collapsing axonal NAD+ from ~400 µM to near zero within minutes.",
+      "zh-TW": "Wallerian degeneration 由 SARM1 執行。軸突受損使 NMNAT2 的運送中斷並引發其蛋白酶體降解，導致 NMN 累積、NMN/NAD+ 比值上升，解除 SARM1 的自抑制。活化的 SARM1 隨即切割 NAD+，使軸突 NAD+ 在數分鐘內由約 400 µM 崩潰至接近零。"
+    },
+    "confidence": 0.95,
+    "source_document": "Wallerian Degeneration.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "7c12d24c0d15",
+    "subject": "Werner Syndrome",
+    "predicate": "is_caused_by",
+    "object": "WRN",
+    "context": {
+      "en-US": "Werner Syndrome (WS) is a rare autosomal recessive progeroid syndrome caused by mutations in the WRN gene. The WRN protein is a specialized enzyme with both helicase and exonuclease activities that is essential for maintaining genomic integrity. Unlike HGPS, which begins in early childhood, WS typically manifests during adolescence, often first noticed as a lack of a pubertal growth spurt.",
+      "zh-TW": "Werner Syndrome（WS）是一種罕見的體染色體隱性早衰症候群，由 WRN 基因突變造成。WRN 蛋白是兼具解旋酶與外切酶活性的特殊酵素，對維持 genomic integrity 至關重要。與幼年即發病的 HGPS 不同，WS 通常在青春期表現，最初常以缺乏青春期生長突增而被察覺。"
+    },
+    "confidence": 0.9,
+    "source_document": "Werner Syndrome.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "17ad52fe0347",
+    "subject": "WRN",
+    "predicate": "is_required_for",
+    "object": "DNA Repair",
+    "context": {
+      "en-US": "The WRN protein participates in almost every major DNA metabolic pathway. It helps resolve stalled replication forks, is critical for repairing double-strand breaks and telomere maintenance, and in its absence cells accumulate DNA damage at an accelerated rate, leading to rapid cellular dysfunction and death. Loss of WRN function is the core cellular hallmark of Werner Syndrome and the basis of its accelerated-aging phenotype.",
+      "zh-TW": "WRN 蛋白參與幾乎所有主要的 DNA 代謝途徑。它協助解開停滯的複製叉，對修復雙股斷裂與端粒維持至關重要；缺乏其功能時，細胞以加速速率累積 DNA 損傷，導致快速的功能失調與死亡。WRN 功能喪失是 Werner Syndrome 的核心細胞特徵，也是其加速衰老表型的基礎。"
+    },
+    "confidence": 0.9,
+    "source_document": "Werner Syndrome.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "3a4c7e7ea457",
+    "subject": "Werner Syndrome",
+    "predicate": "is_a_type_of",
+    "object": "Aging",
+    "context": {
+      "en-US": "Werner Syndrome is a primary model for adult-onset progeria. Patients develop many conditions associated with normal aging but much earlier in life: cataracts and osteoporosis typically in the 20s or 30s, diabetes mellitus and cardiovascular disease leading to a life expectancy in the late 40s or early 50s, and an increased risk of rare sarcomas and other malignancies.",
+      "zh-TW": "Werner Syndrome 是成人期早衰的主要模型。患者會出現許多與正常老化相關、但發生得早得多的疾病：白內障與骨質疏鬆通常在 20 至 30 歲出現；diabetes mellitus 與 cardiovascular disease 使預期壽命縮短至 40 歲後期或 50 歲初；並增加罕見肉瘤及其他惡性腫瘤的風險。"
+    },
+    "confidence": 0.85,
+    "source_document": "Werner Syndrome.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "66d1e3275e0b",
+    "subject": "XBP1",
+    "predicate": "is_activated_by",
+    "object": "ER Stress",
+    "context": {
+      "en-US": "X-box binding protein 1 (XBP1) is a bZIP transcription factor and the principal transcription factor of the unfolded protein response. Its active spliced form XBP1s arises from IRE1-mediated alternative splicing of XBP1 mRNA during ER stress, after which XBP1s binds UPRE elements to drive UPR target genes.",
+      "zh-TW": "X-box binding protein 1（XBP1）是 bZIP 轉錄因子，也是 unfolded protein response 的主要轉錄因子。其活性剪接型 XBP1s 在 ER 壓力期間由 IRE1 介導的 XBP1 mRNA 選擇性剪接產生，之後 XBP1s 結合目標基因上的 UPRE 序列以啟動 UPR 目標基因。"
+    },
+    "confidence": 0.9,
+    "source_document": "XBP1.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "f3c1d2ec1969",
+    "subject": "XBP1",
+    "predicate": "activates",
+    "object": "TFEB",
+    "context": {
+      "en-US": "XBP1s transcriptionally activates autophagy genes including Beclin1 and LC3B, and XBP1 regulates hepatic autophagy by activating TFEB. This makes XBP1 a bridge between ER-stress signaling and the TFEB-autophagy program; XBP1 deficiency impairs autophagy and sensitizes cells to ER stress.",
+      "zh-TW": "XBP1s 可轉錄活化包括 Beclin1 與 LC3B 在內的自噬基因，並透過活化 TFEB 調節肝臟自噬。這使 XBP1 成為橋接 ER 壓力訊號與 TFEB–自噬程式的節點；XBP1 缺失會損害自噬並使細胞對 ER 壓力更加敏感。"
+    },
+    "confidence": 0.85,
+    "source_document": "XBP1.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "ebd806dad8f0",
+    "subject": "SIRT6",
+    "predicate": "alleviates",
+    "object": "ER Stress",
+    "context": {
+      "en-US": "SIRT6 alleviates endoplasmic reticulum stress by regulating XBP1, complementing its H3K9 deacetylation at glycolytic promoters to limit inflammatory and metabolic dysfunction in the liver. This links XBP1 biology to hepatic metabolic homeostasis and connects the sirtuin network to TFEB-autophagy biology (Szczęsny-Małysiak et al., 2026).",
+      "zh-TW": "SIRT6 透過調節 XBP1 緩解內質網壓力，並配合其在糖解啟動子上的 H3K9 去乙醯化作用，限制肝臟的發炎與代謝功能失調。這將 XBP1 的生物學與肝臟代謝恆定相連結，也把 sirtuin 網絡與 TFEB–自噬生物學串聯起來（Szczęsny-Małysiak 等，2026）。"
+    },
+    "confidence": 0.85,
+    "source_document": "XBP1.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "522929095480",
+    "subject": "Selenocysteine",
+    "predicate": "is_derived_from",
+    "object": "Cysteine",
+    "context": {
+      "en-US": "Selenocysteine (Sec) is the 21st amino acid, structurally analogous to cysteine but chemically distinct: its selenol group has a pKa of about 5.2 versus ~8.3 for the cysteine thiol, so at physiological pH Sec exists predominantly in its reactive deprotonated form. That makes it a superior nucleophile and electrophile, which is why selenoenzymes such as Glutathione Peroxidase and Thioredoxin reductase achieve catalytic rates that cysteine-containing analogs cannot match.",
+      "zh-TW": "Selenocysteine（Sec）是第 21 種胺基酸，結構上與 cysteine 相似但化學性質不同：其 selenol 基團的 pKa 約為 5.2，而 cysteine 的 thiol 約為 8.3，因此在生理 pH 下 Sec 主要以具反應性的去質子化形式存在。這使它成為更佳的親核體與親電體，也解釋了 Glutathione Peroxidase 與 Thioredoxin reductase 等 selenoenzyme 為何能達到含 cysteine 的類似物無法匹敵的催化速率。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - How Cysteine and Selenocysteine Guard Cells Against Aging and Oxidative Damage.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "eaec77be66f4",
+    "subject": "FTSJ1",
+    "predicate": "methylates",
+    "object": "Selenocysteine",
+    "context": {
+      "en-US": "FTSJ1 is the 2'-O-ribose methyltransferase that installs the Um34 modification on the two tRNA[Ser]Sec isodecoders, and this modification is a prerequisite for efficient selenocysteine recoding at UGA codons. Selenoprotein translation and tRNA[Ser]Sec Um34 levels both rise in response to oxidative stress. Loss of Um34 causes ribosomal stalling and decreased UGA recoding, making cells more sensitive to reactive oxygen species.",
+      "zh-TW": "FTSJ1 是將 Um34 修飾安裝到兩種 tRNA[Ser]Sec 等型 tRNA 上的 2′-O-核糖甲基轉移酶，而此修飾是 UGA 密碼子上 selenocysteine 高效再編碼的前提。面對氧化壓力時，selenoprotein 的轉譯與 tRNA[Ser]Sec 的 Um34 含量皆會上升。Um34 缺失會造成核糖體停滯與 UGA 再編碼下降，使細胞對活性氧更為敏感。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Selenocysteine tRNA methylation promotes oxidative stress resistance in melanoma metastasis.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "5b2d4f1eb81a",
+    "subject": "Selenocysteine",
+    "predicate": "protects_against",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "Efficient UGA recoding selectively supports translation of selenoproteins that buffer reactive oxygen species, notably the GPX4 and Thioredoxin reductase families, which are essential for controlling lipid peroxidation and preventing ferroptosis. Um34 loss collapses antioxidant selenoprotein translation and thereby increases oxidative-stress sensitivity; separately, ribosome stalling during selenoprotein translation has been shown to expose a ferroptosis vulnerability (Li et al., Nat. Chem. Biol. 2022), linking recoding fidelity to cell-death fate.",
+      "zh-TW": "高效的 UGA 再編碼會選擇性支持那些緩衝活性氧的 selenoprotein 的轉譯，尤其是 GPX4 與 Thioredoxin reductase 家族，它們對控制脂質過氧化與防止 ferroptosis 至關重要。Um34 缺失會崩潰抗氧化 selenoprotein 的轉譯，進而提高氧化壓力敏感性；另一方面，selenoprotein 轉譯過程中的核糖體停滯已被證實會暴露 ferroptosis 脆弱性（Li 等，Nat. Chem. Biol. 2022），將再編碼保真度與細胞命運相連。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Selenocysteine tRNA methylation promotes oxidative stress resistance in melanoma metastasis.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "bf3a458e25f8",
+    "subject": "Selenocysteine",
+    "predicate": "promotes",
+    "object": "Metastasis",
+    "context": {
+      "en-US": "Melanoma cells co-opt the tRNA[Ser]Sec Um34 axis to sustain an antioxidant shield: by maintaining Um34-modified tRNA[Ser]Sec they keep antioxidant selenoprotein translation high, which permits survival under the high oxidative stress of the metastatic niche. Um34 modification is necessary and sufficient for metastasis in melanoma xenograft models, and micrometastatic cells upregulate selenocysteine biosynthesis, consistent with prior work showing oxidative stress limits distant metastasis. The axis is therefore a potential therapeutic target specific to metastatic disease.",
+      "zh-TW": "黑色素瘤細胞會劫持 tRNA[Ser]Sec 的 Um34 軸以維持抗氧化屏障：藉由保有帶 Um34 修飾的 tRNA[Ser]Sec，使抗氧化 selenoprotein 的轉譯維持高檔，讓細胞得以在轉移灶的高氧化壓力環境中存活。在黑色素瘤異種移植模型中，Um34 修飾對轉移既是必要也是充分條件，且微轉移細胞會上調 selenocysteine 生合成，與先前顯示氧化壓力限制遠端轉移的研究一致。因此此軸是轉移性疾病特有的潛在治療標的。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Selenocysteine tRNA methylation promotes oxidative stress resistance in melanoma metastasis.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "6edd57d49820",
+    "subject": "adipogenesis",
+    "predicate": "is_driven_by",
+    "object": "PPARγ",
+    "context": {
+      "en-US": "Adipogenesis is the differentiation program by which mesenchymal cells commit to the adipocyte lineage. Early commitment is driven by C/EBPβ and C/EBPδ and by the master regulator PPARγ, whose induction alone is sufficient to convert fibroblasts into fat cells. PPARγ heterodimerizes with RXR to activate adipocyte genes including aP2/FABP4 and GLUT4, and a later phase orchestrated by C/EBPα stabilizes the differentiated state in cooperation with PPARγ.",
+      "zh-TW": "Adipogenesis 是間質細胞朝向脂肪細胞譜系 commitments 的分化程式。早期 commitment 由 C/EBPβ 與 C/EBPδ 以及主調節因子 PPARγ 驅動，單獨誘導 PPARγ 即足以將纖維母細胞轉化為脂肪細胞。PPARγ 與 RXR 形成異二聚體，活化包括 aP2/FABP4 與 GLUT4 在內的脂肪細胞基因；後期則由 C/EBPα 統籌，與 PPARγ 合作穩定已分化狀態。"
+    },
+    "confidence": 0.9,
+    "source_document": "adipogenesis.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "afbbd85f1fd9",
+    "subject": "Adipose Tissue",
+    "predicate": "dysfunction_promotes",
+    "object": "Insulin Resistance",
+    "context": {
+      "en-US": "Impaired adipogenesis causes adipose tissue dysfunction, forcing lipid spillover into liver and muscle and promoting ectopic fat deposition and insulin resistance, a core feature of metabolic syndrome. Conversely, excessive adipogenesis and hyperplasia drive obesity. Pharmacologic modulation of PPARγ with thiazolidinediones improves insulin sensitivity precisely by enhancing adipogenesis and the adipose buffering of circulating lipid.",
+      "zh-TW": "脂肪生成受損會造成脂肪組織功能失調，使脂質外溢至肝臟與肌肉，促進異位脂肪沉積與 insulin resistance——這是 metabolic syndrome 的核心特徵。反之，過度的脂肪生成與增生則驅動 obesity。以 thiazolidinedione 對 PPARγ 進行藥理調節之所以能改善胰島素敏感度，正是因為它增強了脂肪生成與脂肪組織對循環脂質的緩衝能力。"
+    },
+    "confidence": 0.85,
+    "source_document": "adipogenesis.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "ec3467df6008",
+    "subject": "alpha-1 Antitrypsin",
+    "predicate": "inhibits",
+    "object": "Neutrophil Elastase",
+    "context": {
+      "en-US": "alpha-1 Antitrypsin (AAT, SERPINA1) is the major circulating serine protease inhibitor in human plasma, protecting tissues — especially the lungs — from excessive proteolysis by neutrophil elastase. It acts as a suicide substrate: the reactive centre loop mimics the protease's natural substrate, and cleavage drives RCL insertion into the A-sheet, trapping the protease in a covalent irreversible complex in a stoichiometric 1:1 manner.",
+      "zh-TW": "alpha-1 Antitrypsin（AAT，SERPINA1）是人類血漿中主要的循環絲胺酸蛋白酶抑制劑，保護組織——尤其是肺部——免受 neutrophil elastase 過度蛋白水解。它作為「犧牲性受質」作用：反應中心環模擬該蛋白酶的天然受質，被切割後促使 RCL 插入 A 板層，以 1:1 化學計量將蛋白酶困在共價且不可逆的複合體中。"
+    },
+    "confidence": 0.9,
+    "source_document": "alpha-1 Antitrypsin.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "40a25416ff53",
+    "subject": "alpha-1 Antitrypsin",
+    "predicate": "protects_against",
+    "object": "Emphysema",
+    "context": {
+      "en-US": "The balance between neutrophil elastase and alpha-1 antitrypsin is the central concept in lung homeostasis: without sufficient AAT, unopposed elastase degrades elastin, collagen, and proteoglycans in the alveolar walls, producing emphysema. Genetic AAT deficiency is the most common inherited cause of early-onset emphysema, and PiZZ individuals develop panacinar, lower-lobe-predominant emphysema typically in their 30s-40s. Augmentation therapy with weekly intravenous pooled human AAT aims to hold plasma levels above the protective threshold of 11 µM.",
+      "zh-TW": "neutrophil elastase 與 alpha-1 antitrypsin 之間的平衡是肺部恆定的核心概念：AAT 不足時，失去拮抗的彈性蛋白酶會降解肺泡壁的 elastin、collagen 與 proteoglycan，造成 emphysema。遺傳性 AAT 缺乏是早發性肺氣腫最常見的遺傳病因，PiZZ 個體通常在 30 至 40 歲出現以肺下葉為主的全小葉型肺氣腫。每週靜脈注射人類 AAT 濃縮品的補充療法，目標是將血漿濃度維持在 11 µM 的保護閾值之上。"
+    },
+    "confidence": 0.9,
+    "source_document": "alpha-1 Antitrypsin.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "442df441226e",
+    "subject": "Reactive Oxygen Species",
+    "predicate": "inactivates",
+    "object": "alpha-1 Antitrypsin",
+    "context": {
+      "en-US": "Cigarette smoke compounds the protease-antiprotease imbalance by oxidising the Met358 residue in AAT's reactive centre loop, reducing its inhibitory activity roughly 2,000-fold, while also recruiting neutrophils to the lung to increase elastase release and generating ROS that directly damage elastin. PiZZ smokers therefore develop emphysema 10-20 years earlier than PiZZ non-smokers, which is why smoking cessation is the most impactful intervention.",
+      "zh-TW": "香菸菸霧會加劇蛋白酶／抗蛋白酶失衡：它氧化 AAT 反應中心環中的 Met358 殘基，使其抑制活性下降約 2,000 倍，同時招募嗜中性球到肺部增加彈性蛋白酶釋放，並產生直接損傷 elastin 的 ROS。因此 PiZZ 吸菸者較 PiZZ 不吸菸者提早 10–20 年發病肺氣腫，戒菸也因此成為最有效的介入措施。"
+    },
+    "confidence": 0.85,
+    "source_document": "alpha-1 Antitrypsin.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "e5a5ed42b3c8",
+    "subject": "alpha-1 Antitrypsin",
+    "predicate": "accumulates_in",
+    "object": "ER Stress",
+    "context": {
+      "en-US": "alpha-1 antitrypsin deficiency is a conformational disease: the Z variant (Glu342Lys, the most common deficiency allele) causes AAT molecules to polymerise within the hepatocyte endoplasmic reticulum, producing ER stress, liver damage, and reduced circulating AAT levels. PiZZ individuals may develop neonatal hepatitis (10-15% of infants), chronic hepatitis, cirrhosis (2-12% of adults), and hepatocellular carcinoma. Liver transplantation is curative because hepatic-derived AAT production resumes.",
+      "zh-TW": "alpha-1 antitrypsin 缺乏是一種構象疾病：最常見的缺乏等位基因 Z 變異（Glu342Lys）會使 AAT 分子在肝細胞內質網中聚合，造成 ER stress、肝損傷與循環 AAT 濃度下降。PiZZ 個體可能出現新生兒肝炎（嬰兒的 10–15%）、慢性肝炎、肝硬化（成人的 2–12%）與肝細胞癌。肝臟移植可治癒此病，因為肝源性 AAT 的製造會恢復。"
+    },
+    "confidence": 0.85,
+    "source_document": "alpha-1 Antitrypsin.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "5a5295a0b447",
+    "subject": "c-Fos",
+    "predicate": "promotes",
+    "object": "Cell Cycle",
+    "context": {
+      "en-US": "c-Fos is an immediate-early response gene encoding Fos, a core subunit of the AP-1 transcription factor heterodimer. It is rapidly induced by mitogenic signalling and promotes cell-cycle progression and proliferation, and as a proto-oncogene it is linked to oncogene-induced transformation. Fos-Jun heterodimers bind AP-1 sites to regulate genes controlling proliferation, differentiation, and stress responses.",
+      "zh-TW": "c-Fos 是即刻早期反應基因，編碼 Fos——AP-1 轉錄因子異二聚體的核心次單元。它受促分裂訊號迅速誘導，促進細胞週期進程與增殖；作為原致癌基因，它也與致癌基因誘導的轉型相關。Fos–Jun 異二聚體結合 AP-1 位點，調控控制增殖、分化與壓力反應的基因。"
+    },
+    "confidence": 0.9,
+    "source_document": "c-Fos.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "eac5b21c2742",
+    "subject": "AMPK",
+    "predicate": "inhibits",
+    "object": "c-Fos",
+    "context": {
+      "en-US": "c-Fos mRNA is bound and stabilized by the RNA-binding protein HuR. In senescent or metabolically stressed cells, activated AMPK prevents HuR's nuclear-to-cytosolic translocation; with less cytosolic HuR available, translation of c-Fos, Cyclin A, and Cyclin B mRNAs falls, contributing to the proliferative arrest that defines senescence. Loss of c-Fos/AP-1 activity is thus consistent with the growth-arrested state of senescent cells.",
+      "zh-TW": "c-Fos mRNA 由 RNA 結合蛋白 HuR 結合並穩定。在衰老或代謝受壓的細胞中，活化的 AMPK 阻止 HuR 由核內轉位至細胞質；隨著細胞質 HuR 減少，c-Fos、Cyclin A 與 Cyclin B mRNA 的轉譯下降，促成定義 senescence 的增殖性停滯。因此 c-Fos／AP-1 活性的喪失，與衰老細胞的生長停滯狀態一致。"
+    },
+    "confidence": 0.85,
+    "source_document": "c-Fos.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "fd8fb7028d64",
+    "subject": "c-Jun",
+    "predicate": "activates",
+    "object": "SASP",
+    "context": {
+      "en-US": "c-Jun acts in senescence as a pioneer transcription factor: as the core AP-1 subunit it engages nucleosomal DNA and initiates chromatin opening at otherwise inaccessible enhancers at SASP and other senescence loci, de novo activating enhancers marked by H3K4me1, H3K27ac, and eRNAs. Those enhancers are later co-occupied by BRD4 and CEBPα to drive NF-κB-regulated SASP gene transcription.",
+      "zh-TW": "在衰老情境中，c-Jun 扮演先驅轉錄因子：作為 AP-1 的核心次單元，它能結合核小體 DNA，在 SASP 及其他衰老基因座上原本不可接近的增強子處啟動染色質開放，de novo 活化帶有 H3K4me1、H3K27ac 與 eRNA 標記的增強子。這些增強子之後由 BRD4 與 CEBPα 共同占據，以驅動 NF-κB 調控的 SASP 基因轉錄。"
+    },
+    "confidence": 0.9,
+    "source_document": "c-Jun.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "39b111020128",
+    "subject": "c-Jun",
+    "predicate": "contributes_to",
+    "object": "Senescence",
+    "context": {
+      "en-US": "c-Jun has a dual role in senescence: depletion of c-Jun alone is sufficient to partially reverse the senescence cell-cycle arrest, linking AP-1 to the arrest machinery itself, while simultaneously reducing NF-κB-regulated SASP gene expression. This distinguishes it from HDAC4, which buffers the AP-1 program until degraded upon senescence entry and whose depletion instead enhances SASP. HDAC4 acts through HDAC3 at H3K27ac loci, balancing the pioneer c-Jun.",
+      "zh-TW": "c-Jun 在衰老中具有雙重角色：單獨耗竭 c-Jun 即足以部分逆轉衰老的細胞週期停滯，將 AP-1 與停滯機制本身相連結；同時它也降低 NF-κB 調控的 SASP 基因表現。這使它有別於 HDAC4——後者在衰老啟動前經 HDAC3 於 H3K27ac 基因座緩衝 AP-1 程式，其耗竭反而會增強 SASP。HDAC4 與先驅因子 c-Jun 形成平衡。"
+    },
+    "confidence": 0.85,
+    "source_document": "c-Jun.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "31bbc962d6ab",
+    "subject": "c-KIT",
+    "predicate": "is_inhibited_by",
+    "object": "Imatinib",
+    "context": {
+      "en-US": "c-KIT (KIT, CD117) is a receptor tyrosine kinase activated by stem cell factor; gain-of-function mutations drive gastrointestinal stromal tumours (GIST) and other malignancies. It is co-inhibited by multi-targeted tyrosine kinase inhibitors such as Imatinib, the classic KIT inhibitor used in GIST, and Pazopanib, a VEGFR/PDGFR/c-KIT-targeted agent.",
+      "zh-TW": "c-KIT（KIT、CD117）是受幹細胞因子活化的受體酪胺酸激酶；其功能獲得性突變會驅動胃腸道間質腫瘤（GIST）及其他惡性腫瘤。它同時受到多標的酪胺酸激酶抑制劑的抑制，例如 GIST 的經典 KIT 抑制劑 Imatinib，以及以 VEGFR/PDGFR/c-KIT 為標的 Pazopanib。"
+    },
+    "confidence": 0.9,
+    "source_document": "c-KIT.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "51ac5897fb82",
+    "subject": "c-Myc",
+    "predicate": "is_a_type_of",
+    "object": "Yamanaka Factors",
+    "context": {
+      "en-US": "c-Myc (MYC) is a proto-oncogene and transcription factor that regulates cell-cycle progression, apoptosis, and cellular metabolism, and it is one of the four original Yamanaka Factors. While not strictly required for iPSC generation — Oct4, Sox2, and Klf4 suffice — c-Myc significantly increases reprogramming efficiency by promoting a more open chromatin state and accelerating the cell cycle, at the cost of increased tumorigenicity.",
+      "zh-TW": "c-Myc（MYC）是調節細胞週期進程、凋亡與細胞代謝的原致癌基因與轉錄因子，也是四個原始 Yamanaka Factors 之一。雖然 iPSC 生成並非嚴格需要它——Oct4、Sox2 與 Klf4 即已足夠——c-Myc 仍可藉由促進較開放的染色質狀態並加速細胞週期，顯著提升重編程效率，代價則是腫瘤形成風險上升。"
+    },
+    "confidence": 0.9,
+    "source_document": "c-Myc.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "1ae2bb4adb68",
+    "subject": "SIRT2",
+    "predicate": "stabilizes",
+    "object": "c-Myc",
+    "context": {
+      "en-US": "SIRT2 enhances c-Myc and c-Myc protein stability and promotes cancer cell proliferation, acting in opposition to its own HDAC function, which inhibits proliferation in neuroblastoma cells and renal podocytes. c-Myc, in turn, is a pleiotropic regulator of cell-cycle progression, apoptosis, and cellular metabolism and is linked to many types of cancer.",
+      "zh-TW": "SIRT2 會增強 c-Myc 及其蛋白質的穩定性並促進癌細胞增殖，這與其自身的 HDAC 功能（抑制神經母細胞瘤細胞與腎臟足細胞的增殖）作用相反。c-Myc 反過來是細胞週期進程、凋亡與細胞代謝的多效性調節者，並與多種類型的癌症相關。"
+    },
+    "confidence": 0.7,
+    "source_document": "c-Myc.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "bae18d32eec7",
+    "subject": "cGAMP",
+    "predicate": "activates",
+    "object": "SASP",
+    "context": {
+      "en-US": "In senescent cells, cytoplasmic chromatin fragments and/or mitochondrial DNA accumulate in the cytosol and activate cGAS to produce cGAMP. This drives STING-dependent SASP expression, linking cellular senescence to immune surveillance. The same cGAMP-STING-TBK1-IRF3 axis also drives type I interferon production, making cGAMP central to the cGAS-STING pathway in senescent cells.",
+      "zh-TW": "在衰老細胞中，細胞質染色質碎片與／或粒線體 DNA 累積於細胞質，活化 cGAS 以產生 cGAMP。這驅動 STING 依賴性的 SASP 表現，將細胞衰老與免疫監視相連結。同一條 cGAMP–STING–TBK1–IRF3 軸也驅動第一型干擾素的產生，使 cGAMP 在衰老細胞的 cGAS-STING pathway 中居於核心地位。"
+    },
+    "confidence": 0.9,
+    "source_document": "cGAMP.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "77826a009194",
+    "subject": "cGAS Inhibitors",
+    "predicate": "inhibit",
+    "object": "cGAS",
+    "context": {
+      "en-US": "cGAS inhibitors are experimental small molecules — RU.521, TDI, PF-06928215, G150, and SU-cH — that block the nucleotidyltransferase activity of cGAS, preventing synthesis of cGAMP and thereby suppressing downstream STING activation and type I interferon production. By inhibiting the proximal sensor they interrupt the cGAS-STING pathway at its upstream enzymatic step, reducing ISG expression, NF-κB-driven cytokines, and maladaptive glial activation.",
+      "zh-TW": "cGAS 抑制劑是一類實驗性小分子——RU.521、TDI、PF-06928215、G150 與 SU-cH——可阻斷 cGAS 的核苷酸轉移酶活性，抑制 cGAMP 的合成，因而抑制下游 STING 活化與第一型干擾素的產生。藉由抑制最上游的感測器，它們在 cGAS-STING pathway 的上游酵素步驟加以截斷，降低 ISG 表現、NF-κB 驅動的細胞激素與不良的膠細胞活化。"
+    },
+    "confidence": 0.95,
+    "source_document": "cGAS Inhibitors.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "6f7c5b7bf5ef",
+    "subject": "cGAS Inhibitors",
+    "predicate": "phenocopies",
+    "object": "APOE3 Christchurch",
+    "context": {
+      "en-US": "Pharmacological cGAS inhibition selectively suppresses neurotoxic inflammatory programs while preserving beneficial microglial functions such as phagocytosis and recruitment to pathological aggregates. In tauopathy models it phenocopies the protective APOE3 Christchurch (R136S) resilience allele, validating that suppression of cGAS-STING signaling is sufficient to recapitulate genetic protection against tau toxicity.",
+      "zh-TW": "藥理性 cGAS 抑制可選擇性抑制具神經毒性的發炎程式，同時保留小膠細胞的吞噬作用與向病理聚集物招募等有益功能。在 tau 病變模型中，它表型模擬具保護性的 APOE3 Christchurch（R136S）抗性等位基因，驗證了抑制 cGAS-STING 訊號足以重現對 tau 毒性的遺傳性保護。"
+    },
+    "confidence": 0.85,
+    "source_document": "cGAS Inhibitors.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "ccde7864c682",
+    "subject": "cGAS Inhibitors",
+    "predicate": "treats",
+    "object": "Neuroinflammation",
+    "context": {
+      "en-US": "cGAS inhibitors are research and experimental tools under investigation for therapeutic modulation of chronic neuroinflammation. Because STING signaling also exerts homeostatic protective roles — for example maintaining blood-brain barrier integrity in microglia during aging — broad pathway inhibition must be approached with cell-type specificity, and timing, dose, and delivery remain key variables for translation into Alzheimer's Disease, Amyotrophic Lateral Sclerosis, and other proteinopathies.",
+      "zh-TW": "cGAS 抑制劑是研究與實驗性工具，正被評估作為慢性神經發炎的治療性調節手段。由於 STING 訊號也具有維持恆定的保護功能——例如在老化期間維持小膠細胞的血腦障壁完整性——廣泛的通路抑制必須考量細胞類型專一性，而給藥時機、劑量與遞送方式則是轉譯至 Alzheimer's Disease、Amyotrophic Lateral Sclerosis 及其他蛋白病變的關鍵變數。"
+    },
+    "confidence": 0.8,
+    "source_document": "cGAS Inhibitors.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "bf21f598c6e8",
+    "subject": "YME1L",
+    "predicate": "is_required_for",
+    "object": "Mitochondrial Fusion",
+    "context": {
+      "en-US": "Loss of YME1L shifts OPA1 toward long forms and disrupts fusion, compromising mitochondrial integrity and linking protease activity directly to optic neuropathies such as Dominant Optic Atrophy. Because inner-membrane fusion requires the S-OPA1/L-OPA1 cooperative pair, YME1L is a proteolytic gatekeeper of the mitochondrial fusion balance.",
+      "zh-TW": "YME1L 喪失會使 OPA1 偏向長型並破壞融合，危及 mitochondrial integrity，並將蛋白酶活性直接與 Dominant Optic Atrophy 等視神經病變相連結。由於粒線體內膜融合需要 S-OPA1 與 L-OPA1 的協同配對，YME1L 是粒線體融合平衡的蛋白水解守門者。"
+    },
+    "confidence": 0.9,
+    "source_document": "YME1L.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "c519abd25181",
+    "subject": "Z-DNA",
+    "predicate": "is_recognized_by",
+    "object": "cGAS",
+    "context": {
+      "en-US": "cGAS can recognize the noncanonical left-handed Z-DNA conformation (and Z-RNA) at chromatin, a function spatially and mechanistically separable from its canonical role of synthesizing cGAMP from cytosolic dsDNA. Structural and mutational studies show that cGAS Z-DNA-binding mutants decouple chromatin binding from DNA-sensing activity: the protein still localizes to chromatin but fails to mount a productive cGAS-STING response, revealing that chromatin tethering and enzyme activation are governed by distinct molecular interfaces.",
+      "zh-TW": "cGAS 能辨識染色質上的非典型左手 Z-DNA 構形（以及 Z-RNA），此功能在空間與機制上都與其由細胞質雙股 DNA 合成 cGAMP 的典型角色分離。結構與突變研究顯示，cGAS 的 Z-DNA 結合突變體可將染色質結合與 DNA 感測功能解耦：蛋白質仍定位於染色質，卻無法啟動有效的 cGAS-STING 反應，顯示染色質繫留與酵素活化由不同的分子介面調控。"
+    },
+    "confidence": 0.9,
+    "source_document": "Z-DNA.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "1543bd7ffd62",
+    "subject": "Z-DNA",
+    "predicate": "is_recognized_by",
+    "object": "ZBP1",
+    "context": {
+      "en-US": "ZBP1 (also known as DAI) is the prototypical Z-nucleic-acid sensor: it detects the left-handed Z-DNA and Z-RNA structures that form transiently at alternating purine-pyrimidine repeats and at sites of active transcription or topological stress, triggering cell death programs including PANoptosis, frequently in coordination with STING and MAVS. In viral encephalitis such as HSV-1 infection, ZBP1-mediated sensing drives RIPK3-dependent cell death.",
+      "zh-TW": "ZBP1（又稱 DAI）是典型的 Z 核酸感測器：它偵測在交替嘌呤–嘧啶重複序列以及活躍轉錄或拓撲壓力位點瞬間形成的左手 Z-DNA 與 Z-RNA 結構，觸發包括 PANoptosis 在內的細胞死亡程式，且常與 STING 及 MAVS 協同。在 HSV-1 等病毒性腦炎中，ZBP1 介導的感測驅動 RIPK3 依賴性的細胞死亡。"
+    },
+    "confidence": 0.9,
+    "source_document": "Z-DNA.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "fc51e652a2db",
+    "subject": "ZFP36L1",
+    "predicate": "degrades",
+    "object": "SASP",
+    "context": {
+      "en-US": "ZFP36L1 (also BRF1) is a member of the tristetraprolin (TTP/TIS11) family of RNA-binding proteins. It binds AU-rich elements in the 3' UTRs of labile mRNAs via two C3H1 zinc fingers and recruits the CCR4-NOT and PARN deadenylases and the exosome to trigger decay. Under basal conditions this keeps SASP cytokine transcripts such as IL-1α, IL-6, IL-8, and GM-CSF short-lived, making ZFP36L1 a negative regulator of the senescence-associated secretory phenotype.",
+      "zh-TW": "ZFP36L1（又稱 BRF1）是 tristetraprolin（TTP/TIS11）家族的 RNA 結合蛋白成員。它透過兩個 C3H1 鋅指結合不穩定 mRNA 3' UTR 中的富含 AU 區域，並招募 CCR4–NOT 與 PARN 去腺苷化酶複合體及外切體以觸發降解。在基礎狀態下，這使 IL-1α、IL-6、IL-8 與 GM-CSF 等 SASP 細胞激素轉錄本維持短半衰期，因此 ZFP36L1 是 senescence-associated secretory phenotype 的負向調節因子。"
+    },
+    "confidence": 0.9,
+    "source_document": "ZFP36L1.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "4593948bd868",
+    "subject": "Zellweger Spectrum Disorders",
+    "predicate": "is_caused_by",
+    "object": "PEX2",
+    "context": {
+      "en-US": "Zellweger spectrum disorders (ZSD) are autosomal-recessive peroxisome-biogenesis disorders caused by biallelic loss of PEX genes — including PEX2, PEX10, PEX12, PEX13, and PEX5 — which abolishes peroxisomal protein import. The severe end of the spectrum, Zellweger syndrome, presents with hypotonia, seizures, liver dysfunction, and early lethality, while milder infantile Refsum and Heimler phenotypes reflect residual import function.",
+      "zh-TW": "Zellweger spectrum disorders（ZSD）是一類體染色體隱性的過氧化體生物發生異常，由 PEX 基因——包括 PEX2、PEX10、PEX12、PEX13 與 PEX5——的雙等位基因喪失所造成，導致過氧化體蛋白輸入完全中止。譜系中最嚴重的 Zellweger syndrome 表現為肌張力低下、癲癇、肝功能異常與早期死亡，而較輕的嬰兒型 Refsum 與 Heimler 表型則反映殘餘的輸入功能。"
+    },
+    "confidence": 0.9,
+    "source_document": "Zellweger Spectrum Disorders.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "06cd05022034",
+    "subject": "PEX5",
+    "predicate": "is_caused_by",
+    "object": "Zellweger Spectrum Disorders",
+    "context": {
+      "en-US": "PEX5 encodes the cytosolic import receptor that carries peroxisomal targeting-signal proteins to the peroxisomal membrane; its dysfunction produces Zellweger spectrum disorders. PEX5 sits alongside PEX13 as the importomer component most strongly linked to the Zellweger spectrum phenotypes, and both act upstream of the loss of peroxisomal import that defines the disorder.",
+      "zh-TW": "PEX5 編碼將帶有過氧化體靶向訊號的蛋白運送到過氧化體膜的細胞質輸入受體；其功能失調會造成 Zellweger spectrum disorders。PEX5 與 PEX13 並列為與 Zellweger 譜系表型關聯最強的 importomer 成分，兩者皆作用於過氧化體輸入喪失這一界定該疾病的上游步驟。"
+    },
+    "confidence": 0.8,
+    "source_document": "Zellweger Spectrum Disorders.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "4aea883b302b",
+    "subject": "Zinc Finger",
+    "predicate": "binds",
+    "object": "DNA",
+    "context": {
+      "en-US": "A zinc finger is a conserved structural motif in which zinc ions are coordinated by cysteine and histidine residues, folding the polypeptide into a compact domain that binds DNA, RNA, or protein. The canonical Cys2-His2 (C2H2) finger comprises about 30 amino acids folded into a beta-hairpin and an alpha-helix; the alpha-helix inserts into the DNA major groove, with residues at positions -1, 2, 3, and 6 making base-specific contacts. Because individual fingers recognize roughly 3 bp, tandem arrays of 3-6 fingers extend specificity to about 9-18 bp.",
+      "zh-TW": "鋅指是一種保守的結構模體，由鋅離子與半胱胺酸及組胺酸殘基配位，使多肽鏈摺疊成能結合 DNA、RNA 或蛋白質的緊密結構域。典型的 Cys2-His2（C2H2）鋅指約含 30 個胺基酸，摺疊成 β-髮夾與 α 螺旋；α 螺旋插入 DNA 大溝，位於 −1、2、3 與 6 位置的殘基與鹼基做專一性接觸。由於單一鋅指約辨識 3 bp，3–6 個鋅指的串聯陣列可將專一性延伸至約 9–18 bp。"
+    },
+    "confidence": 0.9,
+    "source_document": "Zinc Finger.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "4018ccd6d720",
+    "subject": "Zinc Finger",
+    "predicate": "forms",
+    "object": "mitoZFNs",
+    "context": {
+      "en-US": "Fusion of a zinc finger array to the obligate-dimeric FokI cleavage domain yields zinc finger nucleases (ZFNs), in which two monomers binding adjacent half-sites dimerize FokI to introduce a double-strand break. In mitoZFNs, a mitochondrial targeting sequence directs the zinc-finger-FokI fusion into the mitochondrial matrix to cleave mutant mtDNA selectively, shifting heteroplasmy toward wild-type genomes (Gammage et al., 2014) — the first mtDNA-editing platform demonstrated in mammalian cells.",
+      "zh-TW": "將鋅指陣列與必然二聚化的 FokI 切割結構域融合，即得到鋅指核酸酶（ZFN）：兩個結合相鄰半位點的單體使 FokI 二聚化，導入雙股斷裂。在 mitoZFNs 中，粒線體靶向序列將鋅指–FokI 融合蛋白導向粒線體基質，選擇性切割突變型 mtDNA，使異型性（heteroplasmy）朝野生型基因組移動（Gammage 等，2014）——這是在哺乳動物細胞中證實的第一個 mtDNA 編輯平台。"
+    },
+    "confidence": 0.9,
+    "source_document": "Zinc Finger.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "be387cbb0bdd",
+    "subject": "Zinc Finger",
+    "predicate": "competes_with",
+    "object": "TALE",
+    "context": {
+      "en-US": "TALE proteins are the alternative programmable DNA-binding module, with a simpler one-to-one base-to-residue recognition code. Zinc finger recognition instead depends on neighbouring residues, making engineering more context-sensitive and requiring empirical validation; large repetitive arrays are also hard to deliver and can bind off-target, reducing wild-type mtDNA copy number.",
+      "zh-TW": "TALE 蛋白是另一種可程式化 DNA 結合模組，具有較簡單的鹼基對殘基一對一辨識密碼。鋅指的辨識則依賴鄰近殘基，因此工程化更為情境敏感、需要實證驗證；此外，大型重複陣列難以遞送，也可能結合非標的位點，導致野生型 mtDNA 拷貝數下降。"
+    },
+    "confidence": 0.8,
+    "source_document": "Zinc Finger.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "5ae04e562ad7",
+    "subject": "Xenohormesis",
+    "predicate": "is_incorporated_by",
+    "object": "Glyco-Oxidative Proteostasis Shield",
+    "context": {
+      "en-US": "The Glyco-Oxidative Proteostasis Shield (GOPS) framework explicitly incorporates xenohormetic principles. GOPS uses controlled exposure to electrophilic and redox-active compounds — including Carbazochrome and Methylene blue — to activate the same stress-response pathways engaged by dietary phytochemicals, making xenohormetic compounds the nutritional arm of a broader strategy to maintain proteostasis and mitochondrial function during aging, with synthetic mitohormetic agents as a pharmacological complement.",
+      "zh-TW": "Glyco-Oxidative Proteostasis Shield（GOPS）框架明確納入了 xenohormetic 原理。GOPS 透過受控曝露於親電性與氧化還原活性化合物——包括 Carbazochrome 與 Methylene blue——來活化與膳食植化物質相同的壓力反應途徑，使 xenohormetic 化合物成為在老化期間維持蛋白穩態與粒線體功能之整體策略的營養學分支，而合成 mitohormetic 藥物則作為藥理學補充。"
+    },
+    "confidence": 0.8,
+    "source_document": "Xenohormesis.md",
+    "created": "2026-09-29T18:04:58Z",
+    "updated": "2026-09-29T18:04:58Z"
   }
 ]
