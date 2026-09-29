@@ -83816,5 +83816,1993 @@
     "source_document": "Sphingolipid Metabolism.md",
     "created": "2026-09-29T17:47:40Z",
     "updated": "2026-09-29T17:47:40Z"
+  },
+  {
+    "id": "322a6995d174",
+    "subject": "S-Nitrosoglutathione Reductase",
+    "predicate": "regulates",
+    "object": "S-Nitrosylation",
+    "context": {
+      "en-US": "S-nitrosoglutathione reductase (GSNOR, also ADH5) catalyzes the reduction and denitrosylation of S-nitrosoglutathione (GSNO), thereby controlling the size of the GSNO pool available for protein S-nitrosylation. Losing GSNOR activity lets S-nitrosylation of substrate proteins persist and intensify, so GSNOR is the principal brake on cellular protein S-nitrosylation levels.",
+      "zh-TW": "S-亞硝基麩胱甘肽還原酶（GSNOR，又稱 ADH5）催化 S-亞硝基麩胱甘肽（GSNO）的還原與去亞硝基化，藉此控制可供蛋白質 S-亞硝基化使用的 GSNO 池大小。GSNOR 活性喪失會使受質蛋白的 S-亞硝基化持續並加劇，因此 GSNOR 是細胞蛋白 S-亞硝基化程度的主要煞車。"
+    },
+    "confidence": 0.95,
+    "source_document": "S-Nitrosoglutathione Reductase.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "f350e1cf1751",
+    "subject": "S-Nitrosoglutathione Reductase",
+    "predicate": "inhibits",
+    "object": "Parkin",
+    "context": {
+      "en-US": "In senescent cells GSNOR activity is reduced, so Parkin becomes excessively S-nitrosylated and the nitrosylated form is less active as an E3 ligase. Because nitrosylated Parkin no longer drives mitophagy efficiently, mitochondrial quality control fails and ROS rises, closing the loop between nitrosative stress and senescence.",
+      "zh-TW": "在衰老細胞中 GSNOR 活性下降，使 Parkin 過度 S-亞硝基化，而被亞硝基化的 Parkin 作為 E3 泛素連接酶活性降低。由於亞硝基化的 Parkin 無法有效驅動自噬，受損粒線體的品質管制失效、ROS 上升，連結了亞硝化壓力與細胞衰老。"
+    },
+    "confidence": 0.85,
+    "source_document": "S-Nitrosoglutathione Reductase.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "65871ef98f60",
+    "subject": "S-Nitrosoglutathione Reductase",
+    "predicate": "is_reduced_in",
+    "object": "Senescence",
+    "context": {
+      "en-US": "GSNOR activity is reduced in senescent cells, and the resulting excess Parkin S-nitrosylation inhibits mitophagy, promotes mitochondrial dysfunction, and helps lock in the senescence program. GSNOR therefore sits at the intersection of nitrosative stress and mitochondrial quality control.",
+      "zh-TW": "GSNOR 活性在衰老細胞中下降，導致 Parkin 過度 S-亞硝基化，抑制自噬、促進粒線體功能障礙，並使細胞衰老程式得以維持。因此 GSNOR 處於亞硝化壓力與粒線體品質管制的交會點。"
+    },
+    "confidence": 0.8,
+    "source_document": "S-Nitrosoglutathione Reductase.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "9384b29fb919",
+    "subject": "SAMe",
+    "predicate": "is_a_type_of",
+    "object": "Methyl Donor",
+    "context": {
+      "en-US": "SAMe (S-adenosylmethionine, also AdoMet) is the body's major methyl donor, feeding the methyl group that COMT uses to O-methylate catechols such as dopamine and estrogen. It participates in over 100 biochemical reactions, which is why SAMe is also the common denominator across methylfolate, methylcobalamin and TMG/betaine supplementation.",
+      "zh-TW": "SAMe（S-腺苷甲硫胺酸，又稱 AdoMet）是身體主要的甲基供體，提供 COMT 用以 O-甲基化多巴胺、雌激素等兒茶酚的甲基。它參與超過 100 個生化反應，因此也是甲基folate、甲基cobalamin 與 TMG／甜菜鹼等補充劑的共同核心。"
+    },
+    "confidence": 0.9,
+    "source_document": "SAMe.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "f6d0eb51c45b",
+    "subject": "COMT",
+    "predicate": "consumes",
+    "object": "SAMe",
+    "context": {
+      "en-US": "COMT requires SAMe as a cofactor: it transfers the SAMe methyl group onto catechol substrates such as dopamine and estrogen, producing S-adenosylhomocysteine (SAH) as the demethylated product. Because SAMe:SAH ratio sets the methylation capacity of the cell, chronic dosing of a COMT substrate such as fisetin can deplete SAMe and globally shift methylation capacity — particularly relevant in slow (Met/Met) COMT genotypes.",
+      "zh-TW": "COMT 需要 SAMe 作為輔因子，將 SAMe 的甲基轉移至多巴胺、雌激素等兒茶酚受質，生成去甲基化產物 S-腺苷同型半胱胺酸（SAH）。由於 SAMe:SAH 比值決定細胞的甲基化容量，長期使用 fisetin 等 COMT 受質可能耗竭 SAMe 並全面改變甲基化容量，這在慢型（Met/Met）COMT 基因型者尤其相關。"
+    },
+    "confidence": 0.9,
+    "source_document": "SAMe.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "c92e6ef0b83c",
+    "subject": "S100A13",
+    "predicate": "is_required_for",
+    "object": "IL-1α",
+    "context": {
+      "en-US": "S100A13 is an EF-hand S100 family calcium/copper-binding protein required for the copper- and calcium-dependent nuclear translocation of cleaved IL-1α. Once in the nucleus, IL-1α acts as a transcriptional coactivator for NF-κB target genes, so S100A13 sits upstream of IL-1α rather than acting as a downstream effector.",
+      "zh-TW": "S100A13 是 EF-hand 型 S100 家族的鈣／銅結合蛋白，負責切割後 IL-1α 依賴銅與鈣的核轉位。IL-1α 進入細胞核後作為 NF-κB 目標基因的轉錄輔激活因子，因此 S100A13 位於 IL-1α 上游而非下游效應端。"
+    },
+    "confidence": 0.9,
+    "source_document": "S100A13.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "819d3d0b618f",
+    "subject": "S100A13",
+    "predicate": "initiates",
+    "object": "SASP",
+    "context": {
+      "en-US": "By driving nuclear IL-1α, S100A13 initiates the IL-1α→NF-κB feed-forward loop that induces downstream SASP factors; loss of S100A13 disrupts full SASP development. This places S100A13 at the apex of the senescence-associated secretory phenotype as a sentinel of the IL-1α-driven senescence program. Extracellular S100A13, released with FGF-1/FGF-2 in a Cu2+-dependent complex, additionally acts as a damage-associated molecular pattern feeding inflammaging.",
+      "zh-TW": "藉由驅動 IL-1α 入核，S100A13 啟動 IL-1α→NF-κB 的前饋迴路，誘導下游 SASP 因子；失去 S100A13 會使 SASP 無法完整形成。這使 S100A13 站在衰老相關分泌表型（SASP）的頂端，作為 IL-1α 驅動之衰老程式的哨兵。胞外的 S100A13 會與 FGF-1／FGF-2 以銅依賴性複合體釋出，作為損傷相關分子模式（DAMP）推動 inflammaging。"
+    },
+    "confidence": 0.9,
+    "source_document": "S100A13.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "d4efb8e9aba5",
+    "subject": "SAHA",
+    "predicate": "is_a_type_of",
+    "object": "HDAC inhibitors",
+    "context": {
+      "en-US": "SAHA (suberoylanilide hydroxamic acid, INN vorinostat) is the prototypical hydroxamic-acid pan-HDAC inhibitor: its zinc-chelating hydroxamate group occupies the catalytic pocket of Zn2+-dependent HDACs, blocking class I and class II deacetylases. It became the first HDAC inhibitor approved by the FDA in 2006, for cutaneous T-cell lymphoma.",
+      "zh-TW": "SAHA（suberoylanilide hydroxamic acid，INN 名 vorinostat）是羥肟酸類廣效 HDAC 抑制劑的原型：其螯鋅羥肟酸基團占據 Zn2+ 依賴型 HDAC 的催化口袋，阻斷第一類與第二類去乙醯化酶。2006 年 SAHA 成為首個獲 FDA 核准的 HDAC 抑制劑，用於皮膚型 T 細胞淋巴瘤。"
+    },
+    "confidence": 0.95,
+    "source_document": "SAHA.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "8616bfc4f8dd",
+    "subject": "SAHA",
+    "predicate": "increases",
+    "object": "Histone Acetylation",
+    "context": {
+      "en-US": "By blocking HDAC-mediated removal of acetyl marks (e.g. H3K9ac, H4K5ac), SAHA increases histone acetylation and opens an open, transcriptionally permissive chromatin state. The consequence is derepression of tumor-suppressor and differentiation genes, induction of the cell-cycle inhibitor p21 CIP1, and apoptosis in transformed cells. Unlike sirtuins, which are NAD+-dependent deacetylases, classical HDACs act without a cofactor requirement.",
+      "zh-TW": "SAHA 阻斷 HDAC 移除乙醯基標記（如 H3K9ac、H4K5ac），因而提高組蛋白乙醯化程度，使染色質呈現開放、容許轉錄的狀態。結果是腫瘤抑制與分化基因解除抑制、細胞週期抑制因子 p21 CIP1 被誘導，並在轉化細胞中引發凋亡。與依賴 NAD+ 的 sirtuin 不同，傳統 HDAC 不需輔因子即可作用。"
+    },
+    "confidence": 0.95,
+    "source_document": "SAHA.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "3f9f2344627a",
+    "subject": "SAHA",
+    "predicate": "inhibits",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "Beyond its oncology use, SAHA protects cells from necroptosis by enhancing expression of cFLIP-L, NF-κB and p38 while inactivating JNK — i.e. it reinforces the Complex I survival / caspase-8-guard arm that restrains the RIPK1–RIPK3–MLKL necrosome. HDAC inhibition therefore controls necroptosis rather than apoptosis in neurodegenerative models.",
+      "zh-TW": "在腫瘤用途之外，SAHA 藉由提升 cFLIP-L、NF-κB 與 p38 的表現並使 JNK 失活，保護細胞免於壞死性凋亡——也就是強化了抑制 RIPK1–RIPK3–MLKL necrosome 的 Complex I 存活／caspase-8 守衛臂。因此在神經退化模型中，HDAC 抑制作用調控的是壞死性凋亡而非凋亡。"
+    },
+    "confidence": 0.85,
+    "source_document": "SAHA.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "74ccc8db96bc",
+    "subject": "SAHA",
+    "predicate": "modulates",
+    "object": "Senescence",
+    "context": {
+      "en-US": "HDAC activity shapes epigenetic alterations during aging and senescence, so HDAC inhibitors such as SAHA/vorinostat are studied as chromatin-modifying agents that can induce or modulate cellular senescence and as tools for probing reversible age-associated chromatin remodeling. Because sirtuins perform NAD+-dependent deacetylation, SAHA is often used as a pharmacological contrast to sirtuin activation.",
+      "zh-TW": "HDAC 活性塑造老化與細胞衰老期間的表觀遺傳改變，因此 SAHA／vorinostat 等 HDAC 抑制劑被研究為可誘導或調節細胞衰老的染色質修飾藥，也是探討可逆之年齡相關染色質重塑的工具。由於 sirtuin 執行 NAD+ 依賴型去乙醯化，SAHA 常用作為 sirtuin 活化的藥理對照。"
+    },
+    "confidence": 0.8,
+    "source_document": "SAHA.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "b273b349abb0",
+    "subject": "SARM1",
+    "predicate": "cleaves",
+    "object": "NAD+",
+    "context": {
+      "en-US": "SARM1 is an ~80 kDa multidomain TIR-domain protein whose C-terminal TIR domain forms a composite NAD+ glycohydrolase active site. On activation it cleaves NAD+ into nicotinamide, ADP-ribose and cyclic ADP-ribose, and can deplete axonal NAD+ from roughly 400 µM to near zero within minutes. Because NAD+ is an obligate co-substrate for glycolysis and mitochondrial respiration, this collapse halts ATP production and destroys the axon within 30–60 minutes.",
+      "zh-TW": "SARM1 是約 80 kDa 的多結構域蛋白，其 C 端 TIR 結構域形成複合式 NAD+ 糖基水解酶活性位點。活化後將 NAD+ 裂解為菸鹼醯胺、ADP-核糖與環 ADP-核糖，並可在數分鐘內使軸突 NAD+ 由約 400 µM 降至近乎零。由於 NAD+ 是糖解作用與粒線體呼吸的必需受質，此崩潰會停止 ATP 產生並在 30–60 分鐘內摧毀軸突。"
+    },
+    "confidence": 0.95,
+    "source_document": "SARM1.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "623548a49542",
+    "subject": "SARM1",
+    "predicate": "drives",
+    "object": "Wallerian Degeneration",
+    "context": {
+      "en-US": "SARM1 is the central non-redundant executor of Wallerian degeneration: SARM1 knockout mice are profoundly resistant to Wallerian degeneration across peripheral nerves, dorsal root ganglia and optic nerve, and axotomized SARM1-null axons stay structurally intact for days to weeks. SARM1 inhibition also improves functional recovery in rodent sciatic nerve crush and transection models.",
+      "zh-TW": "SARM1 是華勒氏退行性變（axon degeneration 後程式性退行）的核心且不可替代的執行者：SARM1 敲除小鼠在周邊神經、背根神經節與視神經中皆高度抵抗華勒氏退行性變，軸切後的 SARM1 缺失軸突可維持結構完整數天至數週。抑制 SARM1 亦可在小鼠坐骨神經壓傷與離斷模型中改善功能恢復。"
+    },
+    "confidence": 0.95,
+    "source_document": "SARM1.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "a26f05e4a123",
+    "subject": "NMNAT2",
+    "predicate": "is_activated_by",
+    "object": "Nicotinamide Mononucleotide",
+    "context": {
+      "en-US": "NMNAT2 continuously synthesizes NAD+ from NMN in healthy axons, keeping SARM1 ARM-TIR autoinhibited. Axonal injury severs NMNAT2 from the soma, causing rapid proteasomal degradation (half-life ~30 min); the resulting NMN accumulation and rising NMN/NAD+ ratio is the primary metabolic trigger, since NMN binds the SARM1 ARM domain and relieves autoinhibition. SARM1 is therefore a metabolic sensor of the NMN/NAD+ ratio, not of absolute NMN.",
+      "zh-TW": "在健康軸突中，NMNAT2 持續由 NMN 合成 NAD+，使 SARM1 維持 ARM-TIR 自抑制狀態。軸突受損使 NMNAT2 與胞體分離並被快速蛋白酶體降解（半衰期約 30 分鐘）；隨後 NMN 累積、NMN/NAD+ 比值上升成為主要代謝觸發訊號，因為 NMN 會結合 SARM1 的 ARM 結構域並解除自抑制。因此 SARM1 是 NMN/NAD+ 比值（而非絕對 NMN 濃度）的代謝感測器。"
+    },
+    "confidence": 0.9,
+    "source_document": "SARM1.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "6c9dfec549e4",
+    "subject": "SARM1",
+    "predicate": "impairs",
+    "object": "Sirtuins",
+    "context": {
+      "en-US": "SARM1-mediated NAD+ depletion compromises sirtuin function because sirtuins are NAD+-dependent enzymes. SARM1 is one of several major NAD+-consuming enzymes — alongside CD38, PARP1 and PARP2 — that compete for a shared cellular NAD+ pool, and its NAD-cyclizing (cADPR) activity exceeds that of CD38, while CD38 has the lower Km and acts as the priority consumer.",
+      "zh-TW": "SARM1 造成的 NAD+ 耗竭會削弱 sirtuin 功能，因為 sirtuin 為 NAD+ 依賴型酵素。SARM1 是數種主要 NAD+ 消耗酵素之一，與 CD38、PARP1、PARP2 競爭同一細胞 NAD+ 池；其 NAD 環化（cADPR）活性高於 CD38，而 CD38 的 Km 較低，是優先的消耗者。"
+    },
+    "confidence": 0.9,
+    "source_document": "SARM1.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "3c459b227c53",
+    "subject": "SARM1",
+    "predicate": "is_activated_by",
+    "object": "JNK",
+    "context": {
+      "en-US": "Beyond its NADase activity, SARM1 participates in non-NADase signaling: through its TIR domain it interacts with TRAF6 to activate the JNK and p38 MAPK pathways, and its scaffold function recruits TRAF6 to activate JNK during cellular stress. SARM1 also negatively regulates TLR3 and TLR4 signaling and limits HSV-1 replication in neurons, possibly via NAD+-depletion-mediated metabolic restriction.",
+      "zh-TW": "除了 NADase 活性外，SARM1 還參與非 NADase 的訊息傳遞：透過 TIR 結構域與 TRAF6 互動以活化 JNK 與 p38 MAPK 途徑，其支架功能在細胞壓力下招募 TRAF6 以啟動 JNK。SARM1 亦負向調控 TLR3 與 TLR4 訊息，並可能藉由 NAD+ 耗竭造成的代謝限制來抑制神經元中的 HSV-1 複製。"
+    },
+    "confidence": 0.8,
+    "source_document": "SARM1.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "6f54fe1b80ac",
+    "subject": "Disulfiram",
+    "predicate": "inhibits",
+    "object": "SARM1",
+    "context": {
+      "en-US": "Disulfiram, an FDA-approved alcohol-aversion drug, was repurposed as a first-in-class SARM1 inhibitor: it covalently modifies a cysteine residue in the SARM1 TIR domain, irreversibly blocking NADase activity. Its promiscuity limits clinical utility, whereas next-generation non-covalent inhibitors (e.g. DSRM-3716, GSK-428) reach low-nanomolar potency and occupy the NAD+-binding pocket of the TIR dimer without covalent modification.",
+      "zh-TW": "Disulfiram 為 FDA 核准的戒酒藥，被重新定位為第一類 SARM1 抑制劑：它共價修飾 SARM1 TIR 結構域中的半胱胺酸殘基，不可逆地阻斷 NADase 活性。其多效性限制了臨床用途；相較之下，新一代非共價抑制劑（如 DSRM-3716、GSK-428）可達低奈莫耳等級效價，且以非共價方式占據 TIR 二聚體的 NAD+ 結合口袋。"
+    },
+    "confidence": 0.9,
+    "source_document": "SARM1.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "291a916c0f5d",
+    "subject": "SARS-CoV-2",
+    "predicate": "causes",
+    "object": "COVID-19",
+    "context": {
+      "en-US": "SARS-CoV-2 is a positive-sense single-stranded RNA virus of the Coronaviridae family (genus Betacoronavirus) and the causative agent of COVID-19, a respiratory disease that emerged as a global pandemic in 2020. It enters cells when its club-shaped spike protein binds the host angiotensin-converting enzyme 2, with spike priming by host proteases; after membrane fusion the viral RNA is released into the cytosol, translated and replicated.",
+      "zh-TW": "SARS-CoV-2 是冠狀病毒科（Betacoronavirus 屬）的正股單股 RNA 病毒，也是 COVID-19 的致病因子——一種於 2020 年成為全球大流行的呼吸道疾病。當其棒狀的棘蛋白與宿主的血管張力素轉換酶 2 結合時病毒進入細胞，棘蛋白需先經宿主蛋白酶切割加工；膜融合後病毒 RNA 釋放至細胞質並被轉譯、複製。"
+    },
+    "confidence": 0.95,
+    "source_document": "SARS-CoV-2.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "319e903081b2",
+    "subject": "SARS-CoV-2",
+    "predicate": "activates",
+    "object": "NLRP3 Inflammasome",
+    "context": {
+      "en-US": "SARS-CoV-2 infection activates NF-κB and the NLRP3 inflammasome, driving IL-1β and IL-18 release and, in severe cases, a cytokine storm. This hyperinflammatory response underlies the pneumonia, ARDS and sepsis that can follow infection.",
+      "zh-TW": "SARS-CoV-2 感染會活化 NF-κB 與 NLRP3 發炎小體，促使 IL-1β 與 IL-18 釋放，嚴重時引發細胞激素風暴。此種過度發炎反應是感染後可能出現的肺炎、ARDS 與敗血症的基礎。"
+    },
+    "confidence": 0.9,
+    "source_document": "SARS-CoV-2.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "7fd5c17d9393",
+    "subject": "Aging",
+    "predicate": "increases_susceptibility_to",
+    "object": "COVID-19",
+    "context": {
+      "en-US": "COVID-19 ranges from asymptomatic to severe pneumonia, ARDS, sepsis and death, and older age is the strongest risk factor for severe disease, alongside obesity, diabetes, hypertension and immunosuppression. Long COVID adds persistent inflammation, autonomic dysfunction and cognitive decline on top of the acute illness.",
+      "zh-TW": "COVID-19 的範圍從無症狀到嚴重肺炎、ARDS、敗血症與死亡，高齡是重症最強的風險因子，另有肥胖、糖尿病、高血壓與免疫抑制。長新冠（Long COVID）則在急性疾病之外加上持續發炎、自主神經功能障礙與認知衰退。"
+    },
+    "confidence": 0.9,
+    "source_document": "SARS-CoV-2.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "185d724126a2",
+    "subject": "SAT1",
+    "predicate": "is_activated_by",
+    "object": "p53",
+    "context": {
+      "en-US": "SAT1 (spermidine/spermine N1-acetyltransferase 1, SSAT) is the rate-limiting enzyme of polyamine catabolism and a transcriptional target of the tumor suppressor p53. Genotoxic and oxidative stress activates p53, which transcriptionally induces SAT1; elevated SAT1 remodels the polyamine pool and raises ROS generation. This provides a p53-controlled route to ferroptosis independent of the SLC7A11/system Xc- axis.",
+      "zh-TW": "SAT1（精胺/精 Spermidine N1-乙醯轉移酶 1，SSAT）是多胺分解代謝的限速酵素，也是腫瘤抑制因子 p53 的轉錄標的。基因毒性与氧化壓力會活化 p53，p53 再轉錄誘導 SAT1；SAT1 升高會重塑多胺池並提高 ROS 生成。這提供了一條獨立於 SLC7A11／system Xc- 軸、由 p53 控制的鐵死亡途徑。"
+    },
+    "confidence": 0.95,
+    "source_document": "SAT1.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "58524783bda0",
+    "subject": "SAT1",
+    "predicate": "promotes",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "SAT1 transfers acetyl groups from acetyl-CoA to spermidine and spermine, whose oxidation by polyamine oxidase produces H2O2 and downstream ROS. This sensitizes membrane phospholipids to peroxidation, and SAT1 acts in concert with the lipoxygenase ALOX15, which oxygenates polyunsaturated phospholipid substrates. SAT1 thus provides the second arm of p53 ferroptosis signaling, distinct from p53-mediated repression of SLC7A11.",
+      "zh-TW": "SAT1 將乙醯基由乙醯輔酶 A 轉移至 spermidine 與 spermine，後者經多胺氧化酶氧化產生 H2O2 與下游 ROS，使膜磷脂易於過氧化。SAT1 與脂肪氧合酶 ALOX15 協同作用，由 ALOX15 氧化多不飽和磷脂受質。因此 SAT1 構成 p53 鐵死亡訊號的第二條臂，與 p53 抑制 SLC7A11 的機制不同。"
+    },
+    "confidence": 0.9,
+    "source_document": "SAT1.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "1e41cd7f4240",
+    "subject": "p53",
+    "predicate": "represses",
+    "object": "SLC7A11",
+    "context": {
+      "en-US": "p53 promotes ferroptosis through two arms: repression of SLC7A11/system Xc- and activation of the SAT1–ALOX15 lipid-peroxidation axis. Repressing SLC7A11 collapses cystine import, lowers glutathione, and fails GPX4, so ROS-driven lipid peroxidation executes ferroptosis. The two arms converge on lipid peroxidation but originate from distinct metabolic programs.",
+      "zh-TW": "p53 透過兩條臂促進鐵死亡：抑制 SLC7A11／system Xc-，以及活化 SAT1–ALOX15 脂質過氧化軸。抑制 SLC7A11 會使胱胺輸入崩潰、麩胱甘肽下降、GPX4 失效，導致 ROS 驅動的脂質過氧化執行鐵死亡。兩條臂皆匯入脂質過氧化，但源自不同的代謝程式。"
+    },
+    "confidence": 0.9,
+    "source_document": "SAT1.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "63b11f0d4594",
+    "subject": "SAT1",
+    "predicate": "produces",
+    "object": "Reactive Oxygen Species",
+    "context": {
+      "en-US": "SAT1 generates N1-acetylspermidine/spermine, which are exported and oxidized by polyamine oxidase, producing H2O2 and downstream reactive oxygen species. SAT1 is tightly regulated at the level of mRNA stability and protein degradation, making it a rapid-response node to stress signals rather than a slow metabolic enzyme.",
+      "zh-TW": "SAT1 生成 N1-乙醯 spermidine／spermine，後者被輸出並由多胺氧化酶氧化，產生 H2O2 與下游活性氧物種。SAT1 在 mRNA 穩定性與蛋白質降解層級受到嚴密調控，因此它是對壓力訊號快速反應的節點，而非緩慢的代謝酵素。"
+    },
+    "confidence": 0.85,
+    "source_document": "SAT1.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "a03332afa667",
+    "subject": "SECISBP2",
+    "predicate": "recodes",
+    "object": "UGA codon",
+    "context": {
+      "en-US": "SECISBP2 (SBP2) is the RNA-binding protein that recognizes the SECIS stem-loop in the 3′UTR of selenoprotein mRNAs. Upon ribosome encounter of an in-frame UGA, SECISBP2 binds the SECIS element and contacts 40S protein RPS27A/eS31 to prevent premature termination, then recruits the Sec-specific elongation factor eEFSec with tRNA[Ser]Sec and GTP to deliver selenocysteine to the ribosomal A site. It thereby reassigns UGA from a stop codon to a Sec codon.",
+      "zh-TW": "SECISBP2（SBP2）是辨識 selenoprotein mRNA 3′UTR 中 SECIS 莖環結構的 RNA 結合蛋白。當核糖體遇到同讀框的 UGA 時，SECISBP2 結合 SECIS 元素並與 40S 蛋白 RPS27A／eS31 接觸以避免提早終止，隨後招募 Sec 專一性延長因子 eEFSec 與 tRNA[Ser]Sec 及 GTP，將 selenocysteine 送入核糖體 A 位。SECISBP2 因此將 UGA 由終止密碼子重新指定為 Sec 密碼子。"
+    },
+    "confidence": 0.95,
+    "source_document": "SECISBP2.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "e3f3d1f168bc",
+    "subject": "SECISBP2",
+    "predicate": "is_required_for",
+    "object": "Selenoprotein",
+    "context": {
+      "en-US": "SECISBP2 is an essential component of the selenocysteine insertion machinery, so SECISBP2 loss-of-function mutations impair selenoprotein synthesis — reducing glutathione peroxidase, thioredoxin reductase and deiodinase activity — and cause abnormal thyroid hormone metabolism and multisystem disease. This shows that the insertion machinery, not merely selenium supply, gates the selenoproteome. Differential SECISBP2 affinity across SECIS elements also contributes to the tissue-specific hierarchy of selenoprotein expression.",
+      "zh-TW": "SECISBP2 是 selenocysteine 插入機制中不可或缺的成員，因此 SECISBP2 失功能突變會損害 selenoprotein 合成——降低麩胱甘肽過氧化酶、硫氧還蛋白還原酶與去碘化酶活性——並造成甲狀腺素代謝異常與多系統疾病。這顯示決定 selenoproteome 的是插入機制本身，而不僅是硒的供應。SECISBP2 對不同 SECIS 元素的差異性親和力也造就了 selenoprotein 表現的組織特異性階層。"
+    },
+    "confidence": 0.9,
+    "source_document": "SECISBP2.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "331e38be8468",
+    "subject": "SEPHS2",
+    "predicate": "produces",
+    "object": "Selenocysteine",
+    "context": {
+      "en-US": "SEPHS2 (selenophosphate synthetase 2) is the entry point of selenium into the amino acid: it converts selenide, derived from dietary selenium, plus ATP into monoselenophosphate, the activated selenium donor used by SepSecS to convert O-phosphoseryl-tRNA[Ser]Sec into Sec-tRNA[Ser]Sec. SEPHS2 sits upstream of PSTK and SepSecS, and its output gates the whole selenoprotein family — so selenium availability tunes selenoproteome capacity, a link relevant to aging and redox decline.",
+      "zh-TW": "SEPHS2（selenophosphate synthetase 2）是硒進入胺基酸的入口：它將源自飲食硒的 selenide 與 ATP 轉為單硒磷酸（monoselenophosphate），即 SepSecS 將 O-磷酸絲胺醯-tRNA[Ser]Sec 轉成 Sec-tRNA[Ser]Sec 時所用的活化硒供體。SEPHS2 位於 PSTK 與 SepSecS 上游，其產物控管整個 selenoprotein 家族，因此硒的可利用性可調整 selenoproteome 容量，這與老化及氧化還原衰退相關。"
+    },
+    "confidence": 0.9,
+    "source_document": "SEPHS2.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "f42cdd4518d7",
+    "subject": "SERT",
+    "predicate": "transports",
+    "object": "Serotonin",
+    "context": {
+      "en-US": "SERT (serotonin transporter, SLC6A4) is a Na+/Cl−-dependent membrane transporter of the SLC6 family, alongside the dopamine transporter (DAT) and norepinephrine transporters. It reuptakes extracellular serotonin into presynaptic neurons and platelets, coupling serotonin influx to the Na+ gradient while exporting H+, and thereby terminating serotonergic signaling and setting synaptic 5-HT tone.",
+      "zh-TW": "SERT（血清素轉運蛋白，SLC6A4）是 SLC6 家族的 Na+/Cl− 依賴型膜轉運蛋白，與多巴胺轉運蛋白（DAT）及正腎上腺素轉運蛋白同家族。它將胞外血清素回收進入突觸前神經元與血小板，將血清素輸入與 Na+ 梯度耦聯並輸出 H+，藉此終止血清素訊息傳遞、決定突觸內 5-HT 張力。"
+    },
+    "confidence": 0.95,
+    "source_document": "SERT.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "0063f351fd2a",
+    "subject": "Selective Serotonin Reuptake Inhibitors",
+    "predicate": "inhibits",
+    "object": "SERT",
+    "context": {
+      "en-US": "SERT is the primary target of selective serotonin reuptake inhibitors (SSRIs) and of tricyclic antidepressants; blocking reuptake raises synaptic serotonin and relieves mood disorders, while combining serotonergic agents risks serotonin syndrome. Serotonin tone is also shaped by monoamine oxidase catabolism and by serotonin-norepinephrine reuptake inhibitors, and SLC6A4 polymorphisms modulate stress resilience and psychiatric disorder risk.",
+      "zh-TW": "SERT 是選擇性血清素再攝取抑制劑（SSRIs）與三環類抗憂鬱劑的主要標的；阻斷再攝取會提高突觸內血清素、緩解情緒障礙，但合併使用血清素類藥物有造成血清素症候群的風險。血清素張力亦受單胺氧化酶分解與血清素－正腎上腺素再攝取抑制劑影響，而 SLC6A4 多型性可調節壓力韌性與精神疾病風險。"
+    },
+    "confidence": 0.95,
+    "source_document": "SERT.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "b48bc0dee187",
+    "subject": "SERT",
+    "predicate": "is_associated_with",
+    "object": "Excitotoxicity",
+    "context": {
+      "en-US": "Serotonin signaling interacts with glutamate-mediated excitotoxicity and with ROS homeostasis in the brain. Altered SERT function therefore contributes to neurodegeneration and age-related cognitive change, and balanced serotonergic tone is proposed to support mitochondrial resilience — linking SERT to redox status and healthspan-relevant neuroprotection.",
+      "zh-TW": "血清素訊息與麩胺酸介導的興奮性毒性以及腦中的 ROS 恆定相互作用。因此 SERT 功能改變會促成神經退化與年齡相關的認知變化，而平衡的血清素張力被認為可支持粒線體韌性——將 SERT 與氧化還原狀態及健康壽命相關的神經保護連結起來。"
+    },
+    "confidence": 0.8,
+    "source_document": "SERT.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "6f53cf9b6808",
+    "subject": "SH-SY5Y",
+    "predicate": "is_a_type_of",
+    "object": "Dopaminergic Neurons",
+    "context": {
+      "en-US": "SH-SY5Y is a human neuroblastoma cell line subcloned from the SK-N-SH parental line. On exposure to retinoic acid, phorbol esters or brain-derived neurotrophic factor it adopts a neuronal phenotype with neurite outgrowth and acquires biochemical features of sympathetic dopaminergic neurons, retaining catecholaminergic markers such as tyrosine hydroxylase and dopa decarboxylase and synthesizing and storing dopamine.",
+      "zh-TW": "SH-SY5Y 是由 SK-N-SH 親代細胞系再篩選而成的人類神經母細胞瘤細胞系。在視黃酸、佛波酯或腦源性神經生長因子作用下，SH-SY5Y 會出現神經元表型與神經突生長，並獲得交感神經型多巴胺神經元的生化特徵，保留酪胺酸羥化酶與多巴羧化酶等兒茶酚胺標記，合成並儲存多巴胺。"
+    },
+    "confidence": 0.9,
+    "source_document": "SH-SY5Y.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "2bd674a2aa25",
+    "subject": "SH-SY5Y",
+    "predicate": "is_a_model_for",
+    "object": "Parkinson's Disease",
+    "context": {
+      "en-US": "SH-SY5Y is the principal in vitro model for Parkinson's disease and for toxin-induced neurodegeneration (MPP+, 6-OHDA, rotenone), as well as for neuroprotective compound screening. It is used to study apoptosis, mitochondrial dysfunction and α-synuclein aggregation, and its high-throughput amenability aids repurposing, though it lacks the full circuitry and glial interactions of intact tissue.",
+      "zh-TW": "SH-SY5Y 是巴金森氏病與毒素誘發神經退化（MPP+、6-OHDA、rotenone）的主要體外模型，也用於神經保護化合物的篩選。它被用來研究凋亡、粒線體功能障礙與 α-突觸核蛋白聚集，其易於高通量篩選的特性有助於藥物重新定位，但缺少完整組織的神經迴路與膠細胞互動。"
+    },
+    "confidence": 0.9,
+    "source_document": "SH-SY5Y.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "6f0ba3a0e7e6",
+    "subject": "SHARPIN",
+    "predicate": "is_a_component_of",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "SHARPIN is one of the three components of the linear ubiquitin chain assembly complex (LUBAC), with HOIL-1 and HOIP — the only E3 ligase complex that generates M1-linked linear polyubiquitin chains. Linear ubiquitination of RIPK1 and NEMO is required for full NF-κB pro-survival signaling downstream of TNFR1, so SHARPIN loss destabilizes the ubiquitination code that keeps RIPK1 in its pro-survival mode.",
+      "zh-TW": "SHARPIN 是線性泛素鏈組裝複合體（LUBAC）的三個組件之一，與 HOIL-1、HOIP 共同構成唯一能產生 M1 連結線性多泛素鏈的 E3 泛素連接酶複合體。RIPK1 與 NEMO 的線性泛素化是 TNFR1 下游完整 NF-κB 促存活訊息所必需，因此 SHARPIN 缺失會破壞使 RIPK1 維持促存活模式的泛素化密碼。"
+    },
+    "confidence": 0.9,
+    "source_document": "SHARPIN.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "a329c8379a0e",
+    "subject": "SHARPIN",
+    "predicate": "regulates",
+    "object": "RIPK1",
+    "context": {
+      "en-US": "SHARPIN's loss licenses RIPK1 to shift from pro-survival to pro-death signaling. Spontaneous mutations in the mouse Sharpin gene produce a multiorgan inflammatory phenotype dominated by chronic proliferative dermatitis (Seymour et al., Genes Immun 2007), and the dermatitis is reversed by combined TNFR1 deficiency, placing SHARPIN/LUBAC upstream of TNF-receptor signaling.",
+      "zh-TW": "SHARPIN 缺失會使 RIPK1 從促存活轉為促死亡訊息。小鼠 Sharpin 基因的自發突變造成多器官發炎表型，以慢性增殖性皮膚炎為主（Seymour et al., Genes Immun 2007），而合併 TNFR1 缺失可逆轉該皮膚炎，將 SHARPIN／LUBAC 置於 TNF 受體訊息的上游。"
+    },
+    "confidence": 0.9,
+    "source_document": "SHARPIN.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "b2dc6457d347",
+    "subject": "SIRT5",
+    "predicate": "desuccinylates",
+    "object": "SHMT2",
+    "context": {
+      "en-US": "SIRT5 desuccinylates SHMT2 at Lys280, which also promotes SHMT2 activity and cancer cell proliferation (demonstrated in hepatocellular carcinoma). Together with SIRT3-mediated K95 deacetylation and HDAC11-mediated K95 defatty-acylation, this illustrates how the same residue of SHMT2 is targeted by competing modifications in the PTM landscape.",
+      "zh-TW": "SIRT5 在 Lys280 去琥珀醯化 SHMT2，同樣促進 SHMT2 活性與癌細胞增殖（於肝細胞癌中證實）。連同 SIRT3 介導的 K95 去乙醯化與 HDAC11 介導的 K95 去脂肪醯化，這說明 SHMT2 的同一殘基可被互相競爭的修飾在轉譯後修飾景觀中調控。"
+    },
+    "confidence": 0.9,
+    "source_document": "SHMT2.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "569c68685001",
+    "subject": "SHMT2",
+    "predicate": "contributes_to",
+    "object": "5-Fluorouracil",
+    "context": {
+      "en-US": "5-Fluorouracil-resistant colorectal cancer cells show strong serine dependency, upregulating SHMT2 to compartmentalize one-carbon metabolism in mitochondria, supporting purine biosynthesis and DNA damage repair. SHMT2-driven mitochondrial one-carbon metabolism is therefore both a driver of CRC progression and a mechanism of chemoresistance to 5-FU; targeting serine availability or SHMT2 activity can revert 5-FU resistance in preclinical models.",
+      "zh-TW": "對 5-氟尿嘧啶抗藥的大腸直腸癌細胞呈現強烈的絲胺酸依賴性，並上調 SHMT2 以將一碳代謝區隔於粒線體中，藉此支援嘌呤生合成與 DNA 損傷修復。因此 SHMT2 驅動的粒線體一碳代謝既是大腸直腸癌進展的驅動因子，也是對 5-FU 的抗藥性機制；在前臨床模型中，抑制絲胺酸供應或 SHMT2 活性可逆轉 5-FU 抗藥性。"
+    },
+    "confidence": 0.9,
+    "source_document": "SHMT2.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "d81830cefbd2",
+    "subject": "SHMT2",
+    "predicate": "produces",
+    "object": "NADPH",
+    "context": {
+      "en-US": "SHMT2-driven mitochondrial one-carbon metabolism (SHMT2 → MTHFD2 → MTHFD1L) is now recognized as the dominant source of one-carbon units in cancer cells, accounting for roughly 75% of total one-carbon production in rapidly dividing cells. The resulting glycine and 5,10-methylene-THF feed downstream MTHFD2 to regenerate NADPH for reductive biosynthesis and redox defense.",
+      "zh-TW": "SHMT2 驅動的粒線體一碳代謝（SHMT2 → MTHFD2 → MTHFD1L）如今被認為是癌細胞中一碳單位的主要來源，在快速分裂細胞中約占總一碳產量的 75%。所產生的甘胺酸與 5,10-亞甲基-THF 供給下游 MTHFD2，以再生用於還原性生合成與氧化還原防禦的 NADPH。"
+    },
+    "confidence": 0.85,
+    "source_document": "SHMT2.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "d9c01b9b64bc",
+    "subject": "SHP2",
+    "predicate": "dephosphorylates",
+    "object": "Parkin",
+    "context": {
+      "en-US": "SHP2 (PTPN11) is a protein tyrosine phosphatase with two SH2 domains and a catalytic PTP domain that transduces signals from receptor tyrosine kinases and cytokine receptors. In the Parkin context, SHP2 dephosphorylates Parkin at Tyr143, relieving autoinhibition and unlocking Parkin's E3 ubiquitin ligase activity — an activation step required for Parkin-mediated mitophagy. SHP2 thus provides a phosphorylation-state regulatory node on the PINK1/Parkin mitophagy axis.",
+      "zh-TW": "SHP2（PTPN11）為含有兩個 SH2 結構域與一個催化 PTP 結構域的蛋白酪胺酸磷酸酶，可傳遞受體酪胺酸激酶與細胞激素受體的訊號。在 Parkin 的脈絡中，SHP2 將 Parkin 的 Tyr143 去磷酸化，解除其自抑制並解開 Parkin 的 E3 泛素連接酶活性——這是 Parkin 介導自噬所必需的活化步驟。因此 SHP2 在 PINK1／Parkin 自噬軸上提供了一個依賴磷酸化狀態的調控節點。"
+    },
+    "confidence": 0.9,
+    "source_document": "SHP2.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "82b1be7410fb",
+    "subject": "Lovastatin",
+    "predicate": "activates",
+    "object": "SHP2",
+    "context": {
+      "en-US": "Lovastatin, a statin, acts as an SHP2 agonist: it promotes SHP2 dephosphorylation of Parkin at Tyr143, thereby enhancing Parkin E3 ligase activation and downstream mitophagy. This links statin pharmacology to the phosphorylation-dependent control of the PINK1/Parkin mitophagy axis.",
+      "zh-TW": "Lovastatin 屬 statin 類藥物，作為 SHP2 促效劑：促進 SHP2 將 Parkin 的 Tyr143 去磷酸化，藉此增強 Parkin E3 泛素連接酶的活化與下游自噬。這將 statin 類藥理與 PINK1／Parkin 自噬軸的磷酸化依賴性調控連結起來。"
+    },
+    "confidence": 0.85,
+    "source_document": "SHP2.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "ee42a4086ace",
+    "subject": "SLC1A5",
+    "predicate": "transports",
+    "object": "Glutamine",
+    "context": {
+      "en-US": "SLC1A5 (ASCT2) is a Na+-dependent plasma-membrane exchanger of neutral amino acids — glutamine, alanine, serine and cysteine — and is the import gateway for glutamine. Glutamine it imports fuels the TCA cycle and provides carbon and nitrogen for nucleotide and glutathione synthesis. SLC1A5 is frequently overexpressed in cancers to meet glutamine demand (glutamine addiction), and glutamine depletion through SLC1A5 blockade triggers ferroptosis in several models.",
+      "zh-TW": "SLC1A5（ASCT2）是細胞膜上的 Na+ 依賴型中性胺基酸交換器，運送麩醯胺酸、丙胺酸、絲胺酸與半胱胺酸，是麩醯胺酸的輸入閘口。其輸入的麩醯胺酸驅動 TCA 循環，並提供核苷酸與麩胱甘肽合成所需的碳與氮。SLC1A5 在癌症中常因麩醯胺酸需求而上調（麩醯胺酸成癮），而阻斷 SLC1A5 造成的麩醯胺酸耗竭可在多種模型中誘發鐵死亡。"
+    },
+    "confidence": 0.9,
+    "source_document": "SLC1A5.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "11f205134b1c",
+    "subject": "SLC1A5",
+    "predicate": "supports",
+    "object": "Glutathione",
+    "context": {
+      "en-US": "By sustaining glutathione synthesis, SLC1A5-derived glutamine maintains GPX4 activity and suppresses lipid peroxidation, making SLC1A5 a node where amino-acid transport meets iron-dependent cell death. In melanoma, SLC1A5 is the direct target of miR-137, which negatively regulates ferroptosis; knockdown of miR-137 and consequent SLC1A5 modulation promote ferroptotic death. The glutamine–GSH axis is therefore a post-transcriptionally tuned ferroptosis vulnerability.",
+      "zh-TW": "藉由維持麩胱甘肽合成，SLC1A5 帶入的麩醯胺酸可維持 GPX4 活性並抑制脂質過氧化，使 SLC1A5 成為胺基酸運輸與鐵依賴性細胞死亡的交會節點。在黑色素瘤中，SLC1A5 是 miR-137 的直接標的，而 miR-137 負向調控鐵死亡；敲低 miR-137 及其後續對 SLC1A5 的調節會促進鐵死亡性死亡。因此麩醯胺酸–GSH 軸是一個受轉錄後調控的鐵死亡脆弱點。"
+    },
+    "confidence": 0.85,
+    "source_document": "SLC1A5.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "bed78497d0c9",
+    "subject": "miR-137",
+    "predicate": "represses",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "In melanoma, miR-137 directly targets SLC1A5, the glutamine transporter whose supply of glutamine feeds glutathione synthesis and the GPX4 defense. Because miR-137 negatively regulates ferroptosis, knockdown of miR-137 and consequent SLC1A5 modulation promote ferroptotic death, adding an exploitable miRNA layer to melanoma therapy targeting ferroptosis sensitivity.",
+      "zh-TW": "在黑色素瘤中，miR-137 直接標定 SLC1A5——該麩醯胺酸轉運蛋白供應的麩醯胺酸可餵養麩胱甘肽合成與 GPX4 防禦。由於 miR-137 負向調控鐵死亡，敲低 miR-137 及其後續對 SLC1A5 的調節會促進鐵死亡性死亡，這為以鐵死亡敏感性為靶的黑色素瘤治療提供了可利用的 miRNA 層次。"
+    },
+    "confidence": 0.85,
+    "source_document": "SLC1A5.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "f281289ac4e0",
+    "subject": "SLC25A1",
+    "predicate": "is_upregulated_in",
+    "object": "Cellular Senescence",
+    "context": {
+      "en-US": "In senescent cells, SLC25A1 expression is significantly increased at both mRNA and protein levels across multiple senescence contexts — irradiation-induced, doxorubicin-induced and replicative. The upregulation sustains the cytosolic acetyl-CoA supply needed for histone H3K27 acetylation at SASP gene loci, linking mitochondrial carbon flux to the senescence-associated secretory phenotype.",
+      "zh-TW": "在衰老細胞中，SLC25A1 的 mRNA 與蛋白質表現在多種衰老情境——輻射誘發、阿霉素誘發與複製性衰老——皆顯著上升。此上調維持了 SASP 基因位點上組蛋白 H3K27 乙醯化所需的細胞質乙醯輔酶 A 供應，將粒線體碳流與衰老相關分泌表型連結起來。"
+    },
+    "confidence": 0.9,
+    "source_document": "SLC25A1.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "e102a68222b2",
+    "subject": "SLC25A22",
+    "predicate": "transports",
+    "object": "Glutamate",
+    "context": {
+      "en-US": "SLC25A22 (GC1) is a mitochondrial inner-membrane transporter that exchanges cytosolic glutamate for matrix aspartate, importing glutamate into the matrix where it feeds glutathione synthesis and the malate–aspartate shuttle. Mitochondrial glutamate is a limiting precursor for glutathione biosynthesis, so SLC25A22 sustains GSH supply and, by sustaining glutamate flux, activates AMPK which upregulates stearoyl-CoA desaturase and biases membranes toward monounsaturated fatty acids — depriving ferroptosis of its oxidation-prone lipid targets.",
+      "zh-TW": "SLC25A22（GC1）是粒線體內膜轉運蛋白，以細胞質的麩胺酸交換基質中的天門冬胺酸，將麩胺酸輸入基質以供應麩胱甘肽合成與蘋果酸–天門冬胺酸穿梭。粒線體麩胺酸是麩胱甘肽生合成的限量前驅物，因此 SLC25A22 維持 GSH 供應；並藉由維持麩胺酸流活化 AMPK，上調硬脂醯輔酶 A 去飽和酶，使膜脂質偏向單不飽和脂肪酸——剝奪鐵死亡的氧化易感脂質標的。"
+    },
+    "confidence": 0.9,
+    "source_document": "SLC25A22.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "c6b5ce781aa1",
+    "subject": "SLC25A22",
+    "predicate": "suppresses",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "By supplying mitochondrial glutamate for glutathione production, SLC25A22 blocks lipid peroxidation and cell death; in pancreatic ductal adenocarcinoma models it acts through iron-independent mechanisms. The same SIRT3-driven glutamate/GSH axis extends to lung adenocarcinoma (LUAD), where SIRT3 and SLC25A22 are both elevated in tumor versus adjacent tissue and rise further during ferroptosis induction, indicating an adaptive survival response.",
+      "zh-TW": "藉由供應粒線體麩胺酸以進行麩胱甘肽生成，SLC25A22 阻斷脂質過氧化與細胞死亡；在胰管腺癌模型中它透過非鐵依賴機制作用。相同的 SIRT3 驅動的麩胺酸／GSH 軸亦延伸至肺腺癌（LUAD）：腫瘤組織中 SIRT3 與 SLC25A22 相較鄰近組織皆升高，並在誘導鐵死亡時進一步上升，顯示這是適應性存活反應。"
+    },
+    "confidence": 0.9,
+    "source_document": "SLC25A22.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "9a7fac605e8e",
+    "subject": "SIRT3",
+    "predicate": "stabilizes",
+    "object": "SLC25A22",
+    "context": {
+      "en-US": "SIRT3 binds and deacetylates SLC25A22 at K83, which suppresses the transporter's ubiquitination, prevents its 26S-proteasomal degradation and extends its half-life. Targeting SIRT3 increases SLC25A22 acetylation, then ubiquitination and degradation, sensitizing lung adenocarcinoma cells to RSL3-induced ferroptosis in vivo and in vitro. This is a non-enzymatic substrate mode of SIRT3 action: deacetylation does not change transporter kinetics but governs protein turnover.",
+      "zh-TW": "SIRT3 結合 SLC25A22 並在 K83 去乙醯化，抑制該轉運蛋白的泛素化、阻止其 26S 蛋白酶體降解並延長半衰期。針對 SIRT3 會增加 SLC25A22 乙醯化，接著泛素化與降解，使肺腺癌細胞在體內與體外都對 RSL3 誘發的鐵死亡更加敏感。這是 SIRT3 作用的非酵素性受質模式：去乙醯化不改變轉運蛋白動力學，而是管控蛋白質周轉。"
+    },
+    "confidence": 0.9,
+    "source_document": "SLC25A22.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "3e4a88247a6b",
+    "subject": "SIRT3",
+    "predicate": "deacetylates",
+    "object": "IDH2",
+    "context": {
+      "en-US": "SIRT3's enzymatic arm in the redox network deacetylates and activates IDH2, MnSOD, MTHFD2, PRDX3 and catalase to regenerate NADPH/GSH and scavenge ROS, which sustains GPX4 activity. SIRT3 also suppresses mitochondrial ROS to keep IRP1 in its aconitase form, restricting TfR1-mediated iron import and the labile iron pool that fuels Fenton chemistry. The same SIRT3 that protects LUAD from ferroptosis can sensitize glioblastoma to ferroptosis by promoting mitophagy, showing that its net effect is context-dependent.",
+      "zh-TW": "SIRT3 在氧化還原網絡中的酵素性作用是去乙醯化並活化 IDH2、MnSOD、MTHFD2、PRDX3 與過氧化氫酶，以再生 NADPH／GSH 並清除 ROS，進而維持 GPX4 活性。SIRT3 亦抑制粒線體 ROS，使 IRP1 維持在順烏頭酸酶形式，限制 TfR1 介導的鐵輸入與供應 Fenton 化學的活性鐵池。保護肺腺癌免於鐵死亡的同一個 SIRT3，卻能藉促進自噬使膠質母細胞瘤對鐵死亡敏感，顯示其淨效應依情境而定。"
+    },
+    "confidence": 0.85,
+    "source_document": "SLC25A22.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "79838dc7312e",
+    "subject": "SLC25A51",
+    "predicate": "transports",
+    "object": "NAD+",
+    "context": {
+      "en-US": "SLC25A51 (MCART1) is a six-transmembrane-helix SLC25 carrier in the mitochondrial inner membrane that mediates uptake of intact NAD+ into the matrix, driven in part by membrane potential. Mitochondria cannot synthesize NAD+ de novo and the inner membrane is impermeable to pyridine nucleotides, so this importer supplies the matrix pool; the near-identical paralog SLC25A52 can substitute when overexpressed but is barely expressed in most tissues, leaving SLC25A51 as the dominant physiological route.",
+      "zh-TW": "SLC25A51（MCART1）是位於粒線體內膜、具六次跨膜螺旋的 SLC25 載體，在膜電位的部分驅動下介導完整 NAD+ 進入基質的攝取。粒線體無法從頭合成 NAD+，且內膜對吡啶核苷酸不通透，因此必須由此進口蛋白供應基質 NAD+ 池；近乎相同的旁系同源物 SLC25A52 在過量表現時可替代，但在多數組織中幾乎不表現，使 SLC25A51 成為主要的生理途徑。"
+    },
+    "confidence": 0.95,
+    "source_document": "SLC25A51.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "669cd498e856",
+    "subject": "SLC25A51",
+    "predicate": "is_required_for",
+    "object": "Oxidative Phosphorylation",
+    "context": {
+      "en-US": "Loss of SLC25A51 lowers mitochondrial but not whole-cell NAD+, depresses oxygen consumption, collapses complex I activity and reduces TCA-cycle flux — a compartment-specific lesion compensated partly by a glycolytic shift. Matrix NAD+ imported by SLC25A51 feeds complex I, matrix dehydrogenases such as IDH2, glutamate dehydrogenase and the pyruvate dehydrogenase complex, and NAD+-consuming enzymes including SIRT3, SIRT5 and mitochondrial PARP1.",
+      "zh-TW": "SLC25A51 缺失會降低粒線體（而非全細胞）的 NAD+、抑制氧消耗、使複合體 I 活性崩解並減少 TCA 循環流量——這是區室特異性的損傷，部分由糖解轉移補償。由 SLC25A51 輸入的基質 NAD+ 供應複合體 I、IDH2、麩胺酸去氫酶與丙酮酸去氫酶複合體等基質去氫酶，以及 SIRT3、SIRT5 與粒線體 PARP1 等 NAD+ 消耗酵素。"
+    },
+    "confidence": 0.9,
+    "source_document": "SLC25A51.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "7823cca49c4d",
+    "subject": "SLC25A51",
+    "predicate": "regulates",
+    "object": "SIRT3",
+    "context": {
+      "en-US": "Because the local matrix NAD+ supply sets the activity envelope of SIRT3, SLC25A51 knockdown raises acetylation of SIRT3 targets such as IDH2 and ACADL without changing SIRT3 protein, and lowers oxygen consumption in intact hepatocytes. Hepatic knockdown additionally suppresses fatty-acid oxidation and produces steatosis with hypertriglyceridemia, phenocopying partial SIRT3 loss, so SLC25A51 is the spatial NAD+ import gate for mitochondrial deacetylation.",
+      "zh-TW": "由於局部的基質 NAD+ 供應決定了 SIRT3 的活性範圍，SLC25A51 敲低會在不改變 SIRT3 蛋白量的情況下提高 IDH2、ACADL 等 SIRT3 標的的乙醯化程度，並降低完整肝細胞中的氧消耗。肝臟敲低還會抑制脂肪酸氧化並造成 steatosis 與高三酸甘油酯血症，模擬部分 SIRT3 缺失的表型，因此 SLC25A51 是粒線體去乙醯化的空間性 NAD+ 輸入閘口。"
+    },
+    "confidence": 0.9,
+    "source_document": "SLC25A51.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "2eac3adc26e7",
+    "subject": "BMAL1",
+    "predicate": "upregulates",
+    "object": "SLC25A51",
+    "context": {
+      "en-US": "SLC25A51 is a fasting-induced, circadian gene and a direct BMAL1 target (Fu et al., Metabolism 2022). Hepatic expression rises with fasting, oscillates diurnally and is disrupted in liver-specific Bmal1 knockouts; reduced expression lowers mitochondrial NAD+ and SIRT3 activity and reduces oxygen consumption in intact hepatocytes. Its induction parallels PGC-1α–SIRT3 activation and the fasting switch to fatty-acid oxidation.",
+      "zh-TW": "SLC25A51 是禁食誘導的晝夜節律基因，也是 BMAL1 的直接標的（Fu et al., Metabolism 2022）。肝臟表現隨禁食上升、呈日夜震盪，並在肝細胞專一性 Bmal1 敲除小鼠中失調；表現降低會使粒線體 NAD+ 與 SIRT3 活性下降，並降低完整肝細胞中的氧消耗。其誘導與 PGC-1α–SIRT3 的活化及禁食時轉向脂肪酸氧化平行。"
+    },
+    "confidence": 0.9,
+    "source_document": "SLC25A51.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "717eb6d50b9f",
+    "subject": "SLC25A51",
+    "predicate": "promotes",
+    "object": "Cancer",
+    "context": {
+      "en-US": "Overexpression of SLC25A51 promotes hepatocellular carcinoma progression by driving aerobic glycolysis through SIRT5 activation (Bai et al., Free Radic Biol Med 2022): the same NAD+ supply that protects normal liver from respiratory decline can be co-opted for tumor metabolic plasticity. Because SLC25A51 controls the mitochondrial NAD+ fraction specifically, modulating import offers a compartment-targeted alternative to systemic NAD+ repletion by precursors such as nicotinamide riboside or NMN.",
+      "zh-TW": "SLC25A51 過量表現會透過活化 SIRT5 驅動有氧糖解，促進肝細胞癌進展（Bai et al., Free Radic Biol Med 2022）：原本保護正常肝臟免於呼吸功能衰退的 NAD+ 供應，可被癌細胞挪用以獲得腫瘤代謝可塑性。由於 SLC25A51 專一調控粒線體的 NAD+ 分量，調整其輸入可作為相對於菸鹼醯胺核糖或 NMN 等前驅物全身性 NAD+ 補充的區室導向替代方案。"
+    },
+    "confidence": 0.85,
+    "source_document": "SLC25A51.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "120822f49a2a",
+    "subject": "SLC3A2",
+    "predicate": "is_a_component_of",
+    "object": "System Xc-",
+    "context": {
+      "en-US": "SLC3A2 (4F2hc/CD98) is the heavy-chain subunit of several heterodimeric amino acid transporters, most relevantly the system Xc- cystine/glutamate antiporter. SLC3A2 does not itself bind cystine but is essential for the proper folding, disulfide-linked assembly and plasma-membrane localization of its catalytic light-chain partner SLC7A11 (xCT); the SLC7A11–SLC3A2 heterodimer is the functional unit, and SLC7A11 alone is retained in the ER.",
+      "zh-TW": "SLC3A2（4F2hc／CD98）是數個異二聚體胺基酸轉運蛋白的重鏈次單元，其中最重要的是 system Xc- 胱胺／麩胺酸反向運輸體。SLC3A2 本身不結合胱胺，但它對其催化輕鏈 partner SLC7A11（xCT）的正確摺疊、二硫鍵連結組裝與質膜定位不可或缺；SLC7A11–SLC3A2 異二聚體才是功能單元，单独的 SLC7A11 會滯留於內質網。"
+    },
+    "confidence": 0.95,
+    "source_document": "SLC3A2.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "8e5f5459e977",
+    "subject": "SLC3A2",
+    "predicate": "stabilizes",
+    "object": "SLC7A11",
+    "context": {
+      "en-US": "By chaperoning SLC7A11 to the plasma membrane, SLC3A2 enables system Xc- to import cystine in exchange for glutamate. Cystine reduction to cysteine feeds GSH biosynthesis, sustaining GPX4 activity and suppressing lipid-peroxidation-driven ferroptosis. Loss of SLC3A2 destabilizes SLC7A11, curtailing cystine uptake and sensitizing cells to ferroptosis, while abundant 4F2hc supports ferroptosis resistance in tumors — therapies disrupting 4F2hc–SLC7A11 assembly could mimic erastin-like cystine deprivation.",
+      "zh-TW": "藉由護送 SLC7A11 至質膜，SLC3A2 使 system Xc- 能以麩胺酸交換胱胺輸入。胱胺還原為半胱胺酸後餵養 GSH 生合成，維持 GPX4 活性並抑制脂質過氧化驅動的鐵死亡。SLC3A2 缺失會使 SLC7A11 去穩定、削弱胱胺輸入並讓細胞對鐵死亡敏感，而豐富的 4F2hc 則支持腫瘤的鐵死亡抗性——破壞 4F2hc–SLC7A11 組裝的療法可模擬 erastin 式的胱胺剝奪。"
+    },
+    "confidence": 0.9,
+    "source_document": "SLC3A2.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "9850d0a34582",
+    "subject": "SLC3A2",
+    "predicate": "activates",
+    "object": "mTORC1",
+    "context": {
+      "en-US": "Beyond its role in system Xc-, SLC3A2 heterodimerizes with multiple SLC7 light chains (LAT1/2, y+LAT1/2), giving 4F2hc broad roles in amino-acid transport and integrin signaling. These transport complexes regulate mTORC1 activation via amino-acid availability, and 4F2hc/CD98 signals through integrins to influence proliferation, migration and survival — functions separable from its cystine-transport role, which complicates interpretation of CD98-targeted therapies.",
+      "zh-TW": "除了在 system Xc- 中的角色，SLC3A2 還與多種 SLC7 輕鏈（LAT1/2、y+LAT1/2）形成異二聚體，使 4F2hc 在胺基酸運輸與整合素訊息中扮演廣泛角色。這些轉運複合體藉胺基酸可利用性調控 mTORC1 活化，而 4F2hc／CD98 也透過整合素訊號影響增殖、遷移與存活——這些功能與其胱胺運輸角色可分開，因而使 CD98 標靶療法的詮釋更為複雜。"
+    },
+    "confidence": 0.8,
+    "source_document": "SLC3A2.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "80ff2379f896",
+    "subject": "SLC6A8",
+    "predicate": "transports",
+    "object": "Creatine",
+    "context": {
+      "en-US": "SLC6A8, a gene on chromosome Xq28, encodes CT1, the principal creatine transporter of the sodium- and chloride-dependent SLC6 symporter family. CT1 mediates electrogenic symport of creatine with Na+ and Cl−, maintaining intracellular creatine against a steep concentration gradient; SLC6A8 is widely expressed in brain, muscle, heart, kidney and at the blood-brain barrier, making it the gateway for creatine uptake into cells and across the blood-brain barrier.",
+      "zh-TW": "SLC6A8 是位於 Xq28 的基因，編碼鈉與氯依賴型 SLC6 對向運輸蛋白家族的主要肌酸轉運蛋白 CT1。CT1 以 Na+ 與 Cl− 進行肌酸的電生性對向運輸，維持細胞內肌酸面對陡峭濃度梯度；SLC6A8 廣泛表現於腦、肌肉、心臟、腎臟與血腦屏障，是肌酸進入細胞與穿過血腦屏障的入口。"
+    },
+    "confidence": 0.95,
+    "source_document": "SLC6A8.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "9d3ae6bdac47",
+    "subject": "SLC6A8",
+    "predicate": "is_upregulated_in",
+    "object": "Cancer",
+    "context": {
+      "en-US": "SLC6A8 is markedly upregulated in tumor-infiltrating immune cells of the tumor microenvironment. Creatine uptake via SLC6A8 is required for optimal CD8+ T cell effector function and antitumor immunity, identifying SLC6A8 as a potential immunometabolic checkpoint: inhibiting or depleting creatine can blunt antitumor immunity even as tumors themselves overexpress the transporter.",
+      "zh-TW": "SLC6A8 在腫瘤微環境的浸潤性免疫細胞中顯著上調。經由 SLC6A8 的肌酸攝取是 CD8+ T 細胞最佳效應功能與抗腫瘤免疫所必需，使 SLC6A8 成為潛在的免疫代謝檢查點：抑制或耗竭肌酸可能削弱抗腫瘤免疫，即使腫瘤本身也過量表現此轉運蛋白。"
+    },
+    "confidence": 0.85,
+    "source_document": "SLC6A8.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "6f7f96ff9bdd",
+    "subject": "SLC6A8",
+    "predicate": "causes",
+    "object": "Epilepsy",
+    "context": {
+      "en-US": "Loss-of-function mutations in SLC6A8 cause creatine transporter deficiency (CTD, OMIM #300352), an X-linked recessive disorder accounting for about 2% of intellectual disability in males. Features include global developmental delay, epilepsy, speech/language delay, autistic-like behaviors and movement disorders; diagnosis rests on elevated urinary creatine:creatinine ratio and reduced brain creatine on MRS. Unlike AGAT/GAMT deficiencies, oral creatine supplementation is less effective because the transporter defect blocks cellular uptake.",
+      "zh-TW": "SLC6A8 的失功能突變會造成肌酸轉運蛋白缺乏症（CTD，OMIM #300352），一種 X 聯隱性遺傳疾病，約占男性智障的 2%。其特徵包括整體發育遲緩、癲癇、語言發育遲緩類自閉症狀與運動障礙；診斷依據為尿中肌酸／肌酸酐比值升高及 MRS 上腦肌酸降低。與 AGAT／GAMT 缺乏不同，口服肌酸補充效果較差，因為轉運蛋白缺陷阻斷了細胞攝取。"
+    },
+    "confidence": 0.9,
+    "source_document": "SLC6A8.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "c13eb9556412",
+    "subject": "SLC7A11",
+    "predicate": "is_a_component_of",
+    "object": "System Xc-",
+    "context": {
+      "en-US": "SLC7A11 (xCT) is a 12-pass transmembrane SLC7 protein encoding the catalytic light chain of the system Xc- cystine/glutamate antiporter. It contains the substrate-binding pocket for cystine and glutamate and is covalently linked by a conserved disulfide bond to the heavy chain SLC3A2 (4F2hc/CD98); the SLC7A11–SLC3A2 heterodimer is the functional unit, and SLC7A11 alone is retained in the ER and cannot reach the plasma membrane.",
+      "zh-TW": "SLC7A11（xCT）是 12 次跨膜的 SLC7 蛋白，編碼 system Xc- 胱胺／麩胺酸反向運輸體的催化輕鏈。它含有辨識胱胺與麩胺酸的受質結合口袋，並透過保守的二硫鍵與重鏈 SLC3A2（4F2hc／CD98）共價連結；SLC7A11–SLC3A2 異二聚體才是功能單元，单独的 SLC7A11 會滯留於內質網而無法到達質膜。"
+    },
+    "confidence": 0.95,
+    "source_document": "SLC7A11.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "b23bb6dee454",
+    "subject": "SLC7A11",
+    "predicate": "produces",
+    "object": "Glutathione",
+    "context": {
+      "en-US": "xCT mediates the electrochemically coupled 1:1 exchange of extracellular cystine for intracellular glutamate. Imported cystine is reduced to cysteine, the limiting substrate for GSH biosynthesis; by sustaining the GSH pool, xCT directly feeds GPX4, the principal eliminator of phospholipid hydroperoxides. When xCT is transcriptionally repressed by p53 or inhibited by erastin/sulfasalazine, cystine import collapses, GSH falls, GPX4 fails and ROS-driven lipid peroxidation executes ferroptosis.",
+      "zh-TW": "xCT 以電化學耦聯的 1:1 方式交換胞外胱胺與胞內麩胺酸。輸入的胱胺被還原為半胱胺酸——麩胱甘肽生合成的限量受質；藉由維持 GSH 池，xCT 直接餵養磷脂過氧化氫物的首要清除者 GPX4。當 xCT 被 p53 轉錄抑制或被 erastin／sulfasalazine 藥理抑制時，胱胺輸入崩潰、GSH 下降、GPX4 失效，ROS 驅動的脂質過氧化遂執行鐵死亡。"
+    },
+    "confidence": 0.95,
+    "source_document": "SLC7A11.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "6230368a8fad",
+    "subject": "NRF2",
+    "predicate": "upregulates",
+    "object": "SLC7A11",
+    "context": {
+      "en-US": "xCT abundance is itself regulated by the Keap1–NRF2 axis: NRF2 activates SLC7A11 transcription, and p62-mediated NRF2 stabilization further raises xCT, positioning SLC7A11 at the crossroads of oxidative-stress signaling and cell-death commitment. High xCT confers abundant GSH and robust GPX4-mediated defense against lipid peroxidation, so SLC7A11 expression is one of the strongest cellular predictors of ferroptosis resistance.",
+      "zh-TW": "xCT 的豐度本身受 Keap1–NRF2 軸調控：NRF2 活化 SLC7A11 轉錄，而 p62 介導的 NRF2 穩定化進一步提高 xCT，使 SLC7A11 處於氧化壓力訊息與細胞死亡決定的交會點。高 xCT 賦予豐富的 GSH 與robust的 GPX4 介導脂質過氧化防禦，因此 SLC7A11 表現是細胞鐵死亡抗性最強的預測因子之一。"
+    },
+    "confidence": 0.9,
+    "source_document": "SLC7A11.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "d3f9d15bc07f",
+    "subject": "Erastin",
+    "predicate": "inhibits",
+    "object": "SLC7A11",
+    "context": {
+      "en-US": "Erastin and sulfasalazine (an approved drug) inhibit xCT, collapsing cystine import and setting in motion glutathione depletion, GPX4 failure and lipid peroxidation. Combining xCT blockade with GPX4 inhibition or iron loading is therefore a rational ferroptosis-inducing combination in oncology, and xCT abundance is a predictive biomarker for response to system Xc- inhibitors.",
+      "zh-TW": "Erastin 與 sulfasalazine（已核准藥物）抑制 xCT，使胱胺輸入崩潰，啟動麩胱甘肽耗竭、GPX4 失效與脂質過氧化。因此將 xCT 阻斷與 GPX4 抑制或鐵負荷結合，是腫瘤學上合理的誘發鐵死亡組合，而 xCT 豐度也是預測 system Xc- 抑制劑反應的生物標記。"
+    },
+    "confidence": 0.9,
+    "source_document": "SLC7A11.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "0da09615a4b3",
+    "subject": "SIRT7",
+    "predicate": "activates",
+    "object": "SMAD2",
+    "context": {
+      "en-US": "Enhanced expression and phosphorylation of SIRT7 has been reported to promote cardiac fibrosis via activation of SMAD2 and ERK signaling pathways, while SIRT7 knockout in mice has paradoxically also been reported to result in cardiac fibrosis. The relationship is therefore bidirectional or context-dependent, with SMAD2 serving as a downstream effector of SIRT7's non-deacetylase signaling in the fibrotic program.",
+      "zh-TW": "有報告指出 SIRT7 的表現與磷酸化增強會透過活化 SMAD2 與 ERK 訊息途徑促進心肌纖維化，但也有報告指出小鼠 SIRT7 敲除同樣造成心肌纖維化。因此此關係是雙向或依情境而定的，SMAD2 則作為 SIRT7 非去乙醯化訊息在纖維化程式中的下游效應者。"
+    },
+    "confidence": 0.7,
+    "source_document": "SMAD2.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "d6b9f9d277bb",
+    "subject": "SMAD2",
+    "predicate": "is_a_type_of",
+    "object": "SMAD",
+    "context": {
+      "en-US": "SMAD2 (Mothers Against Decapentaplegic Homolog 2) is a member of the SMAD family of signal-transducing proteins that relay TGF-β/BMP superfamily receptor signaling into the nucleus. Like other SMADs, it contains conserved structural motifs that mediate interactions with binding partners, nucleic acids and lipid membranes, and its activity and localization are dynamically regulated by phosphorylation and ubiquitination.",
+      "zh-TW": "SMAD2（Mothers Against Decapentaplegic Homolog 2）是 SMAD 家族的成員之一，負責將 TGF-β／BMP 超家族受體訊息傳遞至細胞核。與其他 SMAD 相同，它含有與結合伴護蛋白、核酸及脂質膜互動的保守結構基序，其活性與定位則由磷酸化與泛素化動態調控。"
+    },
+    "confidence": 0.8,
+    "source_document": "SMAD2.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "7258827f95cb",
+    "subject": "SMAD4",
+    "predicate": "is_a_type_of",
+    "object": "SMAD",
+    "context": {
+      "en-US": "SMAD4 (DPC4) is a member of the SMAD family and the central co-SMAD of the TGF-β/BMP pathway: it heterodimerizes with receptor-phosphorylated SMAD2/SMAD3 and carries the complex into the nucleus to regulate target gene transcription. Its activity is regulated by phosphorylation and ubiquitination, and altered expression or mutation is associated with cancer, notably pancreatic and colorectal carcinoma.",
+      "zh-TW": "SMAD4（DPC4）是 SMAD 家族成員，也是 TGF-β／BMP 途徑的核心 co-SMAD：它與受體磷酸化的 SMAD2／SMAD3 形成異二聚體，將複合體帶入細胞核以調控目標基因轉錄。其活性受磷酸化與泛素化調控，而表現改變或突變與癌症相關，尤以胰臟癌與大腸直腸癌為著。"
+    },
+    "confidence": 0.8,
+    "source_document": "SMAD4.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "7972f1ce05a5",
+    "subject": "SN011",
+    "predicate": "inhibits",
+    "object": "STING",
+    "context": {
+      "en-US": "SN011 is a selective small-molecule antagonist that binds the cyclic-dinucleotide (CDN) pocket of STING and blocks its activation, suppressing downstream type I interferon and ISG output. It is a widely used tool compound for interrogating STING-dependent inflammation and for testing whether STING signaling contributes independently of the mitochondrial acetyl-CoA axis to the senescence-associated secretory phenotype.",
+      "zh-TW": "SN011 是一種具選擇性的小分子拮抗劑，可結合 STING 的循環二核苷酸（CDN）結合位點並阻斷其活化，抑制下游的 type I interferon 與 ISG 表現。它是研究 STING 依賴性發炎反應的常用工具化合物，也可用於檢測 STING 訊息傳遞是否獨立於粒線體 acetyl-CoA 軸而參與 senescence-associated secretory phenotype（SASP）。"
+    },
+    "confidence": 0.95,
+    "source_document": "SN011.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "76c1aa3db1cc",
+    "subject": "SN011",
+    "predicate": "leaves_intact",
+    "object": "H3K27ac",
+    "context": {
+      "en-US": "Treating senescent cells with SN011 did not prevent the loss of the H3K27ac histone acetylation mark or rescue SASP suppression caused by SLC25A1 inhibition. This result is what allows H3K27ac levels to serve as the readout proving that the mitochondrial citrate–acetyl-CoA SASP axis operates independently of mtDNA–cGAS–STING signaling, since the STING blockade leaves the epigenetic mark unchanged.",
+      "zh-TW": "以 SN011 處理衰老細胞並未阻止 H3K27ac 組蛋白乙醯化標記的下降，也無法挽救由 SLC25A1 抑制所造成的 SASP 抑制效果。這項結果使 H3K27ac 水平得以作為讀值，用以證明粒線體的 citrate–acetyl-CoA SASP 軸是獨立於 mtDNA–cGAS–STING 訊息傳遞而運作的，因為 STING 的阻斷並未改變此表觀遺傳標記。"
+    },
+    "confidence": 0.9,
+    "source_document": "SN011.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "f1f638950ca6",
+    "subject": "SN011",
+    "predicate": "acts_independently_of",
+    "object": "cGAS-STING Pathway",
+    "context": {
+      "en-US": "SN011 is used to interrogate the relationship between cGAS–STING signaling and the SASP. Because blocking STING with SN011 neither blocks H3K27ac loss nor SASP suppression driven by SLC25A1, the two axes are mechanistically independent: the mitochondrial citrate–acetyl-CoA route to SASP does not require the mtDNA–cGAS–STING arm.",
+      "zh-TW": "SN011 被用來釐清 cGAS–STING 訊息傳遞與 SASP 之間的關係。由於以 SN011 阻斷 STING 既無法阻止 H3K27ac 的下降，也無法阻止 SLC25A1 所驅動的 SASP 抑制，兩條軸在機制上是彼此獨立的：粒線體的 citrate–acetyl-CoA 途徑並不需要 mtDNA–cGAS–STING 這一支。"
+    },
+    "confidence": 0.88,
+    "source_document": "SN011.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "b01e438796ec",
+    "subject": "SNAPIN",
+    "predicate": "transports",
+    "object": "Mitochondria",
+    "context": {
+      "en-US": "SNAPIN is the retrograde motor adaptor that moves mitochondria from distal synapses back to the cell soma. This transport step is what physically removes partially degraded organelles from the synapse so that mitophagy can complete, and enhancing SNAPIN-dependent retrograde transport alleviates mitophagy stress and rescues synaptic deficits in Alzheimer's disease models.",
+      "zh-TW": "SNAPIN 是將粒線體由遠端突觸逆向運送回細胞本體的運輸因子。正是這一步驟把部分降解的胞器從突觸中移除，使 mitophagy 得以完成；增強 SNAPIN 依賴性的逆向運輸可減輕 mitophagy 壓力，並在 Alzheimer's disease 模型中挽救突觸功能缺損。"
+    },
+    "confidence": 0.93,
+    "source_document": "SNAPIN.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "a54cdde1f4c3",
+    "subject": "SNAPIN",
+    "predicate": "cooperates_with",
+    "object": "Parkin",
+    "context": {
+      "en-US": "SNAPIN and Parkin act at successive stages of the same synaptic mitochondrial quality-control system: Parkin-mediated mitophagy tags and engulfs damaged mitochondria, while SNAPIN-driven retrograde transport ferries them from the synapse to the soma for final degradation. Together with PINK1–DRP1 fission and BOK-facilitated Parkin recruitment, SNAPIN ensures that synapses are populated only by healthy, functional mitochondria.",
+      "zh-TW": "SNAPIN 與 Parkin 作用於同一套突觸粒線體品質管制系統的相連階段：Parkin 媒介的 mitophagy 負責標記並吞噬受損粒線體，而 SNAPIN 驅動的逆向運輸則將其自突觸運回細胞本體以完成降解。搭配 PINK1–DRP1 介導的分裂與 BOK 促進的 Parkin 招募，SNAPIN 確保突觸中僅保有健康且功能正常的粒線體。"
+    },
+    "confidence": 0.92,
+    "source_document": "SNAPIN.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "6deaf5ead5c9",
+    "subject": "SNAPIN",
+    "predicate": "contributes_to",
+    "object": "Alzheimer's Disease",
+    "context": {
+      "en-US": "Defective SNAPIN-dependent retrograde transport contributes to synaptic mitochondrial pathology in Alzheimer's disease. In AD models, mitophagy initiation is increased but transport is impaired, so partially degraded mitochondria accumulate within synapses; restoring SNAPIN transport clears these organelles and rescues synaptic function, linking SNAPIN failure to neurodegeneration.",
+      "zh-TW": "SNAPIN 依賴性逆向運輸的缺陷會促成 Alzheimer's disease 中的突觸粒線體病變。在 AD 模型中，mitophagy 的啟動增加但運輸受阻，導致部分降解的粒線體在突觸內堆積；恢復 SNAPIN 的運輸功能可清除這些胞器並挽救突觶功能，將 SNAPIN 失效與神經退化連結起來。"
+    },
+    "confidence": 0.88,
+    "source_document": "SNAPIN.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "3d2a7699bfdc",
+    "subject": "SNCA",
+    "predicate": "encodes",
+    "object": "Alpha-synuclein",
+    "context": {
+      "en-US": "SNCA is the gene encoding α-synuclein, a small intrinsically disordered presynaptic protein involved in synaptic vesicle trafficking and neurotransmitter release. SNCA point mutations (A53T, A30P, E46K) and gene multiplications are the cause of familial Parkinson's disease, making SNCA both the naming source and the genetic driver of the disease named after the protein.",
+      "zh-TW": "SNCA 是編碼 α-synuclein 的基因；α-synuclein 是一種小型、內在無序的突觸前蛋白，參與突觸小泡運輸與神經傳遞物質釋放。SNCA 的點突變（A53T、A30P、E46K）與基因多複製即造成家族性 Parkinson's disease，使 SNCA 成為該蛋白的命名來源與疾病的遺傳驅動因子。"
+    },
+    "confidence": 0.95,
+    "source_document": "SNCA.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "6e013eadc9d0",
+    "subject": "Alpha-synuclein",
+    "predicate": "aggregates_into",
+    "object": "Lewy Bodies",
+    "context": {
+      "en-US": "Misfolded α-synuclein self-aggregates into Lewy bodies, the pathological hallmark of Parkinson's disease. The SNCA context ties the gene, its protein product, and the intraneuronal inclusion: Lewy bodies are the visible consequence of the aggregation-prone, intrinsically disordered α-synuclein encoded by SNCA.",
+      "zh-TW": "錯誤摺疊的 α-synuclein 會自我聚集形成 Lewy bodies，這是 Parkinson's disease 的病理特徵。此一脈絡將基因、其蛋白產物與細胞內包涵體連結起來：Lewy bodies 正是由 SNCA 所編碼、易於聚集且內在無序的 α-synuclein 所造成的可見結果。"
+    },
+    "confidence": 0.93,
+    "source_document": "SNCA.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "e9ac0336c8db",
+    "subject": "SNCA",
+    "predicate": "contributes_to",
+    "object": "Senescence",
+    "context": {
+      "en-US": "Beyond its canonical role in Parkinson's disease, aggregated α-synuclein encoded by SNCA can induce mitochondrial dysfunction, oxidative stress and a senescence-like state in dopaminergic neurons. This links SNCA pathology to cellular senescence, the bridge topic between neurodegeneration and aging biology.",
+      "zh-TW": "除了在 Parkinson's disease 中的典型角色之外，由 SNCA 編碼的聚集態 α-synuclein 還能在多巴胺神經元中誘發粒線體功能障礙、氧化壓力與類衰老（senescence-like）狀態。這將 SNCA 病變與細胞衰老連結起來，構成神經退化與老化生物學之間的橋樑主題。"
+    },
+    "confidence": 0.85,
+    "source_document": "SNCA.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "ba83262c390b",
+    "subject": "SNEDDS",
+    "predicate": "forms",
+    "object": "Nanoemulsions",
+    "context": {
+      "en-US": "Self-nanoemulsifying drug delivery systems are anhydrous preconcentrates of drug, oil, surfactant and co-surfactant that spontaneously form an oil-in-water nanoemulsion upon aqueous dilution, as occurs in the stomach. The nanometer droplets drastically increase surface area for absorption; the fisetin-SNEDDS formulation reported 154 nm droplets with 100% drug loading.",
+      "zh-TW": "自奈米乳化藥物傳遞系統（SNEDDS）是由藥物、油、界面活性劑與助表面活性劑組成的無水預濃縮物，遇水稀釋（如在胃中）時會自發形成水包油型奈米乳液。奈米尺度的液滴可大幅增加吸收表面積；文獻報導的 fisetin-SNEDDS 配方液滴大小為 154 nm，藥物負載率達 100%。"
+    },
+    "confidence": 0.95,
+    "source_document": "SNEDDS.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "a19200793d7c",
+    "subject": "SNEDDS",
+    "predicate": "improves",
+    "object": "Bioavailability",
+    "context": {
+      "en-US": "Formulating fisetin as SNEDDS raises its oral bioavailability: dissolution increased 11.0-fold in water, 3.6-fold at pH 1.2 and 7.9-fold at pH 6.8, with 3.79-fold higher intestinal permeation. In rats at 20 mg/kg, Cmax rose 3.7-fold and AUC about 1.5-fold, while cell viability improved to 89% versus 10% for free fisetin because of reduced direct cell interaction.",
+      "zh-TW": "將 fisetin 製成 SNEDDS 可提高其口服生體可用性：溶出度在水、pH 1.2 與 pH 6.8 緩衝液中分別提升 11.0 倍、3.6 倍與 7.9 倍，腸道通透性提高 3.79 倍。大鼠以 20 mg/kg 給藥時，Cmax 提升 3.7 倍、AUC 約增加 1.5 倍；由於與細胞直接作用減少，細胞存活率由游離 fisetin 的 10% 提升至 89%。"
+    },
+    "confidence": 0.92,
+    "source_document": "SNEDDS.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "a5a43423c385",
+    "subject": "Fisetin",
+    "predicate": "is_protected_by",
+    "object": "SNEDDS",
+    "context": {
+      "en-US": "Fisetin is a poorly soluble flavonoid whose bioavailability is limited by dissolution; SNEDDS encapsulation is the remedy described in the note. In a rotenone Parkinson's disease model the fisetin-SNEDDS formulation reduced TNFα and IL-6 and raised glutathione, superoxide dismutase and catalase, showing that improved delivery translates into neuroprotection and antioxidant defense.",
+      "zh-TW": "Fisetin 是一種難溶性的類黃酮，其生體可用性受溶出度限制；SNEDDS 的包載即是該筆記中所述的解決方式。在 rotenone 誘發的 Parkinson's disease 模型中，fisetin-SNEDDS 配方降低了 TNFα 與 IL-6，並提升 glutathione、superoxide dismutase 與 catalase，顯示改善遞送可轉化為神經保護與抗氧化防禦。"
+    },
+    "confidence": 0.88,
+    "source_document": "SNEDDS.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "f951a13b55ec",
+    "subject": "SOCS3",
+    "predicate": "degrades",
+    "object": "IDO1",
+    "context": {
+      "en-US": "SOCS3 provides post-translational negative feedback on IDO1. Phosphorylation of IDO1 at its ITIM motifs recruits SOCS3, whose C-terminal SOCS box brings in the Elongin B/C–Cullin5–Rbx2 ubiquitin ligase machinery, marking IDO1 for ubiquitination and proteasomal degradation. This limits IDO1 protein stability and catalytic activity.",
+      "zh-TW": "SOCS3 為 IDO1 提供轉譯後的負回饋調控。IDO1 在其 ITIM 基序的磷酸化會招募 SOCS3，其 C 端的 SOCS box 引入 Elongin B/C–Cullin5–Rbx2 泛素連接酶複合體，將 IDO1 標記並導向泛素化與蛋白酶體降解，從而限制 IDO1 的蛋白穩定性與催化活性。"
+    },
+    "confidence": 0.92,
+    "source_document": "SOCS3.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "7eb6d1bbc9a0",
+    "subject": "SOCS3",
+    "predicate": "inhibits",
+    "object": "JAK-STAT Signaling",
+    "context": {
+      "en-US": "SOCS3 is a classic negative-feedback regulator of cytokine signaling. It is itself induced downstream of JAK/STAT3 activity and then feeds back to inhibit JAK/STAT signaling, including potent attenuation of interferon-gamma and IL-6 responses, acting through its central SH2 domain on phosphorylated receptor tyrosines.",
+      "zh-TW": "SOCS3 是細胞激素訊息傳遞的典型負回饋調節因子。它本身由 JAK/STAT3 活性下游誘導，接著回頭抑制 JAK/STAT 訊息傳遞，包括對 interferon-gamma 與 IL-6 反應的強烈削弱；其作用經由中央 SH2 結構域辨識受體上的磷酸化酪胺酸殘基。"
+    },
+    "confidence": 0.93,
+    "source_document": "SOCS3.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "569222a368f3",
+    "subject": "SOCS3",
+    "predicate": "recruits",
+    "object": "Ubiquitin",
+    "context": {
+      "en-US": "The SOCS box of SOCS3 assembles the Elongin B/C, Cullin5 and Rbx2 E3 ligase complex, which is how SOCS3 targets bound substrate for ubiquitination. This is the general mechanism by which SOCS3 acts both as a negative feedback regulator of cytokine receptors and as a post-translational control point for enzymes such as IDO1.",
+      "zh-TW": "SOCS3 的 SOCS box 會組裝 Elongin B/C、Cullin5 與 Rbx2 所構成的 E3 泛素連接酶複合體，這正是 SOCS3 將結合的受質導向泛素化的方式。這也是 SOCS3 既能作為細胞激素受體的負回饋調節因子，又能作為 IDO1 等酵素轉譯後調控節點的一般機制。"
+    },
+    "confidence": 0.9,
+    "source_document": "SOCS3.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "9089a7091d77",
+    "subject": "SR-BI",
+    "predicate": "mediates",
+    "object": "Cholesterol Efflux",
+    "context": {
+      "en-US": "SR-BI is one of three known pathways for free cholesterol efflux from macrophages. Unlike ABCA1, it does not preferentially lipidate lipid-poor apoA-1; instead it mediates bidirectional, ATP-independent cholesterol flux across the plasma membrane, with net movement set by the cholesterol gradient between cell and acceptor.",
+      "zh-TW": "SR-BI 是巨噬細胞遊離 cholesterol 外流的三條已知途徑之一。與 ABCA1 不同，它不會優先將脂質載入脂蛋白缺乏的 apoA-1；相反地，它以雙向且不依賴 ATP 的方式促進胆固醇跨越細胞膜流動，淨移動方向由細胞與接受體之間的胆固醇梯度決定。"
+    },
+    "confidence": 0.92,
+    "source_document": "SR-BI.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "ba8b1c1f414a",
+    "subject": "SR-BI",
+    "predicate": "interacts_with",
+    "object": "HDL",
+    "context": {
+      "en-US": "SR-BI interacts with mature HDL particles and is prominent in tissues with high cholesterol flux, including hepatic HDL cholesterol uptake. By serving as the cell-side docking site for HDL, SR-BI links the circulating high-density lipoprotein acceptor to intracellular cholesterol handling in macrophages and liver.",
+      "zh-TW": "SR-BI 與成熟的 HDL 顆粒相互作用，並在胆固醇流量高的組織中高度表現，包括肝臟的 HDL 胆固醇攝取。SR-BI 為 HDL 提供細胞側的停靠位點，因而將循環中的高密度脂蛋白接受體與巨噬細胞及肝臟的細胞內胆固醇處理連結起來。"
+    },
+    "confidence": 0.9,
+    "source_document": "SR-BI.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "d72edea05cd1",
+    "subject": "SR-BI",
+    "predicate": "participates_in",
+    "object": "Reverse Cholesterol Transport",
+    "context": {
+      "en-US": "SR-BI works alongside ABCA1 and ABCG1 in reverse cholesterol transport, moving excess free cholesterol from peripheral cells and macrophages back toward the liver. Its modulation therefore affects atherosclerosis progression, and the transporter is a candidate target for raising HDL-mediated cholesterol clearance.",
+      "zh-TW": "SR-BI 與 ABCA1、ABCG1 共同參與 reverse cholesterol transport，將過量的遊離胆固醇由周邊細胞與巨噬細胞運送回肝臟。因此對其加以調控會影響 atherosclerosis 的進展，此運輸蛋白也是提升 HDL 介導胆固醇清除的候選標的。"
+    },
+    "confidence": 0.88,
+    "source_document": "SR-BI.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "44ff7ef00132",
+    "subject": "Oxidative Stress",
+    "predicate": "does_not_affect_expression_of",
+    "object": "SR-BI",
+    "context": {
+      "en-US": "Fe/ascorbate-induced oxidative stress leaves SR-BI expression unchanged, in contrast to ABCA1, LXR and PPAR, which are responsive to oxidative load. This insensitivity distinguishes the SR-BI efflux route from ABCA1-dependent cholesterol export in macrophage lipid handling under oxidative conditions.",
+      "zh-TW": "Fe/ascorbate 誘發的氧化壓力並不影響 SR-BI 的表現，與會對氧化負荷作出反應的 ABCA1、LXR 與 PPAR 形成對比。這種不敏感性使 SR-BI 的外流途徑在氧化條件下的巨噬細胞脂質處理中，與 ABCA1 依賴性的胆固醇輸出區別開來。"
+    },
+    "confidence": 0.85,
+    "source_document": "SR-BI.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "a8b4451cacdb",
+    "subject": "SREBP-1c",
+    "predicate": "regulates",
+    "object": "Lipid Synthesis",
+    "context": {
+      "en-US": "SREBP-1c is the master transcriptional regulator of de novo lipogenesis. Synthesized as an inactive precursor anchored to the endoplasmic reticulum, it is processed and released by S1P/S2P proteases after SCAP-mediated transport to the Golgi at low sterol, and the active N-terminal domain translocates to the nucleus to drive fatty acid and triglyceride biosynthesis.",
+      "zh-TW": "SREBP-1c 是 de novo lipogenesis（從新生脂質合成）的核心轉錄調節因子。它先以失活前驅物形式錨定於 endoplasmic reticulum，在低固醇時經 SCAP 運送至 Golgi apparatus 後由 S1P/S2P 蛋白酶切割，其活性 N 端區段轉位至細胞核，驅動脂肪酸與三酸甘油酯的生合成。"
+    },
+    "confidence": 0.95,
+    "source_document": "SREBP-1c.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "71bcb8d37935",
+    "subject": "SREBP-1c",
+    "predicate": "activates",
+    "object": "Fatty Acid Synthase",
+    "context": {
+      "en-US": "SREBP-1c transcriptionally activates the core lipogenic enzyme set, including fatty acid synthase which catalyzes palmitate synthesis, acetyl-CoA carboxylase (ACC1), which carries out the rate-limiting step, and ATP citrate lyase, which supplies cytosolic acetyl-CoA. This target-gene program is what converts nutrient and insulin signals into fat storage.",
+      "zh-TW": "SREBP-1c 以轉錄方式活化核心脂肪生成酵素群，包括催化棕櫚酸合成的 fatty acid synthase、執行速率限制步驟的 acetyl-CoA carboxylase（ACC1），以及供應細胞質 acetyl-CoA 的 ATP citrate lyase。正是這套標的基因程式把營養與 insulin 訊號轉化為脂肪儲存。"
+    },
+    "confidence": 0.92,
+    "source_document": "SREBP-1c.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "e90ea64d3e2c",
+    "subject": "SREBP-1c",
+    "predicate": "is_activated_by",
+    "object": "mTORC1",
+    "context": {
+      "en-US": "Insulin signaling through the Akt–mTORC1 axis activates SREBP-1c transcription and promotes its proteolytic processing, with S6K1-dependent signaling driving SREBP-1c-dependent lipid synthesis. This nutrient-sensing route is the main reason fed-state lipogenesis rises, and it is the same axis mTOR inhibition suppresses.",
+      "zh-TW": "經由 Akt–mTORC1 軸的 insulin 訊息傳遞會活化 SREBP-1c 的轉錄並促進其蛋白酶水解加工，其中由 S6K1 依賴的訊息傳遞驅動 SREBP-1c 依賴性的脂質合成。這條營養感知途徑是進食狀態下脂肪生成上升的主要原因，也是抑制 mTOR 所能阻斷的同一條軸。"
+    },
+    "confidence": 0.92,
+    "source_document": "SREBP-1c.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "83cb2e1c3f57",
+    "subject": "SREBP-1c",
+    "predicate": "is_suppressed_by",
+    "object": "AMPK",
+    "context": {
+      "en-US": "AMPK phosphorylates and suppresses SREBP-1c, and metformin acts through AMPK to exert the same brake on lipogenesis. Because SREBP-1c hyperactivation drives hepatic steatosis, insulin resistance and metabolic syndrome, the AMPK–SREBP-1c checkpoint is a mechanistic explanation for why caloric restriction and metformin lower hepatic fat.",
+      "zh-TW": "AMPK 會磷酸化並抑制 SREBP-1c，而 metformin 亦經由 AMPK 施加同樣的脂肪生成煞車。由於 SREBP-1c 的過度活化會驅動 hepatic steatosis、insulin resistance 與 metabolic syndrome，AMPK–SREBP-1c 這個檢查點即解釋了為何 caloric restriction 與 metformin 能降低肝脂肪。"
+    },
+    "confidence": 0.9,
+    "source_document": "SREBP-1c.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "e75171d39cce",
+    "subject": "SREBP-1c",
+    "predicate": "contributes_to",
+    "object": "Hepatic Steatosis",
+    "context": {
+      "en-US": "SREBP-1c overexpression in liver drives fat accumulation, and the isoform is the predominant SREBP form in liver and adipose tissue. Its hyperactivation therefore links lipogenic transcription directly to hepatic steatosis and the insulin-resistant metabolic syndrome, while caloric restriction alters hepatic lipid metabolism through this factor.",
+      "zh-TW": "SREBP-1c 在肝臟的過度表現會驅動脂肪堆積，而該異構型亦是肝臟與 adipose tissue 中主要的 SREBP 形式。因此其過度活化直接將脂肪生成轉錄與 hepatic steatosis 及 insulin resistance 相關的 metabolic syndrome 連結起來；caloric restriction 也透過此因子改變肝脂質代謝。"
+    },
+    "confidence": 0.9,
+    "source_document": "SREBP-1c.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "2855c7f4204c",
+    "subject": "SREBP2",
+    "predicate": "is_negatively_regulated_by",
+    "object": "SIRT6",
+    "context": {
+      "en-US": "SIRT6 restrains the lipogenic transcription factors SREBP1 and SREBP2 by multiple mechanisms, coupling sirtuin activity to control of lipogenesis and cholesterol synthesis. Loss of hepatic SIRT6 accordingly derepresses the lipogenic program, producing liver steatosis, reduced fatty acid oxidation and elevated lipogenic gene expression.",
+      "zh-TW": "SIRT6 以多種機制抑制脂肪生成轉錄因子 SREBP1 與 SREBP2，將 sirtuin 活性與脂肪生成及胆固醇合成的調控連結起來。因此肝臟 SIRT6 的喪失會解除對脂肪生成程式的抑制，造成肝脂肪變性、脂肪酸氧化下降以及脂肪生成基因表現升高。"
+    },
+    "confidence": 0.92,
+    "source_document": "SREBP2.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "b3a6a17ec428",
+    "subject": "SREBP2",
+    "predicate": "activates",
+    "object": "Cholesterol",
+    "context": {
+      "en-US": "SREBP2 is the membrane-bound bHLH-leucine zipper transcription factor controlling the cholesterol arm of lipid homeostasis; its name and function are the program it activates. It turns on genes of cholesterol biosynthesis and LDL-receptor-mediated uptake, is activated by SCAP when sterol levels are low, and is cleaved by S1P/S2P proteases to release the active N-terminal domain.",
+      "zh-TW": "SREBP2 是控制脂質恆定中胆固醇分支的膜結合型 bHLH-leucine zipper 轉錄因子；其名稱與功能即為它所活化的程式。它啟動膽固醇生合成與 LDL 受體媒介攝取的基因，在固醇濃度低時由 SCAP 活化，並由 S1P/S2P 蛋白酶切割釋出活性 N 端區段。"
+    },
+    "confidence": 0.9,
+    "source_document": "SREBP2.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "0615d3ed3d95",
+    "subject": "SIRT6",
+    "predicate": "negatively_regulates",
+    "object": "SREBP2",
+    "context": {
+      "en-US": "SIRT6 acts as a lipid-homeostasis brake by suppressing SREBP2, whose derepression in a SIRT6-deficient liver yields steatosis and reduced fatty acid oxidation. The SIRT6–SREBP2 relation is therefore a defined axis, and restoring or mimicking SIRT6 activity is a plausible route to lower hepatic cholesterol synthesis and lipogenesis.",
+      "zh-TW": "SIRT6 藉由抑制 SREBP2 而成為脂質恆定的煞車；在缺乏 SIRT6 的肝臟中，SREBP2 被解除抑制會導致肝脂肪變性與脂肪酸氧化下降。因此 SIRT6–SREBP2 是一條定義明確的軸，恢復或模擬 SIRT6 活性是降低肝臟膽固醇合成與脂肪生成的可行途徑。"
+    },
+    "confidence": 0.9,
+    "source_document": "SREBP2.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "836077aa5597",
+    "subject": "STAT6",
+    "predicate": "mediates",
+    "object": "IL-4",
+    "context": {
+      "en-US": "STAT6 is the principal downstream mediator of IL-4 and IL-13 receptor signaling and is activated exclusively by these two cytokines. IL-4 binding to a receptor complex containing IL-4Rα activates receptor-associated JAK1/JAK3 (type I) or JAK1/TYK2 (type II) kinases, which phosphorylate Tyr641 in the STAT6 transactivation domain, allowing STAT6 to dimerize via SH2–phosphotyrosine interactions and bind GAS elements in the nucleus.",
+      "zh-TW": "STAT6 是 IL-4 與 IL-13 受體訊息傳遞的主要下游介導者，且僅由此兩種細胞激素活化。IL-4 與含 IL-4Rα 的受體複合體結合後，會活化受體相關的 JAK1/JAK3（type I）或 JAK1/TYK2（type II）激酶，後者磷酸化 STAT6 轉錄活化區域的 Tyr641，使 STAT6 經由 SH2–磷酸化酪胺酸交互作用二聚化並在細胞核內結合 GAS 序列。"
+    },
+    "confidence": 0.95,
+    "source_document": "STAT6.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "eb655ae0b0b9",
+    "subject": "STAT6",
+    "predicate": "is_required_for",
+    "object": "Th2",
+    "context": {
+      "en-US": "STAT6 is required for Th2 lineage commitment: STAT6-deficient mice cannot generate Th2 cells, fail to produce IgE, and are resistant to allergic airway inflammation. Because STAT6 induces GATA3 expression, which then reinforces Th2 identity through an auto-regulatory loop, STAT6 is the upstream switch that establishes and amplifies the type 2 immune program.",
+      "zh-TW": "STAT6 對 Th2 譜系承諾是不可或缺的：STAT6 缺陷小鼠無法產生 Th2 細胞、無法生成 IgE，且對過敏性氣道發炎具有抵抗力。由於 STAT6 可誘導 GATA3 表現，而 GATA3 又透過自我調節迴路強化 Th2 身分，STAT6 便是建立並放大 type 2 免疫程式的上游總開關。"
+    },
+    "confidence": 0.94,
+    "source_document": "STAT6.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "8048740d2ead",
+    "subject": "STAT6",
+    "predicate": "enables",
+    "object": "IgE",
+    "context": {
+      "en-US": "STAT6 directly activates germline Cε transcription in B cells, enabling immunoglobulin class switching to IgE, and is the molecular basis of IgE-mediated allergic responses. It also induces CD23, the low-affinity IgE receptor on B cells. This is why selective STAT6 inhibitors are being developed for allergic and fibrotic disease.",
+      "zh-TW": "STAT6 可直接活化 B 細胞的生殖系 Cε 轉錄，使免疫球蛋白進行轉換至 IgE，並構成 IgE 媒介過敏反應的分子基礎；它也會誘導 B 細胞上的低親和力 IgE 受體 CD23。這正是選擇性 STAT6 抑制劑被開發用於過敏與纖維化疾病的原因。"
+    },
+    "confidence": 0.92,
+    "source_document": "STAT6.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "535067794401",
+    "subject": "STAT6",
+    "predicate": "drives",
+    "object": "Macrophages",
+    "context": {
+      "en-US": "STAT6 drives alternative (M2) macrophage activation in response to IL-4 and IL-13, inducing genes associated with tissue repair, fibrosis and anti-helminth defense such as Arg1, Retnla and Chil3, with PPARγ as co-activator of the M2 program. In tumors the same activity promotes immunosuppressive tumor-associated macrophage polarization.",
+      "zh-TW": "STAT6 會在 IL-4 與 IL-13 作用下驅動替代性（M2）巨噬細胞活化，誘導 Arg1、Retnla、Chil3 等與組織修復、纖維化及抗蠕蟲防禦相關的基因，並由 PPARγ 作為 M2 程式的輔活化因子。在腫瘤中，同一活性會促成具免疫抑制性的腫瘤相關巨噬細胞極化。"
+    },
+    "confidence": 0.9,
+    "source_document": "STAT6.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "eac0feaa34bb",
+    "subject": "STEAP3",
+    "predicate": "reduces",
+    "object": "Iron",
+    "context": {
+      "en-US": "STEAP3 (SIKE) is the endosomal ferrireductase that uses electrons from NADPH via cytochrome b5 reductase to convert Fe3+ to Fe2+ inside the recycling endosome. This reduction is the gatekeeper step of the transferrin-to-labile-iron delivery chain: DMT1 transports Fe2+, not Fe3+, so without STEAP3 the iron arriving by transferrin receptor 1 cannot enter the cytosol.",
+      "zh-TW": "STEAP3（SIKE）是內體的鐵還原酶，利用經 cytochrome b5 reductase 傳遞的 NADPH 電子，在回收內體中將 Fe3+ 還原為 Fe2+。此還原步驟是 transferrin 至 labile iron 運送鏈的關卡：由於 DMT1 運送的是 Fe2+ 而非 Fe3+，若缺乏 STEAP3，經 transferrin receptor 1 進入的鐵便無法進入細胞質。"
+    },
+    "confidence": 0.94,
+    "source_document": "STEAP3.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "98144d97d618",
+    "subject": "STEAP3",
+    "predicate": "enables_transport_by",
+    "object": "DMT1",
+    "context": {
+      "en-US": "STEAP3 and DMT1 are consecutive steps in cytosolic iron delivery: STEAP3 reduces endosomal Fe3+ to Fe2+, and DMT1 then exports that Fe2+ into the cytosol, enlarging the labile iron pool. STEAP3 is therefore an upstream iron-activation node whose output DMT1 translocates, and STEAP3 deficiency causes iron-refractory anemia.",
+      "zh-TW": "STEAP3 與 DMT1 是細胞鐵運送的連續兩步：STEAP3 將內體中的 Fe3+ 還原為 Fe2+，隨後 DMT1 將該 Fe2+ 輸出至細胞質，使 labile iron pool 擴大。因此 STEAP3 是上游的鐵活化節點，其產物由 DMT1 轉運；STEAP3 缺乏會造成鐵反應性貧血。"
+    },
+    "confidence": 0.92,
+    "source_document": "STEAP3.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "d8fe9c4244d3",
+    "subject": "STEAP3",
+    "predicate": "promotes",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "By delivering ferrous iron that powers the Fenton reaction, STEAP3 promotes ferroptosis: the iron generates hydroxyl radicals that peroxidize PUFA-phospholipids, and when GPX4 and FSP1 defenses fail the cell dies. Consequently STEAP3 inhibition could protect against iron-dependent injury such as ischemia-reperfusion injury, while STEAP3 promotion could sensitize iron-loaded tumors.",
+      "zh-TW": "透過提供驅動 Fenton reaction 的亞鐵，STEAP3 促進 ferroptosis：該鐵產生羥自由基並過氧化 PUFA-phospholipids，當 GPX4 與 FSP1 防禦失效時細胞即死亡。因此抑制 STEAP3 可保護免於缺血再灌注傷害等鐵依賴性損傷，而促進 STEAP3 則可使鐵負荷的腫瘤細胞更敏感。"
+    },
+    "confidence": 0.9,
+    "source_document": "STEAP3.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "ccbf8add0382",
+    "subject": "Transferrin receptor 1",
+    "predicate": "delivers",
+    "object": "Iron",
+    "context": {
+      "en-US": "Transferrin receptor 1 brings ferric iron into the endosome as part of the transferrin cycle, delivering the substrate that STEAP3 then reduces and DMT1 then exports. It is the entry point of the chain that enlarges the labile iron pool and thereby sets the threshold for Fenton-driven lipid peroxidation and ferroptosis.",
+      "zh-TW": "Transferrin receptor 1 在 transferrin cycle 中將三價鐵帶入內體，提供 STEAP3 還原、DMT1 輸出的受質。它是擴大 labile iron pool 這條運送鏈的入口，因而決定了 Fenton 驅動的脂質過氧化與 ferroptosis 的閾值。"
+    },
+    "confidence": 0.9,
+    "source_document": "STEAP3.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "9a47ada6e9ab",
+    "subject": "STING Inhibitors",
+    "predicate": "inhibit",
+    "object": "STING",
+    "context": {
+      "en-US": "STING inhibitors (H151, SN-011, amlexanox, c-176) are experimental small molecules that block signaling downstream of the cGAS-STING pathway by interfering with STING activation, trafficking, or downstream kinase recruitment. Targeting STING itself interrupts both canonical cGAS-dependent and noncanonical, cGAS-independent activation such as that triggered by NPC1 deficiency or C9orf72 loss.",
+      "zh-TW": "STING inhibitors（H151、SN-011、amlexanox、c-176）是實驗性小分子，透過干擾 STING 的活化、運輸或下游激酶招募，阻斷 cGAS-STING Pathway 下游的訊息傳遞。由於直接針對 STING，因此可同時阻斷典型的 cGAS 依賴性與非典型 cGAS 非依賴性活化，例如由 NPC1 缺乏或 C9orf72 喪失所觸發者。"
+    },
+    "confidence": 0.95,
+    "source_document": "STING Inhibitors.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "98824d12dff7",
+    "subject": "STING Inhibitors",
+    "predicate": "reduces",
+    "object": "Type I Interferon",
+    "context": {
+      "en-US": "STING inhibitors suppress type I interferon production and downstream ISG expression, which is the core pharmacologic readout of pathway blockade. This dampening of NF-κB-driven cytokines and glial activation also lowers neuroinflammation across proteinopathies, motivating their investigation in neurodegenerative and inflammatory conditions.",
+      "zh-TW": "STING inhibitors 會抑制 type I interferon 的產生與下游 ISG 表現，這是評估路徑阻斷的核心藥理學讀值。這種對 NF-κB 驅動性細胞激素與膠細胞活化的抑制，同時可降低各類蛋白病變中的 neuroinflammation，也是其被研究於神經退化與發炎疾病的原因。"
+    },
+    "confidence": 0.9,
+    "source_document": "STING Inhibitors.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "4cd22bf4ceab",
+    "subject": "STING Inhibitors",
+    "predicate": "rescues",
+    "object": "TDP-43",
+    "context": {
+      "en-US": "In TDP-43 models, STING inhibition reduces motor neuron death, and in iPSC-derived motor neurons it rescues TDP-43-mediated toxicity. The rescue relationship between STING blockade and TDP-43 pathology is one of the strongest arguments for these compounds as neuroprotective agents, and it is balanced by the caution that genetic STING deficiency also accelerates cognitive and motor decline.",
+      "zh-TW": "在 TDP-43 模型中，抑制 STING 可減少運動神經元死亡；在 iPSC 衍生的運動神經元中，則可挽救 TDP-43 媒介的毒性。STING 阻斷與 TDP-43 病變之間的挽救關係，是支持這些化合物作為神經保護劑的最強論據之一；但也須謹慎，因為 STING 遺傳性缺乏反而會加速認知與運動功能衰退。"
+    },
+    "confidence": 0.88,
+    "source_document": "STING Inhibitors.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "a506e106a3fc",
+    "subject": "STING",
+    "predicate": "protects",
+    "object": "Blood-Brain Barrier",
+    "context": {
+      "en-US": "Microglial STING helps preserve blood-brain barrier integrity during aging, so STING inhibition is context dependent: some inhibitors may compromise this barrier-protective function even as they reduce parenchymal inflammation. This protective role is the reason cell-type-selective delivery is needed if STING inhibitors are to be used in neurodegeneration.",
+      "zh-TW": "微膠細胞的 STING 在老化過程中有助於維持 blood-brain barrier 的完整性，因此 STING 抑制的效應與情境相關：某些抑制劑可能在降低實質內發炎的同時，損害這項保護屏障的功能。正是這項保護性角色，使得若要在神經退化中使用 STING inhibitors，必須採取細胞類型選擇性的遞送方式。"
+    },
+    "confidence": 0.85,
+    "source_document": "STING Inhibitors.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "a10716ef3e2f",
+    "subject": "SUV39H1",
+    "predicate": "deposits",
+    "object": "H3K9me3",
+    "context": {
+      "en-US": "SUV39H1 (KMT1A) is the founding member of the SET-domain H3K9 methyltransferase family. Its catalytic SET domain transfers methyl groups from SAM to histone H3 lysine 9, generating H3K9me3, the canonical heterochromatin mark that recruits HP1alpha to nucleate facultative and constitutive heterochromatin and maintain transcriptional repression.",
+      "zh-TW": "SUV39H1（KMT1A）是 SET domain H3K9 甲基轉移酶家族的奠基成員。其催化性 SET domain 將 SAM 的甲基轉移至組蛋白 H3 的第 9 位離胺酸，生成 H3K9me3；此為經典的異染色質標記，可招募 HP1alpha 成核兼性與構成性異染色質並維持轉錄抑制。"
+    },
+    "confidence": 0.95,
+    "source_document": "SUV39H1.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "8cb150d15f6e",
+    "subject": "SUV39H1",
+    "predicate": "is_opposed_by",
+    "object": "KDM4",
+    "context": {
+      "en-US": "In senescent cells SUV39H1 protein decreases while the opposing H3K9 demethylase KDM4 increases, so the SUV39H1-down / KDM4-up balance tips repressive heterochromatin toward an open, transcriptionally competent state. The H3K9 methylation axis governed by this antagonism mirrors the H3K27 axis (EZH2 versus JMJD3) as a coordinated relaxation of repressive marks during senescence.",
+      "zh-TW": "在衰老細胞中，SUV39H1 蛋白下降而相對的 H3K9 去甲基化酶 KDM4 上升，因此 SUV39H1↓／KDM4↑ 的平衡將抑制性的異染色質推向開放且具轉錄能力的狀態。由這一對抗所主導的 H3K9 甲基化軸，與 H3K27 軸（EZH2 對 JMJD3）平行，都是衰老期間抑制性標記的協同鬆弛。"
+    },
+    "confidence": 0.93,
+    "source_document": "SUV39H1.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "2218cff5b0a9",
+    "subject": "SUV39H1",
+    "predicate": "restrains",
+    "object": "SASP",
+    "context": {
+      "en-US": "Loss of H3K9me2/3 around the major SASP genes IL-6 and IL-8 correlates with their induction, and diminished SUV39H1 lowers H3K9 methylation at these loci, so SUV39H1 restrains SASP transcription. Loss of H3K9 methylation also permits enhancer–promoter contacts and 3D-genome reorganization that drive SASP, making restoration of SUV39H1 a candidate senomorphic strategy.",
+      "zh-TW": "主要 SASP 基因 IL-6 與 IL-8 周圍 H3K9me2/3 的流失與其誘導相關，而 SUV39H1 減少會降低這些位點的 H3K9 甲基化，因此 SUV39H1 抑制 SASP 的轉錄。H3K9 甲基化的流失還允許促進子–增強子接觸與驅動 SASP 的 3D 基因組重組，使恢復 SUV39H1 成為候選的 senomorphic 策略。"
+    },
+    "confidence": 0.9,
+    "source_document": "SUV39H1.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "48197e3d5fae",
+    "subject": "H3K9me3",
+    "predicate": "recruits",
+    "object": "HP1alpha",
+    "context": {
+      "en-US": "H3K9me3 is read by chromodomain proteins HP1alpha/beta/gamma, which drive chromatin compaction and spreading of repressed domains. HP1 then helps recruit SUV39H1 to methylate neighboring nucleosomes, creating a positive-feedback loop that maintains H3K9 methylation; when senescence reduces the mark, this self-reinforcing repression is lost.",
+      "zh-TW": "H3K9me3 由帶有 chromodomain 的蛋白 HP1alpha/beta/gamma 辨識，後者驅動染色質壓縮與抑制區域的擴散。HP1 再協助招募 SUV39H1 甲基化鄰近的核小體，形成維持 H3K9 甲基化的正回饋迴路；當衰老使此標記減少時，這個自我強化的抑制便告瓦解。"
+    },
+    "confidence": 0.9,
+    "source_document": "SUV39H1.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "1ba112e0c607",
+    "subject": "SWI-SNF Complex",
+    "predicate": "remodels",
+    "object": "Chromatin",
+    "context": {
+      "en-US": "The SWI-SNF complex (called BAF in mammals) is an ATP-dependent chromatin-remodeling machine with catalytic subunits SNF2H and SNF2L that slides, evicts or restructures nucleosomes to regulate DNA accessibility and transcription. Because it controls nucleosome positioning, its coordination with cGAS may also influence DNA damage repair, replication and genome stability.",
+      "zh-TW": "SWI-SNF Complex（在哺乳類稱為 BAF）是 ATP 依賴性的染色質重塑機器，其催化次單元 SNF2H 與 SNF2L 可滑動、驅逐或重塑核小體，以調控 DNA 可及性與轉錄。由於它控制核小體定位，其與 cGAS 的協同作用也可能影響 DNA damage 修復、複製與基因體穩定性。"
+    },
+    "confidence": 0.93,
+    "source_document": "SWI-SNF Complex.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "0bdcd7e1a324",
+    "subject": "SWI-SNF Complex",
+    "predicate": "affects",
+    "object": "Genomic Instability",
+    "context": {
+      "en-US": "Because SWI-SNF controls nucleosome positioning, its coordination with cGAS may influence DNA repair, replication and genome stability, processes already known to be shaped by nuclear cGAS through PARP1 interactions. Dysregulation of this cGAS–SWI/SNF axis could therefore contribute to the chromatin stress and neuroinflammation observed in neurodegeneration.",
+      "zh-TW": "由於 SWI-SNF 控制核小體定位，其與 cGAS 的協同作用可能影響 DNA 修復、複製與基因體穩定性；這些過程已知會因核內 cGAS 經由與 PARP1 的交互作用而改變。因此 cGAS–SWI/SNF 軸的失調可能促成神經退化中觀察到的染色質壓力與 neuroinflammation。"
+    },
+    "confidence": 0.82,
+    "source_document": "SWI-SNF Complex.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "58af802a2834",
+    "subject": "Saposin-D",
+    "predicate": "delivers",
+    "object": "Ceramide",
+    "context": {
+      "en-US": "Saposin-D (SapD) is a small lysosomal saposin that extracts ceramide from the lysosomal membrane and presents it to the active site of acid ceramidase. In its open V-shaped conformation SapD binds and solubilizes the membrane ceramide, solving the substrate-access problem that the crystal structure of acid ceramidase revealed as a hydrophobic membrane-attachment surface around the substrate channel.",
+      "zh-TW": "Saposin-D（SapD）是溶酶體中的小型 saposin，能自溶酶體膜萃取 ceramide 並呈現給 acid ceramidase 的活性位點。在其開放的 V 形構形下，SapD 會結合並溶解膜上的 ceramide，解決 acid ceramidase 晶體結構所揭示的受質可及性問題——其受質通道周圍具有疏水性的膜附著表面。"
+    },
+    "confidence": 0.93,
+    "source_document": "Saposin-D.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "38df70dc6805",
+    "subject": "Saposin-D",
+    "predicate": "enables",
+    "object": "Acid ceramidase",
+    "context": {
+      "en-US": "Saposin-D acts as a non-catalytic accessory that enables acid ceramidase to hydrolyze ceramide in the lysosome, splitting it into sphingosine and free fatty acids. Because the catalytic rate depends on substrate delivery from the membrane, SapD and acid ceramidase are functionally coupled: neither SapD's presentation role nor the enzyme's hydrolysis can be understood apart from the other.",
+      "zh-TW": "Saposin-D 是不具催化活性的輔助因子，使 acid ceramidase 能在溶酶體中水解 ceramide，將其分解為 spingosine 與游離脂肪酸。由於催化速率取決於自膜上輸送受質的能力，SapD 與 acid ceramidase 在功能上相互耦聯：SapD 的呈現功能與酵素的水解作用無法分開理解。"
+    },
+    "confidence": 0.92,
+    "source_document": "Saposin-D.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "924fa7dafb3d",
+    "subject": "Satellite Cell",
+    "predicate": "is_a_type_of",
+    "object": "Muscle Stem Cell",
+    "context": {
+      "en-US": "Satellite cells are the tissue-resident muscle stem cells of skeletal muscle, located between the basal lamina and the sarcolemma of mature muscle fibers. They are essential for postnatal muscle growth, regeneration after injury, and maintenance of muscle mass throughout life, and they are held in a quiescent G0 state marked by Pax7 until activation.",
+      "zh-TW": "Satellite cell 是 skeletal muscle 的組織常駐 muscle stem cell，位於成熟肌纖維的 basal lamina 與 sarcolemma 之間。它們對出生後的肌肉生長、受傷後的再生，以及終生的肌肉量維持不可或缺，並在以 Pax7 為標記的 G0 靜止狀態中維持，直到被活化為止。"
+    },
+    "confidence": 0.95,
+    "source_document": "Satellite Cell.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "bd6af7f09408",
+    "subject": "Satellite Cell",
+    "predicate": "declines_with",
+    "object": "Aging",
+    "context": {
+      "en-US": "Satellite cell number and function decline with age, contributing to sarcopenia. The decline involves senescence, reduced autophagy, mitochondrial dysfunction and impaired Notch signaling, and both exercise and caloric restriction partially preserve satellite cell function in aged muscle — making this stem cell population a measurable target of geroprotective intervention.",
+      "zh-TW": "Satellite cell 的數量與功能隨年齡下降，並促成 sarcopenia。此衰退涉及細胞衰老、autophagy 減少、粒線體功能障礙與 Notch signaling 受損；而 exercise 與 caloric restriction 可在老化肌肉中部分維持 satellite cell 功能，使這個幹細胞群成為可量測的 geroprotective 介入標的。"
+    },
+    "confidence": 0.9,
+    "source_document": "Satellite Cell.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "dabeb5c528e1",
+    "subject": "HGF",
+    "predicate": "activates",
+    "object": "Satellite Cell",
+    "context": {
+      "en-US": "Upon muscle injury or exercise, satellite cells exit quiescence through a nitric oxide–HGF–c-Met signaling axis, then proliferate as myogenic precursor cells and differentiate into myoblasts that fuse to repair or form new myofibers, while a subset self-renews. HGF is thus the immediate trigger that couples an injury or exercise signal to the myogenic transcription factor cascade beginning with Pax7 and MyoD.",
+      "zh-TW": "在肌肉受傷或運動後，satellite cell 經由 nitric oxide–HGF–c-Met 訊息軸退出靜止狀態，接著以肌肉前驅細胞形式增殖並分化為 myoblast，融合以修復或形成新的肌纖維，其中一部分則自我更新。因此 HGF 是將損傷或運動訊號與由 Pax7、MyoD 起始的肌肉轉錄因子級聯直接連結的觸發因子。"
+    },
+    "confidence": 0.9,
+    "source_document": "Satellite Cell.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "977b71d64241",
+    "subject": "Val158Met",
+    "predicate": "is_associated_with",
+    "object": "Schizophrenia",
+    "context": {
+      "en-US": "The COMT Val158Met SNP has been extensively studied in schizophrenia. The fast COMT (Val/Val) genotype is in some populations associated with a slightly increased schizophrenia risk and may predict poorer response to certain antipsychotic medications, thought to reflect lower dopamine levels in the prefrontal cortex because the high-activity valine variant degrades catecholamines more rapidly.",
+      "zh-TW": "COMT 的 Val158Met SNP 已被廣泛研究於 schizophrenia。高活性的 COMT（Val/Val）基因型在某些族群中與 schizophrenia 風險略升有關，並可能預測對某些抗精神病藥物反應較差；此現象被認為與 prefrontal cortex 中 dopamine 濃度較低有關，因高活性的 valine 變異會更快速地分解兒茶酚胺。"
+    },
+    "confidence": 0.85,
+    "source_document": "Schizophrenia.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "a50aaf0aadd6",
+    "subject": "Schizophrenia",
+    "predicate": "is_associated_with",
+    "object": "Induced Pluripotent Stem Cells",
+    "context": {
+      "en-US": "Induced pluripotent stem cells generated from the peripheral blood mononuclear cells of schizophrenia patients exhibit higher and more severe inflammatory responses than normal iPSCs, suggesting that immune activation and neuroinflammation contribute to the etiology of the disorder. Patient-derived iPSC lines thus provide a functional handle on the inflammatory component of schizophrenia.",
+      "zh-TW": "由 schizophrenia 患者周邊血單核細胞生成的 induced pluripotent stem cells，相較正常 iPSC 呈現更高且更嚴重的發炎反應，顯示免疫活化與神經發炎可能參與此疾病的病因。因此患者來源的 iPSC 株提供了研究 schizophrenia 發炎成分的功能性切入點。"
+    },
+    "confidence": 0.85,
+    "source_document": "Schizophrenia.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "c30328660026",
+    "subject": "Adrenochrome",
+    "predicate": "is_related_to",
+    "object": "Schizophrenia",
+    "context": {
+      "en-US": "Schizophrenia has been linked to adrenochrome and catecholamine metabolism: one hypothesis holds that an imbalance in the oxidation of epinephrine into adrenochrome contributes to the etiology of the disorder. This places adrenochrome, a quinone product of catecholamine autoxidation, at the intersection of the dopamine and redox hypotheses of schizophrenia.",
+      "zh-TW": "Schizophrenia 與 adrenochrome 及兒茶酚胺代謝有關：其中一個假說認為，epinephrine 氧化成 adrenochrome 的失衡可能促成此疾病的病因。這使 adrenochrome——兒茶酚胺自體氧化的醌類產物——處於 schizophrenia 之 dopamine 假說與氧化還原假說的交會點。"
+    },
+    "confidence": 0.7,
+    "source_document": "Schizophrenia.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "37917b5ac41a",
+    "subject": "Scramblase",
+    "predicate": "drives",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "In eryptosis, Ca2+ influx activates calcium-activated scramblases such as TMEM16F (ANO6) and PLSCR while inhibiting flippases, collapsing the resting phosphatidylserine asymmetry within minutes. The resulting externalization of phosphatidylserine is the Annexin V-positive eat-me signal that marks shrunken erythrocytes for splenic clearance, and it is coupled to calpain activation and cell shrinkage.",
+      "zh-TW": "在 eryptosis 中，Ca2+ 內流會活化 TMEM16F（ANO6）與 PLSCR 等鈣活化的 scramblase，同時抑制 flippase，使靜止時的 phosphatidylserine 不對稱性在數分鐘內崩解。隨後的 phosphatidylserine 外翻即為 Annexin V 陽性的 eat-me 訊號，將縮小的紅血球標記以供脾臟清除，並伴隨 calpain 活化與細胞縮小。"
+    },
+    "confidence": 0.93,
+    "source_document": "Scramblase.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "646160ba7aa3",
+    "subject": "Scramblase",
+    "predicate": "externalizes",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "The same phosphatidylserine externalization logic operates in apoptosis, where caspase-cleaved XKR-family scramblases perform the analogous role to scramblases in eryptosis. Scramblase activity therefore sits at the junction of regulated death, coagulation (PS-positive procoagulant surfaces) and clearance biology, with Annexin V binding as the standard readout of its output.",
+      "zh-TW": "同樣的 phosphatidylserine 外翻邏輯也運作於 apoptosis：由 caspase 切割的 XKR 家族 scramblase 執行與 eryptosis 中 scramblase 對等的角色。因此 scramblase 活性位於調控性細胞死亡、凝血（PS 陽性的促凝表面）與清除生物學的交界處，而 Annexin V 的結合即為其輸出的標準讀值。"
+    },
+    "confidence": 0.9,
+    "source_document": "Scramblase.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "30308936cd9f",
+    "subject": "Calcium Signaling",
+    "predicate": "activates",
+    "object": "Scramblase",
+    "context": {
+      "en-US": "Elevated cytosolic calcium is the activating signal for scramblases: Ca2+ flips the membrane asymmetry balance — scramblase on, flippase off — and the activation is ATP-independent and bidirectional. Thus calcium signaling is the upstream trigger that scramblase translates into the eat-me signal read out by Annexin V.",
+      "zh-TW": "細胞質鈣濃度升高是 scramblase 的活化訊號：Ca2+ 會翻轉膜不對稱性的平衡——scramblase 開啟、flippase 關閉——且此活化不依賴 ATP 且為雙向性。因此 calcium signaling 是上游觸發因子，而 scramblase 將其轉譯為由 Annexin V 讀出的 eat-me 訊號。"
+    },
+    "confidence": 0.9,
+    "source_document": "Scramblase.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "e0f3bc185515",
+    "subject": "Flippase",
+    "predicate": "is_opposed_by",
+    "object": "Scramblase",
+    "context": {
+      "en-US": "Flippases maintain the resting asymmetry with phosphatidylserine inward, and scramblases reverse it. Scramblase and flippase are therefore functionally opposed executors of the same membrane decision: rising calcium switches scramblase on and flippase off, collapsing phosphatidylserine asymmetry within minutes to expose the eat-me signal.",
+      "zh-TW": "Flippase 藉由將 phosphatidylserine 維持在內側來維持靜止時的不對稱性，而 scramblase 則將其反轉。因此 scramblase 與 flippase 是同一個膜決策的功能性對立執行者：鈣濃度上升會開啟 scramblase 並關閉 flippase，在數分鐘內使 phosphatidylserine 不對稱性崩解而暴露 eat-me 訊號。"
+    },
+    "confidence": 0.88,
+    "source_document": "Scramblase.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "f8c5174c9490",
+    "subject": "Selective Androgen Receptor Modulators",
+    "predicate": "activate",
+    "object": "Androgen Receptor",
+    "context": {
+      "en-US": "Selective androgen receptor modulators are non-steroidal ligands that bind the ligand-binding domain of the androgen receptor and recruit coactivators driving transcription of anabolic genes, but do so in a tissue-selective manner. Anabolic effects in skeletal muscle and bone are retained while activity in androgenic tissues (prostate, skin, hair) is weaker, which accounts for the improved side-effect profile versus exogenous testosterone.",
+      "zh-TW": "Selective Androgen Receptor Modulators 是非類固醇配體，可結合 androgen receptor 的配體結合區並招募輔活化因子以驅動合成代謝基因的轉錄，但以組織選擇性的方式進行。skeletal muscle 與骨骼的合成代謝效應被保留，而在雄性激素組織（前列腺、皮膚、毛髮）中的作用較弱，這正是其相較於外源性 testosterone 較佳副作用特徵的原因。"
+    },
+    "confidence": 0.93,
+    "source_document": "Selective Androgen Receptor Modulators.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "7479ef3d0ece",
+    "subject": "Selective Androgen Receptor Modulators",
+    "predicate": "activates",
+    "object": "mTORC1",
+    "context": {
+      "en-US": "In skeletal muscle, selective androgen receptor modulators promote protein synthesis via mTORC1 and translation pathways, and oppose muscle atrophy and cachexia. This makes the SARM–mTORC1 link the anabolic node that connects androgen receptor activation to actual muscle protein accretion rather than merely to receptor signaling.",
+      "zh-TW": "在 skeletal muscle 中，selective androgen receptor modulators 經由 mTORC1 與轉譯路徑促進蛋白質合成，並對抗 muscle atrophy 與 cachexia。這使 SARM–mTORC1 連結成為把 androgen receptor 活化與實際肌肉蛋白累積（而非僅受體訊號）相連的合成代謝節點。"
+    },
+    "confidence": 0.85,
+    "source_document": "Selective Androgen Receptor Modulators.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "8a01493d4403",
+    "subject": "Selective Androgen Receptor Modulators",
+    "predicate": "is_investigated_for",
+    "object": "Sarcopenia",
+    "context": {
+      "en-US": "Selective androgen receptor modulators are studied for sarcopenia, muscular dystrophy, cancer cachexia and osteoporosis-related wasting, with enobosarm (ostarine), andarine and ligandrol among the agents in clinical trials and none broadly approved for these indications. They are distinct from myostatin inhibitors though they share anabolic intent, and off-label use raises lipid, HPG-axis, hepatotoxicity and cardiovascular safety concerns.",
+      "zh-TW": "Selective Androgen Receptor Modulators 被研究用於 sarcopenia、肌營養不良、癌症 cachexia 與骨質疏鬆相關的消耗，臨床試驗中的藥物包括 enobosarm（ostarine）、andarine 與 ligandrol，但皆未獲廣泛核准用於這些適應症。它們與 myostatin 抑制劑不同但同具合成代謝意圖，而仿冒使用則帶來脂質、HPG 軸、肝毒性與心血管安全性的疑慮。"
+    },
+    "confidence": 0.88,
+    "source_document": "Selective Androgen Receptor Modulators.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "071323f036fe",
+    "subject": "Selective Serotonin Reuptake Inhibitors",
+    "predicate": "inhibits",
+    "object": "Serotonin",
+    "context": {
+      "en-US": "Selective serotonin reuptake inhibitors block the presynaptic serotonin transporter (SERT), increasing synaptic serotonin availability and prolonging serotonergic neurotransmission at serotonin receptors. Because the therapeutic antidepressant effect emerges over weeks and is attributed to downstream neuroplastic and receptor-sensitivity changes rather than the acute rise in synaptic serotonin, transporter blockade is the initiating step of a slower adaptive process.",
+      "zh-TW": "Selective Serotonin Reuptake Inhibitors 阻斷突觸前的 serotonin transporter（SERT），提高突觸內 serotonin 的可用性並延長其在 serotonin receptor 上的血清素神經傳遞。由於治療性的抗憂鬱效果需數週才會出現，且被歸因於下游的神經可塑性與受體敏感性變化，而非突觸 serotonin 的急性上升，因此轉運體阻斷只是這個較慢適應過程的起始步驟。"
+    },
+    "confidence": 0.95,
+    "source_document": "Selective Serotonin Reuptake Inhibitors.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "d111e504305c",
+    "subject": "Selective Serotonin Reuptake Inhibitors",
+    "predicate": "increases_risk_of",
+    "object": "Serotonin Syndrome",
+    "context": {
+      "en-US": "Because SSRIs raise synaptic serotonin, combining them with a monoamine oxidase inhibitor can cause serotonin syndrome, a potentially life-threatening syndrome of hyperthermia, clonus, autonomic instability and altered mental status. A washout period is required when switching between classes, since the two mechanisms both increase serotonergic tone.",
+      "zh-TW": "由於 SSRI 會提高突觸內 serotonin，將其與 monoamine oxidase inhibitor 併用可能造成 serotonin syndrome——一種高體溫、陣攣、自主神經不穩定與意識狀態改變的潛在致命症候群。由於兩種機制都會提高血清素張力，因此在藥物類別間轉換時必須留出洗脫期。"
+    },
+    "confidence": 0.93,
+    "source_document": "Selective Serotonin Reuptake Inhibitors.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "96d835cf4f93",
+    "subject": "Methylene blue",
+    "predicate": "is_contraindicated_with",
+    "object": "Selective Serotonin Reuptake Inhibitors",
+    "context": {
+      "en-US": "Methylene blue possesses MAO-A inhibitory activity at the doses used clinically, so concurrent use with SSRIs (and SNRIs) is contraindicated and can precipitate serotonin syndrome. Because the contraindication arises from the MAO-A inhibition rather than any direct serotonergic action, avoidance or a strict washout is required even at therapeutic doses.",
+      "zh-TW": "Methylene blue 在臨床使用劑量下具有 MAO-A 抑制活性，因此與 SSRI（以及 SNRI）併用屬禁忌，可能誘發 serotonin syndrome。由於此禁忌源自 MAO-A 抑制而非任何直接的血清素作用，即使在治療劑量下也必須避免併用或嚴格洗脫。"
+    },
+    "confidence": 0.9,
+    "source_document": "Selective Serotonin Reuptake Inhibitors.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "f2afec55c3da",
+    "subject": "Selenium",
+    "predicate": "is_incorporated_as",
+    "object": "Selenocysteine",
+    "context": {
+      "en-US": "Selenium (Se) is an essential trace element incorporated into selenoproteins as the 21st amino acid selenocysteine (Sec, U). In Sec the selenium atom confers unique redox properties: its selenol pKa of about 5.2 means it is ionized at physiological pH, making the selenolate a far stronger nucleophile than the cysteine thiolate and giving selenium-dependent enzymes catalytic rates 100- to 1,000-fold higher than cysteine analogs with resistance to irreversible overoxidation.",
+      "zh-TW": "Selenium（Se）是必需微量元素，會以第 21 種胺基酸 selenocysteine（Sec，U）的形式被納入 selenoprotein。在 Sec 中硒原子賦予其獨特的氧化還原性質：其 selenol 的 pKa 約為 5.2，在生理 pH 下已解離，使 selenolate 成為比 cysteine thiolate 強得多的親核體，並使含硒酵素的催化速率比半胱胺酸類似物高 100 至 1,000 倍，且能抵抗不可逆的過氧化。"
+    },
+    "confidence": 0.95,
+    "source_document": "Selenium.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "5502402c0227",
+    "subject": "Selenium",
+    "predicate": "is_required_for",
+    "object": "Glutathione Peroxidase",
+    "context": {
+      "en-US": "Selenium deficiency impairs glutathione peroxidase and thioredoxin reductase activity, raising oxidative stress; endemic deficiency in selenium-poor regions of China causes Keshan disease (cardiomyopathy) and Kashin-Beck disease (osteoarthropathy). Because the selenoproteome comprises about 25 proteins including GPx, TXNRD, deiodinases and selenoprotein P, dietary selenium is the upstream nutrient that sets the capacity of the whole antioxidant network.",
+      "zh-TW": "Selenium 缺乏會使 glutathione peroxidase 與 thioredoxin reductase 活性受損，導致氧化壓力上升；在中國缺硒地區的地方性缺乏會造成 Keshan disease（心肌病變）與 Kashin-Beck disease（骨關節病）。由於 selenoproteome 約含 25 種蛋白質，包括 GPx、TXNRD、deiodinase 與 selenoprotein P，飲食中的 selenium 正是決定整個抗氧化網路容量的上游營養素。"
+    },
+    "confidence": 0.93,
+    "source_document": "Selenium.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "d04067e7b189",
+    "subject": "Selenium",
+    "predicate": "is_transported_by",
+    "object": "Selenoprotein P",
+    "context": {
+      "en-US": "Selenium is carried from the liver to peripheral tissues largely on selenoprotein P (SELENOP), a selenium-rich extracellular glycoprotein holding up to 10 selenocysteine residues in humans. Because SELENOP expression is itself selenoprotein-dependent, selenium intake and selenoprotein status form a feedback loop that prioritizes essential selenoproteins when supply is low.",
+      "zh-TW": "Selenium 主要藉由 selenoprotein P（SELENOP）由肝臟運送至周邊組織；這是一種富含硒的細胞外醣蛋白，在人類帶有最多 10 個 selenocysteine 殘基。由於 SELENOP 本身的表現也是 selenoprotein 依賴的，硒攝取量與 selenoprotein 狀態形成回饋迴路，在供應不足時優先維持必需的 selenoprotein。"
+    },
+    "confidence": 0.92,
+    "source_document": "Selenium.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "a960e8115455",
+    "subject": "Selenium",
+    "predicate": "protects_against",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "Selenium protects against ferroptosis through its selenoproteins: selenoprotein P and GPX4 defend neurons against iron-dependent lipid peroxidation, and selenium deficiency increases susceptibility to this iron-dependent injury. This is the direct mechanistic link between the trace element and ferroptotic cell death in neurodegeneration.",
+      "zh-TW": "Selenium 透過其 selenoprotein 保護免於 ferroptosis：selenoprotein P 與 GPX4 可防禦神經元對抗鐵依賴性的脂質過氧化，而 selenium 缺乏會增加對此種鐵依賴性損傷的易感受性。這是微量元素與神經退化中 ferroptotic cell death 之間的直接機制連結。"
+    },
+    "confidence": 0.9,
+    "source_document": "Selenium.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "b5e47eb03cd5",
+    "subject": "Selenocysteine",
+    "predicate": "is_analog_of",
+    "object": "Cysteine",
+    "context": {
+      "en-US": "Selenocysteine (Sec, symbol U) is a structural analog of serine and cysteine in which the side-chain oxygen is replaced by selenium, and it is the 21st proteinogenic amino acid. Its selenol has a pKa of about 5.2 versus about 8.3 for the cysteine thiol, so at physiological pH Sec is predominantly the deprotonated selenolate, a far stronger nucleophile and electrophile than the thiolate.",
+      "zh-TW": "Selenocysteine（Sec，符號 U）在結構上是 serine 與 cysteine 的類似物，其側鏈氧被硒取代，且為第 21 種蛋白質生成胺基酸。其 selenol 的 pKa 約為 5.2，而 cysteine 的 thiol 約為 8.3，因此在生理 pH 下 Sec 主要以去質子化的 selenolate 形式存在，其親核性與親電性遠強於 thiolate。"
+    },
+    "confidence": 0.95,
+    "source_document": "Selenocysteine.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "94f24622e2dc",
+    "subject": "Selenocysteine",
+    "predicate": "is_recoded_at",
+    "object": "UGA codon",
+    "context": {
+      "en-US": "Selenocysteine is inserted co-translationally at in-frame UGA codons that would otherwise terminate translation, when the mRNA carries a SECIS element in its 3′UTR. SECISBP2 (SBP2) binds the SECIS element and recruits the ternary complex of eEFSec, GTP and tRNA[Ser]Sec to deliver Sec to the ribosomal A site, so Sec is encoded by a recoded stop codon rather than a dedicated one.",
+      "zh-TW": "Selenocysteine 會在同轉譯過程中插入本應終止轉譯的同相位 UGA codon，前提是 mRNA 的 3′UTR 帶有 SECIS element。SECISBP2（SBP2）結合該 SECIS element 並招募由 eEFSec、GTP 與 tRNA[Ser]Sec 組成的三元複合體，將 Sec 送至核糖體 A 位。因此 Sec 是由重新編碼的終止密碼子而非專屬密碼子所編碼的。"
+    },
+    "confidence": 0.94,
+    "source_document": "Selenocysteine.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "fbca74adc774",
+    "subject": "Selenocysteine",
+    "predicate": "is_catalytic_residue_of",
+    "object": "Glutathione Peroxidase",
+    "context": {
+      "en-US": "The selenolate of selenocysteine is the catalytic residue of glutathione peroxidase and thioredoxin reductase, giving these selenoenzymes peroxidase and thiol-reductase rates that cysteine analogs cannot match. In the GPx cycle the selenenic acid is recycled via glutathionylation and reduction, which is why the selenol advantage translates directly into catalytic superiority.",
+      "zh-TW": "Selenocysteine 的 selenolate 是 glutathione peroxidase 與 thioredoxin reductase 的催化殘基，使這些 selenoenzyme 具備 cysteine 類似物無法企及的過氧化物酶與硫醇還原酶速率。在 GPx 循環中，selenenic acid 經由谷胱甘肽化與還原而被回收，這也正是 selenol 優勢直接轉化為催化優勢的原因。"
+    },
+    "confidence": 0.93,
+    "source_document": "Selenocysteine.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "ab280014d368",
+    "subject": "Selenocysteine",
+    "predicate": "confers_resistance_to",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "Because GPx4 is a Sec-containing enzyme and the central inhibitor of ferroptosis, selenocysteine translation is a determinant of whether a cell dies by iron-dependent lipid peroxidation. Selenoprotein deficiency disorders from SECISBP2 or tRNA[Ser]Sec mutations therefore reduce GPx activity, and loss of the Um34 tRNA modification further collapses antioxidant selenoprotein translation.",
+      "zh-TW": "由於 GPx4 是含 Sec 的酵素且為 ferroptosis 的核心抑制因子，selenocysteine 的轉譯決定了細胞是否會死於鐵依賴性的脂質過氧化。因此由 SECISBP2 或 tRNA[Ser]Sec 突變造成的 selenoprotein 缺乏症會降低 GPx 活性，而 tRNA 上 Um34 修飾的喪失更會全面崩潰抗氧化 selenoprotein 的轉譯。"
+    },
+    "confidence": 0.9,
+    "source_document": "Selenocysteine.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "38d2747644c1",
+    "subject": "FTSJ1",
+    "predicate": "installs",
+    "object": "Um34",
+    "context": {
+      "en-US": "FTSJ1 is the 2′-O-ribose methyltransferase that installs Um34 at position 34 of tRNA[Ser]Sec, a post-transcriptional modification required for efficient UGA recoding of a subset of selenoproteins. Loss of Um34 causes ribosomal stalling and reduced recoding, collapsing antioxidant selenoprotein translation; because Sec-dependent translation also supports melanoma survival under oxidative stress, FTSJ1/Um34 becomes a metastasis-selective therapeutic target.",
+      "zh-TW": "FTSJ1 是 2′-O-核糖甲基轉移酶，負責在 tRNA[Ser]Sec 的第 34 位安裝 Um34；此轉錄後修飾是部分 selenprotein 有效進行 UGA 重新編碼所必需。Um34 的喪失會造成核糖體停滯與重新編碼減少，使抗氧化 selenoprotein 的轉譯崩潰；由於 Sec 依賴性的轉譯也支持 melanoma 在氧化壓力下的存活，FTSJ1/Um34 因此成為轉移選擇性的治療標的。"
+    },
+    "confidence": 0.9,
+    "source_document": "Selenocysteine.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "50e66faeae87",
+    "subject": "SECISBP2",
+    "predicate": "is_required_for",
+    "object": "Selenocysteine",
+    "context": {
+      "en-US": "SECISBP2 (SBP2) binds the SECIS element in selenoprotein mRNAs and recruits the eEFSec/GTP/tRNA[Ser]Sec ternary complex to the ribosome. Loss-of-function mutations in SECISBP2 impair UGA recoding and cause a selenoprotein deficiency disorder with reduced GPx, TrxR and deiodinase activity, abnormal thyroid hormone metabolism and multisystem phenotypes.",
+      "zh-TW": "SECISBP2（SBP2）結合 selenoprotein mRNA 上的 SECIS element，並將 eEFSec/GTP/tRNA[Ser]Sec 三元複合體招募至核糖體。SECISBP2 的功能缺失突變會損害 UGA 重新編碼，造成 selenoprotein 缺乏症，表現為 GPx、TrxR 與 deiodinase 活性下降、甲狀腺素代謝異常及多系統表型。"
+    },
+    "confidence": 0.92,
+    "source_document": "Selenocysteine.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "4dd8acf0285b",
+    "subject": "Selenium",
+    "predicate": "is_source_of",
+    "object": "Selenocysteine",
+    "context": {
+      "en-US": "The selenium atom of selenocysteine is supplied by selenium itself: in eukaryotes SEPHS2 (selenophosphate synthetase 2) converts selenium into monoselenophosphate, which SepSecS then uses to replace the phosphoseryl group on tRNA[Ser]Sec with Sec. Selenocysteine is thus built on its tRNA from serine, with selenium entering only at the substitution step.",
+      "zh-TW": "Selenocysteine 的硒原子來自 selenium 本身：在真核生物中，SEPHS2（selenophosphate synthetase 2）將 selenium 轉換為單硒磷酸（monoselenophosphate），再由 SepSecS 用其取代 tRNA[Ser]Sec 上的 phosphoseryl 基團而成為 Sec。因此 selenocysteine 是在其 tRNA 上由 serine 建構而成，selenium 僅在取代步驟加入。"
+    },
+    "confidence": 0.9,
+    "source_document": "Selenocysteine.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "97dfbadd1a89",
+    "subject": "Selenoprotein P",
+    "predicate": "transports",
+    "object": "Selenium",
+    "context": {
+      "en-US": "Selenoprotein P is the major plasma selenium transport protein, delivering selenium from the liver to peripheral tissues and serving as the principal vehicle that moves dietary selenium into the body's selenoproteome. Because it is itself a selenoprotein, it acts as the node linking dietary selenium intake to the rest of the selenoprotein family and prioritizes essential selenoproteins under low selenium.",
+      "zh-TW": "Selenoprotein P 是血漿中主要的 selenium 運輸蛋白，負責將 selenium 由肝臟運送至周邊組織，並是把飲食中的 selenium 帶入體內 selenoproteome 的主要載體。由於它本身也是 selenoprotein，它便成為連結飲食硒攝取與其餘 selenoprotein 家族的節點，並在缺硒時優先維持必需的 selenoprotein。"
+    },
+    "confidence": 0.94,
+    "source_document": "Selenoprotein P.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "f0b8cf0eb940",
+    "subject": "Selenoprotein P",
+    "predicate": "contains",
+    "object": "Selenocysteine",
+    "context": {
+      "en-US": "Selenoprotein P is unusual among selenoproteins in carrying multiple selenocysteine residues — 10 in humans and 17 in mice. Those Sec residues are what give it its selenium-transport and antioxidant properties, since they can be enzymatically reduced and recycled in the extracellular space where classical thiol-based enzymes are scarce.",
+      "zh-TW": "Selenoprotein P 在 selenoprotein 中相當特殊，帶有多個 selenocysteine 殘基——人類 10 個、小鼠 17 個。正是這些 Sec 殘基賦予它 selenium 運輸與抗氧化性質，因為它們可在細胞外空間中被酵素性還原與再利用，而該處正是傳統 thiol 型酵素稀少之處。"
+    },
+    "confidence": 0.93,
+    "source_document": "Selenoprotein P.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
+  },
+  {
+    "id": "2610e3bdf950",
+    "subject": "Selenoprotein P",
+    "predicate": "protects_against",
+    "object": "Reactive Oxygen Species",
+    "context": {
+      "en-US": "Selenoprotein P provides extracellular antioxidant defense: its selenocysteine residues protect endothelial and neuronal cells from reactive oxygen species. This extracellular role complements intracellular glutathione peroxidases and is why selenium deficiency increases neuronal susceptibility to iron-dependent ferroptotic injury.",
+      "zh-TW": "Selenoprotein P 提供細胞外抗氧化防禦：其 selenocysteine 殘基保護內皮與神經細胞免受 reactive oxygen species 傷害。此細胞外角色與細胞內的 glutathione peroxidase 互補，也因此 selenium 缺乏會增加神經元對鐵依賴性 ferroptotic 損傷的易感受性。"
+    },
+    "confidence": 0.9,
+    "source_document": "Selenoprotein P.md",
+    "created": "2026-09-29T17:48:20Z",
+    "updated": "2026-09-29T17:48:20Z"
   }
 ]
