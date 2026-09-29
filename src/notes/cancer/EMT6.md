@@ -31,10 +31,10 @@ protected: false
 
 - [[Fenbendazole]] — tested in EMT6 model with negative in vivo result.
 - [[Hypoxia]] — EMT6 cells showed modest hypoxia-selective fenbendazole toxicity in vitro.
-- [[Radiation Therapy]] — fenbendazole did not sensitize EMT6 tumors to radiation.
+- [[Radiotherapy]] — fenbendazole did not sensitize EMT6 tumors to radiation.
 - [[docetaxel]] — additive toxicity with fenbendazole in EMT6 cells.
 
 ## Linking Summary
 
-- New links added: [[Fenbendazole]], [[Hypoxia]], [[Radiation Therapy]], [[docetaxel]].
+- New links added: [[Fenbendazole]], [[Hypoxia]], [[Radiotherapy]], [[docetaxel]].
 - Strong connections to strengthen: [[EMT6]] ↔ [[Fenbendazole]] (negative-result model).

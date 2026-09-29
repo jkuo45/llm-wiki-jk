@@ -39,7 +39,7 @@ Intensive treatments with fenbendazole were toxic to EMT6 cells in vitro; toxici
 ### Conclusion
 These studies provided no evidence that fenbendazole would have value in cancer therapy, but suggested that this general class of compounds merits further investigation.
 
-**Keywords:** [[Fenbendazole]], benzimidazoles, [[Tumor Microenvironment|tumor microenvironments]], [[Radiation Therapy|radiation therapy]], [[Hypoxia]], [[EMT6]] cells
+**Keywords:** [[Fenbendazole]], benzimidazoles, [[Tumor Microenvironment|tumor microenvironments]], [[Radiotherapy|radiation therapy]], [[Hypoxia]], [[EMT6]] cells
 
 ---
 
@@ -121,7 +121,7 @@ The effects of fenbendazole on the tubulin-microtubule equilibrium could synergi
 - [[Fenbendazole]] — test agent; negative result in EMT6 model.
 - [[EMT6]] — mouse mammary tumor cell line used as the experimental model.
 - [[Hypoxia]] — fenbendazole showed modest preferential toxicity to hypoxic cells in vitro, but no in vivo benefit.
-- [[Radiation Therapy]] — fenbendazole did not act as a radiosensitizer.
+- [[Radiotherapy]] — fenbendazole did not act as a radiosensitizer.
 - [[docetaxel]] / [[Paclitaxel]] — taxanes sharing tubulin-microtubule target; additive toxicity only.
 - [[Vincristine]] / [[Vinblastine]] — vinca alkaloids with overlapping mechanism.
 - [[Flubendazole]] — related benzimidazole reported to synergize with MT agents.
@@ -133,6 +133,6 @@ The effects of fenbendazole on the tubulin-microtubule equilibrium could synergi
 
 ## Linking Summary
 
-- New links added: [[Fenbendazole]], [[EMT6]], [[Hypoxia]], [[Radiation Therapy]], [[docetaxel]], [[Paclitaxel]], [[Vincristine]], [[Vinblastine]], [[Tubulin]], [[Microtubule]], [[Benzimidazole]], [[Albendazole]], [[Mebendazole]], [[Flubendazole]], [[Colchicine]], [[Podophyllotoxin]], [[Nitroimidazole]], [[DNA Helicase]], [[Radiosensitizer]], [[Angiogenesis]], [[Tumor Microenvironment]], [[Glioblastoma]], [[Lymphoma]], [[Prostate Cancer]], [[Leukemia]], [[Dimethyl Sulfoxide]].
-- Suggested new entity notes to create: [[EMT6]], [[Flubendazole]], [[Radiation Therapy]], [[Colchicine]], [[Podophyllotoxin]], [[Nitroimidazole]], [[DNA Helicase]], [[Radiosensitizer]].
-- Strong connections to strengthen: [[Fenbendazole]] ↔ [[EMT6]] (negative-result model); [[Fenbendazole]] ↔ [[Hypoxia]] (modest hypoxia-selective toxicity in vitro only); [[Fenbendazole]] ↔ [[Radiation Therapy]] (no radiosensitization).
+- New links added: [[Fenbendazole]], [[EMT6]], [[Hypoxia]], [[Radiotherapy]], [[docetaxel]], [[Paclitaxel]], [[Vincristine]], [[Vinblastine]], [[Tubulin]], [[Microtubule]], [[Benzimidazole]], [[Albendazole]], [[Mebendazole]], [[Flubendazole]], [[Colchicine]], [[Podophyllotoxin]], [[Nitroimidazole]], [[DNA Helicase]], [[Radiosensitizer]], [[Angiogenesis]], [[Tumor Microenvironment]], [[Glioblastoma]], [[Lymphoma]], [[Prostate Cancer]], [[Leukemia]], [[Dimethyl Sulfoxide]].
+- Suggested new entity notes to create: [[EMT6]], [[Flubendazole]], [[Radiotherapy]], [[Colchicine]], [[Podophyllotoxin]], [[Nitroimidazole]], [[DNA Helicase]], [[Radiosensitizer]].
+- Strong connections to strengthen: [[Fenbendazole]] ↔ [[EMT6]] (negative-result model); [[Fenbendazole]] ↔ [[Hypoxia]] (modest hypoxia-selective toxicity in vitro only); [[Fenbendazole]] ↔ [[Radiotherapy]] (no radiosensitization).

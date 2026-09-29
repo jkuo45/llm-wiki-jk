@@ -88,6 +88,12 @@ PI(3)P. This loop gives the rapid, burst-like kinetics observed for autophagosom
   then S284 (releasing WIPI2b from the membrane), allowing autophagosome maturation to
   proceed.
 
+## Documents
+
+- [[PtdIns3P]]
+  - Supplies the omegasomal lipid signal WIPI2 reads, and the PI3KC3-C1–WIPI2 positive
+    feedback loop that this note builds on.
+
 ## Connections
 
 - [[PtdIns3P]] — the lipid WIPI2 binds; its local production by PI3KC3-C1 is the signal WIPI2

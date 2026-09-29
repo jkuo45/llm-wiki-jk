@@ -2310,7 +2310,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 
 | Entity | entity_type_1 | Description |
 | --- | --- | --- |
-| [[Radiation Therapy]] | Therapy | Use of ionizing radiation to kill or damage cancer cells; a cornerstone of oncology treatment. |
+| [[Radiotherapy]] | Therapy | Use of ionizing radiation to kill or damage cancer cells; a cornerstone of oncology treatment. |
 | [[Immunotherapy]] | Therapy | Cancer treatment harnessing the immune system via checkpoint blockade, cell therapies, and cancer vaccines. |
 
 ### Transcription Coactivator (1)

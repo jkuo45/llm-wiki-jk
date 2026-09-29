@@ -20,7 +20,7 @@ Bladder cancer is a malignant neoplasm arising from the urothelium (transitional
 
 Occupational exposures contribute to an estimated 10–20% of cases. High-risk industries include rubber manufacturing, dye and textile processing, leather tanning, and aluminum smelting. The primary causative agents are **aromatic amines** (benzidine, 2-naphthylamine, 4-aminobiphenyl) and **aniline dyes**. The latency period between exposure and diagnosis often exceeds 20–30 years.
 
-**Chronic inflammation** of the bladder mucosa is an established risk factor. In Egypt and parts of Africa, chronic infection with [[Schistosoma haematobium]] (schistosomiasis) is the dominant cause, strongly associated with [[Squamous Cell Carcinoma|squamous cell carcinoma]] of the bladder. Other inflammatory triggers include long-term indwelling urinary catheters, recurrent urinary tract infections, and bladder stones. **Cyclophosphamide** and **ifosfamide** (alkylating chemotherapeutic agents) increase risk through acrolein-mediated urothelial damage, with a cumulative dose–response relationship. Prior pelvic [[Radiation Therapy|radiation]] also raises risk.
+**Chronic inflammation** of the bladder mucosa is an established risk factor. In Egypt and parts of Africa, chronic infection with [[Schistosoma haematobium]] (schistosomiasis) is the dominant cause, strongly associated with [[Squamous Cell Carcinoma|squamous cell carcinoma]] of the bladder. Other inflammatory triggers include long-term indwelling urinary catheters, recurrent urinary tract infections, and bladder stones. **Cyclophosphamide** and **ifosfamide** (alkylating chemotherapeutic agents) increase risk through acrolein-mediated urothelial damage, with a cumulative dose–response relationship. Prior pelvic [[Radiotherapy|radiation]] also raises risk.
 
 Additional risk factors include [[Arsenic]] contamination of drinking water (endemic in areas of South America and Asia), family history (2-fold increased risk in first-degree relatives), and [[Hereditary Nonpolyposis Colorectal Cancer]] (Lynch syndrome), which confers an early-age onset phenotype.
 
@@ -87,6 +87,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Cisplatin]], [[BCG]], [[FGFR3]], [[Immunotherapy]], [[Schistosoma haematobium]], [[PD-L1]], [[p53]], [[CT]], [[MRI]], [[PET]], [[Arsenic]], [[Apoptosome]], [[Radiation Therapy]], [[Squamous Cell Carcinoma]], [[Carcinogen]], [[antibody-drug conjugate]], [[Immune System]], [[Checkpoint inhibitor]]
+- New links added: [[Cisplatin]], [[BCG]], [[FGFR3]], [[Immunotherapy]], [[Schistosoma haematobium]], [[PD-L1]], [[p53]], [[CT]], [[MRI]], [[PET]], [[Arsenic]], [[Apoptosome]], [[Radiotherapy]], [[Squamous Cell Carcinoma]], [[Carcinogen]], [[antibody-drug conjugate]], [[Immune System]], [[Checkpoint inhibitor]]
 - Suggested new entity notes to create: [[BCG]], [[FGFR3]], [[Immunotherapy]], [[Nectin-4]], [[Erdafitinib]], [[Enfortumab vedotin]], [[Atezolizumab]], [[Pembrolizumab]], [[Mitomycin C]], [[Gemcitabine]], [[docetaxel]], [[Lynch Syndrome]], [[Urothelium]], [[Carcinoma in situ]], [[Transurethral Resection of Bladder Tumor]]
 - Strong connections to strengthen: [[Bladder Cancer]] ↔ [[Cisplatin]], [[Bladder Cancer]] ↔ [[BCG]], [[Bladder Cancer]] ↔ [[Apoptosis]]

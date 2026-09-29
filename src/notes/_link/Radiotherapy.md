@@ -10,6 +10,8 @@ tags:
   - radiobiology
 aliases:
   - Radiation therapy
+  - Radiation
+  - Radiotherapy
   - Radiation oncology
   - Radiotherapeutic
 ---
@@ -26,7 +28,7 @@ tendency to affect rapidly dividing cells, but they are routinely combined and s
 the same dose-limiting toxicity, [[Bone Marrow]]-derived and normal tissue damage.
 
 This note covers the biology and clinical physics. The hypoxia-radiosensitivity
-framing is developed separately in [[Radiation Therapy]].
+framing is developed separately in [[Radiotherapy]].
 
 ## Mechanism of cell kill
 
@@ -135,13 +137,19 @@ lowest effective dose and why at-risk syndromes historically precluded radiother
   [[Bone Marrow]]-derived toxicity and routinely combined with radiation; the
   combination is standard in small-cell lung cancer, oesophageal cancer, glioma and
   head-and-neck cancer.
+- [[Fenbendazole as a Potential Anticancer Drug|Fenbendazole as a Potential Anticancer Drug (Duan 2013)]]
+  - Tested fenbendazole as a potential radiosensitiser against hypoxic cells; the result was negative. Fenbendazole did not alter the radiation response of aerobic or hypoxic [[EMT6]] cells in vitro, nor the growth or radiation response of EMT6 tumours in vivo, whether given as three daily intraperitoneal injections (50 mg/kg/day) or in diet at 150 ppm.
 
 ## Connections
 
+- [[Fenbendazole]] — tested as a radiosensitiser in the Duan 2013 EMT6 study, with a negative result; it did not alter the radiation response of aerobic or hypoxic cells in vitro or in vivo. A useful documented failure rather than a mechanistic link.
+- [[EMT6]] — the murine mammary tumour model used in that radiosensitisation study.
+- [[Hypoxia]] — the dominant mechanism of intrinsic radioresistance, because oxygen fixation is what converts the initial DNA lesion into a lethal double-strand break.
+- [[Radiosensitizer]] — the drug class aimed at the oxygen-fixation problem; overlaps the combination-therapy strategies discussed above.
 - [[Chemotherapy]] — the non-radiation systemic arm; the two are synergistic because
   chemo pushes cycling cells into G2/M (the most radiosensitive phases) while
   radiation kills cells that would otherwise repair chemo-induced damage.
-- [[Radiation Therapy]] — the vault's note on hypoxia and radiosensitisation, sharing
+- [[Radiotherapy]] — the vault's note on hypoxia and radiosensitisation, sharing
   this note's mechanism; the two should be merged, and this is the duplication the
   Linking Summary flags.
 - [[Ionizing Radiation]] — the physical agent, and the agent class whose DNA damage
@@ -182,7 +190,7 @@ lowest effective dose and why at-risk syndromes historically precluded radiother
 
 ## Linking Summary
 
-- New links added: [[Chemotherapy]], [[Radiation Therapy]], [[Ionizing Radiation]],
+- New links added: [[Chemotherapy]], [[Radiotherapy]], [[Ionizing Radiation]],
   [[DNA Damage]], [[Non-homologous End Joining]], [[53BP1]], [[BRCA1]],
   [[PARP inhibitors]], [[p53]], [[Cell Cycle]], [[Reactive Oxygen Species]],
   [[Apoptosis]], [[Cellular Senescence]], [[Hypoxia]], [[Radiosensitizer]],
@@ -195,7 +203,7 @@ lowest effective dose and why at-risk syndromes historically precluded radiother
   [[ATR Kinase]], [[Normal Tissue Complication Probability]],
   [[Tumour Control Probability]], [[Radiation Recall]], [[Bystander Effect]],
   [[Radioimmunotherapy]]
-- Strong connections to strengthen: [[Radiotherapy]] ↔ [[Radiation Therapy]]
+- Strong connections to strengthen: [[Radiotherapy]] ↔ [[Radiotherapy]]
   (duplicate note — the hypoxia and radiosensitisation content in Radiation Therapy
   should be merged here and the orphan redirected), [[Radiotherapy]] ↔ [[Chemotherapy]],
   [[Radiotherapy]] ↔ [[DNA Damage]], [[Radiotherapy]] ↔ [[PARP inhibitors]]

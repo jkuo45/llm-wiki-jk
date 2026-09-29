@@ -84,6 +84,12 @@ undercarboxylation — a clinically relevant uncertainty with no resolution yet.
   edoxaban act on thrombin or factor Xa directly. The distinction matters for reversal:
   vitamin K is the antidote for VKAs only.
 
+## Documents
+
+- [[Warfarin]]
+  - Supplies the inhibitory mechanism, the label dosing/ramp-up, and the reasons this
+    enzyme's cycle-level role matters beyond clotting factors.
+
 ## Connections
 
 - [[VKORC1]] — the gene product that constitutes this enzyme; the protein-level note.

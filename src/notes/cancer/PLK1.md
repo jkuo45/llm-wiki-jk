@@ -22,7 +22,7 @@ Physiologically, PLK1 orchestrates centrosome maturation, bipolar spindle format
 
 ## Clinical & Research Relevance
 
-PLK1 is a validated anti-cancer target. Inhibitors such as volasertib (BI 6727), rigosertib, and GSK461364 have entered clinical evaluation, often combined with [[Chemotherapy]] or [[Radiation Therapy]]. Biomarker strategies use PLK1 expression and phospho-histone H3 to identify proliferative tumors likely to respond. Because PLK1 inhibition can trigger mitotic catastrophe and apoptosis, it is a cornerstone of cell-cycle-targeted oncology.
+PLK1 is a validated anti-cancer target. Inhibitors such as volasertib (BI 6727), rigosertib, and GSK461364 have entered clinical evaluation, often combined with [[Chemotherapy]] or [[Radiotherapy]]. Biomarker strategies use PLK1 expression and phospho-histone H3 to identify proliferative tumors likely to respond. Because PLK1 inhibition can trigger mitotic catastrophe and apoptosis, it is a cornerstone of cell-cycle-targeted oncology.
 
 ## Documents
 
@@ -45,6 +45,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[PLK1]], [[Bcl-xL]], [[Apoptosis]], [[Aurora A]], [[Cancer]], [[Hallmarks of Cancer]], [[Metastasis]], [[Chemotherapy]], [[Radiation Therapy]], [[Mitosis]]
+- New links added: [[PLK1]], [[Bcl-xL]], [[Apoptosis]], [[Aurora A]], [[Cancer]], [[Hallmarks of Cancer]], [[Metastasis]], [[Chemotherapy]], [[Radiotherapy]], [[Mitosis]]
 - Suggested new entity notes to create: [[Polo-box domain]], [[Bora]]
 - Strong connections to strengthen: [[PLK1]] ↔ [[Bcl-xL]], [[PLK1]] ↔ [[Aurora A]], [[PLK1]] ↔ [[Cancer]]

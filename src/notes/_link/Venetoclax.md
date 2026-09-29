@@ -13,7 +13,7 @@ aliases: [ABT-199, GDC-0199, Venclyxto, Venclexta]
 
 # Venetoclax
 
-**Venetoclax** (ABT-199, GDC-0199) is the first successful small-molecule [[BH3 mimetic]]
+**Venetoclax** (ABT-199, GDC-0199) is the first successful small-molecule [[BH3 mimetics|BH3 mimetic]]
 and the first drug to validate [[Bcl-2]] as a target. It is a large, poorly water-soluble
 sulfonamide (C₄₅H₅₀ClN₇O₇S, MW 868.4) designed to occupy the hydrophobic BH3-binding
 pocket of [[Bcl-2]] while avoiding the homologous pockets of [[Bcl-2 family|BCL-xL]] and
@@ -95,6 +95,15 @@ mutating BCL-2 at residues contacting the drug, by amplifying MCL-1 through
 [[MYC]]-driven mechanisms, or by reducing BCL-2 dependence itself as the clone selects
 alternative survival pathways. Fixed-duration combination with a BCL-2 degrader is one
 approach under study.
+
+## Documents
+
+- [[BH3 mimetics]]
+  - Places venetoclax in the mimetic class and supplies the contrast with the earlier
+    pan-BCL-2 agents whose platelet toxicity it avoided.
+- [[BH3 profiling]]
+  - Supplies the mitochondrial depolarisation assay validated as venetoclax's best
+    available predictive biomarker.
 
 ## Connections
 

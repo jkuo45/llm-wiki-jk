@@ -84,6 +84,12 @@ In ageing, reduced secretory throughput and altered Golgi morphology are well do
 and appear in models of reduced [[NAD+]] availability — a plausible link between the
 sirtuin axis and extracellular-matrix maintenance.
 
+## Documents
+
+- [[BIG1]]
+  - Supplies the GBF1/BIG1 disambiguation context: the Golgi-resident Arf1 GEF whose
+    COPI recruitment role is the entry point to this process, and the origin of the symbol.
+
 ## Connections
 
 - [[BIG1]] — the historical symbol for [[GBF1]], the Golgi-resident Arf1 GEF that drives
