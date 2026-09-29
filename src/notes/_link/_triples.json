@@ -39674,5 +39674,705 @@
     "source_document": "Cysteinyldopa.md",
     "created": "2026-09-29T15:00:55Z",
     "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "97510405fd61",
+    "subject": "MuRF1",
+    "predicate": "is_a",
+    "object": "E3 Ubiquitin Ligase",
+    "context": {
+      "en-US": "MuRF1 (Muscle RING Finger 1, also known as TRIM63) is a muscle-specific E3 ubiquitin ligase whose expression rises during muscle wasting and atrophy; it tags sarcomeric proteins so they can be degraded through the ubiquitin-proteasome system.",
+      "zh-TW": "MuRF1（Muscle RING Finger 1，又稱 TRIM63）是一種肌肉特異性的 E3 泛素連接酶，在肌肉消耗與萎縮時表現上升；它標記肌節蛋白，使其經由泛素-蛋白酶體系統被降解。"
+    },
+    "confidence": 0.9,
+    "source_document": "MuRF1.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "307831b7bb0c",
+    "subject": "Urolithin A",
+    "predicate": "downregulates",
+    "object": "MuRF1",
+    "context": {
+      "en-US": "Urolithin A downregulates the muscle-specific atrophy ligase MuRF1 (and its partner Atrogin-1), reducing sarcomeric protein degradation to mitigate muscle atrophy and promote hypertrophy.",
+      "zh-TW": "Urolithin A 下調肌肉特異性的萎縮相關 E3 連接酶 MuRF1（及其夥伴 Atrogin-1），減少肌節蛋白降解，以減輕肌肉萎縮並促進肌肥大。"
+    },
+    "confidence": 0.9,
+    "source_document": "MuRF1.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "c779ce75d05d",
+    "subject": "N-(carboxymethyl)-lysine",
+    "predicate": "belongs_to",
+    "object": "Advanced Glycation End Products",
+    "context": {
+      "en-US": "N-(carboxymethyl)-lysine (CML) is a well-characterized and abundant member of the Advanced Glycation End Products (AGEs) class, formed by oxidative degradation of Amadori products or by reaction of glyoxal with lysine residues.",
+      "zh-TW": "N-(carboxymethyl)-lysine（CML）是被充分刻畫且含量豐富的晚期糖基化終產物（AGEs）類成員，由 Amadori 產物的氧化降解或乙二醛與離胺酸殘基反應而形成。"
+    },
+    "confidence": 0.9,
+    "source_document": "N-(carboxymethyl)-lysine.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "10b2ee0b949f",
+    "subject": "N-(carboxymethyl)-lysine",
+    "predicate": "is_a_biomarker_of",
+    "object": "Aging",
+    "context": {
+      "en-US": "CML is a significant biomarker of glycation stress; its serum concentration correlates with arterial stiffness in the elderly, and CML accumulates in heart and kidney tissue during aging.",
+      "zh-TW": "CML 是糖化壓力的重要生物標記；其血清濃度與老年人的動脈僵硬相關，並在老化過程中累積於心臟與腎臟組織。"
+    },
+    "confidence": 0.85,
+    "source_document": "N-(carboxymethyl)-lysine.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "8501f0d4cf1f",
+    "subject": "Neffy",
+    "predicate": "delivers",
+    "object": "Epinephrine",
+    "context": {
+      "en-US": "Neffy is a needle-free intranasal epinephrine spray approved for emergency treatment of anaphylaxis; its stabilized formulation reduces epinephrine autoxidation and thus limits formation of Adrenochrome and related aminochromes.",
+      "zh-TW": "Neffy 是免針式鼻內 [[Epinephrine]] 噴劑，核准用於過敏性休克的緊急治療；其穩定配方減少 [[Epinephrine]] 的自氧化，因而抑制 [[Adrenochrome]] 及相關 aminochrome 的生成。"
+    },
+    "confidence": 0.9,
+    "source_document": "Neffy.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "4850651c0287",
+    "subject": "Nicotinamide",
+    "predicate": "is_converted_to",
+    "object": "NMN",
+    "context": {
+      "en-US": "Nicotinamide, the amide form of vitamin B3, is condensed with PRPP by the rate-limiting salvage enzyme NAMPT to form NMN, which NMNAT then converts to NAD+; this salvage route accounts for roughly 85% of cellular NAD+ production.",
+      "zh-TW": "[[Nicotinamide]]（维生素 B3 的醯胺型）由補救途徑中的限速酵素 [[NAMPT]] 與 PRPP 縮合形成 [[NMN]]，再由 [[NMNAT]] 轉為 [[NAD+]]；此補救途徑約佔細胞 [[NAD+]] 生成的 85%。"
+    },
+    "confidence": 0.95,
+    "source_document": "Nicotinamide.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "9048c7d53841",
+    "subject": "Nicotinamide",
+    "predicate": "inhibits",
+    "object": "SIRT1",
+    "context": {
+      "en-US": "Nicotinamide is an endogenous non-competitive feedback inhibitor of sirtuins: after release of the O-acetyl-ADP-ribose intermediate it binds a conserved pocket in the sirtuin catalytic domain, blocking NAD+ re-binding. SIRT1-SIRT3 are potently inhibited at physiological NAM concentrations (IC50 ~30-200 uM), while SIRT5 and SIRT6 are relatively resistant.",
+      "zh-TW": "[[Nicotinamide]] 是 sirtuin 內生性的非競爭性回饋抑制劑：在 O-乙醯-ADP-核糖中間產物釋放後，它結合 sirtuin 催化區的保守口袋，阻斷 [[NAD+]] 再結合。[[SIRT1]]–[[SIRT3]] 在生理濃度下被顯著抑制（IC50 約 30–200 µM），而 [[SIRT5]] 與 [[SIRT6]] 相對具有抗性。"
+    },
+    "confidence": 0.95,
+    "source_document": "Nicotinamide.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "d0a8a1db7e44",
+    "subject": "CD38",
+    "predicate": "produces",
+    "object": "Nicotinamide",
+    "context": {
+      "en-US": "CD38 and CD157 are NAD+ consumers that cleave NAD+ to yield nicotinamide and cADPR, competing with sirtuins for the same NAD+ pool and thereby raising nicotinamide levels that feedback-inhibit sirtuin activity.",
+      "zh-TW": "[[CD38]] 與 CD157 是消耗 [[NAD+]] 的酵素，切割 [[NAD+]] 產生 [[Nicotinamide]] 與 cADPR，與 sirtuin 競爭同一 [[NAD+]] 池，因而提高 [[Nicotinamide]] 濃度並回饋抑制 sirtuin 活性。"
+    },
+    "confidence": 0.9,
+    "source_document": "Nicotinamide.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "560100a84c7e",
+    "subject": "Caloric Restriction",
+    "predicate": "lowers_levels_of",
+    "object": "Nicotinamide",
+    "context": {
+      "en-US": "During caloric restriction intracellular nicotinamide concentrations fall, relieving feedback inhibition of sirtuins and contributing to sirtuin activation and the associated stress-resistance and longevity effects.",
+      "zh-TW": "在熱量限制期間，細胞內 [[Nicotinamide]] 濃度下降，解除對 sirtuin 的回饋抑制，促成 sirtuin 活化及其相關的抗逆境與延壽效應。"
+    },
+    "confidence": 0.85,
+    "source_document": "Nicotinamide.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "e5e3d52c8948",
+    "subject": "Nicotinic acid",
+    "predicate": "is_precursor_of",
+    "object": "NAD+",
+    "context": {
+      "en-US": "Nicotinic acid (niacin) enters the Preiss-Handler Pathway, where NAPRT forms NaMN, NMNAT adenylates it to NaAD, and NAD+ synthetase amidates NaAD to NAD+. This route bypasses NAMPT, the rate-limiting and NAD+-sensitive step of the salvage pathway.",
+      "zh-TW": "[[Nicotinic acid]]（niacin）經由 Preiss-Handler Pathway 進入 [[NAD+]] 合成：NAPRT 形成 NaMN，[[NMNAT]] 將其腺苷酸化為 NaAD，再由 NAD+ 合成酶醯胺化生成 [[NAD+]]。此途徑繞過補救途徑中的限速步驟 [[NAMPT]]。"
+    },
+    "confidence": 0.95,
+    "source_document": "Nicotinic acid.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "ca1c250cba72",
+    "subject": "Nicotinic acid",
+    "predicate": "is_a_precursor_for",
+    "object": "NADPH",
+    "context": {
+      "en-US": "As the obligate precursor of NAD+ and, through NAD+ kinase, of NADPH, nicotinic acid underlies reductive biosynthesis and antioxidant defense, including glutathione reduction and thioredoxin reductase activity.",
+      "zh-TW": "作為 [[NAD+]] 及其經 NAD+ kinase 生成的 [[NADPH]] 的必然前驅物，[[Nicotinic acid]] 支撐還原性生合成與抗氧化防禦，包括麩胱甘肽還原與 thioredoxin reductase 活性。"
+    },
+    "confidence": 0.9,
+    "source_document": "Nicotinic acid.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "702455408c7e",
+    "subject": "Nicotinic acid",
+    "predicate": "is_investigated_in",
+    "object": "Adrenochrome Hypothesis",
+    "context": {
+      "en-US": "Hoffer and Osmond proposed within the Adrenochrome Hypothesis that niacin could attenuate adrenochrome formation by raising NADPH availability and supporting reductive detoxification systems that convert adrenochrome back to leuco-adrenochrome; the hypothesis has not been validated clinically.",
+      "zh-TW": "Hoffer 與 Osmond 在 Adrenochrome Hypothesis 中提出，niacin 可藉由提升 [[NADPH]] 可用性、支持將 [[Adrenochrome]] 還原回 [[Leuco-adrenochrome]] 的解毒系統來減少其生成；但此假說未獲臨床驗證。"
+    },
+    "confidence": 0.8,
+    "source_document": "Nicotinic acid.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "981e66cc3742",
+    "subject": "Nitrobenzene",
+    "predicate": "is_precursor_of",
+    "object": "Aniline dyes",
+    "context": {
+      "en-US": "Nitrobenzene is industrially reduced to aniline, the precursor of aniline dyes; the shared reductive metabolism explains why nitrobenzene and aniline dyes produce the same methemoglobinemia profile.",
+      "zh-TW": "Nitrobenzene 在工業上被還原為 aniline，後者是 aniline 染體的前驅物；共同的還原代謝解釋了 nitrobenzene 與 aniline 染體為何具有相同的 methemoglobinemia 毒性特徵。"
+    },
+    "confidence": 0.8,
+    "source_document": "Nitrobenzene.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "8079a7452d29",
+    "subject": "Nitrogen gas",
+    "predicate": "prevents",
+    "object": "Autoxidation",
+    "context": {
+      "en-US": "Because leuco-adrenochrome and epinephrine intermediates are extremely oxidation-sensitive, they are stored and handled under an inert atmosphere of nitrogen gas (or argon) to prevent catecholamine autoxidation.",
+      "zh-TW": "由於 [[Leuco-adrenochrome]] 與 [[Epinephrine]] 中間產物對氧化極度敏感，它們在 [[Nitrogen gas]]（或 [[Argon]]）的惰性氣氛下儲存與操作，以防止兒茶酚胺自氧化。"
+    },
+    "confidence": 0.85,
+    "source_document": "Nitrogen gas.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "2ab9697edcb5",
+    "subject": "Nitrotyrosine",
+    "predicate": "is_a_derivative_of",
+    "object": "Tyrosine",
+    "context": {
+      "en-US": "Nitrotyrosine, most commonly the 3-nitro form, is the nitrated derivative of the amino acid tyrosine and the stable, accumulated footprint of tyrosine nitration.",
+      "zh-TW": "Nitrotyrosine（最常見為 3-硝基型）是胺基酸 [[Tyrosine]] 的硝化衍生物，也是 tyrosine nitration 穩定累積的終產物痕跡。"
+    },
+    "confidence": 0.9,
+    "source_document": "Nitrotyrosine.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "3342fb21ee2c",
+    "subject": "Myeloperoxidase",
+    "predicate": "produces",
+    "object": "Nitrotyrosine",
+    "context": {
+      "en-US": "Myeloperoxidase using nitrite and hydrogen peroxide nitrates protein-bound or free tyrosine to form nitrotyrosine; because the adduct resists turnover it serves as a durable biomarker of nitrosative and oxidative injury.",
+      "zh-TW": "[[Myeloperoxidase]] 以 nitrite 與 [[Hydrogen Peroxide]] 硝化蛋白結合型或游離的 tyrosine，形成 nitrotyrosine；由於此加合物不易被 turnover，因此可作為硝化與氧化損傷的持久生物標記。"
+    },
+    "confidence": 0.9,
+    "source_document": "Nitrotyrosine.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "1ba0358d467c",
+    "subject": "Nitrotyrosine",
+    "predicate": "is_detected_by",
+    "object": "Mass Spectrometry",
+    "context": {
+      "en-US": "Free 3-nitrotyrosine is quantified by mass spectrometry and HPLC, while immunodetection localizes nitrated proteins in tissue; elevated levels track with atherosclerosis, neurodegeneration and sepsis.",
+      "zh-TW": "游離的 3-nitrotyrosine 以 [[Mass Spectrometry]] 與 HPLC 定量，抗體偵測則用於定位組織中被硝化的蛋白；其濃度升高與動脈粥狀硬化、神經退化與敗血症相關。"
+    },
+    "confidence": 0.85,
+    "source_document": "Nitrotyrosine.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "2e7f3d705434",
+    "subject": "Orlistat",
+    "predicate": "reduces",
+    "object": "Advanced Glycation End Products",
+    "context": {
+      "en-US": "Beyond inhibiting fat absorption, orlistat decreases intestinal absorption of dietary Advanced Glycation End Products; in women with PCOS it lowered postprandial serum AGEs after a high-AGE meal compared with controls.",
+      "zh-TW": "除了抑制脂肪吸收外，[[Orlistat]] 還能減少飲食性 [[Advanced Glycation End Products]] 的腸道吸收；在 PCOS 女性中，相較對照組可降低高 AGE 餐後的血清 AGE 濃度。"
+    },
+    "confidence": 0.85,
+    "source_document": "Orlistat.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "11f09ab0c6ea",
+    "subject": "Ornithine transcarbamylase",
+    "predicate": "triggers",
+    "object": "Mitochondrial Unfolded Protein Response",
+    "context": {
+      "en-US": "Misfolded or aggregation-prone ornithine transcarbamylase variants imported into the matrix expose hydrophobic regions that activate the mitochondrial unfolded protein response, shifting transcription toward chaperones, matrix proteases and antioxidant defenses while slowing general protein translation.",
+      "zh-TW": "錯誤摺疊或易聚集的 [[Ornithine transcarbamylase]] 變異體進入粒線體基質後暴露疏水區域，活化 [[Mitochondrial Unfolded Protein Response]]，使轉錄轉向 chaperone、基質蛋白酶與抗氧化防禦，並暫時降低一般蛋白質轉譯。"
+    },
+    "confidence": 0.9,
+    "source_document": "Ornithine transcarbamylase.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "4aa387636aa5",
+    "subject": "Ornithine transcarbamylase",
+    "predicate": "is_localized_to",
+    "object": "Mitochondria",
+    "context": {
+      "en-US": "Ornithine transcarbamylase is the only urea-cycle enzyme located in the mitochondrion, where it condenses carbamoyl phosphate with ornithine to form citrulline; its deficiency is the most common inborn error of the urea cycle, causing hyperammonemia.",
+      "zh-TW": "[[Ornithine transcarbamylase]] 是唯一位於 [[Mitochondria]] 的尿素循環酵素，在此將 carbamoyl phosphate 與 ornithine 縮合生成 citrulline；其缺乏是尿素循環最常見的先天性錯誤，導致高血氨。"
+    },
+    "confidence": 0.9,
+    "source_document": "Ornithine transcarbamylase.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "ef2a54446541",
+    "subject": "Mitochondrial Unfolded Protein Response",
+    "predicate": "blunts",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "A robust mitochondrial unfolded protein response blunts mitochondrial ROS production, supporting the mitohormesis buffering systems that limit catecholamine autoxidation; chronic folding overload can exhaust the response and tip redox balance toward epinephrine oxidation to adrenochrome.",
+      "zh-TW": "健全的 [[Mitochondrial Unfolded Protein Response]] 可抑制粒線體 ROS 生成，支撐 [[Mitohormesis]] 的緩衝系統並限制兒茶酚胺自氧化；長期摺疊過載則可能耗竭此反應，使氧化還原平衡偏向 [[Epinephrine]] 氧化生成 [[Adrenochrome]]。"
+    },
+    "confidence": 0.8,
+    "source_document": "Ornithine transcarbamylase.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "da2786e92d23",
+    "subject": "Oxygen Consumption Rate",
+    "predicate": "is_measured_by",
+    "object": "Seahorse XF Analyzer",
+    "context": {
+      "en-US": "Oxygen Consumption Rate is measured in real time with a Seahorse XF Analyzer, whose transient micro-chamber clamps track O2 flux while titrating oligomycin, FCCP and rotenone/antimycin A to resolve basal, ATP-linked, proton-leak and spare respiratory capacity.",
+      "zh-TW": "Oxygen Consumption Rate 以 [[Seahorse XF Analyzer]] 即時測定；儀器利用瞬間微腔夾制追蹤 O₂ 通量，並以 [[Oligomycin]]、[[FCCP]] 與 rotenone/antimycin A 滴定，解析基礎呼吸、ATP 連結呼吸、質子漏與呼吸剩餘容量。"
+    },
+    "confidence": 0.9,
+    "source_document": "Oxygen Consumption Rate.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "7d6afa321afd",
+    "subject": "Oxygen Consumption Rate",
+    "predicate": "reflects",
+    "object": "Mitohormesis",
+    "context": {
+      "en-US": "In mitohormesis and longevity studies an elevated oxygen consumption rate after mild stress indicates enhanced mitochondrial biogenesis and coupling, so OCR is a key pharmacodynamic marker for interventions that raise coupled respiration and thereby lower superoxide anion production.",
+      "zh-TW": "在 [[Mitohormesis]] 與長壽研究中，輕度壓力後升高的 [[Oxygen Consumption Rate]] 顯示粒線體生物合成與偶聯增加，因此 OCR 是評估提升偶聯呼吸、進而降低 [[Superoxide anion]] 生成的介入措施之關鍵藥效指標。"
+    },
+    "confidence": 0.85,
+    "source_document": "Oxygen Consumption Rate.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "8d05ab40a3e1",
+    "subject": "Oxygen-dissociation curve",
+    "predicate": "describes",
+    "object": "Hemoglobin",
+    "context": {
+      "en-US": "The oxygen-dissociation curve relates the partial pressure of oxygen to hemoglobin oxygen saturation; in methemoglobinemia ferric subunits cannot carry oxygen and cause a left shift in the curve of the remaining normal hemoglobin, impairing oxygen release to tissues.",
+      "zh-TW": "Oxygen-dissociation curve 描述氧分壓與 [[Hemoglobin]] 血氧飽和度的關係；在 [[Methemoglobinemia]] 中，鐵(III) 次單元無法攜氧，並使殘餘正常 [[Hemoglobin]] 的曲線左移，妨礙氧釋放至組織。"
+    },
+    "confidence": 0.9,
+    "source_document": "Oxygen-dissociation curve.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "07f71835d365",
+    "subject": "Oxyhemoglobin",
+    "predicate": "is_oxidized_to",
+    "object": "Methemoglobin",
+    "context": {
+      "en-US": "Oxyhemoglobin is in constant redox equilibrium with methemoglobin: spontaneous autoxidation lets bound O2 abstract an electron from Fe2+, yielding ferric heme and releasing superoxide anion at a slow rate (~0.5-3% of Hb per day), normally kept low by cytochrome b5 reductase and NADPH diaphorase.",
+      "zh-TW": "Oxyhemoglobin 與 methemoglobin 處於持續的氧化還原平衡：自發自氧化使結合的 O₂ 從 Fe²⁺ 奪走電子，生成三價血基質並釋放 [[Superoxide anion]]，速率緩慢（每日約 0.5–3% Hb），通常由 cytochrome b5 reductase 與 NADPH diaphorase 維持在低值。"
+    },
+    "confidence": 0.9,
+    "source_document": "Oxyhemoglobin.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "a44fefc0ec17",
+    "subject": "Superoxide anion",
+    "predicate": "oxidizes",
+    "object": "Epinephrine",
+    "context": {
+      "en-US": "Superoxide and downstream H2O2 released by oxyhemoglobin autoxidation oxidize epinephrine and other catecholamines to quinone/semiquinone intermediates and ultimately to adrenochrome, so erythrocyte heme redox and plasma catecholamine redox are coupled through shared radical intermediates.",
+      "zh-TW": "由 oxyhemoglobin 自氧化釋出的 [[Superoxide anion]] 及其下游 H₂O₂ 會將 [[Epinephrine]] 等兒茶酚胺氧化為 quinone/semiquinone 中間體，最終生成 [[Adrenochrome]]，使紅血球血基質氧化還原與血漿兒茶酚胺氧化還原透過共享的自由基中間體相互耦合。"
+    },
+    "confidence": 0.85,
+    "source_document": "Oxyhemoglobin.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "2ce90551126c",
+    "subject": "PARK7",
+    "predicate": "detoxifies",
+    "object": "Glyoxal",
+    "context": {
+      "en-US": "PARK7 (DJ-1) functions primarily as a glutathione-independent glyoxalase, stereospecifically detoxifying free glyoxal to glycolic acid and methylglyoxal to L-lactate, which prevents these dicarbonyls from forming irreversible AGE crosslinks on cysteine, lysine and arginine residues.",
+      "zh-TW": "PARK7（DJ-1）主要作為穀胱甘肽非依賴性 glyoxalase 作用，立體專一地將游離的 [[Glyoxal]] 解毒為 [[Glycolic acid]]、將 [[Methylglyoxal]] 解毒為 [[L-lactate]]，避免這些二碳醣基化合物在 [[Cysteine]]、[[Lysine]] 與 [[Arginine]] 殘基上形成不可逆的 AGE 交聯。"
+    },
+    "confidence": 0.9,
+    "source_document": "PARK7.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "1d34285793d9",
+    "subject": "PARK7",
+    "predicate": "prevents_formation_of",
+    "object": "Advanced Glycation End Products",
+    "context": {
+      "en-US": "By clearing dicarbonyl precursors, PARK7 occupies line 1 of a three-layer enzymatic AGE defense system; loss-of-function mutations cause tissue-specific accumulation of novel AGEs and are strongly linked to early-onset familial Parkinson's Disease.",
+      "zh-TW": "藉由清除二碳醣基前驅物，PARK7 佔據三層酵素性 AGE 防禦體系的第一線；其功能喪失突變會造成組織特異性的新 AGE 累積，並與早發型家族性 [[Parkinson's Disease]] 密切相關。"
+    },
+    "confidence": 0.9,
+    "source_document": "PARK7.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "0eb2dbd14fec",
+    "subject": "GLO1",
+    "predicate": "competes_with",
+    "object": "PARK7",
+    "context": {
+      "en-US": "The canonical glyoxalase system (GLO1/GLO2) consumes glutathione, so under oxidative stress - when glutathione is depleted and methylglyoxal is highest - DJ-1 becomes the last line of defense, whereas adrenochrome-driven oxidative stress both depletes glutathione and activates DJ-1 via Cys106 oxidation.",
+      "zh-TW": "典型 glyoxalase 系統（[[GLO1]]/[[GLO2]]）會消耗 [[Glutathione]]；因此在 [[Oxidative Stress]] 下（glutathione 耗竭、methylglyoxal 最高時），DJ-1 成為最後一道防線，而 [[Adrenochrome]] 驅動的氧化壓力既耗竭 glutathione，又經 Cys106 氧化活化 DJ-1。"
+    },
+    "confidence": 0.8,
+    "source_document": "PARK7.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "1bb85d46290d",
+    "subject": "Pentosidine",
+    "predicate": "belongs_to",
+    "object": "Advanced Glycation End Products",
+    "context": {
+      "en-US": "Pentosidine is a well-known fluorescent cross-link of the Advanced Glycation End Products family, formed by reaction of ribose, glucose or other sugars with lysine and arginine residues, and used to measure the extent of protein glycation and cross-linking in tissues.",
+      "zh-TW": "Pentosidine 是 [[Advanced Glycation End Products]] 家族中著名的螢光性交聯產物，由核糖、葡萄糖等糖類與 [[Lysine]]、[[Arginine]] 殘基反應形成，用於衡量組織中蛋白質的糖化與交聯程度。"
+    },
+    "confidence": 0.9,
+    "source_document": "Pentosidine.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "6da1d034316d",
+    "subject": "Pentosidine",
+    "predicate": "is_elevated_in",
+    "object": "Aging",
+    "context": {
+      "en-US": "Pentosidine concentrations rise with age in heart, lung collagen, skin, patellar tendon, vitreous body, oocytes and intervertebral disk, and were about 200% higher in older adults (mean age 78) than in young counterparts (mean age 25).",
+      "zh-TW": "Pentosidine 濃度隨年齡在心臟、肺部 [[Collagen]]、皮膚、髕韌帶、玻璃體、卵母細胞與椎間盤中升高；older 成人（平均 78 歲）約比年輕對照組（平均 25 歲）高 200%。"
+    },
+    "confidence": 0.9,
+    "source_document": "Pentosidine.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "5390b6f79ded",
+    "subject": "Peptide deformylase",
+    "predicate": "is_inhibited_by",
+    "object": "Actinonin",
+    "context": {
+      "en-US": "Peptide deformylase is a metal-dependent hydrolase that removes the N-formyl group from initiator N-formylmethionine; actinonin, a hydroxamate natural product, blocks deformylation, causing accumulation of formylated, misfolding-prone precursors that engage the mitochondrial unfolded protein response.",
+      "zh-TW": "[[Peptide deformylase]] 是金屬依賴性水解酶，移除新生多肽起始 N-甲醯甲硫胺酸的甲醯基；[[Actinonin]]（一種羥肟酸類天然產物）阻斷去甲醯化，使甲醯化且易錯誤摺疊的前驅物累積，進而啟動 [[Mitochondrial Unfolded Protein Response]]。"
+    },
+    "confidence": 0.9,
+    "source_document": "Peptide deformylase.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "657aab5eea2a",
+    "subject": "Peptide deformylase",
+    "predicate": "is_required_for",
+    "object": "Mitochondria",
+    "context": {
+      "en-US": "Within the mitochondrion, endosymbiotic remnants retain a formylmethionine-based translation system, so peptide deformylase activity is required for maturation of a subset of matrix and inner-membrane proteins, including core respiratory-chain subunits whose assembly shapes superoxide anion output.",
+      "zh-TW": "在 [[Mitochondria]] 內，內共生細菌保留了以甲醯甲硫胺酸為基礎的轉譯系統，因此 [[Peptide deformylase]] 活性是部分基質與內膜蛋白（含核心呼吸鏈次單體）成熟的必要條件，而其組裝狀況會影響 [[Superoxide anion]] 的產出。"
+    },
+    "confidence": 0.8,
+    "source_document": "Peptide deformylase.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "ef1b8b548797",
+    "subject": "Persulfates",
+    "predicate": "oxidizes",
+    "object": "Epinephrine",
+    "context": {
+      "en-US": "Persulfates (peroxydisulfates, S2O8^2-) are strong oxidizing agents used to oxidize epinephrine in aqueous medium, often with bismuth or other metal salts as catalysts, in industrial synthesis of adrenochrome.",
+      "zh-TW": "Persulfates（過二硫酸鹽，S₂O₈²⁻）是強氧化劑，在水溶液中用於氧化 [[Epinephrine]]，常以 [[Bismuth]] 等金屬鹽為催化劑，進行 [[Adrenochrome]] 的工業合成。"
+    },
+    "confidence": 0.9,
+    "source_document": "Persulfates.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "c76db331884a",
+    "subject": "Persulfates",
+    "predicate": "includes",
+    "object": "Potassium Persulfate",
+    "context": {
+      "en-US": "Persulfates is the chemical class containing the peroxydisulfate anion; its common members include potassium persulfate, ammonium persulfate and sodium persulfate, all strong oxidizers used in polymerization and catecholamine oxidation chemistry.",
+      "zh-TW": "Persulfates 為含過二硫酸根陰離子的化學類別；其常見成員包括 [[Potassium Persulfate]]、[[Ammonium Persulfate]] 與 [[Sodium Persulfate]]，皆為用於聚合與兒茶酚胺氧化化學的強氧化劑。"
+    },
+    "confidence": 0.9,
+    "source_document": "Persulfates.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "fd373445545f",
+    "subject": "Adrenochrome",
+    "predicate": "polymerizes_into",
+    "object": "Melanins",
+    "context": {
+      "en-US": "Adrenochrome is a highly unstable aminochrome intermediate that readily undergoes oxidative polymerization to form melanin-like pigments, which accounts for the brown discoloration of degraded epinephrine solutions.",
+      "zh-TW": "[[Adrenochrome]] 是高度不穩定的 aminochrome 中間體，容易經氧化性聚合形成類似 [[Melanins]] 的色素，這正是降解的 [[Epinephrine]] 溶液呈褐色的原因。"
+    },
+    "confidence": 0.9,
+    "source_document": "Polymerization.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "d1fb79dcd1e4",
+    "subject": "Polymerization",
+    "predicate": "produces",
+    "object": "Neuromelanin",
+    "context": {
+      "en-US": "Catecholamine polymerization proceeds by oxidative coupling of quinoid intermediates through semiquinone radical chain propagation, yielding the dark brown neuromelanin that accumulates with age in catecholaminergic neurons of the Substantia Nigra and Locus Coeruleus.",
+      "zh-TW": "兒茶酚胺的聚合經由 quinoid 中間體的氧化偶聯、以 semiquinone 自由基作為鏈傳播物進行，最終生成深褐色 [[Neuromelanin]]，在人一生中累積於 [[Substantia Nigra]] 與 [[Locus Coeruleus]] 的兒茶酚胺神經元。"
+    },
+    "confidence": 0.85,
+    "source_document": "Polymerization.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "1cb197c32a13",
+    "subject": "Neuromelanin",
+    "predicate": "activates",
+    "object": "Microglia",
+    "context": {
+      "en-US": "When neuromelanin granules become saturated with metals they can release pro-oxidant iron, and extracellular neuromelanin released from dying neurons activates microglia, perpetuating neuroinflammation and dopaminergic cell loss in Parkinson's Disease.",
+      "zh-TW": "當 neuromelanin 顆粒被金屬飽和時會釋出促氧化態的 [[Iron]]；而死亡神經元釋出的細胞外 [[Neuromelanin]] 會活化 [[Microglia]]，在 [[Parkinson's Disease]] 中 perpetuate 神經發炎與多巴胺能細胞流失。"
+    },
+    "confidence": 0.8,
+    "source_document": "Polymerization.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "39400b72c0ae",
+    "subject": "Potassium Persulfate",
+    "predicate": "oxidizes",
+    "object": "Epinephrine",
+    "context": {
+      "en-US": "Potassium persulfate (K2S2O8) is one of the strongest known peroxygen oxidizers (E° = 2.01 V for S2O8^2-/2SO4^2-) and is a preferred laboratory oxidant that converts epinephrine to adrenochrome by a clean two-electron oxidation, giving the red chromophore with lambda max near 480 nm.",
+      "zh-TW": "Potassium persulfate（K₂S₂O₈）是已知最強的過氧氧化劑之一（S₂O₈²⁻/2SO₄²⁻ 標準電位 E° = 2.01 V），為實驗室偏好的氧化劑，可藉乾淨的雙電子氧化將 [[Epinephrine]] 轉為 [[Adrenochrome]]，產生吸收峰約 480 nm 的紅色發色團。"
+    },
+    "confidence": 0.9,
+    "source_document": "Potassium Persulfate.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "c10acf17f689",
+    "subject": "Potassium Persulfate",
+    "predicate": "initiates",
+    "object": "Polymerization",
+    "context": {
+      "en-US": "Beyond adrenochrome chemistry, potassium persulfate is widely used as a free-radical initiator in emulsion polymerizations for acrylics and styrene-butadiene rubber, and as an etching agent and bleaching oxidant.",
+      "zh-TW": "除 [[Adrenochrome]] 化學外，[[Potassium Persulfate]] 也廣泛用作丙烯酸類與苯乙烯-丁二橡膠乳化聚合的自由基起始劑，並作為蝕刻劑與漂白氧化劑。"
+    },
+    "confidence": 0.85,
+    "source_document": "Potassium Persulfate.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "de3148bc1bdf",
+    "subject": "Potassium ferricyanide",
+    "predicate": "oxidizes",
+    "object": "Epinephrine",
+    "context": {
+      "en-US": "Potassium ferricyanide (K3[Fe(CN)6]) is a bright red salt classically used to oxidize adrenaline or its salts in aqueous medium to prepare adrenochrome; commercial use is limited by the large quantities required and effluent disposal problems relative to persulfates.",
+      "zh-TW": "[[Potassium ferricyanide]]（K₃[Fe(CN)₆]）是鮮紅色鹽類，傳統上用於在水溶液中氧化 adrenaline 或其鹽類以製備 [[Adrenochrome]]；相較於 persulfates，其商業應用受限於用量龐大與廢液處理問題。"
+    },
+    "confidence": 0.85,
+    "source_document": "Potassium ferricyanide.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "00ff5931b733",
+    "subject": "Prilocaine",
+    "predicate": "causes",
+    "object": "Methemoglobinemia",
+    "context": {
+      "en-US": "Prilocaine is an amino-amide local anesthetic with a well-characterized dose-dependent capacity to induce acquired methemoglobinemia: hydrolysis to o-toluidine and related aromatic amines oxidizes hemoglobin Fe2+ to Fe3+, with onset delayed relative to direct oxidants such as benzocaine.",
+      "zh-TW": "Prilocaine 是胺基-醯胺類局部麻醉劑，具有已知的劑量依賴性後天性 [[Methemoglobinemia]] 誘發能力：水解產生的 o-toluidine 等芳香胺將 [[Hemoglobin]] 的 Fe²⁺ 氧化為 Fe³⁺，其起效時間較 [[Benzocaine]] 等直接氧化劑延後。"
+    },
+    "confidence": 0.9,
+    "source_document": "Prilocaine.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "a12b695f6c3d",
+    "subject": "Prilocaine",
+    "predicate": "is_combined_with",
+    "object": "Lidocaine",
+    "context": {
+      "en-US": "Prilocaine is structurally related to lidocaine and is frequently combined with it, as in EMLA cream, for topical analgesia; both amide anesthetics block voltage-gated sodium channels to arrest nerve impulse propagation.",
+      "zh-TW": "Prilocaine 與 [[Lidocaine]] 結構相關，並常與其合併使用（如 EMLA 乳膏）以進行表面鎮痛；兩者皆為醯胺類麻醉劑，藉阻斷電壓閘控鈉離子通道來阻斷神經衝動傳導。"
+    },
+    "confidence": 0.9,
+    "source_document": "Prilocaine.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "1b6a66ece822",
+    "subject": "G6PD deficiency",
+    "predicate": "increases_susceptibility_to",
+    "object": "Methemoglobinemia",
+    "context": {
+      "en-US": "Infants and patients with G6PD deficiency or preexisting methemoglobinemia are at greater risk of prilocaine-induced methemoglobinemia, with the classic sign being cyanosis refractory to oxygen and chocolate-brown blood; neonates are especially vulnerable because of immature methemoglobin-reductase capacity.",
+      "zh-TW": "嬰兒與患有 [[G6PD deficiency]] 或既有 methemoglobinemia 的患者較易發生 prilocaine 引發的 [[Methemoglobinemia]]，典型表現為對氧氣無反應的發紺與巧克力色血液；新生兒因 methemoglobin 還原酶能力未成熟而風險特別高。"
+    },
+    "confidence": 0.85,
+    "source_document": "Prilocaine.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "c743eb52e754",
+    "subject": "Pyridoxamine",
+    "predicate": "inhibits",
+    "object": "Advanced Glycation End Products",
+    "context": {
+      "en-US": "Pyridoxamine, a vitamin B6 vitamer, acts as a potent carbonyl trap: its amine reversibly binds reactive dicarbonyls such as methylglyoxal, glyoxal and 3-deoxyglucosone in stable Schiff bases, preventing protein crosslinking and the AGE adducts such as pentosidine that follow.",
+      "zh-TW": "Pyridoxamine（维生素 B6 的一種 vitamer）是強效羰基捕捉劑：其胺基可逆地與 [[Methylglyoxal]]、glyoxal 與 3-deoxyglucosone 等高反應性二碳醣基化合物形成相對穩定的 Schiff 鹼，防止蛋白質交聯及隨後的 [[Advanced Glycation End Products]]（如 pentosidine）加合物形成。"
+    },
+    "confidence": 0.9,
+    "source_document": "Pyridoxamine.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "427c75e5a492",
+    "subject": "Pyridoxamine",
+    "predicate": "binds",
+    "object": "Methylglyoxal",
+    "context": {
+      "en-US": "By intercepting carbonyls before they crosslink proteins, pyridoxamine reduces AGE-RAGE signaling, a major source of inflammation and oxidative stress in aging tissues, complementing enzymatic defenses such as the Glyoxalase System and dampening lipid and metal-catalyzed oxidation.",
+      "zh-TW": "藉由在羰基化合物交聯蛋白質之前攔截它們，[[Pyridoxamine]] 減少 AGE–[[RAGE]] 訊號傳遞（老化組織中 [[Inflammation]] 與 [[Oxidative Stress]] 的主要來源），並與 [[Glyoxalase System]] 等酵素性防禦互補，同時抑制脂質與金屬催化的氧化。"
+    },
+    "confidence": 0.85,
+    "source_document": "Pyridoxamine.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "8f3b383b9506",
+    "subject": "Pyrraline",
+    "predicate": "belongs_to",
+    "object": "Advanced Glycation End Products",
+    "context": {
+      "en-US": "Pyrraline is an advanced glycation end product formed by reaction of glucose with lysine residues in proteins; it is abundant in heat-processed foods such as pretzel sticks and is absorbed in the intestine via transporters such as hPEPT1.",
+      "zh-TW": "Pyrraline 是由 [[Glucose]] 與蛋白質中 [[Lysine]] 殘基反應形成的晚期糖基化終產物；它富含於烘焙加工食品（如 pretzel sticks），並經由 [[hPEPT1]] 等轉運蛋白在小腸被吸收。"
+    },
+    "confidence": 0.85,
+    "source_document": "Pyrraline.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "353b9101fb21",
+    "subject": "Quality Control",
+    "predicate": "detects",
+    "object": "Leuco-adrenochrome",
+    "context": {
+      "en-US": "In pharmaceutical manufacturing, quality control tests epinephrine drug products for purity, potency and degradation products, using HPLC and LC-MS with reference standards to assay impurities such as leuco-adrenochrome and adrenochrome.",
+      "zh-TW": "在藥品製造中，品質管控以 [[HPLC]] 與 [[LC-MS]] 搭配 [[Reference standard]] 檢測 [[Epinephrine]] 藥品的純度、效價與降解產物，測定如 [[Leuco-adrenochrome]] 與 [[Adrenochrome]] 等雜質。"
+    },
+    "confidence": 0.85,
+    "source_document": "Quality Control.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "74a32042bdae",
+    "subject": "QueE-like",
+    "predicate": "cleaves",
+    "object": "Glucosepane",
+    "context": {
+      "en-US": "QueE-like enzymes are radical S-adenosylmethionine proteins discovered by metagenomic screening that cleave glucosepane, the exceptionally stable lysine-arginine imidazolium AGE crosslink; they can grow on synthetic glucosepane as sole nutrient and degrade it in vitro.",
+      "zh-TW": "QueE-like 酵素是經由 metagenomic 篩選發現的 radical S-adenosylmethionine 蛋白，可切割 [[Glucosepane]]——一種極穩定的離胺酸-精胺酸 imidazolium AGE 交聯；它們能以合成 glucosepane 為唯一營養源生長，並在體外降解之。"
+    },
+    "confidence": 0.9,
+    "source_document": "QueE-like.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "be6a2338c85e",
+    "subject": "Glyoxalase System",
+    "predicate": "fails_to_clear",
+    "object": "Glucosepane",
+    "context": {
+      "en-US": "Glucosepane is exceptionally resistant to the mammalian Glyoxalase System and other endogenous repair pathways despite accumulating relentlessly in collagen and elastin with age, which is why QueE-like biocatalysts are explored as AGE crosslink breakers complementary to carbonyl traps such as pyridoxamine.",
+      "zh-TW": "[[Glucosepane]] 對哺乳類 [[Glyoxalase System]] 及其他內源性修復途徑極具抗性，卻仍隨年齡在 [[Collagen]] 與 elastin 中持續累積；這正是 QueE-like 酵素被開發為 AGE 交聯破壞劑、並與 [[Pyridoxamine]] 等羰基捕捉劑互補的原因。"
+    },
+    "confidence": 0.85,
+    "source_document": "QueE-like.md",
+    "created": "2026-09-29T15:03:53Z",
+    "updated": "2026-09-29T15:03:53Z"
   }
 ]
