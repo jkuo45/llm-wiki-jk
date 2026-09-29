@@ -64020,5 +64020,929 @@
     "source_document": "Hutchinson-Gilford Progeria Syndrome.md",
     "created": "2026-09-29T16:22:02Z",
     "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "9480bacd7fa4",
+    "subject": "IL-12",
+    "predicate": "drives_differentiation_of",
+    "object": "Th1",
+    "context": {
+      "en-US": "IL-12 is the primary cytokine driving Th1 differentiation: it activates STAT4 in naive CD4+ T cells, induces the master Th1 transcription factor T-bet, and simultaneously suppresses Th2 and Th17 polarization.",
+      "zh-TW": "IL-12 是驅動 Th1 分化最主要的細胞激素：它在初始 CD4+ T 細胞中活化 STAT4、誘導 Th1 譜系的主轉錄因子 T-bet，並同時抑制 Th2 與 Th17 極化。"
+    },
+    "confidence": 0.95,
+    "source_document": "IL-12.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "4852aa6d2eb3",
+    "subject": "IL-12",
+    "predicate": "induces_production_of",
+    "object": "Interferon-gamma",
+    "context": {
+      "en-US": "IL-12 signals through IL-12Rβ1/IL-12Rβ2 to activate the JAK2/TYK2 kinase complex, phosphorylating STAT4 and thereby driving IFN-gamma production in T cells and natural killer cells. This IFN-gamma output is the defining effector function of the IL-12 axis.",
+      "zh-TW": "IL-12 透過 IL-12Rβ1/IL-12Rβ2 訊號活化 JAK2/TYK2 激酶複合體，使 STAT4 磷酸化，進而驅動 T 細胞與自然殺手細胞產生 IFN-gamma。此 IFN-gamma 輸出是 IL-12 軸的代表性效應功能。"
+    },
+    "confidence": 0.95,
+    "source_document": "IL-12.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "86e85e97f602",
+    "subject": "IL-12",
+    "predicate": "is_produced_by",
+    "object": "Macrophages",
+    "context": {
+      "en-US": "IL-12 is secreted mainly by activated macrophages and dendritic cells responding to intracellular pathogens; the resulting IFN-gamma then feeds back to activate macrophage killing mechanisms, forming a self-reinforcing loop between innate and adaptive immunity.",
+      "zh-TW": "IL-12 主要由受到細胞內病原體刺激而活化的巨噬細胞與樹突細胞分泌；所產生的 IFN-gamma 反過來活化巨噬細胞的殺傷機制，形成先天與適應性免疫之間自我強化的迴路。"
+    },
+    "confidence": 0.9,
+    "source_document": "IL-12.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "177c22956108",
+    "subject": "IL-12",
+    "predicate": "activates",
+    "object": "Natural Killer Cells",
+    "context": {
+      "en-US": "IL-12 activates natural killer cells to secrete IFN-gamma and enhance cytotoxicity, providing early innate defense before a fully developed adaptive response is available.",
+      "zh-TW": "IL-12 活化自然殺手細胞，使其分泌 IFN-gamma 並增強細胞毒性，在適應性免疫完全建立前提供先天的防禦。"
+    },
+    "confidence": 0.9,
+    "source_document": "IL-12.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "2f799e1ed2ed",
+    "subject": "IL-4",
+    "predicate": "inhibits",
+    "object": "IL-12",
+    "context": {
+      "en-US": "IL-4 produced by Th2 cells inhibits IL-12 production and thereby blocks Th1 differentiation, establishing the reciprocal antagonism that keeps type 1 and type 2 immune axes mutually exclusive.",
+      "zh-TW": "由 Th2 細胞產生的 IL-4 抑制 IL-12 的產生，因而阻斷 Th1 分化，建立使第一型與第二型免疫軸互斥的相互拮抗關係。"
+    },
+    "confidence": 0.9,
+    "source_document": "IL-12.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "3a1f17e21cfb",
+    "subject": "IL-13",
+    "predicate": "activates",
+    "object": "STAT6",
+    "context": {
+      "en-US": "IL-13 binds the IL-4Rα/IL-13Rα1 receptor complex, activating JAK1 and TYK2, which phosphorylate STAT6. Dimerized STAT6 translocates to the nucleus and drives transcription of mucus, tissue-remodeling and alternatively-activated macrophage genes. IL-13 shares both the IL-4Rα subunit and STAT6 signaling with IL-4.",
+      "zh-TW": "IL-13 與 IL-4Rα/IL-13Rα1 受體複合體結合後活化 JAK1 與 TYK2，進而使 STAT6 磷酸化。二聚化的 STAT6 轉位至細胞核，驅動黏液、組織重塑以及 alternative 活化巨噬細胞相關基因的轉錄。IL-13 與 IL-4 共用 IL-4Rα 次單元與 STAT6 訊號傳遞。"
+    },
+    "confidence": 0.95,
+    "source_document": "IL-13.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "d5283bcdf515",
+    "subject": "IL-13",
+    "predicate": "drives",
+    "object": "Macrophages",
+    "context": {
+      "en-US": "IL-13 drives alternative (M2) macrophage polarization through STAT6 together with the co-activator PPARγ. This reprograms macrophages toward tissue repair and anti-helminth effector functions rather than classical pro-inflammatory activation.",
+      "zh-TW": "IL-13 透過 STAT6 與共同活化因子 PPARγ 驅動巨噬細胞的 alternative（M2）極化，將巨噬細胞重新編程為偏向組織修復與抗蠕蟲效應功能，而非典型的促發炎活化。"
+    },
+    "confidence": 0.9,
+    "source_document": "IL-13.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "f24eb93e678d",
+    "subject": "IL-13",
+    "predicate": "is_produced_by",
+    "object": "Th2",
+    "context": {
+      "en-US": "IL-13 is secreted predominantly by activated Th2 cells, along with mast cells and ILC2s. Together with IL-4 it defines the type 2 immune axis underlying allergic inflammation, eosinophilic disease and fibrotic remodeling.",
+      "zh-TW": "IL-13 主要由活化的 Th2 細胞分泌，另有肥大細胞與 ILC2。它與 IL-4 共同定義了第二型免疫軸，是過敏性發炎、嗜酸性疾病與纖維化重塑的基礎。"
+    },
+    "confidence": 0.9,
+    "source_document": "IL-13.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "adedb3549f35",
+    "subject": "IL-13",
+    "predicate": "is_implicated_in",
+    "object": "Idiopathic Pulmonary Fibrosis",
+    "context": {
+      "en-US": "IL-13 promotes fibroblast activation and collagen synthesis in the lung, making it a contributor to idiopathic pulmonary fibrosis. The same pro-fibrotic signaling that helps wound healing becomes pathogenic when sustained.",
+      "zh-TW": "IL-13 在肺中促進纖維母細胞活化與膠原蛋白合成，因此是特發性肺纖維化的致病因子之一。同一套促進纖維化的訊號在傷口癒合時有益，一旦持續存在便轉為致病。"
+    },
+    "confidence": 0.85,
+    "source_document": "IL-13.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "d77914dd1fbc",
+    "subject": "IL-18",
+    "predicate": "is_cleaved_by",
+    "object": "Caspase-1",
+    "context": {
+      "en-US": "IL-18 is synthesized as an inactive pro-IL-18 precursor and matures only when caspase-1, recruited by the NLRP3 inflammasome, cleaves it in macrophages and other innate immune cells.",
+      "zh-TW": "IL-18 先以無活性的 pro-IL-18 前驅物形式合成，必須由 NLRP3 發炎小體招募的 caspase-1 在巨噬細胞及其他先天免疫細胞中切割後才成熟。"
+    },
+    "confidence": 0.95,
+    "source_document": "IL-18.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "c2053cba287a",
+    "subject": "IL-18",
+    "predicate": "is_a_component_of",
+    "object": "SASP",
+    "context": {
+      "en-US": "IL-18 is one of the cytokine components of the senescence-associated secretory phenotype (SASP), where it contributes to inflammaging. Its release links inflammasome activation in senescent cells to chronic age-related inflammatory signaling.",
+      "zh-TW": "IL-18 是細胞衰老相關分泌表型（SASP）的細胞激素成分之一，參與推動 inflammaging。其釋放將衰老細胞中的發炎小體活化與慢性發炎訊號連結起來。"
+    },
+    "confidence": 0.9,
+    "source_document": "IL-18.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "df0a19e83041",
+    "subject": "IL-18",
+    "predicate": "is_induced_by",
+    "object": "AIM2",
+    "context": {
+      "en-US": "In idiopathic pulmonary fibrosis, DROSHA promotes AIM2 inflammasome activation in alveolar macrophages, driving caspase-1 cleavage and IL-18 secretion. DROSHA deficiency suppresses this AIM2-dependent IL-18 output, adding a macrophage inflammasome axis on top of the fibroblast SASP axis.",
+      "zh-TW": "在特發性肺纖維化中，DROSHA 促進肺泡巨噬細胞的 AIM2 發炎小體活化，驅動 caspase-1 切割與 IL-18 分泌。DROSHA 缺失會抑制此 AIM2 依賴的 IL-18 輸出，在纖維母細胞 SASP 軸之外再加上一條巨噬細胞發炎小體軸。"
+    },
+    "confidence": 0.85,
+    "source_document": "IL-18.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "b307f2e9aa27",
+    "subject": "IL-18",
+    "predicate": "contributes_to",
+    "object": "Inflammaging",
+    "context": {
+      "en-US": "Dysregulated IL-18 signaling is implicated in chronic inflammation, autoimmune disease, metabolic syndrome and age-related inflammaging, which makes the NLRP3/caspase-1 axis that matures IL-18 a target of inflammasome-inhibitor drug development.",
+      "zh-TW": "IL-18 訊號失調與慢性發炎、自體免疫疾病、代謝症候群及與年齡相關的 inflammaging 有關，因此使成熟 IL-18 的 NLRP3/caspase-1 軸成為發炎小體抑制劑藥物開發的標的。"
+    },
+    "confidence": 0.85,
+    "source_document": "IL-18.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "d5fd88a0ee84",
+    "subject": "IL-1alpha",
+    "predicate": "is_released_during",
+    "object": "Pyroptosis",
+    "context": {
+      "en-US": "Unlike IL-1β, IL-1alpha is constitutively bioactive and needs no inflammasome cleavage. It escapes fully potent through Gasdermin D pores during pyroptosis, co-released with IL-1β, HMGB1 and mtDNA as a lytic alarm signal.",
+      "zh-TW": "與 IL-1β 不同，IL-1alpha 具有組成性活性，不需發炎小體切割。在 pyroptosis 過程中它經由 Gasdermin D 孔洞以完全活性的形式釋放，與 IL-1β、HMGB1 及 mtDNA 一同釋出，作為裂解性警報訊號。"
+    },
+    "confidence": 0.9,
+    "source_document": "IL-1alpha.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "9e72664bae17",
+    "subject": "IL-1alpha",
+    "predicate": "activates",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "Extracellular IL-1alpha binds IL-1R1, which recruits IL-1RAcP and MyD88 to activate NF-κB and MAPK in neighboring cells, so a lytic release event converts membrane rupture into a defined inflammatory signal.",
+      "zh-TW": "細胞外的 IL-1alpha 與 IL-1R1 結合，後者招募 IL-1RAcP 與 MyD88，在鄰近細胞中活化 NF-κB 與 MAPK，因此裂解性釋放事件可將膜破裂轉化為明確的發炎訊號。"
+    },
+    "confidence": 0.9,
+    "source_document": "IL-1alpha.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "3499a33208fa",
+    "subject": "IL-1alpha",
+    "predicate": "is_released_during",
+    "object": "Necrosis",
+    "context": {
+      "en-US": "During accidental necrotic rupture IL-1alpha leaks passively as a sterile-inflammation driver alongside HMGB1. Calpain-processed forms add a regulated-release route in some myeloid settings.",
+      "zh-TW": "在意外發生的壞死性膜破裂中，IL-1alpha 與 HMGB1 一同以被動方式外漏，成為無菌性發炎的驅動因子。在某些髓系細胞情境下，calpain 切割後的形式則提供了一條受調控的釋放途徑。"
+    },
+    "confidence": 0.85,
+    "source_document": "IL-1alpha.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "86ce29298a32",
+    "subject": "IL-1alpha",
+    "predicate": "differs_from",
+    "object": "IL-1β",
+    "context": {
+      "en-US": "IL-1alpha is the constitutively bioactive alarmin whose precursor needs no processing, whereas IL-1β requires inflammasome maturation before secretion. The two are co-released during pyroptosis and together define the total IL-1R1 signaling load.",
+      "zh-TW": "IL-1alpha 是組成性活性的 alarmine，其前驅物不需加工即可作用；相對地，IL-1β 必須經發炎小體成熟後才能分泌。兩者在 pyroptosis 期間共同釋放，共同決定 IL-1R1 訊號的總負荷。"
+    },
+    "confidence": 0.85,
+    "source_document": "IL-1alpha.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "91afe6fcb9f7",
+    "subject": "IL-1α",
+    "predicate": "is_translationally_regulated_by",
+    "object": "mTOR",
+    "context": {
+      "en-US": "IL-1α expression is controlled translationally downstream of mTOR via RNA-binding proteins such as AUF1 and ZFP36L1 that stabilize SASP mRNAs, so mTOR activity sets how much IL-1α — and therefore how much of the SASP — a cell makes.",
+      "zh-TW": "IL-1α 的表現受 mTOR 下游的轉譯層級調控，透過 AUF1、ZFP36L1 等 RNA 結合蛋白穩定 SASP mRNA，因此 mTOR 活性決定細胞製造多少 IL-1α，進而決定 SASP 的量。"
+    },
+    "confidence": 0.9,
+    "source_document": "IL-1α.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "b2217d8583c2",
+    "subject": "IL-1α",
+    "predicate": "promotes",
+    "object": "Paracrine Senescence",
+    "context": {
+      "en-US": "Because IL-1α sits upstream of the NF-κB-driven secretome, its activity propagates senescence to neighboring cells. In an IL-1R inhibitor trial on a NrasG12V liver model, blocking the receptor reduced senescent hepatocyte burden, confirming the paracrine circuit in vivo.",
+      "zh-TW": "由於 IL-1α 位於 NF-κB 驅動的分泌組上游，其活性會將衰老傳播至鄰近細胞。在 NrasG12V 肝臟模型中，IL-1R 抑制劑可降低衰老肝細胞的負擔，於體內證實了這條旁分泌迴路。"
+    },
+    "confidence": 0.9,
+    "source_document": "IL-1α.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "97317b6cf509",
+    "subject": "IL-1β",
+    "predicate": "is_cleaved_by",
+    "object": "Caspase-1",
+    "context": {
+      "en-US": "IL-1β requires two signals: NF-κB priming induces pro-IL-1β and NLRP3, then a danger signal activates the NLRP3 inflammasome, which recruits ASC and caspase-1 to cleave pro-IL-1β into the mature 17-kDa secreted form.",
+      "zh-TW": "IL-1β 需要兩道訊號：先由 NF-κB priming 誘導 pro-IL-1β 與 NLRP3，接著危險訊號活化 NLRP3 發炎小體，招募 ASC 與 caspase-1，將 pro-IL-1β 切割成成熟的 17 kDa 分泌型。"
+    },
+    "confidence": 0.95,
+    "source_document": "IL-1β.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "23458de9939d",
+    "subject": "IL-1β",
+    "predicate": "is_activated_by",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "Mitochondrial reactive oxygen species promote NLRP3 oligomerization and ASC speck formation, the assembly step that licenses IL-1β secretion. The redox-sensitive protein TXNIP dissociates from thioredoxin under oxidative conditions and binds NLRP3 directly, bridging oxidative stress and IL-1β release.",
+      "zh-TW": "粒線體活性氧促進 NLRP3 寡聚化與 ASC speck 形成，這是 IL-1β 分泌的授權步驟。對氧化還原敏感的 TXNIP 在氧化條件下自 thioredoxin 解離並直接結合 NLRP3，將氧化壓力與 IL-1β 釋放連結起來。"
+    },
+    "confidence": 0.9,
+    "source_document": "IL-1β.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "7fd22e028f4c",
+    "subject": "Mitochondrial Dysfunction",
+    "predicate": "activates",
+    "object": "NLRP3 Inflammasome",
+    "context": {
+      "en-US": "Mitochondrial dysfunction releases mitochondrial DNA and cardiolipin into the cytosol; both act as damage-associated molecular patterns that engage the NLRP3 inflammasome, and therefore gate IL-1β maturation. Lysosomal rupture, potentiated by lipid peroxidation, adds a second route via released cathepsin B.",
+      "zh-TW": "粒線體功能失調會將粒線體 DNA 與心磷脂釋放至細胞質，兩者皆作為损伤相關分子模式啟動 NLRP3 發炎小體，因而決定 IL-1β 的成熟。溶酶體膜的脂質過氧化促進溶酶體破裂，透過釋出的 cathepsin B 提供第二條路徑。"
+    },
+    "confidence": 0.9,
+    "source_document": "IL-1β.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "ab067172d575",
+    "subject": "IL-1β",
+    "predicate": "is_produced_by",
+    "object": "Microglia",
+    "context": {
+      "en-US": "In the central nervous system IL-1β is produced mainly by microglia and astrocytes in response to amyloid beta plaques, alpha-synuclein aggregates and ATP released from damaged neurons. Elevated IL-1β in Alzheimer's and Parkinson's disease drives synaptic dysfunction, glutamate excitotoxicity and neurodegeneration.",
+      "zh-TW": "在中樞神經系統中，IL-1β 主要由小膠細胞與星狀膠細胞產生，誘發因子包括類澱粉 β 斑塊、α-突觸核蛋白聚集物以及受損神經元釋放的 ATP。Alzheimer's 與 Parkinson's disease 中升高的 IL-1β 驅動突觸功能障礙、麩胺酸興奮性毒性與神經退化。"
+    },
+    "confidence": 0.9,
+    "source_document": "IL-1β.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "018889dc1886",
+    "subject": "SIRT1",
+    "predicate": "suppresses",
+    "object": "IL-1β",
+    "context": {
+      "en-US": "SIRT1 deacetylation of NF-κB downregulates pro-inflammatory cytokine transcription including IL1B, so SIRT1 activity dampens the IL-1β output of the SASP. Kidney-specific SIRT7 knockout similarly lowers IL-1β and other inflammatory factors.",
+      "zh-TW": "SIRT1 對 NF-κB 的去乙醯化作用會下调包括 IL1B 在內的促發炎細胞激素轉錄，因此 SIRT1 活性可抑制 SASP 中 IL-1β 的輸出。腎臟專一性 SIRT7 敲除同樣會降低 IL-1β 及其他發炎因子。"
+    },
+    "confidence": 0.9,
+    "source_document": "IL-1β.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "cbab7ba7a4b2",
+    "subject": "IL-22",
+    "predicate": "promotes",
+    "object": "Thymopoiesis",
+    "context": {
+      "en-US": "IL-22 signals through IL-22R on thymic epithelial cells to drive their proliferation and survival, raising thymic cellularity after total body irradiation (Dudakov et al., 2012). IL-22-deficient mice show impaired immune recovery, and loss of CD4/CD8 double-positive thymocytes triggers IL-23-driven ILC production of IL-22 that feeds back into thymic regeneration.",
+      "zh-TW": "IL-22 透過胸腺上皮細胞上的 IL-22R 訊號促進其增殖與存活，在全身輻射後提高胸腺細胞數（Dudakov et al., 2012）。IL-22 缺乏小鼠的免疫恢復受損；CD4/CD8 雙陽性胸腺細胞的流失會觸發 IL-23 驅動的 ILC 產生 IL-22，再回頭促進胸腺再生。"
+    },
+    "confidence": 0.95,
+    "source_document": "IL-22.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "e4426aeb171b",
+    "subject": "IL-22",
+    "predicate": "is_produced_by",
+    "object": "TH17",
+    "context": {
+      "en-US": "IL-22, a member of the IL-10 gene family, is produced mainly by T helper 17 cells and innate lymphoid cell subsets. It mediates mucosal barrier maintenance through antimicrobial peptides and epithelial proliferation after tissue injury.",
+      "zh-TW": "IL-22 屬於 IL-10 基因家族，主要由輔助型 T 細胞 17（TH17）與先天淋巴細胞亞群產生。它透過抗菌胜肽與上皮細胞增殖，在組織受損後維持黏膜屏障並促進修復。"
+    },
+    "confidence": 0.9,
+    "source_document": "IL-22.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "2077d7885387",
+    "subject": "IL-7",
+    "predicate": "is_produced_by",
+    "object": "Thymic Epithelial Cells",
+    "context": {
+      "en-US": "Thymic epithelial cells are the main intrathymic source of IL-7, and their IL-7 production is stimulated by IGF-1. That links growth hormone signaling to thymic function and positions IL-7 as a downstream effector of GH-mediated thymic rejuvenation.",
+      "zh-TW": "胸腺上皮細胞是胸腺內 IL-7 的主要來源，其 IL-7 產生可被 IGF-1 刺激。這將生長激素訊號與胸腺功能連結起來，使 IL-7 成為 GH 介導胸腺回春的下游效應因子。"
+    },
+    "confidence": 0.9,
+    "source_document": "IL-7.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "1bd88024492f",
+    "subject": "IL-4",
+    "predicate": "activates",
+    "object": "STAT6",
+    "context": {
+      "en-US": "IL-4 binding to IL-4Rα activates JAK1 and JAK3, which phosphorylate STAT6; STAT6 then drives GATA3, CCL17, CCL22 and MUC5AC transcription, defining the type 2 immune program. IL-13 uses the same IL-4Rα subunit and STAT6 axis.",
+      "zh-TW": "IL-4 與 IL-4Rα 結合後活化 JAK1 與 JAK3，進而使 STAT6 磷酸化；STAT6 隨後驅動 GATA3、CCL17、CCL22 與 MUC5AC 的轉錄，定義第二型免疫程式。IL-13 使用相同的 IL-4Rα 次單元與 STAT6 軸。"
+    },
+    "confidence": 0.95,
+    "source_document": "IL-4.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "c9b91fcbe0db",
+    "subject": "IL-4",
+    "predicate": "induces",
+    "object": "IgE",
+    "context": {
+      "en-US": "IL-4 is indispensable for IgE class switching in B cells; IL-4-deficient mice fail to produce IgE and have impaired anti-helminth immunity. This is why dupilumab, an anti-IL-4Rα antibody blocking both IL-4 and IL-13, is approved for type 2 inflammatory disease.",
+      "zh-TW": "IL-4 對 B 細胞的 IgE 類別轉換不可或缺；IL-4 缺乏小鼠無法產生 IgE，且抗蠕蟲免疫受損。這也是為何阻斷 IL-4 與 IL-13 的抗 IL-4Rα 抗體 dupilumab 獲准用於第二型發炎性疾病。"
+    },
+    "confidence": 0.95,
+    "source_document": "IL-4.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "0a180f9fc766",
+    "subject": "IL-4",
+    "predicate": "drives",
+    "object": "Th2",
+    "context": {
+      "en-US": "IL-4 acts in autocrine and paracrine fashion to promote and maintain the Th2 phenotype by inducing GATA3 and suppressing T-bet and Th1 differentiation, thereby holding Th1 and Th2 lineages in mutual antagonism.",
+      "zh-TW": "IL-4 以自分泌與旁分泌方式誘導 GATA3 並抑制 T-bet 與 Th1 分化，藉以促進並維持 Th2 表型，使 Th1 與 Th2 譜系處於相互拮抗的狀態。"
+    },
+    "confidence": 0.9,
+    "source_document": "IL-4.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "fdc7c601cf18",
+    "subject": "IL-4",
+    "predicate": "drives",
+    "object": "Macrophages",
+    "context": {
+      "en-US": "IL-4 drives M2 alternative macrophage activation via STAT6 and the co-activator PPARγ, favoring wound healing and anti-helminth defense. The same polarization can be exploited by tumors, where IL-4-driven M2 tumor-associated macrophages create an immunosuppressive microenvironment.",
+      "zh-TW": "IL-4 透過 STAT6 與共同活化因子 PPARγ 驅動 M2 alternative 巨噬細胞活化，有利於傷口癒合與抗蠕蟲防禦。腫瘤也可利用同一極化途徑，由 IL-4 驅動的 M2 腫瘤相關巨噬細胞形成免疫抑制性微環境。"
+    },
+    "confidence": 0.9,
+    "source_document": "IL-4.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "443c4612c24a",
+    "subject": "IL-6R",
+    "predicate": "binds",
+    "object": "IL-6",
+    "context": {
+      "en-US": "IL-6R (CD126) is the ligand-binding subunit of the IL-6 receptor complex and has no intrinsic enzymatic activity. IL-6 binds IL-6R at site I, the binary complex then recruits gp130 at site II to form a 2:2:2 hexamer, and gp130 dimerization brings JAK1, JAK2 and TYK2 together to phosphorylate STAT3.",
+      "zh-TW": "IL-6R（CD126）是 IL-6 受體複合體的配體結合次單元，本身不具酵素活性。IL-6 先在 site I 與 IL-6R 結合，該二元複合體再於 site II 招募 gp130 形成 2:2:2 六聚體，gp130 二聚化使 JAK1、JAK2 與 TYK2 聚集並使 STAT3 磷酸化。"
+    },
+    "confidence": 0.95,
+    "source_document": "IL-6R.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "34e97c258c59",
+    "subject": "IL-6R",
+    "predicate": "enables",
+    "object": "Inflammation",
+    "context": {
+      "en-US": "Two signalling modes are distinguished by IL-6R source. Classical cis signalling uses membrane IL-6R, largely restricted to hepatocytes and some leukocytes; trans-signalling uses soluble IL-6R shed by ADAM17 to reach stromal, epithelial and endothelial cells, and is the mode most associated with chronic inflammatory pathology.",
+      "zh-TW": "IL-6R 的來源決定了兩種訊號模式。古典 cis 訊號使用膜上 IL-6R，主要侷限於肝細胞與部分白血球；trans 訊號則使用由 ADAM17 剪離的可溶性 IL-6R，使基質、上皮與內皮細胞得以反應，也是與慢性發炎病理關聯最密切的模式。"
+    },
+    "confidence": 0.9,
+    "source_document": "IL-6R.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "533d914f9b88",
+    "subject": "IL-6R",
+    "predicate": "is_a_target_of",
+    "object": "Senomorphic Therapy",
+    "context": {
+      "en-US": "IL-6R is the receptor arm of the autocrine IL-6 loop that sustains the SASP: secreted IL-6 activates JAK-STAT3, which promotes SASP gene expression and reinforces the senescent state without killing the cell. That is why IL-6R blockade and JAK inhibitors such as ruxolitinib act as senomorphics.",
+      "zh-TW": "IL-6R 是維持 SASP 的自分泌 IL-6 迴路中的受體端：分泌出的 IL-6 活化 JAK-STAT3，促進 SASP 基因表現並在不下殺細胞的情況下強化衰老狀態。這正是 IL-6R 阻斷與 JAK 抑制劑（如 ruxolitinib）可作為 senomorphic 藥物的原因。"
+    },
+    "confidence": 0.9,
+    "source_document": "IL-6R.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "582ff57d68bf",
+    "subject": "INF2",
+    "predicate": "precedes",
+    "object": "DRP1",
+    "context": {
+      "en-US": "At endoplasmic reticulum-mitochondria contact sites INF2, cooperating with Spire1C, nucleates and organizes actin filaments that drive the initial constriction of the mitochondrion. This actin-dependent step precedes recruitment and oligomerization of DRP1, which then executes membrane scission.",
+      "zh-TW": "在內質網—粒線體接觸位點，INF2 與 Spire1C 合作，核化並組織肌動蛋白絲，驅動粒線體的初步收縮。這個依賴肌動蛋白的步驟先於 DRP1 的招募與寡聚化，之後由 DRP1 執行膜切割。"
+    },
+    "confidence": 0.9,
+    "source_document": "INF2.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "01a0a009d2ef",
+    "subject": "INF2",
+    "predicate": "is_localized_to",
+    "object": "Endoplasmic Reticulum",
+    "context": {
+      "en-US": "INF2 is an endoplasmic-reticulum-bound inverted formin that acts at ER-mitochondria contact sites, coupling cytoskeletal remodeling at membrane contact sites to organelle division and thereby underpinning mitochondrial integrity.",
+      "zh-TW": "INF2 是結合於內質網的 inverted formin，在內質網—粒線體接觸位點作用，將膜接觸位點的細胞骨架重塑與胞器分裂耦合，進而支撐粒線體完整性。"
+    },
+    "confidence": 0.9,
+    "source_document": "INF2.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "2b95a74fb4bb",
+    "subject": "IP3R2",
+    "predicate": "interacts_with",
+    "object": "FUNDC1",
+    "context": {
+      "en-US": "IP3R2 is an ER-resident calcium channel that interacts with FUNDC1 at mitochondria-associated ER membranes. FUNDC1 helps maintain MAM structural stability; when it is absent the MAM structure breaks down, impairing mitochondrial fission and producing abnormal calcium signaling — a mechanism relevant to calcium homeostasis failure in neurodegenerative disease.",
+      "zh-TW": "IP3R2 是內質網上的鈣離子通道，在粒線體—內質網相鄰膜（MAM）處與 FUNDC1 相互作用。FUNDC1 有助於維持 MAM 的結構穩定；當其缺失時，MAM 結構解體，導致粒線體分裂受損與異常的鈣離子訊號——這是神經退化疾病中鈣恆定失衡的機制之一。"
+    },
+    "confidence": 0.9,
+    "source_document": "IP3R2.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "da09243f3099",
+    "subject": "ITPR2",
+    "predicate": "encodes",
+    "object": "IP3R2",
+    "context": {
+      "en-US": "ITPR2 is the gene encoding inositol 1,4,5-trisphosphate receptor type 2 (IP3R2), an isoform of the IP3 receptor family that mediates calcium release from the endoplasmic reticulum into the cytosol.",
+      "zh-TW": "ITPR2 是編碼肌醇 1,4,5-三磷酸受體第 2 型（IP3R2）的基因，屬於 IP3 受體家族的異構型，負責將鈣離子由內質網釋放至細胞質。"
+    },
+    "confidence": 0.95,
+    "source_document": "ITPR2.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "202cba850764",
+    "subject": "ITPR2",
+    "predicate": "is_enriched_in",
+    "object": "MERCS",
+    "context": {
+      "en-US": "IP3R2 is enriched at mitochondria-ER contact sites, where it couples to the VDAC-MCU axis to enable direct calcium transfer from the ER into the mitochondrial matrix, shaping mitochondrial calcium dynamics relevant to senescence-associated matrix calcium overload.",
+      "zh-TW": "IP3R2 富含於粒線體—內質網接觸位點，在該處與 VDAC-MCU 軸耦合，使鈣離子能由內質網直接轉移至粒線體基質，塑造與衰老相關粒線體基質鈣超載有關的鈣動態。"
+    },
+    "confidence": 0.9,
+    "source_document": "ITPR2.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "6391b21e6163",
+    "subject": "IRF3",
+    "predicate": "is_phosphorylated_by",
+    "object": "TBK1",
+    "context": {
+      "en-US": "Resting IRF3 is cytoplasmic and auto-inhibited. Pattern-recognition receptors such as the cGAS-STING axis and RIG-I-like receptors activate TBK1 (and IKKε), which phosphorylates IRF3 on multiple C-terminal serines (e.g. Ser396), causing conformational change, dimerization and nuclear translocation.",
+      "zh-TW": "靜止狀態的 IRF3 位於細胞質並受自我抑制。cGAS-STING 軸與 RIG-I 類受體等模式識別受體會活化 TBK1（及 IKKε），後者在 IRF3 多個 C 端絲胺酸（如 Ser396）上磷酸化，導致構形改變、二聚化並轉位入核。"
+    },
+    "confidence": 0.95,
+    "source_document": "IRF3.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "5d1fbfc226d5",
+    "subject": "IRF3",
+    "predicate": "drives",
+    "object": "SASP",
+    "context": {
+      "en-US": "Senescent cells accumulate cytosolic chromatin fragments and micronuclei that activate cGAS→STING→TBK1, which phosphorylates IRF3. Nuclear IRF3 then induces type I interferons and a subset of SASP factors, contributing an interferon-rich branch of the secretome distinct from the NF-κB/IL-6 arm (Dou et al., 2017).",
+      "zh-TW": "衰老細胞會累積細胞質染色質碎片與微核，啟動 cGAS→STING→TBK1，後者使 IRF3 磷酸化。入核的 IRF3 隨後誘導第一型干擾素與部分 SASP 因子，形成與 NF-κB/IL-6 支路不同的、干擾素 rich 的分泌組分支（Dou et al., 2017）。"
+    },
+    "confidence": 0.9,
+    "source_document": "IRF3.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "00c555051bab",
+    "subject": "IRF3",
+    "predicate": "induces",
+    "object": "IFN-β",
+    "context": {
+      "en-US": "In the nucleus IRF3 cooperates with NF-κB and AP-1 at promoter enhancers such as the IFN-β enhanceosome, inducing type I interferons and interferon-stimulated genes. IRF3 is thus the terminal effector of cytosolic DNA/RNA sensing and a key arm of sterile inflammatory responses.",
+      "zh-TW": "在細胞核內，IRF3 於 IFN-β enhanceosome 等啟動子增強元件上與 NF-κB 及 AP-1 協作，誘導第一型干擾素與干擾素刺激基因的表現。因此 IRF3 是細胞質 DNA/RNA 感知的末端效應因子，也是無菌性發炎反應的重要支臂。"
+    },
+    "confidence": 0.9,
+    "source_document": "IRF3.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "301e7b978825",
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "IRS-2",
+    "context": {
+      "en-US": "SIRT1 deacetylates insulin receptor substrate-2 (IRS-2), which permits its efficient tyrosine phosphorylation by the insulin/IGF-1 receptor and consequent PI3K-Akt activation. Improved IRS-2 signaling in peripheral tissue counteracts the insulin resistance seen in type 2 diabetes mellitus.",
+      "zh-TW": "SIRT1 會去乙醯化胰島素受體底物 2（IRS-2），使其得以被胰島素/IGF-1 受體有效酪胺酸磷酸化並啟動下游 PI3K-Akt。外周組織中 IRS-2 訊號的改善可對抗第二型糖尿病中的胰島素阻抗。"
+    },
+    "confidence": 0.9,
+    "source_document": "IRS-2.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "aba86fc423b4",
+    "subject": "IRS-2",
+    "predicate": "couples_to",
+    "object": "Insulin Signaling",
+    "context": {
+      "en-US": "IRS-2 is a cytosolic adapter phosphorylated by the insulin/IGF-1 receptor that bridges receptor activation to PI3K-Akt signaling, the pathway controlling glucose homeostasis and beta-cell function. Impaired IRS-2 signaling is a contributor to insulin resistance.",
+      "zh-TW": "IRS-2 是由胰島素/IGF-1 受體磷酸化的細胞質轉接蛋白，負責把受體活化橋接到控制葡萄糖恆定與 β 細胞功能的 PI3K-Akt 訊號。IRS-2 訊號受損是造成胰島素阻抗的因素之一。"
+    },
+    "confidence": 0.9,
+    "source_document": "IRS-2.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "387b82780589",
+    "subject": "ISG15",
+    "predicate": "is_a_component_of",
+    "object": "SASP",
+    "context": {
+      "en-US": "ISG15 is an interferon-inducible ubiquitin-like modifier that, in senescence, is induced by p16 overexpression and marks a distinct p53-dependent SASP profile enriched for interferon-stimulated genes. Its ISGylation and secreted cytokine activities reinforce a type I interferon state and promote paracrine senescence and immune surveillance.",
+      "zh-TW": "ISG15 是干擾素誘導的類泛素修飾蛋白，在細胞衰老中由 p16 過度表現所誘導，標記出一種依賴 p53、富含干擾素刺激基因的獨特 SASP 圖譜。其 ISG 化與分泌型細胞激素活性強化第一型干擾素狀態，並促進旁分泌衰老與免疫監視。"
+    },
+    "confidence": 0.9,
+    "source_document": "ISG15.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "c401bd871e17",
+    "subject": "ISG15",
+    "predicate": "is_induced_by",
+    "object": "p16INK4A",
+    "context": {
+      "en-US": "ISG15 expression rises when p16 is overexpressed, so the protein's presence reports a senescence program skewed toward innate immunity rather than pure inflammatory secretion. It also acts as a free secreted cytokine and as an E1/E2/E3-conjugated modifier (ISGylation) of target proteins.",
+      "zh-TW": "當 p16 過度表現時 ISG15 的表現上升，因此該蛋白的存在可反映一個偏向先天免疫而非純發炎分泌的衰老程式。它同時可作為游離的分泌型細胞激素，並透過 E1/E2/E3 對目標蛋白進行共價修飾（ISG 化）。"
+    },
+    "confidence": 0.85,
+    "source_document": "ISG15.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "bec3bb37dfc7",
+    "subject": "Idiopathic Pulmonary Fibrosis",
+    "predicate": "is_driven_by",
+    "object": "SASP",
+    "context": {
+      "en-US": "IPF is a paradigm of senescence-driven pathology. Aged lung fibroblasts accumulate senescence markers and secrete a pro-fibrotic SASP including IL-11, leukotrienes and TGFβ, which recruits immune cells and sustains a fibrogenic loop that resists normal repair. SIRT1 downregulation in IPF de-represses IL-11 transcription.",
+      "zh-TW": "IPF 是衰老驅動病理的典範。老化的肺纖維母細胞累積衰老標記並分泌促纖維化的 SASP（包含 IL-11、白三烯與 TGFβ），招募免疫細胞並維持抗拒正常修復的纖維生成迴路。IPF 中 SIRT1 的下调使 IL-11 轉錄去抑制。"
+    },
+    "confidence": 0.95,
+    "source_document": "Idiopathic Pulmonary Fibrosis.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "aa9f1b78876b",
+    "subject": "Drosha",
+    "predicate": "activates",
+    "object": "AIM2",
+    "context": {
+      "en-US": "In idiopathic pulmonary fibrosis alveolar macrophages show elevated Drosha and AIM2. DROSHA promotes AIM2 inflammasome activation, caspase-1 cleavage and IL-1β/IL-18 release, linking Microprocessor activity to innate immune lung inflammation and adding a macrophage inflammasome axis atop the fibroblast SASP axis.",
+      "zh-TW": "在特發性肺纖維化的肺泡巨噬細胞中，Drosha 與 AIM2 表現升高。DROSHA 促進 AIM2 發炎小體活化、caspase-1 切割以及 IL-1β/IL-18 釋放，將 Microprocessor 活性與先天免疫性肺部發炎連結起來，在纖維母細胞 SASP 軸之上加上一條巨噬細胞發炎小體軸。"
+    },
+    "confidence": 0.9,
+    "source_document": "Idiopathic Pulmonary Fibrosis.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "a95af8a7f025",
+    "subject": "Idiopathic Pulmonary Fibrosis",
+    "predicate": "is_a_therapeutic_target_in",
+    "object": "Senolytics",
+    "context": {
+      "en-US": "Senolytic clearance with dasatinib plus quercetin reduces fibrosis in aged and bleomycin/IPF mouse models, and a pilot trial of D+Q in IPF patients improved physical function (Justice et al., 2021), establishing IPF as a leading indication for senotherapeutics despite its 3-5 year fatal course.",
+      "zh-TW": "以 dasatinib 加 quercetin 進行衰老細胞清除，可在老化與 bleomycin/IPF 小鼠模型中減少纖維化；D+Q 在 IPF 患者的先導性試驗也改善了身體功能（Justice et al., 2021），儘管 IPF 病程在 3–5 年內多為致命，仍使 IPF 成為 senotherapeutics 的主要適應症之一。"
+    },
+    "confidence": 0.9,
+    "source_document": "Idiopathic Pulmonary Fibrosis.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "ca75d0e2b5fc",
+    "subject": "Idiopathic Pulmonary Fibrosis",
+    "predicate": "is_associated_with",
+    "object": "Inflammaging",
+    "context": {
+      "en-US": "IPF is an age-related inflammatory and fibrotic disease in which senescent alveolar type II cells and fibroblasts accumulate prior to fibrosis and seed the profibrotic SASP loop. SASP factors such as IL-6, CCL2, MMP7 and MMP8 serve as candidate biomarkers of disease activity.",
+      "zh-TW": "IPF 是一種與年齡相關的發炎性纖維化疾病，衰老的肺泡第二型細胞與纖維母細胞在纖維化前累積並播下促纖維化的 SASP 迴路。IL-6、CCL2、MMP7 與 MMP8 等 SASP 因子可作為疾病活動度的候選生物標記。"
+    },
+    "confidence": 0.85,
+    "source_document": "Idiopathic Pulmonary Fibrosis.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "7b30ae0059cd",
+    "subject": "Ifosfamide",
+    "predicate": "is_a_type_of",
+    "object": "Chemotherapy",
+    "context": {
+      "en-US": "Ifosfamide is a bifunctional nitrogen-mustard alkylating antineoplastic agent structurally related to cyclophosphamide, given as a prodrug. Hepatic CYP3A4 and CYP2B6 convert it to ifosfamide mustard, which forms DNA interstrand crosslinks, and to the neuro- and nephrotoxic chloroacetaldehyde.",
+      "zh-TW": "Ifosfamide 是結構上與 cyclophosphamide 相關的雙功能氮芥類烷化抗腫瘤藥物，以前藥形式給藥。肝臟的 CYP3A4 與 CYP2B6 將其轉為形成 DNA 鏈間交聯的 ifosfamide mustard，以及具神經毒性与腎毒性的 chloroacetaldehyde。"
+    },
+    "confidence": 0.95,
+    "source_document": "Ifosfamide.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "6511a83066ef",
+    "subject": "Ifosfamide",
+    "predicate": "is_reversed_by",
+    "object": "Methylene blue",
+    "context": {
+      "en-US": "Ifosfamide-induced encephalopathy — confusion, hallucination and coma — is attributed to its chloroacetaldehyde metabolite and is effectively reversed by intravenous methylene blue (50 mg every 4-6 h), which restores the mitochondrial electron transport that the toxic metabolite inhibits. Prophylactic dosing is used in high-risk patients.",
+      "zh-TW": "Ifosfamide 引發的腦病變——意識混亂、幻覺與昏迷——歸因於其代謝物 chloroacetaldehyde，並可被靜脈注射 methylene blue（每 4–6 小時 50 mg）有效逆轉；methylene blue 可恢復被該毒性代謝物抑制的粒線體電子傳遞。高風險患者會使用預防性給藥。"
+    },
+    "confidence": 0.9,
+    "source_document": "Ifosfamide.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "3f421ebe7b94",
+    "subject": "IkappaBalpha",
+    "predicate": "is_phosphorylated_by",
+    "object": "IKKbeta",
+    "context": {
+      "en-US": "Upon TNF-alpha or IL-1β stimulation IKKβ phosphorylates IκBα at Ser32 and Ser36, triggering K48-linked ubiquitination by the SCF-beta-TrCP E3 ligase and rapid proteasomal degradation within minutes. Freed NF-κB then translocates to the nucleus to activate target genes.",
+      "zh-TW": "在 TNF-alpha 或 IL-1β 刺激下，IKKβ 在 Ser32 與 Ser36 磷酸化 IκBα，觸發 SCF-beta-TrCP E3 泛素連接酶造成的 K48 型泛素化，並在數分鐘內迅速被蛋白酶體降解。釋出的 NF-κB 隨後轉位入核以活化目標基因。"
+    },
+    "confidence": 0.95,
+    "source_document": "IkappaBalpha.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "167c2303ad66",
+    "subject": "IkappaBalpha",
+    "predicate": "controls",
+    "object": "SASP",
+    "context": {
+      "en-US": "Because IκBα degradation is the rate-limiting step for canonical NF-κB activation, its turnover gates the NF-κB arm of senescence. In senescent cells persistent DDR and cytokine signals keep the IKK complex active, driving continuous IκBα phosphorylation and sustained SASP expression of IL-6 and IL-8 (Chien et al., 2011).",
+      "zh-TW": "由於 IκBα 的降解是典型 NF-κB 活化的速率限制步驟，其周轉決定了衰老的 NF-κB 支路。在衰老細胞中持續的 DDR 與細胞激素訊號使 IKK 複合體持續活化，造成 IκBα 持續磷酸化，並維持 IL-6 與 IL-8 的 SASP 表現（Chien et al., 2011）。"
+    },
+    "confidence": 0.9,
+    "source_document": "IkappaBalpha.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "bc5ad5f09ea3",
+    "subject": "IkappaBalpha",
+    "predicate": "is_degraded_by",
+    "object": "Proteasome",
+    "context": {
+      "en-US": "Phosphorylated IκBα is K48-linked ubiquitinated and then degraded by the proteasome, the step that liberates NF-κB. Because IκBα is itself an NF-κB transcriptional target, newly synthesized IκBα re-enters the nucleus, removes NF-κB from chromatin and exports it back to the cytoplasm, forming a tight negative feedback loop.",
+      "zh-TW": "磷酸化的 IκBα 會被 K48 型泛素化，隨後由蛋白酶體降解，這一步驟釋放 NF-κB。由於 IκBα 本身就是 NF-κB 的轉錄標的，新合成的 IκBα 會重新進入細胞核、將 NF-κB 從染色質移除並將其輸出回細胞質，形成緊密的負回饋迴路。"
+    },
+    "confidence": 0.9,
+    "source_document": "IkappaBalpha.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "774c14dfd783",
+    "subject": "IkappaB",
+    "predicate": "inhibits",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "IκB proteins are a family of cytoplasmic inhibitors that sequester NF-κB dimers in the cytosol via their ankyrin-repeat binding of the nuclear localization signal, preventing nuclear import. IκBα is the primary member for canonical signalling; IκBζ is nuclear and regulates IL-6 transcription.",
+      "zh-TW": "IκB 蛋白是一系列細胞質抑制蛋白，透過其 ankyrin repeat 結構結合 NF-κB 二聚體的核定位訊號，將其隔離在細胞質中，阻止核輸入。IκBα 是典型訊號傳遞的主要成員；IκBζ 位於細胞核內並調控 IL-6 的轉錄。"
+    },
+    "confidence": 0.95,
+    "source_document": "IkappaB.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "c0e6fb6d5fe7",
+    "subject": "IkappaB",
+    "predicate": "is_a_member_of",
+    "object": "Inflammation",
+    "context": {
+      "en-US": "IκB family members include IκBα, IκBβ, IκBε, nuclear IκBζ, the atypical BCL-3, and the precursor proteins p105 and p100 that are processed to p50 and p52. Their regulated turnover is what switches NF-κB-driven inflammatory transcription on and off.",
+      "zh-TW": "IκB 家族成員包括 IκBα、IκBβ、IκBε、核內的 IκBζ、非典型的 BCL-3，以及可被加工為 p50 與 p52 的前驅蛋白 p105 與 p100。它們受調控的周轉，正是切換 NF-κB 驅動的發炎轉錄開關的機制。"
+    },
+    "confidence": 0.8,
+    "source_document": "IkappaB.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "3a186b9ecd21",
+    "subject": "Imatinib",
+    "predicate": "inhibits",
+    "object": "c-KIT",
+    "context": {
+      "en-US": "Imatinib is the prototype tyrosine-kinase inhibitor targeting BCR-ABL, c-KIT and PDGFR. Its inhibition of c-KIT is the basis of its activity in KIT-mutant gastrointestinal stromal tumors, and it is the classic single-target KIT inhibitor against which multi-targeted agents such as pazopanib are contrasted.",
+      "zh-TW": "Imatinib 是標靶 BCR-ABL、c-KIT 與 PDGFR 的原型酪胺酸激酶抑制劑。其對 c-KIT 的抑制是它在 KIT 突變型胃腸道間質腫瘤中的活性基礎，也是與 pazopanib 等多標的藥物對照時的典型單一標的 KIT 抑制劑。"
+    },
+    "confidence": 0.95,
+    "source_document": "Imatinib.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "41ef91323a74",
+    "subject": "Imatinib",
+    "predicate": "treats",
+    "object": "Cancer",
+    "context": {
+      "en-US": "Imatinib revolutionized the treatment of chronic myeloid leukemia through BCR-ABL inhibition and is standard therapy for KIT-mutant GIST, alongside the co-target PDGFR. It is a foundational precision-oncology agent.",
+      "zh-TW": "Imatinib 透過抑制 BCR-ABL 徹底改變了慢性骨髓性白血病的治療，並與其共同標的 PDGFR 一同成為 KIT 突變型 GIST 的標準治療。它是精準腫瘤學的奠基性藥物。"
+    },
+    "confidence": 0.9,
+    "source_document": "Imatinib.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "c646726cf062",
+    "subject": "Immune Surveillance",
+    "predicate": "clears",
+    "object": "Senescent Cells",
+    "context": {
+      "en-US": "Immune surveillance is the continuous monitoring of tissues by the immune system to detect and eliminate pathogens, malignant cells and senescent cells. Senescent cells are normally cleared by natural killer cells and macrophages recognizing surface ligands such as NKG2D ligands and SASP components.",
+      "zh-TW": "免疫監視是指免疫系統持續監控組織，以偵測並清除病原體、惡性細胞與衰老細胞。衰老細胞正常情況下會被辨識到細胞表面配體（如 NKG2D 配體與 SASP 成分）的自然殺手細胞與巨噬細胞清除。"
+    },
+    "confidence": 0.95,
+    "source_document": "Immune Surveillance.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "3e707190cc9d",
+    "subject": "Aging",
+    "predicate": "impairs",
+    "object": "Immune Surveillance",
+    "context": {
+      "en-US": "Age-related decline in immune surveillance permits senescent cells to accumulate, driving tissue dysfunction and age-related pathology. Pharmacological senolytics may compensate for this failed physiological clearance mechanism.",
+      "zh-TW": "與年齡相關的免疫監視衰退使衰老細胞得以累積，進而造成組織功能失調與年齡相關病理。藥物性的 senolytics 可補償這個失效的生理性清除機制。"
+    },
+    "confidence": 0.9,
+    "source_document": "Immune Surveillance.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "047151eeba9c",
+    "subject": "Indirect Calorimetry",
+    "predicate": "measures",
+    "object": "Resting Metabolic Rate",
+    "context": {
+      "en-US": "Indirect calorimetry estimates energy expenditure from respiratory gas exchange — the rate of O2 consumption and CO2 production — converted to energy via the respiratory quotient. Under standardized post-absorptive, rest-supine, thermoneutral conditions it is the standard method for resting metabolic rate, with typical precision around 3%.",
+      "zh-TW": "間接量熱法藉由呼吸氣體交換（O2 消耗與 CO2 產生速率）並以呼吸商換算為能量，來估算能量消耗。在標準化的事後吸收狀態、靜臥與熱中性條件下，它是測量靜止代謝率的標準方法，典型精度約為 3%。"
+    },
+    "confidence": 0.95,
+    "source_document": "Indirect Calorimetry.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "9aa79f574832",
+    "subject": "Doubly-Labelled Water",
+    "predicate": "is_compared_with",
+    "object": "Indirect Calorimetry",
+    "context": {
+      "en-US": "Indirect calorimetry is the principal alternative to the doubly-labelled water method for assessing energy expenditure, and the two are combined to partition exercise costs from post-exercise metabolism — for example separating flight costs from post-flight metabolism in bats.",
+      "zh-TW": "間接量熱法是評估能量消耗時雙重標記水法的主要替代方案，兩者可合併使用以區分運動當下成本與運動後代謝，例如在蝙蝠研究中將飛行成本與飛行後代謝分開。"
+    },
+    "confidence": 0.85,
+    "source_document": "Indirect Calorimetry.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "7470ebeeba03",
+    "subject": "Inducible Nitric Oxide Synthase",
+    "predicate": "produces",
+    "object": "Nitric Oxide",
+    "context": {
+      "en-US": "iNOS (NOS2) is the cytokine-inducible isoform of nitric oxide synthase, expressed in macrophages and many cell types after inflammatory stimulation to generate sustained high-output nitric oxide. Excess iNOS-derived NO drives pathological vasodilation and hypotension in septic and vasoplegic shock.",
+      "zh-TW": "iNOS（NOS2）是一氧化氮合成酶的細胞激素誘導型異構酶，在發炎刺激後於巨噬細胞與多種細胞中表現，產生持續高產量的一氧化氮。iNOS 衍生過量的一氧化氮會在敗血症休克與血管麻痺性休克中造成病理性血管擴張與低血壓。"
+    },
+    "confidence": 0.95,
+    "source_document": "Inducible Nitric Oxide Synthase.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "5017d19d0342",
+    "subject": "Inflammation",
+    "predicate": "involves",
+    "object": "NLRP3 Inflammasome",
+    "context": {
+      "en-US": "Chronic inflammation is driven by sustained NF-κB and NLRP3 inflammasome signalling; assembly of the inflammasome activates caspase-1, which cleaves pro-IL-1β and pro-IL-18 into active forms and can induce pyroptotic cell death. NLRP3 is uniquely sensitive to oxidative stress, so mtDNA release, ROS bursts and potassium efflux all trigger it.",
+      "zh-TW": "慢性發炎由持續的 NF-κB 與 NLRP3 發炎小體訊號驅動；發炎小體組裝後活化 caspase-1，將 pro-IL-1β 與 pro-IL-18 切割成活性形式，並可誘發 pyroptosis 細胞死亡。NLRP3 對氧化壓力特別敏感，因此 mtDNA 釋放、活性氧爆發與鉀離子外流都能觸發它。"
+    },
+    "confidence": 0.9,
+    "source_document": "Inflammation.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "7a98fa8726be",
+    "subject": "Inflammation",
+    "predicate": "promotes_formation_of",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "Inflammation creates a permissive oxidative environment for epinephrine oxidation to adrenochrome: recruited neutrophils and activated macrophages release myeloperoxidase and NADPH oxidase, generating hypochlorous acid and superoxide. Adrenochrome in turn activates NF-κB, closing a positive feedback loop between inflammation and catecholamine oxidation.",
+      "zh-TW": "發炎為腎上腺素氧化成 adrenochrome 創造了容許性的氧化環境：被招募的中性球與活化的巨噬細胞釋放 myeloperoxidase 與 NADPH oxidase，生成次氯酸與超氧陰離子。而 adrenochrome 反過來活化 NF-κB，形成發炎與兒茶酚胺氧化之間的正向回饋迴路。"
+    },
+    "confidence": 0.9,
+    "source_document": "Inflammation.md",
+    "created": "2026-09-29T16:29:54Z",
+    "updated": "2026-09-29T16:29:54Z"
   }
 ]
