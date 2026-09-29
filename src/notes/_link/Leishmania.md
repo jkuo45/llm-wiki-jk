@@ -61,7 +61,7 @@ activation signalling.
 >   [[Toll-like Receptor]]-mediated activation and the [[TLR1|TLR2]] pathway, and
 >   releases extracellular vesicles that carry miRNAs which silence host
 >   inflammatory mRNAs — including immunomodulatory miRNAs carried in vesicles
->   that downregulate [[NF-kB]]-regulated transcripts in the recipient cell.
+>   that downregulate [[NF-κB]]-regulated transcripts in the recipient cell.
 > - **[[Complement]] resistance** via surface glycoconjugates and recruitment of
 >   host complement regulators, allowing opsonisation without lysis.
 
@@ -158,6 +158,6 @@ parasites.
 
 ## Linking Summary
 
-- New links added: [[Trypanosoma]], [[Nitric Oxide]], [[Polyamine Metabolism]], [[Complement]], [[Glutathione]], [[Dendritic Cell]], [[NF-kB]], [[Interferon]], [[iNOS]], [[Arginase]], [[LIPOXIN A4]], [[TLR1]]
+- New links added: [[Trypanosoma]], [[Nitric Oxide]], [[Polyamine Metabolism]], [[Complement]], [[Glutathione]], [[Dendritic Cell]], [[NF-κB]], [[Interferon]], [[iNOS]], [[Arginase]], [[LIPOXIN A4]], [[TLR1]]
 - Suggested notes to create: [[Trypanothione]], [[Polyamine Metabolism]], [[Eflornithine]], [[Sodium Stibogluconate]], [[Liposomal Amphotericin B]], [[Antimony]], [[Kinetoplast]], [[Promastigote]], [[Amastigote]], [[Metacyclic Promastigote]], [[Lipophosphoglycan]], [[Complement Receptor 1]], [[Leukotriene]] — removed as already existing: TLR2
 - Strong connections to strengthen: [[Leishmania]] ↔ [[Arginine]], [[Leishmania]] ↔ [[Macrophage Polarization]], [[Leishmania]] ↔ [[Nitric Oxide]]

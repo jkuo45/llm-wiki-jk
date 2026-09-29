@@ -150,5 +150,5 @@ antimicrobial effect.
 ## Linking Summary
 
 - New links added: [[Chrysin]], [[Kaempferol]], [[Quercetin]], [[Flavonoid]], [[Flavonol]], [[Flavone]], [[Caffeic Acid Phenethyl Ester]], [[Aryl Hydrocarbon Receptor]], [[Arachidonic acid]], [[Cyclooxygenase]], [[COX-2]], [[Lipoxygenase]], [[NRF2]], [[Keap1]], [[Inflammation]], [[Insulin Resistance]], [[Type 2 Diabetes]], [[Hepatocyte]], [[Hepatocellular Carcinoma]], [[Autophagy]], [[Senescence]], [[Bioavailability]], [[Pinocembrin]]
-- Suggested notes to create: [[Pinocembrin]], [[Alpinia officinarum]], [[NF-kB]], [[Leukotriene]], [[Zingiberaceae]] — removed as already existing: Endoplasmic Reticulum Stress, Flavonol, Phospholipase A2, Quercetin
+- Suggested notes to create: [[Pinocembrin]], [[Alpinia officinarum]], [[NF-κB]], [[Leukotriene]], [[Zingiberaceae]] — removed as already existing: Endoplasmic Reticulum Stress, Flavonol, Phospholipase A2, Quercetin
 - Strong connections to strengthen: [[Galangin]] <-> [[Propolis]] (the mixture-versus-compound attribution problem), [[Galangin]] <-> [[Aryl Hydrocarbon Receptor]] (its most distinctive mechanism, currently only in this note), [[Galangin]] <-> [[Chrysin]] <-> [[Pinocembrin]] (the three-marker provenance set)

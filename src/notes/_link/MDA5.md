@@ -21,7 +21,7 @@ specialised for **long dsRNA**.
 
 MDA5 is a large (~102 kDa, 1025 aa) protein with an N-terminal
 **two caspase-recruitment domain (CARD) tandem** that mediates
-[[IRF3]]/[[IRF7]] and [[NF-kB]] activation, a central
+[[IRF3]]/[[IRF7]] and [[NF-κB]] activation, a central
 **ATPase/helicase domain** with two RecA-like lobes, and a C-terminal
 **dsRNA-binding domain (CTD)** with two dsRNA-binding motifs. Human MDA5 forms
 **filaments** along dsRNA — the long double-stranded RNA acts as a
@@ -62,7 +62,7 @@ with RIG-I dominant in primary cells.
 > These filaments are the signalling platform on which [[TRAF3]] and
 > [[TRAF6]] assemble, activating:
 > - [[TBK1]] → [[IRF3]]/[[IRF7]] → [[Interferon Type I|type I interferon]] (IFN-β, IFN-α)
-> - canonical [[NF-kB]] → pro-inflammatory cytokines
+> - canonical [[NF-κB]] → pro-inflammatory cytokines
 > - [[IRF7]] amplification
 > - and, downstream of IFN, [[Interferon-Stimulated Gene|interferon-stimulated genes]]
 >   including [[PKR]], [[OAS1]]/[[2'-5'-Oligoadenylate Synthetase|2'-5'-oligoadenylate synthetases]]
@@ -173,6 +173,6 @@ syndrome.
 
 ## Linking Summary
 
-- New links added: [[RIG-I]], [[LRRC59]], [[MAVS]], [[IRF3]], [[IRF7]], [[NF-kB]], [[Interferon Type I]], [[Innate Immunity]], [[Innate Immune System]], [[Pattern Recognition Receptors]], [[Toll-like Receptor]], [[Interferon-Stimulated Gene]], [[PKR]], [[Mx1]], [[2'-5'-Oligoadenylate Synthetase]], [[Mitochondria]], [[Paramyxovirus]], [[Dengue]], [[Hepatitis C]], [[Hepatitis B Virus]], [[Singleton-Merten Syndrome]], [[Systemic Lupus Erythematosus]], [[Lupus]], [[Tumor Microenvironment]], [[Immunotherapy]], [[AIM2]], [[cGAS-STING]], [[Endosome]], [[Neurodegeneration]], [[Antiviral Response]], [[NOD]]
-- Suggested notes to create: [[IFIH1]], [[LGP2]], [[Singleton-Merten Syndrome]], [[2'-5'-Oligoadenylate Synthetase]], [[RNase L]], [[Mx1]], [[PKR]], [[IRF7]], [[Interferon Type I]], [[Interferon-Stimulated Gene]], [[Antiviral Response]], [[Dengue]], [[Paramyxovirus]], [[Hepatitis C]], [[R148H IFIH1 Mutation]], [[Long dsRNA]], [[RIG-I-Like Receptor]], [[cGAS-STING]], [[Endosome]], [[NOD]], [[NF-kB]], [[Lupus]] — removed as already existing: MAVS, [[Mitochondrial Antiviral Signaling Protein]], [[OAS1]]
+- New links added: [[RIG-I]], [[LRRC59]], [[MAVS]], [[IRF3]], [[IRF7]], [[NF-κB]], [[Interferon Type I]], [[Innate Immunity]], [[Innate Immune System]], [[Pattern Recognition Receptors]], [[Toll-like Receptor]], [[Interferon-Stimulated Gene]], [[PKR]], [[Mx1]], [[2'-5'-Oligoadenylate Synthetase]], [[Mitochondria]], [[Paramyxovirus]], [[Dengue]], [[Hepatitis C]], [[Hepatitis B Virus]], [[Singleton-Merten Syndrome]], [[Systemic Lupus Erythematosus]], [[Lupus]], [[Tumor Microenvironment]], [[Immunotherapy]], [[AIM2]], [[cGAS-STING]], [[Endosome]], [[Neurodegeneration]], [[Antiviral Response]], [[NOD]]
+- Suggested notes to create: [[IFIH1]], [[LGP2]], [[Singleton-Merten Syndrome]], [[2'-5'-Oligoadenylate Synthetase]], [[RNase L]], [[Mx1]], [[PKR]], [[IRF7]], [[Interferon Type I]], [[Interferon-Stimulated Gene]], [[Antiviral Response]], [[Dengue]], [[Paramyxovirus]], [[Hepatitis C]], [[R148H IFIH1 Mutation]], [[Long dsRNA]], [[RIG-I-Like Receptor]], [[cGAS-STING]], [[Endosome]], [[NOD]], [[NF-κB]], [[Lupus]] — removed as already existing: MAVS, [[Mitochondrial Antiviral Signaling Protein]], [[OAS1]]
 - Strong connections to strengthen: [[MDA5]] ↔ [[RIG-I]], [[MDA5]] ↔ [[Interferon]], [[MDA5]] ↔ [[Retinoic-acid-inducible protein I-like receptor]], [[MDA5]] ↔ [[DRP1]]

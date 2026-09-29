@@ -117,7 +117,7 @@ hypermethylation and reduced expression are observed in atherosclerotic plaques,
   [[Interleukin-6]], [[E-selectin]], [[P-selectin]], [[Low-Density Lipoprotein]],
   [[Pulmonary Hypertension]], [[Stroke]], [[Matrix Metalloproteinase]]
 - Suggested notes to create: [[E-selectin]], [[P-selectin]], [[Interleukin-6]],
-  [[Monocyte Chemoattractant Protein-1]], [[GM-CSF]], [[Shear Stress]], [[NF-kB]],
+  [[Monocyte Chemoattractant Protein-1]], [[GM-CSF]], [[Shear Stress]], [[NF-κB]],
   [[CD40L]], [[Vasculitis]], [[Aortic Aneurysm]]
 - Strong connections to strengthen: [[Vascular Inflammation]] ↔ [[TIMP3]],
   [[Vascular Inflammation]] ↔ [[VCAM-1]], [[Vascular Inflammation]] ↔ [[Atherosclerosis]]

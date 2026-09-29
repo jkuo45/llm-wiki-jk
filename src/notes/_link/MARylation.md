@@ -79,7 +79,7 @@ Other established and emerging roles:
 - **Innate immunity and chromatin.** Mono-ADP-ribosylation of histones by
   PARP10 and PARP12 remodels chromatin and suppresses transposable
   elements and retroviral transcription.
-- **Inflammation.** PARP1 mono-ADP-ribosylates [[NF-kB]]-pathway components
+- **Inflammation.** PARP1 mono-ADP-ribosylates [[NF-κB]]-pathway components
   and [[STAT3]]; PARP14 is required for [[STAT6]]-dependent
   alternatively-activated macrophage polarisation.
 - **Cell death crosstalk.** [[PARP1]]-dependent cell death (a
@@ -161,13 +161,13 @@ Other established and emerging roles:
 - [[Histone]] — The substrate of PARP10/PARP12/PARP3-mediated
   mono-ADP-ribosylation, which is a distinct and less famous chemistry
   than PARylation of histones by PARP1.
-- [[NF-kB]] and [[STAT3]] — Established PARP1 mono-ADP-ribosylation
+- [[NF-κB]] and [[STAT3]] — Established PARP1 mono-ADP-ribosylation
   targets in the inflammatory and antiviral transcriptional programmes.
 - [[Nicotinamide Riboside]] — NAD+ repletion; its effects on PARP
   activity and repair capacity are reported but contested in magnitude.
 
 ## Linking Summary
 
-- New links added: [[PARP1]], [[DNA Repair]], [[PARG]], [[PARP2]], [[NAD+]], [[Sirtuins]], [[Ubiquitin]], [[Apoptosis]], [[Necrosis]], [[Chromatin]], [[Innate Immunity]], [[Homologous Recombination]], [[BRCA1]], [[Histone]], [[NF-kB]], [[STAT3]], [[Nicotinamide Riboside]], [[AMPK]], [[Olaparib]], [[Pancreatic Cancer]], [[HRD]]
-- Suggested notes to create: [[Macrodomain]], [[PARP7]], [[PARP10]], [[PARP12]], [[PARP14]], [[PARP Inhibitor]], [[Niraparib]], [[Rucaparib]], [[Talazoparib]], [[Nsp3]], [[PARP1-Dependent Cell Death]], [[Homologous Recombination Deficiency]], [[NAD+ Salvage]], [[Adenosine Diphosphate Ribose]], [[G-protein]], [[NF-kB]], [[EF2]], [[POLQ]] — removed as already existing: PARG, PARP2, ovarian cancer
+- New links added: [[PARP1]], [[DNA Repair]], [[PARG]], [[PARP2]], [[NAD+]], [[Sirtuins]], [[Ubiquitin]], [[Apoptosis]], [[Necrosis]], [[Chromatin]], [[Innate Immunity]], [[Homologous Recombination]], [[BRCA1]], [[Histone]], [[NF-κB]], [[STAT3]], [[Nicotinamide Riboside]], [[AMPK]], [[Olaparib]], [[Pancreatic Cancer]], [[HRD]]
+- Suggested notes to create: [[Macrodomain]], [[PARP7]], [[PARP10]], [[PARP12]], [[PARP14]], [[PARP Inhibitor]], [[Niraparib]], [[Rucaparib]], [[Talazoparib]], [[Nsp3]], [[PARP1-Dependent Cell Death]], [[Homologous Recombination Deficiency]], [[NAD+ Salvage]], [[Adenosine Diphosphate Ribose]], [[G-protein]], [[NF-κB]], [[EF2]], [[POLQ]] — removed as already existing: PARG, PARP2, ovarian cancer
 - Strong connections to strengthen: [[MARylation]] ↔ [[ADP-ribosylation]], [[MARylation]] ↔ [[Viral Replication]], [[MARylation]] ↔ [[NAD+]]

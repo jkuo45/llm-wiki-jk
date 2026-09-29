@@ -94,7 +94,7 @@ List of documents that mention this entity
 
 ## Connections
 - [[Toll-like Receptor]] — related entity
-- [[NF-kB]] — downstream transcription factor activated by TLR signaling
+- [[NF-κB]] — downstream transcription factor activated by TLR signaling
 - [[Dendritic Cells]] — antigen-presenting cells activated by TLR ligands
 - [[Inflammation]] — physiological process driven by TLR activation
 - [[Innate Immune System]] — broader system in which TLRs function
@@ -103,6 +103,6 @@ List of documents that mention this entity
 - [[Hydroxychloroquine]] — TLR7/9 inhibitor used in SLE
 
 ## Linking Summary
-- New links added: [[NF-kB]], [[Dendritic Cells]], [[Inflammation]], [[Innate Immune System]], [[CpG DNA]], [[Lipopolysaccharide]], [[Hydroxychloroquine]]
+- New links added: [[NF-κB]], [[Dendritic Cells]], [[Inflammation]], [[Innate Immune System]], [[CpG DNA]], [[Lipopolysaccharide]], [[Hydroxychloroquine]]
 - Suggested new entity notes to create: [[MyD88]], [[TRIF]], [[IRAK4]], [[TRAF6]], [[TIR Domain]]
   - Strong connections to strengthen: [[Toll-like Receptor]] ↔ Dendritic Cells, [[Toll-like Receptor]] ↔ [[Inflammation]]
