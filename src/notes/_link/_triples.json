@@ -36468,5 +36468,1881 @@
     "source_document": "_document_ - rubinsztein2011_autophagy_and_aging.md",
     "created": "2026-09-29T14:53:48Z",
     "updated": "2026-09-29T14:53:48Z"
+  },
+  {
+    "id": "5eb18bf09ce5",
+    "subject": "2-deoxy-D-glucose",
+    "predicate": "inhibits",
+    "object": "Glycolysis",
+    "context": {
+      "en-US": "2-deoxy-D-glucose is phosphorylated by hexokinase to 2-deoxyglucose-6-phosphate, which accumulates and competitively inhibits hexokinase and phosphoglucose isomerase, blocking the glycolytic flux. Its blockade of glycolysis produces a transient ATP drop that mimics caloric restriction and shifts cells toward mitochondrial oxidative phosphorylation.",
+      "zh-TW": "2-deoxy-D-glucose 經 hexokinase 磷酸化為 2-deoxyglucose-6-phosphate 後累積，並競爭性抑制 hexokinase 與 phosphoglucose isomerase，因而阻斷 glycolysis。其對 glycolysis 的阻斷造成暫時性 ATP 下降，模擬 Caloric Restriction，並使細胞轉向粒線體的 Oxidative Phosphorylation。"
+    },
+    "confidence": 0.95,
+    "source_document": "2-deoxy-D-glucose.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "b941e9d1735e",
+    "subject": "2-deoxy-D-glucose",
+    "predicate": "activates",
+    "object": "AMPK",
+    "context": {
+      "en-US": "By blocking glycolysis and lowering cellular energy charge, 2-deoxy-D-glucose mimics caloric restriction and engages energy-stress sensing, activating AMPK and downstream stress-response and stress-defense transcriptional programs.",
+      "zh-TW": "藉由阻斷 glycolysis 並降低細胞能量狀態，2-deoxy-D-glucose 模擬 Caloric Restriction，啟動能量壓力感測，活化 AMPK 與下游的壓力反應及防禦轉錄程式。"
+    },
+    "confidence": 0.9,
+    "source_document": "2-deoxy-D-glucose.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "f80ccfcf54e3",
+    "subject": "2-deoxy-D-glucose",
+    "predicate": "induces",
+    "object": "Mitohormesis",
+    "context": {
+      "en-US": "Rather than being purely toxic, low-dose 2-deoxy-D-glucose forces cells toward mitochondrial oxidative phosphorylation and a mild, transient burst of reactive oxygen species. This low-level oxidative signal is the hallmark of mitohormesis, inducing adaptive antioxidant and stress-defense responses.",
+      "zh-TW": "低劑量的 2-deoxy-D-glucose 並非純粹具毒性，而是迫使細胞轉向粒線體 Oxidative Phosphorylation，產生輕微而短暫的 Reactive Oxygen Species 脈衝。這種低度氧化訊號正是 Mitohormesis 的特徵，可誘發適應性的抗氧化與壓力防禦反應。"
+    },
+    "confidence": 0.9,
+    "source_document": "2-deoxy-D-glucose.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "431746e9f0c0",
+    "subject": "2-deoxy-D-glucose",
+    "predicate": "extends",
+    "object": "Lifespan",
+    "context": {
+      "en-US": "Through its mitohormetic ROS signaling, 2-deoxy-D-glucose extends lifespan in model organisms such as C. elegans, making it a pharmacological proxy for the caloric-restriction response.",
+      "zh-TW": "透過其 mitohormetic ROS 訊號，2-deoxy-D-glucose 可延長 C. elegans 等模式生物的 Lifespan，使其成為 caloric restriction 反應的藥理學代理物。"
+    },
+    "confidence": 0.85,
+    "source_document": "2-deoxy-D-glucose.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "611afff1e140",
+    "subject": "2-deoxy-D-glucose",
+    "predicate": "mimics",
+    "object": "Caloric Restriction",
+    "context": {
+      "en-US": "The glycolytic blockade and energy stress produced by 2-deoxy-D-glucose reproduce the metabolic signal of caloric restriction, which is why it is investigated as a caloric-restriction mimetic and antitumor agent, often in combination.",
+      "zh-TW": "2-deoxy-D-glucose 造成的 glycolysis 阻斷與能量壓力重現了 Caloric Restriction 的代謝訊號，因此它常被作為 caloric-restriction mimetic 與抗腫瘤藥物加以研究，常與其他藥物合併使用。"
+    },
+    "confidence": 0.85,
+    "source_document": "2-deoxy-D-glucose.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "cb406568d0e7",
+    "subject": "3-deoxyglucosone",
+    "predicate": "is_precursor_of",
+    "object": "Advanced Glycation End Products",
+    "context": {
+      "en-US": "3-deoxyglucosone is a highly reactive dicarbonyl (α-oxaldehyde) intermediate generated endogenously by non-enzymatic sugar degradation and lipid peroxidation. It reacts with amino groups to form advanced glycation end products, making it a potent glycation precursor.",
+      "zh-TW": "3-deoxyglucosone 是高度反應性的二羰基（α-oxaldehyde）中間體，由非酵素性糖降解與 Lipid Peroxidation 內源性生成。它與胺基反應形成 Advanced Glycation End Products，因此是強效的 glycation 前驅物。"
+    },
+    "confidence": 0.95,
+    "source_document": "3-deoxyglucosone.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "cddf214a2437",
+    "subject": "3-deoxyglucosone",
+    "predicate": "is_produced_during",
+    "object": "Glycolysis",
+    "context": {
+      "en-US": "3-deoxyglucosone arises endogenously through non-enzymatic sugar degradation during glycolysis, via lipid peroxidation, and as a byproduct of protein deglycation when the unstable Fructosamine-3-phosphate intermediate decomposes.",
+      "zh-TW": "3-deoxyglucosone 可在 Glycolysis 期間的非酵素性糖降解、Lipid Peroxidation，以及蛋白質去 glycation 時不穩定的 Fructosamine-3-phosphate 中間體分解時內源性產生。"
+    },
+    "confidence": 0.85,
+    "source_document": "3-deoxyglucosone.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "40df830992a9",
+    "subject": "5,6-Dihydroxyindole",
+    "predicate": "is_derived_from",
+    "object": "Dopachrome",
+    "context": {
+      "en-US": "5,6-Dihydroxyindole (DHI) is the reducing indole monomer released by spontaneous decarboxylation and reduction of Dopachrome during melanogenesis; its carboxylic acid analog DHICA arises via dopachrome tautomerase. DHI is the prototypical eumelanin monomer.",
+      "zh-TW": "5,6-Dihydroxyindole（DHI）是在 melanogenesis 過程中 Dopachrome 自發脫羧與還原所釋出的還原性 indole 單體；其羧酸類似物 DHICA 則由 dopachrome tautomerase 產生。DHI 是 eumelanin 的典型單體。"
+    },
+    "confidence": 0.9,
+    "source_document": "5,6-Dihydroxyindole.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "f11898af5ed8",
+    "subject": "Tyrosinase",
+    "predicate": "oxidizes",
+    "object": "5,6-Dihydroxyindole",
+    "context": {
+      "en-US": "Tyrosinase and related oxidases oxidize 5,6-Dihydroxyindole and its carboxylic acid analog DHICA, then polymerize the resulting quinones into eumelanin — the dark, nitrogen-rich melanin polymer that also constitutes neuromelanin in catecholaminergic neurons.",
+      "zh-TW": "Tyrosinase 及相關氧化酶會氧化 5,6-Dihydroxyindole 與其羧酸類似物 DHICA，並將生成的 quinone 聚合為 eumelanin，即深色、富含氮的 Melanins，亦構成兒茶酚胺能神經元中的 Neuromelanin。"
+    },
+    "confidence": 0.9,
+    "source_document": "5,6-Dihydroxyindole.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "bc9b526347d2",
+    "subject": "5,6-Dihydroxyindole",
+    "predicate": "is_a_component_of",
+    "object": "Neuromelanin",
+    "context": {
+      "en-US": "Neuromelanin in the Substantia Nigra is built from DHI/DHICA units and catechol-derived quinones. Because uncontrolled 5,6-Dihydroxyindole oxidation amplifies local oxidative load, it contributes to the same protein cross-linking and oxidative damage implicated in Parkinson's disease.",
+      "zh-TW": "Substantia Nigra 中的 Neuromelanin 由 DHI/DHICA 單元與兒茶酚衍生的 quinone 構成。由於 5,6-Dihydroxyindole 的氧化失控會放大局部氧化負載，它參與了與 Parkinson's Disease 相關的蛋白交聯與氧化損傷。"
+    },
+    "confidence": 0.85,
+    "source_document": "5,6-Dihydroxyindole.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "b1ffca63eaed",
+    "subject": "5,6-Dihydroxyindole",
+    "predicate": "produces",
+    "object": "Reactive Oxygen Species",
+    "context": {
+      "en-US": "5,6-Dihydroxyindole is a potent reducing agent that auto-oxidizes readily, donating electrons to oxygen and generating reactive oxygen species including superoxide anion and hydrogen peroxide. This oxidative polymerization cross-links indole units into the metal-chelating eumelanin polymer, so the redox activity is double-edged: it scavenges radicals but also amplifies oxidative load during pigment formation.",
+      "zh-TW": "5,6-Dihydroxyindole 是強效還原劑，容易自體氧化，將電子轉移給氧並產生包括 Superoxide anion 與 Hydrogen Peroxide 在內的 Reactive Oxygen Species。此氧化聚合將 indole 單元交聯成可螯合金屬的 eumelanin 聚合物，因此其氧化還原活性是雙面刃：既可清除自由基，也在色素形成期間放大氧化負載。"
+    },
+    "confidence": 0.9,
+    "source_document": "5,6-Dihydroxyindole.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "3e701cc5bfde",
+    "subject": "ABG",
+    "predicate": "measures",
+    "object": "Methemoglobin",
+    "context": {
+      "en-US": "An arterial blood gas performed with co-oximetry quantifies hemoglobin species directly, including methemoglobin, carboxyhemoglobin, oxyhemoglobin and deoxyhemoglobin. Methemoglobin levels above 1.5% are abnormal, and values above 15% produce cyanosis while above 50% can cause life-threatening hypoxia and cardiac arrest.",
+      "zh-TW": "搭配 co-oximetry 執行的 ABG 可直接定量各類血紅素，包含 Methemoglobin、carboxyhemoglobin、Oxyhemoglobin 與 deoxyhemoglobin。Methemoglobin 超過 1.5% 即屬異常，超過 15% 會造成 Cyanosis，超過 50% 則可能引發致命性 Hypoxia 與 Cardiac arrest。"
+    },
+    "confidence": 0.9,
+    "source_document": "ABG.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "160d27b79fcb",
+    "subject": "ABG",
+    "predicate": "is_used_for",
+    "object": "Methemoglobinemia",
+    "context": {
+      "en-US": "ABG with co-oximetry is the definitive diagnostic test for methemoglobinemia: a normal PaO2 with low measured oxyhemoglobin and an elevated methemoglobin fraction — the 'saturation gap' — confirms the diagnosis, and ABG also guides methylene blue therapy or exchange transfusion when levels exceed 30%.",
+      "zh-TW": "搭配 co-oximetry 的 ABG 是 Methemoglobinemia 的權威診斷檢查：PaO2 正常但實測 oxyhemoglobin 偏低且 Methemoglobin 比例升高（即「saturation gap」）即可確診；當濃度超過 30% 時，ABG 也用於指導 Methylene blue 治療或 Exchange transfusion。"
+    },
+    "confidence": 0.95,
+    "source_document": "ABG.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "7a1db74539e0",
+    "subject": "Co-oximetry",
+    "predicate": "measures",
+    "object": "Methemoglobin",
+    "context": {
+      "en-US": "Multi-wavelength co-oximetry integrated into modern ABG analyzers measures fractional hemoglobin species (O2Hb, HHb, COHb, MetHb, sulfhemoglobin), enabling definitive hemoglobin speciation where pulse oximetry is unreliable, as in methemoglobinemia and carbon monoxide poisoning.",
+      "zh-TW": "現代 ABG 分析儀內建的多波長 Co-oximetry 可測量各血紅素物種的比例（O2Hb、HHb、COHb、MetHb、sulfhemoglobin），在 pulse oximetry 不可靠的 Methemoglobinemia 或 CO 中毒情境中提供確定的血紅素分型。"
+    },
+    "confidence": 0.9,
+    "source_document": "ABG.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "9c51068a4aaf",
+    "subject": "AGER1",
+    "predicate": "facilitates_degradation_of",
+    "object": "Advanced Glycation End Products",
+    "context": {
+      "en-US": "AGER1 is a cell surface receptor that facilitates uptake and degradation of advanced glycation end products. Together with glyoxalase I, glyoxalase II and carbonyl reductase, it forms part of a detoxification and counterregulation system against the pro-oxidant effects of glycation.",
+      "zh-TW": "AGER1 是細胞表面受體，促進 Advanced Glycation End Products 的攝取與降解。它與 glyoxalase I、glyoxalase II 及 carbonyl reductase 一起，構成對抗 glycation 促氧化效應的解毒與反向調節系統。"
+    },
+    "confidence": 0.9,
+    "source_document": "AGER1.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "07b4a371374a",
+    "subject": "AGER1",
+    "predicate": "counteracts",
+    "object": "RAGE",
+    "context": {
+      "en-US": "By clearing advanced glycation end products, AGER1 opposes the pro-oxidant and pro-inflammatory signaling that the receptor RAGE mediates upon ligand engagement, making the two receptors opposing arms of the glycation stress response.",
+      "zh-TW": "藉由清除 Advanced Glycation End Products，AGER1 對抗受體 RAGE 在配體結合時所介導的促氧化與促發炎訊號，使兩者構成 glycation 壓力反應中對立的手臂。"
+    },
+    "confidence": 0.85,
+    "source_document": "AGER1.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "33928cecb9d6",
+    "subject": "ATF5",
+    "predicate": "mediates",
+    "object": "Mitochondrial Unfolded Protein Response",
+    "context": {
+      "en-US": "ATF5 is the mammalian transcription factor that mediates the mitochondrial unfolded protein response. Like C. elegans ATFS-1, ATF5 partitions between the nucleus and mitochondria, and under mitochondrial stress it localizes to the nucleus to induce chaperones and proteases that restore mitochondrial proteostasis.",
+      "zh-TW": "ATF5 是介導 Mitochondrial Unfolded Protein Response 的哺乳類轉錄因子。與 C. elegans 的 ATFS-1 相同，ATF5 在細胞核與粒線體之間分配；在粒線體壓力下它定位至細胞核，誘導 chaperone 與 protease 以恢復粒線體蛋白恆定。"
+    },
+    "confidence": 0.95,
+    "source_document": "ATF5.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "b8bb421689b0",
+    "subject": "ATF5",
+    "predicate": "is_functional_analog_of",
+    "object": "ATFS-1",
+    "context": {
+      "en-US": "Mammalian ATF5 is functionally analogous to the C. elegans transcription factor ATFS-1 in mediating the mitochondrial unfolded protein response, highlighting the evolutionary conservation of UPRmt signaling between worms and mammals.",
+      "zh-TW": "哺乳類 ATF5 在介導 Mitochondrial Unfolded Protein Response 上，與 C. elegans 的轉錄因子 ATFS-1 功能同源，凸顯 UPRmt 訊號在線蟲與哺乳類之間的演化保守性。"
+    },
+    "confidence": 0.9,
+    "source_document": "ATF5.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "fd9b5a5cc59c",
+    "subject": "Abram Hoffer",
+    "predicate": "co_proposed",
+    "object": "Adrenochrome Hypothesis",
+    "context": {
+      "en-US": "Canadian psychiatrist and biochemist Abram Hoffer, with Humphry Osmond, co-proposed the Adrenochrome Hypothesis in a series of papers beginning in the 1950s. Hoffer's own niacin trials in schizophrenia followed from the hypothesis and were later not confirmed by independent multicenter replication.",
+      "zh-TW": "加拿大精神科醫師與生化學家 Abram Hoffer 與 Humphry Osmond 自 1950 年代起在一系列論文中共同提出 Adrenochrome Hypothesis。Hoffer 針對 Schizophrenia 所做的 niacin 試驗源自此假說，但後續獨立多中心重複研究未能確認其結果。"
+    },
+    "confidence": 0.95,
+    "source_document": "Abram Hoffer.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "8815bb33422b",
+    "subject": "Abram Hoffer",
+    "predicate": "collaborated_with",
+    "object": "Humphry Osmond",
+    "context": {
+      "en-US": "Hoffer met Osmond at Saskatchewan Hospital in Weyburn in 1950, and the two systematically studied catecholamines and their oxidized metabolites in psychiatric patients, ran controlled LSD trials, and co-authored the monographs that elaborated the adrenochrome model.",
+      "zh-TW": "Hoffer 於 1950 年在 Weyburn 的 Saskatchewan Hospital 認識 Osmond，兩人系統性研究精神科病人的 Catecholamines 及其氧化代謝物、進行受控的 LSD 試驗，並共同撰寫闡述 adrenochrome 模型的專著。"
+    },
+    "confidence": 0.95,
+    "source_document": "Abram Hoffer.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "5b468e5c4db2",
+    "subject": "Niacin",
+    "predicate": "was_tested_for",
+    "object": "Schizophrenia",
+    "context": {
+      "en-US": "Hoffer argued that niacin could shift the cellular NAD+/NADPH balance to supply reducing equivalents for detoxifying adrenochrome back to less toxic reduced forms. His high-dose (3 g/day) adjunctive trials reported lower re-hospitalization, but Canadian multicenter and APA replication trials failed to confirm benefit.",
+      "zh-TW": "Hoffer 主張 Niacin 可調整細胞的 NAD+/NADPH 平衡，提供還原力將 adrenochrome 還原為毒性較低的還原態形式。其高劑量（3 g/day）輔助試驗報告再住院率下降，但加拿大多中心與 APA 的重複試驗未能確認其效益。"
+    },
+    "confidence": 0.8,
+    "source_document": "Abram Hoffer.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "7e22f4c6f387",
+    "subject": "Actinonin",
+    "predicate": "inhibits",
+    "object": "Peptide deformylase",
+    "context": {
+      "en-US": "Actinonin is a hydroxamate antibiotic and potent inhibitor of peptide deformylase, the enzyme that removes the N-terminal formyl group from nascent polypeptides in bacteria and mitochondria. Blocking it halts formyl-peptide processing in mitochondria.",
+      "zh-TW": "Actinonin 是含羥肟酸的抗生素，也是 Peptide deformylase 的強效抑制劑；該酵素負責移除細菌與粒線體新生多肽的 N 端甲醯基。抑制它會阻斷粒線體中的 formyl-peptide 加工。"
+    },
+    "confidence": 0.95,
+    "source_document": "Actinonin.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "ad617e15b866",
+    "subject": "Actinonin",
+    "predicate": "activates",
+    "object": "Mitochondrial Unfolded Protein Response",
+    "context": {
+      "en-US": "Because mitochondrial ribosomes synthesize essential inner-membrane proteins, actinonin blocks mitochondrial translation and depletes respiratory-chain components. The resulting accumulation of unassembled subunits is sensed as proteotoxic stress and triggers UPRmt retrograde signaling; in mammalian cells actinonin engages the integrated stress response via eIF2α phosphorylation and CHOP/ATF4.",
+      "zh-TW": "由於粒線體核糖體合成必要的內膜蛋白，Actinonin 阻斷粒線體轉譯並耗竭呼吸鏈組件。未組裝次單位的累積被視為蛋白毒性壓力，啟動 UPRmt 的逆行訊號；在哺乳類細胞中，Actinonin 則透過 eIF2α 磷酸化與 CHOP/ATF4 啟動整合性壓力反應。"
+    },
+    "confidence": 0.9,
+    "source_document": "Actinonin.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "7bfaec0886b1",
+    "subject": "Actinonin",
+    "predicate": "reduces",
+    "object": "Oxidative Phosphorylation",
+    "context": {
+      "en-US": "Blocking mitochondrial translation depletes subunits of respiratory complexes I, III, IV and V, lowering oxidative phosphorylation capacity. By mimicking mitochondrial proteotoxic stress, actinonin phenocopies dietary and genetic mitohormetic interventions linked to extended lifespan.",
+      "zh-TW": "阻斷粒線體轉譯會耗竭呼吸鏈複合體 I、III、IV、V 的次單元，降低 Oxidative Phosphorylation 能力。藉由模擬粒線體蛋白毒性壓力，Actinonin 重現了與延長 Lifespan 相關的飲食性與遺傳性 mitohormetic 介入效果。"
+    },
+    "confidence": 0.85,
+    "source_document": "Actinonin.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "fbc7204bafa8",
+    "subject": "Adrenaline-quinone",
+    "predicate": "is_derived_from",
+    "object": "Epinephrine",
+    "context": {
+      "en-US": "Adrenaline-quinone is the first major intermediate of the epinephrine 'side pathway': under oxidative stress or alkaline conditions the catechol ring of epinephrine loses two electrons to become this highly electrophilic o-quinone. A one-electron oxidation of the same ring first yields the adrenaline semiquinone radical.",
+      "zh-TW": "Adrenaline-quinone 是 epinephrine「旁路」的第一個主要中間體：在 Oxidative Stress 或鹼性條件下，Epinephrine 的 Catechol 環失去兩個電子而形成這個高度親電的 o-quinone；同一環先經單電子氧化則生成 adrenaline semiquinone 自由基。"
+    },
+    "confidence": 0.95,
+    "source_document": "Adrenaline-quinone.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "6bad17ca11c7",
+    "subject": "Adrenaline-quinone",
+    "predicate": "converts_to",
+    "object": "Leuco-adrenochrome",
+    "context": {
+      "en-US": "Once formed, adrenaline-quinone is extremely unstable and rapidly cyclizes: the primary amine side chain attacks the electron-deficient C6 position of the quinone ring in a 1,4-Michael addition, forming the colorless reduced intermediate Leuco-adrenochrome.",
+      "zh-TW": "Adrenaline-quinone 一旦生成即極不穩定並迅速環化：主胺側鏈以 1,4-Michael addition 進攻 quinone 環上缺電子的 C6 位置，形成無色還原態中間體 Leuco-adrenochrome。"
+    },
+    "confidence": 0.9,
+    "source_document": "Adrenaline-quinone.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "6f5b46d74f48",
+    "subject": "Glutathione",
+    "predicate": "neutralizes",
+    "object": "Adrenaline-quinone",
+    "context": {
+      "en-US": "As a potent electrophile, adrenaline-quinone can damage cellular proteins and DNA unless quickly neutralized by antioxidants such as glutathione, which conjugate the quinone and return the catechol to a reduced, less reactive state.",
+      "zh-TW": "Adrenaline-quinone 是強效親電體，若未迅速被 glutathione 等抗氧化劑中和，就可能損害細胞蛋白質與 DNA；這些抗氧化劑與 quinone 結合，將兒茶酚還原為反應性較低的狀態。"
+    },
+    "confidence": 0.85,
+    "source_document": "Adrenaline-quinone.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "1ca5161fcb46",
+    "subject": "Adrenochromatization",
+    "predicate": "elevates_levels_of",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "Adrenochromatization denotes the process or state of elevating systemic or local levels of adrenochrome and its reactive intermediates, whether by controlled experimental administration or by stress-induced endogenous production from epinephrine and norepinephrine autoxidation and enzymatic oxidation.",
+      "zh-TW": "Adrenochromatization 指的是提高體系或局部 Adrenochrome 及其反應性中間體濃度的過程或狀態，可透過受控的實驗給藥，或由 Epinephrine、Norepinephrine 的自體氧化與酵素氧化在壓力下內源性產生。"
+    },
+    "confidence": 0.95,
+    "source_document": "Adrenochromatization.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "4aced14b96cb",
+    "subject": "Adrenochromatization",
+    "predicate": "is_driven_by",
+    "object": "Redox Cycling",
+    "context": {
+      "en-US": "Adrenochromatization is a redox event in which epinephrine is oxidized to adrenochrome, its semiquinone radical and downstream adrenolutin, generating reactive oxygen species and depleting reducing equivalents such as glutathione and ascorbate. The process is self-amplifying through redox cycling of the semiquinone.",
+      "zh-TW": "Adrenochromatization 是一個氧化還原事件：Epinephrine 被氧化為 Adrenochrome、其 semiquinone 自由基與下游的 Adrenolutin，產生 Reactive Oxygen Species 並耗竭 glutathione、ascorbate 等還原當量。此過程藉由 semiquinone 的 Redox Cycling 自我放大。"
+    },
+    "confidence": 0.9,
+    "source_document": "Adrenochromatization.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "465b08bfe9d5",
+    "subject": "Adrenochromatization",
+    "predicate": "induces",
+    "object": "Mitohormesis",
+    "context": {
+      "en-US": "Calibrated adrenochromatization is intended to induce a mitohormetic state — a transient, adaptive redox stress engaging antioxidant and mitochondrial quality-control pathways instead of outright toxicity. Its therapeutic window is narrow: too little redox signal yields no adaptation, too much drives oxidative damage and neuronal stress.",
+      "zh-TW": "經校準的 Adrenochromatization 旨在誘發 Mitohormesis 狀態——一種短暫、適應性的氧化還原壓力，啟動抗氧化與粒線體品質管制路徑而非造成直接毒性。其治療窗極窄：氧化訊號過弱無適應，過強則導致氧化損傷與神經元壓力。"
+    },
+    "confidence": 0.8,
+    "source_document": "Adrenochromatization.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "5d5db87cc17a",
+    "subject": "Adrenochrome Hypothesis",
+    "predicate": "implicates",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "The Adrenochrome Hypothesis proposed that adrenochrome, a metabolite of epinephrine formed endogenously in the brain, might be a psychotomimetic agent, and that an imbalance in its production or clearance could be a primary cause of schizophrenia. It motivated substantial research into catecholamine metabolism.",
+      "zh-TW": "Adrenochrome Hypothesis 主張 Adrenochrome（Epinephrine 在腦中內源性形成的代謝物）可能是類精神病（psychotomimetic）藥物，而其生成或清除的失衡可能是 Schizophrenia 的主要病因。該假說推動了大量 Catecholamines 代謝研究。"
+    },
+    "confidence": 0.95,
+    "source_document": "Adrenochrome Hypothesis.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "58a6c0b32fd8",
+    "subject": "Adrenochrome Hypothesis",
+    "predicate": "was_superseded_by",
+    "object": "Dopamine hypothesis",
+    "context": {
+      "en-US": "Although it stimulated significant research into catecholamine metabolism, the Adrenochrome Hypothesis was largely superseded by the dopamine hypothesis of schizophrenia, which implicated hyperactive dopaminergic transmission in mesolimbic pathways and later accumulated robust empirical support.",
+      "zh-TW": "儘管它激發了大量 Catecholamines 代謝研究，Adrenochrome Hypothesis 仍大致被 Schizophrenia 的 Dopamine hypothesis 取代；後者指出 mesolimbic 路徑的過度多巴胺胺能傳遞，並獲得穩固的實證支持。"
+    },
+    "confidence": 0.9,
+    "source_document": "Adrenochrome Hypothesis.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "fa49ec5dddc9",
+    "subject": "Adrenochrome Pathway",
+    "predicate": "converts",
+    "object": "Epinephrine",
+    "context": {
+      "en-US": "The Adrenochrome Pathway is the metabolic route in which epinephrine is oxidized through the adrenaline semiquinone radical and adrenaline-quinone to Leuco-adrenochrome and then to adrenochrome, and finally in alkaline conditions to the fluorescent adrenolutin. Only a small fraction of epinephrine (roughly 1–5%) undergoes oxidative cyclization under physiological conditions.",
+      "zh-TW": "Adrenochrome Pathway 是 Epinephrine 經 adrenaline semiquinone 自由基與 Adrenaline-quinone 氧化為 Leuco-adrenochrome，再生成 Adrenochrome，最後在鹼性條件下轉為具螢光的 Adrenolutin 的代謝途徑。在生理條件下僅約 1–5% 的 Epinephrine 會進行氧化環化。"
+    },
+    "confidence": 0.9,
+    "source_document": "Adrenochrome Pathway.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "ee3a186670fb",
+    "subject": "Leuco-adrenochrome",
+    "predicate": "converts_to",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "The colorless reduced intermediate Leuco-adrenochrome (2,3-dihydroindole-5,6-dione) is oxidized either by molecular oxygen or by another equivalent of adrenaline-quinone to yield the characteristic red chromophore adrenochrome. The oxidation is autocatalytic, with adrenochrome and its semiquinone cycling redox with oxygen to accelerate further conversion.",
+      "zh-TW": "無色還原態中間體 Leuco-adrenochrome（2,3-dihydroindole-5,6-dione）由分子氧或另一當量的 Adrenaline-quinone 氧化，產生具特徵紅色的 Adrenochrome。此氧化具自催化性，Adrenochrome 及其 semiquinone 與氧進行氧化還原循環，加速後續轉化。"
+    },
+    "confidence": 0.9,
+    "source_document": "Adrenochrome Pathway.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "f6f8c6d75286",
+    "subject": "Adrenochrome",
+    "predicate": "converts_to",
+    "object": "Adrenolutin",
+    "context": {
+      "en-US": "Further oxidation and rearrangement of adrenochrome in alkaline conditions yields adrenolutin (5,6-dihydroxy-1-methylindole), a fluorescent compound that can polymerize to form melanins — paralleling the DHI-derived indole chemistry of neuromelanin and eumelanin formation.",
+      "zh-TW": "Adrenochrome 在鹼性條件下進一步氧化與重排，生成 Adrenolutin（5,6-dihydroxy-1-methylindole），此為可聚合形成 Melanins 的螢光化合物，與神經黑色素及 eumelanin 形成的 DHI 衍生 indole 化學相呼應。"
+    },
+    "confidence": 0.9,
+    "source_document": "Adrenochrome Pathway.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "ef2f477adedb",
+    "subject": "NADPH Oxidase",
+    "predicate": "produces",
+    "object": "Hydrogen Peroxide",
+    "context": {
+      "en-US": "NOX family enzymes generate superoxide anion, which dismutates to hydrogen peroxide; the hydrogen peroxide then fuels peroxidase-catalyzed oxidation of epinephrine toward adrenochrome, linking NOX activity to aminochrome formation.",
+      "zh-TW": "NADPH Oxidase 家族酵素產生 Superoxide anion，其歧化為 Hydrogen Peroxide；接著 Hydrogen Peroxide 供應 peroxidase 催化的 Epinephrine 氧化，朝 Adrenochrome 進行，將 NOX 活性與 aminochrome 形成連結。"
+    },
+    "confidence": 0.9,
+    "source_document": "Adrenochrome Pathway.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "5ffb3bdfb23e",
+    "subject": "COMT",
+    "predicate": "produces",
+    "object": "Metanephrine",
+    "context": {
+      "en-US": "COMT methylates the 3-hydroxyl group of epinephrine to form metanephrine, while MAO deaminates the side chain to yield 3,4-dihydroxymandelic acid. Under physiological conditions these canonical enzymatic routes predominate and only a minor fraction of epinephrine is diverted to the adrenochrome pathway.",
+      "zh-TW": "COMT 甲基化 Epinephrine 的 3-羥基形成 Metanephrine，而 MAO 脫胺側鏈生成 3,4-dihydroxymandelic acid。在生理條件下這些典型酵素途徑占優勢，僅少部分 Epinephrine 被分流至 Adrenochrome Pathway。"
+    },
+    "confidence": 0.9,
+    "source_document": "Adrenochrome Pathway.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "e04a098d3be5",
+    "subject": "Adrenochrome monoaminoguanidine",
+    "predicate": "is_derived_from",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "Adrenochrome monoaminoguanidine (AMM) is a stabilized hybrid derivative formed by reaction of adrenochrome with aminoguanidine. It is more stable and less colored than the parent molecule, whose o-quinone structure is unstable, and like carbazochrome it is used as a hemostatic agent.",
+      "zh-TW": "Adrenochrome monoaminoguanidine（AMM）是 Adrenochrome 與 Aminoguanidine 反應形成的穩定化雜交衍生物。它比母體（具有不穩定的 o-quinone 結構）更穩定、顏色更淺，且與 Carbazochrome 同樣用作止血劑。"
+    },
+    "confidence": 0.95,
+    "source_document": "Adrenochrome monoaminoguanidine.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "6d8929f83ef8",
+    "subject": "Adrenochrome monoaminoguanidine",
+    "predicate": "prevents_formation_of",
+    "object": "Advanced Glycation End Products",
+    "context": {
+      "en-US": "The aminoguanidine moiety of AMM directly inhibits advanced glycation end product and DNA cross-link formation and scavenges reactive dicarbonyls such as methylglyoxal and glyoxal that are elevated in senescent cells, providing biochemical selectivity without physical targeting.",
+      "zh-TW": "AMM 的 aminoguanidine 部分可直接抑制 Advanced Glycation End Products 與 DNA 交聯的形成，並清除senescent 細胞中升高的 Methylglyoxal、Glyoxal 等反應性二羰基，在無需物理靶向的情況下提供生化選擇性。"
+    },
+    "confidence": 0.85,
+    "source_document": "Adrenochrome monoaminoguanidine.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "1049401a56df",
+    "subject": "Adrenochrome monoaminoguanidine",
+    "predicate": "induces",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "The adrenochrome moiety of AMM delivers a mild ER-stress hormetic ROS pulse that activates NRF2/ARE and stimulates the SIRT1/PGC-1α axis, upregulating chaperones and priming autophagy machinery. AMM replaces nanoparticle-delivered adrenochrome in the SASP-remodeling aminochrome complex.",
+      "zh-TW": "AMM 的 adrenochrome 部分提供輕度 ER 壓力的 hormetic ROS 脈衝，活化 NRF2/ARE 並刺激 SIRT1/PGC-1α 軸，上調 chaperone 並啟動 Autophagy 機制。在 SASP-remodeling aminochrome complex 中，AMM 取代了以奈米顆粒遞送的自由 Adrenochrome。"
+    },
+    "confidence": 0.8,
+    "source_document": "Adrenochrome monoaminoguanidine.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "b5178e84f13e",
+    "subject": "Adrenochrome monoaminoguanidine",
+    "predicate": "is_a_component_of",
+    "object": "Glyco-Oxidative Proteostasis Shield",
+    "context": {
+      "en-US": "AMM is the central hybrid molecule of the Glyco-Oxidative Proteostasis Shield strategy, combining aminoguanidine-mediated AGE inhibition with adrenochrome-induced ER stress hormesis. Spermidine is given alongside it for autophagy-mediated clearance of glycated proteins.",
+      "zh-TW": "AMM 是 Glyco-Oxidative Proteostasis Shield 策略的核心雜交分子，結合 aminoguanidine 介導的 AGE 抑制與 adrenochrome 引發的 ER 壓力 hormesis。Spermidine 與其併用，以藉 Autophagy 清除 glycated 蛋白。"
+    },
+    "confidence": 0.85,
+    "source_document": "Adrenochrome monoaminoguanidine.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "e26695b27214",
+    "subject": "Adrenochrome sulfonate",
+    "predicate": "is_derived_from",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "Adrenochrome sulfonate is a degradation product formed when adrenochrome reacts with bisulfite antioxidants in the presence of light. Its formation reflects the photochemical instability of the adrenochrome chromophore.",
+      "zh-TW": "Adrenochrome sulfonate 是 Adrenochrome 在光照下與 Bisulfite 抗氧化劑反應所形成的降解產物。其形成反映了 Adrenochrome 色基的光化學不穩定性。"
+    },
+    "confidence": 0.9,
+    "source_document": "Adrenochrome sulfonate.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "840b627c6ff0",
+    "subject": "Adrenochrome sulfonate",
+    "predicate": "is_impurity_of",
+    "object": "Epinephrine",
+    "context": {
+      "en-US": "Adrenochrome sulfonate is one of several impurities that must be monitored during quality control of epinephrine formulations, alongside trace-metal-catalyzed oxidation products, to ensure stability and safety of the drug.",
+      "zh-TW": "Adrenochrome sulfonate 是 Epinephrine 製劑 Quality Control 中必須monitor 的數種雜質之一，與微量金屬催化產生的氧化產物並列，以確保藥品的穩定性與安全性。"
+    },
+    "confidence": 0.85,
+    "source_document": "Adrenochrome sulfonate.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "820289edbf1e",
+    "subject": "Alagebrium",
+    "predicate": "breaks",
+    "object": "Advanced Glycation End Products",
+    "context": {
+      "en-US": "Alagebrium (ALT-711) is a thiazolium-derived AGE-breaker: unlike aminoguanidine, which blocks AGE formation, it cleaves established advanced glycation end product cross-links, particularly glucose-derived and carbonyl adducts on collagen and vascular matrix.",
+      "zh-TW": "Alagebrium（ALT-711）是 thiazolium 衍生的 AGE-breaker：與阻斷 AGE 形成的 Aminoguanidine 不同，它可切斷既有的 Advanced Glycation End Products 交聯，尤其是 Collagen 與血管基質上的葡萄糖衍生及羰基加合物。"
+    },
+    "confidence": 0.95,
+    "source_document": "Alagebrium.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "08f9ccd400e5",
+    "subject": "Alagebrium",
+    "predicate": "improves",
+    "object": "Arterial Stiffening",
+    "context": {
+      "en-US": "In preclinical and early clinical studies, alagebrium improved arterial compliance, reduced arterial stiffening and enhanced left-ventricular diastolic function, effects attributed to reversal of AGE-mediated matrix rigidification.",
+      "zh-TW": "在臨床前與早期臨床研究中，Alagebrium 改善動脈順應性、降低 Arterial Stiffening 並提升左心室舒張功能，這些效果歸因於逆轉 AGE 所致基質僵硬。"
+    },
+    "confidence": 0.9,
+    "source_document": "Alagebrium.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "c6deb8642af0",
+    "subject": "Alagebrium",
+    "predicate": "is_a_structural_analog_of",
+    "object": "Aminoguanidine",
+    "context": {
+      "en-US": "Alagebrium's parent chemical class, the 2,3-disubstituted thiazolium, was identified from studies of aminoguanidine analogs; alagebrium's novelty was its ability to break established cross-links rather than merely prevent new ones. Development was discontinued for commercial rather than safety reasons.",
+      "zh-TW": "Alagebrium 的母體化學類別 2,3-disubstituted thiazolium 源自對 Aminoguanidine 類似物的研究；其新穎處在於能切斷既有交聯，而非僅防止新交聯形成。該藥的開發中止是出於商業考量而非安全性失敗。"
+    },
+    "confidence": 0.85,
+    "source_document": "Alagebrium.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "e0c17242fb89",
+    "subject": "Aldehyde Dehydrogenases",
+    "predicate": "oxidizes",
+    "object": "3-deoxyglucosone",
+    "context": {
+      "en-US": "Aldehyde dehydrogenases catalyze NAD(P)+-dependent oxidation of aldehydes such as 3-deoxyglucosone and methylglyoxal to their corresponding, less reactive carboxylic acids, reducing the rate of advanced glycation end product formation.",
+      "zh-TW": "Aldehyde Dehydrogenases 催化 NAD(P)+ 依賴的醛類氧化，將 3-deoxyglucosone、Methylglyoxal 等轉為反應性較低的羧酸，降低 Advanced Glycation End Products 的形成速率。"
+    },
+    "confidence": 0.9,
+    "source_document": "Aldehyde Dehydrogenases.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "297bc512ccd6",
+    "subject": "Aldehyde Dehydrogenases",
+    "predicate": "oxidizes",
+    "object": "Methylglyoxal",
+    "context": {
+      "en-US": "As part of the cellular defense against dicarbonyl stress, aldehyde dehydrogenases oxidize the reactive α-oxoaldehyde methylglyoxal to a non-toxic carboxylic acid, thereby limiting methylglyoxal-driven glycation.",
+      "zh-TW": "作為細胞對抗二羰基壓力的防禦的一部分，Aldehyde Dehydrogenases 將反應性的 α-氧代醛 Methylglyoxal 氧化為無毒羧酸，因而限制 Methylglyoxal 驅動的 glycation。"
+    },
+    "confidence": 0.9,
+    "source_document": "Aldehyde Dehydrogenases.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "57dd385256aa",
+    "subject": "Aldehyde Dehydrogenases",
+    "predicate": "prevents_formation_of",
+    "object": "Advanced Glycation End Products",
+    "context": {
+      "en-US": "By oxidizing reactive dicarbonyl intermediates into less reactive, non-toxic carboxylic acids, aldehyde dehydrogenases reduce the rate of advanced glycation end product formation and constitute a key enzymatic defense against dicarbonyl stress.",
+      "zh-TW": "藉由將反應性二羰基中間體氧化為反應性較低、無毒的羧酸，Aldehyde Dehydrogenases 降低 Advanced Glycation End Products 的形成速率，構成對抗二羰基壓力的重要酵素防線。"
+    },
+    "confidence": 0.9,
+    "source_document": "Aldehyde Dehydrogenases.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "8d63ed6b4c5e",
+    "subject": "Aldo-Keto Reductases",
+    "predicate": "reduces",
+    "object": "3-deoxyglucosone",
+    "context": {
+      "en-US": "Aldo-keto reductases are NAD(P)H-dependent oxidoreductases that reduce the reactive dicarbonyl 3-deoxyglucosone to the corresponding, less toxic alcohol, removing it before it can cross-link proteins.",
+      "zh-TW": "Aldo-Keto Reductases 是 NAD(P)H 依賴的氧化還原酶，將反應性二羰基 3-deoxyglucosone 還原為毒性較低的醇，在其交聯蛋白之前予以清除。"
+    },
+    "confidence": 0.9,
+    "source_document": "Aldo-Keto Reductases.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "4124635c151a",
+    "subject": "Aldo-Keto Reductases",
+    "predicate": "reduces",
+    "object": "Methylglyoxal",
+    "context": {
+      "en-US": "Aldo-keto reductases act as a vital line of defense against dicarbonyl stress by reducing reactive glycation precursors such as methylglyoxal into less toxic species, with carbonyl reductase serving a complementary role in the AGE detoxification system.",
+      "zh-TW": "Aldo-Keto Reductases 藉由將 Methylglyoxal 等反應性 glycation 前驅物還原為毒性較低的物種，對抗二羰基壓力；carbonyl reductase 在 AGE 解毒系統中扮演互補角色。"
+    },
+    "confidence": 0.9,
+    "source_document": "Aldo-Keto Reductases.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "9452b95d28ad",
+    "subject": "Aldo-Keto Reductases",
+    "predicate": "prevents_formation_of",
+    "object": "Advanced Glycation End Products",
+    "context": {
+      "en-US": "By reducing aldehyde and ketone carbonyl substrates to alcohols, aldo-keto reductases intercept glycation precursors before they can form irreversible advanced glycation end product cross-links on proteins.",
+      "zh-TW": "藉由將醛與酮類羰基受質還原為醇，Aldo-Keto Reductases 在 glycation 前驅物形成不可逆的 Advanced Glycation End Products 蛋白交聯之前將其截攔。"
+    },
+    "confidence": 0.9,
+    "source_document": "Aldo-Keto Reductases.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "453b4c12c074",
+    "subject": "Amadori products",
+    "predicate": "is_formed_from",
+    "object": "Schiff base",
+    "context": {
+      "en-US": "Amadori products are stable early-stage intermediates of glycation that form when the initial unstable Schiff base between a reducing sugar and a protein amino group undergoes chemical rearrangement over days. They are therefore reversible targets before they become irreversible crosslinks.",
+      "zh-TW": "Amadori products 是 glycation 早期階段的穩定中間體，由還原糖與蛋白胺基之間最初不穩定的 Schiff base 經數日的化學重排形成。因此在成為不可逆交聯之前，它們是可逆的處置標的。"
+    },
+    "confidence": 0.95,
+    "source_document": "Amadori products.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "590cdaf3b391",
+    "subject": "Amadori products",
+    "predicate": "converts_to",
+    "object": "Advanced Glycation End Products",
+    "context": {
+      "en-US": "Once formed, Amadori products undergo further irreversible dehydration, rearrangement and oxidation, proceeding to advanced glycation end products such as glucosepane and pentosidine crosslinks that accumulate on long-lived proteins.",
+      "zh-TW": "Amadori products 一旦形成，即進一步進行不可逆的脫水、重排與氧化，生成 Advanced Glycation End Products，例如在長壽命蛋白上累積的 Glucosepane 與 Pentosidine 交聯。"
+    },
+    "confidence": 0.9,
+    "source_document": "Amadori products.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "18c71894355e",
+    "subject": "Fructosamine-3-kinase",
+    "predicate": "phosphorylates",
+    "object": "Amadori products",
+    "context": {
+      "en-US": "Fructosamine-3-kinase (FN3K) phosphorylates fructosamine/Amadori residues on proteins to Fructosamine-3-phosphate, which spontaneously decomposes — in the process releasing 3-deoxyglucosone — to regenerate undamaged protein and reverse early glycation intracellularly.",
+      "zh-TW": "Fructosamine-3-kinase（FN3K）將蛋白上的 fructosamine／Amadori 殘基磷酸化為 Fructosamine-3-phosphate，後者自發分解（過程中釋出 3-deoxyglucosone），再生未受損的蛋白，在細胞內逆轉早期 glycation。"
+    },
+    "confidence": 0.9,
+    "source_document": "Amadori products.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "0b5b5ae5f80f",
+    "subject": "Fructosyl-Amino Acid Oxidases",
+    "predicate": "oxidizes",
+    "object": "Amadori products",
+    "context": {
+      "en-US": "Fructosyl-amino acid oxidases (FAOD) oxidatively cleave Amadori products back to the original free amino acid, providing an exogenous or bacterial route to reverse glycation before irreversible AGE crosslinks form.",
+      "zh-TW": "Fructosyl-Amino Acid Oxidases（FAOD）將 Amadori products 氧化裂解回游離的原始胺基酸，提供外源性或細菌性的 deglycation 途徑，在不可逆 AGE 交聯形成之前逆轉 glycation。"
+    },
+    "confidence": 0.9,
+    "source_document": "Amadori products.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "e2c650abf1c8",
+    "subject": "Ammonium Persulfate",
+    "predicate": "oxidizes",
+    "object": "Epinephrine",
+    "context": {
+      "en-US": "Ammonium persulfate is used as a convenient two-electron chemical oxidant to convert epinephrine to adrenochrome in vitro, proceeding through the o-quinone intermediate adrenaline-quinone followed by intramolecular Michael-type cyclization; the reaction is monitored by the 480 nm absorbance maximum of the adrenochrome chromophore.",
+      "zh-TW": "Ammonium Persulfate 被用作便利的雙電子化學氧化劑，在體外將 Epinephrine 轉為 Adrenochrome，反應經由 o-quinone 中間體 Adrenaline-quinone 再進行分子內 Michael 型環化；可藉 Adrenochrome 色基在 480 nm 的吸收極大來監測。"
+    },
+    "confidence": 0.95,
+    "source_document": "Ammonium Persulfate.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "b9a58d785f8e",
+    "subject": "Ammonium Persulfate",
+    "predicate": "is_used_for",
+    "object": "Polymerization",
+    "context": {
+      "en-US": "Beyond adrenochrome chemistry, ammonium persulfate serves as a free radical initiator for acrylamide gel polymerization, reacting with TEMED to generate persulfate free radicals that crosslink acrylamide monomers into a polyacrylamide matrix for SDS-PAGE.",
+      "zh-TW": "除了 adrenochrome 化學之外，Ammonium Persulfate 也用作 acrylamide 凝膠 Polymerization 的自由基起始劑，與 TEMED 反應產生 persulfate 自由基，將 acrylamide 單體交聯成 SDS-PAGE 用的 polyacrylamide 矩陣。"
+    },
+    "confidence": 0.9,
+    "source_document": "Ammonium Persulfate.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "63be0b82f8be",
+    "subject": "Ammonium Persulfate",
+    "predicate": "produces",
+    "object": "Hydrogen Peroxide",
+    "context": {
+      "en-US": "Ammonium persulfate is a powerful two-electron oxidizer with E° = 2.01 V for S₂O₈²⁻ + 2e⁻ → 2SO₄²⁻, exceeding hydrogen peroxide (1.78 V). In aqueous solution it decomposes slowly by hydrolysis to hydrogen peroxide and ammonium bisulfate, a process accelerated by heat, transition metal ions and alkaline pH.",
+      "zh-TW": "Ammonium Persulfate 是強效雙電子氧化劑，S₂O₈²⁻ + 2e⁻ → 2SO₄²⁻ 的標準還原電位 E° = 2.01 V，高於 Hydrogen Peroxide（1.78 V）。在水溶液中它經水解緩慢分解產生 Hydrogen Peroxide 與 ammonium bisulfate，熱、過渡金屬離子與鹼性 pH 會加速此過程。"
+    },
+    "confidence": 0.9,
+    "source_document": "Ammonium Persulfate.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "b33661b740fe",
+    "subject": "Ammonium Persulfate",
+    "predicate": "generates",
+    "object": "Reactive Oxygen Species",
+    "context": {
+      "en-US": "The APS-driven oxidation of epinephrine to adrenochrome is used experimentally to generate reactive oxygen species and study redox cycling: one-electron reduction of adrenochrome back to the leuco-adrenochrome semiquinone radical yields superoxide and downstream ROS, which is why superoxide dismutase activity slows adrenochrome formation in this assay.",
+      "zh-TW": "APS 驅動的 Epinephrine 氧化為 Adrenochrome 的反應被用於實驗性產生 Reactive Oxygen Species 並研究 redox cycling：Adrenochrome 單電子還原回 leuco-adrenochrome semiquinone 自由基會生成 superoxide 及下游 ROS，因此在此試驗中 Superoxide Dismutase 活性會減緩 Adrenochrome 的形成。"
+    },
+    "confidence": 0.85,
+    "source_document": "Ammonium Persulfate.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "30f9d07d7b33",
+    "subject": "Amyl nitrite",
+    "predicate": "oxidizes",
+    "object": "Hemoglobin",
+    "context": {
+      "en-US": "Amyl nitrite intentionally oxidizes hemoglobin iron from Fe²⁺ to Fe³⁺, creating methemoglobin that scavenges cyanide as cyanmethemoglobin and spares mitochondrial cytochrome oxidase — the mechanism behind its historical use in cyanide poisoning. The same oxidation causes methemoglobinemia, cyanosis and hypoxia on overuse.",
+      "zh-TW": "Amyl nitrite 會將 Hemoglobin 的鐵由 Fe²⁺ 氧化為 Fe³⁺，形成 Methemoglobin，以 cyanmethemoglobin 形式螯合氰化物並保護粒線體 cytochrome oxidase——這是其在氰化物中毒中歷史性用途的機制。相同的氧化在過量使用時會造成 Methemoglobinemia、Cyanosis 與 Hypoxia。"
+    },
+    "confidence": 0.95,
+    "source_document": "Amyl nitrite.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "4d9692bbdf5b",
+    "subject": "Amyl nitrite",
+    "predicate": "induces",
+    "object": "Methemoglobinemia",
+    "context": {
+      "en-US": "The same oxidant property that makes amyl nitrite a cyanide antidote causes acute methemoglobinemia when overused, producing cyanosis, hypoxia and chocolate-brown blood. Severe cases are reversed with methylene blue acting through NADH-dependent methemoglobin reductase (diaphorase).",
+      "zh-TW": "使 Amyl nitrite 成為氰化物解毒劑的同一氧化特性，在過量使用時會造成急性 Methemoglobinemia，產生 Cyanosis、Hypoxia 與巧克力棕色血液。嚴重病例以經 NADH-dependent methemoglobin reductase（diaphorase）作用的 Methylene blue 逆轉。"
+    },
+    "confidence": 0.95,
+    "source_document": "Amyl nitrite.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "fff57d5b7f04",
+    "subject": "Nitric Oxide",
+    "predicate": "activates",
+    "object": "Soluble Guanylyl Cyclase",
+    "context": {
+      "en-US": "Volatile, lipophilic amyl nitrite releases nitric oxide and nitrite in vivo; liberated nitric oxide activates soluble guanylyl cyclase, raising cGMP and relaxing vascular smooth muscle — the basis of its anti-anginal and vasodilator effects.",
+      "zh-TW": "揮發性、亲脂性的 Amyl nitrite 在體內釋放 Nitric Oxide 與 nitrite；釋出的 Nitric Oxide 活化 Soluble Guanylyl Cyclase，使 cGMP 上升並放鬆血管平滑肌，這是其抗心絞痛與血管擴張作用的基礎。"
+    },
+    "confidence": 0.95,
+    "source_document": "Amyl nitrite.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "31eb5b992e85",
+    "subject": "Epinephrine",
+    "predicate": "treats",
+    "object": "Anaphylaxis",
+    "context": {
+      "en-US": "Epinephrine, given intramuscularly and without delay typically via an auto-injector such as the EpiPen or Symjepi, is the unambiguous first-line treatment for anaphylaxis and the only medication shown to reduce mortality; it reverses bronchoconstriction, constricts the vasculature and suppresses further mediator release.",
+      "zh-TW": "Epinephrine 以肌肉注射方式、通常透過 EpiPen 或 Symjepi 等自動注射器立即給予，是 Anaphylaxis 明確的第一線治療，也是唯一被證實能降低死亡率的藥物；它可逆轉支氣管收縮、收縮血管並抑制進一步介質釋放。"
+    },
+    "confidence": 0.95,
+    "source_document": "Anaphylaxis.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "71ffa6f70304",
+    "subject": "Epinephrine",
+    "predicate": "is_oxidized_to",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "Epinephrine solutions oxidize to adrenochrome and adrenolutin on light or heat exposure, so autoinjectors must be protected from light and heat: degraded product loses potency precisely when it is needed most, making redox stability a genuine patient-safety issue.",
+      "zh-TW": "Epinephrine 溶液在光照或加熱下會氧化為 Adrenochrome 與 Adrenolutin，因此自動注射器必須避光避熱：降解產物恰好在最需要時失去效力，使氧化還原穩定性成為真正的病人安全問題。"
+    },
+    "confidence": 0.9,
+    "source_document": "Anaphylaxis.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "7294aaaa3d51",
+    "subject": "Aniline dyes",
+    "predicate": "causes",
+    "object": "Methemoglobinemia",
+    "context": {
+      "en-US": "Aniline and its metabolites oxidize the ferroprotoporphyrin IX (Fe²⁺) of hemoglobin to the ferric (Fe³⁺) state, producing methemoglobin that cannot bind oxygen and shifts the oxygen-dissociation curve leftward. Acquired methemoglobinemia therefore presents with cyanosis, chocolate-colored blood and, at high levels, hypoxia and dyspnea.",
+      "zh-TW": "Aniline 及其代謝物將 Hemoglobin 的 ferroprotoporphyrin IX（Fe²⁺）氧化為 ferric（Fe³⁺）態，產生無法攜氧並使氧解離曲線左移的 Methemoglobin。因此後天型 Methemoglobinemia 表現為 Cyanosis、巧克力色血液，濃度高時出現 Hypoxia 與呼吸困難。"
+    },
+    "confidence": 0.95,
+    "source_document": "Aniline dyes.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "bbfcd20fdd4c",
+    "subject": "Nitrobenzene",
+    "predicate": "causes",
+    "object": "Methemoglobinemia",
+    "context": {
+      "en-US": "Nitrobenzene, certain local anesthetics and ingested nitrates/nitrites share the ferrihemoglobin-inducing mechanism with aniline dyes, oxidizing heme iron to the Fe³⁺ state. Management follows the general methemoglobinemia paradigm of co-oximetry confirmation and methylene blue reduction.",
+      "zh-TW": "Nitrobenzene、某些局部麻醉藥與攝入的硝酸鹽／亞硝酸鹽與 Aniline dyes 具有相同的 ferrihemoglobin 誘導機制，將血基質鐵氧化為 Fe³⁺ 態。處置遵循 Methemoglobinemia 的一般準則：以 Co-oximetry 確認並以 Methylene blue 還原。"
+    },
+    "confidence": 0.85,
+    "source_document": "Aniline dyes.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "a23c2d3364c7",
+    "subject": "Antioxidant Response Element",
+    "predicate": "is_regulated_by",
+    "object": "NRF2",
+    "context": {
+      "en-US": "The antioxidant response element (ARE) is a cis-acting regulatory sequence in the promoter region of many genes encoding antioxidant and phase II detoxifying enzymes, primarily regulated by the transcription factor NRF2. A hormetic oxidative pulse activates the NRF2/ARE axis and upregulates GST expression, enhancing autophagy and mitochondrial quality control.",
+      "zh-TW": "Antioxidant Response Element（ARE）存在於許多編碼抗氧化與第二期解毒酵素基因的啟動子區域，是順式作用調控序列，主要由轉錄因子 NRF2 調控。hormetic 氧化脈衝活化 NRF2/ARE 軸並上調 GST 表現，增強 Autophagy 與粒線體品質管制。"
+    },
+    "confidence": 0.95,
+    "source_document": "Antioxidant Response Element.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "f2d6801ccc34",
+    "subject": "NRF2",
+    "predicate": "drives",
+    "object": "Antioxidant Response Element",
+    "context": {
+      "en-US": "Agents such as urolithin A or a mitohormetic ROS pulse activate NRF2, which transactivates the antioxidant response element and drives expression of glutathione S-transferases and other phase II enzymes, priming cellular autophagy and mitochondrial quality control.",
+      "zh-TW": "Urolithin A 等物質或 mitohormetic 的 ROS 脈衝會活化 NRF2，進而反式啟動 Antioxidant Response Element，驅動 glutathione S-transferase 等第二期酵素的表現，為細胞 Autophagy 與粒線體品質管制做好準備。"
+    },
+    "confidence": 0.9,
+    "source_document": "Antioxidant Response Element.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "7a90f08e20d9",
+    "subject": "Glycation",
+    "predicate": "targets",
+    "object": "Arginine",
+    "context": {
+      "en-US": "Arginine residues on long-lived structural proteins such as collagen are primary targets for non-enzymatic glycation: reducing sugars or reactive dicarbonyls attach to them via a Schiff base, ultimately forming complex, irreversible advanced glycation end products.",
+      "zh-TW": "Collagen 等長壽命結構蛋白上的 Arginine 殘基是非酵素性 glycation 的主要標的：還原糖或反應性二羰基經由 Schiff base 與其結合，最終形成複雜且不可逆的 Advanced Glycation End Products。"
+    },
+    "confidence": 0.9,
+    "source_document": "Arginine.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "65d92f822dff",
+    "subject": "Arginine",
+    "predicate": "is_precursor_of",
+    "object": "Glucosepane",
+    "context": {
+      "en-US": "Arginine residues on collagen are the reactive partners that, with reducing sugars, form the prominent AGE crosslink glucosepane. Breaking such established crosslinks is the target of AGE-breakers such as alagebrium.",
+      "zh-TW": "Collagen 上的 Arginine 殘基與還原糖共同形成主要的 AGE 交聯 Glucosepane。切斷此類既有交聯正是 Alagebrium 等 AGE-breaker 的作用標的。"
+    },
+    "confidence": 0.85,
+    "source_document": "Arginine.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "17806823939e",
+    "subject": "Arginine",
+    "predicate": "is_precursor_of",
+    "object": "Pentosidine",
+    "context": {
+      "en-US": "Arginine residues on long-lived proteins also serve as precursors of pentosidine, a fluorescent arginine–lysine–pentose AGE crosslink that accumulates with age and serves as a marker of glycation damage.",
+      "zh-TW": "長壽命蛋白上的 Arginine 殘基也是 Pentosidine 的前驅物；Pentosidine 是具螢光性的 arginine–lysine–pentose AGE 交聯，隨年齡累積，並可作為 glycation 損傷的標記。"
+    },
+    "confidence": 0.85,
+    "source_document": "Arginine.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "9d96e4c1bcb7",
+    "subject": "Argon",
+    "predicate": "protects",
+    "object": "Leuco-adrenochrome",
+    "context": {
+      "en-US": "Because argon is chemically inert, it is used as an inert atmosphere to store highly reactive, oxygen-sensitive compounds such as leuco-adrenochrome, whose extreme sensitivity to oxidation requires strict handling protocols to prevent spontaneous oxidation.",
+      "zh-TW": "由於 Argon 化學惰性，它被用作惰性大氣以儲存高度反應性、對氧敏感的化合物（如 Leuco-adrenochrome）；後者對氧化極度敏感，需嚴格操作規範以防止自發氧化。"
+    },
+    "confidence": 0.9,
+    "source_document": "Argon.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "fa3668e15378",
+    "subject": "D-lactate",
+    "predicate": "is_produced_by",
+    "object": "GLO2",
+    "context": {
+      "en-US": "D-lactate is a D-enantiomer of lactate generated as the terminal end product of the Glyoxalase System. Within that system GLO2 hydrolyzes the intermediate S-D-lactoylglutathione, releasing D-lactate while simultaneously regenerating the cellular antioxidant Glutathione, so the D-isomer marks the point at which methylglyoxal/glyoxal dicarbonyl stress has been resolved.",
+      "zh-TW": "D-lactate 是乳酸的 D-對映異構物，為 Glyoxalase System 的最終產物。在該系統中，GLO2 水解中間產物 S-D-lactoylglutathione，釋出 D-lactate 的同時再生細胞抗氧化劑 Glutathione，因此 D-型標記著 methylglyoxal/glyoxal 二碳醣基壓力已被處理的終點。"
+    },
+    "confidence": 0.9,
+    "source_document": "D-lactate.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "42d4b06f8707",
+    "subject": "GLO2",
+    "predicate": "regenerates",
+    "object": "Glutathione",
+    "context": {
+      "en-US": "GLO2, the second isoenzyme of the Glyoxalase System, hydrolyzes S-D-lactoylglutathione to D-lactate and in the process regenerates Glutathione, effectively recycling the cofactor consumed when glutathione adducts formed with methylglyoxal. This makes GLO2-dependent glutathione sparing a major defense against dicarbonyl and AGE accumulation.",
+      "zh-TW": "GLO2 作為 Glyoxalase System 的第二個同工酶，水解 S-D-lactoylglutathione 生成 D-lactate，並在過程中再生 Glutathione，等於回收了 glutathione 與 methylglyoxal 結合時消耗的輔因子。這使 GLO2 依賴的 glutathione 節省成為對抗二碳醣基與 AGE 累積的重要防禦。"
+    },
+    "confidence": 0.88,
+    "source_document": "D-lactate.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "02b2b590c604",
+    "subject": "DVE-1",
+    "predicate": "partners_with",
+    "object": "UBL-5",
+    "context": {
+      "en-US": "DVE-1 is a C. elegans homeobox transcription factor that acts as a downstream effector of the Mitochondrial Unfolded Protein Response. It is recruited to target promoters together with the small acidic protein UBL-5, and the DVE-1-UBL-5 complex binds chromatin at UPRmt-responsive genes to drive expression of mitochondrial chaperones (e.g. hsp-60) and proteases. Loss of either gene blunts the UPRmt program and the longevity and stress-resistance phenotypes that normally follow respiratory-chain perturbation.",
+      "zh-TW": "DVE-1 是 *C. elegans* 的 homeobox 轉錄因子，作為 Mitochondrial Unfolded Protein Response 的下游效應因子。它與小型酸性蛋白 UBL-5 一起被招募至標的啟動子，DVE-1-UBL-5 複合體在 UPRmt 反應基因的染色體上結合，促進粒線體伴護蛋白（如 hsp-60）與蛋白酶的表現。任一基因缺失都會削弱 UPRmt 程式，以及原本隨呼吸鏈受 Perturbation 而出現的長壽與抗逆境狀型。"
+    },
+    "confidence": 0.92,
+    "source_document": "DVE-1.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "c45297d980b5",
+    "subject": "DVE-1",
+    "predicate": "is_recruited_to",
+    "object": "Mitochondrial Unfolded Protein Response",
+    "context": {
+      "en-US": "DVE-1 executes the transcriptional output of the Mitochondrial Unfolded Protein Response. When mitochondrial proteotoxic stress is sensed, cytosolic ATFS-1 fails to import into stressed mitochondria and enters the nucleus instead, and DVE-1 is then recruited to UPRmt target promoters, linking calibrated mitochondrial stress to adaptive gene expression and Lifespan extension.",
+      "zh-TW": "DVE-1 執行 Mitochondrial Unfolded Protein Response 的轉錄輸出。當粒線體蛋白毒性壓力被感知時，細胞質中的 ATFS-1 無法被輸入受損粒線體而改為進入細胞核，接著 DVE-1 被招募至 UPRmt 標的啟動子，將校準過的粒線體壓力連結至適應性基因表現與 Lifespan 延長。"
+    },
+    "confidence": 0.85,
+    "source_document": "DVE-1.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "870c42f57709",
+    "subject": "Dapsone",
+    "predicate": "is_metabolized_by",
+    "object": "CYP2C9",
+    "context": {
+      "en-US": "Dapsone (4,4'-diaminodiphenyl sulfone), a sulfone antibiotic and anti-inflammatory agent, is N-hydroxylated by hepatic CYP2C9 (with CYP3A4 contribution) to dapsone hydroxylamine. This reactive hydroxylamine metabolite is the species responsible for dapsone's hematologic toxicity: it is a potent oxidant that converts hemoglobin iron to the ferric state, producing methemoglobin and dose-dependent methemoglobinemia.",
+      "zh-TW": "Dapsone（4,4'-二氨基二苯基砜）是磺胺類抗生素兼抗發炎藥，經肝臟 CYP2C9（CYP3A4 亦參與）N-羥化生成 dapsone hydroxylamine。這個反應性的羥胺代謝物是 dapsone 血液毒性的來源：它是強效氧化劑，將 hemoglobin 的鐵轉為三價態，形成 methemoglobin 與劑量依賴性的 methemoglobinemia。"
+    },
+    "confidence": 0.9,
+    "source_document": "Dapsone.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "2d5b6ce2e99b",
+    "subject": "Dapsone",
+    "predicate": "causes",
+    "object": "Methemoglobinemia",
+    "context": {
+      "en-US": "Dapsone is one of the most common causes of drug-induced methemoglobinemia, particularly with chronic dosing, because its hydroxylamine metabolite oxidizes hemoglobin iron to methemoglobin. It also drives oxidative hemolysis, markedly worse in Glucose-6-Phosphate Dehydrogenase deficiency; severe cases are treated with Methylene blue, which restores NADH-dependent methemoglobin reductase-dependent reduction.",
+      "zh-TW": "Dapsone 是藥物誘發性 methemoglobinemia 最常見的原因之一，尤其在長期給藥時，因為其羥胺代謝物會將 hemoglobin 的鐵氧化為 methemoglobin。它也會造成氧化性溶血，在 Glucose-6-Phosphate Dehydrogenase 缺乏時更為嚴重；嚴重病例以 Methylene blue 治療，恢復 NADH-dependent methemoglobin reductase 途徑的還原能力。"
+    },
+    "confidence": 0.92,
+    "source_document": "Dapsone.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "0c6fcfac46f8",
+    "subject": "Detoxification",
+    "predicate": "is_induced_by",
+    "object": "NRF2",
+    "context": {
+      "en-US": "NRF2 acting through Antioxidant Response Elements coordinates upregulation of the detoxification network that buffers catecholamine oxidation products. Key Nrf2 targets include NQO1, which two-electron-reduces o-quinones to hydroquinones and blocks redox cycling, HO-1, which cleaves pro-oxidant heme into biliverdin, carbon monoxide and sequestered iron, and the glutamate-cysteine ligase subunits that raise Glutathione synthetic capacity. Pharmacological NRF2 activators such as Dimethyl fumarate therefore enhance Phase II/III clearance of aminochromes.",
+      "zh-TW": "NRF2 透過 Antioxidant Response Element 協調上調可緩衝兒茶酚胺氧化產物的去毒網絡。重要的 Nrf2 標的包括以雙電子將 o-quinone 還原為 hydroquinone、阻斷 redox cycling 的 NQO1；將促氧化 heme 裂解為 biliverdin、一氧化碳與被隔離的鐵的 HO-1；以及提升 Glutathione 合成能力的 glutamate-cysteine ligase 次單元。因此 NRF2 的藥理活化劑如 Dimethyl fumarate 可強化 aminochrome 的 Phase II/III 清除。"
+    },
+    "confidence": 0.85,
+    "source_document": "Detoxification.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "30a30d05407b",
+    "subject": "Detoxification",
+    "predicate": "clears",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "The electrophilic o-quinone aminochromes generated by catecholamine oxidation (Adrenaline-quinone, Dopaminochrome, Adrenochrome) are detoxified by glutathione S-transferases, which conjugate them at ring positions such as C2 and C5 to form stable thioethers. This directly prevents the quinone from cyclizing to adrenochrome or arylating protein thiols, spares Glutathione consumed as mercapturate, and suppresses redox cycling and secondary ROS production.",
+      "zh-TW": "兒茶酚胺氧化產生的親電子 o-quinone aminochrome（Adrenaline-quinone、Dopaminochrome、Adrenochrome）由 glutathione S-transferase 去毒，後者於 quinone 環上如 C2 與 C5 位置接合形成穩定硫醚。這直接阻止 quinone 環化生成 adrenochrome 或對蛋白質 thiol 進行芳基化，節省以 mercapturate 形式排出的 Glutathione，並抑制 redox cycling 與次級 ROS 產生。"
+    },
+    "confidence": 0.9,
+    "source_document": "Detoxification.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "3be5deb3ddd4",
+    "subject": "Glutathione",
+    "predicate": "is_depleted_by",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "Glutathione availability is a key determinant of catecholamine oxidation toxicity. GST-mediated conjugation of Adrenochrome and related aminochromes consumes glutathione permanently as excreted mercapturate, requiring de novo synthesis, whereas the glyoxalase system can spare it. When glutathione is depleted under sustained oxidative stress, the unconjugated aminochrome fraction rises, promoting protein damage, mitochondrial dysfunction and cell death.",
+      "zh-TW": "Glutathione 的可用量是決定兒茶酚胺氧化毒性的關鍵。GST 媒介的 Adrenochrome 及相關 aminochrome 接合會永久消耗 glutathione（以 mercapturate 排出），必須靠新生合成補回，而 glyoxalase system 則可節省之。當持續氧化壓力使 glutathione 耗竭時，未接合的 aminochrome 比例上升，促進蛋白質損傷、粒線體功能失調與細胞死亡。"
+    },
+    "confidence": 0.85,
+    "source_document": "Detoxification.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "6325ae7b3827",
+    "subject": "Diabetes",
+    "predicate": "is_associated_with",
+    "object": "Advanced Glycation End Products",
+    "context": {
+      "en-US": "Chronic hyperglycemia in Diabetes drives non-enzymatic glycation of proteins, lipids and nucleic acids, accelerating formation and tissue accumulation of Advanced Glycation End Products. Hyperglycemia-induced mitochondrial superoxide overproduction raises dicarbonyl flux (Methylglyoxal, glyoxal); the resulting AGEs cross-link matrix proteins such as Collagen and engage RAGE, sustaining Inflammation and Oxidative Stress that underlie micro- and macrovascular complications.",
+      "zh-TW": "Diabetes 中的慢性高血糖驅動蛋白質、脂質與核酸的非酵素性糖化，加速 Advanced Glycation End Products 的形成與在組織中的累積。高血糖引起的粒線體 superoxide 過量產生提高二碳醣基通量（Methylglyoxal、glyoxal）；生成的 AGE 交聯 Collagen 等基質蛋白並結合 RAGE，維持 Inflammation 與 Oxidative Stress，成為微血管與大血管併發症的基礎。"
+    },
+    "confidence": 0.93,
+    "source_document": "Diabetes.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "4321b3bd09b0",
+    "subject": "Diabetes",
+    "predicate": "is_driven_by",
+    "object": "Insulin Resistance",
+    "context": {
+      "en-US": "Diabetes mellitus is defined by chronic Hyperglycemia and comprises chiefly type 1 (autoimmune beta-cell destruction) and type 2 disease. Insulin Resistance with progressive beta-cell failure is the dominant pathogenic feature of type 2 diabetes, and its management alongside glucose lowering is a core therapeutic pillar, alongside reducing AGE load through diet and pharmacological agents.",
+      "zh-TW": "Diabetes mellitus 以慢性 Hyperglycemia 為定義，主要分為第一型（自體免疫性 β 細胞破壞）與第二型。Insulin Resistance 加上漸進性 β 細胞衰竭是第二型糖尿病的主要致病特徵，與降血糖並列為核心治療支柱，另外還包括透過飲食與藥物降低 AGE 負荷。"
+    },
+    "confidence": 0.9,
+    "source_document": "Diabetes.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "233fe111583f",
+    "subject": "Diaphorase",
+    "predicate": "reduces",
+    "object": "Methemoglobin",
+    "context": {
+      "en-US": "Diaphorase (NADH-dependent methemoglobin reductase, also called cytochrome b5 reductase) is the FAD-containing flavoenzyme that accounts for roughly 95-99% of physiological methemoglobin reduction. It oxidizes NADH and passes electrons via cytochrome b5 to the ferric iron of methemoglobin, returning it to the ferrous state that can bind oxygen. Because only 1-2% of hemoglobin spontaneously autoxidizes daily, the enzyme is continuously required to restore functional Hemoglobin.",
+      "zh-TW": "Diaphorase（NADH-dependent methemoglobin reductase，又稱 cytochrome b5 reductase）是含 FAD 的黃素酶，約負責 95–99% 的生理性 methemoglobin 還原。它氧化 NADH 並經 cytochrome b5 將電子傳給 methemoglobin 的三價鐵，使其回到可結合氧氣的二價態。由於每日僅約 1–2% 的 hemoglobin 會自發性氧化，此酶持續作用以恢復具功能的 Hemoglobin。"
+    },
+    "confidence": 0.92,
+    "source_document": "Diaphorase.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "33883e15764b",
+    "subject": "Diaphorase",
+    "predicate": "is_also_known_as",
+    "object": "NADH-dependent methemoglobin reductase",
+    "context": {
+      "en-US": "The names Diaphorase, NADH-dependent methemoglobin reductase and Cytochrome b5 reductase denote the same flavoprotein enzyme of red blood cells, with only the last used for the genetically defined deficiency state. Congenital deficiency of cytochrome b5 reductase causes hereditary Methemoglobinemia with chronic Cyanosis, whereas acute oxidant-induced methemoglobinemia is treated with Methylene blue, which is reduced by NADPH and then bypasses the diaphorase route entirely.",
+      "zh-TW": "Diaphorase、NADH-dependent methemoglobin reductase 與 Cytochrome b5 reductase 指的是紅血球中的同一個黃素蛋白酵素，其中只有 Cytochrome b5 reductase 用於描述遺傳性缺乏狀態。Cytochrome b5 reductase 的先天缺乏造成伴隨慢性 Cyanosis 的遺傳性 Methemoglobinemia；急性氧化性 methemoglobinemia 則以 Methylene blue 治療，該藥被 NADPH 還原後完全繞過 diaphorase 途徑。"
+    },
+    "confidence": 0.88,
+    "source_document": "Diaphorase.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "cfba9eedb7df",
+    "subject": "Dicarbonyls",
+    "predicate": "is_precursor_of",
+    "object": "Advanced Glycation End Products",
+    "context": {
+      "en-US": "Dicarbonyls are organic compounds carrying two carbonyl groups; in biology the reactive members Methylglyoxal and Glyoxal are key intermediates in Advanced Glycation End Product formation. Autoxidation of glucose and peroxidation of lipids under rising Oxidative Stress generate these dicarbonyl species, which then react with amino groups on proteins to seed the glycation cascade that ends in irreversible cross-linked AGEs.",
+      "zh-TW": "Dicarbonyls 是含兩個羰基的有機化合物；在生物體內，具反應性的 Methylglyoxal 與 Glyoxal 是 Advanced Glycation End Products 形成的重要中間產物。葡萄糖的自氧化與脂質的過氧化在 Oxidative Stress 上升時產生這些二碳醣基物種，隨後與蛋白質上的胺基反應，啟動最終導致不可逆交聯 AGE 的糖化級聯。"
+    },
+    "confidence": 0.88,
+    "source_document": "Dicarbonyls.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "ad56d761aec0",
+    "subject": "Dopachrome",
+    "predicate": "is_derived_from",
+    "object": "Dopaquinone",
+    "context": {
+      "en-US": "Dopachrome is the unstable indole-quinone intermediate formed when Dopaquinone undergoes intramolecular cyclization and decarboxylative rearrangement. It sits at the branch point of melanogenesis: enzymatic tautomerization by dopachrome tautomerase yields 5,6-dihydroxyindole-2-carboxylic acid, while spontaneous decay yields 5,6-Dihydroxyindole; both indoles are then oxidized and polymerized into eumelanin, the predominant form of Melanins.",
+      "zh-TW": "Dopachrome 是 Dopaquinone 經分子內環化與去羧重排所形成的不穩定 indole-quinone 中間產物。它位於黑色素生成的分岔點：由 dopachrome tautomerase 酵素催化互變異構化產生 5,6-dihydroxyindole-2-carboxylic acid，而自發分解則產生 5,6-Dihydroxyindole；兩種 indole 隨後被氧化並聚合成為黑色素中主要的 eumelanin。"
+    },
+    "confidence": 0.92,
+    "source_document": "Dopachrome.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "be4ba695b7d0",
+    "subject": "Dopachrome",
+    "predicate": "is_precursor_of",
+    "object": "Neuromelanin",
+    "context": {
+      "en-US": "In catecholaminergic neurons, dopachrome and related indolequinones arise from oxidative metabolism of Dopamine and L-DOPA and feed the age-dependent accumulation of Neuromelanin in the Substantia Nigra. Dopachrome participates in redox cycling, generating Reactive Oxygen Species such as Superoxide anion upon one-electron reduction, while its electrophilic quinone imine moiety forms covalent pigment-protein adducts characteristic of mature melanin and implicated in neuronal vulnerability in Parkinson's Disease.",
+      "zh-TW": "在兒茶酚胺能神經元中，Dopachrome 及相關 indolequinone 由 Dopamine 與 L-DOPA 的氧化代謝產生，並促成 Substantia Nigra 中隨年齡累積的 Neuromelanin。Dopachrome 參與 redox cycling，在單電子還原時生成 Superoxide anion 等 Reactive Oxygen Species；其親電子 quinone imine 基團則形成成熟色素所特有的共價色素-蛋白質加合物，與 Parkinson's Disease 中的神經元脆弱性相關。"
+    },
+    "confidence": 0.85,
+    "source_document": "Dopachrome.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "312f1c212a0a",
+    "subject": "Dopamine hypothesis",
+    "predicate": "explains",
+    "object": "Schizophrenia",
+    "context": {
+      "en-US": "The Dopamine hypothesis models the symptoms of Schizophrenia as arising from disturbed, hyperactive dopaminergic signal transduction, with emphasis on neurotransmitter receptor activity. It superseded the earlier Adrenochrome Hypothesis, which had attributed schizophrenia to oxidative catecholamine metabolites such as adrenochrome, and thereby redirected research toward Dopamine receptor pharmacology.",
+      "zh-TW": "Dopamine hypothesis 將 Schizophrenia 的症狀歸因於受干擾且過度活躍的多巴胺訊息傳遞，強調神經傳遞受體的活性。它取代了較早將精神分裂症歸因於 adrenochrome 等兒茶酚胺氧化代謝物的 Adrenochrome Hypothesis，將研究重心轉向 Dopamine 受體藥理學。"
+    },
+    "confidence": 0.9,
+    "source_document": "Dopamine hypothesis.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "ded8c430f644",
+    "subject": "Dopaquinone",
+    "predicate": "is_derived_from",
+    "object": "L-DOPA",
+    "context": {
+      "en-US": "Dopaquinone is the ortho-quinone produced by tyrosinase-catalyzed oxidation of L-DOPA and is the first stable quinone intermediate of the melanogenic cascade. As an ortho-quinone it undergoes one-electron redox cycling: the resulting semiquinone radical reduces oxygen to Superoxide anion, propagating Oxidative Stress, whereas two-electron reduction by NQO1 or Glutathione-dependent systems short-circuits the cycle.",
+      "zh-TW": "Dopaquinone 是 L-DOPA 經 tyrosinase 催化的氧化所產生的 ortho-quinone，也是黑色素生成級聯中第一個穩定的 quinone 中間產物。作為 ortho-quinone，它會經歷單電子 redox cycling：生成的半醌自由基將氧還原為 Superoxide anion，傳播 Oxidative Stress；相對地，NQO1 或 Glutathione 依賴系統的雙電子還原則會短路此循環。"
+    },
+    "confidence": 0.9,
+    "source_document": "Dopaquinone.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "1a9f2cb1a8b5",
+    "subject": "Dopaquinone",
+    "predicate": "is_converted_to",
+    "object": "Dopachrome",
+    "context": {
+      "en-US": "Dopaquinone is a branch-point electrophile with three fates: it can cyclize and rearrange to Dopachrome along the eumelanin route, be attacked by thiols such as Cysteine to yield Cysteinyldopa and pheomelanin precursors, or be reduced back to DOPA by cellular reductants, closing a redox cycle. Unregulated accumulation is damaging because the electrophilic quinone ring arylates cysteine and lysine residues on proteins, a mechanism shared with the aminochrome pathway.",
+      "zh-TW": "Dopaquinone 是分岔點上的親電子物，有三種去向：可環化重排為 Dopachrome 走向 eumelanin 途徑；可被 Cysteine 等 thiol 進攻生成 Cysteinyldopa 與 pheomelanin 前驅物；或可被細胞還原劑還原回 DOPA，閉合 redox cycle。失控累積之所以有害，是因為親電性的 quinone 環會對蛋白質的 cysteine 與 lysine 殘基進行芳基化，此機制與 aminochrome 途徑共用。"
+    },
+    "confidence": 0.88,
+    "source_document": "Dopaquinone.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "6f67d537963c",
+    "subject": "Doxycycline",
+    "predicate": "activates",
+    "object": "Mitochondrial Unfolded Protein Response",
+    "context": {
+      "en-US": "Doxycycline, a tetracycline-class antibiotic, at concentrations above its antimicrobial IC50 binds the mitochondrial 39S ribosomal subunit and blocks aminoacyl-tRNA accommodation, selectively depleting the 13 mtDNA-encoded respiratory-chain subunits. The resulting respiratory deficiency is a classic trigger of the Mitochondrial Unfolded Protein Response: in C. elegans it activates the ATFS-1 transcriptional program, induces mitochondrial chaperones and proteases, and extends Lifespan, which is why it is a standard pharmacological probe of mitohormesis.",
+      "zh-TW": "Doxycycline 屬四環黴素類抗生素，在高於抗菌 IC50 的濃度下結合粒線體 39S 核糖體次單元並阻斷氨醯-tRNA 接受，選擇性耗竭 13 個 mtDNA 編碼的呼吸鏈次單元。由此造成的呼吸不足是 Mitochondrial Unfolded Protein Response 的典型觸發因素：在 *C. elegans* 中它啟動 ATFS-1 轉錄程式、誘導粒線體伴護蛋白與蛋白酶並延長 Lifespan，因此被用作研究 mitohormesis 的標準藥理探針。"
+    },
+    "confidence": 0.93,
+    "source_document": "Doxycycline.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "ed8fe5e21ea5",
+    "subject": "Ellagibacter isourolithinifaciens",
+    "predicate": "metabolizes",
+    "object": "Ellagic acid",
+    "context": {
+      "en-US": "Ellagibacter isourolithinifaciens is a human intestinal bacterium of the Eggerthellaceae family that metabolizes dietary Ellagic acid into Isourolithin A, an isomer of Urolithin A. Together with Gordonibacter urolithinfaciens it accounts for the conversion of ellagic acid into the urolithin metabolite class in the colon, determining which urolithin species is produced.",
+      "zh-TW": "Ellagibacter isourolithinifaciens 是 Eggerthellaceae 科的人類腸道菌，能將膳食中的 Ellagic acid 代謝為 Isourolithin A（Urolithin A 的異構物）。它與 Gordonibacter urolithinfaciens 共同負責在結腸中將 ellagic acid 轉為 urolithin 類代謝物，決定所產生的 urolithin 物種。"
+    },
+    "confidence": 0.9,
+    "source_document": "Ellagibacter isourolithinifaciens.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "1567fe05a62c",
+    "subject": "Ellagitannins",
+    "predicate": "is_metabolized_to",
+    "object": "Urolithin A",
+    "context": {
+      "en-US": "Ellagitannins are hydrolyzable tannins abundant in pomegranates, strawberries, walnuts and almonds. They act as prebiotic precursors that the gut microbiota metabolizes in the colon, releasing Ellagic acid and ultimately generating urolithins such as Urolithin A, a metabolite associated with muscle health and performance.",
+      "zh-TW": "Ellagitannins 是廣泛存在於石榴、草莓、核桃與杏仁中的可水解單寧。它們作為益生元前驅物，被腸道菌群在結腸中代謝，釋出 Ellagic acid，並最終生成 urolithin 類物質如與肌肉健康及表現相關的 Urolithin A。"
+    },
+    "confidence": 0.9,
+    "source_document": "Ellagitannins.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "bc6b94551e3e",
+    "subject": "End Stage Renal Disease",
+    "predicate": "is_associated_with",
+    "object": "Advanced Glycation End Products",
+    "context": {
+      "en-US": "In End Stage Renal Disease the relationship with Advanced Glycation End Products runs both ways: elevated levels of AGEs such as CML predict renal function decline, while reduced renal clearance raises circulating AGE burden. The same tissue AGE accumulation that drives micro- and macrovascular damage in diabetes is therefore also linked to renal disease progression.",
+      "zh-TW": "在 End Stage Renal Disease 中，與 Advanced Glycation End Products 的關係是雙向的：CML 等 AGE 濃度升高可預測腎功能衰退，而腎臟清除能力下降又會提高循環中的 AGE 負荷。因此，在糖尿病中驅動微血管與大血管損傷的組織 AGE 累積，同樣也與腎病進展相關。"
+    },
+    "confidence": 0.88,
+    "source_document": "End Stage Renal Disease.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "701309771fb9",
+    "subject": "EpiPen",
+    "predicate": "delivers",
+    "object": "Epinephrine",
+    "context": {
+      "en-US": "An EpiPen is a brand of epinephrine auto-injector used for emergency treatment of Anaphylaxis. The stability of the Epinephrine it contains is critical: formulations are designed to suppress formation of Adrenochrome and other degradants, giving a typical shelf life of 12-24 months at room temperature, which is why device formulation and quality control are core product concerns.",
+      "zh-TW": "EpiPen 是 epinephrine 自動注射器的品牌名稱，用於 Anaphylaxis 的緊急治療。其中 Epinephrine 的穩定性至關重要：配方設計會抑制 Adrenochrome 與其他降解產物的形成，使室溫下典型保存期限達 12–24 個月，因此裝置配方與品質管制是產品核心考量。"
+    },
+    "confidence": 0.9,
+    "source_document": "EpiPen.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "b607e60a06cd",
+    "subject": "Epicatechin",
+    "predicate": "breaks",
+    "object": "Advanced Glycation End Products",
+    "context": {
+      "en-US": "Epicatechin, a polyphenolic flavonoid of green tea and cocoa, acts as a potent breaker of Advanced Glycation End Products. Its nucleophilic carbons at C6 and C8 of the A-ring attack and cleave the side chains of AGE structures, destroying preformed protein cross-links such as those in glycated Serum albumin. It also inhibits formation of new AGEs, decreases AGE accumulation in retinal tissue, and neutralizes Reactive Oxygen Species.",
+      "zh-TW": "Epicatechin 是綠茶與可可中的多酚類黃酮，是 Advanced Glycation End Products 的強效裂解劑。其 A 環 C6 與 C8 位置的親核碳會進攻並切斷 AGE 結構的側鏈，破壞如糖化 Serum albumin 中既有的蛋白質交聯。它同時抑制新 AGE 的形成、減少視網膜組織中的 AGE 累積，並中和 Reactive Oxygen Species。"
+    },
+    "confidence": 0.9,
+    "source_document": "Epicatechin.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "48d76950f179",
+    "subject": "Erythrocytes",
+    "predicate": "is_susceptible_to",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "Erythrocytes are the principal oxygen-delivering blood cells and are unusually exposed to Oxidative Stress, being subject both to autoxidation of Hemoglobin and to circulating catecholamine metabolites such as Adrenochrome. Because mature red cells lack nuclei and mitochondria they cannot repair oxidized protein, so this oxidative burden drives Hemolysis and Methemoglobinemia, with the latter evident as cyanosis.",
+      "zh-TW": "Erythrocytes 是主要的運送氧氣的血球，特別暴露於 Oxidative Stress：既承受 Hemoglobin 的自氧化，也接觸 Adrenochrome 等循環中的兒茶酚胺代謝物。由於成熟紅血球缺乏細胞核與粒線體，無法修復被氧化的蛋白質，這份氧化負擔會導致 Hemolysis 與 Methemoglobinemia，後者表現為發紺。"
+    },
+    "confidence": 0.9,
+    "source_document": "Erythrocytes.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "28aedd0066a1",
+    "subject": "Exchange transfusion",
+    "predicate": "treats",
+    "object": "Methemoglobinemia",
+    "context": {
+      "en-US": "Exchange transfusion replaces a patient's blood with donor blood and serves as a treatment of last resort for severe or refractory Methemoglobinemia, used when Methylene blue has failed or is contraindicated. Ascorbic acid is another alternative or adjunct, and hyperbaric oxygen may be used in severe or refractory cases, so the procedure sits at the end of the treatment hierarchy rather than first line.",
+      "zh-TW": "Exchange transfusion 以捐贈者的血液置換病人血液，是重度或難治性 Methemoglobinemia 的最後手段治療，用於 Methylene blue 失敗或屬禁忌時。Ascorbic acid（維生素 C）為其他替代或輔助選項，嚴重或難治病例亦可使用高壓氧，因此此程序位於治療階層末端而非第一線。"
+    },
+    "confidence": 0.9,
+    "source_document": "Exchange transfusion.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "061bd54247f7",
+    "subject": "Extracellular Acidification Rate",
+    "predicate": "measures",
+    "object": "Glycolysis",
+    "context": {
+      "en-US": "Extracellular Acidification Rate is a real-time readout of proton efflux from living cells, detected by a pH-sensitive biosensor such as the Seahorse XF Analyzer. Because Glycolysis converts glucose to lactate with net proton production, ECAR serves as a proxy for glycolytic flux and lactate export, complementing the Oxygen Consumption Rate measurement of mitochondrial respiration. The ECAR/OCR ratio classifies cells as glycolytic or oxidative-phosphorylation-dependent, and mild respiratory-chain stress such as that engaged by Mitohormesis raises ECAR.",
+      "zh-TW": "Extracellular Acidification Rate 是活細胞釋放質子的即時讀值，由 Seahorse XF Analyzer 等 pH 敏感生物感測器偵測。由於 Glycolysis 將葡萄糖轉為乳酸並淨產生質子，ECAR 可作為糖解通量與乳酸輸出的代理指標，與量測粒線體呼吸的 Oxygen Consumption Rate 互補。ECAR/OCR 比值可區分細胞屬糖酵解型或氧化磷酸化依賴型，而 Mitohormesis 所涉及的輕度呼吸鏈壓力會使 ECAR 上升。"
+    },
+    "confidence": 0.9,
+    "source_document": "Extracellular Acidification Rate.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "62ecb1bacd82",
+    "subject": "Fructosamine-3-phosphate",
+    "predicate": "is_formed_by",
+    "object": "Fructosamine-3-kinase",
+    "context": {
+      "en-US": "Fructosamine-3-phosphate is a highly unstable intermediate metabolite of the enzymatic deglycation pathway. It arises when Fructosamine-3-kinase phosphorylates Amadori products on glycated proteins, and because of its chemical instability it spontaneously decomposes to regenerate the original undamaged amino acid while releasing 3-deoxyglucosone, which is then neutralized by detoxifying enzymes. Its fleeting existence is what makes this deglycation route reversible.",
+      "zh-TW": "Fructosamine-3-phosphate 是酵素性去糖化途徑中高度不穩定的中間代謝物。它由 Fructosamine-3-kinase 磷酸化糖化蛋白上的 Amadori products 而生成，並因化學不穩定而自發分解，恢復原本未受損的胺基酸並釋出 3-deoxyglucosone，後者隨即被去毒酵素中和。其短暫的存在正是此去糖化途徑得以逆轉的關鍵。"
+    },
+    "confidence": 0.9,
+    "source_document": "Fructosamine-3-phosphate.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "2608b07eba9f",
+    "subject": "G6PD deficiency",
+    "predicate": "increases_susceptibility_to",
+    "object": "Hemolysis",
+    "context": {
+      "en-US": "G6PD deficiency is an inherited loss of glucose-6-phosphate dehydrogenase that compromises the ability of Erythrocytes to handle Oxidative Stress, so affected individuals hemolyze on exposure to oxidant triggers including Methylene blue and dapsone hydroxylamine. Methylene blue is therefore contraindicated or must be used with caution in G6PD-deficient patients being treated for Methemoglobinemia, and ascorbic acid is often preferred as the safer alternative.",
+      "zh-TW": "G6PD deficiency 是 glucose-6-phosphate dehydrogenase 的遺傳性缺失，使 Erythrocytes 無法有效應付 Oxidative Stress，因此患者在接觸 Methylene blue 與 dapsone hydroxylamine 等氧化性觸發物時會發生溶血。因此在治療 Methemoglobinemia 時，Methylene blue 對 G6PD 缺乏者屬禁忌或需謹慎使用，而 ascorbic acid 常被作為較安全的替代方案。"
+    },
+    "confidence": 0.9,
+    "source_document": "G6PD deficiency.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "ac1885aff2dc",
+    "subject": "GLO1",
+    "predicate": "catalyzes",
+    "object": "S-D-lactoylglutathione",
+    "context": {
+      "en-US": "GLO1 (glyoxalase 1, lactoylglutathione lyase) is the rate-limiting enzyme of the cellular Glyoxalase System. It catalyzes conversion of hemithioacetals, which form spontaneously between the reactive dicarbonyl Methylglyoxal and Glutathione, into S-D-lactoylglutathione, committing the dicarbonyl to detoxification rather than further reaction.",
+      "zh-TW": "GLO1（glyoxalase 1，lactoylglutathione lyase）是細胞 Glyoxalase System 的限速酵素。它催化將反應性二碳醣基 Methylglyoxal 與 Glutathione 自發形成的 hemithioacetal 轉為 S-D-lactoylglutathione，使該二碳醣基被導向去毒途徑而非進一步反應。"
+    },
+    "confidence": 0.92,
+    "source_document": "GLO1.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "8c6a93f918b8",
+    "subject": "GLO1",
+    "predicate": "prevents",
+    "object": "Advanced Glycation End Products",
+    "context": {
+      "en-US": "Maintaining or enhancing GLO1 activity is a primary therapeutic target for lowering dicarbonyl stress and preventing the accumulation of Advanced Glycation End Products. By intercepting Methylglyoxal at the first committed step of the Glyoxalase System, GLO1 limits the flux of reactive dicarbonyls that would otherwise glycate proteins and cross-link into irreversible AGEs.",
+      "zh-TW": "維持或提升 GLO1 活性是降低二碳醣基壓力並防止 Advanced Glycation End Products 累積的首要治療標的。GLO1 在 Glyoxalase System 的第一個承諾步驟攔截 Methylglyoxal，因而限制那些否則會糖化蛋白並交聯成不可逆 AGE 的反應性二碳醣基通量。"
+    },
+    "confidence": 0.85,
+    "source_document": "GLO1.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "b6e39a56cf62",
+    "subject": "GLO2",
+    "predicate": "hydrolyzes",
+    "object": "S-D-lactoylglutathione",
+    "context": {
+      "en-US": "GLO2 (glyoxalase 2, hydroxyacylglutathione hydrolase) is the second enzyme of the Glyoxalase System and catalyzes the hydrolysis of S-D-lactoylglutathione — the intermediate produced by GLO1 — to release D-lactate and regenerate Glutathione, the cell's primary antioxidant. Because Glutathione is recycled rather than consumed, the glyoxalase pathway does not deplete cellular GSH under normal conditions, unlike direct glutathione-conjugation reactions.",
+      "zh-TW": "GLO2（glyoxalase 2，hydroxyacylglutathione hydrolase）是 Glyoxalase System 的第二個酵素，催化水解 GLO1 產生的中間產物 S-D-lactoylglutathione，釋出 D-lactate 並再生細胞主要的抗氧化劑 Glutathione。由於 Glutathione 是被回收而非被消耗，glyoxalase 途徑在正常情況下不會耗盡細胞 GSH，這與直接進行 glutathione 結合的反應不同。"
+    },
+    "confidence": 0.9,
+    "source_document": "GLO2.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "b159c0969a7d",
+    "subject": "GLO2",
+    "predicate": "is_a_component_of",
+    "object": "Glyoxalase System",
+    "context": {
+      "en-US": "GLO2 (glyoxalase 2, hydroxyacylglutathione hydrolase) is the second sequentially acting enzyme of the Glyoxalase System, following GLO1. It belongs to the metallo-β-lactamase superfamily, and its active site can coordinate Zn²⁺, Fe²⁺ or Mn²⁺ depending on cellular metal availability; the reaction proceeds by nucleophilic attack of water on the thioester carbonyl, releasing Glutathione for re-entry into the glyoxalase catalytic cycle.",
+      "zh-TW": "GLO2（glyoxalase 2，hydroxyacylglutathione hydrolase）是 Glyoxalase System 中依序作用的第二個酵素，接續 GLO1 之後。它屬於 metallo-β-lactamase 超家族，活性中心可依細胞內金屬可用性配位 Zn²⁺、Fe²⁺ 或 Mn²⁺；反應由水對硫酯羰基的親核進攻進行，釋出 Glutathione 供 glyoxalase 催化循環重新使用。"
+    },
+    "confidence": 0.85,
+    "source_document": "GLO2.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "d6b8e2db21bb",
+    "subject": "GLO1",
+    "predicate": "converts_to",
+    "object": "S-D-lactoylglutathione",
+    "context": {
+      "en-US": "GLO1 (glyoxalase 1, lactoylglutathione lyase) is the rate-limiting, zinc-dependent metalloenzyme of the Glyoxalase System. It catalyzes the isomerization of the hemithioacetal that forms spontaneously between Methylglyoxal and Glutathione into S-D-lactoylglutathione, proceeding through a cis-enediolate intermediate in which the active-site Zn²⁺ coordinates the substrate. Human GLO1 is a homodimer of 184-residue (~21 kDa) subunits with allosteric regulation by Glutathione and S-D-lactoylglutathione.",
+      "zh-TW": "GLO1（glyoxalase 1，lactoylglutathione lyase）是 Glyoxalase System 的限速酵素，為鋅依賴型的金屬酵素。它催化 Methylglyoxal 與 Glutathione 自發形成的硫代半縮醛異構化為 S-D-lactoylglutathione，經由 cis-enediolate 中間體進行，過程中活性中心的 Zn²⁺ 配位受質。人類 GLO1 為 184 個胺基酸（約 21 kDa）次單體的同源二聚體，並受 Glutathione 與 S-D-lactoylglutathione 的變構調節。"
+    },
+    "confidence": 0.92,
+    "source_document": "Glyoxalase System.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "a46f7c683422",
+    "subject": "Glyoxalase System",
+    "predicate": "defends_against",
+    "object": "Advanced Glycation End Products",
+    "context": {
+      "en-US": "The Glyoxalase System is the primary cellular defense pathway against dicarbonyl stress and the accumulation of Advanced Glycation End Products. It detoxifies reactive dicarbonyl intermediates generated during Glycolysis and Lipid Peroxidation by sequentially acting GLO1 and GLO2 enzymes, and maintaining its activity is a primary target for reducing endogenous AGE accumulation and mitigating diabetic complications. Because the pathway requires Glutathione as a co-substrate, it becomes compromised under Oxidative Stress when GSH is depleted.",
+      "zh-TW": "Glyoxalase System 是細胞對抗 dicarbonyl stress 與 Advanced Glycation End Products 累積的主要防禦途徑。它透過依序作用的 GLO1 與 GLO2 酵素，分解在 Glycolysis 與 Lipid Peroxidation 過程中產生的活性 dicarbonyl 中間體；維持此途徑活性是降低內源性 AGE 累積、減輕糖尿病併發症的主要著力點。由於該途徑需以 Glutathione 為共同受質，因此在 GSH 被耗竭的 Oxidative Stress 狀態下功能會受損。"
+    },
+    "confidence": 0.95,
+    "source_document": "Glyoxalase System.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "d8d281522dfb",
+    "subject": "Glyoxalase System",
+    "predicate": "is_upregulated_by",
+    "object": "NRF2",
+    "context": {
+      "en-US": "The GLO1 and GLO2 genes are transcriptional targets of the NRF2–Antioxidant Response Element pathway and are also regulated by HIF-1α and FOXO. Mild electrophilic stress — including low-level exposure to Adrenaline-quinone, Adrenochrome or dietary Polyphenols — upregulates GLO1 expression via NRF2 activation, increasing dicarbonyl clearance capacity. This hormetic upregulation links catecholamine oxidation to dicarbonyl metabolism: modest Nrf2 activation by aminochrome electrophiles may pre-emptively upregulate GLO1, while high adrenochrome concentrations instead deplete GSH and impair glyoxalase function.",
+      "zh-TW": "GLO1 與 GLO2 基因是 NRF2–Antioxidant Response Element 途徑的轉錄標的，也受 HIF-1α 與 FOXO 調控。輕度親電子壓力（包括低劑量接觸 Adrenaline-quinone、Adrenochrome 或膳食 Polyphenols）會透過 NRF2 活化而上調 GLO1 表現，提升 dicarbonyl 清除能力。這種 hormetic 上調將兒茶酚胺氧化與 dicarbonyl 代謝連結起來：aminochrome 親電子試劑的溫和 Nrf2 活化可預先提高 GLO1，但高濃度 adrenochrome 則會耗竭 GSH 並損害 glyoxalase 功能。"
+    },
+    "confidence": 0.85,
+    "source_document": "Glyoxalase System.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "1585c5880b0a",
+    "subject": "Metformin",
+    "predicate": "upregulates",
+    "object": "GLO1",
+    "context": {
+      "en-US": "Metformin increases GLO1 expression via the FOXO3a–Akt axis, representing one proposed mechanism of its anti-aging and anti-diabetic efficacy. Enhanced glyoxalase activity raises dicarbonyl clearance capacity and thereby limits endogenous Advanced Glycation End Products accumulation, which is one of the clinical sequelae of hyperglycemia in Diabetes.",
+      "zh-TW": "Metformin 透過 FOXO3a–Akt 軸提高 GLO1 表現，這是它抗老化與抗糖尿病功效的可能機制之一。glyoxalase 活性提升可增加 dicarbonyl 清除能力，進而限制內源性 Advanced Glycation End Products 的累積——而後者正是 Diabetes 中高血糖的臨床後果之一。"
+    },
+    "confidence": 0.8,
+    "source_document": "Glyoxalase System.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "c4de3b363e42",
+    "subject": "Methylglyoxal",
+    "predicate": "is_detoxified_by",
+    "object": "GLO1",
+    "context": {
+      "en-US": "Methylglyoxal is the primary physiological substrate of the glyoxalase pathway, generated predominantly from triose phosphate intermediates during Glycolysis, from Ketone body metabolism via acetone oxidation, and from threonine catabolism. Steady-state concentrations are 1–4 µM in healthy cells but rise to 50–100 µM under hyperglycemic or pro-oxidant conditions. It is the most potent glycating endogenous dicarbonyl, reacting with arginine to form hydroimidazolone (MG-H1) and with lysine to form N-ε-(1-carboxyethyl)lysine (CEL), both of which compromise protein function.",
+      "zh-TW": "Methylglyoxal 是 glyoxalase 途徑的主要生理受質，主要在 Glycolysis 中由三碳糖磷酸中間體產生，也可來自 Ketone body 代謝中的丙酮氧化以及蘇胺酸分解。健康細胞內的穩態濃度為 1–4 µM，但在高血糖或促氧化條件下可升至 50–100 µM。它是內源性 dicarbonyl 中最有效的醣化試劑，與精胺酸反應形成 hydroimidazolone（MG-H1），與離胺酸反應形成 N-ε-(1-carboxyethyl)lysine（CEL），兩者皆會損害蛋白質功能。"
+    },
+    "confidence": 0.9,
+    "source_document": "Glyoxalase System.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "3a81a4435692",
+    "subject": "Advanced Glycation End Products",
+    "predicate": "activates",
+    "object": "RAGE",
+    "context": {
+      "en-US": "Advanced Glycation End Products crosslink long-lived proteins such as collagen, elastin and myelin, and these AGE-modified proteins activate the RAGE receptor. RAGE engagement triggers pro-inflammatory NF-κB signaling and promotes oxidative stress via receptor-dependent NADPH oxidase activation, making the glyoxalase system a critical barrier to the glycation-inflammatory axis. Glyoxalase capacity also declines with age through oxidative inactivation of GLO1, reduced Glutathione availability and transcriptional downregulation, mirroring the accumulation of AGEs.",
+      "zh-TW": "Advanced Glycation End Products 會交聯 collagen、elastin 與 myelin 等長壽命蛋白，這些經 AGE 修飾的蛋白會活化 RAGE 受體。RAGE 的接合引發促發炎性的 NF-κB 訊號傳遞，並透過受體依賴型的 NADPH oxidase 活化促進氧化壓力，因此 glyoxalase system 是對抗 glycation–發炎軸的關鍵屏障。隨老化，glyoxalase 能力會因 GLO1 的氧化失活、Glutathione 可用性下降與轉錄下調而衰退，與 AGE 累積同步。"
+    },
+    "confidence": 0.9,
+    "source_document": "Glyoxalase System.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "920f15dd8cac",
+    "subject": "Glucosepane",
+    "predicate": "is_a_type_of",
+    "object": "Advanced Glycation End Products",
+    "context": {
+      "en-US": "Glucosepane is the most abundant and chemically stable protein–protein crosslink of the Advanced Glycation End Products family in human structural tissues. Formed from Glucose and lysyl/arginyl residues, its accumulation drives the systemic stiffening of structural tissues such as Collagen associated with Aging, Diabetes and vascular complications. Humans lack endogenous enzymes capable of directly cleaving the glucosepane ring to restore tissue elasticity.",
+      "zh-TW": "Glucosepane 是人類結構組織中 Advanced Glycation End Products 家族中最豐富且化學上最穩定的蛋白質–蛋白質交聯物。它由 Glucose 與離胺酸／精胺酸殘基形成，其累積會推動 Collagen 等結構組織與 Aging、Diabetes 及血管併發症相關的全身性僵硬。人類缺乏能直接切斷 glucosepane 環以恢復組織彈性的內源性酵素。"
+    },
+    "confidence": 0.9,
+    "source_document": "Glucosepane.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "6ec299ad258d",
+    "subject": "HemF-like",
+    "predicate": "cleaves",
+    "object": "Glucosepane",
+    "context": {
+      "en-US": "HemF-like (coproporphyrinogen III oxidase-like) enzymes are biocatalysts identified by functional metagenomics in soil bacteria that can use synthetic Glucosepane as a nutrient source. The human homolog of HemF, together with homologous bacterial proteins in the human microbiome such as Escherichia and Pseudomonas, catalyzes cleavage of the glucosepane ring in vitro, releasing Citrulline as a byproduct — the only known route for enzymatically reversing this AGE crosslink.",
+      "zh-TW": "HemF-like（coproporphyrinogen III oxidase-like）酵素是由功能性 metagenomics 在土壤細菌中發現的生物催化劑，能以合成的 Glucosepane 作為養分來源。HemF 的人類同源蛋白，以及人體微生物組中如 Escherichia 與 Pseudomonas 的同源蛋白，能在體外催化 glucosepane 環的切斷，並釋出 Citrulline 作為副產物——這是已知唯一能以酵素方式逆轉此 AGE 交聯的途徑。"
+    },
+    "confidence": 0.88,
+    "source_document": "HemF-like.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "d82ad9347e4a",
+    "subject": "Glucose",
+    "predicate": "is_a_reactant_of",
+    "object": "Maillard Reaction",
+    "context": {
+      "en-US": "Glucose is a simple sugar (C6H12O6) that serves as a primary energy source for cells and a key reactant in the Maillard Reaction. In that non-enzymatic reaction glucose attaches to a free amino acid — mainly Lysine and Arginine — of a protein, lipid or DNA to form a Schiff base, the initiating step in the formation of Advanced Glycation End Products.",
+      "zh-TW": "Glucose 是簡單的糖（C6H12O6），既是細胞的主要能量來源，也是 Maillard Reaction 的關鍵反應物。在該非酵素性反應中，Glucose 會與蛋白質、脂質或 DNA 上游離的胺基酸（主要為 Lysine 與 Arginine）結合形成 Schiff base，這是 Advanced Glycation End Products 形成的起始步驟。"
+    },
+    "confidence": 0.9,
+    "source_document": "Glucose.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "06d72501123e",
+    "subject": "Glyoxal",
+    "predicate": "induces",
+    "object": "Advanced Glycation End Products",
+    "context": {
+      "en-US": "Glyoxal is a highly reactive dicarbonyl intermediate generated during cellular metabolism, Glycolysis and Lipid Peroxidation. It is a potent inducer of dicarbonyl stress, reacting non-enzymatically with cellular macromolecules to form Advanced Glycation End Products. It is detoxified by enzymatic defense networks including the Glyoxalase System and PARK7 (DJ-1), which catalyzes its glutathione-independent conversion to Glycolic acid and thereby protects cellular proteins from covalent modification.",
+      "zh-TW": "Glyoxal 是在細胞代謝、Glycolysis 與 Lipid Peroxidation 過程中產生的高反應性 dicarbonyl 中間體。它是 dicarbonyl stress 的強效誘發因子，會與細胞大分子進行非酵素性反應形成 Advanced Glycation End Products。它可被包括 Glyoxalase System 與 PARK7（DJ-1）在內的酵素防禦網絡解毒；PARK7 催化其不依賴 glutathione 的轉化為 Glycolic acid，藉此保護細胞蛋白免於共價修飾。"
+    },
+    "confidence": 0.92,
+    "source_document": "Glyoxal.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "ee1ce349709e",
+    "subject": "PARK7",
+    "predicate": "converts_to",
+    "object": "Glycolic acid",
+    "context": {
+      "en-US": "PARK7 (encoding DJ-1) acts as a Glutathione-independent glyoxalase inside cells, detoxifying the reactive precursor Glyoxal into Glycolic acid. Because this reaction does not consume GSH, it remains functional under Oxidative Stress when GSH is depleted — making DJ-1 a last line of defense against dicarbonyl stress and preventing Glyoxal from forming irreversible Advanced Glycation End Products. DJ-1 also converts Methylglyoxal to L-lactate.",
+      "zh-TW": "PARK7（編碼 DJ-1）在細胞內作為不依賴 Glutathione 的 glyoxalase 作用，將活性前驅物 Glyoxal 解毒轉為 Glycolic acid。由於此反應不消耗 GSH，因此在 GSH 被耗竭的 Oxidative Stress 下仍可運作，使 DJ-1 成為對抗 dicarbonyl stress 的最後一道防線，並避免 Glyoxal 形成不可逆的 Advanced Glycation End Products。DJ-1 也將 Methylglyoxal 轉為 L-lactate。"
+    },
+    "confidence": 0.9,
+    "source_document": "Glycolic acid.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "3240ce3e3f13",
+    "subject": "Glyco-Oxidative Proteostasis Shield",
+    "predicate": "combines",
+    "object": "Spermidine",
+    "context": {
+      "en-US": "The Glyco-Oxidative Proteostasis Shield (GOPS) is a therapeutic strategy against protein aggregation and Advanced Glycation End Products that combines a hybrid molecule (Adrenochrome monoaminoguanidine) whose aminoguanidine moiety inhibits AGE and DNA cross-link formation, an autophagy inducer (Spermidine) that enhances macroautophagy to clear glycation- and oxidation-damaged proteins, and a metal chelator (EDTA or Carnosine) that prevents transition-metal-catalyzed autoxidation of adrenaline. The adrenochrome moiety additionally triggers a mild ER-stress hormetic response that upregulates chaperones and primes Autophagy machinery.",
+      "zh-TW": "Glyco-Oxidative Proteostasis Shield（GOPS）是對抗蛋白聚集與 Advanced Glycation End Products 的治療策略，結合三部分：雜交分子（Adrenochrome monoaminoguanidine），其 aminoguanidine  moiety 直接抑制 AGE 與 DNA 交聯形成；自噬誘導劑（Spermidine），增強巨自噬以清除已被醣化或氧化破壞的蛋白；以及金屬螯合劑（EDTA 或 Carnosine），防止過渡金屬催化的 adrenaline 自氧化。adrenochrome 部分另可誘發輕度 ER 壓力的 hormesis 反應，上調伴護蛋白並啟動 Autophagy 機制。"
+    },
+    "confidence": 0.85,
+    "source_document": "Glyco-Oxidative Proteostasis Shield.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "c75511c29ee2",
+    "subject": "HPLC",
+    "predicate": "quantifies",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "HPLC is the primary analytical method used to monitor the degradation of Epinephrine and to quantify the levels of Leuco-adrenochrome and Adrenochrome in pharmaceutical formulations. Chromatographic separation by HPLC is also the standard quality-control tool for detecting Impurity marker species against a Reference standard, and it was used to detect a compound with the same retention time as Adrenochrome in a biological fluid rich in Neutrophils.",
+      "zh-TW": "HPLC 是監測 Epinephrine 降解、以及定量藥品製劑中 Leuco-adrenochrome 與 Adrenochrome 含量的主要分析方法。HPLC 的層析分離也是相對於 Reference standard 偵測 Impurity marker 物質的標準品質管制工具；研究者曾以 HPLC 在富含 Neutrophils 的生物液體中檢測到與 Adrenochrome 保留時間相同的化合物。"
+    },
+    "confidence": 0.88,
+    "source_document": "HPLC.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "a22b716e3f59",
+    "subject": "H-NMR",
+    "predicate": "verifies_structure_of",
+    "object": "Leuco-adrenochrome",
+    "context": {
+      "en-US": "H-NMR (proton nuclear magnetic resonance) determines the structure of organic molecules and is the primary method, alongside Mass Spectrometry, for verifying the molecular structure and purity of synthesized intermediates such as Leuco-adrenochrome. The Certificate of Analysis supplied with purchased material usually specifies the purity and the verification method used, since synthetic batches can readily degrade if handled improperly.",
+      "zh-TW": "H-NMR（proton 核磁共振）用於判定有機分子的結構，是與 Mass Spectrometry 並列、驗證 Leuco-adrenochrome 等合成中間體分子結構與純度的主要方法。購買材料時隨附的 Certificate of Analysis 通常會註明純度與所用的驗證方法，因為合成批次若處理不當很容易降解。"
+    },
+    "confidence": 0.85,
+    "source_document": "H-NMR.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "f5dabc080689",
+    "subject": "Hemoglobin M",
+    "predicate": "is_a_type_of",
+    "object": "Methemoglobinemia",
+    "context": {
+      "en-US": "Hemoglobin M (HbM) disease is a rare congenital form of Methemoglobinemia caused by autosomal dominant mutations in the globin genes (α, β or γ chains). These mutations stabilize the iron in the ferric Fe³⁺ state within Hemoglobin, so the affected heme groups cannot bind oxygen, producing lifelong Cyanosis; patients are otherwise typically asymptomatic or only mildly affected.",
+      "zh-TW": "Hemoglobin M（HbM）疾病是 Methemoglobinemia 的一種罕見先天型態，由 globin 基因（α、β 或 γ 鏈）的體染色體顯性突變造成。這些突變使 Hemoglobin 中的鐵穩定於 ferric Fe³⁺ 態，使受影響的 heme 無法結合氧氣，造成終身 Cyanosis；患者通常無其他症狀或僅有輕微表現。"
+    },
+    "confidence": 0.92,
+    "source_document": "Hemoglobin M.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "cb968407d4eb",
+    "subject": "Methylene blue",
+    "predicate": "induces",
+    "object": "Hemolysis",
+    "context": {
+      "en-US": "Hemolysis is the destruction of Erythrocytes, releasing Hemoglobin into the surrounding plasma. It is a significant risk when patients with G6PD deficiency are treated with Methylene blue for Methemoglobinemia, because the oxidative dye can trigger hemolysis in susceptible individuals; management of methemoglobinemia must therefore avoid precipitating hemolysis.",
+      "zh-TW": "Hemolysis 是 Erythrocytes 的破壞，使 Hemoglobin 釋放至周圍血漿中。當以 Methylene blue 治療 G6PD deficiency 患者的 Methemoglobinemia 時，這是一項重大風險，因為這種氧化性染料可能在易感個體中誘發溶血；因此 methemoglobinemia 的處置必須避免造成 Hemolysis。"
+    },
+    "confidence": 0.9,
+    "source_document": "Hemolysis.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "1e1743cd6566",
+    "subject": "Adrenochrome",
+    "predicate": "is_precursor_of",
+    "object": "Hemostatics",
+    "context": {
+      "en-US": "Adrenochrome is the synthetic precursor of several hemostatic drugs. Because the molecule is unstable due to its o-quinone, it is stabilized by derivatization to give Carbazochrome (adrenochrome monosemicarbazone) and Adrenochrome monoaminoguanidine, both of which are used as Hemostatics; commercial adrenochrome is prepared by oxidizing adrenaline or its salts with potassium ferricyanide in aqueous medium.",
+      "zh-TW": "Adrenochrome 是數種止血藥品的合成前驅物。由於其 o-quinone 結構使分子不穩定，通常透過衍生化加以穩定，製成 Carbazochrome（adrenochrome monosemicarbazone）與 Adrenochrome monoaminoguanidine，兩者皆用作 Hemostatics；市售 adrenochrome 是在水溶液中以 potassium ferricyanide 氧化 adrenaline 或其鹽製得。"
+    },
+    "confidence": 0.9,
+    "source_document": "Hemostatics.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "7f31743f9d80",
+    "subject": "Hydrazine",
+    "predicate": "stabilizes",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "Adrenochrome is very unstable because of its o-quinone, so it is conventionally stabilized by derivatization with hydrazine compounds such as Aminoguanidine, Semicarbazide, phenylhydrazine, o-nitrophenylhydrazine, p-nitrophenylhydrazine and 2,4-dinitrophenylhydrazine. The resulting stable adducts include Carbazochrome and Adrenochrome monoaminoguanidine, the hemostatic drugs of the adrenochrome family.",
+      "zh-TW": "Adrenochrome 因具 o-quinone 而非常不穩定，因此傳統上以 hydrazine 類化合物（如 Aminoguanidine、Semicarbazide、phenylhydrazine、o-nitrophenylhydrazine、p-nitrophenylhydrazine 與 2,4-dinitrophenylhydrazine）進行衍生化以穩定之。所得的穩定加合物包括 Carbazochrome 與 Adrenochrome monoaminoguanidine，即 adrenochrome 系列的止血藥。"
+    },
+    "confidence": 0.9,
+    "source_document": "Hydrazine.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "3cd81e32a806",
+    "subject": "Humphry Osmond",
+    "predicate": "co_proposed",
+    "object": "Adrenochrome Hypothesis",
+    "context": {
+      "en-US": "Together with Abram Hoffer, Humphry Osmond formulated the Adrenochrome Hypothesis from the 1950s, proposing that Schizophrenia arises from abnormal oxidation of Epinephrine to Adrenochrome, an indole-containing metabolite structurally similar to LSD and Mescaline. Under Oxidative Stress they argued the normal COMT/MAO metabolism of epinephrine is bypassed in favour of non-enzymatic oxidation to this endogenous psychotomimetic. Osmond and Hoffer tested the theory by self-administering LSD, Mescaline and adrenochrome, and the hypothesis was later superseded by the Dopamine hypothesis.",
+      "zh-TW": "Humphry Osmond 與 Abram Hoffer 自 1950 年代起共同提出 Adrenochrome Hypothesis，主張 Schizophrenia 源自 Epinephrine 異常氧化生成 Adrenochrome——一種結構上類似 LSD 與 Mescaline 的含吲哚代謝物。他們認為在 Oxidative Stress 下，epinephrine 經 COMT 與 MAO 的正常代謝被繞過，转而以非酵素性氧化生成這種內源性擬精神病物質。Osmond 與 Hoffer 以自我施用 LSD、Mescaline 與 adrenochrome 來檢驗此假說；該假說後來被 Dopamine hypothesis 取代。"
+    },
+    "confidence": 0.9,
+    "source_document": "Humphry Osmond.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "06964dac34b3",
+    "subject": "Humphry Osmond",
+    "predicate": "co_investigated",
+    "object": "Alcoholism",
+    "context": {
+      "en-US": "With Abram Hoffer, Humphry Osmond conducted some of the first controlled trials of LSD as a treatment for Alcoholism at Saskatchewan Hospital in the 1950s and early 1960s. Their studies reported that a single high-dose LSD session combined with psychotherapy produced significant reductions in relapse rates among chronic alcoholics — findings that have seen major renewed interest in the current renaissance of psychedelic-assisted therapy.",
+      "zh-TW": "Humphry Osmond 與 Abram Hoffer 在 1950 至 1960 年代初於 Saskatchewan Hospital 進行了最早一批以 LSD 治療 Alcoholism 的對照試驗之一。其研究報告指出，單次高劑量 LSD 給藥合併心理治療，可使慢性酒精成癮者的復發率顯著下降——這些發現隨著迷幻藥輔助治療的復興而重新受到重視。"
+    },
+    "confidence": 0.85,
+    "source_document": "Humphry Osmond.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "55b3a871a6ff",
+    "subject": "Hyperglycemia",
+    "predicate": "accelerates",
+    "object": "Glycation",
+    "context": {
+      "en-US": "Hyperglycemia is an abnormally high blood glucose concentration and a primary driver of pathological Glycation. Under hyperglycemic conditions the non-enzymatic reaction between sugars and proteins is greatly accelerated, causing rapid accumulation of Advanced Glycation End Products — most apparent in insulin-independent tissues such as erythrocytes, peripheral nerve, endothelium, lens and kidney cells. Consequences include acceleration of Aging, diabetic complications such as neuropathy, nephropathy and retinopathy, and increased Oxidative Stress through glucose autoxidation.",
+      "zh-TW": "Hyperglycemia 是血糖濃度異常升高，也是病理性 Glycation 的主要驅動力。在高血糖條件下，糖與蛋白質之間的非酵素性反應大幅加速，造成 Advanced Glycation End Products 迅速累積——在不依賴胰島素的組織中尤其明顯，例如紅血球、周邊神經、內皮、晶狀體與腎臟細胞。其後果包括加速 Aging、造成神經病變／腎病變／視網膜病變等糖尿病併發症，以及經由葡萄糖自氧化增加 Oxidative Stress。"
+    },
+    "confidence": 0.9,
+    "source_document": "Hyperglycemia.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "f08d16642a2e",
+    "subject": "Insulin Resistance",
+    "predicate": "is_a_hallmark_of",
+    "object": "Diabetes Mellitus",
+    "context": {
+      "en-US": "Insulin Resistance is a pathological condition in which cells fail to respond normally to insulin, and it is a hallmark of type 2 Diabetes Mellitus. It has also been linked to the intake and accumulation of dietary Advanced Glycation End Products, which may promote systemic Inflammation and Oxidative Stress and thereby worsen insulin responsiveness.",
+      "zh-TW": "Insulin Resistance 是細胞對胰島素反應正常的病理狀態，也是 type 2 Diabetes Mellitus 的特徵。它也與膳食 Advanced Glycation End Products 的攝取與累積有關，後者可能促進全身性 Inflammation 與 Oxidative Stress，進而惡化胰島素反應性。"
+    },
+    "confidence": 0.9,
+    "source_document": "Insulin Resistance.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "9a46d2e17c14",
+    "subject": "Indoline",
+    "predicate": "forms_core_of",
+    "object": "Aminochromes",
+    "context": {
+      "en-US": "Indoline — a benzene ring fused to a five-membered nitrogen-containing ring, the partially hydrogenated form of indole — forms the structural core of Aminochromes such as Adrenochrome and Dopaminochrome. During Oxidation of Catecholamines the catechol ring is converted to a Quinone while the side-chain nitrogen cyclizes to close the five-membered indoline ring.",
+      "zh-TW": "Indoline——由苯環與五員含氮環稠合而成、為 indole 部分氫化型態——構成 Aminochromes（如 Adrenochrome 與 Dopaminochrome）的結構核心。在 Catecholamines 的 Oxidation 過程中，catechol 環被轉換為 Quinone，同時側鏈氮原子環化閉合形成五員 indoline 環。"
+    },
+    "confidence": 0.9,
+    "source_document": "Indoline.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "b01ee7953da5",
+    "subject": "Interleukin 1β",
+    "predicate": "is_matured_by",
+    "object": "Caspase-1",
+    "context": {
+      "en-US": "Interleukin 1β is a potent pyrogenic, pro-inflammatory cytokine of the IL-1 family. Unlike most secreted proteins, mature IL-1β is not released by conventional signal-peptide cleavage: the inactive precursor pro-IL-1β is first transcribed in response to inflammatory cues such as TLR/NOD ligands, then proteolytically matured by active Caspase-1 following assembly of the NLRP3 Inflammasome. Once mature, IL-1β amplifies Inflammation by inducing COX-2, adhesion molecules and other cytokines.",
+      "zh-TW": "Interleukin 1β 是 IL-1 家族中強效的致熱性促發炎細胞激素。與多數分泌蛋白不同，成熟的 IL-1β 並非經由一般訊號胜肽切割釋放：其不活化前驅物 pro-IL-1β 先在 TLR/NOD 配體等發炎訊號刺激下轉錄，接著在 NLRP3 Inflammasome 組裝後由活化的 Caspase-1 蛋白水解成熟。成熟後的 IL-1β 藉由誘導 COX-2、黏附分子與其他細胞激素放大 Inflammation。"
+    },
+    "confidence": 0.92,
+    "source_document": "Interleukin 1β.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "44f55c896f36",
+    "subject": "NLRP3 Inflammasome",
+    "predicate": "is_activated_by",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "The NLRP3 Inflammasome is a multiprotein scaffold (NLRP3–ASC–pro-caspase-1) activated by a convergence of signals including potassium efflux, lysosomal destabilization, mitochondrial Oxidative Stress and mtDNA release, and extracellular ATP. Mitochondrial ROS therefore act as both an activator of the inflammasome and a downstream effector: NLRP3 is a core component of the senescence-associated secretory phenotype (SASP), and inflammasome-derived Interleukin 1β drives Inflammaging.",
+      "zh-TW": "NLRP3 Inflammasome 是一個多蛋白支架（NLRP3–ASC–pro-caspase-1），可由多種訊號匯聚活化，包括鉀離子外流、溶酶體失穩、粒線體 Oxidative Stress 與 mtDNA 釋放，以及細胞外 ATP。因此粒線體 ROS 既是發炎小體的活化因子，也是下游效應因子：NLRP3 是衰老相關分泌表型（SASP）的核心成分，由發炎小體衍生的 Interleukin 1β 則推動 Inflammaging。"
+    },
+    "confidence": 0.88,
+    "source_document": "Interleukin 1β.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "1a8c9b1b9c0f",
+    "subject": "Pyrraline",
+    "predicate": "is_absorbed_via",
+    "object": "hPEPT1",
+    "context": {
+      "en-US": "Certain Advanced Glycation End Products of dietary origin, notably Pyrraline, are taken up from the intestinal lumen into the blood or lymph by specific transporters such as hPEPT1. This makes intestinal absorption a route by which ingested AGEs enter systemic circulation and can exert their biological effects at distant tissues.",
+      "zh-TW": "某些飲食來源的 Advanced Glycation End Products，尤其是 Pyrraline，會透過 hPEPT1 等特定轉運蛋白由腸腔被吸收進入血液或淋巴。這使腸道吸收成為攝入性 AGEs 進入全身循環、並在遠端組織發揮生物效應的途徑。"
+    },
+    "confidence": 0.85,
+    "source_document": "Intestinal Absorption.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "0bbe9a481f89",
+    "subject": "Isatin",
+    "predicate": "inhibits",
+    "object": "Monoamine oxidase",
+    "context": {
+      "en-US": "Isatin (indole-2,3-dione) is an endogenous indole alkaloid and a reversible, selective Monoamine oxidase inhibitor, particularly toward MAO-B. By limiting MAO-driven oxidative deamination of Dopamine and adrenaline, isatin modulates catecholamine flux and reduces the upstream substrate available for autoxidation into Adrenochrome. It also shows pro-oxidant and electrophilic behavior akin to indolequinones, engaging thiols such as Glutathione, and has been implicated in anxiety- and depression-like behaviour (the tribulin hypothesis) and seizure modulation.",
+      "zh-TW": "Isatin（indole-2,3-dione）是內源性吲哚生物鹼，也是可逆且具選擇性的 Monoamine oxidase 抑制劑，尤其偏向 MAO-B。藉由限制 Monoamine oxidase 對 Dopamine 與 adrenaline 的氧化脫氨，Isatin 可調節兒茶酚胺通量並減少可供自氧化生成 Adrenochrome 的上游受質。它同時具有類似 indolequinone 的促氧化與親電子特性，可與 Glutathione 等硫醇反應，並與焦慮及類憂鬱行為（tribulin 假說）和癲癇調節相關。"
+    },
+    "confidence": 0.9,
+    "source_document": "Isatin.md",
+    "created": "2026-09-29T14:56:28Z",
+    "updated": "2026-09-29T14:56:28Z"
   }
 ]
