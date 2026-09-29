@@ -121,7 +121,7 @@ PI(3)P. This loop gives the rapid, burst-like kinetics observed for autophagosom
 - New links added: [[PtdIns3P]], [[Phagophore Assembly Site]], [[Atg16L1]], [[LC3]],
   [[Macroautophagy]], [[Autophagy]], [[ULK1]], [[FIP200]], [[PI3K]], [[Aging]],
   [[Selective Autophagy]], [[Mitophagy]]
-- Suggested notes to create: [[Omegasome]], [[PROPPIN]], [[Phagophore]] — removed as already existing: Atg8
+- Suggested notes to create: [[Omegasome]], [[PROPPIN]], [[Phagophore]],
   [[ATG12]], [[ATG5]], [[Class III PI3K Complex]], [[ATG3]], [[ATG7]],
   [[Giant Unilamellar Vesicle]], [[Xenophagy]], [[Salmonella Typhimurium]]
 - Strong connections to strengthen: [[WIPI2]] ↔ [[PtdIns3P]],

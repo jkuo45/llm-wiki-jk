@@ -126,7 +126,7 @@ approach under study.
 - [[p53]] — its loss does not compromise venetoclax response, which is why the drug works
   where genotoxic chemotherapy fails.
 - [[BH3-only Protein]] — the activators (BIM, BID) that venetoclax displaces and thereby frees.
-- [[MCL-1]] — the principal bypass route; its upregulation is the commonest acquired
+- [[Mcl-1]] — the principal bypass route; its upregulation is the commonest acquired
   resistance mechanism.
 - [[Cytochrome P450 3A4]] — the enzyme governing venetoclax clearance and the driver of the
   dosing-interaction rules.
@@ -136,9 +136,9 @@ approach under study.
 - New links added: [[Bcl-2]], [[BH3 mimetics]], [[BH3 profiling]], [[Bcl-2 family]],
   [[Mitochondrial outer membrane permeabilization]], [[BAX]], [[BAK]], [[Cytochrome c]],
   [[Apoptosis]], [[Chronic Lymphocytic Leukemia]], [[Acute Myeloid Leukemia]], [[p53]],
-  [[MCL-1]], [[Obinutuzumab]], [[Azacitidine]], [[Decitabine]]
-- Suggested notes to create: [[BH3-only Protein]], [[BH3 Peptide Profiling]] — removed as already existing: Mcl-1
+  [[Mcl-1]], [[Obinutuzumab]], [[Azacitidine]], [[Decitabine]]
+- Suggested notes to create: [[BH3-only Protein]], [[BH3 Peptide Profiling]],
   [[Obinutuzumab]], [[Azacitidine]], [[Tumor Lysis Syndrome]], [[MYC]], [[Bortezomib]],
-  [[Cytochrome P450 3A4]], [[Ibrutinib]], [[Fludarabine]]
+  [[Cytochrome P450 3A4]], [[Ibrutinib]], [[Fludarabine]], [[Mcl-1]]
 - Strong connections to strengthen: [[Venetoclax]] ↔ [[Bcl-2]],
   [[Venetoclax]] ↔ [[BH3 mimetics]], [[Venetoclax]] ↔ [[BH3 profiling]]
