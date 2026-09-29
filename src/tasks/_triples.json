@@ -5152,10 +5152,10 @@
     "updated": "2026-09-04T16:40:50Z"
   },
   {
-    "id": "cb3c5b16f22a",
+    "id": "2fc9a3c24f97",
     "subject": "Caloric Restriction",
     "predicate": "reduces",
-    "object": "IGF-1",
+    "object": "IGF1",
     "context": {
       "en-US": "Caloric restriction lowers systemic IGF-1 growth signaling, an autophagy-independent longevity arm. Reduced IGF-1 relieves pro-growth drive across tissues.",
       "zh-TW": "熱量限制降低全身性 IGF-1 生長訊號，是不依賴自噬的長壽臂。降低的 IGF-1 緩解跨組織的促生長驅動。"
@@ -5163,7 +5163,7 @@
     "confidence": 0.85,
     "source_document": "task_output_cr_vs_spermidine_autophagy_15_July_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T16:40:48Z"
   },
   {
     "id": "f1bef0b32add",
@@ -7644,10 +7644,10 @@
     "updated": "2026-09-27T03:09:16Z"
   },
   {
-    "id": "48927f00aed8",
+    "id": "3df91ba6c578",
     "subject": "SIRT6",
     "predicate": "lowers",
-    "object": "IGF-1",
+    "object": "IGF1",
     "context": {
       "en-US": "SIRT6 overexpression extends lifespan in male mice with a median gain around 14%, and the mechanism runs through lowered serum IGF-1, raised IGFBP1 and reduced p-AKT/p-FOXO to female levels. Female mice show no significant lifespan effect in the original study, and the human Finnish longevity association at rs117385980 is also male-specific, making SIRT6 a male-leaning growth and longevity node.",
       "zh-TW": "SIRT6 過量表達可延長雄性小鼠壽命，中位數增益約 14%，其機制是降低血清 IGF-1、升高 IGFBP1，並把 p-AKT／p-FOXO 降到雌性水準。在原始研究中雌性小鼠的壽命效果不顯著，人類芬蘭族 rs117385980 的長壽關聯也同樣是雄性特異的，因此 SIRT6 是偏雄性的生長與長壽節點。"
@@ -7655,7 +7655,7 @@
     "confidence": 0.9,
     "source_document": "task_output_male_distributed_topology_vs_estrogen_hub_05_SEP_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T16:40:48Z"
   },
   {
     "id": "162fee49012f",

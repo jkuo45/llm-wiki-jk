@@ -17,7 +17,7 @@ protected: false
 ## Relevance to Fenbendazole
 
 > [!info] Source: [[Fenbendazole as a Potential Anticancer Drug]]
-> Colchicine is listed among anticancer drugs that disrupt microtubule function, alongside [[Paclitaxel]], [[Docetaxel]], [[Vincristine]], [[Vinblastine]], and [[Podophyllotoxin]]. The authors tested whether fenbendazole's tubulin-microtubule effects could synergize or antagonize these agents (Duan et al. 2013).
+> Colchicine is listed among anticancer drugs that disrupt microtubule function, alongside [[Paclitaxel]], [[docetaxel]], [[Vincristine]], [[Vinblastine]], and [[Podophyllotoxin]]. The authors tested whether fenbendazole's tubulin-microtubule effects could synergize or antagonize these agents (Duan et al. 2013).
 
 ## Documents
 
@@ -28,10 +28,10 @@ protected: false
 
 - [[Tubulin]] / [[Microtubule]] — molecular target.
 - [[Vincristine]] / [[Vinblastine]] — fellow polymerization inhibitors.
-- [[Paclitaxel]] / [[Docetaxel]] — opposing (stabilizing) MT agents.
+- [[Paclitaxel]] / [[docetaxel]] — opposing (stabilizing) MT agents.
 - [[Fenbendazole]] — shares tubulin-binding mechanism.
 
 ## Linking Summary
 
-- New links added: [[Tubulin]], [[Microtubule]], [[Vincristine]], [[Vinblastine]], [[Paclitaxel]], [[Docetaxel]], [[Podophyllotoxin]], [[Fenbendazole]].
+- New links added: [[Tubulin]], [[Microtubule]], [[Vincristine]], [[Vinblastine]], [[Paclitaxel]], [[docetaxel]], [[Podophyllotoxin]], [[Fenbendazole]].
 - Strong connections to strengthen: [[Colchicine]] ↔ [[Tubulin]] (inhibitor).

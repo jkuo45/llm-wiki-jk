@@ -6275,7 +6275,7 @@
     "id": "f7a4cfc7ec5f",
     "subject": "Ivermectin",
     "predicate": "reverses_resistance_to",
-    "object": "Docetaxel",
+    "object": "docetaxel",
     "context": {
       "en-US": "Ivermectin reversed docetaxel resistance in PC3 prostate cancer cells via HSP27 modulation.",
       "zh-TW": "Ivermectin 通過 HSP27 調節在 PC3 前列腺癌細胞中逆轉 docetaxel 抗藥性。"
@@ -6283,7 +6283,7 @@
     "confidence": 0.75,
     "source_document": "enzalutamide.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T16:40:48Z"
   },
   {
     "id": "633a02b1f70c",
@@ -11816,10 +11816,10 @@
     "updated": "2026-09-02T06:56:57Z"
   },
   {
-    "id": "beab48976b43",
+    "id": "9e1948a3ef1c",
     "subject": "SIRT6",
     "predicate": "negatively_modulates",
-    "object": "IGF-1",
+    "object": "IGF1",
     "context": {
       "en-US": "SIRT6 acts as a negative modulator of IGF-1 signaling: SIRT6 overexpression reduces IGF-1 pathway activity, improving glucose tolerance and reducing fat accumulation. This links sirtuin activity to the somatotropic longevity axis.",
       "zh-TW": "SIRT6 是 IGF-1 訊號的負向調控者：SIRT6 過度表現降低 IGF-1 途徑活性，改善葡萄糖耐受並減少脂肪累積。這將 sirtuin 活性與體生長激素長壽軸相連結。"
@@ -11827,7 +11827,7 @@
     "confidence": 0.9,
     "source_document": "IGF-1.md",
     "created": "2026-09-02T06:56:57Z",
-    "updated": "2026-09-02T06:56:57Z"
+    "updated": "2026-09-29T16:40:48Z"
   },
   {
     "id": "816ff9cfc0d9",
@@ -52234,10 +52234,10 @@
     "updated": "2026-09-29T15:58:26Z"
   },
   {
-    "id": "af379421032c",
+    "id": "da15e0d3f4a9",
     "subject": "DNA-PK",
     "predicate": "phosphorylates",
-    "object": "γH2AX",
+    "object": "γ-H2AX",
     "context": {
       "en-US": "DNA-PK, together with ATM and ATR, phosphorylates histone H2AX to form gamma-H2AX foci at DNA double-strand breaks. Gamma-H2AX is therefore the experimental readout of DNA-PK kinase activity and of double-strand break damage, which is why gamma-H2AX elevation after fenbendazole treatment in A375 cells is interpreted as evidence of induced DNA damage.",
       "zh-TW": "DNA-PK 與 ATM、ATR 一起磷酸化 histone H2AX，在 DNA 雙股斷裂處形成 gamma-H2AX 焦點。因此 gamma-H2AX 是 DNA-PK kinase 活性與雙股斷裂損傷的實驗判讀指標；這也是 A375 細胞在 fenbendazole 處理後 gamma-H2AX 升高會被解讀為 DNA 損傷被誘發的證據的原因。"
@@ -52245,7 +52245,7 @@
     "confidence": 0.9,
     "source_document": "DNA-PK.md",
     "created": "2026-09-29T15:58:26Z",
-    "updated": "2026-09-29T15:58:26Z"
+    "updated": "2026-09-29T16:40:48Z"
   },
   {
     "id": "aa36a428e2bb",
@@ -52262,10 +52262,10 @@
     "updated": "2026-09-29T15:58:26Z"
   },
   {
-    "id": "d81ef1715775",
+    "id": "9661d2f64576",
     "subject": "Fenbendazole",
     "predicate": "induces",
-    "object": "γH2AX",
+    "object": "γ-H2AX",
     "context": {
       "en-US": "Fenbendazole elevates gamma-H2AX in A375 cells. Because gamma-H2AX foci are deposited by ATM, ATR and DNA-PK at double-strand breaks, this rise is read as a marker of fenbendazole-induced DNA damage rather than as a direct effect on any H2AX-directed enzyme.",
       "zh-TW": "Fenbendazole 會使 A375 細胞中的 gamma-H2AX 升高。由於 gamma-H2AX 焦點是由 ATM、ATR 與 DNA-PK 在雙股斷裂處沉積而成，此升高應解讀為 fenbendazole 誘發 DNA 損傷的標記，而非對任何 H2AX 標的酵素的直接作用。"
@@ -52273,7 +52273,7 @@
     "confidence": 0.8,
     "source_document": "DNA-PK.md",
     "created": "2026-09-29T15:58:26Z",
-    "updated": "2026-09-29T15:58:26Z"
+    "updated": "2026-09-29T16:40:48Z"
   },
   {
     "id": "3ad2ee320604",
@@ -56045,7 +56045,7 @@
     "id": "2b4d90f04592",
     "subject": "Enzalutamide",
     "predicate": "synergizes_with",
-    "object": "Docetaxel",
+    "object": "docetaxel",
     "context": {
       "en-US": "Preclinical reports describe synergy between enzalutamide and docetaxel, a tubulin-stabilizing taxane, in androgen receptor pathway driven prostate cancer models. Resistance to enzalutamide is therefore a clinically relevant setting in which taxane combinations are being explored.",
       "zh-TW": "臨床前研究指出 enzalutamide 與 docetaxel（穩定微管蛋白的 taxane）在 androgen receptor 路徑驅動的前列腺癌模型中具有協同作用。因此 enzalutamide 抗藥性是評估 taxane 聯合治療的臨床相關情境。"
@@ -56053,7 +56053,7 @@
     "confidence": 0.75,
     "source_document": "Enzalutamide.md",
     "created": "2026-09-29T16:08:39Z",
-    "updated": "2026-09-29T16:08:39Z"
+    "updated": "2026-09-29T16:40:48Z"
   },
   {
     "id": "90aedb25cbfa",
@@ -62457,7 +62457,7 @@
     "id": "6bad5ac93ce1",
     "subject": "Ischemia",
     "predicate": "leads_to",
-    "object": "Oncosis",
+    "object": "oncosis",
     "context": {
       "en-US": "ATP-starved failure of the Sodium-Potassium ATPase pump is the initiating step of the necrotic cascade in ischemia: oncotic swelling is followed by Ca2+ overload, mPTP opening and membrane rupture.",
       "zh-TW": "ATP 飢餓導致鈉鉀幫浦失效，是缺血壞死級聯的起始步驟：膨脹性腫脹之後依序發生 Ca2+ 超載、mPTP 開啟與細胞膜破裂。"
@@ -62465,7 +62465,7 @@
     "confidence": 0.85,
     "source_document": "Ischemia.md",
     "created": "2026-09-29T16:19:34Z",
-    "updated": "2026-09-29T16:19:34Z"
+    "updated": "2026-09-29T16:40:48Z"
   },
   {
     "id": "60d340c363cd",
@@ -64204,8 +64204,8 @@
     "updated": "2026-09-29T16:29:54Z"
   },
   {
-    "id": "d5fd88a0ee84",
-    "subject": "IL-1alpha",
+    "id": "6bc8d0d0bde1",
+    "subject": "IL-1α",
     "predicate": "is_released_during",
     "object": "Pyroptosis",
     "context": {
@@ -64215,11 +64215,11 @@
     "confidence": 0.9,
     "source_document": "IL-1alpha.md",
     "created": "2026-09-29T16:29:54Z",
-    "updated": "2026-09-29T16:29:54Z"
+    "updated": "2026-09-29T16:40:48Z"
   },
   {
-    "id": "9e72664bae17",
-    "subject": "IL-1alpha",
+    "id": "09028194b172",
+    "subject": "IL-1α",
     "predicate": "activates",
     "object": "NF-κB",
     "context": {
@@ -64229,11 +64229,11 @@
     "confidence": 0.9,
     "source_document": "IL-1alpha.md",
     "created": "2026-09-29T16:29:54Z",
-    "updated": "2026-09-29T16:29:54Z"
+    "updated": "2026-09-29T16:40:48Z"
   },
   {
-    "id": "3499a33208fa",
-    "subject": "IL-1alpha",
+    "id": "45345a66abc5",
+    "subject": "IL-1α",
     "predicate": "is_released_during",
     "object": "Necrosis",
     "context": {
@@ -64243,11 +64243,11 @@
     "confidence": 0.85,
     "source_document": "IL-1alpha.md",
     "created": "2026-09-29T16:29:54Z",
-    "updated": "2026-09-29T16:29:54Z"
+    "updated": "2026-09-29T16:40:48Z"
   },
   {
-    "id": "86ce29298a32",
-    "subject": "IL-1alpha",
+    "id": "7fae37b40481",
+    "subject": "IL-1α",
     "predicate": "differs_from",
     "object": "IL-1β",
     "context": {
@@ -64257,7 +64257,7 @@
     "confidence": 0.85,
     "source_document": "IL-1alpha.md",
     "created": "2026-09-29T16:29:54Z",
-    "updated": "2026-09-29T16:29:54Z"
+    "updated": "2026-09-29T16:40:48Z"
   },
   {
     "id": "91afe6fcb9f7",

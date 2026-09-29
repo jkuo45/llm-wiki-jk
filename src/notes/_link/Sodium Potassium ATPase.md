@@ -7,7 +7,7 @@ created: 2026-07-06
 updated: 2026-07-06
 tags:
   - receptor
-aliases: []
+aliases: [Sodium-Potassium ATPase]
 ---
 # Sodium Potassium ATPase
 

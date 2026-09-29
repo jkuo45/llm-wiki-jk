@@ -267,7 +267,7 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[Ubiquitination]] | 31_May_2026 05:30 PM PDT | Chemical Process | 8 | 0 | Post-translational modification targeting proteins for degradation. |
 | [[USP9X]] | 31_May_2026 05:30 PM PDT | Enzyme | 8 | 0 | Deubiquitinating enzyme that stabilizes Mcl-1. |
 | [[Glutamine]] | 06_July_2026 12:00 PM PDT | Amino Acid | 8 | 0 | Conditional essential amino acid and primary fuel source for rapidly dividing cells, including cancer cells. |
-| [[Oncosis]] | 06_July_2026 12:00 PM PDT | Biological Process | 7 | -1 | Form of accidental cell death characterized by cell swelling and lysis, often associated with ischemia. |
+| [[oncosis]] | 06_July_2026 12:00 PM PDT | Biological Process | 7 | -1 | Form of accidental cell death characterized by cell swelling and lysis, often associated with ischemia. |
 | [[Tumor Microenvironment]] | 06_July_2026 12:00 PM PDT | Scientific Concept | 9 | 0 | Complex ecosystem surrounding a tumor, critical for its growth, progression, and resistance to therapy. |
 | [[task_output_caspase_01_JUN_2026]] | 16_July_2026 12:00 PM PDT | Document | 9 | 0 | Research report on five critical phosphorylation switches in apoptotic signaling: Caspase-8/SHP1, Caspase-7/PAK2, BAX/Pin1, BAK/PTPN5, XIAP/TBK1. |
 | [[BAY 87-2243]] | 25_July_2026 12:00 PM PDT | Chemical Compound | 8 | 1 | Q-site Complex I inhibitor with MYC-high selectivity in TNBC drug screen. |

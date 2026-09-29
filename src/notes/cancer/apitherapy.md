@@ -5,7 +5,7 @@ created: 2026-07-06
 updated: 2026-07-07
 tags:
   - medical-treatment
-aliases: []
+aliases: [Apitherapy]
 ---
 
 # Apitherapy
@@ -50,4 +50,4 @@ List of documents that mention this entity
 
 - New links added: [[Honeybee]], [[Bee Venom]], [[melittin]], [[Propolis]], [[Apoptosis]], [[Inflammation]], [[Wnt/β-catenin]], [[NF-κB]], [[Metastasis]], [[Angiogenesis]], [[Autophagy]], [[Chemotherapy]], [[Cancer]], [[African Programme for Onchocerciasis Control]]
 - Suggested new entity notes to create: [[Royal jelly]], [[10-hydroxy-2-decenoic acid]], [[ApiTox]]
-- Strong connections to strengthen: [[Apitherapy]] ↔ [[Bee Venom]], [[Apitherapy]] ↔ [[melittin]]
+- Strong connections to strengthen: [[apitherapy]] ↔ [[Bee Venom]], [[apitherapy]] ↔ [[melittin]]

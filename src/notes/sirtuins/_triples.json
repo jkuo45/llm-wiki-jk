@@ -12866,10 +12866,10 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "13bed42d664b",
+    "id": "31e23f7e8398",
     "subject": "SIRT6",
     "predicate": "inhibits",
-    "object": "IGF-1",
+    "object": "IGF1",
     "context": {
       "en-US": "SIRT6 inhibits IGF-1/AKT signaling (e.g., co-repressing c-Jun), protecting against cardiac hypertrophy.",
       "zh-TW": "SIRT6 抑制 IGF-1/AKT 信號（例如共同抑制 c-Jun），保護免受心臟肥大。"
@@ -12877,7 +12877,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases.md",
     "created": "2026-08-18T17:59:38Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T16:40:48Z"
   },
   {
     "id": "525f91917090",

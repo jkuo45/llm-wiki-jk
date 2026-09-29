@@ -34,7 +34,7 @@ To evaluate the anticancer activity of [[Fenbendazole]], a widely used antihelmi
 We used [[EMT6]] mouse mammary tumor cells in cell culture and as solid tumors in mice to examine the cytotoxic and antitumor effects of fenbendazole as a single agent and in combination regimens.
 
 ### Results
-Intensive treatments with fenbendazole were toxic to EMT6 cells in vitro; toxicity increased with incubation time and under conditions of severe [[Hypoxia]]. Fenbendazole did not alter the dose-response curves for radiation or [[Docetaxel]]; instead, the agents produced additive cytotoxicities. Fenbendazole in maximally-intensive regimens did not alter the growth of EMT6 tumors, or increase the antineoplastic effects of radiation.
+Intensive treatments with fenbendazole were toxic to EMT6 cells in vitro; toxicity increased with incubation time and under conditions of severe [[Hypoxia]]. Fenbendazole did not alter the dose-response curves for radiation or [[docetaxel]]; instead, the agents produced additive cytotoxicities. Fenbendazole in maximally-intensive regimens did not alter the growth of EMT6 tumors, or increase the antineoplastic effects of radiation.
 
 ### Conclusion
 These studies provided no evidence that fenbendazole would have value in cancer therapy, but suggested that this general class of compounds merits further investigation.
@@ -49,7 +49,7 @@ These studies provided no evidence that fenbendazole would have value in cancer 
 
 [[Fenbendazole]] acts on helminthes primarily by binding to [[Tubulin]] and disrupting the tubulin-microtubule equilibrium; its utility as an antiparasitic drug results from differences in the structures of tubulin in mammalian cells and in lower organisms, which lead to its greater binding to tubulin, and therefore greater inhibition of polymerization, in the parasites. In addition, the limited absorption of fenbendazole from the intestine results in low levels of the drug and its active metabolites in tissue relative to the levels within the gut, to which the targeted parasites are exposed.
 
-Several widely used anticancer drugs produce their antineoplastic effects by disrupting either microtubule formation ([[Vincristine]]; [[Vinblastine]]) or microtubule depolymerization ([[Paclitaxel]]; [[Docetaxel]]), suggesting that fenbendazole could have antitumor effects. Some data in the literature support this hypothesis: a fenbendazole-containing diet combined with supplemental high dose of vitamins was reported by Gao et al. to inhibit growth of a human lymphoma xenografted into scid mice; Bai et al. reported that fenbendazole reduced the engraftment of brain tumors in nude mice; Chung et al. reported in a meeting presentation that high doses of fenbendazole, [[Albendazole]], and [[Mebendazole]] inhibited the growth of paclitaxel-resistant tumors.
+Several widely used anticancer drugs produce their antineoplastic effects by disrupting either microtubule formation ([[Vincristine]]; [[Vinblastine]]) or microtubule depolymerization ([[Paclitaxel]]; [[docetaxel]]), suggesting that fenbendazole could have antitumor effects. Some data in the literature support this hypothesis: a fenbendazole-containing diet combined with supplemental high dose of vitamins was reported by Gao et al. to inhibit growth of a human lymphoma xenografted into scid mice; Bai et al. reported that fenbendazole reduced the engraftment of brain tumors in nude mice; Chung et al. reported in a meeting presentation that high doses of fenbendazole, [[Albendazole]], and [[Mebendazole]] inhibited the growth of paclitaxel-resistant tumors.
 
 ### Hypoxia in Solid Tumors
 
@@ -69,7 +69,7 @@ In experiments examining the effects of [[Hypoxia]] on cytotoxicity, cultures we
 
 In experiments examining radiation response, cultures were grown in permanox Petri dishes, placed in stainless steel pressure vessels, gassed with 95% nitrogen/5% CO2 for 1 h at 37°C to produce severe hypoxia, then sealed, transported to the irradiator and irradiated. Fenbendazole for cell culture studies was dissolved in [[Dimethyl Sulfoxide|DMSO]], diluted in Waymouth's medium, and added to culture medium. Cell cultures were irradiated with 320 kV X-rays at dose rates of 1.9 Gy/min (hypoxic cells) or 2.4 Gy/min (aerobic cells).
 
-Experiments examining interactions with [[Docetaxel]] (taxotere) used 10 μM fenbendazole added either seconds before or 22 h before docetaxel treatment.
+Experiments examining interactions with [[docetaxel]] (taxotere) used 10 μM fenbendazole added either seconds before or 22 h before docetaxel treatment.
 
 ### Tumor Studies
 Tumors were produced by inoculating 2×10^5 EMT6 tumor cells intradermally into the skin of the shaved right flank of female BALB/cRw mice. When tumors reached an average volume of 100 mm^3, mice were stratified by tumor volume into treatment and control groups. Fenbendazole was dissolved in sterile saline and injected i.p. Mice to be irradiated were anesthetized and tumors were irradiated locally with 10 Gy of 250 kV x-rays.
@@ -95,7 +95,7 @@ Tumor growth after different treatments was rigorously compared by calculating t
 
 ### Combination of Fenbendazole with Docetaxel
 
-Because of the overlap in mechanisms of action, 10 μM fenbendazole (added seconds or 22 h before) was tested against graded doses of [[Docetaxel]] for 2 h in vitro. Fenbendazole did not alter the shape of the dose-response curve for docetaxel. Instead, the survival curves were superimposed when normalized to account for fenbendazole toxicity alone. These findings show that the two drugs produced additive toxicities, with no evidence for significant interactions. Additivity was confirmed by isobologram analyses.
+Because of the overlap in mechanisms of action, 10 μM fenbendazole (added seconds or 22 h before) was tested against graded doses of [[docetaxel]] for 2 h in vitro. Fenbendazole did not alter the shape of the dose-response curve for docetaxel. Instead, the survival curves were superimposed when normalized to account for fenbendazole toxicity alone. These findings show that the two drugs produced additive toxicities, with no evidence for significant interactions. Additivity was confirmed by isobologram analyses.
 
 ## Discussion
 
@@ -104,7 +104,7 @@ The cytotoxicity of 2-h treatments with fenbendazole increased when tumor cells 
 > [!info] Source: [[_document_ - Oral Fenbendazole for Cancer Therapy in Humans and Animals|Fenbendazole review (Nguyen 2024)]]
 > The Nguyen 2024 review cites this study (ref 27) in Table I, noting "No change in tumor growth or metastatic pattern" and "No change in tumors with radiation" for EMT6 cells in BALB/cRw mice with fenbendazole at 150 ppm in diet or 50 mg/kg/day i.p.
 
-The effects of fenbendazole on the tubulin-microtubule equilibrium could synergize with, or antagonize, the effects of anticancer drugs having a mechanism of action involving stabilization or disruption of microtubules, such as [[Paclitaxel]], [[Docetaxel]], [[Vincristine]], [[Vinblastine]], [[Colchicine]], or [[Podophyllotoxin]]. Such synergism has been reported for the related benzimidazole [[Flubendazole]]. However, the toxicities of docetaxel and fenbendazole were strictly additive.
+The effects of fenbendazole on the tubulin-microtubule equilibrium could synergize with, or antagonize, the effects of anticancer drugs having a mechanism of action involving stabilization or disruption of microtubules, such as [[Paclitaxel]], [[docetaxel]], [[Vincristine]], [[Vinblastine]], [[Colchicine]], or [[Podophyllotoxin]]. Such synergism has been reported for the related benzimidazole [[Flubendazole]]. However, the toxicities of docetaxel and fenbendazole were strictly additive.
 
 > [!important] Conclusion
 > Despite the overlap of the mechanisms of action of fenbendazole with those of the hypoxia-selective nitroheterocyclic cytotoxins and radiosensitizers, the taxanes, and the vinca alkaloids, these studies provided no evidence that fenbendazole warrants further testing as a potential agent for use in cancer therapy. However, it is very possible that related compounds could be valuable anticancer drugs. Given interest in 'repurposing' previously approved drugs for new uses, it could be worth exploring other antihelminths to ascertain whether this class includes compounds valuable in cancer therapy.
@@ -122,7 +122,7 @@ The effects of fenbendazole on the tubulin-microtubule equilibrium could synergi
 - [[EMT6]] — mouse mammary tumor cell line used as the experimental model.
 - [[Hypoxia]] — fenbendazole showed modest preferential toxicity to hypoxic cells in vitro, but no in vivo benefit.
 - [[Radiation Therapy]] — fenbendazole did not act as a radiosensitizer.
-- [[Docetaxel]] / [[Paclitaxel]] — taxanes sharing tubulin-microtubule target; additive toxicity only.
+- [[docetaxel]] / [[Paclitaxel]] — taxanes sharing tubulin-microtubule target; additive toxicity only.
 - [[Vincristine]] / [[Vinblastine]] — vinca alkaloids with overlapping mechanism.
 - [[Flubendazole]] — related benzimidazole reported to synergize with MT agents.
 - [[Benzimidazole]] — chemical class of fenbendazole.
@@ -133,6 +133,6 @@ The effects of fenbendazole on the tubulin-microtubule equilibrium could synergi
 
 ## Linking Summary
 
-- New links added: [[Fenbendazole]], [[EMT6]], [[Hypoxia]], [[Radiation Therapy]], [[Docetaxel]], [[Paclitaxel]], [[Vincristine]], [[Vinblastine]], [[Tubulin]], [[Microtubule]], [[Benzimidazole]], [[Albendazole]], [[Mebendazole]], [[Flubendazole]], [[Colchicine]], [[Podophyllotoxin]], [[Nitroimidazole]], [[DNA Helicase]], [[Radiosensitizer]], [[Angiogenesis]], [[Tumor Microenvironment]], [[Glioblastoma]], [[Lymphoma]], [[Prostate Cancer]], [[Leukemia]], [[Dimethyl Sulfoxide]].
+- New links added: [[Fenbendazole]], [[EMT6]], [[Hypoxia]], [[Radiation Therapy]], [[docetaxel]], [[Paclitaxel]], [[Vincristine]], [[Vinblastine]], [[Tubulin]], [[Microtubule]], [[Benzimidazole]], [[Albendazole]], [[Mebendazole]], [[Flubendazole]], [[Colchicine]], [[Podophyllotoxin]], [[Nitroimidazole]], [[DNA Helicase]], [[Radiosensitizer]], [[Angiogenesis]], [[Tumor Microenvironment]], [[Glioblastoma]], [[Lymphoma]], [[Prostate Cancer]], [[Leukemia]], [[Dimethyl Sulfoxide]].
 - Suggested new entity notes to create: [[EMT6]], [[Flubendazole]], [[Radiation Therapy]], [[Colchicine]], [[Podophyllotoxin]], [[Nitroimidazole]], [[DNA Helicase]], [[Radiosensitizer]].
 - Strong connections to strengthen: [[Fenbendazole]] ↔ [[EMT6]] (negative-result model); [[Fenbendazole]] ↔ [[Hypoxia]] (modest hypoxia-selective toxicity in vitro only); [[Fenbendazole]] ↔ [[Radiation Therapy]] (no radiosensitization).

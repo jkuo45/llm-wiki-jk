@@ -624,7 +624,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Nudix Hydrolases]] | Enzyme | Nudix phosphodiesterases cleave free ADP-ribose into AMP and ribose-5-phosphate, |
 | [[PARG]] | Enzyme | PARG is the primary poly(ADP-ribose) glycohydrolase erasing PAR; its dosage bidirectionally sets parthanatos and stroke outcome. |
 | [[PARG53]] | Enzyme | PARG53 is a catalytically active ~53-kDa splice isoform of PARG (exon 1–8); its existence revises the PARG55/60 annotation and helps explain discrepancies between PARG knockout and PARG inhibitor e... |
-| [[Sodium-Potassium ATPase]] | Enzyme | Sodium-Potassium ATPase is the ATP-driven Na+/K+ pump whose failure initiates oncotic swelling in necrosis. |
+| [[Sodium Potassium ATPase]] | Enzyme | Sodium-Potassium ATPase is the ATP-driven Na+/K+ pump whose failure initiates oncotic swelling in necrosis. |
 | [[TARG1]] | Enzyme | TARG1 (OARD1/C6orf130) is a macrodomain ADP-ribosylhydrolase erasing Asp/Glu-MARylation and terminal PAR |
 
 ### Transporter (15)
@@ -1042,7 +1042,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Leukemia inhibitory factor]] | Cytokine | Cytokine that maintains embryonic stem cell pluripotency and self-renewal; withheld to permit differentiation in vitro. |
 | [[Type I Interferon]] | Cytokine | Family of interferons (IFN-alpha/beta) produced downstream of innate immune sensors that drive antiviral and inflammatory transcriptional programs. |
 | [[Erythropoietin]] | Cytokine | The renal hypoxia-induced hematopoietic cytokine (EPO) driving erythropoiesis — reported protective against eryptosis, though direct anti-eryptotic action is inferred rather than demonstrated. |
-| [[IL-1alpha]] | Cytokine | IL-1alpha is a constitutively bioactive IL-1 family alarmin released passively on necrotic and pyroptotic rupture. |
+| [[IL-1α]] | Cytokine | IL-1alpha is a constitutively bioactive IL-1 family alarmin released passively on necrotic and pyroptotic rupture. |
 
 ### Chemokine (11)
 
@@ -1688,7 +1688,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | --- | --- | --- |
 | [[hs-CRP]] | Biomarker | High-sensitivity C-reactive protein, a sensitive circulating marker of low-grade systemic inflammation and a proxy for recovery and mitohormetic status. |
 | [[sjTREC]] | Biomarker | Single joint T cell receptor excision circle; a molecular marker for recent thymic emigrants and active thymopoiesis, used to quantify thymic output. |
-| [[γH2AX]] | Biomarker | Phosphorylated histone H2AX mark of DNA double-strand breaks, used as a DNA-damage biomarker. |
+| [[γ-H2AX]] | Biomarker | Phosphorylated histone H2AX mark of DNA double-strand breaks, used as a DNA-damage biomarker. |
 | [[cit-H3]] | Biomarker | Citrullinated histone H3 — the PAD4-generated immunodetection signature of NETosis, read together with extracellular DNA and MPO–DNA complexes. |
 
 ### Cadherin (1)
@@ -2353,7 +2353,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Hair Cells]] | Uncategorized | Specialized mechanosensory epithelial cells of the cochlea that transduce sound into neural signals; highly vulnerable to oxidative stress, and preserved by SIRT3-dependent antioxidant defense unde... |
 | [[Histone Crotonylation]] | Uncategorized | Reversible lysine crotonylation (Kcr) of histones, a non-acetyl acylation mark deposited on chromatin from crotonyl-CoA that regulates gene expression; targeted by SIRT3 lysine decrotonylase activity. |
 | [[Hormesis in Non-Mitochondrial Systems]] | Uncategorized | Beyond mitohormesis, many biological processes follow the same biphasic |
-| [[IGF-1]] | Uncategorized | Insulin-like growth factor 1; somatotropic peptide hormone central to growth, metabolism, and ageing, modulated by SIRT6. |
+| [[IGF1]] | Uncategorized | Insulin-like growth factor 1; somatotropic peptide hormone central to growth, metabolism, and ageing, modulated by SIRT6. |
 | [[Indole-3-propionic acid]] | Uncategorized | Gut microbiota-derived tryptophan metabolite with potent antioxidant, |
 | [[Inflammatory Bowel Disease]] | Uncategorized | Chronic, relapsing inflammatory disorders of the gastrointestinal tract, principally ulcerative colitis and Crohn's disease; intestinal-epithelial necroptosis via RIPK3 contributes to pathology whe... |
 | [[Interferon]] | Uncategorized | Interferon (IFN) — family of antiviral and immunomodulatory cytokines (types I, II, III) induced downstream of TLR3/TRIF, RIG-I/MDA5, and cGAS-STING sensing. |

@@ -11,6 +11,7 @@ tags:
   - protein
 aliases:
   - IGF-1
+  - IGF-1
   - Insulin-like Growth Factor 1
   - insulin-like growth factor 1
   - Somatomedin C

@@ -9,7 +9,7 @@ tags:
   - senescence
   - inflammation
   - sasp
-aliases: [IL-1α, Interleukin-1 alpha, IL1A]
+aliases: [IL-1α, Interleukin-1 alpha, IL1A, IL-1alpha]
 ---
 
 # IL-1α

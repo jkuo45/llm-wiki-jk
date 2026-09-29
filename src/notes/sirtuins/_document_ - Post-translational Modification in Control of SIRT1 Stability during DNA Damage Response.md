@@ -97,5 +97,5 @@ Double-thymidine-block and nocodazole synchronization showed SIRT1 declining as 
 ## Linking Summary
 
 - New links added: [[SIRT1]], [[KAP1|TRIM28]], [[ATM]], [[Caspase-9]], [[Caspase-3]], [[p53]], [[PARP1]], [[Resveratrol]], [[EX-527]], [[Apoptosis]], [[DNA Repair]], [[Senescence]], [[Sirtuin-Caspase Crosstalk]], [[CYCLIN B1]]
-- Suggested new entity notes to create: [[SMURF2]] (resolved: [[DNA-PKcs]], [[MDM2]], [[53BP1]], [[XPA]], [[γH2AX]] already exist in the vault)
+- Suggested new entity notes to create: [[SMURF2]] (resolved: [[DNA-PKcs]], [[MDM2]], [[53BP1]], [[XPA]], [[γ-H2AX]] already exist in the vault)
 - Strong connections to strengthen: [[KAP1]] ↔ [[SIRT1]], [[ATM]] ↔ [[KAP1]], [[Caspase-3]] ↔ [[SIRT1]]

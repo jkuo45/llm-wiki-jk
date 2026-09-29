@@ -9,7 +9,7 @@ tags:
   - senescence-biomarker
   - sasp
   - fibrosis
-aliases: [PAI-1, SERPINE1, Plasminogen Activator Inhibitor-1]
+aliases: [PAI-1, SERPINE1, Plasminogen Activator Inhibitor-1, PAI1]
 ---
 
 # PAI-1

@@ -23,10 +23,10 @@ SMAD3 is directly phosphorylated at C-terminal serines (SSXS motif) by the [[TGF
 
 SMAD3 regulates a broad set of target genes depending on cellular context:
 
-- **Pro-Fibrotic**: [[COL1A1]], [[COL3A1]], [[COL5A2]], [[FN1]] (fibronectin), [[ACTA2]] (α-SMA), [[TIMP1]], [[PAI1]] (SERPINE1)
+- **Pro-Fibrotic**: [[COL1A1]], [[COL3A1]], [[COL5A2]], [[FN1]] (fibronectin), [[ACTA2]] (α-SMA), [[TIMP1]], [[PAI-1]] (SERPINE1)
 - **Cell Cycle**: [[CDKN1A]] (p21), [[CDKN2B]] (p15), [[MYC]] repression
 - **Autophagy**: [[TFEB]] — SMAD3 binds the 3'-UTR of TFEB and represses its transcription, reducing lysosomal biogenesis and autophagic flux
-- **Immune**: [[Foxp3]] (Treg differentiation), [[IL10]] (anti-inflammatory cytokine)
+- **Immune**: [[Foxp3]] (Treg differentiation), [[IL-10]] (anti-inflammatory cytokine)
 
 ## Role in Autophagy Regulation
 

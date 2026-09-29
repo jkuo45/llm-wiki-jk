@@ -5,7 +5,7 @@ created: 2026-07-04
 updated: 2026-07-04
 tags:
   - protein
-aliases: [Lysosomal-Associated Membrane Protein 2A]
+aliases: [Lysosomal-Associated Membrane Protein 2A, LAMP2A]
 
 ---
 

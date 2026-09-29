@@ -23,7 +23,7 @@ Vault verification (2026-09-04): `graphify-out/graph.json` (3403 nodes / 6356 ed
 | Axis | Controlled | Uncontrolled |
 | --- | --- | --- |
 | Energetics | ATP-dependent, ordered | ATP-depleted, passive/collapse |
-| Membrane | Preserved until efferocytosis; blebbing, apoptotic bodies | Early rupture; swelling ([[Oncosis]]), DAMP spill |
+| Membrane | Preserved until efferocytosis; blebbing, apoptotic bodies | Early rupture; swelling ([[oncosis]]), DAMP spill |
 | Execution | Defined protease/kinase/polymer cascade (caspases, RIPK1/3/MLKL, PAR/AIF, lipid-peroxidase checkpoints) | Ion-pump failure, calpain/cathepsin, unprogrammed rupture (Q3a only) |
 | Reversibility | Checkpoint-gated (Bcl-2, IAPs, GPX4/FSP1, PARG/Iduna, Necrostatin-1) | Point of no return (mPTP, LMP) or bioenergetic block downstream of checkpoint failure (HK-1 block)
 

@@ -157,7 +157,7 @@ List of documents that mention this entity
 - [[RAGE]] — receptor for advanced glycation end products; mediates Aβ transport across BBB
 - [[Insulin Receptor]] — disrupted by Aβ oligomers; contributes to cerebral insulin resistance
 - [[IGF-1 Receptor|IGF-1]] — insulin-like growth factor; signaling impaired by Aβ
-- [[LAMP2A]] — receptor for chaperone-mediated autophagy; blocked by Aβ
+- [[LAMP-2A]] — receptor for chaperone-mediated autophagy; blocked by Aβ
 - [[Calpain]] — calcium-dependent protease; activated by Aβ-induced calcium influx
 - [[Caspase-9]] — initiator caspase; activated by Aβ-induced mitochondrial dysfunction
 - [[Bcl-2]] — anti-apoptotic protein; downregulated by Aβ
@@ -165,7 +165,7 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[APP]], [[BACE1]], [[Presenilin]], [[Tau Protein]], [[GSK3β]], [[CDK5]], [[Prion Protein|PrPC]], [[NMDA Receptor]], [[Microglia]], [[Astrocytes]], [[Neprilysin]], [[Insulin-Degrading Enzyme|IDE]], [[Reactive Oxygen Species|ROS]], [[Autophagy]], [[TFEB]], [[Cerebral Amyloid Angiopathy]], [[Sleep]], [[Down Syndrome]], [[APOE4]], [[TNF-alpha|TNF-α]], [[IL-1β|IL-1β]], [[TLR2]], [[TLR4]], [[RAGE]], [[Insulin Receptor]], [[IGF-1 Receptor|IGF-1]], [[LAMP2A]], [[Calpain]], [[Caspase-9]], [[Bcl-2]], [[Cholesterol]]
+- New links added: [[APP]], [[BACE1]], [[Presenilin]], [[Tau Protein]], [[GSK3β]], [[CDK5]], [[Prion Protein|PrPC]], [[NMDA Receptor]], [[Microglia]], [[Astrocytes]], [[Neprilysin]], [[Insulin-Degrading Enzyme|IDE]], [[Reactive Oxygen Species|ROS]], [[Autophagy]], [[TFEB]], [[Cerebral Amyloid Angiopathy]], [[Sleep]], [[Down Syndrome]], [[APOE4]], [[TNF-alpha|TNF-α]], [[IL-1β|IL-1β]], [[TLR2]], [[TLR4]], [[RAGE]], [[Insulin Receptor]], [[IGF-1 Receptor|IGF-1]], [[LAMP-2A]], [[Calpain]], [[Caspase-9]], [[Bcl-2]], [[Cholesterol]]
 - Existing links retained: [[Alzheimer's Disease]]
 - Suggested new entity notes to create: [[BACE1]], [[Presenilin]], [[IGF-1 Receptor]], [[mGluR5]], [[EphB2]], [[p75NTR]], [[TREM2]], [[SCARA1]], [[CD36]], [[LRP1]]
   - Strong connections to strengthen: [[Beta-amyloid]] ↔ [[APP]], [[Beta-amyloid]] ↔ Alzheimer's Disease, [[Beta-amyloid]] ↔ Tau Protein, [[Beta-amyloid]] ↔ [[Microglia]]
