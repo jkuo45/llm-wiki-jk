@@ -101,8 +101,6 @@
     border: 1px solid var(--rule-strong); background: var(--sheet); color: var(--ink);
     border-radius: var(--radius);
   }
-  .tracker-bar .stat { margin-left: auto; font-family: var(--mono); font-size: 12.5px; color: var(--mute); }
-  .tracker-bar .stat b { color: var(--ink); }
 
   fieldset.gate {
     border: 1px solid var(--rule);
@@ -130,7 +128,13 @@
   .gbadge.B { color: var(--slate); }
   .gbadge.C { color: var(--gold); }
   .gbadge.D { color: var(--periphery); }
-  .gate-why { font-family: var(--sans); font-size: 13.5px; line-height: 1.7; color: var(--ink-soft); margin: 2px 0 10px; }
+  .gate-why { font-family: var(--sans); font-size: 13.5px; line-height: 1.7; color: var(--ink-soft); margin: 2px 0 8px; }
+  /* 無標籤的區塊。左侧的直線是與上方 why 段落區隔的依據，因為這段文字是同一
+     論述的延續，而非新的小節。 */
+  .gate-anat {
+    font-family: var(--sans); font-size: 13.5px; line-height: 1.75; color: var(--ink-soft);
+    margin: 0 0 8px; padding-left: 10px; border-left: 2px solid var(--rule-strong);
+  }
   .gate-topics { font-family: var(--sans); font-size: 12.5px; color: var(--mute); margin: 0 0 10px; }
 
   .opts { display: flex; flex-wrap: wrap; gap: 6px; }
@@ -188,8 +192,6 @@
   .action .gate-ref { font-family: var(--mono); font-size: 11.5px; color: var(--faint); }
   .empty { font-family: var(--sans); font-size: 13.5px; color: var(--mute); border: 1px dashed var(--rule-strong); padding: 14px; }
 
-  .tally { display: flex; flex-wrap: wrap; gap: 8px 18px; font-family: var(--mono); font-size: 12px; color: var(--mute); margin: 10px 0 14px; }
-  .tally span b { color: var(--ink); }
 
   /* ---- register table ---- */
   .tbl-note { font-family: var(--sans); font-size: 12.5px; color: var(--faint); margin: 6px 0 0; }
@@ -204,6 +206,21 @@
   .refs-list { font-family: var(--sans); font-size: 13.5px; line-height: 1.7; }
   .refs-list li { margin-bottom: 8px; }
   .refs-list a { word-break: break-word; }
+
+  /* ---- 解剖學對照表：anatomy 欄加寬 + 凍結第一欄 ----
+     佈景主題已將 .table-wrap th/td:first-child 設為 sticky，但佈景主題的
+     `table { width: 100% }` 會把每一欄都壓進容器，因此這張六欄的表格從未溢出，
+     凍結欄也就沒有可凍結的對象。min-width 迫使容器捲動，凍結欄才有意義；
+     table-layout:fixed 則讓下面的欄寬真正生效，使 anatomy 欄取得應有的比例。
+     僅限 #anatTable — 本頁其他表格在 100% 下沒有問題。 */
+  #anatTable { min-width: 1120px; table-layout: fixed; }
+  #anatTable th:nth-child(1), #anatTable td:nth-child(1) { width: 150px; }
+  #anatTable th:nth-child(2), #anatTable td:nth-child(2) { width: 152px; }
+  #anatTable th:nth-child(3), #anatTable td:nth-child(3) { width: 342px; }
+  #anatTable th:nth-child(4), #anatTable td:nth-child(4) { width: 146px; }
+  #anatTable th:nth-child(5), #anatTable td:nth-child(5) { width: 268px; }
+  #anatTable th:nth-child(6), #anatTable td:nth-child(6) { width: 62px; }
+  #anatTable td:nth-child(3) { line-height: 1.75; }
 
   .page-footer {
     font-family: var(--mono); font-size: 11px; color: var(--faint);
@@ -294,28 +311,15 @@
       </figure>
 
       <h3>知識庫中已確立的三個關卡</h3>
-      <ol class="rank-list">
-        <li>
-          <span class="k">01</span>
-          <span><b>COMT Val158Met（rs4680）。</b>在兩項隨機對照試驗（WGHS、ATBC）中，α-生育酚
-          補充與 Val/Val 帶因者的癌症發生率增加相關（HR 1.18，95% CI 1.06–1.31），與 Met/Met
-          帶因者的發生率降低相關（HR 0.88）。Val/Val 在歐洲族群約占 29%，在漢族約占 52%。參見
-          <code>task_output_comt_vitamin_e_genotype_gate_24_Sep_2026</code>。</span>
-        </li>
-        <li>
-          <span class="k">02</span>
-          <span><b>尿石素代謝型 A／B／0。</b>此為微生物表現型而非胚系基因型。飲食中的鞣花酸轉為
-          [[Urolithin A]] 需具備相應菌群的定殖能力；在受測的檢驗族群中，約 50% 未產生可偵測的
-          尿石素，約 10% 則轉而產生異尿石素 A。</span>
-        </li>
-        <li>
-          <span class="k">03</span>
-          <span><b>核型（XX／XY）。</b>[[Estrogen]] 是 sirtuin 與 NAD<sup>+</sup> 軸的主要介質。
-          XX 與 XY 神經元受到相同傷害時，啟動不同的死亡機轉（caspase-8/3 對 [[PARP1]]／AIF）；
-          [[SIRT6]] 過量表現僅延長雄性壽命；熱量限制與 rapamycin 的壽命延長效果分別在雄性與雌性較大。
-          參見 <code>task_output_gender_specific_attributes_vault_topics_02_SEP_2026</code>。</span>
-        </li>
-      </ol>
+      <p>
+        下方工具收錄全部十七個關卡，<a href="#anatTable">延伸檢測表</a>則將它們並列比較。
+        其中三者值得在此點名，因為它們是本儲存庫中已完整處理過的，也因為各自的失效方式
+        互不相同：COMT 使效益的<em>方向反轉</em>，尿石素代謝型則對大多數族群<em>移除機轉的
+        第一個步驟</em>，核型則<em>改變哪一種細胞死亡程式可用</em>。來源文件：
+        <code>task_output_comt_vitamin_e_genotype_gate_24_Sep_2026</code>、
+        <code>task_output_gender_specific_attributes_vault_topics_02_SEP_2026</code>、
+        <code>task_output_hardcoded_individual_biomarker_gates_26_Sep_2026</code>。
+      </p>
 
       <div class="callout">
         <p>
@@ -394,6 +398,11 @@
         <span class="sev sev-unknown">未測量</span>，此對應臨床上的常見狀況。再選取目前正在使用或
         考慮採用的治療措施，輸出結果會指出其中哪些措施所依賴的分層數值尚未確立。
       </p>
+      <p>
+        每張卡片依序包含三項內容：此數值為何構成關卡、<em>作用部位</em>——即該數值表現
+        且其後果執行的解剖區室，通常並非製造它的器官——以及路徑軸線、檢測方式與族群比例。
+        <a href="#anatTable">延伸檢測表</a>將同一組關卡並列，以便橫向閱讀這些解剖欄。
+      </p>
 
       <div class="tracker-bar">
         <label for="popSel">參考族群</label>
@@ -403,12 +412,20 @@
           <option value="blk">黑人／非洲族群</option>
           <option value="oth">其他或混合族群</option>
         </select>
-        <span class="stat" id="gateStat">—</span>
       </div>
       <p class="tbl-note">
         族群比例為引用文獻所據檢驗群體的近似值，且在不同族群間差異顯著。部分關卡在最初被描述的族群中
         罕見，卻在其他族群中常見——例如 NQO1 T/T 在歐洲與黑人族群為 2–5%，在亞洲族群約為 20%。此處比例
         用以呈現族群層級的曝露規模，不應套用於個別患者。
+      </p>
+      <p class="tbl-note">
+        <b>其中一個關卡不受上述規則約束。</b>核型並非自族群抽樣而得——它是直接由個人讀出的，
+        而生殖階段則由該個人的年齡固定。沒有可供取百分比的分布，因此此關卡不帶任何隨族群
+        變動的比例、其兩個 XX 階段完全沒有百分比，且其在圖 3 與登錄表中的列回報為
+        <code>n/a</code>，而非一個很小的數字。核型組成不隨族群而變（46,XY 約 50%；45,X 的
+        統合出生盛行率為每 10 萬名女性活產 31.5 例，47,XXY 約為每 500–1000 名男性活產 1 例）。
+        此處若畫一條短長條，會被讀成「只有一小部分人處於風險中」，而事實恰好相反：此 gate
+        一旦數值已知，便完整適用於每一位個人。
       </p>
 
       <div id="gates"></div>
@@ -429,8 +446,6 @@
         本頁不儲存任何資料：關閉頁面後即清除。若需保留請使用匯出功能。數值為自行填報，並未與
         實驗室報告核對；填報錯誤將在無警示的情況下產生錯誤輸出。
       </p>
-
-      <div class="tally" id="tally"></div>
 
       <figure class="fig">
         <div class="fig-head"><span class="fig-num">圖 2 · 已選治療的分層數值涵蓋率</span></div>
@@ -479,6 +494,11 @@
           <span style="color:var(--sev-miss)">應施行而未施行</span>。右側數值為具後果狀態的總比例。
           將滑鼠移至區段上可顯示關卡、數值與後果。切換參考族群會重新調整所有比例；rapamycin、
           α-生育酚與醌類氧化還原方案對族群最為敏感。
+          <br><br>
+          其中一列——以 sirtuin 為標的的长寿組合——以虛線外框而非區段繪製，其總值以區間
+          表示。SIRT3/SIRT6 關卡的類別彼此重疊：「常見等位基因」一類是扣除兩個具名變異後的餘項，
+          因此任一變異的帶因者也被計入其中。將其排成相鄰區段等於宣稱一種這些比例並不支持的
+          分割，故長條不加以分段，總值則以上限與下限的區間表示。
         </figcaption>
       </figure>
 
@@ -699,36 +719,77 @@
         </p>
       </div>
 
-      <h3>十六項延伸檢測</h3>
+      <h3>延伸檢測</h3>
       <p>
-        依曝露族群規模與證據強度之乘積排序，條件為：數值離散、可在曝露前確定、且改變的是介入措施
-        的適當性而非其強度。
+        上述工具中的每一個關卡，依證據強度排序。<em>作用部位</em>一欄是該數值表現
+        且其後果執行的解剖區室，而非該基因被轉錄的位置——兩者經常是不同的器官。
+        <em>離散數值</em>與<em>等級</em>兩欄重述上面的關卡卡片，卡片才是真實來源；
+        本表的用意在於解剖欄，以及跨關卡的橫向比較。
       </p>
       <div class="table-wrap">
-        <table>
+        <table id="anatTable">
           <thead>
-            <tr><th>#</th><th>檢測</th><th>離散數值</th><th>改變的內容</th><th>等級</th></tr>
+            <tr>
+              <th>關卡</th>
+              <th>離散數值</th>
+              <th>作用部位</th>
+              <th>路徑軸線</th>
+              <th>所分層的介入措施</th>
+              <th>等級</th>
+            </tr>
           </thead>
-          <tbody>
-            <tr><td>1</td><td>核型與生殖階段</td><td>XX 停經前 · XX 停經前後 · XY · 其他</td><td>決定 [[Estrogen]] 相關治療是否有適應症；為判讀細胞死亡與 mTOR 結果所必需</td><td><span class="gbadge A">A</span></td></tr>
-            <tr><td>2</td><td>COMT rs4680</td><td>Val/Val · Val/Met · Met/Met</td><td>決定高劑量 [[Alpha-tocopherol]] 為保護性（HR 0.88）或有害（HR 1.18）</td><td><span class="gbadge A">A</span></td></tr>
-            <tr><td>3</td><td>尿石素代謝型</td><td>A · B · 0</td><td>決定飲食性鞣花酸是否被轉換，或須改為直接給予 UA</td><td><span class="gbadge A">A</span></td></tr>
-            <tr><td>4</td><td>MC1R 變異類別</td><td>R 類 · r 類 · 野生型</td><td>黑色素合成造成的基期氧化負荷；與 UV 無關的黑色素瘤風險（帶兩個以上變異者 OR 2.13）</td><td><span class="gbadge A">A</span></td></tr>
-            <tr><td>5</td><td>NQO1 rs1800566</td><td>C/C · C/T · T/T（缺失）</td><td>決定醌類氧化還原訊號可被清除，或進入氧化還原循環</td><td><span class="gbadge A">A</span></td></tr>
-            <tr><td>6</td><td>CYP3A5（搭配 CYP3A4、ABCB1）與 FKBP1A</td><td>表現型／非表現型 · 失功能帶因</td><td>區分 sirolimus 曝露不足與藥理學上的無反應</td><td><span class="gbadge B">B</span></td></tr>
-            <tr><td>7</td><td>HFE C282Y／H63D，搭配鐵蛋白與轉鐵蛋白飽和度</td><td>四種基因型類別搭配生化值</td><td>決定是否已存在鐵質管理的適應症；改變鐵死亡誘導的閾值</td><td><span class="gbadge A">A</span></td></tr>
-            <tr><td>8</td><td>SOD2 rs4880<strong>搭配實測 MnSOD 活性</strong></td><td>Ala/Ala · Ala/Val · Val/Val</td><td>校準 [[SIRT3-SIRT4 Ratio]]，並藉此校準毒物興奮介入的劑量範圍</td><td><span class="gbadge C">C</span></td></tr>
-            <tr><td>9</td><td>TMAO 產生者狀態</td><td>高 · 低 · 非產生者</td><td>決定富含膽鹼或肉鹼的飲食型態是否造成可觀的 TMAO 曝露</td><td><span class="gbadge A">A</span></td></tr>
-            <tr><td>10</td><td>APOE ε4 劑量</td><td>ε2/ε3 · ε3/ε3 · ε3/ε4 · ε4/ε4</td><td>為 cGAS–STING 標的試驗所必需的分層；改增生酮與飽和脂肪飲食介入的預期效應</td><td><span class="gbadge A">A</span></td></tr>
-            <tr><td>11</td><td>KL-VS 單倍型搭配游離 Klotho</td><td>異合 · 非帶因 · （罕見）同合</td><td>神經發炎表現型；游離 Klotho 同時是生物標記與可量測的運動因子反應</td><td><span class="gbadge B">B</span></td></tr>
-            <tr><td>12</td><td>TERT rs2853669 搭配端粒長度</td><td>A/A · G/G 搭配實測端粒長度</td><td>複製餘裕；體細胞 TERT 啟動子突變癌症的預後修正因子</td><td><span class="gbadge B">B</span></td></tr>
-            <tr><td>13</td><td>SIRT3 rs11555236 · SIRT6 rs117385980／rs9997679</td><td>基因型類別</td><td>必須與核型合併詮釋；sirtuin 長壽關聯具性別特異性</td><td><span class="gbadge B">B</span></td></tr>
-            <tr><td>14</td><td>CYP2C9/VKORC1 · CYP2D6 · CYP1A2+ADORA2A · SLCO1B1</td><td>代謝者表現型類別</td><td>已具臨床驗證（CPIC 層級）、適用於已在使用之藥物的藥物基因體決定因子</td><td><span class="gbadge A">A</span></td></tr>
-            <tr><td>15</td><td>PON1 基因型<strong>搭配 diazoxonase 活性</strong></td><td>Q192R × L55M 搭配實測活性</td><td>說明在活性於基因型類別內變異較大時，基因型本身為何不足</td><td><span class="gbadge A">A</span></td></tr>
-            <tr><td>16</td><td>mtDNA 單倍群</td><td>單倍群分派</td><td>以粒線體為主的知識庫中的基期 ROS 產生與抗氧化反應</td><td><span class="gbadge D">D</span></td></tr>
-          </tbody>
+          <tbody></tbody>
         </table>
       </div>
+      <p class="tbl-note" id="anatNote"></p>
+
+      <h4>解剖欄中的六種型態</h4>
+      <p>
+        這些無法放進單一關卡的一列中，也正是這一欄值得橫向閱讀而非縱向閱讀的原因。
+      </p>
+      <ol class="rank-list">
+        <li>
+          <span class="k">01</span>
+          <span><b>在一個器官製造，在另一個器官執行。</b> APOE4 由肝細胞製造，作用於腦的
+          微膠細胞；PON1 在肝臟合成，作用於動脈內膜；TMAO 在結腸生成、於肝臟去毒、作用於
+          血管壁；尿石素 A 在結腸生成，作用於肌肉、脂肪、肝臟與腦。對這一類而言，檢測所在的
+          區室與後果發生的區室在解剖上彼此分離，這正是血漿替代指標會失真的原因，也正是
+          製造作用因子的器官不是承受傷害的器官。</span>
+        </li>
+        <li>
+          <span class="k">02</span>
+          <span><b>決定某路徑第一步的關卡。</b> MC1R 決定合成哪一種色素，NQO1 決定 quinone
+          走哪一條還原路徑，FKBP12 決定藥物—蛋白質複合體是否形成，TERT 決定複製性永生是否
+          可得。缺失的第一步沒有任何劑量可以補償，因此這些決定的是「是否適用」，而非
+          「強度多大」。</span>
+        </li>
+        <li>
+          <span class="k">03</span>
+          <span><b>決定曝露而非反應的關卡。</b> CYP3A5、CYP1A2/ADORA2A 與 TMA 產生者狀態都
+          改變有多少活性化合物抵達組織。三者皆可藉調整劑量修正，而目前全都被誤記為藥理學上
+          的無反應。</span>
+        </li>
+        <li>
+          <span class="k">04</span>
+          <span><b>決定窗口而非標的的關卡。</b> SOD2 rs4880 透過 SIRT3/SIRT4 比值決定毒物
+          興奮窗口的<em>寬度</em>；生殖階段決定的是一條軌跡而非當前數值。對這兩者而言，
+          以數值門檻作為輸出格式都是錯的。</span>
+        </li>
+        <li>
+          <span class="k">05</span>
+          <span><b>符號隨適應症翻轉的關卡。</b> 在 quinone 氧化還原供體／終止劑方案中，
+          NQO1 T/T 是<em>有害</em>的；在 NQO1 生化活化化學治療中，它則是<em>不適用</em>的。
+          APOE4 對 cGAS 抑制是<em>被錯過的治療</em>，對生酮飲食則是<em>預期無效</em>。
+          因此嚴重程度是（基因型，介入措施）這一對的性質，絕非基因型本身的性質。</span>
+        </li>
+        <li>
+          <span class="k">06</span>
+          <span><b>作為其他關卡之修正因子的關卡。</b> TERT 胚系 rs2853669 只有對上體細胞
+          TERT 啟動子突變才會表現；SIRT3/SIRT6 的長壽變異只有對上核型才會表現；KL-VS 只有
+          對上 APOE ε4 劑量才會表現；停經狀態則會修訂 HFE 的鐵門檻。這種組合式結構在關卡的
+          平面清單中不可見，也是從單一檢測組合得出錯誤結論最常見的來源。</span>
+        </li>
+      </ol>
 
       <h3>已決定適應性的關卡</h3>
       <p>
@@ -824,20 +885,37 @@ var POPS = { eur: "歐洲族群", eas: "東亞族群", blk: "黑人／非洲族�
 var GATES = [
   {
     id: "sex", name: "核型與生殖階段", code: "46,XX / 46,XY / 45,X / 47,XXY", grade: "A",
+    /* 非族群頻率型 gate。核型是直接由個人讀出的，生殖階段則由該個人的年齡決定，
+       並沒有可供抽樣的分布。此處先前的數值是看似來自族群的四欄（24/24/27/48），
+       讓參考族群選單看起來會改變一個不可能改變的數字。組成比例不隨族群而變（見
+       vals）；階段的切分則完全沒有可辯護的單一數值。drawMass() 會以不同方式
+       繪製此列，buildGapTable() 則回報 n/a。 */
+    observed: true,
     assay: "核型搭配月經狀態或雄性素阻斷狀態",
     why: "Estrogen 是 sirtuin、NAD+、毒物興奮、自噬與細胞死亡路徑的主要介質。停經轉換伴隨 SIRT3、SIRT1 與 MnSOD 活性同時下降。與年齡相關的心臟變化有性別差異的報告：SIRT1、SIRT3 與 SOD2 下降，伴隨 NF-κB 活化與巨噬細胞累積，見於老年女性心室而未見於老年男性心室（Aging, 2019; PMC6503880）。",
+    anatomy: "此 gate 屬於荷爾蒙層面，而荷爾蒙由下視丘驅動的內分泌組織產生——XX 為卵巢濾泡，XY 為睪丸，並以雄性素阻斷作為 XY 版本的停經。讀取此荷爾蒙的組織幾乎涵蓋全身：心肌、骨骼、腦。關鍵後果在於，此 gate 決定的是「哪一種細胞死亡程式可用」，而非其執行速率。XX 與 XY 神經元受到相同傷害時，會分別啟動 caspase-8/3 凋亡路徑與 PARP1/AIF parthanatos 路徑，necroptosis 則為其鄰近模式。該不對稱性來自體外損傷實驗，而非人體結果數據。",
     topics: "Sirtuins · NAD+ · SIRT3-SIRT4 Ratio · 自噬／mTORC1 · 細胞凋亡與壞死 · SASP／發炎老化 · 端粒 · p53",
     vals: [
-      { v: "xxpre", l: "XX", s: "停經前", prev: { eur: .24, eas: .25, blk: .24, oth: .24 } },
-      { v: "xxpost", l: "XX", s: "停經前後", prev: { eur: .27, eas: .25, blk: .27, oth: .27 } },
-      { v: "xy", l: "XY", s: "性腺功能正常", prev: { eur: .48, eas: .48, blk: .48, oth: .48 } },
-      { v: "other", l: "45,X / 47,XXY", s: "其他核型", prev: { eur: .01, eas: .01, blk: .01, oth: .01 } }
+      // 兩個 XX 階段不設 prev：兩者之間的切分取決於接受該藥物者的年齡分布，
+      // 而非族群的性質。36 篇研究的統合分析顯示自然停經年齡約為 49–51 歲
+      // （區域差異約 1–3 年），精度太粗，無法據以給出百分比。個人不是已停經，
+      // 就是尚未停經。
+      { v: "xxpre", l: "XX", s: "停經前" },
+      { v: "xxpost", l: "XX", s: "停經前後" },
+      // 不隨族群而變。先前顯示的數值為 0.48，而東亞與黑人的欄位其實載的是
+      // 歐洲的數字，卻置於一個暗示其會變動的選單之下。
+      { v: "xy", l: "XY", s: "性腺功能正常", prev: { eur: .50, eas: .50, blk: .50, oth: .50 } },
+      // 45,X 的統合出生盛行率為每 10 萬名女性活產 31.5 例（95% CI 18.2–54.7），
+      // 依男女比例折半；47,XXY 約為每 500–1000 名男性活產 1 例。先前的 0.01
+      // 高估了約 20 倍。
+      { v: "other", l: "45,X / 47,XXY", s: "其他核型", prev: { eur: .0005, eas: .0005, blk: .0005, oth: .0005 } }
     ]
   },
   {
     id: "comt", name: "COMT Val158Met", code: "rs4680", grade: "A",
     assay: "唾液 DNA 單點型或口腔黏膜拭子",
     why: "三種基因型間的酵素活性相差 3–4 倍且類別內變異小，此情形不常見，使基因型可作為活性的可靠替代指標。此數值決定 α-生育酚效應的方向、甲基供應者的耐受性，以及——由於 fisetin 為已驗證的 COMT 受質抑制劑（IC₅₀ 2.6–5.8 µM）——senolytic 的曝露量。",
+    anatomy: "在肝臟與腎臟表現量最高——這兩個是清除兒茶酚胺的傳統器官——在富含 dopamine 的前額葉皮質亦有大量表現；紅血球中亦有，因此活性表型可由口腔黏膜刮拭讀出，而無需活體檢查。藥理作用位於肝臟：Val/Val 清除高劑量 α-生育酚較快。與 Estrogen 的交集是直接的：catechol estrogen 經由 COMT 依賴的甲基化被中和，因此 COMT 緩慢者其雌激素代謝物的清除也較慢。",
     topics: "Dopamine · 前額葉皮質 · Alpha-tocopherol · Aspirin · Fisetin／Quercetin／EGCG · 甲硫胺酸循環 · Modafinil",
     vals: [
       { v: "VV", l: "Val/Val", s: "快", prev: { eur: .29, eas: .52, blk: .43, oth: .35 } },
@@ -849,6 +927,7 @@ var GATES = [
     id: "urolithin", name: "尿石素代謝型", code: "UM-A / UM-B / UM-0", grade: "A",
     assay: "標準化石榴挑戰後的尿液尿石素 A 葡萄糖醛酸苷",
     why: "此為微生物表現型而非胚系基因型，因此是本組數值中唯一具有可修改潛力者。此表現型已由三個研究群體於獨立檢驗群體中重現。",
+    anatomy: "轉化發生在結腸，作用對象是來自石榴、核桃與草莓的 ellagitannin 受質，第一個步驟不需要任何宿主組織參與。代謝產物之後在全身作用，mitophagy 受體密度最高處為骨骼肌、脂肪組織、肝臟與腦。此 gate 是整組數值中唯一具有可修改潛力者，可透過益生元、次世代益生菌或抗生素改變，因此屬於生態表型而非胚系基因型。",
     topics: "粒線體自噬 · AMPK／mTORC1／PGC-1α · 氧化壓力 · NAD+ · 代謝症候群 · 癌症預防",
     vals: [
       { v: "A", l: "代謝型 A", s: "產生 UA", prev: { eur: .40, eas: .40, blk: .40, oth: .40 } },
@@ -860,6 +939,7 @@ var GATES = [
     id: "mc1r", name: "MC1R 變異類別", code: "R 類 / r 類 / 野生型", grade: "A",
     assay: "MC1R 定序（或以表現型判斷：紅髮、雀斑、(always burn 皮膚型態）",
     why: "黑色素在合成過程中產生活性氧並耗 glutathione，因此 R 類等位基因帶因者的基期氧化負荷較高，該負荷來自色素生合成路徑；同時其黑色素瘤風險約為兩倍，且與 UV 曝露無關。",
+    anatomy: "典型部位是黑色素細胞，位於表皮基底層與毛囊；較不顯而易見的是眼部：視網膜色素上皮與光感受器帶有同一套色素生合成程式。第二個獨立的部位在腦——MC1R 表現於神經元與星狀膠細胞，功能缺失與 Parkinson's 風險相關，而易感的族群是黑質的多巴胺能神經元。因此一個皮膚學的變異同時也是神經學的風險因子，而連結兩者的機制運行於黑質，而非皮膚。",
     topics: "MC1R · 黑色素／神經黑色素 · 黑色素與酪胺酸酶 · 帕金森氏症 · 黑色素瘤 · 氧化壓力",
     vals: [
       { v: "R", l: "R 類", s: "功能異常", prev: { eur: .14, eas: .05, blk: .08, oth: .10 } },
@@ -871,6 +951,7 @@ var GATES = [
     id: "nqo1", name: "NQO1 C609T", code: "rs1800566（Pro187Ser）", grade: "A",
     assay: "唾液 DNA 單點型，或唾液／活體檢體的 NQO1 活性",
     why: "決定醌類是經二電子還原為穩定且可去毒化的氫醌，還是經一電子還原為可進行氧化還原循環的半醌。因此基因型決定的是效應方向而非幅度。T/T 在功能上為缺失型，在唾液、骨髓、肺上皮與內皮中均無可偵測的 NQO1 蛋白。",
+    anatomy: "位於細胞質且無處不在，在處理外來物的器官中最高——肝臟、胃腸道壁、腎臟與肺上皮——這也是 T/T 在唾液、骨髓、肺上皮與內皮中測不到蛋白質的原因。相關的 quinone 為 Adrenochrome 與 Aminochromes，因此此 gate 位於腎上腺髓質與中樞神經系統的兒茶酚程式之內，而非泛指氧化壓力。",
     topics: "NQO1 · 氧化壓力 · 腎上腺素紅／醌類 · 毒物興奮 · 癌症／p53",
     vals: [
       { v: "CC", l: "C/C", s: "完整活性", prev: { eur: .66, eas: .48, blk: .70, oth: .62 } },
@@ -882,6 +963,7 @@ var GATES = [
     id: "cyp3a5", name: "CYP3A5 狀態", code: "*1 表現型／非表現型；FKBP1A 失功能", grade: "B",
     assay: "CYP3A5 *1／*3 基因分型（搭配 FKBP1A 定序；以全血 sirolimus 谷濃度作藥效學核對）",
     why: "表面上的 rapamycin 無反應有相當大一部分屬藥物動力學問題：個體間 AUC 變異超過 40%，表現型清除速度快 40–60%，且 Mannick 劑量遞增檢驗群體中維持 2 mg 每週者有 22% 谷濃度低於 1 ng/mL。FKBP12 失功能屬另一類且無法以劑量校正的狀況。",
+    anatomy: "此 gate 的部位是肝臟與小腸壁，也就是清除全身性藥物的兩個器官。FKBP1A 在各處皆作用，但其後果只在 mTORC1 受體近端可見：T 細胞增殖、破骨細胞分化、肝細胞與神經元的自噬程式。全血 sirolimus 谷濃度測的是全身曝露；p70S6 kinase Thr389 測的是取樣有核細胞中的下游活化。肝臟決定劑量，血液決定劑量是否足夠，而兩者都不是標的本身。",
     topics: "mTORC1 · 自噬 · mTOR 病變 · AMPK · IRS1",
     vals: [
       { v: "exp", l: "*1 表現型", s: "清除快", prev: { eur: .20, eas: .15, blk: .65, oth: .22 } },
@@ -893,6 +975,7 @@ var GATES = [
     id: "hfe", name: "HFE C282Y／H63D", code: "rs1800562 / rs1799943", grade: "A",
     assay: "HFE 基因分型搭配鐵蛋白與轉鐵蛋白飽和度",
     why: "鐵負荷過重是帶因率 1–3% 的孟德爾遺傳疾病，而知識庫的鐵死亡內容（GPX4、ACSL4、FSP1、鐵）並未提及。C282Y 同型合子會造成慢性擴大的活性鐵池，降低鐵死亡誘導的閾值。轉鐵蛋白飽和度超過 45%，且鐵蛋白超過 300 ng/mL（男性、停經後）或 200 ng/mL（停經前），即為已確立的放血療法門檻。",
+    anatomy: "有兩個部位重要。十二指腸腸上皮細胞是調節部位，HFE 的表現控制管腔側 ferroportin 輸出膳食鐵，進而決定 hepcidin 的產生。肝細胞則是儲存部位與傷害發生的部位——肝臟實質的鐵負荷造成內分泌、心臟與皮膚的表型，周邊負荷之後再及於心臟、胰島組織、關節與皮膚。與鐵死亡相關的活性鐵池並非血漿濃度，而是受累實質細胞內的次細胞池。",
     topics: "鐵蛋白 · GPX4 · 鐵死亡 · 脂質過氧化 · 氧化壓力 · 癌症",
     vals: [
       { v: "cc", l: "C/C", s: "野生型", prev: { eur: .86, eas: .95, blk: .80, oth: .88 } },
@@ -905,6 +988,7 @@ var GATES = [
     id: "sod2", name: "SOD2 Ala16Val", code: "rs4880", grade: "C",
     assay: "單點型，<strong>加上</strong>實測 MnSOD 活性（不可僅憑單點型）",
     why: "rs4880 使 MnSOD 輸入效率改變 30–40%。Lys68／Lys122 的乙醯化是 SIRT3／SIRT4 比值的可行動讀值，因此此酵素 30–40% 的變動等同於毒物興奮範圍 30–40% 的變動。基因型與表現型的關係方向在各原始研究間不一致，故應直接測定活性。",
+    anatomy: "位置獨特而理想：SOD2 位於粒線體，因此此變異在每一個有核細胞中都以完整強度表現，功能相關性最高處為骨骼肌、心肌與腎臟——氧化負荷最重的組織。這是運輸的缺陷，不是催化的缺陷：進入基質的酵素較少，超氧化物穩態升高，傷害落在粒線體脂質與 mtDNA 上。",
     topics: "MnSOD · SIRT3-SIRT4 Ratio · 氧化壓力 · 腎上腺素紅 · 毒物興奮範圍寬度",
     vals: [
       { v: "AA", l: "Ala/Ala", s: "實測活性", prev: { eur: .34, eas: .30, blk: .40, oth: .35 } },
@@ -916,6 +1000,7 @@ var GATES = [
     id: "tmao", name: "TMAO 產生者狀態", code: "微生物 TMA／TMAO", grade: "A",
     assay: "標準化膽鹼／肉鹼挑戰後的尿液 TMAO",
     why: "這是第二個微生物產生者表現型，知識庫的 TMAO 筆記雖記載此現象，但未附帶對應的分層邏輯。高產生者自富含膽鹼、肉鹼或紅肉的飲食取得遠高於低產生者的 TMAO 曝露，然而兩者獲得的飲食建議相同。",
+    anatomy: "與 urolithin 相同的兩區室結構，但方向相反。生成部位在結腸腔，去毒在肝臟經 FMO3 進行，標的組織則是血管內皮與血管壁，腎臟為主要排除途徑——因此腎功能不全會在與飲食無關的情況下提高曝露。本頁所指的衰老加 SIRT1 機制執行於血管壁，而非腸道。",
     topics: "氧化三甲胺 · SIRT1 · 氧化壓力 · 發炎老化 · 細胞衰老 · 動脈粥樣硬化",
     vals: [
       { v: "high", l: "高產生者", s: "挑戰後上升", prev: { eur: .30, eas: .30, blk: .30, oth: .30 } },
@@ -926,7 +1011,8 @@ var GATES = [
   {
     id: "apoe", name: "APOE ε 型別劑量", code: "ε2 / ε3 / ε4", grade: "A",
     assay: "APOE 基因分型",
-    why: "至少有三項治療關係取決於此數值：cGAS–STING／IFN-I 微膠細胞致敏（提高 cGAP 抑制的預期上限，並稀釋未分層的試驗）；飲食介入方面，隨機對照的人體資料不支持生酮途徑，而小鼠結果具雌性特異性；以及阿茲海默氏症風險劑量（ε4/ε4 約十倍，單一等位基因約三倍）。",
+    why: "至少有三項治療關係取決於此數值：cGAS–STING／IFN-I 微膠細胞致敏（提高 cGAP 抑制的預期上限，並稀釋未分層的試驗）；飲食介入方面，隨機對照的人體資料不支持生酮途徑，而小鼠結果具雌性特異性；以及阿茲海默氏症風險劑量（ε4/ε4 約十倍，單一等位基因約三倍）。請注意其中的區室分離：此等位基因幾乎完全由肝細胞製造，卻作用於腦的微膠細胞與星狀膠細胞，因此血漿測量與中樞後果在解剖上是分開的。同一數值在一種適應症中是不適用的，在另一種中則是被錯過的機會——參見下方的符號翻轉型態。",
+    anatomy: "幾乎完全由肝細胞製造並運送至腦，腦中相關的細胞是微膠細胞（呈預活化的 IFN-I 放大狀態）與星狀膠細胞（提供 APOE 含量、TREM2 配體來源與血腦屏障完整性）。在外周則作用於血管內皮的脂質代謝。Alzheimer's disease 是腦部疾病，其風險等位基因卻在肝臟製造，且風險隨劑量分級：epsilon4/epsilon4 約 10 倍，單一等位基因約 3 倍。",
     topics: "APOE4 · APOE3 Christchurch · cGAS-STING／IFN-I · SASP · 微膠細胞粒線體 · 發炎老化",
     vals: [
       { v: "e23", l: "ε2/ε3", s: "一個 ε2", prev: { eur: .08, eas: .05, blk: .16, oth: .10 } },
@@ -939,6 +1025,7 @@ var GATES = [
     id: "aldh2", name: "ALDH2 Glu487Lys", code: "rs671（*1／*2）", grade: "B",
     assay: "唾液 DNA 單點型",
     why: "ALDH2 在粒線體密度高的組織中清除脂質過氧化醛（主要為 4-HNE）。其對乙醛的 Km 超過可用細胞 NAD+ 約 15 倍；在 *2 帶因者中，清除醛的能力與補充所欲提升的 NAD+ 可用性因而呈相反方向。*2 亦是壓力耐受性下降最明確的基因型。",
+    anatomy: "在肝臟與胃及口腔黏膜中最高，後者是首過效應部位，也是潮紅反應的來源；骨骼肌、心肌與腦中亦高。在氧化壓力的脈絡下，其受質為 4-HNE，一種膜脂質過氧化產物，因此 *2 帶因者易受損的組織是任何粒線體密度高且脂質含量高的組織：心肌、骨骼肌與神經元。",
     topics: "氧化壓力（4-HNE）· 腎上腺素紅清除 · 老化 · 毒物興奮",
     vals: [
       { v: "11", l: "*1/*1", s: "正常", prev: { eur: .92, eas: .58, blk: .78, oth: .85 } },
@@ -950,6 +1037,7 @@ var GATES = [
     id: "cyp1a2", name: "CYP1A2／ADORA2A", code: "rs762551 + rs5751876", grade: "A",
     assay: "唾液 DNA 單點型；表現型：咖啡因半衰期、午後給藥後的睡眠 disruption",
     why: "CYP1A2 慢代謝者的咖啡因半衰期有 2–12 小時的差距，因此感知到的效果不足與午後給藥後的睡眠干擾源自同一決定因子。CYP1A2 快代謝者在運動效能效果相當的前提下獲得較大的認知效果（反應時間 −18 對 −1.0 毫秒），且咖啡與帕金森氏症的關聯在慢代謝者中最強。",
+    anatomy: "這是肝臟酵素，肝外貢獻近乎為零，因此是本組中最乾淨的藥代動力學 gate——由單一器官決定。行為後果則在皮質，位於前額葉皮質；就睡眠代價而言則在晝夜節律系統。這不是路徑軸線而是藥理學，列入本表是因為頁面的論點可以推廣：感知到的效力下降與午後給藥後的睡眠干擾，源自同一個決定因子。",
     topics: "綠茶／EGCG · Dopamine · 前額葉皮質 · 焦慮 · 運動毒物興奮",
     vals: [
       { v: "AA", l: "CYP1A2 A/A", s: "快", prev: { eur: .43, eas: .50, blk: .40, oth: .45 } },
@@ -960,7 +1048,8 @@ var GATES = [
   {
     id: "pon1", name: "PON1 Q192R／L55M", code: "rs662 + rs854560", grade: "A",
     assay: "單點型<strong>加上</strong> diazoxonase 活性檢測",
-    why: "活性排序為 RR > QR > QQ 與 LL > LM > MM，但 Jarvik（2000）發現類別內的變異大於類別間的變異；某一位 MM 個體可能高於某一位 LL 個體。活性偏低是冠狀動脈事件的獨立風險因子，且直接涉及脂質過氧化與維生素 E 路徑群。",
+    why: "活性排序為 RR > QR > QQ 與 LL > LM > MM，但 Jarvik（2000）發現類別內的變異大於類別間的變異；某一位 MM 個體可能高於某一位 LL 個體。活性偏低是冠狀動脈事件的獨立風險因子，且直接涉及脂質過氧化與維生素 E 路徑群。此酵素在肝臟合成、隨 HDL 運送、於動脈內膜執行——作用的部位是血管壁，而非合成它的器官。本頁以此作為「活性檢測而非基因型才是具資訊性的測量」的實例。",
+    anatomy: "在肝臟合成，隨 HDL 運送於血漿中，並在動脈內膜執行，於該處水解氧化磷脂。另一個「在一個器官製造、在另一個器官執行」的 gate，與 APOE4、TMAO 同類。對這一類 gate 而言，檢測所在的區室與後果發生的區室在解剖上彼此分離，這正是血漿替代指標會失真的原因。",
     topics: "PON1 · 氧化 LDL · 脂質過氧化 · 氧化壓力 · 老化",
     vals: [
       { v: "QQ", l: "192QQ", s: "最低", prev: { eur: .33, eas: .42, blk: .55, oth: .40 } },
@@ -972,6 +1061,7 @@ var GATES = [
     id: "klotho", name: "KLOTHO KL-VS 單倍型", code: "rs9536314 + rs9527025", grade: "B",
     assay: "基因分型搭配游離 Klotho（作為對應的運動因子讀值）",
     why: "KL-VS 異合性可減輕與年齡相關的神經發炎與神經退化，且在 AD 風險富集的檢驗群體中效應較大，顯示其與 APOE ε4 交互作用，而非獨立作用。游離 Klotho 為運動可提高的運動因子（12 項隨機對照試驗，N=621，Hedges' g 1.3），因此生物標記與藥效學讀值為同一分析物。",
+    anatomy: "在腎臟與腦中最高，而此處採用的讀值是腦脊髓液中的可溶性 Klotho——屬於中樞神經系統區室的測量，而非血漿測量。終點指標為腦脊髓液中的 IL-6、S100B、alpha-synuclein 與 NfL，在 AD 風險較高的檢驗群體中效應更大，表示這是與 APOE epsilon4 劑量的交互作用，而非獨立效應。",
     topics: "Klotho · 老化 · APOE4 交互作用 · cGAS／STING · 發炎老化 · 神經發炎",
     vals: [
       { v: "het", l: "KL-VS 異合", s: "有利", prev: { eur: .02, eas: .04, blk: .02, oth: .03 } },
@@ -983,6 +1073,7 @@ var GATES = [
     id: "tert", name: "TERT 啟動子基因型", code: "rs2853669 + 體細胞 TERTp", grade: "B",
     assay: "胚系 rs2853669 基因分型；體細胞 TERTp −124／−146 C>T 狀態（取自腫瘤定序）；實測端粒長度",
     why: "在個體一生中設定 TERT 啟動子的轉錄。rs2853669 的 G 等位基因破壞轉錄起始點上游的 ETS／TCF 結合位點。在已帶有體細胞 TERT 啟動子突變的患者中，胚系狀態與存活相關，屬於胚系與體細胞的交互作用。TERT 活化是複製性永生的速率限制步驟，因此此數值構成不以 NMN、rapamycin 或行為介入改變的複製餘裕上限。",
+    anatomy: "本組中解剖範圍最窄的 gate，而这正是重點。TERT 的轉錄只對長壽且持續分裂的族群構成複製性永生的速率限制步驟——生殖細胞、骨髓與造血前驅細胞、腸幹細胞、表皮基底黑色素細胞、血管內皮。神經元與心肌細胞等分裂後組織已用盡其儲備，因此這是一個幹細胞區室的值，而其後果則以複製性衰老的形式在全身表現。",
     topics: "端粒／端粒耗損 · 複製性衰老 · p53／p16 · 癌症 · 壽命",
     vals: [
       { v: "AA", l: "A/A", s: "完整 TERT 轉錄", prev: { eur: .42, eas: .55, blk: .55, oth: .48 } },
@@ -992,23 +1083,35 @@ var GATES = [
   },
   {
     id: "sirt", name: "SIRT3／SIRT6 長壽變異", code: "rs11555236, rs4980329, rs117385980, rs9997679", grade: "B",
+    // 下列三個數值並非互斥：「常見等位基因」一類是扣除兩個具名變異後的餘項，
+    // 因此任一變異的帶因者也被計入其中，且同一人可能同時帶有兩者。這些比例彼此
+    // 重疊，不能依實際族群位置排成相鄰區段。drawMass() 會將此 gate 畫成單一未分段
+    // 的長條，wrongSide() 則回報上限而非比例。
+    partitions: false,
     assay: "SNP 基因分型",
     why: "知識庫中最重複驗證的人類 sirtuin 長壽發現，在不同研究間方向不一：rs11555236 在一項義大利檢驗群體中與雄性長壽相關，在合併檢驗群體中未能重現，在 TRELONG 中則僅在雌性顯著。SIRT6 過量表現僅在雄性延長壽命，芬蘭的長壽關聯亦見於芬蘭男性。此類結果必須與核型合併判讀。",
+    anatomy: "兩種 sirtuin 位於不同的區室，這比統計數據更能解釋與性別不一致的結果。SIRT3 駐留在粒線體基質，因此其變異作用於粒線體密度最高處——心肌、骨骼肌、腎臟與 T 細胞——並使 MnSOD 去乙醯化，可操作的讀值是 Lys68/Lys122 的乙醯化。SIRT6 位於細胞核，作用於染色質與 NAD+ 池，以肝臟、脂肪細胞與神經元最高。",
     topics: "SIRT3 · SIRT6 · MnSOD · 百歲人瑞 · 細胞衰老",
     vals: [
-      { v: "common", l: "常見等位基因", s: "對照", prev: { eur: .78, eas: .72, blk: .76, oth: .77 } },
+      { v: "common", l: "常見等位基因", s: "對照；仍包含下列變異的帶因者", prev: { eur: .78, eas: .72, blk: .76, oth: .77 } },
       { v: "s3het", l: "SIRT3 rs11555236 G", s: "SIRT3 表現上升", prev: { eur: .19, eas: .24, blk: .21, oth: .20 } },
-      { v: "s6var", l: "SIRT6 N308K／A313S", s: "SIRT6 活性上升", prev: { eur: .03, eas: .04, blk: .03, oth: .03 } }
+      { v: "s6var", l: "SIRT6 N308K 或 A313S", s: "SIRT6 活性上升", prev: { eur: .03, eas: .04, blk: .03, oth: .03 } }
     ]
   },
   {
     id: "mtdna", name: "mtDNA 單倍群", code: "H / J / T / U / K / rCRS", grade: "D",
+    // 這些比例是粗略的類群估計值，而非單倍群頻率表，「其他」一項也只是餘項而非
+    // 真正的類別。本頁沒有任何介入措施以此 gate 分層，因此它不會出現在圖 3；此
+    // 旗標是為了避免日後新增時，默默畫出這些數值無法支持的分割。rCRS 是單倍群 H
+    // 的參考序列，並非獨立類別。
+    partitions: false,
     assay: "mtDNA 定序或單倍群檢測套組",
     why: "單倍群之間在基期 ROS 產生、脫偶聯能力與抗氧化反應上有所差異。由於 mtDNA 為母系遺傳，觀察性研究中的單倍群與母系背景因子共變，此點可解釋多數結果不一致的情形。列入本表是為了記錄測量的缺席，而非支持劑量規則。",
+    anatomy: "每一個有核細胞皆有，功能上集中於骨骼肌、心肌、腎臟與腦。屬於 D 級，並排除於任何劑量規則之外：列入本表是為了記錄一個以粒線體為主軸的知識庫中測量的缺席。由於 mtDNA 為母系遺傳，單倍群與母系背景因子共變，這可解釋觀察性文獻中大量的結果不一致。",
     topics: "mtDNA · 氧化磷酸化 · 毒物興奮 · 基期 ROS",
     vals: [
-      { v: "H", l: "H／rCRS", s: "低基期 ROS", prev: { eur: .40, eas: .05, blk: .30, oth: .30 } },
-      { v: "macro", l: "J／T／U／K", s: "高基期 ROS", prev: { eur: .20, eas: .40, blk: .20, oth: .24 } },
+      { v: "H", l: "H", s: "低基期 ROS，為 rCRS 參考群", prev: { eur: .40, eas: .05, blk: .30, oth: .30 } },
+      { v: "macro", l: "J, T, U, K", s: "高基期 ROS", prev: { eur: .20, eas: .40, blk: .20, oth: .24 } },
       { v: "other", l: "其他", s: "此處未分類", prev: { eur: .40, eas: .55, blk: .50, oth: .46 } }
     ]
   }
@@ -1327,19 +1430,25 @@ function outcome(t) {
   var m = t.map[v] || t.map._default || ["neutral", "此數值無已報告的交互作用。"];
   return { sev: m[0], txt: m[1] };
 }
-/* Share of a population in a consequential state for a therapy. */
+/* Proportion of a population in a consequential state for a therapy.
+   Returns { frac, bound }. For a gate whose categories partition, frac is the
+   share. For a non-partitioning gate the consequential categories overlap, so
+   the sum is an upper bound: the true value lies between the largest single
+   consequential share and the sum, and bound is true. */
 function wrongSide(t) {
   var g = byId(t.gate);
-  if (!g) return 0;
-  var total = 0, known = 0;
+  if (!g) return { frac: 0, bound: false };
+  if (g.observed) return { frac: 0, bound: false, observed: true };
+  var total = 0, known = 0, largest = 0;
   g.vals.forEach(function (val) {
     var s = share(g, val.v);
     if (s == null) return;
     var m = t.map[val.v] || t.map._default;
     known += s;
-    if (m && CONSEQUENTIAL[m[0]]) total += s;
+    if (m && CONSEQUENTIAL[m[0]]) { total += s; if (s > largest) largest = s; }
   });
-  return known > 0 ? total / known : 0;
+  if (known <= 0) return { frac: 0, bound: false };
+  return { frac: total / known, bound: g.partitions === false, lo: largest / known };
 }
 
 /* ============================================================
@@ -1368,6 +1477,11 @@ function buildGates() {
     why.innerHTML = g.why;
     fs.appendChild(why);
 
+    var anat = document.createElement("p");
+    anat.className = "gate-anat";
+    anat.innerHTML = g.anatomy;
+    fs.appendChild(anat);
+
     var top = document.createElement("p");
     top.className = "gate-topics";
     top.innerHTML = "關聯路徑：" + g.topics + " &nbsp;·&nbsp; <b>檢測方式：</b> " + g.assay;
@@ -1385,8 +1499,13 @@ function buildGates() {
       if (state.gates[g.id] === val.v) inp.checked = true;
       var sp = document.createElement("span");
       var s = share(g, val.v);
-      sp.innerHTML = val.l + " <em>" + val.s + (s == null ? "" : " · 約 " + Math.round(s * 100) + "%") + "</em>";
-      sp.title = val.s + " — 約 " + (s == null ? "無檢驗群體估計值" : Math.round(s * 100) + "% 的" + POPS[state.pop]) + "。" + g.assay;
+      sp.innerHTML = val.l + " <em>" + val.s + (s == null ? "" : " · 約 " + (s < .01 ? (s * 100).toFixed(2) : Math.round(s * 100)) + "%") + "</em>";
+      // 標題必須說明「為何沒有百分比」，否則缺席的數字會被讀成資料缺漏，
+      // 而不是「這本來就不是一個族群量」。
+      sp.title = val.s + " — " + (s == null
+        ? (g.observed ? "由該個人的年齡決定，非族群頻率；" : "無檢驗群體估計值；")
+        : POPS[state.pop] + "約 " + Math.round(s * 100) + "%，四個參考族群相同；")
+        + "。" + g.assay;
       lab.appendChild(inp);
       lab.appendChild(sp);
       opts.appendChild(lab);
@@ -1436,36 +1555,37 @@ function activeTherapies() {
   return THERAPIES.filter(function (t) { return state.rx.indexOf(t.id) !== -1; });
 }
 
-function renderTally() {
-  var set = GATES.filter(function (g) { return state.gates[g.id]; });
-  document.getElementById("gateStat").innerHTML =
-    "已填列 <b>" + set.length + "</b> / " + GATES.length + " 項數值";
-  document.getElementById("popSel").value = state.pop;
-
+/* One pass over the selected interventions. outcome() and the class counts were
+   previously recomputed independently in three places, which meant the tally
+   strip, the profile cards and Figure 2 each derived the same numbers by their
+   own route. render() calls this once and everything downstream reads it. */
+function profile() {
   var act = activeTherapies();
-  var counts = {};
-  act.forEach(function (t) { var s = outcome(t).sev; counts[s] = (counts[s] || 0) + 1; });
-  var resolved = act.filter(function (t) { return outcome(t).sev !== "unknown"; }).length;
-  var html = "已選 <b>" + act.length + "</b> 項介入措施" +
-             "，其中 <b>" + resolved + "</b> 項的分層數值已確立";
-  ["harm", "blind", "under", "miss", "benefit", "unknown", "neutral"].forEach(function (s) {
-    if (counts[s]) html += ' <span class="sev sev-' + s + '">' + counts[s] + " " + SEV[s].l + "</span>";
+  var rows = act.map(function (t) { return { t: t, o: outcome(t) }; });
+  var counts = {}, resolved = 0;
+  rows.forEach(function (r) {
+    counts[r.o.sev] = (counts[r.o.sev] || 0) + 1;
+    if (r.o.sev !== "unknown") resolved++;
   });
-  document.getElementById("tally").innerHTML = html;
+  return {
+    act: act,
+    rows: rows,
+    counts: counts,
+    resolved: resolved,
+    gateSet: GATES.filter(function (g) { return state.gates[g.id]; }).length
+  };
 }
 
-function renderActions() {
+function renderActions(p) {
   var host = document.getElementById("actions");
-  var act = activeTherapies();
-  if (!act.length) {
+  if (!p.act.length) {
     host.innerHTML = '<p class="empty">尚未選取任何介入措施。請自上方選取，即可產生詮釋結果。</p>';
     return;
   }
   var order = { harm: 0, under: 1, blind: 2, miss: 3, unknown: 4, benefit: 5, neutral: 6 };
-  act = act.slice().sort(function (a, b) { return order[outcome(a).sev] - order[outcome(b).sev]; });
-  host.innerHTML = act.map(function (t) {
-    var o = outcome(t);
-    var g = byId(t.gate);
+  var rows = p.rows.slice().sort(function (a, b) { return order[a.o.sev] - order[b.o.sev]; });
+  host.innerHTML = rows.map(function (r) {
+    var t = r.t, o = r.o, g = byId(t.gate);
     return '<div class="action s-' + o.sev + '">' +
       "<h4>" + icon("sev_" + o.sev) + "<span class=\"sev sev-" + o.sev + '">' + SEV[o.sev].l + "</span>" + t.name + "</h4>" +
       "<p>" + o.txt + "</p>" +
@@ -1480,22 +1600,21 @@ function render() {
     var fs = document.getElementById("gate-" + g.id);
     if (fs) fs.classList.toggle("is-set", !!state.gates[g.id]);
   });
-  renderTally();
-  renderActions();
-  drawCoverage();
+  document.getElementById("popSel").value = state.pop;
+  var p = profile();
+  renderActions(p);
+  drawCoverage(p);
   drawMass();
 }
 
 /* ============================================================
    FIGURE 2 — coverage meters (live)
    ============================================================ */
-function drawCoverage() {
+function drawCoverage(p) {
   var W = 840, H = 224, host = document.getElementById("figCov");
   var svg = svgRoot(host, W, H, "已選介入措施的分層數值涵蓋率");
-  var act = activeTherapies();
-  var resolved = act.filter(function (t) { return outcome(t).sev !== "unknown"; }).length;
+  var act = p.act, resolved = p.resolved, counts = p.counts, gateSet = p.gateSet;
   var pct = act.length ? resolved / act.length : 0;
-  var gateSet = GATES.filter(function (g) { return state.gates[g.id]; }).length;
 
   var bw = W - 300, x0 = 260, y = 34;
   text(svg, x0, y - 12, "分層數值已確立的已選介入措施比例", { size: 12, weight: 600 });
@@ -1504,8 +1623,6 @@ function drawCoverage() {
   text(svg, x0 - 12, y + 16, act.length ? resolved + " / " + act.length : "0 / 0", { size: 14, weight: 600, anchor: "end", mono: true });
   text(svg, x0 + bw, y + 40, "占已選介入措施 " + Math.round(pct * 100) + "%", { size: 11, fill: "var(--mute)", anchor: "end" });
 
-  var counts = {};
-  act.forEach(function (t) { var s = outcome(t).sev; counts[s] = (counts[s] || 0) + 1; });
   var keys = ["harm", "blind", "under", "miss", "benefit", "unknown", "neutral"].filter(function (s) { return counts[s]; });
   text(svg, x0, y + 76, "依後果類別分布", { size: 12, weight: 600 });
   if (!keys.length) {
@@ -1537,7 +1654,7 @@ function drawCoverage() {
    ============================================================ */
 function drawMass() {
   var rows = THERAPIES.map(function (t) { return { t: t, w: wrongSide(t) }; })
-    .sort(function (a, b) { return b.w - a.w; });
+    .sort(function (a, b) { return b.w.frac - a.w.frac; });
   var rowH = 30, W = 840;
     var labelW = 320, barW = W - labelW - 110, x0 = labelW + 12;
   // Legend keys are measured and wrapped to a second row when needed: the
@@ -1569,8 +1686,31 @@ function drawMass() {
     while (lbl.length > 1 && textW(lbl + "…", 11) > labelW) lbl = lbl.slice(0, -1);
     if (lbl !== r.t.name) lbl += "…";
     text(svg, labelW, y + 13, lbl, { size: 11, anchor: "end" });
+    // Segments laid out in gate-value order at their true population offsets, so
+    // the coloured run is where those people actually sit in the bar rather than
+    // a rescaled summary. The uncoloured remainder is the unproblematic arms.
+    // That requires the gate's categories to partition the population. Where they
+    // overlap (sirt: the "common" bucket is the residue after the two named
+    // variants), offsets would assert a partition the data does not support, so
+    // the bar is drawn unsegmented and the total is printed as a range.
     var g = byId(r.t.gate), cx = x0;
     el("rect", { x: x0, y: y + 3, width: barW, height: 9, fill: "var(--rule)", opacity: 0.5 }, svg);
+    // observed gate 沒有族群分布可供繪製。在此畫一條短長條會被讀成「我們測得一小
+    // 部分人處於風險中」，而事實恰好相反：對個人而言，此值不是存在就是不存在，
+    // 而 gate 仍完整適用。
+    if (g.observed) {
+      el("rect", { x: x0, y: y, width: barW, height: 15, fill: "none", stroke: "var(--periphery)", "stroke-width": 1, "stroke-dasharray": "1 4" }, svg);
+      text(svg, x0 + 8, y + 11, "數值由個人直接觀察 — 非族群頻率", { size: 9.5, fill: "var(--mute)" });
+      text(svg, x0 + barW + 8, y + 12, "n/a", { size: 10.5, mono: true, fill: "var(--mute)" });
+      return;
+    }
+    if (g.partitions === false) {
+      el("rect", { x: x0, y: y, width: barW, height: 15, fill: "none", stroke: "var(--periphery)", "stroke-width": 1, "stroke-dasharray": "3 3" }, svg);
+      text(svg, x0 + 8, y + 11, "類別重疊 — 不按比例繪製", { size: 9.5, fill: "var(--mute)" });
+      text(svg, x0 + barW + 8, y + 12, Math.round(r.w.frac * 100) + "–" + Math.round(r.w.lo * 100) + "%",
+        { size: 10.5, mono: true, fill: "var(--mute)" });
+      return;
+    }
     g.vals.forEach(function (val) {
       var s = share(g, val.v);
       if (s == null) return;
@@ -1588,7 +1728,7 @@ function drawMass() {
       }
       cx += w;
     });
-    text(svg, x0 + barW + 8, y + 12, Math.round(r.w * 100) + "%", { size: 10.5, mono: true, fill: "var(--mute)" });
+    text(svg, x0 + barW + 8, y + 12, Math.round(r.w.frac * 100) + "%", { size: 10.5, mono: true, fill: "var(--mute)" });
   });
 
   var ly = legTop, lx = x0;
@@ -1864,7 +2004,7 @@ function drawRap() {
    ============================================================ */
 function buildGapTable() {
   var rows = THERAPIES.map(function (t) { return { t: t, w: wrongSide(t) }; })
-    .sort(function (a, b) { return b.w - a.w; });
+    .sort(function (a, b) { return b.w.frac - a.w.frac; });
   var body = document.querySelector("#gapTable tbody");
   body.innerHTML = rows.map(function (r) {
     var g = byId(r.t.gate);
@@ -1877,12 +2017,64 @@ function buildGapTable() {
     if (worstShare < 0) { worst = "unknown"; }
     return "<tr><td>" + r.t.name + '<br><span class="tbl-note">' + r.t.dom + "</span></td>" +
       "<td>" + g.name + '<br><span class="tbl-note">' + g.code + "</span></td>" +
-      '<td class="num">' + Math.round(r.w * 100) + "%</td>" +
+      '<td class="num">' + (r.w.observed
+        ? 'n/a<br><span class="tbl-note">由個人直接觀察，非自族群抽樣</span>'
+        : Math.round(r.w.frac * 100) + "%" + (r.w.bound ? "–" + Math.round(r.w.lo * 100) + "%" : "") +
+          (r.w.bound ? '<br><span class="tbl-note">僅為區間 — 此 gate 的類別彼此重疊</span>' : "")) + "</td>" +
       '<td><span class="sev sev-' + worst + '">' + SEV[worst].l + '</span><br><span class="tbl-note">' +
       (worst === "unknown" ? "例行臨床尚無經驗證的檢測方式" : "最大單一類別：" + Math.round(worstShare * 100) + "%") +
       "</span></td>" +
       '<td><span class="gbadge ' + r.t.grade + '">' + r.t.grade + "</span></td></tr>";
   }).join("");
+}
+
+/* ============================================================
+   解剖學對照表
+   由 GATES + THERAPIES 產生，而非逐列手寫。此表格原本是一份 16 列的
+   常值表，重複列出 gate 名稱、離散數值與等級——三者都已存在於 gate 卡片
+   中——而且已與卡片脫節：它漏掉有卡片的 ALDH2，卻帶有一列沒有對應卡片的
+   CYP2C9/VKORC1 · CYP2D6 · SLCO1B1。改為推導各欄可省去第二份副本，
+   而不必逐一核對。
+   ============================================================ */
+var GRADE_ORDER = { A: 0, B: 1, C: 2, D: 3 };
+
+/* 本頁有哪些介入措施受此 gate 分層。改為推導，THERAPIES 新增一筆時表格
+   不會脫節。不做截斷：儲存格已用 <br> 分行且會自動換行，名稱應完整顯示。
+   原本在 22 字後截斷，會靜默切掉最長名稱的尾段。 */
+function gatedBy(gid) {
+  return THERAPIES.filter(function (t) { return t.gate === gid; }).map(function (t) { return t.name; });
+}
+
+function buildAnatTable() {
+  var body = document.querySelector("#anatTable tbody");
+  var rows = GATES.slice().sort(function (a, b) {
+    return (GRADE_ORDER[a.grade] - GRADE_ORDER[b.grade]);
+  });
+  body.innerHTML = rows.map(function (g) {
+    // 標籤加上子標籤：核型 gate 有兩個數值都標為「XX」，且當標籤本身含有
+    // 斜線時會與「 · 」分隔符衝突（SIRT6 N308K／A313S）。
+    var vals = g.vals.map(function (v) { return v.l + " " + v.s; }).join(" · ");
+    // 取前兩句：本表供橫向掃描，完整內容在上面的卡片中。句尾的句點由這裡
+    // 補上，因此先去掉原有的。
+    var acts = g.anatomy.split("。").filter(function (x) { return x.length; }).slice(0, 2).join("。") + "。";
+    var rx = gatedBy(g.id);
+    var cell = rx.length
+      ? rx.join("<br>")
+      : '<span class="tbl-note">本頁無 — 此數值記錄為未測量的 gate，而非治療的調節因子</span>';
+    return "<tr><td><b>" + g.name + "</b><br><span class=\"tbl-note\">" + g.code + "</span></td>" +
+      "<td>" + vals + "</td>" +
+      "<td>" + acts + "</td>" +
+      "<td>" + g.topics + "</td>" +
+      "<td>" + cell + "</td>" +
+      '<td><span class="gbadge ' + g.grade + '">' + g.grade + "</span></td></tr>";
+  }).join("");
+  // 以一行交代：已建議但本頁未實作的 CPIC 等級表型，以及被排除於劑量之外的
+  // mtDNA 單倍群，使產生的表格不會把它們悄悄漏掉。
+  document.getElementById("anatNote").innerHTML =
+    "共 " + GATES.length + " 項數值，每一項在上方工具中都有對應卡片與數值選項。" +
+    "另有一組建議採用但此處未實作——CYP2C9/VKORC1、CYP2D6 與 SLCO1B1 的代謝者表型，" +
+    "它們是針對已在使用之藥物的 CPIC 等級判定因子。mtDNA 單倍群僅為完整性而列入，" +
+    "並排除於劑量規則之外；測量的缺席本身就是結論。";
 }
 
 function exportProfile() {
@@ -1892,7 +2084,15 @@ function exportProfile() {
     gates: {},
     therapies: {}
   };
-  GATES.forEach(function (g) { if (state.gates[g.id]) out.gates[g.name] = gateLabel(g, state.gates[g.id]); });
+  GATES.forEach(function (g) {
+    if (!state.gates[g.id]) return;
+    out.gates[g.name] = {
+      value: gateLabel(g, state.gates[g.id]),
+      where_it_acts: g.anatomy,
+      assay: g.assay.replace(/<[^>]+>/g, ""),
+      grade: g.grade
+    };
+  });
   activeTherapies().forEach(function (t) {
     var o = outcome(t);
     out.therapies[t.name] = { consequence: SEV[o.sev].l, detail: o.txt, gate: byId(t.gate).name, value: state.gates[t.gate] || "未填列", grade: t.grade };
@@ -1925,12 +2125,19 @@ document.getElementById("clearRxBtn").addEventListener("click", function () {
 buildGates();
 buildRx();
 buildGapTable();
-drawGate();
-drawUro();
-drawComt();
-drawNqo1();
-drawRap();
-render();
+buildAnatTable();
+/* 圖表中的一次拋出原本會中止本檔案其餘部分：render() 位於最後，因此
+   drawMass() 內的 ReferenceError 會連同圖表一起讓整頁失去導覽、工具提示與
+   燈箱。現在每張圖各自獨立，圖表損壞最多只會留下一個空白畫布。 */
+function safe(fn) {
+  try { fn(); } catch (e) { console.error(fn.name + " failed:", e); }
+}
+safe(drawGate);
+safe(drawUro);
+safe(drawComt);
+safe(drawNqo1);
+safe(drawRap);
+safe(render);
 T2.initNav();
 T2.initTooltip();
 T2.initLightbox();
