@@ -15,7 +15,7 @@ aliases: []
 > [!info] Source
 > AI-generated research analysis from Google AI Studio covering [[Leuco-adrenochrome]] — its role in the [[Epinephrine]] oxidation pathway, use as a pharmaceutical [[Reference standard]] and [[Impurity marker]], interaction with [[Hemoglobin]]/[[Erythrocytes]], and implications for [[Epinephrine]] formulation stability.
 
-[[Leuco-adrenochrome]] ((S)-1-Methylindoline-3,5,6-triol) is a chemical intermediate and natural byproduct formed during the oxidation of [[Epinephrine]] (adrenaline) into [[Adrenochrome]]. It acts as an unstable, highly reactive [[Redox]] intermediate within the body's [[Catecholamine]] pathways.
+[[Leuco-adrenochrome]] ((S)-1-Methylindoline-3,5,6-triol) is a chemical intermediate and natural byproduct formed during the oxidation of [[Epinephrine]] (adrenaline) into [[Adrenochrome]]. It acts as an unstable, highly reactive [[Redox]] intermediate within the body's [[Catecholamines]] pathways.
 
 ---
 
@@ -23,7 +23,7 @@ aliases: []
 
 [[Leuco-adrenochrome]] is central to the oxidative degradation of [[Epinephrine]]. The pathway proceeds as follows:
 
-- **[[Epinephrine]] (Adrenaline):** The starting [[Catecholamine]].
+- **[[Epinephrine]] (Adrenaline):** The starting [[Catecholamines]].
 - **[[Adrenaline-quinone]]:** Through oxidation (often [[Autoxidation]] at physiological pH or via enzymatic activity), [[Epinephrine]] loses electrons to form the highly reactive [[Electrophile|electrophilic]] intermediate [[Adrenaline-quinone]].
 - **[[Leuco-adrenochrome]]:** Cyclization of [[Adrenaline-quinone]] occurs, yielding the leuco-form (the "white" or reduced form), (S)-1-Methylindoline-3,5,6-triol.
 - **[[Adrenochrome]]:** Further oxidation of [[Leuco-adrenochrome]] results in the formation of [[Adrenochrome]], which is distinctly colored (red/pink/orange) due to its extended conjugated system.
@@ -36,7 +36,7 @@ aliases: []
 Interest in [[Leuco-adrenochrome]] and its parent compound [[Adrenochrome]] peaked in the 1950s with the work of researchers [[Abram Hoffer]] and [[Humphry Osmond]].
 
 - **The Theory:** They proposed the [[Adrenochrome Hypothesis]], which suggested that [[Adrenochrome]] might be a psychotomimetic (hallucinogenic) agent formed endogenously. They hypothesized that an imbalance in the oxidation of [[Epinephrine]] into [[Adrenochrome]] might contribute to the etiology of [[Schizophrenia]].
-- **Legacy:** While this hypothesis triggered extensive research into [[Catecholamine]] metabolism, it was largely superseded by the [[Dopamine hypothesis]] of [[Schizophrenia]] in later decades. However, the legacy of this research remains significant in the study of how [[Catecholamine]] metabolites interact with neurological receptors and [[Oxidative Stress]] pathways.
+- **Legacy:** While this hypothesis triggered extensive research into [[Catecholamines]] metabolism, it was largely superseded by the [[Dopamine hypothesis]] of [[Schizophrenia]] in later decades. However, the legacy of this research remains significant in the study of how [[Catecholamines]] metabolites interact with neurological receptors and [[Oxidative Stress]] pathways.
 
 ### 3. Current Analytical and Pharmaceutical Usage
 

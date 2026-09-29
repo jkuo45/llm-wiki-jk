@@ -4,7 +4,7 @@ description: Catecholamines are a class of aromatic amines that serve as hormone
   and neurotransmitters. They are characterized by a catechol group (a benzene ring
   with two hydroxyl groups) and an amine sid...
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-09-29
 tags:
   - chemical-class
 aliases: [Catecholamines]
@@ -48,6 +48,10 @@ List of documents that mention this entity
   - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
     - What cannot be ignored in this discussion however is the Oxidative Stress necessitated by the handling of high concentrations of Catecholamines. In other words, in order to function as an active dopaminergic or adrenergic ce
 
+  - [[_document_ - intermediates, precursor, hemoglobin|intermediates, precursor, hemoglobin]]
+    - Leuco-adrenochrome ((S)-1-Methylindoline-3,5,6-triol) is a chemical intermediate and natural byproduct formed during the oxidation of epinephrine (adrenaline) into adrenochrome. It acts as an unstable, highly reactive redox intermediate within the body's catecholamine pathways.
+    - Chemically identified as (S)-1-Methylindoline-3,5,6-triol, it often acts as an unstable, highly reactive redox intermediate within the body's catecholamine pathways. It is formed from adrenaline-quinone and is subsequently oxidised onward.
+
 
 ## Connections
 - [[Epinephrine]] ↔ Member of the catecholamine family.
@@ -60,3 +64,4 @@ List of documents that mention this entity
 - New links added: [[Catecholamines]], [[Dopamine]], [[Epinephrine]], [[COMT]], [[MAO]], [[Aminochromes]], [[Oxidation]], [[Oxidative Stress]], [[Adrenochrome]], [[Dopaminochrome]], [[Neuromelanin]], [[Smoking]], [[Inflammation]], [[Norepinephrine]], [[L-Tyrosine]], [[Parkinson's Disease]].
 - Suggested new entity notes to create: [[Epinephrine]], [[Monoamines]].
   - Strong connections to strengthen: [[Catecholamines]] ↔ [[Aminochromes]], [[Catecholamines]] ↔ [[Dopamine]].
+- Merged into this note on 2026-09-29 from a duplicate singular `Catecholamine.md`; wikilinks were redirected here and the alias `Catecholamines` covers both spellings.
