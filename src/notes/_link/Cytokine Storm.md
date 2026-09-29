@@ -4,7 +4,7 @@ description: Systemic hyperinflammatory syndrome in which innate immune cells re
 protected: false
 created: 2026-09-29
 updated: 2026-09-29
-tags: [immune-response, inflammation, clinical-concept, cytokine, pathysiology]
+tags: [immune-response, inflammation, clinical-concept, cytokine, pathophysiology]
 aliases: [Cytokine release syndrome, CRS, Hyperinflammatory syndrome, Cytokine cascade]
 ---
 

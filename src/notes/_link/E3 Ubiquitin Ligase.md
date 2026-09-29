@@ -10,7 +10,7 @@ aliases: [E3 ligase, Ubiquitin-protein ligase, E3 ubiquitin ligases, Ubiquitin l
 
 # E3 Ubiquitin Ligase
 
-**E3 ubiquitin ligases** are the last and most numerous enzymes of the [[Ubiquitination]] cascade. Of the three steps — activation by [[Ubiquitin-activating enzyme E1]], conjugation by [[Ubiquitin-conjugating enzyme E2]], and transfer to substrate by the E3 — the E3 supplies the specificity. More than 600 E3s are encoded in the human genome, and a large fraction of the "druggable proteome" now consists of E3s and their adaptors.
+**E3 ubiquitin ligases** are the last and most numerous enzymes of the [[Ubiquitination]] cascade. Of the three steps — activation by [[Ubiquitin-Activating Enzyme E1]], conjugation by [[Ubiquitin-Conjugating Enzyme E2]], and transfer to substrate by the E3 — the E3 supplies the specificity. More than 600 E3s are encoded in the human genome, and a large fraction of the "druggable proteome" now consists of E3s and their adaptors.
 
 > [!info] The key point
 > The E1 and E2 steps are generic. E1s are few (two in humans) and E2s are ~30. The E3 is where substrate selection, subcellular location, and chain topology are specified. Loss of a single E3 typically produces a specific, well-defined phenotype — which is exactly what makes E3s attractive as drug targets and why, conversely, a great deal of E3 biology is known only from loss-of-function phenotypes.

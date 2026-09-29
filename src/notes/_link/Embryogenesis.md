@@ -13,7 +13,7 @@ aliases: [Embryonic development, Embryogenesis]
 **Embryogenesis** is the process by which a single fertilised cell becomes a recognisable multi-organised embryo, through coordinated cell division, patterning, and morphogenesis. In humans it occupies roughly the first eight weeks after fertilisation; from week 9 the structure is termed the fetus and continues to grow and mature rather than to form.
 
 > [!info] Why this note is in a longevity vault
-> Embryogenesis is where most of the mechanistic vocabulary of this vault is written. Germ-layer specification uses the same signalling axes — [[Wnt signaling|Wnt]], [[Notch]], [[TGF-beta Signaling|TGF-β]], [[Retinoic Acid]] — that reappear in adult tissue homeostasis, repair, and [[Stem Cells|regeneration]]. The epigenetic machinery (imprinting, [[Methylation]], chromatin remodelling) is set up here and maintained for life. The [[Hypusination|polyamine–hypusine]] pathway, via [[DHPS]] and [[DOHH]], is embryonic-lethal-null in mice — embryogenesis is a place where this vault's metabolic chemistry stops being optional.
+> Embryogenesis is where most of the mechanistic vocabulary of this vault is written. Germ-layer specification uses the same signalling axes — [[Wnt signaling|Wnt]], [[Notch]], [[TGF-β Signaling]], [[Retinoic Acid]] — that reappear in adult tissue homeostasis, repair, and [[Stem Cells|regeneration]]. The epigenetic machinery (imprinting, [[Methylation]], chromatin remodelling) is set up here and maintained for life. The [[Hypusination|polyamine–hypusine]] pathway, via [[DHPS]] and [[DOHH]], is embryonic-lethal-null in mice — embryogenesis is a place where this vault's metabolic chemistry stops being optional.
 
 ## Major stages
 
@@ -29,7 +29,7 @@ Cleavage → blastocyst → implantation → gastrulation → neurulation → or
 ## Molecular control
 
 - **Homeotic transcription factors.** [[HOXA10]] and the wider homeobox and [[SOX gene family|SOX]] gene families give each segment and each tissue its address. Hox genes specify positional identity along the anterior–posterior axis; their misexpression causes segment-identity transformations and multiple congenital malformations.
-- **Signalling axes.** [[Wnt signaling|Wnt]], [[Notch]], FGF, Hedgehog and [[TGF-beta Signaling|TGF-β]] act as morphogens, forming gradients that cells read positionally. This is the same toolkit used in adult [[Wound Healing]] and regeneration, which is why embryonic development and repair are so often mechanistically parallel.
+- **Signalling axes.** [[Wnt signaling|Wnt]], [[Notch]], FGF, Hedgehog and [[TGF-β Signaling]] act as morphogens, forming gradients that cells read positionally. This is the same toolkit used in adult [[Wound Healing]] and regeneration, which is why embryonic development and repair are so often mechanistically parallel.
 - **Pluripotency factors.** [[Oct4]], [[Nanog]], [[Sox2]] — the [[Yamanaka Factors]] — maintain the pluripotent state in the inner cell mass and, when introduced into somatic cells, reprogram them ([[Reprogramming]]). Their expression is a direct readout of pluripotency.
 - **Epigenetic control.** DNA methylation, imprinting, and histone modification lock in cell fate once it is specified, so that a neuron does not re-express muscle genes for the next 80 years. This is the mechanistic origin of the "epigenetic clock" concept and of [[Transcription Factor|transcription factor]]-based fate stability.
 
