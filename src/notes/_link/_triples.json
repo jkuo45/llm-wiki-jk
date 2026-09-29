@@ -42684,5 +42684,1167 @@
     "source_document": "AMPK-PGC-1α Pathway.md",
     "created": "2026-09-29T15:15:09Z",
     "updated": "2026-09-29T15:15:09Z"
+  },
+  {
+    "id": "b3e02be42465",
+    "subject": "Sodium Persulfate",
+    "predicate": "oxidizes",
+    "object": "Epinephrine",
+    "context": {
+      "en-US": "Sodium Persulfate (Na2S2O8) is used in vitro as a two-electron oxidizing agent that converts the catechol ring of Epinephrine to the corresponding o-quinone intermediate, adrenaline-quinone, which then cyclizes to adrenochrome. Because the persulfate anion is water-soluble, it offers formulation advantages over the potassium analog for aqueous adrenaline oxidation assays.",
+      "zh-TW": "Sodium Persulfate（Na2S2O8）在體外作為雙電子氧化劑，將 Epinephrine 的兒茶酚環氧化成對應的鄰醌中間體（adrenaline-quinone），後者再環化生成 adrenochrome。由於過硫酸根陰離子水溶性良好，在水性腎上腺素氧化檢測中比鉀鹽類更方便。"
+    },
+    "confidence": 0.95,
+    "source_document": "Sodium Persulfate.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "1939f44bfb6d",
+    "subject": "Sodium Persulfate",
+    "predicate": "produces",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "Sodium Persulfate serves as a convenient laboratory oxidant for the synthesis of Adrenochrome from Epinephrine; the resulting pink aminochrome is monitored spectrophotometrically at its 480 nm absorbance maximum. This assay is widely used to model oxidative stress and to measure catecholamine oxidation kinetics under controlled conditions.",
+      "zh-TW": "Sodium Persulfate 是由 Epinephrine 合成 Adrenochrome 的便利實驗室氧化劑；所生成的粉紅色 aminochrome 可藉由其 480 nm 吸收極大值以分光光度法定量。此檢測常用於模擬 Oxidative Stress 並在受控條件下測量兒茶酚胺氧化動力學。"
+    },
+    "confidence": 0.9,
+    "source_document": "Sodium Persulfate.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "5e3bf0b4cdaf",
+    "subject": "Sodium Persulfate",
+    "predicate": "produces",
+    "object": "Free Radicals",
+    "context": {
+      "en-US": "Upon thermal, photolytic, or transition-metal-catalyzed activation, the symmetrical O-O bond of the persulfate anion undergoes homolytic cleavage, generating sulfate radical anions (SO4-.) with reduction potentials of E0 = 2.4-3.1 V. These free radicals are even stronger oxidants than the parent persulfate and make sodium persulfate an effective initiator of free radical chain reactions.",
+      "zh-TW": "在加熱、光解或過渡金屬催化活化下，過硫酸根陰離子的對稱 O-O 鍵發生均裂，產生還原電位 E0 = 2.4-3.1 V 的硫酸根自由基陰離子（SO4-·）。這些 Free Radicals 比母體過硫酸鹽更具氧化性，使 Sodium Persulfate 成為自由基鏈反應的有效引發劑。"
+    },
+    "confidence": 0.9,
+    "source_document": "Sodium Persulfate.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "246e7164403e",
+    "subject": "Sodium Persulfate",
+    "predicate": "initiates",
+    "object": "Polymerization",
+    "context": {
+      "en-US": "Sodium Persulfate is used as a free radical initiator in emulsion polymerization for the industrial production of styrene-butadiene latex, acrylic adhesives, and other water-based polymers, and it also functions as a bleaching agent in detergents and as a microetchant in printed circuit board fabrication.",
+      "zh-TW": "Sodium Persulfate 在乳液 Polymerization 中作為自由基引發劑，用於工業生產苯乙烯-丁二烯乳膠、壓克力黏著劑及其他水性聚合物；同時也用作清潔劑中的漂白劑與印刷電路板製備中的微蝕刻劑。"
+    },
+    "confidence": 0.85,
+    "source_document": "Sodium Persulfate.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "e386d5dd627d",
+    "subject": "Sodium hydrogencarbonate",
+    "predicate": "buffers",
+    "object": "Epinephrine",
+    "context": {
+      "en-US": "Sodium hydrogencarbonate (NaHCO3) serves as the preferred buffer during the oxidation of Epinephrine, maintaining the reaction medium within the pH 4-8 range required for adrenochrome formation. It is one of several buffer options (sodium dihydrogenphosphate, disodium hydrogenphosphate, potassium acetate, sodium acetate) in industrial adrenochrome processes.",
+      "zh-TW": "Sodium hydrogencarbonate（NaHCO3）在 Epinephrine 的 Oxidation 過程中作為首選緩衝液，將反應介質維持在形成 Adrenochrome 所需的 pH 4–8 範圍內。它是工業 Adrenochrome 製程中數種緩衝選項之一（磷酸二氫鈉、磷酸氫二鈉、醋酸鉀、醋酸鈉）。"
+    },
+    "confidence": 0.9,
+    "source_document": "Sodium hydrogencarbonate.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "17f070229c54",
+    "subject": "Sodium hydrogencarbonate",
+    "predicate": "is_used_in_synthesis_of",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "In the industrial synthesis of Adrenochrome from Epinephrine, Sodium hydrogencarbonate is the preferred buffering agent, supplying the mildly alkaline pH environment that permits oxidation of the catechol to proceed through the o-quinone intermediate to the indoline-5,6-dione chromophore.",
+      "zh-TW": "在以 Epinephrine 工業合成 Adrenochrome 的過程中，Sodium hydrogencarbonate 是首選緩衝劑，提供溫和鹼性的 pH 環境，使兒茶酚得以經由鄰醌中間體氧化成 indoline-5,6-dione 發色團。"
+    },
+    "confidence": 0.9,
+    "source_document": "Sodium hydrogencarbonate.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "cedaea2f869d",
+    "subject": "Sodium nitrite",
+    "predicate": "oxidizes",
+    "object": "Hemoglobin",
+    "context": {
+      "en-US": "Sodium nitrite is the proximal methemoglobin-forming agent in the nitrate/nitrite family, oxidizing the ferrous (Fe2+) heme iron of Hemoglobin to the ferric (Fe3+) state. Ingested nitrate is first reduced by oral and gut microbiota to nitrite, which is then absorbed and delivers the oxidative hit to the heme carrier.",
+      "zh-TW": "Sodium nitrite 是硝酸鹽／亞硝酸鹽家族中最直接造成methemoglobin形成的物質，將 Hemoglobin 血基質中的亞鐵（Fe2+）氧化為三價鐵（Fe3+）。摄入的硝酸鹽先經口腔與腸道菌群還原為亞硝酸鹽，後者被吸收後對血基質載體造成氧化傷害。"
+    },
+    "confidence": 0.95,
+    "source_document": "Sodium nitrite.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "48469dbc9204",
+    "subject": "Sodium nitrite",
+    "predicate": "produces",
+    "object": "Methemoglobin",
+    "context": {
+      "en-US": "Nitrite oxidation of Hemoglobin yields Methemoglobin, a heme species unable to carry oxygen; it also shifts the oxygen-dissociation curve leftward, impairing tissue oxygen release even in the presence of adequate oxygenation. Methemoglobin therefore compounds hypoxia by both reducing oxygen carriage and hindering its unloading.",
+      "zh-TW": "亞硝酸鹽氧化 Hemoglobin 會生成 Methemoglobin，一種無法攜帶氧氣的血基質形式；它同時使氧解離曲線左移，妨礙組織釋放氧氣，即使氧合量充足亦然。因此 Methemoglobin 透過降低氧的攜帶與妨礙氧的釋放雙重機制加重缺氧。"
+    },
+    "confidence": 0.9,
+    "source_document": "Sodium nitrite.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "feb14da528a4",
+    "subject": "Sodium nitrite",
+    "predicate": "is_associated_with",
+    "object": "Amyl nitrite",
+    "context": {
+      "en-US": "Sodium nitrite sits alongside Amyl nitrite and Isobutyl nitrite (\"poppers\"), aniline dyes, and nitrobenzene as classic methemoglobinemia causes: all share the capacity to drive heme iron to the ferric state. The shared mechanism makes nitrites a recurring theme in toxicology and in recreational drug use.",
+      "zh-TW": "Sodium nitrite 與 Amyl nitrite、Isobutyl nitrite（poppers）、苯胺染料與 nitrobenzene 並列為典型的 methemoglobinemia 病因：它們皆能將血基質鐵推向三價鐵態。共同機制使亞硝酸酯類在毒理學與娛樂性藥物使用中反覆出現。"
+    },
+    "confidence": 0.85,
+    "source_document": "Sodium nitrite.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "14a1f1b5a49c",
+    "subject": "Symjepi",
+    "predicate": "delivers",
+    "object": "Epinephrine",
+    "context": {
+      "en-US": "Symjepi is a brand-name pre-filled syringe delivering a fixed dose of Epinephrine by manual, needle-based intramuscular injection into the anterolateral thigh. It is a compact, single-use alternative to the pen-style auto-injector and to the nasal spray, designed for emergency self-administration.",
+      "zh-TW": "Symjepi 是品牌名稱的預填充注射器，以手動針劑方式將固定劑量的 Epinephrine 肌肉注射到大腿前外側。它是筆式自動注射器與鼻用噴劑的精簡、單次使用替代方案，設計用於緊急自行給藥。"
+    },
+    "confidence": 0.95,
+    "source_document": "Symjepi.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "ca4df61d59c4",
+    "subject": "Symjepi",
+    "predicate": "treats",
+    "object": "Anaphylaxis",
+    "context": {
+      "en-US": "Symjepi is indicated for the emergency treatment of Anaphylaxis in adults and older children. Because epinephrine is a catecholamine highly susceptible to autoxidation in aqueous solution, container and formulation are engineered to preserve the reduced catechol, giving a 1-2 year room-temperature shelf life and ensuring potency during allergic emergencies.",
+      "zh-TW": "Symjepi 的適應症為成人與較年長兒童的 Anaphylaxis 緊急治療。由於 Epinephrine 是水溶液中極易自氧化的兒茶酚胺，其容器與配方經工程設計以維持還原態的兒茶酚，因而具有 1–2 年的室溫保存期，確保過敏急症時的效力。"
+    },
+    "confidence": 0.95,
+    "source_document": "Symjepi.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "7cb8e73a5163",
+    "subject": "Symjepi",
+    "predicate": "competes_with",
+    "object": "EpiPen",
+    "context": {
+      "en-US": "Symjepi competes with the pen-style auto-injector and the nasal spray as an epinephrine delivery platform. Its formulation design is explicitly focused on oxidation stability against light, oxygen, and trace metals, so that adrenochrome and polymeric pigment accumulation — and the associated loss of potency — are minimized.",
+      "zh-TW": "Symjepi 在 Epinephrine 給藥平台上與筆式自動注射器及鼻用噴劑競爭。其配方設計明確聚焦於對光、氧氣與微量金屬的氧化穩定性，使 adrenochrome 與聚合色素的累積（以及伴隨的效力喪失）降至最低。"
+    },
+    "confidence": 0.85,
+    "source_document": "Symjepi.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "bfe34dc66c21",
+    "subject": "Synovial Fluid",
+    "predicate": "accumulates",
+    "object": "Advanced Glycation End Products",
+    "context": {
+      "en-US": "In chronic joint disease, especially Rheumatoid Arthritis, persistent inflammation and the turnover of long-lived matrix proteins favor the accumulation of Advanced Glycation End Products within cartilage and the synovial milieu. This local AGE burden parallels the carbonyl and aminochrome chemistry seen systemically, making synovial fluid a window onto systemic glycative-oxidative aging.",
+      "zh-TW": "在慢性關節疾病（尤其是 Rheumatoid Arthritis）中，持續的發炎與長壽命基質蛋白的汰換會促使 Advanced Glycation End Products 在軟骨與關節腔環境中累積。這項局部 AGE 負擔與全身可見的羰基與 aminochrome 化學平行，使滑液成為全身糖化—氧化老化的觀察窗口。"
+    },
+    "confidence": 0.85,
+    "source_document": "Synovial Fluid.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "c3f01dc1f973",
+    "subject": "Rheumatoid Arthritis",
+    "predicate": "alters",
+    "object": "Synovial Fluid",
+    "context": {
+      "en-US": "Rheumatoid Arthritis alters both the composition and the redox state of Synovial Fluid, promoting AGE crosslinking of collagen, stiffening of the matrix, and engagement of RAGE on synovial fibroblasts, macrophages, and chondrocytes. This amplifies inflammatory cytokine release and proteolytic cartilage degradation, forming a feed-forward loop of glycative and oxidative damage.",
+      "zh-TW": "Rheumatoid Arthritis 會同時改變 Synovial Fluid 的組成與氧化還原狀態，促進膠原蛋白的 AGE 交聯、基質硬化，以及滑膜纖維母細胞、巨噬細胞與軟骨細胞上 RAGE 的活化。這會放大發炎細胞激素釋放與蛋白水解性軟骨破壞，形成糖化與氧化損傷的正回饋迴路。"
+    },
+    "confidence": 0.85,
+    "source_document": "Synovial Fluid.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "8a664eea65b6",
+    "subject": "Synovial Fluid",
+    "predicate": "is_associated_with",
+    "object": "Inflammation",
+    "context": {
+      "en-US": "Synovial fluid is the transparent, viscoelastic fluid filling diarthrodial joint cavities, secreted mainly by the synovial membrane and enriched in hyaluronic acid and lubricin. It provides boundary and hydrodynamic lubrication, supplies nutrients to avascular cartilage, and cushions load, so its integrity directly conditions the inflammatory environment of the joint.",
+      "zh-TW": "滑液是填充於二類關節腔的透明黏彈性液體，主要由滑膜分泌，富含玻尿酸與 lubricin。它提供邊界润滑與動態润滑、為無血管的軟骨供應養分並緩衝負載，因此其完整性直接影響關節內的發炎環境。"
+    },
+    "confidence": 0.8,
+    "source_document": "Synovial Fluid.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "eec783f9d98a",
+    "subject": "TRAF6",
+    "predicate": "activates",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "TRAF6 builds Lys63-linked and linear ubiquitin chains via its RING domain with the Ubc13/Uev1A E2 complex; these chains act as scaffolds recruiting TAK1 and the IKK and TBK1 kinases, which activate NF-κB and MAP kinases. The resulting program drives inflammation, interferon responses, and osteoclastogenesis.",
+      "zh-TW": "TRAF6 透過其 RING 區域與 Ubc13/Uev1A E2 複合體建立 Lys63 連接與線型泛素鏈；這些鏈作為支架招募 TAK1 與 IKK、TBK1 激酶，進而活化 NF-κB 與 MAP 激酶。由此啟動的程式驅動發炎、干擾素反應與破骨細胞生成。"
+    },
+    "confidence": 0.95,
+    "source_document": "TRAF6.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "77d25a834020",
+    "subject": "TRAF6",
+    "predicate": "is_recruited_by",
+    "object": "MAVS",
+    "context": {
+      "en-US": "MAVS recruits TRAF6 to mitochondrial antiviral signaling complexes on the outer mitochondrial membrane, where TRAF6 partners with TRAF2 to translate RIG-I/MDA5 detection of viral RNA into NF-κB and interferon signaling. This places innate immune sensing and mitochondrial quality control on the same signaling platform.",
+      "zh-TW": "MAVS 將 TRAF6 招募到外粒線體膜上的粒線體抗病毒訊號複合體，在該處 TRAF6 與 TRAF2 合作，將 RIG-I/MDA5 對病毒 RNA 的偵測轉換為 NF-κB 與干擾素訊號。這使先天免疫感知與粒線體品質管制共處於同一訊號平台。"
+    },
+    "confidence": 0.9,
+    "source_document": "TRAF6.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "3834120ba0c5",
+    "subject": "TRAF6",
+    "predicate": "cooperates_with",
+    "object": "TRAF2",
+    "context": {
+      "en-US": "TRAF6 and TRAF2 are co-recruited partners in the RIG-I/MDA5-MAVS antiviral pathway; TRAF6 contributes the E3 ligase activity and ubiquitin-chain topology that scaffolds the downstream kinase cascade, while TRAF2 provides a parallel adaptor arm. Together they couple cytosolic pathogen sensing to inflammatory gene expression.",
+      "zh-TW": "TRAF6 與 TRAF2 是在 RIG-I/MDA5-MAVS 抗病毒途徑中共同被招募的伙伴；TRAF6 提供 E3 連接酶活性與支架下游激酶級聯的泛素鏈拓撲，而 TRAF2 提供平行的轉接臂。兩者共同把細胞質病原體感知與發炎基因表現偶聯起來。"
+    },
+    "confidence": 0.85,
+    "source_document": "TRAF6.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "d4d9df53848e",
+    "subject": "TRAF6",
+    "predicate": "activates",
+    "object": "c-Jun N-terminal kinase",
+    "context": {
+      "en-US": "The Lys63-ubiquitin scaffolds assembled by TRAF6 recruit and activate the IKK and TBK1 kinases, which in turn engage MAP kinase cascades including c-Jun N-terminal kinase. Chronic TRAF6-driven signaling is therefore a major upstream source of inflammatory oxidants — superoxide, nitric oxide, and peroxynitrite — that accelerate epinephrine autoxidation into adrenochrome.",
+      "zh-TW": "TRAF6 所組裝的 Lys63 泛素支架會招募並活化 IKK 與 TBK1 激酶，後者再啟動包含 c-Jun N-terminal kinase 在內的 MAP 激酶級聯。因此 TRAF6 驅動的慢性訊號是發炎性氧化產物（超氧陰離子、一氧化氮與過氧亞硝酸鹽）的重要上游來源，而這些產物會加速 Epinephrine 自氧化生成 Adrenochrome。"
+    },
+    "confidence": 0.85,
+    "source_document": "TRAF6.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "168e4c183f30",
+    "subject": "TRAF6",
+    "predicate": "modulates",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Beyond NF-κB signaling, TRAF6 modulates autophagy and mitophagy through ubiquitin tags that recruit autophagic receptors to damaged organelles. This integrates innate immunity with the mitochondrial quality-control programs relevant to mitochondria and oxidative stress.",
+      "zh-TW": "除 NF-κB 訊號外，TRAF6 透過招募自噬受體辨識受損胞器的泛素標籤來調節 Autophagy 與粒線體自噬。這將先天免疫與 Mitochondria、Oxidative Stress 相關的粒線體品質管制程式整合起來。"
+    },
+    "confidence": 0.8,
+    "source_document": "TRAF6.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "9aac8a22b18c",
+    "subject": "Target of rapamycin",
+    "predicate": "is_inhibited_by",
+    "object": "Rapamycin",
+    "context": {
+      "en-US": "Rapamycin inhibits Target of rapamycin, a central regulator of cell growth and metabolism whose pathway governs muscle protein synthesis and cell growth. Inhibition of this axis can extend lifespan through mechanisms that include adaptive mitochondrial ROS signaling, making it a major pharmacological target for longevity.",
+      "zh-TW": "Rapamycin 抑制 Target of rapamycin，一個調控細胞生長與代謝的中樞調節因子，其路徑掌控肌肉蛋白合成與細胞生長。抑制此軸可透過包括適應性粒線體 ROS 訊號在內的機制延長壽命，因此它是長壽研究的重要藥理標的。"
+    },
+    "confidence": 0.9,
+    "source_document": "Target of rapamycin.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "e3fccd24a103",
+    "subject": "Target of rapamycin",
+    "predicate": "regulates",
+    "object": "Mitochondrial ROS",
+    "context": {
+      "en-US": "Inhibition of Target of rapamycin is one route by which adaptive mitochondrial ROS signaling can be harnessed to extend lifespan. Because the pathway sits at the intersection of nutrient availability, growth, and stress responses, its modulation shifts the balance between proliferative anabolism and the catabolic, quality-control programs that maintain mitochondrial integrity.",
+      "zh-TW": "抑制 Target of rapamycin 是利用適應性粒線體 ROS 訊號以延長壽命的途徑之一。由於該路徑位於營養可得性、生長與壓力反應的交會處，其調節會在增殖性同化代謝與維持粒線體完整性的分解代謝、品質管制程式之間重新取得平衡。"
+    },
+    "confidence": 0.8,
+    "source_document": "Target of rapamycin.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "1713354279c0",
+    "subject": "Target of rapamycin",
+    "predicate": "responds_to",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "Target of rapamycin is linked to Oxidative Stress because the pathway integrates nutrient and energy cues with redox status; pharmacologic or genetic inhibition recalibrates this rheostat and can shift cells away from growth signaling toward stress adaptation.",
+      "zh-TW": "Target of rapamycin 與 Oxidative Stress 相關，因為該路徑整合營養與能量線索以及氧化還原狀態；藥理或基因層面的抑制可重新校準這個調節閥，使細胞由生長訊號轉向壓力適應。"
+    },
+    "confidence": 0.75,
+    "source_document": "Target of rapamycin.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "80161b085d6b",
+    "subject": "Tel1p",
+    "predicate": "is_ortholog_of",
+    "object": "ATM",
+    "context": {
+      "en-US": "Tel1p is the Saccharomyces cerevisiae ortholog of ATM (ataxia-telangiectasia mutated), a ~322 kDa serine/threonine kinase of the phosphatidylinositol 3-kinase-related family. The two share conserved functions in DNA damage signaling, telomere maintenance, and — less obviously — redox sensing of mild mitochondrial stress.",
+      "zh-TW": "Tel1p 是 ATM（ataxia-telangiectasia mutated）在 Saccharomyces cerevisiae 的直系同源物，屬磷脂inositol 3-kinase 相關家族的約 322 kDa 絲胺酸／蘇胺酸激酶。兩者在 DNA 損傷訊號、端粒維持，以及較不顯眼的輕度粒線體壓力氧化還原感知上共享保守功能。"
+    },
+    "confidence": 0.95,
+    "source_document": "Tel1p.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "d32566ee5384",
+    "subject": "Tel1p",
+    "predicate": "recruits",
+    "object": "Telomerase",
+    "context": {
+      "en-US": "Tel1p maintains telomere length homeostasis by accumulating preferentially at short telomeres, through physical interaction with the MRX complex and the Ku heterodimer, and recruiting Telomerase to elongate critically shortened chromosome ends. This length-dependent recruitment preserves genome stability across successive cell divisions.",
+      "zh-TW": "Tel1p 藉由與 MRX 複合體及 Ku 異二聚體的物理交互作用，優先累積於短端粒上並招募 Telomerase，以延長已嚴重縮短的染色體末端，藉此維持端粒長度恆定並在連續細胞分裂中保存基因體穩定性。"
+    },
+    "confidence": 0.9,
+    "source_document": "Tel1p.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "fbc3d132fe03",
+    "subject": "Tel1p",
+    "predicate": "is_required_for",
+    "object": "Mitohormesis",
+    "context": {
+      "en-US": "Tel1p is required for mitohormetic lifespan extension: in yeast, mild mitochondrial dysfunction (for example deletion of clk-1 or cco-1) elevates mitochondrial superoxide and hydrogen peroxide, which activate a Tel1p-Rad53p module. Deletion of TEL1 or RAD53 abolishes both the epigenetic changes and the longevity benefit, making Tel1p the required redox sensor of this adaptive pathway.",
+      "zh-TW": "Tel1p 是 mitohormetic 壽命延長所必需：在酵母中，輕度的粒線體功能障礙（例如 clk-1 或 cco-1 缺失）會提升粒線體超氧陰離子與過氧化氫，進而活化 Tel1p–Rad53p 模組。TEL1 或 RAD53 的缺失會完全消除表觀遺傳變化與延壽效益，使 Tel1p 成為此適應性路徑不可或缺的氧化還原感知者。"
+    },
+    "confidence": 0.9,
+    "source_document": "Tel1p.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "481c99d8ad89",
+    "subject": "Tel1p",
+    "predicate": "recruits",
+    "object": "Sir2 (yeast)",
+    "context": {
+      "en-US": "Tel1p contributes to the establishment of telomeric and subtelomeric silencing by promoting recruitment and proper localization of the Sir2/Sir4 complex. At subtelomeric regions Sir2 deacetylates histone H4 lysine 16, facilitating the spread of repressed heterochromatin in a process that requires Tel1p function for efficient silencing.",
+      "zh-TW": "Tel1p 藉由促進 Sir2/Sir4 複合體的招募與正確定位，參與建立端粒與亞端粒沉默。在亞端粒區域，Sir2 去乙醯化組蛋白 H4 的離胺酸 16，促進抑制性異染色質的擴散；此過程需要 Tel1p 功能才能有效沉默。"
+    },
+    "confidence": 0.85,
+    "source_document": "Tel1p.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "5149814e25cf",
+    "subject": "Thioglycerol",
+    "predicate": "stabilizes",
+    "object": "Epinephrine",
+    "context": {
+      "en-US": "Thioglycerol, a three-carbon thiol analog of glycerol, is explored as a sulfite-free reducing stabilizer in injectable Epinephrine formulations. By keeping epinephrine in its reduced catechol form, it suppresses the autoxidation cascade that would otherwise deplete potency and generate colored aminochromes.",
+      "zh-TW": "Thioglycerol 是甘油的三碳硫醇類似物，被探索作為注射用 Epinephrine 製劑中不含亞硫酸鹽的還原性穩定劑。藉由讓 Epinephrine 維持還原態的兒茶酚形式，它抑制了否則會耗損效力並生成有色 aminochrome 的自氧化級聯反應。"
+    },
+    "confidence": 0.9,
+    "source_document": "Thioglycerol.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "a821234b6f82",
+    "subject": "Thioglycerol",
+    "predicate": "prevents",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "Because injectable epinephrine autoxidizes in solution to colored aminochromes — ultimately yielding Adrenochrome and polymeric pigments, especially with metal ions, light, and oxygen — thiol additives such as thioglycerol and cysteine are used to keep formation low. Suppressing the cascade also prevents the accompanying superoxide and hydrogen peroxide generation.",
+      "zh-TW": "由於注射用 Epinephrine 在溶液中會自氧化為有色 aminochrome，最終生成 Adrenochrome 與聚合色素（在金屬離子、光與氧氣存在下尤甚），thioglycerol 與 Cysteine 等硫醇添加劑被用來抑制其生成。抑制此級聯反應也能避免伴隨產生的超氧陰離子與過氧化氫。"
+    },
+    "confidence": 0.9,
+    "source_document": "Thioglycerol.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "713ea237efb7",
+    "subject": "Thioglycerol",
+    "predicate": "competes_with",
+    "object": "Sodium Metabisulfite",
+    "context": {
+      "en-US": "Thioglycerol is a sulfite-free alternative to the conventional sulfite preservative Sodium Metabisulfite in epinephrine formulations. Replacing sulfites with thiol stabilizers reduces allergenicity while preserving catecholamine stability, since sulfites can provoke hypersensitivity and complicate stability profiles.",
+      "zh-TW": "Thioglycerol 是 Epinephrine 製劑中傳統亞硫酸鹽防腐劑 Sodium Metabisulfite 的無亞硫酸鹽替代方案。以硫醇類穩定劑取代亞硫酸鹽可在維持兒茶酚胺穩定性的同時降低過敏原性，因為亞硫酸鹽可能引發過敏反應並使穩定性資料更複雜。"
+    },
+    "confidence": 0.85,
+    "source_document": "Thioglycerol.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "312c4f90d54a",
+    "subject": "Thioglycerol",
+    "predicate": "is_a_type_of",
+    "object": "Antioxidants",
+    "context": {
+      "en-US": "Thioglycerol is a low-molecular-weight thiol that acts as a reducing and radical-scavenging agent within the broader antioxidants class: the sulfhydryl group is oxidized to the corresponding disulfide while protecting other molecules, and thiol-disulfide exchange helps maintain a reduced environment.",
+      "zh-TW": "Thioglycerol 是一種低分子量硫醇，在更廣義的 Antioxidants 類別中作為還原劑與自由基清除劑：其硫氫基被氧化為相應的雙硫鍵，同時保護其他分子免於氧化，而硫醇—雙硫鍵交換則有助於維持還原性環境。"
+    },
+    "confidence": 0.85,
+    "source_document": "Thioglycerol.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "71e471373f70",
+    "subject": "Toren Finkel",
+    "predicate": "co_developed",
+    "object": "Mitohormesis",
+    "context": {
+      "en-US": "Toren Finkel is best known for co-developing the mitohormesis concept with Jeanho Yun, published as a landmark 2014 Cell Metabolism review. The work established that low-level mitochondrial perturbation triggers compensatory transcriptional and metabolic programs operating through the mitochondrial unfolded protein response and SKN-1/NRF2 signaling, shifting the paradigm from viewing mitochondrial dysfunction solely as pathogenic.",
+      "zh-TW": "Toren Finkel 最廣為人知的是與 Jeanho Yun 共同提出 mitohormesis 概念，成果發表為 2014 年《Cell Metabolism》的里程碑式回顧論文。該研究確立低程度的粒線體擾動會經由 Mitochondrial Unfolded Protein Response 與 SKN-1/NRF2 訊號啟動代償性轉錄與代謝程式，扭轉了將粒線體功能障礙僅視為致病因素的典範。"
+    },
+    "confidence": 0.95,
+    "source_document": "Toren Finkel.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "c4e1acf94931",
+    "subject": "Toren Finkel",
+    "predicate": "studies",
+    "object": "PINK1",
+    "context": {
+      "en-US": "Finkel's group elucidated how mitochondrial depolarization triggers PINK1 to recruit the E3 ubiquitin ligase Parkin to the outer mitochondrial membrane, leading to ubiquitination and autophagic clearance of damaged organelles. This established mitophagy as critical for mitochondrial homeostasis in heart, brain, and skeletal muscle.",
+      "zh-TW": "Finkel 的研究團隊闡明了粒線體去極化如何觸發 PINK1 招募 E3 泛素連接酶 Parkin 到外粒線體膜，進而導致受損胞器的泛素化與自噬清除。此工作確立了粒線體自噬對心臟、腦與骨骼肌粒線體恆定的重要性。"
+    },
+    "confidence": 0.9,
+    "source_document": "Toren Finkel.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "be1aef01f7e3",
+    "subject": "NAD+",
+    "predicate": "is_required_for",
+    "object": "SIRT3",
+    "context": {
+      "en-US": "Finkel's lab showed that age-related NAD+ decline impairs SIRT3 activity, causing hyperacetylation of mitochondrial proteins and compromised metabolic flux. This connected NAD+ biology to mitochondrial dysfunction in aging and provided rationale for nicotinamide riboside and nicotinamide mononucleotide supplementation to preserve mitochondrial function.",
+      "zh-TW": "Finkel 的實驗室證實與年齡相關的 NAD+ 下降會損害 SIRT3 活性，造成粒線體蛋白過度乙醯化與代謝流受損。這項工作將 NAD+ 生物學與老化中的粒線體功能障礙連結起來，並為補充 Nicotinamide Riboside 與 Nicotinamide Mononucleotide 以維持粒線體功能提供了依據。"
+    },
+    "confidence": 0.9,
+    "source_document": "Toren Finkel.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "b0b67e8e8b3b",
+    "subject": "Reactive Oxygen Species",
+    "predicate": "acts_as",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "Finkel's redox work frames Reactive Oxygen Species as essential second messengers rather than mere byproducts of oxidative metabolism, and argues that the dose, duration, and subcellular location of ROS determine whether they promote health or drive pathology. This reconciles why antioxidant therapies have largely failed while genetic enhancement of endogenous ROS can paradoxically extend lifespan.",
+      "zh-TW": "Finkel 的氧化還原研究將 Reactive Oxygen Species 定位為不可或缺的第二訊使，而非僅僅是氧化代謝的副產物，並主張 ROS 的劑量、持續時間與胞內位置決定其是促進健康還是造成病理。這解釋了為何抗氧化治療大多失敗，而藉基因手段提升內源性 ROS 卻可能反而延長壽命。"
+    },
+    "confidence": 0.85,
+    "source_document": "Toren Finkel.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "b1fba49cfcf3",
+    "subject": "Transcriptome",
+    "predicate": "comprises",
+    "object": "Transcription",
+    "context": {
+      "en-US": "A transcriptome is the complete set of RNA transcripts — including mRNA, rRNA, tRNA, and non-coding RNA — produced by the genome at a specific time or under a specific condition. Transcriptomic analysis such as RNA-seq measures expression of thousands of genes simultaneously, making the transcriptome the readout that Transcription ultimately generates.",
+      "zh-TW": "轉錄組（transcriptome）是基因組在特定時間或特定條件下產生的全部 RNA 轉錄本集合，包含 mRNA、rRNA、tRNA 與非編碼 RNA。RNA-seq 等轉錄組分析可同時測量數千個基因的表現，使 transcriptome 成為 Transcription 最終產生的讀值。"
+    },
+    "confidence": 0.85,
+    "source_document": "Transcriptome.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "4a0993279b7f",
+    "subject": "Transcriptome",
+    "predicate": "is_related_to",
+    "object": "Mitohormesis",
+    "context": {
+      "en-US": "In the study of mitohormesis, transcriptomic analysis is essential for identifying the coordinated changes in nuclear gene expression that occur in response to mitochondrial stress. Comparing transcriptomes across hormetic and control conditions reveals the adaptive gene program that underlies the pro-longevity response.",
+      "zh-TW": "在 Mitohormesis 的研究中，轉錄組分析對於辨識粒線體壓力下發生的核基因表現協同變化至關重要。比較荷爾蒙式（hormetic）條件與對照條件的轉錄組，可揭示構成促長壽反應之下的適應性基因程式。"
+    },
+    "confidence": 0.8,
+    "source_document": "Transcriptome.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "eafd9c6a7545",
+    "subject": "Tyrosine Nitration",
+    "predicate": "is_induced_by",
+    "object": "Peroxynitrite",
+    "context": {
+      "en-US": "Peroxynitrite (ONOO-) is the most powerful oxidant driving tyrosine nitration, converting a tyrosine residue to 3-nitrotyrosine either directly or via intermediate radicals (tyrosyl radical plus nitrogen dioxide). Peroxynitrite itself forms where nitric oxide and superoxide coincide, so nitration marks sites of combined nitric oxide and superoxide generation.",
+      "zh-TW": "Peroxynitrite（ONOO-）是推動 Tyrosine Nitration 最強的氧化劑，可直接或經由中間自由基（tyrosyl radical 加 nitrogen dioxide）將酪胺酸殘基轉換為 3-nitrotyrosine。Peroxynitrite 本身在一氧化氮與超氧陰離子交會處形成，因此硝化標記出的是一氧化氮與超氧陰離子共同生成的位點。"
+    },
+    "confidence": 0.95,
+    "source_document": "Tyrosine Nitration.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "2040d6965a2c",
+    "subject": "Peroxynitrite",
+    "predicate": "is_formed_from",
+    "object": "Nitric Oxide",
+    "context": {
+      "en-US": "Peroxynitrite forms from the diffusion-limited combination of Nitric Oxide with superoxide anion. Because the product is a potent nitrating and oxidizing species, peroxynitrite couples the nitric oxide and superoxide arms of oxidative stress into protein tyrosine nitration and other nitrosative lesions.",
+      "zh-TW": "Peroxynitrite 由 Nitric Oxide 與 Superoxide anion 受擴散限制的結合而形成。由於產物兼具強效硝化與氧化能力，peroxynitrite 將氧化壓力中的一氧化氮臂與超氧陰離子臂偶聯成蛋白質酪胺酸硝化及其他亞硝基化損傷。"
+    },
+    "confidence": 0.95,
+    "source_document": "Tyrosine Nitration.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "86058fd47e33",
+    "subject": "Tyrosine Nitration",
+    "predicate": "produces",
+    "object": "Nitrotyrosine",
+    "context": {
+      "en-US": "Tyrosine nitration yields nitrotyrosine as a stable end-product biomarker, making nitrated protein accumulation a useful sentinel of combined oxidative and nitrosative injury in cardiovascular and neurodegenerative contexts — exactly where adrenochrome and neuromelanin oxidative pathways are active.",
+      "zh-TW": "Tyrosine Nitration 會產生 Nitrotyrosine 作為穩定的終產物生物標記，使硝化蛋白的累積成為心血管與神經退行性情境下合併性氧化與亞硝基損傷的實用哨兵——而這些正是 adrenochrome 與 neuromelanin 氧化途徑活躍之處。"
+    },
+    "confidence": 0.9,
+    "source_document": "Tyrosine Nitration.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "72124543e267",
+    "subject": "Myeloperoxidase",
+    "predicate": "mediates",
+    "object": "Tyrosine Nitration",
+    "context": {
+      "en-US": "Myeloperoxidase released from activated neutrophils can nitrate tyrosine using hydrogen peroxide and nitrite through enzyme-bound oxidizing intermediates. This MPO-dependent pathway is highly relevant where inflammation and catecholamine oxidation coincide, since the same enzyme also oxidizes epinephrine toward adrenochrome.",
+      "zh-TW": "由活化 Neutrophils 釋放的 Myeloperoxidase 可利用過氧化氫與亞硝酸鹽，經酵素結合的氧化中間體將酪胺酸硝化。這條依賴 MPO 的途徑在發炎與兒茶酚胺氧化同時發生的情境中特別相關，因為同一種酵素也會將 Epinephrine 氧化朝向 Adrenochrome。"
+    },
+    "confidence": 0.9,
+    "source_document": "Tyrosine Nitration.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "53095b6ac786",
+    "subject": "Tyrosine Nitration",
+    "predicate": "co_occurs_with",
+    "object": "Protein Carbonylation",
+    "context": {
+      "en-US": "Tyrosine nitration is frequently accompanied by Protein Carbonylation as a parallel oxidative protein lesion. Nitration can alter protein conformation, disrupt phosphorylation motifs, and impair enzyme activity, contributing to the same proteotoxicity that carbonyl adducts generate.",
+      "zh-TW": "Tyrosine Nitration 經常與 Protein Carbonylation 作為平行的氧化性蛋白損傷一同出現。硝化可改變蛋白構形、破壞磷酸化基序並損害酵素活性，促成與羰基加合物相同類型的蛋白毒性。"
+    },
+    "confidence": 0.8,
+    "source_document": "Tyrosine Nitration.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "efa91f8a86ed",
+    "subject": "UBL-5",
+    "predicate": "is_required_for",
+    "object": "Mitochondrial Unfolded Protein Response",
+    "context": {
+      "en-US": "UBL-5 is a ubiquitin-like protein in Caenorhabditis elegans that functions as an essential transcriptional cofactor for the mitochondrial unfolded protein response. Loss of ubl-5 function abolishes the UPRmt, causing accumulation of misfolded mitochondrial proteins, shortened lifespan, and hypersensitivity to mitochondrial toxins such as ethidium bromide.",
+      "zh-TW": "UBL-5 是 Caenorhabditis elegans 中的類泛素蛋白，作為 Mitochondrial Unfolded Protein Response 不可或缺的轉錄輔因子。ubl-5 功能喪失會使 UPRmt 失效，造成錯誤摺疊粒線體蛋白累積、壽命縮短，以及對 ethidium bromide 等粒線體毒物的高度敏感。"
+    },
+    "confidence": 0.95,
+    "source_document": "UBL-5.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "d977f4bf5ed1",
+    "subject": "UBL-5",
+    "predicate": "interacts_with",
+    "object": "DVE-1",
+    "context": {
+      "en-US": "UBL-5 uses its ubiquitin-like fold as a binding interface to interact physically with the homeobox transcription factor DVE-1 — it does not conjugate to targets like ubiquitin. This interaction stabilizes the UPRmt transcriptional complex, enabling DVE-1's proper nuclear accumulation and DNA-binding activity; without UBL-5 the UPRmt is nonfunctional even when ATFS-1 is activated.",
+      "zh-TW": "UBL-5 以其類泛素摺疊作為結合介面，與同源盒轉錄因子 DVE-1 發生物理交互作用——它不像泛素那樣與標的共價結合。此交互作用穩定 UPRmt 轉錄複合體，使 DVE-1 得以正常在細胞核內累積並結合 DNA；缺乏 UBL-5 時，即使 ATFS-1 被活化，UPRmt 仍無法運作。"
+    },
+    "confidence": 0.95,
+    "source_document": "UBL-5.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "588032510b15",
+    "subject": "UBL-5",
+    "predicate": "is_recruited_by",
+    "object": "ATFS-1",
+    "context": {
+      "en-US": "When mitochondrial proteotoxic stress reduces protein import efficiency, ATFS-1 accumulates in the cytosol and shuttles to the nucleus, where it binds UPRmt target gene promoters and recruits DVE-1 and UBL-5 to form a stable transcriptional activation complex. UBL-5 therefore acts downstream of ATFS-1 to drive nuclear-encoded mitochondrial quality-control genes.",
+      "zh-TW": "當粒線體蛋白毒性壓力降低蛋白輸入效率時，ATFS-1 在細胞質累積並經由核定位訊號轉移至細胞核，結合 UPRmt 標的基因的啟動子，並招募 DVE-1 與 UBL-5 形成穩定的轉錄活化複合體。因此 UBL-5 作用於 ATFS-1 下游，驅動核编码的粒線體品質管制基因表現。"
+    },
+    "confidence": 0.9,
+    "source_document": "UBL-5.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "28a4a7723e42",
+    "subject": "UBL-5",
+    "predicate": "is_required_for",
+    "object": "Mitohormesis",
+    "context": {
+      "en-US": "Studies of mitohormesis show that lifespan extension from mild mitochondrial dysfunction requires intact UBL-5 function, positioning this ubiquitin-like cofactor as a gatekeeper of hormetic adaptation. Without it, the transcriptional arm of the UPRmt that refolds or degrades damaged mitochondrial proteins cannot be mounted.",
+      "zh-TW": "關於 Mitohormesis 的研究顯示，來自輕度粒線體功能障礙的壽命延長需要完整的 UBL-5 功能，使這個類泛素輔因子成為荷爾蒙式適應的守門人。若缺乏 UBL-5，負責重新摺疊或降解受損粒線體蛋白的 UPRmt 轉錄臂便無法啟動。"
+    },
+    "confidence": 0.85,
+    "source_document": "UBL-5.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "31790fafad83",
+    "subject": "Ubiquitin-dependent 20S proteasome",
+    "predicate": "degrades",
+    "object": "Advanced Glycation End Products",
+    "context": {
+      "en-US": "The ubiquitin-dependent 20S proteasome is a multi-protein proteolytic complex responsible for removing damaged or unneeded proteins, and it plays a crucial role in clearing glycated proteins. Because it is one of the cell's main defenses against accumulated post-translational damage, its capacity sets the ceiling on how much glycated metabolic waste a cell can tolerate.",
+      "zh-TW": "泛素依賴性 20S 蛋白酶體是多蛋白質水解複合體，負責清除受損或不再需要的蛋白質，並在清除糖化蛋白方面扮演關鍵角色。由於它是細胞對抗累積性轉譯後損傷的主要防線之一，其處理能力決定了細胞可容忍多少糖化代謝廢物的上限。"
+    },
+    "confidence": 0.9,
+    "source_document": "Ubiquitin-dependent 20S proteasome.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "34ed2b5c804e",
+    "subject": "Advanced Glycation End Products",
+    "predicate": "impairs",
+    "object": "Ubiquitin-dependent 20S proteasome",
+    "context": {
+      "en-US": "AGE modifications of proteins can disturb ubiquitin-dependent 20S proteasome degradation, impairing the proteolytic system's ability to clear glycated substrates. This leads to further accumulation of glycated metabolic waste in the cell, a hallmark of aging, establishing a feed-forward loop between the modification and the machinery meant to remove it.",
+      "zh-TW": "蛋白質的 AGE 修飾會干擾泛素依賴性 20S 蛋白酶體的降解作用，削弱該水解系統清除糖化標的能力。這導致細胞內糖化代謝廢物進一步累積，而這正是老化的標誌之一，在修飾與負責移除它的機器之間形成正回饋迴路。"
+    },
+    "confidence": 0.9,
+    "source_document": "Ubiquitin-dependent 20S proteasome.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "4139a5002682",
+    "subject": "Urolithins",
+    "predicate": "is_derived_from",
+    "object": "Ellagitannins",
+    "context": {
+      "en-US": "Urolithins are a class of microbially derived metabolites produced in the gut by gut microbiota metabolizing ellagitannins. The conversion begins when hydrolyzable tannins are converted to ellagic acid, which is then decarboxylated by the gut microbiome into the urolithin metabolites that circulate systemically.",
+      "zh-TW": "Urolithins 是一類由腸道菌群代謝 Ellagitannins 而產生的微生物衍生代謝物。轉換過程始於可水解單寧被轉化為 Ellagic acid，後者再經腸道微生物脫羧生成 urolithin 類代謝物，並在全身循環。"
+    },
+    "confidence": 0.9,
+    "source_document": "Urolithins.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "2d5b2afaebb9",
+    "subject": "Urolithins",
+    "predicate": "is_derived_from",
+    "object": "Ellagic acid",
+    "context": {
+      "en-US": "Ellagic acid released from ellagitannin hydrolysis is decarboxylated by gut microbiota to give the urolithin metabolite class. The resulting compounds exhibit anti-inflammatory, antioxidant, anti-tumor, and anti-aging biological activities, so ellagic acid in the diet is an upstream determinant of urolithin exposure.",
+      "zh-TW": "由 Ellagitannin 水解釋出的 Ellagic acid 會被腸道菌群脫羧，形成 urolithin 代謝物類群。所得化合物具有抗發炎、抗氧化、抗腫瘤與抗老化等生物活性，因此飲食中的 ellagic acid 是 urolithin 暴露量的上游決定因子。"
+    },
+    "confidence": 0.9,
+    "source_document": "Urolithins.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "551af64cbb97",
+    "subject": "Urolithins",
+    "predicate": "includes",
+    "object": "Urolithin A",
+    "context": {
+      "en-US": "Urolithin A is the most prominent and best-investigated member of the urolithin class, with extensive investigation of its role in mitophagy and muscle health. Whereas the class as a whole spans anti-inflammatory, antioxidant, anti-tumor, and anti-aging activities, Urolithin A is the specific member used as a probe of mitochondrial quality control.",
+      "zh-TW": "Urolithin A 是 urolithin 類群中最具代表性且研究最深入的成員，其在粒線體自噬與肌肉健康上的作用已有廣泛研究。整個類群涵蓋抗發炎、抗氧化、抗腫瘤與抗老化活性，而 Urolithin A 則是探測粒線體品質管制的特定成員。"
+    },
+    "confidence": 0.9,
+    "source_document": "Urolithins.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "f482b019467e",
+    "subject": "Vascular Dementia",
+    "predicate": "is_associated_with",
+    "object": "Advanced Glycation End Products",
+    "context": {
+      "en-US": "Vascular dementia describes impaired reasoning, planning, judgment, and memory caused by brain damage from reduced cerebral blood flow. It is associated with the accumulation of Advanced Glycation End Products, which contribute to microvascular and macrovascular damage, arterial stiffening, and vascular stiffening characteristic of the condition.",
+      "zh-TW": "Vascular Dementia 描述因腦血流受損而造成推理、計畫、判斷與記憶等思考過程障礙。它與 Advanced Glycation End Products 的累積相關聯，後者促成該疾病特徵性的微血管與大血管損傷、主動脈僵硬與血管硬化。"
+    },
+    "confidence": 0.9,
+    "source_document": "Vascular Dementia.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "082ee8e59082",
+    "subject": "Vascular Dementia",
+    "predicate": "is_associated_with",
+    "object": "Alzheimer's Disease",
+    "context": {
+      "en-US": "Advanced glycation end product accumulation is attributed as a cause of microvascular and macrovascular damage seen in diabetes, and the same mechanism is associated with Atherosclerosis, Alzheimer's Disease, end stage renal disease, Rheumatoid Arthritis, and Sarcopenia. This shared glycative pathology links vascular dementia to a broader network of age-related disease.",
+      "zh-TW": "糖化終產物累積被認為是糖尿病所見微血管與大血管損傷的成因，而同一機制也與 Atherosclerosis、Alzheimer's Disease、末期腎病、Rheumatoid Arthritis 及 Sarcopenia 相關聯。這種共有的糖化病理把 vascular dementia 連結到更廣泛的老年疾病網絡。"
+    },
+    "confidence": 0.8,
+    "source_document": "Vascular Dementia.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "e649d503b978",
+    "subject": "Advanced Glycation End Products",
+    "predicate": "impairs",
+    "object": "Wound Healing",
+    "context": {
+      "en-US": "High levels of Advanced Glycation End Products impair wound healing by promoting inflammation, reducing nitric oxide activity, and causing vascular and neurological modifications. Because the effect operates through several mechanisms at once, AGE burden is a modifiable therapeutic target in diabetic and elderly patients with chronic wounds.",
+      "zh-TW": "高濃度的 Advanced Glycation End Products 會藉由促進發炎、降低一氧化氮活性，以及造成血管與神經修飾來損害傷口癒合。由於此作用同時透過多重機制進行，AGE 負擔是糖尿病與老年慢性傷口患者可調節的治療標的。"
+    },
+    "confidence": 0.9,
+    "source_document": "Wound Healing.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "cafd18a72be6",
+    "subject": "Advanced Glycation End Products",
+    "predicate": "reduces",
+    "object": "Nitric Oxide",
+    "context": {
+      "en-US": "One of the mechanisms by which Advanced Glycation End Products impair wound healing is the reduction of nitric oxide activity. Loss of NO-mediated vasodilation limits blood flow to injured tissue and contributes to the vascular modification component of the AGE phenotype.",
+      "zh-TW": "Advanced Glycation End Products 損害傷口癒合的機制之一，是降低一氧化氮活性。NO 介導的血管擴張作用喪失會限制受傷組織的血流，並構成 AGE 表型中血管修飾的一部分。"
+    },
+    "confidence": 0.85,
+    "source_document": "Wound Healing.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "81094834e5ee",
+    "subject": "Diabetes Mellitus",
+    "predicate": "impairs",
+    "object": "Wound Healing",
+    "context": {
+      "en-US": "Wound healing is the process by which skin or other body tissue repairs itself after injury, and it is impaired in patients with Diabetes Mellitus. The diabetic wound is characterized by chronic inflammation, reduced nitric oxide bioavailability, and microvascular and neurological alterations that delay re-epithelialization.",
+      "zh-TW": "傷口癒合是皮膚或其他身體組織在受傷後自我修復的過程，而此過程在 Diabetes Mellitus 患者身上會受損。糖尿病傷口的特徵為慢性發炎、一氧化氮生體可用性下降，以及延遲再上皮化的微血管與神經學改變。"
+    },
+    "confidence": 0.9,
+    "source_document": "Wound Healing.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "22679253df7f",
+    "subject": "Advanced Glycation End Products",
+    "predicate": "promotes",
+    "object": "Inflammation",
+    "context": {
+      "en-US": "Advanced Glycation End Products promote inflammation by engaging RAGE receptors on macrophages, fibroblasts, and other cell types, triggering NF-κB-driven cytokine release and oxidative stress. This AGE-RAGE axis underlies the inflammatory component of AGE-related tissue damage in joints, vessels, and skin.",
+      "zh-TW": "Advanced Glycation End Products 藉由活化巨噬細胞、纖維母細胞等細胞上的 RAGE 受體來促進發炎，觸發 NF-κB 驅動的細胞激素釋放與 Oxidative Stress。這條 AGE–RAGE 軸構成了關節、血管與皮膚中 AGE 相關組織損傷的發炎成分。"
+    },
+    "confidence": 0.85,
+    "source_document": "Wound Healing.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "89f552f761e6",
+    "subject": "aak-2",
+    "predicate": "is_a_component_of",
+    "object": "AMPK",
+    "context": {
+      "en-US": "aak-2 is the principal catalytic (alpha) subunit of the Caenorhabditis elegans AMP-activated protein kinase complex, the conserved energy sensor that monitors the AMP/ATP ratio. As the catalytic core, aak-2 transduces bioenergetic stress — raised AMP from low glucose, exercise, or mitochondrial dysfunction — into phosphorylation of anabolic and catabolic targets.",
+      "zh-TW": "aak-2 是 Caenorhabditis elegans AMP 活化蛋白激酶複合體的主要催化（α）次單元，該複合體是監測 AMP/ATP 比例的保守能量感測器。作為催化核心，aak-2 將低葡萄糖、運動或粒線體功能障礙造成的 AMP 上升等生物能量壓力，轉換為對同化與分解代謝標的的磷酸化。"
+    },
+    "confidence": 0.95,
+    "source_document": "aak-2.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "9e0323d12e7b",
+    "subject": "aak-2",
+    "predicate": "is_required_for",
+    "object": "Mitohormesis",
+    "context": {
+      "en-US": "Genetic loss of aak-2 abolishes the lifespan extension produced both by glucose restriction and by mitochondrial stress-induced mitohormesis, placing AMPK downstream of the energy-surfeit signal that triggers adaptive reprogramming. Aak-2 also cooperates with sirtuins such as sir-2.1 and with the insulin/IGF-1 signaling axis to integrate nutrient and redox cues.",
+      "zh-TW": "aak-2 的基因缺失會消除葡萄糖限制與粒線體壓力誘發的 Mitohormesis 所帶來的壽命延長，使 AMPK 位於觸發適應性重編程的能量過剩訊號下游。Aak-2 也與 sir-2.1 等 sirtuins 以及胰島素/IGF-1 訊號軸合作，整合營養與氧化還原線索。"
+    },
+    "confidence": 0.9,
+    "source_document": "aak-2.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "aa05016e8435",
+    "subject": "AMPK",
+    "predicate": "activates",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "When AMPK is activated by a raised AMP/ATP ratio, it phosphorylates targets that suppress anabolic processes such as protein and lipid synthesis and stimulate catabolic, repair, and recycling pathways including autophagy and mitochondrial biogenesis. This makes AMPK a central switch between growth and self-repair.",
+      "zh-TW": "當 AMP/ATP 比例上升而活化 AMPK 時，它會磷酸化標的，抑制蛋白質與脂質合成等同化過程，並刺激包括自噬與粒線體生合成在內的分解代謝、修復與回收途徑。這使 AMPK 成為生長與自我修復之間的核心開關。"
+    },
+    "confidence": 0.9,
+    "source_document": "aak-2.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "2986b4e0d750",
+    "subject": "AMPK",
+    "predicate": "is_associated_with",
+    "object": "Insulin Resistance",
+    "context": {
+      "en-US": "Because AMPK activation improves glucose disposal, aak-2/AMPK biology is directly relevant to insulin resistance and diabetic vascular aging. Mammalian AMPK is a major target of metformin and exercise mimetics, so the C. elegans kinase models the same energy-sensing rheostat that links calorie restriction to human healthspan.",
+      "zh-TW": "由於 AMPK 活化能改善葡萄糖处置，aak-2/AMPK 的生物學與 Insulin Resistance 及糖尿病血管老化直接相關。哺乳類 AMPK 是 metformin 與運動模擬物的主要標的，因此線蟲的該激酶正是連結熱量限制與人類健康壽命的同一能量感測調節閥。"
+    },
+    "confidence": 0.8,
+    "source_document": "aak-2.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "b37118569e40",
+    "subject": "c-Jun N-terminal kinase",
+    "predicate": "is_activated_by",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "c-Jun N-terminal kinase is a MAPK family member activated by the MAP kinase kinases MKK4 and MKK7 in response to cytokines, UV, osmotic shock, and — most relevant here — oxidative stress and mitochondrial dysfunction. Once active, it phosphorylates c-Jun and other substrates on Ser/Thr residues.",
+      "zh-TW": "c-Jun N-terminal kinase 是 MAPK 家族的成員，會被 MAP 激酶激酶 MKK4 與 MKK7 活化，以回應細胞激素、UV、滲透壓衝擊，以及——在此最相關的——Oxidative Stress 與粒線體功能障礙。活化後它在絲胺酸／蘇胺酸殘基上磷酸化 c-Jun 及其他標的。"
+    },
+    "confidence": 0.95,
+    "source_document": "c-Jun N-terminal kinase.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "594d35b9ddfd",
+    "subject": "c-Jun N-terminal kinase",
+    "predicate": "mediates",
+    "object": "Retrograde Response",
+    "context": {
+      "en-US": "In the mammalian retrograde response, mitochondrial stress (ROS, calcium, bioenergetic crisis) activates c-Jun N-terminal kinase, which phosphorylates and modulates transcription factors including AP-1, FOXO, and p53 to reprogram nuclear gene expression toward antioxidant defense and mitochondrial biogenesis.",
+      "zh-TW": "在哺乳類 Retrograde Response 中，粒線體壓力（ROS、鈣離子、生物能量危機）會活化 c-Jun N-terminal kinase，後者磷酸化並調節 AP-1、FOXO 與 p53 等轉錄因子，將核基因表現重編程為朝向抗氧化防禦與粒線體生合成。"
+    },
+    "confidence": 0.9,
+    "source_document": "c-Jun N-terminal kinase.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "5d888f87a3c3",
+    "subject": "c-Jun N-terminal kinase",
+    "predicate": "promotes",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "c-Jun N-terminal kinase exerts dose-dependent effects on survival: transient activation promotes adaptation and autophagy, whereas sustained activation drives apoptosis via Bim and mitochondrial permeabilization. Mild JNK activity therefore supports stress resistance and lifespan, while chronic JNK activation, as in obesity and insulin resistance, fuels inflammation and degeneration.",
+      "zh-TW": "c-Jun N-terminal kinase 對存活具有劑量依賴性影響：短暫活化促進適應與 Autophagy，而持續活化則經由 Bim 與粒線體通透化驅動凋亡。因此輕微的 JNK 活性支持抗壓能力與壽命，而如肥胖與胰島素阻抗中的慢性 JNK 活化則助長發炎與退化。"
+    },
+    "confidence": 0.85,
+    "source_document": "c-Jun N-terminal kinase.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "51e3c3837953",
+    "subject": "cco-1",
+    "predicate": "is_a_component_of",
+    "object": "Mitochondrial Electron Transport Chain",
+    "context": {
+      "en-US": "cco-1 encodes the Caenorhabditis elegans ortholog of cytochrome c oxidase subunit V (COX5, complex IV), a structural and regulatory subunit of the mitochondrial electron transport chain. Because complex IV sits at the terminal step of the redox chain, cco-1 is required for the final reduction of oxygen to water and for efficient mitochondrial respiration.",
+      "zh-TW": "cco-1 編碼 Caenorhabditis elegans 的細胞色素 c 氧化酶次單元 V（COX5，複合體 IV）直系同源物，該次單元是粒線體電子傳遞鏈的結構與調節組成。由於複合體 IV 位於氧化還原鏈的末端步驟，cco-1 對氧最終還原成水與有效粒線體呼吸作用不可或缺。"
+    },
+    "confidence": 0.9,
+    "source_document": "cco-1.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "a49c38c52d65",
+    "subject": "cco-1",
+    "predicate": "induces",
+    "object": "Mitochondrial Unfolded Protein Response",
+    "context": {
+      "en-US": "Tissue-specific knockdown of cco-1, classically in body-wall muscle or neurons, produces a localized respiratory deficiency that triggers a cell-non-autonomous stress signal and systemically activates the mitochondrial unfolded protein response. This demonstrates that mitochondrial stress in one tissue can be broadcast to others.",
+      "zh-TW": "組織特異性的 cco-1 敲低（典型情況為體壁肌肉或神經元）會造成局部呼吸缺陷，進而觸發細胞非自主性的壓力訊號並在全身活化 Mitochondrial Unfolded Protein Response。這證明單一組織中的粒線體壓力可以廣播至其他組織。"
+    },
+    "confidence": 0.9,
+    "source_document": "cco-1.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "645f6bb51ea0",
+    "subject": "cco-1",
+    "predicate": "requires",
+    "object": "Mitokines",
+    "context": {
+      "en-US": "The cco-1 stress signal is broadcast to distal tissues via mitokines — secreted factors notably including the mitochondrial-derived peptide humanin and the small protein HPO (FGF21-like in mammals). These mediators carry the inter-tissue message that extends lifespan and enhances stress resistance organism-wide, making cco-1 knockdown a canonical model of systemic mitohormesis.",
+      "zh-TW": "cco-1 的壓力訊號藉由 Mitokines（分泌因子，特別是粒線體衍生胜肽 humanin 與小蛋白 HPO，在哺乳類中類似 FGF21）傳播至遠端組織。這些介質攜帶了組織間訊息，在全身層面延長壽命並提升抗壓能力，使 cco-1 敲低成為全身性 Mitohormesis 的典型模型。"
+    },
+    "confidence": 0.85,
+    "source_document": "cco-1.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "01b02ff52919",
+    "subject": "cco-1",
+    "predicate": "perturbs",
+    "object": "Superoxide anion",
+    "context": {
+      "en-US": "Because complex IV sits downstream in the redox chain, perturbation of cco-1 also disturbs superoxide anion handling, linking respiratory chain architecture to the cellular redox set-point. Respiratory deficiency thus sets both the energy budget and the oxidant tone of the cell.",
+      "zh-TW": "由於複合體 IV 位於氧化還原鏈下游，cco-1 的擾動也會干擾 Superoxide anion 的處理，將呼吸鏈構造與細胞氧化還原設定點連結起來。因此呼吸缺陷同時決定了細胞的能量預算與氧化原基調。"
+    },
+    "confidence": 0.85,
+    "source_document": "cco-1.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "0c16ee8d7000",
+    "subject": "clk-1",
+    "predicate": "synthesizes",
+    "object": "Ubiquinone",
+    "context": {
+      "en-US": "clk-1 (Clock-1) is a Caenorhabditis elegans gene encoding a mitochondrial hydroxylase involved in the biosynthesis of ubiquinone (Coenzyme Q). Because ubiquinone is the mobile electron carrier of the respiratory chain, reduced clk-1 activity impairs electron transport and produces the mild mitochondrial stress that underlies the gene's longevity phenotype.",
+      "zh-TW": "clk-1（Clock-1）是 Caenorhabditis elegans 的一個基因，編碼參與 Ubiquinone（Coenzyme Q）生合成的粒線體羥化酶。由於 ubiquinone 是呼吸鏈的可移動電子載體，clk-1 活性下降會損害電子傳遞，並造成該基因長壽表型所依據的輕度粒線體壓力。"
+    },
+    "confidence": 0.9,
+    "source_document": "clk-1.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "87e74add84f3",
+    "subject": "clk-1",
+    "predicate": "extends",
+    "object": "Lifespan",
+    "context": {
+      "en-US": "Mutations in clk-1 lead to a slowed physiological pace — slower development and slower rhythmic behaviors — together with a significant extension of lifespan. This is a classic example of longevity conferred by impaired mitochondrial function and is often used as a model system to study mitohormesis.",
+      "zh-TW": "clk-1 的突變會使生理節律變慢（發育較慢、節律行為較慢），同時帶來顯著的壽命延長。這是受损粒線體功能反而賦予長壽的經典例子，也常作為研究 Mitohormesis 的模式系統。"
+    },
+    "confidence": 0.9,
+    "source_document": "clk-1.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "4c587069da21",
+    "subject": "clk-1",
+    "predicate": "is_associated_with",
+    "object": "Mitochondria",
+    "context": {
+      "en-US": "Partial deficiency of the mouse homolog Mclk1 can increase cellular fitness and extend lifespan, indicating the mitohormetic mechanism by which clk-1 acts on mitochondria is evolutionarily conserved from nematodes to mammals. Reduced mitochondrial function is thus the conserved upstream lesion behind this longevity phenotype.",
+      "zh-TW": "clk-1 的小鼠同源物 Mclk1 部分缺乏即可提升細胞適能並延長壽命，顯示 clk-1 透過 Mitochondria 作用的 mitohormetic 機制在演化上從線蟲到哺乳類皆保守。因此粒線體功能降低是這種長壽表型背後保守的上游病變。"
+    },
+    "confidence": 0.75,
+    "source_document": "clk-1.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "747bba7db274",
+    "subject": "isp-1",
+    "predicate": "is_a_component_of",
+    "object": "Complex III",
+    "context": {
+      "en-US": "isp-1 (Iron-Sulfur Protein 1) is a Caenorhabditis elegans gene encoding a subunit of mitochondrial complex III (ubiquinol-cytochrome c oxidoreductase), the iron-sulfur containing core of the electron transport chain. Its reduction of mitochondrial respiration is the initiating lesion behind the gene's lifespan phenotype.",
+      "zh-TW": "isp-1（Iron-Sulfur Protein 1）是 Caenorhabditis elegans 的一個基因，編碼粒線體 Complex III（ubiquinol-cytochrome c oxidoreductase）的次單元，該複合體是電子傳遞鏈含鐵硫的核心。其對粒線體呼吸的抑制是該基因壽命表型背後的起始病變。"
+    },
+    "confidence": 0.9,
+    "source_document": "isp-1.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "a886195ab098",
+    "subject": "isp-1",
+    "predicate": "extends",
+    "object": "Lifespan",
+    "context": {
+      "en-US": "Mutations in isp-1 reduce mitochondrial respiration and lead to a significant extension of lifespan, placing impaired complex III among the canonical genetic interventions that reproduce a hormetic longevity phenotype in C. elegans.",
+      "zh-TW": "isp-1 的突變會降低粒線體呼吸並導致顯著的壽命延長，使受損的 Complex III 成為 C. elegans 中能重現荷爾蒙式長壽表型的典型基因介入之一。"
+    },
+    "confidence": 0.9,
+    "source_document": "isp-1.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "1ecbef28e158",
+    "subject": "isp-1",
+    "predicate": "increases",
+    "object": "Mitochondrial ROS",
+    "context": {
+      "en-US": "The lifespan extension from isp-1 mutation is thought to be mediated by the induction of mitohormesis, potentially involving a transient increase in mitochondrial reactive oxygen species that activates protective pathways. The transient, rather than sustained, nature of the ROS rise is what makes the response adaptive.",
+      "zh-TW": "isp-1 突變帶來的壽命延長被認為是經由誘導 Mitohormesis 所中介，可能涉及 Mitochondrial ROS 的暫時性上升以活化保護性途徑。正是這種暫時性（而非持續性）的 ROS 升高使反應具有適應性。"
+    },
+    "confidence": 0.8,
+    "source_document": "isp-1.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "303a84c6664a",
+    "subject": "isp-1",
+    "predicate": "is_associated_with",
+    "object": "clk-1",
+    "context": {
+      "en-US": "isp-1 and clk-1 are parallel C. elegans interventions on respiratory chain and ubiquinone biosynthesis whose mutant phenotypes converge on reduced mitochondrial function and lifespan extension. Studying them together separates which effect derives from electron transport deficit per se and which from the specific cofactor chemistry.",
+      "zh-TW": "isp-1 與 clk-1 是分別作用於呼吸鏈與 Ubiquinone 生合成的兩條平行 C. elegans 介入途徑，其突變表型皆收斂於粒線體功能下降與壽命延長。將兩者一起研究，可區分何者效應源自電子傳遞缺失本身，何者源自特定輔因子化學。"
+    },
+    "confidence": 0.75,
+    "source_document": "isp-1.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "73704049ebd1",
+    "subject": "eIF2α",
+    "predicate": "is_phosphorylated_by",
+    "object": "HRI",
+    "context": {
+      "en-US": "eIF2α is a key regulatory hub of the integrated stress response, phosphorylated at Ser51 by four stress-activated kinases. HRI (EIF2AK1) is the mitochondrial stress-responsive kinase, activated by DELE1 and heme deficiency, alongside PERK (ER stress), GCN2 (amino acid starvation), and PKR (double-stranded RNA).",
+      "zh-TW": "eIF2α 是整合性壓力反應的關鍵調節樞紐，在 Ser51 上被四種壓力活化激酶磷酸化。HRI（EIF2AK1）是粒線體壓力反應的激酶，由 DELE1 與血基質缺乏活化，其他三者分別為 PERK（ER 壓力）、GCN2（胺基酸缺乏）與 PKR（雙股 RNA）。"
+    },
+    "confidence": 0.95,
+    "source_document": "eIF2α.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "68c93d307801",
+    "subject": "eIF2α",
+    "predicate": "promotes",
+    "object": "ATF4",
+    "context": {
+      "en-US": "Phosphorylation of eIF2α at Ser51 attenuates global cap-dependent translation while paradoxically promoting translation of selected stress-responsive mRNAs such as ATF4. Phosphorylated eIF2α sequesters the guanine nucleotide exchange factor eIF2B, preventing eIF2 complex recycling; ATF4 then drives transcription of adaptive genes.",
+      "zh-TW": "eIF2α 在 Ser51 的磷酸化會抑制整體帽依賴性轉譯，卻反而促進 ATF4 等選擇性壓力反應 mRNA 的轉譯。磷酸化的 eIF2α 隔離鳥嘌呤核苷酸交換因子 eIF2B，阻斷 eIF2 複合體的再循環；ATF4 隨後驅動適應性基因的轉錄。"
+    },
+    "confidence": 0.95,
+    "source_document": "eIF2α.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "0bc0b6a944d8",
+    "subject": "eIF2α",
+    "predicate": "is_required_for",
+    "object": "Integrated Stress Response",
+    "context": {
+      "en-US": "The integrated stress response coordinates cellular adaptation to diverse stressors through eIF2α phosphorylation, which conserves resources by globally reducing protein synthesis while selectively increasing translation of ATF4-controlled transcripts. eIF2α is therefore the shared node through which distinct stress signals converge.",
+      "zh-TW": "Integrated Stress Response 透過 eIF2α 的磷酸化來協調細胞對多樣壓力因子的適應：以全域性降低蛋白質合成節省資源，同時選擇性提升 ATF4 所控轉錄本的轉譯。因此 eIF2α 是不同壓力訊號收斂的共同節點。"
+    },
+    "confidence": 0.9,
+    "source_document": "eIF2α.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "4fbf27853d33",
+    "subject": "hPEPT1",
+    "predicate": "transports",
+    "object": "Pyrraline",
+    "context": {
+      "en-US": "hPEPT1 is a proton-coupled peptide transporter in the apical membrane of intestinal enterocytes that absorbs di- and tripeptides and also certain Advanced Glycation End Products, notably the pyrraline adduct. This makes intestinal AGE absorption a transporter-mediated process rather than simple paracellular diffusion.",
+      "zh-TW": "hPEPT1 是位於腸道上皮細胞頂端膜的質子偶聯胜肽轉運蛋白，負責吸收二胜肽與三胜肽，以及某些 Advanced Glycation End Products（尤其是 pyrraline 加合物）。這使腸道 AGE 吸收成為轉運蛋白介導的過程，而非單純的細胞旁擴散。"
+    },
+    "confidence": 0.9,
+    "source_document": "hPEPT1.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "51b17757c0d0",
+    "subject": "hPEPT1",
+    "predicate": "transports",
+    "object": "Advanced Glycation End Products",
+    "context": {
+      "en-US": "Because hPEPT1 carries certain advanced glycation end products as well as ordinary peptides, intestinal uptake of dietary AGEs is partly carrier-mediated. The absorption mechanism for the full range of AGEs remains incompletely characterized, making this transporter a focus for studies of dietary AGE burden.",
+      "zh-TW": "由於 hPEPT1 除了運送一般胜肽外也運送某些 Advanced Glycation End Products，飲食性 AGE 的腸道吸收部分是載體介導的。各種 AGE 的吸收機制目前仍未完全釐清，因此此轉運蛋白是研究飲食 AGE 負擔的焦點。"
+    },
+    "confidence": 0.85,
+    "source_document": "hPEPT1.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "0e04af4777aa",
+    "subject": "indoline-5,6-dione",
+    "predicate": "is_a_type_of",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "Indoline-5,6-dione is the chemical structure corresponding to Adrenochrome, consisting of an indoline ring system with two ketone groups at the 5 and 6 positions. Its formation marks a side pathway of catecholamine oxidation and is often taken as a marker for failed homeostasis or extreme oxidative stress.",
+      "zh-TW": "Indoline-5,6-dione 是 Adrenochrome 對應的化學結構，由 5 與 6 位置具有兩個酮基的 indoline 環系構成。其形成標記了兒茶酚胺氧化的一條側途徑，常被視為穩態崩解（failed homeostasis）或極端 Oxidative Stress 的指標。"
+    },
+    "confidence": 0.9,
+    "source_document": "indoline-5,6-dione.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "04caab7c5dfa",
+    "subject": "indoline-5,6-dione",
+    "predicate": "is_derived_from",
+    "object": "Epinephrine",
+    "context": {
+      "en-US": "Indoline-5,6-dione is formed from Epinephrine through internal cyclization of an o-quinone intermediate: the catechol is first oxidized to the ortho-quinone, then an intramolecular Michael addition closes the indoline ring. The unstable intermediates make this step a control point in adrenochrome chemistry.",
+      "zh-TW": "Indoline-5,6-dione 是由 Epinephrine 經由鄰醌中間體的內部環化形成：兒茶酚先被氧化為鄰醌，再經分子內 Michael 加成閉合形成 indoline 環。由於其中間體不穩定，此步驟成為 Adrenochrome 化學反應的調控點。"
+    },
+    "confidence": 0.9,
+    "source_document": "indoline-5,6-dione.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "f3901eb8b8a8",
+    "subject": "indoline-5,6-dione",
+    "predicate": "is_formed_through",
+    "object": "o-quinone",
+    "context": {
+      "en-US": "Formation of indoline-5,6-dione proceeds through the o-quinone intermediate, whose intramolecular Michael addition generates the two ketone groups at the 5 and 6 positions of the indoline system. The o-quinone is thus the direct structural precursor of the adrenochrome chromophore.",
+      "zh-TW": "Indoline-5,6-dione 的形成經由鄰醌中間體進行，其分子內 Michael 加成在 indoline 環系的 5 與 6 位置生成兩個酮基。因此鄰醌是 adrenochrome 發色團的直接結構前驅物。"
+    },
+    "confidence": 0.85,
+    "source_document": "indoline-5,6-dione.md",
+    "created": "2026-09-29T15:18:00Z",
+    "updated": "2026-09-29T15:18:00Z"
   }
 ]
