@@ -1,59 +1,52 @@
 ---
 title: BIG1
-description: B-cell immunoglobulin gene product 1, a protein involved in cell signaling, growth, and potentially neurodegenerative processes.
+description: Disambiguation entry for the ambiguous historical gene symbol BIG1, which in this vault resolves to GBF1. BIG1 has also been used in older literature for the casein kinase II regulatory beta subunit, so the expansion "B-cell immunoglobulin gene product 1" should not be treated as authoritative.
+protected: false
 created: 2024-01-01
-updated: 2026-07-06
-tags:
-  - protein
+updated: 2026-09-29
+tags: [gene, protein, protein-trafficking]
 aliases: []
 ---
 
 # BIG1
 
-**BIG1** (B-cell immunoglobulin gene product 1) is a protein that plays multifaceted roles in cellular physiology, including the regulation of cell signaling, growth, and membrane trafficking. While its initial identification was linked to B-cell immunoglobulin function, ongoing research suggests its involvement in broader processes that are critical for cellular homeostasis and are potentially implicated in various disease states.
+> [!warning] Ambiguous symbol
+> **BIG1** is not a current HGNC symbol and does not resolve uniquely. It is used
+> in the primary literature both for the Arf guanine nucleotide exchange factor
+> now called [[GBF1]] and, in older nomenclature, for the casein kinase II
+> regulatory beta subunit. The frequently quoted expansion "B-cell
+> immunoglobulin gene product 1" is a legacy/vendor-database form and is **not**
+> the current official symbol of either gene.
 
-## Overview
+Within this vault, BIG1 is used in the sense of **GBF1** — the Golgi-resident
+Sec7-domain Arf1 GEF that drives COPI coat recruitment and secretory-pathway
+trafficking. That is the sense in which it appears in
+[[_document_ - Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic|the Yamanaka factors review]],
+where the symbol is expanded as "brefeldin A-inhibited guanine nucleotide-exchange
+protein 1".
 
-BIG1 is a protein whose precise molecular mechanisms are still being characterized. It is increasingly recognized as a regulator of cellular dynamics, particularly through its influence on the trafficking of proteins to and from the cell membrane. This regulation is vital for maintaining the proper composition and function of the plasma membrane, which is essential for effective cell-cell communication and responsiveness to extracellular signals.
+## Where to go
 
-## Mechanism and Function
-
-The biological functions of BIG1 are multifaceted and intersect with several key cellular systems:
-
-### 1. Regulation of Cell Signaling and Growth
-BIG1 is implicated in modulating various signaling pathways that control cell proliferation, differentiation, and survival. By influencing the trafficking and localization of transmembrane receptors (such as growth factor receptors), BIG1 can indirectly regulate the intensity, duration, and spatial distribution of intracellular signaling cascades.
-
-### 2. Membrane Trafficking and Vesicle Transport
-A significant area of research focuses on the role of BIG1 in membrane trafficking. It is thought to participate in the organized movement of vesicles within the cell, facilitating the transport of lipids and proteins between various organelles (such as the Golgi apparatus and the plasma membrane). This role is crucial for maintaining the cellular polarity and the specialized composition of different membrane domains.
-
-### 3. Interaction with the Cytoskeleton
-To facilitate the directed transport of intracellular cargo, BIG1 may interact with the cellular transport machinery, including the **[[Actin Cytoskeleton]]** and microtubule networks. This interaction allows for the precise spatial control of protein delivery, which is necessary for rapid cellular responses to environmental changes.
-
-## Clinical Relevance
-
-The potential involvement of BIG1 in human disease is a growing area of scientific interest:
-
-- **Neurodegenerative Diseases**: Emerging evidence has suggested a link between BIG1 dysregulation and the pathogenesis of neurodegenerative conditions. It is hypothesized that defects in BIG1-mediated membrane trafficking or signaling could contribute to the accumulation of misfolded protein aggregates or the disruption of neuronal connectivity, both of which are hallmark features of diseases such as **[[Alzheimer's Disease]]**.
-- **Oncology**: Due to its role in regulating growth-related signaling and membrane protein trafficking, abnormal expression levels of BIG1 have been investigated for their potential role in cancer progression. It may influence the signaling of oncogenic receptors, thereby contributing to uncontrolled cell proliferation and metastasis.
+The substantive biology — Golgi structure, coat recruitment, membrane-trafficking
+control, and the disease associations that have actually been characterised — is
+written up under [[B-cell Immunoglobulin-derived Gene 1]], which carries the
+aliases `BIG1` and `GBF1` and links to the canonical [[GBF1]] note.
 
 ## Documents
 
-List of documents that mention this entity
-
-  - [[_document_ - Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic|Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic]]
-    - Yamanaka Factors, Embryonic Stem Cells, Fibroblasts, Shinya Yamanaka, Kazutoshi Takahashi, OSKM, Regenerative Medicine, Olivopontocerebellar Atrophy, NuRD complex, CHD4, Schizophrenia, Induced Neural Stem Cells, Amyotrophic Lateral Sclerosis, Frontotemporal...
-
+- [[_document_ - Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic|Application of the Yamanaka Transcription Factors]]
+  - Uses BIG1 in the GBF1 sense, as a brefeldin A-inhibited guanine nucleotide-exchange protein, in the context of OSKM reprogramming.
 
 ## Connections
 
-- [[B-cell Immunoglobulin-derived Gene 1]] - The full name and biological origin of the BIG1 protein.
-- [[Actin Cytoskeleton]] - A potential structural partner in facilitating intracellular vesicle transport.
-- [[Alzheimer's Disease]] - A neurodegenerative condition potentially linked to BIG1 dysfunction.
-- [[Membrane Trafficking]] - A key cellular process regulated by BIG1.
-- [[Cell Signaling]] - A fundamental process modulated by BIG1 through receptor regulation.
+- [[B-cell Immunoglobulin-derived Gene 1]] — the vault's canonical entry for this symbol, disambiguating BIG1 to GBF1 and documenting the naming caveat.
+- [[Membrane Trafficking]] — the process GBF1 controls through Arf1 activation and COPI coat recruitment at the Golgi.
+- [[Golgi apparatus]] — the organelle whose assembly and homeostasis require GBF1 activity.
+- [[Cell Signaling]] — receptor and effector trafficking is the route by which a Golgi GEF influences signalling output.
 
-## Linking Summary:
+## Linking Summary
 
-- New links added: [[Golgi Apparatus]], [[Plasma Membrane]], [[Growth Factor Receptor]], [[Neurodegeneration]], [[Vesicle Transport]]
-- Suggested new entity notes to create: [[Microtubules]], [[Endocytosis]], [[Autophagy]]
-- Strong connections to strengthen: [[BIG1]] ↔ [[Membrane Trafficking]], [[BIG1]] ↔ [[Cell Signaling]]
+- New links added: [[B-cell Immunoglobulin-derived Gene 1]], [[Golgi apparatus]]
+- Suggested notes to create: [[GBF1]], [[Brefeldin A]], [[Arf1]], [[COPI]], [[Actin Cytoskeleton]]
+- Strong connections to strengthen: [[BIG1]] ↔ [[B-cell Immunoglobulin-derived Gene 1]]
+- Rewritten 2026-09-29. The previous version asserted an unverified link to [[Alzheimer's Disease]] and microglial activation; no supporting source was found, so that claim was removed rather than softened. The prior description also propagated the incorrect "B-cell immunoglobulin gene product 1" expansion.
