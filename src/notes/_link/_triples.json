@@ -74814,5 +74814,1041 @@
     "source_document": "Nuclear Envelope.md",
     "created": "2026-09-29T17:33:26Z",
     "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "bcf644422c6d",
+    "subject": "MFN1",
+    "predicate": "mediates_fusion_of",
+    "object": "Outer Mitochondrial Membrane",
+    "context": {
+      "en-US": "MFN1 is a large dynamin-related GTPase resident in the Outer Mitochondrial Membrane, where it tethers adjacent mitochondria through its heptad-repeat (HR2) domains. Redox-dependent disulfide bond formation between MFN HR2 domains drives oligomerization and merger of the outer membranes, so MFN1 is a direct executor of outer membrane fusion.",
+      "zh-TW": "MFN1 是駐紮於 Outer Mitochondrial Membrane 的大型 dynamin 相關 GTPase，透過其 heptad-repeat（HR2）結構域將相鄰粒線體錨定在一起。MFN 的 HR2 結構域之間形成依賴氧化還原的雙硫鍵，驅動寡聚化與外膜融合，因此 MFN1 是外膜融合的直接執行者。"
+    },
+    "confidence": 0.95,
+    "source_document": "Outer Mitochondrial Membrane.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "9d1b046d1888",
+    "subject": "MFN2",
+    "predicate": "mediates_fusion_of",
+    "object": "Outer Mitochondrial Membrane",
+    "context": {
+      "en-US": "MFN2 is a GTPase anchored in the Outer Mitochondrial Membrane that partners with MFN1 to drive outer membrane fusion. Mutations in MFN2 impair mitochondrial transport and underlie axonal neuropathies such as Charcot-Marie-Tooth Disease Type 2A, linking outer membrane fusion machinery to neurodegeneration.",
+      "zh-TW": "MFN2 是錨定於 Outer Mitochondrial Membrane 的 GTPase，與 MFN1 協同驅動外膜融合。MFN2 的突變會損害粒線體運輸，並為 Charcot-Marie-Tooth Disease Type 2A 等軸突病變的致病基礎，將外膜融合機制與神經退化連結起來。"
+    },
+    "confidence": 0.95,
+    "source_document": "Outer Mitochondrial Membrane.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "7ee6a9bd09d2",
+    "subject": "DRP1",
+    "predicate": "mediates_fission_of",
+    "object": "Outer Mitochondrial Membrane",
+    "context": {
+      "en-US": "DRP1 is a cytosolic dynamin-like GTPase recruited to the Outer Mitochondrial Membrane by adaptor proteins including MFF, MID49, MID51, and FIS1. Once anchored, DRP1 oligomers assemble at constriction sites and GTP hydrolysis severs the outer membrane, making DRP1 the executioner of mitochondrial fission.",
+      "zh-TW": "DRP1 是細胞質中的 dynamin 類 GTPase，經由 MFF、MID49、MID51 與 FIS1 等轉接蛋白被招募至 Outer Mitochondrial Membrane。錨定後，DRP1 寡聚體在收縮位點組裝，藉由 GTP 水解切斷外膜，使 DRP1 成為粒線體分裂的執行者。"
+    },
+    "confidence": 0.95,
+    "source_document": "Outer Mitochondrial Membrane.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "25f285ffd847",
+    "subject": "Oxaloacetate",
+    "predicate": "is_precursor_of",
+    "object": "Citrate",
+    "context": {
+      "en-US": "Oxaloacetate is the four-carbon entry acceptor of the Citric Acid Cycle: it condenses with acetyl-CoA to form Citrate and thereby initiates each turn of the cycle. Its continuous regeneration from Malate closes the loop, so Oxaloacetate sets both the rate and the anaplerotic capacity of TCA flux.",
+      "zh-TW": "Oxaloacetate 是 Citric Acid Cycle 的四碳入口受體，與 acetyl-CoA 縮合形成 Citrate，藉此啟動循環的每一圈。它由 Malate 持續再生以閉合循環，因此 Oxaloacetate 同時決定 TCA 通量的速率與補充能力。"
+    },
+    "confidence": 0.95,
+    "source_document": "Oxaloacetate.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "ef194f3444e4",
+    "subject": "Malate-Aspartate Shuttle",
+    "predicate": "produces",
+    "object": "Oxaloacetate",
+    "context": {
+      "en-US": "The Malate-Aspartate Shuttle transfers reducing equivalents from cytosolic NADH into the matrix; once malate has been oxidized in the matrix, Oxaloacetate is regenerated in the cytosol. This makes Oxaloacetate the cytosolic product of the shuttle and the node at which cytosolic redox balance is set.",
+      "zh-TW": "Malate-Aspartate Shuttle 將還原力由細胞質 NADH 轉運至基質；當 malate 在基質中被氧化後，Oxaloacetate 會在細胞質中再生。這使 Oxaloacetate 成為穿梭系統的細胞質產物，也是決定細胞質氧化還原平衡的節點。"
+    },
+    "confidence": 0.9,
+    "source_document": "Oxaloacetate.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "c7b01e49d002",
+    "subject": "Oxidation",
+    "predicate": "produces",
+    "object": "Reactive Oxygen Species",
+    "context": {
+      "en-US": "Oxidation in biological systems — both enzymatic and non-enzymatic — is a major source of Reactive Oxygen Species. Non-enzymatic autoxidation of catechols reduces molecular oxygen to Superoxide, which dismutates to Hydrogen Peroxide and perpetuates oxidative chain reactions, coupling oxidation chemistry directly to oxidative damage.",
+      "zh-TW": "生物體內的氧化（酵素性與非酵素性皆是）都是 Reactive Oxygen Species 的主要來源。非酵素性兒茶酚自氧化會將分子氧還原為 Superoxide，後者歧化為 Hydrogen Peroxide 並延續氧化鏈反應，將氧化化學直接連結至氧化傷害。"
+    },
+    "confidence": 0.9,
+    "source_document": "Oxidation.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "97ae547c7569",
+    "subject": "Myeloperoxidase",
+    "predicate": "produces",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "Myeloperoxidase generates Hypochlorous Acid, a potent two-electron oxidant, during the respiratory burst of myeloid cells. Hypochlorous Acid rapidly oxidizes Epinephrine and Adrenochrome is generated as a product, making Myeloperoxidase the enzymatic source of the adrenochrome intermediate.",
+      "zh-TW": "Myeloperoxidase 在髓系細胞的呼吸爆發中生成強效的雙電子氧化劑 Hypochlorous Acid。Hypochlorous Acid 可快速氧化 Epinephrine 而生成 Adrenochrome，因此 Myeloperoxidase 是腎上腺紅色素中間產物的酵素來源。"
+    },
+    "confidence": 0.85,
+    "source_document": "Oxidation.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "dd503de8cd80",
+    "subject": "Oxidation",
+    "predicate": "drives",
+    "object": "Neuromelanin",
+    "context": {
+      "en-US": "Uncontrolled oxidation of Dopamine and related catecholamines in Substantia Nigra dopaminergic neurons diverts catecholamine flux toward Aminochromes and melanin-like polymers that accumulate as Neuromelanin. The same oxidation chemistry that initiates Neuromelanin biosynthesis also generates oxidative stress, making dopaminergic neuron loss in Parkinson's Disease an oxidation-driven event.",
+      "zh-TW": "Substantia Nigra 多巴胺能神經元中，Dopamine 及其他兒茶胺的失控氧化會將兒茶胺流轉向 Aminochromes 與類黑色素聚合物，進而累積形成 Neuromelanin。啟動 Neuromelanin 生合成的同一套氧化化學也會產生氧化壓力，使 Parkinson's Disease 中的多巴胺能神經元喪失成為氧化驅動的事件。"
+    },
+    "confidence": 0.9,
+    "source_document": "Oxidation.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "1a29c074947f",
+    "subject": "Oxidative Phosphorylation",
+    "predicate": "produces",
+    "object": "ATP",
+    "context": {
+      "en-US": "Oxidative Phosphorylation is the metabolic pathway in which cells oxidize nutrients through the mitochondrial respiratory machinery to release the stored chemical energy as ATP. It is therefore the principal route of ATP generation in respiring cells and the process whose impairment contributes to metabolic disease, neurodegeneration, and cancer.",
+      "zh-TW": "Oxidative Phosphorylation 是細胞透過粒線體呼吸機制氧化養分、將儲存的化學能釋放為 ATP 的代謝途徑。因此它是呼吸中的細胞產生 ATP 的主要途徑，而其功能失調會促成代謝疾病、神經退化與癌症。"
+    },
+    "confidence": 0.95,
+    "source_document": "Oxidative Phosphorylation.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "cc916cf89a3d",
+    "subject": "MYC",
+    "predicate": "upregulates",
+    "object": "Oxidative Phosphorylation",
+    "context": {
+      "en-US": "Across 1009 CCLE cell lines and 105 TNBC samples, increasing MYC activity is accompanied by progressively stronger enrichment of mitochondrial respiration programs, corroborated by single-cell and spatial transcriptomics. Elevated Oxidative Phosphorylation is therefore a hallmark of MYChigh cancer cells, contradicting a purely glycolytic Warburg Effect.",
+      "zh-TW": "在 1009 個 CCLE 細胞系與 105 個 TNBC 樣本中，MYC 活性升高伴隨粒線體呼吸程式的逐步增強，並獲單細胞與空間轉錄組學佐證。因此升高的 Oxidative Phosphorylation 是 MYChigh 癌細胞的特徵，這與純粹糖解的 Warburg Effect 模型相牴觸。"
+    },
+    "confidence": 0.9,
+    "source_document": "Oxidative Phosphorylation.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "8b6d9bd6ccee",
+    "subject": "Complex I",
+    "predicate": "regenerates",
+    "object": "NAD+",
+    "context": {
+      "en-US": "Complex I is the entry point of the electron transport chain and oxidizes NADH back to NAD+, thereby regenerating the oxidized cofactor that the TCA cycle requires. MYChigh cancer cells exploit this Complex I-dependent NAD+ regeneration to sustain a Glutamine-fueled TCA cycle supplying biosynthetic precursors.",
+      "zh-TW": "Complex I 是電子傳遞鏈的入口，將 NADH 氧化回 NAD+，再生 TCA cycle 所必需的氧化態輔酶。MYChigh 癌細胞利用這種 Complex I 相依的 NAD+ 再生，以維持由 Glutamine 驅動、供應生合成前驅物的 TCA cycle。"
+    },
+    "confidence": 0.9,
+    "source_document": "Oxidative Phosphorylation.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "214fe1a804a3",
+    "subject": "SIRT5",
+    "predicate": "promotes",
+    "object": "Glycolysis",
+    "context": {
+      "en-US": "Activation of the mitochondrial sirtuin SIRT5 promotes growth and metastasis of hepatocellular carcinoma cells by reprogramming glucose metabolism from Oxidative Phosphorylation to Glycolysis. SIRT5 thus acts as a switch that shifts cancer cells between respiratory and glycolytic energy production.",
+      "zh-TW": "粒線體 sirtuin SIRT5 的活化會透過將葡萄糖代謝由 Oxidative Phosphorylation 重編程為 Glycolysis，促進肝細胞癌細胞的生長與轉移。因此 SIRT5 扮演在呼吸與糖解性能量產生之間切換癌細胞的開關。"
+    },
+    "confidence": 0.85,
+    "source_document": "Oxidative Phosphorylation.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "3272f614aa82",
+    "subject": "Reactive Oxygen Species",
+    "predicate": "oxidizes",
+    "object": "LDL",
+    "context": {
+      "en-US": "LDL that has undergone oxidative modification becomes Oxidized LDL. Reactive Oxygen Species and Myeloperoxidase are the principal agents of this modification, which produces conjugated dienes and alters apoB, converting LDL from a benign cargo particle into a pro-inflammatory atherogenic species.",
+      "zh-TW": "經歷氧化修飾的 LDL 即成為 Oxidized LDL。Reactive Oxygen Species 與 Myeloperoxidase 是此修飾的主要作用者，會產生共軛雙烯並改變 apoB，將 LDL 由無害的載脂顆粒轉化為促發炎、致動脈粥樣硬化的分子。"
+    },
+    "confidence": 0.9,
+    "source_document": "Oxidized LDL.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "d6479c98911d",
+    "subject": "Oxidized LDL",
+    "predicate": "causes",
+    "object": "Atherosclerosis",
+    "context": {
+      "en-US": "Oxidized LDL is a key driver of Atherosclerosis: macrophages take up the modified particle through scavenger receptors, accumulating cholesterol as Foam Cells that define the fatty streak. It also impairs Cholesterol Efflux and reduces Nitric Oxide bioavailability, worsening Endothelial Dysfunction.",
+      "zh-TW": "Oxidized LDL 是 Atherosclerosis 的關鍵驅動因子：巨噬細胞透過清除受體攝取此修飾顆粒，累積膽固醇形成 Foam Cells，构成脂紋的核心。它同時抑制 Cholesterol Efflux 並降低 Nitric Oxide 的生體可用性，加重 Endothelial Dysfunction。"
+    },
+    "confidence": 0.9,
+    "source_document": "Oxidized LDL.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "b4dd17640ddc",
+    "subject": "CD36 Receptor",
+    "predicate": "binds",
+    "object": "Oxidized LDL",
+    "context": {
+      "en-US": "CD36 Receptor is the major scavenger receptor that binds Oxidized LDL on macrophages and endothelial cells. Because scavenger-receptor uptake is not down-regulated by cellular cholesterol content, it drives unlimited lipid accumulation and Foam Cell formation, unlike the feedback-regulated LDL receptor.",
+      "zh-TW": "CD36 Receptor 是巨噬細胞與內皮細胞上結合 Oxidized LDL 的主要清除受體。由於清除受體介導的攝取不受細胞內膽固醇含量向下調節，它會造成無限制的脂質累積與 Foam Cell 形成，與受回饋調控的 LDL 受體不同。"
+    },
+    "confidence": 0.9,
+    "source_document": "Oxidized LDL.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "f01f5a6752ad",
+    "subject": "Resveratrol",
+    "predicate": "inhibits",
+    "object": "Oxidized LDL",
+    "context": {
+      "en-US": "Resveratrol protects LDL against oxidation in a concentration-dependent manner, inhibiting the conjugated-diene formation produced by copper or gamma-radiolysis-driven LDL oxidation (Berrougui et al., Atherosclerosis 2009). By limiting LDL oxidation, Resveratrol reduces the generation of Oxidized LDL and hence atherogenic foam-cell drive.",
+      "zh-TW": "Resveratrol 以濃度依賴的方式保護 LDL 不被氧化，抑制銅或 γ 輻解引發的 LDL 氧化所產生的共軛雙烯形成（Berrougui 等，Atherosclerosis 2009）。藉由限制 LDL 氧化，Resveratrol 減少 Oxidized LDL 的生成，因而降低致粥樣硬化的泡沫細胞驅動力。"
+    },
+    "confidence": 0.9,
+    "source_document": "Oxidized LDL.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "0db99960d619",
+    "subject": "P300",
+    "predicate": "acetylates",
+    "object": "Atg4B",
+    "context": {
+      "en-US": "P300 is a lysine acetyltransferase that acetylates Atg4B under nutrient-replete conditions, inhibiting Atg4B activity and thereby suppressing Autophagy. Small-molecule P300 inhibitors such as C646 induce Autophagy by relieving this Atg4B inhibition, establishing acetylation status as the switch on autophagic flux.",
+      "zh-TW": "P300 是離胺酸乙醯化轉移酶，在營養充足條件下乙醯化 Atg4B，抑制其活性並進而壓抑 Autophagy。小分子 P300 抑制劑（如 C646）藉由解除此 Atg4B 抑制而誘導 Autophagy，確立乙醯化狀態為自噬通量的開關。"
+    },
+    "confidence": 0.95,
+    "source_document": "P300.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "8b0afc17ecf1",
+    "subject": "P300",
+    "predicate": "inhibits",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "P300 acts as a master negative regulator of basal Autophagy: it acetylates multiple core Atg proteins including Atg5, Atg7, Atg8/LC3, and Atg12, repressing their activity and retaining LC3 in the nucleus. Under starvation or Caloric Restriction, rising NAD+ activates SIRT1 and SIRT2, whose deacetylation of the Atg machinery directly opposes P300.",
+      "zh-TW": "P300 充當基礎 Autophagy 的主要負向調控者：它乙醯化 Atg5、Atg7、Atg8/LC3 與 Atg12 等多個核心 Atg 蛋白，抑制其活性並使 LC3 滯留於細胞核。在飢餓或 Caloric Restriction 下，升高的 NAD+ 活化 SIRT1 與 SIRT2，後者對 Atg 機制的去乙醯化直接對抗 P300。"
+    },
+    "confidence": 0.95,
+    "source_document": "P300.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "423c31ca7c5d",
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "P300",
+    "context": {
+      "en-US": "SIRT1 physically associates with P300 and deacetylates it at Lys1020 and Lys1024 in the CRD1 regulatory domain, repressing its intrinsic acetyltransferase activity and co-activator potential. Because P300 is a limiting transcriptional cofactor, this inhibition is a major hub through which SIRT1 shuts down anabolic and inflammatory gene programs.",
+      "zh-TW": "SIRT1 與 P300 物理結合，並在 CRD1 調節區域的 Lys1020 與 Lys1024 位點對其去乙醯化，抑制其固有乙醯化轉移酶活性與共活化能力。由於 P300 是細胞中數量受限的轉錄共因子，此抑制是 SIRT1 關閉合成代謝與發炎基因程式的樞紐。"
+    },
+    "confidence": 0.95,
+    "source_document": "P300.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "080621034360",
+    "subject": "Spermidine",
+    "predicate": "inhibits",
+    "object": "P300",
+    "context": {
+      "en-US": "The natural polyamine Spermidine is a potent, selective inhibitor of P300 histone acetyltransferase activity. By blocking P300 it induces robust epigenetic Autophagy, which promotes Longevity and cardiovascular health, making P300 inhibition a translationally validated mechanism for spermidine's geroprotective effects.",
+      "zh-TW": "天然多胺 Spermidine 是 P300 組蛋白乙醯化轉移酶活性的強效選擇性抑制劑。藉由阻斷 P300，它誘導強烈的表觀遺傳性 Autophagy，促進延壽與心血管健康，使 P300 抑制成為 spermidine 延老作用經轉譯驗證的機制。"
+    },
+    "confidence": 0.9,
+    "source_document": "P300.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "d9f24340d4f3",
+    "subject": "P300",
+    "predicate": "acetylates",
+    "object": "p53",
+    "context": {
+      "en-US": "P300 acetylates p53 at multiple C-terminal lysines including Lys373 and Lys382, stabilizing p53 and enhancing its transcriptional activity to drive cell cycle arrest or Apoptosis. SIRT1 deacetylates the same residues, opposing p300 to suppress p53-dependent apoptosis and promote cell survival under genotoxic or oxidative stress.",
+      "zh-TW": "P300 在多個 C 端離胺酸（含 Lys373 與 Lys382）乙醯化 p53，穩定 p53 並增強其轉錄活性，驅動細胞週期停滯或 Apoptosis。SIRT1 則去乙醯化相同殘基，對抗 p300，抑制 p53 相依的凋亡並在基因毒性或氧化壓力下促進細胞存活。"
+    },
+    "confidence": 0.95,
+    "source_document": "P300.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "f57507844aaf",
+    "subject": "PAD4",
+    "predicate": "is_required_for",
+    "object": "NETosis",
+    "context": {
+      "en-US": "PAD4 is the dominant enzyme of NETosis: ROS-triggered calcium flux activates PAD4, which hypercitrullinates histone H3 to cit-H3, neutralizes histone charge, unravels chromatin, and licenses nuclear decondensation and NET extrusion. PAD4-independent routes exist, so PAD4 is required for the canonical program but not for all NET release.",
+      "zh-TW": "PAD4 是 NETosis 的主要酵素：ROS 觸發的鈣離子流活化 PAD4，後者將組蛋白 H3 過度瓜胺酸化為 cit-H3，中和組蛋白電荷、解開染色質，使核去凝結與 NET 挤出得以進行。亦存在不依賴 PAD4 的途徑，因此 PAD4 對典型程序為必需，但非所有 NET 釋放皆然。"
+    },
+    "confidence": 0.95,
+    "source_document": "PAD4.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "4a81aa814e18",
+    "subject": "PAD4",
+    "predicate": "requires",
+    "object": "Calcium Signaling",
+    "context": {
+      "en-US": "PAD4 needs millimolar-range Ca2+ for full catalytic activity, so an obligate calcium signal couples calcium signaling to epigenetic-scale chromatin remodeling. The requirement also explains why PAD4 activation follows rather than precedes the ROS-induced calcium flux that initiates NETosis.",
+      "zh-TW": "PAD4 需要毫莫耳濃度範圍的 Ca2+ 才能達到完整催化活性，因此不可或缺的鈣離子訊號將 Calcium Signaling 與表觀遺傳層級的染色質重塑耦合。此需求也解釋了為何 PAD4 的活化是在引發 NETosis 的 ROS 誘導鈣流之後而非之前。"
+    },
+    "confidence": 0.9,
+    "source_document": "PAD4.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "f040a835cb44",
+    "subject": "PAD4",
+    "predicate": "produces",
+    "object": "Protein Citrullination",
+    "context": {
+      "en-US": "PAD4 is a calcium-dependent peptidylarginine deiminase that converts protein arginine residues to citrulline, the defining reaction of Protein Citrullination. Applied to histones, this modification strips the positive charge that condenses chromatin and is the proximate cause of nuclear decondensation during NETosis.",
+      "zh-TW": "PAD4 是鈣離子相依的肽基精胺酸去亞胺酶，將蛋白質上的精胺酸殘基轉為瓜胺酸，即 Protein Citrullination 的定義性反應。作用於組蛋白時，此修飾去除使染色質凝聚的正電荷，是 NETosis 期間核去凝結的直接原因。"
+    },
+    "confidence": 0.9,
+    "source_document": "PAD4.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "e0953f89307d",
+    "subject": "PAI-1",
+    "predicate": "inhibits",
+    "object": "uPA",
+    "context": {
+      "en-US": "PAI-1 is the principal physiological inhibitor of the plasminogen activators uPA and tissue-type plasminogen activator, blocking plasmin generation and therefore fibrinolysis and extracellular matrix remodelling. By suppressing plasmin it also modulates integrin and latent-growth-factor activation, feeding fibrotic and proliferative loops.",
+      "zh-TW": "PAI-1 是 uPA 與組織型纖維蛋白溶解酶原活化素的主要生理抑制劑，阻斷 plasmin 生成，因而抑制纖維蛋白溶解與細胞外基質重塑。透過抑制 plasmin，它也調節 integrin 與潛在生長因子的活化，feeding 纖維化與增殖性回饋迴圈。"
+    },
+    "confidence": 0.9,
+    "source_document": "PAI-1.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "190af0501da7",
+    "subject": "TGFβ",
+    "predicate": "upregulates",
+    "object": "PAI-1",
+    "context": {
+      "en-US": "PAI-1 transcription is induced by TGFβ, by p53, and by inflammatory cues, and its expression rises sharply in senescence as part of the SASP program. This places PAI-1 downstream of both TGFβ-driven fibrosis and the senescence program, explaining why it accumulates with age and in fibrotic disease.",
+      "zh-TW": "PAI-1 的轉錄受 TGFβ、p53 與發炎訊號誘導，並在 Senescence 中作為 SASP 程式的一部分而急遽上升。這使 PAI-1 同時位於 TGFβ 驅動的纖維化與 Senescence 程式之下游，解釋了它為何隨老化及纖維化疾病而累積。"
+    },
+    "confidence": 0.9,
+    "source_document": "PAI-1.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "b529a4e883d2",
+    "subject": "PAI-1",
+    "predicate": "is_associated_with",
+    "object": "SASP",
+    "context": {
+      "en-US": "PAI-1 is one of the most robust secreted components of the SASP and promotes senescence in an autocrine and paracrine loop via plasmin suppression and integrin signalling. Proteomic meta-analyses of aging cohorts identified circulating PAI-1, with GDF15, RAGE, VEGF, and CCL18, as part of a five-protein senescence signature associated with all-cause mortality.",
+      "zh-TW": "PAI-1 是 SASP 中最穩健的分泌成分之一，透過 plasmin 抑制與 integrin 訊號在自分泌與旁分泌迴圈中促進 Senescence。老化世代的蛋白質體後分析將循環中的 PAI-1 與 GDF15、RAGE、VEGF、CCL18 一同列為與全因死亡相關的五蛋白 Senescence 簽章。"
+    },
+    "confidence": 0.9,
+    "source_document": "PAI-1.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "adf7251ff229",
+    "subject": "PAK2",
+    "predicate": "phosphorylates",
+    "object": "Caspase-7",
+    "context": {
+      "en-US": "PAK2 directly binds and phosphorylates Caspase-7 at three residues. Ser30 phosphorylation in the prodomain blocks interaction with Caspase-9 and prevents activation, Thr173 favors an inhibitory conformation, and Ser239 near the active site sterically hinders substrate binding — a two-pronged strategy that neutralizes both pro-caspase-7 and already-active enzyme.",
+      "zh-TW": "PAK2 直接結合並在三個殘基上磷酸化 Caspase-7。prodomain 上的 Ser30 磷酸化阻斷與 Caspase-9 的交互作用而阻止活化，Thr173 促成抑制性構形，而活性位點附近的 Ser239 則以立體障礙妨礙受質結合——這是一種雙管齊下的策略，同時中和前驅物 Caspase-7 與已活化的酵素。"
+    },
+    "confidence": 0.95,
+    "source_document": "PAK2.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "a0adfbbc6969",
+    "subject": "PAK2",
+    "predicate": "inhibits",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "By phosphorylating and inhibiting Caspase-7, PAK2 blocks the execution of Apoptosis and thereby promotes cell survival. The same kinase is also cleaved and constitutively activated by caspases during Apoptosis, generating a PAK-2p34 fragment that paradoxically executes the death program, making PAK2 a context-dependent switch.",
+      "zh-TW": "藉由磷酸化並抑制 Caspase-7，PAK2 阻斷 Apoptosis 的執行並促進細胞存活。同一激酶在 Apoptosis 期間也會被 caspase 切割並組成性活化，產生矛盾的執行死亡程式的 PAK-2p34 片段，使 PAK2 成為依情境而定的開關。"
+    },
+    "confidence": 0.9,
+    "source_document": "PAK2.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "a9cf09287eda",
+    "subject": "Rac1",
+    "predicate": "activates",
+    "object": "PAK2",
+    "context": {
+      "en-US": "PAK2 is a serine/threonine kinase of the PAK family held in an autoinhibited state by its CRIB domain. Binding of active Rac1 (or Cdc42) relieves autoinhibition by engaging the N-terminal regulatory domain, a mechanism that couples PAK2 to cytoskeletal dynamics and migration signaling.",
+      "zh-TW": "PAK2 是 PAK 家族的絲胺酸／蘇胺酸激酶，其 CRIB 區域使酵素處於自我抑制狀態。活化的 Rac1（或 Cdc42）結合並接合 N 端調節區域以解除自我抑制，此機制將 PAK2 與細胞骨架動態及遷移訊號相連。"
+    },
+    "confidence": 0.9,
+    "source_document": "PAK2.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "eebce985d7b9",
+    "subject": "PAK2",
+    "predicate": "drives",
+    "object": "Breast Cancer",
+    "context": {
+      "en-US": "PAK2 is frequently overexpressed in invasive ductal carcinoma of the Breast Cancer, and the PAK2-Caspase-7 axis is a major driver of resistance to DNA-damaging chemotherapeutics such as doxorubicin and staurosporine. PAK2 inhibitors are therefore being developed as chemosensitizers, and PAK2 also promotes Metastasis via LIMK and filamin phosphorylation.",
+      "zh-TW": "PAK2 在 Breast Cancer 的浸潤性導管癌中經常過度表現，PAK2–Caspase-7 軸是對 doxorubicin 與 staurosporine 等 DNA 損傷性化療藥物抗性的主要驅動因素。因此 PAK2 抑制劑正被開發為化療增敏劑，而 PAK2 亦透過磷酸化 LIMK 與 filamin 促進 Metastasis。"
+    },
+    "confidence": 0.9,
+    "source_document": "PAK2.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "ad0c390b29f8",
+    "subject": "PANX1",
+    "predicate": "transports",
+    "object": "cGAMP",
+    "context": {
+      "en-US": "PANX1 is a plasma-membrane channel whose pores open upon cGAS-STING stimulation to export the second messenger cGAMP into the extracellular milieu. Unlike gap junctions, which require direct cell-cell contact, this route is contact-independent and lets cGAMP diffuse to distant cells.",
+      "zh-TW": "PANX1 是質膜通道，其孔道在 cGAS-STING 受刺激時開啟，將第二信使 cGAMP 輸出至細胞外環境。與需要細胞直接接觸的 gap junction 不同，此途徑不依賴接觸，可讓 cGAMP 擴散至遠端細胞。"
+    },
+    "confidence": 0.95,
+    "source_document": "PANX1.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "006878922059",
+    "subject": "cGAMP",
+    "predicate": "activates",
+    "object": "STING",
+    "context": {
+      "en-US": "Extracellular cGAMP released through PANX1 diffuses to distant cells and engages the STING-IRF3 pathway there, propagating NF-κB-associated inflammatory transcription beyond the original activation site. Pharmacological or genetic inhibition of PANX1 limits this spread, marking it as a non-cell-autonomous amplifier of Neuroinflammation.",
+      "zh-TW": "經 PANX1 釋放的細胞外 cGAMP 擴散至遠端細胞，在該處啟動 STING–IRF3 途徑，將 NF-κB 相關的發炎性轉錄傳播至原本的活化位點之外。對 PANX1 的藥理或遺傳抑制可限制此擴散，顯示其為 Neuroinflammation 的非細胞自體性放大器。"
+    },
+    "confidence": 0.9,
+    "source_document": "PANX1.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "d0ed8af7524f",
+    "subject": "PANX1",
+    "predicate": "is_associated_with",
+    "object": "Pyroptosis",
+    "context": {
+      "en-US": "Beyond cGAMP release, PANX1 forms large-pore conduits permeable to ions and ATP and is best known for ATP release during inflammasome-associated Pyroptosis. The same channel protein thus participates in both inflammatory cell death and the intercellular propagation of innate immune signaling.",
+      "zh-TW": "除了釋放 cGAMP 之外，PANX1 還形成對離子與 ATP 通透的大孔道通徑，並以發炎小體相關 Pyroptosis 期間的 ATP 釋放最為人所知。因此同一通道蛋白同時參與發炎性細胞死亡與先天免疫訊號的細胞間傳播。"
+    },
+    "confidence": 0.85,
+    "source_document": "PANX1.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "ca3c12ced2e6",
+    "subject": "PANoptosome",
+    "predicate": "coordinates",
+    "object": "PANoptosis",
+    "context": {
+      "en-US": "The PANoptosome is the supramolecular complex that co-assembles the pyroptotic, apoptotic, and necroptotic arms so they fire simultaneously as PANoptosis. Because the three lethal pathways share one platform, blocking any single pathway does not prevent death, which is the complex's defining non-redundancy.",
+      "zh-TW": "PANoptosome 是使發炎性裂解凋亡、凋亡與壞死凋亡三條臂同時組裝並以 PANoptosis 形式共同發作的超分子複合體。由於三條致死途徑共用同一平台，阻斷任一途徑都無法阻止死亡，這正是該複合體定義性的非冗餘性。"
+    },
+    "confidence": 0.95,
+    "source_document": "PANoptosome.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "9bd1383fb16e",
+    "subject": "ZBP1",
+    "predicate": "nucleates",
+    "object": "PANoptosome",
+    "context": {
+      "en-US": "ZBP1 senses viral and endogenous Z-nucleic acids and nucleates the PANoptosome during viral infection or cytokine storm, directly linking the ZBP1-RIPK3 axis to co-activated necroptosis, caspase-8-dependent apoptosis, and inflammasome-driven pyroptosis. Targeting this shared upstream sensor is expected to succeed where single-pathway inhibitors fail.",
+      "zh-TW": "ZBP1 感知病毒與內源性 Z 型核酸，並在病毒感染或細胞激素風暴期間核化 PANoptosome，將 ZBP1–RIPK3 軸直接連結至共同活化的壞死凋亡、caspase-8 相依凋亡與發炎小體驅動的發炎性裂解凋亡。針對這個共享的上游感測器進行標定，被認為可在單途徑抑制劑失敗之處奏效。"
+    },
+    "confidence": 0.9,
+    "source_document": "PANoptosome.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "94657a07cbdf",
+    "subject": "AIM2",
+    "predicate": "nucleates",
+    "object": "PANoptosome",
+    "context": {
+      "en-US": "AIM2 is an alternative nucleating sensor that assembles PANoptosomes in response to distinct pathogens. Because the same platform can be seeded by different innate-immune sensors, PANoptosome assembly is input-flexible while remaining non-redundant once formed.",
+      "zh-TW": "AIM2 是另一種核化感測器，會因應不同病原體而組裝 PANoptosome。由於同一平台可由不同的先天免疫感測器啟動，PANoptosome 的組裝對輸入具彈性，但一經形成仍保有非冗餘性。"
+    },
+    "confidence": 0.9,
+    "source_document": "PANoptosome.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "9b2f0eebb65d",
+    "subject": "RIPK3",
+    "predicate": "is_a_component_of",
+    "object": "PANoptosome",
+    "context": {
+      "en-US": "RIPK3, together with RIPK1, FADD, and Caspase-8, forms the shared death-receptor core of the PANoptosome. RIPK3 phosphorylation of MLKL is the necroptotic execution arm, while the same RIPK3-centered platform is what allows necroptosis, apoptosis, and pyroptosis to be co-activated in a single cell.",
+      "zh-TW": "RIPK3 與 RIPK1、FADD、Caspase-8 共同構成 PANoptosome 的共享死亡受體核心。RIPK3 對 MLKL 的磷酸化是壞死凋亡執行臂，而正是這個以 RIPK3 為中心的平台，使同一細胞中的壞死凋亡、凋亡與發炎性裂解凋亡得以共同活化。"
+    },
+    "confidence": 0.9,
+    "source_document": "PANoptosome.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "3a10b5dfc59f",
+    "subject": "TAK1",
+    "predicate": "suppresses",
+    "object": "PANoptosome",
+    "context": {
+      "en-US": "Under physiological conditions kinase activity of TAK1 restrains death signaling; loss of TAK1 activity, for instance via Yersinia effectors, converts the same signaling platform into a death switch and licenses PANoptosome assembly. TAK1 therefore acts as the brake whose removal unleashes all three lethal arms at once.",
+      "zh-TW": "在生理條件下，TAK1 的激酶活性會約束死亡訊號傳遞；TAK1 活性喪失（例如經由 Yersinia 效應蛋白）會將同一訊號平台轉化為死亡開關，並解除對 PANoptosome 組裝的抑制。因此 TAK1 扮演同時釋放三條致死臂的煞車。"
+    },
+    "confidence": 0.9,
+    "source_document": "PANoptosome.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "0aab43da2213",
+    "subject": "PARP1",
+    "predicate": "produces",
+    "object": "PAR",
+    "context": {
+      "en-US": "PARP1 synthesizes the branched, nucleic-acid-like polymer PAR from NAD+ at sites of DNA damage. At physiological load PAR is a repair scaffold, but at 10-500x overproduction the polymer itself becomes the parthanatos death signal, with PARP1 hyperactivation setting the toxic dose.",
+      "zh-TW": "PARP1 在 DNA 損傷位點以 NAD+ 合成支鏈狀、類似核酸的聚合物 PAR。在生理負載下 PAR 是修復支架，但在 10–500 倍的過量生產下，該聚合物本身即成為 parthanatos 的死亡訊號，PARP1 過度活化決定了毒性劑量。"
+    },
+    "confidence": 0.95,
+    "source_document": "PAR.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "ba0d9b524840",
+    "subject": "PAR",
+    "predicate": "causes",
+    "object": "Parthanatos",
+    "context": {
+      "en-US": "PAR accumulation is the commitment point of Parthanatos: cytosolic PAR peaks within minutes, exits the nucleus carried by PARylated histone H1.2 in an Iduna-gated step, and reaches mitochondria to trigger death. Purified PAR delivered by lipid carrier kills neurons dose- and length-dependently and is blocked by PARG but not by z-VAD, formal proof that the polymer rather than the enzyme is the lethal species.",
+      "zh-TW": "PAR 的累積是 Parthanatos 的承諾點：細胞質中的 PAR 在數分鐘內達峰，藉由 PAR 化組蛋白 H1.2 並在 Iduna 把關下離開細胞核，抵達粒線體引發死亡。由脂質載體送入的純化 PAR 以劑量與鏈長依賴方式殺死神經元，且可被 PARG 阻斷但不被 z-VAD 阻斷，正式證明致命物種是聚合物而非酵素。"
+    },
+    "confidence": 0.95,
+    "source_document": "PAR.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "b695a84ca080",
+    "subject": "PAR",
+    "predicate": "binds",
+    "object": "Apoptosis-Inducing Factor",
+    "context": {
+      "en-US": "PAR binds the PAR-binding motif on Apoptosis-Inducing Factor (AIF) domain D3 at Arg588/Lys589/Arg592, triggering AIF release from mitochondria and its nuclear translocation. This binding is the mitochondrial death hit that converts a metabolic lesion into executed parthanatos.",
+      "zh-TW": "PAR 會結合 Apoptosis-Inducing Factor（AIF）D3 區域的 PAR 結合基序（Arg588/Lys589/Arg592），觸發 AIF 自粒線體釋放並向細胞核轉位。此結合是粒線體層面的死亡攻擊，將代謝層面的損傷轉化為已執行的 parthanatos。"
+    },
+    "confidence": 0.9,
+    "source_document": "PAR.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "b6a848e8d248",
+    "subject": "PARG",
+    "predicate": "degrades",
+    "object": "PAR",
+    "context": {
+      "en-US": "PARG is the primary poly(ADP-ribose) glycohydrolase, using endo- and exo-glycosidase activity to hydrolyze the glycosidic bonds between ADP-ribose units of PAR, releasing free ADP-ribose. Predigestion of PAR by PARG abolishes its toxicity, and PARG knockout is lethal from PAR accumulation.",
+      "zh-TW": "PARG 是主要的 poly(ADP-ribose) 糖苷水解酶，利用內切與外切糖苷酶活性水解 PAR 中 ADP-ribose 單元之間的糖苷鍵，釋出游離的 ADP-ribose。經 PARG 預先消化後的 PAR 毒性消失，而 PARG 敲除會因 PAR 累積而致死。"
+    },
+    "confidence": 0.95,
+    "source_document": "PARG.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "4369c1159cc0",
+    "subject": "PARG",
+    "predicate": "regulates",
+    "object": "Parthanatos",
+    "context": {
+      "en-US": "PARG dosage sets parthanatos bidirectionally: cytosolic PARG overexpression lowers cytosolic PAR, halves NMDA/MNNG death, and reduces infarct volume by 62% in transgenics, while PARG knockdown prolongs PAR and adds roughly 30% MNNG death. A 2026 preprint adds the twist that complete PARG inhibition prevents parthanatos, so both polymer formation and hydrolysis are required.",
+      "zh-TW": "PARG 的劑量會雙向決定 parthanatos：細胞質 PARG 過量表現會降低細胞質 PAR，將 NMDA/MNNG 誘導的死亡減半，並在轉基因鼠中使梗死體積減少 62%；相反地，PARG 敲低會延長 PAR 存在並增加約 30% 的 MNNG 死亡。2026 年 preprint 補充了完全抑制 PARG 反而阻止 parthanatos 的轉折，顯示聚合物的生成與水解皆為必需。"
+    },
+    "confidence": 0.9,
+    "source_document": "PARG.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "f2a2217779e1",
+    "subject": "PARG",
+    "predicate": "increases_susceptibility_to",
+    "object": "Stroke",
+    "context": {
+      "en-US": "PARG dosage bidirectionally sets infarct outcome: PARG transgenic mice show a 62% reduction in hemisphere infarct after 120-minute MCAO, whereas heterozygotes show 56% larger infarcts after 90-minute MCAO and their neurons make roughly twice the PAR with about 20% excess death. PARG therefore is a dosage-sensitive determinant of ischemic injury.",
+      "zh-TW": "PARG 的劑量會雙向決定梗死結果：PARG 轉基因鼠在 120 分鐘 MCAO 後半球梗死減少 62%，而異型合子鼠在 90 分鐘 MCAO 後梗死增加 56%，其神經元製造的 PAR 約為兩倍並伴隨約 20% 的額外死亡。因此 PARG 是缺血性損傷的劑量敏感性決定因子。"
+    },
+    "confidence": 0.9,
+    "source_document": "PARG.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "97fcab803bda",
+    "subject": "PARL",
+    "predicate": "regulates",
+    "object": "Mitophagy",
+    "context": {
+      "en-US": "PARL gates Mitophagy by deciding the import-and-degrade versus stabilize-and-signal outcome. In healthy mitochondria PINK1 import continues and PARL degrades it; when membrane potential collapses, import halts, PINK1 stabilizes on the outer membrane, phosphorylates ubiquitin and Parkin, and initiates the mitophagy cascade.",
+      "zh-TW": "PARL 藉由決定「輸入並降解」或「穩定並發訊」的結果來把關 Mitophagy。在健康粒線體中 PINK1 的輸入持續進行並被 PARL 降解；當膜電位崩潰時輸入停止，PINK1 穩定於外膜，磷酸化 ubiquitin 與 Parkin，啟動 mitophagy 級聯反應。"
+    },
+    "confidence": 0.95,
+    "source_document": "PARL.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "7b5e337b10db",
+    "subject": "PINK1",
+    "predicate": "phosphorylates",
+    "object": "Parkin",
+    "context": {
+      "en-US": "When PINK1 import is blocked and PINK1 stabilizes on the outer mitochondrial membrane, it phosphorylates ubiquitin and thereby recruits and activates Parkin, initiating the Mitophagy cascade. PINK1-Parkin signaling is thus the canonical pathway that PARL normally keeps switched off in healthy mitochondria.",
+      "zh-TW": "當 PINK1 的輸入被阻斷而 PINK1 穩定於粒線體外膜時，它會磷酸化 ubiquitin，進而招募並活化 Parkin，啟動 Mitophagy 級聯反應。因此 PINK1–Parkin 訊號即是 PARL 在健康粒線體中通常保持關閉的典型途徑。"
+    },
+    "confidence": 0.9,
+    "source_document": "PARL.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "afaf117e8cc9",
+    "subject": "PARL",
+    "predicate": "is_localized_to",
+    "object": "Inner Mitochondrial Membrane",
+    "context": {
+      "en-US": "PARL resides in the Inner Mitochondrial Membrane as a rhomboid intramembrane serine protease, positioning it to cut the transmembrane segment of PINK1 immediately after the protein crosses the outer membrane via the Translocase of the Outer Mitochondrial Membrane. This localization is what makes PARL a mitochondrial quality-control gatekeeper.",
+      "zh-TW": "PARL 作為 rhomboid 跨膜絲胺酸蛋白酶駐紮於 Inner Mitochondrial Membrane，使其能在 PINK1 經由 Translocase of the Outer Mitochondrial Membrane 跨越外膜後，隨即切割其跨膜區段。此定位使 PARL 成為粒線體品質管制把關者。"
+    },
+    "confidence": 0.95,
+    "source_document": "PARL.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "0fa049661f19",
+    "subject": "SIRT6",
+    "predicate": "inhibits",
+    "object": "PCSK9",
+    "context": {
+      "en-US": "SIRT6 deficiency accelerates Atherosclerosis through dysregulation of PCSK9 and consequent LDL accumulation, indicating that SIRT6 normally constrains PCSK9-driven plasma LDL elevation and vascular disease. PCSK9 itself is a secreted protease that drives LDL receptor degradation, so SIRT6 acts upstream to limit the atherogenic node.",
+      "zh-TW": "SIRT6 缺失會透過 PCSK9 的失調與隨之而來的 LDL 累積而加速 Atherosclerosis，表示 SIRT6 正常情況下會約束 PCSK9 驅動的血漿 LDL 升高與血管疾病。PCSK9 本身是促進 LDL 受體降解的分泌型蛋白酶，因此 SIRT6 在上游作用以限制這個致粥樣硬化節點。"
+    },
+    "confidence": 0.9,
+    "source_document": "PCSK9.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "65193905ef06",
+    "subject": "PCSK9",
+    "predicate": "contributes_to",
+    "object": "Atherosclerosis",
+    "context": {
+      "en-US": "PCSK9 is a secreted protease that degrades LDL receptors, raising plasma LDL and thereby increasing Cardiovascular Disease risk. It is a major cardiovascular risk node, and its dysregulation downstream of SIRT6 loss ties sirtuin activity to lipid metabolism and vascular disease.",
+      "zh-TW": "PCSK9 是降解 LDL 受體的分泌型蛋白酶，會升高血漿 LDL，進而增加 Cardiovascular Disease 風險。它是主要的心血管風險節點，而 SIRT6 缺失下游的 PCSK9 失調把 sirtuin 活性與脂質代謝及血管疾病連結起來。"
+    },
+    "confidence": 0.9,
+    "source_document": "PCSK9.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "6756956486fc",
+    "subject": "PD-1",
+    "predicate": "binds",
+    "object": "PD-L1",
+    "context": {
+      "en-US": "PD-1, a type I transmembrane inhibitory receptor of the CD28 family with ITIM and ITSM motifs, is engaged by PD-L1 (B7-H1/CD274) and PD-L2. Ligand engagement recruits the SHP-1 and SHP-2 phosphatases to the ITSM, dephosphorylating downstream CD28/PI3K/AKT and RAS-MEK-ERK components and suppressing T-cell proliferation, cytokine production, and cytotoxicity.",
+      "zh-TW": "PD-1 是 CD28 家族具 ITIM 與 ITSM 模體的 I 型跨膜抑制性受體，由 PD-L1（B7-H1/CD274）與 PD-L2 結合。配體結合會將 SHP-1 與 SHP-2 磷酸酶招募至 ITSM，使下游 CD28/PI3K/AKT 與 RAS-MEK-ERK 成分去磷酸化，抑制 T 細胞增殖、細胞激素生成與細胞毒性。"
+    },
+    "confidence": 0.95,
+    "source_document": "PD-1.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "e1c2817aa73e",
+    "subject": "PD-1",
+    "predicate": "suppresses",
+    "object": "CD8+ T Cell",
+    "context": {
+      "en-US": "PD-1 delivers negative signals that counteract CD28 co-stimulation, lowering PI3K/AKT and MAPK output and blunting IL-2 and IFN-gamma production. Chronic antigen exposure drives sustained PD-1 upregulation and a hyporesponsive exhausted T-cell state, which is why blocking PD-1 reinvigorates exhausted CD8+ T Cell effectors.",
+      "zh-TW": "PD-1 傳遞與 CD28 共刺激相抗衡的負向訊號，降低 PI3K/AKT 與 MAPK 輸出，削弱 IL-2 與 IFN-γ 的生成。持續的抗原暴露會驅使 PD-1 持續上調並形成低反應的耗竭 T 細胞狀態，因此阻斷 PD-1 可重新活化耗竭的 CD8+ T Cell 效應細胞。"
+    },
+    "confidence": 0.9,
+    "source_document": "PD-1.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "9fe1bd96aa6a",
+    "subject": "PD-L1",
+    "predicate": "contributes_to",
+    "object": "Immune Evasion",
+    "context": {
+      "en-US": "PD-L1 is broadly expressed on hematopoietic and non-hematopoietic cells including endothelium, epithelium, and tumor cells, turning the PD-1/PD-L1 axis into a localized don't-attack-here signal. Tumors and Senescent Cells co-opt this protective axis to escape T-cell and NK-cell clearance, establishing Immune Evasion.",
+      "zh-TW": "PD-L1 廣泛表現於造血與非造血細胞，包括內皮、上皮與腫瘤細胞，使 PD-1/PD-L1 軸成為局部的「勿攻擊此處」訊號。腫瘤與 Senescent Cells 挪用此保護軸以逃避免 T 細胞與 NK 細胞清除，從而建立 Immune Evasion。"
+    },
+    "confidence": 0.9,
+    "source_document": "PD-1.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "fe24bcc8f06a",
+    "subject": "Pembrolizumab",
+    "predicate": "targets",
+    "object": "PD-1",
+    "context": {
+      "en-US": "Blocking antibodies against PD-1 such as nivolumab and pembrolizumab, and against PD-L1 such as atezolizumab and avelumab, reinvigorate exhausted CD8+ T Cell effectors and are approved across many malignancies. Response is strongest in tumors with neo-antigen burden and PD-L1 expression, and is limited by primary resistance and immune-related adverse events from loss of tolerance.",
+      "zh-TW": "針對 PD-1 的阻斷抗體如 nivolumab 與 pembrolizumab，以及針對 PD-L1 的 atezolizumab 與 avelumab，可重新活化耗竭的 CD8+ T Cell 效應細胞，並已於多種腫瘤獲得核准。反應在具有新抗原負載且表現 PD-L1 的腫瘤中最強，並受原發抗藥性與失去耐受性所致的免疫相關不良事件所限。"
+    },
+    "confidence": 0.9,
+    "source_document": "PD-1.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "632e7f2291d8",
+    "subject": "PDA",
+    "predicate": "is_a_type_of",
+    "object": "Pancreatic Cancer",
+    "context": {
+      "en-US": "PDA (pancreatic ductal adenocarcinoma) accounts for approximately 85% of all pancreatic malignancies, arising from the ductal epithelium of the exocrine pancreas. It is among the most lethal cancers, with roughly 12% five-year survival across stages, and is projected to become the second leading cause of cancer death by 2030.",
+      "zh-TW": "PDA（pancreatic ductal adenocarcinoma）約佔所有胰臟惡性腫瘤的 85%，源自外分泌胰臟的導管上皮。它是最致命的癌症之一，各期合計五年存活率約 12%，並預計於 2030 年成為癌症死亡第二大原因。"
+    },
+    "confidence": 0.95,
+    "source_document": "PDA.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "8fbd8243f947",
+    "subject": "KRAS",
+    "predicate": "is_activated_in",
+    "object": "PDA",
+    "context": {
+      "en-US": "Activating KRAS mutations, predominantly G12D, G12V, and G12R, are found in over 90% of PDA and are considered an early initiating event. They constitutively activate MAPK and PI3K signaling, driving uncontrolled proliferation, survival, metabolic reprogramming, and KRAS-dependent Autophagy that supports tumor growth.",
+      "zh-TW": "活化型 KRAS 突變（以 G12D、G12V 與 G12R 為主）見於超過 90% 的 PDA，被視為早期起始事件。它們組成性活化 MAPK 與 PI3K 訊號，驅動失控增殖、存活、代謝重編程，以及支持腫瘤生長的 KRAS 相依 Autophagy。"
+    },
+    "confidence": 0.95,
+    "source_document": "PDA.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "4af1f4e42cc7",
+    "subject": "KRAS",
+    "predicate": "activates",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "KRAS-driven Autophagy has a dual role in PDA: it supports tumor metabolism, survival, and chemoresistance, and high basal Autophagy appears to be a prerequisite for tumorigenic growth (Yang et al. 2011b). This is why autophagy inhibitors such as hydroxychloroquine are being investigated as adjuncts to chemotherapy.",
+      "zh-TW": "在 PDA 中，KRAS 驅動的 Autophagy 具有雙重角色：它支持腫瘤代謝、存活與化療抗藥性，且高基礎 Autophagy 似乎是腫瘤生成的先決條件（Yang 等，2011b）。這也是為何 hydroxychloroquine 等自噬抑制劑正被研究作為化療的輔助療法。"
+    },
+    "confidence": 0.9,
+    "source_document": "PDA.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "29e7c29a952f",
+    "subject": "SMAD4",
+    "predicate": "is_inactivated_in",
+    "object": "PDA",
+    "context": {
+      "en-US": "Loss of SMAD4 (DPC4), a key mediator of TGFβ signaling, occurs in roughly 55% of advanced PDA and is associated with poor prognosis and metastatic propensity. Because SMAD4 is the canonical tumor suppressor lost in pancreatic cancer, its absence distinguishes PDA from other KRAS-driven malignancies.",
+      "zh-TW": "TGFβ 訊號的關鍵介導因子 SMAD4（DPC4）之缺失發生於約 55% 的晚期 PDA，並與不良預後及轉移傾向相關。由於 SMAD4 是胰臟癌中典型流失的腫瘤抑制因子，其缺乏使 PDA 與其他 KRAS 驅動的惡性腫瘤有所區別。"
+    },
+    "confidence": 0.9,
+    "source_document": "PDA.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "294957861202",
+    "subject": "Olaparib",
+    "predicate": "treats",
+    "object": "PDA",
+    "context": {
+      "en-US": "Olaparib, a PARP inhibitor, is approved as maintenance therapy for patients with germline BRCA1 or BRCA2 mutations who have not progressed on platinum-based chemotherapy, based on the POLO trial. This makes germline BRCA2 a predictive biomarker for PARP-inhibitor sensitivity in PDA.",
+      "zh-TW": "Olaparib（PARP 抑制劑）依 POLO 試驗結果，獲核准作為帶有胚系 BRCA1 或 BRCA2 突變、且在鉑類化療後未進展患者的維持治療。這使胚系 BRCA2 成為 PDA 中對 PARP 抑制劑敏感性的預測性生物標記。"
+    },
+    "confidence": 0.9,
+    "source_document": "PDA.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "02639c8ae5db",
+    "subject": "PDGFAA",
+    "predicate": "binds",
+    "object": "PDGFR",
+    "context": {
+      "en-US": "PDGFAA is a PDGF-A homodimer secreted by senescent fibroblasts and endothelial cells at sites of cutaneous injury. It binds preferentially the PDGF receptor alpha (PDGFRalpha/CD140a), triggering receptor dimerization and tyrosine kinase signaling through PI3K, MAPK/ERK, and PLC-gamma pathways that drive migration, proliferation, and differentiation into alpha-SMA-positive myofibroblasts.",
+      "zh-TW": "PDGFAA 是由傷口處的 Senescent fibroblasts 與內皮細胞分泌的 PDGF-A 同源二聚體。它優先結合 PDGF 受體 α 型（PDGFRα/CD140a），觸發受體二聚化與經由 PI3K、MAPK/ERK 與 PLC-γ 的酪胺酸激酶訊號，驅動遷移、增殖與分化為 α-SMA 陽性的肌成纖維細胞。"
+    },
+    "confidence": 0.95,
+    "source_document": "PDGFAA.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "8209aeadf3c4",
+    "subject": "PDGFAA",
+    "predicate": "is_associated_with",
+    "object": "SASP",
+    "context": {
+      "en-US": "PDGFAA is a context-specific, beneficial SASP growth factor: senescent cells accumulate transiently at the wound edge and release PDGFAA with osteopontin to recruit and differentiate fibroblasts into matrix-producing myofibroblasts, supporting re-epithelialization and Wound Healing. Removing senescent cells shortly after injury impairs wound closure, showing why indiscriminate senolysis can be harmful.",
+      "zh-TW": "PDGFAA 是情境特定且有益的 SASP 生長因子：Senescent Cells 會在傷口邊緣短暫累積，並釋放 PDGFAA 與 osteopontin，招募並分化纖維細胞為製造基質的肌成纖維細胞，支持再上皮化與 Wound Healing。於傷後短期移除衰老細胞會損害傷口閉合，顯示為何無差別的 senolysis 可能有害。"
+    },
+    "confidence": 0.9,
+    "source_document": "PDGFAA.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "bc0abb12b7f2",
+    "subject": "Senescent Cells",
+    "predicate": "produces",
+    "object": "PDGFAA",
+    "context": {
+      "en-US": "Senescent Cells transiently accumulate at the wound edge during cutaneous injury and secrete PDGFAA alongside osteopontin. The secreted growth factor is what recruits and differentiates fibroblasts into myofibroblasts, so the senescent cell is not merely a bystander but a required temporary signal source for optimal tissue repair.",
+      "zh-TW": "在皮膚損傷期間，Senescent Cells 會於傷口邊緣短暫累積，並與 osteopontin 一同分泌 PDGFAA。所分泌的這個生長因子正是招募並分化纖維細胞為肌成纖維細胞的訊號，因此衰老細胞並非單純旁觀者，而是最佳組織修復所必需的暫時訊號來源。"
+    },
+    "confidence": 0.9,
+    "source_document": "PDGFAA.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "502db68bd114",
+    "subject": "PDK1",
+    "predicate": "phosphorylates",
+    "object": "Akt",
+    "context": {
+      "en-US": "Full activation of Akt requires phosphorylation at two sites: Ser308 by PDK1 and Ser473 by mTORC2 (Sarbassov et al. 2005). PDK1 is therefore the PI3K-downstream kinase that primes Akt at Ser308, converting partial phosphorylation into the fully activated kinase necessary for survival and growth signaling.",
+      "zh-TW": "Akt 的完全活化需要兩個位點的磷酸化：Ser308 由 PDK1 磷酸化，Ser473 則由 mTORC2 磷酸化（Sarbassov 等，2005）。因此 PDK1 是 PI3K 下游的激酶，在 Ser308 為 Akt 預備磷酸化，將部分磷酸化轉為存活與生長訊號所必需的完全活化型激酶。"
+    },
+    "confidence": 0.9,
+    "source_document": "PDK1.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "8a7acf5c81e9",
+    "subject": "PECAM1",
+    "predicate": "is_expressed_in",
+    "object": "Endothelial Cells",
+    "context": {
+      "en-US": "PECAM1 (CD31) is a 130-kDa immunoglobulin-superfamily transmembrane glycoprotein constitutively expressed on endothelial cells, platelets, and subsets of leukocytes. Its homophilic binding organizes cell-cell adhesion at junctions, so constitutive expression is a practical marker of endothelial identity in immunohistochemistry and flow cytometry.",
+      "zh-TW": "PECAM1（CD31）是 130 kDa 的免疫球蛋白超家族跨膜糖蛋白，組成型表現於 Endothelial Cells、Platelets 與部分白血球。其同型結合在連接處組織細胞間黏附，因此組成型表現是免疫組織化學與流式細胞術中判定內皮身分的重要標記。"
+    },
+    "confidence": 0.95,
+    "source_document": "PECAM1.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "0ecdbc77d48c",
+    "subject": "Endothelial-to-Mesenchymal Transition",
+    "predicate": "downregulates",
+    "object": "PECAM1",
+    "context": {
+      "en-US": "Loss of PECAM1 expression is a hallmark of Endothelial-to-Mesenchymal Transition (EndoMT): PECAM1 is downregulated 55% during CXCL12-driven EndoMT, the most pronounced loss among endothelial identity markers alongside CDH5. Because loss of PECAM1 contributes to vascular barrier breakdown and age-related vascular dysfunction, EndoMT directly erodes endothelial function.",
+      "zh-TW": "PECAM1 表現喪失是 Endothelial-to-Mesenchymal Transition（EndoMT）的標誌之一：在 CXCL12 驅動的 EndoMT 中，PECAM1 下調 55%，是內皮身分標記中降幅最大者之一（與 CDH5 並列）。由於 PECAM1 喪失會促成血管屏障崩解與老化相關的血管功能障礙，EndoMT 會直接侵蝕內皮功能。"
+    },
+    "confidence": 0.9,
+    "source_document": "PECAM1.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "a53b4dd1e932",
+    "subject": "PECAM1",
+    "predicate": "is_associated_with",
+    "object": "Angiogenesis",
+    "context": {
+      "en-US": "PECAM1 modulates angiogenic signaling through VEGF receptor interactions and acts as a mechanosensor in endothelial cells, in addition to mediating leukocyte adhesion and vascular integrity. Because it couples mechanical cues to endothelial signaling, PECAM1 participates in the angiogenic switch and inflammatory vessel remodeling.",
+      "zh-TW": "除了介導白血球黏附與血管完整性之外，PECAM1 還透過與 VEGF 受體的交互作用調節血管新生訊號，並在 Endothelial Cells 中作為機械感測器。由於它把機械性線索與內皮訊號相連，PECAM1 參與血管新生轉換與發炎性血管重塑。"
+    },
+    "confidence": 0.8,
+    "source_document": "PECAM1.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "83d46a5ca499",
+    "subject": "PERK",
+    "predicate": "phosphorylates",
+    "object": "eIF2α",
+    "context": {
+      "en-US": "PERK (EIF2AK3) is a type I transmembrane ER-resident kinase that senses unfolded proteins via its luminal domain. Upon ER stress it dimerizes and autophosphorylates, then phosphorylates eIF2alpha at Ser51, attenuating global translation while selectively upregulating ATF4 translation.",
+      "zh-TW": "PERK（EIF2AK3）是 I 型跨膜內質網駐留激酶，透過其腔內區域感知未折疊蛋白。當 ER stress 發生時，PERK 二聚化並自體磷酸化，接著在 Ser51 位點磷酸化 eIF2α，抑制全域轉譯的同時選擇性提升 ATF4 的轉譯。"
+    },
+    "confidence": 0.95,
+    "source_document": "PERK.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "4286caa82d35",
+    "subject": "PERK",
+    "predicate": "activates",
+    "object": "Unfolded Protein Response",
+    "context": {
+      "en-US": "PERK is an ER integral membrane protein that senses protein missfolding in the ER lumen and, upon sensing, activates the Unfolded Protein Response. As one of the three canonical ER stress sensors, PERK couples luminal misfolding to a cytosolic signaling output and to global translation attenuation.",
+      "zh-TW": "PERK 是內膜整合蛋白，感知內質網腔內的蛋白錯誤折疊並在感知後啟動 Unfolded Protein Response。作為三個典型 ER stress 感測器之一，PERK 將腔內的錯誤折疊與細胞質訊號輸出及全域轉譯抑制相耦合。"
+    },
+    "confidence": 0.9,
+    "source_document": "PERK.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "d0a6193b94bb",
+    "subject": "PERK",
+    "predicate": "induces",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "PERK-mediated eIF2alpha phosphorylation induces Autophagy as a cytoprotective response to ER Stress, with ATF4 and CHOP downstream of PERK transactivating autophagy genes. In cancer, this PERK-dependent Autophagy supports tumor survival under hypoxia and nutrient deprivation, which is why PERK inhibitors are being explored as therapeutics.",
+      "zh-TW": "PERK 媒介的 eIF2α 磷酸化會誘導 Autophagy 作為對 ER Stress 的細胞保護反應，位於 PERK 下游的 ATF4 與 CHOP 會轉錄活化自噬基因。在癌症中，這個 PERK 相依的 Autophagy 支撐腫瘤在缺氧與養分缺乏下的存活，因此 PERK 抑制劑正被探索作為治療手段。"
+    },
+    "confidence": 0.9,
+    "source_document": "PERK.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "2624e7047371",
+    "subject": "PERK",
+    "predicate": "is_required_for",
+    "object": "TFE3",
+    "context": {
+      "en-US": "TFE3 nuclear translocation under ER stress is mTORC1 independent but requires PERK, the ER integral membrane protein that senses protein missfolding. PERK therefore couples the integrated stress response to lysosomal biogenesis and autophagy gene programs, positioning it upstream of TFE3-dependent stress adaptation.",
+      "zh-TW": "ER stress 下 TFE3 的核轉位不依賴 mTORC1，但需要作為內膜整合蛋白、負責感知蛋白錯誤折疊的 PERK。因此 PERK 將整合性壓力反應與溶酶體生成及自噬基因程式相耦合，位於 TFE3 相依的壓力適應之上游。"
+    },
+    "confidence": 0.85,
+    "source_document": "PERK.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "d883dd6a2e31",
+    "subject": "PEX Genes",
+    "predicate": "is_required_for",
+    "object": "Peroxisome",
+    "context": {
+      "en-US": "At least 14 known PEX genes in humans encode peroxins required for Peroxisome biogenesis, assembly, and function. They execute three core processes: PTS1/PTS2 receptor cycling for matrix protein import, membrane assembly and de novo peroxisome formation from the Endoplasmic Reticulum via PEX3, PEX16, and PEX19, and proliferation through PEX11-mediated fission.",
+      "zh-TW": "人類至少有 14 個已知的 PEX 基因，其編碼的 peroxin 是 Peroxisome 生物生成、組裝與功能所必需。它們執行三項核心過程：PTS1/PTS2 受體循環以進行基質蛋白輸入、經由 PEX3、PEX16 與 PEX19 自 Endoplasmic Reticulum 進行膜組裝與新生過氧化體形成，以及透過 PEX11 介導的分裂進行增殖。"
+    },
+    "confidence": 0.95,
+    "source_document": "PEX Genes.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "520aa2c14125",
+    "subject": "PEX5",
+    "predicate": "transports",
+    "object": "Peroxisome",
+    "context": {
+      "en-US": "PEX5 is the PTS1 receptor that recognizes peroxisomal targeting signals on matrix proteins in the Cytosol and shuttles them to the peroxisomal membrane via docking complexes PEX13 and PEX14. After cargo release, PEX5 is monoubiquitinated by PEX2, PEX10, and PEX12 and recycled back to the cytosol, giving PEX proteins the ATP-independent, receptor-cycling architecture of peroxisomal import.",
+      "zh-TW": "PEX5 是 PTS1 受體，在 Cytosol 中辨識基質蛋白上的過氧化體定位訊號，並經由 PEX13 與 PEX14 的 docking 複合體將其運送至過氧化體膜。貨物釋放後，PEX5 會被 PEX2、PEX10 與 PEX12 單泛素化並回收至細胞質，賦予 PEX 蛋白不依賴 ATP、受體循環式的過氧化體輸入架構。"
+    },
+    "confidence": 0.95,
+    "source_document": "PEX Genes.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "c8f29fa9ac1c",
+    "subject": "PEX1",
+    "predicate": "mutations_cause",
+    "object": "Zellweger syndrome",
+    "context": {
+      "en-US": "Mutations in PEX genes cause the Zellweger Spectrum Disorders, a group of autosomal recessive peroxisomal biogenesis disorders; PEX1 mutations account for roughly 60% of cases, with the c.2528G>A (G843D) allele the most common. Loss of peroxisomal function causes accumulation of very-long-chain Fatty acid, phytanic acid, and bile acid intermediates.",
+      "zh-TW": "PEX 基因突變會造成 Zellweger Spectrum Disorders 這群體染色體隱性過氧化體生物生成疾患；其中 PEX1 突變約佔病例的 60%，c.2528G>A（G843D）等位基因最為常見。過氧化體功能喪失導致超長鏈 Fatty acid、植烷酸與膽汁酸中間產物累積。"
+    },
+    "confidence": 0.9,
+    "source_document": "PEX Genes.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "23a9c1a2d4c0",
+    "subject": "Zellweger syndrome",
+    "predicate": "is_a_type_of",
+    "object": "Neonatal Adrenoleukodystrophy",
+    "context": {
+      "en-US": "The Zellweger Spectrum Disorders span a severity range: Zellweger syndrome is the severe form, Neonatal Adrenoleukodystrophy the intermediate form, and the mildest presentation resembles Refsum disease. This grading of one peroxisomal biogenesis defect into phenotypic tiers is a defining feature of the PEX disease spectrum.",
+      "zh-TW": "Zellweger Spectrum Disorders 跨越一個嚴重程度範圍：Zellweger syndrome 為嚴重型，Neonatal Adrenoleukodystrophy 為中間型，最輕微的表現型則近似 Refsum disease。將同一過氧化體生物生成缺陷分級為不同表型層級，是 PEX 疾病譜系的定義性特徵。"
+    },
+    "confidence": 0.85,
+    "source_document": "PEX Genes.md",
+    "created": "2026-09-29T17:35:09Z",
+    "updated": "2026-09-29T17:35:09Z"
   }
 ]
