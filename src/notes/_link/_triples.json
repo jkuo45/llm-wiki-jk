@@ -40990,5 +40990,775 @@
     "source_document": "Ligand-conjugated Nanoparticles.md",
     "created": "2026-09-29T15:09:12Z",
     "updated": "2026-09-29T15:09:12Z"
+  },
+  {
+    "id": "879724ee6f01",
+    "subject": "Quorum sensing",
+    "predicate": "is_similar_to",
+    "object": "Mitochondrial Unfolded Protein Response",
+    "context": {
+      "en-US": "Quorum sensing, in which bacteria release diffusible autoinducers whose concentration reports population density and coordinates collective gene expression, has been proposed as a conceptual model for mitochondrial-to-nuclear communication: stressed mitochondria release peptides or metabolites that act as retrograde signals engaging SKN-1/NRF2 and Rtg1/Rtg3. Both systems rely on a threshold-dependent signal that integrates the status of many cells or many organelles rather than acting as an all-or-none single-cell switch.",
+      "zh-TW": "群體感應（quorum sensing）是細菌釋放可擴散的自誘導物、其濃度反映族群密度並協調集體基因表現的細胞間通訊系統，已被提出作為粒線體-to-細胞核通訊的概念模型：受壓的粒線體釋放胜肽或代謝物作為逆行訊號，啟動 SKN-1/NRF2 與 Rtg1/Rtg3。兩者都依賴閾值依賴型訊號，該訊號整合的是多數細胞或多數胞器（而非單一細胞）的狀態，而非全有或全無的單一細胞開關。"
+    },
+    "confidence": 0.7,
+    "source_document": "Quorum sensing.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "812208aab4a5",
+    "subject": "Racemization",
+    "predicate": "impairs",
+    "object": "Epinephrine",
+    "context": {
+      "en-US": "Racemization of L-epinephrine to the D-isomer, promoted by heat and pH changes during storage, is a pharmaceutical stability problem: the D-isomer is significantly less biologically active, so racemization reduces the therapeutic potency of epinephrine products and is a monitored quality-control parameter.",
+      "zh-TW": "L-型 Epinephrine 在儲存過程中受熱與 pH 變化而發生外消旋化轉為 D 型，是藥物穩定性問題：D 型異構物的生物活性顯著較低，因此外消旋化會降低 Epinephrine 製劑的治療效力，並成為受監測的品質管制參數。"
+    },
+    "confidence": 0.85,
+    "source_document": "Racemization.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "9015570253e5",
+    "subject": "Racemization",
+    "predicate": "increases",
+    "object": "Advanced Glycation End Products",
+    "context": {
+      "en-US": "Racemization and glycation are synergistic processes that compromise protein integrity with age. Introduction of D-amino acids disrupts α-helices and β-sheets, increases backbone flexibility, and exposes formerly buried residues to glycating agents such as Glucose and Methylglyoxal, accelerating Advanced Glycation End Products formation; conversely AGE crosslinks rigidify proteins and can alter racemization kinetics.",
+      "zh-TW": "外消旋化與糖化是隨老化共同損害蛋白質完整性的協同過程。D-胺基酸的引入破壞 α-螺旋與 β-摺板、增加主鏈柔性，使原本被埋藏的殘基暴露於 Glucose、Methylglyoxal 等醣化試劑，從而加速 Advanced Glycation End Products 的形成；反之，AGE 交聯使蛋白質僵硬，也可能改變外消旋化動力學。"
+    },
+    "confidence": 0.8,
+    "source_document": "Racemization.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "3a0c464c2f0b",
+    "subject": "Racemization",
+    "predicate": "contributes_to",
+    "object": "Cataract",
+    "context": {
+      "en-US": "Cataract — opacification of the lens — is the most thoroughly characterized pathology of racemization. Human lens γ-crystallins accumulate D-aspartic acid at defined positions (Asp-58, Asp-151) with age, and the extent of racemization correlates directly with cataract severity because D-Asp promotes protein unfolding, aggregation, and light scattering.",
+      "zh-TW": "Cataract（水晶體混濁）是外消旋化最被充分描述的病理表現。人類水晶體 γ-crystallin 隨年齡在特定位置（Asp-58、Asp-151）累積 D-天門冬胺酸，且外消旋化程度與白內障嚴重度直接相關，因 D-Asp 促進蛋白質解摺、聚集與光散射。"
+    },
+    "confidence": 0.85,
+    "source_document": "Racemization.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "05c54d4dc358",
+    "subject": "Tel1p",
+    "predicate": "phosphorylates",
+    "object": "Rad53p",
+    "context": {
+      "en-US": "Tel1p, the yeast ortholog of human ATM, is the upstream kinase that phosphorylates and activates Rad53p. Tel1p responds to DNA double-strand breaks and telomere dysfunction in the canonical checkpoint pathway, and in a non-canonical context it senses mitochondrial reactive oxygen species and relays the signal to Rad53p, so the same Tel1p/Rad53p module serves both DNA damage control and mitohormetic adaptation.",
+      "zh-TW": "Tel1p（人類 ATM 的酵母直系同源物）是磷酸化並活化 Rad53p 的上游激酶。Tel1p 在典型檢查點路徑中回應 DNA 雙股斷裂與端粒功能異常；在非典型情境中它感知粒線體活性氧並將訊號傳給 Rad53p，因此同一 Tel1p/Rad53p 模組同時服務於 DNA 損傷防禦與線粒體 hormesis 適應。"
+    },
+    "confidence": 0.9,
+    "source_document": "Rad53p.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "a7fdaa1cec1e",
+    "subject": "Rad53p",
+    "predicate": "is_functional_homolog_of",
+    "object": "CHK2",
+    "context": {
+      "en-US": "Rad53p is a serine/threonine protein kinase of Saccharomyces cerevisiae and the functional homolog of human CHK2. It is the central checkpoint kinase of the DNA damage response, coordinating cell cycle arrest, transcriptional induction of repair genes, and replication fork stabilization upon genotoxic stress.",
+      "zh-TW": "Rad53p 是 *Saccharomyces cerevisiae* 的絲胺酸/蘇胺酸蛋白激酶，為人類 CHK2 的功能性同源物。它是 DNA 損傷反應的中樞檢查點激酶，在基因毒性壓力下協調細胞週期停滯、修復基因的轉錄誘導以及複製叉穩定化。"
+    },
+    "confidence": 0.9,
+    "source_document": "Rad53p.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "f6831e600e9c",
+    "subject": "Rad53p",
+    "predicate": "is_required_for",
+    "object": "Longevity",
+    "context": {
+      "en-US": "Rad53p is a required mediator of mitohormetic longevity in yeast. Mild mitochondrial dysfunction (deletion of clk-1 or cco-1) elevates mitochondrial ROS, activating Tel1p/Rad53p and driving reduced H3K4me3 and increased H4K16ac; deletion of RAD53 or TEL1 abolishes both these epigenetic changes and the resulting lifespan extension.",
+      "zh-TW": "Rad53p 是酵母菌中線粒體 hormesis 性延壽的必要媒介。輕度粒線體功能障礙（clk-1 或 cco-1 缺失）升高粒線體活性氧，啟動 Tel1p/Rad53p 並造成 H3K4me3 下降與 H4K16ac 上升；刪除 RAD53 或 TEL1 會同時消除這些表觀遺傳變化與隨後的壽命延長。"
+    },
+    "confidence": 0.9,
+    "source_document": "Rad53p.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "0a27f2692e9f",
+    "subject": "Mitochondrial Dysfunction",
+    "predicate": "activates",
+    "object": "Rad53p",
+    "context": {
+      "en-US": "Mitochondrial dysfunction — loss of respiratory complex subunits or cofactors — elevates superoxide and hydrogen peroxide production at complexes III and I. The resulting ROS are sensed by a Tel1p-dependent signaling module that phosphorylates Rad53p, which then translocates to the nucleus and interfaces with chromatin-modifying complexes, illustrating how a core DNA damage signaling module is co-opted as a redox-responsive longevity regulator.",
+      "zh-TW": "粒線體功能障礙——呼吸鏈次單元或輔因子的喪失——會在複合體 III 與 I 處升高超氧陰離子與過氧化氫的生成。由此產生的活性氧被 Tel1p 相依的訊號模組感知並磷酸化 Rad53p，後者轉位至細胞核與染色質修飾複合體作用，說明核心 DNA 損傷訊號模組如何被徵用為氧化還原反應性的延壽調控者。"
+    },
+    "confidence": 0.85,
+    "source_document": "Rad53p.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "00f769fd3c51",
+    "subject": "Rasburicase",
+    "predicate": "causes",
+    "object": "Methemoglobinemia",
+    "context": {
+      "en-US": "Rasburicase, a recombinant PEGylated urate oxidase, is a recognized cause of acquired methemoglobinemia. Catalysis of uric acid to allantoin generates hydrogen peroxide as a byproduct; in erythrocytes that peroxide oxidizes Hemoglobin's ferrous (Fe²⁺) heme iron to ferric (Fe³⁺) Methemoglobin, impairing oxygen carriage.",
+      "zh-TW": "Rasburicase 是重組 PEG 化尿酸氧化酶，是後天性 Methemoglobinemia 的公認病因。其催化尿酸生成 allantoin 的過程會產生過氧化氫副產物；在紅血球中，該過氧化物將 Hemoglobin 的二價（Fe²⁺）血基質鐵氧化為三價（Fe³⁺）Methemoglobin，損害氧的運送。"
+    },
+    "confidence": 0.9,
+    "source_document": "Rasburicase.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "aab9b173c96f",
+    "subject": "Rasburicase",
+    "predicate": "oxidizes",
+    "object": "Hemoglobin",
+    "context": {
+      "en-US": "The peroxide byproduct of rasburicase-catalyzed urate oxidation acts on Hemoglobin in erythrocytes, oxidizing the heme iron from ferrous to ferric state. The same peroxide-mediated oxidative stress that converts hemoglobin to methemoglobin also drives catecholamine autoxidation, converting Epinephrine into Adrenochrome under oxidative challenge — a microcosm of the heme-versus-catechol redox coupling central to adrenochrome research.",
+      "zh-TW": "Rasburicase 催化尿酸氧化所產生的過氧化物副產物作用於紅血球中的 Hemoglobin，將血基質鐵由二價氧化為三價。同一種過氧化物媒介的氧化壓力既使血紅素轉為 methemoglobin，也驅動兒茶酚胺自氧化，在氧化挑戰下將 Epinephrine 轉為 Adrenochrome——正是 adrenochrome 研究核心的血基質與兒茶酚氧化還原耦合的縮影。"
+    },
+    "confidence": 0.85,
+    "source_document": "Rasburicase.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "c6c257827c09",
+    "subject": "G6PD deficiency",
+    "predicate": "increases_susceptibility_to",
+    "object": "Rasburicase",
+    "context": {
+      "en-US": "Patients with G6PD deficiency cannot adequately regenerate reduced Glutathione to detoxify the peroxides generated by rasburicase, so they are at markedly increased risk of rasburicase-induced Methemoglobinemia and Hemolysis. Rasburicase is therefore contraindicated in G6PD-deficient individuals, and alternatives such as febuxostat or allopurinol are preferred.",
+      "zh-TW": "G6PD 缺乏患者無法充分再生還原型 Glutathione 以解毒 rasburicase 產生的過氧化物，因此對 rasburicase 所致的 Methemoglobinemia 與 Hemolysis 的易感性顯著升高。故 G6PD 缺乏者禁用 rasburicase，並優先改用 febuxostat 或 allopurinol 等替代藥物。"
+    },
+    "confidence": 0.9,
+    "source_document": "Rasburicase.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "b05077e05e11",
+    "subject": "Redox Battery",
+    "predicate": "buffers",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "The Redox Battery is a conceptual construct in the adrenochrome handling protocol representing the reservable store of cellular reducing equivalents that absorbs the oxidative load generated during catecholamine autoxidation. Adrenochrome and its quinone derivatives (Aminochrome, o-quinone) discharge the battery by draining electrons through redox cycling; a collapsed battery converts transient oxidation into persistent oxidative damage, protein alkylation, NLRP3 Inflammasome activation, and Senescence.",
+      "zh-TW": "Redox Battery 是 Adrenochrome 處理.protocol 中的概念性建構，代表細胞還原等量物的儲備池，用以吸收兒茶酚胺自氧化產生的氧化負荷。Adrenochrome 及其醌衍生物（Aminochrome、o-quinone）透過氧化還原循環抽走電子而「放電」；電池崩潰會把短暫的氧化轉為持續性氧化損傷、蛋白質烷基化、NLRP3 Inflammasome 活化與 Senescence。"
+    },
+    "confidence": 0.85,
+    "source_document": "Redox Battery.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "299fa9bf7e9d",
+    "subject": "Glutathione",
+    "predicate": "is_a_component_of",
+    "object": "Redox Battery",
+    "context": {
+      "en-US": "The two principal 'cells' of the Redox Battery are the NAD+/NADH and Glutathione (GSH/GSSG) couples. Sustained adrenochrome flux oxidizes GSH to GSSG and shifts NAD+/NADH toward NAD+, depleting the reserve; the GSH/GSSG thiol couple provides the battery's rapid-response capacity against electrophilic aminochromes.",
+      "zh-TW": "Redox Battery 的兩個主要「電池芯」是 NAD+/NADH 與 Glutathione（GSH/GSSG）偶對。持續的 adrenochrome 通量會將 GSH 氧化為 GSSG 並使 NAD+/NADH 偏向 NAD+，耗盡儲備；GSH/GSSG 硫醇偶對提供電池對親電子性 aminochrome 的快速反應容量。"
+    },
+    "confidence": 0.85,
+    "source_document": "Redox Battery.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "2ef95af2c6ef",
+    "subject": "NAD+",
+    "predicate": "is_a_component_of",
+    "object": "Redox Battery",
+    "context": {
+      "en-US": "NAD+ is the primary reducing-equivalent couple of the Redox Battery. Recharge of the battery depends on NADPH-generating metabolism and precursor availability (e.g., Nicotinamide), so protocol design monitors battery state and replenishes NAD+/NADH capacity in step with the adrenochrome load it must absorb.",
+      "zh-TW": "NAD+ 是 Redox Battery 的主要還原等量物偶對。電池的「充電」仰賴 NADPH 生成的代謝與前驅物供應（例如 Nicotinamide），因此 protocol 設計會監測電池狀態，並依其必須吸收的 adrenochrome 負荷同步補充 NAD+/NADH 容量。"
+    },
+    "confidence": 0.85,
+    "source_document": "Redox Battery.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "63690994ab72",
+    "subject": "Redox Optimization",
+    "predicate": "maintains",
+    "object": "Redox Battery",
+    "context": {
+      "en-US": "Redox Optimization is the active maintenance side of the Redox Battery concept: the deliberate upkeep of cellular reducing potential while processing redox-active indolequinones. It targets the NAD+/NADH and Glutathione (GSH/GSSG) buffering capacity, monitoring the GSH/GSSG ratio and NAD+/NADH balance and adjusting them as catecholamine load and quinone flux change, keeping the reservable reducing-equivalent reserve charged.",
+      "zh-TW": "Redox Optimization 是 Redox Battery 概念中「維持」的一面：在處理氧化還原活性 indolequinone 時主動維持細胞還原勢能。它以 NAD+/NADH 與 Glutathione（GSH/GSSG）的緩衝容量為目標，依兒茶酚胺負荷與醌通量的變化監測 GSH/GSSG 比值與 NAD+/NADH 平衡，使可儲備的還原等量物儲備維持在「充電」狀態。"
+    },
+    "confidence": 0.85,
+    "source_document": "Redox Optimization.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "a438ac94e66d",
+    "subject": "Redox Optimization",
+    "predicate": "suppresses",
+    "object": "NLRP3 Inflammasome",
+    "context": {
+      "en-US": "By keeping cytosolic and mitochondrial compartments sufficiently reduced to neutralize the electrophilic and ROS-generating species produced as Adrenochrome autoxidizes to Aminochrome, Redox Optimization limits aminochrome accumulation and protein carbonylation. Effective optimization suppresses the downstream NF-κB and NLRP3 Inflammasome activation that would otherwise drive Senescence and inflammation.",
+      "zh-TW": "Redox Optimization 藉由讓細胞質與粒線體區室維持足夠的還原狀態，以中和 Adrenochrome 自氧化為 Aminochrome 時產生的親電子性與產 ROS 物種，進而限制 aminochrome 累積與蛋白質羰基化。有效的優化會抑制下游的 NF-κB 與 NLRP3 Inflammasome 活化，避免其推動 Senescence 與 inflammation。"
+    },
+    "confidence": 0.8,
+    "source_document": "Redox Optimization.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "8709b3e70b8e",
+    "subject": "Nicotinamide",
+    "predicate": "supplements",
+    "object": "NAD+",
+    "context": {
+      "en-US": "Nicotinamide is used as an NAD+ precursor within the adrenochrome protocol. Because Adrenochrome's semiquinone and quinone forms redox-cycle and drain reducing equivalents, NAD+ precursor supplementation is combined with GSH-supporting thiol donors so the NAD+/NADH couple stays biased toward NADH and aminochrome electrophiles can be neutralized.",
+      "zh-TW": "Nicotinamide 在 adrenochrome protocol 中作為 NAD+ 前驅物使用。由於 Adrenochrome 的半醌與醌型態會進行氧化還原循環並抽走還原等量物，因此 NAD+ 前驅物補充會與支持 GSH 的硫醇供體併用，使 NAD+/NADH 偶對維持偏向 NADH，並使 aminochrome 的親電子性物種被中和。"
+    },
+    "confidence": 0.8,
+    "source_document": "Redox Optimization.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "2d83fd72ef91",
+    "subject": "Adrenochrome",
+    "predicate": "serves_as",
+    "object": "Reference standard",
+    "context": {
+      "en-US": "Adrenochrome and its immediate precursor Leuco-adrenochrome serve as reference standards in HPLC and LC-MS assays used to identify and quantify impurities in pharmaceutical Epinephrine products. Their well-established, homogeneous chromatographic and mass-spectral properties make them usable for calibration and for assigning values in epinephrine quality control.",
+      "zh-TW": "Adrenochrome 及其直接前驅物 Leuco-adrenochrome 被用作 HPLC 與 LC-MS 分析的對照標準品，用於鑑定與定量藥用 Epinephrine 產品中的雜質。兩者性質均一且層析與質譜行為確立，因此可用於校正並為 Epinephrine 品質管制數值定值。"
+    },
+    "confidence": 0.85,
+    "source_document": "Reference standard.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "d55022ebab46",
+    "subject": "Retinoic-acid-inducible protein I-like receptor",
+    "predicate": "binds",
+    "object": "MAVS",
+    "context": {
+      "en-US": "When RLRs (RIG-I, MDA5, LGP2) engage viral RNA, their exposed CARD domains interact with MAVS (VISA/IPS-1), the mitochondrial outer-membrane adaptor, nucleating a prion-like MAVS filament that recruits TRAF6 and TRAF2 as well as TBK1/IKKε and the IKK complex. Anchoring MAVS to mitochondria places innate immune sensing at the organelle central to energy and Oxidative Stress homeostasis.",
+      "zh-TW": "當 RLR（RIG-I、MDA5、LGP2）結合病毒 RNA 後，其暴露的 CARD 區域會與粒線體外膜轉接蛋白 MAVS（VISA/IPS-1）作用，形成類普恩蛋白的 MAVS 纖維並招募 TRAF6、TRAF2 以及 TBK1/IKKε 與 IKK 複合體。MAVS 錨定於粒線體，使先天免疫感知落在能量與 Oxidative Stress 恆定的核心胞器上。"
+    },
+    "confidence": 0.9,
+    "source_document": "Retinoic-acid-inducible protein I-like receptor.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "dcf1f676ff32",
+    "subject": "Retinoic-acid-inducible protein I-like receptor",
+    "predicate": "activates",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "RLR signaling bifurcates after MAVS filament formation: IRF3/IRF7 activation drives type-I interferon production while NF-κB activation drives pro-inflammatory cytokines. Viral infection and the ensuing interferon/cytokine storm amplify oxidative burden, with activated immune cells generating ROS, Nitric Oxide, and peroxynitrite that accelerate catecholamine autoxidation.",
+      "zh-TW": "MAVS 纖維形成後 RLR 訊號分岔：IRF3/IRF7 活化驅動第一型干擾素的產生，而 NF-κB 活化則驅動促發炎細胞激素。病毒感染及其後的干擾素／細胞激素風暴會放大氧化負荷，活化的免疫細胞產生 ROS、Nitric Oxide 與過氧亞硝酸鹽，加速兒茶酚胺自氧化。"
+    },
+    "confidence": 0.85,
+    "source_document": "Retinoic-acid-inducible protein I-like receptor.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "670750b4cff2",
+    "subject": "Retinoid X receptor α",
+    "predicate": "mediates",
+    "object": "Retrograde Response",
+    "context": {
+      "en-US": "Retinoid X receptor α (RXRA, NR2B1) is a key effector of the mammalian Retrograde Response. Mitochondrial stress — electron transport chain impairment, Mitochondrial ROS accumulation, loss of membrane potential — converges on RXRα via calcium-dependent calcineurin, which dephosphorylates and activates the receptor, promoting nuclear translocation and transcription of metabolic adaptation, antioxidant defense, Mitochondrial Biogenesis, and Mitochondrial Dynamics genes.",
+      "zh-TW": "Retinoid X receptor α（RXRA、NR2B1）是哺乳類 Retrograde Response 的關鍵效應者。粒線體壓力——電子傳遞鏈受損、Mitochondrial ROS 累積、膜電位喪失——經由鈣離子依賴的 calcineurin 匯聚於 RXRα；calcineurin 使其去磷酸化並活化，促進核轉位與代謝適應、抗氧化防禦、Mitochondrial Biogenesis 與 Mitochondrial Dynamics 等基因的轉錄。"
+    },
+    "confidence": 0.9,
+    "source_document": "Retinoid X receptor α.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "aa2fc6fc1fa8",
+    "subject": "Retinoid X receptor α",
+    "predicate": "interacts_with",
+    "object": "PGC-1α",
+    "context": {
+      "en-US": "Retinoid X receptor α acts in obligate heterodimers with a wide array of nuclear receptors, which is how it integrates hormonal, nutritional, and metabolic signals. In the mitochondrial stress arm it partners with PGC-1α to drive antioxidant defense and mitochondrial biogenesis programs, while obligate permissive heterodimers with PPAR family members regulate lipid and glucose metabolism.",
+      "zh-TW": "Retinoid X receptor α 與多種核受體形成必然性異二聚體，藉此整合荷爾蒙、營養與代謝訊號。在粒線體壓力這一支，它與 PGC-1α 配對以驅動抗氧化防禦與粒線體生物合成程式；而與 PPAR 家族成員形成的必然型 permissive 異二聚體則調節脂質與葡萄糖代謝。"
+    },
+    "confidence": 0.85,
+    "source_document": "Retinoid X receptor α.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "3f23980e8493",
+    "subject": "Retrograde Response",
+    "predicate": "mediates",
+    "object": "Mitohormesis",
+    "context": {
+      "en-US": "Retrograde signaling is a key mediator of Mitohormesis, the phenomenon whereby mild mitochondrial stress extends lifespan and enhances stress resistance. Interventions that activate mitochondrial stress responses in a controlled manner — mild respiratory chain inhibition, NAD+ precursors such as Nicotinamide Riboside and Nicotinamide Mononucleotide, or Metformin, Rapamycin, and Urolithin A — all engage retrograde and UPRmt components, with benefit requiring an optimal activation window between insufficient and excessive activation.",
+      "zh-TW": "逆行訊號傳遞是 Mitohormesis 的關鍵媒介，即輕度粒線體壓力可延長壽命並提升抗壓能力。以受控方式活化粒線體壓力反應的介入手段——輕度呼吸鏈抑制、NAD+ 前驅物如 Nicotinamide Riboside 與 Nicotinamide Mononucleotide，或 Metformin、Rapamycin、Urolithin A——皆會徵用逆行與 UPRmt 的組成元件，其效益需要介於活化不足與過度活化之間的最佳活化窗。"
+    },
+    "confidence": 0.9,
+    "source_document": "Retrograde Response.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "3588c627319e",
+    "subject": "Retrograde Response",
+    "predicate": "overlaps_with",
+    "object": "Mitochondrial Unfolded Protein Response",
+    "context": {
+      "en-US": "The Retrograde Response overlaps functionally with the Mitochondrial Unfolded Protein Response (UPRmt). In C. elegans, mitochondrial proteotoxic stress activates ATFS-1, which imports into mitochondria under normal conditions but accumulates in the nucleus upon import impairment; in mammals ATF5 is the closest functional analog. The two programs share transcription factors and overlapping target gene sets (mitochondrial chaperones and proteases).",
+      "zh-TW": "Retrograde Response 與 Mitochondrial Unfolded Protein Response（UPRmt）在功能上重疊。在 *C. elegans* 中，粒線體蛋白毒性壓力活化 ATFS-1，該因子在正常情況下輸入粒線體，但在輸入受阻時累積於細胞核；在哺乳類中 ATF5 是最接近的功能類比物。兩套程式共用轉錄因子與重疊的標的基因集（粒線體伴護蛋白與蛋白酶）。"
+    },
+    "confidence": 0.85,
+    "source_document": "Retrograde Response.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "e73dddbf7c7a",
+    "subject": "Rtg1",
+    "predicate": "is_a_component_of",
+    "object": "Retrograde Response",
+    "context": {
+      "en-US": "Rtg1 is a basic helix-loop-helix transcription factor of S. cerevisiae and, with its bHLH/leucine-zipper partner Rtg3, forms the DNA-binding engine of the yeast Retrograde Response. Under basal conditions the heterodimer is phosphorylated and sequestered in the cytoplasm by 14-3-3 proteins Bmh1/2 and the inhibitory protein Mks1p; mitochondrial dysfunction releases the retention signal so the dimer enters the nucleus and drives citrate–isocitrate shuttle genes (CIT2, ACO1, IDH1/2).",
+      "zh-TW": "Rtg1 是 *S. cerevisiae* 的 basic helix-loop-helix 轉錄因子，與其 bHLH／leucine-zipper 搭檔 Rtg3 共同構成酵母 Retrograde Response 的 DNA 結合引擎。在基礎狀態下，該異二聚體被磷酸化並由 14-3-3 蛋白 Bmh1/2 與抑制蛋白 Mks1p 扣留在細胞質；粒線體功能障礙會解除滞留訊號，使二聚體進入細胞核並啟動檸檬酸－異檸檬酸穿梭基因（CIT2、ACO1、IDH1/2）。"
+    },
+    "confidence": 0.9,
+    "source_document": "Rtg1.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "95dee8c565aa",
+    "subject": "Rtg1",
+    "predicate": "interacts_with",
+    "object": "Rtg3",
+    "context": {
+      "en-US": "Rtg1 forms a heterodimer with Rtg3; the bHLH/leucine-zipper dimer is the DNA-binding engine of the retrograde (RTG) response in S. cerevisiae, binding R-box sequences in target promoters after nuclear translocation. The shared logic — a mitonuclear retrograde signal reprogramming nuclear transcription toward stress resistance and metabolic flexibility — is conserved from yeast to mammals.",
+      "zh-TW": "Rtg1 與 Rtg3 形成異二聚體；此 bHLH／leucine-zipper 二聚體是 *S. cerevisiae* 逆行（RTG）反應的 DNA 結合引擎，在核轉位後結合標的啟動子上的 R-box 序列。其共享邏輯——將核轉錄重新編程以朝向抗壓與代謝彈性的粒線體至細胞核逆行訊號——從酵母到哺乳類皆保守。"
+    },
+    "confidence": 0.9,
+    "source_document": "Rtg1.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "abc7f37bf122",
+    "subject": "Rtg3",
+    "predicate": "drives",
+    "object": "Retrograde Response",
+    "context": {
+      "en-US": "Rtg3 carries the bHLH/ZIP DNA-binding domain and, together with Rtg1, drives the Retrograde Response in S. cerevisiae. In healthy cells it is phosphorylated via the Mks1–Ptc1 axis and held in the cytoplasm bound to 14-3-3 proteins; when mitochondrial respiration is impaired the retention signal is lost and the Rtg1–Rtg3 heterodimer enters the nucleus to activate nuclear-encoded genes, prominently the citrate–isocitrate shuttle enzymes CIT2, ACO1, and IDH1/IDH2.",
+      "zh-TW": "Rtg3 帶有 bHLH/ZIP DNA 結合區域，並與 Rtg1 一起驅動 *S. cerevisiae* 的 Retrograde Response。在健康細胞中它經由 Mks1–Ptc1 軸被磷酸化，並與 14-3-3 蛋白結合而留在細胞質；當粒線體呼吸受損時滞留訊號喪失，Rtg1–Rtg3 異二聚體進入細胞核，活化核編碼基因，尤以檸檬酸－異檸檬酸穿梭酵素 CIT2、ACO1 與 IDH1/IDH2 為主。"
+    },
+    "confidence": 0.9,
+    "source_document": "Rtg3.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "824100655d29",
+    "subject": "Rtg3",
+    "predicate": "buffers",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "The Rtg3-driven program sustains citrate flux and α-ketoglutarate/glutathione precursor supply, which supports cellular antioxidant capacity and thereby buffers the Oxidative Stress that otherwise drives catecholamine autoxidation — the conversion of Epinephrine to Adrenochrome. Rtg3 thus illustrates how a mitonuclear redox signal can be co-opted for cytoprotection.",
+      "zh-TW": "Rtg3 驅動的程式維持檸檬酸通量與 α-ketoglutarate／glutathione 前驅物供應，支持細胞抗氧化能力，因而緩衝原本會驅動兒茶酚胺自氧化（Epinephrine 轉為 Adrenochrome）的 Oxidative Stress。Rtg3 因此說明粒線體至細胞核的氧化還原訊號如何被徵用於細胞保護。"
+    },
+    "confidence": 0.8,
+    "source_document": "Rtg3.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "5b869902fc20",
+    "subject": "Sirtuins",
+    "predicate": "contains",
+    "object": "Rossmann fold",
+    "context": {
+      "en-US": "The Rossmann fold is a highly conserved structural motif found in many nucleotide-binding proteins, particularly those that bind NAD+/NADH. In the sirtuin family this large domain is the primary binding site for the NAD+ cofactor required for enzymatic activity.",
+      "zh-TW": "Rossmann fold 是許多核苷酸結合蛋白中高度保守的結構模體，特別常見於結合 NAD+/NADH 的蛋白。在 sirtuin 家族中，這一大型結構域是酵素活性所需 NAD+ 輔因子的主要結合位。"
+    },
+    "confidence": 0.9,
+    "source_document": "Rossmann fold.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "ee78cfb0a013",
+    "subject": "Rossmann fold",
+    "predicate": "binds",
+    "object": "NAD+",
+    "context": {
+      "en-US": "The Rossmann fold is the conserved structural motif that provides the primary binding site for NAD+/NADH in sirtuins. Because sirtuin enzymatic activity requires the NAD+ cofactor, the Rossmann fold is the structural determinant linking sirtuin catalysis to cellular NAD+ availability and thus to redox state.",
+      "zh-TW": "Rossmann fold 是 sirtuin 中提供 NAD+/NADH 主要結合位的高度保守結構模體。由於 sirtuin 的酵素活性需要 NAD+ 輔因子，Rossmann fold 便是將 sirtuin 催化與細胞 NAD+ 可用性、進而是與氧化還原狀態連結起來的結構決定因子。"
+    },
+    "confidence": 0.85,
+    "source_document": "Rossmann fold.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "7a7962105cb2",
+    "subject": "GLO1",
+    "predicate": "produces",
+    "object": "S-D-lactoylglutathione",
+    "context": {
+      "en-US": "S-D-lactoylglutathione is the intermediate metabolite of the Glyoxalase System. It is synthesized by GLO1 (glyoxalase I) from the hemithioacetal adduct formed by the spontaneous reaction of the dicarbonyl Methylglyoxal with Glutathione, positioning the glyoxalase pathway as the principal route for detoxifying methylglyoxal.",
+      "zh-TW": "S-D-lactoylglutathione 是 Glyoxalase System 的中間代謝物。它由 GLO1（glyoxalase I）自二羰基 Methylglyoxal 與 Glutathione 自發反應所形成的半硫縮醛加合物合成，使 glyoxalase 路徑成為解毒 methylglyoxal 的主要途徑。"
+    },
+    "confidence": 0.9,
+    "source_document": "S-D-lactoylglutathione.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "3c4720682a29",
+    "subject": "S-D-lactoylglutathione",
+    "predicate": "is_an_intermediate_of",
+    "object": "Glyoxalase System",
+    "context": {
+      "en-US": "S-D-lactoylglutathione sits at the center of the Glyoxalase System: GLO1 forms it from the Methylglyoxal–Glutathione hemithioacetal, and GLO2 hydrolyzes it to release D-lactate while regenerating Glutathione. Regeneration of the glutathione pool is what lets the pathway recycle reductant continuously while methylglyoxal is being detoxified.",
+      "zh-TW": "S-D-lactoylglutathione 位於 Glyoxalase System 的核心：GLO1 將 Methylglyoxal 與 Glutathione 的半硫縮醛轉為它，GLO2 則將其水解釋出 D-lactate 並再生 Glutathione。正是 Glutathione 的再生讓此路徑在解毒 methylglyoxal 的同時能持續回收還原力。"
+    },
+    "confidence": 0.9,
+    "source_document": "S-D-lactoylglutathione.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "7cbdbbfb6f19",
+    "subject": "GLO2",
+    "predicate": "produces",
+    "object": "D-lactate",
+    "context": {
+      "en-US": "GLO2 (glyoxalase II) hydrolyzes S-D-lactoylglutathione to yield D-lactate and regenerate Glutathione. The D-lactate product is the benign endpoint of methylglyoxal detoxification, and the regenerated Glutathione re-enters the Glyoxalase System as the nucleophile for the next round of hemithioacetal formation.",
+      "zh-TW": "GLO2（glyoxalase II）水解 S-D-lactoylglutathione，產生 D-lactate 並再生 Glutathione。D-lactate 是 methylglyoxal  detox 的良性終點，而再生的 Glutathione 會重新進入 Glyoxalase System，作為下一輪半硫縮醛形成的親核試劑。"
+    },
+    "confidence": 0.9,
+    "source_document": "S-D-lactoylglutathione.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "f44441b89453",
+    "subject": "S. cerevisiae",
+    "predicate": "is_a",
+    "object": "Model Organisms",
+    "context": {
+      "en-US": "Saccharomyces cerevisiae (baker's yeast) is the preeminent eukaryotic model organism for dissecting aging, metabolism, and redox homeostasis. Its short replicative lifespan is highly tractable genetically, and conserved longevity pathways first mapped in yeast — TOR/Sch9, Sir2, AMPK/Snf1, and the mitochondrial Retrograde Response — translate directly to mammalian biology.",
+      "zh-TW": "*Saccharomyces cerevisiae*（烘焙酵母）是剖析老化、代謝與氧化還原恆定的首選真核 Model Organisms。其短複製壽命在遺傳上高度可操作，而在酵母首先被繪製的保守延壽路徑——TOR/Sch9、Sir2、AMPK/Snf1 以及粒線體 Retrograde Response——可直接轉譯到哺乳類生物學。"
+    },
+    "confidence": 0.9,
+    "source_document": "S. cerevisiae.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "0f55e6c43b71",
+    "subject": "Retrograde Response",
+    "predicate": "is_characterized_in",
+    "object": "S. cerevisiae",
+    "context": {
+      "en-US": "The Rtg1/Rtg3 retrograde response was originally characterized in S. cerevisiae, where mitochondrial dysfunction triggers nuclear translocation of the transcription factor heterodimer, allowing the cell to sense mitochondrial compromise and reconfigure metabolism (TCA anaplerosis, glutamate synthesis, glycolytic ATP). Yeast RTG activation is required for the lifespan-extending effects of mild mitochondrial dysfunction and dietary restriction.",
+      "zh-TW": "Rtg1/Rtg3 逆行反應最初是在 *S. cerevisiae* 中被描述的：粒線體功能障礙會觸發轉錄因子異二聚體的核轉位，使細胞得以感知粒線體受損並重新配置代謝（TCA 補充反應、glutamate 合成、糖解 ATP）。酵母 RTG 的活化是輕度粒線體功能障礙與飲食限制之延壽效果所必需。"
+    },
+    "confidence": 0.9,
+    "source_document": "S. cerevisiae.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "6b8d78018892",
+    "subject": "Sirtuins",
+    "predicate": "is_characterized_in",
+    "object": "S. cerevisiae",
+    "context": {
+      "en-US": "Yeast sirtuins (Sir2 and the Hst family) couple NAD+ availability to chromatin silencing and stress resistance, anchoring the Sirtuins field, and sirtuin biology was traced from yeast Sir2 to mammals. Together with TOR and retrograde signaling, sirtuin function was first linked to longevity in yeast before mammalian validation.",
+      "zh-TW": "酵母 sirtuin（Sir2 與 Hst 家族）將 NAD+ 可用性與染色質靜默及抗壓能力相耦聯，奠定了 Sirtuins 領域，而 sirtuin 生物學正是從酵母 Sir2 追溯至哺乳類。與 TOR 及逆行訊號一起，sirtuin 的功能最早在酵母中被連結到延壽，其後才在哺乳類獲得驗證。"
+    },
+    "confidence": 0.85,
+    "source_document": "S. cerevisiae.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "f159b48ffc1a",
+    "subject": "SKN-1",
+    "predicate": "is_functional_homolog_of",
+    "object": "NRF2",
+    "context": {
+      "en-US": "SKN-1 is the Caenorhabditis elegans ortholog of mammalian NRF2, a cap'n'collar basic leucine zipper transcription factor governing the conserved antioxidant and detoxification response. Under basal conditions SKN-1 is retained in the cytoplasm by the BTB–Kelch repressor WDR-23, the homolog of Keap1; upon oxidative or electrophilic insult the repressor is inactivated and SKN-1 translocates to the nucleus.",
+      "zh-TW": "SKN-1 是哺乳類 NRF2 在 *Caenorhabditis elegans* 的直系同源物，屬於 cap'n'collar 型基本白胺酸拉鍊轉錄因子，調控保守的抗氧化與解毒反應。在基礎狀態下 SKN-1 受 BTB–Kelch 抑制蛋白 WDR-23（Keap1 的同源物）扣留於細胞質；遭遇氧化或親電性攻擊時抑制蛋白失活，SKN-1 轉位至細胞核。"
+    },
+    "confidence": 0.9,
+    "source_document": "SKN-1.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "2bb7b79dbbff",
+    "subject": "Keap1",
+    "predicate": "inhibits",
+    "object": "SKN-1",
+    "context": {
+      "en-US": "Keap1's homolog WDR-23 restrains SKN-1 by tethering it in the cytoplasm under basal conditions. Oxidative or electrophilic stress inactivates the BTB–Kelch repressor, releasing SKN-1 so it can accumulate in the nucleus and induce phase-II enzymes, xenobiotic transporters, and proteostasis genes.",
+      "zh-TW": "Keap1 的同源物 WDR-23 在基礎狀態下將 SKN-1 繫留於細胞質而抑制它。氧化或親電性壓力使 BTB–Kelch 抑制蛋白失活，釋放 SKN-1 使其得以在細胞核累積，並誘導第二期解毒酵素、異生物轉運蛋白與蛋白質恆定基因。"
+    },
+    "confidence": 0.85,
+    "source_document": "SKN-1.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "9f129480378e",
+    "subject": "SKN-1",
+    "predicate": "is_required_for",
+    "object": "Mitohormesis",
+    "context": {
+      "en-US": "SKN-1 is a central node in the Mitohormesis framework: mild mitochondrial dysfunction or low-level Oxidative Stress, including the modest Superoxide anion leak from compromised respiration, activates SKN-1 and drives a cytoprotective transcriptional program. Genetic studies show SKN-1 activity is required for the longevity conferred by mitochondrial mutants (isp-1, clk-1) and by dietary restriction.",
+      "zh-TW": "SKN-1 是 Mitohormesis 框架的中樞節點：輕度粒線體功能障礙或低度 Oxidative Stress（包括受損呼吸所洩漏的少量 Superoxide anion）會活化 SKN-1，驅動細胞保護性的轉錄程式。遺傳研究顯示，SKN-1 活性是粒線體突變株（isp-1、clk-1）與飲食限制所賦予延壽所必需的。"
+    },
+    "confidence": 0.9,
+    "source_document": "SKN-1.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "22fd2c2b07ba",
+    "subject": "SKN-1",
+    "predicate": "upregulates",
+    "object": "Glutathione",
+    "context": {
+      "en-US": "SKN-1/NRF2 target genes include glutathione biosynthesis, glutathione-dependent reductases, and quinone reductases. By boosting the cellular reducing environment and electrophile-detoxifying capacity, the SKN-1 program buffers precisely the oxidative load that drives aminochrome formation, making it a key endogenous defense against Adrenochrome accumulation.",
+      "zh-TW": "SKN-1/NRF2 的標的基因包括 glutathione 生合成、glutathione 依賴的還原酶與醌還原酶。透過提升細胞還原環境與親電子性解毒能力，SKN-1 程式緩衝的正是驅動 aminochrome 形成的氧化負荷，使其成為對抗 Adrenochrome 累積的關鍵內源性防禦。"
+    },
+    "confidence": 0.85,
+    "source_document": "SKN-1.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "085b311fc978",
+    "subject": "Sarcopenia",
+    "predicate": "is_associated_with",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "Sarcopenia, the progressive and generalized loss of skeletal muscle mass and strength, is a serious problem among older populations and is associated with increased Oxidative Stress and Inflammation. It may be exacerbated by the accumulation of Advanced Glycation End Products in muscle tissue, linking it to dietary and endogenous AGE exposure.",
+      "zh-TW": "Sarcopenia（骨骼肌量與肌力逐漸普遍性的流失）是老年族群中的嚴重問題，並與升高的 Oxidative Stress 及 Inflammation 相關；肌肉組織中 Advanced Glycation End Products 的累積可能使其惡化，將它與飲食性及內源性 AGE 暴露連結起來。"
+    },
+    "confidence": 0.9,
+    "source_document": "Sarcopenia.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "d303f8a35392",
+    "subject": "Schiff base",
+    "predicate": "is_formed_during",
+    "object": "Maillard Reaction",
+    "context": {
+      "en-US": "A Schiff base is an unstable chemical adduct produced in the initial stage of the Maillard Reaction, when a free amino group of a protein, lipid, or DNA nucleophilically attacks the reactive carbonyl group of a reducing sugar such as Glucose. The adduct is highly reversible and quickly rearranges to the more stable Amadori product.",
+      "zh-TW": "Schiff base 是在 Maillard Reaction 初始階段產生的不穩定化學加合物，由蛋白質、脂質或 DNA 的游離胺基對還原糖（如 Glucose）的反應性羰基進行親核攻擊而形成。該加合物高度可逆，並迅速重排為較穩定的 Amadori product。"
+    },
+    "confidence": 0.9,
+    "source_document": "Schiff base.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "eb7383e6deb0",
+    "subject": "Schiff base",
+    "predicate": "converts_to",
+    "object": "Amadori products",
+    "context": {
+      "en-US": "Because the Schiff base is highly reversible, it quickly undergoes the Amadori rearrangement to form the more stable Amadori product, the committed step of the non-enzymatic glycation cascade that ultimately yields Advanced Glycation End Products.",
+      "zh-TW": "由於 Schiff base 高度可逆，它會迅速進行 Amadori 重排，形成較穩定的 Amadori product——這是非酵素性糖化級聯反應中邁向 Advanced Glycation End Products 的關鍵步驟。"
+    },
+    "confidence": 0.85,
+    "source_document": "Schiff base.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "1fb6de991dff",
+    "subject": "Seahorse XF Analyzer",
+    "predicate": "measures",
+    "object": "Oxygen Consumption Rate",
+    "context": {
+      "en-US": "The Seahorse XF Analyzer is a specialized instrument that simultaneously monitors Oxygen Consumption Rate and Extracellular Acidification Rate in real time, resolving the two major energy-producing pathways of the cell — mitochondrial respiration and glycolysis. This makes it the standard tool for flux-resolving assays of mitochondrial function and redox-handling capacity.",
+      "zh-TW": "Seahorse XF Analyzer 是一種專業儀器，可即時同時監測 Oxygen Consumption Rate 與 Extracellular Acidification Rate，用以區分細胞的兩大產能途徑——粒線體呼吸與糖解。這使它成為解析粒線體功能與氧化還原處理能力之通量分析的標準工具。"
+    },
+    "confidence": 0.9,
+    "source_document": "Seahorse XF Analyzer.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "1aba0a47619f",
+    "subject": "Seahorse XF Analyzer",
+    "predicate": "measures",
+    "object": "Extracellular Acidification Rate",
+    "context": {
+      "en-US": "Extracellular Acidification Rate is one of the two readouts the Seahorse XF Analyzer collects simultaneously with Oxygen Consumption Rate; taken together, the paired measurements separate mitochondrial oxidative phosphorylation from glycolytic ATP production in the same live-cell sample.",
+      "zh-TW": "Extracellular Acidification Rate 是 Seahorse XF Analyzer 與 Oxygen Consumption Rate 同時收集的兩項讀值之一；兩者配對量測可在同一活細胞樣本中區分粒線體氧化磷酸化與糖解產生的 ATP。"
+    },
+    "confidence": 0.85,
+    "source_document": "Seahorse XF Analyzer.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "516980b8ada0",
+    "subject": "Semicarbazide",
+    "predicate": "stabilizes",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "Adrenochrome is very unstable owing to its o-quinone structure and is conventionally stabilized by derivatization with hydrazines such as aminoguanidine, phenylhydrazine, and Semicarbazide. Semicarbazide condenses with the reactive o-quinone to give a more stable, isolable adduct, which is the principle behind the classical adrenochrome stabilization chemistry.",
+      "zh-TW": "Adrenochrome 因其 o-quinone 結構而非常不穩定，傳統上以 hydrazine 類試劑（如 aminoguanidine、phenylhydrazine 與 Semicarbazide）衍生化來穩定。Semicarbazide 與反應性 o-quinone 縮合形成較穩定、可分離的加合物，這正是經典 adrenochrome 穩定化化學的原理。"
+    },
+    "confidence": 0.85,
+    "source_document": "Semicarbazide.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "7350259ee087",
+    "subject": "Semicarbazide",
+    "predicate": "produces",
+    "object": "Carbazochrome",
+    "context": {
+      "en-US": "Semicarbazide reacts with the o-quinone structure of Adrenochrome to form Carbazochrome (adrenochrome monosemicarbazone). The semicarbazone adduct is markedly more stable than the parent quinone, and carbazochrome has medical applications as a hemostatic agent.",
+      "zh-TW": "Semicarbazide 與 Adrenochrome 的 o-quinone 結構反應生成 Carbazochrome（adrenochrome monosemicarbazone）。此 semicarbazone 加合物比母體醌顯著穩定，而 carbazochrome 在醫學上具有止血劑的應用。"
+    },
+    "confidence": 0.9,
+    "source_document": "Semicarbazide.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "3f9b3397d45b",
+    "subject": "Carbazochrome",
+    "predicate": "is_a_type_of",
+    "object": "Hemostatics",
+    "context": {
+      "en-US": "Carbazochrome (adrenochrome monosemicarbazone), the adduct of Semicarbazide with the o-quinone of Adrenochrome, is used as a hemostatic. Its stability is what makes the otherwise labile adrenochrome pharmacologically useful, converting a transient quinone into a compound that can be dosed to promote hemostasis.",
+      "zh-TW": "Carbazochrome（adrenochrome monosemicarbazone）是 Semicarbazide 與 Adrenochrome 的 o-quinone 所形成的加合物，被用作止血劑。正是它的穩定性使原本不穩定的 adrenochrome 具有藥理用途，把短暫存在的醌轉成可給藥以促進止血的化合物。"
+    },
+    "confidence": 0.8,
+    "source_document": "Semicarbazide.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "77b37b7eb661",
+    "subject": "Serum",
+    "predicate": "is_used_to_diagnose",
+    "object": "Diabetes Mellitus",
+    "context": {
+      "en-US": "Serum is the most widely used sample type in clinical laboratory medicine, chosen over plasma for chemistry panels because it is prepared simply by allowing blood to clot and centrifuging. Key analytes include Glucose (fasting, postprandial, HbA1c) for diagnosing Diabetes Mellitus, Creatinine and urea for renal function, and transaminases for hepatocellular injury.",
+      "zh-TW": "Serum 是臨床實驗醫學中最常用的樣本類型，因為製備簡單——只需讓血液凝固後離心——故在化學檢驗套組中優於血漿。主要檢測包括用於診斷 Diabetes Mellitus 的 Glucose（空腹、餐後、HbA1c）、評估腎功能的 Creatinine 與尿素，以及評估肝細胞損傷的轉氨酶。"
+    },
+    "confidence": 0.85,
+    "source_document": "Serum.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "4bf2505279e0",
+    "subject": "Serum",
+    "predicate": "is_used_to_monitor",
+    "object": "Inflammation",
+    "context": {
+      "en-US": "Serum is preferred for serological assays, and acute-phase reactants such as C-reactive protein measured in serum are the standard laboratory marker of Inflammation. Serum complement components also support complement-based diagnostics, while serum is generally chosen over plasma for these tests even though clotting time can alter labile analytes such as cytokines.",
+      "zh-TW": "Serum 適合用於血清學檢驗，而以 serum 測量的急性期反應物（如 C-reactive protein）是 Inflammation 的標準實驗室標記。Serum 中的補體成分也支援補體相關診斷；儘管凝固時間可能改變 cytokines 等不穩定分析物，這類檢驗一般仍選擇 serum 而非血漿。"
+    },
+    "confidence": 0.8,
+    "source_document": "Serum.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "42b962dca35e",
+    "subject": "Silver(I) Oxide",
+    "predicate": "oxidizes",
+    "object": "Epinephrine",
+    "context": {
+      "en-US": "Silver(I) oxide (Ag2O) is a mild oxidizing reagent used in preparative adrenochrome chemistry. It mediates oxidation of the catechol (dihydroxybenzene) moiety of Epinephrine through leuco-adrenochrome to the corresponding ortho-quinone, providing controlled, acid-free oxidation stoichiometry that avoids the strong-acid conditions which can degrade sensitive quinone products.",
+      "zh-TW": "Silver(I) oxide（Ag2O）是製備性 adrenochrome 化學中使用的溫和氧化試劑。它媒介 Epinephrine 的兒茶酚（dihydroxybenzene）部分經 leuco-adrenochrome 氧化為相應的 ortho-quinone，提供受控且不含酸的氧化計量，避免會降解敏感醌產物的強酸條件。"
+    },
+    "confidence": 0.9,
+    "source_document": "Silver(I) Oxide.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "13dc2e2afe61",
+    "subject": "Silver(I) Oxide",
+    "predicate": "produces",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "Ag2O is the oxidant that yields Adrenochrome from Epinephrine (adrenaline), the parent catecholamine: epinephrine is oxidized through leuco-adrenochrome to adrenochrome. It is principally a synthetic/analytical tool rather than a physiological agent and is not implicated in endogenous adrenochrome formation, which proceeds via enzymatic and metal-catalyzed autoxidation.",
+      "zh-TW": "Ag2O 是由 Epinephrine（adrenaline）這對母體兒茶酚胺製得 Adrenochrome 的氧化劑：epinephrine 經 leuco-adrenochrome 氧化為 adrenochrome。它主要是合成／分析工具而非生理作用劑，也未被認為參與內源性 adrenochrome 的形成——後者經由酵素與金屬催化的自氧化途徑進行。"
+    },
+    "confidence": 0.85,
+    "source_document": "Silver(I) Oxide.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "db10dc29b23e",
+    "subject": "Smoking",
+    "predicate": "causes",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "Smoking, including cigarettes, cigars, and wood smoke, is a major exogenous source of Oxidative Stress. Tobacco smoke carries roughly 10^17 free radical molecules per puff, and smoking additionally depletes antioxidant defenses such as vitamin C and Glutathione, leaving Reactive Oxygen Species unneutralized. Wood and campfire smoke, rich in particulates and reactive compounds, induces systemic Inflammation with the same biochemical consequences.",
+      "zh-TW": "Smoking（包含香菸、雪茄與木柴煙）是 Oxidative Stress 的主要外源性來源。菸霧每 puff 約含 10^17 個自由基分子，吸菸並會耗竭維生素 C 與 Glutathione 等抗氧化防禦，使 Reactive Oxygen Species 無法被中和。木柴與營火煙富含微粒與反應性化合物，會誘發全身性 Inflammation，造成相同的生化後果。"
+    },
+    "confidence": 0.9,
+    "source_document": "Smoking.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "d1e280dc40b4",
+    "subject": "Smoking",
+    "predicate": "promotes",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "Smoking promotes Adrenochrome formation through several convergent mechanisms: exogenous ROS in smoke directly oxidize Epinephrine; nicotine and the stress of smoking trigger adrenal release of adrenaline, supplying more substrate for oxidation; and antioxidant depletion prevents the cell from clearing the oxidant load. Adrenochrome production is therefore significantly increased by smoking.",
+      "zh-TW": "Smoking 透過幾個協同機制促進 Adrenochrome 形成：煙中的外源性 ROS 直接氧化 Epinephrine；nicotine 與吸菸帶來的壓力觸發腎上腺釋放 adrenaline，提供更多可被氧化的受質；抗氧化能力耗竭則使細胞無法清除氧化負荷。因此吸菸會顯著增加 Adrenochrome 的生成。"
+    },
+    "confidence": 0.9,
+    "source_document": "Smoking.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
+  },
+  {
+    "id": "61e3253f9774",
+    "subject": "Smoking",
+    "predicate": "increases",
+    "object": "Epinephrine",
+    "context": {
+      "en-US": "Nicotine and the physiological stress of smoking trigger release of adrenaline from the adrenal glands, raising circulating Epinephrine levels. Because Epinephrine is the parent catecholamine substrate for aminochrome formation, this surge in substrate directly increases the rate at which Adrenochrome can be generated.",
+      "zh-TW": "Nicotine 與吸菸造成的生理壓力會觸發腎上腺釋放 adrenaline，使循環中的 Epinephrine 濃度上升。由於 Epinephrine 是 aminochrome 生成的母體兒茶酚胺受質，這一波受質增加會直接提高 Adrenochrome 的生成速率。"
+    },
+    "confidence": 0.85,
+    "source_document": "Smoking.md",
+    "created": "2026-09-29T15:11:42Z",
+    "updated": "2026-09-29T15:11:42Z"
   }
 ]
