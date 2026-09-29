@@ -62886,5 +62886,1139 @@
     "source_document": "KDM4.md",
     "created": "2026-09-29T16:19:34Z",
     "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "186128d71f81",
+    "subject": "Heterochromatin",
+    "predicate": "is_a_type_of",
+    "object": "Chromatin",
+    "context": {
+      "en-US": "Heterochromatin is the tightly packed, condensed form of Chromatin in which DNA is transcriptionally inactive. Its compaction silences genes that are not needed in a given cell type, protects repetitive sequences such as Transposable Elements from excising and causing Genomic Instability, and — in its constitutive form at centromeres and telomeres — provides the mechanical strength chromosomes need during cell division.",
+      "zh-TW": "Heterochromatin 是 Chromatin 高度凝縮、緊密包裝的形式，其中 DNA 處於轉錄失活狀態。其凝縮狀態會關閉特定細胞類型不需要的基因，保護 LINE-1 等 Transposable Elements 不致跳轉並造成 Genomic Instability；在著絲點與端粒的組成型異染色質，還能提供細胞分裂時染色體所需的機械強度。"
+    },
+    "confidence": 0.95,
+    "source_document": "Heterochromatin.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "100301a54b0d",
+    "subject": "Heterochromatin",
+    "predicate": "silences",
+    "object": "Transposable Elements",
+    "context": {
+      "en-US": "Heterochromatin keeps Transposable Elements such as LINE-1 transcriptionally silent, preventing them from being transcribed and reinserted elsewhere in the genome. When heterochromatin is lost or 'relaxes' toward Euchromatin, these elements become inappropriately activated, contributing to Genomic Instability and age-related cellular decline.",
+      "zh-TW": "Heterochromatin 會使 LINE-1 等 Transposable Elements 維持轉錄靜默，阻止它們被轉錄並重新插入基因組其他位置。當異染色質流失、朝 Euchromatin「鬆弛」時，這些元件會被不適當地活化，促成 Genomic Instability 與年齡相關的細胞衰退。"
+    },
+    "confidence": 0.95,
+    "source_document": "Heterochromatin.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "c06484e7d7db",
+    "subject": "Heterochromatin",
+    "predicate": "declines_with",
+    "object": "Aging",
+    "context": {
+      "en-US": "The 'heterochromatin loss model of aging' holds that Aging is driven in part by the progressive loss and relaxation of Heterochromatin into Euchromatin-like regions. Progressive erosion is one of the earliest and most influential theories in Epigenetics, and it explains age-associated derepression of repetitive elements and pro-aging genes with consequent inflammation.",
+      "zh-TW": "「異染色質流失的衰老模型」認為，Aging 部分由 Heterochromatin 逐步流失並鬆弛成近似 Euchromatin 的區域所驅動。這種逐步侵蝕是 Epigenetics 中最早也最具影響力的理論之一，可解釋年齡相關的重複元件與促衰老基因去抑制，以及隨後發生的發炎反應。"
+    },
+    "confidence": 0.9,
+    "source_document": "Heterochromatin.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "c1f600e8674a",
+    "subject": "Histone Deacetylase",
+    "predicate": "maintains",
+    "object": "Heterochromatin",
+    "context": {
+      "en-US": "Histone Deacetylase enzymes such as the HDACs, acting together with Histone Methyltransferase enzymes, maintain the compact state of Heterochromatin by removing acetyl groups and depositing marks such as H3K9me3 on histone tails. Without this maintenance activity heterochromatic regions decondense and lose transcriptional repression.",
+      "zh-TW": "HDAC 等 Histone Deacetylase 酵素與 Histone Methyltransferase 酵素共同維持 Heterochromatin 的緊密狀態，方式是移除乙醯基並在組蛋白尾端沉積如 H3K9me3 的標記。缺乏這些維持活性時，異染色質區域會解離並失去轉錄抑制。"
+    },
+    "confidence": 0.9,
+    "source_document": "Heterochromatin.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "268d6023fd12",
+    "subject": "SIRT6",
+    "predicate": "is_localized_to",
+    "object": "Heterochromatin",
+    "context": {
+      "en-US": "Within the nucleus, a large fraction of SIRT1 associates with Euchromatin, SIRT7 is found in the nucleolus, and SIRT6 is the sirtuin that associates with Heterochromatin. This localization places SIRT6 at the nuclear compartment where it maintains heterochromatin stability and restrains expression of repetitive sequences.",
+      "zh-TW": "在細胞核內，sirtuin 家族的分布具有區域性：SIRT1 有相當大部分與 Euchromatin 結合，SIRT7 定位於核仁，而 SIRT6 則與 Heterochromatin 結合。這樣的定位使 SIRT6 落在維持異染色質穩定、抑制重複序列表現的核區。"
+    },
+    "confidence": 0.9,
+    "source_document": "Heterochromatin.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "776475fdd8c4",
+    "subject": "Mitochondrial ROS",
+    "predicate": "causes",
+    "object": "Heteroplasmy",
+    "context": {
+      "en-US": "Mitochondrial ROS, together with the high replication rate of mtDNA and its relatively limited repair capacity, drives the somatic mtDNA mutations that generate Heteroplasmy. Because new mutant genomes arise throughout life, heteroplasmy levels drift and become mosaic across cells and tissues as an organism ages.",
+      "zh-TW": "Mitochondrial ROS 加上 mtDNA 高複製率與相對有限的修復能力，會促成體細胞性 mtDNA 突變的產生，而這些突變正是形成 Heteroplasmy 的來源。由於新的突變基因組在一生中持續出現，heteroplasmy 程度會隨個體老化而漂移，並在細胞與組織間形成鑲嵌分布。"
+    },
+    "confidence": 0.85,
+    "source_document": "Heteroplasmy.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "a6e5230b733a",
+    "subject": "Mitochondrial Fusion",
+    "predicate": "buffers",
+    "object": "Heteroplasmy",
+    "context": {
+      "en-US": "Wild-type and mutant mitochondrial genomes coexist below the clinical threshold because Mitochondrial Fusion mixes organelle contents and lets wild-type mtDNA complement mutant molecules, maintaining sufficient respiratory output. Fragmentation impairs this buffering, which is why the high mutant load of Heteroplasmy only becomes symptomatic above roughly 60–80%.",
+      "zh-TW": "野生型與突變型粒線體基因組之所以能在臨床閾值以下共存，是因為 Mitochondrial Fusion 會混合胞器內容物，讓野生型 mtDNA 互補突變分子，維持足夠的呼吸輸出。碎裂則會破壞這種緩衝能力，因此 Heteroplasmy 的突變負荷通常要超過約 60–80% 才會出現症狀。"
+    },
+    "confidence": 0.9,
+    "source_document": "Heteroplasmy.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "80324c14ce71",
+    "subject": "Heteroplasmy",
+    "predicate": "impairs",
+    "object": "Oxidative Phosphorylation",
+    "context": {
+      "en-US": "Only when mutant Heteroplasmy rises past a biochemical threshold — often ~60–80% depending on mutation and tissue — does Oxidative Phosphorylation fail enough to produce clinical disease. Proof-of-concept work in patient cybrids and mouse models carrying the m.8993 T>C and m.3243A>G MELAS mutations shows that shifting heteroplasmy back toward wild-type restores respiratory function.",
+      "zh-TW": "只有當突變型 Heteroplasmy 超過生化閾值（依突變與組織不同常約 60–80%）時，Oxidative Phosphorylation 才會嚴重受損並產生臨床疾病。在帶有 m.8993 T>C 與 m.3243A>G 等 MELAS 突變的患者 cybrid 與小鼠模型中，把 heteroplasmy 往野生型方向推移即可恢復呼吸功能。"
+    },
+    "confidence": 0.9,
+    "source_document": "Heteroplasmy.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "6b903684514b",
+    "subject": "mitoTALENs",
+    "predicate": "reduces",
+    "object": "Heteroplasmy",
+    "context": {
+      "en-US": "mitoTALENs use TALE–FokI nucleases to introduce double-strand breaks preferentially in mutant mtDNA molecules. The cleaved mutant genomes are degraded while wild-type molecules repopulate the cell, shifting Heteroplasmy toward wild-type — the allele-specific heteroplasmy-shifting strategy that underlies mitochondrial disease therapeutics.",
+      "zh-TW": "mitoTALENs 利用 TALE–FokI 核酸酶，優先在突變型 mtDNA 分子上造成雙股斷裂。被切斷的突變基因組隨後被降解，野生型分子則重新填充細胞，使 Heteroplasmy 往野生型方向推移——這就是粒線體疾病治療中所依據的等位基因專一性 heteroplasmy 位移策略。"
+    },
+    "confidence": 0.9,
+    "source_document": "Heteroplasmy.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "1673577f4ed7",
+    "subject": "MELAS",
+    "predicate": "is_associated_with",
+    "object": "Heteroplasmy",
+    "context": {
+      "en-US": "MELAS, a common mitochondrial disease, is driven by heteroplasmic mtDNA point mutations such as m.3243A>G. Because disease manifests only above a mutant-load threshold, MELAS is one of the principal target indications for heteroplasmy-shifting editors such as mitoTALENs, mitoZFNs and DdCBE.",
+      "zh-TW": "MELAS 是一種常見的粒線體疾病，由 m.3243A>G 等異型性 mtDNA 點突變所驅動。由於疾病只在突變負荷超過閾值時才顯現，MELAS 是 mitoTALENs、mitoZFNs 與 DdCBE 等 heteroplasmy 位移工具的主要適應症之一。"
+    },
+    "confidence": 0.85,
+    "source_document": "Heteroplasmy.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "b4a586018bf6",
+    "subject": "Hexokinase-1",
+    "predicate": "catalyzes",
+    "object": "Glycolysis",
+    "context": {
+      "en-US": "Hexokinase-1 (HK1) catalyzes the first regulatory step of Glycolysis: ATP-dependent phosphorylation of glucose to glucose-6-phosphate. It docks to outer-mitochondrial VDAC, coupling cytosolic glycolysis to Oxidative Phosphorylation, and the glucose-6-phosphate it generates also feeds the pentose phosphate pathway to supply NADPH and glutathione.",
+      "zh-TW": "Hexokinase-1（HK1）催化 Glycolysis 的第一個調控步驟：以 ATP 依賴方式將葡萄糖磷酸化為葡萄糖-6-磷酸。它停靠於粒線體外膜的 VDAC，把細胞質的糖解作用與 Oxidative Phosphorylation 耦聯，而所產生的葡萄糖-6-磷酸同時供應磷酸戊糖途徑以產生 NADPH 與穀胱甘肽。"
+    },
+    "confidence": 0.95,
+    "source_document": "Hexokinase-1.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "dcc6d51331af",
+    "subject": "Hexokinase-1",
+    "predicate": "binds",
+    "object": "VDAC",
+    "context": {
+      "en-US": "Hexokinase-1 anchors to the outer mitochondrial membrane through VDAC via an N-terminal hydrophobic helix, and VDAC-bound HK1 preferentially consumes mitochondrial ATP while stabilizing membrane potential. In Parthanatos, release of this anchor translocates HK1 to the cytosol, lowering its activity and membrane potential and sensitizing neurons to TNF/BAX-mediated death.",
+      "zh-TW": "Hexokinase-1 透過 N 端疏水性螺旋與 VDAC 結合而錨定於粒線體外膜；與 VDAC 結合的 HK1 會優先使用粒線體 ATP 並穩定膜電位。在 Parthanatos 中，錨定解除會使 HK1 轉位至細胞質，降低其活性與膜電位，並讓神經元對 TNF/BAX 介導的死亡更加敏感。"
+    },
+    "confidence": 0.9,
+    "source_document": "Hexokinase-1.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "270b8868d40b",
+    "subject": "PAR",
+    "predicate": "inhibits",
+    "object": "Hexokinase-1",
+    "context": {
+      "en-US": "In Parthanatos, free PAR chains bind Hexokinase-1 through its PAR-binding motif and inhibit catalysis, driving VDAC dissociation and cytosolic translocation with loss of activity. Purified PAR directly inhibits hexokinase in neuronal and glioblastoma lysates whereas PARG-predigested PAR does not, and PBM-mutant HK1 resists PAR inhibition — decisive evidence for a direct binding model.",
+      "zh-TW": "在 Parthanatos 中，游離的 PAR 鏈透過 PAR 結合基序與 Hexokinase-1 結合並抑制其催化活性，導致 VDAC 解離、轉位至細胞質並伴隨活性喪失。純化的 PAR 可直接抑制神經元與膠質母細胞瘤裂解液中的己糖激酶，而經 PARG 預消解的 PAR 則無此效果；帶有 PBM 突變的 HK1 能抵抗 PAR 抑制——這是直接結合模型最具決定性的證據。"
+    },
+    "confidence": 0.95,
+    "source_document": "Hexokinase-1.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "6059540ca4ff",
+    "subject": "Hexokinase-1",
+    "predicate": "feeds",
+    "object": "Pentose Phosphate Pathway",
+    "context": {
+      "en-US": "By generating glucose-6-phosphate, Hexokinase-1 feeds the Pentose Phosphate Pathway; blocking HK1 therefore starves the pathway and collapses NADPH/GSH pools (Hossain et al. 2024). This redox arm operates alongside ATP loss as a lethal output of the PAR-driven hexokinase block.",
+      "zh-TW": "Hexokinase-1 藉由生成葡萄糖-6-磷酸供應 Pentose Phosphate Pathway；抑制 HK1 會使該途徑缺乏底物，導致 NADPH/GSH 池崩解（Hossain et al. 2024）。這條紅氧臂與 ATP 喪失並列，是 PAR 抑制己糖激酶所產生的致死輸出。"
+    },
+    "confidence": 0.9,
+    "source_document": "Hexokinase-1.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "abdaef8e308d",
+    "subject": "Parthanatos",
+    "predicate": "involves",
+    "object": "Hexokinase-1",
+    "context": {
+      "en-US": "Hexokinase-1 inhibition is the bioenergetic hit of the cytosolic dual-hit model of Parthanatos: nuclear PARP1 hyperactivation generates free PAR, which inhibits HK1 and releases it from VDAC, blocking glycolysis and the PPP, and lowering both ATP and NADPH/GSH. HK activity falls about 15 minutes post-MNNG, before NAD+ depletion — so the hit precedes and is independent of NAD+ loss.",
+      "zh-TW": "Hexokinase-1 的抑制是 Parthanatos 細胞質雙重打擊模型的生體能量核心：細胞核內 PARP1 過度活化產生游離 PAR，抑制 HK1 並使其自 VDAC 解離，阻斷糖解作用與 PPP，使 ATP 與 NADPH/GSH 同時下降。HK 活性在 MNNG 處理後約 15 分鐘即下降，早於 NAD+ 耗竭——代表此打擊先於且獨立於 NAD+ 流失。"
+    },
+    "confidence": 0.9,
+    "source_document": "Hexokinase-1.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "dc1eb41c5b25",
+    "subject": "Histamine Intolerance",
+    "predicate": "is_caused_by",
+    "object": "Diamine Oxidase",
+    "context": {
+      "en-US": "Histamine Intolerance arises when histamine intake or endogenous release exceeds the body's degradative capacity, typically because intestinal Diamine Oxidase activity is reduced. The accumulated Histamine then produces allergic-like symptoms — headache, flushing, urticaria, tachycardia, abdominal pain, nausea and diarrhea — often after histamine-rich foods.",
+      "zh-TW": "當組織胺的攝取或內源性釋放超過身體的分解能力時，就會出現 Histamine Intolerance，而最典型的原因是腸道 Diamine Oxidase 活性下降。累積的 Histamine 隨後產生類過敏症狀——頭痛、潮紅、蕁麻疹、心悸、腹痛、噁心與腹瀉——常在食用高組織胺食物後出現。"
+    },
+    "confidence": 0.9,
+    "source_document": "Histamine Intolerance.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "35f1e9f4207c",
+    "subject": "Histone Acetyltransferase",
+    "predicate": "catalyzes",
+    "object": "Histone Acetylation",
+    "context": {
+      "en-US": "Histone acetyltransferase enzymes (HATs) add acetyl groups to lysine residues on histone tails, producing Histone Acetylation. Because acetylation neutralizes the positive charge on lysine, DNA–histone contacts loosen and chromatin opens, typically increasing gene transcription. The reaction is reversed by Histone Deacetylase enzymes and by sirtuins such as SIRT1.",
+      "zh-TW": "Histone acetyltransferase（HAT）將乙醯基加到組蛋白尾端的離胺酸殘基上，形成 Histone Acetylation。由於乙醯化中和了離胺酸的正電荷，DNA 與組蛋白的接觸鬆動、染色質開啟，通常使基因轉錄增加。該反應由 Histone Deacetylase 酵素與 SIRT1 等 sirtuin 逆轉。"
+    },
+    "confidence": 0.95,
+    "source_document": "Histone Acetylation.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "ec9c6b117c54",
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "Histone H3",
+    "context": {
+      "en-US": "SIRT1 is an NAD+-dependent deacetylase whose activity shifts with cellular energy state, linking Histone H3 acetylation levels to longevity and age-related decline. The related sirtuin SIRT6 attenuated NF-κB expression by deacetylating Histone H3 in the promoters of NF-κB target genes, thereby decreasing inflammation.",
+      "zh-TW": "SIRT1 是 NAD+ 依賴型去乙醯化酶，其活性隨細胞能量狀態變動，因而把 Histone H3 的乙醯化程度與長壽及年齡相關衰退連結起來。同家族的 SIRT6 會在 NF-κB 標的基因的啟動子上去乙醯化 Histone H3，降低 NF-κB 表現並減少發炎。"
+    },
+    "confidence": 0.9,
+    "source_document": "Histone Acetylation.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "02777c3c9991",
+    "subject": "Histone H3",
+    "predicate": "is_a_component_of",
+    "object": "Nucleosome",
+    "context": {
+      "en-US": "Histone H3 is one of the core histones that form the Nucleosome: together with Histone H4 it makes an (H3-H4)2 tetramer that organizes the central 120–130 bp of DNA wrapped around the particle. H3 is among the most highly conserved proteins across eukaryotes and carries a dense array of post-translational modifications on its ~40-residue N-terminal tail.",
+      "zh-TW": "Histone H3 是構成 Nucleosome 的核心組蛋白之一：它與 Histone H4 共同形成 (H3-H4)2 四聚體，組織纏繞在核小體上的中央 120–130 bp DNA。H3 是真核生物中序列最保守的蛋白質之一，其約 40 個殘基的 N 端尾帶上帶有密集的轉譯後修飾。"
+    },
+    "confidence": 0.95,
+    "source_document": "Histone H3.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "fae83b237da2",
+    "subject": "Spermidine",
+    "predicate": "inhibits",
+    "object": "Histone Acetyltransferase",
+    "context": {
+      "en-US": "Spermidine acts as an autophagy inducer by inhibiting histone acetyltransferases, particularly EP300/p300, which produces global de-acetylation of Histone H3. This de-acetylation alters chromatin accessibility at the promoters of autophagy genes — a mechanism independent of mTOR inhibition, distinguishing spermidine from rapamycin-class inducers.",
+      "zh-TW": "Spermidine 透過抑制組蛋白乙醯轉移酶（尤其是 EP300/p300）而誘導 Autophagy，結果造成 Histone H3 的全面去乙醯化。這種去乙醯化改變了自噬基因啟動子的染色質可及性；其機制獨立於 mTOR 抑制，這正是 spermidine 與 rapamycin 類誘導劑的差異所在。"
+    },
+    "confidence": 0.9,
+    "source_document": "Histone H3.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "68c017115996",
+    "subject": "H3K9me3",
+    "predicate": "marks",
+    "object": "Heterochromatin",
+    "context": {
+      "en-US": "H3K9me3 — trimethylation of histone H3 lysine 9 — is enriched at constitutive Heterochromatin and functions as a repressive mark. Its global loss with age contributes to heterochromatin erosion, genomic instability and aberrant gene expression, and the same loss is a hallmark of Hutchinson-Gilford Progeria Syndrome cells.",
+      "zh-TW": "H3K9me3（組蛋白 H3 離胺酸 9 的三甲基化）富集於組成型 Heterochromatin，是一個抑制性標記。它隨年齡的全面流失會促成異染色質侵蝕、基因體不穩定與異常基因表現；同樣的流失也是 Hutchinson-Gilford Progeria Syndrome 細胞的特徵之一。"
+    },
+    "confidence": 0.95,
+    "source_document": "Histone H3.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "069a8b4faebe",
+    "subject": "H3K18ac",
+    "predicate": "increases_with",
+    "object": "Aging",
+    "context": {
+      "en-US": "Age-related shifts in Histone H3 marks are reproducible: H3K18ac and H3K27ac increase in aged tissues and are linked to Inflammaging, H3K4me3 declines at promoters of metabolic and stress-response genes, and repressive H3K9me3/H3K27me3 are lost. These changes are counteracted by caloric restriction, rapamycin and spermidine supplementation.",
+      "zh-TW": "Histone H3 標記隨年齡的變化具有可重複性：H3K18ac 與 H3K27ac 在老化組織中上升，並與 Inflammaging 相關；代謝與壓力反應基因啟動子上的 H3K4me3 下降；抑制性的 H3K9me3/H3K27me3 則流失。這些變化可被熱量限制、rapamycin 與 spermidine 補充抵消。"
+    },
+    "confidence": 0.85,
+    "source_document": "Histone H3.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "399096c29290",
+    "subject": "Histone Methylation",
+    "predicate": "is_a_type_of",
+    "object": "Histone Modification",
+    "context": {
+      "en-US": "Histone Methylation is a Histone Modification in which methyl groups are added to lysine or arginine residues on histone tails. Unlike acetylation it does not change histone charge; instead it creates docking sites for 'reader' proteins, and its transcriptional consequence depends on the residue and the number of methyl groups (mono-, di-, tri-methylation).",
+      "zh-TW": "Histone Methylation 是一類 Histone Modification，將甲基加到組蛋白尾端的離胺酸或精胺酸殘基上。與乙醯化不同，它不改變組蛋白的電荷，而是創造讓「讀取者」蛋白質停靠的位點；其對轉錄的影響取決於殘基種類與甲基數目（單甲基、二甲基、三甲基）。"
+    },
+    "confidence": 0.95,
+    "source_document": "Histone Methylation.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "957bdec22b36",
+    "subject": "Histone Methyltransferase",
+    "predicate": "deposits",
+    "object": "Histone Methylation",
+    "context": {
+      "en-US": "Histone Methyltransferase enzymes are the 'writers' of Histone Methylation, using S-adenosylmethionine (SAM) as the universal methyl donor. Lysine methyltransferases such as SUV39H1, EZH2 and DOT1L, and arginine PRMTs, show high residue specificity, which is what allows repressive and activating marks to occupy distinct sites.",
+      "zh-TW": "Histone Methyltransferase 酵素是 Histone Methylation 的「寫入者」，以 S-adenosylmethionine（SAM）作為通用的甲基供體。SUV39H1、EZH2、DOT1L 等離胺酸甲基轉移酶，以及精胺酸 PRMT，對殘基具有高度專一性，正因如此抑制性與活化性標記才能占據不同位點。"
+    },
+    "confidence": 0.95,
+    "source_document": "Histone Methylation.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "cd23dbc66e4e",
+    "subject": "EZH2",
+    "predicate": "is_deposited_by",
+    "object": "H3K27me3",
+    "context": {
+      "en-US": "As the catalytic subunit of Polycomb repressive complexes, EZH2 deposits H3K27me3, the mark that defines facultative heterochromatin. Together with the SUV39H1-mediated H3K9me3 mark, H3K27me3 is progressively lost during Aging, derepressing Transposable Elements and contributing to the Epigenetic Alterations hallmark of aging.",
+      "zh-TW": "EZH2 是 Polycomb 抑制性複合物的催化次單元，負責沉積 H3K27me3——定義可塑型異染色質的標記。H3K27me3 與 SUV39H1 介導的 H3K9me3 會在 Aging 過程中逐步流失，使 Transposable Elements 去抑制，並促成 Epigenetic Alterations 這個衰老特徵。"
+    },
+    "confidence": 0.9,
+    "source_document": "Histone Methylation.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "0af393b1174f",
+    "subject": "Aging",
+    "predicate": "reduces",
+    "object": "H3K9me3",
+    "context": {
+      "en-US": "Aging is accompanied by a global loss of repressive H3K9me3 and H3K27me3 marks, erosion of heterochromatin, derepression of Transposable Elements and redistribution of chromatin modifiers. This epigenetic drift is a core component of the Epigenetic Alterations hallmark of aging and is documented as a reversible driver of aging phenotypes.",
+      "zh-TW": "Aging 伴隨抑制性的 H3K9me3 與 H3K27me3 標記全面流失、異染色質侵蝕、Transposable Elements 去抑制，以及染色質修飾酶的重新分布。這種表觀遺傳漂變是 Epigenetic Alterations 這個衰老特徵的核心組成，並被記錄為可逆的衰老表型驅動因素。"
+    },
+    "confidence": 0.9,
+    "source_document": "Histone Methylation.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "6b68e85d88c8",
+    "subject": "Histone Modification",
+    "predicate": "regulates",
+    "object": "Transcription",
+    "context": {
+      "en-US": "Histone Modification on histone tails constitutes a central part of the epigenetic code that dictates whether the underlying DNA is accessible for Transcription or remains tightly packed. The specific combination of marks — the 'histone code' — is read by specialized proteins that recruit factors to either open or close the chromatin.",
+      "zh-TW": "Histone Modification 發生在組蛋白尾端，是表觀遺傳密碼的核心組成，決定其下的 DNA 是否可供 Transcription 存取或維持緊密包裝。這些標記的特定組合——即「組蛋白密碼」——由專門蛋白質讀取，再招募因子以開啟或關閉染色質。"
+    },
+    "confidence": 0.9,
+    "source_document": "Histone Modification.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "c2d065f5d001",
+    "subject": "Histone Acetylation",
+    "predicate": "is_a_type_of",
+    "object": "Histone Modification",
+    "context": {
+      "en-US": "Histone Acetylation is the best-studied Histone Modification and is generally associated with gene activation and an open Chromatin structure resembling Euchromatin. Marks are added by 'writers' such as HATs and removed by 'erasers' such as HDACs, so the acetylation state of a locus is dynamic rather than fixed.",
+      "zh-TW": "Histone Acetylation 是研究最深入的 Histone Modification，一般與基因活化及開放的 Chromatin 結構（類似 Euchromatin）相關。標記由 HAT 等「寫入者」加上，再由 HDAC 等「擦除者」移除，因此某位點的乙醯化狀態是動態的而非固定的。"
+    },
+    "confidence": 0.9,
+    "source_document": "Histone Modification.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "2b4b2ea1673d",
+    "subject": "Histone Methylation",
+    "predicate": "contributes_to",
+    "object": "Genomic Instability",
+    "context": {
+      "en-US": "Shifts in Histone Modification during Aging — loss of repressive marks and gain of activating marks in regions that should stay silent — constitute epigenetic drift, and this drift contributes to Genomic Instability. Loss of total core histones with age compounds the effect by reducing the packaging capacity of chromatin.",
+      "zh-TW": "Aging 期間 Histone Modification 的位移——本應靜默的區域失去抑制性標記並獲得活化性標記——構成表觀遺傳漂變，而這種漂變促成 Genomic Instability。隨年齡流失的核心組蛋白總量會進一步削弱染色質的包裝能力，使效應加劇。"
+    },
+    "confidence": 0.8,
+    "source_document": "Histone Modification.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "c11c055ca4f4",
+    "subject": "Histone",
+    "predicate": "is_a_component_of",
+    "object": "Nucleosome",
+    "context": {
+      "en-US": "Histones are basic nuclear proteins that package DNA into Nucleosomes, the fundamental unit of Chromatin. The four core histones (Histone H2A, Histone H2B, Histone H3, H4) form an octamer wrapped by about 147 bp of DNA, while Histone H1 acts as a linker histone that stabilizes higher-order chromatin.",
+      "zh-TW": "組蛋白是將 DNA 包裝成 Nucleosome（染色質的基本單位）的鹼性核蛋白。四種核心組蛋白（Histone H2A、Histone H2B、Histone H3、H4）形成八聚體，外纏約 147 bp DNA；Histone H1 則作為連接型組蛋白穩定高階染色質。"
+    },
+    "confidence": 0.95,
+    "source_document": "Histone.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "ceabada09554",
+    "subject": "Histone H3",
+    "predicate": "is_a_type_of",
+    "object": "Histone",
+    "context": {
+      "en-US": "Histone H3 is the most extensively modified member of the core Histone proteins, carrying acetylation, methylation, phosphorylation, ubiquitination and citrullination marks on its N-terminal tail. These Histone Modification marks read by bromodomain, chromodomain and PHD Finger reader domains regulate Gene Expression, DNA Repair, DNA Replication and Chromosome Condensation.",
+      "zh-TW": "Histone H3 是核心 Histone 蛋白中修飾最密集者，其 N 端尾帶上帶有乙醯化、甲基化、磷酸化、泛素化與瓜胺酸化等標記。這些由 bromodomain、chromodomain 與 PHD Finger 讀取結構域辨識的 Histone Modification 標記，調控 Gene Expression、DNA Repair、DNA Replication 與 Chromosome Condensation。"
+    },
+    "confidence": 0.9,
+    "source_document": "Histone.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "dfc671e89ca7",
+    "subject": "Histone Modification",
+    "predicate": "regulates",
+    "object": "Gene Expression",
+    "context": {
+      "en-US": "Histone Modification is subject to extensive regulation that controls Gene Expression, DNA Repair, DNA Replication and Chromosome Condensation. The enzymes that write and erase these marks — HATs, HDACs, HMTs and KDMs — are themselves therapeutic targets in Cancer, which is why histone-modifying drugs are a developed pharmacological class.",
+      "zh-TW": "Histone Modification 受到廣泛調控，用以控制 Gene Expression、DNA Repair、DNA Replication 與 Chromosome Condensation。負責寫入與擦除這些標記的酵素——HAT、HDAC、HMT 與 KDM——本身即為 Cancer 的治療標靶，因此組蛋白修飾藥物已成為開發成熟的藥理類別。"
+    },
+    "confidence": 0.85,
+    "source_document": "Histone.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "32f45c83d6c5",
+    "subject": "Homer1",
+    "predicate": "binds",
+    "object": "Glutamate",
+    "context": {
+      "en-US": "Homer1 (Homer homolog 1, also known as Vesl-1) is a postsynaptic scaffold protein at excitatory synapses that links Glutamate receptors to downstream signaling pathways. Because Homer1-positive puncta mark mature excitatory synapses, reduced Homer1 expression correlates with lower spine and synapse density.",
+      "zh-TW": "Homer1（Homer homolog 1，又稱 Vesl-1）是興奮性突觸的突觸後支架蛋白，把 Glutamate 受體與下游訊息傳遞路徑連結起來。由於 Homer1 陽性的斑點可標記成熟的興奮性突觸，Homer1 表現下降便與樹突棘及突觸密度降低相關。"
+    },
+    "confidence": 0.9,
+    "source_document": "Homer1.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "f2b66ebad91d",
+    "subject": "PINK1",
+    "predicate": "regulates",
+    "object": "Homer1",
+    "context": {
+      "en-US": "PINK1 knockout neurons exhibit reduced Homer1 expression, lower density of mature dendritic spines and excitatory synapses, and impaired long-term potentiation. The reduction in Homer1 is a downstream consequence of defective mitochondrial dynamics at synapses rather than a direct transcriptional effect.",
+      "zh-TW": "PINK1 敲除的神經元表現出較低的 Homer1 表現量、較低的成熟樹突棘與興奮性突觸密度，以及受損的長期增強。Homer1 的下降是突觸處粒線體動態異常的下游後果，而非直接的轉錄效應。"
+    },
+    "confidence": 0.9,
+    "source_document": "Homer1.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "3f8268167bad",
+    "subject": "PINK1",
+    "predicate": "phosphorylates",
+    "object": "DRP1",
+    "context": {
+      "en-US": "PINK1 maintains synaptic integrity by phosphorylating DRP1 at the S616 site, promoting the mitochondrial fission necessary for recruitment of mitochondria into dendritic spines. It is this PINK1–DRP1 axis that sustains Homer1-positive excitatory synapses.",
+      "zh-TW": "PINK1 藉由在 S616 位點磷酸化 DRP1 來維持突觸完整性，促進粒線體分裂——而這正是粒線體被招募進入樹突棘所必需。維持 Homer1 陽性興奮性突觸的，正是這條 PINK1–DRP1 軸線。"
+    },
+    "confidence": 0.9,
+    "source_document": "Homer1.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "04c638889ad5",
+    "subject": "Homer1",
+    "predicate": "is_a_marker_of",
+    "object": "Synaptic plasticity",
+    "context": {
+      "en-US": "Homer1 serves as a marker of excitatory synapse maturity and of Synaptic plasticity more broadly, because its abundance tracks spine density and the capacity for long-term potentiation. Interventions that raise PINK1–DRP1 signaling therefore improve synaptic plasticity by restoring Homer1-positive synapses.",
+      "zh-TW": "Homer1 可作為興奮性突觸成熟度以及更廣義 Synaptic plasticity 的標記，因為其豐富程度與樹突棘密度及長期增強能力相符。因此提升 PINK1–DRP1 訊號的介入措施，可藉由恢復 Homer1 陽性突觸而改善突觸可塑性。"
+    },
+    "confidence": 0.85,
+    "source_document": "Homer1.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "9f42b592d6b9",
+    "subject": "SIRT1",
+    "predicate": "promotes",
+    "object": "Homologous Recombination",
+    "context": {
+      "en-US": "SIRT1 helps maintain telomeres and promotes Homologous Recombination, the high-fidelity pathway that repairs double-strand breaks from an intact sister template. By supporting both telomere maintenance and HR, SIRT1 contributes to genome stability, and its impairment is linked to accumulating DNA damage with age.",
+      "zh-TW": "SIRT1 有助於維持端粒並促進 Homologous Recombination——以完整姊妹染色體為模板修復雙股斷裂的高保真途徑。藉由同時支持端粒維持與 HR，SIRT1 為基因體穩定性做出貢獻，其功能受損則與隨年齡累積的 DNA 損傷相關。"
+    },
+    "confidence": 0.9,
+    "source_document": "Homologous Recombination.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "2734dd8530b7",
+    "subject": "Mitohormesis",
+    "predicate": "activates",
+    "object": "NRF2",
+    "context": {
+      "en-US": "The NRF2/ARE pathway is central to Mitohormesis: mild oxidative stress stabilizes NRF2, which drives the endogenous phase II enzyme cascade that produces 10–100× more antioxidant capacity than any supplement could supply. Low-dose radiation reaches the same nodes (ATM → DNA damage response → FOXO, MAPK/ERK/JNK, NF-κB), so a radiation 'signal' primes the same architecture as mitochondrial ROS.",
+      "zh-TW": "NRF2/ARE 途徑是 Mitohormesis 的核心：輕度氧化壓力使 NRF2 穩定，進而驅動內源性的第二階段酵素級聯，產生比任何補充劑高出 10–100 倍的抗氧化能力。低劑量輻射也會觸及相同節點（ATM → DNA 損傷反應 → FOXO、MAPK/ERK/JNK、NF-κB），因此以輻射作為「訊號」能預備與粒線體 ROS 相同的架構。"
+    },
+    "confidence": 0.9,
+    "source_document": "Hormesis in Non-Mitochondrial Systems.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "6f5a262a1114",
+    "subject": "Antioxidant",
+    "predicate": "impairs",
+    "object": "Exercise",
+    "context": {
+      "en-US": "High-dose antioxidant supplementation increased mortality in the ATBC, CARET and SELECT trials, and co-administration with Exercise blunts mitochondrial biogenesis and training adaptation — identical to antioxidants given alongside Metformin attenuating its mitohormetic benefit. Under a hormetic reading, ROS are signalling molecules, so exogenous antioxidants suppress the signal that would trigger the far stronger endogenous NRF2 response.",
+      "zh-TW": "高劑量抗氧化補充劑在 ATBC、CARET 與 SELECT 試驗中反而提高死亡率；與 Exercise 併用則會削弱粒線體新生與訓練適應——這與抗氧化劑與 Metformin 併用會減弱其 mitohormesis 效益的發現完全相同。在 hormesis 的觀點下，ROS 是訊號分子，因此外源性抗氧化劑抑制了本可觸發更強大內源性 NRF2 反應的訊號。"
+    },
+    "confidence": 0.8,
+    "source_document": "Hormesis in Non-Mitochondrial Systems.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "a68ee77b3548",
+    "subject": "Caloric Restriction",
+    "predicate": "activates",
+    "object": "Heat Shock Proteins",
+    "context": {
+      "en-US": "Heat stress induces HSP70/HSP90 molecular chaperones that repair misfolded proteins, and these are the same proteostasis pathways engaged by Caloric Restriction, Exercise and Mitohormesis. Sharing a single proteostatic effector across thermal, dietary and mitochondrial stressors is what makes cross-domain hormesis architecturally coherent rather than metaphorical.",
+      "zh-TW": "熱壓力會誘導 HSP70/HSP90 分子伴護蛋白修復錯誤折疊的蛋白質，而這些正是 Caloric Restriction、Exercise 與 Mitohormesis 同樣啟動的蛋白恆定途徑。熱、飲食與粒線體等不同壓力源共享同一套蛋白恆定效應器，正是跨領域 hormesis 在架構上連貫而非比喻的原因。"
+    },
+    "confidence": 0.8,
+    "source_document": "Hormesis in Non-Mitochondrial Systems.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "aebd96f85105",
+    "subject": "Hormesis in Non-Mitochondrial Systems",
+    "predicate": "is_a_type_of",
+    "object": "Hormesis",
+    "context": {
+      "en-US": "Beyond mitohormesis, the same biphasic dose-response pattern — radiation, oxygen deprivation, mechanical load, heat, cold, infection, psychological challenge, caloric deficit, phytochemicals — constitutes non-mitochondrial Hormesis. These domains are underrecognized largely because of semantic fragmentation: each field uses its own vocabulary ('adaptive response', 'preconditioning', 'eustress') without sharing the underlying biology.",
+      "zh-TW": "在 mitohormesis 之外，相同的雙相劑量-反應型態——輻射、缺氧、機械負荷、高溫、低溫、感染、心理挑戰、熱量缺乏、植物化學物質——構成了非粒線體的 Hormesis。這些領域之所以被低估，主要歸因於語意碎片化：每個領域各自使用自己的詞彙（「適應反應」、「預備」、「良性壓力」），卻未共享同一套生物學基礎。"
+    },
+    "confidence": 0.85,
+    "source_document": "Hormesis in Non-Mitochondrial Systems.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "ad29417c67ed",
+    "subject": "Glutathione",
+    "predicate": "determines",
+    "object": "Hormetic Window",
+    "context": {
+      "en-US": "Glutathione, together with the Thioredoxin system, sets the baseline ROS buffering capacity and therefore the lower threshold of the Hormetic Window. Higher glutathione levels widen the window by absorbing more superoxide before damage occurs, which is why liver — a high-glutathione, wide-window tissue — tolerates metabolic stress far better than brain.",
+      "zh-TW": "Glutathione 與 Thioredoxin 系統共同決定基礎的 ROS 緩衝能力，因而決定 Hormetic Window 的下閾值。較高的穀胱甘肽水平能吸收更多超氧陰離子後才產生損傷，因而擴大視窗；這也是肝臟（高穀胱甘肽、寬視窗組織）對代謝壓力的耐受度遠高於腦的原因。"
+    },
+    "confidence": 0.9,
+    "source_document": "Hormetic Window.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "73401c364788",
+    "subject": "SIRT3",
+    "predicate": "determines",
+    "object": "Hormetic Window",
+    "context": {
+      "en-US": "The SIRT3/SIRT4 ratio directly sets the rate of MnSOD-mediated superoxide clearance and is described as the primary molecular determinant of the mitochondrial hormetic window. A high SIRT3/SIRT4 ratio gives a narrow window (rapid quenching, less signalling), whereas a low ratio gives a wide window with sustained ROS, more signalling and more risk.",
+      "zh-TW": "SIRT3/SIRT4 比值直接決定 MnSOD 介導的超氧清除速率，被視為粒線體 hormetic window 的主要分子決定因子。比值高時視窗窄（清除迅速、訊號較少），比值低時視窗寬（ROS 持續、訊號較多、風險也較高）。"
+    },
+    "confidence": 0.85,
+    "source_document": "Hormetic Window.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "de93a5d3050b",
+    "subject": "UCP2",
+    "predicate": "widens",
+    "object": "Hormetic Window",
+    "context": {
+      "en-US": "UCP2 and other uncoupling proteins dissipate mitochondrial membrane potential, reducing ROS production at Complex I. Higher uncoupling protein expression lowers the ROS ceiling and thereby widens the Hormetic Window, allowing a given dose of stress to remain adaptive over a larger range.",
+      "zh-TW": "UCP2 等解偶聯蛋白消散粒線體膜電位，降低複合體 I 處的 ROS 產生。較高的解偶聯蛋白表現會壓低 ROS 上限，因而擴大 Hormetic Window，使同一劑量的壓力能在更大範圍內維持其適應性作用。"
+    },
+    "confidence": 0.85,
+    "source_document": "Hormetic Window.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "06b6003d265a",
+    "subject": "DRP1",
+    "predicate": "promotes",
+    "object": "Mitophagy",
+    "context": {
+      "en-US": "DRP1-mediated fission isolates damaged mitochondria for Mitophagy clearance, and because fused mitochondrial networks tolerate stress better than fragmented ones, mitochondrial dynamics set how the Hormetic Window is negotiated. Fission lets a cell quarantine a damaged unit below the NOAEL; fusion instead dilutes damage across the network.",
+      "zh-TW": "DRP1 介導的分裂可將受損粒線體隔離出來供 Mitophagy 清除；由於融合的粒線體網絡比碎裂者更能耐受壓力，粒線體動態決定了 Hormetic Window 如何被協商。分裂讓細胞得以在 NOAEL 以下隔離受損單元，融合則是將損傷在網絡中稀釋。"
+    },
+    "confidence": 0.8,
+    "source_document": "Hormetic Window.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "3ea9b8b6e67a",
+    "subject": "Redox Vaccination",
+    "predicate": "widens",
+    "object": "Hormetic Window",
+    "context": {
+      "en-US": "The Redox Vaccination hypothesis proposes that sub-toxic adrenochrome exposure upregulates SIRT3 via a retrograde ROS→AMPK→PGC-1α→SIRT3 cascade, effectively widening the Hormetic Window for subsequent challenges. It is the mechanistic analogue of ischemic preconditioning or mithridatism: repeated sub-lethal exposures expand adaptive capacity.",
+      "zh-TW": "Redox Vaccination 假說提出，次毒性的腎上腺醌暴露可經由 ROS→AMPK→PGC-1α→SIRT3 的逆行級聯提升 SIRT3，因而實質上擴大後續挑戰的 Hormetic Window。它在機制上等同於缺血預備作用或 mithridatism：反覆的次致死暴露可擴張適應容量。"
+    },
+    "confidence": 0.85,
+    "source_document": "Hormetic Window.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "a2b3329c1973",
+    "subject": "FOXO3a",
+    "predicate": "determines",
+    "object": "Hormetic Window",
+    "context": {
+      "en-US": "Polymorphisms in FOXO3a, SIRT1, PGC-1α and NRF2 shift an individual's Hormetic Window in position and width, which explains the large inter-individual variability in responses to Exercise, Caloric Restriction and pharmacological interventions. The window is therefore as much a property of genotype as of dose.",
+      "zh-TW": "FOXO3a、SIRT1、PGC-1α 與 NRF2 的多型性會改變個人 Hormetic Window 的位置與寬度，解釋了對 Exercise、Caloric Restriction 與藥理介入反應的巨大個體差異。因此視窗既是劑量的函數，也是基因型的函數。"
+    },
+    "confidence": 0.8,
+    "source_document": "Hormetic Window.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "615ae8352a67",
+    "subject": "Hormetic Window",
+    "predicate": "is_a_type_of",
+    "object": "Biphasic Dose-Response Curve",
+    "context": {
+      "en-US": "The Hormetic Window is the quantitative expression of a Biphasic Dose-Response Curve, bounded below by the LOAEL and above by the NOAEL, following a J-shaped curve for mortality and a U-shaped curve for performance. Between those thresholds the maximal stimulatory response is typically 30–60% above control across a span of roughly one order of magnitude on the dose axis.",
+      "zh-TW": "Hormetic Window 是 Biphasic Dose-Response Curve 的定量表現：下界為 LOAEL，上界為 NOAEL；對死亡率呈 J 型、對表現呈 U 型。在這兩個閾值之間，最大刺激反應通常比對照高出 30–60%，劑量軸跨度約一個數量級。"
+    },
+    "confidence": 0.85,
+    "source_document": "Hormetic Window.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "c77e750440da",
+    "subject": "Mitohormesis",
+    "predicate": "is_bounded_by",
+    "object": "Hormetic Window",
+    "context": {
+      "en-US": "Mitohormetic benefit exists only within the Hormetic Window: sublethal mitochondrial stress extends Lifespan, whereas stress beyond the NOAEL kills the cell. Because the window is narrow in brain and pancreatic β-cells but wide in liver and skeletal Muscle, the same mitohormetic dose can be therapeutic in one tissue and pathological in another.",
+      "zh-TW": "Mitohormesis 的效益只存在於 Hormetic Window 之內：次致死性粒線體壓力可延長 Lifespan，超過 NOAEL 的壓力則會殺死細胞。由於視窗在腦與胰島 β 細胞較窄、在肝臟與骨骼 Muscle 較寬，同一劑量的 mitohormetic 刺激在一個組織可能是治療性的，在另一個組織則是致病的。"
+    },
+    "confidence": 0.85,
+    "source_document": "Hormetic Window.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "fdc878e951bd",
+    "subject": "Hrk",
+    "predicate": "is_a_member_of",
+    "object": "Bcl-2 family",
+    "context": {
+      "en-US": "Hrk (Harakiri, BCL2 interacting protein) is a pro-apoptotic member of the Bcl-2 family, listed alongside Bax, Bak, Bad, Bcl-Xs, Bid, Bik and Bim in opposition to the anti-apoptotic members Bcl-2, Bcl-xL, Bcl-w, A1-Bfl-1 and Mcl-1. Its altered expression or mutation is associated with cancer, neurodegenerative disease and developmental disorders.",
+      "zh-TW": "Hrk（Harakiri，BCL2 interacting protein）是 Bcl-2 家族的促凋亡成員，與 Bax、Bak、Bad、Bcl-Xs、Bid、Bik、Bim 一同被列為對抗抗凋亡成員 Bcl-2、Bcl-xL、Bcl-w、A1-Bfl-1 與 Mcl-1 的一群。其表現改變或突變與癌症、神經退化性疾病及發育異常相關。"
+    },
+    "confidence": 0.85,
+    "source_document": "Hrk.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "f8283539a07d",
+    "subject": "Hrk",
+    "predicate": "promotes",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "Hrk is grouped with the BH3-only pro-apoptotic proteins of the Bcl-2 family, which activate the intrinsic apoptosis pathway by promoting Bax and Bak oligomerization and mitochondrial outer membrane permeabilization. Altered Hrk expression is therefore associated with cancer and neurodegeneration, and the protein serves as a biomarker and therapeutic target.",
+      "zh-TW": "Hrk 與 Bcl-2 家族中其他 BH3-only 促凋亡蛋白歸為一類，透過促進 Bax 與 Bak 寡聚化及粒線體外膜通透化來啟動內源性凋亡路徑。因此 Hrk 表現改變與癌症及神經退化相關，此蛋白同時可作為生物標記與治療標靶。"
+    },
+    "confidence": 0.75,
+    "source_document": "Hrk.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "a38722cfe47e",
+    "subject": "DNA Methylation",
+    "predicate": "silences",
+    "object": "Human Endogenous Retrovirus",
+    "context": {
+      "en-US": "Human Endogenous Retrovirus proviruses are normally silenced by DNA Methylation and heterochromatin compaction. In senescence, age-related DNA demethylation and heterochromatin decompaction derepress these proviruses, driving transcription of viral proteins and retrovirus-like particles — which is why HERV expression is elevated in aged human tissues and in the serum of elderly individuals.",
+      "zh-TW": "Human Endogenous Retrovirus 的前病毒通常受 DNA Methylation 與異染色質凝縮所抑制。在細胞衰老時，年齡相關的 DNA 去甲基化與異染色質解離使這些前病毒去抑制，驅動病毒蛋白與類反轉錄病毒顆粒的轉錄——這也是老化組織與老年人血清中 HERV 表現升高的原因。"
+    },
+    "confidence": 0.9,
+    "source_document": "Human Endogenous Retrovirus.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "7a75b7c8f523",
+    "subject": "Human Endogenous Retrovirus",
+    "predicate": "activates",
+    "object": "cGAS-STING Pathway",
+    "context": {
+      "en-US": "Human Endogenous Retrovirus RNA is reverse-transcribed in the cytoplasm of senescent cells, and the resulting HERV cDNA is sensed by the cGAS-STING Pathway to induce type I interferon and SASP. This parallels the mechanism by which LINE-1 cDNA activates innate immunity, and the interferon output feeds tissue-wide Inflammaging.",
+      "zh-TW": "Human Endogenous Retrovirus 的 RNA 在衰老細胞的細胞質中被反轉錄，產生的 HERV cDNA 由 cGAS-STING Pathway 感知，進而誘導第一型干擾素與 SASP。這與 LINE-1 cDNA 啟動先天免疫的機制平行，而干擾素的輸出則餵養組織層級的 Inflammaging。"
+    },
+    "confidence": 0.9,
+    "source_document": "Human Endogenous Retrovirus.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "f378a94a3bfc",
+    "subject": "Human Endogenous Retrovirus",
+    "predicate": "promotes",
+    "object": "SASP",
+    "context": {
+      "en-US": "HERV-derived cDNA engages the cGAS-STING Pathway to upregulate SASP factors, and retrovirus-like particles released from senescent cells — or found in the sera of older individuals — can infect healthy cells via their envelope protein and induce a senescence phenotype in those cells. Human Endogenous Retrovirus thus drives paracrine spread of senescence, amplifying SASP expression community-wide.",
+      "zh-TW": "HERV 來源的 cDNA 透過 cGAS-STING Pathway 上調 SASP 因子；而從衰老細胞釋出的類反轉錄病毒顆粒（或存在於老年人血清中）可藉其包膜蛋白感染健康細胞，並在那些細胞中誘導衰老表型。因此 Human Endogenous Retrovirus 推動衰老的旁分泌擴散，在群體層面放大 SASP 表現。"
+    },
+    "confidence": 0.9,
+    "source_document": "Human Endogenous Retrovirus.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "1b4d1397f14a",
+    "subject": "Nucleoside Reverse Transcriptase Inhibitor",
+    "predicate": "inhibits",
+    "object": "Human Endogenous Retrovirus",
+    "context": {
+      "en-US": "Blocking reverse transcription of HERV (and LINE-1) with nucleoside reverse transcriptase inhibitors alleviates interferon-mediated inflammation in mouse tissues and suppresses SASP in cells. Repurposing HIV drugs such as emtricitabine (NCT04500847 for Alzheimer's disease) is proposed to blunt HERV/L1-associated Inflammaging.",
+      "zh-TW": "以 Nucleoside Reverse Transcriptase Inhibitor 阻斷 HERV（與 LINE-1）的反轉錄，可緩解小鼠組織中的干擾素介導發炎並抑制細胞中的 SASP。將 emtricitabine 等 HIV 藥物重新定位（Alzheimer's disease 的 NCT04500847）被提出用於抑制與 HERV/L1 相關的 Inflammaging。"
+    },
+    "confidence": 0.85,
+    "source_document": "Human Endogenous Retrovirus.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "fb84f09080df",
+    "subject": "Human Endogenous Retrovirus",
+    "predicate": "contributes_to",
+    "object": "Inflammaging",
+    "context": {
+      "en-US": "Because ancient retroviral sequences constitute roughly 8% of the human genome and are transcriptionally derepressed with age, Human Endogenous Retrovirus contributes to Inflammaging across tissues. Specific families such as HERV-K and HERV-W are the most transcriptionally active in pathology and aging, making them the leading therapeutic targets in this class.",
+      "zh-TW": "由於古老的反轉錄病毒序列約占人類基因組的 8%，且會隨年齡去抑制轉錄，Human Endogenous Retrovirus 在多種組織中促成 Inflammaging。特定家族如 HERV-K 與 HERV-W 在病理與老化中轉錄活性最高，因而是此類中主要的治療標的。"
+    },
+    "confidence": 0.85,
+    "source_document": "Human Endogenous Retrovirus.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "e5b9312e9978",
+    "subject": "Human Growth Hormone",
+    "predicate": "activates",
+    "object": "mTOR",
+    "context": {
+      "en-US": "Human Growth Hormone signaling activates the mTOR pathway downstream of IGF-1/AKT, promoting anabolic growth. Because chronically elevated GH/IGF-1 signaling is associated with increased cancer risk and shortened lifespan, exogenous HGH is regarded as a pro-aging rather than anti-aging intervention — the opposite of Rapamycin-mediated mTOR inhibition.",
+      "zh-TW": "Human Growth Hormone 的訊號經由 IGF-1/AKT 下游活化 mTOR 途徑，促進合成性生長。由於 GH/IGF-1 訊號長期偏高與癌症風險上升及壽命縮短相關，外源性 HGH 被視為促衰老而非抗衰老的介入手段——恰與 Rapamycin 介導的 mTOR 抑制相反。"
+    },
+    "confidence": 0.95,
+    "source_document": "Human Growth Hormone.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "bde788d64742",
+    "subject": "Human Growth Hormone",
+    "predicate": "upregulates",
+    "object": "IGF1",
+    "context": {
+      "en-US": "Human Growth Hormone is a pituitary-derived peptide hormone whose principal downstream effector is IGF1. GH stimulates IGF-1 production, and IGF-1 in turn provides anti-apoptotic signals, promotes immune cell survival, and acts on thymic epithelial cells to stimulate IL-7 production that supports T cell survival and function.",
+      "zh-TW": "Human Growth Hormone 是腦下垂體分泌的胜肽激素，其主要下游效應器為 IGF1。GH 促進 IGF-1 的產生，而 IGF-1 提供抗凋亡訊號、促進免疫細胞存活，並作用於胸腺上皮細胞以刺激 IL-7 的生成，進而支持 T 細胞的存活與功能。"
+    },
+    "confidence": 0.9,
+    "source_document": "Human Growth Hormone.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "fb74e3f14d81",
+    "subject": "Human Growth Hormone",
+    "predicate": "promotes",
+    "object": "Thymopoiesis",
+    "context": {
+      "en-US": "Despite being pro-aging overall, exogenous Human Growth Hormone allows regeneration of the aged or damaged Thymus and enhances hematopoiesis after bone marrow transplantation (Tian et al., 1998; Murphy & Longo, 2000). The effect runs through IGF-1 acting on thymic stromal cells to raise IL-7, which drives intrathymic T cell survival — a context-dependent benefit that coexists with long-term aging concerns.",
+      "zh-TW": "儘管整體上是促衰老的，外源性 Human Growth Hormone 仍可讓老化或受損的 Thymus 再生，並在骨髓移植後增強造血（Tian et al., 1998；Murphy & Longo, 2000）。其作用經由 IGF-1 作用於胸腺基質細胞以提升 IL-7，進而推動胸腺內 T 細胞存活——這是一種與長期衰老疑慮並存的、依情境而定的好處。"
+    },
+    "confidence": 0.85,
+    "source_document": "Human Growth Hormone.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "5946c46308b3",
+    "subject": "Human Serum Albumin",
+    "predicate": "transports",
+    "object": "Bilirubin",
+    "context": {
+      "en-US": "Human Serum Albumin is the most abundant plasma protein (35–50 g/L; 66.5 kDa, 585 residues) and the body's major transport protein for fatty acids, Bilirubin, hormones, metal ions and a wide range of drugs. It also maintains plasma colloid oncotic pressure and buffers pH, and its free Cys34 thiol scavenges Reactive Oxygen Species and nitrogen species extracellularly.",
+      "zh-TW": "Human Serum Albumin 是血漿中最豐富的蛋白質（35–50 g/L；66.5 kDa、585 個殘基），也是脂肪酸、Bilirubin、荷爾蒙、金屬離子與廣泛藥物的全身主要運輸蛋白。它同時維持血漿膠體滲透壓並緩衝 pH，其游離的 Cys34 硫醇還能在細胞外清除 Reactive Oxygen Species 與含氮物種。"
+    },
+    "confidence": 0.95,
+    "source_document": "Human Serum Albumin.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "5165294f1aac",
+    "subject": "Nanoparticles",
+    "predicate": "uses",
+    "object": "Human Serum Albumin",
+    "context": {
+      "en-US": "Human Serum Albumin is an ideal nanocarrier because it is endogenous, non-immunogenic, biodegradable and binds hydrophobic drugs, improving Bioavailability of poorly soluble compounds. Albumin-bound nanoparticle technology is clinically validated (e.g. nab-paclitaxel) and exploits gp60/SPARC albumin uptake pathways enriched in tumors.",
+      "zh-TW": "Human Serum Albumin 是理想的奈米載體，因為它是內源性、非免疫原性、可生物降解且能結合疏水性藥物，可改善難溶化合物的 Bioavailability。白蛋白結合型奈米粒子技術已獲臨床驗證（如 nab-paclitaxel），並利用在腫瘤中富集的 gp60/SPARC 白蛋白攝取途徑。"
+    },
+    "confidence": 0.9,
+    "source_document": "Human Serum Albumin.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "364c9e1bf426",
+    "subject": "Human Serum Albumin",
+    "predicate": "improves",
+    "object": "Bioavailability",
+    "context": {
+      "en-US": "Loading the senolytic flavonoid Fisetin into Human Serum Albumin nanoparticles (220 ± 8 nm, ~84% encapsulation, ~75% released over 72 h) overcomes the flavonoid's poor solubility and rapid clearance, and produced greater cytotoxicity against MCF-7 Breast Cancer cells than free Fisetin. Albumin encapsulation is thus a general strategy for delivering poorly bioavailable compounds.",
+      "zh-TW": "將衰老細胞毒殺類黃酮 Fisetin 裝載於 Human Serum Albumin 奈米粒子中（220 ± 8 nm、封裝率約 84%、72 小時釋放約 75%），可克服該類黃酮溶解度差與清除快的限制，對 MCF-7 Breast Cancer 細胞的毒性高於游離 Fisetin。因此白蛋白包封是提升難溶性化合物 Bioavailability 的一般策略。"
+    },
+    "confidence": 0.9,
+    "source_document": "Human Serum Albumin.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "daa9314b5bd4",
+    "subject": "Human Serum Albumin",
+    "predicate": "scavenges",
+    "object": "Reactive Oxygen Species",
+    "context": {
+      "en-US": "The free Cys34 thiol of Human Serum Albumin acts as a significant extracellular antioxidant, scavenging Reactive Oxygen Species and nitrogen species. This gives albumin a redox role in plasma that complements its transport and osmotic functions and contributes to the well-documented antioxidant effect of albumin infusions.",
+      "zh-TW": "Human Serum Albumin 游離的 Cys34 硫醇扮演重要的細胞外抗氧化劑，能清除 Reactive Oxygen Species 與含氮物種。這賦予白蛋白在血漿中的氧化還原角色，補充其運輸與滲透功能，並促成白蛋白輸注時廣為文獻記載的抗氧化效果。"
+    },
+    "confidence": 0.9,
+    "source_document": "Human Serum Albumin.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "4e76a958f126",
+    "subject": "Huntington's Disease",
+    "predicate": "is_caused_by",
+    "object": "Huntingtin",
+    "context": {
+      "en-US": "Huntington's Disease is an autosomal dominant neurodegenerative disorder caused by CAG trinucleotide repeat expansion in the HTT gene. Repeats of 36 or more produce full penetrance at ≥40 CAGs and juvenile-onset disease at ≥60, because the expanded polyglutamine tract makes mutant Huntingtin misfold and aggregate into amyloid-like fibrils whose N-terminal fragments are the most cytotoxic species.",
+      "zh-TW": "Huntington's Disease 是一種由 HTT 基因 CAG 三核苷酸重複擴增所致的體染色體顯性神經退化疾病。重複數達 36 以上，≥40 CAG 為完全外顯率，≥60 則為幼年型，因為擴張的多麩醯胺酸束會使突變型 Huntingtin 錯誤折疊並聚集為類澱粉纖維，其中 N 端片段毒性最高。"
+    },
+    "confidence": 0.95,
+    "source_document": "Huntingtin.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "99819a7c6147",
+    "subject": "Huntingtin",
+    "predicate": "transports",
+    "object": "BDNF",
+    "context": {
+      "en-US": "Wild-type Huntingtin acts as a processivity factor for kinesin-1 in the HTT–HAP1 complex, which is essential for anterograde axonal transport of BDNF-containing vesicles to synaptic terminals. Disruption of this transport by polyQ expansion starves striatal neurons of neurotrophic support, explaining the selective vulnerability of medium spiny neurons in the Striatum.",
+      "zh-TW": "野生型 Huntingtin 在 HTT–HAP1 複合體中作為 kinesin-1 的行進效率因子，該複合體對含 BDNF 囊泡沿軸突的順向運輸至突觸末端不可或缺。多麩醯胺酸擴張破壞此運輸，使紋狀體神經元失去神經營養支持，解釋了 Striatum 中中型棘神經元的選擇性易損性。"
+    },
+    "confidence": 0.9,
+    "source_document": "Huntingtin.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "275a4bb69547",
+    "subject": "Huntingtin",
+    "predicate": "promotes",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Phosphorylation of Huntingtin at Ser421 recruits the autophagy initiation complex components Beclin-1 and ULK1 to the cargo, so wild-type Huntingtin functions as a selective autophagy receptor that clears aggregation-prone proteins. Loss of this cargo-recruitment function with polyQ expansion contributes to the accumulation of misfolded protein aggregates.",
+      "zh-TW": "Huntingtin 在 Ser421 被磷酸化後會招募自噬起始複合體的 Beclin-1 與 ULK1 至待降解物，因此野生型 Huntingtin 扮演選擇性自噬受體的角色，清除易聚集蛋白。多麩醯胺酸擴張造成這項受體功能喪失，促成錯誤折疊蛋白聚集體的累積。"
+    },
+    "confidence": 0.85,
+    "source_document": "Huntingtin.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "d4ce446f1c64",
+    "subject": "Akt",
+    "predicate": "phosphorylates",
+    "object": "Huntingtin",
+    "context": {
+      "en-US": "Nutrient-sensing Akt/PKB phosphorylates Huntingtin at Ser421, which promotes association with HAP1 and enhances anterograde axonal transport. Phosphorylation at Ser13 and Ser16 acts in the opposite direction, inhibiting polyQ aggregation and promoting proteasomal and autophagic clearance, so the sites' effects on Huntingtin toxicity are context-dependent.",
+      "zh-TW": "營養感測的 Akt/PKB 會在 Ser421 磷酸化 Huntingtin，促進其與 HAP1 的結合並增強軸突順向運輸。相對地，Ser13 與 Ser16 的磷酸化作用方向相反，會抑制多麩醯胺酸聚集並促進蛋白酶體與自噬的清除，因此各磷酸化位點對 Huntingtin 毒性的影響依情境而異。"
+    },
+    "confidence": 0.8,
+    "source_document": "Huntingtin.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "a73e584d195d",
+    "subject": "Huntingtin",
+    "predicate": "drives",
+    "object": "Neurodegeneration",
+    "context": {
+      "en-US": "Mutant Huntingtin drives Neurodegeneration by sequestering CBP/p300 into intranuclear inclusions, depleting functional co-activator and broadly disrupting transcriptional programs required for neuronal survival, while impairing proteasomal and autophagic clearance. HTT knockout in adult mice likewise produces progressive neurodegeneration resembling Huntington's Disease, showing the protein is required for neuronal survival.",
+      "zh-TW": "突變型 Huntingtin 藉由將 CBP/p300 隔離進核內包涵體而驅動 Neurodegeneration，使功能性輔活化因子耗竭並全面擾亂神經元存活所需的轉錄程式，同時損害蛋白酶體與自噬的清除。成年小鼠的 HTT 敲除同樣會產生類似 Huntington's Disease 的進行性神經退化，顯示此蛋白對神經元存活是必要的。"
+    },
+    "confidence": 0.9,
+    "source_document": "Huntingtin.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "cdf07452b597",
+    "subject": "Huntingtin",
+    "predicate": "targets",
+    "object": "Striatum",
+    "context": {
+      "en-US": "The hallmark neuropathology of Huntington's Disease is selective degeneration of GABAergic medium spiny neurons in the Striatum (caudate and putamen) with later cortical atrophy. Vulnerability reflects high mutant Huntingtin expression there, dependence on cortically derived BDNF that polyQ expansion impairs, excitotoxic glutamate signaling, and disrupted Dopaminergic input from the substantia nigra.",
+      "zh-TW": "Huntington Disease 的標誌性神經病理是其 Striatum（尾狀核與豆狀核）中 GABA 能中型棘神經元選擇性退化，並伴隨後續皮質萎縮。其易損性反映該處突變型 Huntingtin 表現量高、依賴多麩醯胺酸擴張所損害的皮質來源 BDNF、外泌性谷胺酸訊號，以及來自黑質的 Dopaminergic 輸入失調。"
+    },
+    "confidence": 0.85,
+    "source_document": "Huntingtin.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "a58ca63e41c2",
+    "subject": "Autophagy",
+    "predicate": "clears",
+    "object": "Huntingtin",
+    "context": {
+      "en-US": "Autophagy is the primary mechanism for clearing mutant Huntingtin aggregates in Huntington's Disease, which makes enhancing Autophagic Flux a major therapeutic research area. Interventions such as Caloric Restriction and Intermittent Fasting are proposed to reduce neurodegenerative change by promoting clearance of these deleterious proteins.",
+      "zh-TW": "Autophagy 是清除 Huntington's Disease 中突變型 Huntingtin 聚集體的主要機制，因此提升 Autophagic Flux 成為主要治療研究方向。Caloric Restriction 與 Intermittent Fasting 等介入措施被提出可藉由促進這些有害蛋白的清除而減輕神經退化變化。"
+    },
+    "confidence": 0.9,
+    "source_document": "Huntington's Disease.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "38b9b756b5ec",
+    "subject": "PGC-1α",
+    "predicate": "activates",
+    "object": "TFEB",
+    "context": {
+      "en-US": "Increasing TFEB function via PGC-1α rescues the proteotoxicity of Huntington's Disease: PGC-1α promotes huntingtin turnover and clearance of protein aggregates by activating TFEB, the master transcription factor for lysosomal biogenesis and autophagy. This links mitochondrial biogenesis signalling directly to lysosomal clearance of protein aggregates.",
+      "zh-TW": "透過 PGC-1α 提升 TFEB 功能可救援 Huntington's Disease 的蛋白毒性：PGC-1α 藉由活化溶小體生成與自噬的主控轉錄因子 TFEB，促進 huntingtin 周轉與蛋白聚集體的清除。這把粒線體生成的訊號直接連結到蛋白聚集體的溶小體清除。"
+    },
+    "confidence": 0.9,
+    "source_document": "Huntington's Disease.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "b33da304f2ea",
+    "subject": "SIRT2",
+    "predicate": "is_a_therapeutic_target_in",
+    "object": "Huntington's Disease",
+    "context": {
+      "en-US": "SIRT2 inhibition achieves neuroprotection in cellular and invertebrate models of Huntington's Disease, and manipulating sterol biosynthesis to mimic SIRT2 inhibition diminishes mutant huntingtin toxicity. This makes SIRT2 a target distinct from SIRT1: beneficial in HD by deacetylation-dependent inhibition rather than activation.",
+      "zh-TW": "SIRT2 抑制在 Huntington's Disease 的細胞與無脊椎動物模型中達成神經保護，而操控類固醇生合成以模擬 SIRT2 抑制可降低突變型 huntingtin 的毒性。這使 SIRT2 成為與 SIRT1 不同的標靶：它是在此疾病中藉由去乙醯化依賴的抑制（而非活化）而有益。"
+    },
+    "confidence": 0.85,
+    "source_document": "Huntington's Disease.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "72b065d52729",
+    "subject": "Caloric Restriction",
+    "predicate": "promotes",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Caloric Restriction and Intermittent Fasting promote Autophagy, and evidence for autophagy acting as an early-stage protective response has been obtained in neurodegenerative diseases including Huntington's Disease, Alzheimer's Disease and Parkinson's Disease. Enhancing autophagic clearance is therefore a shared strategy across protein-aggregation disorders.",
+      "zh-TW": "Caloric Restriction 與 Intermittent Fasting 會促進 Autophagy，而「自噬作為早期保護反應」的證據已在 Huntington's Disease、Alzheimer's Disease 與 Parkinson's Disease 等神經退化疾病中獲得。因此提升自噬清除是各種蛋白聚集疾病共用的策略。"
+    },
+    "confidence": 0.85,
+    "source_document": "Huntington's Disease.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "8e892f862686",
+    "subject": "Huntington's Disease",
+    "predicate": "is_a_type_of",
+    "object": "Neurodegenerative Diseases",
+    "context": {
+      "en-US": "Huntington's Disease is one of the Neurodegenerative Diseases in which creatine has been trialled: in the large Bender et al. multicenter trial (creatine 9.5 g/day for up to 5 years; n=1687 across Parkinson's disease, Huntington's Disease and ALS) HD showed the most positive signal, with some evidence that creatine attenuated Brain atrophy — motivating the Creatine Phosphate Shuttle as a therapeutic rationale given HD-associated energy metabolism defects and Mitochondrial Dysfunction.",
+      "zh-TW": "Huntington's Disease 是曾試驗 creatine 的 Neurodegenerative Diseases 之一：在大型 Bender et al. 多中心試驗中（creatine 9.5 g/day、最長 5 年；橫跨 Parkinson's disease、Huntington's Disease 與 ALS，n=1687），HD 呈現最正面的訊號，有部分證據顯示 creatine 減緩 Brain 萎縮——這促使 Creatine Phosphate Shuttle 成為治療依據，因 HD 伴隨能量代謝缺損與 Mitochondrial Dysfunction。"
+    },
+    "confidence": 0.85,
+    "source_document": "Huntington's Disease (HD).md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "63d09e9e58c8",
+    "subject": "Huntington's Disease",
+    "predicate": "is_associated_with",
+    "object": "Mitochondrial Dysfunction",
+    "context": {
+      "en-US": "Huntington's Disease is associated with impaired cellular energy metabolism and Mitochondrial Dysfunction, which is why the Creatine Phosphate Shuttle and phosphocreatine buffering system are treated as therapeutic targets. This metabolic theme links HD mechanistically to other protein-aggregation neurodegenerations and motivates Creatine Supplementation trials.",
+      "zh-TW": "Huntington's Disease 與細胞能量代謝受損及 Mitochondrial Dysfunction 相關，因此 Creatine Phosphate Shuttle 與磷酸肌酸緩衝系統被視為治療標靶。這項代謝主題在機制上把 HD 與其他蛋白聚集型神經退化疾病連結起來，也促成了 Creatine Supplementation 的試驗。"
+    },
+    "confidence": 0.85,
+    "source_document": "Huntington's Disease (HD).md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "92806c689e51",
+    "subject": "Creatine Supplementation",
+    "predicate": "improves",
+    "object": "Huntington's Disease",
+    "context": {
+      "en-US": "Creatine Supplementation produced some evidence of attenuated brain atrophy in HD patients in the Bender et al. multicenter trial, the most positive of the three neurodegenerative diseases studied (PD, HD, ALS). The effect is attributed to improved phosphocreatine buffering, though the symptom-level clinical benefit remained limited and no disease-modifying therapy exists.",
+      "zh-TW": "在 Bender et al. 多中心試驗中，Creatine Supplementation 在 HD 患者身上提供了減緩腦萎縮的部分證據，是所研究三種神經退化疾病（PD、HD、ALS）中最正面的結果。此效果歸因於磷酸肌酸緩衝的改善，但症狀層級的臨床效益仍有限，且目前沒有疾病修飾療法。"
+    },
+    "confidence": 0.8,
+    "source_document": "Huntington's Disease (HD).md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "9179e735c898",
+    "subject": "Lamin A",
+    "predicate": "mutation_causes",
+    "object": "Hutchinson-Gilford Progeria Syndrome",
+    "context": {
+      "en-US": "Hutchinson-Gilford Progeria Syndrome is caused by a sporadic de novo mutation in the LMNA gene, which alters the protein Lamin A to produce progerin. Progerin remains permanently attached to the nuclear membrane, causing the nucleus to become misshapen and disorganized — the primary driver of the disease's accelerated-aging phenotype.",
+      "zh-TW": "Hutchinson-Gilford Progeria Syndrome 由 LMNA 基因的偶發性新生突變引起，該突變使蛋白 Lamin A 改變而產生 progerin。Progerin 永久附著於核膜，使細胞核變形且構造混亂——這是此病加速衰老表型的主要驅動因素。"
+    },
+    "confidence": 0.95,
+    "source_document": "Hutchinson-Gilford Progeria Syndrome.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "f04bff835bc4",
+    "subject": "Progerin",
+    "predicate": "reduces",
+    "object": "Heterochromatin",
+    "context": {
+      "en-US": "Cells from Hutchinson-Gilford Progeria Syndrome patients show a massive loss of repressive heterochromatin, particularly the H3K9me3 mark, leading to aberrant gene expression. The disorganized nucleus also produces significant DNA Damage and genomic structural abnormalities, and progerin-containing cells enter Senescence prematurely with SASP secretion.",
+      "zh-TW": "來自 Hutchinson-Gilford Progeria Syndrome 患者的細胞會大量流失抑制性異染色質，尤其是 H3K9me3 標記，造成異常基因表現。構造混亂的細胞核也會造成顯著 DNA Damage 與基因體結構異常，而含 progerin 的細胞會過早進入 Senescence 並分泌 SASP。"
+    },
+    "confidence": 0.9,
+    "source_document": "Hutchinson-Gilford Progeria Syndrome.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "9487af05c025",
+    "subject": "Progerin",
+    "predicate": "induces",
+    "object": "Senescence",
+    "context": {
+      "en-US": "The presence of progerin in Hutchinson-Gilford Progeria Syndrome cells drives premature cellular Senescence, with secretion of pro-inflammatory SASP factors. This makes HGPS a critical human model for normal aging and the primary model for segmented progeria, since it reproduces the heterochromatin loss, genomic instability and senescence seen across normal aging.",
+      "zh-TW": "Hutchinson-Gilford Progeria Syndrome 細胞中 progerin 的存在會驅動過早的細胞 Senescence，並分泌促發炎 SASP 因子。這使 HGPS 成為研究正常老化的關鍵人類模型，也是分節型早老症的主要模型，因為它重現了正常老化中可見的異染色質流失、基因體不穩定與細胞衰老。"
+    },
+    "confidence": 0.85,
+    "source_document": "Hutchinson-Gilford Progeria Syndrome.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "dbdde1e5f193",
+    "subject": "OSKM",
+    "predicate": "induces",
+    "object": "Partial Reprogramming",
+    "context": {
+      "en-US": "In progeroid mouse models of Hutchinson-Gilford Progeria Syndrome, transient expression of the Yamanaka factors (Oct4, Sox2, Klf4, c-Myc; OSKM) has been used to generate Partial Reprogramming in vivo. The transient expression improves the disease phenotype and extends the lifespan of affected mice, making partial reprogramming a leading rejuvenation strategy for progeria.",
+      "zh-TW": "在 Hutchinson-Gilford Progeria Syndrome 的早老小鼠模型中，暫時表現 Yamanaka factors（Oct4、Sox2、Klf4、c-Myc；OSKM）已被用於在體內產生 Partial Reprogramming。此短暫表現可改善疾病表型並延長受影響小鼠的壽命，使部分重編程成為早老症的領先返老策略。"
+    },
+    "confidence": 0.9,
+    "source_document": "Hutchinson-Gilford Progeria Syndrome.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
+  },
+  {
+    "id": "b68b1ab7b1de",
+    "subject": "Hutchinson-Gilford Progeria Syndrome",
+    "predicate": "mimics",
+    "object": "Aging",
+    "context": {
+      "en-US": "Hutchinson-Gilford Progeria Syndrome is the primary human model for segmented progeria: children appear healthy at birth but show dramatic, rapid Aging within the first year (hair loss, thin skin, joint stiffness), and most die of heart disease or stroke — the same leading causes of death in the elderly. It is therefore a critical system for dissecting the biology of normal aging.",
+      "zh-TW": "Hutchinson-Gilford Progeria Syndrome 是分節型早老症的主要人類模型：孩子在出生時看似健康，卻在第一年內就出現戲劇性且快速的 Aging（掉髮、皮膚變薄、關節僵硬），多數死於心臟病或中風——與老年人死亡的主因相同。因此它是剖析正常老化生物學的關鍵研究系統。"
+    },
+    "confidence": 0.9,
+    "source_document": "Hutchinson-Gilford Progeria Syndrome.md",
+    "created": "2026-09-29T16:22:02Z",
+    "updated": "2026-09-29T16:22:02Z"
   }
 ]
