@@ -64944,5 +64944,3253 @@
     "source_document": "Inflammation.md",
     "created": "2026-09-29T16:29:54Z",
     "updated": "2026-09-29T16:29:54Z"
+  },
+  {
+    "id": "4e956d33939b",
+    "subject": "KDM5C",
+    "predicate": "demethylates",
+    "object": "H3K4me3",
+    "context": {
+      "en-US": "KDM5C (JARID1C) is an X-linked JmjC-domain histone demethylase whose catalytic domain removes the trimethyl and dimethyl marks on histone H3 lysine 4, converting H3K4me3 to H3K4me2 to H3K4me1. By erasing this activating mark at target promoters it represses transcription, and its PHD3 zinc finger reads H3K4me3 to create an auto-inhibitory feedback loop. Loss of KDM5C causes aberrant H3K4me3 accumulation at oncogene and developmental gene promoters.",
+      "zh-TW": "KDM5C（JARID1C）是一種 X 連鎖的 JmjC 結構域組蛋白去甲基化酶，其催化結構域可移除組蛋白 H3 離胺酸 4 上的三甲基與二甲基標記，將 H3K4me3 轉為 H3K4me2 再轉為 H3K4me1。透過擦除目標啟動子上的活化性標記，它抑制轉錄；其 PHD3 鋅指可讀取 H3K4me3，形成自我抑制的回饋迴路。KDM5C 缺失會造成致癌基因與發育相關基因啟動子上 H3K4me3 異常累積。"
+    },
+    "confidence": 0.95,
+    "source_document": "KDM5C.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "8d0a6f37dd80",
+    "subject": "KDM5C",
+    "predicate": "is_a",
+    "object": "EXITS",
+    "context": {
+      "en-US": "KDM5C is one of six X-linked genes designated EXITS (Escape from X-Inactivation Tumor Suppressors) by Dunford et al. Because females carry two active copies (KDM5C escapes X-inactivation) while males carry one, a single loss-of-function event inactivates KDM5C in males, contributing to male-biased tumorigenesis across 21 tumor types. A Y-chromosome homolog provides only partial male backup.",
+      "zh-TW": "KDM5C 是 Dunford 等人指出的六個 X 連鎖基因之一，歸類為 EXITS（Escape from X-Inactivation Tumor Suppressors）。由於雌性具有兩份活性拷貝（KDM5C 可逃脫 X 染色體失活），而雄性僅有一份，因此單次功能喪失突變即可在雄性中使 KDM5C 失活，造成跨 21 種腫瘤的男性偏倚腫瘤發生。Y 染色體上的同源基因僅能提供部分備援。"
+    },
+    "confidence": 0.93,
+    "source_document": "KDM5C.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "2b29d27ff863",
+    "subject": "KDM5C",
+    "predicate": "regulates",
+    "object": "p53",
+    "context": {
+      "en-US": "KDM5C modulates H3K4 methylation at promoters of p53 target genes, facilitating p53-dependent transcription of cell cycle arrest genes such as p21 CIP1. Loss-of-function KDM5C mutations therefore compromise p53-mediated arrest, and they are also linked to X-linked intellectual disability (Siderius syndrome), underscoring that KDM5C dosage matters for normal neuronal development.",
+      "zh-TW": "KDM5C 會調節 p53 目標基因啟動子上的 H3K4 甲基化，促進 p53 依賴性的細胞週期停滯基因（如 p21 CIP1）轉錄。因此 KDM5C 的功能喪失突變會削弱 p53 介導的細胞週期停滯；這些突變也與 X 連鎖智能障礙（Siderius 症候群）相關，顯示 KDM5C 的劑量對正常神經元發育十分重要。"
+    },
+    "confidence": 0.88,
+    "source_document": "KDM5C.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "f684a656c902",
+    "subject": "KDM5C",
+    "predicate": "cooperates_with",
+    "object": "KDM6A",
+    "context": {
+      "en-US": "KDM5C and KDM6A are opposing X-linked EXITS demethylases: KDM5C erases the activating H3K4me3 mark while KDM6A erases the repressive H3K27me3 mark, jointly balancing active and repressive chromatin. Both escape X-inactivation and cooperate at the onset of X-chromosome inactivation to remove repressive chromatin at the XIST promoter and permit Xist upregulation.",
+      "zh-TW": "KDM5C 與 KDM6A 是一對作用相反的 X 連鎖 EXITS 去甲基化酶：KDM5C 擦除活化性的 H3K4me3 標記，而 KDM6A 擦除抑制性的 H3K27me3 標記，兩者共同平衡活化與抑制性染色質。兩者皆可逃脫 X 染色體失活，並在 X 染色體失活起始時協同作用，移除 XIST 啟動子上的抑制性染色質，使 Xist 得以 上調。"
+    },
+    "confidence": 0.9,
+    "source_document": "KDM5C.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "800a2b5f4bd7",
+    "subject": "KDM6A",
+    "predicate": "demethylates",
+    "object": "H3K27me3",
+    "context": {
+      "en-US": "KDM6A (UTX) is the X-linked JmjC-domain demethylase that erases the repressive Polycomb trimethyl mark H3K27me3 (to H3K27me2 then H3K27me1), counterbalancing the H3K27 methyltransferase EZH2 of PRC2. By removing H3K27me3 at developmental loci and at the p21 promoter, KDM6A derepresses silenced genes and acts as a chromatin-based tumor suppressor whose loss silences tumor suppressor and developmental genes.",
+      "zh-TW": "KDM6A（UTX）是 X 連鎖的 JmjC 結構域去甲基化酶，可擦除抑制性的 Polycomb 三甲基標記 H3K27me3（依序轉為 H3K27me2、H3K27me1），與 PRC2 的 H3K27 甲基轉移酶 EZH2 形成對抗。透過移除發育相關基因座位與 p21 啟動子上的 H3K27me3，KDM6A 解除被抑制基因的沉默，作為染色質層級的腫瘤抑制因子；其缺失會使腫瘤抑制與發育基因被沉默。"
+    },
+    "confidence": 0.95,
+    "source_document": "KDM6A.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "49613181df64",
+    "subject": "KDM6A",
+    "predicate": "escapes",
+    "object": "X-Chromosome Inactivation",
+    "context": {
+      "en-US": "Unlike most X-linked genes, KDM6A escapes X-chromosome inactivation, so both X alleles in females are transcribed and roughly twice the protein of males is produced (the degree of escape varies by tissue and individual). This biallelic dosage advantage means females require two loss-of-function hits for complete inactivation while a single mutation suffices in males, a key reason for the female advantage in the EXITS tumor suppressor framework.",
+      "zh-TW": "與多數 X 連鎖基因不同，KDM6A 可逃脫 X 染色體失活，因此雌性的兩條 X 等位基因皆會被轉錄，產生的蛋白質約為雄性的兩倍（逃脫程度依組織與個體而異）。這種雙等位基因劑量優勢意味著雌性需要兩次功能喪失「擊中」才能完全失活，而雄性單次突變即足夠，這是 EXITS 腫瘤抑制因子框架中雌性優勢的重要原因。"
+    },
+    "confidence": 0.93,
+    "source_document": "KDM6A.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "1f40e4098115",
+    "subject": "KDM6A",
+    "predicate": "activates",
+    "object": "p21 CIP1",
+    "context": {
+      "en-US": "KDM6A enhances p21 CIP1 transcription by demethylating H3K27me3 at the p21 promoter, providing females with a dosage advantage in p53-mediated senescence. Because females express roughly double the KDM6A of males, the female-biased p53 to p21 to senescence arm is hypothesized to be favored over a male-biased apoptosis arm, though this remains inference rather than directly tested result.",
+      "zh-TW": "KDM6A 藉由去除 p21 啟動子上的 H3K27me3 來增強 p21 CIP1 的轉錄，使雌性在 p53 介導的細胞衰老中擁有劑量優勢。由於雌性表現的 KDM6A 約為雄性兩倍，因此被提出存在偏向雌性的 p53 → p21 → 衰老分支，相對於偏向雄性的凋亡分支；但此為推論，尚未經直接驗證。"
+    },
+    "confidence": 0.85,
+    "source_document": "KDM6A.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "b2eb944de2c6",
+    "subject": "UTY",
+    "predicate": "partially_compensates_for",
+    "object": "KDM6A",
+    "context": {
+      "en-US": "UTY is the Y-chromosome homolog of KDM6A. It lacks H3K27 demethylase activity yet retains non-catalytic tumor suppressor function, so it can partially compensate for KDM6A loss in males, meaning a male's single X-linked hit may need concomitant UTY loss for full inactivation. Mosaic chromosome Y loss with aging removes this backup, and X-X female compensation (36% chrX loss) proved stronger than X-Y male compensation (8.2% chrY loss, P = 0.0022).",
+      "zh-TW": "UTY 是 KDM6A 的 Y 染色體同源基因。它雖缺乏 H3K27 去甲基化活性，卻保有非催化型的腫瘤抑制功能，因此可在雄性中部分補償 KDM6A 的缺失；也就是說雄性在 X 聯鎖基因上的單次「擊中」可能還需要 UTY 同步喪失才能完全失活。隨老化發生的嵌合型 Y 染色體喪失會移除此備援；研究顯示 X-X 雌性的補償（36% chrX 喪失）強於 X-Y 雄性的補償（8.2% chrY 喪失，P = 0.0022）。"
+    },
+    "confidence": 0.9,
+    "source_document": "KDM6A.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "f96ee58b3427",
+    "subject": "KDM6A",
+    "predicate": "is_a",
+    "object": "Histone Demethylase",
+    "context": {
+      "en-US": "KDM6A belongs to the KDM6 family of histone demethylases, whose JmjC domain uses Fe(II) and alpha-ketoglutarate as cofactors. It is the autosomal-paralog counterpart to JMJD3 (KDM6B), sharing catalytic H3K27me3 demethylase activity but differing in regulatory role: KDM6A is X-linked, escapes inactivation, and drives developmental gene regulation, whereas JMJD3 is autosomal and is a key driver of stress and inflammatory SASP signalling.",
+      "zh-TW": "KDM6A 屬於 KDM6 家族的組蛋白去甲基化酶，其 JmjC 結構域以 Fe(II) 與 α-酮戊二酸作為輔因子。它是 JMJD3（KDM6B）的常染色體旁系同源對應物，兩者共享 H3K27me3 去甲基化活性但調控角色不同：KDM6A 為 X 連鎖、可逃脫失活，主要驅動發育基因的調控；JMJD3 則位於常染色體，是壓力與發炎性 SASP 訊號的關鍵驅動因子。"
+    },
+    "confidence": 0.9,
+    "source_document": "KDM6A.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "179188b09f88",
+    "subject": "Keratinocyte Growth Factor",
+    "predicate": "stimulates",
+    "object": "Thymic Epithelial Cells",
+    "context": {
+      "en-US": "Keratinocyte growth factor (KGF, FGF7) signals through the epithelial receptor FGFR2IIIb to stimulate proliferation and differentiation of thymic epithelial cells (TECs). It is critical for fetal thymus organogenesis and initial TEC expansion, and in aged animals it increases thymic size, thymocyte production, and output of naive CD4 T cells while restoring defined cortical and medullary compartments.",
+      "zh-TW": "角蛋白細胞生長因子（KGF，FGF7）透過上皮細胞特異的受體 FGFR2IIIb 傳遞訊號，刺激胸腺上皮細胞（TECs）的增殖與分化。它對胎兒期胸腺器官生成與 TEC 初始擴增至關重要；在老化動物中，它可增加胸腺大小、胸腺細胞產量與初始型 CD4 T 細胞的輸出，並恢復界線明確的皮質與髓質分區。"
+    },
+    "confidence": 0.93,
+    "source_document": "Keratinocyte Growth Factor.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "c109a9eb187e",
+    "subject": "Keratinocyte Growth Factor",
+    "predicate": "increases",
+    "object": "Thymopoiesis",
+    "context": {
+      "en-US": "KGF promotes thymic rejuvenation by increasing thymic cellularity, thymocyte production, and humoral responses to T-dependent antigens. In aged mice a single course of KGF raised thymic cellularity for two months, with monthly maintenance restoring thymic architecture and immune function. Because KGF has targets outside the thymus and the mechanism in the postnatal thymus is still unresolved, the functional quality of the regenerated thymus remains to be established.",
+      "zh-TW": "KGF 藉由增加胸腺細胞量、胸腺細胞產量以及對 T 細胞依賴性抗原的體液反應，促進胸腺年輕化。在老化小鼠中，單一療程的 KGF 即可提升胸腺細胞量達兩個月；每月維持給藥可恢復胸腺結構與免疫功能。由於 KGF 在胸腺外亦具有標的，且在出生後胸腺中的作用機制仍未釐清，再生後胸腺的功能品質仍有待確立。"
+    },
+    "confidence": 0.88,
+    "source_document": "Keratinocyte Growth Factor.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "2b121bc66127",
+    "subject": "Keratinocyte Growth Factor",
+    "predicate": "is_tested_in",
+    "object": "Hematopoietic Stem Cell",
+    "context": {
+      "en-US": "KGF, as palifermin (Kepavance), has advanced to human clinical trials in transplant settings: a phase II study in haplotype-mismatched CD34+ hematopoietic stem cell transplant (NCT00593554), pharmacodynamics of palifermin in adult transplant for hematologic cancer testing whether KGF prevents chronic graft-versus-host disease (NCT01233921), and a study to prevent secondary autoimmunity after Campath-1H in multiple sclerosis (NCT01712945).",
+      "zh-TW": "KGF（以 palifermin／Kepavance 形式）已推進至移植情境的人體臨床試驗：單倍型不匹配的 CD34+ 造血幹細胞移植第二期研究（NCT00593554）、成人血液癌症移植中 palifermin 的藥效學研究（測試 KGF 能否預防慢性移植物抗宿主病，NCT01233921），以及探討 KGF 能否預防多發性硬化症患者接受 Campath-1H 治療後的繼發性自體免疫（NCT01712945）。"
+    },
+    "confidence": 0.85,
+    "source_document": "Keratinocyte Growth Factor.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "9ac1927b5e14",
+    "subject": "Kidney Fibrosis",
+    "predicate": "is_the_final_pathway_of",
+    "object": "Chronic Kidney Disease",
+    "context": {
+      "en-US": "Kidney fibrosis — pathological extracellular matrix accumulation in the renal tubulointerstitium and glomeruli with myofibroblast activation driven by TGF-beta, oxidative stress and metabolic dysfunction — is the final common pathway of nearly all progressive kidney diseases and the key determinant of progression to end-stage kidney disease. Fibrosis replaces functional nephrons with scar tissue, progressively losing filtration.",
+      "zh-TW": "腎臟纖維化——腎小管間質與腎小球中細胞外基質的病理性累積，伴隨由 TGF-beta、氧化壓力與代謝失調所驅動的肌成纖維細胞活化——是幾乎所有進展性腎病的最終共同途徑，也是進展至末期腎病的關鍵決定因子。纖維化以疤痕組織取代具功能的腎元，使濾過功能逐步喪失。"
+    },
+    "confidence": 0.92,
+    "source_document": "Kidney Fibrosis.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "0742f18bc82d",
+    "subject": "SIRT6",
+    "predicate": "protects_against",
+    "object": "Kidney Fibrosis",
+    "context": {
+      "en-US": "SIRT6 has a nephron-specific protective role in fibrosis: proximal tubule-specific SIRT6 knockout aggravates UUO-induced fibrosis, whereas the SIRT6 activator MDL-800 mitigates it. Together with SIRT1 and SIRT3 as protective and SIRT2 as context-dependent modulators, the sirtuin network offers multiple anti-fibrotic intervention points in the kidney.",
+      "zh-TW": "SIRT6 在纖維化中具有腎元特異性的保護作用：近端小管專一性 SIRT6 敲除會加重 UUO 誘發的纖維化，而 SIRT6 活化劑 MDL-800 則可減輕之。連同具保護作用的 SIRT1 與 SIRT3，以及情境依賴性調節因子 SIRT2，sirtuin 網絡在腎臟中提供了多個抗纖維化介入點。"
+    },
+    "confidence": 0.9,
+    "source_document": "Kidney Fibrosis.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "f28b1ca96b0b",
+    "subject": "Kinase",
+    "predicate": "shares_a_binding_site_with",
+    "object": "SIRT1",
+    "context": {
+      "en-US": "Protein kinases and sirtuins both contain an adenosine/ATP-binding site, and this structural overlap allowed known kinase inhibitors to be screened against sirtuins, identifying bisindolylmaleimide and indolinone scaffolds such as Ro31-8220 and GW5074 as SIRT1/SIRT2 inhibitors active in the low micromolar range. Sirtuin cross-reactivity is therefore a relevant off-target consideration for kinase inhibitor therapeutics.",
+      "zh-TW": "蛋白激酶與 sirtuin 都含有腺苷/ATP 結合位點，這種結構重疊讓研究者得以將已知激酶抑制劑篩選於 sirtuin，進而確認 Ro31-8220 與 GW5074 等雙吲哚基馬來醯亞胺與吲哚啉酮骨架在低微莫耳濃度下即為 SIRT1/SIRT2 抑制劑。因此，sirtuin 的交叉反應性是激酶抑制劑治療時須考量到的離靶效應。"
+    },
+    "confidence": 0.9,
+    "source_document": "Kinase.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "fdce4cf0b58f",
+    "subject": "Kinase",
+    "predicate": "is_a_type_of",
+    "object": "Kinase Inhibitor",
+    "context": {
+      "en-US": "Kinases constitute the largest enzyme superfamily in eukaryotes, catalysing transfer of the gamma-phosphate of ATP to protein, lipid or sugar substrates and thereby regulating proliferation, differentiation, metabolism, apoptosis and the cell cycle. Because deregulated kinase activity (mutation, amplification, translocation) drives many cancers, kinase inhibitors are among the most successful targeted cancer therapeutics and remain a major drug class.",
+      "zh-TW": "激酶是真核生物中最大的酵素超家族，催化 ATP 的 γ-磷酸基轉移至蛋白質、脂質或糖受質上，藉此調控增殖、分化、代謝、凋亡與細胞週期。由於激酶活性失調（突變、擴增、轉位）會驅動多種癌症，激酶抑制劑已成為最成功的標靶癌症治療手段之一，仍是主要藥物類別。"
+    },
+    "confidence": 0.85,
+    "source_document": "Kinase.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "d9342c5484d8",
+    "subject": "Kinesin",
+    "predicate": "transports",
+    "object": "MFN2",
+    "context": {
+      "en-US": "Kinesin is a family of microtubule-based motor proteins that transport cargo including mitochondria along axons. The outer mitochondrial membrane protein Miro, together with the adaptor Milton, forms a complex bridging MFN2 to kinesin motors, enabling processive mitochondrial movement to distal neuronal compartments. This Miro/Milton/kinesin axis ensures local ATP delivery and axonal mitochondrial integrity.",
+      "zh-TW": "Kinesin 是一類以微管為軌道、沿軸突運送貨物的馬達蛋白，可運送包括粒線體在內的物質。粒線體外膜蛋白 Miro 與轉接蛋白 Milton 形成的複合體將 MFN2 與 kinesin 馬達相連，使粒線體能持續運送至神經元遠端區室。此 Miro/Milton/kinesin 軸確保局部 ATP 供應與軸突粒線體完整性。"
+    },
+    "confidence": 0.9,
+    "source_document": "Kinesin.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "0a8d4e9ea369",
+    "subject": "Miro",
+    "predicate": "binds",
+    "object": "MFN2",
+    "context": {
+      "en-US": "Miro is an outer mitochondrial membrane protein that, with Milton, forms the adaptor complex linking MFN2 to kinesin. Disruption of this transport axis is central to Charcot-Marie-Tooth disease type 2A, where MFN2 mutations impair the Miro/Milton/kinesin linkage and cause axonal mitochondrial depletion, highlighting that the Miro-MFN2-kinesin interaction is required for axonal mitochondrial integrity.",
+      "zh-TW": "Miro 是粒線體外膜蛋白，與 Milton 一同構成將 MFN2 連接至 kinesin 的轉接複合體。此運輸軸的中斷是 2A 型 Charcot-Marie-Tooth 疾病的致病核心：在該疾病中 MFN2 突變損害 Miro/Milton/kinesin 的連結，造成軸突粒線體耗竭，顯示 Miro-MFN2-kinesin 交互作用對軸突粒線體完整性是必要的。"
+    },
+    "confidence": 0.9,
+    "source_document": "Kinesin.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "9066a83bef7a",
+    "subject": "MFN2",
+    "predicate": "mutations_cause",
+    "object": "Charcot-Marie-Tooth Disease Type 2A",
+    "context": {
+      "en-US": "MFN2 mutations cause Charcot-Marie-Tooth disease type 2A by impairing the Miro/Milton/kinesin linkage that drives axonal mitochondrial transport, resulting in axonal mitochondrial depletion. The disease exemplifies how failure of the MFN2 transport axis compromises local ATP delivery and axonal mitochondrial integrity in peripheral neurons.",
+      "zh-TW": "MFN2 突變可誘發 2A 型 Charcot-Marie-Tooth 疾病，機制是損害驅動軸突粒線體運輸的 Miro/Milton/kinesin 連結，導致軸突粒線體耗竭。此疾病凸顯 MFN2 運輸軸失效如何損害周邊神經元中的局部 ATP 供應與軸突粒線體完整性。"
+    },
+    "confidence": 0.92,
+    "source_document": "Kinesin.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "05e5db427a40",
+    "subject": "Klotho",
+    "predicate": "is_an_anti_aging_factor",
+    "object": "Aging",
+    "context": {
+      "en-US": "Klotho is a transmembrane protein with a shed, hormone-like extracellular domain that acts as an anti-aging factor: loss-of-function accelerates aging, while elevated Klotho extends lifespan in mice. It regulates mTOR/insulin-IGF signalling and phosphate and vitamin D metabolism, placing it on a shared axis with mTORC1 control and stem-cell homeostasis.",
+      "zh-TW": "Klotho 是一種跨膜蛋白，具有可被剪切釋放、具有荷爾蒙樣特性的胞外結構域，作為抗衰老因子發揮作用：功能喪失會加速衰老，而 Klotho 水平升高則可延長小鼠壽命。它調節 mTOR／胰島素-IGF 訊號以及磷與維生素 D 代謝，因而位於與 mTORC1 調控和幹細胞恆定共享的同一條軸上。"
+    },
+    "confidence": 0.9,
+    "source_document": "Klotho.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "f583696504e2",
+    "subject": "Rapamycin",
+    "predicate": "rescues",
+    "object": "Klotho",
+    "context": {
+      "en-US": "In Klotho-deficient premature-aging mice, excessive mTORC1 activation drives exhaustion of mesenchymal stem cells and bone abnormalities; rapamycin inhibition of mTORC1 improves mesenchymal stem-cell function in these models. Because both Klotho elevation and mTORC1 inhibition are pro-longevity, rapamycin engages the same stem-cell and homeostasis axis compromised in Klotho deficiency.",
+      "zh-TW": "在 Klotho 缺陷的早衰小鼠中，過度 mTORC1 活化會驅動間質幹細胞耗竭與骨骼異常；rapamycin 對 mTORC1 的抑制可在這些模型中改善間質幹細胞功能。由於 Klotho 上升與 mTORC1 抑制皆具促進長壽的作用，rapamycin 作用於 Klotho 缺陷所破壞的同一條幹細胞／恆定軸。"
+    },
+    "confidence": 0.9,
+    "source_document": "Klotho.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "2415c5d66246",
+    "subject": "mTORC1",
+    "predicate": "opposes",
+    "object": "Klotho",
+    "context": {
+      "en-US": "Excessive mTORC1 activation drives exhaustion of mesenchymal stem cells and the bone abnormalities seen in Klotho-deficient premature-aging mice, so mTORC1 hyperactivation opposes Klotho's pro-longevity and tissue-regeneration effects. Conversely, mTORC1 inhibition is pro-longevity, making the mTORC1-Klotho relationship a bidirectional axis of stem-cell and tissue homeostasis.",
+      "zh-TW": "過度 mTORC1 活化會驅動間質幹細胞耗竭，以及 Klotho 缺陷早衰小鼠所見的骨骼異常，因此 mTORC1 過度活化會對抗 Klotho 的促進長壽與組織再生效應。反之，抑制 mTORC1 則具促進長壽作用，使 mTORC1 與 Klotho 的關係構成幹細胞與組織恆定的雙向軸。"
+    },
+    "confidence": 0.88,
+    "source_document": "Klotho.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "81c8476d0b03",
+    "subject": "Knockout mouse",
+    "predicate": "is_derived_from",
+    "object": "C57BL-6",
+    "context": {
+      "en-US": "The classical gene targeting workflow uses C57BL-6 or 129/Sv-derived embryonic stem cells: a targeting construct disrupts the coding sequence or exon of interest, chimeric offspring are bred to germline transmission, and heterozygous progeny are intercrossed to yield homozygous knockouts. Conditional Cre-loxP knockouts permit tissue- or time-specific gene ablation, reducing developmental lethality.",
+      "zh-TW": "傳統基因敲定流程使用來自 C57BL-6 或 129/Sv 的胚胎幹細胞：以敲定構建體破壞目標編碼序列或外顯子，將嵌合子後代育種至生殖系傳遞，再將異型合子子代互交以產生同型合子敲除鼠。條件式 Cre-loxP 敲除可進行組織或時間特異性基因消融，降低發育致死性。"
+    },
+    "confidence": 0.9,
+    "source_document": "Knockout mouse.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "c639ac88c28a",
+    "subject": "Knockout mouse",
+    "predicate": "yields",
+    "object": "MEF",
+    "context": {
+      "en-US": "Mouse embryonic fibroblasts (MEFs) are derived from knockout embryos and serve as an in vitro validation platform for knockout mouse phenotypes. Cultured from the same embryos, MEFs permit mechanistic follow-up of in vivo findings — for example testing whether a knocked-out gene's role in mitochondrial stress response or apoptosis is cell-autonomous.",
+      "zh-TW": "小鼠胚胎纖維母細胞（MEF）由敲除鼠胚胎取得，可作為敲除小鼠表型的體外驗證平台。由於與活體實驗取自相同胚胎，MEF 可對體內發現進行機制後續驗證，例如測試被敲除基因在粒線體壓力反應或凋亡中的角色是否為細胞自主性。"
+    },
+    "confidence": 0.85,
+    "source_document": "Knockout mouse.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "fe5c5e835e27",
+    "subject": "Knockout mouse",
+    "predicate": "models",
+    "object": "mTOR",
+    "context": {
+      "en-US": "Knockout mice are used to dissect pathways such as mTOR, mitochondria-mediated stress response and apoptosis, and to test the causal roles of candidate longevity genes such as sirtuins and insulin/IGF-1 signalling components in lifespan and healthspan. Comparing knockout phenotypes with wild-type littermates infers a gene's physiological role, although strain background effects, compensatory developmental remodelling and imperfect correspondence to human physiology limit interpretation.",
+      "zh-TW": "敲除小鼠被用於剖析 mTOR、粒線體介導的壓力反應與凋亡等路徑，並測試 sirtuin 與胰島素/IGF-1 訊號成分等候選長壽基因在壽命與健康壽命中的因果角色。將敲除表型與同窩野生型比較可推論基因的生理功能，但品系背景效應、發育期代償性重塑以及與人類生理不完全對應等因素限制了詮釋。"
+    },
+    "confidence": 0.88,
+    "source_document": "Knockout mouse.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "e7a8f5a3a96a",
+    "subject": "Kynurenic Acid",
+    "predicate": "antagonizes",
+    "object": "NMDA receptor",
+    "context": {
+      "en-US": "Kynurenic acid (KynA) is a neuroactive metabolite of the kynurenine pathway produced from kynurenine by kynurenine aminotransferases. It is an endogenous broad-spectrum antagonist acting at the glycine co-agonist site of the NMDA receptor, which makes it neuroprotective against glutamate-mediated excitotoxicity. It also antagonizes alpha-7 nicotinic acetylcholine receptors, modulating cognition and inflammation.",
+      "zh-TW": "Kynurenic acid（KynA）是犬尿胺酸（kynurenine）路徑的神經活性代謝物，由 kynurenine aminotransferase 自 kynurenine 產生。它是作用於 NMDA 受體甘胺酸共同作用位點的內生性廣效拮抗劑，因此能對抗麩胺酸介導的興奮毒性而具神經保護作用。它亦拮抗 α7 尼古丁型乙醯膽鹼受體，調節認知與發炎。"
+    },
+    "confidence": 0.93,
+    "source_document": "Kynurenic Acid.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "4dc0475c4017",
+    "subject": "Kynurenic Acid",
+    "predicate": "is_produced_from",
+    "object": "Kynurenine",
+    "context": {
+      "en-US": "Kynurenic acid is synthesized from kynurenine by kynurenine aminotransferase (KAT) enzymes (KAT I, II, III), one of three branch points at which kynurenine is metabolized. The other branches run through kynurenine 3-monooxygenase to 3-hydroxykynurenine and quinolinic acid, or through kynureninase to anthranilic acid, so the KynA/quinolinic acid ratio reflects branch flux.",
+      "zh-TW": "Kynurenic acid 由 kynurenine aminotransferase（KAT，包含 KAT I、II、III）以 kynurenine 為受質合成，是 kynurenine 三條分支代謝路徑之一。其餘分支分別經 kynurenine 3-monooxygenase 生成 3-hydroxykynurenine 再生成 quinolinic acid，或經 kynureninase 生成 anthranilic acid，因此 KynA／quinolinic acid 比值可反映分支通量。"
+    },
+    "confidence": 0.92,
+    "source_document": "Kynurenic Acid.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "a26c966db1ac",
+    "subject": "Kynurenic Acid",
+    "predicate": "is_opposed_by",
+    "object": "Quinolinic Acid",
+    "context": {
+      "en-US": "Kynurenic acid is functionally opposed by quinolinic acid, an NMDA receptor agonist and neurotoxin produced in the same kynurenine pathway. The KynA/quinolinic acid ratio is therefore a critical determinant of neuronal health: a high ratio favours neuroprotection, whereas a low ratio permits excitotoxicity and neurodegeneration. Reduced KynA contributes to excitotoxicity in Alzheimer's disease and Huntington's disease.",
+      "zh-TW": "Kynurenic acid 在功能上與 quinolinic acid 相對抗；後者是同一條 kynurenine 路徑產生的 NMDA 受體致效劑與神經毒素。因此 KynA／quinolinic acid 比值是決定神經元健康的關鍵因子：比值高有利於神經保護，比值低則容許興奮毒性與神經退化發生。KynA 降低會促成阿茲海默症與亨丁頓舞蹈症中的興奮毒性。"
+    },
+    "confidence": 0.9,
+    "source_document": "Kynurenic Acid.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "9f60b11ced92",
+    "subject": "Kynurenine Pathway",
+    "predicate": "degrades",
+    "object": "Tryptophan",
+    "context": {
+      "en-US": "The kynurenine pathway is the major catabolic route for tryptophan, accounting for about 95% of tryptophan metabolism outside protein synthesis and serotonin production. IDO1 or TDO catalyses the rate-limiting first step, oxidative cleavage of the indole ring to produce N-formylkynurenine, which kynurenine formamidase deacylates to kynurenine. Three branch points then generate kynurenic acid, 3-hydroxykynurenine/quinolinic acid, or anthranilic acid.",
+      "zh-TW": "Kynurenine 路徑是色胺酸（Tryptophan）的主要分解代謝途徑，約佔蛋白質合成與血清素生成之外色胺酸代謝的 95%。IDO1 或 TDO 催化限速的第一步驟，切割吲哚環產生 N-formylkynurenine，再由 kynurenine formamidase 去醯化生成 kynurenine。之後三個分支點分別產生 kynurenic acid、3-hydroxykynurenine／quinolinic acid，或 anthranilic acid。"
+    },
+    "confidence": 0.95,
+    "source_document": "Kynurenine Pathway.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "34f9d69e5199",
+    "subject": "Kynurenine",
+    "predicate": "is_produced_from",
+    "object": "N-Formylkynurenine",
+    "context": {
+      "en-US": "Kynurenine is formed by deformylation of N-formylkynurenine, itself the product of IDO1 or TDO activity on tryptophan. Because its level reflects flux through the rate-limiting IDO1/TDO step, the kynurenine-to-tryptophan (Kyn/Trp) ratio is used clinically as a surrogate for IDO1 activity and is elevated in chronic inflammation, cancer and insulin resistance.",
+      "zh-TW": "Kynurenine 由 N-formylkynurenine 去醯胺化（deformylation）生成，而 N-formylkynurenine 則是 IDO1 或 TDO 作用於色胺酸的產物。由於其濃度反映通過 IDO1/TDO 限速步驟的通量，kynurenine 與色胺酸比值（Kyn/Trp ratio）被臨床用作 IDO1 活性的替代指標，並在慢性發炎、癌症與胰島素阻抗性中升高。"
+    },
+    "confidence": 0.92,
+    "source_document": "Kynurenine.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "9be7d5b098d0",
+    "subject": "L-Carnitine",
+    "predicate": "transports",
+    "object": "Fatty acid oxidation",
+    "context": {
+      "en-US": "L-Carnitine (levocarnitine) is a zwitterionic quaternary ammonium compound whose principal role is to shuttle long-chain fatty acids across the inner mitochondrial membrane into the matrix via the carnitine palmitoyltransferase system, enabling beta-oxidation. It also buffers the ratio of free CoA to acyl-CoA, preventing accumulation of toxic acyl intermediates and sustaining ketogenesis and ATP generation. Mature mitochondria cannot synthesize it de novo.",
+      "zh-TW": "L-Carnitine（levocarnitine）是兩性離子型季銨化合物，其主要角色是透過肉鹼棕櫚醯轉移酶（CPT）系統將長鏈脂肪酸運送過粒線體內膜進入基質，使脂肪酸得以進行 β-氧化。它同時緩衝游離 CoA 與 acyl-CoA 的比值，避免毒性醯基中間產物累積，並維持酮生成與 ATP 生成。成熟粒線體無法從頭合成 L-Carnitine。"
+    },
+    "confidence": 0.93,
+    "source_document": "L-Carnitine.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "2180658be118",
+    "subject": "L-Carnitine",
+    "predicate": "is_synthesized_from",
+    "object": "Lysine",
+    "context": {
+      "en-US": "L-Carnitine is synthesized endogenously, mainly in the liver and kidneys, from the amino acids lysine and methionine, a process that requires vitamin C and iron-dependent hydroxylases. Because the biosynthetic enzymes are not expressed in mature mitochondria, the organelle depends on this supply, and body carnitine pools concentrate in skeletal and cardiac muscle where oxidative demand is highest.",
+      "zh-TW": "L-Carnitine 主要在肝臟與腎臟由胺基酸 lysine 與 methionine 內生合成，此過程需要維生素 C 與鐵依賴性羥化酶參與。由於生合成酵素並不在成熟粒線體中表現，粒線體須依賴此供應；而全身肉鹼儲存池集中於氧化需求最高的骨骼肌與心肌。"
+    },
+    "confidence": 0.9,
+    "source_document": "L-Carnitine.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "2bffaa6bd14e",
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "LC3",
+    "context": {
+      "en-US": "SIRT1 promotes autophagy by deacetylating LC3, which reduces its acetylation and enhances autophagic flux in endothelial cells and cancer contexts. SIRT1 likewise deacetylates Beclin1 at a lysine residue; depending on context this deacetylation can impair autophagic flux and compromise autophagosome-lysosome fusion, showing that SIRT1's autophagy effects are substrate- and context-specific.",
+      "zh-TW": "SIRT1 透過將 LC3 去乙醯化來促進自噬，降低其乙醯化程度並在內皮細胞與癌症情境中提升自噬流。SIRT1 亦可在特定離胺酸殘基上將 Beclin1 去乙醯化；依情境不同，此去乙醯化可能反而損害自噬流並使自噬體與溶小體的融合受阻，顯示 SIRT1 對自噬的效應具受質與情境專一性。"
+    },
+    "confidence": 0.9,
+    "source_document": "LC3.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "1ac628cc5a76",
+    "subject": "LDL",
+    "predicate": "is_transported_by",
+    "object": "Cholesterol",
+    "context": {
+      "en-US": "LDL is a lipoprotein particle that transports cholesterol and triglycerides from the liver to peripheral tissues. Because it is the principal lipid carrier of cholesterol to tissues, elevated LDL is a major risk factor for atherosclerosis and cardiovascular disease, while the particle's susceptibility to oxidation determines its pro-atherogenic fate.",
+      "zh-TW": "LDL 是將膽固醇與三酸甘油酯由肝臟運送至周邊組織的脂蛋白顆粒。由於它是將膽固醇運送至組織的主要脂質載體，LDL 升高是動脈粥狀硬化與心血管疾病的重要風險因子；而此顆粒對氧化的易感性則決定其致動脈粥狀硬化性的命運。"
+    },
+    "confidence": 0.8,
+    "source_document": "LDL.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "2ba9c92c0768",
+    "subject": "Oxidized LDL",
+    "predicate": "is_formed_by",
+    "object": "Lipid Peroxidation",
+    "context": {
+      "en-US": "LDL oxidation is characterized by lipid peroxidation of polyunsaturated fatty acids plus alteration of the apoB protein moiety, and can be induced by copper ions, gamma-radiolysis-generated free radicals, or endothelial cells. Oxidized LDL is present in atherosclerotic lesions and correlates with coronary atherosclerosis severity; macrophages take up oxidized LDL, accumulating cholesterol and forming foam cells, the hallmark of early atherogenesis.",
+      "zh-TW": "LDL 氧化的特徵是多不飽和脂肪酸的脂質過氧化，以及 apoB 蛋白部分的改變，可由銅離子、γ 輻解產生的自由基或內皮細胞誘發。氧化型 LDL 存在於動脈粥狀硬化病灶中，並與冠狀動脈粥狀硬化的嚴重程度相關；巨噬細胞攝取氧化型 LDL 後累積膽固醇形成泡沫細胞，這是早期動脈粥樣硬化的特徵。"
+    },
+    "confidence": 0.9,
+    "source_document": "LDL.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "07fbf1d3f9dd",
+    "subject": "Resveratrol",
+    "predicate": "protects_against",
+    "object": "LDL",
+    "context": {
+      "en-US": "Resveratrol protects LDL against oxidation by chelating free copper ions and scavenging free radicals: at 0-1 micromolar it inhibits LDL oxidation by extending the lag phase and reducing the maximum rate of conjugated diene formation, and it preserves the vitamin E content of LDL during oxidative stress while protecting apoB integrity from radical-induced alteration. These effects underpin its proposed atheroprotective action.",
+      "zh-TW": "Resveratrol 透過螯合游離銅離子與清除自由基來保護 LDL 免於氧化：在 0–1 微莫耳濃度下，它藉由延長延遲期並降低共軛雙烯生成的最高速率來抑制 LDL 氧化，並在氧化壓力下維持 LDL 中的維生素 E 含量，同時保護 apoB 完整性免受自由基誘發的改變。這些效應構成其被提出作為動脈粥狀硬化保護作用的基礎。"
+    },
+    "confidence": 0.9,
+    "source_document": "LDL.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "10ba890f576d",
+    "subject": "Macrophages",
+    "predicate": "take_up",
+    "object": "Oxidized LDL",
+    "context": {
+      "en-US": "Macrophages take up and oxidize LDL, resulting in significant cholesterol accumulation and foam cell formation, hallmarks of early atherogenesis. Because macrophages express scavenger receptors rather than the LDL receptor, they are not subject to feedback downregulation when cholesterol-loaded, so oxidized LDL uptake drives progressive plaque lipid accumulation.",
+      "zh-TW": "巨噬細胞攝取並氧化 LDL，造成大量膽固醇累積與泡沫細胞形成，這是早期動脈粥樣硬化的特徵。由於巨噬細胞表現的是清道夫受體而非 LDL 受體，膽固醇負荷時不會受到回饋性下调，因此氧化型 LDL 的攝取會推動斑塊脂質持續累積。"
+    },
+    "confidence": 0.85,
+    "source_document": "LDL.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "b18b077bfe88",
+    "subject": "LHRH",
+    "predicate": "stimulates",
+    "object": "Testosterone",
+    "context": {
+      "en-US": "LHRH (GnRH) is a decapeptide produced by hypothalamic neurons that stimulates luteinizing hormone and follicle-stimulating hormone release from anterior pituitary gonadotrophs, driving testosterone and estrogen production. Physiological pulsatile release is required for normal gonadotropin secretion. LHRH agonists such as leuprolide desensitize LHRH receptors, lowering LH/FSH and thereby reducing testosterone and estrogen without surgical castration.",
+      "zh-TW": "LHRH（GnRH）是由下視丘神經元產生的十肽，刺激腦下垂體前葉促性腺細胞釋放黃體生成素與濾泡刺激素，進而驅動睪固酮與雌激素的產生。生理上的脈衝式釋放是正常促性腺激素分泌所必需。LHRH 致效劑如 leuprolide 會使 LHRH 受體去敏感化，降低 LH／FSH，因而在不進行手術去勢的情況下降低睪固酮與雌激素。"
+    },
+    "confidence": 0.92,
+    "source_document": "LHRH.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "f61904978c9b",
+    "subject": "LHRH",
+    "predicate": "reverses",
+    "object": "Thymic Involution",
+    "context": {
+      "en-US": "LHRH analogues achieve pharmacological sex steroid ablation, and removal of sex steroid inhibition restores thymic architecture: aged rats given LHRH analogue treatment regained thymic weight and cellularity (Greenstein et al., 1987), and thymic weight increased while age-related thymic structural defects reversed. Unlike surgical castration, this is a reversible pharmaceutical approach more likely to be tolerated clinically.",
+      "zh-TW": "LHRH 類似物可達成藥理學上的性類固醇去除，而解除性類固醇的抑制可恢復胸腺結構：接受 LHRH 類似物治療的老年大鼠恢復了胸腺重量與細胞量（Greenstein 等，1987），胸腺重量增加且與年齡相關的胸腺結構缺損獲得逆轉。與手術去勢不同，這是可逆的藥物途徑，在臨床上較可能被耐受。"
+    },
+    "confidence": 0.88,
+    "source_document": "LHRH.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "6ee2ff68c9be",
+    "subject": "LHRH",
+    "predicate": "achieves",
+    "object": "Sex Steroid Ablation",
+    "context": {
+      "en-US": "LHRH agonists achieve sex steroid ablation pharmacologically through receptor desensitization rather than surgery, and this is being tested in allogeneic hematopoietic stem cell transplant (NCT01338987) and melanoma vaccine response augmentation (NCT00254397). The reversible, non-surgical character of the approach is its main clinical advantage over orchiectomy and oophorectomy.",
+      "zh-TW": "LHRH 致效劑透過受體去敏感化以藥理方式達成性類固醇去除，而非手術方式；此法正在異基因造血幹細胞移植（NCT01338987）與黑色素瘤疫苗反應增強（NCT00254397）中接受測試。這種可逆、非手術的特性，相較於睪丸切除與卵巢切除，是其主要的臨床優勢。"
+    },
+    "confidence": 0.88,
+    "source_document": "LHRH.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "f371c5211474",
+    "subject": "LINE-1",
+    "predicate": "is_derepressed_in",
+    "object": "Senescence",
+    "context": {
+      "en-US": "LINE-1 (L1) is a common retrotransposable element whose derepression is a hallmark of the senescent epigenome. Loss of RB1-driven heterochromatin and of SIRT6 from L1 loci, together with DNA hypomethylation, decompacts the loci; the resulting LINE-1 cDNA in the cytoplasm acts as a cytosolic DNA ligand for cGAS-STING, activating NF-κB SASP genes. Nucleoside reverse transcriptase inhibitors (NRTIs) suppress this axis.",
+      "zh-TW": "LINE-1（L1）是常見的retrotransposable element（反轉錄轉位元件），其去抑制是衰老表觀基因組的特徵。RB1 驅動的異染色質與 SIRT6 從 L1 基因座位上的流失，加上 DNA 低甲基化，使這些基因座位解壓縮；所產生的細胞質 LINE-1 cDNA 作為細胞質 DNA 配體活化 cGAS-STING，啟動 NF-κB 相關的 SASP 基因。核苷反轉錄酶抑制劑（NRTIs）可抑制此軸。"
+    },
+    "confidence": 0.9,
+    "source_document": "LINE-1.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "e17449ea990f",
+    "subject": "LINE-1",
+    "predicate": "contributes_to",
+    "object": "Inflammaging",
+    "context": {
+      "en-US": "LINE-1 derepression underlies inflammaging: reactivation of LINE-1 (and HERV) generates cytoplasmic cDNA that triggers cGAS-STING-NF-κB signalling and the SASP, converting a chromatin-level change into a chronic inflammatory output. De-repression of LINE-1 is also observed during normal aging, contributing to genomic instability and inflammation.",
+      "zh-TW": "LINE-1 去抑制是 inflammaging（發炎性老化）的根源：LINE-1（與 HERV）的再活化會產生細胞質 cDNA，觸發 cGAS-STING-NF-κB 訊號與 SASP，將染色質層級的變化轉化為慢性發炎輸出。正常老化過程中也可觀察到 LINE-1 去抑制，促成基因體不穩定與發炎。"
+    },
+    "confidence": 0.9,
+    "source_document": "LINE-1.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "054ace2c41d9",
+    "subject": "LIT-927",
+    "predicate": "synergizes_with",
+    "object": "Fisetin",
+    "context": {
+      "en-US": "LIT-927 complements the senolytic fisetin in a dual-hit strategy: fisetin eliminates senescent cells (the source of the SASP factor) while LIT-927 neutralizes CXCL12 (the downstream mediator), and the combination reduces mitochondrial superoxide in aged mice more than either agent alone. The pairing validates CXCL12 as a causal mediator of age-related endothelial dysfunction.",
+      "zh-TW": "LIT-927 與 senolytic 藥物 fisetin 形成互補的雙重打擊策略：fisetin 清除衰老細胞（SASP 因子的來源），LIT-927 則中和 CXCL12（下游介質）；兩者合併在老化小鼠中降低粒線體超氧化的效果優於任一單獨用藥。此配對驗證了 CXCL12 作為年齡相關內皮功能障礙之因果介質的角色。"
+    },
+    "confidence": 0.85,
+    "source_document": "LIT-927.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "ab472f3e5e83",
+    "subject": "LMNA Gene",
+    "predicate": "mutations_cause",
+    "object": "Hutchinson-Gilford Progeria Syndrome",
+    "context": {
+      "en-US": "The LMNA gene encodes lamins, chiefly Lamin A and Lamin C, structural components of the nuclear lamina. Mutations in LMNA cause a group of disorders called laminopathies: a specific de novo mutation produces progerin and causes Hutchinson-Gilford progeria syndrome, while other variants cause dilated cardiomyopathy and Emery-Dreifuss muscular dystrophy. Because low levels of progerin are detected even in normal aging, the LMNA pathway may contribute to standard biological aging.",
+      "zh-TW": "LMNA 基因編碼 lamins（主要是 Lamin A 與 Lamin C），為核纖層的結構成分。LMNA 突變造成一類稱為 laminopathies 的疾病：特定的從頭突變會產生 progerin 並導致 Hutchinson-Gilford progeria syndrome，其他變異則造成擴張型心肌病與 Emery-Dreifuss 肌營養不良。由於正常老化細胞中也可檢出低量 progerin，LMNA 路徑可能參與標準的生物老化過程。"
+    },
+    "confidence": 0.92,
+    "source_document": "LMNA Gene.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "b4dd22cfb8d5",
+    "subject": "Progerin",
+    "predicate": "contributes_to",
+    "object": "Aging",
+    "context": {
+      "en-US": "Progerin, the abnormal lamin A product of LMNA mutations, is a driver of premature aging in Hutchinson-Gilford progeria syndrome. Progerin also induces LINE-1 derepression, generating cytosolic cDNA that triggers cGAS-STING-dependent SASP. Because low progerin levels are detected even in normal aging, progerin may represent a shared mechanism between progeroid syndromes and normal biological aging.",
+      "zh-TW": "Progerin 是 LMNA 突變所產生的異常 lamin A 產物，是 Hutchinson-Gilford progeria syndrome 早衰的驅動因子。Progerin 也會誘導 LINE-1 去抑制，產生細胞質 cDNA，觸發 cGAS-STING 依賴性的 SASP。由於正常老化細胞中亦可檢出低量 progerin，progerin 可能代表早衰症候群與正常生物老化之間的共同機制。"
+    },
+    "confidence": 0.9,
+    "source_document": "LMNA Gene.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "4928b05f5bb0",
+    "subject": "LPCAT3",
+    "predicate": "enriches_with_PUFA",
+    "object": "Phosphatidylethanolamine",
+    "context": {
+      "en-US": "LPCAT3 is an ER and nuclear-envelope MBOAT-family enzyme that remodels phospholipids by acylating lysophospholipid acceptors with polyunsaturated fatty acids, especially arachidonate and adrenate, at the sn-2 position. It thereby builds the oxidizable PUFA-containing phosphatidylethanolamine (PE) pool that lipoxygenases and Fenton-reaction radicals peroxidize. Knockdown of LPCAT3 or ACSL4 reduces PUFA-PE and protects cells from ferroptosis; overexpression sensitizes them.",
+      "zh-TW": "LPCAT3 是位於內質網與核膜的 MBOAT 家族酵素，透過在 sn-2 位置以多不飽和脂肪酸（尤其是花生四烯酸與腎上腺酸）醯化溶血磷脂受質來重塑磷脂。它藉此建立起可被脂氧合酶與 Fenton reaction 自由基過氧化的、含 PUFA 的磷脂醯乙醇胺（PE）池。LPCAT3 或 ACSL4 的敲除會減少 PUFA-PE 並保護細胞免於 ferroptosis；其過表現則使細胞更敏感。"
+    },
+    "confidence": 0.93,
+    "source_document": "LPCAT3.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "ce4da4a7c20b",
+    "subject": "LPCAT3",
+    "predicate": "promotes",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "LPCAT3 is a positive regulator and substrate gatekeeper of ferroptosis: together with ACSL4 it determines how much oxidizable PUFA-phosphatidylethanolamine is present, setting the ferroptosis threshold independently of GSH/GPX4 levels. It operates upstream of the GPX4-controlled execution step, and its implication across cancer, neurodegeneration and ischemia-reperfusion injury makes it a candidate sensitizer, though systemic inhibition would perturb essential lipid homeostasis.",
+      "zh-TW": "LPCAT3 是 ferroptosis 的正向調節因子與受質守門者：它與 ACSL4 共同決定可被氧化的 PUFA-磷脂醯乙醇胺的數量，獨立於 GSH／GPX4 濃度而設定 ferroptosis 的閾值。它作用於 GPX4 控制的執行步驟之上游；其在癌症、神經退化與缺血再灌流傷害中的重要性使其成為候選增敏劑，但全身性抑制會擾動必要的脂質恆定。"
+    },
+    "confidence": 0.92,
+    "source_document": "LPCAT3.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "e6fa6469bca2",
+    "subject": "LPS",
+    "predicate": "is_recognized_by",
+    "object": "TLR4",
+    "context": {
+      "en-US": "LPS, the glycolipid component of the Gram-negative bacterial outer membrane, is the primary pathogen-associated molecular pattern recognized by the innate immune system. In humans it is recognized through the TLR4/MD-2 complex: LBP extracts LPS from the membrane and transfers it to CD14, which shuttles it to MD-2/TLR4, where MD-2 binds the Lipid A moiety and drives TLR4 homodimerization, nucleating the signalling complex.",
+      "zh-TW": "LPS 是革蘭氏陰性菌外膜的糖脂成分，也是先天免疫系統所辨識的主要病原相關分子模式（PAMP）。在人類中，LPS 透過 TLR4/MD-2 複合體被辨識：LBP 從菌膜抽出 LPS 並轉交給 CD14，後者再將 LPS 運送至 MD-2/TLR4；MD-2 在其疏水口袋中結合 Lipid A 基團，促使 TLR4 同源二聚化並成核訊號複合體。"
+    },
+    "confidence": 0.95,
+    "source_document": "LPS.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "8c3d1b042ccd",
+    "subject": "LPS",
+    "predicate": "activates",
+    "object": "NLRP3 Inflammasome",
+    "context": {
+      "en-US": "LPS activates the NLRP3 inflammasome, which processes pro-IL-1beta into its mature form via caspase-1 cleavage, adding a second layer of innate immune activation critical to the hyperinflammatory state of sepsis. Together with MyD88-dependent and TRIF-dependent TLR4 signalling to NF-κB and IRF3, this drives release of TNFα, IL-1beta, IL-6 and inducible COX-2 and iNOS.",
+      "zh-TW": "LPS 會活化 NLRP3 inflammasome，透過 caspase-1 切割將 pro-IL-1β 加工為成熟形式，提供了對敗血症高發炎狀態至關重要的第二層先天免疫活化。此作用與經 MyD88 依賴性及 TRIF 依賴性 TLR4 訊號傳至 NF-κB 與 IRF3 共同驅動 TNFα、IL-1β、IL-6 以及誘導型 COX-2 與 iNOS 的釋放。"
+    },
+    "confidence": 0.92,
+    "source_document": "LPS.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "8e47eedde7d3",
+    "subject": "LPS",
+    "predicate": "induces",
+    "object": "TFE3",
+    "context": {
+      "en-US": "In macrophages, LPS induces TFE3 nuclear translocation and lysosomal biogenesis. Unlike the mitochondrial and ER stress conditions in which TFE3 translocation accompanies a noticeable reduction in mTORC1 activity, LPS-treated macrophages show no such reduction, confirming that TFE3 can be activated in an mTORC1-independent manner during innate immune stimulation.",
+      "zh-TW": "在巨噬細胞中，LPS 可誘導 TFE3 的核轉位與溶小體新生。與粒線體及內質網壓力情境下 TFE3 轉位伴隨 mTORC1 活性明顯下降不同，LPS 處理的巨噬細胞並未出現此種下降，證實在先天免疫刺激下 TFE3 可以不依賴 mTORC1 的方式被活化。"
+    },
+    "confidence": 0.85,
+    "source_document": "LPS.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "b7c3573bb9ae",
+    "subject": "LPS",
+    "predicate": "drives",
+    "object": "Sepsis",
+    "context": {
+      "en-US": "Systemic LPS exposure, typically via Gram-negative bacteremia or overwhelming intra-abdominal infection, is the principal trigger of septic shock, driving a dysregulated cytokine storm with systemic vasodilation, disseminated intravascular coagulation, capillary leak and multiorgan failure. Despite this central role, anti-endotoxin and TLR4-directed therapies have failed in large sepsis trials, underscoring the multifactorial nature of the septic response.",
+      "zh-TW": "全身性 LPS 暴露（通常經由革蘭氏陰性菌血症或壓倒性的腹腔內感染）是敗血性休克的主要觸發因素，會引發失調的細胞因子風暴，造成全身血管擴張、瀰漫性血管內凝血、微血管滲漏與多器官衰竭。儘管其核心地位，針對內毒素與 TLR4 的療法在大規模敗血症試驗中均告失敗，凸顯敗血症反應的多因子特性。"
+    },
+    "confidence": 0.93,
+    "source_document": "LPS.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "3bcd81a8d786",
+    "subject": "LRRK2",
+    "predicate": "mutations_cause",
+    "object": "Parkinson's Disease",
+    "context": {
+      "en-US": "Mutations in LRRK2, particularly G2019S, are among the most common genetic causes of familial Parkinson's disease. LRRK2 is a large multi-domain kinase that regulates mitophagy, lysosomal function and vesicle sorting, and pathogenic LRRK2 activity impairs mitophagy — the LRRK2 kinase inhibitor GSK3357679A restores mitophagy defects in LRRK2 G2019S mice, showing that targeting LRRK2 can rescue mitophagy damage in vivo.",
+      "zh-TW": "LRRK2 的突異（尤其是 G2019S）是家族性 Parkinson's disease 最常見的遺傳病因之一。LRRK2 是一種大型多結構域激酶，調節 mitophagy、溶小體功能與囊泡分選，而致病型 LRRK2 活性會損害 mitophagy——LRRK2 激酶抑制劑 GSK3357679A 可在 LRRK2 G2019S 小鼠中恢復 mitophagy 缺損，顯示針對 LRRK2 的標靶可在體內救援 mitophagy 損傷。"
+    },
+    "confidence": 0.93,
+    "source_document": "LRRK2.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "dbc2a18a038b",
+    "subject": "LRRK2",
+    "predicate": "regulates",
+    "object": "Mitophagy",
+    "context": {
+      "en-US": "LRRK2 regulates mitophagy as well as lysosomal tubulation and vesicle sorting. Pathogenic LRRK2 activity impairs mitophagy, so inhibiting LRRK2 with GSK3357679A restores mitophagy in LRRK2 G2019S mice — the first demonstration that LRRK2 targeting can rescue mitophagy damage in vivo, linking LRRK2 dysfunction in Parkinson's disease to mitochondrial quality control failure.",
+      "zh-TW": "LRRK2 調節 mitophagy 以及溶小體管狀化與囊泡分選。致病型 LRRK2 活性會損害 mitophagy，因此以 GSK3357679A 抑制 LRRK2 可在 LRRK2 G2019S 小鼠中恢復 mitophagy——這是首次證明針對 LRRK2 的標靶可在體內救援 mitophagy 損傷，將 Parkinson's disease 中的 LRRK2 失能與粒線體品質控管失效連結起來。"
+    },
+    "confidence": 0.92,
+    "source_document": "LRRK2.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "f3ef02e104fc",
+    "subject": "Lactobacillus",
+    "predicate": "produces",
+    "object": "Short-chain Fatty Acids",
+    "context": {
+      "en-US": "Lactobacillus is a genus of Gram-positive, facultatively anaerobic, rod-shaped, non-spore-forming bacteria that ferments carbohydrates into lactic acid, bacteriocins and hydrogen peroxide, lowering pH to inhibit pathogens and reinforcing mucosal barriers. In the gut it complements Bifidobacterium in contributing to short-chain fatty acid production and interacts with the immune system to promote tolerance; berberine enriches SCFA-producing Lactobacillus spp. via high intraluminal exposure.",
+      "zh-TW": "Lactobacillus 是一屬革蘭氏陽性、兼性厭氧、桿狀、不形成芽孢的細菌，能將碳水化合物發酵成乳酸、bacteriocin 與過氧化氫，藉由降低 pH 抑制病原菌並強化黏膜屏障。在腸道中它與 Bifidobacterium 互補，協助產生短鏈脂肪酸，並與免疫系統互動以促進耐受性；berberine 則透過高腸腔暴露濃度富集產 SCFA 的 Lactobacillus spp.。"
+    },
+    "confidence": 0.88,
+    "source_document": "Lactobacillus.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "9ca069e31882",
+    "subject": "Lactobacillus",
+    "predicate": "declines_with",
+    "object": "Aging",
+    "context": {
+      "en-US": "A healthy Lactobacillus predominance is associated with metabolic and vaginal health, and its decline with aging or antibiotic use can permit dysbiosis. Probiotic Lactobacillus strains are studied for glycemic control, inflammation reduction and gut barrier protection, and berberine enriches SCFA-producing Lactobacillus species, which links the genus to the gut microbiome and age-related metabolic change.",
+      "zh-TW": "健康的 Lactobacillus 優勢菌群與代謝及陰道健康相關，而其數量隨老化或抗生素使用而下降，可容許 dysbiosis（菌群失衡）發生。益生性 Lactobacillus 菌株被研究用於血糖控制、降低發炎與腸道屏障保護；berberine 可富集產 SCFA 的 Lactobacillus 物種，此現象將該菌屬與腸道菌群及年齡相關代謝變化連結起來。"
+    },
+    "confidence": 0.85,
+    "source_document": "Lactobacillus.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "319ac0860bb3",
+    "subject": "Berberine",
+    "predicate": "enriches",
+    "object": "Lactobacillus",
+    "context": {
+      "en-US": "Berberine enriches short-chain-fatty-acid-producing Lactobacillus species in the gut, an effect attributed to its high intraluminal exposure (only 1-5% systemic bioavailability means high luminal concentrations). Berberine therefore acts on the microbiome directly, adding a microbiome-mediated mechanism to its known metabolic and anti-inflammatory pharmacology.",
+      "zh-TW": "Berberine 可在腸道中富集產短鏈脂肪酸的 Lactobacillus 物種，此效應歸因於其高腸腔暴露濃度（僅 1–5% 的系統性生體可用率意味著腸腔內濃度很高）。因此 berberine 可直接作用於菌群，為其已知的代謝與抗發炎藥理作用增加了菌群媒介的機制。"
+    },
+    "confidence": 0.88,
+    "source_document": "Lactobacillus.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "787def50a0f9",
+    "subject": "Luteoloside",
+    "predicate": "is_a_type_of",
+    "object": "Polyphenols",
+    "context": {
+      "en-US": "Luteoloside is a luteolin-linked flavonoid glycoside within the polyphenol class, profiled as a preclinical antifibrotic senomorphic in idiopathic pulmonary fibrosis.",
+      "zh-TW": "Luteoloside 是多酚類中的木犀草素糖苷類黃酮，已在特發性肺纖維化中作為前臨床抗纖維化 senomorphic 被研究。"
+    },
+    "confidence": 0.95,
+    "source_document": "Luteoloside.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "7fc122ed6dee",
+    "subject": "Luteoloside",
+    "predicate": "restores",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Luteoloside exerts antifibrotic activity in part by restoring autophagic flux, reducing oxidative stress, and suppressing SASP-mediated fibroblast activation.",
+      "zh-TW": "Luteoloside 的抗纖維化活性部分來自恢復自噬流、降低氧化壓力，以及抑制 SASP 介導的纖維母細胞活化。"
+    },
+    "confidence": 0.9,
+    "source_document": "Luteoloside.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "d1e3d3004510",
+    "subject": "Luteoloside",
+    "predicate": "reduces",
+    "object": "Reactive Oxygen Species",
+    "context": {
+      "en-US": "Luteoloside lowers oxidative stress by reducing ROS, opposing the mitochondrial dysfunction/ROS/SASP axis implicated in idiopathic pulmonary fibrosis.",
+      "zh-TW": "Luteoloside 藉由降低 ROS 減少氧化壓力，從而對抗參與特發性肺纖維化的粒線體功能失調／ROS／SASP 軸。"
+    },
+    "confidence": 0.9,
+    "source_document": "Luteoloside.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "56defb2d7fef",
+    "subject": "Luteoloside",
+    "predicate": "suppresses",
+    "object": "SASP",
+    "context": {
+      "en-US": "Luteoloside suppresses SASP-mediated fibroblast activation, marking it as a polyphenol senomorphic that dampens the inflammatory secretome of senescent cells.",
+      "zh-TW": "Luteoloside 抑制 SASP 介導的纖維母細胞活化，因此被歸為可抑制 senescent cell 發炎分泌型的多酚類 senomorphic。"
+    },
+    "confidence": 0.9,
+    "source_document": "Luteoloside.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "d1633d9cbd6a",
+    "subject": "TFEB",
+    "predicate": "regulates",
+    "object": "Lysosomal Biogenesis",
+    "context": {
+      "en-US": "TFEB, together with TFE3 and MITF, binds CLEAR-box motifs in the promoters of lysosomal genes and is the master transcriptional regulator of lysosomal biogenesis; mTORC1 phosphorylates TFEB at S211 to retain it in the cytosol, while starvation triggers calcineurin-mediated dephosphorylation and nuclear translocation.",
+      "zh-TW": "TFEB 與 TFE3、MITF 共同結合溶小體基因啟動子上的 CLEAR-box motif，是溶小體生成的主轉錄調控因子；mTORC1 在 S211 位點磷酸化 TFEB 使其滯留於細胞質，而飢餓則引發 calcineurin 媒介的去磷酸化與核轉位。"
+    },
+    "confidence": 0.95,
+    "source_document": "Lysosomal Biogenesis.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "9738bddc253d",
+    "subject": "Lysosomal Biogenesis",
+    "predicate": "is_required_for",
+    "object": "Autophagic Flux",
+    "context": {
+      "en-US": "Lysosomal biogenesis is tightly coupled to autophagy: TFEB activation simultaneously increases autophagosome formation and lysosomal degradative capacity, which together sustain efficient autophagic flux.",
+      "zh-TW": "溶小體生成與自噬緊密耦合：TFEB 的活化會同時提升自噬體形成與溶小體的降解能力，兩者共同維持有效的自噬流。"
+    },
+    "confidence": 0.9,
+    "source_document": "Lysosomal Biogenesis.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "732bb4283330",
+    "subject": "mTORC1",
+    "predicate": "inhibits",
+    "object": "Lysosomal Biogenesis",
+    "context": {
+      "en-US": "mTORC1 is a negative regulator of lysosomal biogenesis, phosphorylating TFEB at S211 so that 14-3-3 binding retains it in the cytosol; Torin1 and Trehalose induce lysosomal biogenesis by relieving this mTORC1-dependent inhibition.",
+      "zh-TW": "mTORC1 是溶小體生成的負向調控因子，藉由在 S211 磷酸化 TFEB 使其與 14-3-3 結合而滯留細胞質；Torin1 與 Trehalose 則透過解除此 mTORC1 依賴的抑制來誘導溶小體生成。"
+    },
+    "confidence": 0.9,
+    "source_document": "Lysosomal Biogenesis.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "0b6332b64791",
+    "subject": "TFEB",
+    "predicate": "regulates",
+    "object": "Lysosome Biogenesis",
+    "context": {
+      "en-US": "TFEB, a member of the microphthalmia (MiT/TFEB) family of leucine-zipper transcription factors, is known as the master regulator of transcription of genes participating in lysosome biogenesis and autophagy.",
+      "zh-TW": "TFEB 屬於 microphthalmia（MiT/TFEB）家族的亮胺酸拉鍊轉錄因子，被認為是參與溶小體生成與自噬之基因轉錄的主調控因子。"
+    },
+    "confidence": 0.9,
+    "source_document": "Lysosome Biogenesis.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "1add6cc5efdb",
+    "subject": "Lysosomal Storage Diseases",
+    "predicate": "impairs",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "In lysosomal storage diseases, deficiency of a single hydrolase, transporter, or membrane protein causes undegraded substrate to accumulate, enlarging lysosomes and thereby impairing autophagic flux, disrupting calcium homeostasis and triggering inflammation.",
+      "zh-TW": "在溶小體儲積症中，單一水解酵素、運輸蛋白或膜蛋白的缺失會造成未分解受質累積，使溶小體腫大並進而損害自噬流、破壞鈣離子恆定並誘發發炎。"
+    },
+    "confidence": 0.9,
+    "source_document": "Lysosomal Storage Diseases.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "37c9ea68e0ed",
+    "subject": "Pompe Disease",
+    "predicate": "is_a_type_of",
+    "object": "Lysosomal Storage Diseases",
+    "context": {
+      "en-US": "Pompe disease (glycogen storage disease type II) is a lysosomal storage disease caused by deficiency of acid alpha-glucosidase (GAA), leading to massive glycogen accumulation in lysosomes, particularly in cardiac and skeletal muscle.",
+      "zh-TW": "龐貝氏症（第二型肝醣儲積症）屬於溶小體儲積症，由酸性 α-葡萄糖苷酶（GAA）缺乏所致，造成溶小體（尤其在心肌與骨骼肌）大量肝醣累積。"
+    },
+    "confidence": 0.95,
+    "source_document": "Lysosomal Storage Diseases.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "e6aff4170b32",
+    "subject": "Hematopoietic Stem Cell",
+    "predicate": "treats",
+    "object": "Lysosomal Storage Diseases",
+    "context": {
+      "en-US": "Bone marrow and hematopoietic stem cell transplantation remains the only curative option for several neuronopathic lysosomal storage diseases, because donor-derived monocytes and macrophages cross the blood-brain barrier and supply continuous enzyme, halting neurological deterioration when performed presymptomatically.",
+      "zh-TW": "骨髓與造血幹細胞移植是數種神經病變型溶小體儲積症唯一的根治選項，因為捐贈者的單核球與巨噬細胞可穿越血腦屏障並持續提供酵素，在症狀出現前移植可阻斷神經退化。"
+    },
+    "confidence": 0.85,
+    "source_document": "Lysosomal Storage Diseases.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "c4442723fb42",
+    "subject": "V-ATPase",
+    "predicate": "maintains",
+    "object": "Lysosome",
+    "context": {
+      "en-US": "The acidic lysosomal lumen (pH 4.5-5.5) is maintained by the V-ATPase proton pump, whose subunits are synthesized and assembled as part of lysosomal biogenesis.",
+      "zh-TW": "溶小體的酸性內腔（pH 4.5–5.5）由 V-ATPase 質子幫浦維持，其次單元也是溶小體生成過程中被合成與組裝的成分之一。"
+    },
+    "confidence": 0.9,
+    "source_document": "Lysosome.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "bbca7f8f78ec",
+    "subject": "Lysosome",
+    "predicate": "degrades",
+    "object": "Autophagosome",
+    "context": {
+      "en-US": "In macroautophagy, the lysosome fuses with autophagosomes to form autolysosomes, in which cargo is degraded and recycled; lysosomal dysfunction is a hallmark of aging and of metabolic and neurodegenerative disease.",
+      "zh-TW": "在巨自噬過程中，溶小體與自噬體融合形成自溶小體並降解、回收其中物質；溶小體功能失調是老化以及代謝性與神經退化疾病的重要特徵。"
+    },
+    "confidence": 0.9,
+    "source_document": "Lysosome.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "7de12feea46a",
+    "subject": "TFEB",
+    "predicate": "regulates",
+    "object": "Lysosome",
+    "context": {
+      "en-US": "Lysosome biogenesis is master-regulated by the transcription factors TFEB and TFE3 acting through CLEAR elements, making the lysosome a nutrient-sensing signaling hub rather than a passive degradative compartment.",
+      "zh-TW": "溶小體生成由轉錄因子 TFEB 與 TFE3 透過 CLEAR element 主導調控，使溶小體成為營養感知的訊號樞紐，而非被動的降解區室。"
+    },
+    "confidence": 0.9,
+    "source_document": "Lysosome.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "e25b26a18fb1",
+    "subject": "Autophagic Lysosome Reformation",
+    "predicate": "regenerates",
+    "object": "Lysosome",
+    "context": {
+      "en-US": "Lysosomes are dynamic and can be regenerated after cargo degradation by autophagic lysosome reformation (ALR), which is mechanistically distinct from endocytic (ELR) and phagocytic (PLR) lysosome reformation.",
+      "zh-TW": "溶小體是動態的，降解物質後可經由自噬性溶小體再形成（ALR）再生，此機制與內吞型（ELR）及吞噬型（PLR）溶小體再形成在機制上有所不同。"
+    },
+    "confidence": 0.85,
+    "source_document": "Lysosome.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "f9af82f70f76",
+    "subject": "MAGEC3",
+    "predicate": "is_a_member_of",
+    "object": "EXITS",
+    "context": {
+      "en-US": "MAGEC3 is one of six X-linked genes identified as EXITS (Escape from X-Inactivation Tumor Suppressors), which show significantly more frequent loss-of-function mutations in males than in females across 21 tumor types.",
+      "zh-TW": "MAGEC3 是被辨識為 EXITS（逃脫 X 染色體失活的腫瘤抑制基因）的六個 X 連鎖基因之一，在 21 種腫瘤中男性的功能喪失突變頻率顯著高於女性。"
+    },
+    "confidence": 0.9,
+    "source_document": "MAGEC3.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "4b34f8d1f62d",
+    "subject": "MAGEC3",
+    "predicate": "is_a_type_of",
+    "object": "Tumor Suppressor Gene",
+    "context": {
+      "en-US": "MAGEC3 is a putative X-linked tumor suppressor: males are hemizygous and vulnerable to single-hit loss-of-function inactivation, whereas females require two hits because of biallelic expression.",
+      "zh-TW": "MAGEC3 是推定為 X 連鎖的腫瘤抑制基因：男性為半合子，單一hit 的功能喪失即可使其失去功能；女性因雙等位基因表現則需要兩次 hit。"
+    },
+    "confidence": 0.8,
+    "source_document": "MAGEC3.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "db8a4bebfe55",
+    "subject": "DNA Methylation",
+    "predicate": "inhibits",
+    "object": "MAGEC3",
+    "context": {
+      "en-US": "MAGEC3 is normally expressed only in testis and silenced in most somatic tissues by DNA methylation of CpG islands in its promoter; reactivation in tumors makes it a cancer-testis antigen.",
+      "zh-TW": "MAGEC3 正常情況下僅在睪丸表現，其啟動子 CpG 島的 DNA 甲基化使其在多數體細胞組織中被沉默；在腫瘤中再活化使其成為 cancer-testis antigen。"
+    },
+    "confidence": 0.9,
+    "source_document": "MAGEC3.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "617f597333a2",
+    "subject": "MAGEC3",
+    "predicate": "interacts_with",
+    "object": "p53",
+    "context": {
+      "en-US": "MAGE family members can interact with p53 and modulate its transcriptional activity, and MAGEC3 may contribute to p53-dependent tumor suppression - though MAGEC3 itself is among the least mechanistically characterized of the six EXITS genes.",
+      "zh-TW": "MAGE 家族成員可與 p53 互動並調節其轉錄活性，MAGEC3 可能參與 p53 依賴的腫瘤抑制；不過 MAGEC3 本身是六個 EXITS 基因中機制最不清楚者之一。"
+    },
+    "confidence": 0.6,
+    "source_document": "MAGEC3.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "327c522605af",
+    "subject": "MAML1",
+    "predicate": "is_required_for",
+    "object": "Notch",
+    "context": {
+      "en-US": "MAML1 is the obligatory transcriptional co-activator of Notch signalling: its N-terminal domain binds the CSL/RBPJ-N1ICD interface to nucleate a ternary complex, and its C-terminal domain recruits p300/CBP to activate Notch target promoters.",
+      "zh-TW": "MAML1 是 Notch 訊號傳遞不可或缺的轉錄共同活化因子：其 N 端結構域結合 CSL/RBPJ–N1ICD 介面以形成三元複合體，C 端則招募 p300/CBP 以活化 Notch 目標基因啟動子。"
+    },
+    "confidence": 0.95,
+    "source_document": "MAML1.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "4efd3fe38a0a",
+    "subject": "Notch",
+    "predicate": "inhibits",
+    "object": "CEBPβ",
+    "context": {
+      "en-US": "Notch acts as a temporal gatekeeper of the SASP: repression of C/EBPβ transcriptional activity by Notch signalling restrains the late, highly inflammatory IL-6/IL-8-dominated secretome and times the transition from an early TGFβ-dominated phase.",
+      "zh-TW": "Notch 是 SASP 的時間性守門者：Notch 訊號對 C/EBPβ 轉錄活性的抑制，限制了晚期以 IL-6/IL-8 為主的強烈發炎分泌型，並決定由早期 TGFβ 主導階段的轉換時機。"
+    },
+    "confidence": 0.9,
+    "source_document": "MAML1.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "794e7b15b8c5",
+    "subject": "MAML1",
+    "predicate": "is_required_for",
+    "object": "Paracrine Senescence",
+    "context": {
+      "en-US": "As the obligatory co-activator of the Notch-CSL complex, MAML1 is the effector through which Notch signalling establishes paracrine senescence in neighbouring cells.",
+      "zh-TW": "作為 Notch–CSL 複合體不可或缺的共同活化因子，MAML1 是 Notch 訊號在鄰近細胞中建立旁分泌性衰老（paracrine senescence）的執行者。"
+    },
+    "confidence": 0.85,
+    "source_document": "MAML1.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "90e521229362",
+    "subject": "MAML1",
+    "predicate": "interacts_with",
+    "object": "p53",
+    "context": {
+      "en-US": "Beyond Notch, MAML1 has Notch-independent co-activator functions: it has been reported to coactivate p53 and thereby support p21 induction, to act as a coactivator for MEF2C, and to cooperate with LEF1/TCF in Wnt-responsive transcription.",
+      "zh-TW": "在 Notch 之外，MAML1 還具有非 Notch 依賴的共同活化功能：據報可共同活化 p53 並支持 p21 誘導、可作為 MEF2C 的共同活化因子，並在 Wnt 反應性轉錄中與 LEF1/TCF 協同。"
+    },
+    "confidence": 0.75,
+    "source_document": "MAML1.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "508c910f8b82",
+    "subject": "MAPK",
+    "predicate": "promotes",
+    "object": "Senescence",
+    "context": {
+      "en-US": "Chronic activation of the p38 arm of the MAPK pathway is a key driver of entry into senescence, and pharmacological inhibition of p38 delays senescence in human cells; dysregulated MAPK signalling also contributes to chronic inflammation in old age.",
+      "zh-TW": "MAPK 訊號傳遞中 p38 分支的慢性活化是細胞進入衰老的重要驅動力，藥理學抑制 p38 可延緩人類細胞衰老；失衡的 MAPK 訊號亦有助於老年慢性發炎。"
+    },
+    "confidence": 0.9,
+    "source_document": "MAPK.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "2da9d5e620a5",
+    "subject": "MAPK",
+    "predicate": "regulates",
+    "object": "SASP",
+    "context": {
+      "en-US": "The MAPK pathway is one of the primary regulators of the senescence-associated secretory phenotype, controlling production of the pro-inflammatory cytokines, chemokines and proteases that senescent cells secrete and that promote inflammaging.",
+      "zh-TW": "MAPK 訊號傳遞是調控 SASP 的主要路徑之一，控制 senescent cell 分泌的發炎性細胞激素、趨化因子與蛋白酶的產生，進而促進 inflammaging。"
+    },
+    "confidence": 0.9,
+    "source_document": "MAPK.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "340790a0edbf",
+    "subject": "Ivermectin",
+    "predicate": "inhibits",
+    "object": "MAPK",
+    "context": {
+      "en-US": "Ivermectin inhibits MAPK signalling in nasopharyngeal carcinoma and melanoma by reducing PAK1 kinase activity, and melittin likewise inhibits MAPK signalling in melanoma and breast cancer.",
+      "zh-TW": "Ivermectin 藉由降低 PAK1 激酶活性抑制鼻咽癌與黑色素瘤的 MAPK 訊號；melittin 同樣抑制黑色素瘤與乳癌的 MAPK 訊號。"
+    },
+    "confidence": 0.85,
+    "source_document": "MAPK.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "04a1047681cb",
+    "subject": "MAPK",
+    "predicate": "phosphorylates",
+    "object": "TFEB",
+    "context": {
+      "en-US": "Phosphorylation of TFEB at S142 by MAPK has been suggested to contribute to TFEB cytosolic retention, adding nutrient- and stress-responsive MAPK signalling to the mTORC1 control of lysosomal transcription.",
+      "zh-TW": "MAPK 對 TFEB S142 的磷酸化被認為有助於 TFEB 的細胞質滯留，為溶小體轉錄的 mTORC1 調控加上營養與壓力反應性的 MAPK 訊號層。"
+    },
+    "confidence": 0.8,
+    "source_document": "MAPK.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "68602fe406fc",
+    "subject": "p38 MAPK",
+    "predicate": "phosphorylates",
+    "object": "MAPKAPK2",
+    "context": {
+      "en-US": "p38 MAPK phosphorylates MK2 (MAPKAPK2) at Thr222 in humans, activating the kinase and relieving an intramolecular inhibitory interaction, making MK2 the principal effector through which p38 controls labile inflammatory mRNA stability.",
+      "zh-TW": "p38 MAPK 在人類磷酸化 MK2（MAPKAPK2）的 Thr222 位點，活化該激酶並解除其分子內抑制性交互作用，使 MK2 成為 p38 調控不穩定發炎 mRNA 穩定性的主要執行者。"
+    },
+    "confidence": 0.95,
+    "source_document": "MAPKAPK2.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "a56229d7b09f",
+    "subject": "MAPKAPK2",
+    "predicate": "phosphorylates",
+    "object": "ZFP36L1",
+    "context": {
+      "en-US": "MAPKAPK2 phosphorylates ARE-binding decay factors such as ZFP36L1 (TIS11B) and ZFP36/TTP, as well as AUF1, HSP27 and HuR; inactivating these factors blocks deadenylation/decapping and shifts the equilibrium toward transcript stabilization.",
+      "zh-TW": "MAPKAPK2 會磷酸化 ARE 結合的降解因子如 ZFP36L1（TIS11B）與 ZFP36/TTP，以及 AUF1、HSP27 與 HuR；使這些因子失活後，去腺苷酸化／脫帽被阻斷，平衡因而轉向轉錄本穩定化。"
+    },
+    "confidence": 0.9,
+    "source_document": "MAPKAPK2.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "0e1a8dfbce05",
+    "subject": "MAPKAPK2",
+    "predicate": "promotes",
+    "object": "SASP",
+    "context": {
+      "en-US": "In senescent cells, persistent p38 signalling keeps MK2 active, which stabilizes IL-6, IL-8, CXCL1/2 and MCP-1 transcripts and maintains the inflammatory secretome even after transcriptional initiation wanes.",
+      "zh-TW": "在 senescent cell 中，p38 訊號持續使 MK2 保持活化，穩定 IL-6、IL-8、CXCL1/2 與 MCP-1 的轉錄本，即使轉錄起始已減弱仍維持發炎性分泌型。"
+    },
+    "confidence": 0.9,
+    "source_document": "MAPKAPK2.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "cc51be489ba1",
+    "subject": "Senomorphic Therapy",
+    "predicate": "targets",
+    "object": "MAPKAPK2",
+    "context": {
+      "en-US": "p38-MK2 inhibitors, originally developed for rheumatoid arthritis, atherosclerosis and sepsis, are being repurposed as senomorphics: MK2 inhibition sharply reduces SASP secretion without reversing the DNA-damage-induced cell-cycle arrest, operating post-transcriptionally rather than by killing senescent cells.",
+      "zh-TW": "p38–MK2 抑制劑原為類風濕性關節炎、動脈粥狀硬化與敗血症所開發，現被再定位為 senomorphic：抑制 MK2 可大幅降低 SASP 分泌，卻不會逆轉 DNA 損傷引起的細胞週期停滯，屬於轉錄後而非殺傷 senescent cell 的作用方式。"
+    },
+    "confidence": 0.85,
+    "source_document": "MAPKAPK2.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "facf37ac9a91",
+    "subject": "MCU",
+    "predicate": "transports",
+    "object": "Calcium",
+    "context": {
+      "en-US": "The mitochondrial calcium uniporter is a Ca2+-selective channel in the inner mitochondrial membrane that mediates calcium uptake from the intermembrane space into the matrix, driven by the negative mitochondrial membrane potential.",
+      "zh-TW": "粒線體鈣離子單通道（MCU）是位於粒線體內膜的 Ca²⁺ 選擇性通道，在負的粒線體膜電位驅動下將鈣離子由膜間腔運送入基質。"
+    },
+    "confidence": 0.95,
+    "source_document": "MCU.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "21908bcdbd7b",
+    "subject": "MCU",
+    "predicate": "promotes",
+    "object": "Senescence",
+    "context": {
+      "en-US": "During oncogene-induced and replicative senescence, MCU-mediated mitochondrial calcium uptake increases because of enhanced release via ITPR2 at MERCS, causing matrix calcium accumulation, reduced membrane potential and elevated ROS that reinforce the senescent phenotype.",
+      "zh-TW": "在 oncogene-induced 與 replicative senescence 期間，因 MERCS 上 ITPR2 釋放增加，MCU 介導的粒線體鈣離子攝入上升，造成基質鈣累積、膜電位下降與 ROS 上升，進一步強化 senescent 表型。"
+    },
+    "confidence": 0.9,
+    "source_document": "MCU.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "130e9d49a94a",
+    "subject": "MCU",
+    "predicate": "activates",
+    "object": "Mitochondrial Permeability Transition Pore",
+    "context": {
+      "en-US": "Excessive MCU activity causes matrix calcium overload, which activates the mitochondrial permeability transition pore and triggers apoptotic cell death.",
+      "zh-TW": "MCU 活性過高會造成粒線體基質鈣離子過載，進而活化粒線體通透性轉換孔（mPTP）並誘發細胞凋亡。"
+    },
+    "confidence": 0.85,
+    "source_document": "MCU.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "bf491aaaf034",
+    "subject": "MCU",
+    "predicate": "is_driven_by",
+    "object": "Mitochondrial Membrane Potential",
+    "context": {
+      "en-US": "MCU-mediated calcium uptake is driven by the negative mitochondrial membrane potential (ΔΨm); in senescence the resulting loss of ΔΨm also elevates ROS production.",
+      "zh-TW": "MCU 介導的鈣離子攝入由負的粒線體膜電位（ΔΨm）驅動；在衰老時由此造成的 ΔΨm 下降也會提高 ROS 產生。"
+    },
+    "confidence": 0.9,
+    "source_document": "MCU.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "fc602f779de1",
+    "subject": "MDH1",
+    "predicate": "is_a_component_of",
+    "object": "Malate-Aspartate Shuttle",
+    "context": {
+      "en-US": "Cytosolic MDH1 catalyzes the reversible conversion of malate to oxaloacetate coupled to NAD+ reduction to NADH; together with mitochondrial MDH2 it forms the cytosolic arm of the malate-aspartate shuttle.",
+      "zh-TW": "細胞質的 MDH1 催化蘋果酸可逆轉為草醯乙酸，並將 NAD⁺ 還原為 NADH；它與粒線體的 MDH2 共同構成蘋果酸－天門冬胺酸穿梭的細胞質一側。"
+    },
+    "confidence": 0.95,
+    "source_document": "MDH1.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "b66e975832c0",
+    "subject": "MDH1",
+    "predicate": "converts_to",
+    "object": "Oxaloacetate",
+    "context": {
+      "en-US": "MDH1 oxidizes malate to oxaloacetate in the cytosol while reducing NAD+ to NADH, coupling substrate-level malate flux to the generation of cytosolic reducing equivalents.",
+      "zh-TW": "MDH1 在細胞質中將蘋果酸氧化為草醯乙酸，同時把 NAD⁺ 還原為 NADH，將蘋果酸的受質層次通量與細胞質還原力的產生耦合。"
+    },
+    "confidence": 0.9,
+    "source_document": "MDH1.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "0136b3d5d3dd",
+    "subject": "Malate-Aspartate Shuttle",
+    "predicate": "is_required_for",
+    "object": "Oxidative Phosphorylation",
+    "context": {
+      "en-US": "The malate-aspartate shuttle, built from the MDH1 and MDH2 arms, transfers reducing equivalents from cytosolic NADH into the mitochondrial matrix, where they enter oxidative phosphorylation; NAD+ depletion in senescence perturbs this arm of metabolism.",
+      "zh-TW": "由 MDH1 與 MDH2 兩側構成的蘋果酸－天門冬胺酸穿梭，將還原力自細胞質 NADH 傳入粒線體基質供氧化磷酸化使用；衰老時的 NAD⁺ 耗竭會擾亂此代謝分支。"
+    },
+    "confidence": 0.9,
+    "source_document": "MDH1.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "3fd870f60db0",
+    "subject": "MDH2",
+    "predicate": "is_a_component_of",
+    "object": "Citric Acid Cycle",
+    "context": {
+      "en-US": "Mitochondrial MDH2 catalyzes the final step of the TCA cycle, oxidizing malate to oxaloacetate in the matrix while reducing NAD+ to NADH for the electron transport chain.",
+      "zh-TW": "粒線體的 MDH2 催化 TCA 循環的最後一步，在基質中將蘋果酸氧化為草醯乙酸，並將 NAD⁺ 還原為供電子傳遞鏈使用的 NADH。"
+    },
+    "confidence": 0.95,
+    "source_document": "MDH2.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "c7b347d984e9",
+    "subject": "MDH2",
+    "predicate": "is_a_component_of",
+    "object": "Malate-Aspartate Shuttle",
+    "context": {
+      "en-US": "MDH2 forms the mitochondrial arm of the malate-aspartate shuttle, converting oxaloacetate and NADH back to malate and NAD+ so that cytosolic reducing equivalents are transferred across the inner mitochondrial membrane.",
+      "zh-TW": "MDH2 構成蘋果酸－天門冬胺酸穿梭的粒線體一側，將草醯乙酸與 NADH 轉回蘋果酸與 NAD⁺，使細胞質的還原力得以跨越粒線體內膜。"
+    },
+    "confidence": 0.9,
+    "source_document": "MDH2.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "4a832468c1c1",
+    "subject": "MDH2",
+    "predicate": "produces",
+    "object": "NADH",
+    "context": {
+      "en-US": "MDH2 generates NADH in the mitochondrial matrix, supplying the reducing equivalents consumed by oxidative phosphorylation.",
+      "zh-TW": "MDH2 在粒線體基質中生成 NADH，供應氧化磷酸化所需的還原力。"
+    },
+    "confidence": 0.9,
+    "source_document": "MDH2.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "6543a67aad62",
+    "subject": "SIRT3",
+    "predicate": "inhibits",
+    "object": "ME2",
+    "context": {
+      "en-US": "SIRT3 acts as a delactylase for malic enzyme 2, removing the K352 lactyl mark and thereby inhibiting ME2 activity. Lactylation at K352 normally enhances ME2 activity, NADPH production and mitochondrial respiration, so SIRT3-mediated delactylation is tumor-suppressive in colorectal cancer.",
+      "zh-TW": "SIRT3 作為蘋果酸酶 2 的去乳醯化酶，移除 K352 的乳醯化標記，因而抑制 ME2 活性。K352 的乳醯化原本會提升 ME2 活性、NADPH 生成與粒線體呼吸，因此 SIRT3 媒介的去乳醯化在結直腸癌中具有抑制腫瘤的作用。"
+    },
+    "confidence": 0.95,
+    "source_document": "ME2.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "353ef336bef7",
+    "subject": "SIRT5",
+    "predicate": "activates",
+    "object": "ME2",
+    "context": {
+      "en-US": "SIRT5 interacts with and desuccinylates ME2 at K346, increasing ME2 activity and promoting colorectal cancer growth - the mirror-image modification to SIRT3's inhibitory delactylation at the nearby K352.",
+      "zh-TW": "SIRT5 與 ME2 互動並在 K346 位點進行去琥珀醯化，提高 ME2 活性並促進結直腸癌生長，與 SIRT3 在鄰近 K352 的抑制性去乳醯化恰為鏡像。"
+    },
+    "confidence": 0.9,
+    "source_document": "ME2.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "82f7df128897",
+    "subject": "ME2",
+    "predicate": "produces",
+    "object": "NADPH",
+    "context": {
+      "en-US": "ME2 is the principal mitochondrial NADPH-generating isoform of malic enzyme, catalyzing the oxidative decarboxylation of L-malate to pyruvate with reduction of NADP+ to NADPH; the resulting NADPH supports glutathione and thioredoxin regeneration and counters mitochondrial ROS.",
+      "zh-TW": "ME2 是蘋果酸酶中主要的粒線體 NADPH 生成亞型，催化 L-蘋果酸氧化脫羧為丙酮酸並將 NADP⁺ 還原為 NADPH；所產生的 NADPH 支持穀胱甘肽與硫氧還蛋白再生，並對抗粒線體 ROS。"
+    },
+    "confidence": 0.95,
+    "source_document": "ME2.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "ef767768168b",
+    "subject": "ME2",
+    "predicate": "converts_to",
+    "object": "Pyruvate",
+    "context": {
+      "en-US": "ME2 converts L-malate to pyruvate, feeding TCA-cycle anaplerosis or lactate generation and thereby positioning malic enzyme at the junction of the glycolysis-OXPHOS metabolic plasticity axis.",
+      "zh-TW": "ME2 將 L-蘋果酸轉為丙酮酸，可補入 TCA 循環或用於乳酸生成，使蘋果酸酶位於糖解作用－氧化磷酸化代謝可塑性軸的交會處。"
+    },
+    "confidence": 0.95,
+    "source_document": "ME2.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "7595f3391560",
+    "subject": "Lactylation",
+    "predicate": "enhances",
+    "object": "ME2",
+    "context": {
+      "en-US": "Lactate-derived K352 lactylation of malic enzyme 2 enhances its enzymatic activity, boosting NADPH production and mitochondrial respiration in tumor cells; disrupting this mark (K352R) elevates ROS, raises the NADP+/NADPH ratio and suppresses colorectal tumor growth.",
+      "zh-TW": "乳酸衍生的 ME2 K352 乳醯化會增強其酵素活性，提升腫瘤細胞的 NADPH 生成與粒線體呼吸；破壞此標記（K352R）會提高 ROS、升高 NADP⁺/NADPH 比值並抑制結直腸癌生長。"
+    },
+    "confidence": 0.9,
+    "source_document": "ME2.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "c7342589b7c5",
+    "subject": "MEF",
+    "predicate": "is_a_model_for",
+    "object": "Senescence",
+    "context": {
+      "en-US": "Primary mouse embryonic fibroblasts are a classic model of aging: they are diploid and contact-inhibited at early passage and undergo replicative senescence driven by telomere shortening and stress, making them standard for testing senolytics and longevity pathways including sirtuins and mTOR.",
+      "zh-TW": "原代小鼠胚胎纖維母細胞是老化研究的經典模型：早期傳代時為二倍體且具接觸抑制，並因端粒縮短與壓力而發生 replicative senescence，因此是測試 senolytics 以及 sirtuin、mTOR 等長壽路徑的標準細胞。"
+    },
+    "confidence": 0.9,
+    "source_document": "MEF.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "58b9c59cf129",
+    "subject": "MEF",
+    "predicate": "is_a_model_for",
+    "object": "Mitochondria",
+    "context": {
+      "en-US": "Because early-passage MEFs retain near-normal physiology compared with immortalized lines, they are used to assay mitochondrial function, DNA damage, oxidative stress and the senescence-associated secretory phenotype, and serve as controls for transformed lines such as HeLa.",
+      "zh-TW": "由於早期傳代的 MEF 相較於永生化細胞株保有接近正常的生理狀態，它們被用於檢測粒線體功能、DNA 損傷、氧化壓力與 SASP，並作為 HeLa 等轉化細胞株的對照。"
+    },
+    "confidence": 0.85,
+    "source_document": "MEF.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "4df3e9477c56",
+    "subject": "MEF",
+    "predicate": "is_derived_from",
+    "object": "Knockout mouse",
+    "context": {
+      "en-US": "MEFs are isolated from dissected and enzymatically dissociated mouse embryos, making genotype-matched cultures from knockout mice a standard route to validate gene function in primary cells.",
+      "zh-TW": "MEF 由解剖並經酵素解離的小鼠胚胎中分離取得，因此來自 knockout mouse 的基因型配對培養是驗證基因在原代細胞中功能的標準途徑。"
+    },
+    "confidence": 0.85,
+    "source_document": "MEF.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "205f9f7063b5",
+    "subject": "cGAS-STING Pathway",
+    "predicate": "inhibits",
+    "object": "MEF2C",
+    "context": {
+      "en-US": "Chronic microglial cGAS-STING signalling restrains the protective MEF2C neuronal gene program in a non-cell-autonomous manner: microglial cGAS deletion reverses neuronal MEF2C downregulation in tauopathy (Udeochu et al., Nat Neurosci 2023), making the cGAS axis a therapeutic target for preserving neuronal resilience.",
+      "zh-TW": "慢性的小膠質細胞 cGAS–STING 訊號以非細胞自體的方式抑制具保護性的 MEF2C 神經元基因程式：小膠質細胞 cGAS 缺失可逆轉 tauopathy 中神經元 MEF2C 的下调（Udeochu et al., Nat Neurosci 2023），使 cGAS 軸成為維持神經元韌性的治療標的。"
+    },
+    "confidence": 0.9,
+    "source_document": "MEF2C.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "197f1dc5d0a4",
+    "subject": "Type I Interferon",
+    "predicate": "inhibits",
+    "object": "MEF2C",
+    "context": {
+      "en-US": "Sustained type I interferon signalling from activated microglia is associated with MEF2C downregulation in neurons; reduced MEF2C expression in turn correlates with synapse loss and cognitive impairment in tauopathies and Alzheimer's disease.",
+      "zh-TW": "來自活化小膠質細胞的第一型干擾素訊號持續，與神經元中 MEF2C 下調相關；MEF2C 表現降低又與 tauopathy 及阿茲海默症中的突觸喪失與認知功能受損相關。"
+    },
+    "confidence": 0.85,
+    "source_document": "MEF2C.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "5806b108951c",
+    "subject": "MEF2C",
+    "predicate": "regulates",
+    "object": "Neuron",
+    "context": {
+      "en-US": "MEF2C orchestrates a neuronal gene network governing axon morphology, dendritic arborization, synaptic plasticity and neuronal survival; the program is upregulated in resilient Alzheimer's individuals, making MEF2C both a biomarker of cognitive resilience and an effector of neuronal homeostasis.",
+      "zh-TW": "MEF2C 調控一套神經元基因網絡，涵蓋軸突形態、樹突分支、突觸可塑性與神經元存活；該程式在具韌性的阿茲海默症患者中上調，使 MEF2C 同時成為認知韌性的生物標記與神經元恆定的執行因子。"
+    },
+    "confidence": 0.9,
+    "source_document": "MEF2C.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "2aa1ae333331",
+    "subject": "MEF2C",
+    "predicate": "is_associated_with",
+    "object": "Alzheimer's Disease",
+    "context": {
+      "en-US": "MEF2C-associated gene networks are upregulated in individuals who harbor Alzheimer's pathology yet retain cognitive function, and are suppressed in disease; preservation of this program confers resilience against tau and amyloid toxicity.",
+      "zh-TW": "在帶有阿茲海默症病理但仍保有認知功能的個體中，MEF2C 相關基因網絡呈上調，而在疾病中則被抑制；維持此程式可賦予對 tau 與類澱粉毒性的韌性。"
+    },
+    "confidence": 0.85,
+    "source_document": "MEF2C.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "f83fc5957863",
+    "subject": "MEK1_2",
+    "predicate": "phosphorylates",
+    "object": "ERK1_2",
+    "context": {
+      "en-US": "MEK1 (MAP2K1) and MEK2 (MAP2K2) are dual-specificity kinases that phosphorylate and activate ERK1/2 (MAPK3/MAPK1) in the core of the MAPK/ERK cascade.",
+      "zh-TW": "MEK1（MAP2K1）與 MEK2（MAP2K2）為雙專一性激酶，在 MAPK/ERK 級聯的核心處磷酸化並活化 ERK1/2（MAPK3/MAPK1）。"
+    },
+    "confidence": 0.95,
+    "source_document": "MEK1_2.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "b5c1eaeefa4b",
+    "subject": "BRAF",
+    "predicate": "activates",
+    "object": "MEK1_2",
+    "context": {
+      "en-US": "MEK1/2 are activated by Raf kinases - BRAF, ARAF and RAF1 - which themselves sit downstream of RAS, so BRAF V600 mutations constitutively drive MEK-ERK signalling; this is why MEK inhibitors such as Trametinib and Cobimetinib are standard of care in BRAF V600 melanoma.",
+      "zh-TW": "MEK1/2 由 Raf 激酶（BRAF、ARAF、RAF1）活化，而這些激酶位於 RAS 下游，因此 BRAF V600 突變會構成性驅動 MEK–ERK 訊號；這也是 Trametinib、Cobimetinib 等 MEK 抑制劑成為 BRAF V600 黑色素瘤標準治療的原因。"
+    },
+    "confidence": 0.95,
+    "source_document": "MEK1_2.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "8446642f9419",
+    "subject": "MEK1_2",
+    "predicate": "is_required_for",
+    "object": "Cell Proliferation",
+    "context": {
+      "en-US": "MEK1/2 are critical mediators of cell proliferation, differentiation and survival downstream of receptor tyrosine kinases, which makes them validated therapeutic targets in BRAF-mutant melanoma and neurofibromatosis type 1.",
+      "zh-TW": "MEK1/2 是受體酪胺酸激酶下游調節細胞增殖、分化與存活的重要中介，因此它們是 BRAF 突變黑色素瘤與第一型神經纖維瘤病中已獲驗證的治療標的。"
+    },
+    "confidence": 0.9,
+    "source_document": "MEK1_2.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "1c5a700c9000",
+    "subject": "MELAS",
+    "predicate": "is_caused_by",
+    "object": "Mitochondrial DNA",
+    "context": {
+      "en-US": "MELAS is a maternally inherited mitochondrial disorder caused most commonly by the A3243G mutation in the mitochondrial DNA tRNA-Leu(UUR) gene, which disrupts translation of the 13 protein-coding genes and leads to energy failure in high-demand tissues.",
+      "zh-TW": "MELAS 是母系遺傳的粒線體疾病，最常由粒線體 DNA 的 tRNA-Leu(UUR) 基因 A3243G 突變引起，該突變破壞 13 個蛋白質編碼基因的轉譯，導致高需求組織發生能量衰竭。"
+    },
+    "confidence": 0.95,
+    "source_document": "MELAS.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "eeb54268958c",
+    "subject": "MELAS",
+    "predicate": "impairs",
+    "object": "Oxidative Phosphorylation",
+    "context": {
+      "en-US": "Because defective tRNA-Leu(UUR) impairs mitochondrial protein synthesis, MELAS causes defective assembly of electron transport chain complexes (especially I and IV), impaired oxidative phosphorylation and ATP depletion.",
+      "zh-TW": "由於 tRNA-Leu(UUR) 缺陷損害粒線體蛋白質合成，MELAS 造成電子傳遞鏈複合體（尤其複合體 I 與 IV）組裝缺陷、氧化磷酸化受損與 ATP 耗竭。"
+    },
+    "confidence": 0.95,
+    "source_document": "MELAS.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "0809a7bde238",
+    "subject": "MELAS",
+    "predicate": "increases",
+    "object": "Reactive Oxygen Species",
+    "context": {
+      "en-US": "Energy failure in MELAS tissues with high metabolic demand (brain, muscle) leads to secondary mitochondrial ROS generation and oxidative stress, contributing to the syndrome's neurodegeneration.",
+      "zh-TW": "MELAS 中高代謝需求組織（腦、肌肉）的能量衰竭會導致次級的粒線體 ROS 生成與氧化壓力，促成該症候群的神經退化。"
+    },
+    "confidence": 0.9,
+    "source_document": "MELAS.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "490d5d834298",
+    "subject": "Humanin",
+    "predicate": "is_associated_with",
+    "object": "MELAS",
+    "context": {
+      "en-US": "Humanin levels are significantly elevated in skeletal muscle of MELAS patients, and humanin restores ATP levels in lymphocytes from MELAS patients - evidence of a compensatory stress response and the rationale for investigating humanin analogs as MELAS therapies.",
+      "zh-TW": "MELAS 患者的骨骼肌中 humanin 濃度顯著升高，且 humanin 可恢復 MELAS 患者淋巴球中的 ATP 濃度，構成代償性壓力反應的證據，也是研究 humanin 類似物作為 MELAS 治療的依據。"
+    },
+    "confidence": 0.85,
+    "source_document": "MELAS.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "12bc9a7f7d19",
+    "subject": "MERCS",
+    "predicate": "is_a_contact_site_between",
+    "object": "Endoplasmic Reticulum",
+    "context": {
+      "en-US": "Mitochondria-ER contact sites (MERCS, also called MAMs) are specialized subdomains where the endoplasmic reticulum and mitochondria lie within 10-30 nm of each other, serving as dynamic signaling hubs rather than passive tethers.",
+      "zh-TW": "MERCS（又稱 MAM）是內質網與粒線體相距僅 10–30 nm 的特化次區域，屬於動態訊號樞紐而非被動的繫結結構。"
+    },
+    "confidence": 0.8,
+    "source_document": "MERCS.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "87b6bf55da1a",
+    "subject": "MERCS",
+    "predicate": "facilitates",
+    "object": "Calcium",
+    "context": {
+      "en-US": "MERCS concentrate ITPR2 on the ER side and MCU on the mitochondrial side, enabling efficient calcium transfer across the contact; in Alzheimer's disease, increased MERCS with shorter ER-mitochondria distances promote calcium accumulation and mPTP activation.",
+      "zh-TW": "MERCS 在內質網側濃縮 ITPR2、在粒線體側濃縮 MCU，使接觸面上的鈣離子轉移更有效率；在阿茲海默症中，MERCS 增加且內質網－粒線體距離縮短，促進鈣離子累積與 mPTP 活化。"
+    },
+    "confidence": 0.9,
+    "source_document": "MERCS.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "2fa620c54c77",
+    "subject": "ITPR2",
+    "predicate": "is_localized_to",
+    "object": "MERCS",
+    "context": {
+      "en-US": "The ER calcium release channel ITPR2 is localized at MERCS, where it supplies the calcium that MCU takes up; enhanced ITPR2-mediated release during senescence drives matrix calcium accumulation.",
+      "zh-TW": "內質網鈣離子釋放通道 ITPR2 定位於 MERCS，在該處供應 MCU 所攝取的鈣離子；衰老期間 ITPR2 媒介的釋放增強，驅動基質鈣累積。"
+    },
+    "confidence": 0.9,
+    "source_document": "MERCS.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "9dc3afea3320",
+    "subject": "MERCS",
+    "predicate": "is_associated_with",
+    "object": "Senescence",
+    "context": {
+      "en-US": "The number of MERCS increases in senescence, and artificial linkage of mitochondria to the ER promotes senescence, whereas the senolytic quercetin preserves MERCS to improve mitochondrial morphology and function in senescent cardiomyocytes.",
+      "zh-TW": "MERCS 的數量在衰老時增加，人工將粒線體與內質網連結會促進衰老，而 senolytic quercetin 則保留 MERCS，改善 senescent 心肌細胞的粒線體形態與功能。"
+    },
+    "confidence": 0.9,
+    "source_document": "MERCS.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "00b21f0eb4a9",
+    "subject": "MERCS",
+    "predicate": "regulates",
+    "object": "Mitochondrial Dynamics",
+    "context": {
+      "en-US": "MERCS localize fusion/fission machinery such as DRP1, so their altered abundance in senescence or neurodegeneration reshapes mitochondrial morphology; in the R6/1 Huntington's disease model, increased DRP1-mediated fission reduces MERCS and impairs mitochondrial calcium handling.",
+      "zh-TW": "MERCS 會定位融合／分裂機制（如 DRP1），因此在衰老或神經退化時其數量改變會重塑粒線體形態；在 R6/1 亨丁頓症模型中，DRP1 媒介的分裂增加會減少 MERCS 並損害粒線體的鈣離子處理。"
+    },
+    "confidence": 0.85,
+    "source_document": "MERCS.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "a27fa471540b",
+    "subject": "METTL14",
+    "predicate": "partners_with",
+    "object": "METTL3",
+    "context": {
+      "en-US": "METTL14 is the structural core of the m6A methyltransferase complex: it forms a catalytic heterodimer with METTL3, which provides the SAM-binding active site while METTL14 stabilizes substrate RNA and shapes RRACH motif preference.",
+      "zh-TW": "METTL14 是 m6A 甲基轉移酶複合體的結構核心：它與 METTL3 形成具催化能力的異源二聚體，METTL3 提供 SAM 結合的活性位點，而 METTL14 則穩定受質 RNA 並決定 RRACH motif 偏好。"
+    },
+    "confidence": 0.95,
+    "source_document": "METTL14.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "8f048f9c6564",
+    "subject": "METTL14",
+    "predicate": "promotes",
+    "object": "SASP",
+    "context": {
+      "en-US": "METTL14 promotes SASP gene expression by two separable mechanisms: m6A marking of secretory transcripts, and a writer-independent architectural role in which chromatin-bound METTL14 loops enhancers to NF-κB-bearing SASP promoters. Depleting METTL14 lowers IL-6, IL-8 and interferon-stimulated SASP components.",
+      "zh-TW": "METTL14 透過兩種可分離的機制促進 SASP 基因表現：對分泌性轉錄本加上 m6A 標記，以及一種不依賴 writer 的結構功能——結合在染色質上的 METTL14 將 enhancer 環繞至帶有 NF-κB 結合位點的 SASP 啟動子。耗竭 METTL14 會降低 IL-6、IL-8 與干擾素刺激的 SASP 成分。"
+    },
+    "confidence": 0.9,
+    "source_document": "METTL14.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "c59243488438",
+    "subject": "METTL14",
+    "predicate": "enhances",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "By bringing enhancers into proximity with SASP gene promoters bearing NF-κB binding sites, METTL14 potentiates NF-κB-driven transcription, explaining why METTL14 depletion lowers SASP even when global m6A catalysis is partly preserved.",
+      "zh-TW": "藉由將 enhancer 帶近帶有 NF-κB 結合位點的 SASP 基因啟動子，METTL14 強化 NF-κB 驅動的轉錄，這也解釋了為何在整體 m6A 催化部分保留的情況下，耗竭 METTL14 仍會降低 SASP。"
+    },
+    "confidence": 0.85,
+    "source_document": "METTL14.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "d8a285670ae9",
+    "subject": "METTL14",
+    "predicate": "is_associated_with",
+    "object": "Inflammaging",
+    "context": {
+      "en-US": "Because m6A writers integrate metabolic state (SAM availability) with senescence signalling, epitranscriptomic blockade of METTL14/METTL3 is proposed as a senomorphic strategy to reduce SASP-associated inflammaging and fibrosis.",
+      "zh-TW": "由於 m6A writer 會整合代謝狀態（SAM 可用性）與衰老訊號，抑制 METTL14/METTL3 的表觀轉錄組策略被提出作為降低 SASP 相關 inflammaging 與纖維化的 senomorphic 手段。"
+    },
+    "confidence": 0.8,
+    "source_document": "METTL14.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "b77436814b6c",
+    "subject": "MFF",
+    "predicate": "counterbalances",
+    "object": "MFN1",
+    "context": {
+      "en-US": "MFF-driven fission activity is counterbalanced by fusion mediators such as the mitofusins MFN1 and MFN2; the ratio between adaptor-dependent fission and mitofusin-dependent fusion defines mitochondrial network morphology.",
+      "zh-TW": "MFF 驅動的分裂活性由 MFN1、MFN2 等 mitofusin 介導的融合所制衡；接合蛋白依賴的分裂與 mitofusin 依賴的融合之間的比例，決定了粒線體網絡形態。"
+    },
+    "confidence": 0.85,
+    "source_document": "MFF.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "26c98f580338",
+    "subject": "MFN1",
+    "predicate": "promotes",
+    "object": "Mitochondrial Fusion",
+    "context": {
+      "en-US": "MFN1 is a dynamin-related GTPase in the outer mitochondrial membrane that drives fusion: oligomerization of mitofusin GTPase domains tethers two outer membranes, and GTP binding and hydrolysis drive the conformational change that fuses them.",
+      "zh-TW": "MFN1 是位於粒線體外膜的 dynamin 相關 GTP 酶，驅動融合：mitofusin GTP 酶結構域的寡聚化將兩層外膜繫在一起，而 GTP 的結合與水解驅動使其融合的構形變化。"
+    },
+    "confidence": 0.95,
+    "source_document": "MFN1.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "9a9774b5d72e",
+    "subject": "MFN1",
+    "predicate": "is_phosphorylated_by",
+    "object": "ERK",
+    "context": {
+      "en-US": "ERK phosphorylates MFN1 in its HR1 domain, inhibiting mitochondrial fusion and promoting apoptosis - a redox- and stress-sensitive brake on mitofusin activity.",
+      "zh-TW": "ERK 會磷酸化 MFN1 的 HR1 結構域，抑制粒線體融合並促進細胞凋亡，構成對 mitofusin 活性受氧化還原與壓力調控的煞車。"
+    },
+    "confidence": 0.9,
+    "source_document": "MFN1.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "a33cd2d58eb7",
+    "subject": "Glutathione",
+    "predicate": "regulates",
+    "object": "MFN1",
+    "context": {
+      "en-US": "A redox-dependent alternative fusion mechanism has been identified: elevated oxidized glutathione forms disulfide bonds between two HR2-domain cysteines in the intermembrane space, driving MFN oligomerization, and added GSH reverses the oligomers - showing redox signaling directly regulates outer membrane fusion.",
+      "zh-TW": "已發現一種氧化還原依賴的替代融合機制：升高的氧化態穀胱甘肽會在膜間腔中於兩個 HR2 結構域半胱胺酸之間形成雙硫鍵，驅動 MFN 寡聚化，而加入 GSH 則可逆轉寡聚體，顯示氧化還原訊號可直接調控外膜融合。"
+    },
+    "confidence": 0.85,
+    "source_document": "MFN1.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "e9e0031b28b2",
+    "subject": "MHC type II",
+    "predicate": "binds",
+    "object": "CD4",
+    "context": {
+      "en-US": "The alpha2 and beta2 membrane-proximal Ig-like domains of MHC class II form the docking site for the CD4 co-receptor on T helper cells, which is how peptide-MHC II complexes engage CD4+ T cells.",
+      "zh-TW": "MHC 第二類分子的 α2 與 β2 膜近端類免疫球結構域構成輔助受體 CD4 在 T 幫助細胞上的停靠位點，peptide–MHC II 複合體正是藉此接合 CD4+ T 細胞。"
+    },
+    "confidence": 0.95,
+    "source_document": "MHC type II.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "8c2b4c9c2733",
+    "subject": "MHC type II",
+    "predicate": "is_required_for",
+    "object": "Antigen Presentation",
+    "context": {
+      "en-US": "MHC class II is indispensable for antigen presentation: peptides derived from endocytosed exogenous proteins are loaded onto MHC II in acidified endosomal/lysosomal compartments by cathepsins, and the stably loaded complexes then license CD4+ T cell activation - with a non-classical HLA-DM peptide editor in the endosomal MIIC enriching the most stable complexes.",
+      "zh-TW": "MHC 第二類分子對抗原呈現不可或缺：由內吞外來蛋白而來的胜肽，在酸化的內體／溶小體區室中經 cathepsins 加工後負載於 MHC II，穩定負載的複合體再啟動 CD4+ T 細胞活化；其中非典型的 HLA-DM 胜肽編輯者於內體 MIIC 中富集最穩定的複合體。"
+    },
+    "confidence": 0.9,
+    "source_document": "MHC type II.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "8d70df5cfbf0",
+    "subject": "Interferon-gamma",
+    "predicate": "upregulates",
+    "object": "MHC type II",
+    "context": {
+      "en-US": "IFN-gamma upregulates MHC class II on virtually all cell types, letting non-professional APCs such as epithelial, endothelial and fibroblast cells present antigen under inflammatory conditions; exogenous IFN-gamma or IFN-alpha is used to upregulate MHC II on tumor cells and improve immunogenicity.",
+      "zh-TW": "IFN-γ 幾乎在所有細胞型態上都會上調 MHC 第二類分子，使上皮、內皮與纖維母細胞等非專業 APC 在發炎條件下也能呈現抗原；外加 IFN-γ 或 IFN-α 則被用於上調腫瘤細胞的 MHC II 並提升其免疫原性。"
+    },
+    "confidence": 0.9,
+    "source_document": "MHC type II.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "1624bebb95d8",
+    "subject": "TFEB",
+    "predicate": "regulates",
+    "object": "MHC type II",
+    "context": {
+      "en-US": "TFEB activation during dendritic cell maturation increases phagosomal acidification, protein degradation and MHC class II-dependent antigen presentation, a process critical for initiating the T cell response to pathogen.",
+      "zh-TW": "在樹突細胞成熟過程中 TFEB 活化會增加吞噬體酸化、蛋白質降解與 MHC 第二類分子依賴的抗原呈現，此過程對啟動針對病原的 T 細胞反應至關重要。"
+    },
+    "confidence": 0.85,
+    "source_document": "MHC type II.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "cc35590e07b5",
+    "subject": "MID49",
+    "predicate": "recruits",
+    "object": "DRP1",
+    "context": {
+      "en-US": "MID49 (MIEF2) is an outer mitochondrial membrane adaptor that, with MID51, MFF and FIS1, tethers DRP1 to the mitochondrial surface and facilitates DRP1 oligomerization and GTPase-dependent membrane constriction.",
+      "zh-TW": "MID49（MIEF2）是粒線體外膜的接合蛋白，與 MID51、MFF、FIS1 一同將 DRP1 繫於粒線體表面，並促進 DRP1 寡聚化與 GTP 酶依賴的膜收縮。"
+    },
+    "confidence": 0.95,
+    "source_document": "MID49.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "3246493e23b7",
+    "subject": "MID49",
+    "predicate": "promotes",
+    "object": "Mitochondrial Fission",
+    "context": {
+      "en-US": "MID49 regulates fission in a bidirectional, dose-dependent way: low MID49 levels enhance fission by allowing efficient DRP1 recruitment, whereas overexpression paradoxically elongates mitochondria by sequestering inactive DRP1 in a non-productive complex.",
+      "zh-TW": "MID49 以雙向、劑量依賴的方式調控分裂：MID49 濃度低時可促進 DRP1 有效招募而增強分裂；過量表現反而會以非生產性複合體困住失活的 DRP1，使粒線體延長。"
+    },
+    "confidence": 0.9,
+    "source_document": "MID49.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "3d3456b0a301",
+    "subject": "MID49",
+    "predicate": "is_associated_with",
+    "object": "Pulmonary Arterial Hypertension",
+    "context": {
+      "en-US": "Epigenetic dysregulation of MID49 (and MID51) has been implicated in pulmonary arterial hypertension, where aberrant expression disrupts the fission-fusion balance and contributes to mitochondrial dysfunction in pulmonary vascular cells.",
+      "zh-TW": "MID49（與 MID51）的表觀遺傳失調與肺動脈高血壓有關，異常表現會破壞分裂－融合平衡，並促成肺血管細胞的粒線體功能失調。"
+    },
+    "confidence": 0.8,
+    "source_document": "MID49.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "5cabcc17ee1a",
+    "subject": "MID49",
+    "predicate": "is_associated_with",
+    "object": "Mitophagy",
+    "context": {
+      "en-US": "By regulating organelle number and distribution through fission, MID49 supports mitochondrial quality control, including segregation of damaged portions for mitophagy and the partitioning required during cell division.",
+      "zh-TW": "MID49 透過分裂調節胞器的數量與分布，因而支持粒線體品質管制，包括分離受損部分以進行 mitophagy，以及細胞分裂時所需的粒線體分配。"
+    },
+    "confidence": 0.8,
+    "source_document": "MID49.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "eebf8e128bb3",
+    "subject": "MID51",
+    "predicate": "recruits",
+    "object": "DRP1",
+    "context": {
+      "en-US": "MID51 (MIEF1) is an outer mitochondrial membrane protein that recruits DRP1 to the mitochondrial surface and participates in fission complex assembly, functioning both as a facilitator and a modulator of DRP1-mediated fission.",
+      "zh-TW": "MID51（MIEF1）是粒線體外膜蛋白，會將 DRP1 招募到粒線體表面並參與分裂複合體的組裝，同時作為 DRP1 媒介分裂的促進者與調節者。"
+    },
+    "confidence": 0.95,
+    "source_document": "MID51.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "be89c8b2015e",
+    "subject": "MID51",
+    "predicate": "inhibits",
+    "object": "MFF",
+    "context": {
+      "en-US": "MID51 uniquely suppresses the enhancement of DRP1 GTPase activity normally stimulated by MFF, providing an additional layer of regulation over fission rate.",
+      "zh-TW": "MID51 獨特地抑制通常由 MFF 刺激而增強的 DRP1 GTP 酶活性，為分裂速率提供了額外一層的調控。"
+    },
+    "confidence": 0.85,
+    "source_document": "MID51.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "190cb741ffc3",
+    "subject": "MID51",
+    "predicate": "is_a_counterpart_to",
+    "object": "MID49",
+    "context": {
+      "en-US": "MID51 is structurally and functionally parallel to MID49 but has distinct regulatory properties - notably an ADP cofactor requirement that links its activity to cellular metabolic state, whereas MID49 shows dose-dependent bidirectional effects instead.",
+      "zh-TW": "MID51 在結構與功能上與 MID49 平行，但具備不同的調控特性——特別是需要 ADP 共同因子，使其活性與細胞代謝狀態相連；而 MID49 則呈現劑量依賴的雙向效應。"
+    },
+    "confidence": 0.85,
+    "source_document": "MID51.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "002683c85dfd",
+    "subject": "MJ33",
+    "predicate": "inhibits",
+    "object": "PRDX6",
+    "context": {
+      "en-US": "MJ33 is a selective inhibitor of the acidic calcium-independent phospholipase A2 (iPLA2) activity of peroxiredoxin 6, the direct molecular target of the senomorphic apigenin; inhibiting PRDX6 iPLA2 is sufficient to produce a senomorphic effect.",
+      "zh-TW": "MJ33 是過氧化還原蛋白 6（PRDX6）酸性鈣非依賴型磷脂酶 A2（iPLA2）活性的選擇性抑制劑，也是 senomorphic 化合物 apigenin 的直接分子標的；抑制 PRDX6 的 iPLA2 即足以產生 senomorphic 效應。"
+    },
+    "confidence": 0.95,
+    "source_document": "MJ33.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "69009ad33887",
+    "subject": "MJ33",
+    "predicate": "suppresses",
+    "object": "SASP",
+    "context": {
+      "en-US": "MJ33 concentration-dependently lowers expression of canonical SASP factors in senescent cells, validating apigenin's mechanism: PRDX6 iPLA2 inhibition leads to SASP suppression.",
+      "zh-TW": "MJ33 以濃度依賴方式降低 senescent cell 中典型 SASP 因子的表現，驗證了 apigenin 的機制：抑制 PRDX6 的 iPLA2 會導致 SASP 受到抑制。"
+    },
+    "confidence": 0.95,
+    "source_document": "MJ33.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "2615fd24f8db",
+    "subject": "MJ33",
+    "predicate": "inhibits",
+    "object": "Akt",
+    "context": {
+      "en-US": "At the proteome level, MJ33 significantly inhibits the PI3K/Akt signalling pathway, providing a downstream readout of the PRDX6 iPLA2 blockade and a mechanistic link from PRDX6 inhibition to reduced SASP output.",
+      "zh-TW": "在蛋白質體層次，MJ33 會顯著抑制 PI3K/Akt 訊號傳遞路徑，作為 PRDX6 iPLA2 阻斷的下游讀值，並連結 PRDX6 抑制與 SASP 輸出減少的機制。"
+    },
+    "confidence": 0.85,
+    "source_document": "MJ33.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "492ac0ef2a1f",
+    "subject": "MLL1",
+    "predicate": "is_a_type_of",
+    "object": "Histone Methyltransferase",
+    "context": {
+      "en-US": "MLL1, also known as KMT2A or mixed-lineage leukemia 1, is a histone-lysine N-methyltransferase whose catalytic SET domain transfers methyl groups from SAM to histone H3 lysine 4. It acts in multiprotein complexes (WDR5, RBBP5, ASH2L, DPY30) that are required for full catalytic activity.",
+      "zh-TW": "MLL1 又稱 KMT2A 或 mixed-lineage leukemia 1，是一個組蛋白離胺酸 N-甲基轉移酶，其催化性的 SET 結構域將 SAM 的甲基轉移到組蛋白 H3 的離胺酸 4 上。它以多蛋白複合體（WDR5、RBBP5、ASH2L、DPY30）形式作用，這些複合體對完整的催化活性是必要的。"
+    },
+    "confidence": 0.95,
+    "source_document": "MLL1.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "4cdd8943024e",
+    "subject": "MLL1",
+    "predicate": "produces",
+    "object": "H3K4me3",
+    "context": {
+      "en-US": "MLL1 deposits the activating trimethylation mark H3K4me3 at promoters of actively transcribed genes, a hallmark of active transcription. In senescent cells MLL1 sustains the active arm of the H3K4me3/H3K27me3 balance that characterises the senescent enhancer landscape, although the H3K4me3 loss on SASP loci after MLL1 depletion is only moderate.",
+      "zh-TW": "MLL1 在活躍轉錄基因的啟動子沉積活化性的三甲基化標記 H3K4me3，這是轉錄活躍的標誌。在衰老細胞中，MLL1 維持 H3K4me3/H3K27me3 平衡中的活性臂，而此平衡正是衰老細胞增強子圖譜的特徵；不過 MLL1 耗竭後 SASP 位點上的 H3K4me3 流失僅屬中等程度。"
+    },
+    "confidence": 0.95,
+    "source_document": "MLL1.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "16865bb88638",
+    "subject": "MLL1",
+    "predicate": "is_required_for",
+    "object": "Hematopoiesis",
+    "context": {
+      "en-US": "MLL1 is a master regulator of HOX gene expression during development and hematopoiesis. It maintains H3K4me3 at promoters of housekeeping and developmental genes, establishing bivalent and active promoter states during differentiation; loss of MLL1 therefore blocks normal blood cell development.",
+      "zh-TW": "MLL1 在發育與造血過程中是 HOX 基因表現的主控因子。它維持管家基因與發育相關基因啟動子上的 H3K4me3，在分化過程中建立雙價與活跃的啟動子狀態；因此 MLL1 缺失會阻斷正常的血細胞發育。"
+    },
+    "confidence": 0.9,
+    "source_document": "MLL1.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "18d4659ae11c",
+    "subject": "MLL1",
+    "predicate": "suppresses",
+    "object": "SASP",
+    "context": {
+      "en-US": "Depleting or inhibiting MLL1 decreases SASP expression without releasing the senescence growth arrest. The reduction in H3K4me3 at SASP loci is only moderate and does not track the large drop in SASP transcription; instead MLL1 loss prevents activation of the DNA damage response that itself drives SASP. This makes MLL1 a senomorphic rather than senolytic target.",
+      "zh-TW": "MLL1 的耗竭或抑制會降低 SASP 的表現，卻不會解除衰老的生長停滯。SASP 位點上 H3K4me3 的減少幅度不大，與 SASP 轉錄的大幅下降並不相稱；真正原因是 MLL1 缺失阻斷了本身驅動 SASP 的 DNA 損傷反應的活化。這使 MLL1 成為 senomorphic 而非 senolytic 的作用標的。"
+    },
+    "confidence": 0.9,
+    "source_document": "MLL1.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "f4c1be731527",
+    "subject": "EZH2",
+    "predicate": "is_opposed_by",
+    "object": "MLL1",
+    "context": {
+      "en-US": "In senescence, MLL1 and EZH2 act as opposing arms of the enhancer chromatin balance: MLL1 deposits activating H3K4me3 while EZH2 deposits repressive H3K27me3. EZH2 inhibition derepresses SASP by removing H3K27me3 from SASP loci, whereas MLL1 inhibition suppresses SASP — opposite directions for two related epigenetic SASP modulators.",
+      "zh-TW": "在衰老中，MLL1 與 EZH2 是增強子染色質平衡的兩條對立臂：MLL1 沉積活性的 H3K4me3，而 EZH2 沉積抑制性的 H3K27me3。EZH2 抑制會移除 SASP 位點上的 H3K27me3 而解除對 SASP 的抑制，但 MLL1 抑制卻會抑制 SASP —— 兩個相關的表觀遺傳 SASP 調節者方向相反。"
+    },
+    "confidence": 0.85,
+    "source_document": "MLL1.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "0d068d4baba6",
+    "subject": "DNA Damage",
+    "predicate": "activates",
+    "object": "SASP",
+    "context": {
+      "en-US": "The DNA damage response (DDR) is itself a driver of the Senescence-Associated Secretory Phenotype. MLL1 supports DDR activation upstream of DDR-to-SASP signalling, so MLL1 depletion blunts SASP by preventing the damage-signalling step rather than by acting on the SASP promoter itself.",
+      "zh-TW": "DNA 損傷反應（DDR）本身就是衰老相關分泌表型（SASP）的驅動因素。MLL1 在 DDR→SASP 訊號傳遞的上游支持 DDR 的活化，因此 MLL1 耗竭是藉由阻斷損傷訊號傳遞這一步來抑制 SASP，而非直接作用於 SASP 啟動子。"
+    },
+    "confidence": 0.85,
+    "source_document": "MLL1.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "de0c5e34a634",
+    "subject": "MMP-12",
+    "predicate": "is_a_type_of",
+    "object": "Matrix Metalloproteinase",
+    "context": {
+      "en-US": "MMP-12 (matrix metalloproteinase-12, also called macrophage metalloelastase or MME) is a zinc-dependent endopeptidase of the matrix metalloproteinase family, secreted predominantly by tissue macrophages. It is synthesised as an inactive zymogen and activated extracellularly by serine proteases such as plasmin or by other MMPs.",
+      "zh-TW": "MMP-12（基質金屬蛋白酶-12，又稱巨噬細胞金屬彈性蛋白酶或 MME）是基質金屬蛋白酶家族的鋅依賴性內肽酶，主要由組織巨噬細胞分泌。它先以無活性的酶原形式合成，再由胞外的血清蛋白酶（如 plasmin）或其他 MMP 活化。"
+    },
+    "confidence": 0.95,
+    "source_document": "MMP-12.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "8ca922dfff8c",
+    "subject": "MMP-12",
+    "predicate": "degrades",
+    "object": "Elastin",
+    "context": {
+      "en-US": "MMP-12 is the most efficient matrix metalloproteinase for degrading insoluble elastin, the primary structural protein of elastic fibres, and the only MMP that can effectively do so at physiological concentrations. This unique elastinolytic capacity makes it the principal elastase in macrophage-mediated tissue remodelling and underlies its role in emphysema, atherosclerosis and skin ageing.",
+      "zh-TW": "MMP-12 是降解不溶性彈性蛋白（彈性纖維的主要結構蛋白）效率最高的基質金屬蛋白酶，也是唯一能在生理濃度下有效降解它的 MMP。這項獨特的彈性蛋白水解能力使它成為巨噬細胞介導組織重塑中的主要彈性蛋白酶，也是它在肺氣腫、動脈粥狀硬化與皮膚老化中作用的基礎。"
+    },
+    "confidence": 0.95,
+    "source_document": "MMP-12.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "fb04c40be109",
+    "subject": "MMP-12",
+    "predicate": "is_produced_by",
+    "object": "Macrophages",
+    "context": {
+      "en-US": "MMP-12 is secreted predominantly by tissue macrophages, particularly M2-polarised (alternatively activated) macrophages involved in tissue remodelling and inflammation resolution. Unlike most MMPs it is not expressed by immature monocytes; expression is acquired only upon differentiation into tissue macrophages, and it is also produced by osteoclasts and some tumour cells.",
+      "zh-TW": "MMP-12 主要由組織巨噬細胞分泌，尤其是參與組織重塑與發炎消退的 M2 型（替代活化）巨噬細胞。與大多數 MMP 不同，成熟的單核細胞並不表現 MMP-12；只有在分化為組織巨噬細胞後才會獲得該表現，破骨細胞與部分腫瘤細胞也可產生。"
+    },
+    "confidence": 0.9,
+    "source_document": "MMP-12.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "27558f302b5f",
+    "subject": "MMP-12",
+    "predicate": "cleaves",
+    "object": "IL-8",
+    "context": {
+      "en-US": "MMP-12 processes and inactivates ELR+ CXC chemokines (CXCL1, CXCL2, CXCL3, CXCL5, IL-8) by cleaving at the critical ELR receptor-binding motif, and generates CCR antagonists from CCL2, CCL7, CCL8 and CCL13. By terminating neutrophil recruitment while dampening monocyte recruitment, MMP-12 acts as a molecular switch that resolves acute inflammation.",
+      "zh-TW": "MMP-12 會在關鍵的 ELR 受體結合序列處切割並失活 ELR+ CXC 趨化因子（CXCL1、CXCL2、CXCL3、CXCL5、IL-8），並由 CCL2、CCL7、CCL8、CCL13 產生 CCR 拮抗劑。藉由終止嗜中性球招募同時抑制單核球招募，MMP-12 成為消退急性發炎的分子開關。"
+    },
+    "confidence": 0.9,
+    "source_document": "MMP-12.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "59d78d881ab1",
+    "subject": "MMP-12",
+    "predicate": "is_inhibited_by",
+    "object": "TIMP1",
+    "context": {
+      "en-US": "Endogenous inhibition of MMP-12 is provided by tissue inhibitors of metalloproteinases, principally TIMP1 and TIMP2. The balance between MMP-12 and TIMP levels determines the net elastinolytic activity in tissues; when MMP-12 activity overwhelms alpha-1 antitrypsin capacity, alveolar elastin is degraded and airspace enlargement develops.",
+      "zh-TW": "MMP-12 的內生性抑制由基質金屬蛋白酶組織抑制劑提供，主要是 TIMP1 與 TIMP2。組織中淨彈性蛋白水解活性取決於 MMP-12 與 TIMP 的平衡；當 MMP-12 活性超越 alpha-1 抗胰蛋白酶的緩衝能力時，肺泡彈性蛋白被降解並出現氣腔擴大。"
+    },
+    "confidence": 0.9,
+    "source_document": "MMP-12.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "8a00c023015a",
+    "subject": "MMP-12",
+    "predicate": "cleaves",
+    "object": "Plasminogen",
+    "context": {
+      "en-US": "MMP-12 cleaves plasminogen to generate angiostatin, an endogenous inhibitor of angiogenesis, and can process collagen XVIII to generate endostatin. This gives MMP-12 a context-dependent dual role: pro-angiogenic through chemokine processing in some tumours, but anti-angiogenic through anti-angiogenic fragment generation in others.",
+      "zh-TW": "MMP-12 切割 plasminogen 以生成 angiostatin（內生性血管新生抑制因子），並可處理 collagen XVIII 以生成 endostatin。這賦予 MMP-12 情境依賴的雙重角色：在某些腫瘤中經由趨化因子加工而促血管新生，但在其他情境中則藉由生成抗血管新生片段而抑制血管新生。"
+    },
+    "confidence": 0.85,
+    "source_document": "MMP-12.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "60a6ed3c1a2d",
+    "subject": "MMP-12",
+    "predicate": "is_activated_by",
+    "object": "Plasmin",
+    "context": {
+      "en-US": "Pro-MMP-12 is activated extracellularly by serine proteases such as plasmin, and also by other MMPs (MMP-3, MMP-7) or by membrane-type MMPs at the cell surface. The relationship with plasmin is reciprocal: plasmin activates pro-MMP-12, while MMP-12 in turn cleaves plasminogen to release angiostatin.",
+      "zh-TW": "Pro-MMP-12 在胞外由血清蛋白酶（如 plasmin）活化，也可由其他 MMP（MMP-3、MMP-7）或細胞表面的膜型 MMP 參與活化。與 plasmin 的關係是雙向的：plasmin 活化 pro-MMP-12，而 MMP-12 反過來切割 plasminogen 以釋放 angiostatin。"
+    },
+    "confidence": 0.9,
+    "source_document": "MMP-12.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "cd89fdb3ce34",
+    "subject": "MMP-12",
+    "predicate": "is_a_component_of",
+    "object": "SASP",
+    "context": {
+      "en-US": "MMP-12 is a recognised SASP protease, secreted by senescent dermal fibroblasts, that degrades elastin and other ECM components and drives the structural deterioration of aged skin. It cooperates with MMP-1, MMP-3 and MMP-9 to amplify ECM breakdown, and by disrupting fibroblast-ECM mechanosignalling propagates the aged phenotype to neighbouring cells via TGF-β downregulation.",
+      "zh-TW": "MMP-12 是公認的 SASP 蛋白酶，由衰老的真皮纖維母細胞分泌，降解彈性蛋白與其他 ECM 成分，造成老化皮膚的結構劣化。它與 MMP-1、MMP-3、MMP-9 協同放大 ECM 分解，並藉由破壞纖維母細胞與 ECM 的機械訊號傳遞，經由 TGF-β 下調將老化表型傳播給鄰近細胞。"
+    },
+    "confidence": 0.9,
+    "source_document": "MMP-12.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "e508d0898199",
+    "subject": "MMP-12",
+    "predicate": "drives",
+    "object": "Emphysema",
+    "context": {
+      "en-US": "MMP-12 plays a central role in cigarette smoke-induced emphysema: MMP-12-deficient mice are protected from emphysema after chronic smoke exposure. MMP-12 degrades alveolar elastin, disrupting the protease-antiprotease balance and driving airspace enlargement, and MMP12 promoter polymorphisms associate with lung function decline and COPD susceptibility.",
+      "zh-TW": "MMP-12 在香菸菸霧誘發的肺氣腫中扮演核心角色：MMP-12 缺陷小鼠在長期吸菸後受到保護，不會發展出肺氣腫。MMP-12 降解肺泡彈性蛋白，破壞蛋白酶與抗蛋白酶的平衡並造成氣腔擴大；MMP12 啟動子的多型性則與肺功能下降及 COPD 易感性相關。"
+    },
+    "confidence": 0.9,
+    "source_document": "MMP-12.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "bbc51a34f993",
+    "subject": "MMP-12",
+    "predicate": "degrades",
+    "object": "Extracellular Matrix",
+    "context": {
+      "en-US": "Beyond elastin, MMP-12 cleaves a broad range of extracellular matrix substrates including collagen IV, fibronectin, laminin, proteoglycans and type I/III collagen at lower efficiency. Its ECM degradation is central both to physiological wound repair, where it facilitates macrophage migration through matrix barriers, and to pathological tissue destruction.",
+      "zh-TW": "除彈性蛋白外，MMP-12 還能切割廣泛的細胞外基質受質，包括 collagen IV、fibronectin、laminin、蛋白聚醣以及效率較低的 I 型／III 型膠原。其 ECM 降解在生理性的傷口修復（協助巨噬細胞穿越基質屏障）與病理性的組織破壞中都居於核心地位。"
+    },
+    "confidence": 0.9,
+    "source_document": "MMP-12.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "6564f98ae3b1",
+    "subject": "MMP-13",
+    "predicate": "is_a_type_of",
+    "object": "Matrix Metalloproteinase",
+    "context": {
+      "en-US": "MMP-13 (matrix metalloproteinase 13, collagenase-3) is a zinc-dependent endopeptidase of the matrix metalloproteinase family with a strong preference for type II collagen, the principal structural collagen of cartilage. It is secreted as a pro-enzyme and activated extracellularly by other proteases such as MMP-2, MMP-3, MT1-MMP or plasmin.",
+      "zh-TW": "MMP-13（基質金屬蛋白酶 13，collagenase-3）是基質金屬蛋白酶家族的鋅依賴性內肽酶，偏好作用於 II 型膠原，即軟骨的主要結構膠原。它以 pro-enzyme 形式分泌，並由 MMP-2、MMP-3、MT1-MMP 或 plasmin 等其他蛋白酶在胞外活化。"
+    },
+    "confidence": 0.95,
+    "source_document": "MMP-13.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "dc30d0472ded",
+    "subject": "MMP-13",
+    "predicate": "is_a_component_of",
+    "object": "SASP",
+    "context": {
+      "en-US": "MMP-13 is upregulated in senescent chondrocytes and fibroblasts and belongs to the SASP protease module that drives matrix degradation and tissue dysfunction with ageing. Its collagenolytic activity forms part of the ageing-related pathology cluster of the SASP, alongside IL-1α, IL-1β, IL-6, IL-8, CXCL1, CCL2 and TNF.",
+      "zh-TW": "MMP-13 在衰老的軟骨細胞與纖維母細胞中上調，屬於驅動基質降解與老化相關組織功能失調的 SASP 蛋白酶模組。其膠原水解活性構成 SASP 老化相關病理群的一部分，與 IL-1α、IL-1β、IL-6、IL-8、CXCL1、CCL2、TNF 並列。"
+    },
+    "confidence": 0.9,
+    "source_document": "MMP-13.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "6ae194bce8ce",
+    "subject": "MMP-13",
+    "predicate": "drives",
+    "object": "Osteoarthritis",
+    "context": {
+      "en-US": "MMP-13 is a central driver of cartilage destruction in osteoarthritis, degrading type II collagen as well as types I and III, aggrecan, fibronectin and other ECM components. It is a major target for disease-modifying osteoarthritis drugs, and its induction by IL-1β, TNFα and IL-6 via NF-κB, AP-1 and p38 MAPK/ERK links it to the pro-inflammatory SASP programme.",
+      "zh-TW": "MMP-13 是骨關節炎中軟骨破壞的核心驅動因素，可降解 II 型以及 I、III 型膠原、聚集蛋白聚醣、fibronectin 與其他 ECM 成分。它是修飾骨關節炎疾病的重要藥物標的；而其經由 NF-κB、AP-1 與 p38 MAPK/ERK 受 IL-1β、TNFα、IL-6 誘導的特性，又將它與促發炎的 SASP 計畫連結起來。"
+    },
+    "confidence": 0.9,
+    "source_document": "MMP-13.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "4193a300746d",
+    "subject": "MMP-13",
+    "predicate": "is_inhibited_by",
+    "object": "TIMP1",
+    "context": {
+      "en-US": "MMP-13 activity is restrained by tissue inhibitors of metalloproteinases, notably TIMP1 and TIMP2. Because its transcription is strongly driven by pro-inflammatory cytokines (IL-1β, TNFα, IL-6) through NF-κB, AP-1 and p38 MAPK/ERK signalling, MMP-13 sits at the intersection of inflammatory signalling and ECM destruction, overlapping with pro-inflammatory SASP regulation.",
+      "zh-TW": "MMP-13 的活性受基質金屬蛋白酶組織抑制劑（主要為 TIMP1 與 TIMP2）限制。由於其轉錄受到促發炎細胞激素（IL-1β、TNFα、IL-6）經 NF-κB、AP-1 與 p38 MAPK/ERK 訊號強烈驅動，MMP-13 正處於發炎訊號傳遞與 ECM 破壞的交會點，與促發炎的 SASP 調控重疊。"
+    },
+    "confidence": 0.85,
+    "source_document": "MMP-13.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "5bd5578748db",
+    "subject": "MMP-2",
+    "predicate": "is_a_component_of",
+    "object": "SASP",
+    "context": {
+      "en-US": "MMP-2 (gelatinase A) was among the first matrix-degrading enzymes catalogued in the senescence secretome. It is a secreted component of the SASP that remodels the extracellular matrix around senescent cells, releasing matrix-sequestered growth factors and by degrading basement membranes and activating latent TGF-β, amplifying paracrine senescence and fibrogenic signalling.",
+      "zh-TW": "MMP-2（gelatinase A）是最早被列入衰老分泌組的基質降解酶之一。它是 SASP 的分泌成分，會重塑衰老細胞周圍的細胞外基質，釋放被基質囚禁的生長因子；並藉由降解基底膜與活化潛伏的 TGF-β，放大旁分泌衰老與促纖維化訊號。"
+    },
+    "confidence": 0.9,
+    "source_document": "MMP-2.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "99c2297dd38b",
+    "subject": "MMP-2",
+    "predicate": "is_inhibited_by",
+    "object": "TIMP3",
+    "context": {
+      "en-US": "MMP-2 is activated primarily at the cell surface, where membrane type 1-MMP organised by TIMP2 converts pro-MMP-2 to the active 62-kDa species, while TIMP3 and other tissue inhibitors of metalloproteinases negatively regulate it. Its three fibronectin type II repeats allow it to cleave denatured collagens and native collagen types I, IV, V, VII and XI, plus laminin, fibronectin and elastin.",
+      "zh-TW": "MMP-2 主要在細胞表面被活化，由 TIMP2 組織的膜型 1-MMP 將 pro-MMP-2 轉為具活性的 62 kDa 形式；TIMP3 及其他基質金屬蛋白酶組織抑制劑則負向調節它。其三個 fibronectin type II 重複序列使它能切割變性膠原與天然的 I、IV、V、VII、XI 型膠原，以及 laminin、fibronectin 與彈性蛋白。"
+    },
+    "confidence": 0.85,
+    "source_document": "MMP-2.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "c8d750328c82",
+    "subject": "MMP-2",
+    "predicate": "is_a_marker_of",
+    "object": "Cardiovascular Disease",
+    "context": {
+      "en-US": "Plasma MMP-2 serves as a senescence-burden and cardiovascular disease biomarker, rising in vascular ageing, atherosclerosis and heart failure. MMP-2 also belongs to a small panel of mortality-associated SASP factors — with GDF15, RAGE, VEGF and PARC/CCL18 — whose circulating levels predict all-cause mortality independently of chronological age.",
+      "zh-TW": "血漿 MMP-2 可作為衰老負荷與心血管疾病的生物標記，在血管老化、動脈粥狀硬化與心衰竭中上升。MMP-2 同時屬於一組與死亡率相關的 SASP 因子——連同 GDF15、RAGE、VEGF 與 PARC/CCL18——其循環濃度可獨立於實際年齡預測全因死亡。"
+    },
+    "confidence": 0.9,
+    "source_document": "MMP-2.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "99da9174b2a8",
+    "subject": "MMP-2",
+    "predicate": "cooperates_with",
+    "object": "MMP-9",
+    "context": {
+      "en-US": "MMP-2 cooperates with MMP-9, MMP-3 and MMP-12 to remodel the extracellular matrix around senescent cells, creating a niche that favours metastasis, fibrosis and tissue ageing. Because broad-spectrum synthetic MMP inhibitors failed clinically for poor specificity, selective gelatinase modulation is now explored as a senomorphic strategy.",
+      "zh-TW": "MMP-2 與 MMP-9、MMP-3、MMP-12 協同重塑衰老細胞周圍的細胞外基質，創造有利於轉移、纖維化與組織老化的微環境。由於廣效型合成 MMP 抑制劑因選擇性差而在臨床失敗，目前正探索以選擇性明膠酶調節作為 senomorphic 策略。"
+    },
+    "confidence": 0.85,
+    "source_document": "MMP-2.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "cb559458aa18",
+    "subject": "MMP-3",
+    "predicate": "induces",
+    "object": "Epithelial-to-mesenchymal transition",
+    "context": {
+      "en-US": "A landmark finding is that MMP-3 (stromelysin-1) can itself induce EMT in mammary epithelial cells by cleaving E-cadherin and triggering mesenchymal reprogramming. Because senescent fibroblasts and epithelial cells secrete MMP-3 as part of the SASP, senescent-cell-derived MMP-3 fosters a pre-neoplastic, invasive phenotype in neighbouring epithelium.",
+      "zh-TW": "一項里程碑式的發現是，MMP-3（stromelysin-1）本身就能藉由切割 E-cadherin 觸發間質重編程，誘導乳腺上皮細胞發生 EMT。由於衰老的纖維母細胞與上皮細胞會將 MMP-3 作為 SASP 的一部分分泌，來自衰老細胞的 MMP-3 會在鄰近上皮中促成癌前、侵襲性的表型。"
+    },
+    "confidence": 0.9,
+    "source_document": "MMP-3.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "ece96ddc5064",
+    "subject": "MMP-3",
+    "predicate": "is_a_component_of",
+    "object": "SASP",
+    "context": {
+      "en-US": "MMP-3 is secreted by senescent fibroblasts and epithelial cells as part of the pro-inflammatory, matrix-remodelling SASP. By activating collagenases and releasing matrix-bound growth factors it reshapes the extracellular matrix and potentiates paracrine senescence, contributing to the detrimental, pro-tumorigenic arm of chronic senescence in the tumor microenvironment.",
+      "zh-TW": "MMP-3 由衰老的纖維母細胞與上皮細胞分泌，是促發炎、重塑基質的 SASP 的一部分。藉由活化膠原蛋白酶並釋放與基質結合的生長因子，MMP-3 重塑細胞外基質並增強旁分泌衰老，貢獻於腫瘤微環境中慢性衰老的危害性、促腫瘤那一臂。"
+    },
+    "confidence": 0.9,
+    "source_document": "MMP-3.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "efa60e4b04c4",
+    "subject": "MMP-3",
+    "predicate": "is_inhibited_by",
+    "object": "TIMP3",
+    "context": {
+      "en-US": "MMP-3 expression is transcriptionally driven by the SASP transcription factors NF-κB and AP-1 and restrained by tissue inhibitors of metalloproteinases, notably TIMP3. A common functional polymorphism (rs3025058, 5A/6A) modulates MMP-3 promoter activity and associates with arthritis and cancer risk.",
+      "zh-TW": "MMP-3 的表現由 SASP 轉錄因子 NF-κB 與 AP-1 驅動，並受基質金屬蛋白酶組織抑制劑（尤其是 TIMP3）約束。一個常見的功能性多型性（rs3025058，5A/6A）調節 MMP-3 啟動子活性，並與關節炎及癌症風險相關。"
+    },
+    "confidence": 0.85,
+    "source_document": "MMP-3.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "0d4172664679",
+    "subject": "MMP-3",
+    "predicate": "activates",
+    "object": "MMP-9",
+    "context": {
+      "en-US": "MMP-3 has an unusually broad substrate range and, crucially, proteolytically activates latent pro-MMPs including pro-MMP-1, -7, -8, -9 and -13, positioning MMP-3 as an upstream trigger of collagenolysis cascades. It also degrades collagen types III, IV, V, IX and X, fibronectin, laminin, proteoglycans and elastin.",
+      "zh-TW": "MMP-3 的受質範圍異常廣泛，關鍵在於它能蛋白水解地活化潛伏的 pro-MMP，包括 pro-MMP-1、-7、-8、-9 與 -13，使 MMP-3 成為膠原分解級聯反應的上游觸發點。它也降解 III、IV、V、IX、X 型膠原、fibronectin、laminin、蛋白聚醣與彈性蛋白。"
+    },
+    "confidence": 0.85,
+    "source_document": "MMP-3.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "6cdd0c48955c",
+    "subject": "MMP-9",
+    "predicate": "degrades",
+    "object": "Extracellular Matrix",
+    "context": {
+      "en-US": "MMP-9 (gelatinase B) is a zinc-dependent endopeptidase that degrades extracellular matrix components including collagen IV, gelatin and elastin. Degrading basement membrane barriers is a key step in invasion and metastasis, and elevated MMP-9 is associated with chronic inflammation, cardiovascular disease and cancer progression.",
+      "zh-TW": "MMP-9（gelatinase B）是鋅依賴性內肽酶，降解包括 collagen IV、明膠與彈性蛋白在內的細胞外基質成分。降解基底膜屏障是侵襲與轉移的關鍵步驟，而 MMP-9 升高與慢性發炎、心血管疾病與癌症進展相關。"
+    },
+    "confidence": 0.9,
+    "source_document": "MMP-9.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "f7928f93c03c",
+    "subject": "MMP-9",
+    "predicate": "is_produced_by",
+    "object": "Macrophages",
+    "context": {
+      "en-US": "MMP-9 is secreted by macrophages, neutrophils, endothelial cells and cancer cells, and is stored in neutrophil tertiary granules. In macrophages MMP-9 co-localises with MMP-12 in elastic tissue and both are upregulated in inflammatory lung disease, contributing to matrix destruction.",
+      "zh-TW": "MMP-9 由巨噬細胞、嗜中性球、內皮細胞與癌細胞分泌，並儲存在嗜中性球的三級顆粒中。在巨噬細胞中，MMP-9 與 MMP-12 在彈性組織中共定位，兩者在發炎性肺病中皆會上調，共同造成基質破壞。"
+    },
+    "confidence": 0.85,
+    "source_document": "MMP-9.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "8c7db608deb7",
+    "subject": "MMP-9",
+    "predicate": "is_inhibited_by",
+    "object": "TIMP1",
+    "context": {
+      "en-US": "MMP-9 activity is inhibited by TIMP1 and other tissue inhibitors of metalloproteinases. It is produced as a zymogen (pro-MMP-9) and activated by plasmin and other proteases, so control of MMP-9 output depends on both transcriptional induction and post-translational activation.",
+      "zh-TW": "MMP-9 的活性受 TIMP1 及其他基質金屬蛋白酶組織抑制劑抑制。它先以酶原（pro-MMP-9）形式產生，再由 plasmin 與其他蛋白酶活化，因此 MMP-9 輸量的調控同時取決於轉錄誘導與轉譯後活化。"
+    },
+    "confidence": 0.9,
+    "source_document": "MMP-9.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "43e9d51500c6",
+    "subject": "MMP-9",
+    "predicate": "promotes",
+    "object": "Metastasis",
+    "context": {
+      "en-US": "MMP-9 facilitates invasion and metastasis by degrading basement membrane barriers, and plays key roles in angiogenesis, inflammation and wound healing. It contributes to plaque instability in cardiovascular disease and to cancer progression, making it a long-standing therapeutic and prognostic target.",
+      "zh-TW": "MMP-9 藉由降解基底膜屏障促進侵襲與轉移，並在血管新生、發炎與傷口癒合中扮演關鍵角色。它促成心血管疾病中的斑塊不穩定與癌症進展，因此一直是治療與預後的目標。"
+    },
+    "confidence": 0.9,
+    "source_document": "MMP-9.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "ba6ca68c278c",
+    "subject": "MPC",
+    "predicate": "transports",
+    "object": "Pyruvate",
+    "context": {
+      "en-US": "The mitochondrial pyruvate carrier (MPC) is a heterodimeric MPC1/MPC2 complex in the inner mitochondrial membrane that imports cytosolic pyruvate, derived from glycolysis, into the matrix. There pyruvate is converted to acetyl-CoA by the pyruvate dehydrogenase complex, so MPC links glycolysis to mitochondrial oxidative metabolism and is the rate-limiting entry point for glucose-derived carbon into the TCA cycle.",
+      "zh-TW": "粒線體丙酮酸載體（MPC）是由 MPC1/MPC2 組成的異二聚體複合體，位於粒線體內膜，將源自糖解作用的細胞質丙酮酸輸入基質。在基質中，丙酮酸由丙酮酸去氫酶複合體轉為乙醯輔酶 A，因此 MPC 連結了糖解作用與粒線體氧化代謝，是葡萄糖來源碳進入 TCA 循環的限速入口。"
+    },
+    "confidence": 0.95,
+    "source_document": "MPC.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "fa4972ea6fae",
+    "subject": "MPC",
+    "predicate": "is_inhibited_by",
+    "object": "UK5099",
+    "context": {
+      "en-US": "Pharmacological inhibition of the mitochondrial pyruvate carrier with UK5099 reduces TCA cycle intermediates and increases lactate levels, consistent with impaired mitochondrial pyruvate import. UK5099-mediated MPC inhibition suppresses SASP gene expression and secretion without affecting cell cycle arrest, p16/p21 levels, EdU incorporation or DNA damage foci, and CRISPR-Cas9 deletion of MPC1 likewise reduces IL6 and IL8.",
+      "zh-TW": "以 UK5099 藥理抑制粒線體丙酮酸載體會減少 TCA 循環中間產物並提高乳酸濃度，與粒線體丙酮酸輸入受損一致。UK5099 對 MPC 的抑制可抑制 SASP 基因的表現與分泌，卻不影響細胞週期停滯、p16/p21 水準、EdU 摻入或 DNA 損傷焦點；以 CRISPR-Cas9 刪除 MPC1 同樣會降低 IL6 與 IL8。"
+    },
+    "confidence": 0.9,
+    "source_document": "MPC.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "dfa01100981b",
+    "subject": "MPC",
+    "predicate": "is_upregulated_in",
+    "object": "Senescence",
+    "context": {
+      "en-US": "Expression of MPC1 and MPC2 is increased across multiple senescence models, including irradiation-induced, doxorubicin-induced and replicative senescence. Because MPC-dependent pyruvate import feeds the TCA cycle and the citrate-acetyl-CoA axis (SLC25A1, ACLY) that supplies histone acetylation at SASP loci, MPC sits upstream of the SASP programme.",
+      "zh-TW": "在多種衰老模型中（包括輻射誘發、多柔比星誘發與複製性衰老），MPC1 與 MPC2 的表現皆上升。由於 MPC 依賴的丙酮酸輸入供養 TCA 循環，以及供應 SASP 位點組蛋白乙醯化的檸檬酸—乙醯輔酶 A 軸（SLC25A1、ACLY），MPC 處於 SASP 計畫的上游。"
+    },
+    "confidence": 0.9,
+    "source_document": "MPC.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "dcef9bbf3fa2",
+    "subject": "MPC",
+    "predicate": "promotes",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "MPC-dependent pyruvate import supplies a pro-death mitochondrial arm of necroptosis: RIPK3 activates the pyruvate dehydrogenase complex to raise aerobic respiration and mitochondrial ROS, which feed back on the necrosome. Blocking mitochondrial pyruvate uptake with UK5099 or by pyruvate depletion therefore suppresses TNF-induced necroptosis.",
+      "zh-TW": "MPC 依賴的丙酮酸輸入為壞死性凋亡提供促死的粒線體一臂：RIPK3 活化丙酮酸去氫酶複合體以提高有氧呼吸與粒線體 ROS，後者再回饋到 necrosome。因此以 UK5099 或丙酮酸耗竭阻斷粒線體丙酮酸攝入，可抑制 TNF 誘發的壞死性凋亡。"
+    },
+    "confidence": 0.9,
+    "source_document": "MPC.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "bae88316c200",
+    "subject": "MPC",
+    "predicate": "is_a_component_of",
+    "object": "SASP",
+    "context": {
+      "en-US": "MPC is an upstream node of the citrate-acetyl-CoA axis that supports SASP transcription: MPC-dependent pyruvate import feeds the TCA cycle, which generates the citrate exported by SLC25A1 and converted to acetyl-CoA by ACLY. Inhibition at MPC, SLC25A1 or ACLY suppresses histone acetylation at SASP loci and the SASP programme while sparing senescence-associated cell cycle arrest.",
+      "zh-TW": "MPC 是支撐 SASP 轉錄的檸檬酸—乙醯輔酶 A 軸的上游節點：MPC 依賴的丙酮酸輸入供養 TCA 循環，由其生成 SLC25A1 輸出、ACLY 轉為乙醯輔酶 A 的檸檬酸。在 MPC、SLC25A1 或 ACLY 任一節點抑制，都會抑制 SASP 位點的組蛋白乙醯化與 SASP 計畫，同時保留衰老相關的細胞週期停滯。"
+    },
+    "confidence": 0.85,
+    "source_document": "MPC.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "67fea60ff091",
+    "subject": "MPEG-PCL",
+    "predicate": "enhances",
+    "object": "Fisetin",
+    "context": {
+      "en-US": "Monomethyl poly(ethylene glycol)-poly(ε-caprolactone) (MPEG-PCL) is an amphiphilic block copolymer that self-assembles into ~22 nm polymeric micelles with ~98.5% encapsulation efficiency, making it a carrier for poorly soluble hydrophobic drugs such as the senolytic fisetin. Fisetin-loaded MPEG-PCL micelles show enhanced cytotoxicity against CT26 colon and SKOV3 ovarian cancer cells and prolonged survival in mice.",
+      "zh-TW": "MPEG-PCL（單甲基聚乙二醇-聚 ε-己內酯）是兩親性嵌段共聚物，可自組裝成約 22 nm 的聚合物微膠粒，封裝效率約 98.5%，因此適合作為 fisetin 這類難溶疏水性藥物的載體。裝載 fisetin 的 MPEG-PCL 微膠粒對 CT26 大腸癌與 SKOV3 卵巢癌細胞呈現更強的細胞毒性，並在小鼠中延長存活時間。"
+    },
+    "confidence": 0.9,
+    "source_document": "MPEG-PCL.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "1e69025efee4",
+    "subject": "MPEG-PCL",
+    "predicate": "improves",
+    "object": "Bioavailability",
+    "context": {
+      "en-US": "Nanoformulation of fisetin in MPEG-PCL polymeric micelles addresses the low bioavailability of the parent compound: encapsulation is near quantitative, tumor growth inhibition is 1.3-fold stronger than free fisetin, and survival is prolonged by 17 days in murine models. The same strategy generalises to other hydrophobic phytochemicals such as honokiol and magnolol.",
+      "zh-TW": "將 fisetin 以 MPEG-PCL 聚合物微膠粒做奈米製劑化，可解決母體化合物生體利用率低的問題：封裝率接近完全，腫瘤生長抑制比游離 fisetin 強 1.3 倍，並在小鼠模型中延長存活 17 天。相同策略也可推廣至 honokiol 與 magnolol 等其他疏水性植物化合物。"
+    },
+    "confidence": 0.85,
+    "source_document": "MPEG-PCL.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "cd090ecc49f4",
+    "subject": "MTFP1",
+    "predicate": "is_required_for",
+    "object": "Mitochondrial Fission",
+    "context": {
+      "en-US": "MTFP1 (MTP18) is an inner mitochondrial membrane protein required for the completion of mitochondrial fission after DRP1-mediated outer membrane constriction. Unlike the outer membrane fission machinery (DRP1, MFF, MID49, MID51), MTFP1 operates at the inner membrane level, coordinating inner membrane remodelling with the outer membrane machinery to ensure complete organelle division.",
+      "zh-TW": "MTFP1（MTP18）是粒線體內膜蛋白，在 DRP1 介導的外膜收縮之後，為粒線體分裂的完成所必需。不同於外膜的分裂機制（DRP1、MFF、MID49、MID51），MTFP1 在內膜層面作用，協調內膜重塑與外膜機制，以確保胞器完全分裂。"
+    },
+    "confidence": 0.9,
+    "source_document": "MTFP1.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "172b67b71441",
+    "subject": "MTFP1",
+    "predicate": "cooperates_with",
+    "object": "DRP1",
+    "context": {
+      "en-US": "MTFP1 operates at the inner mitochondrial membrane and must be coordinated with the outer membrane GTPase DRP1 to complete division. MTFP1 is therefore not a redundant inner membrane protein: its loss destabilises the mitochondrial network in cardiomyocytes and impairs proper mitochondrial distribution during cardiac development.",
+      "zh-TW": "MTFP1 在粒線體內膜上作用，必須與外膜 GTP 酶 DRP1 協同才能完成分裂。因此 MTFP1 並非可被取代的內膜蛋白：其缺失會使心肌細胞的粒線體網絡不穩定，並損害心臟發育過程中粒線體的正確分布。"
+    },
+    "confidence": 0.85,
+    "source_document": "MTFP1.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "1119de754487",
+    "subject": "MTFP1",
+    "predicate": "causes",
+    "object": "Cardiomyopathy",
+    "context": {
+      "en-US": "Mutations in MTFP1 cause severe cardiac disease: severe mutations produce fatal dilated cardiomyopathy with neonatal or early childhood death, while milder mutations present as adult-onset dilated cardiomyopathy with progressive heart failure. These findings establish the non-redundant role of MTFP1 in cardiac mitochondrial dynamics and the heart's dependence on proper mitochondrial fission.",
+      "zh-TW": "MTFP1 的突變會造成嚴重心臟疾病：嚴重突變導致致命性擴張型心肌病與新生兒或幼兒期死亡，較輕的突變則表現為成人期發作的擴張型心肌病與進行性心衰竭。這些發現確立了 MTFP1 在心臟粒線體動態中的不可替代角色，以及心臟對正常粒線體分裂的依賴。"
+    },
+    "confidence": 0.9,
+    "source_document": "MTFP1.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "1a6ab3dd02c2",
+    "subject": "MTHFD2",
+    "predicate": "produces",
+    "object": "NADPH",
+    "context": {
+      "en-US": "MTHFD2 is a bifunctional mitochondrial enzyme of one-carbon metabolism that catalyses NAD+-dependent oxidation of 5,10-methylene-THF to 5,10-methenyl-THF and its cyclohydrolase conversion to 10-formyl-THF, producing NADH that is transhydrogenated to NADPH in the matrix. MTHFD2 is a major mitochondrial source of NADPH, the reducing currency for glutathione/thioredoxin regeneration that counters mitochondrial ROS.",
+      "zh-TW": "MTHFD2 是一碳代謝中的雙功能粒線體酶，催化 5,10-亞甲基 THF 依賴 NAD+ 氧化為 5,10-甲烯基 THF，並藉其環化水解酶活性轉為 10-甲醯 THF，過程中產生的 NADH 在基質中轉氫為 NADPH。MTHFD2 是粒線體 NADPH 的主要來源，而 NADPH 是 glutathione／thioredoxin 再生的還原力來源，可對抗粒線體 ROS。"
+    },
+    "confidence": 0.95,
+    "source_document": "MTHFD2.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "9368e72e87f9",
+    "subject": "MTHFD2",
+    "predicate": "is_a_component_of",
+    "object": "One-Carbon Metabolism",
+    "context": {
+      "en-US": "MTHFD2 sits immediately downstream of SHMT2, which converts serine to glycine plus 5,10-methylene-THF in the mitochondrial folate cycle — the dominant source of one-carbon units and mitochondrial NADPH in proliferating and cancer cells. Because it generates NADPH while feeding folate/one-carbon flux into 10-formyl-THF for purine and nucleotide synthesis, MTHFD2 is a junction where carbon metabolism and redox defence converge.",
+      "zh-TW": "MTHFD2 位於 SHMT2 的下游；SHMT2 在粒線體葉酸循環中將 serine 轉為 glycine 與 5,10-亞甲基 THF，而此循環是增殖細胞與癌細胞中一碳單位與粒線體 NADPH 的主要來源。由於 MTHFD2 一方面產生 NADPH，另一方面將葉酸／一碳通量送入 10-甲醯 THF 以供嘌呤與核苷酸合成，它是碳代謝與氧化還原防禦交會的節點。"
+    },
+    "confidence": 0.9,
+    "source_document": "MTHFD2.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "c0fa1cc76df7",
+    "subject": "SIRT3",
+    "predicate": "deacetylates",
+    "object": "MTHFD2",
+    "context": {
+      "en-US": "SIRT3 deacetylates and activates MTHFD2, boosting mitochondrial NADPH and sustaining cellular redox balance. High SIRT3 activity therefore keeps MTHFD2 active and redox-protective, while SIRT3 inhibition deactivates MTHFD2, depleting NADPH and sensitising cells to oxidative and chemotherapeutic stress. MTHFD2 is thus a downstream effector of SIRT3's redox-shaping activity, alongside IDH2, MnSOD and SLC25A22.",
+      "zh-TW": "SIRT3 去乙醯化並活化 MTHFD2，提升粒線體 NADPH 並維持細胞的氧化還原平衡。因此 SIRT3 活性高會使 MTHFD2 保持活化與氧化還原保護作用，而 SIRT3 受抑制則使 MTHFD2 去活化、耗竭 NADPH，並使細胞對氧化與化學治療壓力更敏感。MTHFD2 因此是 SIRT3 氧化還原調節活性的下游效應者，與 IDH2、MnSOD、SLC25A22 並列。"
+    },
+    "confidence": 0.9,
+    "source_document": "MTHFD2.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "fead9f188f6c",
+    "subject": "Cisplatin",
+    "predicate": "inhibits",
+    "object": "MTHFD2",
+    "context": {
+      "en-US": "In colorectal cancer, cisplatin inhibits SIRT3-mediated deacetylation of MTHFD2, disturbing cellular redox balance and contributing to the drug's cytotoxic effect. Disrupting the SIRT3-MTHFD2 axis depletes NADPH and can therefore sensitise tumour cells to oxidative and DNA-damaging therapies, though high MTHFD2 expression is also associated with chemoresistance.",
+      "zh-TW": "在大腸癌中，Cisplatin 會抑制 SIRT3 對 MTHFD2 的去乙醯化，破壞細胞氧化還原平衡並參與該藥物的細胞毒性作用。破壞 SIRT3–MTHFD2 軸會耗竭 NADPH，因此可使腫瘤細胞對氧化與 DNA 損傷性治療更敏感；不過 MTHFD2 高表現也與化療抗性相關。"
+    },
+    "confidence": 0.85,
+    "source_document": "MTHFD2.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "7e742716b3ab",
+    "subject": "MTHFD2",
+    "predicate": "contributes_to",
+    "object": "Metabolic Plasticity",
+    "context": {
+      "en-US": "MTHFD2 is markedly upregulated in many cancers and is a validated target, because its two outputs serve tumour needs: NADPH for antioxidant defence and 10-formyl-THF for nucleotide biosynthesis. Sitting at this junction makes MTHFD2 a contributor to the glycolysis-to-OXPHOS adaptability of tumours, and inhibition is explored as an anti-metabolite/anti-cancer strategy analogous to classical antifolates.",
+      "zh-TW": "MTHFD2 在許多癌症中顯著上調且已是經驗证的標的，因為它的兩項產物都符合腫瘤需求：供抗氧化防禦的 NADPH，以及供核苷酸合成的 10-甲醯 THF。處於這個交會點使 MTHFD2 貢獻於腫瘤在糖解作用與氧化磷酸化之間的代謝可塑性；抑制 MTHFD2 則被探索為類似傳統抗葉酸藥的抗代謝／抗癌策略。"
+    },
+    "confidence": 0.85,
+    "source_document": "MTHFD2.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "b8310f44720d",
+    "subject": "MTHFR",
+    "predicate": "is_a_component_of",
+    "object": "Methylation Cycle",
+    "context": {
+      "en-US": "MTHFR (methylenetetrahydrofolate reductase) is a critical enzyme in the methylation cycle, converting 5,10-methylenetetrahydrofolate to 5-methyltetrahydrofolate, the primary circulatory form of folate. It therefore sets the availability of methyl groups for methylation reactions, including those dependent on COMT.",
+      "zh-TW": "MTHFR（5,10-亞甲基四氫葉酸還原酶）是甲基化循環中的關鍵酵素，將 5,10-亞甲基四氫葉酸轉為 5-甲基四氫葉酸——葉酸在血液中的主要循環形式。因此 MTHFR 決定了包括 COMT 在內的甲基化反應所能取得的甲基供應量。"
+    },
+    "confidence": 0.9,
+    "source_document": "MTHFR.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "b2a75f36a3e3",
+    "subject": "MTHFR",
+    "predicate": "is_associated_with",
+    "object": "COMT",
+    "context": {
+      "en-US": "There is a potential interaction between MTHFR and COMT genetic variants. Common MTHFR SNPs such as C677T and A1298C can reduce enzyme efficiency and lower methyl-group availability, so individuals carrying both slow COMT and reduced MTHFR activity may have unique requirements for methyl donor supplementation.",
+      "zh-TW": "MTHFR 與 COMT 的基因變異之間存在潛在交互作用。常見的 MTHFR SNP（如 C677T 與 A1298C）會降低酵素效率並減少甲基供應，因此同時帶有慢型 COMT 與 MTHFR 活性降低的個體，可能對甲基供體補充有特殊需求。"
+    },
+    "confidence": 0.85,
+    "source_document": "MTHFR.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "ba98fbf6bcaf",
+    "subject": "MUC1",
+    "predicate": "interacts_with",
+    "object": "SLC7A11",
+    "context": {
+      "en-US": "The cytoplasmic tail fragment MUC1-C of the transmembrane mucin MUC1 is an oncogenic signalling protein highly expressed in triple-negative breast cancer. Analogous to SLC7A11 (xCT), the light chain of system Xc-, MUC1-C forms a complex with xCT and CD44v that controls glutathione levels, making it a ferroptosis-resistance node in TNBC.",
+      "zh-TW": "跨膜黏蛋白 MUC1 的細胞質尾端片段 MUC1-C 是一種致癌訊號蛋白，在三陰性乳癌中高度表現。與 system Xc- 的輕鏈 SLC7A11（xCT）類似，MUC1-C 與 xCT 及 CD44v 形成複合體以調控 glutathione 水準，使其成為三陰性乳癌中的鐵死亡抗性節點。"
+    },
+    "confidence": 0.9,
+    "source_document": "MUC1.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "755c4da14413",
+    "subject": "MUC1",
+    "predicate": "binds",
+    "object": "CD44",
+    "context": {
+      "en-US": "MUC1-C complexes with xCT and the CD44v variants, interacting with xCT to control glutathione and redox balance. Inhibition of this MUC1-C/xCT/CD44v signalling pathway induces ferroptosis in TNBC cells, killing tumour cells or reducing their self-renewal ability — a druggable vulnerability distinct from hormonal or receptor targets absent in TNBC.",
+      "zh-TW": "MUC1-C 與 xCT 及 CD44v 變異體形成複合體，透過與 xCT 交互作用來控制 glutathione 與氧化還原平衡。抑制此 MUC1-C/xCT/CD44v 訊號路徑可在三陰性乳癌細胞中誘發鐵死亡，殺傷腫瘤細胞或降低其自我更新能力——這是不同於三陰性乳癌所缺乏的荷爾蒙／受體標記的可成藥弱點。"
+    },
+    "confidence": 0.9,
+    "source_document": "MUC1.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "88e74b045c60",
+    "subject": "MUC1",
+    "predicate": "suppresses",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "By maintaining glutathione levels and redox balance in triple-negative breast cancer, MUC1-C suppresses ferroptosis. Blocking MUC1-C signalling starves GSH synthesis and commits cells to ferroptosis, complementing system Xc- inhibition and connecting mucosal/cancer biology to the core ferroptotic glutathione axis.",
+      "zh-TW": "MUC1-C 藉由在三陰性乳癌中維持 glutathione 水準與氧化還原平衡，抑制鐵死亡。阻斷 MUC1-C 訊號會使 GSH 合成缺乏並將細胞推向鐵死亡，此策略可與 system Xc- 抑制互補，並將黏膜／癌症生物學連結到鐵死亡的 glutathione 核心軸。"
+    },
+    "confidence": 0.9,
+    "source_document": "MUC1.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "211a08e0716b",
+    "subject": "MUL1",
+    "predicate": "ubiquitinates",
+    "object": "MFN2",
+    "context": {
+      "en-US": "MUL1 (MAPL) is an E3 ubiquitin ligase on the outer mitochondrial membrane that continuously monitors mitochondrial quality, without needing to be recruited like Parkin. It ubiquitinates mitofusin 2 (MFN2), which serves two purposes: targeting Mfn2 for degradation suppresses mitochondrial fusion, while the ubiquitin label tags the mitochondrion for clearance via autophagy.",
+      "zh-TW": "MUL1（MAPL）是位於粒線體外膜的 E3 泛素連接酶，不像 Parkin 需要被招募，而是持續監測粒線體品質。它將 mitofusin 2（MFN2）泛素化，其作用有兩重：促使 Mfn2 降解從而抑制粒線體融合，同時以泛素標記為粒線體加上標籤，使其經由自噬被清除。"
+    },
+    "confidence": 0.9,
+    "source_document": "MUL1.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "88d2b9aec4fd",
+    "subject": "MUL1",
+    "predicate": "promotes",
+    "object": "Mitophagy",
+    "context": {
+      "en-US": "MUL1 functions as a parallel and compensatory pathway to Parkin-mediated mitophagy. Studies in Drosophila and mammalian models show MUL1 expression rescues the mitochondrial accumulation and the muscle and neurodegenerative phenotypes caused by Parkin deficiency, so when PINK1 or Parkin function is impaired, MUL1-mediated ubiquitination and degradation of Mfn2 provides an essential backup for mitochondrial quality control.",
+      "zh-TW": "MUL1 是 Parkin 媒介粒線體自噬的平行且代償性路徑。果蠅與哺乳動物模型的研究顯示，MUL1 的表現可挽救 Parkin 缺失所造成的粒線體累積以及肌肉與神經退化表型；因此當 PINK1 或 Parkin 功能受損時，MUL1 媒介的 Mfn2 泛素化與降解為粒線體品質管制提供了必要的備援。"
+    },
+    "confidence": 0.9,
+    "source_document": "MUL1.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "f3fadfa06865",
+    "subject": "MUL1",
+    "predicate": "is_associated_with",
+    "object": "Parkinson's Disease",
+    "context": {
+      "en-US": "Because MUL1 operates independently of PINK1, it offers redundancy in the mitophagy system when PINK1/Parkin signalling fails as it does in familial Parkinson's disease. MUL1 expression then compensates for Parkin deficiency, offering redundancy that may partly explain why PINK1/Parkin mutations do not always produce overt mitochondrial accumulation in patients.",
+      "zh-TW": "由於 MUL1 的作用不依賴 PINK1，當 PINK1/Parkin 訊號失效（如家族性帕金森氏症）時，它在粒線體自噬系統中提供了冗餘性。此時 MUL1 的表現可代償 Parkin 缺失，這種冗餘或可部分解釋為何 PINK1/Parkin 突變在患者身上不一定造成明顯的粒線體累積。"
+    },
+    "confidence": 0.8,
+    "source_document": "MUL1.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "c564bc5da80a",
+    "subject": "MacroD1",
+    "predicate": "reverses",
+    "object": "ADP-ribosylation",
+    "context": {
+      "en-US": "MacroD1 (LRP16) is a MacroD-type macrodomain ADP-ribosylation eraser, predominantly in the mitochondrial matrix with nuclear splice forms. It hydrolyses mono-ADP-ribose ester-linked to aspartate/glutamate to counteract writers such as PARP10/PARP7, and after PARG pre-trimming it also counteracts PARP1 mono-modification. It is inactive toward PAR polymers, which are left to PARG/ARH3.",
+      "zh-TW": "MacroD1（LRP16）是 MacroD 型巨結構域的 ADP-核糖基化「擦除者」，主要位於粒線體基質，並有核內剪接 isoform。它水解與天門冬胺酸／麩胺酸酯鍵結的單一 ADP-核糖，以抵銷 PARP10/PARP7 等「寫入者」；在 PARG 預先修剪鏈之後，它也能抵銷 PARP1 的單一修飾。它對 PAR 聚合物無活性，後者交由 PARG/ARH3 處理。"
+    },
+    "confidence": 0.9,
+    "source_document": "MacroD1.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "6b5fca1b74e4",
+    "subject": "MacroD1",
+    "predicate": "is_localized_to",
+    "object": "Mitochondria",
+    "context": {
+      "en-US": "MacroD1 is a ~35 kDa protein with an N-terminal mitochondrial-targeting sequence (residues 1-85) and is enriched in mitochondria, with additional nuclear splice forms. It is a paralog of the cytosolic/nuclear MacroD2 with a similar fold but distinct localization, and its loss in rhabdomyosarcoma causes mitochondrial fragmentation.",
+      "zh-TW": "MacroD1 是約 35 kDa 的蛋白質，具有 N 端粒線體定位訊號（第 1-85 殘基），在粒線體中富集，並另有核內剪接 isoform。它是位於細胞質／細胞核的 MacroD2 的旁系同源蛋白，摺疊結構相似但定位不同；其缺失於橫紋肌肉瘤中會造成粒線體碎裂。"
+    },
+    "confidence": 0.9,
+    "source_document": "MacroD1.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "e5a8d8de81b1",
+    "subject": "MacroD1",
+    "predicate": "deacetylates",
+    "object": "Sirtuins",
+    "context": {
+      "en-US": "MacroD1 deacetylates 2'-/3'-O-acetyl-ADP-ribose, the product released by sirtuins on NAD+ deacetylation. Together with MacroD2 it co-covers all compartments in which sirtuins generate O-acetyl-ADP-ribose (MacroD1 in mitochondria, MacroD2 in cytosol/nucleus), linking NAD+ deacetylation flux to acetate/ADP-ribose recycling. Its kinetics (Km ~100-400 µM) are competitively inhibited by free ADP-ribose (Ki ~145 µM).",
+      "zh-TW": "MacroD1 去乙醯化 2'-/3'-O-乙醯-ADP-核糖，也就是 sirtuin 作用於 NAD+ 去乙醯化時釋出的產物。MacroD1 與 MacroD2 共同涵蓋所有 sirtuin 產生 O-乙醯-ADP-核糖的區室（MacroD1 在粒線體，MacroD2 在細胞質／細胞核），把 NAD+ 去乙醯化通量連結到乙酸／ADP-核糖的回收。其動力學（Km 約 100-400 µM）會被游離 ADP-核糖競爭性抑制（Ki 約 145 µM）。"
+    },
+    "confidence": 0.8,
+    "source_document": "MacroD1.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "3416a5635e0e",
+    "subject": "MacroD1",
+    "predicate": "cooperates_with",
+    "object": "PARG",
+    "context": {
+      "en-US": "PARG is the bulk poly-ADP-ribose glycohydrolase that removes PAR chains, and MacroD1 acts only on the mono-ADP-ribose residues left after chain removal. This division of labour means MacroD1 cannot substitute for PARG: poly(ADP-ribose) polymers, in which MacroD1 is inactive, are handled upstream by PARG and ARH3.",
+      "zh-TW": "PARG 是移除 PAR 鏈的聚合物ADP-核糖糖苷水解酶，而 MacroD1 只作用於鏈被移除後留下的單一 ADP-核糖殘基。這種分工表示 MacroD1 無法取代 PARG：MacroD1 對其無活性的 poly(ADP-ribose) 聚合物，是由上游的 PARG 與 ARH3 處理。"
+    },
+    "confidence": 0.85,
+    "source_document": "MacroD1.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "734b586d516d",
+    "subject": "MacroD2",
+    "predicate": "reverses",
+    "object": "ADP-ribosylation",
+    "context": {
+      "en-US": "MacroD2 is a ~47 kDa MacroD-type macrodomain ADP-ribosylation eraser in cytosol and nucleus. Using a substrate-assisted mechanism — the ADP-ribose alpha-phosphate activates a positioned catalytic water for nucleophilic attack at ribose C1'' — it hydrolyses mono-ADP-ribose linked to aspartate/glutamate, e.g. PARP10/PARP1 mono-marks, and deacetylates O-acetyl-ADP-ribose. It is inactive toward poly-ADP-ribose, acting only after PARG.",
+      "zh-TW": "MacroD2 是約 47 kDa 的 MacroD 型巨結構域 ADP-核糖基化「擦除者」，位於細胞質與細胞核。它採用受質輔助的機制——ADP-核糖的 α-磷酸活化一個定位好的催化水分子，親核進攻核糖 C1''——水解與天門冬胺酸／麩胺酸酯鍵結的單一 ADP-核糖（例如 PARP10/PARP1 的單一標記），並去乙醯化 O-乙醯-ADP-核糖。它對 poly-ADP-核糖無活性，只在 PARG 之後作用。"
+    },
+    "confidence": 0.9,
+    "source_document": "MacroD2.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "14e4e4811a42",
+    "subject": "MacroD2",
+    "predicate": "cooperates_with",
+    "object": "MacroD1",
+    "context": {
+      "en-US": "MacroD1 and MacroD2 are paralogs with similar folds but distinct localizations, and together they cover all compartments in which sirtuins produce O-acetyl-ADP-ribose — MacroD2 in cytosol and nucleus, MacroD1 in mitochondria. Both share substrate-assisted catalytic chemistry, with residue substitutions that abolish OAADPr deacetylation while retaining PARP10-deMARylation activity.",
+      "zh-TW": "MacroD1 與 MacroD2 是摺疊結構相似但定位不同的旁系同源蛋白，兩者共同涵蓋所有 sirtuin 產生 O-乙醯-ADP-核糖的區室——MacroD2 在細胞質與細胞核，MacroD1 在粒線體。兩者共享受質輔助的催化化學，個別胺基酸替換雖會消除 O-乙醯-ADP-核糖去乙醯化活性，卻仍保留 PARP10 去 MAR 化活性。"
+    },
+    "confidence": 0.85,
+    "source_document": "MacroD2.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "b1de4f686b0d",
+    "subject": "MacroD2",
+    "predicate": "opposes",
+    "object": "PARP1",
+    "context": {
+      "en-US": "MacroD2 is a kinase switch: it reverses ARTD10/PARP10-mediated inhibitory MARylation of GSK3beta, restoring kinase activity in vitro and in cells and thereby acting as a paradigm for MAR-regulated WNT signalling. It also reverses PARP1 mono-marks, whereas the poly-marks written by PARP1 are handled by PARG.",
+      "zh-TW": "MacroD2 是一個激酶開關：它可逆轉 ARTD10/PARP10 對 GSK3beta 造成的抑制性 MAR 化，在體外與細胞中恢復激酶活性，因而成為 MAR 調控 WNT 訊號的典範。它也會逆轉 PARP1 的單一標記，而 PARP1 寫入的聚合標記則由 PARG 處理。"
+    },
+    "confidence": 0.85,
+    "source_document": "MacroD2.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "b1d6be9c8ca3",
+    "subject": "MacroD2",
+    "predicate": "is_associated_with",
+    "object": "Cancer",
+    "context": {
+      "en-US": "MACROD2 lies in the 20q11 amplicon context and is frequently deleted in colorectal and other cancers, making it a candidate haploinsufficient tumour suppressor, although causality is still debated. It is also phosphorylated by ATM after double-strand breaks and reverses MARylation on damage factors, linking it to the DNA-damage response, and viral nsp3 macrodomain programs borrow its chemistry.",
+      "zh-TW": "MACROD2 位於 20q11 擴增區域，在大腸癌及其他癌症中經常被刪除，因此是候選的單倍剂量不足型腫瘤抑制基因，儘管因果性仍有爭議。它同時會在雙股斷裂後被 ATM 磷酸化，並逆轉 DNA 損傷因子上的 MAR 化，將其連結至 DNA 損傷反應；此外病毒 nsp3 巨結構域的蛋白質也借用了它的催化化學。"
+    },
+    "confidence": 0.8,
+    "source_document": "MacroD2.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "37761dac6919",
+    "subject": "Macrophage",
+    "predicate": "is_a_component_of",
+    "object": "Innate Immune System",
+    "context": {
+      "en-US": "Macrophages are large mononuclear phagocytes and among the most versatile cells of the innate immune system, serving as sentinels that phagocytose pathogens, dead cells and debris while presenting antigens to activate adaptive immunity. Tissue-resident macrophages adopt specialised identities by niche, including Kupffer cells in liver and microglia in brain.",
+      "zh-TW": "巨噬細胞是大型單核吞噬細胞，是先天免疫系統中最多樣化的細胞之一，作為哨兵吞噬病原體、死細胞與碎屑，並呈現抗原以活化適應性免疫。組織駐留的巨噬細胞會依所在位置獲得專門身分，例如肝臟的 Kupffer 細胞與腦部的 microglia。"
+    },
+    "confidence": 0.9,
+    "source_document": "Macrophage.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "8e1b7d699a15",
+    "subject": "Macrophage",
+    "predicate": "is_derived_from",
+    "object": "Monocytes",
+    "context": {
+      "en-US": "Macrophage ontogeny follows two pathways: embryonic precursors from yolk sac and fetal liver seed self-renewing tissue-resident populations, while inflammatory macrophages arise from circulating bone-marrow-derived monocytes recruited by chemokines such as CCL2. Monocyte-derived cells differentiate into macrophages at sites of inflammation and generally have a more transient lifespan than tissue-resident counterparts.",
+      "zh-TW": "巨噬細胞的來源有兩條路徑：卵黃囊與胎兒肝的胚胎前驅細胞播種出可自我更新的組織駐留族群；而發炎性巨噬細胞則來自由 CCL2 等趨化因子招募的、骨髓來源的循環單核細胞。單核來源細胞在發炎部位分化為巨噬細胞，其壽命通常比組織駐留型更短暫。"
+    },
+    "confidence": 0.9,
+    "source_document": "Macrophage.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "9ff4c1b9c28c",
+    "subject": "Macrophage",
+    "predicate": "requires",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "The intersection of macrophage biology and autophagy is critical for effective immune function. Xenophagy captures pathogens such as Mycobacterium in autophagosomes for lysosomal destruction; autophagic mitophagy and aggregate clearance limit NLRP3 inflammasome activation and thus IL-1β and IL-18 secretion; and autophagy delivers cytosolic antigens to the MHC class II loading compartment to enhance antigen presentation.",
+      "zh-TW": "巨噬細胞生物學與自噬的交集對有效免疫功能至關重要。異源自噬將分支桿菌等病原體包入自噬體並送至溶酶體破壞；自噬性的線粒體自噬與聚集物清除可限制 NLRP3 發炎小體的活化，進而減少 IL-1β 與 IL-18 的分泌；自噬也將細胞質抗原運送至 MHC class II 負載區室以增強抗原呈現。"
+    },
+    "confidence": 0.9,
+    "source_document": "Macrophage.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "b92ec35a43f6",
+    "subject": "Macrophage",
+    "predicate": "is_activated_by",
+    "object": "LPS",
+    "context": {
+      "en-US": "The M1 (classical activation) programme of macrophages is induced by lipopolysaccharide and interferon-gamma, signalling through NF-κB and STAT1 to produce TNF-alpha, IL-1β, IL-6, reactive oxygen species and nitric oxide. M1 macrophages are potently microbicidal and critical for intracellular pathogen clearance, whereas IL-4/IL-13 via STAT6 drive the M2 programme with arginase-1, IL-10 and TGF-beta.",
+      "zh-TW": "巨噬細胞的 M1（經典活化）計畫由 lipopolysaccharide 與 interferon-gamma 誘導，經由 NF-κB 與 STAT1 訊號產生 TNF-alpha、IL-1β、IL-6、活性氧與一氧化氮。M1 巨噬細胞具有強效殺菌能力，對細胞內病原體清除至關重要；相對地，IL-4/IL-13 經 STAT6 驅動 M2 計畫，表現 arginase-1、IL-10 與 TGF-beta。"
+    },
+    "confidence": 0.9,
+    "source_document": "Macrophage.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "a4e55c4137ba",
+    "subject": "Macrophage",
+    "predicate": "is_regulated_by",
+    "object": "TFEB",
+    "context": {
+      "en-US": "TFEB and TFE3 serve as master regulators of lysosomal biogenesis and autophagy gene expression in macrophages; their nuclear translocation during activation programmes the degradative capacity necessary for pathogen clearance and metabolic reprogramming. Macrophages also secrete matrix metalloproteinases such as MMP-9 and growth factors that remodel extracellular matrix and regulate fibroblast proliferation.",
+      "zh-TW": "TFEB 與 TFE3 是巨噬細胞中溶酶體生成與自噬基因表現的主控因子；它們在活化時核轉位，設定病原體清除與代謝重編程所需的降解能力。巨噬細胞也會分泌 MMP-9 等基質金屬蛋白酶與生長因子，以重塑細胞外基質並調節纖維母細胞增殖。"
+    },
+    "confidence": 0.85,
+    "source_document": "Macrophage.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "13c45e17a23e",
+    "subject": "Macrophages",
+    "predicate": "is_converted_to",
+    "object": "Foam Cells",
+    "context": {
+      "en-US": "Macrophages accumulate cholesterol through LDL uptake, oxidation and increased biosynthesis, and excessive accumulation transforms them into foam cells — the hallmark of early atherosclerotic lesions. In atherosclerosis macrophages take up and oxidize LDL in the arterial wall, becoming foam cells that form the lipid-rich core of plaques; plaque rupture and thrombosis underlie most acute coronary events.",
+      "zh-TW": "巨噬細胞透過 LDL 攝取、氧化與生合成增加而累積膽固醇，過度累積會將其轉變為泡沫細胞——這是早期動脈粥狀硬化病灶的標誌。在動脈粥狀硬化中，巨噬細胞在動脈壁攝取並氧化 LDL，成為形成斑塊脂質豐富核心的泡沫細胞；斑塊破裂與血栓形成是多數急性冠狀事件的根本原因。"
+    },
+    "confidence": 0.9,
+    "source_document": "Macrophages.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "f55bcdda01ce",
+    "subject": "ABCA1",
+    "predicate": "is_required_for",
+    "object": "Cholesterol Efflux",
+    "context": {
+      "en-US": "Cholesterol efflux is the protective mechanism by which HDL removes excess cholesterol from macrophages, occurring via aqueous diffusion, SR-BI-mediated bidirectional flux, and ABCA1-mediated transfer to lipid-poor apoA-1. Oxidative stress (Fe/ascorbate) impairs ABCA1 expression and efflux, while resveratrol (0-25 µM) restores HDL3-mediated efflux in a dose-dependent manner by upregulating ABCA1.",
+      "zh-TW": "膽固醇外流是 HDL 將過多膽固醇從巨噬細胞移除的保護機制，可經由水相擴散、SR-BI 媒介的雙向通量，以及 ABCA1 媒介轉移至缺乏脂質的 apoA-1 等途徑進行。氧化壓力（Fe/ascorbate）會損害 ABCA1 表現與外流，而 resveratrol（0-25 µM）則以劑量依賴方式上調 ABCA1，恢復 HDL3 媒介的外流。"
+    },
+    "confidence": 0.9,
+    "source_document": "Macrophages.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "93180e4bd33f",
+    "subject": "Resveratrol",
+    "predicate": "restores",
+    "object": "Cholesterol Efflux",
+    "context": {
+      "en-US": "In J774, THP-1 and mouse peritoneal macrophages, Fe/ascorbate-induced oxidative stress impairs ABCA1-mediated cholesterol efflux. Resveratrol (0-25 µM) restores HDL3-mediated efflux under oxidative stress in a dose-dependent manner, which is part of its proposed atheroprotective action — and a direct example of redox control of macrophage lipid handling.",
+      "zh-TW": "在 J774、THP-1 與小鼠腹腔巨噬細胞中，Fe/ascorbate 誘發的氧化壓力會損害 ABCA1 媒介的膽固醇外流。Resveratrol（0-25 µM）以劑量依賴方式在氧化壓力下恢復 HDL3 媒介的外流，這是其被提出的抗動脈粥狀硬化作用的一部分——也是氧化還原調控巨噬細胞脂質處理的直接例子。"
+    },
+    "confidence": 0.9,
+    "source_document": "Macrophages.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "3bd120677ff7",
+    "subject": "Magnesium",
+    "predicate": "is_required_for",
+    "object": "COMT",
+    "context": {
+      "en-US": "Magnesium is an essential mineral involved in over 300 biochemical reactions, and is a critical cofactor for the COMT enzyme. Adequate magnesium levels are necessary for COMT to perform the methylation reactions that break down catecholamines and estrogen metabolites, so dietary or supplemental magnesium supports COMT function.",
+      "zh-TW": "Magnesium 是參與超過 300 個生化反應的必需礦物質，也是 COMT 酵素的關鍵輔因子。足夠的 magnesium 水準是 COMT 得以執行分解兒茶酚胺與雌激素代謝物的甲基化反應所必需，因此飲食或補充 magnesium 可支持 COMT 功能。"
+    },
+    "confidence": 0.85,
+    "source_document": "Magnesium.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "079ce9bbd32d",
+    "subject": "Magnesium",
+    "predicate": "supports",
+    "object": "Methylation",
+    "context": {
+      "en-US": "Because magnesium is the cofactor for COMT, adequate magnesium status supports the broader methylation reactions of the methylation cycle, including those processing catecholamines and estrogen metabolites. Methylation capacity is therefore partly a mineral-dependent function, not only a genetic one.",
+      "zh-TW": "由於 magnesium 是 COMT 的輔因子，足夠的 magnesium 營養狀態可支撐甲基化循環中更廣泛的甲基化反應，包括處理兒茶酚胺與雌激素代謝物的反應。因此甲基化能力部分取決於礦物質狀態，而不只是基因因素。"
+    },
+    "confidence": 0.8,
+    "source_document": "Magnesium.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "c7a2395b532d",
+    "subject": "Magnolol",
+    "predicate": "enhances",
+    "object": "GABA",
+    "context": {
+      "en-US": "Magnolol, together with honokiol, increases [3H]muscimol binding-site number about three-fold by allosterically increasing low-affinity site affinity, acting as a positive allosteric modulator of both synaptic and extrasynaptic GABA_A receptors with greater efficacy at δ-subunit-containing receptors. It also blocks NMDA receptor-evoked cation influx and raises seizure threshold, though honokiol is generally more potent.",
+      "zh-TW": "Magnolol 與 honokiol 一起藉由別構提高低親和性位點的親和力，使 [3H]muscimol 結合位點數量增加約三倍，作為突觸與突觸外 GABA_A 受體的正向別構調節劑，且在含 δ 次單元的受體上效力更強。它也阻斷 NMDA 受體誘發的陽離子內流並提高痙攣閾值，不過 honokiol 整體上更為有效。"
+    },
+    "confidence": 0.9,
+    "source_document": "Magnolol.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "e63f3fc08ae4",
+    "subject": "Magnolol",
+    "predicate": "inhibits",
+    "object": "NMDA receptor",
+    "context": {
+      "en-US": "Magnolol blocks NMDA receptor-evoked cation influx and raises seizure threshold at 1 and 5 mg/kg intraperitoneally. In inflammatory and glutamatergic pain models it reduces formalin-induced paw-licking and spinal c-Fos expression, and blocks glutamate-, substance P- and PGE2-evoked nociception; for substance P-induced thermal hyperalgesia it was slightly more effective than honokiol at lower doses.",
+      "zh-TW": "Magnolol 阻斷 NMDA 受體誘發的陽離子內流，並在腹腔給藥 1 與 5 mg/kg 時提高痙攣閾值。在發炎性與麩胺酸性痛覺模型中，它降低福馬林誘發的舔腳行為與脊髓 c-Fos 表現，並阻斷麩胺酸、substance P 與 PGE2 誘發的傷害感受；在 substance P 誘發的熱覺過敏中，低劑量下 magnolol 略優於 honokiol。"
+    },
+    "confidence": 0.85,
+    "source_document": "Magnolol.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "c584eb12d306",
+    "subject": "Magnolol",
+    "predicate": "suppresses",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "Magnolol inhibits NF-κB activation and COX-2 expression in macrophage-like cells, paralleling honokiol's suppression of TNF-alpha and nitric oxide. Magnolol is a biphenyl-type neolignan from Magnolia bark, the structural regio-isomer and analog of honokiol, with antibacterial, antioxidant, anti-inflammatory and neuroprotective activities.",
+      "zh-TW": "Magnolol 在巨噬細胞樣細胞中抑制 NF-κB 的活化與 COX-2 的表現，與 honokiol 抑制 TNF-alpha 與一氧化氮的作用相呼應。Magnolol 是來自 Magnolia 樹皮的二聯苯型新木脂素，是 honokiol 的結構區位異構體與類似物，具有抗菌、抗氧化、抗發炎與神經保護活性。"
+    },
+    "confidence": 0.85,
+    "source_document": "Magnolol.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "02163ef9ca03",
+    "subject": "Magnolol",
+    "predicate": "protects_against",
+    "object": "Alzheimer's Disease",
+    "context": {
+      "en-US": "Oral magnolol (10 mg/kg) with honokiol prevents age-related memory and learning deficits in SAMP8 mice by preserving cholinergic neurons and enhancing Akt activity. Magnolol with honokiol also significantly decreases amyloid-beta-induced neuronal death in PC12 cells, attributed to reduced reactive oxygen species, suppressed intracellular calcium and inhibited caspase-3.",
+      "zh-TW": "口服 magnolol（10 mg/kg）搭配 honokiol 可在 SAMP8 小鼠中預防與年齡相關的記憶與學習缺陷，方式是保留膽鹼能神經元並增強 Akt 活性。Magnolol 搭配 honokiol 也可顯著減少 PC12 細胞中 amyloid-beta 誘發的神經元死亡，其機制歸因於活性氧減少、細胞內 calcium 被抑制以及 caspase-3 被抑制。"
+    },
+    "confidence": 0.85,
+    "source_document": "Magnolol.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "ab83218876cd",
+    "subject": "Malate Dehydrogenase",
+    "predicate": "converts_to",
+    "object": "Malate",
+    "context": {
+      "en-US": "Malate dehydrogenase (MDH) catalyzes the reversible, NAD+-dependent interconversion of oxaloacetate and malate (oxaloacetate + NADH + H+ ⇌ malate + NAD+). Cytosolic MDH1 reduces oxaloacetate to malate using cytosolic NADH, feeding the malate-aspartate shuttle, while mitochondrial MDH2 oxidizes malate back to oxaloacetate, regenerating NADH in the matrix for OXPHOS.",
+      "zh-TW": "Malate dehydrogenase（MDH）催化草醯乙酸與蘋果酸之間可逆的、依賴 NAD+ 的相互轉換（草醯乙酸 + NADH + H+ ⇌ 蘋果酸 + NAD+）。細胞質中的 MDH1 利用細胞質 NADH 將草醯乙酸還原為蘋果酸以餵入蘋果酸－天門冬胺酸穿梭，而粒線體中的 MDH2 則將蘋果酸氧化回草醯乙酸，在基質中為 OXPHOS 再生 NADH。"
+    },
+    "confidence": 0.95,
+    "source_document": "Malate Dehydrogenase.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "79be646c5874",
+    "subject": "MDH1",
+    "predicate": "declines_with",
+    "object": "Senescence",
+    "context": {
+      "en-US": "In senescent cells the activity and protein level of cytosolic MDH1 are reduced, contributing to decreased NAD+ levels. Knockdown of MDH1, which lowers the cytosolic NAD+/NADH ratio, induces senescence, whereas knockdown of mitochondrial MDH2 — which affects mitochondrial but not cytosolic NAD+ — does not. This indicates that cytosolic, not mitochondrial, NAD+ pools govern senescence induction.",
+      "zh-TW": "在衰老細胞中，細胞質 MDH1 的活性與蛋白量都下降，導致 NAD+ 水準降低。敲低 MDH1（使細胞質 NAD+/NADH 比值下降）會誘發衰老，而敲低粒線體 MDH2（影響的是粒線體而非細胞質 NAD+）則不會。這顯示調控衰老誘發的是細胞質而非粒線體的 NAD+ 池。"
+    },
+    "confidence": 0.9,
+    "source_document": "Malate Dehydrogenase.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "543f6e01ce1f",
+    "subject": "Malate Dehydrogenase",
+    "predicate": "is_required_for",
+    "object": "Malate-Aspartate Shuttle",
+    "context": {
+      "en-US": "MDH1 and MDH2 are the reciprocal dehydrogenases that drive the malate-aspartate shuttle: cytosolic NADH reduces oxaloacetate to malate via MDH1, malate enters the matrix and is re-oxidized to oxaloacetate by MDH2, regenerating matrix NADH. Together they couple the cytosolic and mitochondrial NAD+/NADH pools without net consumption of TCA intermediates.",
+      "zh-TW": "MDH1 與 MDH2 是驅動蘋果酸－天門冬胺酸穿梭的互補去氫酶：細胞質 NADH 經 MDH1 將草醯乙酸還原為蘋果酸，蘋果酸進入基質後由 MDH2 再氧化為草醯乙酸並再生基質 NADH。兩者共同連結細胞質與粒線體的 NAD+/NADH 池，且不淨消耗 TCA 中間產物。"
+    },
+    "confidence": 0.9,
+    "source_document": "Malate Dehydrogenase.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "0cd6dae64341",
+    "subject": "Malate Dehydrogenase",
+    "predicate": "is_required_for",
+    "object": "Citric Acid Cycle",
+    "context": {
+      "en-US": "The MDH2 step closes the citric acid cycle, converting malate to oxaloacetate and regenerating NAD+; the malate → oxaloacetate reaction is the final, NAD+-regenerating step of the cycle. MDH2 thus regenerates matrix NADH for oxidative phosphorylation while the NAD+ produced keeps the cycle turning.",
+      "zh-TW": "MDH2 這一步驟閉合檸檬酸循環，將蘋果酸轉為草醯乙酸並再生 NAD+；蘋果酸 → 草醯乙酸是循環中最後一個再生 NAD+ 的步驟。因此 MDH2 為氧化磷酸化再生基質 NADH，而所產生的 NAD+ 則讓循環持續運作。"
+    },
+    "confidence": 0.85,
+    "source_document": "Malate Dehydrogenase.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "b0e7e9b598fd",
+    "subject": "Malate-Aspartate Shuttle",
+    "predicate": "transports",
+    "object": "NADH",
+    "context": {
+      "en-US": "The malate-aspartate shuttle (MAS) is the major system transporting reducing equivalents from cytosolic NADH generated during glycolysis into the mitochondrial matrix for OXPHOS. It moves malate inward and aspartate outward across the inner membrane, coupling cytosolic and mitochondrial NAD+/NADH pools via malate dehydrogenases and the GOT1/GOT2 transaminases.",
+      "zh-TW": "蘋果酸－天門冬胺酸穿梭（MAS）是將糖解作用產生的細胞質 NADH 所攜帶的還原當量運送進粒線體基質供 OXPHOS 使用的主要系統。它讓蘋果酸向內、天門冬胺酸向外穿過內膜，並透過蘋果酸去氫酶與 GOT1/GOT2 轉氨酶連結細胞質與粒線體的 NAD+/NADH 池。"
+    },
+    "confidence": 0.95,
+    "source_document": "Malate-Aspartate Shuttle.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "f6322e43c053",
+    "subject": "Malate-Aspartate Shuttle",
+    "predicate": "is_inhibited_by",
+    "object": "Aminooxyacetate",
+    "context": {
+      "en-US": "Aminooxyacetate, an aminotransferase inhibitor that blocks the malate-aspartate shuttle, lowers the cytosolic NAD+/NADH ratio — but not the mitochondrial one — and causes senescence. Together with MDH1-knockdown data this demonstrates that the cytosolic NAD+/NADH ratio maintained by the shuttle, rather than mitochondrial NAD+ pools, governs senescence induction.",
+      "zh-TW": "Aminooxyacetate 是一種抑制轉氨酶、可阻斷蘋果酸－天門冬胺酸穿梭的物質；它降低細胞質的 NAD+/NADH 比值（但不影響粒線體），並造成衰老。結合 MDH1 敲低的數據，這證明調控衰老誘發的是由該穿梭維持的細胞質 NAD+/NADH 比值，而非粒線體 NAD+ 池。"
+    },
+    "confidence": 0.9,
+    "source_document": "Malate-Aspartate Shuttle.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "40954fa274be",
+    "subject": "Malate",
+    "predicate": "is_derived_from",
+    "object": "Oxaloacetate",
+    "context": {
+      "en-US": "Malate (L-malate) is a four-carbon dicarboxylic acid intermediate of the citric acid cycle formed from oxaloacetate by malate dehydrogenase, consuming NADH and producing NAD+, and re-oxidized to oxaloacetate producing NADH within the cycle and the malate-aspartate shuttle. Malate → oxaloacetate is the final, NAD+-regenerating step of the cycle, closing the loop with acetyl-CoA entry.",
+      "zh-TW": "蘋果酸（L-malate）是檸檬酸循環的四碳二羧酸中間產物，由蘋果酸去氫酶作用於草醯乙酸形成，此反應消耗 NADH 並產生 NAD+；反之蘋果酸被氧化回草醯乙酸時產生 NADH，發生於循環與蘋果酸－天門冬胺酸穿梭中。蘋果酸 → 草醯乙酸是循環中最後一個再生 NAD+ 的步驟，與乙醯輔酶 A 的進入共同閉合循環。"
+    },
+    "confidence": 0.95,
+    "source_document": "Malate.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "2ece0757e7d3",
+    "subject": "Malate",
+    "predicate": "transports",
+    "object": "NADH",
+    "context": {
+      "en-US": "In the malate-aspartate shuttle, cytosolic malate transports glycolytic reducing equivalents into mitochondria, linking glycolysis to OXPHOS. Because the malate/oxaloacetate couple sits at the centre of the cytosolic NAD+/NADH balance that governs senescence, malate's interconversion with oxaloacetate is mechanistically tied to whether cells maintain a youthful, non-senescent redox state.",
+      "zh-TW": "在蘋果酸－天門冬胺酸穿梭中，細胞質蘋果酸將糖解作用產生的還原當量運送進粒線體，連結糖解作用與 OXPHOS。由於蘋果酸／草醯乙酸偶聯位於調控衰老的細胞質 NAD+/NADH 平衡中心，蘋果酸與草醯乙酸的相互轉換在機制上與細胞能否維持年輕、非衰老的氧化還原狀態直接相關。"
+    },
+    "confidence": 0.9,
+    "source_document": "Malate.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "5e8ff60b060d",
+    "subject": "Malate",
+    "predicate": "is_a_component_of",
+    "object": "Citric Acid Cycle",
+    "context": {
+      "en-US": "Malate is a four-carbon intermediate of the citric acid cycle whose oxidation to oxaloacetate regenerates the NAD+ needed to keep the cycle running. In this role malate is both the product of the NADH-consuming direction and the substrate of the NADH-producing direction, making it the redox linchpin of the cycle.",
+      "zh-TW": "蘋果酸是檸檬酸循環的四碳中間產物，其氧化為草醯乙酸會再生維持循環運作所需的 NAD+。在此角色中，蘋果酸既是消耗 NADH 方向的反應產物，也是產生 NADH 方向的反應受質，因此是循環的氧化還原關鍵樞紐。"
+    },
+    "confidence": 0.85,
+    "source_document": "Malate.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "4034814f4c66",
+    "subject": "Mdivi-1",
+    "predicate": "reduces",
+    "object": "Atherosclerosis",
+    "context": {
+      "en-US": "Mdivi-1 reduces PDGF-induced vascular smooth muscle proliferation and atherosclerosis, and it ameliorates pressure-overload left ventricular hypertrophy by modulating mitophagy and angiogenesis. It also attenuates hypoxia-induced cancer cell migration and metastasis, and it attenuates cardiac dysfunction in diverse mouse cardiomyopathy models.",
+      "zh-TW": "Mdivi-1 可減少 PDGF 誘發的血管平滑肌增殖與動脈粥狀硬化，並藉由調節粒線體自噬與血管新生來改善壓力負荷性左心室肥厚。它也能減輕缺氧誘發的癌細胞遷移與轉移，並改善多種小鼠心肌病模型中的心臟功能失調。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mdivi-1.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "8b6a12cbcb0c",
+    "subject": "Mdivi-1",
+    "predicate": "treats",
+    "object": "Parkinson's Disease",
+    "context": {
+      "en-US": "Mdivi-1 shows therapeutic promise in neurodegeneration models, attenuating neuronal cell death in Parkinson's disease models and reducing neurodegeneration in Alzheimer's disease models. However, treatment of myocardial infarction in pigs with Mdivi-1 did not reduce infarct size or preserve cardiac function, and Mdivi-1 has pleiotropic off-target effects including cleaving L-OPA1 and altering OXPHOS complex protein expression, ultimately increasing superoxide production.",
+      "zh-TW": "Mdivi-1 在神經退化模型中展現治療潛力，可在帕金森氏症模型中減輕神經元死亡，並在阿茲海默氏症模型中減少神經退化。不過，在豬的 myocardial infarction 模型中使用 Mdivi-1 並未縮小 infarct 面積或維持心臟功能；此外 Mdivi-1 具有多效性離靶作用，包括切割 L-OPA1 及改變 OXPHOS 複合體蛋白表現，最終增加超氧化物生成。"
+    },
+    "confidence": 0.85,
+    "source_document": "Mdivi-1.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "6f48d469e972",
+    "subject": "Mdivi-1",
+    "predicate": "treats",
+    "object": "Alzheimer's Disease",
+    "context": {
+      "en-US": "Mdivi-1 reduces neurodegeneration in Alzheimer's disease models and is therapeutic in mouse cardiomyopathy models. Its translation is limited, however, because DRP1 inhibition alone does not explain the phenotype: Mdivi-1 has pleiotropic off-target effects, cleaving L-OPA1 and altering OXPHOS complex protein expression, which ultimately increases superoxide production and confounds interpretation of fission-dependent effects.",
+      "zh-TW": "Mdivi-1 可在阿茲海默氏症模型中減少神經退化，並在小鼠心肌病模型中具有治療效果。不過其轉譯受限，因為單靠 DRP1 抑制無法解釋其表型：Mdivi-1 具有多效性離靶作用，會切割 L-OPA1 並改變 OXPHOS 複合體蛋白表現，最終增加超氧化物生成，使依賴分裂的效應難以正確解讀。"
+    },
+    "confidence": 0.85,
+    "source_document": "Mdivi-1.md",
+    "created": "2026-09-29T16:39:12Z",
+    "updated": "2026-09-29T16:39:12Z"
   }
 ]
