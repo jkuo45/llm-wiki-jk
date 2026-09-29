@@ -38344,5 +38344,1335 @@
     "source_document": "Isatin.md",
     "created": "2026-09-29T14:56:28Z",
     "updated": "2026-09-29T14:56:28Z"
+  },
+  {
+    "id": "f2c97e89b367",
+    "subject": "Advanced Glycation End Products",
+    "predicate": "cross_links",
+    "object": "Collagen",
+    "context": {
+      "en-US": "Advanced Glycation End Products (AGEs) form covalent cross-links with arterial collagen and elastin, replacing compliant elastin with a rigid, non-extensible matrix. This AGE-mediated cross-linking is the central molecular driver of arterial stiffening: loss of compliance in large elastic arteries raises systolic and pulse pressure, increases left-ventricular afterload, and damages small vessels in brain and kidney.",
+      "zh-TW": "Advanced Glycation End Products (AGEs) 與動脈的 collagen 與 elastin 形成共價交聯，將具彈性的 elastin 替換為僵硬、不可伸展的基質。這種由 AGE 介導的交聯是動脈硬化的核心分子驅動因素：大彈性動脈順應性的喪失會升高收縮壓與脈壓、增加左心室後負荷，並傷害腦與腎臟的小血管。"
+    },
+    "confidence": 0.9,
+    "source_document": "Arterial Stiffening.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "d456968f86fe",
+    "subject": "Glucosepane",
+    "predicate": "causes",
+    "object": "Arterial Stiffening",
+    "context": {
+      "en-US": "Glucosepane is the most abundant and chemically stable advanced glycation end-product cross-link in aged human tissue. Because its formation is essentially irreversible and compounds with oxidation and inflammation, glucosepane accumulation rigidifies the vascular matrix and drives progressive arterial stiffening.",
+      "zh-TW": "Glucosepane 是老化人體組織中最豐富且化學上最穩定的 advanced glycation end-product 交聯。由於其形成實質上不可逆，且會與氧化及發炎加成，glucosepane 的累積使血管基質僵硬化，驅動漸進性的動脈硬化。"
+    },
+    "confidence": 0.9,
+    "source_document": "Arterial Stiffening.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "b1aa64ae3f01",
+    "subject": "Arterial Stiffening",
+    "predicate": "is_associated_with",
+    "object": "Aging",
+    "context": {
+      "en-US": "Arterial stiffening is fundamentally an age-related loss of arterial compliance, reflected by rising pulse-wave velocity, and is a major contributor to cardiovascular aging and cognitive decline. Clinically it predicts adverse cardiovascular events more strongly than chronological age alone, which is why it is used as a geroscience biomarker.",
+      "zh-TW": "動脈硬化本質上是與年齡相關的動脈順應性喪失，表現為脈搏波速度上升，並且是心血管老化與認知衰退的主要促成因素。在臨床上，它對不良心血管事件的預測力比單純的實足年齡更強，因此被用作 geroscience 生物標記。"
+    },
+    "confidence": 0.9,
+    "source_document": "Arterial Stiffening.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "7306c39c2ba3",
+    "subject": "BluB-like",
+    "predicate": "reverses",
+    "object": "Arterial Stiffening",
+    "context": {
+      "en-US": "BluB-like glucosepane-cleaving enzymes are being developed as cross-link breakers that could reverse the matrix rigidification underlying arterial stiffening. Since glucosepane resists mammalian enzymatic repair, bacterial biocatalysts able to hydrolyse the bridge are a mechanistically distinct route to restoring vascular elasticity.",
+      "zh-TW": "BluB-like 的 glucosepane 切割酵素正被開發為 cross-link breakers，可望逆轉造成動脈硬化的基質僵硬化。由於 glucosepane 抗拒哺乳類的酵素性修復，能水解該交聯橋的細菌生物催化劑是恢復血管彈性的另一種機制上不同的途徑。"
+    },
+    "confidence": 0.75,
+    "source_document": "Arterial Stiffening.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "ffcafd3a6187",
+    "subject": "Assay",
+    "predicate": "measures",
+    "object": "Superoxide anion",
+    "context": {
+      "en-US": "In adrenochrome research, assays are used to quantify the superoxide anion radical generated during the conversion of epinephrine to adrenochrome. These assays typically exploit the co-oxidation of a detector compound such as oxyhemoglobin, making superoxide production a measurable proxy for catecholamine oxidation rate.",
+      "zh-TW": "在 adrenochrome 研究中，分析方法用於定量 Epinephrine 轉變為 Adrenochrome 過程中產生的 superoxide anion 自由基。此類分析通常利用 Oxyhemoglobin 等偵測物的共氧化作用，使 superoxide 的生成量成為兒茶酚胺氧化速率的可測代理指標。"
+    },
+    "confidence": 0.85,
+    "source_document": "Assay.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "f8c29ebac87c",
+    "subject": "Assay",
+    "predicate": "uses",
+    "object": "Oxyhemoglobin",
+    "context": {
+      "en-US": "Superoxide-sensitive assays of adrenochrome generation rely on oxyhemoglobin as a co-oxidation reporter: superoxide oxidizes the ferrous heme iron of oxyhemoglobin, and the resulting metmyoglobin formation is quantified spectrophotometrically to infer radical flux.",
+      "zh-TW": "偵測 Adrenochrome 生成量的 superoxide 敏感分析方法以 Oxyhemoglobin 作為共氧化報告物：superoxide 將 Oxyhemoglobin 中的二價血基質鐵氧化，所生成的 metmyoglobin 再以分光光度法定量，用以推估自由基通量。"
+    },
+    "confidence": 0.8,
+    "source_document": "Assay.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "e5e3ce8fdb7e",
+    "subject": "Atrogin-1",
+    "predicate": "is_regulated_by",
+    "object": "FOXO",
+    "context": {
+      "en-US": "Atrogin-1 (FBXO32) is a muscle-specific E3 ubiquitin ligase whose expression is transcriptionally controlled by FoxO family factors. FoxO activation, which occurs under fasting, denervation and other atrophic stimuli, drives Atrogin-1 transcription and thereby initiates the ubiquitin-proteasome program for myofibrillar protein disposal.",
+      "zh-TW": "Atrogin-1 (FBXO32) 是肌肉特異性的 E3 泛素連接酶，其表現受 FoxO 家族轉錄因子調控。在禁食、失去神經支配及其他萎縮刺激下，FoxO 被活化並驅動 Atrogin-1 的轉錄，進而啟動肌原纖維蛋白的泛素－蛋白酶體分解程序。"
+    },
+    "confidence": 0.9,
+    "source_document": "Atrogin-1.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "c089f70dac84",
+    "subject": "Atrogin-1",
+    "predicate": "is_downregulated_by",
+    "object": "Urolithin A",
+    "context": {
+      "en-US": "Urolithin A, a gut-derived metabolite produced by ellagitannin-metabolizing bacteria, downregulates Atrogin-1 expression. Lowering this muscle-specific atrogene preserves muscle mass and is part of the mechanistic basis for urolithin A's pro-mitochondrial and anti-aging effects.",
+      "zh-TW": "Urolithin A 是由可把 ellagitannin 代謝的腸道細菌產生的腸道衍生代謝物，它會下調 Atrogin-1 的表現。降低這個肌肉特異性萎縮基因的表現可保留肌肉量，也是 urolithin A 促進粒線體與抗老化作用的機制基礎之一。"
+    },
+    "confidence": 0.85,
+    "source_document": "Atrogin-1.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "e0c741833b9f",
+    "subject": "Atrogin-1",
+    "predicate": "targets",
+    "object": "Ubiquitin-dependent 20S proteasome",
+    "context": {
+      "en-US": "Atrogin-1 acts within the ubiquitin-proteasome system: it ubiquitinates specific myofibrillar and structural proteins, marking them for delivery to and degradation by the 20S proteasome. This selective targeting is why Atrogin-1, rather than bulk proteolysis, governs muscle atrophy.",
+      "zh-TW": "Atrogin-1 作用於泛素－蛋白酶體系統：它將特定的肌原纖維蛋白與結構蛋白泛素化，標記它們以被送入並由 20S 蛋白酶體降解。正是這種選擇性標靶作用，使肌肉萎縮由 Atrogin-1 而非整體蛋白分解來主導。"
+    },
+    "confidence": 0.75,
+    "source_document": "Atrogin-1.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "6d961d4279a2",
+    "subject": "Epinephrine",
+    "predicate": "undergoes",
+    "object": "Autoxidation",
+    "context": {
+      "en-US": "Epinephrine, like other catecholamines, is unusually prone to autoxidation in open air and at physiological or alkaline pH. The free-radical chain reaction proceeds through adrenaline-quinone and leuco-adrenochrome intermediates, and the rate rises roughly ten-fold per unit increase in pH above 7.0 because the catecholate anion is far more easily oxidized.",
+      "zh-TW": "Epinephrine 與其他兒茶酚胺一樣，在空氣中以及生理或鹼性 pH 下特別容易發生 autoxidation。這個自由基鏈反應經由 Adrenaline-quinone 與 Leuco-adrenochrome 中間物進行；pH 高於 7.0 時，每上升一個 pH 單位反應速率約提高十倍，因為 catecholate 陰離子更易被氧化。"
+    },
+    "confidence": 0.9,
+    "source_document": "Autoxidation.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "670763017192",
+    "subject": "Autoxidation",
+    "predicate": "produces",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "Oxygen-driven autoxidation of epinephrine terminates in adrenochrome (and, downstream, melanins). Because the catechol ring of the catecholamine is exceptionally susceptible to hydrogen-atom abstraction, yielding semiquinone radical intermediates that accelerate propagation, adrenochrome accumulation is a direct and unavoidable consequence of catecholamine exposure to oxygen.",
+      "zh-TW": "Epinephrine 受氧驅動的 autoxidation 最終生成 Adrenochrome（下游則生成 Melanins）。由於兒茶酚胺的 catechol 環極易發生氫原子抽離、產生能加速鏈傳播的半醌自由基中間物，Catecholamine 接觸氧氣所導致的 Adrenochrome 累積，是直接且無可避免的結果。"
+    },
+    "confidence": 0.9,
+    "source_document": "Autoxidation.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "c192833a8e7e",
+    "subject": "Chelating agents",
+    "predicate": "reduces",
+    "object": "Autoxidation",
+    "context": {
+      "en-US": "Chelators such as EDTA suppress epinephrine autoxidation by sequestering the catalytic transition metals, chiefly Fe2+ and Cu+, that drive Fenton-type hydroperoxide decomposition. Blocking these metal ions removes the most efficient initiators of the radical chain, and chelators such as these are therefore standard additives in epinephrine formulations alongside antioxidants.",
+      "zh-TW": "EDTA 等螯合劑藉由隔離主要催化鏈反應的過渡金屬（尤其是 Fe2+ 與 Cu+）來抑制 Epinephrine 的 autoxidation；這些金屬以 Fenton 型化學分解過氧化氫物。阻斷這些金屬離子即移除了自由基鏈最有效的起始機制，因此這類螯合劑與抗氧化劑同為 Epinephrine 處方中的標準添加物。"
+    },
+    "confidence": 0.85,
+    "source_document": "Autoxidation.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "3665cb70b7ff",
+    "subject": "Antioxidants",
+    "predicate": "inhibits",
+    "object": "Autoxidation",
+    "context": {
+      "en-US": "Antioxidants such as sodium metabisulfite and ascorbic acid act as sacrificial reductants that intercept propagating radicals in epinephrine preparations, slowing the chain reaction. Together with chelating agents, acidic pH buffering, inert-gas headspace purging and oxygen-impermeable packaging, they limit — but never fully eliminate — trace adrenochrome in aged formulations.",
+      "zh-TW": "Sodium Metabisulfite 與 Ascorbic Acid 等抗氧化劑作為牺牲性還原劑，在 Epinephrine 製劑中攔截傳播中的自由基、減慢鏈反應。它們與螯合劑、酸性 pH 緩衝、惰性氣體頂空置換及不透氧包裝共同作用，可減少——但絕無法完全消除——老化製劑中的微量 Adrenochrome。"
+    },
+    "confidence": 0.85,
+    "source_document": "Autoxidation.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "bc404d1ae428",
+    "subject": "Benzocaine",
+    "predicate": "causes",
+    "object": "Methemoglobinemia",
+    "context": {
+      "en-US": "Benzocaine is an ester-type local anaesthetic used in over-the-counter teething gels, topical sprays and sunburn remedies, and it is a well-recognized cause of acquired methemoglobinemia. Even modest systemic absorption — especially in infants, with mucosal application or at high doses — can produce cyanosis, chocolate-coloured blood and hypoxia.",
+      "zh-TW": "Benzocaine 是非處方牙膠、外用噴劑與防曬製劑中常用的酯類局部麻醉藥，也是後天性 Methemoglobinemia 的公認病因。即使只有有限的全身吸收——在嬰兒、黏膜給藥或高劑量時尤其明顯——也可能造成發紺、巧克力色血液與低血氧。"
+    },
+    "confidence": 0.9,
+    "source_document": "Benzocaine.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "911cdf37a5c5",
+    "subject": "Benzocaine",
+    "predicate": "oxidizes",
+    "object": "Hemoglobin",
+    "context": {
+      "en-US": "Benzocaine is metabolically bioactivated, largely within erythrocytes, to an oxidizing metabolite that converts the ferrous heme iron (Fe2+) of hemoglobin to ferric heme (Fe3+). The resulting methemoglobin cannot carry oxygen and shifts the oxygen-dissociation curve leftward, which is the proximate cause of benzocaine-induced hypoxia.",
+      "zh-TW": "Benzocaine 會被代謝生體活化（主要發生在紅血球內），產生氧化性代謝物，把 Hemoglobin 的二價血基質鐵（Fe2+）氧化為三價（Fe3+）。所生成的 Methemoglobin 無法攜帶氧氣，並使氧解離曲線左移，這就是 Benzocaine 造成低血氧的直接原因。"
+    },
+    "confidence": 0.9,
+    "source_document": "Benzocaine.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "0079e146a895",
+    "subject": "Bismuth",
+    "predicate": "catalyzes",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "Water-soluble bismuth salts — bismuth nitrate, oxynitrate, oxycarbonate and citrate — are used as catalysts to prepare adrenochrome by oxidizing epinephrine (or its salts) with persulfates in aqueous medium at pH 4-8. Bismuth thus functions as the transition-metal catalyst that accelerates the epinephrine-to-adrenochrome conversion in industrial synthesis.",
+      "zh-TW": "水溶性 Bismuth 鹽（如硝酸鉍、鹼式硝酸鉍、鹼式碳酸鉍與檸檬酸鉍）被用作催化劑，在 pH 4–8 的水溶液中以 Persulfates 氧化 Epinephrine（或其鹽類）以製備 Adrenochrome。Bismuth 因此充當工業合成中加速 Epinephrine 轉為 Adrenochrome 的過渡金屬催化劑。"
+    },
+    "confidence": 0.85,
+    "source_document": "Bismuth.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "7b365e85a767",
+    "subject": "Bismuth",
+    "predicate": "catalyzes",
+    "object": "Oxidation",
+    "context": {
+      "en-US": "In adrenochrome manufacturing, bismuth salts accelerate the persulfate oxidation of epinephrine. Their catalytic effect lowers the activation barrier for one-electron oxidation of the catechol moiety, which is the rate-limiting step in converting the precursor into the quinone that cyclises to the product.",
+      "zh-TW": "在 Adrenochrome 的製造中，Bismuth 鹽能加速 Persulfates 對 Epinephrine 的氧化。其催化效果降低了 catechol 基團單電子氧化的活化能，而這一步正是將前驅物轉為可環化生成產物的醌類之速率限制步驟。"
+    },
+    "confidence": 0.8,
+    "source_document": "Bismuth.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "1d6f4722b8ed",
+    "subject": "Bisulfite",
+    "predicate": "is_a_type_of",
+    "object": "Antioxidants",
+    "context": {
+      "en-US": "Bisulfite (HSO3-), and sodium bisulfite in particular, is among the antioxidants routinely incorporated into epinephrine formulations. As a reducing agent it intercepts propagating radicals during storage, slowing the oxidative degradation of the active drug.",
+      "zh-TW": "Bisulfite（HSO3-），尤其是 Sodium Metabisulfite，是 routinely 添加於 Epinephrine 製劑中的抗氧化劑之一。作為還原劑，它在儲存期間攔截傳播中的自由基，減慢活性藥物的氧化降解。"
+    },
+    "confidence": 0.9,
+    "source_document": "Bisulfite.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "f68ecb2a3b80",
+    "subject": "Bisulfite",
+    "predicate": "reacts_with",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "Antioxidant bisulfite is not inert toward oxidation products: in epinephrine formulations it reacts with already-formed adrenochrome under light exposure to generate adrenochrome sulfonate, an additional degradant. This light-dependent secondary reaction means bisulfite can paradoxically add a new impurity rather than only prevent oxidation.",
+      "zh-TW": "作為抗氧化劑的 Bisulfite 對氧化產物並非惰性：在 Epinephrine 製劑中，它會在光照下與已形成的 Adrenochrome 反應生成 Adrenochrome sulfonate 这一額外降解物。這種依賴光的次級反應意味著 Bisulfite 反而可能新增一種雜質，而不只是防止氧化。"
+    },
+    "confidence": 0.85,
+    "source_document": "Bisulfite.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "8907cc64b1d7",
+    "subject": "Sodium Metabisulfite",
+    "predicate": "is_a_source_of",
+    "object": "Bisulfite",
+    "context": {
+      "en-US": "Sodium metabisulfite is the practical antioxidant form in which bisulfite is delivered to epinephrine formulations; on dissolution it dissociates to supply the bisulfite ion that performs the radical-scavenging and adrenochrome-sulfonate chemistry.",
+      "zh-TW": "Sodium Metabisulfite 是向 Epinephrine 製劑投予 Bisulfite 的實用抗氧化劑形式；溶解後解離供應 Bisulfite 離子，由其執行自由基清除與 Adrenochrome sulfonate 的化學反應。"
+    },
+    "confidence": 0.75,
+    "source_document": "Bisulfite.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "c2fc095aaea1",
+    "subject": "BluB-like",
+    "predicate": "cleaves",
+    "object": "Glucosepane",
+    "context": {
+      "en-US": "BluB-like enzymes are bacterial proteins homologous to BluB, the radical SAM enzyme that builds the lower ligand of vitamin B12. Metagenomic and structural studies identified such biocatalysts in soil and gut-associated microbes that bind and hydrolyse glucosepane, the most abundant and chemically stable advanced glycation cross-link in aged human tissue.",
+      "zh-TW": "BluB-like 酵素是與 BluB（合成維生素 B12 下軸配體的 radical SAM 酵素）同源的細菌蛋白。宏基因組與結構研究在土壤及腸道相關微生物中鑑定出這類生物催化劑，它們能結合並水解 glucosepane——老化人體組織中最豐富且化學上最穩定的 advanced glycation 交聯。"
+    },
+    "confidence": 0.9,
+    "source_document": "BluB-like.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "034aae04987b",
+    "subject": "BluB-like",
+    "predicate": "is_a_type_of",
+    "object": "Cross-link Breakers",
+    "context": {
+      "en-US": "Because glucosepane resists mammalian enzymatic repair, a glucosepane-degrading enzyme would be the first mechanism-based AGE breaker: it removes an already-formed cross-link rather than merely blunting new cross-link formation. BluB-like enzymes therefore occupy the breaker arm of glycation therapeutics, complementary to inhibitors such as alagebrium and aminoguanidine.",
+      "zh-TW": "由於 glucosepane 抗拒哺乳類的酵素性修復，能降解 glucosepane 的酵素將是首個以機制為基礎的 AGE breaker：它移除已形成的交聯，而不只是抑制新交聯的形成。因此 BluB-like 酵素在醣化治療中屬於 breaker 的一支，與 Alagebrium 及 Aminoguanidine 等抑制劑互補。"
+    },
+    "confidence": 0.85,
+    "source_document": "BluB-like.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "17a95f6b388a",
+    "subject": "Glucosepane",
+    "predicate": "is_associated_with",
+    "object": "Arterial Stiffening",
+    "context": {
+      "en-US": "Glucosepane forms irreversibly between lysine and arginine side chains via a glucose-derived dicarbonyl, and its accumulation stiffens collagen and elastin in skin, lens and vasculature. This loss of matrix compliance underlies the arterial stiffening and diabetic complications that glucosepane-cleaving enzymes aim to reverse.",
+      "zh-TW": "Glucosepane 經由葡萄糖衍生的二羰基，在離胺酸與精胺酸側鏈之間不可逆地形成，其累積使皮膚、水晶體與血管中的 collagen 與 elastin 僵硬。這種基質順應性的喪失，正是 glucosepane 切割酵素意欲逆轉的動脈硬化與糖尿病併發症的基礎。"
+    },
+    "confidence": 0.85,
+    "source_document": "BluB-like.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "9be6c0b48969",
+    "subject": "Blue baby syndrome",
+    "predicate": "is_a_type_of",
+    "object": "Methemoglobinemia",
+    "context": {
+      "en-US": "Blue baby syndrome is infantile methemoglobinemia occurring in infants who ingest nitrates, typically from contaminated well water. The nitrates are converted to nitrites in the gut, and the nitrites then oxidize hemoglobin iron to the ferric state, producing methemoglobin that cannot carry oxygen.",
+      "zh-TW": "Blue baby syndrome 是發生於攝入硝酸鹽（常來自受污染的井水）嬰兒的嬰兒型 Methemoglobinemia。硝酸鹽在腸道中被轉為亞硝酸鹽，亞硝酸鹽再將 Hemoglobin 的鐵氧化為三價，生成無法攜氧的 Methemoglobin。"
+    },
+    "confidence": 0.9,
+    "source_document": "Blue baby syndrome.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "9207250683b9",
+    "subject": "Blue baby syndrome",
+    "predicate": "causes",
+    "object": "Cyanosis",
+    "context": {
+      "en-US": "Because the ferric hemoglobin produced in blue baby syndrome cannot bind oxygen, affected infants develop cyanosis — the characteristic blue discolouration of skin and mucous membranes that gives the syndrome its name.",
+      "zh-TW": "由於 Blue baby syndrome 中生成的三價 Hemoglobin 無法結合氧氣，受影響的嬰兒會出現 Cyanosis——也就是皮膚與黏膜特有的發藍變色，此即此症候群名稱的由來。"
+    },
+    "confidence": 0.9,
+    "source_document": "Blue baby syndrome.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "d78d5dee9edf",
+    "subject": "Sodium nitrite",
+    "predicate": "causes",
+    "object": "Methemoglobinemia",
+    "context": {
+      "en-US": "Sodium nitrite and other nitrite/methemoglobin-inducing agents occupy the same mechanistic niche as the nitrate-to-nitrite conversion underlying blue baby syndrome: they oxidize ferrous heme iron directly to the ferric state. Sodium nitrite is accordingly listed among the toxic causes of cardiac arrest and cyanogenic emergencies.",
+      "zh-TW": "Sodium nitrite 與其他亞硝酸鹽／methemoglobin 誘導劑，與 Blue baby syndrome 背後的硝酸鹽轉亞硝酸鹽機制占據相同的機制位置：它們直接將二價血基質鐵氧化為三價。因此 Sodium nitrite 被列為心臟停止與發紺性急症的中毒性病因之一。"
+    },
+    "confidence": 0.75,
+    "source_document": "Blue baby syndrome.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "c838a0571c3d",
+    "subject": "CD157",
+    "predicate": "converts_to",
+    "object": "cADPR",
+    "context": {
+      "en-US": "CD157 (BST-1) is a GPI-anchored ectoenzyme of the ADP-ribosyl cyclase family that cyclises NAD+ to cyclic ADP-ribose, a potent calcium second messenger. Because cADPR activates ryanodine receptors on the endoplasmic reticulum to release Ca2+ into the cytosol, the balance between CD157's cyclase and hydrolase activities sets the amplitude and duration of the calcium signal.",
+      "zh-TW": "CD157 (BST-1) 是 ADP-ribosyl cyclase 家族的 GPI 錨定胞外酵素，能將 NAD+ 環化為 cyclic ADP-ribose——一種強效的鈣離子第二訊使。由於 cADPR 會活化內質網上的 ryanodine receptor，將 Ca2+ 釋放至細胞質，CD157 的 cyclase 與 hydrolase 活性比例便決定了鈣訊號的振幅與持續時間。"
+    },
+    "confidence": 0.9,
+    "source_document": "CD157.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "46c52158a73d",
+    "subject": "CD157",
+    "predicate": "produces",
+    "object": "Nicotinamide",
+    "context": {
+      "en-US": "The predominant CD157 activity in most contexts is NAD+ glycohydrolase activity: hydrolysis of NAD+ to ADP-ribose plus free nicotinamide. Because NAD+ is consumed as a substrate, excess CD157 activity can deplete cellular NAD+ reserves and thereby compromise NAD+-dependent enzymes such as the sirtuins.",
+      "zh-TW": "CD157 在多數情境下的主要活性是 NAD+ 糖苷水解酶活性：將 NAD+ 水解為 ADP-ribose 與游離的 Nicotinamide。由於 NAD+ 被當作底物消耗，過度的 CD157 活性可能耗竭細胞內的 NAD+ 儲備，進而危及 Sirtuins 等依賴 NAD+ 的酵素。"
+    },
+    "confidence": 0.85,
+    "source_document": "CD157.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "9eb0837b4481",
+    "subject": "Parkinson's Disease",
+    "predicate": "is_associated_with",
+    "object": "CD157",
+    "context": {
+      "en-US": "The BST1 locus encoding CD157 is a well-established GWAS risk locus for sporadic Parkinson's Disease; independent studies identified risk SNPs including rs11724635 and rs4698412. The proposed mechanism involves altered CD157 expression or activity affecting dopaminergic neuron vulnerability, with reduced cADPR impairing calcium buffering and mitochondrial function in substantia nigra neurons.",
+      "zh-TW": "編碼 CD157 的 BST1 位點是散發性 Parkinson's Disease 的公認 GWAS 風險位點；獨立研究鑑定出包括 rs11724635 與 rs4698412 在內的風險 SNP。提出的機制是 CD157 表現或活性改變，影響 Dopaminergic Neurons 的易損性；cADPR 減少會損害 substantia nigra 神經元的鈣緩衝與粒線體功能。"
+    },
+    "confidence": 0.85,
+    "source_document": "CD157.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "4ee294944eb9",
+    "subject": "CD157",
+    "predicate": "is_expressed_in",
+    "object": "Neutrophils",
+    "context": {
+      "en-US": "CD157 is expressed on monocytes, macrophages, neutrophils and bone marrow stromal cells. In neutrophils it acts both as a cell adhesion molecule interacting with integrins on adjacent cells and as a regulator of migration and transendothelial extravasation, thereby contributing to leukocyte trafficking during inflammation.",
+      "zh-TW": "CD157 表現於 Monocytes、Macrophages、Neutrophils 以及骨髓基質細胞。在 Neutrophils 中，它既作為與鄰近細胞 Integrins 交互作用的黏附分子，也調控其移行與跨內皮外滲，藉此在發炎期間促進白血球運輸。"
+    },
+    "confidence": 0.85,
+    "source_document": "CD157.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "a8c4e337cb2e",
+    "subject": "CD157",
+    "predicate": "is_expressed_in",
+    "object": "Macrophages",
+    "context": {
+      "en-US": "Beyond its enzymatic role, CD157 on macrophages and monocytes supports haematopoiesis by providing trophic signals to developing progenitors in the bone marrow microenvironment, while its cADPR and ADP-ribose production influences progenitor proliferation and differentiation.",
+      "zh-TW": "除了酵素作用之外，表現於 Macrophages 與 Monocytes 的 CD157 藉由在骨髓微環境中提供滋養訊號來支持造血，其 cADPR 與 ADP-ribose 的生成也會影響前驅細胞的增殖與分化。"
+    },
+    "confidence": 0.8,
+    "source_document": "CD157.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "4653f9402488",
+    "subject": "Carbazochrome sulfonic acid",
+    "predicate": "is_a_derivative_of",
+    "object": "Carbazochrome",
+    "context": {
+      "en-US": "Carbazochrome sulfonic acid is a highly water-soluble sulfonate derivative of carbazochrome. The sulfonation greatly improves aqueous solubility and is what makes carbazochrome clinically usable as an injectable haemostatic agent.",
+      "zh-TW": "Carbazochrome sulfonic acid 是 Carbazochrome 的高水溶性磺酸衍生物。此磺化大幅提升水溶性，也正是使 Carbazochrome 能作為可注射止血藥物在臨床上使用的原因。"
+    },
+    "confidence": 0.9,
+    "source_document": "Carbazochrome sulfonic acid.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "49211058926a",
+    "subject": "Carbazochrome sulfonic acid",
+    "predicate": "inhibits",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Beyond its haemostatic indication, conflicting reports indicate that carbazochrome sulfonic acid can inhibit autophagy in some cellular contexts. This matters for mitohormetic redox-relay strategies in which therapeutic benefit depends on mitophagic clearance of damaged mitochondria.",
+      "zh-TW": "在止血適應症之外，有互相衝突的報告指出 Carbazochrome sulfonic acid 在某些細胞情境下可能抑制 Autophagy。這對以線粒體自噬清除受損粒線體來獲益的 mitohormetic redox-relay 策略而言具有重要性。"
+    },
+    "confidence": 0.7,
+    "source_document": "Carbazochrome sulfonic acid.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "1551898cb8bb",
+    "subject": "Carbazochrome sulfonic acid",
+    "predicate": "inhibits",
+    "object": "Mitophagy",
+    "context": {
+      "en-US": "Because its reported autophagy-inhibiting activity can compromise mitophagic clearance, carbazochrome sulfonic acid is a potential liability for protocols that rely on selective mitophagy to remove dysfunctional mitochondria — a caution flagged in the context of mitohormesis-based therapeutics.",
+      "zh-TW": "由於其被報告的自噬抑制活性可能損害線粒體自噬的清除作用，Carbazochrome sulfonic acid 對依賴選擇性 Mitophagy 移除失能粒線體的方案而言是潛在的干擾因子——這是在基於 mitohormesis 的治療語境中所標記的警示。"
+    },
+    "confidence": 0.6,
+    "source_document": "Carbazochrome sulfonic acid.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "a04b80b0789b",
+    "subject": "Myocardial infarction",
+    "predicate": "causes",
+    "object": "Cardiac arrest",
+    "context": {
+      "en-US": "Acute coronary syndrome, and myocardial infarction in particular, accounts for the majority of sudden cardiac arrest cases, particularly those presenting with shockable rhythms. The occlusion deprives myocardium of oxygen, producing global ischaemia that depletes ATP, generates metabolic acidosis and intracellular Ca2+ overload, and promotes the electrical instability that degenerates into ventricular fibrillation or asystole.",
+      "zh-TW": "急性冠狀動脈症候群——尤其是 Myocardial infarction——構成大多數突發性 Cardiac arrest 病例，尤其是以可電擊心律呈現者。阻塞使心肌缺氧，造成全面缺血、ATP 耗竭、代謝性 Acidosis 與細胞內 Ca2+ 過載，並促成退化為心室顫動或無脈搏的電氣不穩定。"
+    },
+    "confidence": 0.85,
+    "source_document": "Cardiac arrest.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "c6b0981f7b92",
+    "subject": "Epinephrine",
+    "predicate": "treats",
+    "object": "Cardiac arrest",
+    "context": {
+      "en-US": "Epinephrine 1 mg IV/IO every 3-5 minutes is standard therapy in cardiac arrest resuscitation. Its alpha-adrenergic vasoconstrictor effect augments aortic diastolic pressure and improves coronary and cerebral perfusion during chest compressions, raising ROSC rates — but despite this, no controlled trial has demonstrated improved survival with favourable neurological outcome, and beta-adrenergic effects may worsen myocardial stunning.",
+      "zh-TW": "Cardiac arrest 復甦中，每 3–5 分鐘靜脈或骨內給予 Epinephrine 1 mg 是標準治療。其 α-腎上腺素性血管收縮作用提高主動脈舒張壓，在胸外按壓期間改善冠狀動脈與腦部灌流，提升 ROSC 率——但儘管如此，沒有任何對照試驗證明可改善具良好神經結局的存活率，且 β-腎上腺素作用可能加重心肌 stunning。"
+    },
+    "confidence": 0.9,
+    "source_document": "Cardiac arrest.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "87b6e8d037e3",
+    "subject": "Cardiac arrest",
+    "predicate": "is_induced_by",
+    "object": "Hypoxia",
+    "context": {
+      "en-US": "Hypoxia heads the 'H's of the cardiac arrest differential and is the single most immediately reversible precipitant: each minute without intervention reduces survival by 7-10%. Airway and breathing management with bag-mask ventilation, supraglottic devices or endotracheal intubation, confirmed by capnography, is therefore the first link of the chain of survival.",
+      "zh-TW": "Hypoxia 之所以排在 Cardiac arrest 鑑別診斷「H's」之首，是因為它是唯一可立即逆轉的誘因：每延誤一分鐘，存活率下降 7–10%。因此，以袋面罩通氣、聲門上型氣道裝置或氣管插管進行氣道與呼吸管理（並以二氧化碳波形圖確認）是生存鏈的第一環。"
+    },
+    "confidence": 0.85,
+    "source_document": "Cardiac arrest.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "f3471b2a4600",
+    "subject": "Cardiac arrest",
+    "predicate": "activates",
+    "object": "NLRP3 Inflammasome",
+    "context": {
+      "en-US": "After return of spontaneous circulation, reperfusion exacerbates tissue damage through oxidative stress, mitochondrial permeability transition and NLRP3 inflammasome activation. The resulting post-cardiac arrest syndrome couples reversible myocardial stunning with anoxic brain injury and a systemic inflammatory response resembling sepsis driven by cytokine release and neutrophil activation.",
+      "zh-TW": "自發性循環恢復（ROSC）之後，再灌流透過氧化壓力、粒線體通透性轉換與 NLRP3 Inflammasome 活化而加重組織損傷。由於 ROSC 後症候群結合了可逆的心肌 stunning、缺氧性腦損傷，以及由細胞激素釋放與 Neutrophils 活化所驅動、類似 Sepsis 的全身發炎反應。"
+    },
+    "confidence": 0.8,
+    "source_document": "Cardiac arrest.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "c14dd057448b",
+    "subject": "Cardiomyocytes",
+    "predicate": "consumes",
+    "object": "ATP",
+    "context": {
+      "en-US": "Cardiomyocytes have extraordinarily high energy demands, consuming on the order of 30 kg of ATP daily. Because the heart has very limited glycolytic capacity and minimal glycogen stores, it depends critically on oxidative phosphorylation and is therefore exquisitely vulnerable to ischaemia.",
+      "zh-TW": "Cardiomyocytes 的能量需求極高，每日消耗約 30 公斤的 ATP。由於心臟糖解能力非常有限且肝醣儲備極少，它嚴重依賴氧化磷酸化，因此對 Ischemia 極為脆弱。"
+    },
+    "confidence": 0.9,
+    "source_document": "Cardiomyocytes.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "2de91b074bf1",
+    "subject": "Adrenochrome",
+    "predicate": "depletes",
+    "object": "Glutathione",
+    "context": {
+      "en-US": "In isolated cardiomyocyte preparations adrenochrome generates superoxide by redox cycling, inhibits mitochondrial complexes I and II, and depletes glutathione. These convergent mitochondrial and antioxidant insults link epinephrine oxidation to the cardiomyocyte injury seen in catecholamine-induced cardiomyopathy.",
+      "zh-TW": "在分離的 cardiomyocyte 製備物中，Adrenochrome 透過 redox cycling 產生 superoxide、抑制粒線體複合體 I 與 II，並耗竭 Glutathione。這些同時作用於粒線體與抗氧化系統的傷害，將 Epinephrine 的氧化與兒茶酚胺所致心肌病變中的 cardiomyocyte 損傷連結起來。"
+    },
+    "confidence": 0.85,
+    "source_document": "Cardiomyocytes.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "48a8e4fca50d",
+    "subject": "Catecholamines",
+    "predicate": "causes",
+    "object": "Cardiotoxicity",
+    "context": {
+      "en-US": "Excess catecholamines, whether from emotional or physiological stress, pheochromocytoma or exogenous infusion, produce well-characterised cardiotoxicity through three mechanisms: Ca2+ overload from sustained beta-adrenergic drive and RyR2-mediated SR leak, ROS generation that impairs mitochondrial respiration and triggers apoptosis and necrosis, and contraction band necrosis as the histopathological hallmark.",
+      "zh-TW": "過量的 Catecholamines——不論來自情緒或生理壓力、Pheochromocytoma 或外源性輸注——透過三種機制產生明確的 Cardiotoxicity：持續 β-腎上腺素刺激與 RyR2 介導的肌漿網漏鈣所造成的 Ca2+ 過載；損害粒線體呼吸並誘發 Apoptosis 與 Necrosis 的 ROS 生成；以及作為組織病理學特徵的收縮帶壞死。"
+    },
+    "confidence": 0.9,
+    "source_document": "Cardiomyocytes.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "c96d2fbd9486",
+    "subject": "Catecholamines",
+    "predicate": "causes",
+    "object": "Mitochondrial Permeability Transition Pore",
+    "context": {
+      "en-US": "Sustained beta-adrenergic activation in cardiomyocytes drives excessive L-type Ca2+ current and RyR2-mediated sarcoplasmic reticulum Ca2+ leak, producing cytosolic Ca2+ overload. The excess calcium is taken up by mitochondria via the uniporter, and the resulting matrix calcium load opens the mitochondrial permeability transition pore — the committing event of ischaemia-reperfusion necrosis.",
+      "zh-TW": "Cardiomyocytes 中持續的 β-腎上腺素活化會驅動過度的 L-type Ca2+ 電流與 RyR2 介導的肌漿網漏鈣，造成細胞質 Ca2+ 過載。過量鈣離子經由 uniporter 被粒線體攝入，導致基質鈣負荷上升，進而開啟 Mitochondrial Permeability Transition Pore——這是 ischemia-reperfusion 壞死的關鍵事件。"
+    },
+    "confidence": 0.8,
+    "source_document": "Cardiomyocytes.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "09b3bc2f625d",
+    "subject": "Norepinephrine",
+    "predicate": "induces",
+    "object": "Cardiomyocytes",
+    "context": {
+      "en-US": "Cardiomyocytes undergo hypertrophic growth in response to pressure overload or to neurohumoral activation by agents such as norepinephrine and angiotensin II. The response is initially adaptive, but sustained hypertrophy progresses to diastolic dysfunction, fibrosis and eventual heart failure.",
+      "zh-TW": "Cardiomyocytes 會因壓力負荷過重，或因 Norepinephrine 與 angiotensin II 等神經體液活化因子而產生肥大反應。此反應起初具有適應性，但持續的肥大會進展為舒張功能障礙、纖維化，最終導致 Heart Failure。"
+    },
+    "confidence": 0.8,
+    "source_document": "Cardiomyocytes.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "fcb88900fa8b",
+    "subject": "Cardiomyocytes",
+    "predicate": "relies_on",
+    "object": "Mitochondria",
+    "context": {
+      "en-US": "Mitochondria occupy up to 30-40% of ventricular cardiomyocyte volume, arranged in ordered chains between myofibrils and beneath the sarcolemma. This high density reflects the enormous ATP demand of continuous contraction; 60-90% of ATP normally derives from fatty acid oxidation, with the remainder from glucose and lactate, making the healthy heart substrate-flexible but critically oxidative-phosphorylation-dependent.",
+      "zh-TW": "Mitochondria 佔心室型 Cardiomyocytes 細胞體積的 30–40%，排列在肌原纖維之間與肌漿膜下的規則鏈狀結構中。如此高的密度反映持續收縮的巨大 ATP 需求；正常情況下 60–90% 的 ATP 來自脂肪酸氧化，其餘來自 Glucose 與 Lactate，使健康心臟具有受質彈性，卻也極度依賴氧化磷酸化。"
+    },
+    "confidence": 0.85,
+    "source_document": "Cardiomyocytes.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "b48c6e4bb02e",
+    "subject": "Myocardial infarction",
+    "predicate": "causes",
+    "object": "Necrosis",
+    "context": {
+      "en-US": "Acute myocardial infarction deprives cardiomyocytes of oxygen, causing ATP depletion, ion pump failure and eventual necrosis. Paradoxically, reperfusion of the ischaemic myocardium amplifies injury through a burst of ROS, mPTP opening and calcium overload — a phenomenon mitigated by ischaemic preconditioning.",
+      "zh-TW": "急性 Myocardial Infarction 使 Cardiomyocytes 缺氧，造成 ATP 耗竭、離子幫浦失效並最終導致 Necrosis。矛盾的是，再灌流缺血心肌反而透過 ROS 暴增、mPTP 開啟與鈣過載而放大損傷——此現象可由 ischemic preconditioning 加以緩解。"
+    },
+    "confidence": 0.85,
+    "source_document": "Cardiomyocytes.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "b5d36f379596",
+    "subject": "Adrenochrome",
+    "predicate": "causes",
+    "object": "Cardiotoxicity",
+    "context": {
+      "en-US": "Adrenochrome is recognised as a cardiotoxic agent whose formation during periods of high stress or myocardial infarction damages the heart. It generates superoxide and other reactive oxygen species, can uncouple oxidative phosphorylation in heart mitochondria with loss of ATP production and cell death, and at high local concentration is linked to post-ischaemic myocardial stunning.",
+      "zh-TW": "Adrenochrome 被認定為具心臟毒性的物質，在高壓力或 Myocardial Infarction 期間的形成會損傷心臟。它產生 superoxide 與其他 Reactive Oxygen Species，可使心臟粒線體的氧化磷酸化解偶聯，造成 ATP 喪失與細胞死亡；在局部濃度高時，則與缺血後的心肌 stunning 相關。"
+    },
+    "confidence": 0.9,
+    "source_document": "Cardiotoxicity.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "e66fa4b53be0",
+    "subject": "Adrenochrome",
+    "predicate": "causes",
+    "object": "Arrhythmias",
+    "context": {
+      "en-US": "Adrenochrome directly causes cardiac rhythm disturbances by prolonging the action potential duration and provoking early afterdepolarizations in cardiomyocytes. The mechanism involves inhibition of delayed rectifier potassium currents (IKr) together with increased intracellular calcium loading from redox-dependent modification of calcium handling proteins, recapitulating a long QT-like phenotype.",
+      "zh-TW": "Adrenochrome 藉由延長 cardiomyocyte 的動作電位期間並誘發早期後去極化，直接造成心律不整。其機制涉及抑制延遲整流鉀電流（IKr），以及因氧化還原依賴性地修飾鈣處理蛋白而造成的細胞內鈣負荷增加，重現出類似 long QT 的表型。"
+    },
+    "confidence": 0.9,
+    "source_document": "Cardiotoxicity.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "a36f2e18919f",
+    "subject": "Adrenochrome",
+    "predicate": "consumes",
+    "object": "Nitric Oxide",
+    "context": {
+      "en-US": "Adrenochrome is a potent coronary vasoconstrictor: it generates superoxide that consumes endothelium-derived nitric oxide, producing endothelial dysfunction, impaired vasodilation and contraction of coronary smooth muscle. The resulting reduction in myocardial blood flow is the vasospastic component of its cardiotoxic profile.",
+      "zh-TW": "Adrenochrome 是強效的冠狀動脈血管收縮劑：它產生的 superoxide 會消耗來自內皮的 Nitric Oxide，造成內皮功能障礙、血管擴張受損與冠狀動脈平滑肌收縮。其結果是心肌血流量下降，這構成了 Adrenochrome 心臟毒性輪廓中的血管痙攣成分。"
+    },
+    "confidence": 0.85,
+    "source_document": "Cardiotoxicity.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "1c066b93e271",
+    "subject": "Adrenochrome",
+    "predicate": "causes",
+    "object": "Necrosis",
+    "context": {
+      "en-US": "At sufficiently high local concentrations, adrenochrome triggers direct necrotic cell death in the myocardium via uncontrolled redox cycling and ATP depletion. Because neutrophil infiltration combined with high adrenaline levels during myocardial infarction drives massive adrenochrome formation, this necrotic mechanism amplifies infarct-associated tissue damage.",
+      "zh-TW": "在足夠高的局部濃度下，Adrenochrome 會透過失控的 Redox Cycling 與 ATP 耗竭，直接觸發心肌的 Necrosis。由於 Myocardial Infarction 期間 Neutrophils 浸潤合併高濃度 adrenaline 會促成大量 Adrenochrome 形成，此壞死機制遂放大與梗死相關的組織損傷。"
+    },
+    "confidence": 0.85,
+    "source_document": "Cardiotoxicity.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "d7d696071ea6",
+    "subject": "Neutrophils",
+    "predicate": "contributes_to",
+    "object": "Cardiotoxicity",
+    "context": {
+      "en-US": "Neutrophils contribute to cardiotoxicity by producing reactive oxygen species and by participating in the formation of adrenochrome during inflammation. In myocardial infarction their infiltration coincides with high adrenaline levels, yielding massive adrenochrome formation that worsens tissue damage.",
+      "zh-TW": "Neutrophils 透過產生 Reactive Oxygen Species，並在發炎過程中參與 Adrenochrome 的形成，而促成心臟毒性。在 Myocardial Infarction 中，其浸潤伴隨高濃度 adrenaline，造成大量 Adrenochrome 生成，加劇組織損傷。"
+    },
+    "confidence": 0.8,
+    "source_document": "Cardiotoxicity.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "7f4354d427c5",
+    "subject": "Caspase-1",
+    "predicate": "cleaves",
+    "object": "Interleukin 1β",
+    "context": {
+      "en-US": "Caspase-1 is the effector protease of the inflammasome pathway: when activated by the NLRP3 inflammasome (or by the AIM2 inflammasome via ASC specks), it proteolytically cleaves Interleukin 1β from its inactive precursor into its mature, secreted, active form.",
+      "zh-TW": "Caspase-1 是發炎小體路徑的效應蛋白酶：當它被 NLRP3 Inflammasome（或經由 ASC 斑塊的 AIM2 Inflammasome）活化時，會將 Interleukin 1β 由不活性前驅物蛋白水解切割成成熟、可分泌的活性形式。"
+    },
+    "confidence": 0.95,
+    "source_document": "Caspase-1.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "1c40977ecb34",
+    "subject": "NLRP3 Inflammasome",
+    "predicate": "activates",
+    "object": "Caspase-1",
+    "context": {
+      "en-US": "Activation of the NLRP3 inflammasome culminates in recruitment and activation of caspase-1 within the inflammasome complex, which then matures IL-1β and IL-18. Because these cytokines drive chronic inflammation, caspase-1 activity is a central node in inflammaging.",
+      "zh-TW": "NLRP3 Inflammasome 的活化最終導致 Caspase-1 在發炎小體複合體內被募集並活化，繼而使 IL-1β 與 IL-18 成熟。由於這些細胞激素驅動慢性發炎，Caspase-1 活性是 Inflammaging 的核心節點。"
+    },
+    "confidence": 0.9,
+    "source_document": "Caspase-1.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "20e2e96cbf76",
+    "subject": "Caspase-1",
+    "predicate": "cleaves",
+    "object": "IL-18",
+    "context": {
+      "en-US": "Alongside Interleukin 1β, caspase-1 also matures IL-18. In the DROSHA-AIM2 axis in idiopathic pulmonary fibrosis, DROSHA deficiency suppressed AIM2 inflammasome-dependent caspase-1 activation and consequently IL-1β/IL-18 secretion from alveolar macrophages.",
+      "zh-TW": "除了 Interleukin 1β 之外，Caspase-1 也使 IL-18 成熟。在 Idiopathic Pulmonary Fibrosis 的 DROSHA–AIM2 軸中，DROSha 缺失會抑制 AIM2 Inflammasome 依賴性的 Caspase-1 活化，並因而抑制肺泡巨噬細胞的 IL-1β/IL-18 分泌。"
+    },
+    "confidence": 0.9,
+    "source_document": "Caspase-1.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "b30f14974571",
+    "subject": "AIM2",
+    "predicate": "activates",
+    "object": "Caspase-1",
+    "context": {
+      "en-US": "The AIM2 inflammasome, via ASC specks, recruits and activates caspase-1 downstream of cytosolic DNA sensing. DROSHA promotes this AIM2 inflammasome activation, and DROSHA deficiency suppresses AIM2-dependent caspase-1 activation in alveolar macrophages, linking microRNA maturation to lung inflammation.",
+      "zh-TW": "AIM2 Inflammasome 透過 ASC 斑塊，在胞質 DNA 感測下游募集並活化 Caspase-1。DROSHA 促進此 AIM2 Inflammasome 活化，而 DROSHA 缺失會抑制肺泡巨噬細胞中 AIM2 依賴性的 Caspase-1 活化，將 microRNA 成熟與肺部發炎連結起來。"
+    },
+    "confidence": 0.85,
+    "source_document": "Caspase-1.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "cf4b931e98b1",
+    "subject": "Drosha",
+    "predicate": "promotes",
+    "object": "Caspase-1",
+    "context": {
+      "en-US": "Drosha, the nuclear microRNA-processing enzyme, is elevated in idiopathic pulmonary fibrosis macrophages and promotes caspase-1 activation indirectly through AIM2 inflammasome assembly. Knocking down Drosha therefore blocks the caspase-1 → IL-1β/IL-18 axis that fuels lung inflammation in this disease.",
+      "zh-TW": "Drosha 這個核內 microRNA 加工酵素在 Idiopathic Pulmonary Fibrosis 的巨噬細胞中升高，並藉由 AIM2 Inflammasome 的組裝間接促進 Caspase-1 活化。因此抑制 Drosha 會阻斷推動此疾病肺部發炎的 Caspase-1 → IL-1β/IL-18 軸。"
+    },
+    "confidence": 0.8,
+    "source_document": "Caspase-1.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "fc55203f098e",
+    "subject": "Cathepsin B",
+    "predicate": "localized_to",
+    "object": "Lysosome",
+    "context": {
+      "en-US": "Cathepsin B is a cysteine protease localized to the lysosome, where it contributes to intracellular proteolysis and cellular protein turnover as one of the principal proteases of the lysosomal degradative machinery.",
+      "zh-TW": "Cathepsin B 是定位於 Lysosome 的半胱胺酸蛋白酶，作為溶小體降解機制的主要蛋白酶之一，參與細胞內蛋白水解與蛋白質周轉。"
+    },
+    "confidence": 0.9,
+    "source_document": "Cathepsin B.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "c9b640c068c0",
+    "subject": "Cathepsin B",
+    "predicate": "degrades",
+    "object": "Advanced Glycation End Products",
+    "context": {
+      "en-US": "In coordination with cathepsin D, cathepsin B is a primary protease responsible for degrading intracellular proteins modified by advanced glycation end products. Adequate cathepsin B activity is therefore essential to prevent the accumulation of toxic glycated proteins within the cell.",
+      "zh-TW": "Cathepsin B 與 Cathepsin D 協同，是降解細胞內被 advanced glycation end products 修飾之蛋白質的主要蛋白酶。因此足夠的 Cathepsin B 活性對防止有毒糖化蛋白在細胞內累積是不可或缺的。"
+    },
+    "confidence": 0.85,
+    "source_document": "Cathepsin B.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "bdab5918e75a",
+    "subject": "Cathepsin B",
+    "predicate": "cooperates_with",
+    "object": "Cathepsin D",
+    "context": {
+      "en-US": "The two principal lysosomal proteases act cooperatively: cathepsin B supplies cysteine endopeptidase activity while cathepsin D supplies aspartic endopeptidase activity, and together they constitute the main proteolytic route for clearing AGE-modified intracellular proteins.",
+      "zh-TW": "這兩種主要的溶小體蛋白酶協同作用：Cathepsin B 提供半胱胺酸內肽酶活性，Cathepsin D 提供天門冬胺酸內肽酶活性，兩者共同構成清除 AGE 修飾細胞內蛋白質的主要蛋白水解途徑。"
+    },
+    "confidence": 0.8,
+    "source_document": "Cathepsin B.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "88f8fd9684c5",
+    "subject": "Cathepsin D",
+    "predicate": "degrades",
+    "object": "Advanced Glycation End Products",
+    "context": {
+      "en-US": "Cathepsin D is an aspartic lysosomal protease and, together with cathepsin B, a major driver of the proteolytic degradation of intracellular proteins modified by advanced glycation end products such as N-(carboxymethyl)-lysine, which are targeted to the lysosome for clearance.",
+      "zh-TW": "Cathepsin D 是一種天門冬胺酸型溶小體蛋白酶，與 Cathepsin B 一起，是降解被 Advanced Glycation End Products（如 N-(carboxymethyl)-lysine）修飾之細胞內蛋白質的主要驅動力；這些蛋白質會被導向 Lysosome 加以清除。"
+    },
+    "confidence": 0.85,
+    "source_document": "Cathepsin D.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "c41101639cab",
+    "subject": "Cathepsin D",
+    "predicate": "declines_with",
+    "object": "Aging",
+    "context": {
+      "en-US": "A decrease in cathepsin D activity or expression — often observed during aging or after UV exposure — correlates directly with the cellular accumulation of advanced glycation end products. Loss of this clearance capacity is thus a direct link between aging and progressive glyco-oxidative damage.",
+      "zh-TW": "Cathepsin D 活性或表現的下降——常見於 Aging 期間或 UV 曝曬後——與細胞內 Advanced Glycation End Products 的累積直接相關。這項清除能力的喪失，因而構成 Aging 與漸進性醣氧化損傷之間的直接連結。"
+    },
+    "confidence": 0.85,
+    "source_document": "Cathepsin D.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "3a4b5560fecb",
+    "subject": "Cathepsin D",
+    "predicate": "degrades",
+    "object": "N-(carboxymethyl)-lysine",
+    "context": {
+      "en-US": "The canonical AGE adduct N-(carboxymethyl)-lysine (CML) is one of the principal substrates whose accumulation tracks with falling cathepsin D activity. CML-modified intracellular proteins are delivered to lysosomes, where cathepsin D and cathepsin B execute their clearance.",
+      "zh-TW": "標準的 AGE 加合物 N-(carboxymethyl)-lysine (CML) 是主要受質之一，其累積程度與 Cathepsin D 活性下降相對應。經 CML 修飾的細胞內蛋白質被送至溶小體，由 Cathepsin D 與 Cathepsin B 執行清除。"
+    },
+    "confidence": 0.8,
+    "source_document": "Cathepsin D.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "95c10b341f4f",
+    "subject": "Cathepsins",
+    "predicate": "localized_to",
+    "object": "Lysosome",
+    "context": {
+      "en-US": "Cathepsins are a family of cysteine, aspartic and serine proteases primarily localized to lysosomes, where they mediate bulk protein degradation and amino acid recycling. They are optimally active at the acidic pH (4.5-5.5) of the lysosomal lumen and are synthesized as inactive zymogens whose propeptide is removed on arrival in the compartment.",
+      "zh-TW": "Cathepsins 是一群主要定位於 Lysosome 的半胱胺酸、天門冬胺酸與絲胺酸蛋白酶，在其中執行大規模蛋白降解與胺基酸回收。它們在溶小體腔的酸性 pH（4.5–5.5）下活性最佳，並以無活性的 zymogen 形式合成，其 propeptide 在到達該區室時被切除。"
+    },
+    "confidence": 0.95,
+    "source_document": "Cathepsins.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "590bbb2d100a",
+    "subject": "Cathepsins",
+    "predicate": "cleaves",
+    "object": "Bid",
+    "context": {
+      "en-US": "During lysosomal membrane permeabilization, cathepsin B and cathepsin D escape into the cytosol and cleave the BH3-only protein Bid to generate truncated Bid (tBid). This lysosomal–mitochondrial axis triggers mitochondrial outer membrane permeabilization and downstream caspase activation, making cathepsins mediators of programmed cell death rather than mere housekeeping proteases.",
+      "zh-TW": "在溶小體膜通透化期間，Cathepsin B 與 Cathepsin D 逸入細胞質，切割 BH3-only 蛋白 Bid 以生成截短的 Bid (tBid)。這條溶小體—粒線體軸線觸發粒線體外膜通透化與下游 caspase 活化，使 Cathepsins 成為程序性細胞死亡的介導者，而不只是維持性蛋白酶。"
+    },
+    "confidence": 0.9,
+    "source_document": "Cathepsins.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "f3c0d63216ae",
+    "subject": "Cathepsins",
+    "predicate": "promotes",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "Release of cathepsins from lysosomes during lysosomal membrane permeabilization switches their role from housekeeping proteases to mediators of programmed cell death. The switch is engaged by a wide range of stressors including reactive oxygen species, lipid peroxidation products and chemotherapeutic agents, so cathepsin release constitutes a general stress-response apoptotic pathway.",
+      "zh-TW": "在溶小體膜通透化期間 Cathepsins 自溶小體釋放，使其角色由維持性蛋白酶轉為程序性細胞死亡的介導者。此轉換可由多種壓力源觸發，包括 Reactive Oxygen Species、脂質過氧化產物與化學治療藥物，因此 Cathepsins 的釋放構成一條普遍的壓力反應性凋亡路徑。"
+    },
+    "confidence": 0.85,
+    "source_document": "Cathepsins.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "40d071de9e25",
+    "subject": "Cathepsins",
+    "predicate": "participates_in",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "In autophagic flux, cathepsins mediate the degradation of autophagosomal cargo after autophagosome–lysosome fusion. This step is essential for quality control of cytoplasmic components and nutrient recycling, so blocking lysosomal protease activity blocks autophagic turnover at its terminal degradative stage.",
+      "zh-TW": "在自噬流中，Cathepsins 在自噬體與溶小體融合之後，負責降解自噬體內的貨物。此步驟對細胞質成分的品質管制與養分回收不可或缺，因此阻斷溶小體蛋白酶活性會在自噬周轉的最終降解階段將其阻斷。"
+    },
+    "confidence": 0.85,
+    "source_document": "Cathepsins.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "ca228a8f02af",
+    "subject": "Cathepsins",
+    "predicate": "degrades",
+    "object": "Collagen",
+    "context": {
+      "en-US": "Cathepsin K, abundantly expressed in osteoclasts, is the principal protease responsible for degrading type I collagen during bone resorption, and its activity is essential for normal skeletal remodelling and calcium homeostasis. Excessive cathepsin K activity in osteoclasts instead contributes to pathological bone loss in osteoporosis.",
+      "zh-TW": "在 Osteoclasts 中高度表現的 Cathepsin K，是骨吸收過程中降解第一型 Collagen 的主要蛋白酶，其活性對正常骨骼重塑與鈣恆定不可或缺。相對地，Osteoclasts 中過度的 Cathepsin K 活性會促成 Osteoporosis 中的病理性骨質流失。"
+    },
+    "confidence": 0.85,
+    "source_document": "Cathepsins.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "15c43470cacd",
+    "subject": "Cathepsins",
+    "predicate": "degrades",
+    "object": "Extracellular Matrix",
+    "context": {
+      "en-US": "Cathepsins B, L and S are frequently upregulated in malignant tumours, where they degrade extracellular matrix components to facilitate invasion and metastasis. Their secretion by cancer cells and tumour-associated macrophages creates pericellular proteolytic hotspots that drive tissue invasion and also promote angiogenesis and modulate immune surveillance.",
+      "zh-TW": "Cathepsins B、L 與 S 在惡性腫瘤中常見表現上調，藉由降解 Extracellular Matrix 成分來促進侵犯與轉移。癌細胞與腫瘤相關巨噬細胞分泌這些蛋白酶，製造細胞周圍的蛋白水解熱點以驅動組織侵犯，並同時促進血管新生與調節免疫監視。"
+    },
+    "confidence": 0.85,
+    "source_document": "Cathepsins.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "51105698c031",
+    "subject": "Certificate of Analysis",
+    "predicate": "uses",
+    "object": "Mass Spectrometry",
+    "context": {
+      "en-US": "For research chemicals such as leuco-adrenochrome, a Certificate of Analysis issued by Quality Assurance documents the purity, identity and storage conditions of a batch, with identity typically verified by H-NMR or mass spectrometry. This is important because synthetic batches of quinone intermediates can easily degrade if handled improperly, making batch-specific documentation necessary.",
+      "zh-TW": "對 Leuco-adrenochrome 等研究用化學品而言，由品質保證部門發出的 Certificate of Analysis 記載了該批次的純度、鑑別與儲存條件，鑑別通常以 H-NMR 或 Mass Spectrometry 驗證。這點很重要，因為醌類中間物的合成批次在處理不當時極易降解，因此必須有批次專屬的文件。"
+    },
+    "confidence": 0.9,
+    "source_document": "Certificate of Analysis.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "41bad01f570a",
+    "subject": "Certificate of Analysis",
+    "predicate": "uses",
+    "object": "H-NMR",
+    "context": {
+      "en-US": "The Certificate of Analysis specifies the purity of a research chemical and the method used to verify its molecular structure, usually H-NMR or mass spectrometry. Requesting the CoA on purchase is the practical safeguard against unknowingly working with a degraded or impure batch.",
+      "zh-TW": "Certificate of Analysis 會註明研究用化學品的純度，以及用於驗證其分子結構的方法，通常為 H-NMR 或 Mass Spectrometry。購買時索取 CoA，是避免在不知情下使用降解或不純批次的實際保障。"
+    },
+    "confidence": 0.85,
+    "source_document": "Certificate of Analysis.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "32ab311946a6",
+    "subject": "Certificate of Analysis",
+    "predicate": "is_part_of",
+    "object": "Quality Control",
+    "context": {
+      "en-US": "A Certificate of Analysis is the document by which Quality Assurance confirms that a regulated product meets its product specification. In a research setting it plays the same role for chemical reagents that batch-release testing plays for pharmaceuticals.",
+      "zh-TW": "Certificate of Analysis 是品質保證部門確認受規管產品符合產品規格的文件。在研究情境中，它對化學試劑所扮演的角色，與批次放行測試對藥品所扮演的角色相同。"
+    },
+    "confidence": 0.85,
+    "source_document": "Certificate of Analysis.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "7fd406f5ea3e",
+    "subject": "Chelating agents",
+    "predicate": "reduces",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "Transition metals, particularly Fe2+ and Cu+, are potent catalysts of catecholamine oxidation: in their presence epinephrine is efficiently converted to adrenochrome via the adrenaline-quinone intermediate by a metal-catalysed one-electron oxidation. Chelators that sequester these metals therefore slow catecholamine oxidation and adrenochrome generation, and deferoxamine has been shown to attenuate autoxidation in vitro.",
+      "zh-TW": "過渡金屬——尤其是 Fe2+ 與 Cu+——是兒茶酚胺氧化的強效催化劑：在其存在下，Epinephrine 會經由 Adrenaline-quinone 中間物，以金屬催化的單電子氧化高效轉換為 Adrenochrome。因此能隔離這些金屬的螯合劑可減緩兒茶酚胺氧化與 Adrenochrome 生成，且 Deferoxamine 已在體外被證實可抑制 autoxidation。"
+    },
+    "confidence": 0.85,
+    "source_document": "Chelating agents.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "8cb82cc38ccc",
+    "subject": "Chelating agents",
+    "predicate": "reduces",
+    "object": "Reactive Oxygen Species",
+    "context": {
+      "en-US": "Many transition metals (Fe2+/Fe3+, Cu+/Cu2+) cycle between oxidation states and catalyse Fenton chemistry to generate reactive oxygen species. Chelation limits this metal-catalysed electron transfer by occupying the coordination sites needed for redox cycling — deferoxamine-bound Fe3+ cannot be reduced to Fe2+, thereby suppressing hydroxyl radical production.",
+      "zh-TW": "許多過渡金屬（Fe2+/Fe3+、Cu+/Cu2+）在氧化態之間循環並催化 Fenton 反應以產生 Reactive Oxygen Species。螯合藉由占據氧化還原循環所需的配位位置來限制這種金屬催化的電子轉移——與 Deferoxamine 結合的 Fe3+ 無法被還原為 Fe2+，因而抑制了羥基自由基的生成。"
+    },
+    "confidence": 0.9,
+    "source_document": "Chelating agents.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "db1c9c1b6e9d",
+    "subject": "Iron",
+    "predicate": "catalyzes",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "Iron and copper released from storage proteins during inflammation, haemorrhage and ischaemia-reperfusion injury markedly increase metal availability, and this is a major route of adrenochrome formation under physiologically relevant conditions. The liberated ions catalyse the one-electron oxidation of the epinephrine catechol to the o-quinone that cyclises to adrenochrome.",
+      "zh-TW": "在發炎、出血與 ischemia-reperfusion injury 期間，Iron 與 Copper 自儲存蛋白釋出，使金屬可利用性顯著上升；這在生理相關條件下是 Adrenochrome 形成的主要途徑之一。釋出的離子催化 Epinephrine 的 catechol 單電子氧化，生成可環化為 Adrenochrome 的鄰醌。"
+    },
+    "confidence": 0.8,
+    "source_document": "Chelating agents.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "193a16ec6596",
+    "subject": "Copper",
+    "predicate": "catalyzes",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "Copper ions in their reduced form (Cu+) promote adrenochrome formation, joining iron as one of the two transition metals that catalyse catecholamine autoxidation. Copper likewise participates in Fenton-type chemistry, and its sequestration is one route by which chelators suppress the glyco-oxidative chemistry of the adrenochrome pathway.",
+      "zh-TW": "還原態的 Copper 離子（Cu+）會促進 Adrenochrome 形成，與 Iron 並列為催化兒茶酚胺 autoxidation 的兩種過渡金屬之一。Copper 同樣參與 Fenton 型化學反應，而其隔離正是螯合劑抑制 Adrenochrome 路徑醣氧化學的機制之一。"
+    },
+    "confidence": 0.8,
+    "source_document": "Chelating agents.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "2e081b76d78f",
+    "subject": "EDTA",
+    "predicate": "is_a_type_of",
+    "object": "Chelating agents",
+    "context": {
+      "en-US": "EDTA is the prototypical polyaminocarboxylate chelator: a hexadentate molecule whose four carboxylate oxygens and two amine nitrogens coordinate a broad range of di- and trivalent metal ions. Experimentally it is the reference tool for blocking metal-dependent adrenochrome synthesis by sequestering the catalytic Fe2+ and Cu+.",
+      "zh-TW": "EDTA 是典型的聚胺羧酸類螯合劑：以四個羧酸根氧與兩個胺基氮配位廣泛二價與三價金屬離子的六齒分子。實驗上，它是藉由隔離具催化作用的 Fe2+ 與 Cu+ 來阻斷金屬依賴性 Adrenochrome 合成的參考工具。"
+    },
+    "confidence": 0.9,
+    "source_document": "Chelating agents.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "34c76ee1d1d1",
+    "subject": "Chelating agents",
+    "predicate": "inhibits",
+    "object": "Oxidation",
+    "context": {
+      "en-US": "By lowering the free concentration of transition metals, chelators remove the catalytic sites that metals require for redox cycling, thereby inhibiting the metal-catalysed one-electron oxidation of catecholamines. This blunts the metal-dependent chemistry that underlies oxidative stress, and is why chelation serves both therapeutically and as an experimental probe of metal-dependent damage.",
+      "zh-TW": "螯合劑藉由降低過渡金屬的自由濃度，移除金屬進行氧化還原循環所需的催化位點，因而抑制兒茶酚胺的金屬催化單電子氧化。這會削弱構成 Oxidative Stress 基礎的金屬依賴化學，也是螯合作用兼具治療用途與作為金屬依賴性損傷實驗探針的原因。"
+    },
+    "confidence": 0.8,
+    "source_document": "Chelating agents.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "c77a86633be6",
+    "subject": "Chronic Kidney Disease",
+    "predicate": "is_associated_with",
+    "object": "Advanced Glycation End Products",
+    "context": {
+      "en-US": "Chronic kidney disease is both a cause and a consequence of elevated AGE levels in the blood: reduced renal clearance raises circulating AGEs, and elevated AGEs in turn drive renal injury. Consistently, elevated plasma CML was found to be independently associated with CKD and with estimated glomerular filtration rate at baseline and after three to six years of follow-up.",
+      "zh-TW": "Chronic Kidney Disease 既是血液中 AGE 濃度升高的原因，也是其結果：腎臟清除力下降使循環中的 AGEs 升高，而升高的 AGEs 反過來損傷腎臟。相應地，研究發現血漿 CML 濃度升高與 CKD 及估算腎小球過濾率在基線以及三至六年追蹤後皆呈獨立關聯。"
+    },
+    "confidence": 0.85,
+    "source_document": "Chronic Kidney Disease.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "1c8a6a371814",
+    "subject": "SIRT1",
+    "predicate": "protects_against",
+    "object": "Kidney Fibrosis",
+    "context": {
+      "en-US": "SIRT1 is protective in renal fibrosis: SIRT1 overexpression abolishes TGF-beta1-induced apoptosis and fibrosis by suppressing CTGF, and the SIRT1 activator SRT1720 attenuates unilateral ureteral obstruction-induced fibrosis. SIRT1-induced HIF-1alpha deacetylation additionally protects against tubulointerstitial damage, while podocyte SIRT1 reduction aggravates glomerulosclerosis and albuminuria.",
+      "zh-TW": "SIRT1 在腎臟纖維化中具有保護作用：SIRT1 過量表現藉由抑制 CTGF 而消除 TGF-β1 誘發的凋亡與纖維化，SIRT1 活化劑 SRT1720 亦可減輕單側輸尿管阻塞誘發的纖維化。SIRT1 誘發的 HIF-1α 去乙醯化另可保護腎小管間質損傷，而 podocyte 中 SIRT1 減少則加重腎小球硬化與白蛋白尿。"
+    },
+    "confidence": 0.85,
+    "source_document": "Chronic Kidney Disease.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "3ab8f1de38e8",
+    "subject": "SIRT3",
+    "predicate": "protects_against",
+    "object": "Kidney Fibrosis",
+    "context": {
+      "en-US": "SIRT3 is required to prevent severe renal fibrosis: SIRT3 knockout mice are susceptible to severe fibrosis associated with hyperacetylation of PDH E1alpha at K385. SIRT3 is also protective in kidney stones through an Nrf2/heme oxygenase-1 dependent antioxidant axis, whereas SIRT3/SIRT1 downregulation promotes calcium oxalate crystal–cell adhesion.",
+      "zh-TW": "SIRT3 是防止嚴重腎臟纖維化所必需的：SIRT3 knockout 小鼠易發生與 PDH E1α 在 K385 處過度乙醯化相關的嚴重纖維化。SIRT3 亦透過 Nrf2／血紅素加氧酶-1 依賴的抗氧化軸在腎結石中發揮保護作用，而 SIRT3/SIRT1 下調則促進草酸鈣晶體與細胞的黏附。"
+    },
+    "confidence": 0.85,
+    "source_document": "Chronic Kidney Disease.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "e1cebe529c85",
+    "subject": "SIRT2",
+    "predicate": "inhibits",
+    "object": "Kidney Fibrosis",
+    "context": {
+      "en-US": "SIRT2 acts as a brake on renal fibrogenesis: SIRT2 knockdown or inhibition attenuates TGF-beta1-induced fibroblast activation. Conversely, SIRT1/SIRT2 downregulation may itself inhibit fibroblast activation through EGFR/PDGFR-beta signalling, so the direction of sirtuin manipulation in kidney disease is context-dependent rather than uniformly protective.",
+      "zh-TW": "SIRT2 是腎臟纖維化形成的煞車：SIRT2 knockdown 或抑制可減輕 TGF-β1 誘發的纖維母細胞活化。相對地，SIRT1/SIRT2 下調本身也可能透過 EGFR/PDGFR-beta 訊號抑制纖維母細胞活化，因此 sirtuin 在腎病中的操作方向是情境相依的，而非一律具保護性。"
+    },
+    "confidence": 0.75,
+    "source_document": "Chronic Kidney Disease.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "4cfde9d65470",
+    "subject": "Glucosepane",
+    "predicate": "produces",
+    "object": "Citrulline",
+    "context": {
+      "en-US": "In the context of anti-aging therapeutics, enzymatic cleavage of the stubborn advanced glycation end-product glucosepane by HemF-like enzymes releases citrulline as a chemical byproduct. The liberation of citrulline therefore serves as a chemical readout that a glucosepane cross-link has been successfully hydrolysed.",
+      "zh-TW": "在抗老化治療的脈絡中，以 HemF-like 酵素切割頑固的 advanced glycation end-product Glucosepane 時，會釋出 Citrulline 作為化學副產物。因此 Citrulline 的釋放可作為 Glucosepane 交聯已被成功水解的化學判讀訊號。"
+    },
+    "confidence": 0.8,
+    "source_document": "Citrulline.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "c3f2e1e837f3",
+    "subject": "Nitric Oxide Synthase",
+    "predicate": "produces",
+    "object": "Citrulline",
+    "context": {
+      "en-US": "Nitric oxide radical is synthesised by nitric oxide synthase through the oxidation of arginine to citrulline, making citrulline the obligatory by-product of NO generation. This places citrulline at two distinct fates: an enzymatic by-product of NO signalling and a chemical by-product of glucosepane breakdown.",
+      "zh-TW": "一氧化氮自由基由 Nitric Oxide Synthase 經由 Arginine 氧化為 Citrulline 而合成，使 Citrulline 成為 NO 生成不可避免的副產物。這使 Citrulline 具有兩種不同的命運：作為 NO 訊號的酵素副產物，以及作為 Glucosepane 降解的化學副產物。"
+    },
+    "confidence": 0.75,
+    "source_document": "Citrulline.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "62c569ad3e37",
+    "subject": "Co-oximetry",
+    "predicate": "diagnoses",
+    "object": "Methemoglobinemia",
+    "context": {
+      "en-US": "Co-oximetry is the gold-standard diagnostic test for methemoglobinemia: it enables accurate diagnosis and dosing of therapy such as methylene blue. It also distinguishes concurrent exposures that produce overlapping clinical cyanosis, for example carbon monoxide poisoning (carboxyhemoglobin) versus nitrite- or anaesthetic-induced methemoglobinemia.",
+      "zh-TW": "Co-oximetry 是 Methemoglobinemia 的黃金標準診斷檢查：它使診斷與 Methylene blue 等治療的給藥得以精確進行。它也能區分造成臨床發紺重疊的同時暴露，例如一氧化碳中毒（carboxyhemoglobin）與亞硝酸鹽或麻醉藥所致的 Methemoglobinemia。"
+    },
+    "confidence": 0.95,
+    "source_document": "Co-oximetry.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "108351c6d755",
+    "subject": "Oxyhemoglobin",
+    "predicate": "is_measured_by",
+    "object": "Co-oximetry",
+    "context": {
+      "en-US": "Oxyhemoglobin is one of the hemoglobin fractions directly resolved by multiwavelength co-oximetry. Because specimens should be analysed promptly or kept cold and protected from air, artifactual changes in the oxy/methemoglobin ratio can otherwise confound the reported result.",
+      "zh-TW": "Oxyhemoglobin 是多波長 Co-oximetry 直接解析的 Hemoglobin 分部之一。由於檢體應儘速分析或冷藏並避免接觸空氣，否則 oxy／methemoglobin 比例的人為變化會混淆報告結果。"
+    },
+    "confidence": 0.8,
+    "source_document": "Co-oximetry.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "793d5298f7f5",
+    "subject": "Cross-link Breakers",
+    "predicate": "cleaves",
+    "object": "Glucosepane",
+    "context": {
+      "en-US": "Cross-link breakers are pharmacological agents that cleave or destabilize pre-existing covalent cross-links — especially advanced glycation end-product bridges such as glucosepane and pentosidine — that accumulate in long-lived proteins during aging and diabetes. Unlike AGE inhibitors, breakers actively reverse already-formed cross-links, potentially restoring tissue elasticity and protein turnover.",
+      "zh-TW": "Cross-link Breakers 是切斷或破壞既有共價交聯的藥理作用劑——尤其是 Aging 與糖尿病期間在長壽命蛋白質中累積的 Advanced Glycation End Products 交聯橋，如 Glucosepane 與 Pentosidine。與 AGE 抑制劑不同，breaker 主動逆轉已形成的交聯，有望恢復組織彈性與蛋白質周轉。"
+    },
+    "confidence": 0.9,
+    "source_document": "Cross-link Breakers.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "f66e2d59ae50",
+    "subject": "Alagebrium",
+    "predicate": "is_a_type_of",
+    "object": "Cross-link Breakers",
+    "context": {
+      "en-US": "The thiazolium derivative alagebrium (ALT-711) is the prototypical AGE cross-link breaker, having been shown to improve vascular stiffness and myocardial compliance in preclinical and early clinical studies. It acts on existing cross-link bridges rather than on the formation chemistry, distinguishing it from inhibitors such as aminoguanidine.",
+      "zh-TW": "Thiazolium 衍生物 Alagebrium (ALT-711) 是典型的 AGE cross-link breaker，在前臨床與早期臨床研究中已顯示可改善血管僵硬與心肌順應性。它作用於既有的交聯橋而非交聯形成的化學步驟，這一點使其與 Aminoguanidine 等抑制劑有所區別。"
+    },
+    "confidence": 0.9,
+    "source_document": "Cross-link Breakers.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "28282487ec78",
+    "subject": "Pyridoxamine",
+    "predicate": "is_a_type_of",
+    "object": "Cross-link Breakers",
+    "context": {
+      "en-US": "Pyridoxamine exhibits both carbonyl-trapping and modest cross-link-breaking activity, placing it in the breaker category even though its primary action is scavenging reactive carbonyl intermediates. Its dual action makes it an attractive dual-purpose agent against glyco-oxidative proteostasis failure.",
+      "zh-TW": "Pyridoxamine 同時具有羰基捕捉與溫和的交聯切斷活性，因此雖其主要作用是清除活性羰基中間物，仍歸入 breaker 類別。其雙重作用使它成為對抗醣氧化蛋白穩態失調的具吸引力雙效藥物。"
+    },
+    "confidence": 0.85,
+    "source_document": "Cross-link Breakers.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "a7dd1dae7107",
+    "subject": "Cross-link Breakers",
+    "predicate": "is_distinct_from",
+    "object": "Aminoguanidine",
+    "context": {
+      "en-US": "AGE inhibitors such as aminoguanidine blunt the formation of new cross-links, whereas cross-link breakers reverse cross-links that are already established. This distinction is pharmacologically decisive, because inhibiting formation does nothing for the vast accumulated cross-link burden present in aged tissue.",
+      "zh-TW": "Aminoguanidine 等 AGE 抑制劑抑制新交聯的形成，而 Cross-link Breakers 則逆轉已建立的交聯。此區別在藥理上具有決定性，因為抑制形成對老化組織中已累積的龐大交聯負荷毫無作用。"
+    },
+    "confidence": 0.85,
+    "source_document": "Cross-link Breakers.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "25b38a69ee1c",
+    "subject": "Cross-link Breakers",
+    "predicate": "addresses",
+    "object": "Protein Carbonylation",
+    "context": {
+      "en-US": "Cross-link breakers complement antioxidants and aminochrome scavengers: by removing stable protein cross-bridges they address the end-stage proteotoxicity that protein carbonylation and aminochrome adducts initiate. This positions them as one arm of reversing glyco-oxidative proteostasis failure in catecholamine-rich aged tissues.",
+      "zh-TW": "Cross-link Breakers 與抗氧化劑及 aminochrome 清除劑互補：藉由移除穩定的蛋白質交聯橋，它們處理的是由 Protein Carbonylation 與 aminochrome 加合物所啟動的終末期蛋白毒性。這使它們成為逆轉兒茶酚胺豐富之老化組織中醣氧化蛋白穩態失調的一支力量。"
+    },
+    "confidence": 0.8,
+    "source_document": "Cross-link Breakers.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "abf2c1f5962a",
+    "subject": "Cysteinyldopa",
+    "predicate": "is_derived_from",
+    "object": "Dopaquinone",
+    "context": {
+      "en-US": "Cysteinyldopa refers to the family of thioether adducts formed when the sulfhydryl group of cysteine attacks the electrophilic quinone ring of dopaquinone. The predominant isomer, 5-S-cysteinyldopa, is the first stable product of the pheomelanogenic branch of melanogenesis.",
+      "zh-TW": "Cysteinyldopa 指的是 Cysteine 的硫氫基進攻 Dopaquinone 親電性醌環時所形成的硫醚加合物家族。其中主要異構物 5-S-cysteinyldopa 是黑色素合成中 pheomelanogenic 分支的第一個穩定產物。"
+    },
+    "confidence": 0.95,
+    "source_document": "Cysteinyldopa.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "cd4a0b352ce8",
+    "subject": "Cysteinyldopa",
+    "predicate": "polymerizes_into",
+    "object": "Melanins",
+    "context": {
+      "en-US": "5-S-cysteinyldopa is subsequently oxidized and polymerized into pheomelanin, the sulfur-containing yellow-to-red form of melanin distinct from eumelanin. Because pheomelanin is a weaker antioxidant than eumelanin and can generate reactive species under UV exposure, high pheomelanin content is linked to photocarcinogenesis.",
+      "zh-TW": "5-S-cysteinyldopa 隨後被氧化並聚合為 pheomelanin，即含硫的黃至紅色型 Melanins，有別於 eumelanin。由於 pheomelanin 的抗氧化能力弱於 eumelanin，且在 UV 曝曬下可產生活性物種，過高的 pheomelanin 含量與光致癌性有關。"
+    },
+    "confidence": 0.85,
+    "source_document": "Cysteinyldopa.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "2de6ebce3e8d",
+    "subject": "Cysteine",
+    "predicate": "reacts_with",
+    "object": "Dopaquinone",
+    "context": {
+      "en-US": "Cysteinyldopa formation is a detoxification shunt: by trapping dopaquinone, cysteine prevents the quinone from undergoing the redox cycling that would generate superoxide and oxidative stress. The branching ratio between the cysteinyldopa (pheomelanin) and 5,6-dihydroxyindole (eumelanin) products is governed by intracellular cysteine availability and glutathione levels.",
+      "zh-TW": "Cysteinyldopa 的形成是一條解毒支路：藉由捕捉 Dopaquinone，Cysteine 阻止該醌類進行會產生 superoxide 與 Oxidative Stress 的 redox cycling。Cysteinyldopa（pheomelanin）與 5,6-Dihydroxyindole（eumelanin）產物之間的分支比例，則由細胞內 Cysteine 可利用性與 Glutathione 濃度決定。"
+    },
+    "confidence": 0.9,
+    "source_document": "Cysteinyldopa.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "e032a7b71cf4",
+    "subject": "Cysteinyldopa",
+    "predicate": "reduces",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "Because cysteinyldopa formation diverts dopaquinone away from redox polymerization toward a stable thioether adduct, it mitigates quinone-driven ROS generation. It therefore represents the thiol-capture arm of the same ortho-quinone management problem that the adrenochrome/aminochrome pathway illustrates in the adrenergic setting.",
+      "zh-TW": "由於 Cysteinyldopa 的形成把 Dopaquinone 從 redox 聚合導向穩定的硫醚加合物，它減輕了醌類所驅動的 ROS 生成。因此它代表著與 adrenochrome/aminochrome 路徑在腎上腺素能情境中所闡明者，同一鄰醌管理問題的硫醇捕捉一環。"
+    },
+    "confidence": 0.8,
+    "source_document": "Cysteinyldopa.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "1c4eef67db4c",
+    "subject": "Cysteinyldopa",
+    "predicate": "is_a_precursor_for",
+    "object": "Neuromelanin",
+    "context": {
+      "en-US": "In the brain, cysteine adducts of catechol quinones analogous to cysteinyldopa moderate the oxidative burden of dopamine and epinephrine metabolism, influencing neuromelanin composition and dopaminergic neuron survival in the substantia nigra. Thiol-quinone branching ratio is thus a determinant of neuronal vulnerability in Parkinson's disease.",
+      "zh-TW": "在腦中，類似 Cysteinyldopa 的兒茶酚醌類 Cysteine 加合物可調節 Dopamine 與 Epinephrine 代謝所造成的氧化負擔，影響 Neuromelanin 組成與 Substantia Nigra 中 Dopaminergic Neurons 的存活。因此硫醇－醌分支比例是 Parkinson's Disease 中神經元易損性的決定因素之一。"
+    },
+    "confidence": 0.75,
+    "source_document": "Cysteinyldopa.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
+  },
+  {
+    "id": "97b31ec37e7e",
+    "subject": "5,6-Dihydroxyindole",
+    "predicate": "competes_with",
+    "object": "Cysteinyldopa",
+    "context": {
+      "en-US": "5,6-Dihydroxyindole is the competing eumelanin branch product formed from dopaquinone, and the ratio of its formation to cysteinyldopa formation sets the eumelanin-to-pheomelanin balance. Higher intracellular cysteine and glutathione availability shifts the branch toward cysteinyldopa-derived pheomelanin and away from this eumelanin precursor.",
+      "zh-TW": "5,6-Dihydroxyindole 是由 Dopaquinone 形成的競爭性 eumelanin 分支產物，其形成量與 Cysteinyldopa 形成量之比決定了 eumelanin 與 pheomelanin 的平衡。細胞內 Cysteine 與 Glutathione 可利用性越高，分支就越偏向 Cysteinyldopa 所衍生的 pheomelanin，而遠離這個 eumelanin 前驅物。"
+    },
+    "confidence": 0.8,
+    "source_document": "Cysteinyldopa.md",
+    "created": "2026-09-29T15:00:55Z",
+    "updated": "2026-09-29T15:00:55Z"
   }
 ]
