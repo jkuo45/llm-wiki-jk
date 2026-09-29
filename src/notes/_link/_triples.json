@@ -47850,5 +47850,1447 @@
     "source_document": "Cardiovascular Disease.md",
     "created": "2026-09-29T15:46:05Z",
     "updated": "2026-09-29T15:46:05Z"
+  },
+  {
+    "id": "3880f148057c",
+    "subject": "CCCP",
+    "predicate": "triggers",
+    "object": "Mitophagy",
+    "context": {
+      "en-US": "CCCP is a protonophore mitochondrial uncoupler that collapses the mitochondrial membrane potential (ΔΨm) and shuttles protons across the inner membrane, decoupling respiration from ATP synthesis. Sustained uncoupling marks mitochondria for degradation, so CCCP induces Parkin-mediated Mitophagy and effectively depletes the cell of functional mitochondria rather than merely inhibiting their metabolism.",
+      "zh-TW": "CCCP 是一種質子載體型的粒線體解偶聯劑，會崩潰粒線體膜電位（ΔΨm），將質子運送穿過內膜，使呼吸鏈與 ATP 合成脫鉤。持續的解偶聯會將粒線體標記為待分解，因此 CCCP 會誘發 Parkin 媒介的 Mitophagy，實際上是清空細胞內的功能性粒線體，而不只是抑制其代謝。"
+    },
+    "confidence": 0.95,
+    "source_document": "CCCP.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "9d2efd553ca8",
+    "subject": "CCCP",
+    "predicate": "suppresses",
+    "object": "SASP",
+    "context": {
+      "en-US": "Used as a causality test in irradiated senescent fibroblasts, CCCP depleted mitochondria and nearly abolished secretion of the SASP factors IL-6, IL-8, GRO and MCP-1, while also lowering p16, p21, SA-β-gal and SAHF. The same effect occurred in replicative, oncogene-induced and oxidative-damage senescence, showing that the inflammatory output of mitochondria is central to the SASP.",
+      "zh-TW": "在輻射誘導的衰老纖維母細胞中作為因果性測試，CCCP 清除粒線體後，幾乎完全中止了 SASP 因子 IL-6、IL-8、GRO 與 MCP-1 的分泌，並同時降低 p16、p21、SA-β-gal 與 SAHF。同樣的效果也見於複製性、癌基因誘導與氧化損傷型衰老，顯示粒線體的發炎輸出是 SASP 的核心。"
+    },
+    "confidence": 0.9,
+    "source_document": "CCCP.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "e1dcb68981eb",
+    "subject": "CCCP",
+    "predicate": "reduces",
+    "object": "p16INK4A",
+    "context": {
+      "en-US": "Mitochondrial depletion with CCCP significantly reduced the senescence marker p16INK4A, together with p21, SA-β-gal and Senescence-Associated Heterochromatin Foci, as well as cell size and ROS. This ties the p16/RB senescence arm to mitochondrial abundance rather than treating the marker as a purely autonomous cell-intrinsic program.",
+      "zh-TW": "以 CCCP 耗竭粒線體可顯著降低衰老標記 p16INK4A，並同時降低 p21、SA-β-gal 與 Senescence-Associated Heterochromatin Foci，以及細胞大小與 ROS。這把 p16/RB 衰老軸與粒線體數量連結起來，而非僅將此標記視為完全由細胞內在自主程式決定。"
+    },
+    "confidence": 0.9,
+    "source_document": "CCCP.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "6d8fd34a4c84",
+    "subject": "CCL18",
+    "predicate": "is_produced_by",
+    "object": "Macrophages",
+    "context": {
+      "en-US": "CCL18 (PARC) is a CC chemokine produced constitutively by dendritic cells and by alternatively activated (M2-like) macrophages, with plasmacytoid/dendritic cells as additional sources. In aging it appears in the secretome of senescent stromal and immune cells, and its induction is driven by IL-4/IL-13 rather than a single senescence master transcription factor.",
+      "zh-TW": "CCL18（PARC）是由樹突細胞與交替活化（M2 型）巨噬細胞持續分泌的 CC 趨化因子，漿細胞樣樹突細胞亦是來源。在老化時它出現在衰老基質與免疫細胞的分泌組中，其誘導主要由 IL-4/IL-13 驅動，而非單一衰老主控轉錄因子。"
+    },
+    "confidence": 0.9,
+    "source_document": "CCL18.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "050b16279fb4",
+    "subject": "CCL18",
+    "predicate": "is_associated_with",
+    "object": "Inflammaging",
+    "context": {
+      "en-US": "CCL18 is one of five circulating SASP factors (with GDF15, RAGE, VEGFA and MMP-2) whose levels strongly predict all-cause mortality independently of chronological age. Rather than driving the inflammatory chemotactic wave directly, CCL18 serves as a quantitative readout of senescent-cell burden and of Inflammaging, and is being evaluated as an endpoint in senolytic trials.",
+      "zh-TW": "CCL18 是五種循環 SASP 因子之一（與 GDF15、RAGE、VEGFA、MMP-2 同列），其濃度可獨立於實際年齡預測全因死亡。CCL18 並非直接驅動發炎性趨化波，而是作為衰老細胞負荷與 Inflammaging 的定量讀值，並被用作 senolytic 試驗的終點評估。"
+    },
+    "confidence": 0.9,
+    "source_document": "CCL18.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "ba8a239c009d",
+    "subject": "CCL2",
+    "predicate": "binds",
+    "object": "CCR2",
+    "context": {
+      "en-US": "CCL2 (MCP-1) signals chiefly through CCR2, a Gαi-coupled GPCR, with minor activity at CCR4. Engagement activates PI3K/Akt, p38 MAPK/ERK and Ca2+ flux to drive chemotaxis and adhesion of monocytes, making the CCL2–CCR2 axis the principal monocyte and macrophage recruitment route in the SASP.",
+      "zh-TW": "CCL2（MCP-1）主要透過 CCR2（屬 Gαi 偶聯的 GPCR）傳遞訊號，並在 CCR4 有較弱的活性。其結合會活化 PI3K/Akt、p38 MAPK/ERK 與 Ca2+ 通量，驅動單核球趨化與黏附，使 CCL2–CCR2 軸成為 SASP 中招募單核球與巨噬細胞的主要途徑。"
+    },
+    "confidence": 0.95,
+    "source_document": "CCL2.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "78192ea86b8f",
+    "subject": "CCL2",
+    "predicate": "is_a_component_of",
+    "object": "SASP",
+    "context": {
+      "en-US": "CCL2 is one of the most conserved and best-characterized components of the SASP. Its transcription is driven by NF-κB, AP-1, STAT1/STAT3 and the C/EBP family, and is potently induced by the SASP cytokines IL-1α and IL-1β, creating a feed-forward loop in which recruited macrophages further inflame tissue.",
+      "zh-TW": "CCL2 是 SASP 中最保守且研究最透澈的成分之一。其轉錄由 NF-κB、AP-1、STAT1/STAT3 與 C/EBP 家族驅動，並受 SASP 細胞激素 IL-1α 與 IL-1β 強力誘導，形成前饋迴路：被招募的巨噬細胞會進一步加劇組織發炎。"
+    },
+    "confidence": 0.95,
+    "source_document": "CCL2.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "8f94d4e403ce",
+    "subject": "CCL2",
+    "predicate": "recruits",
+    "object": "Macrophages",
+    "context": {
+      "en-US": "As a core SASP chemokine, CCL2 recruits classical monocytes, macrophages, memory T cells and dendritic cells to senescent cells. This immune recruitment can be beneficial (macrophage-mediated clearance, immune surveillance) or detrimental when chronic, driving monocyte infiltration and tissue damage.",
+      "zh-TW": "作為核心 SASP 趨化因子，CCL2 會將典型單核球、巨噬細胞、記憶 T 細胞與樹突細胞招募至衰老細胞處。這種免疫招募可能是有益的（巨噬細胞介導的清除、免疫監控），也可能在慢性化時有害，造成單核球浸潤與組織損傷。"
+    },
+    "confidence": 0.9,
+    "source_document": "CCL2.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "9dced820d8f7",
+    "subject": "Bmi-1",
+    "predicate": "suppresses",
+    "object": "CCL2",
+    "context": {
+      "en-US": "In senescent mesenchymal stromal cells the Polycomb protein Bmi-1 negatively regulates CCL2 through an IL-1α-mediated mechanism, tempering SASP output. This places a chromatin-level brake on the IL-1α arm of the senescent secretome.",
+      "zh-TW": "在衰老的間質幹細胞中，Polycomb 蛋白 Bmi-1 透過 IL-1α 媒介的機制負向調控 CCL2，因而抑制 SASP 的輸出。這在染色質層級為衰老分泌組的 IL-1α 軸加上煞車。"
+    },
+    "confidence": 0.85,
+    "source_document": "CCL2.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "767738822036",
+    "subject": "CCL5",
+    "predicate": "is_a_component_of",
+    "object": "SASP",
+    "context": {
+      "en-US": "CCL5 (RANTES) is a SASP chemokine secreted by therapy-induced senescent cancer cells and by senescent ovarian theca and interstitial cells. Its transcription is induced by NF-κB, AP-1 and interferons, overlapping both the inflammatory and interferon branches of the SASP.",
+      "zh-TW": "CCL5（RANTES）是 SASP 趨化因子，由治療誘導衰老的癌細胞以及卵巢衰老的卵泡膜與間質細胞分泌。其轉錄受 NF-κB、AP-1 與干擾素誘導，與 SASP 的發炎分支及干擾素分支皆重疊。"
+    },
+    "confidence": 0.9,
+    "source_document": "CCL5.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "7c3871220285",
+    "subject": "CCL5",
+    "predicate": "promotes",
+    "object": "Cancer",
+    "context": {
+      "en-US": "In therapy-induced senescence, CCL5 secreted by senescent cancer cells activates MYC–cyclin D signaling in neighbouring cancer cells and promotes non-small-cell lung cancer progression despite the senescence arrest. The same SASP factor is released by senescent ovarian stromal cells, where it impairs preantral follicle development and links the SASP to reproductive aging.",
+      "zh-TW": "在治療誘導衰老中，衰老癌細胞分泌的 CCL5 會在鄰近癌細胞中活化 MYC–cyclin D 訊號，促進非小細胞肺癌進展，儘管癌細胞已進入衰老期停滯。同一 SASP 因子也由卵巢衰老基質細胞釋放，在該處損害前竇狀濾泡發育，將 SASP 與生殖老化連結起來。"
+    },
+    "confidence": 0.85,
+    "source_document": "CCL5.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "efdd521c016d",
+    "subject": "CCL5",
+    "predicate": "recruits",
+    "object": "Macrophages",
+    "context": {
+      "en-US": "CCL5 (RANTES) engages the Gαi-coupled receptors CCR5, CCR1 and CCR3, activating PI3K/Akt, p38 MAPK/ERK and Ca2+ signaling. The result is recruitment of T cells, eosinophils, monocytes and NK cells to sites of SASP activity, and it is secreted by T cells, macrophages and platelets themselves.",
+      "zh-TW": "CCL5（RANTES）與 Gαi 偶聯的受體 CCR5、CCR1 與 CCR3 結合，活化 PI3K/Akt、p38 MAPK/ERK 與 Ca2+ 訊號。結果是 T 細胞、嗜酸性球、單核球與 NK 細胞被招募至 SASP 活躍的部位；CCL5 本身則由 T 細胞、巨噬細胞與血小板分泌。"
+    },
+    "confidence": 0.85,
+    "source_document": "CCL5.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "bc869f6aa1df",
+    "subject": "CCN1",
+    "predicate": "induces",
+    "object": "Senescent Cells",
+    "context": {
+      "en-US": "CCN1 (CYR61) binds integrin α6β1 and heparan sulfate proteoglycans, and engagement triggers ROS accumulation that activates p53 and the p16/RB pathways, inducing senescence in activated myofibroblasts (Jun & Lau 2010). CCN1 thus acts as a feedback brake that limits fibrosis during wound healing.",
+      "zh-TW": "CCN1（CYR61）結合 integrin α6β1 與硫酸乙醯肝素蛋白聚醣，其結合會引發 ROS 累積並活化 p53 與 p16/RB 路徑，誘導活化的肌成纖維細胞進入衰老（Jun & Lau 2010）。因此 CCN1 扮演回饋煞車，在傷口癒合期間限制纖維化。"
+    },
+    "confidence": 0.9,
+    "source_document": "CCN1.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "807de503fbb1",
+    "subject": "CCN1",
+    "predicate": "activates",
+    "object": "p53",
+    "context": {
+      "en-US": "The senescence-arm connection runs through ROS: CCN1 engagement of integrins and heparan sulfate proteoglycans raises intracellular ROS, which activates p53 and p16/RB signaling and thereby triggers fibroblast senescence. CCN1 additionally activates integrin-linked kinase, FAK and downstream MAPK/NF-κB signaling to regulate ECM remodeling and inflammation.",
+      "zh-TW": "此衰老軸的連結經由 ROS：CCN1 與 integrin 及硫酸乙醯肝素蛋白聚醣結合後提升細胞內 ROS，活化 p53 與 p16/RB 訊號，進而觸發纖維母細胞衰老。CCN1 另會活化 integrin-linked kinase、FAK 與下游 MAPK/NF-κB 訊號，以調控 ECM 重塑與發炎。"
+    },
+    "confidence": 0.85,
+    "source_document": "CCN1.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "9d0a67b58408",
+    "subject": "CCN1",
+    "predicate": "promotes",
+    "object": "Wound Healing",
+    "context": {
+      "en-US": "CCN1 is a beneficial, regenerative SASP factor deployed in the early response to tissue damage: it recruits immune cells and stimulates proliferation and differentiation of stromal cells to promote repair. Its pro-repair role is paired with a brake on fibrosis through myofibroblast senescence.",
+      "zh-TW": "CCN1 是有益且具再生性的 SASP 因子，在組織受損的早期反應中被部署：它招募免疫細胞並刺激基質細胞的增殖與分化以促進修復。其促進修復的作用，與透過肌成纖維細胞衰老對纖維化形成的煞車效果相輔相成。"
+    },
+    "confidence": 0.85,
+    "source_document": "CCN1.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "e66926e0a696",
+    "subject": "CCR2",
+    "predicate": "recruits",
+    "object": "Monocytes",
+    "context": {
+      "en-US": "CCR2 is expressed on Monocytes, Macrophages, Microglia and T-cell subsets and directs monocyte egress from bone marrow and recruitment to inflamed tissue. Its ligands include CCL2 (MCP-1), CCL7, CCL8 and CCL13, making CCR2 a central mediator of inflammatory cell trafficking.",
+      "zh-TW": "CCR2 表現在 Monocytes、Macrophages、Microglia 與部分 T 細胞上，負責引導單核球自骨髓外流並被招募至發炎組織。其配體包含 CCL2（MCP-1）、CCL7、CCL8 與 CCL13，使 CCR2 成為發炎細胞運輸的核心媒介。"
+    },
+    "confidence": 0.9,
+    "source_document": "CCR2.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "cf33ba5a1e41",
+    "subject": "CCR2",
+    "predicate": "is_targeted_by",
+    "object": "Inflammaging",
+    "context": {
+      "en-US": "In aged tissues the SASP attracts CCR2+ inflammatory cells, and SASP-driven recruitment through CCR2 contributes to cardiac and tissue aging phenotypes. In aged mouse hearts, CTPI2-mediated SASP suppression reduced pro-inflammatory CCR2+ macrophage markers, consistent with reduced SASP-driven immune recruitment during Inflammaging.",
+      "zh-TW": "在老化組織中，SASP 會吸引 CCR2+ 發炎細胞，而經由 CCR2 的 SASP 驅動招募有助於心臟與組織老化表型。在老化小鼠心臟中，CTPI2 媒介的 SASP 抑制降低了促發炎 CCR2+ 巨噬細胞標記，與 Inflammaging 期間 SASP 驅動的免疫招募減少一致。"
+    },
+    "confidence": 0.8,
+    "source_document": "CCR2.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "989725328b18",
+    "subject": "CD36",
+    "predicate": "activates",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "CD36 is a class B scavenger receptor on macrophages, platelets, adipocytes and endothelial cells that binds oxLDL, long-chain fatty acids, thrombospondin-1 and AGEs. Ligand engagement recruits Src family kinases and the Toll-like Receptor/MyD88–TRAF6 axis, leading to IKK-mediated IκBα degradation and nuclear translocation of NF-κB (p65), the master switch for SASP transcription.",
+      "zh-TW": "CD36 是表現在巨噬細胞、血小板、脂肪細胞與內皮細胞上的 class B 清道夫受體，結合 oxLDL、長鏈脂肪酸、thrombospondin-1 與 AGEs。配體結合會招募 Src 家族激酶與 Toll-like Receptor/MyD88–TRAF6 軸，經 IKK 介導 IκBα 降解並使 NF-κB（p65）核轉位，成為 SASP 轉錄的主開關。"
+    },
+    "confidence": 0.9,
+    "source_document": "CD36.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "b1da949e00bf",
+    "subject": "CD36",
+    "predicate": "is_required_for",
+    "object": "SASP",
+    "context": {
+      "en-US": "CD36 gates the pro-inflammatory SASP by sensing extracellular lipids such as oxLDL and AGEs and converting them into sustained NF-κB-driven output of IL-6, IL-8, IL-1α and MMPs. It also feeds NLRP3 Inflammasome activation and ROS production, positioning the SASP within inflammaging and metabolic disease.",
+      "zh-TW": "CD36 藉由感知 oxLDL 與 AGEs 等細胞外脂質，將其轉為持續的 NF-κB 驅動輸出（IL-6、IL-8、IL-1α 與 MMPs），因而為促發炎 SASP 設下閘門。它同時促進 NLRP3 Inflammasome 活化與 ROS 生成，將 SASP 置於 inflammaging 與代謝疾病的大框架中。"
+    },
+    "confidence": 0.85,
+    "source_document": "CD36.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "b265601aa07b",
+    "subject": "CD36",
+    "predicate": "contributes_to",
+    "object": "Atherosclerosis",
+    "context": {
+      "en-US": "As a scavenger receptor that internalizes oxidized lipids, CD36 mediates foam-cell formation in Atherosclerosis and also contributes to insulin resistance, diabetes and obesity-related inflammation. Its fatty-acid-translocase activity couples lipid uptake to metabolic rewiring, which is why CD36 blocking antibodies and small molecules are in development for cardiovascular and metabolic indications.",
+      "zh-TW": "作為內吞氧化脂質的清道夫受體，CD36 媒介 Atherosclerosis 中的泡沫細胞形成，並參與胰島素阻抗、糖尿病與肥胖相關發炎。其脂肪酸轉位活性把脂質攝取與代謝重塑耦合，因此 CD36 阻斷抗體與小分子藥物正針對心血管與代謝適應症開發中。"
+    },
+    "confidence": 0.9,
+    "source_document": "CD36.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "cdaa22aaa6c5",
+    "subject": "CD38",
+    "predicate": "degrades",
+    "object": "Nicotinamide Mononucleotide",
+    "context": {
+      "en-US": "CD38 is one of the main enzymes degrading extracellular NMN in mouse tissues, acting as an ecto-NMNase that controls NMN pharmacokinetics and limits its availability to parenchymal cells (Camacho-Pereira et al. 2016). This makes CD38 a gatekeeper of the extracellular NMN pool and a determinant of whether precursor supplementation actually raises tissue NAD+.",
+      "zh-TW": "CD38 是小鼠組織中降解細胞外 NMN 的主要酵素之一，作為 ecto-NMNase 控制 NMN 的藥物動力學並限制其對實質細胞的可及性（Camacho-Pereira et al. 2016）。這使 CD38 成為細胞外 NMN 儲備池的守門人，也決定前驅物補充是否真的能提升組織 NAD+。"
+    },
+    "confidence": 0.9,
+    "source_document": "CD38.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "95139ff7f75b",
+    "subject": "CD38 inhibitor 78c",
+    "predicate": "inhibits",
+    "object": "CD38",
+    "context": {
+      "en-US": "78c is a potent, adduct-forming uncompetitive CD38 inhibitor that preserves NAD+ and its precursor NMN, boosting SIRT3 activity and improving mitochondrial function, exercise capacity and metabolic health in aged mice; it extended lifespan roughly 14% in male mice. It shares its adduct-forming inhibition mechanism with SARM1 inhibitors, and severe adverse reactions were seen in female mice.",
+      "zh-TW": "78c 是強效、以加成物形成的非競爭性 CD38 抑制劑，可保留 NAD+ 與其前驅物 NMN，提升 SIRT3 活性並改善老化小鼠的粒線體功能、運動能力與代謝健康；在雄性小鼠中使壽命延長約 14%。它與 SARM1 抑制劑共用加成物形成的抑制機制，但在雌性小鼠中出現嚴重不良反應。"
+    },
+    "confidence": 0.9,
+    "source_document": "CD38.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "940f2d0dd79f",
+    "subject": "CD38",
+    "predicate": "competes_with",
+    "object": "SARM1",
+    "context": {
+      "en-US": "CD38 and SARM1 are both NAD+ glycohydrolases that cleave NAD+ into nicotinamide, ADP-ribose and cADPR and both have base-exchange activity; SARM1 has the higher NAD-cyclizing activity while CD38 has the lower Km and acts as the priority consumer. Extracellular NMN is the bridging metabolite, since CD38 degrades it outside the cell while SARM1 is activated by intracellular NMN accumulation.",
+      "zh-TW": "CD38 與 SARM1 都是 NAD+ 糖苷水解酶，將 NAD+ 切割為菸鹼醯胺、ADP-核糖與 cADPR，且皆具鹼基交換活性；SARM1 的 NAD 環化活性較高，而 CD38 的 Km 較低，是優先消耗者。細胞外 NMN 是橋接代謝物：CD38 在細胞外降解它，SARM1 則由細胞內 NMN 累積所活化。"
+    },
+    "confidence": 0.85,
+    "source_document": "CD38.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "8a3b1c01fc91",
+    "subject": "Daratumumab",
+    "predicate": "targets",
+    "object": "CD38",
+    "context": {
+      "en-US": "Daratumumab (IgG1κ, approved 2015) and isatuximab (IgG1κ, approved 2020/2021) are anti-CD38 monoclonal antibodies that treat Multiple Myeloma and other hematologic malignancies, where CD38 is highly overexpressed on malignant plasma cells. Their mechanisms include ADCC via NK cells, ADCP, CDC and direct apoptosis, plus depletion of CD38+ Tregs and MDSCs in the tumor microenvironment.",
+      "zh-TW": "Daratumumab（IgG1κ，2015 年核准）與 isatuximab（IgG1κ，2020/2021 年核准）是抗 CD38 單株抗體，治療 Multiple Myeloma 及其他血液腫瘤；CD38 在惡性漿細胞上高度過度表現。其機制包括經 NK 細胞的 ADCC、ADCP、CDC 與直接誘導凋亡，並清除腫瘤微環境中的 CD38+ Treg 與 MDSC。"
+    },
+    "confidence": 0.9,
+    "source_document": "CD38.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "77a04f117469",
+    "subject": "CD4+ T Cells",
+    "predicate": "binds",
+    "object": "MHC type II",
+    "context": {
+      "en-US": "CD4+ T helper cells express the CD4 co-receptor, which binds MHC class II–peptide complexes presented by antigen-presenting cells, giving them MHC class II restriction during thymic positive selection. On antigen encounter with co-stimulation they differentiate into effector subsets according to the cytokine milieu.",
+      "zh-TW": "CD4+ T 輔助細胞表現 CD4 共受體，與抗原呈現細胞呈上的 MHC class II–胜肽複合體結合，於胸腺正選擇時賦予其 MHC class II 限制性。在抗原 Encounter 且有共刺激訊號時，它們依細胞激素環境分化為各類效應子集。"
+    },
+    "confidence": 0.9,
+    "source_document": "CD4+ T Cells.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "58c66f6df7d6",
+    "subject": "IL-12",
+    "predicate": "induces",
+    "object": "Th1",
+    "context": {
+      "en-US": "Cytokine signals determine CD4+ T-cell differentiation by activating specific STAT transcription factors: IL-12 acts through STAT4 to induce T-bet and Th1 differentiation, while IL-4 acts through STAT6 to induce GATA3 and Th2. Th1 cells then defend against intracellular pathogens and activate macrophages via IFNγ and CD40L.",
+      "zh-TW": "細胞激素訊號透過活化特定 STAT 轉錄因子決定 CD4+ T 細胞的分化：IL-12 經 STAT4 誘導 T-bet 與 Th1 分化，而 IL-4 經 STAT6 誘導 GATA3 與 Th2。Th1 細胞隨後藉由 IFNγ 與 CD40L 對抗細胞內病原並活化巨噬細胞。"
+    },
+    "confidence": 0.9,
+    "source_document": "CD4+ T Cells.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "4b59e1e85a94",
+    "subject": "CD4+ T Cells",
+    "predicate": "activates",
+    "object": "Macrophages",
+    "context": {
+      "en-US": "Th1 effector CD4+ T cells activate macrophages through IFNγ secretion and CD40L–CD40 engagement, enhancing microbicidal activity against intracellular pathogens such as Mycobacterium tuberculosis and Leishmania. This classical macrophage-activation pathway is a core example of helper cells orchestrating innate effector function.",
+      "zh-TW": "Th1 效應 CD4+ T 細胞透過 IFNγ 分泌與 CD40L–CD40 结合活化巨噬細胞，增強其對 Mycobacterium tuberculosis 與 Leishmania 等細胞內病原的殺菌活性。這條經典的巨噬細胞活化途徑是輔助細胞協調先天性效應功能的典型例子。"
+    },
+    "confidence": 0.9,
+    "source_document": "CD4+ T Cells.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "4fbb48ed71cb",
+    "subject": "CD4+ T Cells",
+    "predicate": "produces",
+    "object": "IL-10",
+    "context": {
+      "en-US": "Regulatory T cells are a FoxP3-expressing CD4+ subset that suppress immune responses through IL-10, TGF-β, CTLA-4 and IL-2 consumption, maintaining peripheral tolerance and preventing autoimmunity. Dysregulated CD4+ T cells drive tissue damage in rheumatoid arthritis, multiple sclerosis, type 1 diabetes and systemic lupus erythematosus.",
+      "zh-TW": "表現 FoxP3 的 Treg 是 CD4+ 的一個子集，透過 IL-10、TGF-β、CTLA-4 與 IL-2 消耗來抑制免疫反應，維持周邊耐受並避免自體免疫。CD4+ T 細胞的失調則在類風濕性關節炎、多發性硬化症、第一型糖尿病與全身性紅斑性狼瘡中造成組織損傷。"
+    },
+    "confidence": 0.85,
+    "source_document": "CD4+ T Cells.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "8cf873a44ab7",
+    "subject": "CD4",
+    "predicate": "marks",
+    "object": "CD4+ T Cells",
+    "context": {
+      "en-US": "CD4 is the co-receptor that marks helper T cells: it binds MHC class II–peptide complexes and enables differentiation into Th1, Th2, Th17 and Treg programs via T-bet, GATA3, RORγt and FoxP3. CD4+ helpers license B cells, CD8 killers and macrophages, and HIV depletes CD4+ cells to cause immunodeficiency.",
+      "zh-TW": "CD4 是標記輔助 T 細胞的共受體：它結合 MHC class II–胜肽複合體，並藉由 T-bet、GATA3、RORγt 與 FoxP3 促成 Th1、Th2、Th17 與 Treg 程式的分化。CD4+ 輔助細胞授權 B 細胞、CD8 殺手細胞與巨噬細胞，而 HIV 會耗竭 CD4+ 細胞造成免疫缺陷。"
+    },
+    "confidence": 0.9,
+    "source_document": "CD4.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "00cfc62f4877",
+    "subject": "CD44",
+    "predicate": "interacts_with",
+    "object": "MUC1",
+    "context": {
+      "en-US": "In triple-negative Breast Cancer, alternatively spliced CD44 variant (CD44v) isoforms are part of the MUC1-C/xCT complex: MUC1-C forms a complex with xCT (SLC7A11) and CD44v variants that controls glutathione levels. Disruption of this MUC1-C/xCT/CD44v signaling induces ferroptosis, reducing tumor growth and self-renewal, so CD44v is an active redox-protective node rather than merely an adhesion molecule.",
+      "zh-TW": "在三陰性 Breast Cancer 中，選擇性剪接產生的 CD44 變異異構體（CD44v）是 MUC1-C/xCT 複合體的一部分：MUC1-C 與 xCT（SLC7A11）及 CD44v 變異體形成複合體以控制 glutathione 水平。破壞此 MUC1-C/xCT/CD44v 訊號會誘發 ferroptosis，降低腫瘤生長與自我更新，因此 CD44v 是主動的氧化還原保護節點，而不只是黏附分子。"
+    },
+    "confidence": 0.85,
+    "source_document": "CD44.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "fcfd86cde041",
+    "subject": "CD44",
+    "predicate": "maintains",
+    "object": "Glutathione",
+    "context": {
+      "en-US": "CD44v locks in the cystine-to-GSH supply that keeps GPX4 active: as part of the MUC1-C/xCT complex it controls GSH levels in triple-negative breast cancer, thereby sustaining ferroptosis resistance. CD44v is also a cancer-stem-cell and chemoresistance marker, giving a mechanistic rationale for CD44v-targeted ferroptosis therapy in CD44v-high tumors.",
+      "zh-TW": "CD44v 鎖定維持 GPX4 活性的胱胺酸→GSH 供應：作為 MUC1-C/xCT 複合體的一部分，它在三陰性乳癌中控制 GSH 水平，因而維持對 ferroptosis 的抗性。CD44v 同時也是癌症幹細胞與化療抗性標記，為針對 CD44v 高表現腫瘤的 CD44v 導向 ferroptosis 療法提供機轉理由。"
+    },
+    "confidence": 0.85,
+    "source_document": "CD44.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "05da5004dff3",
+    "subject": "CD73",
+    "predicate": "converts_to",
+    "object": "Nicotinamide Riboside",
+    "context": {
+      "en-US": "CD73 (ecto-5'-nucleotidase, NT5E) is a cell-surface ectoenzyme with two relevant activities: it can degrade NMN into Nicotinamide Riboside, thereby sustaining NAD+ synthesis, and it converts extracellular AMP to adenosine, regulating purinergic signaling and immunometabolism. The first role makes CD73 relevant to NAD+ precursor availability.",
+      "zh-TW": "CD73（ecto-5'-nucleotidase，NT5E）是細胞表面的胞外酵素，具有兩項相關活性：它可將 NMN 降解為 Nicotinamide Riboside，藉此維持 NAD+ 合成；並將細胞外 AMP 轉換為 adenosine，調節嘌呤能訊號與 Immunometabolism。前者使 CD73 與 NAD+ 前驅物的可利用性相關。"
+    },
+    "confidence": 0.9,
+    "source_document": "CD73.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "2c5a08e87f93",
+    "subject": "CD73",
+    "predicate": "modulates",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Adenosine generated by CD73 signals through the A2A receptor to modulate Autophagy in T cells and cancer cells, and CD73 expression correlates with autophagic activity in the tumor microenvironment. In vitro, Intermittent Fasting induced autophagy with CD73 downregulation, lowered extracellular adenosine and inhibited M2 polarization via inactivation of JAK1/STAT3.",
+      "zh-TW": "CD73 生成的 adenosine 經由 A2A 受體訊號調節 T 細胞與癌細胞的 Autophagy，且在腫瘤微環境中 CD73 表現與自噬活性正相關。體外實驗顯示，Intermittent Fasting 誘發自噬並使 CD73 下調、細胞外 adenosine 下降，並透過 JAK1/STAT3 去活化抑制 M2 極化。"
+    },
+    "confidence": 0.85,
+    "source_document": "CD73.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "f7d354c5d609",
+    "subject": "CD94",
+    "predicate": "interacts_with",
+    "object": "NKG2A",
+    "context": {
+      "en-US": "CD94 is a type II transmembrane C-type lectin-like protein encoded by KLRD1 that is not a receptor by itself: it supplies the transmembrane and ITIM-bearing cytosolic tail, while the NKG2 partner contributes the ligand-binding C-type lectin domain. The CD94/NKG2A heterodimer is the major inhibitory receptor recognizing HLA-E, and HLA-E engagement triggers NKG2A ITIM phosphorylation and SHP-1 recruitment, suppressing NK-cell and T-cell cytotoxicity.",
+      "zh-TW": "CD94 是由 KLRD1 編碼的 type II 跨膜 C 型凝集素樣蛋白，本身並非受體：它提供跨膜區與帶 ITIM 的胞質尾，而 NKG2 夥伴則提供配體結合的 C 型凝集素結構域。CD94/NKG2A 異二聚體是辨識 HLA-E 的主要抑制性受體，HLA-E 結合會引發 NKG2A ITIM 磷酸化與 SHP-1 招募，抑制 NK 細胞與 T 細胞的細胞毒性。"
+    },
+    "confidence": 0.9,
+    "source_document": "CD94.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "2c0ee06c0cd5",
+    "subject": "HLA-E",
+    "predicate": "contributes_to",
+    "object": "Immune Evasion",
+    "context": {
+      "en-US": "Because HLA-E surface stability reports on overall HLA class I expression, engagement of the CD94/NKG2A axis acts as a sensor of missing-self and of healthy self-MHC. Tumors and senescent cells up-regulate HLA-E to blunt killer-cell function, making the HLA-E/CD94 axis a core mechanism of immune evasion in cancer; monalizumab, which blocks the NKG2A side, aims to restore NK- and T-cell cytotoxicity.",
+      "zh-TW": "由於 HLA-E 的表面穩定性反映整體 HLA class I 的表現，CD94/NKG2A 軸的結合等同於對 missing-self 與健康自身 MHC 的感測。腫瘤與衰老細胞會上調 HLA-E 以削弱殺手細胞功能，使 HLA-E/CD94 軸成為癌症中免疫逃脫的核心機制；阻斷 NKG2A 端的 monalizumab 正是為恢復 NK 與 T 細胞毒性而開發。"
+    },
+    "confidence": 0.85,
+    "source_document": "CD94.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "ebd5328de244",
+    "subject": "CDH5",
+    "predicate": "is_expressed_in",
+    "object": "Endothelial Cells",
+    "context": {
+      "en-US": "CDH5 (VE-cadherin, CD144) is a classical cadherin expressed exclusively in endothelial cells. With five extracellular cadherin domains and a cytoplasmic tail bound to p120-catenin, β-catenin and α-catenin, it forms Ca2+-dependent homophilic interactions at adherens junctions and links to the actin cytoskeleton, maintaining vascular barrier integrity.",
+      "zh-TW": "CDH5（VE-cadherin，CD144）是專一表現在內皮細胞的典型鈣黏著蛋白。它具有五個胞外鈣黏著蛋白結構域，胞質尾與 p120-catenin、β-catenin 及 α-catenin 結合，在黏著帶形成鈣離子依賴的同型性交互作用並連結到肌動蛋白骨架，維持血管屏障完整性。"
+    },
+    "confidence": 0.9,
+    "source_document": "CDH5.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "b66b4500629d",
+    "subject": "Endothelial-to-Mesenchymal Transition",
+    "predicate": "reduces",
+    "object": "CDH5",
+    "context": {
+      "en-US": "Loss of CDH5 expression is a hallmark of Endothelial-to-Mesenchymal Transition: CDH5 is downregulated 45% during CXCL12-driven EndoMT, marking loss of endothelial identity and junctional integrity, while ACTA2 rises inversely. This transdifferentiation program is driven by TGFβ signaling, and PECAM1 is co-downregulated as a second endothelial marker.",
+      "zh-TW": "CDH5 表現喪失是 Endothelial-to-Mesenchymal Transition 的標誌：在 CXCL12 驅動的 EndoMT 中 CDH5 下調 45%，標記內皮身分與接合完整性的喪失，而 ACTA2 則反向升高。此轉分化程式由 TGFβ 訊號驅動，另有 PECAM1 作為第二個內皮標記一同下調。"
+    },
+    "confidence": 0.9,
+    "source_document": "CDH5.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "c2b57e1e6ed1",
+    "subject": "CDH5",
+    "predicate": "contributes_to",
+    "object": "Endothelial Dysfunction",
+    "context": {
+      "en-US": "CDH5 downregulation correlates with vascular leak, inflammation and tumor angiogenesis, and contributes to age-related vascular dysfunction, cardiac fibrosis and atherosclerosis. Mutations in CDH5 cause hereditary hemorrhagic telangiectasia type 2, and VEGFR2 signaling modulates CDH5 phosphorylation and junctional dynamics.",
+      "zh-TW": "CDH5 下調與血管滲漏、發炎及腫瘤血管生成相關，並促成與年齡相關的血管功能障礙、心臟纖維化與動脈粥狀硬化。CDH5 突變會造成第二型遺傳性出血性毛細血管擴張症，VEGFR2 訊號則調節 CDH5 的磷酸化與接合動態。"
+    },
+    "confidence": 0.85,
+    "source_document": "CDH5.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "80b98f96c5f9",
+    "subject": "CDK2",
+    "predicate": "phosphorylates",
+    "object": "Mcl-1",
+    "context": {
+      "en-US": "CDK2 phosphorylates Mcl-1 at Ser64, which enhances Mcl-1 binding to pro-apoptotic proteins such as Bim, Noxa and BAK. This phosphorylation is a route to TRAIL resistance and has been documented across lung, breast, hepatocellular, melanoma, ovarian, prostate and renal cell carcinomas.",
+      "zh-TW": "CDK2 會在 Ser64 磷酸化 Mcl-1，增強 Mcl-1 與 Bim、Noxa 與 BAK 等促凋亡蛋白的結合。此磷酸化是造成 TRAIL 抗性的途徑，已在肺癌、乳癌、肝細胞癌、黑色素瘤、卵巢癌、前列腺癌與腎細胞癌中被記錄。"
+    },
+    "confidence": 0.9,
+    "source_document": "CDK2.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "0a2e7fbdaf86",
+    "subject": "CDK2",
+    "predicate": "drives",
+    "object": "G1 Phase",
+    "context": {
+      "en-US": "CDK2 regulates the G1/S transition and S phase progression as a complex with cyclin E and cyclin A. Cyclin E–CDK2 complexes promote G1 phase progression, so high levels of cyclin D/E with CDK4/6 and CDK2 increase proliferation by driving passage through G1 phase.",
+      "zh-TW": "CDK2 與 cyclin E 及 cyclin A 形成複合體，調控 G1/S 轉換與 S 期進程。cyclin E–CDK2 複合體促進 G1 期進程，因此 cyclin D/E 與 CDK4/6、CDK2 濃度偏高時，會藉由通過 G1 期而提高增殖。"
+    },
+    "confidence": 0.85,
+    "source_document": "CDK2.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "0a520afc5b6e",
+    "subject": "CDK4 6",
+    "predicate": "phosphorylates",
+    "object": "Retinoblastoma Protein",
+    "context": {
+      "en-US": "CDK4 and CDK6 are closely related cyclin-dependent kinases that form active complexes with Cyclin D (D1, D2, D3) to phosphorylate and inactivate pRb, releasing E2F transcription factors to drive S-phase gene expression. CDK4/6 is overactive in many cancers via cyclin D amplification, p16INK4A loss and pRb inactivation.",
+      "zh-TW": "CDK4 與 CDK6 是高度相關的細胞週期蛋白依賴性激酶，與 Cyclin D（D1、D2、D3）形成活性複合體，磷酸化並失活 pRb，釋放 E2F 轉錄因子以驅動 S 期基因表現。CDK4/6 在許多癌症中過度活化，機制包括 cyclin D 擴增、p16INK4A 喪失與 pRb 失活。"
+    },
+    "confidence": 0.95,
+    "source_document": "CDK4 6.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "dc118ba25912",
+    "subject": "Palbociclib",
+    "predicate": "inhibits",
+    "object": "CDK4 6",
+    "context": {
+      "en-US": "Palbociclib, ribociclib and abemaciclib are FDA-approved CDK4/6 inhibitors for HR+/HER2− breast cancer; they cause G1 phase cell cycle arrest. Their selectivity over other CDKs explains both their efficacy and their main toxicities, which arise from targeting the same kinase that couples mitogenic RAS-MEK-ERK signaling to cell-cycle commitment.",
+      "zh-TW": "Palbociclib、ribociclib 與 abemaciclib 是 FDA 核准的 CDK4/6 抑制劑，用於 HR+/HER2− 乳癌，會造成 G1 期細胞週期停滯。它們相對其他 CDK 的選擇性，同時解釋了其療效與主要毒性——因為所抑制的正是把促分裂 RAS-MEK-ERK 訊號與細胞週期承诺連結起來的激酶。"
+    },
+    "confidence": 0.9,
+    "source_document": "CDK4 6.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "3ea64698c11e",
+    "subject": "p16INK4A",
+    "predicate": "inhibits",
+    "object": "CDK4 6",
+    "context": {
+      "en-US": "p16INK4A is an INK4-family inhibitor of CDK4/6: together with p15INK4b, p18INK4c and p19INK4d it restrains Cyclin D–CDK4/6 activity. Loss of p16INK4A is a major route to CDK4/6 overactivity in cancer, while its upregulation in senescence is what arrests the cell cycle in the senescent state.",
+      "zh-TW": "p16INK4A 是 CDK4/6 的 INK4 家族抑制劑：與 p15INK4b、p18INK4c 及 p19INK4d 一起約束 Cyclin D–CDK4/6 活性。p16INK4A 喪失是癌症中 CDK4/6 過度活化的主要途徑之一，而其在衰老時上調，正是使細胞週期停滯於衰老狀態的原因。"
+    },
+    "confidence": 0.9,
+    "source_document": "CDK4 6.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "17ec4fd62e79",
+    "subject": "CDK5",
+    "predicate": "phosphorylates",
+    "object": "Tau Protein",
+    "context": {
+      "en-US": "CDK5 is a proline-directed serine/threonine kinase that, despite its name, is not primarily involved in cell cycle regulation. Activated by p35 or p39, it plays critical roles in neuronal development, synaptic plasticity and Tau phosphorylation, and its hyperphosphorylation of Tau is implicated in Alzheimer's Disease and other neurodegenerative diseases.",
+      "zh-TW": "CDK5 是一種脯胺酸導向的絲胺酸/蘇胺酸激酶，雖名為細胞週期依賴性激酶，卻主要不參與細胞週期調控。它由 p35 或 p39 活化，在神經元發育、突觸可塑性與 Tau 磷酸化上扮演關鍵角色，而其對 Tau 的過度磷酸化與 Alzheimer's Disease 及其他神經退化疾病有關。"
+    },
+    "confidence": 0.9,
+    "source_document": "CDK5.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "373eff9e15b7",
+    "subject": "CDK5",
+    "predicate": "is_activated_by",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "CDK5 is activated by oxidative stress, linking redox status to its kinase activity. Separately, CDK5 phosphorylation of Noxa at Ser13 inactivates Noxa in metabolically regulated leukemia, so CDK5 sits at the intersection of stress signalling and apoptotic control.",
+      "zh-TW": "CDK5 會被氧化壓力活化，將氧化還原狀態與其激酶活性連結起來。另一方面，在代謝受調控的白血病中，CDK5 在 Ser13 磷酸化 Noxa 使其失活，因此 CDK5 處於壓力訊號與凋亡調控的交會處。"
+    },
+    "confidence": 0.8,
+    "source_document": "CDK5.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "ed1ae0d6b33b",
+    "subject": "CDO1",
+    "predicate": "promotes",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "CDO1 (cysteine dioxygenase type 1) is a non-heme iron-dependent dioxygenase that oxidizes cysteine to cysteine sulfinate, committing cysteine to taurine/sulfate catabolism. In gastric cancer it competitively consumes cysteine, restricting the substrate available for glutathione synthesis, lowering antioxidant capacity and promoting lipid peroxidation and erastin-induced ferroptosis; inhibiting CDO1 restores GSH and prevents ferroptosis.",
+      "zh-TW": "CDO1（cysteine dioxygenase type 1）是非血基質鐵依賴型雙加氧酶，將半胱胺酸氧化為 cysteine sulfinate，使半胱胺酸流向牛磺酸/硫酸代謝。在胃癌中它競爭性消耗半胱胺酸，限制可用於 glutathione 合成的受質，降低抗氧化能力並促進脂質過氧化與 erastin 誘發的 ferroptosis；抑制 CDO1 則可恢復 GSH 並阻止 ferroptosis。"
+    },
+    "confidence": 0.9,
+    "source_document": "CDO1.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "7205958c88fe",
+    "subject": "CDO1",
+    "predicate": "competes_with",
+    "object": "System Xc-",
+    "context": {
+      "en-US": "CDO1 and System Xc- compete for cysteine: CDO1 diverts it to catabolism, while System Xc- (SLC7A11) import supports glutathione synthesis. High CDO1 therefore lowers the GSH set-point and sensitizes gastric cancer cells to erastin, making CDO1 expression a candidate biomarker of ferroptosis sensitivity.",
+      "zh-TW": "CDO1 與 System Xc- 競爭半胱胺酸：CDO1 將其分流至分解代謝，而 System Xc-（SLC7A11）的輸入則支持 glutathione 合成。因此 CDO1 偏高會降低 GSH 設定點並使胃癌細胞對 erastin 敏感，也讓 CDO1 表現成為 ferroptosis 敏感性的候選生物標記。"
+    },
+    "confidence": 0.85,
+    "source_document": "CDO1.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "2e3a79ac153e",
+    "subject": "CEBPα",
+    "predicate": "cooperates_with",
+    "object": "CEBPβ",
+    "context": {
+      "en-US": "C/EBPα is a bZIP transcription factor that, upon senescence entry, is induced and relocalizes to chromatin, occupying senescence-activated enhancers with C/EBPβ and NF-κB (p65/p50). This enhanceosome integrates p38 MAPK phosphorylation signals with NF-κB to drive robust, sustained transcription of IL-6, IL-8 and other SASP components.",
+      "zh-TW": "C/EBPα 是 bZIP 轉錄因子，在進入衰老時被誘導並重新定位至染色體，與 C/EBPβ 及 NF-κB（p65/p50）共同占據衰老活化增強子。這個 enhanceosome 將 p38 MAPK 磷酸化訊號與 NF-κB 整合，驅動 IL-6、IL-8 與其他 SASP 成分強而持續的轉錄。"
+    },
+    "confidence": 0.9,
+    "source_document": "CEBPα.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "02c9e529ed0d",
+    "subject": "CEBPα",
+    "predicate": "upregulates",
+    "object": "IL-6",
+    "context": {
+      "en-US": "By binding senescence-activated enhancers together with NF-κB and C/EBPβ, C/EBPα licenses and amplifies SASP gene expression, including IL-6 and IL-8, in replicatively and stress-induced senescent fibroblasts. Targeting C/EBP–NF-κB cooperativity is therefore a candidate senomorphic approach to tame chronic SASP output.",
+      "zh-TW": "透過與 NF-κB 及 C/EBPβ 共同結合衰老活化增強子，C/EBPα 得以授權並放大 SASP 基因表現（包括 IL-6 與 IL-8），發生於複製性與壓力誘導衰老的纖維母細胞中。因此，針對 C/EBP–NF-κB 協同作用是抑制慢性 SASP 輸出的候選 senomorphic 策略。"
+    },
+    "confidence": 0.9,
+    "source_document": "CEBPα.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "135dc858412d",
+    "subject": "CEBPβ",
+    "predicate": "cooperates_with",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "CEBPβ is a C/EBP-family bZIP transcription factor regulating genes involved in inflammation, metabolism, cell proliferation and differentiation. It interacts with NF-κB and STAT3 to coordinate inflammatory gene expression, and its dysregulation is implicated in cancer, obesity and neuroinflammation.",
+      "zh-TW": "CEBPβ 是 C/EBP 家族的 bZIP 轉錄因子，調控與發炎、代謝、細胞增殖及分化相關的基因。它與 NF-κB 及 STAT3 交互作用以協調發炎性基因表現，其失調與癌症、肥胖及神經發炎有關。"
+    },
+    "confidence": 0.85,
+    "source_document": "CEBPβ.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "fd1701af91e2",
+    "subject": "IL-6",
+    "predicate": "activates",
+    "object": "CEBPβ",
+    "context": {
+      "en-US": "CEBPβ is activated by IL-6 (via STAT3 signaling) and induced by TNFα and other inflammatory signals, and it plays key roles in the acute phase response, adipogenesis, gluconeogenesis and myelopoiesis. In senescence it cooperates with C/EBPα and NF-κB at senescence-activated enhancers to drive SASP transcription.",
+      "zh-TW": "CEBPβ 會被 IL-6（經 STAT3 訊號）活化，並由 TNFα 及其他發炎訊號誘導，在急性期反應、adipogenesis、Gluconeogenesis 與 Myelopoiesis 上扮演關鍵角色。在衰老時，它與 C/EBPα 及 NF-κB 一起在衰老活化增強子上協作，驅動 SASP 轉錄。"
+    },
+    "confidence": 0.85,
+    "source_document": "CEBPβ.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "e135f986df5d",
+    "subject": "CHK2",
+    "predicate": "is_activated_by",
+    "object": "ATM",
+    "context": {
+      "en-US": "CHK2 (Checkpoint Kinase 2, CHEK2) is a serine/threonine kinase that acts as a DNA damage checkpoint protein in the cell cycle. ATM phosphorylates CHK2 at Thr68 in response to double-strand breaks, converting CHK2 into its active form; active CHK2 then phosphorylates downstream substrates such as p53, CDC25A, CDC25C and BRCA1 to impose cell cycle arrest and promote apoptosis.",
+      "zh-TW": "CHK2 (Checkpoint Kinase 2, CHEK2) 是一種絲胺酸/蘇胺酸激酶，在細胞週期中作為 DNA 損傷檢查點蛋白。ATM 會在雙股斷裂發生時磷酸化 CHK2 的 Thr68 位置，使其活化；活化的 CHK2 隨後磷酸化 p53、CDC25A、CDC25C 與 BRCA1 等下游標的，造成細胞週期停滯並促進細胞凋亡。"
+    },
+    "confidence": 0.95,
+    "source_document": "CHK2.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "254395bcbc0d",
+    "subject": "CHK2",
+    "predicate": "phosphorylates",
+    "object": "p53",
+    "context": {
+      "en-US": "Active CHK2 phosphorylates p53 at Ser20, which stabilizes and promotes p53 transcriptional activity. This checkpoint arm links CHK2 to both cell cycle arrest and apoptosis, and germline CHEK2 mutations (e.g. 1100delC) confer a moderately increased risk of breast, prostate and colorectal cancer.",
+      "zh-TW": "活化的 CHK2 會磷酸化 p53 的 Ser20 位置，穩定 p53 並提升其轉錄活性。這條檢查點路徑將 CHK2 同時連結到細胞週期停滯與細胞凋亡；CHEK2 的胚系突變（例如 1100delC）會使乳癌、前列腺癌與大腸癌風險中等程度上升。"
+    },
+    "confidence": 0.95,
+    "source_document": "CHK2.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "93636684aa54",
+    "subject": "CISD1",
+    "predicate": "inhibits",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "CISD1, also known as mitoNEET, is a mitochondrial outer-membrane protein carrying a CDGSH-type [2Fe-2S] cluster. By sequestering and regulating mitochondrial labile iron it reduces the Fe2+ available to drive the Fenton reaction, limiting ROS-driven lipid peroxidation and thereby acting as a negative regulator of ferroptosis in hepatocellular carcinoma and other liver cancers.",
+      "zh-TW": "CISD1 又稱 mitoNEET，是帶有 CDGSH 型 [2Fe-2S] 簇的粒線體外膜蛋白。藉由封存與調節粒線體內的活性鐵，它減少可供 Fenton 反應使用的 Fe2+，抑制 ROS 驅動的脂質過氧化，因此在肝細胞癌等肝癌中作為鐵死亡（ferroptosis）的負向調節因子。"
+    },
+    "confidence": 0.92,
+    "source_document": "CISD1.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "edc330a94502",
+    "subject": "CISD1",
+    "predicate": "reduces",
+    "object": "Reactive Oxygen Species",
+    "context": {
+      "en-US": "CISD1 (mitoNEET) buffers mitochondrial labile iron, which restrains the outputs of ROS-driven lipid peroxidation. Loss or inhibition of CISD1 raises mitochondrial iron and lipid ROS, sensitizing cells to ferroptosis; CISD1 is listed alongside NRF2, metallothionein-1G and p53 as a negative regulator of ferroptosis in liver cancer cells.",
+      "zh-TW": "CISD1 (mitoNEET) 會緩衝粒線體中的活性鐵，因而抑制 ROS 驅動脂質過氧化的產物。CISD1 缺失或受抑制時，粒線體鐵與脂質 ROS 上升，使細胞對鐵死亡更加敏感；在肝癌細胞中，CISD1 與 NRF2、metallothionein-1G 及 p53 同列為鐵死亡的負向調節因子。"
+    },
+    "confidence": 0.9,
+    "source_document": "CISD1.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "45c32b47c6b2",
+    "subject": "CISD2",
+    "predicate": "inhibits",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "CISD2 (NAF-1) is a CDGSH-domain [2Fe-2S] protein localized to the mitochondrial outer membrane and ER that acts as a conserved mitochondrial ferroptosis brake. Intact CISD2 limits mitochondrial Fe2+ availability for the Fenton reaction; inhibiting the CISD2 gene in head and neck cancer cells increases mitochondrial iron and lipid ROS, promoting ferroptotic death.",
+      "zh-TW": "CISD2 (NAF-1) 是含 CDGSH domain 的 [2Fe-2S] 蛋白，位於粒線體外膜與內質網，作為保守的粒線體鐵死亡煞車。完整的 CISD2 限制可供 Fenton 反應使用的粒線體 Fe2+；在頭頸癌細胞中抑制 CISD2 基因會提高粒線體鐵與脂質 ROS，促進鐵死亡。"
+    },
+    "confidence": 0.92,
+    "source_document": "CISD2.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "7f1bb72597c6",
+    "subject": "CISD2",
+    "predicate": "interacts_with",
+    "object": "CISD1",
+    "context": {
+      "en-US": "CISD1 (mitoNEET) and CISD2 (NAF-1) are paralogous CDGSH [2Fe-2S] proteins that both restrain ferroptosis by limiting mitochondrial iron. Their roles are tissue-distinct but mechanistically unified: CISD1 is prominent in hepatocellular carcinoma and CISD2 in head and neck cancer, establishing the CISD family as a conserved mitochondrial ferroptosis brake.",
+      "zh-TW": "CISD1 (mitoNEET) 與 CISD2 (NAF-1) 是同源的 CDGSH [2Fe-2S] 蛋白，兩者皆藉由限制粒線體鐵來抑制鐵死亡。兩者的作用具有組織分布差異但機制一致：CISD1 在肝細胞癌中較具代表性，CISD2 則在頭頸癌中較重要，顯示 CISD 家族是保守的粒線體鐵死亡煞車。"
+    },
+    "confidence": 0.9,
+    "source_document": "CISD2.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "de3b62a5d3b9",
+    "subject": "CK2",
+    "predicate": "inhibits",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "Casein kinase 2 (CK2) normally restrains NF-κB activation. CK2 phosphorylates the NF-κB inhibitor IκBα (e.g. Ser283), protecting it from stimulus-induced degradation, and also primes IKK and supports NEMO function, so that total CK2 activity sets the threshold for inflammatory transcription.",
+      "zh-TW": "酪蛋白激酶 2 (CK2) 平常會抑制 NF-κB 的活化。CK2 會磷酸化 NF-κB 抑制蛋白 IκBα（例如 Ser283），保護它不被刺激誘導的降解；同時也活化 IKK 並支持 NEMO 功能，因此 CK2 的總活性決定了發炎轉錄的起始門檻。"
+    },
+    "confidence": 0.9,
+    "source_document": "CK2.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "65bdb8bca0fe",
+    "subject": "CK2",
+    "predicate": "phosphorylates",
+    "object": "p53",
+    "context": {
+      "en-US": "CK2 phosphorylates a wide range of substrates involved in cell-cycle control, transcription and signal transduction, including the tumor suppressor p53, whose stability and activity it modulates. CK2 also phosphorylates caspase-2 at Ser157 and the BH3-only protein Bid, inhibiting their pro-apoptotic functions and thereby reinforcing tumor cell survival.",
+      "zh-TW": "CK2 會磷酸化多種參與細胞週期調控、轉錄與訊息傳遞的標的，包括腫瘤抑制蛋白 p53，並調節其穩定性與活性。CK2 也會磷酸化 caspase-2 的 Ser157 與 BH3-only 蛋白 Bid，抑制它們的促凋亡功能，進而強化腫瘤細胞的存活。"
+    },
+    "confidence": 0.88,
+    "source_document": "CK2.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "bdd56e9c2ef7",
+    "subject": "CK2",
+    "predicate": "suppresses",
+    "object": "SASP",
+    "context": {
+      "en-US": "Reduced CK2 activity or expression in senescent cells relieves its brake on the NF-κB pathway, promoting IKK/NF-κB activation and contributing to induction of the senescence-associated secretory phenotype. CK2 thus behaves as an endogenous senescence suppressor whose downregulation is one of the licensing events for the SASP.",
+      "zh-TW": "衰老細胞中 CK2 活性或表現下降，會解除它對 NF-κB 路徑的抑制，促進 IKK/NF-κB 活化，並促成衰老相關分泌表型（SASP）的誘導。因此 CK2 相當於內生性的衰老抑制因子，其下调是 SASP 得以啟動的許可事件之一。"
+    },
+    "confidence": 0.85,
+    "source_document": "CK2.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "87f6712ecb37",
+    "subject": "CLOCK",
+    "predicate": "interacts_with",
+    "object": "BMAL1",
+    "context": {
+      "en-US": "CLOCK (Circadian Locomotor Output Cycles Kaput) is a core component of the mammalian circadian clock that heterodimerizes with BMAL1 to bind E-box elements and drive transcription of clock-controlled genes. One key target is NAMPT, the rate-limiting enzyme of the NAD+ salvage pathway, so the CLOCK-BMAL1-NAMPT axis generates circadian NAD+ oscillations.",
+      "zh-TW": "CLOCK (Circadian Locomotor Output Cycles Kaput) 是哺乳類晝夜節律的核心組成，會與 BMAL1 形成異源二聚體，結合 E-box 元素並驅動時鐘調控基因的轉錄。其中一個關鍵標的是 NAD+ 補救途徑的限速酵素 NAMPT，因此 CLOCK–BMAL1–NAMPT 軸會產生晝夜節律性的 NAD+ 振盪。"
+    },
+    "confidence": 0.95,
+    "source_document": "CLOCK.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "bae044c9cfa1",
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "CLOCK",
+    "context": {
+      "en-US": "SIRT1 deacetylates and activates CLOCK, coupling metabolic state to circadian output. SIRT1 also deacetylates PGC-1α, which amplifies expression of the circadian transcription factors BMAL1 and CLOCK in the suprachiasmatic nucleus; age-related SIRT1 decline disrupts this CLOCK-BMAL1-NAMPT-NAD+ feedback loop and is linked to metabolic and neurodegenerative disease.",
+      "zh-TW": "SIRT1 會去乙醯化並活化 CLOCK，將代謝狀態與晝夜節律輸出連結起來。SIRT1 也去乙醯化 PGC-1α，後者在視交叉上核中放大時鐘轉錄因子 BMAL1 與 CLOCK 的表現；隨年齡下降的 SIRT1 會破壞這條 CLOCK–BMAL1–NAMPT–NAD+ 回饋迴路，並與代謝及神經退化性疾病相關。"
+    },
+    "confidence": 0.92,
+    "source_document": "CLOCK.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "a2dce7203cbf",
+    "subject": "CLOCK",
+    "predicate": "upregulates",
+    "object": "NAMPT",
+    "context": {
+      "en-US": "CLOCK, together with BMAL1, transcriptionally upregulates NAMPT, the rate-limiting enzyme of the NAD+ salvage pathway. Because rhythmic NAMPT expression produces the rhythmic NAD+ supply that gates SIRT1 activity, CLOCK sits upstream of a sirtuin feedback loop in the suprachiasmatic nucleus.",
+      "zh-TW": "CLOCK 與 BMAL1 一同在轉錄層級上調 NAMPT，也就是 NAD+ 補救途徑的限速酵素。由於節律性的 NAMPT 表現會產生調控 SIRT1 活性的節律性 NAD+ 供應，CLOCK 因此位於視交叉上核中 sirtuin 回饋迴路的上游。"
+    },
+    "confidence": 0.9,
+    "source_document": "CLOCK.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "ad026aa38a19",
+    "subject": "CMS121",
+    "predicate": "inhibits",
+    "object": "Fatty Acid Synthase",
+    "context": {
+      "en-US": "CMS121 is a fatty-acid-synthase (FASN) inhibitor developed by Pamela Maher's lab, discovered through the same phenotypic ferroptosis-based screening platform that yielded its sister compound J147. By inhibiting FASN it reduces pathological lipid accumulation and oxidative stress in neurons, and both compounds completed Phase 1 clinical trials for Alzheimer's disease.",
+      "zh-TW": "CMS121 是 Pamela Maher 實驗室開發的脂肪酸合成酶（FASN）抑制劑，與其姊妹化合物 J147 同樣來自以鐵死亡為基礎的表型篩選平台。藉由抑制 FASN，它減少神經元中病理性脂質堆積與氧化壓力，兩者皆已完成阿茲海默病的第一期臨床試驗。"
+    },
+    "confidence": 0.95,
+    "source_document": "CMS121.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "7258a2262129",
+    "subject": "CMS121",
+    "predicate": "protects_against",
+    "object": "Lipid Peroxidation",
+    "context": {
+      "en-US": "CMS121 protects against excess lipid peroxidation and inflammation, and alleviates cognitive loss in transgenic mouse models of Alzheimer's disease. As a potent anti-ferroptotic compound from the Maher screening platform, it complements GPX4-centered ferroptosis regulation by limiting the lipid substrate supply.",
+      "zh-TW": "CMS121 可防止過度的脂質過氧化與發炎，並在阿茲海默病轉基因小鼠模型中減輕認知功能喪失。作為 Maher 篩選平台產生的強效抗鐵死亡化合物，它藉由限制脂質受質供應，與以 GPX4 為核心的鐵死亡調控互補。"
+    },
+    "confidence": 0.9,
+    "source_document": "CMS121.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "20e960ac8d65",
+    "subject": "CNKSR2",
+    "predicate": "regulates",
+    "object": "MAPK",
+    "context": {
+      "en-US": "CNKSR2 (CNK2) encodes an X-linked synaptic scaffolding protein that modulates the intensity and duration of RAS-MAPK signaling. Its PDZ, CRIC, PH and SAM domains make it a molecular hub integrating upstream receptor tyrosine kinase signals and tuning downstream RAF, MEK and ERK effectors; loss-of-function mutations may derepress RAS-MAPK signaling and confer a proliferative advantage.",
+      "zh-TW": "CNKSR2 (CNK2) 編碼一種 X 聯鎖的突觸支架蛋白，可調節 RAS–MAPK 訊號的強度與持續時間。其 PDZ、CRIC、PH 與 SAM 結構域使它成為整合上游受體酪胺酸激酶訊號並調節下游 RAF、MEK 與 ERK 效應子的分子樞紐；其功能缺失突變可能解除對 RAS–MAPK 訊號的抑制，賦予細胞增殖優勢。"
+    },
+    "confidence": 0.9,
+    "source_document": "CNKSR2.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "eb3478d023d9",
+    "subject": "CNKSR2",
+    "predicate": "is_a_type_of",
+    "object": "Tumor Suppressor Gene",
+    "context": {
+      "en-US": "CNKSR2 acts as a RAS-pathway tumor suppressor and is one of six EXITS (Escape from X-Inactivation Tumor Suppressors) genes. Across 21 tumor types these X-linked genes harbor loss-of-function mutations significantly more often in males, because females are biallelically buffered by escape from X-inactivation while males are hemizygous and vulnerable to single-hit inactivation.",
+      "zh-TW": "CNKSR2 作為 RAS 路徑的腫瘤抑制基因，是六個 EXITS（Escape from X-Inactivation Tumor Suppressors）基因之一。在 21 種腫瘤類型中，這些 X 聯鎖基因的功能缺失突變在男性顯著更常見，因為女性因逃脫 X 染色體失活而具有雙等位緩衝，男性則為半合子，單次打擊即失去功能。"
+    },
+    "confidence": 0.88,
+    "source_document": "CNKSR2.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "1fc5a6162819",
+    "subject": "CNKSR2",
+    "predicate": "is_a_member_of",
+    "object": "EXITS",
+    "context": {
+      "en-US": "CNKSR2 belongs to the EXITS class alongside ATRX, DDX3X, KDM5C, KDM6A and MAGEC3. A sex-biased loss-of-function pattern seen across 21 tumor types in these six genes was absent in all 18,055 autosomal plus pseudoautosomal genes examined, establishing the escape-from-X-inactivation tumor suppressor framework.",
+      "zh-TW": "CNKSR2 與 ATRX、DDX3X、KDM5C、KDM6A、MAGEC3 同屬 EXITS 類群。這六個基因在 21 種腫瘤類型中呈現偏向男性的功能缺失模式，在所檢視的 18,055 個體染色體與擬自體染色體基因中則完全未見，藉此建立了「逃脫 X 染色體失活的腫瘤抑制基因」框架。"
+    },
+    "confidence": 0.9,
+    "source_document": "CNKSR2.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "acebdf6045e2",
+    "subject": "Fisetin",
+    "predicate": "inhibits",
+    "object": "COMT",
+    "context": {
+      "en-US": "Fisetin is a natural flavonoid that inhibits catechol-O-methyltransferase with moderate potency (IC50 2.6-5.8 uM, mixed kinetics) and also acts as a COMT substrate. It is roughly 10-50x weaker than clinical COMT inhibitors (entacapone ~0.23 uM, tolcapone ~0.048 uM, quercetin 0.9-1.5 uM, EGCG 0.04-0.07 uM), yet nutraceutical dosing can reach effective levels.",
+      "zh-TW": "Fisetin 是一種天然類黃酮，可中等到效抑制 catechol-O-methyltransferase（IC50 2.6–5.8 µM，混合型動力學），同時也是 COMT 的受質。它的效力約比臨床 COMT 抑制劑弱 10–50 倍（entacapone 約 0.23 µM、tolcapone 約 0.048 µM、quercetin 0.9–1.5 µM、EGCG 0.04–0.07 µM），但營養補充劑劑量仍可達到有效濃度。"
+    },
+    "confidence": 0.92,
+    "source_document": "COMT Inhibitors.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "72bfe6e934a9",
+    "subject": "COPD",
+    "predicate": "is_associated_with",
+    "object": "SIRT1",
+    "context": {
+      "en-US": "SIRT1 is substantially decreased in the lungs of COPD and emphysema patients and in rodents exposed to cigarette smoke. SIRT1 exerts anti-inflammatory, anti-apoptotic and antioxidant effects in COPD by regulating NF-kB-dependent proinflammatory mediators, FOXO3a and p53, and the SIRT1 activator SRT1720 inhibits LPS-induced cytokine release from COPD PBMCs.",
+      "zh-TW": "在 COPD 與肺氣腫患者的肺部，以及暴露於香菸的囓齒動物中，SIRT1 顯著下降。SIRT1 藉由調節 NF-κB 相關的促發炎介質、FOXO3a 與 p53，在 COPD 中發揮抗發炎、抗凋亡與抗氧化作用；SIRT1 活化劑 SRT1720 可抑制 COPD 患者 PBMC 受 LPS 刺激後的細胞激素釋放。"
+    },
+    "confidence": 0.9,
+    "source_document": "COPD.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "672f95a7bd26",
+    "subject": "COPD",
+    "predicate": "is_associated_with",
+    "object": "SIRT3",
+    "context": {
+      "en-US": "SIRT3, a mitochondrial deacetylase, inhibits airway epithelial mitochondrial oxidative stress and thereby attenuates COPD progression. Alongside reduced SIRT6, which is linked to COPD development through insufficient autophagy during cigarette smoke exposure, reduced SIRT1 and SIRT3 define the deficient sirtuin landscape of COPD lung.",
+      "zh-TW": "SIRT3 作為粒線體去乙醯化酶，可抑制氣道上皮的粒線體氧化壓力，進而減緩 COPD 進展。與 SIRT6 下降（經由香菸暴露期間自噬不足而與 COPD 發生相關）並列，SIRT1 與 SIRT3 的不足構成了 COPD 肺部 sirtuin  landscape 的特徵。"
+    },
+    "confidence": 0.88,
+    "source_document": "COPD.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "627d20b83265",
+    "subject": "COVID-19",
+    "predicate": "is_associated_with",
+    "object": "SIRT1",
+    "context": {
+      "en-US": "In COVID-19 an unbalanced p53/SIRT1 axis affects lymphocyte homeostasis: because SIRT1 deacetylates p53, low SIRT1 leaves p53 persistently activated, which may contribute to the lymphopenia seen in severe disease. Increased SIRT1 may therefore alleviate pathogenesis, making SIRT1 activation a proposed therapeutic strategy for immune dysfunction in COVID-19.",
+      "zh-TW": "在 COVID-19 中，失衡的 p53/SIRT1 軸會影響淋巴球恆定：因為 SIRT1 會去乙醯化 p53，SIRT1 偏低會使 p53 持續活化，可能加重重症所見的淋巴球減少。因此提升 SIRT1 可能有助於減輕致病過程，使 SIRT1 活化成為 COVID-19 免疫功能失調的治療策略。"
+    },
+    "confidence": 0.88,
+    "source_document": "COVID-19.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "f36097a0b755",
+    "subject": "COVID-19",
+    "predicate": "is_associated_with",
+    "object": "SIRT3",
+    "context": {
+      "en-US": "Serum SIRT3 levels correlate with clinical outcome in COVID-19, being markedly lower in severe than in mild or moderate patients. This positions circulating SIRT3 as a severity and prognostic biomarker, complementing the p53/SIRT1 axis model of immune dysregulation in SARS-CoV-2 infection.",
+      "zh-TW": "在 COVID-19 中，血清 SIRT3 濃度與臨床預後相關，重症患者的濃度明顯低於輕度或中度患者。這使循環中的 SIRT3 可作為嚴重度與預後的生物標記，並與 SARS-CoV-2 感染中免疫失調的 p53/SIRT1 軸模型互相補充。"
+    },
+    "confidence": 0.88,
+    "source_document": "COVID-19.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "806928a11da0",
+    "subject": "COX-2",
+    "predicate": "is_upregulated_by",
+    "object": "SIRT6",
+    "context": {
+      "en-US": "SIRT6 promotes expression of COX-2 by repressing AMPK signaling, thereby increasing cell proliferation. SIRT6 overexpression likewise raises ERK phosphorylation and drives proliferation, so inhibiting SIRT6 lowers COX-2 levels and restrains growth of the cells in question.",
+      "zh-TW": "SIRT6 藉由抑制 AMPK 訊號促進 COX-2 的表現，進而增加細胞增殖。SIRT6 過度表現同樣會提高 ERK 的磷酸化並促進增殖，因此抑制 SIRT6 可降低 COX-2 濃度並抑制相關細胞的生長。"
+    },
+    "confidence": 0.85,
+    "source_document": "COX-2.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "d91eccaaa992",
+    "subject": "CPEO",
+    "predicate": "impairs",
+    "object": "Oxidative Phosphorylation",
+    "context": {
+      "en-US": "CPEO (chronic progressive external ophthalmoplegia) is a mitochondrial myopathy caused by mitochondrial DNA abnormalities - most often large-scale single deletions, but also point mutations in tRNA genes or multiple deletions from nuclear mutations such as POLG and TWINKLE. These lesions impair oxidative phosphorylation and electron transport chain function, producing progressive ptosis, ophthalmoplegia, proximal myopathy and exercise intolerance.",
+      "zh-TW": "CPEO（慢性進行性外眼肌麻痺）是一種粒線體肌病，由粒線體 DNA 異常造成——最常見的是大規模單一缺失，也包括 tRNA 基因點突變或 POLG、TWINKLE 等核基因突變所致的多次缺失。這些病灶會損害氧化磷酸化與電子傳遞鏈功能，造成進行性上瞼下垂、眼肌麻痺、近端肌病與運動不耐受。"
+    },
+    "confidence": 0.95,
+    "source_document": "CPEO.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "efe4c6451e1c",
+    "subject": "CPEO",
+    "predicate": "is_associated_with",
+    "object": "Humanin",
+    "context": {
+      "en-US": "Humanin expression is elevated in the skeletal muscles of CPEO patients, mirroring findings in MELAS. Because this upregulation most likely represents a compensatory stress response to mitochondrial dysfunction, the correlation between humanin levels and disease severity suggests humanin could serve as a biomarker and potential therapeutic target for mitochondrial disease.",
+      "zh-TW": "CPEO 患者的骨骼肌中，Humanin 的表現量升高，與 MELAS 的發現一致。由於這種上調很可能代表對粒線體功能失調的代償性壓力反應，humanin 濃度與疾病嚴重程度之間的相關性，顯示 humanin 可作為粒線體疾病的生物標記與潛在治療標的。"
+    },
+    "confidence": 0.9,
+    "source_document": "CPEO.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "0f9c98b069a6",
+    "subject": "CPT2",
+    "predicate": "is_activated_by",
+    "object": "SIRT5",
+    "context": {
+      "en-US": "SIRT5, the mitochondrial NAD+-dependent desuccinylase, removes succinyl marks from CPT2 (Lys424, mouse numbering), increasing CPT2 activity and fatty acid oxidation flux. This post-translational control couples cellular succinyl-CoA levels to mitochondrial fuel selection and has been reported to rescue FAO and improve cardiac function in models of diabetic cardiomyopathy.",
+      "zh-TW": "SIRT5 為粒線體 NAD+ 相依的去琥珀醯化酶，會移除 CPT2 上的琥珀醯標記（小鼠編號 Lys424），提升 CPT2 活性與脂肪酸氧化流量。這種轉譯後調控把細胞內 succinyl-CoA 濃度與粒線體燃料選擇連結起來，並據報能在糖尿病心肌病變模型中恢復脂肪酸氧化並改善心臟功能。"
+    },
+    "confidence": 0.95,
+    "source_document": "CPT2.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "1768046cf3a2",
+    "subject": "CPT2",
+    "predicate": "is_expressed_in",
+    "object": "Cardiomyocytes",
+    "context": {
+      "en-US": "CPT2 is expressed at high levels in tissues with robust oxidative capacity - skeletal muscle, heart (cardiomyocytes), liver and kidney. Because the outer-membrane enzyme CPT1 is allosterically inhibited by malonyl-CoA while CPT2 is not, the CPT2 step of the carnitine shuttle is the rate-limiting entry point for long-chain fatty acid oxidation, supplying the matrix with acyl-CoA for beta-oxidation.",
+      "zh-TW": "CPT2 在氧化能力強的組織中高度表現，包括骨骼肌、心臟（心肌細胞）、肝臟與腎臟。由於外膜酵素 CPT1 會被 malonyl-CoA 別構抑制，而 CPT2 不受此調控，肉鹼穿梭的第二步 CPT2 便是長鏈脂肪酸氧化的限速入口，負責在基質中提供 acyl-CoA 供 β-氧化使用。"
+    },
+    "confidence": 0.92,
+    "source_document": "CPT2.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "2698a94dc4be",
+    "subject": "CPT2",
+    "predicate": "is_required_for",
+    "object": "Skeletal Muscle",
+    "context": {
+      "en-US": "CPT2 is required for long-chain fatty acid oxidation in skeletal muscle, which is a major site of CPT2 expression; it permits muscle and heart to oxidize long-chain fatty acids while sparing glucose for the brain and supports hepatic ketogenesis during fasting. Loss of CPT2 activity produces the myopathic (mildest, most common) form of CPT2 deficiency, with exercise-induced myalgia, weakness and recurrent rhabdomyolysis with myoglobinuria, typically triggered by prolonged exercise, fasting, cold or infection; the common founder allele is p.Ser113Leu.",
+      "zh-TW": "CPT2 對骨骼肌的長鏈脂肪酸氧化是必需的，而骨骼肌也是 CPT2 高度表現的主要部位；它讓肌肉與心臟得以氧化長鏈脂肪酸並將葡萄糖留給腦，同時在禁食期間支持肝臟糖質生成。CPT2 活性喪失會造成 CPT2 缺乏症中最輕且最常見的肌病型表型，表現為運動誘發的肌痛、無力與反覆發生伴肌紅蛋白尿的橫紋肌溶解，通常由長時間運動、禁食、寒冷或感染誘發；常見的始祖等位基因為 p.Ser113Leu。"
+    },
+    "confidence": 0.82,
+    "source_document": "CPT2.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "7e644b9597bb",
+    "subject": "CRTC2",
+    "predicate": "is_deacetylated_by",
+    "object": "SIRT1",
+    "context": {
+      "en-US": "CRTC2 (TORC2) is a CREB-regulated transcriptional coactivator that drives hepatic gluconeogenesis. SIRT1 deacetylates CRTC2 as part of the dynamic regulation of fasting glucose production, complementing its deacetylation of FOXO1 and PGC-1α, so SIRT1 controls gluconeogenesis at several transcriptional coactivator and transcription factor nodes.",
+      "zh-TW": "CRTC2 (TORC2) 是 CREB 調控的轉錄共活化因子，驅動肝臟糖質新生。SIRT1 會去乙醯化 CRTC2，作為禁食時肝臟葡萄糖產量動態調控的一部分，與其對 FOXO1 與 PGC-1α 的去乙醯化互補，因此 SIRT1 在多個轉錄共活化因子與轉錄因子節點上控制糖質新生。"
+    },
+    "confidence": 0.9,
+    "source_document": "CRTC2.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "41f4cb95d38d",
+    "subject": "CRTC2",
+    "predicate": "drives",
+    "object": "Gluconeogenesis",
+    "context": {
+      "en-US": "CRTC2 (also TORC2) is a coactivator whose phosphorylation by SIK/AMPK gates CREB-dependent transcription and thereby drives hepatic gluconeogenesis. Its activity is dynamically controlled under nutrient deprivation, so CRTC2 is a convergence point where nutrient and energy sensing sets the rate of fasting glucose output.",
+      "zh-TW": "CRTC2（又稱 TORC2）是共活化因子，經 SIK/AMPK 磷酸化後調控 CREB 相關的轉錄，進而驅動肝臟糖質新生。其活性在營養缺乏時受到動態調控，因此 CRTC2 是營養與能量感測決定禁食期間葡萄糖輸出速率的匯聚點。"
+    },
+    "confidence": 0.9,
+    "source_document": "CRTC2.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "f90075e4fd65",
+    "subject": "CTLA-4",
+    "predicate": "competes_with",
+    "object": "CD86",
+    "context": {
+      "en-US": "CTLA-4 (CD152) is an inhibitory receptor upregulated after T-cell activation that outcompetes CD28 for CD80/CD86 binding, delivering off-signals that terminate T-cell responses. Germline haploinsufficiency of CTLA-4 causes autoimmunity, and its higher surface affinity for the shared ligands is what makes blockade effective immunotherapy.",
+      "zh-TW": "CTLA-4 (CD152) 是 T 細胞活化後上調的抑制性受體，會在 CD80/CD86 結合上與 CD28 競爭，傳遞終止 T 細胞反應的抑制訊號。CTLA-4 的胚單倍型不足會造成自體免疫，而它對共用配體較高的表面親和力，正是阻斷 CTLA-4 能成為有效免疫療法的關鍵。"
+    },
+    "confidence": 0.9,
+    "source_document": "CTLA-4.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "146919d368d3",
+    "subject": "CTLA-4",
+    "predicate": "is_targeted_by",
+    "object": "Immunotherapy",
+    "context": {
+      "en-US": "CTLA-4 blockade with ipilimumab is approved immunotherapy for melanoma and NSCLC, usually combined with PD-1 inhibition, and CTLA-4 is listed among checkpoint targets alongside PD-1/PD-L1 in senescence immune-evasion contexts. Removing this inhibitory brake reinvigorates exhausted T cells against tumor cells.",
+      "zh-TW": "以 ipilimumab 阻斷 CTLA-4 是已獲核准用於黑色素瘤與非小細胞肺癌的免疫療法，通常與 PD-1 抑制合併；在衰老的免疫逃脫情境中，CTLA-4 也與 PD-1/PD-L1 並列為檢查點標的。移除這道抑制煞車可使耗竭的 T 細胞重新活化以對抗腫瘤細胞。"
+    },
+    "confidence": 0.88,
+    "source_document": "CTLA-4.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "68bc2fcb40ad",
+    "subject": "CTPI2",
+    "predicate": "suppresses",
+    "object": "SASP",
+    "context": {
+      "en-US": "CTPI2 suppresses SASP gene expression and secretion in a dose-dependent manner across irradiation-, doxorubicin- and replicative-induced senescence models, both shortly after senescence induction and in fully established senescent cells. It acts on SASP signalling rather than senescent cell clearance, leaving cell cycle arrest, p16/p21, HMGB1 localization and DNA damage foci unchanged.",
+      "zh-TW": "CTPI2 在輻射、doxorubicin 與複製性誘導的細胞衰老模型中，以劑量依賴方式抑制 SASP 基因表現與分泌，且在衰老誘導後短期與已完全建立的衰老細胞中都有效。它的作用點是 SASP 訊號而非清除衰老細胞，細胞週期停滯、p16/p21、HMGB1 定位與 DNA 損傷焦點皆未改變。"
+    },
+    "confidence": 0.95,
+    "source_document": "CTPI2.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "1af380d54b0b",
+    "subject": "CUT&Tag",
+    "predicate": "measures",
+    "object": "Histone Modification",
+    "context": {
+      "en-US": "CUT&Tag (Cleavage Under Targets and Tagmentation) maps histone modifications genome-wide using a primary antibody against the target epigenetic mark plus a secondary antibody linked to a Protein A-Tn5 transposase fusion. Ca2+-dependent Tn5 activation then cleaves and tags DNA adjacent to the antibody binding site, giving high-resolution profiles from as few as 100-10,000 cells with lower background than ChIP-seq.",
+      "zh-TW": "CUT&Tag（Cleavage Under Targets and Tagmentation）以針對目標表觀遺傳標記的一級抗體，加上連接 Protein A–Tn5 轉位酶融合蛋白的二級抗體，全基因體地測繪組蛋白修飾。隨後由鈣離子依賴的 Tn5 活化，在抗體結合位點附近切割並標記 DNA，僅需 100–10,000 個細胞即可得到高解析度輪廓，背景比 ChIP-seq 更低。"
+    },
+    "confidence": 0.9,
+    "source_document": "CUT&Tag.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "b387e54d9a34",
+    "subject": "CUT&Tag",
+    "predicate": "is_a_component_of",
+    "object": "Chromatin",
+    "context": {
+      "en-US": "CUT&Tag profiles protein-DNA interactions on chromatin, and its single-cell variant enables cell-type-specific epigenomic profiling of rare populations. Integrated with ATAC-seq it supports multi-omic chromatin analysis, making it a core technology of epigenomics alongside transcription factor binding assays.",
+      "zh-TW": "CUT&Tag 可在染色質上描繪蛋白質—DNA 交互作用，其單細胞版本則能對稀有細胞族群進行細胞型特異性的表觀基因組分析。與 ATAC-seq 整合後可支援多組學的染色質分析，因此它與轉錄因子結合分析並列，為表觀基因組學的核心技術。"
+    },
+    "confidence": 0.82,
+    "source_document": "CUT&Tag.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "671ba1e0f2ad",
+    "subject": "CXCL1",
+    "predicate": "binds",
+    "object": "CXCR2",
+    "context": {
+      "en-US": "CXCL1 (GROalpha/NAP-3) is an ELR+ C-X-C chemokine that signals with high affinity through CXCR2 and, at lower affinity, CXCR1. Receptor activation couples to Galphai, triggering PLCbeta-IP3/DAG-Ca2+ flux, PI3K/Akt, and MAPK/ERK and p38 MAPK cascades, driving neutrophil degranulation, ROS production and transendothelial migration that amplify local inflammation.",
+      "zh-TW": "CXCL1（GROα/NAP-3）是 ELR+ 的 C-X-C 趨化因子，以高親和力經由 CXCR2 訊號傳遞，並以較低親和力作用於 CXCR1。受體活化後耦合 Gαi，觸發 PLCβ–IP3/DAG–Ca2+ flux、PI3K/Akt 以及 MAPK/ERK 與 p38 MAPK 級聯反應，促使中性球脫顆粒、產生 ROS 並進行跨內皮移行，放大局部發炎。"
+    },
+    "confidence": 0.95,
+    "source_document": "CXCL1.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "3124a95da15f",
+    "subject": "CXCL1",
+    "predicate": "is_a_component_of",
+    "object": "SASP",
+    "context": {
+      "en-US": "CXCL1 is a conserved component of the senescence-associated secretory phenotype, constitutively elevated in senescent human fibroblasts and part of the core ELR+ CXC chemokine cluster with CXCL2, CXCL3 and IL-8. Its transcription is driven by NF-kB, AP-1, C/EBPbeta and p38 MAPK - the same master regulators of the SASP - explaining its co-induction with IL-6 and IL-8.",
+      "zh-TW": "CXCL1 是衰老相關分泌表型（SASP）的保守組成，在衰老的人類纖維母細胞中持續升高，並與 CXCL2、CXCL3 及 IL-8 一起構成核心 ELR+ CXC 趨化因子群。它的轉錄由 NF-κB、AP-1、C/EBPβ 與 p38 MAPK 驅動——皆是 SASP 的主要調控因子——這解釋了它與 IL-6、IL-8 的共同誘導。"
+    },
+    "confidence": 0.95,
+    "source_document": "CXCL1.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "9eecc2ca233c",
+    "subject": "CXCL1",
+    "predicate": "recruits",
+    "object": "Neutrophils",
+    "context": {
+      "en-US": "By engaging CXCR2 on neighbouring cells, CXCL1 acts as a paracrine feed-forward amplifier of the senescent phenotype (bystander senescence), and in liver it is secreted by stress-senescent activated stellate cells to shape the inflammatory infiltrate that both limits and perpetuates fibrosis. Acute neutrophil recruitment supports clearance of damaged cells, whereas chronic CXCL1/CXCR2 signaling in aged tissue fuels inflammaging.",
+      "zh-TW": "CXCL1 藉由在鄰近細胞上結合 CXCR2，扮演衰老表型的旁分泌前饋放大器（bystander senescence）；在肝臟中，它由壓力誘導衰老的活化星狀細胞分泌，形成既限制又延續纖維化的發炎浸潤。急性中性球募集有助於清除受損細胞，但老化組織中慢性的 CXCL1/CXCR2 訊號則會助長 inflammaging。"
+    },
+    "confidence": 0.9,
+    "source_document": "CXCL1.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "d974e4552491",
+    "subject": "CXCL10",
+    "predicate": "binds",
+    "object": "CXCR3",
+    "context": {
+      "en-US": "CXCL10 (IP-10) is an ELR- C-X-C chemokine and principal ligand of CXCR3 (also CXCR3B). Unlike ELR+ CXC chemokines it is not angiogenic or neutrophil-directed; instead CXCR3 activation couples to Galphai, PI3K/Akt, p38 MAPK/ERK and Ca2+ flux to drive polarized migration of Th1/CD8+ T cells, NK cells and monocytes, supporting immune surveillance of senescent cells.",
+      "zh-TW": "CXCL10（IP-10）是 ELR− 的 C-X-C 趨化因子，也是 CXCR3（以及 CXCR3B）的主要配體。與 ELR+ CXC 趨化因子不同，它不具血管生成或中性球趨化作用；相反地，CXCR3 活化後耦合 Gαi、PI3K/Akt、p38 MAPK/ERK 與 Ca2+ flux，驅動 Th1/CD8+ T 細胞、NK 細胞與單核球的極化移行，支持對衰老細胞的免疫監視。"
+    },
+    "confidence": 0.95,
+    "source_document": "CXCL10.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "ebe109b29505",
+    "subject": "CXCL10",
+    "predicate": "is_repressed_by",
+    "object": "EZH2",
+    "context": {
+      "en-US": "In senescent tumour cells CXCL10 expression is restrained by the Polycomb methyltransferase EZH2, which represses its promoter, whereas type I/II interferons induce it through JAK/STAT1 and NF-kB. Upstream of its release lie the cGAS-STING DNA-sensing pathway, linking genotoxic stress to the interferon-responsive SASP branch.",
+      "zh-TW": "在衰老腫瘤細胞中，CXCL10 的表現受到多梳組蛋白甲基轉移酶 EZH2 抑制，後者壓制其啟動子；而第一型與第二型干擾素則經由 JAK/STAT1 與 NF-κB 誘導它。其釋放的上游為 cGAS–STING DNA 感知路徑，將基因毒性壓力連結到干擾素反應型的 SASP 分支。"
+    },
+    "confidence": 0.9,
+    "source_document": "CXCL10.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "348277b73b57",
+    "subject": "cGAS-STING Pathway",
+    "predicate": "upregulates",
+    "object": "CXCL10",
+    "context": {
+      "en-US": "The cGAS-STING DNA-sensing pathway is an upstream driver of CXCL10 release, connecting genotoxic stress to the interferon-responsive branch of the SASP. Because CXCL10 recruits NK and T cells, its upregulation helps resolve senescence acutely, while persistent expression in aged tissue sustains inflammaging and autoimmune pathology.",
+      "zh-TW": "cGAS–STING DNA 感知路徑是 CXCL10 釋放的上游驅動因子，將基因毒性壓力連結到 SASP 的干擾素反應分支。由於 CXCL10 會募集 NK 與 T 細胞，其上調有助於急性解決衰老；但在老化組織中持續表現則會維持 inflammaging 與自體免疫病態。"
+    },
+    "confidence": 0.88,
+    "source_document": "CXCL10.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "de2d47e32446",
+    "subject": "CXCL11",
+    "predicate": "binds",
+    "object": "CXCR3",
+    "context": {
+      "en-US": "CXCL11 (I-TAC) is an ELR- C-X-C chemokine and the most potent agonist of CXCR3, also binding CXCR7 as an atypical scavenger/decoy receptor. CXCR3 coupling to Galphai activates PI3K/Akt, p38 MAPK/ERK and Ca2+ signalling to drive chemotaxis of Th1/CD8+ T cells and NK cells, with expression induced via JAK/STAT1 downstream of interferons.",
+      "zh-TW": "CXCL11（I-TAC）是 ELR− 的 C-X-C 趨化因子，也是 CXCR3 最強效的致效劑，並以非典型清除／誘餌受體的方式結合 CXCR7。CXCR3 耦合 Gαi 後活化 PI3K/Akt、p38 MAPK/ERK 與 Ca2+ 訊號以驅動 Th1/CD8+ T 細胞與 NK 細胞的趨化，其表現則由干擾素下游的 JAK/STAT1 誘導。"
+    },
+    "confidence": 0.95,
+    "source_document": "CXCL11.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "e3487aede2df",
+    "subject": "CXCL11",
+    "predicate": "increases",
+    "object": "Cancer",
+    "context": {
+      "en-US": "Unlike its relatives CXCL10 and CXCL9, CXCL11 is net pro-tumorigenic in the therapy-induced senescence (TIS) context: secreted by TIS endothelial cells in the tumour vasculature, it stimulates paracrine signalling that raises breast cancer aggressiveness, promoting tumour cell motility, invasion and metastatic competence and facilitating recurrence and therapy resistance.",
+      "zh-TW": "與其同源的 CXCL10、CXCL9 不同，在治療誘導衰老（TIS）情境下 CXCL11 的淨效應是促腫瘤的：由腫瘤血管中的 TIS 內皮細胞分泌後，它刺激旁分泌訊號以提高乳癌侵襲性，促進腫瘤細胞運動、侵犯與轉移能力，並助長復發與治療抗性。"
+    },
+    "confidence": 0.9,
+    "source_document": "CXCL11.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "353e6eecbe6b",
+    "subject": "CXCL12",
+    "predicate": "binds",
+    "object": "CXCR4",
+    "context": {
+      "en-US": "CXCL12 (SDF-1) is a constitutively expressed homeostatic ELR- C-X-C chemokine and sole canonical ligand of CXCR4, also engaging the atypical scavenger receptor CXCR7. CXCR4 is Galphai-coupled, activating PI3K/Akt, p38 MAPK/ERK and Rho GTPases that drive actin remodelling, chemotaxis and homing of CXCR4+ haematopoietic stem cells, lymphocytes and cancer cells.",
+      "zh-TW": "CXCL12（SDF-1）是組成型、持續表現的 ELR− C-X-C 趨化因子，也是 CXCR4 唯一典型配體，並與非典型清除受體 CXCR7 作用。CXCR4 為 Gαi 耦合受體，活化 PI3K/Akt、p38 MAPK/ERK 與 Rho GTPase，驅動肌動蛋白重塑、趨化以及 CXCR4+ 造血幹細胞、淋巴球與癌細胞的歸巢。"
+    },
+    "confidence": 0.95,
+    "source_document": "CXCL12.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "8262d44f49fe",
+    "subject": "CXCL12",
+    "predicate": "causes",
+    "object": "Endothelial Dysfunction",
+    "context": {
+      "en-US": "CXCL12 was identified as the most highly upregulated SASP factor in endothelial cells with aging, and add-back of CXCL12 to old fisetin plasma recapitulated age-related endothelial dysfunction (-22% peak endothelium-dependent dilation), while CXCL12 neutralization with LIT-927 rescued function. CXCL12 also impairs NO production, raises mitochondrial superoxide and drives endothelial-to-mesenchymal transition, establishing it as a causal circulating driver of vascular aging.",
+      "zh-TW": "CXCL12 被確認為內皮細胞隨老化上調最多的 SASP 因子；將 CXCL12 加回老年小鼠經 fisetin 處理的血漿可重現與年齡相關的內皮功能障礙（內皮依賴性擴張峰值下降 22%），而以 LIT-927 中和 CXCL12 則可挽救功能。CXCL12 還會損害 NO 產生、提高粒線體超氧陰離子並促進內皮間質轉化，確立它是血管老化的因果性循環因子。"
+    },
+    "confidence": 0.95,
+    "source_document": "CXCL12.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "9568b487254d",
+    "subject": "Fisetin",
+    "predicate": "reduces",
+    "object": "CXCL12",
+    "context": {
+      "en-US": "Senolytic treatment with fisetin normalizes the elevated circulating CXCL12 levels found in old mice, and this normalization is a key mechanism by which fisetin reverses age-related endothelial dysfunction. Because CXCL12 is the most highly upregulated SASP factor in senescent endothelial cells, its reduction links senolysis directly to vascular benefit.",
+      "zh-TW": "以 fisetin 進行 senolytic 治療可將老年小鼠中升高的循環 CXCL12 濃度回復正常，而這種正常化正是 fisetin 逆轉與年齡相關之內皮功能障礙的關鍵機制。由於 CXCL12 是衰老內皮細胞中上調最多的 SASP 因子，其下降直接連結了 senolysis 與血管效益。"
+    },
+    "confidence": 0.9,
+    "source_document": "CXCL12.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "f87eba106bf6",
+    "subject": "LIT-927",
+    "predicate": "neutralizes",
+    "object": "CXCL12",
+    "context": {
+      "en-US": "LIT-927 is a CXCL12 neutraligand that rescues endothelial function, restoring NO production and suppressing senescence markers in human aortic endothelial cells. Blocking CXCL12 with LIT-927 also reversed the senescence-induced increase in p21/Cdkn1a and p16INK4a/Cdkn2a and reduced mitochondrial superoxide, making CXCL12 neutralization a candidate senomorphic strategy against cardiovascular aging.",
+      "zh-TW": "LIT-927 是 CXCL12 的中和配體，可挽救內皮功能，在人類主動脈內皮細胞中回復 NO 產生並抑制衰老標記。以 LIT-927 阻斷 CXCL12 也能逆轉衰老所造成的 p21/Cdkn1a 與 p16INK4a/Cdkn2a 上升並降低粒線體超氧陰離子，使 CXCL12 中和成為對抗心血管老化的候選 senomorphic 策略。"
+    },
+    "confidence": 0.92,
+    "source_document": "CXCL12.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "562333ecc538",
+    "subject": "CXCL12",
+    "predicate": "is_induced_by",
+    "object": "HIF-1α",
+    "context": {
+      "en-US": "CXCL12 transcription is strongly induced by hypoxia via HIF-1alpha and by NF-kB, and its gradient is further shaped by proteolytic cleavage from the extracellular matrix by MMP-2, MMP-9 and MMP-12. In the tumour microenvironment, senescent stromal and cancer cells release CXCL12 that, together with MMPs, establishes chemotactic gradients guiding CXCR4+ cancer cells to metastatic niches.",
+      "zh-TW": "CXCL12 的轉錄會經由 HIF-1α 在缺氧下被強烈誘導，也受 NF-κB 調控；其梯度更由 MMP-2、MMP-9 與 MMP-12 從細胞外基質的蛋白水解切割所塑造。在腫瘤微環境中，衰老的基質細胞與癌細胞釋放 CXCL12，與 MMP 共同建立趨化梯度，引導 CXCR4+ 癌細胞前往轉移位點。"
+    },
+    "confidence": 0.9,
+    "source_document": "CXCL12.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "1258bbd044a8",
+    "subject": "CXCL14",
+    "predicate": "is_upregulated_by",
+    "object": "p53",
+    "context": {
+      "en-US": "CXCL14 (BRAK) is a constitutively expressed C-X-C chemokine that, unlike most CXC ligands, lacks the ELR motif and does not signal through classical CXCR1/2/3 receptors. Its expression is supported by the p53 tumor suppressor and the p21-Rb axis, placing it in the early p53/p21/Rb-dependent SASP program rather than the later NF-kB-driven inflammatory wave; it is thus often lost in p53-mutant cancers, removing an immune-surveillance cue.",
+      "zh-TW": "CXCL14 (BRAK) 是持續表現的 C-X-C 趨化因子，與多數 CXC 配體不同，它缺少 ELR motif，也不經由典型的 CXCR1/2/3 受體傳遞訊號。其表現由腫瘤抑制蛋白 p53 與 p21–Rb 軸支撐，因此屬於早期 p53/p21/Rb 相依的 SASP 程式，而非後續 NF-κB 驅動的發炎波；它也常在 p53 突變的癌症中缺失，使免疫監視訊號消失。"
+    },
+    "confidence": 0.92,
+    "source_document": "CXCL14.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "ca9b8e78126e",
+    "subject": "CXCL14",
+    "predicate": "recruits",
+    "object": "Macrophages",
+    "context": {
+      "en-US": "CXCL14 belongs to the early senescence secretome, induced before the full NF-kB/IL-6 inflammatory SASP matures, acting as an eat-me/come-find-me signal for immunosurveillance. Retained on endothelial glycosaminoglycans and acting through an as-yet-unidentified receptor, it recruits macrophages, dendritic cells, NK cells and T cells (but not neutrophils) to promote immune recognition and killing of damaged cells.",
+      "zh-TW": "CXCL14 屬於早期衰老分泌組，在完整的 NF-κB/IL-6 發炎型 SASP 成熟之前即被誘導，作為免疫監視的「eat-me/come-find-me」訊號。它被保留在內皮醣胺聚糖上並透過尚未確定的受體作用，募集巨噬細胞、樹突細胞、NK 細胞與 T 細胞（但非中性球），促進對受損細胞的免疫辨識與清除。"
+    },
+    "confidence": 0.9,
+    "source_document": "CXCL14.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "0bece81b73c2",
+    "subject": "CXCL2",
+    "predicate": "binds",
+    "object": "CXCR2",
+    "context": {
+      "en-US": "CXCL2 (GRObeta/MIP-2alpha) is an ELR+ C-X-C chemokine that engages CXCR2 with high affinity and CXCR1 weakly. Ligand-receptor coupling activates Galphai, stimulating PLCbeta/IP3/Ca2+, PI3K/Akt and p38 MAPK/ERK pathways, and CXCL2 recruits and activates neutrophils to induce chemotaxis, degranulation and ROS release that propagate inflammatory signalling to neighbouring cells.",
+      "zh-TW": "CXCL2（GROβ/MIP-2α）是 ELR+ 的 C-X-C 趨化因子，以高親和力結合 CXCR2，並微弱作用於 CXCR1。配體–受體耦合活化 Gαi，刺激 PLCβ/IP3/Ca2+、PI3K/Akt 與 p38 MAPK/ERK 路徑；CXCL2 募集並活化中性球，誘發趨化、脫顆粒與 ROS 釋放，將發炎訊號傳遞給鄰近細胞。"
+    },
+    "confidence": 0.95,
+    "source_document": "CXCL2.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
+  },
+  {
+    "id": "f1b93844dfe0",
+    "subject": "CXCL2",
+    "predicate": "is_a_component_of",
+    "object": "SASP",
+    "context": {
+      "en-US": "CXCL2 is an archetypal neutrophil chemoattractant and conserved member of the senescence-associated secretory phenotype, constitutively upregulated in senescent fibroblasts and epithelial cells within the core ELR+ CXC cluster with CXCL1 and CXCL3. In liver and pancreas, senescent activated stellate cells secrete CXCL2, sustaining the inflammatory milieu that both restrains and perpetuates fibrogenesis.",
+      "zh-TW": "CXCL2 是典型的中性球趨化因子，也是衰老相關分泌表型（SASP）的保守成員，在衰老纖維母細胞與上皮細胞中持續上調，並與 CXCL1、CXCL3 同屬核心 ELR+ CXC 群。在肝臟與胰臟中，衰老的活化星狀細胞分泌 CXCL2，維持既限制又延續纖維化的發炎環境。"
+    },
+    "confidence": 0.95,
+    "source_document": "CXCL2.md",
+    "created": "2026-09-29T15:47:57Z",
+    "updated": "2026-09-29T15:47:57Z"
   }
 ]
