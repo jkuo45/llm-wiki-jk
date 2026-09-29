@@ -55200,5 +55200,1741 @@
     "source_document": "Flavin-containing Monooxygenase.md",
     "created": "2026-09-29T16:05:32Z",
     "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "7128649dfd71",
+    "subject": "Cataract",
+    "predicate": "is_driven_by",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "Cataract is the opacification of the eye's crystalline lens, and its formation is driven by cumulative oxidative damage: thiol oxidation, protein carbonylation, and AGE-mediated glycation unfold and cross-link Lens Crystallins, which then aggregate and scatter light. Because the lens has minimal protein turnover, the damage accumulates irreversibly.",
+      "zh-TW": "Cataract（白內障）是眼睛晶狀體的混濁，其形成由累積的氧化性傷害驅動：硫醇氧化、protein carbonylation（蛋白質羰基化）與 AGE 介導的糖化使 Lens Crystallins（晶狀體晶 crystallin 蛋白）展開並交聯，隨後聚集並散射光線。由於晶狀體的蛋白質周轉率極低，傷害會不可逆地累積。"
+    },
+    "confidence": 0.95,
+    "source_document": "Cataract.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "8d10dd0cdad0",
+    "subject": "Cataract",
+    "predicate": "involves_aggregation_of",
+    "object": "Lens Crystallins",
+    "context": {
+      "en-US": "In cataract, the long-lived Lens Crystallins of the lens lose solubility, unfold, and cross-link into aggregates that scatter light. Their required decades-long solubility is why lens damage is cumulative and irreversible.",
+      "zh-TW": "在白內障中，晶狀體的長壽命 Lens Crystallins 失去溶解性、展開並交聯成聚集體，進而散射光線。這些蛋白必須維持數十年溶解性，也正是晶狀體傷害累積且不可逆的原因。"
+    },
+    "confidence": 0.9,
+    "source_document": "Cataract.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "e2aea496211d",
+    "subject": "Catechin",
+    "predicate": "lacks_senolytic_activity",
+    "object": "Fisetin",
+    "context": {
+      "en-US": "In the fisetin senolytic screening panel (Yousefzadeh et al., 2018), catechin was one of ten flavonoids tested at 5 μM and produced no significant reduction in SA-β-gal+ cells, indicating it lacks senolytic activity at that dose — unlike the better-performing flavonoids such as Fisetin and quercetin.",
+      "zh-TW": "在 fisetin senolytic 篩選面板中（Yousefzadeh 等，2018），catechin 是以 5 μM 測試的十種 flavonoid 之一，並未使 SA-β-gal+ 細胞顯著減少，顯示其在該濃度下缺乏 senolytic 活性——與表現較佳的 Fisetin、quercetin 等 flavonoid 不同。"
+    },
+    "confidence": 0.85,
+    "source_document": "Catechin.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "1d5ed0435863",
+    "subject": "Catechin",
+    "predicate": "is_a_type_of",
+    "object": "Flavonoids",
+    "context": {
+      "en-US": "Catechin is a flavan-3-ol member of the Flavonoids, abundant in green tea, cocoa, and fruits, with antioxidant and anti-inflammatory activity. It is also a monomeric building block of the polymeric proanthocyanidins and belongs to the natural-polyphenol STAC family that activates SIRT1.",
+      "zh-TW": "Catechin 是 Flavonoids（黃酮類）中 flavan-3-ol 家族的成員，富含於綠茶、可可與水果，具有抗氧化與抗發炎活性。它也是聚合 proanthocyanidins 的單體構成單元，並屬於可活化 SIRT1 的天然多酚 STAC 家族。"
+    },
+    "confidence": 0.95,
+    "source_document": "Catechin.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "6267aad60104",
+    "subject": "Catechol",
+    "predicate": "is_parent_scaffold_of",
+    "object": "Catecholamines",
+    "context": {
+      "en-US": "Catechol (1,2-dihydroxybenzene) is the parent ortho-diphenol scaffold of the Catecholamines class, which includes dopamine, norepinephrine, and epinephrine; the same ring oxidation chemistry that converts catechol to o-benzoquinones also governs epinephrine oxidation to adrenochrome.",
+      "zh-TW": "Catechol（兒茶酚，1,2-二羥基苯）是 Catecholamines（兒茶酚胺）類的母體鄰二酚骨架，該類包含 dopamine、norepinephrine 與 epinephrine；將 catechol 氧化為 o-benzoquinone 的同一環氧化化學，也主導 epinephrine 氧化為 adrenochrome。"
+    },
+    "confidence": 0.95,
+    "source_document": "Catechol.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "2683e0075f24",
+    "subject": "Catechol",
+    "predicate": "produces",
+    "object": "ROS",
+    "context": {
+      "en-US": "In neutral-to-alkaline solution catechol autoxidizes by sequential one-electron transfers through the o-semiquinone radical to o-benzoquinone, generating superoxide, hydrogen peroxide, and hydroxyl radical. This redox-cycling loop establishes a self-propagating ROS source that can deplete cellular antioxidants such as glutathione.",
+      "zh-TW": "在中性至鹼性溶液中，catechol 經由連續單電子轉移自氧化，經 o-semiquinone 自由基生成 o-benzoquinone，並產生超氧陰離子、過氧化氫與羥基自由基。此 redox cycling 迴路形成自我延續的 ROS 來源，可耗竭 glutathione 等細胞抗氧化物質。"
+    },
+    "confidence": 0.9,
+    "source_document": "Catechol.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "cab5601e1ec8",
+    "subject": "Catechol",
+    "predicate": "is_standard_substrate_for",
+    "object": "COMT",
+    "context": {
+      "en-US": "Catechol is the standard in vitro substrate for COMT activity assays. In mammalian biochemistry the catechol moiety is also handled by COMT and MAO, which metabolize catecholamines by methylating or oxidizing the catechol ring.",
+      "zh-TW": "Catechol 是 COMT 活性體外測定的標準受質。在哺乳類生化中，catechol 結構亦由 COMT 與 MAO 處理，兩者分別藉由甲基化或氧化 catechol 環來代謝兒茶酚胺。"
+    },
+    "confidence": 0.9,
+    "source_document": "Catechol.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "dbae60494e94",
+    "subject": "Catechol",
+    "predicate": "triggers",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "Catechol toxicity is mediated predominantly by its oxidation product o-benzoquinone, a strongly electrophilic species that rapidly arylates protein cysteine residues and glutathione. This quinone-driven depletion of intracellular glutathione and oxidative injury triggers apoptosis in susceptible cell types and produces mitochondrial dysfunction.",
+      "zh-TW": "Catechol 的毒性主要由其氧化產物 o-benzoquinone 介導；此強親電子物種會迅速與蛋白質半胱胺酸殘基及 glutathione 發生芳基化反應。這種 quinone 驅動的細胞內 glutathione 耗竭與氧化傷害，會在易感細胞中誘發 apoptosis 並造成粒線體功能障礙。"
+    },
+    "confidence": 0.85,
+    "source_document": "Catechol.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "6018f6d3551f",
+    "subject": "Catecholamine-induced cardiomyopathy",
+    "predicate": "caused_by",
+    "object": "Catecholamines",
+    "context": {
+      "en-US": "Catecholamine-induced cardiomyopathy is acute or subacute myocardial injury and systolic dysfunction driven by sustained supraphysiologic excess of Catecholamines, particularly norepinephrine. It presents classically as stress (Takotsubo) cardiomyopathy or as pheochromocytoma-associated cardiomyopathy, and histologically shows contraction-band necrosis without dominant coronary occlusion.",
+      "zh-TW": "Catecholamine-induced cardiomyopathy（兒茶酚胺誘發性心肌病變）是由持續過高的 Catecholamines（尤其是 norepinephrine）所驅動的急性或亞急性心肌損傷與收縮功能障礙。典型表現為壓力性（Takotsubo）心肌病變或 pheochromocytoma 相關心肌病變，組織學上呈現收縮帶壞死而無主要冠狀動脈阻塞。"
+    },
+    "confidence": 0.95,
+    "source_document": "Catecholamine-induced cardiomyopathy.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "255e265a0878",
+    "subject": "Catecholamine-induced cardiomyopathy",
+    "predicate": "mediated_by",
+    "object": "Lipid Peroxidation",
+    "context": {
+      "en-US": "Supraphysiologic catecholamines overactivate the Gs–cAMP–PKA pathway in the heart, causing calcium overload, hypercontracture, and myocyte necrosis, while oxidative stress rises via mitochondrial ROS and uncoupled eNOS. Adrenochrome formed by catecholamine autoxidation redox-cycles and amplifies Lipid Peroxidation, damaging membranes and contractile proteins.",
+      "zh-TW": "過高的兒茶酚胺使心臟的 Gs–cAMP–PKA 訊息路徑過度活化，造成鈣離子過載與肌細胞過度收縮及壞死；同時經由粒線體 ROS 與 eNOS 去偶聯使 oxidative stress 上升。兒茶酚胺自氧化形成的 adrenochrome 會進行 redox cycling，放大 Lipid Peroxidation（脂質過氧化），傷害細胞膜與收縮蛋白。"
+    },
+    "confidence": 0.85,
+    "source_document": "Catecholamine-induced cardiomyopathy.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "4516ce9a7018",
+    "subject": "Catecholamine-induced cardiomyopathy",
+    "predicate": "is_prototypical_example_of",
+    "object": "Takotsubo Cardiomyopathy",
+    "context": {
+      "en-US": "Takotsubo (stress) cardiomyopathy is the prototypical presentation of catecholamine-induced cardiomyopathy, with apical or diffuse hypokinesis and preserved basal function mimicking myocardial infarction; the two terms are often used synonymously in the literature.",
+      "zh-TW": "Takotsubo（壓力性）心肌病變是 catecholamine-induced cardiomyopathy 的原型表現，典型為心尖或瀰漫性運動低下而基部功能保留，模擬心肌梗塞；文獻中兩者常被視為同義。"
+    },
+    "confidence": 0.9,
+    "source_document": "Catecholamine-induced cardiomyopathy.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "b4f511b680c1",
+    "subject": "Catecholamines",
+    "predicate": "are_oxidized_to",
+    "object": "Aminochromes",
+    "context": {
+      "en-US": "Beyond enzymatic degradation by COMT and MAO, Catecholamines are susceptible to oxidation, especially under oxidative stress: epinephrine oxidizes to adrenochrome and dopamine to dopaminochrome. These reactive intermediates, known as Aminochromes, can further polymerize into neuromelanin.",
+      "zh-TW": "除了經由 COMT 與 MAO 的酵素分解外，Catecholamines 還易受氧化作用影響，尤其在 oxidative stress 條件下：epinephrine 氧化成 adrenochrome，dopamine 氧化成 dopaminochrome。這些被稱為 Aminochromes（胺色體）的活性中間產物可進一步聚合成 neuromelanin。"
+    },
+    "confidence": 0.95,
+    "source_document": "Catecholamines.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "b03f4e831e9f",
+    "subject": "Aminochromes",
+    "predicate": "polymerize_into",
+    "object": "Neuromelanin",
+    "context": {
+      "en-US": "Aminochromes, the oxidative intermediates of catecholamine metabolism, can polymerize into neuromelanin, the dark pigment that accumulates in catecholaminergic neurons. This oxidation route becomes more prominent in high-ROS settings such as stress, smoking, or inflammation.",
+      "zh-TW": "Aminochromes（兒茶酚胺氧化的中間產物）可聚合成 neuromelanin，即在兒茶酚胺能神經元中累積的深色色素。此氧化途徑在壓力、抽菸或發炎等高 ROS 情境下更為顯著。"
+    },
+    "confidence": 0.9,
+    "source_document": "Catecholamines.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "1a644a0a7857",
+    "subject": "Catecholamines",
+    "predicate": "is_metabolized_by",
+    "object": "COMT",
+    "context": {
+      "en-US": "Catecholamines are primarily degraded by the enzymatic pathways COMT and MAO. Without COMT-mediated O-methylation, catecholamines accumulate and generate free radicals that damage DNA, so COMT protects cells including neurons from oxidative stress.",
+      "zh-TW": "Catecholamines 主要透過 COMT 與 MAO 的酵素途徑分解。若缺乏 COMT 介導的 O-甲基化，兒茶酚胺會累積並產生可損傷 DNA 的自由基，因此 COMT 可保護包括神經元在內的細胞免受 oxidative stress 傷害。"
+    },
+    "confidence": 0.9,
+    "source_document": "Catecholamines.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "9ae188036485",
+    "subject": "Cathepsin L1",
+    "predicate": "cleaves",
+    "object": "H3.3",
+    "context": {
+      "en-US": "Cathepsin L1 (CTSL), a lysosomal cysteine protease, cleaves the N-terminal tail of the replication-independent histone variant H3.3 during chromatin remodeling and DNA-damage responses. This tail clipping erases post-translational modifications that control cell-cycle regulators, altering the chromatin landscape at senescence loci.",
+      "zh-TW": "Cathepsin L1（CTSL）為溶酶體半胱胺酸蛋白酶，會在染色質重塑與 DNA 傷害反應期間切割複製非依賴型組蛋白變異體 H3.3 的 N 端尾部。此尾部切割會抹除調控細胞週期相關因子的轉譯後修飾，改變衰老基因座周圍的染色質景觀。"
+    },
+    "confidence": 0.95,
+    "source_document": "Cathepsin L1.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "6dfb85342e2c",
+    "subject": "Cathepsin L1",
+    "predicate": "promotes",
+    "object": "SASP",
+    "context": {
+      "en-US": "Cathepsin L1-mediated H3.3 clipping produces the truncated fragment H3.3cs1, which accumulates in senescent cells and can itself induce senescence. When BRD4 protection fails, clipping increases chromatin accessibility and activating marks (H3K27ac, H3K122ac, H3K4me3), enhancing transcription of SASP factor genes — placing cathepsin L1 at the intersection of histone-variant metabolism and SASP induction.",
+      "zh-TW": "Cathepsin L1 介導的 H3.3 切割會產生截短片段 H3.3cs1，該片段在衰老細胞中累積並可自行誘發衰老。當 BRD4 的保護作用失效時，切割會提高染色質可近性與活化標記（H3K27ac、H3K122ac、H3K4me3），增強 SASP 因子基因的轉錄——使 cathepsin L1 位於組蛋白變異體代謝與 SASP 誘導的交會點。"
+    },
+    "confidence": 0.85,
+    "source_document": "Cathepsin L1.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "92299752293e",
+    "subject": "BRD4",
+    "predicate": "protects",
+    "object": "H3.3",
+    "context": {
+      "en-US": "BRD4 is a chromatin reader that normally protects H3.3 from cathepsin L1 clipping at senescence-related loci. Loss of BRD4 triggers increased clipping and the appearance of activating marks, linking a BET-family reader to protease-mediated histone editing.",
+      "zh-TW": "BRD4 是染色質閱讀蛋白，正常情況下會在衰老相關基因座保護 H3.3 不被 cathepsin L1 切割。BRD4 缺失會導致切割增加與活化標記出現，將 BET 家族閱讀蛋白與蛋白酶介導的組蛋白編輯連結起來。"
+    },
+    "confidence": 0.9,
+    "source_document": "Cathepsin L1.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "2dba4071027b",
+    "subject": "Cell Cycle",
+    "predicate": "is_regulated_by",
+    "object": "CDK",
+    "context": {
+      "en-US": "The Cell Cycle — the ordered series of events leading to DNA replication and cell division — is tightly regulated by cyclins, cyclin-dependent kinases (CDK), and CDK inhibitors. Quiescent cells retain the capacity to re-enter the Cell Cycle upon an appropriate stimulus, whereas senescence is a stable arrest of it.",
+      "zh-TW": "Cell Cycle（細胞週期）——導向 DNA 複製與細胞分裂的有序事件序列——受到 cyclin、cyclin-dependent kinase（CDK）與 CDK inhibitor 的嚴格調控。Quiescence（靜止）細胞保有在適當刺激下重新進入 Cell Cycle 的能力，而 senescence（衰老）則是其穩定停止。"
+    },
+    "confidence": 0.9,
+    "source_document": "Cell Cycle.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "6026d99a9f6f",
+    "subject": "CDK4 6",
+    "predicate": "regulates",
+    "object": "TFEB",
+    "context": {
+      "en-US": "Cell cycle regulators CDK4/6 influence cellular homeostasis beyond the Cell Cycle itself by regulating nuclear export of the transcription factor EB (TFEB), linking cell-cycle control to lysosomal and autophagic adaptation.",
+      "zh-TW": "細胞週期調控因子 CDK4/6 除了自身的 Cell Cycle 角色外，也透過調控 transcription factor EB（TFEB）的核輸出影響細胞恆定，將細胞週期控制與溶酶體、自噬適應連結起來。"
+    },
+    "confidence": 0.8,
+    "source_document": "Cell Cycle.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "ac542d06f83d",
+    "subject": "Cell Division",
+    "predicate": "is_governed_by",
+    "object": "Cell Cycle",
+    "context": {
+      "en-US": "Cell Division, in which a parent cell yields two or more daughter cells, is tightly governed by the Cell Cycle, with checkpoints ensuring accuracy of DNA replication and chromosome segregation. Key regulators include cyclin/CDK complexes, Rb/E2F, p53, and checkpoint kinases; dysregulated division is a hallmark of cancer.",
+      "zh-TW": "Cell Division（細胞分裂，親代細胞產生兩個或更多子細胞）受到 Cell Cycle 的嚴密調控，並由檢查點確保 DNA 複製與染色體分離的正確性。主要調控因子包括 cyclin/CDK 複合體、Rb/E2F、p53 與檢查點激酶；失調的細胞分裂是 cancer 的特徵之一。"
+    },
+    "confidence": 0.95,
+    "source_document": "Cell Division.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "e4442ebee4c3",
+    "subject": "p53",
+    "predicate": "regulates",
+    "object": "Cell Division",
+    "context": {
+      "en-US": "p53 acts as a tumor suppressor regulating cell division checkpoints, halting proliferation when DNA is damaged so that damaged genomes are not passed to daughter cells.",
+      "zh-TW": "p53 作為腫瘤抑制因子調控細胞分裂檢查點，在 DNA 受損時使增殖停止，避免受損的基因組傳遞給子細胞。"
+    },
+    "confidence": 0.8,
+    "source_document": "Cell Division.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "c94733d0e5bc",
+    "subject": "Lipid Peroxidation",
+    "predicate": "damages",
+    "object": "Cell Membranes",
+    "context": {
+      "en-US": "Cell Membranes are phospholipid bilayers whose integrity depends on their lipid components. Membrane damage from Lipid Peroxidation is a key feature of Oxidative Stress, making the bilayer a principal target and readout of oxidative injury.",
+      "zh-TW": "Cell Membranes（細胞膜）為磷脂雙層，其完整性仰賴脂質成分。來自 Lipid Peroxidation（脂質過氧化）的膜損傷是 Oxidative Stress 的重要特徵，使雙層膜成為氧化傷害的主要標的與判讀指標。"
+    },
+    "confidence": 0.9,
+    "source_document": "Cell Membranes.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "79a96b1c8fb7",
+    "subject": "Cholesterol",
+    "predicate": "modulates_fluidity_of",
+    "object": "Cell Membranes",
+    "context": {
+      "en-US": "Cholesterol is a major structural component of Cell Membranes, where it modulates membrane fluidity and contributes to formation of cholesterol- and sphingolipid-enriched signaling microdomains in which membrane proteins diffuse laterally under the fluid mosaic model.",
+      "zh-TW": "Cholesterol（膽固醇）是 Cell Membranes 的主要結構成分，可調節膜流動性，並促成富含膽固醇與鞘脂的訊息微區形成；在流體鑲嵌模型中，膜蛋白於其中可側向擴散。"
+    },
+    "confidence": 0.85,
+    "source_document": "Cell Membranes.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "279b19187ac8",
+    "subject": "Cell Membranes",
+    "predicate": "is_essential_for",
+    "object": "Cell Signaling",
+    "context": {
+      "en-US": "Cell Membranes are essential for cell signaling because their receptor proteins initiate signaling cascades at the cell surface, and they also underlie ion transport, endocytosis, exocytosis, and cell adhesion. Membrane potential and ion gradients are maintained by channels and transporters embedded in the bilayer.",
+      "zh-TW": "Cell Membranes 對 cell signaling 至关重要，因為其受體蛋白在細胞表面啟動訊息級聯；膜同時也是離子運輸、endocytosis、exocytosis 與 cell adhesion 的基礎。膜電位與離子梯度則由嵌於雙層中的通道與運輸蛋白維持。"
+    },
+    "confidence": 0.85,
+    "source_document": "Cell Membranes.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "5906f48ac300",
+    "subject": "Cell Migration",
+    "predicate": "depends_on",
+    "object": "Actin",
+    "context": {
+      "en-US": "Cell Migration proceeds by leading-edge actin polymerization, integrin adhesion coordinated by FAK signaling, myosin contraction, and trailing-edge release, steered by gradients of hepatocyte growth factor, FGF, and chemokines. It underlies development, wound healing, immune recruitment, and — when hijacked — cancer invasion.",
+      "zh-TW": "Cell Migration（細胞遷移）藉由前緣的 actin 聚合、由 FAK signaling 協調的 integrin 黏附、myosin 收縮以及後緣釋放而進行，並受 hepatocyte growth factor、FGF 與趨化因子梯度引導。它是發育、傷口癒合、免疫細胞募集的基礎——遭腫瘤劫持時則促成 cancer 侵襲。"
+    },
+    "confidence": 0.9,
+    "source_document": "Cell Migration.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "838dfa560eab",
+    "subject": "Hepatocyte Growth Factor",
+    "predicate": "guides",
+    "object": "Cell Migration",
+    "context": {
+      "en-US": "Hepatocyte Growth Factor acts as scatter factor that guides epithelial Cell Migration via MET signaling, providing one of the extracellular chemotactic cues that steer migratory direction.",
+      "zh-TW": "Hepatocyte Growth Factor（肝細胞生長因子）作為 scatter factor，透過 MET 訊號引導上皮細胞的 Cell Migration，提供調控遷移方向的胞外趨化訊號之一。"
+    },
+    "confidence": 0.85,
+    "source_document": "Cell Migration.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "04ece672f3f0",
+    "subject": "Cell Proliferation",
+    "predicate": "is_regulated_by",
+    "object": "mTORC1",
+    "context": {
+      "en-US": "Cell Proliferation — cells growing and dividing to produce daughter cells — is tightly regulated by growth factor signaling, Cell Cycle checkpoints, and cell division machinery, with key regulators including cyclin/CDK complexes, Rb, E2F, MYC, RAS, and PI3K/Akt/mTORC1 signaling. mTORC1 acts as a nutrient-sensitive master regulator of cell growth, promoting anabolism and limiting autophagy.",
+      "zh-TW": "Cell Proliferation（細胞增殖，細胞生長並分裂產生子細胞）受到 growth factor 訊號、Cell Cycle 檢查點與細胞分裂機器的嚴格調控，主要調控者包括 cyclin/CDK 複合體、Rb、E2F、MYC、RAS 與 PI3K/Akt/mTORC1 訊號。mTORC1 作為營養素敏感的細胞生長主調控者，促進合成代謝並限制 autophagy。"
+    },
+    "confidence": 0.9,
+    "source_document": "Cell Proliferation.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "e7827b846ce7",
+    "subject": "Senescence",
+    "predicate": "brakes",
+    "object": "Cell Proliferation",
+    "context": {
+      "en-US": "Senescence, a permanent Cell Cycle arrest, together with apoptosis serves as a brake on uncontrolled Cell Proliferation; conversely, dysregulated proliferation driven by oncogene activation and tumor suppressor inactivation is a hallmark of cancer.",
+      "zh-TW": "Senescence（細胞衰老）為永久性的 Cell Cycle 停止，與 apoptosis 共同構成對失控 Cell Proliferation 的煞車；反之，由 oncogene 活化與腫瘤抑制基因失活所驅動的失調增殖則是 cancer 的特徵。"
+    },
+    "confidence": 0.9,
+    "source_document": "Cell Proliferation.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "90a32f268712",
+    "subject": "Cell Stress",
+    "predicate": "can_lead_to",
+    "object": "Senescence",
+    "context": {
+      "en-US": "Cell Stress covers adverse states such as Oxidative Stress, DNA damage, and DNA replication stress. Such stress may resolve, allow adaptation, or lock into Senescence; its dysregulation contributes to aging, metabolic disease, neurodegeneration, and cancer.",
+      "zh-TW": "Cell Stress（細胞壓力）涵蓋 Oxidative Stress、DNA 損傷與 DNA 複製壓力等不利狀態。此類壓力可能緩解、允許適應，或鎖定為 Senescence（衰老）；其失調則與老化、代謝疾病、神經退化與癌症有關。"
+    },
+    "confidence": 0.9,
+    "source_document": "Cell Stress.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "e19f6f814e29",
+    "subject": "DNA Damage Response",
+    "predicate": "triggers",
+    "object": "Senescence",
+    "context": {
+      "en-US": "The DNA Damage Response is a stress sensor that can trigger Senescence when damage is unrepairable. In this way a stable arrest of the Cell Cycle protects the organism from propagating a compromised genome.",
+      "zh-TW": "DNA Damage Response 是壓力感測機制，當損傷無法修復時可觸發 Senescence（衰老）。藉此，Cell Cycle 的穩定停止可避免傳播受損的基因組。"
+    },
+    "confidence": 0.85,
+    "source_document": "Cell Stress.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "23d834af1961",
+    "subject": "SIRT6",
+    "predicate": "confers",
+    "object": "Centenarians",
+    "context": {
+      "en-US": "Two linked missense variants in SIRT6 (N308K/A313S) are enriched in Ashkenazi Jewish centenarians; the variants elevate SIRT6 protein level, enhance its mono-ADP-ribosyltransferase activity, delay senescence, and suppress LINE1 derepression. They also protect against progerin-induced stress and frame gerotherapeutic strategies to extend healthspan.",
+      "zh-TW": "SIRT6 的兩個連鎖錯義變異（N308K/A313S）在阿什肯納茲猶太 centenarians（百歲人瑞）中富集；這些變異提高 SIRT6 蛋白量、增強其單 ADP-核糖基化活性、延緩衰老並抑制 LINE1 去抑制。它們也能對抗 progerin 造成的壓力，並為延長 healthspan 的 gerotherapeutic 策略提供框架。"
+    },
+    "confidence": 0.85,
+    "source_document": "Centenarians.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "c13775d1707a",
+    "subject": "cGAS-STING Pathway",
+    "predicate": "is_active_in",
+    "object": "Central Nervous System",
+    "context": {
+      "en-US": "The cGAS-STING Pathway is active across all resident cell types of the Central Nervous System — microglia, astrocytes, neurons, and endothelial cells — and its dysregulation is a unifying feature of neuroinflammation across neurodegenerative diseases. In microglia and astrocytes it drives interferon-stimulated genes and cytokines; neuronal STING regulates excitability and regeneration; endothelial activation by damaged mtDNA disrupts blood-brain barrier integrity.",
+      "zh-TW": "cGAS-STING Pathway 在 Central Nervous System 的所有常駐細胞類型中均活化——microglia、astrocytes、神經元與內皮細胞——其失調是多種神經退化疾病中 neuroinflammation 的共同特徵。在 microglia 與 astrocytes 中它驅動 interferon-stimulated genes 與細胞激素；神經元 STING 調控興奮性與再生；受損 mtDNA 活化內皮細胞則破壞 blood-brain barrier 完整性。"
+    },
+    "confidence": 0.9,
+    "source_document": "Central Nervous System.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "66bc42b263cb",
+    "subject": "Central Nervous System",
+    "predicate": "is_insulated_by",
+    "object": "Blood-Brain Barrier",
+    "context": {
+      "en-US": "The Central Nervous System (brain and spinal cord) is uniquely insulated by the Blood-Brain Barrier and surveilled by peripheral immune compartments via meningeal lymphatics, while hosting neurons alongside microglia, astrocytes, oligodendrocytes, and endothelial cells that together maintain homeostasis.",
+      "zh-TW": "Central Nervous System（腦與脊髓）由 Blood-Brain Barrier 獨特隔絕，並透過腦膜淋巴系統受到周邊免疫區的監控；其中容納神經元以及 microglia、astrocytes、寡樹突膠細胞與內皮細胞，共同維持恆定。"
+    },
+    "confidence": 0.9,
+    "source_document": "Central Nervous System.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "32f8f0ea9b7d",
+    "subject": "Centromere",
+    "predicate": "is_defined_by",
+    "object": "CENP-A",
+    "context": {
+      "en-US": "Centromeres are epigenetically specified by CENP-A chromatin rather than by DNA sequence in most eukaryotes. The centromere is the specialized chromosome region where the kinetochore assembles and spindle microtubules attach during mitosis and meiosis, flanked by pericentric heterochromatin enriched in H3K9me3; its dysfunction causes aneuploidy and cancer.",
+      "zh-TW": "在多數真核生物中，centromere 是由 CENP-A 染色質而非 DNA 序列表觀指定的。它是染色體上 kinetochore 組裝且紡錘絲微管在有絲分裂與減數分裂時附著的特化區域，兩側為富含 H3K9me3 的著絲粒周邊異染色質；其功能障礙會導致 aneuploidy 與 cancer。"
+    },
+    "confidence": 0.9,
+    "source_document": "Centromere.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "e1ec040f9562",
+    "subject": "Centromere",
+    "predicate": "mediated_by",
+    "object": "Mitosis",
+    "context": {
+      "en-US": "Chromosome segregation during mitosis and meiosis is mediated by microtubule attachment at the centromere, making the centromere a required structural landmark for accurate division.",
+      "zh-TW": "有絲分裂與減數分裂期間的染色體分離，是藉由微管在 centromere 處的附著而完成，因此 centromere 是準確分裂所必需的結構性地標。"
+    },
+    "confidence": 0.85,
+    "source_document": "Centromere.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "c08342b1aef4",
+    "subject": "Ceramide",
+    "predicate": "promotes",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "Ceramide accumulation is a conserved stress signal that promotes apoptosis, mitochondrial dysfunction, and inflammation. It is the central hub of sphingolipid metabolism, sitting at the branch point between synthesis and breakdown, and ceramide/sphingosine rheostat shifts are implicated in senescent-cell survival and in melanoma and prostate cancer biology.",
+      "zh-TW": "Ceramide（神經醯胺）的累積是促進 apoptosis、粒線體功能障礙與發炎的保守壓力訊號。它是 sphingolipid 代謝的中樞，位於合成與分解的分支點；ceramide／sphingosine 失衡亦與衰老細胞存活以及 melanoma、prostate cancer 生物学相關。"
+    },
+    "confidence": 0.9,
+    "source_document": "Ceramide.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "a93b97e15592",
+    "subject": "Senescent Cells",
+    "predicate": "sensitizes_to",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "Senescent cells show elevated ceramide and over-expressed acid ceramidase (5- to 20-fold in WI-38 fibroblasts) while still retaining higher ceramide than proliferative cells; acid ceramidase knockdown raises ceramide further while lowering membrane PUFA-phospholipid content and protecting against ferroptosis. Ceramide flux, not just abundance, is thus a determinant of the pro-ferroptotic lipid profile.",
+      "zh-TW": "Senescent Cells（衰老細胞）具有升高的 ceramide 與過度表現的 acid ceramidase（在 WI-38 纖維母細胞中達 5 至 20 倍），但 ceramide 含量仍高於增殖細胞；acid ceramidase 敲低會進一步升高 ceramide，同時降低膜上 PUFA-磷脂含量並防止 ferroptosis。因此決定促鐵死亡脂質特徵的是 ceramide 通量，而非僅其含量。"
+    },
+    "confidence": 0.85,
+    "source_document": "Ceramide.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "50fb34cd2b43",
+    "subject": "Cerebrospinal Fluid",
+    "predicate": "conveys",
+    "object": "cGAS-STING Pathway",
+    "context": {
+      "en-US": "Cerebrospinal Fluid, the clear fluid bathing the CNS ventricles and subarachnoid space, acts as a conduit for cGAS-STING activation: both cGAMP, the second messenger synthesized by cGAS, and downstream inflammatory cytokines partition into CSF, letting activation signals spread beyond the local site of nucleic acid sensing. CSF cGAMP and cytokine levels are therefore candidate biomarkers of pathway activation.",
+      "zh-TW": "Cerebrospinal Fluid（腦脊髓液）是浸潤 CNS 腦室與蛛網膜下腔的清澈液體，作為 cGAS-STING Pathway 活化的傳導管道：cGAS 合成的第二訊使 cGAMP 與下游發炎性細胞激素皆可分配進入 CSF，使活化訊號得以超越核酸感測的局部位置擴散。因此 CSF 中的 cGAMP 與細胞激素濃度可作為該路徑活化的候選生物標記。"
+    },
+    "confidence": 0.85,
+    "source_document": "Cerebrospinal Fluid.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "04dec0f9f3ae",
+    "subject": "mtDNA",
+    "predicate": "activates",
+    "object": "cGAS-STING Pathway",
+    "context": {
+      "en-US": "Leaked mtDNA fuels CNS cGAS-STING Pathway hyperactivity: cytosolic mitochondrial DNA activates cGAS, driving interferon-stimulated gene induction and, in chronic neurodegeneration, contributing to sustained neuroinflammation reflected in cerebrospinal fluid composition.",
+      "zh-TW": "外漏的 mtDNA 會助長 CNS 的 cGAS-STING Pathway 過度活化：細胞質中的粒線體 DNA 活化 cGAS，驅動 interferon-stimulated genes 誘導；在慢性神經退化中並促成持續的 neuroinflammation，且可反映於腦脊髓液成分中。"
+    },
+    "confidence": 0.85,
+    "source_document": "Cerebrospinal Fluid.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "7456f995da80",
+    "subject": "MFN2",
+    "predicate": "is_mutated_in",
+    "object": "Charcot-Marie-Tooth Disease Type 2A",
+    "context": {
+      "en-US": "Charcot-Marie-Tooth Disease Type 2A (CMT2A), the most common axonal form of CMT, is caused by heterozygous missense mutations in MFN2 (e.g. T105M, R94W). These mutations impair axonal mitochondrial transport by disrupting the Miro/Milton/kinesin transport complex, causing mitochondrial depletion in distal axons and neurodegeneration.",
+      "zh-TW": "Charcot-Marie-Tooth Disease Type 2A（CMT2A）是 CMT 最常見的軸突型，由 MFN2 的異型合子錯義突變（如 T105M、R94W）致病。這些突變藉由破壞 Miro／Milton／kinesin 運輸複合體而損害軸突的粒線體運輸，導致遠端軸突粒線體耗竭與神經退化。"
+    },
+    "confidence": 0.95,
+    "source_document": "Charcot-Marie-Tooth Disease Type 2A.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "1e87750621d5",
+    "subject": "Charcot-Marie-Tooth Disease Type 2A",
+    "predicate": "overlaps_with",
+    "object": "Dominant Optic Atrophy",
+    "context": {
+      "en-US": "CMT2A overlaps clinically and genetically with Dominant Optic Atrophy, another mitochondrial dynamics disorder, reflecting shared pathways of axonal and neuronal mitochondrial maintenance. MFN2 mutations are also a cause of DOA.",
+      "zh-TW": "CMT2A 在臨床與遺傳上與另一種粒線體動態疾病 Dominant Optic Atrophy 重疊，反映軸突與神經元粒線體維持的共同路徑。MFN2 突變亦是 DOA 的病因之一。"
+    },
+    "confidence": 0.85,
+    "source_document": "Charcot-Marie-Tooth Disease Type 2A.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "1fddb8af9d74",
+    "subject": "Chemokines",
+    "predicate": "is_core_component_of",
+    "object": "SASP",
+    "context": {
+      "en-US": "Chemokines — small 8–14 kDa secreted cytokines that direct immune cell chemotaxis — are core components of the Senescence-Associated Secretory Phenotype. Members such as IL-8 (CXCL8), CCL2, CXCL1, and CXCL10 contribute to immune surveillance of senescent cells and, when chronically secreted, to inflammaging.",
+      "zh-TW": "Chemokines（趨化因子）——引導免疫細胞趨化的小型（8–14 kDa）分泌型細胞激素——是 Senescence-Associated Secretory Phenotype 的核心成分。IL-8（CXCL8）、CCL2、CXCL1 與 CXCL10 等成員有助於衰老細胞的免疫監控；當持續分泌時則促成 inflammaging。"
+    },
+    "confidence": 0.9,
+    "source_document": "Chemokines.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "47e1b8ba17bd",
+    "subject": "Fisetin",
+    "predicate": "reduces",
+    "object": "Chemokines",
+    "context": {
+      "en-US": "Fisetin, a senolytic flavonoid, reduces SASP chemokine expression in murine tissues and human adipose explants, lowering factors such as CCL2 that otherwise sustain inflammation and impair tissue function.",
+      "zh-TW": "Fisetin（作為 senolytic 的 flavonoid）可降低小鼠組織與人類脂肪外植體中 SASP 趨化因子的表現，包括 CCL2 等原本會持續發炎並損害組織功能的因子。"
+    },
+    "confidence": 0.85,
+    "source_document": "Chemokines.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "065b80887606",
+    "subject": "SASP",
+    "predicate": "confers",
+    "object": "Chemoresistance",
+    "context": {
+      "en-US": "Chemoresistance — the ability of cancer cells to survive and proliferate despite cytotoxic chemotherapy — is substantially driven paracrinely by SASP factors secreted by therapy-damaged stromal cells. Senescent stroma induced by bleomycin or mitoxantrone releases WNT16B, amphiregulin, and EREG, shifting adjacent cancer cell dose–response curves to higher viability in the tumor microenvironment.",
+      "zh-TW": "Chemoresistance（腫瘤細胞在細胞毒化學治療下仍能存活與增殖的能力）主要受到治療損傷的基質細胞所分泌 SASP 因子的旁分泌驅動。由 bleomycin 或 mitoxantrone 誘發的衰老基質會釋放 WNT16B、amphiregulin 與 EREG，使鄰近癌細胞在腫瘤微環境中的劑量－反應曲線移向更高存活率。"
+    },
+    "confidence": 0.9,
+    "source_document": "Chemoresistance.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "ced9db452e37",
+    "subject": "Apigenin",
+    "predicate": "reverses",
+    "object": "Chemoresistance",
+    "context": {
+      "en-US": "Apigenin acts as a senomorphic that suppresses the SASP of senescent stroma, depriving adjacent cancer cells of the paracrine chemoresistance they had acquired; conditioned media from apigenin-treated stroma reversed the viability shift, and combining apigenin with mitoxantrone produced an additional 51.1% tumor reduction in vivo with enhanced DNA damage and apoptosis.",
+      "zh-TW": "Apigenin 作為 senomorphic 抑制衰老基質的 SASP，使鄰近癌細胞失去先前獲得的旁分泌化學抗藥性；經 apigenin 處理的基質條件培養液可逆轉存活率的位移，體內將 apigenin 與 mitoxantrone 併用則額外降低 51.1% 腫瘤體積，並增強 DNA 損傷與 apoptosis。"
+    },
+    "confidence": 0.9,
+    "source_document": "Chemoresistance.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "278d24ba31cf",
+    "subject": "SARM1",
+    "predicate": "drives",
+    "object": "Chemotherapy-Induced Peripheral Neuropathy",
+    "context": {
+      "en-US": "Chemotherapy-Induced Peripheral Neuropathy (CIPN) is a dose-limiting toxicity of taxane and platinum agents. These drugs downregulate NMNAT2 in sensory neurons, raising the NMN/NAD+ ratio and activating SARM1, whose NAD+-depletion activity drives axonal degeneration; SARM1 knockout protects against CIPN in preclinical models.",
+      "zh-TW": "Chemotherapy-Induced Peripheral Neuropathy（CIPN）是 taxane 與白金類藥物的劑量限制性毒性。這些藥物在感覺神經元中下调 NMNAT2，使 NMN／NAD+ 比值上升並活化 SARM1；SARM1 的 NAD+ 耗竭活性驅動軸突退化，且 SARM1 敲除在臨床前模型中可防止 CIPN。"
+    },
+    "confidence": 0.9,
+    "source_document": "Chemotherapy-Induced Peripheral Neuropathy.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "dbacb0fdd670",
+    "subject": "SARM1",
+    "predicate": "depletes",
+    "object": "NAD+",
+    "context": {
+      "en-US": "SARM1 is the executioner of axonal loss: once activated by an elevated NMN/NAD+ ratio, it hydrolyzes NAD+ and triggers Wallerian-like axonal degeneration. SARM1 inhibitors (disulfiram, DSRM-3716, GSK-428, NB-4746) are in development to preserve axonal NAD+ during chemotherapy.",
+      "zh-TW": "SARM1 是軸突喪失的執行者：一旦被升高的 NMN／NAD+ 比值活化，即水解 NAD+ 並觸發類 Wallerian 的軸突退化。SARM1 抑制劑（disulfiram、DSRM-3716、GSK-428、NB-4746）正在開發中，用於在化療期間維持軸突 NAD+。"
+    },
+    "confidence": 0.9,
+    "source_document": "Chemotherapy-Induced Peripheral Neuropathy.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "d3acb7579a7b",
+    "subject": "Chemotherapy",
+    "predicate": "disrupts",
+    "object": "NAD+",
+    "context": {
+      "en-US": "Chemotherapy alone, independent of tumor burden, disrupts tissue NAD+ metabolism. Common regimens (cisplatin, FOLFIRI, FOLFOX) induce skeletal muscle NAD+ loss and downregulate the NAD+ biosynthetic enzyme NRK2, recapitulating the metabolic alterations previously seen in cancer cachexia; hepatic NAD+ falls 15–20% with prolonged treatment.",
+      "zh-TW": "單以 Chemotherapy 本身（與腫瘤負荷無關）即會破壞組織 NAD+ 代謝。常用方案（cisplatin、FOLFIRI、FOLFOX）會造成骨骼肌 NAD+ 流失並下调 NAD+ 生合成酵素 NRK2，重現先前在 cancer cachexia 中觀察到的代謝改變；長期治療亦使肝臟 NAD+ 下降 15–20%。"
+    },
+    "confidence": 0.9,
+    "source_document": "Chemotherapy.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "1dad49bd2e64",
+    "subject": "Cisplatin",
+    "predicate": "induces",
+    "object": "Cachexia",
+    "context": {
+      "en-US": "Cisplatin induces the most severe cachexia phenotype among tested regimens, with roughly 14% muscle NAD+ loss and 93% downregulation of NRK2, recapitulating the metabolic signature of cancer cachexia. Chemotherapy more broadly activates pro-atrophic signaling, suppresses anabolism, and induces mitochondrial dysfunction and metabolic derangement.",
+      "zh-TW": "Cisplatin 在受測方案中誘發最嚴重的 cachexia 表型，肌肉 NAD+ 流失約 14%、NRK2 下調約 93%，重現 cancer cachexia 的代謝特徵。更廣義地說，化療會活化促萎縮訊號、抑制合成代謝，並造成粒線體功能障礙與代謝失衡。"
+    },
+    "confidence": 0.85,
+    "source_document": "Chemotherapy.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "3a82b3ace5fb",
+    "subject": "Chemotherapy",
+    "predicate": "induces",
+    "object": "DNA Damage",
+    "context": {
+      "en-US": "Chemotherapy treats cancer with cytotoxic or cytostatic drugs acting mainly by inducing DNA Damage, inhibiting mitosis, or blocking DNA replication, with major adverse effects including myelosuppression, cardiotoxicity, and peripheral neuropathy. Non-dividing quiescent cancer cells are correspondingly resistant to most agents.",
+      "zh-TW": "Chemotherapy 以細胞毒或細胞抑制藥物治療 cancer，主要機轉為誘導 DNA Damage、抑制有絲分裂或阻斷 DNA 複製；其主要不良反應包括骨髓抑制、心臟毒性與周邊神經病變。相對地，非分裂的靜止癌細胞對多數化療藥物具有抗藥性。"
+    },
+    "confidence": 0.9,
+    "source_document": "Chemotherapy.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "a1e6599e2ec2",
+    "subject": "Chlorpromazine",
+    "predicate": "antagonizes",
+    "object": "D2 receptor",
+    "context": {
+      "en-US": "Chlorpromazine, the first antipsychotic phenothiazine, acts primarily as a D2 receptor antagonist, blocking central dopamine D2 signaling; at higher receptor occupancy it also blocks histamine H1, muscarinic, and alpha-adrenergic receptors, producing antipsychotic, sedating, and antiemetic effects plus mild MAO inhibition.",
+      "zh-TW": "Chlorpromazine（首個抗精神病藥 phenothiazine）主要作為 D2 receptor 拮抗劑，阻斷中樞 dopamine D2 訊號；在較高受體佔有率下亦阻斷 histamine H1、muscarinic 與 alpha-腎上腺素受體，產生抗精神病、鎮靜、止吐作用及輕微的 MAO 抑制。"
+    },
+    "confidence": 0.9,
+    "source_document": "Chlorpromazine.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "9f6fa1680c29",
+    "subject": "Chlorpromazine",
+    "predicate": "lacks",
+    "object": "Neuroprotection",
+    "context": {
+      "en-US": "Chlorpromazine's bulky 10-nitrogen side chain blocks the free heterocyclic nitrogen required for alternative electron transfer, so it shows no methylene-blue-like neuroprotection: no increase in cytochrome c reduction or oxygen consumption rate, no Complex I→III electron shunt, ~1000-fold weaker potency than methylene blue against glutamate insult, and — uniquely — a pro-oxidative signature in cell-free lysate assays. It was the only compound tested that failed to protect against rotenone neurotoxicity.",
+      "zh-TW": "Chlorpromazine bulky 的 10-氮側鏈阻斷了替代性電子傳遞所需的游離雜環氮，因此不具 methylene blue 式的神經保護：未增加 cytochrome c 還原量或氧消耗率、無 Complex I→III 電子分流、對 glutamate 傷害的效力比 methylene blue 弱約 1000 倍，且獨具在無細胞溶血產物試驗中的促氧化特徵。它是受測化合物中唯一無法防止 rotenone 神經毒性的物質。"
+    },
+    "confidence": 0.85,
+    "source_document": "Chlorpromazine.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "2c1dd8a71376",
+    "subject": "Chlorpromazine",
+    "predicate": "is_derived_from",
+    "object": "Phenothiazine",
+    "context": {
+      "en-US": "Chlorpromazine is a Phenothiazine derivative defined by substitution at the 10-nitrogen with a 3-chloropropyl-dimethylaminoethyl side chain. That modification, shared with promethazine, abolishes methylene-blue-like mitochondrial electron-shunt activity and pro-oxidative liability follows.",
+      "zh-TW": "Chlorpromazine 是 Phenothiazine 衍生物，其定義特徵為在 10-氮上以 3-氯丙基-二甲氨基乙基側鏈取代。此修飾（與 promethazine 共有）會消除 methylene blue 式的粒線體電子分流活性，並伴隨促氧化風險。"
+    },
+    "confidence": 0.9,
+    "source_document": "Chlorpromazine.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "53e4c0355a0d",
+    "subject": "Entacapone",
+    "predicate": "inhibits",
+    "object": "COMT",
+    "context": {
+      "en-US": "Entacapone is a competitive, peripherally acting nitrocatechol COMT inhibitor with an IC50 of roughly 0.23 uM. Because it acts mainly in the liver and gut, it blocks the conversion of levodopa to 3-O-methyldopa and raises levodopa bioavailability to the brain, while leaving central COMT largely untouched since entacapone does not cross the blood-brain barrier.",
+      "zh-TW": "Entacapone 屬於競爭型、作用於周邊的硝基兒茶酚類 COMT 抑制劑，IC50 約為 0.23 uM。由於主要作用於肝臟與腸道，它阻斷 levodopa 轉為 3-O-methyldopa，提高 levodopa 進入腦部的生體可用性；且因 entacapone 不易穿越 blood-brain barrier，中央 COMT 幾乎不受抑制。"
+    },
+    "confidence": 0.95,
+    "source_document": "Entacapone.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "39aca5bc7982",
+    "subject": "Entacapone",
+    "predicate": "is_a_type_of",
+    "object": "COMT Inhibitors",
+    "context": {
+      "en-US": "Entacapone belongs to the COMT inhibitor drug class, alongside tolcapone and opicapone. Its clinical role is as an adjunct to levodopa/carbidopa therapy in Parkinson's disease, where prolonging levodopa half-life reduces off time.",
+      "zh-TW": "Entacapone 屬於 COMT 抑制劑這一藥物類別，與 tolcapone、opicapone 同類。其臨床角色是作為 Parkinson's disease 中 levodopa/carbidopa 治療的輔助用藥，藉由延長 levodopa 半衰期減少 off time。"
+    },
+    "confidence": 0.9,
+    "source_document": "Entacapone.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "a8ddd6689017",
+    "subject": "Entacapone",
+    "predicate": "treats",
+    "object": "Parkinson's Disease",
+    "context": {
+      "en-US": "Entacapone is used clinically as an adjunct to levodopa in Parkinson's disease. By inhibiting peripheral COMT it prolongs levodopa's half-life and reduces off time, without the central COMT inhibition that distinguishes tolcapone.",
+      "zh-TW": "Entacapone 在臨床上作為 Parkinson's disease 中 levodopa 的輔助用藥。透過抑制周邊 COMT 延長 levodopa 半衰期並減少 off time，且不像 tolcapone 那樣抑制中央 COMT。"
+    },
+    "confidence": 0.9,
+    "source_document": "Entacapone.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "40dc1f218c00",
+    "subject": "Entacapone",
+    "predicate": "competes_with",
+    "object": "Fisetin",
+    "context": {
+      "en-US": "Entacapone serves as the reference COMT inhibitor against which fisetin is compared. Entacapone is roughly 10-50x more potent (IC50 ~0.23 uM versus 2.6-5.8 uM), but fisetin is a mixed competitive/noncompetitive inhibitor, is itself a COMT substrate yielding the active metabolite geraldol, and adds senolytic, anti-inflammatory and antioxidant activity that entacapone lacks.",
+      "zh-TW": "Entacapone 是評估 fisetin 的 COMT 抑制能力時的對照藥。Entacapone 效價約高 10-50 倍（IC50 ~0.23 uM 對 2.6-5.8 uM），但 fisetin 為混合型（競爭加非競爭）抑制劑，本身也是 COMT 受質並生成活性代謝物 geraldol，且另具 senolytic、抗發炎與抗氧化活性，為 entacapone 所無。"
+    },
+    "confidence": 0.85,
+    "source_document": "Entacapone.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "8fbeb86913f2",
+    "subject": "Enzalutamide",
+    "predicate": "targets",
+    "object": "Androgen Receptor",
+    "context": {
+      "en-US": "Enzalutamide (MDV3100, Xtandi) is a second-generation nonsteroidal androgen receptor signaling inhibitor. It binds the androgen receptor ligand-binding domain with high affinity, blocking nuclear translocation, DNA binding and coactivator interactions, so AR-driven transcription in tumor cells is suppressed.",
+      "zh-TW": "Enzalutamide（MDV3100，Xtandi）是第二代非類固醇 androgen receptor（AR）訊號抑制劑。它以高親和力結合 AR 的配體結合區，阻斷核轉位、DNA 結合與共活化因子互動，因而抑制腫瘤細胞中 AR 驅動的轉錄。"
+    },
+    "confidence": 0.95,
+    "source_document": "Enzalutamide.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "102016ad5ecf",
+    "subject": "Enzalutamide",
+    "predicate": "treats",
+    "object": "Prostate Cancer",
+    "context": {
+      "en-US": "Enzalutamide is approved for metastatic and non-metastatic castration-resistant prostate cancer. Its efficacy is limited by acquired resistance through androgen receptor amplification, splice variants such as AR-V7, and bypass signaling.",
+      "zh-TW": "Enzalutamide 獲准用於轉移性與非轉移性去勢抵抗性 prostate cancer。其療效受限於後天抗藥性，包括 androgen receptor 擴增、AR-V7 等剪接變異體以及旁路訊號。"
+    },
+    "confidence": 0.9,
+    "source_document": "Enzalutamide.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "8879e26ae9e4",
+    "subject": "Ivermectin",
+    "predicate": "overcomes_resistance_of",
+    "object": "Enzalutamide",
+    "context": {
+      "en-US": "In preclinical prostate cancer models ivermectin overcomes enzalutamide resistance, an effect not seen with first-generation antiandrogens, and this is the rationale for repositioning antiparasitic agents in androgen receptor pathway driven tumors.",
+      "zh-TW": "在前列腺癌的臨床前模型中，ivermectin 可克服 enzalutamide 抗藥性（第一代 antiandrogen 則無此效應），這也是將抗寄生蟲藥重新定位到 androgen receptor 訊號路徑腫瘤的理由。"
+    },
+    "confidence": 0.75,
+    "source_document": "Enzalutamide.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "2b4d90f04592",
+    "subject": "Enzalutamide",
+    "predicate": "synergizes_with",
+    "object": "Docetaxel",
+    "context": {
+      "en-US": "Preclinical reports describe synergy between enzalutamide and docetaxel, a tubulin-stabilizing taxane, in androgen receptor pathway driven prostate cancer models. Resistance to enzalutamide is therefore a clinically relevant setting in which taxane combinations are being explored.",
+      "zh-TW": "臨床前研究指出 enzalutamide 與 docetaxel（穩定微管蛋白的 taxane）在 androgen receptor 路徑驅動的前列腺癌模型中具有協同作用。因此 enzalutamide 抗藥性是評估 taxane 聯合治療的臨床相關情境。"
+    },
+    "confidence": 0.75,
+    "source_document": "Enzalutamide.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "90aedb25cbfa",
+    "subject": "Epacadostat",
+    "predicate": "inhibits",
+    "object": "Kynurenine Pathway",
+    "context": {
+      "en-US": "By blocking IDO1-mediated tryptophan catabolism, epacadostat suppresses kynurenine production and relieves IDO1-driven immunosuppression in the tumor microenvironment. Compensatory upregulation of TDO and IDO2 can drive resistance to this blockade.",
+      "zh-TW": "Epacadostat 藉由阻斷 IDO1 介導的 tryptophan 分解代謝，抑制 kynurenine 生成並解除 tumor microenvironment 中由 IDO1 造成的免疫抑制。TDO 與 IDO2 的代償性上升則可能造成對此阻斷的抗藥性。"
+    },
+    "confidence": 0.9,
+    "source_document": "Epacadostat.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "b249250ced2d",
+    "subject": "Epacadostat",
+    "predicate": "is_associated_with",
+    "object": "Checkpoint Inhibitor",
+    "context": {
+      "en-US": "Epacadostat was tested in combination with checkpoint inhibitors such as pembrolizumab and nivolumab across Phase I-III trials in melanoma, non-small cell lung cancer and bladder cancer. IDO1 can also mediate non-enzymatic scaffolding signaling that catalytic inhibition does not block, complicating combination use.",
+      "zh-TW": "Epacadostat 曾與 pembrolizumab、nivolumab 等 checkpoint inhibitor 併用於黑色素瘤、非小細胞肺癌與膀胱癌的第一至三期臨床試驗。IDO1 亦可參與非酵素性的支架訊號，而催化抑制無法阻斷此作用，使併用更為複雜。"
+    },
+    "confidence": 0.85,
+    "source_document": "Epacadostat.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "790311429a93",
+    "subject": "Epacadostat",
+    "predicate": "is_restrained_by",
+    "object": "TDO",
+    "context": {
+      "en-US": "Resistance to epacadostat can arise when TDO, an alternative tryptophan-kynurenine pathway enzyme, is compensatorily upregulated alongside IDO2. Together with scaffold signaling and the lack of validated biomarkers, this limits IDO1 blockade as a therapeutic strategy.",
+      "zh-TW": "當替代性的 tryptophan-kynurenine 路徑酵素 TDO 與 IDO2 一起代償性上升時，就可能產生對 epacadostat 的抗藥性。加上支架訊號以及缺乏經驗證的生物標記，使 IDO1 阻斷作為治療策略受到限制。"
+    },
+    "confidence": 0.7,
+    "source_document": "Epacadostat.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "d6d555cbfea0",
+    "subject": "Ephrin Type A Receptor 2",
+    "predicate": "is_activated_by",
+    "object": "SASP",
+    "context": {
+      "en-US": "EPHA2 is a receptor tyrosine kinase that relays the pro-tumorigenic effects of the Senescence-Associated Secretory Phenotype at a distance. Exosomes released by senescent fibroblasts and epithelial cells carry ephrin ligands and growth factors that activate EPHA2 on recipient cancer cells, circumventing the contact-dependence of canonical ephrin-A1 binding and driving ligand-independent mitogenic signaling through PI3K-AKT, Src-FAK and MAPK.",
+      "zh-TW": "EPHA2 是一種受體酪胺酸激酶，能在遠距離傳遞 Senescence-Associated Secretory Phenotype 的促腫瘤效應。衰老纖維母細胞與上皮細胞釋出的外泌體攜帶 ephrin 配體與生長因子，活化受體癌細胞上的 EPHA2，繞過典型 ephrin-A1 結合的接觸依賴性，並透過 PI3K-AKT、Src-FAK 與 MAPK 驅動配體非依賴性的致分裂訊號。"
+    },
+    "confidence": 0.9,
+    "source_document": "Ephrin Type A Receptor 2.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "0cfce4776870",
+    "subject": "Ephrin Type A Receptor 2",
+    "predicate": "activates",
+    "object": "Akt",
+    "context": {
+      "en-US": "Ligand engagement clusters EPHA2 and induces autophosphorylation of activation-loop tyrosines, which then signal downstream through PI3K-AKT, Src-FAK and MAPK to regulate adhesion, motility and survival. Because SASP-derived exosomes can supply these cues without cell contact, AKT-pathway activation in tumor cells is no longer restricted to ephrin-A1 engagement.",
+      "zh-TW": "配體結合使 EPHA2 聚集並引起活化環酪胺酸的自體磷酸化，隨後經由 PI3K-AKT、Src-FAK 與 MAPK 傳遞訊號以調控黏附、移行與存活。由於 SASP 來源的外泌體可在無細胞接觸下提供這些訊號，腫瘤細胞的 AKT 路徑活化不再侷限於 ephrin-A1 的結合。"
+    },
+    "confidence": 0.9,
+    "source_document": "Ephrin Type A Receptor 2.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "ae5f932c9634",
+    "subject": "Ephrin Type A Receptor 2",
+    "predicate": "promotes",
+    "object": "Metastasis",
+    "context": {
+      "en-US": "EPHA2 activation in recipient cancer cells stimulates proliferation, migration and a more aggressive phenotype, linking chronic senescence to tumor promotion and therapy resistance independently of the senescent cells' own cell-cycle arrest. EPHA2 is amplified, overexpressed or mislocalized in breast, lung, melanoma and glioblastoma and correlates with poor prognosis, making it a target for antibodies, kinase inhibitors and antibody-drug conjugates.",
+      "zh-TW": "受體癌細胞中 EPHA2 的活化會促進增殖、移行與更具侵襲性的表型，將慢性衰老與腫瘤促進及治療抗藥性連結起來，且獨立於衰老細胞本身的細胞週期停滯。EPHA2 在乳癌、肺癌、黑色素瘤與多形性膠質母細胞瘤中擴增、過度表現或錯位表達並與不良預後相關，因此是單株抗體、激酶抑制劑與抗體藥物複合體的治療標的。"
+    },
+    "confidence": 0.9,
+    "source_document": "Ephrin Type A Receptor 2.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "4fe1133d94bb",
+    "subject": "Ephrin Type A Receptor 2",
+    "predicate": "is_associated_with",
+    "object": "Epithelial-to-mesenchymal transition",
+    "context": {
+      "en-US": "EPHA2 cross-talks with TGF-beta and epithelial-to-mesenchymal transition programs that enhance invasiveness, which is why EPHA2 inhibitors are being developed in combination with TGF-beta or EMT-pathway blockers. The connection runs both ways: EMT programs and senescent-cell exosomes converge on EPHA2 signaling.",
+      "zh-TW": "EPHA2 與 TGF-beta 及 epithelial-to-mesenchymal transition 程式互相串連以增強侵襲性，因此 EPHA2 抑制劑正與 TGF-beta 或 EMT 路徑阻斷劑併用開發。此關係是雙向的：EMT 程式與衰老細胞外泌體皆匯入 EPHA2 訊號。"
+    },
+    "confidence": 0.85,
+    "source_document": "Ephrin Type A Receptor 2.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "5a880b2e4179",
+    "subject": "Epigenome",
+    "predicate": "contains",
+    "object": "DNA Methylation",
+    "context": {
+      "en-US": "The epigenome comprises layers of information that switch genes on or off without changing the DNA sequence: chemical tags on DNA (chiefly DNA methylation), DNA-associated proteins such as histones and their histone modifications that alter chromatin structure, and regulatory RNAs such as non-coding RNA. Unlike the genome, it varies between cell types and changes across the life course.",
+      "zh-TW": "Epigenome 由多層資訊構成，可在不改變 DNA 序列的情況下開關基因：DNA 上的化學標記（主要為 DNA methylation）、與 DNA 結合的蛋白質如 histone 及其改變 chromatin 結構的 histone modification，以及 non-coding RNA 等調控性 RNA。與 genome 不同，它在細胞型態間有差異，並隨生命歷程改變。"
+    },
+    "confidence": 0.9,
+    "source_document": "Epigenome.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "4cf6ddb2ef62",
+    "subject": "Aging",
+    "predicate": "erodes",
+    "object": "Epigenome",
+    "context": {
+      "en-US": "One defining feature of Aging is the progressive loss of epigenetic information. Repressive heterochromatic regions open up, activating genes that should stay silenced, and gene expression patterns become more erratic and less coordinated within a tissue, a phenomenon described as transcriptional drift.",
+      "zh-TW": "Aging 的定義性特徵之一是表觀遺傳資訊的逐步流失。壓抑性的 heterochromatin 區域逐漸開放，啟動本應保持沉默的基因；組織內的基因表現型態變得更不規律、更缺乏協調，此現象稱為 transcriptional drift。"
+    },
+    "confidence": 0.9,
+    "source_document": "Epigenome.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "d1d89f6b26b2",
+    "subject": "Epigenome",
+    "predicate": "is_responsive_to",
+    "object": "Caloric Restriction",
+    "context": {
+      "en-US": "The epigenome is highly responsive to external factors including caloric restriction, exercise and environmental toxins. This flexibility lets organisms adapt to their surroundings but also makes them vulnerable to epigenetic scars from harmful exposures, which is why early identification of reversible epigenetic markers is hoped to inform geriatric medicine.",
+      "zh-TW": "Epigenome 對外在因子如 caloric restriction、運動與環境毒物高度敏感。這種可塑性讓生物能適應環境，但也使個體容易受到有害暴露留下的 epigenetic scar 影響；正因表觀遺傳變化可逆，早期辨識表觀遺傳標記被寄望能服務老年醫學。"
+    },
+    "confidence": 0.85,
+    "source_document": "Epigenome.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "d8a4e6781136",
+    "subject": "Epinephrine",
+    "predicate": "is_metabolized_by",
+    "object": "COMT",
+    "context": {
+      "en-US": "Epinephrine is a catecholamine whose levels are controlled by two main degradation routes, COMT and monoamine oxidase. Inhibiting these pathways raises epinephrine levels and shifts its metabolism toward adrenochrome formation, which is why COMT inhibitors such as fisetin raise a mechanistic concern about catecholamine excess under oxidative stress.",
+      "zh-TW": "Epinephrine 是兒茶酚胺，其濃度主要由 COMT 與 monoamine oxidase 兩條降解路徑控制。抑制這些路徑會使 epinephrine 濃度上升，並使其代謝轉向 adrenochrome 形成；因此 fisetin 等 COMT 抑制劑在 oxidative stress 下引發兒茶酚胺過量的疑慮屬於機轉性考量。"
+    },
+    "confidence": 0.9,
+    "source_document": "Epinephrine.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "a7fd08710f79",
+    "subject": "Epinephrine",
+    "predicate": "is_a_type_of",
+    "object": "Catecholamines",
+    "context": {
+      "en-US": "Epinephrine is a catecholamine and neurotransmitter produced by the adrenal glands and certain neurons, central to the fight-or-flight response: it raises heart rate and blood pressure, constricts blood vessels and dilates air passages. Norepinephrine is its precursor.",
+      "zh-TW": "Epinephrine 是由腎上腺與某些神經元產生的兒茶酚胺類神經傳遞物質，是 fight-or-flight 反应的樞紐：它提高心率與血壓、收縮血管並擴張氣道。Norepinephrine 則是其前驅物。"
+    },
+    "confidence": 0.9,
+    "source_document": "Epinephrine.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "70642ed82bad",
+    "subject": "Epithelial cells",
+    "predicate": "is_the_origin_of",
+    "object": "Cancer",
+    "context": {
+      "en-US": "The majority of human cancers are carcinomas and thus arise from epithelial cells. Beyond transformation, loss of apical-basal polarity, DNA damage accrual and senescence drive aging-related barrier decline, while defective turnover and senescence contribute to fibrosis and chronic disease.",
+      "zh-TW": "大多數人類癌症為 carcinoma，因此源自 epithelial cells。除了轉化之外，apical-basal 極性的喪失、DNA 損傷累積與 senescence 也會驅動與老化相關的屏障衰退，而更新不良與 senescence 則促成纖維化與慢性疾病。"
+    },
+    "confidence": 0.9,
+    "source_document": "Epithelial cells.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "eca48391b53a",
+    "subject": "Epithelial cells",
+    "predicate": "undergoes",
+    "object": "Epithelial-to-mesenchymal transition",
+    "context": {
+      "en-US": "Epithelial cells are joined by tight junctions, adherens junctions, desmosomes and gap junctions that seal a barrier on a basement membrane with apical-basal polarity. Acquisition of migratory, invasive behaviour through epithelial-to-mesenchymal transition is what underpins metastasis from carcinomas of epithelial origin.",
+      "zh-TW": "Epithelial cells 透過 tight junction、adherens junction、desmosome 與 gap junction 相互連結，在 basement membrane 上以 apical-basal 極性形成屏障。正是經由 epithelial-to-mesenchymal transition 獲得移行與侵襲能力，使上皮來源的 carcinoma 能發生 metastasis。"
+    },
+    "confidence": 0.9,
+    "source_document": "Epithelial cells.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "172e488a55c2",
+    "subject": "Epithelial cells",
+    "predicate": "interacts_with",
+    "object": "Immune System",
+    "context": {
+      "en-US": "Epithelia mediate barrier protection, selective absorption and secretion, ion and water transport, and sensory reception. At mucosal surfaces they interface with the immune system and the gut microbiome, shaping tolerance and inflammation, while crypt- or basal-layer stem and progenitor cells sustain lifelong renewal.",
+      "zh-TW": "上皮組織負責屏障保護、選擇性吸收與分泌、離子與水分運輸以及感覺接受。在黏膜表面，它們與 immune system 及 gut microbiome 互動，塑造耐受性與 inflammation；而位於 crypt 或基底層的幹細胞與前驅細胞則維持終生的組織更新。"
+    },
+    "confidence": 0.85,
+    "source_document": "Epithelial cells.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "ed6c64fcc137",
+    "subject": "Epithelial-to-mesenchymal transition",
+    "predicate": "is_induced_by",
+    "object": "SASP",
+    "context": {
+      "en-US": "The Senescence-Associated Secretory Phenotype of senescent cells can induce epithelial-to-mesenchymal transition in neighbouring cancer cells, coupling chronic senescence to tumor aggressiveness. SASP factors act through several channels: TGF-beta directly activates EMT transcription factors, IL-6 and IL-8 engage STAT3 and NF-kappaB, and MMPs such as MMP-2 and MMP-9 cleave junctional and basement-membrane proteins to liberate latent TGF-beta and growth factors.",
+      "zh-TW": "衰老細胞的 Senescence-Associated Secretory Phenotype 可在鄰近癌細胞中誘發 epithelial-to-mesenchymal transition，將慢性衰老與腫瘤侵襲性連結起來。SASP 因子透過數個管道作用：TGF-beta 直接活化 EMT 轉錄因子，IL-6 與 IL-8 啟動 STAT3 與 NF-kappaB，而 MMP-2、MMP-9 等 MMP 則切割連接蛋白與 basement membrane 蛋白，釋出潛伏的 TGF-beta 與生長因子。"
+    },
+    "confidence": 0.95,
+    "source_document": "Epithelial-to-mesenchymal transition.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "22c3d43b68f9",
+    "subject": "Epithelial-to-mesenchymal transition",
+    "predicate": "promotes",
+    "object": "Metastasis",
+    "context": {
+      "en-US": "Epithelial-to-mesenchymal transition underlies carcinoma invasion and metastasis and contributes to resistance to chemotherapy and targeted therapy. SASP factors from senescent fibroblasts and epithelial cells enhance invasiveness, stemness and therapy resistance in adjacent tumor cells, so even a small senescent-cell burden can promote pre-neoplastic progression and dissemination.",
+      "zh-TW": "Epithelial-to-mesenchymal transition 是 carcinoma 侵襲與 metastasis 的基礎，也促成對化學治療與標靶治療的抗藥性。來自衰老纖維母細胞與上皮細胞的 SASP 因子會增強鄰近腫瘤細胞的侵襲性、幹性與治療抗藥性，因此即使衰老細胞數量很少也能促進癌前進展與散布。"
+    },
+    "confidence": 0.95,
+    "source_document": "Epithelial-to-mesenchymal transition.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "bc09f6fedb08",
+    "subject": "TGFβ",
+    "predicate": "induces",
+    "object": "Epithelial-to-mesenchymal transition",
+    "context": {
+      "en-US": "TGF-beta is both a key SASP factor and the dominant upstream activator of the mesenchymal program, engaging Snail and Zeb1 to suppress E-cadherin and junctions. The TGF-beta signaling pathway is also the main roadblock to reprogramming, which is why it is inhibited with compounds such as SB431542 to improve efficiency.",
+      "zh-TW": "TGF-beta 既是關鍵的 SASP 因子，也是間質程式最主要的活化途徑，透過 Snail 與 Zeb1 抑制 E-cadherin 與細胞連接。TGF-beta signaling pathway 同時也是細胞重編程的主要障礙，因此會使用 SB431542 等化合物抑制它以提升效率。"
+    },
+    "confidence": 0.9,
+    "source_document": "Epithelial-to-mesenchymal transition.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "9e55454c6a58",
+    "subject": "Epithelial-to-mesenchymal transition",
+    "predicate": "contributes_to",
+    "object": "Fibrosis",
+    "context": {
+      "en-US": "Beyond tumors, the same EMT program contributes to organ fibrosis in renal, pulmonary and cardiac disease. Because SASP-EMT crosstalk is a driver of both metastasis and fibrosis, blocking TGF-beta, IL-6/IL-8 signalling, or eliminating senescent cells with senolytics is a strategy to limit damage from aged senescent cell populations.",
+      "zh-TW": "除了腫瘤之外，同樣的 EMT 程式也參與腎臟、肺臟與心臟的纖維化。由於 SASP-EMT 的交互作用同時是 metastasis 與纖維化的驅動因素，阻斷 TGF-beta、IL-6/IL-8 訊號或以 senolytic 清除衰老細胞，都是限制老化細胞族群造成傷害的策略。"
+    },
+    "confidence": 0.85,
+    "source_document": "Epithelial-to-mesenchymal transition.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "20926c25e53b",
+    "subject": "Mesenchymal-to-Epithelial Transition",
+    "predicate": "is_required_for",
+    "object": "Cellular Reprogramming",
+    "context": {
+      "en-US": "The reverse transition, mesenchymal-to-epithelial transition, is required to reach pluripotency when generating induced pluripotent stem cells from mesenchymal somatic cells such as fibroblasts, so suppression of EMT is essential there. Yamanaka factors facilitate this by repressing Snail and Zeb1 and lowering TGF-beta receptor expression.",
+      "zh-TW": "反方向的 mesenchymal-to-epithelial transition 是在由 fibroblast 等間質體細胞產生 induced pluripotent stem cells 時達到 pluripotency 所必需的，因此抑制 EMT 在此不可或缺。Yamanaka factors 藉由抑制 Snail 與 Zeb1 並降低 TGF-beta 受體表現來促進此過程。"
+    },
+    "confidence": 0.85,
+    "source_document": "Epithelial-to-mesenchymal transition.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "52798d587c34",
+    "subject": "Epstein-Barr virus",
+    "predicate": "establishes_latency_in",
+    "object": "B Cells",
+    "context": {
+      "en-US": "Epstein-Barr virus infects more than 90% of the adult human population and establishes lifelong latency in B Cells. Entry is mediated by the glycoproteins gp350, gB and gH/gL acting on CD21 and HLA class II, and the virus maintains three latency programs expressing EBNA1, EBNA2, LMP1, LMP2A and EBERs, with LMP1 mimicking a constitutively active CD40 receptor.",
+      "zh-TW": "Epstein-Barr virus 感染超過九成以上的成人族群，並在 B Cells 中建立終生性 latency。病毒以 gp350、gB 與 gH/gL 作用於 CD21 與 HLA class II 進入細胞，並維持三種 latency 程式，表現 EBNA1、EBNA2、LMP1、LMP2A 與 EBERs；其中 LMP1 的作用類似持續活化的 CD40 receptor。"
+    },
+    "confidence": 0.9,
+    "source_document": "Epstein-Barr virus.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "5bacba57c99b",
+    "subject": "Epstein-Barr virus",
+    "predicate": "activates",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "During latent infection the EBV protein LMP1 constitutively activates NF-kappaB, JNK and PI3K-Akt signalling in infected B cells, driving proliferation and contributing to EBV-associated malignancy. Its signalling behaviour is that of a constitutively active CD40 receptor, and it is an active therapeutic target.",
+      "zh-TW": "在潛伏感染期間，EBV 蛋白 LMP1 於受感染的 B 細胞中持續活化 NF-kappaB、JNK 與 PI3K-Akt 訊號，驅動增殖並促成 EBV 相關的惡性腫瘤。其訊號行為等同於持續活化的 CD40 receptor，也是活躍的治療標的。"
+    },
+    "confidence": 0.85,
+    "source_document": "Epstein-Barr virus.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "1750abd0d40a",
+    "subject": "Epstein-Barr virus",
+    "predicate": "is_a_risk_factor_for",
+    "object": "Multiple Sclerosis",
+    "context": {
+      "en-US": "Epstein-Barr virus infection is a necessary risk factor for Multiple Sclerosis, and the proposed link is molecular mimicry: EBNA1 cross-reacts with myelin basic protein, so immune responses raised against the virus can attack the myelin sheath. EBV is also causally associated with nasopharyngeal carcinoma and endemic Burkitt-like lymphoma patterns.",
+      "zh-TW": "Epstein-Barr virus 感染是 Multiple Sclerosis 必要的風險因子，其可能機制為 molecular mimicry：EBNA1 與 myelin basic protein 交叉反應，使針對病毒產生的免疫反應轉而攻擊髓鞘。EBV 也與 nasopharyngeal carcinoma 及地方性 Burkitt 型淋巴瘤模式有因果關聯。"
+    },
+    "confidence": 0.85,
+    "source_document": "Epstein-Barr virus.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "1aa47f181dbf",
+    "subject": "Eryptosis",
+    "predicate": "is_a_type_of",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "Eryptosis is the apoptosis-like regulated death program of anucleate, mitochondrion-free red blood cells. It shares apoptosis's phosphatidylserine exposure and silent splenic clearance by macrophages but proceeds without caspase-dependent nuclear fragmentation, so caspases are present yet dispensable and the program is classified as caspase-independent.",
+      "zh-TW": "Eryptosis 是無核、無粒線體的紅血球的類凋亡調控性死亡程式。它與 apoptosis 共用 phosphatidylserine 暴露與由巨噬細胞執行的無聲脾臟清除，但不需要 caspase 相關的核碎裂，因此 caspase 雖存在卻非必要，此程式被歸類為 caspase-independent。"
+    },
+    "confidence": 0.85,
+    "source_document": "Eryptosis.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "a8eba804a78b",
+    "subject": "Eryptosis",
+    "predicate": "is_induced_by",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "Eryptosis is triggered by convergence on cytosolic calcium elevation from oxidative stress, osmotic shock, energy depletion that impairs calcium extrusion, and ceramide accumulation. Calcium then activates calpain proteases and phospholipid scramblases while inhibiting flippases, externalizing phosphatidylserine as the Annexin V-positive eat-me signal, with cell shrinkage and membrane blebbing.",
+      "zh-TW": "Eryptosis 的誘發因子包括 oxidative stress、滲透壓衝擊、耗損 ATP 導致鈣外排能力下降，以及 Ceramide 累積，它們都匯聚於細胞質鈣離子上升。鈣離子接著活化 calpain 蛋白酶與 phospholipid scramblase 並抑制 flipase，將 phosphatidylserine 外翻形成 Annexin V 陽性的 eat-me 訊號，並伴隨細胞縮小與膜起泡。"
+    },
+    "confidence": 0.9,
+    "source_document": "Eryptosis.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "59b98e8d1b74",
+    "subject": "Erythropoietin",
+    "predicate": "protects_against",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Erythropoietin is listed as protective against eryptosis, plausibly by supporting red cell energy and redox homeostasis and opposing calcium overload. The cited studies do not establish a direct anti-eryptotic mechanism, so the relationship is inferred from cross-program biology rather than demonstrated.",
+      "zh-TW": "Erythropoietin 被列為對 eryptosis 具有保護作用，可能透過支持紅血球的能量與氧化還原恆定並抵銷鈣離子過載。所引用的研究並未確立直接的抗 eryptosis 機制，因此此關係是由跨程式生物學推論而來，而非已證實。"
+    },
+    "confidence": 0.65,
+    "source_document": "Eryptosis.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "8732d99ec0ae",
+    "subject": "Erythropoietin",
+    "predicate": "is_associated_with",
+    "object": "Chronic Kidney Disease",
+    "context": {
+      "en-US": "Erythropoietin is the kidney-derived cytokine induced by hypoxia-inducible factors that drives red cell production via the EPO receptor/JAK2/STAT5 axis. In chronic kidney disease, EPO deficiency and accelerated eryptosis coincide, producing anaemia; sepsis alters EPO responsiveness.",
+      "zh-TW": "Erythropoietin 是由 hypoxia-inducible factors 誘導、腎臟來源的細胞激素，透過 EPO receptor/JAK2/STAT5 軸驅動紅血球生成。在 chronic kidney disease 中，EPO 缺乏與加速的 eryptosis 同時出現而造成貧血；sepsis 則會改變 EPO 的反應性。"
+    },
+    "confidence": 0.7,
+    "source_document": "Erythropoietin.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "e2574be3c92c",
+    "subject": "Essential Amino Acids",
+    "predicate": "activates",
+    "object": "GCN2",
+    "context": {
+      "en-US": "Essential amino acids are sensed by dedicated pathways that couple dietary supply to cellular metabolism, most notably the GCN2-eIF2alpha-ATF4 axis activated by depletion of essential amino acids such as tryptophan. This integrates stress response signalling with nutrient availability.",
+      "zh-TW": "必需胺基酸由專門的感測路徑辨識，將飲食供應與細胞代謝連結起來，其中最重要的是由 tryptophan 等必需胺基酸耗竭所活化的 GCN2-eIF2alpha-ATF4 軸。此機制整合了壓力反應訊號與營養可得性。"
+    },
+    "confidence": 0.85,
+    "source_document": "Essential Amino Acids.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "1b88ba837a93",
+    "subject": "Isoleucine",
+    "predicate": "extends",
+    "object": "Longevity",
+    "context": {
+      "en-US": "Restricting isoleucine and valine improves metabolic health and extends lifespan in rodents, acting partly through amino-acid sensing and metabolic remodeling. Human data are more limited, though low-protein and low-essential-amino-acid diets reduce body weight and improve metabolic markers.",
+      "zh-TW": "限制 isoleucine 與 valine 可改善代謝健康並延長齧齒類壽命，部分透過胺基酸感測與代謝重塑作用。人體資料較有限，但低蛋白與低必需胺基酸飲食可降低體重並改善代謝指標。"
+    },
+    "confidence": 0.8,
+    "source_document": "Essential Amino Acids.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "436da2f1809c",
+    "subject": "Etoposide",
+    "predicate": "induces",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "Etoposide (VP-16) is a topoisomerase inhibitor that forms a ternary complex with DNA and topoisomerase II, preventing re-ligation of DNA strands. The resulting accumulation of DNA double-strand breaks triggers cell cycle arrest and apoptosis, and it is classified among DNA-damaging agents that can also induce cellular senescence.",
+      "zh-TW": "Etoposide（VP-16）是 topoisomerase 抑制劑，與 DNA 及 topoisomerase II 形成三複合物，阻止 DNA 股的再接合。所造成的 DNA 雙股斷裂累積會引發細胞週期停滯與 apoptosis；它也被歸類為可誘發細胞 senescence 的 DNA 損傷類藥物。"
+    },
+    "confidence": 0.9,
+    "source_document": "Etoposide.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "3ce49a208419",
+    "subject": "Caspase-3",
+    "predicate": "enhances",
+    "object": "Etoposide",
+    "context": {
+      "en-US": "Etoposide is frequently combined with other agents to enhance its efficacy, and synergy has been reported with Caspase-3 gene therapy: adding human Caspase-3 gene therapy to etoposide in an AH130 liver tumour model induced extensive tumour destruction.",
+      "zh-TW": "Etoposide 常與其他藥物併用以提升療效，並已與 Caspase-3 基因治療報告協同作用：在 AH130 肝臟腫瘤模型中，於 etoposide 之外加上人類 Caspase-3 基因治療可造成廣泛的腫瘤破壞。"
+    },
+    "confidence": 0.8,
+    "source_document": "Etoposide.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "761b67ed2460",
+    "subject": "Etoposide",
+    "predicate": "is_associated_with",
+    "object": "Cisplatin",
+    "context": {
+      "en-US": "Etoposide is used for testicular cancer, lung cancer, lymphoma and leukemia, and is often combined with cisplatin in lung cancer treatment, reflecting its role as a DNA-damaging chemotherapy backbone.",
+      "zh-TW": "Etoposide 用於睾丸癌、肺癌、lymphoma 與 leukemia，並常與 cisplatin 併用於肺癌治療，反映其作為 DNA 損傷型化療骨架的角色。"
+    },
+    "confidence": 0.75,
+    "source_document": "Etoposide.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "060a6b8e560c",
+    "subject": "Euchromatin",
+    "predicate": "is_a_type_of",
+    "object": "Chromatin",
+    "context": {
+      "en-US": "Euchromatin is the lightly packed, transcriptionally active form of chromatin. High histone acetylation and low DNA methylation keep DNA accessible to transcription machinery, and it holds the genes a cell needs for day-to-day function, in balance with the repressive heterochromatin that silences repetitive elements and cell-type-inappropriate genes.",
+      "zh-TW": "Euchromatin 是 chromatin 中包裝較鬆散、轉錄活化的形式。高度的 histone acetylation 與低度的 DNA methylation 讓 DNA 維持可被轉錄機器接近的狀態，容納細胞日常運作所需的基因，並與抑制性的 heterochromatin 保持平衡；後者負責沉默重複序列與該細胞型態不需要的基因。"
+    },
+    "confidence": 0.95,
+    "source_document": "Euchromatin.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "1fbd71d66705",
+    "subject": "Euchromatin",
+    "predicate": "facilitates",
+    "object": "Transcription",
+    "context": {
+      "en-US": "Euchromatin's open structure and acetylated histones keep DNA accessible, enabling transcription. Its formation and maintenance are regulated by histone acetyltransferases, which add acetyl groups, and histone deacetylases, which remove them.",
+      "zh-TW": "Euchromatin 開放的結構與乙醯化的 histone 使 DNA 保持可接近，因而容許 transcription。其形成與維持由 histone acetyltransferase（加上乙醯基）與 histone deacetylase（移除乙醯基）調控。"
+    },
+    "confidence": 0.9,
+    "source_document": "Euchromatin.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "8bb127db95b7",
+    "subject": "Aging",
+    "predicate": "converts",
+    "object": "Heterochromatin",
+    "context": {
+      "en-US": "The heterochromatin loss model of Aging proposes that once tightly packed heterochromatic regions relax and take on euchromatic characteristics. The consequences include aberrant activation of genes promoting inflammation or cell cycle arrest such as SASP components, loss of silencing of transposable elements, and contributing genomic instability.",
+      "zh-TW": "Aging 的 heterochromatin 流失模型提出，原本緊密包裝的 heterochromatin 區域會逐漸鬆弛並取得 euchromatin 的特徵。後果包括 SASP 等促進發炎或細胞週期停滯的基因異常活化、transposable elements 去沉默化，以及由此加劇的 genomic instability。"
+    },
+    "confidence": 0.85,
+    "source_document": "Euchromatin.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "51349c1e5400",
+    "subject": "Everolimus",
+    "predicate": "inhibits",
+    "object": "mTORC1",
+    "context": {
+      "en-US": "Everolimus (RAD001, Afinitor) is a rapalog, a rapamycin analogue with highly potent allosteric inhibition of the mTOR protein kinase, which exists as the mTORC1 and mTORC2 complexes. It is FDA-approved and has been evaluated for tuberous sclerosis seizures and in human vaccine-response and heart-transplant trials, with metabolic and haematological side effects.",
+      "zh-TW": "Everolimus（RAD001，Afinitor）是 rapalog，也就是 rapamycin 的類似物，能對 mTOR 蛋白激酶（由 mTORC1 與 mTORC2 兩個複合體構成）產生高度有效的變構抑制。它已獲 FDA 核准，曾用於結節性硬化症癲癇，並在人體疫苗反應與心臟移植試驗中評估，具有代謝與血液學副作用。"
+    },
+    "confidence": 0.85,
+    "source_document": "Everolimus.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "1b3692937194",
+    "subject": "Excess Post-Exercise Oxygen Consumption",
+    "predicate": "increases",
+    "object": "Resting Metabolic Rate",
+    "context": {
+      "en-US": "Excess Post-Exercise Oxygen Consumption (EPOC) is the sustained elevation of metabolic rate above resting levels after a bout of physical activity, and it is the acute route by which physical activity raises resting metabolic rate. It decays biphasically, with half-lives of roughly 1 h and 13 h, so training studies that do not let the long phase resolve can confound long-term RMR measurements.",
+      "zh-TW": "Excess Post-Exercise Oxygen Consumption（EPOC）是運動後代謝率持續高於休息水準的現象，也是身體活動提升 resting metabolic rate 的急性途徑。它以雙相方式衰減，半衰期約為 1 小時與 13 小時，因此未讓長時相衰減完畢的訓練研究可能混淆長期的 RMR 量測。"
+    },
+    "confidence": 0.9,
+    "source_document": "Excess Post-Exercise Oxygen Consumption.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "a1ef77c83041",
+    "subject": "Excess Post-Exercise Oxygen Consumption",
+    "predicate": "contributes_to",
+    "object": "Energy Expenditure",
+    "context": {
+      "en-US": "Because the energy equivalent of post-exercise oxygen consumption is counted beyond the exercise itself, omitting EPOC from energy-cost calculations substantially underestimates the total energetic cost of a bout. For short, high-intensity activity EPOC can be 80-90 percent of total energy expenditure, whereas for long low-intensity activity it is far less than the activity's own cost.",
+      "zh-TW": "由於運動後額外耗氧所對應的能量發生在運動本身之外，能量成本計算若排除 EPOC，會大幅低估單次運動的總能量成本。對短時間高強度活動，EPOC 可占總 energy expenditure 的 80-90%；而對長時間低強度活動，EPOC 遠小於活動本身的能量消耗。"
+    },
+    "confidence": 0.9,
+    "source_document": "Excess Post-Exercise Oxygen Consumption.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "d6ea255bc7bb",
+    "subject": "Excitotoxicity",
+    "predicate": "causes",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "Excitotoxicity is neuronal injury in which overactivation of excitatory glutamate signalling on ionotropic receptors causes sustained calcium entry. Intracellular calcium overload activates calpains, phospholipases and endonucleases and drives massive reactive oxygen species production, and the resulting oxidative and energetic crisis engages apoptosis and necrotic death.",
+      "zh-TW": "Excitotoxicity 是興奮性 glutamate 訊號在 ionotropic receptor 上過度活化所造成的神經元損傷，會導致持續的鈣離子流入。細胞內鈣離子過載活化 calpain、phospholipase 與 endonuclease，並大量產生 reactive oxygen species，隨後的氧化與能量危機啟動 apoptosis 與壞死性死亡。"
+    },
+    "confidence": 0.9,
+    "source_document": "Excitotoxicity.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "7800254fb3fd",
+    "subject": "Excitotoxicity",
+    "predicate": "produces",
+    "object": "Reactive Oxygen Species",
+    "context": {
+      "en-US": "Calcium overload during excitotoxic stress drives massive reactive oxygen species generation within mitochondria, collapsing membrane potential and ATP synthesis. The oxidative crisis amplifies the excitotoxic cascade, which is why oxidative stress and excitotoxicity reinforce each other in neurodegeneration.",
+      "zh-TW": "Excitotoxic 壓力下的鈣離子過載會在粒線體內大量產生 reactive oxygen species，使膜電位與 ATP 合成崩潰。此氧化危機會放大 excitotoxic 級聯反應，這也是 oxidative stress 與 excitotoxicity 在神經退化病程中互相強化的原因。"
+    },
+    "confidence": 0.9,
+    "source_document": "Excitotoxicity.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "92b8fd577513",
+    "subject": "Autophagy",
+    "predicate": "protects_against",
+    "object": "Excitotoxicity",
+    "context": {
+      "en-US": "Endogenous defences against excitotoxic injury include astrocytic glutamate uptake, antioxidant buffering, and autophagy that clears damaged organelles. Because this clearance pathway is protective, boosting autophagy and NAD+-dependent sirtuin activity is explored as a neuroprotective strategy against excitotoxic and age-related neuronal injury.",
+      "zh-TW": "對抗 excitotoxic 損傷的內在防禦包括星狀膠細胞的 glutamate 回收、抗氧化緩衝，以及清除受損胞器的 autophagy。由於這條清除路徑具有保護作用，強化 autophagy 與 NAD+ 相關的 sirtuin 活性便被探索作為對抗 excitotoxic 與老化相關神經元損傷的神經保護策略。"
+    },
+    "confidence": 0.85,
+    "source_document": "Excitotoxicity.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "6173d4ee21eb",
+    "subject": "Excitotoxicity",
+    "predicate": "contributes_to",
+    "object": "Alzheimer's Disease",
+    "context": {
+      "en-US": "Dysregulated glutamatergic signalling contributes to ischemic stroke, traumatic brain injury, status epilepticus and chronic neurodegeneration in Alzheimer's disease, Parkinson's disease, amyotrophic lateral sclerosis and Huntington's disease. It represents the failure of the regulation that normally makes glutamate essential for learning, memory and synaptic plasticity.",
+      "zh-TW": "失调的 glutamatergic 訊號參與 ischemic stroke、traumatic brain injury、status epilepticus，以及 Alzheimer's disease、Parkinson's disease、amyotrophic lateral sclerosis 與 Huntington's disease 等慢性神經退化疾病。它代表正常情況下使 glutamate 對學習、記憶與突觸可塑性不可或缺的調控機制失效。"
+    },
+    "confidence": 0.85,
+    "source_document": "Excitotoxicity.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "4808a9ae6642",
+    "subject": "Exercise",
+    "predicate": "activates",
+    "object": "SIRT1",
+    "context": {
+      "en-US": "Exercise raises NAD+ levels and activates SIRT1, SIRT3 and SIRT6 in skeletal muscle, heart and brain. SIRT1 together with PGC-1alpha mediates exercise-induced mitochondrial biogenesis and improved insulin sensitivity, autophagy is promoted in a SIRT1-dependent manner, and BDNF induction underlying neurogenesis is partly SIRT1-dependent.",
+      "zh-TW": "Exercise 提高 NAD+ 濃度並在骨骼肌、心臟與腦部活化 SIRT1、SIRT3 與 SIRT6。SIRT1 與 PGC-1alpha 共同媒介運動引發的 mitochondrial biogenesis 與 insulin sensitivity 改善；autophagy 以 SIRT1 依賴方式被促進；作為 neurogenesis 基礎的 BDNF 誘導也部分依賴 SIRT1。"
+    },
+    "confidence": 0.9,
+    "source_document": "Exercise.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "70f290910fa1",
+    "subject": "Exercise",
+    "predicate": "induces",
+    "object": "Mitohormesis",
+    "context": {
+      "en-US": "Exercise induces mitohormesis: hormetic reactive oxygen species signalling that upregulates NRF2 and superoxide dismutase. This is a central reason exercise counts as one of the most effective interventions for extending healthspan and attenuating age-related decline.",
+      "zh-TW": "Exercise 會誘發 mitohormesis：即 hormetic 的 reactive oxygen species 訊號，進而上調 NRF2 與 superoxide dismutase。這也是 exercise 被視為延長 healthspan 與減緩老化相關衰退最有效介入手段之一的核心原因。"
+    },
+    "confidence": 0.9,
+    "source_document": "Exercise.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "a25408197823",
+    "subject": "Exercise",
+    "predicate": "stimulates",
+    "object": "Mitophagy",
+    "context": {
+      "en-US": "Exercise stimulates mitophagy and mitochondrial biogenesis via PGC-1alpha, and SIRT3 upregulation in muscle is required for the full metabolic benefits of training, including enhanced oxidative phosphorylation and reduced reactive oxygen species. Lifestyle and nutrition, especially exercise, enhance the autophagy pathway.",
+      "zh-TW": "Exercise 透過 PGC-1alpha 刺激 mitophagy 與 mitochondrial biogenesis，而肌肉中 SIRT3 的上调是訓練完整代謝效益所必需，包括提升 oxidative phosphorylation 與降低 reactive oxygen species。生活方式與營養，尤其是 exercise，會強化 autophagy 路徑。"
+    },
+    "confidence": 0.9,
+    "source_document": "Exercise.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "bcf9f352eeb2",
+    "subject": "Exercise",
+    "predicate": "promotes",
+    "object": "Neurogenesis",
+    "context": {
+      "en-US": "Exercise promotes adult neurogenesis through BDNF upregulation, linking physical activity to cognitive health. It also improves insulin sensitivity and cardiovascular health, and regular exercise is associated with reduced all-cause mortality and extended healthspan.",
+      "zh-TW": "Exercise 透過 BDNF 上调促進成人 neurogenesis，將身體活動與認知健康連結起來。它也改善 insulin sensitivity 與心血管健康，而规律運動與全因死亡率下降及 healthspan 延長相關。"
+    },
+    "confidence": 0.9,
+    "source_document": "Exercise.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "c8cdcdc6f2c4",
+    "subject": "Caloric Restriction",
+    "predicate": "synergizes_with",
+    "object": "Exercise",
+    "context": {
+      "en-US": "Caloric restriction and exercise are complementary longevity interventions that synergize through shared NAD+ and sirtuin pathways. Exercise raises NAD+ levels, activating the same sirtuins that caloric restriction activates, and when combined with intermittent fasting further enhances sirtuin activation and insulin sensitivity.",
+      "zh-TW": "Caloric restriction 與 exercise 是互補的長壽介入手段，透過共用的 NAD+ 與 sirtuin 路徑產生協同。Exercise 提升 NAD+ 濃度，活化與 caloric restriction 相同的 sirtuin；若再與 intermittent fasting 併用，則進一步增強 sirtuin 活化與 insulin sensitivity。"
+    },
+    "confidence": 0.85,
+    "source_document": "Exercise.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "7d7767df56c7",
+    "subject": "Extracellular Vesicles",
+    "predicate": "transports",
+    "object": "cGAMP",
+    "context": {
+      "en-US": "Extracellular vesicles, including exosomes and microvesicles, are lipid-bilayer particles released by cells to mediate intercellular communication. They can be loaded with cGAMP and mtDNA, transferring cGAS-STING activation from a sender cell to a naive receiver: neurons stressed by activity-induced DNA damage or proteotoxic insult package nucleic acid cargo that activates microglial cGAS-STING, and microglia broadcast signals back to neurons.",
+      "zh-TW": "Extracellular vesicles（包含 exosome 與 microvesicle）是細胞釋放以進行細胞間溝通的脂質雙層顆粒。它們可裝載 cGAMP 與 mtDNA，把 cGAS-STING 的活化由發訊細胞傳遞給未受刺激的受訊細胞：因活動誘發的 DNA Damage 或蛋白質毒性壓力而受損的神經元會包裝核酸貨物以活化小膠細胞的 cGAS-STING，而小膠細胞也會將訊號回傳給神經元。"
+    },
+    "confidence": 0.9,
+    "source_document": "Extracellular Vesicles.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "2bf13fa2374c",
+    "subject": "Extracellular Vesicles",
+    "predicate": "activates",
+    "object": "cGAS-STING Pathway",
+    "context": {
+      "en-US": "EV-borne cGAMP and mtDNA cargo propagates cGAS-STING activation between CNS cells such as neurons, microglia and astrocytes, converting localized cellular stress into network-wide neuroinflammation. This makes EV-mediated signaling a candidate target for interrupting pathological cGAS-STING spread.",
+      "zh-TW": "EV 攜帶的 cGAMP 與 mtDNA 貨物會在神經元、小膠細胞與星狀膠細胞等 CNS 細胞之間傳播 cGAS-STING 活化，把局部細胞壓力轉化為全網絡性的 neuroinflammation。這使 EV 媒介的訊號成為阻斷病理性 cGAS-STING 擴散的一個候選標的。"
+    },
+    "confidence": 0.9,
+    "source_document": "Extracellular Vesicles.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "9b1439250de6",
+    "subject": "Extracellular Vesicles",
+    "predicate": "transports",
+    "object": "Mitochondria",
+    "context": {
+      "en-US": "Beyond soluble cargo, whole mitochondria can be transferred between neurons and neighbouring cells via extracellular vesicles or tunneling nanotubes, providing a broader route for mtDNA dissemination. This vesicular transfer reshapes microglial states and amplifies maladaptive glial responses in neurodegeneration.",
+      "zh-TW": "除了可溶性貨物，完整的粒線體也可透過 extracellular vesicles 或 tunneling nanotubes 在神經元與鄰近細胞之間轉移，提供了更廣泛的 mtDNA 散布途徑。這種囊泡轉移會重塑小膠細胞狀態，並放大神經退化中的不適應性膠細胞反應。"
+    },
+    "confidence": 0.85,
+    "source_document": "Extracellular Vesicles.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "da4fc9b163bf",
+    "subject": "Extracellular Vesicles",
+    "predicate": "promotes",
+    "object": "Neuroinflammation",
+    "context": {
+      "en-US": "EV signalling amplifies network inflammation, with microglia acting as both receiver and sender of EV-borne alarm signals. In pulmonary fibrosis, stem-cell-derived extracellular vesicles are proposed to work in the opposite direction, attenuating oxidative stress, modulating the SASP and reducing fibroblast activation, which makes them an emerging senescence-targeted therapy.",
+      "zh-TW": "EV 訊號會放大網絡層級的發炎，小膠細胞既是 EV 所攜帶警報訊號的受訊者也是發訊者。在肺纖維化中，幹細胞衍生的 extracellular vesicles 則被提出具有相反作用，可減輕 oxidative stress、調節 SASP 並減少纖維母細胞活化，使其成為新興的衰老細胞標靶治療。"
+    },
+    "confidence": 0.85,
+    "source_document": "Extracellular Vesicles.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "408254427c25",
+    "subject": "FBXO7",
+    "predicate": "recruits",
+    "object": "Parkin",
+    "context": {
+      "en-US": "FBXO7 (F-box protein 7) is a scaffolding protein that interacts with both PINK1 and Parkin, acting as a molecular bridge that markedly accelerates Parkin translocation from the cytosol to damaged mitochondria. When mitochondrial membrane potential is lost, PINK1 stabilizes on the outer membrane and recruits Parkin; FBXO7 amplifies that recruitment for rapid, robust Parkin translocation.",
+      "zh-TW": "FBXO7（F-box protein 7）是同時與 PINK1 與 Parkin 作用的支架蛋白，作為分子橋樑大幅加速 Parkin 由細胞質轉位到受損粒線體。當粒線體膜電位喪失時，PINK1 會穩定在外膜上並招募 Parkin；FBXO7 則放大此招募過程，使 Parkin 能快速且有效率地轉位。"
+    },
+    "confidence": 0.9,
+    "source_document": "FBXO7.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "82e98b66ab3c",
+    "subject": "FBXO7",
+    "predicate": "interacts_with",
+    "object": "PINK1",
+    "context": {
+      "en-US": "FBXO7 is a key component of the PINK1/Parkin-mediated mitophagy pathway. It belongs to the F-box protein family, whose members typically serve as substrate-recognition subunits of SCF (SKP1-CUL1-F-box) E3 ubiquitin ligase complexes, but in mitophagy it acts instead as a scaffold rather than a substrate adaptor.",
+      "zh-TW": "FBXO7 是 PINK1/Parkin 媒介的 mitophagy 路徑中的關鍵成分。它屬於 F-box protein 家族，該家族成員通常作為 SCF（SKP1-CUL1-F-box）E3 泛素連接酶複合體的受質辨識次單元，但在 mitophagy 中它扮演的是支架而非受質轉接子的角色。"
+    },
+    "confidence": 0.9,
+    "source_document": "FBXO7.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "bbdb5bc531ac",
+    "subject": "FBXO7",
+    "predicate": "protects_against",
+    "object": "Mitochondrial Dysfunction",
+    "context": {
+      "en-US": "Loss of FBXO7 function reduces Parkin recruitment efficiency, leading to accumulation of damaged mitochondria and increased susceptibility to oxidative stress in dopaminergic neurons. Mutations in PARK15, the gene encoding FBXO7, cause autosomal recessive early-onset Parkinson's disease, directly linking FBXO7 dysfunction to impaired mitophagy.",
+      "zh-TW": "FBXO7 功能喪失會降低 Parkin 的招募效率，造成受損粒線體累積，並使多巴胺神經元更易受到 oxidative stress 影響。編碼 FBXO7 的 PARK15 基因突變會造成體染色體隱性遺傳的早發型 Parkinson's disease，直接將 FBXO7 功能障礙與受損的 mitophagy 連結起來。"
+    },
+    "confidence": 0.85,
+    "source_document": "FBXO7.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "33d5bdfd5b21",
+    "subject": "FCCP",
+    "predicate": "uncouples",
+    "object": "Oxidative Phosphorylation",
+    "context": {
+      "en-US": "FCCP (carbonyl cyanide-4-trifluoromethoxyphenylhydrazone) is a protonophore that collapses the mitochondrial proton gradient, uncoupling oxidative phosphorylation. This maximally stimulates mitochondrial electron transport chain electron flux and oxygen consumption, which is why it is injected after oligomycin in Seahorse bioenergetic assays to reveal maximal respiration.",
+      "zh-TW": "FCCP（carbonyl cyanide-4-trifluoromethoxyphenylhydrazone）是質子載體，會崩解粒線體的質子梯度，使 oxidative phosphorylation 解偶聯。此作用可最大程度刺激 mitochondrial electron transport chain 的電子流與耗氧，因此在 Seahorse 生體能量分析中會在 oligomycin 之後注入，以顯示最大呼吸能力。"
+    },
+    "confidence": 0.9,
+    "source_document": "FCCP.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "5f209b711dea",
+    "subject": "FCCP",
+    "predicate": "increases",
+    "object": "Mitochondrial Electron Transport Chain",
+    "context": {
+      "en-US": "FCCP-induced maximal respiration revealed that methylene blue, toluidine blue O and neutral red, but not 2-chlorophenothiazine or chlorpromazine, enhance mitochondrial respiratory capacity rather than merely resting oxygen consumption. Because the compound itself drives electron flux, the assay reports the ceiling of the cells' respiratory reserve.",
+      "zh-TW": "FCCP 誘發的最大呼吸顯示，methylene blue、toluidine blue O 與 neutral red（但非 2-chlorophenothiazine 或 chlorpromazine）提升的是粒線體的呼吸能力，而非僅僅提高休息狀態的耗氧。由於 FCCP 本身會推動電子流，此檢定反映的是細胞呼吸儲備的上限。"
+    },
+    "confidence": 0.8,
+    "source_document": "FCCP.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "932939f7e380",
+    "subject": "FIN56",
+    "predicate": "induces",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "FIN56 is a Class III ferroptosis inducer that kills cells by simultaneously disabling both pillars of ferroptosis defence. It is primarily a research tool for dissecting ferroptosis pathways and sensitizing resistant cancer cells, and it demonstrates that co-targeting the mevalonate/CoQ10 and GPX4 nodes is a rational ferroptosis-inducing strategy.",
+      "zh-TW": "FIN56 是第三類 ferroptosis inducer，藉由同時削弱 ferroptosis 防禦的兩大支柱來殺死細胞。它主要是用於解析 ferroptosis 路徑並使抗藥性癌細胞敏感的實驗工具，也證明同時針對 mevalonate/CoQ10 與 GPX4 節點是合理的 ferroptosis 誘發策略。"
+    },
+    "confidence": 0.95,
+    "source_document": "FIN56.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "71a06970aa9d",
+    "subject": "FIN56",
+    "predicate": "activates",
+    "object": "Squalene synthase",
+    "context": {
+      "en-US": "FIN56 binds to and activates squalene synthase, pushing mevalonate pathway flux toward sterol and cholesterol biosynthesis and away from CoQ10/ubiquinone synthesis. The resulting ubiquinone depletion converges on FSP1, whose radical-trapping defence collapses because its substrate is no longer regenerated as ubiquinol.",
+      "zh-TW": "FIN56 結合並活化 squalene synthase，使 mevalonate pathway 的流量轉向 sterol 與 cholesterol 合成，而遠離 CoQ10/ubiquinone 合成。由此造成的 ubiquinone 耗損匯聚到 FSP1：由於其受質無法再被還原成 ubiquinol，FSP1 的自由基捕捉防禦因而崩潰。"
+    },
+    "confidence": 0.9,
+    "source_document": "FIN56.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "218cf5aa439c",
+    "subject": "FIN56",
+    "predicate": "degrades",
+    "object": "GPX4",
+    "context": {
+      "en-US": "Independently of the mevalonate route, FIN56 promotes GPX4 degradation via acetyl-CoA carboxylases, crippling the glutathione-dependent axis of ferroptosis defence. Starving FSP1 of CoQ10 while removing GPX4 is what makes this dual mechanism a precise illustration of the two-pillar defence model.",
+      "zh-TW": "獨立於 mevalonate 路徑之外，FIN56 透過 acetyl-CoA carboxylases 促進 GPX4 降解，使依賴 glutathione 的 ferroptosis 防禦軸失能。讓 FSP1 缺乏 CoQ10 同時移除 GPX4，正是這種雙重機制精確呈現兩支柱防禦模型的原因。"
+    },
+    "confidence": 0.85,
+    "source_document": "FIN56.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "829c5e7c3000",
+    "subject": "FIN56",
+    "predicate": "impairs",
+    "object": "FSP1",
+    "context": {
+      "en-US": "FIN56 inactivates the FSP1 axis without touching FSP1 directly, by depleting its CoQ10 substrate through the mevalonate pathway. This illustrates the claim that loss of ubiquinone convergence on FSP1 predicts ferroptosis sensitivity: no ubiquinone means no FSP1-regenerated ubiquinol, so lipid peroxidation runs unchecked.",
+      "zh-TW": "FIN56 並未直接作用於 FSP1，而是透過 mevalonate pathway 耗盡其 CoQ10 受質，使 FSP1 軸失效。這印證了「ubiquinone 對 FSP1 的匯聚喪失可預測 ferroptosis 敏感性」的說法：沒有 ubiquinone 就沒有 FSP1 再生出的 ubiquinol，lipid peroxidation 便無從遏制。"
+    },
+    "confidence": 0.85,
+    "source_document": "FIN56.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "e1eb262ad178",
+    "subject": "FIS1",
+    "predicate": "promotes",
+    "object": "Mitochondrial Fission",
+    "context": {
+      "en-US": "FIS1 overexpression increases mitochondrial fragmentation, leading to dysfunction and increased autophagosome formation, whereas OPA1 and MFN1 promote fusion and functionally oppose FIS1. Mammalian cells lacking FIS1 show little or no fission defect, so its role is far less significant in mammalian cells than in yeast.",
+      "zh-TW": "FIS1 過度表現會增加粒線體碎裂，造成功能障礙與 autophagosome 形成增加；相對地，OPA1 與 MFN1 促進融合，功能上與 FIS1 相反。缺乏 FIS1 的哺乳類細胞幾乎沒有 fission 缺陷，因此 FIS1 在哺乳類細胞中的重要性遠低於酵母。"
+    },
+    "confidence": 0.9,
+    "source_document": "FIS1.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "5835d41f635c",
+    "subject": "FIS1",
+    "predicate": "is_required_for",
+    "object": "Mitophagy",
+    "context": {
+      "en-US": "FIS1-mediated mitochondrial fission is a prerequisite for mitophagy, so reduced FIS1 impairs mitophagy. In senescent cells FIS1 expression is downregulated, contributing to an elongated, interconnected mitochondrial morphology; knockdown of FIS1 produces a senescent morphology with increased SA-beta-gal activity that is reversed by reintroducing FIS1 or by OPA1 knockdown.",
+      "zh-TW": "FIS1 媒介的粒線體 fission 是 mitophagy 的前提，因此 FIS1 減少會損害 mitophagy。在衰老細胞中 FIS1 表現下調，導致粒線體呈細長且互相連通的形態；FIS1 的 knockdown 會產生 SA-beta-gal 活性升高的衰老表型，而重新導入 FIS1 或對 OPA1 作 knockdown 都能逆轉此現象。"
+    },
+    "confidence": 0.9,
+    "source_document": "FIS1.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
+  },
+  {
+    "id": "a1b0a0715c55",
+    "subject": "FIS1",
+    "predicate": "is_downregulated_in",
+    "object": "Senescence",
+    "context": {
+      "en-US": "In senescent cells FIS1 and DRP1 are both downregulated, yielding elongated mitochondria and impaired mitophagy. The senescence effect is mediated through OPA1, since OPA1 knockdown reverses the senescent phenotype in FIS1-deficient cells, linking mitochondrial dynamics to the senescence programme.",
+      "zh-TW": "在衰老細胞中 FIS1 與 DRP1 皆下調，造成粒線體細長化與 mitophagy 受損。此對衰老的影響是透過 OPA1 傳遞的，因為在缺乏 FIS1 的細胞中對 OPA1 作 knockdown 可逆轉衰老表型，將粒線體動態與衰老程式連結起來。"
+    },
+    "confidence": 0.85,
+    "source_document": "FIS1.md",
+    "created": "2026-09-29T16:08:39Z",
+    "updated": "2026-09-29T16:08:39Z"
   }
 ]
