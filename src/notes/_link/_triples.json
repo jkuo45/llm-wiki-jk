@@ -32296,5 +32296,733 @@
     "source_document": "Thrombospondin-1.md",
     "created": "2026-09-29T14:41:21Z",
     "updated": "2026-09-29T14:41:21Z"
+  },
+  {
+    "id": "41a2bde79bfc",
+    "subject": "LIPL-4",
+    "predicate": "is_required_for",
+    "object": "Dietary Restriction",
+    "context": {
+      "en-US": "LIPL-4 is a C. elegans lysosomal triglyceride lipase required for the longevity benefits of Dietary Restriction; it is expressed in the pharynx and intestine, and unlike other LIPL family members it is not predicted to be lysosomal and its expression is not repressed by MXL-3 under well-fed conditions. LIPL-4 signals to the nuclear hormone receptor NHR-49, which is required for Dietary Restriction-dependent lifespan extension in the worm.",
+      "zh-TW": "LIPL-4 是 C. elegans 的溶酶體三酸甘油酯脂肪酶，為 Dietary Restriction 長壽效應所必需；它表現在咽與腸道中，且與 LIPL 家族其他成員不同，它不被預測為溶酶體定位，其表達在營養充足時也不受 MXL-3 抑制。LIPL-4 會活化核受體 NHR-49，而後者在線蟲中是 Dietary Restriction 依賴性壽命延展所必需的。"
+    },
+    "confidence": 0.85,
+    "source_document": "LIPL-4.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "1088138c80ee",
+    "subject": "LIPL-4",
+    "predicate": "activates",
+    "object": "NHR-49",
+    "context": {
+      "en-US": "LIPL-4 is a C. elegans lysosomal lipase that activates the nuclear hormone receptor NHR-49. NHR-49 in turn drives expression of genes for fatty acid beta-oxidation, transport and desaturation, and is required for lifespan extension downstream of LIPL-4 under dietary restriction; LIPL-4 is also upregulated about 7-fold after 6 hours of fasting.",
+      "zh-TW": "LIPL-4 是 C. elegans 的溶酶體脂肪酶，可活化核受體 NHR-49。NHR-49 進而驅動脂肪酸 β-氧化、運輸與去飽和相關基因的表達，且在飲食限制下 LIPL-4 下游的壽命延展需要它；LIPL-4 在禁食 6 小時後會上調約 7 倍。"
+    },
+    "confidence": 0.85,
+    "source_document": "LIPL-4.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "bf47aac5b347",
+    "subject": "LIPL-4",
+    "predicate": "is_not_repressed_by",
+    "object": "MXL-3",
+    "context": {
+      "en-US": "Unlike other members of the LIPL family, LIPL-4 is not repressed by the MXL-3/BHLH-40 transcriptional complex under well-fed conditions, although it is up-regulated in the intestine of starvation-induced dauer larvae.",
+      "zh-TW": "與 LIPL 家族其他成員不同，LIPL-4 在營養充足條件下不受 MXL-3/BHLH-40 轉錄複合體抑制，儘管它在禁食誘導的 dauer 幼蟲腸道中會被上調。"
+    },
+    "confidence": 0.8,
+    "source_document": "LIPL-4.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "71703e7df2fb",
+    "subject": "LIPL-5",
+    "predicate": "is_upregulated_by",
+    "object": "Fasting",
+    "context": {
+      "en-US": "LIPL-5 is a C. elegans triglyceride lipase that is modestly (about 2-fold) upregulated after 6 hours of fasting in adult worms. Its transcription is repressed by MXL-3 in well-fed animals and induced by HLH-30 during fasting.",
+      "zh-TW": "LIPL-5 是 C. elegans 的三酸甘油酯脂肪酶，在成蟲禁食 6 小時後會中度（約 2 倍）上調。其轉錄在營養充足時受 MXL-3 抑制，並在禁食期間由 HLH-30 誘導。"
+    },
+    "confidence": 0.85,
+    "source_document": "LIPL-5.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "3a5e80107e3b",
+    "subject": "HLH-30",
+    "predicate": "activates_expression_of",
+    "object": "LIPL-5",
+    "context": {
+      "en-US": "HLH-30, the C. elegans MiT/TFE-family transcription factor, induces the fasting-responsive lysosomal lipase LIPL-5, which is conversely repressed by MXL-3 in well-fed animals. HLH-30 thus couples nutrient status to lysosomal lipase expression that fuels Lipophagy during starvation.",
+      "zh-TW": "HLH-30（C. elegans 的 MiT/TFE 家族轉錄因子）會誘導禁食反應性的溶酶體脂肪酶 LIPL-5；相反地，LIPL-5 在營養充足時受 MXL-3 抑制。因此 HLH-30 將營養狀態與驅動 Lipophagy 的溶酶體脂肪酶表達連結起來。"
+    },
+    "confidence": 0.85,
+    "source_document": "LIPL-5.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "5aff82f43807",
+    "subject": "LIPL-5",
+    "predicate": "contributes_to",
+    "object": "Lipophagy",
+    "context": {
+      "en-US": "LIPL-5 is a C. elegans lysosomal triglyceride lipase that contributes to Lipophagy and to fat mobilization during starvation. It is predicted to localize to the lysosome and is expressed in the intestine.",
+      "zh-TW": "LIPL-5 是 C. elegans 的溶酶體三酸甘油酯脂肪酶，參與 Lipophagy 與禁食期間的脂肪動員。它被預測定位於溶酶體，並在腸道中表達。"
+    },
+    "confidence": 0.85,
+    "source_document": "LIPL-5.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "4a5c471df614",
+    "subject": "Leptomycin B",
+    "predicate": "leads_to",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Leptomycin B causes nuclear accumulation of the transcription factors TFEB, TFE3 and FOXO, which in turn enhances Autophagy and lysosomal biogenesis. Because CRM1 export is a key control layer over the autophagic transcriptional program, its blockade is a mechanistic probe of TFEB activation.",
+      "zh-TW": "Leptomycin B 造成轉錄因子 TFEB、TFE3 與 FOXO 在細胞核內累積，進而增強 Autophagy 與溶酶體生成。由於 CRM1 依賴的核輸出是自噬轉錄程序的關鍵調控層，阻斷 CRM1 是探討 TFEB 活化機制的工具。"
+    },
+    "confidence": 0.9,
+    "source_document": "Leptomycin B.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "6b469b9145d9",
+    "subject": "LipA",
+    "predicate": "hydrolyzes",
+    "object": "Lysosome",
+    "context": {
+      "en-US": "LipA is the mouse lysosomal acid lipase, the functional orthologue of human LAL and of C. elegans LIPL-1 and LIPL-3. It hydrolyzes cholesteryl esters and triglycerides inside the lysosome, and its fasting-induced transcription in liver is linked to TFEB activity.",
+      "zh-TW": "LipA 是小鼠的溶酶體酸性脂肪酶，為人體 LAL 與 C. elegans LIPL-1、LIPL-3 的功能同源物。它在溶酶體內水解膽固醇酯與三酸甘油酯，且其在小鼠肝臟中禁食誘發的轉錄與 TFEB 活性相關。"
+    },
+    "confidence": 0.9,
+    "source_document": "LipA.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "2b47b8fa6fc6",
+    "subject": "LipA",
+    "predicate": "is_orthologous_to",
+    "object": "LIPL-1",
+    "context": {
+      "en-US": "LipA, the mouse lysosomal acid lipase, is the functional orthologue of human lysosomal acid lipase (LAL) and of the C. elegans lysosomal lipases LIPL-1 and LIPL-3, which are its nematode counterparts for cholesteryl ester and triglyceride hydrolysis.",
+      "zh-TW": "LipA（小鼠溶酶體酸性脂肪酶）是人體溶酶體酸性脂肪酶（LAL）以及 C. elegans 溶酶體脂肪酶 LIPL-1 與 LIPL-3 的功能同源物，後兩者是其在線蟲中對應的膽固醇酯與三酸甘油酯水解酶。"
+    },
+    "confidence": 0.85,
+    "source_document": "LipA.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "b4082c798ca0",
+    "subject": "Lysosomal Localization",
+    "predicate": "is_required_for",
+    "object": "TFEB",
+    "context": {
+      "en-US": "Lysosomal localization — the recruitment or positioning of a protein on the lysosome membrane — is required for TFEB to be phosphorylated by mTORC1, and is itself regulated by GSK3beta. Positioning of lysosomes is controlled by Rab7 effectors, and perinuclear clustering of lysosomes facilitates Autophagy.",
+      "zh-TW": "溶酶體定位（蛋白質在溶酶體膜上的招募或定位）是 TFEB 被 mTORC1 磷酸化所必需的，本身又受 GSK3beta 調控。溶酶體的定位由 Rab7 效應蛋白控制，而溶酶體的核周聚集有助於 Autophagy。"
+    },
+    "confidence": 0.85,
+    "source_document": "Lysosomal Localization.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "26642a5087e3",
+    "subject": "Rab7",
+    "predicate": "governs",
+    "object": "Lysosomal Localization",
+    "context": {
+      "en-US": "Lysosomal positioning and perinuclear clustering are regulated by Rab7 effectors, with FYCO1-type machinery driving plus-end transport and the RILP-ORP1L dynein adaptor driving minus-end movement. Perinuclear lysosomal clustering in turn facilitates Autophagy.",
+      "zh-TW": "溶酶體的定位與核周聚集由 Rab7 效應蛋白調控，其中 FYCO1 類機器驅動向正端運輸，RILP-ORP1L 動力蛋白銜接蛋白驅动向負端移動。而核周溶酶體聚集反過來有助於 Autophagy。"
+    },
+    "confidence": 0.85,
+    "source_document": "Lysosomal Localization.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "513f6d345e8e",
+    "subject": "Lysosomal Storage Disorders",
+    "predicate": "is_a_type_of",
+    "object": "Lysosome",
+    "context": {
+      "en-US": "Lysosomal storage disorders are ~70 inherited metabolic diseases caused by defects in lysosomal enzymes, membrane proteins or transporters, which lead to intralysosomal accumulation of undegraded macromolecules. Because the lysosome is the terminal degradative compartment shared with Autophagy, LSDs secondarily block Autophagic Flux and cause Oxidative Stress.",
+      "zh-TW": "溶酶體儲積症是約 70 種遺傳性代謝疾病，由溶酶體酵素、膜蛋白或轉運蛋白缺陷引起，造成未降解大分子在溶酶體內累積。由於溶酶體是與 Autophagy 共用的終末降解胞器，溶酶體儲積症會次級阻斷 Autophagic Flux 並引發 Oxidative Stress。"
+    },
+    "confidence": 0.9,
+    "source_document": "Lysosomal Storage Disorders.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "acdbc11d35e5",
+    "subject": "TFEB",
+    "predicate": "is_a_therapeutic_target_in",
+    "object": "Lysosomal Storage Disorders",
+    "context": {
+      "en-US": "Pharmacologic activation of TFEB is the unifying disease-modifying strategy for lysosomal storage disorders: TFEB activation enhances lysosomal biogenesis, exocytosis and clearance of stored material, and boosting basal Autophagy relieves the secondary autophagic block. Preclinical TFEB activators, for example via mTORC1 inhibition or trehalose-mimetic small molecules, reduce storage in multiple LSD models.",
+      "zh-TW": "藥理學上活化 TFEB 是溶酶體儲積症统一的疾病改造策略：TFEB 活化可促進溶酶體生成、胞吐與儲存物質的清除，而提升基礎 Autophagy 則可解除次級的自噬阻斷。前臨床 TFEB 活化劑（例如經由 mTORC1 抑制或海藻糖模擬小分子）在多種溶酶體儲積症模型中可減少儲積。"
+    },
+    "confidence": 0.9,
+    "source_document": "Lysosomal Storage Disorders.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "5274ecc0c26c",
+    "subject": "MALAT1",
+    "predicate": "fuses_with",
+    "object": "TFEB",
+    "context": {
+      "en-US": "MALAT1 (metastasis associated lung adenocarcinoma transcript 1) is a nuclear-retained long non-coding RNA and the best-known fusion partner of TFEB: the TFEB gene on chromosome 6 fuses with MALAT1 (originally called Alpha), producing t(6;11) translocation renal cell carcinoma with TFEB overexpression. MALAT1 also interacts with TFEB to influence lysosomal gene transcription.",
+      "zh-TW": "MALAT1（metastasis associated lung adenocarcinoma transcript 1）是核內滯留的長非編碼 RNA，也是 TFEB 最知名的融合對手基因：位於 6 號染色體的 TFEB 基因與 MALAT1（最初稱為 Alpha）融合，形成 t(6;11) 轉位腎細胞癌並導致 TFEB 過度表現。MALAT1 也與 TFEB 互動以影響溶酶體基因的轉錄。"
+    },
+    "confidence": 0.9,
+    "source_document": "MALAT1.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "96281131f6b4",
+    "subject": "MALAT1",
+    "predicate": "sequesters",
+    "object": "miR-101",
+    "context": {
+      "en-US": "MALAT1 modulates Autophagy by sponging miR-101, which upregulates STUB1 expression, and by interacting with TFEB to influence lysosomal gene transcription and by regulating mTORC1 signaling under hypoxic stress. The same mechanism has been reported to upregulate SIRT1.",
+      "zh-TW": "MALAT1 透過「海綿」miR-101 來調節 Autophagy，進而提升 STUB1 的表達；它也與 TFEB 互動以影響溶酶體基因轉錄，並在缺氧壓力下調節 mTORC1 訊號。同一機制亦被報導可上調 SIRT1。"
+    },
+    "confidence": 0.85,
+    "source_document": "MALAT1.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "a22867fe6c0a",
+    "subject": "Macroautophagy",
+    "predicate": "is_a_type_of",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Macroautophagy is the primary and best-studied type of Autophagy: cytoplasmic cargo is sequestered into double-membrane autophagosomes that then fuse with lysosomes, whose hydrolases digest the cargo for recycling. It is regulated by Atg proteins such as Atg1, Atg5 and Atg8/LC3 and induced by metabolic stress via the AMPK/mTORC1 axis.",
+      "zh-TW": "Macroautophagy 是 Autophagy 主要且研究最深入的類型：細胞質貨物被隔離進雙層膜的 autophagosome，隨後與溶酶體融合，由溶酶體水解酶分解以回收。它受 Atg1、Atg5 與 Atg8/LC3 等 Atg 蛋白調控，並經由 AMPK/mTORC1 軸受代謝壓力誘導。"
+    },
+    "confidence": 0.95,
+    "source_document": "Macroautophagy.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "829681779990",
+    "subject": "Macroautophagy",
+    "predicate": "maintains",
+    "object": "Cellular Homeostasis",
+    "context": {
+      "en-US": "Macroautophagy is essential for maintaining Cellular Homeostasis by removing damaged organelles and misfolded proteins. Its dysregulation is linked to neurodegenerative disease, cancer and aging, in each of which autophagic flux is inadequate or aberrant.",
+      "zh-TW": "Macroautophagy 藉由清除受損胞器與錯誤摺疊蛋白質，對維持 Cellular Homeostasis 至關重要。其失調與神經退化性疾病、癌症與老化相關，這些疾病中自噬通量皆不足或異常。"
+    },
+    "confidence": 0.9,
+    "source_document": "Macroautophagy.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "d779d5182d65",
+    "subject": "MiT Family Translocation RCC",
+    "predicate": "is_driven_by",
+    "object": "TFEB",
+    "context": {
+      "en-US": "MiT family translocation renal cell carcinoma is a kidney cancer subtype defined by chromosomal translocations fusing TFE3 or TFEB to partner genes, causing constitutive nuclear localization of these MiTF/TFE factors. TFEB overexpression is the driver in t(6;11) disease, where MALAT1 is the fusion partner.",
+      "zh-TW": "MiT 家族轉位腎細胞癌是一種腎癌亞型，由將 TFE3 或 TFEB 與夥伴基因融合的染色體轉位所定義，造成這些 MiTF/TFE 因子的組成性核內定位。在 t(6;11) 型中 TFEB 過度表現為驅動力，其融合夥伴為 MALAT1。"
+    },
+    "confidence": 0.9,
+    "source_document": "MiT Family Translocation RCC.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "6730e53bcf4d",
+    "subject": "MiT-TFE family",
+    "predicate": "includes",
+    "object": "TFEB",
+    "context": {
+      "en-US": "The microphthalmia (MiT/TFE) family of basic helix-loop-helix leucine zipper transcription factors comprises TFEB, TFE3, MITF and TFEC. These factors regulate autophagy and lysosomal genes by binding CLEAR elements, and their translocation or nuclear trapping activates the autophagic-lysosomal transcriptional program.",
+      "zh-TW": "微眼畸形（MiT/TFE）家族的基本螺旋環螺旋－白胺酸拉鍊轉錄因子包含 TFEB、TFE3、MITF 與 TFEC。這些因子藉由結合 CLEAR elements 來調控自噬與溶酶體基因，其轉位或核內滯留可活化自噬－溶酶體轉錄程序。"
+    },
+    "confidence": 0.95,
+    "source_document": "MiT-TFE family.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "c1d14fcf7602",
+    "subject": "MiT-TFE family",
+    "predicate": "binds",
+    "object": "CLEAR Element",
+    "context": {
+      "en-US": "MiT/TFE family members (TFEB, TFE3, MITF, TFEC) regulate autophagy and lysosomal genes by binding CLEAR elements, the short DNA motifs in target promoters that recruit these bHLH-LZ transcription factors to drive lysosomal biogenesis and autophagy transcription.",
+      "zh-TW": "MiT/TFE 家族成員（TFEB、TFE3、MITF、TFEC）藉由結合 CLEAR elements 來調控自噬與溶酶體基因；CLEAR elements 是目標啟動子中的短 DNA 序列，可招募這些 bHLH-LZ 轉錄因子以驅動溶酶體生成與自噬轉錄。"
+    },
+    "confidence": 0.9,
+    "source_document": "MiT-TFE family.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "7f3e51b80232",
+    "subject": "Microautophagy",
+    "predicate": "is_a_type_of",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Microautophagy is a type of Autophagy in which cytoplasmic components are directly engulfed by the lysosomal or vacuolar membrane via membrane invagination, without autophagosome formation. Unlike Macroautophagy it is generally considered nonselective, though selective forms exist, and it maintains organelle size and membrane homeostasis.",
+      "zh-TW": "Microautophagy 是 Autophagy 的一種類型，細胞質成分透過膜內陷直接被溶酶體或液泡膜吞入，不經由 autophagosome 形成。與 Macroautophagy 不同，它一般被視為非選擇性（但也有選擇性形式），並參與維持胞器大小與膜恆定。"
+    },
+    "confidence": 0.95,
+    "source_document": "Microautophagy.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "d61f73c20750",
+    "subject": "Microautophagy",
+    "predicate": "differs_from",
+    "object": "Macroautophagy",
+    "context": {
+      "en-US": "Microautophagy differs from Macroautophagy in that cargo is engulfed directly by the lysosomal/vacuolar membrane and no autophagosome is formed, whereas Macroautophagy routes cargo through double-membrane autophagosomes before lysosomal fusion. Both are among the three canonical types of autophagy alongside Chaperone-Mediated Autophagy.",
+      "zh-TW": "Microautophagy 與 Macroautophagy 的差別在於：前者由溶酶體／液泡膜直接吞入貨物而不形成 autophagosome，後者則先讓貨物經由雙層膜的 autophagosome 再與溶酶體融合。兩者皆與 Chaperone-Mediated Autophagy 並列為自噬的三種類型。"
+    },
+    "confidence": 0.9,
+    "source_document": "Microautophagy.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "774e78c2e6de",
+    "subject": "Mucopolysaccharidosis-IIIA",
+    "predicate": "is_caused_by",
+    "object": "Lysosome",
+    "context": {
+      "en-US": "Mucopolysaccharidosis-IIIA (Sanfilippo syndrome type A) is caused by deficiency of the lysosomal enzyme sulfamidase (SGSH), required for heparan sulfate degradation. Heparan sulfate accumulation in lysosomes triggers secondary storage of GM2 gangliosides, cholesterol and autophagic substrates, and Autophagic Flux is impaired, contributing to severe neurodegeneration.",
+      "zh-TW": "Mucopolysaccharidosis-IIIA（Sanfilippo 症候群 A 型）由溶酶體酵素硫酸化酶（SGSH）缺乏所致，該酵素為肝素硫酸分解所必需。肝素硫酸在溶酶體內累積會引發 GM2 神經節苷脂、膽固醇與自噬受質的次級儲積，並使 Autophagic Flux 受損，加劇嚴重的神經退化。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mucopolysaccharidosis-IIIA.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "5e7819c0edf5",
+    "subject": "Mucopolysaccharidosis-IIIA",
+    "predicate": "is_a_type_of",
+    "object": "Lysosomal Storage Disorders",
+    "context": {
+      "en-US": "Mucopolysaccharidosis-IIIA (Sanfilippo syndrome A) is a lysosomal storage disease characterized by accumulation of heparan sulfate; onset is at 2-6 years with developmental delay, behavioral problems, coarse facies, hepatosplenomegaly and progressive dementia, and no approved CNS-penetrant therapy exists.",
+      "zh-TW": "Mucopolysaccharidosis-IIIA（Sanfilippo 症候群 A 型）是以肝素硫酸累積為特徵的溶酶體儲積症；通常於 2–6 歲發病，表現為發育遲緩、行為問題、粗糙面容、肝脾腫大與進行性失智，目前尚無核准的中樞神經穿透性療法。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mucopolysaccharidosis-IIIA.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "90f81436050e",
+    "subject": "Multiple Sulfatase Deficiency",
+    "predicate": "is_a_type_of",
+    "object": "Lysosomal Storage Disorders",
+    "context": {
+      "en-US": "Multiple sulfatase deficiency (MSD) is a rare lysosomal storage disease caused by mutations in SUMF1, which encodes the formylglycine-generating enzyme that activates all sulfatases, producing a combined deficiency of all 17 known human sulfatases. Arylsulfatase deficiency gives features resembling metachromatic leukodystrophy, while sulfamidase deficiency gives MPS-like features.",
+      "zh-TW": "Multiple sulfatase deficiency（MSD）是由 SUMF1 突變造成的罕見溶酶體儲積症，SUMF1 編碼啟動所有硫酸化酶的 formylglycine 生成酶（FGE），其突變導致全部 17 種已知人類硫酸化酶合併缺乏。芳香基硫酸化酶缺乏產生類似 metachromatic leukodystrophy 的特徵，硫酸化酶缺乏則產生 MPS 樣特徵。"
+    },
+    "confidence": 0.9,
+    "source_document": "Multiple Sulfatase Deficiency.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "1fcb9b38ab8c",
+    "subject": "TFEB",
+    "predicate": "is_a_therapeutic_target_in",
+    "object": "Multiple Sulfatase Deficiency",
+    "context": {
+      "en-US": "TFEB activation has been proposed as a strategy for multiple sulfatase deficiency because it augments lysosomal exocytosis and clearance, reducing storage burden; TFEB overexpression stimulates lysosomal exocytosis and cellular clearance in MSD cell models, while enzyme replacement and gene therapy remain preclinical.",
+      "zh-TW": "TFEB 活化被提出作為 multiple sulfatase deficiency 的治療策略，因其能增強溶酶體胞吐與清除、降低儲積負擔；在 MSD 細胞模型中，TFEB 過度表現可促進溶酶體胞吐與細胞清除，而酵素替代療法與基因治療仍處於前臨床階段。"
+    },
+    "confidence": 0.85,
+    "source_document": "Multiple Sulfatase Deficiency.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "e540c7ac0791",
+    "subject": "NHR-49",
+    "predicate": "is_orthologous_to",
+    "object": "PPARα",
+    "context": {
+      "en-US": "NHR-49 (nuclear hormone receptor 49) is the C. elegans ortholog of mammalian PPARα and a key transcriptional regulator of fat metabolism. It regulates genes for fatty acid beta-oxidation, transport and desaturation, and is critical for metabolic adaptation to starvation and for lifespan extension downstream of LIPL-4.",
+      "zh-TW": "NHR-49（核受體 49）是哺乳類 PPARα 在 C. elegans 中的同源物，也是脂肪代謝的關鍵轉錄調控因子。它調控脂肪酸 β-氧化、運輸與去飽和相關基因，且對禁食的代謝適應以及 LIPL-4 下游的壽命延展至關重要。"
+    },
+    "confidence": 0.9,
+    "source_document": "NHR-49.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "16e2f1429438",
+    "subject": "NHR-49",
+    "predicate": "regulates",
+    "object": "Lipophagy",
+    "context": {
+      "en-US": "NHR-49 regulates Lipophagy, beta-oxidation and lifespan extension downstream of LIPL-4 in C. elegans. The transcriptional regulation of lysosomal lipolysis mediated by MXL-3 and HLH-30, by contrast, has been reported to function independently of NHR-49.",
+      "zh-TW": "在 C. elegans 中，NHR-49 調控 LIPL-4 下游的 Lipophagy、β-氧化與壽命延展。相對地，由 MXL-3 與 HLH-30 介導的溶酶體脂解轉錄調控則被報導可獨立於 NHR-49 運作。"
+    },
+    "confidence": 0.85,
+    "source_document": "NHR-49.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "0dfb9a883289",
+    "subject": "NHR-49",
+    "predicate": "is_required_for",
+    "object": "Starvation",
+    "context": {
+      "en-US": "NHR-49 is critical for the metabolic adaptation of C. elegans to starvation, driving the transcriptional program for fatty acid oxidation that supplies energy when nutrient intake ceases.",
+      "zh-TW": "NHR-49 對 C. elegans 對 Starvation 的代謝適應至關重要，它驅動脂肪酸氧化的轉錄程序，在營養攝取停止時供應能量。"
+    },
+    "confidence": 0.85,
+    "source_document": "NHR-49.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "ecf04a417515",
+    "subject": "Neuronal Ceroid Lipofuscinosis",
+    "predicate": "is_caused_by",
+    "object": "Lysosome",
+    "context": {
+      "en-US": "Neuronal ceroid lipofuscinosis (Batten disease) is a group of inherited neurodegenerative disorders caused by mutations in at least 13 genes, most encoding lysosomal enzymes or transmembrane proteins involved in lysosomal function. Defective lysosomal degradation leads to accumulation of autofluorescent ceroid and lipofuscin composed of subunit c of mitochondrial ATP synthase and saposins.",
+      "zh-TW": "Neuronal ceroid lipofuscinosis（Batten 病）是一群遺傳性神經退化疾病，由至少 13 個基因突變引起，多數編碼溶酶體酵素或參與溶酶體功能的跨膜蛋白。溶酶體降解缺陷導致由粒線體 ATP 合成酶 c 次單元與 saposin 構成的自發光 ceroid 與 lipofuscin 累積。"
+    },
+    "confidence": 0.9,
+    "source_document": "Neuronal Ceroid Lipofuscinosis.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "08d3290a7780",
+    "subject": "TFEB",
+    "predicate": "is_a_therapeutic_target_in",
+    "object": "Neuronal Ceroid Lipofuscinosis",
+    "context": {
+      "en-US": "TFEB activation has emerged as a potential therapeutic strategy for neuronal ceroid lipofuscinosis, since TFEB overexpression enhances lysosomal exocytosis and reduces stored material in NCL models. No curative treatment exists; enzyme replacement therapy (Brineura for CLN2), gene therapy and small-molecule chaperones are under clinical investigation.",
+      "zh-TW": "TFEB 活化已成為 neuronal ceroid lipofuscinosis 的潛在治療策略，因為 TFEB 過度表現可在 NCL 模型中增強溶酶體胞吐並減少儲存物質。目前仍無根治性療法；酵素替代療法（CLN2 使用 Brineura）、基因療法與小分子伴護分子仍在臨床研究中。"
+    },
+    "confidence": 0.85,
+    "source_document": "Neuronal Ceroid Lipofuscinosis.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "3e3b2d462791",
+    "subject": "Nuclear Export",
+    "predicate": "suppresses",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Nuclear export of TFEB suppresses Autophagy: nutrient-rich conditions activate mTORC1 at the lysosome and ERK2, which phosphorylate TFEB at S142 (priming S138), creating a nuclear export signal that recruits CRM1 and traps TFEB in 14-3-3-bound cytosolic complexes. Under starvation, mTORC1 inhibition dephosphorylates TFEB, allowing nuclear accumulation and activation of CLEAR-network genes.",
+      "zh-TW": "TFEB 的核輸出會抑制 Autophagy：營養充足時，溶酶體上的 mTORC1 與 ERK2 被活化，磷酸化 TFEB 的 S142（並使 S138 先行磷酸化），產生可招募 CRM1 的核輸出訊號，將 TFEB 困在與 14-3-3 結合的細胞質複合體中。禁食時 mTORC1 抑制使 TFEB 去磷酸化，因而在核內累積並活化 CLEAR network 基因。"
+    },
+    "confidence": 0.9,
+    "source_document": "Nuclear Export.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "3ab75ee0d463",
+    "subject": "mTORC1",
+    "predicate": "phosphorylates",
+    "object": "TFEB",
+    "context": {
+      "en-US": "Nutrient abundance activates mTORC1 at the lysosome, and mTORC1 together with ERK2 phosphorylates TFEB at S142 (and primes S138), which licenses CRM1-dependent export of TFEB. This phosphorylation-dependent nuclear export is a key control layer atop the mTORC1/TFEB axis gating autophagic transcription.",
+      "zh-TW": "營養充足會活化溶酶體上的 mTORC1，mTORC1 與 ERK2 共同磷酸化 TFEB 的 S142（並使 S138 先行磷酸化），使 TFEB 可被 CRM1 依賴性輸出。這種磷酸化依賴的核輸出是 mTORC1/TFEB 軸之上調控自噬轉錄的關鍵層。"
+    },
+    "confidence": 0.9,
+    "source_document": "Nuclear Export.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "9a324a031f56",
+    "subject": "PARsylation",
+    "predicate": "regulates",
+    "object": "TFEB",
+    "context": {
+      "en-US": "PARsylation (poly-ADP-ribosylation) is a reversible post-translational modification in which poly(ADP-ribose) chains are added to target proteins by PARP family enzymes (TNKS1, PARP1, PARP2) using NAD+ as substrate. It regulates TFEB nuclear localization via Tankyrases and also acts on ULK1 and mTORC1 components to control Autophagy; PARP inhibitors such as Olaparib induce autophagy in cancer cells.",
+      "zh-TW": "PARsylation（poly-ADP-ribosylation）是一種可逆的轉譯後修飾，由 PARP 家族酵素（TNKS1、PARP1、PARP2）以 NAD+ 為受體將 poly(ADP-ribose) 鏈加到目標蛋白上。它透過 Tankyrases 調控 TFEB 的核內定位，也作用於 ULK1 與 mTORC1 組件以控制 Autophagy；PARP 抑制劑如 Olaparib 可在癌細胞中誘發自噬。"
+    },
+    "confidence": 0.9,
+    "source_document": "PARsylation.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "31bf2fa86be9",
+    "subject": "PEX3",
+    "predicate": "recruits",
+    "object": "PEX19",
+    "context": {
+      "en-US": "PEX3 is a peroxisomal membrane protein that recruits the chaperone PEX19 for peroxisome biogenesis and also functions in Pexophagy recognition. Mutations in PEX3 disrupt membrane integrity and severely impair peroxisome biogenesis, causing neurological problems and developmental delay as seen in Zellweger syndrome variants and Riordan syndrome.",
+      "zh-TW": "PEX3 是過氧化體膜蛋白，會招募伴護蛋白 PEX19 以進行過氧化體生成，並參與 Pexophagy 的辨識。PEX3 突變會破壞膜完整性並嚴重損害過氧化體生成，造成神經問題與發育遲緩，如 Zellweger syndrome 變異與 Riordan 症候群。"
+    },
+    "confidence": 0.9,
+    "source_document": "PEX3.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "4220f3767984",
+    "subject": "PEX3",
+    "predicate": "is_a_component_of",
+    "object": "Peroxisome Biogenesis Network",
+    "context": {
+      "en-US": "PEX3 encodes a peroxisomal membrane protein required for correct folding and transport of many other peroxins into the peroxisome membrane, acting as an essential building block of the Peroxisome Biogenesis Network. Loss of function leaves misfolded proteins that accumulate and disrupt membrane integrity.",
+      "zh-TW": "PEX3 編碼過氧化體膜蛋白，負責許多其他 peroxin 正確摺疊並運送至過氧化體膜，是 Peroxisome Biogenesis Network 的必要組成。功能喪失會留下累積的錯誤摺疊蛋白，破壞膜完整性。"
+    },
+    "confidence": 0.9,
+    "source_document": "PEX3.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "1669a3ea85ae",
+    "subject": "PEX3",
+    "predicate": "is_involved_in",
+    "object": "Pexophagy",
+    "context": {
+      "en-US": "Beyond peroxisome assembly, PEX3 functions in Pexophagy recognition, helping the autophagic machinery identify peroxisomal material for selective degradation. Its role thus links peroxisome quality control to the autophagic pathway.",
+      "zh-TW": "除了過氧化體的組裝之外，PEX3 還參與 Pexophagy 的辨識，協助自噬機器辨識過氧化體物質以進行選擇性降解。它的作用因此將過氧化體的品質管制與自噬路徑連結起來。"
+    },
+    "confidence": 0.8,
+    "source_document": "PEX3.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "93c13f7fcc4f",
+    "subject": "PGP-2",
+    "predicate": "is_required_for",
+    "object": "LRO",
+    "context": {
+      "en-US": "PGP-2 is a C. elegans ABC (ATP-binding cassette) transporter localized to lysosome-related organelle (LRO) membranes that is essential for their biogenesis; these LROs — the gut granules — serve as fat storage sites. Its absence results in loss of gut granules and altered lipid storage, and it co-localizes with the lysosomal lipases LIPL-1 and LIPL-3.",
+      "zh-TW": "PGP-2 是 C. elegans 的 ABC（ATP 結合盒）轉運蛋白，定位於溶酶體相關胞器（LRO）膜上，對其生成不可或缺；這些 LRO（即腸顆粒）是脂肪儲存場所。PGP-2 缺失會造成腸顆粒消失與脂質儲存改變，且它與溶酶體脂肪酶 LIPL-1 與 LIPL-3 共定位。"
+    },
+    "confidence": 0.9,
+    "source_document": "PGP-2.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "f501d91b7e4c",
+    "subject": "PGP-2",
+    "predicate": "is_a_marker_of",
+    "object": "Lysosome",
+    "context": {
+      "en-US": "PGP-2 is widely used in C. elegans as a lysosomal marker: its membrane localization to lysosome-related organelles lets researchers quantify lysosomal content and size. Its expression is regulated by the HLH-30/TFEB MiT/TFE axis.",
+      "zh-TW": "PGP-2 在 C. elegans 中被廣泛用作溶酶體標記：其在溶酶體相關胞器膜上的定位讓研究者能定量溶酶體內容物與大小。其表達受 HLH-30/TFEB 的 MiT/TFE 軸調控。"
+    },
+    "confidence": 0.9,
+    "source_document": "PGP-2.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "72e82c26d775",
+    "subject": "Polyamine",
+    "predicate": "induces",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Polyamines such as spermidine are autophagy inducers. Polyamine-rich foods boost longevity in various model organisms, polyamine levels fall in aged somatic and immune cells, and restoring polyamines protects against age-induced memory impairment and rejuvenates B cell responses in an Autophagy-dependent manner.",
+      "zh-TW": "像 spermidine 這樣的多胺是自噬誘導物。富含多胺的食物在多種模式生物中提升壽命，多胺濃度在老化的體細胞與免疫細胞中下降，而補充多胺可保護免受年齡相關的記憶損傷，並以 Autophagy 依賴的方式恢復 B 細胞反應。"
+    },
+    "confidence": 0.85,
+    "source_document": "Polyamine.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "fbfe7ef374ff",
+    "subject": "Spermidine",
+    "predicate": "extends",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Spermidine, the natural polyamine metabolic product of arginine metabolism, extends lifespan via Autophagy and via Hypusination of eIF5A. Polyamine levels decline in aged somatic and immune cells, and polyamine supplementation reverses arterial aging and age-related decline.",
+      "zh-TW": "Spermidine 是精胺酸代謝產生的天然多胺，可經由 Autophagy 以及 eIF5A 的 Hypusination 延長壽命。多胺濃度在老化的體細胞與免疫細胞中下降，補充多胺可逆轉動脈老化與年齡相關的衰退。"
+    },
+    "confidence": 0.85,
+    "source_document": "Polyamine.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "2e3f80e09754",
+    "subject": "Protor-1",
+    "predicate": "is_a_component_of",
+    "object": "mTORC2",
+    "context": {
+      "en-US": "Protor-1 (PRR5) is a component of mTORC2 that binds mSIN1 and stabilizes the complex, and it interacts with Rictor. Within mTORC2, Protor-1 regulates substrate specificity toward SGK1 and PKC, though its precise physiological function remains to be fully elucidated.",
+      "zh-TW": "Protor-1（PRR5）是 mTORC2 的組成成分，會結合 mSIN1 並穩定該複合體，且與 Rictor 互作。在 mTORC2 中，Protor-1 調控其對 SGK1 與 PKC 的受質專一性，但其確切生理功能尚未完全釐清。"
+    },
+    "confidence": 0.9,
+    "source_document": "Protor-1.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "778da06348ee",
+    "subject": "PtdIns(4,5)P2",
+    "predicate": "enables",
+    "object": "Autophagic Lysosome Reformation",
+    "context": {
+      "en-US": "During Autophagic Lysosome Reformation, PtdIns(4,5)P2 is locally synthesized on the autolysosomal surface and recruits clathrin and AP2, which drive membrane invagination and scission of proto-lysosomal tubules that regenerate a functional lysosomal pool. Loss of PIP5KI activity or PtdIns(4,5)P2 depletion impairs ALR, causing lysosomal depletion and autophagic stress.",
+      "zh-TW": "在 Autophagic Lysosome Reformation 過程中，PtdIns(4,5)P2 於自噬溶酶體表面局部合成，並招募 clathrin 與 AP2，藉由驅動原溶酶體小管的膜內陷與剪切來再生可運作的溶酶體池。PIP5KI 活性喪失或 PtdIns(4,5)P2 耗竭會損害 ALR，造成溶酶體耗竭與自噬壓力。"
+    },
+    "confidence": 0.9,
+    "source_document": "PtdIns(4,5)P2.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "4f0eaa8d68a6",
+    "subject": "PtdIns(4,5)P2",
+    "predicate": "regulates",
+    "object": "Autophagosome",
+    "context": {
+      "en-US": "PtdIns(4,5)P2 is a plasma-membrane-enriched phosphoinositide that also acts as a direct regulator of Autophagy: at the initiation stage its enrichment at forming phagophores supports vesicle curvature and recruits actin regulators that facilitate autophagosome closure, in addition to its role in autophagic lysosome reformation.",
+      "zh-TW": "PtdIns(4,5)P2 是富含於質膜的磷脂訊號分子，也直接調控 Autophagy：在起始階段，它在形成的 phagophore 上富集以支持囊泡曲率，並招募促進 autophagosome 閉合的肌動蛋白調控因子；此外它還參與 autophagic lysosome reformation。"
+    },
+    "confidence": 0.85,
+    "source_document": "PtdIns(4,5)P2.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "bc327fcccabe",
+    "subject": "PtdIns3P",
+    "predicate": "is_synthesized_by",
+    "object": "Vps34",
+    "context": {
+      "en-US": "PtdIns3P is generated by Vps34, the sole class III phosphatidylinositol 3-kinase, in two distinct complexes: complex I with Atg14L at the phagophore and complex II with UVRAG at endosomes. Its spatial confinement is enforced by myotubularin phosphatases and by PIKfyve, which converts it to PtdIns(3,5)P2 on endolysosomal membranes.",
+      "zh-TW": "PtdIns3P 由 Vps34（唯一的第三類磷脂肌醇 3-激酶）合成，存在於兩種不同複合體中：含 Atg14L 的 complex I 位於 phagophore，含 UUVRAG 的 complex II 位於內體。其空間分布由 myotubularin 磷酸酶以及將其轉為內溶體膜上 PtdIns(3,5)P2 的 PIKfyve 加以限制。"
+    },
+    "confidence": 0.9,
+    "source_document": "PtdIns3P.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "1e67f0ce0a23",
+    "subject": "PtdIns3P",
+    "predicate": "recruits",
+    "object": "Atg18",
+    "context": {
+      "en-US": "PtdIns3P is the defining lipid landmark of the autophagy initiation machinery: on the phagophore it serves as a docking platform for PX/FYVE-domain effectors, most notably the WIPI family and Atg18, which recruit downstream ATG proteins required for phagophore expansion and autophagosome growth.",
+      "zh-TW": "PtdIns3P 是自噬起始機器的定義性脂質標記：在 phagophore 上，它作為 PX/FYVE 結構域效應蛋白的停靠平台，尤其是 WIPI 家族與 Atg18，它們會招募 phagophore 擴張與 autophagosome 生長所需的下游 ATG 蛋白。"
+    },
+    "confidence": 0.9,
+    "source_document": "PtdIns3P.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "9ea5910d956e",
+    "subject": "PtdIns3P",
+    "predicate": "is_converted_to",
+    "object": "PtdIns(3,5)P2",
+    "context": {
+      "en-US": "PIKfyve phosphorylates PtdIns3P at the 5-position to produce PtdIns(3,5)P2 on endolysosomal membranes. This conversion is essential for endosomal maturation and for resolving autophagic cargo into the lysosome, and the early-endosome switch from Rab5/PtdIns3P to Rab7/PtdIns(3,5)P2 defines the early-to-late endosome transition.",
+      "zh-TW": "PIKfyve 將 PtdIns3P 在 5 位磷酸化，生成內溶體膜上的 PtdIns(3,5)P2。此轉換對內體成熟與將自噬貨物送往溶酶體至關重要，而早期內體由 Rab5/PtdIns3P 轉換為 Rab7/PtdIns(3,5)P2，正定義了早到晚期內體的轉變。"
+    },
+    "confidence": 0.9,
+    "source_document": "PtdIns3P.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "ae6891a4a045",
+    "subject": "Rab5",
+    "predicate": "recruits",
+    "object": "Vps34",
+    "context": {
+      "en-US": "Rab5 promotes homotypic early endosome fusion and recruits the class III PI3K Vps34 to generate PtdIns3P on endosomal membranes, a lipid also essential for phagophore formation. In its GTP-bound state Rab5 engages EEA1, the HOPS tethering complex and motor adaptors; Rabex-5 activates it while RabGAPs such as TBC1D2 inactivate it.",
+      "zh-TW": "Rab5 促進早期內體的同型融合，並招募第三類 PI3K Vps34 在內體膜上產生 PtdIns3P，而此脂質對 phagophore 形成同樣必需。在 GTP 結合狀態下，Rab5 與 EEA1、HOPS 拴繫複合體及馬達銜接蛋白作用；Rabex-5 活化它，而如 TBC1D2 的 RabGAP 使其失活。"
+    },
+    "confidence": 0.9,
+    "source_document": "Rab5.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "ce0da45cd87d",
+    "subject": "Rab5",
+    "predicate": "is_converted_to",
+    "object": "Rab7",
+    "context": {
+      "en-US": "During endosome maturation Rab5 is replaced by Rab7: Rab5 actively recruits Rab7 through the Mon1-Ccz1 Rab7 GEF and SAND1/MON1, driving the Rab5-to-Rab7 conversion that defines the early-to-late endosome transition. This handoff is critical for proper autophagosome-lysosome fusion and delivery of autophagic cargo to degradative compartments.",
+      "zh-TW": "在內體成熟過程中 Rab5 被 Rab7 取代：Rab5 透過 Rab7 GEF Mon1-Ccz1 與 SAND1/MON1 主動招募 Rab7，驅動定義早到晚期內體轉變的 Rab5-to-Rab7 轉換。此交接對正常的 autophagosome–溶酶體融合與將自噬貨物送至降解區室至關重要。"
+    },
+    "confidence": 0.9,
+    "source_document": "Rab5.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "b93d5037c5bb",
+    "subject": "Rab5",
+    "predicate": "is_glycosylated_by",
+    "object": "SetA",
+    "context": {
+      "en-US": "SetA, a Legionella effector, glucosylates and inactivates Rab5 (and Rab22), immobilizing endosomes and blocking autophagosome-lysosome fusion to create a replication-permissive vacuole. Similar strategies are used by other vacuolar pathogens to evade xenophagy, and overactive Rab5 signaling is implicated in oncogenic growth.",
+      "zh-TW": "SetA 是 Legionella 的效應蛋白，會對 Rab5（及 Rab22）進行葡萄糖基化使其失活，固定內體並阻斷 autophagosome–溶酶體融合，以形成利於複製的液泡。其他液泡型病原體也採取類似策略以逃避 xenophagy，而 Rab5 訊號過度活化則與致癌生長有關。"
+    },
+    "confidence": 0.85,
+    "source_document": "Rab5.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "1e96b1b03cd9",
+    "subject": "RHEB-1",
+    "predicate": "activates",
+    "object": "mTOR",
+    "context": {
+      "en-US": "RHEB-1 is the C. elegans orthologue of the small GTPase Rheb and a key activator of mTOR (CeTOR) in response to nutrient signals. RHEB-1 activates Autophagy under dietary restriction and regulates dauer formation, and is required for the lifespan extension seen in certain intermittent fasting models.",
+      "zh-TW": "RHEB-1 是小 GTP 酶 Rheb 在 C. elegans 中的同源物，也是營養訊號下 mTOR（CeTOR）的關鍵活化因子。RHEB-1 在飲食限制下活化 Autophagy 並調控 dauer 形成，且為某些間歇性禁食模型中壽命延展所必需。"
+    },
+    "confidence": 0.9,
+    "source_document": "RHEB-1.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
+  },
+  {
+    "id": "e081031e5fa3",
+    "subject": "RHEB-1",
+    "predicate": "is_independent_of",
+    "object": "MXL-3",
+    "context": {
+      "en-US": "The longevity phenotype of MXL-3 mutants is not suppressed by inactivation of rheb-1, indicating that the MXL-3 and Rheb/mTOR routes to longevity in C. elegans act through different pathways rather than a single linear axis.",
+      "zh-TW": "MXL-3 突變體的長壽表型不會因 rheb-1 失活而被抑制，表示 C. elegans 中 MXL-3 與 Rheb/mTOR 兩條長壽路徑是透過不同機制作用，而非同一條線性軸。"
+    },
+    "confidence": 0.85,
+    "source_document": "RHEB-1.md",
+    "created": "2026-09-29T14:41:25Z",
+    "updated": "2026-09-29T14:41:25Z"
   }
 ]
