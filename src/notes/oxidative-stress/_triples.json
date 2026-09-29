@@ -11,7 +11,7 @@
     "confidence": 0.95,
     "source_document": "3-Nitrotyrosine.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2678d110b084",
@@ -25,7 +25,7 @@
     "confidence": 0.95,
     "source_document": "3-Nitrotyrosine.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3c6025df027b",
@@ -39,7 +39,7 @@
     "confidence": 0.95,
     "source_document": "4-Hydroxynonenal.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "53313d4075cc",
@@ -53,7 +53,7 @@
     "confidence": 0.95,
     "source_document": "7-Ketocholesterol.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "560cefcd4e0d",
@@ -67,7 +67,7 @@
     "confidence": 0.95,
     "source_document": "8-oxo-2'-deoxyguanosine.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f5ab00f6f5f4",
@@ -81,7 +81,7 @@
     "confidence": 0.95,
     "source_document": "8-oxo-2'-deoxyguanosine.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d974fae6206a",
@@ -95,7 +95,7 @@
     "confidence": 0.95,
     "source_document": "8-oxo-2'-deoxyguanosine.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "bf521b62f6b6",
@@ -109,10 +109,10 @@
     "confidence": 0.95,
     "source_document": "8-oxo-2'-deoxyguanosine.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "b6c4b6814a53",
+    "id": "5a6bbe95e8d7",
     "subject": "A20",
     "predicate": "terminates",
     "object": "NF-κB",
@@ -123,7 +123,7 @@
     "confidence": 0.95,
     "source_document": "A20.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a030a91518f6",
@@ -151,10 +151,10 @@
     "confidence": 0.95,
     "source_document": "ABCA1.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "040441b8a273",
+    "id": "432671bd2b30",
     "subject": "ABCA1",
     "predicate": "is_regulated_by",
     "object": "LXRα",
@@ -165,7 +165,7 @@
     "confidence": 0.95,
     "source_document": "ABCA1.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e90e5d27e0bb",
@@ -179,7 +179,7 @@
     "confidence": 0.95,
     "source_document": "ABCA1.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "82d1ea40b7b8",
@@ -207,7 +207,7 @@
     "confidence": 0.95,
     "source_document": "Allopurinol.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e71c92285db7",
@@ -221,7 +221,7 @@
     "confidence": 0.95,
     "source_document": "Alpha-Lipoic Acid.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9f19490aef4a",
@@ -235,7 +235,7 @@
     "confidence": 0.95,
     "source_document": "Alpha-Lipoic Acid.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "32969cc3229b",
@@ -249,10 +249,10 @@
     "confidence": 0.95,
     "source_document": "Alpha-Lipoic Acid.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "18d5a87cef3e",
+    "id": "8c358ddf916a",
     "subject": "Alpha-Lipoic Acid",
     "predicate": "inhibits",
     "object": "NF-κB",
@@ -263,7 +263,7 @@
     "confidence": 0.95,
     "source_document": "Alpha-Lipoic Acid.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d6c88bd699fa",
@@ -277,7 +277,7 @@
     "confidence": 0.95,
     "source_document": "Alpha-Lipoic Acid.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "99753aa05605",
@@ -291,7 +291,7 @@
     "confidence": 0.95,
     "source_document": "Hydroxyl Radicals.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2dbb721e54a7",
@@ -305,7 +305,7 @@
     "confidence": 0.95,
     "source_document": "CD36 Receptor.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4a21ea4e957d",
@@ -319,7 +319,7 @@
     "confidence": 0.95,
     "source_document": "Lipid Peroxidation.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4e02f97403db",
@@ -333,7 +333,7 @@
     "confidence": 0.95,
     "source_document": "CD36 Receptor.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5a32f104784d",
@@ -347,10 +347,10 @@
     "confidence": 0.95,
     "source_document": "CD36 Receptor.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "e7f5121e9444",
+    "id": "de6e56d0d34b",
     "subject": "Anti-TNF Therapy",
     "predicate": "reduces",
     "object": "Oxidative Stress Markers",
@@ -361,7 +361,7 @@
     "confidence": 0.95,
     "source_document": "Anti-TNF Therapy.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "585dc905b181",
@@ -375,7 +375,7 @@
     "confidence": 0.95,
     "source_document": "Arginase.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5aea5b62bf6e",
@@ -389,7 +389,7 @@
     "confidence": 0.95,
     "source_document": "Asthma.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "cbe33d45a651",
@@ -403,10 +403,10 @@
     "confidence": 0.95,
     "source_document": "OGG1.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "5d00b3ddb1a5",
+    "id": "006574f360a3",
     "subject": "Bortezomib",
     "predicate": "blocks",
     "object": "NF-κB",
@@ -417,7 +417,7 @@
     "confidence": 0.95,
     "source_document": "VCAM-1.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "bf4d29b582fb",
@@ -431,7 +431,7 @@
     "confidence": 0.95,
     "source_document": "Proteins.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c3973d7d0a21",
@@ -445,7 +445,7 @@
     "confidence": 0.95,
     "source_document": "Oxidative Stress.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "472acfda5d33",
@@ -459,7 +459,7 @@
     "confidence": 0.95,
     "source_document": "Oxidative Stress.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8fb46fd9006b",
@@ -476,8 +476,8 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "96754e558531",
-    "subject": "Catalase deficiency",
+    "id": "3eb1a4d7a580",
+    "subject": "Catalase",
     "predicate": "causes",
     "object": "Acatalasemia",
     "context": {
@@ -487,11 +487,11 @@
     "confidence": 0.95,
     "source_document": "_document_ - Oxidative Stress Harms and Benefits for Human Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:13Z"
   },
   {
-    "id": "9f86db2d3590",
-    "subject": "Catalase downregulation",
+    "id": "454912880543",
+    "subject": "Catalase",
     "predicate": "contributes_to",
     "object": "Cancer",
     "context": {
@@ -501,11 +501,11 @@
     "confidence": 0.95,
     "source_document": "_document_ - Oxidative Stress Harms and Benefits for Human Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:13Z"
   },
   {
-    "id": "f037f4b73987",
-    "subject": "CD36 expression",
+    "id": "4d28f6687e64",
+    "subject": "CD36",
     "predicate": "is_induced_by",
     "object": "PPARγ",
     "context": {
@@ -515,7 +515,7 @@
     "confidence": 0.95,
     "source_document": "CD36 Receptor.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "18439bddd148",
@@ -529,7 +529,7 @@
     "confidence": 0.95,
     "source_document": "CD36 Receptor.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "61a58fa8696d",
@@ -543,7 +543,7 @@
     "confidence": 0.95,
     "source_document": "CD36 Receptor.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "abbade163d35",
@@ -557,7 +557,7 @@
     "confidence": 0.95,
     "source_document": "CD36 Receptor.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "837d098bc866",
@@ -571,7 +571,7 @@
     "confidence": 0.95,
     "source_document": "Cholesterol.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c1d5e61e220a",
@@ -585,10 +585,10 @@
     "confidence": 0.95,
     "source_document": "Chronic Obstructive Pulmonary Disease.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "ba16ec8fa097",
+    "id": "0b68d9b3a915",
     "subject": "Cigarette Smoke",
     "predicate": "contains",
     "object": "Free Radicals",
@@ -599,7 +599,7 @@
     "confidence": 0.95,
     "source_document": "Free Radicals.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1d712ab8d43c",
@@ -613,7 +613,7 @@
     "confidence": 0.85,
     "source_document": "Coenzyme Q10.md",
     "created": "2026-09-02T06:35:13Z",
-    "updated": "2026-09-02T06:35:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "59dd640fe840",
@@ -627,7 +627,7 @@
     "confidence": 0.8,
     "source_document": "Coenzyme Q10.md",
     "created": "2026-09-02T06:35:13Z",
-    "updated": "2026-09-02T06:35:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9a1a7fd071f7",
@@ -641,7 +641,7 @@
     "confidence": 0.85,
     "source_document": "Coenzyme Q10.md",
     "created": "2026-09-02T06:35:13Z",
-    "updated": "2026-09-02T06:35:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c91dd48c59bc",
@@ -655,7 +655,7 @@
     "confidence": 0.95,
     "source_document": "Coenzyme Q10.md",
     "created": "2026-08-24T21:25:02Z",
-    "updated": "2026-08-24T21:25:02Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "08053756ed43",
@@ -669,7 +669,7 @@
     "confidence": 0.95,
     "source_document": "Coenzyme Q10.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-24T20:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a36f3a646549",
@@ -683,7 +683,7 @@
     "confidence": 0.95,
     "source_document": "Coenzyme Q10.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-24T20:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "fb71af8e5811",
@@ -697,7 +697,7 @@
     "confidence": 0.9,
     "source_document": "Coenzyme Q10.md",
     "created": "2026-09-02T06:35:13Z",
-    "updated": "2026-09-02T06:35:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e5a7ab64aa6f",
@@ -711,7 +711,7 @@
     "confidence": 0.95,
     "source_document": "Coenzyme Q10.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-24T20:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c0b0c34e3d89",
@@ -725,7 +725,7 @@
     "confidence": 0.85,
     "source_document": "Coenzyme Q10.md",
     "created": "2026-09-02T06:35:13Z",
-    "updated": "2026-09-02T06:35:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1c140745e2ef",
@@ -739,7 +739,7 @@
     "confidence": 0.85,
     "source_document": "Coenzyme Q10.md",
     "created": "2026-09-02T06:35:13Z",
-    "updated": "2026-09-02T06:35:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "87c56be532d1",
@@ -753,7 +753,7 @@
     "confidence": 0.8,
     "source_document": "Coenzyme Q10.md",
     "created": "2026-09-02T06:35:13Z",
-    "updated": "2026-09-02T06:35:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "976dd073f5c7",
@@ -767,7 +767,7 @@
     "confidence": 0.95,
     "source_document": "Coenzyme Q10.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-24T20:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "abba559b2336",
@@ -781,11 +781,11 @@
     "confidence": 0.95,
     "source_document": "Multiple Sclerosis.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "fe9ad857868b",
-    "subject": "Dimethyl fumarate (Tecfidera)",
+    "id": "55edcfcda71e",
+    "subject": "Dimethyl fumarate",
     "predicate": "activates",
     "object": "NRF2 pathway in MS therapy",
     "context": {
@@ -795,7 +795,7 @@
     "confidence": 0.95,
     "source_document": "Multiple Sclerosis.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ec6c8306d7e0",
@@ -823,7 +823,7 @@
     "confidence": 0.95,
     "source_document": "8-oxo-2'-deoxyguanosine.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1da347611cc5",
@@ -837,7 +837,7 @@
     "confidence": 0.95,
     "source_document": "Arginase.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "43231c9eddf0",
@@ -851,7 +851,7 @@
     "confidence": 0.95,
     "source_document": "Superoxide Radicals.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "cc2824eef759",
@@ -879,7 +879,7 @@
     "confidence": 0.95,
     "source_document": "Phagocytes.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7a788df0e94b",
@@ -893,7 +893,7 @@
     "confidence": 0.95,
     "source_document": "F2-Isoprostanes.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9cd011a1e660",
@@ -907,10 +907,10 @@
     "confidence": 0.95,
     "source_document": "Xanthine Oxidase.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "46de4bd77012",
+    "id": "c6d7a0b8508c",
     "subject": "Fenton Reaction",
     "predicate": "produces",
     "object": "Hydroxyl Radicals",
@@ -921,10 +921,10 @@
     "confidence": 0.95,
     "source_document": "Hydroxyl Radicals.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "d5d29dff440b",
+    "id": "601b155088fd",
     "subject": "Fenton Reaction",
     "predicate": "is_the_primary_mechanism_converting",
     "object": "Hydroxyl Radicals",
@@ -935,7 +935,7 @@
     "confidence": 0.95,
     "source_document": "Hydroxyl Radicals.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c297870765f5",
@@ -949,7 +949,7 @@
     "confidence": 0.95,
     "source_document": "Ferritin.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "76fc4619c9aa",
@@ -963,7 +963,7 @@
     "confidence": 0.95,
     "source_document": "Lipid Peroxidation.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T05:46:48Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "15347baebec4",
@@ -977,10 +977,10 @@
     "confidence": 0.95,
     "source_document": "NADPH Oxidase.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "dc26771aad30",
+    "id": "44887882463f",
     "subject": "Flavonoids",
     "predicate": "suppress",
     "object": "NF-κB",
@@ -991,7 +991,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Oxidative Stress Harms and Benefits for Human Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "27510c5f5b8c",
@@ -1019,7 +1019,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Oxidative Stress Harms and Benefits for Human Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a1f28d0ca823",
@@ -1033,10 +1033,10 @@
     "confidence": 0.95,
     "source_document": "_document_ - Oxidative Stress Harms and Benefits for Human Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "7666fa15c396",
+    "id": "44d3edb6fc91",
     "subject": "Free Radicals",
     "predicate": "are_neutralized_by",
     "object": "Antioxidant",
@@ -1047,7 +1047,7 @@
     "confidence": 0.95,
     "source_document": "Free Radicals.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-29T15:42:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ad984865e402",
@@ -1061,7 +1061,7 @@
     "confidence": 0.95,
     "source_document": "Free Radicals.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "74d21fe92019",
@@ -1075,7 +1075,7 @@
     "confidence": 0.95,
     "source_document": "Free Radicals.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e666b2b17d98",
@@ -1089,7 +1089,7 @@
     "confidence": 0.95,
     "source_document": "Free Radicals.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3751dd77527b",
@@ -1103,7 +1103,7 @@
     "confidence": 0.95,
     "source_document": "Free Radicals.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7ebc8691388f",
@@ -1131,7 +1131,7 @@
     "confidence": 0.95,
     "source_document": "Genistein.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "badb71a6a8fb",
@@ -1145,7 +1145,7 @@
     "confidence": 0.95,
     "source_document": "Genistein.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8ed4fd0f6383",
@@ -1173,7 +1173,7 @@
     "confidence": 0.95,
     "source_document": "Chronic Obstructive Pulmonary Disease.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "74b2991e1330",
@@ -1187,7 +1187,7 @@
     "confidence": 0.95,
     "source_document": "Oxidative Stress.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "299a0e89c9ca",
@@ -1201,7 +1201,7 @@
     "confidence": 0.95,
     "source_document": "Oxidative Stress.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e9143ef95837",
@@ -1215,7 +1215,7 @@
     "confidence": 0.95,
     "source_document": "Oxidative Stress.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "463ee39f5acc",
@@ -1229,7 +1229,7 @@
     "confidence": 0.95,
     "source_document": "Oxidative Stress.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "023a541827d3",
@@ -1243,7 +1243,7 @@
     "confidence": 0.95,
     "source_document": "Oxidative Stress.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f4a6f0e13b81",
@@ -1271,7 +1271,7 @@
     "confidence": 0.95,
     "source_document": "TGF-beta.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c9b509999c9c",
@@ -1285,7 +1285,7 @@
     "confidence": 0.95,
     "source_document": "Signaling Molecules.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "fcc7a7f7fc5b",
@@ -1299,7 +1299,7 @@
     "confidence": 0.95,
     "source_document": "Hydroxyl Radicals.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2d98bebb8b80",
@@ -1313,7 +1313,7 @@
     "confidence": 0.95,
     "source_document": "Hydroxyl Radicals.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "aeba26370eb6",
@@ -1327,7 +1327,7 @@
     "confidence": 0.95,
     "source_document": "Hydroxyl Radicals.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "43ee6ce9c8f9",
@@ -1341,7 +1341,7 @@
     "confidence": 0.95,
     "source_document": "Hydroxyl Radicals.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1c7ac68402f0",
@@ -1355,7 +1355,7 @@
     "confidence": 0.95,
     "source_document": "Hydroxyl Radicals.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "54d2092f60e9",
@@ -1369,7 +1369,7 @@
     "confidence": 0.95,
     "source_document": "Hydroxyl Radicals.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7d4be4d7f57e",
@@ -1383,10 +1383,10 @@
     "confidence": 0.95,
     "source_document": "Hypochlorous Acid.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "813ea0ea09ea",
+    "id": "1b0bdad8a958",
     "subject": "Hypochlorous Acid",
     "predicate": "inactivates",
     "object": "alpha-1 Antitrypsin",
@@ -1397,7 +1397,7 @@
     "confidence": 0.95,
     "source_document": "Hypochlorous Acid.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0304dca04754",
@@ -1411,7 +1411,7 @@
     "confidence": 0.95,
     "source_document": "Hypochlorous Acid.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e2f9f7fdda10",
@@ -1425,7 +1425,7 @@
     "confidence": 0.95,
     "source_document": "Hypochlorous Acid.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9b5886c7f7ca",
@@ -1439,7 +1439,7 @@
     "confidence": 0.95,
     "source_document": "Hypochlorous Acid.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "10c9b9705827",
@@ -1453,10 +1453,10 @@
     "confidence": 0.95,
     "source_document": "Hypoxia-reoxygenation.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "c92ca60ff66a",
+    "id": "e48ff9599cb8",
     "subject": "IL-1beta",
     "predicate": "activates",
     "object": "NF-κB",
@@ -1467,7 +1467,7 @@
     "confidence": 0.95,
     "source_document": "VCAM-1.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c3889b38eb3f",
@@ -1481,7 +1481,7 @@
     "confidence": 0.95,
     "source_document": "ADMA.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7470ebeeba03",
@@ -1495,7 +1495,7 @@
     "confidence": 0.95,
     "source_document": "iNOS.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e7f168a0b96e",
@@ -1509,7 +1509,7 @@
     "confidence": 0.95,
     "source_document": "iNOS.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7afdeb8319f5",
@@ -1523,7 +1523,7 @@
     "confidence": 0.95,
     "source_document": "iNOS.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "89cf1901d59d",
@@ -1537,7 +1537,7 @@
     "confidence": 0.95,
     "source_document": "Ionizing Radiation.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "34f2b5a60b75",
@@ -1551,7 +1551,7 @@
     "confidence": 0.95,
     "source_document": "Ionizing Radiation.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6ea195f93f6a",
@@ -1565,7 +1565,7 @@
     "confidence": 0.95,
     "source_document": "Ionizing Radiation.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f3aabae5c860",
@@ -1579,7 +1579,7 @@
     "confidence": 0.95,
     "source_document": "Multiple Sclerosis.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1786224a5a44",
@@ -1593,7 +1593,7 @@
     "confidence": 0.95,
     "source_document": "Hydroxyl Radicals.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b9eff21c1376",
@@ -1607,7 +1607,7 @@
     "confidence": 0.95,
     "source_document": "L-arginine.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6157a0e74dc4",
@@ -1621,7 +1621,7 @@
     "confidence": 0.95,
     "source_document": "L-arginine.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "906bc51a6715",
@@ -1635,7 +1635,7 @@
     "confidence": 0.95,
     "source_document": "ADMA.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "82ff121a00ba",
@@ -1649,7 +1649,7 @@
     "confidence": 0.95,
     "source_document": "Lipid Peroxidation.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8190179ae554",
@@ -1663,7 +1663,7 @@
     "confidence": 0.95,
     "source_document": "Lipid Peroxidation.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "98cdefb57ef9",
@@ -1677,7 +1677,7 @@
     "confidence": 0.95,
     "source_document": "Lipid Peroxidation.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d97b06c9c7cd",
@@ -1691,7 +1691,7 @@
     "confidence": 0.95,
     "source_document": "Lipid Peroxidation.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "74f030e81008",
@@ -1705,7 +1705,7 @@
     "confidence": 0.95,
     "source_document": "Lipid Peroxidation.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c66abd7bd7eb",
@@ -1719,10 +1719,10 @@
     "confidence": 0.95,
     "source_document": "Oxidative Stress.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "6718b9640b71",
+    "id": "a93575104564",
     "subject": "LXRα",
     "predicate": "suppresses",
     "object": "Inflammatory Gene Expression",
@@ -1733,10 +1733,10 @@
     "confidence": 0.95,
     "source_document": "LXRα.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "4e961394749d",
+    "id": "505097dd8904",
     "subject": "LXRα",
     "predicate": "is_activated_by",
     "object": "Oxysterols",
@@ -1747,10 +1747,10 @@
     "confidence": 0.95,
     "source_document": "LXRα.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "28860bcd7a4b",
+    "id": "7033e0f8115b",
     "subject": "LXRα",
     "predicate": "promotes",
     "object": "Reverse Cholesterol Transport",
@@ -1761,10 +1761,10 @@
     "confidence": 0.95,
     "source_document": "LXRα.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "0040b8902c8d",
+    "id": "a662af5b8718",
     "subject": "LXRα",
     "predicate": "induces",
     "object": "SREBP-1c",
@@ -1775,7 +1775,7 @@
     "confidence": 0.95,
     "source_document": "LXRα.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e26802848ebc",
@@ -1789,7 +1789,7 @@
     "confidence": 0.95,
     "source_document": "Malondialdehyde.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "000670e0294a",
@@ -1817,7 +1817,7 @@
     "confidence": 0.95,
     "source_document": "Malondialdehyde.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5387077cd867",
@@ -1831,7 +1831,7 @@
     "confidence": 0.95,
     "source_document": "Malondialdehyde.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "aef4f235994b",
@@ -1845,7 +1845,7 @@
     "confidence": 0.95,
     "source_document": "Malondialdehyde.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f3579e6e8d2f",
@@ -1873,7 +1873,7 @@
     "confidence": 0.95,
     "source_document": "Hypochlorous Acid.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5334cab8dcd9",
@@ -1887,7 +1887,7 @@
     "confidence": 0.95,
     "source_document": "Oxidative Stress.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ad460bf62099",
@@ -1901,7 +1901,7 @@
     "confidence": 0.95,
     "source_document": "Oxidative Stress.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "23e9a1571ff8",
@@ -1915,7 +1915,7 @@
     "confidence": 0.95,
     "source_document": "Oxidative Stress.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "36caf1a4ae3d",
@@ -1929,7 +1929,7 @@
     "confidence": 0.95,
     "source_document": "Multiple Sclerosis.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0a21807d82c1",
@@ -1943,7 +1943,7 @@
     "confidence": 0.95,
     "source_document": "TGF-beta.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "93c0ea4a03f4",
@@ -1957,7 +1957,7 @@
     "confidence": 0.95,
     "source_document": "TGF-beta.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3206ba8e5011",
@@ -1971,7 +1971,7 @@
     "confidence": 0.95,
     "source_document": "MitoQ.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "70767262283a",
@@ -1985,7 +1985,7 @@
     "confidence": 0.95,
     "source_document": "MTH1.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "728eb53366b9",
@@ -1999,7 +1999,7 @@
     "confidence": 0.95,
     "source_document": "NADPH Oxidase.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b51158b636a8",
@@ -2013,10 +2013,10 @@
     "confidence": 0.95,
     "source_document": "NADPH Oxidase.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "837a23a753a3",
+    "id": "2e99e9922ba8",
     "subject": "NADPH Oxidase",
     "predicate": "activates",
     "object": "NF-κB",
@@ -2027,7 +2027,7 @@
     "confidence": 0.95,
     "source_document": "NADPH Oxidase.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "668cc3237595",
@@ -2041,7 +2041,7 @@
     "confidence": 0.95,
     "source_document": "NADPH Oxidase.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "dca78b6ae31a",
@@ -2055,10 +2055,10 @@
     "confidence": 0.95,
     "source_document": "VCAM-1.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "4dd916091a17",
+    "id": "7d370aeceaf9",
     "subject": "NF-κB",
     "predicate": "upregulates",
     "object": "Antioxidant Gene Program",
@@ -2069,10 +2069,10 @@
     "confidence": 0.95,
     "source_document": "VCAM-1.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "403941ab9517",
+    "id": "70c968844564",
     "subject": "NF-κB",
     "predicate": "antagonizes",
     "object": "NRF2",
@@ -2083,10 +2083,10 @@
     "confidence": 0.95,
     "source_document": "VCAM-1.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "c54c32898634",
+    "id": "f1a866159fad",
     "subject": "NF-κB",
     "predicate": "induces",
     "object": "TNF-alpha",
@@ -2097,10 +2097,10 @@
     "confidence": 0.95,
     "source_document": "VCAM-1.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "db10a2040963",
+    "id": "12f1afacfca1",
     "subject": "Nitrated lipids",
     "predicate": "activate",
     "object": "PPARγ",
@@ -2111,7 +2111,7 @@
     "confidence": 0.95,
     "source_document": "Nitrative Stress.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1f58b2766801",
@@ -2125,7 +2125,7 @@
     "confidence": 0.9,
     "source_document": "Nitrative Stress.md",
     "created": "2026-09-02T06:35:13Z",
-    "updated": "2026-09-02T06:35:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "32ddfddc88af",
@@ -2139,7 +2139,7 @@
     "confidence": 0.85,
     "source_document": "Nitrative Stress.md",
     "created": "2026-09-02T06:35:13Z",
-    "updated": "2026-09-02T06:35:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5813d535000f",
@@ -2153,7 +2153,7 @@
     "confidence": 0.85,
     "source_document": "Nitrative Stress.md",
     "created": "2026-09-02T06:35:13Z",
-    "updated": "2026-09-02T06:35:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ef6af8cc5200",
@@ -2167,7 +2167,7 @@
     "confidence": 0.8,
     "source_document": "Nitrative Stress.md",
     "created": "2026-09-02T06:35:13Z",
-    "updated": "2026-09-02T06:35:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "abbaf3b8a8b1",
@@ -2181,7 +2181,7 @@
     "confidence": 0.85,
     "source_document": "Nitrative Stress.md",
     "created": "2026-09-02T06:35:13Z",
-    "updated": "2026-09-02T06:35:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "064bcb00b64d",
@@ -2195,7 +2195,7 @@
     "confidence": 0.8,
     "source_document": "Nitrative Stress.md",
     "created": "2026-09-02T06:35:13Z",
-    "updated": "2026-09-02T06:35:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "005fdd5b2fb5",
@@ -2209,7 +2209,7 @@
     "confidence": 0.85,
     "source_document": "Nitrative Stress.md",
     "created": "2026-09-02T06:35:13Z",
-    "updated": "2026-09-02T06:35:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a6296edd5689",
@@ -2223,7 +2223,7 @@
     "confidence": 0.95,
     "source_document": "Nitrative Stress.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "fff57d5b7f04",
@@ -2237,7 +2237,7 @@
     "confidence": 0.95,
     "source_document": "iNOS.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d50b8e1a84b0",
@@ -2251,10 +2251,10 @@
     "confidence": 0.95,
     "source_document": "Nitric Oxide Synthase.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "3d4bc6e1085d",
+    "id": "5c137516cc07",
     "subject": "NOX2",
     "predicate": "causes",
     "object": "Chronic Granulomatous Disease",
@@ -2265,7 +2265,7 @@
     "confidence": 0.95,
     "source_document": "NOX2.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c4c9b2e031af",
@@ -2279,7 +2279,7 @@
     "confidence": 0.95,
     "source_document": "NOX2.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "88c3845620bf",
@@ -2307,7 +2307,7 @@
     "confidence": 0.95,
     "source_document": "NOX4.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6ccc958b282f",
@@ -2321,7 +2321,7 @@
     "confidence": 0.95,
     "source_document": "NOX4.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "021c47d17d7d",
@@ -2335,7 +2335,7 @@
     "confidence": 0.95,
     "source_document": "Asthma.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "033c7f3ec5af",
@@ -2349,7 +2349,7 @@
     "confidence": 0.95,
     "source_document": "Chronic Obstructive Pulmonary Disease.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4dad070fe6b4",
@@ -2377,7 +2377,7 @@
     "confidence": 0.95,
     "source_document": "Nucleic Acids.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6bab61c36dd4",
@@ -2391,7 +2391,7 @@
     "confidence": 0.95,
     "source_document": "OGG1.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "73d460944049",
@@ -2405,7 +2405,7 @@
     "confidence": 0.95,
     "source_document": "Oligodendrocytes.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a36074c6c227",
@@ -2419,7 +2419,7 @@
     "confidence": 0.95,
     "source_document": "Oxidative Stress.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7e4edf4503e3",
@@ -2433,7 +2433,7 @@
     "confidence": 0.95,
     "source_document": "Oxidative Stress.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "85c94495aace",
@@ -2447,7 +2447,7 @@
     "confidence": 0.95,
     "source_document": "Oxidative Stress.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "dc9551a1ef72",
@@ -2461,10 +2461,10 @@
     "confidence": 0.95,
     "source_document": "Oxidative Stress.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "24d20680a6cb",
+    "id": "a4b2a98f51b6",
     "subject": "Oxidative Stress",
     "predicate": "activates",
     "object": "NF-κB",
@@ -2475,7 +2475,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Oxidative Stress Harms and Benefits for Human Health.md",
     "created": "2026-08-25T04:10:14Z",
-    "updated": "2026-08-25T04:10:14Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "775ce2c5a43c",
@@ -2489,7 +2489,7 @@
     "confidence": 0.95,
     "source_document": "Oxidative Stress.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0aec8deee172",
@@ -2503,7 +2503,7 @@
     "confidence": 0.95,
     "source_document": "Oxidative Stress.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d76a812a60b4",
@@ -2517,10 +2517,10 @@
     "confidence": 0.95,
     "source_document": "Oxidative Stress.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "bd8e609e73ad",
+    "id": "a246b5c8c15d",
     "subject": "Oxysterols",
     "predicate": "regulate",
     "object": "LXRα",
@@ -2531,7 +2531,7 @@
     "confidence": 0.95,
     "source_document": "Oxysterols.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8178a9062a3b",
@@ -2559,7 +2559,7 @@
     "confidence": 0.95,
     "source_document": "Peroxynitrite.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5604263ca920",
@@ -2601,7 +2601,7 @@
     "confidence": 0.8,
     "source_document": "Peroxynitrite.md",
     "created": "2026-09-02T06:35:13Z",
-    "updated": "2026-09-02T06:35:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "71ec8045c2dd",
@@ -2643,7 +2643,7 @@
     "confidence": 0.9,
     "source_document": "Peroxynitrite.md",
     "created": "2026-09-02T06:35:13Z",
-    "updated": "2026-09-02T06:35:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4250ffc54915",
@@ -2657,7 +2657,7 @@
     "confidence": 0.85,
     "source_document": "Peroxynitrite.md",
     "created": "2026-09-02T06:35:13Z",
-    "updated": "2026-09-02T06:35:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "820549a46931",
@@ -2699,7 +2699,7 @@
     "confidence": 0.95,
     "source_document": "Peroxynitrite.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3ff6762ae826",
@@ -2713,7 +2713,7 @@
     "confidence": 0.95,
     "source_document": "Peroxynitrite.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "82fef6c8c298",
@@ -2727,7 +2727,7 @@
     "confidence": 0.95,
     "source_document": "Peroxynitrite.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "51ca43499d2e",
@@ -2741,7 +2741,7 @@
     "confidence": 0.95,
     "source_document": "Peroxynitrite.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "53b1942f2848",
@@ -2755,7 +2755,7 @@
     "confidence": 0.95,
     "source_document": "Peroxynitrite.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1da495a61dfc",
@@ -2769,7 +2769,7 @@
     "confidence": 0.95,
     "source_document": "Peroxynitrite.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1883604d03ce",
@@ -2797,7 +2797,7 @@
     "confidence": 0.95,
     "source_document": "Phagocytes.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "40399c252511",
@@ -2811,7 +2811,7 @@
     "confidence": 0.75,
     "source_document": "VCAM-1.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c38a6d17a348",
@@ -2825,7 +2825,7 @@
     "confidence": 0.95,
     "source_document": "VCAM-1.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "875ed416c39a",
@@ -2853,7 +2853,7 @@
     "confidence": 0.95,
     "source_document": "NADPH Oxidase.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "177474b8e97b",
@@ -2881,7 +2881,7 @@
     "confidence": 0.95,
     "source_document": "Polyunsaturated fatty acids.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2d23dde92d10",
@@ -2895,10 +2895,10 @@
     "confidence": 0.95,
     "source_document": "PON1.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "0880852d681b",
+    "id": "3db21e9e44e6",
     "subject": "Protein Carbonylation",
     "predicate": "is_an_irreversible_modification_of",
     "object": "Proteins",
@@ -2909,7 +2909,7 @@
     "confidence": 0.95,
     "source_document": "Proteins.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "215e52c5c595",
@@ -2923,7 +2923,7 @@
     "confidence": 0.95,
     "source_document": "Protein Tyrosine Phosphatases.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4124d53652c9",
@@ -2937,7 +2937,7 @@
     "confidence": 0.95,
     "source_document": "Proteins.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "406fb5ffd875",
@@ -2951,7 +2951,7 @@
     "confidence": 0.95,
     "source_document": "Signaling Molecules.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7204829a2f51",
@@ -2965,7 +2965,7 @@
     "confidence": 0.95,
     "source_document": "Reactive Nitrogen Species.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5062a2000441",
@@ -2979,7 +2979,7 @@
     "confidence": 0.95,
     "source_document": "Reactive Nitrogen Species.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "cda2ef4b7fc7",
@@ -2993,7 +2993,7 @@
     "confidence": 0.95,
     "source_document": "Reactive Nitrogen Species.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1554a3e39c03",
@@ -3007,10 +3007,10 @@
     "confidence": 0.95,
     "source_document": "Reactive Nitrogen Species.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "e14a20e08609",
+    "id": "35b11cd89ac1",
     "subject": "Reactive Oxygen Species",
     "predicate": "activate",
     "object": "NF-κB",
@@ -3021,7 +3021,7 @@
     "confidence": 0.95,
     "source_document": "Oxidative Stress.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "43c7d826ee71",
@@ -3035,10 +3035,10 @@
     "confidence": 0.95,
     "source_document": "_document_ - Oxidative Stress Harms and Benefits for Human Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "504c32cd025f",
+    "id": "a22ff8c12556",
     "subject": "S-Nitrosylation",
     "predicate": "inhibits",
     "object": "NF-κB",
@@ -3049,11 +3049,11 @@
     "confidence": 0.95,
     "source_document": "S-Nitrosylation.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "dba43480f3a2",
-    "subject": "Selenium deficiency",
+    "id": "2115e4e38208",
+    "subject": "Selenium",
     "predicate": "causes",
     "object": "Keshan disease",
     "context": {
@@ -3063,7 +3063,7 @@
     "confidence": 0.95,
     "source_document": "Lipid hydroperoxide.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b7a58ef54722",
@@ -3077,7 +3077,7 @@
     "confidence": 0.95,
     "source_document": "Singlet Oxygen.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8d3ef81652dc",
@@ -3091,7 +3091,7 @@
     "confidence": 0.95,
     "source_document": "Singlet Oxygen.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e627ad6bd7d3",
@@ -3105,7 +3105,7 @@
     "confidence": 0.95,
     "source_document": "Singlet Oxygen.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "969a6d80218f",
@@ -3119,7 +3119,7 @@
     "confidence": 0.95,
     "source_document": "Singlet Oxygen.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d7c607a9b2e6",
@@ -3133,7 +3133,7 @@
     "confidence": 0.95,
     "source_document": "VCAM-1.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3b720748f3a8",
@@ -3147,7 +3147,7 @@
     "confidence": 0.95,
     "source_document": "Chronic Obstructive Pulmonary Disease.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3198b039e9c1",
@@ -3161,7 +3161,7 @@
     "confidence": 0.95,
     "source_document": "VCAM-1.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "47a459b3343e",
@@ -3175,7 +3175,7 @@
     "confidence": 0.95,
     "source_document": "Coenzyme Q10.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1613a3a627d1",
@@ -3203,7 +3203,7 @@
     "confidence": 0.95,
     "source_document": "Superoxide Radicals.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3961aa2e5f8b",
@@ -3217,7 +3217,7 @@
     "confidence": 0.95,
     "source_document": "Superoxide Radicals.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3a4481e66f69",
@@ -3231,7 +3231,7 @@
     "confidence": 0.95,
     "source_document": "Superoxide Radicals.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1ad001859c03",
@@ -3245,7 +3245,7 @@
     "confidence": 0.95,
     "source_document": "Superoxide Radicals.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3a10a3e59232",
@@ -3259,7 +3259,7 @@
     "confidence": 0.95,
     "source_document": "Superoxide Radicals.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ba26f16ee0de",
@@ -3273,7 +3273,7 @@
     "confidence": 0.95,
     "source_document": "Superoxide Radicals.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9886b0381599",
@@ -3287,7 +3287,7 @@
     "confidence": 0.95,
     "source_document": "Superoxide Radicals.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f497df43a421",
@@ -3301,7 +3301,7 @@
     "confidence": 0.95,
     "source_document": "Superoxide Radicals.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "22e7f1e1e076",
@@ -3315,10 +3315,10 @@
     "confidence": 0.95,
     "source_document": "TGF-beta.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "714eabe0d97c",
+    "id": "956a7bf6c797",
     "subject": "TGF-beta",
     "predicate": "suppresses",
     "object": "PGC-1α",
@@ -3329,7 +3329,7 @@
     "confidence": 0.95,
     "source_document": "TGF-beta.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-29T18:24:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d2277a43178f",
@@ -3343,7 +3343,7 @@
     "confidence": 0.95,
     "source_document": "VCAM-1.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6bdb06a23312",
@@ -3357,7 +3357,7 @@
     "confidence": 0.95,
     "source_document": "TGF-beta.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3b0f841c80dc",
@@ -3385,7 +3385,7 @@
     "confidence": 0.95,
     "source_document": "Superoxide Radicals.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0d25fc534be2",
@@ -3399,7 +3399,7 @@
     "confidence": 0.95,
     "source_document": "Peroxynitrite.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4b80b01fed1c",
@@ -3413,7 +3413,7 @@
     "confidence": 0.95,
     "source_document": "VCAM-1.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9e3eb4f3a3c3",
@@ -3427,7 +3427,7 @@
     "confidence": 0.95,
     "source_document": "Lipid Peroxidation.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "64a3c3f3c298",
@@ -3441,7 +3441,7 @@
     "confidence": 0.95,
     "source_document": "Lipid Peroxidation.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d6aa92e3cac1",
@@ -3455,7 +3455,7 @@
     "confidence": 0.95,
     "source_document": "Singlet Oxygen.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3dc5df0be378",
@@ -3469,7 +3469,7 @@
     "confidence": 0.95,
     "source_document": "Xanthine Oxidase.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "90a99736f584",
@@ -3483,7 +3483,7 @@
     "confidence": 0.95,
     "source_document": "Xanthine Oxidase.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ff6e8abf0fef",
@@ -3497,7 +3497,7 @@
     "confidence": 0.95,
     "source_document": "Xanthine Oxidase.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "cb3b89353344",
@@ -3511,7 +3511,7 @@
     "confidence": 0.95,
     "source_document": "Xanthine Oxidase.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3968655464ab",
@@ -3525,7 +3525,7 @@
     "confidence": 0.95,
     "source_document": "Hypochlorous Acid.md",
     "created": "2026-09-04T18:32:56Z",
-    "updated": "2026-09-04T18:32:56Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f579e1e8714b",
@@ -3553,7 +3553,7 @@
     "confidence": 0.8,
     "source_document": "Immunity.md",
     "created": "2026-09-04T18:32:56Z",
-    "updated": "2026-09-04T18:32:56Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a58f7045cd24",
@@ -3567,7 +3567,7 @@
     "confidence": 0.8,
     "source_document": "Immunity.md",
     "created": "2026-09-04T18:32:56Z",
-    "updated": "2026-09-04T18:32:56Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "68d14a5aeb73",
@@ -3581,10 +3581,10 @@
     "confidence": 0.75,
     "source_document": "Immunity.md",
     "created": "2026-09-04T18:32:56Z",
-    "updated": "2026-09-04T18:32:56Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "e88e31c75dbc",
+    "id": "c23af80d6e7f",
     "subject": "Mitochondrial ROS",
     "predicate": "activates",
     "object": "HIF-1α",
@@ -3595,7 +3595,7 @@
     "confidence": 0.72,
     "source_document": "Immunity.md",
     "created": "2026-09-04T18:32:56Z",
-    "updated": "2026-09-04T18:32:56Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "fd9659ed7456",
@@ -3609,10 +3609,10 @@
     "confidence": 0.9,
     "source_document": "Chronic Granulomatous Disease.md",
     "created": "2026-09-04T18:32:56Z",
-    "updated": "2026-09-04T18:32:56Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "b2a8fa426d50",
+    "id": "77fc729449ae",
     "subject": "Chronic Granulomatous Disease",
     "predicate": "is_associated_with",
     "object": "Crohn's Disease",
@@ -3623,7 +3623,7 @@
     "confidence": 0.75,
     "source_document": "Chronic Granulomatous Disease.md",
     "created": "2026-09-04T18:32:56Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "23319d3281c0",
@@ -3637,7 +3637,7 @@
     "confidence": 0.92,
     "source_document": "Aconitase.md",
     "created": "2026-09-04T18:32:56Z",
-    "updated": "2026-09-04T18:32:56Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "efdef91021f5",
@@ -3651,7 +3651,7 @@
     "confidence": 0.8,
     "source_document": "Aconitase.md",
     "created": "2026-09-04T18:32:56Z",
-    "updated": "2026-09-04T18:32:56Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "87d8d036f552",
@@ -3665,7 +3665,7 @@
     "confidence": 0.78,
     "source_document": "Aconitase.md",
     "created": "2026-09-04T18:32:56Z",
-    "updated": "2026-09-04T18:32:56Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "43dc34bfc2c1",
@@ -3679,7 +3679,7 @@
     "confidence": 0.78,
     "source_document": "Aconitase.md",
     "created": "2026-09-04T18:32:56Z",
-    "updated": "2026-09-04T18:32:56Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "094d4412ca83",
@@ -3707,7 +3707,7 @@
     "confidence": 0.9,
     "source_document": "Methionine sulfoxide reductases.md",
     "created": "2026-09-04T18:32:56Z",
-    "updated": "2026-09-04T18:32:56Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e69638ab2f9b",
@@ -3721,7 +3721,7 @@
     "confidence": 0.85,
     "source_document": "Methionine sulfoxide reductases.md",
     "created": "2026-09-04T18:32:56Z",
-    "updated": "2026-09-04T18:32:56Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0319e048cd93",
@@ -3735,7 +3735,7 @@
     "confidence": 0.82,
     "source_document": "Methionine sulfoxide reductases.md",
     "created": "2026-09-04T18:32:56Z",
-    "updated": "2026-09-04T18:32:56Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "091b4ca057ad",
@@ -3749,7 +3749,7 @@
     "confidence": 0.75,
     "source_document": "Methionine sulfoxide reductases.md",
     "created": "2026-09-04T18:32:56Z",
-    "updated": "2026-09-04T18:32:56Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8aa788d9b4e7",
@@ -3763,7 +3763,7 @@
     "confidence": 0.7,
     "source_document": "Methionine sulfoxide reductases.md",
     "created": "2026-09-04T18:32:56Z",
-    "updated": "2026-09-04T18:32:56Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2345cd75e645",
@@ -3777,7 +3777,7 @@
     "confidence": 0.72,
     "source_document": "Acatalasemia.md",
     "created": "2026-09-04T18:32:56Z",
-    "updated": "2026-09-04T18:32:56Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "00d89788a2c1",
@@ -3805,7 +3805,7 @@
     "confidence": 0.9,
     "source_document": "Lipid peroxyl radical.md",
     "created": "2026-09-04T18:32:56Z",
-    "updated": "2026-09-04T18:32:56Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "10908a96d13b",
@@ -3819,7 +3819,7 @@
     "confidence": 0.85,
     "source_document": "Lipid peroxyl radical.md",
     "created": "2026-09-04T18:32:56Z",
-    "updated": "2026-09-04T18:32:56Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "24dde97b8288",
@@ -3833,7 +3833,7 @@
     "confidence": 0.8,
     "source_document": "Lipids.md",
     "created": "2026-09-04T18:32:56Z",
-    "updated": "2026-09-04T18:32:56Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "937fef89640c",
@@ -3847,7 +3847,7 @@
     "confidence": 0.8,
     "source_document": "Lipids.md",
     "created": "2026-09-04T18:32:56Z",
-    "updated": "2026-09-04T18:32:56Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b924ad5c8397",
@@ -3875,7 +3875,7 @@
     "confidence": 0.85,
     "source_document": "Lipids.md",
     "created": "2026-09-04T18:32:56Z",
-    "updated": "2026-09-04T18:32:56Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d41c7c56a7bb",
@@ -3889,7 +3889,7 @@
     "confidence": 0.8,
     "source_document": "Lipid peroxyl radical.md",
     "created": "2026-09-04T18:32:56Z",
-    "updated": "2026-09-04T18:32:56Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d9f18c03ae06",
@@ -3903,7 +3903,7 @@
     "confidence": 0.8,
     "source_document": "Lipid peroxyl radical.md",
     "created": "2026-09-04T18:32:56Z",
-    "updated": "2026-09-04T18:32:56Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8eec0b6ca76c",
@@ -3917,10 +3917,10 @@
     "confidence": 0.78,
     "source_document": "Lipid peroxyl radical.md",
     "created": "2026-09-04T18:32:56Z",
-    "updated": "2026-09-04T18:32:56Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "2332517e5e29",
+    "id": "460ebdd6a4af",
     "subject": "Vitamin C",
     "predicate": "regenerates",
     "object": "Vitamin E",
@@ -3931,7 +3931,7 @@
     "confidence": 0.85,
     "source_document": "Lipid peroxyl radical.md",
     "created": "2026-09-04T18:32:56Z",
-    "updated": "2026-09-29T18:24:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a80a4190996a",
@@ -3945,7 +3945,7 @@
     "confidence": 0.8,
     "source_document": "UV-induced photoaging.md",
     "created": "2026-09-04T18:32:56Z",
-    "updated": "2026-09-04T18:32:56Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ccc498b3616f",
@@ -3959,7 +3959,7 @@
     "confidence": 0.85,
     "source_document": "UV-induced photoaging.md",
     "created": "2026-09-04T18:32:56Z",
-    "updated": "2026-09-04T18:32:56Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f9bcaae53fa5",
@@ -3973,7 +3973,7 @@
     "confidence": 0.82,
     "source_document": "UV-induced photoaging.md",
     "created": "2026-09-04T18:32:56Z",
-    "updated": "2026-09-04T18:32:56Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "df4dbc536949",
@@ -3987,10 +3987,10 @@
     "confidence": 0.75,
     "source_document": "UV-induced photoaging.md",
     "created": "2026-09-04T18:32:56Z",
-    "updated": "2026-09-04T18:32:56Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "2457d76063c3",
+    "id": "5474b68ff986",
     "subject": "Vitamin C",
     "predicate": "protects_against",
     "object": "UV-induced photoaging",
@@ -4001,7 +4001,7 @@
     "confidence": 0.72,
     "source_document": "UV-induced photoaging.md",
     "created": "2026-09-04T18:32:56Z",
-    "updated": "2026-09-29T18:24:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c716ccf0beb5",
@@ -4015,7 +4015,7 @@
     "confidence": 0.7,
     "source_document": "UV-induced photoaging.md",
     "created": "2026-09-04T18:32:56Z",
-    "updated": "2026-09-04T18:32:56Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "54854131f286",
@@ -4029,7 +4029,7 @@
     "confidence": 0.88,
     "source_document": "UV Light.md",
     "created": "2026-09-04T18:32:56Z",
-    "updated": "2026-09-04T18:32:56Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4ba61640a33a",
@@ -4043,7 +4043,7 @@
     "confidence": 0.8,
     "source_document": "UV Light.md",
     "created": "2026-09-04T18:32:56Z",
-    "updated": "2026-09-04T18:32:56Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "26c008f7be5b",
@@ -4071,7 +4071,7 @@
     "confidence": 0.85,
     "source_document": "UV Light.md",
     "created": "2026-09-04T18:32:56Z",
-    "updated": "2026-09-04T18:32:56Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7545edd01c3c",
@@ -4085,7 +4085,7 @@
     "confidence": 0.88,
     "source_document": "Protein Citrullination.md",
     "created": "2026-09-04T18:32:56Z",
-    "updated": "2026-09-04T18:32:56Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "98382ff3119a",
@@ -4099,7 +4099,7 @@
     "confidence": 0.85,
     "source_document": "Protein Citrullination.md",
     "created": "2026-09-04T18:32:56Z",
-    "updated": "2026-09-04T18:32:56Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "40cb5e50a371",
@@ -4113,7 +4113,7 @@
     "confidence": 0.9,
     "source_document": "Protein Citrullination.md",
     "created": "2026-09-04T18:32:56Z",
-    "updated": "2026-09-04T18:32:56Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "df9be2afb256",
@@ -4127,7 +4127,7 @@
     "confidence": 0.75,
     "source_document": "Protein Citrullination.md",
     "created": "2026-09-04T18:32:56Z",
-    "updated": "2026-09-04T18:32:56Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7eb59eaeea51",
@@ -4141,7 +4141,7 @@
     "confidence": 0.95,
     "source_document": "Keshan disease.md",
     "created": "2026-09-04T18:32:56Z",
-    "updated": "2026-09-04T18:32:56Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b5d868a5f624",
@@ -4155,7 +4155,7 @@
     "confidence": 0.9,
     "source_document": "Keshan disease.md",
     "created": "2026-09-04T18:32:56Z",
-    "updated": "2026-09-04T18:32:56Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "92849ed1c99f",
@@ -4169,7 +4169,7 @@
     "confidence": 0.88,
     "source_document": "Keshan disease.md",
     "created": "2026-09-04T18:32:56Z",
-    "updated": "2026-09-04T18:32:56Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "55140ee29e1b",
@@ -4183,7 +4183,7 @@
     "confidence": 0.75,
     "source_document": "Keshan disease.md",
     "created": "2026-09-04T18:32:56Z",
-    "updated": "2026-09-04T18:32:56Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "367a5af77e21",
@@ -4197,7 +4197,7 @@
     "confidence": 0.72,
     "source_document": "Keshan disease.md",
     "created": "2026-09-04T18:32:56Z",
-    "updated": "2026-09-04T18:32:56Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "54e85389ee08",
@@ -4211,7 +4211,7 @@
     "confidence": 0.92,
     "source_document": "Polyol Pathway.md",
     "created": "2026-09-04T18:34:06Z",
-    "updated": "2026-09-04T18:34:06Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "07c1ba08a830",
@@ -4225,7 +4225,7 @@
     "confidence": 0.88,
     "source_document": "Polyol Pathway.md",
     "created": "2026-09-04T18:34:06Z",
-    "updated": "2026-09-04T18:34:06Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "651fa022b2cd",
@@ -4239,7 +4239,7 @@
     "confidence": 0.85,
     "source_document": "Polyol Pathway.md",
     "created": "2026-09-04T18:34:06Z",
-    "updated": "2026-09-04T18:34:06Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "785353a9e434",
@@ -4253,7 +4253,7 @@
     "confidence": 0.74,
     "source_document": "Polyol Pathway.md",
     "created": "2026-09-04T18:34:06Z",
-    "updated": "2026-09-04T18:34:06Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "41022340a4cf",
@@ -4267,7 +4267,7 @@
     "confidence": 0.72,
     "source_document": "Polyol Pathway.md",
     "created": "2026-09-04T18:34:06Z",
-    "updated": "2026-09-04T18:34:06Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "582418e9190d",
@@ -4281,7 +4281,7 @@
     "confidence": 0.92,
     "source_document": "Aldose reductase.md",
     "created": "2026-09-04T18:34:06Z",
-    "updated": "2026-09-04T18:34:06Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3cd169f613e7",
@@ -4295,7 +4295,7 @@
     "confidence": 0.8,
     "source_document": "Aldose reductase.md",
     "created": "2026-09-04T18:34:06Z",
-    "updated": "2026-09-04T18:34:06Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8689f83709bd",
@@ -4309,7 +4309,7 @@
     "confidence": 0.76,
     "source_document": "Aldose reductase.md",
     "created": "2026-09-04T18:34:06Z",
-    "updated": "2026-09-04T18:34:06Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "375e4a013f2d",
@@ -4323,7 +4323,7 @@
     "confidence": 0.88,
     "source_document": "Fructose.md",
     "created": "2026-09-04T18:34:06Z",
-    "updated": "2026-09-04T18:34:06Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c2980517bd61",
@@ -4365,7 +4365,7 @@
     "confidence": 0.85,
     "source_document": "Fructosamine.md",
     "created": "2026-09-04T18:34:06Z",
-    "updated": "2026-09-04T18:34:06Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f159f4f356b6",
@@ -4379,7 +4379,7 @@
     "confidence": 0.72,
     "source_document": "Fructosamine.md",
     "created": "2026-09-04T18:34:06Z",
-    "updated": "2026-09-04T18:34:06Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3dee40b32d8f",
@@ -4393,7 +4393,7 @@
     "confidence": 0.72,
     "source_document": "Fructosamine.md",
     "created": "2026-09-04T18:34:06Z",
-    "updated": "2026-09-04T18:34:06Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "af06ae2ef4b1",
@@ -4407,7 +4407,7 @@
     "confidence": 0.85,
     "source_document": "Glycotoxins.md",
     "created": "2026-09-04T18:34:06Z",
-    "updated": "2026-09-04T18:34:06Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "71dcace7918b",
@@ -4421,7 +4421,7 @@
     "confidence": 0.7,
     "source_document": "Glycotoxins.md",
     "created": "2026-09-04T18:34:06Z",
-    "updated": "2026-09-04T18:34:06Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "42834ac8d931",
@@ -4435,7 +4435,7 @@
     "confidence": 0.9,
     "source_document": "Melanoidins.md",
     "created": "2026-09-04T18:34:06Z",
-    "updated": "2026-09-04T18:34:06Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "78fb097524da",
@@ -4477,7 +4477,7 @@
     "confidence": 0.9,
     "source_document": "Cyanidin-3-glucoside.md",
     "created": "2026-09-04T18:34:06Z",
-    "updated": "2026-09-04T18:34:06Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b324742057eb",
@@ -4491,7 +4491,7 @@
     "confidence": 0.85,
     "source_document": "Cyanidin-3-glucoside.md",
     "created": "2026-09-04T18:34:06Z",
-    "updated": "2026-09-04T18:34:06Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "fb4580ffb3bb",
@@ -4505,7 +4505,7 @@
     "confidence": 0.78,
     "source_document": "Cyanidin-3-glucoside.md",
     "created": "2026-09-04T18:34:06Z",
-    "updated": "2026-09-04T18:34:06Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8e9b7dfeedb0",
@@ -4519,7 +4519,7 @@
     "confidence": 0.92,
     "source_document": "UDP-glucuronosyltransferases.md",
     "created": "2026-09-04T18:34:06Z",
-    "updated": "2026-09-04T18:34:06Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1c90201f4a71",
@@ -4533,7 +4533,7 @@
     "confidence": 0.78,
     "source_document": "UDP-glucuronosyltransferases.md",
     "created": "2026-09-04T18:34:06Z",
-    "updated": "2026-09-04T18:34:06Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "bff5a9b18cd0",
@@ -4547,7 +4547,7 @@
     "confidence": 0.85,
     "source_document": "Hypobromous Acid.md",
     "created": "2026-09-04T18:34:06Z",
-    "updated": "2026-09-04T18:34:06Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ebd93e6ab99e",
@@ -4561,7 +4561,7 @@
     "confidence": 0.72,
     "source_document": "Hypobromous Acid.md",
     "created": "2026-09-04T18:34:06Z",
-    "updated": "2026-09-04T18:34:06Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c8784bd21e4f",
@@ -4575,7 +4575,7 @@
     "confidence": 0.9,
     "source_document": "Febuxostat.md",
     "created": "2026-09-04T18:34:06Z",
-    "updated": "2026-09-04T18:34:06Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2de2e03fda90",
@@ -4589,7 +4589,7 @@
     "confidence": 0.78,
     "source_document": "Febuxostat.md",
     "created": "2026-09-04T18:34:06Z",
-    "updated": "2026-09-04T18:34:06Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "dd9b78603811",
@@ -4617,7 +4617,7 @@
     "confidence": 0.85,
     "source_document": "Guanylhydrazone.md",
     "created": "2026-09-04T18:34:06Z",
-    "updated": "2026-09-04T18:34:06Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "41564446567e",
@@ -4687,7 +4687,7 @@
     "confidence": 0.78,
     "source_document": "Guanidine.md",
     "created": "2026-09-04T18:34:06Z",
-    "updated": "2026-09-04T18:34:06Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9a01e52c225d",
@@ -4718,7 +4718,7 @@
     "updated": "2026-09-04T18:34:06Z"
   },
   {
-    "id": "a40200a51996",
+    "id": "e50bc9cc5627",
     "subject": "Vitamin C",
     "predicate": "reduces",
     "object": "Silver",
@@ -4729,7 +4729,7 @@
     "confidence": 0.75,
     "source_document": "Silver.md",
     "created": "2026-09-04T18:34:06Z",
-    "updated": "2026-09-29T18:24:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7fc1a63a0059",
@@ -4743,7 +4743,7 @@
     "confidence": 0.82,
     "source_document": "Silver compounds.md",
     "created": "2026-09-04T18:34:06Z",
-    "updated": "2026-09-04T18:34:06Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "15185f06ecc6",
@@ -4757,7 +4757,7 @@
     "confidence": 0.75,
     "source_document": "Silver compounds.md",
     "created": "2026-09-04T18:34:06Z",
-    "updated": "2026-09-04T18:34:06Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d05b895c2a0c",
@@ -4771,7 +4771,7 @@
     "confidence": 0.8,
     "source_document": "Silver compounds.md",
     "created": "2026-09-04T18:34:06Z",
-    "updated": "2026-09-04T18:34:06Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "cae59038cb76",
@@ -4785,7 +4785,7 @@
     "confidence": 0.8,
     "source_document": "Silver compounds.md",
     "created": "2026-09-04T18:34:06Z",
-    "updated": "2026-09-04T18:34:06Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6c1b20cf9ccc",
@@ -4799,7 +4799,7 @@
     "confidence": 0.82,
     "source_document": "Silver salts.md",
     "created": "2026-09-04T18:34:06Z",
-    "updated": "2026-09-04T18:34:06Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f0ea16e9cc02",
@@ -4813,7 +4813,7 @@
     "confidence": 0.9,
     "source_document": "Silver ion.md",
     "created": "2026-09-04T18:34:06Z",
-    "updated": "2026-09-04T18:34:06Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f0be86fd392b",
@@ -4827,7 +4827,7 @@
     "confidence": 0.85,
     "source_document": "Silver ion.md",
     "created": "2026-09-04T18:34:06Z",
-    "updated": "2026-09-04T18:34:06Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7725976c669f",
@@ -4841,7 +4841,7 @@
     "confidence": 0.8,
     "source_document": "Silver ion.md",
     "created": "2026-09-04T18:34:06Z",
-    "updated": "2026-09-04T18:34:06Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b3dcbcbb2d8f",
@@ -4855,7 +4855,7 @@
     "confidence": 0.72,
     "source_document": "Silver ion.md",
     "created": "2026-09-04T18:34:06Z",
-    "updated": "2026-09-04T18:34:06Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1f9338c23645",
@@ -4869,10 +4869,10 @@
     "confidence": 0.78,
     "source_document": "Silver sulfide albuminates.md",
     "created": "2026-09-04T18:34:06Z",
-    "updated": "2026-09-04T18:34:06Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "6ed7af6de6d7",
+    "id": "e99f5d478be1",
     "subject": "Vitamin C",
     "predicate": "reduces",
     "object": "Silver sulfide albuminates",
@@ -4883,7 +4883,7 @@
     "confidence": 0.7,
     "source_document": "Silver sulfide albuminates.md",
     "created": "2026-09-04T18:34:06Z",
-    "updated": "2026-09-29T18:24:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a6c1f6505617",
@@ -4897,7 +4897,7 @@
     "confidence": 0.8,
     "source_document": "Silver nanoparticles.md",
     "created": "2026-09-04T18:34:06Z",
-    "updated": "2026-09-04T18:34:06Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2e9308bdb65d",
@@ -4911,7 +4911,7 @@
     "confidence": 0.72,
     "source_document": "Silver nanoparticles.md",
     "created": "2026-09-04T18:34:06Z",
-    "updated": "2026-09-04T18:34:06Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4458118f5bf5",
@@ -4925,7 +4925,7 @@
     "confidence": 0.75,
     "source_document": "Silver nanoparticles.md",
     "created": "2026-09-04T18:34:06Z",
-    "updated": "2026-09-04T18:34:06Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7a4fcfb1df5f",
@@ -4939,7 +4939,7 @@
     "confidence": 0.7,
     "source_document": "Silver nanoparticles.md",
     "created": "2026-09-04T18:34:06Z",
-    "updated": "2026-09-04T18:34:06Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4c9dc1c86fe7",
@@ -4953,7 +4953,7 @@
     "confidence": 0.8,
     "source_document": "Retinal Photoreceptors.md",
     "created": "2026-09-04T18:36:16Z",
-    "updated": "2026-09-04T18:36:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9ecb8aca2c2b",
@@ -4967,7 +4967,7 @@
     "confidence": 0.8,
     "source_document": "Retinal Photoreceptors.md",
     "created": "2026-09-04T18:36:16Z",
-    "updated": "2026-09-04T18:36:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3b1af1d13c97",
@@ -4981,7 +4981,7 @@
     "confidence": 0.75,
     "source_document": "Retinal Photoreceptors.md",
     "created": "2026-09-04T18:36:16Z",
-    "updated": "2026-09-04T18:36:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "dd1146cd8cec",
@@ -4995,7 +4995,7 @@
     "confidence": 0.72,
     "source_document": "Retinal Photoreceptors.md",
     "created": "2026-09-04T18:36:16Z",
-    "updated": "2026-09-04T18:36:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5ad5d0c9dba9",
@@ -5009,7 +5009,7 @@
     "confidence": 0.7,
     "source_document": "Retinal Photoreceptors.md",
     "created": "2026-09-04T18:36:16Z",
-    "updated": "2026-09-04T18:36:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f3666da7b8ba",
@@ -5023,10 +5023,10 @@
     "confidence": 0.7,
     "source_document": "Retinal Photoreceptors.md",
     "created": "2026-09-04T18:36:16Z",
-    "updated": "2026-09-04T18:36:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "4759be579657",
+    "id": "3e18555d037f",
     "subject": "SIRT3",
     "predicate": "suppresses",
     "object": "Glutathione S-transferase π1",
@@ -5037,10 +5037,10 @@
     "confidence": 0.88,
     "source_document": "Glutathione S-transferase π1.md",
     "created": "2026-09-04T18:36:16Z",
-    "updated": "2026-09-04T18:36:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "736697262f03",
+    "id": "f404bbae76cd",
     "subject": "Glutathione S-transferase π1",
     "predicate": "contributes_to",
     "object": "Drug Resistance",
@@ -5051,10 +5051,10 @@
     "confidence": 0.85,
     "source_document": "Glutathione S-transferase π1.md",
     "created": "2026-09-04T18:36:16Z",
-    "updated": "2026-09-04T18:36:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "0ba2c260ff1a",
+    "id": "4814b154158a",
     "subject": "Glutathione S-transferase π1",
     "predicate": "protects_against",
     "object": "Oxidative Stress",
@@ -5065,6 +5065,6 @@
     "confidence": 0.8,
     "source_document": "Glutathione S-transferase π1.md",
     "created": "2026-09-04T18:36:16Z",
-    "updated": "2026-09-04T18:36:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   }
 ]

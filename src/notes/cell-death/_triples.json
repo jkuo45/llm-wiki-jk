@@ -25,7 +25,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Parthanatos Andrabi 2008 mitochondrial nuclear crosstalk.md",
     "created": "2026-09-07T02:07:21Z",
-    "updated": "2026-09-07T02:07:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b6a848e8d248",
@@ -53,7 +53,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Parthanatos Andrabi 2006 PAR polymer death signal.md",
     "created": "2026-09-07T02:07:21Z",
-    "updated": "2026-09-07T02:07:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "eb465a671ccc",
@@ -81,7 +81,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - Parthanatos David 2009 messenger of death.md",
     "created": "2026-09-07T02:07:21Z",
-    "updated": "2026-09-07T02:07:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1ce74a5aec68",
@@ -95,7 +95,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Parthanatos Andrabi 2008 mitochondrial nuclear crosstalk.md",
     "created": "2026-09-07T02:07:21Z",
-    "updated": "2026-09-07T02:07:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4c7a3f60f373",
@@ -137,7 +137,7 @@
     "confidence": 0.93,
     "source_document": "_document_ - Necroptosis a regulated inflammatory mode of cell death.md",
     "created": "2026-09-07T02:09:23Z",
-    "updated": "2026-09-07T02:09:23Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "be47aea66204",
@@ -179,7 +179,7 @@
     "confidence": 0.82,
     "source_document": "_document_ - Necroptosis a regulated inflammatory mode of cell death.md",
     "created": "2026-09-07T02:09:23Z",
-    "updated": "2026-09-07T02:09:23Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "810c3f706bfc",
@@ -193,7 +193,7 @@
     "confidence": 0.75,
     "source_document": "_document_ - Necroptosis a regulated inflammatory mode of cell death.md",
     "created": "2026-09-07T02:27:28Z",
-    "updated": "2026-09-07T02:27:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7744b79d5949",
@@ -210,7 +210,7 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "dc1176d81e7f",
+    "id": "fed45a1bed65",
     "subject": "Apaf-1",
     "predicate": "activates",
     "object": "Caspase-9",
@@ -221,10 +221,10 @@
     "confidence": 0.95,
     "source_document": "_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9.md",
     "created": "2026-08-29T01:45:00Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "7c6b957cc07b",
+    "id": "1706a90601b8",
     "subject": "Bad",
     "predicate": "inhibits",
     "object": "Bcl-2",
@@ -235,10 +235,10 @@
     "confidence": 0.9,
     "source_document": "_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9.md",
     "created": "2026-08-29T01:45:00Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "557daaa5a812",
+    "id": "b89937d11fde",
     "subject": "BAX",
     "predicate": "triggers",
     "object": "Mitochondrial Permeability Transition Pore",
@@ -249,7 +249,7 @@
     "confidence": 0.93,
     "source_document": "_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9.md",
     "created": "2026-08-29T01:45:00Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8dfdeb9691f3",
@@ -266,7 +266,7 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "10bf8edd0a59",
+    "id": "9da75838f498",
     "subject": "Caspases",
     "predicate": "executes",
     "object": "Apoptosis",
@@ -277,10 +277,10 @@
     "confidence": 0.9,
     "source_document": "Caspases.md",
     "created": "2026-09-02T06:56:57Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:13Z"
   },
   {
-    "id": "b57bbc48780a",
+    "id": "83e8ae5f5a49",
     "subject": "Caspase-1",
     "predicate": "cleaves",
     "object": "Bid",
@@ -291,10 +291,10 @@
     "confidence": 0.88,
     "source_document": "_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9.md",
     "created": "2026-08-29T01:45:00Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "2a6614351a98",
+    "id": "d4559c024b7d",
     "subject": "Caspase-1",
     "predicate": "cleaves",
     "object": "Parkin",
@@ -305,10 +305,10 @@
     "confidence": 0.9,
     "source_document": "_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9.md",
     "created": "2026-08-29T01:45:00Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "68b0e8671d02",
+    "id": "20c872a1cc55",
     "subject": "Caspase-3",
     "predicate": "inhibits",
     "object": "Gasdermin D",
@@ -319,10 +319,10 @@
     "confidence": 0.9,
     "source_document": "_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9.md",
     "created": "2026-08-29T01:45:00Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "010494658a59",
+    "id": "6dcbc8c4fa7c",
     "subject": "Caspase-3",
     "predicate": "activates",
     "object": "Gasdermin E",
@@ -333,7 +333,7 @@
     "confidence": 0.92,
     "source_document": "_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9.md",
     "created": "2026-08-29T01:45:00Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d3f9d15bc07f",
@@ -361,10 +361,10 @@
     "confidence": 0.8,
     "source_document": "Executioner Caspase.md",
     "created": "2026-09-02T06:56:57Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "16424d506b55",
+    "id": "8736685c63e4",
     "subject": "Gasdermin E",
     "predicate": "induces",
     "object": "Pyroptosis",
@@ -375,10 +375,10 @@
     "confidence": 0.9,
     "source_document": "Gasdermin E.md",
     "created": "2026-08-29T01:45:00Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "aef07c9d1bd4",
+    "id": "12f6fc7405b8",
     "subject": "HO-1",
     "predicate": "regulates",
     "object": "Ferroptosis",
@@ -389,10 +389,10 @@
     "confidence": 0.85,
     "source_document": "_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9.md",
     "created": "2026-08-29T01:45:00Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "15ef7974f957",
+    "id": "022baac5194b",
     "subject": "IL-1α",
     "predicate": "is_processed_by",
     "object": "Gasdermin D",
@@ -403,7 +403,7 @@
     "confidence": 0.8,
     "source_document": "Caspase-11.md",
     "created": "2026-09-02T06:56:57Z",
-    "updated": "2026-09-02T06:56:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1611c23ccca1",
@@ -417,7 +417,7 @@
     "confidence": 0.9,
     "source_document": "Liproxstatin-1.md",
     "created": "2026-09-02T06:56:57Z",
-    "updated": "2026-09-02T06:56:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d8007d92db03",
@@ -574,7 +574,7 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "6ac80183ecdc",
+    "id": "e29b95b60f32",
     "subject": "Puma",
     "predicate": "inhibits",
     "object": "Bcl-xL",
@@ -585,7 +585,7 @@
     "confidence": 0.92,
     "source_document": "_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9.md",
     "created": "2026-08-29T01:45:00Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3bb2361b4737",
@@ -686,7 +686,7 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "e92916d3e074",
+    "id": "66df9db251a6",
     "subject": "TNFα",
     "predicate": "triggers",
     "object": "necrosome",
@@ -697,7 +697,7 @@
     "confidence": 0.92,
     "source_document": "necrosome.md",
     "created": "2026-08-29T02:00:00Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "499b9c0eff68",
@@ -725,7 +725,7 @@
     "confidence": 0.85,
     "source_document": "Bcl-2.md",
     "created": "2026-09-02T06:00:00Z",
-    "updated": "2026-09-02T06:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c2c4af212b3e",
@@ -781,7 +781,7 @@
     "confidence": 0.85,
     "source_document": "Bcl-2.md",
     "created": "2026-09-02T06:00:00Z",
-    "updated": "2026-09-02T06:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0d306b55f137",
@@ -795,7 +795,7 @@
     "confidence": 0.8,
     "source_document": "Bcl-2.md",
     "created": "2026-09-02T06:00:00Z",
-    "updated": "2026-09-02T06:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5c7350055eed",
@@ -809,7 +809,7 @@
     "confidence": 0.92,
     "source_document": "Necroptosis.md",
     "created": "2026-09-04T17:05:28Z",
-    "updated": "2026-09-04T17:05:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7fe587dc7ed3",
@@ -837,7 +837,7 @@
     "confidence": 0.93,
     "source_document": "Necroptosis.md",
     "created": "2026-09-04T17:05:28Z",
-    "updated": "2026-09-04T17:05:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "191cb7678376",
@@ -865,7 +865,7 @@
     "confidence": 0.9,
     "source_document": "Necrosis.md",
     "created": "2026-09-04T17:05:28Z",
-    "updated": "2026-09-04T17:05:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1382a5525194",
@@ -893,7 +893,7 @@
     "confidence": 0.92,
     "source_document": "Caspase-8.md",
     "created": "2026-09-04T17:05:28Z",
-    "updated": "2026-09-04T17:05:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9fff65266159",
@@ -907,7 +907,7 @@
     "confidence": 0.92,
     "source_document": "Caspase-8.md",
     "created": "2026-09-04T17:05:28Z",
-    "updated": "2026-09-04T17:05:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7c48aa6f8b97",
@@ -921,7 +921,7 @@
     "confidence": 0.9,
     "source_document": "Caspase-8.md",
     "created": "2026-09-04T17:05:28Z",
-    "updated": "2026-09-04T17:05:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4d13cfd615c6",
@@ -1033,7 +1033,7 @@
     "confidence": 0.95,
     "source_document": "Parthanatos.md",
     "created": "2026-09-05T02:54:12Z",
-    "updated": "2026-09-05T02:54:12Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "980a6843db14",
@@ -1075,7 +1075,7 @@
     "confidence": 0.9,
     "source_document": "Parthanatos.md",
     "created": "2026-09-05T02:54:12Z",
-    "updated": "2026-09-05T02:54:12Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "72050d73b275",
@@ -1103,7 +1103,7 @@
     "confidence": 0.9,
     "source_document": "Parthanatos.md",
     "created": "2026-09-05T02:54:12Z",
-    "updated": "2026-09-05T02:54:12Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b48fa48a35bb",
@@ -1117,7 +1117,7 @@
     "confidence": 0.95,
     "source_document": "Ferrostatin-1.md",
     "created": "2026-09-05T02:54:12Z",
-    "updated": "2026-09-05T02:54:12Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2073fccaacb5",
@@ -1131,7 +1131,7 @@
     "confidence": 0.95,
     "source_document": "Z-VAD-FMK.md",
     "created": "2026-09-05T02:54:12Z",
-    "updated": "2026-09-05T02:54:12Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "93e7f6733974",
@@ -1145,10 +1145,10 @@
     "confidence": 0.85,
     "source_document": "Apoptosis.md",
     "created": "2026-09-05T02:54:12Z",
-    "updated": "2026-09-05T02:54:12Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "125b687463fc",
+    "id": "b30b509c4852",
     "subject": "Apoptosis-Inducing Factor",
     "predicate": "induces",
     "object": "chromatin condensation",
@@ -1159,10 +1159,10 @@
     "confidence": 0.95,
     "source_document": "Apoptosis-Inducing Factor.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "65921706d9b7",
+    "id": "cdf9aa761d11",
     "subject": "Apoptosis-Inducing Factor",
     "predicate": "is_released_from",
     "object": "MOMP",
@@ -1173,7 +1173,7 @@
     "confidence": 0.95,
     "source_document": "Apoptosis-Inducing Factor.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "72f19709886a",
@@ -1187,7 +1187,7 @@
     "confidence": 0.95,
     "source_document": "Inhibitor of Apoptosis Proteins.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2c064fa98745",
@@ -1215,7 +1215,7 @@
     "confidence": 0.95,
     "source_document": "Apoptosome.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "01e0c267388d",
@@ -1229,7 +1229,7 @@
     "confidence": 0.95,
     "source_document": "Apoptosome.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5a208cde6928",
@@ -1243,7 +1243,7 @@
     "confidence": 0.95,
     "source_document": "Apoptosome.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "beda81783cf5",
@@ -1257,7 +1257,7 @@
     "confidence": 0.95,
     "source_document": "Apoptosome.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "74ec7a256b04",
@@ -1271,7 +1271,7 @@
     "confidence": 0.95,
     "source_document": "Apoptosome.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "70f3dda8f9f0",
@@ -1288,7 +1288,7 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "2fb1c8566638",
+    "id": "14d1ea1c8e9d",
     "subject": "Bcl-2 family",
     "predicate": "includes",
     "object": "BAK",
@@ -1299,10 +1299,10 @@
     "confidence": 0.95,
     "source_document": "Bcl-2 family.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "22e52f5f0862",
+    "id": "967bb30bb505",
     "subject": "Bcl-2 family",
     "predicate": "includes",
     "object": "BAX",
@@ -1313,7 +1313,7 @@
     "confidence": 0.95,
     "source_document": "Bcl-2 family.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7de2bfd72a07",
@@ -1327,7 +1327,7 @@
     "confidence": 0.95,
     "source_document": "Bcl-2 family.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "43b43d3d4e78",
@@ -1341,7 +1341,7 @@
     "confidence": 0.95,
     "source_document": "Bcl-2 family.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "43254afeb7f6",
@@ -1355,7 +1355,7 @@
     "confidence": 0.95,
     "source_document": "Bcl-2 family.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6d47db94cc76",
@@ -1369,7 +1369,7 @@
     "confidence": 0.95,
     "source_document": "Bcl-2 family.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "cda5b6787b42",
@@ -1383,7 +1383,7 @@
     "confidence": 0.95,
     "source_document": "Bcl-2 family.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "17a04035ed5e",
@@ -1397,7 +1397,7 @@
     "confidence": 0.95,
     "source_document": "Bcl-2 family.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0ebcbe05706f",
@@ -1411,7 +1411,7 @@
     "confidence": 0.95,
     "source_document": "Bcl-2 family.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f8acdffb4076",
@@ -1425,7 +1425,7 @@
     "confidence": 0.95,
     "source_document": "Bcl-2 family.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9320e52a1f45",
@@ -1439,7 +1439,7 @@
     "confidence": 0.95,
     "source_document": "Bcl-2 family.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "75a021d0c897",
@@ -1453,7 +1453,7 @@
     "confidence": 0.95,
     "source_document": "Bcl-w.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e826df96de42",
@@ -1467,7 +1467,7 @@
     "confidence": 0.95,
     "source_document": "Bcl-w.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "aff311c33959",
@@ -1481,7 +1481,7 @@
     "confidence": 0.95,
     "source_document": "Bcl-w.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "596ce33a289c",
@@ -1495,7 +1495,7 @@
     "confidence": 0.95,
     "source_document": "Bcl-w.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "22489252c1c8",
@@ -1509,7 +1509,7 @@
     "confidence": 0.95,
     "source_document": "Bcl-w.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "945df7ffd003",
@@ -1523,7 +1523,7 @@
     "confidence": 0.95,
     "source_document": "Bcl-w.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "12db0dbc6b67",
@@ -1537,10 +1537,10 @@
     "confidence": 0.75,
     "source_document": "Caspase-10.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "97d0a139b490",
+    "id": "fa5fe2512604",
     "subject": "Caspase-10",
     "predicate": "is_a_type_of",
     "object": "Caspases",
@@ -1551,7 +1551,7 @@
     "confidence": 0.95,
     "source_document": "Caspase-10.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c11cbdf60742",
@@ -1565,7 +1565,7 @@
     "confidence": 0.95,
     "source_document": "Caspase-10.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3749b3d1a53f",
@@ -1579,7 +1579,7 @@
     "confidence": 0.95,
     "source_document": "Caspase-10.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "233fed21636b",
@@ -1593,10 +1593,10 @@
     "confidence": 0.95,
     "source_document": "Caspase-10.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "5842456ed572",
+    "id": "c9f3a35e8b57",
     "subject": "Caspase-12",
     "predicate": "is_a_type_of",
     "object": "Caspases",
@@ -1607,7 +1607,7 @@
     "confidence": 0.95,
     "source_document": "Caspase-12.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "11443071fc6d",
@@ -1621,7 +1621,7 @@
     "confidence": 0.95,
     "source_document": "Caspase-12.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4cda9d20f277",
@@ -1635,7 +1635,7 @@
     "confidence": 0.8,
     "source_document": "Caspase-2.md",
     "created": "2026-09-02T06:33:55Z",
-    "updated": "2026-09-02T06:33:55Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6134eb5b7cd9",
@@ -1649,7 +1649,7 @@
     "confidence": 0.95,
     "source_document": "Caspase-2.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a7f42e7aa2d4",
@@ -1663,10 +1663,10 @@
     "confidence": 0.75,
     "source_document": "Caspase-2.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "df94a124b179",
+    "id": "ffe566dc4c1e",
     "subject": "Caspase-2",
     "predicate": "is_a_type_of",
     "object": "Caspases",
@@ -1677,7 +1677,7 @@
     "confidence": 0.95,
     "source_document": "Caspase-2.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ce201b493f22",
@@ -1691,7 +1691,7 @@
     "confidence": 0.75,
     "source_document": "Caspase-2.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2ecab85710e7",
@@ -1705,7 +1705,7 @@
     "confidence": 0.8,
     "source_document": "Caspase-2.md",
     "created": "2026-09-02T06:33:55Z",
-    "updated": "2026-09-02T06:33:55Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a82da1c5dc03",
@@ -1719,7 +1719,7 @@
     "confidence": 0.95,
     "source_document": "Caspase-2.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b67f1fbb76b8",
@@ -1733,7 +1733,7 @@
     "confidence": 0.82,
     "source_document": "Caspase-2.md",
     "created": "2026-09-02T06:33:55Z",
-    "updated": "2026-09-02T06:33:55Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8bcd6892bb24",
@@ -1747,7 +1747,7 @@
     "confidence": 0.78,
     "source_document": "Caspase-2.md",
     "created": "2026-09-02T06:33:55Z",
-    "updated": "2026-09-02T06:33:55Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9c2d44cf1148",
@@ -1761,7 +1761,7 @@
     "confidence": 0.95,
     "source_document": "Caspase-3.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ef71d9c489ec",
@@ -1775,7 +1775,7 @@
     "confidence": 0.95,
     "source_document": "Caspase-3.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e4812954054a",
@@ -1789,7 +1789,7 @@
     "confidence": 0.95,
     "source_document": "Caspase-3.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "697de2a1652c",
@@ -1803,7 +1803,7 @@
     "confidence": 0.75,
     "source_document": "Caspase-3.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b32f4a5a9ea7",
@@ -1817,7 +1817,7 @@
     "confidence": 0.95,
     "source_document": "Caspase-3.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c94a3cca60d8",
@@ -1831,7 +1831,7 @@
     "confidence": 0.75,
     "source_document": "Caspase-3.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a49bd93172a1",
@@ -1845,7 +1845,7 @@
     "confidence": 0.75,
     "source_document": "Caspase-3.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ff23170e7d32",
@@ -1859,10 +1859,10 @@
     "confidence": 0.95,
     "source_document": "Caspase-3.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "edba13771c63",
+    "id": "79bcbfbaa20f",
     "subject": "Caspase-3",
     "predicate": "is_enhanced_by",
     "object": "PKCδ",
@@ -1873,7 +1873,7 @@
     "confidence": 0.75,
     "source_document": "Caspase-3.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "63c400bec9aa",
@@ -1887,10 +1887,10 @@
     "confidence": 0.95,
     "source_document": "Caspase-3.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "ebd72947aed7",
+    "id": "46ab20588d74",
     "subject": "Caspase-6",
     "predicate": "is_a_type_of",
     "object": "Caspases",
@@ -1901,7 +1901,7 @@
     "confidence": 0.95,
     "source_document": "Caspase-6.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ba6b47e4b01b",
@@ -1915,7 +1915,7 @@
     "confidence": 0.95,
     "source_document": "Caspase-6.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0b01c818fc90",
@@ -1929,7 +1929,7 @@
     "confidence": 0.95,
     "source_document": "Caspase-6.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "300334a89977",
@@ -1943,7 +1943,7 @@
     "confidence": 0.95,
     "source_document": "Caspase-6.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b4849fdf3fce",
@@ -1957,7 +1957,7 @@
     "confidence": 0.95,
     "source_document": "Caspase-6.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "04552343b9ca",
@@ -1971,7 +1971,7 @@
     "confidence": 0.95,
     "source_document": "Caspase-8.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2886448a66c8",
@@ -1985,7 +1985,7 @@
     "confidence": 0.95,
     "source_document": "Caspase-8.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-09-14T23:30:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3f2ca07dd42a",
@@ -1999,7 +1999,7 @@
     "confidence": 0.95,
     "source_document": "Caspase-8.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "92746588755c",
@@ -2013,7 +2013,7 @@
     "confidence": 0.75,
     "source_document": "Caspase-8.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2a16c4a16ebf",
@@ -2027,7 +2027,7 @@
     "confidence": 0.75,
     "source_document": "Caspase-8.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "efeb737e72c4",
@@ -2041,7 +2041,7 @@
     "confidence": 0.95,
     "source_document": "Caspase-8.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "54d269330664",
@@ -2055,7 +2055,7 @@
     "confidence": 0.95,
     "source_document": "Caspase-8.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "38afb3fe7aeb",
@@ -2069,7 +2069,7 @@
     "confidence": 0.95,
     "source_document": "Caspase-9.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c03893640a13",
@@ -2083,7 +2083,7 @@
     "confidence": 0.95,
     "source_document": "Caspase-9.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0ccc04e896d0",
@@ -2097,7 +2097,7 @@
     "confidence": 0.75,
     "source_document": "Caspase-9.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a679c39bc15f",
@@ -2111,7 +2111,7 @@
     "confidence": 0.95,
     "source_document": "Caspase-9.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c64c625064bd",
@@ -2125,7 +2125,7 @@
     "confidence": 0.75,
     "source_document": "Caspase-9.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "16583eee689a",
@@ -2139,10 +2139,10 @@
     "confidence": 0.75,
     "source_document": "Caspase-9.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "4036f8386687",
+    "id": "0cebd5b6df86",
     "subject": "Caspase-9",
     "predicate": "is_inhibited_by",
     "object": "PKCζ",
@@ -2153,7 +2153,7 @@
     "confidence": 0.75,
     "source_document": "Caspase-9.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ed1abe000062",
@@ -2167,7 +2167,7 @@
     "confidence": 0.95,
     "source_document": "Caspase-9.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5285bfa02df0",
@@ -2181,7 +2181,7 @@
     "confidence": 0.95,
     "source_document": "Inhibitor of Apoptosis Proteins.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "860ce86a404f",
@@ -2195,7 +2195,7 @@
     "confidence": 0.95,
     "source_document": "Inhibitor of Apoptosis Proteins.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9edc465024c0",
@@ -2209,7 +2209,7 @@
     "confidence": 0.95,
     "source_document": "Inhibitor of Apoptosis Proteins.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "26f5210bade1",
@@ -2223,7 +2223,7 @@
     "confidence": 0.95,
     "source_document": "Inhibitor of Apoptosis Proteins.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3f327178e7f1",
@@ -2237,10 +2237,10 @@
     "confidence": 0.95,
     "source_document": "Inhibitor of Apoptosis Proteins.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "16c2b61e2f01",
+    "id": "c5f6f2a6f2dc",
     "subject": "Omi-HtrA2",
     "predicate": "antagonizes",
     "object": "Inhibitor of Apoptosis Proteins",
@@ -2251,7 +2251,7 @@
     "confidence": 0.95,
     "source_document": "Inhibitor of Apoptosis Proteins.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "09be50de3c82",
@@ -2279,7 +2279,7 @@
     "confidence": 0.85,
     "source_document": "Pyroptosis.md",
     "created": "2026-09-02T06:33:55Z",
-    "updated": "2026-09-02T06:33:55Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5e45f78bbde2",
@@ -2293,7 +2293,7 @@
     "confidence": 0.85,
     "source_document": "Pyroptosis.md",
     "created": "2026-09-02T06:33:55Z",
-    "updated": "2026-09-02T06:33:55Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "315792d3f96d",
@@ -2321,7 +2321,7 @@
     "confidence": 0.9,
     "source_document": "Pyroptosis.md",
     "created": "2026-09-02T06:33:55Z",
-    "updated": "2026-09-02T06:33:55Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5c46b7008999",
@@ -2349,7 +2349,7 @@
     "confidence": 0.95,
     "source_document": "Inhibitor of Apoptosis Proteins.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "102729d6191f",
@@ -2363,10 +2363,10 @@
     "confidence": 0.95,
     "source_document": "TRAIL.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "cd8c6b97d029",
+    "id": "5309adb542ab",
     "subject": "Apoptosis-Inducing Factor",
     "predicate": "mediates",
     "object": "Apoptosis",
@@ -2377,7 +2377,7 @@
     "confidence": 0.9,
     "source_document": "Apoptosis-Inducing Factor.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-09-04T17:33:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e3011994c587",
@@ -2391,10 +2391,10 @@
     "confidence": 0.85,
     "source_document": "TNFR1.md",
     "created": "2026-09-04T17:50:46Z",
-    "updated": "2026-09-04T17:50:46Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "c20dcaea0fa5",
+    "id": "c1fa957d98f6",
     "subject": "TNFR1",
     "predicate": "activates",
     "object": "NF-κB",
@@ -2405,7 +2405,7 @@
     "confidence": 0.8,
     "source_document": "TNFR1.md",
     "created": "2026-09-04T17:50:46Z",
-    "updated": "2026-09-04T17:50:46Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ac66a05889aa",
@@ -2419,7 +2419,7 @@
     "confidence": 0.92,
     "source_document": "Regulated Cell Death.md",
     "created": "2026-09-04T17:50:46Z",
-    "updated": "2026-09-04T17:50:46Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6609e1885116",
@@ -2433,7 +2433,7 @@
     "confidence": 0.92,
     "source_document": "Regulated Cell Death.md",
     "created": "2026-09-04T17:50:46Z",
-    "updated": "2026-09-04T17:50:46Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3dfd92ba0a52",
@@ -2447,7 +2447,7 @@
     "confidence": 0.9,
     "source_document": "Regulated Cell Death.md",
     "created": "2026-09-04T17:50:46Z",
-    "updated": "2026-09-04T17:50:46Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3fe6bb3751c2",
@@ -2464,7 +2464,7 @@
     "updated": "2026-09-04T17:50:46Z"
   },
   {
-    "id": "256ff9520ee3",
+    "id": "9da1c56ca924",
     "subject": "DAPK",
     "predicate": "inhibits",
     "object": "RIPK1",
@@ -2475,10 +2475,10 @@
     "confidence": 0.9,
     "source_document": "DAPK.md",
     "created": "2026-09-11T16:47:59Z",
-    "updated": "2026-09-11T16:47:59Z"
+    "updated": "2026-09-29T18:36:13Z"
   },
   {
-    "id": "efde98878747",
+    "id": "947e5d57153f",
     "subject": "ROS",
     "predicate": "promotes",
     "object": "RIPK1",
@@ -2489,10 +2489,10 @@
     "confidence": 0.9,
     "source_document": "ROS.md",
     "created": "2026-09-11T16:47:59Z",
-    "updated": "2026-09-11T16:47:59Z"
+    "updated": "2026-09-29T18:36:13Z"
   },
   {
-    "id": "e83a34771252",
+    "id": "99434e79d8ab",
     "subject": "SHP1",
     "predicate": "dephosphorylates",
     "object": "RIPK1",
@@ -2503,10 +2503,10 @@
     "confidence": 0.9,
     "source_document": "SHP1.md",
     "created": "2026-09-11T16:47:59Z",
-    "updated": "2026-09-11T16:47:59Z"
+    "updated": "2026-09-29T18:36:13Z"
   },
   {
-    "id": "ff1e65833759",
+    "id": "37b8f08f4ccc",
     "subject": "PI3K",
     "predicate": "inhibits",
     "object": "RIPK1",
@@ -2517,10 +2517,10 @@
     "confidence": 0.9,
     "source_document": "PI3K.md",
     "created": "2026-09-11T16:47:59Z",
-    "updated": "2026-09-11T16:47:59Z"
+    "updated": "2026-09-29T18:36:13Z"
   },
   {
-    "id": "44d41d3011d2",
+    "id": "f29e6f919f97",
     "subject": "TRIM21",
     "predicate": "ubiquitinates",
     "object": "RIPK1",
@@ -2531,10 +2531,10 @@
     "confidence": 0.9,
     "source_document": "TRIM21.md",
     "created": "2026-09-11T16:47:59Z",
-    "updated": "2026-09-11T16:47:59Z"
+    "updated": "2026-09-29T18:36:13Z"
   },
   {
-    "id": "55df3da07cf7",
+    "id": "1bacb45733c2",
     "subject": "CYLD",
     "predicate": "deubiquitinates",
     "object": "RIPK1",
@@ -2545,10 +2545,10 @@
     "confidence": 0.9,
     "source_document": "CYLD.md",
     "created": "2026-09-11T16:47:59Z",
-    "updated": "2026-09-11T16:47:59Z"
+    "updated": "2026-09-29T18:36:13Z"
   },
   {
-    "id": "28006097a01b",
+    "id": "834a859c80cf",
     "subject": "OTULIN",
     "predicate": "regulates",
     "object": "RIPK1",
@@ -2559,10 +2559,10 @@
     "confidence": 0.9,
     "source_document": "OTULIN.md",
     "created": "2026-09-11T16:47:59Z",
-    "updated": "2026-09-11T16:47:59Z"
+    "updated": "2026-09-29T18:36:13Z"
   },
   {
-    "id": "43bb9518c55f",
+    "id": "908e39fe0af5",
     "subject": "Caspase-6",
     "predicate": "interacts with",
     "object": "RIPK3",
@@ -2573,10 +2573,10 @@
     "confidence": 0.9,
     "source_document": "Caspase-6.md",
     "created": "2026-09-11T16:47:59Z",
-    "updated": "2026-09-11T16:47:59Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "6f988e3d0a26",
+    "id": "9dfe184c6ebc",
     "subject": "ZBP1",
     "predicate": "activates",
     "object": "RIPK3",
@@ -2587,10 +2587,10 @@
     "confidence": 0.9,
     "source_document": "ZBP1.md",
     "created": "2026-09-11T16:47:59Z",
-    "updated": "2026-09-11T16:47:59Z"
+    "updated": "2026-09-29T18:36:13Z"
   },
   {
-    "id": "e9fd5f7bfd30",
+    "id": "61be38fa84a7",
     "subject": "TRIF",
     "predicate": "activates",
     "object": "RIPK3",
@@ -2601,10 +2601,10 @@
     "confidence": 0.9,
     "source_document": "TRIF.md",
     "created": "2026-09-11T16:47:59Z",
-    "updated": "2026-09-11T16:47:59Z"
+    "updated": "2026-09-29T18:36:13Z"
   },
   {
-    "id": "2d4b48e2b3e4",
+    "id": "a61a4fe67c3b",
     "subject": "RSK3",
     "predicate": "phosphorylates",
     "object": "RIPK3",
@@ -2615,10 +2615,10 @@
     "confidence": 0.9,
     "source_document": "RSK3.md",
     "created": "2026-09-11T16:47:59Z",
-    "updated": "2026-09-11T16:47:59Z"
+    "updated": "2026-09-29T18:36:13Z"
   },
   {
-    "id": "82bf7ea98d6c",
+    "id": "9de7c062bad3",
     "subject": "CSNK1G2",
     "predicate": "inhibits",
     "object": "RIPK3",
@@ -2629,10 +2629,10 @@
     "confidence": 0.9,
     "source_document": "CSNK1G2.md",
     "created": "2026-09-11T16:47:59Z",
-    "updated": "2026-09-11T16:47:59Z"
+    "updated": "2026-09-29T18:36:13Z"
   },
   {
-    "id": "af3a7955a015",
+    "id": "08bc042070d5",
     "subject": "RIPK3",
     "predicate": "phosphorylates",
     "object": "CaMKII",
@@ -2643,10 +2643,10 @@
     "confidence": 0.9,
     "source_document": "CaMKII.md",
     "created": "2026-09-11T16:47:59Z",
-    "updated": "2026-09-11T16:47:59Z"
+    "updated": "2026-09-29T18:36:13Z"
   },
   {
-    "id": "db7cd2e90b2d",
+    "id": "eeffa9b475f5",
     "subject": "RIPK3",
     "predicate": "phosphorylates",
     "object": "Pyruvate Dehydrogenase",
@@ -2657,10 +2657,10 @@
     "confidence": 0.9,
     "source_document": "Pyruvate Dehydrogenase.md",
     "created": "2026-09-11T16:47:59Z",
-    "updated": "2026-09-11T16:47:59Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "6f227d9cc211",
+    "id": "3c31e23318a8",
     "subject": "PGAM5",
     "predicate": "amplifies",
     "object": "RIPK3",
@@ -2671,10 +2671,10 @@
     "confidence": 0.9,
     "source_document": "PGAM5.md",
     "created": "2026-09-11T16:47:59Z",
-    "updated": "2026-09-11T16:47:59Z"
+    "updated": "2026-09-29T18:36:13Z"
   },
   {
-    "id": "430450135ffa",
+    "id": "c534c3bccf77",
     "subject": "BRD4",
     "predicate": "upregulates",
     "object": "MLKL",
@@ -2685,10 +2685,10 @@
     "confidence": 0.9,
     "source_document": "BRD4.md",
     "created": "2026-09-11T16:47:59Z",
-    "updated": "2026-09-11T16:47:59Z"
+    "updated": "2026-09-29T18:36:13Z"
   },
   {
-    "id": "398b5184e4e8",
+    "id": "317bb4bfa35b",
     "subject": "HSP90",
     "predicate": "stabilizes",
     "object": "MLKL",
@@ -2699,10 +2699,10 @@
     "confidence": 0.9,
     "source_document": "Hsp90.md",
     "created": "2026-09-11T16:47:59Z",
-    "updated": "2026-09-11T16:47:59Z"
+    "updated": "2026-09-29T18:36:13Z"
   },
   {
-    "id": "0fd05401c6c6",
+    "id": "76bd35820c78",
     "subject": "RIPK1",
     "predicate": "phosphorylates",
     "object": "MLKL",
@@ -2713,10 +2713,10 @@
     "confidence": 0.9,
     "source_document": "RIPK1.md",
     "created": "2026-09-11T16:47:59Z",
-    "updated": "2026-09-11T16:47:59Z"
+    "updated": "2026-09-29T18:36:13Z"
   },
   {
-    "id": "3b632eb7d0fd",
+    "id": "8b9f69f9d171",
     "subject": "TAM Kinases",
     "predicate": "phosphorylates",
     "object": "MLKL",
@@ -2727,7 +2727,7 @@
     "confidence": 0.9,
     "source_document": "TAM Kinases.md",
     "created": "2026-09-11T16:47:59Z",
-    "updated": "2026-09-11T16:47:59Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "28f85d61e157",
@@ -2741,7 +2741,7 @@
     "confidence": 0.95,
     "source_document": "BAX.md",
     "created": "2026-09-12T18:53:13Z",
-    "updated": "2026-09-12T18:54:20Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8c95f8a515b7",
@@ -2755,10 +2755,10 @@
     "confidence": 0.95,
     "source_document": "BAX.md",
     "created": "2026-09-12T18:53:13Z",
-    "updated": "2026-09-12T18:54:20Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "0f5f0a88767f",
+    "id": "3f38474820ed",
     "subject": "Necroptosis",
     "predicate": "releases",
     "object": "Damage-Associated Molecular Patterns",
@@ -2769,10 +2769,10 @@
     "confidence": 0.9,
     "source_document": "Necroptosis.md",
     "created": "2026-09-14T02:30:00Z",
-    "updated": "2026-09-14T02:30:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "469a6bcd8baa",
+    "id": "c1ddf647329f",
     "subject": "Necroptosis",
     "predicate": "induces",
     "object": "Inflammation",
@@ -2783,10 +2783,10 @@
     "confidence": 0.92,
     "source_document": "Necroptosis.md",
     "created": "2026-09-14T02:30:00Z",
-    "updated": "2026-09-14T02:30:00Z"
+    "updated": "2026-09-29T18:36:13Z"
   },
   {
-    "id": "206beb0e83d1",
+    "id": "2ef7ec17cbdc",
     "subject": "RIPK1",
     "predicate": "forms_complex_with",
     "object": "RIPK3",
@@ -2797,10 +2797,10 @@
     "confidence": 0.95,
     "source_document": "necrosome.md",
     "created": "2026-09-14T02:30:00Z",
-    "updated": "2026-09-14T02:30:00Z"
+    "updated": "2026-09-29T18:36:13Z"
   },
   {
-    "id": "77427fdda87c",
+    "id": "47da987e0ba7",
     "subject": "RIPK3",
     "predicate": "activates",
     "object": "MLKL",
@@ -2811,10 +2811,10 @@
     "confidence": 0.95,
     "source_document": "necrosome.md",
     "created": "2026-09-14T02:30:00Z",
-    "updated": "2026-09-14T02:30:00Z"
+    "updated": "2026-09-29T18:36:13Z"
   },
   {
-    "id": "bb8f935b743b",
+    "id": "d031508c6756",
     "subject": "TNFα",
     "predicate": "activates",
     "object": "TNFR1",
@@ -2825,10 +2825,10 @@
     "confidence": 0.92,
     "source_document": "Necroptosis.md",
     "created": "2026-09-14T02:30:00Z",
-    "updated": "2026-09-14T02:30:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "782cf36e9bd6",
+    "id": "df6c08e52935",
     "subject": "Cerulein-Induced Pancreatitis",
     "predicate": "is_driven_by",
     "object": "Necroptosis",
@@ -2839,10 +2839,10 @@
     "confidence": 0.88,
     "source_document": "Cerulein-Induced Pancreatitis.md",
     "created": "2026-09-14T02:30:00Z",
-    "updated": "2026-09-14T03:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "05a1c5bd7266",
+    "id": "0bbc3ffa50d6",
     "subject": "Cerulein-Induced Pancreatitis",
     "predicate": "leads_to",
     "object": "Systemic Inflammatory Response Syndrome",
@@ -2853,10 +2853,10 @@
     "confidence": 0.85,
     "source_document": "Cerulein-Induced Pancreatitis.md",
     "created": "2026-09-14T02:30:00Z",
-    "updated": "2026-09-14T02:30:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "24eb097fca06",
+    "id": "0b0d2d676ddb",
     "subject": "RIPK3",
     "predicate": "contributes_to",
     "object": "Cerulein-Induced Pancreatitis",
@@ -2867,10 +2867,10 @@
     "confidence": 0.85,
     "source_document": "Cerulein-Induced Pancreatitis.md",
     "created": "2026-09-14T02:30:00Z",
-    "updated": "2026-09-14T02:30:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "44761022c040",
+    "id": "c4970ebb2c7f",
     "subject": "MLKL",
     "predicate": "contributes_to",
     "object": "Cerulein-Induced Pancreatitis",
@@ -2881,10 +2881,10 @@
     "confidence": 0.7,
     "source_document": "Cerulein-Induced Pancreatitis.md",
     "created": "2026-09-14T02:30:00Z",
-    "updated": "2026-09-14T02:30:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "e5e4a9e39539",
+    "id": "d680734e28e4",
     "subject": "Necrostatin-1",
     "predicate": "protects_against",
     "object": "Cerulein-Induced Pancreatitis",
@@ -2895,10 +2895,10 @@
     "confidence": 0.83,
     "source_document": "Cerulein-Induced Pancreatitis.md",
     "created": "2026-09-14T02:30:00Z",
-    "updated": "2026-09-14T02:30:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "54e2e8884a59",
+    "id": "4f9e15cb0858",
     "subject": "Necrostatin-1s",
     "predicate": "inhibits",
     "object": "RIPK1",
@@ -2909,10 +2909,10 @@
     "confidence": 0.9,
     "source_document": "Necrostatin-1s.md",
     "created": "2026-09-14T02:30:00Z",
-    "updated": "2026-09-14T02:30:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "d99c76e635fc",
+    "id": "33df2ee3e664",
     "subject": "Necrostatin-1s",
     "predicate": "inhibits",
     "object": "Necroptosis",
@@ -2923,10 +2923,10 @@
     "confidence": 0.9,
     "source_document": "Necrostatin-1s.md",
     "created": "2026-09-14T02:30:00Z",
-    "updated": "2026-09-14T02:30:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "a8fa0085c35a",
+    "id": "c2c3d64fffc6",
     "subject": "Necrostatin-1s",
     "predicate": "is_successor_of",
     "object": "Necrostatin-1",
@@ -2937,10 +2937,10 @@
     "confidence": 0.85,
     "source_document": "Necrostatin-1s.md",
     "created": "2026-09-14T02:30:00Z",
-    "updated": "2026-09-14T02:30:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "e770489ed510",
+    "id": "e8bd4a70f18c",
     "subject": "Caspase-8",
     "predicate": "cleaves",
     "object": "RIPK1",
@@ -2951,10 +2951,10 @@
     "confidence": 0.93,
     "source_document": "Necroptosis.md",
     "created": "2026-09-14T02:30:00Z",
-    "updated": "2026-09-14T02:30:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "535f67c314f0",
+    "id": "83da7cad29ec",
     "subject": "Caspase-8",
     "predicate": "cleaves",
     "object": "RIPK3",
@@ -2965,7 +2965,7 @@
     "confidence": 0.9,
     "source_document": "Necroptosis.md",
     "created": "2026-09-14T02:30:00Z",
-    "updated": "2026-09-14T02:30:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6e54f2238e6b",
@@ -3007,7 +3007,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
     "created": "2026-09-14T20:00:00Z",
-    "updated": "2026-09-14T20:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8fc4da6fb56c",
@@ -3021,7 +3021,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
     "created": "2026-09-14T20:00:00Z",
-    "updated": "2026-09-14T20:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e8a1a2530e42",
@@ -3035,7 +3035,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
     "created": "2026-09-14T20:00:00Z",
-    "updated": "2026-09-14T20:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "270b8868d40b",
@@ -3049,7 +3049,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
     "created": "2026-09-14T20:00:00Z",
-    "updated": "2026-09-14T20:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3a61a7942b0f",
@@ -3063,7 +3063,7 @@
     "confidence": 0.8,
     "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
     "created": "2026-09-14T20:00:00Z",
-    "updated": "2026-09-14T20:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "365126009738",
@@ -3077,7 +3077,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
     "created": "2026-09-14T20:00:00Z",
-    "updated": "2026-09-14T20:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1e25369c52c6",
@@ -3105,7 +3105,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
     "created": "2026-09-14T20:00:00Z",
-    "updated": "2026-09-14T20:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "129796512557",
@@ -3133,7 +3133,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
     "created": "2026-09-14T20:00:00Z",
-    "updated": "2026-09-14T20:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "147aa3d3694e",
@@ -3147,7 +3147,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
     "created": "2026-09-14T20:00:00Z",
-    "updated": "2026-09-14T20:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7618df425b13",
@@ -3203,7 +3203,7 @@
     "confidence": 0.7,
     "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
     "created": "2026-09-14T20:00:00Z",
-    "updated": "2026-09-14T20:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e225a0edc9a9",
@@ -3217,7 +3217,7 @@
     "confidence": 0.6,
     "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
     "created": "2026-09-14T20:00:00Z",
-    "updated": "2026-09-14T20:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "628c26fedc73",
@@ -3231,7 +3231,7 @@
     "confidence": 0.6,
     "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
     "created": "2026-09-14T20:00:00Z",
-    "updated": "2026-09-14T20:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8b1d00e45550",
@@ -3245,7 +3245,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
     "created": "2026-09-14T20:00:00Z",
-    "updated": "2026-09-14T20:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "95d6cfb7c505",
@@ -3273,7 +3273,7 @@
     "confidence": 0.8,
     "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
     "created": "2026-09-14T20:00:00Z",
-    "updated": "2026-09-14T20:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c4c1ec15c359",
@@ -3315,7 +3315,7 @@
     "confidence": 0.8,
     "source_document": "_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers.md",
     "created": "2026-09-14T20:00:00Z",
-    "updated": "2026-09-14T20:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2e36306d69a8",
@@ -3371,7 +3371,7 @@
     "confidence": 0.9,
     "source_document": "Iduna.md",
     "created": "2026-09-14T21:00:00Z",
-    "updated": "2026-09-14T21:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6aadf675d133",
@@ -3385,7 +3385,7 @@
     "confidence": 0.85,
     "source_document": "Iduna.md",
     "created": "2026-09-14T21:00:00Z",
-    "updated": "2026-09-14T21:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8e919a093a3c",
@@ -3413,7 +3413,7 @@
     "confidence": 0.8,
     "source_document": "H1.2.md",
     "created": "2026-09-14T21:00:00Z",
-    "updated": "2026-09-14T21:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7c5d61e2e11f",
@@ -3427,7 +3427,7 @@
     "confidence": 0.65,
     "source_document": "Cyclophilin A.md",
     "created": "2026-09-14T21:00:00Z",
-    "updated": "2026-09-14T21:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e044d8c50895",
@@ -3567,7 +3567,7 @@
     "confidence": 0.8,
     "source_document": "_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network.md",
     "created": "2026-09-14T22:00:00Z",
-    "updated": "2026-09-14T22:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "09b4d8762f0f",
@@ -3595,7 +3595,7 @@
     "confidence": 0.8,
     "source_document": "_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network.md",
     "created": "2026-09-14T22:00:00Z",
-    "updated": "2026-09-14T22:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c0cc0b5e042b",
@@ -3623,10 +3623,10 @@
     "confidence": 0.8,
     "source_document": "_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network.md",
     "created": "2026-09-14T22:00:00Z",
-    "updated": "2026-09-14T22:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "9c01866f6dcb",
+    "id": "f6a8da8a79dc",
     "subject": "NF-κB",
     "predicate": "promotes",
     "object": "Necroptosis",
@@ -3637,7 +3637,7 @@
     "confidence": 0.75,
     "source_document": "_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network.md",
     "created": "2026-09-14T22:00:00Z",
-    "updated": "2026-09-14T22:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "40c1a7c1bc00",
@@ -3679,7 +3679,7 @@
     "confidence": 0.75,
     "source_document": "Zharp-99.md",
     "created": "2026-09-14T23:00:00Z",
-    "updated": "2026-09-14T23:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f2bb1c013117",
@@ -3693,7 +3693,7 @@
     "confidence": 0.8,
     "source_document": "HG-9-91-01.md",
     "created": "2026-09-14T23:00:00Z",
-    "updated": "2026-09-14T23:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "18a7461b30d0",
@@ -3724,7 +3724,7 @@
     "updated": "2026-09-14T23:00:00Z"
   },
   {
-    "id": "f638ba33d67d",
+    "id": "cab5078a97a7",
     "subject": "Necroptosis",
     "predicate": "is_defined_by",
     "object": "RIPK3",
@@ -3735,10 +3735,10 @@
     "confidence": 0.97,
     "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
     "created": "2026-09-14T23:30:00Z",
-    "updated": "2026-09-14T23:30:00Z"
+    "updated": "2026-09-29T18:36:13Z"
   },
   {
-    "id": "c8c8dda2117d",
+    "id": "d748540b37b5",
     "subject": "c-FLIP",
     "predicate": "suppresses",
     "object": "Necroptosis",
@@ -3749,10 +3749,10 @@
     "confidence": 0.95,
     "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
     "created": "2026-09-14T23:30:00Z",
-    "updated": "2026-09-14T23:30:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "3a4660d3a81b",
+    "id": "c7823778a322",
     "subject": "FADD",
     "predicate": "suppresses",
     "object": "Necroptosis",
@@ -3763,10 +3763,10 @@
     "confidence": 0.95,
     "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
     "created": "2026-09-14T23:30:00Z",
-    "updated": "2026-09-14T23:30:00Z"
+    "updated": "2026-09-29T18:36:13Z"
   },
   {
-    "id": "96ae0c7b2f2c",
+    "id": "ba378ee4e693",
     "subject": "Protein Kinase R",
     "predicate": "phosphorylates",
     "object": "FADD",
@@ -3777,10 +3777,10 @@
     "confidence": 0.85,
     "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
     "created": "2026-09-14T23:30:00Z",
-    "updated": "2026-09-14T23:30:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "a2e9249b8b0b",
+    "id": "1445d37fda85",
     "subject": "Protein Kinase R",
     "predicate": "interacts with",
     "object": "RIPK1",
@@ -3791,10 +3791,10 @@
     "confidence": 0.8,
     "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
     "created": "2026-09-14T23:30:00Z",
-    "updated": "2026-09-14T23:30:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "fcc775835d71",
+    "id": "3237596766be",
     "subject": "Type I Interferon",
     "predicate": "induces",
     "object": "Necroptosis",
@@ -3805,10 +3805,10 @@
     "confidence": 0.9,
     "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
     "created": "2026-09-14T23:30:00Z",
-    "updated": "2026-09-14T23:30:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "4ddd8383af24",
+    "id": "67e81e5a33fd",
     "subject": "Toll-like Receptor",
     "predicate": "triggers",
     "object": "Necroptosis",
@@ -3819,10 +3819,10 @@
     "confidence": 0.85,
     "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
     "created": "2026-09-14T23:30:00Z",
-    "updated": "2026-09-14T23:30:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "54b73789ee7e",
+    "id": "c7272f1da818",
     "subject": "Necroptosis",
     "predicate": "co_occurs_with",
     "object": "Apoptosis",
@@ -3833,10 +3833,10 @@
     "confidence": 0.93,
     "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
     "created": "2026-09-14T23:30:00Z",
-    "updated": "2026-09-14T23:30:00Z"
+    "updated": "2026-09-29T18:36:13Z"
   },
   {
-    "id": "1ef87aedcec6",
+    "id": "fd677719bd15",
     "subject": "RIPK3",
     "predicate": "contributes_to",
     "object": "Ischemia-reperfusion Injury",
@@ -3847,10 +3847,10 @@
     "confidence": 0.9,
     "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
     "created": "2026-09-14T23:30:00Z",
-    "updated": "2026-09-14T23:30:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "44de498a6c4c",
+    "id": "c8bec3424b94",
     "subject": "Necrostatin-1",
     "predicate": "worsens",
     "object": "Cerulein-Induced Pancreatitis",
@@ -3861,10 +3861,10 @@
     "confidence": 0.85,
     "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
     "created": "2026-09-14T23:30:00Z",
-    "updated": "2026-09-14T23:30:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "e7e6d20d5e59",
+    "id": "cd2a2b0ae2ff",
     "subject": "Necrostatin-1",
     "predicate": "inhibits",
     "object": "IDO1",
@@ -3875,10 +3875,10 @@
     "confidence": 0.9,
     "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
     "created": "2026-09-14T23:30:00Z",
-    "updated": "2026-09-14T23:30:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "9f8f0674b063",
+    "id": "a329c8379a0e",
     "subject": "SHARPIN",
     "predicate": "regulates",
     "object": "RIPK1",
@@ -3889,10 +3889,10 @@
     "confidence": 0.92,
     "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
     "created": "2026-09-14T23:30:00Z",
-    "updated": "2026-09-14T23:30:00Z"
+    "updated": "2026-09-29T18:36:13Z"
   },
   {
-    "id": "6184f89c5933",
+    "id": "ae6d81c19d67",
     "subject": "Necroptosis",
     "predicate": "contributes_to",
     "object": "Inflammatory Bowel Disease",
@@ -3903,10 +3903,10 @@
     "confidence": 0.85,
     "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
     "created": "2026-09-14T23:30:00Z",
-    "updated": "2026-09-14T23:30:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "bf33c7692fee",
+    "id": "ca8393a5dcff",
     "subject": "Necroptosis",
     "predicate": "contributes_to",
     "object": "Crohn's Disease",
@@ -3917,10 +3917,10 @@
     "confidence": 0.8,
     "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
     "created": "2026-09-14T23:30:00Z",
-    "updated": "2026-09-14T23:30:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "4f2555250356",
+    "id": "3692a2891f3a",
     "subject": "A20",
     "predicate": "deubiquitinates",
     "object": "RIPK1",
@@ -3931,10 +3931,10 @@
     "confidence": 0.9,
     "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
     "created": "2026-09-14T23:30:00Z",
-    "updated": "2026-09-14T23:30:00Z"
+    "updated": "2026-09-29T18:36:13Z"
   },
   {
-    "id": "390a9cda4742",
+    "id": "08d4e73ab2c5",
     "subject": "Damage-Associated Molecular Patterns",
     "predicate": "induce",
     "object": "Inflammation",
@@ -3945,10 +3945,10 @@
     "confidence": 0.92,
     "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
     "created": "2026-09-14T23:30:00Z",
-    "updated": "2026-09-14T23:30:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "2a55b74b9721",
+    "id": "90939c7ee33f",
     "subject": "Cyclophilin D",
     "predicate": "mediates",
     "object": "Mitochondrial Permeability Transition",
@@ -3959,10 +3959,10 @@
     "confidence": 0.95,
     "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
     "created": "2026-09-14T23:30:00Z",
-    "updated": "2026-09-14T23:30:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "4258064e548e",
+    "id": "a3814062e9a6",
     "subject": "Cyclosporine A",
     "predicate": "inhibits",
     "object": "Mitochondrial Permeability Transition",
@@ -3973,10 +3973,10 @@
     "confidence": 0.95,
     "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
     "created": "2026-09-14T23:30:00Z",
-    "updated": "2026-09-14T23:30:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "840f7830fd7f",
+    "id": "abcc2b2d28c1",
     "subject": "Sanglifehrin A",
     "predicate": "inhibits",
     "object": "Mitochondrial Permeability Transition",
@@ -3987,10 +3987,10 @@
     "confidence": 0.9,
     "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
     "created": "2026-09-14T23:30:00Z",
-    "updated": "2026-09-14T23:30:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "1054fa0d6dae",
+    "id": "c8847e50d6c6",
     "subject": "Mitochondrial Permeability Transition",
     "predicate": "is_distinct_from",
     "object": "Necroptosis",
@@ -4001,10 +4001,10 @@
     "confidence": 0.93,
     "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
     "created": "2026-09-14T23:30:00Z",
-    "updated": "2026-09-14T23:30:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "b1568067291c",
+    "id": "50461f8b4e43",
     "subject": "Mitochondrial Permeability Transition",
     "predicate": "is_a_type_of",
     "object": "Regulated Cell Death",
@@ -4015,10 +4015,10 @@
     "confidence": 0.92,
     "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
     "created": "2026-09-14T23:30:00Z",
-    "updated": "2026-09-14T23:30:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "19691530876b",
+    "id": "71ac364a8f9a",
     "subject": "SIRT2",
     "predicate": "contributes_to",
     "object": "Necroptosis",
@@ -4029,10 +4029,10 @@
     "confidence": 0.8,
     "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
     "created": "2026-09-14T23:30:00Z",
-    "updated": "2026-09-14T23:30:00Z"
+    "updated": "2026-09-29T18:36:13Z"
   },
   {
-    "id": "5bf78c10e7c2",
+    "id": "01a7cc56814a",
     "subject": "Acid Sphingomyelinase",
     "predicate": "contributes_to",
     "object": "Necroptosis",
@@ -4043,10 +4043,10 @@
     "confidence": 0.7,
     "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
     "created": "2026-09-14T23:30:00Z",
-    "updated": "2026-09-14T23:30:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "a5815f9cde9d",
+    "id": "460ce93b368c",
     "subject": "TNFα",
     "predicate": "induces",
     "object": "Apoptosis",
@@ -4057,10 +4057,10 @@
     "confidence": 0.9,
     "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
     "created": "2026-09-14T23:30:00Z",
-    "updated": "2026-09-14T23:30:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "45c6c9d8360d",
+    "id": "aded891e10ba",
     "subject": "Z-VAD-FMK",
     "predicate": "promotes",
     "object": "Necroptosis",
@@ -4071,10 +4071,10 @@
     "confidence": 0.9,
     "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
     "created": "2026-09-14T23:30:00Z",
-    "updated": "2026-09-14T23:30:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "5c455d0fbf93",
+    "id": "237170054ce4",
     "subject": "TNFR1",
     "predicate": "is_dispensable_for",
     "object": "Ischemia-reperfusion Injury",
@@ -4085,10 +4085,10 @@
     "confidence": 0.85,
     "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
     "created": "2026-09-14T23:30:00Z",
-    "updated": "2026-09-14T23:30:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "1c5786d6f353",
+    "id": "b26fe62de13d",
     "subject": "Necroptosis",
     "predicate": "contributes_to",
     "object": "Sepsis",
@@ -4099,6 +4099,6 @@
     "confidence": 0.6,
     "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
     "created": "2026-09-14T23:30:00Z",
-    "updated": "2026-09-14T23:30:00Z"
+    "updated": "2026-09-29T18:36:13Z"
   }
 ]

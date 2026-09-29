@@ -1,6 +1,6 @@
 [
   {
-    "id": "3d34644f06bb",
+    "id": "8c03e06668a7",
     "subject": "Acid ceramidase",
     "predicate": "is_encoded_by",
     "object": "ASAH1",
@@ -11,10 +11,10 @@
     "confidence": 0.95,
     "source_document": "task_output_acid_ceramidase_27_July_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "cbce09a2d45b",
+    "id": "f81e7134ce4c",
     "subject": "Acid ceramidase",
     "predicate": "cleaves",
     "object": "Ceramide",
@@ -25,10 +25,10 @@
     "confidence": 0.95,
     "source_document": "task_output_acid_ceramidase_27_July_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "ebf3cc0646e2",
+    "id": "0fdd3023e32f",
     "subject": "Acid ceramidase",
     "predicate": "is_overexpressed_in",
     "object": "Senescent Cells",
@@ -39,10 +39,10 @@
     "confidence": 0.95,
     "source_document": "task_output_acid_ceramidase_27_July_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "31de06bd2490",
+    "id": "b2b087dbe588",
     "subject": "Acid ceramidase",
     "predicate": "raises",
     "object": "Sphingosine-1-phosphate",
@@ -53,7 +53,7 @@
     "confidence": 0.9,
     "source_document": "task_output_acid_ceramidase_27_July_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "cab9f6ae5e5a",
@@ -67,7 +67,7 @@
     "confidence": 0.95,
     "source_document": "task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T06:56:15Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ab3e2647c7fb",
@@ -81,10 +81,10 @@
     "confidence": 0.85,
     "source_document": "task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "dc06d5c87c3f",
+    "id": "9ebf15aea4a7",
     "subject": "Akt",
     "predicate": "phosphorylates",
     "object": "Caspase-9",
@@ -95,7 +95,7 @@
     "confidence": 0.95,
     "source_document": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e0b84cd387ed",
@@ -179,10 +179,10 @@
     "confidence": 0.9,
     "source_document": "task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "194564608803",
+    "id": "5788255f2cb4",
     "subject": "Antioxidant",
     "predicate": "prevent",
     "object": "Endogenous Antioxidant Upregulation",
@@ -193,7 +193,7 @@
     "confidence": 0.9,
     "source_document": "task_output_mitohormesis_antioxidants_05_August_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-29T15:42:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8a5ea7b9accb",
@@ -207,10 +207,10 @@
     "confidence": 0.85,
     "source_document": "task_output_ap1_trace_21_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "02638031e61c",
+    "id": "9c854f1917bd",
     "subject": "AP-1",
     "predicate": "co_regulates_with",
     "object": "NF-κB",
@@ -221,7 +221,7 @@
     "confidence": 0.9,
     "source_document": "task_output_ap1_trace_21_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "af2b0e636f71",
@@ -235,10 +235,10 @@
     "confidence": 0.9,
     "source_document": "task_output_ap1_trace_21_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "ca37ba4631e1",
+    "id": "660ac05299e8",
     "subject": "ARN14794",
     "predicate": "inhibits",
     "object": "Acid ceramidase",
@@ -249,10 +249,10 @@
     "confidence": 0.95,
     "source_document": "task_output_acid_ceramidase_27_July_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "c6c9e5db396c",
+    "id": "a6c44cf52778",
     "subject": "Vitamin C",
     "predicate": "reduces",
     "object": "Adrenochrome",
@@ -263,7 +263,7 @@
     "confidence": 0.75,
     "source_document": "task_output_adrenochrome_protocol_traces_20_AUG_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-29T18:24:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c14518c94f80",
@@ -277,7 +277,7 @@
     "confidence": 0.97,
     "source_document": "task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "70b706f6ae82",
@@ -305,7 +305,7 @@
     "confidence": 0.85,
     "source_document": "task_output_benign_tumor_longevity_14_August_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b3204b8b60bd",
@@ -333,7 +333,7 @@
     "confidence": 0.9,
     "source_document": "task_output_hormesis_overlooked_paradigms_30_Aug_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3ab7e1b7f039",
@@ -361,7 +361,7 @@
     "confidence": 0.9,
     "source_document": "task_output_benign_tumor_longevity_14_August_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ff49386371e6",
@@ -375,7 +375,7 @@
     "confidence": 0.9,
     "source_document": "task_output_ap1_trace_21_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b52021231119",
@@ -403,7 +403,7 @@
     "confidence": 0.95,
     "source_document": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0d08f51778f0",
@@ -417,7 +417,7 @@
     "confidence": 0.95,
     "source_document": "task_output_cr_vs_spermidine_autophagy_15_July_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "aa69a2403ce0",
@@ -431,7 +431,7 @@
     "confidence": 0.95,
     "source_document": "task_output_autophagy_mammals_longevity_22_JULY_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1a51ddae1112",
@@ -445,7 +445,7 @@
     "confidence": 0.9,
     "source_document": "task_output_mitohormesis_antioxidants_05_August_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "85df7fe83ca7",
@@ -459,7 +459,7 @@
     "confidence": 0.9,
     "source_document": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ea4afca20eab",
@@ -504,7 +504,7 @@
     "updated": "2026-09-27T03:43:23Z"
   },
   {
-    "id": "2ddbd701b9c0",
+    "id": "019b47f415f8",
     "subject": "Carmofur",
     "predicate": "inhibits",
     "object": "Acid ceramidase",
@@ -515,7 +515,7 @@
     "confidence": 0.95,
     "source_document": "task_output_acid_ceramidase_27_July_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0b68cd5022dd",
@@ -529,7 +529,7 @@
     "confidence": 0.92,
     "source_document": "task_output_caspase_graph_analysis_28_AUG_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5424e6a64c7c",
@@ -543,7 +543,7 @@
     "confidence": 0.9,
     "source_document": "task_output_caspase_graph_analysis_28_AUG_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3efb465b15e1",
@@ -557,7 +557,7 @@
     "confidence": 0.8,
     "source_document": "task_output_caspase_graph_analysis_28_AUG_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e1a94418c934",
@@ -571,7 +571,7 @@
     "confidence": 0.85,
     "source_document": "task_output_caspase_graph_analysis_28_AUG_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f301d64bbfd4",
@@ -585,7 +585,7 @@
     "confidence": 0.9,
     "source_document": "task_output_sirtuin_caspase_crosstalk_28_AUG_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5c7350055eed",
@@ -599,7 +599,7 @@
     "confidence": 0.85,
     "source_document": "task_output_caspase_graph_analysis_28_AUG_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2bb1cbe8d925",
@@ -613,7 +613,7 @@
     "confidence": 0.9,
     "source_document": "task_output_sirtuin_caspase_crosstalk_28_AUG_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5e4f08f7e1b5",
@@ -627,7 +627,7 @@
     "confidence": 0.95,
     "source_document": "task_output_review_notes_epinephrine_sirtuins_06_July_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-27T03:43:23Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "86ce1113b929",
@@ -641,7 +641,7 @@
     "confidence": 0.95,
     "source_document": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7eeabd0a5187",
@@ -683,7 +683,7 @@
     "confidence": 0.9,
     "source_document": "task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4704fc4df763",
@@ -767,10 +767,10 @@
     "confidence": 0.95,
     "source_document": "task_output_dj1_glycation_trace_27_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "2984299ea868",
+    "id": "a5c10465f8b0",
     "subject": "DJ-1",
     "predicate": "stabilizes",
     "object": "NRF2",
@@ -781,7 +781,7 @@
     "confidence": 0.95,
     "source_document": "task_output_dj1_glycation_trace_27_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3308aaaff9b3",
@@ -837,7 +837,7 @@
     "confidence": 0.8,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "70f290910fa1",
@@ -879,7 +879,7 @@
     "confidence": 0.9,
     "source_document": "task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2ebac243cef3",
@@ -935,7 +935,7 @@
     "confidence": 0.9,
     "source_document": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1f7bd7ca4632",
@@ -977,7 +977,7 @@
     "confidence": 0.9,
     "source_document": "task_output_comt_fisetin_senolytic_09_July_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "acebdf6045e2",
@@ -1061,7 +1061,7 @@
     "confidence": 0.95,
     "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "fa510c1881ca",
@@ -1089,7 +1089,7 @@
     "confidence": 0.9,
     "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "65938c8e660e",
@@ -1103,7 +1103,7 @@
     "confidence": 0.9,
     "source_document": "task_output_mnsod_thioredoxin_link_01_Sep_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "13399c1dc9ce",
@@ -1145,7 +1145,7 @@
     "confidence": 0.8,
     "source_document": "task_output_graph_structure_conclusions_26_AUG_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f4a6f0e13b81",
@@ -1229,7 +1229,7 @@
     "confidence": 0.85,
     "source_document": "task_output_benign_tumor_longevity_14_August_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ffd51fffd410",
@@ -1243,7 +1243,7 @@
     "confidence": 0.96,
     "source_document": "task_output_parallel_relation_links_impact_01_Sep_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6c7f12b6f3ae",
@@ -1257,7 +1257,7 @@
     "confidence": 0.9,
     "source_document": "task_output_hormesis_overlooked_paradigms_30_Aug_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9c5d2ab7d1c7",
@@ -1271,10 +1271,10 @@
     "confidence": 0.9,
     "source_document": "task_output_physiologist_shred_vs_bulk.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-27T03:43:23Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "51b51c1a7575",
+    "id": "4e0337994f02",
     "subject": "Intermittent Hypoxia",
     "predicate": "induces",
     "object": "HIF-1α",
@@ -1285,7 +1285,7 @@
     "confidence": 0.85,
     "source_document": "task_output_hormesis_overlooked_paradigms_30_Aug_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-29T18:24:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "798227fcb8ff",
@@ -1316,7 +1316,7 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "6796e55d7179",
+    "id": "757b20f870e5",
     "subject": "Ivermectin",
     "predicate": "suppresses",
     "object": "NF-κB",
@@ -1327,7 +1327,7 @@
     "confidence": 0.85,
     "source_document": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "96b05bab8933",
@@ -1355,7 +1355,7 @@
     "confidence": 0.95,
     "source_document": "task_output_ivermectin_cancer_14_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e4646cbfa826",
@@ -1383,7 +1383,7 @@
     "confidence": 0.85,
     "source_document": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "cc83e05124d5",
@@ -1495,7 +1495,7 @@
     "confidence": 0.9,
     "source_document": "task_output_acid_ceramidase_27_July_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4400ca0bc49c",
@@ -1509,7 +1509,7 @@
     "confidence": 0.95,
     "source_document": "task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "fd9c443f87b2",
@@ -1565,7 +1565,7 @@
     "confidence": 0.88,
     "source_document": "task_output_adrenochrome_protocol_traces_round2_21_AUG_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4f56ba820160",
@@ -1579,7 +1579,7 @@
     "confidence": 0.85,
     "source_document": "task_output_adrenochrome_protocol_traces_20_AUG_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "363c254ddbb2",
@@ -1593,7 +1593,7 @@
     "confidence": 0.9,
     "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e1aa16273f7a",
@@ -1607,7 +1607,7 @@
     "confidence": 0.85,
     "source_document": "task_output_hormesis_overlooked_paradigms_30_Aug_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "edba794b7bb1",
@@ -1649,7 +1649,7 @@
     "confidence": 0.9,
     "source_document": "task_output_mitohormesis_antioxidants_05_August_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "865492a9cf54",
@@ -1691,7 +1691,7 @@
     "confidence": 0.95,
     "source_document": "task_output_mnsod_thioredoxin_link_01_Sep_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d1d11f89c2d4",
@@ -1719,7 +1719,7 @@
     "confidence": 0.85,
     "source_document": "task_output_mnsod_thioredoxin_link_01_Sep_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "78534c709bf6",
@@ -1761,7 +1761,7 @@
     "confidence": 0.95,
     "source_document": "task_output_mitohormesis_antioxidants_05_August_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "451f92bc6991",
@@ -1775,7 +1775,7 @@
     "confidence": 0.85,
     "source_document": "task_output_mitohormesis_antioxidants_05_August_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f109fb1607cf",
@@ -1817,7 +1817,7 @@
     "confidence": 0.95,
     "source_document": "task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2efdb9ac65b5",
@@ -1845,7 +1845,7 @@
     "confidence": 0.85,
     "source_document": "task_output_adrenochrome_protocol_traces_round2_21_AUG_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3b829099f7a9",
@@ -1859,7 +1859,7 @@
     "confidence": 0.9,
     "source_document": "task_output_adrenochrome_protocol_traces_round2_21_AUG_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "321a4ab2b427",
@@ -1873,7 +1873,7 @@
     "confidence": 0.9,
     "source_document": "task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "35184ca2b8a9",
@@ -1915,7 +1915,7 @@
     "confidence": 0.9,
     "source_document": "task_output_benign_tumor_longevity_14_August_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2b5853ae3013",
@@ -1929,7 +1929,7 @@
     "confidence": 0.9,
     "source_document": "task_output_benign_tumor_longevity_14_August_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a936ff50c258",
@@ -1943,7 +1943,7 @@
     "confidence": 0.85,
     "source_document": "task_output_benign_tumor_longevity_14_August_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a54dcd3f97dc",
@@ -1985,7 +1985,7 @@
     "confidence": 0.95,
     "source_document": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "cea4b04f013b",
@@ -2013,7 +2013,7 @@
     "confidence": 0.95,
     "source_document": "task_output_caspase_01_JUN_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6cdf47ceac51",
@@ -2027,7 +2027,7 @@
     "confidence": 0.95,
     "source_document": "task_output_dj1_glycation_trace_27_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5e7cce22a22f",
@@ -2041,10 +2041,10 @@
     "confidence": 0.9,
     "source_document": "task_output_mnsod_thioredoxin_link_01_Sep_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "c3740bbdd14c",
+    "id": "56093cf33822",
     "subject": "PGC-1α",
     "predicate": "drives",
     "object": "MnSOD",
@@ -2055,10 +2055,10 @@
     "confidence": 0.9,
     "source_document": "task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-29T18:24:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "ca037d082a1f",
+    "id": "38b9b756b5ec",
     "subject": "PGC-1α",
     "predicate": "activates",
     "object": "TFEB",
@@ -2069,7 +2069,7 @@
     "confidence": 0.85,
     "source_document": "task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-29T18:24:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5e355e8d9cd3",
@@ -2125,7 +2125,7 @@
     "confidence": 0.95,
     "source_document": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b04e6a330fd6",
@@ -2139,7 +2139,7 @@
     "confidence": 0.9,
     "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a04c01d47f96",
@@ -2268,7 +2268,7 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "d9368c56f467",
+    "id": "50bcf20346dc",
     "subject": "RSK",
     "predicate": "phosphorylates",
     "object": "Apaf-1",
@@ -2279,7 +2279,7 @@
     "confidence": 0.95,
     "source_document": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "50fc0fe931d2",
@@ -2293,7 +2293,7 @@
     "confidence": 0.9,
     "source_document": "task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4f4410fc733a",
@@ -2307,7 +2307,7 @@
     "confidence": 0.85,
     "source_document": "task_output_benign_tumor_longevity_14_August_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e1f682bc58ee",
@@ -2321,7 +2321,7 @@
     "confidence": 0.95,
     "source_document": "task_output_caspase_01_JUN_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7107706dc731",
@@ -2363,7 +2363,7 @@
     "confidence": 0.8,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9fecb1acb722",
@@ -2405,7 +2405,7 @@
     "confidence": 0.95,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "10526f2be5ca",
@@ -2419,7 +2419,7 @@
     "confidence": 0.9,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3a0c3e3def75",
@@ -2433,7 +2433,7 @@
     "confidence": 0.85,
     "source_document": "task_output_sirtuin_caspase_crosstalk_28_AUG_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "eb419b39e91e",
@@ -2503,7 +2503,7 @@
     "confidence": 0.85,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ba84fe01ff58",
@@ -2517,7 +2517,7 @@
     "confidence": 0.85,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "468c52ce6b58",
@@ -2531,7 +2531,7 @@
     "confidence": 0.85,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9194f49ccf94",
@@ -2573,7 +2573,7 @@
     "confidence": 0.85,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "134fe02abd7a",
@@ -2587,7 +2587,7 @@
     "confidence": 0.9,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a31ba97192ed",
@@ -2601,7 +2601,7 @@
     "confidence": 0.85,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "094023554e3e",
@@ -2615,7 +2615,7 @@
     "confidence": 0.85,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c1a1e15a11c0",
@@ -2629,7 +2629,7 @@
     "confidence": 0.95,
     "source_document": "task_output_alphafold_report_NAD+_26_JUN_2026.md",
     "created": "2026-08-24T21:29:14Z",
-    "updated": "2026-08-24T21:29:14Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b1fb37a608e4",
@@ -2643,7 +2643,7 @@
     "confidence": 0.85,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0687eaf33e58",
@@ -2657,10 +2657,10 @@
     "confidence": 0.9,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "72439b51311c",
+    "id": "73eea88d91b4",
     "subject": "SIRT1",
     "predicate": "deacetylates",
     "object": "NF-κB",
@@ -2671,7 +2671,7 @@
     "confidence": 0.95,
     "source_document": "task_output_review_notes_epinephrine_sirtuins_06_July_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b65e6365a245",
@@ -2727,7 +2727,7 @@
     "confidence": 0.85,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "110a51c460fd",
@@ -2783,7 +2783,7 @@
     "confidence": 0.9,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4f9570fdef03",
@@ -2839,7 +2839,7 @@
     "confidence": 0.8,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c6abea36b59a",
@@ -2867,7 +2867,7 @@
     "confidence": 0.85,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "67887772ac4a",
@@ -2895,7 +2895,7 @@
     "confidence": 0.9,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5b1bbf438eef",
@@ -2923,7 +2923,7 @@
     "confidence": 0.8,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d1370c84354b",
@@ -2937,7 +2937,7 @@
     "confidence": 0.85,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2f55fe2dc9c1",
@@ -2965,7 +2965,7 @@
     "confidence": 0.85,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6d28d605ce6e",
@@ -2993,7 +2993,7 @@
     "confidence": 0.85,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "84a10af23007",
@@ -3007,7 +3007,7 @@
     "confidence": 0.85,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "aadfa53316b4",
@@ -3049,7 +3049,7 @@
     "confidence": 0.9,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3a56cd87a0db",
@@ -3063,7 +3063,7 @@
     "confidence": 0.85,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6b41e7ab32d9",
@@ -3105,7 +3105,7 @@
     "confidence": 0.85,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9a7ea21e77f6",
@@ -3119,7 +3119,7 @@
     "confidence": 0.85,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ce80435f1896",
@@ -3133,7 +3133,7 @@
     "confidence": 0.85,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "705a833a7d55",
@@ -3147,7 +3147,7 @@
     "confidence": 0.9,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "41d3c665b52e",
@@ -3203,7 +3203,7 @@
     "confidence": 0.8,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8ec09701712a",
@@ -3217,10 +3217,10 @@
     "confidence": 0.9,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "6702a6d76c74",
+    "id": "426c26cc2d89",
     "subject": "SIRT3",
     "predicate": "destabilizes",
     "object": "HIF-1α",
@@ -3231,7 +3231,7 @@
     "confidence": 0.85,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3e4a88247a6b",
@@ -3259,7 +3259,7 @@
     "confidence": 0.85,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d5924690b0cd",
@@ -3273,7 +3273,7 @@
     "confidence": 0.85,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a9f6d84b4b59",
@@ -3287,7 +3287,7 @@
     "confidence": 0.8,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "bdfeb85cd9e9",
@@ -3301,7 +3301,7 @@
     "confidence": 0.85,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "13cbe316cb5a",
@@ -3315,7 +3315,7 @@
     "confidence": 0.95,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "eec8f22889e4",
@@ -3357,7 +3357,7 @@
     "confidence": 0.85,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8a63f12c8cbc",
@@ -3413,7 +3413,7 @@
     "confidence": 0.9,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "945d4fdb6677",
@@ -3427,7 +3427,7 @@
     "confidence": 0.9,
     "source_document": "task_output_adrenochrome_protocol_traces_round2_21_AUG_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "137ebe483723",
@@ -3455,7 +3455,7 @@
     "confidence": 0.85,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "dc2f049a504c",
@@ -3469,7 +3469,7 @@
     "confidence": 0.9,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b04a0c0897bb",
@@ -3483,7 +3483,7 @@
     "confidence": 0.9,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8672ef124906",
@@ -3497,7 +3497,7 @@
     "confidence": 0.9,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1bccb227dc97",
@@ -3511,7 +3511,7 @@
     "confidence": 0.9,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1686ba0aad22",
@@ -3525,7 +3525,7 @@
     "confidence": 0.85,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "80a9b37f9f05",
@@ -3539,7 +3539,7 @@
     "confidence": 0.85,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d480e5d82321",
@@ -3567,7 +3567,7 @@
     "confidence": 0.8,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "022e57214a09",
@@ -3609,7 +3609,7 @@
     "confidence": 0.85,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "15af73d47985",
@@ -3637,7 +3637,7 @@
     "confidence": 0.8,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7fd265632fc9",
@@ -3651,7 +3651,7 @@
     "confidence": 0.85,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f72b456fe7ec",
@@ -3665,7 +3665,7 @@
     "confidence": 0.9,
     "source_document": "task_output_parallel_relation_links_impact_01_Sep_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4f260051c788",
@@ -3679,7 +3679,7 @@
     "confidence": 0.9,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4a72e8dc3fb2",
@@ -3693,7 +3693,7 @@
     "confidence": 0.9,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e2fce7491a31",
@@ -3721,7 +3721,7 @@
     "confidence": 0.85,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d6fe1b645335",
@@ -3749,7 +3749,7 @@
     "confidence": 0.85,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8255c5e0713c",
@@ -3763,7 +3763,7 @@
     "confidence": 0.9,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "45455e1196de",
@@ -3819,10 +3819,10 @@
     "confidence": 0.85,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "a642c2c535c4",
+    "id": "1d03c89c6428",
     "subject": "SIRT6",
     "predicate": "corepresses",
     "object": "HIF-1α",
@@ -3833,7 +3833,7 @@
     "confidence": 0.9,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1ab4046bced2",
@@ -3861,7 +3861,7 @@
     "confidence": 0.85,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "816ff9cfc0d9",
@@ -3875,7 +3875,7 @@
     "confidence": 0.85,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "825d7e88d152",
@@ -3948,7 +3948,7 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "90ef3723cb08",
+    "id": "928aa2079189",
     "subject": "SIRT6",
     "predicate": "inactivates",
     "object": "TGFβ",
@@ -3959,7 +3959,7 @@
     "confidence": 0.85,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0f029e94b246",
@@ -3973,7 +3973,7 @@
     "confidence": 0.85,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a653e6482a10",
@@ -3987,7 +3987,7 @@
     "confidence": 0.75,
     "source_document": "task_output_sirtuins_pleiotropic_roles_12_August_2026.md",
     "created": "2026-08-24T21:33:07Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7ffb62594378",
@@ -4001,7 +4001,7 @@
     "confidence": 0.9,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6a87b07d29c9",
@@ -4029,7 +4029,7 @@
     "confidence": 0.85,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "bd422206facf",
@@ -4043,7 +4043,7 @@
     "confidence": 0.9,
     "source_document": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b40d7949a398",
@@ -4085,7 +4085,7 @@
     "confidence": 0.95,
     "source_document": "tbl_senescent_compounds_normalized.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3c3fa02f1dae",
@@ -4141,7 +4141,7 @@
     "confidence": 0.95,
     "source_document": "task_output_sirt1_ktype_allosteric_activation_14_August_2026.md",
     "created": "2026-08-24T21:29:14Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "dc973b7f5e41",
@@ -4155,7 +4155,7 @@
     "confidence": 0.9,
     "source_document": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4890ce72d423",
@@ -4239,7 +4239,7 @@
     "confidence": 0.92,
     "source_document": "task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-27T03:43:39Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5fffa19a7518",
@@ -4253,7 +4253,7 @@
     "confidence": 0.95,
     "source_document": "task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "441ee29af312",
@@ -4267,7 +4267,7 @@
     "confidence": 0.7,
     "source_document": "task_output_mnsod_thioredoxin_link_01_Sep_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "97417f41402b",
@@ -4281,7 +4281,7 @@
     "confidence": 0.92,
     "source_document": "task_output_mnsod_thioredoxin_link_01_Sep_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2058bd76cfe4",
@@ -4365,7 +4365,7 @@
     "confidence": 0.9,
     "source_document": "task_output_mitohormesis_antioxidants_05_August_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "39562da4abf6",
@@ -4379,7 +4379,7 @@
     "confidence": 0.9,
     "source_document": "task_output_mitohormesis_antioxidants_05_August_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2597144c0e6d",
@@ -4393,7 +4393,7 @@
     "confidence": 0.95,
     "source_document": "task_output_caspase_graph_analysis_28_AUG_2026.md",
     "created": "2026-09-02T06:44:06Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3bb2361b4737",
@@ -4421,7 +4421,7 @@
     "confidence": 0.95,
     "source_document": "task_output_tbl_cell_death_comparison_03_SEP_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0fa3eaa33d2d",
@@ -4435,7 +4435,7 @@
     "confidence": 0.9,
     "source_document": "task_output_tbl_cell_death_comparison_03_SEP_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "70f5e2fa26be",
@@ -4463,7 +4463,7 @@
     "confidence": 0.9,
     "source_document": "task_output_tbl_cell_death_comparison_03_SEP_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "389261ca212d",
@@ -4477,7 +4477,7 @@
     "confidence": 0.9,
     "source_document": "task_output_tbl_cell_death_comparison_03_SEP_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "bce6a3757513",
@@ -4505,7 +4505,7 @@
     "confidence": 0.9,
     "source_document": "task_output_tbl_cell_death_comparison_03_SEP_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "df0ff4ae4454",
@@ -4533,7 +4533,7 @@
     "confidence": 0.8,
     "source_document": "task_output_tbl_cell_death_comparison_03_SEP_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "844ff6fecf59",
@@ -4603,7 +4603,7 @@
     "confidence": 0.85,
     "source_document": "task_output_senescence_research_gaps_18_August_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "41738f1e85d5",
@@ -4659,7 +4659,7 @@
     "confidence": 0.75,
     "source_document": "task_output_senescence_research_gaps_18_August_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-27T03:43:23Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "80b85e97d70a",
@@ -4704,7 +4704,7 @@
     "updated": "2026-09-04T16:40:50Z"
   },
   {
-    "id": "2ae94ad4bc93",
+    "id": "7cb221e45023",
     "subject": "SIRT1",
     "predicate": "deacetylates",
     "object": "14-3-3",
@@ -4715,7 +4715,7 @@
     "confidence": 0.78,
     "source_document": "task_output_sirtuin_caspase_crosstalk_28_AUG_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "923b6cf6bfc2",
@@ -4743,7 +4743,7 @@
     "confidence": 0.75,
     "source_document": "task_output_sirtuin_caspase_crosstalk_28_AUG_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0961c10a3d08",
@@ -4897,7 +4897,7 @@
     "confidence": 0.9,
     "source_document": "task_output_ferroptosis_vs_apoptosis_cancer_26_AUG_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b1e3cad13ebe",
@@ -4928,7 +4928,7 @@
     "updated": "2026-09-04T16:40:50Z"
   },
   {
-    "id": "1a1ca9d1778b",
+    "id": "593d7824fcf0",
     "subject": "Thioredoxin-1",
     "predicate": "reduces",
     "object": "ribonucleotide reductase",
@@ -4939,10 +4939,10 @@
     "confidence": 0.9,
     "source_document": "task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "d2475f61523b",
+    "id": "e86f24a08f21",
     "subject": "Triapine",
     "predicate": "inhibits",
     "object": "ribonucleotide reductase",
@@ -4953,10 +4953,10 @@
     "confidence": 0.8,
     "source_document": "task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "1ab6733897fd",
+    "id": "399a2e9c0e23",
     "subject": "Hydroxyurea",
     "predicate": "inhibits",
     "object": "ribonucleotide reductase",
@@ -4967,7 +4967,7 @@
     "confidence": 0.8,
     "source_document": "task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6c530a1088f9",
@@ -4981,7 +4981,7 @@
     "confidence": 0.8,
     "source_document": "task_output_mnsod_thioredoxin_link_01_Sep_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7c5362e43913",
@@ -4995,7 +4995,7 @@
     "confidence": 0.75,
     "source_document": "task_output_mnsod_thioredoxin_link_01_Sep_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "85fc611befde",
@@ -5037,7 +5037,7 @@
     "confidence": 0.85,
     "source_document": "task_output_autophagy_mammals_longevity_22_JULY_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "85e6407efbdd",
@@ -5152,7 +5152,7 @@
     "updated": "2026-09-04T16:40:50Z"
   },
   {
-    "id": "2fc9a3c24f97",
+    "id": "a03f1aaf2e13",
     "subject": "Caloric Restriction",
     "predicate": "reduces",
     "object": "IGF1",
@@ -5163,10 +5163,10 @@
     "confidence": 0.85,
     "source_document": "task_output_cr_vs_spermidine_autophagy_15_July_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-29T16:40:48Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "b4b2ab4f8254",
+    "id": "f1bef0b32add",
     "subject": "Caloric Restriction",
     "predicate": "activates",
     "object": "PGC-1α",
@@ -5177,7 +5177,7 @@
     "confidence": 0.85,
     "source_document": "task_output_cr_vs_spermidine_autophagy_15_July_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-29T18:24:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2a66a793c6e0",
@@ -5191,7 +5191,7 @@
     "confidence": 0.85,
     "source_document": "task_output_mitochondria_fusion_fission_27_JUL_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b00917d8d5b4",
@@ -5205,7 +5205,7 @@
     "confidence": 0.85,
     "source_document": "task_output_mitochondria_fusion_fission_27_JUL_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "fbe5287759ed",
@@ -5219,10 +5219,10 @@
     "confidence": 0.7,
     "source_document": "task_output_mitochondria_fusion_fission_27_JUL_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "d4a6a5a9f9d1",
+    "id": "3fa9a7064fed",
     "subject": "IL-6",
     "predicate": "induces_upregulation_of",
     "object": "Acid ceramidase",
@@ -5233,10 +5233,10 @@
     "confidence": 0.85,
     "source_document": "task_output_acid_ceramidase_27_July_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "f7bc9e87164b",
+    "id": "0a56e9ed8023",
     "subject": "IL-8",
     "predicate": "induces_upregulation_of",
     "object": "Acid ceramidase",
@@ -5247,10 +5247,10 @@
     "confidence": 0.85,
     "source_document": "task_output_acid_ceramidase_27_July_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "ed282396a4ae",
+    "id": "d69caa9a76b9",
     "subject": "ARN14974",
     "predicate": "inhibits",
     "object": "Acid ceramidase",
@@ -5261,7 +5261,7 @@
     "confidence": 0.9,
     "source_document": "task_output_acid_ceramidase_27_July_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a01ccdf3fe56",
@@ -5275,7 +5275,7 @@
     "confidence": 0.85,
     "source_document": "task_output_ap1_trace_21_JUL_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "982521afe4b6",
@@ -5289,7 +5289,7 @@
     "confidence": 0.8,
     "source_document": "task_output_ap1_trace_21_JUL_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ff974bd294ce",
@@ -5303,7 +5303,7 @@
     "confidence": 0.8,
     "source_document": "task_output_ap1_trace_21_JUL_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3bf3b4123516",
@@ -5317,7 +5317,7 @@
     "confidence": 0.75,
     "source_document": "task_output_ap1_trace_21_JUL_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c6d6eebdd71f",
@@ -5331,7 +5331,7 @@
     "confidence": 0.7,
     "source_document": "task_output_ap1_trace_21_JUL_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "98844e7b6218",
@@ -5345,7 +5345,7 @@
     "confidence": 0.85,
     "source_document": "task_output_benign_tumor_longevity_14_August_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a81ce26a9cfb",
@@ -5373,7 +5373,7 @@
     "confidence": 0.8,
     "source_document": "task_output_caspase_01_JUN_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ec180811427c",
@@ -5387,7 +5387,7 @@
     "confidence": 0.85,
     "source_document": "task_output_caspase_01_JUN_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "281b82b370a4",
@@ -5401,7 +5401,7 @@
     "confidence": 0.8,
     "source_document": "task_output_comt_fisetin_senolytic_09_July_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c50db2093875",
@@ -5432,7 +5432,7 @@
     "updated": "2026-09-04T16:40:50Z"
   },
   {
-    "id": "a9d22da3effc",
+    "id": "65fcb102ed80",
     "subject": "Exercise",
     "predicate": "activates",
     "object": "PGC-1α",
@@ -5443,7 +5443,7 @@
     "confidence": 0.85,
     "source_document": "task_output_mitohormesis_antioxidants_05_August_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-29T18:24:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9173c1126c53",
@@ -5460,7 +5460,7 @@
     "updated": "2026-09-04T16:40:50Z"
   },
   {
-    "id": "8c384f20b8b1",
+    "id": "643dbefc19ca",
     "subject": "PGC-1α",
     "predicate": "drives",
     "object": "Mitochondrial Biogenesis",
@@ -5471,7 +5471,7 @@
     "confidence": 0.9,
     "source_document": "task_output_mitohormesis_antioxidants_05_August_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-29T18:24:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f47977f3eec7",
@@ -5541,7 +5541,7 @@
     "confidence": 0.75,
     "source_document": "task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1911908e6b86",
@@ -5555,7 +5555,7 @@
     "confidence": 0.85,
     "source_document": "task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2f196c8405b1",
@@ -5569,7 +5569,7 @@
     "confidence": 0.8,
     "source_document": "task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "42665f9a5783",
@@ -5583,7 +5583,7 @@
     "confidence": 0.9,
     "source_document": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8f131404f812",
@@ -5597,7 +5597,7 @@
     "confidence": 0.75,
     "source_document": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4d00354408bf",
@@ -5611,7 +5611,7 @@
     "confidence": 0.85,
     "source_document": "task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "494df6319d39",
@@ -5639,7 +5639,7 @@
     "confidence": 0.8,
     "source_document": "task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "cd90ebf83984",
@@ -5653,7 +5653,7 @@
     "confidence": 0.85,
     "source_document": "task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "bb2d419703ff",
@@ -5667,7 +5667,7 @@
     "confidence": 0.78,
     "source_document": "task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5aaa51eb035c",
@@ -5681,7 +5681,7 @@
     "confidence": 0.75,
     "source_document": "task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "babd5464863f",
@@ -5709,10 +5709,10 @@
     "confidence": 0.85,
     "source_document": "task_output_hormesis_overlooked_paradigms_30_Aug_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "4c5fa32620c7",
+    "id": "93e6be475eb8",
     "subject": "Intermittent Hypoxia",
     "predicate": "stabilizes",
     "object": "HIF-1α",
@@ -5723,7 +5723,7 @@
     "confidence": 0.78,
     "source_document": "task_output_hormesis_overlooked_paradigms_30_Aug_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-29T18:24:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4d57235aa86f",
@@ -5737,7 +5737,7 @@
     "confidence": 0.75,
     "source_document": "task_output_hormesis_overlooked_paradigms_30_Aug_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "cf098534a921",
@@ -5779,7 +5779,7 @@
     "confidence": 0.85,
     "source_document": "task_output_review_notes_epinephrine_sirtuins_06_July_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9c50fa4ded4c",
@@ -5807,7 +5807,7 @@
     "confidence": 0.75,
     "source_document": "task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8ded304beda8",
@@ -5835,10 +5835,10 @@
     "confidence": 0.85,
     "source_document": "task_output_dj1_glycation_trace_27_JUL_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "b68f4c83817d",
+    "id": "02ae2a8bbdb6",
     "subject": "DJ-1",
     "predicate": "inhibits",
     "object": "Keap1",
@@ -5849,7 +5849,7 @@
     "confidence": 0.8,
     "source_document": "task_output_dj1_glycation_trace_27_JUL_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7175b5ce2b49",
@@ -5863,7 +5863,7 @@
     "confidence": 0.72,
     "source_document": "task_output_dj1_glycation_trace_27_JUL_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4f1dd867d264",
@@ -5877,7 +5877,7 @@
     "confidence": 0.72,
     "source_document": "task_output_dj1_glycation_trace_27_JUL_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2de91b074bf1",
@@ -5919,7 +5919,7 @@
     "confidence": 0.85,
     "source_document": "task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f19446d38105",
@@ -5933,7 +5933,7 @@
     "confidence": 0.8,
     "source_document": "task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "cb18da3d7f15",
@@ -5961,7 +5961,7 @@
     "confidence": 0.85,
     "source_document": "task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026.md",
     "created": "2026-09-04T16:40:50Z",
-    "updated": "2026-09-04T16:40:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6d942df456b3",
@@ -5989,7 +5989,7 @@
     "confidence": 0.85,
     "source_document": "task_output_anti_ferroptosis_intake_schedule_26_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "80cbf409c9d2",
@@ -6003,7 +6003,7 @@
     "confidence": 0.8,
     "source_document": "task_output_anti_ferroptosis_intake_schedule_26_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "64a3c3f3c298",
@@ -6017,7 +6017,7 @@
     "confidence": 0.9,
     "source_document": "task_output_anti_ferroptosis_intake_schedule_26_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0b884b19793a",
@@ -6031,7 +6031,7 @@
     "confidence": 0.85,
     "source_document": "task_output_anti_ferroptosis_intake_schedule_26_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2c710141bca7",
@@ -6045,7 +6045,7 @@
     "confidence": 0.8,
     "source_document": "task_output_anti_ferroptosis_intake_schedule_26_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0f9cc159973c",
@@ -6059,7 +6059,7 @@
     "confidence": 0.75,
     "source_document": "task_output_anti_ferroptosis_intake_schedule_26_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d4898857f0fa",
@@ -6101,7 +6101,7 @@
     "confidence": 0.9,
     "source_document": "task_output_arh3_par_aif_06_SEP_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "73fd6dccb8d5",
@@ -6115,7 +6115,7 @@
     "confidence": 0.8,
     "source_document": "task_output_arh3_par_aif_06_SEP_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9f9dae889cb9",
@@ -6143,7 +6143,7 @@
     "confidence": 0.45,
     "source_document": "task_output_arh3_par_aif_06_SEP_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e8a58a714f9e",
@@ -6157,7 +6157,7 @@
     "confidence": 0.85,
     "source_document": "task_output_berberine_type2_diabetes_21_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6cb9cbe82250",
@@ -6171,7 +6171,7 @@
     "confidence": 0.85,
     "source_document": "task_output_berberine_type2_diabetes_21_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a075d251074e",
@@ -6185,7 +6185,7 @@
     "confidence": 0.8,
     "source_document": "task_output_berberine_type2_diabetes_21_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0dcdf7a072f8",
@@ -6199,7 +6199,7 @@
     "confidence": 0.8,
     "source_document": "task_output_berberine_type2_diabetes_21_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f9320358795e",
@@ -6269,7 +6269,7 @@
     "confidence": 0.85,
     "source_document": "task_output_bioactive_compounds_aging_formulations_17_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d5ac0f1ae668",
@@ -6297,7 +6297,7 @@
     "confidence": 0.75,
     "source_document": "task_output_bioactive_compounds_aging_formulations_17_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b4181f1f63b0",
@@ -6311,7 +6311,7 @@
     "confidence": 0.9,
     "source_document": "task_output_caspases_kinases_sirtuins_comparison_cell_death_22_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7cd696333d6f",
@@ -6339,7 +6339,7 @@
     "confidence": 0.8,
     "source_document": "task_output_caspases_kinases_sirtuins_comparison_cell_death_22_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "cd974b60dc1f",
@@ -6367,7 +6367,7 @@
     "confidence": 0.85,
     "source_document": "task_output_caspases_kinases_sirtuins_comparison_cell_death_22_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "83e9b70b2f42",
@@ -6479,7 +6479,7 @@
     "confidence": 0.75,
     "source_document": "task_output_cell_death_decision_tree_11_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0dc60a1f7678",
@@ -6507,7 +6507,7 @@
     "confidence": 0.9,
     "source_document": "task_output_cell_death_modality_distribution_research_13_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "26a949480cdb",
@@ -6521,7 +6521,7 @@
     "confidence": 0.9,
     "source_document": "task_output_cell_death_modality_distribution_research_13_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e9dbb0dce81e",
@@ -6619,7 +6619,7 @@
     "confidence": 0.8,
     "source_document": "task_output_cell_death_modality_first_therapy_sex_stratified_13_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e378ae225cbb",
@@ -6647,7 +6647,7 @@
     "confidence": 0.85,
     "source_document": "task_output_cell_death_modality_first_therapy_sex_stratified_13_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "581e67324a5c",
@@ -6661,7 +6661,7 @@
     "confidence": 0.85,
     "source_document": "task_output_cell_death_modality_first_therapy_sex_stratified_13_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ff23170e7d32",
@@ -6675,7 +6675,7 @@
     "confidence": 0.8,
     "source_document": "task_output_cell_death_quadrants_controlled_inflammatory_lens_04_SEP_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "cd43ceda8ab9",
@@ -6759,7 +6759,7 @@
     "confidence": 0.9,
     "source_document": "task_output_cell_death_quadrants_controlled_inflammatory_lens_04_SEP_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b1d12a7f4e0d",
@@ -6773,7 +6773,7 @@
     "confidence": 0.9,
     "source_document": "task_output_cell_death_senescence_research_12_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e953e583211f",
@@ -6787,7 +6787,7 @@
     "confidence": 0.88,
     "source_document": "task_output_cell_death_senescence_research_12_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2435d238ed7c",
@@ -6801,7 +6801,7 @@
     "confidence": 0.9,
     "source_document": "task_output_cell_death_senescence_research_12_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7efcdf25a61a",
@@ -6829,7 +6829,7 @@
     "confidence": 0.85,
     "source_document": "task_output_cell_death_senescence_research_12_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e1c8ee875cd5",
@@ -6843,7 +6843,7 @@
     "confidence": 0.85,
     "source_document": "task_output_cell_death_senescence_research_12_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "de875152322b",
@@ -6857,7 +6857,7 @@
     "confidence": 0.9,
     "source_document": "task_output_cell_death_senescence_research_12_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "43e496744acd",
@@ -6885,7 +6885,7 @@
     "confidence": 0.9,
     "source_document": "task_output_comt_vitamin_e_genotype_gate_24_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "02546da42328",
@@ -6899,7 +6899,7 @@
     "confidence": 0.8,
     "source_document": "task_output_comt_vitamin_e_genotype_gate_24_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7aefda285d3f",
@@ -6955,7 +6955,7 @@
     "confidence": 0.9,
     "source_document": "task_output_hormesis_literature_invisibility_02_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1ec614654bfb",
@@ -6969,7 +6969,7 @@
     "confidence": 0.85,
     "source_document": "task_output_hormesis_literature_invisibility_02_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a2c5d6e47ace",
@@ -6983,7 +6983,7 @@
     "confidence": 0.85,
     "source_document": "task_output_hormesis_literature_invisibility_02_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "fdfc0a7e6994",
@@ -6997,7 +6997,7 @@
     "confidence": 0.8,
     "source_document": "task_output_hormesis_literature_invisibility_02_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "272e7240137e",
@@ -7025,7 +7025,7 @@
     "confidence": 0.8,
     "source_document": "task_output_hormesis_rcd_acd_tier_model_13_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f445fb2f1745",
@@ -7039,7 +7039,7 @@
     "confidence": 0.9,
     "source_document": "task_output_hormesis_rcd_acd_tier_model_13_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "72c1529c6030",
@@ -7081,7 +7081,7 @@
     "confidence": 0.7,
     "source_document": "task_output_hormesis_rcd_acd_tier_model_13_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "98dbf564f3c8",
@@ -7095,7 +7095,7 @@
     "confidence": 0.85,
     "source_document": "task_output_hormesis_rcd_acd_tier_model_13_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "950205fc3d87",
@@ -7137,10 +7137,10 @@
     "confidence": 0.9,
     "source_document": "task_output_hormetic_range_expansion_03_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "a09cd2357816",
+    "id": "248222d01a94",
     "subject": "HIF-1α",
     "predicate": "induces",
     "object": "VEGF",
@@ -7151,7 +7151,7 @@
     "confidence": 0.85,
     "source_document": "task_output_hormetic_range_expansion_03_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-29T18:24:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e510b82ef263",
@@ -7179,7 +7179,7 @@
     "confidence": 0.8,
     "source_document": "task_output_hormetic_range_expansion_03_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "020e593ee158",
@@ -7193,7 +7193,7 @@
     "confidence": 0.75,
     "source_document": "task_output_hormetic_range_expansion_03_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "460ebdd6a4af",
@@ -7207,7 +7207,7 @@
     "confidence": 0.95,
     "source_document": "task_output_lipid_peroxidation_vitamin_e_cluster_24_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "353f003e067d",
@@ -7221,7 +7221,7 @@
     "confidence": 0.95,
     "source_document": "task_output_lipid_peroxidation_vitamin_e_cluster_24_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "70e907c725f7",
@@ -7235,7 +7235,7 @@
     "confidence": 0.9,
     "source_document": "task_output_lipid_peroxidation_vitamin_e_cluster_24_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e0fae0ebe650",
@@ -7249,7 +7249,7 @@
     "confidence": 0.9,
     "source_document": "task_output_lipid_peroxidation_vitamin_e_cluster_24_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "50fd8c48a8f4",
@@ -7263,7 +7263,7 @@
     "confidence": 0.9,
     "source_document": "task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4127f5f67a04",
@@ -7277,7 +7277,7 @@
     "confidence": 0.85,
     "source_document": "task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "53c36c7381b1",
@@ -7291,7 +7291,7 @@
     "confidence": 0.8,
     "source_document": "task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "dc0d27e55a93",
@@ -7305,7 +7305,7 @@
     "confidence": 0.85,
     "source_document": "task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c6c274cde7e9",
@@ -7319,10 +7319,10 @@
     "confidence": 0.85,
     "source_document": "task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "6061f3caa841",
+    "id": "3a6a2a68d1a2",
     "subject": "Retinoic Acid",
     "predicate": "activates",
     "object": "PGC-1α",
@@ -7333,7 +7333,7 @@
     "confidence": 0.8,
     "source_document": "task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-29T18:24:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e94b6a25eefe",
@@ -7347,7 +7347,7 @@
     "confidence": 0.85,
     "source_document": "task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "20d3566e5bcf",
@@ -7361,7 +7361,7 @@
     "confidence": 0.7,
     "source_document": "task_output_queen_palm_biochemical_nutrients_23_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "def5ac1379ae",
@@ -7375,7 +7375,7 @@
     "confidence": 0.75,
     "source_document": "task_output_queen_palm_biochemical_nutrients_23_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1e4175c32362",
@@ -7389,7 +7389,7 @@
     "confidence": 0.85,
     "source_document": "task_output_queen_palm_biochemical_nutrients_23_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "49c90b3162c2",
@@ -7403,7 +7403,7 @@
     "confidence": 0.7,
     "source_document": "task_output_queen_palm_biochemical_nutrients_23_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4527983201a2",
@@ -7417,7 +7417,7 @@
     "confidence": 0.65,
     "source_document": "task_output_queen_palm_biochemical_nutrients_23_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2a43c4289cd9",
@@ -7459,7 +7459,7 @@
     "confidence": 0.85,
     "source_document": "task_output_sasp_pleiotropic_opposing_effects_20_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "09b524d82d31",
@@ -7473,7 +7473,7 @@
     "confidence": 0.85,
     "source_document": "task_output_sasp_pleiotropic_opposing_effects_20_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2c44cb58f882",
@@ -7501,7 +7501,7 @@
     "confidence": 0.7,
     "source_document": "task_output_sasp_pleiotropic_opposing_effects_20_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c7736f38bc6f",
@@ -7515,7 +7515,7 @@
     "confidence": 0.9,
     "source_document": "task_output_hardcoded_individual_biomarker_gates_26_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "036a327b466a",
@@ -7529,7 +7529,7 @@
     "confidence": 0.9,
     "source_document": "task_output_hardcoded_individual_biomarker_gates_26_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0d6dcee54c35",
@@ -7557,7 +7557,7 @@
     "confidence": 0.7,
     "source_document": "task_output_hardcoded_individual_biomarker_gates_26_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "dbf0501f05dd",
@@ -7599,7 +7599,7 @@
     "confidence": 0.9,
     "source_document": "task_output_male_distributed_topology_vs_estrogen_hub_05_SEP_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "768a8d5fa366",
@@ -7613,7 +7613,7 @@
     "confidence": 0.8,
     "source_document": "task_output_male_distributed_topology_vs_estrogen_hub_05_SEP_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "fed624952321",
@@ -7627,7 +7627,7 @@
     "confidence": 0.7,
     "source_document": "task_output_male_distributed_topology_vs_estrogen_hub_05_SEP_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0718be22ecb4",
@@ -7669,7 +7669,7 @@
     "confidence": 0.85,
     "source_document": "task_output_male_distributed_topology_vs_estrogen_hub_05_SEP_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "980a6843db14",
@@ -7711,7 +7711,7 @@
     "confidence": 0.85,
     "source_document": "task_output_parthanatos_open_questions_08_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "55c1efc5d86f",
@@ -7753,7 +7753,7 @@
     "confidence": 0.75,
     "source_document": "task_output_parthanatos_open_questions_08_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c36eb0d6d267",
@@ -7795,7 +7795,7 @@
     "confidence": 0.6,
     "source_document": "task_output_proximity_graph_learning_21_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:43:23Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "884ffb2d05e2",
@@ -7837,7 +7837,7 @@
     "confidence": 0.8,
     "source_document": "task_output_selenium_necroptosis_mapk_nfkb_11_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d3026974a73f",
@@ -7851,7 +7851,7 @@
     "confidence": 0.9,
     "source_document": "task_output_selenium_necroptosis_mapk_nfkb_11_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6d9ea47f1817",
@@ -7865,7 +7865,7 @@
     "confidence": 0.85,
     "source_document": "task_output_senescence_organ_dysfunction_scenarios_21_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "00a8cc445e78",
@@ -7893,7 +7893,7 @@
     "confidence": 0.75,
     "source_document": "task_output_senescence_organ_dysfunction_scenarios_21_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "013e9e41f117",
@@ -7907,7 +7907,7 @@
     "confidence": 0.85,
     "source_document": "task_output_senescence_organ_dysfunction_scenarios_21_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9fb5c9c89f9a",
@@ -7921,7 +7921,7 @@
     "confidence": 0.8,
     "source_document": "task_output_senescence_organ_dysfunction_scenarios_21_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6373008b3f95",
@@ -7935,7 +7935,7 @@
     "confidence": 0.8,
     "source_document": "task_output_senescence_organ_dysfunction_scenarios_21_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f0365aa76d8d",
@@ -7949,7 +7949,7 @@
     "confidence": 0.8,
     "source_document": "task_output_senescence_organ_dysfunction_scenarios_21_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "008c1b75a347",
@@ -7963,7 +7963,7 @@
     "confidence": 0.85,
     "source_document": "task_output_senescence_regulators_sensors_organs_12_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d40ecc659831",
@@ -7991,7 +7991,7 @@
     "confidence": 0.85,
     "source_document": "task_output_senescence_regulators_sensors_organs_12_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9ea7d42442eb",
@@ -8005,7 +8005,7 @@
     "confidence": 0.8,
     "source_document": "task_output_senescence_regulators_sensors_organs_12_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5235da9c49ee",
@@ -8019,7 +8019,7 @@
     "confidence": 0.8,
     "source_document": "task_output_senescence_regulators_sensors_organs_12_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "71247ae979d7",
@@ -8047,7 +8047,7 @@
     "confidence": 0.9,
     "source_document": "task_output_sex_dimorphic_cell_death_05_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "20c9383f86d6",
@@ -8061,7 +8061,7 @@
     "confidence": 0.9,
     "source_document": "task_output_sex_dimorphic_cell_death_05_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0f5c49899010",
@@ -8117,7 +8117,7 @@
     "confidence": 0.85,
     "source_document": "task_output_sirt1_sirt3_pace_kinetic_modulators_23_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c4a0d6970f97",
@@ -8131,7 +8131,7 @@
     "confidence": 0.85,
     "source_document": "task_output_sirt1_sirt3_pace_kinetic_modulators_23_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f4764838f566",
@@ -8145,7 +8145,7 @@
     "confidence": 0.85,
     "source_document": "task_output_sirt1_sirt3_pace_kinetic_modulators_23_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:43:23Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "edda717f920e",
@@ -8187,7 +8187,7 @@
     "confidence": 0.85,
     "source_document": "task_output_turnover_rate_tradeoffs_22_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1f5c92f5f607",
@@ -8201,7 +8201,7 @@
     "confidence": 0.9,
     "source_document": "task_output_turnover_rate_tradeoffs_22_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "be7162d8decf",
@@ -8229,7 +8229,7 @@
     "confidence": 0.85,
     "source_document": "task_output_turnover_rate_tradeoffs_22_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "34c6fa198323",
@@ -8257,10 +8257,10 @@
     "confidence": 0.85,
     "source_document": "task_output_turnover_rate_tradeoffs_22_Sep_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "e3f14a748620",
+    "id": "8047ff80d627",
     "subject": "Acid ceramidase",
     "predicate": "promotes",
     "object": "Lipid Peroxidation",
@@ -8271,7 +8271,7 @@
     "confidence": 0.85,
     "source_document": "task_output_node_analysis_biology_16_AUG_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6124878df85d",
@@ -8285,10 +8285,10 @@
     "confidence": 0.85,
     "source_document": "task_output_node_analysis_biology_16_AUG_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "0dfe5b109039",
+    "id": "345bba26a7c3",
     "subject": "Acid ceramidase",
     "predicate": "promotes",
     "object": "Ferroptosis",
@@ -8299,10 +8299,10 @@
     "confidence": 0.8,
     "source_document": "task_output_node_analysis_biology_16_AUG_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "3a987cea78d2",
+    "id": "bebaf81dc867",
     "subject": "SASP",
     "predicate": "induces",
     "object": "Acid ceramidase",
@@ -8313,7 +8313,7 @@
     "confidence": 0.8,
     "source_document": "task_output_node_analysis_biology_16_AUG_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "585311dbde38",
@@ -8327,7 +8327,7 @@
     "confidence": 0.85,
     "source_document": "task_output_node_analysis_biology_16_AUG_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "623b44b51857",
@@ -8369,7 +8369,7 @@
     "confidence": 0.75,
     "source_document": "task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "de8b4fd9e0fd",
@@ -8383,7 +8383,7 @@
     "confidence": 0.75,
     "source_document": "task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c630984992d9",
@@ -8400,7 +8400,7 @@
     "updated": "2026-09-27T03:09:16Z"
   },
   {
-    "id": "ef34626be00a",
+    "id": "3650b481c6cd",
     "subject": "Autophagy",
     "predicate": "protects_against",
     "object": "Alpha-Synuclein Aggregation",
@@ -8411,7 +8411,7 @@
     "confidence": 0.9,
     "source_document": "task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "45f228421206",
@@ -8425,7 +8425,7 @@
     "confidence": 0.9,
     "source_document": "task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b037ba33176a",
@@ -8439,7 +8439,7 @@
     "confidence": 0.85,
     "source_document": "task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026.md",
     "created": "2026-09-27T03:09:16Z",
-    "updated": "2026-09-27T03:09:16Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d5967477166b",

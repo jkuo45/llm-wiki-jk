@@ -11,7 +11,7 @@
     "confidence": 0.95,
     "source_document": "14-3-3 protein.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "039662b886f9",
@@ -28,7 +28,7 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "c729a1ca8e37",
+    "id": "412561ffe823",
     "subject": "ABCD1 mutation",
     "predicate": "causes",
     "object": "Adrenoleukodystrophy",
@@ -39,7 +39,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - peroxisomes, autophagy.md",
     "created": "2026-08-21T00:00:00Z",
-    "updated": "2026-08-21T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4ce1ce3221e1",
@@ -67,7 +67,7 @@
     "confidence": 0.95,
     "source_document": "ACAT1.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "29715792477c",
@@ -95,7 +95,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - mTOR signaling at a glance.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "aa05016e8435",
@@ -112,7 +112,7 @@
     "updated": "2026-08-20T07:39:11Z"
   },
   {
-    "id": "4737798079e9",
+    "id": "8fb521db23af",
     "subject": "AMPK",
     "predicate": "activates_autophagy_during",
     "object": "Caloric Restriction",
@@ -123,7 +123,7 @@
     "confidence": 0.95,
     "source_document": "LKB1.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c36eb0d6d267",
@@ -151,11 +151,11 @@
     "confidence": 0.95,
     "source_document": "LKB1.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "fc76cda90c60",
-    "subject": "AMPK activation",
+    "id": "6f9d71294426",
+    "subject": "AMPK",
     "predicate": "promotes",
     "object": "Peroxisome Biogenesis",
     "context": {
@@ -165,7 +165,7 @@
     "confidence": 0.75,
     "source_document": "_document_ - peroxisomes, autophagy.md",
     "created": "2026-08-21T00:00:00Z",
-    "updated": "2026-08-21T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "aff370a93408",
@@ -182,7 +182,7 @@
     "updated": "2026-09-04T17:22:34Z"
   },
   {
-    "id": "5a2b373cccd3",
+    "id": "ac8f52dfe0e6",
     "subject": "Autophagic Flux",
     "predicate": "declines_with",
     "object": "Aging",
@@ -193,7 +193,7 @@
     "confidence": 0.95,
     "source_document": "Autophagic Flux.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "35b54a7e1107",
@@ -207,10 +207,10 @@
     "confidence": 0.95,
     "source_document": "Autophagic Lysosome Reformation.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "6f7d60ec2ddc",
+    "id": "44b98e26cbb6",
     "subject": "Autophagy",
     "predicate": "prevents",
     "object": "Arterial Aging",
@@ -221,7 +221,7 @@
     "confidence": 0.95,
     "source_document": "Autophagy.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "40c920b68d3e",
@@ -249,7 +249,7 @@
     "confidence": 0.95,
     "source_document": "Autophagy.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "50df6e85279e",
@@ -263,7 +263,7 @@
     "confidence": 0.95,
     "source_document": "Autophagy.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T07:39:11Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ec919e5eaa18",
@@ -277,7 +277,7 @@
     "confidence": 0.95,
     "source_document": "Autophagy.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T07:39:11Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "73f2294ff77e",
@@ -291,7 +291,7 @@
     "confidence": 0.95,
     "source_document": "Autophagy.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T07:39:11Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b6705852ec9a",
@@ -333,10 +333,10 @@
     "confidence": 0.95,
     "source_document": "Autophagy Inducer.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T07:39:11Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "366876304458",
+    "id": "23d40372aa63",
     "subject": "Beclin1",
     "predicate": "is_a",
     "object": "Tumor Suppressor",
@@ -347,7 +347,7 @@
     "confidence": 0.95,
     "source_document": "Tumor Suppressor.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "61c8592e25bf",
@@ -375,7 +375,7 @@
     "confidence": 0.95,
     "source_document": "Autophagy.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "50576303291c",
@@ -389,7 +389,7 @@
     "confidence": 0.75,
     "source_document": "Autophagy.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "02de5459843c",
@@ -403,7 +403,7 @@
     "confidence": 0.95,
     "source_document": "Autophagy.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "334c623f9f1c",
@@ -417,7 +417,7 @@
     "confidence": 0.75,
     "source_document": "Autophagy.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "13ded5bd7e26",
@@ -431,10 +431,10 @@
     "confidence": 0.95,
     "source_document": "Caloric Restriction Mimetics.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T07:39:11Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "cb7d88776139",
+    "id": "c3973d7d0a21",
     "subject": "Catalase",
     "predicate": "decomposes",
     "object": "Hydrogen Peroxide",
@@ -445,7 +445,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - peroxisomes, autophagy.md",
     "created": "2026-08-21T00:00:00Z",
-    "updated": "2026-08-21T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2148c38bba95",
@@ -459,10 +459,10 @@
     "confidence": 0.75,
     "source_document": "Intermittent Fasting.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T07:39:11Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "5fc59e9b8b64",
+    "id": "74a3eebd57c7",
     "subject": "CDK4 6",
     "predicate": "phosphorylates",
     "object": "TFEB",
@@ -473,10 +473,10 @@
     "confidence": 0.95,
     "source_document": "_document_ - Lysosome biogenesis Regulation and functions.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "0d7b7e3d57a2",
+    "id": "de1a4a9bcfb1",
     "subject": "CDK4 6",
     "predicate": "phosphorylates",
     "object": "TFEB at Ser142",
@@ -487,7 +487,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Lysosome biogenesis Regulation and functions.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5e3ab9f54c95",
@@ -501,7 +501,7 @@
     "confidence": 0.95,
     "source_document": "CeTOR.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f984155d7f1f",
@@ -515,13 +515,13 @@
     "confidence": 0.95,
     "source_document": "Intermittent Fasting.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T07:39:11Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "6c53550b8596",
+    "id": "308383b6b826",
     "subject": "DAF-2",
     "predicate": "partially_regulates",
-    "object": "MXL-3 expression",
+    "object": "MXL-3",
     "context": {
       "en-US": "DAF-2, the C. elegans insulin/IGF-1 receptor ortholog, partially regulates MXL-3 expression such that impaired insulin signaling leads to modest repression of mxl-3 transcription. This places MXL-3 downstream of the insulin-signaling axis that broadly controls metabolism and longevity in worms. The partial effect indicates that additional nutrient and developmental inputs also govern mxl-3, consistent with its role as a multifactorial repressor. The linkage reinforces the canonical insulin→autophagy/lipid regulatory cascade.",
       "zh-TW": "DAF-2 是線蟲的胰島素/IGF-1 受體同源物，部分調節 MXL-3 表現，使得胰島素信號受損會導致 mxl-3 轉錄的適度抑制。這將 MXL-3 置於廣泛控制線蟲代謝和長壽的胰島素信號軸下游。此部分效應表明額外的營養和發育輸入也控制 mxl-3，與其作為多因子抑制因子的角色一致。此連結強化了典型的胰島素→自噬/脂質調節級聯。"
@@ -529,7 +529,7 @@
     "confidence": 0.75,
     "source_document": "DAF-2.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "736b90ae34a0",
@@ -543,7 +543,7 @@
     "confidence": 0.95,
     "source_document": "Deptor.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "df9f9b45f4d8",
@@ -557,7 +557,7 @@
     "confidence": 0.95,
     "source_document": "Dietary Restriction.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T07:39:11Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2a187fc8cf98",
@@ -613,7 +613,7 @@
     "confidence": 0.95,
     "source_document": "GCN5.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "517083e8ce7a",
@@ -655,7 +655,7 @@
     "confidence": 0.85,
     "source_document": "Glutaminase.md",
     "created": "2026-09-02T06:30:25Z",
-    "updated": "2026-09-02T06:30:25Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7ff3779e472a",
@@ -669,7 +669,7 @@
     "confidence": 0.95,
     "source_document": "Glutaminase.md",
     "created": "2026-09-02T06:30:25Z",
-    "updated": "2026-09-02T06:30:25Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7e868828f2f3",
@@ -683,7 +683,7 @@
     "confidence": 0.95,
     "source_document": "Glutaminase.md",
     "created": "2026-09-02T06:30:25Z",
-    "updated": "2026-09-02T06:30:25Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8edd3297fc33",
@@ -697,7 +697,7 @@
     "confidence": 0.95,
     "source_document": "Glutaminase.md",
     "created": "2026-09-02T06:30:25Z",
-    "updated": "2026-09-02T06:30:25Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "dd2be329d126",
@@ -711,7 +711,7 @@
     "confidence": 0.8,
     "source_document": "Glutaminase.md",
     "created": "2026-09-02T06:30:25Z",
-    "updated": "2026-09-02T06:30:25Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c360c278c18f",
@@ -725,7 +725,7 @@
     "confidence": 0.9,
     "source_document": "Glutaminase.md",
     "created": "2026-09-02T06:30:25Z",
-    "updated": "2026-09-02T06:30:25Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "606f1d7b49cf",
@@ -742,7 +742,7 @@
     "updated": "2026-09-02T06:30:25Z"
   },
   {
-    "id": "8d9f8ef16b64",
+    "id": "2f426d4a0d1f",
     "subject": "GSK3β",
     "predicate": "phosphorylates",
     "object": "TFEB at S134/S138",
@@ -753,7 +753,7 @@
     "confidence": 0.95,
     "source_document": "GSK3β.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e19490d328b7",
@@ -767,7 +767,7 @@
     "confidence": 0.95,
     "source_document": "HLH-30.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ec4b9132a1fd",
@@ -781,7 +781,7 @@
     "confidence": 0.95,
     "source_document": "HLH-30.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ebdee501cbed",
@@ -795,7 +795,7 @@
     "confidence": 0.95,
     "source_document": "HLH-30.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a668b3aab66e",
@@ -809,7 +809,7 @@
     "confidence": 0.95,
     "source_document": "HLH-30.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f7d40a274241",
@@ -823,10 +823,10 @@
     "confidence": 0.95,
     "source_document": "HLH-30.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "ef9d0686bf08",
+    "id": "77b88f1b2299",
     "subject": "Insulin Signaling",
     "predicate": "inhibits",
     "object": "Autophagy",
@@ -837,7 +837,7 @@
     "confidence": 0.95,
     "source_document": "Autophagy.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9c5d2ab7d1c7",
@@ -851,7 +851,7 @@
     "confidence": 0.95,
     "source_document": "Intermittent Fasting.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T07:39:11Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a85024f4b41e",
@@ -865,7 +865,7 @@
     "confidence": 0.95,
     "source_document": "Intermittent Fasting.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T07:39:11Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f2e8f06eae37",
@@ -879,7 +879,7 @@
     "confidence": 0.75,
     "source_document": "Ketogenic Diet.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7bec719c3634",
@@ -893,7 +893,7 @@
     "confidence": 0.95,
     "source_document": "LIPL-1.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a5671b12f448",
@@ -907,7 +907,7 @@
     "confidence": 0.95,
     "source_document": "LIPL-3.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "498379fc7f8c",
@@ -924,7 +924,7 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "0dd5817611c6",
+    "id": "125b14bf9bee",
     "subject": "Lysosome",
     "predicate": "biogenesis_regulated_by",
     "object": "CDK4 6",
@@ -935,7 +935,7 @@
     "confidence": 0.75,
     "source_document": "_document_ - Lysosome biogenesis Regulation and functions.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "31fd7830693e",
@@ -949,13 +949,13 @@
     "confidence": 0.95,
     "source_document": "_document_ - Lysosome biogenesis Regulation and functions.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "5b0e00301a24",
+    "id": "1b7f7c8e3491",
     "subject": "Lysosome",
     "predicate": "is_site_of",
-    "object": "mTORC1 activation",
+    "object": "mTORC1",
     "context": {
       "en-US": "The lysosome serves as the physical platform for mTORC1 activation, hosting the recruitment of mTORC1 via Rag GTPases and Ragulator and its encounter with the activator Rheb at the lysosomal surface. Amino-acid sensing, growth-factor inputs, and calcium signals all converge at this organelle to determine mTORC1 activity. By colocalizing mTORC1 with its upstream regulators, the lysosome functionally couples nutrient detection to the control of autophagy and anabolism. This spatial organization is essential for the rapid, reversible regulation of the pathway.",
       "zh-TW": "溶酶體作為 mTORC1 活化的物理平台，主導 mTORC1 經由 Rag GTPases 和 Ragulator 的招募，以及其與溶酶體表面活化劑 Rheb 的相遇。胺基酸感知、生長因子輸入和鈣信號都在此胞器匯聚以決定 mTORC1 活性。透過將 mTORC1 與其上游調節者共定位，溶酶體在功能上將營養偵測耦合到自噬和合成代謝的控制。此空間組織對途徑快速、可逆的調節至為必要。"
@@ -963,7 +963,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Lysosome biogenesis Regulation and functions.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:13Z"
   },
   {
     "id": "c88da27c0695",
@@ -977,7 +977,7 @@
     "confidence": 0.95,
     "source_document": "MAP4K3.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3348870aeef2",
@@ -991,7 +991,7 @@
     "confidence": 0.95,
     "source_document": "MAX.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8ded304beda8",
@@ -1033,13 +1033,13 @@
     "confidence": 0.75,
     "source_document": "_document_ - Autophagy takes it all – autophagy inducers target immune aging.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "e4a72aeb58e7",
+    "id": "12ca15be76d1",
     "subject": "METTL3",
     "predicate": "negatively_regulates",
-    "object": "TFEB expression",
+    "object": "TFEB",
     "context": {
       "en-US": "METTL3, the catalytic subunit of the m6A methyltransferase complex, methylates TFEB mRNA at N6-methyladenosine residues, a mark that targets the transcript for destabilization and degradation. By reducing TFEB mRNA stability, METTL3 negatively regulates TFEB protein abundance and consequently the autophagy-lysosomal program. This epitranscriptomic control links RNA methylation to degradative pathway output. The finding situates TFEB within the expanding regulatory influence of m6A modification on stress-response genes.",
       "zh-TW": "METTL3 是 m6A 甲基轉移酶複合體的催化次單元，於 N6-甲基腺苷殘基甲基化 TFEB mRNA，此標記將轉錄本標定為不穩定和降解。透過降低 TFEB mRNA 穩定性，METTL3 負向調節 TFEB 蛋白豐度，進而影響自噬—溶酶體程序。此表觀轉錄組控制將 RNA 甲基化連結到降解途徑的輸出。此發現將 TFEB 置於 m6A 修飾對壓力反應基因日益擴大的調節影響中。"
@@ -1047,7 +1047,7 @@
     "confidence": 0.95,
     "source_document": "METTL3.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:13Z"
   },
   {
     "id": "86c9d05276df",
@@ -1061,7 +1061,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - s41514-026-00424-3_reference_mitophagy_neuroprotection.md",
     "created": "2026-09-02T06:30:25Z",
-    "updated": "2026-09-02T06:30:25Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b82d3dd33807",
@@ -1075,7 +1075,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - s41514-026-00424-3_reference_mitophagy_neuroprotection.md",
     "created": "2026-09-02T06:30:25Z",
-    "updated": "2026-09-02T06:30:25Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d04f00886666",
@@ -1089,7 +1089,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - s41514-026-00424-3_reference_mitophagy_neuroprotection.md",
     "created": "2026-09-02T06:30:25Z",
-    "updated": "2026-09-02T06:30:25Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "dcb3b494a4b1",
@@ -1103,7 +1103,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - mTOR signaling at a glance.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "30740809f04a",
@@ -1120,7 +1120,7 @@
     "updated": "2026-08-20T06:07:10Z"
   },
   {
-    "id": "49854402614d",
+    "id": "2e980f05be49",
     "subject": "mTORC1",
     "predicate": "promotes",
     "object": "Lipid Synthesis",
@@ -1131,7 +1131,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - mTOR signaling at a glance.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "bb97c44c35a1",
@@ -1145,7 +1145,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - mTOR signaling at a glance.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5c67ab804b19",
@@ -1159,10 +1159,10 @@
     "confidence": 0.95,
     "source_document": "_document_ - mTOR signaling at a glance.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "eee39565e37b",
+    "id": "c57393c6ce78",
     "subject": "mTORC1",
     "predicate": "promotes",
     "object": "Protein Synthesis",
@@ -1173,7 +1173,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - mTOR signaling at a glance.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9818df0db60f",
@@ -1187,7 +1187,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - mTOR signaling at a glance.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3ab75ee0d463",
@@ -1215,7 +1215,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - mTOR signaling at a glance.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6de995d30a95",
@@ -1229,7 +1229,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - mTOR signaling at a glance.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a2bd0930f170",
@@ -1243,7 +1243,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - mTOR signaling at a glance.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1b0fbaf4c38d",
@@ -1257,7 +1257,7 @@
     "confidence": 0.95,
     "source_document": "mTORC2.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "340941ce83b9",
@@ -1271,7 +1271,7 @@
     "confidence": 0.75,
     "source_document": "mTORC2.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "86f267dc64b7",
@@ -1285,7 +1285,7 @@
     "confidence": 0.95,
     "source_document": "mTORC2.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8c705e86d7a9",
@@ -1299,7 +1299,7 @@
     "confidence": 0.95,
     "source_document": "mTORC2.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "df64e6018948",
@@ -1313,7 +1313,7 @@
     "confidence": 0.95,
     "source_document": "MXL-3.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "aa748982e86b",
@@ -1327,7 +1327,7 @@
     "confidence": 0.95,
     "source_document": "MXL-3.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "aedf6bdd552c",
@@ -1341,10 +1341,10 @@
     "confidence": 0.95,
     "source_document": "MXL-3.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "871e73e8bd43",
+    "id": "ed0413e6fd4c",
     "subject": "MYC",
     "predicate": "represses",
     "object": "Lysosome Biogenesis",
@@ -1355,7 +1355,7 @@
     "confidence": 0.95,
     "source_document": "MYC.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "94a14885c0d7",
@@ -1369,7 +1369,7 @@
     "confidence": 0.95,
     "source_document": "MYC.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0db99960d619",
@@ -1397,7 +1397,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4a7bde699a6b",
@@ -1411,7 +1411,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e577934724bd",
@@ -1453,10 +1453,10 @@
     "confidence": 0.75,
     "source_document": "PERO1.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "829c747c7bb0",
+    "id": "aec9f3e3bc15",
     "subject": "Peroxisome",
     "predicate": "performs_beta-oxidation_of",
     "object": "Very Long Chain Fatty Acids",
@@ -1467,7 +1467,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - peroxisomes, autophagy.md",
     "created": "2026-08-21T00:00:00Z",
-    "updated": "2026-08-21T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d5c56328386a",
@@ -1481,10 +1481,10 @@
     "confidence": 0.75,
     "source_document": "Peroxisome Biogenesis Network.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "63c90a6cb306",
+    "id": "c873fda87218",
     "subject": "Peroxisome Biogenesis Network",
     "predicate": "is_supplied_with_lipids_by",
     "object": "Endoplasmic Reticulum",
@@ -1495,7 +1495,7 @@
     "confidence": 0.75,
     "source_document": "_document_ - peroxisomes, autophagy.md",
     "created": "2026-08-21T00:00:00Z",
-    "updated": "2026-08-21T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c4436f123e84",
@@ -1509,10 +1509,10 @@
     "confidence": 0.95,
     "source_document": "PEX1.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "7ff2d07f124f",
+    "id": "236e4e8ef7ff",
     "subject": "PEX1 mutation",
     "predicate": "causes",
     "object": "Zellweger syndrome",
@@ -1523,7 +1523,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - peroxisomes, autophagy.md",
     "created": "2026-08-21T00:00:00Z",
-    "updated": "2026-08-21T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0abf11960105",
@@ -1537,7 +1537,7 @@
     "confidence": 0.95,
     "source_document": "Autophagy.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T07:39:11Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ea30ec3018fd",
@@ -1551,7 +1551,7 @@
     "confidence": 0.95,
     "source_document": "PIKfyve.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6c1ecd72880e",
@@ -1579,10 +1579,10 @@
     "confidence": 0.95,
     "source_document": "PMA.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "77d7cdaf5e15",
+    "id": "f6e2b2a076fd",
     "subject": "PKCβ",
     "predicate": "phosphorylates",
     "object": "TFEB at S461/S462/S466/S468",
@@ -1593,7 +1593,7 @@
     "confidence": 0.95,
     "source_document": "MAP4K3.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "03c7d2c73ec0",
@@ -1607,7 +1607,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1316b454fa71",
@@ -1635,7 +1635,7 @@
     "confidence": 0.95,
     "source_document": "Rag proteins.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e0da1c4124d8",
@@ -1649,7 +1649,7 @@
     "confidence": 0.95,
     "source_document": "Ragulator.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e43add586696",
@@ -1663,7 +1663,7 @@
     "confidence": 0.95,
     "source_document": "Immune Aging.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T07:39:11Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "baee7b80e54f",
@@ -1705,7 +1705,7 @@
     "confidence": 0.95,
     "source_document": "REDD1.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a622756defe0",
@@ -1733,10 +1733,10 @@
     "confidence": 0.75,
     "source_document": "Selective Autophagy.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "d5f8a78ab919",
+    "id": "069511fe2d27",
     "subject": "Selective Autophagy",
     "predicate": "degrades_damaged",
     "object": "Peroxisome",
@@ -1747,7 +1747,7 @@
     "confidence": 0.75,
     "source_document": "_document_ - peroxisomes, autophagy.md",
     "created": "2026-08-21T00:00:00Z",
-    "updated": "2026-08-21T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6e3ae9f82c5b",
@@ -1761,7 +1761,7 @@
     "confidence": 0.95,
     "source_document": "Immune Aging.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c1babc7f0d5f",
@@ -1803,10 +1803,10 @@
     "confidence": 0.75,
     "source_document": "SLC-36.1.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "c3c3258464db",
+    "id": "162ed4c781c4",
     "subject": "Spermidine",
     "predicate": "reverses",
     "object": "Arterial Aging",
@@ -1817,7 +1817,7 @@
     "confidence": 0.95,
     "source_document": "Arterial Aging.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d7b5aadb954a",
@@ -1859,7 +1859,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - The autophagy enhancer spermidine reverses arterial aging.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T07:39:11Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5770d7490769",
@@ -1876,7 +1876,7 @@
     "updated": "2026-08-20T07:39:11Z"
   },
   {
-    "id": "12f3228ac7a8",
+    "id": "13b9e30447fb",
     "subject": "Spermidine",
     "predicate": "reduces",
     "object": "Oxidative Stress",
@@ -1887,7 +1887,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - The autophagy enhancer spermidine reverses arterial aging.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "77fbcd3ba85a",
@@ -1915,7 +1915,7 @@
     "confidence": 0.95,
     "source_document": "STUB1.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4e282197098c",
@@ -1932,7 +1932,7 @@
     "updated": "2026-09-02T06:30:25Z"
   },
   {
-    "id": "b6357d89bc76",
+    "id": "457d3a0cf3bb",
     "subject": "TFE3",
     "predicate": "activated_in_response_to",
     "object": "ER Stress",
@@ -1943,10 +1943,10 @@
     "confidence": 0.95,
     "source_document": "TFE3.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "db5a274607e7",
+    "id": "9a4278c7b452",
     "subject": "TFE3",
     "predicate": "is_master_regulator_of",
     "object": "Lysosomal Biogenesis",
@@ -1957,10 +1957,10 @@
     "confidence": 0.95,
     "source_document": "TFE3.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "e6879b6a56f8",
+    "id": "3ced116c14ed",
     "subject": "TFE3",
     "predicate": "activates",
     "object": "Lysosome Biogenesis",
@@ -1971,7 +1971,7 @@
     "confidence": 0.95,
     "source_document": "TFE3.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2e6cc4548775",
@@ -1985,7 +1985,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS.md",
     "created": "2026-09-02T06:30:25Z",
-    "updated": "2026-09-02T06:30:25Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ccac7c49d087",
@@ -1999,7 +1999,7 @@
     "confidence": 0.95,
     "source_document": "TFE3.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b6bf3ae57375",
@@ -2013,7 +2013,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS.md",
     "created": "2026-09-02T06:30:25Z",
-    "updated": "2026-09-02T06:30:25Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a69c37cff44c",
@@ -2027,7 +2027,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9352f4b9ca5c",
@@ -2041,7 +2041,7 @@
     "confidence": 0.95,
     "source_document": "Birt-Hogg-Dube syndrome.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3ff40ef9218a",
@@ -2055,10 +2055,10 @@
     "confidence": 0.95,
     "source_document": "CLEAR Element.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "ce5d55bff2ff",
+    "id": "1b8f12c6a585",
     "subject": "TFEB",
     "predicate": "controls",
     "object": "Glutamine Metabolism",
@@ -2069,7 +2069,7 @@
     "confidence": 0.75,
     "source_document": "Glutamine Metabolism.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3fd631da1cfe",
@@ -2083,7 +2083,7 @@
     "confidence": 0.95,
     "source_document": "HLH-30.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "fb3793b10186",
@@ -2097,7 +2097,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7df6a1d488e5",
@@ -2114,7 +2114,7 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "b3aff2fb3c8c",
+    "id": "4f675c61dc8c",
     "subject": "TFEB",
     "predicate": "regulates",
     "object": "Lipid Catabolism",
@@ -2125,10 +2125,10 @@
     "confidence": 0.95,
     "source_document": "Lipid Catabolism.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "06393dc49f8b",
+    "id": "a383c84bba94",
     "subject": "TFEB",
     "predicate": "is_master_regulator_of",
     "object": "Lysosomal Biogenesis",
@@ -2139,10 +2139,10 @@
     "confidence": 0.95,
     "source_document": "_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "75916cc2966f",
+    "id": "9c055a178821",
     "subject": "TFEB",
     "predicate": "induces",
     "object": "Lysosomal Exocytosis",
@@ -2153,10 +2153,10 @@
     "confidence": 0.95,
     "source_document": "_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS.md",
     "created": "2026-09-02T06:30:25Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "e8637925f13d",
+    "id": "066af1cef5c4",
     "subject": "TFEB",
     "predicate": "activates",
     "object": "Lysosome Biogenesis",
@@ -2167,7 +2167,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "44bd2a45ed2e",
@@ -2181,7 +2181,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "76228c7dd1cc",
@@ -2195,7 +2195,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "271efa7c6086",
@@ -2209,10 +2209,10 @@
     "confidence": 0.95,
     "source_document": "_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "19109e101293",
+    "id": "1ffcd1483ba6",
     "subject": "TFEB",
     "predicate": "plays_protective_role_in",
     "object": "Neurodegenerative Diseases",
@@ -2223,7 +2223,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c601e4b4a351",
@@ -2237,7 +2237,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS.md",
     "created": "2026-09-02T06:30:25Z",
-    "updated": "2026-09-02T06:30:25Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d02a34230913",
@@ -2251,10 +2251,10 @@
     "confidence": 0.95,
     "source_document": "_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "46a83360a3e4",
+    "id": "a7c3c6260705",
     "subject": "TFEB",
     "predicate": "activated_in",
     "object": "Pancreatic Ductal Adenocarcinoma",
@@ -2265,7 +2265,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "26089aae2ca6",
@@ -2279,7 +2279,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "bbd2dbc2b37a",
@@ -2293,13 +2293,13 @@
     "confidence": 0.95,
     "source_document": "_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "cc24612b6db9",
+    "id": "76fd4ef4d3e5",
     "subject": "TFEB",
     "predicate": "induces",
-    "object": "TRPML1 expression",
+    "object": "TRPML1",
     "context": {
       "en-US": "TFEB induces expression of TRPML1 (MCOLN1), its target gene encoding the lysosomal calcium release channel. The resulting lysosomal calcium release is required for TFEB-mediated lysosomal exocytosis and cellular clearance. In cells with loss-of-function TRPML1 mutations, TFEB fails to promote cellular clearance. This places TRPML1 as a key effector linking TFEB to lysosomal calcium signaling and exocytosis.",
       "zh-TW": "TFEB 誘導 TRPML1（MCOLN1）的表現，這是編碼溶酶體鈣釋放通道的標的基因。由此產生的溶酶體鈣釋放是 TFEB 介導的溶酶體胞吐和細胞清除所必需。在 TRPML1 功能缺失突變的細胞中，TFEB 無法促進細胞清除。這使 TRPML1 成為將 TFEB 與溶酶體鈣訊號和胞吐連結的關鍵效應物。"
@@ -2307,7 +2307,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS.md",
     "created": "2026-09-02T06:30:25Z",
-    "updated": "2026-09-02T06:30:25Z"
+    "updated": "2026-09-29T18:36:13Z"
   },
   {
     "id": "a9ac25dfa16f",
@@ -2321,7 +2321,7 @@
     "confidence": 0.95,
     "source_document": "Thymic Involution.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "71c903012582",
@@ -2349,7 +2349,7 @@
     "confidence": 0.95,
     "source_document": "TRPML1.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b322f0c22865",
@@ -2363,7 +2363,7 @@
     "confidence": 0.95,
     "source_document": "TRPML1.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ffe6c1ff544a",
@@ -2377,7 +2377,7 @@
     "confidence": 0.95,
     "source_document": "RAS.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ecdedcbd5d11",
@@ -2419,7 +2419,7 @@
     "confidence": 0.95,
     "source_document": "Yoshinori Ohsumi.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T07:39:11Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7e8c19f3e5df",
@@ -2433,7 +2433,7 @@
     "confidence": 0.95,
     "source_document": "Zellweger syndrome.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "db8826a708d1",
@@ -2447,7 +2447,7 @@
     "confidence": 0.95,
     "source_document": "ZKSCAN3.md",
     "created": "2026-07-28T17:48:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ef0e3ef8c680",
@@ -2643,7 +2643,7 @@
     "confidence": 0.85,
     "source_document": "ATG-16.2.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b38891248eb2",
@@ -2657,7 +2657,7 @@
     "confidence": 0.8,
     "source_document": "ATG-16.2.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "eddd0ed6485d",
@@ -2685,7 +2685,7 @@
     "confidence": 0.8,
     "source_document": "Atg15.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ea0164c284af",
@@ -2699,7 +2699,7 @@
     "confidence": 0.85,
     "source_document": "LGG-1.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d9271e97aa3e",
@@ -2713,7 +2713,7 @@
     "confidence": 0.8,
     "source_document": "LGG-1.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7effa805369f",
@@ -2727,7 +2727,7 @@
     "confidence": 0.9,
     "source_document": "Beclin1.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "74d2b548cc2c",
@@ -2769,7 +2769,7 @@
     "confidence": 0.8,
     "source_document": "MAPK Signaling.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9ef021b77fa7",
@@ -2783,7 +2783,7 @@
     "confidence": 0.92,
     "source_document": "MiTF TFE family.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "112e8f9f4464",
@@ -2797,7 +2797,7 @@
     "confidence": 0.9,
     "source_document": "MiTF TFE family.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "71c7051f916d",
@@ -2811,7 +2811,7 @@
     "confidence": 0.95,
     "source_document": "bHLH-LZ Transcription Factors.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d26b9a1ecc66",
@@ -2867,7 +2867,7 @@
     "confidence": 0.88,
     "source_document": "Nutrient Availability.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d8073efa9248",
@@ -2881,7 +2881,7 @@
     "confidence": 0.88,
     "source_document": "Nutrient Availability.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ac9ad9153346",
@@ -2895,7 +2895,7 @@
     "confidence": 0.92,
     "source_document": "Lysosomal Acid Lipase.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9e924484469c",
@@ -2909,7 +2909,7 @@
     "confidence": 0.88,
     "source_document": "Lysosomal Acid Lipase.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "bd3c3081d48e",
@@ -2923,7 +2923,7 @@
     "confidence": 0.92,
     "source_document": "Lysosomal Lipolysis.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f8e7bb415b1b",
@@ -2937,7 +2937,7 @@
     "confidence": 0.75,
     "source_document": "Lysosomal Lipolysis.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "27e8e7e2e345",
@@ -2951,7 +2951,7 @@
     "confidence": 0.75,
     "source_document": "Lysosomal Lipolysis.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6b9b8826892a",
@@ -2965,7 +2965,7 @@
     "confidence": 0.95,
     "source_document": "PtdIns(3,5)P2.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "672850f666eb",
@@ -2979,7 +2979,7 @@
     "confidence": 0.9,
     "source_document": "PtdIns(3,5)P2.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a24b477293e2",
@@ -2993,7 +2993,7 @@
     "confidence": 0.9,
     "source_document": "Phagocytic Lysosome Reformation.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "816b234fbc1a",
@@ -3007,7 +3007,7 @@
     "confidence": 0.9,
     "source_document": "Phagocytic Lysosome Reformation.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "324b372b1d27",
@@ -3021,7 +3021,7 @@
     "confidence": 0.88,
     "source_document": "Phagocytic Lysosome Reformation.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7d1537a15d0d",
@@ -3035,7 +3035,7 @@
     "confidence": 0.9,
     "source_document": "KIF5B.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ce5e7932393c",
@@ -3077,7 +3077,7 @@
     "confidence": 0.92,
     "source_document": "GATOR1.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6f74a5506be9",
@@ -3105,7 +3105,7 @@
     "confidence": 0.9,
     "source_document": "GATOR1.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "33ec2179422d",
@@ -3203,7 +3203,7 @@
     "confidence": 0.9,
     "source_document": "mLST8.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4622ab26b9f0",
@@ -3245,7 +3245,7 @@
     "confidence": 0.85,
     "source_document": "PI3K-Akt Signaling.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "57de6e63d12a",
@@ -3259,7 +3259,7 @@
     "confidence": 0.85,
     "source_document": "Amino Acid Sensing.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "cf796e96636d",
@@ -3290,7 +3290,7 @@
     "updated": "2026-09-04T17:22:34Z"
   },
   {
-    "id": "7d474983f7f2",
+    "id": "078efc4f54c3",
     "subject": "S6K1",
     "predicate": "phosphorylates",
     "object": "Ribosomal Protein S6",
@@ -3301,7 +3301,7 @@
     "confidence": 0.9,
     "source_document": "S6K1.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "528bd99df586",
@@ -3329,7 +3329,7 @@
     "confidence": 0.95,
     "source_document": "TSC2.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f668e4f45759",
@@ -3357,7 +3357,7 @@
     "confidence": 0.8,
     "source_document": "MAPK Signaling.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "89d9b1be61c4",
@@ -3371,7 +3371,7 @@
     "confidence": 0.85,
     "source_document": "Energy Homeostasis.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8ea4808dbc53",
@@ -3385,7 +3385,7 @@
     "confidence": 0.85,
     "source_document": "Cathepsin K.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "53e40abffc21",
@@ -3399,7 +3399,7 @@
     "confidence": 0.9,
     "source_document": "Cathepsin K.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4f5df24976e4",
@@ -3413,7 +3413,7 @@
     "confidence": 0.9,
     "source_document": "Cathepsin K.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0cbfed247ccf",
@@ -3441,7 +3441,7 @@
     "confidence": 0.8,
     "source_document": "Osteoclast.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "764dfb7bcfd9",
@@ -3469,7 +3469,7 @@
     "confidence": 0.88,
     "source_document": "BRCA1.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b30046bb71bb",
@@ -3483,7 +3483,7 @@
     "confidence": 0.85,
     "source_document": "B Cell.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7941a9015db4",
@@ -3497,7 +3497,7 @@
     "confidence": 0.8,
     "source_document": "SIR-2.1.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "dfa98c485415",
@@ -3511,7 +3511,7 @@
     "confidence": 0.72,
     "source_document": "SIR-2.1.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d7175231c863",
@@ -3525,7 +3525,7 @@
     "confidence": 0.85,
     "source_document": "PPAR-alpha.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c1ceddf571a0",
@@ -3539,7 +3539,7 @@
     "confidence": 0.8,
     "source_document": "PPAR-alpha.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2cf4ae82422e",
@@ -3553,7 +3553,7 @@
     "confidence": 0.85,
     "source_document": "PPAR-alpha.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c9d9168abf22",
@@ -3567,7 +3567,7 @@
     "confidence": 0.9,
     "source_document": "Lipid Droplet.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ed0a6ef47c98",
@@ -3581,7 +3581,7 @@
     "confidence": 0.9,
     "source_document": "Peroxisome.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3ac8faf589f2",
@@ -3595,7 +3595,7 @@
     "confidence": 0.9,
     "source_document": "Mitochondrial Complex I.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a0095616f7b3",
@@ -3609,7 +3609,7 @@
     "confidence": 0.85,
     "source_document": "Mitochondrial Complex I.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3c39647c5426",
@@ -3637,6 +3637,6 @@
     "confidence": 0.7,
     "source_document": "_document_ - Autophagy and intermittent fasting the connection for cancer therapy?.md",
     "created": "2026-09-04T17:22:34Z",
-    "updated": "2026-09-04T17:22:34Z"
+    "updated": "2026-09-29T18:36:32Z"
   }
 ]

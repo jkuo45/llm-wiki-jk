@@ -11,7 +11,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - intermediates, precursor, hemoglobin.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:43:53Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c9ebd877f21f",
@@ -25,7 +25,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - formation, chemical stability.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5f79e2776643",
@@ -39,7 +39,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:32:19Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0b9621496ac8",
@@ -53,7 +53,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - intermediates, precursor, hemoglobin.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:43:53Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6be6f12e6eea",
@@ -67,7 +67,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Adrenochrome (pubchem).md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:19:41Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a669f42f1d4f",
@@ -81,7 +81,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Adrenochrome (pubchem).md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:19:41Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0601074520d3",
@@ -95,7 +95,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Adrenochrome (pubchem).md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:19:41Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ae7ed2e42ea0",
@@ -109,7 +109,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - US4501923A - Process for preparing adrenochrome.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:39:11Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2b2a6b2e3f3c",
@@ -123,7 +123,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Adrenochrome (pubchem).md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:19:41Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "97e1413a540f",
@@ -137,7 +137,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - US4501923A - Process for preparing adrenochrome.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:39:11Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6eaae35adc3b",
@@ -151,7 +151,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - molecular composition, mechanism.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:56:15Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f6f8c6d75286",
@@ -168,7 +168,7 @@
     "updated": "2026-08-20T07:00:54Z"
   },
   {
-    "id": "ce2b8b15cb68",
+    "id": "4e6b6b0508b4",
     "subject": "Adrenochrome",
     "predicate": "is_class_member_of",
     "object": "Aminochrome",
@@ -179,7 +179,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - as senotherapeutic agent.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-01T04:17:56Z"
+    "updated": "2026-09-29T18:36:13Z"
   },
   {
     "id": "db46102ce360",
@@ -193,7 +193,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - as senotherapeutic agent.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:43:53Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "263b0075694a",
@@ -221,7 +221,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - The Adrenochrome Pathway.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "50184598a598",
@@ -277,7 +277,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - The Adrenochrome Pathway.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:34:59Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "57ce58e9b6ff",
@@ -291,7 +291,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - The Adrenochrome Pathway.md",
     "created": "2026-08-25T04:10:14Z",
-    "updated": "2026-08-25T04:18:36Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8818003dac39",
@@ -319,7 +319,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - The Adrenochrome Pathway.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:34:59Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "637daa45e243",
@@ -459,7 +459,7 @@
     "confidence": 0.75,
     "source_document": "_document_ - as senotherapeutic agent.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:38:23Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b7fd247eb9ce",
@@ -487,7 +487,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - glyco-oxidative modulation.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:56:15Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d1b70076eebd",
@@ -501,7 +501,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - molecular composition, mechanism.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:56:15Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d21dbfee60e7",
@@ -529,7 +529,7 @@
     "confidence": 0.7,
     "source_document": "_document_ - intermediates, precursor, hemoglobin.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:43:53Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5523a4ab98f3",
@@ -557,7 +557,7 @@
     "confidence": 0.7,
     "source_document": "_document_ - formation, chemical stability.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "da1bd5807528",
@@ -571,7 +571,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - as senotherapeutic agent.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:38:23Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9f999f901213",
@@ -585,7 +585,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - formation, chemical stability.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0a4ca09d4da7",
@@ -599,7 +599,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - molecular composition, mechanism.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:00:54Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "438b06087072",
@@ -613,7 +613,7 @@
     "confidence": 0.75,
     "source_document": "_document_ - neutrophil and erthrocyte.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:43:53Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d03dd31dbcab",
@@ -627,7 +627,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - as senotherapeutic agent.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:38:23Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "94431cf26d06",
@@ -641,7 +641,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - US4501923A - Process for preparing adrenochrome.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:39:11Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c4e9270cd39c",
@@ -655,7 +655,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - molecular composition, mechanism.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:56:15Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "559be0a0b081",
@@ -669,7 +669,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - molecular composition, mechanism.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:56:15Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "97cecbb460b1",
@@ -683,7 +683,7 @@
     "confidence": 0.8,
     "source_document": "_document_ - formation, chemical stability.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:34:59Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3a8147e4e834",
@@ -697,7 +697,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - as senotherapeutic agent.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:38:23Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "72e41272cc7e",
@@ -739,7 +739,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - glyco-oxidative modulation.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:56:15Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4ef4f0eded54",
@@ -753,7 +753,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - as senotherapeutic agent.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:38:23Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "104eef110a3d",
@@ -767,7 +767,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - molecular composition, mechanism.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:56:15Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e550f9490e22",
@@ -781,7 +781,7 @@
     "confidence": 0.75,
     "source_document": "_document_ - neutrophils role in adrenochrome production.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:51:10Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a6e3a944e659",
@@ -809,7 +809,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - intermediates, precursor, hemoglobin.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:43:53Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c4bddf36ab42",
@@ -823,7 +823,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - molecular composition, mechanism.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:00:54Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "40780154a6cf",
@@ -837,7 +837,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - glyco-oxidative modulation.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:56:15Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "be372840bea5",
@@ -851,7 +851,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - glyco-oxidative modulation.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:56:15Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "72eef4b5be59",
@@ -865,7 +865,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - glyco-oxidative modulation.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:56:15Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7983a4e0784b",
@@ -879,7 +879,7 @@
     "confidence": 0.8,
     "source_document": "_document_ - glyco-oxidative modulation.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:56:15Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ff03169e16ad",
@@ -893,7 +893,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - glyco-oxidative modulation.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:56:15Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5fce9d08b57c",
@@ -907,7 +907,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - US4501923A - Process for preparing adrenochrome.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:39:11Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "352b9fed2900",
@@ -921,7 +921,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - The Adrenochrome Pathway.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:34:59Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "899936be14a2",
@@ -935,7 +935,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - The Adrenochrome Pathway.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2c9bccb0f255",
@@ -949,7 +949,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - The Adrenochrome Pathway.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "bc06659baa39",
@@ -963,7 +963,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - molecular composition, mechanism.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:38:23Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "720caa0a5954",
@@ -1005,7 +1005,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - The role of glycation in the pathogenesis of aging and its prevention through herbal products and physical exercise.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:00:54Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7bf2d9749162",
@@ -1019,7 +1019,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - The role of glycation in the pathogenesis of aging and its prevention through herbal products and physical exercise.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:00:54Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "bf4754f6ed95",
@@ -1033,7 +1033,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - Dietary Advanced Glycation End Products and Aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:51:10Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d2e704eb8807",
@@ -1047,7 +1047,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Dietary Advanced Glycation End Products and Aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:51:10Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3ae62f821c63",
@@ -1061,7 +1061,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - The role of glycation in the pathogenesis of aging and its prevention through herbal products and physical exercise.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:00:54Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "371ebf22b694",
@@ -1075,7 +1075,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Dietary Advanced Glycation End Products and Aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:51:10Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1f619c1d0321",
@@ -1089,7 +1089,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - The role of glycation in the pathogenesis of aging and its prevention through herbal products and physical exercise.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:00:54Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9942289f99d9",
@@ -1103,7 +1103,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - The role of glycation in the pathogenesis of aging and its prevention through herbal products and physical exercise.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:00:54Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4a3f76ff53c0",
@@ -1117,7 +1117,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - The role of glycation in the pathogenesis of aging and its prevention through herbal products and physical exercise.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:00:54Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "49f257a6d775",
@@ -1131,7 +1131,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Dietary Advanced Glycation End Products and Aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:51:10Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "02e7f647536e",
@@ -1145,7 +1145,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - The role of glycation in the pathogenesis of aging and its prevention through herbal products and physical exercise.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:00:54Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "eff903386f59",
@@ -1159,7 +1159,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Dietary Advanced Glycation End Products and Aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:51:10Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "790cf3a20b8c",
@@ -1173,7 +1173,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Dietary Advanced Glycation End Products and Aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:51:10Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "bf32c5813151",
@@ -1187,7 +1187,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Dietary Advanced Glycation End Products and Aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:51:10Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5ce96223be53",
@@ -1201,7 +1201,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - The role of glycation in the pathogenesis of aging and its prevention through herbal products and physical exercise.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:00:54Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f7fa254e47ad",
@@ -1215,7 +1215,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - Dietary Advanced Glycation End Products and Aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:51:10Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "27bd199b9424",
@@ -1229,7 +1229,7 @@
     "confidence": 0.8,
     "source_document": "_document_ - Dietary Advanced Glycation End Products and Aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:51:10Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "717f4151ddec",
@@ -1243,7 +1243,7 @@
     "confidence": 0.8,
     "source_document": "_document_ - Dietary Advanced Glycation End Products and Aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:54:12Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "96f23522576d",
@@ -1257,7 +1257,7 @@
     "confidence": 0.8,
     "source_document": "_document_ - The role of glycation in the pathogenesis of aging and its prevention through herbal products and physical exercise.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:12:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2b576c412fbc",
@@ -1271,7 +1271,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - The role of glycation in the pathogenesis of aging and its prevention through herbal products and physical exercise.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:12:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e89ca09bd81b",
@@ -1285,7 +1285,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - Dietary Advanced Glycation End Products and Aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:54:12Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "88c34c9a3d84",
@@ -1299,7 +1299,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:12:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0d9c6b5dbd14",
@@ -1313,7 +1313,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - molecular composition, mechanism.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:56:15Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c8123dd71d1a",
@@ -1327,7 +1327,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - The role of glycation in the pathogenesis of aging and its prevention through herbal products and physical exercise.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:00:54Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a4d3e538ce15",
@@ -1341,7 +1341,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - glycation, enzymatic removal.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:54:12Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "be4114b8f979",
@@ -1355,7 +1355,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - glycation, enzymatic removal.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:54:12Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "01db371c598a",
@@ -1369,7 +1369,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Dietary Advanced Glycation End Products and Aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:51:10Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a33fb00b947c",
@@ -1383,7 +1383,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - The role of glycation in the pathogenesis of aging and its prevention through herbal products and physical exercise.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:00:54Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "adc4377bef54",
@@ -1411,7 +1411,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - glyco-oxidative modulation.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3cd169f613e7",
@@ -1425,7 +1425,7 @@
     "confidence": 0.75,
     "source_document": "_document_ - Aminoguanidine (pubchem).md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "603fcc775936",
@@ -1453,7 +1453,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - The role of glycation in the pathogenesis of aging and its prevention through herbal products and physical exercise.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:00:54Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3d3ff6de5249",
@@ -1467,7 +1467,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Aminoguanidine (pubchem).md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:34:59Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "191c4ccf6c0b",
@@ -1481,7 +1481,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Aminoguanidine (pubchem).md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:34:59Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "be849cdbac4d",
@@ -1495,7 +1495,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Aminoguanidine (pubchem).md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T04:58:59Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "164409b98926",
@@ -1537,7 +1537,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Aminoguanidine (pubchem).md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:34:59Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "db45b3f13252",
@@ -1607,7 +1607,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Aminoguanidine (pubchem).md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T04:58:59Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "271e1c79eb01",
@@ -1621,7 +1621,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Aminoguanidine (pubchem).md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e779501e557a",
@@ -1635,7 +1635,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - The role of glycation in the pathogenesis of aging and its prevention through herbal products and physical exercise.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:00:54Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d82cd2c197d2",
@@ -1649,7 +1649,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Aminoguanidine (pubchem).md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:34:59Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ab2c0280d9c1",
@@ -1663,7 +1663,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Aminoguanidine (pubchem).md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:38:23Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "adb32e525439",
@@ -1677,7 +1677,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Aminoguanidine (pubchem).md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:34:59Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ebda60bc7573",
@@ -1691,7 +1691,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - US4501923A - Process for preparing adrenochrome.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:39:11Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "fdfbcc8f59c5",
@@ -1705,7 +1705,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:35:35Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2a3384be6e56",
@@ -1719,7 +1719,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:35:35Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b92fe6fdcebf",
@@ -1747,7 +1747,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Silver(1+) oxide.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:38:23Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2e0e0330fb48",
@@ -1764,7 +1764,7 @@
     "updated": "2026-08-20T06:38:23Z"
   },
   {
-    "id": "c6c9e5db396c",
+    "id": "a6c44cf52778",
     "subject": "Vitamin C",
     "predicate": "reduces",
     "object": "Adrenochrome",
@@ -1775,10 +1775,10 @@
     "confidence": 0.75,
     "source_document": "_document_ - intermediates, precursor, hemoglobin.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-29T18:24:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "7695fd3e6ddb",
+    "id": "9f95c5a04b93",
     "subject": "Vitamin C",
     "predicate": "inhibits",
     "object": "Adrenochrome formation",
@@ -1789,10 +1789,10 @@
     "confidence": 0.9,
     "source_document": "_document_ - molecular composition, mechanism.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-29T18:24:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "52109b276ee6",
+    "id": "4ef52df2146d",
     "subject": "Vitamin C",
     "predicate": "reduces",
     "object": "o-quinone",
@@ -1803,10 +1803,10 @@
     "confidence": 0.9,
     "source_document": "_document_ - formation, chemical stability.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-29T18:24:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "accaf20bbdb5",
+    "id": "968fce9f9d27",
     "subject": "Vitamin C",
     "predicate": "reduces",
     "object": "Silver compounds",
@@ -1817,7 +1817,7 @@
     "confidence": 0.7,
     "source_document": "_document_ - Silver(1+) oxide.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-29T18:24:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "bc404d1ae428",
@@ -1845,7 +1845,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - US4501923A - Process for preparing adrenochrome.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:39:11Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "17e28f5cd2cc",
@@ -1859,7 +1859,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - molecular composition, mechanism.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:00:54Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "78e921da6fa3",
@@ -1887,7 +1887,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Dietary Advanced Glycation End Products and Aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:54:12Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2c50b3f3b0f7",
@@ -1901,7 +1901,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:32:19Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7b4a74889284",
@@ -1960,7 +1960,7 @@
     "updated": "2026-08-20T06:43:53Z"
   },
   {
-    "id": "b2fc32672010",
+    "id": "c630984992d9",
     "subject": "Catalase",
     "predicate": "prevents_formation_of",
     "object": "Adrenochrome",
@@ -1971,7 +1971,7 @@
     "confidence": 0.75,
     "source_document": "_document_ - neutrophils role in adrenochrome production.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-01T04:17:56Z"
+    "updated": "2026-09-29T18:36:13Z"
   },
   {
     "id": "06cdcda68b44",
@@ -1985,7 +1985,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - molecular composition, mechanism.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:56:15Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b58f19c67769",
@@ -1999,7 +1999,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - glycation, enzymatic removal.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:54:12Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "173f1b7fb98e",
@@ -2013,7 +2013,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - glycation, enzymatic removal.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:54:12Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f9caea5b33af",
@@ -2027,7 +2027,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - glycation, enzymatic removal.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:54:12Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a1a780e3f884",
@@ -2041,7 +2041,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:12:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "523226622cb2",
@@ -2069,7 +2069,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:27:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "cdaa22aaa6c5",
@@ -2083,7 +2083,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:12:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "81a8e3af3161",
@@ -2097,11 +2097,11 @@
     "confidence": 0.95,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:27:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "bdccd659b95c",
-    "subject": "CD38 knockdown",
+    "id": "5d69fa837cb8",
+    "subject": "CD38",
     "predicate": "suppresses",
     "object": "Axon Degeneration",
     "context": {
@@ -2111,7 +2111,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:27:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1da49bb82579",
@@ -2125,7 +2125,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:32:19Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "05da5004dff3",
@@ -2139,7 +2139,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:12:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0e22eb309415",
@@ -2153,7 +2153,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:27:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1df1f3e2ed35",
@@ -2167,7 +2167,7 @@
     "confidence": 0.8,
     "source_document": "_document_ - as senotherapeutic agent.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:38:23Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "138298e0a30d",
@@ -2181,7 +2181,7 @@
     "confidence": 0.8,
     "source_document": "_document_ - as senotherapeutic agent.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:38:23Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "550cf174e601",
@@ -2195,7 +2195,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - neutrophil and erthrocyte.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:43:53Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "af1b3a4b443b",
@@ -2209,7 +2209,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - Dietary Advanced Glycation End Products and Aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:54:12Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e7ab4d16ef68",
@@ -2223,7 +2223,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Dietary Advanced Glycation End Products and Aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:54:12Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "acfe969d0ce1",
@@ -2237,7 +2237,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - Dietary Advanced Glycation End Products and Aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:51:10Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c4c5b8065986",
@@ -2251,7 +2251,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - Dietary Advanced Glycation End Products and Aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:54:12Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9e0484b085be",
@@ -2265,7 +2265,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - Dietary Advanced Glycation End Products and Aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:54:12Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "53beeb2bcfd3",
@@ -2293,7 +2293,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - Methemoglobin and Methemoglobinemia.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:43:53Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "58377d1cb075",
@@ -2307,7 +2307,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:14:47Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "93943df66daf",
@@ -2321,7 +2321,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - molecular composition, mechanism.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:56:15Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2a6dd62cdb7a",
@@ -2377,7 +2377,7 @@
     "confidence": 0.7,
     "source_document": "_document_ - molecular composition, mechanism.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:56:15Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0e7ca41ec825",
@@ -2391,7 +2391,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - molecular composition, mechanism.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:56:15Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0848a400c10e",
@@ -2419,7 +2419,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Methemoglobin and Methemoglobinemia.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:43:53Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d9dd6f765d8e",
@@ -2433,7 +2433,7 @@
     "confidence": 0.8,
     "source_document": "_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:35:35Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2d5b6ce2e99b",
@@ -2450,7 +2450,7 @@
     "updated": "2026-08-20T06:43:53Z"
   },
   {
-    "id": "2f255f4e5357",
+    "id": "d22e447300e3",
     "subject": "Advanced Glycation End Products",
     "predicate": "accelerate",
     "object": "Endothelial Dysfunction",
@@ -2461,10 +2461,10 @@
     "confidence": 0.85,
     "source_document": "_document_ - The role of glycation in the pathogenesis of aging and its prevention through herbal products and physical exercise.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-29T18:24:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "ea65e9ee11db",
+    "id": "480e9e1f47f3",
     "subject": "Advanced Glycation End Products",
     "predicate": "increase",
     "object": "serum AGE levels",
@@ -2475,7 +2475,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - The role of glycation in the pathogenesis of aging and its prevention through herbal products and physical exercise.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-29T18:24:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "24996b38dda0",
@@ -2489,7 +2489,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - Dietary Advanced Glycation End Products and Aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:54:12Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "31d36155ec05",
@@ -2503,10 +2503,10 @@
     "confidence": 0.8,
     "source_document": "_document_ - Dietary Advanced Glycation End Products and Aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:54:12Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "dafada7de016",
+    "id": "aafc3784a79e",
     "subject": "Advanced Glycation End Products",
     "predicate": "enter",
     "object": "Circulation",
@@ -2517,10 +2517,10 @@
     "confidence": 0.9,
     "source_document": "_document_ - Dietary Advanced Glycation End Products and Aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-29T18:24:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "64f34aa91ded",
+    "id": "33a0e7e29601",
     "subject": "Advanced Glycation End Products",
     "predicate": "increase",
     "object": "Plasma AGEs",
@@ -2531,10 +2531,10 @@
     "confidence": 0.9,
     "source_document": "_document_ - Dietary Advanced Glycation End Products and Aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-29T18:24:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "8e0658241b3e",
+    "id": "84bce4442ea5",
     "subject": "Advanced Glycation End Products",
     "predicate": "activate",
     "object": "RAGE",
@@ -2545,7 +2545,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - Dietary Advanced Glycation End Products and Aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-29T18:24:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "636c921afa9f",
@@ -2559,7 +2559,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:12:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e4ca4dbaf115",
@@ -2587,7 +2587,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - neutrophil and erthrocyte.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:43:53Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0c49e3b2bfc9",
@@ -2601,7 +2601,7 @@
     "confidence": 0.8,
     "source_document": "_document_ - as senotherapeutic agent.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:43:53Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1dafe4d33a97",
@@ -2615,7 +2615,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - formation, chemical stability.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d9cb90b6de82",
@@ -2629,7 +2629,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - The role of glycation in the pathogenesis of aging and its prevention through herbal products and physical exercise.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:12:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ecc643587260",
@@ -2643,7 +2643,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - The role of glycation in the pathogenesis of aging and its prevention through herbal products and physical exercise.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:00:54Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1a5a7978cc13",
@@ -2657,7 +2657,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - intermediates, precursor, hemoglobin.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:43:53Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "cab6fd400416",
@@ -2699,7 +2699,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - formation, chemical stability.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:19:41Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "810ce2914063",
@@ -2713,7 +2713,7 @@
     "confidence": 0.75,
     "source_document": "_document_ - neutrophil and erthrocyte.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:51:10Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a11994bb64fc",
@@ -2727,7 +2727,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - The role of glycation in the pathogenesis of aging and its prevention through herbal products and physical exercise.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:54:12Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a005f6874d25",
@@ -2741,7 +2741,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - The role of glycation in the pathogenesis of aging and its prevention through herbal products and physical exercise.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:12:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2f7d60762140",
@@ -2755,7 +2755,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - The role of glycation in the pathogenesis of aging and its prevention through herbal products and physical exercise.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:12:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c0663fca0b07",
@@ -2769,7 +2769,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - The role of glycation in the pathogenesis of aging and its prevention through herbal products and physical exercise.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:12:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "04a0d09494ed",
@@ -2797,7 +2797,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - Dietary Advanced Glycation End Products and Aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:51:10Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "402f3f6c339e",
@@ -2811,7 +2811,7 @@
     "confidence": 0.8,
     "source_document": "_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:35:35Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "df0299ae9a98",
@@ -2825,7 +2825,7 @@
     "confidence": 0.8,
     "source_document": "_document_ - glycation, enzymatic removal.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:54:12Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1aa323e1a14c",
@@ -2839,7 +2839,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - glycation, enzymatic removal.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:54:12Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0c53fd8f4679",
@@ -2853,7 +2853,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - glycation, enzymatic removal.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:54:12Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8bc6105712fe",
@@ -2867,7 +2867,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - glycation, enzymatic removal.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:54:12Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7e6dc7bf67c2",
@@ -2881,10 +2881,10 @@
     "confidence": 0.85,
     "source_document": "_document_ - Methemoglobin and Methemoglobinemia.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:43:53Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "3c04c64a103d",
+    "id": "c137c48bdeb9",
     "subject": "Genistein",
     "predicate": "inhibits",
     "object": "Advanced Glycation End Products",
@@ -2895,7 +2895,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - The role of glycation in the pathogenesis of aging and its prevention through herbal products and physical exercise.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-29T18:24:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7a7962105cb2",
@@ -2909,7 +2909,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - glycation, enzymatic removal.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:54:12Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7cbdbbfb6f19",
@@ -2923,7 +2923,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - glycation, enzymatic removal.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:54:12Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "42d4b06f8707",
@@ -2965,7 +2965,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - glycation, enzymatic removal.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:56:15Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "200c25394239",
@@ -2993,7 +2993,7 @@
     "confidence": 0.8,
     "source_document": "_document_ - formation, chemical stability.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:34:59Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7501b229e521",
@@ -3007,7 +3007,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - The role of glycation in the pathogenesis of aging and its prevention through herbal products and physical exercise.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:00:54Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "579360f926ff",
@@ -3021,7 +3021,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - The role of glycation in the pathogenesis of aging and its prevention through herbal products and physical exercise.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:00:54Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a46a9a9ce3cd",
@@ -3035,7 +3035,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - The role of glycation in the pathogenesis of aging and its prevention through herbal products and physical exercise.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:00:54Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a49af45fb918",
@@ -3119,7 +3119,7 @@
     "confidence": 0.85,
     "source_document": "GlyNAC.md",
     "created": "2026-08-25T04:10:14Z",
-    "updated": "2026-08-25T04:10:14Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0fba937a4ab0",
@@ -3133,7 +3133,7 @@
     "confidence": 0.85,
     "source_document": "GlyNAC.md",
     "created": "2026-08-25T04:10:14Z",
-    "updated": "2026-08-25T04:10:14Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "fc57a909b8b8",
@@ -3147,7 +3147,7 @@
     "confidence": 0.95,
     "source_document": "GlyNAC.md",
     "created": "2026-08-25T04:10:14Z",
-    "updated": "2026-08-25T04:10:14Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "02601e321b46",
@@ -3175,7 +3175,7 @@
     "confidence": 0.9,
     "source_document": "GlyNAC.md",
     "created": "2026-08-25T04:10:14Z",
-    "updated": "2026-08-25T04:10:14Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "dd1a5711ef4a",
@@ -3189,7 +3189,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - glycation, enzymatic removal.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:54:12Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b56f0c79a846",
@@ -3203,7 +3203,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:12:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "cde850cca565",
@@ -3217,7 +3217,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:14:47Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b8627e8be37d",
@@ -3231,7 +3231,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:32:19Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "cd55481c98cb",
@@ -3245,7 +3245,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:27:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "36a60921422b",
@@ -3259,7 +3259,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:27:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6ec299ad258d",
@@ -3273,7 +3273,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - glycation, enzymatic removal.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:56:15Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b34be9639089",
@@ -3301,7 +3301,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Dietary Advanced Glycation End Products and Aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:54:12Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "28aa64d4e275",
@@ -3315,7 +3315,7 @@
     "confidence": 0.8,
     "source_document": "_document_ - Methemoglobin and Methemoglobinemia.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:43:53Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d860bcb14e1c",
@@ -3329,7 +3329,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - Dietary Advanced Glycation End Products and Aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:54:12Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7957e8f155a7",
@@ -3343,7 +3343,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - Dietary Advanced Glycation End Products and Aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:54:12Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "82d3dee538d5",
@@ -3385,7 +3385,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - molecular composition, mechanism.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:56:15Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e268f26a6f64",
@@ -3441,10 +3441,10 @@
     "confidence": 0.9,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:14:47Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "3d25eee4a455",
+    "id": "2f4bebfd40f6",
     "subject": "Hypochlorous Acid",
     "predicate": "damages",
     "object": "microbial macromolecules",
@@ -3455,7 +3455,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - neutrophils role in adrenochrome production.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9ef76d5bada5",
@@ -3483,7 +3483,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:35:35Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0b0c0b58bd95",
@@ -3497,7 +3497,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - intermediates, precursor, hemoglobin.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:43:53Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "47a5d5f09070",
@@ -3511,7 +3511,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - intermediates, precursor, hemoglobin.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:43:53Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "42739d14dbc8",
@@ -3525,7 +3525,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - intermediates, precursor, hemoglobin.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:43:53Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "be7cae44aab8",
@@ -3539,7 +3539,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - intermediates, precursor, hemoglobin.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:43:53Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "590e8d3315a1",
@@ -3553,7 +3553,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Dietary Advanced Glycation End Products and Aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:51:10Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d058883dae23",
@@ -3567,7 +3567,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:35:35Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "227795175b18",
@@ -3581,7 +3581,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - molecular composition, mechanism.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:56:15Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "06cd8e966218",
@@ -3609,7 +3609,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - molecular composition, mechanism.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:00:54Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "40a1a4e61fdb",
@@ -3623,7 +3623,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Dietary Advanced Glycation End Products and Aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:51:10Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "90e1141b506f",
@@ -3637,7 +3637,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Dietary Advanced Glycation End Products and Aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:51:10Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0836dd888b2a",
@@ -3679,7 +3679,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - molecular composition, mechanism.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:56:15Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f560af977b97",
@@ -3693,7 +3693,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - glycation, enzymatic removal.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:56:15Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "754cc81fe2df",
@@ -3721,7 +3721,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Silver(1+) oxide.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:38:23Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7da4d93a440f",
@@ -3735,7 +3735,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - Dietary Advanced Glycation End Products and Aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:54:12Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "618439117edb",
@@ -3777,7 +3777,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Methemoglobin and Methemoglobinemia.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:43:53Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "be8f8a08228c",
@@ -3819,7 +3819,7 @@
     "confidence": 0.8,
     "source_document": "_document_ - Methemoglobin and Methemoglobinemia.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:43:53Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9198672638ac",
@@ -3833,10 +3833,10 @@
     "confidence": 0.95,
     "source_document": "_document_ - Methemoglobin and Methemoglobinemia.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:00:59Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "54074a8cd5af",
+    "id": "0b8d99dfd4ee",
     "subject": "Mitochondrial Dysfunction",
     "predicate": "increases",
     "object": "Reactive Oxygen Species",
@@ -3847,7 +3847,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - molecular composition, mechanism.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "83a4e3519050",
@@ -3861,7 +3861,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-02T07:41:30Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d1b4a5e0e163",
@@ -3875,7 +3875,7 @@
     "confidence": 0.7,
     "source_document": "_document_ - molecular composition, mechanism.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:56:15Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8d50e68847a8",
@@ -3889,7 +3889,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - molecular composition, mechanism.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:56:15Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d3372e34ca32",
@@ -3903,7 +3903,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:35:35Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e0ce3233b16d",
@@ -3931,7 +3931,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - molecular composition, mechanism.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:56:15Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "cf098534a921",
@@ -3959,10 +3959,10 @@
     "confidence": 0.85,
     "source_document": "_document_ - neutrophils role in adrenochrome production.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:51:10Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "28dd38e49da1",
+    "id": "3968655464ab",
     "subject": "Myeloperoxidase",
     "predicate": "produces",
     "object": "Hypochlorous Acid",
@@ -3973,7 +3973,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - neutrophils role in adrenochrome production.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c46ebfca62df",
@@ -4001,7 +4001,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - neutrophils role in adrenochrome production.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:51:10Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3f81c16a1781",
@@ -4015,7 +4015,7 @@
     "confidence": 0.8,
     "source_document": "_document_ - neutrophils role in adrenochrome production.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:51:10Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "49cf50a80dfc",
@@ -4029,7 +4029,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - The role of glycation in the pathogenesis of aging and its prevention through herbal products and physical exercise.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:00:54Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "06cd598cb86f",
@@ -4043,7 +4043,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - The role of glycation in the pathogenesis of aging and its prevention through herbal products and physical exercise.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:00:54Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2bf84ab90c75",
@@ -4057,7 +4057,7 @@
     "confidence": 0.95,
     "source_document": "GlyNAC.md",
     "created": "2026-08-25T04:10:14Z",
-    "updated": "2026-08-25T04:10:14Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "611779566307",
@@ -4071,7 +4071,7 @@
     "confidence": 0.9,
     "source_document": "GlyNAC.md",
     "created": "2026-08-25T04:10:14Z",
-    "updated": "2026-08-25T04:10:14Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0ab0275d677a",
@@ -4085,7 +4085,7 @@
     "confidence": 0.85,
     "source_document": "GlyNAC.md",
     "created": "2026-08-25T04:10:14Z",
-    "updated": "2026-08-25T04:10:14Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2fb59692727b",
@@ -4113,7 +4113,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:27:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5ecebf573cc9",
@@ -4127,7 +4127,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:27:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a1bda1baaed0",
@@ -4141,7 +4141,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:27:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5c35cd68665c",
@@ -4155,7 +4155,7 @@
     "confidence": 0.8,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:14:47Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8889d640f58e",
@@ -4169,7 +4169,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:32:19Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e45b4c4e79f8",
@@ -4183,7 +4183,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:12:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "aeded2eab01f",
@@ -4197,7 +4197,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Methemoglobin and Methemoglobinemia.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:43:53Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8c0cf3ba2fbd",
@@ -4211,10 +4211,10 @@
     "confidence": 0.9,
     "source_document": "_document_ - Dietary Advanced Glycation End Products and Aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:51:10Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "c76a24f0716e",
+    "id": "8fb3085a5689",
     "subject": "NADPH Oxidase",
     "predicate": "produces",
     "object": "Superoxide anion",
@@ -4225,7 +4225,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - neutrophils role in adrenochrome production.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5e852c6deb1b",
@@ -4239,7 +4239,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - as senotherapeutic agent.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:38:23Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2f23d42e9c89",
@@ -4253,7 +4253,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:12:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a6a3bf6f974f",
@@ -4267,7 +4267,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:27:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "aeb1bb811032",
@@ -4323,7 +4323,7 @@
     "confidence": 0.8,
     "source_document": "_document_ - neutrophil and erthrocyte.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:43:53Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "eb26c2d2a328",
@@ -4337,7 +4337,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - molecular composition, mechanism.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:56:15Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2efdb9ac65b5",
@@ -4379,7 +4379,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - The Adrenochrome Pathway.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:34:59Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "db2cc3bb687d",
@@ -4393,7 +4393,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - neutrophil and erthrocyte.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:43:53Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "35c67437891b",
@@ -4407,7 +4407,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - molecular composition, mechanism.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:56:15Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "06c514c9cc90",
@@ -4421,10 +4421,10 @@
     "confidence": 0.85,
     "source_document": "_document_ - neutrophils role in adrenochrome production.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:51:10Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "80dfc4b9e0f0",
+    "id": "8556fca607cf",
     "subject": "NF-κB",
     "predicate": "regulates",
     "object": "IL-6",
@@ -4435,10 +4435,10 @@
     "confidence": 0.9,
     "source_document": "_document_ - as senotherapeutic agent.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:38:23Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "8d1667f5cb9d",
+    "id": "3d87272ac56f",
     "subject": "NF-κB",
     "predicate": "upregulates",
     "object": "IL-6",
@@ -4449,10 +4449,10 @@
     "confidence": 0.95,
     "source_document": "_document_ - Dietary Advanced Glycation End Products and Aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:51:10Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "83c6042a1e5d",
+    "id": "35d5d3969a7a",
     "subject": "NF-κB",
     "predicate": "increases",
     "object": "RAGE",
@@ -4463,10 +4463,10 @@
     "confidence": 0.9,
     "source_document": "_document_ - Dietary Advanced Glycation End Products and Aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:51:10Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "b44a5e1d4af7",
+    "id": "e83012371aa7",
     "subject": "NF-κB",
     "predicate": "upregulates",
     "object": "TNFα",
@@ -4477,7 +4477,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Dietary Advanced Glycation End Products and Aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:51:10Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "37b80d67cd88",
@@ -4491,7 +4491,7 @@
     "confidence": 0.8,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:32:19Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "de2bb421ec11",
@@ -4505,7 +4505,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:27:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "cb5dfbbc6a03",
@@ -4547,7 +4547,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:14:47Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b7b878c2a912",
@@ -4561,7 +4561,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:14:47Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "99d163b5c8dd",
@@ -4575,7 +4575,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:14:47Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a2687022e4d8",
@@ -4589,7 +4589,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:12:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "42b67638b170",
@@ -4603,7 +4603,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:14:47Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d1883f839b75",
@@ -4617,7 +4617,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:14:47Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "89f7f4c80cff",
@@ -4631,7 +4631,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:14:47Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c9b81493ba00",
@@ -4645,7 +4645,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:14:47Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "545c43f5a916",
@@ -4659,7 +4659,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:14:47Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a7ba444da86c",
@@ -4673,7 +4673,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:14:47Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6246f914709d",
@@ -4687,7 +4687,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:14:47Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2c1eb1b443ea",
@@ -4701,7 +4701,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:12:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "66771baacd89",
@@ -4715,7 +4715,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:12:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "744052a5160a",
@@ -4729,7 +4729,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:14:47Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c3df37231e3c",
@@ -4743,10 +4743,10 @@
     "confidence": 0.95,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:12:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "975818cb8e8d",
+    "id": "d31ec71776a4",
     "subject": "Nicotinamide Mononucleotide",
     "predicate": "suppresses",
     "object": "NF-κB",
@@ -4757,7 +4757,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:14:47Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ba3fab9a540c",
@@ -4771,7 +4771,7 @@
     "confidence": 0.8,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:14:47Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "262a00802f0d",
@@ -4785,7 +4785,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:12:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "69b0a5c2f876",
@@ -4799,7 +4799,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:12:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3f3afb4cbefb",
@@ -4813,7 +4813,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:14:47Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "54c22703b906",
@@ -4827,7 +4827,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:12:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "aad8394ecb5a",
@@ -4841,7 +4841,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:27:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "68182bbf40d6",
@@ -4855,7 +4855,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:27:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ed52190cf982",
@@ -4869,7 +4869,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:32:19Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "681232c89d63",
@@ -4883,7 +4883,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:14:47Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0ffaa783e7cb",
@@ -4897,7 +4897,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:32:19Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1964fdb7f20a",
@@ -4911,7 +4911,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:14:47Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b5e03a318f73",
@@ -4925,7 +4925,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:27:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6475dd1db2e3",
@@ -4939,7 +4939,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:27:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c18b41825c53",
@@ -4953,7 +4953,7 @@
     "confidence": 0.8,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:32:19Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9e2fca9a70ee",
@@ -4967,7 +4967,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:27:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4f4c9a7f3d10",
@@ -4981,7 +4981,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:12:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "83e1ed5c0664",
@@ -4995,7 +4995,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:14:47Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "84e0c1443ba9",
@@ -5009,7 +5009,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:32:19Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9c73f28b0b70",
@@ -5023,7 +5023,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:27:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2ebec51cbdad",
@@ -5037,7 +5037,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:32:19Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c38e3da9416a",
@@ -5051,7 +5051,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:14:47Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "972eaf7490f9",
@@ -5065,7 +5065,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:32:19Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2b73e5f7d3cb",
@@ -5079,7 +5079,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:27:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0cf66930cadc",
@@ -5093,10 +5093,10 @@
     "confidence": 0.9,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:27:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "9699e8930dd4",
+    "id": "121c34c9f626",
     "subject": "Nicotinamide Riboside",
     "predicate": "decreases",
     "object": "IL-1β",
@@ -5107,7 +5107,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:14:47Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4e7630b62810",
@@ -5121,7 +5121,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:32:19Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2fb9c3df60ae",
@@ -5135,7 +5135,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:32:19Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0c95a5dcb21d",
@@ -5149,7 +5149,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:27:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f3e93fb160fa",
@@ -5163,7 +5163,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:27:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3c390568caaa",
@@ -5177,7 +5177,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:14:47Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e04096c3d37d",
@@ -5191,7 +5191,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:32:19Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d53a0c2fc86b",
@@ -5205,7 +5205,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:32:19Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "32f3171ac4c3",
@@ -5219,7 +5219,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:32:19Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "449023461b32",
@@ -5233,7 +5233,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:32:19Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2cf3fc73ab87",
@@ -5247,7 +5247,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:14:47Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "edd135c76633",
@@ -5261,7 +5261,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:27:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e15472246d33",
@@ -5275,7 +5275,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:32:19Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "017a4c543d7d",
@@ -5289,7 +5289,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:14:47Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "04b13621e146",
@@ -5303,7 +5303,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:32:19Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "bd858eb10427",
@@ -5317,7 +5317,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:12:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3b1af1d13c97",
@@ -5331,7 +5331,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:27:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1e9c424b3fd1",
@@ -5345,7 +5345,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:27:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "db4165ebef28",
@@ -5359,7 +5359,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:27:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4b8d14ae9995",
@@ -5373,7 +5373,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:27:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "22e87348143e",
@@ -5387,7 +5387,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:12:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3b829099f7a9",
@@ -5401,7 +5401,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:12:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "effba47e3882",
@@ -5415,7 +5415,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-25T04:10:14Z",
-    "updated": "2026-08-25T04:10:14Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d20715dbbf85",
@@ -5429,7 +5429,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:32:19Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "57faeaa39b8e",
@@ -5443,7 +5443,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:12:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e1b16951c01a",
@@ -5457,7 +5457,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:12:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d43d9efa3579",
@@ -5471,7 +5471,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:32:19Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f5acf4a171b6",
@@ -5485,7 +5485,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:27:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ae9158c5fee0",
@@ -5499,7 +5499,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:12:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e92e619ab86e",
@@ -5513,7 +5513,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:07:10Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "60899ceccb94",
@@ -5527,10 +5527,10 @@
     "confidence": 0.85,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:27:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "b5c8230f4fd8",
+    "id": "1d9d759127ff",
     "subject": "Nicotinamide Riboside",
     "predicate": "decreases",
     "object": "TNFα",
@@ -5541,7 +5541,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:14:47Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3a5ee8e05b69",
@@ -5555,7 +5555,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:32:19Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "79393f2d1e15",
@@ -5569,7 +5569,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:32:19Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5f3b82067637",
@@ -5583,7 +5583,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:27:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0421b079adaf",
@@ -5597,7 +5597,7 @@
     "confidence": 0.8,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:14:47Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "39b7ed0cff29",
@@ -5625,7 +5625,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:27:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a616cb09f329",
@@ -5639,7 +5639,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:32:19Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2390648cabe7",
@@ -5653,7 +5653,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:32:19Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "31eacd51468a",
@@ -5667,7 +5667,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - as senotherapeutic agent.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:38:23Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "bdbca03c36ca",
@@ -5681,7 +5681,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - as senotherapeutic agent.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:38:23Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3ecbae4b6a99",
@@ -5695,10 +5695,10 @@
     "confidence": 0.9,
     "source_document": "_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:35:35Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "e102ffc4bd50",
+    "id": "7326c891ab13",
     "subject": "NRF2",
     "predicate": "antagonizes",
     "object": "NF-κB",
@@ -5709,7 +5709,7 @@
     "confidence": 0.8,
     "source_document": "_document_ - as senotherapeutic agent.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:38:23Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6201a874ec73",
@@ -5723,7 +5723,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:32:19Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9663ef4da073",
@@ -5737,7 +5737,7 @@
     "confidence": 0.8,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:14:47Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "fd09696c1489",
@@ -5751,7 +5751,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:32:19Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9f9d4e9675eb",
@@ -5765,7 +5765,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - formation, chemical stability.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:19:41Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f8e618c73fd4",
@@ -5779,7 +5779,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - Dietary Advanced Glycation End Products and Aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:54:12Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "dc17bef76f00",
@@ -5793,7 +5793,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - The role of glycation in the pathogenesis of aging and its prevention through herbal products and physical exercise.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:00:54Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ba5bf917edf7",
@@ -5821,7 +5821,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - glycation, enzymatic removal.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:54:12Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "788e12afa44f",
@@ -5835,7 +5835,7 @@
     "confidence": 0.8,
     "source_document": "_document_ - glycation, enzymatic removal.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:54:12Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5c633c961162",
@@ -5863,7 +5863,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:12:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e7173f2bbe58",
@@ -5877,7 +5877,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:14:47Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0fa3eaa33d2d",
@@ -5891,7 +5891,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:27:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "078cbb1771eb",
@@ -5919,7 +5919,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:32:19Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d5b9d19d961d",
@@ -5950,7 +5950,7 @@
     "updated": "2026-08-20T07:39:11Z"
   },
   {
-    "id": "6caacd920ddf",
+    "id": "4456aca25d88",
     "subject": "PGC-1α",
     "predicate": "regulates",
     "object": "Mitochondrial Biogenesis",
@@ -5961,7 +5961,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:35:35Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4078bede475e",
@@ -5989,7 +5989,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Dietary Advanced Glycation End Products and Aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:51:10Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "63f7a4c45664",
@@ -6003,7 +6003,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:32:19Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "de3148bc1bdf",
@@ -6017,10 +6017,10 @@
     "confidence": 0.9,
     "source_document": "_document_ - US4501923A - Process for preparing adrenochrome.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:39:11Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "746f54d8cb2c",
+    "id": "6f158f46cf27",
     "subject": "PPARγ",
     "predicate": "promotes",
     "object": "Fatty acid oxidation",
@@ -6031,7 +6031,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:35:35Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "fb345c100a7b",
@@ -6045,10 +6045,10 @@
     "confidence": 0.9,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:27:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "8bcb5502eafd",
+    "id": "c743eb52e754",
     "subject": "Pyridoxamine",
     "predicate": "inhibits",
     "object": "Advanced Glycation End Products",
@@ -6059,7 +6059,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - The role of glycation in the pathogenesis of aging and its prevention through herbal products and physical exercise.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-29T18:24:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "10fd1eab43ec",
@@ -6115,7 +6115,7 @@
     "confidence": 0.8,
     "source_document": "RAGE.md",
     "created": "2026-09-02T06:35:13Z",
-    "updated": "2026-09-02T06:35:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b5c980eea3d2",
@@ -6129,7 +6129,7 @@
     "confidence": 0.8,
     "source_document": "_document_ - Dietary Advanced Glycation End Products and Aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:54:12Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c58626d2958a",
@@ -6171,7 +6171,7 @@
     "confidence": 0.8,
     "source_document": "RAGE.md",
     "created": "2026-09-02T06:35:13Z",
-    "updated": "2026-09-02T06:35:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e199c3d2c5e6",
@@ -6213,7 +6213,7 @@
     "confidence": 0.85,
     "source_document": "RAGE.md",
     "created": "2026-09-02T06:35:13Z",
-    "updated": "2026-09-02T06:35:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9b966a62a787",
@@ -6230,7 +6230,7 @@
     "updated": "2026-09-02T06:35:13Z"
   },
   {
-    "id": "5775424cba6f",
+    "id": "f9742c363c1b",
     "subject": "RAGE",
     "predicate": "activates",
     "object": "NF-κB",
@@ -6241,7 +6241,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Dietary Advanced Glycation End Products and Aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:51:10Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d0a7972a764c",
@@ -6255,7 +6255,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - The role of glycation in the pathogenesis of aging and its prevention through herbal products and physical exercise.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:00:54Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4ba61640a33a",
@@ -6269,7 +6269,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - The Adrenochrome Pathway.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:34:59Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6afd0a901ae9",
@@ -6283,7 +6283,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:35:35Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2a73e9e2fb02",
@@ -6297,7 +6297,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:14:47Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "51a32eae6171",
@@ -6311,7 +6311,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:27:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3128cb49cef1",
@@ -6325,7 +6325,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:12:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "94d8a36f64f4",
@@ -6339,7 +6339,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:32:19Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "50fc0fe931d2",
@@ -6353,7 +6353,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:32:19Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "00b2b4d33c66",
@@ -6367,10 +6367,10 @@
     "confidence": 0.85,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:14:47Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "b560b4a0a7f4",
+    "id": "8d6c5aef0d03",
     "subject": "SARS-CoV-2 Nsp3",
     "predicate": "hydrolyzes",
     "object": "ADP-ribose",
@@ -6381,7 +6381,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "50d4f0e8f063",
@@ -6395,7 +6395,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Dietary Advanced Glycation End Products and Aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:51:10Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "999a2d1261c4",
@@ -6423,7 +6423,7 @@
     "confidence": 0.8,
     "source_document": "_document_ - The Adrenochrome Pathway.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:34:59Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b15f3e7400c0",
@@ -6437,7 +6437,7 @@
     "confidence": 0.8,
     "source_document": "_document_ - Silver(1+) oxide.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:38:23Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "da472e94a660",
@@ -6451,7 +6451,7 @@
     "confidence": 0.8,
     "source_document": "_document_ - Silver(1+) oxide.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:38:23Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7c0b3ce22f79",
@@ -6479,7 +6479,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Silver(1+) oxide.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:38:23Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b9665e97d03f",
@@ -6507,7 +6507,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Silver(1+) oxide.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:38:23Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "81b2e5fda72c",
@@ -6521,7 +6521,7 @@
     "confidence": 0.8,
     "source_document": "_document_ - Silver(1+) oxide.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:38:23Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f0ea16e9cc02",
@@ -6535,7 +6535,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Silver(1+) oxide.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:38:23Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ef381ce13ca8",
@@ -6549,7 +6549,7 @@
     "confidence": 0.8,
     "source_document": "_document_ - Silver(1+) oxide.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:38:23Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f0be86fd392b",
@@ -6563,7 +6563,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Silver(1+) oxide.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:38:23Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "00a6dbdc113f",
@@ -6577,7 +6577,7 @@
     "confidence": 0.75,
     "source_document": "_document_ - Silver(1+) oxide.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:38:23Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d2113c46f995",
@@ -6591,7 +6591,7 @@
     "confidence": 0.75,
     "source_document": "_document_ - Silver(1+) oxide.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:38:23Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "55f6899596ac",
@@ -6605,7 +6605,7 @@
     "confidence": 0.75,
     "source_document": "_document_ - Silver(1+) oxide.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:38:23Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1c1622dec125",
@@ -6619,7 +6619,7 @@
     "confidence": 0.8,
     "source_document": "_document_ - Silver(1+) oxide.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:38:23Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "faa08481e8af",
@@ -6633,7 +6633,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Silver(1+) oxide.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:38:23Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "dc3ea5203224",
@@ -6647,7 +6647,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Silver(1+) oxide.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:38:23Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "189a31f8fd75",
@@ -6661,7 +6661,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Silver(1+) oxide.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:38:23Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d178b6346618",
@@ -6675,7 +6675,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Silver(1+) oxide.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:38:23Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ba4f599bff2f",
@@ -6689,7 +6689,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:27:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "28708e5f6884",
@@ -6703,10 +6703,10 @@
     "confidence": 0.9,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:32:19Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "62ba91a726b7",
+    "id": "403e6331a9ff",
     "subject": "SIRT1",
     "predicate": "deacetylates",
     "object": "PGC-1α",
@@ -6717,7 +6717,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:12:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c149c3dc9894",
@@ -6759,7 +6759,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:12:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f4db3e4d3a9a",
@@ -6773,7 +6773,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:32:19Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "747b5b43eeb7",
@@ -6787,10 +6787,10 @@
     "confidence": 0.9,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:32:19Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "7c52171bcd37",
+    "id": "455d8049eb35",
     "subject": "SIRT6",
     "predicate": "suppresses",
     "object": "NF-κB",
@@ -6801,7 +6801,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:14:47Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b83a5de21e3a",
@@ -6815,7 +6815,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:27:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5aba0a298a6e",
@@ -6829,7 +6829,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:12:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ae5fa11a6dd0",
@@ -6843,7 +6843,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:27:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "79171c28759b",
@@ -6857,7 +6857,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:27:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "dd02d841bf8e",
@@ -6871,7 +6871,7 @@
     "confidence": 0.7,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:14:47Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8942acb6351d",
@@ -6885,7 +6885,7 @@
     "confidence": 0.8,
     "source_document": "_document_ - molecular composition, mechanism.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:56:15Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d58d27c82684",
@@ -6913,7 +6913,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - molecular composition, mechanism.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:56:15Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3af81e1f75cc",
@@ -6927,7 +6927,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - US4501923A - Process for preparing adrenochrome.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:39:11Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6bd15da8e01a",
@@ -6941,7 +6941,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - formation, chemical stability.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:34:59Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "163f3d52afaa",
@@ -6955,7 +6955,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - intermediates, precursor, hemoglobin.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:43:53Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d78d5dee9edf",
@@ -6969,7 +6969,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - Methemoglobin and Methemoglobinemia.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:43:53Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5197c11ecad5",
@@ -6983,7 +6983,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Dietary Advanced Glycation End Products and Aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:51:10Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a44fefc0ec17",
@@ -6997,10 +6997,10 @@
     "confidence": 0.95,
     "source_document": "_document_ - molecular composition, mechanism.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:43:53Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "d4a81997a555",
+    "id": "de8b4fd9e0fd",
     "subject": "Superoxide Dismutase",
     "predicate": "prevents_formation_of",
     "object": "Adrenochrome",
@@ -7011,7 +7011,7 @@
     "confidence": 0.75,
     "source_document": "_document_ - neutrophils role in adrenochrome production.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "649d9811b6e2",
@@ -7025,7 +7025,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - molecular composition, mechanism.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:56:15Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1b8d7d23b9d0",
@@ -7039,7 +7039,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - formation, chemical stability.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:34:59Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2842ae3c5150",
@@ -7053,7 +7053,7 @@
     "confidence": 0.85,
     "source_document": "Sympathetic nerve endings.md",
     "created": "2026-09-02T06:35:13Z",
-    "updated": "2026-09-02T06:35:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "80db0cadc5d6",
@@ -7067,7 +7067,7 @@
     "confidence": 0.85,
     "source_document": "Sympathetic nerve endings.md",
     "created": "2026-09-02T06:35:13Z",
-    "updated": "2026-09-02T06:35:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "65040c523a44",
@@ -7081,7 +7081,7 @@
     "confidence": 0.85,
     "source_document": "Sympathetic nerve endings.md",
     "created": "2026-09-02T06:35:13Z",
-    "updated": "2026-09-02T06:35:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f82c4784c1cf",
@@ -7095,7 +7095,7 @@
     "confidence": 0.9,
     "source_document": "Sympathetic nerve endings.md",
     "created": "2026-09-02T06:35:13Z",
-    "updated": "2026-09-02T06:35:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ff0e32e09b2c",
@@ -7109,7 +7109,7 @@
     "confidence": 0.9,
     "source_document": "Sympathetic nerve endings.md",
     "created": "2026-09-02T06:35:13Z",
-    "updated": "2026-09-02T06:35:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "96f9242e5764",
@@ -7123,7 +7123,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - formation, chemical stability.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "02114c63f837",
@@ -7137,7 +7137,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:27:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "418d2449d11b",
@@ -7151,7 +7151,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:35:35Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5f2c0bb99013",
@@ -7165,7 +7165,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:35:35Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "bc3e1c30df4b",
@@ -7179,7 +7179,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:35:35Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3f2ce54a8f1c",
@@ -7193,7 +7193,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:35:35Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ddd4b5d9d016",
@@ -7207,7 +7207,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:35:35Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "109dd28afa54",
@@ -7221,7 +7221,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:35:35Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "dab5fc1fa890",
@@ -7235,7 +7235,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:32:19Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ae8f8ead79b9",
@@ -7249,7 +7249,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:35:35Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2a882defb986",
@@ -7263,7 +7263,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:35:35Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "fde3b859e81f",
@@ -7277,7 +7277,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:35:35Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "487cd083b1b1",
@@ -7291,7 +7291,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:35:35Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "307831b7bb0c",
@@ -7305,7 +7305,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:35:35Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b0d744d3ea7c",
@@ -7319,7 +7319,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:35:35Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b0b92c729e63",
@@ -7333,7 +7333,7 @@
     "confidence": 0.8,
     "source_document": "_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:35:35Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "621ed59ec4b7",
@@ -7347,7 +7347,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:35:35Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5095eb110a1f",
@@ -7361,10 +7361,10 @@
     "confidence": 0.9,
     "source_document": "_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:35:35Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "36c3519a984f",
+    "id": "d45f64b14e1c",
     "subject": "Urolithin A",
     "predicate": "inhibits",
     "object": "NF-κB",
@@ -7375,7 +7375,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:35:35Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c8a7cc7da6b8",
@@ -7389,7 +7389,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:35:35Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0f9c43b34196",
@@ -7403,10 +7403,10 @@
     "confidence": 0.9,
     "source_document": "_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:35:35Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "69f8020aaae5",
+    "id": "f6c60e639802",
     "subject": "Urolithin A",
     "predicate": "increases",
     "object": "p21 CIP1",
@@ -7417,10 +7417,10 @@
     "confidence": 0.85,
     "source_document": "_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-29T18:24:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "3f2d68e4fc62",
+    "id": "4d481d1f5ea1",
     "subject": "Urolithin A",
     "predicate": "activates",
     "object": "PGC-1α",
@@ -7431,7 +7431,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:35:35Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "748b8f28c585",
@@ -7445,7 +7445,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:35:35Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "bed3edfded05",
@@ -7459,10 +7459,10 @@
     "confidence": 0.9,
     "source_document": "_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:35:35Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "d6d79491d39f",
+    "id": "dc51fbac79c5",
     "subject": "Urolithin A",
     "predicate": "increases",
     "object": "PPARγ",
@@ -7473,7 +7473,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:35:35Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "826aa7d6d473",
@@ -7487,7 +7487,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:35:35Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "980844e65ca3",
@@ -7501,7 +7501,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:35:35Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a5566b333e0a",
@@ -7515,7 +7515,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:35:35Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c4bb069ec234",
@@ -7529,7 +7529,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:32:19Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "54854131f286",
@@ -7543,7 +7543,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - formation, chemical stability.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:34:59Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a9a8ac76fe93",
@@ -7557,7 +7557,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:32:19Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "73dbe78866ca",
@@ -7571,7 +7571,7 @@
     "confidence": 0.9,
     "source_document": "Myeloperoxidase Pathway.md",
     "created": "2026-09-04T17:13:28Z",
-    "updated": "2026-09-04T17:13:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4dc6b2d6a15d",
@@ -7599,7 +7599,7 @@
     "confidence": 0.78,
     "source_document": "Leuco-adrenochrome.md",
     "created": "2026-09-04T17:13:28Z",
-    "updated": "2026-09-04T17:13:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9eb4160a44f4",
@@ -7613,7 +7613,7 @@
     "confidence": 0.8,
     "source_document": "Leuco-adrenochrome.md",
     "created": "2026-09-04T17:13:28Z",
-    "updated": "2026-09-04T17:13:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3627fbe1840e",
@@ -7627,7 +7627,7 @@
     "confidence": 0.88,
     "source_document": "Adrenochrome Semiquinone Radical.md",
     "created": "2026-09-04T17:13:28Z",
-    "updated": "2026-09-04T17:13:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "725aa3f6be48",
@@ -7669,7 +7669,7 @@
     "confidence": 0.75,
     "source_document": "Redox Cycling.md",
     "created": "2026-09-04T17:13:28Z",
-    "updated": "2026-09-04T17:13:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "470987cb0c51",
@@ -7683,7 +7683,7 @@
     "confidence": 0.8,
     "source_document": "Redox Cycling.md",
     "created": "2026-09-04T17:13:28Z",
-    "updated": "2026-09-04T17:13:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e5d239329323",
@@ -7711,7 +7711,7 @@
     "confidence": 0.8,
     "source_document": "Adrenaline catabolism.md",
     "created": "2026-09-04T17:13:28Z",
-    "updated": "2026-09-04T17:13:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "71ada72fae9b",
@@ -7739,7 +7739,7 @@
     "confidence": 0.9,
     "source_document": "Superoxide anion.md",
     "created": "2026-09-04T17:13:28Z",
-    "updated": "2026-09-04T17:13:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6dc8a6917264",
@@ -7753,7 +7753,7 @@
     "confidence": 0.9,
     "source_document": "Superoxide anion.md",
     "created": "2026-09-04T17:13:28Z",
-    "updated": "2026-09-04T17:13:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "94c5bb81378f",
@@ -7767,7 +7767,7 @@
     "confidence": 0.85,
     "source_document": "Superoxide anion.md",
     "created": "2026-09-04T17:13:28Z",
-    "updated": "2026-09-04T17:13:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "33ba33979d2b",
@@ -7823,7 +7823,7 @@
     "confidence": 0.85,
     "source_document": "Maillard Reaction.md",
     "created": "2026-09-04T17:13:28Z",
-    "updated": "2026-09-04T17:13:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9d31d8334b87",
@@ -7837,7 +7837,7 @@
     "confidence": 0.85,
     "source_document": "Maillard Reaction.md",
     "created": "2026-09-04T17:13:28Z",
-    "updated": "2026-09-04T17:13:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8a06c377bb00",
@@ -7851,7 +7851,7 @@
     "confidence": 0.8,
     "source_document": "Maillard Reaction.md",
     "created": "2026-09-04T17:13:28Z",
-    "updated": "2026-09-04T17:13:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e06ea99e81a2",
@@ -7907,7 +7907,7 @@
     "confidence": 0.8,
     "source_document": "Advanced Glycation End Products.md",
     "created": "2026-09-04T17:13:28Z",
-    "updated": "2026-09-04T17:13:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a6f7bbd4e402",
@@ -7921,7 +7921,7 @@
     "confidence": 0.72,
     "source_document": "Protein Carbonylation.md",
     "created": "2026-09-04T17:13:28Z",
-    "updated": "2026-09-04T17:13:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b0b35425f54f",
@@ -7949,7 +7949,7 @@
     "confidence": 0.9,
     "source_document": "Myocardial infarction.md",
     "created": "2026-09-04T17:13:28Z",
-    "updated": "2026-09-04T17:13:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6bfbbf00e67a",
@@ -7963,7 +7963,7 @@
     "confidence": 0.85,
     "source_document": "Myocardial infarction.md",
     "created": "2026-09-04T17:13:28Z",
-    "updated": "2026-09-04T17:13:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "76a438d49f58",
@@ -7977,7 +7977,7 @@
     "confidence": 0.8,
     "source_document": "Myocardial infarction.md",
     "created": "2026-09-04T17:13:28Z",
-    "updated": "2026-09-04T17:13:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e1b87197814c",
@@ -7991,7 +7991,7 @@
     "confidence": 0.9,
     "source_document": "Coronary artery constriction.md",
     "created": "2026-09-04T17:13:28Z",
-    "updated": "2026-09-04T17:13:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "22103e78eb31",
@@ -8005,7 +8005,7 @@
     "confidence": 0.85,
     "source_document": "Heart disease.md",
     "created": "2026-09-04T17:13:28Z",
-    "updated": "2026-09-04T17:13:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "88650acb7b69",
@@ -8033,7 +8033,7 @@
     "confidence": 0.85,
     "source_document": "Arrhythmias.md",
     "created": "2026-09-04T17:13:28Z",
-    "updated": "2026-09-04T17:13:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8e59425de19f",
@@ -8050,7 +8050,7 @@
     "updated": "2026-09-04T17:13:28Z"
   },
   {
-    "id": "9bfd61d082d3",
+    "id": "a492987201ce",
     "subject": "Hypochlorous Acid",
     "predicate": "produces",
     "object": "3-Chlorotyrosine",
@@ -8061,10 +8061,10 @@
     "confidence": 0.85,
     "source_document": "HOCl-mediated Oxidation.md",
     "created": "2026-09-04T17:13:28Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "7b75e437dea6",
+    "id": "413f84025c7d",
     "subject": "Hypochlorous Acid",
     "predicate": "activates",
     "object": "Metalloproteinases",
@@ -8075,10 +8075,10 @@
     "confidence": 0.8,
     "source_document": "HOCl-mediated Oxidation.md",
     "created": "2026-09-04T17:13:28Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "a04725dd8820",
+    "id": "7af957aa3577",
     "subject": "Hypoxia",
     "predicate": "stabilizes",
     "object": "HIF-1α",
@@ -8089,7 +8089,7 @@
     "confidence": 0.9,
     "source_document": "Rheumatoid synovial fluid.md",
     "created": "2026-09-04T17:13:28Z",
-    "updated": "2026-09-04T17:13:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b1643f057c9f",
@@ -8103,7 +8103,7 @@
     "confidence": 0.8,
     "source_document": "Rheumatoid synovial fluid.md",
     "created": "2026-09-04T17:13:28Z",
-    "updated": "2026-09-04T17:13:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "823d51e73edf",
@@ -8117,7 +8117,7 @@
     "confidence": 0.75,
     "source_document": "Myocardial infarction.md",
     "created": "2026-09-04T17:13:28Z",
-    "updated": "2026-09-04T17:13:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0f7e39be4230",
@@ -8187,10 +8187,10 @@
     "confidence": 0.9,
     "source_document": "Transcription factor EB.md",
     "created": "2026-09-04T17:13:28Z",
-    "updated": "2026-09-04T17:13:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "4f2c01a363ca",
+    "id": "f2012a623f6f",
     "subject": "calcineurin",
     "predicate": "activates",
     "object": "Transcription factor EB",
@@ -8201,7 +8201,7 @@
     "confidence": 0.85,
     "source_document": "Transcription factor EB.md",
     "created": "2026-09-04T17:13:28Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "25401f400d41",
@@ -8215,7 +8215,7 @@
     "confidence": 0.85,
     "source_document": "Transcription factor EB.md",
     "created": "2026-09-04T17:13:28Z",
-    "updated": "2026-09-04T17:13:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1c40977ecb34",
@@ -8229,10 +8229,10 @@
     "confidence": 0.95,
     "source_document": "NLRP3 Inflammasome.md",
     "created": "2026-09-04T17:13:28Z",
-    "updated": "2026-09-04T17:13:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "11ef8e867dab",
+    "id": "ab2f9e5d79ee",
     "subject": "NLRP3 Inflammasome",
     "predicate": "produces",
     "object": "Interleukin 1β",
@@ -8243,7 +8243,7 @@
     "confidence": 0.9,
     "source_document": "NLRP3 Inflammasome.md",
     "created": "2026-09-04T17:13:28Z",
-    "updated": "2026-09-04T17:13:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "cd52e044eab1",
@@ -8257,7 +8257,7 @@
     "confidence": 0.9,
     "source_document": "NLRP3 Inflammasome.md",
     "created": "2026-09-04T17:13:28Z",
-    "updated": "2026-09-04T17:13:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "89178b016bcb",
@@ -8271,10 +8271,10 @@
     "confidence": 0.9,
     "source_document": "NLRP3 Inflammasome.md",
     "created": "2026-09-04T17:13:28Z",
-    "updated": "2026-09-04T17:13:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "65eff22805ec",
+    "id": "5782bacd9986",
     "subject": "NF-κB",
     "predicate": "upregulates",
     "object": "NLRP3 Inflammasome",
@@ -8285,7 +8285,7 @@
     "confidence": 0.85,
     "source_document": "NLRP3 Inflammasome.md",
     "created": "2026-09-04T17:13:28Z",
-    "updated": "2026-09-04T17:13:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ad610c090f36",
@@ -8316,7 +8316,7 @@
     "updated": "2026-09-04T17:13:28Z"
   },
   {
-    "id": "58299dd11ec7",
+    "id": "270e5c545a12",
     "subject": "RIPK1",
     "predicate": "activates",
     "object": "NF-κB",
@@ -8327,7 +8327,7 @@
     "confidence": 0.85,
     "source_document": "RIPK1.md",
     "created": "2026-09-04T17:13:28Z",
-    "updated": "2026-09-04T17:13:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "336d13aaa9e9",
@@ -8341,7 +8341,7 @@
     "confidence": 0.9,
     "source_document": "RIPK1.md",
     "created": "2026-09-04T17:13:28Z",
-    "updated": "2026-09-04T17:13:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b21a5cb3d437",
@@ -8414,7 +8414,7 @@
     "updated": "2026-09-04T17:13:28Z"
   },
   {
-    "id": "9e01ac13d5c2",
+    "id": "008c1b75a347",
     "subject": "SIRT1",
     "predicate": "suppresses",
     "object": "NF-κB",
@@ -8425,7 +8425,7 @@
     "confidence": 0.85,
     "source_document": "Senomorphics.md",
     "created": "2026-09-04T17:13:28Z",
-    "updated": "2026-09-04T17:13:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b8f048491358",
@@ -8439,7 +8439,7 @@
     "confidence": 0.7,
     "source_document": "Michael addition.md",
     "created": "2026-09-04T17:13:28Z",
-    "updated": "2026-09-04T17:13:28Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d96f11039165",
@@ -8481,7 +8481,7 @@
     "confidence": 0.6,
     "source_document": "_document_ - glyco-oxidative modulation.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T06:56:15Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "92ee95f523a3",
@@ -8509,6 +8509,6 @@
     "confidence": 0.5,
     "source_document": "_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T07:14:47Z"
+    "updated": "2026-09-29T18:36:32Z"
   }
 ]

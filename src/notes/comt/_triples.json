@@ -11,7 +11,7 @@
     "confidence": 0.95,
     "source_document": "Adenosylcobalamin.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6fd34d9610e6",
@@ -39,7 +39,7 @@
     "confidence": 0.72,
     "source_document": "Adenosylcobalamin.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "028f697ebd35",
@@ -53,7 +53,7 @@
     "confidence": 0.94,
     "source_document": "Adenosylcobalamin.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "01a713212d05",
@@ -67,7 +67,7 @@
     "confidence": 0.95,
     "source_document": "Alpha-tocopherol.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c108ca435842",
@@ -95,7 +95,7 @@
     "confidence": 0.92,
     "source_document": "Aspirin.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4f1b387d968b",
@@ -109,7 +109,7 @@
     "confidence": 0.94,
     "source_document": "Berberine.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6ee5f0c4e176",
@@ -151,10 +151,10 @@
     "confidence": 0.96,
     "source_document": "Betaine.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "0d4c1a005d37",
+    "id": "44d4c38bc9ef",
     "subject": "Betaine",
     "predicate": "is",
     "object": "Methyl Donor",
@@ -165,7 +165,7 @@
     "confidence": 0.94,
     "source_document": "Betaine.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7caa4a0b538e",
@@ -179,7 +179,7 @@
     "confidence": 0.72,
     "source_document": "Betaine.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a13c3f55bfb8",
@@ -193,10 +193,10 @@
     "confidence": 0.94,
     "source_document": "Bipolar II Disorder.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "a45451c12bac",
+    "id": "d67f0dd23e5b",
     "subject": "CamKIIα",
     "predicate": "is",
     "object": "calcium/calmodulin-dependent protein kinase",
@@ -207,10 +207,10 @@
     "confidence": 0.96,
     "source_document": "CamKIIα.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "9287cc3721f7",
+    "id": "01c40d844076",
     "subject": "CamKIIα",
     "predicate": "is_inactive_in",
     "object": "Cerebellum",
@@ -221,10 +221,10 @@
     "confidence": 0.95,
     "source_document": "CamKIIα.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "b3d43e582f22",
+    "id": "305416c12587",
     "subject": "CamKIIα",
     "predicate": "is_essential_for",
     "object": "memory formation",
@@ -235,10 +235,10 @@
     "confidence": 0.95,
     "source_document": "CamKIIα.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "87c8a57b0326",
+    "id": "dd37039e4d1b",
     "subject": "CamKIIα",
     "predicate": "is_essential_for",
     "object": "Synaptic plasticity",
@@ -249,11 +249,11 @@
     "confidence": 0.96,
     "source_document": "CamKIIα.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "2c0735ed79f3",
-    "subject": "CamKIIα promoter",
+    "id": "d7b68aaadd13",
+    "subject": "CamKIIα",
     "predicate": "is_used_in",
     "object": "COMT-OE mouse models",
     "context": {
@@ -263,7 +263,7 @@
     "confidence": 0.93,
     "source_document": "CamKIIα.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d1acdf717d3f",
@@ -277,7 +277,7 @@
     "confidence": 0.9,
     "source_document": "Catechols.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e8355806dad8",
@@ -291,7 +291,7 @@
     "confidence": 0.93,
     "source_document": "Catechols.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "350efab7c2ca",
@@ -375,7 +375,7 @@
     "confidence": 0.85,
     "source_document": "Catechols.md",
     "created": "2026-09-02T06:53:17Z",
-    "updated": "2026-09-02T06:53:17Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "40bed86bd29c",
@@ -403,7 +403,7 @@
     "confidence": 0.96,
     "source_document": "Cerebellum.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3742852a8237",
@@ -417,10 +417,10 @@
     "confidence": 0.96,
     "source_document": "Cerebellum.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "66449ea48821",
+    "id": "bd0b0c91634b",
     "subject": "COMT",
     "predicate": "promotes",
     "object": "Adrenochrome Pathway",
@@ -431,7 +431,7 @@
     "confidence": 0.95,
     "source_document": "COMT.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d3896db61c75",
@@ -487,10 +487,10 @@
     "confidence": 0.97,
     "source_document": "COMT.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "1c53e75be12e",
+    "id": "539025bf2e4e",
     "subject": "COMT",
     "predicate": "modulates",
     "object": "Cognitive Performance",
@@ -501,7 +501,7 @@
     "confidence": 0.96,
     "source_document": "COMT.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "286e06d2bc78",
@@ -515,7 +515,7 @@
     "confidence": 0.95,
     "source_document": "COMT.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7596c8d28fdb",
@@ -543,7 +543,7 @@
     "confidence": 0.92,
     "source_document": "COMT.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2a6dd62cdb7a",
@@ -560,10 +560,10 @@
     "updated": "2026-08-20T06:19:41Z"
   },
   {
-    "id": "13c46bae42eb",
+    "id": "b92d7886996a",
     "subject": "COMT",
     "predicate": "increases",
-    "object": "Epinephrine levels",
+    "object": "Epinephrine",
     "context": {
       "en-US": "COMT inhibition increases epinephrine (adrenaline) levels because O-methylation to metanephrine is blocked, prolonging epinephrine signaling and allowing accumulation of the parent catecholamine. Clinically, COMT inhibitors such as entacapone and opicapone used as adjuncts to levodopa in Parkinson's disease raise circulating catecholamines, which is therapeutically useful for motor symptoms but can cause adrenergic side effects. The directionality is straightforward: less enzymatic inactivation yields higher epinephrine. This relationship also connects COMT blockade to downstream oxidative products such as adrenochrome.",
       "zh-TW": "COMT 抑制會增加腎上腺素（腎上腺素）水平，因為 O-甲基化為變腎上腺素被阻斷，從而延長腎上腺素信號傳導並允許母體兒茶酚胺積累。臨床上，COMT 抑制劑（例如恩他卡朋和阿匹卡朋）用作帕金森氏症左旋多巴的輔助藥物，可提高循環 catecholamines，這對運動症狀有治療作用，但可能引起腎上腺素能副作用。方向性很簡單：較少的酵素失活會產生較高的腎上腺素。這種關係也將 COMT 阻斷與下游氧化產物（例如腎上腺素紅）聯繫起來。"
@@ -571,7 +571,7 @@
     "confidence": 0.92,
     "source_document": "COMT.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:13Z"
   },
   {
     "id": "1148e7a3650c",
@@ -585,7 +585,7 @@
     "confidence": 0.92,
     "source_document": "COMT.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "53e43193acef",
@@ -613,7 +613,7 @@
     "confidence": 0.92,
     "source_document": "COMT.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b0a781676565",
@@ -627,7 +627,7 @@
     "confidence": 0.92,
     "source_document": "COMT.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f5664d34b114",
@@ -655,7 +655,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1428157fa576",
@@ -669,7 +669,7 @@
     "confidence": 0.92,
     "source_document": "COMT.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9c9596abe676",
@@ -683,7 +683,7 @@
     "confidence": 0.9,
     "source_document": "COMT.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ee35dfc66fcd",
@@ -711,7 +711,7 @@
     "confidence": 0.96,
     "source_document": "COMT.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "07b990724277",
@@ -739,10 +739,10 @@
     "confidence": 0.92,
     "source_document": "COMT.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "e0b890938177",
+    "id": "f65a1612dc4b",
     "subject": "COMT",
     "predicate": "impairs",
     "object": "Stimulus-response learning",
@@ -753,7 +753,7 @@
     "confidence": 0.92,
     "source_document": "COMT.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5286bd1a4ab1",
@@ -767,7 +767,7 @@
     "confidence": 0.92,
     "source_document": "COMT.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "70e611841dbc",
@@ -781,7 +781,7 @@
     "confidence": 0.95,
     "source_document": "COMT.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "22e328c49cbd",
@@ -795,13 +795,13 @@
     "confidence": 0.92,
     "source_document": "Val158Met.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-04T17:41:08Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "2593b2ed0e5d",
+    "id": "2993c030d05a",
     "subject": "COMT Val158 allele",
     "predicate": "increases",
-    "object": "COMT activity",
+    "object": "COMT",
     "context": {
       "en-US": "The COMT Val158 allele increases the thermostability of the enzyme, thereby increasing its level of activity compared to the 158 Met allele. This higher activity increases dopamine turnover in cortical synapses. A common polymorphism resulting in increased COMT activity has been associated with poorer cognitive performance and increased susceptibility to psychiatric disorders.",
       "zh-TW": "COMT Val158 等位基因增加酶的熱穩定性，從而相對於 158 Met 等位基因提高其活性水平。這種較高的活性增加皮質突觸的多巴胺代謝。導致 COMT activity 增加的常見多態性已與較差的認知表現和精神疾病易感性增加相關。"
@@ -809,7 +809,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2014c17ba564",
@@ -823,7 +823,7 @@
     "confidence": 0.88,
     "source_document": "_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c832e639832e",
@@ -837,7 +837,7 @@
     "confidence": 0.93,
     "source_document": "_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "fb10b3e0d84d",
@@ -851,7 +851,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "585db104f2c2",
@@ -879,7 +879,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a33e986879e0",
@@ -893,7 +893,7 @@
     "confidence": 0.96,
     "source_document": "_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5e74afbf2200",
@@ -907,7 +907,7 @@
     "confidence": 0.92,
     "source_document": "_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a48dc6c2b1a8",
@@ -921,7 +921,7 @@
     "confidence": 0.92,
     "source_document": "D2 receptor.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "76a0bd21a255",
@@ -935,7 +935,7 @@
     "confidence": 0.96,
     "source_document": "D2 receptor.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "adefd56123ac",
@@ -949,7 +949,7 @@
     "confidence": 0.94,
     "source_document": "D2 receptor.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "82deeff0f6b0",
@@ -963,7 +963,7 @@
     "confidence": 0.97,
     "source_document": "D2 receptor.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0868a10e62b0",
@@ -977,7 +977,7 @@
     "confidence": 0.94,
     "source_document": "D2 receptor.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "eb6727474adb",
@@ -991,7 +991,7 @@
     "confidence": 0.93,
     "source_document": "D2 receptor.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "39ea57d36607",
@@ -1005,7 +1005,7 @@
     "confidence": 0.94,
     "source_document": "Prefrontal Cortex.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "10f71e104742",
@@ -1019,7 +1019,7 @@
     "confidence": 0.93,
     "source_document": "_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b5c20faa7322",
@@ -1033,7 +1033,7 @@
     "confidence": 0.92,
     "source_document": "_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6714825f9816",
@@ -1061,7 +1061,7 @@
     "confidence": 0.88,
     "source_document": "_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "98801bc18f98",
@@ -1075,7 +1075,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "53e4c0355a0d",
@@ -1103,7 +1103,7 @@
     "confidence": 0.92,
     "source_document": "Catechols.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "60a2928d8211",
@@ -1117,7 +1117,7 @@
     "confidence": 0.93,
     "source_document": "_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "acebdf6045e2",
@@ -1159,7 +1159,7 @@
     "confidence": 0.9,
     "source_document": "Folinic acid.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3ea8c47c1dbd",
@@ -1173,7 +1173,7 @@
     "confidence": 0.72,
     "source_document": "Folinic acid.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8567d68394b7",
@@ -1187,7 +1187,7 @@
     "confidence": 0.85,
     "source_document": "Folinic acid.md",
     "created": "2026-09-02T06:53:17Z",
-    "updated": "2026-09-02T06:53:17Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7c39e1e41426",
@@ -1201,7 +1201,7 @@
     "confidence": 0.95,
     "source_document": "Folinic acid.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1beb7e80320c",
@@ -1215,7 +1215,7 @@
     "confidence": 0.94,
     "source_document": "Folinic acid.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "462679907400",
@@ -1229,7 +1229,7 @@
     "confidence": 0.94,
     "source_document": "Folinic acid.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "eb9fc50783e2",
@@ -1243,7 +1243,7 @@
     "confidence": 0.95,
     "source_document": "Folinic acid.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8030eb602cc6",
@@ -1257,7 +1257,7 @@
     "confidence": 0.95,
     "source_document": "Green tea.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9b338fcfe464",
@@ -1299,7 +1299,7 @@
     "confidence": 0.95,
     "source_document": "Hippocampus.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "44ccca704241",
@@ -1313,7 +1313,7 @@
     "confidence": 0.93,
     "source_document": "Hippocampus.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0b486d30fcd5",
@@ -1341,7 +1341,7 @@
     "confidence": 0.72,
     "source_document": "Hydroxocobalamin.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "41fb69add7a3",
@@ -1355,7 +1355,7 @@
     "confidence": 0.72,
     "source_document": "Hydroxocobalamin.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c9315baeb1bb",
@@ -1369,7 +1369,7 @@
     "confidence": 0.94,
     "source_document": "Hydroxocobalamin.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "380921fa19e1",
@@ -1383,10 +1383,10 @@
     "confidence": 0.93,
     "source_document": "Luteolin.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "5ce0cf7656e9",
+    "id": "cf19c04bcd45",
     "subject": "Luteolin",
     "predicate": "crosses",
     "object": "Blood-Brain Barrier",
@@ -1397,7 +1397,7 @@
     "confidence": 0.9,
     "source_document": "Luteolin.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "fc1ade264c60",
@@ -1411,7 +1411,7 @@
     "confidence": 0.93,
     "source_document": "Luteolin.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "74d6ceeb9865",
@@ -1467,7 +1467,7 @@
     "confidence": 0.7,
     "source_document": "Luteolin.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "702ca9c90f5b",
@@ -1481,7 +1481,7 @@
     "confidence": 0.9,
     "source_document": "Luteolin.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d052d8802577",
@@ -1495,7 +1495,7 @@
     "confidence": 0.9,
     "source_document": "Luteolin.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "743ef637e30b",
@@ -1509,7 +1509,7 @@
     "confidence": 0.9,
     "source_document": "Luteolin.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3f66cab823b9",
@@ -1523,7 +1523,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "720aac463119",
@@ -1537,7 +1537,7 @@
     "confidence": 0.95,
     "source_document": "Medium spiny neurons.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8c190786c203",
@@ -1551,7 +1551,7 @@
     "confidence": 0.92,
     "source_document": "Medium spiny neurons.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9c520cfb8c69",
@@ -1565,7 +1565,7 @@
     "confidence": 0.93,
     "source_document": "Medium spiny neurons.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "da5c465198f4",
@@ -1579,7 +1579,7 @@
     "confidence": 0.93,
     "source_document": "Medium spiny neurons.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f788e3b4abdd",
@@ -1593,7 +1593,7 @@
     "confidence": 0.95,
     "source_document": "Medium spiny neurons.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "40b42083a523",
@@ -1607,7 +1607,7 @@
     "confidence": 0.95,
     "source_document": "Medium spiny neurons.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "043a3e61c8e9",
@@ -1621,7 +1621,7 @@
     "confidence": 0.93,
     "source_document": "Medium spiny neurons.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "62d19caaadeb",
@@ -1635,7 +1635,7 @@
     "confidence": 0.92,
     "source_document": "Medium spiny neurons.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "02e42fd8859d",
@@ -1649,7 +1649,7 @@
     "confidence": 0.93,
     "source_document": "Medium spiny neurons.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b4267a3d17ae",
@@ -1663,7 +1663,7 @@
     "confidence": 0.9,
     "source_document": "Medium spiny neurons.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "fecf302e0ee5",
@@ -1677,7 +1677,7 @@
     "confidence": 0.96,
     "source_document": "Medium spiny neurons.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "877af572c356",
@@ -1691,7 +1691,7 @@
     "confidence": 0.72,
     "source_document": "Methyl groups.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a0bf48f4332f",
@@ -1705,10 +1705,10 @@
     "confidence": 0.95,
     "source_document": "Methyl groups.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "cb65892f3cb7",
+    "id": "e9a81b499df2",
     "subject": "Methyl groups",
     "predicate": "regulate",
     "object": "Gene Expression",
@@ -1719,7 +1719,7 @@
     "confidence": 0.9,
     "source_document": "Methyl groups.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "16f2b3bd4cc8",
@@ -1733,7 +1733,7 @@
     "confidence": 0.85,
     "source_document": "Methyl groups.md",
     "created": "2026-09-02T06:53:17Z",
-    "updated": "2026-09-02T06:53:17Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "af45853885d0",
@@ -1747,7 +1747,7 @@
     "confidence": 0.94,
     "source_document": "Methyl groups.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "53199258320d",
@@ -1761,7 +1761,7 @@
     "confidence": 0.94,
     "source_document": "Methyl groups.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2588031069f6",
@@ -1775,7 +1775,7 @@
     "confidence": 0.95,
     "source_document": "Methyl groups.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "fa9392185365",
@@ -1789,10 +1789,10 @@
     "confidence": 0.95,
     "source_document": "Methyl groups.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "fbad7ed8f6f9",
+    "id": "1518b865e50b",
     "subject": "Methylation",
     "predicate": "regulates",
     "object": "Gene Expression",
@@ -1803,10 +1803,10 @@
     "confidence": 0.95,
     "source_document": "Methyl groups.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "8f73db5f8126",
+    "id": "4c2d7c3b8983",
     "subject": "Methylation",
     "predicate": "transfers",
     "object": "Methyl groups",
@@ -1817,7 +1817,7 @@
     "confidence": 0.96,
     "source_document": "Methyl groups.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "39ff5d2d7a62",
@@ -1831,7 +1831,7 @@
     "confidence": 0.94,
     "source_document": "Methyl groups.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "bbcb08f9e48c",
@@ -1845,7 +1845,7 @@
     "confidence": 0.95,
     "source_document": "MethylB12.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7f29aaa953bd",
@@ -1859,7 +1859,7 @@
     "confidence": 0.95,
     "source_document": "MethylB12.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "dfa0441f7c65",
@@ -1876,7 +1876,7 @@
     "updated": "2026-09-02T06:27:57Z"
   },
   {
-    "id": "182de1b1cdf6",
+    "id": "9e9b47ce974d",
     "subject": "MethylB12",
     "predicate": "is",
     "object": "Methyl Donor",
@@ -1887,7 +1887,7 @@
     "confidence": 0.94,
     "source_document": "MethylB12.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e01334b15976",
@@ -1901,7 +1901,7 @@
     "confidence": 0.85,
     "source_document": "MethylB12.md",
     "created": "2026-09-02T06:53:17Z",
-    "updated": "2026-09-02T06:53:17Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1a0719722d4b",
@@ -1915,7 +1915,7 @@
     "confidence": 0.95,
     "source_document": "MethylB12.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d4cded855abf",
@@ -1929,7 +1929,7 @@
     "confidence": 0.92,
     "source_document": "MethylB12.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f2f40afe8e64",
@@ -1943,7 +1943,7 @@
     "confidence": 0.88,
     "source_document": "MethylB12.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "282db0a79f68",
@@ -1957,7 +1957,7 @@
     "confidence": 0.96,
     "source_document": "Methylfolate.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "52dd307fabd5",
@@ -1971,10 +1971,10 @@
     "confidence": 0.72,
     "source_document": "Methylfolate.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "9ab0b90b12ce",
+    "id": "9064af6ebd9e",
     "subject": "Methylfolate",
     "predicate": "crosses",
     "object": "Blood-Brain Barrier",
@@ -1985,7 +1985,7 @@
     "confidence": 0.9,
     "source_document": "Methylfolate.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7a3e54e1d749",
@@ -2013,7 +2013,7 @@
     "confidence": 0.95,
     "source_document": "Methylfolate.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3eea540e7f28",
@@ -2027,7 +2027,7 @@
     "confidence": 0.9,
     "source_document": "Methylfolate.md",
     "created": "2026-09-02T06:53:17Z",
-    "updated": "2026-09-02T06:53:17Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4208b340d716",
@@ -2041,7 +2041,7 @@
     "confidence": 0.95,
     "source_document": "Methylfolate.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5745fb4ba63f",
@@ -2083,7 +2083,7 @@
     "confidence": 0.93,
     "source_document": "Modafinil.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "30d8683ded37",
@@ -2139,7 +2139,7 @@
     "confidence": 0.93,
     "source_document": "MTHFD1.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "634efa27c3c0",
@@ -2170,7 +2170,7 @@
     "updated": "2026-09-29T18:23:50Z"
   },
   {
-    "id": "70ff361dfa12",
+    "id": "6ecfe3e6a8ff",
     "subject": "MTHFD1",
     "predicate": "is_part_of",
     "object": "Methylation Cycle",
@@ -2181,7 +2181,7 @@
     "confidence": 0.93,
     "source_document": "MTHFD1.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "391f2a5faaf4",
@@ -2195,7 +2195,7 @@
     "confidence": 0.9,
     "source_document": "MTHFD1.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2b4719afaa3a",
@@ -2209,7 +2209,7 @@
     "confidence": 0.9,
     "source_document": "MTHFD1.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2bab7efc4dc3",
@@ -2223,7 +2223,7 @@
     "confidence": 0.9,
     "source_document": "MTHFD1.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "25e043d92625",
@@ -2251,13 +2251,13 @@
     "confidence": 0.93,
     "source_document": "MTRR.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "4907e44af3f6",
+    "id": "dc42e7e55d45",
     "subject": "MTRR",
     "predicate": "maintains",
-    "object": "methionine synthase activity",
+    "object": "Methionine Synthase",
     "context": {
       "en-US": "MTRR maintains methionine synthase activity by reducing the enzyme's bound cobalamin (vitamin B12) cofactor back to its active form after oxidative inactivation, using FAD and NADPH. Without MTRR, methionine synthase loses function, halting homocysteine remethylation and depleting the methionine and SAMe pool. This positions MTRR as essential for methylation cycle continuity and for sustaining the methyl donor supply that COMT requires. Its activity links B12 status directly to one-carbon metabolism.",
       "zh-TW": "MTRR 透過使用 FAD 和 NADPH 將酵素的結合鈷胺素（維生素 B12）輔因子還原至氧化失活後的活性形式來維持 methionine synthase activity。如果沒有 MTRR，蛋胺酸合成酶就會失去功能，停止同型半胱胺酸再甲基化並耗盡甲硫胺酸和 SAMe 池。這使得 MTRR 對於 methylation cycle 的連續性和維持 COMT 所需的 methyl donor 供應至關重要。其活性將 B12 狀態直接與一碳代謝連結起來。"
@@ -2265,10 +2265,10 @@
     "confidence": 0.93,
     "source_document": "MTRR.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "aae2c799b947",
+    "id": "17ff8aa8db74",
     "subject": "MTRR",
     "predicate": "is_part_of",
     "object": "Methylation Cycle",
@@ -2279,7 +2279,7 @@
     "confidence": 0.93,
     "source_document": "MTRR.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0af18eecd2f1",
@@ -2293,7 +2293,7 @@
     "confidence": 0.93,
     "source_document": "MTRR.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a087794ae3fc",
@@ -2307,7 +2307,7 @@
     "confidence": 0.92,
     "source_document": "MTRR.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8a7bde61d899",
@@ -2321,7 +2321,7 @@
     "confidence": 0.92,
     "source_document": "MTRR.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "10da7099497f",
@@ -2335,7 +2335,7 @@
     "confidence": 0.9,
     "source_document": "MTRR.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3ea001533c9f",
@@ -2349,7 +2349,7 @@
     "confidence": 0.92,
     "source_document": "Norepinephrine transporter.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a343a5c06ab0",
@@ -2363,7 +2363,7 @@
     "confidence": 0.93,
     "source_document": "Norepinephrine transporter.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "61755f0091e7",
@@ -2377,7 +2377,7 @@
     "confidence": 0.94,
     "source_document": "Norepinephrine transporter.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7928f5f1e4b7",
@@ -2391,10 +2391,10 @@
     "confidence": 0.93,
     "source_document": "Norepinephrine transporter.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "3646c97cd1cb",
+    "id": "6ed74e963402",
     "subject": "Norepinephrine transporter",
     "predicate": "reuptakes",
     "object": "Norepinephrine",
@@ -2405,7 +2405,7 @@
     "confidence": 0.95,
     "source_document": "Norepinephrine transporter.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1fc55cf7a4e0",
@@ -2419,7 +2419,7 @@
     "confidence": 0.93,
     "source_document": "Norepinephrine transporter.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ac99295af9ea",
@@ -2433,7 +2433,7 @@
     "confidence": 0.94,
     "source_document": "Norepinephrine transporter.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8de0112dd85d",
@@ -2447,7 +2447,7 @@
     "confidence": 0.94,
     "source_document": "Norepinephrine transporter.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5c062de916bc",
@@ -2461,7 +2461,7 @@
     "confidence": 0.92,
     "source_document": "Oleacein.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0c3e499faac7",
@@ -2475,7 +2475,7 @@
     "confidence": 0.92,
     "source_document": "Oleacein.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2f669d97d9b5",
@@ -2531,7 +2531,7 @@
     "confidence": 0.92,
     "source_document": "Oleacein.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9df41800d138",
@@ -2545,7 +2545,7 @@
     "confidence": 0.93,
     "source_document": "Oleacein.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d13e222c03ba",
@@ -2559,7 +2559,7 @@
     "confidence": 0.9,
     "source_document": "Oleacein.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ab3bfae3aa21",
@@ -2601,7 +2601,7 @@
     "confidence": 0.9,
     "source_document": "Prefrontal Cortex.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7a24eda54636",
@@ -2615,7 +2615,7 @@
     "confidence": 0.95,
     "source_document": "Prefrontal Cortex.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0299b4a2dc29",
@@ -2629,10 +2629,10 @@
     "confidence": 0.96,
     "source_document": "Prefrontal Cortex.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "9a8fefacb920",
+    "id": "509b0b6180eb",
     "subject": "Prefrontal Cortex",
     "predicate": "controls",
     "object": "Executive Function",
@@ -2643,7 +2643,7 @@
     "confidence": 0.95,
     "source_document": "Prefrontal Cortex.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "99543b92fe9d",
@@ -2657,7 +2657,7 @@
     "confidence": 0.9,
     "source_document": "Prefrontal Cortex.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b50b0716e376",
@@ -2671,7 +2671,7 @@
     "confidence": 0.94,
     "source_document": "Prefrontal Cortex.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "20d263cc722c",
@@ -2685,7 +2685,7 @@
     "confidence": 0.95,
     "source_document": "Prefrontal Cortex.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ad69ab684cae",
@@ -2699,7 +2699,7 @@
     "confidence": 0.9,
     "source_document": "Prefrontal Cortex.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d9ee2401d613",
@@ -2713,7 +2713,7 @@
     "confidence": 0.95,
     "source_document": "Prefrontal Cortex.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9190a0a89d1c",
@@ -2727,7 +2727,7 @@
     "confidence": 0.93,
     "source_document": "_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "44441c9a3ffc",
@@ -2755,10 +2755,10 @@
     "confidence": 0.92,
     "source_document": "_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "82b981cb7f32",
+    "id": "6c7a2304281c",
     "subject": "Resveratrol",
     "predicate": "does_not_inhibit",
     "object": "COMT",
@@ -2769,7 +2769,7 @@
     "confidence": 0.75,
     "source_document": "COMT.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-01T04:17:56Z"
+    "updated": "2026-09-29T18:36:13Z"
   },
   {
     "id": "5a1ddcc80bbc",
@@ -2783,7 +2783,7 @@
     "confidence": 0.92,
     "source_document": "Rutin.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "480e10f9fe96",
@@ -2825,7 +2825,7 @@
     "confidence": 0.93,
     "source_document": "Rutin.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ec0ef7dbf339",
@@ -2853,7 +2853,7 @@
     "confidence": 0.95,
     "source_document": "Rutin.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "80ca073ac8cc",
@@ -2867,7 +2867,7 @@
     "confidence": 0.9,
     "source_document": "Rutin.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0bb6e417af82",
@@ -2881,7 +2881,7 @@
     "confidence": 0.95,
     "source_document": "COMT.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9a7cd6d076ec",
@@ -2909,7 +2909,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "bb38ccfdfe2f",
@@ -2923,7 +2923,7 @@
     "confidence": 0.97,
     "source_document": "SNP.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b284a1f24706",
@@ -2937,10 +2937,10 @@
     "confidence": 0.93,
     "source_document": "SNP.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "e3dd0588f77c",
+    "id": "2789142e18d6",
     "subject": "Stimulus-response learning",
     "predicate": "underlies",
     "object": "Addiction",
@@ -2951,7 +2951,7 @@
     "confidence": 0.9,
     "source_document": "Stimulus-response learning.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c8dbea22f145",
@@ -2965,7 +2965,7 @@
     "confidence": 0.93,
     "source_document": "Stimulus-response learning.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "75d84fa79684",
@@ -2979,7 +2979,7 @@
     "confidence": 0.93,
     "source_document": "Stimulus-response learning.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "cce31c73841d",
@@ -2993,7 +2993,7 @@
     "confidence": 0.92,
     "source_document": "Stimulus-response learning.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "91d21d9608e8",
@@ -3007,7 +3007,7 @@
     "confidence": 0.92,
     "source_document": "Stimulus-response learning.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "11b619c2364a",
@@ -3021,7 +3021,7 @@
     "confidence": 0.9,
     "source_document": "Stimulus-response learning.md",
     "created": "2026-09-02T06:27:57Z",
-    "updated": "2026-09-02T06:27:57Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "70673bf96f18",
@@ -3035,10 +3035,10 @@
     "confidence": 0.9,
     "source_document": "Stimulus-response learning.md",
     "created": "2026-09-02T06:53:17Z",
-    "updated": "2026-09-02T06:53:17Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "e20ff4570dbe",
+    "id": "0999c09871ac",
     "subject": "Striatum",
     "predicate": "is_part_of",
     "object": "Basal Ganglia",
@@ -3049,7 +3049,7 @@
     "confidence": 0.96,
     "source_document": "Medium spiny neurons.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0a0683cb6c05",
@@ -3063,7 +3063,7 @@
     "confidence": 0.93,
     "source_document": "Medium spiny neurons.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "99e5755acd41",
@@ -3077,7 +3077,7 @@
     "confidence": 0.95,
     "source_document": "Medium spiny neurons.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8ae5741f50ad",
@@ -3091,7 +3091,7 @@
     "confidence": 0.93,
     "source_document": "Medium spiny neurons.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5efb38c84e94",
@@ -3105,7 +3105,7 @@
     "confidence": 0.95,
     "source_document": "Medium spiny neurons.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d3db7156244a",
@@ -3119,7 +3119,7 @@
     "confidence": 0.95,
     "source_document": "Medium spiny neurons.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8e19fb011caf",
@@ -3147,7 +3147,7 @@
     "confidence": 0.92,
     "source_document": "Val158Met.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c972f41d09d9",
@@ -3161,10 +3161,10 @@
     "confidence": 0.96,
     "source_document": "Val158Met.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "21ed7bbd76d9",
+    "id": "aa415072ec96",
     "subject": "Val158Met",
     "predicate": "impacts",
     "object": "Cognitive Performance",
@@ -3175,13 +3175,13 @@
     "confidence": 0.94,
     "source_document": "Val158Met.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "46e0846684ba",
+    "id": "42bcc46bef4b",
     "subject": "Val158Met",
     "predicate": "impacts",
-    "object": "COMT activity",
+    "object": "COMT",
     "context": {
       "en-US": "Val158Met impacts COMT enzyme activity profoundly: the Met allele encodes a thermolabile protein with roughly three- to four-fold lower activity than the Val allele, making it the principal determinant of fast versus slow catechol clearance. This activity difference cascades into altered dopamine tone, cognition, mood, and drug responses, and underlies the warrior-worrier dichotomy. It is the most functionally consequential COMT variant and among the most studied in psychiatric genetics. Its effect on enzyme kinetics is among the best characterized in human genetics.",
       "zh-TW": "Val158Met 深刻影響 COMT 酶活性：Met 等位基因編碼的不耐熱蛋白的活性比 Val 等位基因低約三到四倍，使其成為快速與慢速兒茶酚清除的主要決定因素。這種活動差異會導致多巴胺音調、認知、情緒和藥物反應的改變，並成為戰士與擔憂者二分法的基礎。它是功能上最重要的 COMT 變體，也是精神遺傳學中研究最多的變體之一。它對酶動力學的影響是人類遺傳學中最具代表性的。"
@@ -3189,7 +3189,7 @@
     "confidence": 0.96,
     "source_document": "Val158Met.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:13Z"
   },
   {
     "id": "b34421d8907b",
@@ -3203,7 +3203,7 @@
     "confidence": 0.95,
     "source_document": "Val158Met.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7d8ed7a97361",
@@ -3217,7 +3217,7 @@
     "confidence": 0.72,
     "source_document": "Val158Met.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5569ad57a584",
@@ -3231,7 +3231,7 @@
     "confidence": 0.93,
     "source_document": "Val158Met.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e13e5d5026b7",
@@ -3245,7 +3245,7 @@
     "confidence": 0.95,
     "source_document": "Val158Met.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "cf8ca93cd491",
@@ -3259,7 +3259,7 @@
     "confidence": 0.93,
     "source_document": "Val158Met.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e93971272731",
@@ -3287,7 +3287,7 @@
     "confidence": 0.92,
     "source_document": "Val158Met.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "29238e26b340",
@@ -3301,7 +3301,7 @@
     "confidence": 0.74,
     "source_document": "Val158Met.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7a2fa89f61ad",
@@ -3315,7 +3315,7 @@
     "confidence": 0.9,
     "source_document": "Prefrontal Cortex.md",
     "created": "2026-09-02T06:53:17Z",
-    "updated": "2026-09-02T06:53:17Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "996dbc7835af",
@@ -3329,7 +3329,7 @@
     "confidence": 0.74,
     "source_document": "Val158Met.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "39d5f020ae4d",
@@ -3343,7 +3343,7 @@
     "confidence": 0.92,
     "source_document": "Val158Met.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "af334af193e9",
@@ -3371,10 +3371,10 @@
     "confidence": 0.96,
     "source_document": "Val158Met.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "2340ce781e67",
+    "id": "1623aec4eaff",
     "subject": "Val158Met",
     "predicate": "impacts",
     "object": "Stimulus-response learning",
@@ -3385,7 +3385,7 @@
     "confidence": 0.74,
     "source_document": "Val158Met.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "22d813cc8803",
@@ -3399,7 +3399,7 @@
     "confidence": 0.7,
     "source_document": "Val158Met.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a2ccef6abd10",
@@ -3413,7 +3413,7 @@
     "confidence": 0.96,
     "source_document": "Val158Met.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7d4e68ac9264",
@@ -3427,7 +3427,7 @@
     "confidence": 0.97,
     "source_document": "Val158Met.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "92394a11b185",
@@ -3441,7 +3441,7 @@
     "confidence": 0.7,
     "source_document": "Val158Met.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "47e1cb48234c",
@@ -3455,7 +3455,7 @@
     "confidence": 0.93,
     "source_document": "Val158Met.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7b76c64aadac",
@@ -3469,7 +3469,7 @@
     "confidence": 0.7,
     "source_document": "Val158Met.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e254265339de",
@@ -3483,7 +3483,7 @@
     "confidence": 0.92,
     "source_document": "Alpha-tocopherol.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "061219feb148",
@@ -3497,7 +3497,7 @@
     "confidence": 0.92,
     "source_document": "Alpha-tocopherol.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4cbb24b8c394",
@@ -3511,10 +3511,10 @@
     "confidence": 0.95,
     "source_document": "Working Memory.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "8fcab28e0eeb",
+    "id": "1d939c05d185",
     "subject": "Working Memory",
     "predicate": "is_component_of",
     "object": "Executive Function",
@@ -3525,7 +3525,7 @@
     "confidence": 0.95,
     "source_document": "Working Memory.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8960f132e6af",
@@ -3539,7 +3539,7 @@
     "confidence": 0.95,
     "source_document": "Working Memory.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7af63f23d52a",
@@ -3553,7 +3553,7 @@
     "confidence": 0.93,
     "source_document": "D1 receptor.md",
     "created": "2026-09-04T17:41:08Z",
-    "updated": "2026-09-04T17:41:08Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "dcae6dbfc5f1",
@@ -3567,7 +3567,7 @@
     "confidence": 0.88,
     "source_document": "D1 receptor.md",
     "created": "2026-09-04T17:41:08Z",
-    "updated": "2026-09-04T17:41:08Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e288a631f3dc",
@@ -3581,7 +3581,7 @@
     "confidence": 0.85,
     "source_document": "D1 receptor.md",
     "created": "2026-09-04T17:41:08Z",
-    "updated": "2026-09-04T17:41:08Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0e44d878c5cc",
@@ -3595,7 +3595,7 @@
     "confidence": 0.85,
     "source_document": "D1 receptor.md",
     "created": "2026-09-04T17:41:08Z",
-    "updated": "2026-09-04T17:41:08Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8b31c7b9f0c4",
@@ -3609,13 +3609,13 @@
     "confidence": 0.93,
     "source_document": "Opicapone.md",
     "created": "2026-09-04T17:41:08Z",
-    "updated": "2026-09-04T17:41:08Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "5bdf75b3af6e",
+    "id": "c28fc7ca8aba",
     "subject": "Opicapone",
     "predicate": "is_a",
-    "object": "COMT inhibitor",
+    "object": "COMT",
     "context": {
       "en-US": "Opicapone belongs to the COMT-inhibitor drug class as its third-generation peripherally restricted member. Classification groups it with entacapone and tolcapone.",
       "zh-TW": "Opicapone 屬於 COMT 抑制劑藥物類別，為第三代周邊限制性成員。歸類將它與 entacapone 和 tolcapone 並列。"
@@ -3623,7 +3623,7 @@
     "confidence": 0.95,
     "source_document": "Opicapone.md",
     "created": "2026-09-04T17:41:08Z",
-    "updated": "2026-09-04T17:41:08Z"
+    "updated": "2026-09-29T18:36:13Z"
   },
   {
     "id": "17d4e764ce3d",
@@ -3637,13 +3637,13 @@
     "confidence": 0.95,
     "source_document": "narcolepsy.md",
     "created": "2026-09-04T17:41:08Z",
-    "updated": "2026-09-04T17:41:08Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "67a9c2102e83",
+    "id": "5432b8ca53f3",
     "subject": "narcolepsy",
     "predicate": "is_associated_with",
-    "object": "Orexin deficiency",
+    "object": "Orexin",
     "context": {
       "en-US": "Narcolepsy type 1 is driven by loss of orexin-producing hypothalamic neurons destabilizing sleep-wake boundaries. The association is the causal core of the disorder's pathophysiology.",
       "zh-TW": "第一型 narcolepsy 由喪失下視丘食慾素神經元、破壞睡眠覺醒邊界所驅動。此關聯是疾病病理生理的因果核心。"
@@ -3651,7 +3651,7 @@
     "confidence": 0.9,
     "source_document": "narcolepsy.md",
     "created": "2026-09-04T17:41:08Z",
-    "updated": "2026-09-04T17:41:08Z"
+    "updated": "2026-09-29T18:36:13Z"
   },
   {
     "id": "7e20f216000c",
@@ -3665,7 +3665,7 @@
     "confidence": 0.9,
     "source_document": "nootropic.md",
     "created": "2026-09-04T17:41:08Z",
-    "updated": "2026-09-04T17:41:08Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "01cba17a1d70",
@@ -3679,7 +3679,7 @@
     "confidence": 0.85,
     "source_document": "nootropic.md",
     "created": "2026-09-04T17:41:08Z",
-    "updated": "2026-09-04T17:41:08Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8d59436b2f04",
@@ -3693,7 +3693,7 @@
     "confidence": 0.95,
     "source_document": "Creatine Kinase.md",
     "created": "2026-09-04T17:41:08Z",
-    "updated": "2026-09-04T17:41:08Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3a2cdb870a37",
@@ -3707,7 +3707,7 @@
     "confidence": 0.88,
     "source_document": "Creatine Kinase.md",
     "created": "2026-09-04T17:41:08Z",
-    "updated": "2026-09-04T17:41:08Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0d0184916b3b",
@@ -3721,7 +3721,7 @@
     "confidence": 0.88,
     "source_document": "Muscle Mass.md",
     "created": "2026-09-04T17:41:08Z",
-    "updated": "2026-09-04T17:41:08Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "79d26f1862d4",
@@ -3735,7 +3735,7 @@
     "confidence": 0.75,
     "source_document": "Phosphocreatine (PCr).md",
     "created": "2026-09-04T17:41:08Z",
-    "updated": "2026-09-04T17:41:08Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b0b3a463529e",
@@ -3749,7 +3749,7 @@
     "confidence": 0.85,
     "source_document": "Creatine Kinase.md",
     "created": "2026-09-04T17:41:08Z",
-    "updated": "2026-09-04T17:41:08Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b2c043cab9a5",
@@ -3763,7 +3763,7 @@
     "confidence": 0.88,
     "source_document": "Adiposity.md",
     "created": "2026-09-04T17:41:08Z",
-    "updated": "2026-09-04T17:41:08Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e133e946dc1a",
@@ -3791,7 +3791,7 @@
     "confidence": 0.8,
     "source_document": "Adiposity.md",
     "created": "2026-09-04T17:41:08Z",
-    "updated": "2026-09-04T17:41:08Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7d70d1318b97",
@@ -3805,7 +3805,7 @@
     "confidence": 0.8,
     "source_document": "Aerobic Capacity.md",
     "created": "2026-09-04T17:41:08Z",
-    "updated": "2026-09-04T17:41:08Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2ca671212aa4",
@@ -3819,7 +3819,7 @@
     "confidence": 0.75,
     "source_document": "Aerobic Capacity.md",
     "created": "2026-09-04T17:41:08Z",
-    "updated": "2026-09-04T17:41:08Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1808abd3cc53",
@@ -3833,7 +3833,7 @@
     "confidence": 0.72,
     "source_document": "Alcohol-Induced Depression.md",
     "created": "2026-09-04T17:41:08Z",
-    "updated": "2026-09-04T17:41:08Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "098cbba794c5",
@@ -3847,10 +3847,10 @@
     "confidence": 0.75,
     "source_document": "Alcohol-Induced Depression.md",
     "created": "2026-09-04T17:41:08Z",
-    "updated": "2026-09-04T17:41:08Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "c41a7979661a",
+    "id": "3458b535db98",
     "subject": "CamKIIα",
     "predicate": "is_expressed_in",
     "object": "Hippocampus",
@@ -3861,7 +3861,7 @@
     "confidence": 0.9,
     "source_document": "Hippocampus.md",
     "created": "2026-09-04T17:41:08Z",
-    "updated": "2026-09-04T17:41:08Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b88ca302fc74",
@@ -3875,7 +3875,7 @@
     "confidence": 0.85,
     "source_document": "Hesperidin.md",
     "created": "2026-09-04T17:41:08Z",
-    "updated": "2026-09-04T17:41:08Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b3204b8b60bd",
@@ -3917,7 +3917,7 @@
     "confidence": 0.82,
     "source_document": "Bipolar II Disorder.md",
     "created": "2026-09-04T17:41:08Z",
-    "updated": "2026-09-04T17:41:08Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a9a31a138fc0",
@@ -3931,7 +3931,7 @@
     "confidence": 0.95,
     "source_document": "Cerebellum.md",
     "created": "2026-09-04T17:41:08Z",
-    "updated": "2026-09-04T17:41:08Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0a34b76376d4",
@@ -3945,7 +3945,7 @@
     "confidence": 0.9,
     "source_document": "Hippocampus.md",
     "created": "2026-09-04T17:55:44Z",
-    "updated": "2026-09-04T17:55:44Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4b8eb333ed47",
@@ -3962,7 +3962,7 @@
     "updated": "2026-09-04T17:55:44Z"
   },
   {
-    "id": "9ef435fba137",
+    "id": "b9b2da75ea9f",
     "subject": "Aspirin",
     "predicate": "reduces",
     "object": "Thromboxane A₂",
@@ -3973,7 +3973,7 @@
     "confidence": 0.92,
     "source_document": "Aspirin.md",
     "created": "2026-09-04T17:55:44Z",
-    "updated": "2026-09-29T18:23:50Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3298d9e2b408",
@@ -3987,7 +3987,7 @@
     "confidence": 0.88,
     "source_document": "Hydroxocobalamin.md",
     "created": "2026-09-04T17:55:44Z",
-    "updated": "2026-09-04T17:55:44Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ecc692669600",
@@ -4001,7 +4001,7 @@
     "confidence": 0.9,
     "source_document": "Hydroxocobalamin.md",
     "created": "2026-09-04T17:55:44Z",
-    "updated": "2026-09-04T17:55:44Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "60fea4b6b37c",
@@ -4015,7 +4015,7 @@
     "confidence": 0.8,
     "source_document": "Hesperidin.md",
     "created": "2026-09-04T17:55:44Z",
-    "updated": "2026-09-04T17:55:44Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8a3214adea58",
@@ -4029,7 +4029,7 @@
     "confidence": 0.8,
     "source_document": "Berberine.md",
     "created": "2026-09-04T17:55:44Z",
-    "updated": "2026-09-04T17:55:44Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2c8a9064fc1c",
@@ -4043,6 +4043,6 @@
     "confidence": 0.88,
     "source_document": "Cerebellum.md",
     "created": "2026-09-04T17:55:44Z",
-    "updated": "2026-09-04T17:55:44Z"
+    "updated": "2026-09-29T18:36:32Z"
   }
 ]
