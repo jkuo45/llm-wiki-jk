@@ -43846,5 +43846,1853 @@
     "source_document": "indoline-5,6-dione.md",
     "created": "2026-09-29T15:18:00Z",
     "updated": "2026-09-29T15:18:00Z"
+  },
+  {
+    "id": "f81e7134ce4c",
+    "subject": "Acid ceramidase",
+    "predicate": "cleaves",
+    "object": "Ceramide",
+    "context": {
+      "en-US": "Acid ceramidase (ACase, aCDase; encoded by ASAH1) is a lysosomal hydrolase that hydrolyzes ceramide into sphingosine plus a free fatty acid, thereby setting the ceramide/Sphingosine-1-phosphate rheostat that switches cell fate between apoptosis and survival.",
+      "zh-TW": "Acid ceramidase（ACase、aCDase；由 ASAH1 編碼）是一種溶小體水解酵素，可將 ceramide 水解為 sphingosine 加游離脂肪酸，藉此決定 ceramide／Sphingosine-1-phosphate 的代謝樞紐，調控細胞在細胞凋亡與存活之間的命運。"
+    },
+    "confidence": 0.95,
+    "source_document": "Acid ceramidase.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "8c03e06668a7",
+    "subject": "Acid ceramidase",
+    "predicate": "is_encoded_by",
+    "object": "ASAH1",
+    "context": {
+      "en-US": "Acid ceramidase is a heterodimeric lysosomal glycoprotein whose catalytic alpha subunit and protective beta subunit are both derived by autocatalytic processing of a single ASAH1 precursor, with the nucleophilic active-site cysteine Cys143 sitting in a Ser-Glu-His amidase triad.",
+      "zh-TW": "Acid ceramidase 是一種異源二聚體溶小體糖蛋白，其催化性 α 次單元與保護性 β 次單元皆由單一 ASAH1 前驅物經自催化切割產生，活性位點的親核性半胱胺酸 Cys143 位於 Ser-Glu-His 醯胺酶三聯體中。"
+    },
+    "confidence": 0.9,
+    "source_document": "Acid ceramidase.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "293db12dfeda",
+    "subject": "Acid ceramidase",
+    "predicate": "is_overexpressed_in",
+    "object": "Senescence",
+    "context": {
+      "en-US": "Acid ceramidase is overexpressed 5- to 20-fold in replicatively senescent cells. The resulting ceramide breakdown releases free saturated and monounsaturated fatty acids that enter the Lands cycle and are exchanged into the sn-2 position of membrane phospholipids, enriching PUFA-containing species that are the preferred substrates for iron-dependent Lipid Peroxidation. This makes acid ceramidase a pro-ferroptotic regulator acting independently of the classical GPX4/GSH and iron axes.",
+      "zh-TW": "Acid ceramidase 在複製性衰老細胞中過度表現 5 至 20 倍。由此造成的 ceramide 分解會釋出游離飽和與單不飽和脂肪酸，進入 Lands cycle 並被置換進膜磷脂的 sn-2 位置，使富含 PUFA 的膜脂種類增加，成為鐵依賴性 Lipid Peroxidation 的偏好受質。這使 acid ceramidase 成為不依賴典型 GPX4／GSH 與鐵軸的促鐵死亡調控者。"
+    },
+    "confidence": 0.85,
+    "source_document": "Acid ceramidase.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "660ac05299e8",
+    "subject": "ARN14794",
+    "predicate": "inhibits",
+    "object": "Acid ceramidase",
+    "context": {
+      "en-US": "ARN14794 is a nanomolar covalent inhibitor of acid ceramidase (hAC IC50 about 100 nM) that blocks the Cys143 active site; it was the pharmacological tool used to show that lowering acid ceramidase reduces membrane PUFA-phospholipids and ferroptotic sensitivity in senescent cells.",
+      "zh-TW": "ARN14794 是 acid ceramidase 的奈莫耳級共價抑制劑（hAC IC50 約 100 nM），作用於 Cys143 活性位；它被用來證明降低 acid ceramidase 可減少膜上 PUFA 磷脂並降低衰老細胞的鐵死亡敏感性。"
+    },
+    "confidence": 0.9,
+    "source_document": "Acid ceramidase.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "284a8f76f832",
+    "subject": "Actin",
+    "predicate": "is_a_component_of",
+    "object": "Cytoskeleton",
+    "context": {
+      "en-US": "Actin polymerizes into microfilaments, one of the core filament systems of the Cytoskeleton alongside microtubules and intermediate filaments. These networks shape cells, anchor adherens junctions (CDH5 links to actin through the p120/beta/alpha-catenin complex to control endothelial permeability), and power motility.",
+      "zh-TW": "Actin 聚合形成微絲，與微管及中間絲並列為 Cytoskeleton 的核心絲狀系統之一。這些網絡塑造細胞形態、錨定黏著連接（CDH5 透過 p120／β／α-catenin 複合體與 actin 相連以調控內皮通透性），並驅動細胞運動。"
+    },
+    "confidence": 0.95,
+    "source_document": "Actin.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "c7547cf224da",
+    "subject": "Actin",
+    "predicate": "interacts_with",
+    "object": "Myosin",
+    "context": {
+      "en-US": "Actin-myosin interaction underlies actomyosin contraction, which drives muscle force generation and cytokinesis; the motor protein Myosin pulls on actin filaments, converting ATP hydrolysis into mechanical work and enabling Cell Migration.",
+      "zh-TW": "Actin 與 myosin 的交互作用構成肌動－肌球蛋白收縮，驅動肌肉產生力量與細胞分裂；馬達蛋白 Myosin 沿 actin 絲牽引，將 ATP 水解轉換為機械功，使 Cell Migration 得以進行。"
+    },
+    "confidence": 0.9,
+    "source_document": "Actin.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "43fea4957edb",
+    "subject": "Caspase-3",
+    "predicate": "cleaves",
+    "object": "Actin",
+    "context": {
+      "en-US": "Caspase-3 cleaves actin networks during Apoptosis, dismantling the cytoskeleton and contributing to the characteristic morphological collapse of the dying cell. Actin fragmentation by caspase-3 is a late but central execution step of apoptosis.",
+      "zh-TW": "Caspase-3 在 Apoptosis 過程中切割 actin 網絡，拆解細胞骨架並促成死亡細胞特有的形態崩解。actin 遭 caspase-3 碎裂是凋亡後期但關鍵的執行步驟。"
+    },
+    "confidence": 0.9,
+    "source_document": "Actin.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "d5afa4a3fff2",
+    "subject": "Actinobacteria",
+    "predicate": "includes",
+    "object": "Bifidobacterium",
+    "context": {
+      "en-US": "Actinobacteria is a phylum of Gram-positive, high-G+C bacteria; the genus Bifidobacterium and related taxa within it colonize the gastrointestinal tract from birth, ferment dietary fiber into Short-chain Fatty Acids (notably acetate and lactate), acidify the lumen, competitively exclude pathogens, and help train the neonatal immune system.",
+      "zh-TW": "Actinobacteria 是革蘭氏陽性、高 G+C 含量細菌的門；其中的 Bifidobacterium 屬與相關類群自出生即定殖胃腸道，將膳食纖維發酵為 Short-chain Fatty Acids（尤其醋酸與乳酸），酸化腸腔、競爭性排除病原體，並協助訓練新生兒免疫系統。"
+    },
+    "confidence": 0.9,
+    "source_document": "Actinobacteria.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "f4a2b2c990c0",
+    "subject": "Actinobacteria",
+    "predicate": "is_associated_with",
+    "object": "Longevity",
+    "context": {
+      "en-US": "A healthy, particularly bifidobacterial, abundance of Actinobacteria is associated with Longevity and is enriched in Centenarians relative to younger adults, whereas the age-related decline in Bifidobacterium (dysbiosis) is linked to inflammaging. Together with Firmicutes, Actinobacteria form the dominant culturable gut phyla whose balance shapes metabolic and immune homeostasis.",
+      "zh-TW": "Actinobacteria（尤其是雙歧桿菌類）健康而豐富的數量與 Longevity 相關，在 Centenarians 中的比例高於年輕成人；相對地，Bifidobacterium 隨年齡下降（失調）則與 inflammaging 連結。Actinobacteria 與 Firmicutes 共同構成可培養腸道菌群的主導門，其平衡影響代謝與免疫恆定。"
+    },
+    "confidence": 0.8,
+    "source_document": "Actinobacteria.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "aa6cacf6383a",
+    "subject": "Bifidobacterium",
+    "predicate": "produces",
+    "object": "Short-chain Fatty Acids",
+    "context": {
+      "en-US": "Bifidobacteria within the Actinobacteria ferment dietary fiber into Short-chain Fatty Acids, principally acetate and lactate. The resulting luminal acidification, pathogen exclusion, and metabolic signaling (e.g. via GPR receptors) are part of why bifidobacterial abundance tracks healthy aging.",
+      "zh-TW": "Actinobacteria 中的 Bifidobacterium 會將膳食纖維發酵成 Short-chain Fatty Acids，主要為醋酸與乳酸。由此產生的腸腔酸化、病原體排除與代謝訊號傳遞（例如經由 GPR 受體），是雙歧桿菌豐富度與健康老化相關的部分原因。"
+    },
+    "confidence": 0.85,
+    "source_document": "Actinobacteria.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "db3933640482",
+    "subject": "SIRT1",
+    "predicate": "protects_against",
+    "object": "Acute Lung Injury",
+    "context": {
+      "en-US": "SIRT1 is protective in most Acute Lung Injury models: knockout mice are highly susceptible to sepsis-induced lung injury via NF-kB, and resveratrol reduces injury in LPS sepsis and paraquat models through the SIRT1/NRF2 axis. The picture is context dependent, however, since the SIRT1 inhibitor EX-527 alleviates endotoxemia lung injury by suppressing mTOR.",
+      "zh-TW": "SIRT1 在多數 Acute Lung Injury 模型中具有保護作用：基因敲除小鼠經由 NF-κB 而高度易感於敗血症誘發的肺損傷，resveratrol 亦透過 SIRT1／NRF2 軸減輕 LPS 敗血症與百草枯模型中的損傷。不過此效應具情境依賴性，因為 SIRT1 抑制劑 EX-527 反而藉由抑制 mTOR 緩解內毒素血症的肺損傷。"
+    },
+    "confidence": 0.85,
+    "source_document": "Acute Lung Injury.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "4107e442d20b",
+    "subject": "SIRT3",
+    "predicate": "protects_against",
+    "object": "Acute Lung Injury",
+    "context": {
+      "en-US": "SIRT3 protects against Acute Lung Injury by promoting MnSOD expression in the lung, so that SIRT3-deficient mice develop more severe hyperoxia-induced injury, in part through NLRP3 inflammasome activation in alveolar macrophages.",
+      "zh-TW": "SIRT3 藉由促進肺部的 MnSOD 表現而對抗 Acute Lung Injury，因此 SIRT3 缺乏小鼠在高氧誘導下會出現更嚴重的損傷，部分原因是肺泡巨噬細胞中的 NLRP3 發炎小體被活化。"
+    },
+    "confidence": 0.85,
+    "source_document": "Acute Lung Injury.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "5b5f18b8283e",
+    "subject": "SIRT6",
+    "predicate": "protects_against",
+    "object": "Acute Lung Injury",
+    "context": {
+      "en-US": "SIRT6 regulates macrophage polarization and thereby alleviates sepsis-induced Acute Respiratory Distress Syndrome through both autophagy-dependent and autophagy-independent mechanisms, making the sirtuin a rheostat of inflammatory lung injury severity.",
+      "zh-TW": "SIRT6 藉由調控巨噬細胞極化，透過自噬依賴與非依賴的機制緩解敗血症誘發的 Acute Respiratory Distress Syndrome，因此該 sirtuin 是發炎性肺損傷嚴重程度的 rheostat。"
+    },
+    "confidence": 0.85,
+    "source_document": "Acute Lung Injury.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "7de7f3336803",
+    "subject": "Acute Lung Injury",
+    "predicate": "is_associated_with",
+    "object": "Mitochondrial Dynamics",
+    "context": {
+      "en-US": "Acute Lung Injury and its severe form Acute Respiratory Distress Syndrome involve epithelial and endothelial injury with neutrophilic inflammation and alveolar-capillary barrier disruption. Excessive Mitochondrial Fission and impaired Mitophagy in lung epithelial and immune cells contribute to cell death and inflammatory amplification.",
+      "zh-TW": "Acute Lung Injury 及其較嚴重的型態 Acute Respiratory Distress Syndrome 涉及上皮與內皮損傷，伴隨嗜中性球發炎與肺泡－微血管屏障破壞。肺上皮與免疫細胞中過度的 Mitochondrial Fission 與受損的 Mitophagy 會促成細胞死亡與發炎放大。"
+    },
+    "confidence": 0.85,
+    "source_document": "Acute Lung Injury.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "72b5a5902d0b",
+    "subject": "Acute Respiratory Distress Syndrome",
+    "predicate": "is_a_type_of",
+    "object": "Acute Lung Injury",
+    "context": {
+      "en-US": "Acute Respiratory Distress Syndrome is the more severe end of the acute lung injury spectrum: a syndrome of acute diffuse lung injury producing increased pulmonary vascular permeability, edema, and refractory hypoxemic respiratory failure, triggered by insults such as sepsis, pneumonia, aspiration, trauma, pancreatitis, and severe COVID-19 rather than a single disease entity.",
+      "zh-TW": "Acute Respiratory Distress Syndrome 是急性肺損傷光譜中較嚴重的一端：一種急性瀰漫性肺損傷症候群，造成肺血管通透性增加、水腫與難以緩解的低血氧呼吸衰竭，可由敗血症、肺炎、誤吸、創傷、胰臟炎與嚴重 COVID-19 等誘因引起，並非單一疾病。"
+    },
+    "confidence": 0.9,
+    "source_document": "Acute Respiratory Distress Syndrome.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "66ed7d53a92e",
+    "subject": "COVID-19",
+    "predicate": "causes",
+    "object": "Acute Respiratory Distress Syndrome",
+    "context": {
+      "en-US": "Severe COVID-19 is a major contemporary cause of Acute Respiratory Distress Syndrome. Alveolar endothelial and epithelial damage releases Pro-inflammatory Cytokines and activates Neutrophils, producing diffuse alveolar damage, hyaline membranes, surfactant loss, and shunt Hypoxia that does not respond to supplemental oxygen.",
+      "zh-TW": "嚴重 COVID-19 是 Acute Respiratory Distress Syndrome 當代最主要的成因之一。肺泡內皮與上皮損傷會釋放 Pro-inflammatory Cytokines 並活化 Neutrophils，造成瀰漫性肺泡損傷、透明膜形成、表面活性物質流失，以及對補充氧無反應的分流性 Hypoxia。"
+    },
+    "confidence": 0.9,
+    "source_document": "Acute Respiratory Distress Syndrome.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "6f5fca2cc158",
+    "subject": "Methylene blue",
+    "predicate": "is_proposed_for",
+    "object": "Acute Respiratory Distress Syndrome",
+    "context": {
+      "en-US": "Methylene blue has been proposed for Acute Respiratory Distress Syndrome and COVID-19 on the basis of its antioxidant and anti-inflammatory (soluble guanylyl cyclase inhibition) actions, but clinical efficacy is unestablished and it is not approved for this indication, remaining purely investigational.",
+      "zh-TW": "Methylene blue 依據其抗氧化與抗發炎（抑制 soluble guanylyl cyclase）作用，被提出用於 Acute Respiratory Distress Syndrome 與 COVID-19，但其臨床療效尚未確立，亦未獲准用於此適應症，仍屬純研究性用途。"
+    },
+    "confidence": 0.75,
+    "source_document": "Acute Respiratory Distress Syndrome.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "ac35e3f586fd",
+    "subject": "Adaptive Immune System",
+    "predicate": "is_primed_by",
+    "object": "cGAS-STING Pathway",
+    "context": {
+      "en-US": "cGAS-STING Pathway activation primes the Adaptive Immune System by enhancing antigen presentation and promoting T- and B-cell priming; STING-driven Type I Interferon and chemokine output can then recruit adaptive lymphocytes into the Central Nervous System, while also fostering regulatory T- and B-cell responses that may be protective in Neuroinflammation.",
+      "zh-TW": "cGAS-STING Pathway 的活化會藉由增強抗原呈現並促進 T 細胞與 B 細胞的致敏（priming）來啟動 Adaptive Immune System；隨後由 STING 驅動的 Type I Interferon 與趨化激素輸出可將適應性淋巴球招募進 Central Nervous System，同時也促進在 Neuroinflammation 中可能具保護作用的調節型 T 與 B 細胞反應。"
+    },
+    "confidence": 0.85,
+    "source_document": "Adaptive Immune System.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "17e97fd9793a",
+    "subject": "Adaptive Immune System",
+    "predicate": "contributes_to",
+    "object": "Neuroinflammation",
+    "context": {
+      "en-US": "In neurodegenerative disease and injury, T and B cells of the Adaptive Immune System infiltrate the CNS and interact with resident Microglia. The net effect is context dependent: adaptive engagement can be deleterious when driven by autoantibody generation and self-antigen presentation, yet beneficial when it tempers innate inflammation.",
+      "zh-TW": "在神經退化性疾病與損傷中，Adaptive Immune System 的 T 與 B 細胞會浸潤中樞神經系統並與常駐的 Microglia 交互作用。其淨效應具情境依賴性：當由自體抗體生成與自身抗原呈現驅動時可能有害，但在抑制先天發炎時則可能有益。"
+    },
+    "confidence": 0.8,
+    "source_document": "Adaptive Immune System.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "420416059265",
+    "subject": "cGAS-STING Pathway",
+    "predicate": "promotes",
+    "object": "Autoimmune Disease",
+    "context": {
+      "en-US": "Dysregulated cGAS-STING Pathway activity promotes Autoimmune Disease through excessive self-antigen presentation and autoantibody generation, illustrating that innate nucleic-acid sensing can drive adaptive autoimmunity as well as protective tolerance.",
+      "zh-TW": "失調的 cGAS-STING Pathway 活性會透過過度的自身抗原呈現與自體抗體生成而促成 Autoimmune Disease，說明先天核酸感測不僅能促進保護性耐受，也能驅動適應性自體免疫。"
+    },
+    "confidence": 0.8,
+    "source_document": "Adaptive Immune System.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "b8167bd07571",
+    "subject": "Oxidative Phosphorylation",
+    "predicate": "produces",
+    "object": "Adenosine Triphosphate",
+    "context": {
+      "en-US": "Adenosine Triphosphate (ATP) is the universal energy currency of the cell, coupling exergonic and endergonic reactions through phosphate-bond hydrolysis. It is produced mainly by Oxidative Phosphorylation at the Inner Mitochondrial Membrane, with glycolysis contributing under anaerobic conditions.",
+      "zh-TW": "Adenosine Triphosphate（ATP）是細胞的通用能量貨幣，透過磷酸鍵水解連結放能與吸能反應。它主要由 Inner Mitochondrial Membrane 上的 Oxidative Phosphorylation 產生，無氧條件下則有糖解作用參與貢獻。"
+    },
+    "confidence": 0.95,
+    "source_document": "Adenosine Triphosphate.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "99a3a0083c85",
+    "subject": "Mitochondrial Fusion",
+    "predicate": "reduces",
+    "object": "Adenosine Triphosphate",
+    "context": {
+      "en-US": "The balance between Mitochondrial Fusion and Mitochondrial Fission directly influences ATP supply: fragmented mitochondria can be selectively removed by Mitophagy, while excessive fusion can paradoxically reduce ATP availability by increasing mitophagic turnover. Balanced dynamics are therefore required to maintain Mitochondrial Integrity and meet cellular energy demand.",
+      "zh-TW": "Mitochondrial Fusion 與 Mitochondrial Fission 的平衡直接影響 ATP 供應：碎裂的粒線體可被 Mitophagy 選擇性清除，而過度的融合反而會因提高線粒體自噬周轉而反常地降低 ATP 可用量。因此，平衡的動態平衡是維持 Mitochondrial Integrity 並滿足細胞能量需求所必需的。"
+    },
+    "confidence": 0.8,
+    "source_document": "Adenosine Triphosphate.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "6bb32ec1da0f",
+    "subject": "Adipose Tissue",
+    "predicate": "produces",
+    "object": "Leptin",
+    "context": {
+      "en-US": "Adipose Tissue is a major endocrine organ, and its adipocytes secrete Leptin to signal satiety and energy stores to the brain, alongside Adiponectin, free fatty acids, and numerous cytokines. Leptin secretion rises with fat mass and is a key feedback signal in energy-balance regulation.",
+      "zh-TW": "Adipose Tissue 是重要的內分泌器官，其脂肪細胞分泌 Leptin 向腦部傳遞飽足感與能量儲存的訊號，並同時分泌 Adiponectin、游離脂肪酸與多種細胞激素。Leptin 的分泌隨脂肪量上升，是能量平衡調節中的關鍵回饋訊號。"
+    },
+    "confidence": 0.95,
+    "source_document": "Adipose Tissue.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "7ebbe21219ef",
+    "subject": "Adipose Tissue",
+    "predicate": "produces",
+    "object": "Adiponectin",
+    "context": {
+      "en-US": "Adipocytes within Adipose Tissue secrete Adiponectin, an insulin-sensitizing hormone that enhances insulin sensitivity and fatty-acid oxidation. Its production falls in obesity and insulin resistance, linking adipose secretory failure to metabolic disease.",
+      "zh-TW": "Adipose Tissue 內的脂肪細胞分泌 Adiponectin，一種增進胰島素敏感性与脂肪酸氧化的促胰島素作用激素。其分泌量在肥胖與胰島素阻抗時下降，將脂肪分泌功能失調與代謝疾病連結起來。"
+    },
+    "confidence": 0.95,
+    "source_document": "Adipose Tissue.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "86ddbaeddf31",
+    "subject": "Brown Adipose Tissue",
+    "predicate": "is_a_type_of",
+    "object": "Adipose Tissue",
+    "context": {
+      "en-US": "Brown Adipose Tissue is the thermogenic subtype of Adipose Tissue: it is mitochondria-rich and expresses UCP1, dissipating stored energy as heat through non-shivering thermogenesis. Beige adipocytes can also emerge within white adipose depots in response to cold or exercise, acquiring similar thermogenic properties.",
+      "zh-TW": "Brown Adipose Tissue 是 Adipose Tissue 的產熱次型：其粒線體豐富並表現 UCP1，透過非顫抖性產熱將儲存的能量以熱的形式散失。白色脂肪庫中也可在寒冷或運動刺激下出現米色脂肪細胞，獲得類似的產熱特性。"
+    },
+    "confidence": 0.9,
+    "source_document": "Adipose Tissue.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "3b393cc6d243",
+    "subject": "Adipose Tissue",
+    "predicate": "contributes_to",
+    "object": "Insulin Resistance",
+    "context": {
+      "en-US": "Excess or dysfunctional Adipose Tissue drives Obesity, chronic low-grade inflammation, Insulin Resistance, and Metabolic Syndrome. Hypertrophic adipocytes recruit inflammatory Macrophages and secrete pro-inflammatory adipokines, linking adiposity to Diabetes Mellitus and cardiovascular disease, while AMPK governs adipocyte lipolysis and lipogenesis.",
+      "zh-TW": "過量或功能失調的 Adipose Tissue 會促成 Obesity、慢性低度發炎、Insulin Resistance 與 Metabolic Syndrome。肥大的脂肪細胞會招募發炎性 Macrophages 並分泌促發炎 adipokine，將肥胖與 Diabetes Mellitus 及心血管疾病連結；同時 AMPK 調控脂肪細胞的脂解與脂新生。"
+    },
+    "confidence": 0.9,
+    "source_document": "Adipose Tissue.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "aabad228b96f",
+    "subject": "Adrenal gland",
+    "predicate": "produces",
+    "object": "Catecholamines",
+    "context": {
+      "en-US": "The Adrenal gland is a paired endocrine organ whose inner Adrenal medulla, composed of Chromaffin cells, synthesizes the Catecholamines Epinephrine (about 80%) and Norepinephrine (about 20%). Synthesis runs Tyrosine to L-DOPA via Tyrosine Hydroxylase, then dopamine, Norepinephrine, and finally Epinephrine via PNMT.",
+      "zh-TW": "Adrenal gland 是一對內分泌器官，其內層由 Chromaffin cells 組成的 Adrenal medulla 合成 Catecholamines，即約 80% 的 Epinephrine 與約 20% 的 Norepinephrine。合成途徑由 Tyrosine 經 Tyrosine Hydroxylase 轉為 L-DOPA，再經 dopamine、Norepinephrine，最後由 PNMT 催化生成 Epinephrine。"
+    },
+    "confidence": 0.95,
+    "source_document": "Adrenal gland.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "d1e0cfaf6b81",
+    "subject": "Adrenal gland",
+    "predicate": "produces",
+    "object": "Glucocorticoids",
+    "context": {
+      "en-US": "The Adrenal cortex constitutes 80-90% of the Adrenal gland volume and is organized into three zones: the zona glomerulosa makes mineralocorticoids, the zona fasciculata makes Glucocorticoids (mainly Cortisol, about 95% of human glucocorticoid activity) under HPA Axis control, and the zona reticularis makes adrenal androgens such as DHEA.",
+      "zh-TW": "Adrenal cortex 佔 Adrenal gland 體積的 80–90%，分為三個帶：zona glomerulosa 製造礦物性皮質素，zona fasciculata 在 HPA Axis 調控下製造 Glucocorticoids（主要為 Cortisol，約占人類糖皮質素活性的 95%），zona reticularis 則製造 DHEA 等腎上腺雄性素。"
+    },
+    "confidence": 0.9,
+    "source_document": "Adrenal gland.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "77d7e4b00f0c",
+    "subject": "Adrenal gland",
+    "predicate": "produces",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "Under conditions of Oxidative Stress, Epinephrine released from the Adrenal medulla can be oxidized to form Adrenochrome, a non-enzymatic or myeloperoxidase-catalyzed conversion accelerated by transition metals and elevated ROS. The Adrenochrome Pathway thus shunts Epinephrine away from receptor-mediated signaling toward oxidative byproducts that polymerize into melanin-like pigments in the aging adrenal.",
+      "zh-TW": "在 Oxidative Stress 條件下，由 Adrenal medulla 釋放的 Epinephrine 可被氧化形成 Adrenochrome；此轉換可為非酵素性或由 myeloperoxidase 催化，並受過渡金屬離子與升高 ROS 加速。Adrenochrome Pathway 因此使 Epinephrine 從受體介導的訊號傳遞轉向氧化副產物，並在老化腎上腺中聚合成類似黑色素���色素。"
+    },
+    "confidence": 0.85,
+    "source_document": "Adrenal gland.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "fb0335a7ac13",
+    "subject": "Adrenal gland",
+    "predicate": "is_regulated_by",
+    "object": "ACTH",
+    "context": {
+      "en-US": "The Adrenal cortex receives minimal direct innervation and is regulated primarily by humoral signals. ACTH released from the anterior pituitary under HPA Axis drive upregulates cortical steroidogenesis, while Cortisol exerts negative feedback at pituitary and hypothalamic levels; Angiotensin II and plasma Potassium are the dominant inputs for aldosterone.",
+      "zh-TW": "Adrenal cortex 幾乎沒有直接神經支配，主要受體液訊號調節。在 HPA Axis 驅動下由腦下垂體前葉釋放的 ACTH 會上调皮質類固醇生成，而 Cortisol 則在腦下垂體與下視丘層級進行負回饋；Angiotensin II 與血漿 Potassium 則是 aldosterone 分泌的主要輸入訊號。"
+    },
+    "confidence": 0.9,
+    "source_document": "Adrenal gland.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "e8e21f105049",
+    "subject": "Pheochromocytoma",
+    "predicate": "arises_from",
+    "object": "Chromaffin cells",
+    "context": {
+      "en-US": "Pheochromocytoma is a Catecholamines-secreting tumor arising from Chromaffin cells of the Adrenal medulla, producing paroxysmal hypertension, palpitations, headache, and diaphoresis. About 10% are extra-adrenal paragangliomas, 10% bilateral, 10% malignant, and 10% hereditary (MEN2, VHL disease, NF1).",
+      "zh-TW": "Pheochromocytoma 是源自 Adrenal medulla 之 Chromaffin cells 的 Catecholamines 分泌腫瘤，會造成陣發性高血壓、心悸、頭痛與大量出汗。約 10% 為腎上腺外 paraganglioma、10% 為雙側、10% 為惡性、10% 為遺傳性（與 MEN2、VHL disease、NF1 相關）。"
+    },
+    "confidence": 0.9,
+    "source_document": "Adrenal gland.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "2152d8e25c49",
+    "subject": "Adrenal medulla",
+    "predicate": "is_a_component_of",
+    "object": "Adrenal gland",
+    "context": {
+      "en-US": "The Adrenal medulla is the inner parenchyma of the Adrenal gland, a neural-crest-derived neuroendocrine tissue that functions as a modified sympathetic ganglion. It is composed of large rounded Chromaffin cells that store catecholamines in dense-core vesicles alongside ATP, dopamine beta-hydroxylase, and chromogranins.",
+      "zh-TW": "Adrenal medulla 是 Adrenal gland 的內層實質，屬神經嵴來源的神经內分泌組織，功能上等同於修飾過的交感神經節。它由大型圓形 Chromaffin cells 組成，這些細胞在緻密核心囊泡中與 ATP、dopamine beta-hydroxylase 及 chromogranins 一同儲存兒茶酚胺。"
+    },
+    "confidence": 0.95,
+    "source_document": "Adrenal medulla.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "dadcf0a9e5cd",
+    "subject": "Adrenal medulla",
+    "predicate": "produces",
+    "object": "Epinephrine",
+    "context": {
+      "en-US": "On sympathetic activation the Adrenal medulla exocytoses Epinephrine (about 80-85% of human medullary secretion) and Norepinephrine into the bloodstream, producing the fight-or-flight response of tachycardia, bronchodilation, glycogenolysis, and lipolysis. Release is governed by the Sympathetic Nervous System rather than conventional endocrine feedback.",
+      "zh-TW": "在交感活化時，Adrenal medulla 會將 Epinephrine（占人類髓質分泌約 80–85%）與 Norepinephrine 胞吐至血流中，產生心跳加快、支氣管擴張、肝醣分解與脂解等戰或逃反應。分泌由 Sympathetic Nervous System 直接調控，而非一般的內分泌回饋。"
+    },
+    "confidence": 0.95,
+    "source_document": "Adrenal medulla.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "127f4331a9ba",
+    "subject": "Adrenal medulla",
+    "predicate": "produces",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "Released epinephrine from the Adrenal medulla is susceptible to auto-oxidation, forming reactive aminochromes such as Adrenochrome especially in the presence of oxidants, trace metals, or alkaline pH. This links medullary catecholamine flux to redox stress and to Catecholamine-induced cardiomyopathy under sustained drive.",
+      "zh-TW": "由 Adrenal medulla 釋放的 epinephrine 容易自發氧化，形成 Adrenochrome 等反應性 aminochrome，在氧化劑、痕量金屬或鹼性 pH 環境下尤為明顯。這把髓質的兒茶酚胺通量與氧化還原壓力連結起來，也與持續刺激下的 Catecholamine-induced cardiomyopathy 相關。"
+    },
+    "confidence": 0.85,
+    "source_document": "Adrenal medulla.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "db1b73b4c9ef",
+    "subject": "Adrenocortical carcinomas",
+    "predicate": "overexpresses",
+    "object": "GPX4",
+    "context": {
+      "en-US": "Adrenocortical carcinomas (ACCs) are rare, highly malignant endocrine cancers of the adrenal cortex that show significantly increased GPX4 expression. Because GPX4 is the master negative regulator of Ferroptosis, its abundance normally protects cells but in ACC marks a dependency: once GPX4 is inhibited or GSH is depleted, the tumor cells are primed to die by iron-dependent lipid peroxidation.",
+      "zh-TW": "Adrenocortical carcinomas（ACC）是罕見、高度惡性的腎上腺皮質內分泌癌，GPX4 表現顯著升高。由於 GPX4 是 Ferroptosis 的主要負向調控者，其高量在一般情況下可保護細胞，但在 ACC 中卻標記出一種依賴性：一旦 GPX4 被抑制或 GSH 耗竭，腫瘤細胞即被設定為經由鐵依賴性脂質過氧化而死亡。"
+    },
+    "confidence": 0.85,
+    "source_document": "Adrenocortical carcinomas.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "f81d874fef8d",
+    "subject": "Adrenocortical carcinomas",
+    "predicate": "increased_susceptibility_to",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "The elevated GPX4 in Adrenocortical carcinomas signals heightened sensitivity to Ferroptosis, so that ferroptosis inducers may be more effective and less toxic than the standard agent Mitotane. GPX4 inhibitors such as RSL3 and FINs, or upstream cystine-starvation via Erastin and System Xc- blockade, are candidate ACC therapies.",
+      "zh-TW": "Adrenocortical carcinomas 中升高的 GPX4 意味著對 Ferroptosis 的高度敏感性，因此鐵死亡誘導劑可能比標準藥物 Mitotane 更有效且毒性更低。RSL3 與 FINs 等 GPX4 抑制劑，或透過 Erastin 與 System Xc- 阻斷造成的上游胱胺酸飢餓，都是候選的 ACC 療法。"
+    },
+    "confidence": 0.8,
+    "source_document": "Adrenocortical carcinomas.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "25ccfd308c09",
+    "subject": "Senescence",
+    "predicate": "contributes_to",
+    "object": "Age-Related Diseases",
+    "context": {
+      "en-US": "Cellular Senescence is a root cause of multiple Age-Related Diseases: senolytic interventions such as Fisetin or the Dasatinib plus Quercetin combination clear senescent cells and thereby alleviate frailty, atherosclerosis, osteoarthritis, and renal dysfunction in preclinical models, reducing pathology across several disease categories in aged mice.",
+      "zh-TW": "細胞 Senescence 是多項 Age-Related Diseases 的根本成因：Fisetin 或 Dasatinib 加 Quercetin 等 senolytic 介入可清除衰老細胞，在前臨床模型中緩解虛弱、動脈粥狀硬化、骨關節炎與腎功能障礙，並在老化小鼠中降低多類疾病的病理變化。"
+    },
+    "confidence": 0.85,
+    "source_document": "Age-Related Diseases.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "e1902ff15ed1",
+    "subject": "Inflammaging",
+    "predicate": "contributes_to",
+    "object": "Age-Related Diseases",
+    "context": {
+      "en-US": "Age-Related Diseases are chronic conditions whose risk and prevalence rise with advancing age, driven by hallmarks of aging including Senescence, chronic sterile Inflammaging, Oxidative Stress, DNA Damage, Epigenetics alterations, and Autophagy decline. Clearing senescent cells with Fisetin reduces pathology across these disease categories in aged mice.",
+      "zh-TW": "Age-Related Diseases 是一類風險與盛行率隨年齡增長而上升的慢性疾病，由衰老的標誌性機制驅動，包括 Senescence、慢性無菌性 Inflammaging、Oxidative Stress、DNA Damage、Epigenetics 改變與 Autophagy 衰退。以 Fisetin 清除衰老細胞可在老化小鼠中降低上述各類疾病的病理變化。"
+    },
+    "confidence": 0.85,
+    "source_document": "Age-Related Diseases.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "4ec82d26bb8a",
+    "subject": "Fisetin",
+    "predicate": "treats",
+    "object": "Age-Related Diseases",
+    "context": {
+      "en-US": "Fisetin is a senolytic that extends health and lifespan: clearing senescent cells with Fisetin reduces pathology across multiple age-related disease categories in aged mice, which supports the view that Age-Related Diseases share senescent cells as a common, actionable target.",
+      "zh-TW": "Fisetin 是可延長健康壽命與壽命的 senolytic：以 Fisetin 清除衰老細胞可在老化小鼠中降低多類 age-related disease 的病理變化，支持 Age-Related Diseases 共享衰老細胞這個可介入共同標的的觀點。"
+    },
+    "confidence": 0.8,
+    "source_document": "Age-Related Diseases.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "01d201b370da",
+    "subject": "Epigenetic Clock",
+    "predicate": "uses",
+    "object": "DNA Methylation",
+    "context": {
+      "en-US": "Epigenetic clocks (for example the Horvath clock) use algorithms that analyze DNA Methylation at specific CpG sites to estimate an individual's biological age. When epigenetic age exceeds chronological age, termed epigenetic age acceleration, the subject carries higher risk for Cancer, Cardiovascular Disease, and Neurodegenerative Diseases.",
+      "zh-TW": "Epigenetic clock（例如 Horvath clock）使用演算法分析特定 CpG 位點的 DNA Methylation，以估算個人的生物年齡。當表觀遺傳年齡高於實際年齡（即表觀遺傳年齡加速）時，個體在 Cancer、Cardiovascular Disease 與 Neurodegenerative Diseases 上的風險較高。"
+    },
+    "confidence": 0.9,
+    "source_document": "Aging.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "574855f9647e",
+    "subject": "Aging",
+    "predicate": "impairs",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Aging is the time-dependent decline in physiological function and cellular integrity characterized by accumulated cellular damage and impairment of protective mechanisms such as Autophagy. Autophagy acts as the key nutrient-recycling pathway that lets cells adapt to surging stress and thereby delays age-associated deterioration, so its decline with age is a driver of pathology.",
+      "zh-TW": "Aging 是生理功能與細胞完整性隨時間衰退的過程，其特徵為細胞損傷累積以及 Autophagy 等保護機制的受損。Autophagy 作為關鍵的營養回收途徑，使細胞能適應急遽的壓力並延緩與年齡相關的退化，因此其隨年齡衰退是病理的推動因素。"
+    },
+    "confidence": 0.85,
+    "source_document": "Aging.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "33bf02ca7c65",
+    "subject": "Caloric Restriction",
+    "predicate": "slows",
+    "object": "Aging",
+    "context": {
+      "en-US": "Caloric Restriction is the only regimen shown to slow Aging and extend lifespan across most classes of organism including mammals, and Sir2 (yeast) homologues may underlie this benefit. Caloric Restriction is also studied for its ability to partially reverse age-related epigenetic signatures, with sirtuins mediating effects on DNA Repair, stress response, and homeostasis.",
+      "zh-TW": "Caloric Restriction 是唯一在多數物種類群（包含哺乳類）中被證實能減緩 Aging 並延長壽命的介入方式，而 Sir2（酵母）的同源基因可能是其效益的基礎。Caloric Restriction 亦被研究用於部分逆轉與年齡相關的表觀遺傳特徵，sirtuin 則中介其對 DNA Repair、壓力反應與恆定性的作用。"
+    },
+    "confidence": 0.85,
+    "source_document": "Aging.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "20c94210a404",
+    "subject": "Epigenetics",
+    "predicate": "is_associated_with",
+    "object": "Aging",
+    "context": {
+      "en-US": "The relationship between Aging and Epigenetics is a central focus of modern Geroscience: as organisms age, epigenetic marks undergo predictable and stochastic changes collectively termed epigenetic aging, including global DNA hypomethylation driving Genomic Instability, site-specific promoter hypermethylation silencing tumor suppressors, global histone loss and transcriptional noise, and a shift from tight Heterochromatin to disorganized Euchromatin.",
+      "zh-TW": "Aging 與 Epigenetics 的關係是現代 Geroscience 的核心焦點：隨生物體老化，表觀遺傳標記會發生可預測與隨機的變化，統稱為表觀遺傳老化，包括推動 Genomic Instability 的全基因組去甲基化、沉默腫瘤抑制基因的啟動子位點特異性過甲基化、全基因組組蛋白流失與轉錄噪音，以及由緊密 Heterochromatin 轉向失序 Euchromatin 的結構轉變。"
+    },
+    "confidence": 0.9,
+    "source_document": "Aging.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "58f5a1a6b9aa",
+    "subject": "Senolytics",
+    "predicate": "slows",
+    "object": "Aging",
+    "context": {
+      "en-US": "Pharmacological compounds such as Senolytics (and HDAC inhibitors) are studied alongside Caloric Restriction and exercise for their ability to slow or partially reverse age-related epigenetic signatures and the Senescence state, making them candidate interventions against epigenetic aging.",
+      "zh-TW": "Senolytics（以及 HDAC 抑制劑）等藥理化合物，正與 Caloric Restriction 及運動一同被研究，以評估其減緩或部分逆轉與年齡相關的表觀遺傳特徵與 Senescence 狀態的能力，使其成為對抗表觀遺傳老化的候選介入方式。"
+    },
+    "confidence": 0.75,
+    "source_document": "Aging.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "ba8dad9bb22c",
+    "subject": "Akkermansia muciniphila",
+    "predicate": "is_a_member_of",
+    "object": "Akkermansia",
+    "context": {
+      "en-US": "Akkermansia muciniphila is the principal gut-dwelling species of the genus Akkermansia (phylum Verrucomicrobia). It colonizes the intestinal mucus layer and degrades host mucin glycoproteins, and is consistently associated with gut barrier integrity and metabolic homeostasis.",
+      "zh-TW": "Akkermansia muciniphila 是 Akkermansia 屬（Verrucomicrobia 門）主要的腸道物種。它定殖於腸道黏液層並分解宿主黏蛋白醣蛋白，且與腸道屏障完整性及代謝恆定穩定相關。"
+    },
+    "confidence": 0.95,
+    "source_document": "Akkermansia muciniphila.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "ce889695f2b4",
+    "subject": "Berberine",
+    "predicate": "increases",
+    "object": "Akkermansia muciniphila",
+    "context": {
+      "en-US": "Berberine's low oral bioavailability (1-5%) yields high intraluminal concentrations that selectively reshape the microbiome, increasing beneficial taxa including Akkermansia muciniphila and Bifidobacterium while reducing conditionally pathogenic taxa linked to metabolic endotoxemia (PREMOTE trial). Berberine may also reduce VLDL adhesion to vessel walls in animal models.",
+      "zh-TW": "Berberine 的口服生體可用度低（1–5%），因而使腸腔內濃度偏高並選擇性重塑菌叢，增加包括 Akkermansia muciniphila 與 Bifidobacterium 在內的有益類群，同時降低與代謝性內毒素血症相關的條件性致病類群（PREMOTE 試驗）。在動物模型中，Berberine 亦可降低 VLDL 對血管壁的黏附。"
+    },
+    "confidence": 0.8,
+    "source_document": "Akkermansia muciniphila.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "b51cbd144e10",
+    "subject": "Akkermansia muciniphila",
+    "predicate": "is_associated_with",
+    "object": "Longevity",
+    "context": {
+      "en-US": "Akkermansia muciniphila is consistently associated with gut barrier integrity, metabolic homeostasis, and Longevity, and it is co-enriched with Lactobacillus under berberine treatment. Its mucin-degrading activity in the mucus layer is a marker of a healthy Gut Microbiome.",
+      "zh-TW": "Akkermansia muciniphila 與腸道屏障完整性、代謝恆定及 Longevity 穩定相關，並在 berberine 處理下與 Lactobacillus 共同被富集。其在黏液層中的黏蛋白分解活性是健康 Gut Microbiome 的指標之一。"
+    },
+    "confidence": 0.8,
+    "source_document": "Akkermansia muciniphila.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "29715792477c",
+    "subject": "Akt",
+    "predicate": "activates",
+    "object": "mTORC1",
+    "context": {
+      "en-US": "Akt activates mTORC1, the master suppressor of Autophagy, and Akt phosphorylates TSC2, relieving the tuberin-hamartin GAP complex so that Rheb can drive mTORC1. Akt is also the major mTORC2 substrate at Ser473, linking the two complexes in the PI3K/Akt/mTOR axis.",
+      "zh-TW": "Akt 會活化 mTORC1（Autophagy 的主要抑制者），並磷酸化 TSC2，使 tuberin-hamartin GAP 複合體解除抑制，讓 Rheb 得以驅動 mTORC1。Akt 同時是 mTORC2 在 Ser473 的主要受質，將兩個複合體連結在 PI3K／Akt／mTOR 軸上。"
+    },
+    "confidence": 0.9,
+    "source_document": "Akt.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "45a4da474a33",
+    "subject": "Akt",
+    "predicate": "inhibits",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Activation of Akt by growth factors such as Insulin and IGF1 is a major inhibitory signal for Autophagy: Akt activates mTORC1 and phosphorylates FoxO1 and FOXO3a, causing their nuclear exclusion and suppression of autophagy-related gene expression.",
+      "zh-TW": "Insulin 與 IGF1 等生長因子活化 Akt，是 Autophagy 的主要抑制訊號：Akt 會活化 mTORC1，並磷酸化 FoxO1 與 FOXO3a，使其被排除於細胞核之外，進而抑制自噬相關基因的表現。"
+    },
+    "confidence": 0.9,
+    "source_document": "Akt.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "a4a9f1315b51",
+    "subject": "Akt",
+    "predicate": "phosphorylates",
+    "object": "TFEB",
+    "context": {
+      "en-US": "Using an in vitro Akt kinase assay, Akt was shown to phosphorylate TFEB at S467, enhancing its interaction with 14-3-3 protein and promoting cytoplasmic retention. AMPK phosphorylation at the same site instead enhances nuclear translocation, so S467 is a switch whose modification by Akt blocks lysosomal biogenesis and autophagy.",
+      "zh-TW": "以體外 Akt 激酶分析證實，Akt 可在 S467 位點磷酸化 TFEB，增強其與 14-3-3 protein 的交互作用並促進細胞質滞留；相對地，AMPK 在同一位置的磷酸化會增強核轉位。因此 S467 是一個開關，Akt 對其的修飾會阻斷溶小體生成與自噬。"
+    },
+    "confidence": 0.9,
+    "source_document": "Akt.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "e0b84cd387ed",
+    "subject": "Akt",
+    "predicate": "phosphorylates",
+    "object": "XIAP",
+    "context": {
+      "en-US": "Akt phosphorylates XIAP at Ser87, stabilizing it and promoting tumor survival. This is the functional opposite of TBK1-mediated phosphorylation at Ser430, which triggers XIAP degradation, and it links growth factor signaling to apoptotic threshold control in Cancer.",
+      "zh-TW": "Akt 在 Ser87 磷酸化 XIAP，使其穩定並促進腫瘤存活。這與 TBK1 媒介的 Ser430 磷酸化功能相反（後者會觸發 XIAP 降解），並將生長因子訊號連結到 Cancer 中的凋亡閾值調控。"
+    },
+    "confidence": 0.9,
+    "source_document": "Akt.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "9ebf15aea4a7",
+    "subject": "Akt",
+    "predicate": "phosphorylates",
+    "object": "Caspase-9",
+    "context": {
+      "en-US": "Akt phosphorylates Caspase-9 at Ser196 (human), directly suppressing its activity and thereby promoting DNA damage-induced apoptosis resistance. Together with XIAP stabilization this makes Akt a central node linking growth factor signaling to suppression of Apoptosis.",
+      "zh-TW": "Akt 在 Ser196（人類）磷酸化 Caspase-9，直接抑制其活性，進而促進對 DNA 損傷誘發之 Apoptosis 的抵抗。與 XIAP 穩定化 together 一起，此機制使 Akt 成為連結生長因子訊號與抑制 Apoptosis 的中樞節點。"
+    },
+    "confidence": 0.9,
+    "source_document": "Akt.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "05d3161e443e",
+    "subject": "Ivermectin",
+    "predicate": "inhibits",
+    "object": "Akt",
+    "context": {
+      "en-US": "Ivermectin inhibits the Akt/mTOR pathway, largely through degradation of the target PAK1, to induce Autophagy and inhibit proliferation in breast cancer and glioma cells, making Akt inhibition part of its proposed anticancer mechanism.",
+      "zh-TW": "Ivermectin 會抑制 Akt／mTOR 途徑，主要藉由降解標的 PAK1，在乳癌與膠質瘤細胞中誘導 Autophagy 並抑制增殖，因此 Akt 抑制是其所提議抗癌機制的一部分。"
+    },
+    "confidence": 0.85,
+    "source_document": "Akt.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "7e60118f60c8",
+    "subject": "melittin",
+    "predicate": "inhibits",
+    "object": "Akt",
+    "context": {
+      "en-US": "melittin, the principal antineoplastic component of honeybee venom, has been shown to inhibit Akt phosphorylation in Breast Cancer cells and to suppress the PI3K/Akt/mTOR axis, alongside MAPK in melanoma and NF-kB signaling in lung carcinoma.",
+      "zh-TW": "melittin 是蜂毒主要的抗腫瘤成分，已證實可抑制 Breast Cancer 細胞中的 Akt 磷酸化並壓抑 PI3K／Akt／mTOR 軸，另有在黑色素瘤中抑制 MAPK、在肺鱗癌中抑制 NF-κB 訊號的作用。"
+    },
+    "confidence": 0.85,
+    "source_document": "Akt.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "4bd6f081fba8",
+    "subject": "Albuminuria",
+    "predicate": "is_a_marker_of",
+    "object": "Diabetic nephropathy",
+    "context": {
+      "en-US": "Albuminuria is the abnormal excretion of plasma albumin into the urine, marking increased glomerular permeability. It is among the earliest detectable manifestations of Diabetic nephropathy, tracks with worsening glomerular injury, and predicts progression to end-stage renal disease.",
+      "zh-TW": "Albuminuria 是血漿白蛋白異常排入尿液的情形，標記腎小球通透性增加。它是 Diabetic nephropathy 最早可偵測的表現之一，與腎小球損傷惡化相關，並可預測疾病進展至末期腎病。"
+    },
+    "confidence": 0.95,
+    "source_document": "Albuminuria.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "d96500810841",
+    "subject": "Albuminuria",
+    "predicate": "is_associated_with",
+    "object": "Atherosclerosis",
+    "context": {
+      "en-US": "Albuminuria independently predicts cardiovascular events and mortality, with risk overlapping that of Atherosclerosis, and it points downstream toward Renal Failure. The renal and vascular link makes albuminuria a systemic rather than purely renal marker.",
+      "zh-TW": "Albuminuria 可獨立預測心血管事件與死亡率，其風險與 Atherosclerosis 的風險互相重疊，並指向下游的 Renal Failure。腎臟與血管的關聯使 albuminuria 成為全身性而非純粹腎臟的指標。"
+    },
+    "confidence": 0.85,
+    "source_document": "Albuminuria.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "4a753aa82ab7",
+    "subject": "Glycation",
+    "predicate": "contributes_to",
+    "object": "Albuminuria",
+    "context": {
+      "en-US": "Glycation and the resulting Advanced Glycation End Products are implicated in the progressive renal injury underlying Albuminuria: in diabetic trials, Aminoguanidine significantly reduced albuminuria, delayed the onset of end-stage renal disease, and improved cholesterol profiles, consistent with a role for AGE-mediated cross-linking in nephropathy.",
+      "zh-TW": "Glycation 及其產生的 Advanced Glycation End Products 被認為參與 Albuminuria 背後的進行性腎損傷：在糖尿病試驗中，Aminoguanidine 顯著降低 albuminuria、延緩末期腎病的發生並改善膽固醇數值，與 AGE 媒介的交聯在腎病變中的角色一致。"
+    },
+    "confidence": 0.85,
+    "source_document": "Albuminuria.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "da9d6be38540",
+    "subject": "Alpha Diversity",
+    "predicate": "measures",
+    "object": "Gut Microbiome",
+    "context": {
+      "en-US": "Alpha Diversity measures the richness and evenness of species within a single community or sample, describing the internal diversity of the Gut Microbiome. It is the within-sample complement of Beta Diversity, which compares turnover between communities.",
+      "zh-TW": "Alpha Diversity 衡量單一群落或樣本內物種的豐富度與均勻度，用來描述 Gut Microbiome 的內部多樣性。它是樣本內的度量，與比較群落間更替的 Beta Diversity 互補。"
+    },
+    "confidence": 0.9,
+    "source_document": "Alpha Diversity.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "7d714722d2ab",
+    "subject": "Alpha Diversity",
+    "predicate": "increases_in",
+    "object": "Aging",
+    "context": {
+      "en-US": "Alpha Diversity of microbial taxa, functional pathways, and metabolites was reported to be higher in older adults, particularly among the oldest-old, than in younger individuals, indicating that microbial community internal diversity rises across the human lifespan and is highest at extreme age.",
+      "zh-TW": "有報告指出，微生物類群、功能途徑與代謝物的 Alpha Diversity 在老年人（尤其最超高齡者）中高於年輕個體，顯示微生物群落的內部多樣性隨人類壽命遞增，並在極高年齡時達到最高。"
+    },
+    "confidence": 0.75,
+    "source_document": "Alpha Diversity.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "9679e7dcfe39",
+    "subject": "Alternative Splicing",
+    "predicate": "involves",
+    "object": "Quiescence",
+    "context": {
+      "en-US": "Alternative Splicing plays a role in the post-transcriptional regulation of gene expression during Quiescence. Specifically, intron retention appears enriched in quiescent adult stem cells, providing a post-transcriptional layer by which reversible growth arrest is maintained.",
+      "zh-TW": "Alternative Splicing 在 Quiescence 期間的基因表現轉錄後調控中扮演角色。具體而言，intron retention 在靜止的成人幹細胞中似乎更為富集，提供一層轉錄後調控以維持可逆的生長停滯。"
+    },
+    "confidence": 0.8,
+    "source_document": "Alternative Splicing.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "debf3f900c7f",
+    "subject": "Alternative Splicing",
+    "predicate": "is_implicated_in",
+    "object": "Aging",
+    "context": {
+      "en-US": "Alternative Splicing is essential for development, tissue maintenance, stress adaptation, and energy homeostasis, and is controlled by nutrient sensors, stress pathways, and hormonal signals. Dysregulation of this process is linked to aging as well as to metabolic disease, neurodegeneration, and Cancer.",
+      "zh-TW": "Alternative Splicing 對發育、組織維持、壓力適應與能量恆定不可或缺，並受營養感測器、壓力途徑與荷爾蒙訊號調控。此過程的失調不僅與老化相關，也與代謝疾病、神經退化性疾病與 Cancer 相連。"
+    },
+    "confidence": 0.8,
+    "source_document": "Alternative Splicing.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "6de43a335a1f",
+    "subject": "Alu element",
+    "predicate": "is_a_type_of",
+    "object": "Transposable Elements",
+    "context": {
+      "en-US": "Alu elements are approximately 300-bp short interspersed nuclear elements (SINEs) derived from the 7SL RNA gene. With about 1.1 million copies they make up roughly 11% of the human genome, making them the most abundant Transposable Elements family; they are transcribed by RNA polymerase III and mobilize in copy-and-paste fashion through a LINE-1 ORF2 RNA intermediate.",
+      "zh-TW": "Alu element 是約 300 bp、源自 7SL RNA 基因的短散在核元件（SINE）。約有 110 萬份拷貝，約占人類基因組的 11%，是數量最多的 Transposable Elements 家族；它們由 RNA polymerase III 轉錄，並透過 LINE-1 ORF2 蛋白的 RNA 中間物以「複製貼上」方式移動。"
+    },
+    "confidence": 0.95,
+    "source_document": "Alu element.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "23b0138d576e",
+    "subject": "Alu element",
+    "predicate": "contributes_to",
+    "object": "SASP",
+    "context": {
+      "en-US": "In Senescence and stressed cells, loss of epigenetic silencing permits Alu (and other SINE) transcription. The resulting double-stranded RNA and cytoplasmic retrotransposition intermediates trigger innate immune sensing via cGAS-STING and RIG-I-like pathways and contribute to the senescence-associated secretory phenotype (SASP).",
+      "zh-TW": "在 Senescence 與受壓細胞中，表觀遺傳沉默的流失使 Alu（及其他 SINE）得以轉錄。產生的雙股 RNA 與細胞質內逆轉錄中間物會透過 cGAS-STING 與 RIG-I-like 路徑觸發先天免疫感測，並促成衰老相關分泌表型（SASP）。"
+    },
+    "confidence": 0.85,
+    "source_document": "Alu element.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "a18021dc78ec",
+    "subject": "Alu element",
+    "predicate": "contributes_to",
+    "object": "Genomic Instability",
+    "context": {
+      "en-US": "Aberrant Alu insertion can disrupt genes and cause disease, and derepressed retroelement mobility contributes to accumulating Genomic Instability, which together with transposable-element reactivation is a recognized hallmark of aging. Alu sequences are also a major source of human insertion/deletion polymorphisms and evolutionary innovation.",
+      "zh-TW": "異常的 Alu 插入可破壞基因並造成疾病，而去抑制的轉位子活性會促成累積的 Genomic Instability；後者與轉位子再活化同為公認的衰老標誌之一。Alu 序列也是人類插入／缺失多型性與演化創新的主要來源。"
+    },
+    "confidence": 0.8,
+    "source_document": "Alu element.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "4416279a2b8b",
+    "subject": "Alu element",
+    "predicate": "regulates",
+    "object": "Gene Expression",
+    "context": {
+      "en-US": "Alu sequences influence genome architecture by providing splice sites, polyadenylation signals, and transcription-factor binding motifs, and thus modulate Gene Expression. This regulatory contribution is distinct from their mobility and shapes normal transcriptional and alternative splicing patterns.",
+      "zh-TW": "Alu 序列藉由提供剪接位點、聚腺苷酸化訊號與轉錄因子結合基序來影響基因組架構，因而調控 Gene Expression。這種調控貢獻與其移動性不同，並塑造正常轉錄與選擇性剪接的模式。"
+    },
+    "confidence": 0.8,
+    "source_document": "Alu element.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "9406e48514a4",
+    "subject": "Alveolar Type II Cells",
+    "predicate": "regenerates",
+    "object": "Epithelial cells",
+    "context": {
+      "en-US": "Alveolar Type II Cells are the surfactant-producing epithelial cells of the distal lung alveolus and serve as the facultative progenitor population that regenerates the flattened alveolar type I Epithelial cells after injury. They synthesize and secrete pulmonary surfactant via lamellar bodies and participate in ion and water transport to maintain airspace stability.",
+      "zh-TW": "Alveolar Type II Cells 是遠端肺泡產生表面活性物質的上皮細胞，並作為兼性前驅細胞群，在損傷後再生扁平化的第一型肺泡 Epithelial cells。它們藉由 lamellar body 合成並分泌肺表面活性物質，並參與離子與水分運輸以維持氣腔穩定。"
+    },
+    "confidence": 0.95,
+    "source_document": "Alveolar Type II Cells.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "756fcb939285",
+    "subject": "Alveolar Type II Cells",
+    "predicate": "contributes_to",
+    "object": "Idiopathic Pulmonary Fibrosis",
+    "context": {
+      "en-US": "In Idiopathic Pulmonary Fibrosis, Alveolar Type II Cells are the most senescence-vulnerable epithelial population and are increasingly recognized as the cell-of-origin and primary sensor of senescence-driven fibrotic remodeling. Murine and human evidence indicates that accumulation of senescent AT2 cells precedes fibrotic remodeling, reframing senescence as an upstream driver rather than a downstream marker.",
+      "zh-TW": "在 Idiopathic Pulmonary Fibrosis 中，Alveolar Type II Cells 是最易衰老的肺上皮族群，並日益被認為是衰老驅動之纖維化重塑的起源細胞與主要感測者。小鼠與人類證據顯示，衰老 AT2 細胞的累積先於纖維化重塑，因而把 senescence 重新定位為上游驅動因子而非下游標記。"
+    },
+    "confidence": 0.85,
+    "source_document": "Alveolar Type II Cells.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "f259619e9f01",
+    "subject": "SASP",
+    "predicate": "activates",
+    "object": "Fibroblast",
+    "context": {
+      "en-US": "Senescent Alveolar Type II Cells secrete a SASP that amplifies Fibroblast activation, closing a self-reinforcing fibrotic loop. Alongside elevated p16INK4A and p21 CIP1 and DNA Damage activation, this paracrine SASP output propagates the fibrotic program beyond the cells that initiated it.",
+      "zh-TW": "衰老的 Alveolar Type II Cells 分泌 SASP，放大 Fibroblast 的活化，形成自我強化的纖維化迴路。與 p16INK4A 與 p21 CIP1 升高及 DNA Damage 活化並列，這種旁分泌 SASP 輸出會將纖維化程式傳播到最初啟動它的細胞之外。"
+    },
+    "confidence": 0.85,
+    "source_document": "Alveolar Type II Cells.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "c6857d7387a0",
+    "subject": "Telomere Attrition",
+    "predicate": "causes",
+    "object": "Senescence",
+    "context": {
+      "en-US": "Critically shortened Telomeres in Alveolar Type II Cells, driven by Telomere Attrition and Telomerase mutations, trigger sustained p53 activation and replicative senescence, thereby reducing regenerative capacity after injury and allowing senescent AT2 cells to drive fibrosis through their SASP.",
+      "zh-TW": "由 Telomere Attrition 與 telomerase 突變造成 Alveolar Type II Cells 的 Telomere 嚴重縮短，會觸發持續的 p53 活化與複製性衰老，進而降低損傷後的再生能力，並使衰老 AT2 細胞透過其 SASP 推動纖維化。"
+    },
+    "confidence": 0.85,
+    "source_document": "Alveolar Type II Cells.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "eddc42398428",
+    "subject": "Aminochromes",
+    "predicate": "is_derived_from",
+    "object": "Catecholamines",
+    "context": {
+      "en-US": "Aminochromes are deep-colored cyclic indole-quinone compounds formed by oxidation of Catecholamines. Adrenochrome derives from Epinephrine and Dopaminochrome from Dopamine; their formation is a sign of excessive catecholamine oxidation and is associated with Oxidative Stress.",
+      "zh-TW": "Aminochromes 是由 Catecholamines 氧化形成的深色環狀吲哚－醌類化合物。Adrenochrome 源自 Epinephrine，Dopaminochrome 源自 Dopamine；其形成是兒茶酚胺過度氧化的徵象，並與 Oxidative Stress 相關。"
+    },
+    "confidence": 0.95,
+    "source_document": "Aminochromes.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "523a5780742b",
+    "subject": "Adrenochrome",
+    "predicate": "is_a_type_of",
+    "object": "Aminochromes",
+    "context": {
+      "en-US": "Adrenochrome is a prominent member of the aminochrome family, a cyclic indole-quinone formed by oxidation of Epinephrine. It can form as an intermediate in Neuromelanin synthesis in dopaminergic neurons of the substantia nigra, and it can polymerize further or undergo redox cycling.",
+      "zh-TW": "Adrenochrome 是 aminochrome 家族的典型成員，屬由 Epinephrine 氧化形成的環狀吲哚－醌。它可在黑質的多巴胺能神經元中作為 Neuromelanin 合成的中間物生成，並可進一步聚合或進行氧化還原循環。"
+    },
+    "confidence": 0.9,
+    "source_document": "Aminochromes.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "274336b2e6fc",
+    "subject": "Aminochromes",
+    "predicate": "is_precursor_of",
+    "object": "Neuromelanin",
+    "context": {
+      "en-US": "Aminochromes tend to polymerize into complex pigments such as Neuromelanin in the brain or peripheral melanins. This polymerization route explains the dark pigment that accumulates in dopaminergic neurons and whose abundance has long been assumed to be an unavoidable by-product of Aging.",
+      "zh-TW": "Aminochromes 傾向聚合形成複雜色素，例如腦中的 Neuromelanin 或周邊黑色素。這條聚合途徑解釋了多巴胺能神經元中累積的深色色素，而其含量長期以為只是 Aging 不可避免的副產物。"
+    },
+    "confidence": 0.9,
+    "source_document": "Aminochromes.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "d20fa68d761a",
+    "subject": "Aminochromes",
+    "predicate": "produces",
+    "object": "Superoxide anion",
+    "context": {
+      "en-US": "Aminochromes undergo redox cycling: they are reduced to semiquinone radicals, which then react with oxygen to generate Superoxide anion and thus a cycle of ROS production. This unstable, reactive quinone chemistry is what underlies their neurotoxicity and cardiotoxicity.",
+      "zh-TW": "Aminochromes 會進行氧化還原循環：被還原成半醌自由基後，與氧反應產生 Superoxide anion，形成 ROS 生成的循環。這種不穩定且高反應性的醌類化學，正是其神經毒性與心臟毒性的基礎。"
+    },
+    "confidence": 0.85,
+    "source_document": "Aminochromes.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "e5cd0b864d6c",
+    "subject": "Aminochromes",
+    "predicate": "is_associated_with",
+    "object": "Cardiotoxicity",
+    "context": {
+      "en-US": "Aminochrome formation is a sign of excessive catecholamine oxidation and is associated with damage to heart muscle cells (Cardiotoxicity) and with neurotoxicity in neurodegenerative disease. Aminochromes can also impair ATP production by uncoupling Oxidative Phosphorylation.",
+      "zh-TW": "Aminochrome 的形成是兒茶酚胺過度氧化的徵象，與心肌細胞損傷（Cardiotoxicity）以及神經退化性疾病中的神經毒性相關。Aminochromes 也能藉由解偶聯 Oxidative Phosphorylation 而損害 ATP 生成。"
+    },
+    "confidence": 0.8,
+    "source_document": "Aminochromes.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "369a2ff0131a",
+    "subject": "Aminoguanidine HCL",
+    "predicate": "inhibits",
+    "object": "Advanced Glycation End Products",
+    "context": {
+      "en-US": "Aminoguanidine hydrochloride is the prototype therapeutic AGE inhibitor: as a nucleophilic carbonyl trap it reacts rapidly with reactive alpha,beta-dicarbonyl intermediates (Methylglyoxal, Glyoxal, 3-deoxyglucosone) to form stable, non-toxic 3-amino-1,2,4-triazine adducts, intercepting them before they cross-link proteins and thus preventing the AGE accumulation that drives vascular stiffening, basement membrane thickening, and tissue damage in Aging and Diabetes Mellitus.",
+      "zh-TW": "Aminoguanidine hydrochloride 是原型的 AGE 抑制療效藥：作為親核性羰基捕集劑，它能快速與活性 α,β-二羰基中間物（Methylglyoxal、Glyoxal、3-deoxyglucosone）反應，形成穩定且無毒的 3-amino-1,2,4-triazine 加合物，在其與蛋白質交聯前先行攔截，因而避免造成血管僵硬、基底膜增厚與 Aging 及 Diabetes Mellitus 中組織損傷的 AGE 累積。"
+    },
+    "confidence": 0.95,
+    "source_document": "Aminoguanidine HCL.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "955937dc619e",
+    "subject": "Aminoguanidine HCL",
+    "predicate": "inhibits",
+    "object": "Inducible Nitric Oxide Synthase",
+    "context": {
+      "en-US": "Aminoguanidine selectively inhibits Inducible Nitric Oxide Synthase, acting upstream on the NO-cGMP vasodilation cascade to block pathological NO overproduction during inflammation while sparing the constitutive endothelial isoform. Peak clinical plasma concentration (~50 uM) stays below the ~500 uM threshold at which selectivity is lost.",
+      "zh-TW": "Aminoguanidine 選擇性抑制 Inducible Nitric Oxide Synthase，在 NO-cGMP 血管擴張級聯上游作用，阻斷發炎期間病態的 NO 過量生成，同時保留構成性的內皮型 isoform。臨床尖峰血漿濃度（約 50 µM）仍低於喪失選擇性約 500 µM 的門檻。"
+    },
+    "confidence": 0.95,
+    "source_document": "Aminoguanidine HCL.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "ee361b050c67",
+    "subject": "Aminoguanidine HCL",
+    "predicate": "inhibits",
+    "object": "Diamine Oxidase",
+    "context": {
+      "en-US": "Oral aminoguanidine potently inhibits gut Diamine Oxidase, the enzyme that degrades dietary histamine, which can cause severe acute Histamine Intolerance with headache, flushing, hives, and tachycardia after histamine-rich foods. Intravenous delivery bypasses gut DAO but still affects systemic DAO. It also inhibits SSAO/VAP-1, reducing endothelial hydrogen peroxide production.",
+      "zh-TW": "口服 aminoguanidine 會強效抑制腸道 Diamine Oxidase（分解膳食組織胺的酵素），可能在攝取高組織胺食物後造成嚴重的急性 Histamine Intolerance，症狀包括頭痛、潮紅、蕁麻疹與心搏過速。靜脈給藥可繞過腸道 DAO，但仍影響全身性 DAO。它也抑制 SSAO／VAP-1，降低內皮的過氧化氫生成。"
+    },
+    "confidence": 0.9,
+    "source_document": "Aminoguanidine HCL.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "baa9b6a8b93b",
+    "subject": "Aminoguanidine HCL",
+    "predicate": "stabilizes",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "Aminoguanidine reacts with the unstable o-quinone structure of Adrenochrome to form Adrenochrome monoaminoguanidine, a stable crystalline hemostatic derivative. This traps the reactive quinone with the hydrazine group, preserving the adrenochrome moiety's hormetic redox activity while eliminating uncontrolled reactivity.",
+      "zh-TW": "Aminoguanidine 會與 Adrenochrome 不穩定的 o-醌結構反應，形成 Adrenochrome monoaminoguanidine，一種穩定的結晶止血衍生物。此反應以 hydazine 基團捕捉反應性醌類，在保留 adrenochrome 部分的 hormetic 氧化還原活性的同時消除不受控的反應性。"
+    },
+    "confidence": 0.9,
+    "source_document": "Aminoguanidine HCL.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "ec9ef0d842e0",
+    "subject": "Aminoguanidine HCL",
+    "predicate": "is_a_component_of",
+    "object": "Glyco-Oxidative Proteostasis Shield",
+    "context": {
+      "en-US": "Within the adrenochrome protocol, Aminoguanidine HCL is paired with Methylene blue and adrenochrome's hormetic ROS pulse to provide the GOPS arm, controlling glyco-oxidative damage and quinone reactivity, while methylene blue supplies the mitohormetic redox relay arm. The aminoguanidine moiety of the hybrid molecule delivers AGE inhibition and carbonyl trapping.",
+      "zh-TW": "在 adrenochrome protocol 中，Aminoguanidine HCL 與 Methylene blue 及 adrenochrome 的 hormetic ROS 脈衝搭配，提供 GOPS 這一支，負責控制醣化氧化損傷與醌類反應性，而 methylene blue 則提供 mitohormetic redox relay 那一支。混合分子的 aminoguanidine 部分賦予 AGE 抑制與羰基捕集功能。"
+    },
+    "confidence": 0.8,
+    "source_document": "Aminoguanidine HCL.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "020c96073892",
+    "subject": "Aminoguanidine HCL",
+    "predicate": "reduces",
+    "object": "Vitamin B6",
+    "context": {
+      "en-US": "At high concentrations aminoguanidine loses selectivity and reacts with pyridoxal phosphate, pyruvate, glucose, and malondialdehyde, so prolonged use can deplete Vitamin B6 and warrant B6 supplementation. Additional safety liabilities from Phase III testing include ANCA-associated vasculitis, lupus-like syndrome, and impaired liver function.",
+      "zh-TW": "高濃度下 aminoguanidine 會喪失選擇性並與 pyridoxal phosphate、pyruvate、glucose 與 malondialdehyde 反應，因此長期使用可能耗竭 Vitamin B6 並需要 B6 補充。第三期試驗中另見的安全性風險包括 ANCA 相關血管炎、類狼瘡症候群與肝功能受損。"
+    },
+    "confidence": 0.85,
+    "source_document": "Aminoguanidine HCL.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "a5656d3cf531",
+    "subject": "Aminoguanidine HCL",
+    "predicate": "targets",
+    "object": "Diabetic nephropathy",
+    "context": {
+      "en-US": "Aminoguanidine was studied under the name Pimagedine for Diabetic nephropathy. The ACTION I trial in type 1 diabetes missed its primary endpoint but showed slower eGFR decline and significant reduction in 24-hour proteinuria; ACTION II in type 2 diabetes was terminated for futility and adverse events, and development was discontinued in 1999.",
+      "zh-TW": "Aminoguanidine 曾以 Pimagedine 之名針對 Diabetic nephropathy 進行研究。第一型糖尿病的 ACTION I 試驗未達主要終點，但顯示 eGFR 下降較慢且 24 小時蛋白尿顯著減少；第二型糖尿病的 ACTION II 則因無效與不良事件而提前終止，開發於 1999 年中止。"
+    },
+    "confidence": 0.85,
+    "source_document": "Aminoguanidine HCL.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "a16705b4d6e1",
+    "subject": "Aminoguanidine",
+    "predicate": "produces",
+    "object": "Adrenochrome monoaminoguanidine",
+    "context": {
+      "en-US": "In adrenochrome handling, Aminoguanidine is the hydrazine-class reagent used to stabilize the unstable o-quinone of Adrenochrome by conventional derivatization, forming Adrenochrome monoaminoguanidine. That derivative is a Hemostatics agent and the central modulator of the SASP-Remodeling Aminochrome Complex.",
+      "zh-TW": "在 adrenochrome 的處理中，Aminoguanidine 是用於以傳統衍生化方式穩定 Adrenochrome 不穩定 o-醌的 hydrazine 類試劑，形成 Adrenochrome monoaminoguanidine。該衍生物是一種 Hemostatics 藥劑，也是 SASP-Remodeling Aminochrome Complex 的核心調節成分。"
+    },
+    "confidence": 0.9,
+    "source_document": "Aminoguanidine.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "51716fc30771",
+    "subject": "Aminoguanidine",
+    "predicate": "reduces",
+    "object": "Albuminuria",
+    "context": {
+      "en-US": "In diabetic clinical trials Aminoguanidine significantly reduced Albuminuria (24-hour proteinuria), delayed the onset of end-stage renal disease, and improved cholesterol profiles. Long-term dosing also prevented age-related cardiac enlargement and arterial stiffness, and reduced VLDL adhesion to vessel walls in animal models.",
+      "zh-TW": "在糖尿病臨床試驗中，Aminoguanidine 顯著降低 Albuminuria（24 小時蛋白尿）、延緩末期腎病的發生並改善膽固醇數值。長期給藥亦可預防與年齡相關的心臟增大與動脈僵硬，並在動物模型中降低 VLDL 對血管壁的黏附。"
+    },
+    "confidence": 0.85,
+    "source_document": "Aminoguanidine.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "efc2c1e9336a",
+    "subject": "Aminooxyacetate",
+    "predicate": "inhibits",
+    "object": "Malate-Aspartate Shuttle",
+    "context": {
+      "en-US": "Aminooxyacetate is an inhibitor of aminotransferases (notably aspartate aminotransferase, GOT1/GOT2) that blocks the Malate-Aspartate Shuttle, the principal system transferring glycolytic NADH into mitochondria. By inhibiting the transamination steps of the shuttle it prevents cytosolic NADH oxidation via mitochondrial Oxidative Phosphorylation.",
+      "zh-TW": "Aminooxyacetate 是胺基轉移酶（尤其 aspartate aminotransferase、GOT1／GOT2）的抑制劑，可阻斷 Malate-Aspartate Shuttle——將糖解產生的 NADH 轉送入粒線體的主要系統。藉由抑制該穿梭的轉胺步驟，它阻止細胞質 NADH 經由粒線體 Oxidative Phosphorylation 被氧化。"
+    },
+    "confidence": 0.95,
+    "source_document": "Aminooxyacetate.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "2ab2a263df4c",
+    "subject": "Aminooxyacetate",
+    "predicate": "induces",
+    "object": "Senescence",
+    "context": {
+      "en-US": "Treatment with Aminooxyacetate causes Senescence, mirroring the effect of MDH1 knockdown. Together these data show that it is the cytosolic NAD+/NADH ratio, not the mitochondrial pool, that controls senescence induction, pinpointing cytosolic redox as a senescence determinant.",
+      "zh-TW": "以 Aminooxyacetate 處理會造成 Senescence，與 MDH1 敲低的效果相同。兩者合併顯示，控制衰老誘導的是細胞質的 NAD+／NADH 比值而非粒線體池，確定了細胞質氧化還原態為衰老的決定因子。"
+    },
+    "confidence": 0.9,
+    "source_document": "Aminooxyacetate.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "e80de62aea6f",
+    "subject": "Aminooxyacetate",
+    "predicate": "reduces",
+    "object": "NAD+",
+    "context": {
+      "en-US": "Blocking the Malate-Aspartate Shuttle with Aminooxyacetate lowers the cytosolic NAD+/NADH ratio while leaving the mitochondrial ratio largely intact. Reducing cytosolic NAD+ (via MDH1 loss) induces senescence, whereas mitochondrial MDH2 knockdown does not, so the cytosolic pool is the relevant determinant.",
+      "zh-TW": "以 Aminooxyacetate 阻斷 Malate-Aspartate Shuttle 會降低細胞質的 NAD+／NADH 比值，而粒線體比值大致維持不變。降低細胞質 NAD+（經由 MDH1 流失）會誘導衰老，而粒線體 MDH2 的敲低則不會，因此細胞質池才是相關的決定因子。"
+    },
+    "confidence": 0.9,
+    "source_document": "Aminooxyacetate.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "d5a32ab1bb15",
+    "subject": "MDH1",
+    "predicate": "reduces",
+    "object": "Senescence",
+    "context": {
+      "en-US": "MDH1 is the cytosolic malate dehydrogenase whose loss lowers cytosolic NAD+ and induces Senescence, phenocopying Aminooxyacetate shuttle blockade. Its mitochondrial isoform MDH2 does not induce senescence when knocked down, distinguishing the cytosolic from the mitochondrial NAD pool.",
+      "zh-TW": "MDH1 是細胞質的蘋果酸去氫酶，其流失會降低細胞質 NAD+ 並誘導 Senescence，與 Aminooxyacetate 阻斷穿梭的表型相同。其粒線體同功型 MDH2 敲低時不會誘導衰老，藉此區分細胞質與粒線體的 NAD 池。"
+    },
+    "confidence": 0.85,
+    "source_document": "Aminooxyacetate.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "fdf0f5f355ff",
+    "subject": "Amiodarone",
+    "predicate": "treats",
+    "object": "Cardiac arrest",
+    "context": {
+      "en-US": "Amiodarone is a class III antiarrhythmic (with additional class I, II and IV activity) that blocks potassium, sodium and calcium channels as well as beta-adrenergic receptors. It is used for refractory ventricular arrhythmias and is positioned in advanced life-support resuscitation protocols for cardiac arrest. Its large iodine load and lipophilicity produce chronic thyroid dysfunction, pulmonary fibrosis, corneal deposits and hepatotoxicity.",
+      "zh-TW": "Amiodarone 是第三類抗心律不整藥（兼具第一、二、四類活性），可阻斷鉀離子、鈉離子與鈣離子通道以及 β-腎上腺素受體。它用於難治性心室心律不整，並被納入心臟驟停進階生命支持急救方案。其高碘負荷與脂溶性導致慢性甲狀腺功能異常、肺纖維化、角膜沉積與肝毒性。"
+    },
+    "confidence": 0.9,
+    "source_document": "Amiodarone.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "25ebd000c2f4",
+    "subject": "Amiodarone",
+    "predicate": "induces",
+    "object": "Inflammation",
+    "context": {
+      "en-US": "Beyond its antiarrhythmic action, amiodarone has a recognised inflammatory toxicity axis: chronic use is associated with pulmonary fibrosis and interstitial pneumonitis driven by inflammatory and fibrotic mechanisms in the lung. This is why its long-term use requires monitoring of pulmonary and thyroid function.",
+      "zh-TW": "除了抗心律不整作用外，Amiodarone 另有明確的發炎毒性軸：長期使用與肺部發炎及纖維化機制所驅動的肺纖維化與間質性肺炎相關。這也是長期用藥需監測肺功能與甲狀腺功能的原因。"
+    },
+    "confidence": 0.7,
+    "source_document": "Amiodarone.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "8a75cb8258a4",
+    "subject": "Amphiregulin",
+    "predicate": "binds",
+    "object": "EGFR",
+    "context": {
+      "en-US": "Amphiregulin (AREG) is an epidermal growth factor family ligand that binds the EGFR (ERBB1) receptor, triggering receptor dimerization and autophosphorylation. Downstream signalling engages the MAPK/ERK, PI3K/Akt and STAT pathways to stimulate proliferation, survival and migration. AREG is shed from the cell surface as a transmembrane precursor by ADAM17 (TACE) to yield the soluble mature factor.",
+      "zh-TW": "Amphiregulin（AREG）是表皮生長因子家族的配體，與 EGFR（ERBB1）受體結合後引發受體二聚化與自體磷酸化。下游訊息傳遞啟動 MAPK/ERK、PI3K/Akt 與 STAT 路徑，促進增殖、存活與遷移。AREG 先以跨膜前驅物形式存在，再由 ADAM17（TACE）從細胞表面剪切釋出可溶性成熟因子。"
+    },
+    "confidence": 0.95,
+    "source_document": "Amphiregulin.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "fef5a9f974b4",
+    "subject": "Amphiregulin",
+    "predicate": "is_a_component_of",
+    "object": "SASP",
+    "context": {
+      "en-US": "Amphiregulin is a conserved growth-factor component of the senescence-associated secretory phenotype (SASP), secreted by senescent cells in autocrine and paracrine fashion. In acute senescence it supports wound healing and liver regeneration, while in chronic senescence sustained EGFR activation can promote tumor growth and therapy resistance — exemplifying the dual nature of SASP factors.",
+      "zh-TW": "Amphiregulin 是衰老相關分泌表型（SASP）中保守的生長因子成分，由衰老細胞以自分泌與旁分泌方式釋放。在急性衰老情境中它促進傷口癒合與肝臟再生，而在慢性衰老情境中持續的 EGFR 活化則可能促進腫瘤生長與治療抗性，典型地體現 SASP 因子的雙重性。"
+    },
+    "confidence": 0.9,
+    "source_document": "Amphiregulin.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "c53bc365a7b0",
+    "subject": "Amyloid Beta",
+    "predicate": "is_associated_with",
+    "object": "Alzheimer's Disease",
+    "context": {
+      "en-US": "Aggregation of amyloid-beta (Aβ) peptides is the central pathogenic event in Alzheimer's Disease: Aβ is the principal component of amyloid plaques, and its accumulation also underlies cerebral amyloid angiopathy. Reducing Aβ-induced neuronal death is a common assay endpoint, for example in studies of honokiol and magnolol.",
+      "zh-TW": "類澱粉β（Aβ）胜肽的聚集是 Alzheimer's Disease 的核心致病事件：Aβ 是類澱粉斑塊的主要成分，其累積也構成腦類澱粉血管病變的基礎。降低 Aβ 誘導的神經元死亡是常見的試驗終點，例如在研究 honokiol 與 magnolol 時即採用此指標。"
+    },
+    "confidence": 0.9,
+    "source_document": "Amyloid Beta.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "584cb0d494ed",
+    "subject": "Amyloid Precursor Protein",
+    "predicate": "is_precursor_of",
+    "object": "Amyloid Beta",
+    "context": {
+      "en-US": "Amyloid Precursor Protein (APP) is a type I transmembrane glycoprotein whose sequential proteolytic cleavage determines whether amyloid-beta peptides are made. Non-amyloidogenic α-secretase cleavage within the Aβ domain prevents Aβ formation, whereas the amyloidogenic β-secretase (BACE1) followed by γ-secretase route produces Aβ40 and Aβ42, the peptides that form plaques in Alzheimer's Disease. Familial APP or presenilin mutations raise the Aβ42/Aβ40 ratio.",
+      "zh-TW": "Amyloid Precursor Protein（APP）是第一型跨膜糖蛋白，其連續蛋白水解切割決定是否產生類澱粉β胜肽。非類澱粉生成途徑中 α-secretase 在 Aβ 區段內切割可避免 Aβ 形成；類澱粉生成途徑則由 β-secretase（BACE1）後接 γ-secretase 產生 Aβ40 與 Aβ42，即 Alzheimer's Disease 中形成斑塊的胜肽。家族性 APP 或 presenilin 突變會提高 Aβ42/Aβ40 比值。"
+    },
+    "confidence": 0.95,
+    "source_document": "Amyloid Precursor Protein.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "e9f233f7687b",
+    "subject": "Amyloid Precursor Protein",
+    "predicate": "causes",
+    "object": "Alzheimer's Disease",
+    "context": {
+      "en-US": "Mutations in the APP gene cause early-onset familial Alzheimer's Disease by shifting APP processing toward the amyloidogenic pathway. Trisomy 21 produces APP gene dosage overexpression, which contributes to the early-onset amyloid pathology of Down syndrome. APP mutations also impair mitochondrial function and induce oxidative stress.",
+      "zh-TW": "APP 基因突變會使 APP 加工偏向類澱粉生成途徑，造成早發型家族性 Alzheimer's Disease。三染色體 21（Down syndrome）使 APP 基因劑量過度表現，促成該病的早發類澱粉病變。APP 突變也會損害粒線體功能並誘發氧化壓力。"
+    },
+    "confidence": 0.9,
+    "source_document": "Amyloid Precursor Protein.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "c04d4abaf8f8",
+    "subject": "Humanin",
+    "predicate": "protects_against",
+    "object": "Amyloid Precursor Protein",
+    "context": {
+      "en-US": "Humanin was discovered by functional screening for clones protecting neuronal cells from death induced by mutant APP associated with familial Alzheimer's Disease. Humanin provides cytoprotection against Aβ toxicity via FPRL1 receptor binding and intracellular Bax/Bid inhibition — the inverse of APP mutations, which produce toxic Aβ peptides.",
+      "zh-TW": "Humanin 是在功能性篩選中發現的，初始目的為找出能保護神經細胞免受家族性 Alzheimer's Disease 相關突變 APP 所誘發死亡的能力。Humanin 透過 FPRL1 受體結合與細胞內 Bax/Bid 抑制，提供對 Aβ 毒性的細胞保護，與 APP 突變產生毒性 Aβ 胜肽的作用方向恰好相反。"
+    },
+    "confidence": 0.85,
+    "source_document": "Amyloid Precursor Protein.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "32633f2c3d3a",
+    "subject": "Amyotrophic Lateral Sclerosis (ALS)",
+    "predicate": "is_a_type_of",
+    "object": "Neurodegenerative Diseases",
+    "context": {
+      "en-US": "Amyotrophic lateral sclerosis is a progressive neurodegenerative disorder marked by selective degeneration of upper and lower motor neurons, causing muscle wasting, weakness, paralysis and respiratory failure. Most cases are sporadic; roughly 10% are familial, involving SOD1, C9orf72, TARDBP or FUS mutations. Mechanisms include excitotoxicity, oxidative stress, mitochondrial dysfunction, defective autophagy and neuroinflammation.",
+      "zh-TW": "Amyotrophic lateral sclerosis 屬於進行性神經退行性疾病，特徵為上、下運動神經元的選擇性退化，造成肌肉萎縮無力、癱瘓與呼吸衰竭。多數病例為散發性，約 10% 為家族性，涉及 SOD1、C9orf72、TARDBP 或 FUS 突變。致病機制包括興奮性毒性、氧化壓力、粒線體功能障礙、自噬缺陷與神經發炎。"
+    },
+    "confidence": 0.95,
+    "source_document": "Amyotrophic Lateral Sclerosis (ALS).md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "15c3e5040aa6",
+    "subject": "Amyotrophic Lateral Sclerosis",
+    "predicate": "is_associated_with",
+    "object": "Superoxide Dismutase",
+    "context": {
+      "en-US": "Oxidative stress is heavily implicated in ALS, particularly through mutations in the SOD1 gene encoding superoxide dismutase, which lead to mitochondrial impairment and motor neuron death. Loss of SOD1 function leaves superoxide radicals unremoved, linking the disease directly to the free-radical theory of neurodegeneration.",
+      "zh-TW": "ALS 與氧化壓力高度相關，尤其是編碼 superoxide dismutase 的 SOD1 基因突變，會導致粒線體受損與運動神經元死亡。SOD1 功能喪失使超氧自由基無法被清除，使此疾病直接與神經退行的自由基理論相連結。"
+    },
+    "confidence": 0.9,
+    "source_document": "Amyotrophic Lateral Sclerosis.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "c25b238d9d5e",
+    "subject": "Induced Pluripotent Stem Cells",
+    "predicate": "is_used_for",
+    "object": "Amyotrophic Lateral Sclerosis",
+    "context": {
+      "en-US": "Induced pluripotent stem cells (iPSCs) derived from ALS patients are differentiated into motor neurons for disease modelling and target discovery. Yamanaka factors such as Oct4 and Klf4 have shown neuroprotective effects in ALS models, and the resulting iPSC-derived motor neurons are used to identify new therapeutic targets for ALS.",
+      "zh-TW": "由 ALS 患者取得的誘導性多能幹細胞（iPSC）可分化為運動神經元，用於疾病建模與標的發現。Oct4 與 Klf4 等 Yamanaka 因子在 ALS 模型中呈現神經保護作用，所得的 iPSC 衍生運動神經元亦用於鑑定 ALS 的新治療標的。"
+    },
+    "confidence": 0.8,
+    "source_document": "Amyotrophic Lateral Sclerosis.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "4bf7b227ec74",
+    "subject": "Amyotrophic Lateral Sclerosis (ALS)",
+    "predicate": "is_associated_with",
+    "object": "Creatine Supplementation",
+    "context": {
+      "en-US": "Because motor neurons are among the most metabolically demanding cells, energy-buffering systems such as the creatine phosphate shuttle have been proposed for ALS therapy. A large multicentre trial of creatine supplementation (9.5 g/day for up to 5 years, n=1687) across Parkinson's, Huntington's and ALS found no statistically significant improvement, possibly because symptoms appear only after substantial motor-neuron loss.",
+      "zh-TW": "由於運動神經元是代謝需求最高的細胞之一，creatine phosphate shuttle 等能量緩衝系統被提出作為 ALS 的治療方向。一項涵蓋 Parkinson's Disease、Huntington's Disease 與 ALS 的大型多中心試驗（creatine 每日 9.5 g、最長 5 年、n=1687）未見統計顯著改善，可能是因為症狀在大量運動神經元流失後才出現。"
+    },
+    "confidence": 0.9,
+    "source_document": "Amyotrophic Lateral Sclerosis (ALS).md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "15eae8fbad80",
+    "subject": "Anakinra",
+    "predicate": "binds",
+    "object": "IL-1 Receptor",
+    "context": {
+      "en-US": "Anakinra is recombinant human IL-1 receptor antagonist (IL-1Ra). It binds IL-1R1 with high affinity but does not recruit the accessory protein IL-1RAcP, making it a competitive antagonist that prevents MyD88-dependent signalling and thereby blocks NF-κB and MAPK activation, reducing transcription of pro-inflammatory genes including IL1B, TNFα, IL-6 and COX-2.",
+      "zh-TW": "Anakinra 是重組的人類 IL-1 受體拮抗劑（IL-1Ra）。它以高親和力結合 IL-1R1，但不會招募輔助蛋白 IL-1RAcP，因此作為競爭性拮抗劑阻斷 MyD88 相依訊息傳遞，進而阻斷 NF-κB 與 MAPK 活化，減少 IL1B、TNFα、IL-6 與 COX-2 等促發炎基因的轉錄。"
+    },
+    "confidence": 0.95,
+    "source_document": "Anakinra.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "55288b355b65",
+    "subject": "Anakinra",
+    "predicate": "inhibits",
+    "object": "IL-1β",
+    "context": {
+      "en-US": "Anakinra competitively blocks the binding of both IL-1α and IL-1β to IL-1R1, shutting off IL-1-mediated inflammatory signalling. By blocking IL-1β signalling it reduces senescence-associated secretory phenotype output from senescent cells and lowers the paracrine inflammatory burden that drives inflammaging, making it a prototype senomorphic agent.",
+      "zh-TW": "Anakinra 競爭性阻斷 IL-1α 與 IL-1β 與 IL-1R1 的結合，關閉 IL-1 介導的發炎訊息傳遞。藉由阻斷 IL-1β 訊號，它可減少衰老細胞的衰老相關分泌表型輸出，降低驅動 inflammaging 的旁分泌發炎負擔，因此是典型的 senomorphic 藥物。"
+    },
+    "confidence": 0.95,
+    "source_document": "Anakinra.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "30947a66ed25",
+    "subject": "Anakinra",
+    "predicate": "treats",
+    "object": "Rheumatoid Arthritis",
+    "context": {
+      "en-US": "Anakinra is approved for moderate-to-severe rheumatoid arthritis refractory to DMARDs, and for acute gout flares unresponsive to colchicine or NSAIDs. It has also been studied in the CANTOS Trial context as proof-of-concept for IL-1 blockade in cardiovascular disease.",
+      "zh-TW": "Anakinra 已核准用於對 DMARD 無反應的中重度類風濕性關節炎，也用於對 colchicine 或 NSAIDs 無反應的急性痛風發作。它亦在 CANTOS Trial 的脈絡中作為 IL-1 阻斷於心血管疾病的理念驗證而被研究。"
+    },
+    "confidence": 0.9,
+    "source_document": "Anakinra.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "7e6b511120b9",
+    "subject": "Anaplerosis",
+    "predicate": "replenishes",
+    "object": "TCA cycle",
+    "context": {
+      "en-US": "Anaplerosis comprises the biochemical reactions that refill TCA cycle intermediates withdrawn for biosynthesis. In rapidly proliferating cells, intermediates are diverted into amino acid, fatty acid, sterol and nucleotide synthesis, so anaplerotic input becomes essential for continued cycle flux. Glutamine is the dominant anaplerotic substrate in cancer cells, converted to glutamate by glutaminase and then to α-ketoglutarate, which re-enters the cycle.",
+      "zh-TW": "Anaplerosis 指的是補回因生物合成而被抽用的 TCA cycle 中間產物的生化反應。在快速增殖細胞中，中間產物被分流至胺基酸、脂肪酸、固醇與核苷酸合成，因此補充性輸入對維持循環流量至關重要。在癌細胞中，glutamine 是主要的補充性受質，經 glutaminase 轉為 glutamate，再轉為 α-Ketoglutarate 重新進入循環。"
+    },
+    "confidence": 0.9,
+    "source_document": "Anaplerosis.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "b37be1d357dc",
+    "subject": "MYC",
+    "predicate": "drives",
+    "object": "Anaplerosis",
+    "context": {
+      "en-US": "In MYC-high cancer cells, glutamine anaplerosis becomes the primary carbon source for the TCA cycle: MYC enhances glutaminolysis, promoting influx of glutamine-derived α-ketoglutarate into the cycle. This is essential because TCA intermediates are continuously extracted for biosynthesis, and the sustained cycle supplies both reducing equivalents for the respiratory chain and biosynthetic precursors.",
+      "zh-TW": "在 MYC 高表現的癌細胞中，glutamine anaplerosis 成為 TCA cycle 的主要碳來源：MYC 強化 glutaminolysis，促進 glutamine 衍生的 α-Ketoglutarate 流入循環。這是必要的，因為 TCA 中間產物持續被抽用於生物合成，而維持的循環同時供應呼吸鏈所需的還原型當量與生物合成前驅物。"
+    },
+    "confidence": 0.9,
+    "source_document": "Anaplerosis.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "f893f1b9f23d",
+    "subject": "Complex I",
+    "predicate": "is_required_for",
+    "object": "Anaplerosis",
+    "context": {
+      "en-US": "Glutamine-driven anaplerosis is coupled to Complex I function: TCA cycle dehydrogenases require NAD+ as a hydride acceptor, and NAD+ is regenerated by Complex I. Complex I inhibition therefore collapses the glutamine-fueled TCA cycle by depleting NAD+, even though the glutamine-to-α-ketoglutarate conversion itself is not blocked.",
+      "zh-TW": "Glutamine 驅動的 anaplerosis 與 Complex I 功能偶聯：TCA cycle 的去氫酶需要 NAD+ 作為氫化物受體，而 NAD+ 由 Complex I 再生。因此 Complex I 抑制會藉由耗竭 NAD+ 而瓦解 glutamine 供能的 TCA cycle，儘管 glutamine 至 α-Ketoglutarate 的轉換本身並未被阻斷。"
+    },
+    "confidence": 0.9,
+    "source_document": "Anaplerosis.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "d89c330d3071",
+    "subject": "Aneuploidy",
+    "predicate": "is_associated_with",
+    "object": "Cancer",
+    "context": {
+      "en-US": "Aneuploidy is a near-universal hallmark of cancer cells: about 90% of solid tumours and a substantial fraction of haematological malignancies are aneuploid. Ongoing chromosomal missegregation (chromosomal instability) drives intratumour heterogeneity, enabling loss of tumour suppressor genes, gain of oncogenes, HLA loss for immune evasion and copy-number driven drug resistance. Aneuploidy also imposes proteotoxic and metabolic stress by overloading the proteasome and shifting metabolic flux.",
+      "zh-TW": "Aneuploidy 幾乎是癌細胞的普遍特徵：約 90% 的實體腫瘤與相當比例的血液惡性腫瘤具有非整倍體。持續的染色體誤分離（染色體不穩定）驅動腫瘤內異質性，使腫瘤抑制基因喪失、致癌基因增幅、HLA 喪失以利免疫逃脫，以及由拷貝數變化造成的抗藥性。非整倍體也透過使蛋白酶體過載與改變代謝流而施加蛋白毒性與代謝壓力。"
+    },
+    "confidence": 0.9,
+    "source_document": "Aneuploidy.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "5fb3750ecf39",
+    "subject": "Aneuploidy",
+    "predicate": "is_suppressed_by",
+    "object": "p53",
+    "context": {
+      "en-US": "Aneuploidy has a paradoxical dual role in cancer. In cells with intact p53, whole-chromosome gain triggers p53-dependent growth arrest or apoptosis, acting as a tumour-suppressive barrier. Once p53 function is lost — a common early tumorigenic event — aneuploid cells can proliferate and aneuploidy instead promotes genomic instability, loss of heterozygosity and clonal evolution toward drug resistance.",
+      "zh-TW": "Aneuploidy 在癌症中具有矛盾的雙重角色。在 p53 完整的細胞中，整條染色體增加會觸發 p53 相依的生長停滯或凋亡，構成腫瘤抑制屏障。一旦 p53 功能喪失（腫瘤發生的早期常見事件），非整倍體細胞即可增殖，非整倍體反而促進基因體不穩定、異型合子性喪失與朝向抗藥性的克隆演化和。"
+    },
+    "confidence": 0.9,
+    "source_document": "Aneuploidy.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "8171f86b7ede",
+    "subject": "Aneuploidy",
+    "predicate": "is_caused_by",
+    "object": "Meiosis",
+    "context": {
+      "en-US": "Constitutional aneuploidy arises from errors in chromosome segregation during meiosis, chiefly nondisjunction of homologous chromosomes or sister chromatids in meiosis I or II, producing gametes with an extra or missing chromosome. Advanced maternal age is the single greatest risk factor, via deterioration of cohesin complexes, spindle defects and aberrant chiasma formation. Aneuploidy is the leading genetic cause of miscarriage and intellectual disability.",
+      "zh-TW": "體染色體非整倍體源自減數分裂期間的染色體分離錯誤，主要是減數分裂第一次或第二次分裂中同源染色體或姊妹染色單體的不分離，產生多一條或少一條染色體的配子。孕婦高齡是最大的單一風險因子，機制包括黏連蛋白複合體劣化、紡錘體缺陷與異常交叉互換。染色體非整倍體是流產與智能障礙最主要的遺傳原因。"
+    },
+    "confidence": 0.95,
+    "source_document": "Aneuploidy.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "bfd6a3bf1593",
+    "subject": "Angiogenesis",
+    "predicate": "is_required_for",
+    "object": "Cancer",
+    "context": {
+      "en-US": "Angiogenesis is the formation of new blood vessels from pre-existing vessels and is a critical process in tumor growth, wound healing and ischemia-reperfusion injury adaptation. Tumour angiogenesis is a hallmark of cancer, driven in part by HIF-1α-dependent VEGF expression, with ROS promoting angiogenic signalling. Anti-angiogenic strategies aim to starve tumours of blood supply.",
+      "zh-TW": "Angiogenesis 是由既有血管形成新血管的過程，在腫瘤生長、傷口癒合與缺血再灌流損傷的適應中皆具關鍵地位。腫瘤血管新生是癌症的特徵之一，部分由 HIF-1α 依賴的 VEGF 表現驅動，並由 ROS 促進血管新生訊號。抗血管新生策略的目標是使腫瘤缺乏血液供給。"
+    },
+    "confidence": 0.9,
+    "source_document": "Angiogenesis.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "04223389e385",
+    "subject": "Angiostatin",
+    "predicate": "is_derived_from",
+    "object": "Plasminogen",
+    "context": {
+      "en-US": "Angiostatin is an endogenous anti-angiogenic protein fragment generated by proteolytic cleavage of plasminogen, a circulating serine protease zymogen containing five kringle domains. The most studied forms, angiostatin K1-3 (~38 kDa) and K1-4 (~45 kDa), retain the kringle domains responsible for anti-angiogenic activity; the protease domain is not required. MMP-12 is the most efficient generator, cleaving within the kringle domain boundaries.",
+      "zh-TW": "Angiostatin 是內源性抗血管新生蛋白片段，由 plasminogen（含有五個 kringle 區域的循環性絲胺酸蛋白酶zymogen）經蛋白水解切割產生。最常研究的型態為 angiostatin K1-3（約 38 kDa）與 K1-4（約 45 kDa），保留負責抗血管新生活性的 kringle 區域，蛋白酶區域並非必要。MMP-12 是最有效率的生成酵素，在 kringle 區域邊界處切割。"
+    },
+    "confidence": 0.95,
+    "source_document": "Angiostatin.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "42275b793134",
+    "subject": "Angiostatin",
+    "predicate": "inhibits",
+    "object": "Angiogenesis",
+    "context": {
+      "en-US": "Angiostatin is one of the most potent naturally occurring inhibitors of angiogenesis, suppressing endothelial cell proliferation, migration and survival. It induces endothelial apoptosis through receptors including ATP synthase and angiomotin, blocks integrin-mediated adhesion and focal adhesion kinase signalling, and suppresses ERK1/2 and Akt signalling downstream of VEGF and FGF-2 receptors.",
+      "zh-TW": "Angiostatin 是自然界中最強效的血管新生抑制因子之一，可抑制內皮細胞的增殖、遷移與存活。它透過包括 ATP synthase 與 angiomotin 在內的受體誘發內皮細胞凋亡，阻斷整合素媒介的黏附與 focal adhesion kinase 訊號，並抑制 VEGF 與 FGF-2 受體下游的 ERK1/2 與 Akt 訊號。"
+    },
+    "confidence": 0.95,
+    "source_document": "Angiostatin.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "1938cb341575",
+    "subject": "Angiostatin",
+    "predicate": "is_produced_by",
+    "object": "MMP-12",
+    "context": {
+      "en-US": "MMP-12 is the most potent matrix metalloproteinase for generating angiostatin from plasminogen, positioning it as a dual-function enzyme: pro-inflammatory via chemokine processing yet anti-angiogenic via angiostatin generation. MMP-3, MMP-7 and MMP-9 can also generate angiostatin, and TIMP1/TIMP3 restrain its production. The pro- versus anti-angiogenic balance of MMP-12 is context-dependent in cancer.",
+      "zh-TW": "MMP-12 是由 plasminogen 生成 angiostatin 最具效力的基質金屬蛋白酶，使其成為雙功能酵素：經由趨化素加工具促發炎作用，經由 angiostatin 生成則具抗血管新生作用。MMP-3、MMP-7 與 MMP-9 亦能生成 angiostatin，而 TIMP1/TIMP3 會抑制其生成。MMP-12 促血管新生與抗血管新生的平衡在癌症中具情境依賴性。"
+    },
+    "confidence": 0.9,
+    "source_document": "Angiostatin.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "a52fc4509e53",
+    "subject": "Anti-inflammatory",
+    "predicate": "inhibits",
+    "object": "Inflammation",
+    "context": {
+      "en-US": "Anti-inflammatory denotes substances, interventions or mechanisms that reduce inflammation. It encompasses pharmacological agents (NSAIDs, corticosteroids, DMARDs, biologics), dietary compounds (curcumin, resveratrol, omega-3 fatty acids, polyphenols) and lifestyle interventions (exercise, caloric restriction, fasting). Mechanisms include inhibition of NF-κB, cyclooxygenase and lipoxygenase, cytokine signalling and ROS production.",
+      "zh-TW": "Anti-inflammatory 泛指可減少發炎的物質、介入或機制，涵蓋藥理藥物（NSAIDs、Corticosteroids、DMARDs、Biologics）、膳食化合物（curcumin、resveratrol、Omega-3 Fatty Acids、Polyphenols）以及生活型態介入（Exercise、Caloric Restriction、Fasting）。其機制包括抑制 NF-κB、環氧化酶與脂氧化酶、細胞激素訊號與 ROS 生成。"
+    },
+    "confidence": 0.9,
+    "source_document": "Anti-inflammatory.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "5feba678787e",
+    "subject": "Anti-inflammatory",
+    "predicate": "targets",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "NF-κB is the master transcription factor of the inflammatory response and a principal target of anti-inflammatory strategies. Blocking NF-κB activation reduces transcription of pro-inflammatory cytokines and enzymes such as COX-2, which is how agents like anakinra, corticosteroids and curcumin exert part of their effect.",
+      "zh-TW": "NF-κB 是發炎反應的主導轉錄因子，也是抗發炎策略的主要標的。阻斷 NF-κB 活化可減少 COX-2 等發炎性細胞激素與酵素的轉錄，anakinra、Corticosteroids 與 curcumin 等藥物的作用部分即源於此。"
+    },
+    "confidence": 0.85,
+    "source_document": "Anti-inflammatory.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "712a2ca03690",
+    "subject": "Antidotum Mithridaticum",
+    "predicate": "exemplifies",
+    "object": "Hormesis",
+    "context": {
+      "en-US": "Antidotum Mithridaticum, the ancient 'universal antidote' attributed to King Mithridates VI of Pontus, embodies mithridatism: the daily ingestion of sub-lethal poison doses to build tolerance. This is an early intuition of hormesis, that low-dose exposure to a stressor induces adaptive protective responses raising resistance to higher doses. Mithridatism prefigures modern preconditioning and mitohormesis.",
+      "zh-TW": "Antidotum Mithridaticum 是傳統上歸於本都國王 Mithridates VI 的古代「萬能解毒劑」，體現了 mithridatism：每日攝取亞致死劑量的毒物以建立耐受性。這正是 hormesis 的早期直覺——低劑量暴露於壓力源可誘發適應性保護反應，提高對更高劑量的抵抗力。Mithridatism 可視為現代 preconditioning 與 mitohormesis 的先驅。"
+    },
+    "confidence": 0.85,
+    "source_document": "Antidotum Mithridaticum.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "ec031f0180d7",
+    "subject": "Antioxidant",
+    "predicate": "inhibits",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "Antioxidants inhibit or delay oxidative stress by neutralizing or scavenging reactive oxygen species and free radicals. Endogenous systems include superoxide dismutase (dismutates superoxide to hydrogen peroxide), catalase (converts hydrogen peroxide to water and oxygen), glutathione peroxidase and glutathione, while vitamin C and vitamin E act as exogenous lipid- and water-soluble scavengers. Loss of this capacity contributes to atherosclerosis, aging and neurodegeneration.",
+      "zh-TW": "Antioxidant 藉由中和或清除活性氧與自由基來抑制或延緩氧化壓力。內源性系統包括 superoxide dismutase（將超氧陰離子歧化為過氧化氫）、catalase（將過氧化氫轉為水與氧）、glutathione peroxidase 與 glutathione，而 vitamin C 與 vitamin E 則作為外源性的脂溶性與水溶性清除劑。此防禦能力的喪失與動脈粥狀硬化、老化及神經退行性疾病有關。"
+    },
+    "confidence": 0.95,
+    "source_document": "Antioxidant.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "61b29fc58d34",
+    "subject": "Antioxidant",
+    "predicate": "protects_against",
+    "object": "Atherosclerosis",
+    "context": {
+      "en-US": "Antioxidants protect LDL and HDL from oxidative modification and thereby oppose atherosclerosis. Oxidation of LDL produces oxidized LDL that drives foam cell formation, while oxidation of HDL impairs its cholesterol efflux capacity. Resveratrol protects lipoproteins against copper- and radical-induced oxidation and preserves LDL vitamin E content during oxidative stress.",
+      "zh-TW": "Antioxidant 可保護 LDL 與 HDL 免於氧化修飾，因而抵抗動脈粥狀硬化。LDL 的氧化會產生 oxidized LDL 並驅動泡沫細胞形成，而 HDL 的氧化則損害其膽固醇外排能力。Resveratrol 可保護脂蛋白免受銅離子與自由基誘發的氧化，並在氧化壓力下維持 LDL 中的 vitamin E 含量。"
+    },
+    "confidence": 0.9,
+    "source_document": "Antioxidant.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "d5beeac5f6b6",
+    "subject": "Antioxidant Supplementation Paradox",
+    "predicate": "is_opposed_by",
+    "object": "Hormesis",
+    "context": {
+      "en-US": "The Antioxidant Supplementation Paradox — that high-dose antioxidant supplements can increase mortality, impair exercise adaptation and disrupt homeostasis — dissolves under hormetic thinking. ROS are not merely damaging byproducts but essential signalling molecules, and the biphasic dose-response means moderate ROS is beneficial while high ROS is harmful. Linear 'more antioxidant = better' logic ignores the hormetic zone.",
+      "zh-TW": "Antioxidant Supplementation Paradox（高劑量抗氧化補充可能增加死亡、損害運動適應與破壞恆定）在 hormesis 思維下得以化解。ROS 不只是損傷性副產物，更是必要的訊號分子；雙相劑量反應意味著中等 ROS 有益而高濃度 ROS 有害。線性的「抗氧化越多越健康」邏輯忽略了 hormetic zone。"
+    },
+    "confidence": 0.9,
+    "source_document": "Antioxidant Supplementation Paradox.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "40e9816b1543",
+    "subject": "Antioxidant Supplementation Paradox",
+    "predicate": "suppresses",
+    "object": "NRF2",
+    "context": {
+      "en-US": "Exogenous antioxidants suppress the very ROS signal that would trigger the cell's own NRF2 → antioxidant response element cascade, which induces NQO1, HO-1, glutathione S-transferase, catalase and SOD2. This endogenous system yields 10–100× more antioxidant capacity than dietary supplementation, so the supplements flatten the signal without replacing the response. Sulforaphane and curcumin work better precisely because they are mild stressors that activate NRF2 via Keap1.",
+      "zh-TW": "外源性抗氧化劑會抑制原本能觸發細胞自身 NRF2 → 抗氧化反應元件（ARE）級聯的 ROS 訊號，而該級聯會誘導 NQO1、HO-1、glutathione S-transferase、catalase 與 SOD2。這套內源性系統可提供比膳食補充多 10–100 倍的抗氧化容量，因此補充劑只是壓平訊號而無法取代反應。Sulforaphane 與 curcumin 之所以更有效，正是因為它們是經由 Keap1 活化 NRF2 的輕度壓力源。"
+    },
+    "confidence": 0.9,
+    "source_document": "Antioxidant Supplementation Paradox.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "21a6e373b683",
+    "subject": "Antioxidant Supplementation Paradox",
+    "predicate": "increases_mortality",
+    "object": "Cardiovascular Disease",
+    "context": {
+      "en-US": "Large randomised trials underpin the paradox: the CARET study found beta-carotene plus retinol raised lung cancer incidence by 28% and cardiovascular mortality by 26% in smokers and asbestos-exposed workers, the SELECT trial found vitamin E raised prostate cancer risk by 17%, and the HOPE trial found no cardiovascular benefit from vitamin E. Antioxidant co-administration also attenuates metformin's mitohormetic benefits.",
+      "zh-TW": "大型隨機試驗是此矛盾現象的依據：CARET 試驗顯示 beta-carotene 加 retinol 在吸菸與石棉暴露工作者中使肺癌發生率增加 28%、心血管死亡增加 26%；SELECT 試驗顯示 vitamin E 使健康男性攝護腺癌風險增加 17%；HOPE 試驗則未見 vitamin E 的心血管效益。抗氧化劑與 metformin 併用也會削弱其 mitohormetic 效益。"
+    },
+    "confidence": 0.85,
+    "source_document": "Antioxidant Supplementation Paradox.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "13b7bf1667b0",
+    "subject": "Apolipoprotein A1",
+    "predicate": "accepts_cholesterol_from",
+    "object": "ABCA1",
+    "context": {
+      "en-US": "Apolipoprotein A1 is the primary protein component of HDL and the specific acceptor for ABCA1-mediated cholesterol efflux: ABCA1 transfers cholesterol and phospholipids to lipid-poor apoA-1, and lipidated apoA-1 then initiates HDL biogenesis and reverse cholesterol transport. Low apoA-1 levels are associated with increased atherosclerosis and cardiovascular disease risk. Resveratrol enhances apoA-1-mediated efflux by upregulating ABCA1.",
+      "zh-TW": "Apolipoprotein A1 是 HDL 的主要蛋白質成分，也是 ABCA1 媒介膽固醇外排的特定受體：ABCA1 將膽固醇與磷脂轉移給脂質貧乏的 apoA-1，而經脂質化的 apoA-1 隨後啟動 HDL 生成與逆向膽固醇運輸。apoA-1 濃度偏低與動脈粥狀硬化及心血管疾病風險升高相關。Resveratrol 藉由上調 ABCA1 增強 apoA-1 媒介的外排。"
+    },
+    "confidence": 0.95,
+    "source_document": "Apolipoprotein A1.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "043a45f3488b",
+    "subject": "Apolipoprotein B",
+    "predicate": "binds",
+    "object": "LDL receptor",
+    "context": {
+      "en-US": "Apolipoprotein B is the primary apolipoprotein of chylomicrons and LDL particles and serves as the ligand for the LDL receptor, making it essential for lipoprotein assembly and metabolism. LDL oxidation alters the apoB protein moiety through fragmentation and cross-linking of reactive aldehydes and oxysterols; resveratrol reduces this radical-induced alteration and chelates copper bound to apoB. Elevated apoB-containing lipoproteins drive plaque formation.",
+      "zh-TW": "Apolipoprotein B 是乳糜微粒與 LDL 顆粒的主要載脂蛋白，並作為 LDL receptor 的配體，因此對脂蛋白組裝與代謝至關重要。LDL 氧化會透過活性醛與氧化膽固醇的斷裂與交聯改變 apoB 蛋白部分；resveratrol 可減少此自由基誘發的變化並螯合結合於 apoB 的銅。含 apoB 的脂蛋白濃度升高會驅動斑塊形成。"
+    },
+    "confidence": 0.9,
+    "source_document": "Apolipoprotein B.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "921ba08d5fb3",
+    "subject": "Apolipoprotein E",
+    "predicate": "is_a_model_for",
+    "object": "Atherosclerosis",
+    "context": {
+      "en-US": "Apolipoprotein E mediates cholesterol transport and clearance via LDL receptor family members, and the APOE gene has isoforms (ε2, ε3, ε4) with differential cardiovascular and neurodegenerative risk. ApoE-knockout mice spontaneously develop atherosclerosis and are a standard model; in these diabetic ApoE-KO mice, inhibiting DRP1 reduced endothelial dysfunction and lesion progression, showing excess mitochondrial fission contributes to atherogenesis.",
+      "zh-TW": "Apolipoprotein E 透過 LDL receptor 家族成員介導膽固醇的運輸與清除，APOE 基因具有 ε2、ε3、ε4 等型，其心血管與神經退行性風險各不相同。ApoE 剔除小鼠會自發性產生動脈粥狀硬化，是標準模型；在這些糖尿病 ApoE-KO 小鼠中，抑制 DRP1 可減少內皮功能障礙與病灶進展，顯示過度的粒線體分裂促成動脈粥狀硬化形成。"
+    },
+    "confidence": 0.9,
+    "source_document": "Apolipoprotein E.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "348c7b4c5459",
+    "subject": "Aquaporins",
+    "predicate": "transports",
+    "object": "Cell Membranes",
+    "context": {
+      "en-US": "Aquaporins are a conserved family of integral membrane proteins forming selective channels for rapid passive water movement across biological membranes down osmotic gradients. Each monomer has six transmembrane helices around a narrow central pore and channels assemble as tetramers; NPA motifs and an ar/R constriction form the selectivity filter that permits single-file water transport while excluding protons and ions. Aquaglyceroporins (AQP3, AQP7, AQP9) also conduct glycerol.",
+      "zh-TW": "Aquaporin 是一群保守的整合膜蛋白，形成選擇性通道，使水分沿滲透梯度快速被動通過生物膜。每個單體具有圍繞狹窄中央孔道的六段跨膜螺旋，通道以四聚體組裝；NPA 序列與 ar/R 收縮構成選擇性濾器，允許單列水分子通過並排除質子與離子。Aquaglyceroporin（AQP3、AQP7、AQP9）亦可運送 glycerol。"
+    },
+    "confidence": 0.9,
+    "source_document": "Aquaporins.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "f80165c6f05f",
+    "subject": "Aquaporins",
+    "predicate": "is_associated_with",
+    "object": "Astrocytes",
+    "context": {
+      "en-US": "AQP4 dominates in astrocyte end-feet and governs brain water homeostasis and blood-brain barrier water balance; AQP4 autoantibodies define neuromyelitis optica spectrum disorder, and AQP4 influences edema after stroke and traumatic brain injury. AQP2 in the collecting duct is trafficked to the apical membrane under vasopressin control to concentrate urine, and AQP2 mutations cause nephrogenic diabetes insipidus.",
+      "zh-TW": "AQP4 主要表現於星狀細胞的終足，調控腦部水分恆定與血腦障壁的水分平衡；AQP4 自體抗體是視神脊髓炎光譜疾病（neuromyelitis optica spectrum disorder）的定義性標記，AQP4 也影響中風與創傷性腦損傷後的水腫。集尿管中的 AQP2 在 vasopressin 控制下被運送至上皮細胞膜以濃縮尿液，AQP2 突變則造成腎性尿崩症。"
+    },
+    "confidence": 0.9,
+    "source_document": "Aquaporins.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "791b43903969",
+    "subject": "Artesunate",
+    "predicate": "induces",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "Artesunate (ART), a water-soluble artemisinin derivative used as an antimalarial, induces ROS-dependent ferroptosis in tumor and injured cells. Its endoperoxide bridge, in the presence of Fe2+, generates carbon-centred radicals and promotes iron-dependent lipid peroxidation, triggering GSH depletion, GPX4 inactivation and lipid peroxide accumulation. Death is rescued by ferrostatin-1, liproxstatin-1, vitamin E and iron chelators such as deferoxamine, making the iron dependency shared with ferroptosis.",
+      "zh-TW": "Artesunate（ART）是作為抗瘧疾使用的水溶性 artemisinin 衍生物，可在腫瘤與受損細胞中誘發 ROS 相依的 ferroptosis。其內過氧橋在 Fe2+ 存在下產生碳中心自由基，促進鐵依賴的脂質過氧化，觸發 GSH 耗竭、GPX4 失活與脂質過氧化物累積。細胞死亡可被 ferrostatin-1、liproxstatin-1、vitamin E 與 deferoxamine 等鐵螯合劑救援，顯示其鐵依賴性與 ferroptosis 相同。"
+    },
+    "confidence": 0.95,
+    "source_document": "Artesunate.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "591d56f7c010",
+    "subject": "Artesunate",
+    "predicate": "is_being_repurposed_for",
+    "object": "Pancreatic Cancer",
+    "context": {
+      "en-US": "Artesunate is safe and approved for malaria, and repurposing it for ferroptosis-driven oncology is under active study. In pancreatic ductal adenocarcinoma, ART specifically induced ROS production and activated ferroptosis, with combinations such as piperlongumine, Cotylenin A and sulfasalazine amplifying ferroptotic killing. Its action can be potentiated by raising labile iron or combining with GPX4 inhibitors.",
+      "zh-TW": "Artesunate 安全且已核准用於瘧疾，將其重新定位用於 ferroptosis 驅動的腫瘤學正在研究中。在胰管腺癌中，ART 可特定誘發 ROS 生成並活化 ferroptosis，與 piperlongumine、Cotylenin A 或 sulfasalazine 併用可放大鐵死亡殺傷。其作用可藉提高 labile iron 或與 GPX4 抑制劑併用而增強。"
+    },
+    "confidence": 0.85,
+    "source_document": "Artesunate.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "9bfbd1bcecc7",
+    "subject": "Artesunate",
+    "predicate": "depletes",
+    "object": "Glutathione",
+    "context": {
+      "en-US": "In ferroptosis models, artesunate triggers glutathione depletion together with GPX4 inactivation and accumulation of lipid peroxides. Because GPX4 uses reduced glutathione to reduce lipid hydroperoxides, loss of GSH removes the cell's principal defence against lipid peroxidation and commits the cell to ferroptotic death.",
+      "zh-TW": "在 ferroptosis 模型中，artesunate 會引發 glutathione 耗竭，並伴隨 GPX4 失活與脂質過氧化物累積。由於 GPX4 依賴還原型 glutathione 將脂質過氫化物還原，GSH 的流失等於移除了細胞對抗脂質過氧化的主要防線，使細胞走向鐵死亡。"
+    },
+    "confidence": 0.9,
+    "source_document": "Artesunate.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "0322141212d0",
+    "subject": "Arginine Glycine Amidinotransferase",
+    "predicate": "catalyzes",
+    "object": "Creatine",
+    "context": {
+      "en-US": "Arginine:glycine amidinotransferase (AGAT, GATM) catalyzes the first committed step of endogenous creatine synthesis: arginine + glycine → guanidinoacetate (GAA), mainly in the kidney, with the pathway completed by GAMT methylation in the liver. AGAT deficiency causes cerebral creatine deficiency with intellectual disability, treatable by creatine supplementation, and AGAT plus GAMT together supply roughly half the body creatine pool.",
+      "zh-TW": "Arginine:glycine amidinotransferase（AGAT、GATM）催化內生性 creatine 合成的第一個committed步驟：arginine + glycine → guanidinoacetate（GAA），主要在腎臟進行，再由肝臟的 GAMT 甲基化完成途徑。AGAT 缺乏會造成伴隨智能障礙的腦型 creatine 缺乏症，可藉 creatine 補充治療；AGAT 與 GAMT 合計供應約身體 creatine 池的一半。"
+    },
+    "confidence": 0.95,
+    "source_document": "Arginine Glycine Amidinotransferase.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "3a51f4cd440a",
+    "subject": "Arterial Stiffness",
+    "predicate": "is_associated_with",
+    "object": "Aging",
+    "context": {
+      "en-US": "Arterial stiffness is the loss of elastic compliance in large conduit arteries, chiefly the aorta and carotid, and is a hallmark of vascular aging: aortic pulse wave velocity roughly doubles between ages 20 and 70, with acceleration after 50-60. It is an independent predictor of cardiovascular events, all-cause mortality and heart failure with preserved ejection fraction, and increased pulsatile microvascular stress contributes to cognitive decline, kidney disease and hypertension.",
+      "zh-TW": "Arterial stiffness 是大型導管動脈（主要是主動脈與頸動脈）彈性顺应性的喪失，是血管老化的特徵：主動脈脈搏波速度在 20 至 70 歲之間約增加一倍，並在 50–60 歲後加速。它是心血管事件、全因死亡與保留射血分數心衰竭的獨立預測因子，而微血管脈衝壓力增加則促成認知衰退、腎臟疾病與高血壓。"
+    },
+    "confidence": 0.95,
+    "source_document": "Arterial Stiffness.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "d29ab6b13e13",
+    "subject": "Arterial Stiffness",
+    "predicate": "is_measured_by",
+    "object": "Pulse Wave Velocity",
+    "context": {
+      "en-US": "Pulse wave velocity, specifically carotid-femoral PWV, is the gold standard measurement of arterial stiffness, calculated as the distance between two arterial sites divided by pulse transit time; higher PWV indicates stiffer arteries. Other methods include the augmentation index from pulse wave analysis, the ambulatory arterial stiffness index, and ultrasound echo-tracking of arterial distensibility.",
+      "zh-TW": "Pulse wave velocity（尤其是 carotid-femoral PWV）是動脈僵硬的金標準測量方式，計算方式為兩動脈部位間距離除以脈搏傳導時間，PWV 越高代表動脈越僵硬。其他方法包括由脈搏波分析得出的 augmentation index、 ambulatory arterial stiffness index，以及以超音波 echo-tracking 測量動脈擴張性。"
+    },
+    "confidence": 0.9,
+    "source_document": "Arterial Stiffness.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "46475f6fef41",
+    "subject": "Spermidine",
+    "predicate": "reverses",
+    "object": "Arterial Stiffness",
+    "context": {
+      "en-US": "Spermidine supplementation reverses age-associated arterial stiffening in old mice: it normalises aortic pulse wave velocity to young levels, reduces AGE accumulation and aortic collagen I expression, restores NO-mediated endothelial function, and enhances autophagy in the arterial wall. The mechanism involves spermidine-induced de-acetylation of histone H3, activating transcription of autophagy-related genes and improving vascular protein quality control.",
+      "zh-TW": "Spermidine 補充可逆轉老年小鼠的與年齡相關動脈僵硬：將主動脈脈搏波速度恢復至年輕水平、減少主動脈壁 AGE 累積與 collagen I 表現、恢復 NO 媒介的內皮功能，並增強動脈壁的自噬。其機制涉及 spermidine 誘導 histone H3 去乙醯化，活化自噬相關基因的轉錄，改善血管蛋白質的品質管制。"
+    },
+    "confidence": 0.9,
+    "source_document": "Arterial Stiffness.md",
+    "created": "2026-09-29T15:30:49Z",
+    "updated": "2026-09-29T15:30:49Z"
   }
 ]
