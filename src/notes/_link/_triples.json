@@ -73890,5 +73890,929 @@
     "source_document": "NBR1.md",
     "created": "2026-09-29T17:27:20Z",
     "updated": "2026-09-29T17:27:20Z"
+  },
+  {
+    "id": "29928ba4a0a9",
+    "subject": "Nanoparticles",
+    "predicate": "improves",
+    "object": "Bioavailability",
+    "context": {
+      "en-US": "Nanoparticles (10-1000 nm polymeric, lipid, protein, or metallic carriers) raise the dissolution rate and apparent solubility of poorly water-soluble compounds per the Noyes-Whitney equation, which increases systemic bioavailability and enables controlled, sustained release.",
+      "zh-TW": "奈米顆粒（10–1000 nm 的聚合物、脂質、蛋白質或金屬載體）依 Noyes–Whitney 方程式提高難溶性化合物的溶出速率與表觀溶解度，進而提升系統生體可用性並可實現持續釋放。"
+    },
+    "confidence": 0.9,
+    "source_document": "Nanoparticles.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "ed3894af4916",
+    "subject": "Nanoparticles",
+    "predicate": "is_a_platform_of",
+    "object": "Nanotechnology",
+    "context": {
+      "en-US": "Nanoparticles are the core engineered carrier class within pharmaceutical nanotechnology, alongside liposomes, nanoemulsions, nanocrystals, and cyclodextrin inclusion complexes used to overcome poor solubility and rapid metabolism of bioactive compounds such as Fisetin.",
+      "zh-TW": "奈米顆粒是藥物奈米科技中的核心工程載體類別，與微脂體、奈米乳化液、奈米晶體及環糊精包含複合體並列，用以克服 Fisetin 等活性成分的水溶性差與快速代謝問題。"
+    },
+    "confidence": 0.9,
+    "source_document": "Nanoparticles.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "c72aa8d7fb73",
+    "subject": "Nanoparticles",
+    "predicate": "enhances",
+    "object": "Fisetin",
+    "context": {
+      "en-US": "Encapsulation of the flavonoid Fisetin in nanoparticles bypasses its poor aqueous solubility and rapid phase II metabolism, protecting it in the GI tract, slowing release, and increasing intestinal permeability up to 4.9x in the duodenum for PLGA/PVA particles.",
+      "zh-TW": "將類黃酮 Fisetin 封裝於奈米顆粒中可繞過其水溶性差與快速的 phase II 代謝，保護藥物免受胃腸道破壞、減緩釋放，並使 PLGA/PVA 顆粒在十二指腸的腸通透性提高至多 4.9 倍。"
+    },
+    "confidence": 0.85,
+    "source_document": "Nanoparticles.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "8f923861997e",
+    "subject": "Nanoparticles",
+    "predicate": "is_derived_from",
+    "object": "Human Serum Albumin",
+    "context": {
+      "en-US": "Protein-based nanoparticles are built from proteins such as Human Serum Albumin (HSA) in addition to synthetic polymers like PLA and PLGA; the high surface-area-to-volume ratio of these constructs raises dissolution rate and apparent solubility of encapsulated cargo.",
+      "zh-TW": "蛋白質型奈米顆粒除了 PLA、PLGA 等合成聚合物外，也可由 Human Serum Albumin (HSA) 等蛋白質構成；此類構造的高表面積／體積比可提升包載藥物的溶出速率與表觀溶解度。"
+    },
+    "confidence": 0.8,
+    "source_document": "Nanoparticles.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "4c584302bee9",
+    "subject": "Nanotechnology",
+    "predicate": "improves",
+    "object": "Bioavailability",
+    "context": {
+      "en-US": "Nanotechnology in the pharmaceutical context engineers carriers at the 1-1000 nm scale specifically to overcome the poor bioavailability, limited solubility, and rapid metabolism that restrict the therapeutic use of bioactive compounds.",
+      "zh-TW": "藥物領域的奈米科技在 1–1000 nm 尺度工程化載體，專門用來克服限制活性化合物治療應用的生體可用性不足、溶解度有限與快速代謝等障礙。"
+    },
+    "confidence": 0.9,
+    "source_document": "Nanotechnology.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "d3435416487b",
+    "subject": "Liposomes",
+    "predicate": "is_a_platform_of",
+    "object": "Nanotechnology",
+    "context": {
+      "en-US": "Liposomes are one of the principal nanoplatforms of pharmaceutical nanotechnology, used alongside polymeric nanoparticles, nanoemulsions (including SNEDDS), nanocrystals, and cyclodextrin inclusion complexes to improve delivery of poorly soluble compounds.",
+      "zh-TW": "微脂體是藥物奈米科技的主要奈米平台之一，與聚合物奈米顆粒、奈米乳化液（含 SNEDDS）、奈米晶體及環糊精包含複合體並用，以改善難溶性化合物的輸送。"
+    },
+    "confidence": 0.85,
+    "source_document": "Nanotechnology.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "6500afd61d99",
+    "subject": "Natural Killer Cells",
+    "predicate": "produces",
+    "object": "Interferon-gamma",
+    "context": {
+      "en-US": "Natural Killer Cells are a major source of Interferon-gamma (IFN-gamma), which activates macrophages, upregulates MHC expression, and promotes Th1 responses; IFN-gamma production declines with age as part of immunosenescence.",
+      "zh-TW": "Natural Killer Cells 是 Interferon-gamma (IFN-γ) 的主要來源，該細胞激素可活化巨噬細胞、上調 MHC 表現並促進 Th1 反應；隨年齡增長，IFN-γ 的產量會因免疫老化而下降。"
+    },
+    "confidence": 0.95,
+    "source_document": "Natural Killer Cells.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "73c89a4d1aa1",
+    "subject": "Natural Killer Cells",
+    "predicate": "produces",
+    "object": "TNFα",
+    "context": {
+      "en-US": "Besides Interferon-gamma, Natural Killer Cells secrete TNFα, a pro-inflammatory cytokine with direct anti-tumour activity, as well as GM-CSF and the chemokines CCL3, CCL4 and CCL5 that recruit other immune cells.",
+      "zh-TW": "除了 Interferon-gamma 之外，Natural Killer Cells 還分泌 TNFα（具有直接抗腫瘤活性的發炎前細胞激素），以及 GM-CSF 與趨化激素 CCL3、CCL4、CCL5 以招募其他免疫細胞。"
+    },
+    "confidence": 0.9,
+    "source_document": "Natural Killer Cells.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "8725d07decbe",
+    "subject": "Natural Killer Cells",
+    "predicate": "clears",
+    "object": "Senescent Cells",
+    "context": {
+      "en-US": "Natural Killer Cells are important effectors for clearing Senescent Cells; the age-related decline in their cytotoxic function (reduced perforin content, impaired degranulation, diminished CD16 signalling) may contribute to senescent cell accumulation and establishment of the SASP.",
+      "zh-TW": "Natural Killer Cells 是清除 Senescent Cells 的重要效應細胞；其細胞毒功能隨年齡衰退（穿孔素含量下降、脫顆粒受損、CD16 訊號減弱）可能促成衰老細胞累積與 SASP 的建立。"
+    },
+    "confidence": 0.9,
+    "source_document": "Natural Killer Cells.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "e2bf688a0dcc",
+    "subject": "Natural Killer Cells",
+    "predicate": "is_associated_with",
+    "object": "Cancer",
+    "context": {
+      "en-US": "Natural Killer Cells provide immunosurveillance against Cancer through direct killing, antibody-dependent cellular cytotoxicity, and Interferon-gamma production, although tumour microenvironment factors such as TGFβ suppress their function and enable immune evasion.",
+      "zh-TW": "Natural Killer Cells 透過直接殺傷、抗體依賴性細胞毒作用（ADCC）與 Interferon-gamma 產生，對 Cancer 提供免疫監視；然而 TGFβ 等腫瘤微環境因子會抑制其功能並促成免疫逃脫。"
+    },
+    "confidence": 0.9,
+    "source_document": "Natural Killer Cells.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "6ac0fd24e98f",
+    "subject": "Navitoclax",
+    "predicate": "induces",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "By displacing BAX/BAK from anti-apoptotic proteins, Navitoclax lets the effectors oligomerize, triggering Mitochondrial outer membrane permeabilization, Cytochrome c release, and caspase-mediated Apoptosis.",
+      "zh-TW": "Navitoclax 藉由將 BAX/BAK 自抗凋亡蛋白置換，使效應蛋白寡聚化，觸發 Mitochondrial outer membrane permeabilization、Cytochrome c 釋放，進而啟動 caspase 媒介的 Apoptosis。"
+    },
+    "confidence": 0.95,
+    "source_document": "Navitoclax.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "4bab6f621290",
+    "subject": "Navitoclax",
+    "predicate": "clears",
+    "object": "Senescent Cells",
+    "context": {
+      "en-US": "Senescent Cells resist apoptosis through upregulated senescent-cell anti-apoptotic pathways (SCAPs), notably BCL-xL; inhibiting BCL-xL with Navitoclax therefore selectively kills many senescent cells and reduces the Senescence-Associated Secretory Phenotype.",
+      "zh-TW": "Senescent Cells 會透過上升的衰老細胞抗凋亡路徑（SCAPs，尤其是 BCL-xL）抵抗凋亡；因此以 Navitoclax 抑制 BCL-xL 可選擇性殺死許多衰老細胞並降低 Senescence-Associated Secretory Phenotype。"
+    },
+    "confidence": 0.95,
+    "source_document": "Navitoclax.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "d25309ad9819",
+    "subject": "Navitoclax",
+    "predicate": "is_a_type_of",
+    "object": "Senolytics",
+    "context": {
+      "en-US": "Navitoclax is a canonical senolytic BH3-mimetic used as the benchmark against which flavonoid senolytics such as Fisetin are compared, with antitumor activity in lymphoid malignancies as well.",
+      "zh-TW": "Navitoclax 是典型的 senolytic BH3 擬態藥，常作為基準，用以比較 Fisetin 等類黃酮 senolytics，並在淋巴系統惡性腫瘤中具有抗腫瘤活性。"
+    },
+    "confidence": 0.95,
+    "source_document": "Navitoclax.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "4896758e5549",
+    "subject": "Navitoclax",
+    "predicate": "causes",
+    "object": "Thrombocytopenia",
+    "context": {
+      "en-US": "Because platelets depend on BCL-xL for survival, Navitoclax produces on-target Thrombocytopenia, an on-target toxicity that limits clinical dosing and has motivated development of more selective or targeted senolytics.",
+      "zh-TW": "由於血小板存活依賴 BCL-xL，Navitoclax 會造成標靶性 Thrombocytopenia；此標靶毒性限制了臨床劑量，並促使開發更具選擇性或標靶化的 senolytics。"
+    },
+    "confidence": 0.95,
+    "source_document": "Navitoclax.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "c0dee5a92ef2",
+    "subject": "Neurodegeneration",
+    "predicate": "is_driven_by",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "Neurodegeneration is driven by Oxidative Stress: the brain's high oxygen consumption, high lipid content prone to peroxidation, and relatively low antioxidant defenses make oxidative damage to proteins (causing aggregation) and mitochondria (causing energy failure) central drivers of neuronal loss.",
+      "zh-TW": "Neurodegeneration 由 Oxidative Stress 驅動：腦部耗氧量高、脂質含量高且易過氧化、抗氧化防禦相對薄弱，使蛋白質的氧化損傷（導致聚集）與粒線體的氧化損傷（導致能量衰竭）成為神經元喪失的核心驅動因素。"
+    },
+    "confidence": 0.9,
+    "source_document": "Neurodegeneration.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "49f644c9b352",
+    "subject": "Neurodegeneration",
+    "predicate": "involves",
+    "object": "Mitochondrial Dysfunction",
+    "context": {
+      "en-US": "Mitochondrial Dysfunction is a common hallmark of neurodegenerative disease - Complex I loss in Parkinson's Disease substantia nigra, amyloid beta-mitochondrial interaction in Alzheimer's Disease, and mutant Superoxide Dismutase-mitochondrial interaction in ALS.",
+      "zh-TW": "Mitochondrial Dysfunction 是神經退行性疾病的常見標誌：包含 Parkinson's Disease 黑質的 Complex I 缺失、Alzheimer's Disease 中 amyloid beta 與粒線體的交互作用，以及 ALS 中突變型 Superoxide Dismutase 與粒線體的交互作用。"
+    },
+    "confidence": 0.9,
+    "source_document": "Neurodegeneration.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "415826f337c3",
+    "subject": "Neurodegeneration",
+    "predicate": "is_amplified_by",
+    "object": "Neuroinflammation",
+    "context": {
+      "en-US": "Neuroinflammation mediated by microglia and astrocytes amplifies and propagates oxidative neuronal damage: activated microglia undergo a NADPH Oxidase respiratory burst producing superoxide and nitric oxide-derived peroxynitrite, and reactive A1 astrocytes lose glutathione export and iron sequestration.",
+      "zh-TW": "由小膠細胞與星狀膠細胞介導的 Neuroinflammation 會放大並傳播神經元氧化損傷：活化的小膠細胞經 NADPH Oxidase 呼吸爆發產生超氧陰離子與一氧化氮衍生的過氧亞硝酸鹽，而反應性 A1 星狀膠細胞則喪失麩胱甘肽輸出與鐵隔離能力。"
+    },
+    "confidence": 0.85,
+    "source_document": "Neurodegeneration.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "f3a495939f71",
+    "subject": "Aging",
+    "predicate": "is_a_risk_factor_for",
+    "object": "Neurodegenerative Diseases",
+    "context": {
+      "en-US": "Aging is the single most significant risk factor for Neurodegenerative Diseases, whose long-lived post-mitotic neurons accumulate DNA damage (Genomic Instability) and suffer Autophagy failure linked to mTOR and AMPK dysregulation, alongside global Histone Acetylation deficits.",
+      "zh-TW": "Aging 是 Neurodegenerative Diseases 最重要的單一風險因子；其長壽且不再分裂的神經元會累積 DNA 損傷（Genomic Instability），並出現與 mTOR、AMPK 失調相關的 Autophagy 失效，同時伴隨整體 Histone Acetylation 不足。"
+    },
+    "confidence": 0.9,
+    "source_document": "Neurodegenerative Diseases.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "9a5f7a9c8196",
+    "subject": "Induced Pluripotent Stem Cells",
+    "predicate": "is_used_to_model",
+    "object": "Neurodegenerative Diseases",
+    "context": {
+      "en-US": "Yamanaka Factor-driven generation of Induced Pluripotent Stem Cells allows patient-specific neurons to be created for modeling Neurodegenerative Diseases and for developing cell-replacement therapies.",
+      "zh-TW": "藉由 Yamanaka Factors 產生 Induced Pluripotent Stem Cells，可建立病患專屬神經元以用於建模 Neurodegenerative Diseases，並開發細胞替代療法。"
+    },
+    "confidence": 0.85,
+    "source_document": "Neurodegenerative Diseases.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "40e5bd3d76c8",
+    "subject": "Neurofibrillary tangles",
+    "predicate": "is_composed_of",
+    "object": "Tau",
+    "context": {
+      "en-US": "Neurofibrillary tangles are intraneuronal paired helical filament aggregates of hyperphosphorylated Tau protein, a defining pathological feature of Alzheimer's Disease and other tauopathies.",
+      "zh-TW": "Neurofibrillary tangles 是過度磷酸化 Tau 蛋白在神經細胞內形成的配對螺旋纖維聚集體，為 Alzheimer's Disease 與其他 tauopathy 的定義性病理特徵。"
+    },
+    "confidence": 0.95,
+    "source_document": "Neurofibrillary tangles.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "068888a759af",
+    "subject": "Neurofibrillary tangles",
+    "predicate": "impairs",
+    "object": "Mitochondria",
+    "context": {
+      "en-US": "Hyperphosphorylated Tau detaches from microtubules, disrupting axonal transport and aggregating into insoluble fibrils (Neurofibrillary tangles) that impair mitochondrial trafficking and function; spread of tau pathology also correlates with cognitive decline and induces senescence-like states.",
+      "zh-TW": "過度磷酸化的 Tau 會自微管脫離，破壞軸突運輸並聚合成不溶性纖維（Neurofibrillary tangles），進而損害粒線體的運輸與功能；tau 病理的擴散也與認知衰退相關，並誘發類似 Senescence 的細胞狀態。"
+    },
+    "confidence": 0.9,
+    "source_document": "Neurofibrillary tangles.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "ac7921fa9cf9",
+    "subject": "Neurofibrillary tangles",
+    "predicate": "is_a_hallmark_of",
+    "object": "Alzheimer's Disease",
+    "context": {
+      "en-US": "Neurofibrillary tangles are a core pathological hallmark of Alzheimer's Disease, where they act synergistically with amyloid beta plaques; the extent of tau pathology correlates with cognitive decline in the disease.",
+      "zh-TW": "Neurofibrillary tangles 是 Alzheimer's Disease 的核心病理標誌，並與 amyloid beta 斑塊產生協同作用；tau 病理的範圍與該疾病的認知衰退程度相關。"
+    },
+    "confidence": 0.9,
+    "source_document": "Neurofibrillary tangles.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "e04869ef096b",
+    "subject": "Neuroinflammation",
+    "predicate": "involves",
+    "object": "Microglia",
+    "context": {
+      "en-US": "Neuroinflammation is orchestrated by brain-resident Microglia, astrocytes, and endothelial cells undergoing pro-inflammatory activation, plus infiltrating monocytes, T cells, and B cells; activated microglia are the primary sensor and a major neurotoxic source of Reactive Oxygen Species.",
+      "zh-TW": "Neuroinflammation 由腦內常駐的 Microglia、星狀膠細胞與內皮細胞進行發炎性活化，以及浸潤的單核球、T 細胞與 B 細胞共同驅動；活化的 Microglia 是主要的感受器，也是 Reactive Oxygen Species 的重要神經毒性來源。"
+    },
+    "confidence": 0.9,
+    "source_document": "Neuroinflammation.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "455b89067f23",
+    "subject": "Neuromelanin",
+    "predicate": "triggers",
+    "object": "Neuroinflammation",
+    "context": {
+      "en-US": "In Parkinson's Disease, Neuroinflammation is anatomically restricted to neuromelanin-rich nuclei (Substantia Nigra Pars Compacta, Locus Coeruleus), implicating Neuromelanin released from dying neurons as a damage-associated molecular pattern that primes microglia and sustains the inflammatory loop.",
+      "zh-TW": "在 Parkinson's Disease 中，Neuroinflammation 在解剖上侷限於富含 neuromelanin 的核團（Substantia Nigra Pars Compacta、Locus Coeruleus），顯示由死亡神經元釋出的 Neuromelanin 是啟動小膠細胞並維持發炎迴路的損傷相關分子模式（DAMP）。"
+    },
+    "confidence": 0.9,
+    "source_document": "Neuroinflammation.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "d0c5b6f021a3",
+    "subject": "Neuroinflammation",
+    "predicate": "accelerates",
+    "object": "Neurodegenerative Diseases",
+    "context": {
+      "en-US": "Sustained, dysregulated Neuroinflammation harms neuronal homeostasis and accelerates progression of Neurodegenerative Disease, and chronic neuroinflammation intersects with Inflammaging and Senescence, adding age-related vulnerability.",
+      "zh-TW": "持續且失調的 Neuroinflammation 會危害神經元恆定性並加速 Neurodegenerative Disease 的進展；慢性神經發炎亦與 Inflammaging 及 Senescence 交疊，進一步增加與年齡相關的易感性。"
+    },
+    "confidence": 0.9,
+    "source_document": "Neuroinflammation.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "1613496c27a2",
+    "subject": "Neutral Red",
+    "predicate": "is_derived_from",
+    "object": "Phenothiazine",
+    "context": {
+      "en-US": "Neutral Red is the phenazine (S5-to-N) analog of the Phenothiazine scaffold: replacing the position-5 sulfur with nitrogen removes the structural feature required for methylene-blue-like electron-carrier activity, which is why Neutral Red shows the weakest neuroprotection in the series.",
+      "zh-TW": "Neutral Red 是 Phenothiazine 骨架的 phenazine（S5→N）類似物：將第 5 號位置的硫原子換成氮會移除 methylene blue 類電子載體活性所需的結構特徵，因此 Neutral Red 在整個系列中神經保護作用最弱。"
+    },
+    "confidence": 0.9,
+    "source_document": "Neutral Red.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "71fab233883e",
+    "subject": "Neutral Red",
+    "predicate": "enhances",
+    "object": "Mitochondrial Electron Transport Chain",
+    "context": {
+      "en-US": "Neutral Red increases cellular oxygen consumption rate in Seahorse assays, placing it with Methylene blue and Toluidine Blue O among OCR-enhancing compounds; however, it does not increase Cytochrome c reduction between Complex I and Complex III, so it is not an alternative electron carrier.",
+      "zh-TW": "Neutral Red 在 Seahorse 檢測中可提高細胞耗氧率，與 Methylene blue、Toluidine Blue O 同屬增強 OCR 的化合物；然而它並未增加 Complex I 至 Complex III 之間的 Cytochrome c 還原，因此不具替代性電子載體功能。"
+    },
+    "confidence": 0.85,
+    "source_document": "Neutral Red.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "00aed0dbae7b",
+    "subject": "Neutrophil Elastase",
+    "predicate": "is_a_component_of",
+    "object": "NETosis",
+    "context": {
+      "en-US": "Neutrophil Elastase (ELANE) is an azurophil-granule serine protease released during neutrophil activation that translocates to the nucleus in NETosis, clips histones to aid chromatin decondensation via a PAD4-independent route, and decorates extruded NETs.",
+      "zh-TW": "Neutrophil Elastase (ELANE) 是嗜天青顆粒中的絲胺酸蛋白酶，在中性球活化時釋放，並於 NETosis 過程中轉位至細胞核、切割組蛋白以經由 PAD4 非依賴途徑促進染色質去凝縮，同時裝飾被擠出的 NETs。"
+    },
+    "confidence": 0.9,
+    "source_document": "Neutrophil Elastase.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "a0a5c5047aab",
+    "subject": "Neutrophil Elastase",
+    "predicate": "cleaves",
+    "object": "cit-H3",
+    "context": {
+      "en-US": "Neutrophil Elastase clips chromatin histones and, together with the co-decorating granule enzyme Myeloperoxidase and the citrullinated histone marker cit-H3, forms the DNA-histone-protease web that traps pathogens and pathologically drives immunothrombosis in Sepsis.",
+      "zh-TW": "Neutrophil Elastase 切割染色質組蛋白，並與共同裝飾的顆粒酵素 Myeloperoxidase 及瓜胺酸化組蛋白標記 cit-H3 一起形成捕捉病原體的 DNA–組蛋白–蛋白酶網，在 Sepsis 中病理性地促成免疫性血栓形成。"
+    },
+    "confidence": 0.85,
+    "source_document": "Neutrophil Elastase.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "5bf555c84766",
+    "subject": "Neutrophil Elastase",
+    "predicate": "is_associated_with",
+    "object": "Myeloperoxidase",
+    "context": {
+      "en-US": "Neutrophil Elastase acts with Myeloperoxidase as a co-decorating granule enzyme on extruded neutrophil extracellular traps; inhibiting NE/MPO is part of the standard NETosis blockade panel, with PAD4 representing the parallel citrullination arm.",
+      "zh-TW": "Neutrophil Elastase 與 Myeloperoxidase 共同作為外擲中性球胞外誘捕網的顆粒酵素；抑制 NE/MPO 是標準 NETosis 阻斷組合的一部分，而 PAD4 則代表平行的瓜胺酸化分支。"
+    },
+    "confidence": 0.85,
+    "source_document": "Neutrophil Elastase.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "e5cf05ac533c",
+    "subject": "Neutrophils",
+    "predicate": "produces",
+    "object": "Hypochlorous Acid",
+    "context": {
+      "en-US": "As the most abundant granulocytes and first line of innate defence, Neutrophils generate Hypochlorous Acid via Myeloperoxidase during the respiratory burst, which is central to their microbicidal activity.",
+      "zh-TW": "作為數量最多的顆粒球與先天免疫第一線，Neutrophils 在呼吸爆發期間透過 Myeloperoxidase 生成 Hypochlorous Acid，這是其殺菌活性的核心。"
+    },
+    "confidence": 0.9,
+    "source_document": "Neutrophils.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "d3b5b810783c",
+    "subject": "Neutrophils",
+    "predicate": "produces",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "Neutrophils are a major site of Epinephrine oxidation in humans: Reactive Oxygen Species such as Superoxide anion and hydroxyl radical, together with Myeloperoxidase, drive the radical chain process that converts adrenaline into Adrenochrome, accounting for over 80% of adrenaline oxidation in some inflammatory conditions.",
+      "zh-TW": "Neutrophils 是人類體內 Epinephrine 氧化的主要場所：Superoxide anion 與氫氧自由基等 Reactive Oxygen Species 連同 Myeloperoxidase 推動自由基鏈反應，將腎上腺素轉為 Adrenochrome；在某些發炎狀態下，此途徑可占腎上腺素氧化的 80% 以上。"
+    },
+    "confidence": 0.9,
+    "source_document": "Neutrophils.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "8190b9612c10",
+    "subject": "Neutrophils",
+    "predicate": "produces",
+    "object": "Reactive Oxygen Species",
+    "context": {
+      "en-US": "Upon activation during Infection or Inflammation, Neutrophils undergo a respiratory burst that generates massive quantities of Reactive Oxygen Species, which kill pathogens but also create localized Oxidative Stress and potentially toxic byproducts such as Adrenochrome.",
+      "zh-TW": "在感染或 Inflammation 期間活化時，Neutrophils 會進行呼吸爆發，產生大量 Reactive Oxygen Species；這些物種雖能殺死病原體，卻也造成局部 Oxidative Stress 與諸如 Adrenochrome 等潛在毒性副產物。"
+    },
+    "confidence": 0.9,
+    "source_document": "Neutrophils.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "f386812a86ed",
+    "subject": "Nicotinamide Mononucleotide",
+    "predicate": "is_precursor_of",
+    "object": "NAD+",
+    "context": {
+      "en-US": "Nicotinamide Mononucleotide (NMN) is the direct biosynthetic precursor of NAD+, a key intermediate that can be adenylylated by NMNAT to generate the coenzyme; as an NAD+ booster it enables activation of PGC-1a and sirtuin-mediated pathways.",
+      "zh-TW": "Nicotinamide Mononucleotide (NMN) 是 NAD+ 的直接生合成前驅物，屬關鍵中間產物，可經 NMNAT 腺苷酸化生成該輔酶；作為 NAD+ 促進劑，NMN 能使 PGC-1α 與 sirtuin 媒介的路徑得以活化。"
+    },
+    "confidence": 0.95,
+    "source_document": "Nicotinamide Mononucleotide.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "d1a465df3181",
+    "subject": "Nicotinamide Mononucleotide",
+    "predicate": "activates",
+    "object": "PGC-1α",
+    "context": {
+      "en-US": "In the mitohormetic redox-relay strategy, Nicotinamide Mononucleotide raises NAD+ availability in response to controlled redox signalling, enabling the activation of PGC-1α and downstream sirtuin-mediated longevity pathways.",
+      "zh-TW": "在 mitohormetic 氧化還原中繼策略中，Nicotinamide Mononucleotide 會在受控氧化還原訊號下提升 NAD+ 可用性，進而活化 PGC-1α 與下游 sirtuin 媒介的長壽相關路徑。"
+    },
+    "confidence": 0.8,
+    "source_document": "Nicotinamide Mononucleotide.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "fcfb27733fee",
+    "subject": "Nicotinamide Riboside",
+    "predicate": "is_precursor_of",
+    "object": "NAD+",
+    "context": {
+      "en-US": "Nicotinamide Riboside (NR) is a naturally occurring pyridine nucleoside form of vitamin B3 that is phosphorylated by NRK1/NRK2 to Nicotinamide Mononucleotide and then adenylylated by NMNAT to produce NAD+, raising NAD+ in brain, liver, and muscle, especially in aged organisms.",
+      "zh-TW": "Nicotinamide Riboside (NR) 是維生素 B3 的天然嘧啶核苷形式，經 NRK1/NRK2 磷酸化為 Nicotinamide Mononucleotide，再由 NMNAT 腺苷酸化生成 NAD+，可提升腦、肝與肌肉中的 NAD+，在老化個體中尤其明顯。"
+    },
+    "confidence": 0.95,
+    "source_document": "Nicotinamide Riboside.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "effba47e3882",
+    "subject": "Nicotinamide Riboside",
+    "predicate": "converts_to",
+    "object": "Nicotinamide Mononucleotide",
+    "context": {
+      "en-US": "Nicotinamide Riboside is converted to Nicotinamide Mononucleotide by nicotinamide riboside kinases (NRK1/NRK2) before entering the NAD+ pool, a shared step with the other principal NAD+ precursor.",
+      "zh-TW": "Nicotinamide Riboside 會先由菸鹼醯胺核苷激酶（NRK1/NRK2）轉換為 Nicotinamide Mononucleotide，才進入 NAD+ 池；這是與另一種主要 NAD+ 前驅物共有的步驟。"
+    },
+    "confidence": 0.95,
+    "source_document": "Nicotinamide Riboside.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "321a4ab2b427",
+    "subject": "Nicotinamide Riboside",
+    "predicate": "activates",
+    "object": "Sirtuins",
+    "context": {
+      "en-US": "Because all seven mammalian Sirtuins (SIRT1-SIRT7) require NAD+ as an obligate co-substrate, raising cellular NAD+ with Nicotinamide Riboside makes it a universal indirect pan-sirtuin activator, potentiating SIRT1-mediated deacetylation of PGC-1a, FOXO3a, and NF-kB.",
+      "zh-TW": "由於哺乳類七種 Sirtuins（SIRT1–SIRT7）皆需以 NAD+ 為必要輔受質，以 Nicotinamide Riboside 提升細胞 NAD+ 即可作為全面間接的 pan-sirtuin 活化劑，增強 SIRT1 對 PGC-1α、FOXO3a 與 NF-κB 的去乙醯化作用。"
+    },
+    "confidence": 0.9,
+    "source_document": "Nicotinamide Riboside.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "85f8d3f4bc54",
+    "subject": "Nitric Oxide",
+    "predicate": "produces",
+    "object": "Peroxynitrite",
+    "context": {
+      "en-US": "Nitric Oxide reacts nearly instantly with Superoxide anion to form Peroxynitrite, a highly reactive and damaging oxidant; in states of high Oxidative Stress, NO is instead scavenged by superoxide, reducing its bioavailability and causing endothelial dysfunction and vascular disease.",
+      "zh-TW": "Nitric Oxide 會幾乎瞬間與 Superoxide anion 反應生成 Peroxynitrite（高度活性且具損傷性的氧化劑）；在高 Oxidative Stress 狀態下，NO 反而被超氧陰離子清除，生體可用性下降，造成內皮功能異常與血管疾病。"
+    },
+    "confidence": 0.95,
+    "source_document": "Nitric Oxide.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "bbf74893762b",
+    "subject": "Nitric Oxide",
+    "predicate": "produces",
+    "object": "Methemoglobin",
+    "context": {
+      "en-US": "High levels or prolonged exposure to Nitric Oxide lead to the formation of Methemoglobin, which can cause Methemoglobinemia; this is why inhaled nitric oxide is listed among the common culprits of methemoglobin formation alongside dapsone, benzocaine, and rasburicase.",
+      "zh-TW": "高濃度或長時間暴露於 Nitric Oxide 會形成 Methemoglobin，可能導致 Methemoglobinemia；這也是吸入性 nitric oxide 與 dapsone、benzocaine、rasburicase 並列為 methemoglobin 形成常見原因的原因。"
+    },
+    "confidence": 0.9,
+    "source_document": "Nitric Oxide.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "a7a379e536da",
+    "subject": "Nitric Oxide",
+    "predicate": "relaxes",
+    "object": "Cardiovascular Disease",
+    "context": {
+      "en-US": "Nitric Oxide acts as a vasodilator that relaxes vascular smooth muscle to regulate blood flow and pressure; declining NO bioavailability with age is a major mechanism of endothelial dysfunction in Cardiovascular Disease and arterial aging.",
+      "zh-TW": "Nitric Oxide 作為血管擴張劑，可舒張血管平滑肌以調節血流與血壓；隨年齡增長 NO 生體可用性下降，是 Cardiovascular Disease 與動脈老化中內皮功能異常的重要機制。"
+    },
+    "confidence": 0.85,
+    "source_document": "Nitric Oxide.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "be6fc7efd2e6",
+    "subject": "cGAS-STING Pathway",
+    "predicate": "drives",
+    "object": "Nociceptor",
+    "context": {
+      "en-US": "Activation of cGAS-STING in Nociceptors contributes to chronic neuropathic pain after nerve injury or chemotherapy, while loss of neuronal STING causes nociceptor hyperexcitability through dysregulated Type I Interferon signalling; microglial cGAS-STING activity further drives allodynia.",
+      "zh-TW": "Nociceptor 中的 cGAS-STING 活化會促成神經損傷或化療後的慢性神經病理性疼痛，而神經元 STING 缺失則透過 Type I Interferon 訊號失調造成 nociceptor 過度興奮；小膠細胞的 cGAS-STING 活性更進一步引發異痛症。"
+    },
+    "confidence": 0.9,
+    "source_document": "Nociceptor.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "72867c41a255",
+    "subject": "Nociceptor",
+    "predicate": "is_localized_to",
+    "object": "Dorsal Root Ganglion",
+    "context": {
+      "en-US": "Nociceptor cell bodies reside largely in the Dorsal Root Ganglion (and trigeminal ganglion), with peripheral and central axon projections; beyond pain transduction they act as innate immune signalling participants through the cGAS-STING axis.",
+      "zh-TW": "Nociceptor 的細胞本體主要位於 Dorsal Root Ganglion（三叉神經節亦然），並具有周邊與中樞軸突投射；除痛覺傳遞外，它們還透過 cGAS-STING 軸參與先天免疫訊號。"
+    },
+    "confidence": 0.9,
+    "source_document": "Nociceptor.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "fd40318a702a",
+    "subject": "Non-Exercise Activity Thermogenesis",
+    "predicate": "is_a_component_of",
+    "object": "Energy Expenditure",
+    "context": {
+      "en-US": "Non-Exercise Activity Thermogenesis (NEAT) is the energy spent on fidgeting, posture maintenance, standing, and walking rather than deliberate exercise; together with exercise costs it forms the activity component of daily Energy Expenditure and is its most variable component between individuals.",
+      "zh-TW": "Non-Exercise Activity Thermogenesis (NEAT) 是坐立不安、姿勢維持、站立與步行等非刻意運動所消耗的能量；它與刻意運動的消耗共同構成每日 Energy Expenditure 的活動部分，也是個體間變異最大的組成。"
+    },
+    "confidence": 0.95,
+    "source_document": "Non-Exercise Activity Thermogenesis.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "09f2cb14032a",
+    "subject": "Non-Exercise Activity Thermogenesis",
+    "predicate": "protects_against",
+    "object": "Obesity",
+    "context": {
+      "en-US": "Differences in Non-Exercise Activity Thermogenesis of hundreds of kilojoules per day explain part of the divergence between predicted and actual energy requirements; differences in NEAT contribute to resistance to fat gain in overfeeding studies, and low NEAT from occupational and lifestyle inactivity is a determinant of weight gain.",
+      "zh-TW": "Non-Exercise Activity Thermogenesis 每日可相差數百千焦，解釋了預估與實際能量需求落差的一部分；NEAT 差異促成過度餵食研究中的抗脂肪增加能力，而職業與生活型態不活動造成的低 NEAT 則是體重增加的決定因素。"
+    },
+    "confidence": 0.9,
+    "source_document": "Non-Exercise Activity Thermogenesis.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "7ed6a952aba1",
+    "subject": "Exercise",
+    "predicate": "increases",
+    "object": "Non-Exercise Activity Thermogenesis",
+    "context": {
+      "en-US": "Exercise may raise Non-Exercise Activity Thermogenesis indirectly: as individuals become fitter and lose weight they walk rather than drive or take stairs rather than lifts, amplifying the energy deficit of the exercise itself beyond its direct cost.",
+      "zh-TW": "Exercise 可能間接提升 Non-Exercise Activity Thermogenesis：當個體體能變佳、體重下降時，會以步行取代開車、以走樓梯取代搭電梯，使運動本身的能量赤字大於其直接消耗。"
+    },
+    "confidence": 0.85,
+    "source_document": "Non-Exercise Activity Thermogenesis.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "866dd89eca1c",
+    "subject": "Doubly-Labelled Water",
+    "predicate": "measures",
+    "object": "Non-Exercise Activity Thermogenesis",
+    "context": {
+      "en-US": "Non-Exercise Activity Thermogenesis is quantified by subtracting Resting Metabolic Rate, Thermic Effect of Food, and deliberate-exercise costs from total daily energy expenditure measured with Doubly-Labelled Water, often combined with accelerometry or respiratory chambers.",
+      "zh-TW": "Non-Exercise Activity Thermogenesis 的量化方式，是從以 Doubly-Labelled Water 測得的每日總能量消耗中，扣除 Resting Metabolic Rate、Thermic Effect of Food 與刻意運動消耗，並常搭配加速度計或呼吸室量測。"
+    },
+    "confidence": 0.85,
+    "source_document": "Non-Exercise Activity Thermogenesis.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "b431e132864d",
+    "subject": "Non-alcoholic Fatty Liver Disease",
+    "predicate": "progresses_to",
+    "object": "Nonalcoholic Steatohepatitis",
+    "context": {
+      "en-US": "Non-alcoholic Fatty Liver Disease (NAFLD) spans a spectrum from simple hepatic steatosis to Nonalcoholic Steatohepatitis (NASH), fibrosis, and cirrhosis in the absence of significant alcohol consumption, driven by de novo lipogenesis, insulin resistance, and mitochondrial dysfunction.",
+      "zh-TW": "Non-alcoholic Fatty Liver Disease (NAFLD) 在無顯著酒精攝取的情況下，從單純肝臟脂肪變性進展為 Nonalcoholic Steatohepatitis (NASH)、纖維化與肝硬化，驅動因子包括新生脂肪合成、胰島素阻抗與粒線體功能異常。"
+    },
+    "confidence": 0.95,
+    "source_document": "Non-alcoholic Fatty Liver Disease.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "00b1a5a21f0f",
+    "subject": "SIRT1",
+    "predicate": "protects_against",
+    "object": "Non-alcoholic Fatty Liver Disease",
+    "context": {
+      "en-US": "SIRT1 is protective against Non-alcoholic Fatty Liver Disease by deacetylating ChREBP and SREBP-1c to maintain hepatic lipid homeostasis and by blocking hepatic stellate cell activation, and its expression is decreased in NAFLD and fibrosis patients.",
+      "zh-TW": "SIRT1 藉由去乙醯化 ChREBP 與 SREBP-1c 以維持肝臟脂質恆定，並阻斷肝星狀細胞活化，而對 Non-alcoholic Fatty Liver Disease 具有保護作用；其在 NAFLD 與纖維化患者中的表現下降。"
+    },
+    "confidence": 0.9,
+    "source_document": "Non-alcoholic Fatty Liver Disease.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "7be3f305f48f",
+    "subject": "SIRT3",
+    "predicate": "protects_against",
+    "object": "Non-alcoholic Fatty Liver Disease",
+    "context": {
+      "en-US": "SIRT3 protects against Non-alcoholic Fatty Liver Disease by improving mitochondrial function through deacetylation of mitochondrial trifunctional proteins and LCAD, improving fatty acid oxidation in hepatocytes.",
+      "zh-TW": "SIRT3 透過去乙醯化粒線體三功能蛋白與 LCAD 改善粒線體功能，促進肝細胞的脂肪酸氧化，因而對 Non-alcoholic Fatty Liver Disease 具有保護作用。"
+    },
+    "confidence": 0.85,
+    "source_document": "Non-alcoholic Fatty Liver Disease.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "2a7452259305",
+    "subject": "SIRT6",
+    "predicate": "inhibits",
+    "object": "Non-alcoholic Fatty Liver Disease",
+    "context": {
+      "en-US": "SIRT6 deacetylates the lipogenic transcription factors ChREBP and SREBP-1c; hepatocyte-specific SIRT6 knockout elevates fibrosis and oxidative stress in NASH mice, showing that loss of SIRT6 worsens progression to Non-alcoholic Fatty Liver Disease.",
+      "zh-TW": "SIRT6 會去乙醯化促脂肪生成轉錄因子 ChREBP 與 SREBP-1c；肝細胞特異性 SIRT6 敲除在 NASH 小鼠中會加重纖維化與氧化壓力，顯示 SIRT6 缺失會惡化向 Non-alcoholic Fatty Liver Disease 的進展。"
+    },
+    "confidence": 0.85,
+    "source_document": "Non-alcoholic Fatty Liver Disease.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "74bc227a9988",
+    "subject": "Nonalcoholic Steatohepatitis",
+    "predicate": "is_driven_by",
+    "object": "Inflammation",
+    "context": {
+      "en-US": "Nonalcoholic Steatohepatitis (NASH) is progressive fatty liver disease in which deficient Autophagy and impaired Fatty acid oxidation combine with Inflammation to drive the steatosis-to-fibrosis transition.",
+      "zh-TW": "Nonalcoholic Steatohepatitis (NASH) 是一種進展性脂肪肝疾病，Autophagy 不足與 Fatty acid oxidation 受損會與 Inflammation 共同作用，推動脂肪變性向纖維化的轉變。"
+    },
+    "confidence": 0.9,
+    "source_document": "Nonalcoholic Steatohepatitis.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "d2cd2a0a9334",
+    "subject": "Autophagy",
+    "predicate": "is_deficient_in",
+    "object": "Nonalcoholic Steatohepatitis",
+    "context": {
+      "en-US": "A deficient autophagic response is a key pathogenic feature of Nonalcoholic Steatohepatitis: failure to clear damaged organelles and lipids allows steatosis to progress toward fibrosis in this disease.",
+      "zh-TW": "自噬反應不足是 Nonalcoholic Steatohepatitis 的關鍵致病特徵：無法清除受損胞器與脂質，使脂肪變性得以朝纖維化進展。"
+    },
+    "confidence": 0.8,
+    "source_document": "Nonalcoholic Steatohepatitis.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "879630296c84",
+    "subject": "Non-coding RNA",
+    "predicate": "regulates",
+    "object": "Epigenome",
+    "context": {
+      "en-US": "Non-coding RNAs, once dismissed as junk, are now recognized as powerful regulators of the Epigenome: many lncRNAs recruit histone methyltransferases or histone deacetylases to specific genomic loci, and Xist drives large-scale epigenetic silencing.",
+      "zh-TW": "Non-coding RNA 過去被視為「廢料」，如今被認為是 Epigenome 的強大調節者：許多 lncRNA 會將組蛋白甲基轉移酶或組蛋白去乙醯化酶招募至特定基因組位點，而 Xist 則驅動大規模表觀遺傳沉默。"
+    },
+    "confidence": 0.9,
+    "source_document": "Non-coding RNA.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "dd530c01576e",
+    "subject": "MicroRNA",
+    "predicate": "is_a_type_of",
+    "object": "Non-coding RNA",
+    "context": {
+      "en-US": "MicroRNAs are the most well-studied class of Non-coding RNA: small RNAs that silence gene expression post-transcriptionally, and whose expression changes predictably with age, with certain miRNAs promoting the chronic inflammation of Inflammaging.",
+      "zh-TW": "MicroRNA 是研究最深入的 Non-coding RNA 類別：可於轉錄後層級沉默基因表現的小型 RNA，其表現隨年齡可預測性地改變，其中某些 miRNA 會促進 Inflammaging 的慢性發炎。"
+    },
+    "confidence": 0.9,
+    "source_document": "Non-coding RNA.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "ee35dfc66fcd",
+    "subject": "COMT",
+    "predicate": "metabolizes",
+    "object": "Norepinephrine",
+    "context": {
+      "en-US": "As a catecholamine, Norepinephrine is degraded by COMT (catechol-O-methyltransferase) and by Monoamine oxidase, with additional clearance in the Prefrontal Cortex facilitated by the Norepinephrine transporter (NET).",
+      "zh-TW": "作為兒茶酚胺，Norepinephrine 由 COMT（catechol-O-methyltransferase）與 Monoamine oxidase 分解；在 Prefrontal Cortex 中，其清除另由 Norepinephrine transporter (NET) 協助完成。"
+    },
+    "confidence": 0.95,
+    "source_document": "Norepinephrine.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "08ebb7eaf7de",
+    "subject": "Dopamine",
+    "predicate": "is_precursor_of",
+    "object": "Norepinephrine",
+    "context": {
+      "en-US": "Dopamine is the direct biosynthetic precursor of Norepinephrine, which in turn is the precursor to Epinephrine; the norepinephrine-producing neurons of the Locus Coeruleus are highly pigmented with Neuromelanin and degenerate consistently in Parkinson's Disease.",
+      "zh-TW": "Dopamine 是 Norepinephrine 的直接生合成前驅物，而 Norepinephrine 又是 Epinephrine 的前驅物；Locus Coeruleus 中產生 norepinephrine 的神經元富含 Neuromelanin 色素，並在 Parkinson's Disease 中持續退化。"
+    },
+    "confidence": 0.9,
+    "source_document": "Norepinephrine.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "f8a136a3dbae",
+    "subject": "Locus Coeruleus",
+    "predicate": "produces",
+    "object": "Norepinephrine",
+    "context": {
+      "en-US": "Norepinephrine is synthesized in the brain primarily by neurons of the Locus Coeruleus, where it mediates arousal, attention, and the stress response, and also affects heart rate and blood pressure as a hormone.",
+      "zh-TW": "腦中的 Norepinephrine 主要由 Locus Coeruleus 的神經元合成，參與覺醒、注意力與壓力反應，並作為荷爾蒙影響心率與血壓。"
+    },
+    "confidence": 0.9,
+    "source_document": "Norepinephrine.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "41864005f8ad",
+    "subject": "SIRT3",
+    "predicate": "inhibits",
+    "object": "Notch Signaling",
+    "context": {
+      "en-US": "SIRT3 promotes expression of the autophagic proteins Beclin1 and LC3II by downregulating the Notch Signaling-1/Hes-1 pathway, linking sirtuin activity to autophagic flux induction.",
+      "zh-TW": "SIRT3 藉由下調 Notch Signaling-1／Hes-1 路徑促進自噬相關蛋白 Beclin1 與 LC3II 的表現，將 sirtuin 活性與自噬通量誘導連結起來。"
+    },
+    "confidence": 0.85,
+    "source_document": "Notch Signaling.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "82fa6cc33d60",
+    "subject": "Notch",
+    "predicate": "regulates",
+    "object": "SASP",
+    "context": {
+      "en-US": "Notch acts as a temporal gatekeeper of the SASP: upon NICD release and nuclear entry it orchestrates the switch from an early TGFbeta-dominated secretome to a late, highly inflammatory IL-6/IL-8-dominated phase by suppressing C/EBPb and downstream IL-1a and NF-kB activity.",
+      "zh-TW": "Notch 是 SASP 的時間性守門者：NICD 釋放並入核後，藉由抑制 C/EBPβ 及其下游的 IL-1α 與 NF-κB 活性，調控由早期 TGFβ 主导的分泌組向晚期高度發炎、以 IL-6／IL-8 為主的階段轉換。"
+    },
+    "confidence": 0.95,
+    "source_document": "Notch.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "878819684724",
+    "subject": "Notch",
+    "predicate": "is_required_for",
+    "object": "Paracrine Senescence",
+    "context": {
+      "en-US": "Notch is essential for establishing Paracrine Senescence: senescent cells stimulate Notch signaling in neighboring cells, propagating the arrested, SASP-producing state, though the SASP of these secondary senescent cells is weaker and may limit runaway spread.",
+      "zh-TW": "Notch 對建立 Paracrine Senescence 至關重要：衰老細胞會刺激鄰近細胞的 Notch 訊號，傳播停滯且產生 SASP 的狀態；不過次級衰老細胞的 SASP 較弱，可限制失控擴散。"
+    },
+    "confidence": 0.95,
+    "source_document": "Notch.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "b02a7abff1b5",
+    "subject": "MAML1",
+    "predicate": "cooperates_with",
+    "object": "Notch",
+    "context": {
+      "en-US": "MAML1 is the obligate Notch co-activator: N1ICD acts with Mastermind (MAML1) in the nucleus on trafficking-gene regulation, while a cytoplasmic pool of N1ICD restrains the inflammasome.",
+      "zh-TW": "MAML1 是 Notch 必要的共同活化因子：N1ICD 在細胞核中與 Mastermind (MAML1) 協同調控運輸相關基因的表現，而細胞質中的 N1ICD 池則抑制 inflammasome。"
+    },
+    "confidence": 0.85,
+    "source_document": "Notch.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "078b936fc6f4",
+    "subject": "cGAS",
+    "predicate": "is_localized_to",
+    "object": "Nuclear Envelope",
+    "context": {
+      "en-US": "cGAS is tethered at the Nuclear Envelope through Barrier-to-Autointegration Factor 1 (BAF1), which dynamically outcompetes cGAS for DNA binding and restricts its activity; NPC1 at the envelope further modulates cGAS, so envelope integrity determines whether cGAS stays quiescent or engaged.",
+      "zh-TW": "cGAS 透過 Barrier-to-Autointegration Factor 1 (BAF1) 錨定於 Nuclear Envelope；BAF1 會動態地與 cGAS 競爭 DNA 結合並限制其活性，而位於核膜的 NPC1 進一步調節 cGAS，因此核膜完整性決定 cGAS 是保持靜默或被活化。"
+    },
+    "confidence": 0.95,
+    "source_document": "Nuclear Envelope.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "c50f9967e446",
+    "subject": "STING",
+    "predicate": "is_localized_to",
+    "object": "Nuclear Envelope",
+    "context": {
+      "en-US": "STING localizes to the inner Nuclear Envelope and redistributes to the outer, ER-continuous membrane upon HSV-1 or poly(I:C) stimulation, so NE-localized STING may represent a readily mobilizable pool for activation.",
+      "zh-TW": "STING 會定位於 Nuclear Envelope 的內膜，並在 HSV-1 或 poly(I:C) 刺激後重新分布至與 ER 連續的外膜，因此定位于核膜的 STING 可能是可迅速動員以參與活化的儲備池。"
+    },
+    "confidence": 0.9,
+    "source_document": "Nuclear Envelope.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "900a6f7a8b2a",
+    "subject": "Nuclear Envelope",
+    "predicate": "is_continuous_with",
+    "object": "Endoplasmic Reticulum",
+    "context": {
+      "en-US": "The Nuclear Envelope is a double-membrane boundary continuous with the Endoplasmic Reticulum and perforated by nuclear pore complexes, enclosing the nucleus; the outer nuclear membrane is the site of STING's mobilization upon stimulation.",
+      "zh-TW": "Nuclear Envelope 是包圍細胞核的雙層膜邊界，與 Endoplasmic Reticulum 連續並被核孔複合體貫穿；其外核膜即是 STING 在受到刺激時重新分布的目的地。"
+    },
+    "confidence": 0.9,
+    "source_document": "Nuclear Envelope.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
+  },
+  {
+    "id": "a8eb9545f320",
+    "subject": "DNA Damage",
+    "predicate": "activates",
+    "object": "cGAS",
+    "context": {
+      "en-US": "Breakdown or defects of the Nuclear Envelope, as occur in mitosis or laminopathy-like stress, expose chromatin and feed DNA Damage and Genomic Instability, generating cytosolic DNA that activates cGAS; NPC1 deficiency further supports cGAS activation independent of canonical DNA sensing and links to Neuroinflammation.",
+      "zh-TW": "Nuclear Envelope 的崩解或缺陷（如同有絲分裂或類 laminopathy 壓力時）會暴露染色質，促成 DNA Damage 與 Genomic Instability，產生可活化 cGAS 的細胞質 DNA；NPC1 缺失更可在不依賴典型 DNA 感測的情況下促進 cGAS 活化，並與 Neuroinflammation 相連結。"
+    },
+    "confidence": 0.9,
+    "source_document": "Nuclear Envelope.md",
+    "created": "2026-09-29T17:33:26Z",
+    "updated": "2026-09-29T17:33:26Z"
   }
 ]
