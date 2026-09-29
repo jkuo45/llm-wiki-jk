@@ -60128,5 +60128,943 @@
     "source_document": "HSP70.md",
     "created": "2026-09-29T16:13:12Z",
     "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "b10012186681",
+    "subject": "GSK-428",
+    "predicate": "inhibits",
+    "object": "SARM1",
+    "context": {
+      "en-US": "GSK-428 is a quinazoline-scaffold small molecule that binds orthosterically within the TIR-domain NADase pocket of SARM1 with nanomolar IC50 potency, blocking NAD+ cleavage and preventing the axonal NAD+ catastrophe that drives Wallerian-type axon degeneration. It belongs to the next-generation non-covalent SARM1 inhibitor class alongside DSRM-3716, offering a higher selectivity and potency profile than the repurposed covalent inhibitor disulfiram, and is aimed at axon-degeneration indications such as chemotherapy-induced peripheral neuropathy and traumatic brain injury.",
+      "zh-TW": "GSK-428 是一個喹唑啉骨架的小分子，可正交結合於 SARM1 的 TIR 結構域 NADase 活性位點，IC50 達奈莫耳級，阻斷 NAD+ 切割並防止驅動華勒氏樣軸突退化的軸突 NAD+ 災難。它與 DSRM-3716 同屬新一代非共價 SARM1 抑制劑類別，相較於被重新定位的共價抑制劑 disulfiram 具有更高的選擇性與效力，目標適應症包含化療引起的神經病變與創傷性腦損傷。"
+    },
+    "confidence": 0.95,
+    "source_document": "GSK-428.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "2bfb54f098fd",
+    "subject": "GSK-428",
+    "predicate": "inhibits",
+    "object": "CD38",
+    "context": {
+      "en-US": "GSK-428 and the NAD+ glycohydrolase CD38 exploit the same conserved adduct-forming, uncompetitive inhibitor strategy: rather than competing for the substrate, the inhibitor forms a stable adduct with the substrate in the active site. This shared mechanism underlies the combined-inhibition hypothesis in which simultaneous blockade of the two major NAD+ consumers could be synergistic in settings such as glaucoma and traumatic brain injury.",
+      "zh-TW": "GSK-428 與 NAD+ 糖苷水解酶 CD38 採用同一保守的「成加合物型、非競爭性」抑制策略：抑制劑並不與受質競爭，而是在活性位內與受質形成穩定加合物。這項共同機制構成了「合併抑制」假說的基礎，即同時阻斷這兩大 NAD+ 消費者在青光眼與創傷性腦損傷等情境下可能產生協同作用。"
+    },
+    "confidence": 0.8,
+    "source_document": "GSK-428.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "9c7e41af77c8",
+    "subject": "GSK3",
+    "predicate": "phosphorylates",
+    "object": "Mcl-1",
+    "context": {
+      "en-US": "GSK3 is a serine/threonine protein kinase that modulates cell survival and apoptosis by controlling the stability of the anti-apoptotic protein Mcl-1. In cancer contexts, including hepatocellular carcinoma, GSK3-dependent phosphorylation of this residue is described as an activating event for the Bax interaction, illustrating how GSK3 sits upstream of mitochondrial apoptosis.",
+      "zh-TW": "GSK3 是一個絲胺酸／蘇胺酸蛋白激酶，藉由調控抗凋亡蛋白 Mcl-1 的穩定性來調節細胞存活與凋亡。在包括肝細胞癌在內的癌症情境中，GSK3 依賴性對該殘基的磷酸化被描述為促進 Bax 結合的活化事件，顯示 GSK3 位於粒線體凋亡的上游。"
+    },
+    "confidence": 0.75,
+    "source_document": "GSK3.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "07468da6a7e6",
+    "subject": "GSK3",
+    "predicate": "inhibits",
+    "object": "mTOR",
+    "context": {
+      "en-US": "Wnt signaling inhibits GSK3, and GSK3 in turn promotes TSC1/TSC2 activity by directly phosphorylating TSC2 (Inoki et al., 2006). Because TSC2 is the GTPase-activating subunit that restrains Rheb, GSK3 phosphorylation constrains mTORC1 activation; conversely, phosphatase activation of mTORC1 via PA signaling engages the same node.",
+      "zh-TW": "Wnt 訊息傳遞會抑制 GSK3，而 GSK3 又藉由直接磷酸化 TSC2 來促進 TSC1/TSC2 的活性（Inoki et al., 2006）。由於 TSC2 是抑制 Rheb 的 GTPase 活化次單元，GSK3 的磷酸化會限制 mTORC1 的活化；反之，透過 PA 訊號的磷脂酸活化 mTORC1 也牽涉同一節點。"
+    },
+    "confidence": 0.85,
+    "source_document": "GSK3.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "6041f33b6eff",
+    "subject": "GSK3",
+    "predicate": "is_sequestered_by",
+    "object": "Wnt signaling",
+    "context": {
+      "en-US": "In the absence of Wnt ligand, GSK3-dependent phosphorylation of MITF promotes MITF degradation. Wnt ligand binding instead induces GSK3 sequestration into multivesicular bodies, which stabilizes MITF and permits its nuclear transport, showing how Wnt signaling controls GSK3 subcellular localization rather than its catalytic activity directly.",
+      "zh-TW": "在缺乏 Wnt 配體時，GSK3 依賴性對 MITF 的磷酸化會促進 MITF 降解。Wnt 配體結合後則促使 GSK3 被隔離進多囊泡體，進而穩定 MITF 並允許其核轉位，顯示 Wnt 訊息傳遞調控的是 GSK3 的次細胞定位，而非直接調控其催化活性。"
+    },
+    "confidence": 0.8,
+    "source_document": "GSK3.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "9814c1f5e12b",
+    "subject": "GTP",
+    "predicate": "is_required_for",
+    "object": "cGAS",
+    "context": {
+      "en-US": "GTP is a direct nucleotidyltransferase substrate of cGAS: upon binding dsDNA, cGAS condenses one ATP and one GTP into 2'3'-cGAMP through a GTP-derived GMP moiety ligated to an ATP-derived AMP moiety. Because both nucleotides are consumed stoichiometrically, local GTP concentrations gate the rate of cGAMP production and therefore the magnitude of cGAS-STING signaling.",
+      "zh-TW": "GTP 是 cGAS 的直接核苷酸轉移酶受質：cGAS 結合 dsDNA 後，會將一分子 ATP 與一分子 GTP 縮合形成 2'3'-cGAMP，其中 GMP 部分源自 GTP，AMP 部分源自 ATP。由於兩種核苷酸都以化學計量方式被消耗，局部 GTP 濃度會限制 cGAMP 的生成速率，進而決定 cGAS-STING 訊號的強度。"
+    },
+    "confidence": 0.95,
+    "source_document": "GTP.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "10f0afeed46f",
+    "subject": "GTP",
+    "predicate": "is_precursor_of",
+    "object": "cGAMP",
+    "context": {
+      "en-US": "The GMP moiety of 2'3'-cGAMP is GTP-derived, making guanine nucleotide availability a determinant of cGAMP supply. Perturbations that deplete the free GTP pool, such as dysregulated guanine nucleotide metabolism or heightened demand during cellular stress, can attenuate cGAS output, whereas elevated nucleoside availability could in principle amplify the second messenger pool.",
+      "zh-TW": "2'3'-cGAMP 的 GMP 部分源自 GTP，因此鳥嘌呤核苷酸的可用性決定了 cGAMP 的供應。消耗游離 GTP 池的擾動，例如鳥嘌呤核苷酸代謝失調或細胞壓力期間需求增加，都可能削弱 cGAS 的輸出；反之，核苷供應升高理論上可擴大此第二信使的池量。"
+    },
+    "confidence": 0.9,
+    "source_document": "GTP.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "ebb19362ebf5",
+    "subject": "Galectin-9",
+    "predicate": "is_a_component_of",
+    "object": "SASP",
+    "context": {
+      "en-US": "Galectin-9 is a secreted beta-galactoside-binding lectin with two tandem carbohydrate recognition domains that is a component of the senescence-associated secretory phenotype. It was first reported as a SASP factor secreted by senescent melanoma cells, and its presence contributes to the immunosuppressive arm of the senescent secretome, potentially facilitating tumor immune evasion.",
+      "zh-TW": "Galectin-9 是一種分泌型、具有兩個串聯醣類辨識結構域的 β-半乳糖苷結合凝集素，也是細胞衰老相關分泌表型（SASP）的組成成分。它最早被報告為衰老黑色素瘤細胞分泌的 SASP 因子，其存在促成了衰老分泌組的免疫抑制面向，可能協助腫瘤的免疫逃脫。"
+    },
+    "confidence": 0.9,
+    "source_document": "Galectin-9.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "a6247cbceaf6",
+    "subject": "Galectin-9",
+    "predicate": "promotes",
+    "object": "Tumor Microenvironment",
+    "context": {
+      "en-US": "Within the tumor microenvironment, Galectin-9 exerts broad immunosuppressive effects: it promotes apoptosis of T cells and monocytes through TIM-3 engagement, increases regulatory T cell differentiation, drives M2 macrophage polarization, and activates Dectin-1 on macrophages to promote peritumoral immune tolerance in pancreatic carcinoma. Senescent cells secreting Galectin-9 in melanoma thus contribute to impaired anti-tumor immunity.",
+      "zh-TW": "在腫瘤微環境中，Galectin-9 展現廣泛的免疫抑制作用：透過 TIM-3 結合促進 T 細胞與單核細胞凋亡、提高調節型 T 細胞分化、驅動 M2 型巨噬細胞極化，並活化巨噬細胞上的 Dectin-1 以促進胰臟癌的腫瘤周圍免疫耐受。因此，黑色素瘤中分泌 Galectin-9 的衰老細胞會削弱抗腫瘤免疫。"
+    },
+    "confidence": 0.85,
+    "source_document": "Galectin-9.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "ecd188cb42ed",
+    "subject": "Galectin-9",
+    "predicate": "binds",
+    "object": "Tumor Microenvironment",
+    "context": {
+      "en-US": "Galectin-9 binds N-glycans on multiple cell surface glycoproteins, with TIM-3 as its primary receptor on T cells and other immune cells and Dectin-1 as an alternative partner on macrophages. Because the same lectin can block adhesion of melanoma cells to endothelium and extracellular matrix, its net effect on tumor progression is context-dependent: immunosuppressive in the tumor microenvironment but anti-metastatic in settings of adhesion blockade.",
+      "zh-TW": "Galectin-9 會結合多種細胞表面醣蛋白上的 N-聚醣，其主要受體為 T 細胞等免疫細胞上的 TIM-3，巨噬細胞上的 Dectin-1 則為另一作用對象。由於同一種凝集素既能阻斷黑色素瘤細胞與內皮及細胞外基質的黏附，其對腫瘤進展的淨效應具情境相依性：在腫瘤微環境中為免疫抑制，但在阻斷黏附的情境中反而具抗轉移作用。"
+    },
+    "confidence": 0.75,
+    "source_document": "Galectin-9.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "bab1fa71284e",
+    "subject": "Gap Junction",
+    "predicate": "transports",
+    "object": "cGAMP",
+    "context": {
+      "en-US": "Gap junctions are clusters of connexin-formed intercellular channels that pass ions and small molecules below roughly 1 kDa. This size limit accommodates cGAMP, so cGAMP made by cGAS in one cell can diffuse directly into a neighboring cell through channels such as CX36 and engage STING there without that cell having sensed DNA itself.",
+      "zh-TW": "間隙連接是由連接蛋白（connexin）構成的細胞間通道群，允許離子與分子量約 1 kDa 以下的小分子通過。此大小上限足以容納 cGAMP，因此某一細胞中由 cGAS 製造的 cGAMP 可經由 CX36 等通道直接擴散至鄰近細胞並在該處活化 STING，而無須該細胞自身感知到 DNA。"
+    },
+    "confidence": 0.9,
+    "source_document": "Gap Junction.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "5853d3fcab37",
+    "subject": "Gap Junction",
+    "predicate": "amplifies",
+    "object": "cGAS-STING Pathway",
+    "context": {
+      "en-US": "By transferring cGAMP between cells, connexin channels convert a localized cGAS-STING activation into a network-wide response. Receiving cells activate IRF3 and NF-κB without sensing DNA themselves, so gap junction coupling is the mechanism that amplifies neuroinflammation far beyond the initiating insult; modulating connexin permeability is therefore a candidate strategy to limit pathological dissemination while preserving physiological coupling.",
+      "zh-TW": "藉由在細胞間傳遞 cGAMP，連接蛋白通道能把局部的 cGAS-STING 活化轉化為全網路性的反應。接收端細胞在不感知 DNA 的情況下啟動 IRF3 與 NF-κB，因此間隙連接偶聯是將神經發炎放大到遠超過起始傷害範圍的機制；調節連接蛋白通透性因而成為在保留生理偶聯的同時限制病理性擴散的候選策略。"
+    },
+    "confidence": 0.9,
+    "source_document": "Gap Junction.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "04deb84d2009",
+    "subject": "Gap Junction",
+    "predicate": "couples",
+    "object": "Microglia",
+    "context": {
+      "en-US": "In the central nervous system, connexin channels, notably CX36, electrically and metabolically couple neurons with microglia, allowing rapid intercellular exchange of small signaling molecules between neural parenchyma and resident immune cells. This anatomical coupling explains how a cGAMP burst in one cell can reach and activate microglia.",
+      "zh-TW": "在中樞神經系統中，連接蛋白通道（尤其是 CX36）在神經元與小膠細胞之間建立電性與代謝性偶聯，使神經實質與駐留免疫細胞之間可快速交換小分子訊號。這種解剖上的偶聯解釋了單一細胞中產生的 cGAMP 爆發如何能傳遞並活化小膠細胞。"
+    },
+    "confidence": 0.85,
+    "source_document": "Gap Junction.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "899d674b35e3",
+    "subject": "Gastrointestinal Tract",
+    "predicate": "hosts",
+    "object": "Gut Microbiome",
+    "context": {
+      "en-US": "The gastrointestinal tract is the ecological niche that cultivates the gut microbiome, the largest microbial aggregate associated with the body. The microbiome ferments dietary fiber into short-chain fatty acids that nourish colonocytes and modulate inflammation, and age-related changes in motility, absorptive capacity, and microbial composition shift this ecosystem, making GIT function a contributing factor to frailty and neurodegenerative risk.",
+      "zh-TW": "胃腸道是培養腸道菌群的生態棲位，該菌群是與人體相關的最大微生物聚集體。菌群將膳食纖維發酵為短鏈脂肪酸，這些代謝物供養結腸上皮細胞並調節發炎；而隨年齡出現的蠕動減慢、吸收能力下降與菌群組成改變會擾動此生態系，使胃腸道功能成為虛弱與神經退化風險的促成因素。"
+    },
+    "confidence": 0.9,
+    "source_document": "Gastrointestinal Tract.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "6cf1455fa888",
+    "subject": "Gastrointestinal Tract",
+    "predicate": "communicates_with",
+    "object": "Gut-Brain Axis",
+    "context": {
+      "en-US": "The gastrointestinal tract communicates bidirectionally with the brain via the gut-brain axis while hosting the largest aggregate of immune tissue in the body. Barrier failure, dysbiosis, and chronic low-grade inflammation in the gut propagate systemic inflammatory signaling, linking gut dysfunction to metabolic disease, aging-related frailty, and neurodegenerative risk.",
+      "zh-TW": "胃腸道透過腸腦軸與腦部進行雙向溝通，同時也容納體內最大宗的免疫組織。腸道屏障失效、菌群失調與慢性低度發炎會傳播全身性發炎訊號，將腸道功能障礙與代謝疾病、老化相關虛弱及神經退化風險連結起來。"
+    },
+    "confidence": 0.85,
+    "source_document": "Gastrointestinal Tract.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "902d002a182c",
+    "subject": "Gastrointestinal Tract",
+    "predicate": "is_associated_with",
+    "object": "Inflammation",
+    "context": {
+      "en-US": "The mucosal layer of the gastrointestinal tract, with its epithelial barrier, glands, and villi, performs enzymatic digestion, active and passive absorption, and water/electrolyte balance, while gut microbial short-chain fatty acids modulate inflammation. When the barrier fails or dysbiosis develops, low-grade inflammation in the gut becomes a driver of systemic inflammatory signaling in aging.",
+      "zh-TW": "胃腸道的黏膜層（包含上皮屏障、腺體與絨毛）負責酵素消化、主動與被動吸收以及水與電解質平衡，而腸道微生物產生的短鏈脂肪酸可調節發炎。當屏障失效或菌群失調時，腸道內的低度發炎便成為老化過程中全身性發炎訊號的推動因素。"
+    },
+    "confidence": 0.8,
+    "source_document": "Gastrointestinal Tract.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "a3e95c7afc84",
+    "subject": "GbetaL",
+    "predicate": "is_a_component_of",
+    "object": "mTORC1",
+    "context": {
+      "en-US": "GbetaL (mLST8) is a WD40 repeat beta-propeller protein that is a core subunit of both mTORC1 and mTORC2. In mTORC1 it directly contacts the mTOR kinase domain and is required for full catalytic activity; mice lacking mLST8 die embryonically, and conditional knockout disrupts mTORC2 more severely than mTORC1.",
+      "zh-TW": "GbetaL（mLST8）是一個 WD40 重複序列的 β-螺旋槳蛋白，是 mTORC1 與 mTORC2 兩者的核心次單元。在 mTORC1 中，它直接接觸 mTOR 激酶結構域並為完整催化活性所必需；剔除 mLST8 的小鼠會在胚胎期死亡，而條件性敲除對 mTORC2 的破壞比對 mTORC1 更嚴重。"
+    },
+    "confidence": 0.9,
+    "source_document": "GbetaL.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "bbfe5400a00b",
+    "subject": "GbetaL",
+    "predicate": "binds",
+    "object": "mTOR",
+    "context": {
+      "en-US": "GbetaL binds the mTOR kinase domain to stabilize catalytic activity and promote complex assembly. Unlike Raptor and Rictor, it is constitutively bound to mTOR and does not function as a substrate recruiter; its binding is enhanced by phosphatidic acid, which links growth factor signaling to mTOR complex assembly.",
+      "zh-TW": "GbetaL 結合 mTOR 的激酶結構域，以穩定其催化活性並促進複合體組裝。與 Raptor 及 Rictor 不同，GbetaL 是與 mTOR 恆定結合的，且不作為受質招募因子；其結合可被磷脂酸增強，因而將生長因子訊號與 mTOR 複合體組裝連結起來。"
+    },
+    "confidence": 0.9,
+    "source_document": "GbetaL.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "450d404ab3c6",
+    "subject": "GbetaL",
+    "predicate": "is_a_component_of",
+    "object": "mTORC2",
+    "context": {
+      "en-US": "GbetaL is the shared core subunit that, together with the mTORC2-specific scaffold Rictor, constitutes mTORC2 and is critical for its stability. Its constitutive association with mTOR, rather than regulated substrate recruitment, distinguishes it from the Raptor-defined mTORC1 assembly and makes it a single point of leverage for perturbing both complexes.",
+      "zh-TW": "GbetaL 是與 mTORC2 專一性支架蛋白 Rictor 共同構成 mTORC2 的共享核心次單元，對其穩定性至關重要。其與 mTOR 的恆定關聯（而非受調控的受質招募）使其有別於由 Raptor 定義的 mTORC1 組裝，也使其成為同時擾動兩個複合體的單一著力點。"
+    },
+    "confidence": 0.9,
+    "source_document": "GbetaL.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "8379236ccdf3",
+    "subject": "Geminin",
+    "predicate": "inhibits",
+    "object": "Cell Cycle",
+    "context": {
+      "en-US": "Geminin is a cell cycle regulator that blocks MCM helicase loading onto chromatin, thereby preventing re-replication (Xouri et al., 2004). It accumulates during S phase and G2 and is degraded at mitotic exit, so its transient presence licenses DNA replication exactly once per cycle.",
+      "zh-TW": "Geminin 是細胞週期調節因子，會阻斷 MCM 解旋酶在染色質上的裝載，因而防止 DNA 再度複製（Xouri et al., 2004）。它在 S 期與 G2 期累積，並於有絲分裂退出時被降解，因此其短暫存在使 DNA 複製在每個週期中恰好發生一次。"
+    },
+    "confidence": 0.85,
+    "source_document": "Geminin.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "3b9765783730",
+    "subject": "Geminin",
+    "predicate": "blocks",
+    "object": "Chromatin",
+    "context": {
+      "en-US": "Geminin acts as a repressor of replication licensing by preventing MCM loading onto chromatin. Because the block is lifted only when geminin is degraded at mitotic exit, the protein couples the end of mitosis to the licensing decision for the next S phase.",
+      "zh-TW": "Geminin 藉由阻止 MCM 裝載到染色質上，作為複製授權的抑制因子發揮作用。由於該阻斷僅在有絲分裂退出、Geminin 被降解時才解除，此蛋白將有絲分裂的結束與下一個 S 期複製授權的決定相互耦聯。"
+    },
+    "confidence": 0.8,
+    "source_document": "Geminin.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "de18a48cdbbc",
+    "subject": "Genotype",
+    "predicate": "determines",
+    "object": "Phenotype",
+    "context": {
+      "en-US": "A genotype is the inherited DNA sequence repertoire, the allelic variants across the genome, that determines an organism's characteristics; the phenotype is its physical, biochemical, and behavioral expression. Because identical genotypes can yield different phenotypes under differing environmental, lifestyle, and stochastic exposures, the genotype sets the constitutional range while the environment selects within it.",
+      "zh-TW": "基因型是遺傳而來的 DNA 序列庫，即全基因體各基因座的等位變異，用以決定個體的特徵；而表型則是其在生理、生化與行為上的表現。由於相同基因型在不同環境、生活型態與隨機因素下可產生不同表型，基因型設定了體質上的範圍，而環境則在其中做選擇。"
+    },
+    "confidence": 0.9,
+    "source_document": "Genotype.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "6b0cc0225e59",
+    "subject": "Epigenetics",
+    "predicate": "modulates",
+    "object": "Genotype",
+    "context": {
+      "en-US": "The genotype sets the constitutional DNA sequence, but reversible epigenetic marks such as DNA methylation and histone modification modulate its readout without altering the code. This is why epigenetic alterations can serve as early indicators of aging and age-associated disease risk while the underlying genotype remains fixed.",
+      "zh-TW": "基因型決定了體質性的 DNA 序列，但可逆的表觀遺傳標記（如 DNA 甲基化與組蛋白修飾）可在不改變密碼的前提下調整其表現。因此，儘管基因型固定，表觀遺傳改變仍可作為老化與年齡相關疾病風險的早期指標。"
+    },
+    "confidence": 0.85,
+    "source_document": "Genotype.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "040f9b373537",
+    "subject": "Genomic Instability",
+    "predicate": "causes",
+    "object": "Genotype",
+    "context": {
+      "en-US": "Acquired mutations and genomic instability, defined as the accumulation of DNA damage and chromosomal aberrations, progressively distort the genotype over the lifetime and drive aging and cancer. Unlike reversible epigenetic change, this is a permanent alteration of the constitutional sequence itself.",
+      "zh-TW": "後天獲得的突變與基因體不穩定（定義為 DNA 損傷與染色體異常的累積）會在一生中逐步扭曲基因型，並推動老化與癌症。與可逆的表觀遺傳改變不同，這是對體質性序列本身的永久性改變。"
+    },
+    "confidence": 0.8,
+    "source_document": "Genotype.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "0352e44882b4",
+    "subject": "COMT",
+    "predicate": "produces",
+    "object": "Geraldol",
+    "context": {
+      "en-US": "COMT generates geraldol (3'-O-methylfisetin) by O-methylating fisetin at its 3'-hydroxyl position, as demonstrated directly by Poor et al. (2016, Biomed Pharmacother 83:998-1005). The process is concentration-dependent: at low fisetin concentrations COMT acts on the substrate and methylates it, whereas at higher concentrations fisetin occupies the COMT active site without being efficiently methylated, showing inhibitor-like behavior.",
+      "zh-TW": "COMT 藉由在 fisetin 的 3'-羥基位置進行 O-甲基化而生成 geraldol（3'-O-甲基非瑟酮），此點由 Poor et al.（2016, Biomed Pharmacother 83:998–1005）直接證實。此過程具濃度依賴性：在 fisetin 濃度低時，COMT 以受質方式作用並將其甲基化；而濃度較高時，fisetin 占據 COMT 活性位卻未被有效甲基化，呈現類似抑制劑的行為。"
+    },
+    "confidence": 0.9,
+    "source_document": "Geraldol.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "9012e47263a1",
+    "subject": "Geraldol",
+    "predicate": "is_derived_from",
+    "object": "Fisetin",
+    "context": {
+      "en-US": "Geraldol (3'-O-methylfisetin) is a naturally occurring flavonol derived from fisetin by O-methylation. It retains the 3-hydroxyflavone scaffold responsible for radical scavenging and metal chelation, while the added 3'-O-methyl group increases lipophilicity and cellular uptake relative to the parent compound, potentially improving access to redox-stressed compartments.",
+      "zh-TW": "Geraldol（3'-O-甲基非瑟酮）是由 fisetin 經 O-甲基化衍生的天然黃酮醇。它保留了負責自由基清除與金屬螯合的 3-羥基黃酮骨架，而新增的 3'-O-甲基則相對於母體提高脂溶性與細胞攝取，可能改善其進入氧化還原受壓區室的機會。"
+    },
+    "confidence": 0.9,
+    "source_document": "Geraldol.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "b3492dcb704f",
+    "subject": "Geraldol",
+    "predicate": "supports",
+    "object": "Glutathione",
+    "context": {
+      "en-US": "Geraldol counters oxidative stress both by direct free-radical quenching and by supporting the glutathione system, helping neutralize electrophilic quinones such as adrenochrome-derived aminochrome and adrenochrome itself. By dampening ROS and NF-κB-driven signaling it can suppress SASP, positioning geraldol as a candidate co-agent in adrenochrome-handling protocols intended to limit redox-driven senescence.",
+      "zh-TW": "Geraldol 對抗氧化壓力的方式包括直接清除自由基，以及支援麩胱甘肽系統，協助中和諸如腎上腺素衍生的胺色體（aminochrome）與腎上腺素本身等親電子性醌類。藉由抑制 ROS 與 NF-κB 驅動的訊號，它可壓抑 SASP，使 geraldol 有資格作為處理腎上腺素方案的輔助候選藥物，用以限制氧化還原驅動的細胞衰老。"
+    },
+    "confidence": 0.75,
+    "source_document": "Geraldol.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "df50c7213f4a",
+    "subject": "Geroscience",
+    "predicate": "studies",
+    "object": "Aging",
+    "context": {
+      "en-US": "Geroscience is an interdisciplinary field studying the biological relationship between aging and age-related disease on the hypothesis that, because aging is the single greatest risk factor for most chronic diseases, slowing the fundamental processes of aging will delay the onset of multiple diseases simultaneously. It focuses on interconnected aging drivers including epigenetic alterations, genomic instability, senescence, and loss of proteostasis involving autophagy.",
+      "zh-TW": "銀髮科學是一門跨領域學科，其研究老化與年齡相關疾病之間的生物關聯，核心假設是：既然老化是多數慢性疾病最大的單一風險因子，減緩老化的根本過程就會同時延後多種疾病的發生。它聚焦於相互連結的老化驅動因子，包括表觀遺傳改變、基因體不穩定、細胞衰老，以及涉及自噬的蛋白質穩態喪失。"
+    },
+    "confidence": 0.95,
+    "source_document": "Geroscience.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "7bcbd60ff467",
+    "subject": "Geroscience",
+    "predicate": "develops",
+    "object": "Senolytics",
+    "context": {
+      "en-US": "Geroscience has produced the class of drugs called senolytics, which target and remove senescent cells. Alongside pharmacology such as metformin, resveratrol, and spermidine and lifestyle interventions such as caloric restriction and exercise, senolytics represent the field's attempt to intervene directly on one of the hallmarks of aging rather than on individual diseases.",
+      "zh-TW": "銀髮科學催生了稱為 senolytics（清除衰老細胞藥物）的藥物類別，其目標是針對並移除衰老細胞。與 metformin、resveratrol、spermidine 等藥理手段，以及熱量限制與運動等生活型態介入並列，senolytics 代表的正是此領域直接介入老化標誌之一（而非個別疾病）的嘗試。"
+    },
+    "confidence": 0.9,
+    "source_document": "Geroscience.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "a9c43ed6fc84",
+    "subject": "Biomarkers",
+    "predicate": "measures",
+    "object": "Aging",
+    "context": {
+      "en-US": "Geroscience relies on accurate biomarkers to quantify biological age and the rate of decline, and to judge whether an intervention is truly slowing biological aging rather than merely altering a surrogate. Tools such as the epigenetic clock, including DNAmGrimAge based on DNA methylation, are central to this measurement problem.",
+      "zh-TW": "銀髮科學高度依賴精確的生物標記來量化生物學年齡與衰退速率，並判斷某項介入是否真的減緩了生物學老化，而非僅改變某個替代指標。表觀遺傳時鐘（epigenetic clock）等工具——例如以 DNA 甲基化為基礎的 DNAmGrimAge——正是此測量問題的核心。"
+    },
+    "confidence": 0.85,
+    "source_document": "Geroscience.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "f78702b0c0a6",
+    "subject": "Ghrelin",
+    "predicate": "increases",
+    "object": "Thymopoiesis",
+    "context": {
+      "en-US": "Administration of ghrelin to aged mice increased early thymic progenitors in the thymus, raised the number of recent thymic emigrants exported to the periphery as measured by sjTREC, and improved thymic architecture with more cortical and medullary thymic epithelial cells. Ghrelin thus acts both directly on thymic progenitors and indirectly through anti-inflammatory actions that create a permissive microenvironment.",
+      "zh-TW": "對老年小鼠施予 ghrelin 可增加胸腺中的早期胸腺前驅細胞、提高以 sjTREC 量測之外周近期胸腺移出細胞的數量，並改善胸腺架構，使皮質與髓質胸腺上皮細胞增多。因此 ghrelin 既直接作用於胸腺前驅細胞，也透過抗發炎作用間接創造有利於造胸的微環境。"
+    },
+    "confidence": 0.85,
+    "source_document": "Ghrelin.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "359252ff7436",
+    "subject": "Ghrelin",
+    "predicate": "decreases_with_age",
+    "object": "Aging",
+    "context": {
+      "en-US": "Ghrelin levels fall with age, and this decline correlates with thymic involution and elevated inflammation. Because ghrelin and human growth hormone both decline in the aged thymus in parallel with functional involution, the age-related loss of this hormone axis is a candidate driver of age-associated immune decline.",
+      "zh-TW": "Ghrelin 濃度隨年齡下降，且此下降與胸腺退化及發炎升高相關。由於 ghrelin 與人類生長激素在老化胸腺中同步下降並伴隨功能退化，這條荷爾蒙軸的年齡相關喪失便被視為與年齡相關免疫衰退的候選驅動因素。"
+    },
+    "confidence": 0.85,
+    "source_document": "Ghrelin.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "e0fc4416847b",
+    "subject": "Ghrelin",
+    "predicate": "stimulates",
+    "object": "Human Growth Hormone",
+    "context": {
+      "en-US": "Ghrelin is a 28-amino acid peptide produced primarily by the stomach that acts through the growth hormone secretagogue receptor GHS-R1a, with octanoylation at Ser3 required for biological activity. It stimulates growth hormone release from the pituitary, regulates food intake via hypothalamic feeding centers, and rises during fasting; its receptor is expressed in stomach, hypothalamus, and immune cells.",
+      "zh-TW": "Ghrelin 是主要由胃部產生的 28 胺基酸胜肽，透過生長激素促泌素受體 GHS-R1a 作用，且 Ser3 的辛醯化修飾為其生物活性所必需。它刺激腦下垂體釋放生長激素，經由下視丘攝食中樞調節食物攝取，並在禁食期間上升；其受體表現在胃、下視丘與免疫細胞。"
+    },
+    "confidence": 0.9,
+    "source_document": "Ghrelin.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "50588507855b",
+    "subject": "SARM1",
+    "predicate": "competes_with",
+    "object": "CD38",
+    "context": {
+      "en-US": "SARM1 and CD38 form a shared NAD+ consumer network whose activity modulates retinal metabolic stress in glaucoma and traumatic brain injury. Blocking both is proposed as a synergistic strategy, since the shared adduct-forming uncompetitive inhibitor mechanism exploited by GSK-428 and by the CD38 inhibitor 78c is mechanistically interchangeable.",
+      "zh-TW": "SARM1 與 CD38 構成共享的 NAD+ 消費者網絡，其活性在青光眼與創傷性腦損傷中調節視網膜的代謝壓力。同時阻斷兩者被提出為具協同效果的策略，因為 GSK-428 與 CD38 抑制劑 78c 所利用的「成加合物型非競爭性抑制」機制在機制上可互換。"
+    },
+    "confidence": 0.8,
+    "source_document": "Glaucoma.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "0fa3eaa33d2d",
+    "subject": "PARP1",
+    "predicate": "consumes",
+    "object": "NAD+",
+    "context": {
+      "en-US": "CD38 and PARP1 are competing NAD+ consumers alongside SARM1 in the shared NAD+ depletion network. Their combined activity determines how much NAD+ remains available in retinal ganglion cell axons during metabolic stress, which is why the combined-inhibition hypothesis for SARM1 and CD38 is framed as a retinal metabolic intervention.",
+      "zh-TW": "CD38 與 PARP1 與 SARM1 一同構成共享的 NAD+ 耗竭網絡中的競爭性 NAD+ 消費者。兩者的合併活性決定了代謝壓力下視網膜神經節細胞軸突中仍可用的 NAD+ 數量，這也是 SARM1 與 CD38「合併抑制」假說被定位為視網膜代謝介入的原因。"
+    },
+    "confidence": 0.8,
+    "source_document": "Glaucoma.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "5b703d2f1cf7",
+    "subject": "Acid ceramidase",
+    "predicate": "is_a_prognostic_marker_for",
+    "object": "Glioblastoma",
+    "context": {
+      "en-US": "Acid ceramidase (ASAH1) is an independent poor-prognosis marker in glioblastoma. It is highly expressed in CD133+ glioblastoma stem-like cells and is secreted into the microenvironment, so ceramide-dependent survival signaling in the stem-like compartment contributes to the tumor's aggressive biology and to the failure of standard resection, radiotherapy, and temozolomide.",
+      "zh-TW": "酸性神經醯胺酶（ASAH1）是腦膜瘤（glioblastoma）中獨立的預後不良標記。它在 CD133+ 的腦膜瘤幹樣細胞中高度表現並被分泌至微環境，因此幹樣細胞區室中依賴神經醯胺的存活訊號會促成此腫瘤的侵襲性生物學特性，以及手術切除、放射治療與 temozolomide 的治療失敗。"
+    },
+    "confidence": 0.9,
+    "source_document": "Glioblastoma.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "4ea534d9b38e",
+    "subject": "Mebendazole",
+    "predicate": "targets",
+    "object": "Tubulin",
+    "context": {
+      "en-US": "Mebendazole is a benzimidazole anthelmintic with documented preclinical and early clinical activity against glioblastoma, acting through beta-tubulin disruption at the colchicine site and inhibition of Hedgehog and Wnt/beta-catenin signaling. Benzimidazole anthelmintics including fenbendazole are prominent drug repositioning candidates, often studied in combination with standard chemotherapy to deepen responses in this refractory tumor.",
+      "zh-TW": "Mebendazole 是苯並咪唑類驅蟲藥，對腦膜瘤具有已記錄的臨床前與早期臨床活性，其作用機制包含在秋水仙鹼位點破壞 β-tubulin，以及抑制 Hedgehog 與 Wnt/β-catenin 訊號。包括 fenbendazole 在內的苯並咪唑類驅蟲藥是重要的藥物重新定位候選者，常與標準化學治療併用以深化此難治性腫瘤的療效反應。"
+    },
+    "confidence": 0.85,
+    "source_document": "Glioblastoma.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "a3790f973f5d",
+    "subject": "EGFR",
+    "predicate": "drives",
+    "object": "Glioblastoma",
+    "context": {
+      "en-US": "Glioblastoma arises from astrocytes or glial progenitors with rapid growth, diffuse infiltration, microvascular proliferation, and necrosis (WHO grade 4). Its molecular drivers include EGFR amplification or mutation, PDGFRA, MET, PTEN loss activating PI3K/Akt/mTOR, and p53 and RB1 alterations, while VEGF-driven angiogenesis builds the leaky vasculature and immunosuppressive hypoxic tumor microenvironment characteristic of the tumor.",
+      "zh-TW": "腦膜瘤源自星狀膠細胞或膠質前驅細胞，具有快速生長、瀰漫浸潤、微血管增生與壞死（WHO 第 4 級）等特徵。其分子驅動因子包括 EGFR 擴增或突變、PDGFRA、MET、PTEN 喪失所活化的 PI3K/Akt/mTOR，以及 p53 與 RB1 的改變；同時 VEGF 驅動的血管新生建構出腫瘤特有的滲漏血管與免疫抑制性缺氧微環境。"
+    },
+    "confidence": 0.85,
+    "source_document": "Glioblastoma.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "4a5cc8f7aab5",
+    "subject": "Glioblastoma",
+    "predicate": "is_a_type_of",
+    "object": "Glioma",
+    "context": {
+      "en-US": "Glioblastoma is the most common and most malignant primary CNS tumor in adults, classified as a grade IV astrocytoma and representing the most malignant end of the glioma spectrum. Despite surgical resection, radiotherapy, temozolomide chemotherapy, and tumor-treating fields, median survival remains under 15 months, which is why glioma-directed mechanisms such as sirtuin modulation are studied intensively in this entity.",
+      "zh-TW": "腦膜瘤是成人中最常見且最具惡性的原發性中樞神經系統腫瘤，被歸類為第 4 級星狀膠細胞瘤，代表 gliome 譜系中最惡性的端點。儘管已有手術切除、放射治療、temozolomide 化學治療與腫瘤電場治療，中位存活期仍低於 15 個月；這也是 sirtuin 調節等 gliome 相關機制在此疾病中被密集研究的原因。"
+    },
+    "confidence": 0.85,
+    "source_document": "Glioblastoma.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "fc42a41b0b22",
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "PAK1",
+    "context": {
+      "en-US": "In glioma, SIRT1 acts as a tumor suppressor by deacetylating PAK1 at K420, which hinders autophagy and limits glioblastoma growth. This is a notable inverse case: inhibiting SIRT1 increases temozolomide sensitivity via ROS generation, so the same enzyme that restrains tumor growth also restrains the oxidative stress used by chemotherapy.",
+      "zh-TW": "在 gliome 中，SIRT1 藉由在 K420 位點去乙醯化 PAK1 而扮演腫瘤抑制子的角色，進而阻礙自噬並限制腦膜瘤生長。這是一個值得注意的反向案例：抑制 SIRT1 會藉由產生 ROS 提高對 temozolomide 的敏感度，因此同一個酵素既抑制腫瘤生長，也抑制了化療所利用的氧化壓力。"
+    },
+    "confidence": 0.85,
+    "source_document": "Glioma.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "1de1869bac94",
+    "subject": "SIRT7",
+    "predicate": "promotes",
+    "object": "Glioma",
+    "context": {
+      "en-US": "Sirtuin expression is differentially regulated in glioma: SIRT1 and SIRT7 are upregulated and SIRT3 and SIRT6 are downregulated relative to normal or adjacent brain tissue. Among these, SIRT7 acts in the opposite direction from SIRT1, promoting proliferation and invasion through ERK and STAT3 signaling, and higher SIRT1 or SIRT3 levels correlate with worse prognosis.",
+      "zh-TW": "在 gliome 中，sirtuin 的表現受到差異性調控：相對於正常或鄰接腦組織，SIRT1 與 SIRT7 上調，而 SIRT3 與 SIRT6 下調。其中 SIRT7 的作用方向與 SIRT1 相反，透過 ERK 與 STAT3 訊號促進增殖與浸潤；此外 SIRT1 或 SIRT3 濃度較高與較差的預後相關。"
+    },
+    "confidence": 0.85,
+    "source_document": "Glioma.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "b88a12b0c13e",
+    "subject": "SIRT6",
+    "predicate": "suppresses",
+    "object": "Glioma",
+    "context": {
+      "en-US": "SIRT6 is downregulated in glioma and acts as a growth restraint, suppressing tumor growth via induction of apoptosis, inhibition of oxidative stress, and inhibition of JAK2/STAT3 signaling. SIRT3 is likewise downregulated yet its higher expression correlates with worse prognosis, because it promotes viability by stabilizing the Ku70-Bax interaction.",
+      "zh-TW": "SIRT6 在 gliome 中下調，並扮演生長抑制的角色，透過誘發凋亡、抑制氧化壓力以及抑制 JAK2/STAT3 訊號來壓抑腫瘤生長。SIRT3 同樣下調，但其表現較高卻與較差預後相關，因為它藉由穩定 Ku70-Bax 結合而促進細胞存活。"
+    },
+    "confidence": 0.85,
+    "source_document": "Glioma.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "9d2f4bcbb852",
+    "subject": "Glucagon",
+    "predicate": "antagonizes",
+    "object": "Insulin",
+    "context": {
+      "en-US": "Glucagon is a 29-amino acid peptide hormone secreted by pancreatic alpha cells and encoded by the GCG gene, serving as the principal counter-regulatory hormone to insulin. The glucagon-to-insulin ratio sets the net direction of hepatic glucose output: a high ratio favors glucose production, a low ratio favors storage, which is why alpha-cell dysfunction and relative glucagon excess drive fasting hyperglycemia in metabolic syndrome and obesity.",
+      "zh-TW": "Glucagon 是由胰臟 α 細胞分泌、由 GCG 基因編碼的 29 胺基酸胜肽激素，作為胰島素的主要反向調節激素。胰高血糖素與胰島素的比值決定肝臟葡萄糖輸出的淨方向：比值高有利於葡萄糖生成，比值低有利於儲存；正因如此，在代謝症候群與肥胖中，α 細胞功能失調與相對的 glucagon 過多會造成空腹高血糖。"
+    },
+    "confidence": 0.95,
+    "source_document": "Glucagon.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "39736578126a",
+    "subject": "Glucagon",
+    "predicate": "increases",
+    "object": "Gluconeogenesis",
+    "context": {
+      "en-US": "Glucagon signals through the G protein-coupled glucagon receptor to activate the Gs-adenylyl cyclase-cAMP-PKA cascade, inhibiting glycogen synthase and activating glycogen phosphorylase to drive hepatic glycogenolysis. cAMP also induces transcription of the gluconeogenic enzymes PEPCK and G6Pase via CREB and the co-activator PGC-1alpha, and glucagon additionally stimulates ketogenesis and adipose lipolysis.",
+      "zh-TW": "Glucagon 透過 G 蛋白偶聯的胰高血糖素受體活化 Gs－腺苷酸環化酶－cAMP－PKA 級聯反應，抑制肝醣合成酶並活化肝醣磷酸化酶以推動肝醣分解。cAMP 亦經由 CREB 與輔活化因子 PGC-1α 誘發生糖性酵素 PEPCK 與 G6Pase 的轉錄，glucagon 另外還會刺激酮體生成與脂肪組織的脂解。"
+    },
+    "confidence": 0.9,
+    "source_document": "Glucagon.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "0691a0c54260",
+    "subject": "Glucagon",
+    "predicate": "acts_on",
+    "object": "Liver",
+    "context": {
+      "en-US": "The glucagon receptor is expressed predominantly in liver, kidney, adipose tissue, and heart, making the liver the major target organ for glucagon-driven glycogenolysis and gluconeogenesis. Pharmacologic glucagon is used to treat severe hypoglycemia and is under investigation for glycogen storage disease, whereas glucagon receptor antagonism promotes weight loss.",
+      "zh-TW": "胰高血糖素受體主要表現在肝臟、腎臟、脂肪組織與心臟，因此肝臟是 glucagon 驅動肝醣分解與糖質新生 (gluconeogenesis) 的主要標的器官。藥理劑量的 glucagon 用於治療嚴重低血糖，並正在研究用於肝醣儲積症；相反地，胰高血糖素受體拮抗則可促進體重下降。"
+    },
+    "confidence": 0.85,
+    "source_document": "Glucagon.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "83ae36bb5a87",
+    "subject": "Glucocorticoids",
+    "predicate": "inhibits",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "Glucocorticoids bind the intracellular glucocorticoid receptor, and the hormone-receptor complex translocates to the nucleus where it transactivates anti-inflammatory genes and transrepresses pro-inflammatory transcription: it recruits histone deacetylases, competes with NF-κB and AP-1 for coactivators, and directly inhibits NF-κB transcriptional activity.",
+      "zh-TW": "Glucocorticoids 與細胞內的糖皮質激素受體結合，荷爾蒙－受體複合體轉位至細胞核，在其中進行抗發炎基因的轉活化與促發炎轉錄的轉抑制：它招募組蛋白去乙醯化酶、與 NF-κB 及 AP-1 競爭共同活化因子，並直接抑制 NF-κB 的轉錄活性。"
+    },
+    "confidence": 0.95,
+    "source_document": "Glucocorticoids.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "47ba0ab8349f",
+    "subject": "Glucocorticoids",
+    "predicate": "suppresses",
+    "object": "SASP",
+    "context": {
+      "en-US": "Glucocorticoids are classic senomorphic agents: they suppress the pro-inflammatory component of the senescence-associated secretory phenotype without eliminating senescent cells, preferentially dampening the IL-1alpha/NF-κB limb and impairing IL-1alpha maturation while leaving some growth-factor SASP components relatively intact. Their senomorphic action is incidental to their primary immunosuppressive use but identifies the glucocorticoid receptor as an endogenous modulator of inflammaging.",
+      "zh-TW": "Glucocorticoids 是典型的 senomorphic（抑制 SASP）藥物：它們在不清除衰老細胞的情況下壓抑細胞衰老相關分泌表型中的促發炎成分，優先削弱 IL-1α／NF-κB 這條支路並阻礙 IL-1α 的成熟，同時讓部分生長因子類 SASP 成分相對保持完整。其 senomorphic 作用雖是其主要免疫抑制用途的附帶結果，卻指出糖皮質激素受體是發炎性老化的內源性調節因子。"
+    },
+    "confidence": 0.9,
+    "source_document": "Glucocorticoids.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "129f3b0fc0ea",
+    "subject": "Glucocorticoids",
+    "predicate": "impairs",
+    "object": "IL-1α",
+    "context": {
+      "en-US": "In senescent cells, glucocorticoids specifically blunt the IL-1alpha-driven arm of the SASP, suppressing IL-1alpha maturation and the NF-κB-dependent expression of downstream SASP factors. Chronic endogenous glucocorticoid excess, as in the Cushing phenotype, is conversely associated with accelerated aging, illustrating that dose and context determine whether glucocorticoid receptor signaling protects or harms tissue homeostasis.",
+      "zh-TW": "在衰老細胞中，glucocorticoids 會選擇性地削弱 SASP 中由 IL-1α 驅動的那條支路，抑制 IL-1α 的成熟以及下游 SASP 因子的 NF-κB 依賴性表現。反之，內源性糖皮質激素慢性過多（如庫希氏症候群表型）則與加速老化相關，說明劑量與情境決定了糖皮質激素受體訊號究竟保護還是傷害組織恆定。"
+    },
+    "confidence": 0.85,
+    "source_document": "Glucocorticoids.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "72e5e9c07420",
+    "subject": "Glucokinase",
+    "predicate": "phosphorylates",
+    "object": "Glucose",
+    "context": {
+      "en-US": "Glucokinase (GCK, hexokinase IV) phosphorylates glucose to glucose-6-phosphate in liver and pancreatic beta cells, and it acts as the glucose sensor that gates insulin release. Its product feeds glycolysis, so the enzyme links ambient glucose concentration to both hormone secretion and downstream fuel flux.",
+      "zh-TW": "Glucokinase（GCK，即 hexokinase IV）在肝臟與胰臟 β 細胞中將葡萄糖磷酸化為葡萄糖-6-磷酸，並作為感測葡萄糖、控制胰島素釋放的感測器。其產物供應糖解作用，因此此酵素將環境葡萄糖濃度同時連結到荷爾蒙分泌與下游的燃料通量。"
+    },
+    "confidence": 0.9,
+    "source_document": "Glucokinase.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "3bb1e52a04ad",
+    "subject": "Glucokinase",
+    "predicate": "regulates",
+    "object": "Insulin",
+    "context": {
+      "en-US": "By functioning as the beta-cell glucose sensor, glucokinase activity determines when insulin release is triggered as glucose rises. Because its catalytic activity is set by substrate availability, post-translational modification, and allosteric effectors, dysregulation of glucokinase is implicated in metabolic disorders, and pharmacological modulation of the enzyme is a therapeutic strategy for glucose-handling disease.",
+      "zh-TW": "藉由作為 β 細胞的葡萄糖感測器，glucokinase 的活性決定了葡萄糖升高時何時觸發胰島素釋放。由於其催化活性受受質可得性、轉譯後修飾與別構效應物調控，glucokinase 的失調與代謝疾病有關，而以藥理方式調節此酵素則是血糖處理疾病的治療策略。"
+    },
+    "confidence": 0.85,
+    "source_document": "Glucokinase.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "89ab03aff911",
+    "subject": "Glucokinase",
+    "predicate": "supplies",
+    "object": "Glycolysis",
+    "context": {
+      "en-US": "Glucokinase phosphorylates glucose to glucose-6-phosphate, the entry point of glycolysis, so its product feeds the pathway in liver and pancreatic beta cells. This coupling means that modulating glucokinase changes both glycolytic flux and the glucose-sensing output that insulin secretion depends on.",
+      "zh-TW": "Glucokinase 將葡萄糖磷酸化為葡萄糖-6-磷酸，也就是糖解作用的入口，因此其產物供應此途徑。這個耦聯意味著調節 glucokinase 會同時改變糖解通量，以及胰島素分泌所依賴的葡萄糖感測輸出。"
+    },
+    "confidence": 0.8,
+    "source_document": "Glucokinase.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "b9fb68570c85",
+    "subject": "Insulin",
+    "predicate": "suppresses",
+    "object": "Gluconeogenesis",
+    "context": {
+      "en-US": "Insulin suppresses gluconeogenesis, in part through FoxO1 phosphorylation: phosphorylated FoxO1 is excluded from the nucleus and gluconeogenic gene expression falls. Because gluconeogenesis is essential for maintaining energy homeostasis during fasting and stress, its impairment is linked to metabolic disease, neurodegeneration, and cancer.",
+      "zh-TW": "胰島素會抑制糖質新生 (gluconeogenesis)，部分途徑是經由 FoxO1 的磷酸化：被磷酸化的 FoxO1 無法進入細胞核，生糖性基因的表現因而下降。由於糖質新生在禁食與壓力期間維持能量恆定至關重要，其功能受損與代謝疾病、神經退化與癌症相關。"
+    },
+    "confidence": 0.85,
+    "source_document": "Gluconeogenesis.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "c1d4a98a9a23",
+    "subject": "Gluconeogenesis",
+    "predicate": "maintains",
+    "object": "Aging",
+    "context": {
+      "en-US": "Gluconeogenesis maintains organismal energy homeostasis and stress adaptation, and it is controlled by nutrient sensors, stress pathways, and hormonal signals. Its dysregulation contributes to aging and disease, so the process is a metabolic node whose misregulation is a target of anti-aging intervention, as illustrated by the reduction of gluconeogenesis under insulin during caloric restriction and fasting.",
+      "zh-TW": "糖質新生 (gluconeogenesis) 維持個體層次的能量恆定與壓力適應，並受營養感測器、壓力路徑與荷爾蒙訊號調控。其失調會促成老化與疾病，因此該過程是一個代謝節點，其失調也是抗老化介入的目標；在熱量限制與禁食期間，胰島素使糖質新生減少即是例證。"
+    },
+    "confidence": 0.7,
+    "source_document": "Gluconeogenesis.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "a7cc1e6ee7ed",
+    "subject": "Rapamycin",
+    "predicate": "causes",
+    "object": "Glucose Intolerance",
+    "context": {
+      "en-US": "Chronic rapamycin and rapalog administration can produce glucose intolerance and insulin resistance, an effect mechanistically separable from the longevity benefit of mTORC1 inhibition. In some rodent models chronic rapamycin upregulates hepatic gluconeogenesis and impairs adipose lipid deposition, yielding both glucose intolerance and hyperlipidemia, although healthy elderly humans on low-dose or intermittent schedules typically show no hyperglycemia or less than placebo.",
+      "zh-TW": "長期使用 rapamycin 及其 rapalog 類藥物可造成葡萄糖耐受不良與胰島素阻抗，此效應在機制上可與 mTORC1 抑制的長壽益處區分開來。在部分鼠類模型中，慢性 rapamycin 會上调肝臟糖質新生並損害脂肪組織的脂質沉積，因而同時造成葡萄糖耐受不良與高脂血症；但健康老年人使用低劑量或間歇性給藥時，通常未見高血糖或低於安慰劑組。"
+    },
+    "confidence": 0.9,
+    "source_document": "Glucose Intolerance.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "ab73fb28e372",
+    "subject": "mTORC2",
+    "predicate": "drives",
+    "object": "Insulin Resistance",
+    "context": {
+      "en-US": "The metabolic side effects of rapamycin are partly attributable to unintended inhibition of mTORC2, which disrupts Akt-mediated insulin signaling and induces insulin resistance, whereas mTORC1 inhibition is the geroprotective arm. Glucose intolerance and insulin resistance thus track with mTORC2 rather than mTORC1 engagement, which explains why the effect appears at high or chronic doses.",
+      "zh-TW": "Rapamycin 的代謝副作用部分歸因於對 mTORC2 的非預期抑制，它會破壞 Akt 介導的胰島素訊號並誘發胰島素阻抗，而 mTORC1 抑制才是抗老化的作用面。因此葡萄糖耐受不良與胰島素阻抗實際上是與 mTORC2（而非 mTORC1 的活化）相關聯的，這也解釋了為何此效應出現在高劑量或慢性給藥時。"
+    },
+    "confidence": 0.85,
+    "source_document": "Glucose Intolerance.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "9dead6c56894",
+    "subject": "Glucose Intolerance",
+    "predicate": "precedes",
+    "object": "Type 2 Diabetes Mellitus",
+    "context": {
+      "en-US": "Glucose intolerance is a pre-diabetic state in which the body fails to maintain normal post-prandial or fasting glucose concentrations, falling short of the diagnostic thresholds for type 2 diabetes mellitus but reflecting reduced insulin sensitivity and/or impaired insulin secretion. It represents a key step in progression, which is why diet- and drug-induced cases are argued to be a benign, reversible starvation pseudo-diabetes when dosing is personalized.",
+      "zh-TW": "葡萄糖耐受不良是一種糖尿病前期狀態：身體無法維持正常的餐後或空腹血糖濃度，尚未達到第二型糖尿病的診斷門檻，但反映出胰島素敏感性下降與／或胰島素分泌受損。它代表疾病進展的關鍵一步；也因此，在劑量個人化的前提下，飲食或藥物誘發的此類情況被主張為良性且可逆的「禁食性假糖尿病」。"
+    },
+    "confidence": 0.85,
+    "source_document": "Glucose Intolerance.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "d429cbd20fbd",
+    "subject": "Glucose Oxidase",
+    "predicate": "produces",
+    "object": "Reactive Oxygen Species",
+    "context": {
+      "en-US": "Glucose oxidase (GOx, notatin) is a flavoenzyme that oxidizes beta-D-glucose to D-glucono-delta-lactone while reducing O2 to hydrogen peroxide, which is why it is widely used experimentally to impose a defined extracellular source of oxidative stress. In the HT-22 hippocampal-neuron assay, 2 units of GOx caused roughly 80% cell death after 3 hours, making it a discriminating toxic insult model.",
+      "zh-TW": "Glucose oxidase（GOx，又稱 notatin）是一種黃素酵素，會將 β-D-葡萄糖氧化為 D-葡糖酸-δ-內酯，同時將 O2 還原為過氧化氫；正因如此，它被廣泛用於實驗上製造定義明確的細胞外氧化壓力來源。在 HT-22 海馬神經元測定中，2 單位 GOx 在 3 小時內造成約 80% 細胞死亡，因此是具鑑別力的毒性傷害模型。"
+    },
+    "confidence": 0.9,
+    "source_document": "Glucose Oxidase.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "bf6cd650e5b5",
+    "subject": "Methylene blue",
+    "predicate": "is_not_protected_against_by",
+    "object": "Glucose Oxidase",
+    "context": {
+      "en-US": "None of the methylene blue-related compounds (methylene blue, toluidine blue O, phenothiazine, 2-chlorophenothiazine, chlorpromazine, promethazine, neutral red) protected HT-22 cells from the glucose oxidase H2O2 insult, whereas pyruvate as a positive antioxidant control did. This establishes that methylene blue neuroprotection is not classical chain-breaking antioxidant activity but operates upstream on mitochondrial electron flow.",
+      "zh-TW": "所有 methylene blue 相關化合物（methylene blue、toluidine blue O、phenothiazine、2-chlorophenothiazine、chlorpromazine、promethazine、neutral red）都無法保護 HT-22 細胞免受 glucose oxidase 所產生的 H2O2 傷害，而作為抗氧化陽性對照的 pyruvate 則可以。這確立了 methylene blue 的神經保護並非典型的鏈斷式抗氧化作用，而是作用於粒線體電子傳遞的上游。"
+    },
+    "confidence": 0.85,
+    "source_document": "Glucose Oxidase.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "7f1a5e2791fa",
+    "subject": "Fenbendazole",
+    "predicate": "inhibits",
+    "object": "Glucose uptake",
+    "context": {
+      "en-US": "Fenbendazole reduces glucose uptake in cancer cells, lowering lactate production and reversing drug resistance. It activates p53, driving mitochondrial p53-p21 signaling that suppresses GLUT transporter expression, and additionally impedes hexokinase 2. Because cancer cells already sharply increase glucose uptake to fuel glycolysis and biomass production, starving them of glucose is the central anticancer mechanism.",
+      "zh-TW": "Fenbendazole 降低癌細胞的葡萄糖攝取，減少乳酸生成並逆轉藥物抗性。它活化 p53，透過粒線體 p53-p21 訊號抑制 GLUT 轉運蛋白的表現，並另外阻礙 hexokinase 2。由於癌細胞本已大幅提高葡萄糖攝取以供應糖解作用與生物量生產，因此使其缺糖是核心抗癌機制。"
+    },
+    "confidence": 0.9,
+    "source_document": "Glucose uptake.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "c9e1370f90f6",
+    "subject": "Glucose uptake",
+    "predicate": "fuels",
+    "object": "Warburg Effect",
+    "context": {
+      "en-US": "Glucose uptake is transport of extracellular glucose into cells, predominantly via the GLUT1 family of facilitative transporters and regulated by insulin and GLUT4 in peripheral tissues. Cancer cells sharply increase glucose uptake to fuel glycolysis and biomass production, the Warburg effect, which is why inhibiting uptake or the glycolytic enzyme hexokinase 2 is therapeutic.",
+      "zh-TW": "葡萄糖攝取是將細胞外葡萄糖輸入細胞的過程，主要由 GLUT1 家族的促進型轉運蛋白介導，並在外周組織受胰島素與 GLUT4 調控。癌細胞會大幅提高葡萄糖攝取以供應糖解作用與生物量生產，即瓦氏效應（Warburg effect）；這也是抑制葡萄糖攝取或糖解酵素 hexokinase 2 能作為治療手段的原因。"
+    },
+    "confidence": 0.85,
+    "source_document": "Glucose uptake.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "322353045857",
+    "subject": "Fenbendazole",
+    "predicate": "activates",
+    "object": "p53",
+    "context": {
+      "en-US": "Fenbendazole activates p53, and the resulting mitochondrial p53-p21 signaling suppresses GLUT transporter expression to cut glucose uptake. This transactivation route links a tubulin/microtubule-targeting anthelmintic to a metabolic anti-tumor effect distinct from mitotic arrest alone.",
+      "zh-TW": "Fenbendazole 會活化 p53，隨後產生的粒線體 p53-p21 訊號抑制 GLUT 轉運蛋白的表現以削減葡萄糖攝取。這條轉活化路徑將一種以微管（tubulin）為標的的驅蟲藥，連結到有別於單純有絲分裂停滯的代謝性抗腫瘤效應。"
+    },
+    "confidence": 0.8,
+    "source_document": "Glucose uptake.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "dc24d7b7fcfd",
+    "subject": "Glucose-6-Phosphate Dehydrogenase",
+    "predicate": "produces",
+    "object": "NADPH",
+    "context": {
+      "en-US": "Glucose-6-phosphate dehydrogenase is the rate-limiting enzyme of the pentose phosphate pathway, oxidizing glucose-6-phosphate to 6-phosphoglucono-delta-lactone while reducing NADP+ to NADPH. The NADPH produced is the principal driver of reduced glutathione regeneration, which neutralizes reactive oxygen species and is what erythrocytes depend on.",
+      "zh-TW": "Glucose-6-phosphate dehydrogenase 是磷酸戊糖途徑的限速酵素，將葡萄糖-6-磷酸氧化為 6-磷酸葡萄糖酸-δ-內酯，同時把 NADP+ 還原為 NADPH。所產生的 NADPH 是還原型麩胱甘肽再生的主要動力，可中和活性氧，而這正是紅血球所依賴的機制。"
+    },
+    "confidence": 0.95,
+    "source_document": "Glucose-6-Phosphate Dehydrogenase.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "fd5c2ff291ff",
+    "subject": "NADPH",
+    "predicate": "regenerates",
+    "object": "Glutathione",
+    "context": {
+      "en-US": "NADPH generated by the pentose phosphate pathway via glucose-6-phosphate dehydrogenase is the principal driver of reduced glutathione regeneration. Because glutathione is the dominant intracellular antioxidant, NADPH availability sets erythrocyte tolerance to oxidant injury; when G6PD is deficient, NADPH is limiting, reduced glutathione cannot be replenished, and cells are vulnerable to sudden hemolysis.",
+      "zh-TW": "經由 glucose-6-phosphate dehydrogenase 在磷酸戊糖途徑中產生的 NADPH，是還原型麩胱甘肽再生的主要動力。由於麩胱甘肽是細胞內最主要的抗氧化物，NADPH 的可得性便決定了紅血球對氧化傷害的耐受程度；當 G6PD 缺乏時 NADPH 不足、還原型麩胱甘肽無法補充，細胞因而容易發生急性溶血。"
+    },
+    "confidence": 0.9,
+    "source_document": "Glucose-6-Phosphate Dehydrogenase.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "82b70d8de492",
+    "subject": "Glutamate",
+    "predicate": "causes",
+    "object": "Excitotoxicity",
+    "context": {
+      "en-US": "Glutamate is the principal excitatory neurotransmitter in the central nervous system, essential for learning and synaptic plasticity, but uncontrolled extracellular accumulation produces excitotoxicity. Signaling termination depends on Na+-dependent excitatory amino-acid transporters on astrocytes and neurons that clear synaptic glutamate and sustain low extracellular tone; when clearance fails, ionotropic receptor overactivation produces sustained calcium influx.",
+      "zh-TW": "Glutamate 是中樞神經系統的主要興奮性神經傳遞物質，對學習與突觸可塑性至關重要，但細胞外不受控的累積會造成興奮毒性 (excitotoxicity)。訊號的終止仰賴星狀膠細胞與神經元上依賴 Na+ 的興奮性胺基酸轉運蛋白，它們清除突觸中的 glutamate 並維持低濃度的細胞外環境；一旦清除失效，離子型受體的過度活化便造成持續的鈣離子流入。"
+    },
+    "confidence": 0.95,
+    "source_document": "Glutamate.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "b7910fdec345",
+    "subject": "Glutamate",
+    "predicate": "impairs",
+    "object": "Mitochondrial Dysfunction",
+    "context": {
+      "en-US": "Excess glutamate overactivates ionotropic receptors, causing sustained calcium influx; the resulting calcium overload stresses mitochondria and drives reactive oxygen species generation, activating proteases that damage neurons. This cascade is a core mechanism in Parkinson's disease, Alzheimer's disease, and stroke injury, and is why NAD+-dependent resilience and sirtuins buffer downstream mitochondrial failure.",
+      "zh-TW": "過量的 glutamate 會使離子型受體過度活化，造成持續的鈣離子流入；隨之而來的鈣超載會壓迫粒線體並驅動活性氧生成，活化損傷神經元的蛋白酶。此級聯反應是巴金森氏症、阿茲海默症與腦中風損傷的核心機制，也正是 NAD+ 依賴性的復原力與 sirtuins 能緩衝下游粒線體失效的原因。"
+    },
+    "confidence": 0.9,
+    "source_document": "Glutamate.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "58a7452b1007",
+    "subject": "Glutamate",
+    "predicate": "supplies",
+    "object": "Glutathione",
+    "context": {
+      "en-US": "Glutamate feeds into glutathione biosynthesis as glutamate precursor for gamma-glutamylcysteine synthetase and as a nitrogen donor, with cysteine availability rate-limiting. Because glutamate also imposes an excitotoxic redox cost when over-released, its metabolism couples excitotoxic injury to the cell's antioxidant capacity.",
+      "zh-TW": "Glutamate 參與麩胱甘肽的生合成：它是 gamma-glutamylcysteine synthetase 的前驅物並提供氮源，而半胱胺酸的可得性為速率決定因子。由於 glutamate 在過度釋放時也會帶來興奮毒性的氧化還原負擔，其代謝因此把興奮毒性損傷與細胞的抗氧化能力相互耦聯。"
+    },
+    "confidence": 0.8,
+    "source_document": "Glutamate.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "c1204d3ea91d",
+    "subject": "Glutamate-Cysteine Ligase",
+    "predicate": "produces",
+    "object": "Glutathione",
+    "context": {
+      "en-US": "Glutamate-cysteine ligase (gamma-glutamylcysteine synthetase) is the rate-limiting enzyme of glutathione synthesis, condensing glutamate with cysteine to form gamma-glutamylcysteine. Because glutathione is the principal intracellular antioxidant, the enzyme's regulated activity determines the cell's capacity to maintain redox balance, and its dysregulation is implicated in oxidative stress-related pathology and cancer.",
+      "zh-TW": "Glutamate-cysteine ligase（gamma-glutamylcysteine synthetase）是麩胱甘肽合成的限速酵素，將 glutamate 與半胱胺酸縮合形成 gamma-glutamylcysteine。由於麩胱甘肽是細胞內最主要的抗氧化物，此酵素受調控的活性決定了細胞維持氧化還原平衡的能力，其失調則與氧化壓力相關病理及癌症有關。"
+    },
+    "confidence": 0.8,
+    "source_document": "Glutamate-Cysteine Ligase.md",
+    "created": "2026-09-29T16:17:54Z",
+    "updated": "2026-09-29T16:17:54Z"
   }
 ]
