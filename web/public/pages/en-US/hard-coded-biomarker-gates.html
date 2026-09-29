@@ -58,6 +58,22 @@
   .src-docs code { font-size: 12px; word-break: break-word; }
   .src-docs a { color: var(--slate); }
   .src-docs a:hover { color: var(--ink); }
+  /* ---- inline source citations ----
+     The task-output filenames run 60+ characters and sat at full paragraph
+     size, where a citation read louder than the sentence citing it. Scaled in
+     em so it tracks the surrounding text, and the inline-code chip background
+     is dropped so a citation does not look like a code sample. Deliberately
+     NOT applied to the hero .src-docs list, which is a standalone reference
+     block with its own sizing. */
+  .cite { font-size: 0.72em; text-decoration: none; vertical-align: 0.15em; }
+  .cite code {
+    font-size: 1em;            /* take the .cite scale, not code's own 0.86em */
+    background: none;
+    padding: 0;
+    color: var(--mute);
+  }
+  .cite:hover code { color: var(--ink); }
+  .cite:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
 
   .callout {
     border: 1px solid var(--rule);
@@ -338,9 +354,9 @@
         mode: COMT <em>reverses</em> the direction of a benefit, the urolithin metabotype
         removes the mechanism's first step for most of the population, and karyotype changes
         which cell-death programme is available. Source documents, from the list above:
-        <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_comt_vitamin_e_genotype_gate_24_Sep_2026.md" target="_blank" rel="noopener noreferrer"><code>task_output_comt_vitamin_e_genotype_gate_24_Sep_2026</code></a>,
-        <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md" target="_blank" rel="noopener noreferrer"><code>task_output_gender_specific_attributes_vault_topics_02_SEP_2026</code></a>,
-        and <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_hardcoded_individual_biomarker_gates_26_Sep_2026.md" target="_blank" rel="noopener noreferrer"><code>task_output_hardcoded_individual_biomarker_gates_26_Sep_2026</code></a>.
+        <a class="cite" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_comt_vitamin_e_genotype_gate_24_Sep_2026.md" target="_blank" rel="noopener noreferrer"><code>task_output_comt_vitamin_e_genotype_gate_24_Sep_2026</code></a>,
+        <a class="cite" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md" target="_blank" rel="noopener noreferrer"><code>task_output_gender_specific_attributes_vault_topics_02_SEP_2026</code></a>,
+        and <a class="cite" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_hardcoded_individual_biomarker_gates_26_Sep_2026.md" target="_blank" rel="noopener noreferrer"><code>task_output_hardcoded_individual_biomarker_gates_26_Sep_2026</code></a>.
       </p>
       <div class="callout">
         <p>
@@ -1014,7 +1030,7 @@ var GATES = [
        row differently and buildGapTable() reports n/a for it. */
     observed: true,
     assay: "Karyotype with menstrual or androgen-blockade status",
-    why: "Estrogen is a principal mediator of the sirtuin, NAD+, mitohormesis, autophagy and cell-death pathways, and whether estrogen-dependent therapy is indicated is the Grade A part of this gate — that is well established and does not rest on the cardiac literature. The cardiac phenotype is a weaker citation and is often overstated. Barcena de Arellano et al. (Aging 2019;11:1918–33, PMC6503880) report reduced SIRT1, SIRT3 and SOD2 protein EXPRESSION with NF-κB p50 elevation, CD68+ macrophage accumulation and IL-18 upregulation in old female ventricles, against unchanged SIRT1/SIRT3 in male. Four limits on that finding. It is expression, not activity: the only activity proxy measured, AMPK phosphorylation, fell in BOTH sexes, which is evidence against a sex difference at the activity level. Menopausal status was never recorded — donors were binned 17–40 versus 50–68, and that upper bin straddles a median menopause of about 51, so 'aged female' cannot be read as 'postmenopausal female'. The aged male heart moved the opposite way rather than standing still: SOD2 and catalase were elevated, NF-κB p50 markedly reduced, TOM40 upregulated, and the authors identify that divergence as the source of the sex difference. And the cohorts are small (n=6–8 per group, cross-sectional), with the authors' own caveat that statistical significance may not accurately show age or sex differences. PGC-1α and TFAM were unchanged, which argues against the obvious PGC-1α→SOD2 route; the authors offer it as speculation, as they do the estrogen mechanism (they note estrogen RISES with age in men, which would reverse the therapeutic inference). So: the sex divergence in cardiac sirtuin expression is real and interesting; a menopause-specific, activity-level, intervention-defining claim is not supported by this study. The cell-death claim is separately Grade B — XX and XY neurons subjected to the same insult engage different death machinery (caspase-8/3 versus PARP1/AIF), SIRT6 overexpression extends lifespan in males only, and caloric restriction and rapamycin produce larger lifespan extensions in males and females respectively. Those are in-vitro insult paradigms, a transgenic overexpression result and mouse lifespan findings, not human outcome data, and do not extrapolate. See <a href='https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md' target='_blank' rel='noopener noreferrer'><code>task_output_gender_specific_attributes_vault_topics_02_SEP_2026</code></a>.",
+    why: "Estrogen is a principal mediator of the sirtuin, NAD+, mitohormesis, autophagy and cell-death pathways, and whether estrogen-dependent therapy is indicated is the Grade A part of this gate — that is well established and does not rest on the cardiac literature. The cardiac phenotype is a weaker citation and is often overstated. Barcena de Arellano et al. (Aging 2019;11:1918–33, PMC6503880) report reduced SIRT1, SIRT3 and SOD2 protein EXPRESSION with NF-κB p50 elevation, CD68+ macrophage accumulation and IL-18 upregulation in old female ventricles, against unchanged SIRT1/SIRT3 in male. Four limits on that finding. It is expression, not activity: the only activity proxy measured, AMPK phosphorylation, fell in BOTH sexes, which is evidence against a sex difference at the activity level. Menopausal status was never recorded — donors were binned 17–40 versus 50–68, and that upper bin straddles a median menopause of about 51, so 'aged female' cannot be read as 'postmenopausal female'. The aged male heart moved the opposite way rather than standing still: SOD2 and catalase were elevated, NF-κB p50 markedly reduced, TOM40 upregulated, and the authors identify that divergence as the source of the sex difference. And the cohorts are small (n=6–8 per group, cross-sectional), with the authors' own caveat that statistical significance may not accurately show age or sex differences. PGC-1α and TFAM were unchanged, which argues against the obvious PGC-1α→SOD2 route; the authors offer it as speculation, as they do the estrogen mechanism (they note estrogen RISES with age in men, which would reverse the therapeutic inference). So: the sex divergence in cardiac sirtuin expression is real and interesting; a menopause-specific, activity-level, intervention-defining claim is not supported by this study. The cell-death claim is separately Grade B — XX and XY neurons subjected to the same insult engage different death machinery (caspase-8/3 versus PARP1/AIF), SIRT6 overexpression extends lifespan in males only, and caloric restriction and rapamycin produce larger lifespan extensions in males and females respectively. Those are in-vitro insult paradigms, a transgenic overexpression result and mouse lifespan findings, not human outcome data, and do not extrapolate. See <a class='cite' href='https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md' target='_blank' rel='noopener noreferrer'><code>task_output_gender_specific_attributes_vault_topics_02_SEP_2026</code></a>.",
     anatomy: "The gate is hormonal and the hormone is produced in hypothalamus-driven endocrine tissue — ovarian follicle in XX, testis in XY, with androgen blockade as the XY analogue of menopause. The tissue that reads it is nearly everything: myocardium, bone, brain. The load-bearing consequence is that this gate determines which cell-death programme is available, not how fast it runs. XX neurons subjected to the same insult engage caspase-8/3 apoptosis; XY neurons engage PARP1/AIF parthanatosis, with necroptosis as the neighbouring modality. That asymmetry is in-vitro insult-paradigm data, not human outcome data, and is graded separately from the endocrine indication below.",
     topics: "Sirtuins · NAD+ · SIRT3-SIRT4 Ratio · Autophagy/mTORC1 · Apoptosis vs necrosis · SASP/Inflammaging · Telomere · p53",
     vals: [
@@ -1500,7 +1516,11 @@ function icon(key, alt) {
    In-memory only. Nothing is persisted: closing the page discards
    the profile. Export writes a JSON file if a copy is needed.
    ============================================================ */
-var state = { pop: "eur", gates: {}, rx: [] };
+/* rx defaults to every intervention selected. The page's finding is about
+   unmeasured gates, which is only visible against a full therapy list, and an
+   empty list makes the first render read as "no findings" rather than as
+   "nothing selected yet". The Clear therapy list button still empties it. */
+var state = { pop: "eur", gates: {}, rx: THERAPIES.map(function (t) { return t.id; }) };
 
 var el = T2.el, text = T2.text, svgRoot = T2.svgRoot, arrowHead = T2.arrowHead, wrapText = T2.wrapText;
 

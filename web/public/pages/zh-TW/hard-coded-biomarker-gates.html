@@ -58,6 +58,20 @@
   .src-docs code { font-size: 12px; word-break: break-word; }
   .src-docs a { color: var(--slate); }
   .src-docs a:hover { color: var(--ink); }
+  /* ---- 行內來源引註 ----
+     task_output 檔名長達 60 餘字元，原先與內文同級字級，引註看起來比引用它的
+     句子還搶眼。以 em 縮放使其隨內文比例變化，並移除 inline-code 的底色方塊，
+     使引註不會被誤認為程式碼範例。刻意不套用於頁首的 .src-docs 清單，該處為
+     獨立參考區塊，自有字級設定。 */
+  .cite { font-size: 0.72em; text-decoration: none; vertical-align: 0.15em; }
+  .cite code {
+    font-size: 1em;            /* 採用 .cite 的比例，而非 code 自身的 0.86em */
+    background: none;
+    padding: 0;
+    color: var(--mute);
+  }
+  .cite:hover code { color: var(--ink); }
+  .cite:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
 
   .callout {
     border: 1px solid var(--rule);
@@ -326,7 +340,7 @@
         其中三者值得在此點名，因為它們是本儲存庫中已完整處理過的，也因為各自的失效方式
         互不相同：COMT 使效益的<em>方向反轉</em>，尿石素代謝型則對大多數族群<em>移除機轉的
         第一個步驟</em>，核型則<em>改變哪一種細胞死亡程式可用</em>。來源文件，取自上方清單：
-        <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_comt_vitamin_e_genotype_gate_24_Sep_2026.md" target="_blank" rel="noopener noreferrer"><code>task_output_comt_vitamin_e_genotype_gate_24_Sep_2026</code></a>、<a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md" target="_blank" rel="noopener noreferrer"><code>task_output_gender_specific_attributes_vault_topics_02_SEP_2026</code></a>，以及 <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_hardcoded_individual_biomarker_gates_26_Sep_2026.md" target="_blank" rel="noopener noreferrer"><code>task_output_hardcoded_individual_biomarker_gates_26_Sep_2026</code></a>。
+        <a class="cite" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_comt_vitamin_e_genotype_gate_24_Sep_2026.md" target="_blank" rel="noopener noreferrer"><code>task_output_comt_vitamin_e_genotype_gate_24_Sep_2026</code></a>、<a class="cite" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md" target="_blank" rel="noopener noreferrer"><code>task_output_gender_specific_attributes_vault_topics_02_SEP_2026</code></a>，以及 <a class="cite" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_hardcoded_individual_biomarker_gates_26_Sep_2026.md" target="_blank" rel="noopener noreferrer"><code>task_output_hardcoded_individual_biomarker_gates_26_Sep_2026</code></a>。
       </p>
 
       <div class="callout">
@@ -900,7 +914,7 @@ var GATES = [
        繪製此列，buildGapTable() 則回報 n/a。 */
     observed: true,
     assay: "核型搭配月經狀態或雄性素阻斷狀態",
-    why: "Estrogen 是 sirtuin、NAD+、毒物興奮、自噬與細胞死亡路徑的主要介質；是否需要 estrogen 相關治療，是此 gate 中 A 級的部分——這一點本身已確立，並不依賴心臟方面的文獻。心臟表型則是較弱的引證，且經常被誇大。Barcena de Arellano 等人（Aging 2019;11:1918–33，PMC6503880）報告老年女性心室的 SIRT1、SIRT3 與 SOD2 蛋白「表現量」下降，伴隨 NF-κB p50 上升、CD68+ 巨噬細胞累積與 IL-18 上調，而男性心室的 SIRT1／SIRT3 則無變化。此發現有四項限制。第一，測的是表現量而非活性：唯一測量的活性替代指標 AMPK 磷酸化在兩性中皆下降，這反而是「活性層次並無性別差異」的證據。第二，從未記錄停經狀態——受贈者以 17–40 歲與 50–68 歲分組，而後一組橫跨約 51 歲的中位停經年齡，因此「老年女性」不能讀成「停經後女性」。第三，老年男性心臟並非停滯不動，而是朝相反方向移動：SOD2 與 catalase 上升、NF-κB p50 顯著下降、TOM40 上調；作者亦指出正是這種反向調節構成了性別差異的來源。第四，檢驗群體很小（每組 n=6–8，且為橫斷性研究），作者自己也提醒統計顯著性可能無法準確顯示年齡或性別差異。PGC-1α 與 TFAM 均無變化，這與最直觀的 PGC-1α→SOD2 路徑相牴觸；作者將其列為推測，對 estrogen 機制亦然（他們並指出男性的 estrogen 濃度隨年齡「上升」，這會使治療推論方向相反）。因此：心臟 sirtuin 表現量的性別分化是真實且有趣的；但一個停經專屬、活性層次、足以決定治療適應症的推論，並未獲此研究支持。細胞死亡的主張則另屬 B 級——XX 與 XY 神經元受到相同傷害時會啟動不同的死亡機轉（caspase-8/3 對 PARP1／AIF），SIRT6 過量表現僅延長雄性壽命，熱量限制與 rapamycin 的壽命延長效果分別在雄性與雌性較大。這些來自體外損傷實驗、轉基因基因過量表現與小鼠壽命研究，並非人體結果數據，不可外推。參見 <a href='https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md' target='_blank' rel='noopener noreferrer'><code>task_output_gender_specific_attributes_vault_topics_02_SEP_2026</code></a>。",
+    why: "Estrogen 是 sirtuin、NAD+、毒物興奮、自噬與細胞死亡路徑的主要介質；是否需要 estrogen 相關治療，是此 gate 中 A 級的部分——這一點本身已確立，並不依賴心臟方面的文獻。心臟表型則是較弱的引證，且經常被誇大。Barcena de Arellano 等人（Aging 2019;11:1918–33，PMC6503880）報告老年女性心室的 SIRT1、SIRT3 與 SOD2 蛋白「表現量」下降，伴隨 NF-κB p50 上升、CD68+ 巨噬細胞累積與 IL-18 上調，而男性心室的 SIRT1／SIRT3 則無變化。此發現有四項限制。第一，測的是表現量而非活性：唯一測量的活性替代指標 AMPK 磷酸化在兩性中皆下降，這反而是「活性層次並無性別差異」的證據。第二，從未記錄停經狀態——受贈者以 17–40 歲與 50–68 歲分組，而後一組橫跨約 51 歲的中位停經年齡，因此「老年女性」不能讀成「停經後女性」。第三，老年男性心臟並非停滯不動，而是朝相反方向移動：SOD2 與 catalase 上升、NF-κB p50 顯著下降、TOM40 上調；作者亦指出正是這種反向調節構成了性別差異的來源。第四，檢驗群體很小（每組 n=6–8，且為橫斷性研究），作者自己也提醒統計顯著性可能無法準確顯示年齡或性別差異。PGC-1α 與 TFAM 均無變化，這與最直觀的 PGC-1α→SOD2 路徑相牴觸；作者將其列為推測，對 estrogen 機制亦然（他們並指出男性的 estrogen 濃度隨年齡「上升」，這會使治療推論方向相反）。因此：心臟 sirtuin 表現量的性別分化是真實且有趣的；但一個停經專屬、活性層次、足以決定治療適應症的推論，並未獲此研究支持。細胞死亡的主張則另屬 B 級——XX 與 XY 神經元受到相同傷害時會啟動不同的死亡機轉（caspase-8/3 對 PARP1／AIF），SIRT6 過量表現僅延長雄性壽命，熱量限制與 rapamycin 的壽命延長效果分別在雄性與雌性較大。這些來自體外損傷實驗、轉基因基因過量表現與小鼠壽命研究，並非人體結果數據，不可外推。參見 <a class='cite' href='https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md' target='_blank' rel='noopener noreferrer'><code>task_output_gender_specific_attributes_vault_topics_02_SEP_2026</code></a>。",
     anatomy: "此 gate 屬於荷爾蒙層面，而荷爾蒙由下視丘驅動的內分泌組織產生——XX 為卵巢濾泡，XY 為睪丸，並以雄性素阻斷作為 XY 版本的停經。讀取此荷爾蒙的組織幾乎涵蓋全身：心肌、骨骼、腦。關鍵後果在於，此 gate 決定的是「哪一種細胞死亡程式可用」，而非其執行速率。XX 與 XY 神經元受到相同傷害時，會分別啟動 caspase-8/3 凋亡路徑與 PARP1/AIF parthanatos 路徑，necroptosis 則為其鄰近模式。該不對稱性來自體外損傷實驗，而非人體結果數據。",
     topics: "Sirtuins · NAD+ · SIRT3-SIRT4 Ratio · 自噬／mTORC1 · 細胞凋亡與壞死 · SASP／發炎老化 · 端粒 · p53",
     vals: [
@@ -1376,7 +1390,11 @@ function icon(key, alt) {
    In-memory only. Nothing is persisted: closing the page discards
    the profile. Export writes a JSON file if a copy is needed.
    ============================================================ */
-var state = { pop: "eur", gates: {}, rx: [] };
+/* rx defaults to every intervention selected. The page's finding is about
+   unmeasured gates, which is only visible against a full therapy list, and an
+   empty list makes the first render read as "no findings" rather than as
+   "nothing selected yet". The Clear therapy list button still empties it. */
+var state = { pop: "eur", gates: {}, rx: THERAPIES.map(function (t) { return t.id; }) };
 
 var el = T2.el, text = T2.text, svgRoot = T2.svgRoot, arrowHead = T2.arrowHead;
 

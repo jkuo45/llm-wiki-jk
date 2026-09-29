@@ -1,5 +1,5 @@
 {
-  "generated": "27_SEP_2026 11:32 AM PDT",
+  "generated": "29_SEP_2026 01:40 PM PDT",
   "stats": {
     "sirtuin-pleiotropy": {
       "words": 2318,
@@ -218,9 +218,9 @@
       "diagrams": 1
     },
     "hard-coded-biomarker-gates": {
-      "words": 4138,
+      "words": 4429,
       "images": 0,
-      "links": 31,
+      "links": 37,
       "diagrams": 7
     }
   }
