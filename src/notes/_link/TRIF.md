@@ -49,7 +49,7 @@ Dysregulated TRIF signaling contributes to excessive inflammation, viral immunop
 
 ## Role in the Urolithin A Review
 
-The review *Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance* reports that [[Urolithin A]] inactivates [[TLR3]]/TRIF signaling to block the [[NF-κB]]/[[STAT1]] axis, reducing [[Inflammation|inflammation]] and bolstering [[Antioxidants|antioxidant]] defenses in macrophages—a mechanism relevant to UA's muscle-recovery and anti-inflammatory effects.
+The review *Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance* reports that [[Urolithin A]] inactivates [[TLR3]]/TRIF signaling to block the [[NF-κB]]/[[STAT1]] axis, reducing [[Inflammation|inflammation]] and bolstering [[Antioxidant|antioxidant]] defenses in macrophages—a mechanism relevant to UA's muscle-recovery and anti-inflammatory effects.
 
 ## Documents
 
@@ -71,7 +71,7 @@ The review *Pharmacological Effects of Urolithin A and Its Role in Muscle Health
 ## Linking Summary
 
 - Rheostat update (03_Sep_2026): [[Ripoptosome]], [[Caspase-8-c-FLIP Rheostat]], [[cIAPs]]
-- New links added: [[Toll-like Receptor]], [[TLR3]], [[TLR4]], [[TRAF3]], [[TBK1]], [[IRF3]], [[RIPK1]], [[TRAF6]], [[NF-κB]], [[MAPK]], [[STAT1]], [[TNF-alpha]], [[IL-6]], [[Urolithin A]], [[Inflammation]], [[Antioxidants]]
+- New links added: [[Toll-like Receptor]], [[TLR3]], [[TLR4]], [[TRAF3]], [[TBK1]], [[IRF3]], [[RIPK1]], [[TRAF6]], [[NF-κB]], [[MAPK]], [[STAT1]], [[TNF-alpha]], [[IL-6]], [[Urolithin A]], [[Inflammation]], [[Antioxidant]]
 - Suggested new entity notes to create: [[TLR4]]
 - Strong connections to strengthen: [[Urolithin A]] ↔ [[TRIF]]
 - Source enrichment (2026-09-14): [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026]] — TRIF–RIPK3 necroptosis downstream of TLR3/4. New links: [[TLR3]], [[TLR4]], [[MyD88]], [[Lipopolysaccharide]].

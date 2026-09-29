@@ -1036,10 +1036,10 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "f17336726f9c",
+    "id": "7666fa15c396",
     "subject": "Free Radicals",
     "predicate": "are_neutralized_by",
-    "object": "Antioxidants",
+    "object": "Antioxidant",
     "context": {
       "en-US": "Free radicals are neutralized by antioxidants, which terminate radical chain reactions by donating an electron or hydrogen atom without becoming damaging radicals themselves. Chain-breaking antioxidants such as vitamin E and vitamin C intercept lipid peroxyl radicals and regenerate one another in the hydrophilic and lipophilic phases, respectively. The relationship is stoichiometric and bidirectional in the sense that antioxidants are consumed as they protect, requiring continuous resynthesis. A caveat is that antioxidant supplementation does not always recapitulate endogenous protection and can be ineffective or even adverse at high doses due to pro-oxidant or hormetic effects.",
       "zh-TW": "Free radicals 被 antioxidants 中和，antioxidants 透過提供電子或氫原子來終止自由基鍊式反應，而不會成為 damaging 自由基本身。 vitamin E 和維生素 C 等斷鍊 antioxidants 會攔截脂質過氧化自由基，並分別在親水相和親脂相中相互再生。這種關係是化學計量和雙向的，因為 antioxidants 在保護時被消耗，需要不斷的重新合成。需要注意的是，抗氧化劑補充劑並不總是能再現內源性保護作用，並且由於促氧化劑或毒物興奮作用，高劑量時可能無效甚至有害。"
@@ -1047,7 +1047,7 @@
     "confidence": 0.95,
     "source_document": "Free Radicals.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T15:42:21Z"
   },
   {
     "id": "ad984865e402",

@@ -812,7 +812,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Aminoguanidine]] | Chemical Compound | Aminoguanidine (Pimagedine) is a carbonyl-trapping inhibitor of Advanced Glycation End Products and a selective inducible nitric oxide synthase (iNOS) inhibitor, studied for diabetic complications ... |
 | [[Aminoguanidine HCL]] | Chemical Compound | Aminoguanidine hydrochloride is the hydrochloride salt of aminoguanidine, a carbonyl-trapping AGE inhibitor and selective iNOS inhibitor used in the adrenochrome protocol to control quinone reactiv... |
 | [[Aminooxyacetate]] | Chemical Compound | An aminotransferase inhibitor that blocks the malate-aspartate shuttle; lowering the cytosolic (but not mitochondrial) NAD+/NADH ratio with aminooxyacetate induces cellular senescence. |
-| [[Antioxidants]] | Chemical Compound | Antioxidants is a concept related to Adrenochrome and catecholamine metabolism. |
+| [[Antioxidant]] | Chemical Compound | Antioxidants is a concept related to Adrenochrome and catecholamine metabolism. |
 | [[Apigenin]] | Chemical Compound | A natural flavone (4',5,7-trihydroxyflavone) with CDK-inhibitory, p53-stabilizing, senomorphic/senolytic, and broad anticancer activities across human malignancies. |
 | [[ARN14794]] | Chemical Compound | A benzoxazolone carboxamide small-molecule inhibitor of acid ceramidase (ACase, ASAH1), specifically used in the 2026 Soriano-Castell study demonstrating that ACase inhibition protects cells from f... |
 | [[ARN14974]] | Chemical Compound | A potent and systemically active benzoxazolone carboxamide inhibitor of acid ceramidase (IC50 79 nM) that reduces ACase activity across multiple organs including brain; developed by Pizzirani et al... |

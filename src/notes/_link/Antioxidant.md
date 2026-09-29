@@ -75,6 +75,14 @@ The balance between pro-oxidants and antioxidants is central to several patholog
 
 - [[_document_ - berrougui2009_resveratrol_as_atheroprotective_compound|Berrougui et al., Atherosclerosis 2009]]
   - Resveratrol is a natural antioxidant that inhibits lipoprotein oxidation and enhances cholesterol efflux; equivalent DPPH scavenging activity to vitamin E.
+- [[_document_ - intermediates, precursor, hemoglobin|intermediates, precursor, hemoglobin]]
+  - Solvent choice: the compound is generally dissolved in solvents that do not promote oxidation, often with the addition of antioxidants such as ascorbic acid if necessary, depending on the specific experimental requirements.
+- [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+  - Lists antioxidants among the new entity notes to create; strong connections to strengthen are neuromelanin ↔ dopamine, neuromelanin ↔ chemical memory, and MPP+ ↔ monoamine oxidase B.
+- [[_document_ - The Sirtuin System The Holy Grail of Resveratrol?|The Sirtuin System The Holy Grail of Resveratrol?]]
+  - The oxidative stress theory has been associated with atherosclerosis and has prompted a multitude of studies evaluating the effects of antioxidants on cardiovascular disease prevention.
+- [[task_output_queen_palm_biochemical_nutrients_23_Sep_2026|Queen Palm Biochemical Nutrients Profile]]
+  - Fruit-based example of an almost purely lipophilic antioxidant suite (carotenoids, α-tocopherol, phenolics, negligible vitamin C) delivered in a co-located lipid vehicle.
 
 ## Connections
 
@@ -95,6 +103,8 @@ The balance between pro-oxidants and antioxidants is central to several patholog
 - [[HDL]] — Protected from oxidation by antioxidants.
 - [[Atherosclerosis]] — Antioxidants protect against atherosclerosis.
 - [[DPPH]] — Assay used to measure free radical scavenging activity.
+- [[Adrenochrome]] — Catecholamine oxidation product whose handling requires antioxidants to prevent further autoxidation.
+- [[Queen Palm]] — Dietary plant source whose pulp co-delivers lipophilic antioxidants with their lipid vehicle.
 - [[Alzheimer's Disease]] — A neurodegenerative disease linked to oxidative stress.
 - [[Aging]] — A biological process influenced by cumulative oxidative damage.
 
@@ -102,4 +112,5 @@ The balance between pro-oxidants and antioxidants is central to several patholog
 
 - New links added: [[Oxidative Stress]], [[Lipid Peroxidation]], [[Resveratrol]], [[Vitamin E]], [[PON1]], [[LDL]], [[HDL]], [[Atherosclerosis]], [[DPPH]], [[Oxidation]], [[Reactive Oxygen Species]], [[Redox Balance]], [[Superoxide Dismutase]], [[Catalase]], [[Glutathione]], [[Hydroxyl Radicals]], [[Vitamin C]], [[Alzheimer's Disease]], [[Aging]]
 - Suggested new entity notes to create: [[Lipid Peroxidation]], [[Hydrogen Peroxide]], [[Ascorbic Acid]]
+- Consolidated from a duplicate `Antioxidants.md` note (2026-09-29); wikilinks were redirected here and this note's alias `antioxidants` resolves both singular and plural usage.
 - Strong connections to strengthen: [[Antioxidant]] ↔ [[Oxidative Stress]], [[Antioxidant]] ↔ [[Redox Balance]], [[Antioxidant]] ↔ [[Atherosclerosis]]

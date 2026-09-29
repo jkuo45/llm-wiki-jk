@@ -13,7 +13,7 @@ aliases: []
 
 Pyridoxamine is one of the natural vitamers of [[Vitamin B6]] (alongside pyridoxine and pyridoxal), distinguished by an amino group at the 4′ position of the pyridine ring. Beyond its coenzyme role (as pyridoxal-5′-phosphate) in transamination, pyridoxamine is a potent *carbonyl trap*. Its primary recognized action is inhibition of [[Advanced Glycation End Products|AGE]] formation: the amine reversibly binds highly reactive dicarbonyls such as [[Methylglyoxal]], glyoxal, and 3-deoxyglucosone, forming relatively stable Schiff bases and ameliorating protein crosslinking before AGEs and [[Pentosidine]]-type adducts accumulate.
 
-Pyridoxamine has been investigated clinically (as pyridoxamine dihydrochloride, "pyridorin") for diabetic complications — notably nephropathy and retinopathy — where glycative and oxidant stress drive pathogenesis. It also dampens lipid oxidation and metal-catalyzed reactions, overlapping with the broader [[Antioxidants]] network. By intercepting carbonyls, it reduces AGE–[[RAGE]] signaling, a major source of [[Inflammation]] and [[Oxidative Stress]] in aging tissues.
+Pyridoxamine has been investigated clinically (as pyridoxamine dihydrochloride, "pyridorin") for diabetic complications — notably nephropathy and retinopathy — where glycative and oxidant stress drive pathogenesis. It also dampens lipid oxidation and metal-catalyzed reactions, overlapping with the broader [[Antioxidant]] network. By intercepting carbonyls, it reduces AGE–[[RAGE]] signaling, a major source of [[Inflammation]] and [[Oxidative Stress]] in aging tissues.
 
 The adrenochrome/redox connection is the shared carbonyl/oxidant burden: AGE chemistry and catecholamine autoxidation both proceed through electrophilic quinone/imine intermediates, and both are accelerated by oxidative stress. Pyridoxamine's carbonyl-trapping thus complements enzymatic defenses ([[Glyoxalase System]]) and addresses the glycative arm of the damage that, together with aminochrome formation from [[Epinephrine]] to [[Adrenochrome]], characterizes age-related redox decline.
 
@@ -34,6 +34,6 @@ The adrenochrome/redox connection is the shared carbonyl/oxidant burden: AGE che
 
 ## Linking Summary
 
-  - New links added: [[Antioxidants]], [[Pentosidine]], [[Glyoxalase System]], [[Inflammation]], [[Oxidative Stress]], [[Adrenochrome]], [[Epinephrine]]
+  - New links added: [[Antioxidant]], [[Pentosidine]], [[Glyoxalase System]], [[Inflammation]], [[Oxidative Stress]], [[Adrenochrome]], [[Epinephrine]]
   - Suggested new entity notes to create: [[Pyridoxal-5'-phosphate]]
   - Strong connections to strengthen: [[Pyridoxamine]] ↔ [[Advanced Glycation End Products]], [[Pyridoxamine]] ↔ [[Methylglyoxal]]

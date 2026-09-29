@@ -22,7 +22,7 @@ Free radicals vary dramatically in half-life and target specificity. Oxygen-cent
 
 ## Chain Reaction Mechanisms
 
-Free radical chemistry is defined by self-propagating chain reactions. In **initiation**, a primary radical abstracts a hydrogen atom from a target (e.g., a PUFA bis-allylic site), creating a secondary radical. During **propagation**, that radical reacts with O₂ to form a peroxyl radical (ROO•), which abstracts hydrogen from an adjacent molecule, perpetuating the cycle—a single initiating radical can trigger hundreds of oxidation events. **Termination** occurs via radical–radical recombination or interception by chain-breaking [[Antioxidants]] such as [[Vitamin E]] (α-tocopherol, lipid phase) or [[Ascorbic Acid]] (vitamin C, aqueous phase). Branching via iron-catalyzed decomposition of lipid hydroperoxides through the [[Fenton Reaction]] amplifies damage and underlies [[Oxidative Stress]] pathology.
+Free radical chemistry is defined by self-propagating chain reactions. In **initiation**, a primary radical abstracts a hydrogen atom from a target (e.g., a PUFA bis-allylic site), creating a secondary radical. During **propagation**, that radical reacts with O₂ to form a peroxyl radical (ROO•), which abstracts hydrogen from an adjacent molecule, perpetuating the cycle—a single initiating radical can trigger hundreds of oxidation events. **Termination** occurs via radical–radical recombination or interception by chain-breaking [[Antioxidant]] such as [[Vitamin E]] (α-tocopherol, lipid phase) or [[Ascorbic Acid]] (vitamin C, aqueous phase). Branching via iron-catalyzed decomposition of lipid hydroperoxides through the [[Fenton Reaction]] amplifies damage and underlies [[Oxidative Stress]] pathology.
 
 ## Pathological Implications
 
@@ -30,7 +30,7 @@ Uncontrolled radical production damages every biomolecule class. In [[Mitochondr
 
 ## Therapeutic Targeting
 
-Mitigation strategies include direct scavengers ([[N-Acetylcysteine]] as glutathione precursor, [[Melatonin]], [[EGCG]]), enhancement of endogenous defenses (NRF2/ARE activation by [[Sulforaphane]]), metal chelation ([[EDTA]], deferoxamine), and [[Mitochondria]]-targeted antioxidants (MitoQ, [[Spermidine]]). The hormetic concept of [[Mitohormesis]] posits that low-level radical exposure strengthens resilience via upregulated [[Antioxidants]] and [[DNA Repair]], informing [[Caloric Restriction]] and [[Exercise]] interventions.
+Mitigation strategies include direct scavengers ([[N-Acetylcysteine]] as glutathione precursor, [[Melatonin]], [[EGCG]]), enhancement of endogenous defenses (NRF2/ARE activation by [[Sulforaphane]]), metal chelation ([[EDTA]], deferoxamine), and [[Mitochondria]]-targeted antioxidants (MitoQ, [[Spermidine]]). The hormetic concept of [[Mitohormesis]] posits that low-level radical exposure strengthens resilience via upregulated [[Antioxidant]] and [[DNA Repair]], informing [[Caloric Restriction]] and [[Exercise]] interventions.
 
 ## Documents
 
@@ -43,7 +43,7 @@ List of documents that mention this entity
 ## Connections
 
 - [[Oxidative Stress]]: The pathological state arising from excess free radicals.
-- [[Antioxidants]]: Molecules that neutralize radicals by donating electrons.
+- [[Antioxidant]]: Molecules that neutralize radicals by donating electrons.
 - [[Mitochondria]]: Primary site of endogenous free-radical (superoxide) production.
 - [[Inflammation]]: Neutrophils and macrophages generate radicals via [[NADPH Oxidase]] during the [[Respiratory Burst]].
 - [[Lipid Peroxidation]]: Chain reaction propagating radical damage in membranes.

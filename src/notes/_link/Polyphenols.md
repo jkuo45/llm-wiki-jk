@@ -153,4 +153,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Glycation]], [[Advanced Glycation End Products]], [[Flavonoids]], [[Reactive Oxygen Species]], [[Oxidative Stress]], [[Cancer]], [[Queen Palm]]
 - Suggested new entity notes to create: [[Phenolic acids]], [[Phenol units]], [[Prooxidant effects]], [[Proanthocyanidins]]
-  - Strong connections to strengthen: [[Polyphenols]] ↔ [[Antioxidants]], [[Polyphenols]] ↔ [[Flavonoids]], [[Polyphenols]] ↔ [[Queen Palm]]
+  - Strong connections to strengthen: [[Polyphenols]] ↔ [[Antioxidant]], [[Polyphenols]] ↔ [[Flavonoids]], [[Polyphenols]] ↔ [[Queen Palm]]

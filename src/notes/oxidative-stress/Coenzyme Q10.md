@@ -12,7 +12,7 @@ aliases: [CoQ10, ubiquinone, ubiquinol]
 
 # Coenzyme Q10
 
-**Coenzyme Q10** (CoQ10), also known as **ubiquinone**, is a naturally occurring coenzyme found in every cell of the human body. It plays a critical role in cellular energy production and acts as a potent fat-soluble [[Antioxidants]].
+**Coenzyme Q10** (CoQ10), also known as **ubiquinone**, is a naturally occurring coenzyme found in every cell of the human body. It plays a critical role in cellular energy production and acts as a potent fat-soluble [[Antioxidant]].
 
 ## Biological Role
 CoQ10 is primarily located in the inner membrane of the [[Mitochondria]], where it serves as a key component of the electron transport chain (ETC). It facilitates the transfer of electrons between Complex I or II and Complex III, a crucial step in the synthesis of [[ATP]] (adenosine triphosphate).
@@ -54,7 +54,7 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added in this revision: [[Statin-Induced Myopathy]], [[Gene Expression]], [[Mitochondrial ROS]], [[Ascorbic Acid]], [[Glutathione]], [[Heart Failure]], [[Malondialdehyde]], [[Endothelial Dysfunction]], [[Oxidized LDL]], [[Flow-Mediated Dilation]], [[Ischemia-reperfusion Injury]], [[Alpha-synuclein]], [[Thioredoxin]]
 - Suggested new entity notes to create: [[Q-SYMBIO Trial]], [[Ubisemiquinone]], [[Q-Cycle]], [[NQO1]]
-- New links added: [[Antioxidants]], [[Mitochondria]], [[ATP]], [[Lipid Peroxidation]], [[Reactive Oxygen Species]], [[Cardiovascular Disease]], [[Neurodegenerative Disease]], [[Parkinson's Disease]], [[Huntington's Disease]], [[Oxidative Stress]], [[Vitamin E]], [[FSP1]], [[NADPH]], [[Ferroptosis]], [[Ubiquinone]]
+- New links added: [[Antioxidant]], [[Mitochondria]], [[ATP]], [[Lipid Peroxidation]], [[Reactive Oxygen Species]], [[Cardiovascular Disease]], [[Neurodegenerative Disease]], [[Parkinson's Disease]], [[Huntington's Disease]], [[Oxidative Stress]], [[Vitamin E]], [[FSP1]], [[NADPH]], [[Ferroptosis]], [[Ubiquinone]]
 - Suggested new entity notes to create: [[ATP]], [[Huntington's Disease]]
 - Strong connections to strengthen: [[Coenzyme Q10]] ↔ [[Mitochondria]]
 - Strong connections to strengthen: [[Coenzyme Q10]] ↔ [[FSP1]], [[Coenzyme Q10]] ↔ [[Ferroptosis]], [[Coenzyme Q10]] ↔ [[Mevalonate pathway]]

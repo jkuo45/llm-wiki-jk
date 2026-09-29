@@ -54,7 +54,7 @@ Beyond the well-established role of NOX2 in innate immunity, NOX-derived ROS ser
 - **[[Spermatogenesis]]**: DUOX enzymes support the oxidative maturation of spermatozoa in the epididymis.
 
 ## Pathological Implications and Therapeutic Targeting
-NOX overactivation contributes to the pathogenesis of multiple diseases through sustained ROS production that overwhelms local [[Antioxidants]] defenses:
+NOX overactivation contributes to the pathogenesis of multiple diseases through sustained ROS production that overwhelms local [[Antioxidant]] defenses:
 
 - **[[Cardiovascular Disease]]**: NOX1, NOX2, and NOX4 are upregulated in [[Atherosclerosis|atherosclerotic]] vessels. NOX2 in infiltrating [[Macrophage|macrophages]] drives [[Lipid Peroxidation]] and [[Oxidized LDL]] formation. NOX4, despite its $H_2O_2$ production, may have a protective role in maintaining vascular function.
 - **[[Hypertension]]**: Angiotensin II (via AT₁ receptor) potently activates NOX1 in vascular smooth muscle, and NOX2 in the [[Renal Cortex|kidney]] and [[Brain]]; NOX-deficient mice are protected from angiotensin II-induced hypertension.
@@ -89,7 +89,7 @@ List of documents that mention this entity
 - [[Chronic Kidney Disease]]: Disease context of SIRT3-dependent NOX suppression.
 
 ## Linking Summary
-- New links added: [[TNF-alpha]], [[IL-1β]], [[Neutrophils]], [[Macrophage]], [[Atherosclerosis]], [[Hypertension]], [[Ischemia-reperfusion Injury]], [[Neurodegeneration]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Amyotrophic Lateral Sclerosis]], [[Cancer]], [[Colorectal Cancer]], [[Breast Cancer]], [[Ferroptosis]], [[Apoptosis]], [[Angiogenesis]], [[Inflammation]], [[Respiratory Burst]], [[Lipid Peroxidation]], [[Antioxidants]], [[Nitric Oxide]]
+- New links added: [[TNF-alpha]], [[IL-1β]], [[Neutrophils]], [[Macrophage]], [[Atherosclerosis]], [[Hypertension]], [[Ischemia-reperfusion Injury]], [[Neurodegeneration]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Amyotrophic Lateral Sclerosis]], [[Cancer]], [[Colorectal Cancer]], [[Breast Cancer]], [[Ferroptosis]], [[Apoptosis]], [[Angiogenesis]], [[Inflammation]], [[Respiratory Burst]], [[Lipid Peroxidation]], [[Antioxidant]], [[Nitric Oxide]]
 - Suggested new entity notes to create: [[GKT137831]], [[GSK2795039]], [[Apocynin]], [[Rac GTPase]], [[p47phox]], [[Flavocytochrome b558]]
 - New links added: [[Reactive Oxygen Species]], [[Superoxide Radicals]], [[Cardiovascular Disease]], [[Diabetes Mellitus]], [[NF-κB]], [[Hydrogen Peroxide]]
 - Suggested new entity notes to create: [[Respiratory Burst]], [[NOX2]], [[NOX4]]

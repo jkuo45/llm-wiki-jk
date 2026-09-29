@@ -41,7 +41,7 @@ TLR3 is a frontline antiviral sensor initiating interferon and inflammatory resp
 
 ## Role in the Urolithin A Review
 
-The review *Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance* notes that [[Urolithin A]] inactivates [[TLR3]]/[[TRIF]] signaling to block the [[NF-κB]]/[[STAT1]] axis, thereby reducing [[Inflammation|inflammation]] and enhancing [[Antioxidants|antioxidant]] defense (demonstrated in poly(I:C)-stimulated RAW264.7 macrophages).
+The review *Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance* notes that [[Urolithin A]] inactivates [[TLR3]]/[[TRIF]] signaling to block the [[NF-κB]]/[[STAT1]] axis, thereby reducing [[Inflammation|inflammation]] and enhancing [[Antioxidant|antioxidant]] defense (demonstrated in poly(I:C)-stimulated RAW264.7 macrophages).
 
 ## Documents
 
@@ -56,6 +56,6 @@ The review *Pharmacological Effects of Urolithin A and Its Role in Muscle Health
 
 ## Linking Summary
 
-- New links added: [[Toll-like Receptor]], [[TRIF|TICAM1]], [[TRAF3]], [[TBK1]], [[IRF3]], [[RIPK1]], [[TRAF6]], [[NFkB]], [[MAPK]], [[STAT1]], [[TNF-alpha]], [[IL-6]], [[Urolithin A]], [[Inflammation]], [[Antioxidants]]
+- New links added: [[Toll-like Receptor]], [[TRIF|TICAM1]], [[TRAF3]], [[TBK1]], [[IRF3]], [[RIPK1]], [[TRAF6]], [[NFkB]], [[MAPK]], [[STAT1]], [[TNF-alpha]], [[IL-6]], [[Urolithin A]], [[Inflammation]], [[Antioxidant]]
 - Suggested new entity notes to create: none (TICAM1 is an alias of [[TRIF]])
 - Strong connections to strengthen: [[Urolithin A]] ↔ [[TLR3]]

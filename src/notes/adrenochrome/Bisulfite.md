@@ -14,7 +14,7 @@ aliases: []
 **Bisulfite** refers to the bisulfite ion (HSO₃⁻) or compounds containing this ion, such as sodium bisulfite.
 
 ## Use in Formulations
-Bisulfites are commonly used as [[Antioxidants]] in [[Epinephrine]] formulations. However, they can react with [[Adrenochrome]] under light to form [[Adrenochrome sulfonate]], another degradation product.
+Bisulfites are commonly used as [[Antioxidant]] in [[Epinephrine]] formulations. However, they can react with [[Adrenochrome]] under light to form [[Adrenochrome sulfonate]], another degradation product.
 
 ## Documents
 
@@ -25,12 +25,12 @@ List of documents that mention this entity
 
 
 ## Connections
-- [[Antioxidants]]
+- [[Antioxidant]]
 - [[Sodium Metabisulfite]]
 - [[Adrenochrome sulfonate]]
 - [[Epinephrine]]
 
 ## Linking Summary
-- New links added: [[Adrenochrome]], [[Adrenochrome sulfonate]], [[Antioxidants]], [[Epinephrine]], [[Sodium Metabisulfite]]
+- New links added: [[Adrenochrome]], [[Adrenochrome sulfonate]], [[Antioxidant]], [[Epinephrine]], [[Sodium Metabisulfite]]
 - Suggested new entity notes to create: 
-- Strong connections to strengthen: [[Bisulfite]] ↔ [[Adrenochrome sulfonate]], [[Bisulfite]] ↔ [[Sodium Metabisulfite]], [[Bisulfite]] ↔ [[Antioxidants]]
+- Strong connections to strengthen: [[Bisulfite]] ↔ [[Adrenochrome sulfonate]], [[Bisulfite]] ↔ [[Sodium Metabisulfite]], [[Bisulfite]] ↔ [[Antioxidant]]

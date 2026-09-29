@@ -770,8 +770,8 @@
     "updated": "2026-09-04T14:27:19Z"
   },
   {
-    "id": "39a3f4428990",
-    "subject": "Antioxidants",
+    "id": "2426a01a0f5a",
+    "subject": "Antioxidant",
     "predicate": "suppresses",
     "object": "Mitohormesis",
     "context": {
@@ -781,7 +781,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - 2026_Liu_redox-exercise_Nrf2-BDNF_Front-Nutr-1850414.md",
     "created": "2026-09-04T14:27:19Z",
-    "updated": "2026-09-04T14:27:19Z"
+    "updated": "2026-09-29T15:42:21Z"
   },
   {
     "id": "a71a68acf643",

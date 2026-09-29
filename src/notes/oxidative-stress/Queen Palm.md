@@ -59,7 +59,7 @@ List of documents that mention this entity
 
 - [[Lipid Peroxidation]]: Queen Palm pulp oil is evaluated as a dietary source of membrane-integrating antioxidants (carotenoids + α-tocopherol on an oleic/linoleic vehicle) that intercept LOO• chains — a food-source test case for structural protection against peroxidation.
 - [[Vitamin E]]: Pulp oil averages >320 mg/kg α-tocopherol, making the fruit a concentrated natural tocopherol carrier synergistic with its carotenoids.
-- [[Antioxidants]]: The fruit's defense suite is almost entirely lipophilic (carotenoids, tocopherols, polyphenols) with negligible ascorbate — a clean example of the non-enzymatic, dietary arm of antioxidant classification.
+- [[Antioxidant]]: The fruit's defense suite is almost entirely lipophilic (carotenoids, tocopherols, polyphenols) with negligible ascorbate — a clean example of the non-enzymatic, dietary arm of antioxidant classification.
 - [[Polyphenols]]: ~590–1,100 mg GAE/100 g extractable phenolics (ferulic/caffeic acids, quercetin and kaempferol glycosides) drive the DPPH/ORAC activity independent of vitamin C.
 - [[Ferroptosis]]: Carotenoid- and tocopherol-rich pulp oils are studied in the same radical-trapping paradigm that positions [[GPX4]] and Vitamin E as the terminal defenses against iron-driven lipid peroxide accumulation.
 - [[Oxidative Stress]]: As a dietary externally supplied antioxidant matrix, jerivá exemplifies the exogenous counterweight to endogenous ROS production described in the oxidative-stress balance.
@@ -68,6 +68,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Lipid Peroxidation]], [[Vitamin E]], [[Antioxidants]], [[Polyphenols]], [[Ferroptosis]], [[GPX4]], [[Oxidative Stress]], [[Singlet Oxygen]], [[Coenzyme Q10]], [[Quercetin]], [[Kaempferol]], [[Diabetes]], [[Insulin Resistance]], [[Neurodegenerative Diseases]], [[Cell Membranes]], [[task_output_queen_palm_biochemical_nutrients_23_Sep_2026]]
+- New links added: [[Lipid Peroxidation]], [[Vitamin E]], [[Antioxidant]], [[Polyphenols]], [[Ferroptosis]], [[GPX4]], [[Oxidative Stress]], [[Singlet Oxygen]], [[Coenzyme Q10]], [[Quercetin]], [[Kaempferol]], [[Diabetes]], [[Insulin Resistance]], [[Neurodegenerative Diseases]], [[Cell Membranes]], [[task_output_queen_palm_biochemical_nutrients_23_Sep_2026]]
 - Suggested new entity notes to create: [[Carotenoids]], [[Lauric Acid]], [[Sea Buckthorn]], [[Buriti Palm]], [[Jelly Palm]], [[Coconut]], [[Acetylcholinesterase]]
-- Strong connections to strengthen: [[Queen Palm]] ↔ [[Lipid Peroxidation]], [[Queen Palm]] ↔ [[Vitamin E]], [[Queen Palm]] ↔ [[Antioxidants]]
+- Strong connections to strengthen: [[Queen Palm]] ↔ [[Lipid Peroxidation]], [[Queen Palm]] ↔ [[Vitamin E]], [[Queen Palm]] ↔ [[Antioxidant]]

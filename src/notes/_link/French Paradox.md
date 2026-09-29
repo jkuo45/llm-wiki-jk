@@ -41,7 +41,7 @@ The **French paradox** is the epidemiological observation that populations in Fr
 
 The French Paradox spurred extensive investigation into:
 - The [[Sirtuins|Sirtuin system]] and [[SIRT1]] activation by dietary polyphenols
-- [[Antioxidants|Antioxidant]] mechanisms of red wine polyphenols in [[Endothelial Dysfunction|endothelial protection]]
+- [[Antioxidant|Antioxidant]] mechanisms of red wine polyphenols in [[Endothelial Dysfunction|endothelial protection]]
 - The role of [[Nitric Oxide]] in wine's vasodilatory effects
 - [[Oxidative Stress]] modulation by dietary [[Polyphenols]]
 

@@ -31,7 +31,7 @@ Each LOO• can propagate dozens to hundreds of oxidation cycles before terminat
 
 ## Reactivity and Targets
 
-Lipid peroxyl radicals are moderately reactive (E°′ ≈ 1.0 V) compared to •OH (E°′ ≈ 2.8 V), but their longer half-life (~seconds) allows diffusion within and between membrane leaflets. They preferentially abstract hydrogen from bis-allylic positions (bond dissociation energy ~75–80 kcal/mol), with reactivity scaling with PUFA unsaturation: docosahexaenoic acid (DHA, 22:6) >> arachidonic acid (20:4) > linoleic acid (18:2). Chain-breaking [[Antioxidants]] such as [[Vitamin E]] intercept LOO• at diffusion-limited rates (k ≈ 10⁶ M⁻¹s⁻¹), donating a phenolic hydrogen to form a stable tocopheroxyl radical that can be recycled by [[Ascorbic Acid]] at the membrane interface.
+Lipid peroxyl radicals are moderately reactive (E°′ ≈ 1.0 V) compared to •OH (E°′ ≈ 2.8 V), but their longer half-life (~seconds) allows diffusion within and between membrane leaflets. They preferentially abstract hydrogen from bis-allylic positions (bond dissociation energy ~75–80 kcal/mol), with reactivity scaling with PUFA unsaturation: docosahexaenoic acid (DHA, 22:6) >> arachidonic acid (20:4) > linoleic acid (18:2). Chain-breaking [[Antioxidant]] such as [[Vitamin E]] intercept LOO• at diffusion-limited rates (k ≈ 10⁶ M⁻¹s⁻¹), donating a phenolic hydrogen to form a stable tocopheroxyl radical that can be recycled by [[Ascorbic Acid]] at the membrane interface.
 
 ## Clinical Significance
 

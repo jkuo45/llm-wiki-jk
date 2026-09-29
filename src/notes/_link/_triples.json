@@ -840,8 +840,8 @@
     "updated": "2026-09-02T06:56:57Z"
   },
   {
-    "id": "c958af62dd23",
-    "subject": "Antioxidants",
+    "id": "a38bdfe33f3a",
+    "subject": "Antioxidant",
     "predicate": "did_not_extend",
     "object": "Longevity",
     "context": {
@@ -851,7 +851,7 @@
     "confidence": 0.94,
     "source_document": "_document_ - Rapamycin for longevity opinion article.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T05:03:16Z"
+    "updated": "2026-09-29T15:42:21Z"
   },
   {
     "id": "55760eac2416",
@@ -6801,7 +6801,7 @@
     "confidence": 0.88,
     "source_document": "_document_ - mitohormesis, heart rate variability.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T05:49:31Z"
+    "updated": "2026-09-29T15:42:21Z"
   },
   {
     "id": "799475750d8c",
@@ -8190,10 +8190,10 @@
     "updated": "2026-08-20T06:05:15Z"
   },
   {
-    "id": "ed14c153b758",
+    "id": "edba794b7bb1",
     "subject": "Mitohormesis",
     "predicate": "is_blocked_by",
-    "object": "Antioxidants",
+    "object": "Antioxidant",
     "context": {
       "en-US": "Chronic antioxidant supplementation can inhibit the hormetic response and thereby block the cytoprotective adaptations that mitohormesis normally induces. This may explain the disappointing results of antioxidant clinical trials, where large meta-analyses generally failed to show benefit and in some cases suggested increased mortality. Supporting evidence comes from human studies showing that antioxidant supplements inhibit the salutary benefits of exercise, which is itself viewed as a mild stressor. Antioxidants presumably prevent the rise in mitochondrial ROS that is required to trigger the adaptive response.",
       "zh-TW": "長期抗氧化補充可抑制促效應反應，從而阻斷粒線體促效應通常誘導的細胞保護適應。這可能解釋了抗氧化臨床試驗令人失望的結果，大型薈萃分析通常未能顯示益處，在某些情況下甚至顯示死亡率增加。支持性證據來自人體研究，顯示抗氧化補充劑抑制運動的有益效果，而運動本身被視為輕度壓力源。抗氧化劑可能阻止觸發適應性反應所需的粒線體 ROS 升高。"
@@ -8201,7 +8201,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Mitohormesis - 2014_FEB.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-08-20T06:05:15Z"
+    "updated": "2026-09-29T15:42:21Z"
   },
   {
     "id": "f508b7e0d5be",
@@ -11676,10 +11676,10 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "e17ac431b7d4",
+    "id": "d1818f8e52fd",
     "subject": "SIRT3",
     "predicate": "enhances",
-    "object": "Antioxidants",
+    "object": "Antioxidant",
     "context": {
       "en-US": "SIRT3, a mitochondrial sirtuin whose activity depends on NAD+, weakens antioxidant defenses and mitochondrial detoxification when NAD+ is depleted during aging. Reduced SIRT3 activity compromises the deacetylation of mitochondrial antioxidant and metabolic enzymes, leaving cells vulnerable to ROS-driven mitochondrial damage. Together with SIRT1, SIRT3 regulates PGC-1α, FOXO and NRF1 transcriptional programs that coordinate mitochondrial biogenesis and antioxidant responses. Because NAD+ decline lowers SIRT3 function, NAD+ repletion is a strategy to restore sirtuin-dependent mitochondrial resilience, delay stem cell senescence, and dampen the ROS-NF-κB-inflammaging axis.",
       "zh-TW": "SIRT3是一種線粒體sirtuin，其活性依賴於NAD+，在老化過程中NAD+耗盡時削弱抗氧化防禦和線粒體解毒。SIRT3活性降低損害線粒體抗氧化和代謝酶的去乙酰化，使細胞容易受到ROS驅動的線粒體損傷。與SIRT1一起，SIRT3調節PGC-1α、FOXO和NRF1轉錄程序，這些程序協調線粒體生物發生和抗氧化反應。由於NAD+下降降低SIRT3功能，NAD+補充是恢復sirtuin依賴性線粒體恢復力、延遲幹細胞衰老和抑制ROS-NF-κB-inflammaging軸的策略。"
@@ -11687,7 +11687,7 @@
     "confidence": 0.88,
     "source_document": "_document_ - Mitochondrial Drivers Stem Cell Aging Inflammaging Bautista 2026.md",
     "created": "2026-08-16T22:55:28Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T15:42:21Z"
   },
   {
     "id": "a8a459958e2a",
@@ -14574,10 +14574,10 @@
     "updated": "2026-09-04T17:05:28Z"
   },
   {
-    "id": "45d56505d721",
+    "id": "ec6dbc565513",
     "subject": "Hormesis",
     "predicate": "is_blocked_by",
-    "object": "Antioxidants",
+    "object": "Antioxidant",
     "context": {
       "en-US": "Antioxidant supplementation blunts the ROS pulse required for hormetic adaptation, mirroring the mitohormesis edge. Blockade is the paradox mechanism.",
       "zh-TW": "抗氧化補充削弱激效適應所需的 ROS 脈衝，呼應 mitohormesis 邊。阻斷是矛盾機制。"
@@ -14585,7 +14585,7 @@
     "confidence": 0.85,
     "source_document": "Hormesis.md",
     "created": "2026-09-04T17:05:28Z",
-    "updated": "2026-09-04T17:05:28Z"
+    "updated": "2026-09-29T15:42:21Z"
   },
   {
     "id": "92e1901a033d",
@@ -38514,8 +38514,8 @@
     "updated": "2026-09-29T15:00:55Z"
   },
   {
-    "id": "3665cb70b7ff",
-    "subject": "Antioxidants",
+    "id": "3a2a354467d4",
+    "subject": "Antioxidant",
     "predicate": "inhibits",
     "object": "Autoxidation",
     "context": {
@@ -38525,7 +38525,7 @@
     "confidence": 0.85,
     "source_document": "Autoxidation.md",
     "created": "2026-09-29T15:00:55Z",
-    "updated": "2026-09-29T15:00:55Z"
+    "updated": "2026-09-29T15:42:21Z"
   },
   {
     "id": "bc404d1ae428",
@@ -38584,10 +38584,10 @@
     "updated": "2026-09-29T15:00:55Z"
   },
   {
-    "id": "1d6f4722b8ed",
+    "id": "5b500cbd35a0",
     "subject": "Bisulfite",
     "predicate": "is_a_type_of",
-    "object": "Antioxidants",
+    "object": "Antioxidant",
     "context": {
       "en-US": "Bisulfite (HSO3-), and sodium bisulfite in particular, is among the antioxidants routinely incorporated into epinephrine formulations. As a reducing agent it intercepts propagating radicals during storage, slowing the oxidative degradation of the active drug.",
       "zh-TW": "Bisulfite（HSO3-），尤其是 Sodium Metabisulfite，是 routinely 添加於 Epinephrine 製劑中的抗氧化劑之一。作為還原劑，它在儲存期間攔截傳播中的自由基，減慢活性藥物的氧化降解。"
@@ -38595,7 +38595,7 @@
     "confidence": 0.9,
     "source_document": "Bisulfite.md",
     "created": "2026-09-29T15:00:55Z",
-    "updated": "2026-09-29T15:00:55Z"
+    "updated": "2026-09-29T15:42:21Z"
   },
   {
     "id": "f68ecb2a3b80",
@@ -43106,10 +43106,10 @@
     "updated": "2026-09-29T15:18:00Z"
   },
   {
-    "id": "312c4f90d54a",
+    "id": "266ceed864f8",
     "subject": "Thioglycerol",
     "predicate": "is_a_type_of",
-    "object": "Antioxidants",
+    "object": "Antioxidant",
     "context": {
       "en-US": "Thioglycerol is a low-molecular-weight thiol that acts as a reducing and radical-scavenging agent within the broader antioxidants class: the sulfhydryl group is oxidized to the corresponding disulfide while protecting other molecules, and thiol-disulfide exchange helps maintain a reduced environment.",
       "zh-TW": "Thioglycerol 是一種低分子量硫醇，在更廣義的 Antioxidants 類別中作為還原劑與自由基清除劑：其硫氫基被氧化為相應的雙硫鍵，同時保護其他分子免於氧化，而硫醇—雙硫鍵交換則有助於維持還原性環境。"
@@ -43117,7 +43117,7 @@
     "confidence": 0.85,
     "source_document": "Thioglycerol.md",
     "created": "2026-09-29T15:18:00Z",
-    "updated": "2026-09-29T15:18:00Z"
+    "updated": "2026-09-29T15:42:21Z"
   },
   {
     "id": "71e471373f70",
@@ -45458,7 +45458,7 @@
     "updated": "2026-09-29T15:30:49Z"
   },
   {
-    "id": "ec031f0180d7",
+    "id": "a351c87d6805",
     "subject": "Antioxidant",
     "predicate": "inhibits",
     "object": "Oxidative Stress",
@@ -45469,7 +45469,7 @@
     "confidence": 0.95,
     "source_document": "Antioxidant.md",
     "created": "2026-09-29T15:30:49Z",
-    "updated": "2026-09-29T15:30:49Z"
+    "updated": "2026-09-29T15:42:21Z"
   },
   {
     "id": "61b29fc58d34",
@@ -45483,7 +45483,7 @@
     "confidence": 0.9,
     "source_document": "Antioxidant.md",
     "created": "2026-09-29T15:30:49Z",
-    "updated": "2026-09-29T15:30:49Z"
+    "updated": "2026-09-29T15:42:21Z"
   },
   {
     "id": "d5beeac5f6b6",
@@ -45694,5 +45694,1741 @@
     "source_document": "Arterial Stiffness.md",
     "created": "2026-09-29T15:30:49Z",
     "updated": "2026-09-29T15:30:49Z"
+  },
+  {
+    "id": "b9e2de2e9f95",
+    "subject": "AP-1",
+    "predicate": "activates",
+    "object": "SASP",
+    "context": {
+      "en-US": "AP-1 acts as a pioneer transcription factor that binds nucleosomal DNA at otherwise inaccessible enhancer regions and initiates chromatin opening at super-enhancers flanking SASP genes. This pioneering activity recruits BRD4, CEBPα and P300 to H3K27ac-marked super-enhancers, so AP-1 is required for both the senescence growth arrest and the pro-inflammatory secretome. Depletion of AP-1 reduces NF-κB-regulated SASP gene expression, including IL-6, IL-8, TNFα, CXCL1, CXCL5 and MMP-3.",
+      "zh-TW": "AP-1 扮演先驅轉錄因子的角色，與原本不可及的增強子區域核小體 DNA 結合並啟動染色質開放，作用於 SASP 基因兩側的超级增强子。此先驅活性會招募 BRD4、CEBPα 與 P300 到帶有 H3K27ac 標記的超级增强子，因此 AP-1 同時是衰老生長停滯與促炎分泌組所必需。耗竭 AP-1 會降低 NF-κB 調控的 SASP 基因表現，包括 IL-6、IL-8、TNFα、CXCL1、CXCL5 與 MMP-3。"
+    },
+    "confidence": 0.92,
+    "source_document": "AP-1.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "04960dc16dcd",
+    "subject": "AP-1",
+    "predicate": "cooperates_with",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "AP-1 and NF-κB form a co-regulatory partnership at SASP loci: AP-1 pioneering opens enhancer chromatin while NF-κB, through its p65 subunit, supplies the primary transcriptional activation signal. Because AP-1 opens the chromatin that NF-κB then reads, depleting AP-1 lowers NF-κB-regulated SASP output, demonstrating that the two factors are interdependent rather than parallel. The AP-1→NF-κB axis is a proposed senomorphic target that could reduce SASP-driven inflammation while preserving senescence growth arrest.",
+      "zh-TW": "AP-1 與 NF-κB 在 SASP 位點形成共同調控的合作關係：AP-1 以先驅作用開啟增強子染色質，而 NF-κB 透過其 p65 次單元提供主要的轉錄活化訊號。由於 NF-κB 所讀取的染色質是由 AP-1 開啟的，耗竭 AP-1 會降低 NF-κB 調控的 SASP 輸出，顯示兩者彼此依存而非平行作用。AP-1→NF-κB 軸線是理想的 senomorphic 標的，可在保留衰老生長停滯的同時降低 SASP 驅動的發炎。"
+    },
+    "confidence": 0.9,
+    "source_document": "AP-1.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "df5c1fb00191",
+    "subject": "AP-1",
+    "predicate": "competes_with",
+    "object": "NRF2",
+    "context": {
+      "en-US": "AP-1 competes with NRF2 for a limited pool of transcriptional co-activators such as CBP/p300, creating a redox-sensitive regulatory switch. When AP-1 activity is high, as in an inflamed state, NRF2-driven antioxidant gene expression is suppressed, and the reverse holds when NRF2 dominates. This competition links oxidative signalling to inflammatory output, since AP-1 is itself activated by Reactive Oxygen Species through upstream kinases JNK and p38 MAPK.",
+      "zh-TW": "AP-1 與 NRF2 爭奪有限量的轉錄共同活化子（例如 CBP/p300），形成一個對氧化還原敏感的調控開關。當 AP-1 活性偏高（發炎狀態）時，NRF2 驅動的抗氧化基因表現受到抑制；反之當 NRF2 佔優勢時則相反。此種競爭將氧化訊號與發炎輸出連結起來，因為 AP-1 本身會透過上游激酶 JNK 與 p38 MAPK 被 Reactive Oxygen Species 活化。"
+    },
+    "confidence": 0.85,
+    "source_document": "AP-1.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "42b85f88529a",
+    "subject": "AP-1",
+    "predicate": "is_activated_by",
+    "object": "p38 MAPK",
+    "context": {
+      "en-US": "AP-1 activity is controlled post-translationally by phosphorylation via JNK, p38 MAPK and ERK, which regulate subunit stability and transactivation potential. Upstream of that, inflammatory signalling converges on AP-1: TNFα activates AP-1 through TRAF2-ASK1-JNK, AGE-RAGE signalling activates it through MAPK cascades, and IL-1 Receptor signalling activates it via TRAF6-MAPK. AP-1 then drives transcription of IL-6, IL-8, CXCL1, CXCL5, CCL2 and CCL5, completing feed-forward inflammatory loops.",
+      "zh-TW": "AP-1 的活性在轉譯後層級受到調控，透過 JNK、p38 MAPK 與 ERK 的磷酸化影響次單元穩定性與轉錄活化潛力。在其上游，發炎訊號匯聚於 AP-1：TNFα 透過 TRAF2-ASK1-JNK 活化 AP-1，AGE-RAGE 訊號經 MAPK 級聯活化，IL-1 Receptor 則經 TRAF6-MAPK 活化。AP-1 接著驅動 IL-6、IL-8、CXCL1、CXCL5、CCL2 與 CCL5 的轉錄，完成正回饋的發炎迴路。"
+    },
+    "confidence": 0.85,
+    "source_document": "AP-1.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "3c8732f99d9d",
+    "subject": "APC",
+    "predicate": "inhibits",
+    "object": "Wnt signaling",
+    "context": {
+      "en-US": "APC (adenomatous polyposis coli) scaffolds the Axin/GSK3β destruction complex that phosphorylates β-Catenin for degradation, thereby restraining Wnt signaling. As a gatekeeper tumor suppressor, truncating APC mutations lift this brake and initiate most colorectal cancers through constitutive β-catenin activity, while germline APC mutation causes familial adenomatous polyposis. FRAT2 antagonizes the destruction complex to amplify Wnt signaling upstream of APC.",
+      "zh-TW": "APC（adenomatous polyposis coli）作為支架蛋白組織 Axin/GSK3β 降解複合體，使 β-Catenin 被磷酸化後降解，因而抑制 Wnt signaling。APC 是守門員式的腫瘤抑制基因，其截斷型突變解除此煞車，透過組成性 β-catenin 活性引發多數大腸直腸癌；生殖系 APC 突變則導致家族性腺瘤性息肉症。FRAT2 會拮抗降解複合體，在 APC 上游放大 Wnt signaling。"
+    },
+    "confidence": 0.93,
+    "source_document": "APC.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "234e2dc052b1",
+    "subject": "APC",
+    "predicate": "targets",
+    "object": "β-Catenin",
+    "context": {
+      "en-US": "β-Catenin is the substrate of the APC-scaffolded destruction complex: APC organizes Axin and GSK3β so that GSK3β phosphorylates β-Catenin, marking it for ubiquitination and proteasomal removal. Because APC restrains Wnt signaling through this β-Catenin degradation route, loss of APC function produces aberrant β-catenin accumulation and constitutive downstream transcription in colorectal and pancreatic ductal adenocarcinoma contexts.",
+      "zh-TW": "β-Catenin 是 APC 所組織之降解複合體的受質：APC 將 Axin 與 GSK3β 組裝在一起，使 GSK3β 磷酸化 β-Catenin，標記其進行泛素化與蛋白酶體降解。由於 APC 正是透過這條 β-Catenin 降解路徑抑制 Wnt signaling，APC 功能喪失會造成 β-Catenin 異常累積，並在大腸直腸癌與胰管腺癌情境中產生組成性的下游轉錄。"
+    },
+    "confidence": 0.9,
+    "source_document": "APC.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "1c28c1286f03",
+    "subject": "APOE4",
+    "predicate": "amplifies",
+    "object": "cGAS-STING Pathway",
+    "context": {
+      "en-US": "APOE4 is the epsilon 4 isoform of apolipoprotein E and the strongest common genetic risk factor for late-onset Alzheimer's Disease. Within the cGAS-STING framework it acts as a sensitizing allele that primes microglia and amplifies Type I Interferon-driven neuroinflammation. APOE4 synergizes with the TREM2 R47H risk variant to markedly increase cGAS-STING activation, driving a senescence-like microglial state with mitochondrial stress, cell cycle arrest and a SASP, which helps explain the steep elevation in AD risk among carriers.",
+      "zh-TW": "APOE4 是 apolipoprotein E 的 epsilon 4 型等位基因，也是晚發性 Alzheimer's Disease 最强的常见遺傳風險因子。在 cGAS-STING 框架中，它扮演致敏等位基因，預活化小膠細胞並放大 Type I Interferon 驅動的神經發炎。APOE4 與 TREM2 R47H 風險變異協同作用，顯著提升 cGAS-STING Pathway 的活化，驅動帶有粒線體壓力、細胞週期停滯與 SASP 的衰老樣小膠細胞狀態，這解釋了帶因者 AD 風險的陡峭上升。"
+    },
+    "confidence": 0.9,
+    "source_document": "APOE4.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "1ff3e6caaf72",
+    "subject": "APOE4",
+    "predicate": "binds",
+    "object": "TREM2",
+    "context": {
+      "en-US": "APOE4 is produced predominantly by Astrocytes and acts as a ligand for the TREM2 receptor on microglia, so ApoE genotype directly shapes microglial and astrocytic responses to pathology. Because ApoE is a central Lipid Metabolism transport protein, the APOE4-TREM2 axis links lipid handling to inflammatory state: TREM2 R47H plus APOE4 cooperatively amplify cGAS-STING/IFN-I signalling and push microglia toward inflammatory and senescent phenotypes.",
+      "zh-TW": "APOE4 主要由 Astrocytes 產生，並作為小膠細胞上 TREM2 受體的配體，因此 ApoE 的基因型直接塑造小膠細胞與星狀膠細胞對病理的反應。由於 ApoE 是 Lipid Metabolism 的核心運輸蛋白，APOE4-TREM2 軸線把脂質處理與發炎狀態連結起來：TREM2 R47H 與 APOE4 協同放大 cGAS-STING/IFN-I 訊號，使小膠細胞偏向發炎與衰老表型。"
+    },
+    "confidence": 0.88,
+    "source_document": "APOE4.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "af4adee3a23c",
+    "subject": "APOE3 Christchurch",
+    "predicate": "confers_resilience_to",
+    "object": "Alzheimer's Disease",
+    "context": {
+      "en-US": "APOE3 Christchurch is a rare apolipoprotein E3 variant carrying the R136S substitution that confers remarkable resilience against Alzheimer's Disease and dementia, even in individuals with autosomal-dominant AD mutations and abundant Amyloid Beta pathology. Because cognition is preserved despite plaques and tangles, R136S appears to interrupt the downstream toxic signalling that normally converts protein pathology into neuronal dysfunction, making it an unusually informative natural experiment for separating protection from pathology.",
+      "zh-TW": "APOE3 Christchurch 是帶有 R136S 取代的罕見 apolipoprotein E3 變異，即使在帶有體染色體顯性 AD 突變且 Amyloid Beta 病理負荷高的個體中，仍對 Alzheimer's Disease 與失智具有顯著保護力。由於在斑塊與纖維纏結存在的情況下認知功能仍獲保留，R136S 似乎阻斷了將蛋白病理轉為神經元功能障礙的下游毒性訊號，使其成為區分保護機制與病理本身的重要自然實驗。"
+    },
+    "confidence": 0.9,
+    "source_document": "APOE3 Christchurch.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "6909da713812",
+    "subject": "APOE3 Christchurch",
+    "predicate": "is_mimicked_by",
+    "object": "cGAS",
+    "context": {
+      "en-US": "Pharmacological cGAS inhibition phenocopies the protective effect of APOE3 Christchurch in tauopathy models: cGAS inhibitor treatment induces neuronal and microglial transcriptional signatures that closely mirror those of the R136S allele and rescues synapses and network function. This provides direct evidence that suppression of cGAS-STING Pathway signalling is sufficient to recapitulate genetic resilience, and that the variant works by damping microglial cGAS/IFN-I signalling while preserving phagocytic capacity.",
+      "zh-TW": "在 tauopathy 模式中，藥理抑制 cGAS 可表型模擬 APOE3 Christchurch 的保護效果：cGAS 抑制劑處理會誘發與 R136S 等位基因高度相似的神經元與小膠細胞轉錄特徵，並救回突觸與神經網路功能。這直接證明抑制 cGAS-STING Pathway 訊號足以重現遺傳性韌性，也說明此變異是藉由壓抑小膠細胞的 cGAS/IFN-I 訊號、同時保留吞噬能力而發揮作用。"
+    },
+    "confidence": 0.9,
+    "source_document": "APOE3 Christchurch.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "c10baaf8c72d",
+    "subject": "APP",
+    "predicate": "is_precursor_of",
+    "object": "Amyloid Beta",
+    "context": {
+      "en-US": "APP is a type I transmembrane glycoprotein whose sequential proteolysis generates the Amyloid Beta Peptide. In the amyloidogenic pathway, Beta-Secretase 1 cleaves full-length APP at Asp671 on endosomal luminal surfaces to release sAPPβ and the membrane-tethered CTFβ/C99, which the Gamma-Secretase complex then cleaves intramembranously to liberate Aβ40 or the more aggregation-prone Aβ42. The Aβ42/Aβ40 ratio is a critical determinant of Amyloid Plaque formation in Alzheimer's Disease.",
+      "zh-TW": "APP 是第一型跨膜醣蛋白，其依序的蛋白水解會產生 Amyloid Beta Peptide。在類澱粉樣路徑中，Beta-Secretase 1 在內體腔面切割 Asp671 位置的完整長度 APP，釋出 sAPPβ 與膜錨定的 CTFβ/C99，隨後由 Gamma-Secretase 複合體在膜內切割，釋放 Aβ40 或更易聚集的 Aβ42。Aβ42/Aβ40 比例是 Alzheimer's Disease 中 Amyloid Plaque 形成的關鍵決定因素。"
+    },
+    "confidence": 0.95,
+    "source_document": "APP.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "c0af3d4fbdf1",
+    "subject": "BACE1",
+    "predicate": "cleaves",
+    "object": "APP",
+    "context": {
+      "en-US": "BACE1, the beta-secretase that initiates amyloidogenic processing of APP, is an aspartyl protease optimally active at acidic pH (~4.5-5.5), which is why amyloidogenic processing occurs predominantly in late endosomes and lysosomes. Cleavage at the Asp671 site releases sAPPβ and generates CTFβ, the substrate for Gamma-Secretase. The Swedish KM670/671NL familial mutation lies adjacent to this site and increases beta-secretase cleavage 6- to 8-fold, elevating total Aβ production.",
+      "zh-TW": "BACE1 是啟動 APP 類澱粉樣處理的 beta-secretase，屬於天門冬胺酸蛋白酶，在酸性 pH（約 4.5-5.5）下活性最佳，因此類澱粉樣處理主要發生於晚內體與溶酶體。在 Asp671 位點切割會釋出 sAPPβ 並產生 CTFβ，作為 Gamma-Secretase 的受質。家族性瑞典突變 KM670/671NL 正好位於此位點附近，使 beta-secretase 切割增加 6 至 8 倍，抬高總 Aβ 生成量。"
+    },
+    "confidence": 0.93,
+    "source_document": "APP.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "03aa4c5d0c2b",
+    "subject": "Down Syndrome",
+    "predicate": "increases_expression_of",
+    "object": "APP",
+    "context": {
+      "en-US": "Individuals with Down Syndrome (trisomy 21) carry an extra copy of the APP gene on chromosome 21q21.3, producing roughly 1.5-fold APP overexpression. This dosage effect leads to Aβ accumulation beginning in the third decade of life, and virtually all individuals with Down Syndrome develop AD neuropathology by age 40, which supports the amyloid cascade hypothesis that APP-derived Aβ accumulation is the initiating event in Alzheimer's Disease pathogenesis.",
+      "zh-TW": "Down Syndrome（三染色體 21）個體在 21q21.3 上多帶有一份 APP 基因，導致約 1.5 倍的 APP 過量表現。這種劑量效應使 Aβ 從二十多歲起開始累積，且幾乎所有 Down Syndrome 個體在 40 歲前都會出現 AD 神經病理，支持類澱粉樣級聯假說：由 APP 衍生的 Aβ 累積是 Alzheimer's Disease 致病過程的起始事件。"
+    },
+    "confidence": 0.92,
+    "source_document": "APP.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "385b3a131da8",
+    "subject": "ARH1",
+    "predicate": "is_eraser_of",
+    "object": "ADP-ribosylation",
+    "context": {
+      "en-US": "ARH1 (ADPRH) is the founding ARH-family eraser of ADP-ribosylation: a ~39 kDa, binuclear Mg2+-dependent hydrolase that cleaves alpha-anomeric ADP-ribose-arginine bonds written by cholera-toxin-like ARTs such as mammalian ARTC1. It is the Arg-specific counterpart to ARH3 (Ser) and MacroD1/MacroD2/TARG1 (Asp/Glu), shows less than 1% of ARH3 PAR activity, and restoring Arg residues for a new MARylation cycle explains why Arh1-knockout mice are hypersensitive to cholera toxin.",
+      "zh-TW": "ARH1（ADPRH）是 ADP-ribosylation 的 ARH 家族首個「擦除者」：一個約 39 kDa、具雙核 Mg2+ 依賴性的水解酶，可切斷由霍亂毒素樣 ART（例如哺乳類 ARTC1）寫入的 alpha-異構 ADP-ribose-精胺酸鍵。它是 ARH3（Ser）與 MacroD1/MacroD2/TARG1（Asp/Glu）的精胺酸專一對應物，對 PAR 的活性不到 ARH3 的 1%；它將精胺酸殘基還原以進入新的 MARylation 循環，也解釋了 Arh1 敲除小鼠對霍亂毒素的高度敏感。"
+    },
+    "confidence": 0.9,
+    "source_document": "ARH1.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "db7598aabbed",
+    "subject": "ARH1",
+    "predicate": "opposes",
+    "object": "NAD+",
+    "context": {
+      "en-US": "ARH1 acts as a Mg2+-dependent hydrolase on alpha-NAD+ and O-acetyl-ADP-ribose in vitro, in addition to Arg-ADP-ribose, and ADP-ribose competes for its active site. Its catalytic chemistry depends on NAD+ upstream, since beta-NAD+ is the donor substrate for the ART1/ARH1 MARylation cycle: ARH1 opposes ARTC1-mediated Arg-MARylation, with the two enzymes localised differently (ARH1 intracellular, ART1 extracellular), implying translocation or vesicle-mediated substrate access.",
+      "zh-TW": "ARH1 除了作用於 Arg-ADP-ribose 外，在體外也能以 Mg2+ 依賴方式水解 alpha-NAD+ 與 O-acetyl-ADP-ribose，且 ADP-ribose 會與其活性位點競爭。其催化化學上游依賴 NAD+，因為 beta-NAD+ 是 ART1/ARH1 MARylation 循環的供體受質：ARH1 拮抗 ARTC1 所介導的精胺酸 MARylation，而兩酵素的定位不同（ARH1 在細胞內、ART1 在細胞外），意味著需要轉位或囊泡媒介的受質接觸。"
+    },
+    "confidence": 0.82,
+    "source_document": "ARH1.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "7c15bcb3a5ad",
+    "subject": "ARIH1",
+    "predicate": "promotes",
+    "object": "Mitophagy",
+    "context": {
+      "en-US": "ARIH1 (Ariadne RBR E3 ubiquitin protein ligase 1, TRIAD1) is an E3 Ubiquitin ligase that promotes Mitophagy in cancer cells. As an E3 ligase it catalyses transfer of ubiquitin onto substrate proteins, marking them for recognition by autophagy receptors; this ubiquitin-dependent pathway enhances clearance of damaged mitochondria. By eliminating mitochondria that would otherwise trigger cell death, ARIH1 maintains normal mitochondrial quality control and shapes cellular responses to mitochondrial stress.",
+      "zh-TW": "ARIH1（Ariadne RBR E3 ubiquitin protein ligase 1，TRIAD1）是促進癌細胞 Mitophagy 的 E3 Ubiquitin 連接酶。作為 E3 連接酶，它催化將 ubiquitin 轉移到受質蛋白上，標記其供自噬受體辨識；這條泛素依賴路徑增強了受損粒線體的清除。藉由清除原本會誘發細胞死亡的粒線體，ARIH1 維持正常的粒線體品質管制，並塑造細胞對粒線體壓力的反應。"
+    },
+    "confidence": 0.9,
+    "source_document": "ARIH1.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "19e0af31cdde",
+    "subject": "ARIH1",
+    "predicate": "confers_resistance_to",
+    "object": "Cancer",
+    "context": {
+      "en-US": "ARIH1-mediated mitophagy contributes to cancer drug resistance: cancer cells with elevated ARIH1 activity can efficiently clear chemotherapy-induced mitochondrial damage and survive treatment. Inhibition of ARIH1 may therefore sensitize cancer cells to chemotherapy by preventing mitophagy-mediated damage clearance, and ARIH1 expression levels may serve as a prognostic marker of therapeutic response. The mechanism is ubiquitin-dependent rather than requiring autophagy-independent clearance.",
+      "zh-TW": "ARIH1 媒介的 mitophagy 促成癌症的藥物抗性：ARIH1 活性偏高的癌細胞能有效清除化療造成的粒線體損傷而存活下來。因此抑制 ARIH1 可能藉由阻斷 mitophagy 介導的損傷清除來使癌細胞對化療恢復敏感性，而 ARIH1 表現量可作為治療反應的預後指標。此機制為泛素依賴型，不需透過自噬非依賴的清除途徑。"
+    },
+    "confidence": 0.85,
+    "source_document": "ARIH1.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "d69caa9a76b9",
+    "subject": "ARN14974",
+    "predicate": "inhibits",
+    "object": "Acid ceramidase",
+    "context": {
+      "en-US": "ARN14974 (Compound 17a) is a potent benzoxazolone carboxamide inhibitor of intracellular Acid ceramidase with an IC50 of 79 nM against recombinant human ACase, developed by Pizzirani et al. (2015) as a systemically active, brain-penetrant tool. It is active by both i.p. and i.v. routes, reduces ACase activity in brain, liver, heart, lungs and kidney, and shows Cmax 1768 ng/mL with t1/2 458 min at 10 mg/kg i.p. in mice. Carmofur is a clinically approved ACase inhibitor with BBB penetration.",
+      "zh-TW": "ARN14974（Compound 17a）是細胞內 Acid ceramidase 的強效苯并噁唑啉酮甲醯胺類抑制劑，對重組人類 ACase 的 IC50 為 79 nM，由 Pizzirani 等人於 2015 年開發為可全身給藥、可穿透血腦障壁的工具化合物。它可經 i.p. 與 i.v. 途徑給藥，在腦、肝、心、肺與腎降低 ACase 活性，小鼠 10 mg/kg i.p. 時 Cmax 為 1768 ng/mL、半衰期 458 分鐘。Carmofur 則是另一個可穿透血腦障壁的已核准 ACase 抑制劑。"
+    },
+    "confidence": 0.92,
+    "source_document": "ARN14974.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "a18bbe02e67d",
+    "subject": "Acid ceramidase",
+    "predicate": "protects_against",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "Pharmacological inhibition of Acid ceramidase with the benzoxazolone carboxamide inhibitors ARN14794 and ARN14974 protects Senescent Cells and proliferative cells from RSL3-induced Ferroptosis. The protection is independent of GPX4, GSH and iron: instead, inhibiting ACase lowers membrane PL-PUFA content and thereby Lipid Peroxidation, the ferroptotic driver. This makes ACase inhibition a candidate senomorphic/senolytic strategy for age-related disease and reframes ceramide lipid remodeling as a ferroptosis control point.",
+      "zh-TW": "以苯并噁唑啉酮甲醯胺類抑制劑 ARN14794 與 ARN14974 藥理抑制 Acid ceramidase，可保護 Senescent Cells 與增生細胞免於 RSL3 誘發的 Ferroptosis。此保護作用獨立於 GPX4、GSH 與鐵：抑制 ACase 是藉由降低膜上 PL-PUFA 含量，進而減少推動 Ferroptosis 的 Lipid Peroxidation。這使 ACase 抑制成為面向老年相關疾病的候選 senomorphic/senolytic 策略，並把神經醯胺脂質重塑重新定位為 Ferroptosis 的調控節點。"
+    },
+    "confidence": 0.85,
+    "source_document": "ARN14974.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "36df69a9f7df",
+    "subject": "ASAH1",
+    "predicate": "encodes",
+    "object": "Acid ceramidase",
+    "context": {
+      "en-US": "ASAH1 is the gene encoding Acid ceramidase (ACase, aCDase), a lysosomal hydrolase on chromosome 8p22 spanning about 30 kb across 14 exons. The gene product cleaves Ceramide into Sphingosine and a free fatty acid, thereby controlling the ceramide to Sphingosine-1-phosphate rheostat. Loss-of-function mutations cause Farber disease when activity falls below 5% and the milder Spinal muscular atrophy with progressive myoclonic epilepsy at 5-30% residual activity.",
+      "zh-TW": "ASAH1 是編碼 Acid ceramidase（ACase，aCDase）的基因，位於 8p22 染色體上，橫跨約 30 kb、含 14 個外顯子。其基因產物將 Ceramide 切割為 Sphingosine 與游離脂肪酸，藉此控制 ceramide 與 Sphingosine-1-phosphate 的平衡閘門。功能喪失突變在活性低於 5% 時造成 Farber disease，殘餘活性 5-30% 時則造成較輕微的 Spinal muscular atrophy with progressive myoclonic epilepsy。"
+    },
+    "confidence": 0.94,
+    "source_document": "ASAH1.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "5f889860ab01",
+    "subject": "Acid ceramidase",
+    "predicate": "is_overexpressed_in",
+    "object": "Replicative Senescence",
+    "context": {
+      "en-US": "Acid ceramidase is over-expressed 5- to 20-fold in replicatively senescent cells, driving a pro-ferroptotic lipid profile. ASAH1 overexpression in Glioblastoma, Melanoma, Prostate Cancer and other malignancies likewise confers poor prognosis. Because ACase controls ceramide levels, its elevation in senescence raises the membrane PUFA-PL substrate pool that lipases and RSL3 exploit, linking ceramide metabolism to ferroptotic vulnerability in senescent cells.",
+      "zh-TW": "Acid ceramidase 在複製性衰老細胞中過度表現 5 至 20 倍，驅動促 Ferroptosis 的脂質表型。ASAH1 在 Glioblastoma、Melanoma、Prostate Cancer 及其他惡性腫瘤中的過度表現同樣與不良預後相關。由於 ACase 控制神經醯胺水平，其在衰老時的升高會增加膜上 PUFA-PL 受質池，而該受質正是脂肪酶與 RSL3 所利用的對象，將神經醯胺代謝與衰老細胞的 Ferroptosis 脆弱性連結起來。"
+    },
+    "confidence": 0.88,
+    "source_document": "ASAH1.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "8bb6b5a6386c",
+    "subject": "ATAC-seq",
+    "predicate": "measures",
+    "object": "Chromatin",
+    "context": {
+      "en-US": "ATAC-seq (Assay for Transposase-Accessible Chromatin using sequencing) maps Chromatin Accessibility genome-wide by using hyperactive Tn5 Transposase to fragment and tag open chromatin with sequencing adapters, followed by high-throughput sequencing on DNA Sequencing platforms. Tn5 preferentially integrates into nucleosome-depleted regions such as Enhancers and Transcription Factor Binding Sites, so aligned tag fragments identify accessible loci. It also reports Nucleosome Positioning from fragment length distribution and Transcription Factor footprinting from insertion patterns.",
+      "zh-TW": "ATAC-seq（Assay for Transposase-Accessible Chromatin using sequencing）以超活性 Tn5 Transposase 對開放染色質進行片段化並加上加上定序接子，再以 DNA Sequencing 平台進行高通量定序，藉此在全基因體尺度測量 Chromatin Accessibility。Tn5 偏好整合進 Promoter、Enhancer 與 Transcription Factor Binding Sites 等核小體缺失區域，因此比對上的 tag 片段即可界定可及位點。ATAC-seq 亦可由片段長度分布判讀 Nucleosome Positioning，並由插入模式推斷 Transcription Factor 的 footprint。"
+    },
+    "confidence": 0.93,
+    "source_document": "ATAC-seq.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "0dece3bedce4",
+    "subject": "ATAC-seq",
+    "predicate": "is_used_for",
+    "object": "Epigenetics",
+    "context": {
+      "en-US": "ATAC-seq is a key epigenomic profiling method for comparative Epigenetics across conditions, tissues or species, and it supports single-cell resolution chromatin accessibility through Single-Cell ATAC-seq. It discovers Transcription Factor Binding Sites by footprinting analysis and infers Enhancer-Promoter interactions from co-accessibility, making it one of the primary tools for mapping regulatory chromatin landscapes at scale.",
+      "zh-TW": "ATAC-seq 是跨條件、組織或物種進行比較性 Epigenetics 的核心表觀體組分析方法，並透過 Single-Cell ATAC-seq 支援單細胞解析度的染色質可及性測量。它以 footprint 分析發現 Transcription Factor Binding Sites，並由共同可及性推論 Enhancer-Promoter 交互作用，因此是大規模繪製調控性染色質圖譜的主要工具之一。"
+    },
+    "confidence": 0.9,
+    "source_document": "ATAC-seq.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "e4dea02a24ab",
+    "subject": "ATF4",
+    "predicate": "is_translationally_regulated_by",
+    "object": "eIF2α",
+    "context": {
+      "en-US": "ATF4 synthesis is controlled primarily at the translational level. Under normal conditions ATF4 mRNA translation is inhibited, but during ER Stress, amino acid starvation or mitochondrial stress the phosphorylation of eIF2α by PERK, GCN2, HRI or PKR permits selective ATF4 translation even while global cap-dependent translation is suppressed. This phospho-eIF2α-dependent translational bypass makes ATF4 the central hub of the Integrated Stress Response, translating stress signals into a specific gene-expression program.",
+      "zh-TW": "ATF4 的合成主要在轉譯層級受到調控。正常情況下 ATF4 mRNA 的轉譯受到抑制，但在 ER Stress、胺基酸飢餓或粒線體壓力下，PERK、GCN2、HRI 或 PKR 對 eIF2α 的磷酸化可在全域帽依賴性轉譯受抑制的同時，允許 ATF4 被選擇性轉譯。這種依賴磷酸化 eIF2α 的轉譯繞道，使 ATF4 成為 Integrated Stress Response 的核心節點，把壓力訊號轉譯為特定基因表現程式。"
+    },
+    "confidence": 0.93,
+    "source_document": "ATF4.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "59e824d837f3",
+    "subject": "ATF4",
+    "predicate": "induces",
+    "object": "MTHFD2",
+    "context": {
+      "en-US": "ATF4 is a major downstream mediator of the metabolic reprogramming that follows mitochondrial dysfunction, activating transcription of genes in amino acid metabolism (serine biosynthesis, transsulfuration), one-carbon metabolism (including MTHFD2) and antioxidant defences that maintain redox homeostasis. It also upregulates pro-survival genes such as CHOP, GADD34 and BiP and amino acid transporters, and regulates Autophagy-related genes including LC3B and Atg5 during the integrated stress response.",
+      "zh-TW": "ATF4 是粒線體功能失調後代謝重编程的主要下游媒介，會活化胺基酸代謝（絲胺酸生物合成、轉硫作用）、一碳代謝（包括 MTHFD2）以及維持氧化還原恆定的抗氧化防禦相關基因的轉錄。它同時上調 CHOP、GADD34、BiP 等促存活基因與胺基酸運輸蛋白，並在整體壓力反應期間調控 LC3B 與 Atg5 等 Autophagy 相關基因。"
+    },
+    "confidence": 0.9,
+    "source_document": "ATF4.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "a00a44516456",
+    "subject": "ATF4",
+    "predicate": "cooperates_with",
+    "object": "TFE3",
+    "context": {
+      "en-US": "ATF4 interacts with TFE3 to co-regulate lysosomal gene expression, bridging the unfolded protein response to Autophagy by inducing autophagy genes under amino acid deprivation and acting as a downstream effector of the GCN2-eIF2α pathway. TFE3 targets include ATF4 itself alongside autophagic/lysosomal genes and genes implicated in stress, signalling and Apoptosis, positioning ATF4 as an essential master regulator bridging lysosome biogenesis with stress adaptation.",
+      "zh-TW": "ATF4 與 TFE3 交互作用以共同調控溶酶體基因表現，藉由在胺基酸缺乏時誘導自噬基因，把未折疊蛋白反應橋接到 Autophagy，並作為 GCN2-eIF2α 路徑的下游效應器。TFE3 的標的除了自噬/溶酶體基因外，也包含 ATF4 本身以及與壓力、訊號傳遞和 Apoptosis 相關的基因，使 ATF4 成為連結溶酶體生成與壓力適應的關鍵總調節因子。"
+    },
+    "confidence": 0.88,
+    "source_document": "ATF4.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "488b5d764933",
+    "subject": "ATGL",
+    "predicate": "hydrolyzes",
+    "object": "Lipid Droplet",
+    "context": {
+      "en-US": "ATGL (adipose triglyceride lipase, PNPLA2) is the first and rate-limiting enzyme of catabolic lipolysis. It localizes to the surface of Lipid Droplet and hydrolyzes triacylglycerol into diacylglycerol and free fatty acids, providing substrate for Lipophagy and fatty acid oxidation. Its activity determines the rate of free fatty acid release from adipose tissue and therefore systemic lipid mobilization, and it is activated during Starvation and Fasting to mobilize energy reserves.",
+      "zh-TW": "ATGL（adipose triglyceride lipase，PNPLA2）是分解性脂解的第一個也是速率限制酵素。它定位於 Lipid Droplet 表面，將三酸甘油酯水解為二酸甘油酯與游離脂肪酸，為 Lipophagy 與脂肪酸氧化提供受質。其活性決定 adipose 組織釋放游離脂肪酸的速率，因而決定全身脂質動員；並在 Starvation 與 Fasting 期間被活化以動員能量儲備。"
+    },
+    "confidence": 0.94,
+    "source_document": "ATGL.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "3adfb6b2da58",
+    "subject": "SIRT1",
+    "predicate": "upregulates",
+    "object": "ATGL",
+    "context": {
+      "en-US": "SIRT1 promotes lipolysis in white adipocytes partly through FOXO1-dependent induction of ATGL expression, enhancing triglyceride hydrolysis. SIRT6 acts in parallel, promoting adipose lipolysis and preventing ectopic lipid accumulation through the same FOXO1-dependent induction of ATGL, which protects against lipotoxic insulin resistance. Together these sirtuin routes convert deacetylase activity into measurable adipose lipolysis and metabolic flexibility.",
+      "zh-TW": "SIRT1 在白色脂肪細胞中促進脂解，部分是透過 FOXO1 依賴性的 ATGL 表現誘導，增強三酸甘油酯水解。SIRT6 則平行作用，同樣以 FOXO1 依賴性的 ATGL 誘導促進 adipose 脂解並防止異位脂質堆積，藉此防止脂毒性胰島素阻抗。這兩條 sirtuin 路徑把去乙醯化酶活性轉化為可測量的 adipose 脂解與代謝彈性。"
+    },
+    "confidence": 0.92,
+    "source_document": "ATGL.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "8c2546e730c8",
+    "subject": "ATGL",
+    "predicate": "acts_in_parallel_with",
+    "object": "Lipophagy",
+    "context": {
+      "en-US": "In C. elegans, ATGL (encoded by atgl-1) acts in parallel to the lipophagy pathway involving the lysosomal lipases LIPL-1 and LIPL-3, rather than as a component of it. ATGL supplies lipolytic substrate for lysosomal degradation and fatty acid oxidation, so cytosolic and lysosomal routes of fat mobilization are partly redundant; this positioning of ATGL at the interface of the two pathways is why its loss is buffered in C. elegans.",
+      "zh-TW": "在 C. elegans 中，ATGL（由 atgl-1 編碼）與涉及溶酶體脂肪酶 LIPL-1 與 LIPL-3 的 lipophagy 路徑平行作用，而非其組成部分。ATGL 為溶酶體降解與脂肪酸氧化提供脂解受質，因此細胞質與溶酶體兩條脂質動員途徑部分冗餘；ATGL 處於這兩條路徑交界的定位，也解釋了為何在 C. elegans 中其缺失可被緩衝。"
+    },
+    "confidence": 0.88,
+    "source_document": "ATGL.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "f34d0c7d5f16",
+    "subject": "Urolithin A",
+    "predicate": "is_tested_in",
+    "object": "ATLAS",
+    "context": {
+      "en-US": "The ATLAS trial (Singh et al., 2022, NCT03464500) is a randomized controlled test of Urolithin A at 500 or 1000 mg/day versus placebo over 4 months in 88 middle-aged adults. It produced roughly a 12% hamstring-strength increase at 500 mg/day, improved peak VO2 and 6-minute walk distance, and reduced plasma acylcarnitines and C-reactive protein, providing core human functional evidence for the compound.",
+      "zh-TW": "ATLAS 試驗（Singh 等，2022，NCT03464500）是一項隨機對照試驗，在 88 名中年成人中以 Urolithin A 每日 500 或 1000 mg 對比安慰劑、持續 4 個月。結果顯示 500 mg/日組腿後肌力量增加約 12%，尖峰 VO2 與 6 分鐘步行距離改善，血漿 acylcarnitines 與 C 反應性蛋白下降，為該化合物提供了核心的人體功能性證據。"
+    },
+    "confidence": 0.92,
+    "source_document": "ATLAS.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "24a8853ec8d4",
+    "subject": "Urolithin A",
+    "predicate": "activates",
+    "object": "Mitophagy",
+    "context": {
+      "en-US": "ATLAS is the first demonstration that oral Urolithin A engages the PINK1/Parkin mitophagy axis in human muscle: biopsies showed Parkin-mediated ubiquitin-proteasome enrichment at 500 mg and OXPHOS upregulation at 1000 mg, together with strength, endurance and anti-inflammatory benefits. Urolithin A is positioned as the selective-Mitophagy arm of the four-compound longevity framework, acting on depolarized mitochondria to stabilize PINK1 and activate the downstream Parkin E3 ligase.",
+      "zh-TW": "ATLAS 首次證明口服 Urolithin A 在人體肌肉中啟動 PINK1/Parkin 的 mitophagy 軸：活檢顯示 500 mg 組有 Parkin 媒介的泛素-蛋白酶體富集、1000 mg 組有 OXPHOS 上調，並伴隨力量、耐力與抗發炎效益。Urolithin A 被定位為四化合物長壽框架中的選擇性 Mitophagy 分支，作用於去極化的粒線體以穩定 PINK1 並活化下游的 Parkin E3 連接酶。"
+    },
+    "confidence": 0.88,
+    "source_document": "ATLAS.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "fa73a732c5b4",
+    "subject": "ATM",
+    "predicate": "phosphorylates",
+    "object": "Bid",
+    "context": {
+      "en-US": "ATM (Ataxia-Telangiectasia Mutated), a ~350 kDa PIKK-family serine/threonine kinase, phosphorylates Bid at Ser61 and Ser78, leading to S phase arrest in response to DNA Damage. Biallelic ATM loss-of-function mutations cause ataxia-telangiectasia with cerebellar degeneration, immunodeficiency, radiation sensitivity and cancer predisposition, whereas monoallelic carriers show intermediate phenotypes including increased DNA Damage accumulation and potentially accelerated epigenetic aging.",
+      "zh-TW": "ATM（Ataxia-Telangiectasia Mutated）是約 350 kDa 的 PIKK 家族絲胺酸/蘇胺酸蛋白激酶，它在 Ser61 與 Ser78 磷酸化 Bid，進而因應 DNA Damage 造成 S 期停滯。ATM 的雙等位功能喪失突變造成伴隨小腦退化、免疫缺陷、放射性敏感與癌症易感的 ataxia-telangiectasia；單等位帶因者則呈現中間表型，包括 DNA Damage 累積增加與可能的表觀遺傳加速老化。"
+    },
+    "confidence": 0.9,
+    "source_document": "ATM.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "e2759d45b804",
+    "subject": "ATM",
+    "predicate": "initiates",
+    "object": "DNA Damage Response",
+    "context": {
+      "en-US": "ATM is the master initiator of the DNA Damage Response to DNA double-strand breaks. In undamaged cells it is an inactive dimer; DSB detection recruits it via the MRN complex, whose binding promotes monomerization and autophosphorylation at Ser1981. Active ATM then phosphorylates H2AX at Ser139 to form γH2AX, recruiting MDC1, 53BP1 and BRCA1 to amplify the damage signal, and phosphorylates CHK2 at Thr68 to propagate checkpoint signalling to p53, CDC25A and CDC25C, enforcing G1/S and G2/M arrest.",
+      "zh-TW": "ATM 是回應 DNA double-strand breaks 的 DNA Damage Response 主啟動因子。在未受損細胞中它以不活化二聚體存在；DSB 被偵測後經 MRN complex 招募，其結合促進 ATM 單體化與 Ser1981 自體磷酸化。活化的 ATM 接著磷酸化 H2AX 的 Ser139 形成 γH2AX，招募 MDC1、53BP1 與 BRCA1 以放大損傷訊號；並磷酸化 CHK2 的 Thr68，把檢查點訊號傳遞給 p53、CDC25A 與 CDC25C，執行 G1/S 與 G2/M 停滯。"
+    },
+    "confidence": 0.94,
+    "source_document": "ATM.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "c456632c3647",
+    "subject": "ATM",
+    "predicate": "stabilizes",
+    "object": "p53",
+    "context": {
+      "en-US": "ATM phosphorylates p53 at Ser15, disrupting MDM2 binding and thereby stabilizing p53. Stabilized p53 drives CDKN1A/p21 transcription and senescence entry, so the ATM-p53 axis is a principal route by which a DNA Damage Response is converted into a durable cell-cycle arrest. If damage proves irreparable, this same signalling commits the cell to Apoptosis instead.",
+      "zh-TW": "ATM 在 Ser15 磷酸化 p53，破壞其與 MDM2 的結合，藉此穩定 p53。穩定後的 p53 驅動 CDKN1A/p21 轉錄與衰老進入，因此 ATM-p53 軸線是把 DNA Damage Response 轉換為持久細胞週期停滯的主要途徑。若損傷證實不可修復，同一訊號便會使細胞走向 Apoptosis。"
+    },
+    "confidence": 0.93,
+    "source_document": "ATM.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "3fd1aa225c53",
+    "subject": "ATM",
+    "predicate": "contributes_to",
+    "object": "SASP",
+    "context": {
+      "en-US": "In Senescence, ATM is required for the DDR-induced senescence program, yet chronic ATM signaling paradoxically also contributes to the SASP via NF-κB activation. ATM activity declines with age in human tissues, correlating with increased genomic instability. Because inhibiting ATM in aged mice reduces sterile inflammation and improves tissue function, ATM modulation has a therapeutic window in aging, and the downstream consequence of repair failure includes persistent inflammatory output.",
+      "zh-TW": "在 Senescence 中，ATM 是 DDR 誘發衰老程式所必需，但慢性 ATM 訊號又反常地透過 NF-κB 活化促成 SASP。ATM 活性在人類組織中隨年齡下降，與基因體不穩定性增加相關。由於在老化小鼠中抑制 ATM 可減少無菌性發炎並改善組織功能，ATM 調控在老化領域具有治療窗口；修復失敗的下游後果之一即是持續的發炎輸出。"
+    },
+    "confidence": 0.85,
+    "source_document": "ATM.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "c42a65afeca9",
+    "subject": "ATP Synthase",
+    "predicate": "is_required_for",
+    "object": "Oxidative Phosphorylation",
+    "context": {
+      "en-US": "ATP Synthase (Complex V) is a large multi-subunit enzyme embedded in the inner mitochondrial membrane that catalyzes the terminal, defining step of Oxidative Phosphorylation: synthesis of ATP from ADP and inorganic phosphate. It harnesses the proton gradient, i.e. the Mitochondrial Membrane Potential, established by the Electron Transport Chain. Loss of ΔΨm in Senescence impairs ATP synthase function, reducing ATP production and contributing to bioenergetic failure.",
+      "zh-TW": "ATP Synthase（Complex V）是嵌入粒線體內膜的大型多次單元酵素，催化 Oxidative Phosphorylation 最終且具決定性的一步：由 ADP 與無機磷酸合成 ATP。它利用由 Electron Transport Chain 建立的分子供子梯度，也就是 Mitochondrial Membrane Potential。Senescence 中 ΔΨm 的流失會損害 ATP synthase 功能，降低 ATP 生成並促成生物能量衰竭。"
+    },
+    "confidence": 0.94,
+    "source_document": "ATP Synthase.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "52982aa7d185",
+    "subject": "ATR",
+    "predicate": "phosphorylates",
+    "object": "CHK1",
+    "context": {
+      "en-US": "ATR (Ataxia Telangiectasia and Rad3-related) is a serine/threonine kinase that senses replication stress and single-stranded DNA lesions. RPA-coated ssDNA recruits ATR through its obligate partner ATRIP, with TopBP1 and ETAA1 providing additional cofactors. ATR phosphorylates substrates on SQ/TQ motifs, acting on CHK1 at Ser317 and Ser345; active CHK1 then phosphorylates CDC25 phosphatases, causing their degradation or cytoplasmic sequestration and thereby inhibiting CDK activation to halt cell cycle progression.",
+      "zh-TW": "ATR（Ataxia Telangiectasia and Rad3-related）是感測複製壓力與單股 DNA 損傷的絲胺酸/蘇胺酸激酶。由 RPA 覆蓋的 ssDNA 透過其必需伴護蛋白 ATRIP 招募 ATR，TopBP1 與 ETAA1 提供額外輔因子。ATR 以 SQ/TQ 為基序磷酸化受質，作用於 CHK1 的 Ser317 與 Ser345；活化的 CHK1 接著磷酸化 CDC25 磷酸酶，使其降解或被滯留於細胞質，因而抑制 CDK 活化並使細胞週期進程停止。"
+    },
+    "confidence": 0.93,
+    "source_document": "ATR.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "032e316850be",
+    "subject": "ATR",
+    "predicate": "promotes",
+    "object": "Senescence",
+    "context": {
+      "en-US": "ATR is one of the earliest checkpoint kinases activated during the DNA Damage Response in Replicative Senescence, alongside ATM, and persistent ATR/CHK1 signaling maintains the DDR signal that sustains cell cycle arrest. Oncogene activation causes DNA hyper-replication and stalled forks that generate the ssDNA activating ATR, and chemotherapeutic agents that cause replication stress do the same. ATR signals through CHK1 to p53 to p21 and through CDC25 degradation to CDK inhibition and Rb hypophosphorylation, contributing to SAHF formation.",
+      "zh-TW": "ATR 是 Replicative Senescence 中 DNA Damage Response 期間最早被活化的檢查點激酶之一（與 ATM 並列），而持續的 ATR/CHK1 訊號維持使細胞週期停滯得以持久的 DDR 訊號。致癌基因活化造成 DNA 過度複製與複製叉停滯，產生活化 ATR 的 ssDNA；造成複製壓力的化療藥物亦然。ATR 經 CHK1 傳訊至 p53 再到 p21，並經 CDC25 降解導致 CDK 抑制與 Rb 去磷酸化，促成 SAHF 形成。"
+    },
+    "confidence": 0.92,
+    "source_document": "ATR.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "34933eb0bc42",
+    "subject": "ATR",
+    "predicate": "works_with",
+    "object": "ATM",
+    "context": {
+      "en-US": "ATR and ATM are partner checkpoint kinases whose division of labour is lesion type: ATM responds to DNA double-strand breaks while ATR responds to ssDNA and stalled replication forks. When telomeres shorten to a critical length they are recognized as DNA lesions, activating ATM for DSBs and ATR for uncapped telomeres with ssDNA overhangs. Both phosphorylate CHK2, which transmits DDR signals by phosphorylating p53, so the two kinases converge on overlapping downstream effectors.",
+      "zh-TW": "ATR 與 ATM 是分工依損傷類型的夥伴檢查點激酶：ATM 回應 DNA double-strand breaks，而 ATR 回應 ssDNA 與停滯的複製叉。端粒縮短至臨界長度時會被視為 DNA 損傷，於是 ATM 處理 DSB、ATR 處理帶有 ssDNA 突出端的未封帽端粒。兩者皆磷酸化 CHK2，而 CHK2 再藉由磷酸化 p53 傳遞 DDR 訊號，因此這兩種激酶在下游效應器上會合。"
+    },
+    "confidence": 0.9,
+    "source_document": "ATR.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "f64f59d0dfe5",
+    "subject": "ATRX",
+    "predicate": "deposits",
+    "object": "H3.3",
+    "context": {
+      "en-US": "ATRX is a ~280 kDa ATP-dependent chromatin remodeler of the SWI/SNF superfamily that cooperates with the histone chaperone DAXX to assemble the histone variant H3.3 into chromatin at telomeres, pericentric and centromeric heterochromatin, endogenous retroviruses and other repetitive elements, and imprinted loci. Its ADD domain binds H3 tails specifically when H3 is unmethylated at Lys9 (H3K4me0), linking ATRX activity to transcriptional silencing, while an HP1-interacting region anchors it at heterochromatin.",
+      "zh-TW": "ATRX 是 SWI/SNF 超家族中約 280 kDa 的 ATP 依賴性染色質重塑蛋白，與組蛋白伴護蛋白 DAXX 協同將組蛋白變異體 H3.3 組裝進端粒、周中節與著絲點異染色質、內源性反轉錄病毒與其他重複元素，以及印跡基因座的染色質。其 ADD 區域在 H3 的 Lys9 未甲基化（H3K4me0）時專一性結合 H3 尾端，將 ATRX 活性與轉錄沉默連結起來；HP1 交互作用區則將其錨定於異染色質。"
+    },
+    "confidence": 0.93,
+    "source_document": "ATRX.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "21e69d4fd029",
+    "subject": "ATRX",
+    "predicate": "is_a",
+    "object": "Tumor Suppressor Gene",
+    "context": {
+      "en-US": "ATRX is a chromatin-based Tumor Suppressor Gene and one of six X-linked EXITS genes (Escape from X-Inactivation Tumor Suppressors) preferentially loss-of-function mutated in male tumors. Across 21 tumor types these six genes show significantly more loss-of-function mutations in males than the 18,055 autosomal and pseudoautosomal genes examined. Because females express ATRX biallelically, they need two hits to lose function, whereas hemizygous males need only one, producing ATRX's male-biased mutation enrichment and its loss of telomeric chromatin integrity with ALT activation.",
+      "zh-TW": "ATRX 是以染色質為基礎的 Tumor Suppressor Gene，也是六個 X 聯鎖 EXITS 基因（Escape from X-Inactivation Tumor Suppressors）之一，在男性腫瘤中偏好性地發生功能喪失突變。在 21 種腫瘤中，這六個基因在男性的功能喪失突變顯著多於所檢視的 18,055 個體染色體與偽體染色體基因。由於女性以雙等位方式表現 ATRX，功能喪失需要兩次Hits，而半合子的男性只需一次，這造成 ATRX 突變的男性偏倚，以及其端粒染色質完整性喪失與 ALT 活化。"
+    },
+    "confidence": 0.9,
+    "source_document": "ATRX.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "384bf22bd5c6",
+    "subject": "ATRX",
+    "predicate": "loss_triggers",
+    "object": "Telomere Attrition",
+    "context": {
+      "en-US": "Loss of ATRX causes telomere decondensation, replication stress and DNA damage at telomeric repeat sequences, yet paradoxically extends telomeres in tumors by activating the alternative lengthening of telomeres (ALT) pathway, a recombination-based maintenance mechanism seen in 10-15% of cancers. ALT is template-directed rather than telomerase-mediated and is associated with more aggressive tumor behavior, making ATRX loss a diagnostic marker (about 30% of adult diffuse IDH-mutant gliomas) and a therapeutic vulnerability.",
+      "zh-TW": "ATRX 缺失會造成端粒去凝縮、複製壓力與端粒重複序列處的 DNA 損傷，卻又在腫瘤中反常地透過活化替代性端粒延長（ALT）路徑延長端粒；ALT 是一種以重組為基礎的維持機制，見於 10-15% 的癌症。ALT 是模板導向而非端粒酶介導的，並與更侵襲性的腫瘤行為相關，因此 ATRX 缺失既是診斷標記（約 30% 成人瀰漫性 IDH 突變膠質瘤），也是治療弱點。"
+    },
+    "confidence": 0.9,
+    "source_document": "ATRX.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "a816e7337f9d",
+    "subject": "AUF1",
+    "predicate": "degrades",
+    "object": "SASP",
+    "context": {
+      "en-US": "AUF1 (AU-rich element RNA-binding protein 1, hnRNP D) is a post-transcriptional brake on the SASP. Its four isoforms (p37, p40, p42, p45) each carry two RNA-recognition motifs that bind AUUUA-type AU-rich elements in the 3' UTR; once bound, AUF1 recruits the exonuclease XRN1 and the deadenylase PARN and collaborates with the exosome to drive rapid transcript decay, including decay of transcripts for pro-inflammatory cytokines and chemokines such as IL-6 and IL-8.",
+      "zh-TW": "AUF1（AU-rich element RNA-binding protein 1，hnRNP D）是 SASP 的轉錄後煞車。其四個異型（p37、p40、p42、p45）各帶兩個 RNA 辨識基序，結合 3' UTR 中 AUUUA 型的 AU-rich element；結合後 AUF1 招募外切核酸酶 XRN1 與去腺苷化酶 PARN，並與 exosome 協同驅動快速的轉錄本降解，包含 IL-6、IL-8 等促發炎細胞激素與趨化因子轉錄本的降解。"
+    },
+    "confidence": 0.92,
+    "source_document": "AUF1.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "36a5f2642f87",
+    "subject": "MAPKAPK2",
+    "predicate": "inhibits",
+    "object": "AUF1",
+    "context": {
+      "en-US": "The p38 MAPK-MAPKAPK2 (MK2) axis is the switch that relieves AUF1's brake on the SASP. In Senescent Cells, MK2 downstream of p38 MAPK phosphorylates AUF1, promoting its cytoplasmic relocalization away from target mRNAs and/or reducing its decay competence, which stabilizes and increases production of SASP factors such as IL-6 and IL-8. This converts chronic stress signalling into sustained SASP output at the level of mRNA half-life, acting in parallel with the NF-κB transcriptional program; restoring AUF1 or inhibiting MK2 can blunt SASP intensity as a senomorphic strategy.",
+      "zh-TW": "p38 MAPK-MAPKAPK2（MK2）軸線是解除 AUF1 對 SASP 煞車的開關。在 Senescent Cells 中，位於 p38 MAPK 下游的 MK2 磷酸化 AUF1，促使其向細胞質重新定位而遠離目標 mRNA，和/或降低其降解能力，因而穩定並提高 IL-6、IL-8 等 SASP 因子的產量。這在 mRNA 半衰期層級把慢性壓力訊號轉為持續的 SASP 輸出，並與 NF-κB 的轉錄程式平行作用；恢復 AUF1 活性或抑制 MK2 皆可作為 senomorphic 策略以削弱 SASP 強度。"
+    },
+    "confidence": 0.92,
+    "source_document": "AUF1.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "1cb7276bc9b1",
+    "subject": "Acetate",
+    "predicate": "is_a",
+    "object": "Short-chain Fatty Acids",
+    "context": {
+      "en-US": "Acetate is the two-carbon short-chain fatty acid (CH3COO-) and the most abundant SCFA produced by gut fermentation, generated by anaerobic bacteria such as Bifidobacterium and Bacteroides and by acetogens from dietary fiber. It is absorbed into portal blood and distributed systemically, crossing membranes as the protonated acid or via monocarboxylate transporters to reach the liver, brain and periphery. SCFA profiles including acetate are altered in aging and are modulated by diet, Caloric Restriction and NAD+ precursors such as Nicotinamide Riboside.",
+      "zh-TW": "Acetate 是二碳短鏈脂肪酸（CH3COO-），也是腸道發酵產量最豐富的 SCFA，由 Bifidobacterium、Bacteroides 等厭氧菌與產乙酸菌從膳食纖維產生。它被吸收進入門脈血液並分布全身，以質子化酸形式或經單羧酸運輸蛋白跨越細胞膜，抵達肝臟、腦與周邊組織。包含 acetate 在內的 SCFA 譜會隨老化改變，並受飲食、Caloric Restriction 與 Nicotinamide Riboside 等 NAD+ 前驅物調控。"
+    },
+    "confidence": 0.93,
+    "source_document": "Acetate.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "618b3f30a525",
+    "subject": "Acetate",
+    "predicate": "is_activated_to",
+    "object": "Acetyl-CoA",
+    "context": {
+      "en-US": "In the liver, absorbed acetate is activated to Acetyl-CoA and incorporated into lipids, cholesterol and ketone bodies, linking the Gut Microbiome to host Lipid Metabolism. Acetate also supplies the acetyl group pool used in Acetylation, including Histone Acetylation, and in the brain can be used by astrocytes for acetyl-CoA and neurotransmitter synthesis. Exogenous acetate can also bypass an SLC25A1 block via ACSS2, restoring acetylation in senescent cells.",
+      "zh-TW": "在肝臟中，吸收的 acetate 被活化為 Acetyl-CoA，並納入脂質、膽固醇與酮體，將 Gut Microbiome 與宿主 Lipid Metabolism 連結起來。Acetate 同時供應 Acetylation（含 Histone Acetylation）所需的乙醯基群池；在腦中可由星狀膠細胞用於 Acetyl-CoA 與神經傳遞物質合成。外源性 acetate 也能透過 ACSS2 繞過 SLC25A1 阻斷，恢復衰老細胞中的乙醯化。"
+    },
+    "confidence": 0.9,
+    "source_document": "Acetate.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "303cafc5caac",
+    "subject": "Acetyl-CoA",
+    "predicate": "donates_acetyl_group_for",
+    "object": "Histone Acetylation",
+    "context": {
+      "en-US": "Acetyl-CoA is the obligate acetyl donor for Histone Acetylation, catalysed by HATs; the opposing reaction is performed by NAD+-dependent Sirtuins and HDACs. Because acetyl-CoA availability therefore directly couples nutrient state to chromatin state and gene expression, high acetyl-CoA favours open, transcriptionally active chromatin while sirtuin-mediated deacetylation is energy- and Caloric Restriction-linked. This makes acetyl-CoA abundance a metabolic switch between anabolism and catabolism.",
+      "zh-TW": "Acetyl-CoA 是 Histone Acetylation 不可或缺的乙醯基供體，由 HAT 催化；相反方向的反應則由 NAD+ 依賴性的 Sirtuins 與 HDAC 執行。因此 Acetyl-CoA 的可得性直接將營養狀態與染色質狀態、基因表現偶聯：Acetyl-CoA 偏高有利於開放且轉錄活躍的染色質，而 sirtuin 媒介的去乙醯化則與能量及 Caloric Restriction 相連結。這使 Acetyl-CoA 豐度成為同化與異化之間的代謝開關。"
+    },
+    "confidence": 0.94,
+    "source_document": "Acetyl-CoA.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "2478219afd29",
+    "subject": "Acetyl-CoA",
+    "predicate": "inhibits",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Nutrient sufficiency raises Acetyl-CoA, which can inhibit Autophagy via mTOR activation, whereas fasting lowers acetyl-CoA and promotes autophagic flux. This positions acetyl-CoA as a metabolic switch between anabolism and catabolism and links the nutrient state to autophagy output. Interventions that modulate acetyl-CoA availability, including Caloric Restriction, Nicotinamide Riboside and Mitohormesis, influence downstream acetylation and stress-resistance pathways relevant to longevity.",
+      "zh-TW": "營養充足會提高 Acetyl-CoA，進而可透過 mTOR 活化抑制 Autophagy；相反地，禁食會降低 Acetyl-CoA 並促進自噬流。這使 Acetyl-CoA 成為同化與異化之間的代謝開關，並把營養狀態與自噬輸出連結起來。調節 Acetyl-CoA 可得性的介入手段，包括 Caloric Restriction、Nicotinamide Riboside 與 Mitohormesis，會影響與長壽相關的下游乙醯化與抗壓力路徑。"
+    },
+    "confidence": 0.88,
+    "source_document": "Acetyl-CoA.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "fa8c88c65cb0",
+    "subject": "SLC25A1",
+    "predicate": "supplies",
+    "object": "H3K27ac",
+    "context": {
+      "en-US": "In senescence, mitochondrial pyruvate entry via MPC feeds a citrate-acetyl-CoA export axis: the mitochondrial citrate carrier SLC25A1 exports citrate to the cytoplasm where ACLY generates Acetyl-CoA, and that pool is used to place H3K27ac at SASP loci. Inhibiting SLC25A1 or MPC with CTPI2 collapses this pool, removes H3K27ac from SASP enhancers and selectively suppresses SASP expression while leaving viability and mtDNA-driven signalling intact; exogenous acetate bypasses the block via ACSS2. CTPI2-treated mice showed reduced Frailty and improved healthspan.",
+      "zh-TW": "在衰老中，經 MPC 進入的粒線體丙酮酸驅動檸檬酸-Acetyl-CoA 輸出軸：粒線體檸檬酸運輸蛋白 SLC25A1 將檸檬酸輸出至細胞質，由 ACLY 生成 Acetyl-CoA，而該乙醯基群池用於在 SASP 位點標記 H3K27ac。以 CTPI2 抑制 SLC25A1 或 MPC 會使此群池崩解、從 SASP 增強子移除 H3K27ac，並選擇性抑制 SASP 表現，同時保留細胞存活與 mtDNA 驅動的訊號；外源性 acetate 可經 ACSS2 繞過此阻斷。接受 CTPI2 處理的小鼠 Frailty 下降且健康壽命改善。"
+    },
+    "confidence": 0.92,
+    "source_document": "Acetyl-CoA.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "77a70919cb81",
+    "subject": "Acetyl-L-Carnitine",
+    "predicate": "is_derived_from",
+    "object": "L-Carnitine",
+    "context": {
+      "en-US": "Acetyl-L-Carnitine (ALC) is the acetylated form of L-Carnitine, the naturally occurring L-enantiomer. It facilitates the transport of long-chain fatty acids into Mitochondria for beta-oxidation and supplies an acetyl group for energy metabolism and acetylcholine synthesis, so it inherits the mitochondrial transport function of its parent compound. It is also grouped with Carnosine and Aminoguanidine as a compound shown to help prevent Cross-linking associated with aging.",
+      "zh-TW": "Acetyl-L-Carnitine（ALC）是天然存在的 L-映型 L-Carnitine 的乙醯化形式。它促進長鏈脂肪酸進入 Mitochondria 以進行 β-氧化，並供應乙醯基供能量代謝與乙醯膽鹼合成，因此承襲其母體化合物的粒線體運輸功能。它也與 Carnosine、Aminoguanidine 並列，被列為有助於預防老化相關 Cross-linking 的化合物。"
+    },
+    "confidence": 0.92,
+    "source_document": "Acetyl-L-Carnitine.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "dc299bd9b26a",
+    "subject": "Acetyl-L-Carnitine",
+    "predicate": "protects_against",
+    "object": "Glycation",
+    "context": {
+      "en-US": "ALC is investigated as an anti-aging and glycation-countering agent. Its proposed actions include maintaining Mitochondrial function and reducing age-related declines in energy production, buffering oxidative stress that would otherwise accelerate Glycation and AGE formation, and improving metabolic and cognitive outcomes in diabetic neuropathy, depression and age-related cognitive decline. In contrast, Alagebrium (ALT-711) is positioned as a breaker of existing cross-links rather than a preventive.",
+      "zh-TW": "ALC 被研究作為抗老化與對抗糖基化的試劑。其提出的作用包括維持 Mitochondrial 功能、減少老化相關的能量生成衰退、緩衝原本會加速 Glycation 與 AGE 形成的氧化壓力，以及改善糖尿病神經病變、憂鬱與老化相關認知衰退的代謝與認知結果。相對地，Alagebrium（ALT-711）被定位為切斷既有交聯鍵的藥物，而非預防性藥物。"
+    },
+    "confidence": 0.82,
+    "source_document": "Acetyl-L-Carnitine.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "e6f0af25ddc5",
+    "subject": "Acetylation",
+    "predicate": "uses",
+    "object": "Acetyl-CoA",
+    "context": {
+      "en-US": "Acetylation is a reversible post-translational modification in which an acetyl group is transferred from Acetyl-CoA to a substrate, catalysed by HATs and removed by HDACs and Sirtuins. Because the donor is Acetyl-CoA, acetylation status directly links Metabolism to Epigenetics: Histone lysine acetylation such as H3K9ac, H3K27ac and H4K16ac regulates Chromatin structure and Gene Expression, while non-histone acetylation modulates the activity, stability and localization of p53, NF-κB, STAT3, α-Tubulin and PGC-1α.",
+      "zh-TW": "Acetylation 是一種可逆的轉譯後修飾，將乙醯基由 Acetyl-CoA 轉移至受質，由 HAT 催化，並由 HDAC 與 Sirtuins 移除。由於供體是 Acetyl-CoA，乙醯化狀態直接將 Metabolism 與 Epigenetics 連結：H3K9ac、H3K27ac、H4K16ac 等組蛋白離胺酸乙醯化調控 Chromatin 結構與 Gene Expression，而非組蛋白乙醯化則調節 p53、NF-κB、STAT3、α-Tubulin 與 PGC-1α 的活性、穩定性與定位。"
+    },
+    "confidence": 0.94,
+    "source_document": "Acetylation.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "30d39773b6bd",
+    "subject": "Acetylation",
+    "predicate": "is_regulated_by",
+    "object": "Sirtuins",
+    "context": {
+      "en-US": "Sirtuins are NAD+-dependent deacetylases that erase the marks written by acetylation, opposing HATs in a stoichiometric cycle that couples the NAD+/NADH ratio to chromatin and gene-expression state. Because deacetylation is energy- and Caloric Restriction-linked, sirtuin activity is a point at which nutrient state and NAD+ availability are converted into transcriptional output. Dysregulated acetylation is implicated in Cancer, Neurodegeneration, metabolic disease and Aging.",
+      "zh-TW": "Sirtuins 是 NAD+ 依賴性的去乙醯化酶，可擦除乙醯化所寫下的標記，與 HAT 在化學計量循環中相拮抗，並將 NAD+/NADH 比例與染色質及基因表現狀態偶聯。由於去乙醯化與能量狀態及 Caloric Restriction 相連結，sirtuin 活性就是把營養狀態與 NAD+ 可得性轉換為轉錄輸出的節點。乙醯化失調與 Cancer、Neurodegeneration、代謝疾病與 Aging 均有關聯。"
+    },
+    "confidence": 0.9,
+    "source_document": "Acetylation.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "cb2b5c7f7676",
+    "subject": "Acid Hydrolases",
+    "predicate": "degrade",
+    "object": "Lysosome",
+    "context": {
+      "en-US": "Acid hydrolases are a superfamily of about 60 hydrolytic enzymes that carry out the catabolic machinery of the Lysosome at the acidic pH 4.5-5.0 maintained there, cleaving proteins, lipids, carbohydrates, nucleic acids and phosphates. Each cleaves a specific bond type, and deficiency of any single enzyme produces a characteristic lysosomal storage disease in which the undigested substrate accumulates. Delivered by the mannose-6-phosphate pathway via GNPTAB tagging in the Golgi Apparatus, they also degrade autophagosomal cargo, so impaired activity causes autophagic stress.",
+      "zh-TW": "Acid hydrolases 是約 60 種水解酵素的超家族，在 Lysosome 內維持的酸性 pH 4.5-5.0 條件下執行溶體的分解工作，分解蛋白質、脂質、醣類、核酸與磷酸基團。每一種切割特定化學鍵，缺少其中任一酵素即造成特定的 lysosomal storage disease，使未消化受質累積。它們經由 mannose-6-phosphate 路徑運送（由 Golgi Apparatus 中的 GNPTAB 加上標記），也分解自噬體貨載，因此活性受損會造成自噬壓力。"
+    },
+    "confidence": 0.9,
+    "source_document": "Acid Hydrolases.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "41fada560824",
+    "subject": "Acid Hydrolases",
+    "predicate": "regulates",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "Acid ceramidase and Acid Sphingomyelinase are acid hydrolases that regulate the ceramide to sphingosine-1-phosphate rheostat, thereby influencing Apoptosis, inflammation and cell survival: ceramide accumulation pushes cells toward death whereas sphingosine-1-phosphate signalling favours survival. Relatedly, lysosomal membrane permeabilization releases acid hydrolases such as Cathepsin D and Cathepsin B into the cytoplasm, where they can trigger Inflammation and cell death. Enzyme replacement therapy exploits the M6P receptors to restore these activities.",
+      "zh-TW": "Acid ceramidase 與 Acid Sphingomyelinase 是調節 ceramide 與 sphingosine-1-phosphate 平衡閘門的 acid hydrolases，藉此影響 Apoptosis、發炎與細胞存活：神經醯胺累積推動細胞走向死亡，而 sphingosine-1-phosphate 訊號則有利於存活。相關地，溶酶體膜通透化會將 Cathepsin D、Cathepsin B 等 acid hydrolases 釋放至細胞質，進而觸發 Inflammation 與細胞死亡。酵素替代療法即利用 M6P 受體恢復這些活性。"
+    },
+    "confidence": 0.85,
+    "source_document": "Acid Hydrolases.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "a09994ae7989",
+    "subject": "APP",
+    "predicate": "mediates_cholesterol_efflux",
+    "object": "Cholesterol",
+    "context": {
+      "en-US": "Beyond serving as the amyloid precursor, APP has a normal physiological role in lipid handling. Its copper-binding domain coordinates Cu2+ with nanomolar affinity and can reduce Cu2+ to Cu+, potentially protecting neurons from copper-mediated oxidative damage, and APP mediates cholesterol efflux by transferring cholesterol to apolipoprotein E (ApoE), helping regulate membrane lipid composition at synapses. Cholesterol also compartmentalises BACE1 and gamma-secretase in lipid rafts, so cholesterol depletion by statins redirects APP away from amyloidogenic processing and reduces A-beta production.",
+      "zh-TW": "除了作為類澱粉樣蛋白前驅物之外，APP 在脂質處理上也有正常的生理角色。其銅結合區域以奈莫耳級親和力協調 Cu2+，並可將 Cu2+ 還原為 Cu+，可能保護神經元免受銅介導的氧化損傷；APP 也藉由將膽固醇轉移給 apolipoprotein E（ApoE）來媒介膽固醇外流，協助調節突觸的膜脂質組成。膽固醇另會在 lipid rafts 中將 BACE1 與 gamma-secretase 區隔，因此以 statin 耗竭膽固醇會使 APP 偏離類澱粉樣處理並降低 A-beta 生成。"
+    },
+    "confidence": 0.85,
+    "source_document": "APP.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "88de4bc40f28",
+    "subject": "ARH1",
+    "predicate": "is_counterpart_to",
+    "object": "ARH3",
+    "context": {
+      "en-US": "ARH1 and ARH3 divide residue-specific labour in ADP-ribosylation erasure. ARH1 is the Arg-specific hydrolase, with about 41% sequence similarity to ARH3, and shows less than 1% of ARH3's PAR activity; it has no activity on Cys, Asn or diphthamide linkages. ARH3 is the Ser-specific counterpart and the bulk PARase, and its vicinal-aspartate Mg2+ coordination architecture (Asp77/78, Asp314/316) is homologous to that of ARH1. PARG, the bulk PARase, provides no redundancy with ARH1's Arg activity, so the two are non-redundant erasers of distinct amino-acid marks.",
+      "zh-TW": "ARH1 與 ARH3 在 ADP-ribosylation 的擦除上依胺基酸分工。ARH1 是精胺酸專一的水解酶，與 ARH3 有約 41% 序列相似度，對 PAR 的活性不到 ARH3 的 1%，且對 Cys、Asn 或 diphthamide 鍵結無活性。ARH3 則是絲胺酸專一的對應物與主要 PARase，其鄰位天門冬胺酸 Mg2+ 配位架構（Asp77/78、Asp314/316）與 ARH1 同源。作為主要 PARase 的 PARG 與 ARH1 的精胺酸活性並無冗餘，因此兩者是針對不同胺基酸標記的非冗餘擦除者。"
+    },
+    "confidence": 0.85,
+    "source_document": "ARH1.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "67813f7fe03e",
+    "subject": "Aryl Hydrocarbon Receptor",
+    "predicate": "is_activated_by",
+    "object": "Kynurenine",
+    "context": {
+      "en-US": "The Aryl Hydrocarbon Receptor (AhR) is a bHLH-PAS ligand-activated transcription factor that acts as a cytosolic sensor; Kynurenine, the Tryptophan metabolite generated by IDO1 and TDO, is its principal endogenous ligand. Ligand binding releases AhR from its HSP90/p23/XAP2 complex, drives nuclear translocation and heterodimerization with ARNT, and activates xenobiotic response element (XRE) transcription.",
+      "zh-TW": "Aryl Hydrocarbon Receptor (AhR) 是一種配體活化的 bHLH-PAS 轉錄因子，作為細胞質內的感測器；Kynurenine 是由 IDO1 與 TDO 產生的 Tryptophan 代謝物，也是其主要的內源性配體。配體結合使 AhR 從 HSP90/p23/XAP2 複合體釋放，驱动核轉位並與 ARNT 形成異二聚體，進而活化 XRE 相關的轉錄。"
+    },
+    "confidence": 0.95,
+    "source_document": "Aryl Hydrocarbon Receptor.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "aa081ef288ed",
+    "subject": "IDO1",
+    "predicate": "produces",
+    "object": "Kynurenine",
+    "context": {
+      "en-US": "IDO1 is the rate-limiting enzyme of the Kynurenine Pathway and generates Kynurenine from Tryptophan; Kynurenine then signals through the Aryl Hydrocarbon Receptor to promote Regulatory T cells and suppress Th17 responses, creating a feed-forward immunosuppressive loop when dendritic cells express IDO1.",
+      "zh-TW": "IDO1 是 Kynurenine Pathway 的限速酵素，由 Tryptophan 生成 Kynurenine；Kynurenine 接著透過 Aryl Hydrocarbon Receptor 訊號促進 Regulatory T cells 並抑制 Th17 反應，當樹突細胞表現 IDO1 時便形成前饋式的免疫抑制迴路。"
+    },
+    "confidence": 0.95,
+    "source_document": "Aryl Hydrocarbon Receptor.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "e302d0416d75",
+    "subject": "Aryl Hydrocarbon Receptor",
+    "predicate": "mediates",
+    "object": "Tumor Microenvironment",
+    "context": {
+      "en-US": "In the Tumor Microenvironment, the Aryl Hydrocarbon Receptor mediates the immunosuppressive effects of Kynurenine, making the IDO1-Kyn-AhR axis an active target of cancer immunotherapy where blockade aims to restore antitumor immunity.",
+      "zh-TW": "在 Tumor Microenvironment 中，Aryl Hydrocarbon Receptor 介導 Kynurenine 的免疫抑制作用，使 IDO1-Kyn-AhR 軸成為癌症免疫治療的具體標靶；阻斷此軸的目標是恢復抗腫瘤免疫。"
+    },
+    "confidence": 0.85,
+    "source_document": "Aryl Hydrocarbon Receptor.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "7c35bf80da45",
+    "subject": "Interferon-gamma",
+    "predicate": "induces",
+    "object": "IDO1",
+    "context": {
+      "en-US": "Interferon-gamma is the upstream inducer of IDO1 in dendritic cells and macrophages; by raising IDO1, it increases Kynurenine flux into the Aryl Hydrocarbon Receptor pathway, converting inflammatory interferon signaling into an immunoregulatory, IDO1-dependent tolerogenic program.",
+      "zh-TW": "Interferon-gamma 是樹突細胞與巨噬細胞中 IDO1 的上游誘導因子；提升 IDO1 會增加 Kynurenine 流向 Aryl Hydrocarbon Receptor 途徑，將發炎性的干擾素訊號轉換為依賴 IDO1 的免疫調節耐受程式。"
+    },
+    "confidence": 0.85,
+    "source_document": "Aryl Hydrocarbon Receptor.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "d48312f5c2a9",
+    "subject": "cGAS-STING Pathway",
+    "predicate": "induces",
+    "object": "Astrocyte Senescence",
+    "context": {
+      "en-US": "Sustained cGAS-STING Pathway activation downstream of proteotoxic and mitochondrial stress drives Astrocyte Senescence, a stable growth-arrested, pro-inflammatory state with a SASP secretome that amplifies Neuroinflammation and neurodegeneration.",
+      "zh-TW": "在蛋白毒性與粒線體壓力之下持續活化的 cGAS-STING Pathway 會驅動 Astrocyte Senescence——一種穩定停滯生長、促發炎且具有 SASP 分泌表型的狀態，進而放大 Neuroinflammation 與神經退化。"
+    },
+    "confidence": 0.9,
+    "source_document": "Astrocyte Senescence.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "219781548d34",
+    "subject": "Astrocyte Senescence",
+    "predicate": "is_a_type_of",
+    "object": "Senescence",
+    "context": {
+      "en-US": "Astrocyte Senescence is the glial instance of Senescence: astrocytes acquire a stable growth-arrested, pro-inflammatory phenotype with a cytokine- and protease-rich SASP, overlapping with Inflammaging and age-related glial dysfunction.",
+      "zh-TW": "Astrocyte Senescence 是 Senescence 在神經膠細胞中的實例：星狀膠細胞獲得穩定停滯生長、促發炎的表型，並分泌富含細胞激素與蛋白酶的 SASP，與 Inflammaging 及年齡相關的膠細胞功能失調重疊。"
+    },
+    "confidence": 0.9,
+    "source_document": "Astrocyte Senescence.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "56134825a83e",
+    "subject": "cGAS",
+    "predicate": "promotes",
+    "object": "Astrocyte Senescence",
+    "context": {
+      "en-US": "Astrocyte-specific deletion of cGAS robustly attenuates neurotoxicity in neurodegeneration models, demonstrating that astrocytic cGAS acts non-cell-autonomously on neurons; pharmacological inhibition of cGAS or STING likewise reduces neurotoxic A1 astrocytes and promotes the neuroprotective A2 state.",
+      "zh-TW": "在神經退化模型中，星星狀膠細胞專一性剔除 cGAS 可顯著降低神經毒性，證明星狀膠細胞的 cGAS 以非細胞自主方式作用於神經元；cGAS 或 STING 的藥理抑制同樣能減少神經毒性的 A1 星狀膠細胞並促進具神經保護作用的 A2 狀態。"
+    },
+    "confidence": 0.9,
+    "source_document": "Astrocyte Senescence.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "ec2092be5db5",
+    "subject": "Astrocytes",
+    "predicate": "is_a_component_of",
+    "object": "Central Nervous System",
+    "context": {
+      "en-US": "Astrocytes are the most abundant glial cell type of the Central Nervous System, providing metabolic, structural and homeostatic support to Neuron and contributing to formation and maintenance of the Blood-Brain Barrier.",
+      "zh-TW": "Astrocytes 是 Central Nervous System 中最豐富的神經膠細胞類型，為 Neuron 提供代謝、結構與恆定維持上的支持，並參與 Blood-Brain Barrier 的形成與維持。"
+    },
+    "confidence": 0.95,
+    "source_document": "Astrocytes.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "2ca009089516",
+    "subject": "cGAS",
+    "predicate": "is_activated_by",
+    "object": "Tau",
+    "context": {
+      "en-US": "Astrocytic cGAS responds to extracellular pathological cues including Tau and Amyloid Beta as well as released mtDNA, engaging the same cytosolic DNA-sensing axis active in Microglia and thereby driving the neurotoxic A1 reactive astrocyte program.",
+      "zh-TW": "星狀膠細胞的 cGAS 會對細胞外的 Tau、Amyloid Beta 以及釋出的 mtDNA 產生反應，啟動與 Microglia 相同的細胞質 DNA 感測軸，進而驅動具神經毒性的 A1 反應性星狀膠細胞程式。"
+    },
+    "confidence": 0.9,
+    "source_document": "Astrocytes.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "fe373398a4cf",
+    "subject": "Astrocytes",
+    "predicate": "interacts_with",
+    "object": "Microglia",
+    "context": {
+      "en-US": "Reactive Astrocytes and Microglia engage in bidirectional paracrine signaling, propagating Type I Interferon and pro-inflammatory cytokine responses that reshape the glial landscape and sustain chronic inflammation and synaptic dysfunction in Alzheimer's Disease and Parkinson's Disease.",
+      "zh-TW": "反應性的 Astrocytes 與 Microglia 進行雙向的旁分泌訊號傳遞，傳播 Type I Interferon 與促發炎細胞激素反應，重塑神經膠細胞環境，並在 Alzheimer's Disease 與 Parkinson's Disease 中維持慢性發炎與突觸功能失調。"
+    },
+    "confidence": 0.9,
+    "source_document": "Astrocytes.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "3805723f2fd3",
+    "subject": "cGAS-STING Pathway",
+    "predicate": "is_associated_with",
+    "object": "Senescence",
+    "context": {
+      "en-US": "Astrocytic cGAS-STING Pathway activation promotes A1 reactive astrocytes and induces Senescence with a SASP that amplifies Neuroinflammation; inhibiting the pathway shifts astrocytes toward the neuroprotective A2 phenotype, uncoupling toxicity from beneficial astrocyte function.",
+      "zh-TW": "星狀膠細胞的 cGAS-STING Pathway 活化會促進 A1 反應性星狀膠細胞並誘發帶有 SASP 的 Senescence，放大 Neuroinflammation；抑制此途徑可將星狀膠細胞轉向具神經保護作用的 A2 表型，使毒性與有益功能分離。"
+    },
+    "confidence": 0.9,
+    "source_document": "Astrocytes.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "fb1283d5eeaf",
+    "subject": "Atg",
+    "predicate": "regulates",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Atg proteins are the evolutionarily conserved executors of Autophagy, spanning initiation (ULK1 complex), PI3K complex nucleation (Beclin1/Vps34), autophagosome formation via Atg12-Atg5-Atg16 conjugation, cargo handling (p62), and lysosomal fusion.",
+      "zh-TW": "Atg 蛋白質是 Autophagy 中高度保守的執行者，涵蓋起始（ULK1 複合體）、PI3K 複合體成核（Beclin1/Vps34）、經由 Atg12-Atg5-Atg16 結合系統的自噬體形成、貨物辨識（p62）以及與溶酶體的融合。"
+    },
+    "confidence": 0.95,
+    "source_document": "Atg.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "14e7ba614ea1",
+    "subject": "mTORC1",
+    "predicate": "inhibits",
+    "object": "Atg",
+    "context": {
+      "en-US": "mTORC1 is the nutrient-sensing kinase that suppresses Atg protein activity under nutrient-rich conditions, keeping Autophagy tonically inhibited; AMPK, the energy-stress sensor, acts in the opposite direction and activates Atg proteins when cellular energy is low.",
+      "zh-TW": "mTORC1 是營養感測激酶，在營養充足條件下抑制 Atg 蛋白質活性，使 Autophagy 維持張力性抑制；而能量壓力感測器 AMPK 則方向相反，在細胞能量偏低時活化 Atg 蛋白質。"
+    },
+    "confidence": 0.9,
+    "source_document": "Atg.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "f060e7abd252",
+    "subject": "LC3",
+    "predicate": "is_a",
+    "object": "Atg",
+    "context": {
+      "en-US": "LC3 is the mammalian Atg8 homolog and serves as the key autophagosome marker; p62 acts as a cargo receptor that binds LC3 and ubiquitinated targets, bridging selective cargo to the Atg-driven autophagosome.",
+      "zh-TW": "LC3 是哺乳類的 Atg8 同源蛋白，並作為自噬體的關鍵標記；p62 則是貨物受體，結合 LC3 與泛素化的標的，將選擇性貨物橋接到 Atg 驅動的自噬體上。"
+    },
+    "confidence": 0.9,
+    "source_document": "Atg.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "641fdd9139e1",
+    "subject": "Atg",
+    "predicate": "is_associated_with",
+    "object": "Neurodegeneration",
+    "context": {
+      "en-US": "Dysfunction of Atg proteins is linked to Neurodegeneration, Cancer, Metabolic Disease and Aging; nearly sixteen Atg proteins and two distinct ubiquitin-like conjugation systems are required to promote autophagosome formation during caloric restriction and fasting.",
+      "zh-TW": "Atg 蛋白質的功能失調與 Neurodegeneration、Cancer、Metabolic Disease 及 Aging 皆有關；在熱量限制與禁食期間，促進自噬體形成需要近十六個 Atg 蛋白質與兩套不同的類泛素結合系統。"
+    },
+    "confidence": 0.85,
+    "source_document": "Atg.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "0c096e094a95",
+    "subject": "Atg4B",
+    "predicate": "is_activated_by",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Starvation induces Autophagy through deacetylation of the Atg4B cysteine protease; deacetylated Atg4B then interacts with pro-LC3, licensing its processing and lipidation and thereby enabling autophagosome formation.",
+      "zh-TW": "禁食可透過 Atg4B 這 cysteine protease 的去乙醯化來誘導 Autophagy；去乙醯化的 Atg4B 隨後與 pro-LC3 互動，使其得以被加工與脂化，進而促成自噬體形成。"
+    },
+    "confidence": 0.85,
+    "source_document": "Atg4B.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "783f75cf133d",
+    "subject": "Aurora Kinase",
+    "predicate": "is_required_for",
+    "object": "Mitosis",
+    "context": {
+      "en-US": "Aurora Kinase isozymes — Aurora-A, Aurora-B and Aurora-C — coordinate mitotic spindle assembly, chromosome alignment and segregation, and cytokinesis; Aurora-A acts at centrosomes and spindle poles, while Aurora-B is a chromosomal passenger complex component regulating kinetochore-microtubule attachments and the spindle assembly checkpoint.",
+      "zh-TW": "Aurora Kinase 異構酶——Aurora-A、Aurora-B 與 Aurora-C——共同協調有絲分裂紡錘體的組裝、染色體的對齊與分離，以及胞質分裂；Aurora-A 作用於中心體與紡錘體極，Aurora-B 則是染色體乘客複合體成分，調控動粒—微管附著與紡錘體組裝檢查點。"
+    },
+    "confidence": 0.95,
+    "source_document": "Aurora Kinase.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "ed7a7e0cbe5c",
+    "subject": "SIRT2",
+    "predicate": "inhibits",
+    "object": "Aurora Kinase",
+    "context": {
+      "en-US": "SIRT2 is a Tubulin deacetylase that restrains cell-cycle mitotic regulators; disruption of SIRT2 raises Aurora-A and Aurora-B levels, leading to aneuploidy and mitotic cell death, and SIRT2-deficient mice consequently develop gender-specific tumorigenesis including Hepatocellular Carcinoma in males.",
+      "zh-TW": "SIRT2 是調節細胞週期有絲分裂因子的 Tubulin 去乙醯化酶；SIRT2 遭破壞會使 Aurora-A 與 Aurora-B 濃度上升，導致非整倍體與有絲分裂性細胞死亡，而 SIRT2 缺失小鼠因此出現性別特異性的腫瘤發生，包含雄鼠的 Hepatocellular Carcinoma。"
+    },
+    "confidence": 0.9,
+    "source_document": "Aurora Kinase.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "5b97b95ddd7d",
+    "subject": "Aurora Kinase",
+    "predicate": "is_associated_with",
+    "object": "Aneuploidy",
+    "context": {
+      "en-US": "Overexpression or amplification of Aurora-A/Aurora-B is a hallmark of many solid tumors and predicts poor prognosis in breast, lung and pancreatic cancers; excess Aurora mitotic regulator activity in the setting of SIRT2 loss drives Aneuploidy and mitotic catastrophe.",
+      "zh-TW": "Aurora-A／Aurora-B 的過度表現或擴增是許多實體腫瘤的特徵，並預測乳癌、肺癌與胰臟癌的不良預後；在 SIRT2 喪失的情境下，過量的 Aurora 有絲分裂調節因子活性會驅動 Aneuploidy 與有絲分裂災難。"
+    },
+    "confidence": 0.85,
+    "source_document": "Aurora Kinase.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "9cf3b7d565b4",
+    "subject": "Autoinflammation",
+    "predicate": "is_a_type_of",
+    "object": "Innate Immune System",
+    "context": {
+      "en-US": "Autoinflammation is dysregulated activation of the innate immune system — especially NLRP3 inflammasome and IL-1β signaling — without the autoantibodies or autoreactive T cells that define autoimmune disease, distinguishing it as an innate-arm disease process.",
+      "zh-TW": "Autoinflammation 指的是先天免疫系統——尤其是 NLRP3 發炎小體與 IL-1β 訊號——的失調活化，且不含定義自體免疫疾病的自體抗體或自體反應性 T 細胞，因此被視為屬於先天免疫臂的疾病歷程。"
+    },
+    "confidence": 0.9,
+    "source_document": "Autoinflammation.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "0812149ba627",
+    "subject": "NLRP3",
+    "predicate": "is_activated_by",
+    "object": "Uric Acid Crystals",
+    "context": {
+      "en-US": "Uric Acid Crystals activate NLRP3 in joints, making gout the prototypical acquired autoinflammatory disease; the same inflammasome is triggered by other endogenous danger signals such as Silica, oxidized Cardiolipin and mitochondrial DNA in sterile inflammation.",
+      "zh-TW": "Uric Acid Crystals 會在關節中活化 NLRP3，使痛風成為典型的後天性自體發炎疾病；相同的發炎小體也可被其他內源性危險訊號（例如 Silica、氧化態的 Cardiolipin 與粒線體 DNA）在無菌發炎中觸發。"
+    },
+    "confidence": 0.95,
+    "source_document": "Autoinflammation.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "cae8b5cd622a",
+    "subject": "Caspase-1",
+    "predicate": "cleaves",
+    "object": "IL-1β",
+    "context": {
+      "en-US": "Uncontrolled Caspase-1 activity within the hyperactivated NLRP3 inflammasome causes excessive cleavage and secretion of mature IL-1β; because endogenous IL-1Ra and IL-1R2 decoy receptor function normally counterbalance this signaling, loss of that anti-inflammatory regulation produces the runaway inflammation of Autoinflammation.",
+      "zh-TW": "過度活化的 NLRP3 發炎小體中，未受控制的 Caspase-1 活性導致成熟 IL-1β 的大量切割與分泌；由於內源性 IL-1Ra 與 IL-1R2 誘餌受體功能通常可抵銷此訊號，該抗發炎調節的喪失便造成 Autoinflammation 的失控發炎。"
+    },
+    "confidence": 0.95,
+    "source_document": "Autoinflammation.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "39a89035b1af",
+    "subject": "Canakinumab",
+    "predicate": "treats",
+    "object": "Autoinflammation",
+    "context": {
+      "en-US": "IL-1 blockade is the therapeutic mainstay of Autoinflammation: Canakinumab (anti-IL-1β) and Anakinra (IL-1Ra) treat CAPS, gout and other autoinflammatory conditions, while Rilonacept acts as an IL-1 trap. The CANTOS Trial showed that reducing IL-1β autoinflammation lowers cardiovascular events.",
+      "zh-TW": "IL-1 阻斷是 Autoinflammation 的治療主軸：Canakinumab（抗 IL-1β 抗體）與 Anakinra（IL-1Ra）用於 CAPS、痛風及其他自體發炎疾病，Rilonacept 則作為 IL-1 陷阱分子。CANTOS Trial 顯示降低 IL-1β 造成的自體發炎可減少心血管事件。"
+    },
+    "confidence": 0.9,
+    "source_document": "Autoinflammation.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "c5f50dc7cb25",
+    "subject": "Autoinflammation",
+    "predicate": "contributes_to",
+    "object": "Inflammaging",
+    "context": {
+      "en-US": "Chronic low-grade Autoinflammation, driven by persistent NLRP3 activation from endogenous DAMPs such as oxidized Cardiolipin, mtDNA and Uric Acid Crystals, is a major component of Inflammaging and directly links inflammasome-driven IL-1β overproduction to age-related disease.",
+      "zh-TW": "由內源性 DAMP（如氧化態 Cardiolipin、mtDNA 與 Uric Acid Crystals）持續活化 NLRP3 所造成的慢性低度 Autoinflammation，是 Inflammaging 的重要組成，並將發炎小體驅動的 IL-1β 過量生成直接連結到年齡相關疾病。"
+    },
+    "confidence": 0.9,
+    "source_document": "Autoinflammation.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "67f95143c67e",
+    "subject": "Autonomic Nervous System",
+    "predicate": "is_measured_by",
+    "object": "Heart Rate Variability",
+    "context": {
+      "en-US": "Heart Rate Variability is the noninvasive physiological readout of Autonomic Nervous System balance, dominated by the tug-of-war between the sympathetic and parasympathetic branches rather than by conscious input — making HRV the practical proxy for recovery capacity.",
+      "zh-TW": "Heart Rate Variability 是 Autonomic Nervous System 平衡狀態的非侵入性生理讀值，主要由交感與副交感分支之間的拉鋸決定，而非由意識輸入決定；因此 HRV 實務上可作為恢復能力的替代指標。"
+    },
+    "confidence": 0.95,
+    "source_document": "Autonomic Nervous System.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "996df20a49a5",
+    "subject": "Axon Degeneration",
+    "predicate": "is_executed_by",
+    "object": "SARM1",
+    "context": {
+      "en-US": "Axon Degeneration runs through a SARM1-dependent execution pathway: axonal injury causes NMNAT2 loss, the NMN/NAD+ ratio rises, SARM1 activates, NAD+ is catastrophically depleted, and energy failure produces fragmentation. Non-SARM1 routes such as Apoptosis or Autophagy-mediated pruning contribute in developmental and disease contexts.",
+      "zh-TW": "Axon Degeneration 主要透過依賴 SARM1 的執行途徑進行：軸突損傷導致 NMNAT2 喪失，NMN／NAD+ 比值上升，SARM1 活化造成 NAD+ 災難性耗竭，導致能量衰竭與片段化。Apoptosis 或 Autophagy 介導的修剪等非 SARM1 途徑，則在發育與疾病情境中有所貢獻。"
+    },
+    "confidence": 0.95,
+    "source_document": "Axon Degeneration.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "16d04aaaa8c2",
+    "subject": "NMNAT2",
+    "predicate": "protects_against",
+    "object": "Axon Degeneration",
+    "context": {
+      "en-US": "NMNAT2 is a protective NAD+ synthase whose loss from the distal axon after injury is the proximal event that triggers Axon Degeneration; because SARM1 consumes the NAD+ that NMNAT2 supplies, SARM1 inhibitors such as Disulfiram block the execution step.",
+      "zh-TW": "NMNAT2 是具保護性的 NAD+ 合成酵素，損傷後自遠端軸突喪失是觸發 Axon Degeneration 的近端事件；由於 SARM1 消耗的正是 NMNAT2 供應的 NAD+，因此如 Disulfiram 等 SARM1 抑制劑可阻斷此執行步驟。"
+    },
+    "confidence": 0.9,
+    "source_document": "Axon Degeneration.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "e7376a50686b",
+    "subject": "Wallerian Degeneration",
+    "predicate": "is_a_type_of",
+    "object": "Axon Degeneration",
+    "context": {
+      "en-US": "Wallerian Degeneration is the best-characterized acute form of Axon Degeneration, and Axon Degeneration itself underlies chemotherapy-induced peripheral neuropathy, traumatic brain and spinal cord injury, and neurodegeneration in ALS, Alzheimer's Disease and Glaucoma.",
+      "zh-TW": "Wallerian Degeneration 是 Axon Degeneration 中研究最清楚的急性型態；而 Axon Degeneration 本身則是化療引起周邊神經病變、創傷性腦與脊髓損傷，以及 ALS、Alzheimer's Disease 與 Glaucoma 中神經退化的基礎。"
+    },
+    "confidence": 0.9,
+    "source_document": "Axon Degeneration.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "6a779526a158",
+    "subject": "B Cells",
+    "predicate": "is_a_type_of",
+    "object": "Adaptive Immune System",
+    "context": {
+      "en-US": "B Cells are bone marrow–derived adaptive immune lymphocytes that differentiate into antibody-secreting plasma cells on antigen encounter, forming the humoral arm of the Adaptive Immune System alongside T Lymphocyte-mediated cellular immunity.",
+      "zh-TW": "B Cells 是源自骨髓的適應性免疫淋巴球，在遇到抗原後分化為分泌抗體的漿細胞，與 T Lymphocyte 所介導的細胞免疫共同構成 Adaptive Immune System 的體液免疫臂。"
+    },
+    "confidence": 0.95,
+    "source_document": "B Cells.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "0d829906b520",
+    "subject": "B Cells",
+    "predicate": "contributes_to",
+    "object": "Neuroinflammation",
+    "context": {
+      "en-US": "Periphery-derived B Cells enter the Central Nervous System during neurodegeneration and contribute to Neuroinflammation through cytokine secretion and autoantibody production; the balance between protective regulatory subsets and pathogenic autoimmunity determines CNS outcome.",
+      "zh-TW": "源自周邊的 B Cells 在神經退化期間進入 Central Nervous System，並透過細胞激素分泌與自體抗體產生促成 Neuroinflammation；具保護性的調節性亞群與致病性自體免疫之間的平衡，決定了中樞神經系統的結局。"
+    },
+    "confidence": 0.9,
+    "source_document": "B Cells.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "8b93fc230afc",
+    "subject": "cGAS-STING Pathway",
+    "predicate": "regulates",
+    "object": "B Cells",
+    "context": {
+      "en-US": "The cGAS-STING Pathway shapes B Cells responses: STING activation influences B-cell priming and can promote regulatory B-cell subsets with anti-inflammatory potential, whereas dysregulated cGAS-STING–driven autoimmunity favors pathogenic autoantibody generation and Autoimmune Disease.",
+      "zh-TW": "cGAS-STING Pathway 會形塑 B Cells 的反應：STING 活化影響 B 細胞的起始，並可促進具抗發炎潛能的調節性 B 細胞亞群；反之，失調的 cGAS-STING 所驅動的自體免疫則有利於致病性自體抗體生成與 Autoimmune Disease。"
+    },
+    "confidence": 0.85,
+    "source_document": "B Cells.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "b8e5b778f283",
+    "subject": "B2M",
+    "predicate": "stabilizes",
+    "object": "HLA-E",
+    "context": {
+      "en-US": "B2M is the invariant light chain that forms all MHC class I molecules and, in particular, stabilizes HLA-E surface expression; HLA-E/B2M on senescent and tumor cells engages NKG2A/CD94 on Natural Killer Cells and CD8 T cells, blunting cytotoxic killing and enabling Immune Evasion.",
+      "zh-TW": "B2M 是構成所有 MHC 第一類分子的不變輕鏈，特別能穩定 HLA-E 的表面表現；衰老細胞與腫瘤細胞上的 HLA-E/B2M 會接合 Natural Killer Cells 與 CD8 T cells 上的 NKG2A/CD94，削弱細胞毒殺殺傷並促成 Immune Evasion。"
+    },
+    "confidence": 0.95,
+    "source_document": "B2M.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "0a7e6c540c4d",
+    "subject": "B2M",
+    "predicate": "marks",
+    "object": "Senescent Cells",
+    "context": {
+      "en-US": "B2M is enriched on the surface of Senescent Cells and has been exploited for selective senolysis: anti-B2M antibodies conjugated to pyrrolobenzodiazepine payloads kill senescent fibroblasts while sparing proliferating cells, making B2M a targeted senolytic delivery marker.",
+      "zh-TW": "B2M 在 Senescent Cells 表面高度表現，並已被用於選擇性 senolysis：以 pyrrolobenzodiazepine 毒素偶聯的抗 B2M 抗體可殺死衰老纖維母細胞而 sparing 增殖細胞，使 B2M 成為具靶向性的 senolytic 遞送標記。"
+    },
+    "confidence": 0.9,
+    "source_document": "B2M.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "c7ae8aea24f7",
+    "subject": "B2M",
+    "predicate": "is_a_component_of",
+    "object": "DNAmGrimAge",
+    "context": {
+      "en-US": "B2M is one of twelve plasma protein surrogates incorporated into the DNAmGrimAge epigenetic clock, where DNA methylation patterns estimate B2M levels as part of a composite mortality predictor; elevated circulating B2M is associated with Inflammaging, Chronic Kidney Disease and Cardiovascular Disease.",
+      "zh-TW": "B2M 是納入 DNAmGrimAge 表觀遺傳時鐘的十二種血漿蛋白替代指標之一，該時鐘以 DNA 甲基化型態推估 B2M 濃度並組成複合死亡預測指標；循環中的 B2M 升高則與 Inflammaging、Chronic Kidney Disease 及 Cardiovascular Disease 相關。"
+    },
+    "confidence": 0.9,
+    "source_document": "B2M.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "b01c9152ae7a",
+    "subject": "BAFF",
+    "predicate": "is_a_component_of",
+    "object": "SASP",
+    "context": {
+      "en-US": "BAFF (TNFSF13B, BLyS) is an identified SASP cytokine secreted by senescent fibroblasts and monocytic leukaemia cells; it reinforces and broadens the pro-inflammatory secretome, notably upregulating IL-6, and thereby couples the senescent microenvironment to humoral immunity.",
+      "zh-TW": "BAFF（TNFSF13B、BLyS）是已知的 SASP 細胞激素，由衰老纖維母細胞與單核細胞白血病細胞分泌；它會強化並擴大促發炎的分泌表型，尤其上调 IL-6，藉此將衰老微環境與體液免疫連結起來。"
+    },
+    "confidence": 0.95,
+    "source_document": "BAFF.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "844a17d329da",
+    "subject": "BAFF",
+    "predicate": "activates",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "BAFF binds three TNF-receptor superfamily members — BAFF-R, BCMA and TACI — with distinct affinities; BAFF-R engages TRAF3→NIK to activate the non-canonical NF-κB pathway plus canonical NF-κB, MAPK and PI3K/Akt, promoting B-cell survival, maturation and immunoglobulin class-switching.",
+      "zh-TW": "BAFF 會以不同親和力結合三個 TNF 受體超家族成員——BAFF-R、BCMA 與 TACI；BAFF-R 透過 TRAF3→NIK 活化非典型 NF-κB 途徑，並同時涉及典型 NF-κB、MAPK 與 PI3K/Akt，促進 B 細胞存活、成熟與免疫球蛋白類別轉換。"
+    },
+    "confidence": 0.95,
+    "source_document": "BAFF.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "5efc45ded034",
+    "subject": "BAFF",
+    "predicate": "upregulates",
+    "object": "IL-6",
+    "context": {
+      "en-US": "Within senescent cells BAFF acts in an autocrine/paracrine manner to amplify pro-inflammatory SASP components, raising IL-6 and other mediators; chronic BAFF exposure in aged tissue couples Inflammaging with autoantibody production and loss of B-cell tolerance.",
+      "zh-TW": "在衰老細胞中，BAFF 以自分泌／旁分泌方式放大促發炎的 SASP 成分，提高 IL-6 及其他介質；老化組織中長期的 BAFF 暴露則將 Inflammaging 與自體抗體生成及 B 細胞耐受性喪失連結起來。"
+    },
+    "confidence": 0.9,
+    "source_document": "BAFF.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "9555e246577a",
+    "subject": "BAFF",
+    "predicate": "is_produced_by",
+    "object": "Macrophages",
+    "context": {
+      "en-US": "BAFF is produced by Monocytes/Macrophages, dendritic cells, neutrophils and T cells, and in senescence additionally by senescent fibroblasts and monocytic leukaemia cells; elevated BAFF is associated with age-related immune dysfunction, autoimmune disease and B-cell malignancies.",
+      "zh-TW": "BAFF 由單核球／Macrophages、樹突細胞、中性球與 T 細胞產生，在衰老情境下另由衰老纖維母細胞與單核細胞白血病細胞分泌；BAFF 升高與年齡相關的免疫功能失調、自體免疫疾病及 B 細胞惡性腫瘤相關。"
+    },
+    "confidence": 0.9,
+    "source_document": "BAFF.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "f12e00c160ad",
+    "subject": "BCR-ABL",
+    "predicate": "is_derived_from",
+    "object": "c-ABL",
+    "context": {
+      "en-US": "BCR-ABL is the constitutively active tyrosine kinase produced by the t(9;22) Philadelphia translocation, which fuses BCR to the c-ABL kinase moiety; this fusion deregulates c-ABL and drives leukemia via RAS/MAPK, PI3K/AKT and STAT5 survival signaling.",
+      "zh-TW": "BCR-ABL 是由 t(9;22) 費城染色體轉位所產生的持續活化酪胺酸激酶，該轉位將 BCR 與 c-ABL 激酶片段融合；此融合使 c-ABL 去調控，並透過 RAS/MAPK、PI3K/AKT 與 STAT5 存活訊號驅動白血病。"
+    },
+    "confidence": 0.95,
+    "source_document": "BCR-ABL.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "8565d22c7369",
+    "subject": "BCR-ABL",
+    "predicate": "drives",
+    "object": "Cancer",
+    "context": {
+      "en-US": "BCR-ABL drives Cancer through RAS/MAPK, PI3K/AKT and STAT5 survival signaling while suppressing Apoptosis; imatinib inhibition of BCR-ABL pioneered targeted Cancer therapy, and the T315I gatekeeper mutation requires ponatinib or asceminib instead.",
+      "zh-TW": "BCR-ABL 透過 RAS/MAPK、PI3K/AKT 與 STAT5 存活訊號驅動 Cancer，同時抑制 Apoptosis；以 imatinib 抑制 BCR-ABL 開啟了標靶 Cancer 治療的先河，而 T315I 守門突變則須改用 ponatinib 或 asciminib。"
+    },
+    "confidence": 0.9,
+    "source_document": "BCR-ABL.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "b680647ec15e",
+    "subject": "BIRC2",
+    "predicate": "ubiquitinates",
+    "object": "RIPK1",
+    "context": {
+      "en-US": "BIRC2 encodes cIAP1, whose RING domain attaches K63 and linear ubiquitin chains to RIPK1 within TNFR1 complex I, building the IKK/NF-κB scaffold and inducing c-FLIP — the survival arm of the Caspase-8-c-FLIP rheostat.",
+      "zh-TW": "BIRC2 編碼 cIAP1，其 RING 結構域在 TNFR1 complex I 中對 RIPK1 加上 K63 與線型泛素鏈，建立 IKK/NF-κB 支架並誘導 c-FLIP——即 Caspase-8-c-FLIP 恆定器的存活臂。"
+    },
+    "confidence": 0.9,
+    "source_document": "BIRC2.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "478f7047bc48",
+    "subject": "Smac mimetics",
+    "predicate": "degrades",
+    "object": "BIRC2",
+    "context": {
+      "en-US": "Smac mimetics bind the BIR2/BIR3 domains of cIAP1, dimerize RING domains and flip ligase activity onto cIAP1 itself, collapsing its half-life from hours to minutes; cIAP1 degradation is the proximal pharmacodynamic readout in every Smac-mimetic trial and licenses Ripoptosome assembly.",
+      "zh-TW": "Smac mimetics 結合 cIAP1 的 BIR2/BIR3 結構域、使 RING 結構域二聚化，並將連接酶活性轉 onto cIAP1 自身，使其半衰期由數小時縮短至數分鐘；cIAP1 降解是所有 Smac-mimetic 試驗最接近的藥效學讀值，並使 Ripoptosome 得以組裝。"
+    },
+    "confidence": 0.9,
+    "source_document": "BIRC2.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "5d8506570cf0",
+    "subject": "BIRC2",
+    "predicate": "is_a_component_of",
+    "object": "cIAPs",
+    "context": {
+      "en-US": "BIRC2 encodes cIAP1, the workhorse subunit of the cIAPs pair; 11q22 BIRC2/BIRC3 amplification marks apoptosis-resistant carcinomas and myeloma, and compensatory cIAP2 upregulation with RIPK3 silencing blunts Smac-mimetic efficacy.",
+      "zh-TW": "BIRC2 編碼 cIAP1，是 cIAPs 配對中的主力次單元；11q22 的 BIRC2/BIRC3 擴增標記出抗凋亡的致癌腫瘤與骨髓瘤，而代償性的 cIAP2 上調加上 RIPK3 靜默會削弱 Smac-mimetic 的效力。"
+    },
+    "confidence": 0.9,
+    "source_document": "BIRC2.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "91fe6c490aef",
+    "subject": "BIRC2",
+    "predicate": "inhibits",
+    "object": "Ripoptosome",
+    "context": {
+      "en-US": "While BIRC2/cIAP1 is intact, Ripoptosome assembly is suppressed; its loss removes the survival signal and licenses spontaneous ripoptosome formation, making cIAP status the switch that decides whether TNFR1 signaling ends in survival or death.",
+      "zh-TW": "當 BIRC2/cIAP1 完整時，Ripoptosome 的組裝受到抑制；其喪失會移除存活訊號並使自發性 ripoptosome 形成得以發生，因此 cIAP 狀態是決定 TNFR1 訊號走向存活或死亡的開關。"
+    },
+    "confidence": 0.85,
+    "source_document": "BIRC2.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "40881bb91d6e",
+    "subject": "BMAL1",
+    "predicate": "interacts_with",
+    "object": "CLOCK",
+    "context": {
+      "en-US": "BMAL1 (ARNTL) is a core component of the mammalian circadian clock that heterodimerizes with CLOCK to bind E-box elements and drive transcription of clock-controlled genes; SIRT1 amplifies BMAL1 and CLOCK expression by deacetylating PGC-1α.",
+      "zh-TW": "BMAL1（ARNTL）是哺乳類晝夜節律時鐘的核心成分，與 CLOCK 形成異二聚體結合 E-box 元素並驅動時鐘受控基因的轉錄；SIRT1 則透過去乙醯化 PGC-1α 來放大 BMAL1 與 CLOCK 的表現。"
+    },
+    "confidence": 0.95,
+    "source_document": "BMAL1.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "1437f5d77458",
+    "subject": "BMAL1",
+    "predicate": "upregulates",
+    "object": "NAMPT",
+    "context": {
+      "en-US": "A key transcriptional target of the BMAL1-CLOCK complex is NAMPT, the rate-limiting enzyme of the NAD+ salvage pathway; rhythmic NAMPT expression gates the circadian oscillation of NAD+, which in turn sets the timing of SIRT1 activation.",
+      "zh-TW": "BMAL1-CLOCK 複合體的關鍵轉錄標的是 NAMPT，也就是 NAD+ 回收途徑的限速酵素；NAMPT 的節律性表現塑造 NAD+ 的晝夜振盪，進而決定 SIRT1 活化的時序。"
+    },
+    "confidence": 0.95,
+    "source_document": "BMAL1.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "12537bb907a2",
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "BMAL1",
+    "context": {
+      "en-US": "SIRT1 deacetylates and activates BMAL1, coupling cellular metabolic state (NAD+ availability) to circadian gene expression and forming a closed SIRT1-BMAL1/CLOCK-NAMPT loop; age-related SIRT1 decline disrupts this loop, generating circadian NAD+ oscillations that gate SIRT1 across the day.",
+      "zh-TW": "SIRT1 會去乙醯化並活化 BMAL1，將細胞代謝狀態（NAD+ 可用性）與晝夜節律基因表現耦合，形成 SIRT1-BMAL1/CLOCK-NAMPT 的封閉迴路；SIRT1 隨年齡下降會破壞此迴路，而由 BMAL1 驅動的晝夜 NAD+ 振盪則在一天之中為 SIRT1 活性設定閘門。"
+    },
+    "confidence": 0.95,
+    "source_document": "BMAL1.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "883b48bd7fec",
+    "subject": "BMP",
+    "predicate": "is_a_type_of",
+    "object": "TGFβ",
+    "context": {
+      "en-US": "BMP is a large subfamily of secreted growth factors within the TGFβ superfamily; synthesized as precursors and cleaved to mature C-terminal dimers stabilized by an intramolecular cystine knot, BMPs signal through type I/II serine-threonine kinase receptors to form morphogen gradients.",
+      "zh-TW": "BMP 是 TGFβ 超家族中一大分泌型生長因子亞家族；它們先以前驅物合成，再被切割釋出由分子內 cystine knot 穩定的 C 端成熟二聚體，並透過第一型／第二型絲胺酸－蘇胺酸激酶受體傳訊，形成形態發生的濃度梯度。"
+    },
+    "confidence": 0.95,
+    "source_document": "BMP.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "ea27565a0b04",
+    "subject": "BMP",
+    "predicate": "is_a_component_of",
+    "object": "SASP",
+    "context": {
+      "en-US": "BMP acts as a beneficial developmental SASP factor: programmed senescence during embryogenesis releases BMPs alongside Matrix Metalloproteinase and IGFBP5, contributing to patterning and growth; BMP signaling cooperates with developmental Senescence programs during morphogenesis and tissue remodeling.",
+      "zh-TW": "BMP 是具益處的發育型 SASP 因子：胚胎發育期間的程式性衰老會連同 Matrix Metalloproteinase 與 IGFBP5 一起釋放 BMP，參與圖式形成與生長；BMP 訊號在形態發生與組織重塑期間與發育性 Senescence 程式協同作用。"
+    },
+    "confidence": 0.9,
+    "source_document": "BMP.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "bd25fb6bb6dc",
+    "subject": "BMP",
+    "predicate": "phosphorylates",
+    "object": "SMAD4",
+    "context": {
+      "en-US": "On ligand binding, BMP receptors phosphorylate receptor-regulated SMAD1/5/8, which complex with SMAD4 and translocate to the nucleus to regulate transcription — the canonical BMP pathway; BMP also signals non-canonically through MAPK (p38, ERK) and is antagonized extracellularly by noggin, chordin and gremlin.",
+      "zh-TW": "配體結合後，BMP 受體會磷酸化受體調節型 SMAD1/5/8，後者與 SMAD4 形成複合體並轉位入核調控轉錄，即典型 BMP 途徑；BMP 亦透過 MAPK（p38、ERK）進行非典型訊號傳遞，並受 noggin、chordin 與 gremlin 在細胞外拮抗。"
+    },
+    "confidence": 0.85,
+    "source_document": "BMP.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "8156bd212bc8",
+    "subject": "BNIP3",
+    "predicate": "binds",
+    "object": "LC3",
+    "context": {
+      "en-US": "BNIP3 is a BH3-only outer mitochondrial membrane protein that directly binds LC3 through its LIR motif, acting as a receptor for ubiquitin-independent Mitophagy and triggering selective clearance of mitochondria independently of the PINK1/Parkin route.",
+      "zh-TW": "BNIP3 是 BH3-only 次家族的粒線體外膜蛋白，透過其 LIR motif 直接結合 LC3，作為不依賴泛素的 Mitophagy 受體，獨立於 PINK1/Parkin 途徑觸發粒線體的選擇性清除。"
+    },
+    "confidence": 0.95,
+    "source_document": "BNIP3.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "9900a2f0b9ad",
+    "subject": "BNIP3",
+    "predicate": "is_induced_by",
+    "object": "HIF-1α",
+    "context": {
+      "en-US": "Under hypoxic or ischemic stress, HIF-1α transcriptionally activates BNIP3 in neurons; BNIP3 then inserts into the mitochondrial membrane, causing loss of mitochondrial membrane potential and opening of the Mitochondrial Permeability Transition Pore, producing delayed neuronal death that BNIP3 knockout rescues.",
+      "zh-TW": "在缺氧或缺血壓力下，HIF-1α 於神經元中轉錄活化 BNIP3；BNIP3 隨後嵌入粒線體膜，造成粒線體膜電位喪失與 Mitochondrial Permeability Transition Pore 開啟，引發延遲性神經元死亡，而 BNIP3 敲除可挽救此現象。"
+    },
+    "confidence": 0.95,
+    "source_document": "BNIP3.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "97477c78ccb4",
+    "subject": "BNIP3",
+    "predicate": "interacts_with",
+    "object": "OPA1",
+    "context": {
+      "en-US": "BNIP3 interacts with OPA1 to induce mitochondrial fragmentation and with DRP1 to facilitate fission, so the mitophagy receptor is mechanically coupled to the fusion/fission machinery; excessive or prolonged BNIP3 activation instead disrupts neuronal energy metabolism and triggers Apoptosis.",
+      "zh-TW": "BNIP3 與 OPA1 互動以誘導粒線體片段化，並與 DRP1 互動以促進分裂，使此自噬受體在機制上與融合／分裂機制相連；過度或長期的 BNIP3 活化則反而破壞神經元能量代謝並觸發 Apoptosis。"
+    },
+    "confidence": 0.9,
+    "source_document": "BNIP3.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "270621d99d09",
+    "subject": "BNIP3L",
+    "predicate": "mediates",
+    "object": "Mitophagy",
+    "context": {
+      "en-US": "BNIP3L (NIX) is a hypoxia-inducible outer mitochondrial membrane mitophagy receptor whose LIR motif binds LC3 on the phagophore; because it acts without ubiquitination, BNIP3L-mediated mitophagy is independent of PINK1 and Parkin and can compensate for loss of those pathways in Parkinson's Disease.",
+      "zh-TW": "BNIP3L（NIX）是缺氧誘導的粒線體外膜自噬受體，其 LIR motif 結合吞噬膜上的 LC3；由於不需泛素化，BNIP3L 介導的 Mitophagy 獨立於 PINK1 與 Parkin，並可在 Parkinson's Disease 中補償這些途徑的喪失。"
+    },
+    "confidence": 0.95,
+    "source_document": "BNIP3L.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "8e88b5c33919",
+    "subject": "BNIP3L",
+    "predicate": "is_induced_by",
+    "object": "HIF-1α",
+    "context": {
+      "en-US": "BNIP3L expression is transcriptionally upregulated under hypoxia through HIF-1α stabilization, linking oxygen sensing to mitophagy induction; the same induction occurs in erythroid precursors, where BNIP3L drives programmed mitochondrial elimination during erythroblast maturation, and NIX knockout mice develop anemia.",
+      "zh-TW": "BNIP3L 的表現在缺氧下經由 HIF-1α 穩定化而轉錄上調，將氧氣感測連結到自噬誘導；同樣的誘導也發生在紅血球前驅細胞，BNIP3L 在此驅動紅血球母細胞成熟時的程式性粒線體消除，而 NIX 敲除小鼠會出現貧血。"
+    },
+    "confidence": 0.9,
+    "source_document": "BNIP3L.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "013676704fe0",
+    "subject": "BRAF",
+    "predicate": "phosphorylates",
+    "object": "MEK",
+    "context": {
+      "en-US": "BRAF is a serine/threonine kinase in the RAS-RAF-MEK-ERK cascade that phosphorylates MEK1/2, which then activates ERK1/2 to regulate Cell Proliferation, Differentiation and Survival; the BRAF V600E mutation constitutively activates this kinase activity in ~50% of Melanoma.",
+      "zh-TW": "BRAF 是 RAS-RAF-MEK-ERK 串聯中的絲胺酸／蘇胺酸激酶，會磷酸化 MEK1/2，後者再活化 ERK1/2 以調節 Cell Proliferation、Differentiation 與 Survival；BRAF V600E 突變使此激酶活性持續活化，見於約 50% 的 Melanoma。"
+    },
+    "confidence": 0.95,
+    "source_document": "BRAF.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "5660da949435",
+    "subject": "BRAF",
+    "predicate": "is_activated_by",
+    "object": "RAS",
+    "context": {
+      "en-US": "RAS is the upstream activator that relieves BRAF inhibition and engages the RAF-MEK-ERK cascade; BRAF inhibitors such as Vemurafenib and Dabrafenib are approved for BRAF-mutant melanoma and are combined with MEK inhibitors to improve response and reduce resistance.",
+      "zh-TW": "RAS 是上游活化因子，可解除對 BRAF 的抑制並啟動 RAF-MEK-ERK 串聯；如 Vemurafenib 與 Dabrafenib 等 BRAF 抑制劑已獲准用於 BRAF 突變型 Melanoma，並常與 MEK 抑制劑合併以提升反應率並降低抗藥性。"
+    },
+    "confidence": 0.9,
+    "source_document": "BRAF.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "fd1ad2737dd9",
+    "subject": "BRAF",
+    "predicate": "is_associated_with",
+    "object": "Melanoma",
+    "context": {
+      "en-US": "The BRAF V600E driver mutation occurs in roughly half of Melanoma and also in Colorectal Cancer, Thyroid Cancer, non-small-cell lung cancer and Langerhans cell histiocytosis, making BRAF status a defining molecular feature of these tumors and a validated drug target.",
+      "zh-TW": "BRAF V600E 這個驅動突變出現於約半數的 Melanoma，也見於大腸癌、甲狀腺癌、非小細胞肺癌與朗格漢斯細胞組織球增生症，使 BRAF 狀態成為這些腫瘤的定義性分子特徵並成為已驗證的藥物標的。"
+    },
+    "confidence": 0.95,
+    "source_document": "BRAF.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "814a380b7683",
+    "subject": "BRCA2",
+    "predicate": "is_required_for",
+    "object": "Homologous Recombination",
+    "context": {
+      "en-US": "BRCA2 is the Tumor Suppressor protein that loads RAD51 onto single-stranded DNA at resected Double-Strand Breaks, enabling strand exchange during Homologous Recombination; with BRCA1 and PALB2 it forms a complex essential for genome maintenance through DNA Repair.",
+      "zh-TW": "BRCA2 是將 RAD51 載 onto 切除後的 Double-Strand Breaks 所產生的單股 DNA 上的 Tumor Suppressor 蛋白，使 Homologous Recombination 過程中的股交換得以進行；它與 BRCA1 及 PALB2 共同形成對透過 DNA Repair 維持基因體完整性所必需的複合體。"
+    },
+    "confidence": 0.95,
+    "source_document": "BRCA2.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "e97e5fd8a47b",
+    "subject": "PARP inhibitors",
+    "predicate": "increases_susceptibility_to",
+    "object": "BRCA2",
+    "context": {
+      "en-US": "PARP inhibitors exploit synthetic lethality in BRCA2-deficient tumors, which depend on PARP-mediated repair of single-strand lesions and cannot tolerate its loss; germline BRCA2 mutations confer high lifetime risk for Breast Cancer, ovarian cancer, Pancreatic Cancer, Prostate Cancer and Melanoma.",
+      "zh-TW": "PARP inhibitors 藉由合成致死在 BRCA2 缺乏的腫瘤中發揮作用——這類腫瘤依賴 PARP 介導的單股損傷修復而無法承受其喪失；BRCA2 的種系突變則帶有 Breast Cancer、ovarian cancer、Pancreatic Cancer、Prostate Cancer 與 Melanoma 的高終生風險。"
+    },
+    "confidence": 0.9,
+    "source_document": "BRCA2.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "75d038c796d3",
+    "subject": "BRCA2",
+    "predicate": "is_a_type_of",
+    "object": "Tumor Suppressor",
+    "context": {
+      "en-US": "BRCA2 is a classical Tumor Suppressor whose loss disables double-strand break repair by homologous recombination; because the pathway is cell-cycle regulated and mostly active in S/G2, loss is tolerated in slow-growing tissue but lethal in proliferating cells.",
+      "zh-TW": "BRCA2 是典型的 Tumor Suppressor，其喪失會使經由同源重組的雙股斷裂修復失效；由於該途徑受細胞週期調控且主要在 S/G2 期活躍，BRCA2 喪失在緩慢生長的組織中尚可耐受，但在增殖細胞中則是致死的。"
+    },
+    "confidence": 0.85,
+    "source_document": "BRCA2.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "6a9e67ca9335",
+    "subject": "BRG1",
+    "predicate": "drives",
+    "object": "Nucleosome Remodeling",
+    "context": {
+      "en-US": "BRG1 powers Nucleosome Remodeling as the ATPase engine of SWI-SNF; SMARCA4 loss defines small-cell carcinoma of the ovary (hypercalcemic type) and subsets of non-small-cell lung cancer, and sensitizes them to EZH2 and CDK4/6 inhibition.",
+      "zh-TW": "BRG1 作為 SWI-SNF 的 ATPase 引擎驅動 Nucleosome Remodeling；SMARCA4 喪失定義了卵巢小細胞癌（高血鈣型）與部分非小細胞肺癌，並使這些腫瘤對 EZH2 與 CDK4/6 抑制更加敏感。"
+    },
+    "confidence": 0.9,
+    "source_document": "BRG1.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "ddc1b8fe939e",
+    "subject": "Bacteroidetes",
+    "predicate": "produces",
+    "object": "Short-chain Fatty Acids",
+    "context": {
+      "en-US": "Gut Bacteroidetes ferment dietary fiber, resistant starch and host glycans that host enzymes cannot digest into Short-chain Fatty Acids — principally acetate and propionate — plus succinate; these metabolites nourish colonocytes, modulate hepatic lipid metabolism, and engage enteroendocrine and immune cells.",
+      "zh-TW": "腸道 Bacteroidetes 會將宿主酵素無法消化的膳食纖維、抗性澱粉與宿主聚醣發酵成 Short-chain Fatty Acids（主要是乙酸與丙酸）以及琥珀酸；這些代謝物滋養結腸細胞、調節肝臟脂質代謝，並與腸泌神經細胞及免疫細胞互動。"
+    },
+    "confidence": 0.95,
+    "source_document": "Bacteroidetes.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "0989c83cf2b9",
+    "subject": "Bacteroidetes",
+    "predicate": "is_a_type_of",
+    "object": "Gram-Negative Bacteria",
+    "context": {
+      "en-US": "Bacteroidetes is a major phylum of Gram-Negative Bacteria — typically non-spore-forming rods that are obligate or facultative anaerobes — distinguished from Firmicutes by cell-wall architecture and a lipopolysaccharide-rich outer membrane; Bacteroides and Prevotella dominate the human Gut Microbiome.",
+      "zh-TW": "Bacteroidetes 是 Gram-Negative Bacteria 的一個主要門類——典型為不形成芽孢的桿菌，專性或兼性厭氧——並在細胞壁架構與富含脂多醣的外膜上與 Firmicutes 區隔；Bacteroides 與 Prevotella 在人類 Gut Microbiome 中佔優勢。"
+    },
+    "confidence": 0.9,
+    "source_document": "Bacteroidetes.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "cdce1941fcdb",
+    "subject": "Bacteroidetes",
+    "predicate": "is_associated_with",
+    "object": "Longevity",
+    "context": {
+      "en-US": "The Bacteroidetes-to-Firmicutes ratio is a widely used, if debated, marker of gut community structure in aging, and Bacteroidetes taxa are recurrently profiled in studies linking the Gut Microbiome to Longevity; dietary Nicotinamide Riboside and related NAD+ precursors have been reported to modulate Bacteroidetes abundance, suggesting host metabolic–microbial crosstalk.",
+      "zh-TW": "Bacteroidetes 與 Firmicutes 的比例是評估老化時腸道群落結構的常用（但有爭議的）指標，而 Bacteroidetes 類群在連結 Gut Microbiome 與 Longevity 的研究中反覆被檢測；膳食Nicotinamide Riboside 及相關 NAD+ 前驅物被報告可調整 Bacteroidetes 的豐度，顯示宿主代謝與微生物的交互作用。"
+    },
+    "confidence": 0.8,
+    "source_document": "Bacteroidetes.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "01e41d045c2b",
+    "subject": "Bacteroidetes",
+    "predicate": "is_a_component_of",
+    "object": "Gut Microbiome",
+    "context": {
+      "en-US": "Bacteroidetes are among the dominant constituents of the human Gut Microbiome, where they help maintain the intestinal barrier against pathogens through competitive colonization resistance; when translocated, members such as Bacteroides fragilis can cause intra-abdominal abscesses and sepsis.",
+      "zh-TW": "Bacteroidetes 是人類 Gut Microbiome 的主要組成成員之一，並藉由競爭性定殖抗性協助維持腸道屏障對病原菌的防禦；當發生轉位時，Bacteroides fragilis 等成員可造成腹腔內膿腫與敗血症。"
+    },
+    "confidence": 0.9,
+    "source_document": "Bacteroidetes.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "fa2808f77dcb",
+    "subject": "Quiescence",
+    "predicate": "protects_against",
+    "object": "Autoimmune Disease",
+    "context": {
+      "en-US": "Loss of the negative immune regulators that hold T Cell in a quiescent state makes T cells hypersensitive to activation signals, decreasing self-tolerance and thereby increasing Autoimmune Disease; quiescence is thus an active brake on autoimmunity rather than passive inactivity.",
+      "zh-TW": "喪失使 T Cell 維持在靜止狀態的負向免疫調節因子，會讓 T 細胞對活化訊號過度敏感，降低自身耐受性並因而增加 Autoimmune Disease；因此靜止狀態是抑制自體免疫的主動煞車，而非被動的不活動。"
+    },
+    "confidence": 0.85,
+    "source_document": "Autoimmune Disease.md",
+    "created": "2026-09-29T15:41:28Z",
+    "updated": "2026-09-29T15:41:28Z"
   }
 ]

@@ -182,8 +182,8 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "905892bef0bd",
-    "subject": "Antioxidants",
+    "id": "194564608803",
+    "subject": "Antioxidant",
     "predicate": "prevent",
     "object": "Endogenous Antioxidant Upregulation",
     "context": {
@@ -193,7 +193,7 @@
     "confidence": 0.9,
     "source_document": "task_output_mitohormesis_antioxidants_05_August_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T15:42:21Z"
   },
   {
     "id": "8a5ea7b9accb",
@@ -1610,10 +1610,10 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "ed14c153b758",
+    "id": "edba794b7bb1",
     "subject": "Mitohormesis",
     "predicate": "is_blocked_by",
-    "object": "Antioxidants",
+    "object": "Antioxidant",
     "context": {
       "en-US": "Chronic antioxidant supplementation can inhibit the hormetic response and thereby block the cytoprotective adaptations mitohormesis induces. This may explain disappointing antioxidant clinical trials (SELECT, HOPE, Bjelakovic meta-analysis) where large meta-analyses generally failed to show benefit and sometimes suggested increased mortality.",
       "zh-TW": "長期抗氧化補充可抑制促效應反應，從而阻斷粒線體促效應通常誘導的細胞保護適應。這可能解釋了抗氧化臨床試驗令人失望的結果，大型薈萃分析通常未能顯示益處，在某些情況下甚至顯示死亡率增加。支持性證據來自人體研究，顯示抗氧化補充劑抑制運動的有益效果，而運動本身被視為輕度壓力源。抗氧化劑可能阻止觸發適應性反應所需的粒線體 ROS 升高。"
@@ -1621,7 +1621,7 @@
     "confidence": 0.9,
     "source_document": "task_output_mitohormesis_antioxidants_05_August_2026.md",
     "created": "2026-08-15T04:42:45Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T15:42:21Z"
   },
   {
     "id": "09468e7e1635",

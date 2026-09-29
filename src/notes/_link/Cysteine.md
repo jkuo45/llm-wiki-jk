@@ -80,7 +80,7 @@ List of documents that mention this entity
 
 ## Connections
 
-- [[Antioxidants]]
+- [[Antioxidant]]
 - [[Catecholamines]]
 - [[Epinephrine]]
 - [[Glutathione]]
