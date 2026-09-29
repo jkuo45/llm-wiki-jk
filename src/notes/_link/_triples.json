@@ -91684,5 +91684,1489 @@
     "source_document": "Xenohormesis.md",
     "created": "2026-09-29T18:04:58Z",
     "updated": "2026-09-29T18:04:58Z"
+  },
+  {
+    "id": "64bfd31e846e",
+    "subject": "mTORC1",
+    "predicate": "promotes",
+    "object": "cap-dependent translation",
+    "context": {
+      "en-US": "mTORC1 drives cap-dependent translation through its downstream kinase S6K1, whose activation increases mRNA biogenesis, and through mTORC1-mediated phosphorylation of 4E-BP1. Phosphorylation of 4E-BP1 prevents its binding to eIF4E, freeing eIF4E to promote cap-dependent translation, as reviewed by Richter and Sonenberg (2005).",
+      "zh-TW": "mTORC1 透過其下游激酶 S6K1 促進帽依賴性轉譯：S6K1 活化會增加 mRNA 生物合成；此外 mTORC1 也透過磷酸化 4E-BP1 作用。4E-BP1 的磷酸化使其無法結合 eIF4E，因而釋出 eIF4E 以促進帽依賴性轉譯（Richter 與 Sonenberg，2005 綜述）。"
+    },
+    "confidence": 0.9,
+    "source_document": "cap-dependent translation.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "377dd836ac86",
+    "subject": "cap-dependent translation",
+    "predicate": "is_regulated_by",
+    "object": "mTOR",
+    "context": {
+      "en-US": "Cap-dependent translation is a fundamental process maintaining cellular and organismal homeostasis, executed by protein complexes and regulated by nutrient-sensing and stress signaling. The mTOR pathway is a principal control point, coupling nutrient and energy status to translation initiation and progression.",
+      "zh-TW": "帽依賴性轉譯是維持細胞與生物體恆定的基本過程，由特定蛋白複合體執行，並受營養感知與壓力訊號調控。mTOR 訊號路徑是主要控制點，將營養與能量狀態連結到轉譯起始與進行。"
+    },
+    "confidence": 0.85,
+    "source_document": "cap-dependent translation.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "eed39d958b48",
+    "subject": "PAD4",
+    "predicate": "produces",
+    "object": "cit-H3",
+    "context": {
+      "en-US": "PAD4 (peptidylarginine deiminase 4) deiminates arginine residues on histone H3, generating citrullinated histone H3 (cit-H3, H3Cit). Loss of the positive charge unravels chromatin structure, which is required for the chromatin decondensation and extrusion underlying NET formation.",
+      "zh-TW": "PAD4（肽基精氨酸脫亞胺酶 4）將組蛋白 H3 上的精胺酸殘基去亞胺化，生成瓜胺酸化的組蛋白 H3（cit-H3，H3Cit）。正電荷的流失使染色質鬆解，而這正是 NET 形成過程中染色質去凝縮與外排所需的條件。"
+    },
+    "confidence": 0.95,
+    "source_document": "cit-H3.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "591800cf268f",
+    "subject": "cit-H3",
+    "predicate": "marks",
+    "object": "NETosis",
+    "context": {
+      "en-US": "Citrullinated histone H3 (cit-H3) is the PAD4-generated immunodetection signature of NETosis, marking neutrophil extracellular trap formation. Together with extracellular DNA (Sytox Green) and MPO-DNA complexes it forms the diagnostic triad that distinguishes NETs from generic necrotic DNA release.",
+      "zh-TW": "瓜胺酸化組蛋白 H3（cit-H3）是 NETosis 的 PAD4 生成式免疫檢測標記，用以標示中性球細胞外捕捉網（NET）的形成。它與細胞外 DNA（Sytox Green）以及 MPO–DNA 複合體共同構成診斷三聯體，用以區分 NET 與一般壞死造成的 DNA 釋放。"
+    },
+    "confidence": 0.95,
+    "source_document": "cit-H3.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "ba761742e43d",
+    "subject": "cit-H3",
+    "predicate": "is_a_type_of",
+    "object": "Protein Citrullination",
+    "context": {
+      "en-US": "cit-H3 belongs to the general class of protein citrullination modifications, in which PAD enzymes convert arginine residues to citrulline. As a histone substrate, citrullinated H3 links the modification class to chromatin remodeling events such as NET extrusion.",
+      "zh-TW": "cit-H3 屬於蛋白質瓜胺酸化這一大類修飾，由 PAD 酵素將精胺酸殘基轉為瓜胺酸。作為組蛋白受質，瓜胺酸化的 H3 將此修飾類別與染色質重塑事件（如 NET 外排）連結起來。"
+    },
+    "confidence": 0.85,
+    "source_document": "cit-H3.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "af7ea4cfccce",
+    "subject": "eEFSec",
+    "predicate": "delivers",
+    "object": "Selenocysteine",
+    "context": {
+      "en-US": "eEFSec (EEFSEC) is the dedicated eukaryotic elongation factor for selenocysteine insertion, the functional analog of bacterial SelB. It forms a ternary complex with GTP and Sec-charged tRNA[Ser]Sec and delivers selenocysteine to the ribosomal A site when the ribosome encounters a recoded UGA codon.",
+      "zh-TW": "eEFSec（EEFSEC）是插入硒半胱胺酸（selenocysteine）專屬的真核轉譯延長因子，為細菌 SelB 的功能對應物。它與 GTP 及攜帶 Sec 的 tRNA[Ser]Sec 形成三元複合體，當核糖體遇到再編碼的 UGA 密碼子時，將硒半胱胺酸送入核糖體 A 位。"
+    },
+    "confidence": 0.95,
+    "source_document": "eEFSec.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "b2e45b42f873",
+    "subject": "eEFSec",
+    "predicate": "is_recruited_by",
+    "object": "SECISBP2",
+    "context": {
+      "en-US": "Recruitment of eEFSec depends on SECISBP2, which binds the SECIS element in the 3' UTR of selenoprotein mRNAs and contacts eEFSec, tethering the Sec delivery complex to the translating ribosome. eL30 additionally anchors the SECIS ribonucleoprotein complex to the large ribosomal subunit.",
+      "zh-TW": "eEFSec 的招募依賴 SECISBP2；SECISBP2 結合硒蛋白 mRNA 3' UTR 上的 SECIS 元素並與 eEFSec 接觸，將 Sec 遞送複合體繫於正在轉譯的核糖體上。eL30 進一步將 SECIS 核糖核蛋白複合體錨定在大次單元上。"
+    },
+    "confidence": 0.9,
+    "source_document": "eEFSec.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "be4e19e56602",
+    "subject": "eEFSec",
+    "predicate": "enables_recoding_of",
+    "object": "UGA codon",
+    "context": {
+      "en-US": "By delivering selenocysteine in response to a recoded UGA codon in the SECIS-dependent context, eEFSec converts a nominal stop signal into a sense codon. This recoding is tuned by the Um34 modification of tRNA[Ser]Sec installed by FTSJ1, which sets the efficiency of Sec insertion for a subset of antioxidant selenoproteins.",
+      "zh-TW": "eEFSec 在 SECIS 依賴的脈絡下，針對再編碼的 UGA 密碼子遞送硒半胱胺酸，將原本的終止訊號轉為有義密碼子。這項再編碼的效率由 FTSJ1 安裝於 tRNA[Ser]Sec 的 Um34 修飾調整，決定部分抗氧化硒蛋白的 Sec 插入效率。"
+    },
+    "confidence": 0.9,
+    "source_document": "eEFSec.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "77525329df0b",
+    "subject": "eEFSec",
+    "predicate": "is_required_for",
+    "object": "Selenoprotein",
+    "context": {
+      "en-US": "Because all selenoproteins require co-translational selenocysteine insertion at UGA codons, eEFSec is essential for synthesis of the entire selenoprotein family. Its function is complemented rather than replaced by the Um34 modification of tRNA[Ser]Sec, which fine-tunes recoding efficiency.",
+      "zh-TW": "由於所有硒蛋白都需要在 UGA 密碼子處進行共轉譯的硒半胱胺酸插入，eEFSec 對整個硒蛋白家族的合成是不可或缺的。它的功能是由 tRNA[Ser]Sec 的 Um34 修飾補充而非取代，後者微調再編碼效率。"
+    },
+    "confidence": 0.9,
+    "source_document": "eEFSec.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "a5736100e9c3",
+    "subject": "eNOS",
+    "predicate": "produces",
+    "object": "Nitric Oxide",
+    "context": {
+      "en-US": "eNOS (endothelial nitric oxide synthase, NOS3) is the constitutively expressed, calcium/calmodulin-dependent isoform of nitric oxide synthase in the vascular endothelium. It catalyses the conversion of L-arginine to low, pulsatile fluxes of nitric oxide, which diffuse to vascular smooth muscle and raise cGMP via soluble guanylyl cyclase to produce vasodilation.",
+      "zh-TW": "eNOS（內皮型一氧化氮合成酶，NOS3）是血管內皮中構成性表現、依賴鈣離子/鈣調蛋白的 nitric oxide synthase 異構型。它催化 L-精胺酸轉化為低量脈動式的 nitric oxide；後者擴散至血管平滑肌，經可溶性鳥苷酸環化酶提高 cGMP，產生血管舒張。"
+    },
+    "confidence": 0.95,
+    "source_document": "eNOS.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "e961286816c1",
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "eNOS",
+    "context": {
+      "en-US": "SIRT1 directly deacetylates eNOS at multiple lysine residues, including K496 and K506. Deacetylation promotes eNOS homodimerization and increases its affinity for calmodulin and NAD+, thereby enhancing enzymatic activity and NO output - a mechanism central to resveratrol's cardioprotective and vasodilatory effects.",
+      "zh-TW": "SIRT1 直接在多個離胺酸殘基（包括 K496 與 K506）去乙醯化 eNOS。去乙醯化促進 eNOS 同源二聚化，並提高其對鈣調蛋白與 NAD+ 的親和力，因而增強酵素活性與 NO 產出——這是 resveratrol 心臟保護與血管舒張作用的核心機制。"
+    },
+    "confidence": 0.9,
+    "source_document": "eNOS.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "17423ccdacab",
+    "subject": "eNOS",
+    "predicate": "produces",
+    "object": "Superoxide",
+    "context": {
+      "en-US": "When eNOS becomes 'uncoupled' - under BH4 deficiency or L-arginine depletion - its reductase domain transfers electrons to molecular oxygen instead of L-arginine, generating superoxide rather than nitric oxide. Uncoupling is promoted by peroxynitrite-mediated oxidation of BH4 to BH2, competitive inhibition by ADMA, and oxidative stress that disrupts the zinc-thiolate complex.",
+      "zh-TW": "當 eNOS 發生「解偶聯」——例如 BH4 缺乏或 L-精胺酸耗竭時——其還原酶域會將電子傳給分子氧而非 L-精胺酸，因而生成 superoxide 而非 nitric oxide。解偶聯由 peroxynitrite 將 BH4 氧化成 BH2、ADMA 的競爭性抑制，以及破壞鋅-硫醇複合物的 oxidative stress 所促進。"
+    },
+    "confidence": 0.9,
+    "source_document": "eNOS.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "5a40985660fd",
+    "subject": "eNOS",
+    "predicate": "contributes_to",
+    "object": "Endothelial Dysfunction",
+    "context": {
+      "en-US": "Uncoupled eNOS is a major contributor to endothelial dysfunction in cardiovascular disease, diabetes, and hypertension. In the healthy endothelium, eNOS-derived nitric oxide maintains vascular tone, inhibits platelet aggregation, suppresses leukocyte adhesion, and supports barrier integrity; loss of that NO output converts a homeostatic enzyme into a source of oxidative damage.",
+      "zh-TW": "解偶聯的 eNOS 是心血管疾病、糖尿病與高血壓中內皮功能障礙的主要成因之一。在健康的內皮中，eNOS 產生的 nitric oxide 維持血管張力、抑制血小板聚集、抑制白血球黏附並支撐屏障完整性；該 NO 產出的喪失，使一個穩態酵素轉化為氧化傷害的來源。"
+    },
+    "confidence": 0.85,
+    "source_document": "eNOS.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "aa8d2e5046eb",
+    "subject": "Akt",
+    "predicate": "phosphorylates",
+    "object": "eNOS",
+    "context": {
+      "en-US": "eNOS activity is regulated by phosphorylation: activating phosphorylation at Ser1177 by Akt/PKB (also by AMPK and PKA) increases electron flux from the reductase to the oxygenase domain, while inhibitory phosphorylation at Thr495 decreases activity. Akt therefore acts on eNOS in parallel with the SIRT1 deacetylation arm.",
+      "zh-TW": "eNOS 的活性受磷酸化調控：由 Akt/PKB（亦含 AMPK 與 PKA）在 Ser1177 進行的活化性磷酸化會增加電子由還原酶域流向氧化酶域，而 Thr495 的抑制性磷酸化則降低活性。因此在 SIRT1 去乙醯化這條路徑之外，Akt 也並行作用於 eNOS。"
+    },
+    "confidence": 0.9,
+    "source_document": "eNOS.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "c55c2221c3a9",
+    "subject": "gp130",
+    "predicate": "is_a_component_of",
+    "object": "Humanin",
+    "context": {
+      "en-US": "gp130 (IL6ST/CD130) is a key component of the trimeric humanin receptor complex, together with the ciliary neurotrophic factor receptor and WSX1 (IL-27Ralpha). Humanin promotes hetero-oligomerization of the three components, activating downstream survival pathways through STAT3 and ERK1/2 signaling.",
+      "zh-TW": "gp130（IL6ST/CD130）與 ciliary neurotrophic factor receptor 及 WSX1（IL-27Rα）共同構成三聚體的 humanin 受體複合體，是其關鍵成員。Humanin 促進這三個組分的異源寡聚，經由 STAT3 與 ERK1/2 訊號啟動下游存活路徑。"
+    },
+    "confidence": 0.9,
+    "source_document": "gp130.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "4a6d8849b4f7",
+    "subject": "gp130",
+    "predicate": "activates",
+    "object": "STAT3",
+    "context": {
+      "en-US": "gp130's intracellular box1/box2 motifs recruit JAK kinases (JAK1, JAK2, TYK2), which phosphorylate STAT3 and STAT1, driving their nuclear translocation and expression of anti-apoptotic genes. As the shared signal-transducing receptor for the IL-6 cytokine family, gp130 couples IL-6 family binding to JAK/STAT, ERK1/2 MAPK and PI3K/Akt signaling.",
+      "zh-TW": "gp130 的細胞內 box1/box2 模體招募 JAK 激酶（JAK1、JAK2、TYK2），後者磷酸化 STAT3 與 STAT1，促使其核轉位並表現抗凋亡基因。作為 IL-6 細胞激素家族的共用訊號傳遞受體，gp130 將 IL-6 家族的配體結合連結到 JAK/STAT、ERK1/2 MAPK 與 PI3K/Akt 訊號。"
+    },
+    "confidence": 0.9,
+    "source_document": "gp130.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "1244329fb7cf",
+    "subject": "gp130",
+    "predicate": "is_a_component_of",
+    "object": "IL-6",
+    "context": {
+      "en-US": "gp130 is the common signal transducer shared by the IL-6 family of cytokines. It has no intrinsic ligand-binding specificity of its own; instead it pairs with family-specific receptor subunits (such as IL-6R, CNTFR, WSX1) to form functional receptor complexes that activate JAK/STAT, ERK and PI3K pathways.",
+      "zh-TW": "gp130 是 IL-6 細胞激素家族共用的訊號傳遞蛋白。它本身並無固有的配體結合專一性，而是與家族專屬的受體次單元（如 IL-6R、CNTFR、WSX1）配對形成功能性受體複合體，啟動 JAK/STAT、ERK 與 PI3K 路徑。"
+    },
+    "confidence": 0.9,
+    "source_document": "gp130.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "2d7b52b5b052",
+    "subject": "gp130",
+    "predicate": "activates",
+    "object": "ERK",
+    "context": {
+      "en-US": "Beyond JAK/STAT, gp130-mediated signaling engages the Ras/Raf/MEK/ERK cascade and the PI3K/Akt pathway. The Ras/Raf/MEK/ERK arm promotes cell proliferation and survival, while PI3K/Akt drives metabolic regulation and survival - explaining why dysregulated gp130 signaling is implicated in inflammation, autoimmunity, cancer and atherosclerosis.",
+      "zh-TW": "除了 JAK/STAT 之外，gp130 介導的訊號還啟動 Ras/Raf/MEK/ERK 級聯與 PI3K/Akt 路徑。Ras/Raf/MEK/ERK 分支促進細胞增殖與存活，PI3K/Akt 則驅動代謝調節與存活——這解釋了為何 gp130 訊號失調與發炎、自體免疫、癌症及動脈粥狀硬化有關。"
+    },
+    "confidence": 0.85,
+    "source_document": "gp130.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "eafc88eb83e4",
+    "subject": "iFSP1",
+    "predicate": "induces",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "Blocking FSP1 removes the GPX4-independent radical trap, but iFSP1 alone is often insufficient to kill cells with intact GPX4. It strongly synergizes with GPX4 inhibitors and system Xc- inhibitors to trigger ferroptosis, consistent with the two-pillar defense model, and is being explored to sensitize therapy-resistant tumors to ferroptosis-based therapy.",
+      "zh-TW": "阻斷 FSP1 可移除 GPX4 非依賴性的自由基陷阱，但單獨使用 iFSP1 往往不足以殺死 GPX4 完整的細胞。它與 GPX4 抑制劑及 system Xc- 抑制劑產生強協同作用而誘發鐵死亡，符合雙支柱防禦模型，目前正被探索用以使治療抗藥性腫瘤對鐵死亡療法敏感。"
+    },
+    "confidence": 0.9,
+    "source_document": "iFSP1.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "74e2828910f5",
+    "subject": "iFSP1",
+    "predicate": "synergizes_with",
+    "object": "GPX4",
+    "context": {
+      "en-US": "FSP1 (via the FSP1-CoQ10-NAD(P)H axis) and GPX4 are the two parallel pillars of ferroptosis defence. Inhibiting FSP1 with iFSP1 is far less effective than blocking GPX4, but combined inhibition is strongly synergistic because both lipid-trapping systems must fail simultaneously for lipid peroxidation to reach the ferroptotic threshold.",
+      "zh-TW": "FSP1（經由 FSP1–CoQ10–NAD(P)H 軸）與 GPX4 是鐵死亡防禦的兩根平行支柱。以 iFSP1 抑制 FSP1 的效果遠不如阻斷 GPX4，但兩者同時抑制具有強协同作用，因為必須兩套脂質捕捉系統同時失效，脂質過氧化才會達到鐵死亡閾值。"
+    },
+    "confidence": 0.9,
+    "source_document": "iFSP1.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "f6192e19c7d1",
+    "subject": "mPOS",
+    "predicate": "causes",
+    "object": "Proteotoxicity",
+    "context": {
+      "en-US": "mPOS (mitochondrial precursor over-accumulation stress) arises when mitochondrial precursor proteins accumulate in the cytosol beyond the capacity of quality control pathways. Because roughly 1000 mitochondrial proteins are synthesized on cytosolic ribosomes before import, any impairment of the TOM/TIM translocons, loss of membrane potential, or saturation of the import machinery causes cytosolic accumulation. The accumulated precursors aggregate and sequester chaperones, disturbing proteostasis and triggering proteotoxicity.",
+      "zh-TW": "當粒線體前驅蛋白在細胞質中累積、超出品質管制路徑的處理能力時，即形成 mPOS（粒線體前驅蛋白過度累積壓力）。由於約 1000 種粒線體蛋白在細胞質核糖體上合成後才輸入，TOM/TIM 轉位子受損、膜電位喪失或輸入機制飽和都會造成細胞質累積。這些累積的前驅蛋白會聚集並滯留分子伴護蛋白，破壞蛋白恆定並引發蛋白毒性。"
+    },
+    "confidence": 0.9,
+    "source_document": "mPOS.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "1060dbb2adb6",
+    "subject": "mPOS",
+    "predicate": "leads_to",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "If mPOS is not resolved, cytosolic precursor over-accumulation escalates into cell death. The stress activates HSF1 to coordinate a protective transcriptional response (inducing RPN4 and PDR3), but unresolved precursor accumulation ultimately triggers apoptosis or necrosis.",
+      "zh-TW": "若 mPOS 未被解決，細胞質前驅蛋白的過度累積會升級為細胞死亡。該壓力會活化 HSF1 以協調保護性的轉錄反應（誘導 RPN4 與 PDR3），但未解決的前驅蛋白累積最終仍會觸發 apoptosis 或 necrosis。"
+    },
+    "confidence": 0.85,
+    "source_document": "mPOS.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "e6de90eff0c8",
+    "subject": "mitoCPR",
+    "predicate": "suppresses",
+    "object": "mPOS",
+    "context": {
+      "en-US": "mitoCPR (mitochondrial compromised protein import response) is a surveillance pathway triggered when nuclear-encoded protein import into mitochondria stalls. It protects against mPOS by clearing clogged translocons, preserving mitochondrial membrane potential and preventing proteotoxic collapse; in doing so it contributes to adaptive mitohormesis and mitochondrial proteostasis.",
+      "zh-TW": "mitoCPR（粒線體受損蛋白輸入反應）是在核基因編碼蛋白輸入粒線體停滯時被觸發的監控路徑。它藉由清除堵塞的轉位子來對抗 mPOS，維持粒線體膜電位並防止蛋白毒性崩解；在此過程中它促進了適應性的 mitohormesis 與粒線體蛋白恆定。"
+    },
+    "confidence": 0.9,
+    "source_document": "mitoCPR.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "114f3f4232e0",
+    "subject": "mitoCPR",
+    "predicate": "degrades",
+    "object": "Proteasome",
+    "context": {
+      "en-US": "mitoCPR clears blocked translocons in two steps: PDR3-driven expression of Cis1 docks at the TOM translocon (via Tom70) and recruits the AAA-ATPase Msp1, the yeast orthologue of mammalian ATAD1; Msp1 then extracts stalled or clogging precursor proteins from the import channel and delivers them to the ubiquitin-proteasome system for degradation, with proteasome upregulation enhancing clearance capacity during the stress episode.",
+      "zh-TW": "mitoCPR 以兩步驟清除堵住的轉位子：由 PDR3 驅動表現的 Cis1 停靠於 TOM 轉位子（透過 Tom70）並招募 AAA-ATPase Msp1（即哺乳類 ATAD1 的酵母同源物）；Msp1 隨後將卡滯或阻塞的通道前驅蛋白抽出，送往 ubiquitin–proteasome system 降解，並伴隨 proteasome 上調以在壓力期間增強清除能力。"
+    },
+    "confidence": 0.85,
+    "source_document": "mitoCPR.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "80dc95f04c02",
+    "subject": "mitoCPR",
+    "predicate": "contributes_to",
+    "object": "Mitohormesis",
+    "context": {
+      "en-US": "mitoCPR is one of several import- and translation-linked surveillance systems that protect mitochondria and the cell against precursor over-accumulation stress. By clearing clogged translocons it preserves membrane potential and prevents proteotoxic collapse, a facet of the adaptive stress response described as mitohormesis.",
+      "zh-TW": "mitoCPR 是多個與輸入及轉譯相關的監控系統之一，保護粒線體與細胞免於前驅蛋白過度累積壓力。藉由清除堵塞的轉位子，它維持膜電位並防止蛋白毒性崩解，這正是所謂 mitohormesis 的適應性壓力反應的一環。"
+    },
+    "confidence": 0.85,
+    "source_document": "mitoCPR.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "d879845a6001",
+    "subject": "mitoRQC",
+    "predicate": "is_analogous_to",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "mitoRQC (mitochondrial ribosome-associated quality control) monitors mitoribosomes for stalled or aberrant translation events and targets the incomplete nascent polypeptides for degradation, making it the mitochondrial counterpart of the cytosolic ribosome-associated quality control system. It clears truncated, aggregation-prone translation products that would otherwise poison the organelle.",
+      "zh-TW": "mitoRQC（粒線體核糖體相關品質管制）監控粒線體核糖體上的停滯或異常轉譯事件，並將未完成的新生多胜肽導向降解，因此是細胞質核糖體相關品質管制（RQC）系統在粒線體的對應物。它清除截斷、易聚集的轉譯產物，避免其毒害胞器。"
+    },
+    "confidence": 0.75,
+    "source_document": "mitoRQC.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "bc706da5b9d3",
+    "subject": "mitoRQC",
+    "predicate": "degrades",
+    "object": "Proteasome",
+    "context": {
+      "en-US": "mitoRQC routes stalled nascent chains to the proteasome: the E3 ligase Ltn1 (yeast) / LISTERIN (mammals) ubiquitylates the stalled polypeptide after release from the ribosome is assisted by Vms1 (yeast) / ANKZF1 (mammals). The ubiquitylated chain is then degraded by the proteasome or by mitochondrial proteases.",
+      "zh-TW": "mitoRQC 將卡滯的新生鏈送往 proteasome：E3 泛素連接酶 Ltn1（酵母）/ LISTERIN（哺乳類）在 Vms1（酵母）/ ANKZF1（哺乳類）協助將鏈從核糖體釋出後，對停滯多胜肽進行泛素化。泛素化後的鏈隨後由 proteasome 或粒線體蛋白酶降解。"
+    },
+    "confidence": 0.85,
+    "source_document": "mitoRQC.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "b4a8030e4109",
+    "subject": "mitoRQC",
+    "predicate": "protects_against",
+    "object": "Mitochondrial Dysfunction",
+    "context": {
+      "en-US": "By eliminating faulty nascent chains, mitoRQC protects mitochondrial proteostasis alongside UPRmt, mitophagy and import-surveillance pathways (mitoCPR, mitoTAD). Failure of this network underlies adaptive mitohormesis, and its breakdown contributes to mitochondrial dysfunction, oxidative stress and age-related decline.",
+      "zh-TW": "藉由清除 有缺陷的新生鏈，mitoRQC 與 UPRmt、mitophagy 及輸入監控路徑（mitoCPR、mitoTAD）共同保護粒線體蛋白恆定。此網絡構成適應性 mitohormesis 的基礎，而其失效會促成 mitochondrial dysfunction、oxidative stress 與年齡相關衰退。"
+    },
+    "confidence": 0.85,
+    "source_document": "mitoRQC.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "c609ca06e002",
+    "subject": "mitoRQC",
+    "predicate": "contributes_to",
+    "object": "Mitohormesis",
+    "context": {
+      "en-US": "mitoRQC is positioned among the mitochondrial quality-control and surveillance pathways that support mitohormetic stress adaptation. Its detection-and-clearance of stalled mitoribosomal translation events is part of the adaptive network that lets mitochondria - and the cell - survive transient stress rather than collapse.",
+      "zh-TW": "mitoRQC 位於支持 mitohormetic 壓力適應的粒線體品質管制與監控路徑之中。它對停滯的粒線體核糖體轉譯事件的偵測與清除，是讓粒線體——以及細胞——得以度過暫時性壓力而非崩潰的適應性網絡的一環。"
+    },
+    "confidence": 0.85,
+    "source_document": "mitoRQC.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "07c902ae7a9e",
+    "subject": "mitoTAD",
+    "predicate": "degrades",
+    "object": "Proteasome",
+    "context": {
+      "en-US": "mitoTAD (mitochondrial protein translocation-associated degradation) is a proteasomal quality control pathway that surveils the mitochondrial protein import machinery. In yeast, stalled precursors are recognized by Ubx2, which recruits Cdc48 (the yeast VCP/p97 homolog); Cdc48 extracts the stalled precursor from the TOM/TIM translocon, after which the extracted protein is ubiquitylated and degraded by the proteasome.",
+      "zh-TW": "mitoTAD（粒線體蛋白轉位相關降解）是監控粒線體蛋白輸入機制的蛋白酶體品質管制路徑。在酵母中，卡滯的前驅蛋白由 Ubx2 辨識，後者招募 Cdc48（酵母的 VCP/p97 同源物）；Cdc48 將卡滯的前驅蛋白自 TOM/TIM 轉位子抽出，被抽出的蛋白隨後被泛素化並由 proteasome 降解。"
+    },
+    "confidence": 0.9,
+    "source_document": "mitoTAD.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "0f954e595495",
+    "subject": "mitoTAD",
+    "predicate": "surveils",
+    "object": "Translocase of the Outer Mitochondrial Membrane",
+    "context": {
+      "en-US": "mitoTAD operates on the mitochondrial import translocons themselves: when a mitochondrial precursor protein stalls during passage through the TOM/TIM complexes, mitoTAD mediates its extraction from the channel and subsequent proteasomal degradation, clearing the gate so that import can resume. It therefore acts constitutively, whereas the broader mitoCPR is a stress-inducible response.",
+      "zh-TW": "mitoTAD 作用的對象正是粒線體輸入轉位子本身：當粒線體前驅蛋白在通過 TOM/TIM 複合體時卡滯，mitoTAD 媒介其自通道抽出與隨後的蛋白酶體降解，清理通道使輸入得以恢復。因此它是構成性作用，而較廣義的 mitoCPR 則是壓力誘發的反應。"
+    },
+    "confidence": 0.85,
+    "source_document": "mitoTAD.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "89d7bd0f0586",
+    "subject": "mitoTAD",
+    "predicate": "suppresses",
+    "object": "mPOS",
+    "context": {
+      "en-US": "By continuously removing precursors that stall at translocons, mitoTAD prevents their cytosolic over-accumulation and thereby limits the precursor over-accumulation stress (mPOS) that would otherwise aggregate chaperones and compromise proteostasis.",
+      "zh-TW": "藉由持續移除卡滯於轉位子的前驅蛋白，mitoTAD 防止其於細胞質過度累積，因而限制否則會聚集分子伴護蛋白並危及蛋白恆定的前驅蛋白過度累積壓力（mPOS）。"
+    },
+    "confidence": 0.8,
+    "source_document": "mitoTAD.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "de86e6b0b85f",
+    "subject": "mitoTAD",
+    "predicate": "is_a_component_of",
+    "object": "Ubiquitin-Proteasome System",
+    "context": {
+      "en-US": "mitoTAD works in concert with the ubiquitin-proteasome system: extraction of the stalled precursor is coupled to its ubiquitylation, and the proteasome performs the final degradation. The pathway is thus a targeted deployment of bulk proteasomal machinery at the mitochondrial import gate.",
+      "zh-TW": "mitoTAD 與 ubiquitin-proteasome system 協同作用：卡滯前驅蛋白的抽出與其泛素化相偶聯，最終降解由 proteasome 執行。因此該路徑是在粒線體輸入閘門處對大宗蛋白酶體機制的定向調度。"
+    },
+    "confidence": 0.8,
+    "source_document": "mitoTAD.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "c972a1278c38",
+    "subject": "mitoTALENs",
+    "predicate": "targets",
+    "object": "Mitochondrial DNA",
+    "context": {
+      "en-US": "mitoTALENs (mitochondria-targeted transcription activator-like effector nucleases) are engineered nucleases that selectively cleave mutant mtDNA inside mitochondria. A TALE repeat array programmed to span the pathogenic mutation discriminates mutant from wild-type mtDNA at the single-nucleotide level, and the obligately dimeric FokI nuclease requires two monomers bound at adjacent half-sites, enhancing specificity.",
+      "zh-TW": "mitoTALENs（粒線體定位的轉錄活化因子樣效應器核酸酶）是經工程設計的核酸酶，可在粒線體內選擇性切割突變型 mtDNA。跨越致病突變點設計的 TALE repeat 陣列可在單一核苷酸層級區分突變型與野生型 mtDNA；而二聚化屬絕對必要的 FokI 核酸酶域要求兩個單體結合於相鄰半位點，進一步提升專一性。"
+    },
+    "confidence": 0.95,
+    "source_document": "mitoTALENs.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "0b9fac252f5d",
+    "subject": "mitoTALENs",
+    "predicate": "restores",
+    "object": "Oxidative Phosphorylation",
+    "context": {
+      "en-US": "Cleavage of the mutant mitochondrial genome triggers its degradation, sparing wild-type molecules which repopulate the cell. Pioneered by Bacman et al. (2013, Nature Medicine; PMID 23242366) against the m.8993 T>C mutation (NARP/MILS), this shifted heteroplasmy and restored oxidative phosphorylation in patient-derived cybrids; AAV-delivered variants later produced the same rescue in mouse models of MELAS (m.5024C>T).",
+      "zh-TW": "突變型粒線體基因組被切割後會隨即降解，野生型分子則得以保留並重新填充細胞。該策略由 Bacman 等人（2013，Nature Medicine；PMID 23242366）首度以 m.8993 T>C 突變（NARP/MILS）實現，藉由改變異質性比例在病人衍生 cybrid 中恢復了 oxidative phosphorylation；之後以 AAV 遞送的版本又在 MELAS（m.5024C>T）小鼠模型中產生相同的救援效果。"
+    },
+    "confidence": 0.9,
+    "source_document": "mitoTALENs.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "ec5e0a29a27a",
+    "subject": "Mitochondrial Targeting Sequence",
+    "predicate": "directs_import_of",
+    "object": "mitoTALENs",
+    "context": {
+      "en-US": "An N-terminal mitochondrial targeting sequence appended to the mitoTALEN fusion protein directs its import through the TOM/TIM machinery into the mitochondrial matrix, where mtDNA resides. Because import of such large fusion proteins into the matrix is inefficient, current delivery relies on ectopic expression plus natural protein import - a principal limitation of the platform.",
+      "zh-TW": "附加在 mitoTALEN 融合蛋白 N 端的 mitochondrial targeting sequence，經由 TOM/TIM 機制引導其進入粒線體基質，而 mtDNA 即存在於該處。由於此類大型融合蛋白進入基質的效率不高，目前的遞送方式仰賴異位表現加上天然蛋白輸入——這是此平台的主要限制。"
+    },
+    "confidence": 0.85,
+    "source_document": "mitoTALENs.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "2310deff4db9",
+    "subject": "mitoTALENs",
+    "predicate": "is_a_counterpart_of",
+    "object": "mitoZFNs",
+    "context": {
+      "en-US": "mitoTALENs sit alongside the earlier zinc-finger-based mitoZFNs and other mtDNA-editing platforms (e.g., DdCBE base editors) as strategies to selectively eliminate mutant mtDNA. The TALE-repeat design of mitoTALENs is generally less context-sensitive than zinc-finger arrays, and obligate FokI dimerization further limits off-target cleavage of wild-type genomes.",
+      "zh-TW": "mitoTALENs 與較早的鋅指型 mitoZFNs 及其他 mtDNA 編輯平台（如 DdCBE 鹼基編輯器）並列，都是選擇性清除突變型 mtDNA 的策略。mitoTALENs 的 TALE-repeat 設計一般而言比鋅指陣列較不受序列脈絡影響，而 FokI 的必需二聚化進一步限制了對野生型基因組的脫靶切割。"
+    },
+    "confidence": 0.85,
+    "source_document": "mitoTALENs.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "365e0176bb4a",
+    "subject": "mitoZFNs",
+    "predicate": "targets",
+    "object": "Mitochondrial DNA",
+    "context": {
+      "en-US": "mitoZFNs (mitochondria-targeted zinc finger nucleases) were the first mtDNA-editing platform demonstrated in mammalian cells. Each monomer fuses tandem Cys2-His2 zinc fingers (recognizing 3-6 bp each) with the FokI cleavage domain, giving single-nucleotide discrimination: pathogenic mutations create allele-specific recognition sites so the mutant molecule is preferentially cleaved and degraded while wild-type mtDNA survives and repopulates the organelle.",
+      "zh-TW": "mitoZFNs（粒線體定位的鋅指核酸酶）是首個在哺乳類細胞中證明的 mtDNA 編輯平台。每個單體將串聯的 Cys2-His2 鋅指（每個辨識 3–6 bp）與 FokI 切割域融合，達成單一核苷酸的鑑別：致病突變會創造等位專一的辨識位點，使突變分子被偏好切割與降解，而野生型 mtDNA 則存活並重新填充胞器。"
+    },
+    "confidence": 0.95,
+    "source_document": "mitoZFNs.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "8d9d01758add",
+    "subject": "mitoZFNs",
+    "predicate": "restores",
+    "object": "Oxidative Phosphorylation",
+    "context": {
+      "en-US": "The therapeutic goal of mitoZFNs is to reduce heteroplasmic mutant load below the pathogenic threshold (roughly 60-80% for many mtDNA diseases) to restore oxidative phosphorylation. Gammage et al. (2014, Nature Communications) established the platform for heteroplasmy shifting in patient cybrids including the common m.3243A>G MELAS mutation, and AAV-delivered mitoZFNs later shifted heteroplasmy in heart and muscle of mouse models with functional rescue.",
+      "zh-TW": "mitoZFNs 的治療目標是將異質性突變負荷降至致病閾值以下（多數 mtDNA 疾病約為 60–80%），以恢復 oxidative phosphorylation。Gammage 等人（2014，Nature Communications）在病人 cybrid（包括常見的 m.3243A>G MELAS 突變）中建立了此異質性比例改變的平台，其後以 AAV 遞送的 mitoZFNs 在小鼠模型的心臟與肌肉中改變了異質性比例並獲得功能性救援。"
+    },
+    "confidence": 0.9,
+    "source_document": "mitoZFNs.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "5a7090e39a43",
+    "subject": "Mitochondrial Targeting Sequence",
+    "predicate": "directs_import_of",
+    "object": "mitoZFNs",
+    "context": {
+      "en-US": "A N-terminal mitochondrial targeting sequence directs the mitoZFN fusion protein through the TOM/TIM import machinery into the mitochondrial matrix, where mtDNA resides. Efficient import of such large fusion proteins remains a bottleneck, so current platforms require expression-based delivery since exogenous protein uptake into the matrix is limited.",
+      "zh-TW": "N 端的 mitochondrial targeting sequence 將 mitoZFN 融合蛋白經由 TOM/TIM 輸入機制導引進入粒線體基質，而 mtDNA 即存在於該處。此類大型融合蛋白的高效率輸入仍是瓶頸，因此現有平台必須採用表現型遞送，因外源性蛋白進入基質的能力有限。"
+    },
+    "confidence": 0.85,
+    "source_document": "mitoZFNs.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "cb6f1422f99b",
+    "subject": "mitoZFNs",
+    "predicate": "is_a_counterpart_of",
+    "object": "mitoTALENs",
+    "context": {
+      "en-US": "mitoZFNs and mitoTALENs share the same design principles - allele-specific DNA binding array, obligately dimeric FokI, N-terminal mitochondrial targeting - but differ in binding-context sensitivity: zinc-finger binding is more context-sensitive than TALE repeats, so each mitoZFN array must be custom-built and validated. Both are proposed interventions against heteroplasmy-driven bioenergetic decline in aging.",
+      "zh-TW": "mitoZFNs 與 mitoTALENs 共用相同設計原理——等位專一 DNA 結合陣列、絕對二聚化的 FokI、N 端粒線體定位——但結合的脈絡敏感性不同：鋅指結合比 TALE repeat 更容易受脈絡影響，因此每個 mitoZFN 陣列都必須個別建構並驗證。兩者皆被提出作為對抗老化中異質性比例驅動之生體能量衰退的介入方式。"
+    },
+    "confidence": 0.85,
+    "source_document": "mitoZFNs.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "dd5b0903a993",
+    "subject": "mtDNA",
+    "predicate": "drives",
+    "object": "SASP",
+    "context": {
+      "en-US": "Cytosolic mtDNA sensing in senescent cells is what sustains the senescence-associated secretory phenotype: via minority MOMP, senescent cells leak mtDNA into the cytosol where cGAS generates cGAMP to activate STING-TBK1/IRF3 and NF-kappaB. This drives the type I interferon and pro-inflammatory SASP components, and is a target for senomorphic strategies such as STING inhibitors or NRTIs like lamivudine.",
+      "zh-TW": "senescent cells 中細胞質 mtDNA 的感測正是維持 senescence-associated secretory phenotype 的機制：經由 minority MOMP，senescent cells 將 mtDNA 洩漏至細胞質，cGAS 在此生成 cGAMP 以活化 STING–TBK1/IRF3 與 NF-κB。這驅動第一型干擾素與促發炎的 SASP 成分，也是 STING 抑制劑或 lamivudine 等 NRTI 等 senomorphic 策略的標的。"
+    },
+    "confidence": 0.9,
+    "source_document": "mtDNA.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "54491c023759",
+    "subject": "mtDNA",
+    "predicate": "contributes_to",
+    "object": "Inflammaging",
+    "context": {
+      "en-US": "Cytosolic and circulating mtDNA are major drivers of sterile inflammaging and of age-related disease such as atherosclerosis, idiopathic pulmonary fibrosis and neurodegeneration. Beyond innate immunity, mtDNA stress engages mitochondrial retrograde signalling (ATF4/CHOP, AMPK) that remodels nuclear gene expression, contributing to the senescent metabolic state; elevated cell-free mtDNA in plasma is a candidate biomarker of senescent burden.",
+      "zh-TW": "細胞質與循環中的 mtDNA 是無菌性 inflammaging 及年齡相關疾病（如動脈粥狀硬化、idiopathic pulmonary fibrosis 與神經退化）的主要驅動因子。除了先天免疫之外，mtDNA 壓力還會啟動粒線體逆行訊號（ATF4/CHOP、AMPK），重塑核基因表現，促成 senescent 的代謝狀態；血漿中升高的游離 mtDNA 則是 senescent 負荷的候選生物標記。"
+    },
+    "confidence": 0.85,
+    "source_document": "mtDNA.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "5be70629aa87",
+    "subject": "Mitophagy",
+    "predicate": "regulates",
+    "object": "mtDNA",
+    "context": {
+      "en-US": "Impaired mitophagy allows damaged mitochondria to persist and leak mtDNA into the cytosol, and vacuole-like structures arising from mitophagy defects represent one of the routes of mtDNA release. Clearance of mitochondria therefore indirectly controls the DAMP signal that drives cGAS-STING activation.",
+      "zh-TW": "受損的 mitophagy 會讓受損粒線體持續存在並向細胞質洩漏 mtDNA，而由 mitophagy 缺陷形成的液泡樣構造也是 mtDNA 釋放的途徑之一。因此粒線體的清除可間接控制驅動 cGAS-STING 活化的 DAMP 訊號。"
+    },
+    "confidence": 0.8,
+    "source_document": "mtDNA.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "5cc18031ba92",
+    "subject": "p16",
+    "predicate": "inhibits",
+    "object": "CDK4 6",
+    "context": {
+      "en-US": "p16 (p16INK4a, encoded by CDKN2A) binds CDK4 and CDK6, forming p16-CDK4/6 complexes that cannot phosphorylate Rb. It has no kinase activity of its own and functions purely as an inhibitor via steric occlusion of the CDK active site, using four ankyrin repeat domains to mediate binding.",
+      "zh-TW": "p16（p16INK4a，由 CDKN2A 編碼）結合 CDK4 與 CDK6，形成無法磷酸化 Rb 的 p16–CDK4/6 複合體。它本身沒有激酶活性，純粹透過對 CDK 活性位點的立體阻擋而發揮抑制作用，並以四個 ankyrin repeat 結構域媒介結合。"
+    },
+    "confidence": 0.95,
+    "source_document": "p16.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "a85afe4879fb",
+    "subject": "p16",
+    "predicate": "enforces",
+    "object": "Senescence",
+    "context": {
+      "en-US": "p16 enforces cell cycle arrest at the G1/S checkpoint, one of two major senescence axes (the other being p53/p21). Unphosphorylated Rb remains bound to E2F1, sequestering it and preventing S-phase gene expression, which makes the arrest irreversible. p16-positive cells accumulate with age in virtually all tissues, and their selective clearance extends healthspan in mice.",
+      "zh-TW": "p16 在 G1/S 檢查點強制細胞週期停滯，是兩條主要的 senescence 軸之一（另一條為 p53/p21）。未磷酸化的 Rb 持續結合 E2F1，將其滯留而阻止 S 期基因表現，因而使停滯不可逆。p16 陽性的細胞幾乎在所有組織中都隨年齡累積，而選擇性清除它們可在小鼠中延長健康壽命。"
+    },
+    "confidence": 0.9,
+    "source_document": "p16.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "33d9aa4b4529",
+    "subject": "p16",
+    "predicate": "marks",
+    "object": "Senescent Cells",
+    "context": {
+      "en-US": "p16INK4a mRNA and protein levels are among the most reliable markers of senescent cell burden in tissues, and p16 expression is used as the basis of the INK-ATTAC and p16-3MR transgenic systems for selective senescent cell clearance. p16-expressing cells are also the target of senolytic therapies, which exploit the p16-high state to kill senescent cells.",
+      "zh-TW": "p16INK4a 的 mRNA 與蛋白質含量是組織中 senescent cell 負荷最可靠的標記之一，p16 表現也被用作 INK-ATTAC 與 p16-3MR 轉殖系統的基礎，以選擇性清除 senescent cells。表現 p16 的細胞同時也是 senolytic 療法的標的，後者利用 p16 高表現的狀態來殺死 senescent cells。"
+    },
+    "confidence": 0.9,
+    "source_document": "p16.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "c61479942c84",
+    "subject": "p16",
+    "predicate": "acts_in_parallel_with",
+    "object": "p21 CIP1",
+    "context": {
+      "en-US": "p16 acts independently of the p53/p21 axis, providing a parallel and complementary mechanism for enforcing cell cycle arrest. Oncogene-induced senescence involves both pathways, with RB playing an important role in maintaining OIS by inhibiting E2F expression; p16-positive cells additionally spread senescence paracrine-wise, as SASP factors from senescent cells can induce p16 in neighbours.",
+      "zh-TW": "p16 獨立於 p53/p21 軸作用，提供並行且互補的細胞週期停滯強制機制。Oncogene-induced senescence 同時涉及兩條路徑，其中 RB 藉由抑制 E2F 表現在維持 OIS 上扮演重要角色；此外 p16 陽性細胞還會以旁分泌方式散播 senescence，因為 senescent cells 的 SASP 因子可誘導鄰近細胞表現 p16。"
+    },
+    "confidence": 0.85,
+    "source_document": "p16.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "d978b79d66c8",
+    "subject": "p21 CIP1",
+    "predicate": "is_induced_by",
+    "object": "p53",
+    "context": {
+      "en-US": "p21CIP1 (encoded by CDKN1A) is transcriptionally activated by p53 in response to DNA damage and other stresses, making it the principal downstream effector of p53-mediated cell-cycle arrest. p21 then inhibits CDK2-cyclin E and CDK2-cyclin A complexes and enforces arrest at the G1/S checkpoint.",
+      "zh-TW": "p21CIP1（由 CDKN1A 編碼）在 DNA 損傷與其他壓力下受 p53 轉錄活化，因此是 p53 媒介之細胞週期停滯的主要下游效應物。p21 接著抑制 CDK2–cyclin E 與 CDK2–cyclin A 複合體，並在 G1/S 檢查點強制停滯。"
+    },
+    "confidence": 0.95,
+    "source_document": "p21 CIP1.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "3bf0701b4ed1",
+    "subject": "p21 CIP1",
+    "predicate": "cooperates_with",
+    "object": "p16",
+    "context": {
+      "en-US": "p21 cooperates with the p16-Rb pathway to establish irreversible growth arrest, and the two are temporally ordered: p53-p21 is an early regulator of senescence whereas NF-kappaB and p16 are induced in later phases. p21-dependent arrest can be more labile than p16/Rb arrest - p21 depletion can sometimes permit re-entry into the cell cycle - which underlies interest in p21 as a reversible 'senescence switch'.",
+      "zh-TW": "p21 與 p16–Rb 路徑協同以建立不可逆的生長停滯，且兩者在時間上有先後：p53–p21 是 senescence 的早期調節者，而 NF-κB 與 p16 則在後期才被誘導。p21 依賴性的停滯可能比 p16/Rb 停滯更不穩定——p21 耗竭有時可讓細胞重新進入細胞週期——這是 p21 作為可逆「senescence 開關」受到關注的原因。"
+    },
+    "confidence": 0.85,
+    "source_document": "p21 CIP1.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "97867975aeed",
+    "subject": "p21 CIP1",
+    "predicate": "supports",
+    "object": "SASP",
+    "context": {
+      "en-US": "p21 supports an early secretory phenotype distinct from the later NF-kappaB-associated SASP: CXCL14 recruits macrophages to enforce immunosurveillance and IGFBP3, a direct p53 target, places stressed or senescent cells under immune scrutiny. The p21-dependent early SASP (p53-arm SASP/PASP) appears before the NF-kappaB-driven SASP and is crucial for immune clearance of senescent cells.",
+      "zh-TW": "p21 支持一種與後期 NF-κB 相關 SASP 不同的早期分泌表型：CXCL14 招募巨噬細胞以執行免疫監視，而 IGFBP3（p53 的直接標的）則讓受壓或衰老的細胞置於免疫檢視之下。p21 依賴性的早期 SASP（p53 分支的 SASP/PASP）出現在 NF-κB 驅動的 SASP 之前，對 senescent cells 的免疫清除至關重要。"
+    },
+    "confidence": 0.85,
+    "source_document": "p21 CIP1.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "68aeb2a886f4",
+    "subject": "p22-FLIP",
+    "predicate": "is_derived_from",
+    "object": "c-FLIP",
+    "context": {
+      "en-US": "p22-FLIP is the 22 kDa N-terminal fragment produced when caspase-8 cleaves c-FLIP (FLIP_L or FLIP_S) at Asp198 (Asp196 in some isoforms) in cytosolic, FADD-independent heterodimers. Retaining only DED1-DED2, it is generated off the DISC, unlike Asp376 processing, and its production is human-specific.",
+      "zh-TW": "p22-FLIP 是在細胞質中、不依賴 FADD 的異源二聚體裡，caspase-8 切割 c-FLIP（FLIP_L 或 FLIP_S）於 Asp198（部分異構型為 Asp196）時產生的 22 kDa N 端片段。它僅保留 DED1–DED2，於 DISC 之外生成（不同於 Asp376 的加工），且其生成為人類專一。"
+    },
+    "confidence": 0.95,
+    "source_document": "p22-FLIP.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "901da45aa6e5",
+    "subject": "p22-FLIP",
+    "predicate": "binds",
+    "object": "NEMO",
+    "context": {
+      "en-US": "The tandem DEDs of p22-FLIP dock NEMO's (IKKgamma) coiled-coil region directly, the same interface used by viral vFLIPs - explaining why KSHV vFLIP and p22-FLIP are functionally interchangeable NF-kappaB agonists. Disrupting the p22-NEMO interface is a proposed tumor-selective strategy against tumors with chronic low-level DISC flux.",
+      "zh-TW": "p22-FLIP 的串聯 DED 直接停靠於 NEMO（IKKγ）的捲曲螺旋區域，與病毒 vFLIP 所使用的介面相同——這解釋了為何 KSHV vFLIP 與 p22-FLIP 在功能上可互換、都是 NF-κB 致效物。破壞 p22–NEMO 介面是針對具有慢性低度 DISC 通量的腫瘤所提出的腫瘤選擇性策略。"
+    },
+    "confidence": 0.9,
+    "source_document": "p22-FLIP.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "5a95a099c35b",
+    "subject": "p22-FLIP",
+    "predicate": "activates",
+    "object": "IKK complex",
+    "context": {
+      "en-US": "p22-FLIP binding to NEMO drives IKK complex activity and canonical NF-kappaB transcription without any death-receptor input, making it among the most potent known activators of the IKK to NF-kappaB axis. Every p22 molecule records one cytosolic heterodimer cycle, so p22 accumulation reports cumulative caspase-8/c-FLIP rheostat throughput while raising the apoptotic threshold via NF-kappaB-induced CFLAR and BCL2L1.",
+      "zh-TW": "p22-FLIP 與 NEMO 結合可驅動 IKK complex 活性與典型 NF-κB 的轉錄，且完全不需要死亡受體輸入，使其成為已知最強的 IKK→NF-κB 軸致活因子之一。每個 p22 分子記錄一次細胞質異源二聚體循環，因此 p22 的累積既回報 caspase-8/c-FLIP rheostat 的累積通量，又透過 NF-κB 誘導的 CFLAR 與 BCL2L1 提高凋亡閾值。"
+    },
+    "confidence": 0.9,
+    "source_document": "p22-FLIP.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "a48456cd4001",
+    "subject": "p22-FLIP",
+    "predicate": "is_activated_by",
+    "object": "Caspase-8",
+    "context": {
+      "en-US": "In activated T cells, TCR-driven caspase-8 activity generates p22-FLIP to license NF-kappaB-dependent proliferation; in barrier cells it converts sublethal death-receptor flux into protective gene expression. Thus p22-FLIP is the survival-signaling counterpart of its sibling fragment p43-FLIP, and its generation does not require FADD.",
+      "zh-TW": "在活化的 T 細胞中，TCR 驅動的 caspase-8 活性產生 p22-FLIP，以授權 NF-κB 依賴性的增殖；在屏障細胞中，它將次致死的死亡受體通量轉換為保護性的基因表現。因此 p22-FLIP 是其姊妹片段 p43-FLIP 的存活訊號對應物，且其生成不需要 FADD。"
+    },
+    "confidence": 0.85,
+    "source_document": "p22-FLIP.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "43ba289baf24",
+    "subject": "p22-FLIP",
+    "predicate": "interacts_with",
+    "object": "vFLIP",
+    "context": {
+      "en-US": "KSHV vFLIP occupies the same NEMO binding site as p22-FLIP, hard-wiring infected cells to constitutive NF-kappaB survival. This viral mimicry explains the functional interchangeability of the two and shows how a viral protein can hijack the FADD-independent FLIP fragment axis.",
+      "zh-TW": "KSHV 的 vFLIP 佔據與 p22-FLIP 相同的 NEMO 結合位點，將受感染細胞硬接成構成性的 NF-κB 存活狀態。這種病毒擬態解釋了兩者的功能可互換性，也顯示病毒蛋白如何劫持不依賴 FADD 的 FLIP 片段軸。"
+    },
+    "confidence": 0.85,
+    "source_document": "p22-FLIP.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "774135e52e63",
+    "subject": "p27",
+    "predicate": "is_a_type_of",
+    "object": "CDKN1B",
+    "context": {
+      "en-US": "p27 (CDKN1B, also known as Kip1) is a cyclin-dependent kinase inhibitor of the Cip/Kip family. Together with p21 (CDKN1A) and p57 (CDKN1C), p27 is a principal mechanism by which cyclin-dependent kinase activity is regulated through CDK inhibitor expression, gating the G0/G1 transition via cyclin-CDK and Rb control.",
+      "zh-TW": "p27（CDKN1B，又稱 Kip1）是 Cip/Kip 家族的 cyclin-dependent kinase 抑制劑。p27 與 p21（CDKN1A）、p57（CDKN1C）一起，是透過 CDK 抑制劑表現來調控 cyclin-dependent kinase 活性的主要機制，並藉由 cyclin–CDK 與 Rb 的調控把關 G0/G1 的轉換。"
+    },
+    "confidence": 0.85,
+    "source_document": "p27.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "80071d03f1fd",
+    "subject": "SIRT1",
+    "predicate": "regulates",
+    "object": "p27",
+    "context": {
+      "en-US": "SIRT1 promotes T-lymphocyte acute lymphoblastic leukemia progression by deacetylating CDK2, thereby regulating the phosphorylation and degradation of p27. This links a sirtuin-dependent deacetylation switch to the CDK inhibitor abundance that gates cell-cycle entry.",
+      "zh-TW": "SIRT1 透過去乙醯化 CDK2，進而調控 p27 的磷酸化與降解，藉以促進 T 淋巴母細胞急性淋巴芽球性白血病（T-ALL）的進展。這將 sirtuin 依賴性的去乙醯化開關，與把關細胞週期進入的 CDK 抑制劑含量連結起來。"
+    },
+    "confidence": 0.85,
+    "source_document": "p27.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "10711e2f9892",
+    "subject": "p38 MAPK",
+    "predicate": "phosphorylates",
+    "object": "BAX",
+    "context": {
+      "en-US": "Under stress conditions p38 MAPK phosphorylates BAX at Thr167, the same residue targeted by ERK2. Unlike ERK-mediated phosphorylation, which promotes Pin1 binding and BAX inactivation, p38-mediated phosphorylation promotes BAX activation and apoptosis - making Thr167 a molecular coincidence detector whose outcome depends on cellular context.",
+      "zh-TW": "在壓力條件下，p38 MAPK 會在 Thr167 磷酸化 BAX，該殘基同時也是 ERK2 的標的。與促進 Pin1 結合並使 BAX 失活的 ERK 媒介磷酸化不同，p38 媒介的磷酸化反而促進 BAX 活化與 apoptosis——使 Thr167 成為一個分子層級的巧合偵測器，其結果取決於細胞脈絡。"
+    },
+    "confidence": 0.9,
+    "source_document": "p38 MAPK.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "23bfd7308e2a",
+    "subject": "p38 MAPK",
+    "predicate": "promotes",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "p38 mitogen-activated protein kinase promotes apoptosis by phosphorylating the pro-apoptotic proteins Bim and Bax, enhancing their activity. Its role is context-dependent, however: the same kinase also acts on transcriptional programs such as the NF-kappaB-mediated SASP and on TFEB phosphorylation.",
+      "zh-TW": "p38 mitogen-activated protein kinase 藉由磷酸化促凋亡蛋白 Bim 與 Bax、增強其活性而促進 apoptosis。不過其角色取決於脈絡：同一激酶也作用於轉錄計畫，例如 NF-κB 媒介的 SASP，以及 TFEB 的磷酸化。"
+    },
+    "confidence": 0.9,
+    "source_document": "p38 MAPK.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "5a3b6facdb09",
+    "subject": "p38 MAPK",
+    "predicate": "phosphorylates",
+    "object": "TFEB",
+    "context": {
+      "en-US": "p38 MAPK regulates TFEB by phosphorylating it at S211, which is inhibitory and causes cytoplasmic retention, or at S401, which is activating. The site and outcome depend on the cellular context, and p38-mediated S211 phosphorylation works alongside mTORC1-mediated S211 phosphorylation in retaining TFEB outside the nucleus.",
+      "zh-TW": "p38 MAPK 藉由磷酸化 TFEB 來調控它：磷酸化 S211 具抑制性並造成細胞質滯留，磷酸化 S401 則具活化性。位點與結果取決於細胞脈絡，且 p38 媒介的 S211 磷酸化與 mTORC1 媒介的 S211 磷酸化協同將 TFEB 阻滯於細胞核之外。"
+    },
+    "confidence": 0.9,
+    "source_document": "p38 MAPK.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "8a2c7fa06628",
+    "subject": "p38 MAPK",
+    "predicate": "drives",
+    "object": "SASP",
+    "context": {
+      "en-US": "p38 MAPK sits upstream of the epigenetic SASP program: it induces KDM4, which demethylates H3K9 at SASP loci, and together with AP-1 and BRD4 drives NF-kappaB-regulated SASP transcription. It also opposes EZH2-mediated SASP repression, so p38 loss can paradoxically dampen part of the senescence secretome.",
+      "zh-TW": "p38 MAPK 位於表觀遺傳性 SASP 計畫的上游：它誘導 KDM4（於 SASP 位點進行 H3K9 去甲基化），並與 AP-1、BRD4 共同驅動 NF-κB 調控的 SASP 轉錄。它也對抗 EZH2 媒介的 SASP 抑制，因此 p38 流失反而可能選擇性地減弱衰老分泌組的一部分。"
+    },
+    "confidence": 0.8,
+    "source_document": "p38 MAPK.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "3a2701876c80",
+    "subject": "p43-FLIP",
+    "predicate": "is_derived_from",
+    "object": "c-FLIP",
+    "context": {
+      "en-US": "p43-FLIP is the 43 kDa N-terminal fragment generated when caspase-8 cleaves FLIP_L at Asp376 (Asp377 in mouse) during the first, interdimer processing step at the DISC. It retains both DEDs plus the large pseudo-caspase subunit but lacks any catalytic cysteine, so it cannot cut procaspase-8's DED2-p18 linker - which is why the heterodimer never completes intradimer processing.",
+      "zh-TW": "p43-FLIP 是在 DISC 上第一個分子間加工步驟中，caspase-8 切割 FLIP_L 於 Asp376（小鼠為 Asp377）時產生的 43 kDa N 端片段。它保留兩個 DED 加上大型偽 caspase 次單元，但缺乏任何催化性半胱胺酸，因此無法切割 procaspase-8 的 DED2–p18 連接段——這正是該異源二聚體永遠無法完成分子內加工的原因。"
+    },
+    "confidence": 0.95,
+    "source_document": "p43-FLIP.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "1b3c0aea35ec",
+    "subject": "p43-FLIP",
+    "predicate": "recruits",
+    "object": "RIPK1",
+    "context": {
+      "en-US": "p43-FLIP acts as an NF-kappaB scaffold: it recruits RIPK1, TRAF2/TRAF6 and Raf-1 at the DISC and in lipid rafts, driving NF-kappaB and ERK activation that underwrites FLIP_L-dependent T-cell proliferation and survival signaling. The p43 to RIPK1 recruitment step is rate-limiting for this arm.",
+      "zh-TW": "p43-FLIP 扮演 NF-κB 支架的角色：它在 DISC 與脂質筏中招募 RIPK1、TRAF2/TRAF6 與 Raf-1，驅動 NF-κB 與 ERK 的活化，支撐 FLIP_L 依賴性的 T 細胞增殖與存活訊號。p43→RIPK1 的招募步驟是此分支的速率限制點。"
+    },
+    "confidence": 0.9,
+    "source_document": "p43-FLIP.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "e0157f02c7a5",
+    "subject": "p43-FLIP",
+    "predicate": "is_activated_by",
+    "object": "Caspase-8",
+    "context": {
+      "en-US": "Caspase-8 homodimers or caspase-8/FLIP_L heterodimers cut FLIP_L in trans at Asp376 during interdimer processing at the DISC. In quantitative models (Neumann et al.), the rate of p43-FLIP generation is the critical parameter of the life/death decision: fast p43 accumulation marks heterodimer-dominated, survival-favoring DISCs.",
+      "zh-TW": "在 DISC 的分子間加工過程中，caspase-8 同源二聚體或 caspase-8/FLIP_L 異源二聚體會以反式方式切割 FLIP_L 的 Asp376。在量化模型中（Neumann 等），p43-FLIP 的生成速率是生死決定的關鍵參數：p43 快速累積標誌著以異源二聚體為主、有利存活的 DISC。"
+    },
+    "confidence": 0.9,
+    "source_document": "p43-FLIP.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "a3ba2a70729f",
+    "subject": "p43-FLIP",
+    "predicate": "inhibits",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "p43-FLIP is the molecular memory of a restrained DISC: heterodimerizing with procaspase-8 more avidly than full-length FLIP_L, it stabilizes the membrane-tethered, partially active complex that cleaves local substrates such as RIPK1 and adjacent homodimers while releasing no apoptotic signal. Constitutive p43-FLIP at the DISC therefore marks TRAIL-resistant tumors.",
+      "zh-TW": "p43-FLIP 是被抑制的 DISC 的分子記憶：它與 procaspase-8 的異源二聚化比全長 FLIP_L 更為強烈，因而穩定那個切割局部受質（如 RIPK1 與鄰近同源二聚體）卻不釋放任何凋亡訊號的膜繫、部分活化複合體。因此 DISC 上構成性的 p43-FLIP 正是 TRAIL 抗藥性腫瘤的標記。"
+    },
+    "confidence": 0.85,
+    "source_document": "p43-FLIP.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "c177aba38c4d",
+    "subject": "p43-FLIP",
+    "predicate": "reports_on",
+    "object": "Caspase-8-c-FLIP Rheostat",
+    "context": {
+      "en-US": "p43-FLIP both reports and enforces the setting of the caspase-8/c-FLIP rheostat. Its generation rate is the fate-determining parameter of the switch, and the p43:p55 (cleaved:full-length FLIP_L) ratio in DISC immunoprecipitates reads out rheostat setting more faithfully than total c-FLIP levels.",
+      "zh-TW": "p43-FLIP 既回報也維持 caspase-8/c-FLIP rheostat 的設定。其生成速率是此開關的命運決定參數，而 DISC 免疫沉澱中的 p43:p55（切割型：全長 FLIP_L）比例比總 c-FLIP 含量更忠實地讀出 rheostat 的設定。"
+    },
+    "confidence": 0.85,
+    "source_document": "p43-FLIP.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "6df65529f281",
+    "subject": "p43-FLIP",
+    "predicate": "is_bound_to",
+    "object": "DISC",
+    "context": {
+      "en-US": "p43-FLIP stays DISC-bound in heterodimers with partially processed procaspase-8, anchored through its DED1-DED2 death-effector domains, which is what allows it to serve as both marker and mediator of the rheostat's restrained state. Displacing FLIP_L from the DISC collapses the heterodimer pool and restores ligand-induced apoptosis.",
+      "zh-TW": "p43-FLIP 透過 DED1–DED2 死亡效應域錨定，與部分加工的 procaspase-8 一起維持 DISC 結合的異源二聚體狀態；這使它得以同時作為 rheostat 受抑制狀態的標記與媒介。將 FLIP_L 從 DISC 排開會瓦解異源二聚體的儲備並恢復配體誘發的 apoptosis。"
+    },
+    "confidence": 0.9,
+    "source_document": "p43-FLIP.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "cfdbcb396030",
+    "subject": "mTOR",
+    "predicate": "drives",
+    "object": "Aging",
+    "context": {
+      "en-US": "The mTOR pathway is optimised for growth and reproduction in early life, but its chronic activation in adulthood is a major driver of aging. mTOR is framed as a quasi-programmed driver of aging that rapamycin inhibits, and chronic hyperactivation contributes to cancer, insulin resistance and obesity, and impaired clearance of protein aggregates.",
+      "zh-TW": "mTOR 路徑在生命早期為生長與繁殖而最佳化，但其於成年後的慢性活化是老化的主要驅動因素。mTOR 被視為 rapamycin 所抑制的「準程式化」老化驅動因子；慢性過度活化會促成癌症、胰島素阻抗與肥胖，以及蛋白聚集體清除受損。"
+    },
+    "confidence": 0.9,
+    "source_document": "mTOR.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "be58d317162c",
+    "subject": "Ivermectin",
+    "predicate": "inhibits",
+    "object": "mTOR",
+    "context": {
+      "en-US": "Ivermectin blocks the Akt/mTOR axis to induce autophagy, with p21-activated kinase 1 (PAK1) identified as its target in breast cancer. Inhibition of this axis induces autophagy and programmed cell death in tumour cells, making the pathway a point of pharmacological leverage.",
+      "zh-TW": "Ivermectin 阻斷 Akt/mTOR 軸以誘導 autophagy，在乳癌中其標的被鑑定為 p21 活化激酶 1（PAK1）。抑制此軸可在腫瘤細胞中誘導 autophagy 與程式性細胞死亡，使該路徑成為藥理上可操作的介入點。"
+    },
+    "confidence": 0.85,
+    "source_document": "mTOR.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "1a2bb8eeae13",
+    "subject": "mTORopathies",
+    "predicate": "is_caused_by",
+    "object": "mTOR",
+    "context": {
+      "en-US": "mTORopathies are a group of neurologic and developmental disorders in which hyperactivation of the mTOR pathway is the dominant, actionable molecular driver. Paradigmatic examples include tuberous sclerosis complex (TSC1/TSC2 loss), focal cortical dysplasia, and GATOR1-related epilepsies such as NPRL3 loss.",
+      "zh-TW": "mTORopathies 是一類神經與發育障礙，其中 mTOR 路徑的過度活化是主導且可作為治療標的的分子驅動因子。典型例子包括結節性硬化症（TSC1/TSC2 缺失）、局部皮質發育不良，以及 GATOR1 相關的癲癇（如 NPRL3 缺失）。"
+    },
+    "confidence": 0.9,
+    "source_document": "mTORopathies.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "dd9adfbf65e2",
+    "subject": "mTORopathies",
+    "predicate": "is_associated_with",
+    "object": "TSC",
+    "context": {
+      "en-US": "Tuberous sclerosis complex is the prototypical mTORopathy, caused by loss of TSC1/TSC2, and it is defined by hamartomas such as cortical tubers, angiomyolipoma and SEGA. Phospho-ribosomal protein S6 serves as a pharmacodynamic biomarker of pathway activation in these patients.",
+      "zh-TW": "結節性硬化症（TSC）是最典型的 mTORopathy，由 TSC1/TSC2 缺失造成，並以 hamartoma（如皮質結節、血管平滑肌脂肪瘤與 SEGA）為其定義特徵。磷酸化 ribosomal protein S6 在這些病人中可作為路徑活化的藥效學生物標記。"
+    },
+    "confidence": 0.9,
+    "source_document": "mTORopathies.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "9eeb3d426e79",
+    "subject": "Ribosomal Protein S6",
+    "predicate": "measures",
+    "object": "mTOR",
+    "context": {
+      "en-US": "Phospho-ribosomal protein S6 is the candidate pharmacodynamic biomarker for mTOR pathway activation, where etiology is clear - as in monogenic mTORopathies. The success of rapamycin in these genetically stratified conditions contrasts with the inconsistent aging data, highlighting the need for validated biomarkers in longevity trials.",
+      "zh-TW": "磷酸化 ribosomal protein S6 是 mTOR 路徑活化的候選藥效學生物標記，在病因明確的單基因 mTORopathies 中尤其如此。Rapamycin 在這些經遺傳分層的狀況中的成功，與其在老化上的不一致數據形成對比，凸顯長壽試驗對已驗證生物標記的需求。"
+    },
+    "confidence": 0.85,
+    "source_document": "mTORopathies.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "381bd9d58ccc",
+    "subject": "miR-137",
+    "predicate": "inhibits",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "In melanoma, miR-137 negatively regulates ferroptosis by directly targeting the glutamine transporter SLC1A5: knockdown of miR-137 promotes ferroptosis, whereas its presence protects melanoma cells from iron-dependent death. Because SLC1A5 is itself ferroptosis-protective in this context, loss of miR-137 raises glutamine import, GSH supply and antioxidant defence, increasing ferroptotic resistance.",
+      "zh-TW": "在 melanoma 中，miR-137 藉由直接標定麩醯胺酸轉運蛋白 SLC1A5 而負向調節 ferroptosis：miR-137 的敲除會促進 ferroptosis，而其存在則保護 melanoma 細胞免於鐵依賴性死亡。由於 SLC1A5 在此脈絡下本身具有保護作用，miR-137 流失會提高麩醯胺酸輸入、GSH 供應與抗氧化防禦，進而增加對 ferroptosis 的抗性。"
+    },
+    "confidence": 0.9,
+    "source_document": "miR-137.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "e7ba7f1e409d",
+    "subject": "miR-137",
+    "predicate": "targets",
+    "object": "SLC1A5",
+    "context": {
+      "en-US": "miR-137 directly targets SLC1A5, the glutamine transporter that feeds GSH and TCA/anabolic pathways supporting antioxidant defence. This post-transcriptional control means small RNAs tune the glutamine-GSH axis that sets the GPX4 defence threshold in melanoma, making miR-137 and SLC1A5 candidate biomarkers and therapeutic nodes for sensitising resistant melanoma to ferroptosis inducers.",
+      "zh-TW": "miR-137 直接標定 SLC1A5；此麩醯胺酸轉運蛋白供應 GSH 以及支撐抗氧化防禦的 TCA／合成代謝路徑。這種轉錄後調控意味著小 RNA 可微調設定 melanoma 中 GPX4 防禦閾值的麩醯胺酸–GSH 軸，使 miR-137 與 SLC1A5 成為使抗藥性 melanoma 對 ferroptosis 誘導物敏感的候選生物標記與治療節點。"
+    },
+    "confidence": 0.9,
+    "source_document": "miR-137.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "5ed6e9659ebd",
+    "subject": "miR-137",
+    "predicate": "is_regulated_in",
+    "object": "Melanoma",
+    "context": {
+      "en-US": "miR-137 has tumour-suppressive and neurodevelopmental roles, and in melanoma it acts as a ferroptosis rheostat. Its knockdown promotes ferroptosis and increases reactive oxygen species and lipid peroxidation, indicating that miR-137 status sets the iron-dependent death threshold of melanoma cells.",
+      "zh-TW": "miR-137 具有抑癌與神經發育相關角色，在 melanoma 中則扮演 ferroptosis 的調節閥。其敲除會促進 ferroptosis 並提高 reactive oxygen species 與 lipid peroxidation，表示 miR-137 的狀態決定了 melanoma 細胞的鐵依賴性死亡閾值。"
+    },
+    "confidence": 0.8,
+    "source_document": "miR-137.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "b9d98df07ba1",
+    "subject": "miRNA",
+    "predicate": "is_a_component_of",
+    "object": "SASP",
+    "context": {
+      "en-US": "miRNAs (~22-nt non-coding RNAs that guide Argonaute-containing RISC to complementary 3' UTR sites to repress translation or induce decay) are key components of the senescence-associated secretory phenotype. Senescent cells both alter their intracellular miRNA repertoire and package miRNAs into exosomes and extracellular vesicles, transferring regulatory RNAs to neighbouring cells to instigate paracrine senescence.",
+      "zh-TW": "miRNA（約 22 個核苷酸的無編碼 RNA，引導含 Argonaute 的 RISC 結合互補的 3' UTR 位點以抑制轉譯或誘導降解）是 senescence-associated secretory phenotype 的關鍵成分。Senescent cells 既會改變其細胞內 miRNA 組成，也會將 miRNA 包裝進 exosome 與細胞外囊泡，將調節性 RNA 轉移給鄰近細胞以啟動 paracrine senescence。"
+    },
+    "confidence": 0.9,
+    "source_document": "miRNA.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "33cd6d410add",
+    "subject": "miRNA",
+    "predicate": "mediates",
+    "object": "Paracrine Senescence",
+    "context": {
+      "en-US": "Paracrine miRNA traffic instigates paracrine senescence and shapes the tissue microenvironment: senescent cells export miRNAs in extracellular vesicles that reprogramme neighbours. This is why circulating senescence-associated miRNAs serve as non-invasive biomarkers of biological age and inflammaging, and why exosomal miRNAs are explored as engineered senomorphic delivery vehicles.",
+      "zh-TW": "旁分泌的 miRNA 運輸會啟動 paracrine senescence 並塑造組織微環境：senescent cells 將 miRNA 以細胞外囊泡形式輸出，重新設定鄰近細胞。這也是為何循環中的 senescence 相關 miRNA 可作為生物年齡與 inflammaging 的非侵入性生物標記，以及為何 exosomal miRNA 被探索作為工程化的 senomorphic 遞送載體。"
+    },
+    "confidence": 0.9,
+    "source_document": "miRNA.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "901c8e8c03dc",
+    "subject": "miRNA",
+    "predicate": "regulates",
+    "object": "p16INK4A",
+    "context": {
+      "en-US": "The miRNA seed region base-pairs with 3' UTR targets to dampen expression of senescence regulators such as p16INK4A, p53 and SASP cytokines. Specific miRNAs tune senescence establishment and SASP intensity: miR-34a is induced by p53 and promotes IL-6 secretion, miR-146a/b buffer IL-6 and IL-8 downstream of IL-1alpha/NF-kappaB, and miR-21 reinforces senescence and pro-fibrotic SASP via PTEN/SMAD targeting.",
+      "zh-TW": "miRNA 的 seed 區與 3' UTR 標的配對，抑制 p16INK4A、p53 與 SASP 細胞激素等衰老調節物的表現。特定 miRNA 微調 senescence 的建立與 SASP 強度：miR-34a 由 p53 誘導並促進 IL-6 分泌；miR-146a/b 在 IL-1α/NF-κB 下游緩衝 IL-6 與 IL-8；miR-21 則經由 PTEN/SMAD 標定強化衰老與促纖維化的 SASP。"
+    },
+    "confidence": 0.85,
+    "source_document": "miRNA.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "a8246ea3538d",
+    "subject": "p50",
+    "predicate": "interacts_with",
+    "object": "p65",
+    "context": {
+      "en-US": "NF-kappaB exists in multiple forms, of which the p65/p50 heterodimer (p65, RelA, paired with the NFKB1-encoded p50 subunit) is the most prevalent species. p50 is thus a core constitutive partner of p65 in canonical NF-kappaB heterodimers, which the sirtuins inhibit in their anti-inflammatory effects.",
+      "zh-TW": "NF-κB 存在多種形式，其中 p65/p50 異源二聚體（p65，即 RelA，與由 NFKB1 編碼的 p50 次單元配對）是最普遍的型態。因此 p50 是典型 NF-κB 異源二聚體中 p65 的核心構成型伴隨者，而 sirtuin 正是藉由抑制 NFKB 路徑發揮抗發炎作用。"
+    },
+    "confidence": 0.9,
+    "source_document": "p50.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "a2dc7a0e280b",
+    "subject": "p65",
+    "predicate": "is_a_component_of",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "p65 (RELA) is one of the two subunits of the most prevalent NF-kappaB species, the p65/p50 heterodimer. Its transcriptional activity is acetylation-sensitive: increased SIRT1 protein expression reduces acetylation of the NF-kappaB p65 subunit, which suppresses TNF-alpha-induced NF-kappaB transcriptional activation and reduces TNF-alpha secretion in a SIRT1-dependent manner.",
+      "zh-TW": "p65（RELA）是最普遍的 NF-κB 型態——p65/p50 異源二聚體——的兩個次單元之一。其轉錄活性對乙醯化敏感：SIRT1 蛋白表現增加會降低 NF-κB p65 次單元的乙醯化程度，進而以 SIRT1 依賴的方式抑制 TNFα 誘發的 NF-κB 轉錄活化並減少 TNFα 分泌。"
+    },
+    "confidence": 0.9,
+    "source_document": "p65.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "7a04899e4ffa",
+    "subject": "ribonucleotide reductase",
+    "predicate": "converts_to",
+    "object": "DNA Replication",
+    "context": {
+      "en-US": "Ribonucleotide reductase (RNR) is the only enzyme able to convert ribonucleoside diphosphates into deoxyribonucleoside diphosphates, the immediate precursors of the dNTPs consumed by DNA Replication and DNA Repair. Because it is the rate-limiting, allosterically regulated committed step of de novo dNTP synthesis, RNR couples nucleotide supply to cell-cycle progression and supplies the building blocks for DNA Replication.",
+      "zh-TW": "核糖核苷酸還原酶（RNR）是唯一能將核糖核苷二磷酸轉換為去氧核糖核苷二磷酸的酵素，而後者正是 DNA Replication 與 DNA Repair 所消耗的 dNTP 的直接前驅物。由於它是去 novo dNTP 合成中限速、受變構調節的承諾步驟，RNR 將核苷酸供應與細胞週期進程偶聯，並為 DNA Replication 提供構築原料。"
+    },
+    "confidence": 0.95,
+    "source_document": "ribonucleotide reductase.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "f01e6c656615",
+    "subject": "ribonucleotide reductase",
+    "predicate": "is_inhibited_by",
+    "object": "Thioredoxin-1",
+    "context": {
+      "en-US": "Ribonucleotide reductase is the archetypal thioredoxin-1 client. After each catalytic cycle its active-site cysteines are oxidized to a disulfide, and reduced Thioredoxin-1 — regenerated by Thioredoxin reductase plus NADPH — re-reduces the enzyme. Glutaredoxin provides a parallel donor routed through reduced Glutathione, and both pathways converge on NADPH.",
+      "zh-TW": "核糖核苷酸還原酶是 thioredoxin-1 最典型的客戶蛋白。每一次催化循環後，其活性位點的半胱胺酸會被氧化成雙硫鍵，再由還原態的 Thioredoxin-1（其本身由 Thioredoxin reductase 加上 NADPH 再生）重新還原酵素。Glutaredoxin 則透過還原態的 Glutathione 提供平行電子供體，兩條途徑皆最終匯入 NADPH。"
+    },
+    "confidence": 0.6,
+    "source_document": "ribonucleotide reductase.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "8fd1132fa7b0",
+    "subject": "ribonucleotide reductase",
+    "predicate": "induces",
+    "object": "DNA Replication Stress",
+    "context": {
+      "en-US": "Inhibition of ribonucleotide reductase produces dNTP insufficiency, which stalls replication forks and activates ATR/ATM checkpoint signaling; the resulting dNTP-catastrophe axis is precisely how agents such as hydroxyurea impose cell-cycle arrest and can lead to Apoptosis or Senescence.",
+      "zh-TW": "抑制核糖核苷酸還原酶會造成 dNTP 不足，進而使複製叉停滯並活化 ATR/ATM 檢查點訊號；由此形成的「dNTP 災難」軸線，正是 hydroxyurea 等藥物造成細胞週期停滯、並可能導致 Apoptosis 或 Senescence 的機制。"
+    },
+    "confidence": 0.9,
+    "source_document": "ribonucleotide reductase.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "dbc00219c3f8",
+    "subject": "RRM2",
+    "predicate": "is_induced_by",
+    "object": "E2F",
+    "context": {
+      "en-US": "The small subunit RRM2 is transcriptionally restricted to S phase of the cell cycle via E2F, and its protein is degraded in quiescent/G1 cells. RRM1 is constitutively expressed, so holoenzyme activity of ribonucleotide reductase is highest during S Phase when DNA Replication occurs.",
+      "zh-TW": "小次單元 RRM2 受 E2F 轉錄調控而侷限於細胞週期的 S phase，其蛋白質在靜止或 G1 期被降解；而大次單元 RRM1 則持續表現。因此核糖核苷酸還原酶全酶活性在進行 DNA Replication 的 S Phase 最高。"
+    },
+    "confidence": 0.85,
+    "source_document": "ribonucleotide reductase.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "17b00f0ea391",
+    "subject": "sjTREC",
+    "predicate": "is_produced_by",
+    "object": "T Cell Receptor",
+    "context": {
+      "en-US": "The single joint T cell receptor excision circle is generated during TCR alpha-chain gene rearrangement, when the TCR delta locus is excised and the discarded DNA forms a stable episomal circle. It is therefore a direct molecular readout of T Cell Receptor rearrangement taking place in the Thymus.",
+      "zh-TW": "單一接合型 T 細胞受體切除環（sjTREC）是在 TCR α 鏈基因重組過程中產生的：TCR δ 座被切除後，被捨去的 DNA 形成穩定的附著體環狀分子。因此它是 Thymus 中進行 T Cell Receptor 重組的直接分子讀值。"
+    },
+    "confidence": 0.95,
+    "source_document": "sjTREC.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "e67bbd8a1621",
+    "subject": "sjTREC",
+    "predicate": "measures",
+    "object": "Thymopoiesis",
+    "context": {
+      "en-US": "Because sjTREC does not replicate during mitosis, it is diluted with each subsequent division, so sjTREC per million PBMCs is a quantitative marker of recent thymic emigrants and of active Thymopoiesis. It is measured by quantitative PCR and normalized to CD3+ T cell counts.",
+      "zh-TW": "由於 sjTREC 在有絲分裂時不會複製，每次細胞分裂後都會被稀釋，因此每百萬 PBMC 的 sjTREC 數量是近期胸腺移出細胞與活躍 Thymopoiesis 的定量標記。其測定方法為定量 PCR，並常以 CD3⁺ T 細胞數作為正規化基準。"
+    },
+    "confidence": 0.95,
+    "source_document": "sjTREC.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "2607773a473d",
+    "subject": "sjTREC",
+    "predicate": "declines_with",
+    "object": "Thymic Involution",
+    "context": {
+      "en-US": "sjTREC levels decline steadily by roughly three logs across the human lifespan and decrease per milligram of thymus tissue with age in mice, reflecting Thymic Involution. Low sjTREC correlates with reduced naive T cell output and a restricted T Cell Receptor repertoire, so the marker is used clinically after chemotherapy, HIV infection or stem cell transplantation.",
+      "zh-TW": "sjTREC 濃度在人類整個壽命中穩定下降約三個對數單位，在小鼠中也隨年齡於每毫克胸腺組織中減少，反映 Thymic Involution。偏低的 sjTREC 與初始型 T 細胞輸出減少及 T Cell Receptor 庫縮窄相關，因此該標記被用於化學治療、HIV 感染或幹細胞移植後的臨床評估。"
+    },
+    "confidence": 0.9,
+    "source_document": "sjTREC.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "c6a3f906b623",
+    "subject": "tRNA",
+    "predicate": "carries",
+    "object": "Selenocysteine",
+    "context": {
+      "en-US": "The selenocysteine-specific isoacceptor tRNA[Ser]Sec is the physical carrier of the 21st amino acid: it is first charged with Serine and then converted on the tRNA to Selenocysteine by PSTK and SepSecS. Delivering Selenocysteine through this route determines Selenoprotein output and hence cellular redox resilience.",
+      "zh-TW": "硒半胱胺酸專一性的同受體 tRNA[Ser]Sec 是第 21 種胺基酸的實際載體：它先被 charge 上 Serine，接著在 tRNA 上由 PSTK 與 SepSecS 轉換為 Selenocysteine。經由此途徑遞送 Selenocysteine 決定了 Selenoprotein 的產量，進而影響細胞的氧化還原韌性。"
+    },
+    "confidence": 0.95,
+    "source_document": "tRNA.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "ef34dad25456",
+    "subject": "uPA",
+    "predicate": "converts_to",
+    "object": "Plasmin",
+    "context": {
+      "en-US": "Urokinase plasminogen activator is a serine protease that cleaves Plasminogen to generate the broad-spectrum protease Plasmin at the cell surface, initiating a proteolytic cascade. Plasmin in turn activates latent MMP-3, MMP-9 and other matrix metalloproteinases, linking collagenolysis and basement-membrane breach to the protease axis.",
+      "zh-TW": "尿激酶型血漿素原活化素（uPA）是絲胺酸蛋白酶，會在細胞表面切割 Plasminogen 以產生廣效蛋白酶 Plasmin，啟動蛋白水解級聯反應。Plasmin 隨後活化潛伏的 MMP-3、MMP-9 及其他基質金屬蛋白酶，將膠原分解與基底膜破壞連結到這套蛋白酶系統。"
+    },
+    "confidence": 0.95,
+    "source_document": "uPA.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "53b7d59b254d",
+    "subject": "uPA",
+    "predicate": "is_a_component_of",
+    "object": "SASP",
+    "context": {
+      "en-US": "uPA is secreted by Senescent Cells and is a protease component of the SASP, contributing to the matrix-degrading, pro-migratory arm of the phenotype. By generating Plasmin it promotes migration and invasion, releases matrix-bound growth factors, and thereby sustains Paracrine Senescence and pro-fibrotic tissue remodeling in the aged microenvironment.",
+      "zh-TW": "uPA 由 Senescent Cells 分泌，是 SASP 中的蛋白酶組成，貢獻於該表型中降解基質與促進遷移的那一臂。透過產生 Plasmin，它促進細胞遷移與侵犯、釋出基質結合的生長因子，進而維持 Paracrine Senescence 與老化微環境中的促纖維化組織重塑。"
+    },
+    "confidence": 0.9,
+    "source_document": "uPA.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "929d09b6e108",
+    "subject": "uPAR",
+    "predicate": "binds",
+    "object": "uPA",
+    "context": {
+      "en-US": "uPAR (CD87) is a GPI-anchored membrane protein with three domains: domain I binds uPA, domain II binds Vitronectin, and domain III carries the GPI anchor. By localizing urokinase plasminogen activator to the cell surface it concentrates proteolysis at sites of cell migration and invasion, driving extracellular matrix remodeling and cancer cell dissemination.",
+      "zh-TW": "uPAR（CD87）是 GPI 錨定的膜蛋白，具有三個結構域：domain I 結合 uPA、domain II 結合 Vitronectin、domain III 帶有 GPI 錨定。透過將尿激酶型血漿素原活化素定位到細胞表面，它在細胞遷移與侵犯部位濃縮蛋白水解作用，驅動細胞外基質重塑與癌細胞擴散。"
+    },
+    "confidence": 0.95,
+    "source_document": "uPAR.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "5c7fd7742205",
+    "subject": "uPAR",
+    "predicate": "promotes",
+    "object": "Breast Cancer",
+    "context": {
+      "en-US": "High uPAR expression correlates with poor prognosis in Breast Cancer, where uPAR drives invasion and metastasis by localizing proteolysis to the cell surface and activating latent MMPs. It is also induced by SASP signals, promoting paracrine invasion of neighbouring cancer cells, and soluble uPAR (suPAR) serves as a serum prognostic biomarker.",
+      "zh-TW": "uPAR 表現偏高與 Breast Cancer 的不良預後相關；在該情境下，uPAR 藉由將蛋白水解作用定位到細胞表面並活化潛伏 MMP 而促進侵犯與轉移。它也受 SASP 訊號誘導，促進鄰近癌細胞的旁分泌侵犯，而可溶性 uPAR（suPAR）則作為血清預後生物標記。"
+    },
+    "confidence": 0.9,
+    "source_document": "uPAR.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "49ee6d01c8fa",
+    "subject": "vFLIP",
+    "predicate": "inhibits",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "vFLIPs are DED-tandem viral proteins discovered in 1997 in gammaherpesviruses and poxviruses that block host Apoptosis at the DISC by engaging FADD and Caspase-8, keeping the infected cell alive and transcriptionally productive. KSHV K13 additionally drives constitutive NF-kB activity through NEMO binding.",
+      "zh-TW": "vFLIP 是 1997 年在 γ 疱疹病毒與痘病毒中發現的 DED 串聯蛋白，藉由結合 FADD 與 Caspase-8 在 DISC 層級阻斷宿主的 Apoptosis，使受感染細胞存活並維持轉錄活性。KSHV 的 K13 另可透過結合 NEMO 驅動持續性的 NF-κB 活性。"
+    },
+    "confidence": 0.95,
+    "source_document": "vFLIP.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "9be0d306b5b4",
+    "subject": "vFLIP",
+    "predicate": "binds",
+    "object": "NEMO",
+    "context": {
+      "en-US": "The KSHV/HHV-8 vFLIP K13 (ORF71) binds NEMO at the same site used by p22-FLIP, driving constitutive IKK complex to NF-kB signaling that is required for primary effusion lymphoma survival and viral latency. MC159 instead blocks Caspase-8 processing and, like cellular FLIP_S, can license RIPK1-dependent Necroptosis.",
+      "zh-TW": "KSHV/HHV-8 的 vFLIP K13（ORF71）在與 p22-FLIP 相同的位點結合 NEMO，驅動 IKK complex 對 NF-κB 的持續訊號傳遞，此訊號為原發性 effusion lymphoma 的存活與病毒潛伏所必需。相對地，MC159 則阻斷 Caspase-8 的加工處理，並如細胞型 FLIP_S 一樣可授權 RIPK1 依賴性的 Necroptosis。"
+    },
+    "confidence": 0.9,
+    "source_document": "vFLIP.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "607e3917857d",
+    "subject": "α-Ketoglutarate",
+    "predicate": "is_derived_from",
+    "object": "Glutamine",
+    "context": {
+      "en-US": "Alpha-ketoglutarate is generated from Glutamine via Glutaminase and subsequent glutamate conversion, making it the primary entry point for glutamine-derived carbon into the TCA cycle. Metabolic 13C tracing shows that in MYC-high cancer cells glutamine is the primary carbon source for alpha-ketoglutarate.",
+      "zh-TW": "α-酮戊二酸由 Glutamine 經 Glutaminase 及後續的麩胺酸轉換而生成，因此它是麩醯胺胺衍生碳進入 TCA cycle 的主要入口。代謝性 ¹³C 追蹤顯示，在 MYC 高表現的癌細胞中，Glutamine 是 α-酮戊二酸的主要碳來源。"
+    },
+    "confidence": 0.95,
+    "source_document": "α-Ketoglutarate.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "06a44e63a1f7",
+    "subject": "α-Ketoglutarate",
+    "predicate": "is_precursor_of",
+    "object": "TCA cycle",
+    "context": {
+      "en-US": "Alpha-ketoglutarate is the key intermediate through which glutamine carbon enters the TCA cycle by Anaplerosis, and it serves as a precursor for amino acid, fatty acid and sterol biosynthesis. Complex I inhibition causes alpha-ketoglutarate accumulation that cannot be efficiently processed into downstream TCA intermediates, stalling the cycle.",
+      "zh-TW": "α-酮戊二酸是麩醯胺胺碳藉由 Anaplerosis 進入 TCA cycle 的關鍵中間產物，同時也是胺基酸、脂肪酸與類固醇生合成的先驅物。Complex I 抑制會造成 α-酮戊二酸累積，卻無法有效被處理成後續的 TCA 中間產物，使循環停滯。"
+    },
+    "confidence": 0.9,
+    "source_document": "α-Ketoglutarate.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "c946ccba2b71",
+    "subject": "α-Ketoglutarate",
+    "predicate": "is_required_for",
+    "object": "Epigenome",
+    "context": {
+      "en-US": "Alpha-ketoglutarate is an obligate co-substrate for several dioxygenase families — TET enzymes mediating DNA demethylation, JmjC-domain histone demethylases, and PHD/EGLN prolyl hydroxylases that regulate HIF-alpha — so changes in its level can influence the Epigenome and oxygen sensing.",
+      "zh-TW": "α-酮戊二酸是多個雙加氧酶家族的必需輔底物——包括介導 DNA 去甲基化的 TET 酵素、JmjC 結構域組蛋白去甲基化酶，以及調控 HIF-α 的 PHD/EGLN 脯胺酸羥化酶——因此其濃度變化可影響 Epigenome 與氧感應。"
+    },
+    "confidence": 0.9,
+    "source_document": "α-Ketoglutarate.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "0ac52051fb86",
+    "subject": "SIRT2",
+    "predicate": "deacetylates",
+    "object": "α-tubulin",
+    "context": {
+      "en-US": "SIRT2 is the predominantly cytoplasmic sirtuin and the major deacetylase of alpha-tubulin. By removing acetyl groups it tunes microtubule dynamics, cytoskeleton organization and mitotic fidelity, with activity peaking at the G2/M transition to support chromosome condensation and segregation.",
+      "zh-TW": "SIRT2 是主要位於細胞質的 sirtuin，也是 α-tubulin 的主要去乙醯化酶。藉由移除乙醯基，它調節微管動態、細胞骨架組織與有絲分裂的準確性，其活性在 G2/M 轉換期達到高峰，以支持染色質濃縮與正確分離。"
+    },
+    "confidence": 0.95,
+    "source_document": "α-tubulin.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "1dcfa227f460",
+    "subject": "α-tubulin",
+    "predicate": "is_a_component_of",
+    "object": "Tubulin",
+    "context": {
+      "en-US": "Alpha-tubulin is one of the two subunits, with beta-tubulin, that form the alpha-beta tubulin heterodimer, the building block of microtubules and the mitotic spindle. Acetylation of alpha-tubulin, classically at Lys40, is a well-established mark of stabilized, long-lived microtubules.",
+      "zh-TW": "α-tubulin 與 β-tubulin 共同組成 αβ 型的 Tubulin 異二聚體，該異二聚體是微管與有絲分裂紡錘體的組成單位。α-tubulin 的乙醯化（典型位於 Lys40）是穩定且長壽命微管的公認標記。"
+    },
+    "confidence": 0.9,
+    "source_document": "α-tubulin.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "c993e7582d1e",
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "β-Catenin",
+    "context": {
+      "en-US": "SIRT1 deacetylates beta-catenin and thereby suppresses its ability to activate transcription and drive cell proliferation. This is one mechanism by which SIRT1 can act as a tumor suppressor; because SIRT1 also inactivates p53, the net oncogenic versus tumor-suppressive outcome is context-dependent.",
+      "zh-TW": "SIRT1 會去乙醯化 β-catenin，因而抑制其活化轉錄與驅動細胞增殖的能力。這是 SIRT1 可扮演腫瘤抑制因子的機制之一；由於 SIRT1 同時會使 p53 失活，最終是促癌或抑癌的結果取決於情境。"
+    },
+    "confidence": 0.9,
+    "source_document": "β-Catenin.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "95c99235a3c5",
+    "subject": "β-Catenin",
+    "predicate": "regulates",
+    "object": "Wnt signaling",
+    "context": {
+      "en-US": "Beta-catenin orchestrates the canonical Wnt signaling pathway as a transcriptional coactivator of TCF/LEF factors. Without Wnt ligands a destruction complex (APC, Axin, GSK-3beta, CK1) phosphorylates it for proteasomal degradation; Wnt binding stabilizes beta-catenin, which translocates to the nucleus and activates proliferation-driving target genes.",
+      "zh-TW": "β-Catenin 作為 TCF/LEF 因子的轉錄共活化因子，主導標準型 Wnt signaling 途徑。缺乏 Wnt 配體時，降解複合體（APC、Axin、GSK-3β、CK1）會將其磷酸化並標記供蛋白酶體降解；Wnt 結合則穩定 β-catenin，使其轉位入核並活化驅動增殖的目標基因。"
+    },
+    "confidence": 0.95,
+    "source_document": "β-Catenin.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "7f840eb458f9",
+    "subject": "γ-H2AX",
+    "predicate": "is_phosphorylated_by",
+    "object": "ATM",
+    "context": {
+      "en-US": "Gamma-H2AX is the phosphorylated form of the histone variant H2AX at serine 139, generated by the phosphatidylinositol 3-kinase-related kinases ATM, ATR and DNA-PK in response to DNA double-strand breaks. ATM is the primary responder to DSBs and ionizing radiation, whereas ATR responds to replication stress.",
+      "zh-TW": "γ-H2AX 是組蛋白變異體 H2AX 在絲胺酸 139 位置的磷酸化型態，由磷脂肌醇 3-激酶相關激酶 ATM、ATR 與 DNA-PK 在 DNA 雙股斷裂時產生。ATM 是 DSB 與游離輻射的主要反應者，而 ATR 則負責複製壓力。"
+    },
+    "confidence": 0.95,
+    "source_document": "γ-H2AX.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "ff72416c4ea2",
+    "subject": "γ-H2AX",
+    "predicate": "recruits",
+    "object": "MDC1",
+    "context": {
+      "en-US": "Phosphorylated H2AX does not itself repair DNA; it creates a high-affinity binding platform that nucleates repair foci. The mediator MDC1 binds gamma-H2AX directly via its BRCT domain, then recruits the ubiquitin ligase RNF168, which ubiquitinates H2A and H2AX to generate binding sites for 53BP1 and BRCA1 — the factors that direct repair pathway choice between non-homologous end joining and homologous recombination.",
+      "zh-TW": "磷酸化的 H2AX 本身並不修復 DNA；它建立高親和力的結合平台以成核修復焦點。介導蛋白 MDC1 透過其 BRCT 結構域直接結合 γ-H2AX，接著招募泛素連接酶 RNF168，由後者泛素化 H2A 與 H2AX 以產生 53BP1 與 BRCA1 的結合位點——這兩個因子決定非同源末端接合與同源重組之間的修復路徑選擇。"
+    },
+    "confidence": 0.9,
+    "source_document": "γ-H2AX.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "c4573bbffc8c",
+    "subject": "SIRT6",
+    "predicate": "reduces",
+    "object": "γ-H2AX",
+    "context": {
+      "en-US": "SIRT6 promotes double-strand break repair by deacetylating histone H3 at lysines 9 and 56, which facilitates 53BP1 and BRCA1 recruitment and stabilizes repair complexes. Gamma-H2AX focus clearance is therefore the standard functional readout of SIRT6-dependent genome maintenance: SIRT6-deficient cells accumulate persistent foci, while activators such as UBCS039 and MDL-800 accelerate clearance.",
+      "zh-TW": "SIRT6 藉由去乙醯化組蛋白 H3 的第 9 與第 56 離胺酸促進雙股斷裂修復，促進 53BP1 與 BRCA1 的招募並穩定修復複合體。因此 γ-H2AX 焦點的清除速度是評估 SIRT6 依賴性基因體維持功能的标准讀值：SIRT6 缺失的細胞會累積持續性焦點，而 UBCS039、MDL-800 等活化劑則加速清除。"
+    },
+    "confidence": 0.9,
+    "source_document": "γ-H2AX.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
+  },
+  {
+    "id": "9f3ee0a63a5d",
+    "subject": "γ-H2AX",
+    "predicate": "marks",
+    "object": "Senescence",
+    "context": {
+      "en-US": "Persistent gamma-H2AX foci are a hallmark of senescent cells, where they mark unresolved DNA damage and telomere dysfunction (telomere dysfunction-induced foci). Gamma-H2AX accumulates with age across tissues, reflecting declining repair fidelity, and it is used as a pharmacodynamic biomarker for PARP inhibitors, CDK inhibitors and Radiosensitizer agents.",
+      "zh-TW": "持續性的 γ-H2AX 焦點是衰老細胞的特徵，在此它標記未解決的 DNA 損傷與端粒功能異常（端粒功能異常誘發的焦點）。γ-H2AX 隨年齡在組織中累積，反映修復保真度下降，並被用作 PARP inhibitors、CDK 抑制劑與 Radiosensitizer 類藥物的藥效學標記。"
+    },
+    "confidence": 0.9,
+    "source_document": "γ-H2AX.md",
+    "created": "2026-09-29T18:07:33Z",
+    "updated": "2026-09-29T18:07:33Z"
   }
 ]
