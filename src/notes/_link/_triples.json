@@ -68192,5 +68192,803 @@
     "source_document": "Mdivi-1.md",
     "created": "2026-09-29T16:39:12Z",
     "updated": "2026-09-29T16:39:12Z"
+  },
+  {
+    "id": "de558c2a50f9",
+    "subject": "Lamin A",
+    "predicate": "is_encoded_by",
+    "object": "LMNA Gene",
+    "context": {
+      "en-US": "Lamin A is a type-V intermediate-filament protein of the nuclear lamina encoded by the LMNA gene; the same gene also gives rise to lamin C, and defective post-translational processing of its product yields progerin.",
+      "zh-TW": "Lamin A 是核纖層的第五型中間絲蛋白，由 LMNA gene 編碼；同一基因也產生 lamin C，而其產物的轉譯後修飾缺陷會產生 progerin。"
+    },
+    "confidence": 0.95,
+    "source_document": "Lamin A.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "c19a9fe4867f",
+    "subject": "Lamin A",
+    "predicate": "forms_core_of",
+    "object": "Nuclear Pore Complex",
+    "context": {
+      "en-US": "Lamin A, together with lamin C and the B-type lamins, forms the nuclear lamina meshwork underlying the inner nuclear membrane. By anchoring the Nuclear Pore Complex it provides mechanical support to the nucleus and helps organize Chromatin into lamina-associated domains.",
+      "zh-TW": "Lamin A 與 lamin C 及 B 型 lamin 共同構成內核膜下的核纖層網狀結構。它藉由錨定 Nuclear Pore Complex 為細胞核提供機械支撐，並將 Chromatin 組織成核纖層相關結構域（LADs）。"
+    },
+    "confidence": 0.9,
+    "source_document": "Lamin A.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "bdef23f86d98",
+    "subject": "Progerin",
+    "predicate": "is_a_derivative_of",
+    "object": "Lamin A",
+    "context": {
+      "en-US": "Progerin is a toxic, truncated isoform of Lamin A produced when a silent point mutation in the LMNA gene (c.1824C>T) activates a cryptic splice site. Because it retains a permanently farnesylated C-terminus it cannot be de-farnesylated, and it accumulates at the nuclear membrane.",
+      "zh-TW": "Progerin 是 Lamin A 的毒性截短型異構物，由 LMNA gene 上的一個沉默點突變（c.1824C>T）活化隱藏剪接位點而產生。由於其保留永久性的法尼基化 C 端而無法被去法尼基化，它會在核膜處累積。"
+    },
+    "confidence": 0.95,
+    "source_document": "Lamin A.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "8edf3c0c00e5",
+    "subject": "Progerin",
+    "predicate": "causes",
+    "object": "Hutchinson-Gilford Progeria Syndrome",
+    "context": {
+      "en-US": "Accumulation of Progerin, the toxic truncated form of Lamin A, causes Hutchinson-Gilford Progeria Syndrome, characterized by nuclear blebbing, loss of Heterochromatin (reduced H3K9me3 and HP1), Genomic Instability and premature Senescence.",
+      "zh-TW": "毒性截短型 Lamin A（Progerin）的累積會造成 Hutchinson-Gilford Progeria Syndrome，其特徵為核膜起泡、Heterochromatin 流失（H3K9me3 與 HP1 減少）、Genomic Instability 以及提早出現 Senescence。"
+    },
+    "confidence": 0.95,
+    "source_document": "Lamin A.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "70338bdcc8ad",
+    "subject": "Lamin A",
+    "predicate": "is_associated_with",
+    "object": "Aging",
+    "context": {
+      "en-US": "Low levels of Progerin, the truncated form of Lamin A, also accumulate during normal Aging. This links Lamin A biology to physiological aging and makes the nuclear lamina a model for studying Epigenetic Alterations and heterochromatin loss.",
+      "zh-TW": "在正常 Aging 過程中，截短型的 Lamin A（Progerin）也會累積到低量。這把 Lamin A 的生物學與生理性老化連結起來，使核纖層成為研究 Epigenetic Alterations 與異染色質流失的模型。"
+    },
+    "confidence": 0.85,
+    "source_document": "Lamin A.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "d2de200fb508",
+    "subject": "Lamin B1",
+    "predicate": "is_a_biomarker_of",
+    "object": "Senescence",
+    "context": {
+      "en-US": "Downregulation of the nuclear lamina protein Lamin B1 is one of the most conserved, cell-autonomous markers of Senescence, holding across replicative, oncogene-induced and therapy-induced senescence in human and mouse cells. Because the loss is cell-autonomous, LMNB1 negativity is used to quantify senescent-cell burden in vivo.",
+      "zh-TW": "核纖層蛋白 Lamin B1 的下調是最保守且細胞自主的 Senescence 標誌之一，在複製性、致癌基因誘導與治療誘導的衰老中皆成立，且適用於人與小鼠細胞。由於這種流失是細胞自主的，LMNB1 陰性可用於在體內量化衰老細胞負荷。"
+    },
+    "confidence": 0.95,
+    "source_document": "Lamin B1.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "b2e12979e0e4",
+    "subject": "Lamin B1",
+    "predicate": "forms_complex_with",
+    "object": "Lamin A",
+    "context": {
+      "en-US": "Lamin B1 is a type B intermediate-filament protein of the nuclear lamina that polymerizes with Lamin A to form the scaffold anchoring nuclear pores and peripheral Chromatin as lamina-associated domains. Senescence represses LMNB1 (partly via p53 and Retinoblastoma Protein) without commensurate loss of Lamin A.",
+      "zh-TW": "Lamin B1 是核纖層的 B 型中間絲蛋白，與 Lamin A 聚合形成錨定核孔與周邊 Chromatin（核纖層相關結構域）的支架。衰老會抑制 LMNB1 表達（部分經由 p53 與 Retinoblastoma Protein），而 Lamin A 並未同步流失。"
+    },
+    "confidence": 0.9,
+    "source_document": "Lamin B1.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "88a3154459a5",
+    "subject": "Lamin B1",
+    "predicate": "is_associated_with",
+    "object": "Senescence-Associated Heterochromatin Foci",
+    "context": {
+      "en-US": "Loss of Lamin B1 detaches lamina-associated domains from the nuclear periphery, permitting a global shuffling of the genome that facilitates both Senescence-Associated Heterochromatin Foci formation and the leaky transcription characteristic of senescence. Lamin B1 loss is upstream of these large-scale chromatin rearrangements.",
+      "zh-TW": "Lamin B1 流失使核纖層相關結構域脫離核周邊，讓基因體發生全面性的重新洗牌，既促成 Senescence-Associated Heterochromatin Foci 的形成，也造成衰老時特有的「滲漏式」轉錄。Lamin B1 流失位於這些大規模染色質重排的上游。"
+    },
+    "confidence": 0.9,
+    "source_document": "Lamin B1.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "cbaa2e2f5e72",
+    "subject": "Lamin B1",
+    "predicate": "restrains",
+    "object": "cGAS-STING Pathway",
+    "context": {
+      "en-US": "Nuclear envelope defects that follow Lamin B1 loss may permit cytosolic DNA accumulation, feeding the cGAS-STING Pathway and thereby the SASP axis; compounds that preserve Lamin B1 blunt this inflammatory output as a senomorphic strategy.",
+      "zh-TW": "Lamin B1 流失後的核膜缺陷可能使細胞質 DNA 累積，進而餵給 cGAS-STING Pathway 與其下游的 SASP 軸；能維持 Lamin B1 的化合物（senomorphic 策略）可抑制此發炎輸出。"
+    },
+    "confidence": 0.7,
+    "source_document": "Lamin B1.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "a4febcc08c87",
+    "subject": "Lamin B1",
+    "predicate": "declines_in",
+    "object": "Aging",
+    "context": {
+      "en-US": "Lamin B1 levels decline in multiple aged tissues, correlating with senescent-cell burden and Inflammaging, which makes the loss of this single protein a practical in vivo readout of aging-associated senescence.",
+      "zh-TW": "Lamin B1 在多種老化組織中的含量下降，並與衰老細胞負荷及 Inflammaging 相關，因此這種單一蛋白的流失可作為老化相關衰老的實用體內讀值。"
+    },
+    "confidence": 0.85,
+    "source_document": "Lamin B1.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "0d8ce4e0da54",
+    "subject": "Lamivudine",
+    "predicate": "inhibits",
+    "object": "LINE-1",
+    "context": {
+      "en-US": "Lamivudine (3TC) is a cytidine nucleoside analogue that, after phosphorylation to its triphosphate form, competes with dCTP and terminates cDNA chain elongation. The same inhibitory principle applies to the endogenous reverse transcriptase encoded by autonomous LINE-1 retroelements, which is why lamivudine acts as a senomorphic agent.",
+      "zh-TW": "Lamivudine（3TC）是胞苷核苷類似物，磷酸化為三磷酸型後與 dCTP 競爭並終止 cDNA 鏈延長。相同的抑制原理也適用於自主性 LINE-1 反轉錄子所編碼的內源性反轉錄酶，因此 lamivudine 可作為 senomorphic 藥物。"
+    },
+    "confidence": 0.9,
+    "source_document": "Lamivudine.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "6cf72b9e2fea",
+    "subject": "Lamivudine",
+    "predicate": "suppresses",
+    "object": "SASP",
+    "context": {
+      "en-US": "Rather than killing senescent cells, Lamivudine is repurposed as a senomorphic agent that dampens the SASP. Its inhibition of cGAS-STING signalling is indirect: lamivudine does not bind cGAS or STING directly but removes their upstream trigger, retroelement-derived cDNA.",
+      "zh-TW": "Lamivudine 並非殺死衰老細胞，而是被重新定位為 senomorphic 藥物以抑制 SASP。它對 cGAS-STING 訊號的抑制是間接的：lamivudine 並不直接結合 cGAS 或 STING，而是移除其上游觸發因子——反轉錄子來源的 cDNA。"
+    },
+    "confidence": 0.85,
+    "source_document": "Lamivudine.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "3081674f958b",
+    "subject": "Lands cycle",
+    "predicate": "remodels",
+    "object": "Phospholipid",
+    "context": {
+      "en-US": "The Lands cycle (deacylation-reacylation cycle) is a phospholipid remodeling pathway in which free fatty acids are exchanged into the sn-2 position of membrane Phospholipid, thereby changing the fatty acid composition of the membrane pool.",
+      "zh-TW": "Lands cycle（去醯化—再醯化循環）是一條磷脂重塑路徑，將游離脂肪酸交換進膜上 Phospholipid 的 sn-2 位置，藉此改變膜脂池的脂肪酸組成。"
+    },
+    "confidence": 0.95,
+    "source_document": "Lands cycle.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "54c5ebd7abfe",
+    "subject": "Acid ceramidase",
+    "predicate": "feeds",
+    "object": "Lands cycle",
+    "context": {
+      "en-US": "Over-expression of Acid ceramidase in senescent cells breaks down Ceramide, releasing free saturated and monounsaturated fatty acids. These liberated fatty acids enter the Lands cycle and are exchanged into the sn-2 position of membrane Phospholipid, the mechanistic link between ceramide catabolism and the ferroptosis-prone membrane lipid profile.",
+      "zh-TW": "衰老細胞中 Acid ceramidase 過度表現會分解 Ceramide，釋出游離的飽和脂肪酸（SFA）與單不飽和脂肪酸（MUFA）。這些被釋出的脂肪酸進入 Lands cycle 並被交換進膜上 Phospholipid 的 sn-2 位置，構成 ceramide 分解代謝與促 Ferroptosis 膜脂譜之間的機制連結。"
+    },
+    "confidence": 0.85,
+    "source_document": "Lands cycle.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "3f98f583afc8",
+    "subject": "Lands cycle",
+    "predicate": "contributes_to",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "Because fatty acids shuffled by the Lands cycle enrich membrane Phospholipid with polyunsaturated fatty acids — the preferred substrates for enzymatic and non-enzymatic lipid peroxidation — the cycle links ceramide metabolism to the lipid peroxidation substrate pool that governs sensitivity to Ferroptosis.",
+      "zh-TW": "由於 Lands cycle 交換的脂肪酸會以多不飽和脂肪酸（PUFA）富集膜上 Phospholipid，而 PUFA 正是酵素性與非酵素性 Lipid Peroxidation 的偏好受質，此循環把 ceramide 代謝與決定 Ferroptosis 敏感性的脂質過氧化受質池連結起來。"
+    },
+    "confidence": 0.85,
+    "source_document": "Lands cycle.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "9431aa872a23",
+    "subject": "ACSL4",
+    "predicate": "provides_substrate_for",
+    "object": "Lands cycle",
+    "context": {
+      "en-US": "ACSL4 activates fatty acids to acyl-CoA forms that can be incorporated into phospholipids via the Lands cycle, supplying the activated substrate that drives membrane phospholipid enrichment with peroxidation-prone fatty acids.",
+      "zh-TW": "ACSL4 將脂肪酸活化為酰輔酶 A 形式，經由 Lands cycle 併入磷脂，提供推動膜磷脂以易過氧化脂肪酸富集所需的活化受質。"
+    },
+    "confidence": 0.8,
+    "source_document": "Lands cycle.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "f48684f2b3a4",
+    "subject": "DRP1",
+    "predicate": "is_elevated_in",
+    "object": "Left Ventricular Hypertrophy",
+    "context": {
+      "en-US": "Left Ventricular Hypertrophy, the thickening or enlargement of the left ventricular wall in response to pressure overload, is accompanied by increased expression of the fission protein DRP1 and reduced levels of the fusion protein MFN2, so mitochondrial dynamics themselves are a biomarker of cardiac remodelling.",
+      "zh-TW": "Left Ventricular Hypertrophy 是壓力超負荷引起的左心室壁增厚或擴大，常伴隨分裂蛋白 DRP1 上升與融合蛋白 MFN2 下降，因此粒線體動態本身即為心臟重塑的生物標誌。"
+    },
+    "confidence": 0.9,
+    "source_document": "Left Ventricular Hypertrophy.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "ad514e41cfb9",
+    "subject": "MFN2",
+    "predicate": "is_decreased_in",
+    "object": "Left Ventricular Hypertrophy",
+    "context": {
+      "en-US": "Reduced expression of the fusion protein MFN2 in Left Ventricular Hypertrophy skews the balance toward excessive fission, which disrupts Mitochondrial Integrity and contributes to cardiac dysfunction and pathological remodelling.",
+      "zh-TW": "融合蛋白 MFN2 在 Left Ventricular Hypertrophy 中表現下降，使動態平衡偏向過度分裂，進而破壞 Mitochondrial Integrity 並促成心臟功能異常與病理性重塑。"
+    },
+    "confidence": 0.9,
+    "source_document": "Left Ventricular Hypertrophy.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "ce9f8ebdd559",
+    "subject": "Mdivi-1",
+    "predicate": "attenuates",
+    "object": "Left Ventricular Hypertrophy",
+    "context": {
+      "en-US": "Mdivi-1 inhibits DRP1-dependent fission and ameliorates the hypertrophy of Left Ventricular Hypertrophy by modulating Mitophagy and angiogenesis, restoring a healthier fission/fusion balance and positioning mitochondrial dynamics as a therapeutic target in cardiomyopathies.",
+      "zh-TW": "Mdivi-1 抑制 DRP1 相關的分裂，藉由調節 Mitophagy 與血管新生改善 Left Ventricular Hypertrophy 的肥厚，恢復較健康的分裂／融合平衡，使粒線體動態成為心肌病的治療標的。"
+    },
+    "confidence": 0.85,
+    "source_document": "Left Ventricular Hypertrophy.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "a34fb76ac760",
+    "subject": "Leptin",
+    "predicate": "stimulates",
+    "object": "Energy Expenditure",
+    "context": {
+      "en-US": "Leptin is the principal adipocyte-derived signal communicating energy stores to the hypothalamus. Circulating leptin rises with fat mass and falls during energy deficit, reducing appetite and stimulating energy expenditure; in obesity, elevated leptin is accompanied by central leptin resistance that blunts these catabolic actions.",
+      "zh-TW": "Leptin 是脂肪細胞分泌、將能量儲存傳訊給下視丘的主要訊號。循環中的 leptin 隨脂肪量上升、在能量不足時下降，進而抑制食慾並刺激 energy expenditure；在肥胖時，leptin 升高卻伴隨中樞 leptin 阻抗，使其促分解代謝作用減弱。"
+    },
+    "confidence": 0.9,
+    "source_document": "Leptin.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "f780a494dfa9",
+    "subject": "Leptin",
+    "predicate": "is_secreted_by",
+    "object": "Adipose Tissue",
+    "context": {
+      "en-US": "Leptin is produced by white adipocytes, so circulating leptin concentration tracks fat mass. Failure of subcutaneous Adipose Tissue to expand and safely buffer lipid flux forces lipid spillover into other organs, mirroring the ectopic-lipid logic of lipotoxicity.",
+      "zh-TW": "Leptin 由白色脂肪細胞製造，因此循環中的 leptin 濃度反映脂肪量。皮下 Adipose Tissue 無法擴增並安全緩衝脂質通量時，脂質會溢出至其他器官，這與 lipotoxicity 的異位脂質邏輯相互呼應。"
+    },
+    "confidence": 0.85,
+    "source_document": "Leptin.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "6f10c469504d",
+    "subject": "Leptin",
+    "predicate": "correlates_with",
+    "object": "Resting Metabolic Rate",
+    "context": {
+      "en-US": "Residual variation in resting metabolic rate — the part not explained by fat-free mass — is heritable and correlates with physiological and genetic factors, among them circulating leptin levels (Toth et al. 1999), making the leptin gene a candidate correlate of residual RMR.",
+      "zh-TW": "基礎代謝率的殘餘變異（即無法由去脂體重解釋的部分）具有遺傳性，並與生理及遺傳因子相關，其中之一是循環中的 leptin 濃度（Toth et al. 1999），因此 leptin 基因是殘餘 RMR 的候選相關因子。"
+    },
+    "confidence": 0.85,
+    "source_document": "Leptin.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "be4e8a9771a1",
+    "subject": "Leucine",
+    "predicate": "is_a_member_of",
+    "object": "Branched-Chain Amino Acids",
+    "context": {
+      "en-US": "Leucine is one of the three Branched-Chain Amino Acids, alongside isoleucine and valine. It is the most potent amino-acid activator of mTORC1, and dietary leucine restriction alone recapitulates many hallmarks of protein restriction such as suppressed mTORC1 signalling, reduced hepatic steatosis and improved metabolic health.",
+      "zh-TW": "Leucine 是三大 Branched-Chain Amino Acids 之一，與 isoleucine、valine 並列。它是 mTORC1 最強的胺基酸活化劑；單獨限制飲食中的 leucine 即可重現蛋白限制的許多特徵，例如 mTORC1 訊號被抑制、肝臟脂肪變性減少以及代謝健康改善。"
+    },
+    "confidence": 0.9,
+    "source_document": "Leucine.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "d772681e98f8",
+    "subject": "Leucine",
+    "predicate": "counters",
+    "object": "Muscle Atrophy",
+    "context": {
+      "en-US": "By stimulating mTORC1-dependent muscle protein synthesis, Leucine acts as a key anabolic signal that opposes Muscle Atrophy. It is used clinically and as a supplement to support muscle mass in aging, exercise recovery and catabolic states, often paired with Creatine.",
+      "zh-TW": "Leucine 透過活化 mTORC1 相關的肌肉蛋白合成，作為對抗 Muscle Atrophy 的主要合成代謝訊號。它在臨床上及作為補充劑用於老化、運動恢復與分解代謝狀態以維持肌肉量，常與 Creatine 搭配。"
+    },
+    "confidence": 0.85,
+    "source_document": "Leucine.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "7e1d59e94c8c",
+    "subject": "LeucoMB",
+    "predicate": "is_derived_from",
+    "object": "Methylene blue",
+    "context": {
+      "en-US": "LeucoMB is the reduced (leuco) form of the tricyclic phenothiazine Methylene blue. In MB's catalytic redox cycle the dye accepts electrons from complex I of the mitochondrion to become LeucoMB, so LeucoMB is the reduced intermediate of that electron-shuttling cycle.",
+      "zh-TW": "LeucoMB 是三環吩噻嗪類 Methylene blue 的還原型（leuco 型）。在 MB 的催化氧化還原循環中，染料自粒線體複合體 I 接受電子而成為 LeucoMB，因此 LeucoMB 是該電子穿梭循環中的還原中間體。"
+    },
+    "confidence": 0.95,
+    "source_document": "LeucoMB.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "eb8856914128",
+    "subject": "LeucoMB",
+    "predicate": "provides_electrons_to",
+    "object": "Complex IV",
+    "context": {
+      "en-US": "LeucoMB donates the electrons it took from complex I to Complex IV, regenerating Methylene blue and bypassing complex III inefficiencies. This shuttling outcompetes oxygen for electrons and limits ROS, enhancing electron transport and oxidative phosphorylation.",
+      "zh-TW": "LeucoMB 將它自複合體 I 取得的電子捐給 Complex IV，再生 Methylene blue，並繞過複合體 III 的效率損失。此電子穿梭與氧競爭電子，限制 ROS 生成，增強電子傳遞與 Oxidative Phosphorylation。"
+    },
+    "confidence": 0.9,
+    "source_document": "LeucoMB.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "4ab8794a9c7a",
+    "subject": "LeucoMB",
+    "predicate": "delays",
+    "object": "Senescence",
+    "context": {
+      "en-US": "By cycling electrons to Complex IV, LeucoMB elevates the NAD+/NADH ratio, improves mitochondrial membrane potential, reduces lipid peroxidation and raises ATP. In aging models Methylene blue extends the replicative lifespan of normal human fibroblasts and lowers SA-β-gal activity and p16, so improved mitochondrial function via the LeucoMB cycle delays Senescence onset.",
+      "zh-TW": "藉由將電子循環傳給 Complex IV，LeucoMB 提高 NAD+/NADH 比值、改善粒線體膜電位、減少脂質過氧化並增加 ATP。在老化模型中，Methylene blue 延長正常人類纖維母細胞的複製壽命並降低 SA-β-gal 活性與 p16，因此經由 LeucoMB 循環改善的粒線體功能可延後 Senescence 的發生。"
+    },
+    "confidence": 0.85,
+    "source_document": "LeucoMB.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "e5f34facfc7b",
+    "subject": "Leukemia inhibitory factor",
+    "predicate": "maintains",
+    "object": "Embryonic Stem Cells",
+    "context": {
+      "en-US": "Leukemia inhibitory factor (LIF) is an IL-6-family cytokine that maintains Embryonic Stem Cells in pluripotency and self-renewal via STAT3 signalling. In differentiation assays LIF is withheld, or cells are plated without feeders, so lineage commitment can proceed and embryoid bodies form.",
+      "zh-TW": "Leukemia inhibitory factor（LIF）是 IL-6 家族細胞激素，透過 STAT3 訊號維持 Embryonic Stem Cells 的多能性與自我更新。在分化實驗中會撤除 LIF（或將細胞以無飼養層方式培養），以允許譜系決定並形成類胚體。"
+    },
+    "confidence": 0.95,
+    "source_document": "Leukemia inhibitory factor.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "c14b3fe4d348",
+    "subject": "Leukemia inhibitory factor",
+    "predicate": "is_associated_with",
+    "object": "DGCR8",
+    "context": {
+      "en-US": "DGCR8-deficient embryonic stem cells continued to express alkaline phosphatase and failed to flatten and differentiate even in the absence of Leukemia inhibitory factor, whereas wild-type colonies differentiated. This shows that microRNA biogenesis is required to exit the LIF-dependent self-renewal program.",
+      "zh-TW": "DGCR8 缺陷的胚胎幹細胞即使在缺少 Leukemia inhibitory factor 的情況下仍持續表現鹼性磷酸酶，且無法扁平化與分化，而野生型群落則會分化。這顯示 microRNA 生合成是退出 LIF 依賴的自我更新程序所必需的。"
+    },
+    "confidence": 0.9,
+    "source_document": "Leukemia inhibitory factor.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "b09378a1c195",
+    "subject": "Lipopolysaccharide",
+    "predicate": "activates",
+    "object": "TLR4",
+    "context": {
+      "en-US": "Lipopolysaccharide (LPS), the principal endotoxin of Gram-negative bacteria, is a glycolipid anchored in the bacterial outer membrane. On release by cell lysis or gut leak it is a potent danger signal that engages TLR4 on immune and epithelial cells and initiates Inflammation via MyD88 and TRIF adapters.",
+      "zh-TW": "Lipopolysaccharide（LPS）是革蘭氏陰性菌的主要內毒素，為錨定於細菌外膜的糖脂質。在菌體裂解或腸道滲漏釋出後，LPS 是強烈的危險訊號，與免疫及上皮細胞上的 TLR4 結合，經由 MyD88 與 TRIF 轉接因子啟動 Inflammation。"
+    },
+    "confidence": 0.95,
+    "source_document": "Lipopolysaccharide.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "5a422afcb343",
+    "subject": "Lipopolysaccharide",
+    "predicate": "contributes_to",
+    "object": "Inflammaging",
+    "context": {
+      "en-US": "Systemic spillover of gut-derived Lipopolysaccharide (metabolic endotoxemia) links the Gut Microbiome to low-grade inflammation, insulin resistance and mitochondrial dysfunction. Chronic low-dose exposure is a driver of Inflammaging, and it blunts Sirtuins-dependent antioxidant defenses.",
+      "zh-TW": "腸道來源 Lipopolysaccharide 的全身溢出（代謝性內毒素血症）將 Gut Microbiome 與低度發炎、胰島素阻抗及粒線體功能障礙連結起來。慢性低劑量曝露是 Inflammaging 的驅動因子，並會削弱 Sirtuins 相關的抗氧化防禦。"
+    },
+    "confidence": 0.9,
+    "source_document": "Lipopolysaccharide.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "c5aa12a3a636",
+    "subject": "Lipopolysaccharide",
+    "predicate": "amplifies",
+    "object": "ROS",
+    "context": {
+      "en-US": "Lipopolysaccharide amplifies Reactive Oxygen Species via NADPH oxidase and, by blunting sirtuin-dependent defenses, worsens redox injury. NAD+ precursors such as Nicotinamide Riboside and mitohormetic interventions modulate LPS-driven redox and inflammatory load.",
+      "zh-TW": "Lipopolysaccharide 透過 NADPH oxidase 放大 Reactive Oxygen Species，並因削弱 sirtuin 相關防禦而加重氧化還原傷害。NAD+ 前驅物如 Nicotinamide Riboside 以及粒線體 hormesis 的介入，可調節 LPS 驅動的氧化還原與發炎負荷。"
+    },
+    "confidence": 0.85,
+    "source_document": "Lipopolysaccharide.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "f979815f473b",
+    "subject": "Lipid Synthesis",
+    "predicate": "is_regulated_by",
+    "object": "mTORC1",
+    "context": {
+      "en-US": "The role of mTORC1 in regulating Lipid Synthesis, which is required for cell growth and proliferation, is being appreciated. Because lipid synthesis is nutrient- and stress-sensitive, its impairment or unrestrained activity contributes to metabolic disease, neurodegeneration and cancer.",
+      "zh-TW": "mTORC1 在調控 Lipid Synthesis（細胞生長與增殖所必需）上的角色正逐漸受到重視。由於脂質合成對營養與壓力敏感，其功能受損或失控會促成代謝疾病、神經退化與癌症。"
+    },
+    "confidence": 0.85,
+    "source_document": "Lipid Synthesis.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "dd909339ddc3",
+    "subject": "SIRT3",
+    "predicate": "promotes",
+    "object": "Lipid Synthesis",
+    "context": {
+      "en-US": "SIRT3 contributes to the reprogramming of fatty acid synthesis by upregulating and deacetylating ACC1, thereby promoting de novo Lipid Synthesis; in cholangiocarcinoma this promotes tumour invasion and metastasis.",
+      "zh-TW": "SIRT3 透過上調並去乙醯化 ACC1，參與脂肪酸合成的重編程，進而促進從頭 Lipid Synthesis；在膽管癌中此作用會促進腫瘤侵襲與轉移。"
+    },
+    "confidence": 0.85,
+    "source_document": "Lipid Synthesis.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "0297775e34a5",
+    "subject": "Liposomes",
+    "predicate": "improves",
+    "object": "Bioavailability",
+    "context": {
+      "en-US": "Liposomes are self-assembled phospholipid-bilayer vesicles that encapsulate hydrophobic cargo in the bilayer and hydrophilic cargo in the aqueous core, improving solubility and shielding labile molecules. Fisetin liposomes raised AUC 47-fold after intraperitoneal dosing, and nanocochleate and spherulite formats improved it further (141-fold for nanocochleates).",
+      "zh-TW": "Liposomes 是自組裝的磷脂雙層囊泡，可將疏水性藥物包埋於雙層、親水性藥物包埋於水相核心，從而提升溶解度並保護易降解分子。Fisetin liposome 腹腔投藥後使 AUC 提升 47 倍，nanocochleate 與 spherulite 形式提升更多（nanocochleate 達 141 倍）。"
+    },
+    "confidence": 0.9,
+    "source_document": "Liposomes.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "6a0f21801b70",
+    "subject": "Liposomes",
+    "predicate": "encapsulates",
+    "object": "Cisplatin",
+    "context": {
+      "en-US": "Co-encapsulation of a liposomal cargo with Cisplatin showed additive cytotoxicity in glioblastoma (U-87 MG) cells, illustrating liposomes as a platform for combination therapy. Fisetin binary ethosomes additionally reduced UVB-induced skin cancer incidence to 49% versus 96% in UV-only mice.",
+      "zh-TW": "將藥物與 Cisplatin 共同包埋於 liposome 中，在膠質母細胞瘤（U-87 MG）細胞中呈現加成性的細胞毒性，說明 liposomes 可作為聯合療法的平台。Fisetin binary ethosome 更將 UVB 誘發的皮膚癌發生率由僅 UV 組的 96% 降至 49%。"
+    },
+    "confidence": 0.85,
+    "source_document": "Liposomes.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "49abac4a2052",
+    "subject": "Lipotoxicity",
+    "predicate": "leads_to",
+    "object": "Insulin Resistance",
+    "context": {
+      "en-US": "Lipotoxicity is cellular and tissue injury arising when lipid intermediates accumulate ectopically in non-adipose tissues. Excess fatty-acid delivery or incomplete oxidation produces diacylglycerol, ceramides and long-chain acyl-CoAs that activate protein kinase C and mTOR and inhibit insulin signalling, making lipotoxicity a key mechanism linking obesity and ectopic fat to insulin resistance and type 2 diabetes.",
+      "zh-TW": "Lipotoxicity 是脂質中間產物在非脂肪組織異位累積所造成的細胞與組織損傷。過量脂肪酸輸送或氧化不完全會產生 diacylglycerol、ceramides 與長鏈 acyl-CoA，活化 protein kinase C 與 mTOR 並抑制胰島素訊號，因此 lipotoxicity 是連結肥胖、異位脂肪與胰島素阻抗及第二型糖尿病的關鍵機制。"
+    },
+    "confidence": 0.9,
+    "source_document": "Lipotoxicity.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "3565ce789b8b",
+    "subject": "Lipotoxicity",
+    "predicate": "induces",
+    "object": "Endoplasmic Reticulum",
+    "context": {
+      "en-US": "Ectopic lipid intermediates such as ceramides and diacylglycerol provoke ER stress in the Endoplasmic Reticulum, provoke mitochondrial dysfunction with ROS overproduction, and trigger inflammation via TLR4/NF-κB and NLRP3 while impairing Autophagy — each step amplifying the tissue damage initiated by lipid overload.",
+      "zh-TW": "ceramides 與 diacylglycerol 等異位脂質中間產物會在 Endoplasmic Reticulum 引發 ER 壓力、誘發粒線體功能障礙與 ROS 過量，並經由 TLR4/NF-κB 與 NLRP3 觸發發炎，同時損害 Autophagy——每一步都放大脂質過載所啟動的組織損傷。"
+    },
+    "confidence": 0.8,
+    "source_document": "Lipotoxicity.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "83cb957e14a2",
+    "subject": "Rapamycin",
+    "predicate": "attenuates",
+    "object": "Lipotoxicity",
+    "context": {
+      "en-US": "Rapamycin inhibits mTOR, one of the nutrient-sensing nodes potentiated by lipid excess, and thereby blunts lipotoxic injury; caloric restriction and Fasting likewise reduce the ectopic lipid load, whereas Exercise and AMPK activation instead help by enhancing lipid oxidation.",
+      "zh-TW": "Rapamycin 抑制 mTOR——脂質過量會增強的營養感知節點之一——因而減輕 lipotoxic 傷害；熱量限制與 Fasting 同樣可降低異位脂質負荷，而 Exercise 與 AMPK 活化則藉由促進脂質氧化發揮作用。"
+    },
+    "confidence": 0.8,
+    "source_document": "Lipotoxicity.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "257c8f6f0409",
+    "subject": "Lipoxygenase",
+    "predicate": "oxidizes",
+    "object": "Polyunsaturated fatty acids",
+    "context": {
+      "en-US": "Lipoxygenases (gene symbol ALOX) are non-heme iron-containing dioxygenases that insert molecular oxygen stereospecifically into polyunsaturated fatty acids such as arachidonic and linoleic acid, yielding hydroperoxy fatty acids (HPETEs/HpODEs). The mammalian isoforms 5-, 12- and 15-LOX generate leukotrienes and lipoxins.",
+      "zh-TW": "Lipoxygenase（基因符號 ALOX）是非血基質、含鐵的雙加氧酶，可將分子氧立體專一性地插入 arachidonic acid 與 linoleic acid 等多不飽和脂肪酸，產生氫過氧脂肪酸（HPETEs/HpODEs）。哺乳類的 5-、12-、15-LOX 異型可生成 leukotrienes 與 lipoxins。"
+    },
+    "confidence": 0.95,
+    "source_document": "Lipoxygenase.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "a87ebdbd45c2",
+    "subject": "Lipoxygenase",
+    "predicate": "produces",
+    "object": "Leukotrienes",
+    "context": {
+      "en-US": "5-lipoxygenase (5-LOX) generates leukotrienes, potent inflammatory mediators central to asthma and allergy; this is why 5-LOX inhibitors such as zileuton are used therapeutically in asthma. Broader LOX modulation is explored for cardiovascular and neurodegenerative disease.",
+      "zh-TW": "5-lipoxygenase（5-LOX）生成 leukotrienes——在氣喘與過敏中扮演核心角色的強效發炎介質；這也是 5-LOX 抑制劑（如 zileuton）用於氣喘治療的原因。更廣泛的 LOX 調節則正被探索用於心血管與神經退化疾病。"
+    },
+    "confidence": 0.9,
+    "source_document": "Lipoxygenase.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "f81d567b04d1",
+    "subject": "Lipoxygenase",
+    "predicate": "initiates",
+    "object": "Lipid Peroxidation",
+    "context": {
+      "en-US": "All LOX isoforms can initiate enzymatic Lipid Peroxidation. 12/15-LOX activity on membrane Polyunsaturated fatty acids contributes to Ferroptosis by generating peroxidized phospholipids whenever GPX4 antioxidant defence is overwhelmed, linking LOX chemistry to ferroptotic death and oxidative injury.",
+      "zh-TW": "所有 LOX 異型皆可啟動酵素性 Lipid Peroxidation。12/15-LOX 作用於膜上的多不飽和脂肪酸，在 GPX4 抗氧化防線被壓垮時產生過氧化磷脂，促成 Ferroptosis，將 LOX 化學與鐵死亡及氧化傷害連結起來。"
+    },
+    "confidence": 0.9,
+    "source_document": "Lipoxygenase.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "959997bd12ba",
+    "subject": "Liquid-Liquid Phase Separation",
+    "predicate": "mediates",
+    "object": "cGAS",
+    "context": {
+      "en-US": "Liquid-liquid phase separation (LLPS) is the biophysical process by which proteins and nucleic acids coalesce into dense membraneless condensates through multivalent low-affinity interactions mediated by intrinsically disordered regions. Human cGAS carries an N-terminal Intrinsically Disordered Region that drives LLPS with DNA and enables nuclear cGAS to scaffold condensates recruiting RNA-Binding Proteins, the Spliceosome and the SWI-SNF Complex — a STING-independent role.",
+      "zh-TW": "液-液相分離（LLPS）是由多價低親和力交互作用（多由 intrinsically disordered regions 媒介）使蛋白質與核酸凝聚成緻密、無膜凝聚體的生體物理過程。人類 cGAS 帶有 N 端 Intrinsically Disordered Region，可促進與 DNA 的 LLPS，並使核內 cGAS 能支架化凝聚體、招募 RNA-Binding Proteins、Spliceosome 與 SWI-SNF Complex——此為不依賴 STING 的功能。"
+    },
+    "confidence": 0.9,
+    "source_document": "Liquid-Liquid Phase Separation.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "deb9e3c3969b",
+    "subject": "Liquid-Liquid Phase Separation",
+    "predicate": "underlies",
+    "object": "Neurodegenerative Disease",
+    "context": {
+      "en-US": "Pathological protein aggregates such as Tau and polyglutamine-expanded huntingtin nucleate phase-separated droplets that mature into stable aggregates, sequestering RNA-Binding Proteins and disrupting RNA processing. Such condensates compete with and corrupt normal phase-separated assemblies, linking LLPS biophysics to Neuroinflammation and neuronal dysfunction in diseases such as Alzheimer's Disease and Huntington's Disease.",
+      "zh-TW": "Tau 與多麩醯胺酸擴張的 huntingtin 等病理性蛋白聚集體會成核形成相分離液滴，並成熟為穩定聚集體，扣留 RNA-Binding Proteins 並破壞 RNA 加工。這類凝聚體會與正常相分離組裝競爭並使其受損，把 LLPS 的生物物理學與 Neuroinflammation 及神經元功能障礙連結起來。"
+    },
+    "confidence": 0.9,
+    "source_document": "Liquid-Liquid Phase Separation.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "1b90ac8b0003",
+    "subject": "Liraglutide",
+    "predicate": "activates",
+    "object": "Mitophagy",
+    "context": {
+      "en-US": "Liraglutide is a GLP-1 receptor agonist used for type 2 diabetes and obesity. Beyond glucose-dependent insulin secretion, it promotes Mitophagy, selectively clearing damaged mitochondria, which reduces the mitochondrial ROS that drives fibrosis and maintains mitochondrial quality in cardiomyocytes under stress.",
+      "zh-TW": "Liraglutide 是用於第二型糖尿病與肥胖的 GLP-1 受體致效劑。除了促進葡萄糖依賴性的胰島素分泌外，它還促進 Mitophagy，選擇性清除受損粒線體，因而降低驅動纖維化的粒線體 ROS，並在壓力下維持心肌細胞的粒線體品質。"
+    },
+    "confidence": 0.9,
+    "source_document": "Liraglutide.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "66bac7098959",
+    "subject": "Liraglutide",
+    "predicate": "reduces",
+    "object": "Heart Failure",
+    "context": {
+      "en-US": "Liraglutide's cardioprotection reduces major adverse cardiovascular events and cardiac fibrosis by modulating TGF-β signalling and extracellular matrix remodelling, together with lowered myocardial inflammation and reduced cardiomyocyte death — making Mitophagy promotion its key mechanism of cardiac benefit.",
+      "zh-TW": "Liraglutide 的心臟保護可降低主要不良心血管事件與心臟纖維化，機制包含調節 TGF-β 訊號與細胞外基質重塑，並伴隨心肌發炎降低與心肌細胞死亡減少——因此促進 Mitophagy 是其心臟效益的關鍵機制。"
+    },
+    "confidence": 0.85,
+    "source_document": "Liraglutide.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "a2a4fc2874cc",
+    "subject": "Lithium",
+    "predicate": "inhibits",
+    "object": "GSK3",
+    "context": {
+      "en-US": "Lithium is administered clinically as Li+ salts and its best-characterised target is inhibition of GSK3 (both alpha and beta isoforms), mimicking Wnt/beta-catenin signalling and influencing neuroplasticity. This contributes to its mood-stabilising action and reduced suicide risk, as well as proposed neuroprotection in Alzheimer's Disease.",
+      "zh-TW": "Lithium 臨床上以 Li+ 鹽類給予，其最明確的標的是抑制 GSK3（α 與 β 兩種異型），模擬 Wnt/beta-catenin 訊號並影響神經可塑性。這既構成其情緒穩定作用與降低自殺風險的機制，也是其在 Alzheimer's Disease 中被提出之神經保護作用的依據。"
+    },
+    "confidence": 0.95,
+    "source_document": "Lithium.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "65cb72b9f666",
+    "subject": "Liver X Receptor",
+    "predicate": "is_deacetylated_by",
+    "object": "SIRT1",
+    "context": {
+      "en-US": "Liver X receptors (LXRα/NR1H3 and LXRβ/NR1H2) are nuclear receptors that regulate cholesterol, fatty acid and lipid homeostasis. SIRT1 modulates over 40 known substrates including LXR, deacetylating and regulating its activity, thereby coupling sirtuin activity to cholesterol and lipid metabolism.",
+      "zh-TW": "Liver X Receptor（LXRα/NR1H3 與 LXRβ/NR1H2）是調節膽固醇、脂肪酸與脂質恆定的核受體。SIRT1 可調節超過 40 種已知受質（包含 LXR），藉由去乙醯化並調節其活性，將 sirtuin 活性與膽固醇及脂質代謝連結起來。"
+    },
+    "confidence": 0.9,
+    "source_document": "Liver X Receptor.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "1697f87b3d7c",
+    "subject": "Liver X Receptor",
+    "predicate": "activates_expression_of",
+    "object": "ABCA1",
+    "context": {
+      "en-US": "Liver X Receptor is a master regulator of cholesterol efflux: LXR transcriptionally activates ABCA1 and ABCG1, the key cholesterol efflux transporters. Resveratrol induces LXR-alpha expression in human monocyte-derived macrophages, which upregulates ABCA1 and ABCG1 and links resveratrol's anti-atherogenic effects to cholesterol homeostasis.",
+      "zh-TW": "Liver X Receptor 是膽固醇外排的主控者：LXR 以轉錄方式活化 ABCA1 與 ABCG1 這兩個關鍵的膽固醇外排運輸蛋白。Resveratrol 在人類單核細胞衍生巨噬細胞中誘導 LXR-alpha 表現，進而上調 ABCA1 與 ABCG1，將 resveratrol 的抗動脈粥樣硬化效果與膽固醇恆定連結起來。"
+    },
+    "confidence": 0.9,
+    "source_document": "Liver X Receptor.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "bc578f414e6c",
+    "subject": "Livin",
+    "predicate": "inhibits",
+    "object": "Caspases",
+    "context": {
+      "en-US": "Livin (BIRC7/ML-IAP), a member of the inhibitor of apoptosis family, contains a baculoviral IAP repeat (BIR) domain that directly binds and inhibits the effector caspases caspase-3, -7 and -9, plus a C-terminal RING finger conferring E3 ubiquitin-ligase activity that targets apoptotic proteins for proteasomal degradation.",
+      "zh-TW": "Livin（BIRC7/ML-IAP）是細胞凋亡抑制蛋白（IAP）家族的成員，含 baculoviral IAP repeat（BIR）結構域，可直接結合並抑制效應型 Caspases（caspase-3、-7、-9）；其 C 端 RING finger 則賦予 E3 泛素連接酶活性，將凋亡相關蛋白標記送往 Proteasome 降解。"
+    },
+    "confidence": 0.95,
+    "source_document": "Livin.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "05c9e8b9ee89",
+    "subject": "Livin",
+    "predicate": "confers_resistance_to",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "By suppressing caspase activation, Livin blocks the execution phase of Apoptosis and enhances cell survival under stress. Livin is broadly silent in most adult tissues but overexpressed in melanoma, lung, breast and bladder carcinomas, where it confers resistance to chemotherapy and radiation and correlates with poor prognosis, making it both a prognostic biomarker and a therapeutic target.",
+      "zh-TW": "Livin 藉由抑制 caspase 活化，阻斷 Apoptosis 的執行期並增強細胞在壓力下的存活。Livin 在多數成人組織中廣泛沉默，但在黑色素瘤、肺癌、乳癌與膀胱癌中過度表現，賦予化學治療與放射治療阻抗並與不良預後相關，因此同時是預後生物標誌與治療標的。"
+    },
+    "confidence": 0.95,
+    "source_document": "Livin.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "2c9a76ecdff0",
+    "subject": "Long COVID",
+    "predicate": "is_associated_with",
+    "object": "Mitochondrial Dysfunction",
+    "context": {
+      "en-US": "Long COVID (post-acute sequelae of SARS-CoV-2 infection) is a chronic multisystem condition with persistent fatigue, cognitive disturbance, dyspnoea and autonomic dysfunction. Mitochondrial and energy-metabolism impairment is among the leading hypothesised mechanisms, which is why some clinicians trial Methylene blue for mitochondrial support.",
+      "zh-TW": "Long COVID（SARS-CoV-2 感染後的後續症狀）是慢性的多系統疾病，表現為持續疲勞、認知障礙、呼吸困難與自主神經功能異常。粒線體與能量代謝障礙是最主要的假說機制之一，因此部分臨床醫師嘗試以 Methylene blue 作為粒線體支持。"
+    },
+    "confidence": 0.8,
+    "source_document": "Long COVID.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "1f07f650fec2",
+    "subject": "Methylene blue",
+    "predicate": "is_investigated_for",
+    "object": "Long COVID",
+    "context": {
+      "en-US": "Because Methylene blue can bypass dysfunctional Complex I and Complex III of the Mitochondrial Electron Transport Chain and sustain ATP production, clinicians have trialled it in Long COVID (grouped with ME/CFS as post-viral mitochondrial-dysfunction conditions) at doses up to roughly 10 mg, under clinical judgement rather than established guidelines; evidence remains exploratory.",
+      "zh-TW": "由於 Methylene blue 能繞過 Mitochondrial Electron Transport Chain 中失能的 Complex I 與 Complex III 並維持 ATP 生成，臨床醫師已在 Long COVID（與 ME/CFS 同列為後病毒性粒線體功能障礙疾病）中以最高約 10 mg 的劑量嘗試使用，屬臨床判斷而非既定指引；證據仍屬探索性質。"
+    },
+    "confidence": 0.8,
+    "source_document": "Long COVID.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "3e3cc4598e0c",
+    "subject": "Loss of Y Chromosome",
+    "predicate": "increases_susceptibility_to",
+    "object": "Inflammation",
+    "context": {
+      "en-US": "Mosaic loss of the Y chromosome (mLOY) is the most common somatic mutation in men — detectable in 40% of 70-year-olds and 57% of 93-year-olds. Y-deficient cells show T-cell exhaustion with PD-1 sensitivity that enables bladder-cancer growth, and roughly 500 autosomal genes are dysregulated in LOY leukocytes. Smoking is a reversible dose-dependent risk factor and inflammation amplifies LOY cardiovascular harm.",
+      "zh-TW": "Y 染色體的嵌合性流失（mLOY）是男性最常見的體細胞突變，70 歲者有 40%、93 歲者有 57% 可檢出。Y 缺陷細胞出現對 PD-1 敏感的 T 細胞耗竭，使膀胱癌得以生長，且 LOY 白血球中約 500 個體染色體基因異常調控。吸菸是可逆的劑量依賴性風險因子，而 Inflammation 會放大 LOY 的心血管危害。"
+    },
+    "confidence": 0.85,
+    "source_document": "Loss of Y Chromosome.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "ea0bb00b2fa2",
+    "subject": "Loss of Y Chromosome",
+    "predicate": "impairs",
+    "object": "Senescence",
+    "context": {
+      "en-US": "Mosaic loss of the Y chromosome (mLOY) is the most common somatic mutation in men — detectable in 40% of 70-year-olds and 57% of 93-year-olds. LOY impairs senescent-cell clearance, contributing to renal disease, and drives TGFβ1/galectin-3 signalling in cardiac macrophages that promotes fibrosis and heart failure.",
+      "zh-TW": "Y 染色體的嵌合性流失（mLOY）是男性最常見的體細胞突變，70 歲者有 40%、93 歲者有 57% 可檢出。LOY 會損害衰老細胞的清除而促成腎病，並活化心臟巨噬細胞中的 TGFβ1/galectin-3 訊號以促進纖維化與心衰竭。"
+    },
+    "confidence": 0.85,
+    "source_document": "Loss of Y Chromosome.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "3a5196a7e548",
+    "subject": "Lovastatin",
+    "predicate": "activates",
+    "object": "Parkin",
+    "context": {
+      "en-US": "Beyond its canonical HMG-CoA reductase inhibition, Lovastatin has been identified as an SHP2 agonist. SHP2 dephosphorylates Parkin at Tyr143, unlocking Parkin's E3 ubiquitin-ligase activity and thereby engaging mitophagy, positioning Lovastatin as a pharmacological tool to activate the PINK1/Parkin mitophagy pathway.",
+      "zh-TW": "除了抑制 HMG-CoA reductase 的典型作用外，Lovastatin 被認為是 SHP2 致效劑。SHP2 將 Parkin 在 Tyr143 處去磷酸化，解開 Parkin 的 E3 泛素連接酶活性並啟動 mitophagy，因此 Lovastatin 可作為啟動 PINK1/Parkin mitophagy 路徑的藥理工具。"
+    },
+    "confidence": 0.85,
+    "source_document": "Lovastatin.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
+  },
+  {
+    "id": "9d84f63204b1",
+    "subject": "Lovastatin",
+    "predicate": "activates",
+    "object": "Mitophagy",
+    "context": {
+      "en-US": "SHP2-mediated activation of Parkin engages Mitophagy, expanding the therapeutic relevance of statins beyond cardiovascular indications. Lovastatin thus offers a pharmacological handle on mitochondrial quality control through phosphatase signalling, independent of its lipid-lowering action.",
+      "zh-TW": "SHP2 媒介的 Parkin 活化會啟動 Mitophagy，把 statin 的治療相關性從心血管 indications 之外擴展出來。因此 Lovastatin 提供了一個獨立於降脂作用、經由磷酸酶訊號調控粒線體品質控制的藥理切入點。"
+    },
+    "confidence": 0.8,
+    "source_document": "Lovastatin.md",
+    "created": "2026-09-29T17:16:03Z",
+    "updated": "2026-09-29T17:16:03Z"
   }
 ]
