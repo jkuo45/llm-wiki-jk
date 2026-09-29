@@ -57720,5 +57720,2413 @@
     "source_document": "HGF.md",
     "created": "2026-09-29T16:11:04Z",
     "updated": "2026-09-29T16:11:04Z"
+  },
+  {
+    "id": "d21b0b1be942",
+    "subject": "Dextromethorphan",
+    "predicate": "is_metabolized_by",
+    "object": "CYP2D6",
+    "context": {
+      "en-US": "Dextromethorphan (DXM) is extensively metabolized by CYP2D6, and to a lesser extent CYP3A4, into dextrorphan. Poor and ultra-rapid CYP2D6 metabolizers therefore show marked inter-individual variability in exposure, and concomitant CYP2D6 inhibitors raise DXM levels.",
+      "zh-TW": "Dextromethorphan (DXM) 主要由 CYP2D6 代謝（次要為 CYP3A4）成為 dextrorphan。因此 CYP2D6 的低活性與超高活性代謝者之間的血中濃度差異極大，且併用 CYP2D6 抑制劑會提高 DXM 的血中濃度。"
+    },
+    "confidence": 0.95,
+    "source_document": "Dextromethorphan.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "b25be30cc83a",
+    "subject": "Dextromethorphan",
+    "predicate": "causes",
+    "object": "Serotonin Syndrome",
+    "context": {
+      "en-US": "The most important safety concern for dextromethorphan is its interaction with serotonergic drugs. Combined use with a Monoamine Oxidase Inhibitor (such as Methylene blue, phenelzine, or selegiline) can precipitate serotonin syndrome — a life-threatening condition of hyperthermia, clonus, agitation, and autonomic instability — so the combination is contraindicated.",
+      "zh-TW": "Dextromethorphan 最重要的安全問題是與血清素活化藥物的交互作用。與 Monoamine Oxidase Inhibitor（如 Methylene blue、phenelzine、selegiline）併用可能誘發 serotonin syndrome — 一種高熱、陣攣、焦躁與自律神經不穩定的致命狀況，因此此組合屬禁忌。"
+    },
+    "confidence": 0.95,
+    "source_document": "Dextromethorphan.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "f5fde8414ad0",
+    "subject": "Dextromethorphan",
+    "predicate": "antagonizes",
+    "object": "NMDA receptor",
+    "context": {
+      "en-US": "Dextromethorphan's primary metabolite, dextrorphan, is an NMDA receptor antagonist, which gives DXM downstream NMDA-antagonist and dissociative properties at high doses. DXM itself also inhibits serotonin reuptake and has activity at sigma-1 receptors, contributing serotonergic effects.",
+      "zh-TW": "Dextromethorphan 的主要代謝物 dextrorphan 是 NMDA receptor 拮抗劑，使 DXM 在高劑量下具有下游的 NMDA 拮抗與解離作用。DXM 本身也抑制血清素回收，並對 sigma-1 receptors 有活性，產生血清素作用。"
+    },
+    "confidence": 0.85,
+    "source_document": "Dextromethorphan.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "d2401e3b3dd9",
+    "subject": "Diabetes Mellitus",
+    "predicate": "causes",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "Diabetes Mellitus is a group of metabolic diseases characterized by chronic hyperglycemia. Chronic hyperglycemia increases Reactive Oxygen Species production in the Mitochondria, producing systemic Oxidative Stress together with micro- and macrovascular complications.",
+      "zh-TW": "Diabetes Mellitus 是一群以長期高血糖為特徵的代謝疾病。慢性高血糖使 Mitochondria 產生更多 Reactive Oxygen Species，造成全身性的 Oxidative Stress，並伴隨微血管與大血管併發症。"
+    },
+    "confidence": 0.95,
+    "source_document": "Diabetes Mellitus.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "4c0cf6052c7c",
+    "subject": "SIRT1",
+    "predicate": "improves",
+    "object": "Diabetes Mellitus",
+    "context": {
+      "en-US": "SIRT1 has a dual relationship with diabetes: SIRT1 overexpression improves insulin sensitivity, yet hepatic SIRT1 knockdown also prevents fasting hyperglycemia by decreasing hepatic glucose production and increasing hepatic insulin responsiveness. The dual effect reflects sirtuins' context-dependent protective and pathological roles in glucose metabolism.",
+      "zh-TW": "SIRT1 與糖尿病具有雙面關係：SIRT1 过量表現可改善 insulin sensitivity，但肝臟 SIRT1 的 knockdown 反而可防止空腹高血糖，因為它會降低肝臟糖質新生並提高肝臟對 insulin 的反應。這種雙重效應反映 sirtuins 在葡萄糖代謝中依情境而定的保護與致病角色。"
+    },
+    "confidence": 0.9,
+    "source_document": "Diabetes Mellitus.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "16b6109e51b6",
+    "subject": "SIRT5",
+    "predicate": "promotes",
+    "object": "Diabetes Mellitus",
+    "context": {
+      "en-US": "Unlike SIRT1, SIRT3, SIRT4, and SIRT6, which are largely protective in diabetes, SIRT5 promotes disease progression: SIRT5 inhibits via its deacetylase activity the PDX1 transcription required for pancreatic β-cell proliferation and insulin secretion, and SIRT5 inhibition facilitates β-cell proliferation and insulin output.",
+      "zh-TW": "相較於主要具保護作用的 SIRT1、SIRT3、SIRT4 與 SIRT6，SIRT5 會促進糖尿病進展：SIRT5 以去乙醯化酶活性抑制胰臟 β 細胞增殖與 insulin secretion 所需的 PDX1 轉錄，而抑制 SIRT5 則可促進 β 細胞增殖與 insulin 分泌。"
+    },
+    "confidence": 0.9,
+    "source_document": "Diabetes Mellitus.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "a3ff28aa6c5e",
+    "subject": "Diabetes Mellitus",
+    "predicate": "promotes",
+    "object": "Senescence",
+    "context": {
+      "en-US": "Diabetes shares many hallmarks with Aging. Elevated glucose promotes the accumulation of senescent cells, particularly in the vasculature and kidneys, and epigenetic-clock studies show type 2 diabetes individuals often carry a higher biological age than their chronological age.",
+      "zh-TW": "Diabetes 與 Aging 共享多項生物標誌。血糖升高會促進 senescent cells 的累積，尤其在血管與腎臟；表觀遺傳時鐘研究亦顯示第二型 diabetes 患者的生物年齡常高於實際年齡。"
+    },
+    "confidence": 0.85,
+    "source_document": "Diabetes Mellitus.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "ee63a99f6d6a",
+    "subject": "Diabetic Neuropathy",
+    "predicate": "is_a_complication_of",
+    "object": "Diabetes Mellitus",
+    "context": {
+      "en-US": "Diabetic neuropathy (DN) is the most prevalent complication of diabetes, affecting at least half of diabetics over time. It is a progressive disorder of peripheral nerves caused by chronic hyperglycemia, with sensory loss, neuropathic pain, and autonomic dysfunction, and it involves hyperglycemia-driven metabolic dysregulation, Oxidative Stress, advanced glycation, impaired neurotrophin signalling, and neuronal mitochondrial dysfunction.",
+      "zh-TW": "Diabetic neuropathy（DN）是糖尿病最常見的併發症，長期下來影響至少半數糖尿病患。它是由慢性高血糖引起的進行性周邊神經疾病，表現為感覺喪失、神經病痛與自主神經功能障礙，並涉及高血糖驅動的代謝失調、Oxidative Stress、advanced glycation、神經營養因子訊號受損與神經元粒線體功能障礙。"
+    },
+    "confidence": 0.95,
+    "source_document": "Diabetic Neuropathy.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "9b931da435a3",
+    "subject": "SIRT1",
+    "predicate": "alleviates",
+    "object": "Diabetic Neuropathy",
+    "context": {
+      "en-US": "SIRT1 modulates neuronal viability, differentiation, and synaptic plasticity, and its activation alleviates cognitive decline, neuropathic pain, and peripheral neuropathy in diabetic settings. Decreased hippocampal SIRT1 in diabetic rats reduces dendritic length and spine density and lowers TORC1/p-CREB/BDNF signalling, so SIRT1 activation is a candidate strategy to preserve neuronal function.",
+      "zh-TW": "SIRT1 調節神經元的存活、分化與突觸可塑性；活化 SIRT1 可減輕糖尿病情境下的認知 decline、神經病痛與周邊神經病變。糖尿病大鼠海馬 SIRT1 下降會使樹突長度與棘突密度減少，並降低 TORC1/p-CREB/BDNF 訊號，因此 SIRT1 活化是保存神經功能的候選策略。"
+    },
+    "confidence": 0.9,
+    "source_document": "Diabetic Neuropathy.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "8882f9310770",
+    "subject": "SIRT1",
+    "predicate": "upregulates",
+    "object": "BDNF",
+    "context": {
+      "en-US": "BDNF signalling falls together with SIRT1 loss: in diabetic rats, decreased hippocampal SIRT1 reduces dendritic length and spine density and decreases TORC1, phosphorylated CREB, and BDNF. Preserving BDNF signalling is therefore a downstream route by which SIRT1 protects neurons in diabetic neuropathy.",
+      "zh-TW": "BDNF 訊號會隨 SIRT1 喪失而下降：在糖尿病大鼠中，海馬 SIRT1 減少會使樹突長度與棘突密度下降，並降低 TORC1、磷酸化 CREB 與 BDNF。因此維持 BDNF 訊號是 SIRT1 在 diabetic neuropathy 中保護神經元的下游途徑。"
+    },
+    "confidence": 0.85,
+    "source_document": "Diabetic Neuropathy.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "a28475019e52",
+    "subject": "Diamine Oxidase",
+    "predicate": "degrades",
+    "object": "Histamine",
+    "context": {
+      "en-US": "Diamine Oxidase (DAO), also called histaminase, is the primary enzyme that breaks down Histamine from ingested food and is expressed mainly in the intestinal mucosa. Adequate DAO activity therefore protects against dietary histamine load.",
+      "zh-TW": "Diamine Oxidase（DAO，又稱 histaminase）是分解食物中 Histamine 的主要酵素，主要表現於腸道黏膜。足夠的 DAO 活性因此能防止飲食性 histamine 負荷造成不適。"
+    },
+    "confidence": 0.95,
+    "source_document": "Diamine Oxidase.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "af07a5476104",
+    "subject": "Diamine Oxidase",
+    "predicate": "prevents",
+    "object": "Histamine Intolerance",
+    "context": {
+      "en-US": "Because Diamine Oxidase in the intestinal mucosa degrades dietary Histamine, adequate DAO activity is what prevents Histamine Intolerance. When DAO is blocked — as by oral aminoguanidine — even normal histamine-containing meals can provoke allergic-like reactions, a route-specific safety concern.",
+      "zh-TW": "由於腸道黏膜的 Diamine Oxidase 可分解飲食中的 Histamine，足夠的 DAO 活性正是預防 Histamine Intolerance 的關鍵。一旦 DAO 被阻斷（例如口服 aminoguanidine），即使一般含 histamine 的餐食也可能引發類似過敏的反應，屬途徑特異性的安全疑慮。"
+    },
+    "confidence": 0.9,
+    "source_document": "Diamine Oxidase.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "5905d3b4ba2d",
+    "subject": "Dicer",
+    "predicate": "cleaves",
+    "object": "MicroRNA",
+    "context": {
+      "en-US": "Dicer is a cytoplasmic RNase III enzyme that performs the second cleavage step of small-RNA biogenesis. It recognizes and cleaves the ~60–70 nt pre-MicroRNA hairpin (exported from the nucleus by Exportin-5) with its RNase III domains, releasing a ~21–23 nt miRNA duplex with characteristic 2-nt 3′ overhangs that can be loaded onto Argonaute in RISC.",
+      "zh-TW": "Dicer 是細胞質中的 RNase III 酵素，負責小 RNA 生合成的第二步切割。它以 RNase III 結構域辨識並切割約 60–70 nt 的 pre-MicroRNA 髮夾（由 Exportin-5 從細胞核輸出），釋出約 21–23 nt、具有典型 2-nt 3′ 突出端的 miRNA 雙股，隨後可被載入 RISC 中的 Argonaute。"
+    },
+    "confidence": 0.95,
+    "source_document": "Dicer.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "4259f7a68168",
+    "subject": "Dicer",
+    "predicate": "produces",
+    "object": "RNA Interference",
+    "context": {
+      "en-US": "Besides MicroRNA, Dicer processes long double-stranded RNA into siRNA duplexes, so Dicer-null cells lack siRNAs as well as mature miRNAs. Unlike a DGCR8/Drosha knockout, this produces a more severe, partly miRNA-independent block to differentiation, which is why DGCR8 knockout is the cleaner tool for studying miRNA-specific function.",
+      "zh-TW": "除了 MicroRNA 之外，Dicer 也將長雙股 RNA 加工成 siRNA 雙股，因此 Dicer 缺失的細胞同時缺乏 siRNA 與成熟 miRNA。相較於 DGCR8/Drosha 的 knockout，這會造成更嚴重且部分不依賴 miRNA 的分化阻斷，因此研究 miRNA 專一功能時，DGCR8 knockout 是更乾淨的工具。"
+    },
+    "confidence": 0.9,
+    "source_document": "Dicer.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "cb6899005b39",
+    "subject": "Dicer",
+    "predicate": "contributes_to",
+    "object": "Inflammaging",
+    "context": {
+      "en-US": "Dicer and its downstream miRNAs regulate inflammatory responses and are implicated in Idiopathic Pulmonary Fibrosis, cancer, and Senescence. Reduced mature miRNA output can derepress pro-inflammatory and senescence gene programmes, which contributes to Inflammaging.",
+      "zh-TW": "Dicer 及其下游的 miRNA 調節發炎反應，並與 Idiopathic Pulmonary Fibrosis、癌症與 Senescence 相關。成熟 miRNA 產量下降會解除對促發炎與衰老基因程式的抑制，進而促成 Inflammaging。"
+    },
+    "confidence": 0.85,
+    "source_document": "Dicer.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "6a8d7bd1141d",
+    "subject": "Disease-Associated Microglia",
+    "predicate": "is_a_type_of",
+    "object": "Microglia",
+    "context": {
+      "en-US": "Disease-Associated Microglia (DAM) denotes a stereotyped transcriptional and functional microglial activation state that emerges in Neurodegenerative Disease and Neuroinflammation. DAM microglia show altered expression of homeostatic markers and engage phagocytic and lipid-metabolism programmes, representing the brain's attempt to contain proteotoxic burden; the signature is regulated by cues such as TREM2.",
+      "zh-TW": "Disease-Associated Microglia（DAM）指在 Neurodegenerative Disease 與 Neuroinflammation 中出現的一種刻板化轉錄與功能性的微膠細胞活化狀態。DAM 微膠細胞的穩態標記表現改變，並啟動吞噬與脂質代謝程式，代表腦部試圖圍堵蛋白毒性負荷；其特徵受 TREM2 等訊號調控。"
+    },
+    "confidence": 0.95,
+    "source_document": "Disease-Associated Microglia.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "3ba1341bf078",
+    "subject": "cGAS-STING Pathway",
+    "predicate": "drives",
+    "object": "Neuroinflammation",
+    "context": {
+      "en-US": "cGAS-STING activation drives an Interferon-Stimulated-Genes-high microglial subpopulation that is mechanistically distinct from the canonical DAM programme. In tauopathy models this ISG-high population correlates with synapse loss and cognitive impairment, and in Alzheimer's Disease analogous IFN-responsive subsets have been identified — making cGAS-driven neuroinflammation a separable axis of microglial remodeling.",
+      "zh-TW": "cGAS-STING 的活化會驅動一個 Interferon-Stimulated Genes 高表現的微膠細胞次群，與典型的 DAM 程式在機制上不同。在 tauopathy 模型中，此 ISG 高表現族群與突觸喪失及認知損傷相關；在 Alzheimer's Disease 中也鑑定出類似的 IFN 反應性次群，使 cGAS 驅動的 neuroinflammation 成为微膠細胞重塑中可分離的軸線。"
+    },
+    "confidence": 0.9,
+    "source_document": "Disease-Associated Microglia.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "a1a8e91ece6d",
+    "subject": "APOE4",
+    "predicate": "synergizes_with",
+    "object": "TREM2",
+    "context": {
+      "en-US": "The major Alzheimer's Disease risk alleles APOE4 and TREM2 R47H synergistically amplify cGAS-STING/IFN-I signalling, driving a senescence-like microglial state marked by mitochondrial stress, cell cycle arrest, and a SASP. This synergy links microglial state transitions to neuroinflammation and senescence signalling.",
+      "zh-TW": "Alzheimer's Disease 的主要風險等位基因 APOE4 與 TREM2 R47H 會協同放大 cGAS-STING/IFN-I 訊號，驅動一種類衰老（senescence-like）的微膠細胞狀態，其特徵為粒線體壓力、cell cycle 停滯與 SASP。此協同作用將微膠細胞狀態轉換與 neuroinflammation 及衰老訊號連結起來。"
+    },
+    "confidence": 0.85,
+    "source_document": "Disease-Associated Microglia.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "ce488e33fd44",
+    "subject": "cGAS",
+    "predicate": "inhibits",
+    "object": "Disease-Associated Microglia",
+    "context": {
+      "en-US": "The relationship is disease dependent: in Parkinson's Disease models cGAS promotes expansion of neurotoxic microglial populations, yet deleting cGAS reduces the DAM signature itself. Selectively inhibiting cGAS or STING can therefore suppress the neurotoxic inflammatory programme while preserving or even augmenting phagocytic clearance, uncoupling toxicity from beneficial clearance.",
+      "zh-TW": "這種關係與疾病有關：在 Parkinson's Disease 模型中 cGAS 促進神經毒性微膠細胞族群擴增，但刪除 cGAS 反而會降低 DAM 特徵本身。因此選擇性抑制 cGAS 或 STING 可抑制神經毒性發炎程式，同時保留甚至增強吞噬清除能力，將毒性與有益的清除作用解耦。"
+    },
+    "confidence": 0.8,
+    "source_document": "Disease-Associated Microglia.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "1711b33ead9d",
+    "subject": "Docosahexaenoic acid",
+    "predicate": "is_a_type_of",
+    "object": "Polyunsaturated fatty acids",
+    "context": {
+      "en-US": "Docosahexaenoic acid (DHA, 22:6(n-3)) is an omega-3 polyunsaturated fatty acid with six cis double bonds, making it one of the most oxidatively labile lipids in biology. It is the major n-3 PUFA (against Arachidonic acid as the major n-6 PUFA) and is highly enriched in neuronal membranes, retinal photoreceptors, and spermatozoa.",
+      "zh-TW": "Docosahexaenoic acid（DHA，22:6(n-3)）是具有六個 cis 雙鍵的 omega-3 polyunsaturated fatty acid，使其成為生物學上最易被氧化的脂質之一。它是主要的 n-3 PUFA（相對地，Arachidonic acid 為主要的 n-6 PUFA），並高度富集於神經元膜、視網膜光受器與精子中。"
+    },
+    "confidence": 0.95,
+    "source_document": "Docosahexaenoic acid.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "3d23ba878337",
+    "subject": "Docosahexaenoic acid",
+    "predicate": "is_susceptible_to",
+    "object": "Lipid Peroxidation",
+    "context": {
+      "en-US": "Each bis-allylic methylene group in DHA is a target for hydrogen abstraction by the Hydroxyl radical and other radical species. With six double bonds DHA has roughly 10-fold higher oxidizability than linoleic acid (18:2) and about 3-fold higher than Arachidonic acid (20:4), so DHA is the most peroxidation-prone neuronal lipid.",
+      "zh-TW": "DHA 中的每個 bis-allylic methylene 基團都是 Hydroxyl radical 及其他自由基抽取氫原子的標的。由於有六個雙鍵，DHA 的氧化性約為 linoleic acid（18:2）的 10 倍、Arachidonic acid（20:4）的 3 倍，因此 DHA 是神經組織中最易被過氧化���脂質。"
+    },
+    "confidence": 0.9,
+    "source_document": "Docosahexaenoic acid.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "c1f4b7c3d97d",
+    "subject": "Docosahexaenoic acid",
+    "predicate": "promotes",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "Polyunsaturated fatty acid peroxidation drives ferroptosis, and DHA-containing phospholipids are key substrates for it. DHA peroxidation products — 4-HHE (the DHA analog of 4-Hydroxynonenal), Malondialdehyde, and neuroprostanes — contribute to neuronal injury in Neurodegenerative Diseases.",
+      "zh-TW": "Polyunsaturated fatty acid 的過氧化驅動 ferroptosis，而含 DHA 的磷脂是其重要受質。DHA 過氧化產物 — 4-HHE（4-Hydroxynonenal 的 DHA 類似物）、Malondialdehyde 與 neuroprostanes — 會促成 Neurodegenerative Diseases 中的神經元損傷。"
+    },
+    "confidence": 0.8,
+    "source_document": "Docosahexaenoic acid.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "98b0cd608034",
+    "subject": "Dominant Optic Atrophy",
+    "predicate": "is_caused_by",
+    "object": "OPA1",
+    "context": {
+      "en-US": "Dominant Optic Atrophy (DOA) is the most common inherited optic neuropathy, caused by mostly missense mutations in OPA1. It produces progressive bilateral vision loss through degeneration of retinal ganglion cells, and the resulting failure of Mitochondrial Integrity selectively damages optic nerve axons.",
+      "zh-TW": "Dominant Optic Atrophy（DOA）是最常見的遺傳性視神經病變，由 OPA1 的錯義突變為主因。它經由視網膜神經節細胞退化造成進行性雙側視力喪失，而由此造成的 Mitochondrial Integrity 失效會選擇性傷害視神經軸突。"
+    },
+    "confidence": 0.95,
+    "source_document": "Dominant Optic Atrophy.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "9f2970cb64d9",
+    "subject": "OPA1",
+    "predicate": "is_required_for",
+    "object": "Inner Mitochondrial Membrane",
+    "context": {
+      "en-US": "OPA1 mutations impair Inner Mitochondrial Membrane fusion, causing mitochondrial dysfunction that disrupts cristae architecture and energy production in neurons with high bioenergetic demand. A severe 'DOA plus' phenotype adds deafness and ataxia, and OPA1 overlaps with Charcot-Marie-Tooth Disease Type 2A, reflecting shared mitochondrial dynamics pathways; OPA1 processing also depends on YME1L.",
+      "zh-TW": "OPA1 突變會損害 Inner Mitochondrial Membrane 的融合，造成粒線體功能障礙，破壞高生物能需求神經元中的 cristae 結構與能量產生。嚴重的「DOA plus」表型另加上耳聾與共濟失調；OPA1 也與 Charcot-Marie-Tooth Disease Type 2A 重疊，反映共享的粒線體動態路徑，且 OPA1 的加工另依賴 YME1L。"
+    },
+    "confidence": 0.9,
+    "source_document": "Dominant Optic Atrophy.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "1fe94f0044dd",
+    "subject": "Dopamine Transporter",
+    "predicate": "transports",
+    "object": "Dopamine",
+    "context": {
+      "en-US": "The Dopamine Transporter (DAT) is a membrane protein responsible for reuptake of Dopamine from the synaptic cleft back into the presynaptic neuron, terminating the dopaminergic signal and recycling the neurotransmitter. DAT is highly abundant in the Sirtuins, where rapid uptake into dopaminergic terminals is the primary way dopamine signalling ends.",
+      "zh-TW": "Dopamine Transporter（DAT）是一種膜蛋白，負責將 Dopamine 從突觸間隙回收至突觸前神經元，終止多巴胺訊號並回收神經傳遞物質。DAT 在 Sirtuins 中高度豐富，在該區快速攝入多巴胺神經末梢是 dopamine 訊號終止的主要方式。"
+    },
+    "confidence": 0.95,
+    "source_document": "Dopamine Transporter.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "4facc5a31409",
+    "subject": "COMT",
+    "predicate": "compensates_for",
+    "object": "Dopamine Transporter",
+    "context": {
+      "en-US": "DAT and COMT are regionally complementary in catecholamine biology. In the striatum DAT is the dominant dopamine clearance mechanism with COMT secondary, whereas in the Prefrontal Cortex DAT is sparse and located farther from synaptic sites, so COMT and the Norepinephrine transporter become the primary regulators of extracellular dopamine.",
+      "zh-TW": "在兒茶酚胺生物學中，DAT 與 COMT 具有區域互補性。在 striatum 中 DAT 是 dopamine 清除的主導機制，COMT 居次；而在 Prefrontal Cortex 中 DAT 稀少且遠離突觸位置，因此 COMT 與 Norepinephrine transporter 成為細胞外 dopamine 的主要調節者。"
+    },
+    "confidence": 0.9,
+    "source_document": "Dopamine Transporter.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "a233812f09fc",
+    "subject": "Dopamine",
+    "predicate": "is_derived_from",
+    "object": "L-DOPA",
+    "context": {
+      "en-US": "Dopamine is a catecholamine neurotransmitter synthesized from tyrosine in two steps: Tyrosine Hydroxylase catalyzes tyrosine to L-DOPA, and aromatic L-amino acid decarboxylase converts L-DOPA to dopamine. In the substantia nigra pars compacta the dopamine is then packaged into synaptic vesicles by Vesicular Monoamine Transporter 2.",
+      "zh-TW": "Dopamine 是由酪胺素合成的兒茶酚胺神經傳遞物質，分兩步：Tyrosine Hydroxylase 催化酪胺素生成 L-DOPA，再由芳香族 L-胺基酸脫羧酶將 L-DOPA 轉為 dopamine。在 substantia nigra pars compacta 中，dopamine 隨後由 Vesicular Monoamine Transporter 2 包裝進突觸小泡。"
+    },
+    "confidence": 0.95,
+    "source_document": "Dopamine.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "e45141e89bd7",
+    "subject": "Dopamine",
+    "predicate": "is_oxidized_to",
+    "object": "Dopaminochrome",
+    "context": {
+      "en-US": "Like other Catecholamines, Dopamine can undergo spontaneous or enzymatic Oxidation to form reactive intermediates. Dopaminochrome is the aminochrome formed when the catechol ring is oxidized to an o-quinone followed by cyclization; high ROS levels promote this oxidation, bypassing normal degradation by COMT and MAO, and excess dopamine oxidation to dopaminochrome is linked to neuronal stress in Parkinson's Disease.",
+      "zh-TW": "與其他 Catecholamines 相同，Dopamine 可經由自發性或酵素性 Oxidation 形成反應性中間產物。Dopaminochrome 是在兒茶酚環被氧化成 o-quinone 後再環化所形成的 aminochrome；高濃度 ROS 會促進此氧化、繞過 COMT 與 MAO 的正常降解，而 dopamine 過量氧化成 dopaminochrome 與 Parkinson's Disease 中的神經元壓力相關。"
+    },
+    "confidence": 0.9,
+    "source_document": "Dopamine.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "5b4aae92780d",
+    "subject": "COMT",
+    "predicate": "degrades",
+    "object": "Dopamine",
+    "context": {
+      "en-US": "Dopamine is primarily degraded by two enzymes, COMT (catechol-O-methyltransferase) and Monoamine oxidase. The COMT Val158Met Polymorphism significantly affects dopamine levels by altering the rate of degradation, with the higher-activity Val 158 allele associating with poorer cognitive performance and greater psychiatric susceptibility.",
+      "zh-TW": "Dopamine 主要由兩種酵素降解：COMT（catechol-O-methyltransferase）與 Monoamine oxidase。COMT 的 Val158Met Polymorphism 藉由改變降解速率而顯著影響 dopamine 濃度，其中活性較高的 Val 158 等位基因與較差的認知表現及較高的精神疾病易感性相關。"
+    },
+    "confidence": 0.9,
+    "source_document": "Dopamine.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "26169d6cfa1d",
+    "subject": "Dopamine",
+    "predicate": "is_associated_with",
+    "object": "Parkinson's Disease",
+    "context": {
+      "en-US": "Parkinson's Disease is characterized by progressive degeneration of dopaminergic neurons in the Substantia Nigra, and the resulting dopamine deficiency produces its characteristic motor symptoms. Neurons with high dopamine turnover and low VMAT2 expression are particularly vulnerable, and L-DOPA is the primary pharmacological treatment as a prodrug converted to dopamine in the brain.",
+      "zh-TW": "Parkinson's Disease 的特徵是 Substantia Nigra 中多巴胺神經元的進行性退化，由此造成的 dopamine 缺乏產生其典型的運動症狀。dopamine 周轉率高而 VMAT2 表現低的神經元特別脆弱，而 L-DOPA 是主要的藥物治療，作為 prodrug 在腦內被轉換為 dopamine。"
+    },
+    "confidence": 0.95,
+    "source_document": "Dopamine.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "8df256047e8f",
+    "subject": "Dopaminergic Neurons",
+    "predicate": "produces",
+    "object": "Dopamine",
+    "context": {
+      "en-US": "Dopaminergic Neurons are the primary source of Dopamine in the mammalian central nervous system, controlling metabolic processes, executive functions, and motor control. They are abundant in the Substantia Nigra (pars compacta) and are essential for motor control, reward-motivated behaviour, and executive function.",
+      "zh-TW": "Dopaminergic Neurons 是哺乳類中樞神經系統內 Dopamine 的主要來源，控制代謝過程、執行功能與運動控制。它們在 Substantia Nigra（pars compacta）豐富分布，對運動控制、獎賞驅動行為與執行功能至關重要。"
+    },
+    "confidence": 0.95,
+    "source_document": "Dopaminergic Neurons.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "f276e08c8298",
+    "subject": "Parkinson's Disease",
+    "predicate": "is_characterized_by",
+    "object": "Dopaminergic Neurons",
+    "context": {
+      "en-US": "Parkinson's Disease is characterized by the progressive and selective loss of Dopaminergic Neurons in the substantia nigra. Induced Pluripotent Stem Cells and Induced Neural Stem Cells are used to generate functional dopaminergic neurons for disease modelling, research, and potential transplantation.",
+      "zh-TW": "Parkinson's Disease 的特徵是 substantia nigra 中 Dopaminergic Neurons 的進行性與選擇性喪失。Induced Pluripotent Stem Cells 與 Induced Neural Stem Cells 被用來產生功能性的多巴胺神經元，以供疾病建模、研究與可能的移植。"
+    },
+    "confidence": 0.9,
+    "source_document": "Dopaminergic Neurons.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "88008d0900d2",
+    "subject": "Dopaminochrome",
+    "predicate": "polymerizes_into",
+    "object": "Neuromelanin",
+    "context": {
+      "en-US": "Dopaminochrome is a critical, unstable intermediate in Neuromelanin synthesis: it rapidly polymerizes to form the dark pigment found in the substantia nigra, with a polymerization half-time of roughly 5 minutes — faster than Adrenochrome's ~20 minutes. After cyclization it isomerizes to 5,6-Dihydroxyindole and DHICA, whose ratio determines neuromelanin's antioxidant capacity and metal-binding affinity.",
+      "zh-TW": "Dopaminochrome 是 Neuromelanin 合成中關鍵而不穩定的中間產物：它會快速聚合成為發現在 substantia nigra 的深色色素，聚合半衰期約 5 分鐘，比 Adrenochrome 的約 20 分鐘快。環化後它異構化為 5,6-Dihydroxyindole 與 DHICA，兩者的比例決定 neuromelanin 的抗氧化能力與金屬結合親和力。"
+    },
+    "confidence": 0.95,
+    "source_document": "Dopaminochrome.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "c6e1c966be78",
+    "subject": "Dopaminochrome",
+    "predicate": "is_a_structural_analog_of",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "Dopaminochrome and Adrenochrome share the o-quinone-indoline core but differ in N-substitution: dopaminochrome bears a primary amine at the indoline nitrogen whereas adrenochrome carries an N-methyl group. That N-methyl group makes Adrenochrome 2–3-fold more electrophilic toward thiols, gives it faster Glutathione adduct formation and a higher redox midpoint potential (+180 vs +150 mV), though Dopaminochrome generates less Superoxide anion per redox cycle.",
+      "zh-TW": "Dopaminochrome 與 Adrenochrome 共用 o-quinone-indoline 核心，但在 N-取代上不同：dopaminochrome 的 indoline 氮上帶初級胺，adrenochrome 則帶 N-甲基。該 N-甲基使 Adrenochrome 對硫醇的親電性高 2–3 倍、Glutathione 加合物形成更快，且氧化還原中點電位更高（+180 對 +150 mV），但 Dopaminochrome 每次氧化還原循環產生的 Superoxide anion 較少。"
+    },
+    "confidence": 0.9,
+    "source_document": "Dopaminochrome.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "cee85927c056",
+    "subject": "Dopaminochrome",
+    "predicate": "depletes",
+    "object": "Glutathione",
+    "context": {
+      "en-US": "Dopaminochrome reacts rapidly with Glutathione (GSH) to form 5-S-Glutathionyl-Dopamine (k ≈ 4 × 10³ M⁻¹s⁻¹ at pH 7.4), depleting cellular GSH; this adduct formation is the primary detoxification pathway. The IC₅₀ of dopaminochrome toxicity in dopaminergic cultures (≈12 µM at 24 h) matches the EC₅₀ for Glutathione depletion, implicating thiol depletion as the main cytotoxic mechanism. Under GSH depletion it conjugates protein cysteines on Complex I subunits (NDUFS1, NDUFS3), impairing mitochondrial respiration.",
+      "zh-TW": "Dopaminochrome 會快速與 Glutathione（GSH）反應形成 5-S-Glutathionyl-Dopamine（pH 7.4 下 k ≈ 4 × 10³ M⁻¹s⁻¹），耗竭細胞內 GSH；此加合物形成是主要的解毒途徑。Dopaminochrome 對多巴胺神經元培養物的毒性 IC₅₀（24 小時約 12 µM）與 Glutathione 耗竭的 EC₅₀ 相當，顯示硫醇耗竭是主要細胞毒機制。在 GSH 耗竭時，它會與 Complex I 次單元（NDUFS1、NDUFS3）上的蛋白質半胱胺酸結合，損害粒線體呼吸。"
+    },
+    "confidence": 0.9,
+    "source_document": "Dopaminochrome.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "aab8c01a9a76",
+    "subject": "Dopaminochrome",
+    "predicate": "contributes_to",
+    "object": "Parkinson's Disease",
+    "context": {
+      "en-US": "Multiple lines of evidence implicate Dopaminochrome in the selective vulnerability of substantia nigra pars compacta neurons in Parkinson's Disease: postmortem PD brains show 3–5-fold elevations of dopamine oxidation products, PARK2 (Parkin) mutations impair mitophagy and enhance dopaminochrome accumulation, PARK7 (DJ-1) deficiency reduces buffering against dopamine quinones, and Dopaminochrome modification accelerates SNCA alpha-synuclein crosslinking and aggregation.",
+      "zh-TW": "多項證據指出 Dopaminochrome 參與 substantia nigra pars compacta 神經元在 Parkinson's Disease 中的選擇性脆弱性：屍檢 PD 腦中的 dopamine 氧化產物升高 3–5 倍，PARK2（Parkin）突變損害 mitophagy 並加劇 dopaminochrome 累積，PARK7（DJ-1）缺乏降低對 dopamine quinone 的緩衝能力，而 Dopaminochrome 修飾會加速 SNCA alpha-synuclein 的交聯與聚集。"
+    },
+    "confidence": 0.9,
+    "source_document": "Dopaminochrome.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "edd810cdc2fe",
+    "subject": "Dopaminochrome",
+    "predicate": "undergoes",
+    "object": "Redox Cycling",
+    "context": {
+      "en-US": "Like Adrenochrome, Dopaminochrome participates in Redox Cycling, generating further Superoxide anion and contributing to neuronal damage. Because its lower reduction potential limits electron transfer to molecular oxygen, Dopaminochrome yields less Superoxide anion per redox cycle than Adrenochrome.",
+      "zh-TW": "與 Adrenochrome 相同，Dopaminochrome 會參與 Redox Cycling，產生更多 Superoxide anion 並促成神經元損傷。由於其還原電位較低、限制了向分子氧的電子轉移，Dopaminochrome 每次氧化還原循環所產生的 Superoxide anion 比 Adrenochrome 少。"
+    },
+    "confidence": 0.9,
+    "source_document": "Dopaminochrome.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "27eca13e4495",
+    "subject": "Dopaminochrome",
+    "predicate": "is_formed_from",
+    "object": "Dopamine",
+    "context": {
+      "en-US": "Dopaminochrome is formed from Dopamine by two-electron oxidation of the catechol ring to dopamine o-quinone (DAQ) followed by intramolecular Michael-type 1,4-addition of the primary amine side chain. The cyclization of DAQ (k ≈ 0.1–0.5 s⁻¹) is 5–10-fold slower than adrenaline-quinone cyclization to Adrenochrome, and the rate-limiting step is the initial oxidation, kinetically controlled by available oxidants such as Superoxide anion (k ≈ 10⁶ M⁻¹s⁻¹) or Tyrosinase catalysis.",
+      "zh-TW": "Dopaminochrome 由 Dopamine 經由兒茶酚環的兩電子氧化成 dopamine o-quinone（DAQ），再由初級胺側鏈進行分子內 Michael 型 1,4-加成而形成。DAQ 的環化速率（k ≈ 0.1–0.5 s⁻¹）比 adrenaline-quinone 環化成 Adrenochrome 慢 5–10 倍，而速率限制步驟是最初的氧化，由可用氧化劑（如 Superoxide anion，k ≈ 10⁶ M⁻¹s⁻¹）或 Tyrosinase 催化動態控制。"
+    },
+    "confidence": 0.95,
+    "source_document": "Dopaminochrome.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "6f6fa968a88b",
+    "subject": "Dorsal Root Ganglion",
+    "predicate": "contains",
+    "object": "Nociceptor",
+    "context": {
+      "en-US": "The Dorsal Root Ganglion (DRG) is a collection of sensory neuron cell bodies along the spinal dorsal roots. Its neurons, including Nociceptors, transmit somatosensory and pain information from the periphery to the central nervous system and are a primary site of pathological change in peripheral neuropathies.",
+      "zh-TW": "Dorsal Root Ganglion（DRG）是沿脊神經背根排列的感覺神經元細胞體集合體。其神經元（包含 Nociceptor）將體感與痛覺資訊由周邊傳至中樞神經系統，也是周邊神經病變中主要的病理變化部位。"
+    },
+    "confidence": 0.95,
+    "source_document": "Dorsal Root Ganglion.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "ab43ab911303",
+    "subject": "cGAS-STING Pathway",
+    "predicate": "drives",
+    "object": "Dorsal Root Ganglion",
+    "context": {
+      "en-US": "cGAS-STING signaling within Dorsal Root Ganglion sensory neurons contributes to neuropathic pain: nerve injury or chemotherapeutic insult activates the cGAS-STING axis in DRG neurons, amplifying nociceptive signaling and allodynia. Because DRG neurons sit at the periphery–CNS interface, this activation also interfaces with infiltrating immune cells and local Inflammation, sustaining pain states.",
+      "zh-TW": "Dorsal Root Ganglion 感覺神經元內的 cGAS-STING 訊號促成神經病痛：神經損傷或化學治療傷害會活化 DRG 神經元中的 cGAS-STING 軸，放大傷害感受訊號與 allodynia。由於 DRG 神經元位於周邊與中樞的介面，此活化也會與浸潤的免疫細胞及局部 Inflammation 互動，使疼痛狀態持續。"
+    },
+    "confidence": 0.9,
+    "source_document": "Dorsal Root Ganglion.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "f2f39d67dae2",
+    "subject": "Doubly-Labelled Water",
+    "predicate": "measures",
+    "object": "Energy Expenditure",
+    "context": {
+      "en-US": "Doubly-Labelled Water (DLW) is a stable-isotope technique that measures total daily Energy Expenditure of free-living subjects over days to weeks. The subject drinks water labelled with ²H and ¹⁸O; ²H is eliminated only as water while ¹⁸O is eliminated as both water and CO₂, so the difference between the two elimination rates reports CO₂ production, from which energy expenditure is calculated using the respiratory quotient.",
+      "zh-TW": "Doubly-Labelled Water（DLW）是一種穩定同位素技術，可在數天至數週內測量自由活動受試者的每日總 Energy Expenditure。受試者飲用以 ²H 與 ¹⁸O 標記的水；²H 僅以水形式排出，而 ¹⁸O 以水與 CO₂ 兩種形式排出，因此兩者排除速率的差值可反映 CO₂ 生成量，再配合呼吸商換算出能量消耗。"
+    },
+    "confidence": 0.95,
+    "source_document": "Doubly-Labelled Water.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "0516f92a5d1f",
+    "subject": "Doubly-Labelled Water",
+    "predicate": "quantifies",
+    "object": "Physical Activity Level",
+    "context": {
+      "en-US": "Because Physical Activity Level is defined as the ratio of daily energy expenditure to Resting Metabolic Rate (PAL = DEE:RMR), DLW datasets establish the standard values used in human and animal energetics: about 1.66 for Western adults and roughly 2.6 for wild mammals. DLW is non-invasive, does not interfere with normal behaviour, and is validated against Indirect Calorimetry.",
+      "zh-TW": "由於 Physical Activity Level 定義為每日能量消耗與 Resting Metabolic Rate 的比值（PAL = DEE:RMR），DLW 資料集確立了人類與動物能量學的標準數值：西方成人約 1.66，野生哺乳類約 2.6。DLW 非侵入性、不干擾正常行為，並已以 Indirect Calorimetry 驗證。"
+    },
+    "confidence": 0.9,
+    "source_document": "Doubly-Labelled Water.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "e30438d6db3f",
+    "subject": "Doxorubicin",
+    "predicate": "activates",
+    "object": "Intrinsic Pathway",
+    "context": {
+      "en-US": "Doxorubicin (Adriamycin), an anthracycline chemotherapy drug, exerts anticancer effects by intercalating between DNA base pairs, inhibiting topoisomerase II-mediated DNA repair, and generating free radicals that induce Oxidative Stress. These actions collectively trigger the Intrinsic Pathway of Apoptosis.",
+      "zh-TW": "Doxorubicin（Adriamycin）是一種 anthracycline 類化療藥物，其抗癌作用來自插入 DNA 鹼基對之間、抑制 topoisomerase II 媒介的 DNA 修補，以及產生自由基而誘發 Oxidative Stress。這些作用共同啟動 Apoptosis 的 Intrinsic Pathway。"
+    },
+    "confidence": 0.95,
+    "source_document": "Doxorubicin.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "bec4dcdb19bd",
+    "subject": "Bcl-2",
+    "predicate": "confers_resistance_to",
+    "object": "Doxorubicin",
+    "context": {
+      "en-US": "Resistance to Doxorubicin is a common clinical problem, often mediated by overexpression of anti-apoptotic proteins like Bcl-2. Silencing Bmi-1 in MCF breast cancer cells downregulates pAkt and Bcl-2 and renders the cells more sensitive to Doxorubicin, with a corresponding increase in apoptotic cells in vitro.",
+      "zh-TW": "對 Doxorubicin 的抗藥性是常見的臨床問題，常由 Bcl-2 等抗凋亡蛋白的過量表現所介導。在 MCF 乳癌細胞中沉默 Bmi-1 會下調 pAkt 與 Bcl-2，使細胞對 Doxorubicin 更加敏感，並在 in vitro 下增加凋亡細胞數。"
+    },
+    "confidence": 0.9,
+    "source_document": "Doxorubicin.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "7ab528b7dd73",
+    "subject": "Drug Resistance",
+    "predicate": "is_promoted_by",
+    "object": "Tumor Microenvironment",
+    "context": {
+      "en-US": "Drug Resistance in oncology describes diminished efficacy of cytotoxic or targeted agents over time, driven by efflux pumps, DNA-repair upregulation, metabolic reprogramming, and microenvironmental factors. A key contributor is the acidic, lactate-rich Tumor Microenvironment produced by Glycolysis, which promotes resistance.",
+      "zh-TW": "腫瘤學中的 Drug Resistance 指細胞毒性或標靶藥物效能在時間推移下降低，由幫浦外排、DNA 修補上調、代謝重編程與微環境因素共同驅動。關鍵促成因子是由 Glycolysis 產生的酸性、乳酸-rich 的 Tumor Microenvironment，它會促進抗藥性。"
+    },
+    "confidence": 0.9,
+    "source_document": "Drug Resistance.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "3e8b99b014db",
+    "subject": "Fenbendazole",
+    "predicate": "reduces",
+    "object": "Drug Resistance",
+    "context": {
+      "en-US": "Fenbendazole is reported to retain activity against Paclitaxel-, Docetaxel-, and 5-Fluorouracil-resistant cancer cells and to outperform Albendazole against 5-FU-resistant colorectal cells, likely by intervening in Glycolysis and restoring glucose-starvation-mediated vulnerability. Its proposed route is to act as a viable treatment for drug-resistant cancer cells.",
+      "zh-TW": "Fenbendazole 被報告對 Paclitaxel、Docetaxel 與 5-Fluorouracil 抗藥性的癌細胞仍保有活性，且在 5-FU 抗藥性大腸癌細胞中優於 Albendazole，可能是藉由介入 Glycolysis 並恢復葡萄糖飢餓介導的脆弱性。其可能的角色是作為藥物抗藥性癌細胞的可行治療。"
+    },
+    "confidence": 0.8,
+    "source_document": "Drug Resistance.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "7b195d73c687",
+    "subject": "Dysbiosis",
+    "predicate": "impairs",
+    "object": "Microbiome",
+    "context": {
+      "en-US": "Dysbiosis denotes a maladaptive shift in the abundance, diversity, or metabolic output of the commensal Microbiome, characterized by loss of beneficial taxa (Akkermansia, Bifidobacterium), expansion of pathobionts, and reduced production of Short-chain Fatty Acids such as Butyrate. It is a process rather than a single organism that propagates Inflammation systemically.",
+      "zh-TW": "Dysbiosis 指共生 Microbiome 在豐度、多樣性或代謝產物上的失調性轉變，特徵為益生菌群（如 Akkermansia、Bifidobacterium）流失、pathobionts 擴張，以及 Butyrate 等 Short-chain Fatty Acids 產量下降。它是一個過程而非單一微生物，會將 Inflammation 系統性傳播。"
+    },
+    "confidence": 0.95,
+    "source_document": "Dysbiosis.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "60eba04b7e41",
+    "subject": "Dysbiosis",
+    "predicate": "increases",
+    "object": "Lipopolysaccharide",
+    "context": {
+      "en-US": "Dysbiosis increases intestinal permeability, permitting Lipopolysaccharide translocation ('metabolic endotoxemia') that activates TLR4 and NLRP3. It also depletes Butyrate-mediated colonocyte fuel and histone-deacetylase inhibition, weakening barrier and regulatory T-cell tone, while altered bile-acid and tryptophan metabolism further disturb host signalling.",
+      "zh-TW": "Dysbiosis 會提高腸道通透性，使 Lipopolysaccharide 得以轉位（「metabolic endotoxemia」），並活化 TLR4 與 NLRP3。它也會耗竭 Butyrate 介導的結腸細胞燃料與組蛋白去乙醯化酶抑制作用，削弱屏障與調節性 T 細胞的張力；膽酸與色胺代謝的改變也會進一步擾亂宿主訊號。"
+    },
+    "confidence": 0.9,
+    "source_document": "Dysbiosis.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "d4da7f4dd8f5",
+    "subject": "Dysbiosis",
+    "predicate": "promotes",
+    "object": "Inflammaging",
+    "context": {
+      "en-US": "Dysbiosis fuels Inflammaging and Immunosenescence, promotes Metabolic Syndrome and insulin resistance, and amplifies Reactive Oxygen Species via microbial-derived toxins. It intersects with SASP expression in Senescent Cells and with Mitochondrial Dysfunction; interventions such as Caloric Restriction, Urolithin A, prebiotics, and Nicotinamide Riboside reshape the microbiota toward longevity-associated profiles.",
+      "zh-TW": "Dysbiosis 助長 Inflammaging 與 Immunosenescence、促進 Metabolic Syndrome 與 insulin resistance，並透過微生物衍生的毒素放大 Reactive Oxygen Species。它與 Senescent Cells 的 SASP 表現及 Mitochondrial Dysfunction 交錯相關；Caloric Restriction、Urolithin A、益生元與 Nicotinamide Riboside 等介入方式可將微生物群重塑為與長壽相關的型態。"
+    },
+    "confidence": 0.9,
+    "source_document": "Dysbiosis.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "d46f7763cdd2",
+    "subject": "Dyspnea",
+    "predicate": "is_a_symptom_of",
+    "object": "Methemoglobinemia",
+    "context": {
+      "en-US": "Dyspnea is a cardinal respiratory symptom — the subjective experience of difficult, labored, or uncomfortable breathing — arising when ventilatory demand outstrips capacity. It is a key presenting symptom of Methemoglobinemia, where oxidized Methemoglobin cannot carry oxygen efficiently and produces functional hypoxia, appearing alongside Cyanosis and fatigue.",
+      "zh-TW": "Dyspnea 是典型的呼吸症狀 — 困難、費力或不適呼吸的主觀感受 — 當通氣需求超過通氣能力時產生。它是 Methemoglobinemia 的重要主訴症狀；在該病中氧化的 Methemoglobin 無法有效攜氧而造成功能性缺氧，並伴隨 Cyanosis 與疲勞出現。"
+    },
+    "confidence": 0.95,
+    "source_document": "Dyspnea.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "4121c7069f49",
+    "subject": "Dyspnea",
+    "predicate": "is_driven_by",
+    "object": "Hypoxia",
+    "context": {
+      "en-US": "Dyspnea arises from afferent inputs integrated in the cortex and brainstem: mechanoreceptors and chemoreceptors signal lung stretch, airway resistance, and arterial Hypoxia or hypercapnia, while the efferent motor command ('effort of breathing') is itself perceived. Because methemoglobinemic hypoxia stems from impaired oxygen carriage rather than low arterial oxygen content, standard pulse oximetry may read misleadingly normal.",
+      "zh-TW": "Dyspnea 源自整合於大腦皮質與腦幹的傳入訊號：機械受器與化學受器傳遞肺部伸展、氣道阻力與動脈 Hypoxia 或高碳酸血症的訊號，而传出運動指令（『呼吸努力』）本身也會被感知。由於 methemoglobinemia 的缺氧源自氧攜帶功能受損而非動脈氧含量降低，標準脈搏血氧儀的讀數可能出現誤導性的正常值。"
+    },
+    "confidence": 0.9,
+    "source_document": "Dyspnea.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "7da60ae19572",
+    "subject": "Methylene blue",
+    "predicate": "treats",
+    "object": "Dyspnea",
+    "context": {
+      "en-US": "In symptomatic methemoglobinemia, Methylene blue reduces methemoglobin back to functional Hemoglobin, relieving Dyspnea and Cyanosis; management otherwise targets the underlying cause. Dyspnea can also be acute (pulmonary embolism, asthma, pneumonia, Acute Respiratory Distress Syndrome) or chronic (COPD, heart failure).",
+      "zh-TW": "在有症狀的 methemoglobinemia 中，Methylene blue 將 methemoglobin 還原為具功能的 Hemoglobin，緩解 Dyspnea 與 Cyanosis；其他處置則針對潛在病因。Dyspnea 可為急性（肺栓塞、氣喘、肺炎、Acute Respiratory Distress Syndrome）或慢性（COPD、心衰竭）。"
+    },
+    "confidence": 0.9,
+    "source_document": "Dyspnea.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "d9d004a4cae3",
+    "subject": "E-cadherin",
+    "predicate": "marks",
+    "object": "Epithelial-to-mesenchymal transition",
+    "context": {
+      "en-US": "E-cadherin (epithelial cadherin, CDH1) is a calcium-dependent transmembrane glycoprotein mediating homophilic cell–cell adhesion at epithelial adherens junctions. It is the prototypical epithelial marker whose downregulation is a defining event of Epithelial-to-mesenchymal transition (EMT), and its loss enables cancer cell migration, invasion, and Metastasis.",
+      "zh-TW": "E-cadherin（epithelial cadherin、CDH1）是鈣離子依賴的跨膜醣蛋白，在上皮 adherens junction 介導同型細胞間黏附。它是典型的上皮標記，其下調是 Epithelial-to-mesenchymal transition（EMT）的定義性事件；其流失使癌細胞得以遷移、侵襲與 Metastasis。"
+    },
+    "confidence": 0.95,
+    "source_document": "E-cadherin.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "439935381741",
+    "subject": "E-cadherin",
+    "predicate": "inhibits",
+    "object": "Wnt signaling",
+    "context": {
+      "en-US": "E-cadherin sequesters β-catenin at the plasma membrane, so its loss releases β-catenin, which can translocate to the nucleus and activate Wnt/β-catenin target genes that promote proliferation and stemness. This makes E-cadherin status both a prognostic marker of tumour aggressiveness and a determinant of EMT activation.",
+      "zh-TW": "E-cadherin 會在細胞膜上隔離 β-catenin；當其流失時 β-catenin 被釋放，可轉位入核並活化促進增殖與幹性的 Wnt/β-catenin 目標基因。因此 E-cadherin 的狀態既是腫瘤侵襲性的預後標記，也是 EMT 活化的決定因素。"
+    },
+    "confidence": 0.9,
+    "source_document": "E-cadherin.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "9869a43e9872",
+    "subject": "SASP",
+    "predicate": "downregulates",
+    "object": "E-cadherin",
+    "context": {
+      "en-US": "In the Tumour Microenvironment, SASP-driven EMT downregulates E-cadherin, enabling cancer cell migration and metastasis. SASP factors such as TGFβ, IL-6, and IL-8 induce the EMT transcription factors SNAIL, SLUG, ZEB1, and TWIST, which repress E-cadherin transcriptionally, so the E-cadherin-to-N-cadherin switch exemplifies the SASP's pro-tumorigenic capacity to alter epithelial cell identity.",
+      "zh-TW": "在 Tumour Microenvironment 中，SASP 驅動的 EMT 會下調 E-cadherin，使癌細胞得以遷移與轉移。TGFβ、IL-6 與 IL-8 等 SASP 因子會誘導 EMT 轉錄因子 SNAIL、SLUG、ZEB1 與 TWIST，進而在轉錄層次抑制 E-cadherin；因此 E-cadherin 轉為 N-cadherin 的轉換 exemplify 了 SASP 改變上皮細胞身份的前致瘤能力。"
+    },
+    "confidence": 0.85,
+    "source_document": "E-cadherin.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "653b2bf7af94",
+    "subject": "E2F1",
+    "predicate": "induces",
+    "object": "SIRT1",
+    "context": {
+      "en-US": "E2F1 and the sirtuin SIRT1 form a reciprocal negative regulatory feedback loop controlling apoptotic cell death. E2F1 binds directly to the SIRT1 promoter and induces its transcription, raising SIRT1 protein levels; SIRT1 then physically associates with E2F1 and efficiently inhibits its pro-apoptotic transcriptional functions, protecting cancer cells from DNA damage-induced apoptosis.",
+      "zh-TW": "E2F1 與 sirtuin SIRT1 形成互相制衡的負回饋迴路以調控凋亡性細胞死亡。E2F1 直接結合 SIRT1 啟動子並誘導其轉錄，使 SIRT1 蛋白量上升；SIRT1 隨後與 E2F1 物理結合並有效抑制其促凋亡的轉錄功能，使癌細胞免於 DNA 損傷誘發的凋亡。"
+    },
+    "confidence": 0.95,
+    "source_document": "E2F1.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "4636ece25fca",
+    "subject": "SIRT1",
+    "predicate": "inhibits",
+    "object": "E2F1",
+    "context": {
+      "en-US": "SIRT1 is a highly efficient inhibitor of E2F1's pro-apoptotic transcriptional activity, and SIRT1-mediated suppression of E2F1 protects cancer cells (U2OS osteosarcoma and H1299 lung cancer lines) against DNA damage-induced apoptosis, favouring survival and recovery. SIRT1 also deacetylates E2F1 and can deacetylate Rb, leading to E2F1 release from the Rb/E2F1 complex and enhanced oligodendrocyte progenitor proliferation.",
+      "zh-TW": "SIRT1 是 E2F1 促凋轉錄活性的高效率抑制劑；SIRT1 對 E2F1 的抑制可保護癌細胞（U2OS 骨肉癌與 H1299 肺癌細胞株）免於 DNA 損傷誘發的凋亡，有利於存活與復原。SIRT1 亦會去乙醯化 E2F1，並可去乙醯化 Rb，使 E2F1 從 Rb/E2F1 複合體釋放，促進 oligodendrocyte progenitor 增殖。"
+    },
+    "confidence": 0.9,
+    "source_document": "E2F1.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "89cd160e9ad3",
+    "subject": "E2F1",
+    "predicate": "is_inhibited_by",
+    "object": "Retinoblastoma Protein",
+    "context": {
+      "en-US": "Retinoblastoma Protein inhibits proliferation by binding to and inactivating E2F1, a key transcriptional activator of cell cycle and cell division genes. E2F1 itself plays a dual role, acting as a master regulator of cell cycle progression at the G1/S transition and as a potent driver of apoptosis in response to severe DNA damage or oncogenic stress.",
+      "zh-TW": "Retinoblastoma Protein 藉由結合並使 E2F1 失活來抑制增殖；E2F1 是 cell cycle 與細胞分裂基因的關鍵轉錄活化因子。E2F1 本身具有雙重角色：既是 G1/S transition 的 cell cycle 進展主導調節因子，也是嚴重 DNA 損傷或致癌壓力下的強效凋亡驅動者。"
+    },
+    "confidence": 0.9,
+    "source_document": "E2F1.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "29fbf7abef10",
+    "subject": "E2F1",
+    "predicate": "regulates",
+    "object": "Cell Cycle",
+    "context": {
+      "en-US": "E2F1 is a member of the E2F family of transcription factors and a master regulator of cell cycle progression, facilitating the G1/S transition, while also controlling Apoptosis in response to DNA damage. E2F1 can repress Mcl-1 gene expression by directly binding the Mcl-1 promoter, resulting in increased Apoptosis.",
+      "zh-TW": "E2F1 是 E2F 轉錄因子家族的成員，為 cell cycle 進展的主導調節因子，促進 G1/S transition，同時在 DNA 損傷反應中控制 Apoptosis。E2F1 可直接結合 Mcl-1 啟動子而抑制其基因表現，進而增加 Apoptosis。"
+    },
+    "confidence": 0.9,
+    "source_document": "E2F1.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "17c5c5d081d7",
+    "subject": "ECM",
+    "predicate": "contains",
+    "object": "Fibronectin",
+    "context": {
+      "en-US": "The ECM (Extracellular Matrix) is a complex network of extracellular proteins and carbohydrates — including collagen and glycoproteins such as Fibronectin and Vitronectin — that provides structural and biochemical support to surrounding cells. It also forms part of the niche together with surrounding cells and blood vessels, contacting quiescent cells by soluble factors or direct contact.",
+      "zh-TW": "ECM（Extracellular Matrix）是由細胞外蛋白質與醣類組成的複雜網路 — 包含 collagen 以及 Fibronectin、Vitronectin 等醣蛋白 — 提供周圍細胞結構性與生化性支持。它也與周圍細胞及血管共同構成 niche，透過可溶性因子或直接接觸與靜止細胞互動。"
+    },
+    "confidence": 0.9,
+    "source_document": "ECM.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "30ed552730da",
+    "subject": "Lysosome",
+    "predicate": "regulates",
+    "object": "ECM",
+    "context": {
+      "en-US": "Remodelling of the ECM is regulated by Lysosome activity, as seen during C. elegans molting, where STA-2- and ELT-3-dependent lysosome biogenesis drives ECM remodelling. This links lysosomal function — the degradative organelle and endpoint of autophagic flux — to extracellular matrix turnover.",
+      "zh-TW": "ECM 的重塑受 Lysosome 活性調控，如 C. elegans 蛻皮過程中由 STA-2 與 ELT-3 相依賴的 lysosome 生成所驅動的 ECM 重塑。這將 lysosome 功能（降解性胞器與自噬流的終點）與細胞外基質的更新連結起來。"
+    },
+    "confidence": 0.85,
+    "source_document": "ECM.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "efee849f1efd",
+    "subject": "EDTA",
+    "predicate": "inhibits",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "Transition metals can catalyse the autoxidation of Epinephrine and the resulting Adrenochrome formation. By sequestering these metals, EDTA provides 'kinetic control' over the production of reactive intermediates, slowing the autoxidation rate and preventing runaway generation of toxic species — a key element of the Glyco-Oxidative Proteostasis Shield (GOPS) strategy.",
+      "zh-TW": "過渡金屬能催化 Epinephrine 的自發氧化及隨後的 Adrenochrome 生成。EDTA 藉由螯合這些金屬，對反應性中間產物的生成提供『動力學控制』，降低自發氧化速率並防止毒性物種失控生成 — 這是 Glyco-Oxidative Proteostasis Shield（GOPS）策略的關鍵要素。"
+    },
+    "confidence": 0.9,
+    "source_document": "EDTA.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "967ad38ca8b0",
+    "subject": "EDTA",
+    "predicate": "binds",
+    "object": "Epinephrine",
+    "context": {
+      "en-US": "EDTA (ethylenediaminetetraacetic acid) is a chelating agent that binds metal ions such as iron and copper. Because those metals catalyse the oxidation of Epinephrine, EDTA binding renders them inert and dramatically slows Epinephrine autoxidation, thereby indirectly limiting Adrenochrome production.",
+      "zh-TW": "EDTA（ethylenediaminetetraacetic acid）是一種螯合劑，可結合鐵、銅等金屬離子。由於這些金屬會催化 Epinephrine 的氧化，EDTA 與其結合後使其失活，大幅減緩 Epinephrine 的自發氧化，進而間接限制 Adrenochrome 的生成。"
+    },
+    "confidence": 0.85,
+    "source_document": "EDTA.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "0fcfed9100b1",
+    "subject": "EF24",
+    "predicate": "is_a_derivative_of",
+    "object": "Curcumin",
+    "context": {
+      "en-US": "EF24 is a synthetic, enone-containing analog of Curcumin engineered for greater chemical stability and cellular uptake. In senescence and fibrosis research it is profiled as a senomorphic, polyphenol-derived agent that counteracts stress-induced cellular aging.",
+      "zh-TW": "EF24 是 Curcumin 的合成 enone 類衍生物，經設計以獲得更佳的化學穩定性與細胞攝取能力。在衰老與纖維化研究中，它被歸類為 senomorphic、多酚衍生的藥物，可對抗壓力誘發的細胞老化。"
+    },
+    "confidence": 0.95,
+    "source_document": "EF24.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "1865d0931309",
+    "subject": "EF24",
+    "predicate": "suppresses",
+    "object": "Senescence",
+    "context": {
+      "en-US": "Curcumin and its synthetic analog EF24 have been shown to suppress oxidative stress–induced epithelial senescence and modulate PTEN-related signalling pathways, countering the pro-survival, pro-fibrotic axis that sustains senescent cells. EF24 was listed among natural/synthetic compounds with senolytic or SASP-modulating properties in preclinical pulmonary fibrosis settings.",
+      "zh-TW": "Curcumin 及其合成類似物 EF24 已被證實能抑制氧化壓力誘發的上皮 senescence，並調節 PTEN 相關的訊號路徑，以對抗維持 senescent cells 的促存活、促纖維化軸。EF24 被列入在臨床前肺纖維化情境中具有 senolytic 或 SASP 調節特性的天然／合成化合物清單。"
+    },
+    "confidence": 0.85,
+    "source_document": "EF24.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "1478e1bca3f1",
+    "subject": "EF24",
+    "predicate": "targets",
+    "object": "PTEN",
+    "context": {
+      "en-US": "EF24's primary signalling nodes are the PTEN/PI3K axis and Reactive Oxygen Species, with a mechanism described as anti-senescence and SASP modulation. Within the IPF senescence network it is grouped with Procyanidin C1, Resveratrol, and Quercetin as a polyphenol-class modulator able to attenuate the SASP and epithelial senescence that drive fibroblast activation and extracellular matrix deposition.",
+      "zh-TW": "EF24 的主要訊號節點為 PTEN/PI3K 軸與 Reactive Oxygen Species，其機制被描述為抗衰老與 SASP 調節。在 IPF 衰老網絡中，它與 Procyanidin C1、Resveratrol、Quercetin 同屬多酚類調節劑，可減弱驅動 fibroblast 活化與細胞外基質沉積的 SASP 與上皮 senescence。"
+    },
+    "confidence": 0.85,
+    "source_document": "EF24.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "b3c6e8de83d2",
+    "subject": "Flavone",
+    "predicate": "is_a_type_of",
+    "object": "Flavones",
+    "context": {
+      "en-US": "The flavone scaffold (2-phenylchromen-4-one) defines the flavones subclass of flavonoids. Flavones differ from flavonols in lacking a 3-hydroxyl group on the C ring.",
+      "zh-TW": "flavone 骨架（2-苯基色烯-4-酮）定義了 flavonoids 中的 flavones 亞類。flavones 與 flavonols 的差別在於 C 環上缺少 3-羥基。"
+    },
+    "confidence": 0.9,
+    "source_document": "Flavone.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "70f8f8f92820",
+    "subject": "Flavones",
+    "predicate": "is_a_type_of",
+    "object": "Flavonoids",
+    "context": {
+      "en-US": "Flavones are one of the subclasses of flavonoids, characterized by a 2-phenylchromen-4-one backbone without a 3-hydroxyl group and shared by the dietary flavones apigenin, luteolin and chrysin.",
+      "zh-TW": "Flavones 是 flavonoids 的亞類之一，其特徵為具有 2-苯基色烯-4-酮骨架且不含 3-羥基，飲食中的 apigenin、luteolin 與 chrysin 均屬此類。"
+    },
+    "confidence": 0.95,
+    "source_document": "Flavones.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "ff9f03cd6e8c",
+    "subject": "Apigenin",
+    "predicate": "is_a_type_of",
+    "object": "Flavones",
+    "context": {
+      "en-US": "Apigenin is the prototypical dietary flavone, abundant in parsley, celery and chamomile, and the major plant flavone discussed in the anticancer literature.",
+      "zh-TW": "Apigenin 是典型的飲食性 flavone，富含於香芹、洋芹與洋甘菊，也是抗癌文獻中主要探討的植物性 flavone。"
+    },
+    "confidence": 0.95,
+    "source_document": "Flavones.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "d945430dfa9b",
+    "subject": "Apigenin",
+    "predicate": "suppresses",
+    "object": "SASP",
+    "context": {
+      "en-US": "Apigenin acts as a senomorphic agent: its flavone scaffold supports direct binding of PRDX6 and suppression of the senescence-associated secretory phenotype rather than senescent cell killing.",
+      "zh-TW": "Apigenin 作為 senomorphic 劑作用：其 flavone 骨架支撐對 PRDX6 的直接結合，並抑制 senescence-associated secretory phenotype（SASP），而非直接殺滅衰老細胞。"
+    },
+    "confidence": 0.85,
+    "source_document": "Flavone.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "e7e03565bc71",
+    "subject": "Fisetin",
+    "predicate": "is_a_type_of",
+    "object": "Flavonol",
+    "context": {
+      "en-US": "Fisetin (3,3',4',7-tetrahydroxyflavone) is a flavonol, defined by a hydroxyl at the 3-position of the C ring, placing it in the 3-hydroxyflavone subclass of flavonoid polyphenols.",
+      "zh-TW": "Fisetin（3,3',4',7-四羥基黃酮）屬於 flavonol，其定義特徵為 C 環 3 位帶有羥基，因而歸入 flavonoid 多酚中的 3-羥基黃酮亞類。"
+    },
+    "confidence": 0.9,
+    "source_document": "Flavonol.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "89ead7737907",
+    "subject": "Flavonol",
+    "predicate": "is_a_type_of",
+    "object": "Flavonoids",
+    "context": {
+      "en-US": "Flavonols are a subclass of flavonoid polyphenols built on a 3-hydroxyflavone skeleton; the 3-hydroxyl group also makes them stronger direct radical scavengers than flavones.",
+      "zh-TW": "Flavonols 是 flavonoid 多酚的一個亞類，建立在 3-羥基黃酮骨架之上；3-羥基也使其作為直接自由基清除劑的強度高於 flavones。"
+    },
+    "confidence": 0.9,
+    "source_document": "Flavonol.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "a6b908e1bbde",
+    "subject": "Fisetin",
+    "predicate": "extends",
+    "object": "Lifespan",
+    "context": {
+      "en-US": "Fisetin was the most potent senolytic in a 10-flavonoid screen and extended lifespan in mice (Yousefzadeh et al., 2018). It differs from quercetin by only a single 5-hydroxyl group, yet outperformed quercetin as a senolytic.",
+      "zh-TW": "Fisetin 在 10 種 flavonoid 的篩選中是最強的 senolytic，並在小鼠中延長壽命（Yousefzadeh 等，2018）。它與 quercetin 僅相差一個 5-羥基，卻在 senolytic 效力上勝過 quercetin。"
+    },
+    "confidence": 0.9,
+    "source_document": "Flavonol.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "3d2db6b7a665",
+    "subject": "Flavonoid",
+    "predicate": "is_a_type_of",
+    "object": "Polyphenols",
+    "context": {
+      "en-US": "Flavonoids are polyphenolic plant secondary metabolites built on a 15-carbon C6-C3-C6 skeleton, serving as pigments, UV protectants and signaling molecules in plants; subclasses include flavonols, flavones, flavanones, flavanols, anthocyanins and isoflavones.",
+      "zh-TW": "Flavonoids 是植物的 polyphenolic 次級代謝物，建立在 15 碳的 C6-C3-C6 骨架上，在植物中作為色素、UV 防護物與訊號分子；其亞類包括 flavonols、flavones、flavanones、flavanols、anthocyanins 與 isoflavones。"
+    },
+    "confidence": 0.9,
+    "source_document": "Flavonoid.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "76c9b137d56f",
+    "subject": "Quercetin",
+    "predicate": "is_a_type_of",
+    "object": "Flavonol",
+    "context": {
+      "en-US": "Quercetin is the best-studied flavonol and the comparator arm of the dasatinib plus quercetin (D+Q) senolytic combination, used alongside fisetin in flavonoid senolytic panels.",
+      "zh-TW": "Quercetin 是研究最深入的 flavonol，也是 dasatinib 加 quercetin（D+Q）senolytic 組合中的對照臂，並在 flavonoid senolytic 篩選中與 fisetin 並列。"
+    },
+    "confidence": 0.9,
+    "source_document": "Flavonoid.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "a79d02e58b41",
+    "subject": "Quercetin",
+    "predicate": "is_a",
+    "object": "Senolytics",
+    "context": {
+      "en-US": "Several flavonoids function as senolytics: quercetin and fisetin can both prevent the formation of senescent cells and eliminate existing ones, which is why they are studied for age-related and neurodegenerative disease.",
+      "zh-TW": "多種 flavonoid 可作為 senolytics：quercetin 與 fisetin 既能防止衰老細胞形成，也能清除已存在的衰老細胞，因此被用於老化相關疾病與神經退化疾病的研究。"
+    },
+    "confidence": 0.85,
+    "source_document": "Flavonoid.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "0d11020a0662",
+    "subject": "Flippase",
+    "predicate": "competes_with",
+    "object": "Scramblase",
+    "context": {
+      "en-US": "Flippases (P4-type ATPases such as ATP11C/CDC50A) pump phosphatidylserine and phosphatidylethanolamine from the outer to the inner membrane leaflet; scramblases act in the opposite direction, so the scramblase/flippase ratio sets the amount of externalized phosphatidylserine.",
+      "zh-TW": "Flippase（P4 型 ATPase，如 ATP11C/CDC50A）將磷脂醯絲胺酸與磷脂醯乙醇胺由外葉運送至內葉；scramblase 則作用方向相反，因此 scramblase/flippase 的比例決定了外顯磷脂醯絲胺酸的量。"
+    },
+    "confidence": 0.9,
+    "source_document": "Flippase.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "5d60949d9597",
+    "subject": "Flippase",
+    "predicate": "maintains",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Flippase activity keeps viable cells Annexin V-negative. In eryptosis, Ca2+ influx activates calpain and scramblase while inactivating flippases, collapsing membrane asymmetry and exposing phosphatidylserine.",
+      "zh-TW": "Flippase 活性使存活細胞維持 Annexin V 陰性。在 eryptosis 中，Ca2+ 內流活化 calpain 與 scramblase 並使 flippase 失活，因而破壞膜不對稱性並外顯磷脂醯絲胺酸。"
+    },
+    "confidence": 0.8,
+    "source_document": "Flippase.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "e3ec40cb8a3d",
+    "subject": "Apoptosis",
+    "predicate": "involves",
+    "object": "Flippase",
+    "context": {
+      "en-US": "During apoptosis, caspase cleavage inactivates the flippase ATP11C while XKR scramblase becomes active, so externalization of the phosphatidylserine eat-me signal depends on shutting the flippase arm down.",
+      "zh-TW": "在 apoptosis 過程中，caspase 切割使 flippase ATP11C 失活，同時 XKR scramblase 被活化，因此磷脂醯絲胺酸這個 eat-me 訊號的外顯，取決於 flippase 一臂的關閉。"
+    },
+    "confidence": 0.85,
+    "source_document": "Flippase.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "65b524845b3e",
+    "subject": "Foam Cells",
+    "predicate": "is_a_type_of",
+    "object": "Macrophages",
+    "context": {
+      "en-US": "Foam cells are lipid-laden macrophages that have accumulated cholesterol and cholesteryl esters in the cytoplasm, giving them a vacuolated 'foamy' morphology. They are the predominant cell type of fatty streaks, the earliest atherosclerotic lesions.",
+      "zh-TW": "Foam cells 是載滿脂質的 macrophages，其細胞質內累積了膽固醇與膽固醇酯，因而呈現空泡狀的「泡沫」外觀。它們是脂肪條紋（最早的動脈粥狀硬化病灶）中的主要細胞類型。"
+    },
+    "confidence": 0.95,
+    "source_document": "Foam Cells.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "c2f50d260f53",
+    "subject": "Foam Cells",
+    "predicate": "marks",
+    "object": "Atherosclerosis",
+    "context": {
+      "en-US": "Foam-cell formation is the hallmark of early atherogenesis: foam-cell necrosis and failed efferocytosis release debris that fuels the necrotic core of advanced plaques and perpetuates inflammation.",
+      "zh-TW": "Foam cell 形成是早期動脈粥狀硬化形成的標誌：foam cell 壞死與凋亡細胞清除失敗會釋出碎片，助長晚期斑塊的壞死核心並 perpetuate 發炎。"
+    },
+    "confidence": 0.9,
+    "source_document": "Foam Cells.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "58436cbc800b",
+    "subject": "Oxidized LDL",
+    "predicate": "leads_to",
+    "object": "Foam Cells",
+    "context": {
+      "en-US": "Macrophages take up oxidized LDL through scavenger receptors such as SR-A and CD36, which unlike the classical LDL receptor are not downregulated by cellular cholesterol content; glycation by methylglyoxal and glucose-derived dicarbonyls on ApoB-100 both oxidizes the particle and makes it a high-affinity scavenger-receptor ligand, so glycated/oxidized LDL is more atherogenic than native LDL.",
+      "zh-TW": "Macrophages 透過 SR-A 與 CD36 等清道夫受體攝取 oxidized LDL；與典型的 LDL 受體不同，這些受體不會因細胞內膽固醇含量而被下調。葡萄糖衍生二羰基與 methylglyoxal 造成的 glycation 作用於 ApoB-100，既氧化顆粒又使其成為高親和力的清道夫受體配體，因此 glycated/oxidized LDL 比原生 LDL 更致動脈粥狀硬化。"
+    },
+    "confidence": 0.9,
+    "source_document": "Foam Cells.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "b07908994d77",
+    "subject": "Cholesterol Efflux",
+    "predicate": "prevents",
+    "object": "Foam Cells",
+    "context": {
+      "en-US": "Cholesterol efflux via ABCA1 and ABCG1 exports cholesterol from macrophages; when it is insufficient, free cholesterol and cholesteryl esters accumulate and foam cells form. Resveratrol restores efflux under oxidative stress by upregulating ABCA1.",
+      "zh-TW": "經由 ABCA1 與 ABCG1 的 cholesterol efflux 會將膽固醇排出 macrophages；當其不足時，游離膽固醇與膽固醇酯累積而形成 foam cells。Resveratrol 可在氧化壓力下藉由上調 ABCA1 恢復 efflux。"
+    },
+    "confidence": 0.9,
+    "source_document": "Foam Cells.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "3ff3fd5d2c15",
+    "subject": "mitoTALENs",
+    "predicate": "contains",
+    "object": "FokI",
+    "context": {
+      "en-US": "mitoTALENs are TALE–FokI nucleases in which the obligate-dimeric FokI cleavage domain is the catalytic module; two monomers must bind adjacent half-sites 5–7 bp apart on mutant mtDNA for the cleavage domains to dimerize and cut.",
+      "zh-TW": "mitoTALENs 是 TALE–FokI 核酸酶，其中 FokI 切割結構域為必需的催化模組；兩個單體必須在突變 mtDNA 上相隔 5–7 bp 結合相鄰半位點，切割結構域才會二聚化並進行切割。"
+    },
+    "confidence": 0.9,
+    "source_document": "FokI.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "3c15ca7287f0",
+    "subject": "mitoZFNs",
+    "predicate": "contains",
+    "object": "FokI",
+    "context": {
+      "en-US": "mitoZFNs fuse zinc-finger DNA-binding modules to the FokI cleavage domain; this was the first mtDNA-editing platform demonstrated in mammalian cells, with a mitochondrial targeting sequence directing the fusion into the matrix.",
+      "zh-TW": "mitoZFNs 將 zinc-finger DNA 結合模組與 FokI 切割結構域融合；這是最早於哺乳動物細胞中證實的 mtDNA 編輯平台，並藉由 mitochondrial targeting sequence 將融合蛋白導引至 matrix。"
+    },
+    "confidence": 0.9,
+    "source_document": "FokI.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "d66f3516bbcc",
+    "subject": "FokI",
+    "predicate": "cleaves",
+    "object": "Mitochondrial DNA",
+    "context": {
+      "en-US": "FokI is a type IIS restriction endonuclease that binds a non-palindromic GGATG recognition site but cleaves DNA nonspecifically 9–13 bp downstream, which is why it is fused to programmable DNA-binding modules to cut mutant mtDNA selectively and shift heteroplasmy toward wild-type genomes.",
+      "zh-TW": "FokI 是一種 type IIS 限制性內切酶，辨識非回文的 GGATG 序列，但在其下游 9–13 bp 處非專一性地切割 DNA；因此它被與可程式化 DNA 結合模組融合，以專一性切割突變 mtDNA 並將 heteroplasmy 轉向野生型基因組。"
+    },
+    "confidence": 0.9,
+    "source_document": "FokI.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "16e844bc38d7",
+    "subject": "FoxM1",
+    "predicate": "inhibits",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Silencing FoxM1 promotes autophagy through the SIRT7/mTOR/IGF2 axis in gastric cancer cells, so FoxM1 normally restrains autophagic induction in this setting.",
+      "zh-TW": "在胃癌細胞中，沉默 FoxM1 會透過 SIRT7/mTOR/IGF2 軸促進 autophagy，因此在此情境下 FoxM1 正常情況下會抑制自噬的誘發。"
+    },
+    "confidence": 0.85,
+    "source_document": "FoxM1.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "62833ec5574d",
+    "subject": "FoxM1",
+    "predicate": "inhibits",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "Silencing FoxM1 engages apoptotic programs in gastric cancer cells. As a master regulator of cell-cycle genes such as cyclin B1, Aurora B, Plk1 and Cdc25, FoxM1 supports proliferation and mitotic spindle integrity and thereby opposes cell death.",
+      "zh-TW": "沉默 FoxM1 會啟動胃癌細胞的凋亡程式。FoxM1 作為 cyclin B1、Aurora B、Plk1 與 Cdc25 等細胞週期基因的主調控因子，支撐增殖與紡錘體完整性，因而抵抗細胞死亡。"
+    },
+    "confidence": 0.85,
+    "source_document": "FoxM1.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "80f8818d98a7",
+    "subject": "FoxM1",
+    "predicate": "is_overexpressed_in",
+    "object": "Cancer",
+    "context": {
+      "en-US": "FoxM1 is overexpressed in a broad range of carcinomas and correlates with proliferation, chemoresistance and poor prognosis; it also promotes senescence bypass and EMT, making it an oncology target complicated by its physiological indispensability in tissue regeneration.",
+      "zh-TW": "FoxM1 在廣泛的 carcinomas 中過度表現，並與增殖、化療抗藥性與不良預後相關；它也促進衰老逃逸與 EMT，因此成為腫瘤學標靶，但其參與組織再生的生理必要性使抑制策略更為複雜。"
+    },
+    "confidence": 0.9,
+    "source_document": "FoxM1.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "27b8d413d386",
+    "subject": "SIRT7",
+    "predicate": "regulates",
+    "object": "FoxM1",
+    "context": {
+      "en-US": "SIRT7 negatively regulates FoxM1-driven proliferation via mTOR/IGF2 signaling, integrating sirtuin activity with growth signaling.",
+      "zh-TW": "SIRT7 透過 mTOR/IGF2 訊號負向調控 FoxM1 驅動的增殖，將 sirtuin 活性與生長訊號整合在一起。"
+    },
+    "confidence": 0.85,
+    "source_document": "FoxM1.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "6ffcadb3eb67",
+    "subject": "Akt",
+    "predicate": "phosphorylates",
+    "object": "FoxO1",
+    "context": {
+      "en-US": "Under nutrient-rich conditions insulin and IGF1 activate the Akt pathway; Akt phosphorylates FOXO1, exporting it from the nucleus to the cytoplasm and inhibiting its transcriptional activity. This Akt-mediated suppression of FOXO1 is a main route by which insulin inhibits autophagy.",
+      "zh-TW": "在營養充足的條件下，insulin 與 IGF1 會活化 Akt 路徑；Akt 磷酸化 FOXO1，使其由細胞核輸出至細胞質並抑制其轉錄活性。這條 Akt 介導的 FOXO1 抑制途徑，是 insulin 抑制 autophagy 的主要方式之一。"
+    },
+    "confidence": 0.95,
+    "source_document": "FoxO1.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "66022905afa9",
+    "subject": "FoxO1",
+    "predicate": "promotes",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "During caloric restriction or intermittent fasting the Akt pathway is downregulated, dephosphorylated FOXO1 translocates to the nucleus and induces autophagy-related genes such as Atg5, Atg8/LC3 and ULK1, promoting gluconeogenesis during starvation.",
+      "zh-TW": "在 caloric restriction 或 intermittent fasting 期間 Akt 路徑被下調，去磷酸化的 FOXO1 轉位至細胞核並誘導 Atg5、Atg8/LC3 與 ULK1 等自噬相關基因，並在飢餓時促進 gluconeogenesis。"
+    },
+    "confidence": 0.9,
+    "source_document": "FoxO1.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "a46fb25c3140",
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "FoxO1",
+    "context": {
+      "en-US": "The LXXLL motif of FOXO1 is indispensable for SIRT1 binding; SIRT1 deacetylation enhances FOXO1's interaction with C/EBPalpha at the adiponectin promoter, raising adiponectin levels and improving insulin sensitivity. In pancreatic beta cells the same deacetylation activates NeuroD and MafA, preserving insulin secretion and beta-cell survival.",
+      "zh-TW": "FOXO1 的 LXXLL motif 對 SIRT1 結合是不可或缺的；SIRT1 介導的去乙醯化可增強 FOXO1 與 C/EBPalpha 在 adiponectin 啟動子上的交互作用，提升 adiponectin 濃度並改善胰島素敏感性。在胰島 β 細胞中，同一去乙醯化作用活化 NeuroD 與 MafA，維持 insulin 分泌與 β 細胞存活。"
+    },
+    "confidence": 0.9,
+    "source_document": "FoxO1.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "1200e2330737",
+    "subject": "Frailty Index",
+    "predicate": "measures",
+    "object": "Frailty",
+    "context": {
+      "en-US": "The clinical frailty index operationalizes frailty as a continuous score over accumulated health deficits; the Whitehead index scores 31 parameters spanning body condition, locomotion and integumentary signs in mice and correlates with biological age.",
+      "zh-TW": "臨床 frailty index 將 frailty 操作化為累積健康缺損的連續分數；Whitehead 指數在小鼠中評分涵蓋身體狀況、運動與皮膚徵象的 31 項參數，並與生物學年齡相關。"
+    },
+    "confidence": 0.9,
+    "source_document": "Frailty Index.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "07b3b59de840",
+    "subject": "Frailty Index",
+    "predicate": "measures",
+    "object": "Healthspan",
+    "context": {
+      "en-US": "The frailty index lets interventional studies test whether pharmacological or genetic interventions improve healthspan rather than lifespan alone. Aged mice given the SLC25A1 inhibitor CTPI2 showed reduced age-associated frailty on this 31-parameter index, linking SASP suppression to measurable healthspan gains.",
+      "zh-TW": "frailty index 讓介入性研究得以檢驗藥理或基因介入是否改善 healthspan，而不只是 lifespan。使用 SLC25A1 抑制劑 CTPI2 的高齡小鼠在此 31 項參數指數上顯示年齡相關 frailty 降低，將 SASP 抑制與可測量的 healthspan 改善連結起來。"
+    },
+    "confidence": 0.85,
+    "source_document": "Frailty Index.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "29b5185a5921",
+    "subject": "Mitochondrial Free Radical Theory of Aging",
+    "predicate": "refines",
+    "object": "Free Radical Theory of Aging",
+    "context": {
+      "en-US": "Harman proposed the free radical theory of aging in 1955, holding that ROS from aerobic respiration cause cumulative oxidative damage; it was later refined as the mitochondrial free radical theory, implicating mitochondria as the primary source and target of ROS.",
+      "zh-TW": "Harman 於 1955 年提出自由基老化理論，主張有氧呼吸產生的 ROS 造成累積性氧化傷害；此理論後來被精煉為粒線體自由基理論，將 mitochondria 視為 ROS 的主要來源與作用標的。"
+    },
+    "confidence": 0.9,
+    "source_document": "Free Radical Theory of Aging.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "099063b0d3f2",
+    "subject": "Mitochondria",
+    "predicate": "produces",
+    "object": "Reactive Oxygen Species",
+    "context": {
+      "en-US": "Mitochondria are identified as the primary source of ROS in the mitochondrial free radical theory of aging, and longer-lived species generally produce less superoxide and H2O2. Validation attempts have yielded mixed results, and the field now views oxidative damage as one of several interconnected hallmarks of aging, with ROS also serving signaling functions.",
+      "zh-TW": "在粒線體自由基老化理論中，mitochondria 被認定為 ROS 的主要來源，且壽命較長的物種通常產生較少的 superoxide 與 H2O2。相關驗證結果參差不一，現今領域已將氧化傷害視為數個相互連結的 aging hallmarks 之一，且 ROS 同時具有訊號功能。"
+    },
+    "confidence": 0.85,
+    "source_document": "Free Radical Theory of Aging.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "54544ca62ed5",
+    "subject": "Oxidative Stress",
+    "predicate": "is_a_component_of",
+    "object": "Hallmarks of Aging",
+    "context": {
+      "en-US": "The field has shifted away from oxidative damage as the sole primary driver of aging, viewing it instead as one of many interconnected hallmarks of aging, partly because antioxidant supplementation and genetic manipulation of antioxidant enzymes have not consistently extended lifespan.",
+      "zh-TW": "領域已不再視氧化傷害為老化的唯一主要驅動力，而是將其視為多個相互連結的 aging hallmarks 之一，部分原因是抗氧化補充與抗氧化酵素的基因操作並未一致地延長 lifespan。"
+    },
+    "confidence": 0.85,
+    "source_document": "Free Radical Theory of Aging.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "73a768050848",
+    "subject": "Fzo",
+    "predicate": "localizes_to",
+    "object": "Outer Mitochondrial Membrane",
+    "context": {
+      "en-US": "Fzo (fuzzy onion) is a Drosophila melanogaster GTPase localized to the outer mitochondrial membrane that mediates mitochondrial fusion, with its HR2 domain engaging trans interactions analogous to MFN1/MFN2 in the intermembrane space.",
+      "zh-TW": "Fzo（fuzzy onion）是定位於粒線體外膜的 Drosophila melanogaster GTPase，介導粒線體融合；其 HR2 結構域在 intermembrane space 中進行類似 MFN1/MFN2 的反式交互作用。"
+    },
+    "confidence": 0.9,
+    "source_document": "Fzo.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "952ae5a340dc",
+    "subject": "MFN1",
+    "predicate": "is_ortholog_of",
+    "object": "Fzo",
+    "context": {
+      "en-US": "MFN1 is a mammalian mitofusin whose ancestral ortholog is the Drosophila protein Fzo, first identified genetically through its fuzzy-onion-like mitochondrial aggregation phenotype; this conservation traces mitochondrial fusion machinery back to the endosymbiotic origin of mitochondria.",
+      "zh-TW": "MFN1 是哺乳類的 mitofusin，其祖先直系同源物為 Drosophila 蛋白 Fzo——該蛋白最早是透過其類似「fuzzy onion」的粒線體聚集表型以遺傳學方式鑑定；這種保守性可將粒線體融合機制追溯至粒線體的內共生起源。"
+    },
+    "confidence": 0.9,
+    "source_document": "Fzo.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "19d206d11eeb",
+    "subject": "MFN2",
+    "predicate": "is_ortholog_of",
+    "object": "Fzo",
+    "context": {
+      "en-US": "MFN2 is the second mammalian mitofusin descended from the same ancestral fusion GTPase as Drosophila Fzo, and like Fzo it tethers and merges mitochondrial membranes from the outer membrane.",
+      "zh-TW": "MFN2 是第二個哺乳類 mitofusin，與 Drosophila Fzo 同源於相同的祖先融合 GTPase；且如 Fzo 一樣，它從外膜側錨定並融合粒線體膜。"
+    },
+    "confidence": 0.9,
+    "source_document": "Fzo.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "72d78b5dd2ab",
+    "subject": "G3BP1",
+    "predicate": "activates",
+    "object": "cGAS-STING Pathway",
+    "context": {
+      "en-US": "G3BP1 is the principal stress-granule scaffold and acts as a cofactor for cGAS: in senescent cells it binds DNA-coated cytoplasmic chromatin fragments and promotes cGAS oligomerization and stable engagement with double-stranded DNA, lowering the activation threshold for cGAS-STING signaling and hence the type-I interferon and NF-kB arms of the SASP.",
+      "zh-TW": "G3BP1 是主要的 stress granule 支架蛋白，並作為 cGAS 的輔因子：在衰老細胞中，它結合被 DNA 包覆的細胞質染色質碎片，促進 cGAS 寡聚化並與雙股 DNA 穩定結合，降低 cGAS-STING 訊號的活化門檻，進而影響 SASP 的第一型干擾素與 NF-κB 分支。"
+    },
+    "confidence": 0.9,
+    "source_document": "G3BP1.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "d208f85a4265",
+    "subject": "G3BP1",
+    "predicate": "is_required_for",
+    "object": "SASP",
+    "context": {
+      "en-US": "Loss of G3BP1 attenuates cGAS-STING signaling and the attendant interferon and chemokine secretion, while stress-granule assembly itself can concentrate and protect senescence-associated transcripts. G3BP1 therefore bridges nuclear dysfunction and CCF release to innate immune signaling, a core upstream trigger of the SASP in oncogene- and therapy-induced senescence.",
+      "zh-TW": "G3BP1 的缺失會減弱 cGAS-STING 訊號及其伴隨的干擾素與趨化因子分泌，而 stress granule 的組裝本身則可濃縮並保護衰老相關轉錄本。因此 G3BP1 將核功能異常與 CCF 釋放橋接到先天免疫訊號，是在 oncogene 誘導與治療誘導衰老中觸發 SASP 的核心上游事件。"
+    },
+    "confidence": 0.9,
+    "source_document": "G3BP1.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "fbae755e7e10",
+    "subject": "TOP1",
+    "predicate": "cooperates_with",
+    "object": "G3BP1",
+    "context": {
+      "en-US": "TOP1 cleavage complexes also license cGAS at cytoplasmic chromatin fragments, cooperating with G3BP1 so that stress-granule scaffolding and DNA-associated enzymatic processing jointly lower the cGAS activation threshold.",
+      "zh-TW": "TOP1 切割複合體同樣能在細胞質染色質碎片上授權 cGAS 的活化，並與 G3BP1 協同，使 stress granule 支架作用與 DNA 相關的酵素處理共同降低 cGAS 的活化門檻。"
+    },
+    "confidence": 0.8,
+    "source_document": "G3BP1.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "a40cf7893560",
+    "subject": "G6PD",
+    "predicate": "stabilizes",
+    "object": "PINK1",
+    "context": {
+      "en-US": "Beyond its canonical metabolic role, G6PD stabilizes PINK1 protein and modulates mitophagy through a mechanism independent of the pentose phosphate pathway's NADPH-generating activity, suggesting a moonlighting or scaffolding function.",
+      "zh-TW": "除了其典型的代謝角色外，G6PD 還能穩定 PINK1 蛋白並透過獨立於 pentose phosphate pathway 之 NADPH 生成活性的機制調節 mitophagy，顯示其具有 moonlighting 或支架性的功能。"
+    },
+    "confidence": 0.9,
+    "source_document": "G6PD.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "0438f58dbafc",
+    "subject": "G6PD",
+    "predicate": "produces",
+    "object": "NADPH",
+    "context": {
+      "en-US": "G6PD is the rate-limiting enzyme of the pentose phosphate pathway, catalyzing oxidation of glucose-6-phosphate to 6-phosphoglucono-delta-lactone while reducing NADP+ to NADPH. The reducing equivalents defend against oxidative stress and support biosynthesis; loss of G6PD activity would compromise both antioxidant defense and the PINK1/Parkin mitophagy axis.",
+      "zh-TW": "G6PD 是 pentose phosphate pathway 的限速酵素，催化葡萄糖-6-磷酸氧化為 6-磷酸葡萄糖酸-δ-內酯，同時將 NADP+ 還原為 NADPH。這些還原力用於抵禦氧化壓力並支持生合成；G6PD 活性喪失會同時損害抗氧化防禦與 PINK1/Parkin 的 mitophagy 軸。"
+    },
+    "confidence": 0.9,
+    "source_document": "G6PD.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "cb8a8ea66a31",
+    "subject": "G6PD",
+    "predicate": "is_a_type_of",
+    "object": "Pentose Phosphate Pathway",
+    "context": {
+      "en-US": "G6PD occupies the rate-limiting position in the pentose phosphate pathway, the oxidative branch that generates NADPH for reductive biosynthesis and glutathione-dependent antioxidant defense.",
+      "zh-TW": "G6PD 在 pentose phosphate pathway 中占據限速位置；該途徑的氧化分支產生 NADPH，供還原性生合成與 glutathione 依賴的抗氧化防禦使用。"
+    },
+    "confidence": 0.75,
+    "source_document": "G6PD.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "476302d01ddf",
+    "subject": "Honokiol",
+    "predicate": "activates",
+    "object": "GABA_A receptor",
+    "context": {
+      "en-US": "Honokiol is a positive allosteric modulator of synaptic and extrasynaptic GABA_A receptors, increasing muscimol binding sites about three-fold and acting at the benzodiazepine site; its effects are far greater at delta-subunit-containing receptors (900-1100% response) than at alpha-beta-gamma receptors, and are blocked by bicuculline and flumazenil.",
+      "zh-TW": "Honokiol 是突觸與外突觸 GABA_A receptor 的正向別構調節劑（positive allosteric modulator），使 muscimol 結合位點數約增加三倍，並作用於 benzodiazepine site；其效應在含 delta 次單元的受體上（900–1100% 反應）遠強於 alpha-beta-gamma 受體，且可被 bicuculline 與 flumazenil 阻斷。"
+    },
+    "confidence": 0.9,
+    "source_document": "GABA_A receptor.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "73bc3cf9c1e3",
+    "subject": "GABA_A receptor",
+    "predicate": "binds",
+    "object": "GABA",
+    "context": {
+      "en-US": "The GABA_A receptor is a pentameric ligand-gated ion channel that mediates most fast inhibitory neurotransmission in the CNS; binding of the endogenous agonist GABA opens its chloride channel and hyperpolarizes the postsynaptic membrane. The benzodiazepine site lies at the alpha-gamma interface.",
+      "zh-TW": "GABA_A receptor 是五聚體配體門控離子通道，介導中樞神經系統大部分快速抑制性神經傳遞；內源性激動劑 GABA 結合後開啟氯離子通道，使突觸後膜過極化。benzodiazepine site 位於 alpha 與 gamma 次單元的介面。"
+    },
+    "confidence": 0.95,
+    "source_document": "GABA_A receptor.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "6041742c7ab0",
+    "subject": "Magnolol",
+    "predicate": "activates",
+    "object": "GABA_A receptor",
+    "context": {
+      "en-US": "Magnolol shares honokiol's positive allosteric modulation of GABA_A receptors, generally slightly less potent, and is used as a neolignan modulator of inhibitory neurotransmission alongside honokiol.",
+      "zh-TW": "Magnolol 與 honokiol 共享對 GABA_A receptor 的正向別構調節作用，效力通常略低，並與 honokiol 一同作為抑制性神經傳遞的 neolignan 調節劑。"
+    },
+    "confidence": 0.85,
+    "source_document": "GABA_A receptor.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "1c2a7f7d5ba2",
+    "subject": "GABPβ1",
+    "predicate": "is_deacetylated_by",
+    "object": "SIRT7",
+    "context": {
+      "en-US": "SIRT7 deacetylates GABPβ1, the DNA-binding beta subunit of the GABP ETS transcription factor complex, facilitating GABP complex formation and transcriptional activation of nuclear-encoded mitochondrial genes; SIRT7 deficiency causes systemic mitochondrial dysfunction with lactate accumulation and cardiac abnormalities.",
+      "zh-TW": "SIRT7 會去乙醯化 GABPβ1——即 GABP 這個 ETS 轉錄因子複合體的 DNA 結合 beta 次單元，促進 GABP 複合體形成並活化核編碼粒線體基因的轉錄；SIRT7 缺失會造成全身性粒線體功能障礙，伴隨乳酸累積與心臟異常。"
+    },
+    "confidence": 0.9,
+    "source_document": "GABPβ1.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "caea42a65978",
+    "subject": "GABPβ1",
+    "predicate": "regulates",
+    "object": "Mitochondrial Biogenesis",
+    "context": {
+      "en-US": "As part of the GABP ETS transcription factor complex, GABPβ1 drives expression of nuclear-encoded mitochondrial genes, making it a transcriptional node for mitochondrial biogenesis whose activity depends on SIRT7-mediated deacetylation.",
+      "zh-TW": "作為 GABP 這個 ETS 轉錄因子複合體的一部分，GABPβ1 驅動核編碼粒線體基因的表現，使其成為 mitochondrial biogenesis 的轉錄節點，而其活性仰賴 SIRT7 介導的去乙醯化。"
+    },
+    "confidence": 0.85,
+    "source_document": "GABPβ1.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "7cd696333d6f",
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "FOXO4",
+    "context": {
+      "en-US": "Hydrogen peroxide-induced acetylation inhibits FOXO4 transactivation, and SIRT1 deacetylation reverses this, restoring FOXO4 activity and enhancing GADD45 alpha expression and resistance to oxidative stress.",
+      "zh-TW": "過氧化氫誘發的乙醯化會抑制 FOXO4 的轉錄活化，而 SIRT1 的去乙醯化可逆轉此現象，恢復 FOXO4 活性並增強 GADD45 alpha 表現與對氧化壓力的抵抗力。"
+    },
+    "confidence": 0.9,
+    "source_document": "GADD45.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "c6fae0b17af6",
+    "subject": "GADD45",
+    "predicate": "is_induced_by",
+    "object": "FOXO4",
+    "context": {
+      "en-US": "GADD45 alpha is a downstream effector of the SIRT1-FOXO4 antioxidant axis: SIRT1-mediated deacetylation restores FOXO4 transactivation so it can drive GADD45 expression, shifting output from apoptosis toward DNA repair and survival under oxidative stress.",
+      "zh-TW": "GADD45 alpha 是 SIRT1–FOXO4 抗氧化軸的下游效應物：SIRT1 介導的去乙醯化恢復 FOXO4 的轉錄活化能力，使其能驅動 GADD45 表現，並在氧化壓力下將輸出由 apoptosis 轉向 DNA 修復與存活。"
+    },
+    "confidence": 0.9,
+    "source_document": "GADD45.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "24fbea27cafe",
+    "subject": "GADD45",
+    "predicate": "promotes",
+    "object": "DNA Repair",
+    "context": {
+      "en-US": "GADD45 alpha promotes nucleotide excision repair by facilitating chromatin access through interaction with PCNA and is required for efficient recovery from DNA damage; it also induces G2/M growth arrest via Cdc2/cyclin B1 inhibition, giving cells time to repair damage.",
+      "zh-TW": "GADD45 alpha 透過與 PCNA 交互作用促進染色質可及性，進而促進核苷酸切除修復，且為 DNA 損傷後有效恢復所必需；它也藉由抑制 Cdc2/cyclin B1 誘導 G2/M 生長阻滯，讓細胞有時間修復損傷。"
+    },
+    "confidence": 0.9,
+    "source_document": "GADD45.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "f19e64fc0167",
+    "subject": "GADD45",
+    "predicate": "is_induced_by",
+    "object": "p53",
+    "context": {
+      "en-US": "GADD45 is a classic p53 transcriptional target as well as a FOXO target, coupling genotoxic sensing to cell-cycle arrest and senescence and sitting within the broader p53/p21 anti-proliferative response.",
+      "zh-TW": "GADD45 既是 p53 的典型轉錄標靶，也是 FOXO 的標靶，將 DNA 損傷感知與細胞週期阻滯、衰老連結起來，並處於 p53/p21 抗增殖反應的更大框架之內。"
+    },
+    "confidence": 0.85,
+    "source_document": "GADD45.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "4f9545e14c7f",
+    "subject": "GAPDH",
+    "predicate": "catalyzes",
+    "object": "Glycolysis",
+    "context": {
+      "en-US": "GAPDH catalyzes the sixth NAD+-dependent oxidation-phosphorylation step of glycolysis, converting glyceraldehyde-3-phosphate to 1,3-bisphosphoglycerate while reducing NAD+ to NADH.",
+      "zh-TW": "GAPDH 催化 glycolysis 中第六個依賴 NAD+ 的氧化磷酸化步驟，將甘油醛-3-磷酸轉為 1,3-二磷酸甘油酸，同時將 NAD+ 還原為 NADH。"
+    },
+    "confidence": 0.95,
+    "source_document": "GAPDH.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "ca19fa372a9e",
+    "subject": "GAPDH",
+    "predicate": "senses",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "GAPDH's catalytic cysteine thiol is a redox sensor: under oxidative stress the enzyme is inhibited by S-nitrosylation, S-glutathionylation and oxidation, throttling glycolysis and signalling metabolic crisis.",
+      "zh-TW": "GAPDH 的催化性半胱胺酸硫醇是一個氧化還原感測器：在氧化壓力下，該酵素會因 S-硝基化、S-麩胱甘肽化與氧化而受抑制，使 glycolysis 減慢並發出代謝危機訊號。"
+    },
+    "confidence": 0.9,
+    "source_document": "GAPDH.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "b9fc95df63ed",
+    "subject": "GAPDH",
+    "predicate": "triggers",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "Oxidatively modified GAPDH translocates to the nucleus, where it binds and activates the apoptosis-inducing factor AIF, triggering caspase-independent apoptosis; nuclear GAPDH accumulation is implicated in neurodegeneration and ischemia-reperfusion injury.",
+      "zh-TW": "經氧化修飾的 GAPDH 會轉位至細胞核，在核內結合並活化 apoptosis-inducing factor（AIF），觸發 caspase 依賴性之外的 apoptosis；GAPDH 的核內累積與神經退化及缺血再灌流傷害有關。"
+    },
+    "confidence": 0.9,
+    "source_document": "GAPDH.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "5b7270c466ef",
+    "subject": "GCN2",
+    "predicate": "phosphorylates",
+    "object": "eIF2α",
+    "context": {
+      "en-US": "GCN2 (EIF2AK4) is one of four mammalian eIF2alpha kinases, activated by uncharged tRNA accumulating during amino acid starvation. It phosphorylates eIF2alpha at Ser51, which attenuates global protein synthesis while promoting translation of stress-responsive mRNAs such as ATF4, mounting the integrated stress response.",
+      "zh-TW": "GCN2（EIF2AK4）是哺乳動物四種 eIF2α kinase 之一，由胺基酸飢餓期間累積的未攜帶胺基酸的 tRNA 活化。它在 Ser51 位點磷酸化 eIF2α，使全域蛋白質合成降低，同時促進 ATF4 等壓力反應 mRNA 的轉譯，啟動 integrated stress response。"
+    },
+    "confidence": 0.95,
+    "source_document": "GCN2.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "3b0d7afd3ca8",
+    "subject": "IDO1",
+    "predicate": "activates",
+    "object": "GCN2",
+    "context": {
+      "en-US": "IDO1-mediated tryptophan depletion activates GCN2 in effector T cells, leading to G1 cell-cycle arrest, induction of apoptotic programs, T-cell anergy and functional inactivation, and Treg differentiation. GCN2 is thus the critical effector translating tryptophan depletion into T-cell growth arrest.",
+      "zh-TW": "IDO1 介導的 tryptophan 耗竭會在效應 T 細胞中活化 GCN2，導致 G1 期細胞週期阻滯、凋亡程式誘導、T 細胞無能與功能失活，以及 Treg 分化。因此 GCN2 是將 tryptophan 耗竭轉譯為 T 細胞生長阻滯的關鍵效應物。"
+    },
+    "confidence": 0.9,
+    "source_document": "GCN2.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "fb643c03063d",
+    "subject": "GCN2",
+    "predicate": "is_required_for",
+    "object": "Protein Restriction",
+    "context": {
+      "en-US": "GCN2 is the archetypal amino-acid-sensing kinase mediating the metabolic response to protein and amino-acid restriction. It senses uncharged tRNAs from restriction of essential amino acids such as tryptophan and valine, whereas reduced leucine instead suppresses mTORC1, providing complementary amino-acid-specific signaling arms.",
+      "zh-TW": "GCN2 是介導蛋白質與胺基酸限制代謝反應的典型胺基酸感測 kinase。它感知由 tryptophan、valine 等 essential amino acids 限制所產生的未攜帶胺基酸的 tRNA，而亮胺酸減少則是抑制 mTORC1，兩者構成互補且具胺基酸專一性的訊號分支。"
+    },
+    "confidence": 0.9,
+    "source_document": "GCN2.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "e8addf5a4028",
+    "subject": "Insulin",
+    "predicate": "induces",
+    "object": "GLUT4",
+    "context": {
+      "en-US": "GLUT4 (SLC2A4) is largely sequestered in intracellular vesicles until insulin binds its receptor and activates IRS/PI3K/Akt signaling, prompting Rab-GTPase-mediated trafficking of GLUT4 vesicles to the plasma membrane where the transporter mediates stereospecific, insulin-dependent glucose uptake in muscle and adipose cells.",
+      "zh-TW": "GLUT4（SLC2A4）在 insulin 結合其受體並活化 IRS/PI3K/Akt 訊號之前，大多被封存在細胞內囊泡中；之後經由 Rab-GTPase 媒介的囊泡運輸，GLUT4 移至細胞膜，在肌肉與脂肪細胞中執行具立體專一性、依賴 insulin 的葡萄糖攝取。"
+    },
+    "confidence": 0.95,
+    "source_document": "GLUT4.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "4cac64763611",
+    "subject": "AMPK",
+    "predicate": "activates",
+    "object": "GLUT4",
+    "context": {
+      "en-US": "AMPK activation by exercise or metformin, and muscle contraction itself, independently stimulate GLUT4 translocation through AMPK/AS160 pathways, providing an insulin-independent route to glucose uptake that underpins exercise-based metabolic therapy.",
+      "zh-TW": "由 exercise 或 metformin 活化的 AMPK，以及肌肉收縮本身，會透過 AMPK/AS160 路徑獨立刺激 GLUT4 的轉位，提供一條不依賴 insulin 的葡萄糖攝取途徑，也是以運動為基礎的代謝治療的基礎。"
+    },
+    "confidence": 0.9,
+    "source_document": "GLUT4.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "34cff448808a",
+    "subject": "GLUT4",
+    "predicate": "impairs",
+    "object": "Insulin Resistance",
+    "context": {
+      "en-US": "Impaired GLUT4 translocation or expression — driven by obesity, ectopic lipid accumulation and inflammation — produces insulin resistance and type 2 diabetes, making GLUT4 trafficking a cornerstone target of metabolic therapy.",
+      "zh-TW": "GLUT4 轉位或表現受損——由肥胖、異位脂肪累積與發炎所驅動——會造成 insulin resistance 與第二型糖尿病，因此 GLUT4 的運輸是代謝治療的核心標的。"
+    },
+    "confidence": 0.85,
+    "source_document": "GLUT4.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "b55b7f05f676",
+    "subject": "GM-CSF",
+    "predicate": "phosphorylates",
+    "object": "BAX",
+    "context": {
+      "en-US": "GM-CSF activates the ERK2 pathway, which phosphorylates BAX at Thr167. This creates a recognition motif for Pin1, which locks BAX in an inactive state, preventing its mitochondrial translocation and protecting cells such as eosinophils from apoptosis.",
+      "zh-TW": "GM-CSF 活化 ERK2 路徑，使 BAX 在 Thr167 被磷酸化。這形成 Pin1 的辨識基序，讓 Pin1 將 BAX 鎖定在不活化狀態，阻止其轉位至粒線體，保護嗜酸性球等細胞免於 apoptosis。"
+    },
+    "confidence": 0.9,
+    "source_document": "GM-CSF.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "84838120720e",
+    "subject": "GM-CSF",
+    "predicate": "recruits",
+    "object": "Macrophages",
+    "context": {
+      "en-US": "GM-CSF is a secreted component of the SASP. In senescent tissues it acts as a chemoattractant and activator that recruits monocytes/macrophages and neutrophils into the microenvironment, bridging senescence to inflammation and immune surveillance.",
+      "zh-TW": "GM-CSF 是 SASP 的分泌性成分。在衰老組織中，它作為趨化與活化因子，招募單核球/macrophages 與 neutrophils 進入微環境，將衰老與發炎及免疫監視連結起來。"
+    },
+    "confidence": 0.9,
+    "source_document": "GM-CSF.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "5281d6715998",
+    "subject": "GM-CSF",
+    "predicate": "measures",
+    "object": "Senolytic Therapy",
+    "context": {
+      "en-US": "Circulating GM-CSF is used as a pharmacodynamic biomarker of senescent-cell burden; its levels fall after senolytic treatment in clinical studies such as diabetic kidney disease, so GM-CSF is measured alongside IL-6 and MMP-9 to assess therapeutic efficacy.",
+      "zh-TW": "循環中的 GM-CSF 被用作衰老細胞負荷的藥效學生物標記；在糖尿病腎病等臨床研究中，senolytic 治療後其濃度會下降，因此 GM-CSF 會與 IL-6、MMP-9 一同被測定以評估療效。"
+    },
+    "confidence": 0.9,
+    "source_document": "GM-CSF.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "05ae3cf059b2",
+    "subject": "GM-CSF",
+    "predicate": "activates",
+    "object": "JAK",
+    "context": {
+      "en-US": "GM-CSF binds a heterodimeric receptor of CD116 alpha chain and the common beta chain CD131 shared with IL-3 and IL-5; receptor engagement activates JAK2 (and to a lesser extent JAK1/TYK2), phosphorylating STAT5 and STAT3 plus MAPK and PI3K/Akt pathways to drive myeloid proliferation and differentiation.",
+      "zh-TW": "GM-CSF 結合由 CD116 alpha 鏈與 IL-3、IL-5 共用的 common beta 鏈 CD131 組成的異二聚體受體；受體活化會啟動 JAK2（以及程度較低的 JAK1/TYK2），磷酸化 STAT5 與 STAT3，並連動 MAPK 與 PI3K/Akt 路徑，驅動髓系細胞的增殖與分化。"
+    },
+    "confidence": 0.9,
+    "source_document": "GM-CSF.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "71430381e79f",
+    "subject": "GSIS",
+    "predicate": "produces",
+    "object": "Insulin",
+    "context": {
+      "en-US": "Glucose-stimulated insulin secretion is the glucose-dependent release of insulin from pancreatic beta cells. After a meal, glucose enters via GLUT2/GLUT1 and is metabolized through glycolysis and mitochondrial oxidation, raising the ATP/ADP ratio; this closes KATP channels, depolarizes the membrane, opens voltage-gated Ca2+ channels and triggers insulin granule exocytosis.",
+      "zh-TW": "Glucose-stimulated insulin secretion 是胰島 β 細胞依葡萄糖濃度釋放 insulin 的過程。餐後葡萄糖經 GLUT2/GLUT1 進入細胞並經 glycolysis 與粒線體氧化代謝，使 ATP/ADP 比值上升，進而關閉 KATP 通道、造成膜去極化、開啟電壓閘控 Ca2+ 通道，並觸發 insulin 顆粒胞吐。"
+    },
+    "confidence": 0.95,
+    "source_document": "GSIS.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "5691a8130e66",
+    "subject": "Insulin Resistance",
+    "predicate": "impairs",
+    "object": "GSIS",
+    "context": {
+      "en-US": "Impairment of glucose-stimulated insulin secretion, driven by insulin resistance, lipotoxicity and oxidative stress, produces glucose intolerance and type 2 diabetes. AMPK and mTOR tune beta-cell mass and secretory capacity, while sirtuins and NAD+ influence insulin secretion and beta-cell survival.",
+      "zh-TW": "由 insulin resistance、lipotoxicity 與氧化壓力造成的 glucose-stimulated insulin secretion 損傷，會導致 glucose intolerance 與第二型糖尿病。AMPK 與 mTOR 調節 β 細胞的量與分泌能力，而 sirtuins 與 NAD+ 則影響 insulin 分泌與 β 細胞存活。"
+    },
+    "confidence": 0.9,
+    "source_document": "GSIS.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "740850bbf423",
+    "subject": "Mitochondria",
+    "predicate": "regulates",
+    "object": "GSIS",
+    "context": {
+      "en-US": "Mitochondrial oxidation of glucose in beta cells generates the ATP signal that drives KATP channel closure and depolarization, making mitochondria the energetic trigger of glucose-stimulated insulin secretion.",
+      "zh-TW": "β 細胞中葡萄糖的粒線體氧化所產生的 ATP 訊號，驅動 KATP 通道關閉與膜去極化，因此 mitochondria 是 glucose-stimulated insulin secretion 的能量觸發點。"
+    },
+    "confidence": 0.85,
+    "source_document": "GSIS.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "21dc5236e086",
+    "subject": "HIF-2α",
+    "predicate": "is_deacetylated_by",
+    "object": "SIRT1",
+    "context": {
+      "en-US": "HIF-2α is deacetylated by SIRT1, which modulates the oxygen-regulated transcription factor's output under hypoxia. Alongside HIF-1α, HIF-2α (EPAS1) controls hypoxic gene programs, and its SIRT1-dependent deacetylation extends the sirtuin network's transcriptional reach beyond the better-characterized HIF-1α axis.",
+      "zh-TW": "HIF-2α 被 SIRT1 去乙醯化，進而調節這個受氧調控的轉錄因子在缺氧下的輸出。HIF-2α（EPAS1）與 HIF-1α 一同控制缺氧基因程式，其依賴 SIRT1 的去乙醯化使 sirtuin 網路的轉錄調控範圍超越較被深入研究的 HIF-1α 軸。"
+    },
+    "confidence": 0.9,
+    "source_document": "HIF-2α.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "9aee791ffab3",
+    "subject": "HIF-2α",
+    "predicate": "is_stabilized_by",
+    "object": "Hypoxia",
+    "context": {
+      "en-US": "HIF-2α is stabilized when oxygen supply falls, allowing this PAS-domain transcription factor to accumulate in the nucleus and drive hypoxic gene programs, including angiogenic responses in vascular endothelium.",
+      "zh-TW": "當氧氣供應下降時 HIF-2α 會被穩定化，使這個 PAS 結構域轉錄因子在細胞核中累積並啟動缺氧基因程式，包括血管內皮中的血管新生反應。"
+    },
+    "confidence": 0.88,
+    "source_document": "HIF-2α.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "62245a58c166",
+    "subject": "HMGCS2",
+    "predicate": "is_activated_by",
+    "object": "SIRT5",
+    "context": {
+      "en-US": "SIRT5 desuccinylates and thereby activates HMGCS2, the rate-limiting mitochondrial enzyme of ketogenesis that converts acetyl-CoA to HMG-CoA. This is a specific instance of SIRT5's broader control of mitochondrial acyl-CoA metabolism during fasting.",
+      "zh-TW": "SIRT5 對 HMGCS2 進行去琥珀醯化並因此將其活化；HMGCS2 是酮體生成的限速粒線體酵素，負責將 acetyl-CoA 轉換為 HMG-CoA。這是 SIRT5 在禁食期間更廣泛調控粒線體醯基輔酶 A 代謝的具體例子。"
+    },
+    "confidence": 0.9,
+    "source_document": "HMGCS2.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "9a5cccac6be8",
+    "subject": "HMGCS2",
+    "predicate": "converts_to",
+    "object": "Ketogenesis",
+    "context": {
+      "en-US": "HMGCS2 catalyzes the committed step of ketogenesis in the mitochondrial matrix, condensing acetyl-CoA into HMG-CoA. Acetyl-CoA supplied by fatty acid oxidation during fasting fuels this ketogenic program.",
+      "zh-TW": "HMGCS2 在粒線體基質中催化酮體生成的承諾步驟，將 acetyl-CoA 縮合為 HMG-CoA。禁食期間由脂肪酸氧化供應的 acetyl-CoA 為這個酮體生成程式提供燃料。"
+    },
+    "confidence": 0.85,
+    "source_document": "HMGCS2.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "f63f4bb8b19c",
+    "subject": "HO-1",
+    "predicate": "is_upregulated_by",
+    "object": "NRF2",
+    "context": {
+      "en-US": "HO-1 is among the most highly inducible antioxidant enzymes because NRF2 binds the antioxidant response element (ARE) in its promoter. NRF2-dependent HO-1 induction is engaged by SIRT1-activating resveratrol and by pharmacological NRF2 activators such as sulforaphane, and it protects cells against oxidative stress, apoptosis, and inflammation.",
+      "zh-TW": "HO-1 是可誘導性最高的抗氧化酵素之一，因為 NRF2 會結合其啟動子上的抗氧化反應元件（ARE）。由 SIRT1 活化的 resveratrol 與 sulforaphane 等藥理型 NRF2 活化劑可誘發 NRF2 相依的 HO-1 表現，進而保護細胞免受氧化壓力、細胞凋亡與發炎傷害。"
+    },
+    "confidence": 0.93,
+    "source_document": "HO-1.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "3c040b695243",
+    "subject": "HO-1",
+    "predicate": "degrades",
+    "object": "Bilirubin",
+    "context": {
+      "en-US": "HO-1 degrades heme by cleaving the porphyrin ring at the α-meso carbon, yielding biliverdin IXα, carbon monoxide, and ferrous iron; biliverdin is then reduced to the potent antioxidant bilirubin. Loss or misregulation of this axis leaves free heme and iron available for Fenton chemistry and hydroxyl-radical generation, worsening oxidative stress.",
+      "zh-TW": "HO-1 在 α-meso 碳處切開卟啉環以分解血基質，產生 biliverdin IXα、一氧化碳與亞鐵離子；biliverdin 隨後被還原成強效抗氧化劑 bilirubin。此軸功能喪失或失調會讓游離血基質與鐵質得以進行 Fenton 化學反應並生成羥基自由基，使氧化壓力惡化。"
+    },
+    "confidence": 0.9,
+    "source_document": "HO-1.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "c2f883640a2a",
+    "subject": "HP1alpha",
+    "predicate": "silences",
+    "object": "LINE-1",
+    "context": {
+      "en-US": "HP1alpha reads the H3K9me3 heterochromatin mark and, when recruited by KAP1 after SIRT6 mono-ADP-ribosylation, packages LINE-1 retrotransposons into repressive heterochromatin. In senescence, declining SIRT6 and RB1 weaken this complex, decompacting LINE-1 loci and permitting retrotransposon transcription that feeds cGAS–STING-driven SASP and inflammaging.",
+      "zh-TW": "HP1alpha 讀取 H3K9me3 異染色質標記，並在 KAP1 經 SIRT6 單 ADP-核糖基化後被招募時，將 LINE-1 逆轉錄轉位子包裝進抑制性異染色質。在細胞衰老時，SIRT6 與 RB1 減少削弱此複合體，使 LINE-1 位點去壓縮並容許轉位子轉錄，進而透過 cGAS–STING 驅動 SASP 與發炎性老化。"
+    },
+    "confidence": 0.92,
+    "source_document": "HP1alpha.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "d0a76ddd5c3a",
+    "subject": "KAP1",
+    "predicate": "recruits",
+    "object": "HP1alpha",
+    "context": {
+      "en-US": "KAP1 bridges heterochromatin machinery to HP1alpha: SIRT6 mono-ADP-ribosylation of KAP1 promotes its interaction with HP1alpha, which then nucleates heterochromatin spreading at LINE-1 promoters. Because recruitment of HP1alpha is gated by KAP1 ribosylation, HP1alpha's silencing activity is tied directly to SIRT6 abundance.",
+      "zh-TW": "KAP1 將異染色質機制與 HP1alpha 連結起來：SIRT6 對 KAP1 的單 ADP-核糖基化促進其與 HP1alpha 互動，HP1alpha 隨後在 LINE-1 啟動子處起始異染色質擴散。由於 HP1alpha 的招募受 KAP1 核糖基化調控，其沉默活性直接與 SIRT6 的含量掛鈎。"
+    },
+    "confidence": 0.9,
+    "source_document": "HP1alpha.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "dfa177149489",
+    "subject": "HRI",
+    "predicate": "phosphorylates",
+    "object": "Integrated Stress Response",
+    "context": {
+      "en-US": "HRI is a core eIF2α kinase of the integrated stress response: it phosphorylates the alpha subunit of eukaryotic initiation factor 2, reducing ternary-complex formation and globally repressing translation so cells conserve resources and limit damaged-protein synthesis. HRI is the principal translator of heme status into translational control.",
+      "zh-TW": "HRI 是整合性壓力反應中的核心 eIF2α 激酶：它磷酸化真核起始因子 2 的 α 次單元，減少三元複合體形成並全面抑制轉譯，使細胞節省資源並減少受損蛋白質的合成。HRI 是將血基質狀態轉譯為轉譯調控的主要節點。"
+    },
+    "confidence": 0.9,
+    "source_document": "HRI.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "590bfee67a97",
+    "subject": "HRI",
+    "predicate": "is_activated_by",
+    "object": "DELE1",
+    "context": {
+      "en-US": "Under mitochondrial proteotoxic stress, the OMA1 protease cleaves DELE1 and the released fragment translocates to the cytosol, where it activates HRI and engages the integrated stress response independently of PERK or GCN2. This branch couples mitochondrial integrity to translational control.",
+      "zh-TW": "在粒線體蛋白毒性壓力下，OMA1 蛋白酶切割 DELE1，釋出的片段轉位至細胞質並活化 HRI，進而獨立於 PERK 或 GCN2 啟動整合性壓力反應。此分支將粒線體完整性與轉譯調控連結起來。"
+    },
+    "confidence": 0.9,
+    "source_document": "HRI.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "f0b0d2ca1494",
+    "subject": "HSL",
+    "predicate": "hydrolyzes",
+    "object": "ATGL",
+    "context": {
+      "en-US": "HSL acts downstream of ATGL in sequential lipolysis: ATGL initiates triacylglycerol breakdown and HSL, the second-step adipocyte lipase, hydrolyzes the resulting diacylglycerol (and cholesteryl esters) to release fatty acids for oxidation, working together with monoacylglycerol lipase to complete triacylglycerol catabolism.",
+      "zh-TW": "HSL 在連續脂解作用中位於 ATGL 下游：ATGL 先啟動三酸甘油酯分解，第二步的脂肪細胞脂肪酶 HSL 再水解所產生的二酸甘油酯（以及膽固醇酯）以釋放脂肪酸供氧化，並與單酸甘油酯脂肪酶共同完成三酸甘油酯的分解。"
+    },
+    "confidence": 0.9,
+    "source_document": "HSL.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "6d3bd4244920",
+    "subject": "HSPA8",
+    "predicate": "interacts_with",
+    "object": "PRDX6",
+    "context": {
+      "en-US": "HSPA8 physically interacts with PRDX6 in senescent cells, as shown by co-immunoprecipitation/MS. Because apigenin binds PRDX6 and inhibits its iPLA2 activity, PRDX6–HSPA8 functional interference is the proposed mechanistic basis of apigenin's senomorphic effect, and the selective HSPA8 inhibitor VER155008 phenocopies that effect.",
+      "zh-TW": "在衰老細胞中，HSPA8 與 PRDX6 存在物理性互動（由共免疫沉澱／質譜證實）。由於 apigenin 會結合 PRDX6 並抑制其 iPLA2 活性，PRDX6–HSPA8 的功能性干擾即被提出為 apigenin  senomorphic（抗衰老作用）效果的機轉基礎，而選擇性 HSPA8 抑制劑 VER155008 可模擬此效果。"
+    },
+    "confidence": 0.9,
+    "source_document": "HSPA8.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "e59267fb522b",
+    "subject": "HSPA8",
+    "predicate": "bridges",
+    "object": "ATM",
+    "context": {
+      "en-US": "HSPA8 is a shared binding partner of the DDR kinase ATM and p38 MAPK, two kinases that transduce signals driving SASP development. Disrupting the HSPA8 interaction with p-ATM and p38 MAPK blocks the conversion of the acute stress-associated phenotype into the chronic SASP, making HSPA8 a senomorphic target that spares senescent cells themselves.",
+      "zh-TW": "HSPA8 是 DNA 損傷反應激酶 ATM 與 p38 MAPK 共同的結合夥伴，這兩個激酶負責傳遞驅動 SASP 形成的訊號。破壞 HSPA8 與 p-ATM 及 p38 MAPK 的互動，可阻斷急性壓力相關表型轉化為慢性 SASP 的過程，使 HSPA8 成為可在不殺死衰老細胞的前提下作用的 senomorphic 標的。"
+    },
+    "confidence": 0.9,
+    "source_document": "HSPA8.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "00561f34b072",
+    "subject": "HSPA8",
+    "predicate": "is_required_for",
+    "object": "Chaperone-Mediated Autophagy",
+    "context": {
+      "en-US": "HSPA8 (HSC70) is the constitutive HSP70-family chaperone that delivers KFERQ-motif client proteins to LAMP-2A at the lysosome in chaperone-mediated autophagy. Because deficient CMA degradation compromises proteostasis and activates signaling that culminates in cellular senescence, HSPA8 is central to both proteostasis and senescence control.",
+      "zh-TW": "HSPA8（HSC70）是恆定表現的 HSP70 家族伴護蛋白，負責在伴護素媒介自噬中將帶有 KFERQ 序列的受質蛋白運送至溶酶體的 LAMP-2A。由於 CMA 降解不足會破壞蛋白恆定性並啟動最終導致細胞衰老的訊號傳遞，HSPA8 同時是蛋白恆定與衰老調控的核心。"
+    },
+    "confidence": 0.92,
+    "source_document": "HSPA8.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "f1a57c8b76b2",
+    "subject": "HTT",
+    "predicate": "causes",
+    "object": "Huntington's Disease",
+    "context": {
+      "en-US": "Huntington's disease is caused by expansion of a CAG repeat to 36 or more repeats in exon 1 of HTT, which inserts a polyglutamine tract into huntingtin's N-terminus. The resulting mutant protein misfolds and aggregates, and the disease is therefore defined by a single gene's repeat expansion.",
+      "zh-TW": "Huntington's disease 是由 HTT 外顯子 1 的 CAG 重複擴增至 36 次以上所造成，該擴增會在 huntingtin 的 N 端插入一段多麩醯胺酸序列。由此產生的突變蛋白錯誤摺疊並聚集，因此此疾病由單一基因的重複擴增所定義。"
+    },
+    "confidence": 0.95,
+    "source_document": "HTT.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "4fd7b0b134a5",
+    "subject": "HTT",
+    "predicate": "impairs",
+    "object": "Mitophagy",
+    "context": {
+      "en-US": "Mutant huntingtin aggregates impair mitophagy, the selective clearance of damaged mitochondria. The same aggregates disrupt mitochondrial trafficking, fission/fusion balance, and bioenergetics, and induce oxidative stress and senescence-like states in striatal neurons — a mechanistic bridge from CAG expansion to neuronal degeneration.",
+      "zh-TW": "突變型 huntingtin 聚集體會損害 mitophagy（選擇性清除受損粒線體的過程）。相同的聚集體也會干擾粒線體運送、分裂／融合平衡與生物能量學，並誘發氧化壓力與類衰老狀態，出現在紋狀體神經元中——這構成從 CAG 擴增通往神經元退化之間的機轉橋樑。"
+    },
+    "confidence": 0.9,
+    "source_document": "HTT.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "01bdd7b6daa6",
+    "subject": "Hamartoma",
+    "predicate": "results_in",
+    "object": "mTORC1",
+    "context": {
+      "en-US": "Hamartomas in mTORopathies are the direct manifestation of mTORC1 hyperactivation: loss-of-function mutations in TSC1 or TSC2 relieve inhibition of Rheb, driving constitutive mTORC1 signaling and benign overgrowths such as cortical tubers, subependymal giant cell astrocytoma, renal angiomyolipoma, and cardiac rhabdomyoma. Unlike an oncogene-induced senescence nevus, the growth is ongoing rather than arrested.",
+      "zh-TW": "mTORopathy 中的 hamartoma 是 mTORC1 過度活化的直接表現：TSC1 或 TSC2 的功能缺失突變解除了對 Rheb 的抑制，造成 mTORC1 訊號組成性活化與良性過度生長，例如皮質結節、室管膜下巨細胞星形細胞瘤、腎血管平滑肌脂肪瘤與心律橫紋肌瘤。與致癌基因誘發衰老的痣不同，這種生長是持續進行而非停滯的。"
+    },
+    "confidence": 0.88,
+    "source_document": "Hamartoma.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "524df58dd1e9",
+    "subject": "Rapamycin",
+    "predicate": "treats",
+    "object": "Hamartoma",
+    "context": {
+      "en-US": "Because a single mutation drives mTOR hyperactivation in these lesions, hamartomas are exceptionally rapamycin-responsive: rapamycin and rapalogs such as everolimus reduce tuber volume and seizure frequency in tuberous sclerosis complex (EXIST-3), making them the prototype for translating mTOR inhibition into the clinic.",
+      "zh-TW": "由於這些病灶由單一突變驅動 mTOR 過度活化，hamartoma 對 rapamycin 極為敏感：rapamycin 與 everolimus 等 rapalog 可在結節性硬化症中縮小結節體積並降低癲癇發作頻率（EXIST-3 試驗），因此它們是把 mTOR 抑制轉譯至臨床的原型。"
+    },
+    "confidence": 0.9,
+    "source_document": "Hamartoma.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "1cddf19d258a",
+    "subject": "HeLa",
+    "predicate": "inactivates",
+    "object": "Cancer",
+    "context": {
+      "en-US": "HeLa cells carry integrated human papillomavirus 18 E6 and E7 oncoproteins that inactivate the p53 and Rb tumor suppressors, which is what allows this cervical adenocarcinoma-derived line to proliferate without control. HeLa therefore serves both as a cancer model and as a foundational tool for cancer biology, and its transformed genotype limits physiological fidelity in experiments.",
+      "zh-TW": "HeLa 細胞帶有整合的 human papillomavirus 18 E6 與 E7 致癌蛋白，它們使 p53 與 Rb 腫瘤抑制因子失去功能，正是這讓這株源自子宮頸腺癌的細胞系得以不受控制地增殖。HeLa 因此既是癌症模型，也是癌症生物學的基礎研究工具，但其轉型化的基因型限制了實驗的生理忠實度。"
+    },
+    "confidence": 0.88,
+    "source_document": "HeLa.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "64ae6e65d10c",
+    "subject": "Hematopoiesis",
+    "predicate": "is_performed_by",
+    "object": "Hematopoietic Stem Cell",
+    "context": {
+      "en-US": "All blood cell lineages are generated by hematopoiesis, a lifelong process carried out in the bone marrow by hematopoietic stem cells that self-renew and differentiate along myeloid and lymphoid paths under transcription factors, cytokines, and epigenetic control, plus metabolic tuning by mTOR and AMPK nutrient sensing. Hematopoiesis thereby sustains oxygen carriage, immunity, and hemostasis.",
+      "zh-TW": "所有血球譜系都由 hematopoiesis 產生；這是一生持續進行、發生於骨髓的過程，由能自我更新並在轉錄因子、細胞激素與表觀遺傳調控下分化成髓系與淋巴系路徑的造血幹細胞執行，並受到 mTOR 與 AMPK 營養感知的代謝調節。Hematopoiesis 藉此維持氧氣運送、免疫與止血功能。"
+    },
+    "confidence": 0.93,
+    "source_document": "Hematopoiesis.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "f79f50cad394",
+    "subject": "Hematopoiesis",
+    "predicate": "declines_with",
+    "object": "Aging",
+    "context": {
+      "en-US": "Hematopoietic output and stem-cell fitness decline with aging, a manifestation of stem cell exhaustion that skews myelopoiesis, impairs lymphopoiesis, and diminishes regenerative capacity. The consequences are immunodeficiency, anemia, and heightened myeloid malignancy risk, and the resulting inflammation intertwines hematopoiesis with inflammaging.",
+      "zh-TW": "隨著老化，造血輸出與幹細胞功能下降，這是幹細胞耗竭的一種表現，會使髓系生成偏移、抑制淋巴系生成並削弱再生能力。後果包括免疫缺陷、貧血與骨髓系惡性腫瘤風險升高，而由此引發的發炎也讓 hematopoiesis 與發炎性老化相互交織。"
+    },
+    "confidence": 0.9,
+    "source_document": "Hematopoiesis.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "54e836df120c",
+    "subject": "Hematopoietic Stem Cell",
+    "predicate": "is_maintained_by",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Hematopoietic stem cells depend on autophagy for maintenance, with the protein Atg7 essential for HSC fitness. Consistent with this, rapamycin treatment restores self-renewal and expansion of aged HSCs, indicating that declining autophagic flux contributes to age-related loss of HSC function and immune aging.",
+      "zh-TW": "造血幹細胞的維持仰賴自噬，其中蛋白質 Atg7 對 HSC 功能至關重要。與此一致，rapamycin 治療可恢復老化 HSC 的自我更新與擴增，顯示自噬通量下降促成 HSC 功能的年齡相關喪失與免疫老化。"
+    },
+    "confidence": 0.9,
+    "source_document": "Hematopoietic Stem Cell.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "56f862bf4cee",
+    "subject": "Hemoglobin",
+    "predicate": "is_found_in",
+    "object": "Erythrocytes",
+    "context": {
+      "en-US": "Hemoglobin is a tetramer of two alpha and two beta chains found in erythrocytes, where each chain carries a heme group whose iron sits in the ferrous (Fe2+) state to reversibly bind oxygen for systemic transport. Oxidation of that iron to the ferric (Fe3+) state yields methemoglobin, which can no longer carry oxygen effectively.",
+      "zh-TW": "Hemoglobin 是由兩條 α 鏈與兩條 β 鏈組成的四聚體，存在於紅血球中；每條鏈都帶有一個血基質基團，其鐵處於亞鐵（Fe2+）狀態，可逆地結合氧氣以在全身運送氧氣。當該鐵被氧化為三價鐵（Fe3+）時即形成 methemoglobin，無法再有效運送氧氣。"
+    },
+    "confidence": 0.9,
+    "source_document": "Hemoglobin.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "6d0f9ee10e2e",
+    "subject": "Methemoglobin",
+    "predicate": "is_derived_from",
+    "object": "Hemoglobin",
+    "context": {
+      "en-US": "Methemoglobin is hemoglobin whose heme iron has been oxidized from the ferrous (Fe2+) to the ferric (Fe3+) state, so it cannot effectively bind or transport oxygen. Accumulation of this oxidized form in blood produces methemoglobinemia and tissue hypoxia.",
+      "zh-TW": "Methemoglobin 是血基質鐵由亞鐵（Fe2+）氧化為三價鐵（Fe3+）的 hemoglobin，因此無法有效結合或運送氧氣。這種氧化態在血液中累積即造成 methemoglobinemia 與組織缺氧。"
+    },
+    "confidence": 0.9,
+    "source_document": "Hemoglobin.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "7a93ffe62a67",
+    "subject": "Hepatic Stellate Cells",
+    "predicate": "drives",
+    "object": "Hepatocellular Carcinoma",
+    "context": {
+      "en-US": "In obesity, gut-microbiota-derived deoxycholic acid induces senescence in hepatic stellate cells, and the resulting SASP output creates a pro-inflammatory, pro-tumorigenic niche that drives hepatocellular carcinoma. Senescent HSC accumulate cytoplasmic DNA because DNASE2 and TREX1 are downregulated, which activates cGAS-STING and NF-κB/IRF3-dependent SASP transcription; STING knockout in mice blunts SASP and attenuates obesity-associated HCC.",
+      "zh-TW": "在肥胖情境下，腸道菌群衍生的 deoxycholic acid 會誘發肝星狀細胞衰老，而隨後產生的 SASP 營造出促發炎、促腫瘤的微環境，進而驅動 hepatocellular carcinoma。衰老 HSC 因 DNASE2 與 TREX1 下調而累積細胞質 DNA，啟動 cGAS-STING 與 NF-κB/IRF3 相依的 SASP 轉錄；在小鼠中敲除 STING 可削弱 SASP 並減輕肥胖相關的 HCC。"
+    },
+    "confidence": 0.9,
+    "source_document": "Hepatic Stellate Cells.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "b5eda6df3ab9",
+    "subject": "Hepatic Stellate Cells",
+    "predicate": "limits",
+    "object": "Fibrosis",
+    "context": {
+      "en-US": "When activated hepatic stellate cells undergo cellular senescence, they cease proliferating and reduce collagen deposition, acting as a self-limiting brake on fibrotic scar formation. The same senescence is double-edged: persistent senescent HSC in chronic obesity instead secrete SASP factors (IL-1β, IL-6, CXCL1, COX-2/PGE2, MMPs) that remodel the liver microenvironment and promote tumor progression.",
+      "zh-TW": "當被活化的肝星狀細胞發生細胞衰老時，它們停止增殖並減少膠原沉積，構成對纖維化疤痕形成的自我限制煞車。然而同一種衰老是雙刃的：在慢性肥胖中持續存在的衰老 HSC 反而分泌 SASP 因子（IL-1β、IL-6、CXCL1、COX-2/PGE2、MMP），重塑肝臟微環境並促進腫瘤進展。"
+    },
+    "confidence": 0.88,
+    "source_document": "Hepatic Stellate Cells.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "9fca71980fba",
+    "subject": "SIRT3",
+    "predicate": "inhibits",
+    "object": "Hepatitis B Virus",
+    "context": {
+      "en-US": "SIRT3 and SIRT6 are downregulated in HBV-positive patients, yet both restrain HBV replication by deacetylating H3K9 on the viral cccDNA minichromosome, which destabilizes the episome that sustains chronic infection. SIRT7 similarly restricts HBV transcription via H3 desuccinylation of cccDNA, making sirtuin-mediated chromatin silencing of the viral minichromosome a promising epigenetic axis for functional HBV cure.",
+      "zh-TW": "SIRT3 與 SIRT6 在 HBV 陽性患者中表現下降，但兩者都能藉由對病毒 cccDNA 小染色體上的 H3K9 進行去乙醯化而抑制 HBV 複製，使支撐慢性感染的 episome 不穩定。SIRT7 同樣透過 cccDNA 的 H3 去琥珀醯化限制 HBV 轉錄，因此以 sirtuin 介導的染色質沉默來對抗病毒小染色體，是實現功能性治愈 HBV 的有前景表觀遺傳軸。"
+    },
+    "confidence": 0.9,
+    "source_document": "Hepatitis B Virus.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "61da89916d95",
+    "subject": "Hepatitis B Virus",
+    "predicate": "leads_to",
+    "object": "Hepatocellular Carcinoma",
+    "context": {
+      "en-US": "Chronic hepatitis B virus infection, which affects over 250 million people and causes more than 800,000 deaths annually, is a major long-term complication pathway to hepatocellular carcinoma, mediated by cirrhosis and by the stable nuclear cccDNA minichromosome that allows the virus to persist.",
+      "zh-TW": "慢性 hepatitis B virus 感染影響超過 2.5 億人，每年造成逾 80 萬人死亡，是通往 hepatocellular carcinoma 的主要長期併發途徑，其媒介為肝硬化，以及使病毒得以持續存在的穩定核內 cccDNA 小染色體。"
+    },
+    "confidence": 0.93,
+    "source_document": "Hepatitis B Virus.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "919e63a80483",
+    "subject": "Hesperetin",
+    "predicate": "restores",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Hesperetin, a citrus flavanone polyphenol (the aglycone of hesperidin), exerts antifibrotic and senomorphic activity by restoring autophagic flux, reducing reactive oxygen species, and suppressing SASP-mediated fibroblast activation. It is therefore grouped with other polyphenol senotherapeutics that counteract the mitochondrial dysfunction/ROS/SASP axis sustaining fibrotic remodeling.",
+      "zh-TW": "Hesperetin 是一種柑橘類黃烷酮多酚（hesperidin 的苷元），透過恢復自噬通量、降低活性氧並抑制 SASP 介導的纖維母細胞活化，發揮抗纖維化與 senomorphic 活性。因此它與其他對抗維持纖維化重塑之粒線體功能障礙／ROS／SASP 軸的多酚類 senotherapeutics 歸為同一群。"
+    },
+    "confidence": 0.9,
+    "source_document": "Hesperetin.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "00cc5dc53c05",
+    "subject": "Hesperetin",
+    "predicate": "suppresses",
+    "object": "SASP",
+    "context": {
+      "en-US": "By reducing oxidative stress and restoring autophagic flux, hesperetin suppresses SASP-mediated fibroblast activation, which is why it is profiled as a preclinical antifibrotic senomorphic in the idiopathic pulmonary fibrosis senescence framework. Its activity remains experimental rather than clinically established.",
+      "zh-TW": "藉由降低氧化壓力並恢復自噬通量，hesperetin 抑制 SASP 介導的纖維母細胞活化，因此在 idiopathic pulmonary fibrosis 的衰老框架中被列為臨床前抗纖維化 senomorphic 藥物。其活性目前仍屬實驗性質，尚未確立臨床療效。"
+    },
+    "confidence": 0.88,
+    "source_document": "Hesperetin.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "f2091fe016b0",
+    "subject": "HMG-CoA reductase",
+    "predicate": "inhibits",
+    "object": "FSP1",
+    "context": {
+      "en-US": "Statins inhibit HMG-CoA reductase, the rate-limiting enzyme of the mevalonate pathway, which reduces mevalonate flux and lowers ubiquinone (CoQ10) availability. Because ubiquinone is the direct substrate of FSP1, CoQ10 depletion collapses FSP1's NAD(P)H-driven radical-trapping arm and sensitizes cells to ferroptosis — paralleling the drop in GPX4 caused by impaired selenocysteine-tRNA maturation.",
+      "zh-TW": "Statins 抑制 mevalonate 途徑的限速酵素 HMG-CoA reductase，使 mevalonate 通量下降並降低 ubiquinone（CoQ10）的可供量。由於 ubiquinone 是 FSP1 的直接受質，CoQ10 耗竭會瓦解 FSP1 由 NAD(P)H 驅動的自由基捕捉能力，使細胞對 ferroptosis 更加敏感——這與 selenocysteine-tRNA 成熟受阻造成的 GPX4 下降效果平行。"
+    },
+    "confidence": 0.9,
+    "source_document": "HMG-CoA reductase.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "994e9603cc51",
+    "subject": "HMG-CoA reductase",
+    "predicate": "produces",
+    "object": "Coenzyme Q10",
+    "context": {
+      "en-US": "The mevalonate pathway, whose committed step is catalyzed by HMG-CoA reductase, supplies coenzyme Q10 (ubiquinone) downstream. Inhibiting HMG-CoA reductase therefore both blocks cholesterol synthesis and depletes CoQ10, a proposed mechanism for statin-associated muscle symptoms and a reason CoQ10 is sometimes co-prescribed.",
+      "zh-TW": "以 HMG-CoA reductase 催化承諾步驟的 mevalonate 途徑，在下游供應 coenzyme Q10（ubiquinone）。因此抑制 HMG-CoA reductase 既阻斷膽固醇合成，也耗竭 CoQ10——這是 statin 相關肌肉症狀的可能機制，也是 CoQ10 有時被合併開立的原因。"
+    },
+    "confidence": 0.92,
+    "source_document": "HMG-CoA reductase.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "1b51965cfe68",
+    "subject": "Statins",
+    "predicate": "inhibits",
+    "object": "HMG-CoA reductase",
+    "context": {
+      "en-US": "Statins are pharmacological inhibitors of HMG-CoA reductase; lowering cholesterol through this target is their primary therapeutic action in cardiovascular disease. The same inhibition is exploited experimentally to sensitize cells and tumors to ferroptosis in combination with GPX4 inhibition.",
+      "zh-TW": "Statins 是 HMG-CoA reductase 的藥理抑制劑；經由此標的降低膽固醇是它在心血管疾病中的主要治療作用。同一種抑制作用也被實驗性地用來與 GPX4 抑制劑併用，使細胞與腫瘤對 ferroptosis 更加敏感。"
+    },
+    "confidence": 0.95,
+    "source_document": "HMG-CoA reductase.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "e00830e61588",
+    "subject": "Senescence",
+    "predicate": "is_a_hallmark_of",
+    "object": "Hallmarks of Aging",
+    "context": {
+      "en-US": "Senescence is one of the twelve hallmarks of aging in the López-Otín framework, classed as an antagonistic response to damage: it limits proliferation after stress but, through the SASP, amplifies inflammaging and altered intercellular communication. Interventions such as senolytics act on this hallmark and thereby on several age-related diseases at once.",
+      "zh-TW": "Senescence 是 López-Otín 框架下十二項老化標記之一，被歸類為對損傷的拮抗性反應：它在壓力後限制增殖，卻透過 SASP 放大發炎性老化與細胞間通訊異常。Senolytics 等介入手段正是作用於此標記，因而可同時影響多種 age-related diseases。"
+    },
+    "confidence": 0.9,
+    "source_document": "Hallmarks of Aging.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "12d60d188472",
+    "subject": "Mitochondrial Dysfunction",
+    "predicate": "is_a_hallmark_of",
+    "object": "Hallmarks of Aging",
+    "context": {
+      "en-US": "Declining bioenergetic and redox function is the mitochondrial dysfunction hallmark of aging, an antagonistic response to damage that nonetheless feeds oxidative stress and genomic instability. Because the hallmarks are deeply interdependent rather than independent, targeting mitochondrial biology can slow several hallmarks at once.",
+      "zh-TW": "生物能量與氧化還原功能衰退構成了老化標記中的 mitochondrial dysfunction，它雖屬對損傷的拮抗性反應，卻會助長氧化壓力與 genomic instability。由於這些標記彼此深度相依而非各自獨立，針對粒線體生物學的介入可同時減緩多項標記。"
+    },
+    "confidence": 0.9,
+    "source_document": "Hallmarks of Aging.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "a0a6857a1ada",
+    "subject": "SIRT1",
+    "predicate": "protects_against",
+    "object": "Heart Failure",
+    "context": {
+      "en-US": "SIRT1 levels fall in advanced failing hearts, and restoring SIRT1 activity is protective: it upregulates MnSOD, thioredoxin-1, and Bcl-xL, reduces p53 acetylation, drives FoxO1 nuclear translocation, lowers cardiomyocyte apoptosis through the NF-κB p65/miR-155/BDNF axis, and restores SERCA2a activity by deacetylating residue K492. The sirtuin network is therefore predominantly protective in the failing heart.",
+      "zh-TW": "在末期衰竭的心臟中 SIRT1 表現量下降，而恢復 SIRT1 活性具有保護作用：它上調 MnSOD、thioredoxin-1 與 Bcl-xL、減少 p53 乙醯化、促進 FoxO1 核轉位、透過 NF-κB p65/miR-155/BDNF 軸降低心肌細胞凋亡，並藉由去乙醯化 K492 殘基恢復 SERCA2a 活性。因此 sirtuin 網路在衰竭心臟中以保護作用為主。"
+    },
+    "confidence": 0.9,
+    "source_document": "Heart Failure.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "888b219cbb1a",
+    "subject": "SIRT6",
+    "predicate": "protects_against",
+    "object": "Heart Failure",
+    "context": {
+      "en-US": "SIRT6 is decreased in chronic heart failure, but its overexpression increases survival of TAC-induced heart failure mice via telomerase upregulation (TERT, TRF1). Together with SIRT1, this makes SIRT6 a cardioprotective sirtuin whose loss accompanies disease progression.",
+      "zh-TW": "SIRT6 在慢性心衰竭中下降，但過量表現可透過端粒酶（TERT、TRF1）上調提高 TAC 誘發心衰竭小鼠的存活率。與 SIRT1 共同顯示 SIRT6 是具有心臟保護作用的 sirtuin，其喪失伴隨疾病進展。"
+    },
+    "confidence": 0.9,
+    "source_document": "Heart Failure.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "2d3e7c3414c0",
+    "subject": "Mitophagy",
+    "predicate": "modulates",
+    "object": "Heart Failure",
+    "context": {
+      "en-US": "Mild activation of the PINK1-Parkin mitophagy pathway prevents heart failure development and alleviates myocardial infarction, whereas excessive mitophagy activation is detrimental — making mitophagy dosage a tunable, non-linear control point in cardiac protection rather than a simple on/off switch.",
+      "zh-TW": "PINK1-Parkin mitophagy 途徑的輕度活化可預防心衰竭發展並減輕心肌梗塞，而過度活化 mitophagy 則有害——這使 mitophagy 的劑量成為心臟保護中可調控且非線性的控制點，而非單純的開／關。"
+    },
+    "confidence": 0.9,
+    "source_document": "Heart Failure.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "a5b714614e84",
+    "subject": "HSP70",
+    "predicate": "inhibits",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "HSP70 protects cells from apoptosis by blocking apoptosome formation, in addition to its role as a chaperone in protein folding and aggregation prevention. Its expression is induced by heat shock, oxidative stress, and proteotoxic stress through HSF1, and it is overexpressed in many cancers and protective in neurodegeneration.",
+      "zh-TW": "HSP70 藉由阻斷 apoptosome 形成來保護細胞免受細胞凋亡，除此之外它還在蛋白質摺疊與防止蛋白聚集上扮演伴護蛋白的角色。其表現由 HSF1 透過熱休克、氧化壓力與蛋白毒性壓力誘發，並在多種癌症中過度表現、於神經退化性疾病中具有保護作用。"
+    },
+    "confidence": 0.9,
+    "source_document": "HSP70.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
+  },
+  {
+    "id": "3a94a1e1049f",
+    "subject": "HSF1",
+    "predicate": "regulates",
+    "object": "HSP70",
+    "context": {
+      "en-US": "HSF1 is the heat-shock transcription factor that induces HSP70 family chaperone expression under heat shock, oxidative stress, and proteotoxic stress. Its activity is regulated by post-translational modification, and altered HSF1 expression is associated with cancer, neurodegeneration, and developmental disorders; SIRT1-mediated deacetylation of HSF1, enhanced by resveratrol, is part of its stress-protective axis.",
+      "zh-TW": "HSF1 是熱休克轉錄因子，在熱休克、氧化壓力與蛋白毒性壓力下誘發 HSP70 家族伴護蛋白的表現。其活性受轉譯後修飾調控，而 HSF1 表現的改變與癌症、神經退化性疾病及發育異常相關；由 resveratrol 強化的 SIRT1 介導之 HSF1 去乙醯化，屬於其抗壓保護軸的一環。"
+    },
+    "confidence": 0.88,
+    "source_document": "HSP70.md",
+    "created": "2026-09-29T16:13:12Z",
+    "updated": "2026-09-29T16:13:12Z"
   }
 ]
