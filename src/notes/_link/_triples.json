@@ -52918,5 +52918,2287 @@
     "source_document": "Deoxycholic Acid.md",
     "created": "2026-09-29T15:58:26Z",
     "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "9198b3ddc5f3",
+    "subject": "EGCG",
+    "predicate": "is_a_type_of",
+    "object": "Catechin",
+    "context": {
+      "en-US": "EGCG (epigallocatechin gallate) is a catechin-class polyphenol and the most abundant polyphenol in green tea, giving the beverage its characteristic antioxidant and potential health-promoting properties.",
+      "zh-TW": "EGCG（Epigallocatechin gallate）屬於兒茶素（catechin）類多酚，是綠茶中含量最豐富的多酚，為綠茶具備抗氧化與潛在健康促進特性的主要來源。"
+    },
+    "confidence": 0.95,
+    "source_document": "EGCG.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "c81c3c38e397",
+    "subject": "EGCG",
+    "predicate": "is_produced_by",
+    "object": "Green tea",
+    "context": {
+      "en-US": "Green tea is the primary dietary source of EGCG, the dominant polyphenol of the beverage. EGCG is abundant in green tea, while its concentration is much lower in fermented teas such as black tea.",
+      "zh-TW": "綠茶是 EGCG 的主要膳食來源，EGCG 為綠茶中含量最高的多酚；在黑茶等發酵茶中，其濃度則大幅降低。"
+    },
+    "confidence": 0.95,
+    "source_document": "EGCG.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "6714825f9816",
+    "subject": "EGCG",
+    "predicate": "is_metabolized_by",
+    "object": "COMT",
+    "context": {
+      "en-US": "COMT is the enzyme that metabolizes EGCG. EGCG acts as a COMT inhibitor in animal and cell studies, but human trials at supplemental doses (e.g. 750 mg) show no significant impairment of COMT activity; it is simply broken down more slowly in carriers of the slow COMT variant.",
+      "zh-TW": "COMT 是代謝 EGCG 的酵素。EGCG 在動物與細胞研究中被視為 COMT 抑制劑，但在人類補充劑量（如 750 mg）的研究中並未顯著損害 COMT 活性；帶有 slow COMT 變異者只是 EGCG 的分解速度較慢。"
+    },
+    "confidence": 0.9,
+    "source_document": "EGCG.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "7f5e11b24599",
+    "subject": "EGCG",
+    "predicate": "is_associated_with",
+    "object": "Quercetin",
+    "context": {
+      "en-US": "Quercetin can be taken together with EGCG to increase the bioactive levels of EGCG inside cells, a combination discussed in the context of hormetic polyphenols targeting AMPK and sirtuin pathways.",
+      "zh-TW": "Quercetin 可與 EGCG 併用，以提高 EGCG 在細胞內的活性濃度；此組合在以 AMPK 與 sirtuin 為靶點的荷爾蒙樣多酚脈絡中被討論。"
+    },
+    "confidence": 0.75,
+    "source_document": "EGCG.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "3ae1d63ef90c",
+    "subject": "EGFR",
+    "predicate": "activates",
+    "object": "PI3K",
+    "context": {
+      "en-US": "EGFR (epidermal growth factor receptor, also ErbB-1 or HER1) is a transmembrane receptor tyrosine kinase whose activation engages the PI3K/Akt and MAPK pathways, promoting cell proliferation, survival and differentiation. As a downstream effector, Akt lies beneath EGFR in this cascade.",
+      "zh-TW": "EGFR（上皮生長因子受體，又稱 ErbB-1 或 HER1）是跨膜受體酪胺酸激酶，其活化會啟動 PI3K/Akt 與 MAPK 路徑，促進細胞增殖、存活與分化；Akt 在此級聯中位於 EGFR 下游。"
+    },
+    "confidence": 0.95,
+    "source_document": "EGFR.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "062e522bed9b",
+    "subject": "EGFR",
+    "predicate": "activates",
+    "object": "MAPK",
+    "context": {
+      "en-US": "Activation of EGFR drives the MAPK (RAS-ERK) arm of signalling, which couples growth factor perception at the plasma membrane to nuclear transcription programmes. Oncogenic EGFR overexpression therefore sustains both proliferative and survival signalling.",
+      "zh-TW": "EGFR 的活化驅動 MAPK（RAS-ERK）訊號臂，將細胞膜上的生長因子感知連結至核內轉錄程序；因此 EGFR 的致癌性過度表現會同時維持增殖與存活訊號。"
+    },
+    "confidence": 0.95,
+    "source_document": "EGFR.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "f5532cc73515",
+    "subject": "EGFR",
+    "predicate": "is_overexpressed_in",
+    "object": "triple-negative breast cancer",
+    "context": {
+      "en-US": "EGFR is overexpressed in roughly half of triple-negative breast cancers, and also in non-small-cell lung cancer, glioblastoma and colorectal cancer. This overexpression makes EGFR a major pharmacological target in these tumours.",
+      "zh-TW": "EGFR 在約半數三陰性乳癌中過度表現，在非小細胞肺癌、膠質母細胞瘤與大腸癌中亦然；因此 EGFR 是這些腫瘤的重要藥理標的。"
+    },
+    "confidence": 0.9,
+    "source_document": "EGFR.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "af1582a1be04",
+    "subject": "EGFR",
+    "predicate": "is_inhibited_by",
+    "object": "melittin",
+    "context": {
+      "en-US": "Honeybee venom component melittin suppresses EGFR (and HER2) activation by interfering with phosphorylation of these receptors at the plasma membrane of breast carcinoma cells, and ivermectin combined with the EGFR inhibitor erlotinib achieves synergistic killing.",
+      "zh-TW": "蜂毒成分 melittin 藉由干擾乳癌細胞膜上 EGFR（與 HER2）的磷酸化來抑制其活化；而 ivermectin 與 EGFR 抑制劑 erlotinib 併用可產生協同殺傷作用。"
+    },
+    "confidence": 0.85,
+    "source_document": "EGFR.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "e7ea60849150",
+    "subject": "EGFR",
+    "predicate": "targets",
+    "object": "erlotinib",
+    "context": {
+      "en-US": "EGFR is a validated drug target in oncology: the tyrosine kinase inhibitors erlotinib and gefitinib block its kinase activity, while the monoclonal antibody cetuximab blocks extracellular ligand binding. These are used clinically in EGFR-amplified or mutant tumours.",
+      "zh-TW": "EGFR 是腫瘤學中已驗證的藥物標的：酪胺酸激酶抑制劑 erlotinib 與 gefitinib 阻斷其激酶活性，單株抗體 cetuximab 則阻斷細胞外配體結合；這些藥物已臨床用於 EGFR 擴增或突變的腫瘤。"
+    },
+    "confidence": 0.9,
+    "source_document": "EGFR.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "cfc32065d3c5",
+    "subject": "ELK1",
+    "predicate": "is_a_type_of",
+    "object": "Transcription Factor",
+    "context": {
+      "en-US": "ELK1 is the founding member of the ternary complex factor (TCF) subfamily of ETS-domain transcription factors, alongside ELK3 and ELK4/SAP-1. It controls proliferation, differentiation and the early transcriptional response to growth factor and stress signals.",
+      "zh-TW": "ELK1 是 ETS 結構域轉錄因子中三元複合因子（TCF）次家族的奠基成員，與 ELK3 及 ELK4/SAP-1 並列；它調控增殖、分化，以及生長因子與壓力訊號的早期轉錄反應。"
+    },
+    "confidence": 0.9,
+    "source_document": "ELK1.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "99b46b746881",
+    "subject": "ELK1",
+    "predicate": "is_phosphorylated_by",
+    "object": "ERK",
+    "context": {
+      "en-US": "ERK-mediated phosphorylation at ELK1's C-terminal transcriptional activation domain converts ELK1 from a passive DNA-binding factor into a transcriptional activator, driving rapid induction of immediate-early genes such as FOS and EGR1. Sumoylation of ELK1 can conversely convert it into a repressor.",
+      "zh-TW": "ERK 對 ELK1 C 端轉錄活化區的磷酸化，會使 ELK1 由被動的 DNA 結合因子轉為轉錄活化因子，快速誘導 FOS 與 EGR1 等立即早期基因；相反地，ELK1 的 SUMO 化可將其轉為抑制因子。"
+    },
+    "confidence": 0.95,
+    "source_document": "ELK1.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "e5463e2c8df2",
+    "subject": "ELK1",
+    "predicate": "is_activated_by",
+    "object": "RAS",
+    "context": {
+      "en-US": "RAS is the upstream oncogene that drives the RAS/MAPK/ERK cascade, terminating in ELK1 activation. Deregulated ELK1 activity downstream of constitutive MAPK signalling contributes to oncogenic transcription programmes in cancer.",
+      "zh-TW": "RAS 是上游致癌基因，驅動 RAS/MAPK/ERK 級聯反應並最終活化 ELK1。在組成性 MAPK 訊號之下失調的 ELK1 活性，會促成癌症中的致癌轉錄程序。"
+    },
+    "confidence": 0.85,
+    "source_document": "ELK1.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "eee9f2cc4adf",
+    "subject": "EPR spectroscopy",
+    "predicate": "detects",
+    "object": "Free Radicals",
+    "context": {
+      "en-US": "Electron paramagnetic resonance (EPR) spectroscopy, also called electron spin resonance (ESR), is a technique that detects species bearing unpaired electrons — paramagnetic species including free radicals, transition metal ions and reactive oxygen species. It measures resonant absorption of microwave radiation by unpaired electrons in an external magnetic field.",
+      "zh-TW": "電子順磁共振（EPR）光譜，又稱電子自旋共振（ESR），是一種偵測帶有未成對電子的物種（順磁性物種）的技術，包括自由基、過渡金屬離子與活性氧物種；其原理是測量未成對電子在外加磁場中對微波輻射的共振吸收。"
+    },
+    "confidence": 0.9,
+    "source_document": "EPR spectroscopy.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "7898011981b8",
+    "subject": "EPR spectroscopy",
+    "predicate": "detects",
+    "object": "Reactive Oxygen Species",
+    "context": {
+      "en-US": "EPR spectroscopy is the most direct method for measuring reactive oxygen species in biological systems, quantifying ROS and antioxidant capacity in samples and detecting free radical production in mitochondria. Spin trapping with reagents such as DMPO, POBN or DEPMPO stabilizes short-lived radicals such as superoxide and hydroxyl radical for detection.",
+      "zh-TW": "EPR 光譜是生物系統中測量活性氧物種最直接的方法，可定量樣品中的 ROS 與抗氧化能力，並偵測粒線體中的自由基生成；使用 DMPO、POBN 或 DEPMPO 等自旋捕捉試劑可穩定超氧陰離子與羥基自由基等短壽命自由基以便偵測。"
+    },
+    "confidence": 0.9,
+    "source_document": "EPR spectroscopy.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "0191b13be280",
+    "subject": "EPR spectroscopy",
+    "predicate": "is_associated_with",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "Because EPR quantifies radical production directly at the spin level, it is used to track oxidative stress in disease models and ageing research, and to resolve oxidation states of metal centres such as iron-sulfur clusters, copper centres and manganese.",
+      "zh-TW": "由於 EPR 能在自旋層級直接定量自由基生成，因此可用於追蹤疾病模型中的氧化壓力與老化研究，並解析鐵硫簇、銅中心與錳等金屬中心的氧化態。"
+    },
+    "confidence": 0.85,
+    "source_document": "EPR spectroscopy.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "9c68a4e4da20",
+    "subject": "ER Stress",
+    "predicate": "is_induced_by",
+    "object": "Endoplasmic Reticulum",
+    "context": {
+      "en-US": "ER stress arises when misfolded or unfolded proteins accumulate in the endoplasmic reticulum lumen, overwhelming the organelle's folding capacity. The three proximal sensors activated are PERK, IRE1 and ATF6.",
+      "zh-TW": "當錯誤摺疊或未摺疊蛋白質累積於內質網腔內、超過胞器的摺疊能力時，即引發 ER 壓力；被活化的三個近端感受器為 PERK、IRE1 與 ATF6。"
+    },
+    "confidence": 0.95,
+    "source_document": "ER Stress.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "bbe53215e1bf",
+    "subject": "PERK",
+    "predicate": "phosphorylates",
+    "object": "ATF4",
+    "context": {
+      "en-US": "In the PERK arm of the unfolded protein response, PERK phosphorylates eIF2α, which paradoxically upregulates ATF4 translation while suppressing global protein synthesis. PERK-ATF4 signalling induces the autophagy genes LC3B and Atg5.",
+      "zh-TW": "在未摺疊蛋白反應的 PERK 分支中，PERK 磷酸化 eIF2α，看似矛盾地提升 ATF4 的轉譯同時抑制整體蛋白質合成；PERK-ATF4 訊號並誘導自噬基因 LC3B 與 Atg5。"
+    },
+    "confidence": 0.95,
+    "source_document": "ER Stress.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "b75321cce8c9",
+    "subject": "IRE1",
+    "predicate": "cleaves",
+    "object": "XBP1",
+    "context": {
+      "en-US": "IRE1 senses ER stress and splices XBP1 mRNA to produce the active transcription factor XBP1s. The IRE1-XBP1 arm then activates the autophagy genes Beclin1 and BAG3 as part of the UPR-autophagy intersection.",
+      "zh-TW": "IRE1 感知 ER 壓力並剪接 XBP1 mRNA，產生具活性的轉錄因子 XBP1s；IRE1-XBP1 分支隨後活化自噬基因 Beclin1 與 BAG3，構成 UPR 與自噬的交會點。"
+    },
+    "confidence": 0.95,
+    "source_document": "ER Stress.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "76adf5ea04ab",
+    "subject": "ER Stress",
+    "predicate": "induces",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "All three UPR arms (PERK, IRE1, ATF6) converge on autophagy induction, and autophagic clearance of aggregated proteins and damaged ER fragments resolves the stress — a bidirectional relationship in which ER stress is both a signal that induces autophagy and a state modulated by it.",
+      "zh-TW": "UPR 的三條分支（PERK、IRE1、ATF6）皆收斂於自噬的誘導，而自噬對聚集蛋白與受損內質網片段的清除可解除壓力——形成雙向關係：ER 壓力既是誘導自噬的訊號，其狀態也受自噬調節。"
+    },
+    "confidence": 0.9,
+    "source_document": "ER Stress.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "82563b7d2b18",
+    "subject": "ER Stress",
+    "predicate": "contributes_to",
+    "object": "Neurodegenerative Diseases",
+    "context": {
+      "en-US": "Chronic ER stress and dysregulated autophagy underpin neurodegeneration (Alzheimer's, Parkinson's, Huntington's), type 2 diabetes beta-cell failure, cancer and ischaemia-reperfusion injury. Chemical chaperones such as TUDCA and 4-PBA and UPR modulators such as ISRIB are in preclinical development to relieve it.",
+      "zh-TW": "慢性 ER 壓力與失調的自噬是神經退行性疾病（阿茲海默、帕金森、亨廷頓）、第二型糖尿病 β 細胞衰竭、癌症與缺血再灌流損傷的基礎；以 TUDCA、4-PBA 等化學伴護分子與 ISRIB 等 UPR 調節劑緩解 ER 壓力，目前處於臨床前開發階段。"
+    },
+    "confidence": 0.85,
+    "source_document": "ER Stress.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "97c0f5d60cb2",
+    "subject": "ERGIC",
+    "predicate": "localized_to",
+    "object": "Endoplasmic Reticulum",
+    "context": {
+      "en-US": "The ER-Golgi intermediate compartment (ERGIC) is a tubulovesicular membrane system situated between the endoplasmic reticulum and the Golgi apparatus, serving as a sorting and trafficking hub for newly synthesized secretory and membrane proteins. Because it originates from the ER, it also sits at the interface of ER stress and autophagic clearance.",
+      "zh-TW": "內質網—高基氏體中間區室（ERGIC）是位於內質網與高基氏體之間的管囊狀膜系統，作為新生分泌蛋白與膜蛋白的分選與運輸樞紐；由於源自內質網，它也位於 ER 壓力與自噬清除的交界面上。"
+    },
+    "confidence": 0.9,
+    "source_document": "ERGIC.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "0814c561bcd0",
+    "subject": "STING",
+    "predicate": "translocates_to",
+    "object": "ERGIC",
+    "context": {
+      "en-US": "Upon binding cGAMP, ER-resident STING translocates in COPII-coated vesicles to the ERGIC, where it oligomerizes and recruits TANK binding kinase 1 (TBK1). TBK1 then phosphorylates STING and IRF3, driving IRF3 nuclear translocation and expression of type I interferons and interferon-stimulated genes.",
+      "zh-TW": "在結合 cGAMP 後，位於內質網的 STING 會藉由 COPII 披覆囊泡轉位至 ERGIC，並在該處寡聚化、招募 TANK 結合激酶 1（TBK1）；TBK1 隨後磷酸化 STING 與 IRF3，促使 IRF3 核轉位並表現第一型干擾素與干擾素刺激基因。"
+    },
+    "confidence": 0.95,
+    "source_document": "ERGIC.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "dea21e368b38",
+    "subject": "TBK1",
+    "predicate": "phosphorylates",
+    "object": "IRF3",
+    "context": {
+      "en-US": "TBK1, recruited to ERGIC-resident oligomerized STING, phosphorylates IRF3, driving its nuclear translocation and the expression of type I interferons and interferon-stimulated genes. STING-enriched ERGIC membranes also supply a source for LC3 lipidation, linking cGAS-STING activation to autophagy induction.",
+      "zh-TW": "被招募至 ERGIC 上 STING 寡聚體的 TBK1 會磷酸化 IRF3，促使其核轉位並表現第一型干擾素與干擾素刺激基因；富含 STING 的 ERGIC 膜同時提供 LC3 脂化的膜來源，將 cGAS-STING 活化與自噬誘導連結起來。"
+    },
+    "confidence": 0.95,
+    "source_document": "ERGIC.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "525afd106569",
+    "subject": "ERGIC",
+    "predicate": "is_associated_with",
+    "object": "Endoplasmic Reticulum Stress",
+    "context": {
+      "en-US": "Because the ERGIC originates from the ER, it sits at the interface of ER stress and ER-phagy: organelle stress, including vesicular trafficking defects, can promote STING overactivation at the ERGIC independently of cGAS, and impaired STING degradation at this compartment prolongs signalling. The ERGIC thus integrates DNA sensing and cellular stress inputs into cGAS-STING output.",
+      "zh-TW": "由於 ERGIC 源自內質網，它位於 ER 壓力與 ER 噬體作用（ER-phagy）的交界：胞器壓力（包括囊泡運輸缺陷）可繞過 cGAS 而在 ERGIC 處促進 STING 過度活化，且該區室 STING 降解受損會延長訊號。因此 ERGIC 將 DNA 感知與細胞壓力訊號整合為 cGAS-STING 的輸出。"
+    },
+    "confidence": 0.85,
+    "source_document": "ERGIC.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "3e9b5e13f61b",
+    "subject": "ERK2",
+    "predicate": "phosphorylates",
+    "object": "TFEB",
+    "context": {
+      "en-US": "ERK2 (MAPK1) is a serine/threonine kinase in the MAPK cascade that phosphorylates TFEB at Ser142, promoting its cytosolic retention via 14-3-3 protein binding. This provides a growth factor signalling input to the CLEAR network that opposes calcineurin-mediated dephosphorylation and nuclear translocation.",
+      "zh-TW": "ERK2（MAPK1）是 MAPK 級聯中的絲胺酸／蘇胺酸激酶，會在 Ser142 位點磷酸化 TFEB，經由 14-3-3 蛋白結合促進其滯留於細胞質；這提供了生長因子訊號對 CLEAR 網絡的輸入，與鈣調磷酸酶介導的去磷酸化及核轉位作用相反。"
+    },
+    "confidence": 0.95,
+    "source_document": "ERK2.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "793f434186bf",
+    "subject": "ERK2",
+    "predicate": "phosphorylates",
+    "object": "BAX",
+    "context": {
+      "en-US": "In response to survival cytokines such as GM-CSF, ERK2 phosphorylates BAX at Thr167, creating a pThr-Pro motif recognized by the peptidyl-prolyl isomerase Pin1. Pin1 binding locks BAX in an inactive state, preventing its mitochondrial translocation and oligomerization — a pro-survival switch.",
+      "zh-TW": "在 GM-CSF 等存活細胞激素刺激下，ERK2 會在 Thr167 位點磷酸化 BAX，形成可被肽脯氨醯順反異構酶 Pin1 辨識的 pThr-Pro 基序；Pin1 結合後將 BAX 鎖定於失活態，阻止其粒線體轉位與寡聚化——這是一個促存活開關。"
+    },
+    "confidence": 0.9,
+    "source_document": "ERK2.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "45de6406ad74",
+    "subject": "JNK",
+    "predicate": "overrides",
+    "object": "ERK2",
+    "context": {
+      "en-US": "The ERK2-Pin1 survival switch can be overridden by stress kinases JNK and p38 MAPK, which target the same residue of BAX. ERK2 thus sits in a context-dependent balance with JNK and p38 MAPK that decides whether pro-apoptotic BAX oligomerization proceeds.",
+      "zh-TW": "ERK2-Pin1 的促存活開關可被壓力激酶 JNK 與 p38 MAPK 推翻，後兩者會攻擊 BAX 的同一殘基。因此 ERK2 與 JNK、p38 MAPK 之間存在情境依賴的平衡，用以決定促凋亡的 BAX 寡聚化是否進行。"
+    },
+    "confidence": 0.85,
+    "source_document": "ERK2.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "c4637b3dc74a",
+    "subject": "ERK2",
+    "predicate": "is_a_member_of",
+    "object": "MAPK Signaling",
+    "context": {
+      "en-US": "ERK2 (Extracellular Signal-Regulated Kinase 2) is a member of the MAPK family that transmits signals from cell surface receptors to the nucleus, influencing cell proliferation and survival. It is activated by MEK1/2 upstream of the canonical RAF-MEK-ERK cascade.",
+      "zh-TW": "ERK2（Extracellular Signal-Regulated Kinase 2）是 MAPK 家族的成員，負責將訊號由細胞表面受體傳至細胞核，影響細胞增殖與存活；它在典型的 RAF-MEK-ERK 級聯上游由 MEK1/2 活化。"
+    },
+    "confidence": 0.9,
+    "source_document": "ERK2.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "e658f7956c76",
+    "subject": "ERMIT",
+    "predicate": "is_a_type_of",
+    "object": "Mitophagy",
+    "context": {
+      "en-US": "ERMIT (erythroid mitophagy) is the developmentally programmed elimination of mitochondria during terminal differentiation of erythroblasts into mature erythrocytes — a specialized, hypoxia-independent form of mitophagy, unlike stress-induced HIF-1alpha-driven mitophagy.",
+      "zh-TW": "ERMIT（紅系粒線體自噬）是紅血球母細胞終末分化為成熟紅血球過程中，以發育程式調控的粒線體清除——屬於缺氧無關的特化粒線體自噬形式，不同於 HIF-1α 驅動的壓力誘發型粒線體自噬。"
+    },
+    "confidence": 0.95,
+    "source_document": "ERMIT.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "a73d235fd4c6",
+    "subject": "BNIP3L",
+    "predicate": "drives",
+    "object": "ERMIT",
+    "context": {
+      "en-US": "ERMIT is primarily driven by BNIP3L/NIX, a hypoxia-inducible mitophagy receptor of the Bcl-2 family that is transcriptionally upregulated during erythroid differentiation and localizes to the outer mitochondrial membrane, docking via its LIR motif to LC3/GABARAP proteins on the phagophore. NIX knockout mice develop anemia, showing the requirement is non-redundant.",
+      "zh-TW": "ERMIT 主要由 Bcl-2 家族的缺氧誘導型粒線體自噬受體 BNIP3L/NIX 驅動：它在紅系分化過程中轉錄上调，並定位於粒線體外膜，透過其 LIR 基序與吞噬膜上的 LC3/GABARAP 蛋白對接。NIX 敲除小鼠會發生貧血，顯示此需求不可替代。"
+    },
+    "confidence": 0.95,
+    "source_document": "ERMIT.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "24baadfbd8ec",
+    "subject": "ERMIT",
+    "predicate": "enables",
+    "object": "Erythrocytes",
+    "context": {
+      "en-US": "Erythroid mitophagy removes mitochondria completely, leaving mature mammalian erythrocytes dependent solely on glycolysis for ATP. Physiological consequences include maximized oxygen delivery, prevention of ROS damage in the circulation, and the deformability needed to pass through narrow capillaries.",
+      "zh-TW": "紅系粒線體自噬將粒線體完全清除，使成熟哺乳類紅血球的全套 ATP 完全仰賴糖解作用。其生理後果包括最大化氧氣輸送、避免循環中的 ROS 傷害，以及通過狹窄微血管所需的變形能力。"
+    },
+    "confidence": 0.9,
+    "source_document": "ERMIT.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "ec5208c100e1",
+    "subject": "ERMIT",
+    "predicate": "prevents",
+    "object": "Reactive Oxygen Species",
+    "context": {
+      "en-US": "Mitochondria retained in enucleated erythrocytes would generate damaging reactive oxygen species in the circulation, so their developmental elimination by ERMIT protects red cells from oxidative injury. Defective ERMIT instead causes incomplete mitochondrial retention and premature hemolysis.",
+      "zh-TW": "若去核紅血球中殘留粒線體，便會在循環中產生具損傷性的活性氧物種；因此 ERMIT 的發育性清除可保護紅血球免受氧化傷害。ERMIT 缺失則會造成粒線體殘留與過早溶血。"
+    },
+    "confidence": 0.85,
+    "source_document": "ERMIT.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "ffe44a1e4828",
+    "subject": "ERRalpha",
+    "predicate": "is_a_type_of",
+    "object": "Estrogen Receptor",
+    "context": {
+      "en-US": "ERRalpha (estrogen-related receptor alpha, encoded by ESRRA) is an orphan nuclear receptor closely related to estrogen receptor alpha and beta, but unlike them it is not activated by estrogen. It is constitutively active once expressed and is controlled by PGC-1alpha coactivation and interaction with corepressors such as NRIP1/RIP140.",
+      "zh-TW": "ERRalpha（estrogen-related receptor alpha，由 ESRRA 編碼）是孤立的核受體，與雌激素受體 alpha 及 beta 高度相關，但與其不同的是它不會被雌激素活化。它一旦表現即具組成型活性，並受 PGC-1α 共活化與 NRIP1/RIP140 等共抑制因子調控。"
+    },
+    "confidence": 0.85,
+    "source_document": "ERRalpha.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "f28a8a05d8a8",
+    "subject": "ERRalpha",
+    "predicate": "activates",
+    "object": "Mitochondrial Biogenesis",
+    "context": {
+      "en-US": "ERRalpha transcriptionally activates mitochondrial biogenesis genes, coactivated by PGC-1alpha, and regulates NRF1, NRF2 (GABPA) and TFAM to drive mitochondrial DNA replication and transcription. Metabolic stress such as exercise, caloric restriction and cold exposure upregulates ERRalpha via PGC-1alpha.",
+      "zh-TW": "ERRalpha 在 PGC-1α 共活化下轉錄活化粒線體生物發生相關基因，並調控 NRF1、NRF2（GABPA）與 TFAM，以驅動粒線體 DNA 的複製與轉錄。運動、熱量限制與寒冷暴露等代謝壓力可經由 PGC-1α 上調 ERRalpha。"
+    },
+    "confidence": 0.9,
+    "source_document": "ERRalpha.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "c113706d4bf1",
+    "subject": "ERRalpha",
+    "predicate": "upregulates",
+    "object": "Electron Transport Chain",
+    "context": {
+      "en-US": "ERRalpha upregulates nuclear-encoded oxidative phosphorylation genes, including electron transport chain subunits NDUFS1, COXIV and ATP5B, as part of its master regulation of oxidative phosphorylation and fatty acid oxidation (MCAD, LCAD, CPT1b, PDK4).",
+      "zh-TW": "ERRalpha 上調核基因編碼的氧化磷酸化基因，包括電子傳遞鏈次單元 NDUFS1、COXIV 與 ATP5B；這是其作為氧化磷酸化與脂肪酸氧化（MCAD、LCAD、CPT1b、PDK4）主控因子的一部分。"
+    },
+    "confidence": 0.9,
+    "source_document": "ERRalpha.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "7c88fad248cd",
+    "subject": "ERRalpha",
+    "predicate": "drives",
+    "object": "Breast Cancer",
+    "context": {
+      "en-US": "ERRalpha drives bioenergetic reprogramming in basal-like and triple-negative breast cancer and other high-energy-demand tumours; it is overexpressed in basal-like breast cancer and ERRalpha inhibition reduces tumour growth and metastasis. ERRalpha also mediates insulin sensitivity and hepatic gluconeogenesis.",
+      "zh-TW": "ERRalpha 驅動基底樣與三陰性乳癌以及其他高能量需求腫瘤的生物能量重編程；在基底樣乳癌中 ERRalpha 過度表現，而抑制 ERRalpha 可減少腫瘤生長與轉移。ERRalpha 亦介導胰島素敏感度與肝糖質新生。"
+    },
+    "confidence": 0.85,
+    "source_document": "ERRalpha.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "9e329f26c3ce",
+    "subject": "EXITS",
+    "predicate": "identifies",
+    "object": "Tumor Suppressor Gene",
+    "context": {
+      "en-US": "The EXITS framework (Dunford et al., Nature Genetics 2017) identifies X-chromosome tumor suppressor genes that escape X-inactivation and are therefore biallelically expressed in females, protecting them from single-hit loss. Across >4,100 cancers of 21 tumour types, exactly six of 783 non-pseudoautosomal X genes — ATRX, CNKSR2, DDX3X, KDM5C, KDM6A, MAGEC3 — showed significantly more male-biased loss-of-function mutation.",
+      "zh-TW": "EXITS 架構（Dunford 等，Nature Genetics 2017）辨識出逃脫 X 染色體失活、在女性中呈雙等位表現的 X 染色體腫瘤抑制基因，使其免於單次突變的衝擊。在 21 種腫瘤逾 4,100 例癌症中，783 個非偽自動區 X 基因中恰有六個呈現顯著偏向男性的功能喪失突變：ATRX、CNKSR2、DDX3X、KDM5C、KDM6A、MAGEC3。"
+    },
+    "confidence": 0.9,
+    "source_document": "EXITS.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "1ae883a53fb4",
+    "subject": "EXITS",
+    "predicate": "is_based_on",
+    "object": "X-Chromosome Inactivation",
+    "context": {
+      "en-US": "The mechanistic basis of EXITS is escape from X-chromosome inactivation. Because most X-linked genes are functionally haploid in females after XCI, a single mutation hits both sexes equally; only the escape subset retains two active alleles in females, requiring biallelic mutation or loss of the other chrX for complete inactivation. This was validated in tumors: 23.3% of female tumors with EXITS mutations had lost the other X chromosome versus 6.2% of controls (P = 0.0005).",
+      "zh-TW": "EXITS 的機制基礎是逃脫 X 染色體失活。由於多數 X 連鎖基因在女性 XCI 後為功能單倍體，單次突變對兩性影響相同；唯有逃脫失活的子集在女性中保有兩個活化等位基因，需雙等位突變或失去另一條 chrX 才能完全失活。此點已在腫瘤中獲得驗證：帶有 EXITS 突變的女性腫瘤有 23.3% 失去另一條 X 染色體，對照組僅 6.2%（P = 0.0005）。"
+    },
+    "confidence": 0.9,
+    "source_document": "EXITS.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "0970e8c768b3",
+    "subject": "KDM6A",
+    "predicate": "is_associated_with",
+    "object": "UTY",
+    "context": {
+      "en-US": "Three of the six EXITS genes have functional Y-chromosome homologs: DDX3X/DDX3Y, KDM5C/its Y partner, and KDM6A/UTY. UTY, the Y-encoded paralog of KDM6A, lacks H3K27 demethylase activity but retains non-catalytic tumor-suppressor function, so it can partially compensate for KDM6A loss in males. Mosaic chrY loss with aging and smoking removes that backup, and X-X compensation in females proved stronger than X-Y compensation in males (P = 0.0022).",
+      "zh-TW": "六個 EXITS 基因中有三個具有功能性的 Y 染色體同源基因：DDX3X/DDX3Y、KDM5C/其 Y 伴隨基因，以及 KDM6A/UTY。UTY 為 KDM6A 的 Y 編碼旁系基因，缺乏 H3K27 去甲基化酶活性但保留非催化性的腫瘤抑制功能，因此可在男性中部分補償 KDM6A 的缺失。隨老化與吸菸出現的鑲嵌式 chrY 喪失會移除此備援，而女性的 X-X 補償證實強於男性的 X-Y 補償（P = 0.0022）。"
+    },
+    "confidence": 0.9,
+    "source_document": "EXITS.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "b466efbfd79f",
+    "subject": "EXITS",
+    "predicate": "explains",
+    "object": "Cancer",
+    "context": {
+      "en-US": "The EXITS model explains a portion of the male cancer excess: SEER 2008-2012 data show males carry ~20% excess risk of any cancer (516.6 vs 411.2 per 100,000 person-years) with >=2:1 male predominance for kidney/renal pelvis, bladder, oral cavity and HCC. The authors explicitly note EXITS is not the sole explanation, co-existing with hormonal biology, tobacco/alcohol exposure and other X/Y-linked mechanisms.",
+      "zh-TW": "EXITS 模型解釋了男性癌症過剩的一部分：SEER 2008–2012 資料顯示男性罹患任何癌症的風險約多出 20%（每 10 萬人年 516.6 對 411.2），且腎臟/腎盂、膀胱、口腔與肝細胞癌的男性比率達 >=2:1。作者明確指出 EXITS 並非唯一解釋，它與荷爾蒙生物學、菸酒暴露及其他 X/Y 連鎖機制並存。"
+    },
+    "confidence": 0.8,
+    "source_document": "EXITS.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "2e69bf875b7e",
+    "subject": "EZH2",
+    "predicate": "represses",
+    "object": "SASP",
+    "context": {
+      "en-US": "As an H3K27 methyltransferase, EZH2 deposits H3K27me3 at senescence-associated secretory phenotype (SASP) loci, including IL-6 and IL-8. Depleting or inhibiting EZH2 removes H3K27me3 and derepresses SASP genes — a strategy proposed for cancer immunotherapy — while EZH2 cooperates with DNA methylation to silence the genome.",
+      "zh-TW": "作為 H3K27 甲基轉移酶，EZH2 會在衰老相關分泌表型（SASP）基因座（含 IL-6 與 IL-8）沉積 H3K27me3。移除或抑制 EZH2 會去除 H3K27me3 並解除對 SASP 基因的壓抑——此為癌症免疫治療提出的策略；EZH2 也與 DNA 甲基化協同以沉默基因組。"
+    },
+    "confidence": 0.85,
+    "source_document": "EZH2.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "d2433aa76fc1",
+    "subject": "KDM4",
+    "predicate": "opposes",
+    "object": "EZH2",
+    "context": {
+      "en-US": "KDM4 opposes EZH2 at senescence-activated SASP loci by erasing repressive methylation marks, so the balance between the H3K27 methyltransferase EZH2 and the demethylase KDM4 sets the output of the senescence secretory programme. BRD4 is likewise antagonistic to EZH2 at SASP enhancers.",
+      "zh-TW": "KDM4 在衰老活化的 SASP 基因座上藉由清除抑制性甲基化標記與 EZH2 相拮抗，因此 H3K27 甲基轉移酶 EZH2 與去甲基化酶 KDM4 之間的平衡決定了衰老分泌程序的輸出。BRD4 在 SASP 增強子上同樣與 EZH2 相拮抗。"
+    },
+    "confidence": 0.8,
+    "source_document": "EZH2.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "28d3da878f9f",
+    "subject": "EZH2",
+    "predicate": "regulates",
+    "object": "cGAS-STING Pathway",
+    "context": {
+      "en-US": "EZH2 modulates cGAS-STING-driven senescence phenotypes: the pathway's SASP output depends on the EZH2/H3K27me3 repressive landscape, and EZH2 also restrains NF-kappaB-regulated SASP genes and helps silence LINE-1 retrotransposons whose derepression drives SASP.",
+      "zh-TW": "EZH2 調節 cGAS-STING 驅動的衰老表型：此路徑的 SASP 輸出取決於 EZH2/H3K27me3 的抑制性表觀圖景；EZH2 也可限制 NF-κB 調控的 SASP 基因，並協助沉默 LINE-1 散轉子——其去抑制會驅動 SASP。"
+    },
+    "confidence": 0.8,
+    "source_document": "EZH2.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "8043d5b9a03b",
+    "subject": "EZH2",
+    "predicate": "regulates",
+    "object": "SIRT1",
+    "context": {
+      "en-US": "EZH2 participates directly in the SIRT1-centred cancer epigenome: SIRT1 reduces histone acetylation at the promoters of genes including AR, BRCA1, ESR1, ESR2, EZH2 and EP300, and the resulting chromatin state affects cancer cell apoptosis. EZH2 is therefore both a substrate-context partner of deacetylases and a writer of the same repressive chromatin they establish.",
+      "zh-TW": "EZH2 直接參與以 SIRT1 為核心的癌症表觀基因組：SIRT1 會在 AR、BRCA1、ESR1、ESR2、EZH2 與 EP300 等基因的啟動子上降低組蛋白乙醯化，而所形成的染色質狀態會影響癌細胞凋亡。因此 EZH2 既是去乙醯化酶作用背景下的合作夥伴，也是其所建立抑制性染色質的寫入者。"
+    },
+    "confidence": 0.75,
+    "source_document": "EZH2.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "063261a0ae19",
+    "subject": "Elastin",
+    "predicate": "is_degraded_by",
+    "object": "MMP-12",
+    "context": {
+      "en-US": "MMP-12 (macrophage elastase) is the most potent elastinolytic MMP and the only one that can effectively degrade insoluble elastin at physiological concentrations, making it the principal elastase in macrophage-mediated tissue remodelling. MMP-12-deficient mice are protected from cigarette smoke-induced emphysema, and MMP-12-mediated elastin degradation is a central mechanism of both intrinsic and extrinsic skin ageing.",
+      "zh-TW": "MMP-12（巨噬細胞彈性蛋白酶）是最強的彈性蛋白溶解 MMP，也是唯一能在生理濃度下有效降解不溶性彈性蛋白的 MMP，因此是巨噬細胞介導組織重塑中的主要彈性蛋白酶。MMP-12 缺失小鼠可免於菸草煙誘發的肺氣腫，而 MMP-12 介導的彈性蛋白降解也是內在與外在皮膚老化的核心機制。"
+    },
+    "confidence": 0.95,
+    "source_document": "Elastin.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "aaf4cc6a40c9",
+    "subject": "Elastin",
+    "predicate": "is_precursor_of",
+    "object": "Elastokines",
+    "context": {
+      "en-US": "Proteolytic degradation of elastin releases bioactive elastin-derived peptides (elastokines), including the hexapeptide VGVAPG. They bind the elastin-binding protein (EBP) receptor and upregulate MMP-2, MMP-9 and MMP-12, creating a feed-forward loop — elastin fragmentation, elastokine generation, EBP signalling, MMP upregulation, further elastin degradation.",
+      "zh-TW": "彈性蛋白的蛋白水解降解會釋出具生物活性的彈性蛋白衍生胜肽（elastokines），其中包括六胜肽 VGVAPG。它們結合彈性蛋白結合蛋白（EBP）受體並上調 MMP-2、MMP-9 與 MMP-12，形成正向前饋迴路：彈性蛋白碎裂、elastokine 生成、EBP 訊號、MMP 上調、更多彈性蛋白降解。"
+    },
+    "confidence": 0.9,
+    "source_document": "Elastin.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "a3a5c919ba90",
+    "subject": "Elastin",
+    "predicate": "is_degraded_in",
+    "object": "Emphysema",
+    "context": {
+      "en-US": "Elastin degradation in alveolar walls by MMP-12 and neutrophil elastase is the defining pathological feature of emphysema. Loss of elastic recoil and airway collapse during expiration produce airflow limitation and air trapping, with protease-antiprotease imbalance overwhelming alpha-1 antitrypsin capacity.",
+      "zh-TW": "肺泡壁中的彈性蛋白經 MMP-12 與嗜中性球彈性蛋白酶降解，是肺氣腫的定義性病理特徵。彈性回縮喪失與呼氣時氣道塌陷造成氣流受限與空氣滯留，蛋白酶與抗蛋白酶失衡超過 alpha-1 antitrypsin 的容量。"
+    },
+    "confidence": 0.9,
+    "source_document": "Elastin.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "e8c1997c7869",
+    "subject": "Elastin",
+    "predicate": "contributes_to",
+    "object": "Arterial Stiffness",
+    "context": {
+      "en-US": "Elastin fragmentation by MMP-2, MMP-9 and MMP-12 reduces arterial elastic recoil, contributing to systolic hypertension, left ventricular hypertrophy and cardiovascular risk. Fragmentation is one of the earliest structural changes in atherosclerotic vessel remodelling, and elastin also accumulates AGE crosslinks with age that stiffen its fibres.",
+      "zh-TW": "MMP-2、MMP-9 與 MMP-12 對彈性蛋白的碎裂會降低動脈的彈性回縮，促成收縮期高血壓、左心室肥厚與心血管風險。彈性蛋白碎裂是動脈粥狀硬化血管重塑最早的結構變化之一；隨老化彈性蛋白也累積 AGE 交聯，使其纖維變硬。"
+    },
+    "confidence": 0.9,
+    "source_document": "Elastin.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "5de792d473e9",
+    "subject": "Elastin",
+    "predicate": "accumulates",
+    "object": "Glycation",
+    "context": {
+      "en-US": "Elastin is among the longest-lived proteins in the human body, with an arterial half-life of 70+ years, so it is exceptionally vulnerable to cumulative damage from glycation, oxidation and proteolysis with no efficient repair. AGE crosslinks stiffen elastin fibres, reduce elasticity and make elastin resistant to normal remodelling.",
+      "zh-TW": "彈性蛋白是人體最長壽的蛋白質之一，在動脈中的半衰期超過 70 年，因此對糖化、氧化與蛋白水解所造成的累積傷害特別脆弱，且缺乏有效修復。AGE 交聯會使彈性蛋白纖維變硬、降低彈性，並使其抵抗正常重塑。"
+    },
+    "confidence": 0.85,
+    "source_document": "Elastin.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "80431d707b94",
+    "subject": "Elastokines",
+    "predicate": "is_derived_from",
+    "object": "Elastin",
+    "context": {
+      "en-US": "Elastokines (elastin-derived peptides, EDPs) are bioactive fragments of 6 to ~50 kDa generated by proteolytic cleavage of insoluble elastin. MMP-12 is the most potent generator, releasing fragments including the major elastokine VGVAPG and larger kappa-elastin peptides; MMP-2, MMP-9, MMP-3, neutrophil elastase and cathepsins S and L contribute.",
+      "zh-TW": "Elastokines（彈性蛋白衍生胜肽，EDPs）是不溶性彈性蛋白經蛋白水解切割產生的 6 至約 50 kDa 生物活性片段。MMP-12 是最強的生成者，可釋出包括主要 elastokine VGVAPG 與較大 κ-elastin 胜肽在內的片段；MMP-2、MMP-9、MMP-3、嗜中性球彈性蛋白酶與 cathepsin S、L 亦有貢獻。"
+    },
+    "confidence": 0.95,
+    "source_document": "Elastokines.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "c7ee315e6d3e",
+    "subject": "Elastokines",
+    "predicate": "upregulates",
+    "object": "MMP-12",
+    "context": {
+      "en-US": "Elastokine signalling through the elastin-binding protein (EBP) receptor activates ERK1/2 and p38 MAPK and NF-kappaB, upregulating transcription of MMP-2, MMP-9 and MMP-12. This creates the positive feedback loop elastin degradation to elastokine generation to EBP signalling to MMP upregulation to further elastin degradation, which accelerates tissue deterioration in ageing, COPD, atherosclerosis and photoageing.",
+      "zh-TW": "Elastokine 經由彈性蛋白結合蛋白（EBP）受體的訊號會活化 ERK1/2、p38 MAPK 與 NF-κB，並上調 MMP-2、MMP-9 與 MMP-12 的轉錄。這形成彈性蛋白降解→elastokine 生成→EBP 訊號→MMP 上調→更多彈性蛋白降解的正向迴路，在老化、COPD、動脈粥狀硬化與光老化中加速組織劣化。"
+    },
+    "confidence": 0.9,
+    "source_document": "Elastokines.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "f90a7fab8399",
+    "subject": "Elastokines",
+    "predicate": "promotes",
+    "object": "Inflammation",
+    "context": {
+      "en-US": "Elastokines are chemotactic for monocytes and macrophages, promoting inflammatory cell recruitment to degraded elastic tissue and macrophage activation, which in turn raises MMP-12 output. In the lung they amplify alveolar elastin degradation and contribute to the protease-antiprotease imbalance driving airspace enlargement.",
+      "zh-TW": "Elastokines 對單核球與巨噬細胞具有趨化作用，促進發炎細胞被招募至降解的彈性組織並活化巨噬細胞，後者再提高 MMP-12 的產量。在肺部，它們放大肺泡彈性蛋白降解，並促成造成氣腔擴大的蛋白酶—抗蛋白酶失衡。"
+    },
+    "confidence": 0.9,
+    "source_document": "Elastokines.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "6503731c09b0",
+    "subject": "Elastokines",
+    "predicate": "promotes",
+    "object": "Angiogenesis",
+    "context": {
+      "en-US": "Elastokines promote developmental angiogenesis, where controlled elastin remodelling is required for vascular maturation, and in cancer they drive tumour angiogenesis via EBP-mediated VEGF upregulation while also enabling migration and invasion through degraded elastic barriers.",
+      "zh-TW": "Elastokines 促進發育性血管新生（此時需受控的彈性蛋白重塑以完成血管成熟）；在癌症中，它們藉由 EBP 介導的 VEGF 上調驅動腫瘤血管新生，並透過降解的彈性屏障促進遷移與侵犯。"
+    },
+    "confidence": 0.85,
+    "source_document": "Elastokines.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "0e32048a2d75",
+    "subject": "Elastokines",
+    "predicate": "induces",
+    "object": "Senescence",
+    "context": {
+      "en-US": "Elastokines promote paracrine senescence in neighbouring dermal fibroblasts, and their serum and urinary levels — particularly VGVAPG-containing peptides — serve as biomarkers of elastin degradation in COPD, atherosclerosis, skin ageing and rheumatoid arthritis.",
+      "zh-TW": "Elastokines 會在鄰近的真皮纖維母細胞中誘發旁分泌性衰老；其血清與尿液濃度（尤其是含 VGVAPG 的胜肽）可作為 COPD、動脈粥狀硬化、皮膚老化與類風濕性關節炎中彈性蛋白降解的生物標記。"
+    },
+    "confidence": 0.85,
+    "source_document": "Elastokines.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "95b1c23a0885",
+    "subject": "Electron Transport Chain",
+    "predicate": "is_localized_to",
+    "object": "Mitochondria",
+    "context": {
+      "en-US": "The Electron Transport Chain is a series of protein complexes (Complex I NADH dehydrogenase, Complex II succinate dehydrogenase, Complex III cytochrome bc1, Complex IV cytochrome c oxidase) plus the mobile carriers Coenzyme Q10 and cytochrome c, embedded in the inner mitochondrial membrane.",
+      "zh-TW": "電子傳遞鏈是一系列蛋白質複合體（複合體 I 的 NADH 去氫酶、複合體 II 的琥珀酸去氫酶、複合體 III 的細胞色素 bc1、複合體 IV 的細胞色素 c 氧化酶）加上可移動載體 Coenzyme Q10 與細胞色素 c，嵌於粒線體內膜中。"
+    },
+    "confidence": 0.95,
+    "source_document": "Electron Transport Chain.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "5d58c89ac176",
+    "subject": "Electron Transport Chain",
+    "predicate": "produces",
+    "object": "Reactive Oxygen Species",
+    "context": {
+      "en-US": "Electron leakage from Complex I and Complex III of the ETC generates superoxide, the primary source of reactive oxygen species. Quiescent cells can limit this by lowering overall metabolism and favouring glycolysis over oxidative phosphorylation.",
+      "zh-TW": "電子傳遞鏈中複合體 I 與複合體 III 的電子漏溢會產生超氧陰離子，這是活性氧物種的主要來源。靜止期細胞可藉由降低整體代謝並偏好糖解作用而非氧化磷酸化來減少此產生量。"
+    },
+    "confidence": 0.95,
+    "source_document": "Electron Transport Chain.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "003cb39d2799",
+    "subject": "Electron Transport Chain",
+    "predicate": "produces",
+    "object": "ATP",
+    "context": {
+      "en-US": "The ETC couples electron transfer to proton pumping, establishing the proton motive force across the inner membrane that ATP synthase uses to produce ATP. This coupling of the ETC to ATP synthesis is the process of oxidative phosphorylation.",
+      "zh-TW": "電子傳遞鏈將電子轉移與質子幫浦作用耦合，在內膜兩側建立質子動力勢，供 ATP 合成酶製造 ATP。電子傳遞鏈與 ATP 合成的這種耦合即為氧化磷酸化。"
+    },
+    "confidence": 0.95,
+    "source_document": "Electron Transport Chain.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "4e1b12e44e39",
+    "subject": "Electron Transport Chain",
+    "predicate": "contributes_to",
+    "object": "Aging",
+    "context": {
+      "en-US": "ETC dysfunction — including mutations in individual complexes — is implicated in mitochondrial disease, neurodegeneration and age-related decline, since complexes I and III are the dominant mitochondrial ROS sources whose leakage drives oxidative damage over time.",
+      "zh-TW": "電子傳遞鏈功能失調——包含個別複合體的突變——與粒線體疾病、神經退化及與年齡相關的衰退有關，因為複合體 I 與 III 是粒線體 ROS 的主要來源，其漏溢會隨時間造成氧化傷害。"
+    },
+    "confidence": 0.85,
+    "source_document": "Electron Transport Chain.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "b654c183892e",
+    "subject": "Emphysema",
+    "predicate": "is_a_type_of",
+    "object": "Chronic Obstructive Pulmonary Disease",
+    "context": {
+      "en-US": "Emphysema is a subtype of COPD defined by permanent enlargement of the airspaces distal to the terminal bronchioles with destruction of their walls and no obvious fibrosis. Cigarette smoking is the dominant risk factor, with occupational dusts, air pollution and alpha-1 antitrypsin deficiency also predisposing.",
+      "zh-TW": "肺氣腫是 COPD 的一個型態，其定義為終末細支氣管遠端氣腔永久性擴大且其壁被破壞，並無明顯纖維化。吸菸是主要危險因子，職業粉塵、空氣污染與 alpha-1 antitrypsin 缺乏亦為易感因素。"
+    },
+    "confidence": 0.95,
+    "source_document": "Emphysema.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "f51ddd686603",
+    "subject": "Emphysema",
+    "predicate": "is_driven_by",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "The central mechanism of emphysema is a protease-antiprotease imbalance: cigarette smoke recruits neutrophils and macrophages that release elastase and other proteases that overwhelm local antiproteases and degrade elastin in the alveolar interstitium. Concomitant oxidative stress inactivates antiproteases and amplifies the inflammatory cascade, so loss of elastic recoil and airway collapse produce airflow limitation and air trapping.",
+      "zh-TW": "肺氣腫的核心機制是蛋白酶—抗蛋白酶失衡：香菸煙招募嗜中性球與巨噬細胞，釋放彈性蛋白酶等蛋白酶，超過局部抗蛋白酶的抑制能力並降解肺泡間質中的彈性蛋白。同時存在的氧化壓力會使抗蛋白酶失活並放大發炎級聯反應，導致彈性回縮喪失與呼氣時氣道塌陷，產生氣流受限與空氣滯留。"
+    },
+    "confidence": 0.9,
+    "source_document": "Emphysema.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "b7fd051840de",
+    "subject": "Emphysema",
+    "predicate": "is_protected_against_by",
+    "object": "SIRT1",
+    "context": {
+      "en-US": "Experimental evidence reviewed in sirtuin literature indicates that SIRT1 protects against emphysema through FOXO3-mediated mechanisms, and that sirtuin modulation influences lung injury models — supporting the senolytic/stress-response rationale for protecting alveolar structure.",
+      "zh-TW": "sirtuin 文獻回顧的實驗證據顯示，SIRT1 可經由 FOXO3 介導的機制對肺氣腫提供保護，且 sirtuin 調節可影響肺損傷模型——支持以 senolytic／壓力反應為策略保護肺泡結構。"
+    },
+    "confidence": 0.8,
+    "source_document": "Emphysema.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "90e5d9708546",
+    "subject": "Endogenous Retrovirus",
+    "predicate": "is_a_type_of",
+    "object": "Retrotransposon",
+    "context": {
+      "en-US": "Endogenous retroviruses are retroviral sequences that infected the germline of ancestors and became permanently integrated into host genomes, propagating vertically as inherited elements. They resemble proviruses with gag, pol and env genes but are typically defective and cannot complete replication, comprising roughly 8% of the human genome as HERVs.",
+      "zh-TW": "內源性反轉錄病毒是感染祖先生殖系並永久整合進宿主基因體的反轉錄病毒序列，以垂直方式作為遺傳元件傳遞。它們類似帶有 gag、pol 與 env 基因的前病毒，但通常已缺陷化而無法完成複製，在人類基因體中以 HERV 形式約占 8%。"
+    },
+    "confidence": 0.9,
+    "source_document": "Endogenous Retrovirus.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "3168ef97d986",
+    "subject": "Endogenous Retrovirus",
+    "predicate": "is_silenced_by",
+    "object": "KAP1",
+    "context": {
+      "en-US": "ERVs are normally kept silent by DNA methylation and repressive histone marks, with the corepressor KAP1 and heterochromatin factor HP1alpha (supported by SIRT6 and RB1) packaging ERV/LINE-1 loci into heterochromatin. In senescence, epigenetic erosion — global and focal DNA hypomethylation, loss of H3K9me3 via shifts in SUV39H1/KDM4 and H3K27me3 via EZH2/JMJD3, and heterochromatin decompaction (SADS) — relieves this silencing and permits ERV transcription.",
+      "zh-TW": "ERV 平時受 DNA 甲基化與抑制性組蛋白標記沉默，由共抑制因子 KAP1 與異染色質因子 HP1alpha（並由 SIRT6 與 RB1 支援）將 ERV/LINE-1 基因座包裝成異染色質。在衰老時，表觀遺傳侵蝕——全域與局部的 DNA 低甲基化、經 SUV39H1/KDM4 變化造成的 H3K9me3 喪失、經 EZH2/JMJD3 造成的 H3K27me3 喪失，以及異染色質去壓縮（SADS）——會解除此沉默並允許 ERV 轉錄。"
+    },
+    "confidence": 0.9,
+    "source_document": "Endogenous Retrovirus.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "75e702204569",
+    "subject": "Endogenous Retrovirus",
+    "predicate": "activates",
+    "object": "cGAS-STING Pathway",
+    "context": {
+      "en-US": "ERV RNA is reverse-transcribed into cDNA in the cytoplasm, where it is sensed by cGAS-STING (and RIG-I-like receptors), triggering type I interferon and NF-kappaB-driven SASP. In humans, the HERV subset releases retrovirus-like particles that infect neighbouring cells, spreading senescence — making ERV derepression a conserved, cross-species engine of senescence-associated inflammation and inflammaging.",
+      "zh-TW": "ERV RNA 在細胞質中被反轉錄成 cDNA，隨即由 cGAS-STING（以及 RIG-I 類受體）感知，觸發第一型干擾素與 NF-κB 驅動的 SASP。在人類中，HERV 子群可釋放類反轉錄病毒顆粒感染鄰近細胞，傳播衰老——使 ERV 去抑制成為跨物種保守的衰老相關發炎與 inflammaging 引擎。"
+    },
+    "confidence": 0.9,
+    "source_document": "Endogenous Retrovirus.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "9e13d09c14e6",
+    "subject": "Nucleoside Reverse Transcriptase Inhibitor",
+    "predicate": "suppresses",
+    "object": "Endogenous Retrovirus",
+    "context": {
+      "en-US": "Blocking ERV (and LINE-1) reverse transcription with nucleoside reverse transcriptase inhibitors reduces interferon inflammation in vivo and SASP in cells, supporting repurposing of NRTIs such as emtricitabine as senomorphics targeting the retrotransposon axis.",
+      "zh-TW": "以核苷類反轉錄酶抑制劑阻斷 ERV（與 LINE-1）的反轉錄，可在體內降低干擾素發炎並在細胞中降低 SASP，支持將 emtricitabine 等 NRTI 重新定位為針對散轉子軸的 senomorphic 藥物。"
+    },
+    "confidence": 0.9,
+    "source_document": "Endogenous Retrovirus.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "03857775e343",
+    "subject": "Human Endogenous Retrovirus",
+    "predicate": "is_a_type_of",
+    "object": "Endogenous Retrovirus",
+    "context": {
+      "en-US": "The human subset of endogenous retroviruses is termed HERV. Present across vertebrates, HERVs are normally epigenetically silenced by DNA methylation and repressive histone marks and constitute about 8% of the human genome.",
+      "zh-TW": "內源性反轉錄病毒在人類的子群稱為 HERV。ERV 存在於所有脊椎動物中，平時受 DNA 甲基化與抑制性組蛋白標記的表觀遺傳沉默，約占人類基因體的 8%。"
+    },
+    "confidence": 0.9,
+    "source_document": "Endogenous Retrovirus.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "e4b4f5ff5b0b",
+    "subject": "Endoplasmic Reticulum Stress",
+    "predicate": "is_induced_by",
+    "object": "Aminochrome",
+    "context": {
+      "en-US": "ER stress is a cellular condition in which the folding capacity of the endoplasmic reticulum is overwhelmed. In Parkinson's disease pathogenesis, reactive oxygen species and neuromelanin's toxic precursor aminochrome can trigger it; aminochrome adducts with alpha-synuclein generate neurotoxic oligomers that also trigger mitochondrial dysfunction and oxidative stress.",
+      "zh-TW": "ER 壓力是內質網摺疊能力被超越的細胞狀態。在帕金森氏症的致病過程中，活性氧物種與神經黑質的毒性前驅物 aminochrome 可誘發 ER 壓力；aminochrome 與 α-突觸核蛋白形成的加合物會產生具神經毒性的寡聚體，並可觸發粒線體功能失調與氧化壓力。"
+    },
+    "confidence": 0.85,
+    "source_document": "Endoplasmic Reticulum Stress.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "53ca8a13ad94",
+    "subject": "Endoplasmic Reticulum Stress",
+    "predicate": "contributes_to",
+    "object": "Parkinson's Disease",
+    "context": {
+      "en-US": "ER stress is implicated in Parkinson's disease as a convergent downstream consequence of reactive oxygen species, alpha-synuclein and dopamine-quinone (aminochrome) chemistry, linking proteostasis failure to the characteristic neurodegeneration of the disease.",
+      "zh-TW": "在帕金森氏症中，ER 壓力被認為是活性氧物種、α-突觸核蛋白與多巴胺醌（aminochrome）化學反應的聚合性下游後果，將蛋白穩定性失調與該病特有的神經退化連結起來。"
+    },
+    "confidence": 0.8,
+    "source_document": "Endoplasmic Reticulum Stress.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "215cae28be15",
+    "subject": "Endoplasmic Reticulum",
+    "predicate": "stores",
+    "object": "Calcium",
+    "context": {
+      "en-US": "The endoplasmic reticulum is the principal intracellular store of calcium, releasing it to drive muscle contraction, secretion and apoptosis. Its membrane forms close mitochondria-ER contacts (MAMs) that coordinate calcium and lipid transfer and redox signalling.",
+      "zh-TW": "內質網是細胞內主要的鈣儲存場所，釋放鈣以驅動肌肉收縮、分泌與凋亡。其膜形成緊密的粒線體—內質網接觸（MAM），協調鈣與脂質轉移以及氧化還原訊號。"
+    },
+    "confidence": 0.9,
+    "source_document": "Endoplasmic Reticulum.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "e5318323b28c",
+    "subject": "Endoplasmic Reticulum",
+    "predicate": "triggers",
+    "object": "ER Stress",
+    "context": {
+      "en-US": "Accumulation of misfolded proteins in the ER lumen triggers ER stress and the unfolded protein response. If unresolved, the UPR activates inflammation (via IRE1a-TRAF2-NF-kappaB), oxidative stress and apoptosis (CHOP/TRB3, caspase-12); ER-phagy is coordinated with autophagy through factors such as FAM134B to remove stressed ER compartments.",
+      "zh-TW": "內質網腔內錯誤摺疊蛋白的累積會誘發 ER 壓力與未摺疊蛋白反應（UPR）。若無法緩解，UPR 會活化發炎（經 IRE1α-TRAF2-NF-κB）、氧化壓力與凋亡（CHOP/TRB3、caspase-12）；ER 噬體作用則透過 FAM134B 等因子與自噬協同，以清除受壓力的內質網區室。"
+    },
+    "confidence": 0.95,
+    "source_document": "Endoplasmic Reticulum.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "205964fc6397",
+    "subject": "ER Stress",
+    "predicate": "induces",
+    "object": "SASP",
+    "context": {
+      "en-US": "ER stress and the unfolded protein response are key inducers of the senescence-associated secretory phenotype and of cellular senescence programmes generally, making ER proteostasis a lever for modulating the SASP.",
+      "zh-TW": "ER 壓力與未摺疊蛋白反應是衰老相關分泌表型（SASP）以及一般細胞衰老程序的主要誘導因子，使內質網蛋白穩定性成為調節 SASP 的槓桿。"
+    },
+    "confidence": 0.85,
+    "source_document": "Endoplasmic Reticulum.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "878d1f962ef9",
+    "subject": "Endoplasmic Reticulum",
+    "predicate": "is_associated_with",
+    "object": "Mitochondria",
+    "context": {
+      "en-US": "The ER membrane forms close physical contacts with mitochondria — mitochondria-ER contacts (MAMs) — that couple ER calcium release to mitochondrial metabolism, coordinating calcium and lipid transfer and redox signalling between the two organelles.",
+      "zh-TW": "內質網膜與粒線體形成緊密的物理接觸——粒線體—內質網接觸（MAM）——將內質網的鈣釋放與粒線體代謝耦合，協調兩個胞器間的鈣與脂質轉移及氧化還原訊號。"
+    },
+    "confidence": 0.9,
+    "source_document": "Endoplasmic Reticulum.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "adf592eab4cc",
+    "subject": "Endosymbiosis",
+    "predicate": "explains_origin_of",
+    "object": "Mitochondria",
+    "context": {
+      "en-US": "Endosymbiotic theory holds that an ancestral eukaryotic cell engulfed an aerobic alphaproteobacterium which became a permanent inherited endosymbiont, giving rise to the mitochondrion. Supporting evidence includes circular mitochondrial DNA, the double-membrane architecture, bacterial-style ribosomes and replication, and prokaryotic metabolic pathways such as the TCA cycle retained in the matrix.",
+      "zh-TW": "內共生學說認為，祖先真核細胞吞噬了好氧 α-變形菌，使其成為永久性、可遺傳的內共生體，進而產生了粒線體。支持證據包括環狀的粒線體 DNA、雙層膜構造、細菌式的核糖體與複製方式，以及基質中保留的 TCA 循環等原核代謝途徑。"
+    },
+    "confidence": 0.9,
+    "source_document": "Endosymbiosis.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "3fb694ece56f",
+    "subject": "Mgm1",
+    "predicate": "is_ancestor_of",
+    "object": "OPA1",
+    "context": {
+      "en-US": "The conserved fusion GTPases reflect mitochondrial endosymbiotic heritage: yeast Mgm1 and Drosophila Fzo are ancient ancestors of mammalian OPA1 and the mitofusins MFN1/MFN2, linking the fusion/fission machinery to the bacterial ancestry of the organelle.",
+      "zh-TW": "保守的融合 GTP 酶反映了粒線體的內共生起源：酵母的 Mgm1 與果蠅的 Fzo 是哺乳類 OPA1 與線粒體融合蛋白 MFN1/MFN2 的古老祖先，將融合／分裂機制與該胞器的細菌祖先連結起來。"
+    },
+    "confidence": 0.9,
+    "source_document": "Endosymbiosis.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "0b654aebd0cc",
+    "subject": "Mitochondrial DNA",
+    "predicate": "supports",
+    "object": "Endosymbiosis",
+    "context": {
+      "en-US": "Mitochondrial DNA as a circular genome, together with the outer and inner mitochondrial membranes, bacterial-style ribosomes and replication, is among the strongest molecular evidence for endosymbiotic origin of the mitochondrion.",
+      "zh-TW": "粒線體 DNA 呈環狀，加上粒線體的內外膜、細菌式的核糖體與複製方式，是粒線體內共生起源最強的分子證據之一。"
+    },
+    "confidence": 0.85,
+    "source_document": "Endosymbiosis.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "bb02260669c4",
+    "subject": "Endothelial Cells",
+    "predicate": "expresses",
+    "object": "cGAS-STING Pathway",
+    "context": {
+      "en-US": "Cerebrovascular endothelial cells express cGAS and STING and are active participants in inflammation, hemostasis and immune surveillance. In endothelial cells, cGAS-STING is activated by damaged mtDNA and other cytosolic DNA triggers, inducing type I interferon signalling and pyroptotic cell death.",
+      "zh-TW": "腦血管內皮細胞表現 cGAS 與 STING，是發炎、止血與免疫監視的積極參與者。在內皮細胞中，cGAS-STING 由受損的 mtDNA 及其他細胞質 DNA 觸發物活化，誘發第一型干擾素訊號與細胞焦亡。"
+    },
+    "confidence": 0.9,
+    "source_document": "Endothelial Cells.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "1573c5f65e46",
+    "subject": "STING",
+    "predicate": "disrupts",
+    "object": "Blood-Brain Barrier",
+    "context": {
+      "en-US": "Endothelial STING activation is deleterious to the blood-brain barrier: across models of irradiation, infection and intracerebral hemorrhage, it induces IFN-I signalling and pyroptosis, leading to barrier disruption and leukocyte infiltration, while activated ECs adopt a pro-inflammatory and pro-thrombotic phenotype. By contrast, microglial STING signalling appears protective, preserving hippocampal barrier integrity during aging.",
+      "zh-TW": "內皮 STING 的活化對血腦屏障有害：在照射、感染與腦內出血等模型中，它誘發 IFN-I 訊號與細胞焦亡，造成屏障破壞與白血球浸潤，活化的內皮細胞並轉為促發炎與促血栓表型。相對地，微膠細胞的 STING 訊號似乎是保護性的，能在老化期間維持海馬的屏障完整性。"
+    },
+    "confidence": 0.9,
+    "source_document": "Endothelial Cells.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "348ea049e090",
+    "subject": "Endothelial Cells",
+    "predicate": "constitutes",
+    "object": "Blood-Brain Barrier",
+    "context": {
+      "en-US": "Cerebrovascular endothelial cells are the principal cellular constituent of the blood-brain barrier, joined by tight junctions and working with astrocytes and pericytes to restrict paracellular permeability, forming the neurovascular unit.",
+      "zh-TW": "腦血管內皮細胞是血腦屏障的主要細胞構成，藉由緊密連結相連，並與星狀膠細胞及周細胞共同限制旁細胞通透性，構成神經血管單元。"
+    },
+    "confidence": 0.9,
+    "source_document": "Endothelial Cells.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "df2edd154065",
+    "subject": "CXCL12",
+    "predicate": "drives",
+    "object": "Endothelial Dysfunction",
+    "context": {
+      "en-US": "Senescent endothelial cells secrete CXCL12 as the most highly upregulated SASP factor, and this chemokine drives endothelial dysfunction in an autocrine/paracrine manner. Senescent ECs show reduced NO production (-24%) and increased mitochondrial superoxide (3.5-fold), and are both source and target of circulating CXCL12.",
+      "zh-TW": "衰老內皮細胞分泌 CXCL12 作為上調最明顯的 SASP 因子，此趨化因子以自分泌／旁分泌方式驅動內皮功能失調。衰老內皮細胞的 NO 產量下降 24%，粒線體超氧陰離子增加 3.5 倍，並同時是循環 CXCL12 的來源與受體。"
+    },
+    "confidence": 0.9,
+    "source_document": "Endothelial Cells.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "631c58466698",
+    "subject": "Endothelial Cells",
+    "predicate": "undergoes",
+    "object": "Endothelial-to-Mesenchymal Transition",
+    "context": {
+      "en-US": "Senescent endothelial cells lose endothelial markers CDH5 and PECAM1 and gain mesenchymal markers TGFB1 and ACTA2 — the transdifferentiation of endothelial-to-mesenchymal transition (EndoMT), driven by the SASP and its key factor CXCL12.",
+      "zh-TW": "衰老內皮細胞失去內皮標記 CDH5 與 PECAM1，並獲得間質標記 TGFB1 與 ACTA2——即內皮—間質轉化（EndoMT），由 SASP 及其關鍵因子 CXCL12 驅動。"
+    },
+    "confidence": 0.9,
+    "source_document": "Endothelial Cells.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "911de03be0e2",
+    "subject": "Fisetin",
+    "predicate": "eliminates",
+    "object": "Endothelial Cells",
+    "context": {
+      "en-US": "Fisetin, a senolytic, selectively eliminates senescent endothelial cells in vivo. Among all aortic cell types, endothelial cells showed the greatest reduction in SenMayo senescence signature with fisetin treatment, and senescent EC burden increases 10.7-fold with ageing in the aorta — making ECs the primary senolytic target in the vasculature.",
+      "zh-TW": "Fisetin 作為 senolytic，可在體內選擇性清除衰老內皮細胞。在所有主動脈細胞類型中，內皮細胞經 fisetin 處理後的 SenMayo 衰老簽名降幅最大，且主動脈中衰老內皮細胞的負荷隨老化增加 10.7 倍——使內皮細胞成為血管系統中主要的 senolytic 標的。"
+    },
+    "confidence": 0.9,
+    "source_document": "Endothelial Cells.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "d5142c4098b0",
+    "subject": "Endothelial Dysfunction",
+    "predicate": "is_a_type_of",
+    "object": "Atherosclerosis",
+    "context": {
+      "en-US": "Endothelial dysfunction is a systemic pathological state of the vascular endothelium with reduced nitric oxide bioavailability, impaired vasodilation, increased inflammatory adhesion molecule expression and a pro-thrombotic phenotype. It is an early hallmark of atherosclerosis and cardiovascular disease, and the initiating step in atherogenesis.",
+      "zh-TW": "內皮功能失調是血管內皮的全身性病理狀態，特徵為一氧化氮生物可用度下降、血管舒張功能受損、發炎性黏附分子表現增加與促血栓表型。它是動脈粥狀硬化與心血管疾病的早期標記，也是致粥樣硬化的起始步驟。"
+    },
+    "confidence": 0.85,
+    "source_document": "Endothelial Dysfunction.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "5e6e94a37c91",
+    "subject": "Endothelial Dysfunction",
+    "predicate": "is_driven_by",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "Oxidative stress is the major driver of endothelial dysfunction: peroxynitrite oxidizes tetrahydrobiopterin (BH4) to BH2, causing BH4 deficiency; in the absence of sufficient BH4 eNOS uncouples and its oxygenase domain reduces oxygen to superoxide instead of producing NO. The superoxide reacts with remaining NO (~6.7 x 10^9 M-1 s-1) to form peroxynitrite, which further oxidizes BH4 — a feed-forward loop converting eNOS from protective to pro-oxidant.",
+      "zh-TW": "氧化壓力是內皮功能失調的主要驅動因子：過氧亞硝酸鹽將四氫生物蝶呤（BH4）氧化為 BH2，造成 BH4 缺乏；缺乏足夠 BH4 時 eNOS 發生「解偶聯」，其加氧酶結構域將氧還原為超氧陰離子而非產生 NO。該超氧陰離子會與殘餘 NO（約 6.7 x 10^9 M-1 s-1）反應形成過氧亞硝酸鹽，進一步氧化 BH4——形成將 eNOS 由保護性酵素轉為促氧化劑的正向迴路。"
+    },
+    "confidence": 0.9,
+    "source_document": "Endothelial Dysfunction.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "668cc3237595",
+    "subject": "NADPH Oxidase",
+    "predicate": "produces",
+    "object": "Superoxide Radicals",
+    "context": {
+      "en-US": "NADPH oxidase, particularly the NOX1 and NOX4 isoforms in endothelial cells, generates superoxide in response to angiotensin II, TNF-alpha and mechanical shear stress. NOX-derived hydrogen peroxide can stabilize HIF-1alpha and induce hypoxic gene programmes, while XO-derived superoxide upregulates NOX expression — a non-additive network of endothelial ROS sources.",
+      "zh-TW": "NADPH 氧化酶（尤其是內皮細胞中的 NOX1 與 NOX4 亞型）會在血管張力素 II、TNF-alpha 與機械性剪應力作用下產生超氧陰離子。NOX 衍生的過氧化氫可穩定 HIF-1α 並誘導缺氧基因程序，而 XO 衍生的超氧陰離子則會上調 NOX 表現——構成非加成性的內皮 ROS 來源網絡。"
+    },
+    "confidence": 0.9,
+    "source_document": "Endothelial Dysfunction.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "801f716a8803",
+    "subject": "ADMA",
+    "predicate": "inhibits",
+    "object": "Endothelial Nitric Oxide Synthase",
+    "context": {
+      "en-US": "Asymmetric dimethylarginine (ADMA) accumulates in oxidative stress states because ROS inhibit DDAH, the enzyme that degrades ADMA, via oxidation and S-nitrosylation of its active-site Cys-249. Elevated ADMA competitively inhibits eNOS, promoting uncoupling; plasma ADMA is a robust independent predictor of cardiovascular events and all-cause mortality in atherosclerotic, diabetic and chronic kidney disease patients.",
+      "zh-TW": "非對稱二甲基精胺（ADMA）在氧化壓力狀態下會累積，因為 ROS 會抑制分解 ADMA 的酵素 DDAH（經由其活性位點 Cys-249 的氧化與 S-硝基化）。升高的 ADMA 競爭性抑制 eNOS 並促進其解偶聯；血漿 ADMA 是動脈粥狀硬化、糖尿病與慢性腎病患者心血管事件與全因死亡的穩健獨立預測因子。"
+    },
+    "confidence": 0.85,
+    "source_document": "Endothelial Dysfunction.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "116d53b25d1d",
+    "subject": "Endothelial Dysfunction",
+    "predicate": "is_driven_by",
+    "object": "Senescence",
+    "context": {
+      "en-US": "The circulating SASP milieu was established as a causal driver of age-related endothelial dysfunction through senescence induction: plasma from old mice directly impaired endothelium-dependent dilation (-17%), induced EC senescence (6.1-fold SA-beta-Gal), reduced NO (-24%) and raised mitochondrial superoxide 3.5-fold. Fisetin reversed these effects by eliminating senescent ECs and reducing circulating CXCL12.",
+      "zh-TW": "研究證實循環中的 SASP 環境經由誘發衰老，是年齡相關內皮功能失調的因果驅動因子：老年小鼠血漿直接損害內皮依賴性舒張（-17%）、誘發內皮細胞衰老（SA-β-Gal 上升 6.1 倍）、降低 NO（-24%）並使粒線體超氧陰離子增加 3.5 倍。Fisetin 則藉由清除衰老內皮細胞並降低循環 CXCL12 逆轉上述效應。"
+    },
+    "confidence": 0.9,
+    "source_document": "Endothelial Dysfunction.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "289ecc7d6065",
+    "subject": "Endothelial Nitric Oxide Synthase",
+    "predicate": "produces",
+    "object": "Nitric Oxide",
+    "context": {
+      "en-US": "eNOS (NOS3) is the constitutive isoform of nitric oxide synthase expressed in vascular endothelium, continuously producing low-level nitric oxide for basal vascular tone and opposing vasoconstriction. It dimerizes to catalyze the NADPH-dependent oxidation of L-arginine to citrulline and NO, requiring the cofactors tetrahydrobiopterin (BH4), FAD and FMN.",
+      "zh-TW": "eNOS（NOS3）是表現於血管內皮的一氧化氮合成酶組成型亞型，持續產生低量一氧化氮以維持基礎血管張力並對抗血管收縮。它以二聚體形式催化 NADPH 依賴的 L-精胺酸氧化生成瓜胺酸與 NO，需輔因子四氫生物蝶呤（BH4）、FAD 與 FMN。"
+    },
+    "confidence": 0.95,
+    "source_document": "Endothelial Nitric Oxide Synthase.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "a44b15082832",
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "Endothelial Nitric Oxide Synthase",
+    "context": {
+      "en-US": "SIRT1 deacetylates and activates eNOS to promote vasodilation and endothelial function, and resveratrol enhances this SIRT1-dependent effect — linking NAD+-dependent sirtuin activity to the NO bioavailability that endothelial homeostasis depends on.",
+      "zh-TW": "SIRT1 會去乙醯化並活化 eNOS，以促進血管舒張與內皮功能，且 resveratrol 可增強此 SIRT1 依賴效應——將 NAD+ 依賴的 sirtuin 活性與內皮恆定所依賴的 NO 生物可用度連結起來。"
+    },
+    "confidence": 0.9,
+    "source_document": "Endothelial Nitric Oxide Synthase.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "eb3a02330dba",
+    "subject": "Endothelial Nitric Oxide Synthase",
+    "predicate": "is_a_type_of",
+    "object": "Nitric Oxide Synthase",
+    "context": {
+      "en-US": "eNOS (NOS3) is the constitutive isoform of the nitric oxide synthase enzyme family, distinct from inducible nitric oxide synthase (iNOS). Unlike iNOS, eNOS is not inhibited by aminoguanidine, a relatively iNOS-selective inhibitor — which is why aminoguanidine can block inflammatory vasodilation without abolishing normal blood-pressure regulation.",
+      "zh-TW": "eNOS（NOS3）是一氧化氮合成酶家族的組成型亞型，與誘發型一氧化氮合成酶（iNOS）不同。與 iNOS 不同的是，eNOS 不受相對具 iNOS 選擇性的抑制劑 aminoguanidine 抑制——因此 aminoguanidine 可阻斷發炎性血管舒張而不致於廢除正常的血壓調節。"
+    },
+    "confidence": 0.9,
+    "source_document": "Endothelial Nitric Oxide Synthase.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "086f570b4a21",
+    "subject": "Endothelial-to-Mesenchymal Transition",
+    "predicate": "is_driven_by",
+    "object": "CXCL12",
+    "context": {
+      "en-US": "CXCL12 directly drives EndoMT: CXCL12 add-back induced mesenchymal markers, and CXCL12 inhibition with LIT-927 rescued endothelial markers CDH5 and PECAM1 in aged plasma models. Aged plasma exposure reduced CDH5 (-72%) and PECAM1 (-54%) while increasing TGFB1 (21-fold) and ACTA2 (7.7-fold).",
+      "zh-TW": "CXCL12 直接驅動 EndoMT：CXCL12 補回可誘導間質標記，而以 LIT-927 抑制 CXCL12 則可在老化血漿模型中救回內皮標記 CDH5 與 PECAM1。老化血漿暴露使 CDH5 下降 72%、PECAM1 下降 54%，同時使 TGFB1 上升 21 倍、ACTA2 上升 7.7 倍。"
+    },
+    "confidence": 0.9,
+    "source_document": "Endothelial-to-Mesenchymal Transition.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "ada894eb646c",
+    "subject": "Endothelial-to-Mesenchymal Transition",
+    "predicate": "contributes_to",
+    "object": "Endothelial Dysfunction",
+    "context": {
+      "en-US": "EndoMT is a mechanism of age-related endothelial dysfunction: senescent endothelial cells lose CDH5 and PECAM1 and gain TGFB1 and ACTA2. Fisetin plasma prevented EndoMT by restoring endothelial markers (3.1-fold CDH5, 2-fold PECAM1) and suppressing mesenchymal markers (-88% TGFB1, -89% ACTA2).",
+      "zh-TW": "EndoMT 是年齡相關內皮功能失調的一項機制：衰老內皮細胞失去 CDH5 與 PECAM1，並獲得 TGFB1 與 ACTA2。Fisetin 血漿可預防 EndoMT，方式是恢復內皮標記（CDH5 上升 3.1 倍、PECAM1 上升 2 倍）並抑制間質標記（TGFB1 下降 88%、ACTA2 下降 89%）。"
+    },
+    "confidence": 0.9,
+    "source_document": "Endothelial-to-Mesenchymal Transition.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "73b3a6ae4c46",
+    "subject": "Endothelial-to-Mesenchymal Transition",
+    "predicate": "occurs_in",
+    "object": "Endothelial Cells",
+    "context": {
+      "en-US": "EndoMT is the transdifferentiation of endothelial cells, which lose their characteristic endothelial markers and acquire mesenchymal, contractile and matrix-producing properties. It is a key mechanism in cardiovascular pathology, vascular ageing and fibrosis.",
+      "zh-TW": "EndoMT 是內皮細胞的轉分化：其失去特有的內皮標記並獲得間質性、收縮性與基質生成特性。它是心血管病理、血管老化與纖維化中的關鍵機制。"
+    },
+    "confidence": 0.95,
+    "source_document": "Endothelial-to-Mesenchymal Transition.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "823f485a0273",
+    "subject": "Energy Balance",
+    "predicate": "regulates",
+    "object": "Obesity",
+    "context": {
+      "en-US": "Because stored fat is the difference between metabolizable energy intake and energy expenditure, chronic positive energy balance produces weight gain and drives the obesity epidemic, whereas negative balance produces weight loss. If Western food intake has been stable or declining, reduced physical activity (PAL ~1.66) must have tipped the budget positive.",
+      "zh-TW": "由於儲存的脂肪即代謝可利用能量攝取與能量消耗之間的差值，慢性正能量平衡會造成體重增加並驅動肥胖流行；負平衡則造成體重減輕。若西方飲食攝取量穩定或下降，則身體活動量降低（PAL 約 1.66）必然使能量預算轉正。"
+    },
+    "confidence": 0.95,
+    "source_document": "Energy Balance.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "cb0e42fb77f4",
+    "subject": "Energy Balance",
+    "predicate": "balances",
+    "object": "Energy Expenditure",
+    "context": {
+      "en-US": "Energy balance is the equilibrium between metabolizable energy intake and energy expenditure, which is partitioned into resting metabolic rate, the thermic effect of food and activity energy expenditure. It is regulated by interrelated adjustments of appetite, non-exercise activity thermogenesis and resting metabolism.",
+      "zh-TW": "能量平衡是代謝可利用的能量攝取與能量消耗之間的均衡，後者可分為休息代謝率、食物熱效應與活動能量消耗。它由食慾、非運動性活動產熱與休息代謝之間的相互調整來調節。"
+    },
+    "confidence": 0.9,
+    "source_document": "Energy Balance.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "4e2e7b8dd2fe",
+    "subject": "Exercise",
+    "predicate": "affects",
+    "object": "Energy Balance",
+    "context": {
+      "en-US": "Exercise interventions outperform their modest direct energy cost because amplifier mechanisms — NEAT, EPOC and lean-mass-driven resting metabolic rate changes — and adaptive reductions in expenditure oppose long-term weight-loss maintenance. Appetite adjustment would otherwise fully offset the exercise cost.",
+      "zh-TW": "運動介入的效果優於其微小的直接能量成本，因為放大機制——NEAT、EPOC 與瘦體量驅動的休息代謝率變化——以及適應性的消耗下降會對抗長期的減重維持；否則單純的食慾調整就足以完全抵銷運動的能量成本。"
+    },
+    "confidence": 0.85,
+    "source_document": "Energy Balance.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "0c1ed3a55984",
+    "subject": "Energy Expenditure",
+    "predicate": "is_measured_by",
+    "object": "Doubly-Labelled Water",
+    "context": {
+      "en-US": "Doubly-labelled water (DLW), the criterion field method, tracks total daily CO2 production from isotopically labelled water (2H and 18O) over 1-3 weeks, giving a measure of free-living daily energy expenditure. Indirect calorimetry instead measures O2 consumption and CO2 production to compute expenditure during RMR measurement or exercise.",
+      "zh-TW": "雙標水（DLW）為公認的現場標準方法，以同位素標記水（2H 與 18O）在 1 至 3 週內追蹤每日總 CO2 產生量，得到自由生活狀態下的每日能量消耗。間接測熱法則測量 O2 消耗與 CO2 產生，以計算休息代謝率測定或運動期間的能量消耗。"
+    },
+    "confidence": 0.95,
+    "source_document": "Energy Expenditure.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "1bafbe9814d0",
+    "subject": "Resting Metabolic Rate",
+    "predicate": "is_a_component_of",
+    "object": "Energy Expenditure",
+    "context": {
+      "en-US": "Resting metabolic rate is the largest component of daily energy expenditure, about 60% of the daily budget in sedentary Western adults. The remaining components are the thermic effect of food and physical activity energy expenditure; fat-free mass sets the resting expenditure floor.",
+      "zh-TW": "休息代謝率是每日能量消耗最大的組成，約佔久坐西方成年人每日預算的 60%。其餘組成為食物熱效應與身體活動能量消耗；去脂體量決定了休息消耗的下限。"
+    },
+    "confidence": 0.95,
+    "source_document": "Energy Expenditure.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "774acdc32be4",
+    "subject": "Energy Expenditure",
+    "predicate": "is_increased_by",
+    "object": "Exercise",
+    "context": {
+      "en-US": "Vigorous exercise (jogging or rowing ~2.9 MJ/h for a 70 kg subject, about 10x BMR) as three 30-min sessions per week adds only ~4.35 MJ, about 5.3% of a weekly budget of ~81.9 MJ. Matching primitive-society expenditure would require ~90 min vigorous activity daily and wild-animal levels ~2.5 h daily, so real exercise effects must be amplified via NEAT, appetite and resting metabolism.",
+      "zh-TW": "對 70 kg 對象而言，激烈運動（慢跑或划船約 2.9 MJ/h，約為 BMR 的 10 倍）以每週三次、每次 30 分鐘進行，僅增加約 4.35 MJ，約佔每週 81.9 MJ 預算的 5.3%。若要達到原始社會的消耗量，需每日約 90 分鐘激烈活動，達到野生動物水準則需每日約 2.5 小時，因此真實的運動效果必須透過 NEAT、食慾與休息代謝來放大。"
+    },
+    "confidence": 0.9,
+    "source_document": "Energy Expenditure.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "c1845b947713",
+    "subject": "Physical Activity Level",
+    "predicate": "measures",
+    "object": "Energy Expenditure",
+    "context": {
+      "en-US": "Physical activity level (PAL) is the DEE:RMR ratio from doubly-labelled water data: ~1.66 in contemporary Western adults (n=574), meaning about 60% of energy is spent at rest, versus ~2.6x RMR in free-living wild mammals (range 1.4-7.5), which spend only ~32% of their daily budget at rest.",
+      "zh-TW": "體力活動量（PAL）為雙標水資料所得的 DEE:RMR 比值：當代西方成年人約 1.66（n=574），代表約 60% 的能量花在休息；自由生活的野生哺乳類則平均約 2.6 倍 RMR（範圍 1.4–7.5），僅約 32% 的每日預算用於休息。"
+    },
+    "confidence": 0.9,
+    "source_document": "Energy Expenditure.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "c7168e589811",
+    "subject": "FKBP38",
+    "predicate": "induces",
+    "object": "Mitophagy",
+    "context": {
+      "en-US": "FKBP38 (also called FKBP8) is an outer mitochondrial membrane protein that induces mitophagy independently of the canonical PINK1/Parkin pathway. It acts as a mitophagy receptor that directly tethers mitochondria to autophagosomes without requiring ubiquitination, providing an alternative route for mitochondrial clearance when the PINK1/Parkin pathway is compromised. FKBP38 triggers mitophagy by aggregating LC3 (specifically LC3A) at mitochondria through its LIR motif.",
+      "zh-TW": "FKBP38（又稱 FKBP8）是粒線體外膜蛋白，可不依賴典型的 PINK1/Parkin 途徑誘導 mitophagy。它作為 mitophagy 受體，直接將粒線體與自噬體相連接，無需泛素化，因此當 PINK1/Parkin 途徑受損時提供另一種清除粒線體的方式。FKBP38 透過其 LIR motif 聚集 LC3（尤其是 LC3A）於粒線體上以啟動 mitophagy。"
+    },
+    "confidence": 0.95,
+    "source_document": "FKBP38.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "62d86473b381",
+    "subject": "FKBP38",
+    "predicate": "recruits",
+    "object": "LC3",
+    "context": {
+      "en-US": "FKBP38 triggers mitophagy through aggregation of the autophagosomal protein LC3, specifically the LC3A isoform, via its LIR motif. This direct recruitment of autophagosomal membranes to the mitochondrial surface is what allows FKBP38 to bypass Parkin recruitment and ubiquitin tagging of outer mitochondrial membrane proteins.",
+      "zh-TW": "FKBP38 透過其 LIR motif 使自噬相關蛋白 LC3（尤其是 LC3A 異構體）聚集，進而啟動 mitophagy。正是這種對自噬體膜的直接招募，讓 FKBP38 能繞過 Parkin 的招募以及外膜蛋白的泛素標記。"
+    },
+    "confidence": 0.9,
+    "source_document": "FKBP38.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "5b0a35d141ad",
+    "subject": "FKBP8",
+    "predicate": "escapes_degradation_by",
+    "object": "Proteasome",
+    "context": {
+      "en-US": "Unlike most outer mitochondrial membrane proteins that are ubiquitinated and degraded by the proteasome during autophagy, FKBP8 (FKBP38) escapes this process through an unknown structural escape mechanism. This allows it to remain available as a mitophagy receptor, maintaining mitochondrial quality control without depleting essential OMM proteins.",
+      "zh-TW": "與多數在自噬過程中會被泛素化並由 proteasome 降解的粒線體外膜蛋白不同，FKBP8（FKBP38）透過一種結構性的逃逸機制避開此過程。這使它能持續作為 mitophagy 受體，在不耗竭必需外膜蛋白的情況下維持粒線體品質管制。"
+    },
+    "confidence": 0.8,
+    "source_document": "FKBP8.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "ddd688abd8c6",
+    "subject": "FKBP8",
+    "predicate": "protects_against",
+    "object": "Parkinson's Disease",
+    "context": {
+      "en-US": "FKBP8 provides an alternative pathway for mitochondrial clearance when the canonical PINK1/Parkin pathway is impaired, which is directly relevant to Parkinson's disease, where Parkin function is compromised. By maintaining mitochondrial quality control in the absence of Parkin, FKBP8-mediated mitophagy may slow neurodegeneration driven by damaged mitochondria.",
+      "zh-TW": "當典型的 PINK1/Parkin 途徑受損時，FKBP8 提供另一條清除受損粒線體的途徑，這與 Parkin 功能缺損的 Parkinson's disease 直接相關。在沒有 Parkin 的情況下，FKBP8 介導的 mitophagy 可維持粒線體品質管制，因而可能減緩受損粒線體所驅動的神經退化。"
+    },
+    "confidence": 0.75,
+    "source_document": "FKBP8.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "36489a02fddc",
+    "subject": "FLICA",
+    "predicate": "measures",
+    "object": "Caspase-1",
+    "context": {
+      "en-US": "FLICA (fluorescent labeled inhibitors of caspases) probes such as FAM-YVAD-FMK are cell-permeant, fluorescently tagged caspase inhibitors that covalently bind the active site of cleaved caspases. Because they report enzymatic activity rather than mere protein presence, caspase-1 FLICA is the standard live-cell readout of inflammasome-driven Caspase-1 activation, typically paired with Gasdermin D-N staining and IL-1β or LDH release.",
+      "zh-TW": "FLICA（fluorescent labeled inhibitors of caspases）探針，例如 FAM-YVAD-FMK，是可穿透細胞膜的螢光標記 caspase 抑制劑，能共價結合已被切割之 caspase 的活性位。由於它反映的是酵素活性而非單純的蛋白表現量，caspase-1 FLICA 是偵測發炎小體驅動之 Caspase-1 活化之標準活細胞讀值方法，通常搭配 Gasdermin D-N 染色以及 IL-1β 或 LDH 釋放量測定。"
+    },
+    "confidence": 0.95,
+    "source_document": "FLICA.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "b5038ecabfac",
+    "subject": "FLICA",
+    "predicate": "detects",
+    "object": "Pyroptosis",
+    "context": {
+      "en-US": "Caspase-1 FLICA is the standard live-cell readout used to detect the execution of pyroptosis. Because inflammasome activation and Caspase-1 cleavage occur upstream of Gasdermin D pore formation, FLICA signal is the earliest enzymatic marker that a cell has committed to pyroptotic death, and it is read alongside Gasdermin D-N staining and cytokine release.",
+      "zh-TW": "Caspase-1 FLICA 是用來偵測 pyroptosis 執行的標準活細胞讀值方法。由於發炎小體活化與 Caspase-1 切割發生在 Gasdermin D 成孔之前，FLICA 訊號是細胞已啟動 pyroptotic 死亡最早期的酵素標記，通常與 Gasdermin D-N 染色及細胞激素釋放一起判讀。"
+    },
+    "confidence": 0.9,
+    "source_document": "FLICA.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "f8cd5e28e024",
+    "subject": "FNDC5",
+    "predicate": "is_precursor_of",
+    "object": "Irisin",
+    "context": {
+      "en-US": "FNDC5 is a 209-amino acid type I transmembrane protein whose fibronectin type III domain is proteolytically cleaved at a site in the linker region (around aa 140/141) and secreted as the myokine irisin. Böström et al. (2012) demonstrated this conversion during exercise, establishing that FNDC5 is the transmembrane precursor of irisin; the responsible sheddase is still not definitively identified, with cathepsin B proposed.",
+      "zh-TW": "FNDC5 是一個 209 個胺基酸的 type I 跨膜蛋白，其 fibronectin type III 結構域會在 linker 區域（約 aa 140/141）被蛋白酶切割並以 myokine irisin 的形式分泌。Böström 等人（2012）在運動過程中證實了這個轉換，確立 FNDC5 是 irisin 的跨膜前驅物；負責切割的 sheddase 仍未定案，目前提出 cathepsin B 為候選。"
+    },
+    "confidence": 0.97,
+    "source_document": "FNDC5.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "2af2bfacd588",
+    "subject": "PGC-1α",
+    "predicate": "upregulates",
+    "object": "FNDC5",
+    "context": {
+      "en-US": "FNDC5 transcription is transcriptionally driven by PGC-1α, with co-activation through ERRalpha and PPARγ. Exercise, cold exposure, AMPK activation and p38 MAPK signalling all raise FNDC5 expression through this axis, so the PGC-1α–FNDC5–irisin cascade links mechanical and metabolic stress to secretion of the myokine irisin.",
+      "zh-TW": "FNDC5 的轉錄由 PGC-1α 驅動，並透過 ERRalpha 與 PPARγ 的共活化增強。運動、寒冷暴露、AMPK 活化與 p38 MAPK 訊號都經由此軸提升 FNDC5 表現，因此 PGC-1α–FNDC5–irisin 級聯將機械與代謝壓力連結至 myokine irisin 的分泌。"
+    },
+    "confidence": 0.93,
+    "source_document": "FNDC5.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "511d4a7c247c",
+    "subject": "Irisin",
+    "predicate": "upregulates",
+    "object": "UCP1",
+    "context": {
+      "en-US": "The functional output of FNDC5 cleavage is irisin, which induces UCP1 in adipocytes and thereby drives browning of white adipose tissue and thermogenesis. FNDC5 knockout mice show attenuated exercise-induced browning of inguinal white adipose tissue, confirming that the FNDC5–irisin axis is required for this adaptive thermogenic response.",
+      "zh-TW": "FNDC5 切割後的功能產物是 irisin，它在脂肪細胞中誘導 UCP1，進而驅動白色脂肪組織褐變與產熱。FNDC5 基因敲除小鼠的腹股溝白色脂肪組織運動誘導性褐變減弱，證實 FNDC5–irisin 軸是此適應性產熱反應所必需的。"
+    },
+    "confidence": 0.9,
+    "source_document": "FNDC5.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "0f6717ed41ba",
+    "subject": "Irisin",
+    "predicate": "upregulates",
+    "object": "BDNF",
+    "context": {
+      "en-US": "Because FNDC5 is expressed in brain, particularly the hippocampus, FNDC5-derived irisin drives local BDNF expression there and provides neuroprotection. In Alzheimer's models FNDC5-derived irisin enhances both BDNF levels and Aβ clearance, and eHsp90α co-secretion is required for irisin's optimal binding to its integrin αVβ5 receptor.",
+      "zh-TW": "由於 FNDC5 也在腦部（尤其是海馬迴）表現，源自 FNDC5 的 irisin 會在該處驅動局部 BDNF 表現並提供神經保護。在 Alzheimer's 模型中，FNDC5 衍生的 irisin 可提升 BDNF 濃度並促進 Aβ 清除；eHsp90α 的共同分泌則是 irisin 與其 integrin αVβ5 受體最佳結合所必需的。"
+    },
+    "confidence": 0.85,
+    "source_document": "FNDC5.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "8bc71fa880d0",
+    "subject": "FOXO3a",
+    "predicate": "induces",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "FOXO3a is a major activator of the autophagic program. Under starvation or intermittent fasting it translocates to the nucleus and upregulates autophagy-related genes including LC3, LC3B, p62, BNIP3, GABARAPL1, Atg12 and Atg16, thereby coupling nutrient deprivation to increased autophagic flux.",
+      "zh-TW": "FOXO3a 是自噬程式的主要活化因子。在飢餓或間歇性斷食時，FOXO3a 轉位進入細胞核並上調自噬相關基因，包括 LC3、LC3B、p62、BNIP3、GABARAPL1、Atg12 與 Atg16，因而將營養缺乏與自噬通量增加連結起來。"
+    },
+    "confidence": 0.95,
+    "source_document": "FOXO3a.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "db2c4d9d2aed",
+    "subject": "Akt",
+    "predicate": "inhibits",
+    "object": "FOXO3a",
+    "context": {
+      "en-US": "FOXO3a activity is inhibited by the Akt pathway, which phosphorylates FOXO3a and promotes its sequestration in the cytoplasm. Akt-dependent phosphorylation thus keeps the FOXO transcription factor inactive and blocks its autophagic and stress-resistance transcriptional output; mTORC2 depletion relieves this brake by reducing Akt signalling.",
+      "zh-TW": "FOXO3a 的活性受 Akt 途徑抑制：Akt 磷酸化 FOXO3a 並促使其在細胞質中隔離。Akt 相依的磷酸化因此使 FOXO 轉錄因子維持不活性，阻斷其自噬與抗逆境轉錄輸出；mTORC2 耗損時 Akt 訊號下降，便解除此煞車。"
+    },
+    "confidence": 0.92,
+    "source_document": "FOXO3a.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "5e6b8ac78650",
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "FOXO3a",
+    "context": {
+      "en-US": "Under oxidative stress or DNA damage, SIRT1 binds physically to FOXO3a and deacetylates key lysine residues. This SIRT1-mediated deacetylation dualistically modulates FOXO3a output: it suppresses induction of pro-apoptotic genes such as Bim, thereby inhibiting apoptosis, while amplifying induction of cell cycle arrest and stress-resistance genes such as p27Kip1, GADD45 and MnSOD, allowing cells to survive oxidative stress.",
+      "zh-TW": "在氧化壓力或 DNA 損傷下，SIRT1 會與 FOXO3a 物理結合並去乙醯化其關鍵離胺酸殘基。這種 SIRT1 介導的去乙醯化以雙重方式調節 FOXO3a 的輸出：抑制其誘導 Bim 等促凋亡基因，因而抑制 apoptosis；同時放大其誘導 p27Kip1、GADD45 與 MnSOD 等細胞週期停滯及抗逆境基因的能力，使細胞得以在氧化壓力下存活。"
+    },
+    "confidence": 0.95,
+    "source_document": "FOXO3a.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "7b155abdb83d",
+    "subject": "FOXO3a",
+    "predicate": "is_associated_with",
+    "object": "Longevity",
+    "context": {
+      "en-US": "FOXO3a is a forkhead transcription factor strongly associated with human longevity and healthy aging. Its activation helps maintain cellular homeostasis and protect against proteotoxicity by inducing cell cycle arrest, autophagy and antioxidant defence genes, which is why FOXO variants are among the most replicated longevity-associated loci.",
+      "zh-TW": "FOXO3a 是與人類長壽及健康老化高度相關的 forkhead 轉錄因子。其活化藉由誘導細胞週期停滯、自噬與抗氧化防禦基因，協助維持 cellular homeostasis 並防止 proteotoxicity，因此 FOXO 變異是最常被重複驗證的長壽相關基因位點之一。"
+    },
+    "confidence": 0.85,
+    "source_document": "FOXO3a.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "5b471eed8a3a",
+    "subject": "FOXO4",
+    "predicate": "is_deacetylated_by",
+    "object": "SIRT1",
+    "context": {
+      "en-US": "FOXO4 is directly targeted by sirtuin-mediated deacetylation in response to oxidative stress. Hydrogen peroxide treatment induces FOXO4 acetylation, which inhibits its transactivation potential; SIRT1 physically interacts with FOXO4 and deacetylates it, reversing that inhibition and restoring FOXO4 transactivation so that antioxidant defence genes are induced.",
+      "zh-TW": "在氧化壓力反應下，FOXO4 是 sirtuin 介導去乙醯化的直接標的。過氧化氫處理會誘導 FOXO4 乙醯化，抑制其轉錄活化潛能；SIRT1 與 FOXO4 物理互動並將其去乙醯化，逆轉此抑制作用並恢復 FOXO4 的轉錄活化，使抗氧化防禦基因得以被誘導。"
+    },
+    "confidence": 0.92,
+    "source_document": "FOXO4.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "8f321b1a0a0f",
+    "subject": "FOXO4",
+    "predicate": "induces",
+    "object": "GADD45",
+    "context": {
+      "en-US": "When SIRT1-mediated deacetylation restores FOXO4 transcriptional activity, FOXO4 induces expression of the growth arrest and DNA-damage-inducible protein GADD45 (α-isoform). This links the SIRT1–FOXO4 axis to enhanced DNA repair and antioxidant defence, and in transformed cancer cells the same axis suppresses the pro-apoptotic proteases caspase-3 and caspase-7, promoting cancer cell survival.",
+      "zh-TW": "當 SIRT1 介導的去乙醯化恢復 FOXO4 的轉錄活性時，FOXO4 會誘導生長停滯與 DNA 損傷誘導蛋白 GADD45（α 型）的表現。這將 SIRT1–FOXO4 軸與 DNA 修復及抗氧化防禦的增強連結起來；在轉化後的癌細胞中，同一軸還會抑制促凋亡蛋白酶 caspase-3 與 caspase-7，促進癌細胞存活。"
+    },
+    "confidence": 0.85,
+    "source_document": "FOXO4.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "c4f9e616ffb4",
+    "subject": "FOXO4",
+    "predicate": "regulates",
+    "object": "Senescence",
+    "context": {
+      "en-US": "FOXO4 is a forkhead transcription factor regulating stress resistance, autophagy and cellular senescence, acting alongside FoxO1 and FOXO3a to induce autophagy-related genes under metabolic stress. Its interaction with p53 is the target of the senolytic peptide FOXO4-DRI, which is why FOXO4 is considered a senolytic target rather than a general FOXO-family transcription factor only.",
+      "zh-TW": "FOXO4 是調節抗逆境、抗自噬與細胞 senescence 的 forkhead 轉錄因子，在代謝壓力下與 FoxO1、FOXO3a 一同誘導自噬相關基因。其與 p53 的交互作用正是 senolytic 胜肽 FOXO4-DRI 的作用標的，因此 FOXO4 被視為 senolytic 的治療標的，而不只是 FOXO 家族的一般轉錄因子。"
+    },
+    "confidence": 0.8,
+    "source_document": "FOXO4.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "b6de7c268551",
+    "subject": "FPRL1",
+    "predicate": "binds",
+    "object": "Humanin",
+    "context": {
+      "en-US": "FPRL1 (FPR2) is a class A G-protein-coupled receptor on the plasma membrane that serves as a functional receptor for Humanin. FPRL1 signals through pertussis toxin-sensitive Gi/o proteins to induce Ca²⁺ mobilisation, ERK1/2 activation, PI3K/Akt signalling and p38 MAPK activation, thereby mediating the neuroprotective and cytoprotective effects of Humanin.",
+      "zh-TW": "FPRL1（FPR2）是細胞膜上的 class A G 蛋白偶聯受體，是 Humanin 的功能性受體。FPRL1 透過對白喉毒素敏感的 Gi/o 蛋白傳遞訊號，誘發 Ca²⁺ 動員、ERK1/2 活化、PI3K/Akt 訊號與 p38 MAPK 活化，進而介導 Humanin 的神經保護與細胞保護作用。"
+    },
+    "confidence": 0.93,
+    "source_document": "FPRL1.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "b9c8e2e84c56",
+    "subject": "FPRL1",
+    "predicate": "contributes_to",
+    "object": "Alzheimer's Disease",
+    "context": {
+      "en-US": "FPRL1 mediates both amyloid-beta toxicity and Humanin protection at the same receptor. Both the 42-amino acid Aβ42 peptide and Humanin can activate FPRL1 in neuroblasts, but while Aβ42 is cytotoxic, Humanin is cytoprotective; Humanin's benefit may arise from competitively binding FPRL1 and blocking Aβ42-induced cytotoxicity, which suggests a therapeutic mechanism in Alzheimer's disease.",
+      "zh-TW": "FPRL1 在同一受體上同時介導類澱粉β毒性與 Humanin 的保護作用。42 胺基酸的 Aβ42 胜肽與 Humanin 都能在神經母細胞中活化 FPRL1，但 Aβ42 具有細胞毒性而 Humanin 則具細胞保護性；Humanin 的效益可能來自與 FPRL1 的競爭性結合，阻斷 Aβ42 誘發的細胞毒性，這在 Alzheimer's disease 中提示了一種治療機制。"
+    },
+    "confidence": 0.85,
+    "source_document": "FPRL1.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "da5c98e32cc8",
+    "subject": "FPRL1",
+    "predicate": "resolves",
+    "object": "Inflammation",
+    "context": {
+      "en-US": "Originally identified as a pattern recognition receptor of the innate immune system, FPRL1 is activated by anti-inflammatory ligands such as lipoxin A4, annexin A1 and serum amyloid A. Activation by lipoxin A4 promotes inflammation resolution, and FPRL1 also modulates vascular inflammatory responses, giving it a dual pro-inflammatory and pro-resolving role in innate immunity.",
+      "zh-TW": "FPRL1 最初被鑑定為先天免疫系統的模式辨識受體，但也可被 lipoxin A4、annexin A1 與 serum amyloid A 等抗發炎配體活化。由 lipoxin A4 活化可促進發炎消退，且 FPRL1 亦調節血管發炎反應，因此在先天免疫中兼具促發炎與促消退的雙重角色。"
+    },
+    "confidence": 0.8,
+    "source_document": "FPRL1.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "0976575089f2",
+    "subject": "FSCV",
+    "predicate": "measures",
+    "object": "Dopamine",
+    "context": {
+      "en-US": "Fast-scan cyclic voltammetry (FSCV) is an electrochemical technique that measures rapid, real-time changes in neurotransmitter concentration in living brain tissue. Using a carbon-fiber microelectrode and a fast triangular voltage ramp (typically 400 V/s, −0.4 to +1.3 V), FSCV oxidizes dopamine at a characteristic potential to produce a Faradaic current proportional to its concentration, resolving sub-second dopamine release in awake, behaving rodents.",
+      "zh-TW": "快掃描循環伏安法（FSCV）是一項電化學技術，可在活體腦組織中量測神經傳遞物質濃度的快速即時變化。FSCV 使用碳纖維微電極與快速的三角電壓掃描（典型為 400 V/s，−0.4 至 +1.3 V），在特征電位氧化 dopamine，產生與其濃度成正比的法拉第電流，可解析清醒行為大鼠中次秒級的 dopamine 釋放。"
+    },
+    "confidence": 0.95,
+    "source_document": "FSCV.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "7b07cc0d1e0b",
+    "subject": "FSCV",
+    "predicate": "is_used_to_study",
+    "object": "Addiction",
+    "context": {
+      "en-US": "Because FSCV resolves phasic dopamine release on a sub-second timescale, it is the method of choice for studying reward processing, addiction, motivation and the acute effects of psychostimulants on dopamine reuptake and release. Combined with genetic variation in COMT activity, FSCV recordings have shown that increased COMT activity increases striatal dopamine release capacity.",
+      "zh-TW": "由於 FSCV 能以次秒時間尺度解析 phasic dopamine 釋放，它是研究獎賞處理、成癮、動機以及精神刺激劑對 dopamine 再攝取與釋放急性效應的首選方法。結合 COMT 活性的遺傳變異，FSCV 記錄顯示 COMT 活性升高會增加紋狀體的 dopamine 釋放能力。"
+    },
+    "confidence": 0.88,
+    "source_document": "FSCV.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "ea5d89b6aca7",
+    "subject": "Mevalonate pathway",
+    "predicate": "produces",
+    "object": "Coenzyme Q10",
+    "context": {
+      "en-US": "Ubiquinone/CoQ10, the substrate of FSP1, is a non-sterol product of the mevalonate pathway. Suppressing mevalonate output therefore starves FSP1 of its ubiquinone substrate and collapses the FSP1 axis, predicting ferroptosis sensitivity. HMG-CoA reductase inhibition by statins lowers CoQ10 availability, and squalene synthase activation by FIN56 diverts intermediates toward sterol synthesis and depletes the ubiquinone pool.",
+      "zh-TW": "FSP1 的受質 ubiquinone/CoQ10 是 mevalonate pathway 的非固醇產物。因此抑制 mevalonate 輸出會使 FSP1 缺乏其 ubiquinone 受質而使 FSP1 軸崩潰，進而預測 ferroptosis 敏感性。statins 藉由抑制 HMG-CoA 還原酶降低 CoQ10 可用性，而 squalene synthase 活化劑 FIN56 會將中間產物導向固醇合成，耗盡 ubiquinone 池。"
+    },
+    "confidence": 0.9,
+    "source_document": "FSP1.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "2d8742fb25c1",
+    "subject": "PPARα",
+    "predicate": "upregulates",
+    "object": "FSP1",
+    "context": {
+      "en-US": "PPARα transcriptionally drives FSP1 expression, so PPARα activators such as fenofibrate and bezafibrate raise FSP1 levels and ferroptosis resistance. Conversely the MDM2/MDMX complex suppresses FSP1 by inhibiting PPARα activity, lowering FSP1 and sensitizing cells to ferroptosis, and FSP1 protein levels correlate with ferroptosis resistance across hundreds of cancer cell lines.",
+      "zh-TW": "PPARα 在轉錄層面驅動 FSP1 表現，因此 fenofibrate、bezafibrate 等 PPARα 活化劑會提高 FSP1 濃度與 ferroptosis 抵抗性。相反地，MDM2/MDMX 複合體藉由抑制 PPARα 活性來抑制 FSP1，降低 FSP1 並使細胞對 ferroptosis 敏感；而 FSP1 蛋白濃度在數百種癌細胞株中與 ferroptosis 抵抗性相關。"
+    },
+    "confidence": 0.9,
+    "source_document": "FSP1.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "596e7b5db62b",
+    "subject": "FTSJ1",
+    "predicate": "methylates",
+    "object": "tRNA",
+    "context": {
+      "en-US": "FTSJ1 is an X-linked tRNA 2′-O-methyltransferase that catalyses methylation of the ribose at position 34 of tRNA[Ser]Sec, producing the Um34 modification. Um34 distinguishes the two tRNA[Ser]Sec isodecoders, and only the methylated form supports efficient insertion of selenocysteine at recoded UGA stop codons; loss of FTSJ1 causes ribosomal stalling and decreased UGA recoding.",
+      "zh-TW": "FTSJ1 是一個 X 聯鎖的 tRNA 2′-O-甲基轉移酶，催化 tRNA[Ser]Sec 第 34 位核糖的甲基化，產生 Um34 修飾。Um34 用來區分兩種 tRNA[Ser]Sec isodecoder，且只有甲基化形式能有效支持在重新編碼的 UGA 終止密碼子處插入 selenocysteine；FTSJ1 缺失會造成核糖體停滯與 UGA 重新編碼效率下降。"
+    },
+    "confidence": 0.95,
+    "source_document": "FTSJ1.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "2df8fe1aed60",
+    "subject": "FTSJ1",
+    "predicate": "is_required_for",
+    "object": "Selenocysteine",
+    "context": {
+      "en-US": "FTSJ1 is required for efficient selenocysteine incorporation into selenoproteins because it writes the Um34 modification that distinguishes the Sec-competent tRNA[Ser]Sec isodecoder. FTSJ1-deficient cells show reduced UGA recoding, selective impairment of antioxidant selenoprotein translation, hypersensitivity to oxidative stress and reduced melanoma metastatic colonization, marking FTSJ1 as a potential metastasis-selective therapeutic target.",
+      "zh-TW": "FTSJ1 對 selenocysteine 有效嵌入 selenoprotein 是必需的，因為它負責寫入能區分具 Sec 能力之 tRNA[Ser]Sec isodecoder 的 Um34 修飾。FTSJ1 缺失細胞的 UGA 重新編碼減少，抗氧化 selenoprotein 的轉譯受到選擇性損害，對氧化壓力高度敏感且黑色素瘤轉移定殖能力下降，使 FTSJ1 成為具轉移選擇性的治療標的。"
+    },
+    "confidence": 0.93,
+    "source_document": "FTSJ1.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "5207156bef5c",
+    "subject": "FUNDC1",
+    "predicate": "induces",
+    "object": "Mitophagy",
+    "context": {
+      "en-US": "FUNDC1 is an outer mitochondrial membrane protein that acts as a receptor for ubiquitin-independent mitophagy, especially under hypoxic stress. Under normoxia Src kinase phosphorylates FUNDC1 and keeps it inactive; during hypoxia CK2 is inhibited and PGAM5 dephosphorylates FUNDC1 at Ser13, enabling it to recruit LC3 via its LIR motif and initiate mitophagy.",
+      "zh-TW": "FUNDC1 是粒線體外膜蛋白，作為泛素非依賴性 mitophagy 的受體，在缺氧壓力下尤其重要。在常氧下 Src kinase 磷酸化 FUNDC1 使其維持不活性；缺氧時 CK2 受到抑制，PGAM5 將 FUNDC1 在 Ser13 去磷酸化，使其能透過 LIR motif 招募 LC3 並啟動 mitophagy。"
+    },
+    "confidence": 0.93,
+    "source_document": "FUNDC1.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "b07e07b9675e",
+    "subject": "FUNDC1",
+    "predicate": "protects_against",
+    "object": "Ischemia-reperfusion Injury",
+    "context": {
+      "en-US": "Activating FUNDC1-mediated autophagy clears damaged mitochondria, significantly reducing neuronal apoptosis and infarct volume after ischemia/hypoxia-reperfusion injury. The converse is also true: FUNDC1 knockout significantly worsens neural damage, making the hypoxia-inducible FUNDC1 axis a neuroprotective target in stroke and reperfusion injury.",
+      "zh-TW": "活化 FUNDC1 介導的自噬可清除受損粒線體，在缺血／缺氧再灌 injury 後顯著降低神經元 apoptosis 與梗死體積。反之亦然：FUNDC1 敲除會顯著加重神經損傷，使缺氧誘導的 FUNDC1 軸成為中風與再灌損傷中的神經保護標的。"
+    },
+    "confidence": 0.9,
+    "source_document": "FUNDC1.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "5aa6277347db",
+    "subject": "FUNDC1",
+    "predicate": "maintains",
+    "object": "MERCS",
+    "context": {
+      "en-US": "FUNDC1 is localised to mitochondria-associated endoplasmic reticulum membranes (MAMs), where it interacts with the IP3R2 receptor on the endoplasmic reticulum and helps maintain the structural stability of the contact sites. When FUNDC1 is absent, MAM structure is disrupted, impairing mitochondrial fission and causing abnormal calcium signalling — a mechanism relevant to calcium homeostasis imbalance in Alzheimer's disease and other neurodegenerative diseases.",
+      "zh-TW": "FUNDC1 定位於粒線體－內質網相鄰膜（MAMs），並在該處與內質網上的 IP3R2 受體互動，協助維持接觸部位的結構穩定。當 FUNDC1 缺失時，MAM 結構遭破壞，導致粒線體分裂受損與異常的鈣訊號——這是 Alzheimer's disease 及其他神經退化疾病中鈣恆定失衡的機制之一。"
+    },
+    "confidence": 0.88,
+    "source_document": "FUNDC1.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "168409d8d282",
+    "subject": "Faecalibacterium",
+    "predicate": "produces",
+    "object": "Butyrate",
+    "context": {
+      "en-US": "Faecalibacterium, with Faecalibacterium prausnitzii as its key species, is a gut bacterial genus known for high butyrate production and anti-inflammatory effects in the gut. As a butyrate-producing Clostridia member of the Firmicutes, Faecalibacterium prausnitzii supports colonocyte fuel supply and barrier integrity, and its relative decline with aging is associated with intestinal inflammation and reduced resilience.",
+      "zh-TW": "Faecalibacterium 以 F. prausnitzii 為主要物種，是腸道菌群中以高產 butyrate 與腸道抗發炎作用聞名的菌屬。作為 Firmicutes 中產 butyrate 的 Clostridia 成員，Faecalibacterium prausnitzii 支援結腸上皮細胞的燃料供應與屏障完整性，而其隨老化相對減少則與腸道發炎及韌性降低相關。"
+    },
+    "confidence": 0.9,
+    "source_document": "Faecalibacterium.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "88ee0243638f",
+    "subject": "Fascia",
+    "predicate": "is_a_component_of",
+    "object": "Connective Tissue",
+    "context": {
+      "en-US": "Fascia is the body's continuous sheet-like connective-tissue continuum — a three-dimensional web of collagen, elastin and hydrated ground substance — that wraps, separates and connects muscles, bones, vessels, nerves and organs. Classified by the Fascia Nomenclature Committee into subcutaneous, deep, visceral and parietal layers, it forms a single tensegrity network rather than isolated sheets.",
+      "zh-TW": "Fascia 是人體連續片狀的 connective tissue 連續體——由 collagen、elastin 與含水基質構成的三維網絡——包裹、分隔並連接肌肉、骨骼、血管、神經與器官。依 Fascia Nomenclature Committee 分為淺層、深層、臟器層與壁層，它構成的是單一的張力整體網絡而非彼此孤立的膜片。"
+    },
+    "confidence": 0.9,
+    "source_document": "Fascia.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "bb41ac7f4c65",
+    "subject": "Fibroblast",
+    "predicate": "remodels",
+    "object": "Fascia",
+    "context": {
+      "en-US": "Fibroblasts are the predominant cells of fascia, synthesising and remodelling its collagen (types I and III), elastic fibres and hydrated ground substance. Fascia is mechanosensitive: mechanical loading up-regulates fibroblast collagen synthesis, peaking about 24 h after strenuous exercise, so high-intensity resistance training through full range of motion is the primary driver of fascial and tendon remodelling.",
+      "zh-TW": "Fibroblast 是 fascia 中的主要細胞，負責合成與重塑其 collagen（第一型與第三型）、彈性纖維與含水基質。Fascia 對力學負荷敏感：機械負荷會上調 fibroblast 的 collagen 合成，於劇烈運動後約 24 小時達峰，因此以全活動範圍進行的高強度阻力訓練是 fascia 與肌腱重塑的主要驅動力。"
+    },
+    "confidence": 0.85,
+    "source_document": "Fascia.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "4be0539201e2",
+    "subject": "Glycation",
+    "predicate": "reduces",
+    "object": "Aging",
+    "context": {
+      "en-US": "Sedentary behaviour, disuse and ageing promote densification and AGE cross-linking of fascial collagen, which stiffens the tissue and degrades fascial glide. Because cross-linked collagen cannot be efficiently cleared, glycation is a key reason why fascia becomes less compliant with age and why immobility accelerates loss of tissue quality.",
+      "zh-TW": "久坐、廢用與老化會促進 fascia collagen 的緻密化與 AGE 交聯，使組織僵硬並降低 fascia 的滑動性。由於交聯後的 collagen 無法被有效清除，glycation 是 fascia 隨年齡變得不再柔軟的重要原因，也是固定不動會加速組織品質流失的原因。"
+    },
+    "confidence": 0.8,
+    "source_document": "Fascia.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "1ea1d5030083",
+    "subject": "Fasting",
+    "predicate": "induces",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Fasting — voluntary abstinence from food and caloric beverages for a defined period — induces a metabolic switch from glucose-based to ketone-based energy and stimulates autophagy and cellular repair processes. The mechanism is reduced IGF1/mTORC1 signalling together with increased AMPK and SIRT1 activity, which releases the brake on autophagic flux and promotes mitochondrial biogenesis.",
+      "zh-TW": "Fasting——在一段定義時間內自願禁食與禁含熱量飲品——會誘發由葡萄糖型轉向酮體型的代謝轉換，並刺激 autophagy 與細胞修復過程。其機制為 IGF1/mTORC1 訊號下降、AMPK 與 SIRT1 活性上升，解除對自噬通量的煞車並促進粒線體生成。"
+    },
+    "confidence": 0.92,
+    "source_document": "Fasting.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "acc32ade864d",
+    "subject": "Fasting",
+    "predicate": "inhibits",
+    "object": "mTORC1",
+    "context": {
+      "en-US": "Fasting suppresses mTORC1 signalling and reduces IGF1, shifting cells from a growth-promoting anabolic state to a catabolic, recycling state. Simultaneous activation of AMPK and SIRT1 under the same conditions is what makes fasting a hormetic stress: reduced nutrient-signalling plus increased stress-sensing capacity simultaneously promotes autophagy, ketone utilisation and stress resistance.",
+      "zh-TW": "Fasting 抑制 mTORC1 訊號並降低 IGF1，使細胞由促進生長的合成代謝狀態轉為分解代謝與回收狀態。同一條件下 AMPK 與 SIRT1 的同步活化，使 fasting 成為一種 hormetic 壓力：營養訊號下降加上壓力感測能力提升，會同時促進 autophagy、酮體利用與抗逆境能力。"
+    },
+    "confidence": 0.9,
+    "source_document": "Fasting.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "ad9201bd81e2",
+    "subject": "NAD+",
+    "predicate": "activates",
+    "object": "SIRT1",
+    "context": {
+      "en-US": "Fasting raises the cellular NAD+/NADH ratio, and the increased NAD+ is a required cofactor for SIRT1 activity. During fasting, elevated NAD+ activates SIRT1, which then deacetylates its targets including FOXO3a and PGC-1α, shifting transcriptional programmes from apoptosis toward stress resistance and mitochondrial biogenesis.",
+      "zh-TW": "Fasting 會提高細胞內 NAD+/NADH 比值，而上升的 NAD+ 是 SIRT1 活性所需的共同因子。在 fasting 期間，升高的 NAD+ 活化 SIRT1，後者再去乙醯化包括 FOXO3a 與 PGC-1α 在內的標的，使轉錄程式由 apoptosis 轉向抗逆境與粒線體生成。"
+    },
+    "confidence": 0.88,
+    "source_document": "Fasting.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "3022551f1ce4",
+    "subject": "Ferroportin",
+    "predicate": "exports",
+    "object": "Iron",
+    "context": {
+      "en-US": "Ferroportin (SLC40A1) is the only known cellular iron exporter in mammals, translocating Fe²⁺ across the plasma membrane in macrophages, hepatocytes and duodenal enterocytes. By controlling the size of the intracellular labile iron pool, ferroportin determines how much redox-active iron is available for Fenton reaction-driven lipid peroxidation, so higher export means less ferroptotic susceptibility.",
+      "zh-TW": "Ferroportin（SLC40A1）是哺乳動物唯一已知的細胞鐵輸出器，在巨噬細胞、肝細胞與十二指腸上皮細胞中將 Fe²⁺ 運送過細胞膜。透過決定細胞內活性鐵池的大小，Ferroportin 決定有多少氧化還原活性鐵可供 Fenton reaction 驅動的 lipid peroxidation 使用，因此輸出量越高，ferroptosis 敏感性越低。"
+    },
+    "confidence": 0.95,
+    "source_document": "Ferroportin.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "29d19e60b123",
+    "subject": "Ferroportin",
+    "predicate": "suppresses",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "Ferroportin activity is inversely related to ferroptosis susceptibility because it lowers the labile iron pool that the Fenton reaction converts into hydroxyl radicals. Reduced ferroportin expression — for instance from hepcidin upregulation, or in iron-retaining tumours — raises cytosolic Fe²⁺, fuels lipid peroxidation and primes cells for ferroptosis when antioxidant defences fail.",
+      "zh-TW": "Ferroportin 活性與 ferroptosis 敏感性成反比，因為它降低了可被 Fenton reaction 轉為羥基自由基的活性鐵池。Ferroportin 表現下降——例如因 hepcidin 上調，或存在於鐵滯留的腫瘤中——會提高細胞質 Fe²⁺、助長 lipid peroxidation，並在抗氧化防線失效時使細胞易於發生 ferroptosis。"
+    },
+    "confidence": 0.9,
+    "source_document": "Ferroportin.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "259d19d6333d",
+    "subject": "HFE",
+    "predicate": "degrades",
+    "object": "Ferroportin",
+    "context": {
+      "en-US": "Ferroportin is the efflux valve that HFE acts upstream of: HFE's normal function is to raise hepcidin when body iron is high, and hepcidin works by triggering ferroportin internalisation and degradation. Loss of HFE function therefore leaves the iron valve open regardless of iron stores, and HFE C282Y homozygosity is the common cause of iron overload.",
+      "zh-TW": "Ferroportin 是 HFE 上游作用的輸出閥：HFE 的正常功能是在體內鐵偏高時提高 hepcidin，而 hepcidin 的作用方式就是促使 Ferroportin 內吞與降解。因此 HFE 功能喪失會讓這個鐵閥不論鐵儲量多寡都保持開啟，而 HFE C282Y 同型合子正是鐵過載的常見原因。"
+    },
+    "confidence": 0.9,
+    "source_document": "Ferroportin.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "302cd8fde831",
+    "subject": "Ferroportin",
+    "predicate": "is_associated_with",
+    "object": "Ischemia-reperfusion Injury",
+    "context": {
+      "en-US": "Ferroportin counteracts iron-overload toxicity in ischemia-reperfusion injury and neurodegeneration by exporting Fe²⁺ from injured tissue and limiting Fenton chemistry. In cancer, low ferroportin (high iron retention) predicts ferroptosis sensitivity, so modulating the hepcidin/ferroportin axis could tune therapeutic ferroptosis induction.",
+      "zh-TW": "Ferroportin 藉由將 Fe²⁺ 排出受損組織並限制 Fenton 化學反應，對抗缺血再灌損傷與神經退化中的鐵過載毒性。在癌症方面，較低的 ferroportin（較高的鐵滯留）可預測 ferroptosis 敏感性，因此調節 hepcidin/ferroportin 軸可望調整治療性的 ferroptosis 誘發。"
+    },
+    "confidence": 0.85,
+    "source_document": "Ferroportin.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "a4de627ffc3c",
+    "subject": "Fibroblast",
+    "predicate": "synthesizes",
+    "object": "Collagen",
+    "context": {
+      "en-US": "Fibroblasts are mesenchymal, spindle-shaped cells whose principal role is synthesis and turnover of extracellular matrix components — collagens, fibronectin and proteoglycans — producing the structural stroma of animal tissues. Quiescent fibroblasts remain metabolically active, continuously maintaining and remodelling the matrix, and also secrete matrix metalloproteinases and their inhibitors to shape it.",
+      "zh-TW": "Fibroblast 是間葉性紡錘形細胞，其主要作用是合成與更新 extracellular matrix 成分——collagens、fibronectin 與 proteoglycans——以構成動物組織的結構性基質。靜息的 fibroblast 在代謝上仍持續活化，不斷維持並重塑基質，並分泌 matrix metalloproteinase 及其抑制劑以修飾基質。"
+    },
+    "confidence": 0.95,
+    "source_document": "Fibroblast.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "dc7dbf76018a",
+    "subject": "TGFβ",
+    "predicate": "induces",
+    "object": "Fibroblast",
+    "context": {
+      "en-US": "TGF-β signalling through SMAD2/3 drives fibroblast-to-myofibroblast differentiation and extracellular matrix deposition. Activated myofibroblasts are contractile, α-smooth-muscle-actin-positive cells that close wounds but, when persistently activated, drive fibrosis — which is why fibroblast-targeted therapies such as TGF-β or lysyl oxidase inhibition aim to limit pathological scarring.",
+      "zh-TW": "TGF-β 經由 SMAD2/3 的訊號傳遞驅動 fibroblast 向 myofibroblast 分化與 extracellular matrix 沉積。被活化的 myofibroblast 是具收縮性、α-smooth-muscle-actin 陽性的細胞，可閉合傷口，但持續活化時會驅動 fibrosis——因此針對 fibroblast 的治療（如抑制 TGF-β 或 lysyl oxidase）旨在限制病理性瘢痕。"
+    },
+    "confidence": 0.9,
+    "source_document": "Fibroblast.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "3b3d02374e8f",
+    "subject": "Senolytics",
+    "predicate": "reduce",
+    "object": "Fibrosis",
+    "context": {
+      "en-US": "Because senescent fibroblasts acquire an apoptosis-resistant, profibrotic phenotype in idiopathic pulmonary fibrosis, senolytic clearance of these cells reduces fibrosis in models. Because IPF-derived fibroblasts show resistance to apoptosis and sustained metabolic activity, they persist and keep amplifying fibrogenic signalling, making them an attractive senolytic target rather than a passive bystander.",
+      "zh-TW": "由於在 idiopathic pulmonary fibrosis 中衰老的 fibroblast 會獲得抗 apoptosis 且促纖維化的表型，以 senolytic 清除這些細胞可在模型中減少 fibrosis。因為源自 IPF 的 fibroblast 對 apoptosis 具有抗性且代謝持續活化，它們會持續存在並不斷放大促纖維化訊號，因此是具吸引力的 senolytic 標的，而非被動的旁觀者。"
+    },
+    "confidence": 0.88,
+    "source_document": "Fibroblast.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "2708e45e1b97",
+    "subject": "Fibromyalgia",
+    "predicate": "is_associated_with",
+    "object": "Chronic Fatigue Syndrome (CFS)",
+    "context": {
+      "en-US": "Fibromyalgia is a chronic disorder of unknown etiology characterized by widespread musculoskeletal pain, fatigue, non-restorative sleep and cognitive dysfunction. It is frequently comorbid with chronic fatigue syndrome, irritable bowel syndrome, migraine, temporomandibular joint disorder and mood disorders, and both fibromyalgia and chronic fatigue syndrome are thought to involve impaired energy metabolism, supporting a shared bioenergetic mechanism.",
+      "zh-TW": "Fibromyalgia 是一種病因未明的慢性疾病，特徵為廣泛性肌肉骨骼疼痛、疲勞、非恢復性睡眠與認知功能障礙。它常與 chronic fatigue syndrome、irritable bowel syndrome、migraine、顳顎關節障礙及情緒障礙共病，而 fibromyalgia 與 chronic fatigue syndrome 皆被認為涉及能量代謝受損，支持兩者共有的生物能量學機制。"
+    },
+    "confidence": 0.88,
+    "source_document": "Fibromyalgia.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "bd8cd6e1eb2d",
+    "subject": "Creatine",
+    "predicate": "treats",
+    "object": "Fibromyalgia",
+    "context": {
+      "en-US": "Fibromyalgia shows a bioenergetic deficit: magnetic resonance spectroscopy has found reduced creatine and phosphocreatine levels in the brain and skeletal muscle of patients. Clinical trials of creatine supplementation (3–20 g/day) have improved pain measures, quality of life, sleep quality and muscle function, with effects hypothesised to arise from ATP buffering via the creatine phosphate shuttle plus antioxidant and anti-inflammatory cytokine modulation.",
+      "zh-TW": "Fibromyalgia 呈現生物能量學缺乏：以磁共振光譜檢測發現患者的腦與骨骼肌中 creatine 與 phosphocreatine 濃度降低。creatine 補充（每日 3–20 g）的臨床試驗已顯示可改善疼痛指標、生活品質、睡眠品質與肌肉功能，其作用假設來自透過 creatine phosphate shuttle 的 ATP 緩衝，以及抗氧化與抗發炎細胞激素調節。"
+    },
+    "confidence": 0.85,
+    "source_document": "Fibromyalgia.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "155d30302c1c",
+    "subject": "Fibromyalgia",
+    "predicate": "is_associated_with",
+    "object": "ROS",
+    "context": {
+      "en-US": "Fibromyalgia pathophysiology converges on central sensitization, neuroendocrine dysregulation of the HPA axis, mitochondrial and bioenergetic deficits, low-grade inflammation with elevated IL-6 and TNFα and toll-like receptor activation, and oxidative stress with increased reactive oxygen species and reduced antioxidant capacity — a combination that also underlies its comorbid depression.",
+      "zh-TW": "Fibromyalgia 的病理生理集中於中樞敏感化、HPA 軸的神經內分泌失調、粒線體與生物能量缺乏、IL-6 與 TNFα 升高等低度發炎及 toll-like receptor 活化，以及反應性氧物增加與抗氧化能力下降的氧化壓力——這一組合也是其共病憂鬱症的基礎。"
+    },
+    "confidence": 0.8,
+    "source_document": "Fibromyalgia.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "47ea0eb13dc3",
+    "subject": "Firmicutes",
+    "predicate": "produces",
+    "object": "Short-chain Fatty Acids",
+    "context": {
+      "en-US": "Firmicutes is one of the two most abundant bacterial phyla of the human gut microbiome. Many Firmicutes are adept at harvesting energy from dietary polysaccharides and fermenting fibres into short-chain fatty acids such as butyrate, acetate and propionate, with butyrate serving as primary colonocyte fuel that reinforces barrier integrity and exerts anti-inflammatory and histone deacetylase-inhibitory effects.",
+      "zh-TW": "Firmicutes 是人類腸道菌群中數量最多的兩個菌門之一。許多 Firmicutes 善於從膳食多醣獲取能量，並將纖維發酵成 butyrate、acetate 與 propionate 等短鏈脂肪酸；其中 butyrate 是結腸上皮細胞的主要燃料，可強化屏障完整性並產生抗發炎與抑制 histone deacetylase 的作用。"
+    },
+    "confidence": 0.9,
+    "source_document": "Firmicutes.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "0241c1a92fd0",
+    "subject": "Firmicutes",
+    "predicate": "is_associated_with",
+    "object": "Dysbiosis",
+    "context": {
+      "en-US": "The Firmicutes-to-Bacteroidetes (F/B) ratio has been explored as a marker of dysbiosis, with shifts observed in obesity, metabolic syndrome and aging. A decline in butyrate-producing Firmicutes such as Faecalibacterium prausnitzii is associated with intestinal inflammation and reduced resilience, although whether the F/B ratio is causal rather than merely correlative remains debated.",
+      "zh-TW": "Firmicutes 與 Bacteroidetes 的比例（F/B ratio）曾被探索作為 dysbiosis 的指標，並在 obesity、metabolic syndrome 與 aging 中觀察到變化。產 butyrate 的 Firmicutes（如 Faecalibacterium prausnitzii）減少與腸道發炎及韌性下降相關，不過 F/B ratio 究竟是因果因素而僅僅是相關現象仍有爭議。"
+    },
+    "confidence": 0.82,
+    "source_document": "Firmicutes.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "007fc4980eab",
+    "subject": "Flavan-3-ols",
+    "predicate": "is_a_type_of",
+    "object": "Flavonoids",
+    "context": {
+      "en-US": "Flavan-3-ols (flavanols) are a subclass of flavonoids with a 2-phenyl-3,4-dihydro-2H-chromen-3-ol skeleton and a hydroxyl at C3. Unlike most flavonoids they are non-glycosylated and lack a C2=C3 double bond in the C-ring, and they exist as monomers (catechins, epicatechins and their gallates such as EGCG) that polymerize via B-type and A-type bonds into proanthocyanidins.",
+      "zh-TW": "Flavan-3-ols（flavanols）是 flavonoids 的次類，具有 2-phenyl-3,4-dihydro-2H-chromen-3-ol 骨架且 C3 帶有羥基。與多數 flavonoid 不同，它們不經糖基化且 C 環缺少 C2=C3 雙鍵，並以單體（catechins、epicatechins 及其 gallate 酯如 EGCG）形式存在，再經 B 型與 A 型鍵聚合成 proanthocyanidins。"
+    },
+    "confidence": 0.93,
+    "source_document": "Flavan-3-ols.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "ba1f30975d8a",
+    "subject": "Flavan-3-ols",
+    "predicate": "activates",
+    "object": "SIRT1",
+    "context": {
+      "en-US": "Monomeric catechin and polymeric proanthocyanidins belong to the natural-polyphenol STAC family that activates SIRT1 through the shared K-type allosteric mechanism, lowering the substrate K~m~ so that SIRT1 is activated even at low polyphenol concentrations. Flavan-3-ols also engage AMPK and inhibit NF-κB inflammatory signalling, and activate the NRF2/KEAP1 cytoprotective program as radical scavengers and metal chelators.",
+      "zh-TW": "單體 catechin 與聚合的 proanthocyanidins 屬於天然多酚 STAC 家族，可透過共有的 K 型異位機制活化 SIRT1，降低受質的 K~m~，使 SIRT1 在低多酚濃度下即可被活化。Flavan-3-ols 也會啟動 AMPK、抑制 NF-κB 發炎訊號，並以自由基清除劑與金屬螯合作用啟動 NRF2/KEAP1 細胞保護程式。"
+    },
+    "confidence": 0.88,
+    "source_document": "Flavan-3-ols.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "278e4366e7fe",
+    "subject": "Flavan-3-ols",
+    "predicate": "protects_against",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "As potent radical scavengers via catechol/galloyl hydrogen donation and metal chelation, flavan-3-ols attenuate oxidative and inflammatory neuronal injury. They cross the blood-brain barrier and show neuroprotective effects in Alzheimer's and Parkinson's disease models, and flavan-3-ol-rich diets such as cocoa and tea improve flow-mediated dilation and lower cardiovascular risk.",
+      "zh-TW": "作為藉由 catechol/galloyl 供氫與金屬螯合的強效自由基清除劑，flavan-3-ols 可減輕氧化與發炎性神經損傷。它們能通過血腦障壁，在 Alzheimer's 與 Parkinson's disease 模型中呈現神經保護效果；而 cocoa、tea 等富含 flavan-3-ol 的飲食可改善血流介導擴張並降低心血管風險。"
+    },
+    "confidence": 0.85,
+    "source_document": "Flavan-3-ols.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "b445d8d53253",
+    "subject": "Farber disease",
+    "predicate": "is_caused_by",
+    "object": "ASAH1",
+    "context": {
+      "en-US": "Farber disease is a rare autosomal recessive lysosomal storage disorder caused by loss-of-function mutations in ASAH1, leaving less than 5% residual acid ceramidase activity. Ceramide then accumulates in lysosomes of macrophages, joints, skin and CNS, producing the classic triad of painful joint deformities, subcutaneous lipomatous nodules and vocal hoarseness; severity inversely correlates with residual enzyme activity.",
+      "zh-TW": "Farber disease 是一種罕見的體染色體隱性溶小體儲積症，由 ASAH1 的功能喪失突變造成，使 acid ceramidase 殘餘活性低於 5%。因此 ceramide 在巨噬細胞、關節、皮膚與中樞神經的溶小體中累積，形成疼痛性關節變形、皮下脂肪瘤樣結節與聲音嘶啞的典型三聯徵；嚴重度與殘餘酵素活性成反比。"
+    },
+    "confidence": 0.95,
+    "source_document": "Farber disease.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "98741849c3e0",
+    "subject": "Farber disease",
+    "predicate": "is_allelic_with",
+    "object": "Spinal muscular atrophy with progressive myoclonic epilepsy",
+    "context": {
+      "en-US": "Spinal muscular atrophy with progressive myoclonic epilepsy is allelic with Farber disease: both are caused by mutations in ASAH1. The milder SMA-PME form arises from hypomorphic alleles retaining 5–30% activity and presents with motor neuron disease and epilepsy but without the joint and skin findings of Farber disease, so residual acid ceramidase activity is the main determinant of phenotype.",
+      "zh-TW": "Spinal muscular atrophy with progressive myoclonic epilepsy 與 Farber disease 為等位基因疾病：兩者都由 ASAH1 突變造成。較輕的 SMA-PME 型態源自保留 5–30% 活性的低效等位基因，表現為運動神經元疾病與癲癇，但沒有 Farber disease 的關節與皮膚表現，因此殘餘 acid ceramidase 活性是決定表型的主要因素。"
+    },
+    "confidence": 0.92,
+    "source_document": "Farber disease.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "f01d1c5fb38d",
+    "subject": "Acid ceramidase",
+    "predicate": "degrades",
+    "object": "Ceramide",
+    "context": {
+      "en-US": "Acid ceramidase is the lysosomal enzyme whose activity falls below 5% in Farber disease. Its loss blocks ceramide catabolism, so ceramide accumulates in lysosomes of macrophages, joints, skin and CNS, driving painful joint deformities, subcutaneous nodules and neurodevelopmental involvement. Severity inversely correlates with residual enzyme activity.",
+      "zh-TW": "Acid ceramidase 是在 Farber disease 中活性降至 5% 以下的溶小體酵素。其缺失阻斷 ceramide 的分解代謝，使 ceramide 在巨噬細胞、關節、皮膚與中樞神經的溶小體中累積，造成疼痛性關節變形、皮下結節與神經發育受損。疾病嚴重度與殘餘酵素活性成反比。"
+    },
+    "confidence": 0.9,
+    "source_document": "Farber disease.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "e907ac2b761d",
+    "subject": "Fat Oxidation",
+    "predicate": "produces",
+    "object": "ATP",
+    "context": {
+      "en-US": "Fat oxidation is the breakdown of fatty acids to acetyl-CoA via beta-oxidation in the mitochondrial matrix, with acetyl-CoA entering the TCA cycle and mitochondrial electron transport chain to generate ATP. It is the dominant fuel during low-intensity prolonged exercise and in the post-absorptive state, with low-to-moderate intensity favouring fat oxidation and high intensity shifting toward carbohydrate.",
+      "zh-TW": "Fat oxidation 是脂肪酸經粒線體基質中的 beta-oxidation 分解為 acetyl-CoA，acetyl-CoA 再進入 TCA cycle 與粒線體電子傳遞鏈以生成 ATP。它是低強度長時間運動與消化後狀態下的主要燃料；低至中等強度有利於 fat oxidation，而高強度則轉向碳水化合物氧化。"
+    },
+    "confidence": 0.93,
+    "source_document": "Fat Oxidation.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "a63d6e617dc9",
+    "subject": "Excess Post-Exercise Oxygen Consumption",
+    "predicate": "is_driven_by",
+    "object": "Fat Oxidation",
+    "context": {
+      "en-US": "The prolonged phase of EPOC lasting more than about an hour is driven by a switch from carbohydrate toward fat metabolism, which sustains elevated oxygen consumption during recovery. Beta-adrenergic stimulation and insulin suppression promote lipolysis and fat oxidation, and insulin suppresses this pathway — so the carbohydrate-to-fat shift explains the prolonged post-exercise elevation of resting metabolic rate.",
+      "zh-TW": "超過約一小時的 EPOC 延長期是由代謝由碳水化合物轉向脂肪所驅動，使恢復期的耗氧量持續升高。β-腎上腺素刺激與 insulin 抑制會促進脂解與 fat oxidation，而 insulin 本身抑制此途徑——因此這種由糖轉脂的轉換，解釋了運動後 resting metabolic rate 的持續升高。"
+    },
+    "confidence": 0.88,
+    "source_document": "Fat Oxidation.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "bb5daea93a7a",
+    "subject": "Exercise",
+    "predicate": "improves",
+    "object": "Fat Oxidation",
+    "context": {
+      "en-US": "Exercise training improves muscle fat-oxidative capacity, in part via mitochondrial biogenesis and aerobic-enzyme induction, which supports weight management and metabolic health. Fat oxidation capacity also reflects overall metabolic fitness and is reduced in obesity, type 2 diabetes and metabolic syndrome, while training reverses that reduction.",
+      "zh-TW": "運動訓練可提升肌肉的 fat oxidation 能力，部分是透過粒線體生成與氧化酵素誘導達成，進而支持體重管理與代謝健康。Fat oxidation 能力也反映整體代謝適能，並在 obesity、type 2 diabetes 與 metabolic syndrome 中下降，而訓練可逆轉此下降。"
+    },
+    "confidence": 0.88,
+    "source_document": "Fat Oxidation.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "bb8d61be4c10",
+    "subject": "Fat-Free Mass",
+    "predicate": "determines",
+    "object": "Resting Metabolic Rate",
+    "context": {
+      "en-US": "Fat-free mass (lean body mass) is the mass of all body components excluding stored fat — skeletal muscle, bone, organs and connective tissue. Because metabolically active tissues dominate energy turnover, FFM is the principal determinant of resting metabolic rate, accounting for 50–70% of inter-individual variation, though it is necessary but not sufficient: two people with identical FFM can still differ in RMR by up to 3 MJ/d.",
+      "zh-TW": "Fat-free mass（lean body mass）是除儲存脂肪外所有身體成分的總質量——骨骼肌、骨骼、內臟與結締組織。由於代謝活躍組織主導能量周轉，FFM 是 resting metabolic rate 的主要決定因子，解釋個體間 50–70% 的變異；但它是必要而非充分條件——兩位 FFM 相同者其 RMR 仍可相差達 3 MJ/日。"
+    },
+    "confidence": 0.93,
+    "source_document": "Fat-Free Mass.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "bdff5da390d9",
+    "subject": "Fat-Free Mass",
+    "predicate": "is_preserved_by",
+    "object": "Exercise",
+    "context": {
+      "en-US": "Preserving fat-free mass during weight loss — via exercise rather than diet alone — protects against the fall in resting metabolic rate that otherwise accompanies caloric restriction, which is why resistance training is emphasised for weight-loss maintenance. Training also raises metabolic output per unit of lean tissue, since the metabolic intensity of FFM components is not uniform and aerobic enzyme induction is modifiable.",
+      "zh-TW": "在減重期間透過運動（而非單靠飲食）維持 fat-free mass，可防止原本伴隨熱量限制而出現的 resting metabolic rate 下降，因此減重維持特別強調阻力訓練。訓練還能提高每單位 lean tissue 的代謝產出，因為 FFM 各成分的代謝強度並不一致，且氧化酵素的誘導是可改變的。"
+    },
+    "confidence": 0.88,
+    "source_document": "Fat-Free Mass.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "be8f9de18362",
+    "subject": "Quercetin",
+    "predicate": "inhibits",
+    "object": "Fatty Acid Synthase",
+    "context": {
+      "en-US": "Quercetin, a flavonol sister compound of apigenin, inhibits Fatty Acid Synthase activity alongside other plant flavonoids. FASN inhibition correlates with induction of apoptosis in cancer cells, and because FASN is overexpressed in breast, prostate and other tumours that rely on de novo lipogenesis for membrane biosynthesis, FASN is a metabolic anticancer target.",
+      "zh-TW": "Quercetin 是 apigenin 的同族 flavonol，與其他植物類黃酮一樣抑制 Fatty Acid Synthase 活性。FASN 的抑制與癌細胞 apoptosis 的誘導相關；由於乳癌、前列腺癌等依賴從頭脂肪合成進行膜生生物的腫瘤會過度表現 FASN，FASN 因此成為代謝性抗癌標的。"
+    },
+    "confidence": 0.88,
+    "source_document": "Fatty Acid Synthase.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "fdfbcc8f59c5",
+    "subject": "AMPK",
+    "predicate": "promotes",
+    "object": "Fatty acid oxidation",
+    "context": {
+      "en-US": "AMPK promotes fatty acid oxidation alongside mitochondrial biogenesis to generate ATP. AMPK can be activated by LKB1, its upstream regulator, and once activated it reduces oxidative stress injury by promoting insulin sensitivity, fatty acid oxidation and mitochondrial biosynthesis. Impairment of this lipid catabolism is linked to metabolic diseases, neurodegeneration and cancer.",
+      "zh-TW": "AMPK 促進 fatty acid oxidation，並與粒線體生成共同作用以產生 ATP。AMPK 可由其上游調節因子 LKB1 活化，活化後藉由促進 insulin 敏感度、fatty acid oxidation 與粒線體生成來減少氧化壓力損傷。這項脂質分解代謝的受損則與代謝疾病、神經退化與癌症相關。"
+    },
+    "confidence": 0.9,
+    "source_document": "Fatty acid oxidation.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "a938ee4eb7e1",
+    "subject": "Mitochondria",
+    "predicate": "is_site_of",
+    "object": "Fatty acid oxidation",
+    "context": {
+      "en-US": "Fatty acid oxidation (beta-oxidation) is the mitochondrial and peroxisomal lipid catabolism that maintains cellular and organismal energy homeostasis. It is essential for development, tissue maintenance, stress adaptation and energy homeostasis, and its dysregulation contributes to aging and disease including metabolic disorders, neurodegeneration and cancer.",
+      "zh-TW": "Fatty acid oxidation（beta-oxidation）是在粒線體與過氧化體中進行的脂質分解代謝，維持細胞與生物體的能量恆定。它對發育、組織維持、逆境適應與能量恆定皆不可或缺，而其失調會促成老化與疾病，包括代謝障礙、神經退化與癌症。"
+    },
+    "confidence": 0.88,
+    "source_document": "Fatty acid oxidation.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "66d9fc5e1fa7",
+    "subject": "Flavin-containing Monooxygenase",
+    "predicate": "produces",
+    "object": "Oxfendazole",
+    "context": {
+      "en-US": "The FMO family are FAD-dependent monooxygenases catalysing NADPH- and O2-dependent oxidation of soft nucleophiles such as sulfur, nitrogen and phosphorus centres. Together with CYP3A4, FMO mediates the rapid hepatic sulfoxidation of fenbendazole to oxfendazole (fenbendazole sulfoxide); this first-pass sulfoxidation is the gateway to fenbendazole's pharmacologically active metabolite, with FMO3 the dominant hepatic form in adults.",
+      "zh-TW": "FMO 家族是依賴 FAD 的單加氧酶，催化 NADPH 與 O2 相依的軟親核體（如硫、氮、磷中心）氧化。FMO 與 CYP3A4 共同介導 fenbendazole 在肝臟中快速硫氧化為 oxfendazole（fenbendazole sulfoxide）；這個首過硫氧化是形成 fenbendazole 藥理活性代謝物的關口，成人肝臟以 FMO3 為主。"
+    },
+    "confidence": 0.92,
+    "source_document": "Flavin-containing Monooxygenase.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
+  },
+  {
+    "id": "5a5c096dd3c0",
+    "subject": "CYP3A4",
+    "predicate": "produces",
+    "object": "Oxfendazole",
+    "context": {
+      "en-US": "CYP3A4 acts alongside FMO in the rapid hepatic conversion of fenbendazole to its active sulfoxide metabolite oxfendazole, with CYP2J2 and CYP2C19 additionally forming hydroxyfenbendazole. Because the FMO/CYP3A4 first-pass sulfoxidation is the gateway to oxfendazole, variation in these enzymes sets the exposure to the active metabolite.",
+      "zh-TW": "CYP3A4 與 FMO 共同參與 fenbendazole 在肝臟中快速轉換為其活性硫氧化代謝物 oxfendazole，另有 CYP2J2 與 CYP2C19 形成 hydroxyfenbendazole。由於 FMO/CYP3A4 的首過硫氧化是形成 oxfendazole 的關口，這些酵素的變異決定了活性代謝物的暴露量。"
+    },
+    "confidence": 0.9,
+    "source_document": "Flavin-containing Monooxygenase.md",
+    "created": "2026-09-29T16:05:32Z",
+    "updated": "2026-09-29T16:05:32Z"
   }
 ]
