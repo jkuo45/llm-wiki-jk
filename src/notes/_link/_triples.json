@@ -51700,5 +51700,1223 @@
     "source_document": "Cyclophilin D.md",
     "created": "2026-09-29T15:53:13Z",
     "updated": "2026-09-29T15:53:13Z"
+  },
+  {
+    "id": "2fe4ddab5b53",
+    "subject": "Cysteine",
+    "predicate": "is_precursor_of",
+    "object": "Glutathione",
+    "context": {
+      "en-US": "Cysteine is the rate-limiting substrate for glutathione (GSH) biosynthesis: gamma-glutamylcysteine synthetase first condenses glutamate with cysteine, and glutathione synthetase then adds glycine. Because intracellular cysteine availability sets the size of the glutathione pool, cysteine supply through cystine uptake via the xc- antiporter (SLC7A11) and transsulfuration flux is the principal determinant of cellular redox capacity.",
+      "zh-TW": "Cysteine 是 glutathione (GSH) 生合成的限速受質：gamma-glutamylcysteine synthetase 先將 glutamate 與 cysteine 縮合，再由 glutathione synthetase 加入 glycine。由於細胞內 cysteine 的可用量決定了 glutathione 的儲備量，因此透過 xc- 反向運輸蛋白 (SLC7A11) 的 cystine 攝取與 transsulfuration 通量所提供的 cysteine 供應，是細胞抗氧化能力的首要決定因子。"
+    },
+    "confidence": 0.95,
+    "source_document": "Cysteine.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "95d15fdd5e26",
+    "subject": "Cysteine",
+    "predicate": "is_derived_from",
+    "object": "Homocysteine",
+    "context": {
+      "en-US": "Cysteine is synthesized endogenously through the transsulfuration pathway, in which homocysteine — itself generated from methionine via S-adenosylmethionine and S-adenosylhomocysteine — is condensed with serine by cystathionine beta-synthase and then cleaved by cystathionine gamma-lyase to yield cysteine. Cysteine is therefore classified as a semi-essential amino acid whose dietary requirement rises when methionine is scarce or oxidative stress is high.",
+      "zh-TW": "Cysteine 透過 transsulfuration 路徑在體內合成：homocysteine（本身由 methionine 經 S-adenosylmethionine 與 S-adenosylhomocysteine 產生）先由 cystathionine beta-synthase 與 serine 縮合成 cystathionine，再由 cystathionine gamma-lyase 裂解產出 cysteine。因此 cysteine 被歸類為半必需胺基酸，當 methionine 供應不足或氧化壓力升高時，其膳食需求會上升。"
+    },
+    "confidence": 0.9,
+    "source_document": "Cysteine.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "012ba413303f",
+    "subject": "Cysteine",
+    "predicate": "is_required_for",
+    "object": "Zinc Finger",
+    "context": {
+      "en-US": "The cysteine thiol group coordinates zinc and other transition metals, making cysteine residues integral to zinc finger protein domains. The same chemistry allows cysteine to assemble [2Fe-2S] and [4Fe-4S] clusters in mitochondrial respiratory chain complexes and to buffer metals in metallothionein, so cysteine is a structural requirement for metalloprotein function rather than a purely structural residue.",
+      "zh-TW": "Cysteine 的 thiol 基可配位 zinc 及其他過渡金屬，因此 cysteine 殘基是 zinc finger 蛋白結構域不可分割的一部分。相同的化學性質也使 cysteine 能在粒線體呼吸鏈複合體中組裝 [2Fe-2S] 與 [4Fe-4S] 群集，並在 metallothionein 中緩衝金屬；因此 cysteine 是金屬蛋白功能的結構性必要條件，而非單純的結構殘基。"
+    },
+    "confidence": 0.85,
+    "source_document": "Cysteine.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "178d1c3d830c",
+    "subject": "Cysteine",
+    "predicate": "is_precursor_of",
+    "object": "Taurine",
+    "context": {
+      "en-US": "In catabolism, cysteine is oxidized by cysteine dioxygenase to cysteine sulfinic acid, which can be decarboxylated to hypotaurine and then oxidized to taurine. Taurine is required for bile acid conjugation and osmoregulation, so cysteine catabolism feeds directly into the taurine pool.",
+      "zh-TW": "在分解代謝中，cysteine 經 cysteine dioxygenase 氧化形成 cysteine sulfinic acid，後者可脫羧生成 hypotaurine，再氧化為 taurine。Taurine 對 bile acid 結合與滲透壓調節皆有必要，因此 cysteine 的分解代謝直接供應 taurine 池。"
+    },
+    "confidence": 0.8,
+    "source_document": "Cysteine.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "05d6e9edefbe",
+    "subject": "N-Acetylcysteine",
+    "predicate": "is_derived_from",
+    "object": "Cysteine",
+    "context": {
+      "en-US": "N-acetylcysteine is a pharmacologically important derivative of cysteine in which the amino group is acetylated, which increases stability and oral bioavailability. After deacetylation in vivo it is readily converted to cysteine, thereby raising intracellular glutathione levels; this is why NAC is the established antidote for acetaminophen (paracetamol) hepatotoxicity and a mucolytic that cleaves disulfide bonds in mucus glycoproteins.",
+      "zh-TW": "N-acetylcysteine 是 cysteine 的重要藥理衍生體，其胺基經乙醯化後穩定性與口服生體可用性提高。進入體內後很容易去乙醯化轉回 cysteine，進而提升細胞內 glutathione 濃度；這也是 NAC 成為 acetaminophen (paracetamol) 肝毒性既定解毒劑，以及能切断黏液醣蛋白雙硫鍵之 mucolytic 的原因。"
+    },
+    "confidence": 0.9,
+    "source_document": "Cysteine.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "6f8235fc80f6",
+    "subject": "Cytochrome b5 reductase",
+    "predicate": "reduces",
+    "object": "Methemoglobin",
+    "context": {
+      "en-US": "Cytochrome b5 reductase, also called NADH-dependent methemoglobin reductase, is the enzyme that returns spontaneously formed methemoglobin (normally under 1-2% of total hemoglobin) to its functional ferrous Fe2+ state. By keeping hemoglobin in the ferrous state, this enzyme is what makes hemoglobin able to carry oxygen.",
+      "zh-TW": "Cytochrome b5 reductase（又稱 NADH-dependent methemoglobin reductase）是將自發形成的 methemoglobin（正常情況下佔總 hemoglobin 的 1–2% 以下）還原回具功能的 Fe2+ 狀態的酵素。藉由讓 hemoglobin 維持於 ferrous 狀態，此酵素使 hemoglobin 能夠攜帶氧氣。"
+    },
+    "confidence": 0.95,
+    "source_document": "Cytochrome b5 reductase.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "8ffe99ad1842",
+    "subject": "Cytochrome b5 reductase",
+    "predicate": "is_a",
+    "object": "NADH-dependent methemoglobin reductase",
+    "context": {
+      "en-US": "Cytochrome b5 reductase and NADH-dependent methemoglobin reductase are two names for the same NADH- cytochrome b5 oxidoreductase. Mutations in the CYB5R gene therefore reduce the activity of this same enzyme and cause congenital methemoglobinemia.",
+      "zh-TW": "Cytochrome b5 reductase 與 NADH-dependent methemoglobin reductase 是同一個 NADH-cytochrome b5 oxidoreductase 的兩種名稱。因此 CYB5R 基因突變會降低此同一酵素的活性，並造成先天性 methemoglobinemia。"
+    },
+    "confidence": 0.95,
+    "source_document": "Cytochrome b5 reductase.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "17b8ee9142b0",
+    "subject": "Cytochrome b5 reductase",
+    "predicate": "is_required_for",
+    "object": "Hemoglobin",
+    "context": {
+      "en-US": "Because its only role in red cells is to keep hemoglobin reduced, loss of cytochrome b5 reductase activity leaves hemoglobin in the oxidized methemoglobin state. Deficiency of this enzyme is the direct cause of congenital methemoglobinemia, in which blood cannot carry oxygen normally.",
+      "zh-TW": "由於它在紅血球中的唯一作用就是維持 hemoglobin 處於還原態，cytochrome b5 reductase 活性喪失會使 hemoglobin 停留在氧化的 methemoglobin 狀態。此酵素的缺乏是先天性 methemoglobinemia 的直接成因，使血液無法正常攜帶氧氣。"
+    },
+    "confidence": 0.9,
+    "source_document": "Cytochrome b5 reductase.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "8bfbfe049dec",
+    "subject": "Cytoplasmic Chromatin Fragments",
+    "predicate": "activates",
+    "object": "cGAS-STING Pathway",
+    "context": {
+      "en-US": "Cytoplasmic chromatin fragments are the primary endogenous ligand that activates cGAS-STING signaling in senescent cells. cGAS binds the fragments in a sequence-independent manner, recognizing DNA longer than 20 bp, and synthesizes 2'3'-cGAMP, which activates STING and the downstream TBK1-IRF3-NF-kB cascade.",
+      "zh-TW": "Cytoplasmic chromatin fragments 是 senescent cells 中活化 cGAS-STING 訊號的主要內源性配體。cGAS 以不依賴序列的方式結合這些片段，辨識長度超過 20 bp 的 DNA，並合成 2'3'-cGAMP，進而活化 STING 與下游的 TBK1-IRF3-NF-κB 級聯反應。"
+    },
+    "confidence": 0.95,
+    "source_document": "Cytoplasmic Chromatin Fragments.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "51fb8a50af1e",
+    "subject": "Cytoplasmic Chromatin Fragments",
+    "predicate": "drives",
+    "object": "SASP",
+    "context": {
+      "en-US": "By engaging cGAS-STING, cytoplasmic chromatin fragments drive transcription of type-I interferons and SASP factors such as IL-6, IL-8, CXCL10 and IFN-beta. The fragments are a primary upstream trigger of the senescence-associated secretory phenotype, converting benign nuclear damage into chronic pro-inflammatory signaling.",
+      "zh-TW": "透過啟動 cGAS-STING，cytoplasmic chromatin fragments 驅動 type-I interferon 與 IL-6、IL-8、CXCL10、IFN-beta 等 SASP 因子的轉錄。這些片段是 senescence-associated secretory phenotype 的主要上游觸發因子，將良性的核內損傷轉化為慢性發炎訊號。"
+    },
+    "confidence": 0.9,
+    "source_document": "Cytoplasmic Chromatin Fragments.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "376aa6454093",
+    "subject": "Cytoplasmic Chromatin Fragments",
+    "predicate": "is_induced_by",
+    "object": "Senescent Cells",
+    "context": {
+      "en-US": "Cytoplasmic chromatin fragments appear specifically in senescent cells, where downregulation of Lamin B1 destabilizes the nuclear lamina, allowing the nuclear envelope to herniate and 1-10 kb genomic fragments enriched for LINE-1 repeats and pericentromeric satellite DNA to be extruded into the cytosol. Their burden is therefore a hallmark of the senescent state and correlates with inflammaging.",
+      "zh-TW": "Cytoplasmic chromatin fragments 專門出現於 senescent cells：此時 Lamin B1 下調使核纖層失穩，核膜因而向外疝出，並將富含 LINE-1 重複序列與周 centromeric 衛星 DNA 的 1–10 kb 基因組片段排入細胞質。因此其累積量是 senescent state 的特徵，並與 inflammaging 相關。"
+    },
+    "confidence": 0.85,
+    "source_document": "Cytoplasmic Chromatin Fragments.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "a8d7700c3779",
+    "subject": "DNASE2",
+    "predicate": "degrades",
+    "object": "Cytoplasmic Chromatin Fragments",
+    "context": {
+      "en-US": "Cytoplasmic chromatin fragments are normally cleared from the cytosol by the DNases DNASE2 and TREX1. In senescent cells both enzymes are transcriptionally downregulated via the E2F complex, so the fragments persist, accumulate and remain available to stimulate cGAS-STING and hence the SASP.",
+      "zh-TW": "Cytoplasmic chromatin fragments 正常情況下由 DNase DNASE2 與 TREX1 從細胞質中清除。在 senescent cells 中這兩種酵素皆經 E2F 複合體被轉錄性下調，因此這些片段持續存在、逐漸累積，並得以持續刺激 cGAS-STING 進而促進 SASP。"
+    },
+    "confidence": 0.85,
+    "source_document": "Cytoplasmic Chromatin Fragments.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "61c5e982587c",
+    "subject": "Cytoskeleton",
+    "predicate": "is_a_component_of",
+    "object": "Actin",
+    "context": {
+      "en-US": "Actin microfilaments are a core structural element of the cytoskeleton, alongside microtubules and intermediate filaments. Actin-based structures such as stress fibers are anchored to the extracellular matrix by integrin-FAK adhesions at focal adhesions, which is how the cytoskeleton couples matrix stiffness to migration and proliferation signals.",
+      "zh-TW": "Actin 微絲是 cytoskeleton 的核心結構元件之一，與微管及 intermediate filaments 並列。以 actin 為基礎的結構（如 stress fiber）透過 integrin-FAK 黏附在 focal adhesion 處錨定至細胞外基質；這正是 cytoskeleton 將基質硬度轉換為 migration 與增殖訊號的方式。"
+    },
+    "confidence": 0.85,
+    "source_document": "Cytoskeleton.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "2ba5b6cfaf42",
+    "subject": "Cytoskeleton",
+    "predicate": "is_required_for",
+    "object": "Cell Migration",
+    "context": {
+      "en-US": "Cell migration is driven by cytoskeletal dynamics: actin polymerization at the leading edge generates protrusion, myosin motors on actin tracks produce contractility, and focal-adhesion turnover couples the cytoskeleton to matrix. FAK signaling transduces adhesion and stiffness cues into these cytoskeletal remodeling programs.",
+      "zh-TW": "Cell migration 由 cytoskeleton 的動態變化驅動：前緣的 actin 聚合產生突出，actin 上的 myosin 马達產生收縮力，而 focal adhesion 的更替則把 cytoskeleton 與基質耦合。FAK signaling 將黏附與硬度訊號轉譯為這些 cytoskeleton 重塑程式。"
+    },
+    "confidence": 0.85,
+    "source_document": "Cytoskeleton.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "6894af10ccf9",
+    "subject": "FAK Signaling",
+    "predicate": "targets",
+    "object": "Cytoskeleton",
+    "context": {
+      "en-US": "Focal adhesion kinase signaling targets the cytoskeleton: integrin-engaged FAK at focal adhesions couples the extracellular matrix to actin stress fibers, transducing matrix stiffness into cytoskeletal remodeling, cell migration and proliferation. This makes FAK signaling the main route by which adhesion state becomes a cytoskeletal signal.",
+      "zh-TW": "Focal adhesion kinase signaling 以 cytoskeleton 為標的：focal adhesion 中 integrin 活化的 FAK 將細胞外基質與 actin stress fiber 耦合，把基質硬度轉譯為 cytoskeleton 重塑、cell migration 與增殖。這使 FAK signaling 成為黏附狀態轉為 cytoskeleton 訊號的主要途徑。"
+    },
+    "confidence": 0.85,
+    "source_document": "Cytoskeleton.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "6ad1ad08f247",
+    "subject": "Glycolysis",
+    "predicate": "is_localized_to",
+    "object": "Cytosol",
+    "context": {
+      "en-US": "Glycolysis, the first stage of glucose catabolism yielding net ATP, takes place in the cytosol. Because the cytosol excludes the contents of membrane-bound organelles such as the mitochondria, cytosolic glycolysis and mitochondrial oxidative phosphorylation are anatomically distinct routes of glucose-derived ATP production.",
+      "zh-TW": "Glycolysis（葡萄糖分解的第一階段，產生淨 ATP）在 cytosol 中進行。由於 cytosol 不包含 mitochondria 等膜狀胞器內的內容物，cytosolic glycolysis 與粒線體的 oxidative phosphorylation 在解剖位置上分屬兩條不同的葡萄糖供能途徑。"
+    },
+    "confidence": 0.9,
+    "source_document": "Cytosol.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "c69e2eacf2ec",
+    "subject": "Stress Granules",
+    "predicate": "is_localized_to",
+    "object": "Cytosol",
+    "context": {
+      "en-US": "Stress granules are membrane-less organelles that assemble within the cytosol. The cytosol is a crowded, structured medium rather than a static fluid, and liquid-liquid phase separation in it drives the formation of stress granules and processing bodies that sequester untranslated mRNAs during stress.",
+      "zh-TW": "Stress granules 是在 cytosol 中組裝形成的無膜胞器。Cytosol 並非靜態流體，而是擁擠且具結構的介質，其中的 liquid-liquid phase separation 驅動 stress granules 與 processing bodies 的形成，在壓力下隔離未轉譯的 mRNA。"
+    },
+    "confidence": 0.85,
+    "source_document": "Cytosol.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "88c48ec859f7",
+    "subject": "Cytosol",
+    "predicate": "contains",
+    "object": "Metabolites",
+    "context": {
+      "en-US": "The cytosol is a crowded aqueous solution of roughly 70% water containing ions, metabolites such as ATP, NADH and NADPH, and 20-40% of cellular protein mass. Small molecules diffuse freely through this compartment, so cytosol is the medium in which most metabolic intermediates such as glycolytic intermediates move between enzymes.",
+      "zh-TW": "Cytosol 是約含 70% 水的擁擠水溶液，內含離子、ATP/NADH/NADPH 等代謝物，以及細胞蛋白質總量的 20–40%。小分子在此區室中自由擴散，因此 cytosol 是絕大多數代謝中間物（如 glycolytic intermediates）在酵素之間移動的介質。"
+    },
+    "confidence": 0.8,
+    "source_document": "Cytosol.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "d6c1c6fa0cfd",
+    "subject": "DAT",
+    "predicate": "transports",
+    "object": "Dopamine",
+    "context": {
+      "en-US": "The dopamine transporter DAT is highly abundant in dopaminergic terminals, where it mediates rapid uptake of dopamine from the synaptic cleft. Cleared dopamine is either packaged into storage vesicles or degraded by monoamine oxidase, so DAT sets both the amplitude and the duration of dopaminergic signaling.",
+      "zh-TW": "Dopamine transporter DAT 在 dopaminergic terminal 中高度表現，負責將 dopamine 由突觸間隙快速攝回。被清除的 dopamine 要么被包裝進儲存囊泡，要么由 monoamine oxidase 代謝，因此 DAT 同時決定了 dopaminergic 訊號的強度與持續時間。"
+    },
+    "confidence": 0.85,
+    "source_document": "DAT.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "1b722e99089e",
+    "subject": "DAXX",
+    "predicate": "binds",
+    "object": "ATRX",
+    "context": {
+      "en-US": "DAXX is the obligate histone-chaperone partner of ATRX. The ATRX-DAXX complex is functionally inseparable: loss of DAXX phenocopies ATRX loss for ALT activation, showing that DAXX directs ATRX remodeling activity specifically to heterochromatic repeats rather than acting independently.",
+      "zh-TW": "DAXX 是 ATRX 不可或缺的 histone chaperone 搭檔。ATRX-DAXX 複合體在功能上無法分割：DAXX 的喪失會表型模擬 ATRX 喪失所致的 ALT 活化，顯示 DAXX 是將 ATRX 的重塑活性導向異染色質重複序列，而非獨立作用。"
+    },
+    "confidence": 0.95,
+    "source_document": "DAXX.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "1c203cee1945",
+    "subject": "DAXX",
+    "predicate": "deposits",
+    "object": "H3.3",
+    "context": {
+      "en-US": "As the H3.3-specific chaperone of the ATRX-DAXX complex, DAXX deposits the histone variant H3.3 at telomeres, pericentric heterochromatin and endogenous retroviruses. This targeted deposition is how the complex establishes and maintains heterochromatin at those repeat-rich loci.",
+      "zh-TW": "作為 ATRX-DAXX 複合體中專一於 H3.3 的 chaperone，DAXX 將 histone variant H3.3 沉積到 telomere、pericentric heterochromatin 與內源性反轉錄病毒上。這種標的性沉積正是該複合體在這些重複序列豐富的位點建立並維持異染色質的方式。"
+    },
+    "confidence": 0.95,
+    "source_document": "DAXX.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "7c0af1f3c72b",
+    "subject": "DAXX",
+    "predicate": "is_associated_with",
+    "object": "Telomere",
+    "context": {
+      "en-US": "Through H3.3 deposition at telomeres, DAXX maintains telomeric chromatin; conversely, its loss can drive the alternative lengthening of telomeres (ALT) pathway. The DAXX-ATRX axis therefore links maintenance of telomere heterochromatin with the telomere attrition seen in aging and cancer.",
+      "zh-TW": "透過在 telomere 沉積 H3.3，DAXX 維持 telomeric chromatin；反之，其喪失可能啟動 telomere 的 ALT 途徑。因此 DAXX-ATRX 軸將 telomere 異染色質的維持與老化及癌症中所見的 telomere attrition 連結起來。"
+    },
+    "confidence": 0.85,
+    "source_document": "DAXX.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "e69d575a1f88",
+    "subject": "DDX3X",
+    "predicate": "activates",
+    "object": "β-Catenin",
+    "context": {
+      "en-US": "DDX3X activates Wnt signaling by promoting the nuclear accumulation of beta-catenin. Because nuclear beta-catenin is the transcriptional effector of the canonical Wnt pathway, DDX3X sits upstream of beta-catenin-dependent transcription, linking an RNA helicase to proliferative and developmental gene programs.",
+      "zh-TW": "DDX3X 藉由促進 beta-catenin 在細胞核內累積而活化 Wnt 訊號。由於核內的 beta-catenin 是典型 Wnt 路徑的轉錄效應因子，DDX3X 位於 beta-catenin 依賴性轉錄的上游，將一個 RNA helicase 與增殖及發育相關的基因程式連結起來。"
+    },
+    "confidence": 0.9,
+    "source_document": "DDX3X.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "20d782e6df53",
+    "subject": "DDX3X",
+    "predicate": "is_a_type_of",
+    "object": "Tumor Suppressor Gene",
+    "context": {
+      "en-US": "DDX3X acts as an RNA-processing tumor suppressor: recurrent loss-of-function mutations occur in medulloblastoma, melanoma and other tumors, and in WNT-subtype medulloblastoma (~5-10% of cases) it is among the most frequently mutated genes, gating proliferation. Haploinsufficiency may promote genomic instability through defective DNA damage repair and aberrant cell cycle progression.",
+      "zh-TW": "DDX3X 扮演 RNA 處理的腫瘤抑制基因：在 medulloblastoma、melanoma 及其他腫瘤中反覆出現 loss-of-function 突變；在 WNT 次型 medulloblastoma（約 5–10% 病例）中更是突變率最高的基因之一，扮演增殖的守門員。單倍剂量不足可能透過缺陷的 DNA 損傷修復與異常細胞週期進展而促進基因體不穩定。"
+    },
+    "confidence": 0.9,
+    "source_document": "DDX3X.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "48a260a8ee92",
+    "subject": "DDX3X",
+    "predicate": "regulates",
+    "object": "Translation",
+    "context": {
+      "en-US": "DDX3X regulates cap-dependent translation by associating with eIF4E and eIF2alpha, acting as either a translational activator or repressor depending on context. It also participates in the exon junction complex and facilitates mRNA nuclear export, and its depletion causes G1 arrest, so its translational role is tied directly to cell-cycle control.",
+      "zh-TW": "DDX3X 透過與 eIF4E 及 eIF2alpha 結合來調控 cap-dependent 轉譯，並依情境充當轉譯活化因子或抑制因子。它同時參與 exon junction complex 並促進 mRNA 核輸出，且其耗竭會造成 G1 期停滯，因此其轉譯相關功能與細胞週期調控直接相連。"
+    },
+    "confidence": 0.9,
+    "source_document": "DDX3X.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "7d119c3bbca1",
+    "subject": "DDX3X",
+    "predicate": "interacts_with",
+    "object": "p53",
+    "context": {
+      "en-US": "DDX3X engages the p53 pathway through its roles in translation regulation and cell cycle control, adding a second layer of sex-specific cancer biology on top of its own X-linkage. Because males are hemizygous for DDX3X, a single loss-of-function mutation can eliminate this p53-adjacent checkpoint activity in male tumors.",
+      "zh-TW": "DDX3X 透過其轉譯調控與細胞週期調控功能與 p53 路徑相互關聯，在其自身的 X 連結性之外再疊加一層與性別相關的癌症生物學。由於男性對 DDX3X 為半合子，單一 loss-of-function 突變即可在男性腫瘤中消除這項鄰近 p53 的檢查點活性。"
+    },
+    "confidence": 0.75,
+    "source_document": "DDX3X.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "5c31995694f1",
+    "subject": "DDX3Y",
+    "predicate": "is_homolog_of",
+    "object": "DDX3X",
+    "context": {
+      "en-US": "DDX3Y is the Y-chromosome homolog of DDX3X. The two share ATP-dependent RNA unwinding and translation initiation, stress granule and Wnt functions, but the overlap is not identical: X-X female compensation is stronger than X-Y male compensation (36% chrX loss vs 8.2% chrY loss among mutated tumors, P=0.0022), leaving a net female advantage.",
+      "zh-TW": "DDX3Y 是 DDX3X 的 Y 染色體同源基因。兩者共享 ATP 依賴性 RNA 解旋、轉譯起始、stress granule 與 Wnt 功能，但重疊並非完全一致：女性 X-X 補償強於男性 X-Y 補償（在突變腫瘤中 chrX 喪失 36% 對 chrY 喪失 8.2%，P=0.0022），因而保留了淨的女性優勢。"
+    },
+    "confidence": 0.9,
+    "source_document": "DDX3Y.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "609109d23b69",
+    "subject": "DDX3Y",
+    "predicate": "compensates_for",
+    "object": "DDX3X",
+    "context": {
+      "en-US": "Because males are hemizygous for DDX3X, DDX3Y provides the only backup against a single-hit loss of that X-linked tumor suppressor. Mosaic loss of chromosome Y, common with aging and smoking, removes this backup, and male tumors with EXITS-gene mutations including DDX3X showed a trend toward chrY loss (10.2% vs 5.8%, P=0.077), compounding male vulnerability.",
+      "zh-TW": "由於男性對 DDX3X 為半合子，DDX3Y 是抵抗此 X 連結腫瘤抑制基因單一擊失活的唯一備援。染色體 Y 的嵌合性喪失（常見於老化與吸菸）會移除此備援，而帶有包含 DDX3X 在內之 EXITS 基因突變的男性腫瘤呈現朝向 chrY 喪失的趨勢（10.2% 對 5.8%，P=0.077），進一步加重男性的脆弱性。"
+    },
+    "confidence": 0.85,
+    "source_document": "DDX3Y.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "b9a6b2895a2b",
+    "subject": "DDX3Y",
+    "predicate": "is_associated_with",
+    "object": "EXITS",
+    "context": {
+      "en-US": "DDX3Y is the Y-homolog corollary to the EXITS (Escape from X-Inactivation Tumor Suppressors) framework. Because DDX3Y is not a fully equivalent tumor suppressor, its presence cannot erase the sex-biased mutation pattern that the EXITS genes show across 21 tumor types.",
+      "zh-TW": "DDX3Y 是 EXITS（Escape from X-Inactivation Tumor Suppressors）框架的 Y 同源補充說明。由於 DDX3Y 並非完全等效的腫瘤抑制基因，其存在無法抹消 EXITS 基因在 21 種腫瘤中呈現的性別偏倚突變型態。"
+    },
+    "confidence": 0.8,
+    "source_document": "DDX3Y.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "6803fb7cceeb",
+    "subject": "HRI",
+    "predicate": "phosphorylates",
+    "object": "eIF2α",
+    "context": {
+      "en-US": "Activated HRI phosphorylates the translation initiation factor eIF2alpha, which globally attenuates cap-dependent protein synthesis while selectively promoting translation of stress-adaptive mRNAs, most notably ATF4. Slowing protein production lowers the folding burden on stressed mitochondria and launches transcriptional programs for metabolic remodeling and redox defense.",
+      "zh-TW": "被活化的 HRI 磷酸化轉譯起始因子 eIF2alpha，全域性抑制 cap-dependent 蛋白質合成，同時選擇性促進壓力適應性 mRNA（最具代表性者為 ATF4）的轉譯。降低蛋白質產量可減輕受壓粒線體的摺疊負擔，並啟動代謝重塑與氧化還原防禦的轉錄程式。"
+    },
+    "confidence": 0.95,
+    "source_document": "DELE1.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "cea89e219800",
+    "subject": "DELE1",
+    "predicate": "activates",
+    "object": "Integrated Stress Response",
+    "context": {
+      "en-US": "DELE1 couples detection of mitochondrial dysfunction at the inner membrane to activation of the cytosolic integrated stress response. Depending on the intensity and duration of stress, the outcome of this OMA1-DELE1-HRI signaling ranges from adaptive recovery to induction of apoptosis, and the pathway is implicated in neurodegeneration, cardiomyopathy and metabolic disease.",
+      "zh-TW": "DELE1 將內膜對粒線體功能失調的偵測與細胞質 integrated stress response 的活化耦合起來。此 OMA1-DELE1-HRI 訊號的結果依壓力的強度與持續時間而定，可從適應性恢復一路延伸至 apoptosis 的誘導；該途徑與神經退化、心肌病變及代謝疾病皆有關聯。"
+    },
+    "confidence": 0.9,
+    "source_document": "DELE1.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "b27f11e8851a",
+    "subject": "DELE1",
+    "predicate": "is_activated_by",
+    "object": "Mitochondrial Dysfunction",
+    "context": {
+      "en-US": "Mitochondrial dysfunction is the upstream trigger that DELE1 senses and relays: loss of membrane potential, failed protein import, misfolded protein accumulation and heme depletion all lead to OMA1 activation and DELE1 cleavage. DELE1 thus functions as a mitochondrial stress sensor on the route from organelle damage to whole-cell translational reprogramming.",
+      "zh-TW": "Mitochondrial dysfunction 是 DELE1 所感知並中繼的上游觸發因子：膜電位喪失、蛋白質輸入失敗、錯誤摺疊蛋白累積與 heme 耗竭都會導致 OMA1 活化與 DELE1 被切割。因此 DELE1 扮演粒線體壓力感測器，位於胞器損傷通往全細胞轉譯重編程的路徑上。"
+    },
+    "confidence": 0.9,
+    "source_document": "DELE1.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "0ccca75b0a16",
+    "subject": "DMT1",
+    "predicate": "transports",
+    "object": "Iron",
+    "context": {
+      "en-US": "DMT1 (SLC11A2) is a proton-coupled symporter that moves Fe2+ - and also Mn2+, Zn2+ and Cd2+ - from endosomes into the cytosol down its electrochemical gradient in exchange for H+. It is the gateway that releases transferrin-derived iron into the cytosol and is essential for dietary iron absorption, erythroid iron supply and recycling from macrophages.",
+      "zh-TW": "DMT1 (SLC11A2) 是質子共運輸對接蛋白，以 H+ 交換、順其電化學梯度將 Fe2+（以及 Mn2+、Zn2+、Cd2+）由內體運送至細胞質。它是將 transferrin 來源鐵釋放至細胞質的關口，且對膳食鐵吸收、紅血球前驅細胞鐵供應與巨噬細胞鐵回收皆不可或缺。"
+    },
+    "confidence": 0.95,
+    "source_document": "DMT1.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "cc90de4d5dd2",
+    "subject": "DMT1",
+    "predicate": "enables",
+    "object": "Fenton Reaction",
+    "context": {
+      "en-US": "DMT1 expands the labile iron pool by importing STEAP3-reduced Fe2+ into the cytosol, and it is this labile iron that powers the Fenton reaction. DMT1 is therefore the downstream effector of the transferrin cycle for cytosolic iron delivery; blocking DMT1 or upstream TFR1/STEAP3 starves the Fenton reaction and protects against erastin-induced ferroptosis.",
+      "zh-TW": "DMT1 藉由將 STEAP3 還原後的 Fe2+ 送入細胞質而擴大 labile iron pool，而正是這些 labile iron 驅動 Fenton reaction。因此 DMT1 是 transferrin cycle 在細胞質鐵供應上的下游效應因子；阻斷 DMT4 或上游的 TFR1/STEAP3 會使 Fenton reaction 缺乏鐵源，並防止 erastin 誘發的 ferroptosis。"
+    },
+    "confidence": 0.9,
+    "source_document": "DMT1.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "dc86aa76444f",
+    "subject": "DMT1",
+    "predicate": "promotes",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "DMT1 sits on the iron-supply side of the ferroptotic cascade: the iron it delivers fuels Fenton chemistry that peroxidates PUFA-phospholipids, and when GPX4/FSP1 antioxidant capacity is exceeded ferroptosis is executed. Enhanced DMT1-mediated iron import therefore sensitizes cells and tumors to iron-dependent cell death.",
+      "zh-TW": "DMT1 位於 ferroptosis 級聯的鐵供應端：其送入的鐵驅動 Fenton 化學反應，使 PUFA-phospholipids 過氧化；當 GPX4/FSP1 的抗氧化容量被超越時，ferroptosis 便被執行。因此 DMT1 介導的鐵輸入增強會使細胞與腫瘤對鐵依賴性細胞死亡更加敏感。"
+    },
+    "confidence": 0.9,
+    "source_document": "DMT1.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "cf40c4493338",
+    "subject": "STEAP3",
+    "predicate": "is_required_for",
+    "object": "DMT1",
+    "context": {
+      "en-US": "STEAP3 is required for DMT1: after transferrin-Fe3+ is endocytosed via transferrin receptor 1, STEAP3 reduces Fe3+ to Fe2+ on the endosomal membrane, and only this Fe2+ is the substrate DMT1 can import. STEAP3 thus sets the oxidation state of the iron that reaches the cytosol.",
+      "zh-TW": "STEAP3 是 DMT1 的必要前提：transferrin-Fe3+ 經 transferrin receptor 1 內吞後，STEAP3 在內體膜上將 Fe3+ 還原為 Fe2+，而只有這種 Fe2+ 才是 DMT1 能輸入的受質。因此 STEAP3 決定了進入細胞質的鐵的氧化態。"
+    },
+    "confidence": 0.9,
+    "source_document": "DMT1.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "79e735ff6017",
+    "subject": "Base Excision Repair",
+    "predicate": "repairs",
+    "object": "8-oxo-2'-deoxyguanosine",
+    "context": {
+      "en-US": "Base excision repair is the primary pathway for repairing 8-oxo-2'-deoxyguanosine, the signature oxidative DNA adduct produced by reactive oxygen species. Its efficiency directly sets how much oxidative DNA damage is converted into mutations, making it a key defense against the genomic instability that accompanies aging.",
+      "zh-TW": "Base excision repair 是修復 8-oxo-2'-deoxyguanosine 的主要路徑；此物質是 reactive oxygen species 產生的代表性氧化 DNA 加合物。其效率直接決定多少氧化性 DNA 損傷會被轉化為突變，因此是對抗老化伴隨之 genomic instability 的關鍵防線。"
+    },
+    "confidence": 0.9,
+    "source_document": "DNA Repair.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "66d94622539b",
+    "subject": "DNA Damage",
+    "predicate": "contributes_to",
+    "object": "Senescence",
+    "context": {
+      "en-US": "Accumulation of unrepaired DNA damage is a primary hallmark of aging and a direct contributor to cellular senescence. Because persistent damage signalling cannot be resolved, damaged cells enter stable arrest, which links the DNA repair machinery's declining efficiency in aging to the senescent state and the SASP.",
+      "zh-TW": "未修復 DNA 損傷的累積是老化的主要特徵之一，也是 cellular senescence 的直接促成因素。由於持續的損傷訊號無法被解決，受損細胞會進入穩定停滯，這把老化中 DNA repair 機制效率下降與 senescent state 及 SASP 連結起來。"
+    },
+    "confidence": 0.85,
+    "source_document": "DNA Repair.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "af379421032c",
+    "subject": "DNA-PK",
+    "predicate": "phosphorylates",
+    "object": "γH2AX",
+    "context": {
+      "en-US": "DNA-PK, together with ATM and ATR, phosphorylates histone H2AX to form gamma-H2AX foci at DNA double-strand breaks. Gamma-H2AX is therefore the experimental readout of DNA-PK kinase activity and of double-strand break damage, which is why gamma-H2AX elevation after fenbendazole treatment in A375 cells is interpreted as evidence of induced DNA damage.",
+      "zh-TW": "DNA-PK 與 ATM、ATR 一起磷酸化 histone H2AX，在 DNA 雙股斷裂處形成 gamma-H2AX 焦點。因此 gamma-H2AX 是 DNA-PK kinase 活性與雙股斷裂損傷的實驗判讀指標；這也是 A375 細胞在 fenbendazole 處理後 gamma-H2AX 升高會被解讀為 DNA 損傷被誘發的證據的原因。"
+    },
+    "confidence": 0.9,
+    "source_document": "DNA-PK.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "aa36a428e2bb",
+    "subject": "DNA-PK",
+    "predicate": "is_required_for",
+    "object": "DNA Repair",
+    "context": {
+      "en-US": "DNA-PK (catalytic subunit PRKDC) is a serine/threonine kinase central to the non-homologous end-joining pathway of DNA repair, where it provides the end recognition and kinase activity needed to rejoin broken chromosome ends. It is thus an essential member, with ATM and ATR, of the DNA damage response network.",
+      "zh-TW": "DNA-PK（催化次單元 PRKDC）是 DNA repair 中 non-homologous end-joining 路徑的核心絲胺酸/蘇胺酸 kinase，在其中提供重新接合斷裂染色體末端所需的末端辨識與 kinase 活性。因此它是 DNA damage response 網路中與 ATM、ATR 並列的必要成員。"
+    },
+    "confidence": 0.9,
+    "source_document": "DNA-PK.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "d81ef1715775",
+    "subject": "Fenbendazole",
+    "predicate": "induces",
+    "object": "γH2AX",
+    "context": {
+      "en-US": "Fenbendazole elevates gamma-H2AX in A375 cells. Because gamma-H2AX foci are deposited by ATM, ATR and DNA-PK at double-strand breaks, this rise is read as a marker of fenbendazole-induced DNA damage rather than as a direct effect on any H2AX-directed enzyme.",
+      "zh-TW": "Fenbendazole 會使 A375 細胞中的 gamma-H2AX 升高。由於 gamma-H2AX 焦點是由 ATM、ATR 與 DNA-PK 在雙股斷裂處沉積而成，此升高應解讀為 fenbendazole 誘發 DNA 損傷的標記，而非對任何 H2AX 標的酵素的直接作用。"
+    },
+    "confidence": 0.8,
+    "source_document": "DNA-PK.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "3ad2ee320604",
+    "subject": "DNASE2",
+    "predicate": "degrades",
+    "object": "DNA",
+    "context": {
+      "en-US": "DNASE2 (deoxyribonuclease II) is the acid endolysosomal nuclease that degrades DNA within late endosomes and lysosomes, working optimally in the acidic lumen. It is the major enzyme clearing DNA from apoptotic bodies and from the cytosol after autophagic or endocytic clearance of chromatin, which is what normally prevents cytosolic DNA fragment accumulation.",
+      "zh-TW": "DNASE2 (deoxyribonuclease II) 是在 late endosome 與 lysosome 內降解 DNA 的酸性核酸內切酶，在酸性腔內活性最佳。它是清除 apoptotic body 中 DNA，以及在自噬或內吞清除染色質後清除細胞質 DNA 的主要酵素，正是它防止了細胞質 DNA 片段的累積。"
+    },
+    "confidence": 0.95,
+    "source_document": "DNASE2.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "a3b8dafa9cd8",
+    "subject": "DNASE2",
+    "predicate": "is_downregulated_by",
+    "object": "Senescent Cells",
+    "context": {
+      "en-US": "In senescent cells, DNASE2 is transcriptionally downregulated together with the cytosolic exonuclease TREX1. Persistent DNA damage therefore no longer resolves, the resulting cytosolic DNA activates cGAS-STING, and a type-I interferon plus NF-kB response emerges that is a major engine of the SASP - making DNASE2 loss a senescence-intrinsic mechanism rather than an extrinsic trigger.",
+      "zh-TW": "在 senescent cells 中，DNASE2 與細胞質外切核酸酶 TREX1 一同被轉錄性下調。因此持續存在的 DNA 損傷不再被解決，產生的細胞質 DNA 活化 cGAS-STING，並引發 type-I interferon 與 NF-κB 反應，成為 SASP 的主要動力來源；這使 DNASE2 的喪失成為一種 senescent 內在機制而非外在觸發因素。"
+    },
+    "confidence": 0.95,
+    "source_document": "DNASE2.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "5499346950b6",
+    "subject": "TREX1",
+    "predicate": "degrades",
+    "object": "DNA",
+    "context": {
+      "en-US": "TREX1 is the cytosolic exonuclease that, together with the endolysosomal DNASE2, degrades cytoplasmic DNA. Both are transcriptionally downregulated in senescence, so their joint loss is what allows cytosolic chromatin to persist; in humans, impaired DNASE2/TREX1 DNA clearance links cellular senescence to autoimmune and autoinflammatory disease.",
+      "zh-TW": "TREX1 是細胞質外切核酸酶，與內體溶體的 DNASE2 一同降解細胞質 DNA。兩者在 senescence 中皆被下調，因此兩者的共同喪失才使細胞質染色質得以持續存在；在人類，DNASE2/TREX1 的 DNA 清除受損會將 cellular senescence 與自體免疫及自體發炎性疾病連結起來。"
+    },
+    "confidence": 0.85,
+    "source_document": "DNASE2.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "1b870bf65608",
+    "subject": "DNASE2",
+    "predicate": "contributes_to",
+    "object": "SASP",
+    "context": {
+      "en-US": "Through its effect on cytosolic DNA clearance, DNASE2 loss promotes the SASP: undegraded DNA is sensed by cGAS to activate STING, IRF3 and NF-kB. DNASE2 deficiency in mice causes severe chronic polyarthritis and lethal anemia from uncontrolled STING activation, which is why restoring nuclease function is a candidate anti-SASP strategy.",
+      "zh-TW": "DNASE1 經由影響細胞質 DNA 清除而促進 SASP：未被降解的 DNA 被 cGAS 感知並活化 STING、IRF3 與 NF-κB。小鼠 DNASE2 缺乏會因 STING 失控活化造成嚴重慢性多發性關節炎與致死性貧血，因此恢復核酸酶功能是候選的 anti-SASP 策略。"
+    },
+    "confidence": 0.85,
+    "source_document": "DNASE2.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "47c602cf590c",
+    "subject": "DNASE2",
+    "predicate": "inhibits",
+    "object": "cGAS-STING Pathway",
+    "context": {
+      "en-US": "DNASE2 normally restrains the cGAS-STING pathway by degrading the DNA that cGAS would otherwise sense. When DNASE2 is lost, DNA persists as micronuclei and cytosolic chromatin, is detected by cGAS, and activates STING, IRF3 and NF-kB - so the normal action of DNASE2 is suppression of this innate immune pathway.",
+      "zh-TW": "DNASE2 正常情況下藉由降解否則會被 cGAS 感知的 DNA，抑制 cGAS-STING pathway。當 DNASE2 喪失時，DNA 以 micronuclei 與細胞質染色質的形式持續存在，被 cGAS 偵測並活化 STING、IRF3 與 NF-κB；因此 DNASE2 的正常作用就是抑制這條先天免疫路徑。"
+    },
+    "confidence": 0.85,
+    "source_document": "DNASE2.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "9cccc54b05ea",
+    "subject": "DNM2",
+    "predicate": "contributes_to",
+    "object": "Mitochondrial Fission",
+    "context": {
+      "en-US": "DNM2 is a dynamin-like GTPase recruited to the DRP1-constricted mitochondrion to assemble and complete the final membrane scission event of mitochondrial fission. While DRP1 initiates constriction at the outer mitochondrial membrane, DNM2 contributes to maturation and severing of the division furrow, so it is an accessory rather than essential fission GTPase.",
+      "zh-TW": "DNM2 是一個 dynamin-like GTPase，會被招募至被 DRP1 收縮的粒線體上，組裝並完成 mitochondrial fission 最後的膜切割步驟。DRP1 在 outer mitochondrial membrane 啟動收縮，而 DNM2 協助分裂溝的成熟與切斷，因此它是輔助而非必要的 fission GTPase。"
+    },
+    "confidence": 0.9,
+    "source_document": "DNM2.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "1dc2a069abeb",
+    "subject": "DNM2",
+    "predicate": "interacts_with",
+    "object": "DRP1",
+    "context": {
+      "en-US": "DNM2 is functionally related to DRP1: it is recruited to mitochondria already constricted by DRP1 and complements DRP1 and its adaptors MFF, MID49, MID51 and FIS1. This layered arrangement, with evidence that DRP1 alone can constrict and sever mitochondria, makes DNM2 often dispensable for fission and illustrates the redundancy of mitochondrial division control.",
+      "zh-TW": "DNM2 與 DRP1 在功能上相關：它被招募至已被 DRP1 收縮的粒線體，並補足 DRP1 及其接應蛋白 MFF、MID49、MID51、FIS1 的作用。這種分層配置，加上 DRP1 本身即可收縮並切斷粒線體的證據，使 DNM2 在多數情況下對 fission 而言並非必要，也說明粒線體分裂調控的冗餘性。"
+    },
+    "confidence": 0.9,
+    "source_document": "DNM2.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "2c19d420b510",
+    "subject": "DNM2",
+    "predicate": "is_localized_to",
+    "object": "Outer Mitochondrial Membrane",
+    "context": {
+      "en-US": "DNM2 acts at the outer mitochondrial membrane, the site where DRP1 initiates constriction and where the division furrow must ultimately be severed. Its localization to this surface is what allows a cytosolic dynamin-like GTPase to participate in completing organelle division.",
+      "zh-TW": "DNM2 作用於 outer mitochondrial membrane，此處是 DRP1 啟動收縮、以及分裂溝最終必須被切斷的部位。DNM2 定位於此表面，正是讓一個位於細胞質的 dynamin-like GTPase 能參與完成胞器分裂的關鍵。"
+    },
+    "confidence": 0.85,
+    "source_document": "DNM2.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "67ec549c511a",
+    "subject": "DOT1L",
+    "predicate": "is_required_for",
+    "object": "SASP",
+    "context": {
+      "en-US": "DOT1L (KMT4), the sole H3K79 methyltransferase, is required for SASP emergence: knockdown prevents the senescence-associated secretory phenotype while leaving the senescence growth arrest intact. H3K79 methylation is thought to keep chromatin at SASP loci open and permissive, so DOT1L is a senomorphic target rather than a senolytic one.",
+      "zh-TW": "DOT1L (KMT4) 是唯一的 H3K79 methyltransferase，為 SASP 的出現所必需：其 knockdown 可阻止 senescence-associated secretory phenotype，卻不影響 senescence 的生長停滯。H3K79 甲基化被認為能使 SASP 位點的染色質維持開放且具轉錄允許性，因此 DOT1L 是 senomorphic 而非 senolytic 標的。"
+    },
+    "confidence": 0.9,
+    "source_document": "DOT1L.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "f66681631b74",
+    "subject": "MLL1",
+    "predicate": "recruits",
+    "object": "DOT1L",
+    "context": {
+      "en-US": "MLL-fusion oncoproteins in leukemia recruit DOT1L to aberrantly activate HOXA gene expression. This makes DOT1L a druggable dependency of MLL-rearranged leukemia, and it is why the DOT1L inhibitor EPZ-5676 (pinometostat) is in Phase 1 trials for MLL-rearranged and other leukemias.",
+      "zh-TW": "白血病中的 MLL 融合致癌蛋白會招募 DOT1L，以異常活化 HOXA 基因表現。這使 DOT1L 成為 MFL 重排型白血病的可成藥依賴項，也是 DOT1L 抑制劑 EPZ-5676 (pinometostat) 進入 MLL 重排型及其他白血病第一期臨床試驗的原因。"
+    },
+    "confidence": 0.85,
+    "source_document": "DOT1L.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "baaa10727005",
+    "subject": "DOT1L",
+    "predicate": "is_associated_with",
+    "object": "MLL1",
+    "context": {
+      "en-US": "DOT1L sits alongside MLL1, KDM4 and BRD4 in the class of senescence-epigenetic modulators that are selectively required for the secretome but dispensable for the arrest. Within this H3 methylation axis, DOT1L and MLL1 are the fellow H3 methyltransferases whose combined inhibition restricts SASP transcription without reversing growth arrest.",
+      "zh-TW": "DOT1L 與 MLL1、KDM4、BRD4 同屬一類 senescence 表觀遺傳調節因子：對分泌組為必要，但對停滯則可有可無。在這條 H3 甲基化軸上，DOT1L 與 MLL1 是同為 H3 methyltransferase 的搭檔，兩者的抑制可限制 SASP 的轉錄，卻不會逆轉生長停滯。"
+    },
+    "confidence": 0.8,
+    "source_document": "DOT1L.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "add8c7cbee81",
+    "subject": "p53",
+    "predicate": "inhibits",
+    "object": "DPP4",
+    "context": {
+      "en-US": "In colorectal cancer cells, p53 inhibits erastin-induced ferroptosis by blocking DPP4 activity - distinct from p53's ferroptosis-promoting role in other cancers. With p53 present, DPP4 is restrained; upon p53 loss, nuclear accumulation of DPP4 is inhibited and plasma-membrane-associated DPP4 becomes free to drive lipid peroxidation.",
+      "zh-TW": "在 colorectal cancer 細胞中，p53 藉由阻斷 DPP4 活性而抑制 erastin 誘發的 ferroptosis，這與 p53 在其他癌症中促進 ferroptosis 的角色相反。當 p53 存在時 DPP4 受到抑制；p53 喪失後 DPP4 的核內累積受阻，plasma-membrane-associated 的 DPP4 便得以自由驅動脂質過氧化。"
+    },
+    "confidence": 0.9,
+    "source_document": "DPP4.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "1b0edb82c628",
+    "subject": "DPP4",
+    "predicate": "promotes",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "DPP4 (CD26) is a positive regulator of ferroptosis in colorectal cancer: its plasma-membrane-associated form drives lipid peroxidation that leads to ferroptosis. This is a striking tissue-specific reversal, because in most tumors p53 instead promotes ferroptosis via SLC7A11 repression or SAT1/ALOX15 rather than restraining DPP4.",
+      "zh-TW": "DPP4 (CD26) 在 colorectal cancer 中是 ferroptosis 的正向調節因子：其 plasma-membrane-associated 形式驅動導向 ferroptosis 的脂質過氧化。這是一種顯著的組織專一性逆轉，因為在多數腫瘤中 p53 反而藉由抑制 SLC7A11 或透過 SAT1/ALOX15 促進 ferroptosis，而非限制 DPP4。"
+    },
+    "confidence": 0.9,
+    "source_document": "DPP4.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "ae1ae593bdfc",
+    "subject": "DPP4",
+    "predicate": "causes",
+    "object": "Lipid Peroxidation",
+    "context": {
+      "en-US": "Plasma-membrane-associated DPP4 is the proximal cause of lipid peroxidation in colorectal cancer: p53 loss blocks DPP4 nuclear accumulation, redistributing the protease to the plasma membrane where its activity generates the peroxidation that executes ferroptosis. DPP4 is thus a druggable node, already validated in diabetes by gliptins, for tuning ferroptotic therapy responses.",
+      "zh-TW": "在 colorectal cancer 中，plasma-membrane-associated 的 DPP4 是脂質過氧化的近端成因：p53 喪失阻斷 DPP4 的核內累積，使此蛋白酶重新分配至質膜，並由其活性產生導致 ferroptosis 的過氧化作用。因此 DPP4 是一個可成藥的節點（已由 gliptins 在糖尿病中驗證），可用於調節鐵死亡治療的反應。"
+    },
+    "confidence": 0.85,
+    "source_document": "DPP4.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "72efabc1f2a0",
+    "subject": "DPPH",
+    "predicate": "measures",
+    "object": "Antioxidant",
+    "context": {
+      "en-US": "The DPPH assay measures the hydrogen-donating ability of antioxidants. DPPH is a stable free radical dissolved in ethanol at 0.1 mM; when an antioxidant donates hydrogen, DPPH radical is reduced to DPPH-H and absorbance at 518 nm falls. Lower absorbance therefore means higher antioxidant capacity, reported as percent remaining DPPH or as IC50/IC20.",
+      "zh-TW": "DPPH assay 測量抗氧化物的供氫能力。DPPH 為穩定自由基，溶於 ethanol 至 0.1 mM；當抗氧化物提供氫時，DPPH 自由基被還原為 DPPH-H，518 nm 處的吸光度隨之下降。因此吸光度越低代表抗氧化能力越高，結果以剩餘 DPPH 百分比或 IC50/IC20 表示。"
+    },
+    "confidence": 0.9,
+    "source_document": "DPPH.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "3240ca3f99fe",
+    "subject": "Resveratrol",
+    "predicate": "reduces",
+    "object": "DPPH",
+    "context": {
+      "en-US": "Resveratrol significantly reduced DPPH free radical content in a concentration-dependent manner over 0-50 uM (r2 = 0.96, p = 0.0032), with over half the total activity occurring in the first 30 minutes. At identical concentrations resveratrol and vitamin E showed equivalent DPPH scavenging activity, with rapid kinetics for both.",
+      "zh-TW": "Resveratrol 在 0–50 µM 範圍內以濃度依賴方式顯著降低 DPPH 自由基含量（r² = 0.96，p = 0.0032），且超過一半的活性在前 30 分鐘內出現。在相同濃度下，resveratrol 與 vitamin E 展現相等的 DPPH 清除活性，兩者的動力學皆十分快速。"
+    },
+    "confidence": 0.9,
+    "source_document": "DPPH.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "4d01f4effe4f",
+    "subject": "Vitamin E",
+    "predicate": "reduces",
+    "object": "DPPH",
+    "context": {
+      "en-US": "Vitamin E scavenges DPPH radicals as effectively as resveratrol at identical concentrations, with more than 50% of activity within the first 30 minutes. This head-to-head equivalence is what supports interpreting both compounds as comparably potent chain-breaking or hydrogen-donating antioxidants under assay conditions.",
+      "zh-TW": "Vitamin E 在相同濃度下清除 DPPH 自由基的效果與 resveratrol 相當，超過 50% 的活性出現在前 30 分鐘內。這項一對一的等效性，支持將兩者皆解讀為在 assay 條件下效力相當的鏈斷裂型或供氫型抗氧化劑。"
+    },
+    "confidence": 0.85,
+    "source_document": "DPPH.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "c33e6a8a4d01",
+    "subject": "DSRM-3716",
+    "predicate": "inhibits",
+    "object": "SARM1",
+    "context": {
+      "en-US": "DSRM-3716 is a second-generation SARM1 inhibitor, a non-covalent small molecule that blocks SARM1 NADase activity at low nanomolar IC50 with greater potency and selectivity than the covalent inhibitor disulfiram. By inhibiting SARM1 it protects axons from Wallerian degeneration, targeting chemotherapy-induced peripheral neuropathy, traumatic brain injury and chronic peripheral neuropathy.",
+      "zh-TW": "DSRM-3716 是第二代的 SARM1 抑制劑，為非共價小分子，以低奈莫耳 IC50 阻斷 SARM1 的 NADase 活性，效力與選擇性皆優於共價抑制劑 disulfiram。透過抑制 SARM1，它可保護軸突免於 Wallerian degeneration，適應症涵蓋化療引發的周邊神經病變、traumatic brain injury 與慢性周邊神經病變。"
+    },
+    "confidence": 0.95,
+    "source_document": "DSRM-3716.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "a4c498e32d80",
+    "subject": "DSRM-3716",
+    "predicate": "binds",
+    "object": "SARM1",
+    "context": {
+      "en-US": "DSRM-3716 binds by occupying the NAD+-binding pocket of the SARM1 TIR dimer without covalent modification. This non-covalent, adduct-forming uncompetitive mode of binding is the same inhibitor logic applied to the CD38 inhibitor 78c, since both SARM1 and CD38 are NAD+ glycohydrolases.",
+      "zh-TW": "DSRM-3716 藉由佔據 SARM1 TIR 二聚體的 NAD+-binding pocket 而結合，且不進行共價修飾。這種非共價、形成加合物型的非競爭性結合模式，與 CD38 抑制劑 78c 所採用的抑制邏輯相同，因為 SARM1 與 CD38 都是 NAD+ glycohydrolase。"
+    },
+    "confidence": 0.9,
+    "source_document": "DSRM-3716.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "231d36a505cf",
+    "subject": "DSRM-3716",
+    "predicate": "protects_against",
+    "object": "Wallerian Degeneration",
+    "context": {
+      "en-US": "By blocking SARM1 NADase activity, DSRM-3716 protects axons from Wallerian degeneration. Because SARM1 is the principal effector of axon degeneration downstream of injury, its pharmacological blockade interrupts the self-executing degeneration program rather than merely slowing its progression.",
+      "zh-TW": "藉由阻斷 SARM1 的 NADase 活性，DSRM-3716 可保護軸突免於 Wallerian degeneration。由於 SARM1 是受損後軸突退化的主要效應因子，其藥理阻斷是直接中斷這個自我執行的退化程式，而不只是減緩其進展。"
+    },
+    "confidence": 0.9,
+    "source_document": "DSRM-3716.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "fc522ce22fe5",
+    "subject": "DSRM-3716",
+    "predicate": "competes_with",
+    "object": "Disulfiram",
+    "context": {
+      "en-US": "DSRM-3716 exists to overcome the promiscuity of disulfiram, the repurposed covalent inhibitor of SARM1. Because disulfiram reacts nonspecifically with protein thiols, DSRM-3716 was developed as a non-covalent, high-selectivity alternative occupying the same TIR NAD+ pocket without off-target adduct formation.",
+      "zh-TW": "DSRM-3716 的存在是為了克服 disulfiram 這項被重新定位使用的 SARM1 共價抑制劑的選擇性不足問題。由於 disulfiram 會與蛋白質 thiol 非專一性地反應，DSRM-3716 因此被開發為非共價、高選擇性的替代物，佔據相同的 TIR NAD+ pocket 而不產生離靶加合物。"
+    },
+    "confidence": 0.85,
+    "source_document": "DSRM-3716.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "02ceed38bea2",
+    "subject": "Damage-Associated Molecular Patterns",
+    "predicate": "drives",
+    "object": "SASP",
+    "context": {
+      "en-US": "Mitochondrial damage-associated molecular patterns convert mitochondrial dysfunction into innate immune activation, making them the mechanistic bridge between metabolic defects and the SASP. Blocking mtDNA release, for example by BAX inhibition, reduces SASP expression in bone and improves healthspan measures, validating DAMPs as SASP drivers.",
+      "zh-TW": "粒線體的 damage-associated molecular patterns 將粒線體功能失調轉換為先天免疫活化，因此是代謝缺陷與 SASP 之間的機制性橋樑。例如藉由抑制 BAX 阻斷 mtDNA 釋放，可降低骨骼中的 SASP 表現並改善健康壽命指標，證實 DAMPs 確為 SASP 的驅動因子。"
+    },
+    "confidence": 0.9,
+    "source_document": "Damage-Associated Molecular Patterns.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "26b8e2d8106f",
+    "subject": "mtDNA",
+    "predicate": "activates",
+    "object": "TLR9",
+    "context": {
+      "en-US": "When released from mitochondria into the cytosol or extracellular space via minority MOMP, mtDNA carries unmethylated CpG islands that are recognized by TLR9 in endosomes. Circulating mtDNA rises with age and tracks inflammatory cytokines, and extracellular TFAM bound to mtDNA engages RAGE on plasmacytoid dendritic cells to enable internalization and subsequent TLR9 recognition.",
+      "zh-TW": "當 mtDNA 經 minority MOMP 由粒線體釋放至細胞質或細胞外空間時，其帶有未甲基化的 CpG islands，可被 endosome 中的 TLR9 辨識。循環中的 mtDNA 隨老化上升並與發炎細胞激素相關；此外，與 mtDNA 結合的胞外 TFAM 會接合 plasmacytoid dendritic cell 上的 RAGE，使其得以內吞並隨後被 TLR9 辨識。"
+    },
+    "confidence": 0.9,
+    "source_document": "Damage-Associated Molecular Patterns.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "5fc8e030d833",
+    "subject": "Cardiolipin",
+    "predicate": "is_activated_by",
+    "object": "NLRP3",
+    "context": {
+      "en-US": "Cardiolipin accumulates in senescent cells and can itself induce senescence while activating the NLRP3 inflammasome. This makes cardiolipin a self-amplifying DAMP: mitochondrial damage releases it, and the resulting inflammasome activation converts the same damage into IL-1beta-driven inflammation.",
+      "zh-TW": "Cardiolipin 在 senescent cells 中累積，本身即可誘發 senescence，同時活化 NLRP3 inflammasome。這使 cardiolipin 成為自我增幅的 DAMP：粒線體損傷釋放它，而隨後的 inflammasome 活化又把同一份損傷轉化為 IL-1β 驅動的發炎反應。"
+    },
+    "confidence": 0.85,
+    "source_document": "Damage-Associated Molecular Patterns.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "39e9e94daba2",
+    "subject": "TFAM",
+    "predicate": "binds",
+    "object": "RAGE",
+    "context": {
+      "en-US": "Extracellular TFAM is pro-inflammatory, and when bound to mtDNA it engages RAGE on plasmacytoid dendritic cells. RAGE-mediated internalization then allows the TFAM-mtDNA complex to reach the endosomal TLR9, coupling TFAM release from dying mitochondria to nucleic acid sensing.",
+      "zh-TW": "胞外的 TFAM 具有促發炎作用，且在與 mtDNA 結合時會接合 plasmacytoid dendritic cell 上的 RAGE。經 RAGE 介導的內吞後，TFAM-mtDNA 複合體得以抵達 endosomal 的 TLR9，將死亡粒線體釋放 TFAM 與核酸感知耦合起來。"
+    },
+    "confidence": 0.85,
+    "source_document": "Damage-Associated Molecular Patterns.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "fbc60635964e",
+    "subject": "Dasatinib",
+    "predicate": "cooperates_with",
+    "object": "Quercetin",
+    "context": {
+      "en-US": "Dasatinib combined with quercetin is the lead senolytic combination in idiopathic pulmonary fibrosis, clearing senescent cells via BCL-2/PI3K-AKT signalling. A phase I pilot showed improved physical function and acceptable safety, which is why the pair rather than dasatinib alone is the clinically advanced senolytic regimen.",
+      "zh-TW": "Dasatinib 與 quercetin 的組合是 idiopathic pulmonary fibrosis 中領先的 senolytic 組合，透過 BCL-2/PI3K-AKT 訊號清除 senescent cells。第一期先導試驗顯示體能功能改善且安全性可接受，因此臨床推進中的 senolytic 方案是這個藥對，而非單獨使用 dasatinib。"
+    },
+    "confidence": 0.9,
+    "source_document": "Dasatinib.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "0ab4c122285b",
+    "subject": "Dasatinib",
+    "predicate": "is_a",
+    "object": "Senolytics",
+    "context": {
+      "en-US": "Dasatinib is a component of senolytic therapy: in the dasatinib plus quercetin combination it clears senescent cells through inhibition of BCL-2/PI3K-AKT-dependent anti-apoptotic survival signalling. As a tool compound it is also used to probe biological mechanisms beyond senescence.",
+      "zh-TW": "Dasatinib 是 senolytic 療法的組成成分：在 dasatinib 加 quercetin 的組合中，它藉由抑制 BCL-2/PI3K-AKT 依賴的抗凋亡存活訊號來清除 senescent cells。作為工具化合物，它也被用於探討 senescence 之外的生物機制。"
+    },
+    "confidence": 0.85,
+    "source_document": "Dasatinib.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "57b0d62e9f0a",
+    "subject": "Dasatinib",
+    "predicate": "treats",
+    "object": "Idiopathic Pulmonary Fibrosis",
+    "context": {
+      "en-US": "The dasatinib plus quercetin combination has been tested in idiopathic pulmonary fibrosis, where a phase I pilot showed improved physical function and acceptable safety. Because idiopathic pulmonary fibrosis is accompanied by senescent cell accumulation, the trial frames this senolytic pair as a disease-modifying strategy for the fibrotic lung.",
+      "zh-TW": "Dasatinib 加 quercetin 的組合曾在 idiopathic pulmonary fibrosis 中進行測試，第一期先導試驗顯示體能功能改善且安全性可接受。由於 idiopathic pulmonary fibrosis 伴隨 senescent cell 累積，該試驗將此 senolytic 藥對定位為纖維化肺部的疾病修正策略。"
+    },
+    "confidence": 0.8,
+    "source_document": "Dasatinib.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "8b8bacac6cfd",
+    "subject": "DdCBE",
+    "predicate": "targets",
+    "object": "Mitochondrial DNA",
+    "context": {
+      "en-US": "DddA-derived cytosine base editors target mitochondrial DNA, catalysing C-to-T conversions without introducing double-strand breaks. A split DddA cytidine deaminase, each half fused to a TALE array targeting opposite strands, reassembles its active site on adjacent target sites and so confines editing to the chosen mitochondrial locus.",
+      "zh-TW": "DddA-derived cytosine base editors 以 mitochondrial DNA 為標的，在不產生雙股斷裂的情況下催化 C 轉 T。被切開的 DddA cytidine deaminase 兩半各自融合針對相反股鏈的 TALE 陣列，在相鄰標的位點重新組裝出活性位點，因而將編輯限制在所選定的粒線體位點。"
+    },
+    "confidence": 0.95,
+    "source_document": "DdCBE.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "d2ce7a81534f",
+    "subject": "DdCBE",
+    "predicate": "binds",
+    "object": "TALE",
+    "context": {
+      "en-US": "DdCBE uses TALE repeat arrays as programmable DNA-binding domains: each half of the split DddA is fused to a TALE array, and binding of both monomers to adjacent half-sites brings the deaminase halves together. Because TALE position determines the target, bystander deamination of nearby cytosines remains a design constraint.",
+      "zh-TW": "DdCBE 使用 TALE 重複陣列作為可程式化 DNA 結合結構域：split DddA 的每一半都融合一個 TALE 陣列，而兩個單體同時結合相鄰的半位點便將 deaminase 的兩半帶到一起。由於 TALE 的位置決定標的，附近 cytosine 的旁側脫氨仍是一項設計限制。"
+    },
+    "confidence": 0.9,
+    "source_document": "DdCBE.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "d5a9cda29074",
+    "subject": "DdCBE",
+    "predicate": "is_localized_to",
+    "object": "Mitochondrial Matrix",
+    "context": {
+      "en-US": "DdCBE fusions are imported into the mitochondrial matrix through a mitochondrial targeting sequence and the TOM/TIM translocase machinery, which is the delivery bottleneck for the strategy since large protein fusions must cross both mitochondrial membranes. Import of the editor is what places the DddA activity next to the mtDNA genome.",
+      "zh-TW": "DdCBE 融合蛋白藉由 mitochondrial targeting sequence 與 TOM/TIM 轉位機器被輸入 mitochondrial matrix；由於大型融合蛋白必須穿越兩層粒線體膜，這正是此策略的遞送瓶頸。將編輯器輸入粒線體，會把 DddA 活性帶到 mtDNA 基因組旁邊。"
+    },
+    "confidence": 0.9,
+    "source_document": "DdCBE.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "ec7bae2f4a3a",
+    "subject": "DdCBE",
+    "predicate": "treats",
+    "object": "MELAS",
+    "context": {
+      "en-US": "DdCBE corrects pathogenic point mutations in mitochondrial disease, with correction demonstrated in patient-derived cybrids and, via AAV delivery, in vivo in mouse models such as the m.5024C>T MELAS model. Because the mutant sequence is corrected in situ rather than eliminated, DdCBEs remain effective at homoplasmic or high-heteroplasmy levels where selective genome destruction cannot work.",
+      "zh-TW": "DdCBE 可矯正粒線體疾病中的致病點突變，已在患者來源 cybrid 以及透過 AAV 遞送、於活體小鼠模型（如 m.5024C>T MELAS 模型）中證實其矯正效果。由於突變序列是在原位被矯正而非被清除，DdCBE 在同型合子或高異質性（heteroplasmy）程度下仍有效，而選擇性破壞基因組的方法在此無能為力。"
+    },
+    "confidence": 0.9,
+    "source_document": "DdCBE.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "3703b7b9dd55",
+    "subject": "Deiodinase",
+    "predicate": "produces",
+    "object": "Triiodothyronine",
+    "context": {
+      "en-US": "Deiodinases gatekeep thyroid hormone action at the tissue level by controlling local triiodothyronine availability independently of systemic thyroid status. DIO2 converts thyroxine (T4) to active T3, DIO3 inactivates T4 and T3 to reverse T3, and DIO1 contributes to both activation and inactivation.",
+      "zh-TW": "Deiodinase 在組織層級守護 thyroid hormone 的作用，獨立於全身甲狀腺狀態地調控局部 triiodothyronine 的可用量。DIO2 將 thyroxine (T4) 轉換為活性 T3，DIO3 將 T4 與 T3 去活化為 reverse T3，而 DIO1 則同時參與活化與去活化。"
+    },
+    "confidence": 0.95,
+    "source_document": "Deiodinase.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "81e7b22a9771",
+    "subject": "Deiodinase",
+    "predicate": "is_a",
+    "object": "Selenoprotein",
+    "context": {
+      "en-US": "The three iodothyronine deiodinases DIO1-DIO3 are selenoenzymes, meaning they are translated as proteins containing selenocysteine rather than cysteine. Their dependence on the Sec insertion machinery makes endocrine selenoprotein function contingent on the SECISBP2-dependent recoding system.",
+      "zh-TW": "三種 iodothyronine deiodinase（DIO1–DIO3）皆為 selenoenzyme，亦即它們被轉譯為含有 selenocysteine 而非 cysteine 的蛋白質。其對 Sec 插入機制的依賴，使內分泌 selenoprotein 的功能取決於 SECISBP2 依賴的 recoding 系統。"
+    },
+    "confidence": 0.9,
+    "source_document": "Deiodinase.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "b0fa196b1d20",
+    "subject": "Deiodinase",
+    "predicate": "requires",
+    "object": "Selenocysteine",
+    "context": {
+      "en-US": "Each deiodinase contains an active-site selenocysteine whose selenol is essential for the reductase chemistry; loss of Sec abolishes enzymatic activity. This catalytic selenol is what makes deiodinases redox-sensitive members of the selenoenzyme family.",
+      "zh-TW": "每一種 deiodinase 都含有活性位點的 selenocysteine，其 selenol 對還原酶化學反應不可或缺；Sec 的喪失會使酵素活性消失。正是這個催化性 selenol，使 deiodinase 成為 selenoenzyme 家族中對氧化還原敏感的成員。"
+    },
+    "confidence": 0.95,
+    "source_document": "Deiodinase.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "30be261c4c92",
+    "subject": "SECISBP2",
+    "predicate": "is_required_for",
+    "object": "Deiodinase",
+    "context": {
+      "en-US": "SECISBP2 is required for deiodinase expression: deficiency impairs deiodinase activity and causes abnormal thyroid hormone metabolism despite normal circulating thyroid hormone levels. This illustrates that the selenocysteine insertion machinery gates endocrine selenoprotein function, since deiodinases cannot be made without Sec recoding.",
+      "zh-TW": "SECISBP2 對 deiodinase 的表現是必要的：其缺乏會損害 deiodinase 活性，並在循環 thyroid hormone 濃度正常的情況下造成異常的 thyroid hormone 代謝。這說明 selenocysteine 插入機制會把關內分泌 selenoprotein 的功能，因為沒有 Sec recoding 就無法製造 deiodinase。"
+    },
+    "confidence": 0.9,
+    "source_document": "Deiodinase.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "3e258d560943",
+    "subject": "Denham Harman",
+    "predicate": "proposed",
+    "object": "Free Radical Theory of Aging",
+    "context": {
+      "en-US": "Denham Harman proposed the free radical theory of aging in 1955, postulating that reactive oxygen species produced during aerobic respiration cause cumulative oxidative damage that drives aging. This theory made ROS the central agents of aging for the field and redirected ageing research toward antioxidant biology.",
+      "zh-TW": "Denham Harman 於 1955 年提出 free radical theory of aging，主張 aerobic respiration 過程中產生的 reactive oxygen species 會造成累積性氧化損傷並驅動老化。此理論使 ROS 成為老化研究領域的核心因子，並將老化研究重新導向抗氧化生物學。"
+    },
+    "confidence": 0.95,
+    "source_document": "Denham Harman.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "35924b203018",
+    "subject": "Denham Harman",
+    "predicate": "proposed",
+    "object": "Mitochondrial Free Radical Theory of Aging",
+    "context": {
+      "en-US": "In 1972 Denham Harman refined his free radical theory into the mitochondrial free radical theory of aging, specifically implicating mitochondria as the primary source and the primary target of reactive oxygen species. This localisation sharpened the earlier theory by assigning both origin and damage site to one organelle.",
+      "zh-TW": "1972 年，Denham Harman 將其 free radical theory 精煉為 mitochondrial free radical theory of aging，明確指出 mitochondria 是 reactive oxygen species 的主要來源與主要標的。此項定位為較早的理論增加了精確度，把起源與損傷部位同時指派給同一胞器。"
+    },
+    "confidence": 0.95,
+    "source_document": "Denham Harman.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "826806ed8103",
+    "subject": "Mitochondrial Free Radical Theory of Aging",
+    "predicate": "is_derived_from",
+    "object": "Free Radical Theory of Aging",
+    "context": {
+      "en-US": "The mitochondrial free radical theory of aging is a 1972 refinement of Harman's 1955 free radical theory of aging. The parent theory claimed that cumulative ROS damage drives aging in general; the mitochondrial version adds the specific claim that mitochondria are both the primary source and the primary target of that damage.",
+      "zh-TW": "Mitochondrial free radical theory of aging 是 Harman 1955 年 free radical theory of aging 的 1972 年精煉版。母理論主張累積的 ROS 損傷普遍驅動老化；粒線體版本則加入了更具體的主張：mitochondria 同時是該損傷的主要來源與主要標的。"
+    },
+    "confidence": 0.9,
+    "source_document": "Denham Harman.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "178b8737a8ab",
+    "subject": "Mitochondrial Free Radical Theory of Aging",
+    "predicate": "implicates",
+    "object": "Mitochondria",
+    "context": {
+      "en-US": "The mitochondrial free radical theory of aging implicates mitochondria as both the primary source and the primary target of reactive oxygen species. Because mitochondrial ROS production and damage feedback on respiration itself, the theory turns organelle bioenergetics into the mechanistic centre of the oxidative theory of aging.",
+      "zh-TW": "Mitochondrial free radical theory of aging 將 mitochondria 同時指為 reactive oxygen species 的主要來源與主要標的。由於粒線體的 ROS 產生與損傷會回饋影響呼吸作用本身，此理論把胞器生物能學置於氧化性老化理論的機制核心。"
+    },
+    "confidence": 0.9,
+    "source_document": "Denham Harman.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "0d234f5d7229",
+    "subject": "Gut Microbiome",
+    "predicate": "produces",
+    "object": "Deoxycholic Acid",
+    "context": {
+      "en-US": "Gut bacteria, primarily Clostridium cluster XIVa, produce deoxycholic acid by 7alpha-dehydroxylating cholic acid in the colon. Obesity alters microbial ecology to favour DCA-producing bacteria, so the composition of the gut microbiome, not only diet, sets the level of this secondary bile acid.",
+      "zh-TW": "腸道細菌（主要為 Clostridium cluster XIVa）在大腸中對 cholic acid 進行 7α-去羥化而產生 deoxycholic acid。Obesity 會改變微生物生態以有利於產生 DCA 的細菌，因此 gut microbiome 的組成（不只是飲食）決定了此 secondary bile acid 的量。"
+    },
+    "confidence": 0.9,
+    "source_document": "Deoxycholic Acid.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "44ce367523e7",
+    "subject": "Deoxycholic Acid",
+    "predicate": "induces",
+    "object": "Senescence",
+    "context": {
+      "en-US": "Deoxycholic acid induces senescence in hepatic stellate cells by causing DNA damage through reactive oxygen species generation, direct genotoxic effects on nuclear DNA and activation of the DNA damage response. The resulting persistent damage signalling produces p16 and p21 upregulation, SA-beta-gal activity and SASP secretion, the hallmark features of senescence.",
+      "zh-TW": "Deoxycholic acid 藉由產生 reactive oxygen species、對核 DNA 施加直接基因毒性作用並活化 DNA damage response 而在 hepatic stellate cell 中誘發 senescence。隨後持續的損傷訊號造成 p16 與 p21 上調、SA-β-gal 活性及 SASP 分泌，即 senescent 的典型特徵。"
+    },
+    "confidence": 0.95,
+    "source_document": "Deoxycholic Acid.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "b47d85aa7b75",
+    "subject": "Deoxycholic Acid",
+    "predicate": "targets",
+    "object": "Hepatic Stellate Cells",
+    "context": {
+      "en-US": "Deoxycholic acid delivered to the liver by portal circulation acts specifically on hepatic stellate cells, making them the critical target that converts an intestinal metabolite into a hepatic phenotype. Blocking DCA production lowers HCC incidence in mouse models.",
+      "zh-TW": "經門脈循環送達肝臟的 deoxycholic acid 專門作用於 hepatic stellate cell，使其成為把腸道代謝物轉換為肝臟表型的關鍵標的。阻斷 DCA 的生成可在小鼠模型中降低 HCC 發生率。"
+    },
+    "confidence": 0.9,
+    "source_document": "Deoxycholic Acid.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "bdaf2e13b888",
+    "subject": "Deoxycholic Acid",
+    "predicate": "promotes",
+    "object": "Hepatocellular Carcinoma",
+    "context": {
+      "en-US": "Elevated deoxycholic acid in obesity and high-fat-diet contexts promotes hepatocellular carcinoma through an indirect route: dysbiosis raises DCA, DCA senesces hepatic stellate cells, and the resulting SASP-driven inflammation (IL-1beta, COX-2/PGE2) via cGAS-STING creates a pro-tumorigenic microenvironment. Serum DCA is elevated in obese individuals and correlates with HCC risk.",
+      "zh-TW": "在肥胖與高脂飲食情境中升高的 deoxycholic acid 透過一條間接途徑促進 hepatocellular carcinoma：dysbiosis 升高 DCA，DCA 使 hepatic stellate cell 進入 senescence，隨後經 cGAS-STING 產生的 SASP 驅動發炎（IL-1β、COX-2/PGE2）營造促腫瘤的微環境。肥胖者的 serum DCA 升高並與 HCC 風險相關。"
+    },
+    "confidence": 0.9,
+    "source_document": "Deoxycholic Acid.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "614e1f9af78e",
+    "subject": "Deoxycholic Acid",
+    "predicate": "causes",
+    "object": "DNA Damage",
+    "context": {
+      "en-US": "Deoxycholic acid causes DNA damage in hepatic stellate cells through reactive oxygen species generation, direct genotoxic effects on nuclear DNA, and activation of the DNA damage response. Because the damage persists rather than being resolved, it triggers senescence instead of repair or apoptosis, which is why DCA-senesced cells go on to secrete SASP factors.",
+      "zh-TW": "Deoxycholic acid 透過產生 reactive oxygen species、對核 DNA 施加直接基因毒性作用，以及活化 DNA damage response 而在 hepatic stellate cell 中造成 DNA damage。由於損傷持續存在而未被解決，它觸發的是 senescence 而非修復或 apoptosis；這也是經 DCA 進入 senescent 的細胞會持續分泌 SASP 因子的原因。"
+    },
+    "confidence": 0.9,
+    "source_document": "Deoxycholic Acid.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
+  },
+  {
+    "id": "78409bd46f07",
+    "subject": "Obesity",
+    "predicate": "increases",
+    "object": "Deoxycholic Acid",
+    "context": {
+      "en-US": "Obesity increases deoxycholic acid levels both directly, by raising bile acid secretion under high-fat diets, and indirectly, by altering gut microbial ecology in favour of DCA-producing bacteria. Because DCA is then reabsorbed in the ileum and returned to the liver by enterohepatic circulation, obesity sets both production and delivery of the senescence-inducing metabolite.",
+      "zh-TW": "Obesity 會提高 deoxycholic acid 的濃度：直接原因是高脂飲食下 bile acid 分泌增加，間接原因是 gut microbial ecology 改變而有利於產生 DCA 的細菌。由於 DCA 之後在 ileum 被再吸收並經 enterohepatic circulation 回到肝臟，Obesity 同時決定了這個誘發 senescence 代謝物的生成與運送。"
+    },
+    "confidence": 0.9,
+    "source_document": "Deoxycholic Acid.md",
+    "created": "2026-09-29T15:58:26Z",
+    "updated": "2026-09-29T15:58:26Z"
   }
 ]
