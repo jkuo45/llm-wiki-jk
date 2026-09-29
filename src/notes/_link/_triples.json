@@ -47430,5 +47430,425 @@
     "source_document": "Autoimmune Disease.md",
     "created": "2026-09-29T15:41:28Z",
     "updated": "2026-09-29T15:41:28Z"
+  },
+  {
+    "id": "4d90c8d80cb8",
+    "subject": "CXCL3",
+    "predicate": "binds",
+    "object": "CXCR2",
+    "context": {
+      "en-US": "CXCL3 (GROγ/MIP-2β) is the third member of the ELR+ growth-regulated oncogene cluster and signals through CXCR2 at high affinity, with CXCR1 engaged only weakly. Receptor engagement activates Gαi → PLCβ/IP3/Ca2+, PI3K/Akt and p38 MAPK/ERK cascades, and CXCL3 is a conserved component of the SASP, completing the core ELR+ CXC chemokine cluster with CXCL1 and CXCL2. Because senescent cells secrete CXCL3 and bystander cells express CXCR2, this axis forms a feed-forward loop that reinforces senescence and spreads the phenotype paracrine through tissue.",
+      "zh-TW": "CXCL3（GROγ/MIP-2β）是 ELR+ growth-regulated oncogene 群聚的第三個成員，以高親和力結合 CXCR2，而對 CXCR1 的親和力較弱。受體活化後啟動 Gαi → PLCβ/IP3/Ca2+、PI3K/Akt 與 p38 MAPK/ERK 級聯反應；CXCL3 亦是 SASP 的保守成分，與 CXCL1、CXCL2 共同構成核心 ELR+ CXC 趨化因子群。由於衰老細胞會分泌 CXCL3，而旁觀細胞表現 CXCR2，此軸形成前饋迴路，強化衰老並以旁分泌方式在組織中擴散該表型。"
+    },
+    "confidence": 0.9,
+    "source_document": "CXCL3.md",
+    "created": "2026-09-29T15:46:05Z",
+    "updated": "2026-09-29T15:46:05Z"
+  },
+  {
+    "id": "af804366c9fa",
+    "subject": "CXCL3",
+    "predicate": "recruits",
+    "object": "Neutrophils",
+    "context": {
+      "en-US": "CXCL3 acts as a neutrophil chemoattractant, driving chemotaxis, degranulation and ROS generation in recruited neutrophils. In the liver and pancreas, senescent activated stellate cells secrete CXCL3 to sustain the neutrophilic inflammatory infiltrate implicated in fibrogenesis, which is why CXCR2 antagonists are being evaluated to dampen SASP-driven inflammation and senescence spread. Chronically, this supports inflammaging and tissue dysfunction, although acutely it helps clear damaged cells.",
+      "zh-TW": "CXCL3 作為嗜中性球趨化因子，可驅動被招募嗜中性球的趨化、脫顆粒與 ROS 生成。在肝臟與胰臟中，衰老的活化星狀細胞分泌 CXCL3，以維持與纖維化生成相關的嗜中性球發炎浸潤；因此 CXCR2 拮抗劑正被評估用於抑制 SASP 驅動的發炎與衰老擴散。長期而言，此路徑助長 inflammaging 與組織功能失調，儘管短暫來看它有助於清除受損細胞。"
+    },
+    "confidence": 0.88,
+    "source_document": "CXCL3.md",
+    "created": "2026-09-29T15:46:05Z",
+    "updated": "2026-09-29T15:46:05Z"
+  },
+  {
+    "id": "cf8aa0be6c0a",
+    "subject": "CXCL5",
+    "predicate": "binds",
+    "object": "CXCR2",
+    "context": {
+      "en-US": "CXCL5 (ENA-78) is an ELR+ C-X-C chemokine that engages CXCR2 with high affinity and CXCR1 only weakly, activating Gαi-coupled PLCβ/IP3/Ca2+, PI3K/Akt and p38 MAPK/ERK signaling. It is a SASP component co-induced with CXCL1, CXCL2 and CXCL3 in senescent cells and recruits neutrophils; in reproductive aging, blastocysts derived from aged oocytes secrete CXCL5, which is detrimental to pre-implantation embryo development.",
+      "zh-TW": "CXCL5（ENA-78）是 ELR+ C-X-C 趨化因子，以高親和力結合 CXCR2，對 CXCR1 親和力較弱，啟動 Gαi 偶聯的 PLCβ/IP3/Ca2+、PI3K/Akt 與 p38 MAPK/ERK 訊號。它是 SASP 成分，在衰老細胞中與 CXCL1、CXCL2、CXCL3 共同被誘導，並招募嗜中性球；在生殖老化情境中，來自老化卵母細胞的囊胚會分泌 CXCL5，對著床前胚胎發育造成不利影響。"
+    },
+    "confidence": 0.9,
+    "source_document": "CXCL5.md",
+    "created": "2026-09-29T15:46:05Z",
+    "updated": "2026-09-29T15:46:05Z"
+  },
+  {
+    "id": "b1f84ed3f3cb",
+    "subject": "CXCR2",
+    "predicate": "mediates",
+    "object": "SASP",
+    "context": {
+      "en-US": "CXCR2 is the dominant receptor for the ELR+ C-X-C chemokines (CXCL1-3, CXCL5, IL-8) and is the node through which the neutrophil-directed arm of the SASP acts. Senescent cells secrete IL-8/CXCL1-3 that signal back through CXCR2 in an autocrine/paracrine manner, sustaining senescent growth arrest and amplifying the SASP — a feed-forward loop — and factors from one senescent cell engaging CXCR2 on neighbours drive bystander senescence. Chronic CXCR2 signaling sustains inflammaging, and antagonists such as navarixin and AZD5069 are in trials.",
+      "zh-TW": "CXCR2 是 ELR+ C-X-C 趨化因子（CXCL1-3、CXCL5、IL-8）的主要受體，也是 SASP 中嗜中性球導向分支的作用節點。衰老細胞分泌 IL-8/CXCL1-3，經由 CXCR2 以自分泌／旁分泌方式回饋，維持衰老的生長阻滯並放大 SASP，形成前饋迴路；而某個衰老細胞釋出的因子作用在鄰近細胞的 CXCR2 上，則驅動旁觀者衰老。慢性 CXCR2 訊號會維持 inflammaging，navarixin 與 AZD5069 等拮抗劑已進入臨床試驗。"
+    },
+    "confidence": 0.92,
+    "source_document": "CXCR2.md",
+    "created": "2026-09-29T15:46:05Z",
+    "updated": "2026-09-29T15:46:05Z"
+  },
+  {
+    "id": "ce20f04b7e92",
+    "subject": "CXCR3",
+    "predicate": "binds",
+    "object": "CXCL11",
+    "context": {
+      "en-US": "CXCR3 (CD183) is the G-protein-coupled receptor for the ELR− interferon-inducible chemokines CXCL9, CXCL10 (IP-10) and CXCL11 (I-TAC), with CXCL11 binding at highest affinity. These ligands are induced by type I/II interferons via JAK/STAT1 and by NF-κB, and receptor engagement activates PI3K/Akt, p38 MAPK/ERK and Ca2+ flux to drive polarized chemotaxis and inside-out integrin activation. CXCR3 is constitutively high on Th1 and CD8+ T cells and NK cells.",
+      "zh-TW": "CXCR3（CD183）是 ELR− 干擾素誘導型趨化因子 CXCL9、CXCL10（IP-10）與 CXCL11（I-TAC）的 G 蛋白偶聯受體，其中 CXCL11 的結合親和力最高。這些配體由 I 型／II 型干擾素經 JAK/STAT1 以及 NF-κB 誘導；受體接合後活化 PI3K/Akt、p38 MAPK/ERK 與 Ca2+ flux，驅動極化趨化與 inside-out 型整合素活化。CXCR3 在 Th1 與 CD8+ T 細胞及 NK 細胞上持續高表現。"
+    },
+    "confidence": 0.9,
+    "source_document": "CXCR3.md",
+    "created": "2026-09-29T15:46:05Z",
+    "updated": "2026-09-29T15:46:05Z"
+  },
+  {
+    "id": "48cd3a565ab5",
+    "subject": "CXCR4",
+    "predicate": "is_associated_with",
+    "object": "Endothelial Dysfunction",
+    "context": {
+      "en-US": "CXCR4 (CD184) is the primary GPCR for CXCL12 (SDF-1) and governs hematopoietic stem cell homing, angiogenesis, metastasis and immune cell trafficking. CellChat analysis of senescent endothelial cells showed CXCR4 mRNA rising with aging while functional Cxcl12-Cxcr4 interaction strength fell, shifting the balance toward ACKR3 signaling; this defective intercellular communication may contribute to age-related endothelial dysfunction. Fisetin restored both signaling patterns to young-like levels.",
+      "zh-TW": "CXCR4（CD184）是 CXCL12（SDF-1）的主要 GPCR，調控造血幹細胞歸巢、血管生成、轉移與免疫細胞運輸。對衰老內皮細胞的 CellChat 分析顯示，隨老化 CXCR4 mRNA 上升，但功能性 Cxcl12-Cxcr4 交互作用強度下降，使訊號平衡轉向 ACKR3；這種細胞間溝通缺陷可能促成與年齡相關的內皮功能失調。Fisetin 將兩種訊號模式皆恢復至近似年輕的狀態。"
+    },
+    "confidence": 0.88,
+    "source_document": "CXCR4.md",
+    "created": "2026-09-29T15:46:05Z",
+    "updated": "2026-09-29T15:46:05Z"
+  },
+  {
+    "id": "b5b380fd9510",
+    "subject": "CZ-48",
+    "predicate": "activates",
+    "object": "SARM1",
+    "context": {
+      "en-US": "CZ-48 (sulfo-ara-F-NMN) is a cell-permeant NMN analog that acts as an NMN mimetic binding the SARM1 ARM domain, relieving autoinhibition and driving NADase activation. Activated SARM1 produces cyclic ADP-ribose, depletes NAD+ and ATP, and induces non-apoptotic cell death. CZ-48 is the only known molecule with opposite effects on the two principal NAD+ glycohydrolases: it activates SARM1 while inhibiting CD38, pharmacologically separating two enzymes that share substrate and products.",
+      "zh-TW": "CZ-48（sulfo-ara-F-NMN）是可穿透細胞膜的 NMN 類似物，作為 NMN 擬態結合 SARM1 的 ARM 結構域，解除其自體抑制並驅動 NADase 活化。活化的 SARM1 會產生環腺苷二磷酸核糖（cADPR），耗竭 NAD+ 與 ATP，並誘發非凋亡性細胞死亡。CZ-48 是已知唯一對兩種主要 NAD+ 糖苷水解酶作用相反的分子：它活化 SARM1 卻抑制 CD38， pharmacological 上將這兩個共享底物與產物的酵素區分開來。"
+    },
+    "confidence": 0.92,
+    "source_document": "CZ-48.md",
+    "created": "2026-09-29T15:46:05Z",
+    "updated": "2026-09-29T15:46:05Z"
+  },
+  {
+    "id": "6babb6a3cfce",
+    "subject": "CZ-48",
+    "predicate": "inhibits",
+    "object": "CD38",
+    "context": {
+      "en-US": "Whereas CZ-48 activates SARM1, it inhibits the ecto-enzymatic NADase activity of CD38, reducing extracellular NAD+/NMN consumption. This pharmacological divergence is proof of concept that the two NADases can be separated despite sharing the NAD+ substrate and the same products, and it underpins the NMN-sensitization paradox: raising NMN/NAD+ precursors to inhibit CD38 and feed sirtuins could in principle sensitize SARM1, the tension addressed by combined CD38 + SARM1 inhibition.",
+      "zh-TW": "CZ-48 雖然活化 SARM1，卻會抑制 CD38 的胞外 NADase 活性，降低胞外 NAD+/NMN 的消耗。這種藥理學上的分歧證明了兩個 NADase 雖共享 NAD+ 底物與相同產物仍可被區分開來，也是 NMN 敏化悖論的基礎：為了抑制 CD38 並供應 sirtuin 而提高 NMN/NAD+ 前驅物，原則上可能反而使 SARM1 敏化；此張力正是 CD38 與 SARM1 聯合抑制所要處理的問題。"
+    },
+    "confidence": 0.92,
+    "source_document": "CZ-48.md",
+    "created": "2026-09-29T15:46:05Z",
+    "updated": "2026-09-29T15:46:05Z"
+  },
+  {
+    "id": "16a36afcfc4c",
+    "subject": "Cachexia",
+    "predicate": "is_associated_with",
+    "object": "NAD+",
+    "context": {
+      "en-US": "Cachexia is a metabolic syndrome of involuntary skeletal muscle and adipose loss that nutritional support cannot fully reverse, driven by catabolic inflammation (TNF-α, IL-6) through NF-κB/STAT signaling with impaired mTORC1. NAD+ deficiency is implicated in both cancer- and chemotherapy-induced cachexia, with repletion (e.g. niacin) therapeutic in both settings; Nrk2 downregulation alongside skeletal muscle NAD+ loss is an early robust signature, with cisplatin producing the most severe phenotype.",
+      "zh-TW": "Cachexia 是一種無法單靠營養支持完全逆轉的代謝症候群，表現為骨骼肌與脂肪的非自願性流失，由促分解的發炎（TNF-α、IL-6）經 NF-κB/STAT 訊號並伴隨 mTORC1 受损所驅動。NAD+ 缺乏同時涉入癌症引發與化療引發的 cachexia，補充 NAD+（如菸酸）在兩種情境中都具治療效果；Nrk2 下調並伴隨骨骼肌 NAD+ 流失是早期且穩健的特徵，其中 cisplatin 造成最嚴重的表型。"
+    },
+    "confidence": 0.88,
+    "source_document": "Cachexia.md",
+    "created": "2026-09-29T15:46:05Z",
+    "updated": "2026-09-29T15:46:05Z"
+  },
+  {
+    "id": "c884cb50bb13",
+    "subject": "Calcium Signaling",
+    "predicate": "regulates",
+    "object": "Mitochondrial Fission",
+    "context": {
+      "en-US": "Calcium signaling — the spatiotemporal regulation of intracellular calcium — influences mitochondrial dynamics most importantly at the ER–mitochondria interface (MAMs), where calcium is transferred from the endoplasmic reticulum to mitochondria. Calcium flux at MAMs and calcium-dependent inner-membrane constriction modulate the constrictive machinery executing fission, with INF2 and actin mediating ER-initiated fission. By shifting the fusion/fission equilibrium, calcium signaling integrates ER stress, bioenergetic demand and organelle morphology, and dysregulated handling at MAMs is implicated in neurodegeneration and metabolic disease.",
+      "zh-TW": "鈣訊號（細胞內鈣濃度的時空調控）對粒線體動態學的影響最集中於內質網—粒線體介面（MAMs），鈣離子在此由內質網轉移至粒線體。MAMs 處的鈣flux 與依賴鈣的內膜收縮會調節執行分裂的收縮機構，其中 INF2 與肌動蛋白介導由內質網發起的分裂。藉由改變融合／分裂平衡，鈣訊號整合了內質網壓力、能量需求與胞器形態，而 MAMs 處鈣處理失調與神經退化及代謝疾病有關。"
+    },
+    "confidence": 0.9,
+    "source_document": "Calcium Signaling.md",
+    "created": "2026-09-29T15:46:05Z",
+    "updated": "2026-09-29T15:46:05Z"
+  },
+  {
+    "id": "552f77070569",
+    "subject": "Ca2+ overload",
+    "predicate": "activates",
+    "object": "Calpain",
+    "context": {
+      "en-US": "Ca2+ overload is the sustained rise of cytosolic free calcium from ~100 nM toward micromolar levels after ATP-dependent extrusion fails, via reverse-mode Na+/Ca2+ exchange, voltage-gated channels and ER release. It is a point-of-no-return intermediate in necrosis: calcium activates calpain cysteine proteases, opens the mitochondrial permeability transition pore, stimulates phospholipases and loads mitochondria until membrane potential collapses. Calcium chelation protects renal ischemia-reperfusion and H2O2 models but not MNNG parthanatos, making the step context-obligatory rather than universal.",
+      "zh-TW": "Ca2+ overload 是 ATP 依賴性排出失效後，經由 Na+/Ca2+ 交換體反向模式、電壓閘控通道與內質網釋放，使胞質游離鈣由約 100 nM 上升至微莫耳濃度。它是壞死過程中無法回頭的中間步驟：鈣會活化 calpain 半胱胺酸蛋白酶、開啟粒線體通透性轉換孔、刺激磷脂酶並使粒線體負載鈣，直至膜電位崩潰。鈣螯合可保護腎臟缺血再灌流與 H2O2 模型，但無法保護 MNNG 引發的 parthanatos，顯示此步驟依情境而定並非普遍必要。"
+    },
+    "confidence": 0.9,
+    "source_document": "Ca2+ overload.md",
+    "created": "2026-09-29T15:46:05Z",
+    "updated": "2026-09-29T15:46:05Z"
+  },
+  {
+    "id": "e3dcbd92357f",
+    "subject": "Calpain-2",
+    "predicate": "is_recruited_by",
+    "object": "Caspase-8",
+    "context": {
+      "en-US": "Calpain-2 (m-calpain; CAPN2 with CAPNS1) is a millimolar-Ca2+-dependent cytosolic cysteine protease that acts as the motility effector of the pro-survival Caspase-8 state. Src-family-phosphorylated Caspase-8 scaffolds FAK–Calpain-2–PI3K complexes at focal adhesions, where localized Calpain-2 cleaves talin, vinculin and FAK itself, accelerating adhesion disassembly/reassembly cycles that power mesenchymal migration. Adhesion turnover feeds PI3K/AKT and ERK signaling, creating a feed-forward migration–survival loop in colon cancer and glioblastoma; the same pY-Caspase-8 switch therefore makes Calpain-2 a downstream target of Src inhibition.",
+      "zh-TW": "Calpain-2（m-calpain；CAPN2 搭配 CAPNS1）是毫莫耳 Ca2+ 依賴的胞質半胱胺酸蛋白酶，作為促存活型 Caspase-8 狀態的運動效應器。被 Src 家族磷酸化的 Caspase-8 在焦點黏附處支架化 FAK–Calpain-2–PI3K 複合體，局部化的 Calpain-2 切割 talin、vinculin 與 FAK 本身，加速黏附解體／重組循環以驅動間質細胞遷移。黏附周轉再回饋 PI3K/AKT 與 ERK 訊號，在大腸癌與膠質母細胞瘤中形成遷移—存活的正饋迴路；因此同一個 pY-Caspase-8 轉換使 Calpain-2 成為 Src 抑制的下游標的。"
+    },
+    "confidence": 0.9,
+    "source_document": "Calpain-2.md",
+    "created": "2026-09-29T15:46:05Z",
+    "updated": "2026-09-29T15:46:05Z"
+  },
+  {
+    "id": "259553daabce",
+    "subject": "Canakinumab",
+    "predicate": "neutralizes",
+    "object": "IL-1β",
+    "context": {
+      "en-US": "Canakinumab (Ilaris) is a human monoclonal antibody that binds free IL-1β with high affinity and prevents it from engaging the IL-1R1/IL-1RAcP complex, without affecting IL-1α or other IL-1 family members — making it more selective than anakinra, which blocks both ligands. By neutralizing extracellular IL-1β it inhibits MyD88-dependent signaling, reducing NF-κB activation and transcription of IL-6, TNFα and COX-2. The long-acting antibody (half-life ~26 days) is dosed subcutaneously and is degraded proteolytically without CYP-mediated metabolism.",
+      "zh-TW": "Canakinumab（Ilaris）是一種人類單株抗體，以高親和力結合游離 IL-1β，阻止其與 IL-1R1/IL-1RAcP 受體複合體接合，且不影響 IL-1α 或其他 IL-1 家族成員——因此比同時阻斷兩者的 anakinra 更具選擇性。藉由中和胞外 IL-1β，它抑制 MyD88 依賴的訊號，減少 NF-κB 活化以及 IL-6、TNFα、COX-2 的轉錄。此長效抗體（半衰期約 26 天）以皮下注射給藥，經蛋白水解分解代謝，不經 CYP 代謝。"
+    },
+    "confidence": 0.92,
+    "source_document": "Canakinumab.md",
+    "created": "2026-09-29T15:46:05Z",
+    "updated": "2026-09-29T15:46:05Z"
+  },
+  {
+    "id": "fb9fd75f9055",
+    "subject": "Canakinumab",
+    "predicate": "reduces",
+    "object": "Inflammation",
+    "context": {
+      "en-US": "The CANTOS Trial gave the first clinical proof that targeting inflammation alone, independent of lipid lowering, reduces cardiovascular events: in 10,061 patients with prior myocardial infarction and hs-CRP ≥ 2 mg/L, canakinumab 150 mg every 3 months cut the composite of nonfatal MI, nonfatal stroke or cardiovascular death (HR 0.85, p=0.021), cut hs-CRP ~37% and IL-6 ~28%, while LDL cholesterol was not reduced. Because IL-1β links oxidative stress to inflammation, attenuating it with canakinumab also dampens inflammaging.",
+      "zh-TW": "CANTOS Trial 首次在臨床上證明：僅針對發炎本身（獨立於降脂）即可降低心血管事件。在 10,061 名有心肌梗塞病史且 hs-CRP ≥ 2 mg/L 的患者中，每 3 個月 150 mg 的 canakinumab 使非致死性 MI、非致死性中風或心血管死亡的複合終點下降（HR 0.85，p=0.021），hs-CRP 下降約 37%、IL-6 下降約 28%，而 LDL 膽固醇並未下降。由於 IL-1β 連結了氧化壓力與發炎，以 canakinumab 阻斷 IL-1β 同時也減輕 inflammaging。"
+    },
+    "confidence": 0.92,
+    "source_document": "Canakinumab.md",
+    "created": "2026-09-29T15:46:05Z",
+    "updated": "2026-09-29T15:46:05Z"
+  },
+  {
+    "id": "ad404dc680a4",
+    "subject": "Cardiolipin",
+    "predicate": "activates",
+    "object": "NLRP3",
+    "context": {
+      "en-US": "Cardiolipin is a diphosphatidylglycerol lipid almost exclusively localized to the inner mitochondrial membrane, where it stabilizes ETC supercomplexes and contributes to the membrane potential. During mitochondrial dysfunction, ROS oxidizes cardiolipin, which translocates to the outer membrane or is released on mPTP opening; cytosolic oxidized cardiolipin then binds and activates NLRP3, which recruits ASC and Caspase-1 to cleave pro-IL-1β. Cardiolipin is thus a key endogenous DAMP bridging mitochondrial damage to sterile inflammation and NLRP3-driven inflammaging.",
+      "zh-TW": "Cardiolipin 是一種幾乎專一存在於粒線體內膜的雙磷酸甘油酯脂質，在該處穩定 ETC 超複合體並貢獻於膜電位。發生粒線體功能障礙時，ROS 會氧化 cardiolipin，使其轉位至外膜或於 mPTP 開啟時釋出；隨後胞質中的氧化 cardiolipin 結合並活化 NLRP3，NLRP3 再招募 ASC 與 Caspase-1 以切割 pro-IL-1β。因此 cardiolipin 是連結粒線體損傷與無菌性發炎、以及 NLRP3 驅動之 inflammaging 的重要內源性 DAMP。"
+    },
+    "confidence": 0.93,
+    "source_document": "Cardiolipin.md",
+    "created": "2026-09-29T15:46:05Z",
+    "updated": "2026-09-29T15:46:05Z"
+  },
+  {
+    "id": "92838a31fbae",
+    "subject": "Cardiolipin",
+    "predicate": "is_required_for",
+    "object": "Mitochondrial Fusion",
+    "context": {
+      "en-US": "Cardiolipin is an obligate cofactor for inner-membrane fusion: L-OPA1 binds cardiolipin on liposomes and GTP hydrolysis by OPA1 drives fusion, and removing cardiolipin abolishes fusion even when L-OPA1 is present on both membranes. Cardiolipin also interacts with DRP1 to stimulate its oligomerization and GTPase activity, promoting fission, so the same lipid bidirectionally regulates mitochondrial dynamics. It is additionally required for mitophagy receptor recruitment.",
+      "zh-TW": "Cardiolipin 是內膜融合的必需輔因子：L-OPA1 在脂質體上結合 cardiolipin，OPA1 的 GTP 水解驅動融合；即使兩側膜上都有 L-OPA1，只要移除 cardiolipin 融合即被廢除。Cardiolipin 也與 DRP1 互動以促進其寡聚化與 GTPase 活性而促進分裂，因此同一種脂質對粒線體動態學具有雙向調控作用。它同時也是 mitophagy 受體招募所必需。"
+    },
+    "confidence": 0.92,
+    "source_document": "Cardiolipin.md",
+    "created": "2026-09-29T15:46:05Z",
+    "updated": "2026-09-29T15:46:05Z"
+  },
+  {
+    "id": "019b47f415f8",
+    "subject": "Carmofur",
+    "predicate": "inhibits",
+    "object": "Acid ceramidase",
+    "context": {
+      "en-US": "Carmofur (1-hexylcarbamoyl-5-fluorouracil, HCFU) is a 5-fluorouracil prodrug approved in Japan since 1981 for colorectal cancer, but its key pharmacological action is covalent carbamoylation of the catalytic Cys143 of acid ceramidase (IC50 29 nM on rat recombinant enzyme, ~100 nM cellular), a property underlying its anti-proliferative effect and distinct from 5-FU. It also inhibits FAAH, NAAA and SARS-CoV-2 Mpro, and its BBB penetration plus glioblastoma stem-like cell killing (IC50 11-104 µM, >50-fold more potent than temozolomide) supports repurposing as a senolytic candidate.",
+      "zh-TW": "Carmofur（1-hexylcarbamoyl-5-fluorouracil，HCFU）是 1981 年起在日本獲准用於大腸癌的 5-氟尿嘧啶前驅物，但其關鍵藥理作用是對 acid ceramidase 催化位 Cys143 的共價氨甲醯化（鼠重組酵素 IC50 為 29 nM，細胞層級約 100 nM），此性質構成其抗增殖作用的基礎，與 5-FU 的作用不同。它同時抑制 FAAH、NAAA 與 SARS-CoV-2 Mpro；其血腦障壁穿透能力加上對神經膠母細胞瘤幹樣細胞的殺傷（IC50 11–104 µM，效力比 temozolomide 強逾 50 倍），支持其作為 senolytic 候選藥物的再利用。"
+    },
+    "confidence": 0.9,
+    "source_document": "Carmofur.md",
+    "created": "2026-09-29T15:46:05Z",
+    "updated": "2026-09-29T15:46:05Z"
+  },
+  {
+    "id": "c3973d7d0a21",
+    "subject": "Catalase",
+    "predicate": "decomposes",
+    "object": "Hydrogen Peroxide",
+    "context": {
+      "en-US": "Catalase is a tetrameric heme-containing enzyme (each ~60 kDa subunit with a ferriprotoporphyrin IX active site, CAT gene at 11p13) that decomposes Hydrogen Peroxide via a two-step peroxidatic cycle: Fe3+ heme reacts with H2O2 to form oxyferryl Compound I plus water, then a second H2O2 donates two electrons, regenerating the resting enzyme and releasing O2. Overall 2H2O2 → 2H2O + O2 with a near-diffusion-limited kcat of ~10^7 s-1, it uses H2O2 as both oxidant and reductant and needs no NADPH or glutathione, and it also shows peroxidatic activity on ethanol, methanol and nitrite.",
+      "zh-TW": "Catalase 是一種四聚體血基質酵素（每個約 60 kDa 次單元含 ferriprotoporphyrin IX 活性位，CAT 基因位於 11p13），透過兩步的過氧化循環分解 Hydrogen Peroxide：Fe3+ 血基質與 H2O2 反應生成氧鐵牴基 Complex I 與水，接著第二個 H2O2 供給兩個電子，回復靜止態酵素並釋出 O2。總反應為 2H2O2 → 2H2O + O2，kcat 約 10^7 s-1、接近擴散極限；它以 H2O2 同時作為氧化劑與還原劑，不需 NADPH 或穀胱甘肽，並對乙醇、甲醇與亞硝酸鹽呈現過氧化酶活性。"
+    },
+    "confidence": 0.93,
+    "source_document": "Catalase.md",
+    "created": "2026-09-29T15:46:05Z",
+    "updated": "2026-09-29T15:46:05Z"
+  },
+  {
+    "id": "19c5b5524fec",
+    "subject": "Catalase",
+    "predicate": "is_upregulated_by",
+    "object": "Mitohormesis",
+    "context": {
+      "en-US": "Within the mitohormesis framework, mild increases in mitochondrial ROS act as an adaptive signal that upregulates catalase expression, raising antioxidant capacity and protecting against subsequent, more severe oxidative insults. Catalase cooperates with mitochondrial SOD2 (MnSOD) as a coordinated antioxidant network, and catalase overexpression in mitochondria-targeted MCAT mice extends median lifespan ~20% with delayed cardiac and cataract pathology — evidence that mitochondrial H2O2 contributes directly to aging.",
+      "zh-TW": "在 mitohormesis 框架下，粒線體 ROS 的輕度上升作為適應性訊號，上調 catalase 表現、提高抗氧化能力，以抵抗後續更嚴重的氧化傷害。Catalase 與粒線體 SOD2（MnSOD）協同構成協調的抗氧化網絡；而在粒線體靶向的 MCAT 小鼠中過量表現人類 catalase 可使中位壽命延長約 20%，並延緩心臟與白內障病變——顯示粒線體 H2O2 直接促成老化。"
+    },
+    "confidence": 0.9,
+    "source_document": "Catalase.md",
+    "created": "2026-09-29T15:46:05Z",
+    "updated": "2026-09-29T15:46:05Z"
+  },
+  {
+    "id": "ed5c5083339f",
+    "subject": "Catalase",
+    "predicate": "is_inhibited_by",
+    "object": "Advanced Glycation End Products",
+    "context": {
+      "en-US": "Catalase activity is reduced by glycation: intracellular accumulation of Advanced Glycation End Products impairs the enzyme's function, raising cellular oxidative stress and contributing to the Aging process. Additional inactivation comes from oxidation of critical cysteine residues and proteolytic cleavage, and ROS-mediated damage to catalase creates a feed-forward loop in which oxidative stress further impairs antioxidant capacity. Loss of function causes acatalasemia (Takahara's disease), most frequent in Japanese and Korean populations.",
+      "zh-TW": "Catalase 活性會被糖化抑制：細胞內 Advanced Glycation End Products 的累積會損害此酵素功能，升高細胞氧化壓力並促成 Aging 過程。其他失活來源還包括關鍵半胱胺酸殘基的氧化與蛋白水解切割，而 ROS 對 catalase 的損傷會形成正饋迴路，使氧化壓力進一步削弱抗氧化能力。功能喪失會造成 acatalasemia（Takahara's disease），在日本人與韓國人群中最為常見。"
+    },
+    "confidence": 0.88,
+    "source_document": "Catalase.md",
+    "created": "2026-09-29T15:46:05Z",
+    "updated": "2026-09-29T15:46:05Z"
+  },
+  {
+    "id": "a6aebff5ddd9",
+    "subject": "Carnosine",
+    "predicate": "synergizes_with",
+    "object": "Spermidine",
+    "context": {
+      "en-US": "Carnosine (beta-alanyl-L-histidine) is a dipeptide concentrated in muscle and brain with antioxidant, pH-buffering and anti-glycation activity. In the Glyco-Oxidative Proteostasis Shield strategy it acts as a synergist for metal chelation and AGE inhibition, stabilizing the proteostatic environment against oxidative damage to the extracellular matrix, alongside aminoguanidine and the autophagy inducer spermidine — the GOPS protocol pairing a carnosine-stabilized adrenochrome monoaminoguanidine hybrid with spermidine-driven autophagy.",
+      "zh-TW": "Carnosine（beta-alanyl-L-histidine）是高度濃縮於肌肉與腦部的二胜肽，具有抗氧化、pH 緩衝與抗糖化活性。在 Glyco-Oxidative Proteostasis Shield 策略中，它作為金屬螯合與 AGE 抑制的協同劑，與 aminoguanidine 及自噬誘導物 spermidine 一同穩定蛋白質穩態環境、對抗細胞外基質的氧化損傷——GOPS 方案 以 carnosine 穩定的 adrenochrome monoaminoguanidine 雜交分子搭配 spermidine 驅動的自噬。"
+    },
+    "confidence": 0.85,
+    "source_document": "Carnosine.md",
+    "created": "2026-09-29T15:46:05Z",
+    "updated": "2026-09-29T15:46:05Z"
+  },
+  {
+    "id": "a740a8bc15fe",
+    "subject": "Caloric Restriction",
+    "predicate": "activates",
+    "object": "SIRT1",
+    "context": {
+      "en-US": "Caloric Restriction elevates NAD+ levels (or the NAD+/NADH ratio), which directly enhances the deacetylase activity of SIRT1 — one of the sirtuins it upregulates, alongside SIRT3, while downregulating SIRT4. Activated SIRT1 deacetylates histones to tighten chromatin into heterochromatin, silences pro-inflammatory and pro-senescence genes including p16INK4a, suppresses NF-κB, deacetylates PGC-1α to drive mitochondrial biogenesis and oxidative phosphorylation, and promotes fat mobilization via the PPAR-γ/NCoR/SMRT axis. Because CR-mediated lifespan extension requires SIR2 in yeast, sirtuins are central — though not exclusive — mediators, since TOR acts as a sirtuin-independent route.",
+      "zh-TW": "Caloric Restriction 會提高 NAD+ 濃度（或 NAD+/NADH 比值），直接提升 SIRT1 的去乙醯化酶活性——SIRT1 是 CR 上調的 sirtuin 之一（同時也上調 SIRT3、下調 SIRT4）。活化的 SIRT1 對組蛋白去乙醯化，使染色質緊密形成異染色質，沉默包括 p16INK4a 在內的促發炎與促衰老基因，抑制 NF-κB，並對 PGC-1α 去乙醯化以驅動粒線體生物新生與氧化磷酸化，經 PPAR-γ/NCoR/SMRT 軸促進脂肪動員。由於 CR 介導的壽命延長在酵母中需要 SIR2，sirtuin 是（但非唯一）核心介導者，因為 TOR 提供 sirtuin 非依賴的途徑。"
+    },
+    "confidence": 0.9,
+    "source_document": "Caloric Restriction.md",
+    "created": "2026-09-29T15:46:05Z",
+    "updated": "2026-09-29T15:46:05Z"
+  },
+  {
+    "id": "2539b832b45c",
+    "subject": "Caloric Restriction",
+    "predicate": "induces",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Caloric Restriction is a potent inducer of Autophagy: it lowers ATP and raises the AMP/ATP ratio, which activates AMPK, and AMPK in turn induces autophagy to compensate for energy limitation and maintain Cellular Homeostasis. Short or moderate restriction produces beneficial adaptive autophagy, whereas prolonged or extreme restriction can push into excessive autophagy and potentially Autophagic Cell Death — the same induction that makes CR a therapeutic target in cancer and a cardioprotective strategy in Ischemia-reperfusion Injury.",
+      "zh-TW": "Caloric Restriction 是 Autophagy 的強效誘導者：它降低 ATP 並提高 AMP/ATP 比值，進而活化 AMPK，而 AMPK 又誘導自噬以補償能量限制並維持 Cellular Homeostasis。短期或中等程度的限制會產生有益的適應性自噬，而長期或極端的限制則可能造成過度自噬，甚至引發 Autophagic Cell Death——正是同一種自噬誘導使 CR 成為癌症治療與缺血再灌流傷害心臟保護的策略標的。"
+    },
+    "confidence": 0.9,
+    "source_document": "Caloric Restriction.md",
+    "created": "2026-09-29T15:46:05Z",
+    "updated": "2026-09-29T15:46:05Z"
+  },
+  {
+    "id": "4ef349d0e5d4",
+    "subject": "Cardiac Fibrosis",
+    "predicate": "is_driven_by",
+    "object": "TGF-beta",
+    "context": {
+      "en-US": "Cardiac Fibrosis is excessive extracellular matrix (collagen) deposition in the myocardium produced by cardiac fibroblast activation and differentiation into myofibroblasts. TGF-beta is the central profibrotic cytokine, driving myofibroblast differentiation via Smad signaling in response to chronic injury — pressure overload, ischemia, inflammation and Angiotensin II. Sustained fibrosis impairs myocardial compliance and electrical conduction, progressing toward heart failure and arrhythmia. Resveratrol-mediated activation of SIRT1 and SIRT3 attenuates it by inhibiting the TGF-beta/Smad3 pathway, whereas SIRT6 knockout induces it.",
+      "zh-TW": "Cardiac Fibrosis 是心肌中過量的細胞外基質（膠原蛋白）沉積，由心臟纖維母細胞活化並分化為肌成纖維細胞所造成。TGF-beta 是核心促纖維化細胞激素，藉由 Smad 訊號在壓力超載、缺血、發炎與 Angiotensin II 等慢性傷害訊號下驅動肌成纖維細胞分化。持續的纖維化會損害心肌順應性與電氣傳導，進展為心衰竭與心律不整。以 resveratrol 活化 SIRT1 與 SIRT3 可透過抑制 TGF-beta/Smad3 路徑減輕纖維化，而 SIRT6 剔除則會誘發纖維化。"
+    },
+    "confidence": 0.9,
+    "source_document": "Cardiac Fibrosis.md",
+    "created": "2026-09-29T15:46:05Z",
+    "updated": "2026-09-29T15:46:05Z"
+  },
+  {
+    "id": "fb08d14c9e73",
+    "subject": "SIRT6",
+    "predicate": "protects_against",
+    "object": "Cardiac Fibrosis",
+    "context": {
+      "en-US": "SIRT6 has a dual, context-dependent role in cardiac fibrosis: systemic SIRT6 knockout induces fibrosis through TGF-beta/Smad3 activation, whereas SIRT6 prevents Angiotensin II-mediated fibrosis by engaging AMPK–ACE2 signaling. SIRT2 overexpression is likewise protective, promoting AMPK activation via LKB1 deacetylation, and SIRT5 knockout increases fibrosis versus age-matched wild-type mice. SIRT4 instead contributes to fibrosis, since global knockout confers resistance to Ang II infusion, making the NAD+–sirtuin network an appealing antifibrotic target.",
+      "zh-TW": "SIRT6 在心臟纖維化中具有依情境而異的雙重角色：全身性剔除 SIRT6 會經 TGF-beta/Smad3 活化誘發纖維化，而 SIRT6 則透過 AMPK–ACE2 訊號防止 Angiotensin II 介導的纖維化。SIRT2 的過量表現同樣具保護作用，經 LKB1 去乙醯化促進 AMPK 活化；SIRT5 剔除相較同齡野生型小鼠會增加纖維化。相對地，SIRT4 促成纖維化（全身剔除可抵抗 Ang II 輸注），使 NAD+–sirtuin 網絡成為具吸引力的抗纖維化標的。"
+    },
+    "confidence": 0.88,
+    "source_document": "Cardiac Fibrosis.md",
+    "created": "2026-09-29T15:46:05Z",
+    "updated": "2026-09-29T15:46:05Z"
+  },
+  {
+    "id": "d22896da8e40",
+    "subject": "Cardiomyocyte",
+    "predicate": "depends_on",
+    "object": "Mitochondria",
+    "context": {
+      "en-US": "Cardiomyocytes are striated, terminally differentiated heart muscle cells with densely packed mitochondria occupying ~25-35% of cell volume, making them among the most energetically demanding cells in the body and largely post-mitotic in adults. Sustained ATP from oxidative phosphorylation is essential and they are exquisitely sensitive to ischemia, so mitochondrial Dysfunction, oxidative and metabolic stress and Autophagy dysregulation drive Cardiomyopathy, Cardiac Hypertrophy and ultimately Heart Failure. Gap junctions and desmosomes in intercalated discs couple cells into a functional syncytium, and calcium flux through ryanodine receptors and the sarcoplasmic reticulum underlies excitation–contraction coupling.",
+      "zh-TW": "心肌細胞是具橫紋、終末分化的心臟肌肉細胞，粒線體密集排列佔細胞體積約 25–35%，使其成為體內能量需求最高的細胞之一，且在成人期大多為終末分裂後狀態。來自氧化磷酸化的大量 ATP 不可或缺，且對缺血極為敏感，因此粒線體功能障礙、氧化與代謝壓力以及自噬失調會驅動 Cardiomyopathy、Cardiac Hypertrophy，最終導向 Heart Failure。闰盤中的間隙連結與橋粒將細胞偶聯成功能性合胞體，而經由 ryanodine 受體與肌漿網的鈣離子 flux 則構成興奮—收縮偶聯的基礎。"
+    },
+    "confidence": 0.9,
+    "source_document": "Cardiomyocyte.md",
+    "created": "2026-09-29T15:46:05Z",
+    "updated": "2026-09-29T15:46:05Z"
+  },
+  {
+    "id": "419a542690af",
+    "subject": "Cardiomyopathy",
+    "predicate": "progresses_to",
+    "object": "Heart Failure",
+    "context": {
+      "en-US": "Cardiomyopathy is a heterogeneous group of disorders in which the myocardium becomes structurally and functionally abnormal without coronary artery disease, hypertension or valvular disease sufficient to explain it, caused by inherited sarcomere mutations, metabolic and mitochondrial defects, toxins, infection or neurohormonal overstimulation. Common pathways include Cardiomyocyte injury, contractile dysfunction and Cardiac Fibrosis driven by Oxidative Stress and inflammation; persistent adrenergic drive and reactive oxygen species drive remodeling and progression toward Heart Failure. Catecholamine-induced cardiomyopathy is a distinct stress-related form in which excess catecholamine causes myocyte calcium overload, contraction-band necrosis and transient ventricular dysfunction.",
+      "zh-TW": "Cardiomyopathy 是一類異質性疾患，心肌在沒有足以解釋其變化的冠狀動脈疾病、高血壓或瓣膜病的情況下發生結構與功能異常，成因包括遺傳性肌小節蛋白突變、代謝與粒線體缺陷、毒素、感染或神經荷爾蒙過度刺激。常見途徑包含心肌細胞損傷、收縮功能障礙，以及由 Oxidative Stress 與發炎驅動的 Cardiac Fibrosis；持續的腎上腺素能張力與活性氧驅動重塑並朝 Heart Failure 進展。Catecholamine-induced cardiomyopathy 则是壓力相關的獨特型態，過量兒茶酚胺造成肌細胞鈣過載、收縮帶壞死與暫時性心室功能障礙。"
+    },
+    "confidence": 0.9,
+    "source_document": "Cardiomyopathy.md",
+    "created": "2026-09-29T15:46:05Z",
+    "updated": "2026-09-29T15:46:05Z"
+  },
+  {
+    "id": "8f954d531e21",
+    "subject": "Cardiomyocyte Toxicity",
+    "predicate": "is_caused_by",
+    "object": "Doxorubicin",
+    "context": {
+      "en-US": "Cardiomyocyte Toxicity is damage or dysfunction of heart muscle cells that is the major dose-limiting adverse effect of Chemotherapy, particularly the anthracyclines Doxorubicin and Daunorubicin. Doxorubicin redox-cycles at Mitochondrial Complex I, generating superoxide and hydroxyl radical that damage cardiomyocyte DNA, proteins and lipids; cardiotoxic agents also impair Oxidative Phosphorylation, open the mitochondrial permeability transition pore and deplete ATP, while TOP2B poisoning triggers p53-dependent apoptosis, disrupted SERCA and ryanodine receptor calcium handling adds calcium overload, and NLRP3 inflammasome activation adds IL-1β-mediated damage. Dexrazoxane is the FDA-approved iron-chelating cardioprotectant.",
+      "zh-TW": "Cardiomyocyte Toxicity 指心臟肌肉細胞的損傷或功能障礙，是 Chemotherapy（尤其是 anthracyclines 類的 Doxorubicin 與 Daunorubicin）最主要的劑量限制性不良反應。Doxorubicin 在 Mitochondrial Complex I 進行氧化還原循環，產生 superoxide 與 hydroxyl radical 損傷心肌細胞的 DNA、蛋白質與脂質；具心毒性的藥物也會損害 Oxidative Phosphorylation、開啟粒線體通透性轉換孔並耗竭 ATP，而 TOP2B 中毒引發 p53 依賴的凋亡，SERCA 與 ryanodine 受體的鈣處理失調加上鈣過載，NLRP3 發炎小體活化再加上 IL-1β 介導的損傷。Dexrazoxane 是 FDA 核准的鐵螯合型心臟保護劑。"
+    },
+    "confidence": 0.9,
+    "source_document": "Cardiomyocyte Toxicity.md",
+    "created": "2026-09-29T15:46:05Z",
+    "updated": "2026-09-29T15:46:05Z"
+  },
+  {
+    "id": "d694219e71c4",
+    "subject": "Cardiovascular Disease",
+    "predicate": "is_exacerbated_by",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "Cardiovascular Disease encompasses disorders of the heart and blood vessels, with coronary artery disease such as Atherosclerosis often preceded by Endothelial Dysfunction and exacerbated by chronic Oxidative Stress. Epigenetic change bridges environment and genotype in cardiovascular aging: age-related global DNA hypomethylation produces Genomic Instability, hypermethylation silences atheroprotective genes, and declining Sirtuins such as SIRT1 raise histone acetylation to activate pro-inflammatory and pro-fibrotic programs contributing to cardiac hypertrophy and vascular stiffening. Individuals with accelerated epigenetic aging (e.g. by DNAmGrimAge) carry significantly higher risk of myocardial infarction, stroke and heart failure.",
+      "zh-TW": "Cardiovascular Disease 泛指心臟與血管的疾患，其中冠狀動脈疾病如 Atherosclerosis 常以 Endothelial Dysfunction 為前驅，並受慢性 Oxidative Stress 加劇。表觀遺傳改變在心血管老化中介連環境與基因型：與年齡相關的全面 DNA 低甲基化造成 Genomic Instability，高甲基化則沉默抗動脈粥樣硬化基因，而 SIRT1 等 Sirtuins 的衰退使組蛋白乙醯化上升，活化促發炎與促纖維化程序，促成心肌肥厚與血管僵硬。表觀遺傳老化加速者（例如以 DNAmGrimAge 評估）心肌梗塞、中風與心衰竭的風險顯著較高。"
+    },
+    "confidence": 0.88,
+    "source_document": "Cardiovascular Disease.md",
+    "created": "2026-09-29T15:46:05Z",
+    "updated": "2026-09-29T15:46:05Z"
+  },
+  {
+    "id": "bbbc56b8f4c7",
+    "subject": "Intermittent Fasting",
+    "predicate": "protects_against",
+    "object": "Ischemia-reperfusion Injury",
+    "context": {
+      "en-US": "Intermittent Fasting and Caloric Restriction exert cardioprotective roles largely by promoting Autophagic Flux: IF reduces infarct area in mouse models of Ischemia-reperfusion Injury, and in aged models of acute Myocardial infarction it upregulates Atg5 and reduces cardiac injury markers. In ischemic conditions AMPK activation and the resulting Autophagy protect injured cells, whereas deficient Autophagy is linked to Ventricular Remodeling and Cardiomyocyte Toxicity — which is why Autophagic Flux is considered crucial for cardiomyocyte homeostasis and heart function.",
+      "zh-TW": "Intermittent Fasting 與 Caloric Restriction 主要藉由促進 Autophagic Flux 發揮心臟保護作用：IF 在缺血再灌流傷害的小鼠模型中縮小梗死面積，並在老化急性 Myocardial infarction 模型中上調 Atg5、減少心臟損傷標記。在缺血條件下 AMPK 活化及其後續的 Autophagy 保護受損細胞，而 Autophagy 不足則與 Ventricular Remodeling 及 Cardiomyocyte Toxicity 相關——因此 Autophagic Flux 被視為維持心肌細胞恆定與心臟功能的關鍵。"
+    },
+    "confidence": 0.88,
+    "source_document": "Cardiovascular Disease.md",
+    "created": "2026-09-29T15:46:05Z",
+    "updated": "2026-09-29T15:46:05Z"
   }
 ]
