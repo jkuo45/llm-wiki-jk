@@ -61066,5 +61066,1825 @@
     "source_document": "Glutamate-Cysteine Ligase.md",
     "created": "2026-09-29T16:17:54Z",
     "updated": "2026-09-29T16:17:54Z"
+  },
+  {
+    "id": "5baf7e0855e9",
+    "subject": "Hydrogen Peroxide",
+    "predicate": "is_precursor_of",
+    "object": "Hydroxyl Radicals",
+    "context": {
+      "en-US": "In the presence of transition metals such as Fe2+ or Cu+, Hydrogen Peroxide (H2O2) undergoes the Fenton reaction to generate the extremely destructive hydroxyl radical. This makes modest H2O2 a key relay between physiological redox signaling and oxidative macromolecular damage, and it is also how H2O2 concentrations are read out experimentally.",
+      "zh-TW": "在 Fe2+、Cu+ 等過渡金屬存在下，Hydrogen Peroxide（H2O2）會經由 Fenton 反應生成極具破壞性的 Hydroxyl Radicals。這使低濃度的 H2O2 成為生理性氧化還原訊號與氧化大分子損傷之間的關鍵中繼，也是在實驗上判讀 H2O2 濃度的途徑。"
+    },
+    "confidence": 0.95,
+    "source_document": "Hydrogen Peroxide.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "2a8c92fb6bed",
+    "subject": "Superoxide anion",
+    "predicate": "is_precursor_of",
+    "object": "Hydrogen Peroxide",
+    "context": {
+      "en-US": "Superoxide anion is the upstream precursor of Hydrogen Peroxide: the enzyme Superoxide Dismutase dismutates superoxide into H2O2, and other enzymes such as NADPH Oxidase, Xanthine Oxidase and MAO generate H2O2 directly. In mitochondria MnSOD (SOD2) performs the same dismutation, feeding the peroxiredoxin/thioredoxin water arm.",
+      "zh-TW": "Superoxide anion 是 Hydrogen Peroxide 的上游前驅物：酵素 Superoxide Dismutase 將超氧陰離子歧化為 H2O2，而 NADPH Oxidase、Xanthine Oxidase 與 MAO 等酵素則直接產生 H2O2。在粒線體中，MnSOD（SOD2）執行同樣的歧化反應，供應 peroxiredoxin/thioredoxin 水臂使用。"
+    },
+    "confidence": 0.95,
+    "source_document": "Hydrogen Peroxide.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "3df225d0db57",
+    "subject": "Catalase",
+    "predicate": "degrades",
+    "object": "Hydrogen Peroxide",
+    "context": {
+      "en-US": "Catalase is one of the primary enzymes that decomposes Hydrogen Peroxide into water and oxygen, terminating the peroxide signal. Glutathione Peroxidase performs the same detoxification using Glutathione as the electron donor, so the two enzymes together set the steady-state H2O2 concentration that governs redox signaling versus damage.",
+      "zh-TW": "Catalase 是將 Hydrogen Peroxide 分解為水與氧的主要酵素之一，可終止過氧化物訊號。Glutathione Peroxidase 則以 Glutathione 作為電子供體執行相同的解毒作用；兩者共同決定穩態的 H2O2 濃度，進而決定細胞偏向氧化還原訊號或損傷。"
+    },
+    "confidence": 0.9,
+    "source_document": "Hydrogen Peroxide.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "cb61e092e449",
+    "subject": "Hydrogen Peroxide",
+    "predicate": "promotes",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "Hydrogen Peroxide, together with Superoxide anion, acts as an oxidant that drives the non-enzymatic conversion of Epinephrine into Adrenochrome, especially under conditions of Oxidative Stress. Because the reaction is sensitive to peroxide flux, adrenochrome formation is used as an assay for superoxide production.",
+      "zh-TW": "Hydrogen Peroxide 與 Superoxide anion 一同作為氧化劑，驅動 Epinephrine 非酵素性轉化為 Adrenochrome，在 Oxidative Stress 狀態下尤其明顯。由於此反應對過氧化物通量敏感，adrenochrome 的形成可作為測量超氧陰離子生成的assay。"
+    },
+    "confidence": 0.85,
+    "source_document": "Hydrogen Peroxide.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "c5f0f637c13a",
+    "subject": "Hydroxychloroquine",
+    "predicate": "inhibits",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Hydroxychloroquine is the canonical pharmacological autophagy inhibitor. As a weak base and lipophilic amine it accumulates in acidic organelles, neutralizing Lysosome luminal pH and impairing acid-dependent hydrolase activity; this blocks autophagosome-lysosome fusion and lysosomal degradation. It is used in research and oncology trials to deny cancer cells cytoprotective autophagy.",
+      "zh-TW": "Hydroxychloroquine 是典型的藥理性自噬抑制劑。作為弱鹼與親脂性胺，它會累積於酸性胞器，中和 Lysosome 腔內的 pH 並抑制依賴酸性的水解酶活性，因而阻斷自噬體與溶酶體的融合及溶酶體降解。研究與腫瘤試驗中常以它剝奪癌細胞的細胞保護性自噬。"
+    },
+    "confidence": 0.95,
+    "source_document": "Hydroxychloroquine.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "41d254dbe4c6",
+    "subject": "Hydroxychloroquine",
+    "predicate": "treats",
+    "object": "Rheumatoid Arthritis",
+    "context": {
+      "en-US": "Hydroxychloroquine is a 4-aminoquinoline derivative of chloroquine used clinically for malaria prophylaxis and treatment, for systemic lupus erythematosus, and as a disease-modifying antirheumatic drug in Rheumatoid Arthritis. Its immunomodulation works partly by interfering with antigen processing and endosomal Toll-like Receptor (TLR7/9) signaling. Chronic high-dose use risks irreversible retinopathy and rarely Cardiomyopathy.",
+      "zh-TW": "Hydroxychloroquine 是 chloroquine 的 4-胺基quinoline 衍生物，臨床上用於瘧疾的預防與治療、Systemic Lupus Erythematosus，以及作為 Rheumatoid Arthritis 的抗發炎性修飾藥物。其免疫調節作用部分來自干擾抗原處理與內體 Toll-like Receptor（TLR7/9）訊號。長期高劑量使用可能造成不可逆的視網膜病變，罕見情況下會引起 Cardiomyopathy。"
+    },
+    "confidence": 0.9,
+    "source_document": "Hydroxychloroquine.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "32f936147e07",
+    "subject": "Hyperfunction Theory of Aging",
+    "predicate": "is_driven_by",
+    "object": "mTOR",
+    "context": {
+      "en-US": "The hyperfunction theory of Aging (Blagosklonny) proposes that aging is the quasi-programmed, maladaptive continuation of developmental growth programs, with the nutrient/growth-sensing mTOR pathway as the master driver. When the cell cycle is blocked, mTOR-driven signals are re-routed into hypertrophic, hypersecretory 'twisted growth' (geroconversion) such as the SASP — the cellular substrate of aging.",
+      "zh-TW": "高功能老化理論（Blagosklonny）主張，老化是發育生長程式的準程序性、适应不良性延續，而營養／生長感知的 mTOR 訊號路徑是主要驅動因子。當細胞週期被阻斷時，mTOR 驅動的訊號被改道至肥大、過度分泌的「扭曲生長」（geroconversion），例如 SASP，即為老化的細胞層次基礎。"
+    },
+    "confidence": 0.9,
+    "source_document": "Hyperfunction Theory of Aging.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "d72f5970cd4f",
+    "subject": "Rapamycin",
+    "predicate": "supports",
+    "object": "Hyperfunction Theory of Aging",
+    "context": {
+      "en-US": "Rapamycin serves as proof-of-concept for the hyperfunction theory: because mTOR is claimed to be the driver of continued growth execution, its inhibitor extends lifespan across model organisms by slowing geroconversion rather than by treating any single disease. The theory accordingly frames longevity interventions as terminating growth signaling (with Caloric Restriction and Metformin), and distinguishes growth-arrested benign lesions (protective) from growth-driven hamartomas (disease).",
+      "zh-TW": "Rapamycin 是高功能老化理論的實證：既然 mTOR 被主張為持續執行生長的驅動因子，其抑制劑便能於模式生物中延長壽命，機制是減緩 geroconversion 而非治療單一疾病。該理論因此將長壽介入設定為終止生長訊號（搭配 Caloric Restriction 與 Metformin），並區分生長已停止的良性病灶（保護性）與持續生長驅動的 Hamartoma（疾病）。"
+    },
+    "confidence": 0.85,
+    "source_document": "Hyperfunction Theory of Aging.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "7d106747b4cd",
+    "subject": "Rapamycin",
+    "predicate": "causes",
+    "object": "Hyperlipidemia",
+    "context": {
+      "en-US": "Chronic inhibition of mTORC1 by Rapamycin and its analogs (rapalogs) frequently elevates cholesterol and triglyceride levels. Mechanistically the mTOR-S6K1 axis normally promotes lipogenesis while suppressing adipose lipid storage; chronic rapamycin disrupts that balance, upregulating hepatic gluconeogenesis and impairing lipid deposition in adipose tissue, producing glucose intolerance and hyperlipidemia. The effect is usually dose-dependent and reversible on discontinuation.",
+      "zh-TW": "Rapamycin 及其類似物（rapalogs）長期抑制 mTORC1 時，常會升高膽固醇與三酸甘油酯。機制上，mTOR–S6K1 軸平時促進脂肪生成並抑制脂肪組織的脂質儲存；慢性 rapamycin 破壞此平衡，促進肝糖質新生並妨礙脂質在脂肪組織沉積，造成葡萄糖耐受不良與 Hyperlipidemia。此效應通常呈劑量依賴且停藥後可逆。"
+    },
+    "confidence": 0.9,
+    "source_document": "Hyperlipidemia.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "b522ee243ab8",
+    "subject": "Hyperlipidemia",
+    "predicate": "is_a_risk_factor_for",
+    "object": "Atherosclerosis",
+    "context": {
+      "en-US": "Hyperlipidemia is a metabolic disorder of abnormally high circulating LDL cholesterol, total cholesterol and/or triglycerides with reciprocal reduction in HDL. It is a major modifiable risk factor for Atherosclerosis and Cardiovascular Disease, usually managed with Statins. In the longevity setting it is a tolerable class effect of rapalogs, but poorly justified in healthy anti-aging users, and it often co-occurs with Glucose Intolerance and Insulin Resistance.",
+      "zh-TW": "Hyperlipidemia 是循環中 LDL 膽固醇、總膽固醇與／或三酸甘油酯過高、且 HDL 反而降低的代謝異常。它是 Atherosclerosis 與 Cardiovascular Disease 的主要可改變危險因子，通常以 Statins 治療。在長壽領域它是 rapalogs 可耐受的類效應，但在健康抗老化使用者身上缺乏正當理由，且常與 Glucose Intolerance、Insulin Resistance 共同出現。"
+    },
+    "confidence": 0.9,
+    "source_document": "Hyperlipidemia.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "5b4315b96898",
+    "subject": "Hypertension",
+    "predicate": "is_a_risk_factor_for",
+    "object": "Cardiovascular Disease",
+    "context": {
+      "en-US": "Hypertension is the persistent elevation of arterial blood pressure (≥140/90 mmHg), affecting roughly 1.39 billion people and standing as a major risk factor for Cardiovascular Disease, Stroke, Chronic Kidney Disease and Heart Failure. It both causes and results from Endothelial Dysfunction, and chronic pressure overload drives cardiac remodeling toward heart failure.",
+      "zh-TW": "Hypertension 是動脈血壓持續升高（≥140/90 mmHg）的狀態，影響約 13.9 億人，是 Cardiovascular Disease、Stroke、Chronic Kidney Disease 與 Heart Failure 的主要危險因子。它既是 Endothelial Dysfunction 的成因也是結果，長期壓力過載會驅動心臟重塑而走向心衰竭。"
+    },
+    "confidence": 0.9,
+    "source_document": "Hypertension.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "bd27cca2258d",
+    "subject": "SIRT3",
+    "predicate": "protects_against",
+    "object": "Hypertension",
+    "context": {
+      "en-US": "SIRT3 overexpression attenuates both Ang II-induced and DOCA-salt-induced hypertension. Conversely, diminished SIRT3 causes redox-dependent inactivation of MnSOD (SOD2), which contributes to hypertension pathogenesis; SIRT3 also alleviates hypertensive renal injury by suppressing EMT. SIRT3 thus acts as an endogenous antioxidant brake on hypertensive target-organ damage.",
+      "zh-TW": "SIRT3 過量表現可緩解 Ang II 誘發與 DOCA-salt 誘發的 Hypertension。相反地，SIRT3 減少會造成 MnSOD（SOD2）的氧化還原失活，參與高血壓的致病；SIRT3 亦藉抑制 EMT 減輕高血壓性腎損傷。SIRT3 因此是高血壓標器官損傷的內源性抗氧化煞車。"
+    },
+    "confidence": 0.85,
+    "source_document": "Hypertension.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "0e9e12432d79",
+    "subject": "SIRT1",
+    "predicate": "protects_against",
+    "object": "Hypertension",
+    "context": {
+      "en-US": "SIRT1 modulates the vascular response to Hypertension: VSMC-specific SIRT1 overexpression attenuates Ang II-induced hypertension, SIRT1 activation attenuates Klotho-deficiency arterial stiffness via AMPK/eNOS, and NAMPT-mediated SIRT1 overexpression lowers Ang II-induced ROS production. Decreased urinary SIRT1 serves as a non-invasive biomarker of early hypertensive renal damage.",
+      "zh-TW": "SIRT1 調節血管對 Hypertension 的反應：血管平滑肌細胞特異性 SIRT1 過量表現可緩解 Ang II 誘發的高血壓，SIRT1 活化經由 AMPK/eNOS 減輕 Klotho 缺乏造成的動脈僵硬，NAMPT 介導的 SIRT1 過量表現則降低 Ang II 誘發的 ROS。尿液中 SIRT1 下降可作為高血壓性腎臟早期損傷的非侵入性生物標記。"
+    },
+    "confidence": 0.85,
+    "source_document": "Hypertension.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "c32d272b780c",
+    "subject": "Nitric Oxide",
+    "predicate": "drives",
+    "object": "Hypotension",
+    "context": {
+      "en-US": "In distributive shock — Septic Shock and Vasoplegic Shock — massive Nitric Oxide release activates soluble Guanylate Cyclase, raising cGMP and producing profound, catecholamine-refractory Vasodilation. The resulting low arterial pressure compromises organ perfusion, so refractory vasoplegia unresponsive to Vasopressors is rescued with Methylene blue, which inhibits guanylate cyclase and blocks the NO→cGMP vasodilatory cascade to restore vascular tone.",
+      "zh-TW": "在分布性休克（Septic Shock 與 Vasoplegic Shock）中大量的 Nitric Oxide 釋放會活化可溶性 Guanylate Cyclase，使 cGMP 上升並造成嚴重且對兒茶酚胺無反應的 Vasodilation，導致動脈壓過低、組織灌流不足。因此對 Vasopressors 無反應的顽固 vasoplegia 可用 Methylene blue 搶救，它抑制 guanylate cyclase、阻斷 NO→cGMP 血管擴張級聯以恢復血管張力。"
+    },
+    "confidence": 0.9,
+    "source_document": "Hypotension.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "25cb82a08c97",
+    "subject": "Hypothalamus",
+    "predicate": "regulates",
+    "object": "Aging",
+    "context": {
+      "en-US": "The Hypothalamus integrates nutrient and Adipose Tissue-derived signals (Leptin, ghrelin, insulin) to set systemic metabolic state, and its NF-κB-mediated Inflammation increases with age, driving age-related hormonal and metabolic decline. This positions the hypothalamus as a possible pacemaker of systemic Aging rather than a passive target of it.",
+      "zh-TW": "Hypothalamus 整合營養與 Adipose Tissue 來源的訊號（Leptin、ghrelin、insulin）以設定全身代謝狀態；其 NF-κB 介導的 Inflammation 隨年齡增加，驅動與年齡相關的荷爾蒙與代謝衰退。這使 Hypothalamus 被視為全身性 Aging 的可能節律器，而非被動的受損對象。"
+    },
+    "confidence": 0.8,
+    "source_document": "Hypothalamus.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "9231d9549b0b",
+    "subject": "SIRT1",
+    "predicate": "upregulates",
+    "object": "OX2R",
+    "context": {
+      "en-US": "In the brain-specific SIRT1-overexpressing BRASTO mouse, SIRT1 upregulates the orexin receptor OX2R in the dorsomedial and lateral Hypothalamus. OX2R upregulation promotes wakefulness and increases physical activity, contributing to the roughly 11% median lifespan extension reported for the BRASTO model.",
+      "zh-TW": "在腦部特異性 SIRT1 過量表現的 BRASTO 小鼠中，SIRT1 會在背側內側與外側 Hypothalamus 上調食慾素受體 OX2R。OX2R 上調促進覺醒並增加活動量，是 BRASTO 模型中報導約 11% 中位壽命延長的貢獻因子之一。"
+    },
+    "confidence": 0.85,
+    "source_document": "Hypothalamus.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "367ee7f6b0ea",
+    "subject": "IDH2",
+    "predicate": "produces",
+    "object": "NADPH",
+    "context": {
+      "en-US": "IDH2 (mitochondrial isocitrate dehydrogenase 2) catalyzes the oxidative decarboxylation of isocitrate to α-ketoglutarate in the mitochondrial matrix, generating NADPH. That NADPH pool feeds Glutathione regeneration and other antioxidant systems, making IDH2 a key controller of mitochondrial Reactive Oxygen Species balance. SIRT3 deacetylates and activates IDH2, and during Dietary Restriction the SIRT3→IDH2→NADPH→glutathione relay lowers ROS alongside the SIRT3→SOD2 arm.",
+      "zh-TW": "IDH2（粒線體 isocitrate dehydrogenase 2）在粒線體基質中催化 isocitrate 氧化脫羧生成 α-ketoglutarate，並產生 NADPH。該 NADPH 供應 Glutathione 再生與其他抗氧化系統，使 IDH2 成為粒線體 Reactive Oxygen Species 平衡的關鍵調控者。SIRT3 去乙醯化並活化 IDH2；在 Dietary Restriction 期間，SIRT3→IDH2→NADPH→glutathione 這條中繼可與 SIRT3→SOD2 分支共同降低 ROS。"
+    },
+    "confidence": 0.95,
+    "source_document": "IDH2.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "1980c3b574ab",
+    "subject": "IDH2",
+    "predicate": "inhibits",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "Beyond antioxidant defense, SIRT3-driven IDH2 activation is anti-apoptotic. By quenching mitochondrial ROS, IDH2 removes the stimulus for Bax thiol oxidation and mitochondrial outer membrane permeabilization, delaying Cytochrome c release and the downstream caspase cascade; conversely, SIRT3 loss elevates mitochondrial ROS and sensitizes cells to Caspase-3 activation. IDH2 is therefore the redox arm of sirtuin suppression of caspases.",
+      "zh-TW": "除了抗氧化防禦，SIRT3 驅動的 IDH2 活化還具有抗凋亡作用。IDH2 清除粒線體 ROS，消除了 Bax 半胱胺基氧化與粒線體外膜通透化的刺激，因而延遲 Cytochrome c 釋放與下游 caspase 级聯；反之，SIRT3 缺失會升高粒線體 ROS，使細胞對 Caspase-3 活化更敏感。IDH2 因而是 sirtuin 抑制 caspase 的氧化還原支臂。"
+    },
+    "confidence": 0.85,
+    "source_document": "IDH2.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "be86a5202e2f",
+    "subject": "IDO1",
+    "predicate": "is_activated_by",
+    "object": "Interferon-gamma",
+    "context": {
+      "en-US": "IDO1 transcription is strongly induced by the pro-inflammatory cytokine Interferon-gamma through the JAK/STAT1 pathway, with TNF-α, IL-1β, LPS and glucocorticoids able to synergize in certain cellular contexts. Because IFNγ is a hallmark of the antitumor immune response, IFNγ-driven IDO1 induction in tumors and tumor-draining lymph nodes helps suppress antitumor immunity.",
+      "zh-TW": "IDO1 的轉錄會被發炎性細胞激素 Interferon-gamma 透過 JAK/STAT1 路徑強烈誘導，在某些細胞情境下 TNF-α、IL-1β、LPS 與類固醇可協同作用。由於 IFNγ 是抗腫瘤免疫反應的標誌，腫瘤與腫瘤引流淋巴結中由 IFNγ 驅動的 IDO1 誘導有助於壓抑抗腫瘤免疫。"
+    },
+    "confidence": 0.95,
+    "source_document": "IDO1.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "7366b1f3b4bf",
+    "subject": "IDO1",
+    "predicate": "converts_to",
+    "object": "N-Formylkynurenine",
+    "context": {
+      "en-US": "IDO1 is a heme-containing enzyme that catalyzes the first and rate-limiting step of the Kynurenine Pathway, oxidizing L-Tryptophan to N-Formylkynurenine in an O2-dependent reaction after reduction of its ferric heme to the ferrous form. N-Formylkynurenine is then rapidly deformylated to Kynurenine, committing substrate to the kynurenine pathway; Tryptophan depletion at the IDO1 step activates the GCN2 stress kinase in effector T cells.",
+      "zh-TW": "IDO1 是含血基質的酵素，催化 Kynurenine Pathway 的第一個也是限速步驟，將 L-Tryptophan 在需氧反應中氧化為 N-Formylkynurenine，前提是血基質由三價鐵還原為二價鐵。N-Formylkynurenine 隨即被迅速去甲醯化為 Kynurenine，使底物正式進入犬尿胺酸途徑；IDO1 這一步造成的 Tryptophan 匱乏會活化效應 T 細胞中的 GCN2 壓力激酶。"
+    },
+    "confidence": 0.95,
+    "source_document": "IDO1.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "9e9271ffe135",
+    "subject": "IDO2",
+    "predicate": "inhibits",
+    "object": "IDO1",
+    "context": {
+      "en-US": "IDO2 is a heme-containing paralog of IDO1 that performs the same Tryptophan-to-N-Formylkynurenine reaction roughly 100-fold less efficiently and is thought to act primarily as a negative regulator of IDO1 — by competing for heme availability, forming heteromeric complexes that modulate IDO1 activity, or mediating non-enzymatic signaling. IDO2 also contributes to resistance against IDO1-targeted cancer therapy and is expressed in kidney, liver and antigen-presenting cells.",
+      "zh-TW": "IDO2 是 IDO1 的含血基質旁系同源蛋白，執行相同的 Tryptophan→N-Formylkynurenine 反應但催化效率低約 100 倍，主要被認為是 IDO1 的負向調控者——藉由競爭血基質可用性、形成調節 IDO1 活性的異源多聚體，或介導非酵素性訊號。IDO2 也促成對 IDO1 標靶癌症療法的抗藥性，並表現於腎、肝與抗原呈現細胞。"
+    },
+    "confidence": 0.8,
+    "source_document": "IDO2.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "5d5940b63be6",
+    "subject": "IFITM3",
+    "predicate": "induces",
+    "object": "Paracrine Senescence",
+    "context": {
+      "en-US": "IFITM3 is an interferon-inducible endolysosomal membrane protein that restricts enveloped virus fusion by stiffening cholesterol-rich membranes. In aging it is packaged into circulating plasma exosomes/extracellular vesicles; upon uptake by neighboring cells this exosomal IFITM3 triggers senescence programs in the recipients, expanding the senescent cell burden beyond locally damaged tissue and establishing a systemic, IFN-linked senescence-spreading axis.",
+      "zh-TW": "IFITM3 是可被干擾素誘導的內體溶酶體膜蛋白，藉由使富含膽固醇的膜僵硬化來限制有外套膜病毒的融合。在老化狀態下它被包裝進循環血漿的外泌體／細胞外囊泡；鄰近細胞攝入後，這些外泌體 IFITM3 會在受體細胞中啟動衰老程式，使衰老細胞負擔超出局部受損組織，形成全身性、與 IFN 相連的衰老傳播軸。"
+    },
+    "confidence": 0.85,
+    "source_document": "IFITM3.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "a47303613c86",
+    "subject": "IFITM3",
+    "predicate": "is_associated_with",
+    "object": "Inflammaging",
+    "context": {
+      "en-US": "IFITM3 is enriched in plasma exosomes of elderly individuals and reflects the interferon/ISG component of the SASP, linking viral-exposure history to ageing. This exosomal enrichment makes IFITM3 a non-invasive readout of systemic senescence burden and a contributor to age-related Inflammaging and tissue dysfunction, alongside the co-induced interferon program of ISG15.",
+      "zh-TW": "IFITM3 在老年人的血漿外泌體中富集，反映 SASP 的干擾素／ISG 組成，將病毒暴露史與老化連結起來。這種外泌體富集使 IFITM3 成為全身性衰老負擔的非侵入性讀值，並與 ISG15 等共同被誘導的干擾素程式一起，成為與年齡相關 Inflammaging 與組織功能障礙的促成因素。"
+    },
+    "confidence": 0.8,
+    "source_document": "IFITM3.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "2d846a79b524",
+    "subject": "IFN-β",
+    "predicate": "is_produced_by",
+    "object": "Senescent Cells",
+    "context": {
+      "en-US": "Senescent cells accumulate cytosolic DNA — leaked mtDNA and chromatin fragments — that activates cGAS, which produces cGAMP to engage STING. STING recruits TBK1, which phosphorylates IRF3 (and IRF7) and drives transcription of IFN-β, making IFN-β the primary readout of cytosolic DNA–cGAS-STING activation and a component of the interferon arm of the SASP.",
+      "zh-TW": "衰老細胞會累積細胞質 DNA（漏出的 mtDNA 與染色質片段），活化 cGAS；cGAS 產生 cGAMP 與 STING 結合。STING 招募 TBK1，後者磷酸化 IRF3（及 IRF7）並驅動 IFN-β 的轉錄，使 IFN-β 成為細胞質 DNA–cGAS-STING 活化最主要的讀值，也是 SASP 干擾素分支的組成成分。"
+    },
+    "confidence": 0.9,
+    "source_document": "IFN-β.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "a14ccb548050",
+    "subject": "IFN-β",
+    "predicate": "drives",
+    "object": "Inflammaging",
+    "context": {
+      "en-US": "Secreted IFN-β acts in autocrine/paracrine fashion through the IFNAR receptor, activating JAK1/TYK2 and the STAT1/STAT2–IRF9 (ISGF3) complex to induce interferon-stimulated genes such as ISG15; type I IFN signaling also intersects with NF-κB to amplify the SASP. It reinforces senescence through ISG-mediated arrest and SAHF formation, but when chronic the persistent type I IFN signature drives sterile Inflammaging and tissue dysfunction.",
+      "zh-TW": "分泌出的 IFN-β 透過 IFNAR 受體以自分泌／旁分泌方式作用，活化 JAK1/TYK2 與 STAT1/STAT2–IRF9（ISGF3）複合體，誘導如 ISG15 等干擾素刺激基因；第一型 IFN 訊號亦與 NF-κB 交會以放大 SASP。它藉 ISG 介導的細胞週期停滯與 SAHF 形成強化衰老，但當其慢性持續時，長久的第一型 IFN 簽名會驅動無菌性 Inflammaging 與組織功能障礙。"
+    },
+    "confidence": 0.85,
+    "source_document": "IFN-β.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "e5862290ecd2",
+    "subject": "IFNAR1",
+    "predicate": "binds",
+    "object": "Type I Interferon",
+    "context": {
+      "en-US": "IFNAR1 is a transmembrane receptor subunit that partners with IFNAR2 to form the heterodimeric receptor for Type I Interferon (IFN-α/IFN-β). Within the CNS it is the critical conduit that links microglial Type I Interferon release to neuronal dysfunction: sustained IFN-I from activated Microglia engages neuronal IFNAR1, initiating JAK-STAT signaling that suppresses the MEF2C resilience program in tauopathy models.",
+      "zh-TW": "IFNAR1 是跨膜受體次單元，與 IFNAR2 組成異源二聚體受體以接受 Type I Interferon（IFN-α/IFN-β）。在中樞神經系統中，它是將 Microglia 釋放的 Type I Interferon 連結至神經元功能障礙的關鍵通道：活化 Microglia 持續分泌 IFN-I 作用於神經元 IFNAR1，啟動 JAK-STAT 訊號，在 tauopathy 模型中抑制 MEF2C 抗逆境基因程式。"
+    },
+    "confidence": 0.9,
+    "source_document": "IFNAR1.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "477cf1ea1b8a",
+    "subject": "IFNAR1",
+    "predicate": "contributes_to",
+    "object": "Neuroinflammation",
+    "context": {
+      "en-US": "Because microglia are the dominant source of cGAS expression in the diseased brain, much of the neuronal injury in cGAS-STING-driven Neuroinflammation is non-cell-autonomous and relayed through IFNAR1 rather than intrinsic neuronal cGAS activity. Neuronal IFNAR1 signaling therefore amplifies and propagates CNS inflammation, and selectively blocking it is explored to preserve synaptic integrity and cognitive resilience while sparing glial surveillance.",
+      "zh-TW": "因為在患病腦中 Microglia 是 cGAS 表現的主要來源，cGAS-STING 驅動的 Neuroinflammation 中許多神經元損傷是非細胞自體性的，經由 IFNAR1 傳遞而非神經元自身的 cGAS 活性。因此神經元 IFNAR1 訊號會放大並擴散中樞神經系統發炎；選擇性阻斷 IFNAR1 被探索用來保留突觸完整性與認知韌性，同時不犧牲膠細胞的監視功能。"
+    },
+    "confidence": 0.85,
+    "source_document": "IFNAR1.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "73de309dc225",
+    "subject": "IGF-Akt Signaling",
+    "predicate": "activates",
+    "object": "Akt",
+    "context": {
+      "en-US": "IGF-Akt Signaling is a conserved pro-growth, pro-survival axis: IGF-1 binding to IGF1R triggers PI3K-dependent PIP3 generation, which recruits and phosphorylates the serine/threonine kinase Akt (via PDK1/mTORC2). Akt then phosphorylates targets such as mTOR, GSK3β and FOXOs to promote growth, survival and protein synthesis; sustained activation in cardiomyocytes pushes maladaptive cardiac hypertrophy.",
+      "zh-TW": "IGF-Akt Signaling 是一條保守的促生長、促存活軸：IGF-1 與 IGF1R 結合後啟動 PI3K 依賴的 PIP3 生成，進而招募並磷酸化絲胺酸／蘇胺酸激酶 Akt（經由 PDK1/mTORC2）。Akt 接著磷酸化 mTOR、GSK3β 與 FOXO 等標的以促進生長、存活與蛋白質合成；在心肌細胞中持續活化會推動不適應性的心臟肥大。"
+    },
+    "confidence": 0.9,
+    "source_document": "IGF-Akt Signaling.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "f4a728e923ae",
+    "subject": "SIRT6",
+    "predicate": "inhibits",
+    "object": "IGF-Akt Signaling",
+    "context": {
+      "en-US": "SIRT6 blocks IGF-Akt Signaling to forestall maladaptive cardiac hypertrophy. SIRT6 acts upstream of repression by targeting c-Jun, interrupting a pro-hypertrophic survival pathway; this cardioprotective sirtuin mechanism is distinct from the AMPK/PGC-1α metabolic axis used by SIRT3, illustrating how individual sirtuins calibrate distinct downstream programs. Reduced IGF-Akt activity is also associated with longevity in model organisms.",
+      "zh-TW": "SIRT6 阻斷 IGF-Akt Signaling 以避免不適應性的心臟肥大。SIRT6 以標的 c-Jun 的方式在抑制的上游發揮作用，切斷促肥大的存活路徑；這種保護心臟的 sirtuin 機制與 SIRT3 所使用的 AMPK/PGC-1α 代謝軸不同，顯示個別 sirtuin 會校準不同的下游程式。IGF-Akt 活性降低也與模式生物的長壽相關。"
+    },
+    "confidence": 0.9,
+    "source_document": "IGF-Akt Signaling.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "9fa249ae042b",
+    "subject": "IGF1",
+    "predicate": "inhibits",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "IGF1 is a potent inhibitor of Autophagy. It binds IGF1R, activating the PI3K/Akt axis, which stimulates mTORC1 and inhibits FoxO1 transcription factors — both of which normally suppress autophagic activity. Consistent with this, low IGF1 during Caloric Restriction or Intermittent Fasting is associated with increased Longevity and induction of beneficial autophagy, while reduced IGF1 signaling extends lifespan across species.",
+      "zh-TW": "IGF1 是 Autophagy 的強效抑制因子。它與 IGF1R 結合後活化 PI3K/Akt 軸，進而刺激 mTORC1 並抑制 FoxO1 轉錄因子——兩者平時都會壓抑自噬活性。與此一致，Caloric Restriction 或 Intermittent Fasting 期間的低 IGF1 與 Longevity 增加及有益自噬的誘導相關，而 IGF1 訊號降低可在多種物種中延長壽命。"
+    },
+    "confidence": 0.95,
+    "source_document": "IGF1.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "4907fc565104",
+    "subject": "IGF1",
+    "predicate": "is_mediated_by",
+    "object": "Human Growth Hormone",
+    "context": {
+      "en-US": "IGF1 is the principal downstream mediator of Human Growth Hormone signaling: GH promotes somatic growth largely through IGF1 produced in the liver. IGF1 also acts on thymic stromal/Thymic Epithelial Cells to stimulate IL-7 production, providing anti-apoptotic signals that support thymopoiesis and T Lymphocyte survival and immune reconstitution. Chronically elevated GH/IGF1 signaling is associated with increased Cancer risk and shortened lifespan.",
+      "zh-TW": "IGF1 是 Human Growth Hormone 訊號的主要下游介導者：GH 促進軀體生長很大程度上透過肝臟產生的 IGF1。IGF1 也作用於胸腺基質／Thymic Epithelial Cells 以刺激 IL-7 生成，提供抗凋亡訊號以支持 thymopoiesis 與 T Lymphocyte 存活及免疫重建。GH/IGF1 訊號慢性升高則與 Cancer 風險增加及壽命縮短相關。"
+    },
+    "confidence": 0.9,
+    "source_document": "IGF1.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "b86f431e38f2",
+    "subject": "IGFBP3",
+    "predicate": "inhibits",
+    "object": "IGF1",
+    "context": {
+      "en-US": "IGFBP3 is the major circulating binding protein for IGF1 and a direct p53 target gene, a hallmark of the p53-dependent arm of the SASP. Secreted after DNA damage and during oncogene-induced senescence, it binds IGF1/IGF-2 with high affinity, limiting their availability to IGF1R and thereby dampening pro-proliferative growth-factor signaling; by restraining IGF signaling it reinforces senescence-associated growth arrest and helps suppress neighboring-cell proliferation.",
+      "zh-TW": "IGFBP3 是 IGF1 的主要循環結合蛋白，也是直接的 p53 標的基因，為 SASP 之 p53 依賴分支的特徵。DNA 損傷與癌基因誘導衰老後分泌的 IGFBP3 以高親和力結合 IGF1/IGF-2，限制它們與 IGF1R 接觸，因而抑制促增殖性的生長因子訊號；藉由 restrain IGF 訊號，它強化與衰老相關的生長停滯並抑制鄰近細胞增殖。"
+    },
+    "confidence": 0.9,
+    "source_document": "IGFBP3.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "26f734370709",
+    "subject": "p53",
+    "predicate": "upregulates",
+    "object": "IGFBP3",
+    "context": {
+      "en-US": "p53 transcriptionally induces IGFBP3 after DNA damage and during oncogene-induced senescence, together with other p53-arm SASP components such as PAI-1 and TGFβ. This distinguishes the p53-driven secretome from the NF-κB-driven arm of the SASP, and makes circulating IGFBP3 a candidate biomarker of p53 activity and senescence burden; IGFBP3 additionally contributes to immune clearance of Senescent Cells.",
+      "zh-TW": "p53 在 DNA 損傷與癌基因誘導衰老後轉錄性誘導 IGFBP3，並與 PAI-1、TGFβ 等其他 p53 分支 SASP 成分一同表現。這使 p53 驅動的分泌組有別於 SASP 的 NF-κB 驅動分支，也讓循環中的 IGFBP3 成為 p53 活性與衰老負擔的候選生物標記；IGFBP3 另有助於 Senescent Cells 的免疫清除。"
+    },
+    "confidence": 0.9,
+    "source_document": "IGFBP3.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "d57012392421",
+    "subject": "IGFBP5",
+    "predicate": "inhibits",
+    "object": "Akt",
+    "context": {
+      "en-US": "IGFBP5 binds circulating and tissue IGF1 with high affinity through conserved cysteine-rich N- and C-terminal domains, regulating IGF access to IGF1R. By sequestering IGFs it can dampen pro-survival PI3K/Akt signaling, reinforcing senescence-associated growth arrest, and it also acts in autocrine/paracrine fashion to promote and propagate the senescent state during development and in adult tissue.",
+      "zh-TW": "IGFBP5 透過保守的富含半胱胺酸 N 端與 C 端結構域，以高親和力結合循環與組織中的 IGF1，調控 IGF 與 IGF1R 接觸的機會。藉由封存 IGF，它可減弱促存活的 PI3K/Akt 訊號，強化與衰老相關的生長停滯；並以自分泌／旁分泌方式在胚胎發育與成人組織中促進並傳播衰老狀態。"
+    },
+    "confidence": 0.85,
+    "source_document": "IGFBP5.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "3c6d17eee81f",
+    "subject": "IGFBP5",
+    "predicate": "is_a_component_of",
+    "object": "SASP",
+    "context": {
+      "en-US": "IGFBP5 is a beneficial developmental SASP factor: during embryogenesis, programmed senescence produces SASP factors including TGFβ and IGFBP5 that contribute to neural tube and forelimb patterning and growth. In adult tissue it participates in senescence reinforcement and matrix remodeling, and its dysregulation is implicated in fibrosis and shows context-dependent tumor-suppressive or tumor-promoting roles across cancers.",
+      "zh-TW": "IGFBP5 屬於有益的發育型 SASP 因子：在胚胎發生過程中，程式性衰老產生的 SASP 因子（包含 TGFβ 與 IGFBP5）參與神經管與前肢的圖式形成與生長。在成人組織中它參與衰老強化與基質重塑；其失調與纖維化相關，並在不同癌症中呈現情境依賴的抑癌或促癌作用。"
+    },
+    "confidence": 0.85,
+    "source_document": "IGFBP5.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "6f2f01d4b5c3",
+    "subject": "IKK complex",
+    "predicate": "phosphorylates",
+    "object": "IkappaBalpha",
+    "context": {
+      "en-US": "The IKK complex is the core signaling component of canonical NF-κB activation. IKKβ phosphorylates IkappaBalpha at Ser32/Ser36, creating a phosphodegron recognized by the SCF/β-TrCP E3 ligase and causing K48-linked ubiquitination and rapid proteasomal degradation. Freed NF-κB then translocates to the nucleus and activates target genes; NEMO is essential for signal-dependent assembly and activation of the complex.",
+      "zh-TW": "IKK complex 是典型 NF-κB 活化的核心訊號元件。IKKβ 在 Ser32/Ser36 磷酸化 IkappaBalpha，形成由 SCF/β-TrCP E3 連接酶辨識的磷酸降解子，造成 K48 連結泛素化與快速的蛋白酶體降解。獲得自由的 NF-κB 隨後轉位入核並活化標的基因；NEMO 對此複合體的訊號依賴性組裝與活化是必要的。"
+    },
+    "confidence": 0.95,
+    "source_document": "IKK complex.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "0d73e8e1bfaa",
+    "subject": "IKK complex",
+    "predicate": "drives",
+    "object": "SASP",
+    "context": {
+      "en-US": "The IKK-NF-κB module is a master transcriptional driver of the SASP: NF-κB is necessary and, with C/EBPβ, sufficient for SASP transcription. In Senescent Cells, persistent DDR and cytokine/receptor signals keep IKKβ active, sustaining IκBα turnover and nuclear NF-κB that transcribes IL-6, chemokines and matrix metalloproteinases. Because this module intersects with JAK/STAT and p38–MK2 axes, it integrates transcriptional and post-transcriptional layers of the SASP, and inhibiting IKKβ suppresses SASP secretion.",
+      "zh-TW": "IKK-NF-κB 模組是 SASP 的主要轉錄驅動者：NF-κB 對 SASP 轉錄是必要的，且與 C/EBPβ 合作時為充分條件。在 Senescent Cells 中持續的 DDR 與細胞激素／受體訊號使 IKKβ 維持活化，維持 IκBα 周轉與核內 NF-κB，進而轉錄 IL-6、趨化因子與基質金屬蛋白酶。由於此模組與 JAK/STAT 及 p38–MK2 軸交會，它整合了 SASP 的轉錄與轉錄後層次；抑制 IKKβ 可抑制 SASP 分泌。"
+    },
+    "confidence": 0.9,
+    "source_document": "IKK complex.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "e3709348c20a",
+    "subject": "IKKbeta",
+    "predicate": "is_activated_by",
+    "object": "TAK1",
+    "context": {
+      "en-US": "IKKbeta is activated by phosphorylation at Ser177/Ser181 in its activation loop by TAK1 (MAP3K7) and other MAP3Ks. Upstream chains include TNF-α via RIPK1–TRAF2–TAK1, Interleukin 1β via MyD88–IRAK–TRAF6–TAK1, and LPS via TLR4. IKKβ also inactivates TSC1 in response to pro-inflammatory cytokines, leading to mTORC1 activation (Lee et al., 2007).",
+      "zh-TW": "IKKbeta 由 TAK1（MAP3K7）與其他 MAP3K 在其活化環的 Ser177/Ser181 磷酸化而活化。上游鏈包括 TNF-α 經 RIPK1–TRAF2–TAK1、Interleukin 1β 經 MyD88–IRAK–TRAF6–TAK1，以及 LPS 經 TLR4。發炎性細胞激素也可使 IKKβ 與 TSC1 作用而使其失活，導致 mTORC1 活化（Lee et al., 2007）。"
+    },
+    "confidence": 0.9,
+    "source_document": "IKKbeta.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "5b03e1f15db4",
+    "subject": "IKKbeta",
+    "predicate": "contributes_to",
+    "object": "Chemoresistance",
+    "context": {
+      "en-US": "IKKbeta is the primary catalytic subunit of the IKK complex and the dominant IκB kinase in canonical NF-κB signaling; it forms a heterodimer with IKKalpha plus the scaffold NEMO. Constitutive IKKβ activation drives NF-κB-dependent anti-apoptotic gene expression and contributes to Cancer cell Chemoresistance, which is why IKKβ inhibitors are pursued in inflammatory disease and oncology.",
+      "zh-TW": "IKKbeta 是 IKK complex 的主要催化次單元，也是典型 NF-κB 訊號中的主要 IκB 激酶；它與 IKKalpha 及支架蛋白 NEMO 形成異源二聚體。IKKβ 的持續活化驅動 NF-κB 依賴的抗凋亡基因表現，並促成 Cancer 細胞的 Chemoresistance，因此 IKKβ 抑制劑在發炎性疾病與腫瘤學中受到重視。"
+    },
+    "confidence": 0.85,
+    "source_document": "IKKbeta.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "6b0a517a29d6",
+    "subject": "IKKepsilon",
+    "predicate": "phosphorylates",
+    "object": "XIAP",
+    "context": {
+      "en-US": "IKKepsilon, together with TBK1, phosphorylates XIAP at Ser430 within its RING finger domain, triggering Lys48-linked autoubiquitination at Lys322 and Lys328 and rapid proteasomal degradation. This functional link between innate immune activation (e.g., viral infection) and apoptotic sensitization means cells that have recently fought viral infection upregulate IKKε and lower their apoptotic threshold as a safeguard against viral persistence.",
+      "zh-TW": "IKKepsilon 與 TBK1 一起在 XIAP 的 RING finger 區域磷酸化 Ser430，觸發 Lys322 與 Lys328 位置的 Lys48 連結自泛素化與快速的蛋白酶體降解。這條連結先天免疫活化（如病毒感染）與凋亡致敏的功能路徑意味著：剛經歷過抗病毒戰鬥的細胞會上調 IKKε、降低凋亡門檻，作為防止病毒持續存在的防線。"
+    },
+    "confidence": 0.95,
+    "source_document": "IKKepsilon.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "bd879f8ba93d",
+    "subject": "IKKepsilon",
+    "predicate": "promotes",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "By driving XIAP degradation, IKKepsilon liberates Caspase-3, Caspase-7 and Caspase-9 from inhibition and sensitizes the cell to apoptosis. IKKε also phosphorylates IRF3 and IRF7 to induce type I interferon production, and can activate NF-κB through phosphorylation of NEMO, so it can either promote survival or apoptosis depending on context; it is overexpressed in breast, ovarian and pancreatic cancers and constitutive activity contributes to type I interferon overproduction in lupus.",
+      "zh-TW": "藉由促使 XIAP 降解，IKKepsilon 將 Caspase-3、Caspase-7 與 Caspase-9 從抑制中釋放，使細胞對凋亡致敏。IKKε 也磷酸化 IRF3 與 IRF7 以誘導第一型干擾素產生，並可透過磷酸化 NEMO 活化 NF-κB，因此依情境可促進存活或凋亡；它在乳癌、卵巢癌與胰臟癌中過量表現，其持續活性則促成紅斑性狼瘡中的第一型干擾素過度產生。"
+    },
+    "confidence": 0.9,
+    "source_document": "IKKepsilon.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "52a0ee108699",
+    "subject": "IL-1 Receptor",
+    "predicate": "activates",
+    "object": "IKK complex",
+    "context": {
+      "en-US": "IL-1R1 is the primary signaling receptor for IL-1α and IL-1β, mediating the pro-inflammatory effects of both. Ligand binding recruits IL-1RAcP, forming a 1:1:1 heterotrimer whose TIR domains recruit MyD88, which recruits IRAK4 and IRAK1, triggering a cascade that activates TRAF6 and ultimately the IKK complex — leading to NF-κB nuclear translocation and MAPK/AP-1 activation and transcription of IL-6, TNFα and other inflammatory genes.",
+      "zh-TW": "IL-1R1 是 IL-1α 與 IL-1β 的主要訊號受體，介導兩者的促發炎作用。配體結合後招募 IL-1RAcP，形成 1:1:1 的異源三聚體，其 TIR 區域招募 MyD88；MyD88 再招募 IRAK4 與 IRAK1，啟動活化 TRAF6 並最終活化 IKK complex 的級聯反應——導致 NF-κB 核轉位、MAPK/AP-1 活化，以及 IL-6、TNFα 等發炎基因的轉錄。"
+    },
+    "confidence": 0.9,
+    "source_document": "IL-1 Receptor.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "b08e3be66688",
+    "subject": "Anakinra",
+    "predicate": "inhibits",
+    "object": "IL-1 Receptor",
+    "context": {
+      "en-US": "IL-1 Receptor signaling is the point through which all IL-1-targeting biologics act. Anakinra is recombinant IL-1 receptor antagonist (IL-1Ra), an endogenous competitive antagonist that binds IL-1R1 without recruiting IL-1RAcP, thereby blocking signaling; Canakinumab is an anti-IL-1β monoclonal antibody, and Rilonacept a soluble IL-1R1/IL-1RAcP fusion that intercepts ligands before they reach the receptor.",
+      "zh-TW": "IL-1 Receptor 訊號是所有 IL-1 標靶生物製劑發揮作用的關口。Anakinra 是重組的 IL-1 受體拮抗劑（IL-1Ra），一種內源性競爭性拮抗劑，能結合 IL-1R1 而不招募 IL-1RAcP，因而阻斷訊號；Canakinumab 是抗 IL-1β 單株抗體，Rilonacept 則是可溶性 IL-1R1/IL-1RAcP 融合蛋白，在配體到達受體前攔截之。"
+    },
+    "confidence": 0.9,
+    "source_document": "IL-1 Receptor.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "5982f6ab13cb",
+    "subject": "IL-10",
+    "predicate": "inhibits",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "IL-10 is a homodimeric anti-inflammatory cytokine that signals through IL-10R1/IL-10R2, activating JAK/STAT and primarily phosphorylating STAT3. Nuclear STAT3 induces SOCS3 and BCL3 transcription, which suppress pro-inflammatory cytokine production and inhibit NF-κB activity. IL-10 also reduces the macrophage oxidative burst by inhibiting NADPH oxidase and downregulates MHC type II and co-stimulatory molecules to limit antigen presentation.",
+      "zh-TW": "IL-10 是一種同源二聚體抗發炎細胞激素，透過 IL-10R1/IL-10R2 訊號，活化 JAK/STAT 並主要磷酸化 STAT3。進入細胞核的 STAT3 誘導 SOCS3 與 BCL3 轉錄，進而抑制促發炎細胞激素產生並抑制 NF-κB 活性。IL-10 也藉由抑制 NADPH oxidase 降低巨噬細胞的氧化爆發，並下調 MHC type II 與共刺激分子以限制抗原呈現。"
+    },
+    "confidence": 0.9,
+    "source_document": "IL-10.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "ce54baee588d",
+    "subject": "IL-10",
+    "predicate": "suppresses",
+    "object": "TNFα",
+    "context": {
+      "en-US": "IL-10 suppresses production of the pro-inflammatory cytokines TNFα, IL-12, IL-6 and IL-1β, thereby limiting excessive immune responses and tissue damage. It is produced by Macrophages, CD4+ T Cells, regulatory T cells and B Cells, is essential for mucosal immune tolerance (IL-10-deficient mice develop spontaneous colitis), and promotes Th2 differentiation while inhibiting Th1 responses — though excessive IL-10 can impair pathogen clearance and suppress CD8+ T-cell antitumor immunity.",
+      "zh-TW": "IL-10 抑制促發炎細胞激素 TNFα、IL-12、IL-6 與 IL-1β 的產生，因而限制過度的免疫反應與組織損傷。它由 Macrophages、CD4+ T Cells、調節型 T 細胞與 B Cells 產生，對黏膜免疫耐受不可或缺（缺乏 IL-10 的小鼠會自發性結腸炎），並促進 Th2 分化、抑制 Th1 反應——但過量的 IL-10 也可能妨礙病原清除並壓抑 CD8+ T 細胞的抗腫瘤免疫。"
+    },
+    "confidence": 0.9,
+    "source_document": "IL-10.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "2ff5ae0088b9",
+    "subject": "Inflammatory Bowel Disease",
+    "predicate": "is_associated_with",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "Pathological intestinal-epithelial necroptosis is a landmark mechanism in inflammatory bowel disease: when the FADD–caspase-8–c-FLIP suppressive complex is lost, RIPK3-dependent lytic death of enterocytes produces IBD-like colitis resembling Crohn's disease.",
+      "zh-TW": "腸道上皮細胞的病理性壞死性凋亡（necroptosis）是發炎性腸病（IBD）的代表性機制：當 FADD–caspase-8–c-FLIP 抑制複合體失效時，RIPK3 依賴的裂解性細胞死亡會造成類似克隆氏症（crohn's disease）的結腸炎。"
+    },
+    "confidence": 0.9,
+    "source_document": "Inflammatory Bowel Disease.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "766ab37d131e",
+    "subject": "Inflammatory Bowel Disease",
+    "predicate": "is_rescued_by",
+    "object": "RIPK3",
+    "context": {
+      "en-US": "Conditional deletion of Caspase-8 or FADD in intestinal epithelium causes spontaneous necroptosis and IBD-like pathology, but crossing these mice onto a RIPK3-deficient background completely prevents the disease, demonstrating that the epithelial cell death underlying the phenotype is RIPK3-dependent.",
+      "zh-TW": "在腸道上皮中條件性刪除 Caspase-8 或 FADD 會引發自發性壞死性凋亡與類 IBD 的病理，但將這些小鼠交配到缺乏 RIPK3 的背景上可完全阻止該病徵，證明其上皮細胞死亡依賴 RIPK3。"
+    },
+    "confidence": 0.95,
+    "source_document": "Inflammatory Bowel Disease.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "1af609c81a3b",
+    "subject": "A20",
+    "predicate": "inhibits",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "Ablation of the RIPK1-deubiquitinase A20 sensitizes mice to lethal colitis driven by TNF-mediated death of the intestinal epithelium, showing that A20 normally restrains RIPK1-dependent inflammatory and necrotic cell death in the gut.",
+      "zh-TW": "剔除 RIPK1 去泛素化酶 A20 會使小鼠對 TNF 介導的腸道上皮死亡所造成的致命性結腸炎高度敏感，顯示 A20 正常情況下抑制 RIPK1 依賴的發炎與壞死性細胞死亡。"
+    },
+    "confidence": 0.85,
+    "source_document": "Inflammatory Bowel Disease.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "9c1f5abfd42a",
+    "subject": "Necroptosis",
+    "predicate": "promotes",
+    "object": "Inflammation",
+    "context": {
+      "en-US": "Necrotic intestinal epithelial cells release damage-associated molecular patterns (DAMPs), and epithelial necroptosis additionally destroys barrier function; both routes couple this lytic death program to the chronic mucosal inflammation of IBD.",
+      "zh-TW": "壞死的腸道上皮細胞釋放損傷相關分子模式（DAMP），而上皮壞死性凋亡同時破壞屏障功能；這兩條途徑共同將此裂解性死亡程式與 IBD 的慢性黏膜發炎連結起來。"
+    },
+    "confidence": 0.9,
+    "source_document": "Inflammatory Bowel Disease.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "e00aa7dfdcc9",
+    "subject": "Mitophagy",
+    "predicate": "regulates",
+    "object": "Innate Immune System",
+    "context": {
+      "en-US": "Mounting evidence indicates that mitophagy, the selective degradation of damaged or excessive mitochondria, is an especially crucial regulator of innate immune system function, linking organelle quality control to inflammatory and antimicrobial responses.",
+      "zh-TW": "愈來愈多證據顯示，mitophagy（選擇性清除受損或過量粒線體）是先天免疫系統功能特別重要的調節因子，將胞器品質管制與發炎及抗微生物反應連結起來。"
+    },
+    "confidence": 0.85,
+    "source_document": "Innate Immune System.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "74894b6bd270",
+    "subject": "Inner Mitochondrial Membrane",
+    "predicate": "houses",
+    "object": "Oxidative Phosphorylation",
+    "context": {
+      "en-US": "The inner mitochondrial membrane is the highly folded membrane that invaginates to form cristae, dramatically expanding surface area for energy production; it encloses the mitochondrial matrix and houses the electron transport chain and oxidative phosphorylation complexes that generate ATP.",
+      "zh-TW": "粒線體內膜是高度摺疊、內陷形成嵴（cristae）的膜，大幅擴大能量產生的表面積；它包圍粒線體基質，並容納電子傳遞鏈與氧化磷酸化複合體以產生 ATP。"
+    },
+    "confidence": 0.95,
+    "source_document": "Inner Mitochondrial Membrane.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "b21657fb4aaf",
+    "subject": "Cardiolipin",
+    "predicate": "stabilizes",
+    "object": "Inner Mitochondrial Membrane",
+    "context": {
+      "en-US": "Cardiolipin is a dimeric phospholipid unique to the inner mitochondrial membrane that stabilizes membrane curvature and promotes fusion and fission remodeling events of the organelle.",
+      "zh-TW": "心磷脂是粒線體內膜特有的二聚磷脂，可穩定膜曲率，並促進此胞器的融合與分裂重塑事件。"
+    },
+    "confidence": 0.9,
+    "source_document": "Inner Mitochondrial Membrane.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "13b0a7b94cd3",
+    "subject": "Endoplasmic Reticulum",
+    "predicate": "triggers",
+    "object": "Mitochondrial Fission",
+    "context": {
+      "en-US": "Constriction of the inner mitochondrial membrane during fission is Ca2+-dependent and occurs at endoplasmic reticulum–mitochondria contact sites, where localized calcium transfer triggers the membrane remodeling required for division.",
+      "zh-TW": "分裂過程中粒線體內膜的收縮依賴 Ca2+，並發生於內質網–粒線體接觸位點，在該處局部鈣轉移觸發了分裂所需的膜重塑。"
+    },
+    "confidence": 0.9,
+    "source_document": "Inner Mitochondrial Membrane.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "05a13cb3a574",
+    "subject": "Insulin Secretion",
+    "predicate": "activates",
+    "object": "Insulin Signaling",
+    "context": {
+      "en-US": "Glucose-stimulated insulin secretion by pancreatic beta cells engages the insulin signaling cascade: the insulin receptor tyrosine kinase activates IRS1, PI3K, and AKT, converging on mTORC1 and opposing AMPK to connect nutrient sensing with growth and autophagy.",
+      "zh-TW": "葡萄糖刺激的胰島素分泌會啟動胰島素訊息傳遞級聯：胰島素受體酪胺酸激酶活化 IRS1、PI3K 與 AKT，最後收斂於 mTORC1 並對抗 AMPK，將營養感受與生長及自噬連結。"
+    },
+    "confidence": 0.9,
+    "source_document": "Insulin.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "77b88f1b2299",
+    "subject": "Insulin Signaling",
+    "predicate": "inhibits",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Insulin signaling is a central suppressor of autophagy: Akt-dependent activation of mTORC1 phosphorylates ULK1, inactivating the autophagy initiation complex, and phosphorylates TFEB/TFE3 to promote their cytosolic retention via 14-3-3 proteins.",
+      "zh-TW": "胰島素訊息傳遞是自噬的重要抑制因子：Akt 依賴的 mTORC1 活化會磷酸化 ULK1 使自噬起始複合體失活，並磷酸化 TFEB/TFE3 使其經由 14-3-3 蛋白被留在細胞質中。"
+    },
+    "confidence": 0.95,
+    "source_document": "Insulin Signaling.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "1de8caa6ff4a",
+    "subject": "Insulin Signaling",
+    "predicate": "activates",
+    "object": "mTORC1",
+    "context": {
+      "en-US": "Insulin binds the IGF1R/InsR receptor tyrosine kinase and recruits IRS1/IRS2 to activate PI3K → PIP3 → PDK1 → Akt; Akt then phosphorylates TSC2, PRAS40, and FOXO, all converging to activate mTORC1.",
+      "zh-TW": "胰島素結合 IGF1R/InsR 受體酪胺酸激酶並招募 IRS1/IRS2，啟動 PI3K → PIP3 → PDK1 → Akt；Akt 接著磷酸化 TSC2、PRAS40 與 FOXO，最後一致地活化 mTORC1。"
+    },
+    "confidence": 0.95,
+    "source_document": "Insulin Signaling.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "cebbd34ccad4",
+    "subject": "DAF-2",
+    "predicate": "extends",
+    "object": "Healthspan",
+    "context": {
+      "en-US": "Reduced insulin/IGF-1 signaling through dietary restriction, intermittent fasting, or genetic reduction of DAF-2, the C. elegans insulin/IGF-1 receptor, derepresses autophagy and doubles lifespan via DAF-16/FOXO, making it one of the most robust lifespan-extending interventions.",
+      "zh-TW": "透過飲食限制、間歇性禁食，或在 C. elegans 中遺傳性降低胰島素/IGF-1 受體 DAF-2 來減少胰島素訊息傳遞，可解除對自噬的抑制並經由 DAF-16/FOXO 使壽命加倍，是最穩健的延壽介入之一。"
+    },
+    "confidence": 0.9,
+    "source_document": "Insulin Signaling.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "656b21ef7b82",
+    "subject": "Metabolic Syndrome",
+    "predicate": "impairs",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Hyperinsulinemia in Metabolic Syndrome and Type 2 Diabetes Mellitus chronically suppresses autophagy through insulin signaling, contributing to proteotoxicity, mitochondrial dysfunction and accelerated aging.",
+      "zh-TW": "代謝症候群與第二型糖尿病中的高胰島素血症經由胰島素訊息傳遞長期抑制自噬，造成蛋白毒性、粒線體功能障礙與加速老化。"
+    },
+    "confidence": 0.85,
+    "source_document": "Insulin Signaling.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "9733790a5902",
+    "subject": "Insulin",
+    "predicate": "recruits",
+    "object": "GLUT4",
+    "context": {
+      "en-US": "Insulin signaling drives glucose uptake by recruiting the GLUT4 glucose transporter to the cell membrane via the insulin receptor → IRS1 → PI3K → AKT cascade.",
+      "zh-TW": "胰島素訊息傳遞經由胰島素受體 → IRS1 → PI3K → AKT 的級聯，將葡萄糖轉運蛋白 GLUT4 招募到細胞膜以促進葡萄糖攝取。"
+    },
+    "confidence": 0.9,
+    "source_document": "Insulin.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "65f6380f1eb2",
+    "subject": "Insulin Signaling",
+    "predicate": "opposes",
+    "object": "AMPK",
+    "context": {
+      "en-US": "Insulin signaling converges on mTORC1 and opposes AMPK, making insulin the anabolic arm of nutrient sensing that is catabolically antagonistic to fasting-state energy sensing and to autophagy induction.",
+      "zh-TW": "胰島素訊息傳遞收斂於 mTORC1 並對抗 AMPK，使胰島素成為營養感受的合成代謝分支，在分解代謝上與禁食狀態的能量感受及自噬誘導相拮抗。"
+    },
+    "confidence": 0.85,
+    "source_document": "Insulin.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "8aad3f34465f",
+    "subject": "Integrated Stress Response",
+    "predicate": "is_induced_by",
+    "object": "DELE1",
+    "context": {
+      "en-US": "Mitochondrial stress activates the integrated stress response through the DELE1–OMA1–HRI axis: OMA1 processes DELE1 to enable activation of the eIF2A kinase HRI, linking organelle dysfunction to a nuclear adaptive transcriptional program.",
+      "zh-TW": "粒線體壓力透過 DELE1–OMA1–HRI 軸活化整合性壓力反應：OMA1 切割 DELE1 使 eIF2A 激酶 HRI 得以活化，將胞器功能障礙與細胞核的適應性轉錄程式連結起來。"
+    },
+    "confidence": 0.9,
+    "source_document": "Integrated Stress Response.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "a0b8573fc928",
+    "subject": "Integrated Stress Response",
+    "predicate": "upregulates",
+    "object": "ATF4",
+    "context": {
+      "en-US": "Phosphorylated EIF2A inhibits global protein synthesis while selectively increasing translation of specific mRNAs such as ATF4, producing the adaptive transcriptional output of the integrated stress response.",
+      "zh-TW": "被磷酸化的 EIF2A 抑制整體蛋白質合成，同時選擇性增加 ATF4 等特定 mRNA 的轉譯，產生整合性壓力反應的適應性轉錄輸出。"
+    },
+    "confidence": 0.95,
+    "source_document": "Integrated Stress Response.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "43d9b732088c",
+    "subject": "Integrated Stress Response",
+    "predicate": "is_induced_by",
+    "object": "Mitochondrial Dysfunction",
+    "context": {
+      "en-US": "Stressors that trigger the integrated stress response include ER stress, amino acid starvation, heme deficiency, viral infection and mitochondrial dysfunction, making the ISR a common retrograde signaling pathway linking organelle stress to nuclear adaptation.",
+      "zh-TW": "能觸發整合性壓力反應的壓力源包括內質網壓力、胺基酸缺乏、血紅素不足、病毒感染與粒線體功能障礙，使 ISR 成為連結胞器壓力與細胞核適應的共同逆行訊息傳遞途徑。"
+    },
+    "confidence": 0.9,
+    "source_document": "Integrated Stress Response.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "8c82c3975b48",
+    "subject": "Interferon-Stimulated Genes",
+    "predicate": "is_induced_by",
+    "object": "Type I Interferon",
+    "context": {
+      "en-US": "Interferon-stimulated genes are the aggregated transcriptional output of type I interferon signaling: IFN-I binding IFNAR1 activates JAK-STAT pathways that induce hundreds of ISGs whose products establish an antiviral and inflammatory cellular state.",
+      "zh-TW": "干擾素刺激基因是第一型干擾素訊息傳遞的聚合轉錄輸出：IFN-I 結合 IFNAR1 後活化 JAK-STAT 途徑，誘導數百個 ISG，其蛋白產物建立抗病毒與發炎性的細胞狀態。"
+    },
+    "confidence": 0.95,
+    "source_document": "Interferon-Stimulated Genes.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "c9a6fa6c6157",
+    "subject": "cGAS-STING Pathway",
+    "predicate": "activates",
+    "object": "Interferon-Stimulated Genes",
+    "context": {
+      "en-US": "Interferon-stimulated genes lie downstream of the cGAS-STING axis: cytosolic dsDNA activates cGAS to produce cGAMP, which engages STING and recruits TBK1 to activate IRF3 and NF-κB, driving IFN-I and ISG transcription. ISG elevation is therefore a sensitive readout of sustained cGAS-STING activation.",
+      "zh-TW": "干擾素刺激基因位於 cGAS-STING 軸的下游：細胞質雙股 DNA 活化 cGAS 產生 cGAMP，後者接合 STING 並招募 TBK1 活化 IRF3 與 NF-κB，驅動 IFN-I 與 ISG 的轉錄。因此 ISG 升高是持續 cGAS-STING 活化的敏感讀出。"
+    },
+    "confidence": 0.95,
+    "source_document": "Interferon-Stimulated Genes.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "e709275fe2b8",
+    "subject": "Interferon-Stimulated Genes",
+    "predicate": "is_elevated_in",
+    "object": "Microglia",
+    "context": {
+      "en-US": "ISGs mark pro-inflammatory glial subpopulations and are co-induced with pro-inflammatory cytokines in activated microglia and astrocytes; ISG induction also characterizes an IFN-I–enriched microglial subset linked to synapse loss, distinct from the canonical disease-associated microglia program.",
+      "zh-TW": "ISG 標記促發炎膠細胞次族群，並在活化的 microglia 與星狀膠細胞中與促發炎細胞激素共同被誘導；ISG 的誘導也定義了一個富含 IFN-I、與突觸喪失相關的 microglia 亞群，與典型的 disease-associated microglia 程式相區別。"
+    },
+    "confidence": 0.9,
+    "source_document": "Interferon-Stimulated Genes.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "1c928da76dcb",
+    "subject": "Interferon-Stimulated Genes",
+    "predicate": "is_elevated_in",
+    "object": "Alzheimer's Disease",
+    "context": {
+      "en-US": "Elevated interferon-stimulated genes are a shared feature of mouse models, human patient tissue and disease-stressed glial cells across neurodegenerative conditions including Alzheimer's disease, Parkinson's disease, FTD and ALS, and in AD they correlate with cognitive decline.",
+      "zh-TW": "在阿茲海默症、巴金森氏症、額顳葉失智症與肌萎縮性側索硬化症等神經退化疾病中，升高的干擾素刺激基因是小鼠模型、人體病患組織與受疾病壓力的膠細胞所共有的特徵；在 AD 中其與認知衰退相關。"
+    },
+    "confidence": 0.9,
+    "source_document": "Interferon-Stimulated Genes.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "01b5a41e605f",
+    "subject": "Interferon-gamma",
+    "predicate": "activates",
+    "object": "Macrophage",
+    "context": {
+      "en-US": "Interferon-gamma is the classical M1 macrophage activator, inducing respiratory burst, MHC class II expression, and production of reactive oxygen species and nitric oxide in macrophages.",
+      "zh-TW": "Interferon-gamma 是典型的 M1 macrophage 活化因子，誘導呼吸爆發、MHC 第二類分子表現，以及巨噬細胞產生活性氧與一氧化氮。"
+    },
+    "confidence": 0.95,
+    "source_document": "Interferon-gamma.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "8a11f78659ac",
+    "subject": "JAK",
+    "predicate": "phosphorylates",
+    "object": "STAT1",
+    "context": {
+      "en-US": "Interferon-gamma receptor engagement activates the JAK kinases (JAK1, JAK2), which phosphorylate STAT1; phosphorylated STAT1 homodimers (GAF) translocate to the nucleus and bind gamma-activated sequences in the promoters of hundreds of interferon-stimulated genes.",
+      "zh-TW": "Interferon-gamma 受體的接合活化 JAK 激酶（JAK1、JAK2），後者磷酸化 STAT1；被磷酸化的 STAT1 同源二聚體（GAF）轉位入核，結合數百個干擾素刺激基因啟動子上的 gamma 活化序列。"
+    },
+    "confidence": 0.95,
+    "source_document": "Interferon-gamma.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "77d0938cf7e2",
+    "subject": "IDO1",
+    "predicate": "activates",
+    "object": "Kynurenine Pathway",
+    "context": {
+      "en-US": "Interferon-gamma-induced IDO1 diverts tryptophan into the kynurenine pathway, and the IFN-gamma–IDO1–kynurenine–aryl hydrocarbon receptor axis is a major immunosuppressive pathway in the tumor microenvironment.",
+      "zh-TW": "Interferon-gamma 誘導的 IDO1 將色胺酸分流至犬尿胺酸途徑，而 IFN-gamma–IDO1–犬尿胺酸–芳香烴受體軸是腫瘤微環境中主要的免疫抑制途徑。"
+    },
+    "confidence": 0.9,
+    "source_document": "Interferon-gamma.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "c1a7b21b4d6a",
+    "subject": "Interleukin 11",
+    "predicate": "activates",
+    "object": "STAT3",
+    "context": {
+      "en-US": "Interleukin-11 binds IL-11Ralpha, which complexes with the shared subunit gp130 to activate JAK (primarily JAK1/TYK2) and STAT3, plus MAPK and PI3K/Akt cascades; IL-11 also engages MAPK and PI3K/Akt signaling to drive fibroblast activation and matrix deposition.",
+      "zh-TW": "Interleukin-11 結合 IL-11Rα，後者與共用次單元 gp130 複合以活化 JAK（主要為 JAK1/TYK2）與 STAT3，並同時啟動 MAPK 與 PI3K/Akt 級聯；IL-11 亦經由 MAPK 與 PI3K/Akt 訊息促成纖維母細胞活化與基質沉積。"
+    },
+    "confidence": 0.9,
+    "source_document": "Interleukin 11.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "c2d92d83fa18",
+    "subject": "Interleukin 11",
+    "predicate": "is_a_component_of",
+    "object": "SASP",
+    "context": {
+      "en-US": "Interleukin-11 is a distinctive senescence-associated secretory phenotype factor with tissue-restricted, mostly deleterious consequences: senescent cells secrete it to activate STAT3 in osteoblasts and amplify pro-fibrotic signaling in lung and heart.",
+      "zh-TW": "Interleukin-11 是具組織限制性且多為有害的 SASP 因子：衰老細胞分泌 IL-11 以活化骨母細胞中的 STAT3，並在肺與心臟放大促纖維化訊息。"
+    },
+    "confidence": 0.9,
+    "source_document": "Interleukin 11.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "ef9e2ae337dd",
+    "subject": "SIRT1",
+    "predicate": "inhibits",
+    "object": "Interleukin 11",
+    "context": {
+      "en-US": "Interleukin-11 transcription rises when SIRT1 deacetylase activity is lost, since SIRT1 normally represses IL-11 expression; vitamin D receptor signaling likewise normally restrains it, making IL-11 an induced senescence-program output rather than a response to classic inflammatory stimuli.",
+      "zh-TW": "當 SIRT1 去乙醯化酶活性喪失時，Interleukin-11 的轉錄上升，因為 SIRT1 正常情況下抑制 IL-11 的表現；維生素 D 受體訊息同樣對其加以約束，使 IL-11 成為衰老程式的誘導產物，而非對典型發炎刺激的反應。"
+    },
+    "confidence": 0.85,
+    "source_document": "Interleukin 11.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "d380c0b96026",
+    "subject": "Interleukin 11",
+    "predicate": "promotes",
+    "object": "Idiopathic Pulmonary Fibrosis",
+    "context": {
+      "en-US": "Senescent-cell IL-11 signals in autocrine/paracrine loops to drive a fibroblast-to-myofibroblast transition and extracellular-matrix deposition, driving pulmonary fibrosis, cardiac fibrosis and bone loss; IL-11 deletion or antibody blockade extends healthspan in mice.",
+      "zh-TW": "衰老細胞的 IL-11 以自分泌／旁分泌迴路促使纖維母細胞轉變為肌成纖維細胞並沉積細胞外基質，造成肺纖維化、心臟纖維化與骨流失；小鼠的 IL-11 剔除或抗體阻斷可延長健康壽命。"
+    },
+    "confidence": 0.9,
+    "source_document": "Interleukin 11.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "b182b2e9800b",
+    "subject": "Interleukin 11",
+    "predicate": "contributes_to",
+    "object": "Osteoporosis",
+    "context": {
+      "en-US": "In bone, senescent cells secrete Interleukin-11 to activate STAT3 in osteoblasts, suppressing bone formation and shifting the osteoblast/osteoclast balance toward resorption — the senescence-associated osteokine loop that drives age-related bone loss.",
+      "zh-TW": "在骨骼中，衰老細胞分泌 Interleukin-11 以活化骨母細胞中的 STAT3，抑制骨形成並將骨母細胞／破骨細胞平衡轉向骨吸收，即造成年齡相關骨流失的衰老相關骨細胞激素迴路。"
+    },
+    "confidence": 0.9,
+    "source_document": "Interleukin 11.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "70032e155f6e",
+    "subject": "Interleukin 33",
+    "predicate": "promotes",
+    "object": "Hepatocellular Carcinoma",
+    "context": {
+      "en-US": "Interleukin-33 released from senescent hepatic stellate cells activates group 2 innate lymphoid cells, eosinophils and regulatory T cells, reshaping the tumor microenvironment toward immune suppression and promoting hepatocellular carcinoma development.",
+      "zh-TW": "由衰老肝星狀細胞釋放的 Interleukin-33 活化第 2 型先天淋巴球細胞（ILC2s）、嗜伊紅性球與調節型 T 細胞，使腫瘤微環境轉向免疫抑制並促進肝細胞癌的發展。"
+    },
+    "confidence": 0.9,
+    "source_document": "Interleukin 33.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "93dca17aab67",
+    "subject": "Interleukin 33",
+    "predicate": "is_induced_by",
+    "object": "Interleukin 1β",
+    "context": {
+      "en-US": "In senescent hepatic stellate cells, Interleukin-33 expression is induced downstream of Interleukin-1β signaling, establishing an IL-1β → IL-33 axis in which IL-33 amplifies the upstream SASP-initiator loop rather than acting alone.",
+      "zh-TW": "在衰老肝星狀細胞中，Interleukin-33 的表現由 Interleukin-1β 訊息下游誘導，建立 IL-1β → IL-33 軸，使 IL-33 放大上游的 SASP 啟動迴路而非單獨作用。"
+    },
+    "confidence": 0.9,
+    "source_document": "Interleukin 33.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "7c251e8a4f5a",
+    "subject": "Interleukin 33",
+    "predicate": "activates",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "Extracellular Interleukin-33 binds the receptor ST2 (IL-1RL1), which pairs with IL-1RAcP to recruit MyD88 and activate NF-κB and MAPK; as a nuclear alarmin it is released passively on cell damage rather than by classical secretion.",
+      "zh-TW": "細胞外的 Interleukin-33 結合受體 ST2（IL-1RL1），後者與 IL-1RAcP 配對招募 MyD88 並活化 NF-κB 與 MAPK；作為核內 alarmin，它是在細胞受損時被動釋放，而非經由典型分泌路徑。"
+    },
+    "confidence": 0.9,
+    "source_document": "Interleukin 33.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "72b1d8d44bbf",
+    "subject": "Interleukin 33",
+    "predicate": "links",
+    "object": "Senescence",
+    "context": {
+      "en-US": "Interleukin-33 is a pro-tumorigenic SASP factor secreted by senescent stromal cells, linking stress-induced stromal senescence to epithelial cancer initiation and progression in the liver and serving as a damage-associated biomarker.",
+      "zh-TW": "Interleukin-33 是衰老基質細胞分泌的促腫瘤 SASP 因子，將應激誘導的基質衰老與肝臟上皮癌的起始與進展連結起來，並可作為損傷相關的生物標記。"
+    },
+    "confidence": 0.85,
+    "source_document": "Interleukin 33.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "156721e19e29",
+    "subject": "Mitochondrial DNA",
+    "predicate": "impairs",
+    "object": "Intestinal Stem Cell",
+    "context": {
+      "en-US": "Intestinal stem cells are LGR5+ crypt base columnar cells that drive continuous epithelial renewal and are particularly vulnerable to mtDNA mutations: a high burden of mitochondrial DNA mutations reduces LGR5+ cell function and organoid-forming capacity.",
+      "zh-TW": "腸道幹細胞是位於腸 crypt 基底的 LGR5+ 柱狀細胞，負責持續的上皮更新，並特別容易受到粒線體 DNA 突變影響：粒線體 DNA 突變負荷高會降低 LGR5+ 細胞功能與類器官形成能力。"
+    },
+    "confidence": 0.9,
+    "source_document": "Intestinal Stem Cell.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "9a819bc4dfba",
+    "subject": "Mitochondrial Unfolded Protein Response",
+    "predicate": "impairs",
+    "object": "Intestinal Stem Cell",
+    "context": {
+      "en-US": "The mtDNA-mutation phenotype in intestinal stem cells is mediated by ATF5-driven activation of the mitochondrial unfolded protein response (UPRmt), and is reversible with NMN supplementation, which restores intestinal stem cell regenerative potential.",
+      "zh-TW": "腸道幹細胞的粒線體 DNA 突變表型由 ATF5 驅動的粒線體未折疊蛋白反應（UPRmt）活化所介導，並可被 NMN 補充逆轉，恢復腸道幹細胞的再生潛能。"
+    },
+    "confidence": 0.9,
+    "source_document": "Intestinal Stem Cell.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "969c38b2303e",
+    "subject": "NAD+",
+    "predicate": "is_required_for",
+    "object": "Intestinal Stem Cell",
+    "context": {
+      "en-US": "NAD+ depletion compromises intestinal stem cell function, and supplementation with the NAD+ precursors NMN or nicotinamide riboside can rejuvenate aged gut adult stem cells and restore their regenerative potential.",
+      "zh-TW": "NAD+ 耗竭會損害腸道幹細胞功能，而補充 NAD+ 前驅物 NMN 或菸鹼醯胺核糖可讓老化的腸道成年幹細胞年輕化並恢復其再生潛能。"
+    },
+    "confidence": 0.9,
+    "source_document": "Intestinal Stem Cell.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "79506c063ef6",
+    "subject": "Intestinal Stem Cell",
+    "predicate": "is_a_type_of",
+    "object": "Stem Cells",
+    "context": {
+      "en-US": "Intestinal stem cells are LGR5+ stem cells located at the base of intestinal crypts, among the most rapidly dividing stem cell populations in the body, whose fate is partitioned by mitochondrial age and quality rather than mtDNA mutation load alone.",
+      "zh-TW": "腸道幹細胞是位於腸 crypt 基底的 LGR5+ 幹細胞，是體內分裂最快的幹細胞族群之一，其命運受粒線體年齡與品質而非僅 mtDNA 突變負荷所區分。"
+    },
+    "confidence": 0.9,
+    "source_document": "Intestinal Stem Cell.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "cb557f5ff7e9",
+    "subject": "Intrinsically Disordered Region",
+    "predicate": "drives",
+    "object": "Liquid-Liquid Phase Separation",
+    "context": {
+      "en-US": "Intrinsically disordered regions lack a fixed three-dimensional fold yet drive liquid–liquid phase separation, forming membraneless organelles and condensates, and they are enriched in sites for phosphorylation, acetylation and other post-translational modifications.",
+      "zh-TW": "內在無序區缺乏固定的三維摺疊，卻能驅動液–液相分離，形成無膜胞器與凝聚體；它們也富含磷酸化、乙醯化等轉譯後修飾位點。"
+    },
+    "confidence": 0.95,
+    "source_document": "Intrinsically Disordered Region.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "706fd05e4564",
+    "subject": "SIRT6",
+    "predicate": "has",
+    "object": "Intrinsically Disordered Region",
+    "context": {
+      "en-US": "SIRT6 harbors a C-terminal intrinsically disordered region (amino acids 298–355) that encompasses the centenarian mutations N308K and A313S, and vimentin contains N- and C-terminal IDRs; interaction between these IDRs regulates SIRT6 protein stability.",
+      "zh-TW": "SIRT6 帶有一個 C 端內在無序區（胺基酸 298–355），其中包含百歲老人突變 N308K 與 A313S；vimentin 則在 N 端與 C 端各有一個 IDR，這些 IDR 之間的交互作用調控 SIRT6 的蛋白質穩定性。"
+    },
+    "confidence": 0.9,
+    "source_document": "Intrinsically Disordered Region.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "dca3f2f0765b",
+    "subject": "Vimentin",
+    "predicate": "has",
+    "object": "Intrinsically Disordered Region",
+    "context": {
+      "en-US": "Vimentin contains two intrinsically disordered regions, at its N-terminus (amino acids 1–89) and C-terminus (amino acids 409–422), which mediate its interaction with SIRT6; the centenarian N308K mutation within SIRT6's IDR reduces binding affinity to vimentin's N-terminal IDR and elevates SIRT6 protein levels.",
+      "zh-TW": "Vimentin 含有兩個內在無序區，分別位於 N 端（胺基酸 1–89）與 C 端（胺基酸 409–422），負責與 SIRT6 的交互作用；位於 SIRT6 IDR 內的百歲老人 N308K 突變降低與 vimentin N 端 IDR 的結合親和力，使 SIRT6 蛋白量升高。"
+    },
+    "confidence": 0.9,
+    "source_document": "Intrinsically Disordered Region.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "d8badaa53085",
+    "subject": "Intrinsically Disordered Region",
+    "predicate": "enables",
+    "object": "Vimentin",
+    "context": {
+      "en-US": "Intrinsically disordered regions enable transient, specific interactions with multiple partners, which is critical for signaling hub proteins such as SIRT6 that must exchange binding partners to control protein stability.",
+      "zh-TW": "內在無序區可與多個伙伴進行暫時且具專一性的交互作用，這對 SIRT6 這類訊息傳遞樞紐蛋白質而言十分關鍵，因為它們必須交換結合伙伴以控制蛋白質穩定性。"
+    },
+    "confidence": 0.8,
+    "source_document": "Intrinsically Disordered Region.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "382c1896e862",
+    "subject": "Inulin",
+    "predicate": "encapsulates",
+    "object": "Fisetin",
+    "context": {
+      "en-US": "Enzymatically synthesized inulin nanoparticles (95.9–238.5 nm) encapsulate fisetin, increasing its solubility 3.6-fold over the free compound and showing higher DPPH antioxidant activity, with improved thermal stability at 70 °C.",
+      "zh-TW": "以酵素法合成的 inulin 奈米顆粒（95.9–238.5 nm）可包埋 fisetin，使其溶解度較游離型提升 3.6 倍，DPPH 抗氧化活性更高，且在 70 °C 下熱穩定性更佳。"
+    },
+    "confidence": 0.9,
+    "source_document": "Inulin.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "c4548709e8c8",
+    "subject": "Inulin",
+    "predicate": "is_a_type_of",
+    "object": "Bioavailability",
+    "context": {
+      "en-US": "Inulin is a non-digestible beta(2→1)-linked fructan oligosaccharide used as a prebiotic carbohydrate; beyond dietary benefits, its low cost, safety and bioavailability make it an attractive nanocarrier for hydrophobic bioactives.",
+      "zh-TW": "Inulin 是不可消化的 β(2→1) 鍵結果聚糖寡糖，作為益生元碳水化合物使用；除了 dietary 好處外，其低成本、安全性與生物可用性使其成為疏水性活性物的理想奈米載體。"
+    },
+    "confidence": 0.8,
+    "source_document": "Inulin.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "5ccbf4a15923",
+    "subject": "Inulin",
+    "predicate": "enhances",
+    "object": "Antioxidant",
+    "context": {
+      "en-US": "Fisetin encapsulated in inulin nanoparticles shows higher DPPH antioxidant activity than free fisetin and retains greater radical-scavenging after 120 minutes at 70 °C, attributed to glycerol/water-induced lipid fluidization protecting the cargo.",
+      "zh-TW": "包埋於 inulin 奈米顆粒中的 fisetin 比游離 fisetin 具有更高的 DPPH 抗氧化活性，並在 70 °C 下 120 分鐘後保留更強的清除能力，這歸因於甘油／水造成的脂質流動化保護了載 payload。"
+    },
+    "confidence": 0.85,
+    "source_document": "Inulin.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "51fcee53cd34",
+    "subject": "Iodoacetic Acid",
+    "predicate": "inhibits",
+    "object": "GAPDH",
+    "context": {
+      "en-US": "Iodoacetic acid irreversibly inhibits glyceraldehyde-3-phosphate dehydrogenase by alkylating its catalytic cysteine thiol, blocking glycolysis, depleting ATP, and — through disrupted disulfide handling and impaired NADH reoxidation — raising reactive oxygen species and promoting lipid peroxidation.",
+      "zh-TW": "碘乙酸藉由烷基化甘油醛-3-磷酸去氫酶的催化性半胱胺酸硫醇，不可逆地抑制該酵素，阻斷糖解作用、耗竭 ATP，並透過破壞雙硫鍵處理與損害 NADH 再氧化而升高活性氧並促進脂質過氧化。"
+    },
+    "confidence": 0.95,
+    "source_document": "Iodoacetic Acid.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "2530206f2ea1",
+    "subject": "Iodoacetic Acid",
+    "predicate": "increases",
+    "object": "Reactive Oxygen Species",
+    "context": {
+      "en-US": "Because Iodoacetic Acid kills cells by energy failure and ROS rather than by direct extracellular oxidant exposure, its toxicity is mitigated by the electron-carrier action of methylene blue and the direct scavenging action of the phenothiazine nucleus.",
+      "zh-TW": "由於碘乙酸是透過能量衰竭與活性氧而非直接接觸細胞外氧化劑來殺死細胞，其毒性可被 methylene blue 的電子載體作用與 phenothiazine 核的直接清除作用所緩解。"
+    },
+    "confidence": 0.9,
+    "source_document": "Iodoacetic Acid.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "3b3ff8f5d32d",
+    "subject": "Ischemia-reperfusion Injury",
+    "predicate": "increases",
+    "object": "Reactive Oxygen Species",
+    "context": {
+      "en-US": "Reperfusion introduces molecular oxygen into metabolically compromised tissue and triggers a burst of reactive oxygen species from xanthine oxidase, the mitochondrial electron transport chain, NADPH oxidase and activated neutrophils, causing lipid peroxidation, protein oxidation and DNA damage.",
+      "zh-TW": "再灌流將分子氧帶入代謝受損的組織，觸發來自黃嘌呤氧化酶、粒線體電子傳遞鏈、NADPH oxidase 與活化嗜中性球的活性氧爆發，造成脂質過氧化、蛋白質氧化與 DNA 損傷。"
+    },
+    "confidence": 0.95,
+    "source_document": "Ischemia-reperfusion Injury.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "4ee30b390a9a",
+    "subject": "Ischemia-reperfusion Injury",
+    "predicate": "activates",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "During the inflammatory cascade of reperfusion, neutrophils release proteases, reactive oxygen species and cytokines including TNFα, IL-1β and IL-6, and these signals converge on NF-κB to amplify the inflammatory loop; the mitochondrial mPTP opens and releases cytochrome c to activate caspase-dependent apoptosis.",
+      "zh-TW": "在再灌流的發炎級聯中，嗜中性球釋放蛋白酶、活性氧與包括 TNFα、IL-1β、IL-6 在內的細胞激素，這些訊號收斂於 NF-κB 以放大發炎迴路；粒線體 mPTP 開啟並釋出 cytochrome c，啟動 caspase 依賴的細胞凋亡。"
+    },
+    "confidence": 0.9,
+    "source_document": "Ischemia-reperfusion Injury.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "4eb299c979f5",
+    "subject": "Ischemia-reperfusion Injury",
+    "predicate": "involves",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "Ischemia-reperfusion injury engages multiple regulated cell death programs: RIPK1/RIPK3/MLKL necroptosis, GPX4/Glutathione-regulated ferroptosis from lipid peroxidation, NLRP3-driven pyroptosis, and PARP1 hyperactivation causing parthanatos.",
+      "zh-TW": "缺血再灌流損傷會啟動多種受調控的細胞死亡程式：RIPK1/RIPK3/MLKL 介導的 necroptosis、由脂質過氧化與 GPX4／Glutathione 調控的 ferroptosis、NLRP3 驅動的 pyroptosis，以及 PARP1 過度活化造成的 parthanatos。"
+    },
+    "confidence": 0.9,
+    "source_document": "Ischemia-reperfusion Injury.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "feabc66dca85",
+    "subject": "Cyclosporine A",
+    "predicate": "inhibits",
+    "object": "Ischemia-reperfusion Injury",
+    "context": {
+      "en-US": "Cyclosporin A binds cyclophilin D to inhibit opening of the mitochondrial permeability transition pore, reducing mitochondrial damage during ischemia-reperfusion injury, although clinical trials such as CIRCUS and CYCLE have yielded conflicting results.",
+      "zh-TW": "Cyclosporin A 結合 cyclophilin D 以抑制粒線體通透性轉換孔的開啟，減少缺血再灌流損傷中的粒線體傷害，但 CIRCUS、CYCLE 等臨床試驗結果不一致。"
+    },
+    "confidence": 0.9,
+    "source_document": "Ischemia-reperfusion Injury.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "42696d419faf",
+    "subject": "PI3K",
+    "predicate": "is_activated_by",
+    "object": "Ischemia-reperfusion Injury",
+    "context": {
+      "en-US": "Ischemic preconditioning — brief repeated ischemic episodes before a sustained insult — activates endogenous protective pathways including adenosine, PKC, KATP channels, PI3K/Akt and ERK1/2, reducing injury upon subsequent prolonged ischemia.",
+      "zh-TW": "缺血預適應（在持續傷害前短暫反覆的缺血事件）會活化內源性保護途徑，包括 adenosine、PKC、KATP 通道、PI3K/Akt 與 ERK1/2，降低後續長期缺血造成的損傷。"
+    },
+    "confidence": 0.85,
+    "source_document": "Ischemia-reperfusion Injury.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "858d8fdc80e4",
+    "subject": "Ischemia",
+    "predicate": "depletes",
+    "object": "ATP",
+    "context": {
+      "en-US": "Ischemia restricts blood supply so that oxidative phosphorylation stalls and ATP depletes within minutes, causing Sodium-Potassium ATPase failure, intracellular sodium and calcium accumulation, cellular swelling, membrane depolarization and activation of calpain proteases.",
+      "zh-TW": "缺血限制血液供應，使氧化磷酸化停擺並在數分鐘內耗竭 ATP，造成鈉鉀幫浦失效、細胞內鈉與鈣累積、細胞腫脹、膜去極化以及 calpain 蛋白酶活化。"
+    },
+    "confidence": 0.95,
+    "source_document": "Ischemia.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "23f847e975ec",
+    "subject": "Ischemia-reperfusion Injury",
+    "predicate": "recruits",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "Reperfusion of ischemic tissue adds a second injury wave — ROS burst, damage-associated molecular pattern release and inflammasome priming — which recruits regulated death programs including necroptosis (RIPK1/RIPK3/MLKL), ferroptosis, parthanatos and pyroptosis.",
+      "zh-TW": "缺血組織的再灌流加上第二波傷害——活性氧爆發、損傷相關分子模式釋放與發炎小體啟動——招募受調控的死亡程式，包括 necroptosis（RIPK1/RIPK3/MLKL）、ferroptosis、parthanatos 與 pyroptosis。"
+    },
+    "confidence": 0.9,
+    "source_document": "Ischemia.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "6bad5ac93ce1",
+    "subject": "Ischemia",
+    "predicate": "leads_to",
+    "object": "Oncosis",
+    "context": {
+      "en-US": "ATP-starved failure of the Sodium-Potassium ATPase pump is the initiating step of the necrotic cascade in ischemia: oncotic swelling is followed by Ca2+ overload, mPTP opening and membrane rupture.",
+      "zh-TW": "ATP 飢餓導致鈉鉀幫浦失效，是缺血壞死級聯的起始步驟：膨脹性腫脹之後依序發生 Ca2+ 超載、mPTP 開啟與細胞膜破裂。"
+    },
+    "confidence": 0.85,
+    "source_document": "Ischemia.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "60d340c363cd",
+    "subject": "Ischemic Stroke",
+    "predicate": "is_caused_by",
+    "object": "Hypoxia",
+    "context": {
+      "en-US": "Ischemic stroke is acute brain injury from focal arterial occlusion in which hypoxia collapses oxidative phosphorylation, producing an irreversibly necrotic core surrounded by a hypoperfused but salvageable penumbra that is the target of reperfusion therapy.",
+      "zh-TW": "缺血性中風是局部動脈阻塞造成的急性腦損傷，缺氧使氧化磷酸化崩潰，形成不可逆壞死的核心，外圍則是低灌流但可挽救的半暗帶，為再灌流治療的目標。"
+    },
+    "confidence": 0.95,
+    "source_document": "Ischemic Stroke.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "46ec31a4cd67",
+    "subject": "Ischemic Stroke",
+    "predicate": "induces",
+    "object": "Excitotoxicity",
+    "context": {
+      "en-US": "In ischemic stroke, hypoxia-driven collapse of oxidative phosphorylation triggers excitotoxicity with glutamate-driven calcium influx, mitochondrial dysfunction and a surge of reactive oxygen species, with ischemia-reperfusion injury adding a secondary oxidative burst on restored blood flow.",
+      "zh-TW": "在缺血性中風中，缺氧驅動的氧化磷酸化崩潰會觸發谷胺酸驅動的鈣內流所形成的興奮性毒性、粒線體功能障礙與活性氧激增，而缺血再灌流損傷在血流恢復後再加上第二波氧化傷害。"
+    },
+    "confidence": 0.9,
+    "source_document": "Ischemic Stroke.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "3b94bd895090",
+    "subject": "Methylene blue",
+    "predicate": "protects_against",
+    "object": "Mitochondrial Dysfunction",
+    "context": {
+      "en-US": "Methylene blue can act as an alternative electron carrier that bypasses damaged mitochondrial electron transport chain complexes, sustaining ATP production and lowering mitochondrial superoxide; this has motivated its study as a neuroprotectant across ischemic stroke, traumatic brain injury and neurodegeneration.",
+      "zh-TW": "Methylene blue 可作為替代性電子載體，繞過受損的粒線體電子傳遞鏈複合體，維持 ATP 產生並降低粒線體過氧化氫自由基；這促使它在缺血性中風、創傷性腦損傷與神經退化疾病中作為神經保護劑被研究。"
+    },
+    "confidence": 0.9,
+    "source_document": "Ischemic Stroke.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "47ec59bb9eec",
+    "subject": "Isoleucine",
+    "predicate": "activates",
+    "object": "mTORC1",
+    "context": {
+      "en-US": "Isoleucine is catabolized primarily in skeletal muscle and contributes to the amino-acid pool that activates mTORC1, although it is a weaker mTORC1 activator than leucine and exerts distinct metabolic effects.",
+      "zh-TW": "Isoleucine 主要在骨骼肌中被分解代謝，並 contributes 至活化 mTORC1 的胺基酸池；然而它比 leucine 活化 mTORC1 的效力更弱，且具有不同的代謝效應。"
+    },
+    "confidence": 0.9,
+    "source_document": "Isoleucine.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "c96a45fc8089",
+    "subject": "Isoleucine",
+    "predicate": "contributes_to",
+    "object": "Insulin Resistance",
+    "context": {
+      "en-US": "In Western diet-fed mice, increasing dietary isoleucine promotes weight gain, fat accretion, glucose intolerance and insulin resistance, effects that parallel the human epidemiology linking circulating isoleucine to obesity, elevated body mass index and increased mortality risk.",
+      "zh-TW": "在西方飲食餵養的小鼠中，增加膳食 isoleucine 會促進體重增加、脂肪堆積、葡萄糖耐受不良與胰島素阻抗，這些效應與人類流行病學中循環 isoleucine 連結肥胖、BMI 升高及死亡風險增加的結果相符。"
+    },
+    "confidence": 0.9,
+    "source_document": "Isoleucine.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "1f4c2c432761",
+    "subject": "Isoleucine",
+    "predicate": "extends",
+    "object": "Healthspan",
+    "context": {
+      "en-US": "Dietary isoleucine restriction (~66% reduction) extends lifespan in Drosophila and mice (~33% in male UM-HET3 mice), reduces frailty and cellular senescence with SASP, and rejuvenates aged mice at the molecular level, making isoleucine the most powerful single modifier of the hallmarks of protein restriction.",
+      "zh-TW": "膳食 isoleucine 限制（約減少 66%）可延長果蠅與小鼠的壽命（雄性 UM-HET3 小鼠約 33%），降低虚弱與細胞衰老及其 SASP，並在分子層級使老化小鼠年輕化，使 isoleucine 成為蛋白質限制特徵中最強的單一調節因子。"
+    },
+    "confidence": 0.9,
+    "source_document": "Isoleucine.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "a1c24dd6883f",
+    "subject": "Isoleucine",
+    "predicate": "is_a_type_of",
+    "object": "Branched-Chain Amino Acids",
+    "context": {
+      "en-US": "Isoleucine is one of the three branched-chain amino acids and an essential amino acid that must be obtained from the diet; its catabolism yields acetyl-CoA and succinyl-CoA, which enter the TCA cycle.",
+      "zh-TW": "Isoleucine 是三種支鏈胺基酸之一，也是必須由飲食取得的必需胺基酸；其分解代謝產生 acetyl-CoA 與 succinyl-CoA，進入 TCA cycle。"
+    },
+    "confidence": 0.95,
+    "source_document": "Isoleucine.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "2384e0264f38",
+    "subject": "Isoleucine",
+    "predicate": "induces",
+    "object": "FGF21",
+    "context": {
+      "en-US": "Isoleucine restriction induces FGF21, part of the coordinated hormonal and epigenetic response that accompanies the improved metabolic health, reduced senescence and extended lifespan seen with isoleucine restriction.",
+      "zh-TW": "Isoleucine 限制會誘導 FGF21，這是伴隨代謝健康改善、衰老減少與壽命延長的協調性荷爾蒙與表觀遺傳反應的一部分。"
+    },
+    "confidence": 0.85,
+    "source_document": "Isoleucine.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "d29f8b92d374",
+    "subject": "IκBζ",
+    "predicate": "activates",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "IκBζ (Inhibitor of NF-κB zeta) is a selective co-activator of NF-κB for a subset of target genes, including IL6 and IL8; by linking NF-κB signaling to specific secretome composition it acts as a master regulator of SASP interleukins.",
+      "zh-TW": "IκBζ（Inhibitor of NF-κB zeta）是 NF-κB 針對部分標的基因（含 IL6 與 IL8）的選擇性共同活化因子；藉由將 NF-κB 訊息連結到特定的分泌組成分，它成為 SASP interleukin 的主要調節因子。"
+    },
+    "confidence": 0.95,
+    "source_document": "IκBζ.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "c499c710aa33",
+    "subject": "IκBζ",
+    "predicate": "is_required_for",
+    "object": "IL-6",
+    "context": {
+      "en-US": "IκBζ is essential for the expression of the SASP cytokines IL-6 and IL-8; genetic or pharmacological targeting of IκBζ is therefore a route to modulate senescence-associated inflammation.",
+      "zh-TW": "IκBζ 對 SASP 细胞激素 IL-6 與 IL-8 的表現是必要的；因此對 IκBζ 進行遺傳或藥理學上的標定，是調節衰老相關發炎的可行途徑。"
+    },
+    "confidence": 0.9,
+    "source_document": "IκBζ.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "2e3494fd5875",
+    "subject": "IκBζ",
+    "predicate": "is_required_for",
+    "object": "IL-8",
+    "context": {
+      "en-US": "IκBζ is required for IL-8 expression as part of the NF-κB-dependent SASP arm, making it a selective handle on pro-inflammatory secretome components rather than a global inflammation regulator.",
+      "zh-TW": "IκBζ 作為 NF-κB 依賴的 SASP 分支的一部分，是 IL-8 表現所必需的；這使它成為對促發炎性分泌成分具有選擇性作用的著力點，而非全面性的發炎調節因子。"
+    },
+    "confidence": 0.9,
+    "source_document": "IκBζ.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "d7856b0a78f6",
+    "subject": "J147",
+    "predicate": "inhibits",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "J147 is a curcumin-derived small molecule identified through a phenotypic ferroptosis-based screen as a compound that specifically prevents lipid peroxidation and ferroptotic cell death; it was used as a positive control that rescues RSL3-killed senescent cells.",
+      "zh-TW": "J147 是源自 curcumin 的小分子，透過以 ferroptosis 為基礎的表型篩選被鑑定為能特異性防止脂質過氧化與 ferroptosis 細胞死亡的化合物；它被用作可救回被 RSL3 殺死的衰老細胞的陽性對照。"
+    },
+    "confidence": 0.95,
+    "source_document": "J147.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "cda6687ea34d",
+    "subject": "J147",
+    "predicate": "inhibits",
+    "object": "Lipid Peroxidation",
+    "context": {
+      "en-US": "Because lipid peroxidation is the execution step of ferroptosis, J147's blockade of lipid peroxidation explains its rescue of RSL3-killed cells and its protection of neurons from oxidative and metabolic stress; it also improves cognitive function in aged Alzheimer's-disease mice.",
+      "zh-TW": "由於脂質過氧化是 ferroptosis 的執行步驟，J147 阻斷脂質過氧化解釋了它為何能救回被 RSL3 殺死的細胞，以及保護神經元免受氧化與代謝壓力；它也改善了老化阿茲海默症小鼠的認知功能。"
+    },
+    "confidence": 0.9,
+    "source_document": "J147.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "a795a20ad94c",
+    "subject": "J147",
+    "predicate": "treats",
+    "object": "Alzheimer's Disease",
+    "context": {
+      "en-US": "J147 is a disease-modifying small molecule developed in the Maher lab that has completed Phase 1 clinical trials for Alzheimer's disease and improves cognition in aged AD models.",
+      "zh-TW": "J147 是由 Maher 實驗室開發的疾病修飾小分子，已完成阿茲海默症的臨床一期試驗，並在老化 AD 模型中改善認知功能。"
+    },
+    "confidence": 0.9,
+    "source_document": "J147.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "d3caa194fa47",
+    "subject": "J147",
+    "predicate": "antagonizes",
+    "object": "RSL3",
+    "context": {
+      "en-US": "RSL3 is a GPX4 inhibitor whose ferroptotic effect J147 antagonizes; co-treatment with J147 rescued RSL3-killed senescent cells, confirming that the elevated lipid peroxidation of senescent cells is genuinely ferroptotic.",
+      "zh-TW": "RSL3 是 GPX4 抑制劑，其造成 ferroptosis 的作用被 J147 拮抗；J147 共同處理可救回被 RSL3 殺死的衰老細胞，確認衰老細胞升高的脂質過氧化確實屬於 ferroptosis。"
+    },
+    "confidence": 0.9,
+    "source_document": "J147.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "7fb7a535056b",
+    "subject": "JAK",
+    "predicate": "phosphorylates",
+    "object": "STAT3",
+    "context": {
+      "en-US": "Cytokine binding to type I/II receptors that lack intrinsic catalytic activity brings receptor-associated JAKs into apposition and activates them by trans-phosphorylation; the JAKs then phosphorylate receptor tyrosines that dock STAT3, which dimerizes and translocates to the nucleus.",
+      "zh-TW": "細胞激素與缺乏內在催化活性的第一／二型受體結合，使受體相關的 JAK 相互靠近並藉由交互磷酸化而活化；JAK 接著磷酸化受體上的酪胺酸殘基以停靠 STAT3，STAT3 二聚化後轉位入核。"
+    },
+    "confidence": 0.95,
+    "source_document": "JAK.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "eb533ca56345",
+    "subject": "JAK",
+    "predicate": "amplifies",
+    "object": "SASP",
+    "context": {
+      "en-US": "The JAK/STAT axis is a central amplifier of the senescence-associated secretory phenotype: senescent cells secrete IL-6 and IL-8 that engage neighboring cells in an autocrine/paracrine loop, with IL-6 binding gp130 activating JAK1/JAK2 → STAT3 and sustaining inflammatory transcription.",
+      "zh-TW": "JAK/STAT 軸是衰老相關分泌表型的主要放大器：衰老細胞分泌 IL-6 與 IL-8，以自分泌／旁分泌迴路接合鄰近細胞，其中 IL-6 結合 gp130 活化 JAK1/JAK2 → STAT3，維持發炎性轉錄。"
+    },
+    "confidence": 0.95,
+    "source_document": "JAK.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "199755c817d9",
+    "subject": "Ruxolitinib",
+    "predicate": "inhibits",
+    "object": "JAK",
+    "context": {
+      "en-US": "Ruxolitinib, a JAK1/2 inhibitor, and related agents are under investigation as senomorphics; genetic or pharmacological JAK blockade collapses SASP expression, showing the pathway is necessary for SASP maintenance rather than merely correlative.",
+      "zh-TW": "Ruxolitinib（JAK1/2 抑制劑）及相關藥物正作為 senomorphic 進行研究；遺傳或藥理學上的 JAK 阻斷會使 SASP 表現崩潰，顯示此途徑對 SASP 的維持是必要的，而不僅是相關。"
+    },
+    "confidence": 0.95,
+    "source_document": "JAK.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "8ca00e78cca5",
+    "subject": "JMJD3",
+    "predicate": "demethylates",
+    "object": "H3K27me3",
+    "context": {
+      "en-US": "JMJD3 (KDM6B) is a Fe(II)- and alpha-ketoglutarate-dependent JmjC histone demethylase that removes repressive trimethyl and dimethyl marks on H3K27, counterbalancing the PRC2 methyltransferase EZH2 and switching loci from repressed to active transcriptional states.",
+      "zh-TW": "JMJD3（KDM6B）是依賴 Fe(II) 與 alpha-酮戊二酸的 JmjC 組蛋白去甲基化酶，移除 H3K27 上的抑制性三甲基與二甲基標記，抵銷 PRC2 甲基轉移酶 EZH2 的作用，使位點由抑制轉為活躍的轉錄狀態。"
+    },
+    "confidence": 0.95,
+    "source_document": "JMJD3.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "4bbd516e65e4",
+    "subject": "JMJD3",
+    "predicate": "upregulates",
+    "object": "IL-6",
+    "context": {
+      "en-US": "In senescence, JMJD3 overexpression specifically reduces H3K27me3 levels at the IL-6 and IL-8 promoters, elevating their expression along with other SASP factors; because NF-κB can recruit H3K27 demethylases to inflammatory loci, JMJD3 cooperates with NF-κB signaling.",
+      "zh-TW": "在衰老過程中，JMJD3 的過量表現會專一性地降低 IL-6 與 IL-8 啟動子上的 H3K27me3 濃度，升高其表現及其他 SASP 因子；由於 NF-κB 可招募 H3K27 去甲基化酶至發炎位點，JMJD3 與 NF-κB 訊息相互協作。"
+    },
+    "confidence": 0.95,
+    "source_document": "JMJD3.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "b140ecdd7607",
+    "subject": "JMJD3",
+    "predicate": "upregulates",
+    "object": "IL-8",
+    "context": {
+      "en-US": "JMJD3 provides a focal mechanism for senescence-associated inflammation: direct removal of the Polycomb H3K27me3 mark from the two prototypical pro-inflammatory SASP genes IL-6 and IL-8, coupling chromatin demethylation to the inflammatory secretome.",
+      "zh-TW": "JMJD3 為衰老相關發炎提供了聚焦的機制：直接從兩個典型的促發炎 SASP 基因 IL-6 與 IL-8 移除 Polycomb 標記 H3K27me3，將染色質去甲基化與發炎性分泌組連結起來。"
+    },
+    "confidence": 0.9,
+    "source_document": "JMJD3.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "70cb132e4bd0",
+    "subject": "JMJD3",
+    "predicate": "opposes",
+    "object": "EZH2",
+    "context": {
+      "en-US": "JMJD3 (KDM6B) is the KDM6-subfamily paralog of KDM6A/UTX and acts antagonistically to EZH2, the PRC2 H3K27me3 methyltransferase; selective KDM6B inhibition is a plausible senomorphic approach but specificity versus KDM6A must be managed.",
+      "zh-TW": "JMJD3（KDM6B）是 KDM6 亞家族的成員，與 KDM6A/UTX 平行，並與 PRC2 的 H3K27me3 甲基轉移酶 EZH2 作用相反；選擇性抑制 KDM6B 是合理的 senomorphic 策略，但必須處理與 KDM6A 之間的專一性問題。"
+    },
+    "confidence": 0.9,
+    "source_document": "JMJD3.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "fb3b59efede6",
+    "subject": "KAP1",
+    "predicate": "represses",
+    "object": "LINE-1",
+    "context": {
+      "en-US": "KAP1 (TRIM28/TIF1beta) is the universal corepressor for KRAB-zinc-finger transcription factors, recruiting SETDB1, HDACs and HP1alpha to build H3K9me3-dominated silent chromatin; SIRT6 mono-ADP-ribosylation promotes KAP1–HP1alpha interaction to package LINE-1 elements into repressive heterochromatin.",
+      "zh-TW": "KAP1（TRIM28/TIF1β）是 KRAB 鋅指轉錄因子的通用共抑制因子，招募 SETDB1、HDAC 與 HP1α 建立以 H3K9me3 為主的沉默染色質；SIRT6 的單 ADP 核糖基化促進 KAP1–HP1α 交互作用，將 LINE-1 元素包裝進抑制性異染色質。"
+    },
+    "confidence": 0.95,
+    "source_document": "KAP1.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "87daf5e9e837",
+    "subject": "SIRT6",
+    "predicate": "activates",
+    "object": "KAP1",
+    "context": {
+      "en-US": "In proliferating cells, SIRT6 and RB1 are enriched at the 5'UTR of LINE-1 loci, where SIRT6 mono-ADP-ribosylates KAP1, promoting its interaction with HP1alpha and heterochromatinization of L1; during senescence RB1 declines and SIRT6 is depleted from L1 loci, releasing this repression.",
+      "zh-TW": "在增殖細胞中，SIRT6 與 RB1 會聚集於 LINE-1 位點的 5'UTR，SIRT6 在該處對 KAP1 進行單 ADP 核糖基化，促進其與 HP1α 的交互作用並使 L1 異染色質化；在衰老時 RB1 下降且 SIRT6 從 L1 位點流失，解除此抑制。"
+    },
+    "confidence": 0.9,
+    "source_document": "KAP1.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "37ba80301565",
+    "subject": "KAP1",
+    "predicate": "degrades",
+    "object": "SIRT1",
+    "context": {
+      "en-US": "Beyond chromatin silencing, KAP1/TRIM28 is the E3 ligase controlling SIRT1 protein stability in the DNA damage response: ATM phosphorylates KAP1 at Ser824 to license SIRT1 poly-ubiquitination, and caspase-cleaved SIRT1 binds TRIM28 more strongly, accelerating proteasomal degradation.",
+      "zh-TW": "除了染色質沉默之外，KAP1/TRIM28 還是在 DNA 損傷反應中控制 SIRT1 蛋白穩定性的 E3 連結酶：ATM 磷酸化 KAP1 的 Ser824 以授權 SIRT1 的多泛素化，而被 caspase 切割的 SIRT1 與 TRIM28 結合更強，加速蛋白酶體降解。"
+    },
+    "confidence": 0.9,
+    "source_document": "KAP1.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "ffb3cf0c1747",
+    "subject": "KAP1",
+    "predicate": "binds",
+    "object": "HP1alpha",
+    "context": {
+      "en-US": "KAP1 contains a central HP1-binding motif and a PHD finger and builds facultative/repetitive heterochromatin in collaboration with SETDB1; its repressive activity is dynamically regulated by SUMOylation and SIRT6-dependent mono-ADP-ribosylation, which enhance its heterochromatinizing function.",
+      "zh-TW": "KAP1 含有中央 HP1 結合基序與 PHD finger，並與 SETDB1 合作建立兼性／重複序列異染色質；其抑制活性受到 SUMO 化與 SIRT6 依賴的單 ADP 核糖基化動態調控，兩者皆增強其異染色質化功能。"
+    },
+    "confidence": 0.9,
+    "source_document": "KAP1.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "80c7fe20380d",
+    "subject": "KDM4",
+    "predicate": "demethylates",
+    "object": "H3K9me3",
+    "context": {
+      "en-US": "KDM4 (JMJD2) family JmjC demethylases use Fe(II) and alpha-ketoglutarate to remove H3K9me3/me2 and H3K36 methyl marks; by erasing repressive H3K9me3 at lamina-associated heterochromatin they open chromatin at SASP loci and promote secreted factor expression in senescent stromal cells.",
+      "zh-TW": "KDM4（JMJD2）家族的 JmjC 去甲基化酶利用 Fe(II) 與 alpha-酮戊二酸移除 H3K9me3/me2 與 H3K36 甲基標記；它們藉由清除層狀相關異染色質上的抑制性 H3K9me3，在 SASP 位點開放染色質並促進衰老基質細胞分泌因子表現。"
+    },
+    "confidence": 0.9,
+    "source_document": "KDM4.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "a6a2ab2c783d",
+    "subject": "KDM4",
+    "predicate": "upregulates",
+    "object": "IL-6",
+    "context": {
+      "en-US": "Genetic or pharmacological inhibition of KDM4 lowers IL-6, IL-8 and MMP secretion without necessarily abolishing growth arrest, marking KDM4 as a senomorphic target; loss of H3K9me3 at SASP loci reduces linker-histone compaction and permits NF-κB and BRD4 access.",
+      "zh-TW": "對 KDM4 的遺傳或藥理學抑制可降低 IL-6、IL-8 與 MMP 的分泌而不必然廢除生長停滯，使 KDM4 成為 senomorphic 標的；SASP 位點上 H3K9me3 的流失減少連接組蛋白介導的壓縮，讓 NF-κB 與 BRD4 能接觸染色質。"
+    },
+    "confidence": 0.9,
+    "source_document": "KDM4.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "c70615dfa34f",
+    "subject": "KDM4",
+    "predicate": "upregulates",
+    "object": "IL-8",
+    "context": {
+      "en-US": "KDM4A/KDM4B are induced downstream of p38 MAPK and pro-inflammatory signaling in senescence and relocalize away from constitutive heterochromatin toward SASP gene regulatory elements, so KDM4 links metabolic/oxidative state (alpha-KG/succinate ratio) to SASP intensity.",
+      "zh-TW": "在衰老過程中，KDM4A/KDM4B 由 p38 MAPK 與促發炎訊息下游誘導，並從組成性異染色質重新定位到 SASP 基因的調控元件，因此 KDM4 將代謝／氧化狀態（alpha-KG／succinate 比值）連結到 SASP 強度。"
+    },
+    "confidence": 0.9,
+    "source_document": "KDM4.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
+  },
+  {
+    "id": "82f4709454e4",
+    "subject": "KDM4",
+    "predicate": "promotes",
+    "object": "SASP",
+    "context": {
+      "en-US": "KDM4 is an established epigenetic driver of the senescence-associated secretory phenotype, and its overexpression is pronounced in senescent stromal and pre-malignant cells, making inhibitors such as JIB-04, ML324 and QC6352 candidate senomorphics and anticancer agents.",
+      "zh-TW": "KDM4 是衰老相關分泌表型已確立的表觀遺傳驅動因子，且在衰老基質細胞與癌前細胞中過度表現明顯，使 JIB-04、ML324、QC6352 等抑制劑成為候選 senomorphic 與抗癌藥物。"
+    },
+    "confidence": 0.9,
+    "source_document": "KDM4.md",
+    "created": "2026-09-29T16:19:34Z",
+    "updated": "2026-09-29T16:19:34Z"
   }
 ]
