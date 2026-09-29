@@ -75850,5 +75850,1223 @@
     "source_document": "PEX Genes.md",
     "created": "2026-09-29T17:35:09Z",
     "updated": "2026-09-29T17:35:09Z"
+  },
+  {
+    "id": "7b70efee8376",
+    "subject": "Nuclear Pore Complex",
+    "predicate": "is_localized_to",
+    "object": "Nuclear Envelope",
+    "context": {
+      "en-US": "Nuclear Pore Complex (NPC) resides in the Nuclear Envelope, where it forms the gated channel that regulates transport of molecules between the cytoplasm and the nucleoplasm. Because nucleocytoplasmic transport through the NPC controls import of transcription factors and export of RNA, NPC assembly and integrity are tightly coupled to cellular quiescence and transcriptional state.",
+      "zh-TW": "核孔複合體（Nuclear Pore Complex, NPC）位於核膜（Nuclear Envelope），形成調控細胞質與核質之間分子運輸的閘門通道。由於經由 NPC 的核質運輸決定轉錄因子的輸入與 RNA 的輸出，NPC 的組裝與完整性與細胞靜止狀態及轉錄狀態密切相關。"
+    },
+    "confidence": 0.8,
+    "source_document": "Nuclear Pore Complex.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "4bfcda23f98f",
+    "subject": "Nuclear Pore Complex",
+    "predicate": "is_localized_to",
+    "object": "Nucleus",
+    "context": {
+      "en-US": "Nuclear Pore Complex is embedded in the nuclear envelope at the surface of the Nucleus, where it functions as the selective barrier defining the nucleus/cytoplasm interface. Its pore diameter and transport selectivity determine which macromolecules enter the nucleoplasm, thereby indirectly controlling replication, transcription and DNA repair inside the Nucleus.",
+      "zh-TW": "核孔複合體嵌在細胞核（Nuclear Pore Complex）表面的核膜上，作為界定細胞核／細胞質界面的選擇性屏障。其孔徑與運輸選擇性決定哪些大分子可進入核質，進而間接調控細胞核內的複製、轉錄與 DNA 修復。"
+    },
+    "confidence": 0.75,
+    "source_document": "Nuclear Pore Complex.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "d81362b7d15e",
+    "subject": "Nucleoside Reverse Transcriptase Inhibitor",
+    "predicate": "inhibits_reverse_transcription_of",
+    "object": "LINE-1",
+    "context": {
+      "en-US": "Nucleoside Reverse Transcriptase Inhibitor (NRTI) compounds such as zidovudine, lamivudine, emtricitabine and tenofovir are chain-terminating nucleoside analogs that block the reverse transcription of LINE-1 cDNA. Because LINE-1 derepression in aged cells generates cytoplasmic cDNA that triggers cGAS-STING signalling, NRTIs act upstream of that sensor and dampen the resulting interferon inflammation and SASP.",
+      "zh-TW": "核苷類反轉錄酶抑制劑（Nucleoside Reverse Transcriptase Inhibitor, NRTI），如 zidovudine、lamivudine、emtricitabine 與 tenofovir，是可終止鏈的核苷類似物，可阻斷 LINE-1 cDNA 的反轉錄。由於老化細胞中 LINE-1 去抑制會產生細胞質 cDNA 並觸發 cGAS-STING 訊號傳遞，NRTIs 作用於該感測器的上游，因而抑制隨後的干擾素發炎反應與 SASP。"
+    },
+    "confidence": 0.9,
+    "source_document": "Nucleoside Reverse Transcriptase Inhibitor.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "14ce57528ba1",
+    "subject": "Nucleoside Reverse Transcriptase Inhibitor",
+    "predicate": "reduces",
+    "object": "SASP",
+    "context": {
+      "en-US": "Because SASP expression in senescent cells is driven upstream by retrotransposon cDNA sensed by the cGAS-STING Pathway, Nucleoside Reverse Transcriptase Inhibitor drugs act transcriptionally upstream of the SASP promoter and reduce the senescence-associated secretory phenotype rather than attacking it directly. This makes NRTIs candidate senomorphic (anti-inflammaging) agents; emtricitabine is being trialled in Alzheimer's disease (NCT04500847).",
+      "zh-TW": "由於衰老細胞的 SASP 表現是由被 cGAS-STING Pathway 感測的retrotransposon cDNA 在上游驅動，核苷類反轉錄酶抑制劑（Nucleoside Reverse Transcriptase Inhibitor）作用於 SASP 啟動子的轉錄上游，可降低衰老相關分泌表型，而非直接攻擊 SASP。這使 NRTIs 成為候選 senomorphic（抗發炎老化）藥物；emtricitabine 正在阿茲海默病的臨床試驗中（NCT04500847）。"
+    },
+    "confidence": 0.85,
+    "source_document": "Nucleoside Reverse Transcriptase Inhibitor.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "709570fa4ec4",
+    "subject": "Nucleosome",
+    "predicate": "is_a_component_of",
+    "object": "Chromatin",
+    "context": {
+      "en-US": "Nucleosome is the fundamental structural unit of Chromatin, consisting of about 147 base pairs of DNA wrapped around a core octamer of histone proteins (two each of H2A, H2B, H3 and H4). Successive nucleosomes, linked by linker DNA, fold into the higher-order chromatin fibre whose density and positioning determine genome accessibility and transcriptional output.",
+      "zh-TW": "核小體（Nucleosome）是染色質（Chromatin）的基本結構單位，由約 147 個鹼基對的 DNA 纏繞在組蛋白核心八聚體（H2A、H2B、H3、H4 各兩個）上構成。相連的核小體以連接 DNA 串聯，再折疊成高階染色質纖維；其密度與定位決定基因體的可及性與轉錄輸出。"
+    },
+    "confidence": 0.9,
+    "source_document": "Nucleosome.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "ef8a492ab55a",
+    "subject": "Nucleosome",
+    "predicate": "is_target_of",
+    "object": "Histone Modification",
+    "context": {
+      "en-US": "Nucleosome carries Histone Modification marks on its histone tails — acetylation, methylation and related chemical tags — which serve as signals read by cellular machinery to activate or repress gene expression. Because the octamer inside each nucleosome can be modified at multiple residues, nucleosome-centred histone marks constitute a primary layer of epigenetic regulation.",
+      "zh-TW": "核小體（Nucleosome）的組蛋白尾部帶有組蛋白修飾（Histone Modification）標記——乙醯化、甲基化等——作為細胞機制讀取的訊號，用以活化或抑制基因表現。由於每個核小體的核心八聚體可在多個殘基被修飾，以核小體為中心的組蛋白標記構成了表觀遺傳調控的主要層次。"
+    },
+    "confidence": 0.85,
+    "source_document": "Nucleosome.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "c9099f6cfb1c",
+    "subject": "Nucleosome",
+    "predicate": "is_densely_packed_in",
+    "object": "Heterochromatin",
+    "context": {
+      "en-US": "In Heterochromatin, nucleosomes are tightly packed, which restricts DNA accessibility and produces gene silencing; in Euchromatin the same nucleosome subunits are loosely arranged and permit active Transcription. In old cells nucleosome density drops globally and positioning becomes fuzzy, so a change in nucleosome packing can shift a locus between transcriptionally silent heterochromatin and permissive euchromatin.",
+      "zh-TW": "在異染色質（Heterochromatin）中，核小體（Nucleosome）緊密堆積，限制 DNA 可及性並造成基因沉默；在常染色質（Euchromatin）中，同樣的核小體次單元排列鬆散，容許活躍的轉錄。老年細胞的核小體密度全面下降且定位變得「模糊」，因此核小體堆積方式的改變可讓某位點在轉錄沉默的異染色質與開放的常染色質之間轉換。"
+    },
+    "confidence": 0.8,
+    "source_document": "Nucleosome.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "ed7eab6669e7",
+    "subject": "Nucleosome",
+    "predicate": "loss_leads_to",
+    "object": "Genomic Instability",
+    "context": {
+      "en-US": "Aging erodes nucleosome architecture: old cells show a global loss of core histones and a reduced total nucleosome number, and nucleosome positions that were precise in young cells become fuzzy or erratic. This poorly positioned nucleosome landscape is a direct contributor to Genomic Instability and to aberrant gene expression in senescent cells.",
+      "zh-TW": "老化會侵蝕核小體（Nucleosome）架構：老年細胞出現核心組蛋白的全面流失與核小體總數減少，且年輕細胞中精確的核小體定位變得模糊或錯亂。這種定位不良的核小體景觀是基因體不穩定（Genomic Instability）與衰老細胞中異常基因表現的直接成因之一。"
+    },
+    "confidence": 0.8,
+    "source_document": "Nucleosome.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "6736e2b21f09",
+    "subject": "Nucleus Accumbens",
+    "predicate": "is_a_component_of",
+    "object": "Striatum",
+    "context": {
+      "en-US": "Nucleus Accumbens is the ventral striatal region that forms the heart of the brain's reward circuitry, and it is subdivided into a core and a shell with distinct inputs and outputs. As a limbic–motor interface it integrates motivational, emotional and cognitive signals to direct goal-directed and habitual behaviour, making it a key target for reward, addiction and affective disease research.",
+      "zh-TW": "伏隔核（Nucleus Accumbens）是腹側紋狀體（Striatum）的區域，構成腦部獎賞迴路的核心，並可分為核心部與殼部，各自具有不同的輸入與輸出。作為邊緣—運動的介面，它整合動機、情緒與認知訊號以引導目標導向與習慣性行為，因此是研究獎賞、成癮與情感疾病的重要標的。"
+    },
+    "confidence": 0.9,
+    "source_document": "Nucleus Accumbens.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "438af9bf2bac",
+    "subject": "Nucleus Accumbens",
+    "predicate": "contains",
+    "object": "Medium spiny neurons",
+    "context": {
+      "en-US": "The principal cells of the Nucleus Accumbens are GABAergic Medium spiny neurons, segregated into D1-receptor 'direct pathway' and D2-receptor 'indirect pathway' populations that oppositely gate action selection. Because this population balances direct and indirect pathway output, the Nucleus Accumbens translates motivational value into action, encoding reward prediction, salience and reinforcement.",
+      "zh-TW": "伏隔核（Nucleus Accumbens）的主要細胞為 GABAergic 中棘神經元（Medium spiny neurons），分為表達 D1 受體的「直接途徑」與表達 D2 受體的「間接途徑」兩群，二者相反地閘控動作選擇。由於這群神經元平衡直接與間接途徑的輸出，伏隔核得以將動機價值轉換為行動，並編碼獎賞預測、顯著性與增強作用。"
+    },
+    "confidence": 0.85,
+    "source_document": "Nucleus Accumbens.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "23584f0ccbfc",
+    "subject": "Nucleus Accumbens",
+    "predicate": "receives_dopaminergic_input_from",
+    "object": "Ventral Tegmental Area",
+    "context": {
+      "en-US": "The defining Dopamine input to the Nucleus Accumbens arrives from the Ventral Tegmental Area via the mesolimbic dopamine pathway. Dopaminergic signaling in the Nucleus Accumbens encodes reward prediction, salience and reinforcement, driving learning and approach behaviour; in addiction, drugs of abuse instead produce supraphysiological dopamine surges that over-train cue–reward associations.",
+      "zh-TW": "伏隔核（Nucleus Accumbens）最具代表性的多巴胺（Dopamine）輸入來自腹側被蓋區（Ventral Tegmental Area），經由中腦邊緣多巴胺路徑傳遞。伏隔核內的多巴胺訊號編碼獎賞預測、顯著性與增強作用，驅動學習與接近行為；在成癮時，成癮藥物反而造成超生理性的多巴胺激增，過度強化線索—獎賞連結。"
+    },
+    "confidence": 0.9,
+    "source_document": "Nucleus Accumbens.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "d292553e3943",
+    "subject": "Nucleus Accumbens",
+    "predicate": "dysfunction_contributes_to",
+    "object": "Depression",
+    "context": {
+      "en-US": "Dysfunction of the Nucleus Accumbens reward circuitry contributes to Depression, manifesting as anhedonia and reduced motivation. Because the same hub links emotion, cognition and movement, it is a target for interventions ranging from deep-brain stimulation to pharmacotherapy in affective disease.",
+      "zh-TW": "伏隔核（Nucleus Accumbens）獎賞迴路的功能失常會促成憂鬱症（Depression），表現為快感缺失與動機降低。由於同一個樞紐連結情緒、認知與運動，它也是情感疾病中從深部腦刺激到藥物治療的介入標的。"
+    },
+    "confidence": 0.8,
+    "source_document": "Nucleus Accumbens.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "91cc450b0afa",
+    "subject": "Nucleus",
+    "predicate": "contains",
+    "object": "Chromatin",
+    "context": {
+      "en-US": "The Nucleus is the membrane-bound organelle that encloses the genome, organizing Chromatin and regulating transcription, DNA replication and DNA repair. Chromatin organized within the Nucleus is also subject to noncanonical regulation, since a substantial pool of cGAS localizes there and scaffolds chromatin remodelers and RNA-processing machinery.",
+      "zh-TW": "細胞核（Nucleus）是包圍基因體的膜性胞器，負責組織染色質（Chromatin）並調控轉錄、DNA 複製與 DNA 修復。組織於細胞核內的染色質也受到非典型調控，因為有相當一部分的 cGAS 定位於此，並支架化染色質重塑複合體與 RNA 處理機制。"
+    },
+    "confidence": 0.85,
+    "source_document": "Nucleus.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "2a474aaff0ef",
+    "subject": "cGAS",
+    "predicate": "is_localized_to",
+    "object": "Nucleus",
+    "context": {
+      "en-US": "Although cGAS is best known for cytosolic DNA sensing, a substantial pool localizes to the Nucleus, where it performs noncanonical, STING-independent functions. Nuclear cGAS is tethered to nucleosomes via histones H2A/H2B, which restrains aberrant activation while enabling roles in genome stability, RNA processing and chromatin organization.",
+      "zh-TW": "雖然 cGAS 最廣為人知的功能是細胞質 DNA 感測，但有相當一部分會定位於細胞核（Nucleus），執行非典型且不依賴 STING 的功能。核內 cGAS 透過組蛋白 H2A/H2B 錨定於核小體，在抑制異常活化的同時，使其得以參與基因體穩定、RNA 處理與染色質組織。"
+    },
+    "confidence": 0.9,
+    "source_document": "Nucleus.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "d3a6d2d5b8e1",
+    "subject": "cGAS",
+    "predicate": "suppresses",
+    "object": "Homologous Recombination",
+    "context": {
+      "en-US": "In the Nucleus, cGAS interacts with PARP1, disrupting the PARP1-Timeless complex and thereby suppressing Homologous Recombination, which influences DNA Damage repair. In long-lived species such as the naked mole rat, chromatin-retained cGAS actually enhances DNA repair, indicating that noncanonical nuclear cGAS functions can be protective rather than purely inflammatory.",
+      "zh-TW": "在細胞核（Nucleus）中，cGAS 與 PARP1 交互作用，破壞 PARP1-Timeless 複合體，進而抑制同源重組（Homologous Recombination），並影響 DNA 損傷（DNA Damage）修復。在裸鼹鼠等長壽物種中，染色質保留的 cGAS 反而增強 DNA 修復，顯示非典型的核內 cGAS 功能可能是保護性的，而不只是促發炎的。"
+    },
+    "confidence": 0.85,
+    "source_document": "Nucleus.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "3e56d19e3415",
+    "subject": "cGAS",
+    "predicate": "recruits",
+    "object": "SWI-SNF Complex",
+    "context": {
+      "en-US": "The N-terminal intrinsically disordered region of cGAS promotes liquid–liquid phase separation, scaffolding RNA-binding proteins, the Spliceosome and the SWI-SNF Complex. Through this LLPS-dependent scaffolding inside the Nucleus, cGAS is implicated in gene expression regulation; nucleosome tethering and N-terminal hyperphosphorylation normally keep the nuclear pool restrained.",
+      "zh-TW": "cGAS 的 N 端無序區（intrinsically disordered region）促進液—液相分離（LLPS），支架化 RNA 結合蛋白、剪接體（Spliceosome）與 SWI-SNF Complex。透過位於細胞核（Nucleus）內這種 LLPS 依賴的支架作用，cGAS 參與基因表現的調控；核小體錨定與 N 端過度磷酸化平時使核內的 cGAS 受到抑制。"
+    },
+    "confidence": 0.8,
+    "source_document": "Nucleus.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "0d6cbf062270",
+    "subject": "Nudix Hydrolases",
+    "predicate": "cleaves",
+    "object": "ADP-ribose",
+    "context": {
+      "en-US": "Nudix Hydrolases (NUDT family, e.g. NUDT5/NUDT9-type ADPR pyrophosphatases) cleave the phosphodiester bond of free ADP-ribose, producing AMP and ribose-5-phosphate (R5P). In Parthanatos they sit downstream of PARG and ARH3, converting the PAR-catabolism product ADP-ribose into both a metabolic signal (AMP) and salvage substrates (R5P).",
+      "zh-TW": "Nudix 水解酶（Nudix Hydrolases，NUDT 家族，例如 NUDT5/NUDT9 型 ADPR 焦磷酸酶）切割游離 ADP-ribose 的磷酸二酯鍵，產生 AMP 與核糖-5-磷酸（R5P）。在 parthanatos 中，它們位於 PARG 與 ARH3 下游，將 PAR 分解產物 ADP-ribose 同時轉成代謝訊號（AMP）與補救合成受質（R5P）。"
+    },
+    "confidence": 0.9,
+    "source_document": "Nudix Hydrolases.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "147aa3d3694e",
+    "subject": "Nudix Hydrolases",
+    "predicate": "produces",
+    "object": "AMP",
+    "context": {
+      "en-US": "AMP generated by Nudix Hydrolases from ADP-ribose is re-phosphorylated to ATP at a two-phosphate cost, and ribose-5-phosphate feeds PRPP and then NMN for NAD+ salvage. Because full turnover of one ADP-ribose costs about four high-energy phosphates at ~0.3 mM NAD(H) versus ~3–4 mM ATP, this Nudix step is a substantial ATP sink feeding AMPK–mTORC1 signalling.",
+      "zh-TW": "Nudix 水解酶（Nudix Hydrolases）由 ADP-ribose 產生的 AMP 需以兩個高能磷酸基代價再磷酸化為 ATP，而核糖-5-磷酸則流入 PRPP、再至 NMN 以進行 NAD+ 補救合成。在約 0.3 mM NAD(H) 對比約 3–4 mM ATP 的條件下，每個 ADP-ribose 完全轉換約需四個高能磷酸基，因此這一步 Nudix 反應是餵入 AMPK–mTORC1 訊號的顯著 ATP 消耗sink。"
+    },
+    "confidence": 0.85,
+    "source_document": "Nudix Hydrolases.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "7618df425b13",
+    "subject": "AMP",
+    "predicate": "activates",
+    "object": "AMPK",
+    "context": {
+      "en-US": "ADP-ribose catabolism raises the AMP/ATP ratio, and the resulting AMP accumulation activates AMPK (Ethier et al. 2012). Activated AMPK then inhibits mTORC1, linking PAR turnover to the autophagy arm; the AMPK–mTORC1 overlay is protective in some parthanatos models while driving autophagy execution in others, and its polarity remains unresolved.",
+      "zh-TW": "ADP-ribose 的分解代謝會提高 AMP/ATP 比值，累積的 AMP 進而活化 AMPK（Ethier 等人 2012）。被活化的 AMPK 隨後抑制 mTORC1，將 PAR 周轉與自噬支路連結起來；AMPK–mTORC1 的疊加作用在部分 parthanatos 模型中具有保護性，在其他模型中則驅動自噬執行，其方向性仍未定論。"
+    },
+    "confidence": 0.85,
+    "source_document": "Nudix Hydrolases.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "2a2b0205d3e7",
+    "subject": "Nudix Hydrolases",
+    "predicate": "acts_downstream_of",
+    "object": "PARG",
+    "context": {
+      "en-US": "In Parthanatos, PARG (and in parallel ARH3) poly-ADP-ribosylates substrates and generates free ADP-ribose monomers; Nudix Hydrolases then degrade those monomers, and the resulting R5P is converted through PRPP to NMN and NAD+. Whether Nudix loss is actually required for parthanatos remains an open question, and ADP-ribose is partitioned between Nudix degradation and TRPM2 gating for Ca2+ influx.",
+      "zh-TW": "在 parthanatos 中，PARG（以及並行的 ARH3）對受質進行 poly-ADP-ribosylation 並產生游離的 ADP-ribose 單體；Nudix 水解酶（Nudix Hydrolases）隨後分解這些單體，產生的 R5P 經 PRPP 轉為 NMN 與 NAD+。Nudix 流失是否確為 parthanatos 所必需仍是未解問題，且 ADP-ribose 會在 Nudix 分解與 TRPM2 閘控（造成 Ca2+ 內流）之間分配。"
+    },
+    "confidence": 0.8,
+    "source_document": "Nudix Hydrolases.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "09c8a2e3cde0",
+    "subject": "Nutlin 3a",
+    "predicate": "inhibits",
+    "object": "MDM2",
+    "context": {
+      "en-US": "Nutlin 3a is a cis-imidazoline small molecule that binds the p53-binding pocket of the E3 ubiquitin ligase MDM2, disrupting the MDM2–p53 interaction and preventing p53 ubiquitination and degradation (Vassilev et al., 2004). Clinical derivatives RG7112 and idasanutlin have advanced in trials for MDM2-amplified cancers such as AML and liposarcoma.",
+      "zh-TW": "Nutlin 3a 是一順式咪唑啉類小分子，會結合 E3 泛素連接酶 MDM2 的 p53 結合口袋，破壞 MDM2–p53 交互作用，阻止 p53 被泛素化與降解（Vassilev 等人，2004）。其臨床衍生物 RG7112 與 idasanutlin 已進入 AML 與脂肪肉瘤等 MDM2 擴增癌症的臨床試驗。"
+    },
+    "confidence": 0.95,
+    "source_document": "Nutlin 3a.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "aa370c797c4f",
+    "subject": "Nutlin 3a",
+    "predicate": "stabilizes",
+    "object": "p53",
+    "context": {
+      "en-US": "By blocking MDM2, Nutlin 3a stabilizes p53, which then accumulates and activates target genes such as p21 CIP1, driving cell-cycle arrest or apoptosis. Because Nutlin 3a is a widely used tool compound, it is the standard pharmacological probe for p53-mediated senescence and SASP control, and it is a candidate senolytic in p53-wild-type contexts.",
+      "zh-TW": "藉由阻斷 MDM2，Nutlin 3a 穩定 p53，使 p53 累積並活化 p21 CIP1 等標的基因，進而引發細胞週期停滯或凋亡。由於 Nutlin 3a 是廣泛使用的工具化合物，它是研究 p53 介導之衰老與 SASP 控制的標準藥理探針，並在 p53 野生型情境下作為候選 senolytic。"
+    },
+    "confidence": 0.95,
+    "source_document": "Nutlin 3a.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "ddc853e50454",
+    "subject": "p53",
+    "predicate": "represses",
+    "object": "SASP",
+    "context": {
+      "en-US": "p53 restrains the Senescence-Associated Secretory Phenotype because elevated p53 antagonizes the NF-κB and C/EBPβ arms that drive SASP transcription (Freund et al., 2010). This is why Nutlin 3a can silence the pro-inflammatory secretome of already-senescent cells independently of killing them, making p53 a master regulator of both senescence establishment and SASP restraint.",
+      "zh-TW": "p53 會抑制衰老相關分泌表型（SASP），因為升高的 p53 會拮抗驅動 SASP 轉錄的 NF-κB 與 C/EBPβ 兩條軸（Freund 等人，2010）。這就是為何 Nutlin 3a 能在不殺死細胞的情況下，讓已衰老細胞的促發炎分泌組沈默，使 p53 成為衰老建立與 SASP 抑制的總開關。"
+    },
+    "confidence": 0.9,
+    "source_document": "Nutlin 3a.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "9f9291647548",
+    "subject": "p53",
+    "predicate": "upregulates",
+    "object": "p21 CIP1",
+    "context": {
+      "en-US": "Stabilized p53 activates transcription of the CDK inhibitor p21 CIP1, which enforces cell-cycle arrest. In the senescence context this p53–p21 axis is the effector downstream of MDM2 antagonism by Nutlin 3a, linking p53 stabilization to either quiescence-like arrest or, at higher p53 output, apoptosis.",
+      "zh-TW": "被穩定的 p53 會活化 CDK 抑制劑 p21 CIP1 的轉錄，進而強制細胞週期停滯。在衰老脈絡中，此 p53–p21 軸是 MDM2 拮抗（由 Nutlin 3a 執行）下游的效應器，將 p53 穩定化與類似靜止的停滯，或在 p53 輸出較高時的凋亡連結起來。"
+    },
+    "confidence": 0.85,
+    "source_document": "Nutlin 3a.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "a5688cec4cc7",
+    "subject": "O-GlcNAcylation",
+    "predicate": "enhances",
+    "object": "DRP1",
+    "context": {
+      "en-US": "O-GlcNAcylation of DRP1 increases its fission activity: O-GlcNAc transferase drives DRP1 translocation from the Cytosol to the mitochondria, enhancing Mitochondrial Fission in parallel with the stimulatory effect of S-nitrosylation on the same GTPase. Because excessive fission is associated with aging and mitochondrial dysfunction, DRP1 O-GlcNAcylation links dietary glucose load to mitochondrial fragmentation.",
+      "zh-TW": "DRP1 的 O-GlcNA 醣基化（O-GlcNAcylation）會提高其分裂活性：O-GlcNAc 轉移酶驅動 DRP1 由細胞質（Cytosol）轉位至粒線體，增強粒線體分裂（Mitochondrial Fission），與 S-硝基化對同一 GTPase 的刺激作用平行。因過度分裂與老化及粒線體功能障礙相關，DRP1 的 O-GlcNAcylation 將飲食葡萄糖負荷與粒線體碎裂連結起來。"
+    },
+    "confidence": 0.9,
+    "source_document": "O-GlcNAcylation.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "5efd5cafd25d",
+    "subject": "O-GlcNAcylation",
+    "predicate": "modulates",
+    "object": "HNF4α",
+    "context": {
+      "en-US": "O-GlcNAcylation of the hepatic transcription factor HNF4α shapes its conformational state and interaction with coactivators/corepressors, influencing transcriptional output of metabolic programmes such as gluconeogenesis and lipid handling. Because O-GlcNAcylation of metabolic regulators responds to diet via the hexosamine biosynthesis pathway, it acts as a molecular bridge between nutrition and gene expression.",
+      "zh-TW": "肝臟轉錄因子 HNF4α 的 O-GlcNA 醣基化（O-GlcNAcylation）會改變其構形狀態與輔激活／輔抑制因子的交互作用，影響糖新生與脂質處理等代謝程式的轉錄輸出。由於代謝調節蛋白的 O-GlcNAcylation 會透過己糖胺生合成路徑對飲食作出反應，它可作為營養與基因表現之間的分子橋樑。"
+    },
+    "confidence": 0.85,
+    "source_document": "O-GlcNAcylation.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "d04f93ea4a36",
+    "subject": "O-GlcNAcylation",
+    "predicate": "interacts_with",
+    "object": "Phosphorylation",
+    "context": {
+      "en-US": "Unlike secretory-pathway glycosylation, O-GlcNAcylation is a dynamic, nutrient- and stress-sensitive signalling modification that cycles on timescales similar to Phosphorylation and crosstalks extensively with phosphorylation at shared or adjacent residues. On Tau Protein the two modifications are reciprocal: loss of O-GlcNAcylation permits increased phosphorylation at adjacent sites, which promotes neurofibrillary tangle formation.",
+      "zh-TW": "與分泌途徑的醣基化不同，O-GlcNA 醣基化（O-GlcNAcylation）是動態的、對營養與壓力敏感訊號的修飾，其循環時間尺度與磷酸化（Phosphorylation）相近，並在相同或相鄰殘基上與磷酸化廣泛交互作用。在 Tau Protein 上兩者呈互逆關係：O-GlcNAcylation 流失會容許相鄰位點的磷酸化增加，促進神經纖維纏結形成。"
+    },
+    "confidence": 0.85,
+    "source_document": "O-GlcNAcylation.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "c33ae71cdf6a",
+    "subject": "Alzheimer's Disease",
+    "predicate": "reduces",
+    "object": "O-GlcNAcylation",
+    "context": {
+      "en-US": "O-GlcNAcylation of Tau Protein is reduced in Alzheimer's Disease brain, with reciprocal phosphorylation at adjacent sites increased, promoting neurofibrillary tangle formation and tau pathology. SIRT1 reduces tau O-GlcNAcylation by regulating OGT, and total tau O-GlcNAcylation modulates its aggregation propensity (Lu et al., 2020), making O-GlcNAc cycling a metabolic handle on tauopathy.",
+      "zh-TW": "在阿茲海默病（Alzheimer's Disease）腦中，Tau Protein 的 O-GlcNA 醣基化（O-GlcNAcylation）減少，而相鄰位點的磷酸化增加，促進神經纖維纏結形成與 tau 病變。SIRT1 透過調控 OGT 降低 tau 的 O-GlcNAcylation，而 tau 的總 O-GlcNAcylation 量可調節其聚集傾向（Lu 等人，2020），使 O-GlcNAc 循環成為處理 tau 病變的代謝著力點。"
+    },
+    "confidence": 0.85,
+    "source_document": "O-GlcNAcylation.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "a35aba153143",
+    "subject": "O-GlcNAcylation",
+    "predicate": "modulates",
+    "object": "Chromatin Remodeling",
+    "context": {
+      "en-US": "O-GlcNAc transferase modifies transcription factors, RNA polymerase II, histones and chromatin remodelers, so O-GlcNAcylation modulates Chromatin Remodeling and gene expression programmes. Its reciprocal interplay with Acetylation and Methylation on histones positions O-GlcNAcylation within the broader Epigenetic Landscape rather than as an isolated modification.",
+      "zh-TW": "O-GlcNAc 轉移酶會修飾轉錄因子、RNA 聚合酶 II、組蛋白與染色質重塑因子，因此 O-GlcNA 醣基化（O-GlcNAcylation）可調控染色質重塑（Chromatin Remodeling）與基因表現程式。它與組蛋白上的乙醯化（Acetylation）及甲基化（Methylation）互相牽連，使 O-GlcNAcylation 位於更廣泛的表觀遺傳景觀（Epigenetic Landscape）之中，而非孤立的修飾。"
+    },
+    "confidence": 0.8,
+    "source_document": "O-GlcNAcylation.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "d2941bae805b",
+    "subject": "OMA1",
+    "predicate": "cleaves",
+    "object": "OPA1",
+    "context": {
+      "en-US": "OMA1's best-characterized substrate is the dynamin-like GTPase OPA1. Stress-activated OMA1 cleaves the long (L-) isoform of OPA1 at the S1 site into short (S-) fragments, disabling inner-membrane fusion and promoting mitochondrial fragmentation, cristae remodeling and eventual mitophagy; conversely, S-OPA1 cooperates with L-OPA1 for fusion.",
+      "zh-TW": "OMA1 最具代表性的受質是類 dynamin 的 GTPase——OPA1。受壓力活化的 OMA1 會在 S1 位點切割 OPA1 的長型（L-）異構體，產生短型（S-）片段，使內膜融合失效並促進粒線體碎裂、嵴重塑與最終的 mitophagy；反之，S-OPA1 可與 L-OPA1 協同促進融合。"
+    },
+    "confidence": 0.95,
+    "source_document": "OMA1.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "22028e64a25e",
+    "subject": "OMA1",
+    "predicate": "is_activated_by",
+    "object": "Mitochondrial Dysfunction",
+    "context": {
+      "en-US": "OMA1 is constitutively present but normally restrained; its activity is sharply upregulated in response to mitochondrial stress signals, particularly loss of Mitochondrial Membrane Potential (ΔΨm), perturbed protein import, or accumulation of unfolded proteins. Excess or prolonged OMA1 activation collapses cristae, sensitizes cells to apoptosis and cooperates with the PINK1/Parkin mitophagy machinery.",
+      "zh-TW": "OMA1 平時持續存在但受到抑制；其活性會在粒線體壓力訊號出現時顯著上升，尤其是粒線體膜電位（Mitochondrial Membrane Potential, ΔΨm）喪失、蛋白輸入受擾或未折疊蛋白堆積時。過度或持續的 OMA1 活化會使嵴崩解、使細胞對凋亡敏感，並與 PINK1/Parkin 的 mitophagy 機制協同作用。"
+    },
+    "confidence": 0.9,
+    "source_document": "OMA1.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "3e12efc6879d",
+    "subject": "OMA1",
+    "predicate": "is_localized_to",
+    "object": "Inner Mitochondrial Membrane",
+    "context": {
+      "en-US": "OMA1 is a conserved zinc-dependent metalloprotease anchored in the Inner Mitochondrial Membrane. This localization places it at the intersection of mitochondrial dynamics, quality control and cell-death priming, and it helps execute UPRmt-associated remodeling in neurodegeneration and metabolic disease where mitochondrial turnover is perturbed.",
+      "zh-TW": "OMA1 是錨定於粒線體內膜（Inner Mitochondrial Membrane）的保守鋅依賴金屬蛋白酶。此定位使它位於粒線體動態、品質管制與細胞死亡啟動的交會處，並協助執行 UPRmt 相關的重塑；在粒線體周轉受擾的神經退化與代謝疾病中尤其重要。"
+    },
+    "confidence": 0.85,
+    "source_document": "OMA1.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "589b68b1ec18",
+    "subject": "OMA1",
+    "predicate": "promotes",
+    "object": "Mitochondrial Fission",
+    "context": {
+      "en-US": "By generating S-OPA1 fragments that disable fusion, OMA1 promotes Mitochondrial Fission as part of the mitochondrial quality-control response to stress. This makes OMA1 the mechanistic link between membrane-potential loss and the fragmentation that precedes mitophagy, apoptosis and eventual elimination of damaged mitochondria.",
+      "zh-TW": "藉由產生使融合失效的 S-OPA1 片段，OMA1 作為粒線體品質管制應對壓力的一環，促進粒線體分裂（Mitochondrial Fission）。這使 OMA1 成為膜電位喪失與「碎裂—隨後 mitophagy、凋亡並清除受損粒線體」之間的機制橋樑。"
+    },
+    "confidence": 0.85,
+    "source_document": "OMA1.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "520b3917b0c6",
+    "subject": "HRI",
+    "predicate": "triggers",
+    "object": "Integrated Stress Response",
+    "context": {
+      "en-US": "HRI is the kinase effector of the OMA1-DELE1-HRI axis: once activated by the released DELE1 tail, HRI phosphorylates eIF2α to induce the Integrated Stress Response, including ATF4 and CHOP transcription. This axis is a backup to OMA1-dependent OPA1 cleavage and complements other mitochondrial stress outputs, illustrating how Mitochondria communicate distress to the cytosol independently of the canonical PINK1/Parkin mitophagy route.",
+      "zh-TW": "HRI 是 OMA1-DELE1-HRI 軸的激酶效應器：一旦被釋出的 DELE1 尾端活化，HRI 便磷酸化 eIF2α，誘發整合性壓力反應（Integrated Stress Response），包括 ATF4 與 CHOP 的轉錄。此軸是 OMA1 依賴的 OPA1 切割之外的備援途徑，與其他粒線體壓力輸出互補，說明粒線體（Mitochondria）如何獨立於典型的 PINK1/Parkin mitophagy 路徑將窘迫訊號傳遞至細胞質。"
+    },
+    "confidence": 0.9,
+    "source_document": "OMA1-DELE1-HRI axis.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "25641f706e41",
+    "subject": "OPA1",
+    "predicate": "is_required_for",
+    "object": "Mitochondrial Fusion",
+    "context": {
+      "en-US": "OPA1 is a dynamin-related GTPase anchored to the Inner Mitochondrial Membrane that mediates inner-membrane fusion. Efficient fusion requires L-OPA1 and S-OPA1 acting together, and OPA1 is also a key component of the mitochondrial contact site and cristae organizing system, so the OPA1 processing balance directly sets the fusion–fission ratio.",
+      "zh-TW": "OPA1 是錨定於粒線體內膜（Inner Mitochondrial Membrane）的類 dynamin GTPase，負責介導內膜融合。有效融合需要 L-OPA1 與 S-OPA1 共同作用，且 OPA1 也是粒線體接觸點與嵴組織系統的關鍵成員，因此 OPA1 的加工平衡直接決定融合—分裂的比例。"
+    },
+    "confidence": 0.95,
+    "source_document": "OPA1.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "a557e4d897c7",
+    "subject": "OPA1",
+    "predicate": "requires",
+    "object": "Cardiolipin",
+    "context": {
+      "en-US": "Cardiolipin binds L-OPA1 on liposomes and is absolutely required for OPA1-mediated fusion: removing cardiolipin abolishes membrane merging even with L-OPA1 present on both leaflets, and GTP hydrolysis by OPA1 is likewise essential. Disease alleles in dominant optic atrophy show defects in cardiolipin-stimulated GTP hydrolysis and membrane tubulation.",
+      "zh-TW": "心磷脂（Cardiolipin）可在脂質體上結合 L-OPA1，且對 OPA1 介導的融合是絕對必要的：移除心磷脂後，即使兩個葉層都有 L-OPA1，膜融合仍會消失，OPA1 的 GTP 水解亦不可或缺。顯性視神經萎縮的致病等位基因則在心磷脂刺激的 GTP 水解與膜管形成方面有缺陷。"
+    },
+    "confidence": 0.9,
+    "source_document": "OPA1.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "8c1826beac86",
+    "subject": "OPA1",
+    "predicate": "is_ortholog_of",
+    "object": "Mgm1",
+    "context": {
+      "en-US": "OPA1 is the mammalian ortholog of the yeast protein Mgm1, a dynamin-related GTPase whose fusion activity requires cardiolipin in both systems. Conservation of the Mgm1/OPA1 architecture makes yeast a standard model for dissecting OPA1 processing, the L/S ratio and cardiolipin-dependent fusion mechanics.",
+      "zh-TW": "OPA1 是酵母蛋白 Mgm1 的哺乳類同源物；兩者都是類 dynamin 的 GTPase，其融合活性皆需要心磷脂。Mgm1/OPA1 架構的高度保守性，使酵母成為研究 OPA1 加工、L/S 比例與心磷脂依賴性融合機制的標準模型。"
+    },
+    "confidence": 0.85,
+    "source_document": "OPA1.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "225f1189ab81",
+    "subject": "TBK1",
+    "predicate": "phosphorylates",
+    "object": "OPTN",
+    "context": {
+      "en-US": "The kinase TBK1 phosphorylates OPTN, which significantly enhances the autophagy receptor's affinity for ubiquitin chains on the mitochondrial surface and for LC3 on the phagophore. Because mitophagy critically depends on this phosphorylation, loss of OPTN or its TBK1 kinase activity impairs both mitochondrial clearance and axonal transport, and OPTN mutations are pathogenic in ALS.",
+      "zh-TW": "激酶 TBK1 會磷酸化 OPTN，顯著提升此自噬受體對粒線體表面泛素鏈以及對吞噬膜上 LC3 的親和力。由於 mitophagy 高度依賴此磷酸化，OPTN 或其上游激酶 TBK1 活性喪失會同時損害粒線體清除與軸突運輸，而 OPTN 突變在 ALS 中具有致病性。"
+    },
+    "confidence": 0.9,
+    "source_document": "OPTN.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "048e7a73abe2",
+    "subject": "OPTN",
+    "predicate": "binds",
+    "object": "LC3",
+    "context": {
+      "en-US": "OPTN is recruited to ubiquitin-coated mitochondria after Parkin ubiquitinates outer-membrane proteins, and through its LIR Motif it binds LC3 proteins on the phagophore, bridging cargo and autophagosomal membrane. Together with NDP52, OPTN is one of the two primary autophagy receptors in the PINK1/Parkin pathway.",
+      "zh-TW": "在 Parkin 泛素化粒線體外膜蛋白之後，OPTN 會被招募到帶有泛素的粒線體表面，並透過其 LIR Motif 與吞噬膜上的 LC3 結合，將受質與自噬體膜橋接起來。OPTN 與 NDP52 一起是 PINK1/Parkin 路徑中兩個主要的自噬受體。"
+    },
+    "confidence": 0.9,
+    "source_document": "OPTN.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "3b8ca444794f",
+    "subject": "OPTN",
+    "predicate": "interacts_with",
+    "object": "TRAK1",
+    "context": {
+      "en-US": "Beyond its role as a mitophagy receptor, OPTN directly interacts with the microtubule and mitochondrial transport complex TRAK1/KIF5B in a C-terminal-dependent manner, stabilizing it for proper anterograde axonal mitochondrial transport. Overexpression of OPTN/TRAK1/KIF5B prevents neurodegeneration induced by OPTN truncation and promotes optic nerve regeneration.",
+      "zh-TW": "除了作為 mitophagy 受體之外，OPTN 還以 C 端依賴的方式直接與微管及粒線體運輸複合體 TRAK1/KIF5B 交互作用並使其穩定，以確保順向軸突粒線體運輸正常進行。OPTN/TRAK1/KIF5B 的過量表現可防止 OPTN 截斷所誘發的神經退化，並促進視神經再生。"
+    },
+    "confidence": 0.85,
+    "source_document": "OPTN.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "22876a2a9c9f",
+    "subject": "OPTN",
+    "predicate": "mutations_cause",
+    "object": "ALS",
+    "context": {
+      "en-US": "OPTN mutations have been identified as pathogenic in ALS, and because mitophagy critically depends on OPTN and its kinase TBK1, loss of OPTN function impairs both mitochondrial clearance and axonal transport. Loss of function in this pathway therefore couples defective selective autophagy to motor neuron degeneration.",
+      "zh-TW": "OPTN 突變已被確認在 ALS（肌萎縮性側索硬化症）中具有致病性；由於 mitophagy 高度依賴 OPTN 及其激酶 TBK1，OPTN 功能喪失會同時損害粒線體清除與軸突運輸。因此此路徑的功能喪失會把選擇性自噬缺陷與運動神經元退化連結起來。"
+    },
+    "confidence": 0.9,
+    "source_document": "OPTN.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "43d7af6d3726",
+    "subject": "GSK3",
+    "predicate": "promotes_degradation_of",
+    "object": "OPTN",
+    "context": {
+      "en-US": "In Alzheimer's Disease, OPTN expression is significantly reduced in the hippocampus and prefrontal cortex, mediated by GSK-3β phosphorylation at Ser473 that promotes Ubiquitin-mediated degradation of OPTN. Losing this mitophagy receptor connects reduced mitochondrial clearance in Alzheimer's Disease to BNIP3-mediated mitophagy deficits and neuronal dysfunction.",
+      "zh-TW": "在阿茲海默病（Alzheimer's Disease）中，OPTN 在海馬迴（Hippocampus）與前額葉皮質（Prefrontal Cortex）的表現顯著下降，機制是 GSK-3β 在 Ser473 位點的磷酸化促進 OPTN 被泛素（Ubiquitin）介導的降解。這個 mitophagy 受體的流失，把阿茲海默病中粒線體清除減少與 BNIP3 介導的 mitophagy 缺陷及神經元功能異常連結起來。"
+    },
+    "confidence": 0.85,
+    "source_document": "OPTN.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "c1ccb6f4b6a7",
+    "subject": "Optineurin",
+    "predicate": "inhibits",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "Beyond cargo recognition, Optineurin acts as a negative regulator of inflammatory signalling: it negatively regulates NF-κB signaling by interacting with RIP1 and other pathway components. As a cytoplasmic selective autophagy receptor that also participates in Mitophagy alongside NBR1, NDP52 and p62, Optineurin therefore links aggregate and mitochondria clearance to control of inflammatory tone.",
+      "zh-TW": "除了辨識受質之外，Optineurin 還是發炎訊號的負向調節者：它藉由與 RIP1 及其他途徑成分交互作用，負向調節 NF-κB 訊號傳遞。Optineurin 作為細胞質選擇性自噬受體，與 NBR1、NDP52、p62 一同參與 Mitophagy，因此把聚合物與粒線體的清除連結到發炎張力的調控。"
+    },
+    "confidence": 0.85,
+    "source_document": "Optineurin.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "b9435101f741",
+    "subject": "Optineurin",
+    "predicate": "cooperates_with",
+    "object": "p62",
+    "context": {
+      "en-US": "Optineurin mediates selective autophagy through conserved domains — an LIR Motif that binds LC3, ubiquitin-binding domains that recognize ubiquitinated substrates, and TBK1-dependent phosphorylation that raises ubiquitin and LC3 affinity — and works alongside p62, NBR1 and NDP52. These cooperative receptors are functionally interchangeable in cargo selection, which is why their individual loss is compensated in aggregate clearance.",
+      "zh-TW": "Optineurin 透過保守區域介導選擇性自噬：能結合 LC3 的 LIR Motif、辨識泛素化受質的泛素結合區，以及可提升泛素與 LC3 親和力的 TBK1 依賴性磷酸化；並與 p62、NBR1、NDP52 協同作用。這些協同受體在受質選擇上功能可互換，因此在聚合物清除中個別喪失會獲得補償。"
+    },
+    "confidence": 0.8,
+    "source_document": "Optineurin.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "d726009583b0",
+    "subject": "OX2R",
+    "predicate": "is_activated_by",
+    "object": "Orexin",
+    "context": {
+      "en-US": "OX2R (orexin receptor type 2, encoded by HCRTR2) is a G-protein-coupled receptor that mediates signalling of the hypothalamic neuropeptides orexin A and B. OX2R is enriched in the tuberomammillary nucleus and dorsomedial hypothalamus and is the primary receptor for wakefulness, so it links orexin release to arousal, feeding behaviour and energy homeostasis.",
+      "zh-TW": "OX2R（orexin 受體第二型，由 HCRTR2 編碼）是 G 蛋白偶聯受體，負責介導下視丘神經胜肽 orexin A 與 orexin B 的訊號傳遞。OX2R 在乳頭核與背內側下視丘高度表現，是維持清醒的主要受體，因此將 orexin 的釋放連結到覺醒、攝食行為與能量恆定。"
+    },
+    "confidence": 0.9,
+    "source_document": "OX2R.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "cab7ecafc5cc",
+    "subject": "OX2R",
+    "predicate": "is_expressed_in",
+    "object": "Hypothalamus",
+    "context": {
+      "en-US": "OX2R expression is concentrated in the Hypothalamus, specifically the dorsomedial and lateral nuclei (DMH/LH) where the BRASTO lifespan phenotype originates, and in the tuberomammillary nucleus. Mice on a calorie-restricted diet show the same hypothalamic SIRT1/OX2R signature, so OX2R marks a hypothalamic hub through which sirtuin activity and calorie restriction converge on activity, thermoregulation and muscle mitochondrial phenotype.",
+      "zh-TW": "OX2R 的表現集中於下視丘（Hypothalamus），具體位於產生 BRASTO 壽命表型的背內側核與外側核（DMH/LH），以及乳頭核。熱量限制飲食的小鼠也呈現相同的下視丘 SIRT1/OX2R 訊號，因此 OX2R 標記出一個下視丘樞紐，sirtuin 活性與熱量限制皆經由它匯聚到活動量、體溫調節與肌肉粒線體表型。"
+    },
+    "confidence": 0.85,
+    "source_document": "OX2R.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "f72a640bd407",
+    "subject": "Caloric Restriction",
+    "predicate": "induces",
+    "object": "OX2R",
+    "context": {
+      "en-US": "Calorie-restricted mice display the same hypothalamic SIRT1/OX2R expression signature as brain-specific SIRT1-overexpressing animals, so caloric restriction recapitulates the OX2R-dependent longevity axis pharmacologically mimicked by SIRT1 activation. Because OX2R drives physical activity, oxygen consumption and preserved muscle mitochondrial morphology, it links dietary energy intake to the same downstream phenotypes.",
+      "zh-TW": "熱量限制（Caloric Restriction）的小鼠會出現與腦專一性 SIRT1 過量表現動物相同的下視丘 SIRT1/OX2R 表現訊號，因此熱量限制可重現 OX2R 依賴的長壽軸，而此軸亦可由 SIRT1 活化以藥理方式模擬。由於 OX2R 驅動身體活動、耗氧與肌肉粒線體形態維持，它把飲食能量攝取連結到相同的下游表型。"
+    },
+    "confidence": 0.8,
+    "source_document": "OX2R.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "a0548a930c84",
+    "subject": "Orexin",
+    "predicate": "is_produced_in",
+    "object": "Hypothalamus",
+    "context": {
+      "en-US": "Orexin (hypocretin) is produced by a small cluster of neurons in the lateral and perifornical Hypothalamus, where prepro-orexin is cleaved into orexin-A and orexin-B and the neurons project widely to cortex, brainstem and limbic system. These glucose-sensing neurons promote arousal-associated energy expenditure and physical activity, linking sleep–wake regulation to metabolic health.",
+      "zh-TW": "Orexin（hypocretin）由外側與圍室核下視丘（Hypothalamus）的一小群神經元產生，這些神經元將前驅 orexin 切割成 orexin-A 與 orexin-B，並廣泛投射至皮質、腦幹與邊緣系統。這些具葡萄糖感測能力的神經元促進覺醒相關的能量消耗與身體活動，把睡眠—清醒調節與代謝健康連結起來。"
+    },
+    "confidence": 0.9,
+    "source_document": "Orexin.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "143172464fce",
+    "subject": "Orexin",
+    "predicate": "deficiency_causes",
+    "object": "narcolepsy",
+    "context": {
+      "en-US": "Loss of orexin-producing neurons causes narcolepsy, the clearest demonstration that Orexin is required to stabilize wakefulness rather than merely promote it. Because OX2R is the primary receptor for wakefulness, narcolepsy is the clinical mirror image of the OX2R upregulation that mediates the ~11% lifespan extension in the SIRT1-overexpressing BRASTO mouse.",
+      "zh-TW": "產生 orexin 的神經元流失會造成嗜睡症（narcolepsy），這是最清楚的證據，顯示 Orexin 是「穩定」而非僅僅「促進」清醒所必需。由於 OX2R 是維持清醒的主要受體，嗜睡症正是 OX2R 上調之臨床鏡像，而後者正是 SIRT1 過量表現的 BRASTO 小鼠中位壽命延長約 11% 的中介機制。"
+    },
+    "confidence": 0.9,
+    "source_document": "Orexin.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "aa9d6ce41987",
+    "subject": "Orexin",
+    "predicate": "increases",
+    "object": "Thermogenesis",
+    "context": {
+      "en-US": "Orexin neurons in the Hypothalamus regulate feeding, energy balance, reward and thermogenesis in addition to arousal. Because orexin signaling is glucose-sensitive, loss or gain of this signal couples the sleep–wake state to energy expenditure and physical activity, positioning the SIRT1–OX2R–orexin axis as a candidate mediator of healthspan.",
+      "zh-TW": "位於下視丘（Hypothalamus）的 orexin 神經元除覺醒外，還調節攝食、能量平衡、獎賞與產熱（Thermogenesis）。由於 orexin 訊號具葡萄糖敏感性，此訊號的喪失或增加會把睡眠—清醒狀態與能量消耗及身體活動耦合，使 SIRT1–OX2R–orexin 軸有成為健康壽命中介因子的候選者。"
+    },
+    "confidence": 0.8,
+    "source_document": "Orexin.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "f710268fe47b",
+    "subject": "SIRT1",
+    "predicate": "protects_against",
+    "object": "Obesity",
+    "context": {
+      "en-US": "SIRT1 suppresses Obesity by inhibiting adipogenesis and stimulating energy expenditure, activating AMPK and PGC-1α to increase mitochondrial respiration. In pancreatic tissue, SIRT3 deficiency conversely promotes hepatic steatosis in diet-induced obesity, and miRNA-dependent repression of SIRT1 mRNA via its 3′-UTR promotes adipogenesis, illustrating that SIRT1 dosage sets the adipogenesis–energy expenditure balance.",
+      "zh-TW": "SIRT1 藉由抑制脂肪生成並促進能量消耗來抑制肥胖（Obesity），其方式是活化 AMPK 與 PGC-1α 以增加粒線體呼吸。反之，在胰臟中 SIRT3 缺乏會在飲食誘導的肥胖中促進肝臟脂肪變性，而透過 SIRT1 mRNA 的 3′-UTR 由 miRNA 造成的抑制則會促進脂肪生成，顯示 SIRT1 的劑量決定了脂肪生成與能量消耗的平衡。"
+    },
+    "confidence": 0.85,
+    "source_document": "Obesity.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "7e4d06c4a80a",
+    "subject": "SIRT3",
+    "predicate": "activates",
+    "object": "AMPK",
+    "context": {
+      "en-US": "SIRT3 overexpression activates macroautophagy via the AMPK-ULK1 axis, reducing lipid accumulation and thereby limiting Obesity. This places SIRT3 as an energy-sensing node: NAD+-dependent deacetylation of metabolic enzymes in mitochondria converts NAD+ status into control of lipophagy and adiposity, and pancreatic SIRT3 deficiency promotes hepatic steatosis via enhanced 5-hydroxytryptamine synthesis.",
+      "zh-TW": "SIRT3 過量表現可透過 AMPK-ULK1 軸活化巨自噬（macroautophagy），減少脂質堆積並因此限制肥胖（Obesity）。這使 SIRT3 成為一個能量感測節點：在粒線體中對代謝酵素進行 NAD+ 依賴性去乙醯化，把 NAD+ 狀態轉換成對脂噬與脂肪量的調控；而胰臟 SIRT3 缺乏會透過 5-羥色胺合成增加而促進肝臟脂肪變性。"
+    },
+    "confidence": 0.85,
+    "source_document": "Obesity.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "3bb2fec2ca5b",
+    "subject": "SIRT6",
+    "predicate": "promotes",
+    "object": "Obesity",
+    "context": {
+      "en-US": "SIRT6 acts in the opposite direction to SIRT1: SIRT6 overexpression exacerbates diet-induced Obesity by decreasing STAT3 acetylation and lowering proopiomelanocortin expression. Roles for SIRT5 and SIRT6 have likewise been identified in lipid metabolism, so sirtuin effects on adiposity are isoform-specific rather than uniformly anti-obesity.",
+      "zh-TW": "SIRT6 的作用方向與 SIRT1 相反：SIRT6 過量表現會加劇飲食誘導的肥胖（Obesity），方式是降低 STAT3 的乙醯化並下調促黑素皮質素（POMC）表現。SIRT5 與 SIRT6 在脂質代謝中的角色亦已被確認，因此 sirtuin 對脂肪量的影響是依 isoform 而異，並非一致抗肥胖。"
+    },
+    "confidence": 0.85,
+    "source_document": "Obesity.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "66a93c282d9e",
+    "subject": "SIRT2",
+    "predicate": "promotes",
+    "object": "Obesity",
+    "context": {
+      "en-US": "SIRT2 favours adipogenesis rather than energy expenditure: HIF-1α negatively regulates the SIRT2-PGC-1α axis, thereby supporting adipocyte formation. Because SIRT2 thus pushes the adipogenesis–energy expenditure balance toward fat storage, sirtuin modulation of Obesity is isoform-dependent and cannot be treated as a single uniform axis.",
+      "zh-TW": "SIRT2 傾向促進脂肪生成而非能量消耗：HIF-1α 負向調節 SIRT2-PGC-1α 軸，因而支持脂肪細胞形成。由於 SIRT2 會把「脂肪生成—能量消耗」的平衡推向脂肪儲存，sirtuin 對肥胖（Obesity）的調控是依 isoform 而異，不能視為單一統一的軸。"
+    },
+    "confidence": 0.8,
+    "source_document": "Obesity.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "a45360dc549a",
+    "subject": "Obesity",
+    "predicate": "increases_susceptibility_to",
+    "object": "Type 2 Diabetes Mellitus",
+    "context": {
+      "en-US": "Obesity, a chronic disease of excessive adipose accumulation affecting over 603.7 million adults, is associated with chronic inflammation and increased risk of Type 2 Diabetes Mellitus, Cardiovascular Disease, Non-alcoholic Fatty Liver Disease and certain cancers. Epidemiological evidence links rising Obesity to declining physical activity and reduced resting metabolic rate, so reduced Energy Expenditure is a key driver of the obesity epidemic.",
+      "zh-TW": "肥胖（Obesity）是一種脂肪組織過度累積的慢性疾病，全球有超過 6.037 億成年人受累，並與慢性發炎以及第二型糖尿病（Type 2 Diabetes Mellitus）、心血管疾病（Cardiovascular Disease）、非酒精性脂肪肝疾病（Non-alcoholic Fatty Liver Disease）與某些癌症的風險上升相關。流行病學證據將肥胖增加與身體活動下降及 resting metabolic rate 降低連結，因此能量消耗（Energy Expenditure）減少是肥胖流行的重要驅動因素。"
+    },
+    "confidence": 0.9,
+    "source_document": "Obesity.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "b3c44cf88e9e",
+    "subject": "Oligomycin",
+    "predicate": "inhibits",
+    "object": "Oxidative Phosphorylation",
+    "context": {
+      "en-US": "Oligomycin is a macrolide antibiotic that inhibits the F_O subunit of mitochondrial ATP synthase (Complex V), blocking Oxidative Phosphorylation and causing a characteristic drop in oxygen consumption with a compensatory rise in glycolysis. It is injected before FCCP in Seahorse assays to isolate ATP-synthase-linked respiration from maximal electron-transport capacity.",
+      "zh-TW": "Oligomycin 是一種巨環抗生素，抑制粒線體 ATP 合成酶（Complex V）的 F_O 次單元，使氧化磷酸化（Oxidative Phosphorylation）受阻，造成耗氧量典型性下降與糖解代償性上升。在 Seahorse 試驗中，它會在 FCCP 之前注入，以將 ATP 合成酶連結的呼吸與最大電子傳遞容量區分開來。"
+    },
+    "confidence": 0.95,
+    "source_document": "Oligomycin.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "264e5cc0099f",
+    "subject": "Oligomycin",
+    "predicate": "reduces",
+    "object": "Oxygen Consumption Rate",
+    "context": {
+      "en-US": "Oligomycin at 1 µg/ml suppresses ATP-synthase-linked respiration and produces the characteristic OCR drop used as a coupling-efficiency readout in Seahorse XF assays. Even under Oligomycin, Methylene blue, Toluidine Blue O and Neutral Red significantly increased Oxygen Consumption Rate and reduced extracellular acidification rate, showing these compounds sustain electron transport and suppress anaerobic glycolysis independently of ATP synthase.",
+      "zh-TW": "Oligomycin 以 1 µg/ml 抑制 ATP 合成酶連結的呼吸，產生 Seahorse XF 試驗中作為耦合效率讀值的典型性耗氧量（OCR）下降。即使在 Oligomycin 存在下，Methylene blue、Toluidine Blue O 與 Neutral Red 仍顯著提高耗氧量並降低細胞外酸化率，顯示這些化合物可獨立於 ATP 合成酶維持電子傳遞並抑制無氧糖解。"
+    },
+    "confidence": 0.9,
+    "source_document": "Oligomycin.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "1024a9901ebf",
+    "subject": "Methylene blue",
+    "predicate": "increases",
+    "object": "Oxygen Consumption Rate",
+    "context": {
+      "en-US": "In HT-22 cells assayed on the Seahorse XF24, Methylene blue increased Oxygen Consumption Rate and reduced extracellular acidification rate versus vehicle, even when respiration was clamped with Oligomycin before FCCP. This shows Methylene blue sustains electron transport and suppresses anaerobic glycolysis independently of ATP synthase; 2-Chlorophenothiazine and Chlorpromazine were inert, so the effect is specific to the phenothiazine cation.",
+      "zh-TW": "在 Seahorse XF24 上檢測的 HT-22 細胞中，Methylene blue 相較溶劑對照可提高耗氧量並降低細胞外酸化率，即使在 FCCP 之前已用 Oligomycin 箝制呼吸亦然。這顯示 Methylene blue 可獨立於 ATP 合成酶維持電子傳遞並抑制無氧糖解；而 2-Chlorophenothiazine 與 Chlorpromazine 則無此效應，證明該作用對吩噻嗪陽離子具有專一性。"
+    },
+    "confidence": 0.9,
+    "source_document": "Oligomycin.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "3f736ebae609",
+    "subject": "Oncogene Activation",
+    "predicate": "causes",
+    "object": "Cancer",
+    "context": {
+      "en-US": "Oncogene Activation is the process by which a proto-oncogene is converted into an oncogene with the ability to promote Cancer, via point mutations, gene amplification, chromosomal translocation, insertional mutagenesis or epigenetic derepression. Once activated, Oncogene Activation leads to constitutive Cell Proliferation, resistance to Apoptosis, metabolic reprogramming and Angiogenesis.",
+      "zh-TW": "致癌基因活化（Oncogene Activation）是指原致癌基因（proto-oncogene）被轉換成能促進癌症（Cancer）的致癌基因的過程，可經由點突變、基因擴增、染色體轉位、插入性突變或表觀遺傳去抑制達成。一旦活化，Oncogene Activation 會導致持續的細胞增殖（Cell Proliferation）、對凋亡（Apoptosis）的抵抗、代謝重編程與血管新生（Angiogenesis）。"
+    },
+    "confidence": 0.9,
+    "source_document": "Oncogene Activation.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "6fc41c49ede2",
+    "subject": "RAS",
+    "predicate": "mutations_cause",
+    "object": "Oncogene Activation",
+    "context": {
+      "en-US": "RAS is one of the most frequently point-mutated drivers of Oncogene Activation, with hotspot mutations such as G12V converting the RAS proto-oncogene product into a constitutively active GTPase. Because RAS sits at the head of MAPK and PI3K-Akt Signaling, RAS mutations_cause Oncogene Activation that propagates proliferative and survival signalling.",
+      "zh-TW": "RAS 是致癌基因活化（Oncogene Activation）最常見的點突變驅動因子之一，其 G12V 等熱點突變會將 RAS 原致癌基因產物轉為持續活化的 GTPase。由於 RAS 位於 MAPK 與 PI3K-Akt Signaling 的上游，RAS 突變所造成的致癌基因活化會向下傳遞增殖與存活訊號。"
+    },
+    "confidence": 0.85,
+    "source_document": "Oncogene Activation.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "1c7de00295a6",
+    "subject": "BRAF",
+    "predicate": "mutations_cause",
+    "object": "Oncogene Activation",
+    "context": {
+      "en-US": "The V600E point mutation in BRAF is a canonical example of Oncogene Activation by mutation, converting BRAF into a constitutively active RAF kinase in melanoma and other cancers. Because BRAF sits in MAPK Signaling, this class of Oncogene Activation drives persistent proliferative signalling and explains the success of BRAF inhibitors in these tumours.",
+      "zh-TW": "BRAF 的 V600E 點突變是以突變造成致癌基因活化（Oncogene Activation）的典型例子，會將 BRAF 轉為持續活化的 RAF 激酶，常見於黑色素瘤及其他癌症。由於 BRAF 位於 MAPK Signaling 中，這類 Oncogene Activation 會驅動持續的增殖訊號，也解釋了 BRAF 抑制劑在這些腫瘤上的成功。"
+    },
+    "confidence": 0.85,
+    "source_document": "Oncogene Activation.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "a2130918495a",
+    "subject": "HER2",
+    "predicate": "amplification_activates",
+    "object": "Oncogene Activation",
+    "context": {
+      "en-US": "HER2 in breast cancer is activated by gene amplification rather than point mutation, making it a paradigm of Oncogene Activation by copy-number gain. Amplified HER2 drives receptor-tyrosine-kinase signalling that promotes Cell Proliferation and Angiogenesis, and it is the target of trastuzumab and other agents that made amplification-based Oncogene Activation clinically actionable.",
+      "zh-TW": "乳癌中的 HER2 是透過基因擴增而非點突變被活化，因此是「以拷貝數增加造成致癌基因活化（Oncogene Activation）」的典範。擴增的 HER2 會驅動受體酪胺酸激酶訊號，促進細胞增殖（Cell Proliferation）與血管新生（Angiogenesis），也是 trastuzumab 等藥物的標的，使以擴增為基礎的 Oncogene Activation 得以在臨床上對症下藥。"
+    },
+    "confidence": 0.85,
+    "source_document": "Oncogene Activation.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "7bddeac42d5d",
+    "subject": "MYC",
+    "predicate": "translocation_activates",
+    "object": "Oncogene Activation",
+    "context": {
+      "en-US": "MYC is activated both by amplification in various cancers and by chromosomal translocation to the IGH locus in Burkitt lymphoma, which is a fusion-forming route to Oncogene Activation. As a master transcriptional regulator, oncogenic MYC drives Cell Proliferation, Apoptosis resistance and metabolic reprogramming downstream of Oncogene Activation.",
+      "zh-TW": "MYC 可在多種癌症中因擴增而被活化，也會在 Burkitt 淋巴瘤中透過與 IGH 位點的染色體轉位而活化，這是形成融合基因的 Oncogene Activation 途徑。作為轉錄調控總開關，致癌性 MYC 會在 Oncogene Activation 下游驅動細胞增殖（Cell Proliferation）、凋亡（Apoptosis）抵抗與代謝重編程。"
+    },
+    "confidence": 0.85,
+    "source_document": "Oncogene Activation.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "2ec05dd6386c",
+    "subject": "Oncogene",
+    "predicate": "causes",
+    "object": "Cancer",
+    "context": {
+      "en-US": "An Oncogene is a gene with the potential to cause Cancer when mutated, overexpressed or constitutively activated. Major oncogenes include RAS, MYC, BRAF, EGFR, HER2, PIK3CA, Akt and BCR-ABL, and their activation promotes Cell Proliferation, Angiogenesis, Metastasis and resistance to Apoptosis, which is why they are the dominant oncogenic lesions in human tumours.",
+      "zh-TW": "致癌基因（Oncogene）是在突變、過量表現或持續活化時具有引發癌症（Cancer）潛力的基因。主要致癌基因包括 RAS、MYC、BRAF、EGFR、HER2、PIK3CA、Akt 與 BCR-ABL，其活化會促進細胞增殖（Cell Proliferation）、血管新生（Angiogenesis）、轉移（Metastasis）與對凋亡（Apoptosis）的抵抗，因此它們是人類腫瘤中主要的致癌病變。"
+    },
+    "confidence": 0.9,
+    "source_document": "Oncogene.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "6558a85aadd3",
+    "subject": "Oncogene",
+    "predicate": "reduces",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "Activated oncogenes confer resistance to Apoptosis, allowing cells harbouring RAS, MYC or HER2 lesions to survive checkpoints that would normally eliminate them. This survival advantage, alongside promoted Cell Proliferation and Angiogenesis, is a core mechanism by which an Oncogene drives tumourigenesis and progression to Metastasis.",
+      "zh-TW": "被活化的致癌基因賦予細胞對凋亡（Apoptosis）的抵抗，使帶有 RAS、MYC 或 HER2 病變的細胞得以存活於原本會將其淘汰的檢查點。這種存活優勢，連同被促進的細胞增殖（Cell Proliferation）與血管新生（Angiogenesis），是致癌基因（Oncogene）推動腫瘤發生並進展至轉移（Metastasis）的核心機制。"
+    },
+    "confidence": 0.85,
+    "source_document": "Oncogene.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "27a389c45857",
+    "subject": "Oncogene",
+    "predicate": "triggers",
+    "object": "Oncogene-Induced Senescence",
+    "context": {
+      "en-US": "Aberrant oncogene signalling triggers Oncogene-Induced Senescence, a tumour-suppressive barrier in which hyperproliferating cells driven by RAS, MYC or EGFR arrest and mount a SASP. Because Oncogene-Induced Senescence restrains Oncogene-driven tumours but also contributes to inflammaging when arrest is incomplete, the same Oncogene signal is both pro- and anti-tumour depending on context.",
+      "zh-TW": "異常的致癌基因訊號會誘發致癌基因誘導的衰老（Oncogene-Induced Senescence），這是一種腫瘤抑制性屏障：由 RAS、MYC 或 EGFR 驅動過度增殖的細胞在此停滯並釋出 SASP。由於 Oncogene-Induced Senescence 可抑制致癌基因驅動的腫瘤，但在停滯不完全時又會促成發炎老化，同一個 Oncogene 訊號依情境既促腫瘤也抑腫瘤。"
+    },
+    "confidence": 0.8,
+    "source_document": "Oncogene.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "f097130feb7c",
+    "subject": "Oncogene",
+    "predicate": "promotes",
+    "object": "Angiogenesis",
+    "context": {
+      "en-US": "Oncogene signalling promotes Angiogenesis by inducing pro-angiogenic factors such as VEGF, supplying the growing tumour with oxygen and nutrients. Together with promoted Cell Proliferation and Metastasis, Angiogenesis is one of the hallmark consequences of Oncogene activation that allows a clone to expand beyond a size diffusion cannot sustain.",
+      "zh-TW": "致癌基因（Oncogene）訊號會誘導 VEGF 等促血管新生因子，促進血管新生（Angiogenesis），以供應生長中的腫瘤氧氣與養分。連同被促進的細胞增殖（Cell Proliferation）與轉移（Metastasis），Angiogenesis 是致癌基因活化後的典型後果之一，使腫瘤細胞株得以擴張到超過擴散所能維持的尺寸。"
+    },
+    "confidence": 0.8,
+    "source_document": "Oncogene.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "8978834a5486",
+    "subject": "SHMT2",
+    "predicate": "converts",
+    "object": "Glycine",
+    "context": {
+      "en-US": "SHMT2 is the mitochondrial entry point of One-Carbon Metabolism: it catalyses Serine to Glycine plus 5,10-methylene-THF, supplying ~75% of total one-carbon unit production in proliferating cells. Glycine is thus both a product consumed by the glycine cleavage system and the amino-acid output that couples serine supply to nucleotide and methylation synthesis.",
+      "zh-TW": "SHMT2 是一碳代謝（One-Carbon Metabolism）在粒線體的入口點：它催化絲胺酸（Serine）轉為甘胺酸（Glycine）加 5,10-亞甲基-THF，在增殖細胞中供應約 75% 的一碳單位總產量。因此 Glycine 既是甘胺酸裂解系統消耗的產物，也是把絲胺酸供應連結到核苷酸與甲基化合成的胺基酸輸出。"
+    },
+    "confidence": 0.9,
+    "source_document": "One-Carbon Metabolism.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "1ff7e06496f3",
+    "subject": "SIRT3",
+    "predicate": "deacetylates",
+    "object": "SHMT2",
+    "context": {
+      "en-US": "SIRT3 deacetylation of SHMT2 at Lys95 activates serine-to-glycine conversion, increasing one-carbon flux and NADPH production and thereby promoting colorectal carcinogenesis. This SIRT3-SHMT2 axis is a direct route by which NAD+ status is converted into one-carbon metabolic output, tying sirtuin activity to the tumour metabolic phenotype.",
+      "zh-TW": "SIRT3 將 SHMT2 在 Lys95 位點去乙醯化，可活化絲胺酸到甘胺酸的轉換，提高一碳通量與 NADPH 生成，進而促進大腸直腸癌發生。此 SIRT3-SHMT2 軸是把 NAD+ 狀態轉換為一碳代謝輸出的直接途徑，將 sirtuin 活性與腫瘤代謝表型相連。"
+    },
+    "confidence": 0.9,
+    "source_document": "One-Carbon Metabolism.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "dcaf9af37bba",
+    "subject": "One-Carbon Metabolism",
+    "predicate": "supports",
+    "object": "Cancer",
+    "context": {
+      "en-US": "One-Carbon Metabolism is a hallmark of cancer metabolic reprogramming: enzymes such as SHMT2, MTHFD2, MTHFD1L and cytosolic MTHFD1/MTHFD2 are frequently upregulated in tumours, where they fuel de novo purine synthesis, thymidylate synthesis, Methionine regeneration and NADPH. Because this network is reprogrammed in Cancer, it is a prime chemotherapeutic target.",
+      "zh-TW": "一碳代謝（One-Carbon Metabolism）是癌症代謝重編程的特徵之一：SHMT2、MTHFD2、MTHFD1L 及細胞質 MTHFD1/MTHFD2 等酵素在腫瘤中經常上調，為新生嘌呤合成、胸腺嘧啶核苷酸合成、蛋胺酸（Methionine）再生成與 NADPH 提供燃料。由於此代謝網在癌症中被重編程，它成為化學治療的首要標的。"
+    },
+    "confidence": 0.9,
+    "source_document": "One-Carbon Metabolism.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "ce416ff225bf",
+    "subject": "5-Fluorouracil",
+    "predicate": "targets",
+    "object": "One-Carbon Metabolism",
+    "context": {
+      "en-US": "Anti-folate chemotherapeutics and nucleotide-synthesis inhibitors such as 5-Fluorouracil and pemetrexed target One-Carbon Metabolism, and SHMT2-driven mitochondrial one-carbon flux contributes to 5-Fluorouracil resistance in colorectal cancer by replenishing nucleotide pools and supporting DNA damage repair. Modulating one-carbon flux therefore resensitizes tumours to antifolate drugs.",
+      "zh-TW": "抗葉酸類化學治療與核苷酸合成抑制劑，如 5-Fluorouracil 與 pemetrexed，皆以一碳代謝（One-Carbon Metabolism）為標的；而在結直腸癌中，SHMT2 驅動的粒線體一碳通量會藉由補充核苷酸庫與支援 DNA 損傷修復而促成 5-Fluorouracil 抗藥性。調節一碳通量因此可使腫瘤重新對抗葉酸類藥物敏感。"
+    },
+    "confidence": 0.85,
+    "source_document": "One-Carbon Metabolism.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "91a7be9f9364",
+    "subject": "One-Carbon Metabolism",
+    "predicate": "regenerates",
+    "object": "Methionine",
+    "context": {
+      "en-US": "One-Carbon Metabolism uses tetrahydrofolate as the central one-carbon carrier to regenerate Methionine from Homocysteine, feeding the SAM-dependent methylation of DNA, RNA, histones and lipids. Because SAM supply depends on this cycle, one-carbon flux sets the methylation capacity of the epigenome and the SAM/SAH ratio, and the Homocysteine it produces links the network to cardiovascular and cognitive risk when clearance is impaired.",
+      "zh-TW": "一碳代謝（One-Carbon Metabolism）以四氫葉酸作為一碳載體，將同型半胱氨酸（Homocysteine）再生成為蛋胺酸（MetMethionine），供應 DNA、RNA、組蛋白與脂質的 SAM 依賴性甲基化。由於 SAM 供應取決於此循環，一碳通量決定了表觀基因體的甲基化能力與 SAM/SAH 比值，而其產生的 Homocysteine 在清除受損時也將此網路與心血管及認知風險相連。"
+    },
+    "confidence": 0.85,
+    "source_document": "One-Carbon Metabolism.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "66dae35b3327",
+    "subject": "One-Carbon Metabolism",
+    "predicate": "requires",
+    "object": "Folate",
+    "context": {
+      "en-US": "One-Carbon Metabolism requires Folate, whose reduced form tetrahydrofolate is the cofactor that carries single-carbon units (formyl, methenyl, methylene, methyl, formimino) between metabolites. Because folate deficiency truncates the pathway, the network is a direct interface between diet, nucleotide biosynthesis, epigenetic methylation and redox balance, and folate deficiency is linked to neural tube defects.",
+      "zh-TW": "一碳代謝（One-Carbon Metabolism）需要 Folate（葉酸），其還原型四氫葉酸是攜帶單碳單位（甲醯、甲烯基、亞甲基、甲基、甲醯胺基）於代謝物之間轉移的輔因子。由於葉酸缺乏會使此途徑受阻，此代謝網是飲食、核苷酸生合成、表觀遺傳甲基化與氧化還原平衡之間的直接介面，而葉酸缺乏與神經管缺陷相關。"
+    },
+    "confidence": 0.85,
+    "source_document": "One-Carbon Metabolism.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "1d91078d8aef",
+    "subject": "Opioids",
+    "predicate": "increases_susceptibility_to",
+    "object": "Serotonin Syndrome",
+    "context": {
+      "en-US": "Although most opioids act predominantly through μ, κ and δ opioid receptors, several — tramadol, meperidine, methadone and dextromethorphan — inhibit serotonin reuptake or release, raising synaptic Serotonin. When combined with SSRIs or Monoamine Oxidase Inhibitors such as Methylene blue, this serotonergic activity can precipitate Serotonin Syndrome, a potentially life-threatening toxidrome of hyperthermia, autonomic instability and neuromuscular hyperactivity.",
+      "zh-TW": "雖然多數類鴉片藥物主要透過 μ、κ、δ 類鴉片受體作用，但其中數種——tramadol、meperidine、methadone 與 dextromethorphan——會抑制血清素（Serotonin）的再攝取或釋放，提高突觸內 Serotonin 濃度。若與 SSRI 或諸如 Methylene blue 的單胺氧化酶抑制劑（Monoamine Oxidase Inhibitor）併用，這種血清素活性可能誘發血清素症候群（Serotonin Syndrome），一種以高體溫、自主神經不穩定與神經肌肉過度興奮構成、可致命的毒理症候群。"
+    },
+    "confidence": 0.9,
+    "source_document": "Opioids.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "1a5fb8ded736",
+    "subject": "Opioids",
+    "predicate": "interacts_with",
+    "object": "Selective Serotonin Reuptake Inhibitors",
+    "context": {
+      "en-US": "The serotonergic members of the Opioids class share a pharmacodynamic risk with Selective Serotonin Reuptake Inhibitors and other serotonotonergic drugs: additive serotonergic load produces hyperthermia, agitation and autonomic instability. Because the class counteracts that risk with well-known adverse effects of its own — respiratory depression, constipation, tolerance, dependence and opioid-use disorder — analgesic benefit must be weighed against interaction risk.",
+      "zh-TW": "類鴉片藥物（Opioids）類別中具血清素活性的成員，與選擇性血清素再攝取抑制劑（Selective Serotonin Reuptake Inhibitors）及其他血清素活性藥物共享藥效學風險：血清素負荷相加會造成高體溫、躁動與自主神經不穩定。由於該類別自身的著名不良反應——呼吸抑制、便秘、耐受、依賴與類鴉片藥物使用疾患——已構成負擔，因此必須在鎮痛效益與交互作用風險之間權衡。"
+    },
+    "confidence": 0.8,
+    "source_document": "Opioids.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "2c4a9222289f",
+    "subject": "Ornithine Aminotransferase (OAT) Deficiency",
+    "predicate": "causes",
+    "object": "Gyrate Atrophy",
+    "context": {
+      "en-US": "Ornithine Aminotransferase (OAT) Deficiency causes progressive gyrate atrophy of the choroid and retina, with circular atrophic lesions appearing in the peripheral retina from childhood. Because the underlying defect is ornithine catabolism failure, visual fields progressively constrict and night vision is lost, often leading to legal blindness by age 40–50.",
+      "zh-TW": "鳥胺酸轉氨酶缺乏症（Ornithine Aminotransferase (OAT) Deficiency）會造成脈絡膜與視網膜的進展性牛狀萎縮（Gyrate Atrophy），自兒童期起在周邊視網膜出現環狀萎縮病灶。由於其根本缺陷是鳥胺酸分解代謝受阻，視野會逐步縮小並喪失夜視力，常在 40–50 歲前達到法定失明。"
+    },
+    "confidence": 0.9,
+    "source_document": "Ornithine Aminotransferase (OAT) Deficiency.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "a92f0689ec41",
+    "subject": "Ornithine Aminotransferase (OAT) Deficiency",
+    "predicate": "inhibits",
+    "object": "Arginine Glycine Amidinotransferase",
+    "context": {
+      "en-US": "In Ornithine Aminotransferase (OAT) Deficiency, loss of ornithine catabolism causes massive ornithine accumulation (plasma 10–20× normal), and the elevated ornithine inhibits Arginine Glycine Amidinotransferase, the first enzyme in endogenous Creatine biosynthesis. This product-inhibition mechanism explains the secondary creatine depletion that distinguishes OAT deficiency from isolated ornithine excess.",
+      "zh-TW": "在鳥胺酸轉氨酶缺乏症（Ornithine Aminotransferase (OAT) Deficiency）中，鳥胺酸分解代謝喪失造成鳥胺酸大量累積（血漿為正常的 10–20 倍），升高的鳥胺酸會抑制精胺酸甘胺酸脒基轉移酶（Arginine Glycine Amidinotransferase），即內源性肌酸（Creatine）生合成的第一個酵素。這種產物抑制機制解釋了使 OAT 缺乏症有別於單純鳥胺酸過量的次發性肌酸耗乏。"
+    },
+    "confidence": 0.9,
+    "source_document": "Ornithine Aminotransferase (OAT) Deficiency.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "71160bd6c180",
+    "subject": "Arginine Glycine Amidinotransferase",
+    "predicate": "produces",
+    "object": "Creatine",
+    "context": {
+      "en-US": "Arginine Glycine Amidinotransferase (AGAT) is the first enzyme in endogenous Creatine biosynthesis, transferring an amidino group from arginine to glycine to form guanidinoacetate. Because AGAT is inhibited by ornithine in Ornithine Aminotransferase (OAT) Deficiency, creatine falls secondarily — and restoring muscle creatine with supplementation is what improves strength in that disease.",
+      "zh-TW": "精胺酸甘胺酸脒基轉移酶（Arginine Glycine Amidinotransferase, AGAT）是內源性肌酸（Creatine）生合成的第一個酵素，將精胺酸的脒基轉移給甘胺酸以形成胍乙酸。在鳥胺酸轉氨酶缺乏症（Ornithine Aminotransferase (OAT) Deficiency）中 AGAT 受鳥胺酸抑制，肌酸因而次發性下降——而以補充劑恢復肌肉肌酸，正是該病中改善肌力的方式。"
+    },
+    "confidence": 0.85,
+    "source_document": "Ornithine Aminotransferase (OAT) Deficiency.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "06d49d543d6f",
+    "subject": "Ornithine Aminotransferase (OAT) Deficiency",
+    "predicate": "causes",
+    "object": "Muscle Atrophy",
+    "context": {
+      "en-US": "Secondary Creatine depletion in Ornithine Aminotransferase (OAT) Deficiency contributes to the muscle atrophy, weakness and tubular aggregate myopathy seen in affected patients. Because Creatine monohydrate supplementation (0.1–0.3 g/kg/day) restores muscle creatine levels and improves strength and function, the Creatine pool rather than the primary enzymatic defect is the actionable node in this disease.",
+      "zh-TW": "在鳥胺酸轉氨酶缺乏症（Ornithine Aminotransferase (OAT) Deficiency）中，次發性肌酸（Creatine）耗乏會促成受患者的肌肉萎縮（Muscle Atrophy）、無力與小管聚集性肌病。由於肌酸單水合物補充（0.1–0.3 g/kg/天）可恢復肌肉肌酸水平並改善肌力與功能，因此在此病中可介入的節點是肌酸儲備，而非原發的酵素缺陷。"
+    },
+    "confidence": 0.85,
+    "source_document": "Ornithine Aminotransferase (OAT) Deficiency.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "151be68206d9",
+    "subject": "Vitamin B6",
+    "predicate": "treats",
+    "object": "Ornithine Aminotransferase (OAT) Deficiency",
+    "context": {
+      "en-US": "Ornithine aminotransferase is a pyridoxal phosphate-dependent mitochondrial enzyme, making Ornithine Aminotransferase (OAT) Deficiency one of the vitamin-responsive inborn errors: some OAT mutations respond to pharmacological doses of Vitamin B6. Along with creatine supplementation, arginine restriction and low-protein diet, this cofactor-based therapy is a mainstay of management.",
+      "zh-TW": "鳥胺酸轉氨酶是依賴磷酸吡哆醛的粒線體酵素，因此鳥胺酸轉氨酶缺乏症（Ornithine Aminotransferase (OAT) Deficiency）屬於對維生素有反應的先天性代謝病之一：部分 OAT 突變可對藥理劑量的維生素 B6（Vitamin B6）產生反應。連同肌酸補充、精胺酸限制與低蛋白飲食，這種輔因子療法是管理的 mainstay。"
+    },
+    "confidence": 0.8,
+    "source_document": "Ornithine Aminotransferase (OAT) Deficiency.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "c9dd416d8570",
+    "subject": "SIRT1",
+    "predicate": "protects_against",
+    "object": "Osteoarthritis",
+    "context": {
+      "en-US": "SIRT1 is the best-studied sirtuin in Osteoarthritis: it reduces chondrocyte apoptosis and extracellular matrix degradation via Wnt/β-catenin, inhibits EGFR ubiquitination to improve cartilage oxidative-stress resistance, and inhibits chondrocyte senescence. The circ0001103/miR-375 axis regulates SIRT1 to attenuate IL-1β-induced apoptosis and matrix degradation, and resveratrol activation reverses homocysteine-induced changes through the SIRT1/PGC-1α/PPAR-γ cascade.",
+      "zh-TW": "SIRT1 是骨關節炎（Osteoarthritis）中研究最透澈的 sirtuin：它透過 Wnt/β-catenin 減少軟骨細胞凋亡與細胞外基質降解、抑制 EGFR 泛素化以提升軟骨的抗氧化壓力能力，並抑制軟骨細胞衰老。circ0001103/miR-375 軸可調控 SIRT1，以減輕 IL-1β 誘發的凋亡與基質降解；而 resveratrol 的活化則透過 SIRT1/PGC-1α/PPAR-γ 級聯逆轉高同型半胱氨酸造成的變化。"
+    },
+    "confidence": 0.9,
+    "source_document": "Osteoarthritis.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "cca4d71faa2d",
+    "subject": "SIRT2",
+    "predicate": "protects_against",
+    "object": "Osteoarthritis",
+    "context": {
+      "en-US": "SIRT2 is protective in Osteoarthritis because it inhibits extracellular matrix degradation by preventing acetylation of the p65 subunit of NF-κB. Since NF-κB-driven catabolic signalling is a core driver of cartilage matrix loss, SIRT2-mediated deacetylation of p65 reduces the catabolic arm without requiring the broader effects of SIRT1 activation.",
+      "zh-TW": "SIRT2 在骨關節炎（Osteoarthritis）中具有保護作用，因為它藉由阻止 NF-κB 次單元 p65 的乙醯化來抑制細胞外基質降解。由於 NF-κB 驅動的分解代謝訊號是軟骨基質流失的核心驅動因子，SIRT2 對 p65 的去乙醯化可在不需 SIRT1 廣泛效應的情況下降低分解代謝支路。"
+    },
+    "confidence": 0.85,
+    "source_document": "Osteoarthritis.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "9d9680193cf7",
+    "subject": "SIRT6",
+    "predicate": "inhibits",
+    "object": "Cellular Senescence",
+    "context": {
+      "en-US": "SIRT6 inhibits chondrocyte Cellular Senescence by negatively regulating NF-κB-mediated inflammatory responses, and SIRT6 overexpression suppressed NF-κB-mediated inflammation in Osteoarthritis development. Since senescence-associated NF-κB activation drives both matrix degradation and SASP release in cartilage, SIRT6 activation is a candidate disease-modifying strategy in Osteoarthritis.",
+      "zh-TW": "SIRT6 藉由負向調節 NF-κB 介導的發炎反應，抑制軟骨細胞的細胞衰老（Cellular Senescence）；SIRT6 過量表現可抑制骨關節炎（Osteoarthritis）發展中的 NF-κB 介導發炎。由於衰老相關的 NF-κB 活化同時驅動軟骨基質降解與 SASP 釋放，SIRT6 活化因此是骨關節炎的候選疾病修正策略。"
+    },
+    "confidence": 0.85,
+    "source_document": "Osteoarthritis.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "40e7221a043e",
+    "subject": "Osteoarthritis",
+    "predicate": "is_driven_by",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "Oxidative Stress is a metabolic driver of cartilage damage in Osteoarthritis, and SIRT1 improves cartilage oxidative-stress resistance by inhibiting EGFR ubiquitination. Because SIRT1 also reduces apoptosis and matrix degradation, sirtuin activation (especially SIRT1 and SIRT6) is a candidate disease-modifying strategy to limit chondrocyte apoptosis, matrix degradation and senescence in Osteoarthritis.",
+      "zh-TW": "氧化壓力（Oxidative Stress）是骨關節炎（Osteoarthritis）中軟骨損傷的代謝驅動因子，而 SIRT1 藉由抑制 EGFR 泛素化提升軟骨的抗氧化壓力能力。由於 SIRT1 同時減少凋亡與基質降解，sirtuin 活化（尤其是 SIRT1 與 SIRT6）成為限制骨關節炎中軟骨細胞凋亡、基質降解與衰老的候選疾病修正策略。"
+    },
+    "confidence": 0.8,
+    "source_document": "Osteoarthritis.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "6c85682aca49",
+    "subject": "SIRT1",
+    "predicate": "protects_against",
+    "object": "Osteoporosis",
+    "context": {
+      "en-US": "SIRT1 protects against Osteoporosis: knockout mice exhibit a low-bone-mass phenotype, while overexpression increases osteoblast osteogenesis via FoxO3a deacetylation and oxidative-stress inhibition. SIRT1 also deacetylates sclerostin, which activates Wnt/β-catenin and increases bone anabolism, and resveratrol-mediated SIRT1 activation restores alkaline phosphatase and osteocalcin through NF-κB inhibition.",
+      "zh-TW": "SIRT1 可防護骨質疏鬆症（Osteoporosis）：基因敲除小鼠呈現低骨量表型，而過量表現則透過 FoxO3a 去乙醯化與抑制氧化壓力來增加成骨細胞的骨生成。SIRT1 也會去乙醯化 sclerostin，進而活化 Wnt/β-catenin 並增加骨合成代謝；以 resveratrol 活化 SIRT1 則可藉由抑制 NF-κB 恢復鹼性磷酸酶與骨鈣素。"
+    },
+    "confidence": 0.9,
+    "source_document": "Osteoporosis.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "cb62bb3963a5",
+    "subject": "SIRT6",
+    "predicate": "protects_against",
+    "object": "Osteoporosis",
+    "context": {
+      "en-US": "SIRT6 inhibits age-related bone loss by stabilizing estrogen receptor alpha in preosteoblastic cells, countering the oestrogen-deficiency component of Osteoporosis pathogenesis. Because Osteoporosis arises from excessive osteoclastic resorption relative to formation, SIRT6-mediated preservation of oestrogen receptor signalling shifts that balance toward formation and makes SIRT6 a candidate anti-bone-loss strategy.",
+      "zh-TW": "SIRT6 藉由在前成骨細胞中穩定雌激素受體 alpha，抑制與年齡相關的骨質流失，對抗骨質疏鬆症（Osteoporosis）致病機轉中的雌激素缺乏成分。由於骨質疏鬆症源自骨吸收相對骨生成過多，SIRT6 介導的雌激素受體訊號保存會把此平衡推向骨生成，使 SIRT6 成為候選的抗骨流失策略。"
+    },
+    "confidence": 0.85,
+    "source_document": "Osteoporosis.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
+  },
+  {
+    "id": "75c916841e33",
+    "subject": "Osteoporosis",
+    "predicate": "is_driven_by",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "Osteoporosis results from excessive bone resorption relative to formation, driven by aging, oestrogen deficiency, Oxidative Stress and chronic inflammation. Impaired osteoblast osteogenesis and increased osteoclast activity reduce bone anabolism and density, and because SIRT1 overexpression counters this via FoxO3a deacetylation, oxidative-stress handling is a direct node in the disease mechanism.",
+      "zh-TW": "骨質疏鬆症（Osteoporosis）源自骨吸收相對骨生成過多，其驅動因子包括老化、雌激素缺乏、氧化壓力（Oxidative Stress）與慢性發炎。成骨細胞骨生成受損與破骨細胞活性增加會降低骨合成代謝與骨密度；而由於 SIRT1 過量表現可經由 FoxO3a 去乙醯化對抗此現象，氧化壓力的處理即為此病機轉中的直接節點。"
+    },
+    "confidence": 0.8,
+    "source_document": "Osteoporosis.md",
+    "created": "2026-09-29T17:36:49Z",
+    "updated": "2026-09-29T17:36:49Z"
   }
 ]
