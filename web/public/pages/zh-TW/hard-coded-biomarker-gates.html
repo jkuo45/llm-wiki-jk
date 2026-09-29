@@ -207,6 +207,16 @@
   .refs-list li { margin-bottom: 8px; }
   .refs-list a { word-break: break-word; }
 
+  /* ---- 未測量關卡登錄表：讓「具後果比例」欄可以換行 ----
+     該儲存格包含一個兩位數的比例加上一句註記，而佈景主題的 .num 規則設了
+     white-space:nowrap — 對單純的數字是正確的，但在此會阻止註記換行，使整欄
+     膨脹到那句話的寬度，擠壓其餘四欄。改為讓儲存格可換行，並只對比例本身
+     重新套用 nowrap，使「19%–22%」不會斷行，註記則取得可讀的行寬。 */
+  #gapTable td.num { white-space: normal; max-width: 150px; }
+  #gapTable td.num .fig { white-space: nowrap; }
+  #gapTable td.num .tbl-note { display: block; margin-top: 4px; }
+  #gapTable th:nth-child(3) { text-align: right; }
+
   /* ---- 解剖學對照表：anatomy 欄加寬 + 凍結第一欄 ----
      佈景主題已將 .table-wrap th/td:first-child 設為 sticky，但佈景主題的
      `table { width: 100% }` 會把每一欄都壓進容器，因此這張六欄的表格從未溢出，
@@ -2015,10 +2025,12 @@ function buildGapTable() {
     if (worstShare < 0) { worst = "unknown"; }
     return "<tr><td>" + r.t.name + '<br><span class="tbl-note">' + r.t.dom + "</span></td>" +
       "<td>" + g.name + '<br><span class="tbl-note">' + g.code + "</span></td>" +
-      '<td class="num">' + (r.w.observed
-        ? 'n/a<br><span class="tbl-note">由個人直接觀察，非自族群抽樣</span>'
-        : Math.round(r.w.frac * 100) + "%" + (r.w.bound ? "–" + Math.round(r.w.lo * 100) + "%" : "") +
-          (r.w.bound ? '<br><span class="tbl-note">僅為區間 — 此 gate 的類別彼此重疊</span>' : "")) + "</td>" +
+      '<td class="num"><span class="fig">' + (r.w.observed
+        ? "n/a"
+        : Math.round(r.w.frac * 100) + "%" + (r.w.bound ? "–" + Math.round(r.w.lo * 100) + "%" : "")) + "</span>" +
+        (r.w.observed
+          ? '<span class="tbl-note">由個人直接觀察，非自族群抽樣</span>'
+          : r.w.bound ? '<span class="tbl-note">僅為區間 — 此 gate 的類別彼此重疊</span>' : "") + "</td>" +
       '<td><span class="sev sev-' + worst + '">' + SEV[worst].l + '</span><br><span class="tbl-note">' +
       (worst === "unknown" ? "例行臨床尚無經驗證的檢測方式" : "最大單一類別：" + Math.round(worstShare * 100) + "%") +
       "</span></td>" +

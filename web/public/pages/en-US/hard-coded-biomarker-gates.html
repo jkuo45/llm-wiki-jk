@@ -208,6 +208,20 @@
   .refs-list li { margin-bottom: 8px; }
   .refs-list a { word-break: break-word; }
 
+  /* ---- register of unmeasured gates: let the Consequential cell wrap ----
+     The Consequential cell holds a two-character figure plus a sentence of
+     caveat, and the theme's .num rule sets white-space:nowrap — correct for a
+     bare number, but here it stops the caveat wrapping and inflates the whole
+     column to the width of that sentence, squeezing the other four. Unwrap the
+     cell and re-apply nowrap to the figure alone, so "19%–22%" cannot break
+     across lines while the caveat takes a readable measure. max-width is a
+     hint under table-layout:auto, but the caveat now has a break opportunity
+     so the browser has a reason to honour it. */
+  #gapTable td.num { white-space: normal; max-width: 150px; }
+  #gapTable td.num .fig { white-space: nowrap; }
+  #gapTable td.num .tbl-note { display: block; margin-top: 4px; }
+  #gapTable th:nth-child(3) { text-align: right; }
+
   /* ---- extended panel: anatomy column + frozen first column ----
      The theme already makes .table-wrap th/td:first-child sticky, but the
      theme's `table { width: 100% }` shrinks every column to fit, so this six
@@ -2127,10 +2141,12 @@ function buildGapTable() {
     if (worstShare < 0) { worst = "unknown"; }
     return "<tr><td>" + r.t.name + '<br><span class="tbl-note">' + r.t.dom + "</span></td>" +
       "<td>" + g.name + '<br><span class="tbl-note">' + g.code + "</span></td>" +
-      '<td class="num">' + (r.w.observed
-        ? 'n/a<br><span class="tbl-note">observed per individual, not sampled from a population</span>'
-        : Math.round(r.w.frac * 100) + "%" + (r.w.bound ? "–" + Math.round(r.w.lo * 100) + "%" : "") +
-          (r.w.bound ? '<br><span class="tbl-note">range only — this gate\'s categories overlap</span>' : "")) + "</td>" +
+      '<td class="num"><span class="fig">' + (r.w.observed
+        ? "n/a"
+        : Math.round(r.w.frac * 100) + "%" + (r.w.bound ? "–" + Math.round(r.w.lo * 100) + "%" : "")) + "</span>" +
+        (r.w.observed
+          ? '<span class="tbl-note">observed per individual, not sampled from a population</span>'
+          : r.w.bound ? '<span class="tbl-note">range only — this gate\'s categories overlap</span>' : "") + "</td>" +
       '<td><span class="sev sev-' + worst + '">' + SEV[worst].l + '</span><br><span class="tbl-note">' +
       (worst === "unknown" ? "no validated assay available in routine practice" : "largest single category: " + Math.round(worstShare * 100) + "%") +
       "</span></td>" +
