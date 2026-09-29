@@ -43,6 +43,11 @@ Human-parasitic species are organised largely by their transmission route, which
 
 Filarial development requires molts inside the vector, and the filarial worms are obligate endosymbionts of [[Wolbachia]]. So the transmission chain has three obligatory links — human, vector, and bacterium — and each is a drug target in turn. The other parasitic nematode with an arthropod requirement is *Thelazia* (a filarial of the eye, no Wolbachia dependence reported, transmitted by *Musca* and *Sicus*).
 
+## Documents
+
+- [[Ascaris]], [[Caenorhabditis elegans]], [[Onchocerca volvulus]], [[Trichuris]]
+  - The vault's four existing nematode notes, spanning the phylum's whole range: one free-living model organism, two soil-transmitted gastrointestinal helminths, and one vector-transmitted filarial.
+
 ## Connections
 
 - [[Caenorhabditis elegans]] — The type species and the foundational model organism; established nematodes as tractable experimental systems and made the phylum a reference for the phylum.

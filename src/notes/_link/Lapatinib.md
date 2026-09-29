@@ -136,5 +136,5 @@ Secondary resistance is well characterised:
 ## Linking Summary
 
 - New links added: [[EGFR]], [[Gefitinib]], [[Erlotinib]], [[Receptor Tyrosine Kinase]], [[RAS]], [[RAF]], [[ERK]], [[AKT]], [[mTOR]], [[ErbB]], [[Insulin Receptor]], [[Insulin Receptor Substrate-1]], [[Cytochrome P450]], [[Capecitabine]], [[Letrozole]], [[Trastuzumab]], [[Pertuzumab]], [[Semaphorin 3c]], [[PIK3CA]], [[Lung Cancer]], [[Breast Cancer]]
-- Suggested notes to create: [[Lapatinib Resistance]], [[Letrozole]], [[Trastuzumab Deruxtecan]], [[PIK3CA]], [[Semaphorin 3c]], [[ERBB2]], [[Molecule-Specific 4-Anilinoquinazoline]]
+- Suggested notes to create: [[Lapatinib Resistance]], [[Letrozole]], [[Trastuzumab Deruxtecan]], [[PIK3CA]], [[Semaphorin 3c]], [[ERBB2]], [[Molecule-Specific 4-Anilinoquinazoline]], [[CRMP1]], [[Tyrosine Kinase Inhibitor]]
 - Strong connections to strengthen: [[Lapatinib]] ↔ [[HER2]], [[Lapatinib]] ↔ [[Cardiotoxicity]], [[Lapatinib]] ↔ [[MET]]

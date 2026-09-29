@@ -193,5 +193,5 @@ are active areas of work.
 ## Linking Summary
 
 - New links added: [[Lipids]], [[siRNA]], [[Nanoparticles]], [[Cholesterol]], [[Phospholipid]], [[Antisense Oligonucleotide]], [[Redox Vaccination]], [[Shingles Vaccine]], [[Fibrosis]], [[Toll-like Receptor]], [[Doxorubicin]], [[Liposomes]]
-- Suggested notes to create: [[Ionizable Lipid]], [[SM-102]], [[ALC-0315]], [[MC3]], [[DLin-MC3-DMA]], [[Endosomal Escape]], [[Anti-PEG Antibody]], [[Patisiran]], [[Givosiran]], [[DSPC]], [[Pegylated Liposomes]], [[Solid Lipid Nanoparticles]], [[Soluble Interferon]], [[mRNA Vaccine]], [[Cationic Lipid]], [[DOTAP]], [[Liposomal Doxorubicin]], [[LNPs]]
+- Suggested notes to create: [[Ionizable Lipid]], [[SM-102]], [[ALC-0315]], [[MC3]], [[DLin-MC3-DMA]], [[Endosomal Escape]], [[Anti-PEG Antibody]], [[Patisiran]], [[Givosiran]], [[DSPC]], [[Pegylated Liposomes]], [[Solid Lipid Nanoparticles]], [[Soluble Interferon]], [[mRNA Vaccine]], [[Cationic Lipid]], [[DOTAP]], [[Liposomal Doxorubicin]], [[LNPs]], [[Lipoprotein Receptors]]
 - Strong connections to strengthen: [[Lipid Nanoparticles]] ↔ [[siRNA]], [[Lipid Nanoparticles]] ↔ [[Nanoparticles]], [[Lipid Nanoparticles]] ↔ [[Antagomirs]]

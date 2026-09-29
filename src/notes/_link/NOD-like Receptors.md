@@ -52,6 +52,11 @@ Drugs acting on NLRs are in and around the clinic. IL-1 blockade (anakinra, cana
 > [!warning] Caveat
 > NLR biology is genuinely complex and several popular statements are over-simplifications: NLRP3 does not have a single identified ligand; not all inflammasome-forming NLRs are pro-inflammatory; and the boundary between "NLR" and "NLR gene" behaviour varies (e.g. [[NLRP7]] and NLRP12 have been implicated in divergent directions depending on context). Where the vault's notes assert a single trigger for NLRP3, treat that as one model among several.
 
+## Documents
+
+- [[Pattern Recognition Receptors]]
+  - The parent-category note; NLRs are the cytosolic branch of the pattern recognition receptor system, and the vault's PRR note is the natural place to see them framed alongside TLRs and RIG-I-like receptors.
+
 ## Connections
 
 - [[Pattern Recognition Receptors]] — The parent category; NLRs are the cytosolic PRR branch, complementing membrane TLRs and cytosolic RIG-I/MDA5.

@@ -67,7 +67,7 @@ the organism's environmental persistence is a persistent public-health problem.
 
 ### Other effectors relevant to host cell biology
 
-- **[[Mitochondria]]** — several effectors (MavN, [[LEaG]]) target mitochchondrial
+- **[[Mitochondria]]** — several effectors (MavN, Lpg1329/LEaG) target mitochondrial
   dynamics and induce the mitochondrial unfolded protein response; the mitophagy
   machinery of the host is likewise recruited.
 - **[[Leukotriene]] and host metabolism** — effectors and pore-forming toxins
@@ -151,6 +151,6 @@ bactericidal and the organism is cleared by host immunity.
 
 ## Linking Summary
 
-- New links added: [[Diabetes Mellitus]], [[Cystic Fibrosis]], [[Phagosome]], [[Mitochondria]], [[Leukotriene]], [[Interferon]], [[Toll-like Receptor]], [[Innate Immunity]], [[RIG-I]], [[MDA5]], [[Reactive Oxygen Species]], [[PtdIns4P]], [[Biofilm]], [[Leishmaniasis]], [[DotB]], [[Lpg113]]
-- Suggested notes to create: [[Legionella pneumophila]], [[Legionnaires Disease]], [[Pontiac Fever]], [[Type IV Secretion System]], [[Legionella-Containing Vacuole]], [[Dot/Icm T4SS]], [[Effector Protein]], [[Urinary Antigen Test]], [[PtdIns4P]], [[Biofilm]], [[Cystic Fibrosis]]
+- New links added: [[Diabetes Mellitus]], [[Cystic Fibrosis]], [[Phagosome]], [[Mitochondria]], [[Leukotriene]], [[Interferon]], [[Toll-like Receptor]], [[Innate Immunity]], [[RIG-I]], [[MDA5]], [[Reactive Oxygen Species]], [[PtdIns4P]], [[Biofilm]], [[Leishmaniasis]], [[DotB]], [[Lpg113]], [[Lpg1329]], [[LEaG]]
+- Suggested notes to create: [[Legionella pneumophila]], [[Legionnaires Disease]], [[Pontiac Fever]], [[Type IV Secretion System]], [[Legionella-Containing Vacuole]], [[Dot/Icm T4SS]], [[Effector Protein]], [[Urinary Antigen Test]], [[PtdIns4P]], [[Biofilm]], [[Cystic Fibrosis]], [[Lpg250]], [[Lpg1329]]
 - Strong connections to strengthen: [[Legionella]] ↔ [[Phagosome]], [[Legionella]] ↔ [[PtdIns3P]], [[Legionella]] ↔ [[Macrophage]]

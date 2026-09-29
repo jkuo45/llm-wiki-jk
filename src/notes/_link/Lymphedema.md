@@ -154,5 +154,5 @@ inflammatory episode.
 ## Linking Summary
 
 - New links added: [[Elephantiasis]], [[VEGFR3]], [[FOXC2]], [[PIK3CA]], [[Proteus Syndrome]], [[CLOVES]], [[Cellulitis]], [[Toll-like Receptor]], [[Verrucous]], [[Pitting]], [[VEGF-C]], [[Lymphatic Vessel Development]], [[Podoconiosis]], [[Obesity]], [[Cancer]], [[Leptin Signaling]]
-- Suggested notes to create: [[Milroy Disease]], [[Meige Disease]], [[Hennekam Lymphangiectasia-Lymphedema Syndrome]], [[Acute Filarial Lymphangitis]], [[Peau D'orange]], [[Manual Lymph Drainage]], [[Compression Therapy]], [[Cellulitis]], [[Podoconiosis]], [[Lymphangiogenesis]], [[Tissue Fluid]], [[FOXC2]], [[PIK3CA]], [[Proteus Syndrome]], [[CLOVES]] — removed as already existing: Elephantiasis, VEGFR3, Wuchereria bancrofti
+- Suggested notes to create: [[Milroy Disease]], [[Meige Disease]], [[Hennekam Lymphangiectasia-Lymphedema Syndrome]], [[Acute Filarial Lymphangitis]], [[Peau D'orange]], [[Manual Lymph Drainage]], [[Compression Therapy]], [[Cellulitis]], [[Podoconiosis]], [[Lymphangiogenesis]], [[Tissue Fluid]], [[FOXC2]], [[PIK3CA]], [[Proteus Syndrome]], [[CLOVES]] — removed as already existing: VEGFR3
 - Strong connections to strengthen: [[Lymphedema]] ↔ [[Lymphatic Filariasis]], [[Lymphedema]] ↔ [[Fibrosis]], [[Lymphedema]] ↔ [[Podoconiosis]]

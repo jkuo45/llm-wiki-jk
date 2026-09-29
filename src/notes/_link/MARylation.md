@@ -41,7 +41,7 @@ Other mono-ADP-ribosyltransferases act outside the DDR — the
 **ARTD/PARP family** members PARP7, PARP10, PARP12, PARP13 (ARTD13/CCLE)
 and PARP14, and the bacterial **ARTs (ADP-ribosyltransferases)** such as
 cholera toxin and diphtheria toxin, which modify [[G-protein]]s, [[EF2]] or
-[[Poly-ADP-ribose Polymerase|POLQ]]-independent targets. PARP3 also
+other targets, including [[POLQ|polθ]]-independent substrates. PARP3 also
 mono-ADP-ribosylates histones at sites distinct from the break.
 
 ## Why it matters beyond repair
@@ -169,5 +169,5 @@ Other established and emerging roles:
 ## Linking Summary
 
 - New links added: [[PARP1]], [[DNA Repair]], [[PARG]], [[PARP2]], [[NAD+]], [[Sirtuins]], [[Ubiquitin]], [[Apoptosis]], [[Necrosis]], [[Chromatin]], [[Innate Immunity]], [[Homologous Recombination]], [[BRCA1]], [[Histone]], [[NF-kB]], [[STAT3]], [[Nicotinamide Riboside]], [[AMPK]], [[Olaparib]], [[Pancreatic Cancer]], [[HRD]]
-- Suggested notes to create: [[Macrodomain]], [[PARP7]], [[PARP10]], [[PARP12]], [[PARP14]], [[PARP Inhibitor]], [[Niraparib]], [[Rucaparib]], [[Talazoparib]], [[Nsp3]], [[PARP1-Dependent Cell Death]], [[Homologous Recombination Deficiency]], [[NAD+ Salvage]], [[Adenosine Diphosphate Ribose]], [[G-protein]], [[NF-kB]] — removed as already existing: ADP-ribose, PARG, PARP2
+- Suggested notes to create: [[Macrodomain]], [[PARP7]], [[PARP10]], [[PARP12]], [[PARP14]], [[PARP Inhibitor]], [[Niraparib]], [[Rucaparib]], [[Talazoparib]], [[Nsp3]], [[PARP1-Dependent Cell Death]], [[Homologous Recombination Deficiency]], [[NAD+ Salvage]], [[Adenosine Diphosphate Ribose]], [[G-protein]], [[NF-kB]], [[EF2]], [[POLQ]] — removed as already existing: PARG, PARP2, ovarian cancer
 - Strong connections to strengthen: [[MARylation]] ↔ [[ADP-ribosylation]], [[MARylation]] ↔ [[Viral Replication]], [[MARylation]] ↔ [[NAD+]]
