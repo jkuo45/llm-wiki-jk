@@ -78664,5 +78664,3379 @@
     "source_document": "Polyphenols.md",
     "created": "2026-09-29T17:40:51Z",
     "updated": "2026-09-29T17:40:51Z"
+  },
+  {
+    "id": "f1a395a76f8e",
+    "subject": "PEX13",
+    "predicate": "interacts_with",
+    "object": "PEX14",
+    "context": {
+      "en-US": "PEX13 and PEX14 form a constitutive 1:1 heteromeric core docking complex in the peroxisomal membrane; the interaction stabilizes both proteins, and loss of one typically destabilizes the other.",
+      "zh-TW": "PEX13 與 PEX14 在過氧化體膜上組成構成性的 1:1 異源多聚核心對接複合體；此交互作用使兩者穩定，失去其一通常會使另一者去穩定。"
+    },
+    "confidence": 0.95,
+    "source_document": "PEX13.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "a5053e8b6630",
+    "subject": "PEX13",
+    "predicate": "binds",
+    "object": "PEX5",
+    "context": {
+      "en-US": "The N-terminal zinc-binding domain of PEX13 docks the PTS1 receptor PEX5 at the peroxisomal membrane, creating a high-affinity ternary complex with PEX14 and positioning PTS1 cargo for translocation into the matrix.",
+      "zh-TW": "PEX13 的 N 端鋅結合結構域在過氧化體膜上對接 PTS1 受體 PEX5，與 PEX14 共同形成高親和力的三元複合體，使帶有 PTS1 的貨物就位以便轉位進入基質。"
+    },
+    "confidence": 0.95,
+    "source_document": "PEX13.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "c6d926215cf3",
+    "subject": "PEX13",
+    "predicate": "binds",
+    "object": "PEX7",
+    "context": {
+      "en-US": "PEX13 is a component of the membrane docking complex through which the PTS2 receptor PEX7 delivers cargo, so PEX7-dependent import requires PEX13.",
+      "zh-TW": "PEX13 是膜對接複合體的組成部分，PTS2 受體 PEX7 透過此複合體運送貨物，因此 PEX7 依賴性的輸入需要 PEX13。"
+    },
+    "confidence": 0.9,
+    "source_document": "PEX13.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "5df91d968de7",
+    "subject": "PEX13",
+    "predicate": "causes",
+    "object": "Zellweger Spectrum Disorders",
+    "context": {
+      "en-US": "Mutations in PEX13 cause PEX13-deficient Zellweger Spectrum Disorder, roughly 2-5% of cases; missense variants in the SH3-like domain partially impair PEX14 interaction and yield milder phenotypes, while truncating mutations abolish import and cause lethal disease.",
+      "zh-TW": "PEX13 突變會造成 PEX13 缺乏型 Zellweger 光譜症候群，約佔所有病例的 2–5%；SH3 樣結構域的錯義變異會部分損害與 PEX14 的交互作用而表型較輕，截短突變則完全消除輸入功能並造成致死性疾病。"
+    },
+    "confidence": 0.95,
+    "source_document": "PEX13.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "d8c82a1d9840",
+    "subject": "PEX13",
+    "predicate": "recruits",
+    "object": "PEX14",
+    "context": {
+      "en-US": "Once inserted into the peroxisomal membrane by PEX19 and PEX3, PEX13 recruits PEX14 to build the core docking complex and the oligomeric translocation pore.",
+      "zh-TW": "PEX13 在被 PEX19 與 PEX3 插入過氧化體膜後，會募集 PEX14 以組建核心對接複合體與寡聚化轉位孔道。"
+    },
+    "confidence": 0.9,
+    "source_document": "PEX13.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "7bb587495203",
+    "subject": "PEX14",
+    "predicate": "binds",
+    "object": "PEX5",
+    "context": {
+      "en-US": "PEX14 is the primary docking site for PEX5: its N-terminal acidic cluster binds the PTS1 signal-binding domain of PEX5 with high affinity (Kd ~50 nM), positioning the receptor for membrane insertion and cargo translocation.",
+      "zh-TW": "PEX14 是 PEX5 的主要對接位點：其 N 端酸性簇以高親和力（Kd 約 50 nM）結合 PEX5 的 PTS1 訊號結合結構域，使受體就位以進行膜插入與貨物轉位。"
+    },
+    "confidence": 0.95,
+    "source_document": "PEX14.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "33db652c149f",
+    "subject": "PEX14",
+    "predicate": "binds",
+    "object": "PEX7",
+    "context": {
+      "en-US": "Unlike other peroxins, PEX14 binds both PTS1 and PTS2 receptors; its acidic domain also engages PEX7, enabling PTS2 receptor docking at lower affinity.",
+      "zh-TW": "與其他 peroxin 不同，PEX14 同時結合 PTS1 與 PTS2 受體；其酸性結構域亦與 PEX7 作用，以較低親和力促進 PTS2 受體的對接。"
+    },
+    "confidence": 0.9,
+    "source_document": "PEX14.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "fe0537bbfb10",
+    "subject": "PEX14",
+    "predicate": "interacts_with",
+    "object": "TFEB",
+    "context": {
+      "en-US": "PEX14 translocates to the nucleus under certain conditions and interacts with the transcription factor TFEB, linking peroxisome biogenesis to lysosomal and peroxisomal gene expression.",
+      "zh-TW": "在某些條件下 PEX14 會轉位至細胞核並與轉錄因子 TFEB 交互作用，將過氧化體生成與溶小體、過氧化體基因表現連結起來。"
+    },
+    "confidence": 0.85,
+    "source_document": "PEX14.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "543738d2e19c",
+    "subject": "PEX14",
+    "predicate": "interacts_with",
+    "object": "AMPK",
+    "context": {
+      "en-US": "PEX14 acts as a signaling scaffold at the peroxisomal surface, interacting with AMPK and mTORC1 to couple peroxisomal metabolism to nutrient-sensing pathways.",
+      "zh-TW": "PEX14 在過氧化體表面作為訊號支架，與 AMPK 及 mTORC1 交互作用，將過氧化體代謝與營養感知路徑耦合。"
+    },
+    "confidence": 0.85,
+    "source_document": "PEX14.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "14c617fa9590",
+    "subject": "PEX14",
+    "predicate": "causes",
+    "object": "Zellweger Spectrum Disorders",
+    "context": {
+      "en-US": "Mutations in PEX14 cause PEX14-deficient Zellweger Spectrum Disorder (~1-2% of cases); missense variants in the acidic docking domain partially impair PEX5 binding and give milder disease, while truncating mutations are lethal.",
+      "zh-TW": "PEX14 突變會造成 PEX14 缺乏型 Zellweger 光譜症候群（約佔 1–2% 病例）；酸性對接結構域的錯義變異會部分損害 PEX5 結合而疾病較輕，截短突變則致死。"
+    },
+    "confidence": 0.95,
+    "source_document": "PEX14.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "bcf8b7a3ec2f",
+    "subject": "PEX19",
+    "predicate": "binds",
+    "object": "PEX3",
+    "context": {
+      "en-US": "PEX19 acts as the cytosolic chaperone and import receptor for peroxisomal membrane proteins, binding newly synthesized PMPs in the cytosol and delivering them to the membrane receptor PEX3 for insertion.",
+      "zh-TW": "PEX19 作為過氧化體膜蛋白的細胞質伴護蛋白與輸入受體，在細胞質中結合新合成的 PMP 並將其送至膜受體 PEX3 以完成插入。"
+    },
+    "confidence": 0.95,
+    "source_document": "PEX19.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "6217c0432ac3",
+    "subject": "PEX19",
+    "predicate": "is_required_for",
+    "object": "Peroxisome",
+    "context": {
+      "en-US": "PEX19 is the first factor in the PMP import pathway and is essential for de novo peroxisome formation from the endoplasmic reticulum; without it no PMPs are inserted and peroxisomes fail to form.",
+      "zh-TW": "PEX19 是 PMP 輸入路徑的第一個因子，對源自內質網的過氧化體新生形成至關重要；缺乏它便無法插入 PMP，過氧化體也就無法形成。"
+    },
+    "confidence": 0.95,
+    "source_document": "PEX19.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "057c1f7a8e1e",
+    "subject": "PEX19",
+    "predicate": "interacts_with",
+    "object": "Endoplasmic Reticulum",
+    "context": {
+      "en-US": "PEX19 delivers PEX3 itself to the endoplasmic reticulum membrane, where PEX3 initiates budding of new peroxisomal precursor vesicles that mature into functional peroxisomes.",
+      "zh-TW": "PEX19 將 PEX3 本身送至內質網膜，由 PEX3 啟動新生過氧化體前驅囊泡的出芽，進而成熟為具功能的過氧化體。"
+    },
+    "confidence": 0.9,
+    "source_document": "PEX19.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "55ca4fb35eeb",
+    "subject": "PEX19",
+    "predicate": "causes",
+    "object": "Zellweger Spectrum Disorders",
+    "context": {
+      "en-US": "All reported PEX19 mutations cause severe Zellweger syndrome (<1% of ZSD cases); biallelic knockout in mice is embryonic lethal with no detectable peroxisomes in any tissue.",
+      "zh-TW": "所有已報導的 PEX19 突變皆造成嚴重的 Zellweger 症候群（佔 ZSD 病例 <1%）；小鼠雙等位基因敲除在胚胎期即致死，任何組織皆檢測不到過氧化體。"
+    },
+    "confidence": 0.95,
+    "source_document": "PEX19.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "594445c573e7",
+    "subject": "PEX5",
+    "predicate": "binds",
+    "object": "PEX14",
+    "context": {
+      "en-US": "PEX5 docks at the peroxisomal membrane by binding PEX14 as its primary docking site and PEX13 as a stabilizing interaction, then inserts its C-terminal region through the PEX14 homo-oligomeric pore to release cargo into the matrix.",
+      "zh-TW": "PEX5 透過結合主要對接位點 PEX14 與提供穩定作用的 PEX13 在過氧化體膜上對接，接著將其 C 端區段穿過 PEX14 同源寡聚形成的孔道，把貨物釋放至基質。"
+    },
+    "confidence": 0.95,
+    "source_document": "PEX5.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "f177a9b59e6a",
+    "subject": "PEX5",
+    "predicate": "cooperates_with",
+    "object": "PEX7",
+    "context": {
+      "en-US": "The long PEX5L isoform contains a 37-amino acid insertion that lets it recognize a subset of PTS2-containing proteins in cooperation with PEX7, providing tissue-specific but incomplete functional redundancy for PTS2 import.",
+      "zh-TW": "長型 PEX5L  isoform 帶有一段 37 個胺基酸的插入序列，可與 PEX7 協同辨識部分含 PTS2 的蛋白質，為 PTS2 輸入提供組織專一但不完全的功能冗餘。"
+    },
+    "confidence": 0.9,
+    "source_document": "PEX5.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "15bbde95bc87",
+    "subject": "PEX5",
+    "predicate": "triggers",
+    "object": "Pexophagy",
+    "context": {
+      "en-US": "When PEX5 recycling is disrupted, ubiquitinated PEX5 accumulates on the peroxisomal membrane and triggers Pexophagy-mediated degradation of entire peroxisomes.",
+      "zh-TW": "當 PEX5 再循環受損時，泛素化的 PEX5 會在過氧化體膜上累積，進而觸發 Pexophagy 介導的整個過氧化體降解。"
+    },
+    "confidence": 0.9,
+    "source_document": "PEX5.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "a4e4cc549bfa",
+    "subject": "PEX5",
+    "predicate": "causes",
+    "object": "Zellweger Spectrum Disorders",
+    "context": {
+      "en-US": "Mutations in PEX5 cause PEX5-deficient Zellweger Spectrum Disorder (~5-10% of cases); loss of function blocks PTS1 import entirely, causing lethal accumulation of very-long-chain and branched-chain fatty acids and bile acid intermediates.",
+      "zh-TW": "PEX5 突變會造成 PEX5 缺乏型 Zellweger 光譜症候群（約佔 5–10% 病例）；功能喪失會完全阻斷 PTS1 輸入，導致超長鏈與支鏈脂肪酸及膽酸中間產物致命性累積。"
+    },
+    "confidence": 0.95,
+    "source_document": "PEX5.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "ac953bcec6f1",
+    "subject": "PEX5",
+    "predicate": "is_required_for",
+    "object": "Beta-Oxidation",
+    "context": {
+      "en-US": "PEX5 imports the peroxisomal beta-oxidation enzymes — acyl-CoA oxidase, D-bifunctional protein and thiolase — that are required for fatty acid beta-oxidation.",
+      "zh-TW": "PEX5 輸入過氧化體的 β-氧化酵素——醯基輔酶 A 氧化酶、D-雙功能蛋白與硫解酶——這些酵素是脂肪酸 β-氧化所必需。"
+    },
+    "confidence": 0.9,
+    "source_document": "PEX5.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "3ccabc61dc3c",
+    "subject": "PEX7",
+    "predicate": "cooperates_with",
+    "object": "PEX5",
+    "context": {
+      "en-US": "PEX7 imports PTS2-bearing matrix proteins, and in humans it functionally cooperates with the PEX5L isoform so that each can partially compensate for loss of the other, although the redundancy is tissue-specific and incomplete.",
+      "zh-TW": "PEX7 輸入帶有 PTS2 的基質蛋白，在人類中它與 PEX5L isoform 功能性協同，使兩者可部分補償對方的缺失，但此冗餘具組織專一性且不完全。"
+    },
+    "confidence": 0.9,
+    "source_document": "PEX7.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "25bf0cc472f6",
+    "subject": "PEX7",
+    "predicate": "binds",
+    "object": "PEX14",
+    "context": {
+      "en-US": "The PEX7-cargo complex docks at the peroxisomal membrane through PEX13 and PEX14, with additional support from the PEX5L isoform.",
+      "zh-TW": "PEX7-貨物複合體主要透過 PEX13 與 PEX14 在過氧化體膜上對接，並獲得 PEX5L isoform 的額外協助。"
+    },
+    "confidence": 0.9,
+    "source_document": "PEX7.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "b8b54811353d",
+    "subject": "PEX7",
+    "predicate": "is_required_for",
+    "object": "Beta-Oxidation",
+    "context": {
+      "en-US": "PEX7 imports peroxisomal 3-ketoacyl-CoA thiolase, the terminal enzyme in peroxisomal beta-oxidation of branched-chain and very-long-chain fatty acids.",
+      "zh-TW": "PEX7 輸入過氧化體的 3-酮醯基輔酶 A 硫解酶，它是支鏈與超長鏈脂肪酸過氧化體 β-氧化的末端酵素。"
+    },
+    "confidence": 0.9,
+    "source_document": "PEX7.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "7ff77df34a3a",
+    "subject": "PEX7",
+    "predicate": "is_required_for",
+    "object": "Plasmalogen",
+    "context": {
+      "en-US": "PEX7 imports alkyl-DHAP synthase, an enzyme required for plasmalogen (ether phospholipid) biosynthesis that is essential for myelin.",
+      "zh-TW": "PEX7 輸入烷基-DHAP 合成酶，該酵素是神經鞘所必需的 plasmalogen（醚磷脂）生合成所需。"
+    },
+    "confidence": 0.9,
+    "source_document": "PEX7.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "256505f2df2f",
+    "subject": "PEX7",
+    "predicate": "is_associated_with",
+    "object": "Phytanic acid",
+    "context": {
+      "en-US": "PEX7 imports phytanoyl-CoA hydroxylase (PHYH), which catalyzes alpha-oxidation of phytanic acid; loss of PEX7 therefore causes phytanic acid accumulation.",
+      "zh-TW": "PEX7 輸入植烷醯輔酶 A 羥化酶（PHYH），該酵素催化植烷酸的 α-氧化；因此 PEX7 喪失會造成植烷酸累積。"
+    },
+    "confidence": 0.9,
+    "source_document": "PEX7.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "ba06b78a197c",
+    "subject": "PEX7",
+    "predicate": "causes",
+    "object": "Zellweger Spectrum Disorders",
+    "context": {
+      "en-US": "Mutations in PEX7 cause PEX7-related Zellweger Spectrum Disorder (~5-10% of cases), classically rhizomelic chondrodysplasia punctata type 1; the founder allele c.727G>A partially impairs PTS2 binding.",
+      "zh-TW": "PEX7 突變會造成 PEX7 相關的 Zellweger 光譜症候群（約佔 5–10% 病例），典型表現為肢端軟骨點樣變化症第一型；創始等位基因 c.727G>A 會部分損害 PTS2 結合。"
+    },
+    "confidence": 0.95,
+    "source_document": "PEX7.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "4456aca25d88",
+    "subject": "PGC-1α",
+    "predicate": "regulates",
+    "object": "Mitochondrial Biogenesis",
+    "context": {
+      "en-US": "PGC-1α acts as the master regulator of mitochondrial biogenesis, co-activating NRF1, NRF2, PPARα, PPARγ, ERRalpha and YY1 to control expression of over 1,000 nuclear-encoded mitochondrial genes via the NRF1/NRF2 → TFAM axis.",
+      "zh-TW": "PGC-1α 是粒線體生成的總調控因子，藉由共同活化 NRF1、NRF2、PPARα、PPARγ、ERRalpha 與 YY1，經 NRF1/NRF2 → TFAM 路徑調控超過一千個核編碼粒線體基因的表現。"
+    },
+    "confidence": 0.95,
+    "source_document": "PGC-1α.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "403e6331a9ff",
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "PGC-1α",
+    "context": {
+      "en-US": "SIRT1 deacetylates PGC-1α at multiple lysines including K778 in an NAD+-dependent manner, enhancing its transcriptional activity toward mitochondrial genes and coupling the cellular NAD+/NADH ratio to oxidative capacity.",
+      "zh-TW": "SIRT1 以 NAD+ 依賴性方式在多個離胺酸（包括 K778）上將 PGC-1α 去乙醯化，增強其對粒線體基因的轉錄活性，並將細胞 NAD+/NADH 比例與氧化能力耦合。"
+    },
+    "confidence": 0.95,
+    "source_document": "PGC-1α.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "cb671654fe70",
+    "subject": "AMPK",
+    "predicate": "phosphorylates",
+    "object": "PGC-1α",
+    "context": {
+      "en-US": "AMPK phosphorylates PGC-1α at Thr177 and Ser538 during energy stress, which promotes SIRT1-mediated deacetylation and increases PGC-1α stability, forming a feed-forward loop between metabolic state and mitochondrial biogenesis.",
+      "zh-TW": "AMPK 在能量壓力下於 Thr177 與 Ser538 磷酸化 PGC-1α，促進 SIRT1 媒介的去乙醯化並提高 PGC-1α 穩定性，形成代謝狀態與粒線體生成之間的正回饋迴路。"
+    },
+    "confidence": 0.95,
+    "source_document": "PGC-1α.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "fa098c55c5b2",
+    "subject": "PGC-1α",
+    "predicate": "induces",
+    "object": "FNDC5",
+    "context": {
+      "en-US": "PGC-1α directly induces FNDC5 transcription, releasing the myokine Irisin, which drives white adipose tissue browning, bone formation and BDNF-dependent neuroprotection.",
+      "zh-TW": "PGC-1α 直接誘導 FNDC5 轉錄，釋放肌okine Irisin，進而驅動白色脂肪組織褐化、骨形成與 BDNF 依賴性的神經保護。"
+    },
+    "confidence": 0.9,
+    "source_document": "PGC-1α.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "8379fb5acf46",
+    "subject": "PGC-1α",
+    "predicate": "is_activated_by",
+    "object": "Metformin",
+    "context": {
+      "en-US": "Metformin activates PGC-1α indirectly through AMPK activation, and PGC-1α upregulation by exercise, caloric restriction, NAD+ precursors or resveratrol improves metabolic health and extends healthspan in model organisms.",
+      "zh-TW": "Metformin 透過活化 AMPK 間接活化 PGC-1α；而藉運動、熱量限制、NAD+ 前驅物或 resveratrol 上調 PGC-1α 可改善代謝健康並在模式生物中延長健康壽命。"
+    },
+    "confidence": 0.9,
+    "source_document": "PGC-1α.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "dd7daef53f1c",
+    "subject": "PHB2",
+    "predicate": "binds",
+    "object": "LC3",
+    "context": {
+      "en-US": "PHB2 contains an LIR motif (Y-V-L-P at residues 121-124) that binds cytosolic LC3 once PHB2 is exposed, recruiting the autophagy machinery.",
+      "zh-TW": "PHB2 含有一段 LIR motif（位於殘基 121–124 的 Y-V-L-P），在 PHB2 暴露後可結合細胞質中的 LC3，藉以募集自噬機制。"
+    },
+    "confidence": 0.95,
+    "source_document": "PHB2.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "b0c02c3966be",
+    "subject": "PHB2",
+    "predicate": "is_localized_to",
+    "object": "Mitochondria",
+    "context": {
+      "en-US": "PHB2 is an inner mitochondrial membrane (IMM) protein that is invisible to cytosolic LC3 under normal conditions but becomes exposed when the outer membrane is ruptured or degraded.",
+      "zh-TW": "PHB2 是粒線體內膜（IMM）蛋白，在正常情況下對細胞質 LC3 不可見，但當外膜破裂或被降解時便會暴露。"
+    },
+    "confidence": 0.95,
+    "source_document": "PHB2.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "c5723cf17bef",
+    "subject": "PHB2",
+    "predicate": "triggers",
+    "object": "Mitophagy",
+    "context": {
+      "en-US": "Exposure of PHB2 upon outer membrane rupture provides a damage-threshold sensor: it acts as a mitophagy receptor enabling Parkin-independent mitophagy when the damage is severe enough to compromise the outer membrane.",
+      "zh-TW": "外膜破裂使 PHB2 暴露，提供一個損傷閾值感測器：它作為自噬受體，在損傷嚴重到破壞外膜時促成 Parkin 非依賴性的粒線體自噬。"
+    },
+    "confidence": 0.9,
+    "source_document": "PHB2.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "4ef0b6a6a4a3",
+    "subject": "PHB2",
+    "predicate": "contributes_to",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "By binding LC3 once exposed, PHB2 recruits the autophagy machinery to damaged mitochondria and drives their selective clearance.",
+      "zh-TW": "PHB2 一旦暴露便結合 LC3，將自噬機制募集至受損粒線體，驅動其選擇性清除。"
+    },
+    "confidence": 0.85,
+    "source_document": "PHB2.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "b698b899915b",
+    "subject": "PINK1",
+    "predicate": "phosphorylates",
+    "object": "Ubiquitin",
+    "context": {
+      "en-US": "PINK1 phosphorylates ubiquitin and Parkin at Ser65, a residue in the conserved beta-grasp fold of ubiquitin, and also phosphorylates pre-existing ubiquitin chains, creating a feed-forward amplification loop for Parkin recruitment.",
+      "zh-TW": "PINK1 在泛素保守的 β-grasp 摺板中的 Ser65 上磷酸化泛素與 Parkin，也會磷酸化既有的泛素鏈，形成促進 Parkin 募集的正回饋放大迴路。"
+    },
+    "confidence": 0.95,
+    "source_document": "PINK1.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "c009c95aaa2d",
+    "subject": "PINK1",
+    "predicate": "causes",
+    "object": "Parkinson's Disease",
+    "context": {
+      "en-US": "More than 50 pathogenic PINK1 mutations cause autosomal recessive early-onset Parkinson's disease, the second most common genetic cause after PRKN; mutations cluster in the kinase domain and impair catalytic activity.",
+      "zh-TW": "超過 50 個致病性 PINK1 突變會造成體染色體隱性早發型帕金森氏症，是僅次於 PRKN 的第二常見遺傳原因；突變集中於激酶結構域並損害催化活性。"
+    },
+    "confidence": 0.95,
+    "source_document": "PINK1.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "e89cd7b59093",
+    "subject": "PINK1",
+    "predicate": "triggers",
+    "object": "Mitophagy",
+    "context": {
+      "en-US": "PINK1 acts as the gatekeeper of mitophagy by converting the general signal of membrane potential loss into a specific ubiquitin-based code on the mitochondrial surface, constituting the canonical PINK1-pUb-Parkin cascade.",
+      "zh-TW": "PINK1 作為粒線體自噬的守門員，將膜電位喪失這個一般性訊號轉換為粒線體表面的特定泛素密碼，構成典型的 PINK1-pUb-Parkin 級聯。"
+    },
+    "confidence": 0.95,
+    "source_document": "PINK1.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "5eb8a6c7a1da",
+    "subject": "PLA",
+    "predicate": "improves",
+    "object": "Bioavailability",
+    "context": {
+      "en-US": "Fisetin-loaded PLA nanoparticles increased fisetin AUC 2.32-fold and reduced tumor volume to 64.7% in a 4T1 breast cancer model by sustaining and targeting release of the poorly soluble drug.",
+      "zh-TW": "載有 fisetin 的 PLA 奈米顆粒使 fisetin 的 AUC 提高 2.32 倍，並在 4T1 乳癌模型中將腫瘤體積降至 64.7%，藉由持續性與標靶性釋放難溶藥物。"
+    },
+    "confidence": 0.9,
+    "source_document": "PLA.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "c007dc368ad8",
+    "subject": "PLA",
+    "predicate": "is_a_component_of",
+    "object": "Nanoparticles",
+    "context": {
+      "en-US": "PLA is a workhorse biodegradable polyester matrix for nanoparticles and microspheres in nanomedicine, also used in tissue-engineering scaffolds and 3D-printed constructs.",
+      "zh-TW": "PLA 是奈米醫學中奈米顆粒與微球的主力可生物降解聚酯基質，也用於組織工程支架與 3D 列印構造。"
+    },
+    "confidence": 0.9,
+    "source_document": "PLA.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "19b4df5ee39d",
+    "subject": "PLGA",
+    "predicate": "is_derived_from",
+    "object": "PLA",
+    "context": {
+      "en-US": "PLGA is a biodegradable copolymer of lactic acid (and its PLA) with glycolic acid, formed by copolymerization; glycolide content tunes degradation kinetics and drug release.",
+      "zh-TW": "PLGA 是乳酸（及其 PLA）與乙醇酸的可生物降解共聚物，藉由共聚形成；乙醇酸含量可調控降解動力學與藥物釋放。"
+    },
+    "confidence": 0.9,
+    "source_document": "PLGA.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "27c215f70540",
+    "subject": "PLGA",
+    "predicate": "improves",
+    "object": "Bioavailability",
+    "context": {
+      "en-US": "Fisetin-loaded PLGA-PEG-COOH nanoparticles (140-200 nm; 70-82% encapsulation) gave pH-responsive release, protecting fisetin at acidic gastric pH (<15% release) and increasing release at intestinal pH, and PLGA nanoparticles raised cytotoxicity 3.9-fold versus free fisetin in MCF-7 cells.",
+      "zh-TW": "載有 fisetin 的 PLGA-PEG-COOH 奈米顆粒（140–200 nm；包埋率 70–82%）提供 pH 反應性釋放，在酸性胃環境保護 fisetin（釋放 <15%）並於腸道 pH 增加釋放；相較游離 fisetin，PLGA 奈米顆粒使 MCF-7 細胞毒性提高 3.9 倍。"
+    },
+    "confidence": 0.9,
+    "source_document": "PLGA.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "14c57d391e04",
+    "subject": "PLGA",
+    "predicate": "is_a_component_of",
+    "object": "Nanoparticles",
+    "context": {
+      "en-US": "PLGA is the most widely used injectable depot polymer for controlled-release nanoparticle formulations in drug delivery.",
+      "zh-TW": "PLGA 是藥物遞送中受控釋放奈米顆粒制剂最廣泛使用的可注射庫存型聚合物。"
+    },
+    "confidence": 0.9,
+    "source_document": "PLGA.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "0f510e79253a",
+    "subject": "PP2A",
+    "predicate": "dephosphorylates",
+    "object": "TFEB",
+    "context": {
+      "en-US": "PP2A interacts with TFEB and dephosphorylates it at S109, S114 and S122, promoting its nuclear translocation and activation of the lysosomal biogenesis and autophagy programme.",
+      "zh-TW": "PP2A 與 TFEB 交互作用並在 S109、S114、S122 將其去磷酸化，促進其核轉位以及溶小體生成與自噬程式的活化。"
+    },
+    "confidence": 0.95,
+    "source_document": "PP2A.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "baa915561bf3",
+    "subject": "PP2A",
+    "predicate": "dephosphorylates",
+    "object": "Caspase-3",
+    "context": {
+      "en-US": "PP2A reverses the inhibitory phosphorylation of Caspase-3 at Ser150, restoring its pro-apoptotic activity.",
+      "zh-TW": "PP2A 逆轉 Caspase-3 在 Ser150 的抑制性磷酸化，恢復其促凋亡活性。"
+    },
+    "confidence": 0.9,
+    "source_document": "PP2A.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "1aab1e1f0308",
+    "subject": "PP2A",
+    "predicate": "dephosphorylates",
+    "object": "BAX",
+    "context": {
+      "en-US": "PP2A dephosphorylates BAX at Ser184, promoting its pro-apoptotic activity; in apoptosis signalling PP2A opposes the inhibitory phosphorylation imposed by upstream kinases.",
+      "zh-TW": "PP2A 在 Ser184 將 BAX 去磷酸化，促進其促凋亡活性；在凋亡訊號中，PP2A 對抗上游激酶所造成的抑制性磷酸化。"
+    },
+    "confidence": 0.9,
+    "source_document": "PP2A.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "ba335b8ae45a",
+    "subject": "PP2A",
+    "predicate": "inhibits",
+    "object": "mTORC1",
+    "context": {
+      "en-US": "PP2A is modeled as the main phosphatase counteracting mTORC1, dephosphorylating and opposing the mTORC1-driven activation of S6K1/2 in the incoherent bivalent motif underlying rapamycin hormesis.",
+      "zh-TW": "PP2A 被視為對抗 mTORC1 的主要磷酸酶，可去磷酸化並對抗 mTORC1 驅動的 S6K1/2 活化，位於rapamycin hormesis 背後的不一致雙價 motif 中。"
+    },
+    "confidence": 0.85,
+    "source_document": "PP2A.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "c82b5353a65f",
+    "subject": "PPARα",
+    "predicate": "promotes",
+    "object": "Fatty acid oxidation",
+    "context": {
+      "en-US": "PPARα is a nuclear receptor transcription factor whose activation induces fatty acid oxidation, ketogenesis and lipid metabolism programs, lowering triglycerides and improving the lipid profile.",
+      "zh-TW": "PPARα 是核受體轉錄因子，其活化會誘導脂肪酸氧化、生酮與脂質代謝程式，降低三酸甘油酯並改善脂質剖面。"
+    },
+    "confidence": 0.95,
+    "source_document": "PPARα.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "ffe0f2aaa18b",
+    "subject": "PPARα",
+    "predicate": "promotes",
+    "object": "Ketogenesis",
+    "context": {
+      "en-US": "PPARα directly drives the hepatic ketogenic program, coordinating metabolic adaptation to fasting when endogenous fatty acids and their derivatives serve as ligands.",
+      "zh-TW": "PPARα 直接驅動肝臟生酮程式，在禁食時內源性脂肪酸及其衍生物作為配體時協調代謝適應。"
+    },
+    "confidence": 0.9,
+    "source_document": "PPARα.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "2655a1c72f89",
+    "subject": "PPARα",
+    "predicate": "reduces",
+    "object": "Inflammation",
+    "context": {
+      "en-US": "PPARα activation exerts anti-inflammatory effects, which is why fibrate agonists such as fenofibrate and gemfibrozil have clinical anti-inflammatory and lipid-lowering utility.",
+      "zh-TW": "PPARα 的活化具有抗發炎作用，因此 fenofibrate 與 gemfibrozil 等 fibrate 類激動劑在臨床上具有抗發炎與降血脂的用途。"
+    },
+    "confidence": 0.9,
+    "source_document": "PPARα.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "8dba38514edc",
+    "subject": "PPARα",
+    "predicate": "interacts_with",
+    "object": "SIRT1",
+    "context": {
+      "en-US": "PPARα cooperates with SIRT1 and AMPK to coordinate metabolic adaptation during fasting, linking energy status to the fasting-induced upregulation of fatty acid oxidation.",
+      "zh-TW": "PPARα 與 SIRT1 及 AMPK 協同，在禁食期間協調代謝適應，將能量狀態與禁食誘導的脂肪酸氧化上調連結起來。"
+    },
+    "confidence": 0.85,
+    "source_document": "PPARα.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "9c690cf5be7e",
+    "subject": "PPARγ",
+    "predicate": "is_repressed_by",
+    "object": "SIRT1",
+    "context": {
+      "en-US": "SIRT1 represses PPARγ-mediated transcription, inhibiting adipogenesis; SIRT1 overexpression or pharmacological activation by resveratrol therefore promotes fat mobilization by repressing PPARγ and aP2 genes.",
+      "zh-TW": "SIRT1 抑制 PPARγ 媒介的轉錄，因而抑制脂肪生成；SIRT1 过量表現或經 resveratrol 藥理活化後，藉由抑制 PPARγ 與 aP2 基因促進脂肪動員。"
+    },
+    "confidence": 0.95,
+    "source_document": "PPARγ.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "daed503c13bd",
+    "subject": "PPARγ",
+    "predicate": "treats",
+    "object": "Diabetes Mellitus",
+    "context": {
+      "en-US": "PPARγ is a key therapeutic target in diabetes mellitus because it regulates fatty acid storage and glucose metabolism; thiazolidinedione agonists acting on it are standard insulin-sensitizing therapy.",
+      "zh-TW": "PPARγ 調控脂肪酸儲存與葡萄糖代謝，因此是糖尿病的重要治療標的；作用於它的硫唑烷二酮類激動劑是標準的增敏胰島素治療。"
+    },
+    "confidence": 0.9,
+    "source_document": "PPARγ.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "606967c3c7e1",
+    "subject": "mTORC1",
+    "predicate": "activates",
+    "object": "PPARγ",
+    "context": {
+      "en-US": "mTORC1 positively regulates PPARγ activity, and PPARγ in turn controls expression of genes encoding proteins involved in lipid and cholesterol synthesis.",
+      "zh-TW": "mTORC1 正向調控 PPARγ 的活性，而 PPARγ 又控制編碼脂質與膽固醇合成相關蛋白之基因的表現。"
+    },
+    "confidence": 0.9,
+    "source_document": "PPARγ.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "669d71df01e2",
+    "subject": "PPARγ",
+    "predicate": "suppresses",
+    "object": "Inflammation",
+    "context": {
+      "en-US": "PPARγ suppresses inflammatory gene expression; with LXRα it regulates transporters such as ABCA1, and vitamin E upregulation of PPARγ ameliorates early atherosclerosis in ApoE knockout mice.",
+      "zh-TW": "PPARγ 抑制發炎基因表現；它與 LXRα 共同調控 ABCA1 等轉運蛋白，而維生素 E 上調 PPARγ 可改善 ApoE 敲除小鼠的早期動脈粥狀硬化。"
+    },
+    "confidence": 0.9,
+    "source_document": "PPARγ.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "44c21cb7097b",
+    "subject": "PQBP1",
+    "predicate": "binds",
+    "object": "Tau",
+    "context": {
+      "en-US": "In tauopathy, monomeric tau binds PQBP1, forming a tau-PQBP1 complex that engages cGAS; PQBP1 thus serves as a noncanonical adaptor converting a proteinopathy signal into innate immune activation.",
+      "zh-TW": "在 tau 病變中，單體 tau 會結合 PQBP1，形成的 tau–PQBP1 複合體再與 cGAS 作用；因此 PQBP1 扮演非典型轉接蛋白，把蛋白病變訊號轉換為先天免疫活化。"
+    },
+    "confidence": 0.95,
+    "source_document": "PQBP1.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "32fe305e33fc",
+    "subject": "PQBP1",
+    "predicate": "activates",
+    "object": "cGAS",
+    "context": {
+      "en-US": "The tau-PQBP1 complex activates cGAS through direct protein-protein interaction, bypassing the canonical requirement for cytosolic dsDNA and establishing an exception to the DNA-centric model of cGAS activation.",
+      "zh-TW": "tau–PQBP1 複合體透過直接的蛋白質-蛋白質交互作用活化 cGAS，繞過對細胞質雙股 DNA 的典型需求，構成 cGAS 活化 DNA 中心模型的例外。"
+    },
+    "confidence": 0.95,
+    "source_document": "PQBP1.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "944942780f7f",
+    "subject": "PQBP1",
+    "predicate": "activates",
+    "object": "cGAS-STING Pathway",
+    "context": {
+      "en-US": "Activating cGAS via the tau-PQBP1 axis triggers cGAS-STING signalling, driving type I interferon and ISG programmes, microglial inflammatory states and neurodegeneration.",
+      "zh-TW": "透過 tau–PQBP1 軸活化 cGAS 會啟動 cGAS-STING 訊號，驅動第一型干擾素與 ISG 程式、小膠細胞發炎狀態與神經退化。"
+    },
+    "confidence": 0.95,
+    "source_document": "PQBP1.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "8a9aa1413e07",
+    "subject": "PQBP1",
+    "predicate": "contributes_to",
+    "object": "Neuroinflammation",
+    "context": {
+      "en-US": "By coupling tau accumulation to cGAS-STING, PQBP1-mediated activation promotes microglial inflammatory states, neuronal injury and cognitive decline in tauopathies.",
+      "zh-TW": "藉由將 tau 累積與 cGAS-STING 耦合，PQBP1 媒介的活化會在 tau 病變中促進小膠細胞發炎狀態、神經元損傷與認知衰退。"
+    },
+    "confidence": 0.9,
+    "source_document": "PQBP1.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "17f4cbc65659",
+    "subject": "Apigenin",
+    "predicate": "inhibits",
+    "object": "PRDX6",
+    "context": {
+      "en-US": "Apigenin binds PRDX6 directly at Cys91 and Glu210 (SPR KD about 0.237 uM, MST Kd about 916 nM) and selectively suppresses its iPLA2 rather than its peroxidase activity, which underlies its senomorphic dampening of the SASP.",
+      "zh-TW": "Apigenin 直接結合 PRDX6 的 Cys91 與 Glu210（SPR KD 約 0.237 µM，MST Kd 約 916 nM），並選擇性抑制其 iPLA2 而非過氧化物酶活性，這正是其抑制 SASP 的 senomorphic 作用基礎。"
+    },
+    "confidence": 0.95,
+    "source_document": "PRDX6.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "f0889045df39",
+    "subject": "PRDX6",
+    "predicate": "interacts_with",
+    "object": "HSPA8",
+    "context": {
+      "en-US": "PRDX6 physically interacts with HSPA8 in senescent cells; apigenin binding to PRDX6 blocks this interaction, preventing HSPA8 from engaging ATM and p38 MAPK and blocking the ASAP-to-SASP transition.",
+      "zh-TW": "在衰老細胞中 PRDX6 與 HSPA8 有物理交互作用；apigenin 結合 PRDX6 會阻斷此交互作用，使 HSPA8 無法與 ATM 及 p38 MAPK 作用，因而阻斷 ASAP 轉為 SASP。"
+    },
+    "confidence": 0.9,
+    "source_document": "PRDX6.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "efa3ef609bd7",
+    "subject": "PRDX6",
+    "predicate": "reduces",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "PRDX6 augments selenium utilization to limit iron toxicity, thereby reducing ferroptosis, in addition to its peroxidase and phospholipid-repair functions that buffer oxidative stress in neurons.",
+      "zh-TW": "PRDX6 提升硒的利用以限制鐵毒性，因而減少鐵死亡；此外其過氧化物酶與磷脂修復功能可在神經元中緩衝氧化壓力。"
+    },
+    "confidence": 0.8,
+    "source_document": "PRDX6.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "653049da0b3e",
+    "subject": "PROTAC",
+    "predicate": "degrades",
+    "object": "cGAS",
+    "context": {
+      "en-US": "PROTAC technology has been proposed as an emerging strategy to degrade cGAS therapeutically, durably dampening cGAS-STING signalling rather than merely blocking enzymatic activity.",
+      "zh-TW": "PROTAC 技術被提出作為新興策略，以治療性降解 cGAS，進而持久抑制 cGAS-STING 訊號，而非僅僅阻斷酵素活性。"
+    },
+    "confidence": 0.85,
+    "source_document": "PROTAC.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "a4dae01b0a9b",
+    "subject": "PROTAC",
+    "predicate": "degrades",
+    "object": "STING",
+    "context": {
+      "en-US": "Targeted degradation of STING via PROTACs could eliminate the upstream sensor and provide more sustained suppression of type I interferon signalling and maladaptive glial activation than small-molecule inhibitors, while sparing the barrier-protective roles of microglial STING.",
+      "zh-TW": "透過 PROTAC 標靶性降解 STING 可消除上游感測器，相較小分子抑制劑提供更持久的 type I 干擾素訊號與不良膠細胞活化抑制，同時保留小膠細胞 STING 的屏障保護功能。"
+    },
+    "confidence": 0.85,
+    "source_document": "PROTAC.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "c376718a0af6",
+    "subject": "PROTAC",
+    "predicate": "uses",
+    "object": "Ubiquitin",
+    "context": {
+      "en-US": "A PROTAC is a bifunctional molecule in which a target-binding warhead is linked to an E3 ubiquitin ligase recruiter, inducing proximity-dependent ubiquitination and degradation of the target via the ubiquitin proteasome system.",
+      "zh-TW": "PROTAC 是一種雙功能分子，將標的結合 warhead 與 E3 泛素連接酶招募器相連，誘導鄰近依賴性泛素化，並經泛素-蛋白酶體系統降解標的。"
+    },
+    "confidence": 0.9,
+    "source_document": "PROTAC.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "3c7b0913bf05",
+    "subject": "PSTK",
+    "predicate": "phosphorylates",
+    "object": "tRNA",
+    "context": {
+      "en-US": "PSTK (O-phosphoseryl-tRNA kinase) uses ATP to phosphorylate the serine side chain of Ser-tRNA[Ser]Sec, generating the O-phosphoseryl-tRNA[Ser]Sec intermediate.",
+      "zh-TW": "PSTK（O-磷酸絲胺醯-tRNA 激酶）利用 ATP 磷酸化 Ser-tRNA[Ser]Sec 上的絲胺酸側鏈，生成 O-磷酸絲胺醯-tRNA[Ser]Sec 中間產物。"
+    },
+    "confidence": 0.95,
+    "source_document": "PSTK.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "356b5da74c6e",
+    "subject": "PSTK",
+    "predicate": "is_required_for",
+    "object": "Selenocysteine",
+    "context": {
+      "en-US": "In eukaryotes and archaea selenocysteine is synthesized on its tRNA; PSTK acts immediately upstream of the selenium-incorporation step performed by SepSecS, so PSTK is essential for Sec biosynthesis.",
+      "zh-TW": "在真核生物與古菌中，selenocysteine 是在其 tRNA 上合成的；PSTK 作用於 SepSecS 執行硒導入步驟的緊上游，因此 PSTK 對 Sec 生合成至關重要。"
+    },
+    "confidence": 0.95,
+    "source_document": "PSTK.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "95dfd2d0dc34",
+    "subject": "PSTK",
+    "predicate": "is_required_for",
+    "object": "Selenoprotein",
+    "context": {
+      "en-US": "Defects in PSTK collapse the selenoprotein pool and phenocopy other blocks in the Sec pathway, placing PSTK upstream of the UGA codon recoding event.",
+      "zh-TW": "PSTK 缺陷會使 selen蛋白 池崩潰，並表型模擬 Sec 路徑中的其他阻斷點，因此 PSTK 位於 UGA 密碼子重編碼事件的上游。"
+    },
+    "confidence": 0.9,
+    "source_document": "PSTK.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "fbf095c30d0a",
+    "subject": "PTBP1",
+    "predicate": "regulates",
+    "object": "Alternative Splicing",
+    "context": {
+      "en-US": "PTBP1 is a principal repressor of alternative pre-mRNA splicing: binding polypyrimidine-rich sequences near splice sites occludes U2AF65 recruitment, biases exon skipping, and looping the pre-mRNA can hide the splice site; its effects are position- and context-dependent.",
+      "zh-TW": "PTBP1 是前驅 mRNA 選擇性剪接的主要抑制因子：結合剪接位點附近的聚嘧啶豐富序列會阻擋 U2AF65 的招募、偏向外顯子跳過，並可藉由環化前驅 mRNA 隱藏剪接位點；其效果依位置與脈絡而定。"
+    },
+    "confidence": 0.95,
+    "source_document": "PTBP1.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "64e7f57f17fd",
+    "subject": "PTBP1",
+    "predicate": "regulates",
+    "object": "SASP",
+    "context": {
+      "en-US": "The Birch and Gil SASP-induction scheme places PTBP1 in the nuclear control layer under alternative splicing of trafficking genes, proposing that regulated splicing of vesicle trafficking and secretion genes determines whether the transcriptional SASP programme can be exported as protein.",
+      "zh-TW": "Birch 與 Gil 的 SASP 誘導示意圖將 PTBP1 置於「運輸基因的選擇性剪接」之核內控制層，認為囊泡運輸與分泌基因的受調剪接決定轉錄性 SASP 程式能否以蛋白形式輸出。"
+    },
+    "confidence": 0.8,
+    "source_document": "PTBP1.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "b0081b2648d7",
+    "subject": "PTBP1",
+    "predicate": "interacts_with",
+    "object": "MAML1",
+    "context": {
+      "en-US": "In the Birch and Gil senescence framework PTBP1 is grouped with the Notch effector MAML1 under the regulation of alternative splicing of trafficking genes, placing it in the same nuclear arm of SASP control.",
+      "zh-TW": "在 Birch 與 Gil 的衰老架構中，PTBP1 與 Notch 效應器 MAML1 一同被歸於「運輸基因的選擇性剪接」項下，位於 SASP 控制的同一核內分支。"
+    },
+    "confidence": 0.75,
+    "source_document": "PTBP1.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "81d680d2b652",
+    "subject": "PTEN",
+    "predicate": "inhibits",
+    "object": "PI3K-Akt Signaling",
+    "context": {
+      "en-US": "PTEN is a lipid phosphatase that dephosphorylates PIP3, thereby antagonizing PI3K/Akt signalling; its opposition to PI3K forms one branch of the incoherent bivalent motif centred on mTORC1.",
+      "zh-TW": "PTEN 是脂質磷酸酶，可將 PIP3 去磷酸化，因而拮抗 PI3K/Akt 訊號；其與 PI3K 的對抗構成以 mTORC1 為中心的不一致雙價 motif 的一個分支。"
+    },
+    "confidence": 0.95,
+    "source_document": "PTEN.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "4684891603f9",
+    "subject": "PTEN",
+    "predicate": "inhibits",
+    "object": "mTOR",
+    "context": {
+      "en-US": "PTEN acts as a brake on cellular growth by antagonizing the PI3K/Akt/mTOR pathway, preventing excessive cell proliferation.",
+      "zh-TW": "PTEN 藉由拮抗 PI3K/Akt/mTOR 路徑扮演細胞生長的煞車，防止細胞過度增殖。"
+    },
+    "confidence": 0.95,
+    "source_document": "PTEN.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "9cb94ff4c021",
+    "subject": "PTEN",
+    "predicate": "promotes",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "By inhibiting mTOR, PTEN relieves mTOR-mediated suppression of autophagy, allowing the cell to perform essential cleanup of damaged components.",
+      "zh-TW": "PTEN 藉由抑制 mTOR 解除 mTOR 對自噬的抑制，使細胞得以進行受損成分的必要清理。"
+    },
+    "confidence": 0.95,
+    "source_document": "PTEN.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "e73355bacc03",
+    "subject": "PTEN",
+    "predicate": "protects_against",
+    "object": "Cancer",
+    "context": {
+      "en-US": "PTEN is one of the most frequently mutated genes in human cancer; super-PTEN mice with an extra copy show cancer resistance and delayed aging, highlighting PTEN as a longevity-promoting factor.",
+      "zh-TW": "PTEN 是人類癌症中突變最頻繁的基因之一；帶有額外一份 PTEN 拷貝的 super-PTEN 小鼠表现出抗癌與延緩衰老，突顯 PTEN 是促進長壽的因素。"
+    },
+    "confidence": 0.95,
+    "source_document": "PTEN.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "5755df63ddc0",
+    "subject": "p53",
+    "predicate": "upregulates",
+    "object": "PTEN",
+    "context": {
+      "en-US": "p53 negatively controls mTORC1 signalling by increasing transcription of PTEN and TSC2, two negative regulators of the pathway.",
+      "zh-TW": "p53 藉由增加 PTEN 與 TSC2 這兩個路徑負調控因子的轉錄，負向控制 mTORC1 訊號。"
+    },
+    "confidence": 0.9,
+    "source_document": "PTEN.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "a04c01d47f96",
+    "subject": "PTPN5",
+    "predicate": "dephosphorylates",
+    "object": "BAK",
+    "context": {
+      "en-US": "PTPN5 (STEP) removes the inhibitory phosphate from BAK at Tyr108, which licenses BAK for conformational activation and is a critical control point in mitochondrial apoptosis.",
+      "zh-TW": "PTPN5（STEP）移除 BAK 在 Tyr108 上的抑制性磷酸基，賦予 BAK 構形活化的許可，是粒線體凋亡的關鍵控制點。"
+    },
+    "confidence": 0.95,
+    "source_document": "PTPN5.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "22f617a38afa",
+    "subject": "PTPN5",
+    "predicate": "activates",
+    "object": "BAK",
+    "context": {
+      "en-US": "By dephosphorylating BAK at Tyr108, PTPN5 permits BAK to respond to BH3-only activators such as Bid and Bim, thereby promoting mitochondrial outer membrane permeabilization and apoptosis.",
+      "zh-TW": "PTPN5 藉由將 BAK 在 Tyr108 去磷酸化，使 BAK 能回應 Bid、Bim 等 BH3-only 活化劑，進而促進粒線體外膜通透化與凋亡。"
+    },
+    "confidence": 0.95,
+    "source_document": "PTPN5.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "04e3dafcc05a",
+    "subject": "ERK2",
+    "predicate": "inhibits",
+    "object": "PTPN5",
+    "context": {
+      "en-US": "In K-RAS mutated cancers hyperactive ERK1/2 phosphorylates and inactivates PTPN5 (Ser221), locking BAK in its inactive phosphorylated state and conferring profound resistance to apoptosis.",
+      "zh-TW": "在 K-RAS 突變癌症中，過度活化的 ERK1/2 會磷酸化並使 PTPN5（Ser221）失活，將 BAK 鎖定於失活且帶磷酸的狀態，造成嚴重的凋亡抵抗。"
+    },
+    "confidence": 0.95,
+    "source_document": "PTPN5.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "1fee866fed88",
+    "subject": "PTPN5",
+    "predicate": "promotes",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "PTPN5 promotes apoptosis by enabling BAK activation; correspondingly, genetic loss or downregulation of PTPN5 raises the threshold for apoptosis and contributes to apoptotic resistance in T-cell leukemias and epithelial cancers.",
+      "zh-TW": "PTPN5 藉由使 BAK 活化而促進凋亡；相對地，PTPN5 的遺傳缺失或下调會提高凋亡門檻，並在 T 細胞白血病與上皮癌中促成凋亡抵抗。"
+    },
+    "confidence": 0.95,
+    "source_document": "PTPN5.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "71080ebbf535",
+    "subject": "PVP",
+    "predicate": "improves",
+    "object": "Bioavailability",
+    "context": {
+      "en-US": "PVP's hydrophilic amorphous matrix keeps crystalline actives in a high-energy dispersed state and increases effective surface area, accelerating dissolution and raising the bioavailability of poorly water-soluble drugs such as fisetin.",
+      "zh-TW": "PVP 的親水性非晶基質使結晶態活性成分維持高能分散狀態並增加有效表面積，加速溶解並提升 fisetin 等難溶藥物的生體可用率。"
+    },
+    "confidence": 0.9,
+    "source_document": "PVP.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "996b0733b354",
+    "subject": "PVP",
+    "predicate": "is_a_component_of",
+    "object": "Nanoparticles",
+    "context": {
+      "en-US": "PVP serves as a stabilizer and carrier in nanomedicine; fisetin-loaded PVP nanoparticles showed superior antiproliferative activity against MDA-MB-231 breast cancer cells (about 35% survival versus 62% for free fisetin) with roughly twofold higher drug release over 24 h.",
+      "zh-TW": "PVP 在奈米醫學中作為穩定劑與載體；載有 fisetin 的 PVP 奈米顆粒對 MDA-MB-231 乳癌細胞呈現優異抗增殖活性（約 35% 存活，相較游離 fisetin 的 62%），且 24 小時藥物釋放約高一倍。"
+    },
+    "confidence": 0.9,
+    "source_document": "PVP.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "8c791565d360",
+    "subject": "PVP",
+    "predicate": "binds",
+    "object": "Fisetin",
+    "context": {
+      "en-US": "PVP acts as a complexing agent that keeps lipophilic compounds such as fisetin in an amorphous dispersed state, preventing precipitation and overcoming their poor aqueous solubility.",
+      "zh-TW": "PVP 扮演錯合劑，將 fisetin 等親脂性化合物維持在非晶分散狀態，防止析出並克服其不良的水溶性。"
+    },
+    "confidence": 0.85,
+    "source_document": "PVP.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "e7f6bd5f6eda",
+    "subject": "PYCR1",
+    "predicate": "produces",
+    "object": "Proline",
+    "context": {
+      "en-US": "PYCR1 is the mitochondrial matrix enzyme that catalyzes the final and rate-limiting step of proline biosynthesis, the NAD(P)H-dependent reduction of delta-1-pyrroline-5-carboxylate to L-proline.",
+      "zh-TW": "PYCR1 是粒線體基質酵素，催化脯胺酸生合成的最後且速率限制步驟，即以 NAD(P)H 依賴性方式將 Δ1-吡咯啉-5-羧酸還原為 L-脯胺酸。"
+    },
+    "confidence": 0.95,
+    "source_document": "PYCR1.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "6333c5580f06",
+    "subject": "PYCR1",
+    "predicate": "uses",
+    "object": "NAD+",
+    "context": {
+      "en-US": "PYCR1 requires NADH or NADPH as its obligate reducing cofactor (P5C + NAD(P)H + H+ → L-proline + NAD(P)+), and its consumption of mitochondrial NADH can shift the NAD+/NADH ratio and alter mitochondrial metabolism.",
+      "zh-TW": "PYCR1 需要 NADH 或 NADPH 作為其必需的還原輔因子（P5C + NAD(P)H + H⁺ → L-脯胺酸 + NAD(P)⁺），其消耗粒線體 NADH 可改變 NAD+/NADH 比例並擾動粒線體代謝。"
+    },
+    "confidence": 0.9,
+    "source_document": "PYCR1.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "85cdad27d6ac",
+    "subject": "SIRT3",
+    "predicate": "deacetylates",
+    "object": "PYCR1",
+    "context": {
+      "en-US": "SIRT3 deacetylates PYCR1 at Lys228, enhancing its enzymatic activity and proline biosynthesis and directly facilitating tumor cell proliferation — a context in which SIRT3 acts as an oncogene rather than a tumor suppressor.",
+      "zh-TW": "SIRT3 在 Lys228 將 PYCR1 去乙醯化，增強其酵素活性與脯胺酸生合成，並直接促進腫瘤細胞增殖——在此情境中 SIRT3 扮演致癌基因而非腫瘤抑制因子。"
+    },
+    "confidence": 0.95,
+    "source_document": "PYCR1.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "cbc3e48b9e91",
+    "subject": "PYCR1",
+    "predicate": "promotes",
+    "object": "Epithelial-to-mesenchymal transition",
+    "context": {
+      "en-US": "PYCR1 promotes epithelial-to-mesenchymal transition, a key step in metastatic dissemination; PYCR1 knockdown inhibits proliferation, drug resistance and EMT through STAT3-mediated p38 MAPK and NF-kB regulation in colorectal cancer.",
+      "zh-TW": "PYCR1 促進上皮間質轉化——轉移散布的關鍵步驟；在結腸直腸癌中，敲低 PYCR1 會透過 STAT3 媒介的 p38 MAPK 與 NF-κB 調控抑制增殖、藥物抗性與 EMT。"
+    },
+    "confidence": 0.9,
+    "source_document": "PYCR1.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "4a0f427f3b0a",
+    "subject": "PYCR1",
+    "predicate": "is_localized_to",
+    "object": "Mitochondria",
+    "context": {
+      "en-US": "PYCR1 is a 319-amino-acid enzyme (~33.4 kDa) localized to the mitochondrial matrix, where its monomers assemble into a pentamer of dimers forming a cooperative decameric enzyme.",
+      "zh-TW": "PYCR1 是定位於粒線體基質的 319 個胺基酸酵素（約 33.4 kDa），其單體在此組裝成五聚體的二聚體，形成具協同作用的多十聚體酵素。"
+    },
+    "confidence": 0.9,
+    "source_document": "PYCR1.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "dd9be85376a1",
+    "subject": "PYCR1",
+    "predicate": "is_associated_with",
+    "object": "Cancer",
+    "context": {
+      "en-US": "PYCR1 is overexpressed across breast, lung adenocarcinoma, hepatocellular, colorectal, melanoma and esophageal cancers, with high expression consistently correlating with poor prognosis and tumor aggressiveness by fuelling proline-driven proliferation.",
+      "zh-TW": "PYCR1 在乳癌、肺腺癌、肝細胞癌、結腸直腸癌、黑色素瘤與食道癌中過量表現，高表現與較差預後及腫瘤侵襲性一致相關，藉由促進脯胺酸驅動的增殖達成。"
+    },
+    "confidence": 0.9,
+    "source_document": "PYCR1.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "801cee417be9",
+    "subject": "Palbociclib",
+    "predicate": "promotes",
+    "object": "Lysosomal Biogenesis",
+    "context": {
+      "en-US": "Palbociclib and abemaciclib induce TFEB-dependent lysosomal biogenesis by inhibiting the nuclear export of TFEB in HeLa cells.",
+      "zh-TW": "Palbociclib 與 abemaciclib 藉由抑制 TFEB 的核輸出，在 HeLa 細胞中誘導 TFEB 依賴性的溶小體生成。"
+    },
+    "confidence": 0.9,
+    "source_document": "Palbociclib.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "5f95778a924c",
+    "subject": "Palbociclib",
+    "predicate": "treats",
+    "object": "Breast Cancer",
+    "context": {
+      "en-US": "Palbociclib (125 mg/day, 21 days on / 7 days off) is standard first-line therapy for HR+/HER2- metastatic breast cancer, where it induces G1/S arrest by preventing Rb phosphorylation.",
+      "zh-TW": "Palbociclib（125 mg/日，連用 21 天、停 7 天）是 HR+/HER2- 轉移性乳癌的標準一線治療，藉由阻止 Rb 磷酸化誘導 G1/S 期停滯。"
+    },
+    "confidence": 0.95,
+    "source_document": "Palbociclib.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "91b767e128dd",
+    "subject": "Palbociclib",
+    "predicate": "induces",
+    "object": "Senescence",
+    "context": {
+      "en-US": "At clinically relevant concentrations (0.1-1 uM) palbociclib induces an RB1-dependent senescence phenotype with SA-beta-gal positivity, SAHF formation, SASP activation and persistent gamma-H2AX foci; RB1-null cells are resistant.",
+      "zh-TW": "在臨床相關濃度（0.1–1 µM）下，palbociclib 誘導 RB1 依賴性的衰老表型，伴隨 SA-beta-gal 陽性、SAHF 形成、SASP 活化與持續的 γH2AX 焦點；RB1 缺失細胞具抗性。"
+    },
+    "confidence": 0.95,
+    "source_document": "Palbociclib.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "081c7f01de61",
+    "subject": "Palbociclib",
+    "predicate": "induces",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Palbociclib induces autophagy as a cytoprotective resistance mechanism in cancer cells, which is why combination with autophagy inhibitors such as hydroxychloroquine is under clinical investigation.",
+      "zh-TW": "Palbociclib 在癌細胞中誘導自噬作為細胞保護性的抗藥機制，因此與 hydroxychloroquine 等自噬抑制劑的聯合療法正進行臨床研究。"
+    },
+    "confidence": 0.9,
+    "source_document": "Palbociclib.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "c429a2c13c3a",
+    "subject": "TFEB",
+    "predicate": "promotes",
+    "object": "Pancreatic Cancer",
+    "context": {
+      "en-US": "In pancreatic ductal adenocarcinoma TFEB is hyperactivated and plays a pathogenic role, controlling glutamine metabolism and acting as a critical survival factor for PDA cells.",
+      "zh-TW": "在胰臟導管腺癌中 TFEB 過度活化並扮演致病角色，控制麩醯胺酸代謝並作為 PDA 細胞的關鍵存活因子。"
+    },
+    "confidence": 0.9,
+    "source_document": "Pancreatic Cancer.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "deb03739116b",
+    "subject": "Autophagy",
+    "predicate": "promotes",
+    "object": "Pancreatic Cancer",
+    "context": {
+      "en-US": "PDA cells exhibit high basal autophagy that supports tumor growth by recycling nutrients and maintaining energy homeostasis; inhibition with hydroxychloroquine or Atg7 knockdown suppresses tumor growth.",
+      "zh-TW": "PDA 細胞具有高基礎自噬，藉由回收養分與維持能量恆定支持腫瘤生長；以 hydroxychloroquine 或 Atg7 敲低抑制自噬可抑制腫瘤生長。"
+    },
+    "confidence": 0.9,
+    "source_document": "Pancreatic Cancer.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "0b0dc6fee450",
+    "subject": "melittin",
+    "predicate": "inhibits",
+    "object": "Pancreatic Cancer",
+    "context": {
+      "en-US": "Both honeybee venom and its major peptide melittin demonstrate antitumoral effects against pancreatic cancer, among other tumor types, with higher cytotoxic potency in cancer cells than in normal cells.",
+      "zh-TW": "蜂蜜蜂毒及其主要胜肽 melittin 對胰臟癌等腫瘤展現抗腫瘤效果，且對癌細胞的細胞毒性效力高於正常細胞。"
+    },
+    "confidence": 0.9,
+    "source_document": "Pancreatic Cancer.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "ffd801bf03b2",
+    "subject": "SIRT1",
+    "predicate": "promotes",
+    "object": "Pancreatic Cancer",
+    "context": {
+      "en-US": "SIRT1 facilitates chemoresistance in pancreatic cancer by regulating the adaptive response to chemotherapy-induced stress.",
+      "zh-TW": "SIRT1 藉由調節對化療誘發壓力的適應反應，促進胰臟癌的化療抗性。"
+    },
+    "confidence": 0.9,
+    "source_document": "Pancreatic Cancer.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "adf6b0e9af87",
+    "subject": "SIRT5",
+    "predicate": "protects_against",
+    "object": "Pancreatic Cancer",
+    "context": {
+      "en-US": "SIRT5 expression in pancreatic cancer directly correlates with favorable prognosis; its loss promotes GOT1 acetylation, driving proliferation via glutamine and glutathione metabolism.",
+      "zh-TW": "SIRT5 在胰臟癌中的表現與良好預後直接相關；其喪失會促進 GOT1 乙醯化，經由麩醯胺酸與穀胱甘肽代謝驅動增殖。"
+    },
+    "confidence": 0.9,
+    "source_document": "Pancreatic Cancer.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "98b04223127b",
+    "subject": "Paraquat",
+    "predicate": "produces",
+    "object": "Reactive Oxygen Species",
+    "context": {
+      "en-US": "Paraquat is a toxic herbicide whose redox cycling generates reactive oxygen species, inducing cellular oxidative stress.",
+      "zh-TW": "Paraquat 是一種毒性除草劑，透過氧化還原循環產生活性氧，誘發細胞氧化壓力。"
+    },
+    "confidence": 0.95,
+    "source_document": "Paraquat.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "808a577a3aab",
+    "subject": "Paraquat",
+    "predicate": "inhibits",
+    "object": "Complex I",
+    "context": {
+      "en-US": "Structurally similar to the neurotoxin MPP+, paraquat inhibits mitochondrial Complex I, causing mitochondrial dysfunction.",
+      "zh-TW": "Paraquat 結構上類似神經毒物 MPP+，會抑制粒線體 Complex I，造成粒線體功能障礙。"
+    },
+    "confidence": 0.95,
+    "source_document": "Paraquat.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "6058e62eee00",
+    "subject": "Paraquat",
+    "predicate": "causes",
+    "object": "Mitochondrial Dysfunction",
+    "context": {
+      "en-US": "Like MPP+, paraquat can cause mitochondrial dysfunction by inhibiting Complex I and generating reactive oxygen species.",
+      "zh-TW": "如同 MPP+，paraquat 可藉由抑制 Complex I 並產生活性氧而造成粒線體功能障礙。"
+    },
+    "confidence": 0.95,
+    "source_document": "Paraquat.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "1f445dd30797",
+    "subject": "Paraquat",
+    "predicate": "is_associated_with",
+    "object": "Parkinson's Disease",
+    "context": {
+      "en-US": "Epidemiological exposure to the paraquat herbicide has been linked to an increased risk of Parkinson's disease.",
+      "zh-TW": "流病學上接觸 paraquat 除草劑已被連結至帕金森氏症風險升高。"
+    },
+    "confidence": 0.95,
+    "source_document": "Paraquat.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "4deb95589f15",
+    "subject": "Paraquat",
+    "predicate": "causes",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "Paraquat induces cellular oxidative stress and reactive oxygen species production, and is also used experimentally as a ROS inducer in models of cellular senescence.",
+      "zh-TW": "Paraquat 誘發細胞氧化壓力與活性氧產生，也被實驗用作細胞衰老模型中的 ROS 誘導劑。"
+    },
+    "confidence": 0.95,
+    "source_document": "Paraquat.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "9f149d221392",
+    "subject": "Pompe Disease",
+    "predicate": "impairs",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "In skeletal muscle, Pompe Disease severely impairs the Autophagy pathway. Autophagosomes and autophagic debris accumulate massively in myofibers, displacing the contractile apparatus; this autophagic buildup — not merely lysosomal glycogen storage — is now recognized as a major driver of muscle pathology and a key factor limiting the efficacy of enzyme replacement therapy.",
+      "zh-TW": "在骨骼肌中，Pompe Disease 會嚴重損害 Autophagy 路徑。自噬體與自噬殘餘物在肌纖維中大量堆積、排擠收縮裝置；這種自噬堆積（而非僅僅溶小體醣原儲存）如今被視為肌肉病變的主要驅動因素，也是限制酵素替代療法療效的關鍵因子。"
+    },
+    "confidence": 0.9,
+    "source_document": "Pompe Disease.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "646ba1bf43ef",
+    "subject": "Pompe Disease",
+    "predicate": "is_associated_with",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Pompe Disease is mechanistically tied to Autophagy failure: undegraded glycogen in membrane-bound lysosomes causes progressive lysosomal swelling and rupture, while autophagic vacuoles fill the cytoplasm. Diaphragmatic and intercostal involvement produces restrictive respiratory failure, the main cause of morbidity in late-onset patients.",
+      "zh-TW": "Pompe Disease 在機制上與 Autophagy 失效相連：未被分解的醣原在膜包覆的溶小體中堆積，造成溶小體逐漸膨脹與破裂，同時自噬空泡佔滿細胞質。橫膈膜與肋間肌受累造成限制性呼吸衰竭，是晚發型患者主要的致病原因。"
+    },
+    "confidence": 0.85,
+    "source_document": "Pompe Disease.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "0e03806bf1d1",
+    "subject": "Post-translational Modification",
+    "predicate": "is_erased_by",
+    "object": "Sirtuins",
+    "context": {
+      "en-US": "Sirtuins (SIRT1–SIRT7) act as both erasers and metabolic sensors in the writer–eraser–reader paradigm of Post-translational Modification: they are NAD+-dependent deacetylases (SIRT1, SIRT2, SIRT3, SIRT6, SIRT7), an ADP-ribosyltransferase (SIRT4), and a desuccinylase/demalonylase/deglutarylase (SIRT5), linking cellular NAD+ status to the acetylation state of histones and metabolic enzymes.",
+      "zh-TW": "在 Post-translational Modification 的「writer–eraser–reader」典範中，Sirtuins（SIRT1–SIRT7）同時扮演 eraser 與代謝感測器：它們是 NAD+ 依賴型去乙醯化酶（SIRT1、SIRT2、SIRT3、SIRT6、SIRT7）、ADP-核糖轉移酶（SIRT4），以及去琥珀醯化酶／去丙二醯化酶／去戊二醯化酶（SIRT5），將細胞 NAD+ 狀態與組蛋白及代謝酵素的乙醯化狀態連結起來。"
+    },
+    "confidence": 0.9,
+    "source_document": "Post-translational Modification.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "7e2f7119f4f1",
+    "subject": "Post-translational Modification",
+    "predicate": "includes",
+    "object": "Ubiquitination",
+    "context": {
+      "en-US": "Ubiquitination is one of the dominant classes of Post-translational Modification, alongside phosphorylation, acetylation, methylation and glycosylation; these five account for over 90% of reported modifications. Ubiquitination is installed on lysine residues by the E1/E2/E3 cascade, removed by DUBs, and drives protein degradation, signaling and DNA repair.",
+      "zh-TW": "Ubiquitination 與磷酸化、乙醯化、甲基化、糖基化並列，為 Post-translational Modification 的主要類別之一；這五類合計佔已報告修飾的九成以上。Ubiquitination 由 E1/E2/E3 級聯在離胺酸殘基上安裝、由 DUBs 移除，並驅動蛋白降解、訊息傳遞與 DNA 修復。"
+    },
+    "confidence": 0.9,
+    "source_document": "Post-translational Modification.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "5ac98e39faa1",
+    "subject": "Post-translational Modification",
+    "predicate": "is_associated_with",
+    "object": "Cancer",
+    "context": {
+      "en-US": "Dysregulated Post-translational Modification is a hallmark of cancer: hyperactive phosphorylation cascades (MAPK, JAK/STAT, PI3K/AKT), aberrant ubiquitination that removes tumor suppressors such as p53 via MDM2, and altered acetylation/methylation that reshape the epigenetic landscape all promote tumor initiation and progression.",
+      "zh-TW": "Post-translational Modification 失調是癌症的特徵之一：過度活化的磷酸化級聯（MAPK、JAK/STAT、PI3K/AKT）、透過 MDM2 移除 p53 等腫瘤抑制蛋白的異常 ubiquitination，以及改變的乙醯化／甲基化重塑表觀遺傳景觀，皆促進腫瘤的起始與進展。"
+    },
+    "confidence": 0.85,
+    "source_document": "Post-translational Modification.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "0bab03a716dd",
+    "subject": "SIRT3",
+    "predicate": "is_a_type_of",
+    "object": "Post-translational Modification",
+    "context": {
+      "en-US": "SIRT3 exemplifies the Post-translational Modification machinery as a regulator: it is a mitochondrial NAD+-dependent deacetylase with more than 100 substrates (MnSOD, AceCS2, PYCR1, SHMT2), and its PTM of metabolic enzymes gives it dual roles in cancer — protective in normal cells, oncogenic in tumor cells.",
+      "zh-TW": "SIRT3 是 Post-translational Modification 機制作為調節者的典型例子：它是一個粒線體 NAD+ 依賴型去乙醯化酶，底物超過 100 種（MnSOD、AceCS2、PYCR1、SHMT2），而它對代謝酵素的 PTM 使其在癌症中具有雙重角色——在正常細胞中具保護作用，在腫瘤細胞中則促癌。"
+    },
+    "confidence": 0.8,
+    "source_document": "Post-translational Modification.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "cbd697c9bd73",
+    "subject": "Pregnane X Receptor",
+    "predicate": "is_activated_by",
+    "object": "Indole-3-propionic acid",
+    "context": {
+      "en-US": "Indole-3-propionic acid (IPA), the principal microbiota-derived tryptophan metabolite, activates the Pregnane X Receptor (PXR/NR1I2). PXR activation upregulates the barrier gene B3galt5, reinforces mucus and tight-junction defenses, inhibits NF-κB, and suppresses CD4⁺/CD25⁺/Th1 responses, making IPA–PXR signaling relevant to inflammatory bowel disease and barrier integrity.",
+      "zh-TW": "Indole-3-propionic acid（IPA，主要的菌群衍生色胺酸代謝物）會活化 Pregnane X Receptor（PXR/NR1I2）。PXR 活化會上調屏障基因 B3galt5、強化黏液與緊密連結防禦、抑制 NF-κB，並抑制 CD4⁺/CD25⁺/Th1 反應，使 IPA–PXR 訊號與發炎性腸病及屏障完整性相關。"
+    },
+    "confidence": 0.9,
+    "source_document": "Pregnane X Receptor.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "48c430067754",
+    "subject": "Pregnane X Receptor",
+    "predicate": "inhibits",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "Pregnane X Receptor activation suppresses NF-κB inflammatory signaling in epithelium and endothelium, maintaining mucin expression and inhibiting CD4⁺/CD25⁺/Th1 responses. PXR thus translates microbial chemistry into host transcriptional programs with anti-inflammatory output.",
+      "zh-TW": "Pregnane X Receptor 活化會在上皮與內皮中抑制 NF-κB 發炎訊號，維持黏蛋白表現並抑制 CD4⁺/CD25⁺/Th1 反應。PXR 因此能將微生物的化學訊號轉譯為具抗發炎輸出的宿主轉錄程式。"
+    },
+    "confidence": 0.85,
+    "source_document": "Pregnane X Receptor.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "7d0310d0aa74",
+    "subject": "Pregnane X Receptor",
+    "predicate": "regulates",
+    "object": "Aryl Hydrocarbon Receptor",
+    "context": {
+      "en-US": "Pregnane X Receptor and the Aryl Hydrocarbon Receptor are the two principal host receptors for microbiota-derived tryptophan metabolites. IPA signals through both, but with distinct gene sets — PXR driving detoxification and transporter induction, AhR driving xenobiotic-stress and immune-modulation programs — so the two receptors are complementary rather than redundant.",
+      "zh-TW": "Pregnane X Receptor 與 Aryl Hydrocarbon Receptor 是宿主感受菌群衍生色胺酸代謝物的兩個主要受體。IPA 會透過兩者發揮作用，但各自啟動不同的基因集——PXR 驅動解毒與轉運蛋白誘導，AhR 驅動外來物應激與免疫調節程式——因此兩者互補而非功能重疊。"
+    },
+    "confidence": 0.8,
+    "source_document": "Pregnane X Receptor.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "e3ed6a8c4d26",
+    "subject": "Pro-inflammatory Cytokines",
+    "predicate": "is_regulated_by",
+    "object": "Post-translational Modification",
+    "context": {
+      "en-US": "Pro-inflammatory Cytokines are regulated at the protein level by Post-translational Modification — phosphorylation and ubiquitination tune their activity and stability, allowing rapid, context-dependent control of inflammatory signaling and of the cytokine output that drives cancer, neurodegenerative disease and developmental disorders.",
+      "zh-TW": "Pro-inflammatory Cytokines 在蛋白質層級受 Post-translational Modification 調控——磷酸化與 ubiquitination 調整其活性與穩定性，使發炎訊號及驅動癌症、神經退化疾病與發育異常的細胞激素輸出能快速且依情境受到調控。"
+    },
+    "confidence": 0.7,
+    "source_document": "Pro-inflammatory Cytokines.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "80089c656974",
+    "subject": "Proanthocyanidins",
+    "predicate": "activates",
+    "object": "SIRT1",
+    "context": {
+      "en-US": "Proanthocyanidins (oligomeric proanthocyanidins, condensed tannins) are reported to activate SIRT1 as natural STAC polyphenols, consistent with the K-type allosteric activation mechanism (lowering substrate K~m~) described for the STAC class. Their in vivo SIRT1 engagement remains qualified by the same bioavailability limits and fluorophore artifacts that apply to other natural-polyphenol STACs.",
+      "zh-TW": "Proanthocyanidins（寡聚原花青素、縮合單寧）被報導可作為天然 STAC 多酚活化 SIRT1，與 STAC 類所描述的 K 型異位活化機制（降低受質的 K~m~）一致。其體內的 SIRT1 結合仍受其他天然多酚 STAC 同樣的生物可用性限制與螢光團假影所限定。"
+    },
+    "confidence": 0.8,
+    "source_document": "Proanthocyanidins.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "62d1780cb183",
+    "subject": "Proanthocyanidins",
+    "predicate": "is_a_type_of",
+    "object": "Polyphenols",
+    "context": {
+      "en-US": "Proanthocyanidins are the polymeric end of the flavan-3-ol axis within the broader Polyphenols/Flavonoids umbrella: they are oligomers or polymers of flavan-3-ol subunits (catechin, epicatechin) linked by B-type (C4→C8/C4→C6) or A-type ether bonds. Unlike hydrolyzable tannins they do not hydrolyze to sugars plus phenolic acids but yield anthocyanidin pigments, hence the name pro-anthocyanidin.",
+      "zh-TW": "Proanthocyanidins 是 Polyphenols/Flavonoids 大傘下 flavan-3-ol 軸的聚合端：它們由 flavan-3-ol 次單元（catechin、epicatechin）以 B 型（C4→C8／C4→C6）或 A 型醚鍵連結的寡聚物或聚合物。與可水解單寧不同，它們不會水解成糖與酚酸，而是產生花青素色素，故名為 pro-anthocyanidin。"
+    },
+    "confidence": 0.9,
+    "source_document": "Proanthocyanidins.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "756545ce26fa",
+    "subject": "Proanthocyanidins",
+    "predicate": "activates",
+    "object": "NRF2",
+    "context": {
+      "en-US": "Proanthocyanidins are exceptionally potent radical scavengers — often rated above vitamin C/E in ORAC/TEAC assays via catechol/galloyl H-donation and metal chelation — and they activate the NRF2/KEAP1 antioxidant transcriptional program, countering age-associated oxidative stress.",
+      "zh-TW": "Proanthocyanidins 是極強的自由基清除劑——在 ORAC/TEAC 測定中常優於維生素 C/E，機制包含兒茶酚／沒食子醯基的氫供應與金屬螯合——並可活化 NRF2/KEAP1 抗氧化轉錄程式，以對抗與年齡相關的氧化壓力。"
+    },
+    "confidence": 0.85,
+    "source_document": "Proanthocyanidins.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "263a51422f4d",
+    "subject": "Proanthocyanidins",
+    "predicate": "inhibits",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "Beyond SIRT1 and NRF2 engagement, Proanthocyanidins also activate AMPK, inhibit NF-κB inflammatory signaling, and modulate glycation and advanced glycation end-product formation — a multi-target profile underpinning their vascular, metabolic and neuroprotective signatures.",
+      "zh-TW": "除了作用於 SIRT1 與 NRF2 之外，Proanthocyanidins 也會活化 AMPK、抑制 NF-κB 發炎訊號，並調節 glycation 與晚期糖基化終產物的形成——這種多標的特徵構成其血管、代謝與神經保護效應的基礎。"
+    },
+    "confidence": 0.8,
+    "source_document": "Proanthocyanidins.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "789e02f5b293",
+    "subject": "Progeria",
+    "predicate": "is_caused_by",
+    "object": "LMNA Gene",
+    "context": {
+      "en-US": "Progeria (Hutchinson-Gilford progeria syndrome) is caused by a mutation in the LMNA Gene that produces progerin, a toxic lamin A variant. Progerin accumulation drives premature aging features including cardiovascular disease, osteoporosis and frailty, making progeria a model of natural aging mechanisms.",
+      "zh-TW": "Progeria（Hutchinson-Gilford 早老症）由 LMNA Gene 的突變所造成，該突變產生 progerin——一種具毒性的 lamin A 變體。Progerin 累積驅動提早老化表徵，包括心血管疾病、骨質疏鬆與虛弱，使 progeria 成為研究天然老化機制的模型。"
+    },
+    "confidence": 0.9,
+    "source_document": "Progeria.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "f345e7fa4bfb",
+    "subject": "Fisetin",
+    "predicate": "reduces",
+    "object": "Progeria",
+    "context": {
+      "en-US": "In the Ercc1−/Δ progeroid mouse model — which accumulates senescent cells and SASP markers at an accelerated rate — Fisetin treatment reduced p16INK4a-luciferase signal, senescence markers and age-related pathology (Yousefzadeh et al., 2018), supporting the senolytic utility of Fisetin in progeroid models.",
+      "zh-TW": "在 Ercc1−/Δ 早老小鼠模型中（該模型以加速速度累積衰老細胞與 SASP 標記），Fisetin 處理可降低 p16INK4a-報光訊號、衰老標記與年齡相關病理（Yousefzadeh 等，2018），支持 Fisetin 在早老模型中的 senolytic 效用。"
+    },
+    "confidence": 0.85,
+    "source_document": "Progeria.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "4d4878fbef3a",
+    "subject": "SIRT6",
+    "predicate": "protects_against",
+    "object": "Progerin",
+    "context": {
+      "en-US": "Centenarian SIRT6 variants (N308K/A313S) and AAV-mediated CentSIRT6 delivery confer resistance to progerin-induced damage: they protect hMSCs from progerin-induced senescence, preserve genome stability, and suppress LINE1 derepression, reducing LINE1 ORF1p/ORF2p in HGPS patient fibroblasts.",
+      "zh-TW": "百歲老人型 SIRT6 變異（N308K/A313S）與 AAV 介導的 CentSIRT6 給予可抵抗 progerin 造成的傷害：它們保護 hMSC 免於 progerin 誘發的衰老、維持基因體穩定並抑制 LINE1 去抑制，使 HGPS 患者纖維母細胞的 LINE1 ORF1p/ORF2p 降低。"
+    },
+    "confidence": 0.8,
+    "source_document": "Progeria.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "078250672987",
+    "subject": "Progerin",
+    "predicate": "is_derived_from",
+    "object": "Lamin A",
+    "context": {
+      "en-US": "Progerin is a truncated, permanently farnesylated variant of Lamin A. A point mutation in the LMNA Gene activates a cryptic splice site, deleting 50 amino acids near the C-terminus including the site where the farnesyl group is normally removed, so progerin stays anchored to the inner nuclear membrane and deforms the nucleus (nuclear blebbing).",
+      "zh-TW": "Progerin 是 Lamin A 的截短且永久帶有 farnesyl 基團的變體。LMNA Gene 的點突變活化了一個隱性剪接位點，刪去靠近 C 端的 50 個胺基酸（包含原本移除 farnesyl 基團的位置），因此 progerin 持續錨定在核內膜上並使細胞核變形（核起泡）。"
+    },
+    "confidence": 0.9,
+    "source_document": "Progerin.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "a1e0c30949e5",
+    "subject": "Progerin",
+    "predicate": "causes",
+    "object": "Senescence",
+    "context": {
+      "en-US": "Progerin accumulation causes nuclear blebbing, genomic instability (disrupted chromatin organization and DNA repair), and premature senescence with SASP induction — the molecular basis of Hutchinson-Gilford Progeria Syndrome and its accelerated aging phenotype.",
+      "zh-TW": "Progerin 累積會造成核起泡、基因體不穩定（染色質組織與 DNA 修復受損），以及提早誘發衰老與 SASP——這正是 Hutchinson-Gilford Progeria Syndrome 及其加速老化表型的分子基礎。"
+    },
+    "confidence": 0.85,
+    "source_document": "Progerin.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "5cb17e88a099",
+    "subject": "Progerin",
+    "predicate": "induces",
+    "object": "Genomic Instability",
+    "context": {
+      "en-US": "Progerin induces genomic instability by disrupting chromatin organization and DNA repair in the nucleus; the resulting LINE1 derepression in progeria cells is suppressed by centenarian SIRT6 variants, linking the laminopathy to loss of genome stability.",
+      "zh-TW": "Progerin 藉由破壞細胞核內的染色質組織與 DNA 修復而誘發基因體不穩定；由此在早老症細胞中造成的 LINE1 去抑制可被百歲老人型 SIRT6 變異抑制，將此核纖層病與基因體穩定性丧失連結起來。"
+    },
+    "confidence": 0.8,
+    "source_document": "Progerin.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "9bd049c93e3d",
+    "subject": "Proline",
+    "predicate": "is_precursor_of",
+    "object": "Polyamine",
+    "context": {
+      "en-US": "Proline is the major nitrogen donor for polyamine synthesis, including spermidine, which is itself implicated in autophagy induction and longevity. Proline's cyclic structure additionally constrains protein backbone conformation and stabilizes collagen.",
+      "zh-TW": "Proline 是多胺（包括 spermidine）合成的主要氮供應者，而 spermidine 本身即與自噬誘導及長壽相關。Proline 的環狀結構另外可限制蛋白主鏈構形並穩定 collagen。"
+    },
+    "confidence": 0.9,
+    "source_document": "Proline.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "2c3103ea7e39",
+    "subject": "Proline",
+    "predicate": "feeds",
+    "object": "Mitochondria",
+    "context": {
+      "en-US": "The proline catabolic pathway (proline → P5C → glutamate) transfers electrons to the mitochondrial electron transport chain, linking proline metabolism to cellular energetics. Impairment of this pathway shortens lifespan through impaired mitochondrial function.",
+      "zh-TW": "Proline 分解代謝路徑（proline → P5C → glutamate）將電子傳遞給粒線體電子傳遞鏈，將 proline 代謝與細胞能量學連結起來。此路徑受損會透過粒線體功能障礙而縮短壽命。"
+    },
+    "confidence": 0.7,
+    "source_document": "Proline.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "ac43e2be74c0",
+    "subject": "Proline",
+    "predicate": "reduces",
+    "object": "Cellular Senescence",
+    "context": {
+      "en-US": "Proline levels are reduced in aged organisms and in senescent cells, and proline supplementation decreases senescence of mesenchymal stem cells in culture while extending lifespan in yeast and C. elegans — plausibly through reactive oxygen species scavenging.",
+      "zh-TW": "Proline 濃度在老化個體與衰老細胞中下降；補充 proline 可降低培養中間質幹細胞的衰老，並延長酵母與 C. elegans 的壽命——可能透過清除 reactive oxygen species 達成。"
+    },
+    "confidence": 0.8,
+    "source_document": "Proline.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "1a627cea1fb4",
+    "subject": "Promethazine",
+    "predicate": "is_a_type_of",
+    "object": "Phenothiazine",
+    "context": {
+      "en-US": "Promethazine is a phenothiazine derivative in which the position-10 nitrogen carries a 2-(dimethylamino)propyl side chain. This substitution blocks the free heterocyclic nitrogen required for alternative electron transfer, yields a strongly positive redox potential (E1/2 ≈ 1.069 V vs NHE), and abolishes the methylene blue-like mitochondrial electron-shunt phenotype.",
+      "zh-TW": "Promethazine 是 phenothiazine 的衍生物，其 10 位氮上接有 2-(dimethylamino)propyl 側鏈。此取代阻斷了替代性電子傳遞所需的游離雜環氮，產生極正還原電位（E1/2 ≈ 1.069 V vs NHE），並消除 methylene blue 式的粒線體電子分流表型。"
+    },
+    "confidence": 0.85,
+    "source_document": "Promethazine.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "3059601213f3",
+    "subject": "Promethazine",
+    "predicate": "lacks",
+    "object": "Mitochondrial Electron Transport Chain",
+    "context": {
+      "en-US": "Promethazine does not bypass or enhance the Mitochondrial Electron Transport Chain: in the Complex I→Complex III assay it did not increase cytochrome c reduction, and it did not increase cellular oxygen consumption rate or affect ECAR. The ~1000-fold loss of neuroprotective potency versus Methylene blue reflects the 10-nitrogen side chain.",
+      "zh-TW": "Promethazine 既不繞過也不增強 Mitochondrial Electron Transport Chain：在 Complex I→Complex III 測定中它並未增加 cytochrome c 的還原，也未提高細胞耗氧率或影響 ECAR。相較 Methylene blue，其神經保護效價降低約一千倍，反映出 10 位氮側鏈的影響。"
+    },
+    "confidence": 0.8,
+    "source_document": "Promethazine.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "b9b1203a77e7",
+    "subject": "Promethazine",
+    "predicate": "is_a_type_of",
+    "object": "Chlorpromazine",
+    "context": {
+      "en-US": "Promethazine shares the liabilities of Chlorpromazine: both are phenothiazines substituted on the 10-nitrogen, both lack the methylene blue-like mitochondrial protection, and both show weak neuroprotection — confirming that a 10-nitrogen side chain collapses the alternative electron-transfer phenotype regardless of clinical indication (antihistamine vs antipsychotic).",
+      "zh-TW": "Promethazine 與 Chlorpromazine 具有相同的缺陷：兩者都是在 10 位氮上取代的 phenothiazine，都缺乏 methylene blue 式的粒線體保護，神經保護作用皆弱——證實 10 位氮側鏈會消除替代性電子傳遞表型，與臨床適應症（抗組織胺 vs 抗精神病）無關。"
+    },
+    "confidence": 0.75,
+    "source_document": "Promethazine.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "764d6fae85a5",
+    "subject": "Propidium Iodide",
+    "predicate": "interacts_with",
+    "object": "Annexin V",
+    "context": {
+      "en-US": "Propidium Iodide is paired with Annexin V in the standard viability panel: PI is a membrane-impermeant intercalating dye excluded by intact membranes, so Annexin V+/PI− defines early apoptosis while Annexin V+/PI+ marks lytic programs (parthanatos, necrosis, necroptosis, pyroptosis) and late secondary necrosis of uncleared apoptotic bodies.",
+      "zh-TW": "Propidium Iodide 在標準細胞存活面板中與 Annexin V 搭配使用：PI 為膜不通透的嵌入型染劑，完整細胞膜會將其排除，因此 Annexin V+/PI− 定義早期 apoptosis，而 Annexin V+/PI+ 則標記裂解型程序（parthanatos、necrosis、necroptosis、pyroptosis）以及未被清除凋亡小體的晚期次級壞死。"
+    },
+    "confidence": 0.95,
+    "source_document": "Propidium Iodide.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "8239d8a36c4a",
+    "subject": "Propidium Iodide",
+    "predicate": "detects",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "Propidium Iodide reports membrane rupture: its negativity is the live-cell signature of early Apoptosis, whereas positivity in uncleared apoptotic cells marks late secondary necrosis, making PI status the workhorse discriminator between lytic and non-lytic death programs.",
+      "zh-TW": "Propidium Iodide 反映細胞膜破裂：其陰性是早期 Apoptosis 的活細胞特徵，而未被清除的凋亡細胞呈陽性則標記晚期次級壞死，使 PI 狀態成為區分裂解型與非裂解型死亡程序的主要工具。"
+    },
+    "confidence": 0.9,
+    "source_document": "Propidium Iodide.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "38777af415dd",
+    "subject": "Propidium Iodide",
+    "predicate": "detects",
+    "object": "Parthanatos",
+    "context": {
+      "en-US": "Parthanatos, like Necrosis, Necroptosis and Pyroptosis, is a lytic death program that ruptures the plasma membrane and therefore stains Propidium Iodide positive; the Annexin V+/PI+ combination is the diagnostic signature used to separate it from non-lytic apoptosis.",
+      "zh-TW": "Parthanatos 與 Necrosis、Necroptosis、Pyroptosis 同屬會破壞細胞膜的裂解型死亡程序，因此呈 Propidium Iodide 陽性；Annexin V+/PI+ 的組合即是將其與非裂解型 apoptosis 區分的診斷特徵。"
+    },
+    "confidence": 0.85,
+    "source_document": "Propidium Iodide.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "895ece4a6a3a",
+    "subject": "Propionate",
+    "predicate": "is_a_type_of",
+    "object": "Short-chain Fatty Acids",
+    "context": {
+      "en-US": "Propionate is the three-carbon (C3) member of the Short-chain Fatty Acids, generated when gut bacteria ferment dietary fiber and resistant starch. Unlike acetate and butyrate it is produced largely by Bacteroidetes via succinate and acrylate pathways, and is absorbed into the portal vein for extensive first-pass hepatic extraction.",
+      "zh-TW": "Propionate 是 Short-chain Fatty Acids 中三碳（C3）的成員，由腸道細菌發酵膳食纖維與抗性澱粉產生。與 acetate 和 butyrate 不同，它主要由 Bacteroidetes 經 succinate 與 acrylate 路徑產生，並被吸收入門脈靜脈，經肝臟大量首過萃取。"
+    },
+    "confidence": 0.95,
+    "source_document": "Propionate.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "efdfcb348e9a",
+    "subject": "Propionate",
+    "predicate": "feeds",
+    "object": "Gluconeogenesis",
+    "context": {
+      "en-US": "In hepatocytes propionate is activated to propionyl-CoA, carboxylated, epimerized and rearranged to succinyl-CoA by the Vitamin B12-dependent enzyme methylmalonyl-CoA mutase, feeding the gluconeogenic and TCA cycles — making propionate a meaningful precursor for endogenous glucose production during fasting.",
+      "zh-TW": "在肝細胞中，propionate 被活化為 propionyl-CoA，經羧化、差向異構後，由 Vitamin B12 依賴的酵素 methylmalonyl-CoA mutase 重排為 succinyl-CoA，供應糖質新生與 TCA 循環——使 propionate 成为禁食期間內源性葡萄糖生成的重要前驅物。"
+    },
+    "confidence": 0.9,
+    "source_document": "Propionate.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "5288db335b05",
+    "subject": "Propionate",
+    "predicate": "reduces",
+    "object": "Inflammation",
+    "context": {
+      "en-US": "Propionate signals through FFAR2 and FFAR3 on enteroendocrine and immune cells, reinforcing intestinal barrier integrity and exerting anti-inflammatory actions: it can suppress NF-κB activation, promote regulatory T-cell differentiation and lower systemic inflammation, linking propionate to improved metabolic control.",
+      "zh-TW": "Propionate 透過腸泌素細胞與免疫細胞上的 FFAR2 與 FFAR3 傳遞訊號，強化腸道屏障完整性並發揮抗發炎作用：可抑制 NF-κB 活化、促進調節型 T 細胞分化並降低全身性 inflammation，將 propionate 與改善的代謝控制連結起來。"
+    },
+    "confidence": 0.85,
+    "source_document": "Propionate.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "515a68177ff9",
+    "subject": "Propionate",
+    "predicate": "is_produced_by",
+    "object": "Gut Microbiome",
+    "context": {
+      "en-US": "Propionate is produced by the Gut Microbiome through fermentation of dietary fiber and resistant starch, making it a key node connecting diet, microbial metabolism and host metabolism. Low SCFA exposure is associated with obesity and type 2 diabetes, whereas higher propionate availability tracks with favorable metabolic and longevity phenotypes.",
+      "zh-TW": "Propionate 由 Gut Microbiome 發酵膳食纖維與抗性澱粉而產生，使其成為連結飲食、微生物代謝與宿主代謝的關鍵節點。SCFA 曝露量低與肥胖及第二型糖尿病相關，而較高的 propionate 可利用度則與有利的代謝與長壽表型相呼應。"
+    },
+    "confidence": 0.9,
+    "source_document": "Propionate.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "f17e98f04939",
+    "subject": "Prostaglandin G₂",
+    "predicate": "is_produced_by",
+    "object": "Cyclooxygenase",
+    "context": {
+      "en-US": "Prostaglandin G₂ (PGG₂) is the 15-hydroperoxy endoperoxide produced by the bis-dioxygenation of arachidonic acid at the cyclooxygenase site of COX-1/COX-2 — two O₂ additions forming the bicyclic endoperoxide — making it the first committed intermediate of the prostanoid pathway and the site of aspirin's irreversible Ser530 acetylation.",
+      "zh-TW": "Prostaglandin G₂（PGG₂）是在 COX-1/COX-2 的環氧化酶位點由花生四烯酸雙加氧而產生的 15-過氧基內過氧化物——兩次 O₂ 加成形成雙環內過氧化物——使其成為前列腺素路徑的第一個承諾中間產物，也是 aspirin 不可逆乙醯化 Ser530 的作用位點。"
+    },
+    "confidence": 0.95,
+    "source_document": "Prostaglandin G₂.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "f4cecbb8d961",
+    "subject": "Prostaglandin G₂",
+    "predicate": "contributes_to",
+    "object": "Lipid Peroxidation",
+    "context": {
+      "en-US": "Prostaglandin G₂ is a genuine lipid hydroperoxide — the only one produced enzymatically in bulk — and the ferryl-oxo protoporphyrin radical cation generated at the COX peroxidase site can leak and oxidize nearby lipids and proteins. Under glutathione depletion this couples prostanoid synthesis to local Lipid Peroxidation, linking inflammation with oxidative membrane damage and oxidized LDL formation.",
+      "zh-TW": "Prostaglandin G₂ 是真正的脂質過氧化氫——唯一大量以酵素方式產生的成員——而 COX 過氧化酶位點生成的高鐵醯基原血紅素自由基陽離子會外漏並氧化鄰近脂質與蛋白質。在穀胱甘肽耗竭下，此現象將前列腺素合成與局部 Lipid Peroxidation 耦合，連結發炎與氧化性膜損傷及氧化 LDL 的形成。"
+    },
+    "confidence": 0.85,
+    "source_document": "Prostaglandin G₂.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "300daf01c223",
+    "subject": "Prostaglandin G₂",
+    "predicate": "is_precursor_of",
+    "object": "Prostaglandin H₂",
+    "context": {
+      "en-US": "Prostaglandin H₂ (PGH₂) is produced when the peroxidase site of the same cyclooxygenase reduces the C15 hydroperoxide of PGG₂ to a C15 hydroxyl, converting the hydroperoxide intermediate into the common precursor of all prostanoids — prostaglandins, thromboxane A₂ and prostacyclin.",
+      "zh-TW": "當同一環氧化酶的過氧化酶位點將 PGG₂ 的 C15 過氧基還原為 C15 羥基時，產生 Prostaglandin H₂（PGH₂），使此過氧化中間產物轉為所有前列腺素類——前列腺素、thromboxane A₂ 與 prostacyclin——的共同前驅物。"
+    },
+    "confidence": 0.95,
+    "source_document": "Prostaglandin G₂.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "344a8a3bfc79",
+    "subject": "Prostaglandin H₂",
+    "predicate": "is_derived_from",
+    "object": "Prostaglandin G₂",
+    "context": {
+      "en-US": "Prostaglandin H₂ is derived from PGG₂ by the peroxidase activity of Cyclooxygenase, which requires a reducing co-substrate (phenol or other hydroperoxide activators serve this role in vivo). PGH₂ keeps the bicyclic endoperoxide bridge but bears a C15 alcohol, is unstable with a half-life of minutes, and is never measured directly in clinical samples.",
+      "zh-TW": "Prostaglandin H₂ 由 Cyclooxygenase 的過氧化酶活性自 PGG₂ 衍生，此反應需要還原性共底物（體內由酚類或其他過氧化氫活化劑擔任）。PGH₂ 保留雙環內過氧化物橋但帶有 C15 醇基，化學不穩定（半衰期僅數分鐘），因此臨床樣本中從不直接測定。"
+    },
+    "confidence": 0.95,
+    "source_document": "Prostaglandin H₂.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "93c9fd214904",
+    "subject": "Prostaglandin H₂",
+    "predicate": "is_precursor_of",
+    "object": "Thromboxane A₂",
+    "context": {
+      "en-US": "Prostaglandin H₂ is the common precursor of all terminal prostanoids. Platelets preferentially make Thromboxane A₂ (vasoconstriction, platelet aggregation) while endothelium preferentially makes prostacyclin, and this TXA₂/PGI₂ balance — both drawn from the same PGH₂ pool — is the central determinant of vascular thrombotic tendency.",
+      "zh-TW": "Prostaglandin H₂ 是所有末端前列腺素類的共同前驅物。血小板偏好製造 Thromboxane A₂（血管收縮、血小板聚集），內皮則偏好製造 prostacyclin；此源自同一 PGH₂ 池的 TXA₂/PGI₂ 平衡是血管血栓傾向的核心決定因素。"
+    },
+    "confidence": 0.9,
+    "source_document": "Prostaglandin H₂.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "e270eefd70c7",
+    "subject": "Prostaglandin H₂",
+    "predicate": "is_precursor_of",
+    "object": "Prostacyclin",
+    "context": {
+      "en-US": "Prostaglandin H₂ is converted by prostacyclin synthase to prostacyclin (PGI₂), a vasodilator and inhibitor of platelet aggregation produced preferentially by endothelial cells. Because platelets are enucleate and cannot resynthesize cyclooxygenase, irreversible Ser530 acetylation by aspirin in platelets suppresses PGH₂-derived thromboxane for ~10 days while largely preserving recoverable endothelial prostacyclin.",
+      "zh-TW": "Prostaglandin H₂ 經 prostacyclin synthase 轉為 prostacyclin（PGI₂），為血管擴張與抑制血小板聚集的分子，主要由內皮細胞製造。由於血小板無核且無法重新合成環氧化酶，aspirin 對其 Ser530 的不可逆乙醯化可抑制 PGH₂ 衍生的 thromboxane 約十天，而幾乎保留可恢復的內皮 prostacyclin。"
+    },
+    "confidence": 0.9,
+    "source_document": "Prostaglandin H₂.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "1c77d6963d40",
+    "subject": "Prostaglandin H₂",
+    "predicate": "produces",
+    "object": "Malondialdehyde",
+    "context": {
+      "en-US": "Fragmentation of Prostaglandin H₂ is a recognized non-radical source of Malondialdehyde, so prostanoid turnover contributes to measured MDA independent of free-radical lipid peroxidation. Basal MDA therefore cannot be read as pure oxidative stress; pairing it with F2-Isoprostanes separates the enzymatic from the radical-derived source.",
+      "zh-TW": "Prostaglandin H₂ 的碎裂是 Malondialdehyde 一個公認的非自由基來源，因此前列腺素類的轉換會在與自由基脂質過氧化無關的情況下影響 MDA 測量值。故基礎 MDA 不能直接解讀為純粹的氧化壓力；將其與 F2-Isoprostanes 配對可區分酵素性與自由基衍生來源。"
+    },
+    "confidence": 0.85,
+    "source_document": "Prostaglandin H₂.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "286ffb96a850",
+    "subject": "Proteasome",
+    "predicate": "is_a_component_of",
+    "object": "Ubiquitin-Proteasome System",
+    "context": {
+      "en-US": "The Proteasome is the large multi-catalytic protease complex and central effector of the Ubiquitin-Proteasome System, which tags substrates with ubiquitin for targeted destruction. The 20S core is a barrel-shaped ~700 kDa particle of two outer α-rings and two inner β-rings, degrading oxidized, misfolded and damaged proteins independently of ubiquitination.",
+      "zh-TW": "Proteasome 是大型多催化蛋白酶複合體，也是 Ubiquitin-Proteasome System 的核心效應器，該系統以 ubiquitin 標記受質以進行定向分解。20S 核心為約 700 kDa 的桶狀顆粒，由外側兩個 α 環與內側兩個 β 環組成，可不依賴 ubiquitination 降解氧化、錯誤摺疊與受損的蛋白質。"
+    },
+    "confidence": 0.9,
+    "source_document": "Proteasome.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "b197e80d121e",
+    "subject": "Proteasome",
+    "predicate": "protects_against",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "The Proteasome acts as a primary defense against oxidative protein damage: mild oxidative stress raises 20S activity by directly oxidizing α-subunits to open the gated channel and by NRF2-mediated induction of PSMB5 and other subunits. Substrate entry is ATP- and ubiquitin-independent, which matters when ATP is depleted during oxidative stress.",
+      "zh-TW": "Proteasome 是對抗氧化性蛋白損傷的第一道防線：輕度氧化壓力會藉由直接氧化 α 次單元以開啟閘控通道，以及經 NRF2 誘導 PSMB5 與其他次單元，提升 20S 活性。受質進入不需 ATP 與 ubiquitin，這在氧化壓力下 ATP 耗竭時格外重要。"
+    },
+    "confidence": 0.85,
+    "source_document": "Proteasome.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "fb22f471a337",
+    "subject": "Proteasome",
+    "predicate": "is_impaired_in",
+    "object": "Aging",
+    "context": {
+      "en-US": "Proteasome activity declines with age, contributing to the accumulation of oxidized and aggregated proteins — a hallmark of aging. Impaired 20S function likewise contributes to protein aggregation pathology in Alzheimer's disease, Parkinson's disease and Huntington's disease, and oxidized LDL-induced proteasome dysfunction in endothelium promotes atherosclerosis.",
+      "zh-TW": "Proteasome 活性隨年齡下降，導致氧化與聚集蛋白的累積——這是老化的特徵之一。20S 功能受損同樣促成 Alzheimer’s disease、Parkinson’s disease 與 Huntington’s disease 中的蛋白聚集病理，而內皮細胞因氧化 LDL 而發生的 proteasome 功能障礙則促進動脈粥狀硬化。"
+    },
+    "confidence": 0.8,
+    "source_document": "Proteasome.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "ea40160e221c",
+    "subject": "NRF2",
+    "predicate": "upregulates",
+    "object": "Proteasome",
+    "context": {
+      "en-US": "Under mild oxidative stress NRF2 induces PSMB5 and other proteasome subunits via ARE elements, raising 20S proteasome capacity so that partially unfolded oxidized substrates — which expose hydrophobic patches — can be translocated directly into the catalytic chamber.",
+      "zh-TW": "在輕度氧化壓力下，NRF2 會透過 ARE 元件誘導 PSMB5 與其他 proteasome 次單元，提高 20S proteasome 產能，使部分解摺疊而暴露疏水片段的氧化受質能直接轉位進入催化腔。"
+    },
+    "confidence": 0.85,
+    "source_document": "Proteasome.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "d4db55a8c601",
+    "subject": "Protein Kinase A",
+    "predicate": "phosphorylates",
+    "object": "DRP1",
+    "context": {
+      "en-US": "Protein Kinase A phosphorylates the fission GTPase DRP1 at Ser637, a cAMP-dependent serine/threonine modification that retains DRP1 in the cytosol and prevents its recruitment to the outer mitochondrial membrane. PKA therefore negatively regulates mitochondrial fission, in contrast to pro-fission kinases such as ERK (Ser616) and CDK1 (Ser585).",
+      "zh-TW": "Protein Kinase A 會在 Ser637 磷酸化裂解 GTP 酶 DRP1；這個 cAMP 依賴的絲胺酸/蘇胺酸修飾使 DRP1 留在 cytosol，阻止其被招募至 outer mitochondrial membrane。因此 PKA 負向調控粒線體分裂，與 ERK（Ser616）、CDK1（Ser585）等促分裂激酶相反。"
+    },
+    "confidence": 0.95,
+    "source_document": "Protein Kinase A.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "6b0068599d8a",
+    "subject": "Protein Kinase D",
+    "predicate": "activates",
+    "object": "IKK complex",
+    "context": {
+      "en-US": "Once active, Protein Kinase D phosphorylates and activates the IKK complex — phosphorylating IKKβ and the regulatory machinery — which stimulates IκBα degradation and nuclear NF-κB translocation. PKD also modulates NF-κB at the chromatin level (e.g., phosphorylation of histone H3 at Ser10) and influences AP-1 and CREB transcriptional programs.",
+      "zh-TW": "Protein Kinase D 一旦活化便磷酸化並活化 IKK complex——磷酸化 IKKbeta 與其調節機制——從而促進 IκBα 降解與 NF-κB 的核內轉位。PKD 也在染色質層級調節 NF-κB（例如磷酸化組蛋白 H3 的 Ser10），並影響 AP-1 與 CREB 轉錄程式。"
+    },
+    "confidence": 0.9,
+    "source_document": "Protein Kinase D.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "fc40743c6781",
+    "subject": "Protein Kinase D",
+    "predicate": "is_activated_by",
+    "object": "Mitochondrial ROS",
+    "context": {
+      "en-US": "Protein Kinase D is a major sensor of oxidative and genotoxic stress and is directly engaged by reactive oxygen species: in senescent cells accumulated mitochondrial ROS promote PKD autophosphorylation (Ser744/Ser748 in PKD1) and membrane/cytoskeletal translocation, positioning PKD as a translator of cellular redox state into inflammatory gene expression.",
+      "zh-TW": "Protein Kinase D 是氧化與基因毒性壓力的主要感測器，並可直接被活性氧engage：在衰老細胞中累積的粒線體 ROS 會促進 PKD 自體磷酸化（PKD1 的 Ser744/Ser748）與膜／細胞骨架轉位，使 PKD 成為將細胞氧化還原狀態轉譯為發炎性基因表現的節點。"
+    },
+    "confidence": 0.85,
+    "source_document": "Protein Kinase D.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "b70d4e8e8a0b",
+    "subject": "Protein Kinase D",
+    "predicate": "upregulates",
+    "object": "SASP",
+    "context": {
+      "en-US": "Protein Kinase D drives NF-κB-dependent transcription of SASP components such as IL-6 and IL-8 in senescent cells, so it determines both the magnitude and the qualitative profile of the senescent secretome. Targeting PKD offers a senomorphic route to limit chronic SASP-driven inflammaging and tissue dysfunction in aging.",
+      "zh-TW": "Protein Kinase D 在衰老細胞中驅動 IL-6 與 IL-8 等 SASP 組成物的 NF-κB 依賴性轉錄，因此可決定衰老分泌組的量級與質地特徵。以 PKD 為標的提供了一條 senomorphic 途徑，可限制老化中慢性 SASP 驅動的 inflammaging 與組織功能障礙。"
+    },
+    "confidence": 0.85,
+    "source_document": "Protein Kinase D.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "e71a3896db43",
+    "subject": "Protein Kinase D",
+    "predicate": "activates",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "Protein Kinase D activates NF-κB through the IKK complex, promoting IκBα degradation and nuclear translocation. This redox-sensitive PKD–NF-κB link is what allows mitochondrial oxidative stress to shape inflammatory gene expression in aging.",
+      "zh-TW": "Protein Kinase D 透過 IKK complex 活化 NF-κB，促進 IκBα 降解與核內轉位。這條對氧化還原敏感的 PKD–NF-κB 連結，正是粒線體氧化壓力能在老化中塑造發炎性基因表現的原因。"
+    },
+    "confidence": 0.85,
+    "source_document": "Protein Kinase D.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "c259f7eff760",
+    "subject": "Protein Restriction",
+    "predicate": "recapitulates",
+    "object": "Caloric Restriction",
+    "context": {
+      "en-US": "Protein Restriction recapitulates many of the benefits of Caloric Restriction — improved metabolic health and extended lifespan across yeast, flies and rodents — without requiring a reduction in overall energy intake, and is far easier to sustain than calorie restriction itself.",
+      "zh-TW": "Protein Restriction 在不需減少總能量攝取的情況下，重現 Caloric Restriction 的許多效益——在酵母、果蠅與囓齒類中改善代謝健康並延長壽命——且比熱量限制本身更容易長期維持。"
+    },
+    "confidence": 0.9,
+    "source_document": "Protein Restriction.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "9366cb091646",
+    "subject": "Protein Restriction",
+    "predicate": "requires",
+    "object": "FGF21",
+    "context": {
+      "en-US": "Protein Restriction robustly elevates FGF21 in mice, rats and humans, and FGF21 is required for many of its metabolic effects — increased food intake, reduced body weight, increased energy expenditure and extended lifespan. FGF21 acts in part through UCP1-dependent thermogenic beiging of white adipose tissue and mediates effects on senescence and inflammation.",
+      "zh-TW": "Protein Restriction 在小鼠、大鼠與人類中穩定提升 FGF21，而 FGF21 是其多數代謝效應所必需——增加攝食、降低體重、增加能量消耗並延長壽命。FGF21 部分透過 UCP1 依賴的白色脂肪組織米色化產熱作用，並中介對衰老與發炎的影響。"
+    },
+    "confidence": 0.9,
+    "source_document": "Protein Restriction.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "3d32aa87f9b9",
+    "subject": "Protein Turnover",
+    "predicate": "maintains",
+    "object": "Proteostasis",
+    "context": {
+      "en-US": "Protein Turnover is the dynamic steady state between protein synthesis and degradation that maintains Proteostasis across the body. Because each peptide bond consumes ATP equivalents, the aggregate rate of whole-body protein turnover is a meaningful component of resting energy metabolism.",
+      "zh-TW": "Protein Turnover 是蛋白合成與分解之間的動態平衡，維持全身的 Proteostasis。由於每個肽鍵都消耗 ATP 當量，全體蛋白周轉的總速率是靜止能量代謝中一個有意義的組成部分。"
+    },
+    "confidence": 0.9,
+    "source_document": "Protein Turnover.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "a6fdba5c2293",
+    "subject": "Protein Turnover",
+    "predicate": "correlates_with",
+    "object": "Resting Metabolic Rate",
+    "context": {
+      "en-US": "Whole-body Protein Turnover correlates with Resting Metabolic Rate beyond what lean mass predicts (Badaloo et al. 1996), and is one of the physiological correlates of the residual heritable variance in RMR. Skeletal muscle contributes disproportionately: muscle mass and muscle protein turnover dominate total-body protein flux.",
+      "zh-TW": "全體 Protein Turnover 與 Resting Metabolic Rate 的相關性超出瘦體重所能解釋的範圍（Badaloo 等，1996），且是 RMR 殘餘遺傳變異的生理相關因子之一。骨骼肌貢獻不成比例地大：肌肉量與肌肉蛋白周轉主導了全身的蛋白通量。"
+    },
+    "confidence": 0.85,
+    "source_document": "Protein Turnover.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "d489674d65d8",
+    "subject": "Protein Turnover",
+    "predicate": "is_increased_by",
+    "object": "Exercise",
+    "context": {
+      "en-US": "Protein Turnover is regulated by nutrient availability, anabolic hormones (insulin, growth hormone, IGF-1), catabolic signals (glucocorticoids, cytokines) and physical activity. Resistance exercise transiently increases both muscle protein synthesis and degradation, with synthesis favored under adequate amino acid supply.",
+      "zh-TW": "Protein Turnover 受營養可利用性、合成代謝荷爾蒙（insulin、growth hormone、IGF-1）、分解代謝訊號（glucocorticoids、cytokines）與身體活動調控。阻力運動會暫時同時增加肌肉蛋白合成與分解，在胺基酸供應充足時以合成為主。"
+    },
+    "confidence": 0.8,
+    "source_document": "Protein Turnover.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "48711db94f8c",
+    "subject": "Proteinopathy",
+    "predicate": "is_a_type_of",
+    "object": "Neurodegenerative Disease",
+    "context": {
+      "en-US": "Proteinopathy describes a family of neurodegenerative diseases driven by the misfolding, accumulation and aggregation of specific proteins — Aβ and tau in Alzheimer's disease, α-synuclein in Parkinson's disease, mutant TDP-43 in ALS/FTD, mutant huntingtin in Huntington's disease, and mutant SOD1. Although the offending proteins differ, many proteinopathies generate cytosolic dsDNA that activates cGAS.",
+      "zh-TW": "Proteinopathy 描述一族由特定蛋白錯誤摺疊、累積與聚集所驅動的 neurodegenerative disease——Alzheimer’s disease 的 Aβ 與 tau、Parkinson’s disease 的 α-synuclein、ALS/FTD 的突變型 TDP-43、Huntington’s disease 的突變型 huntingtin，以及突變型 SOD1。雖致病蛋白不同，許多 proteinopathy 會產生可活化 cGAS 的細胞質雙股 DNA。"
+    },
+    "confidence": 0.9,
+    "source_document": "Proteinopathy.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "b038de356597",
+    "subject": "Proteinopathy",
+    "predicate": "activates",
+    "object": "cGAS",
+    "context": {
+      "en-US": "A unifying principle across proteinopathies is activation of cGAS: the most consistent source of activating DNA is leakage of mtDNA from damaged or stressed mitochondria, often via mPTP/VDAC1 opening or Bax-mediated outer membrane permeabilization. Cytosolic self-DNA engages cGAS, driving type I interferon and cytokine production through IRF3 and NF-κB.",
+      "zh-TW": "跨越各類 proteinopathy 的統一原理即是 cGAS 的活化：最具一致性的活化 DNA 來源是受損或受壓粒線體漏出的 mtDNA，常經由 mPTP/VDAC1 開啟或 Bax 介導的外膜通透化。細胞質中的自身 DNA 結合 cGAS，經 IRF3 與 NF-κB 驅動第一型干擾素與 cytokine 產生。"
+    },
+    "confidence": 0.85,
+    "source_document": "Proteinopathy.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "679f920dc2b3",
+    "subject": "Tau",
+    "predicate": "interacts_with",
+    "object": "PQBP1",
+    "context": {
+      "en-US": "The tau–PQBP1 complex is the key DNA-independent exception to the proteinopathy rule: it activates cGAS through a direct protein–protein interaction that bypasses the requirement for cytosolic DNA entirely, broadening the relevance of cGAS-STING signaling across the proteinopathy spectrum.",
+      "zh-TW": "Tau–PQBP1 複合體是 proteinopathy 法則中關鍵的 DNA 非依賴性例外：它透過直接的蛋白質–蛋白質交互作用活化 cGAS，完全繞過對細胞質 DNA 的需求，因而擴大了 cGAS-STING 訊號在整個 proteinopathy 譜系中的意義。"
+    },
+    "confidence": 0.85,
+    "source_document": "Proteinopathy.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "217482a8ff09",
+    "subject": "Proteobacteria",
+    "predicate": "is_a_type_of",
+    "object": "Gram-Negative Bacteria",
+    "context": {
+      "en-US": "Proteobacteria is one of the largest and most physiologically diverse phyla of Gram-Negative Bacteria, spanning Alpha-, Beta-, Gamma-, Delta- and Epsilonproteobacteria and including familiar genera such as Escherichia, Salmonella, Pseudomonas, Helicobacter and Campylobacter, plus a substantial fraction of known pathogens.",
+      "zh-TW": "Proteobacteria 是 Gram-Negative Bacteria 中最大且生理多樣性最高的菌門之一，涵蓋 Alpha-、Beta-、Gamma-、Delta- 與 Epsilonproteobacteria，並包含 Escherichia、Salmonella、Pseudomonas、Helicobacter、Campylobacter 等常見菌屬，以及相當比例的已知病原體。"
+    },
+    "confidence": 0.9,
+    "source_document": "Proteobacteria.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "2c28c764d5b2",
+    "subject": "Proteobacteria",
+    "predicate": "is_associated_with",
+    "object": "Inflammaging",
+    "context": {
+      "en-US": "Elevated Proteobacteria abundance and reduced overall microbial diversity are recurrent features of aging and age-related disease, contributing to Inflammaging. Because Proteobacteria bear lipopolysaccharide (endotoxin) on their outer membrane, increased burden raises circulating LPS, activates innate immunity and promotes low-grade inflammation via TLR4 signaling.",
+      "zh-TW": "Proteobacteria 豐度升高與整體微生物多樣性下降是老化與年齡相關疾病的反覆特徵，並促成 inflammaging。由於 Proteobacteria 的外膜帶有 lipopolysaccharide（內毒素），其負荷增加會提高循環 LPS、活化先天免疫並透過 TLR4 訊號促進低度發炎。"
+    },
+    "confidence": 0.85,
+    "source_document": "Proteobacteria.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "e7aa1ceaf02b",
+    "subject": "Proteobacteria",
+    "predicate": "is_associated_with",
+    "object": "Dysbiosis",
+    "context": {
+      "en-US": "In the human Gut Microbiome, Proteobacteria normally occupy a minor niche, but their relative abundance expands during Dysbiosis — a state linked to antibiotic use, inflammation and metabolic disruption. Centenarians and healthy-aging cohorts instead show lower Proteobacteria loads and richer beneficial taxa, making the phylum a useful dysbiosis marker.",
+      "zh-TW": "在人類 Gut Microbiome 中，Proteobacteria 正常情況下佔minor生態位，但其相對豐度會在 Dysbiosis 期間擴增——此狀態與抗生素使用、發炎及代謝失衡相關。相對地，百歲老人與健康老化群體呈現較低的 Proteobacteria 負荷與較豐富的有益菌群，使該菌門成為有用的失調指標。"
+    },
+    "confidence": 0.85,
+    "source_document": "Proteobacteria.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "91506c8674d1",
+    "subject": "Proteostasis",
+    "predicate": "includes",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Proteostasis is the ensemble of folding chaperones, the ubiquitin–proteasome system, and autophagy/lysosomal degradation that maintains the correct composition, conformation and clearance of cellular proteins. With age proteostatic capacity declines, permitting accumulation of damaged and aggregated proteins that drive age-related disease.",
+      "zh-TW": "Proteostasis 是由摺疊伴護蛋白、ubiquitin–proteasome 系統，以及 autophagy／溶小體降解所組成的集合體，負責維持細胞蛋白質的正確組成、構形與清除。隨年齡增長，蛋白恆定能力下降，使受損與聚集蛋白得以累積並驅動年齡相關疾病。"
+    },
+    "confidence": 0.9,
+    "source_document": "Proteostasis.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "1c75f24b39bd",
+    "subject": "mTORC1",
+    "predicate": "impairs",
+    "object": "Proteostasis",
+    "context": {
+      "en-US": "When overactive, mTORC1 accelerates protein synthesis at the expense of accuracy, increasing misfolded and aberrant proteins and thereby impairing Proteostasis. This is the mechanistic opposite of rapamycin's protective effect and explains why mTORC1 inhibition is a geroprotective strategy.",
+      "zh-TW": "當 mTORC1 過度活化時，它以犧牲準確度為代價加速蛋白合成，使錯誤摺疊與異常蛋白增加，因而損害 Proteostasis。這正是 rapamycin 保護作用的機制反面，也解釋了抑制 mTORC1 為何是抗老化策略。"
+    },
+    "confidence": 0.9,
+    "source_document": "Proteostasis.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "3a2d01c47f62",
+    "subject": "Neuromelanin",
+    "predicate": "impairs",
+    "object": "Proteostasis",
+    "context": {
+      "en-US": "In catecholaminergic neurons, neuromelanin burden, metal load and catechol quinones challenge protein quality control: in the Substantia Nigra Pars Compacta, neuromelanin burdens lysosomes and autophagosomes and, through metal-catalyzed oxidative stress, damages chaperones and proteases — a proteostatic collapse that selectively afflicts the most pigmented neurons in Parkinson's disease.",
+      "zh-TW": "在兒茶酚胺神經元中，neuromelanin 的負載、金屬負荷與兒茶酚 quinones 共同挑戰蛋白品質管制：在 Substantia Nigra Pars Compacta，neuromelanin 會使溶小體與自噬體不堪負荷，並透過金屬催化的氧化壓力損傷伴護蛋白與蛋白酶——這種蛋白恆定崩解選擇性地衝擊 Parkinson’s disease 中色素最深的神經元。"
+    },
+    "confidence": 0.85,
+    "source_document": "Proteostasis.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "b6a3a7154794",
+    "subject": "Proteotoxicity",
+    "predicate": "is_associated_with",
+    "object": "Neurodegenerative Disease",
+    "context": {
+      "en-US": "Proteotoxicity — proteotoxic stress from misfolded and aggregated proteins — accumulates as neurodegenerative disease progresses, with rising levels of misfolded proteins and peptides. The process is regulated by nutrient sensors, stress pathways and hormonal signals, and its impairment is linked to metabolic disease, neurodegeneration and cancer.",
+      "zh-TW": "Proteotoxicity（由錯誤摺疊與聚集蛋白造成的蛋白毒性壓力）會隨著 neurodegenerative disease 進展而累積，錯誤摺疊蛋白與胜肽的量持續上升。此過程受營養感測器、壓力路徑與荷爾蒙訊號調控，其失調則與代謝疾病、神經退化與癌症相關。"
+    },
+    "confidence": 0.6,
+    "source_document": "Proteotoxicity.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "8ed957fd4f5e",
+    "subject": "Psoriasis",
+    "predicate": "is_driven_by",
+    "object": "TH17",
+    "context": {
+      "en-US": "Psoriasis is driven by the IL-23/Th17 axis: activated dendritic cells secrete IL-23, expanding TH17 cells that release IL-17 and IL-6; together with TNF-alpha this drives keratinocyte hyperproliferation, shortened epidermal transit time, acanthosis and parakeratosis, producing the characteristic scaly plaques.",
+      "zh-TW": "Psoriasis 由 IL-23/Th17 軸驅動：活化的樹突細胞分泌 IL-23，擴增 TH17 細胞並使其釋放 IL-17 與 IL-6；這些因子連同 TNF-alpha 驅動角質形成細胞過度增殖、表皮通過時間縮短、棘層增厚與角化不全，形成典型的鱗屑斑塊。"
+    },
+    "confidence": 0.95,
+    "source_document": "Psoriasis.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "a1c569382134",
+    "subject": "TNF-alpha",
+    "predicate": "is_targeted_by",
+    "object": "Psoriasis",
+    "context": {
+      "en-US": "TNF-alpha is both a driver and a therapeutic target in Psoriasis: together with IL-17 and IL-6 it drives keratinocyte hyperproliferation, and biologics targeting TNF-alpha (along with IL-17 and IL-23) are highly effective in moderate-to-severe disease, above systemic agents such as methotrexate and ciclosporin.",
+      "zh-TW": "TNF-alpha 在 Psoriasis 中既是驅動因子也是治療標的：它與 IL-17、IL-6 共同驅動角質形成細胞過度增殖，而針對 TNF-alpha（以及 IL-17、IL-23）的生物製劑在中重度疾病中療效顯著，優於 methotrexate、ciclosporin 等全身性藥物。"
+    },
+    "confidence": 0.85,
+    "source_document": "Psoriasis.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "fcc2cd743fbd",
+    "subject": "Psoriasis",
+    "predicate": "is_associated_with",
+    "object": "Cardiovascular Disease",
+    "context": {
+      "en-US": "Chronic systemic Inflammation in Psoriasis — an autoimmune disease linked to the IL-23/Th17 axis — is associated with increased cardiometabolic risk, while sirtuin/NAD+ biology has been explored for its potential anti-inflammatory action in skin. In about 30% of patients the joints are involved as psoriatic arthritis.",
+      "zh-TW": "Psoriasis（一種與 IL-23/Th17 軸相關的 autoimmune disease）中的慢性全身性 Inflammation 與心代謝風險上升相關；同時 sirtuin／NAD+ 生物學也被探索作為其皮膚抗發炎潛力的來源。約 30% 患者的關節受累，形成 psoriatic arthritis。"
+    },
+    "confidence": 0.75,
+    "source_document": "Psoriasis.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "a0d63f4a4113",
+    "subject": "COMT",
+    "predicate": "is_associated_with",
+    "object": "Psychiatric Disorders",
+    "context": {
+      "en-US": "A common genetic polymorphism that increases the activity of the dopamine-regulating enzyme COMT (the COMT Val158 allele) has been associated with poorer cognitive performance and increased susceptibility to develop Psychiatric Disorders, linking catecholamine metabolism to psychiatric risk.",
+      "zh-TW": "一項使多巴胺調節酵素 COMT 活性增加的常見遺傳多型性（COMT Val158 等位基因），已被發現與較差的認知表現及 Psychiatric Disorders 罹患傾向上升相關，將兒茶酚胺代謝與精神科風險連結起來。"
+    },
+    "confidence": 0.8,
+    "source_document": "Psychiatric Disorders.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "015aec40abb5",
+    "subject": "SIRT1",
+    "predicate": "protects_against",
+    "object": "Pulmonary Fibrosis",
+    "context": {
+      "en-US": "Loss of SIRT1 is implicated in the pathogenesis of pulmonary fibrosis, while its activation promotes alveolar epithelial type 2 self-renewal and differentiation in IPF patients. SIRT1 activation/overexpression attenuates lung fibrosis via canonical TGF-beta1/p300 signaling.",
+      "zh-TW": "SIRT1 的喪失被認為與 pulmonary fibrosis 的致病機轉有關，而其活化可促進 IPF 患者的肺泡上皮第二型細胞自我更新與分化。SIRT1 的活化／過表現可經由典型的 TGF-beta1/p300 訊號減輕肺纖維化。"
+    },
+    "confidence": 0.85,
+    "source_document": "Pulmonary Fibrosis.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "617c669a852d",
+    "subject": "SIRT3",
+    "predicate": "protects_against",
+    "object": "Pulmonary Fibrosis",
+    "context": {
+      "en-US": "SIRT3 deficiency within the aging lung promotes a fibrotic response via TGF-beta1 and via alveolar epithelial cell mitochondrial DNA damage and apoptosis; conversely, SIRT3 overexpression ameliorates asbestos-induced pulmonary fibrosis. The same sirtuin therefore opposes fibrotic remodeling at the mitochondrial level.",
+      "zh-TW": "老化肺部中的 SIRT3 缺乏會透過 TGF-beta1 以及肺泡上皮細胞的粒線體 DNA 損傷與凋亡促進纖維化反應；相反地，SIRT3 過表現可改善石棉誘發的 pulmonary fibrosis。同一個 sirtuin 因而在粒線體層次對抗纖維化重塑。"
+    },
+    "confidence": 0.85,
+    "source_document": "Pulmonary Fibrosis.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "7580a8a5b9fd",
+    "subject": "SIRT6",
+    "predicate": "inhibits",
+    "object": "Pulmonary Fibrosis",
+    "context": {
+      "en-US": "SIRT6 opposes fibrotic remodeling in the lung by inhibiting TGF-β-induced cellular senescence, inactivating TGF-β1/Smad2 signaling, preventing myofibroblast differentiation (TGF-β1/Smad2 plus NF-κB), and inhibiting EMT during IPF (TGF-β1/Smad3). Loss of the sirtuin-balance therefore amplifies fibrotic signaling.",
+      "zh-TW": "SIRT6 藉由抑制 TGF-β 誘發的細胞衰老、使 TGF-β1/Smad2 訊號失活、阻止肌成纖維細胞分化（TGF-β1/Smad2 加 NF-κB），並在 IPF 期間抑制 EMT（TGF-β1/Smad3），在肺部對抗纖維化重塑。因此此 sirtuin 平衡的喪失會放大纖維化訊號。"
+    },
+    "confidence": 0.85,
+    "source_document": "Pulmonary Fibrosis.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "21b3a9ac2154",
+    "subject": "SIRT7",
+    "predicate": "protects_against",
+    "object": "Pulmonary Fibrosis",
+    "context": {
+      "en-US": "SIRT7 is the sirtuin most decreased in lung fibrosis fibroblasts, and its decline exerts a profibrotic effect via changes in Smad3 signaling. Restoring SIRT7 activity therefore re-establishes the anti-fibrotic sirtuin balance that SIRT1, SIRT3 and SIRT6 also support.",
+      "zh-TW": "SIRT7 是肺纖維化纖維母細胞中下降最多的 sirtuin，其衰退會透過 Smad3 訊號改變產生促纖維化效應。因此恢復 SIRT7 活性可重建由 SIRT1、SIRT3 與 SIRT6 共同支持的抗纖維化 sirtuin 平衡。"
+    },
+    "confidence": 0.85,
+    "source_document": "Pulmonary Fibrosis.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "83961676bd61",
+    "subject": "Mitochondrial Dynamics",
+    "predicate": "contributes_to",
+    "object": "Pulmonary Fibrosis",
+    "context": {
+      "en-US": "Dysregulated Mitochondrial Dynamics — excessive mitochondrial fission and impaired mitophagy — contributes to alveolar epithelial cell death and fibrotic remodeling in pulmonary fibrosis. Alongside epithelial apoptosis, fibroblast proliferation into myofibroblasts and excessive collagen deposition define this dysregulated wound-healing response to repetitive alveolar injury.",
+      "zh-TW": "失調的 Mitochondrial Dynamics——過度的粒線體分裂與受損的 mitophagy——促成肺泡上皮細胞死亡與 pulmonary fibrosis 的纖維化重塑。與上皮細胞凋亡、纖維母細胞增殖為肌成纖維細胞及過量膠原沉積一起，構成對反覆肺泡損傷的失調傷口癒合反應。"
+    },
+    "confidence": 0.85,
+    "source_document": "Pulmonary Fibrosis.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "ac1abccfca2d",
+    "subject": "Pulse Wave Velocity",
+    "predicate": "measures",
+    "object": "Arterial Stiffness",
+    "context": {
+      "en-US": "Pulse wave velocity (PWV) is the speed at which the pressure wave generated by left ventricular ejection travels along the arterial tree, and is the gold standard clinical measure of arterial stiffness. It is computed as arterial distance between two recording sites divided by pulse transit time (D/Δt), with carotid-femoral PWV (cfPWV) the most validated variant. Because pressure waves travel faster through rigid vessels than compliant ones, higher PWV values indicate stiffer arteries.",
+      "zh-TW": "脈搏波傳導速度 (PWV) 是左心室射血所產生的壓力波沿動脈樹傳播的速度，被視為衡量動脈僵硬度（arterial stiffness）的黃金標準臨床指標。它以兩個量測部位間的動脈距離除以脈搏傳導時間計算（D/Δt），其中頸動脈－股動脈 PWV (cfPWV) 為驗證最充分、應用最廣的版本。由於壓力波在僵硬血管中傳播比在彈性血管中快，PWV 值越高代表動脈越僵硬。"
+    },
+    "confidence": 0.95,
+    "source_document": "Pulse Wave Velocity.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "065195b3f1a1",
+    "subject": "Pulse Wave Velocity",
+    "predicate": "increases_with",
+    "object": "Aging",
+    "context": {
+      "en-US": "PWV increases progressively with age across the normal reference range, rising from under 7 m/s in individuals below 30 years to over 11 m/s at age 70 and above. Age-graded reference thresholds are used clinically, with values above 12 m/s indicating marked arterial stiffening and high cardiovascular risk. In mice, aortic PWV was about 20% greater in old (27-29 months) than in young (4-6 months) animals.",
+      "zh-TW": "PWV 會隨年齡逐漸升高，正常參考值由 30 歲以下的 <7 m/s 上升至 70 歲以上的 >11 m/s。臨床上使用依年齡分級的參考門檻，>12 m/s 代表明顯的動脈硬化與高心血管風險。在小鼠中，老化鼠（27–29 月齡）的主動脈 PWV 比年輕鼠（4–6 月齡）高約 20%。"
+    },
+    "confidence": 0.9,
+    "source_document": "Pulse Wave Velocity.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "0216fb5408ac",
+    "subject": "Spermidine",
+    "predicate": "reduces",
+    "object": "Pulse Wave Velocity",
+    "context": {
+      "en-US": "Spermidine supplementation normalized aortic PWV to young levels in old mice in the seminal study by LaRocca et al. (2013). Supplementation at 3 mM in drinking water for 4 weeks reduced aortic PWV in 27-29-month-old mice, accompanied by reductions in aortic AGE accumulation and collagen I expression, consistent with reversal of vascular aging.",
+      "zh-TW": "在 LaRocca 等人 2013 年的代表性研究中，精胺酸補充將老化小鼠的主動脈 PWV 回復至年輕水準。以 3 mM 加入飲水中補充 4 週，可降低 27–29 月齡小鼠的主動脈 PWV，並伴隨主動脈 AGE 累積與第一型膠原蛋白表現下降，與血管老化逆轉一致。"
+    },
+    "confidence": 0.9,
+    "source_document": "Pulse Wave Velocity.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "6cbd47d54fd6",
+    "subject": "Advanced Glycation End Products",
+    "predicate": "increases",
+    "object": "Pulse Wave Velocity",
+    "context": {
+      "en-US": "Elevated PWV reflects loss of elastic fiber integrity in the aortic wall and accumulation of Advanced Glycation End Products (AGE) that cross-link collagen, stiffening the aortic wall. Spermidine-treated old mice showed reduced aortic AGE accumulation alongside normalized PWV, linking AGE cross-linking causally to arterial stiffening.",
+      "zh-TW": "升高的 PWV 反映主動脈壁彈性纖維完整性喪失，以及 Advanced Glycation End Products (AGE) 交聯膠原蛋白所造成的主動脈壁僵硬。接受精胺酸治療的老化小鼠在 PWV 正常化的同時，主動脈 AGE 累積也減少，將 AGE 交聯與動脈硬化因果性地連結起來。"
+    },
+    "confidence": 0.8,
+    "source_document": "Pulse Wave Velocity.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "9e8004e47449",
+    "subject": "Pycnogenol",
+    "predicate": "contains",
+    "object": "Proanthocyanidins",
+    "context": {
+      "en-US": "Pycnogenol is a standardized extract of French maritime pine (Pinus pinaster) bark whose defined composition is ~65-75% proanthocyanidins, predominantly A-type oligomeric proanthocyanidins (OPCs), with smaller amounts of monomeric catechin/epicatechin, caffeic and ferulic phenolic acids, and taxifolin. It is among the most clinically studied proanthocyanidin-rich supplements, and its activity tracks with this constituent class.",
+      "zh-TW": "Pycnogenol 是法國 maritime pine（*Pinus pinaster*）樹皮的標準化萃取物，其成分約 65–75% 為 Proanthocyanidins，以 A 型寡聚前花青素（OPC）為主，另含少量單體 catechin/epicatechin、咖啡酸與阿魏酸等酚酸，以及 taxifolin。它是臨床研究最多的前花青素類補充劑之一，其活性與此主要成分類高度相關。"
+    },
+    "confidence": 0.95,
+    "source_document": "Pycnogenol.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "0700eb4df265",
+    "subject": "Pycnogenol",
+    "predicate": "activates",
+    "object": "SIRT1",
+    "context": {
+      "en-US": "As a proanthocyanidin-rich preparation, Pycnogenol engages the natural-polyphenol STAC axis that activates SIRT1 by K-type allosteric activation, alongside AMPK, contributing to its metabolic and skin-aging effects. Proanthocyanidins, the dominant class in Pycnogenol, are named among natural anti-aging SIRT1-activating polyphenols. As with other polyphenol STACs, its benefits are limited by low systemic bioavailability and gut-metabolite conversion.",
+      "zh-TW": "作為富含前花青素的製劑，Pycnogenol 會啟動天然多酚 STAC 軸，以 K 型異位調控方式活化 SIRT1，並與 AMPK 共同作用，貢獻於其代謝與皮膚抗老化效果。Pycnogenol 的主要成分類 Proanthocyanidins 被列為天然的抗老化 SIRT1 活化多酚。與其他多酚 STAC 相同，其效益受限于低全身性生體可用性與腸道代謝物轉換。"
+    },
+    "confidence": 0.8,
+    "source_document": "Pycnogenol.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "7077420b993d",
+    "subject": "Pycnogenol",
+    "predicate": "upregulates",
+    "object": "NRF2",
+    "context": {
+      "en-US": "Pycnogenol is a potent direct radical scavenger and metal chelator, and it upregulates endogenous antioxidant defences via the NRF2/KEAP1 pathway while sparing vitamin C and glutathione. It also inhibits NF-κB signalling and adhesion-molecule expression, giving it combined antioxidant and anti-inflammatory activity against age-associated oxidative stress and inflammation.",
+      "zh-TW": "Pycnogenol 是強效的直接自由基清除劑與金屬螯合劑，透過 NRF2/KEAP1 路徑上调內源性抗氧化防禦，同時節省 vitamin C 與 glutathione。它也抑制 NF-κB 訊息傳遞與黏附分子表現，賦予其對抗老化相關氧化壓力與發炎的抗氧化及抗發炎活性。"
+    },
+    "confidence": 0.85,
+    "source_document": "Pycnogenol.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "594202d9acb5",
+    "subject": "Pycnogenol",
+    "predicate": "inhibits",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "Pycnogenol exerts anti-inflammatory effects by inhibiting NF-κB signalling and adhesion-molecule expression. Combined with its enhancement of eNOS activity and NO bioavailability, this makes the extract clinically positioned against chronic venous insufficiency, edema, and retinal/capillary microcirculation defects, and against the vascular dysfunction of cardiovascular disease and diabetes.",
+      "zh-TW": "Pycnogenol 藉由抑制 NF-κB 訊息傳遞與黏附分子表現發揮抗發炎作用。加上它增強 eNOS 活性與 NO 生體可用性的效果，使這種萃取物在臨床上被定位於對抗慢性靜脈功能不足、水腫與視網膜／微循環缺陷，以及心血管疾病與糖尿病的血管功能異常。"
+    },
+    "confidence": 0.85,
+    "source_document": "Pycnogenol.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "5afbd592197b",
+    "subject": "Glycolysis",
+    "predicate": "produces",
+    "object": "Pyruvate",
+    "context": {
+      "en-US": "Pyruvate is the three-carbon alpha-keto acid generated as the end product of glycolysis, making it a central metabolic node that links carbohydrate catabolism to TCA cycle oxidation, acetyl-CoA production, and lactate fermentation. Cytosolic pyruvate can be reduced to lactate by lactate dehydrogenase to regenerate NAD+ for glycolysis, or carboxylated to oxaloacetate for anaplerosis.",
+      "zh-TW": "Pyruvate 是糖解作用（glycolysis）產生的三碳 α-酮酸，為連結醣類分解與 TCA cycle 氧化、Acetyl-CoA 生成及乳酸發酵的中樞代謝節點。細胞質中的 pyruvate 可由乳酸脫氫酶還原為 lactate 以再生 NAD+ 供糖解使用，或經羧化轉成草醯乙酸進行補充反應。"
+    },
+    "confidence": 0.95,
+    "source_document": "Pyruvate.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "f5a5b3194183",
+    "subject": "Pyruvate",
+    "predicate": "is_precursor_of",
+    "object": "Acetyl-CoA",
+    "context": {
+      "en-US": "Once imported into mitochondria by MPC, pyruvate is converted to acetyl-CoA by the pyruvate dehydrogenase complex (PDH), feeding the TCA cycle and the mitochondrial citrate-acetyl-CoA axis. This mitochondrial pyruvate oxidation also promotes necroptosis, because RIPK3 activates the PDC to raise aerobic respiration and mitochondrial ROS that feed back on the necrosome.",
+      "zh-TW": "Pyruvate 一旦由 MPC 運入粒線體，便由丙酮酸去氫酶複合體 (PDH) 轉換為 Acetyl-CoA，供應 TCA cycle 與粒線體檸檬酸－Acetyl-CoA 軸。這條粒線體丙酮酸氧化途徑也會促進 necroptosis，因 RIPK3 活化 PDC 提高有氧呼吸與粒線體 ROS，進而回饋於 necrosome。"
+    },
+    "confidence": 0.9,
+    "source_document": "Pyruvate.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "67de3794f51c",
+    "subject": "Pyruvate",
+    "predicate": "promotes",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "Mitochondrial pyruvate oxidation promotes necroptosis: RIPK3 activates the pyruvate dehydrogenase complex to convert imported pyruvate into acetyl-CoA, increasing aerobic respiration and mitochondrial ROS that feed back on the necrosome. Depleting pyruvate or blocking its mitochondrial import suppresses TNF-induced necroptosis. Pyruvate can conversely be anti-necroptotic via a cytosolic, MPC-independent mechanism in which it non-enzymatically scavenges mitochondrial superoxide.",
+      "zh-TW": "粒線體丙酮酸氧化會促進 necroptosis：RIPK3 活化丙酮酸去氫酶複合體，將輸入的 pyruvate 轉為 Acetyl-CoA，提高有氧呼吸與粒線體 ROS，進而回饋於 necrosome。耗竭 pyruvate 或阻斷其粒線體運輸可抑制 TNF 誘導的 necroptosis。反之，pyruvate 也可透過不依賴 MPC 的細胞質機制抗 necroptosis，非酵素性地清除粒線體超氧陰離子。"
+    },
+    "confidence": 0.9,
+    "source_document": "Pyruvate.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "7215049c4b60",
+    "subject": "Q-VD-OPh",
+    "predicate": "inhibits",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "Q-VD-OPh is a cell-permeant, irreversible pan-caspase inhibitor used to test caspase dependence in vivo. By blocking caspase-3 and caspase-8 it blocks the caspase-dependent apoptosis program, and in murine ischemia models it protects females only - consistent with the XX preference for caspase-dependent apoptosis over the caspase-independent parthanatos program. It also rescues PARP-1-deficient female cells shunted into cytochrome-c/caspase death.",
+      "zh-TW": "Q-VD-OPh 是一種可穿透細胞、不可逆的泛 caspase 抑制劑，用於在體內檢驗 caspase 依賴性。藉由阻斷 Caspase-3 與 Caspase-8，它阻斷 caspase 依賴性的 Apoptosis 程式；在小鼠缺血模型中它僅保護雌性，與 XX 染色體較偏好 caspase 依賴性 Apoptosis 而非 caspase 非依賴性 parthanatos 的現象一致。它也能挽救被轉入細胞色素 c／caspase 死亡途徑的 PARP-1 缺失雌性細胞。"
+    },
+    "confidence": 0.9,
+    "source_document": "Q-VD-OPh.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "93e7f6733974",
+    "subject": "Q-VD-OPh",
+    "predicate": "inhibits",
+    "object": "Caspase-3",
+    "context": {
+      "en-US": "Caspase-3 is a molecular target of Q-VD-OPh, the broad-spectrum irreversible pan-caspase inhibitor. Compared with the earlier-generation Z-VAD-FMK, Q-VD-OPh offers lower toxicity while retaining in vivo efficacy, making it the preferred tool for establishing whether a phenotype depends on caspase-3/-8 activation.",
+      "zh-TW": "Caspase-3 是廣效不可逆泛 caspase 抑制劑 Q-VD-OPh 的分子標的。與較早期世代的 Z-VAD-FMK 相比，Q-VD-OPh 在保有體內效力的同時毒性更低，因此是判定某一表型是否依賴 Caspase-3/-8 活化的首選工具。"
+    },
+    "confidence": 0.9,
+    "source_document": "Q-VD-OPh.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "87b1df926ab4",
+    "subject": "QPRT",
+    "predicate": "is_required_for",
+    "object": "NAD+ Biosynthesis",
+    "context": {
+      "en-US": "QPRT (quinolinate phosphoribosyltransferase) is a key enzyme in de novo NAD+ biosynthesis, catalyzing the reaction quinolinic acid + PRPP -> nicotinic acid mononucleotide (NaMN) + CO2 + PPi. It requires Mg2+ and PRPP, is highly expressed in liver, kidney and brain, and sits at the junction of tryptophan catabolism and NAD+ production, preventing accumulation of neurotoxic quinolinic acid.",
+      "zh-TW": "QPRT（quinolinate phosphoribosyltransferase）是從頭 NAD+ 生合成的關鍵酵素，催化 quinolinic acid + PRPP → nicotinic acid mononucleotide (NaMN) + CO2 + PPi。它需要 Mg2+ 與 PRPP，在肝、腎與腦高度表現，位於色胺酸分解與 NAD+ 生成交界處，並防止神經毒性的 quinolinic acid 累積。"
+    },
+    "confidence": 0.95,
+    "source_document": "QPRT.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "d867a19b7d6b",
+    "subject": "QPRT",
+    "predicate": "is_a_component_of",
+    "object": "Kynurenine Pathway",
+    "context": {
+      "en-US": "QPRT operates at the terminal step of the kynurenine pathway, converting the intermediate quinolinic acid into NaMN, after which NMNAT converts NaMN to NaAD and then NAD+. Tryptophan is degraded through N-formylkynurenine and kynurenine to 3-hydroxykynurenine and quinolinic acid, so QPRT is what links tryptophan catabolism to NAD+ supply. NMNAT also channels NaMN generated from niacin in the Preiss-Handler route.",
+      "zh-TW": "QPRT 作用於 kynurenine pathway 的末端步驟，將中間產物 quinolinic acid 轉為 NaMN，之後由 NMNAT 將 NaMN 轉為 NaAD 再轉為 NAD+。Tryptophan 經 N-formylkynurenine、kynurenine、3-hydroxykynurenine 分解至 quinolinic acid，因此 QPRT 正是把色胺酸分解與 NAD+ 供應連結起來的酵素。NMNAT 同時也處理由 niacin 經 Preiss-Handler 途徑產生的 NaMN。"
+    },
+    "confidence": 0.9,
+    "source_document": "QPRT.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "0c9dc44f8d60",
+    "subject": "QPRT",
+    "predicate": "catalyzes",
+    "object": "Quinolinic Acid",
+    "context": {
+      "en-US": "Quinolinic acid is the direct substrate of QPRT, which converts it to nicotinic acid mononucleotide using phosphoribosyl pyrophosphate. QPRT activity therefore depends on quinolinic acid supply from the kynurenine pathway; inflammatory signalling upregulates IDO and increases quinolinic acid production, linking immune activation to de novo NAD+ flux and, when unchecked, to neurodegeneration.",
+      "zh-TW": "Quinolinic acid 是 QPRT 的直接受質，QPRT 以磷醯核糖焦磷酸將其轉為 nicotinic acid mononucleotide。因此 QPRT 活性取決於 kynurenine pathway 供應的 quinolinic acid；發炎訊號會上调 IDO 並增加 quinolinic acid 生成，將免疫活化與從頭 NAD+ 流量連結，若未受控制也與神經退化連結。"
+    },
+    "confidence": 0.9,
+    "source_document": "QPRT.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "e2b5d6222978",
+    "subject": "Quercetin",
+    "predicate": "is_a_type_of",
+    "object": "Flavonoids",
+    "context": {
+      "en-US": "Quercetin is a plant flavonoid found in many fruits, vegetables and grains, commonly used as an anti-inflammatory and antioxidant supplement. It is also one of the natural polyphenol STACs discussed in sirtuin biology, where it is used to augment resveratrol activity in red wine.",
+      "zh-TW": "Quercetin 是存在於多種水果、蔬菜與穀物中的植物性 Flavonoid，常作為抗發炎與抗氧化補充劑使用。它也是 sirtuin 生物學中常提及的天然多酚 STAC 之一，在紅酒中被用來增強 resveratrol 的活性。"
+    },
+    "confidence": 0.9,
+    "source_document": "Quercetin.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "44441c9a3ffc",
+    "subject": "Quercetin",
+    "predicate": "inhibits",
+    "object": "COMT",
+    "context": {
+      "en-US": "Quercetin's catechol structure means it is metabolized by the COMT enzyme, and because it competes for the same enzyme, high doses of quercetin act as a COMT inhibitor. This slows the breakdown of neurotransmitters such as dopamine and norepinephrine, and it may enhance the bioavailability of EGCG by inhibiting COMT. Individuals with slow COMT variants may experience irritability or anxiety at high doses because COMT activity is reduced further.",
+      "zh-TW": "Quercetin 的兒茶酚結構使其由 COMT 酵素代謝；由於它競爭同一酵素，高劑量的 quercetin 會作為 COMT 抑制劑作用。這會減慢 dopamine 與 norepinephrine 等神經傳遞物質的分解，並可能藉由抑制 COMT 提升 EGCG 的生體可用性。帶有慢型 COMT 變異的人族群在高劑量下可能出現易怒或焦慮，因 COMT 活性被進一步降低。"
+    },
+    "confidence": 0.9,
+    "source_document": "Quercetin.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "9ef5c4824d8a",
+    "subject": "Quercetin",
+    "predicate": "increases",
+    "object": "Dopamine",
+    "context": {
+      "en-US": "Dopamine levels may increase when COMT is inhibited by quercetin. Because COMT is the principal catecholamine-degrading enzyme, quercetin's competitive inhibition of COMT slows dopamine breakdown and raises synaptic dopamine availability, which also explains why high doses can be anxiogenic in slow COMT genotypes.",
+      "zh-TW": "當 COMT 被 quercetin 抑制時，dopamine 濃度可能上升。由於 COMT 是兒茶酚胺分解的主要酵素，quercetin 對 COMT 的競爭性抑制會減慢 dopamine 分解並提高突觸中 dopamine 的可用性，這也解釋了為何高劑量在慢型 COMT 基因型會引起焦慮。"
+    },
+    "confidence": 0.8,
+    "source_document": "Quercetin.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "5b65d03d8615",
+    "subject": "Quinolinic Acid",
+    "predicate": "activates",
+    "object": "NMDA receptor",
+    "context": {
+      "en-US": "Quinolinic acid is an endogenous NMDA receptor agonist with roughly 100-fold greater potency than glutamate. It promotes calcium influx, oxidative stress, mitochondrial dysfunction and apoptosis in neurons, so accumulation of QA is excitotoxic; its neuroprotective counterbalance is kynurenic acid.",
+      "zh-TW": "Quinolinic acid 是內生性 NMDA receptor 致效劑，效力約為 glutamate 的 100 倍。它促進鈣離子流入、氧化壓力、粒線體功能失調與神經元凋亡，因此 QA 累積具有興奮毒性；其神經保護性的對抗角色則由 kynurenic acid 扮演。"
+    },
+    "confidence": 0.9,
+    "source_document": "Quinolinic Acid.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "1b26812ef0e3",
+    "subject": "Quinolinic Acid",
+    "predicate": "is_precursor_of",
+    "object": "NAD+",
+    "context": {
+      "en-US": "Quinolinic acid is a biosynthetic precursor of NAD+: it is converted to nicotinic acid mononucleotide (NaMN) by QPRT, entering the Preiss-Handler pathway for NAD+ synthesis. This makes QA the metabolic node where kynurenine catabolism feeds de novo NAD+ production, opposite to its excitotoxic role as an NMDA agonist.",
+      "zh-TW": "Quinolinic acid 是 NAD+ 的生合成前驅物：它由 QPRT 轉為 nicotinic acid mononucleotide (NaMN)，進入 Preiss-Handler 途徑進行 NAD+ 合成。這使 QA 成為 kynurenine 分解供應從頭 NAD+ 生成的中樞節點，與其作為 NMDA 致效劑的興奮毒性角色相對。"
+    },
+    "confidence": 0.9,
+    "source_document": "Quinolinic Acid.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "726a0af7ea67",
+    "subject": "RAD51",
+    "predicate": "is_required_for",
+    "object": "Homologous Recombination",
+    "context": {
+      "en-US": "RAD51 is the recombinase enzyme essential for homologous recombination repair of double-strand DNA breaks and interstrand crosslinks. It forms helical filaments on single-stranded DNA and catalyzes strand exchange with homologous DNA sequences, enabling accurate repair; foci of RAD51 are used as a marker of active HR repair.",
+      "zh-TW": "RAD51 是同源重組 (homologous recombination) 修復 DNA 雙股斷裂與股間交聯所必需的 recombinase 酵素。它在單股 DNA 上形成螺旋絲狀體，催化與同源 DNA 序列的股交換以完成準確修復；RAD51 焦點的形成被用作 HR 修復活性的標記。"
+    },
+    "confidence": 0.95,
+    "source_document": "RAD51.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "0f8f6374897a",
+    "subject": "BRCA2",
+    "predicate": "recruits",
+    "object": "RAD51",
+    "context": {
+      "en-US": "RAD51 is loaded onto resected DNA ends by BRCA2, with BRCA1 acting upstream in the homologous recombination pathway and RAD51 paralogs (RAD51B/C/D, XMCC3) acting as accessory factors. This loading step is the gateway to RAD51 filament formation and therefore to error-free double-strand break repair.",
+      "zh-TW": "RAD51 由 BRCA2 載送到切除處理的 DNA 末端，BRCA1 則在同源重組途徑中位於其上游，而 RAD51 paralogs (RAD51B/C/D、XMCC3) 作為輔助因子作用。這個載送步驟是 RAD51 絲狀體形成的入口，進而決定無誤差的雙股斷裂修復。"
+    },
+    "confidence": 0.9,
+    "source_document": "RAD51.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "710a86d28f63",
+    "subject": "RAD51",
+    "predicate": "is_a_component_of",
+    "object": "DNA Repair",
+    "context": {
+      "en-US": "RAD51 is central to genome maintenance as the core recombinase of the DNA repair machinery. Its activity is central to repairing DNA interstrand crosslinks and to the broader DNA repair network, making it a hub node in maintaining genomic integrity.",
+      "zh-TW": "RAD51 作為 DNA 修復機制核心的 recombinase，在基因體維持中居於關鍵地位。其活性對修復 DNA 股間交聯與更廣泛的 DNA 修復網路至關重要，使它成為維持基因體完整性的樞紐節點。"
+    },
+    "confidence": 0.85,
+    "source_document": "RAD51.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "d7a29a262543",
+    "subject": "RAD51",
+    "predicate": "promotes",
+    "object": "Chemoresistance",
+    "context": {
+      "en-US": "RAD51 overexpression in cancer contributes to chemoresistance to DNA-damaging agents. RAD51-mediated repair of cisplatin adducts confers resistance to platinum-based drugs, and HR proficiency signalled by RAD51 confers resistance to PARP inhibitors. RAD51 inhibition is therefore explored as a strategy to sensitize HR-proficient cancers to DNA-damaging chemotherapy.",
+      "zh-TW": "癌症中的 RAD51 过表达會促成對 DNA 損傷性藥物的化學抗藥性。RAD51 介導對 cisplatin 加成物的修復賦予對鉑類藥物的抗藥性，而由 RAD51 訊號代表的同源重組能力則賦予對 PARP inhibitors 的抗藥性。因此 RAD51 抑制被研究作為使同源重組能力完整的癌症對 DNA 損傷性化療更敏感的策略。"
+    },
+    "confidence": 0.9,
+    "source_document": "RAD51.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "4fc31f366f3c",
+    "subject": "RAF",
+    "predicate": "is_activated_by",
+    "object": "RAS",
+    "context": {
+      "en-US": "RAF is a family of serine/threonine kinases (ARAF, BRAF, CRAF/RAF1) that transmit signals from RAS to MEK in the canonical RAS-RAF-MEK-ERK MAPK cascade. RAF kinases are recruited to the membrane upon RAS-GTP activation, where they phosphorylate MEK1/2, which activates ERK1/2 and drives proliferation and survival; BRAF V600E is a common oncogenic mutation.",
+      "zh-TW": "RAF 是一族絲胺酸／蘇胺酸激酶 (ARAF、BRAF、CRAF/RAF1)，在典型的 RAS–RAF–MEK–ERK MAPK 級聯中將訊號由 RAS 傳至 MEK。當 RAS-GTP 活化時，RAF 激酶被招募至膜上並磷酸化 MEK1/2，後者活化 ERK1/2 以驅動增殖與存活；BRAF V600E 是常見的致癌突變。"
+    },
+    "confidence": 0.95,
+    "source_document": "RAF.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "3f57e7d4a5d0",
+    "subject": "RAF",
+    "predicate": "phosphorylates",
+    "object": "MEK",
+    "context": {
+      "en-US": "RAF kinases phosphorylate MEK1/2 once recruited to the membrane by RAS-GTP, and MEK in turn activates ERK1/2. RAF/MEK is also the axis behind RAS-RAF-MEK-dependent oxidative cell death described by Yagoda et al. involving VDAC, the iron-dependent death that preceded the formal naming of ferroptosis, and Raf/MEK is a ferroptosis-modulating route in hepatocellular carcinoma.",
+      "zh-TW": "RAF 激酶在被 RAS-GTP 招募至膜上後磷酸化 MEK1/2，MEK 再活化 ERK1/2。RAF/MEK 也是 Yagoda 等人所描述的 RAS-RAF-MEK 依賴性氧化細胞死亡（涉及 VDAC）的軸線，那種鐵依賴性死亡早於 ferroptosis 的正式命名；而在肝細胞癌中，Raf/MEK 是調節 ferroptosis 的路徑。"
+    },
+    "confidence": 0.9,
+    "source_document": "RAF.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "f36e92a95363",
+    "subject": "Sorafenib",
+    "predicate": "inhibits",
+    "object": "RAF",
+    "context": {
+      "en-US": "Sorafenib is a multi-kinase drug that inhibits the RAF pathway and induces ferroptosis, particularly in hepatocellular carcinoma. Its ferroptotic component informs combinations with GPX4 or system Xc- inhibitors, and RAF inhibitors such as vemurafenib and dabrafenib are likewise oncology mainstays with relevance to ferroptosis sensitization in hepatocellular carcinoma and melanoma.",
+      "zh-TW": "Sorafenib 是抑制 RAF 路徑並誘導 ferroptosis 的多激酶藥物，在肝細胞癌中尤其如此。其 ferroptosis 成分啟發了與 GPX4 或 system Xc- 抑制劑的聯合，而 vemurafenib 與 dabrafenib 等 RAF 抑制劑同樣是腫瘤學主幹藥物，在肝細胞癌與黑色素瘤中與 ferroptosis 敏感化相關。"
+    },
+    "confidence": 0.85,
+    "source_document": "RAF.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "10d130166d4c",
+    "subject": "RAF",
+    "predicate": "increases_susceptibility_to",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "Oncogenic RAS-RAF signalling creates a cystine/glutathione dependency that erastin exploits, so RAF pathway activity is both a proliferation driver and a determinant of ferroptosis vulnerability. Erastin was first shown to be selectively lethal to RAS-mutant cells through this axis, and the RAS-RAF-MEK context, partly via VDAC, established the sensitizing backdrop for ferroptosis research.",
+      "zh-TW": "致癌性 RAS-RAF 訊息傳遞創造了 cystine／glutathione 依賴性，供 erastin 利用，因此 RAF 路徑活性既是增殖驅動因子，也是 ferroptosis 脆弱性的決定因素。Erastin 最初正是透過此軸被證明對 RAS 突變細胞具選擇性致死性，而 RAS-RAF-MEK 背景（部分經由 VDAC）則建立了 ferroptosis 研究前的敏感化條件。"
+    },
+    "confidence": 0.8,
+    "source_document": "RAF.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "75b10ab0b664",
+    "subject": "RANK",
+    "predicate": "is_activated_by",
+    "object": "RANKL",
+    "context": {
+      "en-US": "RANK (TNFRSF11A) is the cell-surface receptor whose ligand is RANKL. Ligand engagement of RANK recruits NF-kB and MAPK signalling machinery, driving osteoclast differentiation from monocyte/macrophage precursors and, downstream, MAPK-dependent phosphorylation and activation of TFE3 (Hershey & Fisher 2004).",
+      "zh-TW": "RANK (TNFRSF11A) 是細胞表面受體，其配體為 RANKL。RANKL 結合 RANK 後招募 NF-κB 與 MAPK 訊息傳遞機制，驅動單核／巨噬細胞前驅細胞分化為 Osteoclast，並在下游經由 MAPK 依賴性的磷酸化活化 TFE3（Hershey & Fisher 2004）。"
+    },
+    "confidence": 0.9,
+    "source_document": "RANK.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "210af2e76ebf",
+    "subject": "RANK",
+    "predicate": "drives",
+    "object": "Osteoclast",
+    "context": {
+      "en-US": "RANK signalling drives osteoclast differentiation via NF-kB and MAPK, with downstream TFE3 activation. Because TFE3 activation downstream of M-CSF and RANK requires MAPK-dependent TFE3 phosphorylation, RANK is a mechanistic link between growth-factor signalling and the lysosomal-biogenesis/adaptation program in osteoclasts.",
+      "zh-TW": "RANK 訊息傳遞經由 NF-κB 與 MAPK 驅動 Osteoclast 分化，並在下游活化 TFE3。由於 M-CSF 與 RANK 下游的 TFE3 活化需要 MAPK 依賴性的 TFE3 磷酸化，RANK 因而成為生長因子訊息與 osteoclast 中溶小體生成／調適程式之間的機制性連結。"
+    },
+    "confidence": 0.9,
+    "source_document": "RANK.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "db5552c91a15",
+    "subject": "RANK",
+    "predicate": "activates",
+    "object": "TFE3",
+    "context": {
+      "en-US": "TFE3 activation occurs downstream of RANK and requires MAPK-dependent TFE3 phosphorylation (Hershey & Fisher 2004). RANK therefore links osteoclastogenic signalling to the TFEB/TFE3 lysosomal stress-adaptation axis, the same axis that rapamycin activates to restore mitochondrial function and viability in dopaminergic neurons.",
+      "zh-TW": "TFE3 的活化發生在 RANK 下游，且需要 MAPK 依賴性的 TFE3 磷酸化（Hershey & Fisher 2004）。因此 RANK 把 osteoclast 生成訊息與 TFEB/TFE3 溶小體壓力調適軸連結起來，也就是 rapamycin 活化以恢復多巴胺能神經元粒線體功能與存活的那條軸。"
+    },
+    "confidence": 0.8,
+    "source_document": "RANK.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "03e13d2d162c",
+    "subject": "RANKL",
+    "predicate": "binds",
+    "object": "RANK",
+    "context": {
+      "en-US": "RANKL (TNFSF11) is the ligand for RANK, and RANKL-RANK engagement is the defining interaction that initiates osteoclastogenesis. RANKL is a TNF-family cytokine expressed by osteoblasts, osteocytes and immune cells; altered RANKL expression is associated with cancer and with bone loss conditions.",
+      "zh-TW": "RANKL (TNFSF11) 是 RANK 的配體，而 RANKL–RANK 的結合是啟動 osteoclast 生成的基本交互作用。RANKL 是由成骨細胞、骨細胞與免疫細胞表現的 TNF 家族細胞激素；RANKL 表現異常與癌症及骨流失疾病相關。"
+    },
+    "confidence": 0.9,
+    "source_document": "RANKL.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "9b9a82cc91e8",
+    "subject": "RANKL",
+    "predicate": "drives",
+    "object": "Osteoclast",
+    "context": {
+      "en-US": "RANKL drives osteoclast differentiation via NF-kB signalling once it engages its receptor RANK. RANKL is therefore both a developmental and therapeutic target, and it serves as a biomarker in multiple clinical contexts involving excessive bone resorption.",
+      "zh-TW": "RANKL 一旦結合其受體 RANK，便經由 NF-κB 訊息傳遞驅動 Osteoclast 分化。因此 RANKL 同時是發育與治療標的，也是骨吸收過多相關臨床情境中的生物標記。"
+    },
+    "confidence": 0.9,
+    "source_document": "RANKL.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "afeda95e287d",
+    "subject": "RAW264.7",
+    "predicate": "is_a_type_of",
+    "object": "Macrophages",
+    "context": {
+      "en-US": "RAW264.7 is an immortalized mouse macrophage cell line derived from an ascitic tumor induced by Abelson murine leukemia virus in a male BALB/c mouse, established in 1978. It carries v-Abl transformant sequences and retains many primary macrophage functions, including Fc receptor-mediated phagocytosis, cytokine secretion and nitric oxide production upon LPS/IFN-gamma stimulation, and can be polarized toward M1 or M2 phenotypes.",
+      "zh-TW": "RAW264.7 是源自雄性 BALB/c 小鼠中 Abelson 鼠白血病病毒誘發的腹水腫瘤之永生化小鼠巨噬細胞株，建立於 1978 年。它帶有 v-Abl 轉位序列，並保留許多原代巨噬細胞功能，包括 Fc 受體媒介的吞噬作用、細胞激素分泌，以及在 LPS／IFN-γ 刺激下的一氧化氮生成，且可被極化為 M1 或 M2 表型。"
+    },
+    "confidence": 0.9,
+    "source_document": "RAW264.7.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "9af6b5a8c9e9",
+    "subject": "RAW264.7",
+    "predicate": "models",
+    "object": "Inflammation",
+    "context": {
+      "en-US": "RAW264.7 is a standard experimental model for inflammation, Toll-like receptor signalling, the oxidative burst and macrophage polarization studies. It is widely used to screen anti-inflammatory and senomorphic compounds, and because macrophages are central to inflammaging and the senescence-messaging secretome, the line helps dissect how senolytics and immunomodulators shift macrophage phenotype with implications for the cancer microenvironment and tissue repair.",
+      "zh-TW": "RAW264.7 是研究發炎、Toll-like receptor 訊息傳遞、氧化爆發與巨噬細胞極化的標準實驗模型。它被廣泛用於篩選抗發炎與 senomorphic 化合物；由於巨噬細胞在 inflammaging 與衰老訊息分泌體中居核心地位，此細胞株有助於解析 senolytics 與免疫調節劑如何改變巨噬細胞表型，並牽涉癌症微環境與組織修復。"
+    },
+    "confidence": 0.85,
+    "source_document": "RAW264.7.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "4e01e385f12b",
+    "subject": "RIG-I",
+    "predicate": "activates",
+    "object": "MAVS",
+    "context": {
+      "en-US": "RIG-I (DDX58) is a cytosolic DExH-box RNA helicase pattern-recognition receptor that detects short double-stranded RNA with a 5'-triphosphate or 5'-diphosphate end. Ligand binding plus K63-linked polyubiquitination releases its N-terminal CARDs, which nucleate filaments that drive MAVS (IPS-1) oligomerisation on the mitochondrial outer membrane, MAMs and peroxisomes, converting RIG-I recognition into downstream signalling.",
+      "zh-TW": "RIG-I (DDX58) 是細胞質的 DExH-box RNA 解旋酶型模式辨識受體，可偵測帶 5′-三磷酸或 5′-二磷酸末端 的短雙股 RNA。配體結合加上 K63 連結的泛素化會釋出其 N 端 CARD，CARD 核化成絲狀體並驅動 MAVS (IPS-1) 在粒線體外膜、MAM 與過氧化體上聚集，將 RIG-I 的辨識轉為下游訊息傳遞。"
+    },
+    "confidence": 0.95,
+    "source_document": "RIG-I.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "32b1e04e2df4",
+    "subject": "RIG-I",
+    "predicate": "induces",
+    "object": "Type I Interferon",
+    "context": {
+      "en-US": "RIG-I signalling induces type I interferons and inflammatory cytokines. On the MAVS platform, TRAF3 recruits TBK1 and IKK-epsilon, which phosphorylate and activate IRF3 and IRF7, while TRAF6 and the IKK complex activate NF-kB; the two arms cooperate to induce IFNB1 and interferon-stimulated genes, and secreted interferon acts back through IFNAR-JAK-STAT to amplify RIG-I and other antiviral effectors.",
+      "zh-TW": "RIG-I 訊息傳遞會誘導第一型干擾素與發炎性細胞激素。在 MAVS 平台上，TRAF3 招募 TBK1 與 IKK-ε，後者磷酸化並活化 IRF3 與 IRF7；同時 TRAF6 與 IKK 複合體活化 NF-κB。兩條支臂協同誘導 IFNB1 與干擾素刺激基因，分泌出的干擾素再經 IFNAR–JAK–STAT 回饋，放大 RIG-I 與其他抗病毒效應物。"
+    },
+    "confidence": 0.95,
+    "source_document": "RIG-I.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "319cabedf662",
+    "subject": "RIG-I",
+    "predicate": "is_a_member_of",
+    "object": "Pattern Recognition Receptors",
+    "context": {
+      "en-US": "RIG-I is a member of the RIG-I-like receptor (RLR) subset of pattern recognition receptors and, alongside cGAS, is one of the principal cytosolic nucleic-acid sensors - RIG-I sensing RNA, cGAS sensing DNA. Its expression is itself interferon-inducible, which gives the receptor its 'retinoic acid-inducible' name and its place in positive-feedback antiviral amplification.",
+      "zh-TW": "RIG-I 屬於模式辨識受體中的 RIG-I-like receptor (RLR) 子集合，與 cGAS 同為主要的細胞質核酸感測器：RIG-I 感測 RNA，cGAS 感測 DNA。其表現本身受干擾素誘導，這賦予該受體「retinoic acid-inducible」之名，也使其位於抗病毒正向放大反饋之中。"
+    },
+    "confidence": 0.9,
+    "source_document": "RIG-I.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "b9336db369a4",
+    "subject": "RIG-I",
+    "predicate": "contributes_to",
+    "object": "SASP",
+    "context": {
+      "en-US": "RIG-I is an RNA-sensing input to senescence-associated inflammation: cytosolic RNA species in senescent and damaged cells engage RIG-I to drive interferon and cytokine output feeding the secretome. Sources of such RNA include retroelement-derived transcripts de-repressed during senescence and deep senescence, and mitochondrial double-stranded RNA released when mitochondrial dynamics or autophagy are perturbed. In the Birch and Gil scheme RIG-I sits on the RNA-sensing arm of SASP induction, parallel to the cGAS-STING DNA-sensing arm and the inflammasome.",
+      "zh-TW": "RIG-I 是衰老相關發炎的 RNA 感測輸入：衰老與受損細胞中的細胞質 RNA 結合 RIG-I，驅動干擾素與細胞激素輸出以餵給分泌體。此類 RNA 來源包括衰老與深層衰老期間去抑制的轉位元件衍生轉錄本，以及粒線體動態或自噬受擾時釋出的粒線體雙股 RNA。在 Birch 與 Gil 的架構中，RIG-I 位於 SASP 誘導的 RNA 感測支臂，與 cGAS–STING 的 DNA 感測支臂及 inflammasome 平行。"
+    },
+    "confidence": 0.9,
+    "source_document": "RIG-I.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "e2821994d38b",
+    "subject": "RNA-Binding Proteins",
+    "predicate": "interacts_with",
+    "object": "cGAS",
+    "context": {
+      "en-US": "RNA-binding proteins (RBPs) are recurrently enriched among the interaction partners of cGAS. Nuclear cGAS scaffolds RBPs via its intrinsically disordered region, leveraging phase separation to maintain nuclear homeostasis; G3BP1, a core stress granule component, binds the cGAS IDR and primes cGAS for DNA binding, while PQBP1 acts as an adaptor linking monomeric tau to cGAS activation. This positions cGAS as a conformational hub organizing RNA-processing proteins in phase-separated nuclear assemblies.",
+      "zh-TW": "RNA-binding proteins (RBP) 反覆出現在 cGAS 的交互作用夥伴之中。細胞核內的 cGAS 透過其內在無序區 (IDR) 支架化 RBP，利用相分離以維持核內恆定；壓力顆粒核心成分 G3BP1 結合 cGAS 的 IDR 並使 cGAS 預備好結合 DNA，而 PQBP1 則作為轉接因子將單體 tau 與 cGAS 活化連結起來。這使 cGAS 成為在相分離的核內組裝體中組織 RNA 處理蛋白的構形樞紐。"
+    },
+    "confidence": 0.9,
+    "source_document": "RNA-Binding Proteins.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "be6f1b3977ba",
+    "subject": "TDP-43",
+    "predicate": "is_a_type_of",
+    "object": "RNA-Binding Proteins",
+    "context": {
+      "en-US": "TDP-43 is the canonical example of a mislocalized RNA-binding protein. Under stress it redistributes out of the nucleus into cytoplasmic aggregates and stress granules, losing nuclear function and gaining toxicity in ALS and frontotemporal dementia; more generally, RBP mislocalization or aggregation, including sequestration by tau or polyQ condensates, drives neurodegeneration by disrupting RNA metabolism.",
+      "zh-TW": "TDP-43 是錯定位 RNA-binding protein 的典型例子。在壓力下它從細胞核重新分布到細胞質聚集体與壓力顆粒，失去核內功能並在 ALS 與額顳葉失智症中獲得毒性；更一般地說，RBP 的錯定位或聚集（包括被 tau 或 polyQ 凝聚體隔離）會破壞 RNA 代謝而驅動神經退化。"
+    },
+    "confidence": 0.9,
+    "source_document": "RNA-Binding Proteins.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "282aa1a354f4",
+    "subject": "PQBP1",
+    "predicate": "interacts_with",
+    "object": "Tau",
+    "context": {
+      "en-US": "PQBP1 is an RNA-binding protein adaptor that links monomeric tau to cGAS activation in tauopathy. It binds the cGAS intrinsically disordered region directly, connecting the tau proteinopathy to the noncanonical cGAS scaffolding axis; because cGAS scaffolds RBPs to preserve homeostasis, perturbation of this axis may contribute to neuroinflammation and neuronal dysfunction in chronic brain disorders.",
+      "zh-TW": "PQBP1 是一個 RNA-binding protein 轉接因子，在 tau 病變中將單體 tau 與 cGAS 活化連結起來。它直接結合 cGAS 的內在無序區，把 tau 蛋白病與非典型 cGAS 支架化軸連結起來；由於 cGAS 支架化 RBP 以維持恆定，此軸的失調可能促成慢性腦部疾病中的神經發炎與神經元功能失調。"
+    },
+    "confidence": 0.8,
+    "source_document": "RNA-Binding Proteins.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "855f26af2115",
+    "subject": "RNA-seq",
+    "predicate": "measures",
+    "object": "Gene Expression",
+    "context": {
+      "en-US": "RNA-seq (RNA sequencing) is a high-throughput sequencing method that profiles the complete set of RNA transcripts in a biological sample and quantifies gene expression. The workflow runs RNA extraction, poly-A selection or ribosomal RNA depletion, reverse transcription to cDNA, adapter ligation and PCR library preparation, sequencing, then bioinformatics read alignment and quantification with tools such as DESeq2 for differential expression.",
+      "zh-TW": "RNA-seq（RNA 定序）是一種高通量定序方法，可剖析生物樣本中完整的 RNA 轉錄本集合並量化基因表現。工作流程包含 RNA 萃取、poly-A 篩選或核糖體 RNA 去除、逆转錄成 cDNA、接头連接與 PCR 文庫製備、定序，最後以 DESeq2 等工具進行讀段比對與差異表現量化。"
+    },
+    "confidence": 0.95,
+    "source_document": "RNA-seq.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "4cee8ec61be1",
+    "subject": "RNA-seq",
+    "predicate": "detects",
+    "object": "Alternative Splicing",
+    "context": {
+      "en-US": "RNA-seq detects alternative splicing because splice junctions in the reads reveal isoform usage across a sample, and long-read protocols (Iso-Seq) extend this to full-length isoform detection. The same library data also identify novel transcripts and RNA editing events, which is why RNA-seq is the primary tool of transcriptomics.",
+      "zh-TW": "RNA-seq 能偵測 alternative splicing，因為讀段中的剪接接合點可揭示樣本中的 isoform 使用情況，而長讀段 (Iso-Seq) 方案更可延伸到全长 isoform 的偵測。相同的文庫資料也能鑑定新穎轉錄本與 RNA editing 事件，因此 RNA-seq 是 transcriptomics 的主要工具。"
+    },
+    "confidence": 0.9,
+    "source_document": "RNA-seq.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "e2fe989f8d40",
+    "subject": "RNA-seq",
+    "predicate": "uses",
+    "object": "cDNA",
+    "context": {
+      "en-US": "RNA-seq libraries are built by reverse transcription of RNA into complementary DNA (cDNA) before adapter ligation and PCR amplification. cDNA synthesis is therefore the required intermediate that converts RNA abundance into a sequenceable, amplifiable library for high-throughput sequencing.",
+      "zh-TW": "RNA-seq 文庫是先把 RNA 逆轉錄為互補 DNA (cDNA)，再進行接頭連接與 PCR 擴增而建立。因此 cDNA 合成是必要的中間步驟，將 RNA 豐度轉為可定序、可擴增的文庫，以供高通量定序。"
+    },
+    "confidence": 0.9,
+    "source_document": "RNA-seq.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "be4f498f4477",
+    "subject": "RNF185",
+    "predicate": "contributes_to",
+    "object": "Mitophagy",
+    "context": {
+      "en-US": "RNF185 is a mitochondrial ubiquitin E3 ligase that forms part of the non-Parkin E3 ligase network providing backup mitophagy capacity. Together with parallel ligases such as MUL1 and Ambra-1/HUWE1, it maintains mitochondrial quality control when the primary PINK1/Parkin pathway is impaired, so cells can still clear damaged mitochondria when the canonical pathway is compromised.",
+      "zh-TW": "RNF185 是粒線體泛素 E3 連接酶，屬於提供備援 mitophagy 能力的非 Parkin E3 連接酶網路。它與 MUL1 及 Ambra-1/HUWE1 等平行連接酶一起，在主要 PINK1/Parkin 途徑受損時維持粒線體品質管制，使細胞在典型途徑失效時仍能清除受損粒線體。"
+    },
+    "confidence": 0.9,
+    "source_document": "RNF185.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "cf171227316b",
+    "subject": "RNF185",
+    "predicate": "recruits",
+    "object": "p62",
+    "context": {
+      "en-US": "RNF185 ubiquitinates its substrate BNIP1 with K63-linked ubiquitin chains, and these chains serve as the recognition signal for p62/SQSTM1. p62 then recruits the autophagy machinery to clear the targeted mitochondria, so RNF185's E3 activity is what couples substrate ubiquitination to autophagosome delivery in this non-Parkin mitophagy route.",
+      "zh-TW": "RNF185 以 K63 連結的泛素鏈泛素化其受質 BNIP1，而這些鏈就是 p62/SQSTM1 的辨識訊號。p62 隨後招募自噬機制以清除被標記的粒線體，因此 RNF185 的 E3 活性正是把受質泛素化與自噬體運送連結起來的關鍵，構成這條非 Parkin mitophagy 路徑。"
+    },
+    "confidence": 0.9,
+    "source_document": "RNF185.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "e00a4308f4b5",
+    "subject": "RNF185",
+    "predicate": "cooperates_with",
+    "object": "MUL1",
+    "context": {
+      "en-US": "RNF185 acts alongside MUL1 and Ambra-1/HUWE1 as part of a redundant non-Parkin E3 ligase network. This redundancy is the point: even when the primary PINK1/Parkin mitophagy pathway is impaired, these ligases preserve mitochondrial quality control and ensure damaged mitochondria can still be cleared.",
+      "zh-TW": "RNF185 與 MUL1、Ambra-1/HUWE1 一起作用，是冗餘的非 Parkin E3 連接酶網路的一環。關鍵在於這種冗餘性：即使主要的 PINK1/Parkin mitophagy 途徑受損，這些連接酶仍能維持粒線體品質管制，確保受損粒線體得以清除。"
+    },
+    "confidence": 0.85,
+    "source_document": "RNF185.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "347321411002",
+    "subject": "RSL3",
+    "predicate": "inhibits",
+    "object": "GPX4",
+    "context": {
+      "en-US": "RSL3 (Ras-selective lethal 3) is a small-molecule ferroptosis inducer that directly inhibits GPX4. Its chloroacetamide moiety reacts with the selenol group of GPX4's catalytic selenocysteine (Sec46) to form an irreversible covalent adduct, blocking reduction of phospholipid hydroperoxides and causing iron-dependent lipid peroxidation and ferroptotic death. Unlike erastin, which depletes glutathione upstream via system Xc-, RSL3 acts directly on GPX4 and is therefore a more specific probe of GPX4-dependent ferroptosis.",
+      "zh-TW": "RSL3（Ras-selective lethal 3）是小分子 ferroptosis 誘導劑，可直接抑制 GPX4。它的氯乙醯胺基團與 GPX4 催化性 selenocysteine (Sec46) 的硒醇基反應，形成不可逆的共價加合物，阻斷磷脂過氧化物的還原，造成鐵依賴性的 lipid peroxidation 與 ferroptotic 死亡。與經 system Xc- 上游耗竭 glutathione 的 erastin 不同，RSL3 直接作用於 GPX4，因此是更專一的 GPX4 依賴性 ferroptosis 探針。"
+    },
+    "confidence": 0.95,
+    "source_document": "RSL3.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "2639b30524e8",
+    "subject": "RSL3",
+    "predicate": "leads_to",
+    "object": "Lipid Peroxidation",
+    "context": {
+      "en-US": "Inactivating GPX4 removes the cell's ability to reduce phospholipid hydroperoxides, so RSL3 treatment leads to accumulation of iron-dependent lipid peroxidation and hence ferroptosis. Glutathione depletion synergizes with RSL3 because GSH is the GPX4 cofactor, and adrenochrome is hypothesized to share a similar GPX4-inhibition mechanism via o-quinone electrophilic arylation.",
+      "zh-TW": "使 GPX4 失活會剝奪細胞還原磷脂過氧化物的能力，因此 RSL3 處理會導致鐵依賴性的 lipid peroxidation 累積，進而引發 ferroptosis。glutathione 耗竭與 RSL3 具有協同作用，因為 GSH 是 GPX4 的輔因子；而 adrenochrome 被假設透過鄰醌類的親電芳香化作用共享類似的 GPX4 抑制機制。"
+    },
+    "confidence": 0.9,
+    "source_document": "RSL3.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "329a17ca6dcf",
+    "subject": "Rab8",
+    "predicate": "interacts_with",
+    "object": "OPTN",
+    "context": {
+      "en-US": "Rab8 (RAB8A) is a small GTPase that interacts with the mitophagy receptor optineurin (OPTN). This OPTN-Rab8 interaction is required for retrograde, microtubule-based transport of mitochondria-containing autophagosomes toward the cell body where lysosomes are located, so Rab8 supplies the transport step that mitophagic flux requires.",
+      "zh-TW": "Rab8 (RAB8A) 是與 mitophagy 受體 optineurin (OPTN) 交互作用的小型 GTPase。此 OPTN–Rab8 交互作用是沿微管將含粒線體的自噬體向細胞體逆行運輸所必需，而細胞體正是溶小體所在處，因此 Rab8 提供了 mitophagic flux 所需的運輸步驟。"
+    },
+    "confidence": 0.95,
+    "source_document": "Rab8.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "5a4a74f2d329",
+    "subject": "Rab8",
+    "predicate": "transports",
+    "object": "Autophagosome",
+    "context": {
+      "en-US": "Rab8 is required for retrograde transport of mitochondria-containing autophagosomes along microtubules to the cell body. Delivering autophagosomes to lysosomes is the terminal step of mitophagic flux, so Rab8-mediated transport connects the autophagosome pool to lysosomal degradation of damaged mitochondria.",
+      "zh-TW": "Rab8 是含粒線體自噬體沿微管向細胞體逆行運輸所必需的。將自噬體運送至溶小體是 mitophagic flux 的末端步驟，因此 Rab8 媒介的運輸把自噬體池與受損粒線體的溶小體降解連結起來。"
+    },
+    "confidence": 0.9,
+    "source_document": "Rab8.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "1858eceba701",
+    "subject": "Huntingtin",
+    "predicate": "impairs",
+    "object": "Rab8",
+    "context": {
+      "en-US": "In Huntington's disease the OPTN-Rab8 interaction is compromised by mutant huntingtin (mHtt). Because lysosomes are primarily in the cell body, failure to deliver mitochondria-containing autophagosomes there blocks autophagic flux, so mutant huntingtin produces a mitophagy defect through its disruption of Rab8-mediated transport.",
+      "zh-TW": "在 Huntington's disease 中，突變的 huntingtin (mHtt) 會破壞 OPTN–Rab8 的交互作用。由於溶小體主要位於細胞體，無法將含粒線體的自噬體送達該處就會阻斷自噬通量，因此突變 huntingtin 透過破壞 Rab8 媒介的運輸而造成 mitophagy 缺陷。"
+    },
+    "confidence": 0.9,
+    "source_document": "Rab8.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "65661878f4fb",
+    "subject": "Radical-trapping Antioxidant",
+    "predicate": "prevents",
+    "object": "Lipid Peroxidation",
+    "context": {
+      "en-US": "A radical-trapping antioxidant (RTA) halts free-radical chain reactions by donating a hydrogen atom to a chain-propagating lipid peroxyl radical (LOO.), yielding a comparatively stable radical that does not abstract further hydrogen from neighbouring polyunsaturated fatty acids. This chain-breaking action is the chemical basis of suppressing lipid peroxidation and of ferroptosis prevention, and it complements rather than duplicates GPX4, which repairs existing phospholipid hydroperoxides using glutathione.",
+      "zh-TW": "自由基捕捉型抗氧化劑 (RTA) 藉由向傳遞鏈反應的脂質過氧自由基 (LOO.) 提供一個氫原子來中止自由基鏈反應，產生相對穩定、不再向鄰近多不飽和脂肪酸奪取氫的自由基。這種鏈中斷作用是抑制 lipid peroxidation 與預防 ferroptosis 的化學基礎，與 GPX4 功能互補而非重複：GPX4 是利用 glutathione 修復既有的磷脂過氧化物。"
+    },
+    "confidence": 0.95,
+    "source_document": "Radical-trapping Antioxidant.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "8961fa3a902b",
+    "subject": "Radical-trapping Antioxidant",
+    "predicate": "protects_against",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "RTAs protect against ferroptosis by preventing peroxidation chains from propagating to lethal levels. Endogenous RTAs include ubiquinol (CoQ10H2), vitamin K hydroquinone and vitamin E, while synthetic RTAs such as ferrostatin-1 and liproxstatin-1 rescue cells from ferroptosis and are used as experimental inhibitors. The FSP1-CoQ10-NAD(P)H axis works precisely by maintaining ubiquinol as a membrane RTA; loss of the RTA, for example via mevalonate-pathway depletion of ubiquinone, removes this protection.",
+      "zh-TW": "RTA 藉由防止過氧化鏈傳播到致死程度來保護對抗 ferroptosis。內源性 RTA 包括 ubiquinol (CoQ10H2)、vitamin K hydroquinone 與 vitamin E；合成 RTA 如 ferrostatin-1 與 liproxstatin-1 則可挽救細胞免於 ferroptosis，並作為實驗性抑制劑使用。FSP1–CoQ10–NAD(P)H 軸正是藉由維持 ubiquinol 作為膜上 RTA 發揮作用；RTA 喪失（例如經甲羥戊酸途徑耗竭 ubiquinone）就會撤除這種保護。"
+    },
+    "confidence": 0.9,
+    "source_document": "Radical-trapping Antioxidant.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "60b17ea681be",
+    "subject": "Ferrostatin-1",
+    "predicate": "is_a_type_of",
+    "object": "Radical-trapping Antioxidant",
+    "context": {
+      "en-US": "Ferrostatin-1 is a synthetic radical-trapping antioxidant used as an experimental inhibitor of ferroptosis. It chains with liproxstatin-1 as the synthetic RTA class, the tools that let researchers show peroxidation chain breaking, rather than hydroperoxide repair, is sufficient to block ferroptotic death.",
+      "zh-TW": "Ferrostatin-1 是合成的自由基捕捉型抗氧化劑，作為 ferroptosis 的實驗性抑制劑使用。它與 liproxstatin-1 共同構成合成 RTA 類別，這些工具讓研究者得以證明：鏈中斷（即過氧化鏈的截斷）而非過氧化物修復，即足以阻斷 ferroptotic 死亡。"
+    },
+    "confidence": 0.9,
+    "source_document": "Radical-trapping Antioxidant.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "1beea1844683",
+    "subject": "Coenzyme Q10",
+    "predicate": "is_a_type_of",
+    "object": "Radical-trapping Antioxidant",
+    "context": {
+      "en-US": "Ubiquinol (CoQ10H2), the reduced form of Coenzyme Q10, is the central GPX4-independent radical-trapping antioxidant. FSP1 regenerates it at the plasma membrane using NAD(P)H, so maintaining ubiquinol is how the FSP1-CoQ10-NAD(P)H axis controls lipid peroxidation independently of glutathione-dependent GPX4.",
+      "zh-TW": "Ubiquinol (CoQ10H2)，即 Coenzyme Q10 的還原態，是中樞的、不依賴 GPX4 的自由基捕捉型抗氧化劑。FSP1 以 NAD(P)H 在細胞膜上再生它，因此維持 ubiquinol 正是 FSP1–CoQ10–NAD(P)H 軸在不依賴 glutathione 依賴型 GPX4 的情況下控制 lipid peroxidation 的方式。"
+    },
+    "confidence": 0.85,
+    "source_document": "Radical-trapping Antioxidant.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "39d4062a0840",
+    "subject": "Rapamycin",
+    "predicate": "promotes",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "By inhibiting mTORC1, rapamycin promotes autophagy, the cellular self-degradation pathway that clears damaged proteins and organelles. This is why rapamycin, metformin and spermidine are grouped as autophagy-inducing drugs used to rejuvenate immune cells, and why rapamycin is studied in neurodegeneration models such as Parkinson's disease for its ability to enhance clearance of protein aggregates and damaged organelles.",
+      "zh-TW": "藉由抑制 mTORC1，rapamycin 促進 Autophagy，也就是清除受損蛋白質與胞器的細胞自我分解途徑。這就是 rapamycin、metformin 與 spermidine 被並列為用於讓免疫細胞年輕化的自噬誘導藥物，也是 rapamycin 在 Parkinson's disease 等神經退化模型中被研究的原因，因其能增強蛋白聚集體與受損胞器的清除。"
+    },
+    "confidence": 0.95,
+    "source_document": "Rapamycin.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "967bbe6b2625",
+    "subject": "Rapamycin",
+    "predicate": "activates",
+    "object": "TFE3",
+    "context": {
+      "en-US": "As a TFEB/TFE3 activator, rapamycin prevents losses in mitochondrial function and restores cell viability in mitochondrially compromised human iPSC-derived dopaminergic neurons (Siddiqui et al. 2015). Since mTORC1 is the principal brake on the TFEB/TFE3 lysosomal biogenesis and stress-adaptation axis, rapamycin's activation of TFE3 links its autophagy effects to restoration of lysosomal clearance capacity.",
+      "zh-TW": "作為 TFEB/TFE3 活化劑，rapamycin 可防止粒線體功能喪失並恢復粒線體受損之人類 iPSC 衍生多巴胺能神經元的細胞存活（Siddiqui et al. 2015）。由於 mTORC1 是 TFEB/TFE3 溶小體生成與壓力調適軸的主要煞車，rapamycin 對 TFE3 的活化把它的自噬效果與溶小體清除能力的恢復連結起來。"
+    },
+    "confidence": 0.85,
+    "source_document": "Rapamycin.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "02ac38b0409c",
+    "subject": "mTORC2",
+    "predicate": "promotes",
+    "object": "Rac1",
+    "context": {
+      "en-US": "Studies suggest that mTORC2 controls the actin cytoskeleton by promoting PKC-alpha phosphorylation, phosphorylation and relocalization of paxillin to focal adhesions, and the GTP loading of RhoA and Rac1. Rac1 is thus downstream of mTORC2 in cytoskeletal control, linking the mTOR pathway to the actin cytoskeleton and focal adhesion dynamics.",
+      "zh-TW": "研究顯示 mTORC2 藉由促進 PKCα 磷酸化、paxillin 的磷酸化及其向 focal adhesion 的重新定位，以及 RhoA 與 Rac1 的 GTP 載入來控制 actin cytoskeleton。因此 Rac1 在細胞骨架調控中位於 mTORC2 下游，把 mTOR 途徑與 actin cytoskeleton 及 focal adhesion 動態連結起來。"
+    },
+    "confidence": 0.75,
+    "source_document": "Rac1.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "1d454d0b98d4",
+    "subject": "Rb",
+    "predicate": "binds",
+    "object": "E2F1",
+    "context": {
+      "en-US": "Rb (retinoblastoma protein) acts by binding and sequestering E2F transcription factors, preventing transcription of genes required for S-phase entry such as cyclin A, cyclin E, DNA polymerase and thymidine kinase. In its active hypophosphorylated state Rb also recruits SWI/SNF and histone deacetylase complexes to E2F target promoters, establishing a repressive chromatin state that makes the arrest irreversible even if Rb is later degraded.",
+      "zh-TW": "Rb（視網膜母細胞瘤蛋白）的作用方式是結合並隔離 E2F 轉錄因子，阻止 cyclin A、cyclin E、DNA polymerase 與 thymidine kinase 等 S 期進入所需基因的轉錄。在活性態的低磷酸化 Rb 也會將 SWI/SNF 與組蛋白去乙醯酶複合體招募到 E2F 標的啟動子，建立抑制性染色質狀態，使停滯即使在 Rb 隨後被降解後仍不可逆。"
+    },
+    "confidence": 0.95,
+    "source_document": "Rb.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "1b18b55c5cac",
+    "subject": "Rb",
+    "predicate": "is_phosphorylated_by",
+    "object": "CDK2",
+    "context": {
+      "en-US": "Rb is inactivated by phosphorylation: CDK4/CDK6-cyclin D mono-phosphorylates it as the initial step, and CDK2-cyclin E/A hyperphosphorylates it, releasing E2F and allowing cell cycle progression. p16 inhibits CDK4/6 while p21 restrains CDK2, so both pathways converge on keeping Rb hypophosphorylated and enforcing cell cycle arrest.",
+      "zh-TW": "Rb 會因磷酸化而失活：CDK4/CDK6–cyclin D 先做單一磷酸化，隨後 CDK2–cyclin E/A 進行過磷酸化，釋放 E2F 並允許細胞週期進行。p16 抑制 CDK4/6，而 p21 約束 CDK2，因此兩條路徑都匯聚於維持 Rb 低磷酸化並執行細胞週期停滯。"
+    },
+    "confidence": 0.9,
+    "source_document": "Rb.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "8b68b8dab7d8",
+    "subject": "Rb",
+    "predicate": "is_required_for",
+    "object": "Senescence",
+    "context": {
+      "en-US": "Rb plays a pivotal role in enforcing the irreversible nature of senescence. Hypophosphorylated Rb keeps E2F repressed and recruits chromatin remodeling complexes to E2F target promoters, so loss of Rb function can allow cells to bypass senescence and re-enter the cell cycle. In oncogene-induced senescence Rb is held hypophosphorylated by both p16 and p21 pathways simultaneously, and Rb-mediated senescence contributes to age-related tissue degeneration.",
+      "zh-TW": "Rb 在維持衰老的不可逆性上扮演樞紐角色。低磷酸化 Rb 保持 E2F 受抑制，並將染色質重塑複合體招募到 E2F 標的啟動子，因此 Rb 功能喪失可能讓細胞繞過衰老而重新進入細胞週期。在 oncogene-induced senescence 中，Rb 由 p16 與 p21 兩條路徑同時維持低磷酸化，而 Rb 介導的衰老也促成與年齡相關的組織退化。"
+    },
+    "confidence": 0.9,
+    "source_document": "Rb.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "165a95a35f53",
+    "subject": "Rb",
+    "predicate": "is_required_for",
+    "object": "Oncogene-Induced Senescence",
+    "context": {
+      "en-US": "Oncogene-induced senescence depends on both the p53/p21 and p16/Rb pathways maintaining Rb in its active hypophosphorylated state, and Rb's role in maintaining this arrest is through inhibition of E2F target gene expression. Loss of Rb function cooperates with loss of p53 in malignant transformation, and RB1 was the first tumour suppressor gene identified.",
+      "zh-TW": "Oncogene-induced senescence 同時依賴 p53/p21 與 p16/Rb 兩條路徑把 Rb 維持在活性的低磷酸化狀態，而 Rb 維持此停滯的作用是透過抑制 E2F 標的基因表現。Rb 功能喪失與 p53 喪失協同作用以促進惡性轉化，且 RB1 是第一個被辨識出的腫瘤抑制基因。"
+    },
+    "confidence": 0.9,
+    "source_document": "Rb.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
+  },
+  {
+    "id": "6c09ad82e9f3",
+    "subject": "p16",
+    "predicate": "maintains",
+    "object": "Rb",
+    "context": {
+      "en-US": "p16 binds CDK4/CDK6 to block RB phosphorylation, thereby keeping Rb in its active hypophosphorylated state and enforcing cell cycle arrest and senescence. It is one of two converging routes - p16/Rb and p53/p21 - whose simultaneous action on Rb makes senescence arrest irreversible in oncogene-induced senescence.",
+      "zh-TW": "p16 結合 CDK4/CDK6 以阻斷 RB 磷酸化，因而使 Rb 維持在活性的低磷酸化狀態，並執行細胞週期停滯與衰老。它是兩條匯聚路徑之一——p16/Rb 與 p53/p21——兩者同時作用於 Rb，使 oncogene-induced senescence 中的停滯變得不可逆。"
+    },
+    "confidence": 0.9,
+    "source_document": "Rb.md",
+    "created": "2026-09-29T17:41:41Z",
+    "updated": "2026-09-29T17:41:41Z"
   }
 ]
