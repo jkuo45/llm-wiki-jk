@@ -129,8 +129,9 @@ risk.
   set which route a cargo takes.
 - [[Ubiquitination]] — the tagging language of endosomal sorting. Ubiquitin
   chains on a membrane protein recruit the ESCRT complex and the lysosomal
-  targeting machinery; the same PTCH1/CYLD/ITCH axis in the immune system sets
-  the threshold for endocytic uptake.
+  targeting machinery; the CYLD deubiquitinase tunes the same
+  ubiquitin language in the innate immune system, setting the threshold for
+  endocytic uptake.
 - [[Lysosome]] — the terminal compartment for the degradative branch; its
   acidification depends on the endomembrane traffic that endocytosis feeds.
 - [[BIG1]] — the inositol lipid phosphatase coupled to ARF1 that generates the
@@ -166,6 +167,6 @@ risk.
 
 ## Linking Summary
 
-- New links added: [[Plasma Membrane]], [[Cell Membranes]], [[Ubiquitin]], [[Ubiquitination]], [[Lysosome]], [[Autophagy]], [[Autophagosome]], [[Autophagosome-lysosome fusion]], [[Endocytic Lysosome Reformation]], [[ESCRT]], [[Rab5]], [[Rab7]], [[BIG1]], [[Transferrin receptor 1]], [[LDL]], [[PCSK9]], [[BACE1]], [[Alpha-synuclein]], [[Notch Signaling]], [[EGFR]], [[Golgi apparatus]], [[Macrophages]], [[Cortactin]], [[mTORC1]], [[TFEB]], [[TFE3]], [[mTORC1-Lysosome Compartment]], [[Rapamycin]], [[SARS-CoV-2]], [[Salmonella enterica]], [[Cholera]], [[Alzheimer's Disease]], [[PTCH1]], [[CYLD]]
+- New links added: [[Plasma Membrane]], [[Cell Membranes]], [[Ubiquitin]], [[Ubiquitination]], [[Lysosome]], [[Autophagy]], [[Autophagosome]], [[Autophagosome-lysosome fusion]], [[Endocytic Lysosome Reformation]], [[ESCRT]], [[Rab5]], [[Rab7]], [[BIG1]], [[Transferrin receptor 1]], [[LDL]], [[PCSK9]], [[BACE1]], [[Alpha-synuclein]], [[Notch Signaling]], [[EGFR]], [[Golgi apparatus]], [[Macrophages]], [[Cortactin]], [[mTORC1]], [[TFEB]], [[TFE3]], [[mTORC1-Lysosome Compartment]], [[Rapamycin]], [[SARS-CoV-2]], [[Salmonella enterica]], [[Cholera]], [[Alzheimer's Disease]], [[CYLD]]
 - Suggested notes to create: [[Clathrin]], [[Dynamin]], [[Caveolin]], [[AP2]], [[Adaptor Protein Complex]], [[Arf6]], [[Multivesicular Body]], [[Transferrin]], [[LDL Receptor]], [[Late Endosome]], [[Retrograde Transport]], [[Pinocytosis]], [[RAB11]], [[RAB GTPases]]
 - Strong connections to strengthen: [[Endocytosis]] <-> [[Autophagy]] (shared ESCRT/tether/fusion machinery is asserted in both notes but not written out), [[Endocytosis]] <-> [[Cholera]] (toxin retrograde transport), [[Endocytosis]] <-> [[SARS-CoV-2]] (endosomal entry route)

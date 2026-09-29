@@ -43,6 +43,10 @@ GAG synthesis occurs in the Golgi. Sulfated chains are built on a primer (a xylo
 > [!warning] Clinical caveat
 > Degradation of GAGs is the shared mechanism of several severe diseases. Defective lysosomal enzymes that cannot degrade GAGs cause the [[Mucopolysaccharidoses|mucopolysaccharidoses]] — accumulation of keratan sulfate and heparan sulfate underlies [[Mucopolysaccharidosis-IIIA]]; accumulation of dermatan and heparan sulfate underlies Hurler (MPS I) and Hunter (MPS II) disease. In osteoarthritis, aggrecan and collagen fragmentation in cartilage is driven by [[Matrix Metalloproteinases|MMPs]] and by the aggrecanases ADAMTS-4/5. In [[Heparin|heparin]]-induced thrombocytopenia, the clinical entity is a drug–protein complex, not a GAG defect — worth keeping distinct.
 
+## Documents
+- [[Heparin]]
+  - The vault's inbound link, and the clinically decisive one: a highly sulfated GAG that became a drug. It is the reason the GAG class matters beyond extracellular matrix biology, and the reason the note separates HS from heparin by degree of sulfation.
+
 ## Connections
 
 - [[Heparin]] — the best-known clinical GAG, an unusually sulfated heparan sulfate made by mast cells and used as an anticoagulant. It is the direct reason this umbrella note matters pharmacologically: the same sulfation chemistry that makes heparin a drug makes cell-surface heparan sulfate a growth-factor reservoir.

@@ -45,6 +45,10 @@ Surgical removal of an accessible larva is the most reliable intervention. The t
 >
 > Whether to treat ocular or CNS disease with antihelminthics at all is **genuinely controversial**, because there are no published efficacy studies and both drugs can make things worse: albendazole provokes outward larval migration, and ivermectin can flare cutaneous symptoms. With CNS involvement, killing a larva in place may worsen the neurologic deficit, and the risk of death or permanent damage is not quantifiable. Local steroid cover is used for the eosinophilic meningitis component.
 
+## Documents
+- [[Gnathostomiasis]]
+  - The vault's inbound link and the clinical face of this genus. Everything on lifecycle, migratory swellings, eosinophilic meningitis and treatment risk here is the content of the disease note, written at the parasite level so the two are not duplicated.
+
 ## Connections
 
 - [[Helminth]] — *Gnathostoma* is a helminth, and specifically a tissue-migrating tissue nematode. It is the vault's clearest example of the point that helminth disease is a consequence of where the larva goes, not of the worm load.

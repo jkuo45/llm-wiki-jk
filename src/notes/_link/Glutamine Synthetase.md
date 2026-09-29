@@ -33,10 +33,16 @@ Glutamine is the most abundant free amino acid in the human body and the obligat
 > - **GLUL deficiency (congenital glutamine deficiency, GLND)** is an ultra-rare autosomal recessive disorder with neonatal encephalopathy, absent psychomotor development, seizures and progressive brain atrophy (OMIM 610015).
 > - **Loss of GS in mouse brain** causes a 14-fold fall in cortical glutamine, a 7-fold fall in alanine, and a catastrophic oxidative-stress phenotype with neurodegeneration — GS is required to keep brain glutathione synthesis supplied, and its loss triggers [[Mitochondrial ROS|mitochondrial oxidative stress]] and a ribotoxic stress response.
 > - Reduced GS levels or activity have been reported across neurodegenerative and neuroinflammatory conditions, though whether this is cause or consequence is not settled.
-> - **GS inhibition as therapy.** Glutamine is a fuel for tumour cells, so the classic inhibitors [[Acivicin]] and [[Telatinib]]-derived compounds and the antibiotic [[DON]] (6-diazo-5-oxo-L-norleucine) have been explored as anti-tumour agents. Systemic GS blockade is limited by the same brain ammonia handling described above.
+> - **GS inhibition as therapy.** Glutamine is a fuel for tumour cells, so the glutamine analogue [[Acivicin]] — a direct, essentially irreversible GS inhibitor — and the antibiotic 6-diazo-5-oxo-L-norleucine (DON) have both been explored as anti-tumour agents. Systemic GS blockade is limited by the same brain ammonia handling described above.
 
 > [!warning] Clinical caveat
 > Because astrocytic GS is the brain's ammonia sink, any strategy that lowers GS activity systemically carries a real risk of hyperammonaemia. Conversely, the enzyme is a tempting target for augmenting ammonia clearance, but simply raising GS activity does not help if the portal supply of ammonia is the limiting factor.
+
+## Documents
+- [[Glutamine]]
+  - The vault's inbound link from the substrate/product note. It frames GS as the entry point of glutamine biosynthesis and as the setting for the glutaminase/GS cycle discussed above.
+- [[Peroxynitrite]]
+  - The inbound link from the oxidative-stress side. It is the basis for the claim that nitration of GS catalytic residues inactivates the enzyme, coupling nitrosative stress to impaired nitrogen handling.
 
 ## Connections
 
@@ -49,5 +55,5 @@ Glutamine is the most abundant free amino acid in the human body and the obligat
 
 ## Linking Summary
 - New links added: [[Peroxynitrite]], [[Glutaminolysis]], [[Glutaminase]], [[Astrocytes]], [[Mitochondrial ROS]], [[Neurodegeneration]], [[ATP]], [[urea cycle]]
-- Suggested notes to create: [[Adenylation]], [[Adenylyl Transferase]], [[Ammonia]], [[Glutamate-Glutamine Cycle]], [[Acivicin]], [[DON (6-Diazo-5-oxo-L-norleucine)]], [[Hyperammonemia]], [[Hepatic Encephalopathy]], [[Urea Cycle]]
+- Suggested notes to create: [[Adenylation]], [[Adenylyl Transferase]], [[Ammonia]], [[Glutamate-Glutamine Cycle]], [[Acivicin]], [[Don (6-Diazo-5-oxo-L-norleucine)]], [[Hyperammonemia]], [[Hepatic Encephalopathy]]
 - Strong connections to strengthen: [[Glutamine Synthetase]] ↔ [[Astrocytes]], [[Glutamine Synthetase]] ↔ [[Glutaminase]], [[Glutamine Synthetase]] ↔ [[Glutamine]]

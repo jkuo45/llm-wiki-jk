@@ -43,9 +43,15 @@ HSC70 also has a specific role in degrading protein aggregates: it mediates the 
 > [!warning] Clinical caveat
 > The therapeutic record for direct HSC70 modulation is poor, and the reason is instructive. Broad Hsp70 induction (via [[HSF1]] activators such as [[Celastrol]]) has failed in trials, at least partly because HSC70 cannot distinguish a client that needs refolding from a mutant protein that needs destruction — pushing more chaperone onto a cell pushes both. The better-validated Hsp90-directed story in the vault depends on HSC70 only indirectly, as a co-chaperone. Separately, the claim that a small fraction of surface HSC70 is a therapeutically tractable target in cancer is real but remains far less mature than the Hsp90 story.
 
+## Documents
+- [[Chaperone-Mediated Autophagy]]
+  - The vault's inbound link and the main reason for this note. CMA is the one autophagy pathway for which HSC70 is an obligatory component, so the enzyme and the pathway cannot be described independently.
+- [[HSP70]]
+  - The vault's inbound link from the family note; supplies the Hsp70 domain architecture and the stress-inducible contrast that defines HSC70's constitutive role.
+
 ## Connections
 
-- [[HSP70]] — HSC70 is the constitutive paralog of the inducible HSP70. The two are ~80% identical, are both products of the [[HSPA1]]/[[HSPA8]] gene pair, and are functionally interchangeable in most assays, which is a recurring source of antibody-specificity artefacts in the literature. They are encoded by separate genes, HSPA1 (HSP70, inducible) and HSPA8 (HSC70, constitutive).
+- [[HSP70]] — HSC70 is the constitutive paralog of the inducible HSP70. The two are ~80% identical, are both products of the HSPA1/HSPA8 gene pair, and are functionally interchangeable in most assays, which is a recurring source of antibody-specificity artefacts in the literature.
 - [[Chaperone-Mediated Autophagy]] — HSC70 is the substrate-recognition step of CMA and without it no KFERQ protein is delivered to LAMP2A. This is the vault's clearest example of a chaperone functioning as a cargo receptor rather than a folding machine.
 - [[LAMP-2A]] — the lysosomal receptor HSC70 docks on; its abundance, not HSC70 abundance, is the rate-limiting variable in most reported CMA manipulations.
 - [[HSF1]] — the transcription factor that induces HSP70; HSC70 is only weakly HSF1-responsive, which is the mechanistic reason "heat shock" therapy hits HSP70 and not HSC70.

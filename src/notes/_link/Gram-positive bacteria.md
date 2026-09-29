@@ -17,7 +17,7 @@ Gram-positive bacteria are defined by staining purple with the [[Gram stain|Gram
 
 > [!info] Envelope architecture
 > - **A single cytoplasmic membrane**, no outer membrane, no periplasm, no lipopolysaccharide.
-> - **Thick multilayered peptidoglycan** (20–80 nm, up to ~50% of dry weight in some species), with peptide crosslinks that in the low-GC Gram-positives (Firmicutes) are characteristically **5→4 interpeptide bridges** — i.e. a direct peptide bond from the D-Ala of one stem to the amino group of the L-Lys of the next. This is the target of [[Lysine]]-targeting agents such as [[D-cycloserine]] and the basis of taxonomic assignment by bridge type.
+> - **Thick multilayered peptidoglycan** (20–80 nm, up to ~50% of dry weight in some species), with peptide crosslinks that in the low-GC Gram-positives (Firmicutes) are characteristically **5→4 interpeptide bridges** — i.e. a direct peptide bond from the D-Ala of one stem to the amino group of the L-Lys of the next. This is the target of lysine-bridge-targeting agents such as D-cycloserine and the basis of taxonomic assignment by bridge type.
 > - **Teichoic acids and lipoteichoic acids**: polyanionic phosphate-containing glycopolymers threaded through the peptidoglycan and projecting from the surface.
 > - Frequently **spore-forming** (*Bacillus*, *Clostridium*), often with an S-layer, capsule or extracellular polysaccharide matrix.
 
@@ -28,7 +28,7 @@ Principal medically relevant genera: *Staphylococcus*, *Streptococcus*, *Enteroc
 > [!info] Mechanism
 > Teichoic acids are phosphodiester-linked polymers of **glycerol phosphate** (glycerol TA) or **ribitol phosphate** (ribitol TA) with attached sugars. **Wall teichoic acids (WTA)** are covalently attached to peptidoglycan; **lipoteichoic acids (LTA)** are anchored in the cytoplasmic membrane via a glycolipid and extend through the wall to the surface. Their phosphate groups make the surface strongly anionic, which is what attracts divalent cations and is what supplies the wall's cation reservoir.
 >
-> Biosynthesis runs: cytoplasmic assembly of repeating units on a lipid carrier → elongation → **D-alanylation** by the DltABCE machinery (which reduces net negative charge and is required for resistance to cationic antimicrobial peptides) → translocation and attachment, with LCP-family proteins transferring WTA onto peptidoglycan. Blocking [[TarO]], the entry-step enzyme of the WTA pathway, downregulates virulence determinants in MRSA and activates a two-component system that represses the *agr* quorum-sensing locus — which is why WTA enzymes are active antibacterial targets in their own right.
+> Biosynthesis runs: cytoplasmic assembly of repeating units on a lipid carrier → elongation → **D-alanylation** by the DltABCE machinery (which reduces net negative charge and is required for resistance to cationic antimicrobial peptides) → translocation and attachment, with LCP-family proteins transferring WTA onto peptidoglycan. Blocking TarO, the entry-step enzyme of the WTA pathway, downregulates virulence determinants in MRSA and activates a two-component system that represses the *agr* quorum-sensing locus — which is why WTA enzymes are active antibacterial targets in their own right.
 
 ## Innate immune signalling
 
@@ -36,6 +36,10 @@ The key point of contact with the host innate immune system is **TLR2**, which r
 
 > [!warning] Clinical caveat
 > The common clinical shorthand "gram-positive sepsis" is a category error if read mechanistically. Gram-positive organisms rarely cause shock via endotoxin release; their mortality burden comes instead from **superantigen-mediated distributive shock** (*Staphylococcus aureus* TSST-1, *Streptococcus pyogenes* pyrogenic exotoxins), from overwhelming [[Sepsis]] driven by cytokine release, and from **resistant organisms** (MRSA, VRE) rather than from endotoxin. Teichoic acid/LTA biology explains part of this but not the bulk of the mortality, and the comparative endotoxin story is markedly more complete in the literature.
+
+## Documents
+- [[Lipoteichoic Acid]]
+  - The vault's inbound link and the reason this organism-level note exists. LTA is the single best-characterised Gram-positive surface molecule, and this note supplies the envelope context and the TLR2 pathway that gives LTA its biological meaning.
 
 ## Connections
 
@@ -45,7 +49,7 @@ The key point of contact with the host innate immune system is **TLR2**, which r
 - [[Inflammation]] — Gram-positive cell-wall products drive the acute inflammatory response, and their persistence in chronic infection (biofilm, prosthetic joint, device infection) is a major driver of local tissue damage and of osteomyelitis.
 - [[Vancomycin]] and β-lactams — the thick exposed peptidoglycan of a Gram-positive wall is exactly what makes β-lactams work well here, and the absence of an outer membrane removes the main barrier to their access. Teichoic-acid modification is a recognised resistance mechanism: D-alanylation reduces vancomycin and cationic antimicrobial peptide binding.
 - [[Quorum sensing]] — the *agr* and *lux* systems coordinate virulence and biofilm in *S. aureus* and enterococci; WTA biosynthesis is wired to these, as above.
-- [[Bacterial Endotoxin]]/[[DAMP]] — the distinction between an exogenous PAMP acting on [[Toll-like Receptor|TLR4]] and a host-derived DAMP acting on [[Inflammasome]] receptors is a real and clinically relevant distinction, and Gram-positive infection is the common case where the DAMP arm dominates.
+- [[DAMP]] — the distinction between an exogenous PAMP acting on [[Toll-like Receptor|TLR4]] and a host-derived DAMP acting on [[Inflammasome]] receptors is a real and clinically relevant distinction, and Gram-positive infection is the common case where the DAMP arm dominates.
 
 ## Linking Summary
 - New links added: [[Toll-like Receptor]], [[CD36]], [[Cytokines]], [[NF-κB]], [[Gram-Negative Bacteria]], [[Sepsis]], [[Quorum sensing]], [[Lysine]]

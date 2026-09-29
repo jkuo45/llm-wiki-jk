@@ -65,8 +65,8 @@ endothelial cells through an AKT/GSK-3beta/Snail axis, and blocking that axis
 with a PI3K inhibitor abolishes the transition.
 
 The lineage contribution of EndoMT to fibrosis is real but its magnitude is
-contested. Fate-mapping in mice ([[Tie1Cre]];[[R26RstoplacZ]]) shows
-EndMT-derived, FSP1-positive cells accumulating around cardiac capillaries in
+contested. Fate-mapping in mice with an endothelial-restricted beta-galactosidase
+reporter (Tie1-Cre;R26RstoplacZ) shows EndMT-derived, FSP1-positive cells accumulating around cardiac capillaries in
 fibrotic hearts, and [[SMAD3]] knockout reduces both EndMT and fibrosis. The
 arithmetic is less tidy than the enthusiasm implies: in most tissues the
 majority of myofibroblasts arise from resident fibroblasts, and the EndMT
@@ -115,5 +115,5 @@ Where EndoMT is well-supported as a disease mechanism:
 ## Linking Summary
 
 - New links added: [[Endothelial-to-Mesenchymal Transition]], [[Endothelial Cells]], [[Snail]], [[Zeb1]], [[Klf4]], [[TGF-beta1]], [[SMAD2]], [[SMAD3]], [[Notch Signaling]], [[Notch]], [[Wnt]], [[FGF]], [[ACTA2]], [[PECAM1]], [[CDH5]], [[Collagen]], [[Cardiac Fibrosis]], [[Pulmonary Fibrosis]], [[Pulmonary Arterial Hypertension]], [[Atherosclerosis]], [[Fibrosis]], [[SIRT6]], [[GATA5]]
-- Suggested notes to create: [[Endocardial-to-Mesenchymal Transition]], [[Cardiac Development]], [[Valve Development]], [[GSK-3beta]], [[Arsenic Trioxide]]
+- Suggested notes to create: [[Endocardial-to-Mesenchymal Transition]], [[Cardiac Development]], [[Valve Development]], [[GSK-3beta]], [[Arsenic Trioxide]], [[AKT]], [[FSP1]], [[Endocardial Cells]]
 - Strong connections to strengthen: [[EndMT]] <-> [[Endothelial-to-Mesenchymal Transition]] (merge candidate: consider folding the EndoMT note into this one, or making this note a short redirect once the endocardial note exists), [[EndMT]] <-> [[Cardiac Development]]

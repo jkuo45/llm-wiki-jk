@@ -50,6 +50,12 @@ Signalling is switched off as deliberately as it is on. [[PTEN]] dephosphorylate
 > [!info] Ageing context
 > RTK signalling is downstream of the nutrient-sensing pathways the vault studies elsewhere: [[IGF-Akt Signaling|IGF-1/Akt]] acts through the insulin receptor family, and reducing it is a converging strategy across [[Caloric Restriction|caloric restriction]], [[Fasting]] and [[mTOR]] inhibition. Acute injury responses (liver regeneration after partial hepatectomy) are also largely driven by EGFR and HGF/c-Met signalling.
 
+## Documents
+- [[Growth Factor]]
+  - The vault's inbound link from the ligand side; supplies the pan-family framing that this note complements with the receptor-side mechanism.
+- [[BIG1]]
+  - The vault's inbound link. BIG1 (a [[P300|CBP/p300]] coactivator-related chromatin factor in a lysine acetylation context) is noted here as an example of a node where signalling output and chromatin state are coupled, which is the endpoint that RTK autophosphorylation acts on.
+
 ## Connections
 
 - [[Growth Factor]] — the ligand class. Almost every growth factor note in the vault ([[EGF]], [[FGF]], [[VEGF]], [[PDGF]], [[TGFβ]], [[HGF]]) points back here, since the receptor is where the growth factor's signal enters the cell.
