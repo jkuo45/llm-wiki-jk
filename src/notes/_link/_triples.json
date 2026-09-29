@@ -40374,5 +40374,621 @@
     "source_document": "QueE-like.md",
     "created": "2026-09-29T15:03:53Z",
     "updated": "2026-09-29T15:03:53Z"
+  },
+  {
+    "id": "f7bcc911e16e",
+    "subject": "Isobutyl nitrite",
+    "predicate": "oxidizes",
+    "object": "Hemoglobin",
+    "context": {
+      "en-US": "Isobutyl nitrite is a volatile alkyl nitrite ('poppers') whose nitrite species oxidize the ferrous (Fe2+) iron of hemoglobin to the ferric (Fe3+) state. The resulting methemoglobin cannot bind or transport oxygen, so nitrite-driven one-electron oxidation of heme iron is the shared chemical basis for isobutyl nitrite toxicity and, in parallel, for the redox/autoxidation chemistry of catecholamine quinones.",
+      "zh-TW": "Isobutyl nitrite 是一種易揮發的烷基亞硝酸酯（「poppers」），其亞硝酸鹽物種可將血基質的鐵由二價鐵（Fe2+）氧化為三價鐵（Fe3+）。所形成的 methemoglobin 無法結合或運送氧氣，因此亞硝酸鹽驅動的單電子血基質氧化，正是 isobutyl nitrite 毒性的化學基礎，也與兒茶酚胺醌類的氧化／自氧化化學平行。"
+    },
+    "confidence": 0.9,
+    "source_document": "Isobutyl nitrite.md",
+    "created": "2026-09-29T15:09:12Z",
+    "updated": "2026-09-29T15:09:12Z"
+  },
+  {
+    "id": "516b7ad0ac24",
+    "subject": "Isobutyl nitrite",
+    "predicate": "causes",
+    "object": "Methemoglobinemia",
+    "context": {
+      "en-US": "Inhalation of isobutyl nitrite can trigger severe acquired methemoglobinemia, presenting with cyanosis, hypoxia and characteristic chocolate-brown blood. Because the underlying defect is oxidatively impaired hemoglobin, antidotes must restore the ferrous heme state rather than improve oxygen delivery capacity.",
+      "zh-TW": "吸入 isobutyl nitrite 可誘發嚴重的後天性 methemoglobinemia，表現為發紺、缺氧以及特有的巧克力色血液。由於其缺陷在於血基質被氧化而無法正常運氧，解毒劑必須還原鐵離子狀態，而非單純改善氧氣運送。"
+    },
+    "confidence": 0.9,
+    "source_document": "Isobutyl nitrite.md",
+    "created": "2026-09-29T15:09:12Z",
+    "updated": "2026-09-29T15:09:12Z"
+  },
+  {
+    "id": "8f52566030df",
+    "subject": "Isourolithin A",
+    "predicate": "stimulates",
+    "object": "Mitophagy",
+    "context": {
+      "en-US": "Isourolithin A, the gut-microbial isomer of urolithin A, can stimulate mitophagy, the selective clearance of damaged mitochondria. By improving mitochondrial quality control it is of interest for muscle health and healthspan, though its potency is generally somewhat lower than that of urolithin A.",
+      "zh-TW": "Isourolithin A 是 urolithin A 的腸道菌叢異構體，可刺激 Mitophagy，即可選擇性清除受損粒線體。藉由改善粒線體品質管制，它對肌肉健康與 healthspan 具意義，但效價通常略低於 urolithin A。"
+    },
+    "confidence": 0.9,
+    "source_document": "Isourolithin A.md",
+    "created": "2026-09-29T15:09:12Z",
+    "updated": "2026-09-29T15:09:12Z"
+  },
+  {
+    "id": "600721e19c06",
+    "subject": "Isourolithin A",
+    "predicate": "is_derived_from",
+    "object": "Ellagic acid",
+    "context": {
+      "en-US": "Isourolithin A is produced by gut bacteria such as Ellagibacter isourolithinifaciens from dietary ellagic acid and ellagitannins present in pomegranate, walnuts and berries. Individuals who make isourolithin A rather than urolithin A define metabotype B, so gut microbiome composition determines which urolithin metabolite a person can produce at all.",
+      "zh-TW": "Isourolithin A 由 Ellagibacter isourolithinifaciens 等腸道菌， 以飲食中的 ellagic acid 與存在於石榴、核桃、漿果中的 ellagitannin 產生。產生 isourolithin A 而非 urolithin A 的人被定義為 metabotype B，因此腸道菌叢組成決定了個人究竟能製造哪一種 urolithin 代謝物。"
+    },
+    "confidence": 0.85,
+    "source_document": "Isourolithin A.md",
+    "created": "2026-09-29T15:09:12Z",
+    "updated": "2026-09-29T15:09:12Z"
+  },
+  {
+    "id": "a9ff3f035233",
+    "subject": "Jeanho Yun",
+    "predicate": "co_authored",
+    "object": "Mitohormesis",
+    "context": {
+      "en-US": "Jeanho Yun co-authored the 2014 landmark 'Mitohormesis' paper in Cell Metabolism with Toren Finkel. That study showed that mild mitochondrial stress in Caenorhabditis elegans extends lifespan through an adaptive response dependent on the mitochondrial unfolded protein response, providing the mechanistic framework for the mitohormesis concept.",
+      "zh-TW": "Jeanho Yun 與 Toren Finkel 共同作者了 2014 年《Cell Metabolism》的里程碑論文「Mitohormesis」。該研究顯示，Caenorhabditis elegans 中輕度的粒線體壓力可透過依賴粒線體未折疊蛋白反應（UPRmt）的適應反應延長壽命，為 mitohormesis 概念提供了機轉框架。"
+    },
+    "confidence": 0.9,
+    "source_document": "Jeanho Yun.md",
+    "created": "2026-09-29T15:09:12Z",
+    "updated": "2026-09-29T15:09:12Z"
+  },
+  {
+    "id": "8bcc3003541a",
+    "subject": "Reactive Oxygen Species",
+    "predicate": "acts_as_signal_in",
+    "object": "Mitohormesis",
+    "context": {
+      "en-US": "Low levels of reactive oxygen species generated during mild mitochondrial stress function as second messengers in stress-adaptation signaling rather than purely as toxic byproducts. In Caenorhabditis elegans this ROS signal engages the UPRmt and the SKN-1/Nrf2 axis to upregulate chaperones, proteases and detoxification enzymes, the mechanistic core of mitohormesis.",
+      "zh-TW": "輕度粒線體壓力期間產生的低量 Reactive Oxygen Species，在壓力適應訊號中作為第二訊使，而非純粹的有毒副產物。在 Caenorhabditis elegans 中，此 ROS 訊號啟動 UPRmt 與 SKN-1/Nrf2 軸，上調伴護蛋白、蛋白酶與解毒酵素，這正是 mitohormesis 的機轉核心。"
+    },
+    "confidence": 0.9,
+    "source_document": "Jeanho Yun.md",
+    "created": "2026-09-29T15:09:12Z",
+    "updated": "2026-09-29T15:09:12Z"
+  },
+  {
+    "id": "57edfe4e0a9d",
+    "subject": "PARK7",
+    "predicate": "converts",
+    "object": "Methylglyoxal",
+    "context": {
+      "en-US": "PARK7 (DJ-1), a peroxiredoxin-like protein, stereospecifically converts the glycating dicarbonyl methylglyoxal into L-lactate in a glutathione-independent manner. By detoxifying methylglyoxal without consuming the principal antioxidant buffer, this route complements the glutathione-dependent glyoxalase system and the fructosyl-amino acid oxidase/PARK7 family of anti-glycation defenses.",
+      "zh-TW": "PARK7（DJ-1）是一種 peroxiredoxin 類蛋白質，會以不依賴 glutathione 的方式立體專一性地將醣化二羰基 methylglyoxal 轉換為 L-lactate。由於可在不消耗主要抗氧化緩衝的情況下解毒 methylglyoxal，這條途徑補足依賴 glutathione 的 glyoxalase system 以及 fructosyl-amino acid oxidase／PARK7 這類抗醣化防禦。"
+    },
+    "confidence": 0.9,
+    "source_document": "L-lactate.md",
+    "created": "2026-09-29T15:09:12Z",
+    "updated": "2026-09-29T15:09:12Z"
+  },
+  {
+    "id": "181ab49b74b2",
+    "subject": "Glycolysis",
+    "predicate": "produces",
+    "object": "L-lactate",
+    "context": {
+      "en-US": "L-lactate is the physiological enantiomer of lactate and is produced predominantly by glycolysis and anaerobic metabolism. Once dismissed as a mere waste product, it is now recognized as a signaling metabolite, an energy substrate shuttled between cells via the Cori cycle and monocarboxylate transporters, and an epigenetic modulator through histone lactylation.",
+      "zh-TW": "L-lactate 是 lactate 的生理性對映異構體，主要由 glycolysis 與無氧代謝產生。它過去被視為單純的廢物，如今則被認為是訊號代謝物、經由 Cori cycle 與單羧酸運輸蛋白在細胞間運送的能量底物，以及透過組蛋白 lactylation 作用的表觀遺傳調節者。"
+    },
+    "confidence": 0.9,
+    "source_document": "L-lactate.md",
+    "created": "2026-09-29T15:09:12Z",
+    "updated": "2026-09-29T15:09:12Z"
+  },
+  {
+    "id": "c5731b2b38fb",
+    "subject": "LC-MS",
+    "predicate": "identifies",
+    "object": "Leuco-adrenochrome",
+    "context": {
+      "en-US": "LC-MS combines the physical separation of liquid chromatography with mass analysis to identify catecholamine metabolites and impurities such as leuco-adrenochrome with high sensitivity and specificity. Adrenochrome analytics rely on it both to verify the purity of commercial epinephrine against a reference standard and to quantify trace degradation products in biological or pharmaceutical samples.",
+      "zh-TW": "LC-MS 結合液相層析的物理分離能力與質譜分析能力，可高專一性地鑑別兒茶酚胺代謝物與 leuco-adrenochrome 等雜質。Adrenochrome 的分析同時倚賴它，藉以比對商業 epinephrine 樣品與參考標準以確認純度，並定量生物或藥物樣品中的微量降解產物。"
+    },
+    "confidence": 0.85,
+    "source_document": "LC-MS.md",
+    "created": "2026-09-29T15:09:12Z",
+    "updated": "2026-09-29T15:09:12Z"
+  },
+  {
+    "id": "9d066a0a413a",
+    "subject": "Mass Spectrometry",
+    "predicate": "is_a_component_of",
+    "object": "LC-MS",
+    "context": {
+      "en-US": "Mass spectrometry measures the mass-to-charge ratio of ions and, when coupled to liquid chromatography as LC-MS, identifies and quantifies trace adrenochrome species from their unique molecular weights and fragmentation patterns. The same technique also serves as a Certificate of Analysis verification method for synthetic adrenochrome batches, which readily degrade if handled improperly.",
+      "zh-TW": "Mass spectrometry 測量離子的質荷比；與液相層析偶聯成 LC-MS 時，便可依據獨特的分子量與碎片圖譜鑑別並定量微量 adrenochrome 物種。同一技術也用作合成 adrenochrome 批號的 Certificate of Analysis 驗證方法，因為這類批次若處理不當極易降解。"
+    },
+    "confidence": 0.85,
+    "source_document": "Mass Spectrometry.md",
+    "created": "2026-09-29T15:09:12Z",
+    "updated": "2026-09-29T15:09:12Z"
+  },
+  {
+    "id": "cbcc3af36f93",
+    "subject": "Lidocaine",
+    "predicate": "causes",
+    "object": "Methemoglobinemia",
+    "context": {
+      "en-US": "Lidocaine, an amide-type local anesthetic and Class IB antiarrhythmic that blocks voltage-gated sodium channels, is a recognized cause of acquired methemoglobinemia, particularly with high-dose infusion, topical mucosal application, or use in infants. The pathogenesis is metabolic: lidocaine and its aromatic amine metabolites oxidize ferroheme (Fe2+) of hemoglobin to ferriheme (Fe3+), shifting the oxygen-dissociation curve leftward and producing cyanosis refractory to oxygen.",
+      "zh-TW": "Lidocaine 是一種阻斷電壓門控鈉離子通道的醯胺類局部麻醉藥與 IB 類抗心律不整藥，被認為是後天性 methemoglobinemia 的已知病因，尤其見於高劑量輸注、黏膜局部使用或嬰兒族群。其致病機轉為代謝性：lidocaine 及其芳香胺代謝物將血基質由二價鐵（Fe2+）氧化為三價鐵（Fe3+），使氧解離曲線左移，產生對氧氣無反應的發紺。"
+    },
+    "confidence": 0.9,
+    "source_document": "Lidocaine.md",
+    "created": "2026-09-29T15:09:12Z",
+    "updated": "2026-09-29T15:09:12Z"
+  },
+  {
+    "id": "32d9751065ca",
+    "subject": "Ligand-conjugated Nanoparticles",
+    "predicate": "targets",
+    "object": "Senescent Cells",
+    "context": {
+      "en-US": "Ligand-conjugated nanoparticles are nanoparticle cores decorated with ligands that bind specific cell-surface markers, concentrating the particle and its payload at the desired site while sparing non-target tissue. Applied to senescence, this ligand-receptor interaction directs senolytics or senomorphics selectively to senescent cells, potentially improving their therapeutic index over untargeted formulations.",
+      "zh-TW": "Ligand-conjugated nanoparticles 是以可結合特定細胞表面標記的配體修飾的奈米顆粒核心，能將顆粒與其負載物集中於目標部位，同時減少非標靶組織的暴露。應用於衰老領域時，這種配體—受體作用可將 senolytics 或 senomorphics 選擇性導向 senescent cells，相較未標靶配方有潛力提升治療指數。"
+    },
+    "confidence": 0.85,
+    "source_document": "Ligand-conjugated Nanoparticles.md",
+    "created": "2026-09-29T15:09:12Z",
+    "updated": "2026-09-29T15:09:12Z"
+  },
+  {
+    "id": "ed9c8c5effe1",
+    "subject": "Ligand-conjugated Nanoparticles",
+    "predicate": "stabilizes",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "Because adrenochrome is notoriously unstable and subject to metal- and oxygen-dependent non-enzymatic autoxidation, encapsulation inside ligand-conjugated nanoparticles shields it from the extracellular environment of blood and plasma. The same platform therefore serves dual utility: selectivity for targeting senescent cells and stabilization of oxidation-prone catecholamine derivatives.",
+      "zh-TW": "由於 adrenochrome 極不穩定，且會發生金屬與氧依賴性的非酵素性自氧化，將其包埋於 ligand-conjugated nanoparticles 內可隔絕血液與血漿的細胞外環境。同一平台因此具有雙重效用：對 senescent cells 的選擇性標靶，以及對易氧化兒茶酚胺衍生物的穩定化。"
+    },
+    "confidence": 0.85,
+    "source_document": "Ligand-conjugated Nanoparticles.md",
+    "created": "2026-09-29T15:09:12Z",
+    "updated": "2026-09-29T15:09:12Z"
+  },
+  {
+    "id": "018ff6941392",
+    "subject": "Lipase inhibitor",
+    "predicate": "reduces_absorption_of",
+    "object": "Advanced Glycation End Products",
+    "context": {
+      "en-US": "Lipase inhibitors suppress pancreatic and gastric lipases that hydrolyze dietary triglycerides, blocking fat digestion and lowering caloric uptake. Because lipophilic advanced glycation end products and their precursors co-travel with dietary fat, inhibiting lipase limits their micellar solubilization and intestinal uptake, lowering systemic AGE burden - a mechanistic link between fat digestion and the glycation axis of vascular and metabolic aging.",
+      "zh-TW": "Lipase inhibitor 抑制分解飲食三酸甘油酯的胰臟與胃脂肪酶，阻斷脂肪消化並降低熱量攝取。由於親脂性的 advanced glycation end products 及其前驅物與飲食脂肪共運送，抑制脂肪酶會限制其微膠粒溶解與腸道吸收，降低全身 AGE 負載——這是脂肪消化與血管及代謝性老化之醣化軸之間的機轉連結。"
+    },
+    "confidence": 0.85,
+    "source_document": "Lipase inhibitor.md",
+    "created": "2026-09-29T15:09:12Z",
+    "updated": "2026-09-29T15:09:12Z"
+  },
+  {
+    "id": "d3ccba839ce5",
+    "subject": "Orlistat",
+    "predicate": "is_a_type_of",
+    "object": "Lipase inhibitor",
+    "context": {
+      "en-US": "Orlistat, derived from Streptomyces toxytricini, is the prototypical lipase inhibitor: an irreversible inhibitor of gastric and pancreatic lipase used for weight management. Its mechanism extends beyond caloric restriction, since blocking fat digestion also reduces uptake of dietary advanced glycation end products; chronic use nonetheless requires fat-soluble vitamin monitoring because of malabsorption.",
+      "zh-TW": "Orlistat 源自 Streptomyces toxytricini，是脂肪酶抑制劑的原型：不可逆地抑制胃與胰臟脂肪酶，用於體重管理。其機轉不侷限於熱量限制，因為阻斷脂肪消化也會減少飲食性 advanced glycation end products 的攝取；但長期使用仍須監測脂溶性維生素以防吸收不良。"
+    },
+    "confidence": 0.85,
+    "source_document": "Lipase inhibitor.md",
+    "created": "2026-09-29T15:09:12Z",
+    "updated": "2026-09-29T15:09:12Z"
+  },
+  {
+    "id": "9a2d34e5c34c",
+    "subject": "Liposome Encapsulation",
+    "predicate": "stabilizes",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "Liposome encapsulation sequesters compounds within or anchored to a phospholipid bilayer, exploiting the amphipathic nature of phospholipids to solubilize both hydrophilic cargo in the aqueous core and hydrophobic cargo within the lipid. Adrenochrome and related aminochromes and quinones are chemically unstable, redox-active and poorly soluble, so encapsulation shields them from rapid autoxidation, limits tissue oxidative stress, and stabilizes labile analytical reference standards.",
+      "zh-TW": "Liposome encapsulation 將化合物隔離或錨定於磷脂雙層內，利用磷脂的兩親性同時溶解水溶性負載物（水相核心中）與脂溶性負載物（脂質層中）。Adrenochrome 及相關 aminochrome 與醌類化學上不穩定、具有氧化還原活性且溶解度差，因此包埋可 shields 其免於快速自氧化、限制組織的氧化壓力，並穩定易降解的分析用參考標準品。"
+    },
+    "confidence": 0.85,
+    "source_document": "Liposome Encapsulation.md",
+    "created": "2026-09-29T15:09:12Z",
+    "updated": "2026-09-29T15:09:12Z"
+  },
+  {
+    "id": "a2411621befe",
+    "subject": "Low-Density Lipoprotein",
+    "predicate": "contributes_to",
+    "object": "Atherosclerosis",
+    "context": {
+      "en-US": "Low-density lipoprotein is the principal cholesterol-transporting lipoprotein, carrying ApoB-100 with a core of cholesteryl esters and triglycerides. The unmodified particle is relatively inert; pathogenicity emerges once LDL is retained in the arterial intima and chemically modified by oxidation or glycation, after which scavenger-receptor uptake by macrophages seeds foam cells and fatty streaks. Small, dense LDL subspecies are especially prone to both modifications, so particle number and quality matter beyond total cholesterol.",
+      "zh-TW": "Low-Density Lipoprotein 是運送膽固醇的主要脂蛋白，攜帶 ApoB-100 及膽固醇酯與三酸甘油酯核心。未經修飾的顆粒相對惰性；致病性出現在 LDL 滯留於動脈內膜並受到氧化或醣化修飾之後，此時經由清道夫受體被巨噬細胞攝取，形成泡沫細胞與脂肪斑塊。體積小而密的 LDL 次族群特別容易被這兩種修飾，因此顆粒數量與品質比總膽固醇更關鍵。"
+    },
+    "confidence": 0.9,
+    "source_document": "Low-Density Lipoprotein.md",
+    "created": "2026-09-29T15:09:12Z",
+    "updated": "2026-09-29T15:09:12Z"
+  },
+  {
+    "id": "ca75741824dc",
+    "subject": "Advanced Glycation End Products",
+    "predicate": "is_engaged_by",
+    "object": "RAGE",
+    "context": {
+      "en-US": "Glycation of ApoB-100 on retained LDL converts the particle into a high-uptake, pro-inflammatory form, and the resulting advanced glycation end products on LDL engage RAGE, amplifying inflammation and oxidative stress within the plaque. Lowering LDL and limiting dietary AGEs both reduce this atherogenic modification, a core cardiovascular-aging intervention.",
+      "zh-TW": "滯留 LDL 上 ApoB-100 的醣化會把顆粒轉變為高攝取、促發炎的形式，而 LDL 上形成的 advanced glycation end products 會接合 RAGE，在斑塊內放大 inflammation 與 oxidative stress。降低 LDL 與限制飲食 AGE 都可減少這種致粥樣硬化修飾，是心血管老化的核心介入點。"
+    },
+    "confidence": 0.8,
+    "source_document": "Low-Density Lipoprotein.md",
+    "created": "2026-09-29T15:09:12Z",
+    "updated": "2026-09-29T15:09:12Z"
+  },
+  {
+    "id": "afa5a1ecc73b",
+    "subject": "Lungs",
+    "predicate": "is_a_site_of",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "The lungs are a significant site of the oxidative metabolism of epinephrine into adrenochrome, particularly during acute respiratory conditions. During pneumonia, ARDS or COPD exacerbations, infiltrating neutrophils release large amounts of reactive oxygen species and myeloperoxidase, and the resulting oxidative environment converts local or circulating adrenaline to adrenochrome, whose presence further exacerbates lung injury through redox cycling.",
+      "zh-TW": "肺部是 epinephrine 氧化代謝為 adrenochrome 的重要場所，在急性呼吸道狀況下尤其明顯。於肺炎、ARDS 或 COPD 惡化期間，浸潤的 neutrophils 釋放大量 reactive oxygen species 與 myeloperoxidase，形成的氧化環境將局部或循環中的 adrenaline 轉為 adrenochrome，而其存在又透過 redox cycling 進一步加重肺部損傷。"
+    },
+    "confidence": 0.9,
+    "source_document": "Lungs.md",
+    "created": "2026-09-29T15:09:12Z",
+    "updated": "2026-09-29T15:09:12Z"
+  },
+  {
+    "id": "35c67437891b",
+    "subject": "Neutrophils",
+    "predicate": "produce",
+    "object": "Reactive Oxygen Species",
+    "context": {
+      "en-US": "Neutrophils flooding lung tissue and alveolar spaces during pneumonia, ARDS or COPD exacerbations undergo a respiratory burst that releases massive amounts of reactive oxygen species and myeloperoxidase. This creates the highly oxidative pulmonary environment that drives adrenaline oxidation and marks adrenochrome formation as an indicator of neutrophil-mediated tissue damage.",
+      "zh-TW": "在肺炎、ARDS 或 COPD 惡化期間，湧入肺組織與肺泡腔的 neutrophils 會進行 respiratory burst，釋放大量 reactive oxygen species 與 myeloperoxidase。這造就了高度氧化的肺部環境，驅動 adrenaline 氧化，也使 adrenochrome 的形成成為嗜中性球介導組織損傷的指標。"
+    },
+    "confidence": 0.85,
+    "source_document": "Lungs.md",
+    "created": "2026-09-29T15:09:12Z",
+    "updated": "2026-09-29T15:09:12Z"
+  },
+  {
+    "id": "c45797e40e30",
+    "subject": "Lysine",
+    "predicate": "reacts_in",
+    "object": "Maillard Reaction",
+    "context": {
+      "en-US": "Lysine is one of the primary amino acids that reacts with reducing sugars in the Maillard Reaction. Glucose first attaches non-enzymatically to a free lysine (or arginine) residue of a protein, lipid or DNA to form a Schiff base, which progresses to advanced glycation end products such as pyrraline. Because lysine residues are abundant and surface-exposed, they are the dominant glycation sites in long-lived matrix proteins.",
+      "zh-TW": "Lysine 是與還原糖在 Maillard Reaction 中反應的主要胺基酸之一。葡萄糖先以非酵素方式附著於蛋白質、脂質或 DNA 上游離的 lysine（或 arginine）殘基形成 Schiff base，進而生成 pyrraline 等 advanced glycation end products。由於 lysine 殘基數量多且易暴露於表面，它們是長壽命基質蛋白的主要醣化位點。"
+    },
+    "confidence": 0.9,
+    "source_document": "Lysine.md",
+    "created": "2026-09-29T15:09:12Z",
+    "updated": "2026-09-29T15:09:12Z"
+  },
+  {
+    "id": "0836dd888b2a",
+    "subject": "MAO",
+    "predicate": "metabolizes",
+    "object": "Epinephrine",
+    "context": {
+      "en-US": "Monoamine oxidase catalyzes the oxidative deamination of monoamines including catecholamines such as dopamine and epinephrine, removing the amine group to yield an aldehyde plus hydrogen peroxide. MAO catalysis proceeds via FAD, whose reoxidation by molecular oxygen makes hydrogen peroxide a stoichiometric by-product, linking MAO activity directly to mitochondrial oxidative stress and redox signaling.",
+      "zh-TW": "Monoamine oxidase 催化包括 dopamine 與 epinephrine 等兒茶酚胺在內的單胺之氧化脫氨作用，移除胺基後產生醛與 hydrogen peroxide。MAO 的催化經由 FAD 進行，FAD 被分子氧再氧化使 hydrogen peroxide 成為化學計量副產物，將 MAO 活性直接與粒線體 oxidative stress 及 redox 訊號連結。"
+    },
+    "confidence": 0.9,
+    "source_document": "MAO.md",
+    "created": "2026-09-29T15:09:12Z",
+    "updated": "2026-09-29T15:09:12Z"
+  },
+  {
+    "id": "73cb96b9132f",
+    "subject": "MAO",
+    "predicate": "produces",
+    "object": "Hydrogen Peroxide",
+    "context": {
+      "en-US": "Monoamine oxidase couples substrate oxidation to oxygen reduction: reduced FADH2 is reoxidized by molecular oxygen, generating hydrogen peroxide as a stoichiometric by-product of every oxidative deamination reaction. This obligatory H2O2 output is the mechanistic reason that MAO activity is counted as a direct source of mitochondrial oxidative stress, and it also explains why MAO inhibition redirects catecholamine substrate toward non-enzymatic oxidation pathways.",
+      "zh-TW": "Monoamine oxidase 將底物氧化與氧還原偶聯：被還原的 FADH2 由分子氧再氧化，使每次氧化脫氨反應都產生化學計量的 hydrogen peroxide。這不可避免的 H2O2 輸出是 MAO 活性被視為粒線體 oxidative stress 直接來源的機轉理由，也解釋了抑制 MAO 為何會將兒茶酚胺底物轉向非酵素性氧化途徑。"
+    },
+    "confidence": 0.9,
+    "source_document": "MAO.md",
+    "created": "2026-09-29T15:09:12Z",
+    "updated": "2026-09-29T15:09:12Z"
+  },
+  {
+    "id": "d4fc4aede764",
+    "subject": "Adrenochrome",
+    "predicate": "is_formed_when",
+    "object": "MAO",
+    "context": {
+      "en-US": "Under normal physiology MAO and COMT cooperatively degrade epinephrine to metanephrine, vanillylmandelic acid and other inert metabolites. When MAO is inhibited, catecholamine levels rise and the substrate flux shifts toward non-enzymatic oxidation, so epinephrine cyclizes to adrenochrome - especially in oxidative environments such as smoking or inflammation - raising the risk of cardiotoxicity and neurotoxicity.",
+      "zh-TW": "在正常生理下，MAO 與 COMT 協同將 epinephrine 降解為 metanephrine、vanillylmandelic acid 等惰性代謝物。當 MAO 被抑制時，兒茶酚胺濃度上升、底物流向轉向非酵素性氧化，epinephrine 便環化形成 adrenochrome——在 smoking 或 inflammation 等氧化環境中尤為明顯——並提高 cardiotoxicity 與神經毒性的風險。"
+    },
+    "confidence": 0.85,
+    "source_document": "MAO.md",
+    "created": "2026-09-29T15:09:12Z",
+    "updated": "2026-09-29T15:09:12Z"
+  },
+  {
+    "id": "a7069017a605",
+    "subject": "MAVS",
+    "predicate": "recruits",
+    "object": "TRAF6",
+    "context": {
+      "en-US": "When retinoic-acid-inducible protein I-like receptors detect viral RNA they interact with MAVS, activating it to form large prion-like aggregates on the outer mitochondrial membrane. Those aggregates recruit the signaling components TRAF2, TRAF6 and RIPK1 to drive innate immune signaling and interferon production, linking mitochondria to antiviral defense.",
+      "zh-TW": "當 retinoic-acid-inducible protein I-like receptors 偵測到病毒 RNA 時，會與 MAVS 交互作用，活化 MAVS 使其在粒線體外膜上形成大型類普里昂聚集體。這些聚集體招募 TRAF2、TRAF6 與 RIPK1 等訊號元件以啟動先天免疫訊號與 interferon 生成，將粒線體與抗病毒防禦相連結。"
+    },
+    "confidence": 0.9,
+    "source_document": "MAVS.md",
+    "created": "2026-09-29T15:09:12Z",
+    "updated": "2026-09-29T15:09:12Z"
+  },
+  {
+    "id": "0104f79ab6ed",
+    "subject": "Retinoic-acid-inducible protein I-like receptor",
+    "predicate": "activates",
+    "object": "MAVS",
+    "context": {
+      "en-US": "Retinoic-acid-inducible protein I-like receptors (RLRs) detect unique RNA structures generated during viral infection and then activate MAVS on the outer mitochondrial membrane. MAVS acts as the signaling platform that converts that detection event into prion-like aggregate formation and downstream interferon production, making the organelle an internal sensor of external danger.",
+      "zh-TW": "Retinoic-acid-inducible protein I-like receptors（RLRs）偵測病毒感染過程中產生的特殊 RNA 結構，隨後在粒線體外膜上活化 MAVS。MAVS 作為訊號平台，將此偵測事件轉換為類普里昂聚集體形成與下游 interferon 生成，使胞器成為對外來危險的內部感測器。"
+    },
+    "confidence": 0.9,
+    "source_document": "MAVS.md",
+    "created": "2026-09-29T15:09:12Z",
+    "updated": "2026-09-29T15:09:12Z"
+  },
+  {
+    "id": "da303722fa87",
+    "subject": "MITF",
+    "predicate": "upregulates",
+    "object": "Tyrosine Hydroxylase",
+    "context": {
+      "en-US": "MITF is the master bHLH-Zip transcription factor of melanocyte development and pigment production, driving expression of the melanin synthesis machinery including tyrosinase, TRP1 and DCT. These enzymes convert tyrosine into dopaquinone and downstream dopachrome and 5,6-dihydroxyindole intermediates that polymerize into melanins; because melanogenesis is redox-intensive and generates ortho-quinones and ROS, MITF indirectly governs the cell's capacity to buffer oxidative stress.",
+      "zh-TW": "MITF 是黑色素細胞發育與色素產生的關鍵 bHLH-Zip 轉錄因子，驅動 tyrosinase、TRP1 與 DCT 等黑色素合成機制基因的表現。這些酵素將 tyrosine 轉為 dopaquinone，及其下游的 dopachrome 與 5,6-dihydroxyindole 中間體，再聚合為 melanins；由於黑色素生成屬氧化還原密集且會產生鄰醌與 ROS，MITF 間接支配細胞緩衝 oxidative stress 的能力。"
+    },
+    "confidence": 0.9,
+    "source_document": "MITF.md",
+    "created": "2026-09-29T15:09:12Z",
+    "updated": "2026-09-29T15:09:12Z"
+  },
+  {
+    "id": "6c911662a920",
+    "subject": "MITF",
+    "predicate": "regulates",
+    "object": "Lysosome Biogenesis",
+    "context": {
+      "en-US": "MITF belongs to the MiT/TFE transcription factor family and, under lysosomal stress, translocates to the nucleus to induce lysosomal and autophagy genes. It shares the conserved helical periodicity motif that couples lysosomal biogenesis to cellular stress adaptation, and its activity is modulated by phosphorylation from MAPK, PI3K/AKT and AMPK pathways plus nutrient-sensing inputs via mTOR and PGC-1a.",
+      "zh-TW": "MITF 屬於 MiT/TFE 轉錄因子家族，在溶小體壓力下會轉位入核，誘導溶小體與自噬相關基因表現。它保有將 lysosome biogenesis 與細胞壓力適應相連結的保守螺旋週期性基序，其活性則受 MAPK、PI3K/AKT、AMPK 路徑的磷酸化，以及經由 mTOR 與 PGC-1α 的營養感測輸入所調節。"
+    },
+    "confidence": 0.85,
+    "source_document": "MITF.md",
+    "created": "2026-09-29T15:09:12Z",
+    "updated": "2026-09-29T15:09:12Z"
+  },
+  {
+    "id": "8c32806febe1",
+    "subject": "Matrix Metalloproteinases",
+    "predicate": "degrades",
+    "object": "Collagen",
+    "context": {
+      "en-US": "Matrix metalloproteinases are calcium-dependent, zinc-containing endopeptidases responsible for degradation and remodeling of extracellular matrix components. MMP-1 and MMP-2 act on collagen that has been stiffened and crosslinked by advanced glycation end products, and under high-AGE conditions MMP expression and activity become dysregulated, contributing to pathological remodeling and vascular complications.",
+      "zh-TW": "Matrix Metalloproteinases 是鈣依賴性、含鋅的內肽酶，負責細胞外基質成分的降解與重塑。MMP-1 與 MMP-2 作用於已被 advanced glycation end products 硬化並交聯的 collagen；在高 AGE 條件下 MMP 的表現與活性會失調，造成病理性重塑與血管併發症。"
+    },
+    "confidence": 0.9,
+    "source_document": "Matrix Metalloproteinases.md",
+    "created": "2026-09-29T15:09:12Z",
+    "updated": "2026-09-29T15:09:12Z"
+  },
+  {
+    "id": "86bc4c3390ce",
+    "subject": "Advanced Glycation End Products",
+    "predicate": "crosslinks",
+    "object": "Collagen",
+    "context": {
+      "en-US": "Advanced glycation end products stiffen and crosslink structural proteins such as collagen, and this altered substrate then becomes the target of dysregulated matrix metalloproteinase remodeling. The AGE-collagen axis therefore links dietary and metabolic glycation to pathological extracellular matrix turnover and vascular complications of aging.",
+      "zh-TW": "Advanced glycation End Products 會使 collagen 等結構蛋白硬化並交聯，而改變後的基質隨即成為 matrix metalloproteinase 重塑失調的目標。AGE–collagen 軸因此將飲食與代謝性醣化連結到病理性的細胞外基質周轉與老化血管併發症。"
+    },
+    "confidence": 0.85,
+    "source_document": "Matrix Metalloproteinases.md",
+    "created": "2026-09-29T15:09:12Z",
+    "updated": "2026-09-29T15:09:12Z"
+  },
+  {
+    "id": "c07c3b3418b0",
+    "subject": "Mdl1",
+    "predicate": "is_required_for",
+    "object": "Mitochondrial Unfolded Protein Response",
+    "context": {
+      "en-US": "Mdl1 is a type I ABC exporter in the budding yeast inner mitochondrial membrane that transports 6-20 amino acid peptides generated by matrix proteases such as ClpXP and Lon out of the matrix. Loss-of-function mdl1 mutants show blunted induction of UPRmt target genes upon mitochondrial proteotoxic stress, indicating that peptide egress is an early, necessary step in relaying organelle folding status to the nucleus.",
+      "zh-TW": "Mdl1 是出芽酵母粒線體內膜上的 type I ABC 輸出器，將由 ClpXP 與 Lon 等基質蛋白酶產生的 6–20 胺基酸胜肽運出基質。mdl1 失功能突變株在粒線體蛋白毒性壓力下呈現 UPRmt 目標基因誘導鈍化，顯示胜肽外排是將胞器摺疊狀態傳遞至細胞核的早期且必要步驟。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mdl1.md",
+    "created": "2026-09-29T15:09:12Z",
+    "updated": "2026-09-29T15:09:12Z"
+  },
+  {
+    "id": "004b7f71d709",
+    "subject": "HAF-1",
+    "predicate": "is_homologous_to",
+    "object": "Mdl1",
+    "context": {
+      "en-US": "HAF-1 is the functional homolog of Mdl1 in Caenorhabditis elegans, exporting matrix-derived peptides to activate ATFS-1-dependent mitochondrial unfolded protein response signaling. Disruption of HAF-1 impairs UPRmt and shortens lifespan under mitochondrial stress, so Mdl1 and HAF-1 together define a conserved peptide-based mitokine axis transducing mitochondrial stress into nuclear adaptive responses and organismal longevity.",
+      "zh-TW": "HAF-1 是 Caenorhabditis elegans 中 Mdl1 的功能同源物，負責輸出基質衍生的胜肽以活化 ATFS-1 依賴性的粒線體未折疊蛋白反應訊號。破壞 HAF-1 會削弱 UPRmt 並在粒線體壓力下縮短壽命，因此 Mdl1 與 HAF-1 共同界定一條保守的胜肽型 mitokine 軸，將粒線體壓力轉導為細胞核適應反應與生物體延壽。"
+    },
+    "confidence": 0.85,
+    "source_document": "Mdl1.md",
+    "created": "2026-09-29T15:09:12Z",
+    "updated": "2026-09-29T15:09:12Z"
+  },
+  {
+    "id": "47c4dc1e6e02",
+    "subject": "Melanins",
+    "predicate": "is_formed_by",
+    "object": "Dopaquinone",
+    "context": {
+      "en-US": "Melanins arise from polymerization of the pigment intermediates dopaquinone and its downstream dopachrome and 5,6-dihydroxyindole species, which couple spontaneously to form the brown-black polymers. The same quinone-driven polymerization underlies neuromelanin deposition and adrenochrome conversion to melanin-like products, linking all three pigment routes through shared electrophilic catechol-quinone chemistry.",
+      "zh-TW": "Melanins 由色素中間體 dopaquinone 及其下游的 dopachrome 與 5,6-dihydroxyindole 物種聚合而成，這些物種會自發偶聯形成棕黑色聚合物。同樣的醌類驅動聚合機轉 underlie 神經黑素的沉積與 adrenochrome 轉為類黑色素產物，將三條色素途徑以共享的親電性兒茶酚—醌化學連結起來。"
+    },
+    "confidence": 0.8,
+    "source_document": "Melanins.md",
+    "created": "2026-09-29T15:09:12Z",
+    "updated": "2026-09-29T15:09:12Z"
+  },
+  {
+    "id": "4e479be2ed7b",
+    "subject": "Menadione",
+    "predicate": "produces",
+    "object": "Superoxide anion",
+    "context": {
+      "en-US": "Menadione (vitamin K3) is a synthetic naphthoquinone whose principal activity is redox cycling: it is one-electron reduced by NADPH-cytochrome P450 reductase or mitochondrial NADH dehydrogenase to a semiquinone radical, which rapidly transfers the electron to molecular oxygen, regenerating the parent quinone while generating superoxide anion and downstream hydrogen peroxide. The result is a sustained burst of oxidative stress; at high doses menadione depletes glutathione, oxidizes thiols and triggers necrotic or apoptotic death, which is why it is no longer used clinically as a vitamin K source.",
+      "zh-TW": "Menadione（vitamin K3）是合成萘醌，主要活性來自 redox cycling：它被 NADPH-cytochrome P450 reductase 或粒線體 NADH dehydrogenase 單電子還原成半醌自由基，後者迅速將電子轉移給分子氧，在再生母體醌的同時產生 superoxide anion 與下游 hydrogen peroxide。結果是持續的 oxidative stress；高劑量下 menadione 會耗盡 glutathione、氧化硫醇並引發壞死或凋亡，因此已不再作為 vitamin K 補充品臨床使用。"
+    },
+    "confidence": 0.9,
+    "source_document": "Menadione.md",
+    "created": "2026-09-29T15:09:12Z",
+    "updated": "2026-09-29T15:09:12Z"
+  },
+  {
+    "id": "4b801e200615",
+    "subject": "Menadione",
+    "predicate": "induces",
+    "object": "Mitohormesis",
+    "context": {
+      "en-US": "At low subtoxic concentrations menadione acts as a mitohormetic agent: mild exposure activates the mitochondrial retrograde response and stress-resistance pathways that extend replicative lifespan in Saccharomyces cerevisiae. Menadione therefore serves as an experimental probe for the redox threshold that separates toxic oxidative damage from adaptive hormesis, a usage that made it a tool in the 2014 mitohormesis work.",
+      "zh-TW": "在低濃度亞毒性劑量下，menadione 扮演 mitohormetic 角色：輕度暴露會活化粒線體逆行反應與抗壓路徑，在 Saccharomyces cerevisiae 中延長複製性 lifespan。Menadione 因此成為探測 toxic 氧化損傷與適應性 hormesis 之間氧化還原門檻的實驗工具，也是 2014 年 mitohormesis 研究中的方法之一。"
+    },
+    "confidence": 0.9,
+    "source_document": "Menadione.md",
+    "created": "2026-09-29T15:09:12Z",
+    "updated": "2026-09-29T15:09:12Z"
+  },
+  {
+    "id": "14ff21c5c05e",
+    "subject": "Adrenochrome",
+    "predicate": "is_a_type_of",
+    "object": "Metabolic waste",
+    "context": {
+      "en-US": "In the context of catecholamine metabolism, adrenochrome is often viewed as metabolic waste or a chemical mishap that arises when the primary enzymatic pathways via MAO and COMT are overwhelmed or when antioxidant defenses fail. Under this framing adrenochrome serves as a marker of failed homeostasis rather than as a physiologically necessary metabolite.",
+      "zh-TW": "在兒茶酚胺代謝的脈絡下，adrenochrome 常被視為 metabolic waste 或化學意外，當經由 MAO 與 COMT 的主要酵素途徑被淹沒、或抗氧化防禦失效時便會生成。在此架構下，adrenochrome 是恆定失效的標記，而非生理上必需的代謝物。"
+    },
+    "confidence": 0.8,
+    "source_document": "Metabolic waste.md",
+    "created": "2026-09-29T15:09:12Z",
+    "updated": "2026-09-29T15:09:12Z"
+  },
+  {
+    "id": "913034c176d1",
+    "subject": "Metanephrine",
+    "predicate": "is_produced_by",
+    "object": "COMT",
+    "context": {
+      "en-US": "COMT (catechol-O-methyltransferase) transfers a methyl group from S-adenosylmethionine to the 3-hydroxyl of epinephrine's catechol ring, yielding metanephrine, the O-methylated metabolite of epinephrine; normetanephrine arises analogously from norepinephrine. Metanephrine is further deaminated and oxidized to vanillylmandelic acid, the terminal urinary catecholamine metabolite, and much of it is made continuously within chromaffin cells of the adrenal medulla independent of catecholamine release.",
+      "zh-TW": "COMT（catechol-O-methyltransferase）將 S-adenosylmethionine 的甲基轉移至 epinephrine 兒茶酚環的 3-羥基，生成 epinephrine 的 O-甲基化代謝物 metanephrine；normetanephrine 則同樣由 norepinephrine 衍生。Metanephrine 進一步脫氨與氧化成為終末尿中兒茶酚胺代謝物 vanillylmandelic acid，且其相當一部分在 adrenal medulla 的 chromaffin cells 內持續生成，與兒茶酚胺釋放無關。"
+    },
+    "confidence": 0.9,
+    "source_document": "Metanephrine.md",
+    "created": "2026-09-29T15:09:12Z",
+    "updated": "2026-09-29T15:09:12Z"
+  },
+  {
+    "id": "5bf7d179f439",
+    "subject": "Metanephrine",
+    "predicate": "is_a_biomarker_for",
+    "object": "Pheochromocytoma",
+    "context": {
+      "en-US": "Because metanephrines are produced steadily by chromaffin tumor tissue rather than in pulses with catecholamine release, plasma-free and 24-hour urinary metanephrines are the most sensitive biochemical test for pheochromocytoma and paraganglioma. COMT genotype (Val158Met) influences the rate of catecholamine O-methylation and therefore metabolite levels.",
+      "zh-TW": "由於 metanephrine 由嗜鉻細胞腫瘤組織持續生成，而非隨兒茶酚胺釋放呈脈衝式分泌，血漿游离與 24 小時尿 metanephrine 是偵測 pheochromocytoma 與副神經節瘤最靈敏的生化檢測。COMT 基因型（Val158Met）會影響兒茶酚胺 O-甲基化速率，進而影響代謝物濃度。"
+    },
+    "confidence": 0.9,
+    "source_document": "Metanephrine.md",
+    "created": "2026-09-29T15:09:12Z",
+    "updated": "2026-09-29T15:09:12Z"
+  },
+  {
+    "id": "d0f94f4b00fb",
+    "subject": "Mithridatism",
+    "predicate": "is_a_precursor_of",
+    "object": "Hormesis",
+    "context": {
+      "en-US": "Mithridatism, the practice of protecting oneself against a poison by gradually self-administering non-lethal amounts and popularized by Mithridates VI of Pontus with the Antidotum Mithridaticum, is the historical precursor to the scientific concept of hormesis. It illustrates the same underlying principle - that low-dose exposure to a stressor can induce an adaptive, protective response - which mitohormesis extends to mild mitochondrial perturbation.",
+      "zh-TW": "Mithridatism 指透過逐步自行攝取非致死劑量來保護自己免於毒害的做法，因龐特國王 Mithridates VI 與 Antidotum Mithridaticum 而聞名，是科學上 hormesis 概念的前身。它呈現了相同的底層原理——低劑量接觸壓力源可誘發適應性保護反應——而 mitohormesis 將此原理延伸至輕度粒線體擾動。"
+    },
+    "confidence": 0.85,
+    "source_document": "Mithridatism.md",
+    "created": "2026-09-29T15:09:12Z",
+    "updated": "2026-09-29T15:09:12Z"
+  },
+  {
+    "id": "06685dde6689",
+    "subject": "Mitochondrial calcium uniporter",
+    "predicate": "transports",
+    "object": "Calcium",
+    "context": {
+      "en-US": "The mitochondrial calcium uniporter is a highly selective pore-forming channel of the inner mitochondrial membrane, the central subunit of a holocomplex including MCUb, EMRE and the calcium-sensing gatekeepers MICU1 and MICU2. Under basal cytosolic calcium MICU1/2 keep the pore closed; when local calcium rises at endoplasmic-reticulum-mitochondria contact sites they relieve inhibition, permitting cooperative high-capacity influx that shapes cytosolic calcium transients.",
+      "zh-TW": "Mitochondrial calcium uniporter 是粒線體內膜上高度選擇性的成孔通道，為包含 MCUb、EMRE 與鈣感受性守門者 MICU1、MICU2 的整體複合體之核心次單元。在基礎細胞質鈣濃度下 MICU1/2 使孔道關閉；當內質網—粒線體接觸處局部鈣上升時，它們解除抑制，允許協同的高容量內流，藉以塑形細胞質鈣的暫態變化。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial calcium uniporter.md",
+    "created": "2026-09-29T15:09:12Z",
+    "updated": "2026-09-29T15:09:12Z"
+  },
+  {
+    "id": "de9315bdf2e7",
+    "subject": "Mitochondrial calcium uniporter",
+    "predicate": "increases",
+    "object": "Oxidative Stress",
+    "context": {
+      "en-US": "Matrix calcium taken up through the uniporter is a potent allosteric activator of pyruvate, isocitrate and alpha-ketoglutarate dehydrogenases, coupling excitatory or hormonal signals to ATP production. Sustained overload goes the other way: it depolarizes the inner membrane, elevates mitochondrial reactive oxygen species and can open the mitochondrial permeability transition pore. The uniporter and its regulators are themselves redox-sensitive, with oxidant stress promoting S-glutathionylation and altered gating.",
+      "zh-TW": "經由 uniporter 進入基質的鈣是 pyruvate、isocitrate 與 alpha-ketoglutarate 去氫酶的強效別構活化劑，將興奮性或荷爾蒙訊號與 ATP 生成偶聯。但持續過載則相反：它會去極化內膜、升高粒線體 reactive oxygen species，並可開啟粒線體通透性轉變孔。Uniporter 及其調節因子本身具氧化還原敏感性，氧化壓力會促進 S-glutathionylation 與改變的閘控行為。"
+    },
+    "confidence": 0.85,
+    "source_document": "Mitochondrial calcium uniporter.md",
+    "created": "2026-09-29T15:09:12Z",
+    "updated": "2026-09-29T15:09:12Z"
+  },
+  {
+    "id": "dcd73da956be",
+    "subject": "Mrps5",
+    "predicate": "triggers",
+    "object": "Mitochondrial Unfolded Protein Response",
+    "context": {
+      "en-US": "Mrps5 encodes a small subunit of the mammalian mitoribosome, whose knockdown reduces mitochondrial translation capacity and produces a mild respiratory deficiency that is sensed as proteotoxic stress. This activates the mitochondrial unfolded protein response, in which ATF5/ATFS-1 relocalizes to the nucleus and induces mitochondrial chaperones, proteases and antioxidant defenses; sublethal inhibition of Mrps5 phenocopies pharmacological translation blockers such as doxycycline and actinonin.",
+      "zh-TW": "Mrps5 編碼哺乳類粒線體核糖體的小次單元，其敲低會降低粒線體轉譯能力，產生被感知為蛋白毒性壓力的輕度呼吸缺陷。這會活化粒線體未折疊蛋白反應：ATF5/ATFS-1 轉位入核並誘導粒線體伴護蛋白、蛋白酶與抗氧化防禦；Mrps5 的亞致死抑制可 phenocopy doxycycline 與 actinonin 等藥理學轉譯抑制劑。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mrps5.md",
+    "created": "2026-09-29T15:09:12Z",
+    "updated": "2026-09-29T15:09:12Z"
+  },
+  {
+    "id": "e6d0c0d41093",
+    "subject": "Mrps5",
+    "predicate": "extends",
+    "object": "Lifespan",
+    "context": {
+      "en-US": "Mrps5 belongs to a class of mitohormetic longevity genes - including cco-1, isp-1 and clk-1 - whose calibrated impairment prolongs healthspan. Because the induced UPRmt program raises chaperone, protease and antioxidant capacity, reduced mitoribosomal function yields a longevity phenotype rather than simply a defect, underscoring the dosage sensitivity of mitoribosome function also seen in human MRPS5 mitochondrial disorders.",
+      "zh-TW": "Mrps5 屬於 mitohormetic 長壽基因一類——包括 cco-1、isp-1 與 clk-1——其經校準的損傷可延長 healthspan。由於被誘發的 UPRmt 程式提升伴護蛋白、蛋白酶與抗氧化能力，粒線體核糖體功能降低反而產生延壽表型而非單純缺陷，這也呼應人類 MRPS5 粒線體疾病所顯現的劑量敏感性。"
+    },
+    "confidence": 0.85,
+    "source_document": "Mrps5.md",
+    "created": "2026-09-29T15:09:12Z",
+    "updated": "2026-09-29T15:09:12Z"
+  },
+  {
+    "id": "ac990d2be052",
+    "subject": "Ligand-conjugated Nanoparticles",
+    "predicate": "encapsulates",
+    "object": "Senescent Cells",
+    "context": {
+      "en-US": "Ligand-conjugated nanoparticles concentrate senotherapeutics at senescent cells by engaging senescence-associated surface markers, sparing non-target tissue; the protective function instead exploits encapsulation to shield labile cargos such as adrenochrome from metal- and oxygen-dependent autoxidation in blood and plasma. The two roles differ only in purpose, not in platform.",
+      "zh-TW": "Ligand-conjugated nanoparticles 藉由結合與衰老相關的表面標記，將 senotherapeutics 集中於 senescent cells 並減少非標靶組織暴露；而保護性功能則利用包埋，隔絕 adrenochrome 等易降解負載物免受血液與血漿中金屬與氧依賴性的自氧化。兩種角色的差別僅在用途，而非平台本身。"
+    },
+    "confidence": 0.75,
+    "source_document": "Ligand-conjugated Nanoparticles.md",
+    "created": "2026-09-29T15:09:12Z",
+    "updated": "2026-09-29T15:09:12Z"
   }
 ]
