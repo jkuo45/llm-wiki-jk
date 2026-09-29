@@ -29048,5 +29048,1937 @@
     "source_document": "Celastrol.md",
     "created": "2026-09-29T14:39:01Z",
     "updated": "2026-09-29T14:39:01Z"
+  },
+  {
+    "id": "6abe5ff9984d",
+    "subject": "GABA",
+    "predicate": "is_synthesized_from",
+    "object": "Glutamate",
+    "context": {
+      "en-US": "GABA is synthesized from glutamate by the enzyme glutamic acid decarboxylase (GAD) and degraded by GABA transaminase. GABA therefore sits downstream of the glutamatergic system, acting as the principal inhibitory neurotransmitter of the adult mammalian central nervous system, and hyperpolarizes postsynaptic membranes through ionotropic GABA_A/GABA_C and metabotropic GABA_B receptors.",
+      "zh-TW": "GABA 由酵素 glutamic acid decarboxylase (GAD) 以 glutamate 為前驅物合成，並由 GABA transaminase 分解。因此 GABA 位於 glutamatergic 系統下游，是成年哺乳類中樞神經系統的主要抑制性神經傳遞物質，並透過 ionotropic GABA_A/GABA_C 與 metabotropic GABA_B 受體使突觸後膜過極化。"
+    },
+    "confidence": 0.95,
+    "source_document": "GABA.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "3854bb247e2e",
+    "subject": "Ivermectin",
+    "predicate": "targets",
+    "object": "Glutamate-gated Cl- channels",
+    "context": {
+      "en-US": "Ivermectin was long hypothesized to act on GABA-gated chloride channels, but its primary invertebrate target is now established to be the glutamate-gated chloride channels (GluCls). Vertebrate GABA_A receptors are far less sensitive to avermectins, and this distinction is what provides ivermectin's selective safety margin — and clarifies that its anticancer activity in mammals is mediated by other targets such as PAK1, YAP1 and Akt/mTOR rather than by GABAergic blockade.",
+      "zh-TW": "Ivermectin 過去曾被認為作用於 GABA-gated chloride channels，但其主要的無脊椎動物標的現已確定為 glutamate-gated chloride channels (GluCls)。脊椎動物的 GABA_A 受體對 avermectin 的敏感度遠低於此，這一區別正是 ivermectin 具有選擇性安全邊際的原因，也說明其在哺乳類中的抗癌活性是由 PAK1、YAP1 與 Akt/mTOR 等其他標的所介導，而非 GABAergic 阻斷。"
+    },
+    "confidence": 0.9,
+    "source_document": "GABA.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "57efb5868c13",
+    "subject": "GABA",
+    "predicate": "modulates",
+    "object": "Tumor Microenvironment",
+    "context": {
+      "en-US": "Beyond neuronal inhibition, GABA and its receptors exert tumor-modulatory effects: GABA_B receptor signaling can suppress cAMP/ERK-driven proliferation in some carcinomas, and GABA release by glioblastoma cells shapes the peritumoral excitatory/inhibitory balance and seizure propensity. GABA receptors are therefore being explored as modifiers of the tumor microenvironment and the neuro-immune axis.",
+      "zh-TW": "除了神經元抑制作用之外，GABA 及其受體還具有調節腫瘤的效果：GABA_B 受體訊號可在某些 carcinoma 中抑制 cAMP/ERK 驅動的增殖，而 glioblastoma 細胞釋放 GABA 會塑造腫瘤周圍的興奮/抑制平衡與癲癇傾向。因此 GABA 受體正被探索作為 tumor microenvironment 與神經免疫軸的調節因子。"
+    },
+    "confidence": 0.7,
+    "source_document": "GABA.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "9fee5aebb71d",
+    "subject": "Albendazole",
+    "predicate": "is_donated_by",
+    "object": "GlaxoSmithKline",
+    "context": {
+      "en-US": "GlaxoSmithKline is a founding donor to the Global Programme to Eliminate Lymphatic Filariasis, supplying albendazole free of charge for mass drug administration. Together with ivermectin donated by Merck & Co. Inc, this donation has enabled distribution of billions of doses, interrupting transmission of Wuchereria bancrofti and related filarial parasites, and illustrates the public–private model of pharmaceutical support for global health.",
+      "zh-TW": "GlaxoSmithKline 是 Global Programme to Eliminate Lymphatic Filariasis 的創始捐贈者，免費提供 albendazole 供 mass drug administration 使用。與 Merck & Co. Inc 捐贈的 ivermectin 一起，此捐贈使數十億劑得以分發，中斷 Wuchereria bancrofti 及相關絲蟲的傳播，並展現了製藥企業支持全球衛生的公私協作模式。"
+    },
+    "confidence": 0.9,
+    "source_document": "GlaxoSmithKline.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "e38f853079d4",
+    "subject": "Albendazole",
+    "predicate": "treats",
+    "object": "Lymphatic Filariasis",
+    "context": {
+      "en-US": "Albendazole is a benzimidazole anthelmintic that targets the intestinal microtubules of adult filarial worms and is co-administered with ivermectin as the backbone of lymphatic filariasis mass drug administration. In cancer research the same benzimidazole class is of interest because of its microtubule-destabilizing, antiproliferative activity.",
+      "zh-TW": "Albendazole 是一種 benzimidazole 驅蟲藥，作用於絲蟲成蟲的腸道 microtubules，並與 ivermectin 併用，作為 lymphatic filariasis mass drug administration 的核心。在癌症研究中，同一 benzimidazole 類因其 destabilizing microtubule 的抗增殖活性而受到關注。"
+    },
+    "confidence": 0.85,
+    "source_document": "GlaxoSmithKline.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "44ed88163a68",
+    "subject": "Global Programme to Eliminate Lymphatic Filariasis",
+    "predicate": "is_led_by",
+    "object": "World Health Organization",
+    "context": {
+      "en-US": "The Global Programme to Eliminate Lymphatic Filariasis (GPELF) was launched by the World Health Organization in 2000 as one of the largest public-health drug-distribution efforts in history. WHO convenes and coordinates the programme, coordinating donated drug supply with endemic-country health ministries and non-governmental implementation partners, and its MDA strategy aims to suppress the microfilarial reservoir below the transmission threshold after 4–6 years of annual treatment.",
+      "zh-TW": "Global Programme to Eliminate Lymphatic Filariasis (GPELF) 由 World Health Organization 於 2000 年發起，是史上最大规模的公共衛生藥物分發行動之一。WHO 負責召集與協調此計畫，連繫捐贈藥品供應、流行國衛生部門與非政府執行夥伴；其 MDA 策略目標是在連續每年治療 4–6 年後，將微絲蟲儲備量抑制到傳播門檻以下。"
+    },
+    "confidence": 0.9,
+    "source_document": "Global Programme to Eliminate Lymphatic Filariasis.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "33c444a75454",
+    "subject": "Ivermectin",
+    "predicate": "is_donated_by",
+    "object": "Merck & Co. Inc",
+    "context": {
+      "en-US": "Merck & Co. Inc donates ivermectin free of charge through the Mectizan Donation Program, and the donated ivermectin is the core drug of GPELF mass drug administration. The same molecule is under active investigation for repurposed anticancer activity, including inhibition of YAP1, PAK1 and Akt/mTOR signaling, which makes the donation program a real-world platform for safety, combination dosing and global access data.",
+      "zh-TW": "Merck & Co. Inc 透過 Mectizan Donation Program 免費捐贈 ivermectin，而該捐贈的 ivermectin 是 GPELF mass drug administration 的核心藥物。同一分子正被積極研究作為抗癌再定位用途，包括抑制 YAP1、PAK1 與 Akt/mTOR 訊號，因此該捐贈計畫同時成為安全性、併用劑量與全球可及性資料的真實世界平台。"
+    },
+    "confidence": 0.9,
+    "source_document": "Global Programme to Eliminate Lymphatic Filariasis.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "65378e293507",
+    "subject": "Albendazole",
+    "predicate": "is_combined_with",
+    "object": "Ivermectin",
+    "context": {
+      "en-US": "The principal mass drug administration regimen of GPELF is a co-administered two-drug combination of ivermectin and albendazole, with diethylcarbamazine substituted where onchocerciasis is absent. Annual co-administration for 4–6 years clears circulating microfilariae and suppresses transmission; the same combination is likewise used clinically in gnathostomiasis.",
+      "zh-TW": "GPELF 的 mass drug administration 主要處方為 ivermectin 與 albendazole 併用；在無 onchocerciasis 共生的地區則改用 diethylcarbamazine。連續每年併用 4–6 年可清除循環中的微絲蟲並抑制傳播；同一組合也用於 gnathostomiasis 的臨床治療。"
+    },
+    "confidence": 0.9,
+    "source_document": "Global Programme to Eliminate Lymphatic Filariasis.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "19a9e2478e3a",
+    "subject": "Glutamine",
+    "predicate": "is_converted_to",
+    "object": "Glutamate",
+    "context": {
+      "en-US": "Glutamine is catabolized by the enzyme glutaminase (GLS) back to glutamate, which then enters the TCA cycle as α-ketoglutarate. This anaplerotic route, known as glutaminolysis, maintains mitochondrial function when glucose availability is low, and in cancer the MYC oncogene drives a switch in which the TCA cycle runs primarily on glutamine-derived carbon rather than glucose-derived carbon.",
+      "zh-TW": "Glutamine 經酵素 glutaminase (GLS) 分解回 glutamate，後者再以 α-ketoglutarate 的形式進入 TCA cycle。這條補充反應途徑稱為 glutaminolysis，可在葡萄糖供應不足時維持粒線體功能；在癌症中，MYC 致癌基因會驅動 TCA cycle 主要改用 glutamine 來源碳而非葡萄糖來源碳的代謝切換。"
+    },
+    "confidence": 0.95,
+    "source_document": "Glutamine.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "91d3d6b88a45",
+    "subject": "Glutamine",
+    "predicate": "feeds_into",
+    "object": "TCA cycle",
+    "context": {
+      "en-US": "Glutamine serves as a primary carbon and nitrogen fuel for rapidly proliferating cancer cells, feeding the TCA cycle and supporting biomass accumulation — the basis of 'glutamine addiction'. Metabolic 13C tracing shows glutamine-derived carbon enrichment in all TCA intermediates (glutamate M+5, α-ketoglutarate M+5, succinate/fumarate/malate M+4) in MYChigh breast cancer cells, which is why these cells are vulnerable to combined Complex I plus glutaminase inhibition.",
+      "zh-TW": "Glutamine 是快速增殖癌細胞主要的碳與氮燃料，供應 TCA cycle 並支持生質量累積，即「glutamine addiction」的基礎。代謝 13C 追蹤顯示在 MYChigh 乳癌細胞中，所有 TCA 中間產物（glutamate M+5、α-ketoglutarate M+5、succinate/fumarate/malate M+4）皆出現 glutamine 來源碳的富集，這也是這些細胞對 Complex I 與 glutaminase 雙重抑制脆弱的原因。"
+    },
+    "confidence": 0.9,
+    "source_document": "Glutamine.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "03f23c4bda03",
+    "subject": "Glutamine",
+    "predicate": "is_precursor_of",
+    "object": "Glutathione",
+    "context": {
+      "en-US": "Glutamine metabolism supports the production of glutathione, the major intracellular antioxidant, helping cancer cells manage oxidative stress. Because glutamine-derived glutamate provides both nitrogen and carbon for glutathione synthesis, glutamine availability couples nutrient supply to the tumour cell's antioxidant capacity.",
+      "zh-TW": "Glutamine 代謝支持 glutathione（主要細胞內抗氧化劑）的生成，協助癌細胞管理 oxidative stress。由於 glutamine 衍生的 glutamate 同時提供 glutathione 合成所需的氮與碳，glutamine 的可利用性因此把營養供應與腫瘤細胞的抗氧化能力連結起來。"
+    },
+    "confidence": 0.85,
+    "source_document": "Glutamine.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "30f7b882c5d8",
+    "subject": "MYC",
+    "predicate": "upregulates",
+    "object": "Glutamine",
+    "context": {
+      "en-US": "The MYC oncogene is a key regulator of glutamine metabolism, upregulating glutamine transporters (e.g. SLC1A5/ASCT2) and glutaminase expression. MYC activation thereby increases glutamine uptake and catabolism, rewires the TCA cycle onto glutamine-derived carbon and diverts glucose-derived carbon to glycolysis, the pentose phosphate pathway and glycerolipid synthesis.",
+      "zh-TW": "MYC 致癌基因是 glutamine 代謝的關鍵調控者，會上調 glutamine 運輸蛋白（如 SLC1A5/ASCT2）與 glutaminase 的表現。MYC 活化因而增加 glutamine 的攝取與分解，將 TCA cycle 改接至 glutamine 來源碳，並把葡萄糖來源碳轉向 glycolysis、pentose phosphate pathway 與 glycerolipid 合成。"
+    },
+    "confidence": 0.9,
+    "source_document": "Glutamine.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "67e0975645b2",
+    "subject": "Ivermectin",
+    "predicate": "treats",
+    "object": "Gnathostomiasis",
+    "context": {
+      "en-US": "Recommended pharmacotherapy for gnathostomiasis is ivermectin (200 μg/kg/day for 2 days) combined with albendazole (400 mg twice daily for 21 days), which shows synergistic efficacy against migrating Gnathostoma larvae. Surgical excision of accessible lesions is additionally curative and provides diagnostic confirmation.",
+      "zh-TW": "Gnathostomiasis 的建議藥物治療為 ivermectin（200 μg/kg/day、連續 2 天）與 albendazole（400 mg、每日兩次、連續 21 天）併用，對移行中的 Gnathostoma 幼蟲具有協同療效。對於可接觸的病灶，手術切除同時具有治療與確診價值。"
+    },
+    "confidence": 0.9,
+    "source_document": "Gnathostomiasis.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "490f6f5961b4",
+    "subject": "Albendazole",
+    "predicate": "treats",
+    "object": "Gnathostomiasis",
+    "context": {
+      "en-US": "Albendazole is used synergistically with ivermectin in the treatment of gnathostomiasis, given at 400 mg twice daily for 21 days to act against migrating larvae of the zoonotic nematode genus Gnathostoma, most commonly Gnathostoma spinigerum.",
+      "zh-TW": "Albendazole 在 gnathostomiasis 治療中與 ivermectin 協同併用，劑量為 400 mg、每日兩次、連續 21 天，作用於人畜共通絲蟲屬 Gnathostoma（最常見為 Gnathostoma spinigerum）的移行幼蟲。"
+    },
+    "confidence": 0.9,
+    "source_document": "Gnathostomiasis.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "4d580df071df",
+    "subject": "Gnathostomiasis",
+    "predicate": "is_associated_with",
+    "object": "Eosinophilia",
+    "context": {
+      "en-US": "Peripheral blood eosinophilia is a hallmark laboratory finding in both cutaneous and visceral gnathostomiasis, often exceeding 20% of the total leukocyte count, and CSF eosinophilic pleocytosis is characteristic of the eosinophilic meningitis form. Eosinophilia in a patient with migratory subcutaneous swellings and relevant travel history is highly suggestive of gnathostomiasis.",
+      "zh-TW": "周邊血液 eosinophilia 是皮膚型與內臟型 gnathostomiasis 共同的典型實驗室表現，常超過總白血球計數的 20%；腦脊髓液中的嗜酸性球增多則是 eosinophilic meningitis 型的特徵。對於有移行性皮下腫脹及相關旅遊史的病人，eosinophilia 高度提示 gnathostomiasis。"
+    },
+    "confidence": 0.85,
+    "source_document": "Gnathostomiasis.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "7f7bb70d6614",
+    "subject": "HIV-1",
+    "predicate": "is_a_type_of",
+    "object": "HIV",
+    "context": {
+      "en-US": "HIV-1 is the pandemic form of HIV: it is a lentivirus of the Retroviridae family and, with Group M subtypes A–K and circulating recombinant forms, accounts for more than 95% of infections worldwide. HIV-2, in contrast, is largely confined to West Africa, is less transmissible and progresses to AIDS more slowly.",
+      "zh-TW": "HIV-1 是 HIV 的 pandemic 型態：屬 Retroviridae 科的 lentivirus，以 Group M 的 A–K 亞型與循環重組型（CRF）佔全球感染逾 95%。相對地，HIV-2 主要侷限於西非，傳播力較低且進展為 AIDS 的速度較慢。"
+    },
+    "confidence": 0.9,
+    "source_document": "HIV-1.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "3682ba8cb9d7",
+    "subject": "HIV-1",
+    "predicate": "causes",
+    "object": "AIDS",
+    "context": {
+      "en-US": "HIV-1 is the causative agent of the global AIDS pandemic. Infection leads to progressive CD4+ T cell depletion through direct viral killing, bystander apoptosis, pyroptosis of abortively infected cells and chronic immune activation; once CD4 counts fall below 200 cells/µL the host becomes susceptible to opportunistic infections such as Pneumocystis jirovecii pneumonia, tuberculosis and toxoplasmosis.",
+      "zh-TW": "HIV-1 是全球 AIDS 大流行的致病因子。感染會透過直接病毒殺傷、旁觀細胞 apoptosis、abortively infected 細胞的 pyroptosis 與慢性免疫活化，造成 CD4+ T 細胞逐步耗竭；當 CD4 數低於 200 cells/µL，宿主便容易出現 Pneumocystis jirovecii pneumonia、tuberculosis 與 toxoplasmosis 等伺機性感染。"
+    },
+    "confidence": 0.95,
+    "source_document": "HIV-1.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "89d184352834",
+    "subject": "HIV-1",
+    "predicate": "targets",
+    "object": "CD4",
+    "context": {
+      "en-US": "HIV-1 enters cells when the envelope glycoprotein gp120 binds the CD4 receptor together with a CCR5 or CXCR4 coreceptor, with gp41 then mediating membrane fusion. CD4+ T cell depletion driven by this entry step is the immunological basis of HIV-1 immunodeficiency, and it is also exploited therapeutically by post-attachment CD4-directed antibodies such as ibalizumab.",
+      "zh-TW": "HIV-1 入侵細胞時，envelope 醣蛋白 gp120 會與 CD4 受體及 CCR5 或 CXCR4 共同受體結合，接著由 gp41 介導膜融合。由這個入侵步驟造成的 CD4+ T 細胞耗竭，是 HIV-1 免疫缺陷的免疫學基礎；治療上也被 ibalizumab 等 post-attachment CD4 導向抗體所利用。"
+    },
+    "confidence": 0.95,
+    "source_document": "HIV-1.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "70ba190cf85c",
+    "subject": "HIV-1",
+    "predicate": "encodes",
+    "object": "Integrase",
+    "context": {
+      "en-US": "The HIV-1 Pol polyprotein encodes the viral enzymes reverse transcriptase, integrase and protease. Integrase catalyzes insertion of proviral DNA into the host genome during nuclear import, and is the target of the INSTI class of antiretroviral drugs (dolutegravir, bictegravir, raltegravir, cabotegravir).",
+      "zh-TW": "HIV-1 的 Pol 多蛋白會編碼病毒酵素 reverse transcriptase、integrase 與 protease。Integrase 在前整合複合體進入細胞核後，催化前病毒 DNA 插入宿主基因組，並是 INSTI 類抗反轉錄病毒藥物（dolutegravir、bictegravir、raltegravir、cabotegravir）的標的。"
+    },
+    "confidence": 0.9,
+    "source_document": "HIV-1.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "ccb52c46f212",
+    "subject": "HIV-1",
+    "predicate": "encodes",
+    "object": "Protease",
+    "context": {
+      "en-US": "HIV-1 Pol also encodes the viral protease, which during maturation cleaves the Gag and Gag-Pol polyproteins into functional subunits to produce infectious mature virions. Protease is the target of PI-class antiretroviral drugs such as darunavir and atazanavir, which are typically boosted with ritonavir or cobicistat.",
+      "zh-TW": "HIV-1 的 Pol 同樣編碼病毒 protease，它在成熟階段將 Gag 與 Gag-Pol 多蛋白切割成具功能的次單元，以產生具感染力的成熟病毒顆粒。Protease 是 darunavir、atazanavir 等 PI 類抗反轉錄病毒藥物的標的，這些藥物通常以 ritonavir 或 cobicistat 加以增幅。"
+    },
+    "confidence": 0.9,
+    "source_document": "HIV-1.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "cd736755ab73",
+    "subject": "HSP90β",
+    "predicate": "inhibits",
+    "object": "Apaf-1",
+    "context": {
+      "en-US": "HSP90β functions as an Apaf-1 inhibitor: it binds Apaf-1 and suppresses its nucleotide-dependent oligomerization, holding Apaf-1 in an inactive monomeric state. In BCR-ABL-driven tyrosine kinase leukemias this anti-death role restrains apoptosome formation, and it explains why HSP90 inhibition can unleash mitochondrial apoptosis selectively in malignant cells.",
+      "zh-TW": "HSP90β 扮演 Apaf-1 抑制劑的角色：它與 Apaf-1 結合並抑制其依核苷酸的寡聚化，使 Apaf-1 維持在不活化的單體狀態。在 BCR-ABL 驅動的 tyrosine kinase 白血病中，這種抗死亡作用限制了 apoptosome 的形成，也解釋了為何 HSP90 抑制能選擇性地在惡性細胞中釋放粒線體 apoptosis。"
+    },
+    "confidence": 0.9,
+    "source_document": "HSP90β.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "c11f40cbff0b",
+    "subject": "HSP90β",
+    "predicate": "blocks",
+    "object": "Apoptosome",
+    "context": {
+      "en-US": "By binding Apaf-1 and preventing its oligomerization, HSP90β blocks apoptosome assembly and therefore intrinsic-pathway apoptosis. This chaperone checkpoint complements HSP90β's general client-stabilizing role, and combining HSP90 blockade with agents that engage Apaf-1 (e.g. SMAC mimetics) is a rational synthetic-lethal strategy in leukemia and beyond.",
+      "zh-TW": "藉由與 Apaf-1 結合並阻止其寡聚化，HSP90β 阻斷了 apoptosome 的組裝，因而抑制內在路徑 apoptosis。此 chaperone 檢查點與 HSP90β 一客戶蛋白穩定化的一般功能互補；將 HSP90 阻斷與作用於 Apaf-1 的藥物（如 SMAC mimetics）併用，在 leukemia 等疾病中是有合理的 synthetic-lethal 策略。"
+    },
+    "confidence": 0.9,
+    "source_document": "HSP90β.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "0dccc4fa69a9",
+    "subject": "HSP90β",
+    "predicate": "stabilizes",
+    "object": "EGFR",
+    "context": {
+      "en-US": "HSP90β stabilizes a large cohort of labile client proteins that includes EGFR, HER2, AKT, BCR-ABL, mutant p53 and MET, maintaining oncogenic signaling and preventing client degradation by the proteasome. HSP90 inhibitors such as AUY922 and ganetespib destabilize numerous oncogenic clients simultaneously, which is attractive but limited by heat-shock feedback.",
+      "zh-TW": "HSP90β 會穩定一大批不穩定的客戶蛋白，其中包含 EGFR、HER2、AKT、BCR-ABL、突變型 p53 與 MET，藉此維持致癌訊號並防止客戶蛋白被 proteasome 降解。AUY922 與 ganetespib 等 HSP90 抑制劑可同時 destabilize 大量致癌客戶蛋白，策略具吸引力，但受 heat-shock 回饋限制。"
+    },
+    "confidence": 0.9,
+    "source_document": "HSP90β.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "1e29f6964ba7",
+    "subject": "HSP90β",
+    "predicate": "stabilizes",
+    "object": "HER2",
+    "context": {
+      "en-US": "HER2 is one of the oncogenic client proteins whose folding and stability depend on HSP90β. Because HSP90β is overexpressed in aggressive leukemias and solid tumors and correlates with chemotherapy resistance, its chaperone activity indirectly sustains HER2-driven proliferative signalling in tumours.",
+      "zh-TW": "HER2 是折疊與穩定性仰賴 HSP90β 的致癌客戶蛋白之一。由於 HSP90β 在侵襲性白血病與實體腫瘤中過度表現並與化療抗藥性相關，其 chaperone 活性等於間接維持腫瘤中由 HER2 驅動的增殖訊號。"
+    },
+    "confidence": 0.9,
+    "source_document": "HSP90β.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "c28978054a57",
+    "subject": "HSP90β",
+    "predicate": "is_associated_with",
+    "object": "Chemotherapy",
+    "context": {
+      "en-US": "HSP90β overexpression correlates with aggressive disease and chemotherapy resistance across leukemias and solid tumors. Overexpression of this chaperone therefore marks tumours in which proteotoxic and anti-apoptotic stress signalling combine to blunt cytotoxic treatment, a rationale for combining HSP90 inhibition with chemotherapy.",
+      "zh-TW": "HSP90β 的過度表現與白血病及實體腫瘤中的侵襲性病程與化療抗藥性相關。這種 chaperone 的過度表現，標記出那些蛋白毒性與抗凋亡壓力訊號共同削弱細胞毒性治療的腫瘤，也因此支持將 HSP90 抑制與化療併用。"
+    },
+    "confidence": 0.85,
+    "source_document": "HSP90β.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "8eb826d5e3e0",
+    "subject": "Apis mellifera",
+    "predicate": "produces",
+    "object": "Honeybee venom",
+    "context": {
+      "en-US": "The European honeybee Apis mellifera delivers venom through its sting apparatus as a complex mixture of peptides (melittin about 50%, apamin, mast-cell degranulating peptide), enzymes and biogenic amines. This venom is the source of the anticancer peptides studied in breast cancer and glioblastoma models, alongside propolis, honey and royal jelly as apitherapeutic products.",
+      "zh-TW": "歐洲蜜蜂 Apis mellifera 透過螫刺器輸送毒液，其成分為複雜的胜肽（melittin 約 50%、apamin、mast-cell degranulating peptide）、酵素與生物胺的混合物。此毒液是乳癌與 glioblastoma 模型中所研究抗癌胜肽的來源，並與 propolis、蜂蜜及 royal jelly 一同構成 apitherapy 產品。"
+    },
+    "confidence": 0.9,
+    "source_document": "Honeybee.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "18935912240b",
+    "subject": "Honeybee venom",
+    "predicate": "contains",
+    "object": "melittin",
+    "context": {
+      "en-US": "Melittin constitutes roughly half of the peptide mass of honeybee venom and is its major antitumor constituent. As a 26-amino-acid amphipathic cationic peptide, melittin is the component responsible for most of the venom's membrane-disrupting and growth-factor-receptor-suppressing activity against cancer cells.",
+      "zh-TW": "Melittin 約佔 honeybee venom 胜肽質量的半數，是其主要的抗腫瘤成分。作為一個 26 個胺基酸的兩親性陽離子胜肽，melittin 負責了毒液大部分對癌細胞的膜破壞與生長因子受體抑制活性。"
+    },
+    "confidence": 0.9,
+    "source_document": "Honeybee.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "6fb4d0a8f8c2",
+    "subject": "melittin",
+    "predicate": "inhibits",
+    "object": "HER2",
+    "context": {
+      "en-US": "Melittin suppresses HER2 phosphorylation in HER2-enriched breast cancer, impairing EGFR signaling and perturbing PI3K/Akt and Wnt signalling. By deactivating the growth factor receptors that drive these tumour subtypes, melittin restrains proliferation, and its activity is being explored as an alternative to trastuzumab-based approaches.",
+      "zh-TW": "Melittin 在 HER2-enriched breast cancer 中抑制 HER2 的磷酸化，並使 EGFR 訊號受損，同時擾動 PI3K/Akt 與 Wnt 訊號。藉由使驅動這些腫瘤亞型的生長因子受體失活，melittin 可抑制增殖，其活性正被探索作為 trastuzumab 類療法的替代方案。"
+    },
+    "confidence": 0.9,
+    "source_document": "Honeybee.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "254401d2e321",
+    "subject": "Hydroxyfenbendazole",
+    "predicate": "is_metabolized_by",
+    "object": "CYP2J2",
+    "context": {
+      "en-US": "Hydroxyfenbendazole is a phase-I hydroxylated metabolite of fenbendazole generated by the cytochrome P450 enzyme CYP2J2 (with CYP2C19). After intravenous dosing in cattle more than 50% of the fenbendazole dose was recovered as hydroxyfenbendazole in excreta, making it the major excretory metabolite of the parent drug.",
+      "zh-TW": "Hydroxyfenbendazole 是 fenbendazole 的 phase-I 羥基化代謝物，由細胞色素 P450 酵素 CYP2J2（與 CYP2C19）生成。在牛靜脈給藥後，超過 50% 的 fenbendazole 劑量以 hydroxyfenbendazole 形式由排泄物回收，使其成為母藥的主要排泄代謝物。"
+    },
+    "confidence": 0.9,
+    "source_document": "Hydroxyfenbendazole.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "b7eef7e1d05c",
+    "subject": "Hydroxyfenbendazole",
+    "predicate": "is_metabolized_by",
+    "object": "CYP2C19",
+    "context": {
+      "en-US": "CYP2C19 acts together with CYP2J2 to metabolize fenbendazole into hydroxyfenbendazole, so both enzymes determine the hepatic phase-I disposition of the benzimidazole. Hydroxyfenbendazole sits alongside the sulfoxide oxfendazole and fenbendazole sulfone as one of several phase-I metabolites of the parent compound.",
+      "zh-TW": "CYP2C19 與 CYP2J2 共同作用，將 fenbendazole 代謝為 hydroxyfenbendazole，因此兩種酵素共同決定該 benzimidazole 的肝臟 phase-I 去向。Hydroxyfenbendazole 與硫醚化物 oxfendazole、fenbendazole sulfone 並列，為母藥的數種 phase-I 代謝物之一。"
+    },
+    "confidence": 0.9,
+    "source_document": "Hydroxyfenbendazole.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "fa4ca59b4071",
+    "subject": "Hydroxyfenbendazole",
+    "predicate": "is_a_derivative_of",
+    "object": "Fenbendazole",
+    "context": {
+      "en-US": "Hydroxyfenbendazole is the hydroxylated derivative of the benzimidazole anthelmintic fenbendazole, representing its main phase-I metabolic fate. Because the parent compound fenbendazole is being studied for repurposed anticancer activity, characterizing its metabolite profile is part of defining the pharmacological entity that would be carried into oncology trials.",
+      "zh-TW": "Hydroxyfenbendazole 是 benzimidazole 驅蟲藥 fenbendazole 的羥基化衍生物，代表其主要的 phase-I 代謝去向。由於母藥 fenbendazole 正被研究作為抗癌再定位用途，闡明其代謝物譜系是界定將帶入腫瘤學試驗之藥理實體的一部分。"
+    },
+    "confidence": 0.9,
+    "source_document": "Hydroxyfenbendazole.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "2831b9cdfa96",
+    "subject": "p53",
+    "predicate": "upregulates",
+    "object": "IBRDC2",
+    "context": {
+      "en-US": "IBRDC2 (also known as p53RFP or RNF144B) is a transcriptional target of p53: upon genotoxic stress p53 induces IBRDC2, which localizes to the mitochondrial outer membrane and ubiquitinates the pro-apoptotic BCL-2 family protein Bax. IBRDC2 thus translates p53 signalling into effector-phase mitochondrial death, and its loss can blunt apoptosis and cooperate with p53 inactivation to promote tumor survival and chemotherapy resistance.",
+      "zh-TW": "IBRDC2（又稱 p53RFP 或 RNF144B）是 p53 的轉錄標的：在基因毒性壓力下 p53 誘導 IBRDC2，後者定位於粒線體外膜並使促凋亡的 BCL-2 家族蛋白 Bax 被 ubiquitination 修飾。IBRDC2 因此把 p53 訊號轉譯為效應期的粒線體死亡；其流失會削弱 apoptosis，並可能與 p53 失活協同促進腫瘤存活與化療抗藥性。"
+    },
+    "confidence": 0.9,
+    "source_document": "IBRDC2.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "39ec4f981470",
+    "subject": "IBRDC2",
+    "predicate": "promotes",
+    "object": "MOMP",
+    "context": {
+      "en-US": "IBRDC2 is a RING-family E3 ubiquitin ligase anchored to the mitochondrial outer membrane by a C-terminal transmembrane segment. Its ubiquitination of Bax at that membrane modulates Bax stability and conformational activation, promoting Bax oligomerization and consequent mitochondrial outer membrane permeabilization (MOMP).",
+      "zh-TW": "IBRDC2 是 RING 家族的 E3 ubiquitin ligase，藉由 C 端跨膜區段錨定於粒線體外膜。它在該膜上對 Bax 施加 ubiquitination，調節 Bax 的穩定性與構形活化，進而促進 Bax 寡聚化以及隨後的粒線體外膜通透化（MOMP）。"
+    },
+    "confidence": 0.85,
+    "source_document": "IBRDC2.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "b9869efb1bac",
+    "subject": "IBRDC2",
+    "predicate": "induces_release_of",
+    "object": "Cytochrome c",
+    "context": {
+      "en-US": "By driving Bax oligomerization and mitochondrial outer membrane permeabilization, IBRDC2 commits the cell to apoptosis and thereby triggers the release of cytochrome c from mitochondria. The released cytochrome c then feeds the apoptosome cascade, so IBRDC2 sits at the hinge between the p53 damage response and committed mitochondrial death.",
+      "zh-TW": "IBRDC2 藉由驅動 Bax 寡聚化與粒線體外膜通透化，使細胞注定走向 apoptosis，並因此觸發 cytochrome c 自粒線體釋放。釋出的 cytochrome c 隨後推動 apoptosome 級聯反應，使 IBRDC2 處於 p53 損傷反應與已決定的粒線體死亡之間的樞紐位置。"
+    },
+    "confidence": 0.85,
+    "source_document": "IBRDC2.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "146e111010c3",
+    "subject": "IBRDC2",
+    "predicate": "counters",
+    "object": "Hallmarks of Cancer",
+    "context": {
+      "en-US": "IBRDC2 enforces the p53–Bax death axis, so it counteracts the 'resisting cell death' capability that is a recognized hallmark of cancer. Loss or silencing of IBRDC2 blunts apoptosis, whereas agents that elevate IBRDC2 or mimic its Bax-activating ubiquitination may restore death in apoptosis-defective tumors, making it a candidate biomarker and therapeutic target.",
+      "zh-TW": "IBRDC2 維持 p53–Bax 死亡軸，因而對抗癌症的其中一項 hallmark——「resisting cell death」能力。IBRDC2 的流失或沉默會削弱 apoptosis；反之，能提高 IBRDC2 表現或模擬其活化 Bax 之 ubiquitination 的藥物，可能在凋亡缺陷腫瘤中恢復細胞死亡，使其成為候選生物標記與治療標的。"
+    },
+    "confidence": 0.8,
+    "source_document": "IBRDC2.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "fb1f74c076ec",
+    "subject": "Myeloid-Derived Suppressor Cells",
+    "predicate": "is_a_type_of",
+    "object": "Immature Myeloid Cell",
+    "context": {
+      "en-US": "Myeloid-derived suppressor cells (MDSCs) are the most functionally important population of immature myeloid cells: rather than representing a single lineage, their classification reflects an arrested differentiation state with polymorphonuclear and monocytic subsets. They are scarce at steady state but expand dramatically under pathological stress, and are recruited into the tumor microenvironment where they suppress T-cell and NK-cell function through arginine depletion, reactive oxygen species and induction of regulatory T cells.",
+      "zh-TW": "Myeloid-derived suppressor cells (MDSCs) 是 immature myeloid cells 中功能上最重要的族群：其分類反映的是一種分化停滯狀態（具有 polymorphonuclear 與 monocytic 亞群），而非單一譜系。她們在穩態下稀少，但在病理壓力下大幅擴張，並被招募進 tumor microenvironment，透過消耗 arginine、產生 reactive oxygen species 及誘導 regulatory T cells 來抑制 T 細胞與 NK 細胞功能。"
+    },
+    "confidence": 0.9,
+    "source_document": "Immature Myeloid Cell.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "8baaaaa352d6",
+    "subject": "Myeloid-Derived Suppressor Cells",
+    "predicate": "is_recruited_by",
+    "object": "Senescence-Messaging Secretome",
+    "context": {
+      "en-US": "In senescence contexts, myeloid-derived suppressor cells are recruited by SASP factors, and their presence blunts anti-tumour and anti-senescence immunity, shifting the immune balance away from clearance of damaged cells. This makes the senescence-messaging secretome a conduit that couples cellular senescence to a myeloid immunosuppressive brake.",
+      "zh-TW": "在細胞衰老情境中，myeloid-derived suppressor cells 會被 SASP 因子招募，其存在削弱抗腫瘤與抗衰老免疫，使免疫平衡遠離對受損細胞的清除。這使 senescence-messaging secretome 成為連結細胞衰老與髓系免疫抑制煞車的管道。"
+    },
+    "confidence": 0.8,
+    "source_document": "Immature Myeloid Cell.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "0f6113172478",
+    "subject": "Myeloid-Derived Suppressor Cells",
+    "predicate": "contributes_to",
+    "object": "Tumor Microenvironment",
+    "context": {
+      "en-US": "In the tumor microenvironment, immature myeloid cells are recruited by chemokines and cytokines and contribute to immune evasion, angiogenesis and therapy resistance. Because MDSC abundance correlates with poor prognosis and reduced checkpoint-inhibitor efficacy across many cancers, depleting them or restoring their terminal differentiation into macrophages and dendritic cells is an active therapeutic strategy.",
+      "zh-TW": "在 tumor microenvironment 中，immature myeloid cells 會被 chemokine 與 cytokine 招募，並促成免疫逃脫、angiogenesis 與治療抗性。由於 MDSC 數量在多種癌症中與不良預後及較差的 checkpoint inhibitor 療效相關，清除她們或使其終末分化為 macrophages 與 dendritic cells，是正在進行的治療策略。"
+    },
+    "confidence": 0.85,
+    "source_document": "Immature Myeloid Cell.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "c3d442dc8645",
+    "subject": "Myeloid-Derived Suppressor Cells",
+    "predicate": "inhibits",
+    "object": "Immune System",
+    "context": {
+      "en-US": "Myeloid-derived suppressor cells exert potent immunosuppressive activity on the immune system, blunting T-cell and NK-cell function through arginine depletion, reactive oxygen species and induction of regulatory T cells. Because immature myeloid cells are blocked from terminal maturation, they represent a cell type that bridges aging, inflammation and cancer by suppressing immune clearance of damaged and transformed cells.",
+      "zh-TW": "Myeloid-derived suppressor cells 對免疫系統具有強大的免疫抑制活性，透過消耗 arginine、產生 reactive oxygen species 與誘導 regulatory T cells 來削弱 T 細胞與 NK 細胞功能。由於 immature myeloid cells 被阻斷而無法終末成熟，她們成為連結老化、發炎與癌症的細胞類型，藉由抑制免疫系統清除受損與轉化細胞。"
+    },
+    "confidence": 0.85,
+    "source_document": "Immature Myeloid Cell.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "f94bbde8e029",
+    "subject": "Ivermectin",
+    "predicate": "is_tested_against",
+    "object": "Leishmaniasis",
+    "context": {
+      "en-US": "Ivermectin has shown beneficial effects against parasitic diseases beyond its original antiparasitic indications, including malaria, trypanosomiasis, schistosomiasis, trichinosis and leishmaniasis. For leishmaniasis it remains investigational rather than standard of care — liposomal amphotericin B is first-line for visceral disease — but the observed activity supports broader antiparasitic claims for the molecule.",
+      "zh-TW": "Ivermectin 除了原本的抗寄生蟲適應症外，對 malaria、trypanosomiasis、schistosomiasis、trichinosis 與 leishmaniasis 等寄生蟲疾病也呈現有益效果。就 leishmaniasis 而言，它仍屬研究性質而非標準治療——內臟型以 liposomal amphotericin B 為第一線——但所觀察到的活性支持該分子更廣泛的抗寄生蟲主張。"
+    },
+    "confidence": 0.8,
+    "source_document": "Leishmaniasis.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "ed3018bb2df8",
+    "subject": "Miltefosine",
+    "predicate": "treats",
+    "object": "Leishmaniasis",
+    "context": {
+      "en-US": "Miltefosine is the only oral agent used against leishmaniasis; it is effective in the Indian subcontinent for visceral disease and is also used systemically for multiple, large or chronic cutaneous lesions and for mucocutaneous disease. Its use is limited by teratogenicity and by rising resistance, so systemic miltefosine and pentamidine serve as alternatives where amphotericin B is unsuitable.",
+      "zh-TW": "Miltefosine 是唯一用於 leishmaniasis 的口服藥物；在印度次大陸對內臟型有效，也以全身性治療用於多發、大或慢性的皮膚病灶及黏膜皮膚型。其使用受限於致畸性與日益上升的抗藥性，因此在 amphotericin B 不適用時，miltefosine 與 pentamidine 可作為替代方案。"
+    },
+    "confidence": 0.8,
+    "source_document": "Leishmaniasis.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "318dbcee6125",
+    "subject": "Lipoteichoic Acid",
+    "predicate": "is_a",
+    "object": "PAMP",
+    "context": {
+      "en-US": "Lipoteichoic acid (LTA) is a major constituent of the Gram-positive bacterial cell wall and functions as a canonical PAMP detected by the innate immune system. It is a polymer of glycerolphosphate or ribitolphosphate subunits linked by phosphodiester bonds, anchored to the bacterial membrane by a glycolipid moiety, with D-alanine and N-acetylglucosamine substitutions that modulate its immunogenicity. It is the Gram-positive counterpart of LPS.",
+      "zh-TW": "Lipoteichoic acid (LTA) 是革蘭氏陽性菌 cell wall 的主要成分，作為典型 PAMP 被 innate immune system 辨識。它是由 glycerolphosphate 或 ribitolphosphate 次單元以 phosphodiester 鍵連接的聚合物，藉 glycolipid 部分錨定於細菌膜上，其 D-alanine 與 N-acetylglucosamine 取代程度會調節免疫原性。它是 LPS 的革蘭氏陽性菌對應物。"
+    },
+    "confidence": 0.9,
+    "source_document": "Lipoteichoic Acid.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "597092af7e3f",
+    "subject": "TLR2",
+    "predicate": "binds",
+    "object": "Lipoteichoic Acid",
+    "context": {
+      "en-US": "TLR2 is the primary pattern recognition receptor for lipoteichoic acid, functioning as a complex with TLR6 and the co-receptor CD36. Binding of LTA to the TLR2/TLR6/CD36 complex activates MyD88-dependent NF-κB and MAPK signalling, inducing TNF-α, IL-6, IL-8 and IL-1β production.",
+      "zh-TW": "TLR2 是 lipoteichoic acid 的主要模式辨識受體，與 TLR6 及共同受體 CD36 形成複合體。LTA 與 TLR2/TLR6/CD36 複合體結合後，會活化 MyD88 相關的 NF-κB 與 MAPK 訊號，誘導 TNF-α、IL-6、IL-8 與 IL-1β 的產生。"
+    },
+    "confidence": 0.9,
+    "source_document": "Lipoteichoic Acid.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "d4a054c18511",
+    "subject": "CD36",
+    "predicate": "facilitates",
+    "object": "Lipoteichoic Acid",
+    "context": {
+      "en-US": "CD36 acts as a co-receptor that facilitates lipoteichoic acid binding to the TLR2/TLR6 complex, thereby licensing innate immune recognition of Gram-positive bacteria. Its requirement in this receptor triad partly explains why LTA-driven cytokine responses differ so markedly from the LPS-driven responses of Gram-negative bacterial infection.",
+      "zh-TW": "CD36 扮演共同受體，協助 lipoteichoic acid 與 TLR2/TLR6 複合體結合，從而使 innate immune system 能辨識革蘭氏陽性菌。其在此受體三元組中的必要性，部分解釋了為何 LTA 驅動的 cytokine 反應與革蘭氏陰性菌感染中 LPS 驅動的反應有如此大的差異。"
+    },
+    "confidence": 0.8,
+    "source_document": "Lipoteichoic Acid.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "3768f8a3b9e1",
+    "subject": "Lipoteichoic Acid",
+    "predicate": "contributes_to",
+    "object": "Inflammation",
+    "context": {
+      "en-US": "Lipoteichoic acid from gut microbiota can contribute to chronic inflammation, potentially promoting colorectal cancer and hepatocellular carcinoma through TLR2-mediated signalling. Gut microbiota composition influences systemic LPS and LTA levels, which in turn modulate immune checkpoint responses and cancer risk.",
+      "zh-TW": "來自腸道菌群的 lipoteichoic acid 可促成慢性 inflammation，並可能透過 TLR2 介導的訊號促進 colorectal cancer 與 hepatocellular carcinoma。腸道菌群的組成會影響全身性的 LPS 與 LTA 濃度，進而調節 immune checkpoint 反應與癌症風險。"
+    },
+    "confidence": 0.75,
+    "source_document": "Lipoteichoic Acid.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "4e57653b454d",
+    "subject": "Lymphatic Filariasis",
+    "predicate": "is_caused_by",
+    "object": "Wuchereria bancrofti",
+    "context": {
+      "en-US": "Lymphatic filariasis (elephantiasis) is a mosquito-borne neglected tropical disease caused by thread-like filarial nematodes: Wuchereria bancrofti accounts for roughly 90% of cases, with Brugia malayi and Brugia timori responsible for the remainder. Adult worms in lymphatic vessels release microfilariae, and chronic infection elicits inflammation and fibrosis of lymphatic endothelium, causing lymphedema, hydrocele and recurrent acute dermatolymphangioadenopathy.",
+      "zh-TW": "Lymphatic filariasis（elephantiasis）是一種由蚊媒傳播的 neglected tropical disease，由絲狀線形蟲引起：Wuchereria bancrofti 約佔 90% 病例，其餘由 Brugia malayi 與 Brugia timori 造成。淋巴管中的成蟲釋出微絲蟲，慢性感染引發淋巴內皮的 inflammation 與纖維化，造成 lymphedema、hydrocele 與反覆的急性 dermatolymphangioadenopathy。"
+    },
+    "confidence": 0.95,
+    "source_document": "Lymphatic Filariasis.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "a4be19dc328d",
+    "subject": "Ivermectin",
+    "predicate": "treats",
+    "object": "Lymphatic Filariasis",
+    "context": {
+      "en-US": "Control of lymphatic filariasis rests on mass drug administration in which ivermectin is the core microfilaricidal agent: a single annual dose paralyzes microfilariae and enhances host clearance, and ivermectin is co-administered with albendazole or with diethylcarbamazine in triple-drug (IDA) regimens that accelerate suppression of transmission.",
+      "zh-TW": "Lymphatic filariasis 的控制仰賴 mass drug administration，其中 ivermectin 是核心的殺微絲蟲藥：每年單次劑量可使微絲蟲麻痺並增強宿主清除，且 ivermectin 與 albendazole 併用，或與 diethylcarbamazine 組成三藥（IDA）方案，以加速抑制傳播。"
+    },
+    "confidence": 0.9,
+    "source_document": "Lymphatic Filariasis.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "c5b22ba10634",
+    "subject": "MCPIP1",
+    "predicate": "upregulates",
+    "object": "SIRT1",
+    "context": {
+      "en-US": "MCPIP1 (Regnase-1/ZC3H12A) alleviates inflammatory responses by promoting SIRT1 expression through modulation of miR-9. MCPIP1 sits upstream of increased SIRT1, and the higher SIRT1 then suppresses NF-κB-driven inflammation, creating an anti-inflammatory circuit centred on SIRT1 induction — a non-enzymatic route to modulating NAD+-dependent deacetylation.",
+      "zh-TW": "MCPIP1（Regnase-1/ZC3H12A）透過調節 miR-9 促進 SIRT1 表現，進而緩解發炎反應。MCPIP1 位於 SIRT1 上升的上游，而較高的 SIRT1 會抑制 NF-κB 驅動的 inflammation，形成以 SIRT1 誘導為中心的抗發炎迴路——這是一條調控 NAD+ 相關去乙醯化的非酵素途徑。"
+    },
+    "confidence": 0.9,
+    "source_document": "MCPIP1.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "c5c4bd529b73",
+    "subject": "MCPIP1",
+    "predicate": "binds",
+    "object": "MicroRNA",
+    "context": {
+      "en-US": "MCPIP1 is an endoribonuclease with a conserved PIN-domain RNase fold that degrades specific messenger RNAs and microRNAs, including miR-9. By binding and destabilizing miRNA targets it indirectly tunes the abundance of specific transcripts, and in the MCPIP1–SIRT1 axis this RNA-mediated control sets the level of the deacetylase.",
+      "zh-TW": "MCPIP1 是一種具有保守 PIN-domain RNase 摺疊的內核糖核酸酶，會降解特定 messenger RNA 與 microRNA（包含 miR-9）。藉由結合並使 miRNA 標的去穩定化，它間接調整特定轉錄本的量；在 MCPIP1–SIRT1 軸上，這種 RNA 介導的調控決定了該去乙醯化酶的水準。"
+    },
+    "confidence": 0.85,
+    "source_document": "MCPIP1.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "91e2b9521eab",
+    "subject": "MCPIP1",
+    "predicate": "suppresses",
+    "object": "Inflammation",
+    "context": {
+      "en-US": "MCPIP1 is a critical negative regulator of inflammatory responses: its RNase activity destabilizes cytokine- and inflammation-related mRNAs, directly limiting inflammatory gene expression. Loss of MCPIP1 activity promotes unrestrained inflammation and autoimmune pathology, while altered MCPIP1 levels in macrophages and other immune cells link RNA metabolism to chronic inflammatory disease.",
+      "zh-TW": "MCPIP1 是發炎反應的重要負向調控者：其 RNase 活性使 cytokine 與發炎相關的 mRNA 去穩定化，直接限制發炎基因表現。MCPIP1 活性缺失會促成失控的 inflammation 與自體免疫病理，而 macrophages 及其他免疫細胞中 MCPIP1 濃度的改變，則把 RNA 代謝與慢性發炎疾病連結起來。"
+    },
+    "confidence": 0.85,
+    "source_document": "MCPIP1.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "89cf129e39c0",
+    "subject": "Mectizan Donation Program",
+    "predicate": "distributes",
+    "object": "Mectizan",
+    "context": {
+      "en-US": "Established in 1987, the Mectizan Donation Program manages Merck & Co. Inc's donation of Mectizan (brand-name ivermectin) free of charge, handling logistics, distribution and pharmacovigilance with endemic-country ministries of health, the World Health Organization and non-governmental partners. It became the template for large-scale philanthropic drug donation and a cornerstone of neglected-tropical-disease elimination.",
+      "zh-TW": "Mectizan Donation Program 成立於 1987 年，負責管理 Merck & Co. Inc 免費捐贈的 Mectizan（ivermectin 的商品名），並與流行國衛生部門、World Health Organization 及非政府夥伴共同處理後勤、分發與藥物警戒。它成為大規模慈善藥品捐贈的典範，也是 neglected tropical disease 根除計畫的基石。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mectizan Donation Program.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "b35f759a346e",
+    "subject": "Mectizan Donation Program",
+    "predicate": "targets",
+    "object": "Onchocerciasis",
+    "context": {
+      "en-US": "The Mectizan Donation Program was conceived after ivermectin's dramatic efficacy against onchocercal microfilariae was demonstrated, and its primary target disease is onchocerciasis (river blindness). By annually treating at-risk populations it suppresses microfilariae in skin and lymphatics, interrupting transmission and preventing blindness, with lymphatic filariasis added later as a second indication.",
+      "zh-TW": "Mectizan Donation Program 是在 ivermectin 對 onchocercal 微絲蟲展現卓越療效之後構思而成，其主要標的疾病為 onchocerciasis（river blindness）。透過每年治療高風險族群，計畫抑制皮膚與淋巴中的微絲蟲，中斷傳播並避免失明；lymphatic filariasis 則在後來加入，成為第二項適應症。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mectizan Donation Program.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "dcddf676e5fb",
+    "subject": "Mectizan Donation Program",
+    "predicate": "is_funded_by",
+    "object": "Merck & Co. Inc",
+    "context": {
+      "en-US": "Merck & Co. Inc funded and established the Mectizan Donation Program and committed to donate Mectizan for as long as needed, free of charge. This donor-funded model later inspired analogous donations such as azithromycin for trachoma and praziquantel for schistosomiasis, and its decades of safety and distribution data continue to inform broader ivermectin use including investigational oncology applications.",
+      "zh-TW": "Merck & Co. Inc 出資創立 Mectizan Donation Program，並承諾在需要的期間持續免費捐贈 Mectizan。此捐贈資助模式後來啟發了 azithromycin（trachoma）與 praziquantel（schistosomiasis）等類似的捐贈，而其數十年累積的安全與分發資料，至今仍在支撐 ivermectin 更廣泛的應用，包括研究中的腫瘤學用途。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mectizan Donation Program.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "d7f4838e5cf6",
+    "subject": "Mectizan",
+    "predicate": "contains",
+    "object": "Ivermectin",
+    "context": {
+      "en-US": "Mectizan is the trade name under which Merck & Co. Inc markets ivermectin for human use, a semisynthetic avermectin derivative (a 22,23-dihydro analog of avermectin B1) supplied as an orally administered macrocyclic lactone. Its human-health legacy is inseparable from the Mectizan Donation Program, which supplies it free of charge to endemic populations.",
+      "zh-TW": "Mectizan 是 Merck & Co. Inc 用於人體的 ivermectin 商品名，該成分為半合成 avermectin 衍生物（avermectin B1 的 22,23-二氫類似物），以口服 macrocyclic lactone 劑型供應。其在人類健康上的歷史與 Mectizan Donation Program 密不可分，該計畫免費向流行地區供應此藥。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mectizan.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "1557f88b3b9b",
+    "subject": "Mectizan",
+    "predicate": "targets",
+    "object": "Glutamate-gated Cl- channels",
+    "context": {
+      "en-US": "Mectizan/ivermectin is a macrocyclic lactone that targets invertebrate glutamate-gated chloride channels, and at higher concentrations GABA-gated channels in nematodes and arthropods, increasing membrane permeability to chloride and causing flaccid paralysis and death of parasites. This invertebrate-selective channel pharmacology is the basis of the drug's safety margin in humans.",
+      "zh-TW": "Mectizan/ivermectin 是一種 macrocyclic lactone，作用於無脊椎動物的 glutamate-gated chloride channels，並在較高濃度下作用於線蟲與節肢動物的 GABA-gated channels，使細胞膜對 chloride 的通透性增加，造成麻痺與寄生蟲死亡。這種針對無脊椎動物通道的藥理作用，正是此藥在人體具有安全邊際的基礎。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mectizan.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "f67e26370c6d",
+    "subject": "Ivermectin",
+    "predicate": "clears",
+    "object": "Microfilariae",
+    "context": {
+      "en-US": "A single annual dose of Mectizan/ivermectin clears skin microfilariae of Onchocerca volvulus, arresting transmission and preventing the inflammatory blindness and skin disease of onchocerciasis. The drug is microfilaricidal rather than reliably adulticidal, so repeated dosing is required to suppress the reservoir — a limitation that motivates the search for macrofilaricidal agents such as oxfendazole and anti-Wolbachia doxycycline.",
+      "zh-TW": "Mectizan/ivermectin 每年單次劑量即可清除 Onchocerca volvulus 的皮膚微絲蟲，中斷傳播並避免 onchocerciasis 的發炎性失明與皮膚病變。此藥為殺微絲蟲作用而非可靠的殺成蟲作用，因此需要反覆給藥以抑制儲備族群——這也是尋找 oxfendazole 與 anti-Wolbachia doxycycline 等殺成蟲藥物的動力。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mectizan.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "3896ac17e459",
+    "subject": "Mectizan",
+    "predicate": "is_being_repurposed_for",
+    "object": "Cancer",
+    "context": {
+      "en-US": "Beyond its antiparasitic use, the ivermectin molecule in Mectizan is under investigation for repurposing in cancer: in mammalian cells its off-target effects include ROS generation and interference with oncogenic signalling via YAP1 and EGFR, and it is studied for inhibiting proliferation and metastasis in lung cancer and for selective cytotoxicity in leukemia. Formulation and dosing for cancer indications, where higher sustained exposure may be needed, differ from the single-dose antiparasitic paradigm.",
+      "zh-TW": "除了抗寄生蟲用途之外，Mectizan 中的 ivermectin 分子正被研究用於癌症的 drug repositioning：在哺乳類細胞中，其離標的作用包括產生 ROS，以及透過 YAP1 與 EGFR 干擾致癌訊號；它被研究用於抑制 lung cancer 的增殖與 metastasis，以及在 leukemia 中的選擇性細胞毒性。癌症適應症所需的劑型與給藥（可能需要更高且持續的暴露）與單次劑量的抗寄生蟲模式不同。"
+    },
+    "confidence": 0.8,
+    "source_document": "Mectizan.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "30429bf79bf2",
+    "subject": "Wuchereria bancrofti",
+    "predicate": "produces",
+    "object": "Microfilariae",
+    "context": {
+      "en-US": "Adult female Wuchereria bancrofti residing in lymphatic vessels release up to about 1000 microfilariae a day for 10–14 years. These sheathed microfilariae enter the circulation with pronounced nocturnal periodicity matching mosquito feeding, and are taken up by biting mosquitoes to continue development, making them both the disseminating stage within the host and the transmission stage to the environment.",
+      "zh-TW": "棲息於淋巴管中的 Wuchereria bancrofti 雌性成蟲每天可釋出多達約 1000 條微絲蟲，長達 10–14 年。這些有鞘微絲蟲帶有與蚊媒吸血時間吻合的明顯夜間週期性而進入循環，並被叮咬的蚊子攝入以繼續發育，因此它們既是宿主體內的擴散階段，也是對環境的傳播階段。"
+    },
+    "confidence": 0.9,
+    "source_document": "Microfilariae.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "b71c5066d5e4",
+    "subject": "Onchocerca volvulus",
+    "predicate": "produces",
+    "object": "Microfilariae",
+    "context": {
+      "en-US": "Adult female Onchocerca volvulus coiled in subcutaneous onchocercomata release unsheathed microfilariae approximately 250–300 µm long, which migrate through dermis, lymphatics and ocular tissues. These larvae are the pathogenic stage of onchocerciasis: living microfilariae provoke little acute inflammation, but their death — spontaneous or drug-induced — releases antigens that incite inflammation, lymphatic endothelial injury and fibrosis.",
+      "zh-TW": "捲曲於皮下 onchocercoma 結節中的 Onchocerca volvulus 雌性成蟲會釋出長約 250–300 µm 的無鞘微絲蟲，牠們在真皮、淋巴與眼部組織中移行。這些幼蟲是 onchocerciasis 的致病階段：活的微絲蟲引起的急性發炎反應輕微，但其死亡——自然或藥物誘發——會釋出抗原，激起 inflammation、淋巴內皮損傷與纖維化。"
+    },
+    "confidence": 0.9,
+    "source_document": "Microfilariae.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "8dfe67677505",
+    "subject": "Ivermectin",
+    "predicate": "targets",
+    "object": "Microfilariae",
+    "context": {
+      "en-US": "Ivermectin, marketed as Mectizan, rapidly clears skin microfilariae of onchocerciasis by paralyzing the larvae and enhancing host clearance. Measuring microfilarial burden by blood smear, skin snip or antigen assays before and after treatment gauges the success of mass-drug-administration programmes such as the Mectizan Donation Program, which makes microfilarial density the therapeutic endpoint of filarial control.",
+      "zh-TW": "Ivermectin（商品名 Mectizan）藉由使微絲蟲麻痺並增強宿主清除，快速清除 onchocerciasis 的皮膚微絲蟲。治療前後以 blood smear、skin snip 或抗原檢測測量微絲蟲負荷，可評估 Mectizan Donation Program 等 mass drug administration 計畫的成效，使微絲蟲密度成為絲蟲控制的治療終點。"
+    },
+    "confidence": 0.9,
+    "source_document": "Microfilariae.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "96046d3c20bf",
+    "subject": "Diethylcarbamazine",
+    "predicate": "targets",
+    "object": "Microfilariae",
+    "context": {
+      "en-US": "Diethylcarbamazine kills circulating microfilariae in lymphatic filariasis and is therefore a second-line microfilaricide alongside ivermectin. Its use is restricted in regions co-endemic for onchocerciasis because rapid microfilarial killing there can trigger severe inflammatory Mazzotti reactions.",
+      "zh-TW": "Diethylcarbamazine 會殺死 lymphatic filariasis 中循環的微絲蟲，因此是與 ivermectin 並列的第二線殺微絲蟲藥。在 onchocerciasis 共生的地區其使用受到限制，因為快速殺死微絲蟲可能引發嚴重的發炎性 Mazzotti 反應。"
+    },
+    "confidence": 0.85,
+    "source_document": "Microfilariae.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "dd2382217617",
+    "subject": "Moxidectin",
+    "predicate": "targets",
+    "object": "Glutamate-gated Cl- channels",
+    "context": {
+      "en-US": "Like ivermectin, moxidectin is an agonist at invertebrate glutamate- and GABA-gated chloride channels, causing sustained chloride influx, paralysis and death of nematodes and arthropods. It is a 23-methoxime milbemycin that shares the 16-membered macrocyclic lactone ring of the avermectins but lacks the disaccharide substituents, which increases lipophilicity and produces a much longer half-life than ivermectin.",
+      "zh-TW": "與 ivermectin 相同，moxidectin 是無脊椎動物 glutamate- 與 GABA-gated chloride channels 的致效劑，造成持續的 chloride 內流、麻痺與線蟲及節肢動物死亡。它是 23-甲肟基的 milbemycin，與 avermectins 共用 16 員環的 macrocyclic lactone 骨架，但缺少雙醣取代基，因而提高脂溶性並產生比 ivermectin 長得多的半衰期。"
+    },
+    "confidence": 0.85,
+    "source_document": "Moxidectin.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "f4cbda360f7a",
+    "subject": "P-gp",
+    "predicate": "transports",
+    "object": "Moxidectin",
+    "context": {
+      "en-US": "Moxidectin is a P-glycoprotein (ABCB1) substrate, and P-gp efflux normally restricts its CNS accumulation. Dogs homozygous for the MDR1 (ABCB1-1Δ) deletion clear macrocyclic lactones poorly, so moxidectin's long persistence amplifies toxicity risk — especially with the non-withdrawable injectable ProHeart 6, which is why milbemycin oxime is preferred for collie-type dogs.",
+      "zh-TW": "Moxidectin 是 P-glycoprotein (ABCB1) 的受質，而 P-gp 的外排作用通常限制其在中樞神經系統的累積。帶有 MDR1（ABCB1-1Δ）缺失同型合子的犬類清除 macrocyclic lactones 的能力較差，因此 moxidectin 的長效持久性會放大中毒風險——對無法撤除的 ProHeart 6 注射劑尤其如此，這也是 collie 類犬隻較偏好 milbemycin oxime 的原因。"
+    },
+    "confidence": 0.85,
+    "source_document": "Moxidectin.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "1e4a5c1f8fb7",
+    "subject": "Moxidectin",
+    "predicate": "is_a_type_of",
+    "object": "Avermectin",
+    "context": {
+      "en-US": "Moxidectin is grouped with the avermectin family throughout the vault's ivermectin literature, sharing the 16-membered macrocyclic lactone scaffold, although it is strictly a milbemycin rather than a true avermectin. It is the first new drug approved for human onchocerciasis after ivermectin and, like ivermectin, carries emerging largely preclinical interest in anticancer drug repositioning.",
+      "zh-TW": "在本庫的 ivermectin 文獻中，moxidectin 與 avermectin 家族歸為同類，共用 16 員環的 macrocyclic lactone 骨架，雖然嚴格說它是 milbemycin 而非真正的 avermectin。它是 ivermectin 之後首個獲核准用於人類 onchocerciasis 的新藥，且與 ivermectin 相同，在抗癌 drug repositioning 上具有新興但主要屬臨床前的興趣。"
+    },
+    "confidence": 0.7,
+    "source_document": "Moxidectin.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "ff6e774a4b9e",
+    "subject": "Moxidectin",
+    "predicate": "is_more_potent_than",
+    "object": "Ivermectin",
+    "context": {
+      "en-US": "Relative to ivermectin, moxidectin is roughly 100-fold more lipid-soluble, distributes widely into fat, is cleared much more slowly (an elimination half-life of several weeks in dogs) and is more potent per milligram. This potency/duration trade-off enables six-month ProHeart dosing but also means overdose cannot be quickly cleared, giving moxidectin a narrower dose margin than milbemycin oxime.",
+      "zh-TW": "相較於 ivermectin，moxidectin 的脂溶性約高 100 倍、廣泛分布於脂肪組織、清除速度慢得多（犬隻排除半衰期達數週），且每毫克效價更高。這種效價與持久性的取捨使六個月一次的 ProHeart 給藥得以實現，但過量也無法迅速清除，使 moxidectin 的劑量安全邊際比 milbemycin oxime 更窄。"
+    },
+    "confidence": 0.85,
+    "source_document": "Moxidectin.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "0676f71e02c4",
+    "subject": "Mubritinib",
+    "predicate": "inhibits",
+    "object": "Complex I",
+    "context": {
+      "en-US": "Mubritinib (TAK-165) is a ubiquinone-binding-site (Q-site) dependent inhibitor of mitochondrial Complex I, with an aromatic ring chain topology critical for Q-site binding. Originally developed as a receptor tyrosine kinase inhibitor, it blocks electron transfer from NADH to ubiquinone, which inhibits NAD+ regeneration from NADH, raises the NADH:NAD+ ratio and deplete ATP.",
+      "zh-TW": "Mubritinib（TAK-165）是粒線體 Complex I 的 ubiquinone 結合位點（Q-site）依賴型抑制劑，其芳香環鏈拓撲對 Q-site 結合至關重要。它最初是作為受體酪胺酸激酶抑制劑開發，而會阻斷 NADH 到 ubiquinone 的電子傳遞，抑制 NADH 再生為 NAD+、提高 NADH:NAD+ 比值並耗竭 ATP。"
+    },
+    "confidence": 0.95,
+    "source_document": "Mubritinib.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "2b492cb1170c",
+    "subject": "Mubritinib",
+    "predicate": "is_combined_with",
+    "object": "CB-839",
+    "context": {
+      "en-US": "Mubritinib is synthetic lethal with the glutaminase inhibitor CB-839. In MYChigh triple-negative breast cancer PDX models mubritinib monotherapy showed weak or no antitumor effect, but the mubritinib + CB-839 combination persistently inhibited tumour growth, producing tumours 2–5× smaller than controls without systemic toxicity, because co-inhibition of Complex I and glutaminolysis collapses the TCA cycle in glutamine-dependent cells.",
+      "zh-TW": "Mubritinib 與 glutaminase 抑制劑 CB-839 構成 synthetic lethal 組合。在 MYChigh triple-negative breast cancer 的 PDX 模型中，mubritinib 單獨使用僅有微弱或無抗腫瘤效果，但 mubritinib + CB-839 併用能持續抑制腫瘤生長，使腫瘤體積比對照組小 2–5 倍且無全身性毒性，原因是對 Complex I 與 glutaminolysis 的共同抑制會使依賴 glutamine 的細胞 TCA cycle 崩潰。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mubritinib.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "826b6c7d3bbd",
+    "subject": "Mubritinib",
+    "predicate": "depletes",
+    "object": "NAD+",
+    "context": {
+      "en-US": "By blocking NADH oxidation at Complex I, mubritinib inhibits NAD+ regeneration from NADH, producing a raised NADH:NAD+ ratio (reductive stress) and ATP depletion that activates AMPK. This metabolic stress is what selectively kills MYChigh triple-negative breast cancer cells, which depend on NAD+ regeneration to sustain the TCA cycle.",
+      "zh-TW": "藉由阻斷 Complex I 上的 NADH 氧化，mubritinib 抑制 NADH 再生為 NAD+，造成 NADH:NAD+ 比值上升（還原性壓力）與 ATP 耗竭，進而活化 AMPK。這種代謝壓力正是選擇性殺死 MYChigh triple-negative breast cancer 細胞的機制，因為這些細胞仰賴 NAD+ 再生以維持 TCA cycle。"
+    },
+    "confidence": 0.85,
+    "source_document": "Mubritinib.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "54e24d14550f",
+    "subject": "Mubritinib",
+    "predicate": "is_most_effective_in",
+    "object": "triple-negative breast cancer",
+    "context": {
+      "en-US": "In a screen of 526 oncology drugs across triple-negative breast cancer cell lines, mubritinib showed the highest MYC selectivity, with the largest drug sensitivity difference between MYChigh and MYClow groups. Even at 10 nM it induced MYC-associated cell death under glutamine-deprived conditions, supporting dose de-escalation studies in MYChigh cancers.",
+      "zh-TW": "在 526 種腫瘤藥物對 triple-negative breast cancer 細胞系的篩選中，mubritinib 展現最高的 MYC 選擇性，MYChigh 與 MYClow 組之間的藥物敏感性差值最大。即使在 10 nM 的低濃度下，它也能在 glutamine 缺乏條件下誘發 MYC 相關的細胞死亡，支持在 MYChigh 癌症中進行劑量遞減研究。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mubritinib.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "a3cd8b8fe2a6",
+    "subject": "NRK2",
+    "predicate": "phosphorylates",
+    "object": "Nicotinamide Riboside",
+    "context": {
+      "en-US": "NRK2 (Nmrk2/Itgb1bp3/Mibp) is a muscle-specific NAD+ biosynthetic enzyme that phosphorylates nicotinamide riboside (NR) to nicotinamide mononucleotide (NMN), the rate-limiting entry step of the salvage pathway: NR → (NRK2) → NMN → (NMNAT) → NAD+. It provides a stress-responsive supplementary route alongside NAMPT and becomes critical during muscle regeneration and metabolic stress.",
+      "zh-TW": "NRK2（Nmrk2/Itgb1bp3/Mibp）是肌肉專一性的 NAD+ 生合成酵素，可將 nicotinamide riboside (NR) 磷酸化為 nicotinamide mononucleotide (NMN)，此為 salvage pathway 的限速入口步驟：NR → (NRK2) → NMN → (NMNAT) → NAD+。它與 NAMPT 並行提供一條壓力反應的補充途徑，在肌肉再生與代謝壓力期間變得關鍵。"
+    },
+    "confidence": 0.95,
+    "source_document": "NRK2.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "2cdfb7251634",
+    "subject": "NRK2",
+    "predicate": "produces",
+    "object": "Nicotinamide Mononucleotide",
+    "context": {
+      "en-US": "NRK2 is the enzyme that produces nicotinamide mononucleotide (NMN) from nicotinamide riboside in skeletal muscle and cardiac tissue, where it is predominantly expressed. Because NMN is then converted to NAD+ by NMNAT, the level of NRK2 sets the capacity of this stress-responsive arm of NAD+ biosynthesis.",
+      "zh-TW": "NRK2 是在骨骼肌與心肌中（主要表現部位）由 nicotinamide riboside 產生 nicotinamide mononucleotide (NMN) 的酵素。由於 NMN 之後會由 NMNAT 轉換為 NAD+，NRK2 的表現量即決定了 NAD+ 生合成中這條壓力反應分支的產能。"
+    },
+    "confidence": 0.9,
+    "source_document": "NRK2.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "da1386b456f4",
+    "subject": "NRK2",
+    "predicate": "is_downregulated_by",
+    "object": "Chemotherapy",
+    "context": {
+      "en-US": "NRK2 is the most responsive NAD+ biosynthetic enzyme to chemotherapy and is consistently downregulated across all models with ongoing or developing muscle loss: −93% with cisplatin, −84% with FOLFIRI and −92% with FOLFOX. Downregulation is detectable as early as 24 hours after FOLFIRI, preceding any measurable muscle loss, which positions NRK2 expression as an early indicator of chemotherapy-induced muscle wasting.",
+      "zh-TW": "NRK2 是對化療反應最靈敏的 NAD+ 生合成酵素，並在所有出現或正在發展肌肉流失的模型中持續被下調：cisplatin 為 −93%、FOLFIRI 為 −84%、FOLFOX 為 −92%。下調在 FOLFIRI 治療後早至 24 小時即可偵測，早於任何可測得的肌肉流失，因此 NRK2 表現可作為化療誘導肌肉流失的早期指標。"
+    },
+    "confidence": 0.95,
+    "source_document": "NRK2.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "f46740c9faeb",
+    "subject": "NRK2",
+    "predicate": "is_downregulated_by",
+    "object": "Cachexia",
+    "context": {
+      "en-US": "Despite its protective roles in NAD+ biosynthesis and muscle regeneration, NRK2 is paradoxically suppressed in cachexia — a meta-analysis across 13 studies and multiple mouse models identified it as consistently downregulated in skeletal muscle, and it ranked among the top differentially expressed transcripts in cachectic pancreatic cancer patients. The suppression may compromise NAD+ homeostasis and contribute to muscle wasting.",
+      "zh-TW": "儘管 NRK2 在 NAD+ 生合成與肌肉再生中具有保護作用，它卻在 cachexia 中被反常地抑制——涵蓋 13項研究與多種小鼠模式的 meta 分析顯示，其在骨骼肌中持續下調，且在 cachectic 胰臟癌病人的差異表現轉錄本中名列前茅。此抑制可能損害 NAD+ 恆定並促成肌肉流失。"
+    },
+    "confidence": 0.9,
+    "source_document": "NRK2.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "2a3d4ddc0dbd",
+    "subject": "OCP",
+    "predicate": "targets",
+    "object": "Onchocerciasis",
+    "context": {
+      "en-US": "The Onchocerciasis Control Programme in West Africa (1974–2002) controlled onchocerciasis across 11 West African countries, commanded by the World Health Organization with World Bank, UNDP and donor support. It combined vector control — aerial larviciding of fast-flowing rivers to kill Simulium blackfly larvae — with mass drug administration of ivermectin donated as Mectizan, driving transmission below sustainable levels.",
+      "zh-TW": "Onchocerciasis Control Programme in West Africa（1974–2002）在 11 個西非國家控制 onchocerciasis，由 World Health Organization 指揮並獲 World Bank、UNDP 與捐贈機構支持。它結合了病媒控制——對湍急河流進行空中幼蟲撲殺以消滅 Simulium 黑蠅幼蟲——以及以 Mectizan 形式捐贈的 ivermectin 之 mass drug administration，將傳播率壓到可持續的門檻以下。"
+    },
+    "confidence": 0.9,
+    "source_document": "OCP.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "8cb8d2f917f5",
+    "subject": "OCP",
+    "predicate": "is_led_by",
+    "object": "World Health Organization",
+    "context": {
+      "en-US": "The OCP was launched in 1974 by four United Nations agencies including the World Bank and was commanded by the World Health Organization. Its decades of safety and pharmacokinetic experience, together with successor programmes APOC and ONCHO, underpin contemporary investigations of ivermectin as an anti-cancer agent, and it demonstrated that community-directed treatment with ivermectin is logistically and economically viable.",
+      "zh-TW": "OCP 於 1974 年由包括 World Bank 在內的四個聯合國機構發起，並由 World Health Organization 指揮。其數十年累積的安全與藥代動力學經驗，加上後繼的 APOC 與 ONCHO 計畫，構成了當代將 ivermectin 作為抗癌藥物研究的基礎；該計畫也證明了以 ivermectin 進行 community-directed treatment 在物流與經濟上可行。"
+    },
+    "confidence": 0.9,
+    "source_document": "OCP.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "ad2d89445654",
+    "subject": "OCP",
+    "predicate": "uses",
+    "object": "Ivermectin",
+    "context": {
+      "en-US": "From the late 1980s the OCP added mass drug administration of ivermectin, donated free of charge as Mectizan by Merck, to its vector-control operations. The integrated vector-plus-chemotherapy approach suppressed microfilaremia in endemic populations and its donated-drug model directly enabled the oncology-relevant repurposing research surrounding ivermectin.",
+      "zh-TW": "自 1980 年代後期起，OCP 在其病媒控制作業之外加入了 ivermectin 的 mass drug administration，該藥由 Merck 以 Mectizan 名義免費捐贈。這種病媒控制加上化療的整合策略抑制了流行地區的微絲蟲血症，而其捐贈藥物模式也直接促成了與 ivermectin 相關、具腫瘤學意義的再定位研究。"
+    },
+    "confidence": 0.9,
+    "source_document": "OCP.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "e94a2e7530b4",
+    "subject": "OCP",
+    "predicate": "targets",
+    "object": "Simulium",
+    "context": {
+      "en-US": "The OCP's original strategy was vector control aimed at Simulium blackflies: aerial larviciding of fast-flowing river breeding sites interrupted onchocerciasis transmission by killing the larvae before they could transmit Onchocerca volvulus microfilariae. Eliminating the vector also freed arable land for cultivation in previously uninhabited riverine areas.",
+      "zh-TW": "OCP 最初的策略是針對 Simulium 黑蠅的病媒控制：對湍急河流的繁殖點進行空中幼蟲撲殺，在幼蟲能傳播 Onchocerca volvulus 微絲蟲之前即予以殺死，藉此中斷 onchocerciasis 的傳播。消滅病媒同時也讓先前無人居住的河岸地區土地可供耕作。"
+    },
+    "confidence": 0.85,
+    "source_document": "OCP.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "0161088b513a",
+    "subject": "Onchocerca volvulus",
+    "predicate": "causes",
+    "object": "Onchocerciasis",
+    "context": {
+      "en-US": "Onchocerca volvulus is the filarial nematode that causes onchocerciasis (river blindness), infecting about 21 million people with 99% of cases in 31 African countries. Adults coil in subcutaneous nodules (onchocercomata) while the first-stage larvae migrate through skin and eye tissues, and the parasite depends on obligate Wolbachia endosymbionts for survival, embryogenesis and fecundity.",
+      "zh-TW": "Onchocerca volvulus 是造成 onchocerciasis（river blindness）的絲蟲線形蟲，全球約有 2100 萬人感染，其中 99% 集中於 31 個非洲國家。成蟲捲曲於皮下結節（onchocercoma）中，第一期幼蟲則在皮膚與眼部組織移行；此外此寄生蟲仰賴專性 Wolbachia 內共生菌才能存活、胚胎發育與繁殖。"
+    },
+    "confidence": 0.95,
+    "source_document": "Onchocerca volvulus.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "71bd0c0a3ea0",
+    "subject": "Onchocerca volvulus",
+    "predicate": "is_transmitted_by",
+    "object": "Simulium",
+    "context": {
+      "en-US": "Onchocerca volvulus is transmitted by blackflies of the genus Simulium, which breed in fast-flowing rivers — hence the name river blindness and the endemic clustering around riverine communities. Within the fly, microfilariae penetrate the gut wall and migrate to thoracic flight muscles, developing to the infective L3 stage over 10–14 days before being deposited on human skin at a subsequent blood meal.",
+      "zh-TW": "Onchocerca volvulus 由 Simulium 屬的黑蠅傳播，後者在湍急河流中繁殖——這正是 river blindness 名称由來，也是疾病沿河岸社區聚集流行的原因。在黑蠅體內，微絲蟲穿過腸壁並遷移至胸部飛行肌肉，於 10–14 天內發育為具感染力的 L3 期幼蟲，之後在再次吸血時被沉積到人體皮膚上。"
+    },
+    "confidence": 0.9,
+    "source_document": "Onchocerca volvulus.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "d4ab29aefe9b",
+    "subject": "Ivermectin",
+    "predicate": "targets",
+    "object": "Onchocerca volvulus",
+    "context": {
+      "en-US": "Ivermectin (150 µg/kg orally every 6–12 months) is the cornerstone of onchocerciasis mass drug administration: it rapidly kills Onchocerca volvulus microfilariae, reducing skin and eye burden, but has limited activity against adult worms, so repeated dosing is required. Rapid microfilarial killing can also trigger a Mazzotti reaction requiring clinical attention.",
+      "zh-TW": "Ivermectin（150 µg/kg口服，每 6–12 個月一次）是 onchocerciasis mass drug administration 的支柱：它能迅速殺死 Onchocerca volvulus 微絲蟲，減少皮膚與眼部負擔，但對成蟲活性有限，因此需要反覆給藥。快速殺死微絲蟲也可能引發需要臨床處理的 Mazzotti reaction。"
+    },
+    "confidence": 0.9,
+    "source_document": "Onchocerca volvulus.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "cb519a455732",
+    "subject": "Doxycycline",
+    "predicate": "targets",
+    "object": "Onchocerca volvulus",
+    "context": {
+      "en-US": "Doxycycline (100–200 mg daily for 4–6 weeks) targets the obligate Wolbachia endosymbionts of Onchocerca volvulus rather than the worm itself. Sterilizing adult females and producing a gradual decline in microfilarial production gives sustained therapeutic benefit, an indirect chemotherapeutic strategy particularly useful in co-endemic settings where elimination is feasible.",
+      "zh-TW": "Doxycycline（每日 100–200 mg，連續 4–6 週）作用於 Onchocerca volvulus 的專性 Wolbachia 內共生菌，而非寄生蟲本身。使成蟲雌性不孕並使微絲蟲產量逐步下降，可提供持續的治療效益；這是一種間接化療策略，在可進行根除的共生流行區特別有用。"
+    },
+    "confidence": 0.85,
+    "source_document": "Onchocerca volvulus.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "9d07b5e6cba4",
+    "subject": "Onchocerciasis Chemotherapy Research Centre",
+    "predicate": "cooperates_with",
+    "object": "World Health Organization",
+    "context": {
+      "en-US": "The Onchocerciasis Chemotherapy Research Centre (OCRC) in Ghana operates under the Ghana Health Service and in collaboration with the World Health Organization TDR programme, conducting Phase I–IV trials of anti-filarial drugs. TDR also influences study protocol design and supports applied research at the centre, contributing to the global shift from onchocerciasis control toward elimination.",
+      "zh-TW": "迦納的 Onchocerciasis Chemotherapy Research Centre (OCRC) 隸屬 Ghana Health Service，並與 World Health Organization 的 TDR 計畫合作，進行抗絲蟲藥物的 Phase I–IV 試驗。TDR 亦影響試驗方案設計並支持該中心的應用研究，促成全球由 onchocerciasis 控制轉向根除的轉變。"
+    },
+    "confidence": 0.85,
+    "source_document": "Onchocerciasis Chemotherapy Research Centre.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "6a2ae001bc49",
+    "subject": "Onchocerciasis Chemotherapy Research Centre",
+    "predicate": "evaluates",
+    "object": "Ivermectin",
+    "context": {
+      "en-US": "The OCRC's mandate centres on chemotherapy for onchocerciasis: optimizing ivermectin regimens, assessing safety and pharmacokinetics in endemic populations, and pursuing macrofilaricidal agents that kill adult Onchocerca volvulus worms, since ivermectin predominantly clears microfilariae. Candidate macrofilaricides studied include doxycycline (anti-Wolbachia) and newer anthelmintics such as oxfendazole.",
+      "zh-TW": "OCRC 的任務核心是 onchocerciasis 的化學治療：最佳化 ivermectin 給藥方案、在流行族群中評估其安全性與藥代動力學，並研發能殺死 Onchocerca volvulus 成蟲的殺成蟲藥物，因為 ivermectin 主要清除的是微絲蟲。所研究的候選殺成蟲藥包括 doxycycline（anti-Wolbachia）與 oxfendazole 等新型驅蟲藥。"
+    },
+    "confidence": 0.85,
+    "source_document": "Onchocerciasis Chemotherapy Research Centre.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "72fe41e693b1",
+    "subject": "Oxfendazole",
+    "predicate": "is_investigated_for",
+    "object": "Onchocerciasis",
+    "context": {
+      "en-US": "Oxfendazole, a benzimidazole, is pursued as a macrofilaricidal candidate for onchocerciasis, building on the benzimidazole class also investigated for cancer applications. Because benzimidazales act by disrupting microtubules, the same mechanistic logic that underlies their antiparasitic effect underlies their antiproliferative effect in oncology.",
+      "zh-TW": "Oxfendazole 為 benzimidazole 類藥物，被研發為 onchocerciasis 的殺成蟲候選藥，建立在被研究用於癌症應用的同一 benzimidazole 類基礎上。由於 benzimidazales 的作用機轉是 destabilize microtubules，因此其抗寄生蟲效應與其在腫瘤學中的抗增殖效應建立在相同的機制邏輯上。"
+    },
+    "confidence": 0.8,
+    "source_document": "Onchocerciasis Chemotherapy Research Centre.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "94654b3a7121",
+    "subject": "Onchocerciasis",
+    "predicate": "is_treated_by",
+    "object": "Ivermectin",
+    "context": {
+      "en-US": "Control of onchocerciasis rests on annual or semi-annual mass distribution of ivermectin, which clears microfilariae and temporarily sterilizes females, together with vector control of Simulium breeding sites. Ivermectin's excellent safety record, built over decades of community use, also underpins its investigation as a repurposed anti-cancer agent.",
+      "zh-TW": "Onchocerciasis 的控制仰賴每年或每半年一次的大規模 ivermectin 分發，該藥可清除微絲蟲並暫時使雌蟲不孕，搭配 Simulium 繁殖地的病媒控制。Ivermectin 在數十年社區使用中建立的優異安全紀錄，也支撐其作為再定位抗癌藥物的研究。"
+    },
+    "confidence": 0.9,
+    "source_document": "Onchocerciasis.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "ffc9e9a84767",
+    "subject": "Onchocerciasis",
+    "predicate": "is_caused_by",
+    "object": "Onchocerca volvulus",
+    "context": {
+      "en-US": "Onchocerciasis (river blindness) is caused by infection with the filarial nematode Onchocerca volvulus, whose adult worms reside in subcutaneous nodules while females release thousands of microfilariae that migrate through skin and eye tissues. The disease is driven largely by the host immune response to dying microfilariae, whose Wolbachia bacterial debris and parasite antigens provoke inflammation, sclerosing keratitis and chorioretinitis culminating in irreversible blindness.",
+      "zh-TW": "Onchocerciasis（river blindness）由絲蟲線形蟲 Onchocerca volvulus 感染引起，其成蟲棲息於皮下結節，雌蟲釋出數千條微絲蟲並在皮膚與眼部組織中移行。疾病主要由宿主對死亡微絲蟲的免疫反應所驅動：其 Wolbachia 菌體碎屑與寄生蟲抗原激起 inflammation，導致硬化性角膜炎與脈絡膜視網膜炎，最終導致不可逆的失明。"
+    },
+    "confidence": 0.95,
+    "source_document": "Onchocerciasis.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "8081e1833ec1",
+    "subject": "Mebendazole",
+    "predicate": "targets",
+    "object": "Microtubule",
+    "context": {
+      "en-US": "Mebendazole, a benzimidazole active against filarial worms including onchocerciasis, shares its microtubule-disrupting mechanism with anti-mitotic chemotherapy. This mechanistic overlap is why onchocerciasis drug development informs oncology repurposing: the same destabilization of microtubules that immobilizes parasites blocks spindle dynamics in dividing tumour cells.",
+      "zh-TW": "Mebendazole 是一種對包括 onchocerciasis 在內的絲蟲有效的 benzimidazole，與抗有絲分裂化療共享 destabilize microtubule 的機制。這種機制重疊正是 onchocerciasis 藥物開發能回饋腫瘤學再定位的原因：使寄生蟲癱瘓的同一種 microtubule 去穩定化，同樣會阻斷分裂中腫瘤細胞的紡錘體動力學。"
+    },
+    "confidence": 0.85,
+    "source_document": "Onchocerciasis.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "4dff88fa2176",
+    "subject": "Trichuriasis",
+    "predicate": "is_caused_by",
+    "object": "Trichuris",
+    "context": {
+      "en-US": "Trichuriasis (whipworm infection) is a soil-transmitted helminth infection of the large intestine caused by the nematode Trichuris trichiura. Adult worms anchor their thin anterior ends in the colonic mucosa, and heavy burdens in children produce Trichuris dysentery syndrome with bloody diarrhea, growth stunting and rectal prolapse.",
+      "zh-TW": "鞭蟲病（ whipworm infection ）是由線蟲 Trichuris trichiura 所引起的大腸土壤傳播蠕蟲感染。成蟲以細長的前端固定於結腸黏膜，重度感染（多見於兒童）會造成鞭蟲痢疾症候群，表現為血性腹瀉、生長遲緩與直腸脫垂。"
+    },
+    "confidence": 0.95,
+    "source_document": "Trichuriasis.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "98b1298b81f5",
+    "subject": "Albendazole",
+    "predicate": "treats",
+    "object": "Trichuriasis",
+    "context": {
+      "en-US": "Albendazole 400 mg daily for three days is a first-line treatment for trichuriasis, but single-dose albendazole alone has limited efficacy against Trichuris compared with other soil-transmitted helminths. Efficacy rises substantially when albendazole is combined with ivermectin or oxantel pamoate.",
+      "zh-TW": "Albendazole 每日 400 mg、連續三天是鞭蟲病的一線治療，但單次劑量的 Albendazole 對 Trichuris 的療效，相較其他土壤傳播蠕蟲較為有限。與 Ivermectin 或 Oxantel pamoate 併用時，療效顯著提升。"
+    },
+    "confidence": 0.9,
+    "source_document": "Trichuriasis.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "350fde2e10a8",
+    "subject": "Ivermectin",
+    "predicate": "enhances",
+    "object": "Albendazole",
+    "context": {
+      "en-US": "In trichuriasis, adding ivermectin to albendazole achieves significantly higher cure and egg-reduction rates than either drug alone (OR 2.65 for cure in meta-analyses), which is why ivermectin is added for heavy or treatment-refractory infections.",
+      "zh-TW": "在鞭蟲病中，Ivermectin 與 Albendazole 併用所達成的治癒率與蟲卵減少率，顯著高於任一藥物單獨使用（統合分析的治癒率 OR 為 2.65），因此重度感染或治療無效的病例會加上 Ivermectin。"
+    },
+    "confidence": 0.9,
+    "source_document": "Trichuriasis.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "853790cbb819",
+    "subject": "Trichuris",
+    "predicate": "causes",
+    "object": "Trichuriasis",
+    "context": {
+      "en-US": "Trichuris is a genus of whipworm nematodes; the human pathogen Trichuris trichiura causes trichuriasis. Heavy worm burden, particularly in children, leads to dysentery, rectal prolapse, growth retardation and anemia, with a Th2-dominated immune response featuring elevated IgE and eosinophilia.",
+      "zh-TW": "Trichuris 是鞭蟲屬線蟲；人類病原 Trichuris trichiura 會引起鞭蟲病。蟲荷過重（尤其在兒童）會導致痢疾、直腸脫垂、生長遲緩與貧血，並出現以 Th2 為主、IgE 升高與嗜酸性球增加的免疫反應。"
+    },
+    "confidence": 0.95,
+    "source_document": "Trichuris.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "637d521967b6",
+    "subject": "Ascaris",
+    "predicate": "co_occurs_with",
+    "object": "Trichuris",
+    "context": {
+      "en-US": "Trichuris is classified together with Ascaris and hookworms as a soil-transmitted helminth, and long-term ivermectin treatment for onchocerciasis is associated with reduced prevalence of co-infections by these soil-transmitted helminths, which together infect over one billion people.",
+      "zh-TW": "Trichuris 與 Ascaris 及鉤蟲同屬土壤傳播蠕蟲；以 Ivermectin 長期治療河盲症，也與這些土壤傳播蠕蟲共同感染的盛行率下降相關，而它們合計感染逾十億人。"
+    },
+    "confidence": 0.75,
+    "source_document": "Trichuris.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "2d6b874b879a",
+    "subject": "Trim17",
+    "predicate": "ubiquitinates",
+    "object": "Mcl-1",
+    "context": {
+      "en-US": "TRIM17 is a TRIM-family E3 ubiquitin ligase whose SPRY domain directs substrate specificity toward the pro-survival BCL-2 family member Mcl-1. Catalyzing polyubiquitin attachment on Mcl-1 targets it for 26S proteasomal degradation, lowering the threshold for mitochondrial outer-membrane permeabilization and caspase activation.",
+      "zh-TW": "TRIM17 是 TRIM 家族的 E3 泛素連接酶，其 SPRY 結構域將受質專一性導向促存活性的 BCL-2 家族成員 Mcl-1。TRIM17 催化在 Mcl-1 上接上多泛素鏈，使其被 26S 蛋白酶體辨識並降解，進而降低粒線體外膜通透化與 caspase 啟動的閾值。"
+    },
+    "confidence": 0.92,
+    "source_document": "Trim17.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "89363030f17d",
+    "subject": "Mcl-1",
+    "predicate": "inhibits",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "Mcl-1 is a key stabilizer of mitochondrial outer-membrane integrity that restrains apoptosis by sequestering pro-apoptotic BH3-only proteins such as Bim and Bak. Cancers frequently rely on elevated Mcl-1 to evade apoptosis and to resist chemotherapy and BH3 mimetics, so degrading Mcl-1 — as TRIM17 does — sensitizes malignant cells to death.",
+      "zh-TW": "Mcl-1 是維持粒線體外膜完整性的關鍵蛋白，藉由扣押 Bim 與 Bak 等促凋亡的 BH3-only 蛋白來抑制 Apoptosis。癌症常藉由 Mcl-1 升高來逃避凋亡並抵抗化學治療與 BH3 擬似物，因此像 TRIM17 那樣促使 Mcl-1 降解，可讓惡性細胞重新對死亡敏感。"
+    },
+    "confidence": 0.9,
+    "source_document": "Trim17.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "659bdee7d686",
+    "subject": "TRIM2",
+    "predicate": "degrades",
+    "object": "Bim",
+    "context": {
+      "en-US": "TRIM2 is a related TRIM-family E3 ligase with opposing substrate specificity: instead of degrading the anti-apoptotic Mcl-1, it degrades the pro-apoptotic protein Bim, making its activity protective rather than pro-apoptotic like TRIM17.",
+      "zh-TW": "TRIM2 是 TRIM 家族中受質專一性相反的 E3 連接酶：它降解的是促凋亡蛋白 Bim，而非抗凋亡的 Mcl-1，因此其活性具保護作用，與 TRIM17 的促凋亡作用相反。"
+    },
+    "confidence": 0.85,
+    "source_document": "Trim17.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "e19473366d8c",
+    "subject": "Tyrosine Kinase Inhibitors",
+    "predicate": "inhibits",
+    "object": "SRC kinase",
+    "context": {
+      "en-US": "Tyrosine kinase inhibitors are targeted anticancer drugs that block ATP binding or substrate docking in tyrosine kinases such as EGFR, HER2, BCR-ABL and VEGFR, halting proliferative and angiogenic signaling. Multi-kinase agents such as dasatinib also inhibit SRC kinase, which is relevant to metastasis and apoptosis resistance.",
+      "zh-TW": "Tyrosine kinase inhibitors 是標靶性抗癌藥物，藉由阻斷 EGFR、HER2、BCR-ABL、VEGFR 等酪胺酸激酶的 ATP 結合或受質對接，終止增殖與血管生成訊號。像 Dasatinib 這類多重激酶藥物也會抑制 SRC kinase，此點與轉移及凋亡抗性有關。"
+    },
+    "confidence": 0.9,
+    "source_document": "Tyrosine Kinase Inhibitors.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "1277404c3827",
+    "subject": "Tyrosine Kinase Inhibitors",
+    "predicate": "inhibits",
+    "object": "Angiogenesis",
+    "context": {
+      "en-US": "VEGF/angiogenic tyrosine kinase inhibitors such as sunitinib, sorafenib, pazopanib and cabozantinib block VEGFR and related kinases, suppressing tumor vasculature through angiogenesis blockade. TKIs are first-line in NSCLC, CML, RCC, HCC and HER2+ disease and are often combined with chemotherapy or antibodies.",
+      "zh-TW": "Sunitinib、Sorafenib、Pazopanib 與 Cabozantinib 等 VEGF／血管生成性 tyrosine kinase inhibitors 會阻斷 VEGFR 及相關激酶，透過抑制 Angiogenesis 壓抑腫瘤血管。TKI 是 NSCLC、CML、RCC、HCC 與 HER2 陽性疾病的一線治療，常與化學治療或抗體合併使用。"
+    },
+    "confidence": 0.9,
+    "source_document": "Tyrosine Kinase Inhibitors.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "445e5dd42dc0",
+    "subject": "Tyrosine Kinase Inhibitors",
+    "predicate": "is_associated_with",
+    "object": "Chemotherapy",
+    "context": {
+      "en-US": "Tyrosine kinase inhibitors are frequently combined with chemotherapy, antibodies such as trastuzumab, or anti-angiogenics. Response depends on target dependence, and resistance arises through secondary kinase mutations (e.g. T790M gatekeeper mutants), bypass pathway activation and drug efflux, which is why companion EGFR/ALK/BRAF mutation testing guides selection.",
+      "zh-TW": "Tyrosine kinase inhibitors 常與化學治療、trastuzumab 等抗體或抗血管生成藥物併用。療效取決於標的依賴性，抗藥性則來自次級激酶突變（例如 T790M 守門突變）、旁路路徑活化與藥物外排，因此需搭配 EGFR／ALK／BRAF 突變的伴隨式檢測來選藥。"
+    },
+    "confidence": 0.85,
+    "source_document": "Tyrosine Kinase Inhibitors.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "c51094d8bbe7",
+    "subject": "Vitronectin",
+    "predicate": "binds",
+    "object": "Integrins",
+    "context": {
+      "en-US": "Vitronectin is an abundant plasma and extracellular matrix glycoprotein whose central RGD (Arg-Gly-Asp) motif is the principal integrin-binding site, engaging αvβ3, αvβ5, αvβ6 and α5β1 integrins. Presenting RGD to αv-family integrins nucleates focal adhesions and activates FAK/Src signaling that drives motility and survival.",
+      "zh-TW": "Vitronectin 是血浆與細胞外基質中含量豐富的醣蛋白，其中央的 RGD（Arg-Gly-Asp）序列為主要的 integrin 結合位點，可結合 αvβ3、αvβ5、αvβ6 與 α5β1 等 Integrins。向 αv 家族 integrins 呈現 RGD 會成核形成黏著斑，並啟動 FAK／Src 訊號以驅動運動與存活。"
+    },
+    "confidence": 0.93,
+    "source_document": "Vitronectin.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "cccd616ce401",
+    "subject": "Vitronectin",
+    "predicate": "promotes",
+    "object": "Angiogenesis",
+    "context": {
+      "en-US": "Vitronectin supports endothelial sprouting during angiogenesis, working alongside VEGF, and supports the invasive front of carcinomas undergoing EMT. Elevated vitronectin in the tumor stroma and plasma has been associated with invasion, metastasis and poorer prognosis in several cancers.",
+      "zh-TW": "Vitronectin 在 Angiogenesis 期間支持內皮細胞出芽，與 VEGF 協同作用，並支持正在經歷 EMT 的癌細胞侵襲前沿。腫瘤基質與血漿中 Vitronectin 升高，已在多種癌症中與侵襲、Metastasis 及較差的預後相關聯。"
+    },
+    "confidence": 0.88,
+    "source_document": "Vitronectin.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "4c7771b6a6ef",
+    "subject": "World Health Organization",
+    "predicate": "coordinates",
+    "object": "Ivermectin",
+    "context": {
+      "en-US": "WHO coordinates mass administration of ivermectin in the Onchocerciasis Control Programme and the Global Programme to Eliminate Lymphatic Filariasis, both of which rely on ivermectin together with, historically, vector larviciding. Its TDR special programme funded the anti-Onchocerca drug screening networks that made ivermectin's development for human use possible.",
+      "zh-TW": "WHO 協調 Onchocerciasis Control Programme 與 Global Programme to Eliminate Lymphatic Filariasis 中的 Ivermectin 大量投藥，兩者皆以 Ivermectin 為主並搭配過往的病媒幼蟲殺滅。其 TDR 特別計畫資助了抗 Onchocerca 藥物篩檢網絡，使 Ivermectin 得以發展為人用藥物。"
+    },
+    "confidence": 0.9,
+    "source_document": "World Health Organization.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "e66d22dd0891",
+    "subject": "Wuchereria bancrofti",
+    "predicate": "causes",
+    "object": "Lymphatic Filariasis",
+    "context": {
+      "en-US": "Wuchereria bancrofti is a thread-like lymphatic filarial nematode and the principal cause of human lymphatic filariasis, a neglected tropical disease producing massive disabling lymphedema and hydrocele. It is transmitted by mosquito vectors and perpetuates infection through circulating microfilariae in the blood.",
+      "zh-TW": "Wuchereria bancrofti 是絲狀的淋巴絲蟲線蟲，為人類 Lymphatic Filariasis（被忽略的熱帶疾病）的主要病因，會造成 massive 的淋巴水腫（大象病）與陰囊積水。經由蚊子病媒傳播，並藉血中循環的微絲蟲持續維持感染。"
+    },
+    "confidence": 0.95,
+    "source_document": "Wuchereria bancrofti.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "48010130ea19",
+    "subject": "Wuchereria bancrofti",
+    "predicate": "sustains",
+    "object": "Inflammation",
+    "context": {
+      "en-US": "Chronic lymphatic filariasis caused by Wuchereria bancrofti sustains long-term lymphatic inflammation and local immunosuppression through stasis and recurrent bacterial cellulitis. The chronic antigenic and inflammatory burden is therefore biologically relevant to malignancy risk in endemic settings, and the immunomodulatory milieu can alter host tumor immunosurveillance.",
+      "zh-TW": "由 Wuchereria bancrofti 引起的慢性淋巴絲蟲病，透過淋巴鬱積與反覆發生的細菌性蜂窩組織炎，維持長期的淋巴 Inflammation 與局部免疫抑制。因此，這種慢性抗原與發炎負荷在流行地區與惡性腫瘤風險具生物學相關性，而其免疫調節環境也可能改變宿主對腫瘤的免疫監視。"
+    },
+    "confidence": 0.8,
+    "source_document": "Wuchereria bancrofti.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "bbce12ab2c30",
+    "subject": "apitherapy",
+    "predicate": "uses",
+    "object": "Honeybee",
+    "context": {
+      "en-US": "Apitherapy is a branch of complementary and alternative medicine that uses products derived from honeybees — honey, pollen, propolis, royal jelly and bee venom (apitoxin) — for therapeutic purposes. In oncology it is studied chiefly for the antitumor properties of venom and its major peptide melittin.",
+      "zh-TW": "Apitherapy 是 Complementary and alternative medicine 的一支，使用源自 Honeybee 的產品——蜂蜜、花粉、蜂膠、蜂王漿與蜂毒（apitoxin）——作為治療用途。在腫瘤學上，其研究重點為蜂毒及其主要胜肽 melittin 的抗腫瘤性質。"
+    },
+    "confidence": 0.9,
+    "source_document": "apitherapy.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "730287451047",
+    "subject": "melittin",
+    "predicate": "inhibits",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "Melittin, the major bioactive peptide of apitherapy, is a membrane-active peptide that induces apoptosis and modulates inflammation. It inhibits Wnt/β-catenin and NF-κB signaling and has been reported to reduce metastasis and angiogenesis, though clinical evidence remains preliminary and systemic venom risks anaphylaxis and cardiotoxicity.",
+      "zh-TW": "Melittin 是 apitherapy 中主要的活性胜肽，為膜作用型胜肽，可誘導 Apoptosis 並調節 Inflammation。它抑制 Wnt/β-catenin 與 NF-κB 訊號，並被報導可減少 Metastasis 與 Angiogenesis；然而臨床證據仍屬初步，且全身性蜂毒有過敏性休克與心臟毒性的風險。"
+    },
+    "confidence": 0.8,
+    "source_document": "apitherapy.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "da4f967798d8",
+    "subject": "apitherapy",
+    "predicate": "enhances",
+    "object": "Chemotherapy",
+    "context": {
+      "en-US": "Bee products are investigated as adjuvants that sensitize tumors to conventional chemotherapy while potentially reducing dose-limiting toxicity. Elucidating how melittin and propolis engage apoptosis, autophagy and immune pathways is key to developing safe derivatives, and apitherapy should not replace evidence-based cancer treatment.",
+      "zh-TW": "蜂產品被研究作為輔助物，可讓腫瘤對傳統 Chemotherapy 更加敏感，同時可能降低劑量限制性毒性。釐清 melittin 與 propolis 如何涉入 Apoptosis、Autophagy 與免疫路徑，是開發安全衍生物的關鍵；而 apitherapy 並不應取代循證的癌症治療。"
+    },
+    "confidence": 0.75,
+    "source_document": "apitherapy.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "d0c1f0dc069c",
+    "subject": "bioluminescence resonance energy transfer",
+    "predicate": "measures",
+    "object": "EGFR",
+    "context": {
+      "en-US": "BRET transfers energy non-radiatively from a luminescent donor such as NanoLuc to a fluorescent acceptor when the two lie within about 10 nm, so it reports protein proximity without external excitation light. Fusing NanoLuc to EGFR and challenging it with TAMRA-EGF or FITC-melittin showed that melittin approaches EGFR without occupying the EGF-binding site.",
+      "zh-TW": "BRET 將能量以非輻射方式由發光供體（如 NanoLuc）傳遞給螢光受體，前提是兩者相距約 10 nm 內，因此無需外部激發光即可報讀蛋白質鄰近性。將 NanoLuc 接上 EGFR，再以 TAMRA-EGF 或 FITC-melittin 競爭，顯示 melittin 能接近 EGFR 但不會占據 EGF 結合位。"
+    },
+    "confidence": 0.9,
+    "source_document": "bioluminescence resonance energy transfer.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "25603604aea6",
+    "subject": "c-CBL",
+    "predicate": "ubiquitinates",
+    "object": "EGFR",
+    "context": {
+      "en-US": "c-CBL is a RING-type E3 ubiquitin ligase and negative regulator of receptor tyrosine kinase signaling. Its TKB domain recognizes doubly phosphorylated tyrosines on activated receptors such as EGFR, c-KIT and the PDGF receptor, and it attaches ubiquitin chains that sort the receptor into multivesicular bodies for lysosomal or proteasomal degradation, terminating proliferative and survival signals.",
+      "zh-TW": "c-CBL 是 RING 型 E3 泛素連接酶，也是受體酪胺酸激酶訊號的負向調控者。其 TKB 結構域辨識 EGFR、c-KIT 與 PDGF 受體等已活化受體上雙重磷酸化的酪胺酸，並接上泛素鏈使受體被分選進入多囊泡體，進行溶酶體或蛋白酶體降解，終止增殖與存活訊號。"
+    },
+    "confidence": 0.93,
+    "source_document": "c-CBL.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "2555e2dcdc70",
+    "subject": "c-CBL",
+    "predicate": "degrades",
+    "object": "Bim",
+    "context": {
+      "en-US": "Beyond receptor downregulation, growth-factor-activated ERK signaling drives c-CBL to ubiquitinate the pro-apoptotic BH3-only protein Bim, marking it for proteasomal destruction and thereby reinforcing cell survival. This explains how sustained MAPK signaling protects tumor cells from apoptosis and why restoring Bim levels could resensitize resistant cancers to chemotherapy.",
+      "zh-TW": "除了受體下調之外，生長因子活化的 ERK 訊號會驅動 c-CBL 泛素化促凋亡的 BH3-only 蛋白 Bim，使其被蛋白酶體降解，進而強化細胞存活。這解釋了持續的 MAPK 訊號如何保護腫瘤細胞免於凋亡，也說明恢復 Bim 濃度可能讓具抗藥性的癌症重新對化學治療敏感。"
+    },
+    "confidence": 0.9,
+    "source_document": "c-CBL.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "542013a5f90a",
+    "subject": "c-CBL",
+    "predicate": "is_mutated_in",
+    "object": "leukemia",
+    "context": {
+      "en-US": "Somatic mutations, focal deletions and promoter methylation of CBL occur notably in myelodysplastic syndromes, acute myeloid leukemia and juvenile myelomonocytic leukemia, producing RING-domain-deficient or loss-of-function variants that fail to degrade receptor tyrosine kinases. Such mutant c-CBL acts dominantly negative, causing accumulation of activated receptors, constitutive RAS-MAPK signaling and heightened proliferation.",
+      "zh-TW": "CBL 的體細胞突變、局部缺失與啟動子甲基化，尤其見於骨髓增生異常症候群、急性骨髓性白血病與幼年型骨髓單核球白血病，會產生 RING 結構域缺陷或功能喪失的變體，無法降解受體酪胺酸激酶。此類突變型 c-CBL 呈顯性負效應，造成活化受體堆積、RAS–MAPK 訊號持續活化與增殖加劇。"
+    },
+    "confidence": 0.85,
+    "source_document": "c-CBL.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "12a28ba8e8d7",
+    "subject": "cDNA",
+    "predicate": "activates",
+    "object": "cGAS-STING Pathway",
+    "context": {
+      "en-US": "Cytoplasmic DNA species — chromatin fragments (CCFs) released by Lamin B1 loss and nuclear envelope blebbing, mitochondrial DNA from dysfunctional mitochondria, and DNA from ruptured micronuclei — accumulate as a hallmark of senescence and activate the cGAS-STING Pathway, driving the Senescence-Associated Secretory Phenotype.",
+      "zh-TW": "細胞質中的 DNA 種類——由 Lamin B1 流失與核膜出芽釋出的染色質碎片（CCFs）、來自功能失調粒線體的粒線體 DNA，以及破裂微核釋出的 DNA——會作為 Senescence 的特徵性表現而累積，並活化 cGAS-STING Pathway，驅動 SASP。"
+    },
+    "confidence": 0.85,
+    "source_document": "cDNA.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "dec047d1003d",
+    "subject": "Fenbendazole",
+    "predicate": "inhibits",
+    "object": "Glycolysis",
+    "context": {
+      "en-US": "Fenbendazole, a benzimidazole anthelmintic, acts as a microtubule destabilizing agent and interferes with energy metabolism. It increases p53 activation, inhibits the GLUT1 transporter and hexokinase 2, and down-regulates glucose uptake, producing reduced lactate and cancer cell starvation; this metabolic route is why it outperforms albendazole against 5-FU-resistant colorectal cells.",
+      "zh-TW": "Fenbendazole 是苯並咪唑類驅蟲藥，作用為微管去穩定劑並干擾能量代謝。它提升 p53 的活化、抑制 GLUT1 轉位蛋白與 Hexokinase 2，並下調 Glucose uptake，導致乳酸下降與癌細胞「飢餓」；正是這條代謝途徑使其對 5-FU 抗藥性的大腸癌細胞優於 Albendazole。"
+    },
+    "confidence": 0.9,
+    "source_document": "fenbendazole_3725.full.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "d896dc0244c8",
+    "subject": "Fenbendazole",
+    "predicate": "destabilizes",
+    "object": "Microtubule",
+    "context": {
+      "en-US": "Fenbendazole binds beta-tubulin and hinders tubulin polymerization, depolymerizing microtubules. As a microtubule-targeting agent it induces G2/M cell cycle arrest with tubulin destabilization at 1 and 10 μM, and its poor water solubility (0.3 μg/ml) limits the systemic concentrations reachable after oral dosing.",
+      "zh-TW": "Fenbendazole 與 beta-tubulin 結合並阻礙微管聚合，使 Microtubule 去聚合。作為微管標的藥物，它在 1 與 10 μM 濃度下即可造成微管去穩定與 G2/M 細胞週期阻滯；而其低水溶性（0.3 μg/ml）限制了口服後可達的全身濃度。"
+    },
+    "confidence": 0.9,
+    "source_document": "fenbendazole_3725.full.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "244a33d84a6a",
+    "subject": "Oxfendazole",
+    "predicate": "is_metabolite_of",
+    "object": "Fenbendazole",
+    "context": {
+      "en-US": "After partial hepatic absorption, fenbendazole is rapidly metabolized by FMO and CYP3A4 enzymes into its sulfoxide derivative oxfendazole, which is the primary metabolite responsible for fenbendazole's biological activity and can be reduced back to fenbendazole. Oxfendazole's much higher solubility (44.12 μg/ml) makes its human pharmacokinetics a useful surrogate for fenbendazole, and it received FDA fast-track designation for human trichuriasis.",
+      "zh-TW": "Fenbendazole 經肝臟部分吸收後，由 FMO 與 CYP3A4 酵素迅速代謝為其亞砜衍生物 Oxfendazole；後者是負責 Fenbendazole 生物活性的主要代謝物，且可被還原回 Fenbendazole。Oxfendazole 的溶解度（44.12 μg/ml）遠高於 Fenbendazole，因此其人體藥動學可作為 Fenbendazole 的替代參考，並已獲 FDA 快車指定用於人類鞭蟲病。"
+    },
+    "confidence": 0.9,
+    "source_document": "fenbendazole_3725.full.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "853e3b28b8b9",
+    "subject": "Fenbendazole",
+    "predicate": "induces",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "In colorectal cancer cells, fenbendazole triggers apoptosis through mitochondrial injury and the caspase-3/PARP pathway, and also induces necrosis, autophagy and ferroptosis. In 5-FU-resistant colorectal cancer, fenbendazole triggers apoptosis without changing p53 expression, likely through p53-independent ferroptosis-augmented apoptosis.",
+      "zh-TW": "在大腸癌細胞中，Fenbendazole 透過粒線體損傷與 Caspase-3／PARP 路徑誘發 Apoptosis，並同時誘發 Necrosis、Autophagy 與 Ferroptosis。在 5-FU 抗藥性大腸癌中，Fenbendazole 不改變 p53 表現仍可誘發凋亡，可能是透過 p53 非依賴性的 ferroptosis 增強凋亡所致。"
+    },
+    "confidence": 0.8,
+    "source_document": "fenbendazole_3725.full.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "54db5fdf651e",
+    "subject": "Fenbendazole",
+    "predicate": "fails_to_inhibit",
+    "object": "Radiation Therapy",
+    "context": {
+      "en-US": "Despite structural resemblance to known radiosensitizers, fenbendazole did not alter the radiation dose-response curves of aerobic or hypoxic EMT6 cells, did not radiosensitize EMT6 tumors in vivo, and did not increase the number of lung metastases. It also failed to interact with docetaxel, producing strictly additive rather than synergistic toxicity.",
+      "zh-TW": "雖然結構類似已知 radiosensitizer，Fenbendazole 並未改變有氧或缺氧 EMT6 細胞的輻射劑量反應曲線，在體內也未使 EMT6 腫瘤增敏，且未增加肺轉移數目。它與 docetaxel 亦無交互作用，毒性僅為相加而非協同。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Fenbendazole as a Potential Anticancer Drug.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "76b5e8ba120e",
+    "subject": "Hypoxia",
+    "predicate": "increases",
+    "object": "Necrosis",
+    "context": {
+      "en-US": "Solid tumors develop regions of severe hypoxia at diameters below 1 mm, and hypoxic tumor cells are resistant to radiation because molecular oxygen is a potent radiosensitizer. Fenbendazole cytotoxicity in vitro increased under severe hypoxia, but the preferential toxicity was too modest to make it a useful hypoxia-selective anticancer agent.",
+      "zh-TW": "實體腫瘤在直徑小於 1 mm 時就會形成嚴重 Hypoxia 區域，而缺氧腫瘤細胞對輻射具有抗性，因為分子氧是強效的 radiosensitizer。Fenbendazole 在體外的細胞毒性在嚴重缺氧下增加，但這種偏好性毒性仍過於微弱，不足以成為實用的缺氧選擇性抗癌藥。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Fenbendazole as a Potential Anticancer Drug.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "8e447f20d08b",
+    "subject": "oncosis",
+    "predicate": "is_a_type_of",
+    "object": "Necrosis",
+    "context": {
+      "en-US": "Oncosis is an accidental, energy-independent form of cell death within the broader category of necrosis, distinguished by a specific morphological sequence: ATP depletion from ischemia and hypoxia causes ion pump failure, sodium and water influx, oncotic cell swelling, increased membrane permeability from cytoskeletal and plasma membrane damage, and eventual lysis with inflammation.",
+      "zh-TW": "Oncosis 是廣義 Necrosis 類別中的一種非程序性、能量無關的細胞死亡形式，其特徵是特定形態學序列：Ischemia 與缺氧造成 ATP 耗竭，導致離子幫浦失效、鈉與水內流、細胞腫脹（oncotic swelling）、細胞骨架與細胞膜受損造成膜通透性上升，最終裂解並引起發炎。"
+    },
+    "confidence": 0.92,
+    "source_document": "oncosis.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "c492b1fb502a",
+    "subject": "oncosis",
+    "predicate": "is_induced_by",
+    "object": "Ischemia",
+    "context": {
+      "en-US": "Oncosis is the primary mechanism of cell death in many forms of ischemic injury, including myocardial infarction and stroke, as well as organ failure due to shock. It is driven by ATP depletion rather than caspase activation, distinguishing it from apoptosis.",
+      "zh-TW": "Oncosis 是多種缺血性損傷（ischemic injury）的主要細胞死亡機制，包括 Myocardial infarction、Stroke 以及休克造成的器官衰竭。其驅動力是 ATP 耗竭而非 caspase 活化，這正是它與 Apoptosis 的區別所在。"
+    },
+    "confidence": 0.9,
+    "source_document": "oncosis.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "5e65356c2de7",
+    "subject": "siRNA",
+    "predicate": "silences",
+    "object": "Bcl-2",
+    "context": {
+      "en-US": "siRNA are 20-25 base-pair double-stranded RNA molecules that operate in the RNA interference pathway, degrading complementary mRNA and preventing translation of the target protein. In cancer models, silencing Bcl-2 or Bmi-1 with siRNA enhances the efficacy of chemotherapy such as doxorubicin, and silencing XIAP or survivin sensitizes cells to apoptosis.",
+      "zh-TW": "siRNA 是約 20-25 鹼基對的雙股 RNA 分子，透過 RNA interference 路徑降解互補 mRNA，阻止目標蛋白的轉譯。在癌症模型中，以 siRNA 靜默 Bcl-2 或 Bmi-1 可增強 Doxorubicin 等化學治療的效力；靜默 XIAP 或 survivin 則可讓細胞對 Apoptosis 更加敏感。"
+    },
+    "confidence": 0.9,
+    "source_document": "siRNA.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "b35d27f08582",
+    "subject": "siRNA",
+    "predicate": "silences",
+    "object": "XIAP",
+    "context": {
+      "en-US": "Targeting inhibitor of apoptosis proteins is a standard siRNA application: silencing XIAP or survivin removes the brake on caspase activity, sensitizing tumor cells to apoptosis and making siRNA both a gene-function tool and a therapeutic strategy.",
+      "zh-TW": "針對凋亡抑制蛋白（IAPs）是 siRNA 的標準應用：靜默 XIAP 或 survivin 可解除 caspase 活化的抑制，讓腫瘤細胞對 Apoptosis 更加敏感，使 siRNA 同時成為基因功能研究工具與治療策略。"
+    },
+    "confidence": 0.85,
+    "source_document": "siRNA.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "e62c01ba57fa",
+    "subject": "tumour microenvironment",
+    "predicate": "promotes",
+    "object": "Angiogenesis",
+    "context": {
+      "en-US": "The tumour microenvironment is a heterogeneous ecosystem of malignant cells, cancer-associated fibroblasts, immune and endothelial cells, extracellular matrix and a cytokine soup of growth factors including VEGF and EGF. Tumors secrete VEGF to recruit new blood vessels, ensuring a steady supply of nutrients and oxygen, and hypoxia, low pH and raised interstitial pressure drive drug resistance and immune evasion.",
+      "zh-TW": "腫瘤微環境（tumour microenvironment）是由惡性細胞、癌相關纖維母細胞、免疫與內皮細胞、細胞外基質，以及含 VEGF、EGF 等生長因子的「細胞激素湯」所構成的異質性生態系。腫瘤分泌 VEGF 以招募新血管，確保營養與氧氣的穩定供應；而低氧、低 pH 與升高的間質壓力則促成藥物抗性與免疫逃脫。"
+    },
+    "confidence": 0.92,
+    "source_document": "tumour microenvironment.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "e0b7504315c5",
+    "subject": "tumour microenvironment",
+    "predicate": "enables",
+    "object": "Metastasis",
+    "context": {
+      "en-US": "The tumour microenvironment is not a passive bystander: cancer-associated fibroblasts and other cells degrade the extracellular matrix, allowing cancer cells to invade surrounding tissue and spread to distant organs, while the immunosuppressive niche shields cancer cells from immune detection and destruction.",
+      "zh-TW": "腫瘤微環境並非被動旁觀者：癌相關纖維母細胞與其他細胞會降解細胞外基質，使癌細胞得以侵入周圍組織並擴散至遠端器官；同時其免疫抑制性微環境可保護癌細胞免於被免疫系統辨識與清除。"
+    },
+    "confidence": 0.9,
+    "source_document": "tumour microenvironment.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "1fe57c196742",
+    "subject": "tumour microenvironment",
+    "predicate": "is_targeted_by",
+    "object": "Immunotherapy",
+    "context": {
+      "en-US": "Targeting the tumour microenvironment is a major focus of modern oncology: checkpoint inhibitors such as anti-PD-1 and anti-CTLA-4 antibodies release the brakes on the immune system so it can attack cancer cells, anti-angiogenics targeting VEGF starve the tumor of blood supply, and stromal strategies aim at CAFs or reprogram them to a less supportive phenotype.",
+      "zh-TW": "以腫瘤微環境為標的，是現代 Oncology 的主要重心：抗 PD-1 與抗 CTLA-4 等免疫檢查點抑制劑解除免疫系統的煞車，使其得以攻擊癌細胞；抑制 VEGF 的抗血管生成藥物使腫瘤失去血液供應；基質策略則針對 CAFs 或將其重新編程為較不助癌的表型。"
+    },
+    "confidence": 0.9,
+    "source_document": "tumour microenvironment.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "8415af5926bd",
+    "subject": "Ivermectin",
+    "predicate": "inhibits",
+    "object": "PAK1",
+    "context": {
+      "en-US": "Ivermectin is a PAK1 inhibitor across most tumor types. It suppresses PAK1 protein without affecting PAK1 mRNA, and the proteasome inhibitor MG132 reverses this suppression, indicating degradation of PAK1 via the ubiquitination-proteasome pathway; knocking down PAK1 with siRNA correspondingly reduces ivermectin's anticancer activity.",
+      "zh-TW": "Ivermectin 在多數腫瘤中是 PAK1 的抑制劑。它抑制 PAK1 蛋白卻不影響 PAK1 mRNA，且蛋白酶體抑制劑 MG132 可逆轉此抑制作用，表示 PAK1 是經由泛素化—蛋白酶體途徑被降解；以 siRNA 下調 PAK1 也相應降低 Ivermectin 的抗癌活性。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "db59f87616e5",
+    "subject": "Ivermectin",
+    "predicate": "induces",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Ivermectin increases autophagic flux and the expression of LC3, Beclin-1 and Atg5 in breast cancer cell lines MCF-7 and MDA-MB-231, inducing autophagy by inhibiting Akt and mTOR phosphorylation through the PAK1/Akt/mTOR axis. Autophagy inhibitors chloroquine and wortmannin, or siRNA against Beclin-1 and Atg5, significantly reduce ivermectin's anticancer activity.",
+      "zh-TW": "Ivermectin 在 MCF-7 與 MDA-MB-231 乳癌細胞中提高自噬流與 LC3、Beclin-1、Atg5 等關鍵自噬蛋白的表現，經由 PAK1／Akt／mTOR 軸抑制 Akt 與 mTOR 磷酸化而誘發 Autophagy。使用自噬抑制劑 chloroquine、wortmannin，或以 siRNA  knockdown Beclin-1 與 Atg5，都會顯著降低 Ivermectin 的抗癌活性。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "3ab9e4351892",
+    "subject": "Ivermectin",
+    "predicate": "induces",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "Ivermectin induces apoptosis mainly through the mitochondrial pathway: it reduces mitochondrial membrane potential, releases cytochrome c, upregulates Bax and downregulates the anti-apoptotic Bcl-2, thereby activating caspase-9/-3 and PARP to trigger apoptosis. In HeLa cells, cell-cycle arrest at G1/S accompanies the morphological hallmarks of apoptosis.",
+      "zh-TW": "Ivermectin 主要經粒線體途徑誘發 Apoptosis：降低粒線體膜電位、釋放 cytochrome c、上調 Bax 並下調抗凋亡的 Bcl-2，進而活化 caspase-9／-3 與 PARP 以觸發凋亡。在 HeLa 細胞中，G1／S 期細胞週期阻滯亦伴隨凋亡的形態學特徵。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "2f196c8405b1",
+    "subject": "Ivermectin",
+    "predicate": "reverses",
+    "object": "Multidrug Resistance",
+    "context": {
+      "en-US": "Ivermectin reverses tumor multidrug resistance by inhibiting P-glycoprotein and MDR-associated proteins. It reversed vincristine resistance in HCT-8 colorectal cells, doxorubicin resistance in MCF-7 breast cells and resistance in K562 CML, by inhibiting EGFR activation and the downstream ERK/Akt/NF-kappa B pathway to downregulate P-gp expression.",
+      "zh-TW": "Ivermectin 藉由抑制 P-gp 與 MDR 相關蛋白而逆轉腫瘤的 Multidrug Resistance。它可逆轉 HCT-8 大腸癌的 vincristine 抗藥性、MCF-7 乳癌的 doxorubicin 抗藥性，以及 K562 CML 的抗藥性，機制是抑制 EGFR 活化與下游 ERK／Akt／NF-κB 路徑以降低 P-gp 表現。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "e5632917a9e3",
+    "subject": "Ivermectin",
+    "predicate": "inhibits",
+    "object": "Cancer Stem Cells",
+    "context": {
+      "en-US": "Ivermectin preferentially targets and inhibits cancer stem cell-rich populations in MDA-MB-231 breast cancer cells, downregulating the stemness genes NANOG, OCT-4 and SOX-2. Further studies showed this occurs through the PAK1-STAT3 axis, supporting ivermectin as a potential cancer stem cell inhibitor.",
+      "zh-TW": "Ivermectin 會優先標定並抑制 MDA-MB-231 乳癌中富含 Cancer Stem Cells 的細胞族群，並下調 NANOG、OCT-4 與 SOX-2 等幹性基因。進一步研究顯示此作用經由 PAK1–STAT3 軸發生，支持 Ivermectin 作為潛在 Cancer Stem Cells 抑制劑。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "a4fd547ccccf",
+    "subject": "Ivermectin",
+    "predicate": "enhances",
+    "object": "erlotinib",
+    "context": {
+      "en-US": "By inhibiting HSP27 phosphorylation, ivermectin enhances the activity of anti-EGFR and anti-HER2 targeted drugs, significantly increasing the inhibitory effects of erlotinib and cetuximab in lung and colorectal cancer cells. It also synergizes with cisplatin, paclitaxel, daunorubicin, cytarabine, dasatinib and docetaxel, with a good safety profile compared with the PAK1 inhibitor IPA-3.",
+      "zh-TW": "藉由抑制 HSP27 磷酸化，Ivermectin 可增強抗 EGFR 與抗 HER2 標靶藥物的活性，顯著提升 erlotinib 與 cetuximab 對肺癌與大腸癌細胞的抑制效果。它也與 Cisplatin、paclitaxel、daunorubicin、cytarabine、dasatinib 及 docetaxel 產生協同作用，且安全性優於 PAK1 抑制劑 IPA-3。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "e225d3d3b4ac",
+    "subject": "Ivermectin",
+    "predicate": "inhibits",
+    "object": "YAP1",
+    "context": {
+      "en-US": "Ivermectin inhibited gastric cancer cell proliferation in a YAP1-dependent manner, with the more highly expressing lines MKN1 and SH-10-TC being sensitive while MKN7 and MKN28 were not, and it blocked YAP1 activity in spontaneous hepatocellular carcinoma in Mob1b-/- mice. YAP1 therefore marks the tumor types most likely to respond.",
+      "zh-TW": "Ivermectin 以 YAP1 依賴的方式抑制胃癌細胞增殖：YAP1 表現較高的 MKN1 與 SH-10-TC 對其敏感，而 MKN7 與 MKN28 則不敏感；在 Mob1b-/- 小鼠的自發性肝細胞癌中，Ivermectin 亦可阻斷 YAP1 活性。因此 YAP1 可作為預測療效反應的腫瘤標記。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "9215b8129221",
+    "subject": "Ivermectin",
+    "predicate": "is_derived_from",
+    "object": "Avermectin",
+    "context": {
+      "en-US": "Ivermectin is a 22,23-dihydroavermectin-B1a/B1b macrolide derived from avermectin, a compound class isolated by Satoshi Ōmura's group at the Kitasato Institute from a single Japanese soil sample and developed with Merck. It activates glutamate-gated chloride channels in parasites, causing chloride influx and neuronal hyperpolarization, GABA release and somatic muscle paralysis.",
+      "zh-TW": "Ivermectin 是 22,23-二氫阿維菌素 B1a／B1b 大環內酯，為 Avermectin 的衍生物；Avermectin 由大村智 Sato 團隊在北里研究所從一份日本土壤樣本中分離，並與 Merck 共同開發。它活化寄生蟲的麩胺酸門控氯離子通道，造成氯離子內流與神經元超極化、GABA 釋放與體肌麻痺。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "2451c6ac950c",
+    "subject": "Ivermectin",
+    "predicate": "treats",
+    "object": "Onchocerciasis",
+    "context": {
+      "en-US": "Ivermectin became the drug of choice for onchocerciasis because of its potent microfilaricidal effect, absence of severe side effects and excellent safety; a single annual oral dose of 150 μg/kg reduces skin microfilariae to zero and, by interfering with worm embryogenesis, delays the build-up of new microfilariae for up to two years. It is the sole tool in onchocerciasis elimination campaigns.",
+      "zh-TW": "Ivermectin 因具強效的殺微絲蟲作用、缺乏嚴重副作用且安全性優異，而成為 Onchocerciasis 的首選藥物；每年單次口服 150 μg/kg 即可將皮膚微絲蟲降至零，並藉干擾蟲體胚胎發生延緩新微絲蟲累積長達兩年。它是河盲症根除計畫中唯一的防治工具。"
+    },
+    "confidence": 0.92,
+    "source_document": "_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "b4079ee75f8d",
+    "subject": "Ivermectin",
+    "predicate": "is_discovered_by",
+    "object": "Kitasato Institute",
+    "context": {
+      "en-US": "Avermectin originated solely from a single microorganism isolated from Japanese soil by researchers at the Kitasato Institute and sent to Merck's laboratories in 1974; despite decades of worldwide searching, that Japanese microorganism remains the only known source of avermectin ever found. TDR later funded the cattle screening networks in which ivermectin was shown to be effective against Onchocerca.",
+      "zh-TW": "Avermectin 唯一源自北里研究所（Kitasato Institute）研究者自一份日本土壤中分離的單一微生物，並於 1974 年送至 Merck 實驗室；數十年來全球搜尋後，該日本微生物仍是阿維菌素唯一已知來源。TDR 之後資助了牛隻篩檢網絡，Ivermectin 在其中被證實對 Onchocerca 有效。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "d10b29ebf3c2",
+    "subject": "melittin",
+    "predicate": "inhibits",
+    "object": "EGFR",
+    "context": {
+      "en-US": "Honeybee venom and its major component melittin suppress activation of EGFR and HER2 by interfering with receptor phosphorylation in the plasma membrane of breast carcinoma cells. Immunoblotting showed downregulation of p-EGFR (Tyr1068), p-HER2 (Tyr1248), p-p44/42 MAPK, p-Akt, p-JNK and p-p38 MAPK within 5-20 minutes, and BRET data indicate melittin sits within 10 nm of the receptor without occupying the EGF-binding site.",
+      "zh-TW": "蜂蜜蜂毒及其主要成分 melittin 藉干擾乳癌細胞細胞膜上的受體磷酸化，抑制 EGFR 與 HER2 的活化。免疫 blot 顯示在 5 至 20 分鐘內 p-EGFR（Tyr1068）、p-HER2（Tyr1248）、p-p44/42 MAPK、p-Akt、p-JNK 與 p-p38 MAPK 均被下調；BRET 數據則顯示 melittin 位於受體 10 nm 範圍內，但未占據 EGF 結合位。"
+    },
+    "confidence": 0.92,
+    "source_document": "_document_ - Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "ccf3a34296e8",
+    "subject": "melittin",
+    "predicate": "enhances",
+    "object": "docetaxel",
+    "context": {
+      "en-US": "Melittin and docetaxel showed strong synergistic interaction (combination indices below 1) in the murine p53-negative TNBC line T11, and combination treatment in a BALB/c allograft model gave superior tumor control than either agent alone, reducing proliferation (Ki-67) and raising TUNEL positivity. Melittin also reduced the immune-checkpoint protein PD-L1 in tumors, attenuating immune evasion.",
+      "zh-TW": "Melittin 與 docetaxel 在小鼠 p53 陰性的三陰性乳癌 T11 細胞中呈現強烈協同作用（組合指數低於 1），且在 BALB/c 同種移植模型中，併用比任一單獨用藥的腫瘤控制更佳，同時降低增殖（Ki-67）並提高 TUNEL 陽性率。Melittin 亦降低腫瘤中的免疫檢查點蛋白 PD-L1，減弱免疫逃脫。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "1d95cbdfdfe6",
+    "subject": "melittin",
+    "predicate": "binds",
+    "object": "TGF-β3",
+    "context": {
+      "en-US": "RGD1-melittin is a bifunctional peptide created by engineering an N-terminal alpha-helical RGD motif derived from TGF-β3 (HGRGDLGRLKK) onto melittin. The RGD motif engages αvβ6 and αvβ3 integrins overexpressed on breast cancer membranes and tumor vasculature, widening the therapeutic window between normal and TNBC cells (IC50 ratio 2.73 versus 1.76) without loss of potency, and confining melittin localization to the plasma membrane.",
+      "zh-TW": "RGD1-melittin 是將源自 TGF-β3（HGRGDLGRLKK）的 N 端 α 螺旋 RGD 模體接在 melittin 上所設計的雙功能胜肽。該 RGD 模體與乳癌細胞膜及腫瘤血管上過度表現的 αvβ6 與 αvβ3 integrins 結合，在不降低效力的前提下擴大正常細胞與三陰性乳癌之間的治療窗（IC50 比值 2.73 對 1.76），並使 melittin 的分布侷限於細胞膜。"
+    },
+    "confidence": 0.88,
+    "source_document": "_document_ - Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
+  },
+  {
+    "id": "82d974e202f9",
+    "subject": "siRNA",
+    "predicate": "operates_in",
+    "object": "RNA Interference",
+    "context": {
+      "en-US": "siRNA are 20-25 base-pair double-stranded RNA molecules that operate within the RNA interference pathway, where they guide degradation of complementary mRNA and thereby silence gene expression. Delivering siRNA is also a standard way to test gene function in cancer models before committing to a therapeutic target.",
+      "zh-TW": "siRNA 是約 20-25 鹼基對的雙股 RNA 分子，在 RNA Interference 路徑中作用，引導互補 mRNA 的降解，進而靜默基因表現。在癌症模型中遞送 siRNA，也是在投入治療標的前檢測基因功能的標準做法。"
+    },
+    "confidence": 0.9,
+    "source_document": "siRNA.md",
+    "created": "2026-09-29T14:40:23Z",
+    "updated": "2026-09-29T14:40:23Z"
   }
 ]
