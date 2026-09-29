@@ -40,7 +40,7 @@ Trafficking is not merely logistics. Disrupted trafficking sits upstream of seve
 
 - **Neurodegeneration** — defects in endolysosomal trafficking, including Rab and tethering components, impair autophagic flux and aggregate clearance in [[Parkinson's Disease]] and [[Alzheimer's Disease|ALzheimer's disease]].
 - **Autophagy** — autophagosome–lysosome fusion requires Rab7, HOPS, and [[Rubicon]]; blockade of this step produces cargo accumulation without increased autophagosome formation.
-- **Lysosomal storage** — [[Lysosomal Storage Diseases]] and [[Niemann-Pick disease]] are, mechanistically, trafficking and sorting defects as much as catabolic enzyme defects.
+- **Lysosomal storage** — [[Lysosomal Storage Diseases]] and [[Niemann-Pick disease|Niemann–Pick disease]] are, mechanistically, trafficking and sorting defects as much as catabolic enzyme defects.
 - **Immune signalling and pathogen entry** — [[Toll-like Receptor]] and [[NLRP3]] signalling depend on endosomal trafficking of signalling complexes, and pathogens including [[Legionella]] hijack the endosomal maturation machinery directly.
 - **Cancers and chemoresistance** — ABC transporters such as [[P-glycoprotein]] traffic from intracellular reservoirs to the plasma membrane, which is a trafficking event; and loss of apical polarity in carcinomas misroutes surface receptors.
 - **Aging** — trafficking efficiency declines with age, and the pool of "responsive" endosomes shrinks, contributing to reduced clearance of aggregated protein.
@@ -70,5 +70,5 @@ The discovery of the coat/tether/SNARE logic by Rothman, Schekman and Südhof is
 ## Linking Summary
 
 - New links added: [[COPII]], [[COPI]], [[Clathrin]], [[Dynamin]], [[Dynein]], [[Kinesin]], [[Myosin]], [[Miro]], [[CORVET]], [[HOPS]], [[STX17]], [[VAMP8]], [[Vps34]], [[PtdIns3P]], [[Rubicon]], [[RILP]], [[Rab8]], [[Legionella]], [[Lysosomal Storage Diseases]], [[Toll-like Receptor]], [[P-glycoprotein]].
-- Suggested notes to create: [[Calcium Ions]], [[Arf1]], [[Rab GTPase]], [[Caveolin]], [[Endosome]], [[AP2 complex]], [[Adaptor]], [[Secretory pathway]], [[Golgi apparatus]], [[TGN]], [[SNAP receptor]], [[Caveolin]].
+- Suggested notes to create: [[Niemann-Pick disease]], [[Calcium Ions]], [[Arf1]], [[Rab GTPase]], [[Caveolin]], [[Endosome]], [[AP2 complex]], [[Adaptor]], [[Secretory pathway]], [[Golgi apparatus]], [[TGN]], [[SNAP receptor]], [[Caveolin]].
 - Strong connections to strengthen: [[Mon1-Ccz1]] ↔ [[Rab7]], [[Rab5]] ↔ [[Rab7]], [[Vesicle Transport]] ↔ [[Membrane Trafficking]], [[Autophagy]] ↔ [[Rab7]] ↔ [[Rubicon]].

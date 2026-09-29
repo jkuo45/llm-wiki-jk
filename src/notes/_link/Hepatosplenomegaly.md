@@ -74,5 +74,5 @@ Splenic aspirate has the highest diagnostic yield; bone marrow aspirate is safer
 
 ## Linking Summary
 - New links added: [[Liver]], [[Leishmania]], [[CML]], [[Chronic Lymphocytic Leukemia]], [[Hepatocellular Carcinoma]], [[Epstein-Barr virus]], [[Anemia]], [[Thrombocytopenia]], [[Bone Marrow]]
-- Suggested notes to create: [[Malaria]], [[Portal hypertension]], [[Gaucher disease]], [[Hypersplenism]], [[Splenomegaly]], [[Hepatomegaly]], [[Sandfly]], [[Liposomal Amphotericin B]], [[Kupffer Cell]], [[Budd-Chiari Syndrome]], [[Schistosomiasis]], [[Sarcoidosis]], [[Amyloidosis]], [[Congestive Splenomegaly]], [[Sinusoidal Obstruction Syndrome]], [[Leishmania donovani]]
+- Suggested notes to create: [[Malaria]], [[Portal hypertension]], [[Gaucher disease]], [[Hypersplenism]], [[Splenomegaly]], [[Hepatomegaly]], [[Liposomal Amphotericin B]], [[Kupffer Cell]], [[Budd-Chiari Syndrome]], [[Schistosomiasis]], [[Sarcoidosis]], [[Amyloidosis]], [[Congestive Splenomegaly]], [[Sinusoidal Obstruction Syndrome]], [[Leishmania donovani]] — removed as already existing: Sandfly
 - Strong connections to strengthen: [[Hepatosplenomegaly]] ↔ [[Leishmaniasis]], [[Hepatosplenomegaly]] ↔ [[Portal hypertension]], [[Hepatosplenomegaly]] ↔ [[Malaria]]

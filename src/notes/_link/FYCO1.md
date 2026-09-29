@@ -129,5 +129,5 @@ lysosome hostage.
 ## Linking Summary
 
 - New links added: [[LC3]], [[Atg8]], [[Rab7]], [[KIF5B]], [[Autophagosome-lysosome fusion]], [[Lysosome]], [[Autophagosome]], [[Vps34]], [[TFEB]], [[TFE3]], [[Autophagy]], [[Lipophagy]], [[p62]], [[NBR1]], [[OPTN]], [[Rab5]], [[Salmonella enterica]], [[FAM134B]], [[LIR]], [[USP8]]
-- Suggested notes to create: [[LIR]], [[FYVE domain]], [[Kinesin-1]], [[Selective autophagy]], [[ER-phagy]], [[Xenophagy]], [[USP8]], [[FAM134B]], [[Lipid droplet]], [[Tollip]]
+- Suggested notes to create: [[LIR]], [[FYVE domain]], [[Kinesin-1]], [[ER-phagy]], [[Xenophagy]], [[USP8]], [[FAM134B]], [[Tollip]] — removed as already existing: Lipid Droplet, Selective Autophagy
 - Strong connections to strengthen: [[FYCO1]] <-> [[Autophagy]] (the transport-vs-fusion distinction should be stated in the autophagy note), [[FYCO1]] <-> [[LC3]] (LIR selectivity mechanism), [[FYCO1]] <-> [[KIF5B]] <-> [[Lysosomal Localization]]

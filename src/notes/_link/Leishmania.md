@@ -159,5 +159,5 @@ parasites.
 ## Linking Summary
 
 - New links added: [[Trypanosoma]], [[Nitric Oxide]], [[Polyamine Metabolism]], [[Complement]], [[Glutathione]], [[Dendritic Cell]], [[NF-kB]], [[Interferon]], [[iNOS]], [[Arginase]], [[LIPOXIN A4]], [[TLR1]]
-- Suggested notes to create: [[Arginine]], [[Trypanothione]], [[Polyamine Metabolism]], [[Eflornithine]], [[Sodium Stibogluconate]], [[Miltefosine]], [[Liposomal Amphotericin B]], [[Antimony]], [[Kinetoplast]], [[Promastigote]], [[Amastigote]], [[Metacyclic Promastigote]], [[Lipophosphoglycan]], [[Complement Receptor 1]]
+- Suggested notes to create: [[Trypanothione]], [[Polyamine Metabolism]], [[Eflornithine]], [[Sodium Stibogluconate]], [[Liposomal Amphotericin B]], [[Antimony]], [[Kinetoplast]], [[Promastigote]], [[Amastigote]], [[Metacyclic Promastigote]], [[Lipophosphoglycan]], [[Complement Receptor 1]] — removed as already existing: Arginine, Miltefosine
 - Strong connections to strengthen: [[Leishmania]] ↔ [[Arginine]], [[Leishmania]] ↔ [[Macrophage Polarization]], [[Leishmania]] ↔ [[Nitric Oxide]]

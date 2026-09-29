@@ -139,5 +139,5 @@ thrombocytopenia.
 ## Linking Summary
 
 - New links added: [[Enoxaparin]], [[Antithrombin III]], [[Thrombin]], [[Anticoagulant]], [[Fibrinogen]], [[Platelet]], [[Warfarin]], [[Protamine]], [[Pulmonary Embolism]], [[Stroke]], [[Myocardial infarction]], [[Heparin-Induced Thrombocytopenia]], [[Factor Xa]], [[Fresh frozen plasma]]
-- Suggested notes to create: [[Platelet factor 4]], [[Factor Xa]], [[Heparin-Induced Thrombocytopenia]], [[Heparin]], [[Direct oral anticoagulants]], [[Apixaban]], [[Rivaroxaban]], [[Fresh frozen plasma]], [[Protamine]], [[Deep Vein Thrombosis]], [[Venous Thromboembolism]], [[Ardeparin]]
+- Suggested notes to create: [[Platelet factor 4]], [[Factor Xa]], [[Heparin-Induced Thrombocytopenia]], [[Direct oral anticoagulants]], [[Apixaban]], [[Rivaroxaban]], [[Fresh frozen plasma]], [[Protamine]], [[Deep Vein Thrombosis]], [[Venous Thromboembolism]], [[Ardeparin]] — removed as already existing: Heparin
 - Strong connections to strengthen: [[Fondaparinux]] <-> [[Enoxaparin]] (the two indirect Xa inhibitors, differing only in chain length and source), [[Fondaparinux]] <-> [[Heparin]] (the same relationship one size up), [[Fondaparinux]] <-> [[Heparin-Induced Thrombocytopenia]] (the pharmacological argument belongs in the HIT note)

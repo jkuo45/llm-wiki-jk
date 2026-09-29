@@ -175,5 +175,5 @@ Pharmacology:
 ## Linking Summary
 
 - New links added: [[ACC1]], [[ACC2]], [[Malonyl-CoA]], [[CPT1]], [[Fatty acid]], [[Palmitate]], [[Triacylglycerol]], [[LXRα]], [[Liver X Receptor]], [[LXR]], [[SREBP1]], [[ChREBP]], [[mTORC1]], [[AMPK]], [[Autophagy]], [[Lipophagy]], [[Lysosome]], [[Insulin]], [[Glucagon]], [[Hepatocyte]], [[NAFLD]], [[Metabolic Syndrome]], [[Hyperlipidemia]], [[Cancer]], [[VEGFR]], [[PI3K-Akt Signaling]], [[Ubiquitin]], [[Ceramide]], [[Lipotoxicity]], [[Coenzyme A]], [[NADPH]], [[Acetyl-CoA]], [[Citrate]], [[Statins]], [[Denifanstat]]
-- Suggested notes to create: [[ACC2]], [[CPT1]], [[Palmitate]], [[Triacylglycerol]], [[Acyl Carrier Protein]], [[De novo lipogenesis]], [[FASN inhibitor]], [[Ceramide]], [[Coenzyme A]], [[Malonyl-CoA]]
+- Suggested notes to create: [[ACC2]], [[CPT1]], [[Palmitate]], [[Triacylglycerol]], [[Acyl Carrier Protein]], [[De novo lipogenesis]], [[FASN inhibitor]] — removed as already existing: Ceramide, Coenzyme A, Malonyl-CoA
 - Strong connections to strengthen: [[FASN]] <-> [[ACC1]] (substrate channel and the malonyl-CoA bridge), [[FASN]] <-> [[Autophagy]] (the lipid-droplet-to-mTORC1-to-SREBP1 loop), [[FASN]] <-> [[Cancer]] (FASN signalome, currently only in this note)

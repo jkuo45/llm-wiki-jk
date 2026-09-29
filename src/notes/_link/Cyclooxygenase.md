@@ -60,6 +60,6 @@ The single most consequential structural difference is **Ile523 in COX-1 versus 
 ## Linking Summary
 
 - New links added: [[Arachidonic acid]], [[Phospholipase A2]], [[Prostaglandins]], [[Prostacyclin]], [[Aspirin]], [[Inflammation]]
-- Suggested notes to create: [[COX-1]], [[COX-2]], [[Prostaglandin H2]], [[Thromboxane]], [[Leukotrienes]], [[Lipoxygenase]], [[Cyclooxygenase-2 Inhibitor]], [[Nonsteroidal Anti-Inflammatory Drugs]], [[Platelet aggregation]]
+- Suggested notes to create: [[COX-1]], [[Thromboxane]], [[Cyclooxygenase-2 Inhibitor]], [[Nonsteroidal Anti-Inflammatory Drugs]] — removed as already existing: COX-2, Leukotrienes, Lipoxygenase, Platelet aggregation, Prostaglandin H₂
 - Strong connections to strengthen: [[Cyclooxygenase]] ↔ [[Prostaglandins]], [[Cyclooxygenase]] ↔ [[Aspirin]], [[Cyclooxygenase]] ↔ [[Arachidonic acid]]
 - Merged into this note on 2026-09-29 from a duplicate `Cyclooxygenases.md`; wikilinks were redirected here and the aliases `Cyclooxygenases` and `COX` resolve the old spellings.

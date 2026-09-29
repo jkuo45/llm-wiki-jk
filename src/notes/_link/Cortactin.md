@@ -83,5 +83,5 @@ Cortactin is one of the best-characterised drivers of cancer cell invasion, and 
 ## Linking Summary
 
 - New links added: [[Arp2/3 complex]], [[Actin]], [[SRC kinase]], [[Cell Migration]], [[Matrix Metalloproteinase|MMPs]], [[Metastasis]], [[Plasma Membrane]], [[Epithelial-to-mesenchymal transition]], [[Dynamin]], [[VEGF]], [[PAK1]], [[Cyclin D1]], [[SIRT1]], [[HDAC6]], [[Alpha-Tubulin Acetyltransferase|ATAT1]], [[Sphingosine-1-phosphate]], [[c-Met]], [[ERK]], [[EGF|EGFR]], [[FER]]
-- Suggested notes to create: [[Arp2/3 complex]], [[Invadopodia]], [[Lamellipodia]], [[N-WASP]], [[WIP]], [[Dynamin]], [[PAK1]], [[PAK3]], [[FER]], [[11q13 Amplification]], [[Cytoskeleton]], [[Cell Junction]], [[Adherens Junction]]
+- Suggested notes to create: [[Arp2/3 complex]], [[Invadopodia]], [[Lamellipodia]], [[N-WASP]], [[WIP]], [[Dynamin]], [[PAK3]], [[FER]], [[11q13 Amplification]], [[Cell Junction]] — removed as already existing: Adherens Junction, Cytoskeleton, PAK1
 - Strong connections to strengthen: [[HDACs]] ↔ [[Cortactin]] (already mutual), [[Arp2/3 complex]] ↔ [[Actin]], [[Cortactin]] ↔ [[Cell Migration]], [[Cortactin]] ↔ [[Metastasis]]

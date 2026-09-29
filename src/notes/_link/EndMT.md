@@ -115,5 +115,5 @@ Where EndoMT is well-supported as a disease mechanism:
 ## Linking Summary
 
 - New links added: [[Endothelial-to-Mesenchymal Transition]], [[Endothelial Cells]], [[Snail]], [[Zeb1]], [[Klf4]], [[TGF-beta1]], [[SMAD2]], [[SMAD3]], [[Notch Signaling]], [[Notch]], [[Wnt]], [[FGF]], [[ACTA2]], [[PECAM1]], [[CDH5]], [[Collagen]], [[Cardiac Fibrosis]], [[Pulmonary Fibrosis]], [[Pulmonary Arterial Hypertension]], [[Atherosclerosis]], [[Fibrosis]], [[SIRT6]], [[GATA5]]
-- Suggested notes to create: [[Endocardial-to-Mesenchymal Transition]], [[Cardiac Development]], [[Valve Development]], [[GSK-3beta]], [[Arsenic Trioxide]], [[AKT]], [[FSP1]], [[Endocardial Cells]]
+- Suggested notes to create: [[Endocardial-to-Mesenchymal Transition]], [[Valve Development]], [[GSK-3beta]], [[Arsenic Trioxide]], [[Endocardial Cells]] — removed as already existing: Akt, Cardiac Development, FSP1
 - Strong connections to strengthen: [[EndMT]] <-> [[Endothelial-to-Mesenchymal Transition]] (merge candidate: consider folding the EndoMT note into this one, or making this note a short redirect once the endocardial note exists), [[EndMT]] <-> [[Cardiac Development]]

@@ -152,5 +152,5 @@ in the tool-compound stage.
 ## Linking Summary
 
 - New links added: [[N6-methyladenosine]], [[m6A Modification]], [[METTL3]], [[ALKBH5]], [[Methylation]], [[Obesity]], [[Type 2 Diabetes]], [[Insulin Resistance]], [[Brown Adipose Tissue]], [[Thermogenesis]], [[MYC]], [[FOXO]], [[Cancer]], [[Acute Myeloid Leukemia]], [[C/EBPZ]]
-- Suggested notes to create: [[FTO inhibitor]], [[METTL14]], [[m6Am]], [[YTHDF]], [[2-Oxoglutarate]], [[Iron]], [[CEBPD]], [[Meclofenamic acid]], [[NANOG]], [[HIF1A]]
+- Suggested notes to create: [[FTO inhibitor]], [[m6Am]], [[YTHDF]], [[2-Oxoglutarate]], [[CEBPD]], [[Meclofenamic acid]], [[HIF1A]] — removed as already existing: Iron, METTL14, Nanog
 - Strong connections to strengthen: [[FTO]] <-> [[m6A Modification]] (writer/eraser balance and substrate-preference controversy), [[FTO]] <-> [[Obesity]] (the rs9931289-CEBPZ enhancer mechanism belongs in both)

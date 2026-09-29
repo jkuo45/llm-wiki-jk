@@ -125,5 +125,5 @@ unfractionated heparin.
 ## Linking Summary
 
 - New links added: [[Antithrombin III]], [[Thrombin]], [[Protamine]], [[Fibrinogen]], [[Fondaparinux]], [[Warfarin]], [[Anticoagulant]], [[Platelet]], [[Pulmonary Embolism]], [[Stroke]], [[Heparin-Induced Thrombocytopenia]]
-- Suggested notes to create: [[Platelet factor 4]], [[Deep Vein Thrombosis]], [[Venous Thromboembolism]], [[Anti-Xa]], [[Protamine]], [[Acute Coronary Syndrome]], [[Dalteparin]], [[Low Molecular Weight Heparin]], [[HIT]]
+- Suggested notes to create: [[Platelet factor 4]], [[Deep Vein Thrombosis]], [[Venous Thromboembolism]], [[Anti-Xa]], [[Protamine]], [[Acute Coronary Syndrome]], [[Low Molecular Weight Heparin]], [[HIT]] — removed as already existing: Dalteparin
 - Strong connections to strengthen: [[Enoxaparin]] <-> [[Fondaparinux]] (head-to-head pharmacology and the HIT/eligibility trade-off), [[Enoxaparin]] <-> [[Heparin]] (chain length explains both the selectivity and the HIT gradient)

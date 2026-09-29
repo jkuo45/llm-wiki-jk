@@ -103,5 +103,5 @@ underlying lipid accumulation.
 ## Linking Summary
 
 - New links added: [[Lysosomal Acid Lipase]], [[Wolman Disease]], [[LipA]], [[Low-Density Lipoprotein]], [[Fibrosis]], [[Liver]], [[Lysosome]], [[Cholesterol]]
-- Suggested notes to create: [[LIPA]], [[Sebelipase Alfa]], [[Enzyme Replacement Therapy]], [[Adrenal Insufficiency]], [[Cholesteryl Esters]], [[Hyperlipidemia]], [[Xanthoma]]
+- Suggested notes to create: [[Sebelipase Alfa]], [[Enzyme Replacement Therapy]], [[Adrenal Insufficiency]], [[Cholesteryl Esters]], [[Xanthoma]] — removed as already existing: Hyperlipidemia, LipA
 - Strong connections to strengthen: [[CESD]] ↔ [[Lysosomal Acid Lipase]], [[CESD]] ↔ [[Wolman Disease]], [[CESD]] ↔ [[LipA]]

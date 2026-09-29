@@ -56,5 +56,5 @@ Pentamidine is a **multi-target** agent, and no single mechanism accounts for it
 ## Linking Summary
 
 - New links added: [[Leishmaniasis]], [[Leishmania]], [[Paromomycin]], [[ADP-ribosylation]], [[Acute Myeloid Leukemia]], [[Cell Membranes]], [[Amphotericin B]]
-- Suggested notes to create: [[Diminazene]], [[Pneumocystis jirovecii]], [[Pneumocystis jirovecii pneumonia]], [[Trypanosomiasis]], [[Mitochondrial DNA]], [[Kinetoplast]]
+- Suggested notes to create: [[Diminazene]], [[Pneumocystis jirovecii]], [[Pneumocystis jirovecii pneumonia]], [[Trypanosomiasis]], [[Kinetoplast]] — removed as already existing: Mitochondrial DNA
 - Strong connections to strengthen: [[Pentamidine]] ↔ [[Leishmaniasis]] (the leishmaniasis note should mark pentamidine as historical/second-line rather than implying current first-line use), [[Pentamidine]] ↔ [[PARP1]] (the cancer/aging side of this drug deserves its own treatment in the PARP note)

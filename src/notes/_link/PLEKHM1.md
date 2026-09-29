@@ -24,7 +24,7 @@ Human PLEKHM1 is 1056 aa and carries six annotated domains:
 - **PH domain 2** — engages the HOPS complex
 - **LIR (LC3-interacting region)** — a WxxFF-type motif that binds the LC3/GABARAP lipidation pocket on autophagosomal membranes
 - **SH3 domain** — binds dynamin-2, linking PLEKHM1 to the final scission step of late endosomal tubulation
-- **RUN domain 2** — engages the small GTPase [[Arl8b|ARL8B]] on lysosomes
+- **RUN domain 2** — engages the small GTPase [[ARL8B]] on lysosomes
 
 The architecture is a **four-way coincidence sensor**: PLEKHM1 tethers only where a Rab7-GTP-bearing membrane, an ARL8B-bearing lysosome, a HOPS complex, and an LC3-decorated membrane are all simultaneously present. This is why it localises so sharply to autophagosome–lysosome contact sites rather than coating either compartment.
 
@@ -63,6 +63,5 @@ In **osteoclasts**, PLEKHM1 is essential for the vesicular trafficking that buil
 ## Linking Summary
 
 - New links added: [[Rab7]], [[LC3]], [[Parkinson's Disease]], [[Alzheimer's Disease]], [[C9orf72]], [[VCP]], [[Autophagosome-lysosome fusion]], [[Autophagy]], [[Osteoclast]], [[Macrophage]], [[ORP1L]], [[LAMP1]], [[GABARAP]]
-- Linked but no note file yet: [[Arl8b]], [[Dynamin-2]]
-- Suggested notes to create: [[HOPS complex]], [[ARL8B]], [[Dynamin-2]], [[Osteolysis]], [[Lysosome]], [[Vesicle Transport]]
+- Suggested notes to create: [[HOPS complex]], [[ARL8B]], [[Dynamin-2]], [[Osteolysis]] — removed as already existing: Lysosome, Vesicle Transport
 - Strong connections to strengthen: [[PLEKHM1]] ↔ [[Autophagosome-lysosome fusion]] (the two notes should state the same tether-then-fuse ordering), [[PLEKHM1]] ↔ [[Rab7]]

@@ -59,5 +59,5 @@ GAG synthesis occurs in the Golgi. Sulfated chains are built on a primer (a xylo
 
 ## Linking Summary
 - New links added: [[Extracellular Matrix]], [[Basal Lamina]], [[FGF]], [[Matrix Metalloproteinases]], [[Mucopolysaccharidosis-IIIA]]
-- Suggested notes to create: [[Hyaluronan]], [[Hyaluronic Acid]], [[Chondroitin Sulfate]], [[Heparan Sulfate]], [[Keratan Sulfate]], [[Proteoglycan]], [[Aggrecan]], [[Hyaluronidase]], [[Mucopolysaccharidoses]], [[ADAMTS-4]], [[Perlecan]], [[Sulfation]], [[Antithrombin III]]
+- Suggested notes to create: [[Hyaluronan]], [[Hyaluronic Acid]], [[Chondroitin Sulfate]], [[Heparan Sulfate]], [[Keratan Sulfate]], [[Proteoglycan]], [[Aggrecan]], [[Hyaluronidase]], [[Mucopolysaccharidoses]], [[ADAMTS-4]], [[Perlecan]], [[Sulfation]] — removed as already existing: Antithrombin III
 - Strong connections to strengthen: [[Glycosaminoglycan]] ↔ [[Heparin]], [[Glycosaminoglycan]] ↔ [[FGF]], [[Glycosaminoglycan]] ↔ [[Mucopolysaccharidosis-IIIA]]

@@ -135,5 +135,5 @@ a ligand for that adhesion GPCR.
 ## Linking Summary
 
 - New links added: [[TGF-beta1]], [[SMAD3]], [[SMAD2]], [[SMAD4]], [[TGFBR1]], [[TGF-beta Receptor]], [[TIMP1]], [[Collagen]], [[Extracellular Matrix]], [[Vascular Ehlers-Danlos Syndrome]], [[Ehlers-Danlos Syndrome]], [[Platelet]], [[TGF-beta Signaling Pathway]], [[Matrix Metalloproteinases]], [[Wound Healing]], [[Fibrosis]], [[COL5A2]]
-- Suggested notes to create: [[COL1A1]], [[COL5A1]], [[Ehlers-Danlos Syndrome]], [[Vascular Ehlers-Danlos Syndrome]], [[Procollagen]], [[Tropocollagen]], [[Prolyl-4-Hydroxylase]], [[Lysyl Oxidase]], [[ADGRG1]], [[Aortic Dissection]]
+- Suggested notes to create: [[COL5A1]], [[Ehlers-Danlos Syndrome]], [[Vascular Ehlers-Danlos Syndrome]], [[Procollagen]], [[Tropocollagen]], [[Prolyl-4-Hydroxylase]], [[Lysyl Oxidase]], [[ADGRG1]], [[Aortic Dissection]] — removed as already existing: COL1A1
 - Strong connections to strengthen: [[COL3A1]] ↔ [[SMAD3]], [[COL3A1]] ↔ [[TGF-beta1]], [[COL3A1]] ↔ [[TIMP1]], [[COL3A1]] ↔ [[COL5A2]]

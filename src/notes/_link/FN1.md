@@ -143,5 +143,5 @@ matters.
 
 - New links added: [[Fibronectin]], [[Integrins]], [[ECM]], [[Extracellular Matrix]], [[Collagen]], [[Fibrinogen]], [[Heparin]], [[TGF-beta1]], [[SMAD3]], [[TIMP1]], [[ACTA2]], [[Cell Membranes]], [[Wnt]], [[BMP]], [[VEGFR]], [[Platelet]], [[Cardiac Fibrosis]], [[Pulmonary Fibrosis]], [[Idiopathic Pulmonary Fibrosis]], [[Tumor Microenvironment]], [[PI3K-Akt Signaling]], [[Serum Response Factor|SRF]]
 - Orphan link normalised: the RGD document was linked with a spurious colon; corrected to the exact filename stem.
-- Suggested notes to create: [[Extra domain A]], [[Integrin alpha5beta1]], [[Myocardin]], [[MRTF-A]], [[Serum Response Factor]], [[FAK]], [[EDB]]
+- Suggested notes to create: [[Extra domain A]], [[Integrin alpha5beta1]], [[Myocardin]], [[MRTF-A]], [[Serum Response Factor]], [[EDB]] — removed as already existing: FAK
 - Strong connections to strengthen: [[FN1]] <-> [[Fibronectin]] (near-duplicate pair: consider merging, keeping the FN1 file as the gene record and the fibronectin file as the protein record), [[FN1]] <-> [[TGF-beta1]] (the EDA splice switch is currently only in this note)

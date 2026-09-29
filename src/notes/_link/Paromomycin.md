@@ -55,5 +55,5 @@ Other class risks: nephrotoxicity (largely reversible), neuromuscular blockade (
 ## Linking Summary
 
 - New links added: [[Leishmaniasis]], [[Leishmania]], [[Cholesterol]], [[Multidrug Resistance]], [[Ivermectin]]
-- Suggested notes to create: [[Neomycin]], [[Aminoglycoside]], [[Ototoxicity]], [[Nephrotoxicity]], [[Miltefosine]], [[Amphotericin B]], [[Amoebiasis]], [[Giardia]]
+- Suggested notes to create: [[Neomycin]], [[Aminoglycoside]], [[Ototoxicity]], [[Nephrotoxicity]], [[Amoebiasis]], [[Giardia]] — removed as already existing: Amphotericin B, Miltefosine
 - Strong connections to strengthen: [[Paromomycin]] ↔ [[Leishmaniasis]] (the leishmaniasis note should distinguish paromomycin's parenteral systemic role from its unabsorbed luminal role), [[Paromomycin]] ↔ [[Aminoglycoside]]

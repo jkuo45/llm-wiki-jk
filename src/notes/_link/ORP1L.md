@@ -51,7 +51,7 @@ Because ORP1L couples ER and lysosomal sterol pools, its loss destabilises [[Lys
 ## Connections
 
 - [[PLEKHM1]] — PLEKHM1 is the downstream fusion effector that ORP1L's ER contact sites help recruit to Rab7-positive autophagosomes. Loss of ORP1L leaves autophagosomes peripheral and unprimed for PLEKHM1/HOPS-mediated fusion.
-- [[RAB7]] — ORP1L binds Rab7-GTP, which is how a sterol sensor gets positioned on late endosomes and autophagosomes at all. Rab7 is the shared anchor for both the ORP1L and RILP transport pathways.
+- [[Rab7]] — ORP1L binds Rab7-GTP, which is how a sterol sensor gets positioned on late endosomes and autophagosomes at all. Rab7 is the shared anchor for both the ORP1L and RILP transport pathways.
 - [[RILP]] — RILP and ORP1L are the two competing minus-end Rab7 effectors, one transporting along [[Microtubule|microtubules]] and the other anchoring to the ER. Han et al. (2024) report direct RILP–ORP1L interaction that competitively displaces the VAP-A contact site.
 - [[Cholesterol]] — the ORD domain binds free cholesterol as its regulatory ligand, making ORP1L a cholesterol-sensing switch rather than a passive transporter.
 - [[FYCO1]] — FYCO1 is the plus-end transport arm of lysosomal positioning; the existence of both arms is why the loss of one (ORP1L) only partially, not totally, disables positioning.
@@ -60,5 +60,5 @@ Because ORP1L couples ER and lysosomal sterol pools, its loss destabilises [[Lys
 ## Linking Summary
 
 - New links added: [[Oxysterols]], [[Rab7]], [[Cholesterol]], [[Microtubule]], [[Autophagy]], [[RILP]], [[FYCO1]], [[PLEKHM1]], [[ABCD1]], [[Lysosome]]
-- Suggested notes to create: [[HOPS complex]], [[VAP-A]], [[Phospholipid Transfer Protein]], [[PtdIns4P]], [[Gallstone Disease]], [[Autophagic Lysosome Reformation]]
-- Strong connections to strengthen: [[ORP1L]] ↔ [[PLEKHM1]] (recruitment order should be stated explicitly in both notes), [[ORP1L]] ↔ [[RAB7]]
+- Suggested notes to create: [[HOPS complex]], [[VAP-A]], [[Phospholipid Transfer Protein]], [[PtdIns4P]], [[Gallstone Disease]] — removed as already existing: Autophagic Lysosome Reformation
+- Strong connections to strengthen: [[ORP1L]] ↔ [[PLEKHM1]] (recruitment order should be stated explicitly in both notes), [[ORP1L]] ↔ [[Rab7]]

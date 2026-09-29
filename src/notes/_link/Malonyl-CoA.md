@@ -55,5 +55,5 @@ Malonyl-CoA is short-lived, compartmentalised and non-ionisable, so it is measur
 ## Linking Summary
 
 - New links added: [[Acetyl-CoA]], [[FASN]], [[AMPK]], [[Malonyl-CoA decarboxylase]], [[Insulin]], [[CPT1]], [[Ketogenesis]], [[Obesity]], [[Insulin Resistance]], [[NAFLD]], [[NASH]].
-- Suggested notes to create: [[CPT1]], [[Carnitine shuttle]], [[Fatty Acid Oxidation]], [[Palmitate]], [[Lipogenesis]].
+- Suggested notes to create: [[ACC2]], [[CPT1]], [[Carnitine shuttle]], [[Palmitate]], [[Lipogenesis]] — removed as already existing: Fatty acid oxidation
 - Strong connections to strengthen: [[ACC1]] ↔ [[AMPK]] (phosphorylation switch), [[Malonyl-CoA]] ↔ [[Insulin Resistance]] (obesity as chronic fed-like state).

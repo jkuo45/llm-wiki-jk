@@ -108,7 +108,7 @@ is markedly associated with advanced HIV.
   [[Kaposi sarcoma]], [[Lymphoma]], [[Cervical Cancer]], [[Mycobacterium]],
   [[Toxoplasma gondii]], [[Wasting]], [[Global Pandemic]], [[Lymphoma]],
   [[Scabies]]
-- Suggested notes to create: [[Acquired Immunodeficiency Syndrome]], [[Kaposi Sarcoma]],
+- Suggested notes to create: [[Acquired Immunodeficiency Syndrome]] — removed as already existing: Kaposi sarcoma
   [[Toxoplasma gondii]], [[Mycobacterium avium Complex]], [[Pneumocystis jirovecii
   Pneumonia]], [[CD4+ T Cell Depletion]], [[Immune Reconstitution Inflammatory Syndrome]]
 - Strong connections to strengthen: [[AIDS]] ↔ [[HIV-1]], [[AIDS]] ↔ [[CD4]]

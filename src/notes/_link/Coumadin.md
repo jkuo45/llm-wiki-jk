@@ -55,5 +55,5 @@ Coumadin persists in the clinical vocabulary for three reasons. It is the name u
 ## Linking Summary
 
 - New links added: [[Warfarin]], [[INR]], [[Vitamin K]], [[Vitamin K Epoxide Reductase]], [[VKORC1]], [[Anticoagulant]], [[Thromboembolism]], [[Protein C]], [[CYP2C9]], [[CYP3A4]], [[Vitamin K Epoxide Reductase Complex]], [[Deep vein thrombosis]], [[Atrial Fibrillation]]
-- Suggested notes to create: [[Deep vein thrombosis]], [[Atrial Fibrillation]], [[Pulmonary embolism]], [[Vitamin K Epoxide Reductase Complex]], [[Direct Oral Anticoagulants]], [[Karl Paul Link]], [[Sweet Clover Toxicity]], [[Warfarin Resistance]]
+- Suggested notes to create: [[Deep vein thrombosis]], [[Vitamin K Epoxide Reductase Complex]], [[Direct Oral Anticoagulants]], [[Karl Paul Link]], [[Sweet Clover Toxicity]], [[Warfarin Resistance]] — removed as already existing: Atrial Fibrillation, Pulmonary Embolism
 - Strong connections to strengthen: [[Warfarin]] ↔ [[Coumadin]] (already mutual), [[Coumadin]] ↔ [[INR]], [[Coumadin]] ↔ [[Vitamin K]]
