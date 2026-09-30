@@ -1,5 +1,5 @@
 {
-  "generated": "25_SEP_2026 09:49 PM PDT",
+  "generated": "29_SEP_2026 11:37 PM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -25,51 +25,239 @@
       }
     },
     {
-      "id": "task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026",
+      "id": "outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00",
       "langs": {
         "en-US": {
-          "title": "Mitochondrial Fission and the Fat-Soluble Vitamins: How Vitamins A and E Set the Fission–Fusion Balance",
-          "description": "Task output covering the Drp1 fission machinery and its redox/lipid control points, where vitamin E sits in the outer mitochondrial membrane and how it defends cardiolipin and Drp1 from peroxidation-driven hyperfragmentation, and the dual-edged role of vitamin A — retinol as a PKCδ/OXPHOS cofactor versus all-trans retinoic acid as an inducer of Drp1 and fission.",
-          "created": "2026-09-24",
-          "updated": "2026-09-24",
+          "title": "Outline - Adrenochrome (MB, AG) Protocol",
+          "description": "Protocol outline optimizing for mitohormesis and autophagy via methylene blue oxidative pulsing and aminoguanidine quinone/AGE control, mapping the MRR, GOPS, and SRAC strategies to compounds, mechanisms, dietary sources, and supporting stack components.",
+          "created": "2026-06-27",
+          "updated": "2026-09-29",
           "tags": [
-            "task-output",
-            "mitochondrial-fission",
-            "vitamin-a",
-            "vitamin-e",
-            "drp1",
-            "cardiolipin",
-            "mitophagy",
-            "redox-chemistry"
+            "outline",
+            "adrenochrome",
+            "mitohormesis",
+            "autophagy",
+            "methylene-blue",
+            "aminoguanidine"
           ],
-          "filename": "task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026.md",
-          "path": "tasks/en-US/task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026.md"
+          "filename": "outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md",
+          "path": "tasks/en-US/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md"
         },
         "zh-TW": {
-          "title": "粒線體分裂與脂溶性維生素：維生素 A 與 E 如何設定分裂–融合平衡",
-          "description": "任務輸出，涵蓋 DRP1 分裂機器與其氧化還原／脂質控制點、維生素 E 在粒線體外膜中的定位及其對心磷脂與 DRP1 的防護（避免過氧化驅動的過度分裂），以及維生素 A 的雙重角色——視黃醇作為 PKCδ/OXPHOS 輔因子，相對於全反式視黃酸誘導 DRP1 與分裂。",
-          "created": "2026-09-24",
-          "updated": "2026-09-24",
+          "title": "大綱 - Adrenochrome (MB, AG) 協定",
+          "description": "協定大綱，透過 methylene blue 氧化脈衝與 aminoguanidine 醌／AGE 控制來最佳化粒線體激效性與自噬，將 MRR、GOPS 與 SRAC 策略對應至化合物、機制、膳食來源與支援性堆疊成分。",
+          "created": "2026-06-27",
+          "updated": "2026-09-22",
           "tags": [
-            "task-output",
-            "mitochondrial-fission",
-            "vitamin-a",
-            "vitamin-e",
-            "drp1",
-            "cardiolipin",
-            "mitophagy",
-            "redox-chemistry"
+            "大綱",
+            "腎上腺素紅",
+            "粒線體毒物興奮作用",
+            "自噬",
+            "亞甲基藍",
+            "氨基胍"
           ],
-          "filename": "task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026.md",
-          "path": "tasks/zh-TW/task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026.md"
+          "filename": "outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md",
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md"
         }
       },
       "stats": {
-        "words": 2840,
+        "words": 3799,
         "images": 0,
-        "links": 69,
+        "links": 39,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026",
+      "langs": {
+        "en-US": {
+          "title": "Research Plan: Adrenochrome as a Sirtuin-Modulating Agent Within the Five-Pillar Longevity Framework",
+          "description": "Research plan proposing that controlled sub-toxic adrenochrome redox cycling generates discrete ROS signals intersecting SIRT1-SIRT7 biology at five mechanistic nodes, positioning adrenochrome derivatives as precision probes of mitochondrial redox state and sirtuin-mediated stress adaptation.",
+          "created": "2026-07-04",
+          "updated": "2026-09-29",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "sirtuins",
+            "redox-signaling",
+            "research-plan"
+          ],
+          "filename": "task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026.md",
+          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026.md"
+        },
+        "zh-TW": {
+          "title": "研究計畫：腎上腺素紅作為五支柱長壽框架內的沉默調節蛋白調節劑",
+          "description": "研究計畫提出，受控的亞毒性腎上腺素紅氧化還原循環會產生離散的 ROS 訊號，在五個機械節點處與 SIRT1-SIRT7 生物學交叉，將腎上腺素紅衍生物定位為粒線體氧化還原狀態和 Sirtuin 介導的壓力適應的精密探針。",
+          "created": "2026-07-04",
+          "updated": "2026-09-22",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "sirtuins",
+            "redox-signaling",
+            "research-plan"
+          ],
+          "filename": "task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026.md",
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026.md"
+        }
+      },
+      "stats": {
+        "words": 3379,
+        "images": 0,
+        "links": 373,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "task_output_biomarker_gate_biology_anatomy_review_29_Sep_2026",
+      "langs": {
+        "en-US": {
+          "title": "Biomarker Gates — Biological and Anatomical Mapping, with Structural Review of the Interactive Page",
+          "description": "Gate-by-gate review of the hard-coded individual biomarkers in web/public/pages/en-US/hard-coded-biomarker-gates.html. For each gate, the biological substrate, the anatomy in which it is expressed and acts, the pathway axis, and the therapeutic class it modifies (senolytic, senomorphic, mitohormetic, redox, pharmacokinetic, dietary). Closes with structural defects found in the page - panel-vs-tracker coverage mismatch, a clinically incorrect class assignment, non-partitioning gate categories, an inverted KL-VS frequency, and undefined anatomy topics the vault does not yet carry.",
+          "created": "2026-09-29",
+          "updated": "2026-09-29",
+          "tags": [
+            "task-output",
+            "biomarkers",
+            "pharmacogenomics",
+            "anatomy",
+            "cell-death",
+            "senescence",
+            "sirtuins",
+            "autophagy",
+            "oxidative-stress",
+            "mitohormesis"
+          ],
+          "filename": "task_output_biomarker_gate_biology_anatomy_review_29_Sep_2026.md",
+          "path": "tasks/en-US/task_output_biomarker_gate_biology_anatomy_review_29_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_biomarker_gate_biology_anatomy_review_29_Sep_2026.md"
+        }
+      },
+      "stats": {
+        "words": 6924,
+        "images": 0,
+        "links": 495,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "_document_ - combo therapy (MRR, SRAC, GOPS) gemini",
+      "langs": {
+        "en-US": {
+          "title": "outline_adrenochrome_combo_therapy_gemini",
+          "description": "Outline of the adrenochrome combination therapy program (MRR mitohormesis, SRAC senotherapeutics, GOPS glyco-oxidative proteostasis), covering each protocol's core agents, mechanisms, and design rationale",
+          "created": "2026-07-21",
+          "updated": "2026-09-29",
+          "tags": [
+            "gemini"
+          ],
+          "filename": "_document_ - combo therapy (MRR, SRAC, GOPS) gemini.md",
+          "path": "tasks/en-US/adrenochrome_mb_ag/_document_%20-%20combo%20therapy%20%28MRR%2C%20SRAC%2C%20GOPS%29%20gemini.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/_document_%20-%20combo%20therapy%20%28MRR%2C%20SRAC%2C%20GOPS%29%20gemini.md"
+        },
+        "zh-TW": {
+          "title": "outline_adrenochrome_combo_therapy_gemini",
+          "description": "腎上腺紅質組合療法計畫大綱（MRR 粒線體激效性、SRAC 衰老治療、GOPS 糖氧化蛋白穩態），涵蓋各協定的核心藥劑、機制與設計原理",
+          "created": "2026-07-21",
+          "updated": "2026-09-22",
+          "tags": [
+            "雙子座"
+          ],
+          "filename": "_document_ - combo therapy (MRR, SRAC, GOPS) gemini.md",
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20combo%20therapy%20%28MRR%2C%20SRAC%2C%20GOPS%29%20gemini.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20combo%20therapy%20%28MRR%2C%20SRAC%2C%20GOPS%29%20gemini.md"
+        }
+      },
+      "stats": {
+        "words": 2547,
+        "images": 0,
+        "links": 160,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "task_output_hardcoded_individual_biomarker_gates_26_Sep_2026",
+      "langs": {
+        "en-US": {
+          "title": "Hard-Coded Individual Biomarker Gates — Overlooked Therapies Hidden by Missing Genotypes",
+          "description": "Compiled inventory of discrete, individually-assigned, largely immutable biomarkers (genotypes, microbial metabotypes, karyotype, loss-of-function alleles) that gate responses to therapies tracked in the vault. Each entry states the discrete values, prevalence, the vault topic it modifies, the therapy that is being missed or actively harmed without the value, and the evidence strength. Includes the three biomarkers already modelled in the vault (COMT Val158Met, urolithin metabotype A/B/0, XX/XY) and ~25 candidates absent from the vault, plus a recommended minimum panel and a tiered evidence rubric.",
+          "created": "2026-09-26",
+          "updated": "2026-09-26",
+          "tags": [
+            "task-output",
+            "biomarkers",
+            "pharmacogenomics",
+            "precision-medicine",
+            "metabotypes",
+            "hormesis",
+            "comt",
+            "sirtuins",
+            "autophagy",
+            "oxidative-stress",
+            "senescence"
+          ],
+          "filename": "task_output_hardcoded_individual_biomarker_gates_26_Sep_2026.md",
+          "path": "tasks/en-US/task_output_hardcoded_individual_biomarker_gates_26_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_hardcoded_individual_biomarker_gates_26_Sep_2026.md"
+        }
+      },
+      "stats": {
+        "words": 6746,
+        "images": 0,
+        "links": 236,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "task_output_anti_ferroptosis_intake_schedule_26_Sep_2026",
+      "langs": {
+        "en-US": {
+          "title": "Anti-Ferroptosis Intake Schedule: Vitamin E, Vitamin A, and Red Palm Oil",
+          "description": "Wiki-coverage assessment of the Vitamin E / Tocopherols / Tocotrienols / Alpha-tocopherol / Lipid Peroxidation / Ferroptosis page cluster, identification of the missing Vitamin A and Red Palm Oil entities, and a practical food-first daily ingestion schedule designed to keep the radical-trapping antioxidant tier topped up without blunting mitohormesis.",
+          "created": "2026-09-26",
+          "updated": "2026-09-26",
+          "tags": [
+            "task-output",
+            "ferroptosis",
+            "lipid-peroxidation",
+            "vitamin-e",
+            "vitamin-a",
+            "tocotrienols",
+            "red-palm-oil",
+            "schedule"
+          ],
+          "filename": "task_output_anti_ferroptosis_intake_schedule_26_Sep_2026.md",
+          "path": "tasks/en-US/task_output_anti_ferroptosis_intake_schedule_26_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_anti_ferroptosis_intake_schedule_26_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "抗鐵死亡攝取時程：維生素 E、維生素 A 與紅棕櫚油",
+          "description": "對維生素 E／生育酚／生育三烯酚／α-生育酚／脂質過氧化／鐵死亡頁面群的 wiki 覆蓋評估、辨識出缺漏的維生素 A 與紅棕櫚油實體，以及一份以食物為先的實用每日攝取時程，設計目標是在不鈍化粒線體激效作用的前提下補滿自由基捕捉型抗氧化層。",
+          "created": "2026-09-26",
+          "updated": "2026-09-26",
+          "tags": [
+            "task-output",
+            "ferroptosis",
+            "lipid-peroxidation",
+            "vitamin-e",
+            "vitamin-a",
+            "tocotrienols",
+            "red-palm-oil",
+            "schedule"
+          ],
+          "filename": "task_output_anti_ferroptosis_intake_schedule_26_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_anti_ferroptosis_intake_schedule_26_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_anti_ferroptosis_intake_schedule_26_Sep_2026.md"
+        }
+      },
+      "stats": {
+        "words": 1524,
+        "images": 0,
+        "links": 36,
         "diagrams": 0
       }
     },
@@ -119,6 +307,55 @@
         "words": 3489,
         "images": 0,
         "links": 177,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026",
+      "langs": {
+        "en-US": {
+          "title": "Mitochondrial Fission and the Fat-Soluble Vitamins: How Vitamins A and E Set the Fission–Fusion Balance",
+          "description": "Task output covering the Drp1 fission machinery and its redox/lipid control points, where vitamin E sits in the outer mitochondrial membrane and how it defends cardiolipin and Drp1 from peroxidation-driven hyperfragmentation, and the dual-edged role of vitamin A — retinol as a PKCδ/OXPHOS cofactor versus all-trans retinoic acid as an inducer of Drp1 and fission.",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "task-output",
+            "mitochondrial-fission",
+            "vitamin-a",
+            "vitamin-e",
+            "drp1",
+            "cardiolipin",
+            "mitophagy",
+            "redox-chemistry"
+          ],
+          "filename": "task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026.md",
+          "path": "tasks/en-US/task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "粒線體分裂與脂溶性維生素：維生素 A 與 E 如何設定分裂–融合平衡",
+          "description": "任務輸出，涵蓋 DRP1 分裂機器與其氧化還原／脂質控制點、維生素 E 在粒線體外膜中的定位及其對心磷脂與 DRP1 的防護（避免過氧化驅動的過度分裂），以及維生素 A 的雙重角色——視黃醇作為 PKCδ/OXPHOS 輔因子，相對於全反式視黃酸誘導 DRP1 與分裂。",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "task-output",
+            "mitochondrial-fission",
+            "vitamin-a",
+            "vitamin-e",
+            "drp1",
+            "cardiolipin",
+            "mitophagy",
+            "redox-chemistry"
+          ],
+          "filename": "task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026.md"
+        }
+      },
+      "stats": {
+        "words": 2840,
+        "images": 0,
+        "links": 69,
         "diagrams": 0
       }
     },
@@ -759,86 +996,6 @@
       }
     },
     {
-      "id": "_document_ - combo therapy (MRR, SRAC, GOPS) gemini",
-      "langs": {
-        "en-US": {
-          "title": "outline_adrenochrome_combo_therapy_gemini",
-          "description": "Outline of the adrenochrome combination therapy program (MRR mitohormesis, SRAC senotherapeutics, GOPS glyco-oxidative proteostasis), covering each protocol's core agents, mechanisms, and design rationale",
-          "created": "2026-07-21",
-          "updated": "2026-08-23",
-          "tags": [
-            "gemini"
-          ],
-          "filename": "_document_ - combo therapy (MRR, SRAC, GOPS) gemini.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/_document_%20-%20combo%20therapy%20%28MRR%2C%20SRAC%2C%20GOPS%29%20gemini.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/_document_%20-%20combo%20therapy%20%28MRR%2C%20SRAC%2C%20GOPS%29%20gemini.md"
-        },
-        "zh-TW": {
-          "title": "outline_adrenochrome_combo_therapy_gemini",
-          "description": "腎上腺紅質組合療法計畫大綱（MRR 粒線體激效性、SRAC 衰老治療、GOPS 糖氧化蛋白穩態），涵蓋各協定的核心藥劑、機制與設計原理",
-          "created": "2026-07-21",
-          "updated": "2026-09-22",
-          "tags": [
-            "雙子座"
-          ],
-          "filename": "_document_ - combo therapy (MRR, SRAC, GOPS) gemini.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20combo%20therapy%20%28MRR%2C%20SRAC%2C%20GOPS%29%20gemini.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20combo%20therapy%20%28MRR%2C%20SRAC%2C%20GOPS%29%20gemini.md"
-        }
-      },
-      "stats": {
-        "words": 2546,
-        "images": 0,
-        "links": 160,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00",
-      "langs": {
-        "en-US": {
-          "title": "Outline - Adrenochrome (MB, AG) Protocol",
-          "description": "Protocol outline optimizing for mitohormesis and autophagy via methylene blue oxidative pulsing and aminoguanidine quinone/AGE control, mapping the MRR, GOPS, and SRAC strategies to compounds, mechanisms, dietary sources, and supporting stack components.",
-          "created": "2026-06-27",
-          "updated": "2026-08-23",
-          "tags": [
-            "outline",
-            "adrenochrome",
-            "mitohormesis",
-            "autophagy",
-            "methylene-blue",
-            "aminoguanidine"
-          ],
-          "filename": "outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md"
-        },
-        "zh-TW": {
-          "title": "大綱 - Adrenochrome (MB, AG) 協定",
-          "description": "協定大綱，透過 methylene blue 氧化脈衝與 aminoguanidine 醌／AGE 控制來最佳化粒線體激效性與自噬，將 MRR、GOPS 與 SRAC 策略對應至化合物、機制、膳食來源與支援性堆疊成分。",
-          "created": "2026-06-27",
-          "updated": "2026-09-22",
-          "tags": [
-            "大綱",
-            "腎上腺素紅",
-            "粒線體毒物興奮作用",
-            "自噬",
-            "亞甲基藍",
-            "氨基胍"
-          ],
-          "filename": "outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md"
-        }
-      },
-      "stats": {
-        "words": 3800,
-        "images": 0,
-        "links": 39,
-        "diagrams": 0
-      }
-    },
-    {
       "id": "task_output_SRAC_revision_log_08_JULY_2026",
       "langs": {
         "en-US": {
@@ -1091,49 +1248,6 @@
         "words": 1486,
         "images": 0,
         "links": 14,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026",
-      "langs": {
-        "en-US": {
-          "title": "Research Plan: Adrenochrome as a Sirtuin-Modulating Agent Within the Five-Pillar Longevity Framework",
-          "description": "Research plan proposing that controlled sub-toxic adrenochrome redox cycling generates discrete ROS signals intersecting SIRT1-SIRT7 biology at five mechanistic nodes, positioning adrenochrome derivatives as precision probes of mitochondrial redox state and sirtuin-mediated stress adaptation.",
-          "created": "2026-07-04",
-          "updated": "2026-08-23",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "sirtuins",
-            "redox-signaling",
-            "research-plan"
-          ],
-          "filename": "task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026.md"
-        },
-        "zh-TW": {
-          "title": "研究計畫：腎上腺素紅作為五支柱長壽框架內的沉默調節蛋白調節劑",
-          "description": "研究計畫提出，受控的亞毒性腎上腺素紅氧化還原循環會產生離散的 ROS 訊號，在五個機械節點處與 SIRT1-SIRT7 生物學交叉，將腎上腺素紅衍生物定位為粒線體氧化還原狀態和 Sirtuin 介導的壓力適應的精密探針。",
-          "created": "2026-07-04",
-          "updated": "2026-09-22",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "sirtuins",
-            "redox-signaling",
-            "research-plan"
-          ],
-          "filename": "task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026.md"
-        }
-      },
-      "stats": {
-        "words": 3379,
-        "images": 0,
-        "links": 373,
         "diagrams": 0
       }
     },
@@ -2039,37 +2153,6 @@
       }
     },
     {
-      "id": "task_output_sex_dimorphic_cell_death_05_Sep_2026",
-      "langs": {
-        "en-US": {
-          "title": "Sex-Dimorphic Cell Death: Estimates, Timing, Aging Context, Therapeutics",
-          "description": "Corrected premise of female-toward-apoptosis vs male-toward-parthanatos/PARP-1/AIF necrosis, with human post-MI apoptosis index, timing, aging convergence, and therapeutic status.",
-          "created": "2026-09-05",
-          "updated": "2026-09-05",
-          "tags": [],
-          "filename": "task_output_sex_dimorphic_cell_death_05_Sep_2026.md",
-          "path": "tasks/en-US/task_output_sex_dimorphic_cell_death_05_Sep_2026.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_sex_dimorphic_cell_death_05_Sep_2026.md"
-        },
-        "zh-TW": {
-          "title": "性別二型性細胞死亡：估計值、時序、老化脈絡與治療學",
-          "description": "女性走向凋亡、男性走向 parthanatos／PARP-1／AIF 壞死的修正前提，附人類心肌梗塞後凋亡指數、時序、老化趨同與治療現況。",
-          "created": "2026-09-05",
-          "updated": "2026-09-05",
-          "tags": [],
-          "filename": "task_output_sex_dimorphic_cell_death_05_Sep_2026.md",
-          "path": "tasks/zh-TW/task_output_sex_dimorphic_cell_death_05_Sep_2026.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_sex_dimorphic_cell_death_05_Sep_2026.md"
-        }
-      },
-      "stats": {
-        "words": 906,
-        "images": 0,
-        "links": 2,
-        "diagrams": 0
-      }
-    },
-    {
       "id": "task_output_cell_death_quadrants_controlled_inflammatory_lens_04_SEP_2026",
       "langs": {
         "en-US": {
@@ -2164,6 +2247,37 @@
         "words": 624,
         "images": 0,
         "links": 98,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "task_output_sex_dimorphic_cell_death_05_Sep_2026",
+      "langs": {
+        "en-US": {
+          "title": "Sex-Dimorphic Cell Death: Estimates, Timing, Aging Context, Therapeutics",
+          "description": "Corrected premise of female-toward-apoptosis vs male-toward-parthanatos/PARP-1/AIF necrosis, with human post-MI apoptosis index, timing, aging convergence, and therapeutic status.",
+          "created": "2026-09-05",
+          "updated": "2026-09-05",
+          "tags": [],
+          "filename": "task_output_sex_dimorphic_cell_death_05_Sep_2026.md",
+          "path": "tasks/en-US/task_output_sex_dimorphic_cell_death_05_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_sex_dimorphic_cell_death_05_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "性別二型性細胞死亡：估計值、時序、老化脈絡與治療學",
+          "description": "女性走向凋亡、男性走向 parthanatos／PARP-1／AIF 壞死的修正前提，附人類心肌梗塞後凋亡指數、時序、老化趨同與治療現況。",
+          "created": "2026-09-05",
+          "updated": "2026-09-05",
+          "tags": [],
+          "filename": "task_output_sex_dimorphic_cell_death_05_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_sex_dimorphic_cell_death_05_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_sex_dimorphic_cell_death_05_Sep_2026.md"
+        }
+      },
+      "stats": {
+        "words": 906,
+        "images": 0,
+        "links": 2,
         "diagrams": 0
       }
     },
@@ -2759,7 +2873,7 @@
         }
       },
       "stats": {
-        "words": 4846,
+        "words": 4845,
         "images": 0,
         "links": 268,
         "diagrams": 0
@@ -2996,6 +3110,92 @@
         "images": 0,
         "links": 136,
         "diagrams": 1
+      }
+    },
+    {
+      "id": "task_output_autophagy_vs_mitophagy_17_JUL_2026",
+      "langs": {
+        "en-US": {
+          "title": "Autophagy vs. Mitophagy — Mechanistic Differences, Fasting Cadence, and Lifestyle Adjustments",
+          "description": "Synthesis comparing autophagy and mitophagy mechanisms, their differential responses to fasting protocols, life-stage considerations, lifestyle phenotypes, and specific adjustments required for mitophagy beyond general autophagy.",
+          "created": "2026-07-21",
+          "updated": "2026-08-22",
+          "tags": [
+            "task-output",
+            "autophagy",
+            "mitophagy",
+            "fasting",
+            "exercise"
+          ],
+          "filename": "task_output_autophagy_vs_mitophagy_17_JUL_2026.md",
+          "path": "tasks/en-US/task_output_autophagy_vs_mitophagy_17_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_autophagy_vs_mitophagy_17_JUL_2026.md"
+        },
+        "zh-TW": {
+          "title": "自噬 vs. 粒線體自噬 — 機制差異、禁食節奏與生活型態調整",
+          "description": "比較自噬與粒線體自噬機制、其對禁食方案的差異性反應、生命階段考量、生活型態表型，以及超越一般自噬所需針對粒線體自噬的特定調整之綜述。",
+          "created": "2026-07-21",
+          "updated": "2026-08-22",
+          "tags": [
+            "task-output",
+            "autophagy",
+            "mitophagy",
+            "fasting",
+            "exercise"
+          ],
+          "filename": "task_output_autophagy_vs_mitophagy_17_JUL_2026.md",
+          "path": "tasks/zh-TW/task_output_autophagy_vs_mitophagy_17_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_autophagy_vs_mitophagy_17_JUL_2026.md"
+        }
+      },
+      "stats": {
+        "words": 1030,
+        "images": 0,
+        "links": 87,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "task_output_cr_vs_spermidine_autophagy_15_July_2026",
+      "langs": {
+        "en-US": {
+          "title": "Caloric Restriction vs Spermidine Diet Autophagy — Differences and Additive Effects",
+          "description": "Analysis of mechanistic differences between CR-induced autophagy and diet-based autophagy inducers (spermidine, rapamycin), with trace of additive effects from combination strategies",
+          "created": "2026-07-21",
+          "updated": "2026-08-22",
+          "tags": [
+            "autophagy",
+            "caloric-restriction",
+            "spermidine",
+            "rapamycin",
+            "longevity"
+          ],
+          "filename": "task_output_cr_vs_spermidine_autophagy_15_July_2026.md",
+          "path": "tasks/en-US/task_output_cr_vs_spermidine_autophagy_15_July_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_cr_vs_spermidine_autophagy_15_July_2026.md"
+        },
+        "zh-TW": {
+          "title": "熱量限制 vs 亞精胺飲食自噬 — 差異與疊加效應",
+          "description": "CR誘導自噬與飲食自噬誘導劑（亞精胺、雷帕黴素）之間的機制差異分析，以及組合策略疊加效應的追蹤",
+          "created": "2026-07-21",
+          "updated": "2026-08-22",
+          "tags": [
+            "autophagy",
+            "caloric-restriction",
+            "spermidine",
+            "rapamycin",
+            "longevity"
+          ],
+          "filename": "task_output_cr_vs_spermidine_autophagy_15_July_2026.md",
+          "path": "tasks/zh-TW/task_output_cr_vs_spermidine_autophagy_15_July_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_cr_vs_spermidine_autophagy_15_July_2026.md"
+        }
+      },
+      "stats": {
+        "words": 1790,
+        "images": 0,
+        "links": 16,
+        "diagrams": 0
       }
     },
     {
@@ -3394,49 +3594,6 @@
       }
     },
     {
-      "id": "task_output_autophagy_vs_mitophagy_17_JUL_2026",
-      "langs": {
-        "en-US": {
-          "title": "Autophagy vs. Mitophagy — Mechanistic Differences, Fasting Cadence, and Lifestyle Adjustments",
-          "description": "Synthesis comparing autophagy and mitophagy mechanisms, their differential responses to fasting protocols, life-stage considerations, lifestyle phenotypes, and specific adjustments required for mitophagy beyond general autophagy.",
-          "created": "2026-07-21",
-          "updated": "2026-08-22",
-          "tags": [
-            "task-output",
-            "autophagy",
-            "mitophagy",
-            "fasting",
-            "exercise"
-          ],
-          "filename": "task_output_autophagy_vs_mitophagy_17_JUL_2026.md",
-          "path": "tasks/en-US/task_output_autophagy_vs_mitophagy_17_JUL_2026.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_autophagy_vs_mitophagy_17_JUL_2026.md"
-        },
-        "zh-TW": {
-          "title": "自噬 vs. 粒線體自噬 — 機制差異、禁食節奏與生活型態調整",
-          "description": "比較自噬與粒線體自噬機制、其對禁食方案的差異性反應、生命階段考量、生活型態表型，以及超越一般自噬所需針對粒線體自噬的特定調整之綜述。",
-          "created": "2026-07-21",
-          "updated": "2026-08-22",
-          "tags": [
-            "task-output",
-            "autophagy",
-            "mitophagy",
-            "fasting",
-            "exercise"
-          ],
-          "filename": "task_output_autophagy_vs_mitophagy_17_JUL_2026.md",
-          "path": "tasks/zh-TW/task_output_autophagy_vs_mitophagy_17_JUL_2026.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_autophagy_vs_mitophagy_17_JUL_2026.md"
-        }
-      },
-      "stats": {
-        "words": 1031,
-        "images": 0,
-        "links": 87,
-        "diagrams": 0
-      }
-    },
-    {
       "id": "task_output_caspase_01_JUN_2026",
       "langs": {
         "en-US": {
@@ -3529,49 +3686,6 @@
         "words": 3214,
         "images": 0,
         "links": 180,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "task_output_cr_vs_spermidine_autophagy_15_July_2026",
-      "langs": {
-        "en-US": {
-          "title": "Caloric Restriction vs Spermidine Diet Autophagy — Differences and Additive Effects",
-          "description": "Analysis of mechanistic differences between CR-induced autophagy and diet-based autophagy inducers (spermidine, rapamycin), with trace of additive effects from combination strategies",
-          "created": "2026-07-21",
-          "updated": "2026-08-22",
-          "tags": [
-            "autophagy",
-            "caloric-restriction",
-            "spermidine",
-            "rapamycin",
-            "longevity"
-          ],
-          "filename": "task_output_cr_vs_spermidine_autophagy_15_July_2026.md",
-          "path": "tasks/en-US/task_output_cr_vs_spermidine_autophagy_15_July_2026.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_cr_vs_spermidine_autophagy_15_July_2026.md"
-        },
-        "zh-TW": {
-          "title": "熱量限制 vs 亞精胺飲食自噬 — 差異與疊加效應",
-          "description": "CR誘導自噬與飲食自噬誘導劑（亞精胺、雷帕黴素）之間的機制差異分析，以及組合策略疊加效應的追蹤",
-          "created": "2026-07-21",
-          "updated": "2026-08-22",
-          "tags": [
-            "autophagy",
-            "caloric-restriction",
-            "spermidine",
-            "rapamycin",
-            "longevity"
-          ],
-          "filename": "task_output_cr_vs_spermidine_autophagy_15_July_2026.md",
-          "path": "tasks/zh-TW/task_output_cr_vs_spermidine_autophagy_15_July_2026.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_cr_vs_spermidine_autophagy_15_July_2026.md"
-        }
-      },
-      "stats": {
-        "words": 1791,
-        "images": 0,
-        "links": 16,
         "diagrams": 0
       }
     },

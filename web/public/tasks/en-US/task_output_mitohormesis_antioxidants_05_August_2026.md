@@ -202,7 +202,7 @@ author: []
 ## Key wiki nodes and connections
 
 - [[Mitohormesis]] — the central concept; transient mitochondrial stress triggers adaptive response
-- [[Antioxidants]] — exogenous scavengers that can block the hormetic signal
+- [[Antioxidant]] — exogenous scavengers that can block the hormetic signal
 - [[N-Acetylcysteine]] — strongest direct evidence for blocking; also used therapeutically with timing
 - [[Vitamin C]] — strongest human evidence for exercise interference
 - [[Vitamin E]] — clinical trial failures; COMT genotype interaction
