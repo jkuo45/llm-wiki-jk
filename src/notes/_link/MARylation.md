@@ -169,5 +169,5 @@ Other established and emerging roles:
 ## Linking Summary
 
 - New links added: [[PARP1]], [[DNA Repair]], [[PARG]], [[PARP2]], [[NAD+]], [[Sirtuins]], [[Ubiquitin]], [[Apoptosis]], [[Necrosis]], [[Chromatin]], [[Innate Immunity]], [[Homologous Recombination]], [[BRCA1]], [[Histone]], [[NF-κB]], [[STAT3]], [[Nicotinamide Riboside]], [[AMPK]], [[Olaparib]], [[Pancreatic Cancer]], [[HRD]]
-- Suggested notes to create: [[Macrodomain]], [[PARP7]], [[PARP10]], [[PARP12]], [[PARP14]], [[PARP Inhibitor]], [[Niraparib]], [[Rucaparib]], [[Talazoparib]], [[Nsp3]], [[PARP1-Dependent Cell Death]], [[Homologous Recombination Deficiency]], [[NAD+ Salvage]], [[Adenosine Diphosphate Ribose]], [[G-protein]], [[NF-κB]], [[EF2]], [[POLQ]] — removed as already existing: PARG, PARP2, ovarian cancer
+- Suggested notes to create: [[Macrodomain]], [[PARP7]], [[PARP10]], [[PARP12]], [[PARP14]], [[PARP Inhibitor]], [[Niraparib]], [[Rucaparib]], [[Talazoparib]], [[Nsp3]], [[PARP1-Dependent Cell Death]], [[Homologous Recombination Deficiency]], [[NAD+ Salvage]], [[Adenosine Diphosphate Ribose]], [[G-protein]], [[EF2]], [[POLQ]] — removed as already existing: NF-κB
 - Strong connections to strengthen: [[MARylation]] ↔ [[ADP-ribosylation]], [[MARylation]] ↔ [[Viral Replication]], [[MARylation]] ↔ [[NAD+]]
