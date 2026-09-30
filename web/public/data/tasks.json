@@ -1,5 +1,5 @@
 {
-  "generated": "29_SEP_2026 11:37 PM PDT",
+  "generated": "29_SEP_2026 11:42 PM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -135,6 +135,27 @@
           "filename": "task_output_biomarker_gate_biology_anatomy_review_29_Sep_2026.md",
           "path": "tasks/en-US/task_output_biomarker_gate_biology_anatomy_review_29_Sep_2026.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_biomarker_gate_biology_anatomy_review_29_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "生物標記關卡 — 生物學與解剖學對應，附互動頁面的結構審查",
+          "description": "逐關卡審查 web/public/pages/en-US/hard-coded-biomarker-gates.html 中的硬編碼個體生物標記。每一關卡都說明其生物學基質、該值表現並執行作用所在的解剖構造、路徑軸，以及它所調節的療法類別（衰老溶解、衰老修飾、粒線體激效、氧化還原、藥動力學、飲食）。文末列出在該頁面中發現的結構缺陷——面板與追蹤器涵蓋範圍不一致、一項臨床上錯誤的類別歸屬、無法劃分的關卡類別、方向顛倒的 KL-VS 頻率，以及 vault 尚未承載的未定義解剖主題。",
+          "created": "2026-09-29",
+          "updated": "2026-09-29",
+          "tags": [
+            "task-output",
+            "biomarkers",
+            "pharmacogenomics",
+            "anatomy",
+            "cell-death",
+            "senescence",
+            "sirtuins",
+            "autophagy",
+            "oxidative-stress",
+            "mitohormesis"
+          ],
+          "filename": "task_output_biomarker_gate_biology_anatomy_review_29_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_biomarker_gate_biology_anatomy_review_29_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_biomarker_gate_biology_anatomy_review_29_Sep_2026.md"
         }
       },
       "stats": {
@@ -203,6 +224,28 @@
           "filename": "task_output_hardcoded_individual_biomarker_gates_26_Sep_2026.md",
           "path": "tasks/en-US/task_output_hardcoded_individual_biomarker_gates_26_Sep_2026.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_hardcoded_individual_biomarker_gates_26_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "硬編碼的個體生物標記關卡 — 被缺失基因型掩蓋的、遭忽視的療法",
+          "description": "彙整那些離散、個體指派且大致不可變的生物標記（基因型、微生物代謝型、核型、功能缺失等位基因），它們決定了 vault 中追蹤的各項療法的反應。每筆條目陳述其離散取值、盛行率、所調節的 vault 主題、缺少該值時被錯失或反而受害的療法，以及證據強度。包含 vault 中已建模的三個生物標記（COMT Val158Met、尿石素代謝型 A/B/0、XX/XY）與約 25 個 vault 中缺席的候選，另附建議的最小檢測組合與分級證據評分準則。",
+          "created": "2026-09-26",
+          "updated": "2026-09-26",
+          "tags": [
+            "task-output",
+            "biomarkers",
+            "pharmacogenomics",
+            "precision-medicine",
+            "metabotypes",
+            "hormesis",
+            "comt",
+            "sirtuins",
+            "autophagy",
+            "oxidative-stress",
+            "senescence"
+          ],
+          "filename": "task_output_hardcoded_individual_biomarker_gates_26_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_hardcoded_individual_biomarker_gates_26_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_hardcoded_individual_biomarker_gates_26_Sep_2026.md"
         }
       },
       "stats": {
