@@ -101,9 +101,6 @@ AIF 含有 N 端粒線體靶向序列、一個與氧化還原酶相關的中央�
 - 應強化的重點連結：
     - [[Apoptosis-Inducing Factor]] ↔ [[FSP1]]
     - [[Apoptosis-Inducing Factor]] ↔ [[Apoptosis]]
-
-## Linking Summary（自 AIF.md 整併）
-
 - 新增連結：[[Apoptosis]]、[[Intrinsic Pathway]]、[[Cell Death]]、[[chromatin condensation]]、[[Cyclophilin A]]、[[Oxidative Stress]]、[[DNA]]、[[IAPs]]、[[Chemotherapy]]、[[Mitochondrial Respiration]]
 - 建議建立的新實體註記：[[Cyclophilin A]]、[[AIFM1]]、[[caspase-independent cell death]]
 - 應強化的重點連結：[[Apoptosis-Inducing Factor|AIF]] ↔ [[Intrinsic Pathway]]、[[Apoptosis-Inducing Factor|AIF]] ↔ [[Oxidative Stress]]

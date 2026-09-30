@@ -7,18 +7,18 @@
 | :--- | :--- | :---: | :---: | :---: | :---: |
 | [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 29_SEP_2026 | 33 | 1973 | 1,316,664 | 16.84 MB |
 | [adrenochrome](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 29_SEP_2026 | 19 | 256 | 199,393 | 2.63 MB |
-| [autophagy](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 29_SEP_2026 | 12 | 226 | 181,709 | 1.70 MB |
-| [cancer](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 29_SEP_2026 | 11 | 268 | 243,633 | 2.89 MB |
+| [autophagy](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 29_SEP_2026 | 12 | 226 | 179,506 | 1.68 MB |
+| [cancer](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 29_SEP_2026 | 11 | 268 | 242,102 | 2.87 MB |
 | [cell-death](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cell-death) [[src/notes/cell-death/README\|wiki]] | 29_SEP_2026 | 10 | 84 | 94,471 | 1.05 MB |
 | [comt](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/comt) [[src/notes/comt/README\|wiki]] | 29_SEP_2026 | 2 | 44 | 27,069 | 0.53 MB |
 | [epigenetics](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]] | 29_SEP_2026 | 9 | 210 | 203,261 | 2.20 MB |
 | [hormesis](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/hormesis) [[src/notes/hormesis/README\|wiki]] | 29_SEP_2026 | 7 | 15 | 68,027 | 0.62 MB |
 | [neuromelanin](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/neuromelanin) [[src/notes/neuromelanin/README\|wiki]] | 29_SEP_2026 | 2 | 90 | 63,575 | 0.79 MB |
 | [oxidative-stress](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/oxidative-stress) [[src/notes/oxidative-stress/README\|wiki]] | 29_SEP_2026 | 1 | 100 | 87,379 | 1.13 MB |
-| [senescence](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 29_SEP_2026 | 16 | 66 | 157,142 | 2.25 MB |
-| [sirtuins](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 29_SEP_2026 | 20 | 173 | 315,242 | 3.98 MB |
+| [senescence](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 29_SEP_2026 | 16 | 66 | 156,805 | 2.24 MB |
+| [sirtuins](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 29_SEP_2026 | 20 | 173 | 314,559 | 3.98 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 29_SEP_2026 | **142** | **3505** | **2,957,565** | **36.61 MB** |
+| **subtotal** | 29_SEP_2026 | **142** | **3505** | **2,952,811** | **36.57 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***

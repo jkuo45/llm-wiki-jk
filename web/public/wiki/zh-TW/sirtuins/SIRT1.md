@@ -14,11 +14,7 @@ tags:
 
 # SIRT1
 
-## 來自 [[SIRT1]]
-
-# Sirt1
-
-**Sirt1** 是一種[[NAD+|NAD^+]]-依賴性第 III 類組蛋白去乙醯化酶（sirtuin），也是[[Sirtuins]]家族中被研究最廣泛的成員。它在消耗[[NAD+|NAD^+]]的反應中，透過去乙醯化組蛋白與非組蛋白受質，將細胞能量狀態與染色質調節、壓力抗性及代謝恆定聯繫起來。
+**SIRT1**（Sirtuin 1，又稱 SIR2α）是研究最廣泛的哺乳動物 sirtuin，也是[[Sirtuins]]家族中被研究最廣泛的成員——一種第 III 類 NAD⁺-依賴性組蛋白去乙醯化酶，也是酵母[[Sir2 (yeast)|Sir2]]最接近的哺乳動物同源物。它與酵母 Sir2 與 Hst1、_C. elegans_ SIR-2.1 及 _D. melanogaster_ D.mel1 同屬系統發生分類 Class Ia。SIRT1 主要位於細胞核，另有部分細胞質功能，且主要與常染色質結合。它在消耗[[NAD+|NAD^+]]的反應中，透過去乙醯化組蛋白與非組蛋白受質，將細胞能量狀態與染色質調節、壓力抗性及代謝恆定聯繫起來。
 
 > [!info] 哺乳動物訊號通路角色（見綜述表 3）
 > 依哺乳動物 sirtuin 訊號通路調查，SIRT1 透過**延長壽命、DNA 修復、細胞週期停滯與細胞衰老**在老化中發揮作用。正向通路調節因子包括[[eNOS]]、[[Erβ]]與[[FOXO3]]；負向調節因子包括[[PAI-1]]、[[p53]]、[[p16INK4a]]、[[NF-κB]]、[[p66Shc]]、[[LKB1]]、[[Cyclin D1]]以及[[mTOR]]/S6K 通路。
@@ -46,10 +42,6 @@ Sirt1 水平在多種組織中隨年齡下降，與[[NAD+|NAD^+]]耗竭同時發
 - **測定：** Sirt1 活性以螢光去乙醯化測定（如 Fluor de Lys 平台）或以[[HPLC]]監測 NAD^+ 消耗來測量。
 - **模型：** Sirt1 全身性敲除小鼠圍產期致死；代謝組織（肝臟、肌肉、脂肪）與腦的條件性敲除被廣泛使用。
 - **介入：** [[Nicotinamide Riboside]]與[[Nicotinamide Mononucleotide]]可提升 NAD^+ 水平，其 Sirt1 依賴性益處正在臨床試驗中。
-
-# SIRT1
-
-**SIRT1**（Sirtuin 1，又稱 SIR2α）是研究最廣泛的哺乳動物 sirtuin，一種第 III 類 NAD⁺-依賴性組蛋白去乙醯化酶，也是酵母[[Sir2 (yeast)|Sir2]]最接近的哺乳動物同源物。它與酵母 Sir2 與 Hst1、_C. elegans_ SIR-2.1 及 _D. melanogaster_ D.mel1 同屬系統發生分類 Class Ia。SIRT1 主要位於細胞核，另有部分細胞質功能，且主要與常染色質結合。
 
 ## 酵素活性
 
@@ -240,183 +232,20 @@ Giblin、Skinner 與 Lombard 的 *Trends in Genetics* 綜述（[[_document_ - Si
 
 - La Ribonucleoprotein 7 活化抑制 p53 與 NF-κB（p65）轉錄活性 → 改善細胞衰老；DNA 損傷時的染色質重新分佈促進 DNA 修復與基因體穩定性，抑制年齡依賴的轉錄變化。
 
-## 文件
-
-提及此實體的文件清單
-
-- [[_document_ - Sirtuins Guardians of Mammalian Healthspan|Sirtuins: Guardians of Mammalian Healthspan (Giblin et al., 2014)]]
-  - 關於 SIRT1 作為哺乳動物健康壽命守護者的綜述：BRASTO 腦特異性過度表達經下視丘 OX2R 使壽命延長約 11%；SIRT1 減輕 AD/PD/HD、代謝功能障礙、發炎與心臟肥大；NAD+ 下降限制 SIRT1/TFAM 功能。
-
-- mitohormesis
-  - 通路活化：此「氧化脈衝」活化 NRF2/抗氧化反應元件的抗氧化反應，並經 SIRT1/AMPK 軸刺激 PGC1-α（由 Nicotinamide Riboside/Nicotinamide Mononucleotide 預先啟動）。
-
-- [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
-  - 目前已發現兩種可乙醯化 TFEB 的酵素，包括 GCN5 \[\] 與 ACAT1 \[, \]，以及兩種可去乙醯化 TFEB 的酵素，包括 SIRT1 \[, \] 與 HDACs \[\]。
-
-- [[_document_ - Kinase|Kinase]]
-  - ion | 29945972 | | K116 | 乙醯化 | ACAT1 | 阻礙 TFEB 與 DNA 結合 | 30059277 | | K116 | 去乙醯化 | SIRT1 | 增強轉錄活性 | 27209302 | | K91, K103 and K430 | A
-
-- [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
-  - 體外分析顯示，在熱量限制條件下培養乳癌與 HCT116 細胞，會導致蛋白激酶 CK2（同工酶 CK2α 與 CK2β）、SIRT1 與磷酸化 AMPK 的上調與活化 \[\]。
-
-- [[_document_ - Epigenetic changes during aging and their reprogramming potential|Epigenetic changes during aging and their reprogramming potential]]
-  - 「老化由表觀遺傳變化造成」的第一條線索來自此發現：一個名為沉默資訊調節因子 SIR2 的酵母基因突變，經將 NAD + -依賴性 SIRT1 組蛋白去乙醯化酶重新定位至 DNA 區域而延長壽命 ...
-
-- [[_document_ - xenohormesis, mitohormesis|xenohormesis, mitohormesis]]
-  - 動物細胞中的標的通路：這些分子與高度保守的存活與長壽通路交互作用，這些通路調節細胞維護優先於生殖：- Sirtuins（尤其是 SIRT1）：在 DNA 修復、粒線體...
-
-- [[_document_ - The Sirtuin System The Holy Grail of Resveratrol?|The Sirtuin System The Holy Grail of Resveratrol?]]
-  - 近期研究分析顯示，白藜蘆醇是蛋白質去乙醯化酶 SIRT1 基因的已知活化劑，被認為經由改變基因表現與調節大量...介導抗增殖與抗發炎活性
-
-- [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
-  - Sirtuins 總覽 Sirtuins（SIRT1–SIRT7）是人類中一組七個 NAD+-依賴性酵素（第 III 類組蛋白修飾／去醯基酶）。
-
-- [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
-  - 白藜蘆醇、Sirtuins 與膳食來源 白藜蘆醇與 SIRT1 白藜蘆醇（存在於葡萄、莓果與紅酒中的天然多酚化合物）與 SIRT1（Sirtuin 1，NAD+-依賴性去乙醯化酶）之間的交互作用，是研究最為透徹的...
-
-- [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
-  - 在本綜述中，我們描述目前對七種哺乳動物 sirtuin（SIRT1–SIRT7）生物功能的理解，並討論它們作為熱量保護介導因子以及延緩與治療人類...的藥物標的的潛力
-
-- [[_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review|sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review]]
-  - 目前已鑑定出總共七個人類 sirtuin，即 SIRT1、SIRT2、SIRT3、SIRT4、SIRT5、SIRT6 與 SIRT7。
-
-- [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
-  - 目前已鑑定出酵母 Sir2 (yeast) 的七個哺乳動物同源物，命名為 SIRT1 至 SIRT7。越來越多證據顯示 SIRT 家族七個成員在健康與疾病狀態中扮演至關重要的角色。
-
-- [[_document_ - SIRT1 Protein roles at the nexus of health, disease, and therapeutics|SIRT1: Protein Roles at the Nexus (Chaqour, 2026)]]
-  - Chaqour（2026）將 SIRT1 定位為視情境而定的「變形者」，透過去乙醯化 >40 種受質，橫跨心血管、代謝、神經血管與致癌領域，聯結代謝、壓力與疾病。
-
-  - [[_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis|Sirtuin Network (Szczęsny-Małysiak et al., 2026)]]
-
-- [[_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets|Rejuvenating Sirtuins: The Rise of a New Family of Cancer Drug Targets (Bruzzone et al., 2013)]]
-  - 綜述 SIRT1 的癌症雙重角色：去乙醯化並抑制 NF-κB 與 β-Catenin（腫瘤抑制），卻使 p53 與促凋亡 FOXO 因子失活（促癌）。推斷 SIRT1 抑制（如 EX-527、sirtinol、cambinol、tenovins）在多種情境下具抗癌作用，而白藜蘆醇等 STACs 與 SRT 化合物可能經 cAMP–Epac1–AMPK 軸間接作用。
-
- - [[_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases|Sirtuins and their Biological Relevance in Aging and Age-Related Diseases]]
-  - 綜述調查哺乳動物 sirtuin 訊號通路（表 3）：SIRT1 透過延長壽命、DNA 修復、細胞週期停滯與細胞衰老在老化中發揮作用；受 eNOS、Erβ、FOXO3 正向調節，受 PAI-1、p53、p16INK4a、NF-κB、p66Shc、LKB1、Cyclin D1 及 mTOR/S6K 負向調節。
-
-- [[_document_ - Sirtuins, a promising target in slowing down the ageing process|Sirtuins, a promising target in slowing down the ageing process]]
-  - 綜述（Grabowska et al., Biogerontology 2017）詳述 SIRT1 對 p53（K320/K373/K382）、NBS1、XPA 與 LKB1 的去乙醯化，p53–miR-34a–SIRT1 迴路，P66shc 抑制，以及 SIRT1 作為衰老標記。
-
-- [[_document_ - Caspase-mediated changes in Sir2alpha during apoptosis|Caspase-mediated changes in Sir2α during apoptosis (Ohsawa & Miura, FEBS Lett 2006)]]
-  - 關鍵證據顯示 Caspase-9 與 Caspase-3 直接切割 SIRT1（Sir2α），並在凋亡期間使其從細胞核→細胞質重新定位；可被顯性負性 caspase-9 或 Bcl-xL 阻斷。
-
-- [[_document_ - Post-translational Modification in Control of SIRT1 Stability during DNA Damage Response|SIRT1 stability in the DNA damage response (Ouyang et al., IJBS 2022)]]
-  - 嚴重 DNA 損傷下，C 端 caspase 於 DEPDVP(704–709) 的切割，加上[[KAP1|TRIM28]]介導的多聚泛素化／降解；ATM–TRIM28–SIRT1 軸上增強 DNA 損傷誘導細胞死亡的交互翻譯後修飾。
-
-- [[_document_ - A Biotin Switch-Based Proteomics Approach Identifies 14-3-3zeta as a Target of Sirt1 in the Metabolic Regulation of Caspase-2|SIRT1–14-3-3ζ metabolic regulation of caspase-2 (Andersen et al., Mol Cell 2011)]]
-  - SIRT1 去乙醯化 14-3-3ζ（K49）以維持 caspase-2 抑制；PPP/G6P 通量閘控凋亡敏感性；SIRT1 抑制使乳癌腫瘤細胞對 caspase-2 依賴性死亡與 paclitaxel 敏感化。
-
-- [[_document_ - Sirt1 Regulates Aging and Resistance to Oxidative Stress in the Heart|Cardiac SIRT1 dose-response (Alcendor et al., Circ Res 2007)]]
-  - 原始體內研究：心臟特異性 Tg-Sirt1 具 2.5×/7.5×（抗老化、氧化壓力抗性）與 12.5×（心肌病）心臟 SIRT1。中等劑量誘導 FoxO1a 依賴的過氧化氫酶並抵抗百草枯氧化損傷；高劑量抑制 PGC-1α、粒線體生成、ATP，並可能耗竭 NAD+。典型的心臟毒物興奮劑量窗口。
-
-## 連結
-
-- [[Autophagy]] — SIRT1 經 FOXO3a、TFEB 與 Atg 機制去乙醯化，是自噬的核心活化因子
-- [[mTORC1]] — SIRT1 的上游；mTOR 抑制自噬並間接抑制 SIRT1
-- [[NAMPT]] — 受 AMPK 活化的限速 NAD+ 補救酵素，閘控 SIRT1 活性
-- [[CD38]] — 消耗 NAD+，對抗 SIRT1 活化
-- [[TFEB]] — 被 SIRT1 去乙醯化（K116）以驅動 CLEAR 自噬／溶酶體程式
-- [[FOXO3a]] — 被 SIRT1 去乙醯化以誘導 LC3B、BNIP3、GABARAPL1 與抗氧化基因
-- [[Beclin1]]、[[Atg5]]、[[Atg7]]、[[LC3B]]、[[BNIP3]]、[[GABARAPL1]] — 下游自噬效應因子
-- [[Sir2 (yeast)]] — 演化上的祖先；SIRT1 是最接近的哺乳動物同源物
-- [[NAD+]] — 去乙醯化酶活性的必需輔受質
-- [[OAADPr]] — SIRT1 催化去乙醯化的獨特副產物
-- [[p53]] — 主要調節標的；SIRT1 去乙醯化並抑制 p53 介導的凋亡
-- [[PGC-1α]] — SIRT1 在代謝與神經保護中的下游效應因子
-- [[Resveratrol]] — 藥理活化劑（STAC）
-- [[Caloric Restriction]] — SIRT1 被認為是 CR 依賴性長壽益處的介導因子
-- [[SIRT2]] — 第 I 類 sirtuin 家族成員；兩者皆具去乙醯化酶與 ADP-核糖基轉移酶活性
-- [[SIRT3]] — 粒線體對應物；兩者皆去乙醯化 AceCS 同工酶（胞質 vs. 粒線體）
-- [[FoxO1]] / [[FOXO3a]] / FOXO4 — 受 SIRT1 去乙醯化調節的叉頭轉錄因子
-- **[[Sirtuins]]**：SIRT1 所屬的蛋白質家族。
-- **[[Aging]]**：SIRT1 是老化過程的核心調節者。
-- [[BMAL1]]: SIRT1 去乙醯化 BMAL1 以閘控晝夜 NAD+ 震盪。
-- [[Trimethylamine N-oxide]]: SIRT1 減輕 TMAO 驅動的血管發炎。
-- [[STACs]]: STACs（白藜蘆醇、SRT2104、SRT1720、SRT1460、SRT2183）活化 SIRT1。
-- [[β-Catenin]]: SIRT1 去乙醯化 β-Catenin，抑制其轉錄活性與細胞增殖（腫瘤抑制分支）。
-- [[NF-κB]]: SIRT1 去乙醯化 RelA/p65，抑制 NF-κB 轉錄（腫瘤抑制分支）。
-- [[EX-527]]: 選擇性藥理 SIRT1 抑制劑，用於探討癌細胞中 SIRT1 的致癌分支。
-- [[BNIP3]]: 經 FOXO3a 去乙醯化在 SIRT1 下游被誘導；形成 NAD+ → SIRT1 → FOXO3a → BNIP3 線粒體自噬軸
-- [[BNIP3L|NIX]]: SIRT1/FOXO3a 軸誘導 BNIP3L 表現；HIF1A 亦反式活化 BNIP3L
-- [[HIF-1α]]: 經共同鄰居（Autophagy、Mitohormesis）與 SIRT1 訊號匯合；NAD+ 下降抑制 SIRT1 並損害 HIF1A 驅動的線粒體自噬
-- [[OX2R]]: SIRT1 經 NKX2-1 在下視丘上調的腦特異性受體；介導 BRASTO 壽命表型
-- [[ADAM10]]: 經 SIRT1→RARβ 活化的 α-分泌酶；使 APP 處理偏離 β-澱粉樣蛋白
-- [[TFAM]]: SIRT1 依賴的表達維持 mtDNA 基因表現；受年齡相關 NAD+ 下降損害
-- [[Mitohormesis]]: SIRT1 經 PGC1-α 去乙醯化，是 mitohormetic 訊號的關鍵轉導者
-- [[Caspase-2]]: 經 14-3-3ζ 去乙醯化受 SIRT1 閘控（SIRT1 抑制使細胞對 caspase-2 依賴性死亡敏感化）
-- [[Caspase-3]]: 在 DEPDVP(704-709) 切割 SIRT1 的執行者，使其翻轉為促凋亡
-- [[Caspase-9]]: 切割 SIRT1 的啟動者；被 Bcl-xL 阻斷，驅動細胞核→細胞質重新定位
-- [[Bcl-xL]]: 抑制 caspase-9，防止 SIRT1 切割／重新定位
-- TRIM28: 在 DDR 中將 SIRT1 caspase 切割與泛素化／降解耦合的 E3 連結酶
-- [[Catalase]]: 在心肌細胞中經 SIRT1 依賴 FoxO1a 去乙醯化誘導——賦予百草枯誘導氧化壓力抗性的抗氧化軸（Alcendor et al., 2007）
-- [[Cardiac Hypertrophy]]: 輕／中度心臟 SIRT1 延緩年齡相關肥大；高 12.5× 表現使其惡化為心肌病（劑量依賴／毒物興奮）
-- [[Cardiomyopathy]]: 12.5 倍心臟 SIRT1 過度表達經抑制 PGC-1α／粒線體生成、降低 ATP／檸檬酸合酶、升高磷酸化 AMPK 及可能的 NAD+ 耗竭誘發心肌病
-- [[Paraquat]]: Tg-Sirt1 品系 40 的氧化壓力挑戰；中等 SIRT1 減輕百草枯誘導的凋亡、8-OHdG 與丙二醛
-- [[Mitochondrial Biogenesis]]: 高劑量 SIRT1 下調 PGC-1α（約 50%）並減少粒線體數量——毒性高劑量表型
-- [[Hormesis]]: 心臟 SIRT1 的益處僅限於低至中等的毒物興奮劑量窗口（2.5×–7.5×）
-
-## 連結摘要（Sirtuin–Caspase 串擾）
-
-- 新增連結：[[Caspase-2]]、[[Caspase-3]]、[[Caspase-9]]、[[Bcl-xL]]
-- 建議建立的新實體註記：（TRIM28 = [[KAP1]]；14-3-3ζ 已由[[14-3-3]]涵蓋——此串擾無需新增註記）
-- 應強化的重點連結：[[SIRT1]] ↔ [[Caspase-3]]、[[SIRT1]] ↔ [[Caspase-9]]、[[SIRT1]] ↔ [[Sirtuin-Caspase Crosstalk]]
-- [[NAD+ Biosynthesis]]: NAD+ 是 SIRT1 的必需輔受質；NAD+ 隨年齡下降限制 SIRT1 活性
-- [[SIRT3]]: SIRT1 的粒線體對應物；對 ROS/HIF1A 訊號的 NAD+-依賴性調節##
-連結摘要
-
-- 新增連結：[[Sir2 (yeast)]]、[[NAD+]]、[[OAADPr]]、[[p53]]、[[PGC-1α]]、[[Resveratrol]]、[[Caloric Restriction]]、[[SIRT2]]、[[SIRT3]]、[[FoxO1]]、[[FOXO3a]]、[[UCP2]]、[[NF-κB|NF-κB (RelA/p65)]]、[[SIRT4]]、[[SIRT6]]、[[MyoD]]
-- 建議建立的新實體註記：[[FOXO3a]]、[[FOXO4]]、[[Smad7]]、[[Ku70]]、[[E2F1]]、[[p73]]、[[HIC1]]、[[NMNAT]]、[[MEF2D]]、[[PML]]
-- 應強化的重點連結：[[SIRT1]] ↔ [[p53]]、[[SIRT1]] ↔ [[PGC-1α]]、[[SIRT1]] ↔ [[Caloric Restriction]]
-
-- [[IRS-2]]: SIRT1 去乙醯化 IRS-2，使其得以高效進行酪胺酸磷酸化與 PI3K–Akt 胰島素訊號
-- [[CRTC2]]: SIRT1 去乙醯化 CRTC2，以在禁食期間微調肝臟糖質新生
-- [[eNOS]]: SIRT1 去乙醯化 eNOS，增強 NO 生物可利用度並保護內皮功能
-## 連結摘要
-
-- 新增連結：[[Atg5]]、[[Atg7]]、[[Atg8]]、[[LC3]]、[[LC3B]]、[[BNIP3]]、[[GABARAPL1]]
-- 應強化的重點連結：[[SIRT1]] ↔ [[Autophagy]]、[[SIRT1]] ↔ [[TFEB]]
-- 新增連結：[[HDAC]]、[[Epigenetics]]、[[NAD+]]、[[Sirtuins]]、[[p53]]、[[FOXO]]、[[PGC-1α]]、[[NF-κB]]、[[Resveratrol]]、[[Caloric Restriction]]、[[Nicotinamide Riboside]]、[[Nicotinamide Mononucleotide]]
-- 建議建立的新實體註記：[[CLOCK]]、[[BMAL1]]、[[SRT1720]]
-- 新增連結：[[NAD+]]、[[p53]]、[[AMPK]]
-- 建議建立的新實體註記：
-- 新增連結：[[AMPK]]、[[Aging]]、[[Atg]]、[[Autophagy]]、[[Caloric Restriction]]、[[Cardiovascular Disease]]、[[Diabetes Mellitus]]、[[Epigenome]]、[[FoxO1]]、[[FOXO3a]]、[[Heterochromatin]]、[[Intermittent Fasting]]、[[Neurodegenerative Diseases]]、[[Resveratrol]]、[[SIRT1]]、[[Sirtuins]]
-- 新增連結：[[TFEB]]
-- 建議建立的新實體註記：[[Deacetylation]]
-## 來自 [[SIRT1]]# SIRT1
-
-SIRT1 是第 III 類[[NAD+]]-依賴性組蛋白去乙醯化酶，也是七個人類 sirtuin 之一。它主要位於細胞核（與常染色質結合），但亦在細胞質中發揮功能。它在代謝調節、抗老化通路、氧化壓力反應、DNA 修復，以及[[p53]]與[[AMPK]]等關鍵蛋白的調節中扮演至關重要的角色。
-
-# SIRT1
-
-**[[SIRT1]]**（Sirtuin 1）是[[Sirtuins]]蛋白質家族中研究最透徹的成員。它是一種 NAD+-依賴性組蛋白去乙醯化酶，在細胞健康、壓力抗性與長壽中扮演至關重要的角色。
-
-**SIRT1**（Sirtuin 1）是一種 NAD+-依賴性去乙醯化酶，在調節細胞代謝、壓力反應與[[Aging]]中發揮關鍵作用。
-
-## 1. 代謝感應
-
+## 代謝感應
 由於 SIRT1 需要 NAD+（一種參與能量代謝的輔酶）才能運作，它作為細胞能量狀態的感應器。當能量水平偏低（如[[Caloric Restriction]]期間），SIRT1 活性上升，觸發一系列保護性反應。
-
-## 2. 表觀遺傳作用
-
+## 表觀遺傳作用
 作為去乙醯化酶，SIRT1 透過從組蛋白與非組蛋白移除乙醯基來修改[[Epigenome]]：
-
 - **基因沉默**：SIRT1 促進[[Heterochromatin]]形成，有助於讓重複元件與促發炎基因保持「關閉」狀態。
 - **蛋白質調節**：它去乙醯化並調節關鍵轉錄因子，如 p53（細胞週期）、PGC-1α（粒線體生成）與[[NF-κB|NF-κB]]（發炎）。
-
-## 3. SIRT1 與[[Aging]]
-
+## SIRT1 與[[Aging]]
 較高的 SIRT1 活性通常與更長、更健康的壽命相關。它保護免於：
-
 - **[[Cardiovascular Disease]]**：透過改善血管功能並減少發炎。
 - **[[Neurodegenerative Diseases]]**：透過保護神經元免於壓力與蛋白質聚集。
 - **[[Diabetes Mellitus]]**：透過改善胰島素敏感性。
-
-## 連結摘要:
-
 - 新增連結：[[SIRT1]]、[[Sirtuins]]、[[Caloric Restriction]]、[[Epigenome]]、[[Heterochromatin]]、[[Aging]]、[[Cardiovascular Disease]]、[[Neurodegenerative Diseases]]、[[Diabetes Mellitus]]、[[Resveratrol]]
 - 建議建立的新實體註記：[[NAD+]]、[[PGC-1α]]、[[Sirtuin Activators]]
 - 應強化的重點連結：[[SIRT1]] ↔ [[Sirtuins]]、[[SIRT1]] ↔ [[Caloric Restriction]]
-
 - 新增連結：[[Autophagy]]、[[Atg]]、[[FoxO1]]、[[FOXO3a]]、[[Caloric Restriction]]、[[Intermittent Fasting]]、[[AMPK]]
 - 建議建立的新實體註記：[[Atg]]、[[FoxO1]]、[[FOXO3a]]、[[Caloric Restriction]]、[[Intermittent Fasting]]、[[AMPK]]
 - 應強化的重點連結：[[SIRT1]] ↔ [[Caloric Restriction]]、[[SIRT1]] ↔ [[AMPK]]、[[SIRT1]] ↔ [[Autophagy]]
@@ -504,20 +333,123 @@ SIRT1 透過多重軸線促進粒線體健康：(i) 去乙醯化[[PGC-1α]]驅�
 
 - 由於 SIRT1 活性受 NAD⁺ 閘控，男性的 PARP 驅動 NAD⁺ 下降與女性停經後 sirtuin 樞紐崩解，儘管起源於相反的性荷爾蒙邏輯，卻匯聚於相同的下游缺陷（FOXO/MnSOD 抗氧化程式受損、NF-κB 發炎失控）——見[[NAD+]]與[[NF-κB]]中的統一架構。
 
----
-
-### 合併自 notes/autophagy/SIRT1.md
-
-# SIRT1
-
-Sirtuin 1（SIRT1）是一種 NAD+-依賴性去乙醯化酶，透過去乙醯化[[TFEB]]（特別是 K116）促進其轉錄活性與核轉位。
-
 ## 文件
+
+提及此實體的文件清單
+
+- [[_document_ - Sirtuins Guardians of Mammalian Healthspan|Sirtuins: Guardians of Mammalian Healthspan (Giblin et al., 2014)]]
+  - 關於 SIRT1 作為哺乳動物健康壽命守護者的綜述：BRASTO 腦特異性過度表達經下視丘 OX2R 使壽命延長約 11%；SIRT1 減輕 AD/PD/HD、代謝功能障礙、發炎與心臟肥大；NAD+ 下降限制 SIRT1/TFAM 功能。
+
+- mitohormesis
+  - 通路活化：此「氧化脈衝」活化 NRF2/抗氧化反應元件的抗氧化反應，並經 SIRT1/AMPK 軸刺激 PGC1-α（由 Nicotinamide Riboside/Nicotinamide Mononucleotide 預先啟動）。
+
+- [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+  - 目前已發現兩種可乙醯化 TFEB 的酵素，包括 GCN5 \[\] 與 ACAT1 \[, \]，以及兩種可去乙醯化 TFEB 的酵素，包括 SIRT1 \[, \] 與 HDACs \[\]。
+
+- [[_document_ - Kinase|Kinase]]
+  - ion | 29945972 | | K116 | 乙醯化 | ACAT1 | 阻礙 TFEB 與 DNA 結合 | 30059277 | | K116 | 去乙醯化 | SIRT1 | 增強轉錄活性 | 27209302 | | K91, K103 and K430 | A
+
+- [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+  - 體外分析顯示，在熱量限制條件下培養乳癌與 HCT116 細胞，會導致蛋白激酶 CK2（同工酶 CK2α 與 CK2β）、SIRT1 與磷酸化 AMPK 的上調與活化 \[\]。
+
+- [[_document_ - Epigenetic changes during aging and their reprogramming potential|Epigenetic changes during aging and their reprogramming potential]]
+  - 「老化由表觀遺傳變化造成」的第一條線索來自此發現：一個名為沉默資訊調節因子 SIR2 的酵母基因突變，經將 NAD + -依賴性 SIRT1 組蛋白去乙醯化酶重新定位至 DNA 區域而延長壽命 ...
+
+- [[_document_ - xenohormesis, mitohormesis|xenohormesis, mitohormesis]]
+  - 動物細胞中的標的通路：這些分子與高度保守的存活與長壽通路交互作用，這些通路調節細胞維護優先於生殖：- Sirtuins（尤其是 SIRT1）：在 DNA 修復、粒線體...
+
+- [[_document_ - The Sirtuin System The Holy Grail of Resveratrol?|The Sirtuin System The Holy Grail of Resveratrol?]]
+  - 近期研究分析顯示，白藜蘆醇是蛋白質去乙醯化酶 SIRT1 基因的已知活化劑，被認為經由改變基因表現與調節大量...介導抗增殖與抗發炎活性
+
+- [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+  - Sirtuins 總覽 Sirtuins（SIRT1–SIRT7）是人類中一組七個 NAD+-依賴性酵素（第 III 類組蛋白修飾／去醯基酶）。
+
+- [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
+  - 白藜蘆醇、Sirtuins 與膳食來源 白藜蘆醇與 SIRT1 白藜蘆醇（存在於葡萄、莓果與紅酒中的天然多酚化合物）與 SIRT1（Sirtuin 1，NAD+-依賴性去乙醯化酶）之間的交互作用，是研究最為透徹的...
+
+- [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+  - 在本綜述中，我們描述目前對七種哺乳動物 sirtuin（SIRT1–SIRT7）生物功能的理解，並討論它們作為熱量保護介導因子以及延緩與治療人類...的藥物標的的潛力
+
+- [[_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review|sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review]]
+  - 目前已鑑定出總共七個人類 sirtuin，即 SIRT1、SIRT2、SIRT3、SIRT4、SIRT5、SIRT6 與 SIRT7。
+
+- [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+  - 目前已鑑定出酵母 Sir2 (yeast) 的七個哺乳動物同源物，命名為 SIRT1 至 SIRT7。越來越多證據顯示 SIRT 家族七個成員在健康與疾病狀態中扮演至關重要的角色。
+
+- [[_document_ - SIRT1 Protein roles at the nexus of health, disease, and therapeutics|SIRT1: Protein Roles at the Nexus (Chaqour, 2026)]]
+  - Chaqour（2026）將 SIRT1 定位為視情境而定的「變形者」，透過去乙醯化 >40 種受質，橫跨心血管、代謝、神經血管與致癌領域，聯結代謝、壓力與疾病。
+
+  - [[_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis|Sirtuin Network (Szczęsny-Małysiak et al., 2026)]]
+
+- [[_document_ - Rejuvenating Sirtuins The Rise of a New Family of Cancer Drug Targets|Rejuvenating Sirtuins: The Rise of a New Family of Cancer Drug Targets (Bruzzone et al., 2013)]]
+  - 綜述 SIRT1 的癌症雙重角色：去乙醯化並抑制 NF-κB 與 β-Catenin（腫瘤抑制），卻使 p53 與促凋亡 FOXO 因子失活（促癌）。推斷 SIRT1 抑制（如 EX-527、sirtinol、cambinol、tenovins）在多種情境下具抗癌作用，而白藜蘆醇等 STACs 與 SRT 化合物可能經 cAMP–Epac1–AMPK 軸間接作用。
+
+ - [[_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases|Sirtuins and their Biological Relevance in Aging and Age-Related Diseases]]
+  - 綜述調查哺乳動物 sirtuin 訊號通路（表 3）：SIRT1 透過延長壽命、DNA 修復、細胞週期停滯與細胞衰老在老化中發揮作用；受 eNOS、Erβ、FOXO3 正向調節，受 PAI-1、p53、p16INK4a、NF-κB、p66Shc、LKB1、Cyclin D1 及 mTOR/S6K 負向調節。
+
+- [[_document_ - Sirtuins, a promising target in slowing down the ageing process|Sirtuins, a promising target in slowing down the ageing process]]
+  - 綜述（Grabowska et al., Biogerontology 2017）詳述 SIRT1 對 p53（K320/K373/K382）、NBS1、XPA 與 LKB1 的去乙醯化，p53–miR-34a–SIRT1 迴路，P66shc 抑制，以及 SIRT1 作為衰老標記。
+
+- [[_document_ - Caspase-mediated changes in Sir2alpha during apoptosis|Caspase-mediated changes in Sir2α during apoptosis (Ohsawa & Miura, FEBS Lett 2006)]]
+  - 關鍵證據顯示 Caspase-9 與 Caspase-3 直接切割 SIRT1（Sir2α），並在凋亡期間使其從細胞核→細胞質重新定位；可被顯性負性 caspase-9 或 Bcl-xL 阻斷。
+
+- [[_document_ - Post-translational Modification in Control of SIRT1 Stability during DNA Damage Response|SIRT1 stability in the DNA damage response (Ouyang et al., IJBS 2022)]]
+  - 嚴重 DNA 損傷下，C 端 caspase 於 DEPDVP(704–709) 的切割，加上[[KAP1|TRIM28]]介導的多聚泛素化／降解；ATM–TRIM28–SIRT1 軸上增強 DNA 損傷誘導細胞死亡的交互翻譯後修飾。
+
+- [[_document_ - A Biotin Switch-Based Proteomics Approach Identifies 14-3-3zeta as a Target of Sirt1 in the Metabolic Regulation of Caspase-2|SIRT1–14-3-3ζ metabolic regulation of caspase-2 (Andersen et al., Mol Cell 2011)]]
+  - SIRT1 去乙醯化 14-3-3ζ（K49）以維持 caspase-2 抑制；PPP/G6P 通量閘控凋亡敏感性；SIRT1 抑制使乳癌腫瘤細胞對 caspase-2 依賴性死亡與 paclitaxel 敏感化。
+
+- [[_document_ - Sirt1 Regulates Aging and Resistance to Oxidative Stress in the Heart|Cardiac SIRT1 dose-response (Alcendor et al., Circ Res 2007)]]
+  - 原始體內研究：心臟特異性 Tg-Sirt1 具 2.5×/7.5×（抗老化、氧化壓力抗性）與 12.5×（心肌病）心臟 SIRT1。中等劑量誘導 FoxO1a 依賴的過氧化氫酶並抵抗百草枯氧化損傷；高劑量抑制 PGC-1α、粒線體生成、ATP，並可能耗竭 NAD+。典型的心臟毒物興奮劑量窗口。
 
 - [[_document_ - relocalization of sirtuins - chromatin modifiers, grok|The Relocalization of Chromatin Modifiers (RCM) Hypothesis]]
   - 將 SIRT1 列為修復期間重新定位至 DNA 損傷位點的染色質調節因子之一（與 SIRT6、HDAC1、PARP1 並列），這是 RCM 表觀遺傳老化框架的核心機制。
 
 ## 連結
+
+- [[Autophagy]] — SIRT1 經 FOXO3a、TFEB 與 Atg 機制去乙醯化，是自噬的核心活化因子
+- [[mTORC1]] — SIRT1 的上游；mTOR 抑制自噬並間接抑制 SIRT1
+- [[NAMPT]] — 受 AMPK 活化的限速 NAD+ 補救酵素，閘控 SIRT1 活性
+- [[CD38]] — 消耗 NAD+，對抗 SIRT1 活化
+- [[TFEB]] — 被 SIRT1 去乙醯化（K116）以驅動 CLEAR 自噬／溶酶體程式
+- [[FOXO3a]] — 被 SIRT1 去乙醯化以誘導 LC3B、BNIP3、GABARAPL1 與抗氧化基因
+- [[Beclin1]]、[[Atg5]]、[[Atg7]]、[[LC3B]]、[[BNIP3]]、[[GABARAPL1]] — 下游自噬效應因子
+- [[Sir2 (yeast)]] — 演化上的祖先；SIRT1 是最接近的哺乳動物同源物
+- [[NAD+]] — 去乙醯化酶活性的必需輔受質
+- [[OAADPr]] — SIRT1 催化去乙醯化的獨特副產物
+- [[p53]] — 主要調節標的；SIRT1 去乙醯化並抑制 p53 介導的凋亡
+- [[PGC-1α]] — SIRT1 在代謝與神經保護中的下游效應因子
+- [[Resveratrol]] — 藥理活化劑（STAC）
+- [[Caloric Restriction]] — SIRT1 被認為是 CR 依賴性長壽益處的介導因子
+- [[SIRT2]] — 第 I 類 sirtuin 家族成員；兩者皆具去乙醯化酶與 ADP-核糖基轉移酶活性
+- [[SIRT3]] — 粒線體對應物；兩者皆去乙醯化 AceCS 同工酶（胞質 vs. 粒線體）
+- [[FoxO1]] / [[FOXO3a]] / FOXO4 — 受 SIRT1 去乙醯化調節的叉頭轉錄因子
+- **[[Sirtuins]]**：SIRT1 所屬的蛋白質家族。
+- **[[Aging]]**：SIRT1 是老化過程的核心調節者。
+- [[BMAL1]]: SIRT1 去乙醯化 BMAL1 以閘控晝夜 NAD+ 震盪。
+- [[Trimethylamine N-oxide]]: SIRT1 減輕 TMAO 驅動的血管發炎。
+- [[STACs]]: STACs（白藜蘆醇、SRT2104、SRT1720、SRT1460、SRT2183）活化 SIRT1。
+- [[β-Catenin]]: SIRT1 去乙醯化 β-Catenin，抑制其轉錄活性與細胞增殖（腫瘤抑制分支）。
+- [[NF-κB]]: SIRT1 去乙醯化 RelA/p65，抑制 NF-κB 轉錄（腫瘤抑制分支）。
+- [[EX-527]]: 選擇性藥理 SIRT1 抑制劑，用於探討癌細胞中 SIRT1 的致癌分支。
+- [[BNIP3]]: 經 FOXO3a 去乙醯化在 SIRT1 下游被誘導；形成 NAD+ → SIRT1 → FOXO3a → BNIP3 線粒體自噬軸
+- [[BNIP3L|NIX]]: SIRT1/FOXO3a 軸誘導 BNIP3L 表現；HIF1A 亦反式活化 BNIP3L
+- [[HIF-1α]]: 經共同鄰居（Autophagy、Mitohormesis）與 SIRT1 訊號匯合；NAD+ 下降抑制 SIRT1 並損害 HIF1A 驅動的線粒體自噬
+- [[OX2R]]: SIRT1 經 NKX2-1 在下視丘上調的腦特異性受體；介導 BRASTO 壽命表型
+- [[ADAM10]]: 經 SIRT1→RARβ 活化的 α-分泌酶；使 APP 處理偏離 β-澱粉樣蛋白
+- [[TFAM]]: SIRT1 依賴的表達維持 mtDNA 基因表現；受年齡相關 NAD+ 下降損害
+- [[Mitohormesis]]: SIRT1 經 PGC1-α 去乙醯化，是 mitohormetic 訊號的關鍵轉導者
+- [[Caspase-2]]: 經 14-3-3ζ 去乙醯化受 SIRT1 閘控（SIRT1 抑制使細胞對 caspase-2 依賴性死亡敏感化）
+- [[Caspase-3]]: 在 DEPDVP(704-709) 切割 SIRT1 的執行者，使其翻轉為促凋亡
+- [[Caspase-9]]: 切割 SIRT1 的啟動者；被 Bcl-xL 阻斷，驅動細胞核→細胞質重新定位
+- [[Bcl-xL]]: 抑制 caspase-9，防止 SIRT1 切割／重新定位
+- TRIM28: 在 DDR 中將 SIRT1 caspase 切割與泛素化／降解耦合的 E3 連結酶
+- [[Catalase]]: 在心肌細胞中經 SIRT1 依賴 FoxO1a 去乙醯化誘導——賦予百草枯誘導氧化壓力抗性的抗氧化軸（Alcendor et al., 2007）
+- [[Cardiac Hypertrophy]]: 輕／中度心臟 SIRT1 延緩年齡相關肥大；高 12.5× 表現使其惡化為心肌病（劑量依賴／毒物興奮）
+- [[Cardiomyopathy]]: 12.5 倍心臟 SIRT1 過度表達經抑制 PGC-1α／粒線體生成、降低 ATP／檸檬酸合酶、升高磷酸化 AMPK 及可能的 NAD+ 耗竭誘發心肌病
+- [[Paraquat]]: Tg-Sirt1 品系 40 的氧化壓力挑戰；中等 SIRT1 減輕百草枯誘導的凋亡、8-OHdG 與丙二醛
+- [[Mitochondrial Biogenesis]]: 高劑量 SIRT1 下調 PGC-1α（約 50%）並減少粒線體數量——毒性高劑量表型
+- [[Hormesis]]: 心臟 SIRT1 的益處僅限於低至中等的毒物興奮劑量窗口（2.5×–7.5×）
 
 - [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]]: SIRT1 重新定位至 DSB 是 RCM 的關鍵機制。
 - [[SIRT6]]、[[HDAC1]]、[[PARP1]]: 共同重新定位的染色質調節因子。
@@ -525,28 +457,85 @@ Sirtuin 1（SIRT1）是一種 NAD+-依賴性去乙醯化酶，透過去乙醯化
 
 ## 連結摘要
 
+
+- 新增連結：[[Caspase-2]]、[[Caspase-3]]、[[Caspase-9]]、[[Bcl-xL]]
+- 建議建立的新實體註記：（TRIM28 = [[KAP1]]；14-3-3ζ 已由[[14-3-3]]涵蓋——此串擾無需新增註記）
+- 應強化的重點連結：[[SIRT1]] ↔ [[Caspase-3]]、[[SIRT1]] ↔ [[Caspase-9]]、[[SIRT1]] ↔ [[Sirtuin-Caspase Crosstalk]]
+- [[NAD+ Biosynthesis]]: NAD+ 是 SIRT1 的必需輔受質；NAD+ 隨年齡下降限制 SIRT1 活性
+- [[SIRT3]]: SIRT1 的粒線體對應物；對 ROS/HIF1A 訊號的 NAD+-依賴性調節##
+- 新增連結：[[Sir2 (yeast)]]、[[NAD+]]、[[OAADPr]]、[[p53]]、[[PGC-1α]]、[[Resveratrol]]、[[Caloric Restriction]]、[[SIRT2]]、[[SIRT3]]、[[FoxO1]]、[[FOXO3a]]、[[UCP2]]、[[NF-κB|NF-κB (RelA/p65)]]、[[SIRT4]]、[[SIRT6]]、[[MyoD]]
+- 建議建立的新實體註記：[[FOXO3a]]、[[FOXO4]]、[[Smad7]]、[[Ku70]]、[[E2F1]]、[[p73]]、[[HIC1]]、[[NMNAT]]、[[MEF2D]]、[[PML]]
+- 應強化的重點連結：[[SIRT1]] ↔ [[p53]]、[[SIRT1]] ↔ [[PGC-1α]]、[[SIRT1]] ↔ [[Caloric Restriction]]
+- [[IRS-2]]: SIRT1 去乙醯化 IRS-2，使其得以高效進行酪胺酸磷酸化與 PI3K–Akt 胰島素訊號
+- [[CRTC2]]: SIRT1 去乙醯化 CRTC2，以在禁食期間微調肝臟糖質新生
+- [[eNOS]]: SIRT1 去乙醯化 eNOS，增強 NO 生物可利用度並保護內皮功能
+- 新增連結：[[Atg5]]、[[Atg7]]、[[Atg8]]、[[LC3]]、[[LC3B]]、[[BNIP3]]、[[GABARAPL1]]
+- 應強化的重點連結：[[SIRT1]] ↔ [[Autophagy]]、[[SIRT1]] ↔ [[TFEB]]
+- 新增連結：[[HDAC]]、[[Epigenetics]]、[[NAD+]]、[[Sirtuins]]、[[p53]]、[[FOXO]]、[[PGC-1α]]、[[NF-κB]]、[[Resveratrol]]、[[Caloric Restriction]]、[[Nicotinamide Riboside]]、[[Nicotinamide Mononucleotide]]
+- 建議建立的新實體註記：[[CLOCK]]、[[BMAL1]]、[[SRT1720]]
+- 新增連結：[[NAD+]]、[[p53]]、[[AMPK]]
+- 建議建立的新實體註記：
+- 新增連結：[[AMPK]]、[[Aging]]、[[Atg]]、[[Autophagy]]、[[Caloric Restriction]]、[[Cardiovascular Disease]]、[[Diabetes Mellitus]]、[[Epigenome]]、[[FoxO1]]、[[FOXO3a]]、[[Heterochromatin]]、[[Intermittent Fasting]]、[[Neurodegenerative Diseases]]、[[Resveratrol]]、[[SIRT1]]、[[Sirtuins]]
+- 新增連結：[[TFEB]]
+- 建議建立的新實體註記：[[Deacetylation]]
+- **基因沉默**：SIRT1 促進[[Heterochromatin]]形成，有助於讓重複元件與促發炎基因保持「關閉」狀態。
+- **蛋白質調節**：它去乙醯化並調節關鍵轉錄因子，如 p53（細胞週期）、PGC-1α（粒線體生成）與[[NF-κB|NF-κB]]（發炎）。
+- **[[Cardiovascular Disease]]**：透過改善血管功能並減少發炎。
+- **[[Neurodegenerative Diseases]]**：透過保護神經元免於壓力與蛋白質聚集。
+- **[[Diabetes Mellitus]]**：透過改善胰島素敏感性。
+- 新增連結：[[SIRT1]]、[[Sirtuins]]、[[Caloric Restriction]]、[[Epigenome]]、[[Heterochromatin]]、[[Aging]]、[[Cardiovascular Disease]]、[[Neurodegenerative Diseases]]、[[Diabetes Mellitus]]、[[Resveratrol]]
+- 建議建立的新實體註記：[[NAD+]]、[[PGC-1α]]、[[Sirtuin Activators]]
+- 應強化的重點連結：[[SIRT1]] ↔ [[Sirtuins]]、[[SIRT1]] ↔ [[Caloric Restriction]]
+- 新增連結：[[Autophagy]]、[[Atg]]、[[FoxO1]]、[[FOXO3a]]、[[Caloric Restriction]]、[[Intermittent Fasting]]、[[AMPK]]
+- 建議建立的新實體註記：[[Atg]]、[[FoxO1]]、[[FOXO3a]]、[[Caloric Restriction]]、[[Intermittent Fasting]]、[[AMPK]]
+- 應強化的重點連結：[[SIRT1]] ↔ [[Caloric Restriction]]、[[SIRT1]] ↔ [[AMPK]]、[[SIRT1]] ↔ [[Autophagy]]
+
+- 新增連結：[[Caspase-2]]、[[Caspase-3]]、[[Caspase-9]]、[[Bcl-xL]]
+- 建議建立的新實體註記：（TRIM28 = [[KAP1]]；14-3-3ζ 已由[[14-3-3]]涵蓋——此串擾無需新增註記）
+- 應強化的重點連結：[[SIRT1]] ↔ [[Caspase-3]]、[[SIRT1]] ↔ [[Caspase-9]]、[[SIRT1]] ↔ [[Sirtuin-Caspase Crosstalk]]
+- [[NAD+ Biosynthesis]]: NAD+ 是 SIRT1 的必需輔受質；NAD+ 隨年齡下降限制 SIRT1 活性
+- [[SIRT3]]: SIRT1 的粒線體對應物；對 ROS/HIF1A 訊號的 NAD+-依賴性調節##
+連結摘要
+- 新增連結：[[Sir2 (yeast)]]、[[NAD+]]、[[OAADPr]]、[[p53]]、[[PGC-1α]]、[[Resveratrol]]、[[Caloric Restriction]]、[[SIRT2]]、[[SIRT3]]、[[FoxO1]]、[[FOXO3a]]、[[UCP2]]、[[NF-κB|NF-κB (RelA/p65)]]、[[SIRT4]]、[[SIRT6]]、[[MyoD]]
+- 建議建立的新實體註記：[[FOXO3a]]、[[FOXO4]]、[[Smad7]]、[[Ku70]]、[[E2F1]]、[[p73]]、[[HIC1]]、[[NMNAT]]、[[MEF2D]]、[[PML]]
+- 應強化的重點連結：[[SIRT1]] ↔ [[p53]]、[[SIRT1]] ↔ [[PGC-1α]]、[[SIRT1]] ↔ [[Caloric Restriction]]
+- [[IRS-2]]: SIRT1 去乙醯化 IRS-2，使其得以高效進行酪胺酸磷酸化與 PI3K–Akt 胰島素訊號
+- [[CRTC2]]: SIRT1 去乙醯化 CRTC2，以在禁食期間微調肝臟糖質新生
+- [[eNOS]]: SIRT1 去乙醯化 eNOS，增強 NO 生物可利用度並保護內皮功能
+- 新增連結：[[Atg5]]、[[Atg7]]、[[Atg8]]、[[LC3]]、[[LC3B]]、[[BNIP3]]、[[GABARAPL1]]
+- 應強化的重點連結：[[SIRT1]] ↔ [[Autophagy]]、[[SIRT1]] ↔ [[TFEB]]
+- 新增連結：[[HDAC]]、[[Epigenetics]]、[[NAD+]]、[[Sirtuins]]、[[p53]]、[[FOXO]]、[[PGC-1α]]、[[NF-κB]]、[[Resveratrol]]、[[Caloric Restriction]]、[[Nicotinamide Riboside]]、[[Nicotinamide Mononucleotide]]
+- 建議建立的新實體註記：[[CLOCK]]、[[BMAL1]]、[[SRT1720]]
+- 新增連結：[[NAD+]]、[[p53]]、[[AMPK]]
+- 建議建立的新實體註記：
+- 新增連結：[[AMPK]]、[[Aging]]、[[Atg]]、[[Autophagy]]、[[Caloric Restriction]]、[[Cardiovascular Disease]]、[[Diabetes Mellitus]]、[[Epigenome]]、[[FoxO1]]、[[FOXO3a]]、[[Heterochromatin]]、[[Intermittent Fasting]]、[[Neurodegenerative Diseases]]、[[Resveratrol]]、[[SIRT1]]、[[Sirtuins]]
+- 新增連結：[[TFEB]]
+- 建議建立的新實體註記：[[Deacetylation]]
+SIRT1 是第 III 類[[NAD+]]-依賴性組蛋白去乙醯化酶，也是七個人類 sirtuin 之一。它主要位於細胞核（與常染色質結合），但亦在細胞質中發揮功能。它在代謝調節、抗老化通路、氧化壓力反應、DNA 修復，以及[[p53]]與[[AMPK]]等關鍵蛋白的調節中扮演至關重要的角色。
+**[[SIRT1]]**（Sirtuin 1）是[[Sirtuins]]蛋白質家族中研究最透徹的成員。它是一種 NAD+-依賴性組蛋白去乙醯化酶，在細胞健康、壓力抗性與長壽中扮演至關重要的角色。
+**SIRT1**（Sirtuin 1）是一種 NAD+-依賴性去乙醯化酶，在調節細胞代謝、壓力反應與[[Aging]]中發揮關鍵作用。
+
+
+### RCM 假說
+
 - 新增連結：[[Relocalization of Chromatin Modifiers (RCM) Hypothesis]]、[[SIRT6]]、[[HDAC1]]、[[PARP1]]、[[Double-Strand Break]]
 - 建議建立的新實體註記：[[Relocalization of Chromatin Modifiers (RCM) Hypothesis]]
 - 應強化的重點連結：[[SIRT1]] ↔ [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]]
 
-## 連結摘要（自噬訊號通路）
+### 自噬訊號通路
 
 - 新增連結：[[Autophagy]]、[[mTORC1]]、[[NAMPT]]、[[CD38]]、[[TFEB]]、[[FOXO3a]]、[[Beclin1]]、[[LC3B]]、[[BNIP3]]、[[GABARAPL1]]、[[AMPK]]、[[Caloric Restriction]]、[[Intermittent Fasting]]
 - 建議建立的新實體註記：[[Mitophagy]]、[[Coordinated Lysosomal Expression and Regulation|CLEAR network]]
 - 應強化的重點連結：[[SIRT1]] ↔ [[Autophagy]]、[[SIRT1]] ↔ [[TFEB]]、[[SIRT1]] ↔ [[AMPK]]、[[SIRT1]] ↔ [[FOXO3a]]
 
-## 連結摘要（疾病全景）
+### 疾病全景
 
 - 新增連結：[[Breast Cancer]]、[[Lung Cancer]]、[[Hepatocellular Carcinoma]]、[[Colorectal Cancer]]、[[Gastric Cancer]]、[[Pancreatic Cancer]]、[[Ovarian Cancer]]、[[Endometrial Cancer]]、[[Cervical Cancer]]、[[Glioma]]、[[leukemia]]、[[Cardiac Hypertrophy]]、[[Cardiac Fibrosis]]、[[Heart Failure]]、[[Atherosclerosis]]、[[Coronary Artery Disease]]、[[Myocardial Ischemia-Reperfusion Injury]]、[[Hypertension]]、[[COPD]]、[[Pulmonary Fibrosis]]、[[Asthma]]、[[Acute Lung Injury]]、[[COVID-19]]、[[Non-alcoholic Fatty Liver Disease]]、[[Hepatitis B]]、[[Pancreatitis]]、[[Alzheimer's Disease]]、[[Parkinson's Disease]]、[[Huntington's Disease]]、[[Stroke]]、[[Epilepsy]]、[[Spinal Cord Injury (SCI)]]、[[Diabetes Mellitus]]、[[Diabetic Kidney Disease]]、[[Diabetic Neuropathy]]、[[Diabetic Retinopathy]]、[[Diabetic Cardiomyopathy]]、[[Obesity]]、[[Metabolic Syndrome]]、[[Acute Kidney Injury]]、[[Kidney Fibrosis]]、[[Kidney Stones]]、[[PCOS]]、[[Endometriosis]]、[[Osteoarthritis]]、[[Osteoporosis]]、[[Intervertebral Disc Degeneration]]、[[Muscle Atrophy]]
 - 建議建立的新實體註記：[[Diabetic Kidney Disease]]、[[Diabetic Cardiomyopathy]]、[[Ovarian Cancer]]、[[Endometrial Cancer]]、[[Cervical Cancer]]、[[leukemia]]、[[PCOS]]、[[Endometriosis]]、[[Hepatitis B]]
 - 應強化的重點連結：[[SIRT1]] ↔ [[Breast Cancer]]、[[SIRT1]] ↔ [[Alzheimer's Disease]]、[[SIRT1]] ↔ [[Diabetes Mellitus]]、[[SIRT1]] ↔ [[Cardiac Hypertrophy]]、[[SIRT1]] ↔ [[COPD]]
 
-## 連結摘要（性別差異——雌激素–Sirtuin 樞紐，2026-09-02）
+### 性別差異——雌激素–Sirtuin 樞紐（2026-09-02）
 
 - **新增性別差異章節**，確立 SIRT1 為雌激素–sirtuin 軸（`E₂→ER→SIRT1`）的樞紐、雄性鏡像[[SIRT6]]分支，以及使樞紐崩解的停經後「雌激素懸崖」。
 - 新增交叉連結：[[SIRT3]]、[[SIRT6]]、[[NAD+]]、[[NF-κB]]、[[cGAS-STING Pathway]]、[[SASP]]、[[Inflammaging]]、[[Telomere]]、[[Bcl-2]]、[[PARP1]]。
 - 應強化的重點連結：[[SIRT1]] ↔ [[SIRT3]]（共享的雌激素程式）、[[SIRT1]] ↔ [[SIRT6]]（互補的性別偏向）、[[SIRT1]] ↔ [[NAD+]]（PARP-1 性別分歧關聯）。
-
-
-
-

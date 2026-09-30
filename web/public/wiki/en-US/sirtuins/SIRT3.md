@@ -14,11 +14,6 @@ protected: true
 
 # SIRT3
 
-
-## From [[SIRT3]]
-
-# SIRT3
-
 **SIRT3** (Sirtuin 3) is the primary NAD+-dependent deacetylase localized within the [[Mitochondria]].
 
 ## Functions
@@ -31,10 +26,6 @@ protected: true
 - In [[Cancer]] cells, SIRT3 is often inactive, contributing to metabolic inflexibility and genomic instability.
 - SIRT3 can promote [[Mitophagy]] to clear damaged mitochondria and maintain cellular homeostasis.
 
-## Function
-
-SIRT3 is a mitochondrial NAD+-dependent deacetylase that activates [[Mitochondrial Complex I]], [[MnSOD]], and fatty acid oxidation. It promotes [[Mitophagy]] by deacetylating [[FOXO3a]].
-
 ## IPA–AhR–NAD Axis (Gut–Heart Crosstalk)
 
 > [!info]
@@ -45,8 +36,6 @@ SIRT3 is a mitochondrial NAD+-dependent deacetylase that activates [[Mitochondri
 
 > [!info] Source: [[_document_ - Mitochondrial Fusion and Fission The fine-tune balance for cellular homeostasis|Mitochondrial Fusion and Fission review]]
 > SIRT3 deacetylates [[OPA1]] at Lys926 and Lys931 in its GTPase effector domain, raising OPA1 GTPase activity and enhancing [[Mitochondrial Fusion|mitochondrial fusion]] during stress.
-
-# SIRT3
 
 **SIRT3** (Sirtuin 3) is a **mitochondrial sirtuin** classified in phylogenetic **Class Ib** alongside yeast Hst2, [[SIRT2]], and sirtuins from other fungi and protozoa. It is the primary deacetylase in the mitochondrial matrix, playing key roles in energy metabolism, thermogenesis, mitochondrial biogenesis, and reactive oxygen species (ROS) regulation.
 
@@ -127,6 +116,9 @@ SIRT3 **decreases mitochondrial membrane potential** and **reduces reactive oxyg
 ## Human Longevity Association
 
 A variant of the _SIRT3_ gene — specifically in an **enhancer within intron 5** — correlates with **male lifespan beyond 90 years**, directly implicating SIRT3 in human longevity.
+
+> [!info] Source: [[_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases]]
+> Zhao et al. (2020) note SIRT3 is the sirtuin most associated with human aging—polymorphisms in the SIRT3 locus correlate with survival in elderly individuals (though not universally replicated). SIRT3 activates GDH to facilitate gluconeogenesis from amino acids, indirectly destabilizes HIF1α to inhibit glycolysis, and is required to prevent cardiac hypertrophy during ageing.
 
 ## Sex Differences
 
@@ -360,6 +352,9 @@ List of documents that mention this entity
 
    - [[_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis|Sirtuin Network (Szczęsny-Małysiak et al., 2026)]]
 
+- [[_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases]]
+  - Links SIRT3 polymorphisms to human longevity, details GDH/PEPCK metabolic roles, HIF1α destabilization, and cardiac hypertrophy prevention.
+
 - [[_document_ - Sirtuins, a promising target in slowing down the ageing process|Sirtuins, a promising target in slowing down the ageing process]]
   - Review (Grabowska et al., Biogerontology 2017) covering conflicting human-longevity evidence for SIRT3, its nuclear H4K16/H3K9 deacetylation, reduced expression in aged oocytes, and loss-of-SIRT3 activation of HIF-1α.
 
@@ -393,9 +388,8 @@ List of documents that mention this entity
 - [[PYCR1]] — SIRT3 deacetylates PYCR1 at Lys228, activating proline biosynthesis; an oncogenic axis in cancer
 - [[SHMT2]] — SIRT3 deacetylates SHMT2 at Lys95, promoting serine metabolism and colorectal carcinogenesis
 - [[Post-translational Modification]] — SIRT3 is a major mitochondrial PTM regulator via deacetylation of >100 substrates
-
-
-
+- [[Human aging]] — SIRT3 locus polymorphisms associate with elderly survival
+- [[Glutamate Dehydrogenase (GDH)]] — SIRT3 activates GDH for amino-acid gluconeogenesis
 - [[Pyruvate Dehydrogenase|PDH]]: SIRT3 deacetylates PDH E1α, maintaining glucose oxidation and metabolic flexibility in muscle
 - [[Metabolic Plasticity]] — SIRT3 couples the glycolysis↔OXPHOS switch to the redox setpoint; context-dependent tumor suppressor/oncogene
 - [[ME2]] — SIRT3 delactylates ME2 (K352), suppressing tumor redox maintenance and CRC growth
@@ -414,45 +408,27 @@ List of documents that mention this entity
 - [[BMAL1]] — core clock transcription factor regulating Nampt and Slc25a51, coupling circadian timing to SIRT3
 - [[CD38]] — age-upregulated NAD⁺-degrading enzyme; its rise depletes NAD⁺ and suppresses SIRT3 activity with aging
 
-## Linking Summary (Oncogenic Cancer Roles)
+## Linking Summary
 
 - New links added: [[PYCR1]], [[SHMT2]], [[Post-translational Modification]], [[Proline]], [[Serine]]
 - Suggested new entity notes to create: [[PYCR1]], [[SHMT2]], [[Post-translational Modification]] (all created 2026-08-31)
 - Strong connections to strengthen: [[SIRT3]] ↔ [[PYCR1]] (Lys228 deacetylation in proline biosynthesis), [[SIRT3]] ↔ [[SHMT2]] (Lys95 deacetylation in serine metabolism), [[SIRT3]] ↔ [[Post-translational Modification]] (SIRT3 as a major mitochondrial PTM eraser)
 
-## Linking Summary
+### Oncogenic Cancer Roles
+
 - New links added: [[NAD+]], [[OAADPr]], [[Caloric Restriction]], [[PGC-1α]], [[SIRT1]], [[SIRT2]], [[SIRT4]], [[SIRT5]], [[Longevity]], [[TRPM2]], [[AceCS2]]
 - Suggested new entity notes to create: [[UCP1]], [[Brown Adipose Tissue|Brown Adipose Tissue (BAT)]]
 - Strong connections to strengthen: [[SIRT3]] ↔ [[Caloric Restriction]], [[SIRT3]] ↔ [[Longevity]], [[SIRT3]] ↔ [[AceCS2]]
 - New links added: [[Mitochondria]], [[Reactive Oxygen Species]], [[Caloric Restriction]], [[Intermittent Fasting]], [[Cancer]], [[Mitophagy]], [[Cellular Homeostasis]]
 - Suggested new entity notes to create: , [[Cellular Homeostasis]]
 
-## Linking Summary (Disease Landscape)
+### Disease Landscape
 
 - New links added: [[Breast Cancer]], [[Lung Cancer]], [[Hepatocellular Carcinoma]], [[Colorectal Cancer]], [[Ovarian Cancer]], [[Cervical Cancer]], [[Glioma]], [[Cardiac Hypertrophy]], [[Cardiac Fibrosis]], [[Heart Failure]], [[Atherosclerosis]], [[Myocardial Ischemia-Reperfusion Injury]], [[Hypertension]], [[COPD]], [[Pulmonary Fibrosis]], [[Asthma]], [[Acute Lung Injury]], [[COVID-19]], [[Non-alcoholic Fatty Liver Disease]], [[Hepatitis B]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Stroke]], [[ALS]], [[Epilepsy]], [[Diabetes Mellitus]], [[Diabetic Cardiomyopathy]], [[Obesity]], [[Acute Kidney Injury]], [[Kidney Fibrosis]], [[Kidney Stones]], [[Vascular Calcification]], [[Osteoarthritis]], [[Intervertebral Disc Degeneration]], [[Muscle Atrophy]]
 - Suggested new entity notes to create: [[Ovarian Cancer]], [[Cervical Cancer]], [[Hepatitis B]], [[Diabetic Cardiomyopathy]]
 - Strong connections to strengthen: [[SIRT3]] ↔ [[Acute Kidney Injury]], [[SIRT3]] ↔ [[MnSOD]], [[SIRT3]] ↔ [[Cardiac Hypertrophy]], [[SIRT3]] ↔ [[Diabetic Cardiomyopathy]]
 
-# SIRT3
-
-SIRT3 is a major mitochondrial sirtuin with both deacetylase and mono-ADP-ribosyl transferase activities. It regulates mitochondrial metabolism, thermogenesis, and helps prevent oxidative stress by suppressing [[Reactive Oxygen Species]]. It acts as a tumor suppressor by destabilizing [[HIF-1α]].
-
-> [!info] Source: [[_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases]]
-> Zhao et al. (2020) note SIRT3 is the sirtuin most associated with human aging—polymorphisms in the SIRT3 locus correlate with survival in elderly individuals (though not universally replicated). SIRT3 activates GDH to facilitate gluconeogenesis from amino acids, indirectly destabilizes HIF1α to inhibit glycolysis, and is required to prevent cardiac hypertrophy during ageing.
-
-## Documents
-
-- [[_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases]]
-  - Links SIRT3 polymorphisms to human longevity, details GDH/PEPCK metabolic roles, HIF1α destabilization, and cardiac hypertrophy prevention.
-
-## Connections
-
-- [[Human aging]] — SIRT3 locus polymorphisms associate with elderly survival
-- [[Glutamate Dehydrogenase (GDH)]] — SIRT3 activates GDH for amino-acid gluconeogenesis
-- [[HIF-1α]] — SIRT3 destabilizes HIF1α, inhibiting glycolysis
-- [[Cardiac Hypertrophy]] — SIRT3 prevents cardiac hypertrophy during ageing
-
-## Linking Summary (Metabolic Plasticity × Redox Equilibrium)
+### Metabolic Plasticity × Redox Equilibrium
 
 2026-08-31 enrichment cross-referencing SIRT3's modulation of metabolic plasticity and redox equilibrium, influenced by tumor type, developmental stage, and microenvironment.
 
@@ -464,7 +440,7 @@ SIRT3 is a major mitochondrial sirtuin with both deacetylase and mono-ADP-ribosy
   - [[SIRT3]] ↔ [[SLC25A22]] — deacetylation-ubiquitination crosstalk; ferroptosis defense (LUAD)
   - [[SIRT3]] ↔ [[Tumor-Associated Macrophage]] — SENP1-SIRT3-cholesterol axis polarizing TAMs immunosuppressively
 
-## Linking Summary (Spatiotemporal Regulation)
+### Spatiotemporal Regulation
 
 2026-08-31 enrichment from web research on the spatiotemporal regulation of SIRT3 activity.
 

@@ -1,5 +1,5 @@
 {
-  "generated": "29_SEP_2026 11:42 PM PDT",
+  "generated": "30_SEP_2026 12:13 AM PDT",
   "wiki": [
     {
       "id": "wiki-index",
@@ -22,6 +22,46 @@
           "tags": [],
           "path": "pages/wiki-index.html"
         }
+      }
+    },
+    {
+      "id": "SIRT1",
+      "langs": {
+        "en-US": {
+          "title": "SIRT1",
+          "description": "Sirt1 is a NAD+-dependent class III histone deacetylase (sirtuin) and the most extensively characterized member of the Sirtuins family. It links cellular energy status to chromatin regulation, ...",
+          "created": "2026-07-06",
+          "updated": "2026-09-30",
+          "tags": [
+            "gene",
+            "protein",
+            "sirtuin",
+            "deacetylase"
+          ],
+          "filename": "SIRT1.md",
+          "path": "wiki/en-US/sirtuins/SIRT1.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/SIRT1.md"
+        },
+        "zh-TW": {
+          "title": "SIRT1",
+          "description": "Sirt1 是 NAD+-依賴性第 III 類組蛋白去乙醯化酶（sirtuin），也是 Sirtuins 家族中被研究最廣泛的成員。它將細胞能量狀態與染色質調節、...",
+          "created": "2026-07-06",
+          "updated": "2026-09-02",
+          "tags": [
+            "gene",
+            "protein",
+            "sirtuin",
+            "deacetylase"
+          ],
+          "filename": "SIRT1.md",
+          "path": "wiki/zh-TW/sirtuins/SIRT1.md"
+        }
+      },
+      "stats": {
+        "words": 6790,
+        "images": 0,
+        "links": 541,
+        "diagrams": 0
       }
     },
     {
@@ -65,6 +105,29 @@
       }
     },
     {
+      "id": "Cancer",
+      "langs": {
+        "en-US": {
+          "title": "Cancer",
+          "description": "Cancer is a large group of diseases characterized by uncontrolled cell growth with the potential to invade or spread to other parts of the body. It shares a \"meta-hallmark\" of epigenetic instabilit...",
+          "created": "2026-07-04",
+          "updated": "2026-09-30",
+          "tags": [
+            "medical-condition"
+          ],
+          "filename": "Cancer.md",
+          "path": "wiki/en-US/cancer/Cancer.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cancer/Cancer.md"
+        }
+      },
+      "stats": {
+        "words": 2744,
+        "images": 0,
+        "links": 322,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "SIRT3",
       "langs": {
         "en-US": {
@@ -94,49 +157,89 @@
         }
       },
       "stats": {
-        "words": 6106,
+        "words": 6012,
         "images": 0,
-        "links": 364,
+        "links": 355,
         "diagrams": 0
       }
     },
     {
-      "id": "SIRT1",
+      "id": "Autophagy",
       "langs": {
         "en-US": {
-          "title": "SIRT1",
-          "description": "Sirt1 is a NAD+-dependent class III histone deacetylase (sirtuin) and the most extensively characterized member of the Sirtuins family. It links cellular energy status to chromatin regulation, ...",
-          "created": "2026-07-06",
-          "updated": "2026-09-02",
+          "title": "Autophagy",
+          "description": "Cellular degradation pathway that delivers cytoplasmic material to lysosomes for recycling; maintains energy homeostasis and quality control.",
+          "created": "2026-07-04",
+          "updated": "2026-09-30",
           "tags": [
-            "gene",
-            "protein",
-            "sirtuin",
-            "deacetylase"
+            "biological-process",
+            "lysosome",
+            "degradation"
           ],
-          "filename": "SIRT1.md",
-          "path": "wiki/en-US/sirtuins/SIRT1.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/SIRT1.md"
+          "filename": "Autophagy.md",
+          "path": "wiki/en-US/autophagy/Autophagy.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/autophagy/Autophagy.md"
         },
         "zh-TW": {
-          "title": "SIRT1",
-          "description": "Sirt1 是 NAD+-依賴性第 III 類組蛋白去乙醯化酶（sirtuin），也是 Sirtuins 家族中被研究最廣泛的成員。它將細胞能量狀態與染色質調節、...",
-          "created": "2026-07-06",
-          "updated": "2026-09-02",
+          "title": "Autophagy",
+          "description": "細胞降解途徑，將胞質物質送往溶酶體以利回收； 維持能量恆定與品質控制。",
+          "created": "2026-07-04",
+          "updated": "2026-09-11",
           "tags": [
-            "gene",
-            "protein",
-            "sirtuin",
-            "deacetylase"
+            "biological-process",
+            "lysosome",
+            "degradation"
           ],
-          "filename": "SIRT1.md",
-          "path": "wiki/zh-TW/sirtuins/SIRT1.md"
+          "filename": "Autophagy.md",
+          "path": "wiki/zh-TW/autophagy/Autophagy.md"
         }
       },
       "stats": {
-        "words": 7270,
+        "words": 2934,
         "images": 0,
-        "links": 626,
+        "links": 229,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Senescence",
+      "langs": {
+        "en-US": {
+          "title": "Cellular Senescence",
+          "description": "Cellular Senescence is a state of permanent cell cycle arrest triggered by DNA damage, oxidative stress, telomere erosion, or oncogene activation. Senescent cells secrete a pro-inflammatory SASP that drives aging and tissue dysfunction.",
+          "created": "2026-07-04",
+          "updated": "2026-09-30",
+          "tags": [
+            "biological-process",
+            "senescence",
+            "cell-cycle",
+            "aging",
+            "chromatin"
+          ],
+          "filename": "Senescence.md",
+          "path": "wiki/en-US/senescence/Senescence.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/Senescence.md"
+        },
+        "zh-TW": {
+          "title": "Cellular Senescence",
+          "description": "細胞衰老是 DNA 損傷、氧化壓力、端粒耗損或致癌基因活化所觸發的永久性細胞週期停滯狀態。衰老細胞會分泌促發炎的衰老相關分泌表型（SASP），驅動老化與組織功能障礙。",
+          "created": "2026-07-04",
+          "updated": "2026-09-02",
+          "tags": [
+            "biological-process",
+            "senescence",
+            "cell-cycle",
+            "aging",
+            "chromatin"
+          ],
+          "filename": "Senescence.md",
+          "path": "wiki/zh-TW/senescence/Senescence.md"
+        }
+      },
+      "stats": {
+        "words": 3167,
+        "images": 0,
+        "links": 200,
         "diagrams": 0
       }
     },
@@ -211,40 +314,26 @@
       }
     },
     {
-      "id": "Autophagy",
+      "id": "SIRT2",
       "langs": {
         "en-US": {
-          "title": "Autophagy",
-          "description": "Cellular degradation pathway that delivers cytoplasmic material to lysosomes for recycling; maintains energy homeostasis and quality control.",
+          "title": "SIRT2",
+          "description": "SIRT2 (Sirtuin 2) is a member of the sirtuin family of NAD+-dependent deacetylases, primarily localized in the cytosol.",
           "created": "2026-07-04",
-          "updated": "2026-09-11",
+          "updated": "2026-09-30",
           "tags": [
-            "biological-process",
-            "lysosome",
-            "degradation"
+            "enzyme",
+            "nad-plus"
           ],
-          "filename": "Autophagy.md",
-          "path": "wiki/en-US/autophagy/Autophagy.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/autophagy/Autophagy.md"
-        },
-        "zh-TW": {
-          "title": "Autophagy",
-          "description": "細胞降解途徑，將胞質物質送往溶酶體以利回收； 維持能量恆定與品質控制。",
-          "created": "2026-07-04",
-          "updated": "2026-09-11",
-          "tags": [
-            "biological-process",
-            "lysosome",
-            "degradation"
-          ],
-          "filename": "Autophagy.md",
-          "path": "wiki/zh-TW/autophagy/Autophagy.md"
+          "filename": "SIRT2.md",
+          "path": "wiki/en-US/sirtuins/SIRT2.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/SIRT2.md"
         }
       },
       "stats": {
-        "words": 5129,
+        "words": 1930,
         "images": 0,
-        "links": 467,
+        "links": 115,
         "diagrams": 0
       }
     },
@@ -551,48 +640,6 @@
         "words": 492,
         "images": 0,
         "links": 45,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "Senescence",
-      "langs": {
-        "en-US": {
-          "title": "Cellular Senescence",
-          "description": "Cellular Senescence is a state of permanent cell cycle arrest triggered by DNA damage, oxidative stress, telomere erosion, or oncogene activation. Senescent cells secrete a pro-inflammatory SASP that drives aging and tissue dysfunction.",
-          "created": "2026-07-04",
-          "updated": "2026-09-02",
-          "tags": [
-            "biological-process",
-            "senescence",
-            "cell-cycle",
-            "aging",
-            "chromatin"
-          ],
-          "filename": "Senescence.md",
-          "path": "wiki/en-US/senescence/Senescence.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/Senescence.md"
-        },
-        "zh-TW": {
-          "title": "Cellular Senescence",
-          "description": "細胞衰老是 DNA 損傷、氧化壓力、端粒耗損或致癌基因活化所觸發的永久性細胞週期停滯狀態。衰老細胞會分泌促發炎的衰老相關分泌表型（SASP），驅動老化與組織功能障礙。",
-          "created": "2026-07-04",
-          "updated": "2026-09-02",
-          "tags": [
-            "biological-process",
-            "senescence",
-            "cell-cycle",
-            "aging",
-            "chromatin"
-          ],
-          "filename": "Senescence.md",
-          "path": "wiki/zh-TW/senescence/Senescence.md"
-        }
-      },
-      "stats": {
-        "words": 3523,
-        "images": 0,
-        "links": 260,
         "diagrams": 0
       }
     },

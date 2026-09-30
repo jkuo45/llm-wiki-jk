@@ -13,11 +13,6 @@ protected: true
 
 # SIRT3
 
-
-## 來自 [[SIRT3]]
-
-# SIRT3
-
 **SIRT3**（Sirtuin 3）是主要定位於[[Mitochondria]]內的 NAD⁺-依賴性去乙醯化酶。
 
 ## 功能
@@ -30,10 +25,6 @@ protected: true
 - 在[[Cancer]]細胞中，SIRT3 通常不活化，造成代謝缺乏彈性與基因體不穩定。
 - SIRT3 可促進[[Mitophagy]]以清除受損粒線體，維持細胞恆定。
 
-## 功能
-
-SIRT3 是粒線體 NAD⁺-依賴性去乙醯化酶，可活化[[Mitochondrial Complex I]]、[[MnSOD]]與脂肪酸氧化。它經去乙醯化[[FOXO3a]]來促進[[Mitophagy]]。
-
 ## IPA–AhR–NAD 軸（腸–心串擾）
 
 > [!info]
@@ -44,8 +35,6 @@ SIRT3 是粒線體 NAD⁺-依賴性去乙醯化酶，可活化[[Mitochondrial Co
 
 > [!info] 來源：[[_document_ - Mitochondrial Fusion and Fission The fine-tune balance for cellular homeostasis|Mitochondrial Fusion and Fission 綜述]]
 > SIRT3 在 [[OPA1]] 的 GTPase 效應結構域去乙醯化 Lys926 與 Lys931，提升 OPA1 的 GTPase 活性，於壓力下增強[[Mitochondrial Fusion|粒線體融合]]。
-
-# SIRT3
 
 **SIRT3**（Sirtuin 3）是**粒線體 sirtuin**，在系統發生分類上屬 **Class Ib**，與酵母 Hst2、[[SIRT2]]及其他真菌與原生生物的 sirtuin 並列。它是粒線體基質中的主要去乙醯化酶，在能量代謝、產熱、粒線體生成與活性氧物種（ROS）調節中扮演關鍵角色。
 
@@ -126,6 +115,9 @@ SIRT3 **降低粒線體膜電位**、**減少活性氧物種生成**，同時**�
 ## 人類長壽關聯
 
 _SIRT3_ 基因的一個變異——位於**第 5 內含子內的增強子**——與**男性壽命超過 90 歲**相關，直接將 SIRT3 與人類長壽聯繫起來。
+
+> [!info] 來源：[[_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases]]
+> Zhao et al. (2020) 指出 SIRT3 是與人類老化最相關的 sirtuin——SIRT3 基因座的多型性與老年人的存活相關（雖未被普遍重現）。SIRT3 活化 GDH 以促進由胺基酸的糖質新生，間接使 HIF1α 不穩定化以抑制糖解，且是預防老化期間心臟肥大所必需。
 
 ## 性別差異
 
@@ -352,6 +344,9 @@ SIRT3 透過產生[[OAADPr]]，可能與[[SIRT2]]共同調節 **TRPM2** 離子�
 
    - [[_document_ - The Sirtuin Network Linking NAD+ Metabolism, Mitochondrial Function, and Metabolic Homoeostasis|Sirtuin Network (Szczęsny-Małysiak et al., 2026)]]
 
+- [[_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases]]
+  - 將 SIRT3 多型性與人類長壽相連，詳述 GDH/PEPCK 的代謝角色、HIF1α 不穩定化，以及心臟肥大預防。
+
 - [[_document_ - Sirtuins, a promising target in slowing down the ageing process|Sirtuins, a promising target in slowing down the ageing process]]
   - 綜述（Grabowska et al., Biogerontology 2017）涵蓋 SIRT3 相互矛盾的人類長壽證據、其細胞核 H4K16/H3K9 去乙醯化、老化卵母細胞中表現下降，以及 SIRT3 缺失導致的 HIF-1α 活化。
 
@@ -383,9 +378,8 @@ SIRT3 透過產生[[OAADPr]]，可能與[[SIRT2]]共同調節 **TRPM2** 離子�
 - [[PYCR1]] — SIRT3 在 Lys228 去乙醯化 PYCR1，活化脯氨酸生物合成；癌症中的致癌軸
 - [[SHMT2]] — SIRT3 在 Lys95 去乙醯化 SHMT2，促進絲氨酸代謝與大腸直腸癌發生
 - [[Post-translational Modification]] — SIRT3 是經由去乙醯化 >100 種受質的主要粒線體修飾調節因子
-
-
-
+- [[Human aging]] — SIRT3 基因座多型性與老年人存活相關
+- [[Glutamate Dehydrogenase (GDH)]] — SIRT3 活化 GDH 以進行胺基酸糖質新生
 - [[Pyruvate Dehydrogenase|PDH]]：SIRT3 去乙醯化 PDH E1α，維持肌肉的葡萄糖氧化與代謝彈性
 - [[Metabolic Plasticity]] — SIRT3 將糖解↔OXPHOS 切換與氧化還原設定點耦合；視情境而定的腫瘤抑制因子／致癌基因
 - [[ME2]] — SIRT3 去乳酸化 ME2（K352），抑制腫瘤氧化還原維持與 CRC 生長
@@ -404,45 +398,27 @@ SIRT3 透過產生[[OAADPr]]，可能與[[SIRT2]]共同調節 **TRPM2** 離子�
 - [[BMAL1]] — 調節 Nampt 與 Slc25a51 的核心時鐘轉錄因子，將晝夜時序與 SIRT3 耦合
 - [[CD38]] — 隨年齡上調的 NAD⁺ 降解酵素；其升高在老化中耗竭 NAD⁺ 並抑制 SIRT3 活性
 
-## 連結摘要（致癌癌症角色）
+## 連結摘要
 
 - 新增連結：[[PYCR1]]、[[SHMT2]]、[[Post-translational Modification]]、[[Proline]]、[[Serine]]
 - 建議建立的新實體註記：[[PYCR1]]、[[SHMT2]]、[[Post-translational Modification]]（皆建立於 2026-08-31）
 - 應強化的重點連結：[[SIRT3]] ↔ [[PYCR1]]（脯氨酸生物合成中的 Lys228 去乙醯化）、[[SIRT3]] ↔ [[SHMT2]]（絲氨酸代謝中的 Lys95 去乙醯化）、[[SIRT3]] ↔ [[Post-translational Modification]]（SIRT3 作為主要的粒線體修飾抹除者）
 
-## 連結摘要
+### 致癌癌症角色
+
 - 新增連結：[[NAD+]]、[[OAADPr]]、[[Caloric Restriction]]、[[PGC-1α]]、[[SIRT1]]、[[SIRT2]]、[[SIRT4]]、[[SIRT5]]、[[Longevity]]、[[TRPM2]]、[[AceCS2]]
 - 建議建立的新實體註記：[[UCP1]]、[[Brown Adipose Tissue|棕色脂肪組織（BAT）]]
 - 應強化的重點連結：[[SIRT3]] ↔ [[Caloric Restriction]]、[[SIRT3]] ↔ [[Longevity]]、[[SIRT3]] ↔ [[AceCS2]]
 - 新增連結：[[Mitochondria]]、[[Reactive Oxygen Species]]、[[Caloric Restriction]]、[[Intermittent Fasting]]、[[Cancer]]、[[Mitophagy]]、[[Cellular Homeostasis]]
 - 建議建立的新實體註記： , [[Cellular Homeostasis]]
 
-## 連結摘要（疾病全景）
+### 疾病全景
 
 - 新增連結：[[Breast Cancer]]、[[Lung Cancer]]、[[Hepatocellular Carcinoma]]、[[Colorectal Cancer]]、[[Ovarian Cancer]]、[[Cervical Cancer]]、[[Glioma]]、[[Cardiac Hypertrophy]]、[[Cardiac Fibrosis]]、[[Heart Failure]]、[[Atherosclerosis]]、[[Myocardial Ischemia-Reperfusion Injury]]、[[Hypertension]]、[[COPD]]、[[Pulmonary Fibrosis]]、[[Asthma]]、[[Acute Lung Injury]]、[[COVID-19]]、[[Non-alcoholic Fatty Liver Disease]]、[[Hepatitis B]]、[[Alzheimer's Disease]]、[[Parkinson's Disease]]、[[Stroke]]、[[ALS]]、[[Epilepsy]]、[[Diabetes Mellitus]]、[[Diabetic Cardiomyopathy]]、[[Obesity]]、[[Acute Kidney Injury]]、[[Kidney Fibrosis]]、[[Kidney Stones]]、[[Vascular Calcification]]、[[Osteoarthritis]]、[[Intervertebral Disc Degeneration]]、[[Muscle Atrophy]]
 - 建議建立的新實體註記：[[Ovarian Cancer]]、[[Cervical Cancer]]、[[Hepatitis B]]、[[Diabetic Cardiomyopathy]]
 - 應強化的重點連結：[[SIRT3]] ↔ [[Acute Kidney Injury]]、[[SIRT3]] ↔ [[MnSOD]]、[[SIRT3]] ↔ [[Cardiac Hypertrophy]]、[[SIRT3]] ↔ [[Diabetic Cardiomyopathy]]
 
-# SIRT3
-
-SIRT3 是主要的粒線體 sirtuin，兼具去乙醯化酶與單 ADP-核糖基轉移酶活性。它調節粒線體代謝與產熱，並透過抑制[[Reactive Oxygen Species]]協助預防氧化壓力。它透過使[[HIF-1α]]不穩定化發揮腫瘤抑制作用。
-
-> [!info] 來源：[[_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases]]
-> Zhao et al. (2020) 指出 SIRT3 是與人類老化最相關的 sirtuin——SIRT3 基因座的多型性與老年人的存活相關（雖未被普遍重現）。SIRT3 活化 GDH 以促進由胺基酸的糖質新生，間接使 HIF1α 不穩定化以抑制糖解，且是預防老化期間心臟肥大所必需。
-
-## 文件
-
-- [[_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases]]
-  - 將 SIRT3 多型性與人類長壽相連，詳述 GDH/PEPCK 的代謝角色、HIF1α 不穩定化，以及心臟肥大預防。
-
-## 連結
-
-- [[Human aging]] — SIRT3 基因座多型性與老年人存活相關
-- [[Glutamate Dehydrogenase (GDH)]] — SIRT3 活化 GDH 以進行胺基酸糖質新生
-- [[HIF-1α]] — SIRT3 使 HIF1α 不穩定化，抑制糖解
-- [[Cardiac Hypertrophy]] — SIRT3 預防老化期間的心臟肥大
-
-## 連結摘要（代謝可塑性 × 氧化還原平衡）
+### 代謝可塑性 × 氧化還原平衡
 
 2026-08-31 豐富化，交叉引用 SIRT3 對代謝可塑性與氧化還原平衡的調節，及其受腫瘤類型、發育期別與微環境的影響。
 
@@ -454,7 +430,7 @@ SIRT3 是主要的粒線體 sirtuin，兼具去乙醯化酶與單 ADP-核糖基�
   - [[SIRT3]] ↔ [[SLC25A22]] — 去乙醯化–泛素化串擾；鐵死亡防禦（LUAD）
   - [[SIRT3]] ↔ [[Tumor-Associated Macrophage]] — SENP1-SIRT3-膽固醇軸使 TAMs 呈免疫抑制性極化
 
-## 連結摘要（時空調節）
+### 時空調節
 
 2026-08-31 依據關於 SIRT3 活性時空調節的網路研究進行豐富化。
 
@@ -469,7 +445,3 @@ SIRT3 是主要的粒線體 sirtuin，兼具去乙醯化酶與單 ADP-核糖基�
   - [[SIRT3]] ↔ [[SUMOylation]] — Lys288 抑制性標記，禁食期間由 SENP1 抹除
   - [[SIRT3]] ↔ [[Circadian Rhythm]] — CLOCK/BMAL1–NAMPT–NAD⁺ 震盪閘控每日 SIRT3 活性
   - [[SIRT3]] ↔ [[CD38]] — 年齡依賴的 NAD⁺ 耗竭抑制 SIRT3
-
-
-
-

@@ -95,7 +95,42 @@ SASP 高度異質，隨誘導因子、細胞類型與時間而異。它可能有
 > [!important]
 > 衰老細胞次型的性別分布（雌性：p16+；雄性：p53/p21+）是衰老細胞清除試驗選擇生物標記的實用指引：以 p16 為基礎的衰老細胞清除藥物，可能在雌性占主導的 p16+ 組織中最有用；p53/p21 標的策略則反之。
 
-#
+
+[[Cellular Senescence]] 是一種永久性細胞週期停滯狀態，由多種壓力源觸發，包括[[DNA Damage|DNA 損傷]]、[[Oxidative Stress|氧化壓力]]、端粒耗損與致癌基因活化。衰老細胞分泌一種複雜混合物，稱為[[SASP|衰老相關分泌表型]]（SASP），包含促發炎細胞激素、趨化因子與基質金屬蛋白酶，它在[[Aging|老化]]過程中驅動[[Inflammation|發炎]]與組織功能障礙。一旦停滯，衰老細胞會抵抗細胞凋亡並可持續數年，在組織中累積，成為年齡相關疾病的重大促成因素。
+
+
+## 引發因素與效應途徑
+
+衰老透過典型的腫瘤抑制臂啟動：
+
+- **DNA 損傷／端粒功能障礙**：持續的病灶活化[[p53]]，p53 誘導[[p21 CIP1|p21]]^CIP1^，強制停滯。
+- **致癌基因誘導性衰老**：過度活化的 Ras/RAF 或 PTEN 缺失，經由 p53/p21 與[[p16INK4A|p16]]^INK4a^/RB 觸發停滯。
+- **複製性衰老**：端粒縮短最終會啟動相同的效應器。
+- **粒線體／代謝壓力**：升高的[[Reactive Oxygen Species|ROS]]與 NAD⁺ 下降促進衰老狀態。
+
+p53/p21 與 p16/RB 途徑是衰老生長停滯的核心調節者，而 SASP 則受 NF-κB、C/EBPβ、p38 MAPK、mTOR 與 cGAS–STING 轉錄程式所支配。
+
+## 與 Sirtuin 的關聯
+
+sirtuin 對衰老施以細膩、情境依賴的控制：
+
+- [[SIRT1]]具雙重角色：依情境不同，它既能抑制也能促進衰老。SIRT1 透過去乙醯化[[p53]]與[[FOXO3a]]（削弱停滯與氧化損傷）來抑制衰老，但也可經由[[PML]]小體形成以及強化特定分化／停滯程式來促進衰老。
+- [[SIRT6]]缺乏會加速[[Cellular Senescence]]，並經由[[LINE-1]]反轉錄轉座元件解抑制與[[Heterochromatin|異染色質]]流失，驅動早衰表型，損害基因體穩定性。
+- [[SIRT3]]耗竭會增加粒線體[[Reactive Oxygen Species|ROS]]，促成壓力誘導的衰老，並強化粒線體健康與停滯之間的關聯。
+- [[SIRT2]]與其他家族成員調節衰老相關的微管與代謝變化。
+
+這些關係使 sirtuin 既是對抗衰老的緩衝者（SIRT1/p53 緩衝、SIRT3 ROS 控制），在特定情境下也是衰老的執行者。
+
+## 衰老與老化
+
+衰老細胞的累積是老化與年齡相關疾病（癌症、纖維化、神經退化、動脈粥狀硬化）的標誌。SASP 使發炎持續不退，並可在鄰近細胞誘導衰老（「旁觀者」效應）。減少衰老負荷的介入——「衰老細胞清除藥物」——或活化 sirtuin 以削弱 SASP 與氧化損傷，都是活躍的老年科學策略。
+
+## 保護性介入
+
+- [[Caloric Restriction]]與[[Intermittent Fasting]]經由 SIRT1/[[NAD+]]依賴途徑與氧化壓力降低，延遲衰老的發生。
+- [[Autophagy]]在衰老中常失調，受 SIRT1 促進；恢復自噬流有助於清除受損細胞器並限制 SASP。
+- [[NAD+]]前體（例如[[Nicotinamide Mononucleotide|NMN]]、[[Nicotinamide Riboside|NR]]）旨在恢復 sirtuin 活性並減輕衰老相關的功能障礙。
+
 
 ## 文件
 
@@ -139,6 +174,21 @@ SASP 高度異質，隨誘導因子、細胞類型與時間而異。它可能有
   - [[_document_ - Mitochondrial Drivers Stem Cell Aging Inflammaging Bautista 2026]]
     - 粒線體功能障礙相關衰老（MiDAS）由 AMPK–p53 訊號所驅動的 NAD+/氧化還原崩潰引發，並耦合到具有衰減的 IL-1 依賴發炎臂之獨特 SASP。
 
+  - [[_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks|Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks]]
+    - 目前共發現九項老化標誌，包括細胞間通訊改變、營養感知失調、幹細胞耗竭、細胞衰老、粒線體功能障礙增加、蛋白質恆定性明顯流失、端粒...
+
+  - [[_document_ - The Gut Microbiome, Aging, and Longevity A Systematic Review|The Gut Microbiome, Aging, and Longevity A Systematic Review]]
+    - 主要的細胞與分子老化標誌包括基因體不穩定性、端粒耗損、表觀遺傳改變與蛋白質恆定性流失，進而導致補償機制，例如營養感知失調、粒線體功能障礙與 C...
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+     - 自噬藉由消除受損的細胞成分來控制細胞衰老，並經由 mTOR 受 Akt 訊號負向調節。SIRT6 過度表現經由削弱 IGF1 (IGF1)/Akt/mTOR 訊號誘導自噬。
+
+  - [[_document_ - cellular_senescence_ipf_diseases-14-00201|Cellular Senescence in IPF (Baurzhan et al., 2026)]]
+    - 將 IPF 衰老重新框定為系統層級、自我強化的網絡（DDR→端粒→粒線體→NF-κB→SASP→TGF-β），而非被動老化。
+
+  - [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression|The role of the dynamic epigenetic landscape in senescence: orchestrating SASP expression (Dasgupta et al., 2024)]]
+    - 完整綜述衰老細胞中的表觀遺傳重編程（染色質區室化、SAHF/SADS 形成、組蛋白修飾／變體、DNA 甲基化、反轉錄轉座元件解抑制）如何編排 SASP 的表現；並定位表觀遺傳調節劑為潛在的衰老表型調節劑。
+
 ## 連結
 - [[Aging]]：衰老細胞的累積是組織老化與年齡相關疾病的主要驅動因素。
 - [[Cancer]]：衰老最初是癌症的屏障，但後續可經由 SASP 促進腫瘤生長。
@@ -179,81 +229,6 @@ SASP 高度異質，隨誘導因子、細胞類型與時間而異。它可能有
 - [[Mitochondrial ROS]]：功能障礙粒線體的 ROS 活化 p53 與 p16 途徑
 - [[Mitochondrial DNA]]：mtDNA 釋放活化 cGAS–STING，強化衰老
 
-## 連結摘要
-- 新增連結：[[Chromatin]], [[Epigenetics]], [[SASP|衰老相關分泌表型]], [[SAHF]], [[Lamin B1]], [[Heterochromatin]], [[Histone Modification]], [[LINE-1]], [[Methylation]], [[Aging]], [[Genomic Instability]], [[Cancer]], [[p53]], [[Cellular Reprogramming]], [[DNA Damage]], [[Fibroblasts]], [[Reactive Oxygen Species]], [[Telomere Attrition]], [[p16INK4A|p16]], [[p21 CIP1|p21]], [[Retinoblastoma Protein|Rb]], [[DNA Damage Response]], [[Oxidative Stress]], [[Inflammaging]], [[Senolytic Therapy]], [[Senomorphic Therapy]], [[Osteoarthritis]], [[Histone H3]], [[E2F]], [[Cyclin-Dependent Kinase 2|CDK2]], [[Cyclin-Dependent Kinase 4|CDK4]], [[Cyclin-Dependent Kinase 6|CDK6]], [[Oncogene-Induced Senescence|OIS]], [[Paracrine Senescence]], [[Epigenetic Alterations]], [[SASP|衰老相關分泌表型]], [[Senescence-Associated Heterochromatin Foci]], [[Histone Variant]], [[DNA Methylation]], [[LINE-1]], [[cGAS-STING Pathway]], [[Cytoplasmic Chromatin Fragments]], [[BRD4]], [[KDM4]], [[EZH2]], [[AP-1]], [[NF-κB]], [[RB1]], [[SIRT6]], [[Inflammaging]], [[Replicative Senescence]], [[Stress-Induced Premature Senescence]], [[Oncogene-Induced Senescence]], [[Therapy-Induced Senescence]], [[Immunosenescence]], [[Senolytic Therapy]], [[Senomorphic Therapy]].
-- 建議建立的新實體註記：[[Telomere Attrition]], [[cGAS-STING Pathway]], [[Senescence-associated mitochondrial dysfunction|SAMD]].
-  - 性別差異補充（2026-09-02）：加入性別特異的衰老累積（雄性較早／雌性追上）、p16+（雌性）/p21-p53+（雄性）臂的主導性、雌性 p16+ 清除的效益，以及 cGAS–STING/NF-κB 的性別二態性。
-  - 應強化的重點連結：[[Senescence]] ↔ [[Aging]], [[Senescence]] ↔ 自噬, [[Senescence]] ↔ [[SASP|衰老相關分泌表型]], [[Senescence]] ↔ [[Senolytic Therapy]], [[Senescence]] ↔ [[Senomorphic Therapy]]
-
-# 細胞衰老
-
-[[Cellular Senescence]] 是一種永久性細胞週期停滯狀態，由多種壓力源觸發，包括[[DNA Damage|DNA 損傷]]、[[Oxidative Stress|氧化壓力]]、端粒耗損與致癌基因活化。衰老細胞分泌一種複雜混合物，稱為[[SASP|衰老相關分泌表型]]（SASP），包含促發炎細胞激素、趨化因子與基質金屬蛋白酶，它在[[Aging|老化]]過程中驅動[[Inflammation|發炎]]與組織功能障礙。一旦停滯，衰老細胞會抵抗細胞凋亡並可持續數年，在組織中累積，成為年齡相關疾病的重大促成因素。
-
-## 衰老的類型
-
-不同類型的衰老在歷史上以其誘導因子命名：
-
-- **複製性衰老**：細胞在培養中持續傳代，直到因端粒縮短而達到不可逆的增殖停滯
-- **致癌基因誘導性衰老（OIS）**：細胞過度表現致癌基因，主要為 RAS、RAF 或 MYC；產生最高的 SASP 基因表現
-- **治療誘導性衰老（TIS）**：細胞暴露於高但非致死劑量的藥物或化學物質；組成取決於治療是否誘導基因毒性壓力
-- **粒線體功能障礙誘導性衰老（MiDAS）**：細胞經歷深刻的粒線體擾動；伴隨獨特的 p53 依賴性分泌表型
-- **免疫學誘導的衰老**：細胞暴露於過多的促發炎因子；伴隨與 WNT 訊號相關的獨特 SASP 成分
-
-所有這些狀態共享共同標記（p21、p16、SA-β-gal、SASP），但也具有獨特特徵，突顯體內衰老表型可能具有高度異質性。
-
-## 引發因素與效應途徑
-
-衰老透過典型的腫瘤抑制臂啟動：
-
-- **DNA 損傷／端粒功能障礙**：持續的病灶活化[[p53]]，p53 誘導[[p21 CIP1|p21]]^CIP1^，強制停滯。
-- **致癌基因誘導性衰老**：過度活化的 Ras/RAF 或 PTEN 缺失，經由 p53/p21 與[[p16INK4A|p16]]^INK4a^/RB 觸發停滯。
-- **複製性衰老**：端粒縮短最終會啟動相同的效應器。
-- **粒線體／代謝壓力**：升高的[[Reactive Oxygen Species|ROS]]與 NAD⁺ 下降促進衰老狀態。
-
-p53/p21 與 p16/RB 途徑是衰老生長停滯的核心調節者，而 SASP 則受 NF-κB、C/EBPβ、p38 MAPK、mTOR 與 cGAS–STING 轉錄程式所支配。
-
-## 與 Sirtuin 的關聯
-
-sirtuin 對衰老施以細膩、情境依賴的控制：
-
-- [[SIRT1]]具雙重角色：依情境不同，它既能抑制也能促進衰老。SIRT1 透過去乙醯化[[p53]]與[[FOXO3a]]（削弱停滯與氧化損傷）來抑制衰老，但也可經由[[PML]]小體形成以及強化特定分化／停滯程式來促進衰老。
-- [[SIRT6]]缺乏會加速[[Cellular Senescence]]，並經由[[LINE-1]]反轉錄轉座元件解抑制與[[Heterochromatin|異染色質]]流失，驅動早衰表型，損害基因體穩定性。
-- [[SIRT3]]耗竭會增加粒線體[[Reactive Oxygen Species|ROS]]，促成壓力誘導的衰老，並強化粒線體健康與停滯之間的關聯。
-- [[SIRT2]]與其他家族成員調節衰老相關的微管與代謝變化。
-
-這些關係使 sirtuin 既是對抗衰老的緩衝者（SIRT1/p53 緩衝、SIRT3 ROS 控制），在特定情境下也是衰老的執行者。
-
-## 衰老與老化
-
-衰老細胞的累積是老化與年齡相關疾病（癌症、纖維化、神經退化、動脈粥狀硬化）的標誌。SASP 使發炎持續不退，並可在鄰近細胞誘導衰老（「旁觀者」效應）。減少衰老負荷的介入——「衰老細胞清除藥物」——或活化 sirtuin 以削弱 SASP 與氧化損傷，都是活躍的老年科學策略。
-
-## 保護性介入
-
-- [[Caloric Restriction]]與[[Intermittent Fasting]]經由 SIRT1/[[NAD+]]依賴途徑與氧化壓力降低，延遲衰老的發生。
-- [[Autophagy]]在衰老中常失調，受 SIRT1 促進；恢復自噬流有助於清除受損細胞器並限制 SASP。
-- [[NAD+]]前體（例如[[Nicotinamide Mononucleotide|NMN]]、[[Nicotinamide Riboside|NR]]）旨在恢復 sirtuin 活性並減輕衰老相關的功能障礙。
-
-## 文件
-
-提及此實體的文件清單
-
-  - [[_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks|Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks]]
-    - 目前共發現九項老化標誌，包括細胞間通訊改變、營養感知失調、幹細胞耗竭、細胞衰老、粒線體功能障礙增加、蛋白質恆定性明顯流失、端粒...
-
-  - [[_document_ - The Gut Microbiome, Aging, and Longevity A Systematic Review|The Gut Microbiome, Aging, and Longevity A Systematic Review]]
-    - 主要的細胞與分子老化標誌包括基因體不穩定性、端粒耗損、表觀遺傳改變與蛋白質恆定性流失，進而導致補償機制，例如營養感知失調、粒線體功能障礙與 C...
-
-  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
-     - 自噬藉由消除受損的細胞成分來控制細胞衰老，並經由 mTOR 受 Akt 訊號負向調節。SIRT6 過度表現經由削弱 IGF1 (IGF1)/Akt/mTOR 訊號誘導自噬。
-
-  - [[_document_ - cellular_senescence_ipf_diseases-14-00201|Cellular Senescence in IPF (Baurzhan et al., 2026)]]
-    - 將 IPF 衰老重新框定為系統層級、自我強化的網絡（DDR→端粒→粒線體→NF-κB→SASP→TGF-β），而非被動老化。
-
-  - [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression|The role of the dynamic epigenetic landscape in senescence: orchestrating SASP expression (Dasgupta et al., 2024)]]
-    - 完整綜述衰老細胞中的表觀遺傳重編程（染色質區室化、SAHF/SADS 形成、組蛋白修飾／變體、DNA 甲基化、反轉錄轉座元件解抑制）如何編排 SASP 的表現；並定位表觀遺傳調節劑為潛在的衰老表型調節劑。
-
-## 連結
-
 - [[Aging]] — 衰老細胞累積是老化與年齡相關疾病的標誌
 - [[p53]]/p21 與 p16/RB — 衰老細胞週期停滯的核心調節者
 - [[Autophagy]] — 在衰老中常失調；SIRT1 依賴性自噬隨年齡下降
@@ -272,6 +247,11 @@ sirtuin 對衰老施以細膩、情境依賴的控制：
 - [[Senolytic]]：消除衰老細胞的治療方法；與衰老表型調節劑相對。
 
 ## 連結摘要
+
+- 新增連結：[[Chromatin]], [[Epigenetics]], [[SASP|衰老相關分泌表型]], [[SAHF]], [[Lamin B1]], [[Heterochromatin]], [[Histone Modification]], [[LINE-1]], [[Methylation]], [[Aging]], [[Genomic Instability]], [[Cancer]], [[p53]], [[Cellular Reprogramming]], [[DNA Damage]], [[Fibroblasts]], [[Reactive Oxygen Species]], [[Telomere Attrition]], [[p16INK4A|p16]], [[p21 CIP1|p21]], [[Retinoblastoma Protein|Rb]], [[DNA Damage Response]], [[Oxidative Stress]], [[Inflammaging]], [[Senolytic Therapy]], [[Senomorphic Therapy]], [[Osteoarthritis]], [[Histone H3]], [[E2F]], [[Cyclin-Dependent Kinase 2|CDK2]], [[Cyclin-Dependent Kinase 4|CDK4]], [[Cyclin-Dependent Kinase 6|CDK6]], [[Oncogene-Induced Senescence|OIS]], [[Paracrine Senescence]], [[Epigenetic Alterations]], [[SASP|衰老相關分泌表型]], [[Senescence-Associated Heterochromatin Foci]], [[Histone Variant]], [[DNA Methylation]], [[LINE-1]], [[cGAS-STING Pathway]], [[Cytoplasmic Chromatin Fragments]], [[BRD4]], [[KDM4]], [[EZH2]], [[AP-1]], [[NF-κB]], [[RB1]], [[SIRT6]], [[Inflammaging]], [[Replicative Senescence]], [[Stress-Induced Premature Senescence]], [[Oncogene-Induced Senescence]], [[Therapy-Induced Senescence]], [[Immunosenescence]], [[Senolytic Therapy]], [[Senomorphic Therapy]].
+- 建議建立的新實體註記：[[Telomere Attrition]], [[cGAS-STING Pathway]], [[Senescence-associated mitochondrial dysfunction|SAMD]].
+  - 性別差異補充（2026-09-02）：加入性別特異的衰老累積（雄性較早／雌性追上）、p16+（雌性）/p21-p53+（雄性）臂的主導性、雌性 p16+ 清除的效益，以及 cGAS–STING/NF-κB 的性別二態性。
+  - 應強化的重點連結：[[Senescence]] ↔ [[Aging]], [[Senescence]] ↔ 自噬, [[Senescence]] ↔ [[SASP|衰老相關分泌表型]], [[Senescence]] ↔ [[Senolytic Therapy]], [[Senescence]] ↔ [[Senomorphic Therapy]]
 
 - 新增連結：[[SIRT1]], [[SIRT6]], [[SIRT3]], [[SIRT2]], [[FOXO3a]], [[PML]], [[p53]], [[LINE-1]], [[Heterochromatin]], [[Autophagy]], [[Caloric Restriction]], [[Intermittent Fasting]], [[Oxidative Stress]], [[DNA Damage]], [[Reactive Oxygen Species]], [[Aging]], [[Inflammation]], [[SASP|衰老相關分泌表型]], [[Nicotinamide Mononucleotide]], [[Nicotinamide Riboside]]
 - 建議建立的新實體註記：[[Senolytics]], [[SASP Regulators]], [[p16INK4a]]
