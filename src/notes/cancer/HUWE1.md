@@ -31,7 +31,7 @@ HUWE1 functions as a HECT E3 ubiquitin ligase, catalyzing the transfer of ubiqui
 
 ## Regulation
 
-HUWE1 activity is controlled at multiple levels. [[AKT]]-mediated phosphorylation enhances HUWE1 stability and catalytic activity. The BH3-only proteins [[Noxa]] and [[Bik]] bind to [[Mcl-1]], displacing it from [[Bak]]/[[Bax]] and simultaneously allowing HUWE1 access to ubiquitinate and degrade Mcl-1. Conversely, ARF directly interacts with HUWE1 to inhibit p53 ubiquitination, providing a mechanism for p53 stabilization in response to oncogenic stress. [[USP9X]], a deubiquitinating enzyme, can remove ubiquitin chains from Mcl-1, counteracting HUWE1 activity and stabilizing Mcl-1.
+HUWE1 activity is controlled at multiple levels. [[Akt]]-mediated phosphorylation enhances HUWE1 stability and catalytic activity. The BH3-only proteins [[Noxa]] and [[Bik]] bind to [[Mcl-1]], displacing it from [[Bak]]/[[Bax]] and simultaneously allowing HUWE1 access to ubiquitinate and degrade Mcl-1. Conversely, ARF directly interacts with HUWE1 to inhibit p53 ubiquitination, providing a mechanism for p53 stabilization in response to oncogenic stress. [[USP9X]], a deubiquitinating enzyme, can remove ubiquitin chains from Mcl-1, counteracting HUWE1 activity and stabilizing Mcl-1.
 
 ## Relevance in Cancer
 
@@ -67,5 +67,5 @@ List of documents that mention this entity
 ## Linking Summary
 
 - New links added: [[Mcl-1]], [[Apoptosis]], [[Ubiquitination]], [[p53]], [[c-Myc]], [[BRCA1]], [[BH3 domain]], [[Noxa]], [[Bik]], [[USP9X]], [[NF-κB]], [[ARF]], [[Lung Cancer]], [[ovarian cancer]], [[BH3 mimetics]], [[ABT-263]], [[ABT-737]]
-- Suggested new entity notes to create: [[AKT]], [[CDC6]], [[Bcl-10]], [[N-Myc]], [[Histone H2A]], [[Histone H2B]]
+- Suggested new entity notes to create: [[Akt]], [[CDC6]], [[Bcl-10]], [[N-Myc]], [[Histone H2A]], [[Histone H2B]]
 - Strong connections to strengthen: [[Mcl-1]] ↔ [[HUWE1]] — HUWE1 is the primary E3 ligase for Mcl-1 degradation, critical for apoptosis regulation

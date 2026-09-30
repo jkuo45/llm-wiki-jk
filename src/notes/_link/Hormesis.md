@@ -45,8 +45,8 @@ The overcompensation hypothesis posits that a mild disruption to homeostasis tri
 ### Stress Response Pathways
 Multiple conserved signaling cascades mediate hormetic effects:
 - **[[NRF2]]/[[ARE]]**: Master regulator of electrophilic and oxidative stress resistance. Briefly induced, it upregulates [[NQO1]], [[HO-1]], [[Glutathione S-transferase]], and [[Catalase]].
-- **[[Heat shock response]]**: [[HSF1]] activation drives [[HSP70]], [[Hsp90]], and other chaperones that restore proteostasis.
-- **[[Unfolded Protein Response]] (UPR)**: Both [[ER Stress]] ([[PERK]]/[[ATF6]]/[[IRE1α]]) and [[Mitochondrial UPR]] (UPRmt) branches are engaged.
+- **[[Heat shock response]]**: [[HSF1]] activation drives [[HSP70]], [[HSP90β]], and other chaperones that restore proteostasis.
+- **[[Unfolded Protein Response]] (UPR)**: Both [[ER Stress]] ([[PERK]]/[[ATF6α]]/[[IRE1α]]) and [[Mitochondrial UPR]] (UPRmt) branches are engaged.
 - **[[Autophagy]] and [[Mitophagy]]**: [[AMPK]] and [[SIRT1]] activate the ULK1 complex and [[TFEB]] for lysosomal biogenesis.
 - **[[DNA Damage Response]]**: [[ATM]]/[[ATR]] and [[FOXO]] transcription factors coordinate DNA repair and antioxidant gene expression.
 ## Examples Across Biological Systems
@@ -130,9 +130,9 @@ List of documents that mention this entity
 - [[Heat shock response]] — interacts with Hormesis
 - [[HSF1]] — interacts with Hormesis
 - [[HSP70]] — interacts with Hormesis
-- [[Hsp90]] — interacts with Hormesis
+- [[HSP90β]] — interacts with Hormesis
 - [[Unfolded Protein Response]] — interacts with Hormesis
 ## Linking Summary
-- New links added: [[Mitohormesis]], [[Xenohormesis]], [[Oxidative Stress]], [[Longevity]], [[NRF2]], [[ARE]], [[NQO1]], [[HO-1]], [[Glutathione S-transferase]], [[Catalase]], [[HSF1]], [[HSP70]], [[Hsp90]], [[Unfolded Protein Response]], [[PERK]], [[ATF6]], [[IRE1α]], [[Autophagy]], [[Mitophagy]], [[AMPK]], [[SIRT1]], [[TFEB]], [[DNA Damage Response]], [[ATM]], [[ATR]], [[FOXO]], [[Mitochondrial Biogenesis]], [[Insulin Sensitivity]], [[Resveratrol]], [[Sulforaphane]], [[Curcumin]], [[Epicatechin]], [[Mithridatism]], [[Mithridates VI]], [[Antidotum Mithridaticum]], [[Hormetic Window]], [[Incoherent Bivalent Motif]], [[Biphasic Dose-Response Curve]], [[Saturated Enzymatic Regime]], [[IC50]], [[Kinase Inhibitor]]
+- New links added: [[Mitohormesis]], [[Xenohormesis]], [[Oxidative Stress]], [[Longevity]], [[NRF2]], [[ARE]], [[NQO1]], [[HO-1]], [[Glutathione S-transferase]], [[Catalase]], [[HSF1]], [[HSP70]], [[HSP90β]], [[Unfolded Protein Response]], [[PERK]], [[ATF6α]], [[IRE1α]], [[Autophagy]], [[Mitophagy]], [[AMPK]], [[SIRT1]], [[TFEB]], [[DNA Damage Response]], [[ATM]], [[ATR]], [[FOXO]], [[Mitochondrial Biogenesis]], [[Insulin Sensitivity]], [[Resveratrol]], [[Sulforaphane]], [[Curcumin]], [[Epicatechin]], [[Mithridatism]], [[Mithridates VI]], [[Antidotum Mithridaticum]], [[Hormetic Window]], [[Incoherent Bivalent Motif]], [[Biphasic Dose-Response Curve]], [[Saturated Enzymatic Regime]], [[IC50]], [[Kinase Inhibitor]]
 - Suggested new entity notes to create: [[Arndt-Schulz Law]], [[Biphasic dose response]], [[Overcompensation Hypothesis]]
   - Strong connections to strengthen: [[Hormesis]] ↔ Evolutionary Biology, [[Hormesis]] ↔ Mithridatism, [[Hormesis]] ↔ Hormetic Window, [[Hormesis]] ↔ [[Oxidative Stress]], [[Hormesis]] ↔ [[Hormesis in Non-Mitochondrial Systems]], [[Hormesis]] ↔ [[Antioxidant Supplementation Paradox]]

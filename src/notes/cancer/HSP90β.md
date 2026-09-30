@@ -1,11 +1,11 @@
 ---
 title: HSP90β
-description: HSP90β is a cytosolic chaperone protein that acts as an Apaf-1 inhibitor, suppressing Apaf-1 oligomerization and Apoptosome formation in tyrosine kinase-induced leukemias.
+description: HSP90β is a cytosolic chaperone protein that acts as an Apaf-1 inhibitor, suppressing Apaf-1 oligomerization and Apoptosome formation in tyrosine kinase-induced leukemias. One of two cytosolic HSP90 isoforms (the other HSP90α, encoded by HSP90AA1).
 created: 2026-07-06
-updated: 2026-07-07
+updated: 2026-09-29
 tags:
   - protein
-aliases: []
+aliases: [Hsp90, HSP90AB1, Heat Shock Protein 90 beta]
 ---
 
 # HSP90β
@@ -14,7 +14,7 @@ aliases: []
 
 ## Structure & Mechanism
 
-HSP90β is an ~90 kDa dimeric ATPase with N-terminal ATP-binding, middle, and C-terminal dimerization/co-chaperone-binding domains. Its chaperone cycle is driven by ATP hydrolysis and regulated by co-chaperones (HOP, CDC37, p23, AHA1) and post-translational modifications. By stabilizing labile clients such as [[EGFR]], [[HER2]], [[AKT]], [[BCR-ABL]], mutated [[p53]], and [[MET]], HSP90β maintains oncogenic signaling and prevents client degradation by the proteasome.
+HSP90β is an ~90 kDa dimeric ATPase with N-terminal ATP-binding, middle, and C-terminal dimerization/co-chaperone-binding domains. Its chaperone cycle is driven by ATP hydrolysis and regulated by co-chaperones (HOP, CDC37, p23, AHA1) and post-translational modifications. By stabilizing labile clients such as [[EGFR]], [[HER2]], [[Akt]], [[BCR-ABL]], mutated [[p53]], and [[MET]], HSP90β maintains oncogenic signaling and prevents client degradation by the proteasome.
 
 ## Apaf-1 Inhibition & Apoptosis Regulation
 
@@ -44,12 +44,16 @@ List of documents that mention this entity
 - [[Apoptosis]]: Death program restrained by HSP90β.
 - [[EGFR]]: Oncogenic HSP90β client.
 - [[HER2]]: HSP90β-stabilized receptor.
-- [[AKT]]: Client whose stability depends on HSP90β.
+- [[Akt]]: Client whose stability depends on HSP90β.
 - [[p53]]: Mutant client stabilized by HSP90β.
 - [[Chemotherapy]]: Resistance linked to HSP90β overexpression.
 
 ## Linking Summary
 
-- New links added: [[Apaf-1]], [[Apoptosome]], [[leukemia]], [[Apoptosis]], [[EGFR]], [[HER2]], [[AKT]], [[p53]], [[MET]], [[Chemotherapy]], [[AUY922]], [[ganetespib]], [[BCR-ABL]]
+- New links added: [[Apaf-1]], [[Apoptosome]], [[leukemia]], [[Apoptosis]], [[EGFR]], [[HER2]], [[Akt]], [[p53]], [[MET]], [[Chemotherapy]], [[AUY922]], [[ganetespib]], [[BCR-ABL]]
 - Suggested new entity notes to create: [[HSP90α]], [[CDC37]], [[SMAC Mimetics]]
-- Strong connections to strengthen: [[HSP90β]] ↔ [[Apaf-1], [[HSP90β]] ↔ [[Apoptosis]
+- Strong connections to strengthen: [[HSP90β]] ↔ [[Apaf-1]], [[HSP90β]] ↔ [[Apoptosis]]
+- Absorbed a duplicate `Hsp90.md` on 2026-09-29. That file was 348 words of templated
+  placeholder text with a self-referential Connections section; its 51 inbound links
+  now resolve here via the `Hsp90` alias. The family/isoform distinction is real
+  (see [[HSP90α]]) but the old note carried no isoform-specific content to preserve.

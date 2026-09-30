@@ -4,10 +4,10 @@ description: Akt (also known as Protein Kinase B or PKB) is a serine/threonine-s
   protein kinase that plays a key role in multiple cellular processes such as glucose
   metabolism, apoptosis, cell prolif...
 created: 2026-05-29
-updated: 2026-07-16
+updated: 2026-09-29
 tags:
   - protein
-aliases: []
+aliases: [AKT, PKB, Protein Kinase B, Akt1, Akt2, Akt3, p56 kinase]
 ---
 
 # Akt

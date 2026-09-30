@@ -59,7 +59,7 @@ mesenchymal cells that populate the cardiac jelly.
 
 In the adult, the same machinery is reactivated by injury. The trigger is
 usually a combination of TGF-β and pro-inflammatory co-signals, with
-[[Notch Signaling|notch]], [[FGF]], [[Wnt]], and PI3K/[[AKT]] acting as
+[[Notch Signaling|notch]], [[FGF]], [[Wnt]], and PI3K/[[Akt]] acting as
 modulators. Arsenic trioxide, for example, drives EndoMT in human aortic
 endothelial cells through an AKT/GSK-3beta/Snail axis, and blocking that axis
 with a PI3K inhibitor abolishes the transition.

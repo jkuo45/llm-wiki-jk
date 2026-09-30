@@ -81,7 +81,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[ASC]] | Protein | Apoptosis-associated speck-like protein containing a CARD; the adaptor that nucleates inflammasome assembly and ASC specks downstream of AIM2/NLRP3. |
 | [[ASF1a]] | Protein | Anti-silencing function 1a histone chaperone that hands off H3.3–H4 to the HIRA complex and is essential for SAHF formation in senescent cells. |
 | [[ATF4]] | Protein | ATF4 (Activating Transcription Factor 4) is a stress-induced transcription factor that serves as a central hub for the Integrated Stress Response (ISR) in mammals. |
-| [[ATF6]] | Protein | Overview: ATF6 is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cell... |
+| [[ATF6α]] | Protein | Overview: ATF6 is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cell... |
 | [[Atg14L]] | Protein | A mammalian-specific subunit of the Vps34–Beclin 1 complex that directs autophagosome formation and endosome–autophagosome fusion to the phagophore. |
 | [[ATM]] | Protein | ATM (Ataxia-Telangiectasia Mutated) is a ~350 kDa serine/threonine protein kinase belonging to the PI3K-related kinase (PIKK) family. It functions as the master initiator of the DNA Damage Resp... |
 | [[ATR]] | Protein | Ataxia Telangiectasia and Rad3-related protein kinase, a central sensor of replication stress and single-stranded DNA that activates the DNA damage checkpoint and drives senescence |
@@ -187,7 +187,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Hrk]] | Protein | Overview: Hrk is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cell ... |
 | [[HSF1]] | Protein | Overview: HSF1 is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cell... |
 | [[HSP27]] | Protein | Small heat-shock protein (HSPB1) chaperone; stabilizes SASP mRNAs via the p38/MK2 axis and marks senescence. |
-| [[Hsp90]] | Protein | Overview: Hsp90 is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cel... |
+| [[HSP90β]] | Protein | Overview: Hsp90 is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cel... |
 | [[HSPA8]] | Protein | Heat shock cognate protein 70 (HSPA8 / HSC70), a constitutively expressed HSP70 family chaperone that bridges ATM and p38 MAPK signaling and is the interaction node disrupted by apigenin to suppres... |
 | [[Human Growth Hormone]] | Protein | A pituitary peptide hormone that promotes somatic growth; indirectly activates mTOR and is considered a pro-aging hormone when elevated exogenously. |
 | [[Human Serum Albumin]] | Protein | Human serum albumin (HSA) is the most abundant plasma protein and a biocompatible nanocarrier used for drug delivery, including fisetin-loaded HSA nanoparticles. |

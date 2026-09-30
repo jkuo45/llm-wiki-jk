@@ -34,7 +34,7 @@ BCL-2 family and mitochondrial gatekeepers: [[Bcl-2 family]], [[Bcl-2]], [[Bcl-w
 
 Death-receptor and necrosome signaling: [[TNFR1]], [[TNFR1 complex I]], [[TNFR1 complex II]], [[RIPK3]], [[MLKL]], [[FasL]], [[TRAIL]].
 
-Necroptosis regulators and sensors (mostly `_link/`): [[ZBP1]], [[TRIF]], [[PANoptosis]], [[PANoptosome]], [[CYLD]], [[OTULIN]], [[TRIM21]], [[RSK3]], [[CSNK1G2]], [[TAM Kinases]], [[PGAM5]], [[Pyruvate Dehydrogenase]], [[Hsp90]], [[BRD4]].
+Necroptosis regulators and sensors (mostly `_link/`): [[ZBP1]], [[TRIF]], [[PANoptosis]], [[PANoptosome]], [[CYLD]], [[OTULIN]], [[TRIM21]], [[RSK3]], [[CSNK1G2]], [[TAM Kinases]], [[PGAM5]], [[Pyruvate Dehydrogenase]], [[HSP90β]], [[BRD4]].
 
 Necroptosis tools and modulators (mostly `_link/`): [[GSK872]], [[GSK840]], [[Zharp-99]], [[HG-9-91-01]], [[Apelin]], [[TRPM7]].
 

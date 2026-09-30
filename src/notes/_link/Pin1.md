@@ -57,14 +57,14 @@ Pin1 recognizes pSer/pThr-Pro motifs and isomerizes the peptide bond, inducing c
 - [[Cyclin D1]] — Cell cycle regulator stabilized by Pin1
 - [[NF-κB]] — Transcription factor regulated by Pin1
 - [[PI3K]] — Upstream oncogenic pathway driving Pin1 expression
-- [[AKT]] — Upstream oncogenic pathway driving Pin1 expression
+- [[Akt]] — Upstream oncogenic pathway driving Pin1 expression
 - [[MAPK]] — Signaling network integrated by Pin1
 - [[Chemotherapy]] — Pin1 inhibition explored to overcome therapeutic resistance
 - [[Peptidyl-prolyl Isomerase]] — Enzyme class to which Pin1 belongs
 
 ## Linking Summary
 
-- New links added: [[BAX]], [[ERK2]], [[GM-CSF]], [[JNK]], [[p38 MAPK]], [[Apoptosis]], [[Cancer]], [[p53]], [[c-Myc]], [[Cyclin D1]], [[NF-κB]], [[PI3K]], [[AKT]], [[MAPK]], [[Chemotherapy]], [[Peptidyl-prolyl Isomerase]]
+- New links added: [[BAX]], [[ERK2]], [[GM-CSF]], [[JNK]], [[p38 MAPK]], [[Apoptosis]], [[Cancer]], [[p53]], [[c-Myc]], [[Cyclin D1]], [[NF-κB]], [[PI3K]], [[Akt]], [[MAPK]], [[Chemotherapy]], [[Peptidyl-prolyl Isomerase]]
 - Suggested new entity notes to create: [[PPIase]], [[Prolyl isomerization]], [[Cyclin D1]]
 - Strong connections to strengthen:
     - [[Pin1]] ↔ [[BAX]]

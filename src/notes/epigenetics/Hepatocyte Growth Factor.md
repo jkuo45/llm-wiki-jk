@@ -18,7 +18,7 @@ HGF is synthesized primarily by mesenchymal cells (fibroblasts, stromal cells, a
 
 ## Mechanism of Action
 
-HGF binds the Sema/PSI/IG domains of [[c-Met]], inducing receptor dimerization and trans-autophosphorylation. Signaling propagates through [[RAS]]–[[MAPK]] (proliferation), [[PI3K]]–[[AKT]] (survival), [[STAT]] (invasion), and [[GAB1]] scaffolding (branching morphogenesis), with extensive crosstalk to [[Integrin]] and [[FAK Signaling]] pathways that couple extracellular adhesion to motility. HGF uniquely drives "scattering" — the dissociation of epithelial sheets into motile single cells — and tubulogenesis, distinguishing it from classic mitogens.
+HGF binds the Sema/PSI/IG domains of [[c-Met]], inducing receptor dimerization and trans-autophosphorylation. Signaling propagates through [[RAS]]–[[MAPK]] (proliferation), [[PI3K]]–[[Akt]] (survival), [[STAT]] (invasion), and [[GAB1]] scaffolding (branching morphogenesis), with extensive crosstalk to [[Integrin]] and [[FAK Signaling]] pathways that couple extracellular adhesion to motility. HGF uniquely drives "scattering" — the dissociation of epithelial sheets into motile single cells — and tubulogenesis, distinguishing it from classic mitogens.
 
 ## Physiological Function
 
@@ -47,6 +47,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[c-Met]], [[MET gene]], [[Liver Regeneration]], [[Cell Migration]], [[Muscle Stem Cell]], [[Mesenchymal Stromal Cells]], [[Extracellular Matrix]], [[Integrin]], [[FAK Signaling]], [[RAS]], [[MAPK]], [[PI3K]], [[AKT]], [[STAT]], [[GAB1]], [[HGF Activator]], [[Heparan Sulfate Proteoglycan]], [[Angiogenesis]], [[Quiescence]], [[Regenerative Medicine]], [[Cancer]], [[Rejuvenation]], [[Aging]], [[Induced Pluripotent Stem Cells]], [[Reprogramming]]
+- New links added: [[c-Met]], [[MET gene]], [[Liver Regeneration]], [[Cell Migration]], [[Muscle Stem Cell]], [[Mesenchymal Stromal Cells]], [[Extracellular Matrix]], [[Integrin]], [[FAK Signaling]], [[RAS]], [[MAPK]], [[PI3K]], [[Akt]], [[STAT]], [[GAB1]], [[HGF Activator]], [[Heparan Sulfate Proteoglycan]], [[Angiogenesis]], [[Quiescence]], [[Regenerative Medicine]], [[Cancer]], [[Rejuvenation]], [[Aging]], [[Induced Pluripotent Stem Cells]], [[Reprogramming]]
 - Suggested new entity notes to create: [[Scatter Factor]], [[HGF Activator]], [[HGFA Inhibitor 1]]
 - Strong connections to strengthen: [[Hepatocyte Growth Factor]] ↔ [[c-Met]], [[Hepatocyte Growth Factor]] ↔ [[Extracellular Matrix]]

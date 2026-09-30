@@ -47,10 +47,10 @@ List of documents that mention this entity
 - [[Ragulator]]: Positions mTORC1 at the lysosome for Rheb activation.
 - [[Autophagy]]: Suppressed by active Rheb–mTORC1.
 - [[AMPK]]: Inhibits Rheb via TSC2 under energy stress.
-- [[AKT]]: Inhibits TSC2 to activate Rheb.
+- [[Akt]]: Inhibits TSC2 to activate Rheb.
 
 ## Linking Summary
 
-- New links added: [[TSC1]], [[TSC2]], [[AMPK]], [[AKT]]
+- New links added: [[TSC1]], [[TSC2]], [[AMPK]], [[Akt]]
 - Suggested new entity notes to create: [[Tuberous sclerosis complex]], [[Gator1/2]]
 - Strong connections to strengthen: [[Rheb]] ↔ [[mTORC1]], [[Rheb]] ↔ [[TSC2]]

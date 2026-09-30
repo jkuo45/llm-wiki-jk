@@ -57,7 +57,7 @@ sympathetic outflow and energy expenditure.
 
 ## Parallel arms and their roles
 
-- **[[PI3K]]/[[AKT]]** — engaged via IRS proteins and [[SH2B1]]. Contributes to
+- **[[PI3K]]/[[Akt]]** — engaged via IRS proteins and [[SH2B1]]. Contributes to
   leptin's effects on glucose handling and on the reproductive axis; dispensable
   for the feeding response.
 - **SHP2/PTPN11 → [[RAS]]/[[MAPK]]/[[ERK]]** — historically proposed as a
@@ -166,6 +166,6 @@ the HPG axis is a major site of leptin action, and leptin deficiency
 
 ## Linking Summary
 
-- New links added: [[Leptin]], [[JAK2]], [[STAT3]], [[Hypothalamus]], [[PI3K]], [[AKT]], [[MAPK]], [[ERK]], [[AMPK]], [[S6K1]], [[STAT5]], [[Arcuate Nucleus]], [[POMC]], [[Obelin]], [[SH2B1]], [[PTPN11]], [[SHP2]], [[RAS]], [[SOCS3]], [[PTP1B]], [[ER Stress]], [[Unfolded Protein Response]], [[Toll-like Receptor]], [[NF-κB]], [[Tumor Necrosis Factor Alpha]], [[Insulin Receptor]], [[Insulin Resistance]], [[Obesity]], [[Adipose Tissue]], [[mTOR]], [[RANKL]], [[T Helper Cell]], [[Innate Immunity]], [[XBP1]], [[CHOP]]
+- New links added: [[Leptin]], [[JAK2]], [[STAT3]], [[Hypothalamus]], [[PI3K]], [[Akt]], [[MAPK]], [[ERK]], [[AMPK]], [[S6K1]], [[STAT5]], [[Arcuate Nucleus]], [[POMC]], [[Obelin]], [[SH2B1]], [[PTPN11]], [[SHP2]], [[RAS]], [[SOCS3]], [[PTP1B]], [[ER Stress]], [[Unfolded Protein Response]], [[Toll-like Receptor]], [[NF-κB]], [[Tumor Necrosis Factor Alpha]], [[Insulin Receptor]], [[Insulin Resistance]], [[Obesity]], [[Adipose Tissue]], [[mTOR]], [[RANKL]], [[T Helper Cell]], [[Innate Immunity]], [[XBP1]], [[CHOP]]
 - Suggested notes to create: [[SH2B1]], [[POMC]], [[NPY]], [[AgRP]], [[Leptin Resistance]], [[LepRa]], [[Metreleptin]], [[Lipodystrophy]], [[XBP1]], [[CHOP]], [[Unfolded Protein Response]], [[JAK2-STAT Signaling]], [[Arcuate Nucleus]]
 - Strong connections to strengthen: [[Leptin Signaling]] ↔ [[Leptin]], [[Leptin Signaling]] ↔ [[PTP1B]], [[Leptin Signaling]] ↔ [[SOCS3]]

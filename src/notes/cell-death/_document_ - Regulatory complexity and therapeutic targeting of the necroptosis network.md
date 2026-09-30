@@ -26,7 +26,7 @@ Frontiers in Immunology review synthesizing the canonical and non-canonical rout
 
 ## Introduction
 
-Necroptosis is a regulated lytic death typically activated when apoptotic signaling is inhibited. First recognized as antiviral host defense, it is now a pathogenic driver in inflammatory, cardiovascular, neurodegenerative, and malignant disease, while retaining protective roles in acute injury, infection, and reproduction. The canonical pathway — most characterized downstream of TNF — proceeds through Complex I, the [[Ripoptosome]] (Complex IIb), and finally the [[necrosome]], in which [[RIPK1]] and [[RIPK3]] phosphorylate [[MLKL]] to permeabilize the plasma membrane. Beyond TNF, viral nucleic acids activate [[ZBP1]] and [[Toll-like Receptor|TLR]] engagement ([[TLR3]]/[[TLR4]]) uses [[TRIF]], both converging on RIPK3–MLKL. Core-machinery activity is tuned by phosphorylation, ubiquitination, and modulatory proteins ([[TRIM21]], [[Akt]], [[Hsp90]]), and by crosstalk with other death and inflammatory pathways.
+Necroptosis is a regulated lytic death typically activated when apoptotic signaling is inhibited. First recognized as antiviral host defense, it is now a pathogenic driver in inflammatory, cardiovascular, neurodegenerative, and malignant disease, while retaining protective roles in acute injury, infection, and reproduction. The canonical pathway — most characterized downstream of TNF — proceeds through Complex I, the [[Ripoptosome]] (Complex IIb), and finally the [[necrosome]], in which [[RIPK1]] and [[RIPK3]] phosphorylate [[MLKL]] to permeabilize the plasma membrane. Beyond TNF, viral nucleic acids activate [[ZBP1]] and [[Toll-like Receptor|TLR]] engagement ([[TLR3]]/[[TLR4]]) uses [[TRIF]], both converging on RIPK3–MLKL. Core-machinery activity is tuned by phosphorylation, ubiquitination, and modulatory proteins ([[TRIM21]], [[Akt]], [[HSP90β]]), and by crosstalk with other death and inflammatory pathways.
 
 ## Canonical and alternative pathways of necroptosis induction
 
@@ -85,7 +85,7 @@ Beyond MLKL, RIPK3 phosphorylates substrates linking death to broader dysfunctio
 Core node: RIPK3 phosphorylation of the MLKL activation loop (human Thr357/Ser358) → conformational change, oligomerization, membrane translocation. Additional layers:
 
 - **Transcriptional:** [[BRD4]] binds the MLKL promoter to promote expression.
-- **Protein stability:** [[Hsp90]] binds MLKL, protecting it from proteasomal degradation and facilitating activation/translocation.
+- **Protein stability:** [[HSP90β]] binds MLKL, protecting it from proteasomal degradation and facilitating activation/translocation.
 - **Other kinases:** during phagocytosis, [[TAM Kinases]] (Tyro3, Axl, Mer) are activated by exposed phosphatidylserine and can phosphorylate MLKL; RIPK1 can also phosphorylate MLKL under specific (particularly murine) conditions.
 - **Pharmacology:** the salt-inducible kinase inhibitor HG-9-91-01 suppresses necroptosis by disrupting RIPK3/MLKL interaction; ketamine suppresses necroptosis by reducing ROS-dependent MLKL phosphorylation.
 
@@ -168,7 +168,7 @@ Work supported by the Key Project of International Scientific and Technological 
 - [[Caspase-8]] / [[c-FLIP]] / [[FADD]] — apoptosis–necroptosis switch.
 - [[CYLD]], [[OTULIN]], [[TRIM21]], [[DAPK]], [[SHP1]], [[PI3K]], [[Akt]] — ubiquitination/phosphorylation regulators of RIPK1.
 - [[RSK3]], [[CSNK1G2]], [[PGAM5]], [[CaMKII]], [[Pyruvate Dehydrogenase]] — RIPK3 regulators/substrates.
-- [[BRD4]], [[Hsp90]], [[TAM Kinases]], [[MFN2]] — MLKL regulators and context-specific effectors.
+- [[BRD4]], [[HSP90β]], [[TAM Kinases]], [[MFN2]] — MLKL regulators and context-specific effectors.
 - [[PANoptosis]] / [[PANoptosome]] — co-execution of necroptosis, apoptosis, and pyroptosis.
 - [[Necrostatin-1]], [[Necrosulfonamide]] — tool/lead inhibitors.
 - [[Apoptosis]], [[Autophagy]], [[Inflammation]], [[NF-κB]] — crosstalk nodes.
@@ -180,4 +180,4 @@ Work supported by the Key Project of International Scientific and Technological 
 - Enriched entity notes: Necroptosis, RIPK1, RIPK3, MLKL, necrosome, ZBP1, TRIF, PANoptosis, Necrostatin-1, Necrosulfonamide, CYLD, OTULIN, TRIM21, RSK3, CSNK1G2, PGAM5, Pyruvate Dehydrogenase, CaMKII, TAM Kinases, Hsp90, BRD4, cIAPs.
 - Resolves the pre-existing red link in [[cIAPs]] to this document.
 - Suggested new entity notes (Step 3): none outstanding — [[Apelin]], [[GSK840]], [[Zharp-99]], [[HG-9-91-01]], [[TRPM7]] created 2026-09-14.
-- Strong connections to strengthen: [[Necroptosis]] ↔ [[RIPK3]], [[Necroptosis]] ↔ [[ZBP1]], [[Necroptosis]] ↔ [[TRIF]], [[MLKL]] ↔ [[Hsp90]], [[RIPK1]] ↔ [[CYLD]]/[[TRIM21]].
+- Strong connections to strengthen: [[Necroptosis]] ↔ [[RIPK3]], [[Necroptosis]] ↔ [[ZBP1]], [[Necroptosis]] ↔ [[TRIF]], [[MLKL]] ↔ [[HSP90β]], [[RIPK1]] ↔ [[CYLD]]/[[TRIM21]].

@@ -20,7 +20,7 @@ aliases:
 
 ## Mechanism and Aging Relevance
 
-Growth hormone signaling activates the [[mTOR]] pathway downstream of IGF-1/[[AKT]], promoting anabolic growth. Chronically elevated GH/IGF-1 signaling is associated with increased cancer risk and shortened lifespan, contrasting with the growth-suppressive, life-extending effects of [[Rapamycin]]-mediated mTOR inhibition. The popularity of HGH for anti-aging rests largely on a single publication later criticized for misinterpreting acute effects.
+Growth hormone signaling activates the [[mTOR]] pathway downstream of IGF-1/[[Akt]], promoting anabolic growth. Chronically elevated GH/IGF-1 signaling is associated with increased cancer risk and shortened lifespan, contrasting with the growth-suppressive, life-extending effects of [[Rapamycin]]-mediated mTOR inhibition. The popularity of HGH for anti-aging rests largely on a single publication later criticized for misinterpreting acute effects.
 
 > [!warning] Pro-aging, not anti-aging
 > Unlike rapamycin, HGH accelerates aging via mTOR activation; it is cited as a cautionary "empty promise" alongside [[Antioxidant]] in the longevity literature.
@@ -58,7 +58,7 @@ List of documents in the wiki that mention this entity
 ## Connections
 
   - [[mTOR]] — indirectly activated by GH/IGF-1 signaling
-  - [[AKT]] — upstream node linking GH to mTOR
+  - [[Akt]] — upstream node linking GH to mTOR
   - [[Rapamycin]] — opposite, life-extending mTOR inhibitor
   - [[Antioxidant]] — fellow "empty promise" in anti-aging discourse
   - [[IGF1]] — principal downstream effector of GH
@@ -74,6 +74,6 @@ List of documents in the wiki that mention this entity
 
 ## Linking Summary
 
-  - New links added: [[mTOR]], [[AKT]], [[Rapamycin]], [[Antioxidant]], [[IGF1]], [[Thymus]], [[Thymopoiesis]], [[IL-7]], [[Thymic Epithelial Cells]], [[Ghrelin]], [[Hematopoiesis]], [[Bone Marrow]], [[T Lymphocyte]], [[HIV]]
+  - New links added: [[mTOR]], [[Akt]], [[Rapamycin]], [[Antioxidant]], [[IGF1]], [[Thymus]], [[Thymopoiesis]], [[IL-7]], [[Thymic Epithelial Cells]], [[Ghrelin]], [[Hematopoiesis]], [[Bone Marrow]], [[T Lymphocyte]], [[HIV]]
   - Suggested new entity notes to create: none (all created)
   - Strong connections to strengthen: [[Human Growth Hormone]] ↔ [[mTOR]], [[Human Growth Hormone]] ↔ [[Rapamycin]], [[Human Growth Hormone]] ↔ [[IGF1]], [[Human Growth Hormone]] ↔ [[Thymus]]

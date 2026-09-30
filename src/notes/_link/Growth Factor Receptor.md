@@ -70,6 +70,6 @@ Signalling is switched off as deliberately as it is on. [[PTEN]] dephosphorylate
 - [[Angiogenesis]] — VEGF receptor signalling on endothelium is the most therapeutically exploited growth factor receptor axis in the vault.
 
 ## Linking Summary
-- New links added: [[Receptor Tyrosine Kinases]], [[EGFR]], [[Kinase]], [[Tyrosine Kinase]], [[PI3K-Akt Signaling]], [[ERK Signaling]], [[PTEN]], [[SHP2]], [[MDM2]], [[Insulin Receptor]], [[IGF1R]], [[TGF-beta Receptor]], [[Calcium Signaling]], [[Angiogenesis]], [[Hsp90]], [[JAK2]], [[Leptin Signaling]]
+- New links added: [[Receptor Tyrosine Kinases]], [[EGFR]], [[Kinase]], [[Tyrosine Kinase]], [[PI3K-Akt Signaling]], [[ERK Signaling]], [[PTEN]], [[SHP2]], [[MDM2]], [[Insulin Receptor]], [[IGF1R]], [[TGF-beta Receptor]], [[Calcium Signaling]], [[Angiogenesis]], [[HSP90β]], [[JAK2]], [[Leptin Signaling]]
 - Suggested notes to create: [[EGF]], [[PDGF]], [[VEGFR]], [[c-Met]], [[HGF]], [[SH2 Domain]], [[PTB Domain]], [[Grb2]], [[SHC]], [[SOS]], [[Cbl]], [[Endosomal Signalling]], [[Receptor Downregulation]], [[Neuregulin]]
-- Strong connections to strengthen: [[Growth Factor Receptor]] ↔ [[EGFR]], [[Growth Factor Receptor]] ↔ [[Hsp90]], [[Growth Factor Receptor]] ↔ [[PI3K-Akt Signaling]]
+- Strong connections to strengthen: [[Growth Factor Receptor]] ↔ [[EGFR]], [[Growth Factor Receptor]] ↔ [[HSP90β]], [[Growth Factor Receptor]] ↔ [[PI3K-Akt Signaling]]

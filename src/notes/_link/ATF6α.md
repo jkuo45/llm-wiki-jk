@@ -64,6 +64,8 @@ spliced XBP1, which the literature calls the "XBP1 arm" proper.
 
 - [[UPRE]] — the ATF6α/XBP1 binding element in ER stress-responsive promoters, including
   that of TFEB; this is the direct DNA-level output of ATF6α activation.
+- [[ATF6α]] — the shorter form of the same gene; ATF6α is the dominant, better-studied
+  isoform of the ATF6 UPR transducer and is the referent for links to this note.
 
 ## Connections
 
@@ -88,3 +90,6 @@ spliced XBP1, which the literature calls the "XBP1 arm" proper.
 - Suggested notes to create: [[Site-1 Protease]], [[Site-2 Protease]], [[ER-associated
   Degradation]], [[ATF6β]], [[MBTPS1]]
 - Strong connections to strengthen: [[ATF6α]] ↔ [[XBP1]], [[ATF6α]] ↔ [[UPRE]]
+- Absorbed a duplicate `ATF6.md` on 2026-09-29. That file was 184 words of templated
+  placeholder text with a self-referential Connections section and carried no facts
+  this note lacks; the `ATF6` alias resolves the old links.

@@ -12,7 +12,7 @@ aliases: [AKT1S1]
 
 # PRAS40
 
-Proline-rich AKT substrate 40 kDa (PRAS40), encoded by AKT1S1, is a stoichiometric subunit and intrinsic negative regulator of [[mTORC1]]. It inhibits the complex by occupying the substrate-binding site on [[Raptor]], blocking access of mTORC1 substrates such as S6K1 and 4E-BP1. Growth-factor signaling through [[AKT]] phosphorylates PRAS40 at threonine 246 (T246), triggering its dissociation from mTORC1 and de-repression of kinase activity, thereby coupling insulin/IGF-1 and survival signals to anabolic growth and suppression of [[Autophagy]].
+Proline-rich AKT substrate 40 kDa (PRAS40), encoded by AKT1S1, is a stoichiometric subunit and intrinsic negative regulator of [[mTORC1]]. It inhibits the complex by occupying the substrate-binding site on [[Raptor]], blocking access of mTORC1 substrates such as S6K1 and 4E-BP1. Growth-factor signaling through [[Akt]] phosphorylates PRAS40 at threonine 246 (T246), triggering its dissociation from mTORC1 and de-repression of kinase activity, thereby coupling insulin/IGF-1 and survival signals to anabolic growth and suppression of [[Autophagy]].
 
 ## Structure & Interaction
 
@@ -37,7 +37,7 @@ List of documents that mention this entity
 ## Connections
 
 - [[mTORC1]]: PRAS40 is a core inhibitory subunit that blocks substrate binding until displaced.
-- [[AKT]]: Phosphorylates PRAS40 at T246 to relieve mTORC1 inhibition.
+- [[Akt]]: Phosphorylates PRAS40 at T246 to relieve mTORC1 inhibition.
 - [[Raptor]]: mTORC1 scaffold to which PRAS40 binds as a pseudosubstrate plug.
 - [[TFEB]]: Downstream autophagy factor repressed when PRAS40 displacement activates mTORC1.
 - [[Autophagy]]: Catabolic program restrained while PRAS40 keeps mTORC1 off; induced when PRAS40 releases.
@@ -46,6 +46,6 @@ List of documents that mention this entity
 - [[Cancer]]: AKT/PRAS40 axis sustains mTORC1 growth and suppresses autophagy.
 
 ## Linking Summary
-- New links added: [[mTORC1]], [[AKT]], [[Raptor]], [[TFEB]], [[Autophagy]], [[AMPK]], [[Insulin Resistance]], [[Cancer], [Aging], [Neurodegeneration]]
-- Suggested new entity notes to create: [[AKT]], [[14-3-3 Proteins]], [[S6K1]]
-- Strong connections to strengthen: [[PRAS40]] ↔ [[mTORC1]], [[PRAS40]] ↔ [[AKT]]
+- New links added: [[mTORC1]], [[Akt]], [[Raptor]], [[TFEB]], [[Autophagy]], [[AMPK]], [[Insulin Resistance]], [[Cancer], [Aging], [Neurodegeneration]]
+- Suggested new entity notes to create: [[Akt]], [[14-3-3 Proteins]], [[S6K1]]
+- Strong connections to strengthen: [[PRAS40]] ↔ [[mTORC1]], [[PRAS40]] ↔ [[Akt]]

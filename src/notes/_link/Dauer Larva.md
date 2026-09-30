@@ -58,6 +58,6 @@ The dauer programme is, mechanistically, an early version of several of this vau
 - [[Model Organisms]] — dauer is one of the specific, tractable experimental features of the worm as a model, alongside the short life span, transparent body, and hermaphrodite genetics.
 
 ## Linking Summary
-- New links added: [[Caenorhabditis elegans]], [[DAF-2]], [[DAF-7]], [[DAF-16]], [[FOXO]], [[Insulin Receptor]], [[HSP70]], [[HSP27]], [[Hsp90]], [[Model Organisms]], [[Nematode]], [[Proteostasis]], [[Autophagy]], [[Spermidine]], [[Hypusination]], [[Lifespan]], [[Intermittent Fasting]], [[Hormesis]]
-- Suggested notes to create: [[Insulin/IGF-1 Signalling]], [[DAF-12]], [[Dauer Formation]], [[Quiescence]], [[Lipolysis]], [[Heat Shock Factor 1]], [[Phasmidia]], [[Germline Quiescence]], [[Insulin/IGF-1 Signalling]], [[Hsp90]]
+- New links added: [[Caenorhabditis elegans]], [[DAF-2]], [[DAF-7]], [[DAF-16]], [[FOXO]], [[Insulin Receptor]], [[HSP70]], [[HSP27]], [[HSP90β]], [[Model Organisms]], [[Nematode]], [[Proteostasis]], [[Autophagy]], [[Spermidine]], [[Hypusination]], [[Lifespan]], [[Intermittent Fasting]], [[Hormesis]]
+- Suggested notes to create: [[Insulin/IGF-1 Signalling]], [[DAF-12]], [[Dauer Formation]], [[Quiescence]], [[Lipolysis]], [[Heat Shock Factor 1]], [[Phasmidia]], [[Germline Quiescence]], [[Insulin/IGF-1 Signalling]], [[HSP90β]]
 - Strong connections to strengthen: [[DAF-2]] ↔ [[FOXO]], [[Dauer Larva]] ↔ [[Autophagy]], [[DAF-16]] ↔ [[HSP70]]

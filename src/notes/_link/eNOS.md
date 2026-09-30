@@ -19,7 +19,7 @@ eNOS is a multidomain enzyme with an N-terminal oxygenase domain (containing hem
 - **Ca²⁺/Calmodulin**: Transient increases in intracellular Ca²⁺ trigger calmodulin binding, enabling electron flow from the reductase to oxygenase domain.
 - **Phosphorylation**: Activating phosphorylation at Ser1177 (by [[Akt]]/PKB, [[AMPK]], [[PKA]]) increases electron flux; inhibitory phosphorylation at Thr495 decreases activity.
 - **Subcellular Localization**: eNOS is targeted to plasma membrane caveolae via N-myristoylation and palmitoylation, where interaction with [[Caveolin-1]] maintains it in an inactive state; Ca²⁺/calmodulin binding displaces caveolin.
-- **Protein Interactions**: [[Hsp90]] and [[Dynamin-2]] enhance activity.
+- **Protein Interactions**: [[HSP90β]] and [[Dynamin-2]] enhance activity.
 ## Physiological Functions
 - **Vasodilation**: eNOS produces NO that activates soluble guanylyl cyclase (sGC) in vascular smooth muscle, raising cGMP → vasorelaxation.
 - **Platelet Inhibition**: NO inhibits platelet adhesion and aggregation.

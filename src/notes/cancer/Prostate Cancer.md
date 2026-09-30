@@ -15,7 +15,7 @@ Prostate cancer is a malignant neoplasm derived from the epithelial cells of the
 
 ## Etiology & Pathophysiology
 
-Risk factors include age, family history, germline variants in [[BRCA1]]/[[BRCA2]] and other DNA-repair genes, and androgen exposure. On a molecular level, early disease depends on AR transcriptional activity; later stages sustain signaling through AR amplification, splice variants (e.g., AR-V7), intratumoral androgen synthesis, and bypass pathways involving [[PI3K]]/[[AKT]] and [[MAPK]]. Genomic instability and [[Inflammation]] within the tumor microenvironment further promote evolution to CRPC and [[EMT]]-associated invasion.
+Risk factors include age, family history, germline variants in [[BRCA1]]/[[BRCA2]] and other DNA-repair genes, and androgen exposure. On a molecular level, early disease depends on AR transcriptional activity; later stages sustain signaling through AR amplification, splice variants (e.g., AR-V7), intratumoral androgen synthesis, and bypass pathways involving [[PI3K]]/[[Akt]] and [[MAPK]]. Genomic instability and [[Inflammation]] within the tumor microenvironment further promote evolution to CRPC and [[EMT]]-associated invasion.
 
 ## Clinical Presentation & Biomarkers
 
@@ -96,7 +96,7 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Prostate Cancer]], [[Androgen Receptor]], [[Enzalutamide]], [[docetaxel]], [[Ivermectin]], [[HSP27]], [[Metastasis]], [[BRCA1]], [[BRCA2]], [[PSA (Prostate-Specific Antigen)]], [[EMT]], [[Inflammation]], [[PI3K]], [[AKT]], [[MAPK]], [[Hallmarks of Cancer]]
+- New links added: [[Prostate Cancer]], [[Androgen Receptor]], [[Enzalutamide]], [[docetaxel]], [[Ivermectin]], [[HSP27]], [[Metastasis]], [[BRCA1]], [[BRCA2]], [[PSA (Prostate-Specific Antigen)]], [[EMT]], [[Inflammation]], [[PI3K]], [[Akt]], [[MAPK]], [[Hallmarks of Cancer]]
 - Sex-difference enrichment (2026-09-02): framed prostate cancer as the male-specific (androgen–AR) pole of hormone-driven cancer biology; cross-linked androgen–[[mTORC1]] coupling and the mirror relationship with [[Breast Cancer]] (estrogen pole).
 - Suggested new entity notes to create: [[Castration-Resistant Prostate Cancer]], [[AR-V7]], [[Androgen Deprivation Therapy]]
 - Strong connections to strengthen: [[Prostate Cancer]] ↔ [[Ivermectin]], [[Prostate Cancer]] ↔ [[Androgen Receptor]], [[Prostate Cancer]] ↔ [[Metastasis]]

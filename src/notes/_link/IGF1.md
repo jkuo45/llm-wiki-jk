@@ -114,7 +114,7 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Human Growth Hormone]], [[AKT]], [[mTOR]], [[Thymus]], [[Thymic Epithelial Cells]], [[IL-7]], [[T Lymphocyte]], [[Thymopoiesis]], [[Rapamycin]], [[IGF1R]], [[IGFBP3]], [[Insulin]], [[Autophagy]], [[PI3K]], [[Akt]], [[mTORC1]], [[FoxO1]], [[Caloric Restriction]], [[Intermittent Fasting]], [[Longevity]], [[Cancer]], [[PI3K-Akt Signaling]]
+- New links added: [[Human Growth Hormone]], [[Akt]], [[mTOR]], [[Thymus]], [[Thymic Epithelial Cells]], [[IL-7]], [[T Lymphocyte]], [[Thymopoiesis]], [[Rapamycin]], [[IGF1R]], [[IGFBP3]], [[Insulin]], [[Autophagy]], [[PI3K]], [[Akt]], [[mTORC1]], [[FoxO1]], [[Caloric Restriction]], [[Intermittent Fasting]], [[Longevity]], [[Cancer]], [[PI3K-Akt Signaling]]
 - Suggested new entity notes to create: none
 - Strong connections to strengthen:
   - [[IGF1]] ↔ [[Human Growth Hormone]]

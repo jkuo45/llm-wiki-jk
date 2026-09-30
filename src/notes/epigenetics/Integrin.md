@@ -20,7 +20,7 @@ Each integrin is a non-covalently associated αβ pair. The α subunit contains 
 
 Integrin signaling is bidirectional:
 
-- **Outside-in**: ECM ligand binding induces conformational extension, clustering, and recruitment of the [[Focal Adhesion]] machinery — [[FAK Signaling]] (focal adhesion kinase), [[Src]], paxillin, talin, and kindlin — which organize actin stress fibers and activate [[RAS]], [[MAPK]], and [[PI3K]]–[[AKT]] pathways governing [[Cell Migration]], proliferation, and survival.
+- **Outside-in**: ECM ligand binding induces conformational extension, clustering, and recruitment of the [[Focal Adhesion]] machinery — [[FAK Signaling]] (focal adhesion kinase), [[Src]], paxillin, talin, and kindlin — which organize actin stress fibers and activate [[RAS]], [[MAPK]], and [[PI3K]]–[[Akt]] pathways governing [[Cell Migration]], proliferation, and survival.
 - **Inside-out**: intracellular signals (e.g., from [[c-Met]], growth factors, or [[Rho GTPase|Rho-family GTPases]]) through talin/kindlin propagate to the cytoplasmic tails, increasing ligand affinity.
 
 Integrins thus integrate adhesion with [[Cell Cycle]] control, mechanotransduction, and [[Differentiation]]. They also crosstalk with growth-factor receptors (e.g., [[EGFR]], [[c-Met]]) to amplify mitogenic signaling and with the [[Wnt signaling]] pathway in stem-cell niches.
@@ -57,6 +57,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Focal Adhesion]], [[Extracellular Matrix]], [[FAK Signaling]], [[Cell Migration]], [[Cell Cycle]], [[Differentiation]], [[c-Met]], [[EGFR]], [[RAS]], [[MAPK]], [[PI3K]], [[AKT]], [[Src]], [[Rho GTPase]], [[Wnt signaling]], [[Satellite Cells]], [[Cancer]], [[Pluripotency]], [[Epigenetic Remodeling]], [[Regenerative Medicine]], [[Mesenchymal Stromal Cells]], [[Vedolizumab]], [[Cilengitide]], [[Irisin]]
+- New links added: [[Focal Adhesion]], [[Extracellular Matrix]], [[FAK Signaling]], [[Cell Migration]], [[Cell Cycle]], [[Differentiation]], [[c-Met]], [[EGFR]], [[RAS]], [[MAPK]], [[PI3K]], [[Akt]], [[Src]], [[Rho GTPase]], [[Wnt signaling]], [[Satellite Cells]], [[Cancer]], [[Pluripotency]], [[Epigenetic Remodeling]], [[Regenerative Medicine]], [[Mesenchymal Stromal Cells]], [[Vedolizumab]], [[Cilengitide]], [[Irisin]]
 - Suggested new entity notes to create: [[Talin]], [[Kindlin]], [[Metal-Ion-Dependent Adhesion Site]]
 - Strong connections to strengthen: [[Integrin]] ↔ [[Metabolism]], [[Integrin]] ↔ [[Extracellular Matrix]], [[Integrin]] ↔ [[Irisin]]

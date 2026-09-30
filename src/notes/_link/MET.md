@@ -65,7 +65,7 @@ sites for the SH2-domain proteins that build the signalling complex.
 
 - **GAB1 → [[RAS]]/[[RAF]]/[[MEK]]/[[ERK]] ([[MAPK]])** — proliferative
   and, through ERK, [[Cell Cycle]]-regulating output.
-- **GAB1/[[PI3K]] → [[AKT]] → [[mTOR]]** — survival,
+- **GAB1/[[PI3K]] → [[Akt]] → [[mTOR]]** — survival,
   growth, [[EMT|epithelial–mesenchymal transition]] and resistance to
   apoptosis.
 - **GAB1/PLCγ → [[Calcium Ions|calcium]]/[[Protein Kinase C|PKC]]** —
@@ -207,7 +207,7 @@ link.
   which is the vault's strongest MET–oncology relation.
 - [[EMT]] — MET → MAPK/PI3K → EMT is one of the most-replicated
   signalling chains linking a receptor tyrosine kinase to invasion.
-- [[PI3K]] and [[AKT]] and [[mTOR]] and [[MAPK]] and [[MEK]] — the
+- [[PI3K]] and [[Akt]] and [[mTOR]] and [[MAPK]] and [[MEK]] — the
   principal downstream arms, through GAB1.
 - [[RAS]] and [[RAF]] and [[ERK]] — the MAPK arm, and the
   convergence point with other RTKs such as EGFR, which is why
@@ -233,6 +233,6 @@ link.
 
 ## Linking Summary
 
-- New links added: [[Hepatocellular Carcinoma]], [[RAS]], [[RAF]], [[ERK]], [[PI3K]], [[AKT]], [[mTOR]], [[MAPK]], [[MEK]], [[STAT3]], [[HSP90β]], [[Colorectal Cancer]], [[Breast Cancer]], [[Angiogenesis]], [[Stem Cells]], [[Liver Regeneration]], [[Wound Healing]], [[Epithelial-Mesenchymal Transition]], [[KRAS]], [[EGFR]]
+- New links added: [[Hepatocellular Carcinoma]], [[RAS]], [[RAF]], [[ERK]], [[PI3K]], [[Akt]], [[mTOR]], [[MAPK]], [[MEK]], [[STAT3]], [[HSP90β]], [[Colorectal Cancer]], [[Breast Cancer]], [[Angiogenesis]], [[Stem Cells]], [[Liver Regeneration]], [[Wound Healing]], [[Epithelial-Mesenchymal Transition]], [[KRAS]], [[EGFR]]
 - Suggested notes to create: [[MET Exon 14 Splice]], [[Capmatinib]], [[Tepotinib]], [[Savolitinib]], [[Crizotinib]], [[HGF Activator]], [[SEMA3C]], [[CRMP1]], [[CRMP2]], [[GAB1]], [[CBL]], [[PIK3CA]], [[RON]], [[MSPRY2]], [[ERBB2]], [[Oncolytic Adenovirus]], [[Receptor Tyrosine Kinase]], [[ADAM]], [[ALCL]], [[CBL-B]], [[Calcium Ions]], [[Foretinib]], [[Glesatinib]], [[HGFR]], [[Invasion]], [[NSCLC]], [[Protease]], [[Protein Kinase C]], [[Stromelysin]], [[TANKYRASE]], [[Tivantinib]] — removed as already existing: Src
 - Strong connections to strengthen: [[MET]] ↔ [[Hepatocyte Growth Factor]], [[MET]] ↔ [[HER2]], [[MET]] ↔ [[Gastric Cancer]], [[MET]] ↔ [[c-Met]]
