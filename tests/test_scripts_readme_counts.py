@@ -478,6 +478,76 @@ class TestBuildWebWikiScoring:
         assert wiki_ids(args)[1:3] == ["fresh", "hub"]
 
 
+class TestBuildWebWikiTranslations:
+    """A translated note must survive the score cap, and zh-TW must join by
+    the graph's canonical norm(stem) rather than the raw filename."""
+
+    def _seed(self, tmp_path, **over):
+        from datetime import timedelta
+        args = wiki_args(tmp_path, **over)
+        today = datetime.now(timezone.utc).date()
+        write_roles(args, {"hub": (0.01, 0.18, 300)})
+        write_note(args, "hub", created="2026-01-01",
+                   updated=str(today - timedelta(days=10)), words=2000)
+        # Old + no role metrics -> ranks below the cap.
+        write_note(args, "cold", created="2026-01-01",
+                   updated=str(today - timedelta(days=400)))
+        return args
+
+    def write_zh(self, args, name, title="譯"):
+        d = args.web_wiki_dir / "zh-TW" / "topic"
+        d.mkdir(parents=True, exist_ok=True)
+        (d / f"{name}.md").write_text(
+            f"---\ntitle: {title}\ndescription: d\n"
+            "created: 2026-02-01\nupdated: 2026-02-01\n---\n譯文\n",
+            encoding="utf-8",
+        )
+
+    def test_translated_note_outside_cap_is_kept(self, tmp_path):
+        args = self._seed(tmp_path, wiki_limit=1)
+        self.write_zh(args, "cold")
+        rc.build_web_wiki(rc.scan_notes_for_web(args.notes_dir), args, tmp_path)
+
+        ids = wiki_ids(args)
+        assert ids[1] == "hub"                       # cap still caps the score
+        assert "cold" in ids                         # ... but not the translation
+        doc = json.loads((args.web_data_dir / "wiki.json").read_text())
+        cold = next(g for g in doc["wiki"] if g["id"] == "cold")
+        assert cold["langs"]["zh-TW"]["title"] == "譯"
+        # Its EN markdown is copied too, so the group renders in both languages.
+        assert (args.web_wiki_dir / "en-US" / "topic" / "cold.md").exists()
+
+    def test_zh_joins_by_norm_not_exact_stem(self, tmp_path):
+        # EN renamed to an ASCII stem; the zh file kept the old one.
+        args = self._seed(tmp_path, wiki_limit=1)
+        (args.notes_dir / "topic" / "cold.md").rename(
+            args.notes_dir / "topic" / "M1dG.md")
+        self.write_zh(args, "M₁dG")
+        rc.build_web_wiki(rc.scan_notes_for_web(args.notes_dir), args, tmp_path)
+
+        doc = json.loads((args.web_data_dir / "wiki.json").read_text())
+        group = next(g for g in doc["wiki"] if g["id"] == "M1dG")
+        assert group["langs"]["zh-TW"]["filename"] == "M₁dG.md"
+        assert group["langs"]["zh-TW"]["path"].endswith("M%E2%82%81dG.md")
+
+    def test_unmatched_zh_warns_instead_of_vanishing(self, tmp_path, capsys):
+        args = self._seed(tmp_path)
+        self.write_zh(args, "Ghost")
+        rc.build_web_wiki(rc.scan_notes_for_web(args.notes_dir), args, tmp_path)
+
+        assert "Ghost.md matches no EN note" in capsys.readouterr().out
+        assert "Ghost" not in wiki_ids(args)
+
+    def test_rerun_is_a_fixpoint(self, tmp_path):
+        args = self._seed(tmp_path, wiki_limit=1)
+        self.write_zh(args, "cold")
+        rows = rc.scan_notes_for_web(args.notes_dir)
+        rc.build_web_wiki(rows, args, tmp_path)
+        first = wiki_ids(args)
+        rc.build_web_wiki(rows, args, tmp_path)
+        assert wiki_ids(args) == first
+
+
 class TestGithubBlob:
     def test_url_quoting_and_guards(self):
         from types import SimpleNamespace

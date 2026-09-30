@@ -459,10 +459,12 @@ def build_web_tasks(task_data, args):
 
 
 # --- Web artifacts: wiki notes for the reader panel ---------------------------
-# Mirror of the task-output flow above, capped at --wiki-limit entries: entity
-# notes are scored (recency + graph centrality + star + quality — see
-# score_note) and the top N are registered in web/public/data/wiki.json and
-# copied into web/public/wiki/en-US/ (wiped + regenerated each run).
+# Mirror of the task-output flow above: entity notes are scored (recency +
+# graph centrality + star + quality — see score_note) and registered in
+# web/public/data/wiki.json, with the markdown copied into
+# web/public/wiki/en-US/ (wiped + regenerated each run). The feed is the top
+# --wiki-limit by score PLUS every note that has a zh-TW translation, so a
+# translated note is never dropped by a burst of new stubs.
 # web/public/wiki/zh-TW is hand-maintained (translations are stored
 # web-only) and must survive rebuilds, exactly like tasks zh-TW.
 # Entities only: README/index and _document_* notes are excluded from the feed.
@@ -497,6 +499,15 @@ def fm_text(value):
     if isinstance(value, list):
         return " ".join(str(v) for v in value)
     return str(value or "")
+
+
+def stem_of(path):
+    """Filename stem (no directory, no .md) — the wiki registry group id.
+
+    Canonical filenames are unique across src/notes (see AGENTS.md), so the
+    stem alone identifies a note in the reader feed.
+    """
+    return re.sub(r"\.md$", "", os.path.basename(path))
 
 
 def scan_notes_for_web(notes_dir):
@@ -689,11 +700,25 @@ def build_web_wiki(note_rows, args, repo_root):
             centrality_of(metrics, log_maxima),
             half_life=args.wiki_half_life, weights=weights, now=now,
         )
-    ranked = sorted(
+    ranked_all = sorted(
         resolved,
         key=lambda r: (r["score"], max(r["created_dt"], r["updated_dt"])),
         reverse=True,
-    )[: args.wiki_limit]
+    )
+    # The cap bounds the reader dropdown and the EN copies on disk, not the
+    # translations: every note with a zh-TW sibling joins regardless of rank,
+    # so a translated note can never fall out of the feed. Selection reads
+    # only src/notes + web/public/wiki/zh-TW — never last run's wiki.json or
+    # the en-US copies — so re-running is a fixpoint, not a growing set.
+    zh_by_norm = {norm(stem_of(z["path"])): z for z in scan_web_zh_wiki(args)}
+    ranked = ranked_all[: args.wiki_limit] + [
+        r for r in ranked_all[args.wiki_limit:]
+        if norm(stem_of(r["src"]["path"])) in zh_by_norm
+    ]
+    n_kept = len(ranked) - min(len(ranked_all), args.wiki_limit)
+    if n_kept:
+        print(f"wiki feed: {min(len(ranked_all), args.wiki_limit)} by score "
+              f"+ {n_kept} kept for zh-TW translation")
     if ranked:
         names = [re.sub(r"\.md$", "", os.path.basename(r["src"]["path"]))
                  for r in ranked[:5]]
@@ -739,19 +764,25 @@ def build_web_wiki(note_rows, args, repo_root):
             print(f"Warning: could not copy {r['src']['path']}: {e}")
 
     # Hand-maintained zh-TW translations (web-only) join their EN group by
-    # filename; notes outside the capped selection are ignored.
-    for z in scan_web_zh_wiki(args):
+    # canonical norm(stem), so renaming an EN note (M₁dG -> M1dG) keeps its
+    # translation. Anything left over matches no eligible EN note and would
+    # silently never render, so warn instead of dropping it quietly.
+    groups_by_norm = {norm(g["id"]): g for g in groups.values()}
+    for key, z in zh_by_norm.items():
         basename = os.path.basename(z["path"])
-        stem = re.sub(r"\.md$", "", basename)
-        group = groups.get(stem)
+        group = groups_by_norm.get(key)
         if group is None:
+            print(f"Warning: zh-TW note {basename} matches no EN note — "
+                  f"dropped from the feed")
             continue
         fm = parse_frontmatter(z["path"])
         created_dt = parse_iso_date(fm.get("created")) or z["datetime"]
         updated_dt = parse_iso_date(fm.get("updated")) or z["datetime"]
         rel = os.path.relpath(z["path"], args.web_wiki_dir)
         group["langs"]["zh-TW"] = {
-            "title": fm_text(fm.get("title")) or stem,
+            # Fall back to the EN group id, not the zh filename: the two stems
+            # can differ (M₁dG vs M1dG) and the canonical one reads better.
+            "title": fm_text(fm.get("title")) or group["id"],
             "description": fm_text(fm.get("description")),
             "created": created_dt.date().isoformat(),
             "updated": updated_dt.date().isoformat(),
@@ -864,7 +895,7 @@ def main():
         "--wiki-limit",
         type=int,
         default=WIKI_LIMIT_DEFAULT,
-        help=f"Max wiki notes in the reader feed / translation batch (default: {WIKI_LIMIT_DEFAULT})",
+        help=f"Max wiki notes in the reader feed by score; notes with a zh-TW translation are always kept (default: {WIKI_LIMIT_DEFAULT})",
     )
     parser.add_argument(
         "--wiki-roles",
