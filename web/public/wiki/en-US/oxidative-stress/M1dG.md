@@ -2,7 +2,7 @@
 title: M1dG
 description: M1dG (pyrimido[1,2-a]purin-10(3H)-one deoxyguanosine) is the exocyclic DNA adduct formed when malondialdehyde reacts with deoxyguanosine; the principal mutagenic lesion marking lipid peroxidation damage to the genome.
 created: 2026-09-24
-updated: 2026-09-24
+updated: 2026-09-29
 tags:
   - dna-damage
   - oxidative-stress
