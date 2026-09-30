@@ -792,15 +792,23 @@
         <div class="fig-head"><span class="fig-num">Figure 7 · Sirolimus Exposure by CYP3A5 Status</span></div>
         <div class="fig-canvas fig-svg" id="figRap"></div>
         <figcaption>
-          <strong>Figure 7. Schematic sirolimus trough profiles at a fixed 2 mg weekly dose, by
-          CYP3A5 status.</strong> The shaded band indicates the exposure range associated with
-          target engagement. The expressor profile remains below this range for most of the
-          dosing interval; such patients are then classified as mTORC1 non-responders, which is a
-          false attribution in an individual who has not achieved adequate exposure. The third
-          trace represents FKBP12 loss-of-function, in which trough concentrations do not enter
-          the target range at any dose because complex formation does not occur. Profiles are
-          schematic, derived from the reported inter-individual AUC variation and the 22%
-          sub-1 ng/mL finding, and do not represent a single pharmacokinetic dataset.
+          <strong>Figure 7. Schematic sirolimus concentration profiles at a fixed 2 mg weekly
+          dose, by CYP3A5 status.</strong> Two doses are drawn so that the weekly trough is
+          visible rather than implied by the axis; decay is set to a 57 h half-life, the reported
+          sirolimus elimination half-life, with the expressor at 1.5× that rate. The shaded band
+          indicates an exposure range associated with target engagement and is
+          <strong>illustrative</strong> — it is not drawn from a cited cohort. At this dose the
+          non-expressor is in range for the first ~42 h after each dose and below range for the
+          remaining ~126 h, with a weekly trough of ≈2 ng/mL; the expressor's peak never reaches
+          the range and its weekly trough of ≈0.4 ng/mL sits under the 1 ng/mL floor that 22% of
+          the Mannick cohort fell beneath. The expressor is therefore not pharmacologically
+          resistant
+          to rapamycin — adequate exposure was never achieved, and classifying such a patient as an
+          mTORC1 non-responder is a false attribution. The third trace represents FKBP12
+          loss-of-function, in which concentrations do not enter the target range at any dose
+          because complex formation does not occur. Profiles are schematic, derived from the
+          reported inter-individual AUC variation and the 22% sub-1 ng/mL finding, and do not
+          represent a single pharmacokinetic dataset.
         </figcaption>
       </figure>
     </section>
@@ -1189,7 +1197,7 @@ var GATES = [
   {
     id: "pon1", name: "PON1 Q192R / L55M", code: "rs662 + rs854560", grade: "A",
     assay: "SNP <strong>plus</strong> diazoxonase activity assay",
-    why: "Two amino-acid substitutions: Q192R (Q = glutamine, R = arginine) and L55M (L = leucine, M = methionine), so RR/QR/QQ and LL/LM/MM are the respective genotypes. They are not one activity ladder \u2014 Q192R orders <em>diazoxonase</em> activity (RR &gt; QR &gt; QQ) and L55M orders <em>paraoxonase</em> (LL &gt; LM &gt; MM); the 55Met allele raises paraoxonase while lowering diazoxonase, so which assay you mean decides which allele matters. The L55M axis is not a selectable value here, so a 192RR 55LL individual is not distinguished from a 192RR 55MM one. Jarvik (2000) further found variation within genotype categories a given MM individual may exceed a given LL individual. Low activity is an independent risk factor for coronary events and is directly relevant to the lipid peroxidation and vitamin E pathway cluster. Synthesised in the liver, carried on HDL, executed at the arterial intima — the action site is the vessel wall, not the organ of synthesis. This is the page's worked example of a gate where the activity assay, not the genotype, is the informative measurement.",
+    why: "Two amino-acid substitutions: Q192R (Q = glutamine, R = arginine) and L55M (L = leucine, M = methionine), so RR/QR/QQ and LL/LM/MM are the respective genotypes. They are not one activity ladder — Q192R orders <em>diazoxonase</em> activity (RR &gt; QR &gt; QQ) and L55M orders <em>paraoxonase</em> (LL &gt; LM &gt; MM); the 55Met allele raises paraoxonase while lowering diazoxonase, so which assay you mean decides which allele matters. The L55M axis is not a selectable value here, so a 192RR 55LL individual is not distinguished from a 192RR 55MM one. Jarvik (2000) further found variation within genotype categories to exceed that between categories; a given MM individual may exceed a given LL individual. Low activity is an independent risk factor for coronary events and is directly relevant to the lipid peroxidation and vitamin E pathway cluster. Synthesised in the liver, carried on HDL, executed at the arterial intima — the action site is the vessel wall, not the organ of synthesis. This is the page's worked example of a gate where the activity assay, not the genotype, is the informative measurement.",
     anatomy: "Synthesised in the liver, carried in plasma on HDL, and executed at the arterial intima, where it hydrolyses oxidised phospholipids. Another gate manufactured in one organ and executed in another, shared with APOE4 and TMAO. For these the assay compartment and the consequence compartment are anatomically separated, which is why plasma surrogates misreport.",
     topics: "PON1 · Oxidized LDL · Lipid Peroxidation · Oxidative Stress · Aging",
     vals: [
@@ -2080,66 +2088,110 @@ function drawNqo1() {
    ============================================================ */
 function drawRap() {
   var W = 840, host = document.getElementById("figRap");
-  var x0 = 70, x1 = 760, yTop = 56, yBot = 248;
-  // Trace labels moved out of the plot into a legend: at 0\u201320 ng/mL the
-  // inline labels collided with the target band and with the curve tails.
+  var x0 = 70, x1 = 760, yTop = 56, yBot = 248, DAYS = 14;
+  /* Trace labels moved out of the plot into a legend: at 0\u201320 ng/mL the
+     inline labels collided with the target band and with the curve tails.
+     The clinical consequence of each trace is folded into its own legend row
+     rather than kept as a separate prose block underneath: two of the three
+     former notes only restated these rows ("troughs do not enter the target
+     range at any dose" IS "not correctable by dose"), and a caveat sitting
+     200px below the curve it qualifies is not read alongside the curve. */
   var LEGEND = [
-    { c: "var(--forest)", dash: null, l: "CYP3A5 non-expressor", s: "within the target range for most of the dosing interval \u2014 approximately 79% of European-ancestry" },
-    { c: "var(--slate)", dash: "6 3", l: "CYP3A5 *1 expressor", s: "below the target range for most of the interval \u2014 20% European-ancestry, 65% African-ancestry" },
-    { c: "var(--oxblood)", dash: "2 3", l: "FKBP1A loss-of-function", s: "troughs do not enter the target range at any dose" }
+    { c: "var(--forest)", dash: null, l: "CYP3A5 non-expressor",
+      s: "in range for the first ~42 h after each dose, below range for the remaining ~126 h; weekly trough \u2248 2 ng/mL \u2014 approximately 79% of European-ancestry",
+      k: "the only group whose dose reaches the target range at all \u2014 non-response here is not explained by exposure" },
+    { c: "var(--slate)", dash: "6 3", l: "CYP3A5 *1 expressor",
+      s: "peak already below the target range at this dose; weekly trough \u2248 0.4 ng/mL, under the 1 ng/mL floor \u2014 20% European-ancestry, 65% African-ancestry",
+      k: "not pharmacologically resistant \u2014 adequate exposure was never achieved, so recording non-response attributes a pharmacokinetic finding to the mechanism" },
+    { c: "var(--oxblood)", dash: "2 3", l: "FKBP1A loss-of-function",
+      s: "troughs do not enter the target range at any dose",
+      k: "a non-response not correctable by dose, and identifiable by sequencing rather than by trial" }
   ];
-  var NOTES = [
-    "The expressor is not pharmacologically resistant to rapamycin; adequate exposure was never achieved. Classification as a non-responder attributes a pharmacokinetic finding to the mechanism.",
-    "Without trough concentration and p70S6K1 Thr389 suppression, a classification of non-response remains a hypothesis about exposure rather than a measurement of it.",
-    "FKBP12 loss-of-function is a non-response that is not correctable by dose, and is identifiable by sequencing rather than by trial."
-  ];
-  var LEG0 = yBot + 54, LEG_PITCH = 34, NOTE0 = LEG0 + LEGEND.length * LEG_PITCH + 18;
-  var H = NOTE0 + 12 + NOTES.reduce(function (a, t) { return a + nLines("\u2014 " + t, x1 - x0, 10.5) * 20 + 4; }, 0);
-  var svg = svgRoot(host, W, H, "Schematic sirolimus trough profiles by CYP3A5 status at a fixed 2 mg/week");
-  function X(d) { return x0 + (d / 7) * (x1 - x0); }
+  /* The one former note that was not a restatement of a legend row: what to
+     measure before calling anyone a non-responder. Kept, below the rule. */
+  var ACTION = "Without whole-blood trough concentration and p70S6K1 Thr389 suppression, a classification of non-response is a hypothesis about exposure rather than a measurement of it.";
+  /* LH must equal T2.wrapText's own line advance (size + 4) or the height
+     budget and the drawn blocks drift apart. The previous version budgeted
+     nLines() * 20 against a 14.5px advance, inserting 5.5px of dead air
+     after every line and ~33px of unused canvas. */
+  var LH = 10.5 + 4, MW = 560, TX = x0 + 36, RULE = 20, LEG0 = yBot + 56;
+  var rows = LEGEND.map(function (g) {
+    var ns = nLines(g.s, MW, 10.5), nk = nLines("\u2192 " + g.k, MW, 10.5);
+    return { g: g, ns: ns, nk: nk, h: 22 + ns * LH + 2 + nk * LH + RULE };
+  });
+  var actY = LEG0 + rows.reduce(function (a, r) { return a + r.h; }, 0);
+  var actN = nLines(ACTION, MW, 10.5);
+  var H = actY + 40 + actN * LH + 16;
+  var svg = svgRoot(host, W, H, "Schematic sirolimus concentration profiles by CYP3A5 status across two weekly 2 mg doses");
+  function X(d) { return x0 + (d / DAYS) * (x1 - x0); }
   function Y(v) { return yBot - (v / 20) * (yBot - yTop); }
 
-  text(svg, x0, 34, "Whole-blood sirolimus trough (ng/mL) across a fixed weekly dose", { size: 13, weight: 600 });
+  text(svg, x0, 34, "Whole-blood sirolimus concentration (ng/mL) across two weekly 2 mg doses", { size: 13, weight: 600 });
   [0, 5, 10, 15, 20].forEach(function (v) {
     el("line", { x1: x0, y1: Y(v), x2: x1, y2: Y(v), stroke: "var(--rule)" }, svg);
     text(svg, x0 - 10, Y(v) + 4, String(v), { size: 11, anchor: "end", fill: "var(--faint)", mono: true });
   });
-  [0, 1, 2, 3, 4, 5, 6, 7].forEach(function (d) {
+  [0, 2, 4, 6, 8, 10, 12, 14].forEach(function (d) {
     text(svg, X(d), yBot + 24, "day " + d, { size: 11, anchor: "middle", fill: "var(--faint)", mono: true });
+  });
+  // Dosing events. Two doses rather than one, so the profile is a sawtooth and
+  // the trough at each week boundary is visible instead of implied by the axis.
+  [0, 7].forEach(function (d) {
+    el("line", { x1: X(d), y1: yTop, x2: X(d), y2: yBot, stroke: "var(--ink)", "stroke-width": 1, opacity: 0.45 }, svg);
+    text(svg, X(d) + 6, yTop + 10, "2 mg", { size: 10, fill: "var(--mute)", mono: true });
   });
 
   // target band
   var bandTop = Y(15), bandBot = Y(9);
   el("rect", { x: x0, y: bandTop, width: x1 - x0, height: bandBot - bandTop, fill: "var(--forest)", opacity: 0.14 }, svg);
-  text(svg, x1, bandTop - 10, "exposure range associated with target engagement", { size: 11, anchor: "end", fill: "var(--forest)" });
+  text(svg, x1, bandTop - 10, "target-engagement range (illustrative)", { size: 11, anchor: "end", fill: "var(--forest)" });
 
-  function trace(peak, decay, color, dash) {
-    var d = "M " + X(0) + " " + Y(1.5);
-    for (var day = 0; day <= 7; day += 0.1) {
-      d += " L " + X(day) + " " + Y(peak * Math.exp(-decay * day) + 1.2);
+  /* k is in units of 1/day. 0.292 is a 57 h half-life, the reported sirolimus
+     elimination half-life; the expressor's 0.44 is the midpoint of the
+     reported 40\u201360% faster clearance. The previous decay constants (2.6 and
+     3.3) were a ~6 h half-life, which put the curve on the floor by day 2 and
+     made the legend's "within the target range for most of the dosing
+     interval" arithmetically impossible \u2014 the drawn trace was inside the
+     9\u201315 band for about 3% of the interval. Peaks are schematic, set so the
+     non-expressor apex sits on the top edge of the band and the expressor
+     never reaches it; the time in range (42 h) and the weekly troughs that
+     fall out of them (2.0 and 0.4 ng/mL) are what the legend quotes. Retune
+     any of these four numbers and the legend text has to be re-derived with
+     them. No artificial floor offset: the trough is a real value, and with a
+     sawtooth the +1.2 would have ridden along under both curves. */
+  function trace(peak, k, color, dash) {
+    var d = "";
+    for (var day = 0; day <= DAYS; day += 0.05) {
+      d += (d ? " L " : "M ") + X(day) + " " + Y(peak * Math.exp(-k * (day % 7)));
     }
     el("path", { d: d, fill: "none", stroke: color, "stroke-width": 2.4, "stroke-dasharray": dash }, svg);
   }
-  trace(16.5, 2.6, "var(--forest)", null);
-  trace(9.5, 3.3, "var(--slate)", "6 3");
+  trace(15.0, 0.292, "var(--forest)", null);
+  trace(8.0, 0.44, "var(--slate)", "6 3");
   el("line", { x1: x0, y1: Y(0.6), x2: x1, y2: Y(0.6), stroke: "var(--oxblood)", "stroke-width": 2.4, "stroke-dasharray": "2 3" }, svg);
   el("line", { x1: x0, y1: Y(1), x2: x1, y2: Y(1), stroke: "var(--oxblood)", "stroke-dasharray": "3 3" }, svg);
-
-  LEGEND.forEach(function (g, i) {
-    var y = LEG0 + i * LEG_PITCH;
-    el("line", { x1: x0, y1: y, x2: x0 + 26, y2: y, stroke: g.c, "stroke-width": 2.4, "stroke-dasharray": g.dash }, svg);
-    text(svg, x0 + 36, y + 4, g.l, { size: 12, weight: 600, fill: g.c });
-    text(svg, x0 + 36, y + 20, g.s, { size: 10.5, fill: "var(--mute)" });
-  });
-  text(svg, x0, NOTE0, "1 ng/mL trough floor: 22% of the Mannick 2 mg weekly cohort had troughs below this value.",
+  /* Sits on the plot beside the line it annotates, in the empty bottom-left
+     corner \u2014 both curves start at their peak there, so nothing collides.
+     Previously this was the first line of the prose block, 170px below the
+     dashed line it describes and typographically identical to the caveats. */
+  text(svg, x0 + 8, Y(1) - 8, "1 ng/mL trough floor \u2014 22% of the Mannick 2 mg weekly cohort sat below this",
     { size: 10.5, fill: "var(--oxblood)" });
 
-  var yR = NOTE0 + 34;
-  text(svg, x0, yR - 22, "Interpretation", { size: 12.5, weight: 600 });
-  NOTES.forEach(function (t) {
-    wrapText(svg, x0, yR, "\u2014 " + t, x1 - x0, 10.5);
-    yR += nLines("\u2014 " + t, x1 - x0, 10.5) * 20;
+  var y = LEG0;
+  rows.forEach(function (r, i) {
+    var g = r.g;
+    el("line", { x1: x0, y1: y, x2: x0 + 26, y2: y, stroke: g.c, "stroke-width": 2.4, "stroke-dasharray": g.dash }, svg);
+    text(svg, TX, y + 4, g.l, { size: 12, weight: 600, fill: g.c });
+    wrapText(svg, TX, y + 22, g.s, MW, 10.5);
+    wrapText(svg, TX, y + 24 + r.ns * LH, "\u2192 " + g.k, MW, 10.5);
+    y += r.h;
+    // One rule only, after the last row: it separates the legend from the
+    // action line. Between rows the RULE gap already does that grouping, and
+    // a rule per row reads as a table.
+    if (i === rows.length - 1) el("line", { x1: x0, y1: y - RULE / 2, x2: x1, y2: y - RULE / 2, stroke: "var(--rule-strong)" }, svg);
   });
+  text(svg, x0, actY + 22, "Before classifying non-response", { size: 12, weight: 600 });
+  wrapText(svg, x0, actY + 40, ACTION, MW, 10.5);
 }
 
 

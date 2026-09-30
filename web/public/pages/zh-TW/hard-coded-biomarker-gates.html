@@ -712,11 +712,16 @@
         <div class="fig-head"><span class="fig-num">圖 7 · 依 CYP3A5 狀態劃分的 sirolimus 曝露</span></div>
         <div class="fig-canvas fig-svg" id="figRap"></div>
         <figcaption>
-          <strong>圖 7. 固定 2 mg 每週劑量下，依 CYP3A5 狀態劃分的 sirolimus 谷濃度示意曲線。</strong>
-          陰影帶表示與標的結合相關的曝露範圍。表現型曲線於給藥間隔的大部分時間低於此範圍；此類
-          患者隨後被歸類為 mTORC1 無反應者，對一個未達充分曝露的個體而言屬錯誤歸因。第三條曲線
-          代表 FKBP12 失功能，其谷濃度在任何劑量下皆不進入標的範圍，因複合體無法形成。曲線為示意
-          圖，依個體間 AUC 變異與 22% 低於 1 ng/mL 的報告結果繪製，並非源自單一藥物動力學資料集。
+          <strong>圖 7. 固定 2 mg 每週劑量下，依 CYP3A5 狀態劃分的 sirolimus 濃度示意曲線。</strong>
+          繪製兩次劑量，使每週谷濃度可見，而非僅由座標軸暗示；衰減設定為 57 小時半衰期，
+          即 sirolimus 已報告的清除半衰期，表現型取其 1.5 倍。陰影帶表示與標的結合相關的曝露
+          範圍，且為<strong>示意</strong> — 並非取自特定檢驗群體。於此劑量下，非表現型在每次
+          給藥後約前 42 小時位於範圍內，其後約 126 小時低於範圍，每週谷濃度約 2 ng/mL；表現型的
+          峰濃度從未達到範圍，每週谷濃度約 0.4 ng/mL，低於 Mannick 檢驗群體中 22% 患者所落的 1 ng/mL
+          下限。因此表現型者並非對 rapamycin 具有藥理學抗藥性 — 未達到充分曝露，將此類患者
+          歸類為 mTORC1 無反應者屬錯誤歸因。第三條曲線代表 FKBP12 失功能，因複合體無法形成，
+          其濃度在任何劑量下皆不進入標的範圍。曲線為示意圖，依個體間 AUC 變異與 22% 低於
+          1 ng/mL 的報告結果繪製，並非源自單一藥物動力學資料集。
         </figcaption>
       </figure>
     </section>
@@ -1964,65 +1969,96 @@ function drawNqo1() {
    ============================================================ */
 function drawRap() {
   var W = 840, host = document.getElementById("figRap");
-  var x0 = 70, x1 = 760, yTop = 56, yBot = 248;
-  // Trace labels moved out of the plot into a legend: at 0–20 ng/mL the
-  // inline labels collided with the target band and with the curve tails.
+  var x0 = 70, x1 = 760, yTop = 56, yBot = 248, DAYS = 14;
+  /* Trace labels moved out of the plot into a legend: at 0-20 ng/mL the
+     inline labels collided with the target band and with the curve tails.
+     The clinical consequence of each trace is folded into its own legend row
+     rather than kept as a separate prose block underneath: two of the three
+     former notes only restated these rows, and a caveat sitting 200px below
+     the curve it qualifies is not read alongside the curve. Numbers are
+     identical to the en-US build. */
   var LEGEND = [
-    { c: "var(--forest)", dash: null, l: "CYP3A5 非表現型", s: "給藥間隔的大部分時間位於標的範圍內 — 歐洲族群約 79%" },
-    { c: "var(--slate)", dash: "6 3", l: "CYP3A5 *1 表現型", s: "大部分時間低於標的範圍 — 歐洲族群 20%、非洲族群 65%" },
-    { c: "var(--oxblood)", dash: "2 3", l: "FKBP1A 失功能", s: "任何劑量下谷濃度皆不進入標的範圍" }
+    { c: "var(--forest)", dash: null, l: "CYP3A5 非表現型",
+      s: "每次給藥後約前 42 小時位於範圍內，其後約 126 小時低於範圍；每週谷濃度約 2 ng/mL — 歐洲族群約 79%",
+      k: "唯一劑量能達到標的範圍的族群 — 此處的無反應不能以曝露解釋" },
+    { c: "var(--slate)", dash: "6 3", l: "CYP3A5 *1 表現型",
+      s: "此劑量下的峰濃度從未達到標的範圍；每週谷濃度約 0.4 ng/mL，低於 1 ng/mL 下限 — 歐洲族群 20%、非洲族群 65%",
+      k: "並非藥理學抗藥 — 未達到充分曝露，因此記錄為無反應是將藥物動力學的發現歸因於機轉" },
+    { c: "var(--oxblood)", dash: "2 3", l: "FKBP1A 失功能",
+      s: "任何劑量下濃度皆不進入標的範圍",
+      k: "此種無反應無法以劑量校正，且可藉定序而非試驗加以辨識" }
   ];
-  var NOTES = [
-    "表現型者並非對 rapamycin 具有藥理學抗藥性；其未達到充分曝露。歸類為無反應者，是將藥物動力學的發現歸因於機轉。",
-    "若未測量谷濃度與 p70S6K1 Thr389 抑制量，無反應的分類仍屬於關於曝露的假設，而非對曝露的測量。",
-    "FKBP12 失功能所致的無反應無法以劑量校正，且可藉定序而非試驗加以辨識。"
-  ];
-  var LEG0 = yBot + 54, LEG_PITCH = 36, NOTE0 = LEG0 + LEGEND.length * LEG_PITCH + 20;
-  var H = NOTE0 + 12 + NOTES.reduce(function (a, t) { return a + nLines("— " + t, x1 - x0, 10.5) * 20 + 4; }, 0);
-  var svg = svgRoot(host, W, H, "固定每週劑量下依 CYP3A5 狀態劃分的 sirolimus 谷濃度");
-  function X(d) { return x0 + (d / 7) * (x1 - x0); }
+  /* The one former note that was not a restatement of a legend row: what to
+     measure before calling anyone a non-responder. Kept, below the rule. */
+  var ACTION = "若未測量全血谷濃度與 p70S6K1 Thr389 抑制量，無反應的分類仍屬於關於曝露的假設，而非對曝露的測量。";
+  /* LH must equal this file's own wrapText advance (size + 4) or the height
+     budget and the drawn blocks drift apart - the previous version budgeted
+     nLines() * 20 against a 14.5px advance. */
+  var LH = 10.5 + 4, MW = 560, TX = x0 + 36, RULE = 20, LEG0 = yBot + 56;
+  var rows = LEGEND.map(function (g) {
+    var ns = nLines(g.s, MW, 10.5), nk = nLines("→ " + g.k, MW, 10.5);
+    return { g: g, ns: ns, nk: nk, h: 22 + ns * LH + 2 + nk * LH + RULE };
+  });
+  var actY = LEG0 + rows.reduce(function (a, r) { return a + r.h; }, 0);
+  var actN = nLines(ACTION, MW, 10.5);
+  var H = actY + 40 + actN * LH + 16;
+  var svg = svgRoot(host, W, H, "兩次每週 2 mg 給藥下依 CYP3A5 狀態劃分的 sirolimus 濃度示意曲線");
+  function X(d) { return x0 + (d / DAYS) * (x1 - x0); }
   function Y(v) { return yBot - (v / 20) * (yBot - yTop); }
 
-  text(svg, x0, 34, "固定每週劑量下的全血 sirolimus 谷濃度（ng/mL）", { size: 13, weight: 600 });
+  text(svg, x0, 34, "每週兩次 2 mg 給藥下的全血 sirolimus 濃度（ng/mL）", { size: 13, weight: 600 });
   [0, 5, 10, 15, 20].forEach(function (v) {
     el("line", { x1: x0, y1: Y(v), x2: x1, y2: Y(v), stroke: "var(--rule)" }, svg);
     text(svg, x0 - 10, Y(v) + 4, String(v), { size: 11, anchor: "end", fill: "var(--faint)", mono: true });
   });
-  [0, 1, 2, 3, 4, 5, 6, 7].forEach(function (d) {
-    text(svg, X(d), yBot + 24, "第 " + d + " 天", { size: 11, anchor: "middle", fill: "var(--faint)" });
+  [0, 2, 4, 6, 8, 10, 12, 14].forEach(function (d) {
+    text(svg, X(d), yBot + 24, "第 " + d + " 天", { size: 11, anchor: "middle", fill: "var(--faint)", mono: true });
+  });
+  // 給藥事件。繪製兩次劑量，使曲線呈鋸齒狀，每週邊界的谷濃度因而可見，
+  // 而非僅由座標軸暗示。
+  [0, 7].forEach(function (d) {
+    el("line", { x1: X(d), y1: yTop, x2: X(d), y2: yBot, stroke: "var(--ink)", "stroke-width": 1, opacity: 0.45 }, svg);
+    text(svg, X(d) + 6, yTop + 10, "2 mg", { size: 10, fill: "var(--mute)", mono: true });
   });
 
   // target band
   var bandTop = Y(15), bandBot = Y(9);
   el("rect", { x: x0, y: bandTop, width: x1 - x0, height: bandBot - bandTop, fill: "var(--forest)", opacity: 0.14 }, svg);
-  text(svg, x1, bandTop - 10, "與標的結合相關的曝露範圍", { size: 11, anchor: "end", fill: "var(--forest)" });
+  text(svg, x1, bandTop - 10, "與標的結合相關的曝露範圍（示意）", { size: 11, anchor: "end", fill: "var(--forest)" });
 
-  function trace(peak, decay, color, dash) {
-    var d = "M " + X(0) + " " + Y(1.5);
-    for (var day = 0; day <= 7; day += 0.1) {
-      d += " L " + X(day) + " " + Y(peak * Math.exp(-decay * day) + 1.2);
+  /* k 的單位為 1/天。0.292 對應 57 小時半衰期，即 sirolimus 已報告的清除半衰期；
+     表現型的 0.44 取所報 40-60% 較快清除之中點。舊的衰減常數（2.6 與 3.3）
+     相當於約 6 小時半衰期，使曲線在第 2 天即落到底部，並使圖例所述
+     「給藥間隔的大部分時間位於標的範圍內」在算術上不可能成立。 */
+  function trace(peak, k, color, dash) {
+    var d = "";
+    for (var day = 0; day <= DAYS; day += 0.05) {
+      d += (d ? " L " : "M ") + X(day) + " " + Y(peak * Math.exp(-k * (day % 7)));
     }
     el("path", { d: d, fill: "none", stroke: color, "stroke-width": 2.4, "stroke-dasharray": dash }, svg);
   }
-  trace(16.5, 2.6, "var(--forest)", null);
-  trace(9.5, 3.3, "var(--slate)", "6 3");
+  trace(15.0, 0.292, "var(--forest)", null);
+  trace(8.0, 0.44, "var(--slate)", "6 3");
   el("line", { x1: x0, y1: Y(0.6), x2: x1, y2: Y(0.6), stroke: "var(--oxblood)", "stroke-width": 2.4, "stroke-dasharray": "2 3" }, svg);
   el("line", { x1: x0, y1: Y(1), x2: x1, y2: Y(1), stroke: "var(--oxblood)", "stroke-dasharray": "3 3" }, svg);
-
-  LEGEND.forEach(function (g, i) {
-    var y = LEG0 + i * LEG_PITCH;
-    el("line", { x1: x0, y1: y, x2: x0 + 26, y2: y, stroke: g.c, "stroke-width": 2.4, "stroke-dasharray": g.dash }, svg);
-    text(svg, x0 + 36, y + 4, g.l, { size: 12, weight: 600, fill: g.c });
-    text(svg, x0 + 36, y + 21, g.s, { size: 10.5, fill: "var(--mute)" });
-  });
-  text(svg, x0, NOTE0, "1 ng/mL 谷濃度下限：Mannick 2 mg 每週檢驗群體中有 22% 低於此值。",
+  /* 位於圖內其所述線條之側的空白左下角 — 兩條曲線皆自峰濃度起始，故無碰撞。 */
+  text(svg, x0 + 8, Y(1) - 8, "1 ng/mL 谷濃度下限 — Mannick 2 mg 每週檢驗群體中有 22% 低於此值",
     { size: 10.5, fill: "var(--oxblood)" });
 
-  var yR = NOTE0 + 36;
-  text(svg, x0, yR - 24, "詮釋", { size: 12.5, weight: 600 });
-  NOTES.forEach(function (t) {
-    yR += wrapText(svg, x0, yR, "— " + t, x1 - x0, 10.5);
+  var y = LEG0;
+  rows.forEach(function (r, i) {
+    var g = r.g;
+    el("line", { x1: x0, y1: y, x2: x0 + 26, y2: y, stroke: g.c, "stroke-width": 2.4, "stroke-dasharray": g.dash }, svg);
+    text(svg, TX, y + 4, g.l, { size: 12, weight: 600, fill: g.c });
+    wrapText(svg, TX, y + 22, g.s, MW, 10.5);
+    wrapText(svg, TX, y + 24 + r.ns * LH, "→ " + g.k, MW, 10.5);
+    y += r.h;
+    // 僅在最後一列後加線，以分隔圖例與行動列；列間由 RULE 間距分組即可，
+    // 每列都加線會讀起來像表格。
+    if (i === rows.length - 1) el("line", { x1: x0, y1: y - RULE / 2, x2: x1, y2: y - RULE / 2, stroke: "var(--rule-strong)" }, svg);
   });
+  text(svg, x0, actY + 22, "在歸類為無反應之前", { size: 12, weight: 600 });
+  wrapText(svg, x0, actY + 40, ACTION, MW, 10.5);
 }
 
 /* ============================================================
