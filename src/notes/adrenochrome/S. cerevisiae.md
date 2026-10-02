@@ -14,7 +14,7 @@ aliases:
 
 # S. cerevisiae
 
-*Saccharomyces cerevisiae*, baker's yeast, is a unicellular fungus that has become the preeminent eukaryotic [[Model Organisms]] for dissecting aging, metabolism, and redox homeostasis. Its short replicative lifespan (the number of daughter cells a mother cell produces before senescence) is highly tractable genetically, and conserved longevity pathways first mapped in yeast — [[Target of rapamycin|TOR/Sch9]], sirtuin [[SIRT1|Sir2]], AMPK/Snf1, and the mitochondrial retrograde response — translate directly to mammalian biology.
+*Saccharomyces cerevisiae*, baker's yeast, is a unicellular fungus that has become the preeminent eukaryotic [[Model Organisms]] for dissecting aging, metabolism, and redox homeostasis. Its short replicative lifespan (the number of daughter cells a mother cell produces before senescence) is highly tractable genetically, and conserved longevity pathways first mapped in yeast — [[mTOR|TOR/Sch9]], sirtuin [[SIRT1|Sir2]], AMPK/Snf1, and the mitochondrial retrograde response — translate directly to mammalian biology.
 
 Two yeast systems are especially relevant to adrenochrome and redox science. First, the [[Retrograde Response]] coordinated by the [[Rtg1]]/[[Rtg3]] complex reprograms metabolism when mitochondria are compromised, a mitonuclear signaling paradigm paralleling mammalian [[Mitohormesis]] and the [[Mitochondrial Unfolded Protein Response|UPRmt]]. Second, yeast sirtuins (Sir2 and the Hst family) couple NAD⁺ availability to chromatin silencing and stress resistance, anchoring the [[Sirtuins]] field. Caloric restriction and mild respiratory stress in yeast extend lifespan through ROS-mediated hormetic signaling, with [[Superoxide anion]] acting as both a damage agent and a tuned retrograde cue.
 
@@ -46,6 +46,6 @@ The broader relevance is that yeast revealed how mitochondrial dysfunction can b
 
 ## Linking Summary
 
-  - New links added: [[Target of rapamycin]], [[SIRT1]], [[Superoxide anion]], [[Urolithins]], [[Mitohormesis]], [[Mitochondrial Unfolded Protein Response]], [[Adrenochrome]], [[Epinephrine]]
+  - New links added: [[mTOR]], [[SIRT1]], [[Superoxide anion]], [[Urolithins]], [[Mitohormesis]], [[Mitochondrial Unfolded Protein Response]], [[Adrenochrome]], [[Epinephrine]]
   - Suggested new entity notes to create: [[Hst3]], [[Sir2]]
   - Strong connections to strengthen: [[S. cerevisiae]] ↔ [[Retrograde Response]], [[S. cerevisiae]] ↔ [[Sirtuins]]

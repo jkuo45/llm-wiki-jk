@@ -7,7 +7,7 @@ created: 2026-05-31
 updated: 2026-07-29
 tags:
   - protein
-aliases: []
+aliases: [TOR, Target of Rapamycin, Mechanistic Target of Rapamycin, Mammalian Target of Rapamycin, FRAP, RAFT1]
 ---
 
 # mTOR

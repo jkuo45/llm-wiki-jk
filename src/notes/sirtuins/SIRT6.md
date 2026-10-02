@@ -12,6 +12,9 @@ tags:
   - nuclear-sirtuin-6
   - sirt6-adp-ribosyl-transferase
   - sirt6-adp-ribosyl-transferase
+aliases:
+  - Sirtuin 6
+  - SIRT6
 protected: true
 ---
 

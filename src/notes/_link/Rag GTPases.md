@@ -5,7 +5,7 @@ created: 2026-07-04
 updated: 2026-07-04
 tags:
   - protein
-aliases: [RagA/B/C/D]
+aliases: [RagA/B/C/D, Rag GTPase]
 
 ---
 
