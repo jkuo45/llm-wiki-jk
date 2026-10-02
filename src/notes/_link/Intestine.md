@@ -10,7 +10,7 @@ tags:
   - anatomy
   - organ-system
   - metabolism
-aliases: [Intestines, Bowel, Gut]
+aliases: [Intestines, Bowel, Gut, Small Intestine, small intestine]
 ---
 
 # Intestine

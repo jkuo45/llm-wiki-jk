@@ -11,7 +11,7 @@ tags:
   - zinc-dependent-protease
   - protease
   - stromelysin
-aliases: [MMP-3, matrix metalloproteinase-3, stromelysin-1]
+aliases: [MMP-3, MMP3, matrix metalloproteinase-3, stromelysin-1]
 ---
 
 # MMP-3

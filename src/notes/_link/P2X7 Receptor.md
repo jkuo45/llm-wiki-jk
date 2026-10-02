@@ -88,18 +88,17 @@ the process is effectively irreversible.
   and genetic (knockout, human loss-of-function alleles) blockade suppresses
   [[Neuroinflammation]] and inflammasome output in a large number of rodent models.
 - **Clinical translation has been sobering** — Several first-generation antagonists
-  failed in humans: AZD9056 showed no significant efficacy in rheumatoid arthritis and
-  questioned whether P2X7 is a useful target there; GSK1482160 was not pursued in
-  schizophrenia.
-- **Second generation** — Brain-penetrant agents are in early-phase trials, including
-  NTRX-07 in depression and NTRX-07/JNJ-54175446-class compounds in mood disorders, and
-  [[NeuroTherapia]]-style programs in CNS inflammation. Results so far remain early.
+  failed in humans: AZD9056 showed no significant efficacy in rheumatoid arthritis,
+  questioning whether P2X7 is a useful target there; GSK1482160 was not pursued in
+  schizophrenia. Second-generation brain-penetrant agents (e.g. the JNJ-54175446-class
+  compounds NTRX-07, JNJ-61393215) are in early-phase trials in mood disorders and CNS
+  inflammation, with results still preliminary.
 
 > [!warning] Caveat
-> P2X7 antagonism is mechanistically clean but clinically unproven. Rodent
-> inflammasome biology does not always translate, and broad P2X7 blockade risks
-> disrupting host defence — the receptor is required for clearance of infected and
-> damaged cells. Claims of P2X7 as a therapeutic target should be model-qualified.
+> P2X7 antagonism is mechanistically clean but clinically unproven. Rodent inflammasome
+> biology does not always translate, and broad blockade risks disrupting host defence —
+> the receptor is required for clearance of infected and damaged cells. Claims of P2X7 as
+> a therapeutic target should be model-qualified.
 
 ## Documents
 

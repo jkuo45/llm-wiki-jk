@@ -96,7 +96,7 @@ molecules.
 - [[Elephantiasis]] — the chronic terminal morbidity MDA is explicitly deployed to prevent; the disability burden is the political justification for the campaign.
 - [[Wolbachia]] — the target of doxycycline-based onchocerciasis regimens, an alternative strategy to ivermectin-only MDA in areas of reduced ivermectin efficacy.
 - [[World Health Organization]] — sets the guidelines, thresholds, and validated diagnostic methods that define when campaigns start, continue, and stop.
-- [[Neglected Tropical Disease]] — MDA's logistics, procurement, and last-mile distribution model exists largely because these diseases affect populations with no market pull.
+- [[Neglected Tropical Diseases]] — MDA's logistics, procurement, and last-mile distribution model exists largely because these diseases affect populations with no market pull.
 - [[Drug Resistance]] — MDA's single-molecule dependency is its structural fragility; resistance in any one target threatens the whole elimination strategy.
 
 ## Linking Summary
