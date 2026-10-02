@@ -3,7 +3,7 @@ title: Cell Death
 aliases: []
 description: index of entities and documents in this directory
 created: 2026-09-07
-updated: 2026-09-23
+updated: 2026-10-01
 ---
 # Cell Death
 
@@ -21,6 +21,7 @@ updated: 2026-09-23
 | [[_document_ - Ferroptosis past present and future\|Ferroptosis: past, present and future]] | Ferroptosis review: iron-dependent death with iron accumulation and lipid peroxidation; GPX4/glutathione axis, ROS accumulation, and pathophysiological relevance. |
 | [[_document_ - Necroptosis (2014), Linkermann, Green\|Necroptosis (2014), Linkermann & Green]] | Linkermann and Green 2014 review of necroptosis — regulated necrotic cell death downstream of RIPK1/RIPK3/MLKL, its inflammatory signaling, and roles in ischemia-reperfusion injury. |
 | [[_document_ - RIP3 targets pyruvate dehydrogenase complex to increase aerobic respiration in TNF-induced necroptosis\|RIP3 targets pyruvate dehydrogenase complex to increase aerobic respiration in TNF-induced necroptosis]] | Yang et al. 2018 — RIP3 phosphorylates the PDH E3 subunit at Thr135 to boost aerobic respiration and mitochondrial ROS, feeding back on the necrosome; blocking mitochondrial pyruvate uptake suppresses necroptosis. |
+| [[_document_ - Current understanding of eryptosis mechanisms, physiological functions, role in disease, pharmacological applications, and nomenclature recommendations\|Current understanding of eryptosis: mechanisms, physiological functions, role in disease, pharmacological applications, and nomenclature recommendations]] | Tkachenko et al. 2025 consensus review — eryptosis as the Ca²⁺-driven regulated death of mature anucleate erythrocytes (Gardos K⁺ efflux, scramblase, calpain-1, PS externalisation); its distinction from apoptosis, senescence, hemolysis and erythronecroptosis; caspase-8 as the fate switch; disease roles; druggability; and the nomenclature recommendations. |
 
 ## Entity Notes
 

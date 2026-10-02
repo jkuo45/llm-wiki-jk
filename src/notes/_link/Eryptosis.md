@@ -3,7 +3,7 @@ title: Eryptosis
 description: The apoptosis-like regulated death of anucleate red blood cells — Ca2+ influx, calpain/scramblase activation, phosphatidylserine exposure — leading to silent splenic clearance.
 protected: false
 created: 2026-09-10
-updated: 2026-09-10
+updated: 2026-10-01
 tags: [cell-death, erythrocyte, calcium-signaling]
 url: #
 source: #
@@ -27,6 +27,7 @@ Detection: Annexin V binding (PS), Fluo-3 Ca2+ rise, reduced forward scatter (sh
 
 ## Documents
 
+- [[_document_ - Current understanding of eryptosis mechanisms, physiological functions, role in disease, pharmacological applications, and nomenclature recommendations|Tkachenko et al. 2025 eryptosis consensus review]] — Ca²⁺/Gardos/scramblase/calpain-1 axis, caspase-8 as the fate switch between eryptosis and erythronecroptosis, disease map, druggability, and the nomenclature recommendations.
 - Cell death comparison page (eryptosis row + animation): Ca2+ → scramblase → PS axis; hours-scale course; silent clearance unless overwhelming hemolysis follows.
 
 ## Connections
