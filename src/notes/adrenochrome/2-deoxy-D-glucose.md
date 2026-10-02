@@ -8,7 +8,7 @@ tags:
   - glycolysis-inhibitor
 url: '#'
 source: '#'
-aliases: [2DG]
+aliases: [2DG, 2-DG, Deoxyglucose]
 ---
 
 # 2-deoxy-D-glucose

@@ -7,7 +7,7 @@ created: 2026-07-04
 updated: 2026-07-04
 tags:
   - medical-condition
-aliases: []
+aliases: [metabolic disorders, Metabolic Diseases, Metabolic Disease]
 ---
 # metabolic disorders
 
