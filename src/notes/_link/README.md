@@ -279,7 +279,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[p62]] | Protein | p62/SQSTM1 (sequestosome-1) is a multidomain scaffold protein that delivers ubiquitinated cargo to autophagosomes via its LC3-interacting region and serves as a key autophagy substrate and signalin... |
 | [[p65]] | Protein | Overview: p65 is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cell ... |
 | [[PANX1]] | Protein | Pannexin-1 channel that releases cGAMP to the extracellular space for contact-independent intercellular cGAS-STING propagation. |
-| [[PARK2]] | Protein | Overview: PARK2 is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cel... |
+| [[Parkin]] | Protein | Overview: PARK2 is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cel... |
 | [[Parkin]] | Protein | An E3 ubiquitin ligase that plays a critical role in Mitophagy. It is recruited to damaged mitochondria by PINK1 and labels them for degradation by the lysosome. |
 | [[PARL]] | Protein | Presenilin-associated rhomboid-like protein, a mitochondrial inner membrane protease that cleaves PINK1 for degradation in healthy mitochondria |
 | [[PD-L1]] | Protein | Programmed death-ligand 1 (CD274/B7-H1); a transmembrane protein that inhibits T-cell function by binding PD-1, serving as a key immune checkpoint in cancer and a target modulated by SASP signaling... |

@@ -3,7 +3,7 @@ title: E3 Ubiquitin Ligase
 description: The third and substrate-selecting enzyme of the ubiquitination cascade, of which more than 600 are encoded in the human genome. E3 ligases determine which protein is modified and with what ubiquitin chain topology, and fall into structurally distinct families (RING, RBR, HECT) that transfer ubiquitin either directly or via a covalent enzyme intermediate.
 protected: false
 created: 2026-09-29
-updated: 2026-09-29
+updated: 2026-10-01
 tags: [protein-class, ubiquitin, proteostasis, enzymology, cell-signaling]
 aliases: [E3 ligase, Ubiquitin-protein ligase, E3 ubiquitin ligases, Ubiquitin ligases]
 ---
@@ -74,6 +74,6 @@ Because the same E3 can build different chains on different substrates under dif
 - [[Proteotoxicity]] — aggregate-prone proteins are cleared by ubiquitin-dependent routes; E3 failure converts a proteostasis problem into neurodegeneration.
 
 ## Linking Summary
-- New links added: [[Ubiquitin]], [[Ubiquitination]], [[Ubiquitin-Proteasome System]], [[Proteasome]], [[Proteostasis]], [[Proteotoxicity]], [[Parkin]], [[PARK2]], [[MDM2]], [[p53]], [[TRIM21]], [[RNF168]], [[HUWE1]], [[Deubiquitinase]], [[USP9X]], [[USP30]], [[PROTAC]], [[Autophagy]], [[Cell Cycle]], [[Parkinson's Disease]], [[Histone H2A.Z]], [[LUBAC]], [[SHARPIN]], [[Mitophagy]], [[DNA Damage Response]]
+- New links added: [[Ubiquitin]], [[Ubiquitination]], [[Ubiquitin-Proteasome System]], [[Proteasome]], [[Proteostasis]], [[Proteotoxicity]], [[Parkin]], [[Parkin]], [[MDM2]], [[p53]], [[TRIM21]], [[RNF168]], [[HUWE1]], [[Deubiquitinase]], [[USP9X]], [[USP30]], [[PROTAC]], [[Autophagy]], [[Cell Cycle]], [[Parkinson's Disease]], [[Histone H2A.Z]], [[LUBAC]], [[SHARPIN]], [[Mitophagy]], [[DNA Damage Response]]
 - Suggested notes to create: [[Ubiquitin-Activating Enzyme E1]], [[Ubiquitin-Conjugating Enzyme E2]], [[RING Finger]], [[HECT Domain]], [[RBR Domain]], [[F-Box Protein]], [[Cullin]], [[K48 Polyubiquitin]], [[K63 Polyubiquitin]], [[Linear Ubiquitin]], [[Hook Effect]], [[Deubiquitinase]], [[Ubiquitin Code]], [[LUBAC]], [[DNA Damage Response]], [[Ubiquitin-Activating Enzyme E1]], [[Ubiquitin-Conjugating Enzyme E2]]
 - Strong connections to strengthen: [[Parkin]] ↔ [[Mitophagy]], [[Anaphase Promoting Complex-Cyclosome]] ↔ [[Cell Cycle]], [[E3 Ubiquitin Ligase]] ↔ [[PROTAC]]
