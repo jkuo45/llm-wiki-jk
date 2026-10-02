@@ -1,9 +1,9 @@
 ---
 title: RIPK3
-description: 'Overview: RIPK3 is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cel...'
+description: Receptor-interacting serine/threonine-protein kinase 3 is the obligatory kinase of necroptosis, recruited by RIPK1 via RHIM-domain amyloid-like assembly and activated by phosphorylation of its own RIPK3 domain; it also drives pyroptosis through caspase-8 inhibition when necroptosis is blocked.
 protected: true
 created: 2026-07-04
-updated: 2026-09-14
+updated: 2026-10-01
 tags:
   - protein
 aliases: [Receptor-Interacting Serine/Threonine-Protein Kinase 3]
