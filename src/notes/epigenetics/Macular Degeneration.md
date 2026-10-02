@@ -4,10 +4,13 @@ description: Macular Degeneration (especially Age-related Macular Degeneration, 
   is a retinal disorder causing central vision loss through deterioration of the Retinal
   Pigment Epithelium. It was the focus of the first iPSC clinical trial.
 created: 2024-01-01
-updated: 2026-07-06
+updated: 2026-10-02
 tags:
   - medical-condition
-aliases: []
+aliases:
+  - Age-Related Macular Degeneration
+  - Age-related Macular Degeneration
+  - AMD
 ---
 
 # Macular Degeneration
