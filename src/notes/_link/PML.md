@@ -52,7 +52,7 @@ PML is a classic tumor suppressor whose loss characterizes acute promyelocytic l
 
 ## Documents
 
-- [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]] — PML nuclear bodies are the scaffolds to which HIRA translocates; their disruption blocks SAHF formation.
+- [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]] — PML nuclear bodies are the scaffolds to which HIRA translocates; their disruption blocks SAHF formation.
 - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
   - PML tumor suppressor and BNIP3 reduce mTORC1 signaling during Hypoxia by disrupting the interaction between mTOR and its positive regulator Rheb (Bernardi et al., 2006; Li et al., 2007).
 - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]

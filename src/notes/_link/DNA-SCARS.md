@@ -41,7 +41,7 @@ Because SCARS sustain SASP, resolving persistent DDR (e.g., enhancing repair or 
 
 ## Documents
 
-- [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]] — DNA-SCARS are persistent DDR foci that may evict histones, increase chromatin flexibility, and act as precursors to CCF, sustaining SASP.
+- [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]] — DNA-SCARS are persistent DDR foci that may evict histones, increase chromatin flexibility, and act as precursors to CCF, sustaining SASP.
 
 ## Connections
 

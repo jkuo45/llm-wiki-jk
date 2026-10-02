@@ -38,7 +38,7 @@ Because HMGA1 is overexpressed in many malignancies yet induced in beneficial tu
 
 ## Documents
 
-- [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]] — HMGA1 is listed among the chromatin architectural proteins (HMGB/HMGA family) whose altered abundance and localization reshape the senescent epigenome and growth arrest.
+- [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]] — HMGA1 is listed among the chromatin architectural proteins (HMGB/HMGA family) whose altered abundance and localization reshape the senescent epigenome and growth arrest.
 
 ## Connections
 

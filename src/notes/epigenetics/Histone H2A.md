@@ -97,7 +97,7 @@ drugged chromatin targets.
 > a local mark on a minority of nucleosomes, not a bulk level.
 
 ## Documents
-- [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]] — treats H2AK119ub/PRC1 chromatin as part of the senescent epigenetic programme.
+- [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]] — treats H2AK119ub/PRC1 chromatin as part of the senescent epigenetic programme.
 - [[_document_ - Epigenetic changes during aging and their reprogramming potential]] — nuclear-architecture and heterochromatin drift that accompanies age.
 
 ## Connections

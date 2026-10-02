@@ -23,7 +23,7 @@ aliases: []
 
 ## Documents
 
-  - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression|Epigenetic Landscape & SASP]]
+  - [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression|Epigenetic Landscape & SASP]]
     - Links derepressed Alu/SINE transcription to SASP in senescence.
   - [[_document_ - Epigenetic changes during aging and their reprogramming potential|Epigenetic Changes in Aging]]
     - Discusses transposable-element reactivation, including Alu, during aging.

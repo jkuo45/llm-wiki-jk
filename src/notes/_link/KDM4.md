@@ -34,7 +34,7 @@ KDM4 enzymes are established epigenetic drivers of the SASP: genetic or pharmaco
 
 - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review describes KDM4 JmjC demethylases as epigenetic drivers of the SASP that erase repressive H3K9me3 at SASP loci, opening chromatin for NF-κB and BRD4 access. Pharmacological or genetic inhibition lowers IL-6, IL-8, and MMP secretion without abolishing arrest, marking KDM4 as a senomorphic target whose activity links metabolic state to SASP intensity.
 
-  - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
+  - [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]]
     - Review shows KDM4 protein is increased in senescent cells and erases H3K9me3 at SASP loci, opening chromatin for NF-κB/BRD4 access; KDM4 inhibition suppresses SASP and is a candidate senomorphic.
 
 ## Connections

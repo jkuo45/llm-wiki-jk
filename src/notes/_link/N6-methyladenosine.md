@@ -35,7 +35,7 @@ m6A modulators (METTL3 inhibitors such as STM2457; FTO inhibitors) are pursued i
 
 ## Documents
 
-- [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]] — The review notes that the m6A writer complex METTL3–METTL14 reshapes senescence-associated enhancer–promoter contacts and SASP expression in an enzymatic-activity-independent manner, linking RNA methylation machinery to 3D-epigenome control of the secretome.
+- [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]] — The review notes that the m6A writer complex METTL3–METTL14 reshapes senescence-associated enhancer–promoter contacts and SASP expression in an enzymatic-activity-independent manner, linking RNA methylation machinery to 3D-epigenome control of the secretome.
 
 ## Connections
 

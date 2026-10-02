@@ -42,7 +42,7 @@ MLL1 is a candidate [[Senomorphic|senomorphic]] node; its inhibition lowers SASP
 
 ## Documents
 
-- [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]] — H3K4me3, with H3K27me3, redistributes in senescence; MLL1-mediated H3K4me3 supports SASP partly via DDR activation.
+- [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]] — H3K4me3, with H3K27me3, redistributes in senescence; MLL1-mediated H3K4me3 supports SASP partly via DDR activation.
 
 ## Connections
 

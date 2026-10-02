@@ -55,7 +55,7 @@ List of documents that mention this entity
   - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
     - These cellular senescence states may differ substantially from each other, as well as from Replicative Senescence through the presence of specific senescence features.
 
-  - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
+  - [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]]
     - Review highlights replicative senescence as the model where epigenetic methylation aging occurs (global hypomethylation, DNMT1 decline) with hypomethylation of SASP genes, alongside B-to-A compartment switching and enhancer remodeling driving SASP.
 
 ## Connections

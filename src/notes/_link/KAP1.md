@@ -51,7 +51,7 @@ Beyond chromatin silencing, [[KAP1|TRIM28]] is the E3 ligase that controls [[SIR
 
 ## Documents
 
-- [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]] — The review shows SIRT6 mono-ADP-ribosylates KAP1 to recruit HP1α and package LINE-1 into heterochromatin; in senescence, SIRT6 depletion releases this repression, driving retrotransposon derepression and SASP/inflammaging.
+- [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]] — The review shows SIRT6 mono-ADP-ribosylates KAP1 to recruit HP1α and package LINE-1 into heterochromatin; in senescence, SIRT6 depletion releases this repression, driving retrotransposon derepression and SASP/inflammaging.
 
 ## Connections
 

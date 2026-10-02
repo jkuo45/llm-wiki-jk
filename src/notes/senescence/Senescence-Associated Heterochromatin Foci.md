@@ -57,7 +57,7 @@ List of documents that mention this entity
 
   - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review notes SAHF as distinct, DAPI-dense heterochromatin structures assembled by HIRA/ASF1a/macroH2A that durably silence E2F-driven proliferation genes in senescent human cells. They enforce stable arrest and serve as a widely used morphological senescence biomarker, and their formation overlaps with Lamin B1 loss and the broad epigenetic remodeling of the senescent state.
 
-  - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
+  - [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]]
     - Review describes SAHF as DAPI-dense heterochromatin organized by H3K9me3/H3K27me3/DNA methylation, whose disruption correlates with reduced SASP expression, though their necessity for SASP is unresolved.
 
 ## Connections

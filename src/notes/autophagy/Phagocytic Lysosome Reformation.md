@@ -26,7 +26,7 @@ PLR is essential for macrophages, neutrophils, and other phagocytes to sustain r
 
 ## Pathological & Research Implications
 
-Mutations in PLR regulators cause human disease: TRPML1 loss underlies mucolipidosis type IV (a [[Lysosomal Storage Disorders|lysosomal storage disorder]]), and PIKfyve dysfunction causes fleck cornea and pigmented maculopathy. Enhancing PLR/ALR is a strategy to restore lysosomal homeostasis in [[Neurodegeneration]] and storage diseases, while inhibiting reformation can exhaust lysosomes in [[Cancer]] cells to magnify therapy-induced stress. Small molecules such as apilimod (PIKfyve inhibitor) and TRPML1 agonists/antagonists are research tools probing this pathway.
+Mutations in PLR regulators cause human disease: TRPML1 loss underlies mucolipidosis type IV (a [[Lysosomal Storage Diseases|lysosomal storage disorder]]), and PIKfyve dysfunction causes fleck cornea and pigmented maculopathy. Enhancing PLR/ALR is a strategy to restore lysosomal homeostasis in [[Neurodegeneration]] and storage diseases, while inhibiting reformation can exhaust lysosomes in [[Cancer]] cells to magnify therapy-induced stress. Small molecules such as apilimod (PIKfyve inhibitor) and TRPML1 agonists/antagonists are research tools probing this pathway.
 
 ## Documents
 
@@ -48,6 +48,6 @@ List of documents that mention this entity
 - [[Autophagic Flux]]: Impaired PLR indirectly blocks autophagic clearance.
 
 ## Linking Summary
-- New links added: [[Lysosome]], [[PIKfyve]], [[TRPML1]], [[SLC-36.1]], [[PtdIns(3,5)P2]], [[Autophagic Lysosome Reformation]], [[KIF5B]], [[Autophagic Flux]], [[Oxidative Stress]], [[Lysosomal Storage Disorders]], [[Neurodegeneration], [Cancer]]
+- New links added: [[Lysosome]], [[PIKfyve]], [[TRPML1]], [[SLC-36.1]], [[PtdIns(3,5)P2]], [[Autophagic Lysosome Reformation]], [[KIF5B]], [[Autophagic Flux]], [[Oxidative Stress]], [[Lysosomal Storage Diseases]], [[Neurodegeneration], [Cancer]]
 - Suggested new entity notes to create: [[Phagolysosome]], [[Mucolipidosis Type IV]], [[Apilimod]]
 - Strong connections to strengthen: [[Phagocytic Lysosome Reformation]] ↔ [[Lysosome]], [[Phagocytic Lysosome Reformation]] ↔ [[PIKfyve]]

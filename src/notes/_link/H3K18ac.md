@@ -40,7 +40,7 @@ BET/bromodomain inhibitors that recognize acetyl marks (including H3K18ac) and p
 
 ## Documents
 
-- [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]] — H3K18ac is among the acetyl marks enriched at senescence-activated super-enhancers driving SASP.
+- [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]] — H3K18ac is among the acetyl marks enriched at senescence-activated super-enhancers driving SASP.
 
 ## Connections
 

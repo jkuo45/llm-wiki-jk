@@ -24,7 +24,7 @@ List of documents that mention this entity
   - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
     - Thus, a plethora of blood senescence markers can simultaneously be monitored when utilizing advanced flow cytometry, including Senescence-Associated Beta-Galactosidase (SA β-gal), CDKN1A (p21) and p53 (p53), as well as markers of mitochondrial and lysosomal...
 
-  - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
+  - [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]]
     - Review notes the IL-8 locus is epigenetically derepressed in senescence via loss of H3K9me2/3 (KDM4 up, SUV39H1 down) and reduced H3K27me3 (JMJD3/KDM6B), with H3K27ac/BRD4 and AP-1 at enhancers driving IL-8 as a core SASP chemokine.
 
   - [[_document_ - The Senescence-Associated Secretory Phenotype The Dark Side of Tumor Suppression|SASP: The Dark Side of Tumor Suppression]]

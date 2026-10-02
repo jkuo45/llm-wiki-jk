@@ -41,7 +41,7 @@ List of documents that mention this entity
   - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
     - In terms of its anti-apoptotic effects, SIRT2 downregulation alone is sufficient to cause Apoptosis, and SIRT2 depletion leads to p53 accumulation causing activation of the p38 MAPK in cancer cell lines such as HeLa, but not in normal cells.
 
-  - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
+  - [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]]
     - Review places p38 MAPK upstream of the epigenetic SASP program: it induces KDM4 (H3K9 demethylation at SASP loci) and, together with AP-1 and BRD4, drives NF-κB-regulated SASP transcription.
 
 ## Connections

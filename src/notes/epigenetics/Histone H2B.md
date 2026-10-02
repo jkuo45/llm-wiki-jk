@@ -92,7 +92,7 @@ by modification chemistry rather than by structural variants.
 
 ## Documents
 - [[_document_ - Epigenetic changes during aging and their reprogramming potential]] — transcriptional and chromatin programmes that shift with age, in which H2B modification status participates.
-- [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]] — the co-transcriptional H2B/H3 axis as part of the senescent chromatin programme.
+- [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]] — the co-transcriptional H2B/H3 axis as part of the senescent chromatin programme.
 
 ## Connections
 - [[Histone H2A]] — H2B's obligate dimer partner; the two together form the acidic patch and the H2A–H2B dimer is the structural unit that DNA wraps.

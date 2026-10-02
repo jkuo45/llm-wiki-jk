@@ -42,7 +42,7 @@ The DOT1L inhibitor EPZ-5676 (pinometostat) is in Phase 1 clinical trials for ML
 
 ## Documents
 
-- [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]] — The review identifies DOT1L (KMT4) as an epigenetic regulator whose knockdown blocks SASP emergence without affecting the senescence arrest, and notes its inhibitor EPZ-5676 is in clinical trials and could be repurposed as a senomorphic.
+- [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]] — The review identifies DOT1L (KMT4) as an epigenetic regulator whose knockdown blocks SASP emergence without affecting the senescence arrest, and notes its inhibitor EPZ-5676 is in clinical trials and could be repurposed as a senomorphic.
 
 ## Connections
 

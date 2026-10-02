@@ -6,7 +6,7 @@ created: 2026-08-15
 updated: 2026-08-15
 tags: [drug, retrotransposon, aging, inflammation, antiviral]
 url: #
-source: _document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md
+source: _document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md
 aliases: [Nucleoside Reverse Transcriptase Inhibitor, Nucleoside Reverse Transcriptase Inhibitors]
 ---
 
@@ -35,7 +35,7 @@ NRTIs carry mitochondrial toxicity risks and off-target effects that must be wei
 
 ## Documents
 
-- [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression|The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
+- [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression|The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
   - Discusses how NRTIs inhibit LINE-1 reverse transcription and thereby reduce cGAS-STING inflammation and SASP in senescence.
 
 ## Connections

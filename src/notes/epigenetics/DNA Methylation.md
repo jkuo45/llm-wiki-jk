@@ -52,7 +52,7 @@ List of documents that mention this entity
   - [[_document_ - Epigenetic changes during aging and their reprogramming potential|Epigenetic changes during aging and their reprogramming potential]]
     - dheterochromatinfoci-2358&doi=&)\] Linking Summary: - New links added: Heterochromatin, Nucleosome, CpG Island, SIRT1, H3K9me3, H3K27me3, H3K4me3, HP1, Lamin A, macroH2A, DNA Methylation, Yamanaka Factors, Hutchinson-Gilford Progeria Syndrome, Werner
 
-  - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
+  - [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]]
     - Review notes DNA methylation dynamics in senescence: replicative senescence shows global hypomethylation (declining DNMT1) with focal hypomethylation of inflammation-associated SASP genes, and age-related demethylation activates HERV/LINE-1 that drive SASP via cGAS–STING.
 
 ## Connections

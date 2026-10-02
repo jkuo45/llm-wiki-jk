@@ -38,7 +38,7 @@ As part of the HIRA/ASF1a/UBN1 axis, UBN1 is a candidate node for [[Senomorphic|
 
 ## Documents
 
-- [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]] — UBN1 is described as an essential member (with HIRA and ASF1a) of the complex required for SAHF formation.
+- [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]] — UBN1 is described as an essential member (with HIRA and ASF1a) of the complex required for SAHF formation.
 
 ## Connections
 

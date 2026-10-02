@@ -22,7 +22,7 @@ Lysosomal biogenesis is tightly coupled to [[Autophagy]]: the CLEAR network incl
 ## Regulation
 Lysosomal biogenesis is negatively regulated by [[MYC]], [[ZKSCAN3]], and [[mTORC1]], and positively regulated by [[PKC]], [[calcineurin]], [[AMPK]], [[SIRT1]], and [[PIKfyve]]-[[PtdIns(3,5)P2]]-[[TRPML1]] signaling. Small molecules such as [[Torin1]], [[Trehalose]], and [[Spermidine]] induce lysosomal biogenesis via mTORC1 inhibition or TFEB activation.
 ## Pathological Relevance
-Impaired lysosomal biogenesis underlies [[Lysosomal Storage Disorders]] ([[Mucopolysaccharidosis-IIIA]], [[Multiple Sulfatase Deficiency]], [[Neuronal Ceroid Lipofuscinosis]]). [[TFEB]] activation is a therapeutic strategy to enhance lysosomal exocytosis and reduce storage. Enhanced lysosomal biogenesis is implicated in the anti-aging effects of [[Dietary Restriction]] and [[Caloric Restriction Mimetics]].
+Impaired lysosomal biogenesis underlies [[Lysosomal Storage Diseases]] ([[Mucopolysaccharidosis-IIIA]], [[Multiple Sulfatase Deficiency]], [[Neuronal Ceroid Lipofuscinosis]]). [[TFEB]] activation is a therapeutic strategy to enhance lysosomal exocytosis and reduce storage. Enhanced lysosomal biogenesis is implicated in the anti-aging effects of [[Dietary Restriction]] and [[Caloric Restriction Mimetics]].
 [[Lysosomal Biogenesis]] is the cellular process of creating new lysosomes. It is a highly regulated process, primarily controlled by the transcription factor [[TFEB|TFEB]]. Proper lysosomal biogenesis is essential for maintaining cellular [[Proteostasis]] and for the degradation of materials like [[Neuromelanin]].
 
 

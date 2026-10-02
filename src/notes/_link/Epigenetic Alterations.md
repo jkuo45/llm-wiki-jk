@@ -31,7 +31,7 @@ List of documents that mention this entity
   - [[_document_ - The Gut Microbiome, Aging, and Longevity A Systematic Review|The Gut Microbiome, Aging, and Longevity A Systematic Review]]
     - Primary cellular and molecular Hallmarks of Aging include Genomic Instability, Telomere Attrition, Epigenetic Alterations, and loss of Proteostasis, which lead to compensatory mec
 
-  - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
+  - [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]]
     - Review centering epigenetic alterations (chromatin compartment switching, 3D genome rewiring, histone modifications/variants, histone loss, DNA methylation, retrotransposon derepression) as the orchestrators of SASP expression in senescent cells.
 
 

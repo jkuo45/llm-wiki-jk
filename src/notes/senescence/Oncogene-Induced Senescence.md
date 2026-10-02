@@ -50,7 +50,7 @@ List of documents that mention this entity
   - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
     - Oncogene-Induced Senescence represents another complex senescence phenotype that depends on activation and/or overexpression of oncogenes (Serrano et al., ; Bianchi‐Smiraglia & Nikiforov, ).
 
-  - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
+  - [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]]
     - Review shows OIS undergoes B-to-A compartment switching at SASP genes (condensin-bound), enhancer remodeling at the TAD scale, and HMGB2 protection of SASP loci from SAHF silencing; AP-1/BRD4/EZH2/KDM4 orchestrate the SASP epigenetically.
 
   - [[_document_ - acosta2013_paracrine_senescence|Acosta et al., 2013 — Inflammasome controls paracrine senescence]]

@@ -38,7 +38,7 @@ Because TAD rewiring is upstream of SASP, factors that organize TADs (METTL3/14,
 
 ## Documents
 
-- [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]] — TAD-scale enhancer remodeling and EP looping within TADs are central to driving SASP transcription in senescence.
+- [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]] — TAD-scale enhancer remodeling and EP looping within TADs are central to driving SASP transcription in senescence.
 
 ## Connections
 

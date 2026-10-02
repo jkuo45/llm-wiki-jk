@@ -36,7 +36,7 @@ Inhibition of HERV (and LINE-1) reverse transcriptase by [[Nucleoside Reverse Tr
 
 ## Documents
 
-- [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]] — The review shows HERV proviruses are reactivated in senescence by demethylation/decompaction, generate RVLPs whose cDNA triggers cGAS–STING SASP, and can infect healthy cells to spread senescence paracrinely; NRTIs suppress this inflammation.
+- [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]] — The review shows HERV proviruses are reactivated in senescence by demethylation/decompaction, generate RVLPs whose cDNA triggers cGAS–STING SASP, and can infect healthy cells to spread senescence paracrinely; NRTIs suppress this inflammation.
 
 ## Connections
 

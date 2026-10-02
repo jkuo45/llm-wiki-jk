@@ -251,7 +251,7 @@ updated: 2026-08-16
 |--------|---------------|-------------|
 | [[Adrenoleukodystrophy]] | medical-condition | Adrenoleukodystrophy (ALD) is a severe genetic disorder often caused by mutations in the ABCD1 gene, which encodes a transporter responsible for moving very long-chain fatty acids (VLCFAs) into the... |
 | [[Birt-Hogg-Dube syndrome]] | medical-condition | A rare genetic disorder characterized by skin tumors, lung cysts, and an increased risk of Renal Cell Carcinoma, caused by mutations in Folliculin. |
-| [[Lysosomal Storage Disorders]] | medical-condition | Lysosomal storage disorders (LSDs) are a group of inherited metabolic diseases characterized by lysosomal dysfunction; targeting TFEB to enhance lysosomal biogenesis is a major therapeutic strategy. |
+| [[Lysosomal Storage Diseases]] | medical-condition | Lysosomal storage disorders (LSDs) are a group of inherited metabolic diseases characterized by lysosomal dysfunction; targeting TFEB to enhance lysosomal biogenesis is a major therapeutic strategy. |
 | [[MiT Family Translocation RCC]] | medical-condition | MiT family translocation renal cell carcinoma (RCC) is a subtype of kidney cancer driven by chromosomal translocations that lead to the overexpression of MiT/TFEB family genes, particularly TFEB. |
 | [[Mucopolysaccharidosis-IIIA]] | medical-condition | Also known as Sanfilippo syndrome type A, a Lysosomal Storage Diseases characterized by the accumulation of heparan sulfate. |
 | [[Multiple Sulfatase Deficiency]] | medical-condition | A rare Lysosomal Storage Diseases caused by the lack of all known sulfatase enzymes; treated in models with TFEB. |

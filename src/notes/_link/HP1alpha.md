@@ -43,7 +43,7 @@ Preserving HP1α-dependent heterochromatin at retrotransposons could be [[Senomo
 
 ## Documents
 
-- [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]] — The review shows HP1α is recruited by KAP1 (after SIRT6 ribosylation) to heterochromatinize LINE-1; in senescence, loss of this silencing decompacts retrotransposons, driving cGAS–STING-mediated SASP/inflammaging.
+- [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]] — The review shows HP1α is recruited by KAP1 (after SIRT6 ribosylation) to heterochromatinize LINE-1; in senescence, loss of this silencing decompacts retrotransposons, driving cGAS–STING-mediated SASP/inflammaging.
 
 ## Connections
 

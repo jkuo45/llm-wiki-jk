@@ -42,7 +42,7 @@ KDM6B/JMJD3 inhibitors (e.g., GSK-J4, CPI-0209 class) are under investigation in
 
 ## Documents
 
-- [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]] — The review shows that JMJD3 (KDM6B) overexpression specifically lowers H3K27me3 at IL-6 and IL-8 promoters, increasing expression of these and other SASP factors, illustrating the repressive-mark erosion that licenses the inflammatory secretome.
+- [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]] — The review shows that JMJD3 (KDM6B) overexpression specifically lowers H3K27me3 at IL-6 and IL-8 promoters, increasing expression of these and other SASP factors, illustrating the repressive-mark erosion that licenses the inflammatory secretome.
 
 ## Connections
 

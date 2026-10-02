@@ -46,14 +46,14 @@ aliases: [GD, Gaucher's disease, glucocerebrosidase deficiency, GBA1 deficiency]
 
 ## Broader Biology
 
-Gaucher disease is one of the strongest genetic risk factors for [[Parkinson's Disease]]: GBA1 variants (heterozygous carriers, GD1 included) are the most common genetic risk factor for PD, and biallelic GD1 associates with a substantially increased PD risk. This connects Gaucher biology to [[Alpha-synuclein]] accumulation, [[Neurodegeneration]] and to the broader lysosomal-trafficking and [[Autophagy]] failure hypotheses of PD pathogenesis. GD1 also shows [[Mitochondria|mitochondrial]] and [[Inflammation|inflammatory]] involvement, and Gaucher cells sit within the wider family of [[Lysosomal Storage Disorders]] and [[Lysosomal Storage Diseases]].
+Gaucher disease is one of the strongest genetic risk factors for [[Parkinson's Disease]]: GBA1 variants (heterozygous carriers, GD1 included) are the most common genetic risk factor for PD, and biallelic GD1 associates with a substantially increased PD risk. This connects Gaucher biology to [[Alpha-synuclein]] accumulation, [[Neurodegeneration]] and to the broader lysosomal-trafficking and [[Autophagy]] failure hypotheses of PD pathogenesis. GD1 also shows [[Mitochondria|mitochondrial]] and [[Inflammation|inflammatory]] involvement, and Gaucher cells sit within the wider family of [[Lysosomal Storage Diseases]] and [[Lysosomal Storage Diseases]].
 
 ## Documents
 - (no document notes yet)
 
 ## Connections
 - [[Glucocerebrosidase]] — the deficient enzyme itself; all of GD's primary pathophysiology follows from its loss, and the enzyme is also a wild-type PD risk factor, which is why Gaucher sits at the centre of the lysosomal–Parkinson's intersection.
-- [[Lysosomal Storage Disorders]] — GD is the prototype and most common member of this class, providing the general model of substrate accumulation in a single cell type producing multisystem disease.
+- [[Lysosomal Storage Diseases]] — GD is the prototype and most common member of this class, providing the general model of substrate accumulation in a single cell type producing multisystem disease.
 - [[Lysosomal Storage Diseases]] — the vault's larger cross-cutting note on the LSD family, into which GD's substrate-accumulation logic, biomarkers and therapy-development lessons generalise.
 - [[Lysosome]] — the organelle in which glucocerebrosidase acts and glucosylceramide accumulates; the shared machinery that connects GD to Niemann-Pick, Fabry and Pompe disease.
 - [[Macrophages]] — the cell type that becomes the Gaucher cell; the monocyte-macrophage restriction of storage explains why hepatosplenomegaly, cytopenias and marrow disease dominate the non-neuronopathic phenotype.
@@ -68,6 +68,6 @@ Gaucher disease is one of the strongest genetic risk factors for [[Parkinson's D
 - [[Autophagy]] — lysosomal clearance failure underlies protein aggregation across neurodegeneration, and Gaucher's PD link is usually framed through lysosomal trafficking and autophagy deficits.
 
 ## Linking Summary
-- New links added: [[Glucocerebrosidase]], [[Lysosomal Storage Disorders]], [[Lysosomal Storage Diseases]], [[Lysosome]], [[Macrophages]], [[Spleen]], [[Liver]], [[Bone Marrow]], [[Anemia]], [[Thrombocytopenia]], [[Ceramide]], [[Acid ceramidase]], [[Parkinson's Disease]], [[Alpha-synuclein]], [[Autophagy]], [[Mitochondria]], [[Inflammation]], [[Aging]]
+- New links added: [[Glucocerebrosidase]], [[Lysosomal Storage Diseases]], [[Lysosomal Storage Diseases]], [[Lysosome]], [[Macrophages]], [[Spleen]], [[Liver]], [[Bone Marrow]], [[Anemia]], [[Thrombocytopenia]], [[Ceramide]], [[Acid ceramidase]], [[Parkinson's Disease]], [[Alpha-synuclein]], [[Autophagy]], [[Mitochondria]], [[Inflammation]], [[Aging]]
 - Suggested notes to create: [[GBA1]], [[Glucosylceramide]], [[Glucosylsphingosine]], [[Glucosylceramide Synthase]], [[Imiglucerase]], [[Velaglucerase Alfa]], [[Taliglucerase Alfa]], [[Eliglustat]], [[Miglustat]], [[Enzyme Replacement Therapy]], [[Substrate Reduction Therapy]], [[Chitotriosidase]], [[CCL18]], [[GBA1-Parkinson's Disease Association]], [[N370S]], [[Erlenmeyer Flask Deformity]], [[Hepatosplenomegaly]], [[Osteonecrosis]], [[Pulmonary Hypertension]], [[CYP2D6]], [[P-glycoprotein]], [[Blood-Brain Barrier]], [[GBA1-related Parkinson's Disease]], [[Farber Disease]], [[Niemann-Pick Disease]], [[Multiple Myeloma]]
-- Strong connections to strengthen: [[Gaucher Disease]] ↔ [[Glucocerebrosidase]], [[Gaucher Disease]] ↔ [[Lysosomal Storage Disorders]], [[Gaucher Disease]] ↔ [[Parkinson's Disease]], [[Gaucher Disease]] ↔ [[Lysosomal Storage Diseases]]
+- Strong connections to strengthen: [[Gaucher Disease]] ↔ [[Glucocerebrosidase]], [[Gaucher Disease]] ↔ [[Lysosomal Storage Diseases]], [[Gaucher Disease]] ↔ [[Parkinson's Disease]], [[Gaucher Disease]] ↔ [[Lysosomal Storage Diseases]]

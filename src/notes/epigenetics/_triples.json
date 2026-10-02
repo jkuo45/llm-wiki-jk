@@ -135,7 +135,7 @@
       "zh-TW": "轉錄因子 AP-1 作為先鋒因子，與 SASP 和其他老化相關基因相關的增強子結合，啟動封閉染色質的打開。透過在這些增強子上率先開放染色質，AP-1 能夠隨後招募轉錄機制、組蛋白乙醯轉移酶 p300，並活化 SASP gene expression。單獨消耗 AP-1 家族成員 c-Jun 可以部分逆轉老化相關的細胞週期停滯，強調了 AP-1 的核心調節作用。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-09-29T18:36:32Z"
   },
@@ -149,7 +149,7 @@
       "zh-TW": "BRAF，特別是致癌 BRAF V600E 突變體，當在正常細胞中高水平表達時，會誘導癌基因誘導的衰老。過度活躍的 BRAF 訊號傳導會驅動異常增殖和 DNA 損傷，進而活化 DNA 損傷反應和 p53，引發永久性生長停滯，從而防止惡性轉化。 BRAF 誘導的衰老細胞表現出完整的衰老表型，包括衰老相關的異染色質灶和 SASP，使其成為關鍵的實驗模型。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-09-29T18:36:32Z"
   },
@@ -163,7 +163,7 @@
       "zh-TW": "BRD4 是 BET 家族表觀遺傳讀取器，可與 H3K27ac（活性增強子和啟動子上存在的乙醯化標記）結合。在老化活化的超級增強子中，BRD4 與 H3K27ac 結合，與轉錄因子 C/EBPα 一起，透過支持增強子-啟動子相互作用和轉錄延伸來促進 SASP 基因的表達。 BRD4 抑制可抑制 SASP，同時保持細胞週期停滯完整，使其成為臨床試驗中 BET 抑制劑的候選同型標靶。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-08-20T00:00:00Z"
   },
@@ -177,7 +177,7 @@
       "zh-TW": "BRD4 透過與關鍵 SASP 基因側翼的衰老活化增強子結合來驅動 SASP。 BRD4 與轉錄因子 C/EBPα 一起識別這些增強子上的 H3K27ac 標記，並透過穩定增強子-啟動子接觸來促進發炎 SASP 基因的轉錄。敲除 BRD4 可防止 SASP 的出現，而不影響生長停滯，這將 BRD4 和 BET 溴結構域抑制劑定位為一種有前途的同型策略。由於 BRD4 在許多發炎基因的上游發揮作用，因此它提供了一個單一標靶來抑制整個 SASP 程序。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-08-20T00:00:00Z"
   },
@@ -275,7 +275,7 @@
       "zh-TW": "cGAS-STING 路徑活化 NF-kB，這是發炎反應的主要轉錄因子，也是 SASP 的關鍵調節因子。 cGAS 結合胞質 DNA 並活化 STING 後，下游訊號傳導匯聚到 TBK1 和 IKK 複合物上以活化 NF-kB，從而驅動促炎細胞因子和趨化因子的轉錄。在老化細胞中，cGAS-STING 到 NF-kB 級聯是胞質自身 DNA（包括逆轉錄轉座子 cDNA）誘導 SASP 表現的主要途徑。因此，該途徑是將基因組監測與老化發炎程序聯繫起來的中心節點。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-09-29T18:36:32Z"
   },
@@ -289,7 +289,7 @@
       "zh-TW": "Chromatin 由核小體組成，核小體是將基因組包裝在細胞核內的重複結構單元。每個核小體由一個組蛋白八聚體組成，其中 H2A、H2B、H3 和 H4 各有兩個拷貝，由大約 147 個鹼基對的 DNA 包裹。核小體以串珠的方式沿著 DNA 排列，並進一步壓縮成高級纖維，其定位和修飾決定了底層 DNA 是否可用於轉錄、複製和修復。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-08-20T00:00:00Z"
   },
@@ -429,7 +429,7 @@
       "zh-TW": "細胞質染色質片段會活化 cGAS-STING 通路，這是一種將核 DNA 損傷與發炎聯繫起來的先天免疫 DNA 感測級聯反應。在老化過程中，核膜的破裂將染色質釋放到細胞質中，其中 DNA 感測器 cGAS 結合這種自身 DNA 並活化 STING，驅動 SASP 基因的 NF-kB 依賴性表達。這種透過細胞質染色質的 cGAS-STING 訊號傳導是將基因組不穩定性與發炎老化表型耦合的主要機制。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-09-29T18:36:32Z"
   },
@@ -905,7 +905,7 @@
       "zh-TW": "增強子-啟動子環在拓撲關聯域（兆鹼基級的區室）內受到調節，其中DNA序列彼此之間的相互作用比與外部序列之間的相互作用更頻繁。由於 TAD 限制了增強子-啟動子接觸，因此基因通常受到位於同一結構域內的增強子的調節，並且三維環使這些調節元件與其目標啟動子接近。這種組織允許 SASP 由超連接的增強子-啟動子網路驅動，其相互作用在老化過程中被重組。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-09-29T18:36:32Z"
   },
@@ -1073,7 +1073,7 @@
       "zh-TW": "Etoposide 是一種化療性 DNA 損傷劑，透過觸發強烈的 DNA 損傷反應來誘導治療引起的衰老。作為拓樸異構酶 II 抑制劑，依托泊苷會引起 DNA 雙股斷裂，進而活化 p53 和 DNA 損傷反應，進而導致具有細胞老化標誌的永久性細胞週期停滯。在研究中，依托泊苷是一種標準實驗工具，可在人類纖維母細胞中產生治療誘導的衰老，以研究 SASP 表達和表觀遺傳重塑。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-09-29T18:36:32Z"
   },
@@ -1423,7 +1423,7 @@
       "zh-TW": "組蛋白變異體 H2A.J 在 SASP 基因的啟動子處富集，它促進染色質可及性的變化，從而誘導 SASP 表達。 H2A.J 在人類老化成纖維細胞、衰老人類皮膚和小鼠組織中積累，特別是在對持續 DNA 損傷的反應中。這種與 DNA 損傷相關的 H2A.J 在發炎基因位點的摻入將 DNA 損傷反應與老化相關分泌表型的活化聯繫起來。這種富集將 H2A.J 與典型組蛋白區分開來，並標誌著衰老細胞中向發炎 gene expression 的轉變。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-09-29T18:36:32Z"
   },
@@ -1521,7 +1521,7 @@
       "zh-TW": "HDAC4 是一種 IIa 類組蛋白去乙醯化酶，無催化活性，可作為表觀遺傳讀取器，監測活性增強子處的乙醯化標記 H3K27ac。它迅速被招募到 H3K27ac 基因座，並透過與 I 型去乙醯酶 HDAC3 相互作用，監督 AP-1 調節的超級增強子的乙醯化狀態。這種緩衝功能使與老化相關的 gene expression 保持在檢查狀態，直到老化進入時 HDAC4 降解釋放 SASP 程序。這種監測作用將 HDAC4 與染色質變化聯繫起來，從而設定 SASP 活化的閾值。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-08-20T00:00:00Z"
   },
@@ -1535,7 +1535,7 @@
       "zh-TW": "HDAC4 在進入老化時被降解，這一事件釋放了 AP-1 介導的衰老轉錄程序。在正常情況下，HDAC4（一種 IIa 類組蛋白去乙醯酶，可作為表觀遺傳讀取器）可監測 AP-1 調節的超級增強子上的 H3K27 乙醯化並緩衝老化程序，從而保持 SASP gene expression 受到抑制。它的降解消除了這種制動，從而使驅動 SASP 的衰老相關基因廣泛激活。這種蛋白水解開關是將緩衝狀態轉化為成熟的衰老分泌蛋白組的觸發器之一。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-08-20T00:00:00Z"
   },
@@ -1549,7 +1549,7 @@
       "zh-TW": "當人類內源性逆轉錄病毒的表達在老化和老化過程中被抑制時，它們會活化 cGAS-STING 路徑。與年齡相關的 DNA 甲基化和異染色質缺失允許 HERV 轉錄，並且所得的 HERV RNA 被逆轉錄為 cGAS 感知的 cDNA，觸發 I 型乾擾素和 SASP 因子的 STING 依賴性上調。 HERV 驅動的先天免疫訊號傳導有助於發炎和老化的旁分泌擴散。因此，抑制 HERV 表達或逆轉錄可以減少這種老化驅動的發炎訊號。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-09-29T18:36:32Z"
   },
@@ -1717,7 +1717,7 @@
       "zh-TW": "HMGB2 是一種染色質結合的高遷移率族盒蛋白，可保護 SASP 基因位點在癌基因誘導的衰老過程中免於沉默。當染色質結合時，HMGB2 與 SASP 基因位點結合，防止抑制性異染色質擴散到其中，使 SASP 基因遠離衰老相關的異染色質灶，從而保留其表達。 HMGB2 的耗盡與 SASP 基因的去抑制有關，HMGB2 敲低可以阻止 SASP 的出現，同時使細胞週期停滯不受影響。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-08-20T00:00:00Z"
   },
@@ -1731,7 +1731,7 @@
       "zh-TW": "HMGB2 在老化細胞和老化組織中被耗盡，這種變化伴隨著有序三維基因組結構的喪失。這種耗竭改變了組成型和兼性異染色質之間的平衡，並與複製老化中 SASP 基因表現的增加有關。進入老化時 HMGB2 的缺失會破壞基因組組織並誘導 CTCF 聚類，從而導致廣泛的染色質重塑，從而表徵衰老狀態。它的流失是衰老染色質表型的最早標誌之一。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-08-20T00:00:00Z"
   },
@@ -2095,7 +2095,7 @@
       "zh-TW": "macroH2A 水平在小鼠、狒狒和人類老化成纖維細胞的衰老過程中增加，使其成為衰老細胞狀態的標誌。作為一種半衰期很長的組蛋白變體，macroH2A 在有絲分裂後細胞中積累，有助於抑制增殖基因並穩定衰老相關的異染色質灶。它與年齡相關的累積是老化細胞染色質景觀改變的一部分，並將組蛋白變異動態與老化狀態聯繫起來。因此，macroH2A 既是年齡相關染色質重塑的標記物也是貢獻者。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-08-20T00:00:00Z"
   },
@@ -2109,7 +2109,7 @@
       "zh-TW": "macroH2A 透過在老化過程中調節 SASP 基因座的染色質狀態來促進 SASP。儘管 macroH2A 通常與轉錄沉默和衰老相關的異染色質灶相關，但在癌基因誘導的衰老過程中，需要將其從 SASP 基因位點中去除，以實現正確的 SASP 基因誘導，並且在衰老細胞中敲除 macroH2A 會減少 SASP 的輸出。這種雙重作用說明了組蛋白變異佔據的動態變化如何微調發炎分泌組的表達。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-08-20T00:00:00Z"
   },
@@ -2221,7 +2221,7 @@
       "zh-TW": "METTL3 是甲基轉移酶複合物的催化亞基，可沉積 N6-methyladenosine (m6A)，N6-methyladenosine (m6A) 是哺乳動物細胞中最豐富的信使 RNA 內部修飾。 METTL3 與接頭蛋白 METTL14 一起甲基化 mRNA 中腺苷的 N6 位點，產生的 m6A 標記可調節 RNA 穩定性、剪接、翻譯和輸出。除了其 RNA 甲基化作用外，METTL3-METTL14 複合物還促進衰老相關的增強子-啟動子接觸以及癌基因誘導衰老中的 SASP 表達。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-09-29T18:36:32Z"
   },
@@ -2235,7 +2235,7 @@
       "zh-TW": "METTL3 透過其在 METTL3-METTL14 複合物中的作用促進衰老相關的分泌表型，該複合物在癌基因誘導的衰老過程中在基因組中重新分佈。儘管該複合物以沉積 m6A RNA 修飾而聞名，但該複合物透過染色質環和增強子-啟動子接觸以獨立於酶活性的方式促進 SASP 表達。這種重新分佈促進了超連接的增強子-啟動子網絡，驅動 SASP 基因的穩健表達，將 RNA 修飾蛋白與老化的染色質變化聯繫起來。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-08-20T00:00:00Z"
   },
@@ -2501,7 +2501,7 @@
       "zh-TW": "核苷逆轉錄酶抑制劑是作為 HIV 抗逆轉錄病毒藥物而開發的，也能抑制 LINE-1 逆轉錄轉座。 NRTI 充當鏈終止核苷類似物，透過逆轉錄酶將其摻入新生 DNA 中，從而停止 L1 cDNA 副本的合成，否則這些副本將由細胞質中的 L1 RNA 產生。透過阻斷 LINE-1 逆轉錄，NRTI 可以減少 cGAS-STING 依賴性發炎和老化過程中逆轉錄轉座子去抑制引起的 SASP，並且它們正在被探索作為抗衰老幹預措施。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-09-29T18:36:32Z"
   },
@@ -2991,7 +2991,7 @@
       "zh-TW": "SASP 會導致炎症，這是一種慢性低度炎症，可引發許多與年齡相關的疾病。衰老細胞分泌促發炎細胞因子、趨化因子和蛋白酶，吸引免疫細胞並重塑組織，這些細胞隨著年齡的增長而積累，維持全身發炎。由於 SASP 因子促進鄰近細胞的病理學，因此抑制 SASP 或清除老化細胞是對抗發炎的主要治療策略。因此，以 SASP 輸出為目標是老年科學藥物開發最活躍的領域之一。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-08-20T00:00:00Z"
   },
@@ -3005,7 +3005,7 @@
       "zh-TW": "SASP 主要受 NF-kB 調節，NF-kB 是控制大多數 SASP 基因表現的主要轉錄因子。 NF-kB 在衰老細胞中透過 cGAS-STING 通路、DNA 損傷信號傳導和其他 SASP 誘導通路激活，並驅動促炎細胞因子和趨化因子的轉錄。表觀遺傳機制，包括增強子重塑和 SASP 基因座抑制標記的緩解，與 NF-kB 合作產生強大的發炎分泌組。因此，靶向 NF-kB 或其上游活化劑是抑制 SASP 驅動的發炎的核心策略。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-09-29T18:36:32Z"
   },
@@ -3019,7 +3019,7 @@
       "zh-TW": "衰老細胞表現出獨特的表型變化，包括染色質重塑、代謝重編程和 SASP 的建立。 Chromatin 老化過程中的重塑包括 A/B 區室組織的變化、衰老相關異染色質灶的形成、典型組蛋白的丟失、組蛋白變體的積累以及組成型異染色質的解壓縮。這些表觀遺傳變化協調了維持生長停滯並驅動 SASP gene expression 的轉錄程序。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-09-29T18:36:32Z"
   },
@@ -3047,7 +3047,7 @@
       "zh-TW": "細胞老化的特徵是 SASP，即促發炎細胞因子、趨化因子、生長因子和蛋白酶的複雜混合物的分泌。與不可逆的細胞週期停滯和衰老相關異染色質灶的形成一起，SASP 定義了衰老表型並介導其對組織環境的影響。 SASP 是一把雙面刃，在急性時促進腫瘤監測和傷口癒合，但在老化細胞累積時引發發炎和組織功能障礙。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-08-20T00:00:00Z"
   },
@@ -3075,7 +3075,7 @@
       "zh-TW": "Senescence 相關的異染色質灶包含 macroH2A 以及 HP1、H3K9me3 和 HMGA 蛋白，它們一起在老化細胞的細胞核中形成壓縮的染色質結構域。 macroH2A 在這些病灶中的累積促進了增殖相關基因的轉錄沉默，並有助於穩定老化狀態。儘管 macroH2A 摻入 SAHF 對生長停滯不是必需的，但它是衰老相關染色質重組的標誌。 macroH2A 的富集將 SAHF 與普通異染色質結構域區分開來。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-09-29T18:36:32Z"
   },
@@ -3103,7 +3103,7 @@
       "zh-TW": "Senomorphic 藥物破壞與老化相關的分泌表型，而不是殺死老化細胞，從而減弱導致年齡相關疾病的有害發炎訊號。由於 SASP 是衰老細胞破壞其組織環境的主要途徑，因此抑制它，同時保持生長停滯完好無損，可以保留衰老的腫瘤抑制益處。控制 SASP 基因的表觀遺傳調節因子，例如 KDM4、DOT1L、BRD4 和 HMGB2，是候選的基因表現標靶。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-08-20T00:00:00Z"
   },
@@ -3201,7 +3201,7 @@
       "zh-TW": "為了回應 DNA 損傷訊號，SIRT6 從基因啟動子和重複基因座移至 DNA 斷裂位點，在那裡招募 DNA 修復因子並修飾局部染色質。在損傷部位，SIRT6 促進 H3K56 和其他底物的去乙醯化，促進有效的雙股斷裂修復。這種從 LINE-1 位點到損傷位點的動員同時將 DNA 損傷反應與老化過程中逆轉錄轉座子的去抑制結合起來，將基因組壓力與先天免疫活化聯繫起來。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-09-29T18:36:32Z"
   },
@@ -3215,7 +3215,7 @@
       "zh-TW": "SIRT6 透過其去乙醯化酶和單 ADP-核糖基轉移酶活性維持 L1 位點的抑制性染色質，進而抑制 LINE-1 逆轉錄轉座子。 SIRT6 招募 KAP1 和 HP1 來沉積和維持使 LINE-1 元件沉默的異染色質標記，並且隨著 SIRT6 水平下降，這種沉默隨著年齡的增長而減弱。 SIRT6 的缺失使得 LINE-1 去抑制，並且激活 SIRT6 被探索作為抑制衰老過程中逆轉錄轉座子驅動的炎症的策略。因此，恢復 SIRT6 活性可能有助於抑制老化過程中逆轉錄轉座子驅動的發炎。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-09-29T18:36:32Z"
   },
@@ -3313,7 +3313,7 @@
       "zh-TW": "拓樸關聯結構域將染色質組織成中等規模的離散三維區室，跨越數十千鹼基到兆鹼基。在 TAD 內，DNA 序列之間的相互作用比與域外序列的相互作用更頻繁，從而限制了增強子-啟動子的接觸，並將調節元件與不適當的標靶隔離。這些結構域的邊界由 CTCF 和 HMGB1/2 等蛋白質劃定，它們的破壞會在老化和老化過程中改變 gene expression。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-09-29T18:36:32Z"
   },
@@ -3733,7 +3733,7 @@
       "zh-TW": "γ-H2A.X 是組蛋白變體 H2A.X 在絲氨酸 139 的磷酸化形式，可作為將 DNA 修復蛋白招募到雙股 DNA 斷裂位點的信標。 H2A.X 的磷酸化遍布斷裂周圍的大染色質結構域，為 DNA 修復複合物的組裝和損傷訊號的放大提供了平台。除了修復作用之外，gamma-H2A.X 還誘導 p53 表達並激活衰老信號傳導，並且由於持續的 DNA 損傷，它會隨著衰老而累積。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-09-29T18:36:32Z"
   },

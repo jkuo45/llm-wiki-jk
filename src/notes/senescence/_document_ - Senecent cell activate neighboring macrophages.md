@@ -191,7 +191,7 @@ List of documents in the wiki that mention this entity
 - [[_document_ - SASP, senescent cells, grok|SASP, senescent cells, grok]]
   - Highlights IL-1α as a master regulator of SASP through its activation of NF-κB; discusses inflammasome-mediated SASP activation.
 
-- [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
+- [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]]
   - Lists IL-1α among the upstream SASP regulators whose outputs are shaped by the epigenetic landscape that orchestrates downstream SASP expression.
 
 - [[_document_ - The Senescence-Associated Secretory Phenotype The Dark Side of Tumor Suppression|SASP: The Dark Side of Tumor Suppression]]

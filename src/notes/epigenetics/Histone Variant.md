@@ -47,7 +47,7 @@ List of documents that mention this entity
   - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
     - The key players in marking this site on each chromosome are specialized Nucleosome containing the Histone Variant, CENP-A.
 
-  - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
+  - [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]]
     - Review details how histone variants (H3.3, H2A.J, H2A.X/γ-H2A.X, macroH2A, CENP-A) replace canonical histones in senescent cells, contributing to proliferation arrest, SAHF formation, and SASP expression; BRD4 loss triggers H3.3 clipping that enhances SASP loci accessibility.
 
 ## Connections

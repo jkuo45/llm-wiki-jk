@@ -28,7 +28,7 @@ aliases: []
 
 ## Documents
 
-  - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression|Epigenetic Landscape in Senescence]]
+  - [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression|Epigenetic Landscape in Senescence]]
     - Describes how repressive and activating histone methylation marks are redistributed during senescence to control SASP gene expression.
   - [[_document_ - Epigenetic changes during aging and their reprogramming potential|Epigenetic Changes During Aging]]
     - Documents age-related loss of H3K9me3 and altered histone methylation as reversible drivers of aging phenotypes.

@@ -113,7 +113,7 @@ List of documents that mention this entity
 - [[Acid Sphingomyelinase]] — hydrolyzes sphingomyelin to ceramide; activated by oxidative stress
 - [[Lysosomal Acid Lipase]] — degrades cholesteryl esters and triglycerides in lysosomes
 - [[Lysosomal Storage Diseases]] — inherited disorders caused by deficiency of specific acid hydrolases
-- [[Lysosomal Storage Disorders]] — alternate term for the same disease category
+- [[Lysosomal Storage Diseases]] — alternate term for the same disease category
 - [[Pompe Disease]] — glycogen storage disease caused by acid α-glucosidase deficiency
 - [[Bone Marrow]] — site of hematopoietic stem cell transplants for some LSDs
 - [[Inflammation]] — lysosomal membrane permeabilization releases acid hydrolases and triggers inflammatory signaling

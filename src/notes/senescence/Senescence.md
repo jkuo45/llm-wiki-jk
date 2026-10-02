@@ -173,7 +173,7 @@ List of documents that mention this entity
   - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]
     - Comprehensive review framing senescence as a multi-hallmark program with distinct arrest axes and a heterogeneous SASP driving physiological and pathological outcomes.
 
-  - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
+  - [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]]
     - Review synthesizes how the senescent epigenetic landscape—A/B compartment switching, 3D genome rewiring, histone modifications/variants, histone loss, DNA methylation, and retrotransposon derepression—orchestrates SASP expression, with epigenetic modulators acting as senomorphics.
 
   - [[_document_ - The Senescence-Associated Secretory Phenotype The Dark Side of Tumor Suppression|SASP: The Dark Side of Tumor Suppression]]

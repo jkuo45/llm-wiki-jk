@@ -41,7 +41,7 @@ List of documents that mention this entity
   - [[_document_ - SASP, senescent cells, grok|SASP, senescent cells, grok]]
     - Highlights IL-1α as a master regulator of SASP through its activation of NF-κB.
 
-  - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
+  - [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]]
     - Review lists IL-1α among the upstream SASP regulators (with DNA damage, C/EBPβ, GATA4, p38 MAPK, mTOR, JAK–STAT, NOTCH) whose outputs are shaped by the epigenetic landscape that orchestrates downstream SASP expression.
 
   - [[_document_ - acosta2013_paracrine_senescence|Acosta et al., 2013 — Inflammasome controls paracrine senescence]]
