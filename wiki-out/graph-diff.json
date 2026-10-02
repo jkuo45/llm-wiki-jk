@@ -1,21 +1,41 @@
 {
-  "generated_at": "2026-10-01T18:19:52Z",
+  "generated_at": "2026-09-18T22:12:21Z",
   "triples_graph": "/Users/johnnykuo/Projects/llm-wiki-jk/graphify-out/graph.json",
   "wiki_graph": "/Users/johnnykuo/Projects/llm-wiki-jk/wiki-out/graph.json",
   "counts": {
-    "triples_nodes": 4368,
-    "wiki_nodes": 3360,
-    "shared_nodes": 3150,
-    "wiki_only_nodes": 210,
-    "triples_only_nodes": 1218,
-    "triples_edges": 11864,
-    "wiki_edges": 41371,
-    "triples_edge_pairs": 11011,
-    "wiki_edge_pairs": 41371,
-    "wiki_only_edges": 34364,
-    "triples_only_edges": 4004
+    "triples_nodes": 3493,
+    "wiki_nodes": 3185,
+    "shared_nodes": 2139,
+    "wiki_only_nodes": 1046,
+    "triples_only_nodes": 1354,
+    "triples_edges": 6605,
+    "wiki_edges": 37999,
+    "triples_edge_pairs": 6285,
+    "wiki_edge_pairs": 37999,
+    "wiki_only_edges": 34655,
+    "triples_only_edges": 2941
   },
   "top_wiki_only_nodes": [
+    {
+      "id": "macrophage",
+      "label": "Macrophage",
+      "degree": 76
+    },
+    {
+      "id": "endothelial_cells",
+      "label": "Endothelial Cells",
+      "degree": 69
+    },
+    {
+      "id": "fibroblast",
+      "label": "Fibroblast",
+      "degree": 69
+    },
+    {
+      "id": "glutathione_peroxidase_4",
+      "label": "Glutathione Peroxidase 4",
+      "degree": 68
+    },
     {
       "id": "epigenetics_and_aging",
       "label": "Epigenetics and aging",
@@ -24,17 +44,42 @@
     {
       "id": "histone_variant",
       "label": "Histone Variant",
-      "degree": 66
+      "degree": 64
     },
     {
-      "id": "nafld",
-      "label": "NAFLD",
-      "degree": 62
+      "id": "citric_acid_cycle",
+      "label": "Citric Acid Cycle",
+      "degree": 59
     },
     {
-      "id": "kidney_diseases",
-      "label": "Kidney Diseases",
+      "id": "unfolded_protein_response",
+      "label": "Unfolded Protein Response",
       "degree": 58
+    },
+    {
+      "id": "park2",
+      "label": "PARK2",
+      "degree": 55
+    },
+    {
+      "id": "c_elegans",
+      "label": "Caenorhabditis elegans",
+      "degree": 55
+    },
+    {
+      "id": "mmp_12",
+      "label": "MMP-12",
+      "degree": 55
+    },
+    {
+      "id": "atg1",
+      "label": "Atg1",
+      "degree": 53
+    },
+    {
+      "id": "als",
+      "label": "ALS",
+      "degree": 50
     },
     {
       "id": "immunity",
@@ -42,79 +87,34 @@
       "degree": 50
     },
     {
-      "id": "growth_factor_receptor",
-      "label": "Growth Factor Receptor",
-      "degree": 50
-    },
-    {
-      "id": "met",
-      "label": "MET",
+      "id": "cardiomyocyte_toxicity",
+      "label": "Cardiomyocyte Toxicity",
       "degree": 49
     },
     {
-      "id": "embryogenesis",
-      "label": "Embryogenesis",
+      "id": "muscle",
+      "label": "Muscle",
       "degree": 48
     },
     {
-      "id": "fasn",
-      "label": "FASN",
-      "degree": 46
+      "id": "fat_oxidation",
+      "label": "Fat Oxidation",
+      "degree": 47
     },
     {
-      "id": "intestine",
-      "label": "Intestine",
+      "id": "caspase_8_c_flip_rheostat",
+      "label": "Caspase-8-c-FLIP Rheostat",
+      "degree": 45
+    },
+    {
+      "id": "insulin",
+      "label": "Insulin",
+      "degree": 45
+    },
+    {
+      "id": "retrograde_response",
+      "label": "Retrograde Response",
       "degree": 44
-    },
-    {
-      "id": "endocytosis",
-      "label": "Endocytosis",
-      "degree": 43
-    },
-    {
-      "id": "membrane_trafficking",
-      "label": "Membrane Trafficking",
-      "degree": 43
-    },
-    {
-      "id": "high_fat_diet",
-      "label": "High-fat Diet",
-      "degree": 40
-    },
-    {
-      "id": "cytokine_storm",
-      "label": "Cytokine Storm",
-      "degree": 40
-    },
-    {
-      "id": "radiotherapy",
-      "label": "Radiotherapy",
-      "degree": 40
-    },
-    {
-      "id": "helminth",
-      "label": "Helminth",
-      "degree": 38
-    },
-    {
-      "id": "histone_h2ax",
-      "label": "Histone H2AX",
-      "degree": 37
-    },
-    {
-      "id": "leptin_signaling",
-      "label": "Leptin Signaling",
-      "degree": 34
-    },
-    {
-      "id": "d_dimer",
-      "label": "D-dimer",
-      "degree": 34
-    },
-    {
-      "id": "fn1",
-      "label": "FN1",
-      "degree": 34
     }
   ],
   "top_triples_only_nodes": [
@@ -129,18 +129,28 @@
       "degree": 9
     },
     {
+      "id": "nf_kb",
+      "label": "NF-kB",
+      "degree": 5
+    },
+    {
+      "id": "cdk4",
+      "label": "CDK4",
+      "degree": 5
+    },
+    {
       "id": "sodium_chloride",
       "label": "Sodium Chloride",
       "degree": 5
     },
     {
-      "id": "mice",
-      "label": "Mice",
-      "degree": 4
+      "id": "p21",
+      "label": "p21",
+      "degree": 5
     },
     {
-      "id": "sirt1_and_sirt2",
-      "label": "SIRT1 and SIRT2",
+      "id": "jak_stat3",
+      "label": "JAK-STAT3",
       "degree": 4
     },
     {
@@ -149,13 +159,8 @@
       "degree": 4
     },
     {
-      "id": "jak_stat3",
-      "label": "JAK-STAT3",
-      "degree": 4
-    },
-    {
-      "id": "physical_activity",
-      "label": "Physical Activity",
+      "id": "comt_val158_allele",
+      "label": "COMT Val158 allele",
       "degree": 4
     },
     {
@@ -164,38 +169,33 @@
       "degree": 4
     },
     {
-      "id": "comt_val158_allele",
-      "label": "COMT Val158 allele",
+      "id": "sirt3_deficiency",
+      "label": "SIRT3 deficiency",
       "degree": 4
     },
     {
-      "id": "alkylating_agent",
-      "label": "Alkylating agent",
-      "degree": 3
+      "id": "mice",
+      "label": "Mice",
+      "degree": 4
     },
     {
-      "id": "trim28",
-      "label": "TRIM28",
-      "degree": 3
+      "id": "cdk6",
+      "label": "CDK6",
+      "degree": 4
     },
     {
-      "id": "radiation_therapy",
-      "label": "Radiation Therapy",
-      "degree": 3
+      "id": "sirt1_and_sirt2",
+      "label": "SIRT1 and SIRT2",
+      "degree": 4
     },
     {
-      "id": "h4k16",
-      "label": "H4K16",
-      "degree": 3
+      "id": "physical_activity",
+      "label": "Physical Activity",
+      "degree": 4
     },
     {
-      "id": "s6k1_2",
-      "label": "S6K1/2",
-      "degree": 3
-    },
-    {
-      "id": "sirt7_depletion",
-      "label": "SIRT7 depletion",
+      "id": "tlr2_6",
+      "label": "TLR2/6",
       "degree": 3
     },
     {
@@ -204,18 +204,18 @@
       "degree": 3
     },
     {
-      "id": "antioxidant_properties",
-      "label": "Antioxidant Properties",
+      "id": "alkylating_agent",
+      "label": "Alkylating agent",
       "degree": 3
     },
     {
-      "id": "cutaneous_melanoma",
-      "label": "Cutaneous Melanoma",
+      "id": "s6k1_2",
+      "label": "S6K1/2",
       "degree": 3
     },
     {
-      "id": "reactive_species",
-      "label": "Reactive Species",
+      "id": "pi3k_akt",
+      "label": "PI3K/Akt",
       "degree": 3
     }
   ],
@@ -236,9 +236,9 @@
     },
     {
       "source": "zscan4",
-      "target": "hsc70",
+      "target": "hspa8",
       "source_label": "Zscan4",
-      "target_label": "HSC70",
+      "target_label": "HSPA8",
       "weight": 1.0
     },
     {
@@ -327,6 +327,20 @@
     },
     {
       "source": "zinc_finger",
+      "target": "tale",
+      "source_label": "Zinc Finger",
+      "target_label": "TALE",
+      "weight": 1.0
+    },
+    {
+      "source": "zinc_finger",
+      "target": "mitozfns",
+      "source_label": "Zinc Finger",
+      "target_label": "mitoZFNs",
+      "weight": 1.0
+    },
+    {
+      "source": "zinc_finger",
       "target": "mitochondrial_targeting_sequence",
       "source_label": "Zinc Finger",
       "target_label": "Mitochondrial Targeting Sequence",
@@ -344,20 +358,6 @@
       "target": "mitochondrial_dna",
       "source_label": "Zinc Finger",
       "target_label": "Mitochondrial DNA",
-      "weight": 1.0
-    },
-    {
-      "source": "zinc_finger",
-      "target": "heteroplasmy",
-      "source_label": "Zinc Finger",
-      "target_label": "Heteroplasmy",
-      "weight": 1.0
-    },
-    {
-      "source": "zinc_finger",
-      "target": "foki",
-      "source_label": "Zinc Finger",
-      "target_label": "FokI",
       "weight": 1.0
     }
   ],
@@ -378,16 +378,9 @@
     },
     {
       "source": "zinc_supplementation",
-      "target": "alzheimer_s_disease",
+      "target": "alzheimers_disease",
       "source_label": "Zinc Supplementation",
-      "target_label": "Alzheimer's Disease",
-      "weight": 1
-    },
-    {
-      "source": "zinc_finger",
-      "target": "dna",
-      "source_label": "Zinc Finger",
-      "target_label": "DNA",
+      "target_label": "Alzheimers Disease",
       "weight": 1
     },
     {
@@ -395,13 +388,6 @@
       "target": "pex_gene_mutations",
       "source_label": "Zellweger syndrome",
       "target_label": "PEX gene mutations",
-      "weight": 1
-    },
-    {
-      "source": "zellweger_syndrome",
-      "target": "neonatal_adrenoleukodystrophy",
-      "source_label": "Zellweger syndrome",
-      "target_label": "Neonatal Adrenoleukodystrophy",
       "weight": 1
     },
     {
@@ -420,13 +406,6 @@
     },
     {
       "source": "zbp1",
-      "target": "pattern_recognition_receptors",
-      "source_label": "ZBP1",
-      "target_label": "Pattern Recognition Receptors",
-      "weight": 1
-    },
-    {
-      "source": "zbp1",
       "target": "panoptosome",
       "source_label": "ZBP1",
       "target_label": "PANoptosome",
@@ -437,13 +416,6 @@
       "target": "necroptosis",
       "source_label": "ZBP1",
       "target_label": "Necroptosis",
-      "weight": 1
-    },
-    {
-      "source": "z_dna",
-      "target": "zbp1",
-      "source_label": "Z-DNA",
-      "target_label": "ZBP1",
       "weight": 1
     },
     {
@@ -468,20 +440,6 @@
       "weight": 1
     },
     {
-      "source": "xbp1",
-      "target": "upre",
-      "source_label": "XBP1",
-      "target_label": "UPRE",
-      "weight": 1
-    },
-    {
-      "source": "xbp1",
-      "target": "leucine_zipper_transcription_factors",
-      "source_label": "XBP1",
-      "target_label": "leucine zipper transcription Factors",
-      "weight": 1
-    },
-    {
       "source": "xanthine_oxidase",
       "target": "superoxide_anion",
       "source_label": "Xanthine Oxidase",
@@ -500,6 +458,48 @@
       "target": "barr_body",
       "source_label": "X-Chromosome Inactivation",
       "target_label": "Barr Body",
+      "weight": 1
+    },
+    {
+      "source": "working_memory",
+      "target": "limited_capacity_cognitive_system",
+      "source_label": "Working Memory",
+      "target_label": "limited-capacity cognitive system",
+      "weight": 1
+    },
+    {
+      "source": "working_memory",
+      "target": "balanced_dopamine_in_prefrontal_cortex",
+      "source_label": "Working Memory",
+      "target_label": "balanced dopamine in Prefrontal Cortex",
+      "weight": 1
+    },
+    {
+      "source": "wnt",
+      "target": "emt",
+      "source_label": "Wnt",
+      "target_label": "EMT",
+      "weight": 1
+    },
+    {
+      "source": "withaferin_a",
+      "target": "sirt3_for_anti_fibrotic_effect",
+      "source_label": "Withaferin A",
+      "target_label": "SIRT3 for anti-fibrotic effect",
+      "weight": 1
+    },
+    {
+      "source": "william_c_campbell",
+      "target": "nobel_prize_in_physiology_or_medicine",
+      "source_label": "William C. Campbell",
+      "target_label": "Nobel Prize in Physiology or Medicine",
+      "weight": 1
+    },
+    {
+      "source": "western_diet",
+      "target": "nlrp3_dependent_trained_immunity",
+      "source_label": "Western Diet",
+      "target_label": "NLRP3-Dependent Trained Immunity",
       "weight": 1
     }
   ]

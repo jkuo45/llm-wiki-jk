@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-02T01:19:26Z",
-  "node_count": 3360,
-  "edge_count": 41371,
+  "generated_at": "2026-09-19T05:12:20Z",
+  "node_count": 3185,
+  "edge_count": 37999,
   "reference_links": {
     "document_notes": {
-      "total_targets": 142,
-      "total_links": 4316
+      "total_targets": 141,
+      "total_links": 4293
     },
     "task_outputs": {
-      "total_targets": 29,
-      "total_links": 170
+      "total_targets": 24,
+      "total_links": 146
     }
   },
-  "total_orphan_targets": 5769,
-  "total_orphan_links": 12642,
+  "total_orphan_targets": 4678,
+  "total_orphan_links": 10895,
   "top_targets": [
     {
       "norm_id": "document_mitohormetic_redox_relay",
       "raw": "document_mitohormetic_redox_relay",
-      "link_count": 52
+      "link_count": 51
     },
     {
       "norm_id": "document_mrr_mitohormesis",
@@ -31,26 +31,6 @@
       "link_count": 18
     },
     {
-      "norm_id": "clathrin",
-      "raw": "clathrin",
-      "link_count": 17
-    },
-    {
-      "norm_id": "pik3ca",
-      "raw": "pik3ca",
-      "link_count": 14
-    },
-    {
-      "norm_id": "heparin_induced_thrombocytopenia",
-      "raw": "heparin_induced_thrombocytopenia",
-      "link_count": 13
-    },
-    {
-      "norm_id": "atg3",
-      "raw": "atg3",
-      "link_count": 12
-    },
-    {
       "norm_id": "document_shingles_vaccine_may_slow_biological_aging_and_reduce_inflammation",
       "raw": "document_shingles_vaccine_may_slow_biological_aging_and_reduce_inflammation",
       "link_count": 12
@@ -58,21 +38,6 @@
     {
       "norm_id": "document_flip_the_switch_regulation_of_apoptosis_and_necroptosis_by_cflip",
       "raw": "document_flip_the_switch_regulation_of_apoptosis_and_necroptosis_by_cflip",
-      "link_count": 12
-    },
-    {
-      "norm_id": "adenosine",
-      "raw": "adenosine",
-      "link_count": 12
-    },
-    {
-      "norm_id": "deep_vein_thrombosis",
-      "raw": "deep_vein_thrombosis",
-      "link_count": 12
-    },
-    {
-      "norm_id": "albumin",
-      "raw": "albumin",
       "link_count": 12
     },
     {
@@ -88,11 +53,6 @@
     {
       "norm_id": "epigenetic",
       "raw": "epigenetic",
-      "link_count": 11
-    },
-    {
-      "norm_id": "gaucher_disease",
-      "raw": "gaucher_disease",
       "link_count": 11
     },
     {
@@ -116,6 +76,11 @@
       "link_count": 11
     },
     {
+      "norm_id": "atg3",
+      "raw": "atg3",
+      "link_count": 11
+    },
+    {
       "norm_id": "deoxycytidine_kinase",
       "raw": "deoxycytidine_kinase",
       "link_count": 11
@@ -123,21 +88,6 @@
     {
       "norm_id": "cetuximab",
       "raw": "cetuximab",
-      "link_count": 11
-    },
-    {
-      "norm_id": "ku80",
-      "raw": "ku80",
-      "link_count": 11
-    },
-    {
-      "norm_id": "ornithine",
-      "raw": "ornithine",
-      "link_count": 11
-    },
-    {
-      "norm_id": "lamp2",
-      "raw": "lamp2",
       "link_count": 11
     },
     {
@@ -151,6 +101,11 @@
       "link_count": 11
     },
     {
+      "norm_id": "methotrexate",
+      "raw": "methotrexate",
+      "link_count": 11
+    },
+    {
       "norm_id": "carboxyethyllysine",
       "raw": "carboxyethyllysine",
       "link_count": 11
@@ -158,6 +113,16 @@
     {
       "norm_id": "bee_venom",
       "raw": "bee_venom",
+      "link_count": 11
+    },
+    {
+      "norm_id": "nematode",
+      "raw": "nematode",
+      "link_count": 11
+    },
+    {
+      "norm_id": "reverse_transcriptase",
+      "raw": "reverse_transcriptase",
       "link_count": 11
     },
     {
@@ -181,6 +146,11 @@
       "link_count": 11
     },
     {
+      "norm_id": "anticoagulant",
+      "raw": "anticoagulant",
+      "link_count": 11
+    },
+    {
       "norm_id": "long_term_potentiation",
       "raw": "long_term_potentiation",
       "link_count": 10
@@ -191,8 +161,8 @@
       "link_count": 10
     },
     {
-      "norm_id": "mrn_complex",
-      "raw": "mrn_complex",
+      "norm_id": "enzyme",
+      "raw": "enzyme",
       "link_count": 10
     },
     {
@@ -211,16 +181,6 @@
       "link_count": 10
     },
     {
-      "norm_id": "calreticulin",
-      "raw": "calreticulin",
-      "link_count": 10
-    },
-    {
-      "norm_id": "cpt1",
-      "raw": "cpt1",
-      "link_count": 10
-    },
-    {
       "norm_id": "antibody",
       "raw": "antibody",
       "link_count": 10
@@ -233,6 +193,11 @@
     {
       "norm_id": "vinca_alkaloids",
       "raw": "vinca_alkaloids",
+      "link_count": 10
+    },
+    {
+      "norm_id": "adenosine_triphosphate_atp",
+      "raw": "adenosine_triphosphate_atp",
       "link_count": 10
     },
     {
@@ -251,18 +216,53 @@
       "link_count": 10
     },
     {
-      "norm_id": "e_selectin",
-      "raw": "e_selectin",
-      "link_count": 10
-    },
-    {
       "norm_id": "ctcf",
       "raw": "ctcf",
       "link_count": 10
     },
     {
-      "norm_id": "rnf8",
-      "raw": "rnf8",
+      "norm_id": "ornithine",
+      "raw": "ornithine",
+      "link_count": 10
+    },
+    {
+      "norm_id": "lamp2",
+      "raw": "lamp2",
+      "link_count": 10
+    },
+    {
+      "norm_id": "26s_proteasome",
+      "raw": "26s_proteasome",
+      "link_count": 10
+    },
+    {
+      "norm_id": "lsd",
+      "raw": "lsd",
+      "link_count": 10
+    },
+    {
+      "norm_id": "atrial_fibrillation",
+      "raw": "atrial_fibrillation",
+      "link_count": 10
+    },
+    {
+      "norm_id": "calcium_channel_blockers",
+      "raw": "calcium_channel_blockers",
+      "link_count": 10
+    },
+    {
+      "norm_id": "mad2",
+      "raw": "mad2",
+      "link_count": 10
+    },
+    {
+      "norm_id": "wolbachia",
+      "raw": "wolbachia",
+      "link_count": 10
+    },
+    {
+      "norm_id": "mhc_class_i",
+      "raw": "mhc_class_i",
       "link_count": 10
     }
   ]
