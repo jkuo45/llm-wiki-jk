@@ -11,7 +11,7 @@ aliases: []
 ---
 # Amino Acid Sensing
 
-Amino acid sensing is the cellular detection of nutrient availability; high amino acid levels trigger the [[Ragulator]] and [[Rag GTPases]] to recruit [[mTORC1]] to the lysosome, where it inhibits [[TFEB]].
+Amino acid sensing is the cellular detection of nutrient availability; high amino acid levels trigger the [[Ragulator]] and [[Rag proteins]] to recruit [[mTORC1]] to the lysosome, where it inhibits [[TFEB]].
 
 ## Mechanisms
 
@@ -28,7 +28,7 @@ List of documents that mention this entity
 ## Connections
 
 - [[Ragulator]]: Amino acid sensing is the cellular detection of nutrient availability; high amino acid levels trigger the Ragulator a...
-- [[Rag GTPases]]: Amino acid sensing is the cellular detection of nutrient availability; high amino acid levels trigger the [[Ragulator...
+- [[Rag proteins]]: Amino acid sensing is the cellular detection of nutrient availability; high amino acid levels trigger the [[Ragulator...
 - [[mTORC1]]: Amino acid sensing is the cellular detection of nutrient availability; high amino acid levels trigger the [[Ragulator...
 - [[TFEB]]: Amino acid sensing is the cellular detection of nutrient availability; high amino acid levels trigger the [[Ragulator...
 - [[V-ATPase]]: Amino acid sensing at the lysosome involves the V-ATPase-[[Ragulator]]-[[Rag]]-[[mTORC1]] axis.
@@ -38,6 +38,6 @@ List of documents that mention this entity
 - [[CASTOR1]]: [[SLC38A9]] exports arginine, [[Sestrin2]] senses leucine, CASTOR1 senses arginine.
 
 ## Linking Summary
-- New links added: [[Ragulator]], [[Rag GTPases]], [[mTORC1]], [[TFEB]]
+- New links added: [[Ragulator]], [[Rag proteins]], [[mTORC1]], [[TFEB]]
 - Suggested new entity notes to create: [[SLC38A9]]
 - Strong connections to strengthen: [[Amino Acid Sensing]] ↔ [[mTORC1]]

@@ -19,7 +19,7 @@ The **TOR-autophagy spatial coupling compartment (TASCC)** is a specialized sign
 
 ## Mechanism of Action & Signaling
 
-Upon senescence entry, the [[mTORC1]] complex—recruited by [[Rag GTPases]] to lysosome/trans-Golgi membranes—remains active despite the proliferative arrest. Nearby, autophagosomes and autolysosomes cluster, generating a local supply of recycled amino acids that sustains mTORC1 signaling. This spatial coupling creates a feed-forward loop: autophagy delivers nutrients → mTORC1 is activated → cap-dependent translation of SASP mRNAs and [[p70S6 kinase|S6K1]]/[[4E-BP1]] signaling are boosted. The TASCC therefore resolves a paradox of senescence—high autophagy coexisting with vigorous secretion—by channeling recycled building blocks into secretory cargo rather than cell growth. ULK1/[[ULK1]], [[V-ATPase]] and lysosomal positioning regulate TASCC assembly.
+Upon senescence entry, the [[mTORC1]] complex—recruited by [[Rag proteins]] to lysosome/trans-Golgi membranes—remains active despite the proliferative arrest. Nearby, autophagosomes and autolysosomes cluster, generating a local supply of recycled amino acids that sustains mTORC1 signaling. This spatial coupling creates a feed-forward loop: autophagy delivers nutrients → mTORC1 is activated → cap-dependent translation of SASP mRNAs and [[p70S6 kinase|S6K1]]/[[4E-BP1]] signaling are boosted. The TASCC therefore resolves a paradox of senescence—high autophagy coexisting with vigorous secretion—by channeling recycled building blocks into secretory cargo rather than cell growth. ULK1/[[ULK1]], [[V-ATPase]] and lysosomal positioning regulate TASCC assembly.
 
 ## Role in Senescence / SASP
 
@@ -44,9 +44,9 @@ List of documents that mention this entity
 - [[Autophagy]] — Couples autophagy to SASP production
 - [[IL-1α]] — Promotes translation of IL-1α
 - [[SASP|Senescence-Associated Secretory Phenotype]] — Essential for efficient SASP production
-- [[Rag GTPases]], [[Rapamycin]], [[ULK1]], [[V-ATPase]], [[4E-BP1]], [[p70S6 kinase|S6K1]], [[Inflammaging]], [[Fibrosis]] — regulators and contexts
+- [[Rag proteins]], [[Rapamycin]], [[ULK1]], [[V-ATPase]], [[4E-BP1]], [[p70S6 kinase|S6K1]], [[Inflammaging]], [[Fibrosis]] — regulators and contexts
 
 ## Linking Summary
 
-  - New links added: [[mTOR]], [[mTORC1]], [[Autophagy]], [[IL-1α]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Rag GTPases]], [[Rapamycin]], [[ULK1]], [[V-ATPase]], [[4E-BP1]], [[p70S6 kinase|S6K1]], [[Inflammaging]], [[Fibrosis]]
+  - New links added: [[mTOR]], [[mTORC1]], [[Autophagy]], [[IL-1α]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Rag proteins]], [[Rapamycin]], [[ULK1]], [[V-ATPase]], [[4E-BP1]], [[p70S6 kinase|S6K1]], [[Inflammaging]], [[Fibrosis]]
   - Strong connections to strengthen: [[TASCC]] ↔ [[mTOR]], [[TASCC]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[TASCC]] ↔ [[Autophagy]]
