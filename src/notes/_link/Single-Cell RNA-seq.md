@@ -3,7 +3,7 @@ title: Single-Cell RNA-seq
 description: Single-cell RNA sequencing measures the transcriptome of individual cells rather than bulk tissue, resolving heterogeneous cell populations and states that averaging hides; droplet platforms with molecular barcodes made it routine, but dropout, batch effects and stochastic expression remain its defining analytic problems.
 protected: false
 created: 2026-10-01
-updated: 2026-10-01
+updated: 2026-10-02
 tags: [analytical-technique, transcriptomics, genomics]
 aliases: [scRNA-seq, single cell RNA sequencing, scRNAseq, snRNA-seq, single-nucleus RNA-seq]
 ---
@@ -16,10 +16,10 @@ Its central payoff is **heterogeneity resolution**: distinct cell types, transie
 
 ## Protocol Families
 
-- **Full-length (Smart-seq2, Quartz-seq)** — random-primed reverse transcription across the whole transcript. Fewer cells, but better sensitivity, isoform resolution and allelic assignment.
+- **Full-length (Smart-seq2, Quartz-seq)** — random-primed reverse transcription across the whole transcript. Fewer cells, but better sensitivity and isoform resolution.
 - **3'/5' tag-based (10x, Drop-seq, CEL-seq2, STRT-seq)** — cheaper, scalable, and tagged, which is why they dominate. They are biased toward 3' ends, so intra-gene comparisons of isoform usage are limited.
 
-Standard preprocessing is quality control (gene counts, molecular counts, mitochondrial and ribosomal fractions, doublet removal), library-size normalisation, highly-variable-gene selection, dimensionality reduction — almost always PCA, then t-SNE or UMAP — and graph-based clustering.
+Standard preprocessing is quality control (gene counts, mitochondrial and ribosomal fractions, doublet removal), normalisation, highly-variable-gene selection, dimensionality reduction — almost always PCA, then t-SNE or UMAP — and graph-based clustering.
 
 ## Analytical Caveats
 

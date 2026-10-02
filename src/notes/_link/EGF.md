@@ -19,7 +19,7 @@ The functional core is a ~40-residue **EGF module** of six cysteines in fixed sp
 > [!info] Four signalling modes from one precursor
 > Because shedding is regulated rather than constitutive, EGF-family ligands signal in four modes: **endocrine**, **paracrine**, **autocrine**, and **juxtacrine** (uncleaved membrane-anchored precursor contacting an adjacent cell's receptor). Ligand identity partly determines the mode — uncleavable HB-EGF in mice causes severe heart failure and valve enlargement, resembling full knockout.
 
-EGF is abundant in saliva, milk, bile, urine and seminal fluid (50–500 ng/mL) and low in plasma. It is required for normal morphogenesis of teeth, skin, gastrointestinal tract, brain and reproductive tract, and is the basis of the classic sialadenectomy and bulbectomy rodent experiments.
+EGF is abundant in saliva, milk, bile and urine (50–500 ng/mL) and low in plasma. It is required for normal morphogenesis of teeth, skin, gastrointestinal tract, brain and reproductive tract, and is the basis of the classic sialadenectomy and bulbectomy rodent experiments.
 
 ## Mechanism of Action
 

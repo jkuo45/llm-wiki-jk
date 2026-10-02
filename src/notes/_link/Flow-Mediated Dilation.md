@@ -3,7 +3,7 @@ title: Flow-Mediated Dilation
 description: Flow-mediated dilation is the standard non-invasive measurement of endothelial function, quantitating the percent widening of the brachial artery by ultrasound after reactive hyperemia from cuff occlusion; it is largely nitric-oxide mediated and independently predicts cardiovascular events.
 protected: false
 created: 2026-10-01
-updated: 2026-10-01
+updated: 2026-10-02
 tags: [measurement-method, cardiovascular, endothelial-function]
 aliases: [FMD, flow-mediated vasodilation, FMD%, reactive hyperemia dilation]
 ---
@@ -38,7 +38,7 @@ FMD is measurably reduced in [[Hypertension]], [[Diabetes Mellitus]] and its com
 > - recognising that time-to-peak diameter is **not** an independent marker of NO bioavailability and should not be used as an endothelial-health adjunct
 > - acknowledging normal values vary from 5% to 15% across laboratories
 
-Consequently the 2010 ACCF/AHA guideline did not recommend FMD for risk assessment in asymptomatic adults, and no universal reference values have been agreed. Its strength remains in **within-subject serial measurement** in research settings using a standardised protocol, where reproducibility is good.
+Consequently the 2010 ACCF/AHA guideline did not recommend FMD for risk assessment in asymptomatic adults, and no universal reference values have been agreed. Its strength remains in **within-subject serial measurement** in research settings using a standardised protocol.
 
 ## Documents
 - (no document notes yet)
@@ -56,5 +56,5 @@ Consequently the 2010 ACCF/AHA guideline did not recommend FMD for risk assessme
 
 ## Linking Summary
 - New links added: [[Endothelial Dysfunction]], [[Nitric Oxide]], [[eNOS]], [[Arterial Stiffness]], [[Oxidative Stress]], [[Cardiovascular Disease]], [[Atherosclerosis]], [[Exercise]], [[Heart Rate Variability]]
-- Suggested notes to create: [[Reactive Hyperemia]], [[Nitroglycerin-Induced Dilation]], [[Brachial Artery]], [[Shear Stress]], [[Intima-Media Thickness]], [[ADMA]], [[Reactive Hyperemia-Peripheral Arterial Tonometry]]
+- Suggested notes to create: [[Reactive Hyperemia]], [[Nitroglycerin-Induced Dilation]], [[Brachial Artery]], [[Shear Stress]], [[Intima-Media Thickness]], [[Reactive Hyperemia-Peripheral Arterial Tonometry]]
 - Strong connections to strengthen: [[Flow-Mediated Dilation]] ↔ [[Endothelial Dysfunction]], [[Flow-Mediated Dilation]] ↔ [[Nitric Oxide]]

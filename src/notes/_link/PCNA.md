@@ -12,14 +12,14 @@ aliases: [Proliferating Cell Nuclear Antigen, PCNA ring, POL30]
 
 **Proliferating cell nuclear antigen (PCNA)** is the eukaryotic DNA **sliding clamp** — a homotrimeric ring that encircles double-stranded DNA and tethers replicative DNA polymerases to the template. It is the structural homolog of the *E. coli* beta clamp and shares essentially no sequence similarity with it, which makes PCNA a clear demonstration that evolution converges on the same architecture for the same job.
 
-Discovered in the early 1980s as a protein fluctuating with the cell cycle, PCNA was shown in 1988 to be required for simian virus 40 replication *in vitro*, and was quickly established as the processivity factor for polymerase delta (later also epsilon). Its unifying role is as a **mobile platform**: rather than merely boosting polymerase speed, PCNA is a multivalent landing pad recruiting dozens of proteins across replication, repair, chromatin assembly and cell-cycle control.
+Discovered in the early 1980s as a protein fluctuating with the cell cycle, PCNA was shown in 1988 to be required for simian virus 40 replication *in vitro*, and quickly established as the processivity factor for polymerase delta (later also epsilon). Its unifying role is as a **mobile platform**: rather than merely boosting polymerase speed, PCNA is a multivalent landing pad recruiting dozens of proteins across replication, repair, chromatin assembly and cell-cycle control.
 
 > [!important] Three binding sites on the front, two modifications on the back
 > Most partners bind through a conserved **PIP box** on the interdomain connector loop, on the front face of the ring. Two post-translational modifications sit instead on the back face at **Lys164** — ubiquitin and SUMO — and act as a switch changing which partners PCNA accepts.
 
 ## Structure and Clamp Loading
 
-The clamp is a pseudo-six-fold symmetric ring with a central channel wide enough for B-form DNA. Loading is ATP-dependent: the **replication factor C** complex opens the ring at a nick and threads it onto the 5' end. Unloading (by ATAD5 in mammals) retrieves modified clamps so deubiquitinases can act. The ring is closed around duplex DNA but must let single-stranded regions pass during lesion bypass, so it is dynamically flexible rather than a rigid cylinder.
+The clamp is a pseudo-six-fold symmetric ring with a channel wide enough for B-form DNA. Loading is ATP-dependent: the **replication factor C** complex opens the ring at a nick and threads it onto the 5' end; unloading (by ATAD5 in mammals) retrieves modified clamps so deubiquitinases can act.
 
 ## Modification as a Pathway Switch
 
@@ -30,11 +30,11 @@ Forks stall constantly on endogenous damage, and PCNA's modification state decid
 - **SUMOylation at K164** (and K127) by Ubc9/Siz1, constitutive during S phase once PCNA is chromatin-bound. Recruits the anti-recombinogenic helicase Srs2 in yeast and its human counterpart PARI, which displaces [[RAD51]] filaments and suppresses illegitimate recombination.
 
 > [!warning] The "toolbelt" model is a model
-> Crystal structures place the modifiers on the back face with minimal perturbation of the clamp, so a **toolbelt** arrangement is favoured: a polymerase stays bound on the front while a TLS polymerase is held in reserve on the back. The analogous bacterial arrangement (Pol III and Pol IV simultaneously bound to the beta clamp) is demonstrated; the eukaryotic version is a well-supported inference, not a direct observation.
+> Crystal structures place the modifiers on the back face with minimal perturbation of the clamp, so a **toolbelt** arrangement is favoured: a polymerase stays bound on the front while a TLS polymerase is held in reserve on the back. The analogous bacterial arrangement is demonstrated; the eukaryotic version is a well-supported inference, not a direct observation.
 
 ## Clinical Relevance
 
-PCNA is the routine **proliferation and cycling marker** in immunohistochemistry; loss of nuclear PCNA is what distinguishes a growth-arrested senescent cell from a quiescent one. PCNA expression rises in essentially every proliferating tumour, and PCNA-interacting proteins are being pursued as targets. Because its K164 modification state reports on replication stress, PCNA ubiquitinylation is assayed as a biomarker of genotoxic exposure. PCNA also sits downstream of CDK4/6 signalling — the reason [[Palbociclib]] and relatives affect the G1/S transition.
+PCNA is the routine **proliferation marker** in immunohistochemistry; loss of nuclear PCNA is what distinguishes a growth-arrested senescent cell from a quiescent one. Because its K164 modification state reports on replication stress, PCNA ubiquitinylation is assayed as a biomarker of genotoxic exposure. PCNA also sits downstream of CDK4/6 signalling — the reason [[Palbociclib]] and relatives affect the G1/S transition.
 
 ## Documents
 - [[_document_ - Mitochondrial metabolism and epigenetic crosstalk drive SASP|Mitochondrial metabolism and epigenetic crosstalk drive SASP]] — uses anti-PCNA immunostaining in a 4i panel to distinguish senescent (p16/p21-positive, PCNA-negative) from cycling hepatocytes in liver senescence models.

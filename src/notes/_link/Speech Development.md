@@ -30,22 +30,22 @@ The trajectory is broadly stereotyped, though age boundaries are loose and cultu
 
 Three systems develop in parallel:
 
-- **Auditory** — peripheral cochlear transduction, auditory nerve conduction, and central processing that is itself experience-dependent. Congenital cytomegalovirus and neonatal jaundice are notable causes of speech-onset delay via hearing damage.
-- **Motor** — cortical planning, [[Basal Ganglia|basal ganglia]] sequencing and [[Cerebellum|cerebellar]] error correction, feeding bulbar motor neurons and the laryngeal musculature. Childhood apraxia of speech is the clearest motor-specific disorder.
+- **Auditory** — cochlear transduction, auditory nerve conduction, and experience-dependent central processing. Congenital cytomegalovirus and neonatal jaundice are notable causes of speech-onset delay via hearing damage.
+- **Motor** — cortical planning, [[Basal Ganglia|basal ganglia]] sequencing and [[Cerebellum|cerebellar]] error correction feeding bulbar motor neurons. Childhood apraxia of speech is the clearest motor-specific disorder.
 - **Metabolic** — speech pathways are long, heavily myelinated axons with high energy demand, so anything limiting brain ATP or myelin integrity slows development.
 
 > [!info] Speech delay is a systemic red flag
-> Because speech and language are late-maturing and metabolically expensive, delayed speech is one of the earliest and most sensitive behavioural markers of a global neurodevelopmental or metabolic problem. It should prompt hearing assessment and developmental evaluation rather than reassurance.
+> Because speech and language are late-maturing and metabolically expensive, delayed speech is one of the earliest and most sensitive behavioural markers of a global neurodevelopmental or metabolic problem.
 
 ## The Creatine Link
 
 Brain creatine (with [[Phosphocreatine (PCr)]]) buffers ATP and ADP, and the brain relies on it heavily; endogenous synthesis is rate-limiting because creatine does not cross the blood-brain barrier. Every defect in the creatine system — [[Creatine Synthesis Deficiency|synthesis]] via [[Arginine Glycine Amidinotransferase|AGAT]] or [[Guanidinoacetate N-methyltransferase|GAMT]], or transport via [[Creatine Transporters (CRTR)|SLC6A8]] — presents with the same triad: **global developmental delay, intellectual disability and speech/language delay**, frequently with epilepsy and movement disorders. SLC6A8 deficiency alone accounts for roughly 2% of intellectual disability in boys.
 
-What makes these conditions actionable is that, unlike most neurodevelopmental disorders, they are **partly treatable by high-dose oral creatine supplementation** (0.3–0.8 g/kg/day), which raises brain creatine and PCr and can normalise development when started early — normal psychomotor development has been reported in children treated from infancy.
+What makes these conditions actionable is that, unlike most neurodevelopmental disorders, they are **partly treatable by high-dose oral creatine supplementation** (0.3–0.8 g/kg/day), which raises brain creatine and PCr and can normalise development when started early.
 
 ## Clinical Significance
 
-Isolated speech delay with normal hearing and otherwise normal milestones is usually benign and self-limiting, and is more common in boys. But delay becomes concerning when accompanied by failure to babble (a red flag for hearing loss), regression of acquired language, involvement of other developmental domains, or illness in infancy. Early language delay predicts later literacy and academic difficulty, which is why early identification and speech-language intervention are standard in developmental assessment.
+Isolated speech delay with normal hearing and otherwise normal milestones is usually benign and self-limiting, and is more common in boys. But delay becomes concerning when accompanied by failure to babble (a red flag for hearing loss), regression of acquired language, or involvement of other developmental domains. Early language delay predicts later literacy difficulty, which is why early identification and speech-language intervention are standard in developmental assessment.
 
 ## Documents
 - [[_document_ - Creatine in Health and Disease|Creatine in Health and Disease]] — links low brain creatine to myopathies, movement disorders, speech development delay, epilepsy and cognitive-motor delay, and reports that long-term high-dose creatine supplementation improves or stabilises these deficits in AGAT and GAMT deficiency.

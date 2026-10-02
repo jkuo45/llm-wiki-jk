@@ -3,7 +3,7 @@ title: Myelin Basic Protein
 description: Myelin basic protein is the second most abundant protein of CNS myelin, an intrinsically disordered ~18.5 kDa protein whose net positive charge lets it collapse the cytoplasmic leaflets into the major dense line, and whose citrullination and isoform switching mark the demyelination of multiple sclerosis.
 protected: false
 created: 2026-10-01
-updated: 2026-10-01
+updated: 2026-10-02
 tags: [protein, myelin, neuroimmunology]
 aliases: [MBP, myelin A1 protein, Golli-MBP, encephalitogenic protein]
 ---
@@ -21,7 +21,7 @@ MBP is encoded by the *Golli* gene complex, which yields both the classical myel
 
 Human MBP exists as four size isoforms — **17.2, 18.5, 20.2 and 21.5 kDa** — from alternative splicing within the 10-exon Golli complex. All contain exons 1, 3, 4, 6 and 7; only the two largest contain exon 2, so they are **exon 2+** while the 17.2 and 18.5 kDa forms are **exon 2−**. The 18.5 kDa isoform is by far the most abundant in adult myelin and the most studied.
 
-MBP's net charge of roughly +19 at neutral pH, its low hydrophobic content, and its alternating segments of predicted disorder and order let it function as a hub, binding not only lipids but also calmodulin, cytoskeletal components and SH3-domain proteins — including signalling partners such as Fyn — so it can transduce signals between membrane and cytoskeleton.
+MBP's net charge of roughly +19 at neutral pH and its alternating segments of predicted disorder and order let it function as a hub, binding not only lipids but also calmodulin, cytoskeletal components and SH3-domain proteins — so it can transduce signals between membrane and cytoskeleton.
 
 ## Role in Myelin Assembly
 
@@ -32,13 +32,13 @@ MBP's net charge of roughly +19 at neutral pH, its low hydrophobic content, and 
 
 MBP has been implicated in [[Multiple Sclerosis]] since the earliest animal models. The dominant model holds that foreign antigen exposure in a genetically susceptible individual activates **cross-reactive T cells** that then attack myelin, with MBP-derived peptides as candidate autoantigens. Two molecular changes are well documented:
 
-- **Isoform and structure shifts.** Exon 2+ MBP, absent from adult myelin, is upregulated during remyelination, and human T cells do recognise epitopes on the exon 2+ forms. That suggests regenerating myelin and immature oligodendrocytes may be the actual targets — a mechanism for progressive rather than relapsing-remitting pathology.
+- **Isoform shifts.** Exon 2+ MBP, absent from adult myelin, is upregulated during remyelination, and human T cells do recognise epitopes on the exon 2+ forms — suggesting regenerating myelin and immature oligodendrocytes may be the actual targets.
 - **Post-translational modification.** **Deimination (citrullination) of arginine residues** is elevated in MS and its degree correlates with disease severity. Charge-neutralising these arginines weakens membrane binding and loosens compact myelin.
 
 > [!warning] MBP is an autoantigen candidate, not a proven one
 > Despite five decades of work, a direct primary-antigen role for MBP in human MS remains unproven. Cross-reactivity with viral antigens does exist — including with [[Epstein-Barr virus]] latent membrane protein — but EBV infection is such a strong and specific MS risk factor that the cross-reaction alone cannot explain the epidemiological relationship. Molecular mimicry with EBV is suggestive, not established.
 
-MBP has also acquired a post-mortem diagnostic role, being measurable in [[Cerebrospinal Fluid]] as a marker of active demyelination, though circulating anti-MBP antibodies and MBP-specific T cells remain investigational as biomarkers rather than routine tests.
+MBP has also acquired a post-mortem diagnostic role, being measurable in [[Cerebrospinal Fluid]] as a marker of active demyelination.
 
 > [!info] MBP as the myelin "histone"
 > Just as basic histones were once seen as inert spool for chromatin and are now understood as dynamic regulators, MBP is not merely the adhesive of compact myelin but an active participant in oligodendrocyte proliferation and membrane process extension during myelogenesis.
