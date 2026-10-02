@@ -74,5 +74,5 @@ aliases: [BCL2 Interacting Protein 3, Bnip3, NIP3, BCL2/BNIP3]
 
 ## Linking Summary
 - New links added: [[Rubicon]], [[Vps34]]
-- Suggested notes to create: [[Reticulocyte]], [[14-3-3 Proteins]], [[Delayed Neuronal Death]] — removed as already existing: AMPK, BNIP3L, Bcl-2, Bcl-2 family, Dyspnea, Erβ, Necrosis
+- Suggested notes to create: [[Reticulocyte]], [[14-3-3 Proteins]], [[Delayed Neuronal Death]] AMPK, BNIP3L, Bcl-2, Bcl-2 family, Dyspnea, Erβ, Necrosis
 - Strong connections to strengthen: [[BNIP3]] ↔ [[NIX]], [[BNIP3]] ↔ [[LC3]], [[BNIP3]] ↔ [[HIF-1α]], [[BNIP3]] ↔ [[Mitochondrial Permeability Transition Pore]]

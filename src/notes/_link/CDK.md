@@ -94,5 +94,5 @@ Approved CDK4/6 inhibitors — [[Palbociclib]], [[Ribociclib]], [[Abemaciclib]] 
 
 ## Linking Summary
 - New links added: [[Quiescence]] (CDK reporters as a quiescence readout)
-- Suggested notes to create: [[CDK3]], [[CDK7]], [[CDK8]], [[CDK9]], [[CDK10]], [[CDK12]], [[CDK13]], [[CDK-activating Kinase (CAK)]], [[WEE1]], [[MYT1]], [[MAT1]], [[INK4]], [[Cip/Kip]], [[P-TEFb]], [[CDKL kinases]], [[Mediator Complex]] — removed as already existing: Cyclin, Cyclin B, Cyclin D1, Cyclin E, Restriction Point
+- Suggested notes to create: [[CDK3]], [[CDK7]], [[CDK8]], [[CDK9]], [[CDK10]], [[CDK12]], [[CDK13]], [[CDK-activating Kinase (CAK)]], [[WEE1]], [[MYT1]], [[MAT1]], [[INK4]], [[Cip/Kip]], [[P-TEFb]], [[CDKL kinases]], [[Mediator Complex]] Cyclin, Cyclin B, Cyclin D1, Cyclin E, Restriction Point
 - Strong connections to strengthen: [[CDK]] ↔ [[Cyclin]], [[CDK]] ↔ [[CDK Inhibitor]], [[CDK]] ↔ [[Retinoblastoma Protein]], [[CDK]] ↔ [[Cell Cycle]]

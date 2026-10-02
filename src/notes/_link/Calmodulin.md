@@ -83,5 +83,5 @@ CaM transduces essentially all [[Calcium Signaling|calcium signals]] in eukaryot
 
 ## Linking Summary
 - New links added: [[Metastasis]]
-- Suggested notes to create: [[EF-Hand]], [[EF-Hand Protein]], [[MLCK]], [[Troponin C]], [[CaMKK2]], [[Induced Conformational Change]], [[FRET]], [[CALM1]], [[Connexin]] — removed as already existing: calcineurin
+- Suggested notes to create: [[EF-Hand]], [[EF-Hand Protein]], [[MLCK]], [[Troponin C]], [[CaMKK2]], [[Induced Conformational Change]], [[FRET]], [[CALM1]], [[Connexin]] calcineurin
 - Strong connections to strengthen: [[Calmodulin]] ↔ [[Calcium Signaling]], [[Calmodulin]] ↔ [[CaMKII]], [[Calmodulin]] ↔ [[SIRT1]], [[Calmodulin]] ↔ [[ApoE]]

@@ -80,5 +80,5 @@ Ceruloplasmin is unusual among MCOs in containing **three type 1 "integral" copp
 
 ## Linking Summary
 - New links added: [[Proteinuria]], [[Oxidized LDL]]
-- Suggested notes to create: [[Multicopper Oxidase]], [[Hephaestin]], [[Wilson's Disease]], [[Aceruloplasminemia]], [[Asialoglycoprotein Receptor]], [[Type 2 Copper Centre]], [[Trinuclear Copper Cluster]], [[HFE]], [[Hepcidin]], [[Iron Metabolism]], [[Inflammation]]
+- Suggested notes to create: [[Multicopper Oxidase]], [[Hephaestin]], [[Wilson's Disease]], [[Aceruloplasminemia]], [[Asialoglycoprotein Receptor]], [[Type 2 Copper Centre]], [[Trinuclear Copper Cluster]], [[Hepcidin]], [[Iron Metabolism]]
 - Strong connections to strengthen: [[Ceruloplasmin]] ↔ [[Iron]], [[Ceruloplasmin]] ↔ [[Transferrin]], [[Ceruloplasmin]] ↔ [[Copper]], [[Ceruloplasmin]] ↔ [[Astrocytes]], [[Ceruloplasmin]] ↔ [[Oxidative Stress]]

@@ -70,5 +70,5 @@ ApoE has a two-domain architecture separated by a flexible, protease-sensitive h
 
 ## Linking Summary
 - New links added: [[ABCG1]], [[PPARγ]], [[Fisetin]]
-- Suggested notes to create: [[LRP1]], [[LDLR]], [[Hyperlipoproteinemia]], [[Dysbetalipoproteinemia]], [[Reverse Cholesterol Transport Pathway]], [[P2RY12]], [[Microglial Lipid Droplets]], [[Apolipoprotein E-Mediated Amyloid Clearance]] — removed as already existing: ABCA1, Disease-Associated Microglia
+- Suggested notes to create: [[LRP1]], [[LDLR]], [[Hyperlipoproteinemia]], [[Dysbetalipoproteinemia]], [[Reverse Cholesterol Transport Pathway]], [[P2RY12]], [[Microglial Lipid Droplets]], [[Apolipoprotein E-Mediated Amyloid Clearance]] ABCA1, Disease-Associated Microglia
 - Strong connections to strengthen: [[ApoE]] ↔ [[Amyloid Beta]], [[ApoE]] ↔ [[Astrocytes]], [[ApoE]] ↔ [[LDL]], [[ApoE]] ↔ [[LXRα]], [[ApoE]] ↔ [[Microglia]]

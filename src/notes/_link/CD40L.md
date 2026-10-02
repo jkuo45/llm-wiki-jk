@@ -65,5 +65,5 @@ Downstream, the outcome depends on cell type: B cells proliferate and differenti
 
 ## Linking Summary
 - New links added: [[TNF Signaling]], [[Endothelial Cells]], [[Systemic Lupus Erythematosus]]
-- Suggested notes to create: [[CD40]], [[CD40LG Deficiency]], [[X-Linked Hyper-IgM Syndrome]], [[Plasmablast]], [[Class-Switch Recombination]], [[TRAFs]], [[Antigen-Presenting Cell]], [[Soluble CD40L]], [[AID]] — removed as already existing: Endothelial Cells, Systemic Lupus Erythematosus, TRAIL
+- Suggested notes to create: [[CD40]], [[CD40LG Deficiency]], [[X-Linked Hyper-IgM Syndrome]], [[Plasmablast]], [[Class-Switch Recombination]], [[TRAFs]], [[Antigen-Presenting Cell]], [[Soluble CD40L]], [[AID]] Endothelial Cells, Systemic Lupus Erythematosus, TRAIL
 - Strong connections to strengthen: [[CD40L]] ↔ [[B Cell]], [[CD40L]] ↔ [[T Cell]], [[CD40L]] ↔ [[Senescence]]

@@ -63,5 +63,5 @@ aliases: [Checkpoint Kinase 1, CHEK1, Chk1, CHK1L]
 
 ## Linking Summary
 - New links added: [[c-Myc]], [[53BP1]], [[MDC1]], [[Homologous Recombination]]
-- Suggested notes to create: [[CHEK1]], [[ATR-ATRIP]], [[WEE1]], [[MYT1]], [[RPA]], [[Treslin]], [[DBF4]], [[Prexasertib]], [[Rabusertib]], [[Phosphatase Regulation]], [[CLIP Domain]], [[Replication Fork Stability]] — removed as already existing: 53BP1, Homologous Recombination, MDC1, c-Myc
+- Suggested notes to create: [[CHEK1]], [[ATR-ATRIP]], [[WEE1]], [[MYT1]], [[RPA]], [[Treslin]], [[DBF4]], [[Prexasertib]], [[Rabusertib]], [[Phosphatase Regulation]], [[CLIP Domain]], [[Replication Fork Stability]] 53BP1, Homologous Recombination, MDC1, c-Myc
 - Strong connections to strengthen: [[CHK1]] ↔ [[ATR]], [[CHK1]] ↔ [[CDC25]], [[CHK1]] ↔ [[DNA Damage Response]], [[CHK1]] ↔ [[p53]]

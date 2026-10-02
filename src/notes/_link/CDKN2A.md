@@ -92,5 +92,5 @@ Clinical management of carriers includes enhanced skin surveillance, avoidance o
 
 ## Linking Summary
 - New links added: [[MDM2]], [[CDK4 6]], [[Melanoma]], [[Pancreatic Ductal Adenocarcinoma]], [[Transcriptomic Aging]]
-- Suggested notes to create: [[INK4]], [[Cip/Kip]], [[Multiple Primary Cancers]], [[Ankyrin Repeat]], [[CUL4B]], [[RBX1]], [[FAMMM]], [[Melanoma-Pancreatic Cancer Syndrome]], [[p19INK4D]], [[p18INK4C]], [[CDK4]], [[CDK6]] — removed as already existing: Glioblastoma, NPM1, Ribosome Biogenesis, p15INK4b
+- Suggested notes to create: [[INK4]], [[Cip/Kip]], [[Multiple Primary Cancers]], [[Ankyrin Repeat]], [[CUL4B]], [[RBX1]], [[FAMMM]], [[Melanoma-Pancreatic Cancer Syndrome]], [[p19INK4D]], [[p18INK4C]], [[CDK4]], [[CDK6]] Glioblastoma, NPM1, Ribosome Biogenesis, p15INK4b
 - Strong connections to strengthen: [[CDKN2A]] ↔ [[p16INK4A]], [[CDKN2A]] ↔ [[Retinoblastoma Protein]], [[CDKN2A]] ↔ [[p53]], [[CDKN2A]] ↔ [[Senescence]]

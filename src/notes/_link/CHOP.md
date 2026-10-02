@@ -80,5 +80,5 @@ The net effect is a shift in the balance of the [[Apoptosis|apoptotic]] machiner
 
 ## Linking Summary
 - New links added: [[Integrated Stress Response]], [[Puma]], [[Bim]], [[Noxa]], [[DR5]], [[Multiple Myeloma]], [[Glioblastoma]]
-- Suggested notes to create: [[DDIT3]], [[bZIP]], [[TLS-CHOP]], [[IP6K2-CHOP]], [[Myxoid Liposarcoma]], [[TRIB3]], [[ATF3]], [[Regulatory Domain Unmasking]], [[eIF2α Kinases]] — removed as already existing: CEBPβ, GADD45, GCN2
+- Suggested notes to create: [[DDIT3]], [[bZIP]], [[TLS-CHOP]], [[IP6K2-CHOP]], [[Myxoid Liposarcoma]], [[TRIB3]], [[ATF3]], [[Regulatory Domain Unmasking]], [[eIF2α Kinases]] CEBPβ, GADD45, GCN2
 - Strong connections to strengthen: [[CHOP]] ↔ [[Integrated Stress Response]], [[CHOP]] ↔ [[ATF4]], [[CHOP]] ↔ [[ER Stress]], [[CHOP]] ↔ [[Apoptosis]]

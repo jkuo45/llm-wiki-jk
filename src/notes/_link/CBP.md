@@ -85,5 +85,5 @@ Once bound, CBP does three things at once:
 
 ## Linking Summary
 - New links added: [[Rubinstein-Taybi Syndrome]], [[Bladder Cancer]], [[EZH2]], [[HDAC3]]
-- Suggested notes to create: [[Rubinstein-Taybi Syndrome]], [[SMRT/NCOR]], [[Bromodomain]], [[KAT2B]], [[Enhancer]], [[Dominant-Negative Mutation]], [[SREBP]], [[Mediator Complex]], [[SRC-1/GRIP1]] — removed as already existing: ASF1a, EZH2, H3K27ac, HAT, HDAC3
+- Suggested notes to create: [[Rubinstein-Taybi Syndrome]], [[SMRT/NCOR]], [[Bromodomain]], [[KAT2B]], [[Enhancer]], [[Dominant-Negative Mutation]], [[SREBP]], [[Mediator Complex]], [[SRC-1/GRIP1]]
 - Strong connections to strengthen: [[CBP]] ↔ [[P300]], [[CBP]] ↔ [[CREB]], [[CBP]] ↔ [[Histone Acetylation]], [[CBP]] ↔ [[Transcription Factor]]
