@@ -40,7 +40,7 @@ It also acts in immunity: GATA3 is a master regulator of T-helper type 2 polariz
 ## Connections
 
 - [[Breast Cancer]] — GATA3 expression tracks the luminal program and is mutated at high frequency in luminal tumors.
-- [[Triple-Negative Breast Cancer]] — GATA3 immunostaining has particular diagnostic value here precisely because other mammary markers are negative.
+- [[triple-negative breast cancer]] — GATA3 immunostaining has particular diagnostic value here precisely because other mammary markers are negative.
 - [[Estrogen Receptor]] — co-expressed with GATA3 in luminal tumors; the two cooperate at shared enhancer elements.
 - [[Bladder Cancer]] — GATA3 positivity marks the luminal subtype of urothelial carcinoma and carries prognostic and immune implications.
 - [[STAT6]] — the transcription factor that partners with GATA3 in type 2 helper cell differentiation.
@@ -54,6 +54,6 @@ It also acts in immunity: GATA3 is a master regulator of T-helper type 2 polariz
 
 ## Linking Summary
 
-- New links added: [[Breast Cancer]], [[Triple-Negative Breast Cancer]], [[Estrogen Receptor]], [[Bladder Cancer]], [[STAT6]], [[IL-4]], [[IL-13]], [[GATA4]], [[Super-enhancer]], [[Epigenetics]], [[Methylation]], [[Metastasis]]
+- New links added: [[Breast Cancer]], [[triple-negative breast cancer]], [[Estrogen Receptor]], [[Bladder Cancer]], [[STAT6]], [[IL-4]], [[IL-13]], [[GATA4]], [[Super-enhancer]], [[Epigenetics]], [[Methylation]], [[Metastasis]]
 - Suggested notes to create: [[FOXA1]], [[Pioneer Transcription Factor]], [[T-Helper 2 Cell]], [[Urothelial Carcinoma]], [[Nuclear Receptor]]
 - Strong connections to strengthen: [[GATA3]] ↔ [[Breast Cancer]], [[GATA3]] ↔ [[Estrogen Receptor]], [[GATA3]] ↔ [[STAT6]]

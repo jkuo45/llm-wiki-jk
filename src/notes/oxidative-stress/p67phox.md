@@ -57,10 +57,10 @@ Population resequencing of *CYBB*, *CYBA*, *NCF2*, and *NCF4* in over 100 ethnic
 - [[Kidney Diseases]] — renal NOX4 and p47phox/p67phox activation drives diabetic nephropathy and albuminuria.
 - [[Melatonin]] — its nephroprotective action in diabetic rats operates partly by preventing membrane translocation of p47phox and p67phox.
 - [[Inflammation]] — NOX-derived ROS drive pro-inflammatory signaling and inflammasome activation.
-- [[Vascular Stiffening]] — endothelial and vascular-wall oxidase activity contributes to arterial stiffening and hypertensive remodeling.
+- [[Arterial Stiffening]] — endothelial and vascular-wall oxidase activity contributes to arterial stiffening and hypertensive remodeling.
 
 ## Linking Summary
 
-- New links added: [[NOX2]], [[p22phox]], [[p47phox]], [[p40phox]], [[NADPH Oxidase]], [[Chronic Granulomatous Disease]], [[Respiratory Burst]], [[Neutrophils]], [[Macrophage]], [[Superoxide Radicals]], [[Reactive Oxygen Species]], [[Nitric Oxide]], [[Kidney Diseases]], [[Melatonin]], [[Inflammation]], [[Vascular Stiffening]]
+- New links added: [[NOX2]], [[p22phox]], [[p47phox]], [[p40phox]], [[NADPH Oxidase]], [[Chronic Granulomatous Disease]], [[Respiratory Burst]], [[Neutrophils]], [[Macrophage]], [[Superoxide Radicals]], [[Reactive Oxygen Species]], [[Nitric Oxide]], [[Kidney Diseases]], [[Melatonin]], [[Inflammation]], [[Arterial Stiffening]]
 - Suggested notes to create: [[Dihydrorhodamine Flow Cytometry Assay]], [[Autoinhibition]], [[Proline-Rich Domain]], [[Granulomatous Inflammation]] — removed as already existing: NOX4, Rac1
 - Strong connections to strengthen: [[p67phox]] ↔ [[NOX2]], [[p67phox]] ↔ [[p47phox]], [[p67phox]] ↔ [[Chronic Granulomatous Disease]]

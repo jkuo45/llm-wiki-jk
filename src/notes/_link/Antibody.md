@@ -49,7 +49,7 @@ The Fc region determines what happens after binding, through isotype-specific Fc
 
 ## Applications in Research & Medicine
 
-**Research reagents.** Antibodies are the primary tool for [[Immunohistochemistry]], [[Western Blot]], [[Immunofluorescence]], [[Flow Cytometry]], [[ELISA]], immunoprecipitation, and affinity purification. [[Protein A]] affinity capture is the common first step. Techniques that depend on antibody-tissue interaction — [[CUT&Tag]], in which an antibody is used to tether a transposase to chromatin — inherit the antibody's specificity entirely, so a weak antibody produces weak data rather than obviously wrong data.
+**Research reagents.** Antibodies are the primary tool for [[Immunohistochemistry]], [[Western Blot]], [[Immunofluorescence]], [[Flow Cytometry]], [[ELISA]], immunoprecipitation, and affinity purification. Protein A affinity capture is the common first step. Techniques that depend on antibody-tissue interaction — [[CUT&Tag]], in which an antibody is used to tether a transposase to chromatin — inherit the antibody's specificity entirely, so a weak antibody produces weak data rather than obviously wrong data.
 
 > [!warning] Antibody quality limits every experiment that uses one
 > Off-target binding, lot-to-lot variability, and cross-reactivity are the most common root causes of irreproducible antibody-based results. Polyclonal sera contain multiple clones with different affinities and epitopes, which is both a strength (recognizes several epitopes) and the source of the variability. Monoclonal antibodies give specificity and reproducibility, but at the cost of sensitivity when the chosen epitope is masked or conformationally altered. In [[CUT&Tag]], antibody validation is not optional: specificity of the data is exactly specificity of the antibody.
@@ -67,13 +67,13 @@ The Fc region determines what happens after binding, through isotype-specific Fc
 - [[Complement System]] — IgM and IgG1/IgG3 initiate the classical complement pathway via C1q binding to Fc, linking antibody recognition to a protease cascade and membrane attack complex.
 - [[Immunotherapy]] — checkpoint blockade and anti-angiogenic antibodies are the main clinical applications of the antigen-specificity-plus-effector design, and their efficacy depends on the Fc region as much as the epitope.
 - [[CD47]] — an antibody–antigen pair of major current interest: anti-CD47 antibodies block the "don't eat me" signal, and understanding why the same antibody fails in some trials and works in others requires the effector-function framework in this note.
-- [[Macroautophagy|Autophagy]] — antibodies are the standard detection reagents for autophagy markers such as LC3; this is why LC3 antibody specificity has been a recurring source of contested autophagy literature.
+- [[Autophagy]] — antibodies are the standard detection reagents for autophagy markers such as LC3; this is why LC3 antibody specificity has been a recurring source of contested autophagy literature.
 - [[CUT&Tag]] — a technique in which the antibody's specificity becomes the experiment's spatial resolution limit, making antibody validation inseparable from the validity of the chromatin data.
-- [[Protein A]] — the bacterial surface protein that binds the Fc region and is the standard capture reagent for antibody purification.
+- Protein A — the bacterial surface protein that binds the Fc region and is the standard capture reagent for antibody purification.
 - [[Inflammation]] — isotype choice determines whether antibody engagement is pro-inflammatory or anti-inflammatory, which is the design principle behind essentially every therapeutic antibody.
 
 ## Linking Summary
 
-- New links added: [[Immune System]], [[Complement System]], [[Immunotherapy]], [[CD47]], [[Targeted Therapy]], [[Chemotherapy]], [[Protein A]], [[CUT&Tag]], [[Apoptosis]], [[Macrophage]], [[Inflammation]], [[Epitope]], [[Somatic Hypermutation]], [[ELISA]], [[Western Blot]], [[Flow Cytometry]], [[Immunohistochemistry]], [[Immunofluorescence]], [[Antigen Presentation]], [[Major Histocompatibility Complex]], [[Autoantibodies]]
+- New links added: [[Immune System]], [[Complement System]], [[Immunotherapy]], [[CD47]], [[Targeted Therapy]], [[Chemotherapy]], [[CUT&Tag]], [[Apoptosis]], [[Macrophage]], [[Inflammation]], [[Antigen Presentation]], [[Major Histocompatibility Complex]]
 - Suggested notes to create: [[Epitope]], [[Somatic Hypermutation]], [[ELISA]], [[Western Blot]], [[Flow Cytometry]], [[Immunohistochemistry]], [[Immunofluorescence]], [[Fc Receptor]], [[Complement]], [[Germinal Center]], [[Memory B Cell]], [[Monoclonal Antibody]], [[Bispecific Antibody]], [[Antigen]], [[Adaptive Immunity]]
 - Strong connections to strengthen: [[CD47]] ↔ [[Antibody]] (the vault's CD47 note discusses anti-CD47 antibodies without a resolved antibody node), [[CUT&Tag]] ↔ [[Antibody]] (the dependency is stated in the CUT&Tag note but currently points at a missing note), [[Complement System]] ↔ [[Antibody]].

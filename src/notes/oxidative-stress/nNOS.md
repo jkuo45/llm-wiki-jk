@@ -62,12 +62,12 @@ nNOS is constitutively expressed in central and peripheral neurons, skeletal mus
 - [[Parkinson's Disease]] — dopaminergic neuron loss involves excess neuronal NOS-derived NO and superoxide.
 - [[Alzheimer's Disease]] — neuronal and glial NOS activity contributes to nitrative injury in neurodegeneration.
 - [[Excitotoxicity]] — the glutamate-triggered neuronal death pathway through which nNOS-derived nitrosative stress executes.
-- [[S-nitrosylation]] — reversible protein modification by NO-derived species, a downstream consequence of elevated nNOS output.
+- [[S-Nitrosylation]] — reversible protein modification by NO-derived species, a downstream consequence of elevated nNOS output.
 - [[Citrulline]] — the coproduct of nNOS catalysis, linking it back to the urea cycle.
 - [[Reactive Nitrogen Species]] — nNOS is a major physiological source of this species family.
 
 ## Linking Summary
 
-- New links added: [[Nitric Oxide Synthase]], [[Nitric Oxide]], [[L-arginine]], [[Calcium]], [[NMDA receptor]], [[Neurotransmission]], [[Peroxynitrite]], [[NADPH Oxidase]], [[Nitrative Stress]], [[Parkinson's Disease]], [[Alzheimer's Disease]], [[Excitotoxicity]], [[S-nitrosylation]], [[Citrulline]], [[Reactive Nitrogen Species]]
+- New links added: [[Nitric Oxide Synthase]], [[Nitric Oxide]], [[L-arginine]], [[Calcium]], [[NMDA receptor]], [[Neurotransmission]], [[Peroxynitrite]], [[NADPH Oxidase]], [[Nitrative Stress]], [[Parkinson's Disease]], [[Alzheimer's Disease]], [[Excitotoxicity]], [[S-Nitrosylation]], [[Citrulline]], [[Reactive Nitrogen Species]]
 - Suggested notes to create: [[PSD-95]], [[Soluble Guanylate Cyclase]], [[Cerebral Autoregulation]], [[Arginine Depletion]] — removed as already existing: Long-Term Potentiation
 - Strong connections to strengthen: [[nNOS]] ↔ [[Nitric Oxide Synthase]], [[nNOS]] ↔ [[Nitric Oxide]], [[nNOS]] ↔ [[Peroxynitrite]], [[nNOS]] ↔ [[NADPH Oxidase]]

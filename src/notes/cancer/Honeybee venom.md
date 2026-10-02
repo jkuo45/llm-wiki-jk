@@ -4,7 +4,7 @@ description: Honeybee venom (also known as apitoxin) is a complex mixture of
   proteins, peptides, and low molecular weight components produced by honeybees (*Apis
   mellifera*).
 created: 2026-07-06
-updated: 2026-07-06
+updated: 2026-10-01
 tags:
   - medical-condition
 aliases: [Bee Venom, Apitoxin]
@@ -27,6 +27,6 @@ Honeybee venom has demonstrated antitumoral effects in various cancers, includin
 - [[apitherapy]]: The medicinal use of honeybee products, including venom.
 
 ## Linking Summary
-- New links added: [[Apis mellifera]], [[Breast Cancer]], [[HER2-enriched breast cancer]], [[Honeybee]], [[Melanoma]], [[apitherapy]], [[leukemia]], [[melittin]], [[Phospholipase A2]], [[triple-negative breast cancer]]
+- New links added: [[Apis mellifera]], [[Breast Cancer]], [[HER2-enriched breast cancer]], [[Honeybee]], [[Melanoma]], [[apitherapy]], [[leukemia]], [[melittin]], [[Phospholipase A2]], [[triple-negative breast cancer]], [[Bee Venom]] (resolved as an alias of this note)
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Honeybee venom]] ↔ [[triple-negative breast cancer]], [[Honeybee venom]] ↔ [[HER2-enriched breast cancer]], [[Honeybee venom]] ↔ [[Phospholipase A2]]

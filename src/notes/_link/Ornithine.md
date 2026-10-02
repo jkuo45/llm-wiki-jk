@@ -14,7 +14,7 @@ aliases: [L-ornithine]
 
 # Ornithine
 
-**L-ornithine** is a non-proteinogenic amino acid that sits at a metabolic branch point: it is both an intermediate of the [[Urea Cycle]] and the committed precursor of the [[Polyamine]] pathway. It is not incorporated into proteins and has no separate dietary requirement, being synthesized from [[Arginine]].
+**L-ornithine** is a non-proteinogenic amino acid that sits at a metabolic branch point: it is both an intermediate of the [[urea cycle]] and the committed precursor of the [[Polyamine]] pathway. It is not incorporated into proteins and has no separate dietary requirement, being synthesized from [[Arginine]].
 
 ## Metabolic Fates
 
@@ -47,7 +47,7 @@ OAT handles ornithine catabolism in adults, which is why its deficiency produces
 ## Connections
 
 - [[Arginine]] — the direct precursor; arginase splits arginine into ornithine and urea, making ornithine a urea-cycle intermediate.
-- [[Urea Cycle]] — ornithine is regenerated each turn of the cycle and is the substrate of carbamoyl phosphate transfer.
+- [[urea cycle]] — ornithine is regenerated each turn of the cycle and is the substrate of carbamoyl phosphate transfer.
 - [[Polyamine]] — ornithine decarboxylase commits ornithine to putrescine and thence to spermidine and spermine.
 - [[Ornithine transcarbamylase]] — the urea-cycle enzyme that consumes ornithine; its deficiency is the commonest ornithine-related inborn error.
 - [[Ornithine Aminotransferase (OAT) Deficiency]] — the catabolic enzyme for adult ornithine; its loss causes hyperornithinemia and gyrate atrophy.
@@ -62,6 +62,6 @@ OAT handles ornithine catabolism in adults, which is why its deficiency produces
 
 ## Linking Summary
 
-- New links added: [[Arginine]], [[Urea Cycle]], [[Polyamine]], [[Ornithine transcarbamylase]], [[Ornithine Aminotransferase (OAT) Deficiency]], [[Gyrate Atrophy]], [[Arginase]], [[Citrulline]], [[Putrescine]], [[Spermidine]], [[Spermine]], [[Autophagy]], [[Liver]], [[Nitric Oxide]]
+- New links added: [[Arginine]], [[urea cycle]], [[Polyamine]], [[Ornithine transcarbamylase]], [[Ornithine Aminotransferase (OAT) Deficiency]], [[Gyrate Atrophy]], [[Arginase]], [[Citrulline]], [[Putrescine]], [[Spermidine]], [[Spermine]], [[Autophagy]], [[Liver]], [[Nitric Oxide]]
 - Suggested notes to create: [[Ornithine Decarboxylase]], [[Hyperammonemia]], [[Hepatic Encephalopathy]], [[Proline Synthesis]], [[Pyridoxal Phosphate]]
-- Strong connections to strengthen: [[Ornithine]] ↔ [[Polyamine]], [[Ornithine]] ↔ [[Urea Cycle]], [[Ornithine]] ↔ [[Arginine]]
+- Strong connections to strengthen: [[Ornithine]] ↔ [[Polyamine]], [[Ornithine]] ↔ [[urea cycle]], [[Ornithine]] ↔ [[Arginine]]

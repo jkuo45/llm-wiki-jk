@@ -60,5 +60,5 @@ Common DCK polymorphisms produce variant allozyme activities ranging from roughl
 ## Linking Summary
 
 - New links added: [[Gemcitabine]], [[Cytarabine]], [[Decitabine]], [[Pancreatic Ductal Adenocarcinoma]], [[Pancreatic Cancer]], [[Bladder Cancer]], [[Radiotherapy]], [[Glutamine]], [[MYC]], [[BCL2]]
-- Suggested notes to create: [[Cytidine Deaminase]], [[Equilibrable Nucleoside Transporter 1]], [[Casein Kinase 1 Delta]], [[All-Trans Retinoic Acid]]
+- Suggested notes to create: [[Cytidine Deaminase]], [[Equilibrable Nucleoside Transporter 1]], [[Casein Kinase 1 Delta]], [[All-Trans Retinoic Acid]], [[BCL2]]
 - Strong connections to strengthen: [[Deoxycytidine Kinase]] ↔ [[Gemcitabine]], [[Deoxycytidine Kinase]] ↔ [[Cytarabine]], [[Deoxycytidine Kinase]] ↔ [[Drug Resistance]]

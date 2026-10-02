@@ -48,7 +48,7 @@ In head and neck squamous cell carcinoma, EGFR overexpression is a driver of pat
 
 - [[EGFR]] — the direct target; cetuximab blocks ligand binding and receptor dimerization at the ectodomain rather than the kinase domain.
 - [[Colorectal Cancer]] — the main approved indication alongside head and neck cancer, with efficacy gated on RAS wild-type status.
-- [[Head and Neck Cancer]] — approved in combination with radiotherapy and platinum chemotherapy; now largely superseded by checkpoint inhibitors.
+- [[Head and neck cancer]] — approved in combination with radiotherapy and platinum chemotherapy; now largely superseded by checkpoint inhibitors.
 - [[KRAS]] — the decisive biomarker: mutant KRAS uncouples signaling from EGFR and abolishes cetuximab benefit.
 - [[RAS]] — downstream pathway activation through RAS/RAF/MEK/ERK is the shared mediator of intrinsic resistance.
 - [[PI3K]] — the parallel survival arm blocked along with the proliferative arm by receptor-level inhibition.
@@ -61,6 +61,6 @@ In head and neck squamous cell carcinoma, EGFR overexpression is a driver of pat
 
 ## Linking Summary
 
-- New links added: [[EGFR]], [[Colorectal Cancer]], [[Head and Neck Cancer]], [[KRAS]], [[RAS]], [[PI3K]], [[Apoptosis]], [[Autophagy]], [[Drug Resistance]], [[Targeted Therapy]], [[Immunotherapy]], [[Metastasis]]
+- New links added: [[EGFR]], [[Colorectal Cancer]], [[Head and neck cancer]], [[KRAS]], [[RAS]], [[PI3K]], [[Apoptosis]], [[Autophagy]], [[Drug Resistance]], [[Targeted Therapy]], [[Immunotherapy]], [[Metastasis]]
 - Suggested notes to create: [[Panitumumab]], [[Cetuximab Infusion Reaction]], [[Cancer-Associated Fibroblasts]] — removed as already existing: IGF1R, MET
 - Strong connections to strengthen: [[Cetuximab]] ↔ [[EGFR]], [[Cetuximab]] ↔ [[KRAS]], [[Cetuximab]] ↔ [[Colorectal Cancer]]
