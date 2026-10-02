@@ -59,6 +59,137 @@
               "AMPK",
               "NAD+"
             ]
+          },
+          {
+            "q": "Is AMPK an activator of Autophagy through ULK1, or only an indirect effect via mTORC1 suppression?",
+            "tags": [
+              "AMPK",
+              "Autophagy",
+              "ULK1",
+              "mTORC1"
+            ]
+          },
+          {
+            "q": "Does Adrenochrome drive Ferroptosis by inhibiting GPX4 directly, or only by raising lipid peroxidation pressure?",
+            "tags": [
+              "Adrenochrome",
+              "Ferroptosis",
+              "GPX4",
+              "Lipid Peroxidation"
+            ]
+          },
+          {
+            "q": "Does PINK1 require DRP1-dependent fission for Mitophagy, or is the DRP1 link on the fusion side?",
+            "tags": [
+              "PINK1",
+              "DRP1",
+              "Mitophagy",
+              "Mitochondrial Fission"
+            ]
+          },
+          {
+            "q": "Are Mitochondrial Permeability Transition Pore, Calpain and Cyclophilin A three independent release routes for Apoptosis-Inducing Factor, or one convergent event?",
+            "tags": [
+              "Mitochondrial Permeability Transition Pore",
+              "Calpain",
+              "Cyclophilin A",
+              "Apoptosis-Inducing Factor"
+            ]
+          },
+          {
+            "q": "Do Spermidine, Berberine, Urolithin A and Fisetin form one shared geroprotector network, or are the pairwise edges coincidental?",
+            "tags": [
+              "Spermidine",
+              "Berberine",
+              "Urolithin A",
+              "Fisetin",
+              "Senescence"
+            ]
+          },
+          {
+            "q": "Is SIRT3's link to Adrenochrome redundant with SIRT1's single bridge, or a stronger latent route?",
+            "tags": [
+              "SIRT1",
+              "SIRT3",
+              "Adrenochrome",
+              "NAD+"
+            ]
+          },
+          {
+            "q": "Is Immunosenescence genuinely partially reversed by Metformin and Spermidine, or is the claim aspirational?",
+            "tags": [
+              "Immunosenescence",
+              "Metformin",
+              "Spermidine"
+            ]
+          },
+          {
+            "q": "Does Paracrine Senescence promote Cancer, or is the causality reversed (cancer-induced paracrine senescence)?",
+            "tags": [
+              "Paracrine Senescence",
+              "Cancer",
+              "SASP"
+            ]
+          },
+          {
+            "q": "Does Resveratrol suppress SAMD to de-repress SCAPs, and what does that imply for cholesterol homeostasis?",
+            "tags": [
+              "Resveratrol",
+              "SAMD",
+              "SCAPs",
+              "Cholesterol Homeostasis"
+            ]
+          },
+          {
+            "q": "Does Nicotinamide Mononucleotide genuinely ameliorate COVID-19, or is the evidence in-vitro/observational only?",
+            "tags": [
+              "Nicotinamide Mononucleotide",
+              "COVID-19",
+              "NAD+"
+            ]
+          },
+          {
+            "q": "Do ARH3 and PARG actually modulate Parthanatos, or is the parthanatos connection a source-labeling artifact?",
+            "tags": [
+              "ARH3",
+              "PARG",
+              "Parthanatos",
+              "ADP-ribosylation"
+            ]
+          },
+          {
+            "q": "Does GlyNAC truly synergize with Carbazochrome, or is the co-administration edge an artifact of shared clinical use?",
+            "tags": [
+              "GlyNAC",
+              "Carbazochrome",
+              "Glutathione"
+            ]
+          },
+          {
+            "q": "Is Daratumumab blockade of CD38 mechanistically equivalent to small-molecule CD38 inhibition for NAD+ rescue?",
+            "tags": [
+              "Daratumumab",
+              "CD38",
+              "NAD+",
+              "Multiple myeloma"
+            ]
+          },
+          {
+            "q": "Is SAHF formation a consequence or a driver of Cytoplasmic Chromatin Fragments emerging in senescence?",
+            "tags": [
+              "Cytoplasmic Chromatin Fragments",
+              "SAHF",
+              "Cellular Senescence",
+              "cGAS-STING Pathway"
+            ]
+          },
+          {
+            "q": "Is Oculocutaneous Albinism linked to Neuromelanin through a shared tyrosinase/melanosome defect, or independent melanocyte biology?",
+            "tags": [
+              "Oculocutaneous Albinism",
+              "Neuromelanin",
+              "Tyrosinase"
+            ]
           }
         ]
       },
@@ -69,7 +200,7 @@
             "q": "How does SASP bridge senescence, inflammation (NF-κB, IL-6, TGFβ) and disease communities — Parkinson's, cancer, ferroptosis?",
             "tags": [
               "Senescence-Associated Secretory Phenotype",
-              "NF-κB",
+              "NF-kappaB",
               "IL-6",
               "Parkinson's Disease",
               "Cancer",
@@ -124,15 +255,91 @@
           },
           {
             "q": "Why does mTORC1 link to YY1 — transcriptional control of mitochondrial programs?",
-            "tags": ["mTORC1", "YY1", "Mitochondria"]
+            "tags": [
+              "mTORC1",
+              "YY1",
+              "Mitochondria"
+            ]
           },
           {
             "q": "How does α-tubulin link to Cellular Senescence — microtubule acetylation via SIRT2?",
-            "tags": ["SIRT2", "Cellular Senescence", "Autophagy"]
+            "tags": [
+              "SIRT2",
+              "Cellular Senescence",
+              "Autophagy"
+            ]
           },
           {
             "q": "Why is SIRT1's only bridge to Adrenochrome a single edge — true biology or missing links via NRF2 and ROS?",
-            "tags": ["SIRT1", "Adrenochrome", "NRF2", "ROS"]
+            "tags": [
+              "SIRT1",
+              "Adrenochrome",
+              "NRF2",
+              "ROS"
+            ]
+          },
+          {
+            "q": "Should the Advanced Glycation End Products community be split into AGE chemistry, RAGE signalling, and diabetic complications?",
+            "tags": [
+              "Advanced Glycation End Products",
+              "RAGE",
+              "Glycated proteins",
+              "Diabetic nephropathy"
+            ]
+          },
+          {
+            "q": "Should the Methylene blue community be split into redox chemistry, Methemoglobinemia, and staining/nootropic uses?",
+            "tags": [
+              "Methylene blue",
+              "Methemoglobinemia",
+              "Modafinil",
+              "Oxidative Stress"
+            ]
+          },
+          {
+            "q": "Should the Cellular Senescence community be split by cell type, senescence trigger, and fate?",
+            "tags": [
+              "Cellular Senescence",
+              "Busulfan",
+              "Bleomycin",
+              "p53"
+            ]
+          },
+          {
+            "q": "Is TGFβ the upstream control point for Paracrine Senescence and the Senescence-Messaging Secretome?",
+            "tags": [
+              "TGFβ",
+              "Paracrine Senescence",
+              "Senescence-Messaging Secretome",
+              "SASP"
+            ]
+          },
+          {
+            "q": "Should the IL-6 and IL-1alpha communities merge into a single inflammasome–cytokine axis?",
+            "tags": [
+              "IL-6",
+              "IL-1α",
+              "NLRP3 inflammasome",
+              "NF-kappaB"
+            ]
+          },
+          {
+            "q": "Is the Sepsis community a real module, or a thin orphan cluster to be absorbed into Necroptosis and NETosis?",
+            "tags": [
+              "Sepsis",
+              "Necroptosis",
+              "NETosis",
+              "HMGB1"
+            ]
+          },
+          {
+            "q": "Are the SIRT7 and VEGFR communities genuinely small modules, or split artifacts from larger hubs?",
+            "tags": [
+              "SIRT7",
+              "VEGFR",
+              "Ubiquitination",
+              "Angiogenesis"
+            ]
           }
         ]
       },
@@ -161,17 +368,26 @@
             "q": "How does NRF2 antagonize NF-κB, and how does Adrenochrome bridge the two through oxidative stress?",
             "tags": [
               "NRF2",
-              "NF-κB",
+              "NF-kappaB",
               "Adrenochrome"
             ]
           },
           {
             "q": "How does Michael addition link Glutamate-Cysteine Ligase to NRF2-driven glutathione synthesis under adrenochrome electrophile stress?",
-            "tags": ["NRF2", "Glutathione", "Adrenochrome"]
+            "tags": [
+              "NRF2",
+              "Glutathione",
+              "Adrenochrome"
+            ]
           },
           {
             "q": "Why do Epinephrine and ROS share Adrenochrome neighbors yet lack a direct edge — is autoxidation the missing link?",
-            "tags": ["Epinephrine", "ROS", "Adrenochrome", "Oxidative Stress"]
+            "tags": [
+              "Epinephrine",
+              "ROS",
+              "Adrenochrome",
+              "Oxidative Stress"
+            ]
           }
         ]
       },
@@ -260,7 +476,7 @@
             "tags": [
               "Ivermectin",
               "Autophagy",
-              "NF-κB",
+              "NF-kappaB",
               "Adrenochrome"
             ]
           }
@@ -299,7 +515,11 @@
           },
           {
             "q": "Does Necroptosis genuinely contribute to Sepsis, and via which DAMP / MLKL route?",
-            "tags": ["Necroptosis", "Sepsis", "Inflammation"]
+            "tags": [
+              "Necroptosis",
+              "Sepsis",
+              "Inflammation"
+            ]
           }
         ]
       },
@@ -321,7 +541,7 @@
             "q": "Does MnSOD activity ever functionally limit the Trx water arm? Is TXNRD2/NADPH capacity ever saturating under SOD2-driven bursts, converting an otherwise-buffering Trx system into a rate-limiting, and therefore hormetic-signaling, step?",
             "tags": [
               "MnSOD",
-              "SOD2",
+              "MnSOD",
               "Thioredoxin",
               "Thioredoxin reductase",
               "Hormesis"
@@ -330,7 +550,7 @@
           {
             "q": "Beyond metabolic coupling, is there any regulatory (post-translational, non-interacting) coupling signal that coordinates SOD2 and Trx expression within the same cell beyond shared FOXO/Nrf2 transcription?",
             "tags": [
-              "SOD2",
+              "MnSOD",
               "Thioredoxin",
               "FOXO",
               "NRF2"
@@ -409,6 +629,137 @@
               "AMPK",
               "NAD+"
             ]
+          },
+          {
+            "q": "AMPK 是透過 ULK1 直接活化自噬，還是僅經由抑制 mTORC1 的間接效應？",
+            "tags": [
+              "AMPK",
+              "Autophagy",
+              "ULK1",
+              "mTORC1"
+            ]
+          },
+          {
+            "q": "Adrenochrome 促成 ferroptosis 是直接抑制 GPX4，還是僅提高脂質過氧化壓力？",
+            "tags": [
+              "Adrenochrome",
+              "Ferroptosis",
+              "GPX4",
+              "Lipid Peroxidation"
+            ]
+          },
+          {
+            "q": "PINK1 是否需要 DRP1 依賴的分裂才能進行 Mitophagy，還是該邊位於融合側？",
+            "tags": [
+              "PINK1",
+              "DRP1",
+              "Mitophagy",
+              "Mitochondrial Fission"
+            ]
+          },
+          {
+            "q": "粒線體通透性轉換孔、Calpain 與 Cyclophilin A 是釋放 Apoptosis-Inducing Factor 的三條獨立路徑，還是同一個收斂事件？",
+            "tags": [
+              "Mitochondrial Permeability Transition Pore",
+              "Calpain",
+              "Cyclophilin A",
+              "Apoptosis-Inducing Factor"
+            ]
+          },
+          {
+            "q": "Spermidine、Berberine、Urolithin A 與 Fisetin 是否構成同一個共享的 geroprotector 網絡，還是成對的邊只是巧合？",
+            "tags": [
+              "Spermidine",
+              "Berberine",
+              "Urolithin A",
+              "Fisetin",
+              "Senescence"
+            ]
+          },
+          {
+            "q": "SIRT3 到 Adrenochrome 的連結是否與 SIRT1 的單一橋接重複，抑或其實是更強的潛在路徑？",
+            "tags": [
+              "SIRT1",
+              "SIRT3",
+              "Adrenochrome",
+              "NAD+"
+            ]
+          },
+          {
+            "q": "Immunosenescence 是否真的被 Metformin 與 Spermidine 部分逆轉，還是僅為宣稱？",
+            "tags": [
+              "Immunosenescence",
+              "Metformin",
+              "Spermidine"
+            ]
+          },
+          {
+            "q": "Paracrine Senescence 是促成 Cancer，還是因果方向相反（癌症誘發旁分泌型衰老）？",
+            "tags": [
+              "Paracrine Senescence",
+              "Cancer",
+              "SASP"
+            ]
+          },
+          {
+            "q": "Resveratrol 是否抑制 SAMD 以解除對 SCAPs 的壓制？這對膽固醇恆定意味什麼？",
+            "tags": [
+              "Resveratrol",
+              "SAMD",
+              "SCAPs",
+              "Cholesterol Homeostasis"
+            ]
+          },
+          {
+            "q": "Nicotinamide Mononucleotide 是否真的改善 COVID-19，抑或證據僅止於體外或觀察性？",
+            "tags": [
+              "Nicotinamide Mononucleotide",
+              "COVID-19",
+              "NAD+"
+            ]
+          },
+          {
+            "q": "ARH3 與 PARG 是否真的調節 Parthanatos，抑或該連結只是來源標註的假象？",
+            "tags": [
+              "ARH3",
+              "PARG",
+              "Parthanatos",
+              "ADP-ribosylation"
+            ]
+          },
+          {
+            "q": "GlyNAC 是否真的與 Carbazochrome 協同，抑或該共給藥邊只是共享臨床用法的產物？",
+            "tags": [
+              "GlyNAC",
+              "Carbazochrome",
+              "Glutathione"
+            ]
+          },
+          {
+            "q": "Daratumumab 阻斷 CD38 在 NAD+ 救援上，是否與小分子 CD38 抑制劑機制等價？",
+            "tags": [
+              "Daratumumab",
+              "CD38",
+              "NAD+",
+              "Multiple myeloma"
+            ]
+          },
+          {
+            "q": "SAHF 的形成是 Cytoplasmic Chromatin Fragments 出現的結果，還是驅動因素？",
+            "tags": [
+              "Cytoplasmic Chromatin Fragments",
+              "SAHF",
+              "Cellular Senescence",
+              "cGAS-STING Pathway"
+            ]
+          },
+          {
+            "q": "Oculocutaneous Albinism 與 Neuromelanin 的連結，是共用的 tyrosinase/melanosome 缺陷，還是獨立的黑色素細胞生物學？",
+            "tags": [
+              "Oculocutaneous Albinism",
+              "Neuromelanin",
+              "Tyrosinase"
+            ]
           }
         ]
       },
@@ -419,7 +770,7 @@
             "q": "SASP 如何橋接衰老、發炎（NF-κB、IL-6、TGFβ）與疾病社群——帕金森、癌症、ferroptosis？",
             "tags": [
               "Senescence-Associated Secretory Phenotype",
-              "NF-κB",
+              "NF-kappaB",
               "IL-6",
               "Parkinson's Disease",
               "Cancer",
@@ -474,15 +825,91 @@
           },
           {
             "q": "為何 mTORC1 會連結到 YY1——是對粒線體轉錄程式的控制嗎？",
-            "tags": ["mTORC1", "YY1", "Mitochondria"]
+            "tags": [
+              "mTORC1",
+              "YY1",
+              "Mitochondria"
+            ]
           },
           {
             "q": "α-tubulin 如何連結到 Cellular Senescence——經由 SIRT2 的微管乙醯化嗎？",
-            "tags": ["SIRT2", "Cellular Senescence", "Autophagy"]
+            "tags": [
+              "SIRT2",
+              "Cellular Senescence",
+              "Autophagy"
+            ]
           },
           {
             "q": "為何 SIRT1 到 Adrenochrome 只有一條橋接邊——是真實生物學還是缺了經 NRF2 / ROS 的邊？",
-            "tags": ["SIRT1", "Adrenochrome", "NRF2", "ROS"]
+            "tags": [
+              "SIRT1",
+              "Adrenochrome",
+              "NRF2",
+              "ROS"
+            ]
+          },
+          {
+            "q": "Advanced Glycation End Products 社群是否該拆分為 AGE 化學、RAGE 訊號與糖尿病併發症？",
+            "tags": [
+              "Advanced Glycation End Products",
+              "RAGE",
+              "Glycated proteins",
+              "Diabetic nephropathy"
+            ]
+          },
+          {
+            "q": "Methylene blue 社群是否該拆分為氧化還原化學、Methemoglobinemia 與染色／nootropic 用途？",
+            "tags": [
+              "Methylene blue",
+              "Methemoglobinemia",
+              "Modafinil",
+              "Oxidative Stress"
+            ]
+          },
+          {
+            "q": "Cellular Senescence 社群是否該依細胞類型、誘發因子與命運拆分？",
+            "tags": [
+              "Cellular Senescence",
+              "Busulfan",
+              "Bleomycin",
+              "p53"
+            ]
+          },
+          {
+            "q": "TGFβ 是否是 Paracrine Senescence 與 Senescence-Messaging Secretome 的上游控制點？",
+            "tags": [
+              "TGFβ",
+              "Paracrine Senescence",
+              "Senescence-Messaging Secretome",
+              "SASP"
+            ]
+          },
+          {
+            "q": "IL-6 與 IL-1alpha 社群是否應合併為單一的發炎小體—細胞激素軸？",
+            "tags": [
+              "IL-6",
+              "IL-1α",
+              "NLRP3 inflammasome",
+              "NF-kappaB"
+            ]
+          },
+          {
+            "q": "Sepsis 社群是真正的模組，還是應被吸收進 Necroptosis 與 NETosis 的稀疏孤立群？",
+            "tags": [
+              "Sepsis",
+              "Necroptosis",
+              "NETosis",
+              "HMGB1"
+            ]
+          },
+          {
+            "q": "SIRT7 與 VEGFR 社群是真的小模組，還是從更大樞紐分裂出來的假象？",
+            "tags": [
+              "SIRT7",
+              "VEGFR",
+              "Ubiquitination",
+              "Angiogenesis"
+            ]
           }
         ]
       },
@@ -511,17 +938,26 @@
             "q": "NRF2 如何拮抗 NF-κB，而 Adrenochrome 又是如何透過氧化壓力橋接兩者？",
             "tags": [
               "NRF2",
-              "NF-κB",
+              "NF-kappaB",
               "Adrenochrome"
             ]
           },
           {
             "q": "Michael addition 如何將 Glutamate-Cysteine Ligase 連到 NRF2 驅動的 glutathione 合成（adrenochrome 親電壓力下）？",
-            "tags": ["NRF2", "Glutathione", "Adrenochrome"]
+            "tags": [
+              "NRF2",
+              "Glutathione",
+              "Adrenochrome"
+            ]
           },
           {
             "q": "為何 Epinephrine 與 ROS 共享 Adrenochrome 鄰居卻缺直接邊——自氧化就是缺失的那環嗎？",
-            "tags": ["Epinephrine", "ROS", "Adrenochrome", "Oxidative Stress"]
+            "tags": [
+              "Epinephrine",
+              "ROS",
+              "Adrenochrome",
+              "Oxidative Stress"
+            ]
           }
         ]
       },
@@ -610,7 +1046,7 @@
             "tags": [
               "Ivermectin",
               "Autophagy",
-              "NF-κB",
+              "NF-kappaB",
               "Adrenochrome"
             ]
           }
@@ -649,7 +1085,11 @@
           },
           {
             "q": "Necroptosis 是否真的促成 Sepsis，經由哪條 DAMP / MLKL 路徑？",
-            "tags": ["Necroptosis", "Sepsis", "Inflammation"]
+            "tags": [
+              "Necroptosis",
+              "Sepsis",
+              "Inflammation"
+            ]
           }
         ]
       },
@@ -671,7 +1111,7 @@
             "q": "MnSOD 活性是否會在功能上限制 Trx「水臂」？在 SOD2 驅動的氧化爆發下，TXNRD2/NADPH 的容量是否會飽和，使原本具緩衝作用的 Trx 系統轉變成速率限制步驟，因而成為毒物興奮（hormetic）訊號？",
             "tags": [
               "MnSOD",
-              "SOD2",
+              "MnSOD",
               "Thioredoxin",
               "Thioredoxin reductase",
               "Hormesis"
@@ -680,7 +1120,7 @@
           {
             "q": "除了代謝耦合之外，在相同的細胞內，除了共用的 FOXO/Nrf2 轉錄之外，是否存在任何調控性（轉譯後修飾、非交互作用）耦合訊號，能協調 SOD2 與 Trx 的表現？",
             "tags": [
-              "SOD2",
+              "MnSOD",
               "Thioredoxin",
               "FOXO",
               "NRF2"
