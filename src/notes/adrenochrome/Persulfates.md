@@ -4,10 +4,10 @@ description: Persulfates (also known as peroxydisulfates) are compounds containi
   the anion $S_2O_8^{2-}$. They are strong oxidizing agents. Common examples include
   Ammonium Persulfate, Sodium Persulfate, and ...
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-10-02
 tags:
   - chemical-class
-aliases: []
+aliases: [Persulfate, Peroxydisulfate]
 ---
 # Persulfates
 

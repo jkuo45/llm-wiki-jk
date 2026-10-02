@@ -20,7 +20,7 @@ Crump has authored books and extensively cited historical accounts tracing iverm
 
 Ivermectin has emerged as a candidate for **anticancer repositioning**, and Crump's historical documentation of its safety, pharmacology, and global distribution informs that research translation:
 
-- Ivermectin inhibits the [[Wnt/β-catenin]], [[AKT/mTOR]], and [[PAK1]] signaling axes exploited by tumors.
+- Ivermectin inhibits the [[Wnt/β-catenin]], [[Akt]]/[[mTOR]], and [[PAK1]] signaling axes exploited by tumors.
 - It impairs [[Mitochondrial Respiration]] and promotes [[Apoptosis]] in cancer models.
 - Decades of population-scale safety data (from APOC and similar programs) de-risk clinical repurposing trials.
 
@@ -50,6 +50,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Satoshi Ōmura]], [[Kitasato Institute]], [[Ivermectin]], [[Avermectin]], [[William C. Campbell]], [[Merck & Co. Inc]], [[Cancer]], [[Wnt/β-catenin]], [[AKT/mTOR]], [[PAK1]], [[Mitochondrial Respiration]], [[Apoptosis]], [[Chemotherapy]]
+- New links added: [[Satoshi Ōmura]], [[Kitasato Institute]], [[Ivermectin]], [[Avermectin]], [[William C. Campbell]], [[Merck & Co. Inc]], [[Cancer]], [[Wnt/β-catenin]], [[Akt]]/[[mTOR]], [[PAK1]], [[Mitochondrial Respiration]], [[Apoptosis]], [[Chemotherapy]]
 - Suggested new entity notes to create: [[Science communication]], [[Streptomyces avermectinius]]
 - Strong connections to strengthen: [[Andy Crump]] ↔ [[Satoshi Ōmura]], [[Andy Crump]] ↔ [[Ivermectin]]

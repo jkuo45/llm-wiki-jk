@@ -3,10 +3,10 @@ title: PARP inhibitors
 description: 'Chemical properties: PARP inhibitors is a chemical substance with defined molecular structure, functional groups, and physicochemical properties that determine its biological activity.'
 protected: true
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-10-02
 tags:
   - chemical-class
-aliases: [PARPi]
+aliases: [PARPi, PARP inhibitor, PARP Inhibitor, PARP Inhibitors]
 
 ---
 
