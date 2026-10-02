@@ -7,7 +7,7 @@ created: 2026-07-06
 updated: 2026-07-06
 tags:
   - medical-condition
-aliases: []
+aliases: [Bee Venom, Apitoxin]
 ---
 
 # Honeybee venom

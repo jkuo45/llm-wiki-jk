@@ -4,10 +4,10 @@ description: IL-8 (Interleukin-8, CXCL8) is a pro-inflammatory Chemokine that re
   Neutrophils and other immune cells to sites of Inflammation and infection. It is
   produced by Macrophages, Epithelial Cells,...
 created: 2026-07-06
-updated: 2026-07-06
+updated: 2026-10-01
 tags:
   - receptor
-aliases: []
+aliases: [IL8, CXCL8, Interleukin-8]
 ---
 # IL-8
 
