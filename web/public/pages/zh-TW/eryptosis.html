@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>紅血球凋亡 — 鈣 · Calpain · PS 外翻調控</title>
-<meta name="description" content="極簡可嵌入式 three.js 細胞，呈現無核紅血球的凋亡調控（eryptosis）：鈣內流、calpain／scramblase 活化、PS 外翻。含皺縮、起泡與靜默清除。">
+<title>紅細胞凋亡 — 成熟紅血球以 Ca²⁺ 驅動的調控性死亡</title>
+<meta name="description" content="極簡可嵌入式 three.js 細胞，呈現成熟紅血球的 eryptosis：鈣內流、Gardos K⁺ 外流與皺縮、scramblase 活化伴 flippase 抑制、calpain 蛋白水解、PS 外翻與 Kupffer 細胞清除。">
 <link rel="canonical" href="https://graph.johnnykuo.com/pages/zh-TW/eryptosis.html">
 <link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/eryptosis.html">
 <link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/eryptosis.html">
@@ -18,14 +18,23 @@
 </script>
 <script src="../themes/theme-02/theme.js"></script>
 <link rel="stylesheet" href="../shared/stage.css">
+<style>
+  /* page-specific only — shared stage chrome lives in ../shared/stage.css */
+  .notes{display:grid;grid-template-columns:repeat(auto-fit,minmax(272px,1fr));gap:12px;padding:0 0 4px}
+  .note{background:var(--sheet);border:1px solid var(--rule);border-radius:var(--r-md,8px);padding:12px 14px}
+  .note h2{font-size:.9rem;margin:0 0 6px;letter-spacing:-.01em}
+  .note p{font-size:12.5px;line-height:1.65;color:var(--ink-soft);margin:0}
+  @media (max-width:960px){.notes{grid-template-columns:1fr}}
+  body.is-embed .notes{display:none}
+</style>
 </head>
 <body>
 <div class="wrap">
   <header class="top">
     <p class="kicker">細胞 · 調控性死亡</p>
-    <h1>紅血球凋亡 — 無核的凋亡</h1>
-    <p class="sub"><b>觸發</b>在無核紅血球開啟鈣門 · <b>Calpain＋scramblase</b>放大 · <b>PS 外翻</b>標記殘體供脾臟清除。無核、無粒線體、不破裂。拖曳旋轉 · 滾輪縮放 · 點擊色塊看機制。</p>
-    <p class="src">改編自比較表（紅血球專一、非 caspase）· three.js r160 · <span id="embedlink"></span></p>
+    <h1>紅細胞凋亡 — 無核的調控性死亡</h1>
+    <p class="sub"><b>觸發</b>在無核紅血球開啟鈣門 · <b>Gardos K⁺ 外流、scramblase＋calpain</b>執行 · <b>PS 外翻</b>標記殘體，由肝臟 Kupffer 細胞在<b>數分鐘內</b>清除。無粒線體、不破裂、無轉錄層級調控。拖曳旋轉 · 滾輪縮放 · 點擊色塊看機制。</p>
+    <p class="src">改編自 Tkachenko 等，<i>Cell Death Dis</i> 16:467（2025）— <a href="https://doi.org/10.1038/s41419-025-07784-w" target="_blank" rel="noopener noreferrer">doi:10.1038/s41419-025-07784-w</a> · three.js r160 · <span id="embedlink"></span></p>
   </header>
   <div class="layout">
     <div class="stage-card">
@@ -44,31 +53,51 @@
         </div>
         <button id="play" class="is-on">⏸ 暫停</button>
         <button id="reset">重設視角</button>
-        <span class="hint">24 秒循環 ≈ 小時級觸發（氧化／滲透／能量耗竭）· T+ 為生物時間</span>
+        <span class="hint">24 秒循環 · 啟動為小時尺度，但 eryptosis 細胞在<b>數分鐘內</b>被清除——這是與衰老細胞（數日）最乾淨的判別點 · T+ 為生物時間</span>
       </div>
       <div class="side">
       <div class="card" id="cardA">
-        <h2>觸發——四門一離子</h2>
+        <h2>觸發——多門一離子</h2>
         <p class="meta">紅血球膜 · 壓力入口</p>
-        <p>氧化、滲透、能量耗竭與神經醯胺觸發（CKD／敗血症情境）皆開啟陽離子進入。EPO 抑制。</p>
+        <p>氧化、滲透、能量耗竭與神經醯胺觸發皆開啟陽離子進入——TRPC6（人；小鼠為 TRPC4/5）、PIEZO1、NMDA/AMPA 受體、Cav2.1；Cl⁻ 耗竭會釋放 PGE₂。<b>煞車：</b>NO 供體 → cGMP → cGKI、cGKI 與 AMPK 敲除小鼠、N-乙醯半胱胺酸、紅血球生成素。EPO 為雙向效應——長期暴露反而<b>提高</b>易感性。</p>
         <p class="legend"><span class="dot" style="background:#51d88a"></span>觸發輸入 <span class="dot" style="background:#7fd4ff"></span>Ca²⁺ 進入</p>
       </div>
       <div class="card" id="cardB">
-        <h2>Ca²⁺——切割器＋翻轉器</h2>
-        <p class="meta">細胞質 · calpain＋scramblase</p>
-        <p>Calpain 拆解骨架（起泡）；scramblase 外翻 PS 同時 flippase 關閉；Gardos K⁺ 外流皺縮細胞。螯合可中止。</p>
+        <h2>Ca²⁺——皺縮器＋翻轉器＋切割器</h2>
+        <p class="meta">細胞質 · Gardos＋scramblase＋calpain</p>
+        <p>Gardos（KCNN4）K⁺ 外流使細胞皺縮；scramblase 開、flippase 關使 PS 外翻；calpain-1 切割骨架形成起泡與微囊泡。誠實的但書：calpain-1 敲除小鼠的紅血球壽命並未改變。ATP 耗竭具有雙重作用——它透過 PKCα 啟動該程序，卻也因關閉 Ca²⁺-ATPase 外排而抵抗它。</p>
         <p class="legend"><span class="dot" style="background:#7fd4ff"></span>Ca²⁺ <span class="dot" style="background:#c98d6e"></span>PS 翻轉</p>
       </div>
       <div class="card" id="cardC">
-        <h2>PS 殘體——靜默清除</h2>
-        <p class="meta">脾臟 · Annexin V＋ 包裹</p>
-        <p>皺縮的 PS 陽性殘體被紅髓巨噬細胞吞噬——如凋亡般抗發炎。僅壓垮時溶血。</p>
+        <h2>PS 殘體——數分鐘內清除</h2>
+        <p class="meta">肝竇 · Kupffer 細胞 · Annexin V＋ 包裹</p>
+        <p>病理性的 PS⁺ 殘體以 PS 依賴方式被肝臟 Kupffer 細胞（stabilin-1/2）吞噬——脾臟是衰老細胞較慢的路徑。胞葬作用會將巨噬細胞重編程（HO-1 上調、IL-1β/TNF-α 下調）。並非完全靜默：eryptosis 會生成 EV，其 DAMP 可見於儲存血液製品。裂解式替代方案是<b>紅細胞壞死凋亡（erythronecroptosis）</b>（RIPK1/3/MLKL）——當 caspase-8 關閉時改走此路；可被 Nec-1/GSK'872 阻斷，z-VAD 無效。</p>
         <p class="legend"><span class="dot" style="background:#c98d6e"></span>吞噬訊號 <span class="dot" style="background:#51d88a"></span>靜默清除</p>
       </div>
       </div>
     </div>
   </div>
-  <footer class="foot">調控邏輯改編自比較表（無核、非 caspase、僅紅血球）。檢測：Annexin V＋、Fluo-3 Ca²⁺、前向散射皺縮、神經醯胺。煞車：Ca²⁺ 螯合、calpain 抑制劑、erythropoietin*。未建立性別差異。<a href="https://graph.johnnykuo.com/pages/zh-TW/cell-death-comparison.html#animations">細胞死亡動畫</a></footer>
+  <section class="notes" aria-label="eryptosis 參考說明">
+    <div class="note">
+      <h2>調控</h2>
+      <p>僅限成熟紅血球——去核加上胞器清除已刪除 cytochrome c／APAF-1／caspase-9 與內源性凋亡小體，因此來自細胞外的 Ca²⁺ 內流（無內質網或粒線體儲存）是<i>起始</i>訊號，而非 MOMP 放大器。只能做轉譯後調控：不可能有表觀遺傳、轉錄或轉譯層級的調控。多數觸發因子不需要 caspase-3，但外在型 Fas/FADD/DISC 途徑需要（caspase-8 → caspase-3），而 caspase-8 正是使 eryptosis 與 erythronecroptosis 互斥的開關。激酶極性由細胞類型決定：PKC、CK1α、JAK3、p38 MAPK 與 CDK4 在此促進 eryptosis，儘管它們在典型情況下是抗凋亡的；AMPK、cGKI、PAK2、MSK1/2 與 PDK1 則抑制它。</p>
+    </div>
+    <div class="note">
+      <h2>檢測</h2>
+      <p>最低標準為 PS 外翻<i>且</i>胞內 Ca²⁺ 升高——Annexin V／Fluo-3 AM、前向散射皺縮、NBD-PS flippase 探針、CMAC calpain-1 活性。目前並無單一公認的 eryptosis 標記。Eryptosis 先於溶血發生，因此超過 110 種化合物在低於其溶血閾值的濃度即呈陽性，使這組讀值比單看裂解更敏感、機轉訊息更完整，成為血液相容性（ISO 10993-4；奈米材料與奈米醫藥安全）更好的終點。</p>
+    </div>
+    <div class="note">
+      <h2>阻斷</h2>
+      <p>Ca²⁺ 螯合、charybdotoxin／clotrimazole（Gardos）、calpain 抑制劑、NO 供體（nitroprusside、dibutyryl-cGMP）經可溶性鳥苷酸環化酶 → cGMP → cGKI、cGKI 與 AMPK、PKC／p38 MAPK／CK1α 抑制劑、N-乙醯半胱胺酸、紅血球生成素。促 eryptosis：G6PD／PPP 抑制、神經醯胺與神經鞘磷脂酶活化、Rac1 活化。</p>
+    </div>
+    <div class="note">
+      <h2>為何重要</h2>
+      <p>這是防禦程序，不只是死亡機制——它在受損細胞（例如 <i>Plasmodium falciparum</i> 感染紅血球）溶血並釋出血基質、血紅素、甲基血紅素、ATP、HSP70 與 IL-33（TLR4／NF-κB 內皮活化、血基質鐵誘導 NETs）之前將其清除。G6PD 缺乏、鐮刀型血球性狀與 β 型地中海型貧血透過增強的 eryptosis 取得部分抗瘧疾保護。CKD／ESRD 與腹膜透析、敗血症（與內毒素活度及死亡率相關）、冷抗體 IgM 自體免疫性溶血、抗磷脂症候群與肺癌中，eryptosis 率皆可測得升高。與衰老細胞共享形態，區別規則是：暴露 PS 的衰老細胞應稱為 eryptotic。命名：陽離子通道驅動、ROS 媒介、神經醯胺驅動、外在型 Fas 媒介或 caspase 依賴型 eryptosis；切勿寫「erythroptosis」或「紅血球凋亡」。鐵負荷相關死亡暫不命名——其形態像 eryptosis，但並未確立為 ferroptosis。</p>
+    </div>
+  </section>
+  <footer class="foot">
+    <p>未建立性別差異。<a href="https://graph.johnnykuo.com/pages/zh-TW/cell-death-comparison.html#animations">細胞死亡動畫</a></p>
+  </footer>
 </div>
 <script type="module">
 import * as THREE from 'three';
@@ -156,25 +185,25 @@ function makeLabel(text, scale = 1) {
 
 /* ---------- info ---------- */
 const INFO = {
-  trig: ['觸發——四門', '氧化／滲透／能量／神經醯胺', '四者皆匯於鈣進入。CKD 與敗血症為臨床情境。EPO 抑制。'],
-  oxs: ['氧化壓力——觸發', '耗 GSH、開門', '與鐵死亡共享脂質過氧化觸發；紅血球未確立典型 GPX4／ACSL4 鐵死亡機器。'],
-  osmo: ['滲透休克——觸發', '皺縮訊號', '高滲壓力數分鐘內開啟陽離子進入。'],
-  edepl: ['能量耗竭——觸發', 'ATP 依賴外排失效', '無 ATP 則 Ca²⁺ 無法泵出；小尺度的壞死幫浦邏輯。'],
-  cer: ['神經醯胺——觸發', '鞘磷脂酶產物', '膜神經醯胺平台增敏 scramblase。檢測直接染色。'],
-  ckd: ['CKD／敗血症——情境', '尿毒＋發炎環境', '臨床上紅血球凋亡率上升之處；前向散射皺縮讀值。'],
-  epo: ['EPO——煞車*', '紅血球生成素挽救', '標星為跨生物學推論；直接煞車為 calpain 抑制劑與螯合。'],
-  ca2: ['Ca²⁺ 樞紐——整合器', '內流 → 酶', '胞質 Ca²⁺ 為單一第二信使；Fluo-3 報告。'],
-  cain: ['Ca²⁺ 內流——進入', '非選擇陽離子通道', '關鍵步驟；下游皆為鈣酶學。'],
-  calp: ['Calpain——切割器', 'spectrin／ankyrin 切割', '拆解膜骨架 → 起泡。與 parthanatos BID 切割器同家族。'],
+  trig: ['觸發——多門', '氧化／滲透／能量／神經醯胺', '皆匯於鈣進入。CKD 與敗血症為臨床情境。煞車：NO 供體經 cGMP → cGKI、cGKI、AMPK、N-乙醯半胱胺酸、紅血球生成素。'],
+  oxs: ['氧化壓力——觸發', '耗 GSH、開門', '來源為血紅素 Fenton 化學、NADPH 氧化酶與黃嘌呤氧化還原酶——無 ETC、無過氧化體。與鐵死亡共享脂質過氧化觸發；紅血球未確立典型 GPX4／ACSL4 鐵死亡機器。'],
+  osmo: ['滲透休克——觸發', '皺縮訊號', '高滲壓力數分鐘內開啟陽離子進入；氯離子耗竭則經 PGE₂ 釋放。'],
+  edepl: ['能量耗竭——觸發', '雙重作用', 'ATP 流失會啟動該程式（PKCα 轉位、通道磷酸化），卻也因關閉 Ca²⁺-ATPase 外排而抵抗它。兩個方向同時存在。'],
+  cer: ['神經醯胺——觸發', '鞘磷脂酶產物', '酸性與中性鞘磷脂酶將 SM 切成神經醯胺，形成增敏 scramblase 的膜平台。菸草萃取物經 p38 MAPK → DISC 組裝。'],
+  ckd: ['CKD／敗血症——情境', '尿毒＋發炎環境', 'eryptosis 在 CKD／ESRD 與腹膜透析（腹膜炎第 1 天即高 3 倍）以及敗血症中上升；敗血症血漿的細胞毒性在 15 分鐘達峰，並與內毒素活度及死亡率相關。'],
+  epo: ['EPO——煞車，雙向', '紅血球生成素', '急性可挽救 eryptosis，但長期暴露反而提高易感性——肺癌中升高的 EPO 對應更快的紅血球周轉。'],
+  ca2: ['Ca²⁺ 樞紐——整合器', '內流 → 酶', '胞質 Ca²⁺ 為單一第二信使；Fluo-3 報告。無內質網或粒線體儲存，所有 Ca²⁺ 均由外部進入。'],
+  cain: ['Ca²⁺ 內流——進入', 'TRPC6 · PIEZO1 · NMDA/AMPA', '人紅血球為 TRPC6，小鼠為 TRPC4/5——此種物種差異對敲除研究很重要。PIEZO1 負責剪應力與非內吞的奈米顆粒；Cav2.1 僅有藥理學證據。'],
+  calp: ['Calpain——切割器', 'spectrin／ankyrin 切割', '拆解膜骨架 → 起泡與微囊泡；並降解 AE1／band 3。誠實的但書：calpain-1 敲除小鼠的紅血球壽命並未改變。'],
   scram: ['Scramblase——PS 翻轉器開', 'TMEM16F 類活性', '攪亂脂雙層；PS 外露＝Annexin V＋。'],
-  flipase: ['Flippase——關閉開關', '胺基磷脂轉位酶', '平時將 PS 藏於內側；鈣將其關閉。'],
-  cacage: ['Ca²⁺ 螯合——煞車', '實驗挽救', '移除進入的鈣可中止程式；診斷檢驗。'],
-  gardos: ['Gardos 通道——K⁺ 外流', 'Ca²⁺ 活化 K⁺ 外流', 'K⁺ 與水離開；細胞皺縮為球形殘體。'],
-  psexp: ['PS 外翻——吞噬旗', 'Annexin V＋ 殘體', '皺縮、起泡、PS 陽性殘體等待巨噬細胞。如凋亡般靜默。'],
-  annex: ['Annexin V＋——檢測', 'PS 染色', '搭配 Fluo-3 Ca²⁺、前向散射皺縮與神經醯胺染色。'],
-  spleen: ['脾臟清除——紅利', '巨噬細胞吞噬', '紅髓巨噬細胞吞噬殘體；未壓垮則抗發炎。'],
-  hemol: ['溶血——僅溢流', '大量負荷破裂', '清除飽和時殘體在血管內溶解；例外非常態。'],
-  damp: ['靜默——無告警', '清除無 DAMP', '重演凋亡：PS 標記、巨噬細胞清除、無風暴。']
+  flipase: ['Flippase——關閉開關', '胺基磷脂轉位酶', '平時將 PS 藏於內側；鈣將其關閉。可用 NBD-PS 探針測其活性。'],
+  cacage: ['Ca²⁺ 螯合——煞車', '實驗挽救', '移除進入的鈣可中止程式；診斷檢驗。charybdotoxin 與 clotrimazole 阻斷 Gardos 皺縮。'],
+  gardos: ['Gardos 通道——K⁺ 外流', 'Ca²⁺ 活化 K⁺ 外流', 'KCNN4：K⁺ 與水離開，細胞超極化並皺縮為球形殘體。這才是形態的真正來源——charybdotoxin 與 clotrimazole 阻斷它。'],
+  psexp: ['PS 外翻——吞噬旗', 'Annexin V＋ 殘體', '皺縮、帶棘、PS 陽性殘體等待吞噬細胞。形態像凋亡，機轉卻不是。'],
+  annex: ['Annexin V＋——檢測', 'PS 染色', '最低標準為 PS 外翻<i>且</i>胞內 Ca²⁺ 升高。再加上 NBD-PS flippase 活性與 CMAC calpain-1。目前並無單一公認標記。'],
+  spleen: ['Kupffer 細胞清除——紅利', '肝竇胞葬作用', '病理性 PS⁺ 細胞在肝臟以 PS 依賴方式被 Kupffer 細胞（stabilin-1/2、整合素 αvβ5）清除——脾臟是衰老細胞較慢的路徑。胞葬使巨噬細胞 HO-1 上調、IL-1β／TNF-α 下調。'],
+  enec: ['紅細胞壞死凋亡——裂解式替代', 'RIPK1 · RIPK3 · MLKL', '細菌成孔毒素驅動 Syk／Src 依賴的 MLKL 裂解。可被 Nec-1 與 GSK\'872 阻斷，z-VAD 無效。caspase-8 活性會阻斷它，這正是兩套程式互斥的原因。成熟紅血球缺乏 TNFR1/2 與 TRAIL-R，因此紅血球特有型是細胞特異性的。若失控裂解，則釋出血基質、血紅素、甲基血紅素、ATP、HSP70 與 IL-33 → TLR4／NF-κB 內皮、血基質鐵誘導 NETs。'],
+  damp: ['近乎靜默——是先驗而非事實', '清除時 DAMP 少', 'eryptosis 本身未證實釋放 DAMP，但確實會生成細胞外囊泡，而儲存紅血球製品中可檢出 EV 相關 DAMP。溶血才是吵雜的鄰居。']
 };
 /* node id → component card (A/B/C); clicking a blob flashes its card, cards stay static */
 const COMP = {
@@ -195,7 +224,7 @@ const COMP = {
   psexp: 'C',
   annex: 'C',
   spleen: 'C',
-  hemol: 'C',
+  enec: 'C',
   damp: 'C'
 };
 function flashCard(c) {
@@ -325,8 +354,8 @@ B_REGS.forEach(([id, lb, p, geo, mat, kind]) => node(geo, mat, p, id, lb, .8, gB
 const hubC = node(new THREE.IcosahedronGeometry(0.58, 1), M.hubC, [3.1, -0.1, 0.4], 'psexp', 'PS 外翻', 1.1, gC);
 const C_REGS = [
   ['annex', 'Annexin V＋', [1.7, 2.1, -1.0], new THREE.TorusKnotGeometry(0.2, 0.06), M.reg(0xc98d6e, 0x4d2805), 'pro'],
-  ['spleen', '脾臟清除', [1.8, 0.5, 0.9], new THREE.BoxGeometry(0.45, 0.3, 0.3), M.reg(0x51d88a, 0x0b4a1e), 'pro'],
-  ['hemol', '大量則溶血', [1.8, -1.15, 0.7], new THREE.CapsuleGeometry(0.2, 0.32), M.reg(0xff5a4d, 0x5a0e08), 'pro']
+  ['spleen', 'Kupffer 清除', [1.8, 0.5, 0.9], new THREE.BoxGeometry(0.45, 0.3, 0.3), M.reg(0x51d88a, 0x0b4a1e), 'pro'],
+  ['enec', '紅細胞壞死凋亡 ⊣', [1.8, -1.15, 0.7], new THREE.CapsuleGeometry(0.2, 0.32), M.reg(0xff5a4d, 0x5a0e08), 'pro']
 ];
 C_REGS.forEach(([id, lb, p, geo, mat, kind]) => node(geo, mat, p, id, lb, .85, gC));
 
@@ -482,10 +511,10 @@ const fadeMats = [];
 /* ---------- phases ---------- */
 const PHASES = [
   [0, 'A · 觸發開啟鈣門——氧化／滲透／能量／神經醯胺'],
-  [6, 'B · Calpain＋scramblase 開火——flippase 關、Gardos K⁺ 外流'],
-  [12, 'C · PS 標記殘體——Annexin V＋、起泡、皺縮'],
+  [6, 'B · Gardos K⁺ 外流，scramblase 開／flippase 關，calpain 起泡'],
+  [12, 'C · PS 標記殘體——Annexin V＋、帶棘、皺縮'],
   [17.5, '殘體存續——密封、無核可碎'],
-  [20.5, '脾臟清除——靜默；僅壓垮時溶血']
+  [20.5, '數分鐘內胞葬——肝竇中的 Kupffer 細胞']
 ];
 function phaseAt(t) { let s = PHASES[0][1]; for (const [st, tx] of PHASES) if (t >= st) s = tx; return s; }
 

@@ -531,12 +531,12 @@
         "langs": {
             "en-US": {
                 "title": "Eryptosis",
-                "description": "Minimalist three.js cell illustrating eryptosis in the anucleate red blood cell — calcium influx, membrane scrambling, and phosphatidylserine exposure.",
+                "description": "Minimalist three.js cell illustrating eryptosis in the mature red blood cell — calcium influx, Gardos K+ efflux and shrinkage, membrane scrambling with flippase inhibition, calpain proteolysis, phosphatidylserine exposure and Kupffer-cell clearance.",
                 "path": "pages/en-US/eryptosis.html"
             },
             "zh-TW": {
                 "title": "紅血球凋亡",
-                "description": "呈現無核紅血球 eryptosis 的極簡 three.js 細胞——鈣內流、磷脂翻轉與磷脂醯絲胺酸外露。",
+                "description": "呈現成熟紅血球 eryptosis 的極簡 three.js 細胞——鈣內流、Gardos K⁺ 外流與皺縮、磷脂翻轉伴 flippase 抑制、calpain 蛋白水解、磷脂醯絲胺酸外露與 Kupffer 細胞清除。",
                 "path": "pages/zh-TW/eryptosis.html"
             }
         },
