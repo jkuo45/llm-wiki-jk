@@ -1,5 +1,5 @@
 {
-  "generated": "04_OCT_2026 01:17 PM PDT",
+  "generated": "04_OCT_2026 02:05 PM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -29,9 +29,9 @@
       "langs": {
         "en-US": {
           "title": "Eryptosis 2025 — mechanistic update, how it differs from other cell death programs, and review points for cell-death-comparison.html",
-          "description": "Draft summary/outline of Tkachenko et al. 2025 (Cell Death Dis 16:467) focused on eryptosis's distinct signalling, what is new since the 2001-2010 literature, and concrete corrections to the eryptosis row on the cell-death comparison page.",
+          "description": "Draft summary/outline of Tkachenko et al. 2025 (Cell Death Dis 16:467) focused on eryptosis's distinct signalling, what is new since the 2005-2010 era, and concrete corrections to the eryptosis row on the cell-death comparison page.",
           "created": "2026-10-01",
-          "updated": "2026-10-04",
+          "updated": "2026-10-01",
           "tags": [
             "cell-death",
             "eryptosis",
@@ -65,7 +65,7 @@
         }
       },
       "stats": {
-        "words": 4569,
+        "words": 4489,
         "images": 7,
         "links": 5,
         "diagrams": 1

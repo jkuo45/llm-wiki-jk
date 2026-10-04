@@ -1,67 +1,73 @@
 ---
-title: 皇后葵
-description: Syagrus romanzoffiana（jerivá）觀賞棕櫚，果肉與果仁提供類胡蘿蔔素、多酚、生育酚與中鏈脂質——一種經研究的膳食來源，可提供對抗脂質過氧化的親脂性防禦。
+title: 皇后棕櫚
+description: Syagrus romanzoffiana（jerivá）是一種觀賞棕櫚，其果肉與果仁提供類胡蘿蔔素、多酚、生育酚與中鏈脂質——是經過研究的、對抗脂質過氧化的親脂性防護膳食來源。
 created: 2026-09-23
-updated: 2026-09-23
-tags: [oxidative-stress, plant, antioxidant]
-aliases: [Syagrus romanzoffiana, jerivá, jeriva, cocos palm, pino]
+updated: 2026-09-26
+tags:
+  - oxidative-stress
+  - plant
+  - antioxidant
+aliases: [Syagrus romanzoffiana, jerivá, jeriva, cocos palm, pino, 皇后棕櫚]
 ---
+
 # 皇后棕櫚
 
-**皇后棕櫚**（Queen Palm，*Syagrus romanzoffiana*）原產於南美洲，在 USDA 第 9–11 區廣泛作為觀賞植物栽培，會結出密集下垂的果序，掛著數百顆橙色核果（當地稱 **jerivá** 或 **pino**）。果肉（mesocarp，中果皮）與種仁（endosperm，胚乳）呈現出明顯依組織區分的親脂性抗氧化物與脂質組成，食品化學文獻（以巴西與阿根廷為主）將此與對抗 [[Lipid Peroxidation]] 的防禦連結起來。
+**皇后棕櫚（Queen Palm，*Syagrus romanzoffiana*）** 原產於南美洲，在 USDA 9–11 區廣泛作為觀賞植物栽種，會結出密集下垂的果序，數百顆橙色核果（當地稱 **jerivá** 或 **pino**）。其果肉（中果皮）與種子果仁（胚乳）帶有明確按組織分區的親脂性抗氧化劑與脂質分布，食品化學文獻（主要來自巴西與阿根廷）將其與對抗 [[Lipid Peroxidation]] 的防護作用連結起來。
 
-> [!tip] 為何在此重要
-> 皇后棕櫚是少見的果實，其抗氧化物組合（β-carotene、lutein、zeaxanthin、α-tocopherol）與其脂質載體（oleic／linoleic 類果肉油、富含 lauric 的種仁油）同時並存——這正是化合物得以分配進入 [[Cell Membranes]] 並截斷 LOO• 鏈式反應所需的組合。
+> [!tip] 它在此處的重要性
+> 皇后棕櫚是少數幾種抗氧化劑組合（β-胡蘿蔔素、葉黃素、玉米黃質、α-生育酚）與其脂質載體（果肉的油酸／亞麻油酸油、果仁富含月桂酸的油）同時存在的果實——正是化合物得以分配進[[Cell Membranes]]並攔截 LOO• 鏈所需的組合。
 
 ## 生化營養組成
 
-- **Carotenoids** — β-carotene 與 α-carotene 主導橙色果皮（provitamin A；淬滅 [[Singlet Oxygen]]），lutein 與 zeaxanthin 則是整合於膜中的光保護物質。果肉油萃取物的總類胡蘿蔔素可達約 1,200 μg/g。
-- **Phenolics & flavonoids** — hydroxycinnamic acids（ferulic、caffeic 共軛物）與 flavonols（[[Quercetin]] glucosides、[[Kaempferol]] derivatives）；成熟果實的可萃取多酚約 590–1,100 mg GAE/100 g，並具高 DPPH/ABTS/ORAC 自由基清除活性。維生素 C 偏低——抗氧化能力主要來自 [[Polyphenols]] 與類胡蘿蔔素，而非 ascorbate。
-- **Lipids, partitioned by tissue** — 種仁油為中鏈飽和脂肪（lauric C12:0 佔 30–40%、myristic C14:0、palmitic）；果肉油則不飽和（oleic C18:1、linoleic C18:2）並帶有 α-tocopherol（>320 mg/kg）——即 [[Vitamin E]] 庫搭載於同樣供應膜脂池的三酸甘油酯上。
-- **Fiber & sugars** — pectin、cellulose 與 lignin 網絡（依級分佔乾重 13–36%），以及 fructose、glucose、sucrose；礦物質富含鉀與鎂。
+- **類胡蘿蔔素**——β-胡蘿蔔素與 α-胡蘿蔔素主導橙色果皮（前維生素 A；淬滅[[Singlet Oxygen]]），葉黃素與玉米黃質則作為整合於膜中的光保護物質。果肉油萃取物的總類胡蘿蔔素可達約 1,200 μg/g。
+- **酚類與類黃酮**——羥基肉桂酸（阿魏酸、咖啡酸的結合型）與類黃酮醇（[[Quercetin]] 葡萄糖苷、[[Kaempferol]] 衍生物）；成熟果實的可萃取多酚約有 590–1,100 mg GAE/100 g，並具高度的 DPPH／ABTS／ORAC 自由基清除活性。維生素C含量偏低——其抗氧化能力主要來自[[Polyphenols]]與類胡蘿蔔素，而非抗壞血酸。
+- **脂質，依組織分區**——果仁油為中鏈飽和脂肪酸（月桂酸 C12:0 占 30–40%、肉豆蔻酸 C14:0、棕櫚酸）；果肉油則為不飽和脂肪酸（油酸 C18:1、亞麻油酸 C18:2）並含有 α-生育酚（>320 mg/kg）——也就是說，[[Vitamin E]] 的儲備隨著供應膜脂質池的同一批三酸甘油酯運送。
+- **纖維與糖類**——果膠、纖維素與木質素網絡（依部位占乾重的 13–36%），另有果糖、葡萄糖、蔗糖；礦物質富含鉀與鎂。
 
-## 親脂性過氧化防禦中的位階
+## 在脂質過氧化防禦者中的排名
 
-針對 [[Lipid Peroxidation]] 的結構性防護，需要能嵌入脂質雙層的親脂性抗氧化物（[[Vitamin E]] 截斷 LOO• 鏈、類胡蘿蔔素淬滅 ¹O₂、[[Coenzyme Q10]] 再生 tocopherol、[[GPX4]] 還原 LOOH）。以此標準衡量，皇后棕櫚果肉屬於 **high-potency peer tier**——低於紀錄保持者，高於一般作物：
+對 [[Lipid Peroxidation]] 的結構性保護需要能嵌入雙層的親脂性抗氧化劑（[[Vitamin E]] 斷鏈 LOO•、類胡蘿蔔素淬滅 ¹O₂、[[Coenzyme Q10]] 再生生育酚、[[GPX4]] 還原 LOOH）。以此指標衡量，皇后棕櫚果肉位於**高效能的同級層級**，低於紀錄保持者而高於一般作物：
 
-- **Tier 1（高於它）:** buriti（*Mauritia flexuosa*，carotenoid 含量為其 5–10 倍）、沙棘（sea buckthorn），以及紅棕櫚油（red palm oil，含 tocotrienols）。
-- **Tier 2（與它同級）:** 在 provitamin-A 類胡蘿蔔素防護上與果凍棕櫚（jelly palm，*Butia capitata*）及巴西莓（açaí）相當或更高——巴西莓在親水性 anthocyanins 上領先，jerivá 則在親脂性 carotenoids 上勝出。
-- **Tier 3（低於它）:** 胡蘿蔔與甜薯每單位重量的 β-carotene 較多，但缺少可直接送達膜的內在脂質基質；一般果實則以親水性 polyphenols 為主。
+- **第 1 層（超越它者）：** buriti（*Mauritia flexuosa*，類胡蘿蔔素負載為其 5–10 倍）、沙棘，以及 [[Red Palm Oil|紅棕櫚油]]（生育三烯酚）。
+- **第 2 層（其所在層級）：** 在前維生素 A 類胡蘿蔔素的保護上與 jelly palm（*Butia capitata*）及 açaí 相當或更佳——açaí 在親水性花青素領先，jerivá 則在親脂性類胡蘿蔔素領先。
+- **第 3 層（它超越者）：** 胡蘿蔔與甘藷以重量計 β-胡蘿蔔素較多，但缺乏直接遞送至膜所需的內在脂質基質；一般水果則以親水性多酚為主。
 
 > [!info] 證據狀態
-> 排名與組成數字皆為 in vitro／食品化學測量。人體臨床試驗幾乎闕如；已研究的應用為機能性食品強化、動物飼料，以及種仁油生技。
+> 上述排名與組成數字均為體外／食品化學測量結果。人體臨床試驗幾乎付之闕如；已研究的應用為功能性食品強化、動物飼料與果仁油生物技術。
 
-## 代謝與酵素活性（in vitro）
+## 代謝與酵素活性（體外）
 
-- **α-Glucosidase inhibition** — 減緩腸道醣類水解；在 [[Diabetes]] 與 [[Insulin Resistance]] 研究中對餐後血糖控制具意義。
-- **Acetylcholinesterase inhibition** — 萃取物在體外減緩 acetylcholine 分解；與 [[Neurodegenerative Diseases]] 相關的神經保護角度屬推測性質。
+- **α-葡萄糖苷酶抑制**——減緩腸道中醣類的水解；在 [[Diabetes]] 與 [[Insulin Resistance]] 研究中對餐後血糖控制具有意義。
+- **乙醯膽鹼酯酶抑制**——萃取物在體外減緩乙醯膽鹼的分解；在 [[Neurodegenerative Diseases]] 領域屬推測性的神經保護角度。
 
-## 食用性、毒性與取得性
+## 可食性、毒性與取得途徑
 
-果肉無毒且味甜（似李子／香蕉）但纖維極多——嚼食吸汁後吐掉纖維；種仁在堅硬如石的外殼之後，風味似椰肉。對狗、貓、馬無毒（與蘇鐵 sago palm，*Cycas revoluta* 不同），但難以消化的種子會在犬隻造成異物性腸道阻塞、窒息與牙齒斷裂；發酵的落果果肉可能造成 ethanol 毒性。無商業販售——果肉產率低、發酵快速、加工成本高——來源為城市採集、苗圃，以及巴西南部／阿根廷的工藝用途。
+果肉無毒且味甜（類似李子／香蕉），但纖維極為粗硬——需嚼碎取汁後將纖維吐出；果仁的堅果肉在岩硬外殼之後，類似椰子。對狗、貓或馬無毒（不像 sago palm，*Cycas revoluta*），但難以消化的種子會在狗身上造成異物性腸道阻塞、窒息與牙齒斷裂；發酵的落果果肉可能造成乙醇中毒。未見商業販售——果肉產率低、發酵迅速、加工成本高——主要由都會採集、苗圃與巴西南部／阿根廷的手工用途取得。
 
-## 生化雙生
+## 生化相似物
 
-組成上最接近的類似物：果凍棕櫚（同屬 Arecaceae 族，果肉／種仁分割幾乎一致）、buriti（carotenoid 紀錄保持者）、非洲油棕（African oil palm；紅棕櫚油＋富含 lauric 的種仁油，呼應此雙重架構）、椰子（種仁的 lauric／myristic 組成），以及沙棘（非棕櫚科的橙色果肉，帶有罕見的 palmitoleic 豐富果肉油）。
+組成上最接近的類比物：jelly palm（同一 Arecaceae 族，果肉／果仁的分配近乎相同）、buriti（類胡蘿蔔素紀錄保持者）、非洲油棕（紅棕櫚油加上富含月桂酸的果仁油，呼應這個雙軌架構）、椰子（果仁的月桂酸／肉豆蔻酸分布），以及沙棘（非棕櫚的橙色果肉，帶有罕見富含棕櫖烯酸的果肉油）。
 
-## Documents
+## 文件
 
-提及此實體的文件清單
+提及此實體的文件列表
 
   - [[task_output_queen_palm_biochemical_nutrients_23_Sep_2026|Queen Palm Biochemical Nutrients Profile]]
-    - Gemini 對話，涵蓋辨識、營養組成、食用性／安全性、研究文獻、商業可得性、健康效益機制、生化雙生植物、結構性脂質過氧化防護，以及皇后棕櫚在親脂性抗氧化來源中的位階排名。
+    - Gemini conversation covering identification, nutrient profile, edibility/safety, research literature, commercial availability, health-benefit mechanisms, biochemical twin plants, structural lipid-peroxidation protection, and the tier ranking of Queen Palm among lipophilic antioxidant sources.
 
-## Connections
+## 連結
 
-- [[Lipid Peroxidation]]: 皇后棕櫚果肉油被評估為可整合於膜的抗氧化物（carotenoids + α-tocopherol 搭載於 oleic／linoleic 載體）之膳食來源，能截斷 LOO• 鏈——是結構性防護對抗過氧化的食物來源實證案例。
-- [[Vitamin E]]: 果肉油平均 α-tocopherol >320 mg/kg，使該果實成為濃縮的天然 tocopherol 載體，並與其 carotenoids 產生協同。
-- [[Antioxidants]]: 該果實的防禦組合幾乎全為親脂性（carotenoids、tocopherols、polyphenols），ascorbate 幾乎可忽略——是非酵素、膳食層面抗氧化分類的清晰範例。
-- [[Polyphenols]]: 約 590–1,100 mg GAE/100 g 可萃取酚類（ferulic／caffeic acids、quercetin 與 kaempferol glycosides）驅動 DPPH/ORAC 活性，且不依賴維生素 C。
-- [[Ferroptosis]]: 富含 carotenoid 與 tocopherol 的果肉油，是在同一套自由基捕獲典範中被研究——該典範將 [[GPX4]] 與 Vitamin E 定位為對抗鐵驅動脂質過氧化物累積的終端防線。
-- [[Oxidative Stress]]: 作為膳食外源供應的抗氧化基質，jerivá 是氧化壓力平衡中、外源抗衡內源 ROS 產生的典型例子。
-- [[Singlet Oxygen]]: 果皮中的 β-carotene、lutein 與 zeaxanthin 在膜脂質域內直接淬滅 ¹O₂。
-- [[Coenzyme Q10]]: Ubiquinol 再生 vitamin E 的作用，是皇后棕櫚果肉油中所觀察到的 carotenoid／tocopherol 協同之內源對應機制。## 連結摘要
+- [[Lipid Peroxidation]]：皇后棕櫚果肉油被評估為膜整合型抗氧化劑的膳食來源（以油酸／亞麻油酸為載體的類胡蘿蔔素加上 α-生育酚），可攔截 LOO• 鏈——是對抗過氧化之結構性保護的一個食物來源測試案例。
+- [[Vitamin E]]：果肉油平均含 >320 mg/kg 的 α-生育酚，使這種果實成為與其類胡蘿蔔素具協同效應的濃縮天然生育酚載體。
+- [[Antioxidant]]：該果實的防護組合幾乎完全是親脂性的（類胡蘿蔔素、生育酚、多酚），抗壞血酸微乎其微——是抗氧化劑分類中非酵素性膳食分支的一個乾淨例子。
+- [[Polyphenols]]：約 590–1,100 mg GAE/100 g 的可萃取酚類（阿魏酸／咖啡酸、槲皮素與山奈酚糖苷）驅動了 DPPH／ORAC 活性，與維生素C無關。
+- [[Ferroptosis]]：富含類胡蘿蔔素與生育酚的果肉油已在同一自由基捕捉範式下研究，而該範式正是將 [[GPX4]] 與維生素E定位為對抗鐵驅動脂質過氧化物累積之終末防線的架構。
+- [[Oxidative Stress]]：作為膳食外源性供應的抗氧化劑矩陣，jerivá 體現了氧化壓力平衡中與內源性 ROS 生成相抗衡的外源力量。
+- [[Singlet Oxygen]]：果皮中的 β-胡蘿蔔素、葉黃素與玉米黃質直接在膜脂質區域內淬滅 ¹O₂。
+- [[Coenzyme Q10]]：泛醇再生維生素E的角色，是皇后棕櫚果肉油中觀察到的類胡蘿蔔素／生育酚協同效應的內源性對應物。
 
-- 新增連結：[[Lipid Peroxidation]]、[[Vitamin E]]、[[Antioxidants]]、[[Polyphenols]]、[[Ferroptosis]]、[[GPX4]]、[[Oxidative Stress]]、[[Singlet Oxygen]]、[[Coenzyme Q10]]、[[Quercetin]]、[[Kaempferol]]、[[Diabetes]]、[[Insulin Resistance]]、[[Neurodegenerative Diseases]]、[[Cell Membranes]]、[[task_output_queen_palm_biochemical_nutrients_23_Sep_2026]]
-- 建議新增實體頁面：[[Carotenoids]]、[[Lauric Acid]]、[[Sea Buckthorn]]、[[Buriti Palm]]、[[Jelly Palm]]、[[Coconut]]、[[Acetylcholinesterase]]
-- 需強化的強連結：[[Queen Palm]] ↔ [[Lipid Peroxidation]]、[[Queen Palm]] ↔ [[Vitamin E]]、[[Queen Palm]] ↔ [[Antioxidants]]
+## 連結摘要
+
+- 新增連結：[[Lipid Peroxidation]]、[[Vitamin E]]、[[Antioxidant]]、[[Polyphenols]]、[[Ferroptosis]]、[[GPX4]]、[[Oxidative Stress]]、[[Singlet Oxygen]]、[[Coenzyme Q10]]、[[Quercetin]]、[[Kaempferol]]、[[Diabetes]]、[[Insulin Resistance]]、[[Neurodegenerative Diseases]]、[[Cell Membranes]]、[[task_output_queen_palm_biochemical_nutrients_23_Sep_2026]]
+- 建議建立的筆記：[[Carotenoids]]、[[Lauric Acid]]、[[Sea Buckthorn]]、[[Buriti Palm]]、[[Jelly Palm]]、[[Coconut]]、[[Acetylcholinesterase]]
+- 建議強化的強連結：[[Queen Palm]] ↔ [[Lipid Peroxidation]]、[[Queen Palm]] ↔ [[Vitamin E]]、[[Queen Palm]] ↔ [[Antioxidant]]

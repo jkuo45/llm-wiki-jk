@@ -1,64 +1,117 @@
 ---
 title: 抗氧化劑
-description: Antioxidants 是與 Adrenochrome 及兒茶酚胺代謝相關的概念。
-created: 2026-05-29
-updated: 2026-09-23
-tags: [chemical-compound, antioxidant]
-aliases: []
+description: 抗氧化劑是在生物系統中抑制氧化並中和活性氧的物質，可保護細胞、組織與脂蛋白免受氧化性損傷；是對抗動脈粥狀硬化、老化與年齡相關疾病的主要防線。
+created: 2024-01-01
+updated: 2026-08-16
+tags:
+  - pharmacological-action
+  - scientific-concept
+  - chemical-compound
+  - antioxidant
+aliases:
+  - antioxidants
+  - 抗氧化劑
 ---
+
 # 抗氧化劑
-抗氧化劑是一個與 [[Adrenochrome]] 及兒茶酚胺代謝相關的概念。
-**抗氧化劑**是能夠抑制其他分子氧化的分子。在生物系統中，它們在保護細胞免受 [[Reactive Oxygen Species]]（活性氧，ROS）的損害作用，以及維持氧化還原恆定方面，扮演至關重要的角色。
-## 分類
-抗氧化劑大致可分為酵素性與非酵素性系統。
-## 酵素性抗氧化劑
-這些是人體所產生、能催化中和 ROS 的蛋白質：
-- **[[Superoxide Dismutase]]（SOD，超氧化物歧化酶）**：將 [[Superoxide Radicals]]（超氧自由基）轉化為 [[Hydrogen Peroxide]]（過氧化氫）。
-- **[[Catalase]]（過氧化氫酶）**：將 [[Hydrogen Peroxide]]（過氧化氫）分解為水與氧氣。
-- **[[Glutathione Peroxidase]]（GPx，穀胱甘肽過氧化物酶）**：利用 [[Glutathione]]（穀胱甘肽）還原脂質過氧化物與 [[Hydrogen Peroxide]]（過氧化氫）。
-## 非酵素性抗氧化劑
-這類包含小分子，其中許多需從飲食中攝取：
-- **[[Glutathione]]（穀胱甘肽）**：一種三肽，是含量最豐富的內源性抗氧化劑。
-- **[[Vitamin E]]（維生素 E，Alpha-tocopherol，α-生育醇）**：保護細胞膜免受 [[Lipid Peroxidation]]（脂質過氧化）的損害。
-- **[[Vitamin C]]（維生素 C，Ascorbic Acid，抗壞血酸）**：一種水溶性抗氧化劑，同時有助於再生維生素 E。
-- **[[Coenzyme Q10]]（輔酶 Q10）**：一種親脂性抗氧化劑，參與粒線體電子傳遞。
-- **[[Polyphenols]]（多酚）與 [[Flavonoids]]（類黃酮）**：源自植物、具有強效抗氧化活性的化合物。
+
+**抗氧化劑**是藉由中和或清除高反應性分子（其中以 **[[Reactive Oxygen Species]]**（ROS）與自由基最為重要）來抑制或延緩 [[Oxidative Stress]] 的物質。氧化是一個涉及分子失去電子的基本化學過程；它雖為許多生物功能所必需，但過度氧化——由 [[Hydroxyl Radicals|羥基自由基]]、超氧陰離子與過氧化氫等 ROS 的過量生成所驅動——可能造成顯著的細胞損傷，表現為脂質過氧化、蛋白質氧化與 DNA 損傷。因此在生物系統中，抗氧化劑對於維持 [[Redox Balance]]、保護細胞、組織與器官免受氧化過程、以及在 [[Atherosclerosis]] 等情境中維持 [[HDL]] 與 [[LDL]] 的功能，都是不可或缺的。
+
+抗氧化劑的作用方式是向反應性物種提供電子，從而在中和它們的同時自身不會變得高度反應性。它們大致可分為**內源性抗氧化劑**（由人體自行合成）與**外源性抗氧化劑**（必須透過飲食或補充取得）。
+
+## 類型
+
+- **內源性**：[[Glutathione]]、[[Superoxide Dismutase]]、[[Catalase]]、[[PON1]]
+- **飲食性**：[[Vitamin E]]、[[Vitamin C]]、多酚類、類黃酮
+- **藥理學性**：[[Resveratrol]]、BHT、合成化合物
+
+### 內源性抗氧化系統
+
+人體採用多層次、精緻的酵素性與非酵素性抗氧化劑網絡來管理 ROS 濃度：
+
+- **酵素性抗氧化劑**：
+  - **[[Superoxide Dismutase]]（SOD）**：催化超氧自由基的歧化反應生成氧氣與過氧化氫，作為對抗超氧陰離子的第一道防線。
+  - **[[Catalase]]**：主要位於過氧化體的酵素，能迅速將過氧化氫轉換為水與氧氣。
+  - **穀胱甘肽過氧化酶（GPx）**：利用還原型穀胱甘肽將過氧化氫與有機過氧化氫物還原為水與醇。
+- **非酵素性抗氧化劑**：
+  - **[[Glutathione]]（GSH）**：一種三胜肽，是主要的細胞內抗氧化劑。它可直接清除 ROS，或作為 GPx 等酵素的受質。其氧化還原狀態（GSH／GSSG 比值）是細胞氧化壓力的重要指標。
+  - 尿酸與某些維生素等其他分子也有助於維持氧化還原環境。
+
+### 外源性抗氧化劑
+
+這些是自外部來源取得、可顯著增強人體內源性防禦的物質：
+
+- **維生素**：
+  - **維生素 C（抗壞血酸）**：一種高度有效的水溶性抗氧化劑，可清除各種 ROS，並再生維生素 E 等其他抗氧化劑。
+  - **維生素 E（生育酚）**：一種關鍵的脂溶性抗氧化劑，藉由在脂雙層中清除自由基，保護細胞膜免受脂質過氧化。
+- **飲食性多酚**：許多植物來源的化合物，例如類黃酮，具有強大的抗氧化特性，並能調節細胞的氧化還原訊號傳遞。
+
 ## 作用機制
-抗氧化劑透過以下方式發揮作用：
-1. **清除作用**：直接與自由基反應並加以中和。
-2. **螯合作用**：結合過渡金屬（如鐵或銅），這類金屬可透過 Fenton 反應催化 ROS 的生成。
-3. **再生作用**：一種抗氧化劑可使另一種抗氧化劑回復至活性狀態（例如維生素 C 使維生素 E 再生）。
+
+> [!info] 來源：[[_document_ - berrougui2009_resveratrol_as_atheroprotective_compound|Berrougui et al., Atherosclerosis 2009]]
+> Resveratrol 與維生素 E 在相同濃度下展現相等的 DPPH 自由基清除活性。兩者皆作用迅速——超過 50% 的活性在最初 30 分鐘內即被觀察到。Resveratrol 可保護 LDL 與 HDL 免受銅離子與自由基誘發的氧化。
+
+- **自由基清除**：中和反應性物種（以 [[DPPH]] 測試測定）
+- **鏈反應中斷**：防止脂質過氧化的傳播
+- **金屬螯合**：結合過渡金屬離子（例如 resveratrol 可螯合銅）
+- **酵素性**：[[PON1]] 水解 HDL 上的脂質過氧化物
+
+## 在動脈粥狀硬化中的角色
+
+- [[LDL]] 的氧化會產生 [[Oxidized LDL]]，進而驅動 [[Foam Cells]] 的形成
+- [[HDL]] 的氧化會損害其 [[Cholesterol Efflux]] 能力
+- 抗氧化劑保護 LDL 與 HDL 免受氧化性修飾
+- [[Resveratrol]] 可在氧化壓力下維持 LDL 中的維生素 E 含量
+
 ## 臨床重要性
-當 ROS 的產生與抗氧化防禦之間失衡時，便會導致 [[Oxidative Stress]]（氧化壓力），而此狀態與眾多疾病的致病機轉有關，包括 [[Cancer]]（癌症）、[[Cardiovascular Disease]]（心血管疾病）與 [[Neurodegenerative Disease]]（神經退化性疾病）。
 
-#
+促氧化劑與抗氧化劑之間的平衡，是數種病理狀態的核心：
 
-# 
+- **老化與長壽**：「老化自由基理論」主張氧化性損傷隨時間累積是老化過程的主要驅動力。維持健全的抗氧化防禦是長壽研究的關鍵領域。
+- **神經退化性疾病**：腦部因氧氣消耗量高且脂質含量豐富，特別容易受到氧化壓力影響。抗氧化能力的不足，與 [[Alzheimer's Disease]] 及帕金森氏症等疾病的致病機轉高度相關。
+- **癌症**：抗氧化劑在癌症中的角色很複雜——它們可以保護健康細胞免受 DNA 損傷，但也可能保護癌細胞免受免疫或化療試圖誘發的氧化壓力所引起的凋亡。
+- **心血管疾病**：氧化壓力在動脈粥狀硬化中扮演關鍵角色，其中 LDL 膽固醇的氧化是斑塊形成的關鍵步驟。
 
-## Documents
+## 文件
 
-提及此實體的文件清單
+- [[_document_ - berrougui2009_resveratrol_as_atheroprotective_compound|Berrougui et al., Atherosclerosis 2009]]
+  - Resveratrol is a natural antioxidant that inhibits lipoprotein oxidation and enhances cholesterol efflux; equivalent DPPH scavenging activity to vitamin E.
+- [[_document_ - intermediates, precursor, hemoglobin|intermediates, precursor, hemoglobin]]
+  - Solvent choice: the compound is generally dissolved in solvents that do not promote oxidation, often with the addition of antioxidants such as ascorbic acid if necessary, depending on the specific experimental requirements.
+- [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+  - Lists antioxidants among the new entity notes to create; strong connections to strengthen are neuromelanin ↔ dopamine, neuromelanin ↔ chemical memory, and MPP+ ↔ monoamine oxidase B.
+- [[_document_ - The Sirtuin System The Holy Grail of Resveratrol?|The Sirtuin System The Holy Grail of Resveratrol?]]
+  - The oxidative stress theory has been associated with atherosclerosis and has prompted a multitude of studies evaluating the effects of antioxidants on cardiovascular disease prevention.
+- [[task_output_queen_palm_biochemical_nutrients_23_Sep_2026|Queen Palm Biochemical Nutrients Profile]]
+  - Fruit-based example of an almost purely lipophilic antioxidant suite (carotenoids, α-tocopherol, phenolics, negligible vitamin C) delivered in a co-located lipid vehicle.
 
-  - [[_document_ - intermediates, precursor, hemoglobin|intermediates, precursor, hemoglobin]]
-    - 溶劑選擇：一般溶解於不會促進氧化的溶劑中，必要時視具體實驗需求加入抗氧化劑（如抗壞血酸）。5\.
+## 連結
 
-  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
-    - 建議新增的實體筆記：Antioxidants、Thiols、Indoleamine、Animal Models。建議強化的強連結：Neuromelanin ↔ Dopamine、Neuromelanin ↔ Chemical memory、MPP+ ↔ Monoamine oxidase B。
+- [[Oxidation]] — 抗氧化劑所抗衡的化學過程。
+- [[Oxidative Stress]] — ROS 生成與抗氧化防禦之間的失衡；抗氧化劑可對抗它。
+- [[Reactive Oxygen Species]] — 抗氧化劑所中和的高反應性分子。
+- [[Redox Balance]] — 細胞中氧化與還原過程之間的穩態。
+- [[Superoxide Dismutase]] — 不可或缺的酵素性抗氧化劑。
+- [[Catalase]] — 分解過氧化氫的酵素。
+- [[Glutathione]] — 主要的非酵素性抗氧化劑與氧化還原緩衝物質。
+- [[Hydroxyl Radicals]] — 高度反應性且具破壞力的 ROS。
+- [[Vitamin C]] — 關鍵的外源性水溶性抗氧化劑。
+- [[Vitamin E]] — 內源性的、可中斷鏈反應的脂溶性抗氧化劑。
+- [[Lipid Peroxidation]] — 抗氧化劑所抑制的氧化性降解過程。
+- [[Resveratrol]] — 強效的天然抗氧化劑。
+- [[PON1]] — 與 HDL 結合的抗氧化酵素。
+- [[LDL]] — 受抗氧化劑保護而免於氧化。
+- [[HDL]] — 受抗氧化劑保護而免於氧化。
+- [[Atherosclerosis]] — 抗氧化劑可對抗動脈粥狀硬化。
+- [[DPPH]] — 用於測定自由基清除活性的測試方法。
+- [[Adrenochrome]] — 兒茶酚胺的氧化產物，其處理需要抗氧化劑以防止進一步自氧化。
+- [[Queen Palm]] — 飲食性植物來源，其果肉會與脂溶性抗氧化劑一併由其脂質載體遞送。
+- [[Alzheimer's Disease]] — 與氧化壓力相關的神經退化性疾病。
+- [[Aging]] — 受累積性氧化損傷影響的生物過程。
 
-  - [[_document_ - The Sirtuin System The Holy Grail of Resveratrol?|The Sirtuin System The Holy Grail of Resveratrol?]]
-    - 氧化壓力理論與動脈粥狀硬化相關，並促使大量研究評估抗氧化劑對心血管疾病預防的效果。
+## 連結摘要
 
-  - [[task_output_queen_palm_biochemical_nutrients_23_Sep_2026|Queen Palm Biochemical Nutrients Profile]]
-    - 以果實為例，其抗氧化組成幾乎全為親脂性（類胡蘿蔔素、α-生育醇、酚類，維生素 C 含量極少），並由共定位的脂質載體一同輸送。
-
-
-## Connections
-- **[[Oxidative Stress]]（氧化壓力）**：抗氧化能力不足所導致的狀態。
-- **[[Reactive Oxygen Species]]（活性氧）**：抗氧化防禦的主要標的。
-- **[[Mitochondria]]（粒線體）**：ROS 產生與抗氧化活性的主要場所。
-- **[[Queen Palm]]（皇后棕）**：膳食植物來源，其果肉將親脂性抗氧化劑與其脂質載體一同輸送。
-
-## Linking Summary
-- 新增連結：[[Adrenochrome]]、[[Reactive Oxygen Species]]、[[Superoxide Dismutase]]、[[Superoxide Radicals]]、[[Hydrogen Peroxide]]、[[Catalase]]、[[Glutathione Peroxidase]]、[[Glutathione]]、[[Vitamin E]]、[[Vitamin C]]、[[Coenzyme Q10]]、[[Polyphenols]]、[[Flavonoids]]、[[Lipid Peroxidation]]、[[Oxidative Stress]]、[[Cancer]]、[[Cardiovascular Disease]]、[[Neurodegenerative Disease]]、[[Mitochondria]]
-- 建議新增的實體筆記：[[Vitamin C]]
-  - 建議強化的強連結：[[Antioxidants]] ↔ Oxidative Stress
+- 新增連結：[[Oxidative Stress]]、[[Lipid Peroxidation]]、[[Resveratrol]]、[[Vitamin E]]、[[PON1]]、[[LDL]]、[[HDL]]、[[Atherosclerosis]]、[[DPPH]]、[[Oxidation]]、[[Reactive Oxygen Species]]、[[Redox Balance]]、[[Superoxide Dismutase]]、[[Catalase]]、[[Glutathione]]、[[Hydroxyl Radicals]]、[[Vitamin C]]、[[Alzheimer's Disease]]、[[Aging]]
+- 建議建立的筆記：[[Lipid Peroxidation]]、[[Hydrogen Peroxide]]、[[Ascorbic Acid]]
+- 自重複的 `Antioxidants.md` 筆記整合而來（2026-09-29）；wikilink 已重新導向至此，本筆記的別名 `antioxidants` 可解析單數與複數兩種用法。
+- 建議強化的強連結：[[Antioxidant]] ↔ [[Oxidative Stress]]、[[Antioxidant]] ↔ [[Redox Balance]]、[[Antioxidant]] ↔ [[Atherosclerosis]]

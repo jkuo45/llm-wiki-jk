@@ -8,7 +8,11 @@ tags:
   - oxidative-stress
   - biomarker
   - chemical-compound
-aliases: [M1dG, M₁-deoxyguanosine, Pyrimido[1,2-a]purin-10(3H)-one, M1G]
+aliases:
+  - M1dG
+  - M₁-deoxyguanosine
+  - "Pyrimido[1,2-a]purin-10(3H)-one"
+  - M1G
 ---
 
 # M1dG

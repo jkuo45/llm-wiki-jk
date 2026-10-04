@@ -1,5 +1,5 @@
 {
-  "generated": "04_OCT_2026 01:17 PM PDT",
+  "generated": "04_OCT_2026 02:05 PM PDT",
   "wiki": [
     {
       "id": "wiki-index",
@@ -44,9 +44,9 @@
         },
         "zh-TW": {
           "title": "SIRT1",
-          "description": "Sirt1 是 NAD+-依賴性第 III 類組蛋白去乙醯化酶（sirtuin），也是 Sirtuins 家族中被研究最廣泛的成員。它將細胞能量狀態與染色質調節、...",
+          "description": "Sirt1 是一種 NAD+-依賴性第 III 類組蛋白去乙醯化酶（sirtuin），也是 Sirtuins 家族中被研究最廣泛的成員。它將細胞能量狀態與染色質調節、壓力抗性與代謝恆定聯繫起來，...",
           "created": "2026-07-06",
-          "updated": "2026-09-02",
+          "updated": "2026-09-30",
           "tags": [
             "gene",
             "protein",
@@ -156,9 +156,9 @@
         },
         "zh-TW": {
           "title": "SIRT3",
-          "description": "SIRT3（Sirtuin 3）是主要定位於粒線體內的 NAD⁺-依賴性去乙醯化酶。",
+          "description": "SIRT3 (Sirtuin 3) 是主要定位於粒線體內的 NAD+-依賴性去乙醯化酶。",
           "created": "2026-07-04",
-          "updated": "2026-09-02",
+          "updated": "2026-09-29",
           "tags": [
             "enzyme",
             "nad-plus"
@@ -193,9 +193,9 @@
         },
         "zh-TW": {
           "title": "Autophagy",
-          "description": "細胞降解途徑，將胞質物質送往溶酶體以利回收； 維持能量恆定與品質控制。",
+          "description": "將細胞質物質送至溶酶體以進行回收的細胞降解路徑；維持能量恆定與品質管制。",
           "created": "2026-07-04",
-          "updated": "2026-09-11",
+          "updated": "2026-09-30",
           "tags": [
             "biological-process",
             "lysosome",
@@ -233,9 +233,9 @@
         },
         "zh-TW": {
           "title": "Cellular Senescence",
-          "description": "細胞衰老是 DNA 損傷、氧化壓力、端粒耗損或致癌基因活化所觸發的永久性細胞週期停滯狀態。衰老細胞會分泌促發炎的衰老相關分泌表型（SASP），驅動老化與組織功能障礙。",
+          "description": "細胞衰老是由 DNA 損傷、氧化壓力、端粒耗損或致癌基因活化所觸發的永久性細胞週期停滯狀態。衰老細胞會分泌促發炎的 SASP，驅動老化與組織功能障礙。",
           "created": "2026-07-04",
-          "updated": "2026-09-02",
+          "updated": "2026-09-30",
           "tags": [
             "biological-process",
             "senescence",
@@ -307,9 +307,9 @@
         },
         "zh-TW": {
           "title": "Ferroptosis",
-          "description": "鐵死亡是一種非凋亡型的受調控細胞死亡，由鐵依賴性的脂質過氧化所驅動。",
+          "description": "鐵死亡是一種由鐵依賴性脂質過氧化所驅動的非凋亡型受調控細胞死亡形式。",
           "created": "2024-01-01",
-          "updated": "2026-09-03",
+          "updated": "2026-09-26",
           "tags": [
             "biological-process"
           ],
@@ -374,6 +374,17 @@
           "filename": "AMPK.md",
           "path": "wiki/en-US/_link/AMPK.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/AMPK.md"
+        },
+        "zh-TW": {
+          "title": "AMPK",
+          "description": "AMP 活化蛋白激酶（AMPK）是中央代謝感測器，藉由整合能量狀態與表觀遺傳調節，在[[Aging]]過程中扮演關鍵角色。隨著生物體老化，AMPK 的活性與反應性通常會下降，進而促成老化的各項徵象，包括表觀遺傳改變、蛋白質恆定性喪失與粒線體功能障礙。",
+          "created": "2026-05-29",
+          "updated": "2026-10-02",
+          "tags": [
+            "enzyme"
+          ],
+          "filename": "AMPK.md",
+          "path": "wiki/zh-TW/_link/AMPK.md"
         }
       },
       "stats": {
@@ -400,9 +411,9 @@
         },
         "zh-TW": {
           "title": "Urolithin A",
-          "description": "尿石素 A 是源自鞣花單寧（存在於石榴與堅果）的後生元代謝物，已顯示可在多種模型中誘導粒線體自噬，並改善肌肉功能與壽命。",
+          "description": "Urolithin A 是一種源自鞣花單寧（存在於石榴與堅果中）的後生元代謝物，已被證實能在多種模式中誘導粒線體自噬，並改善肌肉功能與長壽。",
           "created": "2024-01-01",
-          "updated": "2026-09-17",
+          "updated": "2026-10-01",
           "tags": [
             "chemical-compound"
           ],
@@ -434,9 +445,9 @@
         },
         "zh-TW": {
           "title": "RIPK3",
-          "description": "概述：RIPK3 是一種在真核細胞中具有結構、訊號或調控功能的細胞蛋白質。它參與主導細胞命運的巨分子複合體與訊號網路...",
+          "description": "受體交互作用型絲胺酸／蘇胺酸蛋白激酶 3 是壞死性凋亡的必需激酶，由 RIPK1 透過 RHIM 結構域的類澱粉狀組裝招募，並藉由其自身 RIPK3 結構域的磷酸化而活化；當壞死性凋亡被阻斷時，它也透過抑制 caspase-8 來驅動細胞焦亡。",
           "created": "2026-07-04",
-          "updated": "2026-09-14",
+          "updated": "2026-10-01",
           "tags": [
             "protein"
           ],
@@ -589,6 +600,19 @@
           "filename": "Chronic Inflammation.md",
           "path": "wiki/en-US/_link/Chronic%20Inflammation.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Chronic%20Inflammation.md"
+        },
+        "zh-TW": {
+          "title": "慢性發炎",
+          "description": "持續數週至數年、無法自行消退的發炎訊號傳遞，由持續存在的誘發因素與失效的消退程式所驅動；它是發炎性老化、動脈粥狀硬化、自體免疫疾病以及發炎驅動的腫瘤發生之核心機制。",
+          "created": "2026-10-01",
+          "updated": "2026-10-01",
+          "tags": [
+            "biological-process",
+            "inflammation",
+            "aging"
+          ],
+          "filename": "Chronic Inflammation.md",
+          "path": "wiki/zh-TW/_link/Chronic%20Inflammation.md"
         }
       },
       "stats": {
@@ -637,6 +661,44 @@
       }
     },
     {
+      "id": "NAFLD",
+      "langs": {
+        "en-US": {
+          "title": "NAFLD",
+          "description": "Non-alcoholic fatty liver disease, the most common liver disease worldwide and the hepatic manifestation of metabolic syndrome; renamed MASLD in the 2023 multisociety Delphi consensus.",
+          "created": "2026-09-29",
+          "updated": "2026-09-29",
+          "tags": [
+            "medical-condition",
+            "metabolism",
+            "inflammation"
+          ],
+          "filename": "NAFLD.md",
+          "path": "wiki/en-US/_link/NAFLD.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/NAFLD.md"
+        },
+        "zh-TW": {
+          "title": "NAFLD",
+          "description": "非酒精性脂肪肝（NAFLD）是全球最常見的肝臟疾病，也是代謝症候群的肝臟表現；2023 年多學會 Delphi 共識將其重新命名為 MASLD。",
+          "created": "2026-09-29",
+          "updated": "2026-09-29",
+          "tags": [
+            "medical-condition",
+            "metabolism",
+            "inflammation"
+          ],
+          "filename": "NAFLD.md",
+          "path": "wiki/zh-TW/_link/NAFLD.md"
+        }
+      },
+      "stats": {
+        "words": 1576,
+        "images": 0,
+        "links": 117,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "CBP",
       "langs": {
         "en-US": {
@@ -673,44 +735,6 @@
         "words": 1079,
         "images": 0,
         "links": 47,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "NAFLD",
-      "langs": {
-        "en-US": {
-          "title": "NAFLD",
-          "description": "Non-alcoholic fatty liver disease, the most common liver disease worldwide and the hepatic manifestation of metabolic syndrome; renamed MASLD in the 2023 multisociety Delphi consensus.",
-          "created": "2026-09-29",
-          "updated": "2026-09-29",
-          "tags": [
-            "medical-condition",
-            "metabolism",
-            "inflammation"
-          ],
-          "filename": "NAFLD.md",
-          "path": "wiki/en-US/_link/NAFLD.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/NAFLD.md"
-        },
-        "zh-TW": {
-          "title": "NAFLD",
-          "description": "非酒精性脂肪肝（NAFLD）是全球最常見的肝臟疾病，也是代謝症候群的肝臟表現；2023 年多學會 Delphi 共識將其重新命名為 MASLD。",
-          "created": "2026-09-29",
-          "updated": "2026-09-29",
-          "tags": [
-            "medical-condition",
-            "metabolism",
-            "inflammation"
-          ],
-          "filename": "NAFLD.md",
-          "path": "wiki/zh-TW/_link/NAFLD.md"
-        }
-      },
-      "stats": {
-        "words": 1576,
-        "images": 0,
-        "links": 117,
         "diagrams": 0
       }
     },
@@ -772,6 +796,19 @@
           "filename": "Angiotensin II Type 1 Receptor.md",
           "path": "wiki/en-US/_link/Angiotensin%20II%20Type%201%20Receptor.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Angiotensin%20II%20Type%201%20Receptor.md"
+        },
+        "zh-TW": {
+          "title": "血管張力素 II 第一型受體",
+          "description": "血管張力素 II 第一型受體（AT1R，基因 AGTR1）是介導血管張力素 II 之升壓、促發炎與促纖維化作用的主要 G 蛋白偶聯受體，也是血管張力素受體阻斷劑這一藥物類別的標的。",
+          "created": "2026-10-01",
+          "updated": "2026-10-01",
+          "tags": [
+            "receptor",
+            "g-protein-coupled-receptor",
+            "cardiovascular-disease"
+          ],
+          "filename": "Angiotensin II Type 1 Receptor.md",
+          "path": "wiki/zh-TW/_link/Angiotensin%20II%20Type%201%20Receptor.md"
         }
       },
       "stats": {
@@ -961,10 +998,10 @@
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/E3%20Ubiquitin%20Ligase.md"
         },
         "zh-TW": {
-          "title": "E3 Ubiquitin Ligase",
-          "description": "泛素化級聯反應中第三個、負責選擇受質的酵素，人類基因組中編碼有超過 600 種。E3 連接酶決定哪一個蛋白質被修飾、以及使用何種泛素鏈拓撲，並可分為結構上各異的家族（RING、RBR、HECT），它們直接或經由共價酵素中間體轉移泛素。",
+          "title": "E3 泛素連接酶",
+          "description": "泛素化級聯反應中第三個、也是選擇受質的步驟，在人類基因體中編碼有超過 600 種。E3 連接酶決定哪一個蛋白質被修飾、以及以何種泛素鏈拓撲修飾，並可分為結構上截然不同的家族（RING、RBR、HECT），它們以直接方式或透過共價酵素中間體的方式轉移泛素。",
           "created": "2026-09-29",
-          "updated": "2026-09-29",
+          "updated": "2026-10-01",
           "tags": [
             "protein-class",
             "ubiquitin",
@@ -999,6 +1036,19 @@
           "filename": "ATG Genes.md",
           "path": "wiki/en-US/autophagy/ATG%20Genes.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/autophagy/ATG%20Genes.md"
+        },
+        "zh-TW": {
+          "title": "ATG 基因",
+          "description": "ATG 基因編碼自噬的核心機制，最初在酵母菌中被發現並命名為 Apg/Nir/Atg；人類約 35 個 ATG 基因編碼 ULK1、III 型 PI3K 與類泛素接合系統，負責自噬體的建構、封閉與運送。",
+          "created": "2026-10-01",
+          "updated": "2026-10-02",
+          "tags": [
+            "gene",
+            "autophagy",
+            "protein"
+          ],
+          "filename": "ATG Genes.md",
+          "path": "wiki/zh-TW/autophagy/ATG%20Genes.md"
         }
       },
       "stats": {
@@ -1024,6 +1074,19 @@
           "filename": "Endometrial Cancer.md",
           "path": "wiki/en-US/cancer/Endometrial%20Cancer.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cancer/Endometrial%20Cancer.md"
+        },
+        "zh-TW": {
+          "title": "子宮內膜癌",
+          "description": "子宮內膜癌是子宮內襯的惡性腫瘤，最常見者為在無對抗性雌激素暴露背景下發生的類內膜腺癌；TCGA 將其分為四個預後截然不同的分子次群。",
+          "created": "2026-10-01",
+          "updated": "2026-10-01",
+          "tags": [
+            "medical-condition",
+            "cancer",
+            "gynecology"
+          ],
+          "filename": "Endometrial Cancer.md",
+          "path": "wiki/zh-TW/cancer/Endometrial%20Cancer.md"
         }
       },
       "stats": {
@@ -1051,6 +1114,21 @@
           "filename": "Histone H2A.md",
           "path": "wiki/en-US/epigenetics/Histone%20H2A.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/epigenetics/Histone%20H2A.md"
+        },
+        "zh-TW": {
+          "title": "組蛋白 H2A",
+          "description": "組蛋白 H2A 是四種典型核心組蛋白之一，每個核小體八聚體中含有兩份；它提供核小體表面的酸性斑塊，是多數溴結構域與 PHD 指狀閱讀器的結合位點，帶有包括 H2AK119ub 在內的修飾位點，也是 H2A.Z、H2A.X、H2A.J 與 macroH2A 等變異體的基礎蛋白質。",
+          "created": "2026-10-01",
+          "updated": "2026-10-01",
+          "tags": [
+            "protein",
+            "chromatin",
+            "histone",
+            "nucleosome",
+            "histone-variant"
+          ],
+          "filename": "Histone H2A.md",
+          "path": "wiki/zh-TW/epigenetics/Histone%20H2A.md"
         }
       },
       "stats": {
@@ -1076,6 +1154,19 @@
           "filename": "Deep Vein Thrombosis.md",
           "path": "wiki/en-US/_link/Deep%20Vein%20Thrombosis.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Deep%20Vein%20Thrombosis.md"
+        },
+        "zh-TW": {
+          "title": "深層靜脈栓塞",
+          "description": "深層靜脈栓塞是深層靜脈內的血栓形成，最常發生於膝下，起因於靜脈血流滯留、內皮損傷與高凝狀態三者交會之處；它是肺栓塞的首要原因，也是可預防之發病與死亡的主要原因。",
+          "created": "2026-10-01",
+          "updated": "2026-10-01",
+          "tags": [
+            "medical-condition",
+            "hematology",
+            "cardiovascular-disease"
+          ],
+          "filename": "Deep Vein Thrombosis.md",
+          "path": "wiki/zh-TW/_link/Deep%20Vein%20Thrombosis.md"
         }
       },
       "stats": {
@@ -1103,6 +1194,21 @@
           "filename": "VMAT2.md",
           "path": "wiki/en-US/neuromelanin/VMAT2.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/neuromelanin/VMAT2.md"
+        },
+        "zh-TW": {
+          "title": "VMAT2",
+          "description": "VMAT2 是單胺能神經元突觸前的囊泡單胺轉運蛋白；它將細胞質中的多巴胺、血清素與正腎上腺胺包裝進突觸囊泡，並是利血平與用於遲發性運動障礙的丁苯那嗪類 VMAT2 抑制劑的藥理學標的。",
+          "created": "2026-10-01",
+          "updated": "2026-10-01",
+          "tags": [
+            "protein",
+            "neurotransmitter",
+            "dopamine",
+            "pharmacology",
+            "vesicular-transport"
+          ],
+          "filename": "VMAT2.md",
+          "path": "wiki/zh-TW/neuromelanin/VMAT2.md"
         }
       },
       "stats": {
@@ -1128,6 +1234,19 @@
           "filename": "Rac GTPase.md",
           "path": "wiki/en-US/_link/Rac%20GTPase.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Rac%20GTPase.md"
+        },
+        "zh-TW": {
+          "title": "Rac GTP酶",
+          "description": "Rac GTP酶（RAC1、RAC2、RAC3、RHOG）是 Rho 家族小 GTP酶中約 21-25 kDa 的一個亞家族。它們以 GDP/GTP 二元開關運作，透過 GEF、GAP 與 GDI 循環核苷酸狀態，並經由 WAVE、PAK 與 NADPH 氧化酶等效應器驅動偽足、膜皺褶與細胞黏附。",
+          "created": "2026-07-04",
+          "updated": "2026-10-01",
+          "tags": [
+            "protein",
+            "signaling",
+            "gtpase"
+          ],
+          "filename": "Rac GTPase.md",
+          "path": "wiki/zh-TW/_link/Rac%20GTPase.md"
         }
       },
       "stats": {
@@ -1155,6 +1274,21 @@
           "filename": "Cell Survival.md",
           "path": "wiki/en-US/cell-death/Cell%20Survival.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Cell%20Survival.md"
+        },
+        "zh-TW": {
+          "title": "細胞存活",
+          "description": "細胞存活訊號傳遞是一組促進存活的路徑 —— 主要為 PI3K-AKT-mTOR、NF-κB 與 MAPK —— 它們透過對抗凋亡、抑制死亡受體輸出以及重新編排代謝，讓細胞在壓力下維持存活。",
+          "created": "2026-10-02",
+          "updated": "2026-10-02",
+          "tags": [
+            "cell-signaling",
+            "cancer",
+            "apoptosis",
+            "signaling",
+            "therapeutic-resistance"
+          ],
+          "filename": "Cell Survival.md",
+          "path": "wiki/zh-TW/cell-death/Cell%20Survival.md"
         }
       },
       "stats": {
@@ -1217,6 +1351,20 @@
           "filename": "Myofibroblast.md",
           "path": "wiki/en-US/_link/Myofibroblast.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Myofibroblast.md"
+        },
+        "zh-TW": {
+          "title": "肌成纖維母細胞",
+          "description": "一種具收縮能力的活化纖維母細胞狀態，其特徵為α-平滑肌肌動蛋白應力纖維與增加的基質生成，由 TGF-beta 訊號傳遞產生，並同時負責傷口收縮與纖維化過程中逐步累積的基質沉積。",
+          "created": "2026-10-01",
+          "updated": "2026-10-01",
+          "tags": [
+            "cell-type",
+            "mesenchyme",
+            "fibrosis",
+            "wound-healing"
+          ],
+          "filename": "Myofibroblast.md",
+          "path": "wiki/zh-TW/_link/Myofibroblast.md"
         }
       },
       "stats": {
@@ -1282,6 +1430,21 @@
           "filename": "Histone H2B.md",
           "path": "wiki/en-US/epigenetics/Histone%20H2B.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/epigenetics/Histone%20H2B.md"
+        },
+        "zh-TW": {
+          "title": "組蛋白 H2B",
+          "description": "組蛋白 H2B 是四種典型核心組蛋白之一，每個核小體八聚體中存在兩份，擔任 H2A 不可或缺的搭檔；其最著名的修飾是 K120 單泛素化，一種共轉錄標記，也是 H3K4 與 H3K79 甲基化的必要前驅物，而其 C 端基序是 FACT 與 TFIIS 的重要停靠位點。",
+          "created": "2026-10-01",
+          "updated": "2026-10-01",
+          "tags": [
+            "protein",
+            "chromatin",
+            "histone",
+            "nucleosome",
+            "histone-modification"
+          ],
+          "filename": "Histone H2B.md",
+          "path": "wiki/zh-TW/epigenetics/Histone%20H2B.md"
         }
       },
       "stats": {
@@ -1307,6 +1470,19 @@
           "filename": "Ketone Body.md",
           "path": "wiki/en-US/autophagy/Ketone%20Body.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/autophagy/Ketone%20Body.md"
+        },
+        "zh-TW": {
+          "title": "酮體",
+          "description": "酮體是肝臟在醣類攝取受限時由脂肪酸所產生的三種水溶性化合物——乙醯乙酸、β-羥丁酸與丙酮——並被輸出至肝外組織作為替代性的氧化還原燃料。",
+          "created": "2026-10-01",
+          "updated": "2026-10-02",
+          "tags": [
+            "metabolite",
+            "metabolism",
+            "liver"
+          ],
+          "filename": "Ketone Body.md",
+          "path": "wiki/zh-TW/autophagy/Ketone%20Body.md"
         }
       },
       "stats": {
@@ -1333,6 +1509,20 @@
           "filename": "Taxanes.md",
           "path": "wiki/en-US/cancer/Taxanes.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cancer/Taxanes.md"
+        },
+        "zh-TW": {
+          "title": "紫杉烷類",
+          "description": "紫杉烷類（taxanes）是穩定微管的化療藥物——paclitaxel、docetaxel 與 cabazitaxel——它們結合 β-tubulin 上的 taxane 結合位、抑制微管動態、將細胞停滯於中期有絲分裂，並將此停滯轉為凋亡。",
+          "created": "2026-10-02",
+          "updated": "2026-10-02",
+          "tags": [
+            "drug-class",
+            "chemotherapy",
+            "microtubule-targeting-agent",
+            "antimitotic"
+          ],
+          "filename": "Taxanes.md",
+          "path": "wiki/zh-TW/cancer/Taxanes.md"
         }
       },
       "stats": {
@@ -1358,6 +1548,19 @@
           "filename": "Protease.md",
           "path": "wiki/en-US/_link/Protease.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Protease.md"
+        },
+        "zh-TW": {
+          "title": "蛋白酶",
+          "description": "蛋白酶（peptidase，肽酶）是任何催化蛋白質中肽鍵水解的酵素；此類別橫跨絲胺酸、半胱胺酸、天門冬胺酸、金屬與蘇胺酸等催化型，並掌管蛋白質轉換、消化、凝血、補體與調控性細胞死亡。",
+          "created": "2026-10-01",
+          "updated": "2026-10-01",
+          "tags": [
+            "biological-process",
+            "enzyme",
+            "protein-degradation"
+          ],
+          "filename": "Protease.md",
+          "path": "wiki/zh-TW/_link/Protease.md"
         }
       },
       "stats": {
@@ -1421,6 +1624,19 @@
           "filename": "Long-Term Potentiation.md",
           "path": "wiki/en-US/_link/Long-Term%20Potentiation.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Long-Term%20Potentiation.md"
+        },
+        "zh-TW": {
+          "title": "長期增益作用",
+          "description": "長期增益作用（LTP）是短暫高頻活動之後，突觸傳遞所產生的持續且具輸入專一性的增強，普遍被視為學習與記憶的主要細胞層級受質。",
+          "created": "2026-10-01",
+          "updated": "2026-10-01",
+          "tags": [
+            "scientific-concept",
+            "neurophysiology",
+            "synaptic-plasticity"
+          ],
+          "filename": "Long-Term Potentiation.md",
+          "path": "wiki/zh-TW/_link/Long-Term%20Potentiation.md"
         }
       },
       "stats": {
@@ -1447,6 +1663,20 @@
           "filename": "Fibrin.md",
           "path": "wiki/en-US/_link/Fibrin.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Fibrin.md"
+        },
+        "zh-TW": {
+          "title": "纖維蛋白",
+          "description": "纖維蛋白是凝血酶從纖維蛋白原切下纖維蛋白胜肽 A 與 B 之後所形成的不溶性凝膠聚合物；它由因子 XIIIa 交聯成血塊的結構骨架，同時也作為細胞黏附與組織修復的支架。",
+          "created": "2026-10-02",
+          "updated": "2026-10-02",
+          "tags": [
+            "protein",
+            "hemostasis",
+            "coagulation",
+            "extracellular-matrix"
+          ],
+          "filename": "Fibrin.md",
+          "path": "wiki/zh-TW/_link/Fibrin.md"
         }
       },
       "stats": {
@@ -1472,6 +1702,19 @@
           "filename": "Gaucher Disease.md",
           "path": "wiki/en-US/_link/Gaucher%20Disease.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Gaucher%20Disease.md"
+        },
+        "zh-TW": {
+          "title": "高雪氏症",
+          "description": "高雪氏症是最常見的溶酶體儲積症，屬體染色體隱性的溶酶體葡萄糖腦苷脂酶缺乏症，造成葡萄糖神經醯胺在單核細胞—巨噬細胞中累積，導致肝脾腫大、血球減少、骨病變，少数類型則涉及神經系統。",
+          "created": "2026-10-01",
+          "updated": "2026-10-01",
+          "tags": [
+            "medical-condition",
+            "lysosomal-storage-disease",
+            "metabolism"
+          ],
+          "filename": "Gaucher Disease.md",
+          "path": "wiki/zh-TW/_link/Gaucher%20Disease.md"
         }
       },
       "stats": {
@@ -1497,6 +1740,19 @@
           "filename": "EGF.md",
           "path": "wiki/en-US/_link/EGF.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/EGF.md"
+        },
+        "zh-TW": {
+          "title": "EGF",
+          "description": "表皮生長因子是 EGF module 家族的 53 胺基酸、6 kDa 分泌性胜肽，也是 EGFR/ErbB 受體酪胺酸激酶系統的創始配體；它在上皮驅動增殖、分化與存活，其失調則同時推動 SASP 分泌與腫瘤生長。",
+          "created": "2026-10-01",
+          "updated": "2026-10-02",
+          "tags": [
+            "growth-factor",
+            "protein",
+            "signaling"
+          ],
+          "filename": "EGF.md",
+          "path": "wiki/zh-TW/_link/EGF.md"
         }
       },
       "stats": {
@@ -1523,6 +1779,20 @@
           "filename": "Anticancer.md",
           "path": "wiki/en-US/cancer/Anticancer.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cancer/Anticancer.md"
+        },
+        "zh-TW": {
+          "title": "抗癌治療",
+          "description": "抗癌治療指以細胞毒性、標靶性、荷爾蒙性或免疫性藥物對惡性腫瘤進行的全身性治療；現代藥典橫跨烷化劑、抗代謝物、抗微管藥物、激酶抑制劑、抗體藥物複合體與檢查點阻斷。",
+          "created": "2026-10-01",
+          "updated": "2026-10-02",
+          "tags": [
+            "pharmacology",
+            "cancer",
+            "oncology",
+            "drug"
+          ],
+          "filename": "Anticancer.md",
+          "path": "wiki/zh-TW/cancer/Anticancer.md"
         }
       },
       "stats": {
@@ -1550,6 +1820,21 @@
           "filename": "Phagocytosis.md",
           "path": "wiki/en-US/cell-death/Phagocytosis.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Phagocytosis.md"
+        },
+        "zh-TW": {
+          "title": "吞噬作用",
+          "description": "吞噬作用是專職吞噬細胞以肌動蛋白驅動、將大型顆粒吞入的過程，最終形成吞噬體並與溶酶體融合以進行降解；其專門形式包括凋亡細胞清除、LC3 相關吞噬作用，以及獨立於 LAP 的屍體清除。",
+          "created": "2026-10-01",
+          "updated": "2026-10-01",
+          "tags": [
+            "biological-process",
+            "innate-immunity",
+            "clearance",
+            "vesicular-traffic",
+            "inflammation"
+          ],
+          "filename": "Phagocytosis.md",
+          "path": "wiki/zh-TW/cell-death/Phagocytosis.md"
         }
       },
       "stats": {
@@ -1615,6 +1900,19 @@
           "filename": "BiP.md",
           "path": "wiki/en-US/_link/BiP.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/BiP.md"
+        },
+        "zh-TW": {
+          "title": "BiP",
+          "description": "BiP（GRP78, HSPA5）是駐留於內質網的 Hsp70 伴護蛋白，能結合錯誤摺疊蛋白而使三個未摺疊蛋白質反應感測器維持抑制狀態，同時也是 UPR 的主要轉錄標的。",
+          "created": "2026-10-01",
+          "updated": "2026-10-01",
+          "tags": [
+            "protein",
+            "molecular-chaperone",
+            "endoplasmic-reticulum"
+          ],
+          "filename": "BiP.md",
+          "path": "wiki/zh-TW/_link/BiP.md"
         }
       },
       "stats": {
@@ -2817,46 +3115,6 @@
       }
     },
     {
-      "id": "Wolbachia",
-      "langs": {
-        "en-US": {
-          "title": "Wolbachia",
-          "description": "Wolbachia is a genus of maternally inherited endosymbiotic bacteria in the family Ehrlichiaceae (order Rickettsiales) that infects arthropods and filarial nematodes, altering host reproduction and, in filariae, providing essential metabolites as an obligate mutualist.",
-          "created": "2026-09-29",
-          "updated": "2026-09-29",
-          "tags": [
-            "organism",
-            "bacteria",
-            "endosymbiosis",
-            "parasitology"
-          ],
-          "filename": "Wolbachia.md",
-          "path": "wiki/en-US/_link/Wolbachia.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Wolbachia.md"
-        },
-        "zh-TW": {
-          "title": "Wolbachia",
-          "description": "Wolbachia 是立克次體目（Rickettsiales）艾立希氏菌科（Ehrlichiaceae）中經母系遺傳的內共生細菌屬，可感染節肢動物與絲蟲類線蟲，改變宿主生殖行為，並在絲蟲中作為專性互利共生者提供必需的代謝產物。",
-          "created": "2026-09-29",
-          "updated": "2026-09-29",
-          "tags": [
-            "organism",
-            "bacteria",
-            "endosymbiosis",
-            "parasitology"
-          ],
-          "filename": "Wolbachia.md",
-          "path": "wiki/zh-TW/_link/Wolbachia.md"
-        }
-      },
-      "stats": {
-        "words": 1402,
-        "images": 0,
-        "links": 38,
-        "diagrams": 0
-      }
-    },
-    {
       "id": "NF-κB",
       "langs": {
         "en-US": {
@@ -2893,6 +3151,46 @@
         "words": 1486,
         "images": 0,
         "links": 138,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Wolbachia",
+      "langs": {
+        "en-US": {
+          "title": "Wolbachia",
+          "description": "Wolbachia is a genus of maternally inherited endosymbiotic bacteria in the family Ehrlichiaceae (order Rickettsiales) that infects arthropods and filarial nematodes, altering host reproduction and, in filariae, providing essential metabolites as an obligate mutualist.",
+          "created": "2026-09-29",
+          "updated": "2026-09-29",
+          "tags": [
+            "organism",
+            "bacteria",
+            "endosymbiosis",
+            "parasitology"
+          ],
+          "filename": "Wolbachia.md",
+          "path": "wiki/en-US/_link/Wolbachia.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Wolbachia.md"
+        },
+        "zh-TW": {
+          "title": "Wolbachia",
+          "description": "Wolbachia 是立克次體目（Rickettsiales）艾立希氏菌科（Ehrlichiaceae）中經母系遺傳的內共生細菌屬，可感染節肢動物與絲蟲類線蟲，改變宿主生殖行為，並在絲蟲中作為專性互利共生者提供必需的代謝產物。",
+          "created": "2026-09-29",
+          "updated": "2026-09-29",
+          "tags": [
+            "organism",
+            "bacteria",
+            "endosymbiosis",
+            "parasitology"
+          ],
+          "filename": "Wolbachia.md",
+          "path": "wiki/zh-TW/_link/Wolbachia.md"
+        }
+      },
+      "stats": {
+        "words": 1402,
+        "images": 0,
+        "links": 38,
         "diagrams": 0
       }
     },
@@ -3428,17 +3726,17 @@
         },
         "zh-TW": {
           "title": "M1dG",
-          "description": "M1dG（pyrimido[1,2-a]purin-10(3H)-one deoxyguanosine）是 malondialdehyde 與 deoxyguanosine 反應後形成的環外 DNA 加合物；為標記脂質過氧化對基因體造成損傷的主要致突變性病變。",
+          "description": "M1dG（pyrimido[1,2-a]purin-10(3H)-one 去氧鳥苷）是丙二醛與去氧鳥苷反應時形成的環外 DNA 加合物；它是標記脂質過氧化對基因體造成損傷的主要致突變病變。",
           "created": "2026-09-24",
-          "updated": "2026-09-24",
+          "updated": "2026-09-29",
           "tags": [
             "dna-damage",
             "oxidative-stress",
             "biomarker",
             "chemical-compound"
           ],
-          "filename": "M₁dG.md",
-          "path": "wiki/zh-TW/oxidative-stress/M%E2%82%81dG.md"
+          "filename": "M1dG.md",
+          "path": "wiki/zh-TW/oxidative-stress/M1dG.md"
         }
       },
       "stats": {
@@ -3701,10 +3999,10 @@
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Tocotrienols.md"
         },
         "zh-TW": {
-          "title": "生育三烯醇",
-          "description": "生育三烯酚（Tocotrienols）是維生素E的四種不飽和形式（alpha、beta、gamma、delta），帶有含三個雙鍵的類異戊二烯側鏈；屬於斷鏈抗氧化劑，具有獨特的抗發炎、抗癌與降膽固醇特性。",
+          "title": "生育三烯酚",
+          "description": "生育三烯酚是維生素E的四種不飽和形式（alpha、beta、gamma、delta），帶有含三個雙鍵的類異戊二烯側鏈；屬於斷鏈型抗氧化劑，具有獨特的抗發炎、抗癌與降膽固醇特性。",
           "created": "2026-09-24",
-          "updated": "2026-09-24",
+          "updated": "2026-09-26",
           "tags": [
             "chemical-class",
             "antioxidant",
@@ -3740,10 +4038,10 @@
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/oxidative-stress/Queen%20Palm.md"
         },
         "zh-TW": {
-          "title": "皇后葵",
-          "description": "Syagrus romanzoffiana（jerivá）觀賞棕櫚，果肉與果仁提供類胡蘿蔔素、多酚、生育酚與中鏈脂質——一種經研究的膳食來源，可提供對抗脂質過氧化的親脂性防禦。",
+          "title": "皇后棕櫚",
+          "description": "Syagrus romanzoffiana（jerivá）是一種觀賞棕櫚，其果肉與果仁提供類胡蘿蔔素、多酚、生育酚與中鏈脂質——是經過研究的、對抗脂質過氧化的親脂性防護膳食來源。",
           "created": "2026-09-23",
-          "updated": "2026-09-23",
+          "updated": "2026-09-26",
           "tags": [
             "oxidative-stress",
             "plant",
@@ -3815,9 +4113,9 @@
         },
         "zh-TW": {
           "title": "維生素E",
-          "description": "維生素 E 是一組八種脂溶性化合物的總稱，包含四種生育酚（tocopherols）與四種生育三烯酚（tocotrienols）。它是一種強效的抗氧化劑。",
+          "description": "維生素E是一組包含四種生育酚與四種生育三烯酚的八種脂溶性化合物。它作為強效的抗氧化劑。",
           "created": "2026-05-29",
-          "updated": "2026-09-24",
+          "updated": "2026-09-26",
           "tags": [
             "chemical-compound"
           ],
@@ -5562,10 +5860,12 @@
         },
         "zh-TW": {
           "title": "抗氧化劑",
-          "description": "Antioxidants 是與 Adrenochrome 及兒茶酚胺代謝相關的概念。",
-          "created": "2026-05-29",
-          "updated": "2026-09-23",
+          "description": "抗氧化劑是在生物系統中抑制氧化並中和活性氧的物質，可保護細胞、組織與脂蛋白免受氧化性損傷；是對抗動脈粥狀硬化、老化與年齡相關疾病的主要防線。",
+          "created": "2024-01-01",
+          "updated": "2026-08-16",
           "tags": [
+            "pharmacological-action",
+            "scientific-concept",
             "chemical-compound",
             "antioxidant"
           ],

@@ -14,11 +14,11 @@
 | [epigenetics](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]] | 04_OCT_2026 | 8 | 225 | 207,456 | 2.23 MB |
 | [hormesis](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/hormesis) [[src/notes/hormesis/README\|wiki]] | 01_OCT_2026 | 7 | 16 | 69,145 | 0.63 MB |
 | [neuromelanin](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/neuromelanin) [[src/notes/neuromelanin/README\|wiki]] | 01_OCT_2026 | 2 | 91 | 64,364 | 0.80 MB |
-| [oxidative-stress](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/oxidative-stress) [[src/notes/oxidative-stress/README\|wiki]] | 02_OCT_2026 | 1 | 104 | 90,798 | 1.15 MB |
+| [oxidative-stress](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/oxidative-stress) [[src/notes/oxidative-stress/README\|wiki]] | 02_OCT_2026 | 1 | 104 | 90,802 | 1.15 MB |
 | [senescence](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 02_OCT_2026 | 16 | 66 | 156,813 | 2.24 MB |
 | [sirtuins](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 02_OCT_2026 | 20 | 173 | 314,605 | 3.98 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 04_OCT_2026 | **142** | **3633** | **3,166,616** | **38.28 MB** |
+| **subtotal** | 04_OCT_2026 | **142** | **3633** | **3,166,620** | **38.28 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***
@@ -272,7 +272,7 @@ Build: 02_OCT_2026 · hash `3d9d2c9fe214c0d2`
 <details>
 <summary><strong>Tasks (125 total)</strong> — click to expand</summary>
 
-- [task_output_eryptosis_review_vs_cell_death_01_Oct_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md) [[src/tasks/task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md|wiki]] (01_OCT_2026 09:17 PM PDT)
+- [task_output_eryptosis_review_vs_cell_death_01_Oct_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md) [[src/tasks/task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md|wiki]] (04_OCT_2026 01:21 PM PDT)
 - [task_output_bioactive_compounds_aging_formulations_17_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_bioactive_compounds_aging_formulations_17_Sep_2026.md) [[src/tasks/task_output_bioactive_compounds_aging_formulations_17_Sep_2026.md|wiki]] (29_SEP_2026 05:23 PM PDT)
 - [task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md) [[src/tasks/task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md|wiki]] (29_SEP_2026 11:00 AM PDT)
 - [`adrenochrome_mb_ag/` outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md) [[src/tasks/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md|wiki]] (29_SEP_2026 10:48 AM PDT)

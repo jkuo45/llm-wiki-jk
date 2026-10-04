@@ -19,7 +19,7 @@ aliases: [Eryptotic cell death, Suicidal erythrocyte death]
 各種觸發因素皆匯聚於細胞質 Ca2+ 濃度上升：氧化壓力、滲透休克、能量耗竭（ATP 流失使 Ca2+ 外排能力受損），以及[[Ceramide|神經醯胺]]累積。Ca2+ 會活化 calpain 蛋白酶與 scramblase，同時抑制 flippase，使 PS 外移——即 Annexin V 陽性的「eat-me」訊號。紅血球中雖存在 caspase，但並非必需，因此 eryptosis 被歸類為 caspase 不依賴性。
 
 > [!info] 觸發因素
-> 氧化壓力、高滲透壓休克、葡萄糖／ATP 耗竭、[[Ceramide|神經醯胺]]、[[前列腺素 E2]]，以及異生物質。病理性情境包括[[Chronic Kidney Disease|慢性腎臟病]]、[[Sepsis|敗血症]]、糖尿病與溶血性貧血。
+> 氧化壓力、高滲透壓休克、葡萄糖／ATP 耗竭、[[Ceramide|神經醯胺]]、[[Prostaglandin E2|前列腺素 E2]]，以及異生物質。病理性情境包括[[Chronic Kidney Disease|慢性腎臟病]]、[[Sepsis|敗血症]]、糖尿病與溶血性貧血。
 
 ## 偵測與阻斷
 
