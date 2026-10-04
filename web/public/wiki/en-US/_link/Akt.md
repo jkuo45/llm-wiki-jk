@@ -92,6 +92,6 @@ List of documents that mention this entity
 - [[Apoptosis]]: Akt suppresses apoptosis through XIAP stabilization and Caspase-9 phosphorylation.
 
 ## Linking Summary
-- New links added: [[TFEB]], [[14-3-3 protein]], [[PI3K]], [[Target of rapamycin]], [[FOXO]], [[IGF1]], [[Autophagy]], [[mTORC1]], [[FoxO1]], [[FOXO3a]], [[Cancer]], [[mTORC2]], [[Incoherent Bivalent Motif]], [[Biphasic Dose-Response Curve]], [[IRS1]]
+- New links added: [[TFEB]], [[14-3-3 protein]], [[PI3K]], [[mTOR]], [[FOXO]], [[IGF1]], [[Autophagy]], [[mTORC1]], [[FoxO1]], [[FOXO3a]], [[Cancer]], [[mTORC2]], [[Incoherent Bivalent Motif]], [[Biphasic Dose-Response Curve]], [[IRS1]]
 - Suggested new entity notes to create: [[PI3K-Akt Signaling]], [[PI3K]], [[IGF1]], [[mTORC1]], [[FoxO1]], [[FOXO3a]]
   - Strong connections to strengthen: [[Akt]] ↔ [[TFEB]], [[Akt]] ↔ Target of rapamycin, [[Akt]] ↔ [[FOXO]], [[Akt]] ↔ [[PI3K]], [[Akt]] ↔ [[mTORC1]], [[Akt]] ↔ Autophagy

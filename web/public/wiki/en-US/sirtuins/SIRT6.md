@@ -12,6 +12,9 @@ tags:
   - nuclear-sirtuin-6
   - sirt6-adp-ribosyl-transferase
   - sirt6-adp-ribosyl-transferase
+aliases:
+  - Sirtuin 6
+  - SIRT6
 protected: true
 ---
 
@@ -289,7 +292,7 @@ List of documents that mention this entity
   - [[_document_ - centenarian_SIRT6 nihpp-rs9997679v1|Centenarian SIRT6 Variants Study]]
     - Demonstrates that centenarian SIRT6 variants (N308K/A313S) elevate endogenous SIRT6 protein via weakened vimentin interaction, alter enzymatic activities (enhanced mADPr, reduced deacetylase), delay replicative senescence, and protect against progerin-induced stress. AAV-CentSIRT6 and Fucoidan-FV reduce LINE1 in HGPS fibroblasts.
 
-  - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
+  - [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]]
     - Review notes SIRT6 is enriched at the 5′UTR of LINE-1 loci where it mono-ADP-ribosylates KAP1 to promote HP1α-mediated heterochromatinization; senescence-associated SIRT6 loss derepresses LINE-1, fueling cGAS–STING–driven SASP and inflammaging.
 
   - [[_document_ - relocalization of sirtuins - chromatin modifiers, grok|The Relocalization of Chromatin Modifiers (RCM) Hypothesis]]

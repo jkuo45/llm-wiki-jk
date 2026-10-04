@@ -1,70 +1,70 @@
 # Triples vs Wiki Graph Diff
 
 - Triples graph: `/Users/johnnykuo/Projects/llm-wiki-jk/graphify-out/graph.json` (3493 nodes, 6605 edges)
-- Wiki graph:    `/Users/johnnykuo/Projects/llm-wiki-jk/wiki-out/graph.json` (3185 nodes, 37999 edges)
+- Wiki graph:    `/Users/johnnykuo/Projects/llm-wiki-jk/wiki-out/graph.json` (3486 nodes, 44994 edges)
 
 ## Node overlap
 
-- **Shared** (in both): 2139
-- **Wiki-only** (linked, no triple): 1046
-- **Triples-only** (triple, no wikilink): 1354
+- **Shared** (in both): 2158
+- **Wiki-only** (linked, no triple): 1328
+- **Triples-only** (triple, no wikilink): 1335
 
 ## Edge overlap
 
-- Overlap is classified by (source, target) pair, relation-agnostic. Unique pairs: triples 6285 / wiki 37999 — the triples graph carries 6605 links over 6285 pairs (320 parallel-relation links preserved by the MultiDiGraph rebuild).
+- Overlap is classified by (source, target) pair, relation-agnostic. Unique pairs: triples 6285 / wiki 44994 — the triples graph carries 6605 links over 6285 pairs (320 parallel-relation links preserved by the MultiDiGraph rebuild).
 
-- **Wiki-only pairs** (under-extracted triples / curation gaps): 34655
-- **Triples-only pairs** (not surfaced as a wikilink): 2941
+- **Wiki-only pairs** (under-extracted triples / curation gaps): 41640
+- **Triples-only pairs** (not surfaced as a wikilink): 2931
 
 ## Top 20 wiki-only nodes (linked but absent from triples)
 
 | Node | Degree |
 | --- | --- |
-| Macrophage | 76 |
-| Endothelial Cells | 69 |
-| Fibroblast | 69 |
-| Glutathione Peroxidase 4 | 68 |
-| Epigenetics and aging | 66 |
-| Histone Variant | 64 |
-| Citric Acid Cycle | 59 |
-| Unfolded Protein Response | 58 |
-| PARK2 | 55 |
-| Caenorhabditis elegans | 55 |
-| MMP-12 | 55 |
-| Atg1 | 53 |
-| ALS | 50 |
-| Immunity | 50 |
-| Cardiomyocyte Toxicity | 49 |
-| Muscle | 48 |
-| Fat Oxidation | 47 |
-| Caspase-8-c-FLIP Rheostat | 45 |
-| Insulin | 45 |
-| Retrograde Response | 44 |
+| Macrophage | 93 |
+| Endothelial Cells | 77 |
+| Chronic Inflammation | 72 |
+| Fibroblast | 71 |
+| Histone Variant | 70 |
+| Epigenetics and aging | 67 |
+| NAFLD | 65 |
+| Kidney Diseases | 65 |
+| Cell Signaling | 63 |
+| Unfolded Protein Response | 63 |
+| Citric Acid Cycle | 63 |
+| Caenorhabditis elegans | 59 |
+| Insulin | 58 |
+| MMP-12 | 56 |
+| Atg1 | 56 |
+| Cardiomyocyte Toxicity | 55 |
+| Muscle | 54 |
+| MET | 54 |
+| Immunity | 53 |
+| Hypertension | 53 |
 
 ## Top 20 triples-only nodes (triple but no wikilink)
 
 | Node | Degree |
 | --- | --- |
 | Adrenochrome formation | 11 |
+| Ascorbic Acid | 10 |
 | Females | 9 |
+| Antioxidants | 7 |
 | NF-kB | 5 |
+| p21 | 5 |
 | CDK4 | 5 |
 | Sodium Chloride | 5 |
-| p21 | 5 |
-| JAK-STAT3 | 4 |
+| CDK6 | 4 |
 | slow COMT | 4 |
-| COMT Val158 allele | 4 |
 | Biphasic Dose Response | 4 |
+| JAK-STAT3 | 4 |
+| Physical Activity | 4 |
+| SIRT1 and SIRT2 | 4 |
+| COMT Val158 allele | 4 |
 | SIRT3 deficiency | 4 |
 | Mice | 4 |
-| CDK6 | 4 |
-| SIRT1 and SIRT2 | 4 |
-| Physical Activity | 4 |
-| TLR2/6 | 3 |
 | anti-inflammatory properties | 3 |
-| Alkylating agent | 3 |
-| S6K1/2 | 3 |
-| PI3K/Akt | 3 |
+| Advanced Glycation End Products formation | 3 |
+| H3K9 | 3 |
 
 ## Top 20 wiki-only edges (suggest extracting as triples)
 
@@ -72,7 +72,7 @@
 | --- | --- | --- |
 | Zscan4 | SASP | 1.0 |
 | Zscan4 | PRDX6 | 1.0 |
-| Zscan4 | HSPA8 | 1.0 |
+| Zscan4 | HSC70 | 1.0 |
 | Zscan4 | Apigenin | 1.0 |
 | Zscan4 | Acute Stress-Associated Phenotype | 1.0 |
 | Zone 2 Cardio | Mitochondria | 1.0 |

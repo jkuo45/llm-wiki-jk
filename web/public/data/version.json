@@ -1,21 +1,22 @@
 {
-  "generated": "2026-09-18 22:28:53",
-  "hash": "249b929d5ee50a9f",
+  "generated": "2026-10-02 08:49:47",
+  "hash": "3d9d2c9fe214c0d2",
   "datasets": {
     "triples": {
       "nodes": 3493,
       "edges": 6605
     },
     "wiki": {
-      "nodes": 3185,
-      "edges": 37999
+      "nodes": 3486,
+      "edges": 44994
     },
     "combined": {
-      "nodes": 4539,
-      "edges": 40940
+      "nodes": 4821,
+      "edges": 47925
     }
   },
   "files": [
+    "articles-stats.json",
     "articles.json",
     "celltype-sex-zh.json",
     "celltype-sex.json",
@@ -49,6 +50,7 @@
     "wiki-link-prediction.json",
     "wiki-node_roles.json",
     "wiki-nodes.json",
-    "wiki-roles-meta.json"
+    "wiki-roles-meta.json",
+    "wiki.json"
   ]
 }
