@@ -1,5 +1,5 @@
 {
-  "generated": "02_OCT_2026 08:05 AM PDT",
+  "generated": "04_OCT_2026 01:17 PM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -29,9 +29,9 @@
       "langs": {
         "en-US": {
           "title": "Eryptosis 2025 — mechanistic update, how it differs from other cell death programs, and review points for cell-death-comparison.html",
-          "description": "Draft summary/outline of Tkachenko et al. 2025 (Cell Death Dis 16:467) focused on eryptosis's distinct signalling, what is new since the 2005-2010 era, and concrete corrections to the eryptosis row on the cell-death comparison page.",
+          "description": "Draft summary/outline of Tkachenko et al. 2025 (Cell Death Dis 16:467) focused on eryptosis's distinct signalling, what is new since the 2001-2010 literature, and concrete corrections to the eryptosis row on the cell-death comparison page.",
           "created": "2026-10-01",
-          "updated": "2026-10-01",
+          "updated": "2026-10-04",
           "tags": [
             "cell-death",
             "eryptosis",
@@ -47,9 +47,9 @@
         },
         "zh-TW": {
           "title": "紅血球凋亡（eryptosis）2025 — 機制更新、與其他細胞死亡程式的差異，以及 cell-death-comparison.html 的審查要點",
-          "description": "Tkachenko 等人 2025（Cell Death Dis 16:467）的摘要大綱草案，聚焦於 eryptosis 獨特的訊號傳遞、相較 2005–2010 年代的新進展，以及對細胞死亡比較頁面 eryptosis 列的具體修正建議。",
+          "description": "Tkachenko 等人 2025（Cell Death Dis 16:467）的摘要大綱草案，聚焦於 eryptosis 獨特的訊號傳遞、相較 2001–2010 年文獻的新進展，以及對細胞死亡比較頁面 eryptosis 列的具體修正建議。",
           "created": "2026-10-01",
-          "updated": "2026-10-01",
+          "updated": "2026-10-04",
           "tags": [
             "cell-death",
             "eryptosis",
@@ -65,7 +65,7 @@
         }
       },
       "stats": {
-        "words": 4489,
+        "words": 4569,
         "images": 7,
         "links": 5,
         "diagrams": 1

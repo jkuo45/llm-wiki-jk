@@ -5,20 +5,20 @@
 <!-- GENERATED: summary_table -->
 | topic | updated | documents | entities | words | disk |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 02_OCT_2026 | 33 | 2029 | 1,433,899 | 17.70 MB |
-| [adrenochrome](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 01_OCT_2026 | 19 | 257 | 201,126 | 2.65 MB |
-| [autophagy](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 02_OCT_2026 | 12 | 231 | 184,613 | 1.71 MB |
-| [cancer](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 02_OCT_2026 | 11 | 280 | 253,679 | 2.96 MB |
-| [cell-death](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cell-death) [[src/notes/cell-death/README\|wiki]] | 02_OCT_2026 | 11 | 87 | 138,673 | 1.52 MB |
+| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 04_OCT_2026 | 33 | 2046 | 1,447,073 | 17.80 MB |
+| [adrenochrome](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 02_OCT_2026 | 19 | 258 | 201,872 | 2.65 MB |
+| [autophagy](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 04_OCT_2026 | 12 | 234 | 187,217 | 1.73 MB |
+| [cancer](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 04_OCT_2026 | 11 | 286 | 258,502 | 2.99 MB |
+| [cell-death](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cell-death) [[src/notes/cell-death/README\|wiki]] | 04_OCT_2026 | 11 | 89 | 140,565 | 1.53 MB |
 | [comt](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/comt) [[src/notes/comt/README\|wiki]] | 01_OCT_2026 | 2 | 45 | 28,206 | 0.54 MB |
-| [epigenetics](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]] | 02_OCT_2026 | 8 | 218 | 201,867 | 2.19 MB |
+| [epigenetics](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]] | 04_OCT_2026 | 8 | 225 | 207,456 | 2.23 MB |
 | [hormesis](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/hormesis) [[src/notes/hormesis/README\|wiki]] | 01_OCT_2026 | 7 | 16 | 69,145 | 0.63 MB |
 | [neuromelanin](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/neuromelanin) [[src/notes/neuromelanin/README\|wiki]] | 01_OCT_2026 | 2 | 91 | 64,364 | 0.80 MB |
 | [oxidative-stress](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/oxidative-stress) [[src/notes/oxidative-stress/README\|wiki]] | 02_OCT_2026 | 1 | 104 | 90,798 | 1.15 MB |
 | [senescence](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 02_OCT_2026 | 16 | 66 | 156,813 | 2.24 MB |
-| [sirtuins](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 02_OCT_2026 | 20 | 173 | 314,600 | 3.98 MB |
+| [sirtuins](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 02_OCT_2026 | 20 | 173 | 314,605 | 3.98 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 02_OCT_2026 | **142** | **3597** | **3,137,783** | **38.07 MB** |
+| **subtotal** | 04_OCT_2026 | **142** | **3633** | **3,166,616** | **38.28 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***
@@ -30,15 +30,15 @@
 >
 > **Combined Merge**
 >
-> The combined dataset is the union of the triples and wiki graphs, deduplicated by canonical id (`norm(label)`). 2,139 entities appear in both sources (3,493 triples + 3,185 wiki − 2,139 shared → 4,539); edges are unioned by (`from`, `to`) pair — 3,344 edge pairs are shared, and an edge present in both graphs is emitted once with both sources recorded.
+> The combined dataset is the union of the triples and wiki graphs, deduplicated by canonical id (`norm(label)`). 2,158 entities appear in both sources (3,493 triples + 3,486 wiki − 2,158 shared → 4,821); edges are unioned by (`from`, `to`) pair — 3,354 edge pairs are shared, and an edge present in both graphs is emitted once with both sources recorded.
 
 | Dataset | `web/public/data/` files | Nodes | Edges |
 | :--- | :--- | ---: | ---: |
-| **Combined** *(default)* | `nodes.json, edges.json, legend.json, graph-meta.json, node_roles.json, roles-meta.json` | 4,539 | 40,940 |
+| **Combined** *(default)* | `nodes.json, edges.json, legend.json, graph-meta.json, node_roles.json, roles-meta.json` | 4,821 | 47,925 |
 | **Triples** | `triples-*.json` | 3,493 | 6,605 |
-| **Wiki** | `wiki-*.json` | 3,185 | 37,999 |
+| **Wiki** | `wiki-*.json` | 3,486 | 44,994 |
 
-Build: 18_SEP_2026 · hash `249b929d5ee50a9f`
+Build: 02_OCT_2026 · hash `3d9d2c9fe214c0d2`
 <!-- END GENERATED: graph_datasets -->
 
 ## 📝 Updates
