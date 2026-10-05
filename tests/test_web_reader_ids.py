@@ -687,7 +687,10 @@ class TestMdViewerModuleParses:
         assert not dupes, f"double-declared identifiers: {sorted(dupes)}"
 
 
-class TestMdViewerEmbed:
+class TestMdViewerCanonical:
+    # Embed mode was deliberately removed (option A): ?embed=1 belongs to the
+    # ten animation pages the comparison page iframes. Nothing embeds notes,
+    # so md-viewer keeps only rel=canonical — one stable URL per note.
     @pytest.fixture(scope="class")
     def viewer(self):
         p = Path("web/public/pages/md-viewer.html")
@@ -695,18 +698,9 @@ class TestMdViewerEmbed:
             pytest.skip("md-viewer.html not present")
         return p.read_text(encoding="utf-8")
 
-    def test_honours_embed_query_param(self, viewer):
-        assert "is-embed" in viewer
-        assert re.search(r"has\(['\"]embed['\"]\)", viewer), "no ?embed= detection"
-
-    def test_embed_hides_the_nav(self, viewer):
-        assert re.search(r"body\.is-embed\s+nav\s*\{[^}]*display:\s*none", viewer), \
-            "embed mode must hide the nav chrome"
-
     def test_declares_a_canonical_link(self, viewer):
         assert 'rel="canonical"' in viewer
 
-    def test_offers_an_embed_link_outside_embed_mode(self, viewer):
-        assert 'id="embedlink"' in viewer
-        assert re.search(r"body\.is-embed\s+#embedlink\s*\{[^}]*display:\s*none", viewer), \
-            "the embed link must hide itself while embedded"
+    def test_has_no_embed_mode(self, viewer):
+        assert "is-embed" not in viewer, "embed mode was removed"
+        assert 'id="embedlink"' not in viewer, "embed link was removed"

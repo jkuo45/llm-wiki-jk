@@ -82,12 +82,7 @@
 .md-body figure { margin:16px 0; }
 .md-body figure img { display:block; }
 .md-body figcaption { color:var(--dim); font-size:.85rem; margin-top:6px; line-height:1.45; }
- /* Embed mode (?embed=1): chrome-free iframe version, mirroring the
-     standalone animation pages (pages/en-US/*.html). */
-  body.is-embed nav { display:none; }
-  #embedlink { margin-left:auto; font-size:.85rem; color:var(--teal); text-decoration:none; white-space:nowrap; }
-  body.is-embed #embedlink { display:none; }
-  a.wikilink { color:var(--teal); text-decoration:none; border-bottom:1px dashed color-mix(in srgb, var(--teal) 55%, transparent); }
+ a.wikilink { color:var(--teal); text-decoration:none; border-bottom:1px dashed color-mix(in srgb, var(--teal) 55%, transparent); }
  span.wikilink { color:var(--dim); border-bottom:1px dashed var(--line2); }
 /* Entities backed by a graphify-out/graph.json description get a hover tooltip + click-to-expand
    modal, mirroring the reader/prompt panel behaviour. */
@@ -151,7 +146,6 @@
     <a id="back-index" class="back-home" href="#" title="Back to index / 返回索引">&#8592; Back</a>
     <select id="toc-select" class="toc-select" aria-label="Jump to section"></select>
     <button id="toc-next" class="toc-next" type="button" title="Next note">Next &#8594;</button>
-    <a id="embedlink" href="#" title="Minimal iframe version">embed</a>
   </div>
 </nav>
 
@@ -220,12 +214,6 @@ const KIND = _fromSrc
   : (_fromPath ? _fromPath.kind : 'task');
 const src = _fromSrc || (_fromPath ? _fromPath.src : null);
 const IS_WIKI = KIND === 'wiki';
-// Embed mode: `?embed=1` strips the nav so the note can be dropped into an
-// iframe. Set from the query on load (like the animation pages) and toggled by
-// the nav's own embed link, which is hidden while embedded.
-const EMBED = new URLSearchParams(location.search).has('embed');
-document.body.classList.toggle('is-embed', EMBED);
-
 const backIndex = document.getElementById('back-index');
 // Root-absolute for the same reason as the stylesheets above: this shell is
 // also served from /wiki|/tasks pretty paths, where a bare relative href would
@@ -235,9 +223,9 @@ const backIndex = document.getElementById('back-index');
 // open-in-new-tab case), Back returns to the app's reader with this source's
 // tab selected, landing the user back in the Articles / Task Outputs / Wiki
 // tab bar: /#reader=wiki/wiki-index or /#reader=task/tasks-index. Framed
-// (inside the reader modal, or a cross-origin ?embed=1 iframe), a top-level
-// navigation would yank the user out of the graph — or be blocked outright —
-// so Back stays in-frame on the same source's standalone index page instead.
+// (inside the reader modal), a top-level navigation would yank the user out
+// of the graph, so Back stays in-frame on the same source's standalone index
+// page instead.
 let inReaderFrame = true;
 try { inReaderFrame = window.top !== window; } catch (_) { inReaderFrame = true; }
 if (inReaderFrame) {
@@ -431,32 +419,18 @@ function structureSections(container) {
   return Array.from(container.querySelectorAll(':scope > section'));
 }
 
-// Canonical + embed URLs for this note. The pretty path is the one served by
+// Canonical URL for this note. The pretty path is the one served by
 // the _redirects rule (/wiki/<lang>/<topic>/<Note> → this viewer), so it is
 // both the shareable/bookmarkable link and what search engines should index —
 // the ?src= form is an implementation detail of the reader iframe.
+// (No ?embed=1 here: embed mode belongs to the ten animation pages, which the
+// comparison page iframes. Nothing embeds notes, so there is no embed link.)
 if (src) {
   // safeSrc() already returns "/wiki/…"; strip the leading slash and the .md
   // to recover the pretty path (/wiki/en-US/cell-death/Eryptosis).
   const clean = src.replace(/^\//, '').replace(/\.md$/, '');
   const pretty = new URL('/' + clean, location.origin).href;
   document.getElementById('canonical').href = pretty;
-  // Keep an already-open ?embed=1 when navigating sections.
-  const embedHref = pretty + (EMBED ? '?embed=1' : '');
-  const link = document.getElementById('embedlink');
-  link.href = embedHref;
-  link.addEventListener('click', (e) => {
-    e.preventDefault();
-    const on = !document.body.classList.contains('is-embed');
-    document.body.classList.toggle('is-embed', on);
-    try {
-      history.replaceState(null, '', on ? pretty + '?embed=1' : pretty);
-    } catch (_) { location.href = on ? embedHref : pretty; }
-  });
-  addEventListener('popstate', () => {
-    document.body.classList.toggle('is-embed',
-      new URLSearchParams(location.search).has('embed'));
-  });
 }
 
 if (!src) {
