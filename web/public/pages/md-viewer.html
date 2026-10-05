@@ -2,9 +2,20 @@
   Generic standalone markdown viewer, shared by the reader's Task Outputs and
   Wiki Notes tabs. Fetch a single raw .md file (tasks/… or wiki/…) at its
   serving location under web/public/ and render it with the same renderer the
-  app uses (../components/markdown.js). `?src=` is the page-relative markdown
-  path; `?kind=task|wiki` picks the registry, back-link, and Next button
+  app uses (/components/markdown.js). `?src=` is the markdown path, either
+  "/wiki/…" (canonical) or "../wiki/…" (as the reader iframe writes it);
+  `?kind=task|wiki` picks the registry, back-link, and Next button
   (tasks-index.html / wiki-index.html + tasks.json / wiki.json).
+
+  Every reference in here is ROOT-ABSOLUTE, and that is load-bearing: the same
+  document is also served through the pretty note URLs
+  (/wiki/en-US/cell-death/Eryptosis → this shell, via public/_redirects). The
+  browser's base URL is then the note path, so a relative "themes/…" or
+  "../components/markdown.js" resolves under /wiki/…, 404s, and gets the SPA
+  shell back as text/html — which surfaces as a JS syntax error in a
+  stylesheet-adjacent <script> and "Failed to load module script: … MIME type
+  of text/html" for the module import. Themes live under public/pages/themes/,
+  hence the /pages/… prefix (not /themes/…).
 
   Entity descriptions shown on hover are sourced from the canonical knowledge
   graph web/public/data/nodes.json — build of the active dataset. The backend
@@ -16,10 +27,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Markdown Note</title>
+<!-- Rewritten once the note is known (see setCanonical below): /wiki/<lang>/<topic>/<Note> -->
+<link rel="canonical" id="canonical" href="">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
-<link rel="stylesheet" href="themes/theme-01/pages.css">
-<script src="themes/theme-01/page-theme.js"></script>
-<script src="themes/shared/nav-auto-hide.js"></script>
+<link rel="stylesheet" href="/pages/themes/theme-01/pages.css">
+<script src="/pages/themes/theme-01/page-theme.js"></script>
+<script src="/pages/themes/shared/nav-auto-hide.js"></script>
 <style>
 /* Task/entity-output specific rendering (callouts, wiki links, tables) layered
    on top of the shared article stylesheet. */
@@ -69,7 +82,12 @@
 .md-body figure { margin:16px 0; }
 .md-body figure img { display:block; }
 .md-body figcaption { color:var(--dim); font-size:.85rem; margin-top:6px; line-height:1.45; }
- a.wikilink { color:var(--teal); text-decoration:none; border-bottom:1px dashed color-mix(in srgb, var(--teal) 55%, transparent); }
+ /* Embed mode (?embed=1): chrome-free iframe version, mirroring the
+     standalone animation pages (pages/en-US/*.html). */
+  body.is-embed nav { display:none; }
+  #embedlink { margin-left:auto; font-size:.85rem; color:var(--teal); text-decoration:none; white-space:nowrap; }
+  body.is-embed #embedlink { display:none; }
+  a.wikilink { color:var(--teal); text-decoration:none; border-bottom:1px dashed color-mix(in srgb, var(--teal) 55%, transparent); }
  span.wikilink { color:var(--dim); border-bottom:1px dashed var(--line2); }
 /* Entities backed by a graphify-out/graph.json description get a hover tooltip + click-to-expand
    modal, mirroring the reader/prompt panel behaviour. */
@@ -133,6 +151,7 @@
     <a id="back-index" class="back-home" href="#" title="Back to index / 返回索引">&#8592; Back</a>
     <select id="toc-select" class="toc-select" aria-label="Jump to section"></select>
     <button id="toc-next" class="toc-next" type="button" title="Next note">Next &#8594;</button>
+    <a id="embedlink" href="#" title="Minimal iframe version">embed</a>
   </div>
 </nav>
 
@@ -141,36 +160,100 @@
 </div>
 
 <script type="module">
-import { renderMarkdown, esc, wikiExcerpt, enhanceMermaid } from '../components/markdown.js';
+// Root-absolute, not '../components/…': this document is also served through
+// the pretty note URLs (/wiki/en-US/cell-death/Eryptosis → this shell via
+// _redirects), where the browser's base URL is the note path, so any relative
+// specifier would resolve under /wiki/… and 404 into the SPA shell — surfacing
+// as "Failed to load module script: … MIME type of text/html".
+import { renderMarkdown, esc, wikiExcerpt, enhanceMermaid } from '/components/markdown.js';
 
 const GITHUB_BASE = 'https://github.com/jkuo45/llm-wiki-jk/blob/dev/';
 
-// Which registry + back-link to use: `?kind=wiki` serves the wiki feed,
-// anything else falls back to task outputs (legacy links have no kind param).
-const KIND = new URLSearchParams(location.search).get('kind') === 'wiki' ? 'wiki' : 'task';
-const IS_WIKI = KIND === 'wiki';
-const backIndex = document.getElementById('back-index');
-backIndex.href = IS_WIKI ? 'wiki-index.html' : 'tasks-index.html';
-backIndex.title = IS_WIKI
-  ? 'Back to wiki notes index / 返回 Wiki 筆記索引'
-  : 'Back to task outputs index / 返回任務輸出索引';
-document.title = IS_WIKI ? 'Wiki Note' : 'Task Output';
-
-// Only files under tasks/ or wiki/ may be loaded through this viewer.
-function safeSrc() {
-  const raw = new URLSearchParams(location.search).get('src') || '';
-  const decoded = decodeURIComponent(raw);
-  // Optional "../" prefix (page-relative). Allow nested subdirectories
+// Which note to render, and from which registry. Two channels, in order:
+//   1. `?src=` — the reader iframe and direct `?src=` links write it.
+//   2. The pathname itself — the pretty note URLs (/wiki/… /tasks/…, served
+//      via _redirects as a 200 rewrite). A rewrite is server-internal: the
+//      browser URL stays `/wiki/…`, so the rewrite target's `?kind=&src=`
+//      NEVER reaches location.search. The pathname is the only channel the
+//      shell can read, and KIND must come from it too (the browser query
+//      carries no `kind` on a pretty URL).
+function safeSrc(raw) {
+  const decoded = safeDecodeParam(raw || '');
+  // Optional "../" (reader iframe) or "/" prefix. Allow nested subdirectories
   // (e.g. tasks/en-US/<task>/file.md) but no traversal (".." segments), no
   // backslashes, no empty segments.
-  const m = decoded.match(/^(?:\.\.\/)?((?:tasks|wiki)\/.+)$/);
+  const m = decoded.match(/^(?:\.\.\/|\/)?((?:tasks|wiki)\/.+)$/);
   if (!m) return null;
   const segs = m[1].split('/');
   const ok = segs.length >= 2 &&
     segs.every((s) => s && s !== '.' && s !== '..' && !s.includes('\\')) &&
     /\.(?:md|markdown)$/.test(segs[segs.length - 1]);
-  return ok ? '../' + m[1] : null;
+  // Returned root-absolute ("/wiki/…"), not "../wiki/…": the fetch must resolve
+  // the same whether this shell was reached at /pages/md-viewer.html or through
+  // a pretty note URL. Both "../x" and "/x" inputs are accepted above.
+  return ok ? '/' + m[1] : null;
 }
+
+// decodeURIComponent throws on a malformed sequence; a bad ?src= must show the
+// error page, not kill the whole module.
+function safeDecodeParam(s) {
+  try { return decodeURIComponent(s); } catch (_) { return s; }
+}
+
+// Pretty-path fallback: /wiki/en-US/cell-death/Eryptosis →
+// { kind: 'wiki', src: '/wiki/en-US/cell-death/Eryptosis.md' }.
+// Returns null for anything that is not a note path (including this shell's
+// own /pages/… URL and the raw .md files, which never reach this script).
+function noteFromPathname() {
+  const m = location.pathname.match(/^\/(wiki|tasks)\/(.+)$/);
+  if (!m || m[2].endsWith('.md') || m[2].endsWith('.html')) return null;
+  const src = safeSrc('/' + m[1] + '/' + m[2] + '.md');
+  if (!src) return null;
+  return { kind: m[1] === 'wiki' ? 'wiki' : 'task', src };
+}
+
+const _query = new URLSearchParams(location.search);
+const _fromSrc = safeSrc(_query.get('src'));
+const _fromPath = _fromSrc ? null : noteFromPathname();
+const KIND = _fromSrc
+  ? (_query.get('kind') === 'wiki' ? 'wiki' : 'task')
+  : (_fromPath ? _fromPath.kind : 'task');
+const src = _fromSrc || (_fromPath ? _fromPath.src : null);
+const IS_WIKI = KIND === 'wiki';
+// Embed mode: `?embed=1` strips the nav so the note can be dropped into an
+// iframe. Set from the query on load (like the animation pages) and toggled by
+// the nav's own embed link, which is hidden while embedded.
+const EMBED = new URLSearchParams(location.search).has('embed');
+document.body.classList.toggle('is-embed', EMBED);
+
+const backIndex = document.getElementById('back-index');
+// Root-absolute for the same reason as the stylesheets above: this shell is
+// also served from /wiki|/tasks pretty paths, where a bare relative href would
+// point at /wiki/en-US/cell-death/wiki-index.html.
+//
+// Destination depends on context. Standalone in its own tab (the
+// open-in-new-tab case), Back returns to the app's reader with this source's
+// tab selected, landing the user back in the Articles / Task Outputs / Wiki
+// tab bar: /#reader=wiki/wiki-index or /#reader=task/tasks-index. Framed
+// (inside the reader modal, or a cross-origin ?embed=1 iframe), a top-level
+// navigation would yank the user out of the graph — or be blocked outright —
+// so Back stays in-frame on the same source's standalone index page instead.
+let inReaderFrame = true;
+try { inReaderFrame = window.top !== window; } catch (_) { inReaderFrame = true; }
+if (inReaderFrame) {
+  backIndex.href = IS_WIKI ? '/pages/wiki-index.html' : '/pages/tasks-index.html';
+} else {
+  backIndex.href = '/#reader=' + (IS_WIKI ? 'wiki/wiki-index' : 'task/tasks-index');
+}
+backIndex.title = IS_WIKI
+  ? 'Back to reader (Wiki tab) / 返回閱讀器（Wiki）'
+  : 'Back to reader (Task Outputs tab) / 返回閱讀器（任務輸出）';
+document.title = IS_WIKI ? 'Wiki Note' : 'Task Output';
+
+// Only files under tasks/ or wiki/ may be loaded through this viewer.
+// (The implementation lives in safeSrc(raw) above; this comment marks the
+// security boundary: nested subdirectories are allowed, but no traversal
+// (".." segments), no backslashes, no empty segments, .md only.)
 
 function stripFrontmatter(text) {
   return text.replace(/^---\s*\n[\s\S]*?\n---\s*\n/, '');
@@ -181,7 +264,7 @@ function stripFrontmatter(text) {
 async function loadWikiResolver() {
   let byBase = new Map();
   try {
-    const resp = await fetch('../data/manifest.json');
+    const resp = await fetch('/data/manifest.json');
     if (resp.ok) {
       const manifest = await resp.json();
       Object.keys(manifest).forEach((p) => {
@@ -205,7 +288,7 @@ async function loadEntityDescriptions() {
   try {
     // No ?v= cache-buster: the SPA already fingerprints data files via
     // version.json, and a 4.9 MB re-download on every note view is not free.
-    const resp = await fetch('../data/nodes.json');
+    const resp = await fetch('/data/nodes.json');
     const g = await resp.json();
     (Array.isArray(g) ? g : (g.nodes || [])).forEach((n) => {
       if (!n.description) return;
@@ -348,7 +431,33 @@ function structureSections(container) {
   return Array.from(container.querySelectorAll(':scope > section'));
 }
 
-const src = safeSrc();
+// Canonical + embed URLs for this note. The pretty path is the one served by
+// the _redirects rule (/wiki/<lang>/<topic>/<Note> → this viewer), so it is
+// both the shareable/bookmarkable link and what search engines should index —
+// the ?src= form is an implementation detail of the reader iframe.
+if (src) {
+  // safeSrc() already returns "/wiki/…"; strip the leading slash and the .md
+  // to recover the pretty path (/wiki/en-US/cell-death/Eryptosis).
+  const clean = src.replace(/^\//, '').replace(/\.md$/, '');
+  const pretty = new URL('/' + clean, location.origin).href;
+  document.getElementById('canonical').href = pretty;
+  // Keep an already-open ?embed=1 when navigating sections.
+  const embedHref = pretty + (EMBED ? '?embed=1' : '');
+  const link = document.getElementById('embedlink');
+  link.href = embedHref;
+  link.addEventListener('click', (e) => {
+    e.preventDefault();
+    const on = !document.body.classList.contains('is-embed');
+    document.body.classList.toggle('is-embed', on);
+    try {
+      history.replaceState(null, '', on ? pretty + '?embed=1' : pretty);
+    } catch (_) { location.href = on ? embedHref : pretty; }
+  });
+  addEventListener('popstate', () => {
+    document.body.classList.toggle('is-embed',
+      new URLSearchParams(location.search).has('embed'));
+  });
+}
 
 if (!src) {
   document.getElementById('content').innerHTML =
@@ -428,7 +537,7 @@ if (!src) {
 
     async function initNext() {
       try {
-        const resp = await fetch(IS_WIKI ? '../data/wiki.json' : '../data/tasks.json');
+        const resp = await fetch(IS_WIKI ? '/data/wiki.json' : '/data/tasks.json');
         if (!resp.ok) return;
         const data = await resp.json();
         // Flatten to one row per entry (prefer en-US), keep .md docs only.
@@ -438,14 +547,30 @@ if (!src) {
           .filter((l) => l && l.path && /\.md$/.test(l.path))
           .sort((a, b) => String(b.updated || b.created || '')
             .localeCompare(String(a.updated || a.created || '')));
-        const curPath = decodeURIComponent(
-          new URLSearchParams(location.search).get('src') || ''
-        ).replace(/^\.\.\//, '');
-        const idx = rows.findIndex((l) => l.path === curPath);
+        // The current note in registry form ("wiki/en-US/…/X.md", decoded):
+        // from ?src= when present, else from the pretty pathname — mirroring
+        // the top-level resolution, so Next starts from the note actually
+        // shown instead of silently jumping to the first row.
+        const _curRaw = new URLSearchParams(location.search).get('src');
+        const curPath = (_curRaw
+          ? safeDecodeParam(_curRaw)
+          : (src || '').replace(/^\//, ''));
+        const curDecoded = curPath.replace(/^(?:\.\.\/)/, '');
+        const idx = rows.findIndex((l) => {
+          try { return decodeURIComponent(l.path) === curDecoded; }
+          catch (_) { return l.path === curDecoded; }
+        });
         const next = idx >= 0 ? rows[idx + 1] : rows[0];
         if (next) {
-          nextHref = 'md-viewer.html?kind=' + KIND +
-            '&src=' + encodeURIComponent('../' + next.path);
+          // Same form as the current page: the ?src= form inside the reader
+          // iframe (robust even if the redirect is not deployed), the pretty
+          // form on a standalone pretty URL (keeps the address bar clean).
+          // A bare "md-viewer.html?…" would resolve under /wiki/en-US/… on a
+          // pretty page, so both forms are root-absolute.
+          nextHref = _curRaw
+            ? '/pages/md-viewer.html?kind=' + KIND +
+              '&src=' + encodeURIComponent('/' + next.path)
+            : '/' + next.path.replace(/\.md$/, '');
           nextBtn.title = 'Next ' + (IS_WIKI ? 'wiki note: ' : 'task output: ') + next.title;
         }
       } catch (e) { /* registry unavailable → button stays inert */ }

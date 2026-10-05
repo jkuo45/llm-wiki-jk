@@ -1,0 +1,34 @@
+# URL routing for the site. Cloudflare applies these on deploy; web/vite.config.js
+# parses this same file for `npm run dev` / `vite preview`, so the two cannot drift.
+#
+# 1. Pretty, shareable URLs for the reader's markdown shell:
+#
+#      /wiki/en-US/cell-death/Eryptosis
+#      /tasks/en-US/task_output_parthanatos_open_questions_08_Sep_2026
+#
+#    rewrite (200, not 301) to pages/md-viewer.html, which fetches the note and
+#    sets rel=canonical back to the pretty path above — so the URL a user saves,
+#    bookmarks, or iframes is this one, and the ?src= form stays an
+#    implementation detail of the reader iframe.
+#
+#    NOTE on the `?kind=&src=` in the targets: a 200 rewrite is server-internal,
+#    so the browser URL stays `/wiki/…` and that query NEVER reaches the shell's
+#    location.search. md-viewer therefore derives the note from
+#    location.pathname (see noteFromPathname), not from the target query — the
+#    pathname is the only channel. The query is kept anyway: it documents the
+#    mapping, and the ?src= form must keep working for the reader iframe.
+#
+# 2. The `*.md` identity rules MUST stay above the `/*` splats. md-viewer fetches
+#    each note by its real path (`../wiki/en-US/_link/Urolithin A.md`); a bare
+#    `/wiki/*` splat would swallow that fetch and return HTML, and every note
+#    would fail to render. These map the request to itself so the static asset
+#    wins. First match wins in Cloudflare _redirects, so the order is load-bearing.
+#
+# Targets keep the `.html` extension: under the default html_handling an
+# extension-less target triggers Cloudflare's own 307 and the query string is
+# lost with it.
+
+/wiki/*.md    /wiki/:splat.md    200
+/tasks/*.md   /tasks/:splat.md   200
+/wiki/*    /pages/md-viewer.html?kind=wiki&src=wiki/:splat.md   200
+/tasks/*   /pages/md-viewer.html?kind=task&src=tasks/:splat.md  200
