@@ -24,10 +24,12 @@
 #    would fail to render. These map the request to itself so the static asset
 #    wins. First match wins in Cloudflare _redirects, so the order is load-bearing.
 #
-# Targets keep the `.html` extension: under the default html_handling an
-# extension-less target triggers Cloudflare's own 307 and the query string is
-# lost with it.
+# Targets keep the `.html` extension AND every rule below only works with
+# `"html_handling": "none"` in wrangler.jsonc (the default handling 307-strips
+# `.html` and drops query strings — see that file). The `/` rule replaces the
+# automatic root → index.html mapping that "none" disables.
 
+/  /index.html  200
 /wiki/*.md    /wiki/:splat.md    200
 /tasks/*.md   /tasks/:splat.md   200
 /wiki/*    /pages/md-viewer.html?kind=wiki&src=wiki/:splat.md   200

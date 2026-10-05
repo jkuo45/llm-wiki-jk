@@ -580,7 +580,12 @@ function matchFrameArticle() {
     // Without the first branch, md-viewer's Next button navigated the iframe
     // to a different note while the address bar kept naming the old one, so a
     // saved/shared URL reopened the wrong note.
-    if (path.endsWith('/md-viewer.html')) {
+    // (`/pages/md-viewer.html` keeps its extension under
+    // `"html_handling": "none"`, but tolerate the stripped form too — a stale
+    // deploy or a different handling mode serves it extension-less, and the
+    // note identity is in `?src=` either way.)
+    const mdPath = path.replace(/\.html$/, '');
+    if (mdPath.endsWith('/md-viewer')) {
       const src = new URLSearchParams(loc.search).get('src') || '';
       const want = src.replace(/^(?:\.\.\/|\/)/, '');
       if (!want) return null;

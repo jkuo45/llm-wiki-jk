@@ -207,6 +207,15 @@ class TestMdViewerFrameMatch:
             assert hit is not None, f"no pretty match for {pretty}"
             assert hit["id"] == r["id"]
 
+    def test_shell_path_without_extension_still_matches(self):
+        """Under default `html_handling` Cloudflare strips `.html`, so the
+        iframe pathname can be `/pages/md-viewer` (no `?src=` change — the
+        note identity is in the query either way). The matcher must not
+        require the extension."""
+        src = Path("web/components/reader.js").read_text(encoding="utf-8")
+        assert "replace(/\\.html$/, '')" in src or 'replace(/\\.html$/, "")' in src, (
+            "matchFrameArticle must normalize the .html extension away")
+
 
 class TestRedirects:
     @pytest.fixture(scope="class")
@@ -279,6 +288,7 @@ console.log(JSON.stringify(urls.map((url) => ({{ url, out: resolveRedirect(rules
         try:
             mod.write_text(cfg.read_text(encoding="utf-8"), encoding="utf-8")
             urls = [
+                "/",
                 "/wiki/en-US/_link/Urolithin%20A",
                 "/wiki/en-US/_link/Urolithin%20A.md",
                 "/wiki/en-US/cell-death/Ferroptosis",
@@ -328,6 +338,13 @@ console.log(JSON.stringify(urls.map((url) => ({{ url, out: resolveRedirect(rules
         assert res["/wiki/en-US/cell-death/Ferroptosis"].startswith("/pages/md-viewer.html?")
         assert res["/tasks/en-US/task_output_x_01_Sep_2026.md"].startswith("/tasks/")
 
+    def test_root_serves_index(self, config, tmp_path):
+        """`"html_handling": "none"` disables the automatic `/` → index.html
+        mapping, so the rule file must carry an explicit root rule — otherwise
+        the app root 404s in production while working in dev."""
+        res = self._plugin(tmp_path)
+        assert res["/"] == "/index.html", res["/"]
+
 
 class TestRedirectShape:
     """Rules in web/public/_redirects, in the order Cloudflare applies them."""
@@ -344,6 +361,28 @@ class TestRedirectShape:
         rules = [l.split() for l in redirects.splitlines()
                  if l.strip().startswith("/") and not l.strip().startswith("//")]
         return [r[0] for r in rules]
+
+    def test_root_rule_is_first(self, redirects, order):
+        """`"html_handling": "none"` disables the automatic `/` → index.html
+        mapping, so the rule file must carry an explicit root rule — and first,
+        before any splat could claim it."""
+        assert order, "no rules parsed"
+        assert order[0] == "/", f"first rule must be the root rule, got {order[0]}"
+        m = re.search(r"^/\s+(/\S+)\s+200$", redirects, re.M)
+        assert m and m.group(1) == "/index.html", "root must rewrite to /index.html"
+
+    def test_html_handling_is_none(self):
+        """The default Cloudflare handling 307-redirects `.html` URLs to their
+        extension-less form AND drops the query string — killing both the
+        reader iframe (?src= lost) and the pretty-URL rewrites (target query
+        lost). Observed in production as `.md` fetches 307ing to
+        `/pages/md-viewer` with an empty query and rendering the shell as
+        markdown. This setting must stay "none"."""
+        import json
+        raw = Path("web/wrangler.jsonc").read_text(encoding="utf-8")
+        # jsonc: strip // comments (no URLs in this file, so a line split is safe).
+        cfg = json.loads("\n".join(l.split("//")[0] for l in raw.splitlines()))
+        assert cfg.get("assets", {}).get("html_handling") == "none"
 
     def test_md_identity_rules_precede_the_splats(self, redirects, order):
         """md-viewer fetches each note by its real path (`../wiki/…/X.md`).
@@ -662,6 +701,16 @@ class TestMdViewerModuleParses:
     """The module script in md-viewer.html must parse. The `src` double-
     declaration shipped unnoticed because every other test ports the logic
     to Python or string-matches — none of them parse the file node does."""
+
+    def test_refuses_to_render_html_as_markdown(self):
+        """A rewrite swallowing the fetch (or SPA-fallback masking a 404)
+        returns an HTML document with resp.ok === true. Rendering it feeds
+        inline <style>/<script> to the fence regex, which manufactures bogus
+        ```mermaid diagrams out of CSS — the exact console spam reported.
+        The shell must refuse loudly instead."""
+        viewer = Path("web/public/pages/md-viewer.html").read_text(encoding="utf-8")
+        assert "<!DOCTYPE" in viewer and "<html" in viewer, (
+            "no HTML-sniff guard on the fetched note body")
 
     def test_module_has_no_syntax_errors(self, tmp_path):
         import subprocess

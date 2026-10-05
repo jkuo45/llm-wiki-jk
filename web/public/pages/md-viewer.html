@@ -444,7 +444,17 @@ if (!src) {
       loadEntityDescriptions(),
     ]);
     if (!resp.ok) throw new Error(`${resp.status} ${resp.statusText}`);
-    const md = stripFrontmatter(await resp.text());
+    const raw = await resp.text();
+    // The SPA fallback serves index.html (200!) for missing assets, and a
+    // misbehaving rewrite can serve this very shell — feeding either to the
+    // markdown renderer manufactures bogus ```mermaid diagrams out of inline
+    // <style>/<script> (the fence regex matches ``` anywhere). Refuse loudly
+    // instead of rendering garbage + mystery console spam.
+    if (/^\s*(<!DOCTYPE|<html[\s>])/i.test(raw)) {
+      throw new Error(`expected markdown at ${src}, got an HTML document — ` +
+        'the note file is likely missing or a redirect swallowed the fetch');
+    }
+    const md = stripFrontmatter(raw);
     const content = document.getElementById('content');
     content.innerHTML = renderMarkdown(md, { wikiHref });
     // Fire-and-forget: fences swap to SVG figures in place; the fallback

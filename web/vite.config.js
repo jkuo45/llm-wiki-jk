@@ -37,36 +37,54 @@ const REDIRECTS = './public/_redirects';
 // is skipped rather than guessed at. Order is preserved and first match wins,
 // mirroring Cloudflare — which matters because the `*.md` identity rules only
 // beat the `/*` splats by being listed first.
+// Parses `/prefix/*`, `/prefix/*.ext`, and exact paths (`/`) → `/target[?query]
+// 200` lines into ordered matchers. Only the shapes this site uses are
+// supported; anything else is skipped rather than guessed at. Order is
+// preserved and first match wins, mirroring Cloudflare — which matters because
+// the `*.md` identity rules only beat the `/*` splats by being listed first.
 export function parseRedirects(text) {
+  const makeRewrite = (target, query) => (splat, search) => {
+    // `:splat` may appear in the path (the `*.md` identity rules) as well
+    // as in the query — substitute in both, or the target keeps a literal
+    // ':splat' and resolves to nothing.
+    const path = target.replace(':splat', splat);
+    const params = new URLSearchParams(search);
+    if (query) {
+      for (const [k, v] of new URLSearchParams(query)) {
+        params.set(k, v.replace(':splat', splat));
+      }
+    }
+    const qs = params.toString();
+    return qs ? `${path}?${qs}` : path;
+  };
   return text.split('\n')
     .map((line) => line.trim())
     .filter((line) => line.startsWith('/') && !line.startsWith('//'))
     .map((line) => {
       const [from, to, code] = line.split(/\s+/);
+      if (!to || code !== '200') return null;
+      const [target, query] = to.split('?', 2);
+      const rewrite = makeRewrite(target, query);
+      // Exact path, no wildcard: the `/ → /index.html` root rule replacing
+      // the index serving that `"html_handling": "none"` disables.
+      if (!from.includes('*')) {
+        if (!/^\/[\w\-.]*$/.test(from)) return null;
+        return {
+          prefix: null, ext: null, exact: from,
+          test: (pathname) => pathname === from,
+          rewrite: (_splat, search) => rewrite('', search),
+        };
+      }
       const star = from.match(/^\/(\w+)\/(\*(?:\.\w+)?)$/);
-      if (!star || code !== '200') return null;
+      if (!star) return null;
       const [, prefix, suffix] = star;
       const ext = suffix.startsWith('*.') ? suffix.slice(1) : null;
-      const [target, query] = to.split('?', 2);
       return {
         prefix,
         ext,
         test: (pathname) =>
           pathname.startsWith(`/${prefix}/`) && (!ext || pathname.endsWith(ext)),
-        rewrite: (splat, search) => {
-          // `:splat` may appear in the path (the `*.md` identity rules) as well
-          // as in the query — substitute in both, or the target keeps a literal
-          // ':splat' and resolves to nothing.
-          const path = target.replace(':splat', splat);
-          const params = new URLSearchParams(search);
-          if (query) {
-            for (const [k, v] of new URLSearchParams(query)) {
-              params.set(k, v.replace(':splat', splat));
-            }
-          }
-          const qs = params.toString();
-          return qs ? `${path}?${qs}` : path;
-        },
+        rewrite,
       };
     })
     .filter(Boolean);
@@ -79,6 +97,8 @@ export function resolveRedirect(rules, url) {
   const [pathname, search = ''] = (url || '').split('?', 2);
   const hit = rules.find((r) => r.test(pathname));
   if (!hit) return null;
+  // Exact-path rules (prefix null) carry no splat.
+  if (hit.prefix === null) return hit.rewrite('', search);
   let splat = pathname.slice(`/${hit.prefix}/`.length);
   // A `*.ext` rule's splat excludes the extension, matching Cloudflare's
   // wildcard-suffix capture — otherwise `/wiki/*.md → /wiki/:splat.md` would
@@ -103,7 +123,7 @@ function redirectsPlugin() {
       req.url = out;
       next();
     });
-    const pretty = rules.filter((r) => !r.ext);
+    const pretty = rules.filter((r) => r.prefix && !r.ext);
     const to = pretty.map((r) => `/${r.prefix}/*`).join(', ');
     server.config.logger.info(to && `  ➜  pretty note URLs: ${to} → md-viewer`);
   };
