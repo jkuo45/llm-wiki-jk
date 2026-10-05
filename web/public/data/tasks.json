@@ -1,5 +1,5 @@
 {
-  "generated": "04_OCT_2026 02:18 PM PDT",
+  "generated": "04_OCT_2026 07:11 PM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -22,6 +22,57 @@
           "tags": [],
           "path": "pages/tasks-index.html"
         }
+      }
+    },
+    {
+      "id": "task_output_biomarker_gate_supply_chain_procurement_04_Oct_2026",
+      "langs": {
+        "en-US": {
+          "title": "Biomarker Gates — Supply Chain and Procurement Audit",
+          "description": "Gate-by-gate audit of what can actually be bought for the 17 hard-coded individual biomarkers in web/public/pages/en-US/hard-coded-biomarker-gates.html, at what price and turnaround, in which regulatory tier. Establishes that the commercially real gates are the drug-metabolism ones (CYP2C9/VKORC1/CYP2D6/SLCO1B1), that the page's recommended minimum panel is procurement-infeasible as written, and identifies ten structural gaps — absent enzyme-activity assays, no CPIC guideline for CYP3A5-sirolimus, no commercial p70S6K1 assay, no standardized microbial-metabotype phenotype, ancestry-incomplete CYP3A5 panels, counselling as the true bottleneck, and compounded/supplement QC risk downstream of the test.",
+          "created": "2026-10-04",
+          "updated": "2026-10-04",
+          "tags": [
+            "task-output",
+            "biomarkers",
+            "pharmacogenomics",
+            "supply-chain",
+            "clinical-laboratory",
+            "metabotypes",
+            "comt",
+            "autophagy",
+            "oxidative-stress"
+          ],
+          "filename": "task_output_biomarker_gate_supply_chain_procurement_04_Oct_2026.md",
+          "path": "tasks/en-US/task_output_biomarker_gate_supply_chain_procurement_04_Oct_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_biomarker_gate_supply_chain_procurement_04_Oct_2026.md"
+        },
+        "zh-TW": {
+          "title": "生物標記關卡 — 供應鏈與採購審計",
+          "description": "針對 web/public/pages/en-US/hard-coded-biomarker-gates.html 中 17 個硬編碼個體生物標記，逐一審計實際可取得的檢測、以何種價格與時程、屬於哪一個法規層級。確立商用供應鏈其實由藥物代謝型關卡（CYP2C9/VKORC1/CYP2D6/SLCO1B1）主導；該頁建議的最低檢測組合照原文無法採購；並辨識出十項結構性缺口——缺酵素活性檢測、CYP3A5–sirolimus 無指引、無商用 p70S6K1 檢測、微生物代謝型無標準表型、CYP3A5 面板未涵蓋特定等位基因、遺傳諮詢才是真正的瓶頸，以及檢測下游複方藥與補充品的品管風險。",
+          "created": "2026-10-04",
+          "updated": "2026-10-04",
+          "tags": [
+            "task-output",
+            "biomarkers",
+            "pharmacogenomics",
+            "supply-chain",
+            "clinical-laboratory",
+            "metabotypes",
+            "comt",
+            "autophagy",
+            "oxidative-stress"
+          ],
+          "filename": "task_output_biomarker_gate_supply_chain_procurement_04_Oct_2026.md",
+          "path": "tasks/zh-TW/task_output_biomarker_gate_supply_chain_procurement_04_Oct_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_biomarker_gate_supply_chain_procurement_04_Oct_2026.md"
+        }
+      },
+      "stats": {
+        "words": 3604,
+        "images": 0,
+        "links": 6,
+        "diagrams": 0
       }
     },
     {

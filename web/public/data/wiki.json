@@ -1,5 +1,5 @@
 {
-  "generated": "04_OCT_2026 02:18 PM PDT",
+  "generated": "04_OCT_2026 07:11 PM PDT",
   "wiki": [
     {
       "id": "wiki-index",
@@ -1647,6 +1647,44 @@
       }
     },
     {
+      "id": "Gaucher Disease",
+      "langs": {
+        "en-US": {
+          "title": "Gaucher Disease",
+          "description": "Gaucher disease is the most common lysosomal storage disorder, an autosomal recessive deficiency of lysosomal glucocerebrosidase that causes glucosylceramide accumulation in monocyte-macrophages, producing hepatosplenomegaly, cytopenias, bone disease and, in rare types, neurological involvement.",
+          "created": "2026-10-01",
+          "updated": "2026-10-01",
+          "tags": [
+            "medical-condition",
+            "lysosomal-storage-disease",
+            "metabolism"
+          ],
+          "filename": "Gaucher Disease.md",
+          "path": "wiki/en-US/_link/Gaucher%20Disease.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Gaucher%20Disease.md"
+        },
+        "zh-TW": {
+          "title": "高雪氏症",
+          "description": "高雪氏症是最常見的溶酶體儲積症，屬體染色體隱性的溶酶體葡萄糖腦苷脂酶缺乏症，造成葡萄糖神經醯胺在單核細胞—巨噬細胞中累積，導致肝脾腫大、血球減少、骨病變，少数類型則涉及神經系統。",
+          "created": "2026-10-01",
+          "updated": "2026-10-01",
+          "tags": [
+            "medical-condition",
+            "lysosomal-storage-disease",
+            "metabolism"
+          ],
+          "filename": "Gaucher Disease.md",
+          "path": "wiki/zh-TW/_link/Gaucher%20Disease.md"
+        }
+      },
+      "stats": {
+        "words": 1289,
+        "images": 0,
+        "links": 75,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "Fibrin",
       "langs": {
         "en-US": {
@@ -1683,44 +1721,6 @@
         "words": 1028,
         "images": 0,
         "links": 49,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "Gaucher Disease",
-      "langs": {
-        "en-US": {
-          "title": "Gaucher Disease",
-          "description": "Gaucher disease is the most common lysosomal storage disorder, an autosomal recessive deficiency of lysosomal glucocerebrosidase that causes glucosylceramide accumulation in monocyte-macrophages, producing hepatosplenomegaly, cytopenias, bone disease and, in rare types, neurological involvement.",
-          "created": "2026-10-01",
-          "updated": "2026-10-01",
-          "tags": [
-            "medical-condition",
-            "lysosomal-storage-disease",
-            "metabolism"
-          ],
-          "filename": "Gaucher Disease.md",
-          "path": "wiki/en-US/_link/Gaucher%20Disease.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Gaucher%20Disease.md"
-        },
-        "zh-TW": {
-          "title": "高雪氏症",
-          "description": "高雪氏症是最常見的溶酶體儲積症，屬體染色體隱性的溶酶體葡萄糖腦苷脂酶缺乏症，造成葡萄糖神經醯胺在單核細胞—巨噬細胞中累積，導致肝脾腫大、血球減少、骨病變，少数類型則涉及神經系統。",
-          "created": "2026-10-01",
-          "updated": "2026-10-01",
-          "tags": [
-            "medical-condition",
-            "lysosomal-storage-disease",
-            "metabolism"
-          ],
-          "filename": "Gaucher Disease.md",
-          "path": "wiki/zh-TW/_link/Gaucher%20Disease.md"
-        }
-      },
-      "stats": {
-        "words": 1289,
-        "images": 0,
-        "links": 75,
         "diagrams": 0
       }
     },
@@ -2393,6 +2393,46 @@
       }
     },
     {
+      "id": "MDC1",
+      "langs": {
+        "en-US": {
+          "title": "MDC1",
+          "description": "MDC1 is a large BRCT-domain scaffold protein that binds gamma-H2AX at DNA double-strand breaks and orchestrates RNF8/RNF168-mediated ubiquitin signalling and downstream repair factor recruitment.",
+          "created": "2026-09-29",
+          "updated": "2026-09-29",
+          "tags": [
+            "protein",
+            "dna-repair",
+            "dna-damage-response",
+            "chromatin"
+          ],
+          "filename": "MDC1.md",
+          "path": "wiki/en-US/_link/MDC1.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/MDC1.md"
+        },
+        "zh-TW": {
+          "title": "MDC1",
+          "description": "MDC1 是一種大型 BRCT 結構域支架蛋白質，能在 DNA 雙股斷裂處結合 γ-H2AX，並協調 RNF8／RNF168 介導的泛素訊號與下游修復因子的招募。",
+          "created": "2026-09-29",
+          "updated": "2026-09-29",
+          "tags": [
+            "protein",
+            "dna-repair",
+            "dna-damage-response",
+            "chromatin"
+          ],
+          "filename": "MDC1.md",
+          "path": "wiki/zh-TW/_link/MDC1.md"
+        }
+      },
+      "stats": {
+        "words": 1727,
+        "images": 0,
+        "links": 146,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "RANK",
       "langs": {
         "en-US": {
@@ -2465,46 +2505,6 @@
         "words": 1294,
         "images": 0,
         "links": 82,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "MDC1",
-      "langs": {
-        "en-US": {
-          "title": "MDC1",
-          "description": "MDC1 is a large BRCT-domain scaffold protein that binds gamma-H2AX at DNA double-strand breaks and orchestrates RNF8/RNF168-mediated ubiquitin signalling and downstream repair factor recruitment.",
-          "created": "2026-09-29",
-          "updated": "2026-09-29",
-          "tags": [
-            "protein",
-            "dna-repair",
-            "dna-damage-response",
-            "chromatin"
-          ],
-          "filename": "MDC1.md",
-          "path": "wiki/en-US/_link/MDC1.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/MDC1.md"
-        },
-        "zh-TW": {
-          "title": "MDC1",
-          "description": "MDC1 是一種大型 BRCT 結構域支架蛋白質，能在 DNA 雙股斷裂處結合 γ-H2AX，並協調 RNF8／RNF168 介導的泛素訊號與下游修復因子的招募。",
-          "created": "2026-09-29",
-          "updated": "2026-09-29",
-          "tags": [
-            "protein",
-            "dna-repair",
-            "dna-damage-response",
-            "chromatin"
-          ],
-          "filename": "MDC1.md",
-          "path": "wiki/zh-TW/_link/MDC1.md"
-        }
-      },
-      "stats": {
-        "words": 1727,
-        "images": 0,
-        "links": 146,
         "diagrams": 0
       }
     },
@@ -2663,6 +2663,42 @@
       }
     },
     {
+      "id": "NAD+",
+      "langs": {
+        "en-US": {
+          "title": "NAD+",
+          "description": "NAD+ (Nicotinamide Adenine Dinucleotide) is a critical coenzyme found in every cell, essential for energy Metabolism and a vital signaling molecule. It serves as an obligatory co-substrate for all ...",
+          "created": "2026-07-04",
+          "updated": "2026-09-14",
+          "tags": [
+            "chemical-compound",
+            "nad-plus"
+          ],
+          "filename": "NAD+.md",
+          "path": "wiki/en-US/_link/NAD%2B.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/NAD%2B.md"
+        },
+        "zh-TW": {
+          "title": "NAD+",
+          "description": "NAD+（菸醯胺腺嘌呤二核苷酸）是存在於每個細胞中的關鍵輔酶，對能量代謝不可或缺，也是重要的訊號分子；它作為所有 sirtuin 酵素的必需共同受質。",
+          "created": "2026-07-04",
+          "updated": "2026-09-14",
+          "tags": [
+            "chemical-compound",
+            "nad-plus"
+          ],
+          "filename": "NAD+.md",
+          "path": "wiki/zh-TW/_link/NAD%2B.md"
+        }
+      },
+      "stats": {
+        "words": 2745,
+        "images": 0,
+        "links": 184,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "MdmX",
       "langs": {
         "en-US": {
@@ -2697,42 +2733,6 @@
         "words": 1030,
         "images": 0,
         "links": 36,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "NAD+",
-      "langs": {
-        "en-US": {
-          "title": "NAD+",
-          "description": "NAD+ (Nicotinamide Adenine Dinucleotide) is a critical coenzyme found in every cell, essential for energy Metabolism and a vital signaling molecule. It serves as an obligatory co-substrate for all ...",
-          "created": "2026-07-04",
-          "updated": "2026-09-14",
-          "tags": [
-            "chemical-compound",
-            "nad-plus"
-          ],
-          "filename": "NAD+.md",
-          "path": "wiki/en-US/_link/NAD%2B.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/NAD%2B.md"
-        },
-        "zh-TW": {
-          "title": "NAD+",
-          "description": "NAD+（菸醯胺腺嘌呤二核苷酸）是存在於每個細胞中的關鍵輔酶，對能量代謝不可或缺，也是重要的訊號分子；它作為所有 sirtuin 酵素的必需共同受質。",
-          "created": "2026-07-04",
-          "updated": "2026-09-14",
-          "tags": [
-            "chemical-compound",
-            "nad-plus"
-          ],
-          "filename": "NAD+.md",
-          "path": "wiki/zh-TW/_link/NAD%2B.md"
-        }
-      },
-      "stats": {
-        "words": 2745,
-        "images": 0,
-        "links": 184,
         "diagrams": 0
       }
     },
@@ -5051,6 +5051,40 @@
       }
     },
     {
+      "id": "mTORC1",
+      "langs": {
+        "en-US": {
+          "title": "mTORC1",
+          "description": "mTORC1 (mechanistic target of rapamycin complex 1) is a multi-protein signaling complex that integrates nutrient, energy, and growth factor signals to coordinate cell growth, protein synthesis, and metabolism.",
+          "created": "2024-01-01",
+          "updated": "2026-09-02",
+          "tags": [
+            "protein"
+          ],
+          "filename": "mTORC1.md",
+          "path": "wiki/en-US/_link/mTORC1.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/mTORC1.md"
+        },
+        "zh-TW": {
+          "title": "mTORC1",
+          "description": "mTORC1（mechanistic target of rapamycin complex 1）是整合營養、能量與生長因子訊號，以協調細胞生長、蛋白質合成與代謝的多蛋白訊號複合體。",
+          "created": "2024-01-01",
+          "updated": "2026-09-02",
+          "tags": [
+            "protein"
+          ],
+          "filename": "mTORC1.md",
+          "path": "wiki/zh-TW/_link/mTORC1.md"
+        }
+      },
+      "stats": {
+        "words": 2471,
+        "images": 0,
+        "links": 256,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "Polyunsaturated fatty acids",
       "langs": {
         "en-US": {
@@ -5089,40 +5123,6 @@
         "words": 1134,
         "images": 0,
         "links": 94,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "mTORC1",
-      "langs": {
-        "en-US": {
-          "title": "mTORC1",
-          "description": "mTORC1 (mechanistic target of rapamycin complex 1) is a multi-protein signaling complex that integrates nutrient, energy, and growth factor signals to coordinate cell growth, protein synthesis, and metabolism.",
-          "created": "2024-01-01",
-          "updated": "2026-09-02",
-          "tags": [
-            "protein"
-          ],
-          "filename": "mTORC1.md",
-          "path": "wiki/en-US/_link/mTORC1.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/mTORC1.md"
-        },
-        "zh-TW": {
-          "title": "mTORC1",
-          "description": "mTORC1（mechanistic target of rapamycin complex 1）是整合營養、能量與生長因子訊號，以協調細胞生長、蛋白質合成與代謝的多蛋白訊號複合體。",
-          "created": "2024-01-01",
-          "updated": "2026-09-02",
-          "tags": [
-            "protein"
-          ],
-          "filename": "mTORC1.md",
-          "path": "wiki/zh-TW/_link/mTORC1.md"
-        }
-      },
-      "stats": {
-        "words": 2471,
-        "images": 0,
-        "links": 256,
         "diagrams": 0
       }
     },
