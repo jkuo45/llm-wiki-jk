@@ -25,28 +25,22 @@ function emitStandaloneMarkdown() {
 }
 
 // Dev-only stand-in for Cloudflare's `_redirects`, which Vite ignores: in dev
-// the pretty note URLs (/wiki/en-US/_link/Urolithin%20A) otherwise fall
+// the pretty note URLs (/note/en-US/_link/Urolithin%20A) otherwise fall
 // through to the SPA shell and return index.html with a 200, so the reader
 // looked fine in the iframe while every bookmarked link silently opened the
 // wrong thing. Reads the real rule file rather than duplicating it, so dev and
 // production cannot drift.
 const REDIRECTS = './public/_redirects';
 
-// Parses `/prefix/*` and `/prefix/*.ext`  →  `/target[?query]  200` lines into
+// Parses `/prefix/*` and exact paths (`/`) → `/target[?query]  200` lines into
 // ordered matchers. Only the shapes this site uses are supported; anything else
 // is skipped rather than guessed at. Order is preserved and first match wins,
-// mirroring Cloudflare — which matters because the `*.md` identity rules only
-// beat the `/*` splats by being listed first.
-// Parses `/prefix/*`, `/prefix/*.ext`, and exact paths (`/`) → `/target[?query]
-// 200` lines into ordered matchers. Only the shapes this site uses are
-// supported; anything else is skipped rather than guessed at. Order is
-// preserved and first match wins, mirroring Cloudflare — which matters because
-// the `*.md` identity rules only beat the `/*` splats by being listed first.
+// mirroring Cloudflare. NOTE: Cloudflare supports only ONE trailing splat per
+// rule, so mid-path forms like `/wiki/*.md` are silently ignored in production
+// even though wrangler dev tolerates them — the rule file avoids that shape
+// entirely (distinct pretty prefixes instead).
 export function parseRedirects(text) {
   const makeRewrite = (target, query) => (splat, search) => {
-    // `:splat` may appear in the path (the `*.md` identity rules) as well
-    // as in the query — substitute in both, or the target keeps a literal
-    // ':splat' and resolves to nothing.
     const path = target.replace(':splat', splat);
     const params = new URLSearchParams(search);
     if (query) {
@@ -70,20 +64,17 @@ export function parseRedirects(text) {
       if (!from.includes('*')) {
         if (!/^\/[\w\-.]*$/.test(from)) return null;
         return {
-          prefix: null, ext: null, exact: from,
+          prefix: null, exact: from,
           test: (pathname) => pathname === from,
           rewrite: (_splat, search) => rewrite('', search),
         };
       }
-      const star = from.match(/^\/(\w+)\/(\*(?:\.\w+)?)$/);
+      const star = from.match(/^\/(\w+)\/\*$/);
       if (!star) return null;
-      const [, prefix, suffix] = star;
-      const ext = suffix.startsWith('*.') ? suffix.slice(1) : null;
+      const [, prefix] = star;
       return {
         prefix,
-        ext,
-        test: (pathname) =>
-          pathname.startsWith(`/${prefix}/`) && (!ext || pathname.endsWith(ext)),
+        test: (pathname) => pathname.startsWith(`/${prefix}/`),
         rewrite,
       };
     })
@@ -97,13 +88,9 @@ export function resolveRedirect(rules, url) {
   const [pathname, search = ''] = (url || '').split('?', 2);
   const hit = rules.find((r) => r.test(pathname));
   if (!hit) return null;
-  // Exact-path rules (prefix null) carry no splat.
+  // Exact-path rules carry no splat.
   if (hit.prefix === null) return hit.rewrite('', search);
-  let splat = pathname.slice(`/${hit.prefix}/`.length);
-  // A `*.ext` rule's splat excludes the extension, matching Cloudflare's
-  // wildcard-suffix capture — otherwise `/wiki/*.md → /wiki/:splat.md` would
-  // append a second `.md` and 404 into the SPA shell.
-  if (hit.ext) splat = splat.slice(0, -hit.ext.length);
+  const splat = pathname.slice(`/${hit.prefix}/`.length);
   return hit.rewrite(splat, search);
 }
 
@@ -123,7 +110,7 @@ function redirectsPlugin() {
       req.url = out;
       next();
     });
-    const pretty = rules.filter((r) => r.prefix && !r.ext);
+    const pretty = rules.filter((r) => r.prefix);
     const to = pretty.map((r) => `/${r.prefix}/*`).join(', ');
     server.config.logger.info(to && `  ➜  pretty note URLs: ${to} → md-viewer`);
   };

@@ -252,13 +252,17 @@ function loadArticle(article, section) {
   if ((article.kind === 'task' || article.kind === 'wiki') && article.path.endsWith('.md')) {
     // Root-absolute src: md-viewer fetches it with fetch(), which resolves
     // relative URLs against the *document* — and that document is also served
-    // at pretty note paths, where "../wiki/…" would land under /wiki/….
+    // at pretty note paths, where "../wiki/…" would land under them.
     url = 'pages/md-viewer.html?kind=' + article.kind + '&src=' +
       encodeURIComponent('/' + article.path) + anchor;
-    // Keep the registry's percent-encoding (%20, not a literal space):
-    // article.path is already encoded, so this matches the canonical URL
-    // md-viewer computes and survives copy/paste without re-encoding.
-    shareUrl = '/' + article.path.replace(/\.md$/, '') + anchor;
+    // Pretty target for "open in new tab": /note/… for wiki notes, /output/…
+    // for task outputs (public/_redirects proxies both to the md-viewer
+    // shell). Registry `path` is already percent-encoded (%20, not a literal
+    // space), which matches md-viewer's rel=canonical.
+    shareUrl = '/' + article.path
+      .replace(/^wiki\//, 'note/')
+      .replace(/^tasks\//, 'output/')
+      .replace(/\.md$/, '') + anchor;
   } else {
     url = article.path + anchor;
   }
@@ -570,16 +574,15 @@ function matchFrameArticle() {
     const loc = frame.contentWindow.location;
     const path = loc.pathname;
     // Wiki notes and task outputs render through pages/md-viewer.html?src=<path>
-    // OR through a pretty note URL (/wiki/… /tasks/…, same shell via
-    // _redirects — md-viewer's Next button keeps the current form, so an
-    // iframe showing a pretty page stays pretty). Neither pathname carries
-    // identity on its own: match the `src` query param first, else derive the
-    // registry path from the pretty pathname. `src` is root-absolute
-    // ("/wiki/…"), but older links and the _redirects rule both produce the
-    // bare form, and the reader used to write "../wiki/…" — accept all three.
-    // Without the first branch, md-viewer's Next button navigated the iframe
-    // to a different note while the address bar kept naming the old one, so a
-    // saved/shared URL reopened the wrong note.
+    // OR through a pretty note URL (/note/…, /output/… — same shell via
+    // _redirects; md-viewer's Next button keeps the current form, so an iframe
+    // showing a pretty page stays pretty). Neither pathname carries identity on
+    // its own: match the `src` query param first, else derive the registry path
+    // from the pretty pathname. `src` is root-absolute ("/wiki/…"), but older
+    // links produce the bare form, and the reader used to write "../wiki/…" —
+    // accept all three. Without the first branch, md-viewer's Next button
+    // navigated the iframe to a different note while the address bar kept
+    // naming the old one, so a saved/shared URL reopened the wrong note.
     // (`/pages/md-viewer.html` keeps its extension under
     // `"html_handling": "none"`, but tolerate the stripped form too — a stale
     // deploy or a different handling mode serves it extension-less, and the
@@ -597,9 +600,11 @@ function matchFrameArticle() {
         || safeDecode(a.path) === wantDecoded) || null;
     }
     {
-      const pm = path.match(/^\/(wiki|tasks)\/(.+)$/);
+      // Pretty note path → asset path: /note/x → wiki/x.md, /output/x → tasks/x.md.
+      const pm = path.match(/^\/(note|output)\/(.+)$/);
       if (pm && !pm[2].endsWith('.md') && !pm[2].endsWith('.html')) {
-        const want = pm[1] + '/' + pm[2] + '.md';
+        const dir = pm[1] === 'note' ? 'wiki' : 'tasks';
+        const want = dir + '/' + pm[2] + '.md';
         const wantDecoded = safeDecode(want);
         return ALL_ROWS.find((a) => a.path === want
           || safeDecode(a.path) === wantDecoded) || null;

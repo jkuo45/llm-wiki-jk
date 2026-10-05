@@ -155,22 +155,21 @@
 
 <script type="module">
 // Root-absolute, not '../components/…': this document is also served through
-// the pretty note URLs (/wiki/en-US/cell-death/Eryptosis → this shell via
-// _redirects), where the browser's base URL is the note path, so any relative
-// specifier would resolve under /wiki/… and 404 into the SPA shell — surfacing
-// as "Failed to load module script: … MIME type of text/html".
+// the pretty note URLs (/note/…, /output/… → this shell via _redirects), where
+// the browser's base URL is the note path, so any relative specifier would
+// resolve under it and 404 into the SPA shell — surfacing as "Failed to load
+// module script: … MIME type of text/html".
 import { renderMarkdown, esc, wikiExcerpt, enhanceMermaid } from '/components/markdown.js';
 
 const GITHUB_BASE = 'https://github.com/jkuo45/llm-wiki-jk/blob/dev/';
 
 // Which note to render, and from which registry. Two channels, in order:
 //   1. `?src=` — the reader iframe and direct `?src=` links write it.
-//   2. The pathname itself — the pretty note URLs (/wiki/… /tasks/…, served
-//      via _redirects as a 200 rewrite). A rewrite is server-internal: the
-//      browser URL stays `/wiki/…`, so the rewrite target's `?kind=&src=`
-//      NEVER reaches location.search. The pathname is the only channel the
-//      shell can read, and KIND must come from it too (the browser query
-//      carries no `kind` on a pretty URL).
+//   2. The pathname itself — the pretty note URLs /note/… and /output/…
+//      (served via _redirects as a 200 proxy). A proxy is server-internal: the
+//      browser URL keeps the pretty path, so the rewrite target's query NEVER
+//      reaches location.search. The pathname is the only channel the shell can
+//      read, and KIND must come from it too (no `kind` in the browser query).
 function safeSrc(raw) {
   const decoded = safeDecodeParam(raw || '');
   // Optional "../" (reader iframe) or "/" prefix. Allow nested subdirectories
@@ -194,16 +193,20 @@ function safeDecodeParam(s) {
   try { return decodeURIComponent(s); } catch (_) { return s; }
 }
 
-// Pretty-path fallback: /wiki/en-US/cell-death/Eryptosis →
-// { kind: 'wiki', src: '/wiki/en-US/cell-death/Eryptosis.md' }.
-// Returns null for anything that is not a note path (including this shell's
-// own /pages/… URL and the raw .md files, which never reach this script).
+// Pretty-path fallback: /note/en-US/cell-death/Eryptosis →
+// { kind: 'wiki', src: '/wiki/en-US/cell-death/Eryptosis.md' }, and
+// /output/… → the task registry. The pretty prefixes are deliberately distinct
+// from the /wiki and /tasks ASSET prefixes — a splat there would swallow the
+// shell's own fetch of the note body (see public/_redirects). Returns null for
+// anything else, including this shell's own /pages/… URL and raw .md paths.
+const PRETTY = { note: { dir: 'wiki', kind: 'wiki' }, output: { dir: 'tasks', kind: 'task' } };
 function noteFromPathname() {
-  const m = location.pathname.match(/^\/(wiki|tasks)\/(.+)$/);
+  const m = location.pathname.match(/^\/(note|output)\/(.+)$/);
   if (!m || m[2].endsWith('.md') || m[2].endsWith('.html')) return null;
-  const src = safeSrc('/' + m[1] + '/' + m[2] + '.md');
+  const { dir, kind } = PRETTY[m[1]];
+  const src = safeSrc('/' + dir + '/' + m[2] + '.md');
   if (!src) return null;
-  return { kind: m[1] === 'wiki' ? 'wiki' : 'task', src };
+  return { kind, src };
 }
 
 const _query = new URLSearchParams(location.search);
@@ -216,8 +219,8 @@ const src = _fromSrc || (_fromPath ? _fromPath.src : null);
 const IS_WIKI = KIND === 'wiki';
 const backIndex = document.getElementById('back-index');
 // Root-absolute for the same reason as the stylesheets above: this shell is
-// also served from /wiki|/tasks pretty paths, where a bare relative href would
-// point at /wiki/en-US/cell-death/wiki-index.html.
+// also served from /note|/output pretty paths, where a bare relative href
+// would resolve against that note path instead of /pages/.
 //
 // Destination depends on context. Standalone in its own tab (the
 // open-in-new-tab case), Back returns to the app's reader with this source's
@@ -419,18 +422,21 @@ function structureSections(container) {
   return Array.from(container.querySelectorAll(':scope > section'));
 }
 
-// Canonical URL for this note. The pretty path is the one served by
-// the _redirects rule (/wiki/<lang>/<topic>/<Note> → this viewer), so it is
-// both the shareable/bookmarkable link and what search engines should index —
-// the ?src= form is an implementation detail of the reader iframe.
+// Canonical URL for this note: the pretty path served by public/_redirects
+// (/note/<lang>/<topic>/<Note>, /output/<lang>/<task>) — the shareable,
+// bookmarkable link, and what search engines should index. The ?src= form is
+// an implementation detail of the reader iframe.
 // (No ?embed=1 here: embed mode belongs to the ten animation pages, which the
 // comparison page iframes. Nothing embeds notes, so there is no embed link.)
 if (src) {
-  // safeSrc() already returns "/wiki/…"; strip the leading slash and the .md
-  // to recover the pretty path (/wiki/en-US/cell-death/Eryptosis).
-  const clean = src.replace(/^\//, '').replace(/\.md$/, '');
-  const pretty = new URL('/' + clean, location.origin).href;
-  document.getElementById('canonical').href = pretty;
+  // src is the ASSET path ("/wiki/en-US/cell-death/Eryptosis.md"); swap the
+  // asset prefix for the pretty one and drop the extension.
+  const prettyPath = src
+    .replace(/^\/wiki\//, '/note/')
+    .replace(/^\/tasks\//, '/output/')
+    .replace(/\.md$/, '');
+  document.getElementById('canonical').href =
+    new URL(prettyPath, location.origin).href;
 }
 
 if (!src) {
@@ -547,14 +553,17 @@ if (!src) {
         const next = idx >= 0 ? rows[idx + 1] : rows[0];
         if (next) {
           // Same form as the current page: the ?src= form inside the reader
-          // iframe (robust even if the redirect is not deployed), the pretty
-          // form on a standalone pretty URL (keeps the address bar clean).
-          // A bare "md-viewer.html?…" would resolve under /wiki/en-US/… on a
-          // pretty page, so both forms are root-absolute.
+          // iframe (robust even if the proxy is not deployed), the pretty form
+          // on a standalone pretty URL (keeps the address bar clean). Both are
+          // root-absolute — a bare "md-viewer.html?…" would resolve relative
+          // to the pretty path.
           nextHref = _curRaw
             ? '/pages/md-viewer.html?kind=' + KIND +
               '&src=' + encodeURIComponent('/' + next.path)
-            : '/' + next.path.replace(/\.md$/, '');
+            : '/' + next.path
+              .replace(/^wiki\//, 'note/')
+              .replace(/^tasks\//, 'output/')
+              .replace(/\.md$/, '');
           nextBtn.title = 'Next ' + (IS_WIKI ? 'wiki note: ' : 'task output: ') + next.title;
         }
       } catch (e) { /* registry unavailable → button stays inert */ }

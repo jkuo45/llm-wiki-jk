@@ -186,12 +186,13 @@ class TestMdViewerFrameMatch:
             assert self._match(rows, "/" + r["path"])["id"] == r["id"]
 
     def _match_pretty(self, rows, pretty_path):
-        """Port of the pretty-path branch added to matchFrameArticle: a frame
-        showing /wiki/… or /tasks/… (no ?src=) resolves via pathname + '.md'."""
-        m = re.match(r"^/(wiki|tasks)/(.+)$", pretty_path)
+        """Port of the pretty-path branch in matchFrameArticle: a frame showing
+        /note/… or /output/… (no ?src=) resolves via the asset path + '.md'."""
+        m = re.match(r"^/(note|output)/(.+)$", pretty_path)
         if not m or m.group(2).endswith((".md", ".html")):
             return None
-        want = m.group(1) + "/" + m.group(2) + ".md"
+        dir_ = "wiki" if m.group(1) == "note" else "tasks"
+        want = f"{dir_}/{m.group(2)}.md"
         want_d = unquote(want)
         return next((r for r in rows if r["path"] == want
                      or unquote(r["path"]) == want_d), None)
@@ -202,7 +203,7 @@ class TestMdViewerFrameMatch:
         md = [r for r in rows if r["path"].endswith(".md")]
         assert len(md) > 100
         for r in md:
-            pretty = "/" + r["path"].removesuffix(".md")
+            pretty = "/" + _pretty(r["path"])
             hit = self._match_pretty(rows, pretty)
             assert hit is not None, f"no pretty match for {pretty}"
             assert hit["id"] == r["id"]
@@ -217,6 +218,14 @@ class TestMdViewerFrameMatch:
             "matchFrameArticle must normalize the .html extension away")
 
 
+def _pretty(asset_path):
+    """Registry asset path → pretty URL path (mirrors reader.js / md-viewer)."""
+    return (asset_path
+            .replace("wiki/", "note/", 1)
+            .replace("tasks/", "output/", 1)
+            .removesuffix(".md"))
+
+
 class TestRedirects:
     @pytest.fixture(scope="class")
     def redirects(self):
@@ -225,21 +234,49 @@ class TestRedirects:
             pytest.skip("_redirects not present")
         return p.read_text(encoding="utf-8")
 
-    def test_wiki_and_tasks_are_rewritten(self, redirects):
-        assert re.search(r"^/wiki/\*\s+/pages/md-viewer\.html\?kind=wiki&src=wiki/:splat\.md\s+200$",
-                         redirects, re.M), "missing /wiki/* rewrite"
-        assert re.search(r"^/tasks/\*\s+/pages/md-viewer\.html\?kind=task&src=tasks/:splat\.md\s+200$",
-                         redirects, re.M), "missing /tasks/* rewrite"
+    def test_pretty_prefixes_do_not_collide_with_asset_dirs(self, redirects):
+        """THE production bug: `/wiki/*` and `/tasks/*` splats match the raw
+        .md assets too, and Cloudflare follows redirects even when an asset
+        matches, so the shell's own note fetch was served the shell. The pretty
+        prefixes must be disjoint from the asset directories."""
+        rules = [l.split() for l in redirects.splitlines()
+                 if l.strip().startswith("/") and not l.strip().startswith("//")]
+        sources = [r[0] for r in rules]
+        for asset in ("/wiki/*", "/tasks/*"):
+            assert asset not in sources, (
+                f"{asset} collides with the asset directory — Cloudflare will "
+                "swallow the shell's .md fetch")
+        assert "/note/*" in sources and "/output/*" in sources
 
-    def test_rewrite_targets_the_html_extension(self, redirects):
-        """An extension-less target (/pages/md-viewer) makes Cloudflare emit
-        its own 307 and drop the query string with it. Only the splat rules
-        rewrite to md-viewer; the `*.md` identity rules target their own path."""
+    def test_pretty_prefixes_have_no_assets_behind_them(self):
+        """A pretty prefix is only safe while nothing is served under it."""
+        for pretty in ("note", "output"):
+            d = Path("web/public") / pretty
+            assert not d.exists(), (
+                f"web/public/{pretty}/ now exists — its pretty URLs would "
+                "collide with real assets; pick a new prefix")
+
+    def test_targets_are_the_html_extension(self, redirects):
+        """An extension-less target (`/pages/md-viewer`) makes Cloudflare emit
+        its own 307 and drop the query string with it."""
         for line in redirects.splitlines():
             s = line.strip()
-            if not s.startswith("/") or "md-viewer" not in s:
+            if s.startswith("/") and "md-viewer" in s:
+                assert "/pages/md-viewer.html" in s, s
+
+    def test_no_mid_path_splats(self, redirects):
+        """Cloudflare supports only ONE trailing splat per rule. A mid-path
+        form like `/wiki/*.md` is silently ignored in production while
+        wrangler dev honors it — the exact local-vs-live divergence that took
+        the notes down."""
+        for line in redirects.splitlines():
+            s = line.strip()
+            if not s.startswith("/"):
                 continue
-            assert "/pages/md-viewer.html?" in s, s
+            source = s.split()[0]
+            assert source.count("*") <= 1, s
+            if "*" in source:
+                assert source.endswith("*"), f"mid-path splat: {s}"
 
 
 class TestViteMirrorsRedirects:
@@ -289,9 +326,10 @@ console.log(JSON.stringify(urls.map((url) => ({{ url, out: resolveRedirect(rules
             mod.write_text(cfg.read_text(encoding="utf-8"), encoding="utf-8")
             urls = [
                 "/",
-                "/wiki/en-US/_link/Urolithin%20A",
+                "/note/en-US/_link/Urolithin%20A",
+                "/note/en-US/cell-death/Ferroptosis",
+                "/output/en-US/task_output_x_01_Sep_2026",
                 "/wiki/en-US/_link/Urolithin%20A.md",
-                "/wiki/en-US/cell-death/Ferroptosis",
                 "/tasks/en-US/task_output_x_01_Sep_2026.md",
             ]
             script = self.PROBE.format(
@@ -309,34 +347,26 @@ console.log(JSON.stringify(urls.map((url) => ({{ url, out: resolveRedirect(rules
                     p.unlink() if p.is_file() else p.rmdir()
                 stub.rmdir()
 
-    def test_note_fetch_is_not_rewritten_away(self, config, tmp_path):
-        """The .md path must map to ITSELF. If it maps to anything else —
-        including a target still holding a literal ':splat' — the note fetch
-        404s into the SPA shell and every note renders blank."""
-        res = self._plugin(tmp_path)
-        md = res["/wiki/en-US/_link/Urolithin%20A.md"]
-        assert md == "/wiki/en-US/_link/Urolithin%20A.md", md
-        assert ":splat" not in md, f"literal ':splat' left in target: {md}"
-
-    def test_md_identity_target_gains_exactly_one_extension(self, config, tmp_path):
-        """`:splat` for a `*.md` rule excludes the extension (Cloudflare's
-        wildcard-suffix capture), so the target must not append a second one —
-        `/wiki/x.md.md` 404s into the SPA shell."""
+    def test_note_fetch_is_served_markdown(self, config, tmp_path):
+        """The raw .md path must NOT match any rule — Cloudflare follows
+        redirects even when an asset matches, so any rule under the asset
+        prefix turns the shell's own note fetch into HTML."""
         res = self._plugin(tmp_path)
         for url in ("/wiki/en-US/_link/Urolithin%20A.md",
                     "/tasks/en-US/task_output_x_01_Sep_2026.md"):
-            out = res[url]
-            assert out.endswith(".md"), out
-            assert not out.endswith(".md.md"), f"double extension: {out}"
+            assert res[url] is None, (
+                f"{url} is rewritten to {res[url]} — the note fetch would "
+                "receive HTML instead of markdown")
 
-    def test_extension_less_url_rewrites_to_the_viewer(self, config, tmp_path):
+    def test_pretty_urls_rewrite_to_the_viewer(self, config, tmp_path):
         res = self._plugin(tmp_path)
-        out = res["/wiki/en-US/_link/Urolithin%20A"]
-        assert out.startswith("/pages/md-viewer.html?"), out
-        assert "kind=wiki" in out, out
-        assert "src=wiki%2Fen-US%2F_link%2FUrolithin%2520A.md" in out, out
-        assert res["/wiki/en-US/cell-death/Ferroptosis"].startswith("/pages/md-viewer.html?")
-        assert res["/tasks/en-US/task_output_x_01_Sep_2026.md"].startswith("/tasks/")
+        note = res["/note/en-US/_link/Urolithin%20A"]
+        assert note == "/pages/md-viewer.html", note
+        task = res["/output/en-US/task_output_x_01_Sep_2026"]
+        assert task == "/pages/md-viewer.html", task
+        # Every pretty note URL reaches the shell; identity comes from the
+        # pathname (a 200 proxy never exposes the target query to the shell).
+        assert res["/note/en-US/cell-death/Ferroptosis"] == "/pages/md-viewer.html"
 
     def test_root_serves_index(self, config, tmp_path):
         """`"html_handling": "none"` disables the automatic `/` → index.html
@@ -384,58 +414,27 @@ class TestRedirectShape:
         cfg = json.loads("\n".join(l.split("//")[0] for l in raw.splitlines()))
         assert cfg.get("assets", {}).get("html_handling") == "none"
 
-    def test_md_identity_rules_precede_the_splats(self, redirects, order):
-        """md-viewer fetches each note by its real path (`../wiki/…/X.md`).
-        A bare `/wiki/*` splat swallows that fetch and returns HTML, so EVERY
-        note fails to render. The `*.md` identity rules must therefore come
-        first — Cloudflare _redirects is first-match-wins, so order is
-        load-bearing. (Found by checking content-type under wrangler dev: a
-        plain 200 hid it, since the SPA shell also returns 200.)"""
-        for prefix in ("wiki", "tasks"):
-            ident, splat = f"/{prefix}/*.md", f"/{prefix}/*"
-            assert ident in order, f"missing identity rule {ident}"
-            assert splat in order, f"missing splat rule {splat}"
-            assert order.index(ident) < order.index(splat), (
-                f"{ident} must precede {splat} or the note fetch is swallowed")
+    def test_pretty_rules_target_the_shell(self, redirects):
+        """Both pretty prefixes proxy to the md-viewer shell. Identity comes
+        from the pathname, so no query is needed (and Cloudflare's docs list
+        query-parameter support as ❌ for anything but the destination)."""
+        for prefix in ("note", "output"):
+            m = re.search(rf"^/{prefix}/\*\s+(\S+)\s+200$", redirects, re.M)
+            assert m, f"no /{prefix}/* rule"
+            assert m.group(1) == "/pages/md-viewer.html", m.group(1)
 
-    def test_md_identity_rules_are_self_mapped(self, redirects):
-        """`/wiki/*.md → /wiki/:splat.md`: :splat excludes the extension, so
-        the mapping is an identity that lets the static asset win."""
-        for prefix in ("wiki", "tasks"):
-            m = re.search(rf"^/{prefix}/\*\.md\s+(/\S+)\s+200$", redirects, re.M)
-            assert m, f"no identity rule for /{prefix}/*.md"
-            assert m.group(1) == f"/{prefix}/:splat.md", m.group(1)
-
-    def test_src_has_no_leading_slash(self, redirects):
-        """md-viewer's safeSrc() rejects a leading slash (it expects the
-        page-relative `wiki/…` or `../wiki/…` form), so `src=/wiki/:splat.md`
-        would 400 into \"Invalid or missing ?src= parameter.\""""
+    def test_no_rules_under_the_asset_prefixes(self, redirects):
+        """Any rule under /wiki/ or /tasks/ can only be broken: Cloudflare
+        follows it even when the .md asset exists, so the shell's note fetch
+        would receive HTML. See TestRedirects."""
         for line in redirects.splitlines():
-            m = re.match(r"\s*/(?:wiki|tasks)/\*\s+.*?&src=(\S+)", line)
-            if m:
-                assert not m.group(1).startswith("/"), line
-
-    def test_rewrite_preserves_the_src_string_match_frame_expects(self, redirects):
-        """`:splat` must land in `src` extension-stripped and re-added, so the
-        value equals the registry `path` that matchFrameArticle compares."""
-        m = re.search(r"^/wiki/\*\s+.*?src=(wiki/:splat\S*)\s+200$", redirects, re.M)
-        assert m, "no /wiki rule"
-        # /wiki/en-US/cell-death/Eryptosis -> src=wiki/en-US/cell-death/Eryptosis.md
-        assert m.group(1) == "wiki/:splat.md", m.group(1)
-
-    def test_rewritten_src_passes_md_viewers_own_validator(self, redirects):
-        """Port of safeSrc() in md-viewer.html, applied to what the redirect
-        actually produces — the check that would otherwise only fail in a
-        browser, as an \"Invalid or missing ?src=\" page."""
-        m = re.search(r"^/wiki/\*\s+.*?&src=(\S+)\s+200$", redirects, re.M)
-        assert m, "no /wiki rule"
-        # A representative note path with a space, as readme-counts emits it.
-        raw = m.group(1).replace(":splat", "en-US/cell-death/Apoptosis-Inducing%20Factor")
-        got = re.match(r"^(?:\.\./)?((?:tasks|wiki)/.+)$", unquote(raw))
-        assert got, f"safeSrc would reject src={raw!r}"
-        segs = got.group(1).split("/")
-        assert segs[0] == "wiki" and all(s and s not in (".", "..") for s in segs)
-        assert segs[-1].endswith(".md")
+            s = line.strip()
+            if not s.startswith("/"):
+                continue
+            source = s.split()[0]
+            for asset in ("/wiki/", "/tasks/"):
+                assert not source.startswith(asset), (
+                    f"{s!r} sits under the {asset} asset prefix")
 
 
 def safe_src(raw):
@@ -455,16 +454,18 @@ def safe_src(raw):
 
 def note_from_pathname(pathname):
     """Port of noteFromPathname() in md-viewer.html: resolve a pretty note
-    path to (kind, src) with NO query string involved — the 200 rewrite keeps
-    the browser URL, so the rewrite target's ?kind=&src= never reaches the
+    path (/note/…, /output/…) to (kind, src) with NO query string involved —
+    a 200 proxy keeps the browser URL, so the target query never reaches the
     shell and the pathname is the only channel."""
-    m = re.match(r"^/(wiki|tasks)/(.+)$", pathname or "")
+    pretty = {"note": ("wiki", "wiki"), "output": ("tasks", "task")}
+    m = re.match(r"^/(note|output)/(.+)$", pathname or "")
     if not m or m.group(2).endswith((".md", ".html")):
         return None
-    src = safe_src("/" + m.group(1) + "/" + m.group(2) + ".md")
+    dir_, kind = pretty[m.group(1)]
+    src = safe_src("/" + dir_ + "/" + m.group(2) + ".md")
     if not src:
         return None
-    return ("wiki" if m.group(1) == "wiki" else "task", src)
+    return (kind, src)
 
 
 class TestPrettyPathResolution:
@@ -477,7 +478,7 @@ class TestPrettyPathResolution:
         assert len(md) > 100
         failures = []
         for r in md:
-            pretty = "/" + r["path"].removesuffix(".md")
+            pretty = "/" + _pretty(r["path"])
             hit = note_from_pathname(pretty)
             if hit is None:
                 failures.append(("unresolved", pretty))
@@ -489,16 +490,23 @@ class TestPrettyPathResolution:
         """On a pretty URL the browser query carries no `kind`, so wiki vs
         task must come from the pathname — otherwise every wiki note opened
         via pretty URL gets the task back-link, task Next order, and title."""
-        assert note_from_pathname("/wiki/en-US/sirtuins/SIRT1")[0] == "wiki"
+        assert note_from_pathname("/note/en-US/sirtuins/SIRT1")[0] == "wiki"
         t = next(r for r in rows
                  if r["kind"] == "task" and r["path"].endswith(".md"))
-        assert note_from_pathname("/" + t["path"].removesuffix(".md"))[0] == "task"
+        assert note_from_pathname("/" + _pretty(t["path"]))[0] == "task"
 
     def test_non_note_paths_resolve_to_nothing(self):
         assert note_from_pathname("/pages/md-viewer.html") is None
         assert note_from_pathname("/wiki/en-US/_link/Eryptosis.md") is None
+        assert note_from_pathname("/tasks/en-US/x.md") is None
         assert note_from_pathname("/") is None
         assert note_from_pathname("/data/wiki.json") is None
+
+    def test_asset_prefixes_do_not_resolve_as_pretty(self):
+        """`/wiki/…` is the ASSET namespace, not a pretty URL: resolving it
+        here would mean a rule under that prefix, which is exactly the bug."""
+        assert note_from_pathname("/wiki/en-US/_link/Eryptosis") is None
+        assert note_from_pathname("/tasks/en-US/task_output_x") is None
 
     def test_shell_checks_src_param_first(self):
         """When both exist, ?src= wins over the pathname — the explicit
@@ -509,8 +517,8 @@ class TestPrettyPathResolution:
 
 
 class TestPrettyUrlRoundTrip:
-    """The promise of the redirect: whatever md-viewer writes into
-    rel=canonical must, when visited, resolve back to the same note."""
+    """The promise of the proxy: whatever md-viewer writes into rel=canonical
+    must, when visited, resolve back to the same note."""
 
     @pytest.fixture(scope="class")
     def rules(self):
@@ -524,55 +532,56 @@ class TestPrettyUrlRoundTrip:
                 continue
             parts = line.split()
             prefix = re.match(r"^/(\w+)/\*$", parts[0])
-            if not prefix:
+            if not prefix or len(parts) < 2:
                 continue
-            q = dict(re.findall(r"(\w+)=([^&\s]+)", parts[1].split("?", 1)[1]))
-            rules[prefix.group(1)] = q["src"]
+            rules[prefix.group(1)] = parts[1]
         return rules
 
     def apply(self, rules, pretty):
-        for prefix, src_tpl in rules.items():
-            m = re.match(rf"^/{prefix}/(.*)$", pretty)
-            if m:
-                return src_tpl.replace(":splat", m.group(1))
+        """A pretty URL matches a rule iff its prefix has one; the target is
+        the shell (no query — identity comes from the pathname)."""
+        for prefix, target in rules.items():
+            if re.match(rf"^/{prefix}/(.*)$", pretty):
+                return target
         return None
 
     def test_every_published_note_round_trips(self, rules, rows):
-        """reader → iframe ?src= → md-viewer canonical → pretty URL → redirect
-        → src. Any mismatch anywhere lands the user on a different note."""
+        """reader → iframe ?src= → md-viewer canonical (pretty URL) → proxy →
+        pathname → src. Any mismatch anywhere lands the user on a different
+        note."""
         md = [r for r in rows if r["path"].endswith((".md", ".markdown"))]
         assert len(md) > 100, "expected the full note + task corpus"
         failures = []
         for r in md:
-            # loadArticle writes `/` + path, then encodeURIComponent.
             frame_src = safe_src("/" + r["path"])
             if frame_src is None:
                 failures.append(("safeSrc rejected", r["path"]))
                 continue
-            clean = frame_src.removeprefix("/").removesuffix(".md")
-            pretty = "/" + clean
-            redirected = self.apply(rules, pretty)
-            if redirected is None:
-                failures.append(("no redirect rule", pretty))
-            elif redirected != clean + ".md":
-                failures.append(("src mismatch", pretty, redirected))
-            elif safe_src(redirected) != frame_src:
-                failures.append(("redirected src rejected", redirected))
+            pretty = "/" + _pretty(r["path"])
+            if self.apply(rules, pretty) != "/pages/md-viewer.html":
+                failures.append(("no proxy rule", pretty))
+                continue
+            # The shell sees only the pretty pathname; it must resolve back to
+            # the same asset path.
+            hit = note_from_pathname(pretty)
+            if hit is None:
+                failures.append(("pathname unresolved", pretty))
+            elif hit[1] != frame_src:
+                failures.append(("src mismatch", pretty, hit[1]))
         assert not failures, "\n".join(" | ".join(f) for f in failures[:8])
 
-    def test_canonical_form_matches_what_reader_offers(self, rules, rows):
+    def test_canonical_form_matches_what_reader_offers(self, rows):
         """loadArticle's `shareUrl` (open-in-new-tab) must equal the canonical
         md-viewer computes, or the two disagree about the note's address.
         Both keep the registry's percent-encoding (%20, never a literal
         space)."""
         md = [r for r in rows if r["path"].endswith(".md")]
         for r in md[::7]:  # sampled — the invariant is per-row, not corpus-wide
-            share = "/" + r["path"].removesuffix(".md")
+            share = "/" + _pretty(r["path"])
             assert " " not in share, f"shareUrl must stay encoded: {share}"
-            frame_src = safe_src("/" + r["path"])
             # md-viewer's canonical goes through `new URL(...).href`, which
             # re-encodes — compare decoded on both sides.
-            canonical = "/" + frame_src.removeprefix("/").removesuffix(".md")
+            canonical = "/" + _pretty(r["path"])
             assert unquote(share) == unquote(canonical), (share, canonical)
 
     def test_next_button_matches_encoded_paths(self, rows):
@@ -601,8 +610,16 @@ class TestReaderHashKeepsNamespaceReadable:
 
     def test_share_url_stays_encoded(self):
         src = Path("web/components/reader.js").read_text(encoding="utf-8")
-        assert "'/' + article.path.replace(" in src, (
+        assert re.search(r"shareUrl = '/' \+ article\.path\s*\n?\s*\.replace", src), (
             "shareUrl must use the encoded registry path, not a decoded one with spaces")
+
+    def test_share_url_uses_the_pretty_prefix(self):
+        """Open-in-new-tab must point at /note/… or /output/… — the pretty
+        prefixes no rule collides with — never at the /wiki/ and /tasks/ asset
+        prefixes (a rule there would swallow the shell's own note fetch)."""
+        src = Path("web/components/reader.js").read_text(encoding="utf-8")
+        assert "replace(/^wiki\\//, 'note/')" in src
+        assert "replace(/^tasks\\//, 'output/')" in src
 
 
 class TestMdViewerAssetsAreRootAbsolute:
