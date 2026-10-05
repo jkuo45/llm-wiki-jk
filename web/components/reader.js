@@ -266,21 +266,35 @@ function loadArticle(article, section) {
   openLink.href = shareUrl || url;
 }
 
+// Age in whole local calendar days. Registry dates are date-only
+// (`YYYY-MM-DD`), and `new Date("2026-10-04")` is UTC midnight — the previous
+// LOCAL day in every negative-offset timezone, so a note written today read as
+// "1d" after 17:00 PDT. Port of ageDays in pages/themes/shared/index-core.js
+// (the two bundles can't share a module); frontmatter has no time of day, so
+// calendar days are the finest granularity available.
+function ageDays(updated) {
+  const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(String(updated || ''));
+  const d = m ? new Date(+m[1], +m[2] - 1, +m[3]) : new Date(updated);
+  if (!updated || Number.isNaN(d.getTime())) return NaN;
+  return (Date.now() - new Date(d.getFullYear(), d.getMonth(), d.getDate()).getTime()) / 864e5;
+}
+
 // Relative age label for the freshness highlight ("today", "2d", "5mo").
 function relativeAge(updated) {
-  const ms = Date.now() - new Date(updated).getTime();
-  if (ms < 864e5) return 'today';
-  const days = Math.floor(ms / 864e5);
-  if (days < 7) return `${days}d`;
-  if (days < 30) return `${Math.floor(days / 7)}w`;
-  if (days < 365) return `${Math.floor(days / 30)}mo`;
-  return `${(days / 365).toFixed(1)}y`;
+  const days = ageDays(updated);
+  if (Number.isNaN(days)) return '';
+  const n = Math.max(0, Math.floor(days));
+  if (n === 0) return 'today';
+  if (n < 7) return `${n}d`;
+  if (n < 30) return `${Math.floor(n / 7)}w`;
+  if (n < 365) return `${Math.floor(n / 30)}mo`;
+  return `${(n / 365).toFixed(1)}y`;
 }
 
 // Freshness bucket from an ISO `updated` date: 0 ≤7d, 1 ≤30d, 2 older.
 function recencyBucket(updated) {
-  if (!updated) return 2;
-  const days = (Date.now() - new Date(updated).getTime()) / 864e5;
+  const days = ageDays(updated);
+  if (Number.isNaN(days)) return 2;
   if (days <= 7) return 0;
   if (days <= 30) return 1;
   return 2;

@@ -32,17 +32,26 @@ window.IndexCore = (function () {
     return Array.isArray(v) ? v.join(" ") : String(v == null ? "" : v);
   }
 
+  /* Registry dates are date-only (`YYYY-MM-DD`), and `new Date("2026-10-04")`
+     is UTC midnight — the previous LOCAL day in every negative-offset timezone,
+     so a note written today rendered "1d ago" after 17:00 PDT. Parse as local
+     midnight and diff whole local calendar days; the frontmatter carries no
+     time of day, so calendar days are the finest granularity available. */
+  function dayOf(iso) {
+    var m = /^(\d{4})-(\d{2})-(\d{2})/.exec(String(iso));
+    var d = m ? new Date(+m[1], +m[2] - 1, +m[3]) : new Date(iso);
+    if (isNaN(d)) return null;
+    return new Date(d.getFullYear(), d.getMonth(), d.getDate());
+  }
   function ageDays(iso) {
-    if (!iso) return NaN;
-    return (Date.now() - new Date(iso).getTime()) / 864e5;
+    var d = iso ? dayOf(iso) : null;
+    return d ? (Date.now() - d.getTime()) / 864e5 : NaN;
   }
   function relAge(iso) {
-    if (!iso) return "";
-    var t = Date.parse(iso);
-    if (Number.isNaN(t)) return "date unknown";
-    var ms = Date.now() - t;
-    if (ms < 864e5) return "today";
-    var days = Math.floor(ms / 864e5);
+    var days = ageDays(iso);
+    if (isNaN(days)) return iso ? "date unknown" : "";
+    days = Math.max(0, Math.floor(days));
+    if (days === 0) return "today";
     if (days < 7) return days + "d";
     if (days < 30) return Math.floor(days / 7) + "w";
     if (days < 365) return Math.floor(days / 30) + "mo";
