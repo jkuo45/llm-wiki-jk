@@ -226,16 +226,16 @@
             "en-US": {
                 "title": "Caspases — Graph Analysis (wiki + triples)",
                 "description": "Multi-metric network analysis of all caspase nodes on the combined triples + wiki knowledge graph — centrality, communities, and role ranking.",
-                "path": "pages/en-US/caspase-graph-analysis-28-AUG-2026.html"
+                "path": "pages/en-US/caspase-graph-analysis.html"
             },
             "zh-TW": {
                 "title": "Caspases — 圖譜分析（wiki + triples）",
                 "description": "在 triples＋wiki 合併知識圖譜上對全部 caspase 節點的多指標網絡分析——中心性、社群與角色排名。",
-                "path": "pages/zh-TW/caspase-graph-analysis-28-AUG-2026.html"
+                "path": "pages/zh-TW/caspase-graph-analysis.html"
             }
         },
         "created": "2026-08-28",
-        "updated": "2026-09-21"
+        "updated": "2026-10-06"
     },
     {
         "id": "neurodegeneration-ad-pd-hd-als-review",
