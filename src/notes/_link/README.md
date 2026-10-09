@@ -3,14 +3,14 @@ title: Shared Entities (_link)
 aliases: []
 description: index of cross-topic shared entities and documents in the _link directory
 created: 2026-08-16
-updated: 2026-10-02
+updated: 2026-10-08
 ---
 # Shared Entities (`_link`)
 
-Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **1996 entities** across **1103 categories** and **33 documents**.
+Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **2010 entities** across **1103 categories** and **33 documents**.
 
 > [!note]
-> `_link` index. Total entities: 1996 | Categories: 1103 | Documents: 33
+> `_link` index. Total entities: 2010 | Categories: 1103 | Documents: 33
 >
 ## Documents
 
@@ -153,8 +153,10 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Angiogenesis\|Angiogenesis]] | Angiogenesis is the formation of new blood vessels from pre-existing vessels. It is a critical process in Cancer, Wound Healing, and Ischemia-reperfusion Injury adaptation. |
 | [[Angiostatin\|Angiostatin]] | Endogenous anti-angiogenic protein fragment generated from plasminogen by MMPs (especially MMP-12), inhibiting endothelial cell proliferation and tumour angiogenesis. |
 | [[Angiotensin II Type 1 Receptor\|Angiotensin II Type 1 Receptor]] | The angiotensin II type 1 receptor (AT1R, gene AGTR1) is the principal G-protein-coupled receptor mediating the pressor, pro-inflammatory, and pro-fibrotic actions of angiotensin II, and the target of the angiotensin receptor blocker drug class. |
+| [[Anion Exchanger 1\|Anion Exchanger 1]] | AE1/Band 3 (SLC4A1), the most abundant erythrocyte membrane protein: anion exchanger for CO2/HCO3- transport, membrane-cytoskeleton anchor preserving the biconcave shape, senescence neo-antigen for immune clearance, and calpain/caspase-3 substrate during eryptosis. |
 | [[Annexin A1\|Annexin A1]] | Anti-inflammatory phospholipid-binding protein (ANXA1) whose tripeptide mimetic Ac2-26 transcriptionally upregulates SIRT3, reducing oxidative damage and promoting mitochondrial biogenesis and mitophagy. |
 | [[Antagonistic Pleiotropy\|Antagonistic Pleiotropy]] | An evolutionary concept wherein a trait beneficial to early-life fitness becomes detrimental later in life, proposed as the reason RCM evolved as a short-term survival response that drives aging. |
+| [[Antiphospholipid Syndrome\|Antiphospholipid Syndrome]] | Autoimmune thrombophilia defined by antiphospholipid antibodies plus thrombosis or pregnancy morbidity; APS autoantibodies induce eryptosis in healthy red cells, offering a route to a prothrombotic erythrocyte phenotype. |
 | [[Anti-inflammatory\|Anti-inflammatory]] | Anti-inflammatory refers to substances, interventions, or mechanisms that reduce Inflammation. This encompasses pharmacological agents (NSAIDs, Corticosteroids, DMARDs, Biologics), dietary compound... |
 | [[Antibody\|Antibody]] | An antibody (immunoglobulin) is the Y-shaped soluble immune receptor that binds antigen with high affinity and specificity, coupling antigen recognition to effector functions through the constant region. |
 | [[Anticoagulant\|Anticoagulant]] | Anticoagulants are agents that impair blood clot formation by acting on the coagulation cascade — heparin-class agents via antithrombin, vitamin K antagonists via VKORC1, and direct oral agents via thrombin or factor Xa — used to prevent and treat thromboembolism. |
@@ -286,6 +288,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[C57BL-6\|C57BL/6]] | The most widely used inbred laboratory mouse strain, serving as the reference background for genetic and aging research. |
 | [[C9orf72\|C9orf72]] | C9orf72, an ALS/FTD-associated gene whose repeat expansions drive cGAS-STING activation via nucleocytoplasmic transport defects and DNA damage. |
 | [[Ca2+ overload\|Ca2+ overload]] | Cytosolic Ca2+ overload is the calcium-flooded intermediate linking ATP collapse to calpain and mPTP execution in necrosis. |
+| [[Carbonic Anhydrase\|Carbonic Anhydrase]] | Zinc enzyme hydrating CO2 to bicarbonate; in erythrocytes it completes ~23% of CO2 carriage together with anion exchanger 1 in the chloride shift. |
 | [[Cachexia\|Cachexia]] | A multifactorial syndrome of severe body-weight loss, muscle and fat wasting driven by systemic inflammation and catabolic signaling, complicating chronic disease. |
 | [[Caffeic Acid Phenethyl Ester\|Caffeic Acid Phenethyl Ester]] | CAPE is the caffeic acid–phenethyl alcohol ester found in propolis and several plants; in vitro and animal models it activates NRF2/HO-1, suppresses NF-kB and is reported as a radiosensitiser, but it has no established clinical efficacy. |
 | [[Caffeine\|Caffeine]] | Caffeine is a methylxanthine alkaloid and the most widely consumed psychoactive drug; it acts mainly as an antagonist at adenosine receptors, and at typical doses produces alerting, reduced fatigue and a modest reduction in Parkinson's disease risk. |
@@ -581,6 +584,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[DRP1\|DRP1]] | Dynamin-Related Protein 1 is the cytosolic dynamin-like GTPase that mediates mitochondrial fission, recruited to mitochondria by MFF/MID49/MID51/FIS1 adaptors. |
 | [[Drug Resistance\|Drug Resistance]] | Acquired or intrinsic reduction in cancer cell sensitivity to therapeutic agents. |
 | [[DSRM-3716\|DSRM-3716]] | DSRM-3716 is a next-generation non-covalent small-molecule SARM1 inhibitor that occupies the NAD+-binding pocket of the TIR dimer with nanomolar potency and high selectivity, under development for axon-degeneration disorders. |
+| [[Duffy Antigen Receptor for Chemokines\|Duffy Antigen Receptor for Chemokines]] | DARC/ACKR1 chemokine scavenger on erythrocytes, fine-tuning leukocyte recruitment and serving as the invasion receptor for Plasmodium vivax and P. knowlesi. |
 | [[DunedinPACE\|DunedinPACE]] | A methylation-based estimator of the pace of biological aging that predicts aging-related decline and disease from a single timepoint. |
 | [[Dysbiosis\|Dysbiosis]] | Disruption of the composition and functional balance of the commensal microbiota, linked to inflammation, metabolic disease, and accelerated aging. |
 | [[Dyspnea\|Dyspnea]] | Dyspnea is the subjective sensation of breathlessness, a presenting symptom of methemoglobinemia and respiratory distress. |
@@ -628,6 +632,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Entacapone\|Entacapone]] | A nitrocatechol-class COMT inhibitor used as an adjunct to levodopa therapy in Parkinson's disease. |
 | [[Enterocloster\|Enterocloster]] | Enterocloster is a gut bacterial genus contributing to ellagitannin conversion toward urolithin A. |
 | [[Enzalutamide\|enzalutamide]] | Enzalutamide is a second-generation, nonsteroidal androgen-receptor (AR) signaling inhibitor used in castration-resistant prostate cancer (CRPC) for which drug resistance is a major clinical problem; preclinical studies show ivermectin can overcome enzalutamide resistance and synergize with docetaxel. |
+| [[Efferocytosis\|Efferocytosis]] | PS-dependent phagocytic clearance of apoptotic cells; in erythrocytes it removes eryptotic cells within minutes and reprograms macrophages toward an antiinflammatory, heme-oxygenase-1-high phenotype. |
 | [[Eosinophils\|Eosinophils]] | Eosinophils are IL-5-driven granulocytes of myeloid lineage that degranulate a cationic, peroxidase-rich granule arsenal onto helminths and onto host tissue, making them simultaneously essential for parasite defence and drivers of allergic and fibrotic disease. |
 | [[EP300\|EP300]] | E1A binding protein p300, a histone acetyltransferase whose inhibition by spermidine derepresses autophagy. |
 | [[Epacadostat\|Epacadostat]] | Epacadostat (INCB024360) is a selective, orally available inhibitor of IDO1 that was developed for cancer immunotherapy, often combined with checkpoint inhibitors. |
@@ -648,8 +653,9 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[ERK2\|ERK2]] | Extracellular regulated protein kinase 2 (ERK2) is a kinase that phosphorylates TFEB at S142, contributing to its cytosolic retention. |
 | [[ERMIT\|ERMIT]] | Erythroid mitophagy; the programmed elimination of mitochondria during erythrocyte maturation, driven primarily by BNIP3L/NIX and BIM, essential for red blood cell function. |
 | [[ERRalpha\|ERRalpha]] | ERRα (estrogen-related receptor alpha, encoded by ESRRA) is an orphan Nuclear Receptor that functions as a master regulator of Mitochondrial Biogenesis, Oxidative Phosphorylation, and Fatty aci... |
-| [[Eryptosis\|Eryptosis]] | The apoptosis-like regulated death of anucleate red blood cells — Ca2+ influx, calpain/scramblase activation, phosphatidylserine exposure — leading to silent splenic clearance. |
+| [[Erythrocyte Senescence\|Erythrocyte Senescence]] | The ~120-day red-cell aging program (density rise, desialylation, cation loss, oxidative damage, CD47 loss, AE1 neo-antigen) cleared over days by macrophage/NOAb immunity — distinct from minutes-fast eryptosis. |
 | [[Erythropoietin\|Erythropoietin]] | The renal hypoxia-induced hematopoietic cytokine (EPO) driving erythropoiesis — reported protective against eryptosis, though direct anti-eryptotic action is inferred rather than demonstrated. |
+| [[Erythropoiesis\|Erythropoiesis]] | The marrow line from hematopoietic stem cells to mature erythrocytes, ending in enucleation and organelle clearance — which is why mature red cells retain only a truncated death machinery. |
 | [[Essential Amino Acids\|Essential Amino Acids]] | The nine amino acids that cannot be synthesized de novo by humans and must be obtained from the diet (histidine, isoleucine, leucine, lysine, methionine, phenylalanine, threonine, tryptophan, valine). Their dietary restriction underlies the benefits of protein and amino-acid restriction. |
 | [[Estrogen\|Estrogen]] | Estrogen is a category of sex hormones responsible for the development and regulation of the female reproductive system and secondary sex characteristics. |
 | [[Estrogen Receptor\|Estrogen Receptor]] | Nuclear receptor transcription factors (ERα/ERβ) that mediate estrogen signaling and are key targets in breast and other hormone-sensitive cancers; ERβ in particular gates female-restrained inflammasome/cell-death programs and is an emerging sex-stratified therapeutic axis. |
@@ -743,6 +749,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[GAP\|GAP]] | GAP (GTPase-activating protein) is a family of regulatory proteins that accelerate intrinsic GTP hydrolysis on small GTPases, switching them from GTP- to GDP-bound and thereby terminating their signalling. The clearest cases in this vault are the TSC1/TSC2 heterodimer acting on Rheb to restrain mTORC1, and NF1/neurofibromin acting on Ras. |
 | [[Gap Junction\|Gap Junction]] | Connexin-formed intercellular channels that permit direct transfer of cGAMP to amplify cGAS-STING signaling. |
 | [[GAPDH\|GAPDH]] | Glyceraldehyde-3-phosphate dehydrogenase (GAPDH) is the NAD+-dependent glycolytic enzyme catalyzing the GAP to 1,3-BPG conversion, and a moonlighting protein that senses oxidative stress and translocates to the nucleus to promote apoptosis. |
+| [[Gardos Channel\|Gardos Channel]] | KCa3.1 (KCNN4), the Ca2+-activated K+ channel whose K+ efflux produces the cell shrinkage of eryptosis; blocked by charybdotoxin and clotrimazole. |
 | [[Gastrointestinal Tract\|Gastrointestinal Tract]] | The gastrointestinal tract (GIT) is the continuous muscular tube from mouth to anus responsible for ingestion, digestion, nutrient absorption, and waste elimination, and a key interface with the gut microbiome and immune system. |
 | [[GATA3\|GATA3]] | GATA3 is a zinc-finger pioneer transcription factor that drives luminal differentiation in breast epithelium, is mutated at high frequency in luminal breast cancer, and is widely used as an immunohistochemical marker of breast and urothelial origin. |
 | [[GATA4\|GATA4]] | GATA binding protein 4, a zinc-finger transcription factor of the GATA family essential for cardiac development and the hypertrophic response, that also functions as a stress-responsive regulator of the senescence-associated secretory phenotype (SASP) cooperating with NF-κB and C/EBPβ. |
@@ -839,6 +846,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Heart\|Heart]] | Muscular pump organ whose cardiomyocytes, conduction, and natriuretic signaling set systemic perfusion. |
 | [[Heart Failure\|Heart Failure]] | Heart failure is a complex clinical syndrome where the heart is unable to pump sufficiently to maintain blood flow. It is a common end-stage of Cardiovascular Disease and Hypertension. |
 | [[Heart Rate Variability\|Heart Rate Variability]] | The beat-to-beat variation in interbeat intervals, a noninvasive marker of autonomic balance and recovery capacity used to guide hormetic stress dosing. |
+| [[Haptoglobin\|Haptoglobin]] | Plasma glycoprotein that binds hemoglobin released by hemolysis and clears the complex via CD91 without liberating iron; low haptoglobin marks intravascular hemolysis. |
 | [[Heat Shock Proteins\|Heat Shock Proteins]] | Conserved chaperones induced by proteotoxic and thermal stress that refold misfolded proteins and support mitochondrial and cellular proteostasis. |
 | [[HEK293\|HEK293]] | A human embryonic kidney cell line widely used for recombinant protein expression, transfection, and virology. |
 | [[HeLa\|HeLa]] | The first immortal human cell line, derived from cervical adenocarcinoma, foundational to modern cell biology. |
@@ -847,6 +855,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Hematopoiesis\|Hematopoiesis]] | Hematopoiesis is the lifelong process of blood-cell formation from hematopoietic stem cells in the bone marrow, governed by transcription factors, cytokines, and the niche, and declining with age. |
 | [[Hematopoietic Stem Cell\|Hematopoietic Stem Cell]] | Multipotent stem cells that give rise to all blood cell types through haematopoiesis |
 | [[Hemoglobin\|Hemoglobin]] | - Methemoglobin: An oxidized form of hemoglobin (Fe³⁺) that cannot transport oxygen. |
+| [[Hemopexin\|Hemopexin]] | Plasma heme-binding glycoprotein delivering heme to CD91 receptors for HO-1 degradation; its depletion marks intravascular hemolysis and unbuffered heme becomes a DAMP. |
 | [[Heparin-Induced Thrombocytopenia\|Heparin-Induced Thrombocytopenia]] | Heparin-induced thrombocytopenia is an immune-mediated, highly prothrombotic adverse drug reaction to heparin in which IgG antibodies against platelet factor 4-heparin complexes activate platelets via Fc gamma RIIa, causing thrombocytopenia with paradoxically high rates of venous and arterial thrombosis. |
 | [[Hepatic Steatosis\|Hepatic Steatosis]] | Etiology and pathophysiology: Hepatic Steatosis is a medical condition characterized by specific pathological changes in cellular, tissue, or organ function. Its development involves genetic, e... |
 | [[Hepatic Stellate Cells\|Hepatic Stellate Cells]] | Hepatic stellate cells (HSC) are liver-specific pericytes that store vitamin A, regulate extracellular matrix turnover, and when senescent secrete SASP factors driving obesity-associated hepatocellular carcinoma. |
@@ -1027,6 +1036,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Kaempferol\|Kaempferol]] | A natural flavonol (3,5,7,4′-tetrahydroxyflavone) with antioxidant, anti-inflammatory, and anticancer activities, frequently studied alongside apigenin and quercetin. |
 | [[KAP1\|KAP1]] | KRAB-associated protein 1 (TRIM28/TIF1β), a transcriptional corepressor mono-ADP-ribosylated by SIRT6 to silence LINE-1 retrotransposons via HP1α in aging and senescence. |
 | [[Kaposi sarcoma\|Kaposi sarcoma]] | A vascular spindle-cell tumour driven by HHV-8/KSHV, occurring in four epidemiological forms (classic, endemic African, iatrogenic post-transplant, and AIDS-associated) and strongly dependent on impaired cell-mediated immunity for its clinical expression. |
+| [[Kupffer Cell\|Kupffer Cell]] | Hepatic sinusoidal macrophage; the liver's clearance arm for PS-exposing (eryptotic and senescent) erythrocytes and RBC-derived vesicles, forming erythrophagolysosomes and driving hepatic iron recycling. |
 | [[KDM4\|KDM4]] | Lysine demethylase 4 family, JmjC histone demethylases that erase H3K9me3/me2 to open chromatin and promote SASP factor expression. |
 | [[KDM5C\|KDM5C]] | KDM5C (Lysine Demethylase 5C, also called JARID1C) is an X-linked H3K4 demethylase that regulates gene expression and X-chromosome inactivation; loss-of-function mutations drive male-biased tumorigenesis. |
 | [[KDM6A\|KDM6A]] | KDM6A (Lysine Demethylase 6A, also called UTX) is an X-linked H3K27me3 demethylase that opens repressive chromatin and escapes X-inactivation in females; loss-of-function mutations are enriched in male tumors. |
@@ -1121,6 +1131,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[MAGEC3\|MAGEC3]] | MAGEC3 (Melanoma-Associated Antigen Family Member C3) is an X-linked cancer-testis antigen and putative tumor suppressor enriched for loss-of-function mutations in male tumors. |
 | [[Magnesium\|Magnesium]] | Magnesium is an essential mineral involved in over 300 biochemical reactions in the body. |
 | [[Magnolol\|Magnolol]] | A biphenyl neolignan from Magnolia species, structural analog of honokiol, with neuroprotective, anxiolytic, anti-inflammatory, antibacterial, and antioxidant activities. |
+| [[Malaria\|Malaria]] | Plasmodium infection of erythrocytes; oxidative stress opens cation channels and drives eryptosis, clearing infected cells and parasites, while G6PD deficiency and other erythrocyte defects confer partial protection. |
 | [[Malate\|Malate]] | The four-carbon TCA-cycle intermediate produced from oxaloacetate by malate dehydrogenase; a node linking the citric acid cycle, the malate-aspartate shuttle, and cytosolic-mitochondrial NAD+/NADH balance in senescence. |
 | [[Malate Dehydrogenase\|Malate Dehydrogenase]] | Enzyme catalyzing the reversible NAD+-dependent interconversion of oxaloacetate and malate in the TCA cycle and the malate-aspartate shuttle; cytosolic MDH1 loss lowers NAD+/NADH and can induce senescence. |
 | [[Malate-Aspartate Shuttle\|Malate-Aspartate Shuttle]] | The principal cytosolic-mitochondrial shuttle that transfers glycolytic NADH into mitochondria for OXPHOS; inhibiting it with aminooxyacetate lowers cytosolic NAD+/NADH and induces senescence. |
@@ -1529,6 +1540,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Physical Activity Level\|Physical Activity Level]] | The ratio of total daily energy expenditure to resting metabolic rate (DEE:RMR). Western adults average ~1.66, whereas free-living wild mammals average ~2.6, expressing the extent to which energy above rest is expended on activity. |
 | [[PI3K\|PI3K]] | Phosphoinositide 3-kinase (PI3K) is a family of enzymes involved in cellular functions such as cell growth, proliferation, differentiation, motility, survival, and intracellular trafficking. |
 | [[Piceatannol\|Piceatannol]] | Piceatannol (3,3',4,5'-tetrahydroxystilbene) is a natural stilbenoid polyphenol, structurally related to resveratrol, that activates multiple sirtuin isoforms. |
+| [[Piezo1\|Piezo1]] | Mechanosensitive nonselective cation channel transducing mechanical stress into Ca2+ influx in erythrocytes, linking shear and surface-accumulating nanomaterials to eryptosis. |
 | [[Pin1\|Pin1]] | Peptidyl-prolyl cis/trans isomerase that recognizes phosphorylated Ser/Thr-Pro motifs and catalyzes conformational changes; acts as a molecular switch determining pro-survival vs. pro-death outcomes for BAX. |
 | [[PINK1\|PINK1]] | Mitochondrial serine/threonine kinase that recruits Parkin to damaged mitochondria to initiate mitophagy. |
 | [[Pinosylvin\|Pinosylvin]] | Pinosylvin is a 3,5-dihydroxystilbene, the resveratrol analogue produced by pine trees as a antifungal phytoalexin; it shows modestly greater antifungal and COX activity than resveratrol but very poor oral bioavailability, and it remains a research compound rather than a therapeutic. |
@@ -1653,6 +1665,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Respiratory Chain Complex I\|Respiratory Chain Complex I]] | Complex I (NADH:ubiquinone oxidoreductase) is the largest ETC enzyme; it oxidizes NADH, reduces ubiquinone, pumps protons, and is a major superoxide source. |
 | [[Resting Metabolic Rate\|Resting Metabolic Rate]] | The energy expended by a post-absorptive organism at rest in a thermoneutral environment, excluding activity, thermic effect of food, and growth. RMR is the largest single component of daily energy expenditure and is determined primarily by fat-free mass. |
 | [[Resveratrol\|Resveratrol]] | Resveratrol (3,5,4′-trihydroxystilbene) is a polyphenolic stilbene found in grapes, red wine, and other plants. It was identified as the prototypical STACs (STAC) and has been shown to extend lifes... |
+| [[Reticulocyte\|Reticulocyte]] | Enucleated but organelle-retaining immature red cell released from marrow; the stage of mitochondrial clearance and the clinical readout of erythropoietic output. |
 | [[Retinal Ganglion Cells\|Retinal Ganglion Cells]] | CNS projection neurons vulnerable in glaucoma whose cGAS-STING activation drives cell death and vision loss. |
 | [[Retinoic Acid\|Retinoic Acid]] | Active metabolite of vitamin A and potent differentiation inducer used to drive embryonic stem cell lineage commitment. |
 | [[Retrograde Signaling\|Retrograde Signaling]] | A pathway of communication from the mitochondria to the cell that influences cellular and organismal activities |
@@ -1857,6 +1870,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[TBK1\|TBK1]] | TANK-binding kinase 1, an enzyme involved in the innate immune response, activated by STING and regulated by TFEB. |
 | [[TCA cycle\|TCA cycle]] | Tricarboxylic acid (Krebs) cycle, the central mitochondrial pathway oxidizing acetyl-CoA to CO2 while generating NADH, FADH2, and GTP. |
 | [[TDO\|TDO]] | Tryptophan 2,3-dioxygenase (TDO) is a hepatic heme-containing enzyme that catalyzes the same first step in the kynurenine pathway as IDO1 — converting tryptophan to N-formylkynurenine — and is primarily regulated by tryptophan concentration and glucocorticoids. |
+| [[TRPC6\|TRPC6]] | Ca2+-permeable transient receptor potential channel 6; mediates Ca2+ entry into human erythrocytes (TRPC4/5 in mouse), a candidate initiation route for eryptosis. |
 | [[TDP-43\|TDP-43]] | TAR DNA-binding protein 43, an RNA-binding protein whose mitochondrial mislocalization in ALS/FTD triggers cGAS-STING activation via mtDNA release. |
 | [[Telomerase\|Telomerase]] | Catalytic function: Telomerase is an enzyme that catalyzes biochemical reactions essential for cellular metabolism and homeostasis. |
 | [[Telomere\|Telomere]] | Repetitive nucleoprotein caps at chromosome ends that protect genomic integrity and shorten with age and cell division. |

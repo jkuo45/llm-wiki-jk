@@ -3,7 +3,7 @@ title: Cell Death
 aliases: []
 description: index of entities and documents in this directory
 created: 2026-09-07
-updated: 2026-10-01
+updated: 2026-10-08
 ---
 # Cell Death
 
@@ -28,6 +28,8 @@ updated: 2026-10-01
 Core death machinery lives here per §7 (topic home outranks `_link/`; all notes below are `protected: true`).
 
 Modalities: [[Regulated Cell Death]], [[Apoptosis]], [[Apoptotic Bodies]], [[Apoptosome]], [[Necroptosis]], [[necrosome]], [[Necrosis]], [[Secondary Necrosis]], [[Parthanatos]], [[Ferroptosis]], [[Pyroptosis]], [[Autophagic Cell Death]].
+
+Erythrocyte death modalities: [[Eryptosis]] (Ca²⁺-driven, PS-exposing, non-lytic; the only RCD of anucleate cells) and [[Erythronecroptosis]] (RIPK1/RIPK3/MLKL-dependent lytic death; caspase-8 switches between the two). Supporting notes in `_link/`: [[Gardos Channel]], [[Piezo1]], [[Efferocytosis]], [[Erythropoiesis]], [[Anion Exchanger 1]], [[Erythrocytes]].
 
 Caspases: [[Caspases]], [[Caspase-2]], [[Caspase-3]], [[Caspase-4]], [[Caspase-5]], [[Caspase-6]], [[Caspase-7]], [[Caspase-8]], [[Caspase-8-c-FLIP Rheostat]], [[Caspase-9]], [[Caspase-10]], [[Caspase-11]], [[Caspase-12]], [[Executioner Caspase]], [[Inhibitor of Apoptosis Proteins]], [[cIAPs]].
 
