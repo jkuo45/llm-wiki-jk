@@ -71,6 +71,6 @@ List of documents that mention this entity
 - [[melittin]]: Shown to inhibit the PI3K/Akt/mTOR axis in breast cancer cells.
 
 ## Linking Summary
-- New links added: [[Autophagy]], [[IGF1]], [[Akt]], [[mTORC1]], [[Vps34]], [[Beclin1]], [[Atg14]], [[Autophagosome]], [[Target of rapamycin]], [[mTORC2]], [[Incoherent Bivalent Motif]], [[Biphasic Dose-Response Curve]], [[PTEN]], [[mTORC1]]
+- New links added: [[Autophagy]], [[IGF1]], [[Akt]], [[mTORC1]], [[Vps34]], [[Beclin1]], [[Atg14]], [[Autophagosome]], [[mTOR]], [[mTORC2]], [[Incoherent Bivalent Motif]], [[Biphasic Dose-Response Curve]], [[PTEN]], [[mTORC1]]
 - Suggested new entity notes to create: [[IGF1]], [[Akt]], [[mTORC1]], [[Vps34]], [[Beclin1]], [[Autophagosome]]
   - Strong connections to strengthen: [[PI3K]] ↔ [[Akt]], [[PI3K]] ↔ Vps34, [[PI3K]] ↔ Autophagy

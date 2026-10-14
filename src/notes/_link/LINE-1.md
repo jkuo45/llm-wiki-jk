@@ -25,7 +25,7 @@ aliases: []
   - [[_document_ - centenarian_SIRT6 nihpp-rs9997679v1|Centenarian SIRT6 Variants Study]]
     - Centenarian SIRT6 variants (N308K/A313S) suppress progerin-induced LINE1 derepression in hMSCs. AAV-mediated CentSIRT6 delivery or Fucoidan-FV treatment reduces LINE1 ORF1p/ORF2p in HGPS fibroblasts.
 
-  - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
+  - [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]]
     - Review notes LINE-1 (and HERV) derepression — driven by RB1 decline and SIRT6 loss from L1 loci plus DNA hypomethylation — generates cytoplasmic cDNA that triggers cGAS–STING–dependent SASP and inflammaging; NRTIs suppress this.
 
 ## Connections

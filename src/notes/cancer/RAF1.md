@@ -2,10 +2,10 @@
 title: RAF1
 description: RAF1 (C-Raf) is a serine/threonine kinase and core component of the MAPK/ERK pathway that transmits growth and survival signals; it phosphorylates and inhibits the pro-apoptotic protein Bad to promote cell survival.
 created: 2026-07-06
-updated: 2026-07-07
+updated: 2026-10-02
 tags:
   - enzyme
-aliases: []
+aliases: [Raf-1, RAF-1, c-Raf, c-Raf-1]
 ---
 
 # RAF1

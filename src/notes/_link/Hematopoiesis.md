@@ -25,7 +25,7 @@ aliases: [Blood cell formation, Hematopoietic development]
 
   - [[_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses|Nicotinamide Riboside: Current Research]]
     - Links NAD+ metabolism to hematopoietic and regenerative function.
-  - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression|Dynamic Epigenetic Landscape in Senescence]]
+  - [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression|Dynamic Epigenetic Landscape in Senescence]]
     - Describes epigenetic control of stem and progenitor cell states relevant to hematopoiesis.
 
 ## Connections

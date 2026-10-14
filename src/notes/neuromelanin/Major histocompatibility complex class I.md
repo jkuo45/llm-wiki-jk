@@ -2,10 +2,10 @@
 title: Major histocompatibility complex class I
 description: Major histocompatibility complex class I (MHC-I) molecules are found on the surface of nearly all nucleated cells.
 created: 2026-07-04
-updated: 2026-07-07
+updated: 2026-10-01
 tags:
   - protein
-aliases: []
+aliases: [MHC Class I, MHC class I, MHC-I, HLA class I, HLA Class I]
 ---
 
 # Major histocompatibility complex class I

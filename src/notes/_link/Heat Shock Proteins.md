@@ -16,7 +16,7 @@ aliases:
 
 # Heat Shock Proteins
 
-**Heat shock proteins ([[Heat Shock Proteins|HSPs]])** are a conserved family of molecular chaperones induced by proteotoxic, thermal, oxidative, and exercise stress. Major families include small HSPs ([[HSP27]]), HSP60/70 ([[HSP70]]), and HSP90 ([[Hsp90]]), whose expression is coordinated transcriptionally by heat shock factor [[HSF1]].
+**Heat shock proteins ([[Heat Shock Proteins|HSPs]])** are a conserved family of molecular chaperones induced by proteotoxic, thermal, oxidative, and exercise stress. Major families include small HSPs ([[HSP27]]), HSP60/70 ([[HSP70]]), and HSP90 ([[HSP90β]]), whose expression is coordinated transcriptionally by heat shock factor [[HSF1]].
 
 ## Function
 
@@ -40,6 +40,6 @@ Sauna use (15–20 min) induces HSPs, which repair misfolded proteins and suppor
 
 ## Linking Summary
 
-- New links added: [[HSF1]], [[HSP70]], [[HSP27]], [[Hsp90]], [[Mitochondria]], [[Mitohormesis]], [[Mitophagy]], [[Mitochondrial Biogenesis]]
+- New links added: [[HSF1]], [[HSP70]], [[HSP27]], [[HSP90β]], [[Mitochondria]], [[Mitohormesis]], [[Mitophagy]], [[Mitochondrial Biogenesis]]
 - Suggested new entity notes to create: [[Heat Shock Response]], [[Mitochondrial Unfolded Protein Response]]
 - Strong connections to strengthen: [[Heat Shock Proteins]] ↔ [[HSF1]]

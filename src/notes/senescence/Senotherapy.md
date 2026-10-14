@@ -33,7 +33,7 @@ Because the SASP is context-dependent — beneficial in acute senescence (wound 
 
 ## Documents
 
-- [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]] — Frames epigenetic modulators (KDM4/DOT1L/BRD4 inhibitors, NRTIs) as candidate senomorphics that suppress SASP while sparing growth arrest.
+- [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]] — Frames epigenetic modulators (KDM4/DOT1L/BRD4 inhibitors, NRTIs) as candidate senomorphics that suppress SASP while sparing growth arrest.
 
 ## Connections
 

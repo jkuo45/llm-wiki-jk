@@ -6,7 +6,7 @@ created: 2026-08-15
 updated: 2026-08-15
 tags: [biological-molecule, retrotransposon, innate-immune, senescence, aging]
 url: #
-source: _document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md
+source: _document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md
 aliases: [Human Endogenous Retrovirus, HERV-K, HERV-H]
 ---
 
@@ -33,7 +33,7 @@ The role of HERVs in aging is an active area. While derepression of retroelement
 
 ## Documents
 
-- [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression|The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
+- [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression|The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
   - Details how HERV derepression during senescence activates the cGAS-STING pathway and drives SASP expression.
 
 ## Connections

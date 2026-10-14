@@ -83,7 +83,7 @@ nav a.n:hover{color:var(--teal); text-decoration:none;}
 nav a.back-home{display:inline-block; margin-right:4px; color:var(--text); font-size:.85rem; font-weight:700; background:var(--card); border:1px solid var(--line2); border-radius:8px; padding:4px 12px;}
 nav a.back-home:hover{color:var(--teal); border-color:var(--teal); text-decoration:none;}
 /* hero */
-header{padding:64px 0 40px;}
+header{padding:24px 0 24px;}
 header .meta{color:var(--mute); font-size:.85rem; margin-top:10px;}
 .pill-row{margin-top:14px;}
 /* spectrum */

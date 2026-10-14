@@ -119,7 +119,7 @@ _Note: Aminoguanidine remains an experimental compound, and oral methylene blue 
 
 #### **Route-Specific Issues (The Methylation Toll)**
 
-- High-dose **oral** NR (and its conversion to NAM) requires excretion via methylation (forming MeNAM). Chronic high-dose oral use can deplete the body's methyl pool ([[S-adenosylmethionine]] or SAMe), sometimes requiring co-supplementation with methyl donors like [[TMG]] (Trimethylglycine).
+- High-dose **oral** NR (and its conversion to NAM) requires excretion via methylation (forming MeNAM). Chronic high-dose oral use can deplete the body's methyl pool ([[SAMe]] or SAMe), sometimes requiring co-supplementation with methyl donors like [[TMG]] (Trimethylglycine).
 
 ---
 

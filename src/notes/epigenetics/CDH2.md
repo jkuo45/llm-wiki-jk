@@ -30,7 +30,7 @@ In the developing nervous system, N-cadherin mediates neurite outgrowth, axon gu
 The **[[Cadherin Switch]]** — downregulation of [[E-cadherin]] and concomitant upregulation of N-cadherin — is a hallmark of [[EMT]] and is associated with increased cell motility, invasion, and metastasis. N-cadherin promotes a mesenchymal phenotype through several mechanisms:
 
 - **Homophilic adhesion to stromal N-cadherin** enables cancer cells to migrate along fibroblasts and endothelial cells, facilitating invasion.
-- **N-cadherin/FGFR signaling** activates [[MAPK]] and [[PI3K]]/[[AKT]] pathways, promoting survival and proliferation in the mesenchymal state.
+- **N-cadherin/FGFR signaling** activates [[MAPK]] and [[PI3K]]/[[Akt]] pathways, promoting survival and proliferation in the mesenchymal state.
 - **N-cadherin/β-catenin signaling** can contribute to Wnt-independent transcriptional activation.
 - **N-cadherin/p120-catenin** interactions regulate Rho GTPases ([[RhoA]], [[Rac1]], [[Cdc42]]) to remodel the actin cytoskeleton and drive protrusive motility.
 
@@ -54,6 +54,6 @@ During [[Induced Pluripotent Stem Cell]] (iPSC) reprogramming with [[Yamanaka Fa
 
 ## Linking Summary
 
-- New links added: [[N-cadherin]], [[EMT]], [[E-cadherin]], [[Adherens Junction]], [[Cadherin Switch]], [[FGF Receptor]], [[β-catenin]], [[MAPK]], [[PI3K]], [[AKT]], [[OCT4]], [[SOX2]], [[KLF4]], [[c-MYC]]
+- New links added: [[N-cadherin]], [[EMT]], [[E-cadherin]], [[Adherens Junction]], [[Cadherin Switch]], [[FGF Receptor]], [[β-catenin]], [[MAPK]], [[PI3K]], [[Akt]], [[OCT4]], [[SOX2]], [[KLF4]], [[c-MYC]]
 - Suggested new entity notes to create: [[ADH-1]], [[Intercalated Disc]], [[Mesenchymal Phenotype]]
 - Strong connections to strengthen: [[CDH2]] ↔ [[Cadherin Switch]], [[CDH2]] ↔ [[EMT]], [[CDH2]] ↔ [[Induced Pluripotent Stem Cells]]

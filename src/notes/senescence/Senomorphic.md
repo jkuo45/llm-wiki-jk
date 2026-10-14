@@ -42,7 +42,7 @@ The ASAP→SASP transition is also a target of other senomorphics: [[Rutin]] dis
   - [[_document_ - Fisetin is a senotherapeutic that extends health and lifespan|Fisetin Senotherapeutic & Lifespan]]
     - Discusses whether fisetin's durable benefit reflects senolytic clearance versus senomorphic suppression of senescence markers.
 
-  - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
+  - [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]]
     - Review discusses epigenetic modulators—inhibitors of KDM4, DOT1L, BRD4, HMGB2, and NRTIs targeting LINE-1/HERV reverse transcriptase—as senomorphics that suppress SASP without disrupting growth arrest.
 
   - [[_document_ - repurposing_apigen_senomorphic.09.09.611999v1.full|Repurposing apigenin for senomorphic effect in antiaging pipelines]]

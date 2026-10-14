@@ -24,7 +24,7 @@ protected: true
 
 ## Redox Cycling and Toxicity
 
-The leukoaminochrome ↔ aminochrome couple is central to the [[Redox Cycling]] of adrenochrome. One-electron oxidation of leukoaminochrome produces a semiquinone radical that reduces molecular oxygen to [[Superoxide anion]], perpetuating a self-amplifying cycle of [[Oxidative Stress]]. Two-electron reduction by [[DT-diaphorase]] ([[NQO1]]) or [[Glutathione]]-dependent systems, by contrast, safely channels the leuco form away from semiquinone formation.
+The leukoaminochrome ↔ aminochrome couple is central to the [[Redox Cycling]] of adrenochrome. One-electron oxidation of leukoaminochrome produces a semiquinone radical that reduces molecular oxygen to [[Superoxide anion]], perpetuating a self-amplifying cycle of [[Oxidative Stress]]. Two-electron reduction by [[NQO1|DT-diaphorase]] or [[Glutathione]]-dependent systems, by contrast, safely channels the leuco form away from semiquinone formation.
 
 > [!warning]
 > Leukoaminochrome can undergo metal-catalyzed autoxidation, regenerating the parent aminochrome while spawning reactive oxygen species—a key mechanism by which the adrenochrome pathway inflicts mitochondrial and protein damage.
@@ -45,10 +45,10 @@ In catecholaminergic neurons, leukoaminochrome intermediates condense and oxidiz
   - [[Redox Cycling]]: Core process linking leukoaminochrome to ROS amplification.
   - [[Neuromelanin]]: Polymeric pigment formed from leucoaminochrome condensation.
   - [[NQO1]]: Two-electron reductase that detoxifies the aminochrome/leuco couple.
-  - [[DT-diaphorase]]: Enzymatic route preventing semiquinone-mediated oxidative damage.
+  - [[NQO1|DT-diaphorase]]: Enzymatic route preventing semiquinone-mediated oxidative damage.
 
 ## Linking Summary
 
-  - New links added: [[Leuco-adrenochrome]], [[Adrenochrome]], [[Aminochromes]], [[Redox Cycling]], [[Neuromelanin]], [[Melanins]], [[Superoxide anion]], [[Oxidative Stress]], [[DT-diaphorase]], [[NQO1]], [[Glutathione]], [[Substantia Nigra]], [[Parkinson's Disease]]
+  - New links added: [[Leuco-adrenochrome]], [[Adrenochrome]], [[Aminochromes]], [[Redox Cycling]], [[Neuromelanin]], [[Melanins]], [[Superoxide anion]], [[Oxidative Stress]], [[NQO1|DT-diaphorase]], [[Glutathione]], [[Substantia Nigra]], [[Parkinson's Disease]]
   - Suggested new entity notes to create: [[Adrenochrome semiquinone radical]] (exists as note), [[Leuco-adrenochrome]]
   - Strong connections to strengthen: [[Leukoaminochrome]] ↔ [[Redox Cycling]], [[Leukoaminochrome]] ↔ [[Neuromelanin]]

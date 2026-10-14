@@ -46,7 +46,7 @@ While the theoretical rationale is elegant, translating this hybrid molecule int
 
 #### B. The Stability and Toxicity of Adrenochrome
 
-Free, non-conjugated [[Adrenochrome]] is highly unstable and is known to be [[Cardiotoxicity|cardiotoxic]], as its [[Redox Cycling]] can generate [[Reactive Oxygen Species]] and deplete cellular [[Antioxidants]] like [[Glutathione]] under physiological conditions.
+Free, non-conjugated [[Adrenochrome]] is highly unstable and is known to be [[Cardiotoxicity|cardiotoxic]], as its [[Redox Cycling]] can generate [[Reactive Oxygen Species]] and deplete cellular [[Antioxidant]] like [[Glutathione]] under physiological conditions.
 
 - **The Importance of the Conjugate:** The stable guanylhydrazone form ([[Adrenochrome monoaminoguanidine]]) mitigates this inherent toxicity, making it safe enough for historical clinical use. However, if the molecule undergoes significant systemic hydrolysis back into its parent components, the localized release of free [[Adrenochrome]] could inadvertently promote [[Oxidative Stress]] rather than alleviate it.
 

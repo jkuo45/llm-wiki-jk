@@ -52,10 +52,10 @@ List of documents in the wiki that mention this entity
   - [[Vitamin D]] — paired with creatine in human trial
   - [[Resistance Training]] — synergizes in rehabilitation
   - [[Creatine Supplementation]] — prophylactic and rehabilitative agent
-  - [[Traumatic Brain Injury (TBI)]] — related neurotrauma
+  - [[Traumatic Brain Injury]] — related neurotrauma
 
 ## Linking Summary
 
-  - New links added: [[Spinal Cord]], [[Motor Neurons]], [[Muscle Atrophy]], [[Neuropathic Pain]], [[Inflammation]], [[Oxidative Stress]], [[Apoptosis]], [[Neuroprotection]], [[Vitamin D]], [[Resistance Training]], [[Functional Capacity]], [[Creatine Supplementation]], [[Traumatic Brain Injury (TBI)]]
+  - New links added: [[Spinal Cord]], [[Motor Neurons]], [[Muscle Atrophy]], [[Neuropathic Pain]], [[Inflammation]], [[Oxidative Stress]], [[Apoptosis]], [[Neuroprotection]], [[Vitamin D]], [[Resistance Training]], [[Functional Capacity]], [[Creatine Supplementation]], [[Traumatic Brain Injury]]
   - Suggested new entity notes to create: [[Neuropathic Pain]], [[Autonomic Dysreflexia]], [[Gray matter]]
   - Strong connections to strengthen: [[Spinal Cord Injury (SCI)]] ↔ [[Creatine Supplementation]], [[Spinal Cord Injury (SCI)]] ↔ [[Neuroprotection]], [[Spinal Cord Injury (SCI)]] ↔ [[Spinal Cord]]

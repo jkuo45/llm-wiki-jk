@@ -38,7 +38,7 @@ Targeting pioneer-factor–driven enhancer opening (e.g., AP-1, or downstream re
 
 ## Documents
 
-- [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]] — Pioneer factors (exemplified by AP-1) open closed chromatin at SASP enhancers, initiating the senescence transcription program.
+- [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]] — Pioneer factors (exemplified by AP-1) open closed chromatin at SASP enhancers, initiating the senescence transcription program.
 
 ## Connections
 

@@ -3,7 +3,7 @@ title: PINK1
 description: Mitochondrial serine/threonine kinase that recruits Parkin to damaged
   mitochondria to initiate mitophagy.
 created: 2026-07-04
-updated: 2026-07-24
+updated: 2026-10-01
 tags:
   - protein
 aliases: [PTEN-induced Kinase 1]
@@ -24,7 +24,7 @@ Active Pink1 phosphorylates both [[Ubiquitin]] and [[Parkin]] at Ser65, a residu
 ## Role in Mitophagy Initiation
 Pink1 acts as the gatekeeper of [[Mitophagy]] by converting a general signal (Δψₘ loss) into a specific ubiquitin-based code on the mitochondrial surface. This Pink1-pUb-Parkin signaling cascade constitutes the canonical mitophagy pathway. Pink1 also contributes to Parkin-independent mitophagy by recruiting autophagy receptors directly via phosphoubiquitin signaling.
 ## Mutations in Parkinson's Disease
-Over 50 pathogenic mutations in [[PINK1]] cause autosomal recessive early-onset [[Parkinson's Disease]], the second most common genetic cause after [[PARK2]]. Mutations cluster in the kinase domain, impairing catalytic activity and preventing downstream Parkin activation. Loss of Pink1 function recapitulates hallmark Parkinsonian phenotypes, including mitochondrial fragmentation, impaired [[Complex I]] activity, increased sensitivity to [[Reactive Oxygen Species|ROS]], and selective [[Dopaminergic Neurons]] degeneration.
+Over 50 pathogenic mutations in [[PINK1]] cause autosomal recessive early-onset [[Parkinson's Disease]], the second most common genetic cause after [[Parkin]]. Mutations cluster in the kinase domain, impairing catalytic activity and preventing downstream Parkin activation. Loss of Pink1 function recapitulates hallmark Parkinsonian phenotypes, including mitochondrial fragmentation, impaired [[Complex I]] activity, increased sensitivity to [[Reactive Oxygen Species|ROS]], and selective [[Dopaminergic Neurons]] degeneration.
 ## Connection to Adrenochrome Pathway and Aging
 [[Aminochromes]] including [[Adrenochrome]] dissipate the mitochondrial membrane potential, creating the precise signal that Pink1 detects. The Pink1-Parkin axis thus serves as a quality control mechanism against aminochrome-induced mitochondrial damage. Age-related declines in Pink1 expression compromise this protective response, allowing damaged mitochondria to accumulate and perpetuate [[Oxidative Stress]] and [[Inflammation]]. Enhancing Pink1 activity is an emerging therapeutic strategy to counteract mitochondrial dysfunction in [[Aging]] and neurodegeneration.
 **Pink1** (PTEN-induced kinase 1) is a mitochondrial serine/threonine kinase that senses mitochondrial dysfunction and recruits [[Parkin]] to initiate the selective degradation of mitochondria via [[Mitophagy]].

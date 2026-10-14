@@ -18,7 +18,7 @@ protected: false
 
 ## Mechanism of Action
 
-Vinblastine binds the β-tubulin subunit, preventing microtubule assembly. Like [[Vincristine]], it disrupts mitotic spindle formation, leading to metaphase arrest and cell death (34). It is contrasted in mechanism with microtubule-stabilizing agents such as [[Paclitaxel]] and [[Docetaxel]].
+Vinblastine binds the β-tubulin subunit, preventing microtubule assembly. Like [[Vincristine]], it disrupts mitotic spindle formation, leading to metaphase arrest and cell death (34). It is contrasted in mechanism with microtubule-stabilizing agents such as [[Paclitaxel]] and [[docetaxel]].
 
 > [!info] Source: [[Oral Fenbendazole for Cancer Therapy in Humans and Animals]]
 > Fenbendazole is described among microtubule-targeting agents; vinblastine and vincristine inhibit polymerization whereas paclitaxel/docetaxel stabilize microtubules, both leading to apoptosis and metaphase arrest (34). Fenbendazole itself shows microtubule depolymerizing (destabilizing) activity (4, 10, 35).
@@ -32,10 +32,10 @@ Vinblastine binds the β-tubulin subunit, preventing microtubule assembly. Like 
 
 - [[Tubulin]] / [[Microtubule]] — direct binding/target.
 - [[Vincristine]] — sister vinca-alkaloid polymerization inhibitor.
-- [[Paclitaxel]] / [[Docetaxel]] — opposing (stabilizing) MT agents.
+- [[Paclitaxel]] / [[docetaxel]] — opposing (stabilizing) MT agents.
 - [[Fenbendazole]] — shares microtubule-destabilizing mechanism.
 
 ## Linking Summary
 
-- New links added: [[Tubulin]], [[Microtubule]], [[Vincristine]], [[Paclitaxel]], [[Docetaxel]], [[Apoptosis]], [[Fenbendazole]].
+- New links added: [[Tubulin]], [[Microtubule]], [[Vincristine]], [[Paclitaxel]], [[docetaxel]], [[Apoptosis]], [[Fenbendazole]].
 - Strong connections to strengthen: [[Fenbendazole]] ↔ [[Vinblastine]] (shared MT-destabilizing class).

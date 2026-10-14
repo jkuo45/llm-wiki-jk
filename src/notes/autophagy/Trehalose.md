@@ -17,7 +17,7 @@ Trehalose is a natural disaccharide that induces [[TFEB]]-mediated autophagy and
 Trehalose is a natural disaccharide that acts as a chemical chaperone stabilizing proteins and an [[Autophagy]] inducer. It inhibits [[SLC2A]] (GLUT) transporters, causing [[AMPK]] activation via glucose deprivation-like effects.
 ## Therapeutic Potential
 
-Trehalose induces [[TFEB]] nuclear translocation independent of mTORC1, enhancing [[Autophagy]] and lysosomal biogenesis. It shows preclinical efficacy in [[Huntington's Disease]], [[Alzheimer's Disease]], [[Parkinson's Disease]], and [[Lysosomal Storage Disorders]]. Food-grade, well-tolerated, but limited CNS penetration.
+Trehalose induces [[TFEB]] nuclear translocation independent of mTORC1, enhancing [[Autophagy]] and lysosomal biogenesis. It shows preclinical efficacy in [[Huntington's Disease]], [[Alzheimer's Disease]], [[Parkinson's Disease]], and [[Lysosomal Storage Diseases]]. Food-grade, well-tolerated, but limited CNS penetration.
 
 ## Documents
 
@@ -36,7 +36,7 @@ List of documents that mention this entity
 - [[Huntington's Disease]]: It shows preclinical efficacy in Huntington's Disease, [[Alzheimer's Disease]], [[Parkinson's Disease]], and [[Lysoso...
 - [[Alzheimer's Disease]]: It shows preclinical efficacy in [[Huntington's Disease]], Alzheimer's Disease, [[Parkinson's Disease]], and [[Lysoso...
 - [[Parkinson's Disease]]: It shows preclinical efficacy in [[Huntington's Disease]], [[Alzheimer's Disease]], Parkinson's Disease, and [[Lysoso...
-- [[Lysosomal Storage Disorders]]: It shows preclinical efficacy in [[Huntington's Disease]], [[Alzheimer's Disease]], [[Parkinson's Disease]], and Lyso...
+- [[Lysosomal Storage Diseases]]: It shows preclinical efficacy in [[Huntington's Disease]], [[Alzheimer's Disease]], [[Parkinson's Disease]], and Lyso...
 
 ## Linking Summary
 - New links added: [[TFEB]]

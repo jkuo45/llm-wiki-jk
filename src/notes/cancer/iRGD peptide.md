@@ -22,7 +22,7 @@ Systemically administered iRGD accumulates at tumor vessels through integrin bin
 
 ## Physiological & Pathological Relevance
 
-Because the CendR activation depends on tumor-associated proteolysis and Neuropilin-1 overexpression, iRGD acts preferentially in malignant tissue, sparing normal vasculature. It has been shown to increase intratumoral drug concentrations and antitumor efficacy while reducing systemic toxicity in models of breast, pancreatic, and [[Lung Cancer]], and to improve penetration of poorly permeable agents such as [[Trastuzumab]] and Doxil.
+Because the CendR activation depends on tumor-associated proteolysis and Neuropilin-1 overexpression, iRGD acts preferentially in malignant tissue, sparing normal vasculature. It has been shown to increase intratumoral drug concentrations and antitumor efficacy while reducing systemic toxicity in models of breast, pancreatic, and [[Lung Cancer]], and to improve penetration of poorly permeable agents such as [[trastuzumab]] and Doxil.
 
 ## Clinical & Research Relevance
 
@@ -41,6 +41,6 @@ iRGD is a leading example of tumor-penetrating peptide technology and is being a
 
 ## Linking Summary
 
-- New links added: [[iRGD peptide]], [[Integrins]], [[Neuropilin-1]], [[CendR motif]], [[RGD peptide]], [[Angiogenesis]], [[Chemotherapy]], [[Doxorubicin]], [[Paclitaxel]], [[Trastuzumab]], [[Lung Cancer]]
+- New links added: [[iRGD peptide]], [[Integrins]], [[Neuropilin-1]], [[CendR motif]], [[RGD peptide]], [[Angiogenesis]], [[Chemotherapy]], [[Doxorubicin]], [[Paclitaxel]], [[trastuzumab]], [[Lung Cancer]]
 - Suggested new entity notes to create: [[CendR motif]], [[furin]], [[Neuropilin-1]]
 - Strong connections to strengthen: [[iRGD peptide]] ↔ [[Neuropilin-1]], [[iRGD peptide]] ↔ [[Integrins]]

@@ -60,7 +60,7 @@ Spermidine → eIF5A hypusination → TFEB translation → Autophagy + Lysosomal
 CR doesn't just flip the autophagy switch — it **reprograms the entire metabolic landscape**:
 
 - Shifts cells from "growth mode" to "maintenance and repair mode"
-- Reduces circulating [[IGF-1]] and insulin signaling — a longevity pathway **independent** of autophagy
+- Reduces circulating [[IGF1]] and insulin signaling — a longevity pathway **independent** of autophagy
 - Induces [[PGC-1α]]-driven mitochondrial biogenesis via [[SIRT1]]
 - Increases circulating adiponectin and improves insulin sensitivity globally
 

@@ -326,7 +326,7 @@ List of documents that mention this entity
   - [[_document_ - Fisetin is a senotherapeutic that extends health and lifespan|Fisetin Senotherapeutic & Lifespan]]
     - Fisetin suppresses SASP factor expression (IL-6, IL-8, MCP-1) in multiple murine tissues and human adipose explants, contributing to its lifespan extension.
 
-  - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
+  - [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]]
     - Review showing that senescent nuclei undergo epigenetic reprogramming (A/B compartment switching, 3D genome rewiring, histone modifications/variants, histone loss, DNA methylation, retrotransposon derepression) that orchestrates SASP expression; epigenetic modulators can act as senomorphics.
 
   - [[_document_ - Acid_ceramidase_modulates_the_lipid_profile_and_ex|Acid ceramidase modulates the lipid profile… (Soriano-Castell et al., 2026)]]

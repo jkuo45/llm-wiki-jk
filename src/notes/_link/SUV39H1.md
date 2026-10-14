@@ -42,7 +42,7 @@ Pharmacologic inhibition of H3K9 methylation (e.g., SUV39H1/SETDB1 inhibitors su
 
 ## Documents
 
-- [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]] — The review shows that SUV39H1 (H3K9 trimethyltransferase) is decreased while KDM4 is increased in senescent cells, lowering H3K9 methylation at SASP loci such as IL-6/IL-8 and enhancing SASP expression.
+- [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]] — The review shows that SUV39H1 (H3K9 trimethyltransferase) is decreased while KDM4 is increased in senescent cells, lowering H3K9 methylation at SASP loci such as IL-6/IL-8 and enhancing SASP expression.
 
 ## Connections
 

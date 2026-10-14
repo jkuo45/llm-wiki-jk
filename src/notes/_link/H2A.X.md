@@ -46,7 +46,7 @@ Because H2A.X/γ-H2A.X underlies damage-induced SASP, it is both a biomarker of 
 
 ## Documents
 
-- [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]] — H2A.X (as γ-H2A.X) marks persistent DNA damage, is enriched in CCF, and is required for irradiation-induced senescence and SASP.
+- [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]] — H2A.X (as γ-H2A.X) marks persistent DNA damage, is enriched in CCF, and is required for irradiation-induced senescence and SASP.
 
 ## Connections
 

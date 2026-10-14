@@ -61,6 +61,121 @@ class TestContentStats:
             "words": 0, "images": 0, "links": 0, "diagrams": 0,
         }
 
+    def test_counts_html_embeds_in_markdown(self, tmp_path):
+        # Task exports embed photos as <figure><img> and captions as
+        # <a href> — both must count alongside md ![](…) / [[…]] syntax.
+        f = tmp_path / "note.md"
+        f.write_text(
+            "---\ntitle: X\n---\n"
+            '<figure><img src="a.jpg" alt="x"></figure>\n'
+            'Caption in <a href="https://example.com">Commons</a> — see '
+            "![](b.png) and [[Alpha]].\n",
+            encoding="utf-8",
+        )
+        s = rc.content_stats(f)
+        assert s["images"] == 2   # <img> + ![]()
+        assert s["links"] == 2    # <a href> + [[Alpha]] (image stripped first)
+
+
+class TestHtmlContentStats:
+    def test_strips_script_style_and_counts(self, tmp_path):
+        f = tmp_path / "a.html"
+        f.write_text(
+            "<html><script>const js = 'ignore me one two three';</script>"
+            "<style>.x{color:red}</style>"
+            "<p>One two <img src='i.png'> 中文測試</p>"
+            "<a href='#x'>link</a>"
+            "<div class='mermaid'>graph</div></html>",
+            encoding="utf-8",
+        )
+        s = rc.html_content_stats(f)
+        assert s == {
+            # script/style + tags stripped: One two link graph + 4 CJK chars
+            "words": 8, "images": 1, "links": 1, "diagrams": 1,
+        }
+
+    def test_missing_file_returns_zeros(self, tmp_path):
+        assert rc.html_content_stats(tmp_path / "nope.html") == {
+            "words": 0, "images": 0, "links": 0, "diagrams": 0,
+        }
+
+    def test_counts_svg_figures_not_ui_icons(self, tmp_path):
+        # Articles carry inline <svg role="img"> diagrams alongside
+        # 24x24 toolbar icon SVGs — only role="img" ones are diagrams;
+        # <canvas> scenes (three.js / 2-D) count too, but JS-created
+        # canvases inside stripped <script> blocks don't.
+        f = tmp_path / "b.html"
+        f.write_text(
+            "<svg viewBox='0 0 24 24' stroke='currentColor'></svg>"
+            "<svg id='d1' viewBox='0 0 1000 400' role='img' "
+            "aria-label='relay diagram'></svg>"
+            "<canvas id='stage' aria-label='3-D cell'></canvas>"
+            "<script>const c = document.createElement('canvas');</script>"
+            "<div class='mermaid'>graph</div>",
+            encoding="utf-8",
+        )
+        s = rc.html_content_stats(f)
+        assert s["diagrams"] == 3   # svg role=img + canvas + mermaid div
+
+    def test_counts_runtime_drawn_figure_hosts_once(self, tmp_path):
+        # Two ways a figure reaches the page, and they must not double count.
+        # (a) host filled at runtime: an empty .fig-canvas div, nothing inline.
+        # (b) host containing an inline <svg role="img">: already counted by
+        #     SVG_DIAG_RE, so the host must NOT add a second count.
+        f = tmp_path / "c.html"
+        f.write_text(
+            "<div class='fig-canvas fig-svg' id='figA'></div>"
+            "<div class='fig-canvas fig-svg' id='figB'></div>"
+            "<div class='copy-host fig-canvas' id='figC'>"
+            "<svg viewBox='0 0 900 400' role='img' aria-label='inline'></svg>"
+            "</div>"
+            # a populated div that is not a figure host must not count
+            "<div class='callout'>prose</div>",
+            encoding="utf-8",
+        )
+        s = rc.html_content_stats(f)
+        # figA + figB (empty hosts) + figC (inline role=img) = 3, not 4
+        assert s["diagrams"] == 3
+
+    def test_figure_host_inside_script_is_not_counted(self, tmp_path):
+        # Script bodies are stripped before counting, so JS that merely
+        # mentions a host-shaped tag can't inflate the diagram total.
+        f = tmp_path / "d.html"
+        f.write_text(
+            "<script>var t = \"<div class='fig-canvas'></div>\";</script>"
+            "<div class='fig-canvas' id='real'></div>",
+            encoding="utf-8",
+        )
+        assert rc.html_content_stats(f)["diagrams"] == 1
+
+
+class TestBuildArticlesStats:
+    def test_sidecar_keyed_by_id_en_path_wins(self, tmp_path):
+        args = argparse.Namespace(web_data_dir=tmp_path / "data")
+        args.web_data_dir.mkdir()
+        (args.web_data_dir / "articles.json").write_text(json.dumps([
+            {"id": "a1", "langs": {"en-US": {"path": "pages/en-US/a1.html"}}},
+            {"id": "a2", "langs": {"zh-TW": {"path": "pages/zh-TW/a2.html"}}},
+            {"id": "a3", "langs": {}},
+        ]), encoding="utf-8")
+        (tmp_path / "pages" / "en-US").mkdir(parents=True)
+        (tmp_path / "pages" / "en-US" / "a1.html").write_text(
+            "<p>hi <img src=x></p>", encoding="utf-8")
+        (tmp_path / "pages" / "zh-TW").mkdir(parents=True)
+        (tmp_path / "pages" / "zh-TW" / "a2.html").write_text(
+            "<a href='#'>l</a>", encoding="utf-8")
+
+        rc.build_articles_stats(args)
+
+        doc = json.loads((args.web_data_dir / "articles-stats.json").read_text())
+        assert set(doc["stats"]) == {"a1", "a2"}  # a3 skipped: no path
+        assert doc["stats"]["a1"] == {
+            "words": 1, "images": 1, "links": 0, "diagrams": 0,
+        }
+        assert doc["stats"]["a2"] == {
+            "words": 1, "images": 0, "links": 1, "diagrams": 0,
+        }
+
 
 # ----------------------------------------------------------------------
 # Marker sections
@@ -196,6 +311,8 @@ class TestBuildWebTasks:
         assert "kind" not in foo
         assert set(foo["langs"]) == {"en-US", "zh-TW"}
         assert foo["starred"] is True
+        # Group-level card stats from the en source ("body" -> 1 word).
+        assert foo["stats"] == {"words": 1, "images": 0, "links": 0, "diagrams": 0}
         en = foo["langs"]["en-US"]
         assert en["title"] == "Foo Task"
         assert en["created"] == "2026-01-01"
@@ -221,6 +338,30 @@ class TestBuildWebTasks:
         assert not stale.exists()
         assert (args.web_tasks_dir / "en-US" / "foo.md").exists()
         assert (args.web_tasks_dir / "zh-TW" / "foo_zh-TW.md").exists()
+
+    def test_github_source_baked_when_repo_configured(self, tmp_path, monkeypatch):
+        # Relative task paths (as the real scan produces) + repo/branch on
+        # args -> per-lang github blob URL; absolute tmp paths elsewhere stay
+        # link-less (github_blob returns "" outside the repo).
+        monkeypatch.chdir(tmp_path)
+        args = argparse.Namespace(
+            tasks_dir=Path("tasks"),
+            web_tasks_dir=Path("web_tasks"),
+            web_data_dir=Path("web_data"),
+            repo_url="https://github.com/acme/wiki",
+            branch="dev",
+        )
+        args.tasks_dir.mkdir()
+        (args.tasks_dir / "foo.md").write_text(
+            "---\ntitle: T\n---\nbody\n", encoding="utf-8")
+        dt = datetime(2026, 2, 1, tzinfo=timezone.utc)
+        rc.build_web_tasks(
+            [{"datetime": dt, "path": "tasks/foo.md", "words": 1}], args)
+
+        doc = json.loads((args.web_data_dir / "tasks.json").read_text())
+        foo = next(g for g in doc["tasks"] if g["id"] == "foo")
+        assert foo["langs"]["en-US"]["github"] == (
+            "https://github.com/acme/wiki/blob/dev/tasks/foo.md")
 
 
 # ----------------------------------------------------------------------
@@ -335,6 +476,76 @@ class TestBuildWebWikiScoring:
         args.wiki_roles = tmp_path / "nope.json"
         rc.build_web_wiki(rc.scan_notes_for_web(args.notes_dir), args, tmp_path)
         assert wiki_ids(args)[1:3] == ["fresh", "hub"]
+
+
+class TestBuildWebWikiTranslations:
+    """A translated note must survive the score cap, and zh-TW must join by
+    the graph's canonical norm(stem) rather than the raw filename."""
+
+    def _seed(self, tmp_path, **over):
+        from datetime import timedelta
+        args = wiki_args(tmp_path, **over)
+        today = datetime.now(timezone.utc).date()
+        write_roles(args, {"hub": (0.01, 0.18, 300)})
+        write_note(args, "hub", created="2026-01-01",
+                   updated=str(today - timedelta(days=10)), words=2000)
+        # Old + no role metrics -> ranks below the cap.
+        write_note(args, "cold", created="2026-01-01",
+                   updated=str(today - timedelta(days=400)))
+        return args
+
+    def write_zh(self, args, name, title="譯"):
+        d = args.web_wiki_dir / "zh-TW" / "topic"
+        d.mkdir(parents=True, exist_ok=True)
+        (d / f"{name}.md").write_text(
+            f"---\ntitle: {title}\ndescription: d\n"
+            "created: 2026-02-01\nupdated: 2026-02-01\n---\n譯文\n",
+            encoding="utf-8",
+        )
+
+    def test_translated_note_outside_cap_is_kept(self, tmp_path):
+        args = self._seed(tmp_path, wiki_limit=1)
+        self.write_zh(args, "cold")
+        rc.build_web_wiki(rc.scan_notes_for_web(args.notes_dir), args, tmp_path)
+
+        ids = wiki_ids(args)
+        assert ids[1] == "hub"                       # cap still caps the score
+        assert "cold" in ids                         # ... but not the translation
+        doc = json.loads((args.web_data_dir / "wiki.json").read_text())
+        cold = next(g for g in doc["wiki"] if g["id"] == "cold")
+        assert cold["langs"]["zh-TW"]["title"] == "譯"
+        # Its EN markdown is copied too, so the group renders in both languages.
+        assert (args.web_wiki_dir / "en-US" / "topic" / "cold.md").exists()
+
+    def test_zh_joins_by_norm_not_exact_stem(self, tmp_path):
+        # EN renamed to an ASCII stem; the zh file kept the old one.
+        args = self._seed(tmp_path, wiki_limit=1)
+        (args.notes_dir / "topic" / "cold.md").rename(
+            args.notes_dir / "topic" / "M1dG.md")
+        self.write_zh(args, "M₁dG")
+        rc.build_web_wiki(rc.scan_notes_for_web(args.notes_dir), args, tmp_path)
+
+        doc = json.loads((args.web_data_dir / "wiki.json").read_text())
+        group = next(g for g in doc["wiki"] if g["id"] == "M1dG")
+        assert group["langs"]["zh-TW"]["filename"] == "M₁dG.md"
+        assert group["langs"]["zh-TW"]["path"].endswith("M%E2%82%81dG.md")
+
+    def test_unmatched_zh_warns_instead_of_vanishing(self, tmp_path, capsys):
+        args = self._seed(tmp_path)
+        self.write_zh(args, "Ghost")
+        rc.build_web_wiki(rc.scan_notes_for_web(args.notes_dir), args, tmp_path)
+
+        assert "Ghost.md matches no EN note" in capsys.readouterr().out
+        assert "Ghost" not in wiki_ids(args)
+
+    def test_rerun_is_a_fixpoint(self, tmp_path):
+        args = self._seed(tmp_path, wiki_limit=1)
+        self.write_zh(args, "cold")
+        rows = rc.scan_notes_for_web(args.notes_dir)
+        rc.build_web_wiki(rows, args, tmp_path)
+        first = wiki_ids(args)
+        rc.build_web_wiki(rows, args, tmp_path)
+        assert wiki_ids(args) == first
 
 
 class TestGithubBlob:

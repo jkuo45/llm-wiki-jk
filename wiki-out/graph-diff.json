@@ -1,120 +1,120 @@
 {
-  "generated_at": "2026-09-18T22:12:21Z",
+  "generated_at": "2026-10-02T08:49:47Z",
   "triples_graph": "/Users/johnnykuo/Projects/llm-wiki-jk/graphify-out/graph.json",
   "wiki_graph": "/Users/johnnykuo/Projects/llm-wiki-jk/wiki-out/graph.json",
   "counts": {
     "triples_nodes": 3493,
-    "wiki_nodes": 3185,
-    "shared_nodes": 2139,
-    "wiki_only_nodes": 1046,
-    "triples_only_nodes": 1354,
+    "wiki_nodes": 3486,
+    "shared_nodes": 2158,
+    "wiki_only_nodes": 1328,
+    "triples_only_nodes": 1335,
     "triples_edges": 6605,
-    "wiki_edges": 37999,
+    "wiki_edges": 44994,
     "triples_edge_pairs": 6285,
-    "wiki_edge_pairs": 37999,
-    "wiki_only_edges": 34655,
-    "triples_only_edges": 2941
+    "wiki_edge_pairs": 44994,
+    "wiki_only_edges": 41640,
+    "triples_only_edges": 2931
   },
   "top_wiki_only_nodes": [
     {
       "id": "macrophage",
       "label": "Macrophage",
-      "degree": 76
+      "degree": 93
     },
     {
       "id": "endothelial_cells",
       "label": "Endothelial Cells",
-      "degree": 69
+      "degree": 77
+    },
+    {
+      "id": "chronic_inflammation",
+      "label": "Chronic Inflammation",
+      "degree": 72
     },
     {
       "id": "fibroblast",
       "label": "Fibroblast",
-      "degree": 69
-    },
-    {
-      "id": "glutathione_peroxidase_4",
-      "label": "Glutathione Peroxidase 4",
-      "degree": 68
-    },
-    {
-      "id": "epigenetics_and_aging",
-      "label": "Epigenetics and aging",
-      "degree": 66
+      "degree": 71
     },
     {
       "id": "histone_variant",
       "label": "Histone Variant",
-      "degree": 64
+      "degree": 70
     },
     {
-      "id": "citric_acid_cycle",
-      "label": "Citric Acid Cycle",
-      "degree": 59
+      "id": "epigenetics_and_aging",
+      "label": "Epigenetics and aging",
+      "degree": 67
+    },
+    {
+      "id": "nafld",
+      "label": "NAFLD",
+      "degree": 65
+    },
+    {
+      "id": "kidney_diseases",
+      "label": "Kidney Diseases",
+      "degree": 65
+    },
+    {
+      "id": "cell_signaling",
+      "label": "Cell Signaling",
+      "degree": 63
     },
     {
       "id": "unfolded_protein_response",
       "label": "Unfolded Protein Response",
-      "degree": 58
+      "degree": 63
     },
     {
-      "id": "park2",
-      "label": "PARK2",
-      "degree": 55
+      "id": "citric_acid_cycle",
+      "label": "Citric Acid Cycle",
+      "degree": 63
     },
     {
       "id": "c_elegans",
       "label": "Caenorhabditis elegans",
-      "degree": 55
-    },
-    {
-      "id": "mmp_12",
-      "label": "MMP-12",
-      "degree": 55
-    },
-    {
-      "id": "atg1",
-      "label": "Atg1",
-      "degree": 53
-    },
-    {
-      "id": "als",
-      "label": "ALS",
-      "degree": 50
-    },
-    {
-      "id": "immunity",
-      "label": "Immunity",
-      "degree": 50
-    },
-    {
-      "id": "cardiomyocyte_toxicity",
-      "label": "Cardiomyocyte Toxicity",
-      "degree": 49
-    },
-    {
-      "id": "muscle",
-      "label": "Muscle",
-      "degree": 48
-    },
-    {
-      "id": "fat_oxidation",
-      "label": "Fat Oxidation",
-      "degree": 47
-    },
-    {
-      "id": "caspase_8_c_flip_rheostat",
-      "label": "Caspase-8-c-FLIP Rheostat",
-      "degree": 45
+      "degree": 59
     },
     {
       "id": "insulin",
       "label": "Insulin",
-      "degree": 45
+      "degree": 58
     },
     {
-      "id": "retrograde_response",
-      "label": "Retrograde Response",
-      "degree": 44
+      "id": "mmp_12",
+      "label": "MMP-12",
+      "degree": 56
+    },
+    {
+      "id": "atg1",
+      "label": "Atg1",
+      "degree": 56
+    },
+    {
+      "id": "cardiomyocyte_toxicity",
+      "label": "Cardiomyocyte Toxicity",
+      "degree": 55
+    },
+    {
+      "id": "muscle",
+      "label": "Muscle",
+      "degree": 54
+    },
+    {
+      "id": "met",
+      "label": "MET",
+      "degree": 54
+    },
+    {
+      "id": "immunity",
+      "label": "Immunity",
+      "degree": 53
+    },
+    {
+      "id": "hypertension",
+      "label": "Hypertension",
+      "degree": 53
     }
   ],
   "top_triples_only_nodes": [
@@ -124,13 +124,28 @@
       "degree": 11
     },
     {
+      "id": "ascorbic_acid",
+      "label": "Ascorbic Acid",
+      "degree": 10
+    },
+    {
       "id": "females",
       "label": "Females",
       "degree": 9
     },
     {
+      "id": "antioxidants",
+      "label": "Antioxidants",
+      "degree": 7
+    },
+    {
       "id": "nf_kb",
       "label": "NF-kB",
+      "degree": 5
+    },
+    {
+      "id": "p21",
+      "label": "p21",
       "degree": 5
     },
     {
@@ -144,13 +159,8 @@
       "degree": 5
     },
     {
-      "id": "p21",
-      "label": "p21",
-      "degree": 5
-    },
-    {
-      "id": "jak_stat3",
-      "label": "JAK-STAT3",
+      "id": "cdk6",
+      "label": "CDK6",
       "degree": 4
     },
     {
@@ -159,13 +169,28 @@
       "degree": 4
     },
     {
-      "id": "comt_val158_allele",
-      "label": "COMT Val158 allele",
+      "id": "biphasic_dose_response",
+      "label": "Biphasic Dose Response",
       "degree": 4
     },
     {
-      "id": "biphasic_dose_response",
-      "label": "Biphasic Dose Response",
+      "id": "jak_stat3",
+      "label": "JAK-STAT3",
+      "degree": 4
+    },
+    {
+      "id": "physical_activity",
+      "label": "Physical Activity",
+      "degree": 4
+    },
+    {
+      "id": "sirt1_and_sirt2",
+      "label": "SIRT1 and SIRT2",
+      "degree": 4
+    },
+    {
+      "id": "comt_val158_allele",
+      "label": "COMT Val158 allele",
       "degree": 4
     },
     {
@@ -179,43 +204,18 @@
       "degree": 4
     },
     {
-      "id": "cdk6",
-      "label": "CDK6",
-      "degree": 4
-    },
-    {
-      "id": "sirt1_and_sirt2",
-      "label": "SIRT1 and SIRT2",
-      "degree": 4
-    },
-    {
-      "id": "physical_activity",
-      "label": "Physical Activity",
-      "degree": 4
-    },
-    {
-      "id": "tlr2_6",
-      "label": "TLR2/6",
-      "degree": 3
-    },
-    {
       "id": "anti_inflammatory_properties",
       "label": "anti-inflammatory properties",
       "degree": 3
     },
     {
-      "id": "alkylating_agent",
-      "label": "Alkylating agent",
+      "id": "advanced_glycation_end_products_formation",
+      "label": "Advanced Glycation End Products formation",
       "degree": 3
     },
     {
-      "id": "s6k1_2",
-      "label": "S6K1/2",
-      "degree": 3
-    },
-    {
-      "id": "pi3k_akt",
-      "label": "PI3K/Akt",
+      "id": "h3k9",
+      "label": "H3K9",
       "degree": 3
     }
   ],
@@ -236,9 +236,9 @@
     },
     {
       "source": "zscan4",
-      "target": "hspa8",
+      "target": "hsc70",
       "source_label": "Zscan4",
-      "target_label": "HSPA8",
+      "target_label": "HSC70",
       "weight": 1.0
     },
     {

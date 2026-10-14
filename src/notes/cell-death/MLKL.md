@@ -31,7 +31,7 @@ aliases:
 
 > [!info]
 > Source: [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026]]
-> MLKL is regulated beyond RIPK3 phosphorylation: [[BRD4]] transcriptionally promotes MLKL expression, while [[Hsp90]] binds MLKL and protects it from proteasomal degradation to facilitate activation/translocation. During phagocytosis, [[TAM Kinases]] (Tyro3, Axl, Mer) activated by exposed phosphatidylserine can also phosphorylate MLKL, and RIPK1 can phosphorylate MLKL under specific (particularly murine) conditions. The salt-inducible kinase inhibitor HG-9-91-01 suppresses necroptosis by disrupting RIPK3/MLKL interaction. Execution is heterogeneous — a glaucoma axonal-degeneration model shows necroptosis-like death independent of MLKL pore formation, and MLKL can indirectly compromise membranes via ion channels such as TRPM7.
+> MLKL is regulated beyond RIPK3 phosphorylation: [[BRD4]] transcriptionally promotes MLKL expression, while [[HSP90β]] binds MLKL and protects it from proteasomal degradation to facilitate activation/translocation. During phagocytosis, [[TAM Kinases]] (Tyro3, Axl, Mer) activated by exposed phosphatidylserine can also phosphorylate MLKL, and RIPK1 can phosphorylate MLKL under specific (particularly murine) conditions. The salt-inducible kinase inhibitor HG-9-91-01 suppresses necroptosis by disrupting RIPK3/MLKL interaction. Execution is heterogeneous — a glaucoma axonal-degeneration model shows necroptosis-like death independent of MLKL pore formation, and MLKL can indirectly compromise membranes via ion channels such as TRPM7.
 
 > [!info]
 > Source: [[_document_ - Necroptosis (2014), Linkermann, Green|Linkermann & Green, NEJM 2014]]
@@ -71,5 +71,5 @@ aliases:
 - New links added: [[RIPK3]], [[RIPK1]], [[Caspase-8]], [[NLRP3]], [[Pyroptosis]], [[ACSL4]], [[Autophagy]], [[TNFα]], [[Inflammation]], [[Inflammasome]], [[Ferroptosis]], [[Necroptosis]], [[Sirtuin-Caspase Crosstalk]]
 - Suggested new entity notes to create: [[DAMPs]], [[necrosome]], [[PANoptosis]]
 - Strong connections to strengthen: [[MLKL]] ↔ [[RIPK3]], [[MLKL]] ↔ [[NLRP3]], [[MLKL]] ↔ [[ACSL4]]
-- Source enrichment (2026-09-14): [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026]] — MLKL regulation by BRD4, HSP90, TAM kinases, and RIPK1; MLKL-pore-independent execution routes. New links: [[BRD4]], [[Hsp90]], [[TAM Kinases]].
+- Source enrichment (2026-09-14): [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026]] — MLKL regulation by BRD4, HSP90, TAM kinases, and RIPK1; MLKL-pore-independent execution routes. New links: [[BRD4]], [[HSP90β]], [[TAM Kinases]].
 - Source enrichment (2026-09-14): [[_document_ - Necroptosis (2014), Linkermann, Green|Linkermann & Green 2014]] — 2014-era pseudokinase status; MLKL-KO protection in cerulein pancreatitis; necrosulfonamide as first direct MLKL inhibitor. New links: [[Necrosulfonamide]], [[Pancreatitis]].

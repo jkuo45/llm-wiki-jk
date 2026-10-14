@@ -42,7 +42,7 @@ AP-1/c-Jun is a difficult direct drug target, but the downstream readers (BRD4, 
 
 ## Documents
 
-- [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]] — The review shows c-Jun (AP-1) acts as a pioneer factor that opens SASP enhancers in RS and OIS and that its depletion partially reverses cell-cycle arrest, anchoring the AP-1→H3K27ac→BRD4/CEBPα SASP axis.
+- [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]] — The review shows c-Jun (AP-1) acts as a pioneer factor that opens SASP enhancers in RS and OIS and that its depletion partially reverses cell-cycle arrest, anchoring the AP-1→H3K27ac→BRD4/CEBPα SASP axis.
 
 ## Connections
 

@@ -18,7 +18,7 @@ PKCζ contains an N-terminal regulatory region with a Phox/Bem1 (PB1) domain (me
 
 ## Physiological & Pathological Function
 
-PKCζ maintains cell polarity, protein synthesis (via mTORC1), and survival signaling. In transformation, PKCζ is a downstream effector of [[PI3K]]/[[AKT]] and [[]] pathways that supports the [[Hallmarks of Cancer]]: sustained proliferative signaling, resistance to cell death, and [[Metastasis]]/invasion through EMT regulation. By phosphorylating [[Bax]] and [[Caspase-9]], PKCζ blunts the mitochondrial apoptotic program, conferring resistance to [[Chemotherapy]] and [[Oxidative Stress]]. Overexpression is reported in colorectal, breast, and lung carcinomas.
+PKCζ maintains cell polarity, protein synthesis (via mTORC1), and survival signaling. In transformation, PKCζ is a downstream effector of [[PI3K]]/[[Akt]] and [[]] pathways that supports the [[Hallmarks of Cancer]]: sustained proliferative signaling, resistance to cell death, and [[Metastasis]]/invasion through EMT regulation. By phosphorylating [[Bax]] and [[Caspase-9]], PKCζ blunts the mitochondrial apoptotic program, conferring resistance to [[Chemotherapy]] and [[Oxidative Stress]]. Overexpression is reported in colorectal, breast, and lung carcinomas.
 
 ## Clinical & Research Relevance
 
@@ -45,6 +45,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[PKCζ]], [[Protein Kinase C]], [[Apoptosis]], [[Caspase-9]], [[Bax]], [[NF-κB]], [[PI3K]], [[AKT]], [[Cancer]], [[Hallmarks of Cancer]], [[Metastasis]], [[EMT]], [[Chemotherapy]], [[Oxidative Stress]], [[SQSTM1]]
+- New links added: [[PKCζ]], [[Protein Kinase C]], [[Apoptosis]], [[Caspase-9]], [[Bax]], [[NF-κB]], [[PI3K]], [[Akt]], [[Cancer]], [[Hallmarks of Cancer]], [[Metastasis]], [[EMT]], [[Chemotherapy]], [[Oxidative Stress]], [[SQSTM1]]
 - Suggested new entity notes to create: [[Atypical PKC]], [[TAK1]], [[Par6]]
 - Strong connections to strengthen: [[PKCζ]] ↔ [[Caspase-9]], [[PKCζ]] ↔ [[Bax]], [[PKCζ]] ↔ [[NF-κB]]

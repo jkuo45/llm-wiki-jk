@@ -9,7 +9,7 @@ Used by the standalone article pages:
 - `discovery-arrival-graph-metrics.html` (+ `_zh-TW`)
 - `wiki-and-triples-graph-biological-processes.html` (+ `_zh-TW`)
 - `neurodegeneration-ad-pd-hd-als-review.html` (+ `_zh-TW`)
-- `caspase-graph-analysis-28-AUG-2026.html` (+ `_zh-TW`)
+- `caspase-graph-analysis.html` (+ `_zh-TW`)
 
 Structure mirrors `themes/theme-01/`: shared base assets live here;
 page-specific styles/scripts stay inline in each page.

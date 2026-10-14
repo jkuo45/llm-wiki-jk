@@ -43,7 +43,10 @@ export function updateHash(pushState = true) {
     parts.push(`edge=${encodeURIComponent(state.selectedEdge.from)},${encodeURIComponent(state.selectedEdge.to)}`);
   }
   if (state.readerId) {
-    parts.push(`reader=${encodeURIComponent(state.readerId)}`);
+    // Keep the `/` in `kind/id` literal: encodeURIComponent would turn it
+    // into %2F, which still round-trips but hides the namespace the change
+    // was made for. `/` never collides with the `&`/`=` hash separators.
+    parts.push(`reader=${encodeURIComponent(state.readerId).replace(/%2F/gi, '/')}`);
     if (state.readerSection) {
       parts.push(`section=${encodeURIComponent(state.readerSection)}`);
     }

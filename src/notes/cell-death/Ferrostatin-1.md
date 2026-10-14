@@ -12,7 +12,7 @@ aliases: [Fer-1, Ferrostatin 1]
 
 # Ferrostatin-1
 
-**Ferrostatin-1** (Fer-1) is a synthetic small-molecule ferroptosis inhibitor that suppresses [[Lipid Peroxidation]] by acting as a chain-breaking [[Antioxidants|antioxidant]] in lipid bilayers. It is the most widely used tool compound for validating ferroptosis in cell culture and animal models.
+**Ferrostatin-1** (Fer-1) is a synthetic small-molecule ferroptosis inhibitor that suppresses [[Lipid Peroxidation]] by acting as a chain-breaking [[Antioxidant|antioxidant]] in lipid bilayers. It is the most widely used tool compound for validating ferroptosis in cell culture and animal models.
 
 ## Mechanism of Action
 
@@ -36,5 +36,5 @@ Fer-1 contains a cyclohexylamine moiety that is oxidized by lipid peroxyl radica
 
 ## Linking Summary
 
-- New links added: [[Lipid Peroxidation]], [[Ferroptosis]], [[Antioxidants]], [[Vitamin E]], [[Liproxstatin-1]], [[GPX4]], [[C11-BODIPY]], [[Adrenochrome]]
+- New links added: [[Lipid Peroxidation]], [[Ferroptosis]], [[Antioxidant]], [[Vitamin E]], [[Liproxstatin-1]], [[GPX4]], [[C11-BODIPY]], [[Adrenochrome]]
 - Strong connections to strengthen: [[Ferrostatin-1]] ↔ [[Ferroptosis]], [[Ferrostatin-1]] ↔ [[Lipid Peroxidation]]

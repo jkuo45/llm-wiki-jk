@@ -15,12 +15,12 @@ UCHL1 (Ubiquitin C-terminal hydrolase L1, also known as [[PGP9.5]]) is a deubiqu
 
 ## Role in Alzheimer's Disease
 
-In [[Alzheimer's Disease|Alzheimer's disease]], N-terminal [[Tau Protein|tau]] fragments can cause aberrant recruitment of [[Parkin]] and UCHL-1 to [[Mitochondria|mitochondria]], triggering excessive organelle removal and synaptic loss. This aberrant recruitment contributes to accelerated AD progression by driving pathological [[Mitophagy|mitophagy]].
+In [[Alzheimer's Disease|Alzheimer's disease]], N-terminal [[Tau|tau]] fragments can cause aberrant recruitment of [[Parkin]] and UCHL-1 to [[Mitochondria|mitochondria]], triggering excessive organelle removal and synaptic loss. This aberrant recruitment contributes to accelerated AD progression by driving pathological [[Mitophagy|mitophagy]].
 
 ## Connections
 
 - [[Parkin]] — Both Parkin and UCHL-1 are aberrantly recruited to mitochondria by tau fragments in AD
-- [[Tau Protein]] — N-terminal tau fragments drive UCHL-1 mitochondrial recruitment
+- [[Tau]] — N-terminal tau fragments drive UCHL-1 mitochondrial recruitment
 - [[Alzheimer's Disease]] — UCHL-1 aberrant mitochondrial recruitment contributes to synaptic loss in AD
 - [[Parkinson's Disease]] — UCHL1 mutations linked to PD (PARK5)
 
@@ -28,4 +28,4 @@ In [[Alzheimer's Disease|Alzheimer's disease]], N-terminal [[Tau Protein|tau]] f
 
 - New links added: [[UCHL1]]
 - Strong connections to strengthen:
-  - [[UCHL1]] ↔ [[Tau Protein]] — Tau fragments drive aberrant UCHL-1 mitochondrial recruitment in AD
+  - [[UCHL1]] ↔ [[Tau]] — Tau fragments drive aberrant UCHL-1 mitochondrial recruitment in AD

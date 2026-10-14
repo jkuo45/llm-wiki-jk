@@ -2,7 +2,7 @@
 title: Manganese Superoxide Dismutase (MnSOD/SOD2)
 description: Manganese Superoxide Dismutase (MnSOD/SOD2) is the primary mitochondrial antioxidant enzyme responsible for dismutating Superoxide (O₂⁻) to hydrogen peroxide (H₂O₂) and oxygen. It is encoded by the SOD2 gene and imported into the mitochondrial matrix.
 created: 2026-07-04
-updated: 2026-09-02
+updated: 2026-09-29
 tags:
   - protein
   - antioxidant
@@ -156,12 +156,18 @@ The Ala16Val variant affects mitochondrial import efficiency: **Val/Val** homozy
 
 ### Post-Menopausal Decline: The SIRT3–SOD2 Axis
 
-> [!warning] Menopause removes the estrogen → SIRT3 → SOD2 protection
-> Female-specific downregulation of SIRT3 in aged hearts reduces deacetylation of MnSOD at Lys68/K122, diminishing its antioxidant activity. This contributes to the accelerated cardiac aging and increased heart failure risk observed in postmenopausal women.
+> [!warning] Menopause and the estrogen → SIRT3 → SOD2 axis: a hypothesis with a supporting association
+> Premenopausal female hearts do show higher SOD2 protein abundance than male hearts, and the advantage is lost with age. That this advantage is *removed by menopause specifically*, and that the removal runs through SIRT3-mediated deacetylation at Lys68, is **not established in human heart**. The chain below is a coherent model assembled from separate lines of work; it is widely repeated as though each link were demonstrated.
 
-- In aged female mouse hearts, both SIRT3 and SOD2 protein levels decline more steeply than in age-matched males, associated with a decline in mitochondrial anti-oxidative defense (*Aging & Disease*, 2024).
-- The mechanism: estrogen withdrawal → reduced ERα-mediated SIRT3 transcription → reduced SIRT3 mitochondrial import → reduced MnSOD deacetylation → increased mitochondrial superoxide → oxidative damage accumulation.
-- This represents a systems-level inflection point: premenopausal women maintain higher SOD2 activity via the estrogen→SIRT3→SOD2 axis; post-menopause, this protective circuit collapses.
+- **Mouse:** In aged female mouse hearts, both SIRT3 and SOD2 protein levels decline more steeply than in age-matched males, associated with a decline in mitochondrial anti-oxidative defense (*Aging & Disease*, 2024).
+- **Human:** Old female ventricles show lower SIRT1, SIRT3 and SOD2 **protein expression** with NF-κB p50 elevation, CD68+ macrophage accumulation and IL-18 upregulation; male hearts show no SIRT1/SIRT3 change (Barcena de Arellano et al., *Aging* 2019;11:1918–33; PMC6503880). What this study does **not** establish:
+  - It measured **expression**, not activity, and not MnSOD acetylation state at Lys68. Its one activity proxy, AMPK phosphorylation, fell in both sexes.
+  - **Menopausal status was never recorded** — donors were binned 17–40 versus 50–68, and that upper bin straddles a median menopause of ~51, so "old female" is not "postmenopausal female".
+  - The aged male heart was not unchanged: SOD2 and catalase were **elevated**, NF-κB p50 markedly reduced. The sex difference comes from opposite regulation in the two sexes.
+  - n=6–8 per group, cross-sectional, with the authors' own small-sample caveat. PGC-1α and TFAM were unchanged, arguing against the PGC-1α→SOD2 route.
+  - Note also that the same authors report **estrogen rising with age in men**, which would push the hormone axis in the opposite direction in XY individuals.
+- The model, stated as a hypothesis: estrogen withdrawal → reduced ERα-mediated SIRT3 transcription → reduced SIRT3 mitochondrial import → reduced MnSOD deacetylation → increased mitochondrial superoxide → oxidative damage accumulation. Each arrow is supported somewhere; the chain as a whole has not been tested in human myocardium.
+- "Premenopausal women maintain higher SOD2 via this axis and it collapses after menopause" is a reasonable summary of the *direction* of the mouse data. It is not an established statement about human heart, and the word "collapses" overstates what was measured.
 
 ### SOD2 Knockout Mouse Phenotype
 
@@ -191,6 +197,8 @@ List of documents that mention this entity
 
   - [[_document_ - Fisetin—In Search of Better Bioavailability—From Macro to Nano Modifications A Review|Fisetin review]]
     - Notes senotherapeutic modulation of oxidative-stress defenses and biomarker upregulation of MnSOD.
+
+- Barcena de Arellano et al., *Aging* 2019;11(7):1918–1933 (PMC6503880, PMID 30964749) — human donor ventricles; the only human cardiac evidence for the sex divergence in SOD2 **expression**. Cross-sectional, n=6–8 per group, menopausal status not recorded, and aged male hearts showed SOD2/catalase *elevation* rather than decline. Did not measure Lys68 acetylation. Cited inline above as primary literature rather than as a vault document.
 
 ## Connections
 

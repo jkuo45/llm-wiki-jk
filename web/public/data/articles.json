@@ -226,16 +226,16 @@
             "en-US": {
                 "title": "Caspases — Graph Analysis (wiki + triples)",
                 "description": "Multi-metric network analysis of all caspase nodes on the combined triples + wiki knowledge graph — centrality, communities, and role ranking.",
-                "path": "pages/en-US/caspase-graph-analysis-28-AUG-2026.html"
+                "path": "pages/en-US/caspase-graph-analysis.html"
             },
             "zh-TW": {
                 "title": "Caspases — 圖譜分析（wiki + triples）",
                 "description": "在 triples＋wiki 合併知識圖譜上對全部 caspase 節點的多指標網絡分析——中心性、社群與角色排名。",
-                "path": "pages/zh-TW/caspase-graph-analysis-28-AUG-2026.html"
+                "path": "pages/zh-TW/caspase-graph-analysis.html"
             }
         },
         "created": "2026-08-28",
-        "updated": "2026-09-21"
+        "updated": "2026-10-06"
     },
     {
         "id": "neurodegeneration-ad-pd-hd-als-review",
@@ -332,12 +332,12 @@
         "active": true,
         "langs": {
             "en-US": {
-                "title": "Cell Death Comparison [table + 3d]",
+                "title": "Cell Death Comparison [table + 3D]",
                 "description": "Ten-way comparison table plus looping 3-D animations of the major cell death programs — apoptosis, necroptosis, pyroptosis, ferroptosis, and more.",
                 "path": "pages/en-US/cell-death-comparison.html"
             },
             "zh-TW": {
-                "title": "細胞死亡比較［表格＋3d］",
+                "title": "細胞死亡比較［表格＋3D］",
                 "description": "十種主要細胞死亡程式的比較表＋循環 3-D 動畫——細胞凋亡、壞死性凋亡、焦亡、鐵死亡等。",
                 "path": "pages/zh-TW/cell-death-comparison.html"
             }
@@ -368,12 +368,12 @@
         "active": true,
         "langs": {
             "en-US": {
-                "title": "Inside the Human Cell [3d]",
+                "title": "Inside the Human Cell [3D]",
                 "description": "Full-scale three.js human cell (1 unit = 1 µm) with labeled organelles and guided tours of vault processes.",
                 "path": "pages/en-US/inside-the-cell.html"
             },
             "zh-TW": {
-                "title": "人體細胞內部 [3d]",
+                "title": "人體細胞內部 [3D]",
                 "description": "全尺寸等比例 three.js 人類細胞（1 單位 = 1 µm），胞器皆標示，並提供知識庫過程導覽。",
                 "path": "pages/zh-TW/inside-the-cell.html"
             }
@@ -531,12 +531,12 @@
         "langs": {
             "en-US": {
                 "title": "Eryptosis",
-                "description": "Minimalist three.js cell illustrating eryptosis in the anucleate red blood cell — calcium influx, membrane scrambling, and phosphatidylserine exposure.",
+                "description": "Minimalist three.js cell illustrating eryptosis in the mature red blood cell — calcium influx, Gardos K+ efflux and shrinkage, membrane scrambling with flippase inhibition, calpain proteolysis, phosphatidylserine exposure and Kupffer-cell clearance.",
                 "path": "pages/en-US/eryptosis.html"
             },
             "zh-TW": {
                 "title": "紅血球凋亡",
-                "description": "呈現無核紅血球 eryptosis 的極簡 three.js 細胞——鈣內流、磷脂翻轉與磷脂醯絲胺酸外露。",
+                "description": "呈現成熟紅血球 eryptosis 的極簡 three.js 細胞——鈣內流、Gardos K⁺ 外流與皺縮、磷脂翻轉伴 flippase 抑制、calpain 蛋白水解、磷脂醯絲胺酸外露與 Kupffer 細胞清除。",
                 "path": "pages/zh-TW/eryptosis.html"
             }
         },
@@ -650,5 +650,23 @@
         },
         "created": "2026-09-23",
         "updated": "2026-09-23"
+    },
+    {
+        "id": "hard-coded-biomarker-gates",
+        "active": true,
+        "langs": {
+            "en-US": {
+                "title": "Individual Biomarker Gates (hard-coded)",
+                "description": "Discrete, largely immutable individual values (COMT rs4680, urolithin metabotype, NQO1 C609T, CYP3A5, HFE C282Y, APOE e4, MC1R, karyotype) that determine treatment response, with a profile tool, a gate-by-intervention consequence table, population exposure estimates, and a minimum assay panel.",
+                "path": "pages/en-US/hard-coded-biomarker-gates.html"
+            },
+            "zh-TW": {
+                "title": "個體生物標記關卡（硬編碼）",
+                "description": "決定治療反應的離散、大致不可變的個體數值（COMT rs4680、尿石素代謝型、NQO1 C609T、CYP3A5、HFE C282Y、APOE ε4、MC1R、核型）。含可記錄已測數值與現行治療的個人檔案工具、各介入措施的後果對照表、族群曝露比例估計，以及最低檢測組合。",
+                "path": "pages/zh-TW/hard-coded-biomarker-gates.html"
+            }
+        },
+        "created": "2026-09-26",
+        "updated": "2026-09-29"
     }
 ]

@@ -11,7 +11,7 @@ aliases: []
 ---
 # MiT
 
-MiT (Microphthalmia/TFE family) refers to a family of basic helix-loop-helix leucine zipper transcription factors that includes [[MITF]] (MITF), [[TFEB]], [[TFE3]], and [[TFEC]]. These proteins regulate [[Lysosomal Biogenesis]], [[Autophagy]], [[Pigmentation]], and [[Cell Metabolism]] by binding to CLEAR (Coordinated Lysosomal Expression and Regulation) elements in target gene promoters. MiT family members are regulated by [[mTORC1]]-dependent phosphorylation, which controls their cytoplasmic-nuclear shuttling. Dysregulation of MiT family members is implicated in [[Melanoma]], [[Renal Cell Carcinoma]], [[Pancreatic Cancer]], and [[Lysosomal Storage Disorders]].
+MiT (Microphthalmia/TFE family) refers to a family of basic helix-loop-helix leucine zipper transcription factors that includes [[MITF]] (MITF), [[TFEB]], [[TFE3]], and [[TFEC]]. These proteins regulate [[Lysosomal Biogenesis]], [[Autophagy]], [[Pigmentation]], and [[Cell Metabolism]] by binding to CLEAR (Coordinated Lysosomal Expression and Regulation) elements in target gene promoters. MiT family members are regulated by [[mTORC1]]-dependent phosphorylation, which controls their cytoplasmic-nuclear shuttling. Dysregulation of MiT family members is implicated in [[Melanoma]], [[Renal Cell Carcinoma]], [[Pancreatic Cancer]], and [[Lysosomal Storage Diseases]].
 
 #
 
@@ -36,6 +36,6 @@ List of documents that mention this entity
 - [[Renal Cell Carcinoma]] — MiT family translocations drive tRCC
 
 ## Linking Summary
-- New links added: [[MITF]], [[TFEB]], [[TFE3]], [[TFEC]], [[Autophagy]], [[Lysosomal Biogenesis]], [[mTORC1]], [[Melanoma]], [[Renal Cell Carcinoma]], [[Pancreatic Cancer]], [[Lysosomal Storage Disorders]]
+- New links added: [[MITF]], [[TFEB]], [[TFE3]], [[TFEC]], [[Autophagy]], [[Lysosomal Biogenesis]], [[mTORC1]], [[Melanoma]], [[Renal Cell Carcinoma]], [[Pancreatic Cancer]], [[Lysosomal Storage Diseases]]
 - Suggested new entity notes to create: [[CLEAR Element]], [[TFE3]]
   - Strong connections to strengthen: [[MiT]] ↔ [[TFEB]], [[MiT]] ↔ Autophagy

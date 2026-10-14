@@ -52,7 +52,7 @@ List of documents that mention this entity
 - [[Prostaglandin G₂]]: Upstream COX product in the same pathway.
 - [[Prostaglandins]]: The family to which prostacyclin belongs.
 - [[Thromboxane A₂]]: The opposing prostanoid; their ratio governs thrombotic tendency.
-- [[Cyclooxygenases]]: Provide the PGH₂ substrate, chiefly via COX-2 in endothelium.
+- [[Cyclooxygenase]]: Provide the PGH₂ substrate, chiefly via COX-2 in endothelium.
 - [[Lipid Peroxidation]]: Lipid peroxides inhibit prostacyclin synthase.
 - [[Oxidized LDL]]: Suppresses PGI₂ production in endothelium.
 - [[Malondialdehyde]]: Basal MDA partly reflects PGH₂ fragmentation during prostanoid turnover.
@@ -62,6 +62,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Prostaglandin H₂]], [[Prostaglandin G₂]], [[Prostaglandins]], [[Thromboxane A₂]], [[Cyclooxygenases]], [[Lipid Peroxidation]], [[Oxidized LDL]], [[Malondialdehyde]], [[Atherosclerosis]], [[Aspirin]], [[Arachidonic acid]]
+- New links added: [[Prostaglandin H₂]], [[Prostaglandin G₂]], [[Prostaglandins]], [[Thromboxane A₂]], [[Cyclooxygenase]], [[Lipid Peroxidation]], [[Oxidized LDL]], [[Malondialdehyde]], [[Atherosclerosis]], [[Aspirin]], [[Arachidonic acid]]
 - Suggested new entity notes to create: [[Prostacyclin synthase]], [[IP receptor]], [[6-keto-PGF1α]]
 - Strong connections to strengthen: [[Prostacyclin]] ↔ [[Thromboxane A₂]], [[Prostacyclin]] ↔ [[Prostaglandin H₂]], [[Prostacyclin]] ↔ [[Atherosclerosis]]

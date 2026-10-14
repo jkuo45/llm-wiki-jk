@@ -35,7 +35,7 @@ List of documents that mention this entity
   - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
     - A major target of CDK4/CDK6 phosphorylation and a central player in the proliferation-quiescence decision is the Retinoblastoma Protein (RB1).
 
-  - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
+  - [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]]
     - Review notes RB1 is enriched at the 5′UTR of LINE-1 loci in proliferating cells, promoting their heterochromatinization; its decline during senescence derepresses LINE-1, contributing to cGAS–STING–driven SASP and inflammaging.
 
 

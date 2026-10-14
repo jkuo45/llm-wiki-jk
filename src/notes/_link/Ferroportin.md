@@ -30,6 +30,8 @@ Ferroportin is central to systemic iron homeostasis, dietary iron export, and re
 
 Ferroportin mutations cause hemochromatosis type 4. In cancer, low ferroportin (high iron retention) predicts ferroptosis sensitivity; modulating hepcidin/ferroportin could tune therapeutic ferroptosis. Ferroportin also counteracts iron-overload toxicity in [[Ischemia-reperfusion Injury]] and neurodegeneration.
 
+Ferroportin is the efflux valve that [[HFE]] acts upstream of: HFE's normal function is to raise hepcidin when body iron is high, and hepcidin works by triggering this protein's internalisation and degradation. Loss of HFE function therefore leaves the valve open regardless of iron stores. HFE-related C282Y homozygosity is the common cause of iron overload, while *gain-of-function* SLC40A1 alleles produce the opposite, macrophage-predominant loading pattern of type 4 disease — the same protein moving in opposite directions, and the reason "iron overload" is not one disease.
+
 #
 
 ## Documents
@@ -50,6 +52,7 @@ Ferroportin mutations cause hemochromatosis type 4. In cancer, low ferroportin (
 
 - New links added: [[Transferrin]], [[Ceruloplasmin]], [[STEAP3]], [[DMT1]], [[Iron]], [[Fenton Reaction]], [[Lipid Peroxidation]], [[Ovarian Cancer]], [[Ischemia-reperfusion Injury]], [[Ferroptosis]]
 - Suggested new entity notes to create: None
+- Added 2026-09-26: reciprocal [[HFE]] link — HFE acts upstream of this protein via hepcidin, and HFE-C282Y overload vs. SLC40A1 gain-of-function are opposite loading patterns.
 - Strong connections to strengthen:
     - [[Ferroportin]] ↔ [[Iron]]
     - [[Ferroportin]] ↔ [[Ceruloplasmin]]

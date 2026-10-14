@@ -20,7 +20,7 @@ CRM1 binds cargo bearing a hydrophobic NES in a RanGTP-dependent manner and tran
 
 ## Physiological & Pathological Relevance
 
-Because nuclear export gates the master autophagy regulator TFEB, its pharmacologic modulation is therapeutically attractive. CRM1 inhibitors (e.g., leptomycin B, selinexor/KPT-330, verdinexor) block TFEB export, forcing nuclear accumulation that boosts lysosomal biogenesis and autophagic clearance—beneficial in [[Lysosomal Storage Disorders]], [[Neurodegeneration]], and models of [[Aging]]. However, CRM1 is broadly expressed and exports many oncoproteins and tumor suppressors, so CRM1 inhibitors also affect [[Cancer]] cell survival with narrow therapeutic windows. The balance between nuclear import (via importins/KPNAs) and CRM1 export thus fine-tunes the autophagic transcriptional program in health and disease, and is a key control layer atop mTORC1/TFEB phosphorylation.
+Because nuclear export gates the master autophagy regulator TFEB, its pharmacologic modulation is therapeutically attractive. CRM1 inhibitors (e.g., leptomycin B, selinexor/KPT-330, verdinexor) block TFEB export, forcing nuclear accumulation that boosts lysosomal biogenesis and autophagic clearance—beneficial in [[Lysosomal Storage Diseases]], [[Neurodegeneration]], and models of [[Aging]]. However, CRM1 is broadly expressed and exports many oncoproteins and tumor suppressors, so CRM1 inhibitors also affect [[Cancer]] cell survival with narrow therapeutic windows. The balance between nuclear import (via importins/KPNAs) and CRM1 export thus fine-tunes the autophagic transcriptional program in health and disease, and is a key control layer atop mTORC1/TFEB phosphorylation.
 
 ## Documents
 
@@ -42,6 +42,6 @@ List of documents that mention this entity
 - [[Nuclear Pore Complex]]: Translocation channel through which CRM1 exports cargo.
 
 ## Linking Summary
-- New links added: [[TFEB]], [[CRM1]], [[ZKSCAN3]], [[FOXO]], [[mTORC1]], [[Lysosome]], [[Autophagy]], [[Nuclear Pore Complex]], [[Lysosomal Storage Disorders]], [[Neurodegeneration]], [[Aging], [Cancer]]
+- New links added: [[TFEB]], [[CRM1]], [[ZKSCAN3]], [[FOXO]], [[mTORC1]], [[Lysosome]], [[Autophagy]], [[Nuclear Pore Complex]], [[Lysosomal Storage Diseases]], [[Neurodegeneration]], [[Aging], [Cancer]]
 - Suggested new entity notes to create: [[Nuclear Pore Complex]], [[Selinexor]], [[Importin]]
 - Strong connections to strengthen: [[Nuclear Export]] ↔ [[CRM1]], [[Nuclear Export]] ↔ [[TFEB]]

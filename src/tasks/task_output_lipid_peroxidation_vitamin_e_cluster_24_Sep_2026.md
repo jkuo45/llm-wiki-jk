@@ -170,7 +170,7 @@ The same substrate pool — arachidonate released from membrane phospholipids by
 ### Enzymatic, stereospecific
 
 - [[Lipoxygenase]] (5-, 12-, 15-LOX) inserts O₂ at defined positions → HPETEs → [[Hydroxyeicosatetraenoic acids]] (predominantly *S* enantiomers) and [[Leukotrienes]]
-- [[Cyclooxygenases]] (COX-1/COX-2) bis-dioxygenate to [[Prostaglandin G₂]] (a genuine enzymatic lipid hydroperoxide), then reduce to [[Prostaglandin H₂]], the common precursor of [[Prostaglandins]], [[Prostacyclin]] and [[Thromboxane A₂]]
+- [[Cyclooxygenase]] (COX-1/COX-2) bis-dioxygenate to [[Prostaglandin G₂]] (a genuine enzymatic lipid hydroperoxide), then reduce to [[Prostaglandin H₂]], the common precursor of [[Prostaglandins]], [[Prostacyclin]] and [[Thromboxane A₂]]
 - EPA/DHA are oxygenated to [[Resolvins]], protectins, and maresins — **specialized pro-resolving mediators** that actively terminate inflammation rather than merely suppressing it
 
 ### Non-enzymatic, racemic
@@ -316,6 +316,6 @@ Evidence quality for harm is endpoint-specific: SELECT (400 IU/day) raised prost
 
 ## Linking Summary
 
-- New links added: [[Vitamin C]], [[Vitamin E]], [[Tocopherols]], [[Tocotrienols]], [[Alpha-tocopherol]], [[Glutathione]], [[Glutathione Reductase]], [[GPX4]], [[Coenzyme Q10]], [[Lipid Peroxidation]], [[Lipid hydroperoxide]], [[Malondialdehyde]], [[4-Hydroxynonenal]], [[Acrolein]], [[M₁dG]], [[MDA-LDL]], [[F2-Isoprostanes]], [[Polyunsaturated fatty acids]], [[Prostaglandins]], [[Prostaglandin G₂]], [[Prostaglandin H₂]], [[Prostacyclin]], [[Thromboxane A₂]], [[Hydroxyeicosatetraenoic acids]], [[Resolvins]], [[Ferroptosis]], [[Erastin]], [[RSL3]], [[ACSL4]], [[Acid ceramidase]], [[Selenium]], [[SLC7A11]], [[Arachidonic acid]], [[Docosahexaenoic acid]], [[Lipoxygenase]], [[Cyclooxygenases]], [[Myeloperoxidase]], [[NRF2]], [[NF-κB]], [[Mitohormesis]], [[Xenohormesis]], [[Antioxidant Supplementation Paradox]], [[COMT]]
+- New links added: [[Vitamin C]], [[Vitamin E]], [[Tocopherols]], [[Tocotrienols]], [[Alpha-tocopherol]], [[Glutathione]], [[Glutathione Reductase]], [[GPX4]], [[Coenzyme Q10]], [[Lipid Peroxidation]], [[Lipid hydroperoxide]], [[Malondialdehyde]], [[4-Hydroxynonenal]], [[Acrolein]], [[M₁dG]], [[MDA-LDL]], [[F2-Isoprostanes]], [[Polyunsaturated fatty acids]], [[Prostaglandins]], [[Prostaglandin G₂]], [[Prostaglandin H₂]], [[Prostacyclin]], [[Thromboxane A₂]], [[Hydroxyeicosatetraenoic acids]], [[Resolvins]], [[Ferroptosis]], [[Erastin]], [[RSL3]], [[ACSL4]], [[Acid ceramidase]], [[Selenium]], [[SLC7A11]], [[Arachidonic acid]], [[Docosahexaenoic acid]], [[Lipoxygenase]], [[Cyclooxygenase]], [[Myeloperoxidase]], [[NRF2]], [[NF-κB]], [[Mitohormesis]], [[Xenohormesis]], [[Antioxidant Supplementation Paradox]], [[COMT]]
 - Suggested new entity notes to create: [[α-TTP]], [[S-Glutathionylation]], [[GLT-1]], [[Dehydroascorbate]], [[Isofurans]], [[Tocopherol-mediated peroxidation]], [[Neuroprotectin D1]]
 - Strong connections to strengthen: [[Vitamin C]] ↔ [[Vitamin E]], [[Glutathione]] ↔ [[GPX4]], [[Lipid Peroxidation]] ↔ [[Ferroptosis]], [[Polyunsaturated fatty acids]] ↔ [[Ferroptosis]]

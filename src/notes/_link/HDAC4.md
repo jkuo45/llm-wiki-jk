@@ -41,7 +41,7 @@ Because HDAC4 normally restrains SASP, its loss promotes inflammaging, whereas s
 
 ## Documents
 
-- [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]] — The review shows HDAC4 is a catalytically inactive class IIa HDAC recruited as an H3K27ac reader that buffers AP-1-driven SASP enhancers via HDAC3, and is degraded upon senescence entry, releasing the SASP program.
+- [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]] — The review shows HDAC4 is a catalytically inactive class IIa HDAC recruited as an H3K27ac reader that buffers AP-1-driven SASP enhancers via HDAC3, and is degraded upon senescence entry, releasing the SASP program.
 
 ## Connections
 

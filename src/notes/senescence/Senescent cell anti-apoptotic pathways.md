@@ -25,7 +25,7 @@ protected: true
 - **BCL-2 family upregulation**: Senescent cells elevate anti-apoptotic members—BCL-2, BCL-XL, MCL-1, BCL-W—that sequester pro-apoptotic [[BAX]]/[[BAK]] and prevent [[Mitochondrial outer membrane permeabilization|MOMP]] (Zhu et al., Nat Med 2015; PMID 25594185).
 - **Survival kinase signaling**: [[PI3K]]/[[Akt]] and related pro-growth cascades promote survival and metabolic fitness in the arrested state.
 - **p53 modulation**: Senescence-associated p53 activity is rewired—often blunted for death execution while retained for arrest—so the cell stays arrested but not eliminated.
-- **Unfolded Protein Response (UPR)**: The [[Unfolded Protein Response|UPR]] ([[PERK]], [[ATF6]], [[IRE1]]) and [[ER Stress]] buffering support proteostasis under chronic SASP burdens.
+- **Unfolded Protein Response (UPR)**: The [[Unfolded Protein Response|UPR]] ([[PERK]], [[ATF6α]], [[IRE1]]) and [[ER Stress]] buffering support proteostasis under chronic SASP burdens.
 - **Senescence-associated mitochondrial dysfunction (SAMD)**: Metabolic adaptations favoring survival over death.
 
 ## Role in Senescence

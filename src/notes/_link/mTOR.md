@@ -7,7 +7,7 @@ created: 2026-05-31
 updated: 2026-07-29
 tags:
   - protein
-aliases: []
+aliases: [TOR, Target of Rapamycin, Mechanistic Target of Rapamycin, Mammalian Target of Rapamycin, FRAP, RAFT1]
 ---
 
 # mTOR
@@ -78,7 +78,7 @@ List of documents that mention this entity
   - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
     - Non-coding RNA growth arrest specific 5 inhibits Macroautophagy and forms a negative feedback regulatory loop with the MicroRNA/SIRT1/mTOR pathway. In conclusion, SIRT1 is a key regulator of the autophagic process.
 
-  - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
+  - [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]]
     - Review lists mTOR among the signaling pathways (with NF-κB, p38 MAPK, JAK–STAT, NOTCH, C/EBPβ, GATA4) that regulate SASP expression, alongside the epigenetic mechanisms orchestrating SASP in senescence.
 
 

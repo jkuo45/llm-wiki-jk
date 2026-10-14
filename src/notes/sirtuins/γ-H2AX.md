@@ -6,6 +6,7 @@ updated: '2026-07-07'
 tags:
   - biological-molecule
 aliases:
+  - γH2AX
   - Gamma-H2AX
   - Phosphorylated H2AX
   - H2AX pSer139

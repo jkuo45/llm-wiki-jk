@@ -23,7 +23,7 @@ aliases:
 
 ## Redox and Electrophilic Chemistry
 
-As an ortho-quinone, dopaquinone participates in one-electron redox cycling analogous to the [[Aminochromes]] family. One-electron reduction generates a semiquinone radical that reduces oxygen to [[Superoxide anion]], propagating [[Oxidative Stress]]; two-electron reduction by [[DT-diaphorase]] ([[NQO1]]) or [[Glutathione]]-dependent systems short-circuits this cycle. Its electrophilic quinone ring readily undergoes [[Michael addition]] with protein and peptide thiols, contributing to covalent pigment–protein adducts found in [[Melanins]] and [[Neuromelanin]].
+As an ortho-quinone, dopaquinone participates in one-electron redox cycling analogous to the [[Aminochromes]] family. One-electron reduction generates a semiquinone radical that reduces oxygen to [[Superoxide anion]], propagating [[Oxidative Stress]]; two-electron reduction by [[NQO1|DT-diaphorase]] or [[Glutathione]]-dependent systems short-circuits this cycle. Its electrophilic quinone ring readily undergoes [[Michael addition]] with protein and peptide thiols, contributing to covalent pigment–protein adducts found in [[Melanins]] and [[Neuromelanin]].
 
 > [!warning]
 > Dopaquinone's electrophilicity means unregulated accumulation can modify cysteine and lysine residues on proteins, a mechanism shared with the aminochrome pathway downstream of [[Epinephrine]] oxidation to [[Adrenochrome]].
@@ -48,6 +48,6 @@ In catecholaminergic neurons, redox cycling of catechol-derived quinones (from d
 
 ## Linking Summary
 
-  - New links added: [[L-DOPA]], [[Tyrosinase]], [[Dopachrome]], [[Cysteinyldopa]], [[Cysteine]], [[5,6-Dihydroxyindole]], [[Melanins]], [[Neuromelanin]], [[Aminochromes]], [[Adrenochrome]], [[Dopamine]], [[Epinephrine]], [[Superoxide anion]], [[DT-diaphorase]], [[NQO1]], [[Glutathione]], [[Michael addition]], [[Oxidative Stress]], [[Substantia Nigra]], [[Parkinson's Disease]]
+  - New links added: [[L-DOPA]], [[Tyrosinase]], [[Dopachrome]], [[Cysteinyldopa]], [[Cysteine]], [[5,6-Dihydroxyindole]], [[Melanins]], [[Neuromelanin]], [[Aminochromes]], [[Adrenochrome]], [[Dopamine]], [[Epinephrine]], [[Superoxide anion]], [[NQO1|DT-diaphorase]], [[Glutathione]], [[Michael addition]], [[Oxidative Stress]], [[Substantia Nigra]], [[Parkinson's Disease]]
   - Suggested new entity notes to create: [[Tyrosinase]], [[L-DOPA]], [[Dopachrome tautomerase]]
   - Strong connections to strengthen: [[Dopaquinone]] ↔ [[Neuromelanin]], [[Dopaquinone]] ↔ [[Adrenochrome]]

@@ -40,7 +40,7 @@ aliases:
 
 ## Role in Neurodegeneration
 
-- **Tau protein**: O-GlcNAcylation of [[Tau Protein|tau]] is reduced in [[Alzheimer's Disease]] brain; reciprocal phosphorylation at adjacent sites is increased, promoting [[Neurofibrillary tangles]] formation and tau pathology. [[SIRT1]] reduces tau O-GlcNAcylation via regulation of OGT, and total tau O-GlcNAcylation modulates its aggregation propensity (Lu et al., 2020, *Aging*).
+- **Tau protein**: O-GlcNAcylation of [[Tau|tau]] is reduced in [[Alzheimer's Disease]] brain; reciprocal phosphorylation at adjacent sites is increased, promoting [[Neurofibrillary tangles]] formation and tau pathology. [[SIRT1]] reduces tau O-GlcNAcylation via regulation of OGT, and total tau O-GlcNAcylation modulates its aggregation propensity (Lu et al., 2020, *Aging*).
 - Altered O-GlcNAc cycling is implicated in diabetes-related cognitive impairment and other neurodegenerative states, linking metabolic dysregulation to proteinopathy.
 
 ## Therapeutic and Senomorphic Relevance
@@ -61,7 +61,7 @@ aliases:
 - [[Mitochondrial Fission]] — The process stimulated by DRP1 O-GlcNAcylation.
 - [[Mitochondrial Dynamics]] — O-GlcNAcylation couples nutrient state to fission–fusion balance.
 - [[HNF4α]] — Hepatic transcription factor regulated by O-GlcNAcylation.
-- [[Tau Protein]] — O-GlcNAcylation opposes tau phosphorylation and aggregation.
+- [[Tau]] — O-GlcNAcylation opposes tau phosphorylation and aggregation.
 - [[Alzheimer's Disease]] — Tau O-GlcNAcylation is reduced in AD brain.
 - [[Sirtuins]] — [[SIRT1]] regulates tau O-GlcNAcylation via OGT.
 - [[Glucosamine]] — Nutrient that increases O-GlcNAcylation; studied as a senomorphic.
@@ -72,6 +72,6 @@ aliases:
 
 ## Linking Summary
 
-- New links added: [[DRP1]], [[Mitochondrial Fission]], [[Mitochondrial Dynamics]], [[HNF4α]], [[Tau Protein]], [[Alzheimer's Disease]], [[Sirtuins]], [[Glucosamine]], [[mTOR]], [[Histone Modification]], [[Acetylation]], [[Senomorphics]], [[Cytosol]], [[Mitochondria]], [[Chromatin Remodeling]], [[Gluconeogenesis]], [[Epigenetic Landscape]], [[Mitophagy]], [[Apoptosis]], [[Neurofibrillary tangles]], [[SWI-SNF Complex]]
+- New links added: [[DRP1]], [[Mitochondrial Fission]], [[Mitochondrial Dynamics]], [[HNF4α]], [[Tau]], [[Alzheimer's Disease]], [[Sirtuins]], [[Glucosamine]], [[mTOR]], [[Histone Modification]], [[Acetylation]], [[Senomorphics]], [[Cytosol]], [[Mitochondria]], [[Chromatin Remodeling]], [[Gluconeogenesis]], [[Epigenetic Landscape]], [[Mitophagy]], [[Apoptosis]], [[Neurofibrillary tangles]], [[SWI-SNF Complex]]
 - Suggested new entity notes to create: [[O-GlcNAc Transferase (OGT)]], [[O-GlcNAcase (OGA)]], [[Hexosamine Biosynthesis Pathway]], [[Glucosamine]]
-- Strong connections to strengthen: [[O-GlcNAcylation]] ↔ [[DRP1]], [[O-GlcNAcylation]] ↔ [[Tau Protein]], [[O-GlcNAcylation]] ↔ [[Glucosamine]]
+- Strong connections to strengthen: [[O-GlcNAcylation]] ↔ [[DRP1]], [[O-GlcNAcylation]] ↔ [[Tau]], [[O-GlcNAcylation]] ↔ [[Glucosamine]]

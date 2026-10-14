@@ -36,7 +36,7 @@ Blocking ERV (and LINE-1) reverse transcription with [[Nucleoside Reverse Transc
 
 ## Documents
 
-- [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]] — The review frames ERVs/HERVs as epigenetically silenced relics derepressed by senescence-associated demethylation and heterochromatin loss, whose cDNA triggers cGAS–STING SASP and paracrine senescence spread, suppressible by NRTIs.
+- [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]] — The review frames ERVs/HERVs as epigenetically silenced relics derepressed by senescence-associated demethylation and heterochromatin loss, whose cDNA triggers cGAS–STING SASP and paracrine senescence spread, suppressible by NRTIs.
 
 ## Connections
 

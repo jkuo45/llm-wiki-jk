@@ -39,7 +39,7 @@ BET-family readers (BRD4) and HATs at SEs are tractable [[Senomorphic|senomorphi
 
 ## Documents
 
-- [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]] — Senescence-activated super-enhancers, enriched in H3K27ac/H3K18ac/H3K122ac/H4K5ac, are bound by AP-1, BRD4 and C/EBPα to drive SASP.
+- [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]] — Senescence-activated super-enhancers, enriched in H3K27ac/H3K18ac/H3K122ac/H4K5ac, are bound by AP-1, BRD4 and C/EBPα to drive SASP.
 
 ## Connections
 

@@ -41,7 +41,7 @@ List of documents that mention this entity
 - [[Apis mellifera]]: Scientific name of the European honeybee.
 - [[Honeybee venom]]: Venom source of anticancer peptides.
 - [[melittin]]: Major active antitumor peptide.
-- [[Apitherapy]]: Medicinal use of bee products.
+- [[apitherapy]]: Medicinal use of bee products.
 - [[HER2]]: Phosphorylation suppressed by melittin.
 - [[Apoptosis]]: Death program induced by melittin.
 - [[Autophagy]]: Parallel melittin-induced program.
@@ -51,6 +51,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Apis mellifera]], [[Honeybee venom]], [[melittin]], [[Apitherapy]], [[HER2]], [[EGFR]], [[PI3K]], [[Akt]], [[Wnt]], [[Apoptosis]], [[Autophagy]], [[Metastasis]], [[Angiogenesis]], [[Chemotherapy]], [[Ivermectin]], [[Glioblastoma], [[Anticancer]], [[Medical Treatment]]
+- New links added: [[Apis mellifera]], [[Honeybee venom]], [[melittin]], [[apitherapy]], [[HER2]], [[EGFR]], [[PI3K]], [[Akt]], [[Wnt]], [[Apoptosis]], [[Autophagy]], [[Metastasis]], [[Angiogenesis]], [[Chemotherapy]], [[Ivermectin]], [[Glioblastoma], [[Anticancer]], [[Medical Treatment]]
 - Suggested new entity notes to create: [[Propolis]], [[Apamin]], [[Royal Jelly]]
-- Strong connections to strengthen: [[Honeybee]] ↔ [[Honeybee venom]], [[Honeybee]] ↔ [[melittin], [[Honeybee]] ↔ [[Apitherapy]]
+- Strong connections to strengthen: [[Honeybee]] ↔ [[Honeybee venom]], [[Honeybee]] ↔ [[melittin], [[Honeybee]] ↔ [[apitherapy]]

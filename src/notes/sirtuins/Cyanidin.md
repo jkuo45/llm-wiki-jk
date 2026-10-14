@@ -59,7 +59,7 @@ List of documents that mention this entity
 ## Connections
 
 - [[SIRT6]] — primary molecular target; cyanidin activates via the SIRT6 hydrophobic allosteric pocket
-- [[Antioxidants]] — cyanidin is a potent antioxidant anthocyanidin
+- [[Antioxidant]] — cyanidin is a potent antioxidant anthocyanidin
 - [[Cancer]] — SIRT6 tumor suppressor activity potentiated by cyanidin
 - [[UBCS039]] — synthetic SIRT6 activator with overlapping allosteric binding site
 - [[MDL-801]] — potent synthetic SIRT6 activator; same pocket
@@ -67,6 +67,6 @@ List of documents that mention this entity
 ---
 
 ## Linking Summary
-- New links added: [[SIRT6]], [[Antioxidants]], [[Cancer]], [[UBCS039]], [[MDL-801]]
+- New links added: [[SIRT6]], [[Antioxidant]], [[Cancer]], [[UBCS039]], [[MDL-801]]
 - Suggested new entity notes: [[Anthocyanins]], [[Elderberry]], [[UBCS039]], [[MDL-801]]
 - Strong connections: [[Cyanidin]] ↔ [[SIRT6]], [[Cyanidin]] ↔ [[UBCS039]]

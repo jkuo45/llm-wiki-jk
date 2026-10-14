@@ -52,7 +52,7 @@ Notes: [[Intermittent Fasting|TRF]] = "simplest way to activate [[AMPK]] and mit
 
 ## Impact by Life Stage
 
-- **Youth:** Autophagic/mitophagic flux naturally high. Fasting = training/hormetic stimulus ([[Mitohormesis]], [[Hormetic Window]]). Risk: prolonged fasting impairs growth ([[IGF-1]] suppression undesirable).
+- **Youth:** Autophagic/mitophagic flux naturally high. Fasting = training/hormetic stimulus ([[Mitohormesis]], [[Hormetic Window]]). Risk: prolonged fasting impairs growth ([[IGF1]] suppression undesirable).
 - **Mid-age:** Flux begins declining — SWEET SPOT for intervention. Quarterly 72 h fasts counteract early mitophagy drop, limit [[ROS]]→[[Inflammaging]]. Maximal benefit on Metabolic Health, [[Neuroprotection]], Cancer Prevention.
 - **Old age:** Basal mitophagy markedly impaired ([[Parkinson's Disease|PD]]/[[Alzheimer's Disease|AD]] hallmark). Daily [[Intermittent Fasting|IF]] becomes MORE valuable (recurrent low-dose signal elderly cells can't generate). BUT prolonged 72 h fasts carry higher risk ([[Sarcopenia]], frailty, bone density). Prefer periodic IF over aggressive fasting.
 

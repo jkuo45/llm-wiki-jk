@@ -20,7 +20,7 @@ The process is initiated by a rise in cytosolic Ca²⁺, which triggers the recr
 
 ## Physiological and Pathological Relevance
 
-In the healthy nervous system, lysosomal exocytosis supports synaptic membrane recycling and reseals pores in the lysosomal and plasma membranes after injury. In aging and in [[Parkinson's Disease]], chronic cargo overload—including [[Alpha-synuclein]] aggregates, lipofuscin, and [[Neuromelanin]]—impairs this pathway. When exocytosis is blocked, pigment-laden lysosomes swell, oxidative reactions within the lysosome generate [[Reactive Oxygen Species]], and the neuron becomes increasingly vulnerable. Experimental enhancement of lysosomal exocytosis (e.g., TFEB overexpression, or pharmacologic stimulation via [[LAMP2A]]-associated pathways) reduces intracellular neuromelanin accumulation and improves dopaminergic survival in models, making it a candidate [[Medical Treatment]] strategy for disease modification.
+In the healthy nervous system, lysosomal exocytosis supports synaptic membrane recycling and reseals pores in the lysosomal and plasma membranes after injury. In aging and in [[Parkinson's Disease]], chronic cargo overload—including [[Alpha-synuclein]] aggregates, lipofuscin, and [[Neuromelanin]]—impairs this pathway. When exocytosis is blocked, pigment-laden lysosomes swell, oxidative reactions within the lysosome generate [[Reactive Oxygen Species]], and the neuron becomes increasingly vulnerable. Experimental enhancement of lysosomal exocytosis (e.g., TFEB overexpression, or pharmacologic stimulation via [[LAMP-2A]]-associated pathways) reduces intracellular neuromelanin accumulation and improves dopaminergic survival in models, making it a candidate [[Medical Treatment]] strategy for disease modification.
 
 ## Research Implications
 
@@ -47,5 +47,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[TFEB]], [[Neuromelanin]], [[Lysosomal Dysfunction]], [[Macromolecular Crowding]], [[Autophagy]], [[Proteostasis]], [[Alpha-synuclein]], [[VAMP7]], [[Rab27a]], [[Parkinson's Disease]].
-- Suggested new entity notes to create: [[Lysosomal Biogenesis]], [[CLEAR Motif]], [[LAMP2A]].
+- Suggested new entity notes to create: [[Lysosomal Biogenesis]], [[CLEAR Motif]], [[LAMP-2A]].
 - Strong connections to strengthen: [[Lysosomal Exocytosis]] ↔ [[TFEB]].

@@ -3,7 +3,7 @@ title: Scramblase
 description: Calcium-activated phospholipid scramblases (TMEM16F/ANO6, PLSCR family) that externalize phosphatidylserine — the eat-me signal executed in eryptosis and apoptosis.
 protected: false
 created: 2026-09-10
-updated: 2026-09-10
+updated: 2026-10-08
 tags: [protein, calcium-signaling, cell-death, membrane-biology]
 url: #
 source: #
@@ -18,12 +18,17 @@ aliases: [Phospholipid scramblase, TMEM16F, ANO6, PLSCR, XKR scramblase]
 
 Resting asymmetry (PS inward) is maintained by flippases; Ca2+ elevation flips the balance — scramblase on, flippase off — collapsing asymmetry within minutes. In erythrocytes this couples to calpain activation and cell shrinkage; in nucleated cells caspase-cleaved XKR8 performs the analogous role.
 
+> [!info]
+> Source: [[_document_ - Current understanding of eryptosis mechanisms, physiological functions, role in disease, pharmacological applications, and nomenclature recommendations|Tkachenko et al. 2025 eryptosis consensus review]]
+> In [[Erythrocytes]] scramblase activation is driven by Ca2+ overload: indoxyl sulfate raises cytosolic Ca2+ and stimulates membrane scrambling, amplifying PS exposure; externally applied acidic sphingomyelinase, cigarette-smoke-extract ceramide, and nanomaterial ROS all converge on Ca2+/scramblase. Elevated intracellular Ca2+ both inhibits flippase and activates scramblase, so loss of asymmetry is the switch point between surviving and eryptotic cells — which is why the review names PS externalization (plus Ca2+ elevation) the diagnostic criterion and the drug target.
+
 ## Detection and relevance
 
-PS externalization is read out by [[Annexin V]] binding. Scramblase activity sits at the junction of regulated death ([[Eryptosis]], [[Apoptosis]]), coagulation (PS-positive procoagulant surfaces), and clearance biology.
+PS externalization is read out by [[Annexin V]] binding. Scramblase activity sits at the junction of regulated death ([[Eryptosis]], [[Apoptosis]]), coagulation (PS-positive procoagulant surfaces), and clearance biology. Erythrocyte scramblase activity is assayed indirectly via loss of aminophospholipid-translocase asymmetry, NBD-PS probe translocation, or annexin V binding.
 
 ## Documents
 
+- [[_document_ - Current understanding of eryptosis mechanisms, physiological functions, role in disease, pharmacological applications, and nomenclature recommendations|Tkachenko et al. 2025]] — Ca2+-controlled flippase/scramblase flip in erythrocytes; uremic toxin and nanomaterial routes.
 - Cell death comparison page (eryptosis row): Ca2+ influx → calpain + scramblase activation → PS exposure.
 
 ## Connections

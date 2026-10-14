@@ -14,7 +14,7 @@ The **World Health Organization (WHO)** is the specialized agency of the [[Unite
 
 ## Cancer Control Activities
 
-WHO houses the International Agency for Research on Cancer (IARC), which classifies carcinogens and compiles the *GLOBOCAN* cancer-burden estimates. Through its cancer initiatives, WHO promotes early diagnosis, essential medicines access (including listed [[Chemotherapy]] agents and targeted drugs such as [[Trastuzumab]]), palliative care, and the elimination of cervical cancer via HPV vaccination and screening. It also frames non-communicable disease (NCD) targets that include reducing premature cancer mortality.
+WHO houses the International Agency for Research on Cancer (IARC), which classifies carcinogens and compiles the *GLOBOCAN* cancer-burden estimates. Through its cancer initiatives, WHO promotes early diagnosis, essential medicines access (including listed [[Chemotherapy]] agents and targeted drugs such as [[trastuzumab]]), palliative care, and the elimination of cervical cancer via HPV vaccination and screening. It also frames non-communicable disease (NCD) targets that include reducing premature cancer mortality.
 
 ## Neglected Tropical Disease Elimination
 
@@ -40,11 +40,11 @@ List of documents that mention this entity
 - [[TDR]]: WHO-coordinated tropical disease research programme.
 - [[Simulium]]: Blackfly vector of onchocerciasis.
 - [[Wuchereria bancrofti]]: Filarial nematode causing lymphatic filariasis.
-- [[Trastuzumab]]: A targeted cancer medicine within WHO access efforts.
+- [[trastuzumab]]: A targeted cancer medicine within WHO access efforts.
 - [[Cancer]]: Core WHO non-communicable disease mandate.
 
 ## Linking Summary
 
-- New links added: [[Onchocerciasis]], [[Lymphatic Filariasis]], [[TDR]], [[Ivermectin]], [[Simulium]], [[Wuchereria bancrofti]], [[Trastuzumab]], [[Cancer]], [[United Nations], [[Inflammation]]
+- New links added: [[Onchocerciasis]], [[Lymphatic Filariasis]], [[TDR]], [[Ivermectin]], [[Simulium]], [[Wuchereria bancrofti]], [[trastuzumab]], [[Cancer]], [[United Nations], [[Inflammation]]
 - Suggested new entity notes to create: [[United Nations]], [[IARC]], [[GLOBOCAN], [[Onchocerciasis Control Programme]]
 - Strong connections to strengthen: [[World Health Organization]] ↔ [[Onchocerciasis], [[World Health Organization]] ↔ [[Ivermectin]]

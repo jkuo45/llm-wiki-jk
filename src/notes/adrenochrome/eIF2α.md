@@ -7,7 +7,7 @@ created: 2026-07-04
 updated: 2026-07-04
 tags:
   - protein
-aliases: [Eukaryotic translation initiation factor 2 subunit alpha, eIF-2α, eIF2 alpha]
+aliases: [Eukaryotic translation initiation factor 2 subunit alpha, eIF-2α, eIF2 alpha, EIF2A, eIF2alpha]
 
 ---
 

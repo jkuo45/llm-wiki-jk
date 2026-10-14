@@ -7,7 +7,7 @@ tags:
   - biological-molecule
   - mitochondria
   - oxidative-stress
-aliases: [mtROS, Mitochondrial reactive oxygen species]
+aliases: [mtROS, Mitochondrial reactive oxygen species, mitochondrial oxidative stress]
 url: #
 source: #
 ---

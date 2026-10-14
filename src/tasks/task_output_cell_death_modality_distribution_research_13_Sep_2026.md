@@ -165,7 +165,7 @@ There is no study that has counted deaths by modality across a whole organism. W
 * [[Necrosis]] — accidental/uncontrolled corner; DAMP → sterile [[Inflammation]].
 * [[Necroptosis]], [[Pyroptosis]], [[Ferroptosis]], [[Parthanatos]] — regulated lytic modalities, disease-gated and therapeutically exploitable.
 * [[Secondary Necrosis]] — bridge converting silent apoptosis into inflammatory death when efferocytosis fails.
-* [[Oncosis]], [[Damage-Associated Molecular Patterns]] — mechanistic anchors of the uncontrolled corner.
+* [[oncosis]], [[Damage-Associated Molecular Patterns]] — mechanistic anchors of the uncontrolled corner.
 * [[Ischemia-reperfusion Injury]], [[Myocardial infarction]], [[Metastasis]] — disease contexts where lytic death dominates.
 
 ## Suggested follow-ups
@@ -173,4 +173,4 @@ There is no study that has counted deaths by modality across a whole organism. W
 * Propagate the denominator caveat into [[Apoptosis]] and [[Necrosis]] entity notes (do not state "apoptosis = 90% of all cell death" without qualification).
 * Enrich [[Eryptosis]] (exists at `src/notes/_link/Eryptosis.md`) with the *Nat Med* 2021 turnover anchors: ~200 billion RBC/day, ~61% of the 330 billion/day whole-body turnover.
 * Create an [[Immunogenic Cell Death]] entity note (currently absent) — the ICD literature (calreticulin/ATP/HMGB1, necroptosis cross-priming) is a growing vault theme.
-* Unresolved links used here: [[Oncosis]] (already linked from [[Necrosis]], no note yet).
+* Unresolved links used here: [[oncosis]] (already linked from [[Necrosis]], no note yet).

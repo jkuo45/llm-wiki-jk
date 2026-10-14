@@ -4,10 +4,10 @@ description: The Rag proteins are a family of small GTPases that form heterodime
   to recruit mTORC1 to the lysosomal surface in response to amino acids, enabling
   its activation by Rheb.
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-10-01
 tags:
   - protein
-aliases: [Rag GTPases, RRAGC/D]
+aliases: [Rag GTPases, Rag GTPase, RagA/B/C/D, RRAGC/D]
 ---
 # Rag proteins
 The Rag proteins are a family of small GTPases that form heterodimers to recruit [[mTORC1]] to the lysosomal surface in response to [[amino acids]], enabling its activation by [[Rheb]].

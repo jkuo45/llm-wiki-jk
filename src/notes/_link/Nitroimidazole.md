@@ -30,10 +30,10 @@ protected: false
 - [[Radiosensitizer]] — functional class.
 - [[Hypoxia]] — selectivity context.
 - [[Benzimidazole]] — related heterocyclic class.
-- [[Radiation Therapy]] — clinical application context.
+- [[Radiotherapy]] — clinical application context.
 - [[Fenbendazole]] — structural analogue tested for radiosensitization.
 
 ## Linking Summary
 
-- New links added: [[Radiosensitizer]], [[Hypoxia]], [[Benzimidazole]], [[Radiation Therapy]], [[Fenbendazole]].
+- New links added: [[Radiosensitizer]], [[Hypoxia]], [[Benzimidazole]], [[Radiotherapy]], [[Fenbendazole]].
 - Strong connections to strengthen: [[Nitroimidazole]] ↔ [[Radiosensitizer]] (hypoxia-selective mechanism).

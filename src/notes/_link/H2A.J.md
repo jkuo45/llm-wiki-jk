@@ -41,7 +41,7 @@ H2A.J is a strong candidate biomarker of persistent DNA damage and cellular sene
 
 ## Documents
 
-- [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]] — H2A.J rises in senescent fibroblasts and aged skin, marks persistent DNA damage, and is enriched at SASP promoters to drive SASP expression.
+- [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]] — H2A.J rises in senescent fibroblasts and aged skin, marks persistent DNA damage, and is enriched at SASP promoters to drive SASP expression.
 
 ## Connections
 

@@ -59,6 +59,14 @@ offset by +1000).
   structure without enumeration — no numbered prefixes (`## 1. Foo`,
   `## Step 1`, `## I. Foo`). Add numbering only when order itself is
   meaningful (chronology, sequence, scale, ranking).
+- **Outbound links in web pages**: every cross-origin `<a href="http(s)://...">`
+  needs `target="_blank" rel="noopener noreferrer"`. Articles render inside the
+  reader iframe (no `sandbox`), so an untargeted cross-origin click navigates
+  the *iframe* and hosts that send `X-Frame-Options: deny` (github.com, doi.org,
+  pmc.ncbi.nlm.nih.gov, …) refuse to load — the click silently does nothing.
+  Same-origin `graph.johnnykuo.com` links stay untargeted: those are in-reader
+  navigation reconciled by `matchFrameArticle()` in `web/components/reader.js`.
+  Enforced by `tests/test_web_page_links.py`.
 
 ---
 
@@ -241,6 +249,10 @@ uv run python3 -m scripts query-roles --roles-file web/public/data/node_roles.js
 # GitHub repo / branch for generated links: read from repo .env
 # (GITHUB_REPO_URL, GITHUB_BRANCH). Both are required — readme-counts raises if
 # either is missing (no hardcoded default).
+# Run this AFTER any graph rebuild above: the root README's generated
+# `graph_datasets` block (dataset table, Combined Merge overlap counts,
+# Build/hash line) is only refreshed here, so skipping it leaves the published
+# numbers describing the previous build.
 uv run python3 -m scripts readme-counts
 
 # Offline API test suite (tests/; no Supabase or opencode server needed)

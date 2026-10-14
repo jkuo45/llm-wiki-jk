@@ -2,7 +2,7 @@
 title: Double-Strand Break
 description: A lesion in which both strands of the DNA duplex are severed, triggering coordinated DNA damage responses and the recruitment of chromatin modifiers to repair sites.
 created: 2026-07-09
-updated: 2026-07-09
+updated: 2026-10-01
 tags:
   - biological-process
   - dna-damage
@@ -11,6 +11,7 @@ aliases:
   - DSB
   - DNA Double-Strand Break
   - Double-strand break
+  - Double-strand breaks
 ---
 
 # Double-Strand Break

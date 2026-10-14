@@ -39,7 +39,7 @@ Because SADS remodels接触 with SASP loci, it is part of the chromatin substrat
 
 ## Documents
 
-- [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]] — SADS decompacts constitutive pericentromeric heterochromatin, creates new contacts with SASP loci, and influences SASP regulation independently of SAHF.
+- [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]] — SADS decompacts constitutive pericentromeric heterochromatin, creates new contacts with SASP loci, and influences SASP regulation independently of SAHF.
 
 ## Connections
 

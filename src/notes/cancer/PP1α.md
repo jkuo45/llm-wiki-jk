@@ -14,7 +14,7 @@ Protein phosphatase 1 alpha (PP1α), encoded by [[PPP1CA]], is the alpha catalyt
 
 ## Structure & Mechanism
 
-PP1α shares the conserved PP1 catalytic fold, a β12-αC loop metal-binding site coordinating two Mn²⁺/Fe²⁺ ions essential for phosphoesterase activity, and a hydrophobic groove that binds regulatory subunits and substrate-docking motifs (the RVxF motif). Substrate specificity arises from associated regulatory proteins rather than the catalytic core itself. PP1α recognizes the phosphorylated Thr125 in the caspase-9 prodomain (placed by survival kinases such as [[AKT]]/[[Rsk]]) and removes it, relieving inhibition and permitting apoptosome-driven activation of Caspase-9.
+PP1α shares the conserved PP1 catalytic fold, a β12-αC loop metal-binding site coordinating two Mn²⁺/Fe²⁺ ions essential for phosphoesterase activity, and a hydrophobic groove that binds regulatory subunits and substrate-docking motifs (the RVxF motif). Substrate specificity arises from associated regulatory proteins rather than the catalytic core itself. PP1α recognizes the phosphorylated Thr125 in the caspase-9 prodomain (placed by survival kinases such as [[Akt]]/[[Rsk]]) and removes it, relieving inhibition and permitting apoptosome-driven activation of Caspase-9.
 
 ## Physiological & Pathological Function
 
@@ -37,7 +37,7 @@ List of documents that mention this entity
 - [[Caspase-9]] - Apoptotic initiator caspase activated by PP1α via Thr125 dephosphorylation.
 - [[PP1]] - Parent phosphatase family of which PP1α is the alpha isoform.
 - [[Phosphorylation]] - Reversible modification reversed by PP1α.
-- [[AKT]] - Survival kinase that phosphorylates/inhibits Caspase-9, opposed by PP1α.
+- [[Akt]] - Survival kinase that phosphorylates/inhibits Caspase-9, opposed by PP1α.
 - [[Apoptosis]] - Cell death promoted through Caspase-9 activation.
 - [[Cancer]] - Disease where PP1α/Caspase-9 balance affects therapy response.
 - [[Hallmarks of Cancer]] - Apoptosis evasion linked to PP1α regulation.
@@ -45,6 +45,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[PP1α]], [[Caspase-9]], [[PP1]], [[Phosphorylation]], [[AKT]], [[Apoptosis]], [[Cancer]], [[Hallmarks of Cancer]], [[Chemotherapy]], [[PPP1CA]]
+- New links added: [[PP1α]], [[Caspase-9]], [[PP1]], [[Phosphorylation]], [[Akt]], [[Apoptosis]], [[Cancer]], [[Hallmarks of Cancer]], [[Chemotherapy]], [[PPP1CA]]
 - Suggested new entity notes to create: [[RVxF Motif]], [[Rsk]]
 - Strong connections to strengthen: [[PP1α]] ↔ [[Caspase-9]], [[PP1α]] ↔ [[PP1]]

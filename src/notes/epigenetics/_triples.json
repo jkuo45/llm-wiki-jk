@@ -11,7 +11,7 @@
     "confidence": 0.95,
     "source_document": "5-Azacytidine.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7c7ef0166709",
@@ -25,7 +25,7 @@
     "confidence": 0.95,
     "source_document": "5-Azacytidine.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "11bd28934984",
@@ -53,7 +53,7 @@
     "confidence": 0.95,
     "source_document": "Epigenetic Drift.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "cfa8877b5aea",
@@ -67,7 +67,7 @@
     "confidence": 0.95,
     "source_document": "Epigenetics and aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "40e950a576d1",
@@ -81,7 +81,7 @@
     "confidence": 0.95,
     "source_document": "Partial Reprogramming.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5628e78670ee",
@@ -95,7 +95,7 @@
     "confidence": 0.75,
     "source_document": "Epigenetics and aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "24f5fa8aad54",
@@ -123,7 +123,7 @@
     "confidence": 0.95,
     "source_document": "Frontotemporal Dementia.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d93b66e8ab03",
@@ -135,9 +135,9 @@
       "zh-TW": "轉錄因子 AP-1 作為先鋒因子，與 SASP 和其他老化相關基因相關的增強子結合，啟動封閉染色質的打開。透過在這些增強子上率先開放染色質，AP-1 能夠隨後招募轉錄機制、組蛋白乙醯轉移酶 p300，並活化 SASP gene expression。單獨消耗 AP-1 家族成員 c-Jun 可以部分逆轉老化相關的細胞週期停滯，強調了 AP-1 的核心調節作用。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "cc2e726e6469",
@@ -149,9 +149,9 @@
       "zh-TW": "BRAF，特別是致癌 BRAF V600E 突變體，當在正常細胞中高水平表達時，會誘導癌基因誘導的衰老。過度活躍的 BRAF 訊號傳導會驅動異常增殖和 DNA 損傷，進而活化 DNA 損傷反應和 p53，引發永久性生長停滯，從而防止惡性轉化。 BRAF 誘導的衰老細胞表現出完整的衰老表型，包括衰老相關的異染色質灶和 SASP，使其成為關鍵的實驗模型。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "12020f412345",
@@ -163,7 +163,7 @@
       "zh-TW": "BRD4 是 BET 家族表觀遺傳讀取器，可與 H3K27ac（活性增強子和啟動子上存在的乙醯化標記）結合。在老化活化的超級增強子中，BRD4 與 H3K27ac 結合，與轉錄因子 C/EBPα 一起，透過支持增強子-啟動子相互作用和轉錄延伸來促進 SASP 基因的表達。 BRD4 抑制可抑制 SASP，同時保持細胞週期停滯完整，使其成為臨床試驗中 BET 抑制劑的候選同型標靶。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-08-20T00:00:00Z"
   },
@@ -177,7 +177,7 @@
       "zh-TW": "BRD4 透過與關鍵 SASP 基因側翼的衰老活化增強子結合來驅動 SASP。 BRD4 與轉錄因子 C/EBPα 一起識別這些增強子上的 H3K27ac 標記，並透過穩定增強子-啟動子接觸來促進發炎 SASP 基因的轉錄。敲除 BRD4 可防止 SASP 的出現，而不影響生長停滯，這將 BRD4 和 BET 溴結構域抑制劑定位為一種有前途的同型策略。由於 BRD4 在許多發炎基因的上游發揮作用，因此它提供了一個單一標靶來抑制整個 SASP 程序。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-08-20T00:00:00Z"
   },
@@ -193,7 +193,7 @@
     "confidence": 0.75,
     "source_document": "Epigenetic Clock.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "fb8b615a93b3",
@@ -207,7 +207,7 @@
     "confidence": 0.95,
     "source_document": "Epigenetic Drift.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "cce0b1f8a851",
@@ -235,7 +235,7 @@
     "confidence": 0.95,
     "source_document": "Cellular Reprogramming.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "39108ab4bfb9",
@@ -249,7 +249,7 @@
     "confidence": 0.95,
     "source_document": "Cellular Reprogramming.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a84025f64150",
@@ -263,10 +263,10 @@
     "confidence": 0.95,
     "source_document": "Cellular Reprogramming.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "35a087658f3d",
+    "id": "fd43920bf744",
     "subject": "cGAS-STING Pathway",
     "predicate": "activates",
     "object": "NF-κB",
@@ -275,9 +275,9 @@
       "zh-TW": "cGAS-STING 路徑活化 NF-kB，這是發炎反應的主要轉錄因子，也是 SASP 的關鍵調節因子。 cGAS 結合胞質 DNA 並活化 STING 後，下游訊號傳導匯聚到 TBK1 和 IKK 複合物上以活化 NF-kB，從而驅動促炎細胞因子和趨化因子的轉錄。在老化細胞中，cGAS-STING 到 NF-kB 級聯是胞質自身 DNA（包括逆轉錄轉座子 cDNA）誘導 SASP 表現的主要途徑。因此，該途徑是將基因組監測與老化發炎程序聯繫起來的中心節點。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4a1160b26cd5",
@@ -289,7 +289,7 @@
       "zh-TW": "Chromatin 由核小體組成，核小體是將基因組包裝在細胞核內的重複結構單元。每個核小體由一個組蛋白八聚體組成，其中 H2A、H2B、H3 和 H4 各有兩個拷貝，由大約 147 個鹼基對的 DNA 包裹。核小體以串珠的方式沿著 DNA 排列，並進一步壓縮成高級纖維，其定位和修飾決定了底層 DNA 是否可用於轉錄、複製和修復。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-08-20T00:00:00Z"
   },
@@ -305,7 +305,7 @@
     "confidence": 0.95,
     "source_document": "CRISPR.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b72538f61b5d",
@@ -333,7 +333,7 @@
     "confidence": 0.9,
     "source_document": "Cyclopentenyl cytosine.md",
     "created": "2026-09-02T06:51:04Z",
-    "updated": "2026-09-02T06:51:04Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "244e9b633f2d",
@@ -347,7 +347,7 @@
     "confidence": 0.85,
     "source_document": "Cyclopentenyl cytosine.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e281491ae409",
@@ -361,7 +361,7 @@
     "confidence": 0.8,
     "source_document": "Cyclopentenyl cytosine.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "20e2fffcd1fd",
@@ -375,7 +375,7 @@
     "confidence": 0.97,
     "source_document": "Cyclopentenyl cytosine.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5a9ba96ed085",
@@ -389,7 +389,7 @@
     "confidence": 0.85,
     "source_document": "Cyclopentenyl cytosine.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2ccad8191124",
@@ -403,7 +403,7 @@
     "confidence": 0.85,
     "source_document": "Cyclopentenyl cytosine.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "39fe0eb25538",
@@ -417,7 +417,7 @@
     "confidence": 0.9,
     "source_document": "Cyclopentenyl cytosine.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8bfbfe049dec",
@@ -429,9 +429,9 @@
       "zh-TW": "細胞質染色質片段會活化 cGAS-STING 通路，這是一種將核 DNA 損傷與發炎聯繫起來的先天免疫 DNA 感測級聯反應。在老化過程中，核膜的破裂將染色質釋放到細胞質中，其中 DNA 感測器 cGAS 結合這種自身 DNA 並活化 STING，驅動 SASP 基因的 NF-kB 依賴性表達。這種透過細胞質染色質的 cGAS-STING 訊號傳導是將基因組不穩定性與發炎老化表型耦合的主要機制。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c13a92247b78",
@@ -459,7 +459,7 @@
     "confidence": 0.95,
     "source_document": "Decitabine.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "267403b4a7df",
@@ -487,7 +487,7 @@
     "confidence": 0.95,
     "source_document": "Disease Modeling.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "06196f53cab4",
@@ -501,7 +501,7 @@
     "confidence": 0.95,
     "source_document": "DNA Methylation.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8ca50c313444",
@@ -515,7 +515,7 @@
     "confidence": 0.95,
     "source_document": "DNA Methylation.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "408ef1d1470e",
@@ -529,7 +529,7 @@
     "confidence": 0.95,
     "source_document": "DNA Methylation.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "273473f007d1",
@@ -543,7 +543,7 @@
     "confidence": 0.95,
     "source_document": "DNA Methylation.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "15f20977a927",
@@ -557,7 +557,7 @@
     "confidence": 0.95,
     "source_document": "DNA Methylation.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "00d8cf109a35",
@@ -571,7 +571,7 @@
     "confidence": 0.95,
     "source_document": "DNA Methylation.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "73c489609efd",
@@ -585,7 +585,7 @@
     "confidence": 0.85,
     "source_document": "miR-543.md",
     "created": "2026-09-02T06:51:04Z",
-    "updated": "2026-09-02T06:51:04Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "949f60761d3d",
@@ -599,7 +599,7 @@
     "confidence": 0.95,
     "source_document": "DNA Methylation.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d3c7fa028b7a",
@@ -613,7 +613,7 @@
     "confidence": 0.95,
     "source_document": "DNA Methyltransferase.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c849433b0c9c",
@@ -627,7 +627,7 @@
     "confidence": 0.95,
     "source_document": "DNAmGrimAge.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5083e86762d7",
@@ -655,7 +655,7 @@
     "confidence": 0.95,
     "source_document": "DNMT1.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d367acd56957",
@@ -669,7 +669,7 @@
     "confidence": 0.95,
     "source_document": "DNMT1.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "48a4a1025581",
@@ -711,7 +711,7 @@
     "confidence": 0.95,
     "source_document": "DNMT3a.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ab9c6f8c2e73",
@@ -725,7 +725,7 @@
     "confidence": 0.95,
     "source_document": "DNMT3a.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f6ed6d9d4490",
@@ -739,7 +739,7 @@
     "confidence": 0.95,
     "source_document": "DNMT3a.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c5016cae299f",
@@ -753,7 +753,7 @@
     "confidence": 0.95,
     "source_document": "DNMT3a.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "56dd2b156812",
@@ -781,7 +781,7 @@
     "confidence": 0.95,
     "source_document": "DNMT3a.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "700b7fa5748e",
@@ -823,7 +823,7 @@
     "confidence": 0.95,
     "source_document": "DNMT3b.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9b7b0f1dbc22",
@@ -837,7 +837,7 @@
     "confidence": 0.95,
     "source_document": "DNMT3b.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6d887d8aa194",
@@ -851,7 +851,7 @@
     "confidence": 0.95,
     "source_document": "DNMT3b.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9d3ae507589f",
@@ -865,7 +865,7 @@
     "confidence": 0.95,
     "source_document": "DNMT3b.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8bd12a0c9043",
@@ -879,7 +879,7 @@
     "confidence": 0.95,
     "source_document": "Daunorubicin.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6d4550144074",
@@ -893,7 +893,7 @@
     "confidence": 0.95,
     "source_document": "Drug Discovery.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "375046278ec2",
@@ -905,9 +905,9 @@
       "zh-TW": "增強子-啟動子環在拓撲關聯域（兆鹼基級的區室）內受到調節，其中DNA序列彼此之間的相互作用比與外部序列之間的相互作用更頻繁。由於 TAD 限制了增強子-啟動子接觸，因此基因通常受到位於同一結構域內的增強子的調節，並且三維環使這些調節元件與其目標啟動子接近。這種組織允許 SASP 由超連接的增強子-啟動子網路驅動，其相互作用在老化過程中被重組。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "fff93a38607a",
@@ -921,7 +921,7 @@
     "confidence": 0.95,
     "source_document": "Epigenetic Clock.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "160375870fe6",
@@ -935,7 +935,7 @@
     "confidence": 0.95,
     "source_document": "Epigenetic Clock.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "910e3c149f57",
@@ -949,7 +949,7 @@
     "confidence": 0.95,
     "source_document": "Epigenetic Clock.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0446b364b71a",
@@ -963,7 +963,7 @@
     "confidence": 0.95,
     "source_document": "Epigenetic Clock.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b4f007fd51f1",
@@ -977,7 +977,7 @@
     "confidence": 0.95,
     "source_document": "Epigenetic Clock.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "246999f39564",
@@ -991,7 +991,7 @@
     "confidence": 0.95,
     "source_document": "Epigenetic Drift.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "bb5af0513075",
@@ -1005,7 +1005,7 @@
     "confidence": 0.95,
     "source_document": "Epigenetic Drift.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e96332837489",
@@ -1019,7 +1019,7 @@
     "confidence": 0.95,
     "source_document": "Epigenetic Drift.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b2c22e6207f4",
@@ -1051,7 +1051,7 @@
   },
   {
     "id": "ffcc52a4fb6f",
-    "subject": "Epithelial-to-Mesenchymal Transition",
+    "subject": "Epithelial-to-mesenchymal transition",
     "predicate": "opposes",
     "object": "Mesenchymal-to-Epithelial Transition",
     "context": {
@@ -1061,7 +1061,7 @@
     "confidence": 0.95,
     "source_document": "Mesenchymal-to-Epithelial Transition.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "56e9fa6ddf80",
@@ -1073,9 +1073,9 @@
       "zh-TW": "Etoposide 是一種化療性 DNA 損傷劑，透過觸發強烈的 DNA 損傷反應來誘導治療引起的衰老。作為拓樸異構酶 II 抑制劑，依托泊苷會引起 DNA 雙股斷裂，進而活化 p53 和 DNA 損傷反應，進而導致具有細胞老化標誌的永久性細胞週期停滯。在研究中，依托泊苷是一種標準實驗工具，可在人類纖維母細胞中產生治療誘導的衰老，以研究 SASP 表達和表觀遺傳重塑。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8ddc158bfddb",
@@ -1159,7 +1159,7 @@
     "confidence": 0.95,
     "source_document": "FL118.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "54767f38e8eb",
@@ -1173,7 +1173,7 @@
     "confidence": 0.95,
     "source_document": "Frontotemporal Dementia.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "36662a820c48",
@@ -1187,7 +1187,7 @@
     "confidence": 0.95,
     "source_document": "G1 Phase.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "fc580461b471",
@@ -1201,7 +1201,7 @@
     "confidence": 0.9,
     "source_document": "G1 Phase.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6ad8690912b1",
@@ -1215,7 +1215,7 @@
     "confidence": 0.88,
     "source_document": "G1 Phase.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4724eab7ffff",
@@ -1229,7 +1229,7 @@
     "confidence": 0.88,
     "source_document": "G1 Phase.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7c24941168a9",
@@ -1243,7 +1243,7 @@
     "confidence": 0.9,
     "source_document": "G1 Phase.md",
     "created": "2026-09-02T06:51:04Z",
-    "updated": "2026-09-02T06:51:04Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "669a141b9ca9",
@@ -1257,7 +1257,7 @@
     "confidence": 0.9,
     "source_document": "G1 Phase.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ba6430a0fd24",
@@ -1271,7 +1271,7 @@
     "confidence": 0.92,
     "source_document": "G1 Phase.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4b1b5435a4c4",
@@ -1299,7 +1299,7 @@
     "confidence": 0.88,
     "source_document": "Gemcitabine.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0998ebc384a6",
@@ -1313,7 +1313,7 @@
     "confidence": 0.9,
     "source_document": "Gemcitabine.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ff9b576e0c53",
@@ -1327,7 +1327,7 @@
     "confidence": 0.9,
     "source_document": "Gemcitabine.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9f5be37e8d68",
@@ -1341,7 +1341,7 @@
     "confidence": 0.95,
     "source_document": "Gemcitabine.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5906d56e782c",
@@ -1355,13 +1355,13 @@
     "confidence": 0.85,
     "source_document": "Gemcitabine.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f30103f54440",
     "subject": "Gemcitabine",
     "predicate": "inhibits",
-    "object": "Ribonucleotide Reductase",
+    "object": "ribonucleotide reductase",
     "context": {
       "en-US": "The diphosphate form of gemcitabine (dFdCDP) is a potent inhibitor of ribonucleotide reductase, the rate-limiting enzyme for de novo synthesis of deoxyribonucleoside triphosphates. This inhibition depletes intracellular dNTP pools, particularly dCTP, which paradoxically enhances incorporation of gemcitabine triphosphate into DNA.",
       "zh-TW": "Gemcitabine 的二磷酸形式（dFdCDP）是 ribonucleotide reductase 的強效抑制劑，該酶是從頭合成去氧核苷三磷酸的速率限制酶。此抑制會耗竭細胞內 dNTP 池（尤其 dCTP），反而提高 gemcitabine 三磷酸嵌入 DNA 的程度。"
@@ -1369,7 +1369,7 @@
     "confidence": 0.95,
     "source_document": "Gemcitabine.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "feacb395f633",
@@ -1386,7 +1386,7 @@
     "updated": "2026-09-02T06:30:43Z"
   },
   {
-    "id": "e93ae36b30b4",
+    "id": "f64c8c4515b4",
     "subject": "GSK3β",
     "predicate": "inhibition_promotes",
     "object": "Cellular Reprogramming",
@@ -1397,7 +1397,7 @@
     "confidence": 0.95,
     "source_document": "Cellular Reprogramming.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "114c5618eb49",
@@ -1423,9 +1423,9 @@
       "zh-TW": "組蛋白變異體 H2A.J 在 SASP 基因的啟動子處富集，它促進染色質可及性的變化，從而誘導 SASP 表達。 H2A.J 在人類老化成纖維細胞、衰老人類皮膚和小鼠組織中積累，特別是在對持續 DNA 損傷的反應中。這種與 DNA 損傷相關的 H2A.J 在發炎基因位點的摻入將 DNA 損傷反應與老化相關分泌表型的活化聯繫起來。這種富集將 H2A.J 與典型組蛋白區分開來，並標誌著衰老細胞中向發炎 gene expression 的轉變。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3401c287bfb7",
@@ -1439,7 +1439,7 @@
     "confidence": 0.95,
     "source_document": "Histone Variant.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "be373a5b4098",
@@ -1495,7 +1495,7 @@
     "confidence": 0.95,
     "source_document": "HAT.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "32efaa174a3c",
@@ -1509,7 +1509,7 @@
     "confidence": 0.95,
     "source_document": "HDAC.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7d163f159551",
@@ -1521,7 +1521,7 @@
       "zh-TW": "HDAC4 是一種 IIa 類組蛋白去乙醯化酶，無催化活性，可作為表觀遺傳讀取器，監測活性增強子處的乙醯化標記 H3K27ac。它迅速被招募到 H3K27ac 基因座，並透過與 I 型去乙醯酶 HDAC3 相互作用，監督 AP-1 調節的超級增強子的乙醯化狀態。這種緩衝功能使與老化相關的 gene expression 保持在檢查狀態，直到老化進入時 HDAC4 降解釋放 SASP 程序。這種監測作用將 HDAC4 與染色質變化聯繫起來，從而設定 SASP 活化的閾值。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-08-20T00:00:00Z"
   },
@@ -1535,7 +1535,7 @@
       "zh-TW": "HDAC4 在進入老化時被降解，這一事件釋放了 AP-1 介導的衰老轉錄程序。在正常情況下，HDAC4（一種 IIa 類組蛋白去乙醯酶，可作為表觀遺傳讀取器）可監測 AP-1 調節的超級增強子上的 H3K27 乙醯化並緩衝老化程序，從而保持 SASP gene expression 受到抑制。它的降解消除了這種制動，從而使驅動 SASP 的衰老相關基因廣泛激活。這種蛋白水解開關是將緩衝狀態轉化為成熟的衰老分泌蛋白組的觸發器之一。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-08-20T00:00:00Z"
   },
@@ -1549,9 +1549,9 @@
       "zh-TW": "當人類內源性逆轉錄病毒的表達在老化和老化過程中被抑制時，它們會活化 cGAS-STING 路徑。與年齡相關的 DNA 甲基化和異染色質缺失允許 HERV 轉錄，並且所得的 HERV RNA 被逆轉錄為 cGAS 感知的 cDNA，觸發 I 型乾擾素和 SASP 因子的 STING 依賴性上調。 HERV 驅動的先天免疫訊號傳導有助於發炎和老化的旁分泌擴散。因此，抑制 HERV 表達或逆轉錄可以減少這種老化驅動的發炎訊號。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "23b8e9471d06",
@@ -1579,7 +1579,7 @@
     "confidence": 0.95,
     "source_document": "Epigenetics and aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "14017ff54851",
@@ -1593,7 +1593,7 @@
     "confidence": 0.95,
     "source_document": "Histone Acetyltransferase.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "169913b8b98b",
@@ -1607,7 +1607,7 @@
     "confidence": 0.95,
     "source_document": "Histone Acetyltransferase.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "345fef0af97e",
@@ -1621,7 +1621,7 @@
     "confidence": 0.95,
     "source_document": "Histone Acetyltransferase.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "35f1e9f4207c",
@@ -1635,7 +1635,7 @@
     "confidence": 0.95,
     "source_document": "Histone Acetyltransferase.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d856346241d0",
@@ -1649,7 +1649,7 @@
     "confidence": 0.95,
     "source_document": "Histone Acetyltransferase.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ac558187ad8f",
@@ -1663,7 +1663,7 @@
     "confidence": 0.95,
     "source_document": "Histone Deacetylase.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6a0e5bad0030",
@@ -1677,7 +1677,7 @@
     "confidence": 0.95,
     "source_document": "Histone Deacetylase.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ed6c87c22fdc",
@@ -1691,7 +1691,7 @@
     "confidence": 0.95,
     "source_document": "Histone Deacetylase.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "03d938edd681",
@@ -1705,7 +1705,7 @@
     "confidence": 0.95,
     "source_document": "Epigenetics.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0bb5ece2b875",
@@ -1717,7 +1717,7 @@
       "zh-TW": "HMGB2 是一種染色質結合的高遷移率族盒蛋白，可保護 SASP 基因位點在癌基因誘導的衰老過程中免於沉默。當染色質結合時，HMGB2 與 SASP 基因位點結合，防止抑制性異染色質擴散到其中，使 SASP 基因遠離衰老相關的異染色質灶，從而保留其表達。 HMGB2 的耗盡與 SASP 基因的去抑制有關，HMGB2 敲低可以阻止 SASP 的出現，同時使細胞週期停滯不受影響。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-08-20T00:00:00Z"
   },
@@ -1731,7 +1731,7 @@
       "zh-TW": "HMGB2 在老化細胞和老化組織中被耗盡，這種變化伴隨著有序三維基因組結構的喪失。這種耗竭改變了組成型和兼性異染色質之間的平衡，並與複製老化中 SASP 基因表現的增加有關。進入老化時 HMGB2 的缺失會破壞基因組組織並誘導 CTCF 聚類，從而導致廣泛的染色質重塑，從而表徵衰老狀態。它的流失是衰老染色質表型的最早標誌之一。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-08-20T00:00:00Z"
   },
@@ -1747,7 +1747,7 @@
     "confidence": 0.95,
     "source_document": "Epigenetics and aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "44be292bdf2d",
@@ -1775,7 +1775,7 @@
     "confidence": 0.9,
     "source_document": "Hydroxyurea.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0b89c6b8082d",
@@ -1789,7 +1789,7 @@
     "confidence": 0.88,
     "source_document": "Hydroxyurea.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "976a4b020876",
@@ -1803,13 +1803,13 @@
     "confidence": 0.92,
     "source_document": "Hydroxyurea.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "399a2e9c0e23",
     "subject": "Hydroxyurea",
     "predicate": "inhibits",
-    "object": "Ribonucleotide Reductase",
+    "object": "ribonucleotide reductase",
     "context": {
       "en-US": "Hydroxyurea acts as a free radical scavenger that quenches the tyrosyl radical in the R2 subunit of ribonucleotide reductase, preventing conversion of ribonucleoside diphosphates to deoxyribonucleoside diphosphates. This causes rapid depletion of intracellular dNTP pools.",
       "zh-TW": "Hydroxyurea 作為自由基清除劑，淬滅 ribonucleotide reductase R2 亞基中的酪氨酰自由基，阻止核糖核苷二磷酸轉化為去氧核糖核苷二磷酸。這造成細胞內 dNTP 池的快速耗竭。"
@@ -1817,7 +1817,7 @@
     "confidence": 0.95,
     "source_document": "Hydroxyurea.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5afa29ec6d82",
@@ -1845,7 +1845,7 @@
     "confidence": 0.92,
     "source_document": "Hydroxyurea.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2079e8fa4bc5",
@@ -1859,7 +1859,7 @@
     "confidence": 0.95,
     "source_document": "Induced Pluripotent Stem Cells.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8a26e3ed1f4c",
@@ -1873,7 +1873,7 @@
     "confidence": 0.95,
     "source_document": "Induced Pluripotent Stem Cells.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e6f52b185ce0",
@@ -1887,7 +1887,7 @@
     "confidence": 0.95,
     "source_document": "Induced Pluripotent Stem Cells.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9fd36ac85e86",
@@ -1901,7 +1901,7 @@
     "confidence": 0.85,
     "source_document": "Integrin.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1d11d7ead5a4",
@@ -1915,7 +1915,7 @@
     "confidence": 0.88,
     "source_document": "Integrin.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "007df4804902",
@@ -1929,7 +1929,7 @@
     "confidence": 0.95,
     "source_document": "Integrin.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4eaa6961b430",
@@ -1943,7 +1943,7 @@
     "confidence": 0.92,
     "source_document": "Integrin.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4f6ad36df5f0",
@@ -1999,7 +1999,7 @@
     "confidence": 0.8,
     "source_document": "Integrin.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "422b1ed056db",
@@ -2027,7 +2027,7 @@
     "confidence": 0.95,
     "source_document": "Klf4.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b12707986477",
@@ -2069,7 +2069,7 @@
     "confidence": 0.95,
     "source_document": "RB1.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0a6d4df09837",
@@ -2083,7 +2083,7 @@
     "confidence": 0.95,
     "source_document": "RB1.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "68137b4eebc3",
@@ -2095,7 +2095,7 @@
       "zh-TW": "macroH2A 水平在小鼠、狒狒和人類老化成纖維細胞的衰老過程中增加，使其成為衰老細胞狀態的標誌。作為一種半衰期很長的組蛋白變體，macroH2A 在有絲分裂後細胞中積累，有助於抑制增殖基因並穩定衰老相關的異染色質灶。它與年齡相關的累積是老化細胞染色質景觀改變的一部分，並將組蛋白變異動態與老化狀態聯繫起來。因此，macroH2A 既是年齡相關染色質重塑的標記物也是貢獻者。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-08-20T00:00:00Z"
   },
@@ -2109,7 +2109,7 @@
       "zh-TW": "macroH2A 透過在老化過程中調節 SASP 基因座的染色質狀態來促進 SASP。儘管 macroH2A 通常與轉錄沉默和衰老相關的異染色質灶相關，但在癌基因誘導的衰老過程中，需要將其從 SASP 基因位點中去除，以實現正確的 SASP 基因誘導，並且在衰老細胞中敲除 macroH2A 會減少 SASP 的輸出。這種雙重作用說明了組蛋白變異佔據的動態變化如何微調發炎分泌組的表達。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-08-20T00:00:00Z"
   },
@@ -2125,7 +2125,7 @@
     "confidence": 0.95,
     "source_document": "Mesenchymal-to-Epithelial Transition.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "251de176dd32",
@@ -2139,7 +2139,7 @@
     "confidence": 0.97,
     "source_document": "MET gene.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4961eeb67449",
@@ -2153,13 +2153,13 @@
     "confidence": 0.92,
     "source_document": "MET gene.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "bf179a79019d",
     "subject": "MET gene",
     "predicate": "induces",
-    "object": "Epithelial-to-Mesenchymal Transition",
+    "object": "Epithelial-to-mesenchymal transition",
     "context": {
       "en-US": "HGF-MET signaling produces the invasive growth program including branching morphogenesis, migration, and epithelial-to-mesenchymal transition-like scattering of epithelial cells. MET recapitulates this program through GRB2/SOS, PI3K-AKT, STAT3 and SRC-family kinase signaling.",
       "zh-TW": "HGF-MET 訊號產生侵入性生長程式，包括分支形態發生、遷移和上皮細胞的類上皮-間質轉化散射。MET 透過 GRB2/SOS、PI3K-AKT、STAT3 和 SRC 家族激酶訊號重現此程式。"
@@ -2167,7 +2167,7 @@
     "confidence": 0.9,
     "source_document": "MET gene.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "95c6c4c4efbd",
@@ -2181,7 +2181,7 @@
     "confidence": 0.88,
     "source_document": "MET gene.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "de9b03e6ee1e",
@@ -2195,7 +2195,7 @@
     "confidence": 0.85,
     "source_document": "MET gene.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "954fc7644a2c",
@@ -2209,7 +2209,7 @@
     "confidence": 0.75,
     "source_document": "Epigenetic Clock.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "da39e9e2c82d",
@@ -2221,9 +2221,9 @@
       "zh-TW": "METTL3 是甲基轉移酶複合物的催化亞基，可沉積 N6-methyladenosine (m6A)，N6-methyladenosine (m6A) 是哺乳動物細胞中最豐富的信使 RNA 內部修飾。 METTL3 與接頭蛋白 METTL14 一起甲基化 mRNA 中腺苷的 N6 位點，產生的 m6A 標記可調節 RNA 穩定性、剪接、翻譯和輸出。除了其 RNA 甲基化作用外，METTL3-METTL14 複合物還促進衰老相關的增強子-啟動子接觸以及癌基因誘導衰老中的 SASP 表達。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0873b2f9d3c4",
@@ -2235,7 +2235,7 @@
       "zh-TW": "METTL3 透過其在 METTL3-METTL14 複合物中的作用促進衰老相關的分泌表型，該複合物在癌基因誘導的衰老過程中在基因組中重新分佈。儘管該複合物以沉積 m6A RNA 修飾而聞名，但該複合物透過染色質環和增強子-啟動子接觸以獨立於酶活性的方式促進 SASP 表達。這種重新分佈促進了超連接的增強子-啟動子網絡，驅動 SASP 基因的穩健表達，將 RNA 修飾蛋白與老化的染色質變化聯繫起來。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-08-20T00:00:00Z"
   },
@@ -2265,7 +2265,7 @@
     "confidence": 0.85,
     "source_document": "miR-217.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "371490293699",
@@ -2279,13 +2279,13 @@
     "confidence": 0.9,
     "source_document": "miR-217.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "7f8237bf22f8",
+    "id": "7f3a2880ddac",
     "subject": "miR-217",
     "predicate": "activates",
-    "object": "NF-kB",
+    "object": "NF-κB",
     "context": {
       "en-US": "By silencing SIRT1, miR-217 removes a key brake on inflammatory signaling, leading to hyperacetylation of RelA/p65 at Lys310 and stabilization of active NF-kB. This drives chronic inflammation and connects miRNA dysregulation to inflammaging.",
       "zh-TW": "透過沉默 SIRT1，miR-217 移除發炎訊號的一個關鍵制動器，導致 RelA/p65 在 Lys310 過度乙醯化並穩定活化的 NF-kB。這驅動慢性發炎，並將 miRNA 失調與發炎性衰老連結起來。"
@@ -2293,7 +2293,7 @@
     "confidence": 0.9,
     "source_document": "miR-217.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "dfd5fd5f9721",
@@ -2307,7 +2307,7 @@
     "confidence": 0.9,
     "source_document": "miR-217.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f05611dcd958",
@@ -2321,7 +2321,7 @@
     "confidence": 0.95,
     "source_document": "miR-217.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "616a6d47f8b3",
@@ -2335,7 +2335,7 @@
     "confidence": 0.85,
     "source_document": "miR-378.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "53dc6fbf2148",
@@ -2349,13 +2349,13 @@
     "confidence": 0.88,
     "source_document": "miR-378.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "cc1a80f0d4d9",
+    "id": "5dfd6c52427b",
     "subject": "miR-378",
     "predicate": "activates",
-    "object": "NF-kB",
+    "object": "NF-κB",
     "context": {
       "en-US": "Through suppression of SIRT1 in aging tissues, miR-378 enables RelA/p65 hyperacetylation and sustained NF-kB inflammatory signaling. It is grouped with miR-217 and miR-543 as part of a pro-inflammatory senescence-associated miRNA network.",
       "zh-TW": "透過在老化組織中抑制 SIRT1，miR-378 促成 RelA/p65 過度乙醯化和持續的 NF-kB 發炎訊號。它與 miR-217 和 miR-543 一起被歸類為促發炎的衰老相關 miRNA 網路的一部分。"
@@ -2363,7 +2363,7 @@
     "confidence": 0.8,
     "source_document": "miR-378.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8d35d2a4a180",
@@ -2377,7 +2377,7 @@
     "confidence": 0.9,
     "source_document": "miR-378.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "928f7abe241c",
@@ -2391,7 +2391,7 @@
     "confidence": 0.85,
     "source_document": "miR-378.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "459773555aa4",
@@ -2405,7 +2405,7 @@
     "confidence": 0.9,
     "source_document": "miR-543.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9dec95161504",
@@ -2419,13 +2419,13 @@
     "confidence": 0.85,
     "source_document": "miR-543.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "a603bb1b6cc9",
+    "id": "5f34526e2ec9",
     "subject": "miR-543",
     "predicate": "activates",
-    "object": "NF-kB",
+    "object": "NF-κB",
     "context": {
       "en-US": "Because miR-543 resides in the methylation-controlled DLK1-DIO3 cluster, its dysregulation connects epigenetic drift directly to the SIRT1-NF-kB inflammatory axis. SIRT1 loss through miR-543 stabilizes active NF-kB and a self-sustaining inflammatory loop.",
       "zh-TW": "由於 miR-543 位於受甲基化控制的 DLK1-DIO3 簇中，其失調將表觀遺傳漂移直接連結到 SIRT1-NF-kB 發炎軸。透過 miR-543 造成的 SIRT1 缺失會穩定活化的 NF-kB 和自我維持的發炎迴圈。"
@@ -2433,7 +2433,7 @@
     "confidence": 0.82,
     "source_document": "miR-543.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "fb5f87aae4e9",
@@ -2447,7 +2447,7 @@
     "confidence": 0.8,
     "source_document": "miR-543.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "46ecde39e243",
@@ -2461,7 +2461,7 @@
     "confidence": 0.85,
     "source_document": "miR-543.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "44ab99eff1b4",
@@ -2479,7 +2479,7 @@
   },
   {
     "id": "28122fcc293c",
-    "subject": "Non-Coding RNA",
+    "subject": "Non-coding RNA",
     "predicate": "is_mechanism_of",
     "object": "Epigenetics",
     "context": {
@@ -2489,7 +2489,7 @@
     "confidence": 0.95,
     "source_document": "Epigenetics.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "bddcf5aa13bf",
@@ -2501,9 +2501,9 @@
       "zh-TW": "核苷逆轉錄酶抑制劑是作為 HIV 抗逆轉錄病毒藥物而開發的，也能抑制 LINE-1 逆轉錄轉座。 NRTI 充當鏈終止核苷類似物，透過逆轉錄酶將其摻入新生 DNA 中，從而停止 L1 cDNA 副本的合成，否則這些副本將由細胞質中的 L1 RNA 產生。透過阻斷 LINE-1 逆轉錄，NRTI 可以減少 cGAS-STING 依賴性發炎和老化過程中逆轉錄轉座子去抑制引起的 SASP，並且它們正在被探索作為抗衰老幹預措施。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "51a2534b8970",
@@ -2531,7 +2531,7 @@
     "confidence": 0.95,
     "source_document": "Nucleosome Remodeling.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c38fcda5e2c4",
@@ -2559,7 +2559,7 @@
     "confidence": 0.95,
     "source_document": "Oct4.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2ef683b92fcf",
@@ -2601,7 +2601,7 @@
     "confidence": 0.95,
     "source_document": "OSKM.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "69f6e5f2d425",
@@ -2615,7 +2615,7 @@
     "confidence": 0.95,
     "source_document": "Cellular Reprogramming.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "93563c0f458f",
@@ -2629,7 +2629,7 @@
     "confidence": 0.95,
     "source_document": "Cellular Reprogramming.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9878b6ff5e8f",
@@ -2643,7 +2643,7 @@
     "confidence": 0.95,
     "source_document": "Partial Reprogramming.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c79855b61a25",
@@ -2657,7 +2657,7 @@
     "confidence": 0.95,
     "source_document": "Partial Reprogramming.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e844f49fecf7",
@@ -2671,7 +2671,7 @@
     "confidence": 0.95,
     "source_document": "Partial Reprogramming.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f2ade3b43f81",
@@ -2685,7 +2685,7 @@
     "confidence": 0.95,
     "source_document": "Partial Reprogramming.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e2036cb81e87",
@@ -2699,7 +2699,7 @@
     "confidence": 0.95,
     "source_document": "Partial Reprogramming.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0a9831931a04",
@@ -2713,7 +2713,7 @@
     "confidence": 0.75,
     "source_document": "Polycomb Group Proteins.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "db346df2abc2",
@@ -2727,7 +2727,7 @@
     "confidence": 0.95,
     "source_document": "Quiescence.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "67ac796772d5",
@@ -2741,7 +2741,7 @@
     "confidence": 0.95,
     "source_document": "Quiescence.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "61e428357815",
@@ -2755,7 +2755,7 @@
     "confidence": 0.95,
     "source_document": "Quiescence.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6706010424b3",
@@ -2783,7 +2783,7 @@
     "confidence": 0.95,
     "source_document": "RB1.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "717c846681eb",
@@ -2811,7 +2811,7 @@
     "confidence": 0.95,
     "source_document": "Regenerative Medicine.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0cf254b6f99f",
@@ -2825,7 +2825,7 @@
     "confidence": 0.95,
     "source_document": "Rejuvenation.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "36a58efd602a",
@@ -2839,7 +2839,7 @@
     "confidence": 0.95,
     "source_document": "Rejuvenation.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "072bf5149ae4",
@@ -2853,7 +2853,7 @@
     "confidence": 0.88,
     "source_document": "Reprogramming.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c2e0c5135356",
@@ -2867,7 +2867,7 @@
     "confidence": 0.85,
     "source_document": "Reprogramming.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "80d990ecd556",
@@ -2881,7 +2881,7 @@
     "confidence": 0.95,
     "source_document": "Reprogramming.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "cf807be9c052",
@@ -2909,7 +2909,7 @@
     "confidence": 0.9,
     "source_document": "Reprogramming.md",
     "created": "2026-09-02T06:51:04Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "cf8a7d5c901a",
@@ -2937,7 +2937,7 @@
     "confidence": 0.9,
     "source_document": "Reprogramming.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "84f7b7dedebc",
@@ -2951,7 +2951,7 @@
     "confidence": 0.95,
     "source_document": "Retinal Pigment Epithelium.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4a2bd69ce6d3",
@@ -2965,7 +2965,7 @@
     "confidence": 0.95,
     "source_document": "Retinoblastoma Protein.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "617caaf30483",
@@ -2991,12 +2991,12 @@
       "zh-TW": "SASP 會導致炎症，這是一種慢性低度炎症，可引發許多與年齡相關的疾病。衰老細胞分泌促發炎細胞因子、趨化因子和蛋白酶，吸引免疫細胞並重塑組織，這些細胞隨著年齡的增長而積累，維持全身發炎。由於 SASP 因子促進鄰近細胞的病理學，因此抑制 SASP 或清除老化細胞是對抗發炎的主要治療策略。因此，以 SASP 輸出為目標是老年科學藥物開發最活躍的領域之一。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "d390c6c618d4",
+    "id": "b6a97adf65a7",
     "subject": "SASP",
     "predicate": "regulated_by",
     "object": "NF-κB",
@@ -3005,9 +3005,9 @@
       "zh-TW": "SASP 主要受 NF-kB 調節，NF-kB 是控制大多數 SASP 基因表現的主要轉錄因子。 NF-kB 在衰老細胞中透過 cGAS-STING 通路、DNA 損傷信號傳導和其他 SASP 誘導通路激活，並驅動促炎細胞因子和趨化因子的轉錄。表觀遺傳機制，包括增強子重塑和 SASP 基因座抑制標記的緩解，與 NF-kB 合作產生強大的發炎分泌組。因此，靶向 NF-kB 或其上游活化劑是抑制 SASP 驅動的發炎的核心策略。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d6126ab5ed4e",
@@ -3019,9 +3019,9 @@
       "zh-TW": "衰老細胞表現出獨特的表型變化，包括染色質重塑、代謝重編程和 SASP 的建立。 Chromatin 老化過程中的重塑包括 A/B 區室組織的變化、衰老相關異染色質灶的形成、典型組蛋白的丟失、組蛋白變體的積累以及組成型異染色質的解壓縮。這些表觀遺傳變化協調了維持生長停滯並驅動 SASP gene expression 的轉錄程序。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "91a5c45f8ff9",
@@ -3035,7 +3035,7 @@
     "confidence": 0.95,
     "source_document": "DNA Damage Response.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5a78466eeb0f",
@@ -3047,7 +3047,7 @@
       "zh-TW": "細胞老化的特徵是 SASP，即促發炎細胞因子、趨化因子、生長因子和蛋白酶的複雜混合物的分泌。與不可逆的細胞週期停滯和衰老相關異染色質灶的形成一起，SASP 定義了衰老表型並介導其對組織環境的影響。 SASP 是一把雙面刃，在急性時促進腫瘤監測和傷口癒合，但在老化細胞累積時引發發炎和組織功能障礙。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-08-20T00:00:00Z"
   },
@@ -3063,7 +3063,7 @@
     "confidence": 0.95,
     "source_document": "H3K9me3.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ed3f30215638",
@@ -3075,9 +3075,9 @@
       "zh-TW": "Senescence 相關的異染色質灶包含 macroH2A 以及 HP1、H3K9me3 和 HMGA 蛋白，它們一起在老化細胞的細胞核中形成壓縮的染色質結構域。 macroH2A 在這些病灶中的累積促進了增殖相關基因的轉錄沉默，並有助於穩定老化狀態。儘管 macroH2A 摻入 SAHF 對生長停滯不是必需的，但它是衰老相關染色質重組的標誌。 macroH2A 的富集將 SAHF 與普通異染色質結構域區分開來。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8fa04e7bc33a",
@@ -3091,7 +3091,7 @@
     "confidence": 0.95,
     "source_document": "Senolytic Drugs.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1d4cc51546ea",
@@ -3103,7 +3103,7 @@
       "zh-TW": "Senomorphic 藥物破壞與老化相關的分泌表型，而不是殺死老化細胞，從而減弱導致年齡相關疾病的有害發炎訊號。由於 SASP 是衰老細胞破壞其組織環境的主要途徑，因此抑制它，同時保持生長停滯完好無損，可以保留衰老的腫瘤抑制益處。控制 SASP 基因的表觀遺傳調節因子，例如 KDM4、DOT1L、BRD4 和 HMGB2，是候選的基因表現標靶。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
     "updated": "2026-08-20T00:00:00Z"
   },
@@ -3119,7 +3119,7 @@
     "confidence": 0.95,
     "source_document": "Shinya Yamanaka.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "405655385d52",
@@ -3133,7 +3133,7 @@
     "confidence": 0.95,
     "source_document": "miR-217.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "18806e79f4f3",
@@ -3201,9 +3201,9 @@
       "zh-TW": "為了回應 DNA 損傷訊號，SIRT6 從基因啟動子和重複基因座移至 DNA 斷裂位點，在那裡招募 DNA 修復因子並修飾局部染色質。在損傷部位，SIRT6 促進 H3K56 和其他底物的去乙醯化，促進有效的雙股斷裂修復。這種從 LINE-1 位點到損傷位點的動員同時將 DNA 損傷反應與老化過程中逆轉錄轉座子的去抑制結合起來，將基因組壓力與先天免疫活化聯繫起來。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2add507b23fc",
@@ -3215,9 +3215,9 @@
       "zh-TW": "SIRT6 透過其去乙醯化酶和單 ADP-核糖基轉移酶活性維持 L1 位點的抑制性染色質，進而抑制 LINE-1 逆轉錄轉座子。 SIRT6 招募 KAP1 和 HP1 來沉積和維持使 LINE-1 元件沉默的異染色質標記，並且隨著 SIRT6 水平下降，這種沉默隨著年齡的增長而減弱。 SIRT6 的缺失使得 LINE-1 去抑制，並且激活 SIRT6 被探索作為抑制衰老過程中逆轉錄轉座子驅動的炎症的策略。因此，恢復 SIRT6 活性可能有助於抑制老化過程中逆轉錄轉座子驅動的發炎。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "74e53c161198",
@@ -3259,7 +3259,7 @@
     "confidence": 0.95,
     "source_document": "Sodium Valproate.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c819c900a027",
@@ -3273,7 +3273,7 @@
     "confidence": 0.95,
     "source_document": "Sox2.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ea9c5eef106c",
@@ -3313,9 +3313,9 @@
       "zh-TW": "拓樸關聯結構域將染色質組織成中等規模的離散三維區室，跨越數十千鹼基到兆鹼基。在 TAD 內，DNA 序列之間的相互作用比與域外序列的相互作用更頻繁，從而限制了增強子-啟動子的接觸，並將調節元件與不適當的標靶隔離。這些結構域的邊界由 CTCF 和 HMGB1/2 等蛋白質劃定，它們的破壞會在老化和老化過程中改變 gene expression。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1caf90e69d87",
@@ -3329,7 +3329,7 @@
     "confidence": 0.95,
     "source_document": "Epigenetics and aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e7a2f8cb6d27",
@@ -3343,7 +3343,7 @@
     "confidence": 0.95,
     "source_document": "Histone Deacetylase.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6c76d55f1179",
@@ -3357,7 +3357,7 @@
     "confidence": 0.9,
     "source_document": "Tumor-Suppressor Loss-Induced Senescence.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8fe8a2c73631",
@@ -3371,7 +3371,7 @@
     "confidence": 0.88,
     "source_document": "Tumor-Suppressor Loss-Induced Senescence.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6f883818c6dd",
@@ -3385,7 +3385,7 @@
     "confidence": 0.85,
     "source_document": "Tumor-Suppressor Loss-Induced Senescence.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "560e17bb80b7",
@@ -3399,7 +3399,7 @@
     "confidence": 0.93,
     "source_document": "Tumor-Suppressor Loss-Induced Senescence.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9360340f96d3",
@@ -3413,7 +3413,7 @@
     "confidence": 0.9,
     "source_document": "Tumor-Suppressor Loss-Induced Senescence.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ea5b06e7a939",
@@ -3427,7 +3427,7 @@
     "confidence": 0.88,
     "source_document": "Tumor-Suppressor Loss-Induced Senescence.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "dd0837deeca7",
@@ -3455,7 +3455,7 @@
     "confidence": 0.9,
     "source_document": "Tumorigenicity.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d48cc929b303",
@@ -3511,7 +3511,7 @@
     "confidence": 0.88,
     "source_document": "Tumorigenicity.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a1eaa21d4fc6",
@@ -3525,7 +3525,7 @@
     "confidence": 0.88,
     "source_document": "Ubiquitin Ligase.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7081cbbad36c",
@@ -3539,7 +3539,7 @@
     "confidence": 0.85,
     "source_document": "Ubiquitin Ligase.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "79df8bddac34",
@@ -3553,7 +3553,7 @@
     "confidence": 0.88,
     "source_document": "Ubiquitin Ligase.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "956ff0722bc5",
@@ -3567,7 +3567,7 @@
     "confidence": 0.9,
     "source_document": "Ubiquitin Ligase.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "67f36ec66943",
@@ -3581,7 +3581,7 @@
     "confidence": 0.9,
     "source_document": "Ubiquitin Ligase.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6018b66a42c8",
@@ -3595,7 +3595,7 @@
     "confidence": 0.9,
     "source_document": "Ubiquitin Ligase.md",
     "created": "2026-09-02T06:51:04Z",
-    "updated": "2026-09-02T06:51:04Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2ed96078cfc2",
@@ -3609,7 +3609,7 @@
     "confidence": 0.95,
     "source_document": "Ubiquitin Ligase.md",
     "created": "2026-09-02T06:30:43Z",
-    "updated": "2026-09-02T06:30:43Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "57b798211e0d",
@@ -3623,7 +3623,7 @@
     "confidence": 0.95,
     "source_document": "Epigenetics and aging.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5a14b3e4404c",
@@ -3637,7 +3637,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Epigenetic changes during aging and their reprogramming potential.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "96818d5d0821",
@@ -3651,7 +3651,7 @@
     "confidence": 0.95,
     "source_document": "Yamanaka Factors.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e4790830c9e2",
@@ -3665,7 +3665,7 @@
     "confidence": 0.95,
     "source_document": "Yamanaka Factors.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "64d95b33d4d9",
@@ -3679,7 +3679,7 @@
     "confidence": 0.95,
     "source_document": "Yamanaka Factors.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d6da3076978a",
@@ -3693,7 +3693,7 @@
     "confidence": 0.95,
     "source_document": "Yamanaka Factors.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "953f5fa7246d",
@@ -3707,7 +3707,7 @@
     "confidence": 0.95,
     "source_document": "Yamanaka Factors.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "cc157f6c59c6",
@@ -3721,10 +3721,10 @@
     "confidence": 0.95,
     "source_document": "Yamanaka Factors.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "af5db94a5885",
+    "id": "9aa660116953",
     "subject": "γ-H2A.X",
     "predicate": "recruits",
     "object": "DNA Repair",
@@ -3733,15 +3733,15 @@
       "zh-TW": "γ-H2A.X 是組蛋白變體 H2A.X 在絲氨酸 139 的磷酸化形式，可作為將 DNA 修復蛋白招募到雙股 DNA 斷裂位點的信標。 H2A.X 的磷酸化遍布斷裂周圍的大染色質結構域，為 DNA 修復複合物的組裝和損傷訊號的放大提供了平台。除了修復作用之外，gamma-H2A.X 還誘導 p53 表達並激活衰老信號傳導，並且由於持續的 DNA 損傷，它會隨著衰老而累積。"
     },
     "confidence": 0.95,
-    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md",
+    "source_document": "_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression.md",
     "created": "2026-08-12T20:21:14Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "171506501c49",
+    "id": "a09182e5425f",
     "subject": "p16INK4A",
     "predicate": "binds",
-    "object": "CDK4",
+    "object": "CDK4 6",
     "context": {
       "en-US": "p16INK4A binds CDK4 and prevents cyclin D association, blocking G1/S progression. This direct binding is the molecular basis of INK4-mediated arrest in senescence and quiescence.",
       "zh-TW": "p16INK4A 結合 CDK4 並阻止 cyclin D 結合，阻斷 G1/S 進展。此直接結合是衰老與靜止中 INK4 介導停滯的分子基礎。"
@@ -3749,21 +3749,7 @@
     "confidence": 0.95,
     "source_document": "p16INK4A.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
-  },
-  {
-    "id": "5c3009aa165c",
-    "subject": "p16INK4A",
-    "predicate": "binds",
-    "object": "CDK6",
-    "context": {
-      "en-US": "p16INK4A binds CDK6 with the same INK4 mechanism as CDK4, providing redundant G1 blockade. Dual CDK4/6 engagement makes p16 a potent enforcer of durable arrest.",
-      "zh-TW": "p16INK4A 以與 CDK4 相同的 INK4 機制結合 CDK6，提供冗餘的 G1 封鎖。雙重 CDK4/6 結合使 p16 成為持久停滯的強效執行者。"
-    },
-    "confidence": 0.95,
-    "source_document": "p16INK4A.md",
-    "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4d2351f33964",
@@ -3805,7 +3791,7 @@
     "confidence": 0.85,
     "source_document": "p16INK4A.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f6ac0cb8c9da",
@@ -3833,7 +3819,7 @@
     "confidence": 0.95,
     "source_document": "CDKN1A.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c527aef5bfc7",
@@ -3861,7 +3847,7 @@
     "confidence": 0.9,
     "source_document": "CDKN1A.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5358630ac660",
@@ -3875,7 +3861,7 @@
     "confidence": 0.9,
     "source_document": "CDKN1B.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "58928dc9e46b",
@@ -3903,7 +3889,7 @@
     "confidence": 0.9,
     "source_document": "CDKN1B.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f157600a630e",
@@ -3917,7 +3903,7 @@
     "confidence": 0.9,
     "source_document": "CDKN1C.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0450d3d331c2",
@@ -3931,7 +3917,7 @@
     "confidence": 0.85,
     "source_document": "CDKN1C.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f6830a294a91",
@@ -3945,7 +3931,7 @@
     "confidence": 0.9,
     "source_document": "CDKN1C.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "fe0506a15ee3",
@@ -3959,7 +3945,7 @@
     "confidence": 0.9,
     "source_document": "CDKN1C.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0ede2589244f",
@@ -3973,7 +3959,7 @@
     "confidence": 0.95,
     "source_document": "CDK Inhibitor.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2d4515565c65",
@@ -3987,7 +3973,7 @@
     "confidence": 0.9,
     "source_document": "CDK Inhibitor.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a170d3caab2f",
@@ -4001,7 +3987,7 @@
     "confidence": 0.85,
     "source_document": "CDK Inhibitor.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "dd9d26ce9476",
@@ -4015,7 +4001,7 @@
     "confidence": 0.9,
     "source_document": "CDK Inhibitor.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "478562b93943",
@@ -4029,7 +4015,7 @@
     "confidence": 0.95,
     "source_document": "Cyclin-Dependent Kinase.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "52a4e847fdb1",
@@ -4043,7 +4029,7 @@
     "confidence": 0.9,
     "source_document": "Cyclin-Dependent Kinase.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a321bbe31062",
@@ -4057,7 +4043,7 @@
     "confidence": 0.9,
     "source_document": "Cyclin-Dependent Kinase.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "29f0d3b7d18a",
@@ -4071,7 +4057,7 @@
     "confidence": 0.9,
     "source_document": "Cyclin-Dependent Kinase.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "30ac95a34327",
@@ -4085,7 +4071,7 @@
     "confidence": 0.95,
     "source_document": "Cyclin.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6ba19910c5d1",
@@ -4099,7 +4085,7 @@
     "confidence": 0.9,
     "source_document": "Cyclin.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "dbca2bb16278",
@@ -4127,7 +4113,7 @@
     "confidence": 0.95,
     "source_document": "E2F.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "69f9c53a0ee1",
@@ -4141,7 +4127,7 @@
     "confidence": 0.9,
     "source_document": "E2F.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "41ab52316f76",
@@ -4155,7 +4141,7 @@
     "confidence": 0.9,
     "source_document": "E2F.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "cb4ce8d1287d",
@@ -4183,7 +4169,7 @@
     "confidence": 0.85,
     "source_document": "Restriction Point.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "dba53a41f370",
@@ -4197,7 +4183,7 @@
     "confidence": 0.85,
     "source_document": "Restriction Point.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a7354b11dd23",
@@ -4211,7 +4197,7 @@
     "confidence": 0.8,
     "source_document": "Restriction Point.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "76fb8ce71602",
@@ -4225,7 +4211,7 @@
     "confidence": 0.85,
     "source_document": "G0 Phase.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "219c95d58795",
@@ -4239,7 +4225,7 @@
     "confidence": 0.8,
     "source_document": "G0 Phase.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1998abd78ec0",
@@ -4253,7 +4239,7 @@
     "confidence": 0.8,
     "source_document": "G0 Phase.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6aa8b8a6bb75",
@@ -4267,7 +4253,7 @@
     "confidence": 0.95,
     "source_document": "Replicative Senescence.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3b0e82fee9ca",
@@ -4281,7 +4267,7 @@
     "confidence": 0.95,
     "source_document": "Replicative Senescence.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a8606ede6b48",
@@ -4295,7 +4281,7 @@
     "confidence": 0.9,
     "source_document": "Replicative Senescence.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2ecab7de650d",
@@ -4309,7 +4295,7 @@
     "confidence": 0.9,
     "source_document": "Replicative Senescence.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "97877125db9e",
@@ -4323,7 +4309,7 @@
     "confidence": 0.9,
     "source_document": "Stress-Induced Premature Senescence.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ec073cadf903",
@@ -4337,7 +4323,7 @@
     "confidence": 0.9,
     "source_document": "Stress-Induced Premature Senescence.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "deb11003df69",
@@ -4351,7 +4337,7 @@
     "confidence": 0.95,
     "source_document": "Stress-Induced Premature Senescence.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8b1e5cd14030",
@@ -4365,7 +4351,7 @@
     "confidence": 0.85,
     "source_document": "Stress-Induced Premature Senescence.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "eecbe282b2f0",
@@ -4379,7 +4365,7 @@
     "confidence": 0.9,
     "source_document": "Cell-to-Cell Fusion-Induced Senescence.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e7b0524c689b",
@@ -4393,7 +4379,7 @@
     "confidence": 0.85,
     "source_document": "Cell-to-Cell Fusion-Induced Senescence.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8ec2fec0e868",
@@ -4407,7 +4393,7 @@
     "confidence": 0.95,
     "source_document": "Cell-to-Cell Fusion-Induced Senescence.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8a9f406a63a4",
@@ -4421,7 +4407,7 @@
     "confidence": 0.8,
     "source_document": "Cell-to-Cell Fusion-Induced Senescence.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3a0d31ae496d",
@@ -4435,7 +4421,7 @@
     "confidence": 0.9,
     "source_document": "SA-beta-gal.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "be5f8846fde0",
@@ -4449,7 +4435,7 @@
     "confidence": 0.85,
     "source_document": "SA-beta-gal.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5c3289e5bcac",
@@ -4463,7 +4449,7 @@
     "confidence": 0.8,
     "source_document": "SA-beta-gal.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8ff3402e8081",
@@ -4477,7 +4463,7 @@
     "confidence": 0.9,
     "source_document": "DNA Replication Stress.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5feb79f8b27d",
@@ -4491,7 +4477,7 @@
     "confidence": 0.9,
     "source_document": "DNA Replication Stress.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0d629dfec323",
@@ -4505,7 +4491,7 @@
     "confidence": 0.85,
     "source_document": "DNA Replication Stress.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e86d92b47ff7",
@@ -4519,7 +4505,7 @@
     "confidence": 0.8,
     "source_document": "DNA Replication Stress.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "da1a9ce0d1fa",
@@ -4533,7 +4519,7 @@
     "confidence": 0.9,
     "source_document": "DNA Replication.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e362942c0b36",
@@ -4547,7 +4533,7 @@
     "confidence": 0.95,
     "source_document": "DNA Replication.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "165d2578cbc9",
@@ -4561,7 +4547,7 @@
     "confidence": 0.75,
     "source_document": "DNA Replication.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5d08a172ec5d",
@@ -4575,7 +4561,7 @@
     "confidence": 0.9,
     "source_document": "Aphidicolin.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "20f8c86f989d",
@@ -4589,7 +4575,7 @@
     "confidence": 0.85,
     "source_document": "Aphidicolin.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "cc459fb16589",
@@ -4603,7 +4589,7 @@
     "confidence": 0.8,
     "source_document": "Aphidicolin.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c2fe25b76eec",
@@ -4631,7 +4617,7 @@
     "confidence": 0.9,
     "source_document": "Bromodeoxyuridine.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "981eb5945b9f",
@@ -4645,7 +4631,7 @@
     "confidence": 0.85,
     "source_document": "Bromodeoxyuridine.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2faf1e98faa8",
@@ -4659,7 +4645,7 @@
     "confidence": 0.85,
     "source_document": "Thymidine.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "233bbf69129e",
@@ -4701,7 +4687,7 @@
     "confidence": 0.95,
     "source_document": "Ribociclib.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "45a908d2140b",
@@ -4715,7 +4701,7 @@
     "confidence": 0.95,
     "source_document": "Ribociclib.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "27279c391ae6",
@@ -4757,7 +4743,7 @@
     "confidence": 0.9,
     "source_document": "Roscovitine.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "77fc44b0eeca",
@@ -4771,7 +4757,7 @@
     "confidence": 0.9,
     "source_document": "Roscovitine.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ba6c4c704167",
@@ -4799,7 +4785,7 @@
     "confidence": 0.75,
     "source_document": "Roscovitine.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "cb5073bda26d",
@@ -4813,7 +4799,7 @@
     "confidence": 0.9,
     "source_document": "BMP Signaling Pathway.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b732cc91d89d",
@@ -4827,7 +4813,7 @@
     "confidence": 0.9,
     "source_document": "BMP Signaling Pathway.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e4fba5ad89e8",
@@ -4841,7 +4827,7 @@
     "confidence": 0.9,
     "source_document": "BMP Signaling Pathway.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4972f0f4afbc",
@@ -4855,7 +4841,7 @@
     "confidence": 0.75,
     "source_document": "BMP Signaling Pathway.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "84cec9e81935",
@@ -4869,7 +4855,7 @@
     "confidence": 0.95,
     "source_document": "TGF-beta Signaling Pathway.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a36a6bd21771",
@@ -4883,13 +4869,13 @@
     "confidence": 0.95,
     "source_document": "TGF-beta Signaling Pathway.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9c143f0c2cc8",
     "subject": "TGF-beta Signaling Pathway",
     "predicate": "induces",
-    "object": "Epithelial-to-Mesenchymal Transition",
+    "object": "Epithelial-to-mesenchymal transition",
     "context": {
       "en-US": "TGF-beta is the canonical EMT inducer via SNAIL/ZEB/TWIST programs. Induction defines its developmental and fibrotic roles.",
       "zh-TW": "TGF-beta 是經由 SNAIL/ZEB/TWIST 程序的典型 EMT 誘發因子。誘發定義其發育與纖維化角色。"
@@ -4897,7 +4883,7 @@
     "confidence": 0.95,
     "source_document": "TGF-beta Signaling Pathway.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "23c860943695",
@@ -4911,7 +4897,7 @@
     "confidence": 0.95,
     "source_document": "TGF-beta Signaling Pathway.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "924c4c361bf9",
@@ -4925,7 +4911,7 @@
     "confidence": 0.85,
     "source_document": "TGF-beta Signaling Pathway.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f3dd768ade29",
@@ -4939,7 +4925,7 @@
     "confidence": 0.9,
     "source_document": "TGF-beta1.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d8df60051338",
@@ -4953,7 +4939,7 @@
     "confidence": 0.92,
     "source_document": "TGF-beta1.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "78633d12760b",
@@ -4967,7 +4953,7 @@
     "confidence": 0.85,
     "source_document": "TGF-beta1.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b72da41764c3",
@@ -4981,7 +4967,7 @@
     "confidence": 0.95,
     "source_document": "TGF-beta Receptor.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3c9f456fc845",
@@ -4995,13 +4981,13 @@
     "confidence": 0.9,
     "source_document": "TGF-beta Receptor.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "99131c87fb5d",
     "subject": "TGF-beta Receptor",
     "predicate": "induces",
-    "object": "Epithelial-to-Mesenchymal Transition",
+    "object": "Epithelial-to-mesenchymal transition",
     "context": {
       "en-US": "Receptor activity drives the TGF-beta EMT program in epithelia. Upstream position, same program as the pathway edge.",
       "zh-TW": "受體活性在上皮驅動 TGF-beta EMT 程序。上游位置，與路徑邊相同程序。"
@@ -5009,7 +4995,7 @@
     "confidence": 0.85,
     "source_document": "TGF-beta Receptor.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "915a6edb8e4e",
@@ -5023,7 +5009,7 @@
     "confidence": 0.72,
     "source_document": "TGF-beta Receptor.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "83060809b881",
@@ -5037,13 +5023,13 @@
     "confidence": 0.9,
     "source_document": "SMAD Proteins.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2fc05a5631e0",
     "subject": "SMAD Proteins",
     "predicate": "induces",
-    "object": "Epithelial-to-Mesenchymal Transition",
+    "object": "Epithelial-to-mesenchymal transition",
     "context": {
       "en-US": "SMAD complexes drive EMT transcription via Snail/Slug/Zeb1. Nuclear effector leg of the EMT program.",
       "zh-TW": "SMAD 複合體經由 Snail/Slug/Zeb1 驅動 EMT 轉錄。EMT 程序的核效應分支。"
@@ -5051,7 +5037,7 @@
     "confidence": 0.85,
     "source_document": "SMAD Proteins.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9c57f34f1e06",
@@ -5065,7 +5051,7 @@
     "confidence": 0.8,
     "source_document": "SMAD Proteins.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "dcc8cd480124",
@@ -5079,7 +5065,7 @@
     "confidence": 0.85,
     "source_document": "Somatic Cells.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b07c21fba3b2",
@@ -5093,7 +5079,7 @@
     "confidence": 0.9,
     "source_document": "Somatic Cells.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c23e0e112a38",
@@ -5149,7 +5135,7 @@
     "confidence": 0.75,
     "source_document": "MYCN.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b441a177b5c1",
@@ -5205,7 +5191,7 @@
     "confidence": 0.85,
     "source_document": "Nanog.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9bf738d6e514",
@@ -5233,7 +5219,7 @@
     "confidence": 0.95,
     "source_document": "Lin28.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "98f0cd9d5045",
@@ -5289,7 +5275,7 @@
     "confidence": 0.95,
     "source_document": "SOX gene family.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4b4771616620",
@@ -5303,7 +5289,7 @@
     "confidence": 0.9,
     "source_document": "SOX gene family.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7d5719559187",
@@ -5317,7 +5303,7 @@
     "confidence": 0.8,
     "source_document": "SOX gene family.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0353df610ffc",
@@ -5331,7 +5317,7 @@
     "confidence": 0.8,
     "source_document": "SOX gene family.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5f525dffdfc1",
@@ -5345,7 +5331,7 @@
     "confidence": 0.85,
     "source_document": "Neural Stem Cell.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "457c8daac5d6",
@@ -5359,7 +5345,7 @@
     "confidence": 0.85,
     "source_document": "Neural Stem Cell.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "bf743c8a6306",
@@ -5373,7 +5359,7 @@
     "confidence": 0.8,
     "source_document": "Neural Stem Cell.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "df554dae890d",
@@ -5387,7 +5373,7 @@
     "confidence": 0.95,
     "source_document": "Muscle Stem Cell.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2a3045831fab",
@@ -5401,7 +5387,7 @@
     "confidence": 0.9,
     "source_document": "Muscle Stem Cell.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8af3cdad6483",
@@ -5415,7 +5401,7 @@
     "confidence": 0.9,
     "source_document": "Muscle Stem Cell.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "bd04664f800c",
@@ -5429,7 +5415,7 @@
     "confidence": 0.9,
     "source_document": "Satellite Cells.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "30c286c8c251",
@@ -5443,7 +5429,7 @@
     "confidence": 0.9,
     "source_document": "Satellite Cells.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d042937dffbd",
@@ -5457,7 +5443,7 @@
     "confidence": 0.85,
     "source_document": "Mesenchymal Stromal Cells.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7fbb82ec3e06",
@@ -5471,7 +5457,7 @@
     "confidence": 0.8,
     "source_document": "Mesenchymal Stromal Cells.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7dbaf3ab02cc",
@@ -5485,7 +5471,7 @@
     "confidence": 0.75,
     "source_document": "Mesenchymal Stromal Cells.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "179a5a7a93ac",
@@ -5499,7 +5485,7 @@
     "confidence": 0.85,
     "source_document": "Progenitor Cell.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "32b5512b7468",
@@ -5513,7 +5499,7 @@
     "confidence": 0.8,
     "source_document": "Progenitor Cell.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "df9c403004d8",
@@ -5527,7 +5513,7 @@
     "confidence": 0.9,
     "source_document": "Differentiation.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "54349b0df53f",
@@ -5555,7 +5541,7 @@
     "confidence": 0.8,
     "source_document": "Differentiation.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "966855b44627",
@@ -5569,7 +5555,7 @@
     "confidence": 0.78,
     "source_document": "Differentiation.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "817074478cd0",
@@ -5583,7 +5569,7 @@
     "confidence": 0.85,
     "source_document": "Terminal Differentiation.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "932e024bdf31",
@@ -5597,7 +5583,7 @@
     "confidence": 0.9,
     "source_document": "Terminal Differentiation.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "afca68b30216",
@@ -5611,7 +5597,7 @@
     "confidence": 0.85,
     "source_document": "Terminal Differentiation.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b5ed03618357",
@@ -5625,7 +5611,7 @@
     "confidence": 0.75,
     "source_document": "Terminal Differentiation.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d71b47f989d6",
@@ -5639,7 +5625,7 @@
     "confidence": 0.95,
     "source_document": "Embryonic Stem Cells.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5f5546dbd761",
@@ -5653,7 +5639,7 @@
     "confidence": 0.9,
     "source_document": "Embryonic Stem Cells.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "debce494713e",
@@ -5667,7 +5653,7 @@
     "confidence": 0.9,
     "source_document": "Embryonic Stem Cells.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e05d81fbfe36",
@@ -5681,7 +5667,7 @@
     "confidence": 0.95,
     "source_document": "Embryonic Development.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "551752d6f1dc",
@@ -5695,7 +5681,7 @@
     "confidence": 0.85,
     "source_document": "Embryonic Development.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c20ff153f36a",
@@ -5709,7 +5695,7 @@
     "confidence": 0.95,
     "source_document": "Blastocyst.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "46026083f24a",
@@ -5723,7 +5709,7 @@
     "confidence": 0.85,
     "source_document": "Blastocyst.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "75d04740767a",
@@ -5751,13 +5737,13 @@
     "confidence": 0.95,
     "source_document": "Gastrulation.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e8727f0accaa",
     "subject": "Gastrulation",
     "predicate": "involves",
-    "object": "Epithelial-to-Mesenchymal Transition",
+    "object": "Epithelial-to-mesenchymal transition",
     "context": {
       "en-US": "EMT drives cell internalization movements of gastrulation. Involvement places morphogenesis in the transition logic.",
       "zh-TW": "EMT 驅動原腸形成的細胞內移運動。涉及將形態發生置於轉換邏輯。"
@@ -5765,7 +5751,7 @@
     "confidence": 0.9,
     "source_document": "Gastrulation.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "bc2771f9d1b1",
@@ -5779,7 +5765,7 @@
     "confidence": 0.85,
     "source_document": "Gastrulation.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c9e88e28e066",
@@ -5793,7 +5779,7 @@
     "confidence": 0.95,
     "source_document": "Oocyte.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6be8c49d87ed",
@@ -5835,7 +5821,7 @@
     "confidence": 0.8,
     "source_document": "Oocyte.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a86c4f36a61d",
@@ -5891,7 +5877,7 @@
     "confidence": 0.85,
     "source_document": "Pluripotency.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e4a51039a1eb",
@@ -5905,7 +5891,7 @@
     "confidence": 0.85,
     "source_document": "Pluripotency.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "84c2801690dc",
@@ -5919,7 +5905,7 @@
     "confidence": 0.95,
     "source_document": "Transcription Factor.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "24550c0db5f0",
@@ -5933,7 +5919,7 @@
     "confidence": 0.95,
     "source_document": "Transcription Factor.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "dcd863ec16bc",
@@ -5947,7 +5933,7 @@
     "confidence": 0.9,
     "source_document": "Transcription Factor.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3a431db6d65b",
@@ -5961,7 +5947,7 @@
     "confidence": 0.9,
     "source_document": "Transcription Factor.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1a1654c59c88",
@@ -5975,7 +5961,7 @@
     "confidence": 0.9,
     "source_document": "Transcription Factor.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c67f2e07d7a5",
@@ -5989,10 +5975,10 @@
     "confidence": 0.8,
     "source_document": "Transcription Factor.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "87769420e914",
+    "id": "12e9e067eb3e",
     "subject": "NF-κB",
     "predicate": "drives",
     "object": "SASP",
@@ -6003,7 +5989,7 @@
     "confidence": 0.85,
     "source_document": "Transcription Factor.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9c4e4a4e1cda",
@@ -6017,7 +6003,7 @@
     "confidence": 0.72,
     "source_document": "Gene Expression.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4aac2f62e803",
@@ -6031,7 +6017,7 @@
     "confidence": 0.78,
     "source_document": "Gene Expression.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6894d080af0a",
@@ -6059,7 +6045,7 @@
     "confidence": 0.95,
     "source_document": "Epigenetic Modifiers.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "60eb3ec7ab97",
@@ -6115,7 +6101,7 @@
     "confidence": 0.78,
     "source_document": "Epigenetic Modifiers.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "71dad8b707b9",
@@ -6129,7 +6115,7 @@
     "confidence": 0.85,
     "source_document": "Epigenetic Remodeling.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "aa9ebff7f84b",
@@ -6143,7 +6129,7 @@
     "confidence": 0.8,
     "source_document": "Epigenetic Remodeling.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "02c21b405939",
@@ -6157,7 +6143,7 @@
     "confidence": 0.9,
     "source_document": "Epigenetic Inheritance.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6f1ae9fa51e0",
@@ -6171,7 +6157,7 @@
     "confidence": 0.88,
     "source_document": "Epigenetic Inheritance.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "48c70ac8e374",
@@ -6185,7 +6171,7 @@
     "confidence": 0.85,
     "source_document": "Epigenetic Inheritance.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "354adae3a328",
@@ -6199,7 +6185,7 @@
     "confidence": 0.95,
     "source_document": "Cohesin.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e9a32b77020a",
@@ -6227,7 +6213,7 @@
     "confidence": 0.88,
     "source_document": "Cohesin.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6c34b9018570",
@@ -6297,7 +6283,7 @@
     "confidence": 0.75,
     "source_document": "Cohesin.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "88ed2d661ffd",
@@ -6311,7 +6297,7 @@
     "confidence": 0.9,
     "source_document": "NuRD complex.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "38aa6f6d46c0",
@@ -6325,7 +6311,7 @@
     "confidence": 0.9,
     "source_document": "NuRD complex.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "76e791927c2e",
@@ -6339,7 +6325,7 @@
     "confidence": 0.8,
     "source_document": "NuRD complex.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6f99b2b306d0",
@@ -6353,7 +6339,7 @@
     "confidence": 0.75,
     "source_document": "NuRD complex.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4a9ac672ab88",
@@ -6395,7 +6381,7 @@
     "confidence": 0.85,
     "source_document": "DGCR8.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "04d8a19779d6",
@@ -6437,7 +6423,7 @@
     "confidence": 0.9,
     "source_document": "let-7 microRNA.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2e1db4ee68c5",
@@ -6451,7 +6437,7 @@
     "confidence": 0.85,
     "source_document": "let-7 microRNA.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1130d20a5248",
@@ -6465,7 +6451,7 @@
     "confidence": 0.85,
     "source_document": "let-7 microRNA.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9ea2bbef6d54",
@@ -6479,7 +6465,7 @@
     "confidence": 0.78,
     "source_document": "let-7 microRNA.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f1a99ff2643b",
@@ -6493,7 +6479,7 @@
     "confidence": 0.95,
     "source_document": "c-Met.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d0ddbf5d4652",
@@ -6507,7 +6493,7 @@
     "confidence": 0.95,
     "source_document": "c-Met.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9511093aef8a",
@@ -6521,7 +6507,7 @@
     "confidence": 0.85,
     "source_document": "c-Met.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "49c216aa1e6d",
@@ -6535,7 +6521,7 @@
     "confidence": 0.85,
     "source_document": "c-Met.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "63c2aa0fd5b0",
@@ -6549,7 +6535,7 @@
     "confidence": 0.85,
     "source_document": "c-Met.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "cc5fdf98adde",
@@ -6563,7 +6549,7 @@
     "confidence": 0.85,
     "source_document": "c-Met.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "fbf2aae71949",
@@ -6577,7 +6563,7 @@
     "confidence": 0.95,
     "source_document": "c-Met.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "13b8176d95f4",
@@ -6591,7 +6577,7 @@
     "confidence": 0.9,
     "source_document": "Hepatocyte Growth Factor.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ae65933400b7",
@@ -6605,7 +6591,7 @@
     "confidence": 0.85,
     "source_document": "Hepatocyte Growth Factor.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "832664a29762",
@@ -6619,7 +6605,7 @@
     "confidence": 0.8,
     "source_document": "Hepatocyte Growth Factor.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5cc247e6857d",
@@ -6633,7 +6619,7 @@
     "confidence": 0.88,
     "source_document": "FAK Signaling.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6e362ea25ef8",
@@ -6647,7 +6633,7 @@
     "confidence": 0.8,
     "source_document": "FAK Signaling.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "70253994eb90",
@@ -6661,13 +6647,13 @@
     "confidence": 0.78,
     "source_document": "FAK Signaling.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "25f7bfd503d2",
     "subject": "FAK Signaling",
     "predicate": "promotes",
-    "object": "Epithelial-to-Mesenchymal Transition",
+    "object": "Epithelial-to-mesenchymal transition",
     "context": {
       "en-US": "The FAK-EMT axis links adhesion signaling to transition programs. Weaker note text, strong general knowledge.",
       "zh-TW": "FAK-EMT 軸將黏附訊號連結到轉換程序。筆記文字較弱，一般知識強。"
@@ -6675,7 +6661,7 @@
     "confidence": 0.72,
     "source_document": "FAK Signaling.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "48d6298a75e0",
@@ -6689,7 +6675,7 @@
     "confidence": 0.85,
     "source_document": "Focal Adhesion.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a2c987b6fbfb",
@@ -6703,7 +6689,7 @@
     "confidence": 0.8,
     "source_document": "Focal Adhesion.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "49a39c662462",
@@ -6717,7 +6703,7 @@
     "confidence": 0.72,
     "source_document": "Focal Adhesion.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "adbfb16ca2b4",
@@ -6731,7 +6717,7 @@
     "confidence": 0.7,
     "source_document": "Focal Adhesion.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7e5ab4b36ffa",
@@ -6745,11 +6731,11 @@
     "confidence": 0.92,
     "source_document": "Adherens Junction.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8ab5fdf1741c",
-    "subject": "Epithelial-to-Mesenchymal Transition",
+    "subject": "Epithelial-to-mesenchymal transition",
     "predicate": "disrupts",
     "object": "Adherens Junction",
     "context": {
@@ -6759,10 +6745,10 @@
     "confidence": 0.9,
     "source_document": "Adherens Junction.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "dd8963db647b",
+    "id": "be2b2e29c562",
     "subject": "E-cadherin",
     "predicate": "binds",
     "object": "β-Catenin",
@@ -6773,7 +6759,7 @@
     "confidence": 0.88,
     "source_document": "Adherens Junction.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "76a4bae69410",
@@ -6787,7 +6773,7 @@
     "confidence": 0.85,
     "source_document": "Adherens Junction.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "cb8d4324f86f",
@@ -6815,7 +6801,7 @@
     "confidence": 0.78,
     "source_document": "Cadherin.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b14b9e47d5ac",
@@ -6829,7 +6815,7 @@
     "confidence": 0.78,
     "source_document": "Cadherin.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "bdeaf47fb0c4",
@@ -6843,7 +6829,7 @@
     "confidence": 0.97,
     "source_document": "CDH1.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e01f2327fc7d",
@@ -6857,7 +6843,7 @@
     "confidence": 0.88,
     "source_document": "CDH1.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c20c32c97012",
@@ -6871,7 +6857,7 @@
     "confidence": 0.88,
     "source_document": "CDH1.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a8ee1abd9a45",
@@ -6885,7 +6871,7 @@
     "confidence": 0.8,
     "source_document": "CDH1.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6f93ea472fee",
@@ -6899,7 +6885,7 @@
     "confidence": 0.7,
     "source_document": "CDH1.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d6dd74c92473",
@@ -6913,11 +6899,11 @@
     "confidence": 0.95,
     "source_document": "CDH2.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0a0a1fdae627",
-    "subject": "Epithelial-to-Mesenchymal Transition",
+    "subject": "Epithelial-to-mesenchymal transition",
     "predicate": "upregulates",
     "object": "CDH2",
     "context": {
@@ -6927,7 +6913,7 @@
     "confidence": 0.88,
     "source_document": "CDH2.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d395f38f2277",
@@ -6955,7 +6941,7 @@
     "confidence": 0.78,
     "source_document": "CDH2.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "df2c75c46363",
@@ -6969,7 +6955,7 @@
     "confidence": 0.7,
     "source_document": "CDH2.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0c88658a1ad0",
@@ -6983,7 +6969,7 @@
     "confidence": 0.85,
     "source_document": "Actin Cytoskeleton.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "49484bec8d73",
@@ -6997,11 +6983,11 @@
     "confidence": 0.8,
     "source_document": "Actin Cytoskeleton.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "95336bbde7a8",
-    "subject": "Epithelial-to-Mesenchymal Transition",
+    "subject": "Epithelial-to-mesenchymal transition",
     "predicate": "involves",
     "object": "Actin Cytoskeleton",
     "context": {
@@ -7011,7 +6997,7 @@
     "confidence": 0.8,
     "source_document": "Actin Cytoskeleton.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "bd93f46b93c7",
@@ -7025,7 +7011,7 @@
     "confidence": 0.9,
     "source_document": "Extracellular Matrix.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "404f0861ff1b",
@@ -7039,7 +7025,7 @@
     "confidence": 0.85,
     "source_document": "Extracellular Matrix.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "58db1375d76a",
@@ -7053,7 +7039,7 @@
     "confidence": 0.85,
     "source_document": "Extracellular Matrix.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4558b49f9b5e",
@@ -7067,7 +7053,7 @@
     "confidence": 0.72,
     "source_document": "Extracellular Matrix.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "64a21ece0a64",
@@ -7081,7 +7067,7 @@
     "confidence": 0.93,
     "source_document": "Basal Lamina.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c89ab5254306",
@@ -7095,7 +7081,7 @@
     "confidence": 0.92,
     "source_document": "Basal Lamina.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "96330edb3d6c",
@@ -7109,7 +7095,7 @@
     "confidence": 0.88,
     "source_document": "Basal Lamina.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "aaafc386b4b6",
@@ -7123,7 +7109,7 @@
     "confidence": 0.85,
     "source_document": "Basal Lamina.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "dac0935884de",
@@ -7137,7 +7123,7 @@
     "confidence": 0.92,
     "source_document": "Laminin.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "77be887164f8",
@@ -7165,7 +7151,7 @@
     "confidence": 0.88,
     "source_document": "Laminin.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "03e0924df91b",
@@ -7179,7 +7165,7 @@
     "confidence": 0.97,
     "source_document": "Tumor Suppressor Gene.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "20479aa5c87f",
@@ -7193,7 +7179,7 @@
     "confidence": 0.97,
     "source_document": "Tumor Suppressor Gene.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "81c3a4ee3d14",
@@ -7207,7 +7193,7 @@
     "confidence": 0.95,
     "source_document": "Tumor Suppressor Gene.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3aa7c807464b",
@@ -7221,7 +7207,7 @@
     "confidence": 0.9,
     "source_document": "Tumor Suppressor Gene.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b4addaeb0d06",
@@ -7235,7 +7221,7 @@
     "confidence": 0.88,
     "source_document": "Tumor Suppressor Gene.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "afb9efc97f67",
@@ -7249,7 +7235,7 @@
     "confidence": 0.82,
     "source_document": "Tumor Suppressor Gene.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1910a456ca94",
@@ -7263,7 +7249,7 @@
     "confidence": 0.75,
     "source_document": "Tumor Suppressor Gene.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "04bf4f3ffb0a",
@@ -7309,7 +7295,7 @@
   },
   {
     "id": "9e55454c6a58",
-    "subject": "Epithelial-to-Mesenchymal Transition",
+    "subject": "Epithelial-to-mesenchymal transition",
     "predicate": "contributes_to",
     "object": "Fibrosis",
     "context": {
@@ -7319,7 +7305,7 @@
     "confidence": 0.8,
     "source_document": "Fibrosis.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "66e07bb4b5c3",
@@ -7339,7 +7325,7 @@
     "id": "854fca815f8c",
     "subject": "Snail",
     "predicate": "drives",
-    "object": "Epithelial-to-Mesenchymal Transition",
+    "object": "Epithelial-to-mesenchymal transition",
     "context": {
       "en-US": "Snail (SNAI1) is a core zinc-finger driver of EMT. Driving is the defining transcription program.",
       "zh-TW": "Snail（SNAI1）是 EMT 的核心鋅指驅動者。驅動是定義性轉錄程序。"
@@ -7347,7 +7333,7 @@
     "confidence": 0.92,
     "source_document": "Snail.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "aec41d8c7dd5",
@@ -7375,7 +7361,7 @@
     "confidence": 0.88,
     "source_document": "Snail.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9658ba1a0ee3",
@@ -7409,7 +7395,7 @@
     "id": "55eef7626117",
     "subject": "Slug",
     "predicate": "drives",
-    "object": "Epithelial-to-Mesenchymal Transition",
+    "object": "Epithelial-to-mesenchymal transition",
     "context": {
       "en-US": "Slug (SNAI2) is a core zinc-finger driver of EMT. Parallel driver to Snail.",
       "zh-TW": "Slug（SNAI2）是 EMT 的核心鋅指驅動者。與 Snail 平行的驅動者。"
@@ -7417,7 +7403,7 @@
     "confidence": 0.9,
     "source_document": "Slug.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "43fe6bad6518",
@@ -7431,7 +7417,7 @@
     "confidence": 0.85,
     "source_document": "Slug.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "602515a7e93a",
@@ -7465,7 +7451,7 @@
     "id": "dc5a5515c600",
     "subject": "Zeb1",
     "predicate": "drives",
-    "object": "Epithelial-to-Mesenchymal Transition",
+    "object": "Epithelial-to-mesenchymal transition",
     "context": {
       "en-US": "Zeb1 is a core E-box-binding driver of EMT. Driving defines its transition role.",
       "zh-TW": "Zeb1 是 EMT 的核心 E-box 結合驅動者。驅動定義其轉換角色。"
@@ -7473,7 +7459,7 @@
     "confidence": 0.9,
     "source_document": "Zeb1.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "062228c2c316",
@@ -7501,7 +7487,7 @@
     "confidence": 0.85,
     "source_document": "Zeb1.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "930826ce74f0",
@@ -7529,7 +7515,7 @@
     "confidence": 0.8,
     "source_document": "Zeb1.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "cf520242e087",
@@ -7543,7 +7529,7 @@
     "confidence": 0.92,
     "source_document": "Sodium Butyrate.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3d8ea6d0ac7f",
@@ -7557,7 +7543,7 @@
     "confidence": 0.85,
     "source_document": "Sodium Butyrate.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ca3a911dc87c",
@@ -7571,7 +7557,7 @@
     "confidence": 0.8,
     "source_document": "Sodium Butyrate.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1f3893ed3dff",
@@ -7585,13 +7571,13 @@
     "confidence": 0.85,
     "source_document": "Phenylbutyrate.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b4148fc196b9",
     "subject": "Phenylbutyrate",
     "predicate": "upregulates",
-    "object": "Hsp70",
+    "object": "HSP70",
     "context": {
       "en-US": "Hsp70 is the major transcriptional target of phenylbutyrate mediating cytoprotection and refolding. Upregulation is the chaperone output.",
       "zh-TW": "Hsp70 是 phenylbutyrate 介導細胞保護與重折疊的主要轉錄標的。上調是伴侶輸出。"
@@ -7599,7 +7585,7 @@
     "confidence": 0.78,
     "source_document": "Phenylbutyrate.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:23:50Z"
   },
   {
     "id": "9a5b2e464d9f",
@@ -7613,7 +7599,7 @@
     "confidence": 0.75,
     "source_document": "Phenylbutyrate.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "11f390af1008",
@@ -7641,7 +7627,7 @@
     "confidence": 0.9,
     "source_document": "Busulfan.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "03503bd4b2c6",
@@ -7655,7 +7641,7 @@
     "confidence": 0.92,
     "source_document": "Cyclophosphamide.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2dd8a54c5d3f",
@@ -7697,7 +7683,7 @@
     "confidence": 0.85,
     "source_document": "Diaziquone.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7400b8c2119b",
@@ -7725,7 +7711,7 @@
     "confidence": 0.92,
     "source_document": "Mitomycin C.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e994f5c1b6ad",
@@ -7739,7 +7725,7 @@
     "confidence": 0.8,
     "source_document": "Mitomycin C.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "925ed3c8dd88",
@@ -7753,7 +7739,7 @@
     "confidence": 0.8,
     "source_document": "Mitomycin C.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "75b0aa843c53",
@@ -7767,7 +7753,7 @@
     "confidence": 0.9,
     "source_document": "Mitoxantrone.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9d82e20b3dc5",
@@ -7781,7 +7767,7 @@
     "confidence": 0.82,
     "source_document": "Mitoxantrone.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "88c3d9b4c5cd",
@@ -7795,7 +7781,7 @@
     "confidence": 0.9,
     "source_document": "Mitoxantrone.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "105eefa2bcac",
@@ -7809,7 +7795,7 @@
     "confidence": 0.9,
     "source_document": "Camptothecin.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b675416bae66",
@@ -7865,7 +7851,7 @@
     "confidence": 0.9,
     "source_document": "SAM.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d7db5e209f75",
@@ -7907,7 +7893,7 @@
     "confidence": 0.78,
     "source_document": "UHRF1.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a49120b82e38",
@@ -7921,7 +7907,7 @@
     "confidence": 0.8,
     "source_document": "Pericentromeric Satellite Repeats.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c3a8d560eaae",
@@ -7935,7 +7921,7 @@
     "confidence": 0.75,
     "source_document": "Pericentromeric Satellite Repeats.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c58ac1ec53bc",
@@ -7949,7 +7935,7 @@
     "confidence": 0.85,
     "source_document": "Genome stability.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "69980baf4319",
@@ -7963,7 +7949,7 @@
     "confidence": 0.75,
     "source_document": "Genome stability.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "643d3eb424a5",
@@ -7977,7 +7963,7 @@
     "confidence": 0.8,
     "source_document": "DNA-PKcs.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6c081f414ba7",
@@ -7991,7 +7977,7 @@
     "confidence": 0.75,
     "source_document": "DNA-PKcs.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "aa4687bc263b",
@@ -8005,7 +7991,7 @@
     "confidence": 0.75,
     "source_document": "DNA-PKcs.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "fd475fa6e998",
@@ -8019,7 +8005,7 @@
     "confidence": 0.85,
     "source_document": "Homologous recombination repair.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b5674609db62",
@@ -8033,7 +8019,7 @@
     "confidence": 0.85,
     "source_document": "Homologous recombination repair.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "bc0959ed7236",
@@ -8117,7 +8103,7 @@
     "confidence": 0.85,
     "source_document": "Innate Immunity.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "fba1a842c286",
@@ -8131,7 +8117,7 @@
     "confidence": 0.8,
     "source_document": "Innate Immunity.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "56b769b3f9d5",
@@ -8145,7 +8131,7 @@
     "confidence": 0.8,
     "source_document": "Model Organisms.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5a60e981c876",
@@ -8162,7 +8148,7 @@
     "updated": "2026-09-04T16:55:31Z"
   },
   {
-    "id": "eb976f76a0fe",
+    "id": "e197f3b075cb",
     "subject": "FRAT2",
     "predicate": "inhibits",
     "object": "GSK3β",
@@ -8173,13 +8159,13 @@
     "confidence": 0.85,
     "source_document": "FRAT2.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "637b891d3da0",
     "subject": "FRAT2",
     "predicate": "promotes",
-    "object": "Wnt Signaling",
+    "object": "Wnt signaling",
     "context": {
       "en-US": "FRAT2 amplifies canonical beta-catenin signaling toward MYCN stabilization and DNMT3A. Promotion is the cascade input.",
       "zh-TW": "FRAT2 放大典型 beta-catenin 訊號朝向 MYCN 穩定與 DNMT3A。促進是級聯輸入。"
@@ -8187,7 +8173,7 @@
     "confidence": 0.85,
     "source_document": "FRAT2.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "898867653f2b",
@@ -8215,7 +8201,7 @@
     "confidence": 0.9,
     "source_document": "PARylation.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b811433300aa",
@@ -8243,7 +8229,7 @@
     "confidence": 0.8,
     "source_document": "_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4ee79e8dee91",
@@ -8257,7 +8243,7 @@
     "confidence": 0.8,
     "source_document": "_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "773405764a4d",
@@ -8271,7 +8257,7 @@
     "confidence": 0.8,
     "source_document": "_document_ - Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic.md",
     "created": "2026-09-04T16:55:31Z",
-    "updated": "2026-09-04T16:55:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "168409d8d282",
@@ -8313,7 +8299,7 @@
     "confidence": 0.88,
     "source_document": "_document_ - Cellular Mechanisms and Regulation of Quiescence.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b455ab469261",
@@ -8341,7 +8327,7 @@
     "confidence": 0.78,
     "source_document": "_document_ - Cellular Mechanisms and Regulation of Quiescence.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "bc2d49c033bd",
@@ -8355,7 +8341,7 @@
     "confidence": 0.78,
     "source_document": "_document_ - Cellular Mechanisms and Regulation of Quiescence.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3737501e41ad",
@@ -8369,7 +8355,7 @@
     "confidence": 0.9,
     "source_document": "Induced Neural Stem Cells.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "dd1801ab3bdd",
@@ -8383,7 +8369,7 @@
     "confidence": 0.88,
     "source_document": "Induced Neural Stem Cells.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1e20983189e8",
@@ -8397,7 +8383,7 @@
     "confidence": 0.8,
     "source_document": "Induced Neural Stem Cells.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "846aaa2cda6f",
@@ -8411,7 +8397,7 @@
     "confidence": 0.78,
     "source_document": "Induced Neural Stem Cells.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5529ef7db1fa",
@@ -8425,7 +8411,7 @@
     "confidence": 0.9,
     "source_document": "Somatic Cell Nuclear Transfer.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a9f54d241e7c",
@@ -8439,7 +8425,7 @@
     "confidence": 0.85,
     "source_document": "Somatic Cell Nuclear Transfer.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c60ec8a738d3",
@@ -8453,7 +8439,7 @@
     "confidence": 0.72,
     "source_document": "Somatic Cell Nuclear Transfer.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "31d50cfc4bb2",
@@ -8467,7 +8453,7 @@
     "confidence": 0.72,
     "source_document": "Somatic Cell Nuclear Transfer.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "157cbced51e0",
@@ -8481,7 +8467,7 @@
     "confidence": 0.9,
     "source_document": "Teratoma.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "bb6a79dffb7c",
@@ -8537,7 +8523,7 @@
     "confidence": 0.85,
     "source_document": "Assembloids.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f484a591fee0",
@@ -8551,7 +8537,7 @@
     "confidence": 0.78,
     "source_document": "Assembloids.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0f3efa7b451d",
@@ -8565,7 +8551,7 @@
     "confidence": 0.75,
     "source_document": "Assembloids.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d78e66aa3ba3",
@@ -8579,7 +8565,7 @@
     "confidence": 0.9,
     "source_document": "Organoids.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "676f032ddf61",
@@ -8593,7 +8579,7 @@
     "confidence": 0.88,
     "source_document": "Organoids.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7f328da345f8",
@@ -8607,7 +8593,7 @@
     "confidence": 0.78,
     "source_document": "Organoids.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "bea1f313d4cc",
@@ -8621,7 +8607,7 @@
     "confidence": 0.75,
     "source_document": "Organoids.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b5717feaacc0",
@@ -8635,7 +8621,7 @@
     "confidence": 0.88,
     "source_document": "Tissue Engineering.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "da64a10b0810",
@@ -8649,7 +8635,7 @@
     "confidence": 0.85,
     "source_document": "Tissue Engineering.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "66657f44b2bb",
@@ -8663,7 +8649,7 @@
     "confidence": 0.82,
     "source_document": "Tissue Engineering.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "69abd454fc25",
@@ -8677,7 +8663,7 @@
     "confidence": 0.78,
     "source_document": "Tissue Engineering.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f0812e7f04fe",
@@ -8691,7 +8677,7 @@
     "confidence": 0.8,
     "source_document": "Stem Cell Research.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ffbbaac3ca70",
@@ -8705,7 +8691,7 @@
     "confidence": 0.8,
     "source_document": "Stem Cell Research.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3c68dacdf986",
@@ -8719,7 +8705,7 @@
     "confidence": 0.78,
     "source_document": "Stem Cell Research.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d6c1debe4505",
@@ -8733,7 +8719,7 @@
     "confidence": 0.9,
     "source_document": "High-Throughput Screening.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "84b84b6ae529",
@@ -8747,7 +8733,7 @@
     "confidence": 0.8,
     "source_document": "High-Throughput Screening.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "424c79bcbde1",
@@ -8761,7 +8747,7 @@
     "confidence": 0.75,
     "source_document": "High-Throughput Screening.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "533e4ab1b168",
@@ -8775,7 +8761,7 @@
     "confidence": 0.7,
     "source_document": "High-Throughput Screening.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0ed90a47bb92",
@@ -8789,7 +8775,7 @@
     "confidence": 0.88,
     "source_document": "Toxicity Testing.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ba2a7ad973ea",
@@ -8803,7 +8789,7 @@
     "confidence": 0.85,
     "source_document": "Toxicity Testing.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "80a5283d286a",
@@ -8817,7 +8803,7 @@
     "confidence": 0.8,
     "source_document": "Toxicity Testing.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f7c211dac2d1",
@@ -8831,7 +8817,7 @@
     "confidence": 0.7,
     "source_document": "Toxicity Testing.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "023cd9bd3136",
@@ -8845,7 +8831,7 @@
     "confidence": 0.9,
     "source_document": "HLA Haplobank.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f4360aa3f6b3",
@@ -8859,7 +8845,7 @@
     "confidence": 0.85,
     "source_document": "HLA Haplobank.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3a471a9a4e80",
@@ -8873,7 +8859,7 @@
     "confidence": 0.72,
     "source_document": "HLA Haplobank.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f95614da04b3",
@@ -8887,7 +8873,7 @@
     "confidence": 0.75,
     "source_document": "HLA Haplobank.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "00e9eedb2b07",
@@ -8915,7 +8901,7 @@
     "confidence": 0.85,
     "source_document": "HFF1.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "79cfb754f6ae",
@@ -8929,7 +8915,7 @@
     "confidence": 0.8,
     "source_document": "HFF1.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1b001ca55123",
@@ -8957,7 +8943,7 @@
     "confidence": 0.88,
     "source_document": "Isogenic Pair.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3e78021b5445",
@@ -8971,7 +8957,7 @@
     "confidence": 0.82,
     "source_document": "Isogenic Pair.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3198e72ba0d8",
@@ -8985,7 +8971,7 @@
     "confidence": 0.8,
     "source_document": "Isogenic Pair.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6cfe22eb0ca5",
@@ -8999,7 +8985,7 @@
     "confidence": 0.7,
     "source_document": "Isogenic Pair.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "390c71b8f604",
@@ -9013,7 +8999,7 @@
     "confidence": 0.88,
     "source_document": "Tissue Repair.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "84937b3ad610",
@@ -9027,7 +9013,7 @@
     "confidence": 0.85,
     "source_document": "Tissue Repair.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e88f9762debd",
@@ -9041,7 +9027,7 @@
     "confidence": 0.82,
     "source_document": "Tissue Repair.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3cee645bfd59",
@@ -9055,7 +9041,7 @@
     "confidence": 0.97,
     "source_document": "Anaphase Promoting Complex-Cyclosome.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e2fe04791878",
@@ -9069,7 +9055,7 @@
     "confidence": 0.95,
     "source_document": "Anaphase Promoting Complex-Cyclosome.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8ab1ce2b7d7d",
@@ -9083,7 +9069,7 @@
     "confidence": 0.93,
     "source_document": "Anaphase Promoting Complex-Cyclosome.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4483192c37b7",
@@ -9097,7 +9083,7 @@
     "confidence": 0.93,
     "source_document": "Anaphase Promoting Complex-Cyclosome.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6263f475d4f5",
@@ -9111,7 +9097,7 @@
     "confidence": 0.92,
     "source_document": "Anaphase Promoting Complex-Cyclosome.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "786482dab497",
@@ -9125,7 +9111,7 @@
     "confidence": 0.88,
     "source_document": "Anaphase Promoting Complex-Cyclosome.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "33a9b4b07132",
@@ -9139,7 +9125,7 @@
     "confidence": 0.85,
     "source_document": "Anaphase Promoting Complex-Cyclosome.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "14447ada2807",
@@ -9153,7 +9139,7 @@
     "confidence": 0.85,
     "source_document": "Anaphase Promoting Complex-Cyclosome.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "25e5c0d1dc4b",
@@ -9167,7 +9153,7 @@
     "confidence": 0.82,
     "source_document": "Anaphase Promoting Complex-Cyclosome.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "36caee7c0802",
@@ -9181,7 +9167,7 @@
     "confidence": 0.8,
     "source_document": "Sister Chromatids.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e0ad0cc7b70e",
@@ -9195,7 +9181,7 @@
     "confidence": 0.88,
     "source_document": "Sister Chromatids.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5f911f8e9a5b",
@@ -9209,7 +9195,7 @@
     "confidence": 0.9,
     "source_document": "Sister Chromatids.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b3dce5bd69d4",
@@ -9223,7 +9209,7 @@
     "confidence": 0.85,
     "source_document": "Sister Chromatids.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "399b6187a109",
@@ -9237,7 +9223,7 @@
     "confidence": 0.95,
     "source_document": "Histone Methyltransferase.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1feb39f10489",
@@ -9251,7 +9237,7 @@
     "confidence": 0.88,
     "source_document": "Histone Methyltransferase.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "91eb09c1cd13",
@@ -9265,7 +9251,7 @@
     "confidence": 0.88,
     "source_document": "Histone Methyltransferase.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "525f0d3cd530",
@@ -9279,7 +9265,7 @@
     "confidence": 0.78,
     "source_document": "Histone Methyltransferase.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b9b60df3fa10",
@@ -9293,7 +9279,7 @@
     "confidence": 0.95,
     "source_document": "Translation.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "778d8d8c1fc5",
@@ -9363,7 +9349,7 @@
     "confidence": 0.78,
     "source_document": "Translation.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "82fe0bffba7c",
@@ -9377,7 +9363,7 @@
     "confidence": 0.72,
     "source_document": "Translation.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a965301932b3",
@@ -9391,7 +9377,7 @@
     "confidence": 0.82,
     "source_document": "Gene Silencing.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "38f26b544f8d",
@@ -9405,7 +9391,7 @@
     "confidence": 0.8,
     "source_document": "Gene Silencing.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ce9d158a1610",
@@ -9419,7 +9405,7 @@
     "confidence": 0.75,
     "source_document": "Gene Silencing.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "97022a4f720d",
@@ -9433,7 +9419,7 @@
     "confidence": 0.85,
     "source_document": "Gene Silencing.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "67c297e95ce7",
@@ -9447,7 +9433,7 @@
     "confidence": 0.8,
     "source_document": "Gene Silencing.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f658416d9a53",
@@ -9461,13 +9447,13 @@
     "confidence": 0.9,
     "source_document": "X-Chromosome Inactivation.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1caf6a711b24",
     "subject": "XIST",
     "predicate": "is_a_type_of",
-    "object": "Non-Coding RNA",
+    "object": "Non-coding RNA",
     "context": {
       "en-US": "XIST is a long non-coding RNA coating the inactive X chromosome.",
       "zh-TW": "XIST 是包被不活化 X 染色體的長非編碼 RNA。"
@@ -9475,7 +9461,7 @@
     "confidence": 0.97,
     "source_document": "XIST.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "53be4b428fd7",
@@ -9503,7 +9489,7 @@
     "confidence": 0.88,
     "source_document": "XIST.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "173088900fae",
@@ -9559,7 +9545,7 @@
     "confidence": 0.88,
     "source_document": "X-Chromosome Inactivation.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2b14a00dfd67",
@@ -9573,7 +9559,7 @@
     "confidence": 0.95,
     "source_document": "X-Chromosome Inactivation.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "349a6c9bf981",
@@ -9587,7 +9573,7 @@
     "confidence": 0.85,
     "source_document": "X-Chromosome Inactivation.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9516636524a7",
@@ -9601,7 +9587,7 @@
     "confidence": 0.8,
     "source_document": "X-Chromosome Inactivation.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "cf4b60f1494c",
@@ -9615,7 +9601,7 @@
     "confidence": 0.9,
     "source_document": "X-Chromosome Inactivation.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8437269bc8b2",
@@ -9657,7 +9643,7 @@
     "confidence": 0.97,
     "source_document": "Sas2p.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a048d3ccbdde",
@@ -9727,7 +9713,7 @@
     "confidence": 0.95,
     "source_document": "Saccharomyces cerevisiae.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c66d36bf1731",
@@ -9741,7 +9727,7 @@
     "confidence": 0.85,
     "source_document": "Saccharomyces cerevisiae.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6d8c65de0a0e",
@@ -9755,7 +9741,7 @@
     "confidence": 0.85,
     "source_document": "Saccharomyces cerevisiae.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "59874993f826",
@@ -9769,7 +9755,7 @@
     "confidence": 0.97,
     "source_document": "Caenorhabditis elegans.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3b4e124ab065",
@@ -9783,11 +9769,11 @@
     "confidence": 0.9,
     "source_document": "Caenorhabditis elegans.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "89d3b339458a",
-    "subject": "RNA interference",
+    "subject": "RNA Interference",
     "predicate": "used_in",
     "object": "Caenorhabditis elegans",
     "context": {
@@ -9797,7 +9783,7 @@
     "confidence": 0.88,
     "source_document": "Caenorhabditis elegans.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e36d14ad4a02",
@@ -9825,7 +9811,7 @@
     "confidence": 0.93,
     "source_document": "Trisomy.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9bbd6f9f06e3",
@@ -9839,7 +9825,7 @@
     "confidence": 0.85,
     "source_document": "Trisomy.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0820277ea185",
@@ -9853,7 +9839,7 @@
     "confidence": 0.9,
     "source_document": "single nucleotide variation.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5d417f2ca61d",
@@ -9867,7 +9853,7 @@
     "confidence": 0.88,
     "source_document": "single nucleotide variation.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "bb664d4df362",
@@ -9881,7 +9867,7 @@
     "confidence": 0.75,
     "source_document": "single nucleotide variation.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "91fa7e95e543",
@@ -9895,7 +9881,7 @@
     "confidence": 0.95,
     "source_document": "ICAD.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5dba08184b16",
@@ -9909,7 +9895,7 @@
     "confidence": 0.93,
     "source_document": "ICAD.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "dd24cccc537f",
@@ -9937,7 +9923,7 @@
     "confidence": 0.88,
     "source_document": "ICF Syndrome.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a420275e1d16",
@@ -9951,7 +9937,7 @@
     "confidence": 0.8,
     "source_document": "ICF Syndrome.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ccca43fcb3c1",
@@ -9965,7 +9951,7 @@
     "confidence": 0.95,
     "source_document": "Kazutoshi Takahashi.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9de10fb9e2a9",
@@ -9979,7 +9965,7 @@
     "confidence": 0.9,
     "source_document": "Olivopontocerebellar Atrophy.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "25d3215a3d68",
@@ -9993,7 +9979,7 @@
     "confidence": 0.8,
     "source_document": "Olivopontocerebellar Atrophy.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "58e945d6a12b",
@@ -10007,7 +9993,7 @@
     "confidence": 0.8,
     "source_document": "Olivopontocerebellar Atrophy.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ad1da0ce3e22",
@@ -10035,7 +10021,7 @@
     "confidence": 0.8,
     "source_document": "Phytochemicals.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7e141222beee",
@@ -10049,7 +10035,7 @@
     "confidence": 0.75,
     "source_document": "Phytochemicals.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "fc8dc0e1e414",
@@ -10077,7 +10063,7 @@
     "confidence": 0.7,
     "source_document": "Phytochemicals.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a8f2b4f89500",
@@ -10105,7 +10091,7 @@
     "confidence": 0.72,
     "source_document": "Lymphocyte.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "130f9b2aba3e",
@@ -10119,7 +10105,7 @@
     "confidence": 0.9,
     "source_document": "Hepatocyte.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "19e91c7545a0",
@@ -10161,7 +10147,7 @@
     "confidence": 0.85,
     "source_document": "Fibroblasts.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "58d6f4badac0",
@@ -10189,7 +10175,7 @@
     "confidence": 0.8,
     "source_document": "Fibroblasts.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1dedc7501d65",
@@ -10203,7 +10189,7 @@
     "confidence": 0.9,
     "source_document": "Liver Regeneration.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f19219e626af",
@@ -10217,7 +10203,7 @@
     "confidence": 0.85,
     "source_document": "Liver Regeneration.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6ec524c7b3fa",
@@ -10231,7 +10217,7 @@
     "confidence": 0.75,
     "source_document": "Liver Regeneration.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "afb347d9a95d",
@@ -10245,7 +10231,7 @@
     "confidence": 0.9,
     "source_document": "Hippo Signaling Pathway.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "023b14376ac1",
@@ -10259,7 +10245,7 @@
     "confidence": 0.9,
     "source_document": "Hippo Signaling Pathway.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "adef7fc96eb0",
@@ -10273,7 +10259,7 @@
     "confidence": 0.85,
     "source_document": "Hippo Signaling Pathway.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "73ad1cc08701",
@@ -10287,7 +10273,7 @@
     "confidence": 0.8,
     "source_document": "Hippo Signaling Pathway.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "cba13101674a",
@@ -10301,7 +10287,7 @@
     "confidence": 0.8,
     "source_document": "Hippo Signaling Pathway.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6401f401c80b",
@@ -10315,7 +10301,7 @@
     "confidence": 0.85,
     "source_document": "Contact Inhibition.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "80925065d163",
@@ -10329,7 +10315,7 @@
     "confidence": 0.8,
     "source_document": "Contact Inhibition.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e10710ed65b8",
@@ -10343,7 +10329,7 @@
     "confidence": 0.8,
     "source_document": "Contact Inhibition.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8ead91652327",
@@ -10357,13 +10343,13 @@
     "confidence": 0.75,
     "source_document": "Contact Inhibition.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a761c988eaea",
     "subject": "Contact Inhibition",
     "predicate": "opposes",
-    "object": "Epithelial-to-Mesenchymal Transition",
+    "object": "Epithelial-to-mesenchymal transition",
     "context": {
       "en-US": "E-cadherin loss during transition abolishes contact inhibition.",
       "zh-TW": "轉換期間 E-cadherin 缺失廢除接觸抑制。"
@@ -10371,7 +10357,7 @@
     "confidence": 0.72,
     "source_document": "Contact Inhibition.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0ff3f55106d8",
@@ -10385,7 +10371,7 @@
     "confidence": 0.9,
     "source_document": "Macular Degeneration.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "97171738060c",
@@ -10399,7 +10385,7 @@
     "confidence": 0.9,
     "source_document": "Macular Degeneration.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d40b24034407",
@@ -10413,7 +10399,7 @@
     "confidence": 0.85,
     "source_document": "Macular Degeneration.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "342a0bfb2e1e",
@@ -10427,7 +10413,7 @@
     "confidence": 0.75,
     "source_document": "Macular Degeneration.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6a7de16b9afc",
@@ -10441,7 +10427,7 @@
     "confidence": 0.9,
     "source_document": "Biological Age.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "20ef53b3ed57",
@@ -10455,7 +10441,7 @@
     "confidence": 0.9,
     "source_document": "Biological Age.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f3c27b15c245",
@@ -10469,7 +10455,7 @@
     "confidence": 0.9,
     "source_document": "PODXL.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "89ca117897cf",
@@ -10497,13 +10483,13 @@
     "confidence": 0.78,
     "source_document": "PODXL.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "97bfb729c434",
     "subject": "PODXL",
     "predicate": "promotes",
-    "object": "Epithelial-to-Mesenchymal Transition",
+    "object": "Epithelial-to-mesenchymal transition",
     "context": {
       "en-US": "Upregulated PODXL drives pro-migratory transition in carcinoma metastasis.",
       "zh-TW": "上調的 PODXL 在癌轉移驅動促遷移轉換。"
@@ -10511,7 +10497,7 @@
     "confidence": 0.75,
     "source_document": "PODXL.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f5d6a968dd42",
@@ -10525,7 +10511,7 @@
     "confidence": 0.9,
     "source_document": "Connective Tissue.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0abce001d95a",
@@ -10539,7 +10525,7 @@
     "confidence": 0.85,
     "source_document": "Connective Tissue.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "234da51d8afc",
@@ -10553,7 +10539,7 @@
     "confidence": 0.8,
     "source_document": "Connective Tissue.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d80bb8ed16d1",
@@ -10567,7 +10553,7 @@
     "confidence": 0.85,
     "source_document": "Hepatocyte Growth Factor.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e944004292a1",
@@ -10581,7 +10567,7 @@
     "confidence": 0.72,
     "source_document": "Hepatocyte Growth Factor.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "77e65fa0dcfe",
@@ -10595,7 +10581,7 @@
     "confidence": 0.85,
     "source_document": "Major Histocompatibility Complex.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8a6c65f645f8",
@@ -10609,7 +10595,7 @@
     "confidence": 0.8,
     "source_document": "Major Histocompatibility Complex.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c7a0c135fa3a",
@@ -10623,7 +10609,7 @@
     "confidence": 0.8,
     "source_document": "Major Histocompatibility Complex.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "fe329f220527",
@@ -10637,7 +10623,7 @@
     "confidence": 0.95,
     "source_document": "tert-Butyl hydroperoxide.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "006e01066e97",
@@ -10651,7 +10637,7 @@
     "confidence": 0.9,
     "source_document": "tert-Butyl hydroperoxide.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b38a34432f99",
@@ -10665,7 +10651,7 @@
     "confidence": 0.9,
     "source_document": "tert-Butyl hydroperoxide.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0722d97d73be",
@@ -10679,7 +10665,7 @@
     "confidence": 0.85,
     "source_document": "tert-Butyl hydroperoxide.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "33c4e0f808f4",
@@ -10693,7 +10679,7 @@
     "confidence": 0.75,
     "source_document": "tert-Butyl hydroperoxide.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "13511d4bfb17",
@@ -10707,7 +10693,7 @@
     "confidence": 0.95,
     "source_document": "B18R.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "92f414a8c3e6",
@@ -10721,7 +10707,7 @@
     "confidence": 0.9,
     "source_document": "B18R.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "620e3eb26012",
@@ -10735,7 +10721,7 @@
     "confidence": 0.8,
     "source_document": "B18R.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "bb0424a547bb",
@@ -10749,7 +10735,7 @@
     "confidence": 0.9,
     "source_document": "Dyskinesia.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4290449d098c",
@@ -10763,7 +10749,7 @@
     "confidence": 0.85,
     "source_document": "Dyskinesia.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8ca58cf1adcf",
@@ -10777,7 +10763,7 @@
     "confidence": 0.8,
     "source_document": "_document_ - This method to reverse cellular aging is about to be tested in humans.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "48f0d8ff9980",
@@ -10791,6 +10777,6 @@
     "confidence": 0.75,
     "source_document": "_document_ - This method to reverse cellular aging is about to be tested in humans.md",
     "created": "2026-09-04T18:02:52Z",
-    "updated": "2026-09-04T18:02:52Z"
+    "updated": "2026-09-29T18:36:32Z"
   }
 ]

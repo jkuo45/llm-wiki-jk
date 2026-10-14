@@ -23,7 +23,7 @@ In parasites, avermectins bind invertebrate glutamate- and GABA-gated chloride c
 ## Relevance to Cancer Research
 
 Beyond its antiparasitic role, avermectin itself shows direct **anticancer activity** — it inhibits cancer-cell proliferation and, like ivermectin, engages the [[Glutamate-gated Cl- channels]] target that underlies the class's selective safety. Ivermectin, the flagship avermectin, is under active investigation for **anticancer repositioning**:
-- Inhibits the [[Wnt/β-catenin]], [[AKT/mTOR]], and [[PAK1]] oncogenic pathways.
+- Inhibits the [[Wnt/β-catenin]], [[Akt]]/[[mTOR]], and [[PAK1]] oncogenic pathways.
 - Impairs [[Mitochondrial Respiration]] and promotes [[Apoptosis]] in tumor cells.
 - Enhances the efficacy of conventional [[Chemotherapy]] and may overcome [[Multidrug Resistance]].
 - Decades of safe use (via programs like the [[African Programme for Onchocerciasis Control]]) support repurposing trials.
@@ -61,6 +61,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Ivermectin]], [[Satoshi Ōmura]], [[William C. Campbell]], [[Kitasato Institute]], [[Merck & Co. Inc]], [[Macrocyclic lactone]], [[Streptomyces avermectinius]], [[Cancer]], [[Wnt/β-catenin]], [[AKT/mTOR]], [[PAK1]], [[Mitochondrial Respiration]], [[Apoptosis]], [[Chemotherapy]], [[Multidrug Resistance]], [[African Programme for Onchocerciasis Control]], [[Glutamate-gated Cl- channels]]
+- New links added: [[Ivermectin]], [[Satoshi Ōmura]], [[William C. Campbell]], [[Kitasato Institute]], [[Merck & Co. Inc]], [[Macrocyclic lactone]], [[Streptomyces avermectinius]], [[Cancer]], [[Wnt/β-catenin]], [[Akt]]/[[mTOR]], [[PAK1]], [[Mitochondrial Respiration]], [[Apoptosis]], [[Chemotherapy]], [[Multidrug Resistance]], [[African Programme for Onchocerciasis Control]], [[Glutamate-gated Cl- channels]]
 - Suggested new entity notes to create: [[Macrocyclic lactone]], [[Streptomyces avermectinius]]
 - Strong connections to strengthen: [[Ivermectin]] ↔ [[Avermectin]]

@@ -1,5 +1,5 @@
 {
-  "generated": "25_SEP_2026 12:12 PM PDT",
+  "generated": "04_OCT_2026 07:11 PM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -25,44 +25,381 @@
       }
     },
     {
-      "id": "task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026",
+      "id": "task_output_biomarker_gate_supply_chain_procurement_04_Oct_2026",
       "langs": {
         "en-US": {
-          "title": "Mitochondrial Fission and the Fat-Soluble Vitamins: How Vitamins A and E Set the Fission–Fusion Balance",
-          "description": "Task output covering the Drp1 fission machinery and its redox/lipid control points, where vitamin E sits in the outer mitochondrial membrane and how it defends cardiolipin and Drp1 from peroxidation-driven hyperfragmentation, and the dual-edged role of vitamin A — retinol as a PKCδ/OXPHOS cofactor versus all-trans retinoic acid as an inducer of Drp1 and fission.",
-          "created": "2026-09-24",
-          "updated": "2026-09-24",
+          "title": "Biomarker Gates — Supply Chain and Procurement Audit",
+          "description": "Gate-by-gate audit of what can actually be bought for the 17 hard-coded individual biomarkers in web/public/pages/en-US/hard-coded-biomarker-gates.html, at what price and turnaround, in which regulatory tier. Establishes that the commercially real gates are the drug-metabolism ones (CYP2C9/VKORC1/CYP2D6/SLCO1B1), that the page's recommended minimum panel is procurement-infeasible as written, and identifies ten structural gaps — absent enzyme-activity assays, no CPIC guideline for CYP3A5-sirolimus, no commercial p70S6K1 assay, no standardized microbial-metabotype phenotype, ancestry-incomplete CYP3A5 panels, counselling as the true bottleneck, and compounded/supplement QC risk downstream of the test.",
+          "created": "2026-10-04",
+          "updated": "2026-10-04",
           "tags": [
             "task-output",
-            "mitochondrial-fission",
-            "vitamin-a",
-            "vitamin-e",
-            "drp1",
-            "cardiolipin",
-            "mitophagy",
-            "redox-chemistry"
+            "biomarkers",
+            "pharmacogenomics",
+            "supply-chain",
+            "clinical-laboratory",
+            "metabotypes",
+            "comt",
+            "autophagy",
+            "oxidative-stress"
           ],
-          "filename": "task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026.md",
-          "path": "tasks/en-US/task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026.md"
+          "filename": "task_output_biomarker_gate_supply_chain_procurement_04_Oct_2026.md",
+          "path": "tasks/en-US/task_output_biomarker_gate_supply_chain_procurement_04_Oct_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_biomarker_gate_supply_chain_procurement_04_Oct_2026.md"
         },
         "zh-TW": {
-          "title": "粒線體分裂與脂溶性維生素：維生素 A 與 E 如何設定分裂–融合平衡",
-          "description": "任務輸出，涵蓋 DRP1 分裂機器與其氧化還原／脂質控制點、維生素 E 在粒線體外膜中的定位及其對心磷脂與 DRP1 的防護（避免過氧化驅動的過度分裂），以及維生素 A 的雙重角色——視黃醇作為 PKCδ/OXPHOS 輔因子，相對於全反式視黃酸誘導 DRP1 與分裂。",
-          "created": "2026-09-24",
-          "updated": "2026-09-24",
+          "title": "生物標記關卡 — 供應鏈與採購審計",
+          "description": "針對 web/public/pages/en-US/hard-coded-biomarker-gates.html 中 17 個硬編碼個體生物標記，逐一審計實際可取得的檢測、以何種價格與時程、屬於哪一個法規層級。確立商用供應鏈其實由藥物代謝型關卡（CYP2C9/VKORC1/CYP2D6/SLCO1B1）主導；該頁建議的最低檢測組合照原文無法採購；並辨識出十項結構性缺口——缺酵素活性檢測、CYP3A5–sirolimus 無指引、無商用 p70S6K1 檢測、微生物代謝型無標準表型、CYP3A5 面板未涵蓋特定等位基因、遺傳諮詢才是真正的瓶頸，以及檢測下游複方藥與補充品的品管風險。",
+          "created": "2026-10-04",
+          "updated": "2026-10-04",
           "tags": [
             "task-output",
-            "mitochondrial-fission",
-            "vitamin-a",
-            "vitamin-e",
-            "drp1",
-            "cardiolipin",
-            "mitophagy",
-            "redox-chemistry"
+            "biomarkers",
+            "pharmacogenomics",
+            "supply-chain",
+            "clinical-laboratory",
+            "metabotypes",
+            "comt",
+            "autophagy",
+            "oxidative-stress"
           ],
-          "filename": "task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026.md",
-          "path": "tasks/zh-TW/task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026.md"
+          "filename": "task_output_biomarker_gate_supply_chain_procurement_04_Oct_2026.md",
+          "path": "tasks/zh-TW/task_output_biomarker_gate_supply_chain_procurement_04_Oct_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_biomarker_gate_supply_chain_procurement_04_Oct_2026.md"
         }
+      },
+      "stats": {
+        "words": 3604,
+        "images": 0,
+        "links": 6,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "task_output_eryptosis_review_vs_cell_death_01_Oct_2026",
+      "langs": {
+        "en-US": {
+          "title": "Eryptosis 2025 — mechanistic update, how it differs from other cell death programs, and review points for cell-death-comparison.html",
+          "description": "Draft summary/outline of Tkachenko et al. 2025 (Cell Death Dis 16:467) focused on eryptosis's distinct signalling, what is new since the 2001-2010 literature, and concrete corrections to the eryptosis row on the cell-death comparison page.",
+          "created": "2026-10-01",
+          "updated": "2026-10-04",
+          "tags": [
+            "cell-death",
+            "eryptosis",
+            "erythrocyte",
+            "calcium-signaling",
+            "ceramide",
+            "eryptosis-nomenclature",
+            "pharmacology"
+          ],
+          "filename": "task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md",
+          "path": "tasks/en-US/task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md"
+        },
+        "zh-TW": {
+          "title": "紅血球凋亡（eryptosis）2025 — 機制更新、與其他細胞死亡程式的差異，以及 cell-death-comparison.html 的審查要點",
+          "description": "Tkachenko 等人 2025（Cell Death Dis 16:467）的摘要大綱草案，聚焦於 eryptosis 獨特的訊號傳遞、相較 2001–2010 年文獻的新進展，以及對細胞死亡比較頁面 eryptosis 列的具體修正建議。",
+          "created": "2026-10-01",
+          "updated": "2026-10-04",
+          "tags": [
+            "cell-death",
+            "eryptosis",
+            "erythrocyte",
+            "calcium-signaling",
+            "ceramide",
+            "eryptosis-nomenclature",
+            "pharmacology"
+          ],
+          "filename": "task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md",
+          "path": "tasks/zh-TW/task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md"
+        }
+      },
+      "stats": {
+        "words": 4569,
+        "images": 7,
+        "links": 5,
+        "diagrams": 1
+      }
+    },
+    {
+      "id": "outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00",
+      "langs": {
+        "en-US": {
+          "title": "Outline - Adrenochrome (MB, AG) Protocol",
+          "description": "Protocol outline optimizing for mitohormesis and autophagy via methylene blue oxidative pulsing and aminoguanidine quinone/AGE control, mapping the MRR, GOPS, and SRAC strategies to compounds, mechanisms, dietary sources, and supporting stack components.",
+          "created": "2026-06-27",
+          "updated": "2026-09-29",
+          "tags": [
+            "outline",
+            "adrenochrome",
+            "mitohormesis",
+            "autophagy",
+            "methylene-blue",
+            "aminoguanidine"
+          ],
+          "filename": "outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md",
+          "path": "tasks/en-US/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md"
+        },
+        "zh-TW": {
+          "title": "大綱 - Adrenochrome (MB, AG) 協定",
+          "description": "協定大綱，透過 methylene blue 氧化脈衝與 aminoguanidine 醌／AGE 控制來最佳化粒線體激效性與自噬，將 MRR、GOPS 與 SRAC 策略對應至化合物、機制、膳食來源與支援性堆疊成分。",
+          "created": "2026-06-27",
+          "updated": "2026-09-22",
+          "tags": [
+            "大綱",
+            "腎上腺素紅",
+            "粒線體毒物興奮作用",
+            "自噬",
+            "亞甲基藍",
+            "氨基胍"
+          ],
+          "filename": "outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md",
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md"
+        }
+      },
+      "stats": {
+        "words": 3799,
+        "images": 0,
+        "links": 39,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026",
+      "langs": {
+        "en-US": {
+          "title": "Research Plan: Adrenochrome as a Sirtuin-Modulating Agent Within the Five-Pillar Longevity Framework",
+          "description": "Research plan proposing that controlled sub-toxic adrenochrome redox cycling generates discrete ROS signals intersecting SIRT1-SIRT7 biology at five mechanistic nodes, positioning adrenochrome derivatives as precision probes of mitochondrial redox state and sirtuin-mediated stress adaptation.",
+          "created": "2026-07-04",
+          "updated": "2026-09-29",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "sirtuins",
+            "redox-signaling",
+            "research-plan"
+          ],
+          "filename": "task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026.md",
+          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026.md"
+        },
+        "zh-TW": {
+          "title": "研究計畫：腎上腺素紅作為五支柱長壽框架內的沉默調節蛋白調節劑",
+          "description": "研究計畫提出，受控的亞毒性腎上腺素紅氧化還原循環會產生離散的 ROS 訊號，在五個機械節點處與 SIRT1-SIRT7 生物學交叉，將腎上腺素紅衍生物定位為粒線體氧化還原狀態和 Sirtuin 介導的壓力適應的精密探針。",
+          "created": "2026-07-04",
+          "updated": "2026-09-22",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "sirtuins",
+            "redox-signaling",
+            "research-plan"
+          ],
+          "filename": "task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026.md",
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026.md"
+        }
+      },
+      "stats": {
+        "words": 3379,
+        "images": 0,
+        "links": 373,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "task_output_biomarker_gate_biology_anatomy_review_29_Sep_2026",
+      "langs": {
+        "en-US": {
+          "title": "Biomarker Gates — Biological and Anatomical Mapping, with Structural Review of the Interactive Page",
+          "description": "Gate-by-gate review of the hard-coded individual biomarkers in web/public/pages/en-US/hard-coded-biomarker-gates.html. For each gate, the biological substrate, the anatomy in which it is expressed and acts, the pathway axis, and the therapeutic class it modifies (senolytic, senomorphic, mitohormetic, redox, pharmacokinetic, dietary). Closes with structural defects found in the page - panel-vs-tracker coverage mismatch, a clinically incorrect class assignment, non-partitioning gate categories, an inverted KL-VS frequency, and undefined anatomy topics the vault does not yet carry.",
+          "created": "2026-09-29",
+          "updated": "2026-09-29",
+          "tags": [
+            "task-output",
+            "biomarkers",
+            "pharmacogenomics",
+            "anatomy",
+            "cell-death",
+            "senescence",
+            "sirtuins",
+            "autophagy",
+            "oxidative-stress",
+            "mitohormesis"
+          ],
+          "filename": "task_output_biomarker_gate_biology_anatomy_review_29_Sep_2026.md",
+          "path": "tasks/en-US/task_output_biomarker_gate_biology_anatomy_review_29_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_biomarker_gate_biology_anatomy_review_29_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "生物標記關卡 — 生物學與解剖學對應，附互動頁面的結構審查",
+          "description": "逐關卡審查 web/public/pages/en-US/hard-coded-biomarker-gates.html 中的硬編碼個體生物標記。每一關卡都說明其生物學基質、該值表現並執行作用所在的解剖構造、路徑軸，以及它所調節的療法類別（衰老溶解、衰老修飾、粒線體激效、氧化還原、藥動力學、飲食）。文末列出在該頁面中發現的結構缺陷——面板與追蹤器涵蓋範圍不一致、一項臨床上錯誤的類別歸屬、無法劃分的關卡類別、方向顛倒的 KL-VS 頻率，以及 vault 尚未承載的未定義解剖主題。",
+          "created": "2026-09-29",
+          "updated": "2026-09-29",
+          "tags": [
+            "task-output",
+            "biomarkers",
+            "pharmacogenomics",
+            "anatomy",
+            "cell-death",
+            "senescence",
+            "sirtuins",
+            "autophagy",
+            "oxidative-stress",
+            "mitohormesis"
+          ],
+          "filename": "task_output_biomarker_gate_biology_anatomy_review_29_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_biomarker_gate_biology_anatomy_review_29_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_biomarker_gate_biology_anatomy_review_29_Sep_2026.md"
+        }
+      },
+      "stats": {
+        "words": 6924,
+        "images": 0,
+        "links": 495,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "_document_ - combo therapy (MRR, SRAC, GOPS) gemini",
+      "langs": {
+        "en-US": {
+          "title": "outline_adrenochrome_combo_therapy_gemini",
+          "description": "Outline of the adrenochrome combination therapy program (MRR mitohormesis, SRAC senotherapeutics, GOPS glyco-oxidative proteostasis), covering each protocol's core agents, mechanisms, and design rationale",
+          "created": "2026-07-21",
+          "updated": "2026-09-29",
+          "tags": [
+            "gemini"
+          ],
+          "filename": "_document_ - combo therapy (MRR, SRAC, GOPS) gemini.md",
+          "path": "tasks/en-US/adrenochrome_mb_ag/_document_%20-%20combo%20therapy%20%28MRR%2C%20SRAC%2C%20GOPS%29%20gemini.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/_document_%20-%20combo%20therapy%20%28MRR%2C%20SRAC%2C%20GOPS%29%20gemini.md"
+        },
+        "zh-TW": {
+          "title": "outline_adrenochrome_combo_therapy_gemini",
+          "description": "腎上腺紅質組合療法計畫大綱（MRR 粒線體激效性、SRAC 衰老治療、GOPS 糖氧化蛋白穩態），涵蓋各協定的核心藥劑、機制與設計原理",
+          "created": "2026-07-21",
+          "updated": "2026-09-22",
+          "tags": [
+            "雙子座"
+          ],
+          "filename": "_document_ - combo therapy (MRR, SRAC, GOPS) gemini.md",
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20combo%20therapy%20%28MRR%2C%20SRAC%2C%20GOPS%29%20gemini.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20combo%20therapy%20%28MRR%2C%20SRAC%2C%20GOPS%29%20gemini.md"
+        }
+      },
+      "stats": {
+        "words": 2547,
+        "images": 0,
+        "links": 160,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "task_output_hardcoded_individual_biomarker_gates_26_Sep_2026",
+      "langs": {
+        "en-US": {
+          "title": "Hard-Coded Individual Biomarker Gates — Overlooked Therapies Hidden by Missing Genotypes",
+          "description": "Compiled inventory of discrete, individually-assigned, largely immutable biomarkers (genotypes, microbial metabotypes, karyotype, loss-of-function alleles) that gate responses to therapies tracked in the vault. Each entry states the discrete values, prevalence, the vault topic it modifies, the therapy that is being missed or actively harmed without the value, and the evidence strength. Includes the three biomarkers already modelled in the vault (COMT Val158Met, urolithin metabotype A/B/0, XX/XY) and ~25 candidates absent from the vault, plus a recommended minimum panel and a tiered evidence rubric.",
+          "created": "2026-09-26",
+          "updated": "2026-09-26",
+          "tags": [
+            "task-output",
+            "biomarkers",
+            "pharmacogenomics",
+            "precision-medicine",
+            "metabotypes",
+            "hormesis",
+            "comt",
+            "sirtuins",
+            "autophagy",
+            "oxidative-stress",
+            "senescence"
+          ],
+          "filename": "task_output_hardcoded_individual_biomarker_gates_26_Sep_2026.md",
+          "path": "tasks/en-US/task_output_hardcoded_individual_biomarker_gates_26_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_hardcoded_individual_biomarker_gates_26_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "硬編碼的個體生物標記關卡 — 被缺失基因型掩蓋的、遭忽視的療法",
+          "description": "彙整那些離散、個體指派且大致不可變的生物標記（基因型、微生物代謝型、核型、功能缺失等位基因），它們決定了 vault 中追蹤的各項療法的反應。每筆條目陳述其離散取值、盛行率、所調節的 vault 主題、缺少該值時被錯失或反而受害的療法，以及證據強度。包含 vault 中已建模的三個生物標記（COMT Val158Met、尿石素代謝型 A/B/0、XX/XY）與約 25 個 vault 中缺席的候選，另附建議的最小檢測組合與分級證據評分準則。",
+          "created": "2026-09-26",
+          "updated": "2026-09-26",
+          "tags": [
+            "task-output",
+            "biomarkers",
+            "pharmacogenomics",
+            "precision-medicine",
+            "metabotypes",
+            "hormesis",
+            "comt",
+            "sirtuins",
+            "autophagy",
+            "oxidative-stress",
+            "senescence"
+          ],
+          "filename": "task_output_hardcoded_individual_biomarker_gates_26_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_hardcoded_individual_biomarker_gates_26_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_hardcoded_individual_biomarker_gates_26_Sep_2026.md"
+        }
+      },
+      "stats": {
+        "words": 6746,
+        "images": 0,
+        "links": 236,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "task_output_anti_ferroptosis_intake_schedule_26_Sep_2026",
+      "langs": {
+        "en-US": {
+          "title": "Anti-Ferroptosis Intake Schedule: Vitamin E, Vitamin A, and Red Palm Oil",
+          "description": "Wiki-coverage assessment of the Vitamin E / Tocopherols / Tocotrienols / Alpha-tocopherol / Lipid Peroxidation / Ferroptosis page cluster, identification of the missing Vitamin A and Red Palm Oil entities, and a practical food-first daily ingestion schedule designed to keep the radical-trapping antioxidant tier topped up without blunting mitohormesis.",
+          "created": "2026-09-26",
+          "updated": "2026-09-26",
+          "tags": [
+            "task-output",
+            "ferroptosis",
+            "lipid-peroxidation",
+            "vitamin-e",
+            "vitamin-a",
+            "tocotrienols",
+            "red-palm-oil",
+            "schedule"
+          ],
+          "filename": "task_output_anti_ferroptosis_intake_schedule_26_Sep_2026.md",
+          "path": "tasks/en-US/task_output_anti_ferroptosis_intake_schedule_26_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_anti_ferroptosis_intake_schedule_26_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "抗鐵死亡攝取時程：維生素 E、維生素 A 與紅棕櫚油",
+          "description": "對維生素 E／生育酚／生育三烯酚／α-生育酚／脂質過氧化／鐵死亡頁面群的 wiki 覆蓋評估、辨識出缺漏的維生素 A 與紅棕櫚油實體，以及一份以食物為先的實用每日攝取時程，設計目標是在不鈍化粒線體激效作用的前提下補滿自由基捕捉型抗氧化層。",
+          "created": "2026-09-26",
+          "updated": "2026-09-26",
+          "tags": [
+            "task-output",
+            "ferroptosis",
+            "lipid-peroxidation",
+            "vitamin-e",
+            "vitamin-a",
+            "tocotrienols",
+            "red-palm-oil",
+            "schedule"
+          ],
+          "filename": "task_output_anti_ferroptosis_intake_schedule_26_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_anti_ferroptosis_intake_schedule_26_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_anti_ferroptosis_intake_schedule_26_Sep_2026.md"
+        }
+      },
+      "stats": {
+        "words": 1524,
+        "images": 0,
+        "links": 36,
+        "diagrams": 0
       }
     },
     {
@@ -84,7 +421,8 @@
             "redox-chemistry"
           ],
           "filename": "task_output_lipid_peroxidation_vitamin_e_cluster_24_Sep_2026.md",
-          "path": "tasks/en-US/task_output_lipid_peroxidation_vitamin_e_cluster_24_Sep_2026.md"
+          "path": "tasks/en-US/task_output_lipid_peroxidation_vitamin_e_cluster_24_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_lipid_peroxidation_vitamin_e_cluster_24_Sep_2026.md"
         },
         "zh-TW": {
           "title": "脂質過氧化與抗壞血酸–生育醇接力：膜抗氧化網絡的生物化學",
@@ -102,8 +440,64 @@
             "redox-chemistry"
           ],
           "filename": "task_output_lipid_peroxidation_vitamin_e_cluster_24_Sep_2026.md",
-          "path": "tasks/zh-TW/task_output_lipid_peroxidation_vitamin_e_cluster_24_Sep_2026.md"
+          "path": "tasks/zh-TW/task_output_lipid_peroxidation_vitamin_e_cluster_24_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_lipid_peroxidation_vitamin_e_cluster_24_Sep_2026.md"
         }
+      },
+      "stats": {
+        "words": 3489,
+        "images": 0,
+        "links": 177,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026",
+      "langs": {
+        "en-US": {
+          "title": "Mitochondrial Fission and the Fat-Soluble Vitamins: How Vitamins A and E Set the Fission–Fusion Balance",
+          "description": "Task output covering the Drp1 fission machinery and its redox/lipid control points, where vitamin E sits in the outer mitochondrial membrane and how it defends cardiolipin and Drp1 from peroxidation-driven hyperfragmentation, and the dual-edged role of vitamin A — retinol as a PKCδ/OXPHOS cofactor versus all-trans retinoic acid as an inducer of Drp1 and fission.",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "task-output",
+            "mitochondrial-fission",
+            "vitamin-a",
+            "vitamin-e",
+            "drp1",
+            "cardiolipin",
+            "mitophagy",
+            "redox-chemistry"
+          ],
+          "filename": "task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026.md",
+          "path": "tasks/en-US/task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "粒線體分裂與脂溶性維生素：維生素 A 與 E 如何設定分裂–融合平衡",
+          "description": "任務輸出，涵蓋 DRP1 分裂機器與其氧化還原／脂質控制點、維生素 E 在粒線體外膜中的定位及其對心磷脂與 DRP1 的防護（避免過氧化驅動的過度分裂），以及維生素 A 的雙重角色——視黃醇作為 PKCδ/OXPHOS 輔因子，相對於全反式視黃酸誘導 DRP1 與分裂。",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "task-output",
+            "mitochondrial-fission",
+            "vitamin-a",
+            "vitamin-e",
+            "drp1",
+            "cardiolipin",
+            "mitophagy",
+            "redox-chemistry"
+          ],
+          "filename": "task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_mitochondrial_fission_vitamin_a_e_24_Sep_2026.md"
+        }
+      },
+      "stats": {
+        "words": 2840,
+        "images": 0,
+        "links": 69,
+        "diagrams": 0
       }
     },
     {
@@ -125,7 +519,8 @@
             "supplementation"
           ],
           "filename": "task_output_comt_vitamin_e_genotype_gate_24_Sep_2026.md",
-          "path": "tasks/en-US/task_output_comt_vitamin_e_genotype_gate_24_Sep_2026.md"
+          "path": "tasks/en-US/task_output_comt_vitamin_e_genotype_gate_24_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_comt_vitamin_e_genotype_gate_24_Sep_2026.md"
         },
         "zh-TW": {
           "title": "COMT Val158Met 基因型關卡 — α-生育醇補充與癌症風險",
@@ -143,8 +538,15 @@
             "supplementation"
           ],
           "filename": "task_output_comt_vitamin_e_genotype_gate_24_Sep_2026.md",
-          "path": "tasks/zh-TW/task_output_comt_vitamin_e_genotype_gate_24_Sep_2026.md"
+          "path": "tasks/zh-TW/task_output_comt_vitamin_e_genotype_gate_24_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_comt_vitamin_e_genotype_gate_24_Sep_2026.md"
         }
+      },
+      "stats": {
+        "words": 1087,
+        "images": 0,
+        "links": 28,
+        "diagrams": 0
       }
     },
     {
@@ -168,7 +570,8 @@
             "vitamin-e"
           ],
           "filename": "task_output_queen_palm_biochemical_nutrients_23_Sep_2026.md",
-          "path": "tasks/en-US/task_output_queen_palm_biochemical_nutrients_23_Sep_2026.md"
+          "path": "tasks/en-US/task_output_queen_palm_biochemical_nutrients_23_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_queen_palm_biochemical_nutrients_23_Sep_2026.md"
         },
         "zh-TW": {
           "title": "皇后棕（Syagrus romanzoffiana）— 生化營養素、可食性、健康益處與脂質過氧化排序",
@@ -188,8 +591,15 @@
             "vitamin-e"
           ],
           "filename": "task_output_queen_palm_biochemical_nutrients_23_Sep_2026.md",
-          "path": "tasks/zh-TW/task_output_queen_palm_biochemical_nutrients_23_Sep_2026.md"
+          "path": "tasks/zh-TW/task_output_queen_palm_biochemical_nutrients_23_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_queen_palm_biochemical_nutrients_23_Sep_2026.md"
         }
+      },
+      "stats": {
+        "words": 4547,
+        "images": 8,
+        "links": 38,
+        "diagrams": 0
       }
     },
     {
@@ -212,7 +622,8 @@
             "drug-discovery"
           ],
           "filename": "task_output_sirt1_sirt3_pace_kinetic_modulators_23_Sep_2026.md",
-          "path": "tasks/en-US/task_output_sirt1_sirt3_pace_kinetic_modulators_23_Sep_2026.md"
+          "path": "tasks/en-US/task_output_sirt1_sirt3_pace_kinetic_modulators_23_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_sirt1_sirt3_pace_kinetic_modulators_23_Sep_2026.md"
         },
         "zh-TW": {
           "title": "SIRT1/SIRT3 步調與動力學調節劑 — 設定反應速度的療法（非古典開／關）",
@@ -231,8 +642,15 @@
             "drug-discovery"
           ],
           "filename": "task_output_sirt1_sirt3_pace_kinetic_modulators_23_Sep_2026.md",
-          "path": "tasks/zh-TW/task_output_sirt1_sirt3_pace_kinetic_modulators_23_Sep_2026.md"
+          "path": "tasks/zh-TW/task_output_sirt1_sirt3_pace_kinetic_modulators_23_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_sirt1_sirt3_pace_kinetic_modulators_23_Sep_2026.md"
         }
+      },
+      "stats": {
+        "words": 1140,
+        "images": 0,
+        "links": 28,
+        "diagrams": 0
       }
     },
     {
@@ -257,7 +675,8 @@
             "cell-death"
           ],
           "filename": "task_output_caspases_kinases_sirtuins_comparison_cell_death_22_Sep_2026.md",
-          "path": "tasks/en-US/task_output_caspases_kinases_sirtuins_comparison_cell_death_22_Sep_2026.md"
+          "path": "tasks/en-US/task_output_caspases_kinases_sirtuins_comparison_cell_death_22_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_caspases_kinases_sirtuins_comparison_cell_death_22_Sep_2026.md"
         },
         "zh-TW": {
           "title": "Caspases vs Kinases vs Sirtuins — 酶超家族比較",
@@ -278,8 +697,15 @@
             "cell-death"
           ],
           "filename": "task_output_caspases_kinases_sirtuins_comparison_cell_death_22_Sep_2026.md",
-          "path": "tasks/zh-TW/task_output_caspases_kinases_sirtuins_comparison_cell_death_22_Sep_2026.md"
+          "path": "tasks/zh-TW/task_output_caspases_kinases_sirtuins_comparison_cell_death_22_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_caspases_kinases_sirtuins_comparison_cell_death_22_Sep_2026.md"
         }
+      },
+      "stats": {
+        "words": 1536,
+        "images": 0,
+        "links": 27,
+        "diagrams": 0
       }
     },
     {
@@ -301,7 +727,8 @@
             "regeneration"
           ],
           "filename": "task_output_turnover_rate_tradeoffs_22_Sep_2026.md",
-          "path": "tasks/en-US/task_output_turnover_rate_tradeoffs_22_Sep_2026.md"
+          "path": "tasks/en-US/task_output_turnover_rate_tradeoffs_22_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_turnover_rate_tradeoffs_22_Sep_2026.md"
         },
         "zh-TW": {
           "title": "細胞週轉率的權衡 — 較高與較低週轉的後果",
@@ -319,8 +746,15 @@
             "regeneration"
           ],
           "filename": "task_output_turnover_rate_tradeoffs_22_Sep_2026.md",
-          "path": "tasks/zh-TW/task_output_turnover_rate_tradeoffs_22_Sep_2026.md"
+          "path": "tasks/zh-TW/task_output_turnover_rate_tradeoffs_22_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_turnover_rate_tradeoffs_22_Sep_2026.md"
         }
+      },
+      "stats": {
+        "words": 446,
+        "images": 0,
+        "links": 3,
+        "diagrams": 0
       }
     },
     {
@@ -340,7 +774,8 @@
             "knowledge-graph"
           ],
           "filename": "task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md",
-          "path": "tasks/en-US/node_network_adrenochrome_sirtuins_20_AUG_2026/task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md"
+          "path": "tasks/en-US/node_network_adrenochrome_sirtuins_20_AUG_2026/task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_adrenochrome_sirtuins_20_AUG_2026/task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md"
         },
         "zh-TW": {
           "title": "研究設計 — 單一損傷節點，三套防禦程式：Adrenochrome ↔ Mitohormesis / Autophagy / Sirtuins",
@@ -356,8 +791,15 @@
             "knowledge-graph"
           ],
           "filename": "task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md",
-          "path": "tasks/zh-TW/node_network_adrenochrome_sirtuins_20_AUG_2026/task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md"
+          "path": "tasks/zh-TW/node_network_adrenochrome_sirtuins_20_AUG_2026/task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/node_network_adrenochrome_sirtuins_20_AUG_2026/task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md"
         }
+      },
+      "stats": {
+        "words": 3669,
+        "images": 0,
+        "links": 20,
+        "diagrams": 0
       }
     },
     {
@@ -376,7 +818,8 @@
             "network-analysis"
           ],
           "filename": "task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md",
-          "path": "tasks/en-US/node_network_adrenochrome_24_AUG_2026/task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md"
+          "path": "tasks/en-US/node_network_adrenochrome_24_AUG_2026/task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_adrenochrome_24_AUG_2026/task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md"
         },
         "zh-TW": {
           "title": "腎上腺素紅協定網路追蹤，第三輪 — 三元組修復",
@@ -391,8 +834,15 @@
             "network-analysis"
           ],
           "filename": "task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md",
-          "path": "tasks/zh-TW/node_network_adrenochrome_24_AUG_2026/task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md"
+          "path": "tasks/zh-TW/node_network_adrenochrome_24_AUG_2026/task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/node_network_adrenochrome_24_AUG_2026/task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md"
         }
+      },
+      "stats": {
+        "words": 1052,
+        "images": 0,
+        "links": 0,
+        "diagrams": 0
       }
     },
     {
@@ -411,7 +861,8 @@
             "network-analysis"
           ],
           "filename": "task_output_adrenochrome_protocol_traces_round2_21_AUG_2026.md",
-          "path": "tasks/en-US/node_network_adrenochrome_21_AUG_2026/task_output_adrenochrome_protocol_traces_round2_21_AUG_2026.md"
+          "path": "tasks/en-US/node_network_adrenochrome_21_AUG_2026/task_output_adrenochrome_protocol_traces_round2_21_AUG_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_adrenochrome_21_AUG_2026/task_output_adrenochrome_protocol_traces_round2_21_AUG_2026.md"
         },
         "zh-TW": {
           "title": "腎上腺色素協定網路追蹤，第二輪",
@@ -426,8 +877,15 @@
             "network-analysis"
           ],
           "filename": "task_output_adrenochrome_protocol_traces_round2_21_AUG_2026.md",
-          "path": "tasks/zh-TW/node_network_adrenochrome_21_AUG_2026/task_output_adrenochrome_protocol_traces_round2_21_AUG_2026.md"
+          "path": "tasks/zh-TW/node_network_adrenochrome_21_AUG_2026/task_output_adrenochrome_protocol_traces_round2_21_AUG_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/node_network_adrenochrome_21_AUG_2026/task_output_adrenochrome_protocol_traces_round2_21_AUG_2026.md"
         }
+      },
+      "stats": {
+        "words": 1339,
+        "images": 0,
+        "links": 2,
+        "diagrams": 0
       }
     },
     {
@@ -447,7 +905,8 @@
             "network-analysis"
           ],
           "filename": "task_output_adrenochrome_protocol_traces_20_AUG_2026.md",
-          "path": "tasks/en-US/node_network_adrenochrome_20_AUG_2026/task_output_adrenochrome_protocol_traces_20_AUG_2026.md"
+          "path": "tasks/en-US/node_network_adrenochrome_20_AUG_2026/task_output_adrenochrome_protocol_traces_20_AUG_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_adrenochrome_20_AUG_2026/task_output_adrenochrome_protocol_traces_20_AUG_2026.md"
         },
         "zh-TW": {
           "title": "腎上腺色素協定網路追蹤（MB + AG + 堆疊）",
@@ -463,8 +922,15 @@
             "network-analysis"
           ],
           "filename": "task_output_adrenochrome_protocol_traces_20_AUG_2026.md",
-          "path": "tasks/zh-TW/node_network_adrenochrome_20_AUG_2026/task_output_adrenochrome_protocol_traces_20_AUG_2026.md"
+          "path": "tasks/zh-TW/node_network_adrenochrome_20_AUG_2026/task_output_adrenochrome_protocol_traces_20_AUG_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/node_network_adrenochrome_20_AUG_2026/task_output_adrenochrome_protocol_traces_20_AUG_2026.md"
         }
+      },
+      "stats": {
+        "words": 1011,
+        "images": 0,
+        "links": 0,
+        "diagrams": 0
       }
     },
     {
@@ -484,7 +950,8 @@
             "mevalonate-pathway"
           ],
           "filename": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
-          "path": "tasks/en-US/fsp1_ferroptosis_axis/task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md"
+          "path": "tasks/en-US/fsp1_ferroptosis_axis/task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/fsp1_ferroptosis_axis/task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md"
         },
         "zh-TW": {
           "title": "FSP1–CoQ10–NAD(P)H 鐵死亡軸（深度剖析）",
@@ -500,8 +967,15 @@
             "mevalonate-pathway"
           ],
           "filename": "task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
-          "path": "tasks/zh-TW/fsp1_ferroptosis_axis/task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md"
+          "path": "tasks/zh-TW/fsp1_ferroptosis_axis/task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/fsp1_ferroptosis_axis/task_output_fsp1_coq10_nadph_ferroptosis_axis_24_August_2026.md"
         }
+      },
+      "stats": {
+        "words": 1381,
+        "images": 0,
+        "links": 52,
+        "diagrams": 0
       }
     },
     {
@@ -518,7 +992,8 @@
             "proteostasis"
           ],
           "filename": "_document_ - GOPS - glyco-oxidative proteostasis.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/_document_%20-%20GOPS%20-%20glyco-oxidative%20proteostasis.md"
+          "path": "tasks/en-US/adrenochrome_mb_ag/_document_%20-%20GOPS%20-%20glyco-oxidative%20proteostasis.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/_document_%20-%20GOPS%20-%20glyco-oxidative%20proteostasis.md"
         },
         "zh-TW": {
           "title": "GOPS - 糖氧化蛋白穩態防護盾",
@@ -531,8 +1006,15 @@
             "proteostasis"
           ],
           "filename": "_document_ - GOPS - glyco-oxidative proteostasis.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20GOPS%20-%20glyco-oxidative%20proteostasis.md"
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20GOPS%20-%20glyco-oxidative%20proteostasis.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20GOPS%20-%20glyco-oxidative%20proteostasis.md"
         }
+      },
+      "stats": {
+        "words": 3068,
+        "images": 0,
+        "links": 52,
+        "diagrams": 0
       }
     },
     {
@@ -550,7 +1032,8 @@
             "methylene-blue"
           ],
           "filename": "_document_ - MB, AG nitric oxide pathway signaling.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/_document_%20-%20MB%2C%20AG%20nitric%20oxide%20pathway%20signaling.md"
+          "path": "tasks/en-US/adrenochrome_mb_ag/_document_%20-%20MB%2C%20AG%20nitric%20oxide%20pathway%20signaling.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/_document_%20-%20MB%2C%20AG%20nitric%20oxide%20pathway%20signaling.md"
         },
         "zh-TW": {
           "title": "一氧化氮路徑抑制劑 - Aminoguanidine 與 Methylene Blue",
@@ -564,8 +1047,15 @@
             "methylene-blue"
           ],
           "filename": "_document_ - MB, AG nitric oxide pathway signaling.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20MB%2C%20AG%20nitric%20oxide%20pathway%20signaling.md"
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20MB%2C%20AG%20nitric%20oxide%20pathway%20signaling.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20MB%2C%20AG%20nitric%20oxide%20pathway%20signaling.md"
         }
+      },
+      "stats": {
+        "words": 913,
+        "images": 0,
+        "links": 82,
+        "diagrams": 0
       }
     },
     {
@@ -582,7 +1072,8 @@
             "mitochondria"
           ],
           "filename": "_document_ - MRR - mitohormesis, MB, NAD.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/_document_%20-%20MRR%20-%20mitohormesis%2C%20MB%2C%20NAD.md"
+          "path": "tasks/en-US/adrenochrome_mb_ag/_document_%20-%20MRR%20-%20mitohormesis%2C%20MB%2C%20NAD.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/_document_%20-%20MRR%20-%20mitohormesis%2C%20MB%2C%20NAD.md"
         },
         "zh-TW": {
           "title": "MRR - 粒線體激效性氧化還原中繼協定（Carbazochrome、MB、NAD）",
@@ -595,8 +1086,15 @@
             "mitochondria"
           ],
           "filename": "_document_ - MRR - mitohormesis, MB, NAD.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20MRR%20-%20mitohormesis%2C%20MB%2C%20NAD.md"
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20MRR%20-%20mitohormesis%2C%20MB%2C%20NAD.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20MRR%20-%20mitohormesis%2C%20MB%2C%20NAD.md"
         }
+      },
+      "stats": {
+        "words": 1476,
+        "images": 0,
+        "links": 45,
+        "diagrams": 0
       }
     },
     {
@@ -613,7 +1111,8 @@
             "inflammaging"
           ],
           "filename": "_document_ - SRAC - senescent, ligand-conjugated.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/_document_%20-%20SRAC%20-%20senescent%2C%20ligand-conjugated.md"
+          "path": "tasks/en-US/adrenochrome_mb_ag/_document_%20-%20SRAC%20-%20senescent%2C%20ligand-conjugated.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/_document_%20-%20SRAC%20-%20senescent%2C%20ligand-conjugated.md"
         },
         "zh-TW": {
           "title": "SRAC - SASP-重塑 Aminochrome 複合物（原始奈米顆粒配方）",
@@ -626,72 +1125,15 @@
             "發炎"
           ],
           "filename": "_document_ - SRAC - senescent, ligand-conjugated.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20SRAC%20-%20senescent%2C%20ligand-conjugated.md"
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20SRAC%20-%20senescent%2C%20ligand-conjugated.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20SRAC%20-%20senescent%2C%20ligand-conjugated.md"
         }
-      }
-    },
-    {
-      "id": "_document_ - combo therapy (MRR, SRAC, GOPS) gemini",
-      "langs": {
-        "en-US": {
-          "title": "outline_adrenochrome_combo_therapy_gemini",
-          "description": "Outline of the adrenochrome combination therapy program (MRR mitohormesis, SRAC senotherapeutics, GOPS glyco-oxidative proteostasis), covering each protocol's core agents, mechanisms, and design rationale",
-          "created": "2026-07-21",
-          "updated": "2026-08-23",
-          "tags": [
-            "gemini"
-          ],
-          "filename": "_document_ - combo therapy (MRR, SRAC, GOPS) gemini.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/_document_%20-%20combo%20therapy%20%28MRR%2C%20SRAC%2C%20GOPS%29%20gemini.md"
-        },
-        "zh-TW": {
-          "title": "outline_adrenochrome_combo_therapy_gemini",
-          "description": "腎上腺紅質組合療法計畫大綱（MRR 粒線體激效性、SRAC 衰老治療、GOPS 糖氧化蛋白穩態），涵蓋各協定的核心藥劑、機制與設計原理",
-          "created": "2026-07-21",
-          "updated": "2026-09-22",
-          "tags": [
-            "雙子座"
-          ],
-          "filename": "_document_ - combo therapy (MRR, SRAC, GOPS) gemini.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20combo%20therapy%20%28MRR%2C%20SRAC%2C%20GOPS%29%20gemini.md"
-        }
-      }
-    },
-    {
-      "id": "outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00",
-      "langs": {
-        "en-US": {
-          "title": "Outline - Adrenochrome (MB, AG) Protocol",
-          "description": "Protocol outline optimizing for mitohormesis and autophagy via methylene blue oxidative pulsing and aminoguanidine quinone/AGE control, mapping the MRR, GOPS, and SRAC strategies to compounds, mechanisms, dietary sources, and supporting stack components.",
-          "created": "2026-06-27",
-          "updated": "2026-08-23",
-          "tags": [
-            "outline",
-            "adrenochrome",
-            "mitohormesis",
-            "autophagy",
-            "methylene-blue",
-            "aminoguanidine"
-          ],
-          "filename": "outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md"
-        },
-        "zh-TW": {
-          "title": "大綱 - Adrenochrome (MB, AG) 協定",
-          "description": "協定大綱，透過 methylene blue 氧化脈衝與 aminoguanidine 醌／AGE 控制來最佳化粒線體激效性與自噬，將 MRR、GOPS 與 SRAC 策略對應至化合物、機制、膳食來源與支援性堆疊成分。",
-          "created": "2026-06-27",
-          "updated": "2026-09-22",
-          "tags": [
-            "大綱",
-            "腎上腺素紅",
-            "粒線體毒物興奮作用",
-            "自噬",
-            "亞甲基藍",
-            "氨基胍"
-          ],
-          "filename": "outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md"
-        }
+      },
+      "stats": {
+        "words": 3023,
+        "images": 0,
+        "links": 54,
+        "diagrams": 0
       }
     },
     {
@@ -710,7 +1152,8 @@
             "carbazochrome"
           ],
           "filename": "task_output_SRAC_revision_log_08_JULY_2026.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_SRAC_revision_log_08_JULY_2026.md"
+          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_SRAC_revision_log_08_JULY_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_SRAC_revision_log_08_JULY_2026.md"
         },
         "zh-TW": {
           "title": "SRAC 協定修訂日誌",
@@ -725,8 +1168,15 @@
             "carbazochrome"
           ],
           "filename": "task_output_SRAC_revision_log_08_JULY_2026.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_SRAC_revision_log_08_JULY_2026.md"
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_SRAC_revision_log_08_JULY_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/task_output_SRAC_revision_log_08_JULY_2026.md"
         }
+      },
+      "stats": {
+        "words": 1484,
+        "images": 0,
+        "links": 0,
+        "diagrams": 0
       }
     },
     {
@@ -745,7 +1195,8 @@
             "methemoglobinemia"
           ],
           "filename": "task_output_adrenochrome_gap_analysis_09_JUL_2026.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_adrenochrome_gap_analysis_09_JUL_2026.md"
+          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_adrenochrome_gap_analysis_09_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_gap_analysis_09_JUL_2026.md"
         },
         "zh-TW": {
           "title": "差距分析 - _triples.json vs. 任務文件（Adrenochrome）",
@@ -760,8 +1211,15 @@
             "methemoglobinemia"
           ],
           "filename": "task_output_adrenochrome_gap_analysis_09_JUL_2026.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_gap_analysis_09_JUL_2026.md"
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_gap_analysis_09_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_gap_analysis_09_JUL_2026.md"
         }
+      },
+      "stats": {
+        "words": 1527,
+        "images": 0,
+        "links": 0,
+        "diagrams": 0
       }
     },
     {
@@ -779,7 +1237,8 @@
             "redox-cycling"
           ],
           "filename": "task_output_adrenochrome_neutrophil_protocol_25_May_2026.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_protocol_25_May_2026.md"
+          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_protocol_25_May_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_protocol_25_May_2026.md"
         },
         "zh-TW": {
           "title": "人類腎上腺素紅補充的分析和方案（假設）",
@@ -793,8 +1252,15 @@
             "redox-cycling"
           ],
           "filename": "task_output_adrenochrome_neutrophil_protocol_25_May_2026.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_protocol_25_May_2026.md"
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_protocol_25_May_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_protocol_25_May_2026.md"
         }
+      },
+      "stats": {
+        "words": 785,
+        "images": 0,
+        "links": 97,
+        "diagrams": 0
       }
     },
     {
@@ -813,7 +1279,8 @@
             "reactive-oxygen-species"
           ],
           "filename": "task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md"
+          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md"
         },
         "zh-TW": {
           "title": "嗜中性球介導之腎上腺素紅合成方案（假設性）",
@@ -828,8 +1295,15 @@
             "reactive-oxygen-species"
           ],
           "filename": "task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md"
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md"
         }
+      },
+      "stats": {
+        "words": 519,
+        "images": 0,
+        "links": 59,
+        "diagrams": 0
       }
     },
     {
@@ -847,7 +1321,8 @@
             "cost-analysis"
           ],
           "filename": "task_output_adrenochrome_price_estimates_13_JUL_2026.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_adrenochrome_price_estimates_13_JUL_2026.md"
+          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_adrenochrome_price_estimates_13_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_price_estimates_13_JUL_2026.md"
         },
         "zh-TW": {
           "title": "供應商與價格估算 — 腎上腺素色素（MB, AG）方案",
@@ -861,8 +1336,15 @@
             "cost-analysis"
           ],
           "filename": "task_output_adrenochrome_price_estimates_13_JUL_2026.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_price_estimates_13_JUL_2026.md"
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_price_estimates_13_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_price_estimates_13_JUL_2026.md"
         }
+      },
+      "stats": {
+        "words": 771,
+        "images": 0,
+        "links": 11,
+        "diagrams": 0
       }
     },
     {
@@ -882,7 +1364,8 @@
             "feasibility-assessment"
           ],
           "filename": "task_output_pharmacologist_feasibility_16_JUN_2026.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_pharmacologist_feasibility_16_JUN_2026.md"
+          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_pharmacologist_feasibility_16_JUN_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_pharmacologist_feasibility_16_JUN_2026.md"
         },
         "zh-TW": {
           "title": "藥理學分析 — 腎上腺色素複方療法",
@@ -898,43 +1381,15 @@
             "feasibility-assessment"
           ],
           "filename": "task_output_pharmacologist_feasibility_16_JUN_2026.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_pharmacologist_feasibility_16_JUN_2026.md"
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_pharmacologist_feasibility_16_JUN_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/task_output_pharmacologist_feasibility_16_JUN_2026.md"
         }
-      }
-    },
-    {
-      "id": "task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026",
-      "langs": {
-        "en-US": {
-          "title": "Research Plan: Adrenochrome as a Sirtuin-Modulating Agent Within the Five-Pillar Longevity Framework",
-          "description": "Research plan proposing that controlled sub-toxic adrenochrome redox cycling generates discrete ROS signals intersecting SIRT1-SIRT7 biology at five mechanistic nodes, positioning adrenochrome derivatives as precision probes of mitochondrial redox state and sirtuin-mediated stress adaptation.",
-          "created": "2026-07-04",
-          "updated": "2026-08-23",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "sirtuins",
-            "redox-signaling",
-            "research-plan"
-          ],
-          "filename": "task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026.md"
-        },
-        "zh-TW": {
-          "title": "研究計畫：腎上腺素紅作為五支柱長壽框架內的沉默調節蛋白調節劑",
-          "description": "研究計畫提出，受控的亞毒性腎上腺素紅氧化還原循環會產生離散的 ROS 訊號，在五個機械節點處與 SIRT1-SIRT7 生物學交叉，將腎上腺素紅衍生物定位為粒線體氧化還原狀態和 Sirtuin 介導的壓力適應的精密探針。",
-          "created": "2026-07-04",
-          "updated": "2026-09-22",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "sirtuins",
-            "redox-signaling",
-            "research-plan"
-          ],
-          "filename": "task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026.md"
-        }
+      },
+      "stats": {
+        "words": 1486,
+        "images": 0,
+        "links": 14,
+        "diagrams": 0
       }
     },
     {
@@ -953,7 +1408,8 @@
             "microrna"
           ],
           "filename": "task_output_trace_adrenochrome_inflammaging_16_JUL_2026-00.md",
-          "path": "tasks/en-US/adrenchrome_inflammaging/task_output_trace_adrenochrome_inflammaging_16_JUL_2026-00.md"
+          "path": "tasks/en-US/adrenchrome_inflammaging/task_output_trace_adrenochrome_inflammaging_16_JUL_2026-00.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenchrome_inflammaging/task_output_trace_adrenochrome_inflammaging_16_JUL_2026-00.md"
         },
         "zh-TW": {
           "title": "Adrenochrome → Inflammaging Trace",
@@ -968,8 +1424,15 @@
             "microrna"
           ],
           "filename": "task_output_trace_adrenochrome_inflammaging_16_JUL_2026-00.md",
-          "path": "tasks/zh-TW/adrenchrome_inflammaging/task_output_trace_adrenochrome_inflammaging_16_JUL_2026-00.md"
+          "path": "tasks/zh-TW/adrenchrome_inflammaging/task_output_trace_adrenochrome_inflammaging_16_JUL_2026-00.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenchrome_inflammaging/task_output_trace_adrenochrome_inflammaging_16_JUL_2026-00.md"
         }
+      },
+      "stats": {
+        "words": 494,
+        "images": 0,
+        "links": 0,
+        "diagrams": 0
       }
     },
     {
@@ -987,7 +1450,8 @@
             "stem-cells"
           ],
           "filename": "_document_ - DGCR8 is essential for microRNA biogenesis and silencing of embryonic stem cell self-renewal.md",
-          "path": "tasks/en-US/adrenchrome_inflammaging/_document_%20-%20DGCR8%20is%20essential%20for%20microRNA%20biogenesis%20and%20silencing%20of%20embryonic%20stem%20cell%20self-renewal.md"
+          "path": "tasks/en-US/adrenchrome_inflammaging/_document_%20-%20DGCR8%20is%20essential%20for%20microRNA%20biogenesis%20and%20silencing%20of%20embryonic%20stem%20cell%20self-renewal.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenchrome_inflammaging/_document_%20-%20DGCR8%20is%20essential%20for%20microRNA%20biogenesis%20and%20silencing%20of%20embryonic%20stem%20cell%20self-renewal.md"
         },
         "zh-TW": {
           "title": "DGCR8 對微小 RNA 生成及胚胎幹細胞自我更新沉默至關重要",
@@ -1001,8 +1465,15 @@
             "stem-cells"
           ],
           "filename": "_document_ - DGCR8 is essential for microRNA biogenesis and silencing of embryonic stem cell self-renewal.md",
-          "path": "tasks/zh-TW/adrenchrome_inflammaging/_document_%20-%20DGCR8%20is%20essential%20for%20microRNA%20biogenesis%20and%20silencing%20of%20embryonic%20stem%20cell%20self-renewal.md"
+          "path": "tasks/zh-TW/adrenchrome_inflammaging/_document_%20-%20DGCR8%20is%20essential%20for%20microRNA%20biogenesis%20and%20silencing%20of%20embryonic%20stem%20cell%20self-renewal.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenchrome_inflammaging/_document_%20-%20DGCR8%20is%20essential%20for%20microRNA%20biogenesis%20and%20silencing%20of%20embryonic%20stem%20cell%20self-renewal.md"
         }
+      },
+      "stats": {
+        "words": 2470,
+        "images": 0,
+        "links": 117,
+        "diagrams": 0
       }
     },
     {
@@ -1020,7 +1491,8 @@
             "innate-immunity"
           ],
           "filename": "_document_ - DROSHA-Dependent AIM2 Inflammasome Activation Contributes to Lung Inflammation during Idiopathic Pulmonary Fibrosis.md",
-          "path": "tasks/en-US/adrenchrome_inflammaging/_document_%20-%20DROSHA-Dependent%20AIM2%20Inflammasome%20Activation%20Contributes%20to%20Lung%20Inflammation%20during%20Idiopathic%20Pulmonary%20Fibrosis.md"
+          "path": "tasks/en-US/adrenchrome_inflammaging/_document_%20-%20DROSHA-Dependent%20AIM2%20Inflammasome%20Activation%20Contributes%20to%20Lung%20Inflammation%20during%20Idiopathic%20Pulmonary%20Fibrosis.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenchrome_inflammaging/_document_%20-%20DROSHA-Dependent%20AIM2%20Inflammasome%20Activation%20Contributes%20to%20Lung%20Inflammation%20during%20Idiopathic%20Pulmonary%20Fibrosis.md"
         },
         "zh-TW": {
           "title": "DROSHA 依賴性 AIM2 發炎體活化參與特發性肺纖維化期間的肺部發炎",
@@ -1034,8 +1506,15 @@
             "innate-immunity"
           ],
           "filename": "_document_ - DROSHA-Dependent AIM2 Inflammasome Activation Contributes to Lung Inflammation during Idiopathic Pulmonary Fibrosis.md",
-          "path": "tasks/zh-TW/adrenchrome_inflammaging/_document_%20-%20DROSHA-Dependent%20AIM2%20Inflammasome%20Activation%20Contributes%20to%20Lung%20Inflammation%20during%20Idiopathic%20Pulmonary%20Fibrosis.md"
+          "path": "tasks/zh-TW/adrenchrome_inflammaging/_document_%20-%20DROSHA-Dependent%20AIM2%20Inflammasome%20Activation%20Contributes%20to%20Lung%20Inflammation%20during%20Idiopathic%20Pulmonary%20Fibrosis.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenchrome_inflammaging/_document_%20-%20DROSHA-Dependent%20AIM2%20Inflammasome%20Activation%20Contributes%20to%20Lung%20Inflammation%20during%20Idiopathic%20Pulmonary%20Fibrosis.md"
         }
+      },
+      "stats": {
+        "words": 1396,
+        "images": 0,
+        "links": 130,
+        "diagrams": 0
       }
     },
     {
@@ -1053,7 +1532,8 @@
             "aging"
           ],
           "filename": "_document_ - Shingles vaccine may slow biological aging and reduce inflammation.md",
-          "path": "tasks/en-US/adrenchrome_inflammaging/_document_%20-%20Shingles%20vaccine%20may%20slow%20biological%20aging%20and%20reduce%20inflammation.md"
+          "path": "tasks/en-US/adrenchrome_inflammaging/_document_%20-%20Shingles%20vaccine%20may%20slow%20biological%20aging%20and%20reduce%20inflammation.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenchrome_inflammaging/_document_%20-%20Shingles%20vaccine%20may%20slow%20biological%20aging%20and%20reduce%20inflammation.md"
         },
         "zh-TW": {
           "title": "帶狀皰疹疫苗或可減緩生物性老化並降低發炎",
@@ -1067,8 +1547,15 @@
             "aging"
           ],
           "filename": "_document_ - Shingles vaccine may slow biological aging and reduce inflammation.md",
-          "path": "tasks/zh-TW/adrenchrome_inflammaging/_document_%20-%20Shingles%20vaccine%20may%20slow%20biological%20aging%20and%20reduce%20inflammation.md"
+          "path": "tasks/zh-TW/adrenchrome_inflammaging/_document_%20-%20Shingles%20vaccine%20may%20slow%20biological%20aging%20and%20reduce%20inflammation.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenchrome_inflammaging/_document_%20-%20Shingles%20vaccine%20may%20slow%20biological%20aging%20and%20reduce%20inflammation.md"
         }
+      },
+      "stats": {
+        "words": 811,
+        "images": 0,
+        "links": 72,
+        "diagrams": 0
       }
     },
     {
@@ -1086,7 +1573,8 @@
             "rna-processing"
           ],
           "filename": "_document_ - The Human DiGeorge Syndrome Critical Region Gene 8 and Its D. melanogaster Homolog Are Required for miRNA Biogenesis.md",
-          "path": "tasks/en-US/adrenchrome_inflammaging/_document_%20-%20The%20Human%20DiGeorge%20Syndrome%20Critical%20Region%20Gene%208%20and%20Its%20D.%20melanogaster%20Homolog%20Are%20Required%20for%20miRNA%20Biogenesis.md"
+          "path": "tasks/en-US/adrenchrome_inflammaging/_document_%20-%20The%20Human%20DiGeorge%20Syndrome%20Critical%20Region%20Gene%208%20and%20Its%20D.%20melanogaster%20Homolog%20Are%20Required%20for%20miRNA%20Biogenesis.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenchrome_inflammaging/_document_%20-%20The%20Human%20DiGeorge%20Syndrome%20Critical%20Region%20Gene%208%20and%20Its%20D.%20melanogaster%20Homolog%20Are%20Required%20for%20miRNA%20Biogenesis.md"
         },
         "zh-TW": {
           "title": "人類迪喬治症候群關鍵區域基因 8 及其 D. melanogaster 同源基因對 miRNA 生成不可或缺",
@@ -1100,8 +1588,15 @@
             "rna-processing"
           ],
           "filename": "_document_ - The Human DiGeorge Syndrome Critical Region Gene 8 and Its D. melanogaster Homolog Are Required for miRNA Biogenesis.md",
-          "path": "tasks/zh-TW/adrenchrome_inflammaging/_document_%20-%20The%20Human%20DiGeorge%20Syndrome%20Critical%20Region%20Gene%208%20and%20Its%20D.%20melanogaster%20Homolog%20Are%20Required%20for%20miRNA%20Biogenesis.md"
+          "path": "tasks/zh-TW/adrenchrome_inflammaging/_document_%20-%20The%20Human%20DiGeorge%20Syndrome%20Critical%20Region%20Gene%208%20and%20Its%20D.%20melanogaster%20Homolog%20Are%20Required%20for%20miRNA%20Biogenesis.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenchrome_inflammaging/_document_%20-%20The%20Human%20DiGeorge%20Syndrome%20Critical%20Region%20Gene%208%20and%20Its%20D.%20melanogaster%20Homolog%20Are%20Required%20for%20miRNA%20Biogenesis.md"
         }
+      },
+      "stats": {
+        "words": 968,
+        "images": 0,
+        "links": 55,
+        "diagrams": 0
       }
     },
     {
@@ -1118,7 +1613,8 @@
             "task"
           ],
           "filename": "task_output_proximity_graph_learning_21_Sep_2026.md",
-          "path": "tasks/en-US/task_output_proximity_graph_learning_21_Sep_2026.md"
+          "path": "tasks/en-US/task_output_proximity_graph_learning_21_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_proximity_graph_learning_21_Sep_2026.md"
         },
         "zh-TW": {
           "title": "鄰近性導向圖譜學習 — 技術與儲存庫實作計畫",
@@ -1131,8 +1627,15 @@
             "task"
           ],
           "filename": "task_output_proximity_graph_learning_21_Sep_2026.md",
-          "path": "tasks/zh-TW/task_output_proximity_graph_learning_21_Sep_2026.md"
+          "path": "tasks/zh-TW/task_output_proximity_graph_learning_21_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_proximity_graph_learning_21_Sep_2026.md"
         }
+      },
+      "stats": {
+        "words": 1434,
+        "images": 0,
+        "links": 0,
+        "diagrams": 0
       }
     },
     {
@@ -1153,7 +1656,8 @@
             "review"
           ],
           "filename": "task_output_berberine_type2_diabetes_21_Sep_2026.md",
-          "path": "tasks/en-US/task_output_berberine_type2_diabetes_21_Sep_2026.md"
+          "path": "tasks/en-US/task_output_berberine_type2_diabetes_21_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_berberine_type2_diabetes_21_Sep_2026.md"
         },
         "zh-TW": {
           "title": "小檗鹼與第二型糖尿病 — 機制、臨床證據與圖譜脈絡",
@@ -1170,8 +1674,15 @@
             "review"
           ],
           "filename": "task_output_berberine_type2_diabetes_21_Sep_2026.md",
-          "path": "tasks/zh-TW/task_output_berberine_type2_diabetes_21_Sep_2026.md"
+          "path": "tasks/zh-TW/task_output_berberine_type2_diabetes_21_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_berberine_type2_diabetes_21_Sep_2026.md"
         }
+      },
+      "stats": {
+        "words": 626,
+        "images": 0,
+        "links": 40,
+        "diagrams": 0
       }
     },
     {
@@ -1189,7 +1700,8 @@
             "literature-review"
           ],
           "filename": "task_output_senescence_organ_dysfunction_scenarios_21_Sep_2026.md",
-          "path": "tasks/en-US/task_output_senescence_organ_dysfunction_scenarios_21_Sep_2026.md"
+          "path": "tasks/en-US/task_output_senescence_organ_dysfunction_scenarios_21_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_senescence_organ_dysfunction_scenarios_21_Sep_2026.md"
         },
         "zh-TW": {
           "title": "解釋衰老介導器官功能障礙的多重情境 — 知識庫追溯加 2024–2026 年更新",
@@ -1203,8 +1715,15 @@
             "literature-review"
           ],
           "filename": "task_output_senescence_organ_dysfunction_scenarios_21_Sep_2026.md",
-          "path": "tasks/zh-TW/task_output_senescence_organ_dysfunction_scenarios_21_Sep_2026.md"
+          "path": "tasks/zh-TW/task_output_senescence_organ_dysfunction_scenarios_21_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_senescence_organ_dysfunction_scenarios_21_Sep_2026.md"
         }
+      },
+      "stats": {
+        "words": 1697,
+        "images": 0,
+        "links": 48,
+        "diagrams": 0
       }
     },
     {
@@ -1222,7 +1741,8 @@
             "literature-review"
           ],
           "filename": "task_output_sasp_pleiotropic_opposing_effects_20_Sep_2026.md",
-          "path": "tasks/en-US/task_output_sasp_pleiotropic_opposing_effects_20_Sep_2026.md"
+          "path": "tasks/en-US/task_output_sasp_pleiotropic_opposing_effects_20_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_sasp_pleiotropic_opposing_effects_20_Sep_2026.md"
         },
         "zh-TW": {
           "title": "為何 SASP 產生多效且相反的效應 — 知識庫綜合與最新文獻",
@@ -1236,8 +1756,15 @@
             "literature-review"
           ],
           "filename": "task_output_sasp_pleiotropic_opposing_effects_20_Sep_2026.md",
-          "path": "tasks/zh-TW/task_output_sasp_pleiotropic_opposing_effects_20_Sep_2026.md"
+          "path": "tasks/zh-TW/task_output_sasp_pleiotropic_opposing_effects_20_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_sasp_pleiotropic_opposing_effects_20_Sep_2026.md"
         }
+      },
+      "stats": {
+        "words": 1363,
+        "images": 0,
+        "links": 61,
+        "diagrams": 0
       }
     },
     {
@@ -1261,7 +1788,8 @@
             "aging"
           ],
           "filename": "task_output_bioactive_compounds_aging_formulations_17_Sep_2026.md",
-          "path": "tasks/en-US/task_output_bioactive_compounds_aging_formulations_17_Sep_2026.md"
+          "path": "tasks/en-US/task_output_bioactive_compounds_aging_formulations_17_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_bioactive_compounds_aging_formulations_17_Sep_2026.md"
         },
         "zh-TW": {
           "title": "針對老化特徵的天然生物活性化合物 — 亞精胺、非瑟酮、小檗鹼、尿石素 A",
@@ -1281,8 +1809,15 @@
             "aging"
           ],
           "filename": "task_output_bioactive_compounds_aging_formulations_17_Sep_2026.md",
-          "path": "tasks/zh-TW/task_output_bioactive_compounds_aging_formulations_17_Sep_2026.md"
+          "path": "tasks/zh-TW/task_output_bioactive_compounds_aging_formulations_17_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_bioactive_compounds_aging_formulations_17_Sep_2026.md"
         }
+      },
+      "stats": {
+        "words": 760,
+        "images": 0,
+        "links": 54,
+        "diagrams": 0
       }
     },
     {
@@ -1309,7 +1844,8 @@
             "eryptosis"
           ],
           "filename": "task_output_cell_death_modality_distribution_research_13_Sep_2026.md",
-          "path": "tasks/en-US/task_output_cell_death_modality_distribution_research_13_Sep_2026.md"
+          "path": "tasks/en-US/task_output_cell_death_modality_distribution_research_13_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_cell_death_modality_distribution_research_13_Sep_2026.md"
         },
         "zh-TW": {
           "title": "細胞死亡型式分布 — 研究綜述：主要型式、分類軸與週轉量量化",
@@ -1332,8 +1868,15 @@
             "eryptosis"
           ],
           "filename": "task_output_cell_death_modality_distribution_research_13_Sep_2026.md",
-          "path": "tasks/zh-TW/task_output_cell_death_modality_distribution_research_13_Sep_2026.md"
+          "path": "tasks/zh-TW/task_output_cell_death_modality_distribution_research_13_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_cell_death_modality_distribution_research_13_Sep_2026.md"
         }
+      },
+      "stats": {
+        "words": 2412,
+        "images": 0,
+        "links": 55,
+        "diagrams": 0
       }
     },
     {
@@ -1356,7 +1899,8 @@
             "cancer"
           ],
           "filename": "task_output_cell_death_senescence_research_12_Sep_2026.md",
-          "path": "tasks/en-US/task_output_cell_death_senescence_research_12_Sep_2026.md"
+          "path": "tasks/en-US/task_output_cell_death_senescence_research_12_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_cell_death_senescence_research_12_Sep_2026.md"
         },
         "zh-TW": {
           "title": "細胞死亡 × 細胞衰老 — 網路研究",
@@ -1375,8 +1919,15 @@
             "cancer"
           ],
           "filename": "task_output_cell_death_senescence_research_12_Sep_2026.md",
-          "path": "tasks/zh-TW/task_output_cell_death_senescence_research_12_Sep_2026.md"
+          "path": "tasks/zh-TW/task_output_cell_death_senescence_research_12_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_cell_death_senescence_research_12_Sep_2026.md"
         }
+      },
+      "stats": {
+        "words": 2583,
+        "images": 0,
+        "links": 94,
+        "diagrams": 0
       }
     },
     {
@@ -1399,7 +1950,8 @@
             "preconditioning"
           ],
           "filename": "task_output_hormesis_rcd_acd_tier_model_13_Sep_2026.md",
-          "path": "tasks/en-US/task_output_hormesis_rcd_acd_tier_model_13_Sep_2026.md"
+          "path": "tasks/en-US/task_output_hormesis_rcd_acd_tier_model_13_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_hormesis_rcd_acd_tier_model_13_Sep_2026.md"
         },
         "zh-TW": {
           "title": "激素效應與細胞死亡 — RCD、ACD 與分層壓力反應模型",
@@ -1418,8 +1970,15 @@
             "preconditioning"
           ],
           "filename": "task_output_hormesis_rcd_acd_tier_model_13_Sep_2026.md",
-          "path": "tasks/zh-TW/task_output_hormesis_rcd_acd_tier_model_13_Sep_2026.md"
+          "path": "tasks/zh-TW/task_output_hormesis_rcd_acd_tier_model_13_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_hormesis_rcd_acd_tier_model_13_Sep_2026.md"
         }
+      },
+      "stats": {
+        "words": 2268,
+        "images": 0,
+        "links": 54,
+        "diagrams": 0
       }
     },
     {
@@ -1443,7 +2002,8 @@
             "literature-review"
           ],
           "filename": "task_output_senescence_regulators_sensors_organs_12_Sep_2026.md",
-          "path": "tasks/en-US/task_output_senescence_regulators_sensors_organs_12_Sep_2026.md"
+          "path": "tasks/en-US/task_output_senescence_regulators_sensors_organs_12_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_senescence_regulators_sensors_organs_12_Sep_2026.md"
         },
         "zh-TW": {
           "title": "跨器官的衰老調節因子與感測器 — 攝護腺、乳癌、肺癌、結腸、皮膚",
@@ -1463,8 +2023,15 @@
             "literature-review"
           ],
           "filename": "task_output_senescence_regulators_sensors_organs_12_Sep_2026.md",
-          "path": "tasks/zh-TW/task_output_senescence_regulators_sensors_organs_12_Sep_2026.md"
+          "path": "tasks/zh-TW/task_output_senescence_regulators_sensors_organs_12_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_senescence_regulators_sensors_organs_12_Sep_2026.md"
         }
+      },
+      "stats": {
+        "words": 794,
+        "images": 0,
+        "links": 38,
+        "diagrams": 0
       }
     },
     {
@@ -1494,7 +2061,8 @@
             "trial-design"
           ],
           "filename": "task_output_cell_death_modality_first_therapy_sex_stratified_13_Sep_2026.md",
-          "path": "tasks/en-US/task_output_cell_death_modality_first_therapy_sex_stratified_13_Sep_2026.md"
+          "path": "tasks/en-US/task_output_cell_death_modality_first_therapy_sex_stratified_13_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_cell_death_modality_first_therapy_sex_stratified_13_Sep_2026.md"
         },
         "zh-TW": {
           "title": "以細胞死亡型式優先的療法與性別分層：框架、性別分層中風試驗設計，與 Parthanatos 轉譯落差",
@@ -1520,8 +2088,15 @@
             "trial-design"
           ],
           "filename": "task_output_cell_death_modality_first_therapy_sex_stratified_13_Sep_2026.md",
-          "path": "tasks/zh-TW/task_output_cell_death_modality_first_therapy_sex_stratified_13_Sep_2026.md"
+          "path": "tasks/zh-TW/task_output_cell_death_modality_first_therapy_sex_stratified_13_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_cell_death_modality_first_therapy_sex_stratified_13_Sep_2026.md"
         }
+      },
+      "stats": {
+        "words": 2497,
+        "images": 0,
+        "links": 15,
+        "diagrams": 0
       }
     },
     {
@@ -1540,7 +2115,8 @@
             "sex-dimorphism"
           ],
           "filename": "task_output_cell_death_decision_tree_11_Sep_2026.md",
-          "path": "tasks/en-US/task_output_cell_death_decision_tree_11_Sep_2026.md"
+          "path": "tasks/en-US/task_output_cell_death_decision_tree_11_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_cell_death_decision_tree_11_Sep_2026.md"
         },
         "zh-TW": {
           "title": "細胞死亡決策樹 — 壓力與細胞類型",
@@ -1555,8 +2131,15 @@
             "sex-dimorphism"
           ],
           "filename": "task_output_cell_death_decision_tree_11_Sep_2026.md",
-          "path": "tasks/zh-TW/task_output_cell_death_decision_tree_11_Sep_2026.md"
+          "path": "tasks/zh-TW/task_output_cell_death_decision_tree_11_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_cell_death_decision_tree_11_Sep_2026.md"
         }
+      },
+      "stats": {
+        "words": 1286,
+        "images": 0,
+        "links": 55,
+        "diagrams": 3
       }
     },
     {
@@ -1578,7 +2161,8 @@
             "thioredoxin-reductase"
           ],
           "filename": "task_output_selenium_necroptosis_mapk_nfkb_11_Sep_2026.md",
-          "path": "tasks/en-US/task_output_selenium_necroptosis_mapk_nfkb_11_Sep_2026.md"
+          "path": "tasks/en-US/task_output_selenium_necroptosis_mapk_nfkb_11_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_selenium_necroptosis_mapk_nfkb_11_Sep_2026.md"
         },
         "zh-TW": {
           "title": "硒減輕鎘/鉛誘發壞死性凋亡 via MAPK/NF-kB — 網路研究",
@@ -1596,8 +2180,15 @@
             "thioredoxin-reductase"
           ],
           "filename": "task_output_selenium_necroptosis_mapk_nfkb_11_Sep_2026.md",
-          "path": "tasks/zh-TW/task_output_selenium_necroptosis_mapk_nfkb_11_Sep_2026.md"
+          "path": "tasks/zh-TW/task_output_selenium_necroptosis_mapk_nfkb_11_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_selenium_necroptosis_mapk_nfkb_11_Sep_2026.md"
         }
+      },
+      "stats": {
+        "words": 983,
+        "images": 0,
+        "links": 26,
+        "diagrams": 0
       }
     },
     {
@@ -1623,7 +2214,8 @@
             "autophagy"
           ],
           "filename": "task_output_parthanatos_open_questions_08_Sep_2026.md",
-          "path": "tasks/en-US/task_output_parthanatos_open_questions_08_Sep_2026.md"
+          "path": "tasks/en-US/task_output_parthanatos_open_questions_08_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_parthanatos_open_questions_08_Sep_2026.md"
         },
         "zh-TW": {
           "title": "Parthanatos 未解問題 — 網路文獻更新",
@@ -1645,8 +2237,15 @@
             "autophagy"
           ],
           "filename": "task_output_parthanatos_open_questions_08_Sep_2026.md",
-          "path": "tasks/zh-TW/task_output_parthanatos_open_questions_08_Sep_2026.md"
+          "path": "tasks/zh-TW/task_output_parthanatos_open_questions_08_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_parthanatos_open_questions_08_Sep_2026.md"
         }
+      },
+      "stats": {
+        "words": 5686,
+        "images": 0,
+        "links": 21,
+        "diagrams": 0
       }
     },
     {
@@ -1666,7 +2265,8 @@
             "adp-ribosylation"
           ],
           "filename": "task_output_arh3_par_aif_06_SEP_2026.md",
-          "path": "tasks/en-US/task_output_arh3_par_aif_06_SEP_2026.md"
+          "path": "tasks/en-US/task_output_arh3_par_aif_06_SEP_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_arh3_par_aif_06_SEP_2026.md"
         },
         "zh-TW": {
           "title": "ARH3 與 PAR 誘導的 AIF 釋放 — 研究綜述",
@@ -1682,31 +2282,15 @@
             "adp-ribosylation"
           ],
           "filename": "task_output_arh3_par_aif_06_SEP_2026.md",
-          "path": "tasks/zh-TW/task_output_arh3_par_aif_06_SEP_2026.md"
+          "path": "tasks/zh-TW/task_output_arh3_par_aif_06_SEP_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_arh3_par_aif_06_SEP_2026.md"
         }
-      }
-    },
-    {
-      "id": "task_output_sex_dimorphic_cell_death_05_Sep_2026",
-      "langs": {
-        "en-US": {
-          "title": "Sex-Dimorphic Cell Death: Estimates, Timing, Aging Context, Therapeutics",
-          "description": "Corrected premise of female-toward-apoptosis vs male-toward-parthanatos/PARP-1/AIF necrosis, with human post-MI apoptosis index, timing, aging convergence, and therapeutic status.",
-          "created": "2026-09-05",
-          "updated": "2026-09-05",
-          "tags": [],
-          "filename": "task_output_sex_dimorphic_cell_death_05_Sep_2026.md",
-          "path": "tasks/en-US/task_output_sex_dimorphic_cell_death_05_Sep_2026.md"
-        },
-        "zh-TW": {
-          "title": "性別二型性細胞死亡：估計值、時序、老化脈絡與治療學",
-          "description": "女性走向凋亡、男性走向 parthanatos／PARP-1／AIF 壞死的修正前提，附人類心肌梗塞後凋亡指數、時序、老化趨同與治療現況。",
-          "created": "2026-09-05",
-          "updated": "2026-09-05",
-          "tags": [],
-          "filename": "task_output_sex_dimorphic_cell_death_05_Sep_2026.md",
-          "path": "tasks/zh-TW/task_output_sex_dimorphic_cell_death_05_Sep_2026.md"
-        }
+      },
+      "stats": {
+        "words": 700,
+        "images": 0,
+        "links": 45,
+        "diagrams": 0
       }
     },
     {
@@ -1728,7 +2312,8 @@
             "ferroptosis"
           ],
           "filename": "task_output_cell_death_quadrants_controlled_inflammatory_lens_04_SEP_2026.md",
-          "path": "tasks/en-US/task_output_cell_death_quadrants_controlled_inflammatory_lens_04_SEP_2026.md"
+          "path": "tasks/en-US/task_output_cell_death_quadrants_controlled_inflammatory_lens_04_SEP_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_cell_death_quadrants_controlled_inflammatory_lens_04_SEP_2026.md"
         },
         "zh-TW": {
           "title": "細胞死亡象限：調控性 vs 非調控性 × 發炎性 vs 非發炎性知識庫視角",
@@ -1746,8 +2331,15 @@
             "ferroptosis"
           ],
           "filename": "task_output_cell_death_quadrants_controlled_inflammatory_lens_04_SEP_2026.md",
-          "path": "tasks/zh-TW/task_output_cell_death_quadrants_controlled_inflammatory_lens_04_SEP_2026.md"
+          "path": "tasks/zh-TW/task_output_cell_death_quadrants_controlled_inflammatory_lens_04_SEP_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_cell_death_quadrants_controlled_inflammatory_lens_04_SEP_2026.md"
         }
+      },
+      "stats": {
+        "words": 2349,
+        "images": 0,
+        "links": 89,
+        "diagrams": 0
       }
     },
     {
@@ -1769,7 +2361,8 @@
             "cell-death"
           ],
           "filename": "task_output_tbl_cell_death_comparison_03_SEP_2026.md",
-          "path": "tasks/en-US/task_output_tbl_cell_death_comparison_03_SEP_2026.md"
+          "path": "tasks/en-US/task_output_tbl_cell_death_comparison_03_SEP_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_tbl_cell_death_comparison_03_SEP_2026.md"
         },
         "zh-TW": {
           "title": "細胞死亡比較 — 細胞凋亡、Parthanatos、壞死、壞死性凋亡、鐵死亡、自噬、細胞焦亡",
@@ -1787,8 +2380,46 @@
             "cell-death"
           ],
           "filename": "task_output_tbl_cell_death_comparison_03_SEP_2026.md",
-          "path": "tasks/zh-TW/task_output_tbl_cell_death_comparison_03_SEP_2026.md"
+          "path": "tasks/zh-TW/task_output_tbl_cell_death_comparison_03_SEP_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_tbl_cell_death_comparison_03_SEP_2026.md"
         }
+      },
+      "stats": {
+        "words": 624,
+        "images": 0,
+        "links": 98,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "task_output_sex_dimorphic_cell_death_05_Sep_2026",
+      "langs": {
+        "en-US": {
+          "title": "Sex-Dimorphic Cell Death: Estimates, Timing, Aging Context, Therapeutics",
+          "description": "Corrected premise of female-toward-apoptosis vs male-toward-parthanatos/PARP-1/AIF necrosis, with human post-MI apoptosis index, timing, aging convergence, and therapeutic status.",
+          "created": "2026-09-05",
+          "updated": "2026-09-05",
+          "tags": [],
+          "filename": "task_output_sex_dimorphic_cell_death_05_Sep_2026.md",
+          "path": "tasks/en-US/task_output_sex_dimorphic_cell_death_05_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_sex_dimorphic_cell_death_05_Sep_2026.md"
+        },
+        "zh-TW": {
+          "title": "性別二型性細胞死亡：估計值、時序、老化脈絡與治療學",
+          "description": "女性走向凋亡、男性走向 parthanatos／PARP-1／AIF 壞死的修正前提，附人類心肌梗塞後凋亡指數、時序、老化趨同與治療現況。",
+          "created": "2026-09-05",
+          "updated": "2026-09-05",
+          "tags": [],
+          "filename": "task_output_sex_dimorphic_cell_death_05_Sep_2026.md",
+          "path": "tasks/zh-TW/task_output_sex_dimorphic_cell_death_05_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_sex_dimorphic_cell_death_05_Sep_2026.md"
+        }
+      },
+      "stats": {
+        "words": 906,
+        "images": 0,
+        "links": 2,
+        "diagrams": 0
       }
     },
     {
@@ -1812,7 +2443,8 @@
             "longevity"
           ],
           "filename": "task_output_male_distributed_topology_vs_estrogen_hub_05_SEP_2026.md",
-          "path": "tasks/en-US/task_output_male_distributed_topology_vs_estrogen_hub_05_SEP_2026.md"
+          "path": "tasks/en-US/task_output_male_distributed_topology_vs_estrogen_hub_05_SEP_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_male_distributed_topology_vs_estrogen_hub_05_SEP_2026.md"
         },
         "zh-TW": {
           "title": "男性生物學即分散式拓撲 vs 集中式雌激素樞紐",
@@ -1832,8 +2464,15 @@
             "longevity"
           ],
           "filename": "task_output_male_distributed_topology_vs_estrogen_hub_05_SEP_2026.md",
-          "path": "tasks/zh-TW/task_output_male_distributed_topology_vs_estrogen_hub_05_SEP_2026.md"
+          "path": "tasks/zh-TW/task_output_male_distributed_topology_vs_estrogen_hub_05_SEP_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_male_distributed_topology_vs_estrogen_hub_05_SEP_2026.md"
         }
+      },
+      "stats": {
+        "words": 1933,
+        "images": 0,
+        "links": 56,
+        "diagrams": 0
       }
     },
     {
@@ -1851,7 +2490,8 @@
             "follow-up"
           ],
           "filename": "task_output_hormetic_range_expansion_03_Sep_2026.md",
-          "path": "tasks/en-US/task_output_hormetic_range_expansion_03_Sep_2026.md"
+          "path": "tasks/en-US/task_output_hormetic_range_expansion_03_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_hormetic_range_expansion_03_Sep_2026.md"
         },
         "zh-TW": {
           "title": "激素效應區間擴展：7 個候選後續領域",
@@ -1865,8 +2505,15 @@
             "follow-up"
           ],
           "filename": "task_output_hormetic_range_expansion_03_Sep_2026.md",
-          "path": "tasks/zh-TW/task_output_hormetic_range_expansion_03_Sep_2026.md"
+          "path": "tasks/zh-TW/task_output_hormetic_range_expansion_03_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_hormetic_range_expansion_03_Sep_2026.md"
         }
+      },
+      "stats": {
+        "words": 1492,
+        "images": 0,
+        "links": 0,
+        "diagrams": 0
       }
     },
     {
@@ -1890,7 +2537,8 @@
             "scientific-communication"
           ],
           "filename": "task_output_hormesis_literature_invisibility_02_Sep_2026.md",
-          "path": "tasks/en-US/task_output_hormesis_literature_invisibility_02_Sep_2026.md"
+          "path": "tasks/en-US/task_output_hormesis_literature_invisibility_02_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_hormesis_literature_invisibility_02_Sep_2026.md"
         },
         "zh-TW": {
           "title": "80–90% 的盲區：以詞彙碎片化解決激素效應文獻隱形問題",
@@ -1910,8 +2558,15 @@
             "scientific-communication"
           ],
           "filename": "task_output_hormesis_literature_invisibility_02_Sep_2026.md",
-          "path": "tasks/zh-TW/task_output_hormesis_literature_invisibility_02_Sep_2026.md"
+          "path": "tasks/zh-TW/task_output_hormesis_literature_invisibility_02_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_hormesis_literature_invisibility_02_Sep_2026.md"
         }
+      },
+      "stats": {
+        "words": 3807,
+        "images": 0,
+        "links": 0,
+        "diagrams": 0
       }
     },
     {
@@ -1935,7 +2590,8 @@
             "inflammation"
           ],
           "filename": "task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md",
-          "path": "tasks/en-US/task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md"
+          "path": "tasks/en-US/task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md"
         },
         "zh-TW": {
           "title": "性別特異屬性：vault 主要主題",
@@ -1955,8 +2611,15 @@
             "inflammation"
           ],
           "filename": "task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md",
-          "path": "tasks/zh-TW/task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md"
+          "path": "tasks/zh-TW/task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md"
         }
+      },
+      "stats": {
+        "words": 6943,
+        "images": 0,
+        "links": 128,
+        "diagrams": 0
       }
     },
     {
@@ -1980,7 +2643,8 @@
             "research-synthesis"
           ],
           "filename": "task_output_mnsod_thioredoxin_link_01_Sep_2026.md",
-          "path": "tasks/en-US/task_output_mnsod_thioredoxin_link_01_Sep_2026.md"
+          "path": "tasks/en-US/task_output_mnsod_thioredoxin_link_01_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_mnsod_thioredoxin_link_01_Sep_2026.md"
         },
         "zh-TW": {
           "title": "MnSOD–硫氧還蛋白軸：整合的粒線體過氧化氫中繼與共享的壓力抗性程式 — 焦點分析",
@@ -2000,8 +2664,15 @@
             "research-synthesis"
           ],
           "filename": "task_output_mnsod_thioredoxin_link_01_Sep_2026.md",
-          "path": "tasks/zh-TW/task_output_mnsod_thioredoxin_link_01_Sep_2026.md"
+          "path": "tasks/zh-TW/task_output_mnsod_thioredoxin_link_01_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_mnsod_thioredoxin_link_01_Sep_2026.md"
         }
+      },
+      "stats": {
+        "words": 2460,
+        "images": 0,
+        "links": 41,
+        "diagrams": 0
       }
     },
     {
@@ -2025,7 +2696,8 @@
             "research-synthesis"
           ],
           "filename": "task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026.md",
-          "path": "tasks/en-US/task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026.md"
+          "path": "tasks/en-US/task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026.md"
         },
         "zh-TW": {
           "title": "抗氧化酶激素效應與壓力抗性：硫氧還蛋白系統群集 — 實體審查與網路驗證",
@@ -2045,8 +2717,15 @@
             "research-synthesis"
           ],
           "filename": "task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026.md",
-          "path": "tasks/zh-TW/task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026.md"
+          "path": "tasks/zh-TW/task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_antioxidant_enzyme_hormetic_stress_resistance_01_Sep_2026.md"
         }
+      },
+      "stats": {
+        "words": 4716,
+        "images": 0,
+        "links": 148,
+        "diagrams": 0
       }
     },
     {
@@ -2066,7 +2745,8 @@
             "parallel-edges"
           ],
           "filename": "task_output_parallel_relation_links_impact_01_Sep_2026.md",
-          "path": "tasks/en-US/task_output_parallel_relation_links_impact_01_Sep_2026.md"
+          "path": "tasks/en-US/task_output_parallel_relation_links_impact_01_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_parallel_relation_links_impact_01_Sep_2026.md"
         },
         "zh-TW": {
           "title": "三元組圖譜中的平行關係連結 — 完整清單與指標影響",
@@ -2082,8 +2762,15 @@
             "parallel-edges"
           ],
           "filename": "task_output_parallel_relation_links_impact_01_Sep_2026.md",
-          "path": "tasks/zh-TW/task_output_parallel_relation_links_impact_01_Sep_2026.md"
+          "path": "tasks/zh-TW/task_output_parallel_relation_links_impact_01_Sep_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_parallel_relation_links_impact_01_Sep_2026.md"
         }
+      },
+      "stats": {
+        "words": 3153,
+        "images": 0,
+        "links": 0,
+        "diagrams": 0
       }
     },
     {
@@ -2104,7 +2791,8 @@
             "sirtuins"
           ],
           "filename": "task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026.md",
-          "path": "tasks/en-US/task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026.md"
+          "path": "tasks/en-US/task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026.md"
         },
         "zh-TW": {
           "title": "三元組人工審核報告 — 腎上腺色素、粒線體激效、自噬、Sirtuins",
@@ -2121,8 +2809,15 @@
             "sirtuins"
           ],
           "filename": "task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026.md",
-          "path": "tasks/zh-TW/task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026.md"
+          "path": "tasks/zh-TW/task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026.md"
         }
+      },
+      "stats": {
+        "words": 2599,
+        "images": 0,
+        "links": 0,
+        "diagrams": 0
       }
     },
     {
@@ -2145,7 +2840,8 @@
             "paradigm-analysis"
           ],
           "filename": "task_output_hormesis_overlooked_paradigms_30_Aug_2026.md",
-          "path": "tasks/en-US/task_output_hormesis_overlooked_paradigms_30_Aug_2026.md"
+          "path": "tasks/en-US/task_output_hormesis_overlooked_paradigms_30_Aug_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_hormesis_overlooked_paradigms_30_Aug_2026.md"
         },
         "zh-TW": {
           "title": "超越線粒體激素效應：被忽略的「一點小壞即是大好」範式之生物過程",
@@ -2164,8 +2860,15 @@
             "paradigm-analysis"
           ],
           "filename": "task_output_hormesis_overlooked_paradigms_30_Aug_2026.md",
-          "path": "tasks/zh-TW/task_output_hormesis_overlooked_paradigms_30_Aug_2026.md"
+          "path": "tasks/zh-TW/task_output_hormesis_overlooked_paradigms_30_Aug_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_hormesis_overlooked_paradigms_30_Aug_2026.md"
         }
+      },
+      "stats": {
+        "words": 4305,
+        "images": 0,
+        "links": 37,
+        "diagrams": 0
       }
     },
     {
@@ -2189,7 +2892,8 @@
             "discovery-lifecycle"
           ],
           "filename": "task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md",
-          "path": "tasks/en-US/task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md"
+          "path": "tasks/en-US/task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md"
         },
         "zh-TW": {
           "title": "解讀一個發現的降臨 — 當新實體進入知識圖譜時，圖譜指標與型別化邊如何運作（以鐵死亡 2012 與 COVID/疫苗為實例）",
@@ -2209,8 +2913,15 @@
             "discovery-lifecycle"
           ],
           "filename": "task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md",
-          "path": "tasks/zh-TW/task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md"
+          "path": "tasks/zh-TW/task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_new_discovery_graph_metrics_ferroptosis_covid_30_Aug_2026.md"
         }
+      },
+      "stats": {
+        "words": 5024,
+        "images": 0,
+        "links": 49,
+        "diagrams": 0
       }
     },
     {
@@ -2231,7 +2942,8 @@
             "senescence"
           ],
           "filename": "task_output_caspase_graph_analysis_28_AUG_2026.md",
-          "path": "tasks/en-US/node_network_caspase_28_AUG_2026/task_output_caspase_graph_analysis_28_AUG_2026.md"
+          "path": "tasks/en-US/node_network_caspase_28_AUG_2026/task_output_caspase_graph_analysis_28_AUG_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_caspase_28_AUG_2026/task_output_caspase_graph_analysis_28_AUG_2026.md"
         },
         "zh-TW": {
           "title": "Caspases — 圖譜分析（wiki + triples）＋文獻綜述",
@@ -2248,8 +2960,15 @@
             "senescence"
           ],
           "filename": "task_output_caspase_graph_analysis_28_AUG_2026.md",
-          "path": "tasks/zh-TW/node_network_caspase_28_AUG_2026/task_output_caspase_graph_analysis_28_AUG_2026.md"
+          "path": "tasks/zh-TW/node_network_caspase_28_AUG_2026/task_output_caspase_graph_analysis_28_AUG_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/node_network_caspase_28_AUG_2026/task_output_caspase_graph_analysis_28_AUG_2026.md"
         }
+      },
+      "stats": {
+        "words": 3772,
+        "images": 0,
+        "links": 0,
+        "diagrams": 0
       }
     },
     {
@@ -2271,7 +2990,8 @@
             "comparative-review"
           ],
           "filename": "task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md",
-          "path": "tasks/en-US/task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md"
+          "path": "tasks/en-US/task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md"
         },
         "zh-TW": {
           "title": "神經退化性疾病綜述：AD、PD、HD、ALS/FTD — 來自 Wiki、圖譜與 2025–2026 文獻的比較綜合",
@@ -2289,8 +3009,15 @@
             "comparative-review"
           ],
           "filename": "task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md",
-          "path": "tasks/zh-TW/task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md"
+          "path": "tasks/zh-TW/task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md"
         }
+      },
+      "stats": {
+        "words": 4845,
+        "images": 0,
+        "links": 268,
+        "diagrams": 0
       }
     },
     {
@@ -2309,7 +3036,8 @@
             "research-synthesis"
           ],
           "filename": "task_output_sirtuin_caspase_crosstalk_28_AUG_2026.md",
-          "path": "tasks/en-US/task_output_sirtuin_caspase_crosstalk_28_AUG_2026.md"
+          "path": "tasks/en-US/task_output_sirtuin_caspase_crosstalk_28_AUG_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_sirtuin_caspase_crosstalk_28_AUG_2026.md"
         },
         "zh-TW": {
           "title": "Sirtuin–Caspase 串擾 — 研究綜合（Wiki、圖譜、Web）",
@@ -2324,8 +3052,15 @@
             "research-synthesis"
           ],
           "filename": "task_output_sirtuin_caspase_crosstalk_28_AUG_2026.md",
-          "path": "tasks/zh-TW/task_output_sirtuin_caspase_crosstalk_28_AUG_2026.md"
+          "path": "tasks/zh-TW/task_output_sirtuin_caspase_crosstalk_28_AUG_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_sirtuin_caspase_crosstalk_28_AUG_2026.md"
         }
+      },
+      "stats": {
+        "words": 1090,
+        "images": 0,
+        "links": 5,
+        "diagrams": 0
       }
     },
     {
@@ -2347,7 +3082,8 @@
             "networkx"
           ],
           "filename": "task_output_node_metrics_combined_graph_27_Aug_2026.md",
-          "path": "tasks/en-US/task_output_node_metrics_combined_graph_27_Aug_2026.md"
+          "path": "tasks/en-US/task_output_node_metrics_combined_graph_27_Aug_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_node_metrics_combined_graph_27_Aug_2026.md"
         },
         "zh-TW": {
           "title": "圖譜指標（wiki + triples）— 合併圖",
@@ -2365,8 +3101,15 @@
             "networkx"
           ],
           "filename": "task_output_node_metrics_combined_graph_27_Aug_2026.md",
-          "path": "tasks/zh-TW/task_output_node_metrics_combined_graph_27_Aug_2026.md"
+          "path": "tasks/zh-TW/task_output_node_metrics_combined_graph_27_Aug_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_node_metrics_combined_graph_27_Aug_2026.md"
         }
+      },
+      "stats": {
+        "words": 2078,
+        "images": 0,
+        "links": 4,
+        "diagrams": 0
       }
     },
     {
@@ -2386,7 +3129,8 @@
             "curation"
           ],
           "filename": "task_output_graph_structure_conclusions_26_AUG_2026.md",
-          "path": "tasks/en-US/task_output_graph_structure_conclusions_26_AUG_2026.md"
+          "path": "tasks/en-US/task_output_graph_structure_conclusions_26_AUG_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_graph_structure_conclusions_26_AUG_2026.md"
         },
         "zh-TW": {
           "title": "graph.json 的進一步圖譜層級結論",
@@ -2402,8 +3146,15 @@
             "curation"
           ],
           "filename": "task_output_graph_structure_conclusions_26_AUG_2026.md",
-          "path": "tasks/zh-TW/task_output_graph_structure_conclusions_26_AUG_2026.md"
+          "path": "tasks/zh-TW/task_output_graph_structure_conclusions_26_AUG_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_graph_structure_conclusions_26_AUG_2026.md"
         }
+      },
+      "stats": {
+        "words": 1799,
+        "images": 0,
+        "links": 11,
+        "diagrams": 0
       }
     },
     {
@@ -2428,7 +3179,8 @@
             "adamic-adar"
           ],
           "filename": "task_output_node_analysis_repurposing_drugs_cancer_26_AUG_2026.md",
-          "path": "tasks/en-US/task_output_node_analysis_repurposing_drugs_cancer_26_AUG_2026.md"
+          "path": "tasks/en-US/task_output_node_analysis_repurposing_drugs_cancer_26_AUG_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_node_analysis_repurposing_drugs_cancer_26_AUG_2026.md"
         },
         "zh-TW": {
           "title": "節點分析——伊維菌素、芬苯達唑與甲苯達唑對上癌症及腫瘤亞型",
@@ -2449,8 +3201,15 @@
             "adamic-adar"
           ],
           "filename": "task_output_node_analysis_repurposing_drugs_cancer_26_AUG_2026.md",
-          "path": "tasks/zh-TW/task_output_node_analysis_repurposing_drugs_cancer_26_AUG_2026.md"
+          "path": "tasks/zh-TW/task_output_node_analysis_repurposing_drugs_cancer_26_AUG_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_node_analysis_repurposing_drugs_cancer_26_AUG_2026.md"
         }
+      },
+      "stats": {
+        "words": 1396,
+        "images": 0,
+        "links": 7,
+        "diagrams": 0
       }
     },
     {
@@ -2468,7 +3227,8 @@
             "cell-death"
           ],
           "filename": "task_output_ferroptosis_vs_apoptosis_cancer_26_AUG_2026.md",
-          "path": "tasks/en-US/task_output_ferroptosis_vs_apoptosis_cancer_26_AUG_2026.md"
+          "path": "tasks/en-US/task_output_ferroptosis_vs_apoptosis_cancer_26_AUG_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_ferroptosis_vs_apoptosis_cancer_26_AUG_2026.md"
         },
         "zh-TW": {
           "title": "比較綜述——鐵死亡與癌症 vs. 細胞凋亡與癌症",
@@ -2482,8 +3242,101 @@
             "cell-death"
           ],
           "filename": "task_output_ferroptosis_vs_apoptosis_cancer_26_AUG_2026.md",
-          "path": "tasks/zh-TW/task_output_ferroptosis_vs_apoptosis_cancer_26_AUG_2026.md"
+          "path": "tasks/zh-TW/task_output_ferroptosis_vs_apoptosis_cancer_26_AUG_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_ferroptosis_vs_apoptosis_cancer_26_AUG_2026.md"
         }
+      },
+      "stats": {
+        "words": 1504,
+        "images": 0,
+        "links": 136,
+        "diagrams": 1
+      }
+    },
+    {
+      "id": "task_output_autophagy_vs_mitophagy_17_JUL_2026",
+      "langs": {
+        "en-US": {
+          "title": "Autophagy vs. Mitophagy — Mechanistic Differences, Fasting Cadence, and Lifestyle Adjustments",
+          "description": "Synthesis comparing autophagy and mitophagy mechanisms, their differential responses to fasting protocols, life-stage considerations, lifestyle phenotypes, and specific adjustments required for mitophagy beyond general autophagy.",
+          "created": "2026-07-21",
+          "updated": "2026-08-22",
+          "tags": [
+            "task-output",
+            "autophagy",
+            "mitophagy",
+            "fasting",
+            "exercise"
+          ],
+          "filename": "task_output_autophagy_vs_mitophagy_17_JUL_2026.md",
+          "path": "tasks/en-US/task_output_autophagy_vs_mitophagy_17_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_autophagy_vs_mitophagy_17_JUL_2026.md"
+        },
+        "zh-TW": {
+          "title": "自噬 vs. 粒線體自噬 — 機制差異、禁食節奏與生活型態調整",
+          "description": "比較自噬與粒線體自噬機制、其對禁食方案的差異性反應、生命階段考量、生活型態表型，以及超越一般自噬所需針對粒線體自噬的特定調整之綜述。",
+          "created": "2026-07-21",
+          "updated": "2026-08-22",
+          "tags": [
+            "task-output",
+            "autophagy",
+            "mitophagy",
+            "fasting",
+            "exercise"
+          ],
+          "filename": "task_output_autophagy_vs_mitophagy_17_JUL_2026.md",
+          "path": "tasks/zh-TW/task_output_autophagy_vs_mitophagy_17_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_autophagy_vs_mitophagy_17_JUL_2026.md"
+        }
+      },
+      "stats": {
+        "words": 1030,
+        "images": 0,
+        "links": 87,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "task_output_cr_vs_spermidine_autophagy_15_July_2026",
+      "langs": {
+        "en-US": {
+          "title": "Caloric Restriction vs Spermidine Diet Autophagy — Differences and Additive Effects",
+          "description": "Analysis of mechanistic differences between CR-induced autophagy and diet-based autophagy inducers (spermidine, rapamycin), with trace of additive effects from combination strategies",
+          "created": "2026-07-21",
+          "updated": "2026-08-22",
+          "tags": [
+            "autophagy",
+            "caloric-restriction",
+            "spermidine",
+            "rapamycin",
+            "longevity"
+          ],
+          "filename": "task_output_cr_vs_spermidine_autophagy_15_July_2026.md",
+          "path": "tasks/en-US/task_output_cr_vs_spermidine_autophagy_15_July_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_cr_vs_spermidine_autophagy_15_July_2026.md"
+        },
+        "zh-TW": {
+          "title": "熱量限制 vs 亞精胺飲食自噬 — 差異與疊加效應",
+          "description": "CR誘導自噬與飲食自噬誘導劑（亞精胺、雷帕黴素）之間的機制差異分析，以及組合策略疊加效應的追蹤",
+          "created": "2026-07-21",
+          "updated": "2026-08-22",
+          "tags": [
+            "autophagy",
+            "caloric-restriction",
+            "spermidine",
+            "rapamycin",
+            "longevity"
+          ],
+          "filename": "task_output_cr_vs_spermidine_autophagy_15_July_2026.md",
+          "path": "tasks/zh-TW/task_output_cr_vs_spermidine_autophagy_15_July_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_cr_vs_spermidine_autophagy_15_July_2026.md"
+        }
+      },
+      "stats": {
+        "words": 1790,
+        "images": 0,
+        "links": 16,
+        "diagrams": 0
       }
     },
     {
@@ -2504,7 +3357,8 @@
             "polyphenols"
           ],
           "filename": "task_output_sirtuins_resveratrol.md",
-          "path": "tasks/en-US/task_output_sirtuins_resveratrol.md"
+          "path": "tasks/en-US/task_output_sirtuins_resveratrol.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_sirtuins_resveratrol.md"
         },
         "zh-TW": {
           "title": "白藜蘆醇與 SIRT1 及其他 sirtuin 調節劑",
@@ -2518,8 +3372,15 @@
             "resveratrol"
           ],
           "filename": "task_output_sirtuins_resveratrol.md",
-          "path": "tasks/zh-TW/task_output_sirtuins_resveratrol.md"
+          "path": "tasks/zh-TW/task_output_sirtuins_resveratrol.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_sirtuins_resveratrol.md"
         }
+      },
+      "stats": {
+        "words": 4543,
+        "images": 0,
+        "links": 87,
+        "diagrams": 0
       }
     },
     {
@@ -2541,7 +3402,8 @@
             "geroscience"
           ],
           "filename": "task_output_node_analysis_biology_16_AUG_2026.md",
-          "path": "tasks/en-US/task_output_node_analysis_biology_16_AUG_2026.md"
+          "path": "tasks/en-US/task_output_node_analysis_biology_16_AUG_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_node_analysis_biology_16_AUG_2026.md"
         },
         "zh-TW": {
           "title": "用於生物學優先排序的節點層級網絡分析",
@@ -2559,8 +3421,15 @@
             "geroscience"
           ],
           "filename": "task_output_node_analysis_biology_16_AUG_2026.md",
-          "path": "tasks/zh-TW/task_output_node_analysis_biology_16_AUG_2026.md"
+          "path": "tasks/zh-TW/task_output_node_analysis_biology_16_AUG_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_node_analysis_biology_16_AUG_2026.md"
         }
+      },
+      "stats": {
+        "words": 1584,
+        "images": 0,
+        "links": 0,
+        "diagrams": 0
       }
     },
     {
@@ -2584,7 +3453,8 @@
             "therapeutics"
           ],
           "filename": "task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md",
-          "path": "tasks/en-US/task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md"
+          "path": "tasks/en-US/task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md"
         },
         "zh-TW": {
           "title": "節點分析 — 哺乳動物 Sirtuins（SIRT1–7）vs. 來自衰老綜述的標的與受質",
@@ -2604,8 +3474,15 @@
             "therapeutics"
           ],
           "filename": "task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md",
-          "path": "tasks/zh-TW/task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md"
+          "path": "tasks/zh-TW/task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_node_analysis_sirtuins_in_aging_process_17_AUGUST_2026.md"
         }
+      },
+      "stats": {
+        "words": 3963,
+        "images": 0,
+        "links": 9,
+        "diagrams": 0
       }
     },
     {
@@ -2630,7 +3507,8 @@
             "graph-theory"
           ],
           "filename": "task_output_node_comt_mao_15_August_2026.md",
-          "path": "tasks/en-US/task_output_node_comt_mao_15_August_2026.md"
+          "path": "tasks/en-US/task_output_node_comt_mao_15_August_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_node_comt_mao_15_August_2026.md"
         },
         "zh-TW": {
           "title": "COMT × MAO 節點分析 vs 多巴胺 / 腎上腺素 — 15 August 2026",
@@ -2651,8 +3529,15 @@
             "graph-theory"
           ],
           "filename": "task_output_node_comt_mao_15_August_2026.md",
-          "path": "tasks/zh-TW/task_output_node_comt_mao_15_August_2026.md"
+          "path": "tasks/zh-TW/task_output_node_comt_mao_15_August_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_node_comt_mao_15_August_2026.md"
         }
+      },
+      "stats": {
+        "words": 845,
+        "images": 0,
+        "links": 14,
+        "diagrams": 0
       }
     },
     {
@@ -2678,7 +3563,8 @@
             "graph-theory"
           ],
           "filename": "task_output_node_sirtuins_catecholamines_15_August_2026.md",
-          "path": "tasks/en-US/task_output_node_sirtuins_catecholamines_15_August_2026.md"
+          "path": "tasks/en-US/task_output_node_sirtuins_catecholamines_15_August_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_node_sirtuins_catecholamines_15_August_2026.md"
         },
         "zh-TW": {
           "title": "Sirtuins × Catecholamines 綜合節點分析 — 15 August 2026",
@@ -2700,8 +3586,15 @@
             "graph-theory"
           ],
           "filename": "task_output_node_sirtuins_catecholamines_15_August_2026.md",
-          "path": "tasks/zh-TW/task_output_node_sirtuins_catecholamines_15_August_2026.md"
+          "path": "tasks/zh-TW/task_output_node_sirtuins_catecholamines_15_August_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_node_sirtuins_catecholamines_15_August_2026.md"
         }
+      },
+      "stats": {
+        "words": 957,
+        "images": 0,
+        "links": 31,
+        "diagrams": 0
       }
     },
     {
@@ -2721,7 +3614,8 @@
             "senolytic"
           ],
           "filename": "task_output_acid_ceramidase_27_July_2026.md",
-          "path": "tasks/en-US/task_output_acid_ceramidase_27_July_2026.md"
+          "path": "tasks/en-US/task_output_acid_ceramidase_27_July_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_acid_ceramidase_27_July_2026.md"
         },
         "zh-TW": {
           "title": "酸性神經醯胺酶在鐵死亡與細胞衰老中的角色",
@@ -2737,8 +3631,15 @@
             "senolytic"
           ],
           "filename": "task_output_acid_ceramidase_27_July_2026.md",
-          "path": "tasks/zh-TW/task_output_acid_ceramidase_27_July_2026.md"
+          "path": "tasks/zh-TW/task_output_acid_ceramidase_27_July_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_acid_ceramidase_27_July_2026.md"
         }
+      },
+      "stats": {
+        "words": 1333,
+        "images": 0,
+        "links": 138,
+        "diagrams": 0
       }
     },
     {
@@ -2755,7 +3656,8 @@
             "chemotherapy"
           ],
           "filename": "task_output_autophagy_and_cancer_13_JUL_2026.md",
-          "path": "tasks/en-US/task_output_autophagy_and_cancer_13_JUL_2026.md"
+          "path": "tasks/en-US/task_output_autophagy_and_cancer_13_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_autophagy_and_cancer_13_JUL_2026.md"
         },
         "zh-TW": {
           "title": "化療期間的自噬 — 衝突與一致的觀點",
@@ -2768,8 +3670,15 @@
             "chemotherapy"
           ],
           "filename": "task_output_autophagy_and_cancer_13_JUL_2026.md",
-          "path": "tasks/zh-TW/task_output_autophagy_and_cancer_13_JUL_2026.md"
+          "path": "tasks/zh-TW/task_output_autophagy_and_cancer_13_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_autophagy_and_cancer_13_JUL_2026.md"
         }
+      },
+      "stats": {
+        "words": 2101,
+        "images": 0,
+        "links": 1,
+        "diagrams": 0
       }
     },
     {
@@ -2793,7 +3702,8 @@
             "dog-aging-project"
           ],
           "filename": "task_output_autophagy_mammals_longevity_22_JULY_2026.md",
-          "path": "tasks/en-US/task_output_autophagy_mammals_longevity_22_JULY_2026.md"
+          "path": "tasks/en-US/task_output_autophagy_mammals_longevity_22_JULY_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_autophagy_mammals_longevity_22_JULY_2026.md"
         },
         "zh-TW": {
           "title": "伴侶哺乳動物（犬/貓）中的自噬與壽命",
@@ -2813,43 +3723,15 @@
             "dog-aging-project"
           ],
           "filename": "task_output_autophagy_mammals_longevity_22_JULY_2026.md",
-          "path": "tasks/zh-TW/task_output_autophagy_mammals_longevity_22_JULY_2026.md"
+          "path": "tasks/zh-TW/task_output_autophagy_mammals_longevity_22_JULY_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_autophagy_mammals_longevity_22_JULY_2026.md"
         }
-      }
-    },
-    {
-      "id": "task_output_autophagy_vs_mitophagy_17_JUL_2026",
-      "langs": {
-        "en-US": {
-          "title": "Autophagy vs. Mitophagy — Mechanistic Differences, Fasting Cadence, and Lifestyle Adjustments",
-          "description": "Synthesis comparing autophagy and mitophagy mechanisms, their differential responses to fasting protocols, life-stage considerations, lifestyle phenotypes, and specific adjustments required for mitophagy beyond general autophagy.",
-          "created": "2026-07-21",
-          "updated": "2026-08-22",
-          "tags": [
-            "task-output",
-            "autophagy",
-            "mitophagy",
-            "fasting",
-            "exercise"
-          ],
-          "filename": "task_output_autophagy_vs_mitophagy_17_JUL_2026.md",
-          "path": "tasks/en-US/task_output_autophagy_vs_mitophagy_17_JUL_2026.md"
-        },
-        "zh-TW": {
-          "title": "自噬 vs. 粒線體自噬 — 機制差異、禁食節奏與生活型態調整",
-          "description": "比較自噬與粒線體自噬機制、其對禁食方案的差異性反應、生命階段考量、生活型態表型，以及超越一般自噬所需針對粒線體自噬的特定調整之綜述。",
-          "created": "2026-07-21",
-          "updated": "2026-08-22",
-          "tags": [
-            "task-output",
-            "autophagy",
-            "mitophagy",
-            "fasting",
-            "exercise"
-          ],
-          "filename": "task_output_autophagy_vs_mitophagy_17_JUL_2026.md",
-          "path": "tasks/zh-TW/task_output_autophagy_vs_mitophagy_17_JUL_2026.md"
-        }
+      },
+      "stats": {
+        "words": 2831,
+        "images": 0,
+        "links": 48,
+        "diagrams": 0
       }
     },
     {
@@ -2870,7 +3752,8 @@
             "cell-death"
           ],
           "filename": "task_output_caspase_01_JUN_2026.md",
-          "path": "tasks/en-US/task_output_caspase_01_JUN_2026.md"
+          "path": "tasks/en-US/task_output_caspase_01_JUN_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_caspase_01_JUN_2026.md"
         },
         "zh-TW": {
           "title": "Caspase 與 Bcl-2 家族調控的分子機制",
@@ -2887,8 +3770,15 @@
             "cell-death"
           ],
           "filename": "task_output_caspase_01_JUN_2026.md",
-          "path": "tasks/zh-TW/task_output_caspase_01_JUN_2026.md"
+          "path": "tasks/zh-TW/task_output_caspase_01_JUN_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_caspase_01_JUN_2026.md"
         }
+      },
+      "stats": {
+        "words": 893,
+        "images": 0,
+        "links": 74,
+        "diagrams": 0
       }
     },
     {
@@ -2910,7 +3800,8 @@
             "longevity"
           ],
           "filename": "task_output_comt_fisetin_senolytic_09_July_2026.md",
-          "path": "tasks/en-US/task_output_comt_fisetin_senolytic_09_July_2026.md"
+          "path": "tasks/en-US/task_output_comt_fisetin_senolytic_09_July_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_comt_fisetin_senolytic_09_July_2026.md"
         },
         "zh-TW": {
           "title": "非瑟酮作為 COMT 抑制劑 — 衰老溶解交集與實驗計畫",
@@ -2928,43 +3819,15 @@
             "longevity"
           ],
           "filename": "task_output_comt_fisetin_senolytic_09_July_2026.md",
-          "path": "tasks/zh-TW/task_output_comt_fisetin_senolytic_09_July_2026.md"
+          "path": "tasks/zh-TW/task_output_comt_fisetin_senolytic_09_July_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_comt_fisetin_senolytic_09_July_2026.md"
         }
-      }
-    },
-    {
-      "id": "task_output_cr_vs_spermidine_autophagy_15_July_2026",
-      "langs": {
-        "en-US": {
-          "title": "Caloric Restriction vs Spermidine Diet Autophagy — Differences and Additive Effects",
-          "description": "Analysis of mechanistic differences between CR-induced autophagy and diet-based autophagy inducers (spermidine, rapamycin), with trace of additive effects from combination strategies",
-          "created": "2026-07-21",
-          "updated": "2026-08-22",
-          "tags": [
-            "autophagy",
-            "caloric-restriction",
-            "spermidine",
-            "rapamycin",
-            "longevity"
-          ],
-          "filename": "task_output_cr_vs_spermidine_autophagy_15_July_2026.md",
-          "path": "tasks/en-US/task_output_cr_vs_spermidine_autophagy_15_July_2026.md"
-        },
-        "zh-TW": {
-          "title": "熱量限制 vs 亞精胺飲食自噬 — 差異與疊加效應",
-          "description": "CR誘導自噬與飲食自噬誘導劑（亞精胺、雷帕黴素）之間的機制差異分析，以及組合策略疊加效應的追蹤",
-          "created": "2026-07-21",
-          "updated": "2026-08-22",
-          "tags": [
-            "autophagy",
-            "caloric-restriction",
-            "spermidine",
-            "rapamycin",
-            "longevity"
-          ],
-          "filename": "task_output_cr_vs_spermidine_autophagy_15_July_2026.md",
-          "path": "tasks/zh-TW/task_output_cr_vs_spermidine_autophagy_15_July_2026.md"
-        }
+      },
+      "stats": {
+        "words": 3214,
+        "images": 0,
+        "links": 180,
+        "diagrams": 0
       }
     },
     {
@@ -2984,7 +3847,8 @@
             "adrenochrome"
           ],
           "filename": "task_output_dj1_glycation_trace_27_JUL_2026.md",
-          "path": "tasks/en-US/task_output_dj1_glycation_trace_27_JUL_2026.md"
+          "path": "tasks/en-US/task_output_dj1_glycation_trace_27_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_dj1_glycation_trace_27_JUL_2026.md"
         },
         "zh-TW": {
           "title": "DJ-1 / 糖化防禦追蹤",
@@ -3000,8 +3864,15 @@
             "adrenochrome"
           ],
           "filename": "task_output_dj1_glycation_trace_27_JUL_2026.md",
-          "path": "tasks/zh-TW/task_output_dj1_glycation_trace_27_JUL_2026.md"
+          "path": "tasks/zh-TW/task_output_dj1_glycation_trace_27_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_dj1_glycation_trace_27_JUL_2026.md"
         }
+      },
+      "stats": {
+        "words": 2003,
+        "images": 0,
+        "links": 283,
+        "diagrams": 0
       }
     },
     {
@@ -3021,7 +3892,8 @@
             "synergy"
           ],
           "filename": "task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md",
-          "path": "tasks/en-US/task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md"
+          "path": "tasks/en-US/task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md"
         },
         "zh-TW": {
           "title": "抗癌機制：伊維菌素與芬苯達唑 — 協同作用與綜合影響",
@@ -3037,8 +3909,15 @@
             "synergy"
           ],
           "filename": "task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md",
-          "path": "tasks/zh-TW/task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md"
+          "path": "tasks/zh-TW/task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md"
         }
+      },
+      "stats": {
+        "words": 2798,
+        "images": 0,
+        "links": 18,
+        "diagrams": 0
       }
     },
     {
@@ -3066,7 +3945,8 @@
             "fenbendazole"
           ],
           "filename": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md",
-          "path": "tasks/en-US/task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md"
+          "path": "tasks/en-US/task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md"
         },
         "zh-TW": {
           "title": "伊維菌素、山中因子與老化 — graphify 探索",
@@ -3090,8 +3970,15 @@
             "fenbendazole"
           ],
           "filename": "task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md",
-          "path": "tasks/zh-TW/task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md"
+          "path": "tasks/zh-TW/task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_ivermectin_fenbendazole_yamanaka_aging_28_JUL_2026.md"
         }
+      },
+      "stats": {
+        "words": 2589,
+        "images": 0,
+        "links": 7,
+        "diagrams": 0
       }
     },
     {
@@ -3114,7 +4001,8 @@
             "mitophagy"
           ],
           "filename": "task_output_mitochondria_fusion_fission_27_JUL_2026.md",
-          "path": "tasks/en-US/task_output_mitochondria_fusion_fission_27_JUL_2026.md"
+          "path": "tasks/en-US/task_output_mitochondria_fusion_fission_27_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_mitochondria_fusion_fission_27_JUL_2026.md"
         },
         "zh-TW": {
           "title": "粒線體分裂與融合機制的研究缺口",
@@ -3133,8 +4021,15 @@
             "mitophagy"
           ],
           "filename": "task_output_mitochondria_fusion_fission_27_JUL_2026.md",
-          "path": "tasks/zh-TW/task_output_mitochondria_fusion_fission_27_JUL_2026.md"
+          "path": "tasks/zh-TW/task_output_mitochondria_fusion_fission_27_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_mitochondria_fusion_fission_27_JUL_2026.md"
         }
+      },
+      "stats": {
+        "words": 1573,
+        "images": 0,
+        "links": 23,
+        "diagrams": 0
       }
     },
     {
@@ -3157,7 +4052,8 @@
             "graph-theory"
           ],
           "filename": "task_output_node_sirtuins_adrenochrome_15_August_2026.md",
-          "path": "tasks/en-US/task_output_node_sirtuins_adrenochrome_15_August_2026.md"
+          "path": "tasks/en-US/task_output_node_sirtuins_adrenochrome_15_August_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_node_sirtuins_adrenochrome_15_August_2026.md"
         },
         "zh-TW": {
           "title": "Sirtuins × Adrenochrome 節點分析 — NetworkX & SciPy — 15 August 2026",
@@ -3176,8 +4072,15 @@
             "graph-theory"
           ],
           "filename": "task_output_node_sirtuins_adrenochrome_15_August_2026.md",
-          "path": "tasks/zh-TW/task_output_node_sirtuins_adrenochrome_15_August_2026.md"
+          "path": "tasks/zh-TW/task_output_node_sirtuins_adrenochrome_15_August_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_node_sirtuins_adrenochrome_15_August_2026.md"
         }
+      },
+      "stats": {
+        "words": 1176,
+        "images": 0,
+        "links": 27,
+        "diagrams": 0
       }
     },
     {
@@ -3195,7 +4098,8 @@
             "literature-review"
           ],
           "filename": "task_output_senescence_research_gaps_18_August_2026.md",
-          "path": "tasks/en-US/task_output_senescence_research_gaps_18_August_2026.md"
+          "path": "tasks/en-US/task_output_senescence_research_gaps_18_August_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_senescence_research_gaps_18_August_2026.md"
         },
         "zh-TW": {
           "title": "細胞衰老生物學的研究缺口 — 最新文件",
@@ -3209,8 +4113,15 @@
             "literature-review"
           ],
           "filename": "task_output_senescence_research_gaps_18_August_2026.md",
-          "path": "tasks/zh-TW/task_output_senescence_research_gaps_18_August_2026.md"
+          "path": "tasks/zh-TW/task_output_senescence_research_gaps_18_August_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_senescence_research_gaps_18_August_2026.md"
         }
+      },
+      "stats": {
+        "words": 4847,
+        "images": 0,
+        "links": 94,
+        "diagrams": 0
       }
     },
     {
@@ -3228,7 +4139,8 @@
             "literature-review"
           ],
           "filename": "task_output_sirtuin_research_gaps_14_August_2026.md",
-          "path": "tasks/en-US/task_output_sirtuin_research_gaps_14_August_2026.md"
+          "path": "tasks/en-US/task_output_sirtuin_research_gaps_14_August_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_sirtuin_research_gaps_14_August_2026.md"
         },
         "zh-TW": {
           "title": "Sirtuin 生物學的研究缺口 — 最新文件",
@@ -3242,8 +4154,15 @@
             "literature-review"
           ],
           "filename": "task_output_sirtuin_research_gaps_14_August_2026.md",
-          "path": "tasks/zh-TW/task_output_sirtuin_research_gaps_14_August_2026.md"
+          "path": "tasks/zh-TW/task_output_sirtuin_research_gaps_14_August_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_sirtuin_research_gaps_14_August_2026.md"
         }
+      },
+      "stats": {
+        "words": 4299,
+        "images": 0,
+        "links": 23,
+        "diagrams": 0
       }
     },
     {
@@ -3269,7 +4188,8 @@
             "review"
           ],
           "filename": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
-          "path": "tasks/en-US/task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
+          "path": "tasks/en-US/task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
         },
         "zh-TW": {
           "title": "健康與疾病中的 Sirtuins — 依併發症分類的節錄彙編",
@@ -3291,8 +4211,15 @@
             "review"
           ],
           "filename": "task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
-          "path": "tasks/zh-TW/task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
+          "path": "tasks/zh-TW/task_output_sirtuins_disease_complications_11_August_2026_by_disease.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_sirtuins_disease_complications_11_August_2026_by_disease.md"
         }
+      },
+      "stats": {
+        "words": 5543,
+        "images": 0,
+        "links": 67,
+        "diagrams": 0
       }
     },
     {
@@ -3317,7 +4244,8 @@
             "review"
           ],
           "filename": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
-          "path": "tasks/en-US/task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+          "path": "tasks/en-US/task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
         },
         "zh-TW": {
           "title": "健康與疾病中的 Sirtuins — 依 Sirtuin 分類的疾病圖景",
@@ -3338,8 +4266,15 @@
             "review"
           ],
           "filename": "task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
-          "path": "tasks/zh-TW/task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
+          "path": "tasks/zh-TW/task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_sirtuins_disease_complications_11_August_2026_by_sirtuin.md"
         }
+      },
+      "stats": {
+        "words": 5159,
+        "images": 0,
+        "links": 7,
+        "diagrams": 0
       }
     },
     {
@@ -3360,7 +4295,8 @@
             "anti-aging"
           ],
           "filename": "task_output_sirt1_ktype_allosteric_activation_14_August_2026.md",
-          "path": "tasks/en-US/task_output_sirt1_ktype_allosteric_activation_14_August_2026.md"
+          "path": "tasks/en-US/task_output_sirt1_ktype_allosteric_activation_14_August_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_sirt1_ktype_allosteric_activation_14_August_2026.md"
         },
         "zh-TW": {
           "title": "SIRT1 K 型異位（allosteric）活化 — STAC 與天然多酚",
@@ -3377,8 +4313,15 @@
             "anti-aging"
           ],
           "filename": "task_output_sirt1_ktype_allosteric_activation_14_August_2026.md",
-          "path": "tasks/zh-TW/task_output_sirt1_ktype_allosteric_activation_14_August_2026.md"
+          "path": "tasks/zh-TW/task_output_sirt1_ktype_allosteric_activation_14_August_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_sirt1_ktype_allosteric_activation_14_August_2026.md"
         }
+      },
+      "stats": {
+        "words": 1137,
+        "images": 0,
+        "links": 31,
+        "diagrams": 0
       }
     },
     {
@@ -3398,7 +4341,8 @@
             "cancer"
           ],
           "filename": "task_output_benign_tumor_longevity_14_August_2026.md",
-          "path": "tasks/en-US/task_output_benign_tumor_longevity_14_August_2026.md"
+          "path": "tasks/en-US/task_output_benign_tumor_longevity_14_August_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_benign_tumor_longevity_14_August_2026.md"
         },
         "zh-TW": {
           "title": "良性腫瘤與壽命",
@@ -3414,8 +4358,15 @@
             "cancer"
           ],
           "filename": "task_output_benign_tumor_longevity_14_August_2026.md",
-          "path": "tasks/zh-TW/task_output_benign_tumor_longevity_14_August_2026.md"
+          "path": "tasks/zh-TW/task_output_benign_tumor_longevity_14_August_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_benign_tumor_longevity_14_August_2026.md"
         }
+      },
+      "stats": {
+        "words": 910,
+        "images": 0,
+        "links": 36,
+        "diagrams": 0
       }
     },
     {
@@ -3438,7 +4389,8 @@
             "review"
           ],
           "filename": "task_output_sirtuins_pleiotropic_roles_12_August_2026.md",
-          "path": "tasks/en-US/task_output_sirtuins_pleiotropic_roles_12_August_2026.md"
+          "path": "tasks/en-US/task_output_sirtuins_pleiotropic_roles_12_August_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_sirtuins_pleiotropic_roles_12_August_2026.md"
         },
         "zh-TW": {
           "title": "SIRT 在腫瘤細胞代謝與治療標靶中的多效角色",
@@ -3457,8 +4409,15 @@
             "review"
           ],
           "filename": "task_output_sirtuins_pleiotropic_roles_12_August_2026.md",
-          "path": "tasks/zh-TW/task_output_sirtuins_pleiotropic_roles_12_August_2026.md"
+          "path": "tasks/zh-TW/task_output_sirtuins_pleiotropic_roles_12_August_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_sirtuins_pleiotropic_roles_12_August_2026.md"
         }
+      },
+      "stats": {
+        "words": 2315,
+        "images": 0,
+        "links": 0,
+        "diagrams": 0
       }
     },
     {
@@ -3481,7 +4440,8 @@
             "knowledge-graph"
           ],
           "filename": "task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md",
-          "path": "tasks/en-US/task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md"
+          "path": "tasks/en-US/task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md"
         },
         "zh-TW": {
           "title": "Adrenochrome → Sirtuins 反防禦追蹤 — 源自圖譜的機制圖譜",
@@ -3500,8 +4460,15 @@
             "knowledge-graph"
           ],
           "filename": "task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md",
-          "path": "tasks/zh-TW/task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md"
+          "path": "tasks/zh-TW/task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_adrenochrome_sirtuins_trace_17_JUL_2026.md"
         }
+      },
+      "stats": {
+        "words": 501,
+        "images": 0,
+        "links": 8,
+        "diagrams": 0
       }
     },
     {
@@ -3523,7 +4490,8 @@
             "nad"
           ],
           "filename": "task_output_review_notes_epinephrine_sirtuins_06_July_2026.md",
-          "path": "tasks/en-US/task_output_review_notes_epinephrine_sirtuins_06_July_2026.md"
+          "path": "tasks/en-US/task_output_review_notes_epinephrine_sirtuins_06_July_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_review_notes_epinephrine_sirtuins_06_July_2026.md"
         },
         "zh-TW": {
           "title": "Epinephrine（腎上腺素）↔ Neutrophils（嗜中性球）/ Erythrocytes（紅血球）↔ Sirtuins（去乙醯化酶）：機制連結與長壽意涵",
@@ -3541,8 +4509,15 @@
             "nad"
           ],
           "filename": "task_output_review_notes_epinephrine_sirtuins_06_July_2026.md",
-          "path": "tasks/zh-TW/task_output_review_notes_epinephrine_sirtuins_06_July_2026.md"
+          "path": "tasks/zh-TW/task_output_review_notes_epinephrine_sirtuins_06_July_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_review_notes_epinephrine_sirtuins_06_July_2026.md"
         }
+      },
+      "stats": {
+        "words": 1950,
+        "images": 0,
+        "links": 130,
+        "diagrams": 0
       }
     },
     {
@@ -3564,7 +4539,8 @@
             "mitochondrial-biogenesis"
           ],
           "filename": "task_output_mitohormesis_antioxidants_05_August_2026.md",
-          "path": "tasks/en-US/task_output_mitohormesis_antioxidants_05_August_2026.md"
+          "path": "tasks/en-US/task_output_mitohormesis_antioxidants_05_August_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_mitohormesis_antioxidants_05_August_2026.md"
         },
         "zh-TW": {
           "title": "抗氧化劑會阻斷粒線體荷爾蒙效應嗎？— 證據排名與時機",
@@ -3582,8 +4558,15 @@
             "mitochondrial-biogenesis"
           ],
           "filename": "task_output_mitohormesis_antioxidants_05_August_2026.md",
-          "path": "tasks/zh-TW/task_output_mitohormesis_antioxidants_05_August_2026.md"
+          "path": "tasks/zh-TW/task_output_mitohormesis_antioxidants_05_August_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_mitohormesis_antioxidants_05_August_2026.md"
         }
+      },
+      "stats": {
+        "words": 3533,
+        "images": 0,
+        "links": 25,
+        "diagrams": 0
       }
     },
     {
@@ -3606,7 +4589,8 @@
             "aging"
           ],
           "filename": "task_output_nad_to_bnip3_trace_21_JUL_2026.md",
-          "path": "tasks/en-US/cd38_sarm1_nad_trace/task_output_nad_to_bnip3_trace_21_JUL_2026.md"
+          "path": "tasks/en-US/cd38_sarm1_nad_trace/task_output_nad_to_bnip3_trace_21_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/cd38_sarm1_nad_trace/task_output_nad_to_bnip3_trace_21_JUL_2026.md"
         },
         "zh-TW": {
           "title": "圖譜追蹤：NAD+ 至 BNIP3 — 代謝訊號傳遞至粒線體自噬",
@@ -3625,8 +4609,15 @@
             "aging"
           ],
           "filename": "task_output_nad_to_bnip3_trace_21_JUL_2026.md",
-          "path": "tasks/zh-TW/cd38_sarm1_nad_trace/task_output_nad_to_bnip3_trace_21_JUL_2026.md"
+          "path": "tasks/zh-TW/cd38_sarm1_nad_trace/task_output_nad_to_bnip3_trace_21_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/cd38_sarm1_nad_trace/task_output_nad_to_bnip3_trace_21_JUL_2026.md"
         }
+      },
+      "stats": {
+        "words": 1233,
+        "images": 0,
+        "links": 227,
+        "diagrams": 0
       }
     },
     {
@@ -3649,7 +4640,8 @@
             "aging"
           ],
           "filename": "task_output_ap1_trace_21_JUL_2026.md",
-          "path": "tasks/en-US/task_output_ap1_trace_21_JUL_2026.md"
+          "path": "tasks/en-US/task_output_ap1_trace_21_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_ap1_trace_21_JUL_2026.md"
         },
         "zh-TW": {
           "title": "圖譜追蹤：AP-1 作為 Src 知識圖譜中的跨社群橋樑",
@@ -3668,8 +4660,15 @@
             "aging"
           ],
           "filename": "task_output_ap1_trace_21_JUL_2026.md",
-          "path": "tasks/zh-TW/task_output_ap1_trace_21_JUL_2026.md"
+          "path": "tasks/zh-TW/task_output_ap1_trace_21_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_ap1_trace_21_JUL_2026.md"
         }
+      },
+      "stats": {
+        "words": 645,
+        "images": 0,
+        "links": 23,
+        "diagrams": 0
       }
     },
     {
@@ -3692,7 +4691,8 @@
             "parp1"
           ],
           "filename": "task_output_alphafold_report_NAD+_26_JUN_2026.md",
-          "path": "tasks/en-US/task_output_alphafold_report_NAD%2B_26_JUN_2026.md"
+          "path": "tasks/en-US/task_output_alphafold_report_NAD%2B_26_JUN_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_alphafold_report_NAD%2B_26_JUN_2026.md"
         },
         "zh-TW": {
           "title": "AlphaFold 結構分析報告 — NAD+ 代謝蛋白（CD38、BST1、SARM1、NAMPT、NT5E、SIRT1/3/6、PARP1）",
@@ -3711,8 +4711,15 @@
             "parp1"
           ],
           "filename": "task_output_alphafold_report_NAD+_26_JUN_2026.md",
-          "path": "tasks/zh-TW/task_output_alphafold_report_NAD%2B_26_JUN_2026.md"
+          "path": "tasks/zh-TW/task_output_alphafold_report_NAD%2B_26_JUN_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_alphafold_report_NAD%2B_26_JUN_2026.md"
         }
+      },
+      "stats": {
+        "words": 1308,
+        "images": 0,
+        "links": 0,
+        "diagrams": 0
       }
     },
     {
@@ -3730,7 +4737,8 @@
             "graphify-query"
           ],
           "filename": "task_output_ivermectin_cancer_14_JUL_2026.md",
-          "path": "tasks/en-US/task_output_ivermectin_cancer_14_JUL_2026.md"
+          "path": "tasks/en-US/task_output_ivermectin_cancer_14_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_ivermectin_cancer_14_JUL_2026.md"
         },
         "zh-TW": {
           "title": "伊維菌素作為預防性 / 抗癌措施 — 知識圖譜追蹤發現",
@@ -3744,8 +4752,15 @@
             "graphify-query"
           ],
           "filename": "task_output_ivermectin_cancer_14_JUL_2026.md",
-          "path": "tasks/zh-TW/task_output_ivermectin_cancer_14_JUL_2026.md"
+          "path": "tasks/zh-TW/task_output_ivermectin_cancer_14_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_ivermectin_cancer_14_JUL_2026.md"
         }
+      },
+      "stats": {
+        "words": 714,
+        "images": 0,
+        "links": 60,
+        "diagrams": 0
       }
     },
     {
@@ -3768,7 +4783,8 @@
             "oxidative-stress"
           ],
           "filename": "task_output_physiologist_shred_vs_bulk.md",
-          "path": "tasks/en-US/task_output_physiologist_shred_vs_bulk.md"
+          "path": "tasks/en-US/task_output_physiologist_shred_vs_bulk.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_physiologist_shred_vs_bulk.md"
         },
         "zh-TW": {
           "title": "增肌（Bulk）vs. 減脂（Shred）情境分析 — 提高的靜息代謝率與生物實體交互作用",
@@ -3787,8 +4803,15 @@
             "oxidative-stress"
           ],
           "filename": "task_output_physiologist_shred_vs_bulk.md",
-          "path": "tasks/zh-TW/task_output_physiologist_shred_vs_bulk.md"
+          "path": "tasks/zh-TW/task_output_physiologist_shred_vs_bulk.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_physiologist_shred_vs_bulk.md"
         }
+      },
+      "stats": {
+        "words": 1114,
+        "images": 0,
+        "links": 0,
+        "diagrams": 0
       }
     },
     {
@@ -3809,7 +4832,8 @@
             "research-strategy"
           ],
           "filename": "task_output_sirtuins_recommendations_03_JULY_2026.md",
-          "path": "tasks/en-US/task_output_sirtuins_recommendations_03_JULY_2026.md"
+          "path": "tasks/en-US/task_output_sirtuins_recommendations_03_JULY_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_sirtuins_recommendations_03_JULY_2026.md"
         },
         "zh-TW": {
           "title": "策略研究建議 — 以 Sirtuin 為核心的長壽與再生醫學",
@@ -3826,8 +4850,15 @@
             "research-strategy"
           ],
           "filename": "task_output_sirtuins_recommendations_03_JULY_2026.md",
-          "path": "tasks/zh-TW/task_output_sirtuins_recommendations_03_JULY_2026.md"
+          "path": "tasks/zh-TW/task_output_sirtuins_recommendations_03_JULY_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_sirtuins_recommendations_03_JULY_2026.md"
         }
+      },
+      "stats": {
+        "words": 2654,
+        "images": 0,
+        "links": 259,
+        "diagrams": 0
       }
     },
     {
@@ -3847,7 +4878,8 @@
             "phosphorylation"
           ],
           "filename": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md",
-          "path": "tasks/en-US/tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md"
+          "path": "tasks/en-US/tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md"
         },
         "zh-TW": {
           "title": "凋亡調節因子的癌症關聯 — Caspase、Bcl-2 家族與磷酸化位點",
@@ -3863,8 +4895,15 @@
             "phosphorylation"
           ],
           "filename": "tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md",
-          "path": "tasks/zh-TW/tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md"
+          "path": "tasks/zh-TW/tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/tbl_cancer_and_apoptotic_regulators_01_JUN_2026-00.md"
         }
+      },
+      "stats": {
+        "words": 5014,
+        "images": 0,
+        "links": 106,
+        "diagrams": 0
       }
     },
     {
@@ -3885,7 +4924,8 @@
             "cell-cycle-arrest"
           ],
           "filename": "tbl_senescent_compounds_normalized.md",
-          "path": "tasks/en-US/tbl_senescent_compounds_normalized.md"
+          "path": "tasks/en-US/tbl_senescent_compounds_normalized.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/tbl_senescent_compounds_normalized.md"
         },
         "zh-TW": {
           "title": "標準化表格 — 依作用機制分類的衰老誘導小分子化合物",
@@ -3902,8 +4942,15 @@
             "cell-cycle-arrest"
           ],
           "filename": "tbl_senescent_compounds_normalized.md",
-          "path": "tasks/zh-TW/tbl_senescent_compounds_normalized.md"
+          "path": "tasks/zh-TW/tbl_senescent_compounds_normalized.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/tbl_senescent_compounds_normalized.md"
         }
+      },
+      "stats": {
+        "words": 4738,
+        "images": 0,
+        "links": 0,
+        "diagrams": 0
       }
     },
     {
@@ -3924,7 +4971,8 @@
             "neurodegeneration"
           ],
           "filename": "tbl_tfeb_target_mechanisms.md",
-          "path": "tasks/en-US/tbl_tfeb_target_mechanisms.md"
+          "path": "tasks/en-US/tbl_tfeb_target_mechanisms.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/tbl_tfeb_target_mechanisms.md"
         },
         "zh-TW": {
           "title": "TFEB 標靶調控機制跨疾病模型",
@@ -3941,8 +4989,15 @@
             "neurodegeneration"
           ],
           "filename": "tbl_tfeb_target_mechanisms.md",
-          "path": "tasks/zh-TW/tbl_tfeb_target_mechanisms.md"
+          "path": "tasks/zh-TW/tbl_tfeb_target_mechanisms.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/tbl_tfeb_target_mechanisms.md"
         }
+      },
+      "stats": {
+        "words": 640,
+        "images": 0,
+        "links": 0,
+        "diagrams": 0
       }
     },
     {
@@ -3964,7 +5019,8 @@
             "mitohormesis"
           ],
           "filename": "task_output_adrenochrome_foamcells_autophagy_trace_17_JUL_2026.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_adrenochrome_foamcells_autophagy_trace_17_JUL_2026.md"
+          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_adrenochrome_foamcells_autophagy_trace_17_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_foamcells_autophagy_trace_17_JUL_2026.md"
         },
         "zh-TW": {
           "title": "Graphify 追蹤 — Adrenochrome（腎上腺紅質） → 自噬／粒線體自噬 與 泡沫細胞",
@@ -3982,8 +5038,15 @@
             "mitohormesis"
           ],
           "filename": "task_output_adrenochrome_foamcells_autophagy_trace_17_JUL_2026.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_foamcells_autophagy_trace_17_JUL_2026.md"
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_foamcells_autophagy_trace_17_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_foamcells_autophagy_trace_17_JUL_2026.md"
         }
+      },
+      "stats": {
+        "words": 831,
+        "images": 0,
+        "links": 89,
+        "diagrams": 0
       }
     },
     {
@@ -4002,7 +5065,8 @@
             "adrenochrome"
           ],
           "filename": "task_output_adrenochrome_lipid_peroxidation_bridge_17_July_2026.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_adrenochrome_lipid_peroxidation_bridge_17_July_2026.md"
+          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_adrenochrome_lipid_peroxidation_bridge_17_July_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_lipid_peroxidation_bridge_17_July_2026.md"
         },
         "zh-TW": {
           "title": "腎上腺素紅 → 脂質過氧化：機制橋樑和研究機會",
@@ -4017,8 +5081,15 @@
             "腎上腺素紅"
           ],
           "filename": "task_output_adrenochrome_lipid_peroxidation_bridge_17_July_2026.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_lipid_peroxidation_bridge_17_July_2026.md"
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_lipid_peroxidation_bridge_17_July_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_lipid_peroxidation_bridge_17_July_2026.md"
         }
+      },
+      "stats": {
+        "words": 2348,
+        "images": 0,
+        "links": 190,
+        "diagrams": 0
       }
     },
     {
@@ -4042,7 +5113,8 @@
             "knowledge-graph"
           ],
           "filename": "task_output_CD38_CNS_microglia_SARM1_neuron_17_JUL_2026.md",
-          "path": "tasks/en-US/cd38_sarm1_nad_trace/task_output_CD38_CNS_microglia_SARM1_neuron_17_JUL_2026.md"
+          "path": "tasks/en-US/cd38_sarm1_nad_trace/task_output_CD38_CNS_microglia_SARM1_neuron_17_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/cd38_sarm1_nad_trace/task_output_CD38_CNS_microglia_SARM1_neuron_17_JUL_2026.md"
         },
         "zh-TW": {
           "title": "微膠細胞-CD38 對比 神經元-SARM1 — CNS NAD+ 競爭圖譜",
@@ -4062,8 +5134,15 @@
             "knowledge-graph"
           ],
           "filename": "task_output_CD38_CNS_microglia_SARM1_neuron_17_JUL_2026.md",
-          "path": "tasks/zh-TW/cd38_sarm1_nad_trace/task_output_CD38_CNS_microglia_SARM1_neuron_17_JUL_2026.md"
+          "path": "tasks/zh-TW/cd38_sarm1_nad_trace/task_output_CD38_CNS_microglia_SARM1_neuron_17_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/cd38_sarm1_nad_trace/task_output_CD38_CNS_microglia_SARM1_neuron_17_JUL_2026.md"
         }
+      },
+      "stats": {
+        "words": 710,
+        "images": 0,
+        "links": 0,
+        "diagrams": 0
       }
     },
     {
@@ -4087,7 +5166,8 @@
             "knowledge-graph"
           ],
           "filename": "task_output_CD38_NADplus_parallel_adrenochrome_17_JUL_2026.md",
-          "path": "tasks/en-US/cd38_sarm1_nad_trace/task_output_CD38_NADplus_parallel_adrenochrome_17_JUL_2026.md"
+          "path": "tasks/en-US/cd38_sarm1_nad_trace/task_output_CD38_NADplus_parallel_adrenochrome_17_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/cd38_sarm1_nad_trace/task_output_CD38_NADplus_parallel_adrenochrome_17_JUL_2026.md"
         },
         "zh-TW": {
           "title": "CD38–NAD+ 消耗 — 通往腎上腺色素反防禦的平行追蹤",
@@ -4107,8 +5187,15 @@
             "knowledge-graph"
           ],
           "filename": "task_output_CD38_NADplus_parallel_adrenochrome_17_JUL_2026.md",
-          "path": "tasks/zh-TW/cd38_sarm1_nad_trace/task_output_CD38_NADplus_parallel_adrenochrome_17_JUL_2026.md"
+          "path": "tasks/zh-TW/cd38_sarm1_nad_trace/task_output_CD38_NADplus_parallel_adrenochrome_17_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/cd38_sarm1_nad_trace/task_output_CD38_NADplus_parallel_adrenochrome_17_JUL_2026.md"
         }
+      },
+      "stats": {
+        "words": 592,
+        "images": 0,
+        "links": 5,
+        "diagrams": 0
       }
     },
     {
@@ -4130,7 +5217,8 @@
             "knowledge-graph"
           ],
           "filename": "task_output_CD38_NADplus_trace_17_JUL_2026.md",
-          "path": "tasks/en-US/cd38_sarm1_nad_trace/task_output_CD38_NADplus_trace_17_JUL_2026.md"
+          "path": "tasks/en-US/cd38_sarm1_nad_trace/task_output_CD38_NADplus_trace_17_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/cd38_sarm1_nad_trace/task_output_CD38_NADplus_trace_17_JUL_2026.md"
         },
         "zh-TW": {
           "title": "CD38–NAD+ 追蹤 — 圖譜衍生的機制圖譜",
@@ -4148,8 +5236,15 @@
             "knowledge-graph"
           ],
           "filename": "task_output_CD38_NADplus_trace_17_JUL_2026.md",
-          "path": "tasks/zh-TW/cd38_sarm1_nad_trace/task_output_CD38_NADplus_trace_17_JUL_2026.md"
+          "path": "tasks/zh-TW/cd38_sarm1_nad_trace/task_output_CD38_NADplus_trace_17_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/cd38_sarm1_nad_trace/task_output_CD38_NADplus_trace_17_JUL_2026.md"
         }
+      },
+      "stats": {
+        "words": 560,
+        "images": 0,
+        "links": 0,
+        "diagrams": 0
       }
     },
     {
@@ -4173,7 +5268,8 @@
             "knowledge-graph"
           ],
           "filename": "task_output_CD38_SARM1_NADplus_competition_17_JUL_2026.md",
-          "path": "tasks/en-US/cd38_sarm1_nad_trace/task_output_CD38_SARM1_NADplus_competition_17_JUL_2026.md"
+          "path": "tasks/en-US/cd38_sarm1_nad_trace/task_output_CD38_SARM1_NADplus_competition_17_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/cd38_sarm1_nad_trace/task_output_CD38_SARM1_NADplus_competition_17_JUL_2026.md"
         },
         "zh-TW": {
           "title": "CD38 ↔ SARM1 NAD+ 競爭 — 圖譜衍生的機制圖譜",
@@ -4193,8 +5289,15 @@
             "knowledge-graph"
           ],
           "filename": "task_output_CD38_SARM1_NADplus_competition_17_JUL_2026.md",
-          "path": "tasks/zh-TW/cd38_sarm1_nad_trace/task_output_CD38_SARM1_NADplus_competition_17_JUL_2026.md"
+          "path": "tasks/zh-TW/cd38_sarm1_nad_trace/task_output_CD38_SARM1_NADplus_competition_17_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/cd38_sarm1_nad_trace/task_output_CD38_SARM1_NADplus_competition_17_JUL_2026.md"
         }
+      },
+      "stats": {
+        "words": 659,
+        "images": 0,
+        "links": 9,
+        "diagrams": 0
       }
     },
     {
@@ -4215,7 +5318,8 @@
             "research-synthesis"
           ],
           "filename": "task_output_CD38_SARM1_bridging_gaps_17_JUL_2026.md",
-          "path": "tasks/en-US/cd38_sarm1_nad_trace/task_output_CD38_SARM1_bridging_gaps_17_JUL_2026.md"
+          "path": "tasks/en-US/cd38_sarm1_nad_trace/task_output_CD38_SARM1_bridging_gaps_17_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/cd38_sarm1_nad_trace/task_output_CD38_SARM1_bridging_gaps_17_JUL_2026.md"
         },
         "zh-TW": {
           "title": "CD38–SARM1 橋接缺口 — 缺失的邊、代謝重疊與研究機會",
@@ -4232,8 +5336,15 @@
             "research-synthesis"
           ],
           "filename": "task_output_CD38_SARM1_bridging_gaps_17_JUL_2026.md",
-          "path": "tasks/zh-TW/cd38_sarm1_nad_trace/task_output_CD38_SARM1_bridging_gaps_17_JUL_2026.md"
+          "path": "tasks/zh-TW/cd38_sarm1_nad_trace/task_output_CD38_SARM1_bridging_gaps_17_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/cd38_sarm1_nad_trace/task_output_CD38_SARM1_bridging_gaps_17_JUL_2026.md"
         }
+      },
+      "stats": {
+        "words": 1720,
+        "images": 0,
+        "links": 0,
+        "diagrams": 0
       }
     },
     {
@@ -4257,7 +5368,8 @@
             "knowledge-graph"
           ],
           "filename": "task_output_CD38_SARM1_synergy_17_JUL_2026.md",
-          "path": "tasks/en-US/cd38_sarm1_nad_trace/task_output_CD38_SARM1_synergy_17_JUL_2026.md"
+          "path": "tasks/en-US/cd38_sarm1_nad_trace/task_output_CD38_SARM1_synergy_17_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/cd38_sarm1_nad_trace/task_output_CD38_SARM1_synergy_17_JUL_2026.md"
         },
         "zh-TW": {
           "title": "合併 CD38 + SARM1 抑制的協同 — 圖譜衍生的機制圖譜",
@@ -4277,8 +5389,15 @@
             "knowledge-graph"
           ],
           "filename": "task_output_CD38_SARM1_synergy_17_JUL_2026.md",
-          "path": "tasks/zh-TW/cd38_sarm1_nad_trace/task_output_CD38_SARM1_synergy_17_JUL_2026.md"
+          "path": "tasks/zh-TW/cd38_sarm1_nad_trace/task_output_CD38_SARM1_synergy_17_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/cd38_sarm1_nad_trace/task_output_CD38_SARM1_synergy_17_JUL_2026.md"
         }
+      },
+      "stats": {
+        "words": 754,
+        "images": 0,
+        "links": 0,
+        "diagrams": 0
       }
     },
     {
@@ -4300,7 +5419,8 @@
             "knowledge-graph"
           ],
           "filename": "task_output_SARM1_NADplus_trace_17_JUL_2026.md",
-          "path": "tasks/en-US/cd38_sarm1_nad_trace/task_output_SARM1_NADplus_trace_17_JUL_2026.md"
+          "path": "tasks/en-US/cd38_sarm1_nad_trace/task_output_SARM1_NADplus_trace_17_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/cd38_sarm1_nad_trace/task_output_SARM1_NADplus_trace_17_JUL_2026.md"
         },
         "zh-TW": {
           "title": "SARM1–NAD+ 追蹤 — 圖譜衍生的機制圖譜",
@@ -4318,8 +5438,15 @@
             "knowledge-graph"
           ],
           "filename": "task_output_SARM1_NADplus_trace_17_JUL_2026.md",
-          "path": "tasks/zh-TW/cd38_sarm1_nad_trace/task_output_SARM1_NADplus_trace_17_JUL_2026.md"
+          "path": "tasks/zh-TW/cd38_sarm1_nad_trace/task_output_SARM1_NADplus_trace_17_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/cd38_sarm1_nad_trace/task_output_SARM1_NADplus_trace_17_JUL_2026.md"
         }
+      },
+      "stats": {
+        "words": 633,
+        "images": 0,
+        "links": 0,
+        "diagrams": 0
       }
     },
     {
@@ -4342,7 +5469,8 @@
             "literature-review"
           ],
           "filename": "task_output_research_CD38_SARM1_gaps_17_JUL_2026.md",
-          "path": "tasks/en-US/cd38_sarm1_nad_trace/task_output_research_CD38_SARM1_gaps_17_JUL_2026.md"
+          "path": "tasks/en-US/cd38_sarm1_nad_trace/task_output_research_CD38_SARM1_gaps_17_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/cd38_sarm1_nad_trace/task_output_research_CD38_SARM1_gaps_17_JUL_2026.md"
         },
         "zh-TW": {
           "title": "CD38–SARM1 研究缺口 — 文獻調查",
@@ -4361,8 +5489,15 @@
             "literature-review"
           ],
           "filename": "task_output_research_CD38_SARM1_gaps_17_JUL_2026.md",
-          "path": "tasks/zh-TW/cd38_sarm1_nad_trace/task_output_research_CD38_SARM1_gaps_17_JUL_2026.md"
+          "path": "tasks/zh-TW/cd38_sarm1_nad_trace/task_output_research_CD38_SARM1_gaps_17_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/cd38_sarm1_nad_trace/task_output_research_CD38_SARM1_gaps_17_JUL_2026.md"
         }
+      },
+      "stats": {
+        "words": 1717,
+        "images": 0,
+        "links": 0,
+        "diagrams": 0
       }
     },
     {
@@ -4382,7 +5517,8 @@
             "senolytics"
           ],
           "filename": "task_output_fisetin_sasp_cxcl12_15_July_2026.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_fisetin_sasp_cxcl12_15_July_2026.md"
+          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_fisetin_sasp_cxcl12_15_July_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_fisetin_sasp_cxcl12_15_July_2026.md"
         },
         "zh-TW": {
           "title": "CXCL12 → 內皮功能障礙機制追蹤與非瑟酮救援路徑",
@@ -4398,8 +5534,15 @@
             "senolytics"
           ],
           "filename": "task_output_fisetin_sasp_cxcl12_15_July_2026.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_fisetin_sasp_cxcl12_15_July_2026.md"
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_fisetin_sasp_cxcl12_15_July_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/task_output_fisetin_sasp_cxcl12_15_July_2026.md"
         }
+      },
+      "stats": {
+        "words": 1532,
+        "images": 0,
+        "links": 111,
+        "diagrams": 0
       }
     },
     {
@@ -4418,7 +5561,8 @@
             "product-map"
           ],
           "filename": "task_output_sirtuins_mnsod_biomarker_availability_14_JUL_2026.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_sirtuins_mnsod_biomarker_availability_14_JUL_2026.md"
+          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_sirtuins_mnsod_biomarker_availability_14_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_sirtuins_mnsod_biomarker_availability_14_JUL_2026.md"
         },
         "zh-TW": {
           "title": "商業產品圖 — 非侵入性替代讀數（MnSOD 氧化還原軸「替代品」）",
@@ -4433,8 +5577,15 @@
             "product-map"
           ],
           "filename": "task_output_sirtuins_mnsod_biomarker_availability_14_JUL_2026.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_sirtuins_mnsod_biomarker_availability_14_JUL_2026.md"
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_sirtuins_mnsod_biomarker_availability_14_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/task_output_sirtuins_mnsod_biomarker_availability_14_JUL_2026.md"
         }
+      },
+      "stats": {
+        "words": 723,
+        "images": 0,
+        "links": 13,
+        "diagrams": 0
       }
     },
     {
@@ -4454,7 +5605,8 @@
             "mitochondria"
           ],
           "filename": "task_output_sirtuins_mnsod_biomarker_feasibility_14_JULY_2026.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_sirtuins_mnsod_biomarker_feasibility_14_JULY_2026.md"
+          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_sirtuins_mnsod_biomarker_feasibility_14_JULY_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_sirtuins_mnsod_biomarker_feasibility_14_JULY_2026.md"
         },
         "zh-TW": {
           "title": "SIRT3/SIRT4 生物標記物可行性和 MnSOD 氧化還原軸作為粒線體荷爾蒙視窗指標",
@@ -4470,8 +5622,15 @@
             "mitochondria"
           ],
           "filename": "task_output_sirtuins_mnsod_biomarker_feasibility_14_JULY_2026.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_sirtuins_mnsod_biomarker_feasibility_14_JULY_2026.md"
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_sirtuins_mnsod_biomarker_feasibility_14_JULY_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/task_output_sirtuins_mnsod_biomarker_feasibility_14_JULY_2026.md"
         }
+      },
+      "stats": {
+        "words": 2193,
+        "images": 0,
+        "links": 67,
+        "diagrams": 0
       }
     },
     {
@@ -4491,7 +5650,8 @@
             "protocol"
           ],
           "filename": "task_output_mitohormetic_window_13_JUL_2026.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_mitohormetic_window_13_JUL_2026.md"
+          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_mitohormetic_window_13_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_mitohormetic_window_13_JUL_2026.md"
         },
         "zh-TW": {
           "title": "粒線體荷爾蒙窗口 — 難度審查和個人化方案（75 公斤健康男性）",
@@ -4507,8 +5667,15 @@
             "protocol"
           ],
           "filename": "task_output_mitohormetic_window_13_JUL_2026.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_mitohormetic_window_13_JUL_2026.md"
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_mitohormetic_window_13_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/task_output_mitohormetic_window_13_JUL_2026.md"
         }
+      },
+      "stats": {
+        "words": 3810,
+        "images": 0,
+        "links": 200,
+        "diagrams": 0
       }
     },
     {
@@ -4526,7 +5693,8 @@
             "therapeutic-strategy"
           ],
           "filename": "_document_ - MRR - mitohormesis.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/_document_%20-%20MRR%20-%20mitohormesis.md"
+          "path": "tasks/en-US/adrenochrome_mb_ag/_document_%20-%20MRR%20-%20mitohormesis.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/_document_%20-%20MRR%20-%20mitohormesis.md"
         },
         "zh-TW": {
           "title": "粒線體激效性氧化還原中繼（MRR）— 多組分粒線體回春策略",
@@ -4540,8 +5708,15 @@
             "治療策略"
           ],
           "filename": "_document_ - MRR - mitohormesis.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20MRR%20-%20mitohormesis.md"
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20MRR%20-%20mitohormesis.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20MRR%20-%20mitohormesis.md"
         }
+      },
+      "stats": {
+        "words": 1252,
+        "images": 0,
+        "links": 175,
+        "diagrams": 0
       }
     },
     {
@@ -4557,7 +5732,8 @@
             "senescence"
           ],
           "filename": "_document_ - SRAC - SASP-Remodeling Aminochrome Complex.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/_document_%20-%20SRAC%20-%20SASP-Remodeling%20Aminochrome%20Complex.md"
+          "path": "tasks/en-US/adrenochrome_mb_ag/_document_%20-%20SRAC%20-%20SASP-Remodeling%20Aminochrome%20Complex.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/_document_%20-%20SRAC%20-%20SASP-Remodeling%20Aminochrome%20Complex.md"
         },
         "zh-TW": {
           "title": "SASP-重塑 Aminochrome 複合物",
@@ -4569,8 +5745,15 @@
             "老化"
           ],
           "filename": "_document_ - SRAC - SASP-Remodeling Aminochrome Complex.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20SRAC%20-%20SASP-Remodeling%20Aminochrome%20Complex.md"
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20SRAC%20-%20SASP-Remodeling%20Aminochrome%20Complex.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20SRAC%20-%20SASP-Remodeling%20Aminochrome%20Complex.md"
         }
+      },
+      "stats": {
+        "words": 1757,
+        "images": 0,
+        "links": 93,
+        "diagrams": 0
       }
     },
     {
@@ -4589,7 +5772,8 @@
             "longevity"
           ],
           "filename": "task_output_research-scientist_combo_therapy_11_JUN_2026.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_research-scientist_combo_therapy_11_JUN_2026.md"
+          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_research-scientist_combo_therapy_11_JUN_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_research-scientist_combo_therapy_11_JUN_2026.md"
         },
         "zh-TW": {
           "title": "基於腎上腺素紅的聯合療法",
@@ -4604,8 +5788,15 @@
             "longevity"
           ],
           "filename": "task_output_research-scientist_combo_therapy_11_JUN_2026.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_research-scientist_combo_therapy_11_JUN_2026.md"
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_research-scientist_combo_therapy_11_JUN_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/task_output_research-scientist_combo_therapy_11_JUN_2026.md"
         }
+      },
+      "stats": {
+        "words": 995,
+        "images": 0,
+        "links": 24,
+        "diagrams": 0
       }
     },
     {
@@ -4623,7 +5814,8 @@
             "mitohormesis"
           ],
           "filename": "_document_ - Mitohormetic Redox-Relay.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/_document_%20-%20Mitohormetic%20Redox-Relay.md"
+          "path": "tasks/en-US/adrenochrome_mb_ag/_document_%20-%20Mitohormetic%20Redox-Relay.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/_document_%20-%20Mitohormetic%20Redox-Relay.md"
         },
         "zh-TW": {
           "title": "粒線體激效性氧化還原中繼",
@@ -4637,8 +5829,15 @@
             "mitohormesis"
           ],
           "filename": "_document_ - Mitohormetic Redox-Relay.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20Mitohormetic%20Redox-Relay.md"
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20Mitohormetic%20Redox-Relay.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20Mitohormetic%20Redox-Relay.md"
         }
+      },
+      "stats": {
+        "words": 2168,
+        "images": 0,
+        "links": 423,
+        "diagrams": 0
       }
     },
     {
@@ -4660,7 +5859,8 @@
             "ros"
           ],
           "filename": "task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026.md"
+          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026.md"
         },
         "zh-TW": {
           "title": "MnSOD 在 Sirtuin 訊息傳遞與腎上腺素紅路徑中的角色：比較性機轉分析",
@@ -4678,8 +5878,15 @@
             "ros"
           ],
           "filename": "task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026.md"
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026.md"
         }
+      },
+      "stats": {
+        "words": 1573,
+        "images": 0,
+        "links": 202,
+        "diagrams": 0
       }
     },
     {
@@ -4696,7 +5903,8 @@
             "notion"
           ],
           "filename": "outline_adrenochrome_mb_ag_page_notion_27_JUN_2026-00.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_page_notion_27_JUN_2026-00.md"
+          "path": "tasks/en-US/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_page_notion_27_JUN_2026-00.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_page_notion_27_JUN_2026-00.md"
         },
         "zh-TW": {
           "title": "mb, aminoguanidine",
@@ -4709,8 +5917,15 @@
             "概念"
           ],
           "filename": "outline_adrenochrome_mb_ag_page_notion_27_JUN_2026-00.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_page_notion_27_JUN_2026-00.md"
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_page_notion_27_JUN_2026-00.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_page_notion_27_JUN_2026-00.md"
         }
+      },
+      "stats": {
+        "words": 2926,
+        "images": 0,
+        "links": 9,
+        "diagrams": 0
       }
     },
     {
@@ -4728,7 +5943,8 @@
             "mitohormesis"
           ],
           "filename": "task_output_research-scientist_research_plan_11_JUN_2026.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_research-scientist_research_plan_11_JUN_2026.md"
+          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_research-scientist_research_plan_11_JUN_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_research-scientist_research_plan_11_JUN_2026.md"
         },
         "zh-TW": {
           "title": "腎上腺素紅長壽研究計劃",
@@ -4742,8 +5958,15 @@
             "mitohormesis"
           ],
           "filename": "task_output_research-scientist_research_plan_11_JUN_2026.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_research-scientist_research_plan_11_JUN_2026.md"
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_research-scientist_research_plan_11_JUN_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/task_output_research-scientist_research_plan_11_JUN_2026.md"
         }
+      },
+      "stats": {
+        "words": 974,
+        "images": 0,
+        "links": 23,
+        "diagrams": 0
       }
     }
   ]

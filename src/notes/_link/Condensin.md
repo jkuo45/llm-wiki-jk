@@ -42,7 +42,7 @@ Condensin itself is challenging to target selectively, but its placement within 
 
 ## Documents
 
-- [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]] — The review shows condensin binding is increased at B-to-A compartment-switching regions in senescent cells, coinciding with upregulation of SASP genes and linking 3D-genome reorganization to SASP control.
+- [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]] — The review shows condensin binding is increased at B-to-A compartment-switching regions in senescent cells, coinciding with upregulation of SASP genes and linking 3D-genome reorganization to SASP control.
 
 ## Connections
 

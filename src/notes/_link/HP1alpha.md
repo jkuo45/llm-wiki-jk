@@ -2,7 +2,7 @@
 title: HP1alpha
 description: Heterochromatin protein 1 alpha (CBX5), a chromatin reader of H3K9me3 that, with KAP1 and SIRT6, silences LINE-1 retrotransposons whose derepression fuels SASP in senescence.
 created: 2026-07-09
-updated: 2026-07-09
+updated: 2026-10-02
 tags:
   - protein
   - chromatin-reader
@@ -10,6 +10,7 @@ tags:
   - retrotransposon
   - senescence
 aliases:
+  - HP1
   - HP1α
   - Heterochromatin protein 1 alpha
   - CBX5
@@ -43,7 +44,7 @@ Preserving HP1α-dependent heterochromatin at retrotransposons could be [[Senomo
 
 ## Documents
 
-- [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]] — The review shows HP1α is recruited by KAP1 (after SIRT6 ribosylation) to heterochromatinize LINE-1; in senescence, loss of this silencing decompacts retrotransposons, driving cGAS–STING-mediated SASP/inflammaging.
+- [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]] — The review shows HP1α is recruited by KAP1 (after SIRT6 ribosylation) to heterochromatinize LINE-1; in senescence, loss of this silencing decompacts retrotransposons, driving cGAS–STING-mediated SASP/inflammaging.
 
 ## Connections
 

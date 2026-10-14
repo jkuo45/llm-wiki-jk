@@ -17,7 +17,7 @@ aliases: [Encephalon]
 
 **Physiological Function:** Neurons communicate via [[Synapse|synaptic]] transmission using [[Neurotransmitters]] (glutamate, GABA, dopamine, serotonin). The brain consumes a disproportionate share of body [[Glucose]] and [[Oxygen Consumption Rate|oxygen]], reliant on robust [[Mitochondria|mitochondrial]] ATP. It regulates homeostasis via autonomic and endocrine axes and enables learning through synaptic plasticity.
 
-**Pathology and Aging:** The brain is highly vulnerable to [[Oxidative Stress]], [[Inflammation|neuroinflammation]], and vascular insult. Age-related changes include synaptic loss, accumulation of [[Beta-amyloid]] and [[Tau Protein]], and declining [[Cognition]]. Neurodegenerative conditions ([[Parkinson's Disease]], [[Alzheimer's Disease]]) and cerebrovascular disease are major contributors to disability; [[Neuromelanin]] and dopaminergic systems are particularly implicated in Parkinson's disease.
+**Pathology and Aging:** The brain is highly vulnerable to [[Oxidative Stress]], [[Inflammation|neuroinflammation]], and vascular insult. Age-related changes include synaptic loss, accumulation of [[Beta-amyloid]] and [[Tau]], and declining [[Cognition]]. Neurodegenerative conditions ([[Parkinson's Disease]], [[Alzheimer's Disease]]) and cerebrovascular disease are major contributors to disability; [[Neuromelanin]] and dopaminergic systems are particularly implicated in Parkinson's disease.
 
 ## Documents
 
@@ -45,6 +45,6 @@ aliases: [Encephalon]
 
 ## Linking Summary
 
-  - New links added: [[Neurons]], [[Glial cells]], [[Blood-Brain Barrier]], [[Neurotransmitters]], [[Cognition]], [[Oxidative Stress]], [[Mitochondria]], [[Inflammation]], [[Beta-amyloid]], [[Tau Protein]], [[Parkinson's Disease]], [[Alzheimer's Disease]], [[Neuromelanin]], [[Basal Ganglia]], [[Hippocampus]], [[Cerebellum]], [[Prefrontal Cortex]], [[Substantia Nigra]], [[Glucose]], [[Oxygen Consumption Rate]]
+  - New links added: [[Neurons]], [[Glial cells]], [[Blood-Brain Barrier]], [[Neurotransmitters]], [[Cognition]], [[Oxidative Stress]], [[Mitochondria]], [[Inflammation]], [[Beta-amyloid]], [[Tau]], [[Parkinson's Disease]], [[Alzheimer's Disease]], [[Neuromelanin]], [[Basal Ganglia]], [[Hippocampus]], [[Cerebellum]], [[Prefrontal Cortex]], [[Substantia Nigra]], [[Glucose]], [[Oxygen Consumption Rate]]
   - Suggested new entity notes to create: [[Synaptic Plasticity]], [[Neuroinflammation]]
   - Strong connections to strengthen: [[Brain]] ↔ [[Cognition]], [[Brain]] ↔ [[Oxidative Stress]]

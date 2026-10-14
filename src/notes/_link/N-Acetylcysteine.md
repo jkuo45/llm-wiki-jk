@@ -14,7 +14,7 @@ source: #
 
 # N-Acetylcysteine
 
-**N-Acetylcysteine (NAC)** is the N-acetyl derivative of the sulfur-containing amino acid [[Cysteine]]. Clinically it serves both as a mucolytic agent — cleaving disulfide bonds in airway mucus — and as a redox-active thiol used to bolster [[Antioxidants|antioxidant]] defenses.
+**N-Acetylcysteine (NAC)** is the N-acetyl derivative of the sulfur-containing amino acid [[Cysteine]]. Clinically it serves both as a mucolytic agent — cleaving disulfide bonds in airway mucus — and as a redox-active thiol used to bolster [[Antioxidant|antioxidant]] defenses.
 
 ## Antioxidant Mechanism
 
@@ -40,11 +40,11 @@ NAC is generally well tolerated; high doses can cause gastrointestinal upset or,
   - [[Glutathione]]: Primary beneficiary of NAC cysteine donation.
   - [[GlyNAC]]: Combination supplement in which NAC is a core component.
   - [[Cysteine]]: Parent amino acid; NAC is its N-acetyl derivative.
-  - [[Oxidative Stress]] / [[Antioxidants]]: Central biological context.
+  - [[Oxidative Stress]] / [[Antioxidant]]: Central biological context.
   - [[Mitochondrial Dysfunction]]: Target of GlyNAC-mediated improvement.
 
 ## Linking Summary
 
-  - New links added: [[Glutathione]], [[GlyNAC]], [[Cysteine]], [[Oxidative Stress]], [[Antioxidants]], [[Mitochondrial Dysfunction]], [[Aging]], [[Inflammation]], [[NF-κB]], [[Mitohormesis]]
+  - New links added: [[Glutathione]], [[GlyNAC]], [[Cysteine]], [[Oxidative Stress]], [[Antioxidant]], [[Mitochondrial Dysfunction]], [[Aging]], [[Inflammation]], [[NF-κB]], [[Mitohormesis]]
   - Suggested new entity notes to create: [[NAPQI]]
   - Strong connections to strengthen: [[N-Acetylcysteine]] ↔ [[Glutathione]], [[N-Acetylcysteine]] ↔ [[GlyNAC]]

@@ -89,7 +89,7 @@ List of documents that mention this entity
   - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
     - This is a trade-off: reducing age-related Inflammaging and NAD+ consumption via CD38 could blunt beneficial acute immune responses. 2.
 
-  - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
+  - [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]]
      - Review attributes inflammaging to epigenetic derepression of retrotransposable elements (LINE-1, HERV): heterochromatin decompaction and DNA hypomethylation let L1/HERV cDNA activate cGAS–STING, driving SASP-like interferon inflammation.
 
   - [[_document_ - cellular_senescence_ipf_diseases-14-00201|Cellular Senescence in IPF (Baurzhan et al., 2026)]]

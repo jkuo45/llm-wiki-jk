@@ -36,7 +36,7 @@ NRTIs offer a uniquely tractable route to dampen senescence-associated inflammat
 
 ## Documents
 
-- [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]] — The review states NRTIs inhibit LINE-1/HERV reverse transcriptase, alleviating interferon inflammation in mouse tissues and SASP in cells, and highlights emtricitabine (NCT04500847) as a repurposed anti-inflammaging agent.
+- [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]] — The review states NRTIs inhibit LINE-1/HERV reverse transcriptase, alleviating interferon inflammation in mouse tissues and SASP in cells, and highlights emtricitabine (NCT04500847) as a repurposed anti-inflammaging agent.
 
 ## Connections
 

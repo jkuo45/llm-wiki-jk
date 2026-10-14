@@ -62,7 +62,7 @@ List of documents that mention this entity
   - [[_document_ - Cellular senescence and senescence‐associated secretory phenotype via the cGAS_STING signaling pathway in cancer|Cellular senescence and SASP via cGAS-STING in cancer]]
     - Discusses CCF formation following Lamin B1 downregulation as the source of cytosolic DNA activating cGAS-STING in senescent cells, linking nuclear envelope collapse to SASP-driven inflammation in the cancer microenvironment.
 
-  - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
+  - [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]]
     - Review notes CCF (enriched for heterochromatin marks, possibly from SAHF/damaged regions) is ejected into the cytoplasm where it activates cGAS–STING–NF-κB to drive SASP; CCF may be a precursor to DNA-SCARS.
 
 ## Connections

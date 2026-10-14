@@ -26,7 +26,7 @@ Bone marrow produces approximately 500 billion blood cells per day, including [[
 
 ## Clinical Relevance
 
-Bone marrow is the target of [[Bone Marrow Transplantation]] (hematopoietic stem cell transplantation) for [[leukemia]], [[Lymphoma]], [[Multiple Myeloma]], and [[Aplastic Anemia]]. Bone marrow suppression is a common dose-limiting toxicity of [[Chemotherapy]] and [[Radiation Therapy]].
+Bone marrow is the target of [[Bone Marrow Transplantation]] (hematopoietic stem cell transplantation) for [[leukemia]], [[Lymphoma]], [[Multiple Myeloma]], and [[Aplastic Anemia]]. Bone marrow suppression is a common dose-limiting toxicity of [[Chemotherapy]] and [[Radiotherapy]].
 
 #
 
@@ -39,6 +39,6 @@ Bone marrow is the target of [[Bone Marrow Transplantation]] (hematopoietic stem
 - [[Multiple Myeloma]] — plasma cell malignancy resident in bone marrow
 
 ## Linking Summary
-- New links added: [[Hematopoiesis]], [[Hematopoietic Stem Cell]], [[Progenitor Cells]], [[Erythrocytes]], [[Platelets]], [[Granulocytes]], [[Monocytes]], [[Lymphocytes]], [[Stromal Cells]], [[Osteoblasts]], [[Endothelial Cells]], [[Bone Marrow Transplantation]], [[leukemia]], [[Lymphoma]], [[Multiple Myeloma]], [[Aplastic Anemia]], [[Chemotherapy]], [[Radiation Therapy]], [[Adipose Tissue]]
+- New links added: [[Hematopoiesis]], [[Hematopoietic Stem Cell]], [[Progenitor Cells]], [[Erythrocytes]], [[Platelets]], [[Granulocytes]], [[Monocytes]], [[Lymphocytes]], [[Stromal Cells]], [[Osteoblasts]], [[Endothelial Cells]], [[Bone Marrow Transplantation]], [[leukemia]], [[Lymphoma]], [[Multiple Myeloma]], [[Aplastic Anemia]], [[Chemotherapy]], [[Radiotherapy]], [[Adipose Tissue]]
 - Suggested new entity notes to create: [[Bone Marrow Microenvironment]], [[Myelosuppression]], [[Hematopoietic niche]], [[Stromal cell]], [[Progenitor Cell]]
   - Strong connections to strengthen: Bone Marrow ↔ Hematopoietic Stem Cell, Bone Marrow ↔ [[Hematopoiesis]], Bone Marrow ↔ leukemia

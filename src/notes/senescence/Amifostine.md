@@ -15,7 +15,7 @@ aliases: [WR-2721, Ethyol, Amifostine trihydrate]
 
 # Amifostine
 
-**Amifostine** (WR-2721, Ethyol) is a phosphorothioate prodrug used as a cytoprotective agent during [[Radiation Therapy]] and certain chemotherapies. It is dephosphorylated at the cell membrane by alkaline phosphatase to its active free-thiol form, WR-1065, which accumulates selectively in normal tissues.
+**Amifostine** (WR-2721, Ethyol) is a phosphorothioate prodrug used as a cytoprotective agent during [[Radiotherapy]] and certain chemotherapies. It is dephosphorylated at the cell membrane by alkaline phosphatase to its active free-thiol form, WR-1065, which accumulates selectively in normal tissues.
 
 ## Mechanism of Action
 
@@ -40,7 +40,7 @@ List of documents in the wiki that mention this entity
 ## Connections
 
   - [[Hydroxyl Radicals]]: Primary reactive species neutralized by the WR-1065 thiol
-  - [[Radiation Therapy]]: Clinical context in which amifostine provides radioprotection
+  - [[Radiotherapy]]: Clinical context in which amifostine provides radioprotection
   - [[Reactive Oxygen Species]]: Broader class of free radicals scavenged by amifostine
   - [[Oxidative Stress]]: Condition that amifostine mitigates in normal tissues
   - [[DNA Damage]]: Radiation-induced lesion prevented by thiol-mediated radical scavenging
@@ -48,7 +48,7 @@ List of documents in the wiki that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Hydroxyl Radicals]], [[Radiation Therapy]], [[Reactive Oxygen Species]], [[Oxidative Stress]], [[DNA Damage]], [[Senolytic Therapy]]
+- New links added: [[Hydroxyl Radicals]], [[Radiotherapy]], [[Reactive Oxygen Species]], [[Oxidative Stress]], [[DNA Damage]], [[Senolytic Therapy]]
 - Suggested new entity notes to create: [[WR-1065]]
 - Strong connections to strengthen:
     - [[Amifostine]] ↔ [[Hydroxyl Radicals]]

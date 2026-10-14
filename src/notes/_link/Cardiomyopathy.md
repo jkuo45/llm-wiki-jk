@@ -12,7 +12,7 @@ aliases: []
 
 **Etiology and pathophysiology:** Cardiomyopathy refers to a heterogeneous group of disorders in which the myocardium becomes structurally and functionally abnormal, in the absence of coronary artery disease, hypertension, or valvular disease sufficient to explain the changes. Causes span inherited sarcomere-protein mutations, metabolic and mitochondrial defects, toxins, infections, and neurohormonal overstimulation. Common final pathways include [[Cardiomyocyte]] injury, contractile dysfunction, and [[Cardiac Fibrosis]] driven by [[Oxidative Stress]] and inflammation.
 
-**Major forms:** Dilated cardiomyopathy features ventricular chamber enlargement with reduced systolic contraction; hypertrophic cardiomyopathy involves inappropriate myocardial thickening, often from sarcomeric gene mutations; restrictive cardiomyopathy produces stiff, poorly filling ventricles; and arrhythmogenic cardiomyopathy replaces myocardium with fibrofatty tissue. A distinct stress-related form, [[Catecholamine-induced cardiomyopathy]] (including takotsubo/stress cardiomyopathy), results from excessive [[Catecholamine]] exposure causing myocyte calcium overload, contraction-band necrosis, and transient ventricular dysfunction.
+**Major forms:** Dilated cardiomyopathy features ventricular chamber enlargement with reduced systolic contraction; hypertrophic cardiomyopathy involves inappropriate myocardial thickening, often from sarcomeric gene mutations; restrictive cardiomyopathy produces stiff, poorly filling ventricles; and arrhythmogenic cardiomyopathy replaces myocardium with fibrofatty tissue. A distinct stress-related form, [[Catecholamine-induced cardiomyopathy]] (including takotsubo/stress cardiomyopathy), results from excessive [[Catecholamines]] exposure causing myocyte calcium overload, contraction-band necrosis, and transient ventricular dysfunction.
 
 **Clinical presentation:** Patients may present with dyspnea, fatigue, edema, palpitations, syncope, or sudden cardiac death. Diagnosis integrates echocardiography, cardiac MRI, ECG, biomarkers (e.g., natriuretic peptides, troponin), and increasingly genetic testing.
 
@@ -40,7 +40,7 @@ aliases: []
 
 ## Linking Summary
 
-- New links added: [[Cardiomyocyte]], [[Cardiac Fibrosis]], [[Heart Failure]], [[Catecholamine-induced cardiomyopathy]], [[Catecholamine]], [[Oxidative Stress]], [[Mitochondrial Dysfunction]]
+- New links added: [[Cardiomyocyte]], [[Cardiac Fibrosis]], [[Heart Failure]], [[Catecholamine-induced cardiomyopathy]], [[Catecholamines]], [[Oxidative Stress]], [[Mitochondrial Dysfunction]]
 - Suggested new entity notes to create: [[Natriuretic Peptides]]
 - Strong connections to strengthen: [[Cardiomyopathy]] ↔ [[Heart Failure]], [[Cardiomyopathy]] ↔ [[Catecholamine-induced cardiomyopathy]]
 

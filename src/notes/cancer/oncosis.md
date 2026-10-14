@@ -11,12 +11,13 @@ tags:
   - biological-process
 source: https://en.wikipedia.org/wiki/Oncosis
 aliases:
+  - Oncosis
   - oncotis
 ---
 
 # Oncosis
 
-[[Oncosis]] is a term used in pathology to describe a specific type of accidental cell death that results from severe metabolic stress, most notably [[Ischemia]] (lack of blood flow) and subsequent hypoxia. It is characterized by a distinct morphological sequence leading to cell swelling and lysis.
+[[oncosis]] is a term used in pathology to describe a specific type of accidental cell death that results from severe metabolic stress, most notably [[Ischemia]] (lack of blood flow) and subsequent hypoxia. It is characterized by a distinct morphological sequence leading to cell swelling and lysis.
 
 ## Pathophysiology
 
@@ -29,7 +30,7 @@ The progression of oncosis involves:
 
 ## Comparison with Apoptosis
 
-| Feature | [[Oncosis]] | [[Apoptosis]] |
+| Feature | [[oncosis]] | [[Apoptosis]] |
 | :--- | :--- | :--- |
 | **Mechanism** | Passive, energy-independent (necrotic) | Active, energy-dependent (programmed) |
 | **Cell Size** | Swollen (oncotic) | Shrunken |
@@ -56,6 +57,6 @@ While often categorized under the broad umbrella of [[Necrosis]], oncosis is dis
 
 ## Linking Summary
 
-- New links added: [[Oncosis]], [[Apoptosis]], [[Necrosis]], [[Ischemia]], [[Myocardial Infarction]], [[ATP depletion]]
+- New links added: [[oncosis]], [[Apoptosis]], [[Necrosis]], [[Ischemia]], [[Myocardial Infarction]], [[ATP depletion]]
 - Suggested new entity notes to create: [[Ischemia-reperfusion Injury]]
-- Strong connections to strengthen: [[Oncosis]] ↔ [[Necrosis]], [[Oncosis]] ↔ [[Apoptosis]]
+- Strong connections to strengthen: [[oncosis]] ↔ [[Necrosis]], [[oncosis]] ↔ [[Apoptosis]]

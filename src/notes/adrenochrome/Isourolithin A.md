@@ -23,7 +23,7 @@ aliases: [IsoUA]
 ## Pharmacodynamics & Relevance
 
 > [!info] Mitophagy and antioxidant activity
-> Like [[Urolithin A]], isourolithin A can stimulate [[Mitophagy]] — the selective clearance of damaged mitochondria — and exhibits [[Antioxidants|antioxidant]] and anti-inflammatory activity, though generally with somewhat lower potency than urolithin A. By improving mitochondrial quality control it is of interest for muscle health, [[Healthspan]], and mitigating [[Oxidative Stress]].
+> Like [[Urolithin A]], isourolithin A can stimulate [[Mitophagy]] — the selective clearance of damaged mitochondria — and exhibits [[Antioxidant|antioxidant]] and anti-inflammatory activity, though generally with somewhat lower potency than urolithin A. By improving mitochondrial quality control it is of interest for muscle health, [[Healthspan]], and mitigating [[Oxidative Stress]].
 
 Its production from [[Ellagic acid]] and its redox/[[Reactive Oxygen Species]]-modulating behavior connect it to the [[Adrenochrome]] topic's recurring themes of oxidative balance and mitochondrial protection.
 
@@ -42,5 +42,5 @@ Its production from [[Ellagic acid]] and its redox/[[Reactive Oxygen Species]]-m
 
 ## Linking Summary
 
-  - New links added: [[Urolithin A]], [[Ellagic acid]], [[Ellagibacter isourolithinifaciens]], [[Mitophagy]], [[Gut Microbiome]], [[Antioxidants]], [[Oxidative Stress]], [[Healthspan]], [[Reactive Oxygen Species]], [[Adrenochrome]]
+  - New links added: [[Urolithin A]], [[Ellagic acid]], [[Ellagibacter isourolithinifaciens]], [[Mitophagy]], [[Gut Microbiome]], [[Antioxidant]], [[Oxidative Stress]], [[Healthspan]], [[Reactive Oxygen Species]], [[Adrenochrome]]
   - Strong connections to strengthen: Isourolithin A ↔ Urolithin A; Isourolithin A ↔ Mitophagy

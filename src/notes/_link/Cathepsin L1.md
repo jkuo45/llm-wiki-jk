@@ -42,7 +42,7 @@ Cathepsin L inhibitors (e.g., RO5461111, KGP94) are explored in oncology and fib
 
 ## Documents
 
-- [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]] — The review identifies cathepsin L1 as the protease that cleaves H3.3's N-terminal tail to generate H3.3cs1, which accumulates in senescent cells, can induce senescence, and — when BRD4 protection fails — enhances chromatin accessibility and SASP transcription.
+- [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]] — The review identifies cathepsin L1 as the protease that cleaves H3.3's N-terminal tail to generate H3.3cs1, which accumulates in senescent cells, can induce senescence, and — when BRD4 protection fails — enhances chromatin accessibility and SASP transcription.
 
 ## Connections
 

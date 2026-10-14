@@ -39,7 +39,7 @@ Because the HIRA/ASF1a/UBN1 axis modulates SAHF and SASP without abolishing grow
 
 ## Documents
 
-- [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]] — ASF1a, with HIRA and UBN1, is essential for SAHF formation in senescent cells.
+- [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]] — ASF1a, with HIRA and UBN1, is essential for SAHF formation in senescent cells.
 
 ## Connections
 

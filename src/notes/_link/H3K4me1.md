@@ -40,7 +40,7 @@ Enhancer-mark readers (BRD4) and writers (p300) at H3K4me1/H3K27ac enhancers are
 
 ## Documents
 
-- [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]] — H3K4me1 marks active enhancers; senescence-activated super-enhancers are enriched in H3K4me1 plus acetyl marks to drive SASP.
+- [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]] — H3K4me1 marks active enhancers; senescence-activated super-enhancers are enriched in H3K4me1 plus acetyl marks to drive SASP.
 
 ## Connections
 

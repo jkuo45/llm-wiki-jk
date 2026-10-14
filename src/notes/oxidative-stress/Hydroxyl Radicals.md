@@ -77,7 +77,7 @@ List of documents that mention this entity
 - [[Superoxide Radicals]]: Participates in its formation via iron reduction and Haber-Weiss chemistry.
 - [[Adrenochrome]]: Both promotes and is promoted by hydroxyl radical in a feed-forward loop via catecholamine oxidation and redox cycling.
 - [[Fenton Reaction]] — The predominant pathway for hydroxyl radical generation.
-- [[Antioxidants]]: Hard to neutralize directly due to their extreme reactivity; defense relies on preventing their formation (e.g., via [[Catalase]] or metal sequestration).
+- [[Antioxidant]]: Hard to neutralize directly due to their extreme reactivity; defense relies on preventing their formation (e.g., via [[Catalase]] or metal sequestration).
 - [[Genomic Instability]]: Hydroxyl radical-induced DNA damage is a direct driver of genomic mutations.
 - [[Lipid Peroxidation]] — Hydroxyl radical is the primary initiator of the PUFA chain reaction.
 - [[p53]]: Frequently mutated at guanine residues susceptible to hydroxyl radical attack.
@@ -86,6 +86,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Reactive Oxygen Species]], [[Hydrogen Peroxide]], [[Superoxide Radicals]], [[Fenton Reaction]], [[Adrenochrome]], [[Oxidative Stress]], [[Lipid Peroxidation]], [[Epinephrine]], [[Oxidation]], [[Genomic Instability]], [[DNA]], [[DNA Repair]], [[Cancer]], [[Aging]], [[p53]], [[Ischemia-reperfusion Injury]], [[Mitochondria]], [[Neurodegenerative Diseases]], [[Parkinson's Disease]], [[Alzheimer's Disease]], [[Substantia Nigra]], [[Atherosclerosis]], [[Glutathione Peroxidase]], [[Catalase]], [[8-oxo-2'-deoxyguanosine]], [[Antioxidants]], [[Polyunsaturated fatty acids]], [[Mitochondrial Dysfunction]], [[OGG1]]
+- New links added: [[Reactive Oxygen Species]], [[Hydrogen Peroxide]], [[Superoxide Radicals]], [[Fenton Reaction]], [[Adrenochrome]], [[Oxidative Stress]], [[Lipid Peroxidation]], [[Epinephrine]], [[Oxidation]], [[Genomic Instability]], [[DNA]], [[DNA Repair]], [[Cancer]], [[Aging]], [[p53]], [[Ischemia-reperfusion Injury]], [[Mitochondria]], [[Neurodegenerative Diseases]], [[Parkinson's Disease]], [[Alzheimer's Disease]], [[Substantia Nigra]], [[Atherosclerosis]], [[Glutathione Peroxidase]], [[Catalase]], [[8-oxo-2'-deoxyguanosine]], [[Antioxidant]], [[Polyunsaturated fatty acids]], [[Mitochondrial Dysfunction]], [[OGG1]]
 - Suggested new entity notes to create: [[OGG1]], [[Base Excision Repair]], [[8-Hydroxyadenine]], [[Thymine Glycol]]
 - Strong connections to strengthen: [[Hydroxyl Radicals]] ↔ [[Hydrogen Peroxide]], [[Hydroxyl Radicals]] ↔ [[Fenton Reaction]], [[Hydroxyl Radicals]] ↔ [[Adrenochrome]]

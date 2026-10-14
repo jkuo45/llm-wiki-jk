@@ -3,12 +3,12 @@ title: Lysosomal Storage Diseases
 description: A group of about 50 rare inherited metabolic disorders that result from
   defects in lysosomal function.
 created: 2024-01-01
-updated: 2026-07-06
+updated: 2026-10-02
 tags:
   - medical-condition
   - autophagy
   - lysosome
-aliases: []
+aliases: [LSDs, Lysosomal Storage Disorders, Lysosomal Storage Disease]
 ---
 # Lysosomal Storage Diseases
 

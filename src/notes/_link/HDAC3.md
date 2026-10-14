@@ -41,7 +41,7 @@ Class I HDAC inhibitors (e.g., entinostat, vorinostat, romidepsin) target HDAC3 
 
 ## Documents
 
-- [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]] — The review describes HDAC3 as the class I deacetylase partner of the HDAC4 reader at H3K27ac senescence-enhancers, jointly buffering the AP-1 SASP program that is unleashed when HDAC4 is degraded.
+- [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]] — The review describes HDAC3 as the class I deacetylase partner of the HDAC4 reader at H3K27ac senescence-enhancers, jointly buffering the AP-1 SASP program that is unleashed when HDAC4 is degraded.
 
 ## Connections
 

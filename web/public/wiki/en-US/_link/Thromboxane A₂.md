@@ -52,7 +52,7 @@ List of documents that mention this entity
 - [[Prostaglandin G₂]]: Upstream COX product in the same pathway.
 - [[Prostaglandins]]: The family to which thromboxane belongs.
 - [[Prostacyclin]]: The opposing prostanoid; their ratio governs thrombotic tendency.
-- [[Cyclooxygenases]]: COX-1 provides the PGH₂ substrate in platelets.
+- [[Cyclooxygenase]]: COX-1 provides the PGH₂ substrate in platelets.
 - [[Malondialdehyde]]: Basal MDA partly reflects PGH₂ fragmentation during prostanoid turnover.
 - [[Lipid Peroxidation]]: Oxidized lipids upregulate thromboxane synthase.
 - [[Oxidized LDL]]: Shifts the prostanoid balance toward TXA₂.
@@ -62,6 +62,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Prostaglandin H₂]], [[Prostaglandin G₂]], [[Prostaglandins]], [[Prostacyclin]], [[Cyclooxygenases]], [[Malondialdehyde]], [[Lipid Peroxidation]], [[Oxidized LDL]], [[Atherosclerosis]], [[Aspirin]], [[Arachidonic acid]]
+- New links added: [[Prostaglandin H₂]], [[Prostaglandin G₂]], [[Prostaglandins]], [[Prostacyclin]], [[Cyclooxygenase]], [[Malondialdehyde]], [[Lipid Peroxidation]], [[Oxidized LDL]], [[Atherosclerosis]], [[Aspirin]], [[Arachidonic acid]]
 - Suggested new entity notes to create: [[Thromboxane synthase]], [[TP receptor]], [[Thromboxane B2]]
 - Strong connections to strengthen: [[Thromboxane A₂]] ↔ [[Prostacyclin]], [[Thromboxane A₂]] ↔ [[Prostaglandin H₂]], [[Thromboxane A₂]] ↔ [[Atherosclerosis]]

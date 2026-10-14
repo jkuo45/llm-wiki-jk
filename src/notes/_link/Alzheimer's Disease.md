@@ -10,7 +10,7 @@ tags:
 aliases: [Alzheimer Disease]
 ---
 # Alzheimer's Disease
-Alzheimer's disease is a chronic neurodegenerative disease that usually starts slowly and gradually worsens over time. [[Oxidative Stress]] is considered a pivotal factor in its pathogenesis, often involving dysfunction in the [[Mitochondria]] and the accumulation of [[Amyloid Beta]] plaques and [[Tau Protein]] tangles.
+Alzheimer's disease is a chronic neurodegenerative disease that usually starts slowly and gradually worsens over time. [[Oxidative Stress]] is considered a pivotal factor in its pathogenesis, often involving dysfunction in the [[Mitochondria]] and the accumulation of [[Amyloid Beta]] plaques and [[Tau]] tangles.
 [[Epigenetics]] plays a critical role in the development and progression of **Alzheimer’s Disease (AD)**, acting as a bridge between genetic predisposition and environmental risk factors. Unlike genetic mutations, epigenetic changes do not alter the DNA sequence itself but instead modify how genes are expressed.
 Alzheimer's Disease is a progressive [[Neurodegenerative Diseases|neurodegenerative disorder]] that causes brain cells to waste away (degenerate) and die. It is the most common cause of dementia.
 Research using [[Induced Pluripotent Stem Cells]] (iPSCs) aims to improve neuronal plasticity and memory. iPSC therapy has shown potential in increasing brain-derived neurotrophic factors and reducing neuroinflammation in mouse models.
@@ -110,5 +110,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[TFEB]], [[Celastrol]], [[Epigenetics]], [[DNA Methylation]], [[Histone Modification]], [[Nucleosome]], [[Chromatin]], [[MicroRNA]], [[Aging]], [[Epigenome]], [[Epigenetic Clock]], [[HDAC]], [[DNA Methyltransferase]], [[Biomarkers]], [[Neurodegenerative Diseases]], [[Neuroinflammation]]., [[Induced Pluripotent Stem Cells]], [[Disease Modeling]], [[Rejuvenation]], [[Autophagy]], [[Proteotoxicity]], [[Autophagic Flux]], [[Intermittent Fasting]], [[Caloric Restriction]], [[Neuroinflammation]], [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT6]], [[Beclin-1]], [[CREB]]
-- Suggested new entity notes to create: [[Tau Pathology]], [[Neuroinflammation]], [[Amyloid Beta]], [[Tau Protein]], [[Synaptic plasticity]]., [[Proteotoxicity]], [[Autophagic Flux]], [[Intermittent Fasting]], [[Caloric Restriction]], [[Synaptic plasticity]]
+- Suggested new entity notes to create: [[Tau Pathology]], [[Neuroinflammation]], [[Amyloid Beta]], [[Tau]], [[Synaptic plasticity]]., [[Proteotoxicity]], [[Autophagic Flux]], [[Intermittent Fasting]], [[Caloric Restriction]], [[Synaptic plasticity]]
   - Strong connections to strengthen: Alzheimer's Disease ↔ [[TFEB]], Alzheimer's Disease ↔ [[Aging]], Alzheimer's Disease ↔ DNA Methylation, Induced Pluripotent Stem Cells ↔ Alzheimer's Disease, Alzheimer's Disease ↔ Neurodegenerative Disease, Alzheimer's Disease ↔ Autophagy, [[SIRT1]] ↔ Alzheimer's Disease, [[SIRT2]] ↔ Alzheimer's Disease

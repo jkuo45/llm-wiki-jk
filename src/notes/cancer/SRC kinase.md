@@ -26,7 +26,7 @@ Src is overexpressed or hyperactivated in numerous malignancies including colore
 
 ## Therapeutic Targeting
 
-Several small-molecule [[Tyrosine Kinase Inhibitors]] (e.g., dasatinib, saracatinib, bosutinib) inhibit Src alongside related kinases. Although single-agent activity has been modest, Src inhibition is explored in combination with [[Chemotherapy]], EGFR/HER2 blockers such as [[Trastuzumab]], and anti-angiogenic agents. The caspase-8 phosphorylation axis remains a mechanistic rationale for combining Src inhibition with death-receptor agonists.
+Several small-molecule [[Tyrosine Kinase Inhibitors]] (e.g., dasatinib, saracatinib, bosutinib) inhibit Src alongside related kinases. Although single-agent activity has been modest, Src inhibition is explored in combination with [[Chemotherapy]], EGFR/HER2 blockers such as [[trastuzumab]], and anti-angiogenic agents. The caspase-8 phosphorylation axis remains a mechanistic rationale for combining Src inhibition with death-receptor agonists.
 
 ## Documents
 
@@ -43,11 +43,11 @@ List of documents that mention this entity
 - [[Tyrosine Kinase Inhibitors]]: Dasatinib and related agents inhibit Src family kinases.
 - [[Oncogene]]: Src is a prototype proto-oncogene discovered via the Rous sarcoma virus.
 - [[EMT]]: Src/FAK signaling drives epithelial-mesenchymal transition and metastasis.
-- [[Trastuzumab]]: Src acts downstream of HER2, a rationale for combination strategies.
+- [[trastuzumab]]: Src acts downstream of HER2, a rationale for combination strategies.
 - [[Metastasis]]: Src promotes invasion and dissemination via cytoskeletal remodeling.
 
 ## Linking Summary
 
-- New links added: [[Caspase-8]], [[Apoptosis]], [[Tyrosine Kinase Inhibitors]], [[Oncogene]], [[EMT]], [[Metastasis]], [[Trastuzumab]], [[Focal Adhesion Kinase]], [[HER2]], [[Phosphorylation]]
+- New links added: [[Caspase-8]], [[Apoptosis]], [[Tyrosine Kinase Inhibitors]], [[Oncogene]], [[EMT]], [[Metastasis]], [[trastuzumab]], [[Focal Adhesion Kinase]], [[HER2]], [[Phosphorylation]]
 - Suggested new entity notes to create: [[Focal Adhesion Kinase]], [[SRC Family Kinases]], [[Csk]]
 - Strong connections to strengthen: [[SRC kinase]] ↔ [[Caspase-8]], [[SRC kinase]] ↔ [[Apoptosis]]

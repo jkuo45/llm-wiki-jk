@@ -46,7 +46,7 @@ List of documents that mention this entity
 - [[Superoxide anion]]
 - [[Hydrogen Peroxide]]
 - [[Oxidative Stress]]
-- [[Antioxidants]]
+- [[Antioxidant]]
 - [[Reactive Oxygen Species]]
 
 ## Linking Summary

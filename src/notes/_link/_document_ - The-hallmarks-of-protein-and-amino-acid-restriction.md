@@ -125,7 +125,7 @@ Restriction of the essential amino acids (EAAs) recapitulates the benefits of PR
 
 [[Methionine Restriction]] extends lifespan of many species and, when initiated early or late in life, reduces body weight, increases lean mass, improves mitochondrial function, lipid metabolism, and frailty, and extends lifespan of rodents. The metabolic response is partially dependent on [[FGF21]] and also inhibits [[mTORC1]].
 
-Methionine is the precursor of [[S-adenosylmethionine|S-adenosyl-L-methionine]], the universal [[Methyl Donor|methyl donor]]. Dietary methionine deprivation may impact physiology through changes in [[Histone Methylation]] due to decreased availability of methyl donors; cells can preserve heterochromatic stability through upregulation of [[H3K9me3|H3K9 mono-methylation]] in the liver.
+Methionine is the precursor of [[SAMe|S-adenosyl-L-methionine]], the universal [[Methyl Donor|methyl donor]]. Dietary methionine deprivation may impact physiology through changes in [[Histone Methylation]] due to decreased availability of methyl donors; cells can preserve heterochromatic stability through upregulation of [[H3K9me3|H3K9 mono-methylation]] in the liver.
 
 In humans, sulfur amino acid restriction increased FGF21, reduced leptin, and reduced body weight; strict vegan diets reduce blood methionine and improve glucose homeostasis.
 
@@ -318,7 +318,7 @@ There remain many unknowns about the optimal levels of protein intake. While man
 - [[Healthspan]] — Extended by PR and amino acid restriction across species
 - [[Frailty]] — Reduced by PR; dietary protein source modulates frailty risk
 - [[Sarcopenia]] — Context-dependent relationship with protein intake
-- [[S-adenosylmethionine]] — Methyl donor derived from methionine linking diet to epigenome
+- [[SAMe]] — Methyl donor derived from methionine linking diet to epigenome
 
 ## Linking Summary
 
@@ -327,6 +327,6 @@ There remain many unknowns about the optimal levels of protein intake. While man
 - Strong connections to strengthen:
     - [[Protein Restriction]] ↔ [[FGF21]]
     - [[Protein Restriction]] ↔ [[mTORC1]]
-    - [[Methionine Restriction]] ↔ [[S-adenosylmethionine]]
+    - [[Methionine Restriction]] ↔ [[SAMe]]
     - [[Isoleucine]] ↔ [[Healthspan]]
     - [[Cellular Senescence]] ↔ [[SASP]] ↔ [[Protein Restriction]]

@@ -18,7 +18,7 @@ protected: false
 
 ## Relevance to Fenbendazole
 
-Fenbendazole is reported to retain activity against [[Paclitaxel]]-, [[Docetaxel]]-, and [[5-Fluorouracil]]-resistant cancer cells, and to outperform [[Albendazole]] against 5-FU-resistant colorectal cells, likely by intervening in [[Glycolysis]] and restoring glucose-starvation–mediated vulnerability (5).
+Fenbendazole is reported to retain activity against [[Paclitaxel]]-, [[docetaxel]]-, and [[5-Fluorouracil]]-resistant cancer cells, and to outperform [[Albendazole]] against 5-FU-resistant colorectal cells, likely by intervening in [[Glycolysis]] and restoring glucose-starvation–mediated vulnerability (5).
 
 > [!info] Source: [[Oral Fenbendazole for Cancer Therapy in Humans and Animals]]
 > "Fenbendazole has shown efficacy against 5-FU, paclitaxel, and docetaxel-resistant cancer cells (5, 8, 9)... fenbendazole can serve as a viable treatment for drug-resistant cancer cells."
@@ -30,11 +30,11 @@ Fenbendazole is reported to retain activity against [[Paclitaxel]]-, [[Docetaxel
 
 ## Connections
 
-- [[5-Fluorouracil]] / [[Paclitaxel]] / [[Docetaxel]] — resistant agents overcome by fenbendazole.
+- [[5-Fluorouracil]] / [[Paclitaxel]] / [[docetaxel]] — resistant agents overcome by fenbendazole.
 - [[Glycolysis]] / [[Tumor Microenvironment]] — resistance-promoting context.
 - [[Fenbendazole]] — glycolysis-targeting resistance breaker.
 
 ## Linking Summary
 
-- New links added: [[5-Fluorouracil]], [[Paclitaxel]], [[Docetaxel]], [[Glycolysis]], [[Tumor Microenvironment]], [[Albendazole]], [[Fenbendazole]].
+- New links added: [[5-Fluorouracil]], [[Paclitaxel]], [[docetaxel]], [[Glycolysis]], [[Tumor Microenvironment]], [[Albendazole]], [[Fenbendazole]].
 - Strong connections to strengthen: [[Fenbendazole]] → [[Drug Resistance]] (overcoming axis).

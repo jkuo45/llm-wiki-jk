@@ -25,7 +25,7 @@ aliases: [GKT137831]
 ## Applications
 
 > [!info] Anti-fibrotic and redox-modulating therapy
-> Setanaxib is a leading example of targeted, source-specific ROS suppression (contrasting with non-specific [[Antioxidants]]). It has been evaluated in clinical trials for primary biliary cholangitis, [[Idiopathic Pulmonary Fibrosis]], diabetic kidney disease, and squamous-cell carcinoma, where NOX-driven [[Oxidative Stress]] contributes to tissue fibrosis and [[Inflammation]]. Its rationale connects to broader interest in redox homeostasis in aging and chronic disease.
+> Setanaxib is a leading example of targeted, source-specific ROS suppression (contrasting with non-specific [[Antioxidant]]). It has been evaluated in clinical trials for primary biliary cholangitis, [[Idiopathic Pulmonary Fibrosis]], diabetic kidney disease, and squamous-cell carcinoma, where NOX-driven [[Oxidative Stress]] contributes to tissue fibrosis and [[Inflammation]]. Its rationale connects to broader interest in redox homeostasis in aging and chronic disease.
 
 ## Documents
 
@@ -41,5 +41,5 @@ aliases: [GKT137831]
 
 ## Linking Summary
 
-  - New links added: [[NADPH Oxidase]], [[Reactive Oxygen Species]], [[Superoxide]], [[Hydrogen Peroxide]], [[Oxidative Stress]], [[Idiopathic Pulmonary Fibrosis]], [[Inflammation]], [[Antioxidants]], [[TGFβ]]
+  - New links added: [[NADPH Oxidase]], [[Reactive Oxygen Species]], [[Superoxide]], [[Hydrogen Peroxide]], [[Oxidative Stress]], [[Idiopathic Pulmonary Fibrosis]], [[Inflammation]], [[Antioxidant]], [[TGFβ]]
   - Strong connections to strengthen: Setanaxib ↔ NAD(P)H Oxidase; Setanaxib ↔ Oxidative Stress

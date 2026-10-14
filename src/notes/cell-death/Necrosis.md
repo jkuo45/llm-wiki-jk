@@ -22,7 +22,7 @@ Unlike [[Apoptosis]], which is a tightly regulated, energy-dependent program, ne
 |---|---|---|
 | Trigger | Severe injury, hypoxia, toxins | Physiological signals, mild stress |
 | Energy requirement | ATP-depleted | ATP-dependent |
-| Cell size | Swelling ([[Oncosis]]) | Shrinkage |
+| Cell size | Swelling ([[oncosis]]) | Shrinkage |
 | Membrane integrity | Early rupture | Preserved (blebbing) |
 | DNA fragmentation | Random, smeared | Inter-nucleosomal (ladder) |
 | Inflammation | Prominent (pro-inflammatory) | Minimal (anti-inflammatory) |
@@ -32,7 +32,7 @@ Unlike [[Apoptosis]], which is a tightly regulated, energy-dependent program, ne
 
 ## Oncosis and autolysis
 
-**[[Oncosis]]** (from Greek *onkos* = swelling) is the pre-lethal swelling phase preceding necrotic death — cellular swelling, organelle edema, bleb formation from ion-pump failure. **[[Autolysis]]** is the post-mortem degradation by lysosomal hydrolytic enzymes after membrane rupture. Oncosis is the process leading to necrotic death; autolysis is the post-mortem consequence.
+**[[oncosis]]** (from Greek *onkos* = swelling) is the pre-lethal swelling phase preceding necrotic death — cellular swelling, organelle edema, bleb formation from ion-pump failure. **[[Autolysis]]** is the post-mortem degradation by lysosomal hydrolytic enzymes after membrane rupture. Oncosis is the process leading to necrotic death; autolysis is the post-mortem consequence.
 
 Morphological hallmarks: cell swelling with water influx and vacuolation; plasma membrane rupture; organelle breakdown (mitochondrial swelling, lysosomal leakage, nuclear pyknosis to karyorrhexis to karyolysis); release of [[Damage-Associated Molecular Patterns]] (DAMPs) triggering [[Inflammation]].
 
@@ -112,7 +112,7 @@ List of documents that mention this entity
 - [[Apoptosis]] — regulated counterpart; apoptosis-vs-necrosis contrast defines triggers, energetics, and inflammation.
 - [[Necroptosis]] — regulated necrotic-like program (RIPK1/RIPK3/MLKL) that blurs the accidental-vs-programmed divide.
 - [[Pyroptosis]] — programmed necrotic-like death sharing membrane rupture and inflammation.
-- [[Oncosis]] — pre-lethal swelling phase leading into necrosis.
+- [[oncosis]] — pre-lethal swelling phase leading into necrosis.
 - [[Autolysis]] — post-mortem self-digestion following membrane rupture.
 - [[Damage-Associated Molecular Patterns]] — spilled contents that convert necrosis into sterile inflammation.
 - [[Inflammation]] — prominent pro-inflammatory outcome via DAMP-TLR/RAGE/NLRP3 signaling.
@@ -127,7 +127,7 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Autolysis]], [[Oncosis]], [[Damage-Associated Molecular Patterns]], [[Na+/K+-ATPase]], [[Ca2+ overload]], [[Calpains]], [[Cytoskeleton]], [[Bid]], [[NADPH Oxidase]], [[Xanthine Oxidase]], [[Mitochondrial Permeability Transition Pore|mPTP]], [[Cytochrome c]], [[LMP]], [[Cathepsin B]], [[Cathepsin D]], [[Caspases|Caspase]], [[HMGB1]], [[TLR2]], [[TLR4]], [[RAGE]], [[ATP]], [[P2X7 Receptor]], [[IL-1beta]], [[Uric Acid]], [[DNA]], [[TLR9]], [[cGAS-STING Pathway]], [[Interferon]], [[S100 proteins]], [[Heat Shock Proteins]], [[Calreticulin]], [[Histones]], [[Neurodegenerative Diseases]], [[Complex I]], [[Electron Transport Chain]], [[SERCA]], [[Neuroinflammation]], [[Pheochromocytoma]], [[Metastasis]], [[Pyroptosis]], [[Adrenochrome]], [[Cardiotoxicity]]
+- New links added: [[Autolysis]], [[oncosis]], [[Damage-Associated Molecular Patterns]], [[Na+/K+-ATPase]], [[Ca2+ overload]], [[Calpains]], [[Cytoskeleton]], [[Bid]], [[NADPH Oxidase]], [[Xanthine Oxidase]], [[Mitochondrial Permeability Transition Pore|mPTP]], [[Cytochrome c]], [[LMP]], [[Cathepsin B]], [[Cathepsin D]], [[Caspases|Caspase]], [[HMGB1]], [[TLR2]], [[TLR4]], [[RAGE]], [[ATP]], [[P2X7 Receptor]], [[IL-1beta]], [[Uric Acid]], [[DNA]], [[TLR9]], [[cGAS-STING Pathway]], [[Interferon]], [[S100 proteins]], [[Heat Shock Proteins]], [[Calreticulin]], [[Histones]], [[Neurodegenerative Diseases]], [[Complex I]], [[Electron Transport Chain]], [[SERCA]], [[Neuroinflammation]], [[Pheochromocytoma]], [[Metastasis]], [[Pyroptosis]], [[Adrenochrome]], [[Cardiotoxicity]]
 - Suggested new entity notes to create: [[Regulated necrosis]], [[Lysosomal membrane permeabilization]], [[TLR2]], [[TLR4]], [[RAGE]], [[P2X7 Receptor]], [[NLRP3 Inflammasome]], [[cGAS-STING Pathway]], [[S100 proteins]], [[Calreticulin]], [[SERCA]], [[Xanthine Oxidase]], [[Electron Transport Chain]], [[Complex I]]
 - Strong connections to strengthen: [[Oxidative Stress]] ↔ [[Necrosis]], [[Adrenochrome]] ↔ [[Cardiomyocytes]], [[Inflammation]] ↔ [[Necrosis]], [[Necrosis]] ↔ [[Apoptosis]], [[Necrosis]] ↔ [[Necroptosis]]
 - Sex-bias note (2026-09-03): no verified intrinsic sex bias for accidental necrosis; dimorphism tracked to regulated executors ([[Necroptosis]], [[Pyroptosis]]).

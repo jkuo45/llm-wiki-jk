@@ -39,7 +39,7 @@ Because EP-loop formation depends on readers/writers (BRD4, p300, METTL3/14, HDA
 
 ## Documents
 
-- [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]] — Enhancer-promoter looping within TADs, hyper-connected to SASP promoters, is a key driver of SASP transcription in senescence.
+- [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]] — Enhancer-promoter looping within TADs, hyper-connected to SASP promoters, is a key driver of SASP transcription in senescence.
 
 ## Connections
 

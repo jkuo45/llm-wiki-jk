@@ -16,7 +16,7 @@ aliases:
 
 # Methionine
 
-**Methionine** is one of the nine [[Essential Amino Acids|essential amino acids]] and the only sulfur-containing essential amino acid in mammals. It is the precursor of [[S-adenosylmethionine]] (SAM), the universal [[Methyl Donor|methyl donor]], placing it at the interface of diet, one-carbon metabolism, and the [[Epigenome]]. Dietary [[Methionine Restriction]] extends lifespan of many species and recapitulates many of the benefits of [[Protein Restriction]].
+**Methionine** is one of the nine [[Essential Amino Acids|essential amino acids]] and the only sulfur-containing essential amino acid in mammals. It is the precursor of [[SAMe]] (SAM), the universal [[Methyl Donor|methyl donor]], placing it at the interface of diet, one-carbon metabolism, and the [[Epigenome]]. Dietary [[Methionine Restriction]] extends lifespan of many species and recapitulates many of the benefits of [[Protein Restriction]].
 
 ## Overview
 
@@ -24,7 +24,7 @@ Methionine is an endogenous metabolite involved in cellular energy metabolism, r
 
 ## Role in One-Carbon Metabolism and the Epigenome
 
-Methionine is adenylated to form [[S-adenosylmethionine|S-adenosyl-L-methionine]], the universal methyl donor used by DNA and [[Histone Methylation|histone]] methyltransferases. Dietary methionine deprivation therefore reduces methyl-donor availability, altering the [[Epigenome]]:
+Methionine is adenylated to form [[SAMe|S-adenosyl-L-methionine]], the universal methyl donor used by DNA and [[Histone Methylation|histone]] methyltransferases. Dietary methionine deprivation therefore reduces methyl-donor availability, altering the [[Epigenome]]:
 
 - Cells preserve heterochromatic stability through upregulation of [[H3K9me3|H3K9 mono-methylation]] in the liver during methionine depletion
 - Methionine availability couples nutrient status to [[DNA Methylation]] and histone methylation programs
@@ -49,7 +49,7 @@ Altered methionine levels are observed in metabolic disorders, mitochondrial dis
 ## Connections
 
 - [[Methionine Restriction]] — Dietary restriction of methionine that extends lifespan and improves metabolic health
-- [[S-adenosylmethionine]] — Universal methyl donor derived from methionine
+- [[SAMe]] — Universal methyl donor derived from methionine
 - [[Methyl Donor]] — Methionine is the dietary precursor of the principal methyl donor pool
 - [[Histone Methylation]] — Influenced by methionine-dependent methyl-donor availability
 - [[H3K9me3]] — Heterochromatic mark preserved during methionine depletion
@@ -61,8 +61,8 @@ Altered methionine levels are observed in metabolic disorders, mitochondrial dis
 
 ## Linking Summary
 
-- New links added: [[Essential Amino Acids]], [[S-adenosylmethionine]], [[Methyl Donor]], [[Histone Methylation]], [[DNA Methylation]], [[Cysteine]], [[H3K9me3]]
+- New links added: [[Essential Amino Acids]], [[SAMe]], [[Methyl Donor]], [[Histone Methylation]], [[DNA Methylation]], [[Cysteine]], [[H3K9me3]]
 - Suggested new entity notes to create: [[Essential Amino Acids]], [[Transsulfuration]], [[One-carbon Metabolism]]
 - Strong connections to strengthen:
-    - [[Methionine]] ↔ [[S-adenosylmethionine]]
+    - [[Methionine]] ↔ [[SAMe]]
     - [[Methionine]] ↔ [[Methionine Restriction]] ↔ [[FGF21]]

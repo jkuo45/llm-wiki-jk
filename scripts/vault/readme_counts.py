@@ -68,6 +68,45 @@ MERMAID_FENCE_RE = re.compile(r"^```mermaid[ \t]*\r?$", re.MULTILINE)
 MERMAID_DIV_RE = re.compile(r"<div[^>]*class=[\"'][^\"']*mermaid")
 CJK_RE = re.compile(r"[\u4e00-\u9fff]")
 LATIN_WORD_RE = re.compile(r"[A-Za-z0-9]+")
+# HTML card stats: script/style carry huge irrelevant token counts (three.js
+# pages especially), so they go before tag stripping.
+HTML_SCRIPT_RE = re.compile(
+    r"<(?:script|style)[^>]*>.*?</(?:script|style)>", re.DOTALL | re.IGNORECASE
+)
+HTML_TAG_RE = re.compile(r"<[^>]+>")
+HTML_IMG_RE = re.compile(r"<img\b", re.IGNORECASE)
+HTML_LINK_RE = re.compile(r"<a\b[^>]*href\s*=", re.IGNORECASE)
+MERMAID_CLASS_RE = re.compile(r"class=[\"'][^\"]*mermaid", re.IGNORECASE)
+# Real diagram SVGs carry role="img" (+aria-label); the 24x24 toolbar icons
+# and the per-page 100x100 logo SVG don't, so role discriminates cleanly.
+SVG_DIAG_RE = re.compile(r"<svg\b[^>]*\brole\s*=\s*[\"']img[\"']", re.IGNORECASE)
+# Interactive figures (three.js scenes, canvas charts) render via a static
+# <canvas> tag; counted after script stripping, so JS-created canvases
+# (createElement('canvas')) don't match.
+HTML_CANVAS_RE = re.compile(r"<canvas\b", re.IGNORECASE)
+# Figures drawn at runtime: the page ships an empty
+# <div class="fig-canvas" id="..."></div> host and JS fills it via
+# svgRoot()/canvas. There is nothing inline to match, so these were
+# invisible to the counter. Requiring the host to be *empty* is what keeps
+# the rule additive: on pages that inline their <svg role="img"> inside the
+# host, the host has children and does not match, so the figure is still
+# counted exactly once by SVG_DIAG_RE. Matched after script stripping, so a
+# string literal in JS that looks like a host tag cannot inflate the total.
+FIG_HOST_RE = re.compile(
+    r"<div\b[^>]*class=[\"'][^\"']*\bfig-canvas\b[^\"']*[\"'][^>]*>\s*</div>",
+    re.IGNORECASE,
+)
+
+
+def _word_count(text):
+    """Raw word count shared by md/html stats: latin tokens + CJK chars."""
+    return len(CJK_RE.findall(text)) + len(
+        LATIN_WORD_RE.findall(CJK_RE.sub(" ", text))
+    )
+
+
+def _stats(words, images, links, diagrams):
+    return {"words": words, "images": images, "links": links, "diagrams": diagrams}
 
 
 def content_stats(filepath):
@@ -75,23 +114,76 @@ def content_stats(filepath):
 
     Raw word count = latin tokens + CJK characters (frontmatter stripped);
     images/links counted with image syntax removed first so an image never
-    leaks into the links total; diagrams = ```mermaid fences + <div
-    class="mermaid"> blocks. Missing files return zeros.
+    leaks into the links total. HTML embedded in markdown (`<figure><img>`,
+    `<a href>` — how task exports embed photos) counts alongside the md
+    syntax. diagrams = ```mermaid fences + <div class="mermaid"> blocks.
+    Missing files return zeros.
     """
-    zero = {"words": 0, "images": 0, "links": 0, "diagrams": 0}
     try:
         with open(filepath, "r", encoding="utf-8") as f:
             text = f.read()
     except OSError:
-        return zero
+        return _stats(0, 0, 0, 0)
     text = FRONTMATTER_RE.sub("", text, count=1)
-    images = len(MD_IMAGE_RE.findall(text))
-    links = len(MD_LINK_RE.findall(MD_IMAGE_RE.sub("", text)))
+    images = len(MD_IMAGE_RE.findall(text)) + len(HTML_IMG_RE.findall(text))
+    links = (len(MD_LINK_RE.findall(MD_IMAGE_RE.sub("", text)))
+             + len(HTML_LINK_RE.findall(text)))
     diagrams = len(MERMAID_FENCE_RE.findall(text)) + len(MERMAID_DIV_RE.findall(text))
-    words = len(CJK_RE.findall(text)) + len(
-        LATIN_WORD_RE.findall(CJK_RE.sub(" ", text))
-    )
-    return {"words": words, "images": images, "links": links, "diagrams": diagrams}
+    return _stats(_word_count(text), images, links, diagrams)
+
+
+def html_content_stats(filepath):
+    """Same card stats for one static HTML article page: <img> images,
+    <a href> links, diagrams = class=...mermaid blocks + inline <svg
+    role="img"> figures + <canvas> scenes (three.js / 2-D canvas figures;
+    UI icon SVGs excluded) + empty <div class="fig-canvas"> hosts that JS
+    fills at runtime, words from visible text (script/style stripped
+    first, then remaining tags). Missing = zeros.
+    """
+    try:
+        with open(filepath, "r", encoding="utf-8") as f:
+            text = f.read()
+    except OSError:
+        return _stats(0, 0, 0, 0)
+    text = HTML_SCRIPT_RE.sub(" ", text)
+    images = len(HTML_IMG_RE.findall(text))
+    links = len(HTML_LINK_RE.findall(text))
+    diagrams = (len(MERMAID_CLASS_RE.findall(text))
+                + len(SVG_DIAG_RE.findall(text))
+                + len(HTML_CANVAS_RE.findall(text))
+                + len(FIG_HOST_RE.findall(text)))
+    words = _word_count(HTML_TAG_RE.sub(" ", text))
+    return _stats(words, images, links, diagrams)
+
+
+def build_articles_stats(args):
+    """Emit web/public/data/articles-stats.json keyed by article id —
+    per-card stats from the HTML pages listed in the hand-maintained
+    articles.json registry (registry itself stays hand-edited). EN page
+    wins, zh-TW fills the gap; articles without a readable page are skipped.
+    """
+    reg_path = os.path.join(args.web_data_dir, "articles.json")
+    try:
+        with open(reg_path, "r", encoding="utf-8") as f:
+            registry = json.load(f)
+    except (OSError, ValueError) as e:
+        print(f"Warning: could not read {reg_path}: {e}")
+        return
+    public_dir = os.path.dirname(os.path.abspath(args.web_data_dir))
+    stats = {}
+    for a in registry:
+        langs = a.get("langs") or {}
+        page = ((langs.get("en-US") or {}).get("path")
+                or (langs.get("zh-TW") or {}).get("path") or "")
+        if not page or not a.get("id"):
+            continue
+        stats[a["id"]] = html_content_stats(os.path.join(public_dir, page))
+    out_path = os.path.join(args.web_data_dir, "articles-stats.json")
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump({"generated": get_timestamp(), "stats": stats}, f,
+                  ensure_ascii=False, indent=2)
+        f.write("\n")
+    print(f"Wrote {out_path} ({len(stats)} articles)")
 
 
 MARKER_RE = re.compile(
@@ -286,9 +378,18 @@ def build_web_tasks(task_data, args):
             rel = os.path.relpath(t["path"], args.tasks_dir)
             dest_rel = os.path.join(lang, rel)
         entry["path"] = f"tasks/{urllib.parse.quote(dest_rel.replace(os.sep, '/'))}"
+        # Card filename links to the source file in the repo (dev branch).
+        gh = github_blob(args, t["path"])
+        if gh:
+            entry["github"] = gh
         group = groups.setdefault(
             stem, {"id": stem, "langs": {}}
         )
+        # Group-level card stats: en-US wins (source path under src/tasks or
+        # the web copy order below), zh only fills the gap — zh-only groups
+        # never render anyway (the index requires langs['en-US']).
+        if lang == "en-US" or "stats" not in group:
+            group["stats"] = content_stats(t["path"])
         if lang not in group["langs"]:
             group["langs"][lang] = entry
         # `starred` is a group-level flag (like `active`): any language
@@ -358,10 +459,12 @@ def build_web_tasks(task_data, args):
 
 
 # --- Web artifacts: wiki notes for the reader panel ---------------------------
-# Mirror of the task-output flow above, capped at --wiki-limit entries: entity
-# notes are scored (recency + graph centrality + star + quality — see
-# score_note) and the top N are registered in web/public/data/wiki.json and
-# copied into web/public/wiki/en-US/ (wiped + regenerated each run).
+# Mirror of the task-output flow above: entity notes are scored (recency +
+# graph centrality + star + quality — see score_note) and registered in
+# web/public/data/wiki.json, with the markdown copied into
+# web/public/wiki/en-US/ (wiped + regenerated each run). The feed is the top
+# --wiki-limit by score PLUS every note that has a zh-TW translation, so a
+# translated note is never dropped by a burst of new stubs.
 # web/public/wiki/zh-TW is hand-maintained (translations are stored
 # web-only) and must survive rebuilds, exactly like tasks zh-TW.
 # Entities only: README/index and _document_* notes are excluded from the feed.
@@ -396,6 +499,15 @@ def fm_text(value):
     if isinstance(value, list):
         return " ".join(str(v) for v in value)
     return str(value or "")
+
+
+def stem_of(path):
+    """Filename stem (no directory, no .md) — the wiki registry group id.
+
+    Canonical filenames are unique across src/notes (see AGENTS.md), so the
+    stem alone identifies a note in the reader feed.
+    """
+    return re.sub(r"\.md$", "", os.path.basename(path))
 
 
 def scan_notes_for_web(notes_dir):
@@ -588,11 +700,25 @@ def build_web_wiki(note_rows, args, repo_root):
             centrality_of(metrics, log_maxima),
             half_life=args.wiki_half_life, weights=weights, now=now,
         )
-    ranked = sorted(
+    ranked_all = sorted(
         resolved,
         key=lambda r: (r["score"], max(r["created_dt"], r["updated_dt"])),
         reverse=True,
-    )[: args.wiki_limit]
+    )
+    # The cap bounds the reader dropdown and the EN copies on disk, not the
+    # translations: every note with a zh-TW sibling joins regardless of rank,
+    # so a translated note can never fall out of the feed. Selection reads
+    # only src/notes + web/public/wiki/zh-TW — never last run's wiki.json or
+    # the en-US copies — so re-running is a fixpoint, not a growing set.
+    zh_by_norm = {norm(stem_of(z["path"])): z for z in scan_web_zh_wiki(args)}
+    ranked = ranked_all[: args.wiki_limit] + [
+        r for r in ranked_all[args.wiki_limit:]
+        if norm(stem_of(r["src"]["path"])) in zh_by_norm
+    ]
+    n_kept = len(ranked) - min(len(ranked_all), args.wiki_limit)
+    if n_kept:
+        print(f"wiki feed: {min(len(ranked_all), args.wiki_limit)} by score "
+              f"+ {n_kept} kept for zh-TW translation")
     if ranked:
         names = [re.sub(r"\.md$", "", os.path.basename(r["src"]["path"]))
                  for r in ranked[:5]]
@@ -638,19 +764,25 @@ def build_web_wiki(note_rows, args, repo_root):
             print(f"Warning: could not copy {r['src']['path']}: {e}")
 
     # Hand-maintained zh-TW translations (web-only) join their EN group by
-    # filename; notes outside the capped selection are ignored.
-    for z in scan_web_zh_wiki(args):
+    # canonical norm(stem), so renaming an EN note (M₁dG -> M1dG) keeps its
+    # translation. Anything left over matches no eligible EN note and would
+    # silently never render, so warn instead of dropping it quietly.
+    groups_by_norm = {norm(g["id"]): g for g in groups.values()}
+    for key, z in zh_by_norm.items():
         basename = os.path.basename(z["path"])
-        stem = re.sub(r"\.md$", "", basename)
-        group = groups.get(stem)
+        group = groups_by_norm.get(key)
         if group is None:
+            print(f"Warning: zh-TW note {basename} matches no EN note — "
+                  f"dropped from the feed")
             continue
         fm = parse_frontmatter(z["path"])
         created_dt = parse_iso_date(fm.get("created")) or z["datetime"]
         updated_dt = parse_iso_date(fm.get("updated")) or z["datetime"]
         rel = os.path.relpath(z["path"], args.web_wiki_dir)
         group["langs"]["zh-TW"] = {
-            "title": fm_text(fm.get("title")) or stem,
+            # Fall back to the EN group id, not the zh filename: the two stems
+            # can differ (M₁dG vs M1dG) and the canonical one reads better.
+            "title": fm_text(fm.get("title")) or group["id"],
             "description": fm_text(fm.get("description")),
             "created": created_dt.date().isoformat(),
             "updated": updated_dt.date().isoformat(),
@@ -763,7 +895,7 @@ def main():
         "--wiki-limit",
         type=int,
         default=WIKI_LIMIT_DEFAULT,
-        help=f"Max wiki notes in the reader feed / translation batch (default: {WIKI_LIMIT_DEFAULT})",
+        help=f"Max wiki notes in the reader feed by score; notes with a zh-TW translation are always kept (default: {WIKI_LIMIT_DEFAULT})",
     )
     parser.add_argument(
         "--wiki-roles",
@@ -958,6 +1090,8 @@ def main():
         # Wiki feed: top --wiki-limit entity notes -> wiki.json + en-US copies.
         # zh-TW joins via web/public/wiki/zh-TW (hand-maintained, like tasks).
         build_web_wiki(scan_notes_for_web(notes_dir), args, repo_root)
+        # Article card stats sidecar (articles.json stays hand-maintained).
+        build_articles_stats(args)
 
     # Prepare new content
     new_timestamp = get_timestamp()

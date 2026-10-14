@@ -24,7 +24,7 @@ aliases:
 
 ## Interaction with Ivermectin (Repurposing Context)
 
-In the ivermectin anticancer-repositioning literature, enzalutamide resistance serves as a clinically relevant resistance model. Preclinical reports indicate that [[Ivermectin]] **overcomes enzalutamide resistance** in prostate cancer models and shows **synergy with docetaxel** (a tubulin-stabilizing taxane), supporting the rationale for repurposing antiparasitic agents in AR-pathway-driven tumors. This connects the [[Ivermectin]] node to the [[Prostate Cancer]]/[[Docetaxel]]/[[Androgen Receptor]] axis.
+In the ivermectin anticancer-repositioning literature, enzalutamide resistance serves as a clinically relevant resistance model. Preclinical reports indicate that [[Ivermectin]] **overcomes enzalutamide resistance** in prostate cancer models and shows **synergy with docetaxel** (a tubulin-stabilizing taxane), supporting the rationale for repurposing antiparasitic agents in AR-pathway-driven tumors. This connects the [[Ivermectin]] node to the [[Prostate Cancer]]/[[docetaxel]]/[[Androgen Receptor]] axis.
 
 ## Pharmacodynamics & Clinical Use
 
@@ -42,13 +42,13 @@ List of documents that mention this entity
 ## Connections
 
 - [[Ivermectin]]: Overcomes enzalutamide resistance; synergizes with docetaxel.
-- [[Docetaxel]]: Taxane; synergistic with ivermectin in AR-pathway tumors.
+- [[docetaxel]]: Taxane; synergistic with ivermectin in AR-pathway tumors.
 - [[Androgen Receptor]]: Primary target of enzalutamide.
 - [[Prostate Cancer]]: Indication (CRPC).
 - [[Castration-Resistant Prostate Cancer]]: Indication.
 
 ## Linking Summary
 
-- New links added: [[Ivermectin]], [[Docetaxel]], [[Androgen Receptor]], [[Prostate Cancer]], [[Castration-Resistant Prostate Cancer]]
+- New links added: [[Ivermectin]], [[docetaxel]], [[Androgen Receptor]], [[Prostate Cancer]], [[Castration-Resistant Prostate Cancer]]
 - Suggested new entity notes to create: [[Androgen Receptor]], [[Castration-Resistant Prostate Cancer]]
-- Strong connections to strengthen: [[Ivermectin]] ↔ [[Enzalutamide]] ↔ [[Docetaxel]] (resistance-overcoming/synergy in CRPC)
+- Strong connections to strengthen: [[Ivermectin]] ↔ [[Enzalutamide]] ↔ [[docetaxel]] (resistance-overcoming/synergy in CRPC)

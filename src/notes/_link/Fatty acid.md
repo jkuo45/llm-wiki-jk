@@ -21,7 +21,7 @@ Systematic nomenclature specifies chain length and number of double bonds (e.g.,
 
 ## Metabolism
 
-Fatty acid synthesis (lipogenesis) proceeds from acetyl-CoA through carboxylation to malonyl-CoA, followed by elongation to palmitate via fatty acid synthase (FASN). Further elongation and desaturation occur in the endoplasmic reticulum. Fatty acid oxidation occurs primarily through mitochondrial β-oxidation; very-long-chain fatty acids are initially chain-shortened in [[Peroxisomes]]. Omega-3 and omega-6 polyunsaturated fatty acids (PUFAs) serve as precursors for eicosanoids — including [[Prostaglandins]], [[Leukotrienes]], and thromboxanes — via cyclooxygenase ([[Cyclooxygenases|COX]]) and [[Lipoxygenases|lipoxygenase (LOX) pathways]]. [[DHA]] is enriched in the brain and retina and is critical for neuronal function and visual signal transduction.
+Fatty acid synthesis (lipogenesis) proceeds from acetyl-CoA through carboxylation to malonyl-CoA, followed by elongation to palmitate via fatty acid synthase (FASN). Further elongation and desaturation occur in the endoplasmic reticulum. Fatty acid oxidation occurs primarily through mitochondrial β-oxidation; very-long-chain fatty acids are initially chain-shortened in [[Peroxisomes]]. Omega-3 and omega-6 polyunsaturated fatty acids (PUFAs) serve as precursors for eicosanoids — including [[Prostaglandins]], [[Leukotrienes]], and thromboxanes — via cyclooxygenase ([[Cyclooxygenase|COX]]) and [[Lipoxygenases|lipoxygenase (LOX) pathways]]. [[DHA]] is enriched in the brain and retina and is critical for neuronal function and visual signal transduction.
 
 ## Physiological Function
 
@@ -50,11 +50,11 @@ Dietary saturated fat elevates [[LDL]] cholesterol and is associated with increa
 - [[NASH]] — advanced fatty liver disease
 - [[Statins]] — cholesterol-lowering drugs
 - [[Lipoxygenases]] — PUFA oxidation to leukotrienes and resolvins
-- [[Cyclooxygenases]] — PUFA oxidation to prostaglandins and thromboxanes
+- [[Cyclooxygenase]] — PUFA oxidation to prostaglandins and thromboxanes
 - [[Peroxisomes]] — VLCFA β-oxidation
 - [[Inflammation]] — eicosanoids and SCFAs as inflammatory mediators
 
 ## Linking Summary
-- New links added: [[Peroxisomes]], [[Prostaglandins]], [[Leukotrienes]], [[Cyclooxygenases]], [[Lipoxygenases]], [[DHA]], [[Phospholipids]], [[Adipose Tissue]], [[Inflammation]], [[PPARα]], [[PPARγ]], [[Acetate]], [[Propionate]], [[Butyrate]], [[Gut Microbiome]], [[Histone deacetylase]], [[LDL]], [[Cardiovascular Disease]], [[Lipotoxicity]], [[Insulin Resistance]], [[Type 2 Diabetes Mellitus]], [[Liver]], [[Skeletal Muscle]], [[Non-alcoholic Fatty Liver Disease]], [[NASH]], [[Hepatic Steatosis]], [[Lipid Synthesis]], [[Fatty acid oxidation]], [[Short-chain Fatty Acids]], [[Cell Membranes]], [[Metabolic Syndrome]], [[Statins]]
+- New links added: [[Peroxisomes]], [[Prostaglandins]], [[Leukotrienes]], [[Cyclooxygenase]], [[Lipoxygenases]], [[DHA]], [[Phospholipids]], [[Adipose Tissue]], [[Inflammation]], [[PPARα]], [[PPARγ]], [[Acetate]], [[Propionate]], [[Butyrate]], [[Gut Microbiome]], [[Histone deacetylase]], [[LDL]], [[Cardiovascular Disease]], [[Lipotoxicity]], [[Insulin Resistance]], [[Type 2 Diabetes Mellitus]], [[Liver]], [[Skeletal Muscle]], [[Non-alcoholic Fatty Liver Disease]], [[NASH]], [[Hepatic Steatosis]], [[Lipid Synthesis]], [[Fatty acid oxidation]], [[Short-chain Fatty Acids]], [[Cell Membranes]], [[Metabolic Syndrome]], [[Statins]]
 - Suggested new entity notes to create: [[Essential Fatty Acids]], [[Eicosanoid]], [[Resolvins]], [[Protectins]], [[Maresins]], [[Lipogenesis]], [[β-oxidation]], [[FASN]], [[GPR41]], [[GPR43]], [[Triglycerides]], [[LXR]], [[FXR]]
   - Strong connections to strengthen: Fatty acid ↔ Lipid Synthesis, Fatty acid ↔ Short-chain Fatty Acids, Fatty acid ↔ [[Lipotoxicity]]

@@ -11,7 +11,7 @@
     "confidence": 0.92,
     "source_document": "Activin A.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9bd75100bbcc",
@@ -25,7 +25,7 @@
     "confidence": 0.88,
     "source_document": "Activin A.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "522b86a74028",
@@ -39,10 +39,10 @@
     "confidence": 0.85,
     "source_document": "Activin A.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "cfd5b3291568",
+    "id": "3b1b6b938a8f",
     "subject": "Activin A",
     "predicate": "is_induced_by",
     "object": "IL-1α",
@@ -53,7 +53,7 @@
     "confidence": 0.88,
     "source_document": "Activin A.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c08796b6d2e3",
@@ -67,7 +67,7 @@
     "confidence": 0.92,
     "source_document": "Activin A.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0619636fa047",
@@ -81,7 +81,7 @@
     "confidence": 0.88,
     "source_document": "Activin A.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "443739575c27",
@@ -95,7 +95,7 @@
     "confidence": 0.88,
     "source_document": "Activin A.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "85e8a57fd496",
@@ -109,7 +109,7 @@
     "confidence": 0.9,
     "source_document": "Activin A.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2fe282803899",
@@ -123,10 +123,10 @@
     "confidence": 0.9,
     "source_document": "Activin A.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "1564c8abf7a7",
+    "id": "79fd018b56e1",
     "subject": "Activin A",
     "predicate": "is_a_type_of",
     "object": "TGFβ Superfamily",
@@ -137,7 +137,7 @@
     "confidence": 0.92,
     "source_document": "Activin A.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4243020af140",
@@ -151,7 +151,7 @@
     "confidence": 0.9,
     "source_document": "Acute Stress-Associated Phenotype.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "82442c2adf4f",
@@ -165,7 +165,7 @@
     "confidence": 0.9,
     "source_document": "Acute Stress-Associated Phenotype.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "be7525c4c094",
@@ -179,7 +179,7 @@
     "confidence": 0.9,
     "source_document": "Acute Stress-Associated Phenotype.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "63a74bdc4cce",
@@ -193,7 +193,7 @@
     "confidence": 0.72,
     "source_document": "Acute Stress-Associated Phenotype.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c0a6a10107ae",
@@ -207,7 +207,7 @@
     "confidence": 0.72,
     "source_document": "Acute Stress-Associated Phenotype.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8d524347414f",
@@ -221,7 +221,7 @@
     "confidence": 0.9,
     "source_document": "Acute Stress-Associated Phenotype.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6afc2b6de8ab",
@@ -235,7 +235,7 @@
     "confidence": 0.9,
     "source_document": "Acute Stress-Associated Phenotype.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ed4f2f6d39e0",
@@ -263,7 +263,7 @@
     "confidence": 0.92,
     "source_document": "Senescence Surveillance.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1c70b60cb8d7",
@@ -277,7 +277,7 @@
     "confidence": 0.94,
     "source_document": "_document_ - Mitochondrial dysfunction in cellular senescence a bridge to neurodegenerative disease.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "36dc9235c698",
@@ -305,7 +305,7 @@
     "confidence": 0.86,
     "source_document": "SASP.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "abf55e37343b",
@@ -375,7 +375,7 @@
     "confidence": 0.9,
     "source_document": "SASP.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "783f6edf789a",
@@ -417,7 +417,7 @@
     "confidence": 0.92,
     "source_document": "Senescence Surveillance.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e716fc772a19",
@@ -431,7 +431,7 @@
     "confidence": 0.72,
     "source_document": "Senomorphic Therapy.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "37d5c2c9c90c",
@@ -445,10 +445,10 @@
     "confidence": 0.9,
     "source_document": "Noncanonical Inflammasome.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "f39c4d69412f",
+    "id": "94118b3a6b30",
     "subject": "Caspase-5",
     "predicate": "cleaves",
     "object": "IL-1α",
@@ -459,7 +459,7 @@
     "confidence": 0.9,
     "source_document": "Noncanonical Inflammasome.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "78192ea86b8f",
@@ -504,7 +504,7 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "4190746dfeb4",
+    "id": "55126012b40d",
     "subject": "CCL20",
     "predicate": "is_induced_by",
     "object": "IL-1α",
@@ -515,7 +515,7 @@
     "confidence": 0.9,
     "source_document": "CCL20.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-09-04T16:31:56Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ecceecd32c03",
@@ -543,7 +543,7 @@
     "confidence": 0.88,
     "source_document": "CCL20.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d3591ac33702",
@@ -585,7 +585,7 @@
     "confidence": 0.92,
     "source_document": "CDKN2B.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "180347826d27",
@@ -613,10 +613,10 @@
     "confidence": 0.9,
     "source_document": "CDKN2B.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "7203b669b5ed",
+    "id": "c3f55be98d59",
     "subject": "CDKN2B",
     "predicate": "is_induced_by",
     "object": "TGFβ",
@@ -627,7 +627,7 @@
     "confidence": 0.92,
     "source_document": "CDKN2B.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "01607b504b23",
@@ -641,7 +641,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - JCI -Expanding roles of cGAS-STING signaling in neuroinflammation.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3f09c27807f9",
@@ -655,7 +655,7 @@
     "confidence": 0.7,
     "source_document": "_document_ - JCI -Expanding roles of cGAS-STING signaling in neuroinflammation.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e8a762184208",
@@ -669,7 +669,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - JCI -Expanding roles of cGAS-STING signaling in neuroinflammation.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a5b36ee6f9f1",
@@ -683,7 +683,7 @@
     "confidence": 0.91,
     "source_document": "_document_ - JCI -Expanding roles of cGAS-STING signaling in neuroinflammation.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ac75f9713846",
@@ -697,7 +697,7 @@
     "confidence": 0.93,
     "source_document": "SASP.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "24cc4c3275f5",
@@ -711,7 +711,7 @@
     "confidence": 0.9,
     "source_document": "Senescence Surveillance.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2e0ab877b6b5",
@@ -725,7 +725,7 @@
     "confidence": 0.85,
     "source_document": "Paracrine Reprogramming.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "94f50b827ecb",
@@ -739,7 +739,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Cellular senescence and senescence‐associated secretory phenotype via the cGAS_STING signaling pathway in cancer.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "77949b0c1f50",
@@ -753,7 +753,7 @@
     "confidence": 0.88,
     "source_document": "_document_ - Cellular senescence and senescence‐associated secretory phenotype via the cGAS_STING signaling pathway in cancer.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a3794a6621a6",
@@ -767,7 +767,7 @@
     "confidence": 0.4,
     "source_document": "_document_ - Cellular senescence and senescence‐associated secretory phenotype via the cGAS_STING signaling pathway in cancer.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3309963a4bdf",
@@ -795,7 +795,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Fisetin is a senotherapeutic that extends health and lifespan.md",
     "created": "2026-08-21T00:00:00Z",
-    "updated": "2026-08-21T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "890259306969",
@@ -809,7 +809,7 @@
     "confidence": 0.72,
     "source_document": "SASP.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "16238441c882",
@@ -823,7 +823,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Small molecule compounds that induce cellular senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5feb79f8b27d",
@@ -837,7 +837,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Small molecule compounds that induce cellular senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2e69bf875b7e",
@@ -896,7 +896,7 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "810daf9f2da5",
+    "id": "a0fb256dc9f0",
     "subject": "Fisetin",
     "predicate": "inhibits",
     "object": "NF-κB",
@@ -907,7 +907,7 @@
     "confidence": 0.75,
     "source_document": "_document_ - Fisetin is a senotherapeutic that extends health and lifespan.md",
     "created": "2026-08-21T00:00:00Z",
-    "updated": "2026-08-21T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c7b6bf567740",
@@ -921,7 +921,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Fisetin is a senotherapeutic that extends health and lifespan.md",
     "created": "2026-08-21T00:00:00Z",
-    "updated": "2026-08-21T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4f75108b3990",
@@ -949,7 +949,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Fisetin is a senotherapeutic that extends health and lifespan.md",
     "created": "2026-08-21T00:00:00Z",
-    "updated": "2026-08-21T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "af1db516a74c",
@@ -977,7 +977,7 @@
     "confidence": 0.88,
     "source_document": "Senescent Cells.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e53e50eada1f",
@@ -1033,7 +1033,7 @@
     "confidence": 0.88,
     "source_document": "Myeloid-Derived Suppressor Cells.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "21b2753f048c",
@@ -1047,7 +1047,7 @@
     "confidence": 0.9,
     "source_document": "Therapy-Induced Senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "061fb98f274f",
@@ -1067,7 +1067,7 @@
     "id": "3f76a0db92f9",
     "subject": "HLA-E",
     "predicate": "suppresses",
-    "object": "CD8 T Cells",
+    "object": "CD8 T cells",
     "context": {
       "en-US": "HLA-E-NKG2A/CD94 engagement on CD8+ T cells suppresses their cytotoxic killing, extending the immune-evasive effect beyond NK cells to the adaptive compartment. This allows HLA-E-upregulated senescent and malignant cells to evade cytotoxic T lymphocytes, contributing to failed clearance and persistence. The suppression reinforces the dual innate and adaptive immune evasion conferred by HLA-E and mirrors the checkpoint biology exploited by tumors. Pharmacological blockade of the interaction is being explored as a strategy to restore CD8+ T-cell responses.",
       "zh-TW": "HLA-E-NKG2A/CD94 在 CD8+ T 細胞上的參與抑制其細胞毒性殺死，將免疫逃脫效應從 NK 細胞擴展到適應區室。這允許 HLA-E 上升的衰老與惡性細胞逃避免疫毒性 T 淋巴球，貢獻失敗清除與持續。此抑制強化 HLA-E 賦予的雙重先天與適應免疫逃脫，並反映腫瘤利用的檢查點生物學。藥理阻斷此交互作用正被探索作為恢復 CD8+ T 細胞反應的策略。"
@@ -1075,7 +1075,7 @@
     "confidence": 0.9,
     "source_document": "HLA-E.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "787f83f94154",
@@ -1089,7 +1089,7 @@
     "confidence": 0.9,
     "source_document": "HLA-E.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c5ef649c46e8",
@@ -1103,7 +1103,7 @@
     "confidence": 0.9,
     "source_document": "HLA-E.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6b5b1b400493",
@@ -1117,7 +1117,7 @@
     "confidence": 0.92,
     "source_document": "HLA-E.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6424cc37383a",
@@ -1131,7 +1131,7 @@
     "confidence": 0.9,
     "source_document": "HLA-E.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "24900f4a11e6",
@@ -1145,7 +1145,7 @@
     "confidence": 0.92,
     "source_document": "HLA-E.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "bd1fbc7ff055",
@@ -1159,7 +1159,7 @@
     "confidence": 0.9,
     "source_document": "HLA-E.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d5330357ae36",
@@ -1173,10 +1173,10 @@
     "confidence": 0.88,
     "source_document": "Senolytic Therapy.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "9f432a9ea9d8",
+    "id": "3ebc32778403",
     "subject": "IL-1α",
     "predicate": "induces",
     "object": "Paracrine Senescence",
@@ -1187,10 +1187,10 @@
     "confidence": 0.92,
     "source_document": "Paracrine Senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "82c175c35874",
+    "id": "5e9d23a3d7cd",
     "subject": "IL-1α",
     "predicate": "amplifies",
     "object": "SASP",
@@ -1201,7 +1201,7 @@
     "confidence": 0.95,
     "source_document": "SASP.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ffd51fffd410",
@@ -1215,7 +1215,7 @@
     "confidence": 0.96,
     "source_document": "SASP.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T05:49:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "387296723b7f",
@@ -1229,7 +1229,7 @@
     "confidence": 0.9,
     "source_document": "SASP.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "23c0d271f05c",
@@ -1243,7 +1243,7 @@
     "confidence": 0.88,
     "source_document": "SASP.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "98cd22dd8894",
@@ -1257,7 +1257,7 @@
     "confidence": 0.95,
     "source_document": "SASP.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T05:49:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "fef3f3c9f090",
@@ -1341,7 +1341,7 @@
     "confidence": 0.92,
     "source_document": "Immunosenescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d6a318d94239",
@@ -1369,7 +1369,7 @@
     "confidence": 0.9,
     "source_document": "Senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6bfd0a6c5a13",
@@ -1439,10 +1439,10 @@
     "confidence": 0.93,
     "source_document": "Inflammasome.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "98401f6da433",
+    "id": "d6329d41ef3d",
     "subject": "Inflammasome",
     "predicate": "processes",
     "object": "IL-1β",
@@ -1453,7 +1453,7 @@
     "confidence": 0.92,
     "source_document": "Inflammasome.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a0c07a9b1c98",
@@ -1523,7 +1523,7 @@
     "confidence": 0.9,
     "source_document": "Paracrine Reprogramming.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "715a4579c8b2",
@@ -1537,7 +1537,7 @@
     "confidence": 0.9,
     "source_document": "SASP.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "82f4709454e4",
@@ -1565,7 +1565,7 @@
     "confidence": 0.93,
     "source_document": "Senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "bc117fe7e82d",
@@ -1579,7 +1579,7 @@
     "confidence": 0.7,
     "source_document": "SADS.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8d4677382f4a",
@@ -1593,7 +1593,7 @@
     "confidence": 0.7,
     "source_document": "SADS.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "815656179bea",
@@ -1607,7 +1607,7 @@
     "confidence": 0.82,
     "source_document": "SASP.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d294cf46f6c1",
@@ -1621,7 +1621,7 @@
     "confidence": 0.7,
     "source_document": "SADS.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "323792e2d17f",
@@ -1649,7 +1649,7 @@
     "confidence": 0.91,
     "source_document": "Senescent Cells.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8ded304beda8",
@@ -1691,7 +1691,7 @@
     "confidence": 0.9,
     "source_document": "Senescence-associated mitochondrial dysfunction.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2da79ed3e093",
@@ -1705,7 +1705,7 @@
     "confidence": 0.9,
     "source_document": "Senescence-associated mitochondrial dysfunction.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c03227300b99",
@@ -1719,7 +1719,7 @@
     "confidence": 0.9,
     "source_document": "Senescence-associated mitochondrial dysfunction.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "04dec0f9f3ae",
@@ -1733,7 +1733,7 @@
     "confidence": 0.91,
     "source_document": "_document_ - Mitochondrial dysfunction in cellular senescence a bridge to neurodegenerative disease.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f129280ffbfb",
@@ -1789,7 +1789,7 @@
     "confidence": 0.93,
     "source_document": "MyD88.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b0897e102d86",
@@ -1803,7 +1803,7 @@
     "confidence": 0.93,
     "source_document": "MyD88.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f0d8a4f578ee",
@@ -1887,7 +1887,7 @@
     "confidence": 0.9,
     "source_document": "MyD88.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3ab9c79aefb4",
@@ -1901,7 +1901,7 @@
     "confidence": 0.88,
     "source_document": "Myeloid-Derived Suppressor Cells.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a7040665933d",
@@ -1915,7 +1915,7 @@
     "confidence": 0.88,
     "source_document": "Myeloid-Derived Suppressor Cells.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7758aa781a8a",
@@ -1929,7 +1929,7 @@
     "confidence": 0.88,
     "source_document": "Myeloid-Derived Suppressor Cells.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0b9731a8569b",
@@ -1943,7 +1943,7 @@
     "confidence": 0.9,
     "source_document": "Myeloid-Derived Suppressor Cells.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b3105a13a111",
@@ -1957,7 +1957,7 @@
     "confidence": 0.85,
     "source_document": "Myeloid-Derived Suppressor Cells.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4bc68c317e86",
@@ -1971,7 +1971,7 @@
     "confidence": 0.75,
     "source_document": "Myeloid-Derived Suppressor Cells.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c16d2d3c5ca4",
@@ -1985,7 +1985,7 @@
     "confidence": 0.72,
     "source_document": "Myeloid-Derived Suppressor Cells.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "95307a415680",
@@ -1999,7 +1999,7 @@
     "confidence": 0.9,
     "source_document": "Myeloid-Derived Suppressor Cells.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b5f0b807f524",
@@ -2013,7 +2013,7 @@
     "confidence": 0.92,
     "source_document": "SASP.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d976ca5ba9bf",
@@ -2027,7 +2027,7 @@
     "confidence": 0.92,
     "source_document": "Senescent Cells.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "fd61fc535170",
@@ -2041,7 +2041,7 @@
     "confidence": 0.92,
     "source_document": "Oncogene-Induced Senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f4191f6e5f09",
@@ -2058,7 +2058,7 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "732c40a1b0b4",
+    "id": "74eee5b8ab0c",
     "subject": "NF-κB",
     "predicate": "is_inhibited_by",
     "object": "Apigenin",
@@ -2069,10 +2069,10 @@
     "confidence": 0.7,
     "source_document": "SASP.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "ca807838f8fc",
+    "id": "2c966267a99a",
     "subject": "NF-κB",
     "predicate": "is_activated_by",
     "object": "GATA4",
@@ -2083,10 +2083,10 @@
     "confidence": 0.88,
     "source_document": "SASP.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "9cb1c28c5c37",
+    "id": "92a0405c7737",
     "subject": "NF-κB",
     "predicate": "is_inhibited_by",
     "object": "Glucocorticoids",
@@ -2097,10 +2097,10 @@
     "confidence": 0.88,
     "source_document": "SASP.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "2bbd31979901",
+    "id": "06ed19f2a239",
     "subject": "NF-κB",
     "predicate": "is_inhibited_by",
     "object": "Metformin",
@@ -2111,10 +2111,10 @@
     "confidence": 0.9,
     "source_document": "SASP.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "c751d9f600dd",
+    "id": "460d356a7a66",
     "subject": "NF-κB",
     "predicate": "is_inhibited_by",
     "object": "Nutlin 3a",
@@ -2125,10 +2125,10 @@
     "confidence": 0.85,
     "source_document": "SASP.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "a28008f2251e",
+    "id": "ff216db66e6d",
     "subject": "NF-κB",
     "predicate": "is_activated_by",
     "object": "p38 MAPK",
@@ -2139,10 +2139,10 @@
     "confidence": 0.92,
     "source_document": "SASP.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "f182011d9929",
+    "id": "fa02b9c49a03",
     "subject": "NF-κB",
     "predicate": "is_inhibited_by",
     "object": "Rapamycin",
@@ -2153,10 +2153,10 @@
     "confidence": 0.9,
     "source_document": "SASP.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "bdf8aa89ed49",
+    "id": "cb2cef2261c9",
     "subject": "NF-κB",
     "predicate": "regulates",
     "object": "SASP",
@@ -2167,7 +2167,7 @@
     "confidence": 0.96,
     "source_document": "SASP.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a13a12177097",
@@ -2181,7 +2181,7 @@
     "confidence": 0.9,
     "source_document": "Noncanonical Inflammasome.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ce26e9efc44c",
@@ -2195,7 +2195,7 @@
     "confidence": 0.9,
     "source_document": "Noncanonical Inflammasome.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "fe49b7a86ca6",
@@ -2209,7 +2209,7 @@
     "confidence": 0.85,
     "source_document": "Noncanonical Inflammasome.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d29cb376802e",
@@ -2223,7 +2223,7 @@
     "confidence": 0.9,
     "source_document": "Noncanonical Inflammasome.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4d2767cbf74d",
@@ -2237,7 +2237,7 @@
     "confidence": 0.88,
     "source_document": "Noncanonical Inflammasome.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e284fd0a553b",
@@ -2251,7 +2251,7 @@
     "confidence": 0.9,
     "source_document": "Noncanonical Inflammasome.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2759a43b65eb",
@@ -2265,7 +2265,7 @@
     "confidence": 0.9,
     "source_document": "Noncanonical Inflammasome.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "02e5e101b4c5",
@@ -2279,7 +2279,7 @@
     "confidence": 0.94,
     "source_document": "Oncogene-Induced Senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "85edcda14326",
@@ -2293,7 +2293,7 @@
     "confidence": 0.92,
     "source_document": "Oncogene-Induced Senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e38944305ccf",
@@ -2307,7 +2307,7 @@
     "confidence": 0.9,
     "source_document": "Oncogene-Induced Senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a78a588ae109",
@@ -2321,7 +2321,7 @@
     "confidence": 0.9,
     "source_document": "Oncogene-Induced Senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0bd681055519",
@@ -2335,7 +2335,7 @@
     "confidence": 0.9,
     "source_document": "Oncogene-Induced Senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4a759c4d378d",
@@ -2349,7 +2349,7 @@
     "confidence": 0.92,
     "source_document": "Oncogene-Induced Senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "fb2d4631b12a",
@@ -2363,7 +2363,7 @@
     "confidence": 0.95,
     "source_document": "Oncogene-Induced Senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "eec112f41427",
@@ -2380,10 +2380,10 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "8089c765593d",
+    "id": "f5322a79389a",
     "subject": "p15INK4b",
     "predicate": "inhibits",
-    "object": "CDK4",
+    "object": "CDK4 6",
     "context": {
       "en-US": "p15INK4b specifically binds and inhibits CDK4 and CDK6, preventing cyclin D-CDK complex formation and Rb phosphorylation. This enforces a G1 cell-cycle block that is central to paracrine and oncogene-induced senescence, and its action parallels p16INK4a, providing redundant CDK inhibition. The inhibition is direct and is a canonical mechanism of the INK4 family of CDK inhibitors. By maintaining hypophosphorylated Rb, p15 keeps E2F transcription factors sequestered and silences S-phase genes, ensuring durable arrest.",
       "zh-TW": "p15INK4b 特異結合並抑制 CDK4 與 CDK6，防止 cyclin D-CDK 複合體形成與 Rb 磷酸化。這強制對旁分泌與致癌基因誘發衰老至為核心的 G1 細胞週期封鎖，且其作用與 p16INK4a 平行，提供冗餘 CDK 抑制。此抑制直接，且是 INK4 家族 CDK 抑制因子的典型機制。透過維持低磷酸化 Rb，p15 使 E2F 轉錄因子隔離並靜默 S 期基因，確保持久停滯。"
@@ -2391,7 +2391,7 @@
     "confidence": 0.95,
     "source_document": "CDKN2B.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6ea2305be811",
@@ -2405,7 +2405,7 @@
     "confidence": 0.9,
     "source_document": "CDKN2B.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3dfdd0471557",
@@ -2419,13 +2419,13 @@
     "confidence": 0.94,
     "source_document": "CDKN2B.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "b811a98cdc0c",
+    "id": "5cc18031ba92",
     "subject": "p16",
     "predicate": "inhibits",
-    "object": "CDK4",
+    "object": "CDK4 6",
     "context": {
       "en-US": "p16INK4a inhibits cyclin-dependent kinase 4 (CDK4) by binding the cyclin D-CDK4 complex, preventing Rb phosphorylation and maintaining the growth-suppressive, hypophosphorylated state of Rb. This is a primary mechanism by which p16 enforces the durable, p53-independent phase of senescence, and loss of p16 is a common event in cancer, underscoring its tumor-suppressive role. The inhibition is direct and well established, and its expression rises with age and senescent burden. p16 is therefore both a cell-cycle brake and a senescence biomarker.",
       "zh-TW": "p16INK4a 抑制 cyclin-dependent kinase 4（CDK4），透過結合 cyclin D-CDK4 複合體，防止 Rb 磷酸化並維持 Rb 的生長抑制、低磷酸化狀態。這是 p16 執行衰老持久、獨立於 p53 階段的主要機制，且 p16 缺失是癌症常見事件，凸顯其腫瘤抑制角色。此抑制直接且確立牢固，且其表現隨年齡與衰老負擔上升。p16 因此既是細胞週期煞車也是衰老生物標記。"
@@ -2433,21 +2433,7 @@
     "confidence": 0.96,
     "source_document": "_document_ - Small molecule compounds that induce cellular senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
-  },
-  {
-    "id": "820e3de655df",
-    "subject": "p16",
-    "predicate": "inhibits",
-    "object": "CDK6",
-    "context": {
-      "en-US": "p16INK4a also inhibits cyclin-dependent kinase 6 (CDK6), similarly preventing cyclin D-CDK6-mediated Rb phosphorylation and stabilizing the arrested state. This broad inhibition of both CDK4 and CDK6 ensures a robust G1 blockade, and the dual targeting makes p16 a potent, non-redundant cell-cycle inhibitor. Its action underpins the irreversibility of established senescence, complementing the p53/p21 arm. p16 is consequently a key mediator of permanent growth arrest and a widely used senescence marker.",
-      "zh-TW": "p16INK4a 也抑制 cyclin-dependent kinase 6（CDK6），類似地防止 cyclin D-CDK6 介導的 Rb 磷酸化並穩定停滯狀態。此對 CDK4 與 CDK6 的廣泛抑制確保強健的 G1 封鎖，且雙重標靶使 p16 成為強效、非冗餘的細胞週期抑制因子。其動作支撐已確立衰老的不可逆性，補充 p53/p21 臂。p16 因此是永久生長停滯與廣泛使用的衰老標記的關鍵介導者。"
-    },
-    "confidence": 0.95,
-    "source_document": "_document_ - Small molecule compounds that induce cellular senescence.md",
-    "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2769122117fb",
@@ -2461,7 +2447,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Small molecule compounds that induce cellular senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3ad9c1739960",
@@ -2503,7 +2489,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Senolytic Treatment With Fisetin Reverses Age‐Related Endothelial Dysfunction Partially Mediated by SASP Factor CXCL12.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ec6bd649f3c7",
@@ -2517,10 +2503,10 @@
     "confidence": 0.7,
     "source_document": "_document_ - Senolytic Treatment With Fisetin Reverses Age‐Related Endothelial Dysfunction Partially Mediated by SASP Factor CXCL12.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "2804fd5a088d",
+    "id": "9967a31a428d",
     "subject": "p38 MAPK",
     "predicate": "activates",
     "object": "NF-κB",
@@ -2531,7 +2517,7 @@
     "confidence": 0.92,
     "source_document": "_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4ba8c5473603",
@@ -2545,7 +2531,7 @@
     "confidence": 0.89,
     "source_document": "SASP.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d022fac5b5a3",
@@ -2559,7 +2545,7 @@
     "confidence": 0.88,
     "source_document": "_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d387df207da2",
@@ -2573,7 +2559,7 @@
     "confidence": 0.96,
     "source_document": "_document_ - Small molecule compounds that induce cellular senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2c44cb58f882",
@@ -2601,7 +2587,7 @@
     "confidence": 0.7,
     "source_document": "Senescent Cells.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b124acae0f5e",
@@ -2615,7 +2601,7 @@
     "confidence": 0.9,
     "source_document": "Paracrine Reprogramming.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "59e5780977b3",
@@ -2629,7 +2615,7 @@
     "confidence": 0.88,
     "source_document": "Paracrine Reprogramming.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6d91c5ecf779",
@@ -2643,7 +2629,7 @@
     "confidence": 0.88,
     "source_document": "Paracrine Senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f86f91ffd48f",
@@ -2657,7 +2643,7 @@
     "confidence": 0.7,
     "source_document": "Paracrine Senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "95f64d34d751",
@@ -2671,7 +2657,7 @@
     "confidence": 0.68,
     "source_document": "Paracrine Senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "fe8cc59cb66e",
@@ -2685,7 +2671,7 @@
     "confidence": 0.72,
     "source_document": "Paracrine Senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "dc3e434fec27",
@@ -2699,10 +2685,10 @@
     "confidence": 0.82,
     "source_document": "Paracrine Senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "d4f4e6698687",
+    "id": "bf429a05710b",
     "subject": "Paracrine Senescence",
     "predicate": "is_mediated_by",
     "object": "IL-1α",
@@ -2713,7 +2699,7 @@
     "confidence": 0.92,
     "source_document": "Paracrine Senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "01e8b453516c",
@@ -2727,7 +2713,7 @@
     "confidence": 0.88,
     "source_document": "Paracrine Senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b59b95027684",
@@ -2741,7 +2727,7 @@
     "confidence": 0.82,
     "source_document": "Paracrine Senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "29d690688823",
@@ -2755,7 +2741,7 @@
     "confidence": 0.93,
     "source_document": "Paracrine Senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e5a591dc5389",
@@ -2769,7 +2755,7 @@
     "confidence": 0.91,
     "source_document": "Paracrine Senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "707e4a81b3a0",
@@ -2783,10 +2769,10 @@
     "confidence": 0.9,
     "source_document": "Paracrine Senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "4c1548ad3e59",
+    "id": "0f8da85502c8",
     "subject": "Paracrine Senescence",
     "predicate": "is_mediated_by",
     "object": "TGFβ",
@@ -2797,7 +2783,7 @@
     "confidence": 0.9,
     "source_document": "Paracrine Senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c45561bfba71",
@@ -2825,7 +2811,7 @@
     "confidence": 0.92,
     "source_document": "SASP.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0ddb8d1f152b",
@@ -2867,7 +2853,7 @@
     "confidence": 0.92,
     "source_document": "_document_ - Small molecule compounds that induce cellular senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4ae613e5ecab",
@@ -2895,7 +2881,7 @@
     "confidence": 0.85,
     "source_document": "SADS.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7b032204d572",
@@ -2909,7 +2895,7 @@
     "confidence": 0.72,
     "source_document": "SADS.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "28f0f148ef35",
@@ -2979,7 +2965,7 @@
     "confidence": 0.9,
     "source_document": "Senescence-Associated Heterochromatin Foci.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d1d04888e89b",
@@ -2993,7 +2979,7 @@
     "confidence": 0.88,
     "source_document": "Senescence-Associated Heterochromatin Foci.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "536986d3b457",
@@ -3021,7 +3007,7 @@
     "confidence": 0.9,
     "source_document": "Senescence-Associated Heterochromatin Foci.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "14b3db71bf84",
@@ -3049,7 +3035,7 @@
     "confidence": 0.9,
     "source_document": "SAMD.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0a69a27f0b2d",
@@ -3077,7 +3063,7 @@
     "confidence": 0.92,
     "source_document": "SAMD.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "df538f885ce3",
@@ -3094,7 +3080,7 @@
     "updated": "2026-09-02T07:19:21Z"
   },
   {
-    "id": "807c27b59d75",
+    "id": "ee793afefa3b",
     "subject": "SAMD",
     "predicate": "activates",
     "object": "NF-κB",
@@ -3105,7 +3091,7 @@
     "confidence": 0.88,
     "source_document": "SAMD.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9b57609c40b1",
@@ -3119,7 +3105,7 @@
     "confidence": 0.9,
     "source_document": "SAMD.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-09-02T07:19:21Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2459ec79d86b",
@@ -3161,7 +3147,7 @@
     "confidence": 0.85,
     "source_document": "SASP.md",
     "created": "2026-09-02T06:35:13Z",
-    "updated": "2026-09-02T06:35:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4a1d5ef3453b",
@@ -3175,7 +3161,7 @@
     "confidence": 0.8,
     "source_document": "SASP.md",
     "created": "2026-09-02T06:35:13Z",
-    "updated": "2026-09-02T06:35:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1dd171cea9a7",
@@ -3203,7 +3189,7 @@
     "confidence": 0.86,
     "source_document": "SASP.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2a2e5cf89f8d",
@@ -3287,7 +3273,7 @@
     "confidence": 0.95,
     "source_document": "SASP.md",
     "created": "2026-09-02T07:03:18Z",
-    "updated": "2026-09-02T07:03:18Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5181f4deb4ae",
@@ -3301,7 +3287,7 @@
     "confidence": 0.94,
     "source_document": "SASP.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "21ad91284a4b",
@@ -3329,7 +3315,7 @@
     "confidence": 0.9,
     "source_document": "SASP.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f37fcc63faf2",
@@ -3343,7 +3329,7 @@
     "confidence": 0.85,
     "source_document": "SASP.md",
     "created": "2026-09-02T06:35:13Z",
-    "updated": "2026-09-02T06:35:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2c78404171b4",
@@ -3444,7 +3430,7 @@
     "updated": "2026-09-02T06:35:13Z"
   },
   {
-    "id": "336d883f4ae0",
+    "id": "cb86068494d7",
     "subject": "SASP",
     "predicate": "is_composed_of",
     "object": "IL-1α",
@@ -3455,7 +3441,7 @@
     "confidence": 0.95,
     "source_document": "SASP.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f45499e7874d",
@@ -3469,7 +3455,7 @@
     "confidence": 0.96,
     "source_document": "SASP.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0807a4582334",
@@ -3483,7 +3469,7 @@
     "confidence": 0.95,
     "source_document": "SASP.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9069dc782bb6",
@@ -3511,7 +3497,7 @@
     "confidence": 0.91,
     "source_document": "SASP.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1f4a1ce17786",
@@ -3553,7 +3539,7 @@
     "confidence": 0.82,
     "source_document": "SASP.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f31e27d793da",
@@ -3595,7 +3581,7 @@
     "confidence": 0.72,
     "source_document": "SASP.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9566d33ddffe",
@@ -3609,7 +3595,7 @@
     "confidence": 0.88,
     "source_document": "SASP.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "98da6bf94b81",
@@ -3623,7 +3609,7 @@
     "confidence": 0.9,
     "source_document": "SASP.md",
     "created": "2026-09-02T06:35:13Z",
-    "updated": "2026-09-02T06:35:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e8f08c9d8121",
@@ -3665,10 +3651,10 @@
     "confidence": 0.92,
     "source_document": "SASP.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "a13339b85653",
+    "id": "b5a75ce26044",
     "subject": "SASP",
     "predicate": "is_regulated_by",
     "object": "NF-κB",
@@ -3679,7 +3665,7 @@
     "confidence": 0.96,
     "source_document": "SASP.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8938590074f3",
@@ -3693,7 +3679,7 @@
     "confidence": 0.9,
     "source_document": "SASP.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "06a5f2bedfd3",
@@ -3721,7 +3707,7 @@
     "confidence": 0.93,
     "source_document": "SASP.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1a2eb714fa55",
@@ -3749,7 +3735,7 @@
     "confidence": 0.88,
     "source_document": "SASP.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ef35a7a33695",
@@ -3763,7 +3749,7 @@
     "confidence": 0.93,
     "source_document": "SASP.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "07a903960dc6",
@@ -3819,7 +3805,7 @@
     "confidence": 0.95,
     "source_document": "SASP.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "00d3fcbb5ad6",
@@ -3847,10 +3833,10 @@
     "confidence": 0.85,
     "source_document": "SASP.md",
     "created": "2026-09-02T06:35:13Z",
-    "updated": "2026-09-02T06:35:13Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "7094a7a2a9a6",
+    "id": "c1b9c8aca20a",
     "subject": "SASP",
     "predicate": "is_composed_of",
     "object": "TGFβ",
@@ -3861,7 +3847,7 @@
     "confidence": 0.93,
     "source_document": "SASP.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "43c8a9960fd5",
@@ -3878,10 +3864,10 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "b35fffc39fc8",
+    "id": "e9040cd4006c",
     "subject": "SASP",
     "predicate": "is_composed_of",
-    "object": "TNFalpha",
+    "object": "TNF-alpha",
     "context": {
       "en-US": "Tumor necrosis factor alpha (TNFalpha) is a pro-inflammatory SASP cytokine that contributes to immune modulation, NF-kB reinforcement, and inflammaging. It can act in an autocrine loop to amplify the secretome and in a paracrine manner to affect neighboring cells, and it cooperates with IL-1 family cytokines in driving inflammatory gene programs. TNFalpha is less universally dominant than IL-6 in the SASP but is consistently present in many senescence models and is a canonical target of anti-inflammatory biologics. Its pleiotropic actions solidify its status as a canonical SASP component.",
       "zh-TW": "腫瘤壞死因子 alpha（TNFalpha）是一種促發炎性 SASP 細胞激素，貢獻免疫調節、NF-κB 強化與 inflammaging。它可在自分泌迴圈中放大分泌組，並以旁分泌方式影響鄰近細胞，且與 IL-1 家族細胞激素協作驅動發炎基因程序。TNFalpha 在 SASP 中不如 IL-6 普遍主導，但在許多衰老模型中一致存在，且是抗發炎生物製劑的典型標靶。其多效作用鞏固其作為典型 SASP 組成的地位。"
@@ -3889,7 +3875,7 @@
     "confidence": 0.9,
     "source_document": "SASP.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5d0cbfc1c9c7",
@@ -3931,7 +3917,7 @@
     "confidence": 0.92,
     "source_document": "Senescent cell anti-apoptotic pathways.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3aa5ea52b551",
@@ -3945,7 +3931,7 @@
     "confidence": 0.9,
     "source_document": "Senescent cell anti-apoptotic pathways.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6e2469afd88d",
@@ -3973,7 +3959,7 @@
     "confidence": 0.93,
     "source_document": "Senescent Cells.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "625d1a60bb25",
@@ -4043,7 +4029,7 @@
     "confidence": 0.96,
     "source_document": "Senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1ae1d7989153",
@@ -4057,7 +4043,7 @@
     "confidence": 0.92,
     "source_document": "Senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d88eafd43eb9",
@@ -4071,7 +4057,7 @@
     "confidence": 0.96,
     "source_document": "Senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "bd149bd5a6b9",
@@ -4099,7 +4085,7 @@
     "confidence": 0.93,
     "source_document": "Senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d3468fd3877e",
@@ -4113,7 +4099,7 @@
     "confidence": 0.95,
     "source_document": "Senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "56aee78c99e3",
@@ -4127,7 +4113,7 @@
     "confidence": 0.92,
     "source_document": "Senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "985a7a7ec5f1",
@@ -4141,7 +4127,7 @@
     "confidence": 0.96,
     "source_document": "Senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6c26cb37ea34",
@@ -4155,7 +4141,7 @@
     "confidence": 0.96,
     "source_document": "Senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "113b28d40ef0",
@@ -4225,7 +4211,7 @@
     "confidence": 0.97,
     "source_document": "Senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0a3d8e724376",
@@ -4239,7 +4225,7 @@
     "confidence": 0.92,
     "source_document": "Senescence Surveillance.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "07f0d5058233",
@@ -4253,7 +4239,7 @@
     "confidence": 0.9,
     "source_document": "Senescence Surveillance.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9e59b80231e1",
@@ -4267,7 +4253,7 @@
     "confidence": 0.9,
     "source_document": "Senescence Surveillance.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f8c1f7f5e9d3",
@@ -4281,7 +4267,7 @@
     "confidence": 0.91,
     "source_document": "Senescence Surveillance.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1ccaca05dbcd",
@@ -4295,7 +4281,7 @@
     "confidence": 0.92,
     "source_document": "Senescence Surveillance.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7d13a51e917f",
@@ -4309,7 +4295,7 @@
     "confidence": 0.93,
     "source_document": "Senescence Surveillance.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "a1128627cfe7",
@@ -4323,7 +4309,7 @@
     "confidence": 0.94,
     "source_document": "Senescence Surveillance.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2f04486bed76",
@@ -4337,7 +4323,7 @@
     "confidence": 0.95,
     "source_document": "Senescent Cells.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3101f157e88e",
@@ -4351,7 +4337,7 @@
     "confidence": 0.93,
     "source_document": "Senescent Cells.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "dda4ade154d6",
@@ -4365,7 +4351,7 @@
     "confidence": 0.93,
     "source_document": "Senescent Cells.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "abb0e65799db",
@@ -4379,7 +4365,7 @@
     "confidence": 0.91,
     "source_document": "Senescent Cells.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "50bbf3c5110a",
@@ -4393,7 +4379,7 @@
     "confidence": 0.92,
     "source_document": "Senescent Cells.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7de9281dbe78",
@@ -4407,7 +4393,7 @@
     "confidence": 0.88,
     "source_document": "Senescent Cells.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "71535f54e92f",
@@ -4421,7 +4407,7 @@
     "confidence": 0.9,
     "source_document": "Senescent Cells.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0bf2251eaa65",
@@ -4435,7 +4421,7 @@
     "confidence": 0.97,
     "source_document": "Senescent Cells.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6f68553e65bb",
@@ -4449,7 +4435,7 @@
     "confidence": 0.92,
     "source_document": "Senescent Cells.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "86c8abd72719",
@@ -4463,7 +4449,7 @@
     "confidence": 0.96,
     "source_document": "Senescent Cells.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "cca400cf0cee",
@@ -4477,13 +4463,13 @@
     "confidence": 0.93,
     "source_document": "Senescent Cells.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "cfdfd590a16c",
     "subject": "Senescent Cells",
     "predicate": "resist_apoptosis_via",
-    "object": "Senescent-Cell Anti-Apoptotic Pathways",
+    "object": "Senescent cell anti-apoptotic pathways",
     "context": {
       "en-US": "Senescent cells are resistant to apoptosis because they upregulate Senescent-Cell Anti-Apoptotic Pathways (SCAPs), including Bcl-2 family pro-survival proteins and the PI3K/Akt axis. Different senescent cell types rely on different SCAPs, which is why no single senolytic clears all senescent cells — and why SCAP-targeting drugs such as Fisetin, D+Q, and Navitoclax show cell-type selectivity.",
       "zh-TW": "衰老細胞因上調 Senescent-Cell Anti-Apoptotic Pathways（SCAPs，包括 Bcl-2 家族促存活蛋白與 PI3K/Akt 軸）而抵抗細胞凋亡。不同衰老細胞類型依賴不同的 SCAPs，因此沒有任何單一 senolytic 能清除所有衰老細胞——這也是為何攻擊 SCAPs 的藥物如 Fisetin、D+Q 與 Navitoclax 呈現細胞類型選擇性的原因。"
@@ -4491,7 +4477,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Fisetin is a senotherapeutic that extends health and lifespan.md",
     "created": "2026-08-21T00:00:00Z",
-    "updated": "2026-08-21T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "753256a7099c",
@@ -4505,7 +4491,7 @@
     "confidence": 0.94,
     "source_document": "Senescent Cells.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "72b8b95fa517",
@@ -4519,7 +4505,7 @@
     "confidence": 0.93,
     "source_document": "Senescent Cells.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e6bb47298093",
@@ -4547,7 +4533,7 @@
     "confidence": 0.93,
     "source_document": "Senolytic Therapy.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "d92f1280c4c7",
@@ -4561,7 +4547,7 @@
     "confidence": 0.8,
     "source_document": "Senolytic Therapy.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3b90b01b3e52",
@@ -4575,7 +4561,7 @@
     "confidence": 0.88,
     "source_document": "Senolytic Therapy.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6d108373bc31",
@@ -4589,7 +4575,7 @@
     "confidence": 0.88,
     "source_document": "Senolytic Therapy.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "44380049327f",
@@ -4603,7 +4589,7 @@
     "confidence": 0.9,
     "source_document": "Senolytic Therapy.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0ff7031bbb55",
@@ -4617,7 +4603,7 @@
     "confidence": 0.85,
     "source_document": "Senolytic Therapy.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "fe7a746fdf55",
@@ -4631,7 +4617,7 @@
     "confidence": 0.92,
     "source_document": "Senolytic Therapy.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "85f17b2c57d3",
@@ -4645,7 +4631,7 @@
     "confidence": 0.92,
     "source_document": "Senolytic Therapy.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b3083e07b443",
@@ -4659,7 +4645,7 @@
     "confidence": 0.92,
     "source_document": "Senolytic Therapy.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "50c724df3ef6",
@@ -4673,7 +4659,7 @@
     "confidence": 0.93,
     "source_document": "Senolytic Therapy.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "63d137254b3f",
@@ -4813,7 +4799,7 @@
     "confidence": 0.95,
     "source_document": "Senolytics.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "68dfcff0cc31",
@@ -4869,7 +4855,7 @@
     "confidence": 0.9,
     "source_document": "Senomorphic.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "426f51785ba4",
@@ -4900,7 +4886,7 @@
     "updated": "2026-08-20T00:00:00Z"
   },
   {
-    "id": "44c2f86d980f",
+    "id": "d06882539b8e",
     "subject": "Senomorphic",
     "predicate": "targets",
     "object": "NF-κB",
@@ -4911,7 +4897,7 @@
     "confidence": 0.91,
     "source_document": "Senomorphic.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b90c0cf55b90",
@@ -4925,7 +4911,7 @@
     "confidence": 0.9,
     "source_document": "Senomorphic.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b321d211d60c",
@@ -4967,7 +4953,7 @@
     "confidence": 0.9,
     "source_document": "Senomorphic Therapy.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c788b564ec24",
@@ -4981,7 +4967,7 @@
     "confidence": 0.9,
     "source_document": "Senomorphic Therapy.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3a399a2c85ec",
@@ -4995,7 +4981,7 @@
     "confidence": 0.85,
     "source_document": "Senomorphic Therapy.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "566da6b30cbd",
@@ -5009,7 +4995,7 @@
     "confidence": 0.89,
     "source_document": "Senomorphic Therapy.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "cf90fffe2fa5",
@@ -5023,7 +5009,7 @@
     "confidence": 0.92,
     "source_document": "Senomorphic Therapy.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f16a2f8bc3a7",
@@ -5037,7 +5023,7 @@
     "confidence": 0.7,
     "source_document": "Senomorphic Therapy.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "bf12d048e31b",
@@ -5051,7 +5037,7 @@
     "confidence": 0.9,
     "source_document": "Senomorphic Therapy.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ed68cc82c48b",
@@ -5065,7 +5051,7 @@
     "confidence": 0.93,
     "source_document": "Senomorphic Therapy.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "9476c8172a8a",
@@ -5191,7 +5177,7 @@
     "confidence": 0.9,
     "source_document": "SASP.md",
     "created": "2026-09-02T07:03:18Z",
-    "updated": "2026-09-02T07:03:18Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6dd3b88bd861",
@@ -5219,7 +5205,7 @@
     "confidence": 0.92,
     "source_document": "Immunosenescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4e7a01ba6172",
@@ -5233,13 +5219,13 @@
     "confidence": 0.9,
     "source_document": "Senescence Surveillance.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "37b804552a36",
+    "id": "1745719a4f58",
     "subject": "TGFβ",
     "predicate": "drives",
-    "object": "Epithelial-to-mesenchymal Transition",
+    "object": "Epithelial-to-mesenchymal transition",
     "context": {
       "en-US": "TGFbeta is a master regulator driving epithelial-to-mesenchymal transition (EMT) in neighbouring cells during chronic SASP exposure, activating SMAD and non-SMAD pathways that downregulate epithelial markers and induce mesenchymal traits. EMT enhances invasiveness and stemness, contributing to fibrosis and metastasis, and is mechanistically intertwined with the acquisition of cancer stem-cell properties. The relationship is a canonical TGFbeta function repurposed in the senescence secretome and is well established in developmental and pathological contexts.",
       "zh-TW": "TGFbeta 是在慢性 SASP 暴露期間驅動鄰近細胞上皮—間質轉化（EMT）的總調節者，活化 SMAD 與非 SMAD 路徑下調上皮標記並誘發間質特性。EMT 增強侵襲性與幹性，貢獻纖維化與轉移表型。在衰老中，慢性 TGFbeta 暴露將 SASP 連結到組織重塑與惡性進展，是其促纖維化與促腫瘤角色的核心。此驅動是慢性分泌組的關鍵後果。"
@@ -5247,10 +5233,10 @@
     "confidence": 0.92,
     "source_document": "_document_ - cellular_senescence_ipf_diseases-14-00201.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "249417b367b3",
+    "id": "24f37e2dc65c",
     "subject": "TGFβ",
     "predicate": "promotes",
     "object": "Fibrosis",
@@ -5261,10 +5247,10 @@
     "confidence": 0.9,
     "source_document": "_document_ - cellular_senescence_ipf_diseases-14-00201.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "54ae792d09de",
+    "id": "b847ffb74015",
     "subject": "TGFβ",
     "predicate": "promotes",
     "object": "Paracrine Senescence",
@@ -5275,7 +5261,7 @@
     "confidence": 0.9,
     "source_document": "Paracrine Senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "925f9bfd686a",
@@ -5289,7 +5275,7 @@
     "confidence": 0.7,
     "source_document": "Therapy-Induced Senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b389607f68f9",
@@ -5303,7 +5289,7 @@
     "confidence": 0.75,
     "source_document": "Therapy-Induced Senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "93cdd9fb3694",
@@ -5317,7 +5303,7 @@
     "confidence": 0.88,
     "source_document": "Therapy-Induced Senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f6ec39bf068e",
@@ -5331,7 +5317,7 @@
     "confidence": 0.9,
     "source_document": "Therapy-Induced Senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "c9ec9aa40a22",
@@ -5345,7 +5331,7 @@
     "confidence": 0.9,
     "source_document": "Therapy-Induced Senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "888728886196",
@@ -5359,7 +5345,7 @@
     "confidence": 0.9,
     "source_document": "Therapy-Induced Senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b5d01e14edfb",
@@ -5373,7 +5359,7 @@
     "confidence": 0.93,
     "source_document": "Therapy-Induced Senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "570ea19d90b2",
@@ -5387,7 +5373,7 @@
     "confidence": 0.68,
     "source_document": "Therapy-Induced Senescence.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "96cd23982b92",
@@ -5443,7 +5429,7 @@
     "confidence": 0.72,
     "source_document": "VEGFc.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5858e6033c2f",
@@ -5485,7 +5471,7 @@
     "confidence": 0.9,
     "source_document": "VEGFc.md",
     "created": "2026-08-09T20:00:33Z",
-    "updated": "2026-08-20T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1d548bd2b006",
@@ -5597,7 +5583,7 @@
     "confidence": 0.8,
     "source_document": "Follistatin.md",
     "created": "2026-09-04T16:31:31Z",
-    "updated": "2026-09-04T16:31:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "5e83d1a25ae3",
@@ -5611,7 +5597,7 @@
     "confidence": 0.9,
     "source_document": "Activin A.md",
     "created": "2026-09-04T16:31:31Z",
-    "updated": "2026-09-04T16:31:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "017c07b3b20d",
@@ -5625,21 +5611,7 @@
     "confidence": 0.85,
     "source_document": "Activin A.md",
     "created": "2026-09-04T16:31:31Z",
-    "updated": "2026-09-04T16:31:31Z"
-  },
-  {
-    "id": "2c2a25a0f878",
-    "subject": "p15INK4b",
-    "predicate": "inhibits",
-    "object": "CDK6",
-    "context": {
-      "en-US": "p15INK4b binds and inhibits CDK6 as well as CDK4, preventing cyclin D-CDK complex formation and Rb phosphorylation. This dual INK4 blockade enforces G1 arrest in paracrine and oncogene-induced senescence, paralleling the established p16-CDK6 mechanism.",
-      "zh-TW": "p15INK4b 結合並抑制 CDK6 與 CDK4，防止 cyclin D-CDK 複合體形成與 Rb 磷酸化。此雙重 INK4 封鎖在旁分泌與致癌基因誘發衰老中執行 G1 停滯，與已確立的 p16-CDK6 機制平行。"
-    },
-    "confidence": 0.93,
-    "source_document": "CDKN2B.md",
-    "created": "2026-09-04T16:31:31Z",
-    "updated": "2026-09-04T16:31:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7d781ad66e93",
@@ -5656,10 +5628,10 @@
     "updated": "2026-09-04T16:31:31Z"
   },
   {
-    "id": "d9618559fec7",
+    "id": "70c3cd35ca6a",
     "subject": "CCL20",
     "predicate": "is_induced_by",
-    "object": "TNFalpha",
+    "object": "TNF-alpha",
     "context": {
       "en-US": "TNFalpha activates NF-kB to induce CCL20 expression, a textbook chemokine-induction axis in senescence and inflammation. This integrates TNFalpha with the IL-1-driven chemokine program that recruits TH17 and dendritic cells.",
       "zh-TW": "TNFalpha 活化 NF-κB 以誘發 CCL20 表現，是衰老與發炎中典型的趨化因子誘發軸。此將 TNFalpha 與 IL-1 驅動的趨化因子程序整合，共同招募 TH17 與樹突細胞。"
@@ -5667,7 +5639,7 @@
     "confidence": 0.8,
     "source_document": "CCL20.md",
     "created": "2026-09-04T16:31:31Z",
-    "updated": "2026-09-04T16:31:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "643a55a68e92",
@@ -5681,7 +5653,7 @@
     "confidence": 0.85,
     "source_document": "HLA-E.md",
     "created": "2026-09-04T16:31:31Z",
-    "updated": "2026-09-04T16:31:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6b5b6b2a944c",
@@ -5695,7 +5667,7 @@
     "confidence": 0.8,
     "source_document": "HLA-E.md",
     "created": "2026-09-04T16:31:31Z",
-    "updated": "2026-09-04T16:31:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f87db5c56b05",
@@ -5709,10 +5681,10 @@
     "confidence": 0.92,
     "source_document": "MyD88.md",
     "created": "2026-09-04T16:31:31Z",
-    "updated": "2026-09-04T16:31:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "18a0b7a81037",
+    "id": "2dbe30c98a1e",
     "subject": "MyD88",
     "predicate": "activates",
     "object": "NF-κB",
@@ -5723,10 +5695,10 @@
     "confidence": 0.9,
     "source_document": "MyD88.md",
     "created": "2026-09-04T16:31:31Z",
-    "updated": "2026-09-04T16:31:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "49b637e755dd",
+    "id": "cee3dd62f950",
     "subject": "MyD88",
     "predicate": "is_activated_by",
     "object": "IL-1α",
@@ -5737,7 +5709,7 @@
     "confidence": 0.88,
     "source_document": "MyD88.md",
     "created": "2026-09-04T16:31:31Z",
-    "updated": "2026-09-04T16:31:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "8e3f94543de4",
@@ -5754,7 +5726,7 @@
     "updated": "2026-09-04T16:31:31Z"
   },
   {
-    "id": "32e832de146e",
+    "id": "e9c814ba568b",
     "subject": "Myddosome",
     "predicate": "activates",
     "object": "NF-κB",
@@ -5765,7 +5737,7 @@
     "confidence": 0.88,
     "source_document": "Myddosome.md",
     "created": "2026-09-04T16:31:31Z",
-    "updated": "2026-09-04T16:31:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "94047858490c",
@@ -5793,10 +5765,10 @@
     "confidence": 0.92,
     "source_document": "Noncanonical Inflammasome.md",
     "created": "2026-09-04T16:31:31Z",
-    "updated": "2026-09-04T16:31:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "48cbda82085a",
+    "id": "15adf51887e4",
     "subject": "Noncanonical Inflammasome",
     "predicate": "processes",
     "object": "IL-1α",
@@ -5807,7 +5779,7 @@
     "confidence": 0.9,
     "source_document": "Noncanonical Inflammasome.md",
     "created": "2026-09-04T16:31:31Z",
-    "updated": "2026-09-04T16:31:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1da4c6b74155",
@@ -5821,7 +5793,7 @@
     "confidence": 0.92,
     "source_document": "Inflammasome.md",
     "created": "2026-09-04T16:31:31Z",
-    "updated": "2026-09-04T16:31:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "f61f49409362",
@@ -5835,10 +5807,10 @@
     "confidence": 0.88,
     "source_document": "Myeloid-Derived Suppressor Cells.md",
     "created": "2026-09-04T16:31:31Z",
-    "updated": "2026-09-04T16:31:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
-    "id": "e784c052767d",
+    "id": "1bed81e32df7",
     "subject": "IL-1α",
     "predicate": "signals_through",
     "object": "IL-1R",
@@ -5849,7 +5821,7 @@
     "confidence": 0.9,
     "source_document": "Paracrine Senescence.md",
     "created": "2026-09-04T16:31:31Z",
-    "updated": "2026-09-04T16:31:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "35d7f00c5e17",
@@ -5863,7 +5835,7 @@
     "confidence": 0.8,
     "source_document": "Paracrine Senescence.md",
     "created": "2026-09-04T16:31:31Z",
-    "updated": "2026-09-04T16:31:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "1244e5a22f98",
@@ -5877,7 +5849,7 @@
     "confidence": 0.8,
     "source_document": "Paracrine Senescence.md",
     "created": "2026-09-04T16:31:31Z",
-    "updated": "2026-09-04T16:31:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0181b8a70209",
@@ -5891,7 +5863,7 @@
     "confidence": 0.85,
     "source_document": "Paracrine Senescence.md",
     "created": "2026-09-04T16:31:31Z",
-    "updated": "2026-09-04T16:31:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "4a1993e6f4fa",
@@ -5905,7 +5877,7 @@
     "confidence": 0.78,
     "source_document": "Paracrine Senescence.md",
     "created": "2026-09-04T16:31:31Z",
-    "updated": "2026-09-04T16:31:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "eb7e01b289ac",
@@ -5919,7 +5891,7 @@
     "confidence": 0.92,
     "source_document": "Paracrine Reprogramming.md",
     "created": "2026-09-04T16:31:31Z",
-    "updated": "2026-09-04T16:31:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "cbfca50eab8a",
@@ -5933,7 +5905,7 @@
     "confidence": 0.92,
     "source_document": "Paracrine Reprogramming.md",
     "created": "2026-09-04T16:31:31Z",
-    "updated": "2026-09-04T16:31:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "6c0ee3b7be0b",
@@ -5989,7 +5961,7 @@
     "confidence": 0.88,
     "source_document": "Therapy-Induced Senescence.md",
     "created": "2026-09-04T16:31:31Z",
-    "updated": "2026-09-04T16:31:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b32f4a5a9ea7",
@@ -6003,7 +5975,7 @@
     "confidence": 0.93,
     "source_document": "Lamins.md",
     "created": "2026-09-04T16:31:31Z",
-    "updated": "2026-09-04T16:31:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "45d76ab6ebf5",
@@ -6045,7 +6017,7 @@
     "confidence": 0.93,
     "source_document": "Senolytic.md",
     "created": "2026-09-04T16:31:31Z",
-    "updated": "2026-09-04T16:31:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b90cee5a48c8",
@@ -6073,7 +6045,7 @@
     "confidence": 0.85,
     "source_document": "Immunosenescence.md",
     "created": "2026-09-04T16:31:31Z",
-    "updated": "2026-09-04T16:31:31Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "e59021314d47",
@@ -6101,7 +6073,7 @@
     "confidence": 0.8,
     "source_document": "SASP.md",
     "created": "2026-09-12T18:53:13Z",
-    "updated": "2026-09-12T18:54:20Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2435d238ed7c",
@@ -6115,7 +6087,7 @@
     "confidence": 0.95,
     "source_document": "SASP.md",
     "created": "2026-09-12T18:53:13Z",
-    "updated": "2026-09-12T18:54:20Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "2aa982ab2479",
@@ -6129,7 +6101,7 @@
     "confidence": 0.9,
     "source_document": "_document_ - Birch and Gil 2020 - Senescence and the SASP many therapeutic avenues.md",
     "created": "2026-09-15T00:00:00Z",
-    "updated": "2026-09-15T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "289bd6b8bafa",
@@ -6143,7 +6115,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Birch and Gil 2020 - Senescence and the SASP many therapeutic avenues.md",
     "created": "2026-09-15T00:00:00Z",
-    "updated": "2026-09-15T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "052b354f707d",
@@ -6185,7 +6157,7 @@
     "confidence": 0.7,
     "source_document": "_document_ - Birch and Gil 2020 - Senescence and the SASP many therapeutic avenues.md",
     "created": "2026-09-15T00:00:00Z",
-    "updated": "2026-09-15T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "623b44b51857",
@@ -6241,7 +6213,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - Birch and Gil 2020 - Senescence and the SASP many therapeutic avenues.md",
     "created": "2026-09-15T00:00:00Z",
-    "updated": "2026-09-15T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "b87aeec39992",
@@ -6269,7 +6241,7 @@
     "confidence": 0.88,
     "source_document": "_document_ - Birch and Gil 2020 - Senescence and the SASP many therapeutic avenues.md",
     "created": "2026-09-15T00:00:00Z",
-    "updated": "2026-09-15T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0d58575c1053",
@@ -6283,7 +6255,7 @@
     "confidence": 0.92,
     "source_document": "_document_ - Birch and Gil 2020 - Senescence and the SASP many therapeutic avenues.md",
     "created": "2026-09-15T00:00:00Z",
-    "updated": "2026-09-15T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "83675f64de3c",
@@ -6325,7 +6297,7 @@
     "confidence": 0.95,
     "source_document": "_document_ - Birch and Gil 2020 - Senescence and the SASP many therapeutic avenues.md",
     "created": "2026-09-15T00:00:00Z",
-    "updated": "2026-09-15T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "7256b11cdce1",
@@ -6339,7 +6311,7 @@
     "confidence": 0.92,
     "source_document": "_document_ - Birch and Gil 2020 - Senescence and the SASP many therapeutic avenues.md",
     "created": "2026-09-15T00:00:00Z",
-    "updated": "2026-09-15T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ea1c05082ef6",
@@ -6353,7 +6325,7 @@
     "confidence": 0.92,
     "source_document": "_document_ - Birch and Gil 2020 - Senescence and the SASP many therapeutic avenues.md",
     "created": "2026-09-15T00:00:00Z",
-    "updated": "2026-09-15T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3ecb62551e91",
@@ -6367,7 +6339,7 @@
     "confidence": 0.88,
     "source_document": "_document_ - Birch and Gil 2020 - Senescence and the SASP many therapeutic avenues.md",
     "created": "2026-09-15T00:00:00Z",
-    "updated": "2026-09-15T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "0c19824bdf29",
@@ -6395,7 +6367,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - Birch and Gil 2020 - Senescence and the SASP many therapeutic avenues.md",
     "created": "2026-09-15T00:00:00Z",
-    "updated": "2026-09-15T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "ab9048872300",
@@ -6409,7 +6381,7 @@
     "confidence": 0.88,
     "source_document": "_document_ - Birch and Gil 2020 - Senescence and the SASP many therapeutic avenues.md",
     "created": "2026-09-15T00:00:00Z",
-    "updated": "2026-09-15T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "3d45f69dfd79",
@@ -6423,7 +6395,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - Birch and Gil 2020 - Senescence and the SASP many therapeutic avenues.md",
     "created": "2026-09-15T00:00:00Z",
-    "updated": "2026-09-15T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "fbf095c30d0a",
@@ -6437,7 +6409,7 @@
     "confidence": 0.85,
     "source_document": "_document_ - Birch and Gil 2020 - Senescence and the SASP many therapeutic avenues.md",
     "created": "2026-09-15T00:00:00Z",
-    "updated": "2026-09-15T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   },
   {
     "id": "28c1ba27111a",
@@ -6465,6 +6437,6 @@
     "confidence": 0.9,
     "source_document": "_document_ - Birch and Gil 2020 - Senescence and the SASP many therapeutic avenues.md",
     "created": "2026-09-15T00:00:00Z",
-    "updated": "2026-09-15T00:00:00Z"
+    "updated": "2026-09-29T18:36:32Z"
   }
 ]

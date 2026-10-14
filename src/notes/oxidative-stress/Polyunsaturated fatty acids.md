@@ -47,7 +47,7 @@ Abundance and species of membrane PL-PUFAs are therefore major determinants of c
 
 PUFA peroxidation generates reactive aldehydes — [[Malondialdehyde]] and [[4-Hydroxynonenal]] — that adduct proteins and [[DNA]], propagating damage beyond the membrane. While PUFA-rich membranes are more oxidation-prone, controlled PUFA oxidation also produces specialized pro-resolving mediators that terminate [[Inflammation]]:
 
-- **n-6 series**: [[Prostaglandin G₂]] and downstream prostaglandins/thromboxanes (enzymatic, via [[Cyclooxygenases]]); [[Hydroxyeicosatetraenoic acids]] and leukotrienes (via [[Lipoxygenase]]); [[F2-Isoprostanes]] (non-enzymatic).
+- **n-6 series**: [[Prostaglandin G₂]] and downstream prostaglandins/thromboxanes (enzymatic, via [[Cyclooxygenase]]); [[Hydroxyeicosatetraenoic acids]] and leukotrienes (via [[Lipoxygenase]]); [[F2-Isoprostanes]] (non-enzymatic).
 - **n-3 series**: E-series resolvins (from EPA), D-series resolvins, protectins/neuroprotectins and maresins (from DHA) — resolution agonists rather than simple "anti-inflammatory" agents.
 
 The same chemistry is thus double-edged: unregulated radical peroxidation is tissue damage, while tightly channeled enzymatic oxidation is lipid signaling. [[Vitamin E]] and [[Coenzyme Q10]] set the threshold between the two by scavenging chain-carrying peroxyl radicals.

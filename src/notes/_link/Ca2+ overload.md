@@ -27,12 +27,12 @@ No documents ingested yet.
 - [[Necrosis]] — the overload step converting ionic collapse into protease/pore execution.
 - [[Calpain]] — primary calcium-activated executioner cleaving spectrin, talin, and Bid.
 - [[Mitochondrial Permeability Transition Pore]] — calcium-triggered pore collapsing ATP synthesis and releasing pro-death factors.
-- [[Sodium-Potassium ATPase]] — upstream pump whose failure admits the calcium flood.
+- [[Sodium Potassium ATPase]] — upstream pump whose failure admits the calcium flood.
 - [[Parthanatos]] — excitotoxic calcium entry feeds the nNOS/PARP-1 parthanatos trigger.
 
 ## Linking Summary
 
 - New note in src/notes/_link/ as cross-topic entity (table audit 2026-09-03: Core-machinery coverage for the cell-death comparison page).
-- New links added: [[Necrosis]], [[Calpain]], [[Mitochondrial Permeability Transition Pore]], [[Sodium-Potassium ATPase]], [[Parthanatos]].
+- New links added: [[Necrosis]], [[Calpain]], [[Mitochondrial Permeability Transition Pore]], [[Sodium Potassium ATPase]], [[Parthanatos]].
 - Suggested new entity notes to create: [[Na+/Ca2+ exchanger]].
 - Strong connections to strengthen: [[Ca2+ overload]] ↔ [[Necrosis]], [[Ca2+ overload]] ↔ [[Calpain]].

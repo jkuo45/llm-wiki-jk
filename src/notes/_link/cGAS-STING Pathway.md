@@ -95,7 +95,7 @@ List of documents that mention this entity
   - [[_document_ - SASP, senescent cells, grok|SASP, senescent cells, grok]]
     - Describes mtDNA/cGAS-STING as a central SASP-activating axis in senescence.
 
-  - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
+  - [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]]
     - Review describes how cytoplasmic chromatin fragments (enriched for heterochromatin marks) and derepressed retrotransposons (LINE-1, HERV) activate cGAS–STING–NF-κB to drive SASP and inflammaging.
 
   - [[_document_ - JCI -Expanding roles of cGAS-STING signaling in neuroinflammation|JCI cGAS-STING in Neuroinflammation]]

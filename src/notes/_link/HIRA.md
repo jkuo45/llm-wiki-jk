@@ -40,7 +40,7 @@ Because epigenetic regulators such as HIRA modulate SAHF and SASP without necess
 
 ## Documents
 
-- [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]] — HIRA is described as a chromatin regulator essential for SAHF formation via the HIRA/ASF1a/UBN1 complex, and its depletion reduces SASP expression.
+- [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]] — HIRA is described as a chromatin regulator essential for SAHF formation via the HIRA/ASF1a/UBN1 complex, and its depletion reduces SASP expression.
 
 ## Connections
 

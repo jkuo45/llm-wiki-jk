@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Eryptosis — RBC Regulation by Calcium · Calpain · PS Exposure</title>
-<meta name="description" content="Minimalist embeddable three.js cell illustrating eryptosis regulation in the anucleate red blood cell: calcium influx, calpain/scramblase activation, PS exposure. Shrinkage, blebbing, silent clearance.">
+<title>Eryptosis — Ca2+-Driven Regulated Death in the Mature Red Blood Cell</title>
+<meta name="description" content="Minimalist embeddable three.js cell illustrating eryptosis in the mature red blood cell: calcium influx, Gardos K+ efflux and shrinkage, scramblase activation with flippase inhibition, calpain proteolysis, PS exposure and Kupffer-cell clearance.">
 <link rel="canonical" href="https://graph.johnnykuo.com/pages/en-US/eryptosis.html">
 <link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/eryptosis.html">
 <link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/eryptosis.html">
@@ -18,14 +18,23 @@
 </script>
 <script src="../themes/theme-02/theme.js"></script>
 <link rel="stylesheet" href="../shared/stage.css">
+<style>
+  /* page-specific only — shared stage chrome lives in ../shared/stage.css */
+  .notes{display:grid;grid-template-columns:repeat(auto-fit,minmax(272px,1fr));gap:12px;padding:0 0 4px}
+  .note{background:var(--sheet);border:1px solid var(--rule);border-radius:var(--r-md,8px);padding:12px 14px}
+  .note h2{font-size:.9rem;margin:0 0 6px;letter-spacing:-.01em}
+  .note p{font-size:12.5px;line-height:1.65;color:var(--ink-soft);margin:0}
+  @media (max-width:960px){.notes{grid-template-columns:1fr}}
+  body.is-embed .notes{display:none}
+</style>
 </head>
 <body>
 <div class="wrap">
   <header class="top">
     <p class="kicker">Cell · regulated death</p>
-    <h1>Eryptosis — apoptosis without a nucleus</h1>
-    <p class="sub"><b>Triggers</b> open calcium gates in the anucleate RBC · <b>Calpain + scramblase</b> amplify · <b>PS exposure</b> flags the remnant for splenic clearance. No nucleus, no mitochondria, no rupture. Drag to orbit · scroll to zoom · click any blob for mechanism.</p>
-    <p class="src">After comparison table (RBC-specific, caspase-independent) · three.js r160 · <span id="embedlink"></span></p>
+    <h1>Eryptosis — regulated death without a nucleus</h1>
+    <p class="sub"><b>Triggers</b> open calcium gates in the anucleate RBC · <b>Gardos K+ efflux, scramblase + calpain</b> execute · <b>PS exposure</b> flags the remnant for clearance — by Kupffer cells in the liver, within minutes. No mitochondria, no rupture, no transcriptional control. Drag to orbit · scroll to zoom · click any blob for mechanism.</p>
+    <p class="src">After Tkachenko et al., <i>Cell Death Dis</i> 16:467 (2025) — <a href="https://doi.org/10.1038/s41419-025-07784-w" target="_blank" rel="noopener noreferrer">doi:10.1038/s41419-025-07784-w</a> · three.js r160 · <span id="embedlink"></span></p>
   </header>
   <div class="layout">
     <div class="stage-card">
@@ -44,31 +53,51 @@
         </div>
         <button id="play" class="is-on">⏸ Pause</button>
         <button id="reset">Reset view</button>
-        <span class="hint">24 s loop ≈ hours-scale triggers (oxidative / osmotic / energy loss) · T+ = biological time</span>
+        <span class="hint">24 s loop · onset is hours-scale, but eryptotic cells are cleared in <b>minutes</b> — the cleanest discriminator from senescent cells (days) · T+ = biological time</span>
       </div>
       <div class="side">
       <div class="card" id="cardA">
-        <h2>Triggers — four doors, one ion</h2>
+        <h2>Triggers — many doors, one ion</h2>
         <p class="meta">RBC membrane · stress entries</p>
-        <p>Oxidative, osmotic, energy-depletion and ceramide triggers (CKD/sepsis contexts) all open cation entry. EPO restrains.</p>
+        <p>Oxidative, osmotic, energy-depletion and ceramide triggers all open cation entry — TRPC6 (human; TRPC4/5 in mouse), PIEZO1, NMDA/AMPA receptors, Cav2.1; Cl− depletion releases PGE<sub>2</sub>. <b>Brakes:</b> NO donors → cGMP → cGKI, cGKI and AMPK knockout mice, N-acetyl-L-cysteine, erythropoietin. EPO is bidirectional — chronic exposure <i>raises</i> susceptibility.</p>
         <p class="legend"><span class="dot" style="background:#51d88a"></span>triggers in <span class="dot" style="background:#7fd4ff"></span>Ca2+ entry</p>
       </div>
       <div class="card" id="cardB">
-        <h2>Ca2+ — cutter + flipper</h2>
-        <p class="meta">cytosol · calpain + scramblase</p>
-        <p>Calpain dismantles the skeleton (blebs); scramblase externalizes PS while flippase shuts; Gardos K+ efflux shrinks the cell. Chelation aborts.</p>
+        <h2>Ca2+ — shrinker + flipper + cutter</h2>
+        <p class="meta">cytosol · Gardos + scramblase + calpain</p>
+        <p>Gardos (KCNN4) K+ efflux shrinks the cell; scramblase on / flippase off externalizes PS; calpain-1 cleaves the skeleton into blebs and microvesicles. Caveat: calpain-1 knockout mice have an unaltered erythrocyte lifespan. ATP depletion is doubly signed — it triggers the program via PKCα, and opposes it by disabling Ca2+-ATPase extrusion.</p>
         <p class="legend"><span class="dot" style="background:#7fd4ff"></span>Ca2+ <span class="dot" style="background:#c98d6e"></span>PS flip</p>
       </div>
       <div class="card" id="cardC">
-        <h2>PS remnant — silent clearance</h2>
-        <p class="meta">spleen · Annexin V+ parcels</p>
-        <p>Shrunken PS-positive remnants are eaten by red-pulp macrophages — anti-inflammatory like apoptosis. Hemolysis only on overload.</p>
+        <h2>PS remnant — cleared in minutes</h2>
+        <p class="meta">liver sinusoid · Kupffer cells · Annexin V+ parcels</p>
+        <p>Pathological PS+ remnants are eaten PS-dependently by Kupffer cells (stabilin-1/2) in the hepatic sinusoid — the spleen is the slower route for senescent cells. Efferocytosis reprograms macrophages (HO-1 up, IL-1β/TNF-α down). Not perfectly silent: eryptosis generates EVs whose DAMPs appear in stored concentrates. The lytic alternative is <b>erythronecroptosis</b> (RIPK1/3/MLKL) — chosen instead when caspase-8 is off; blocked by Nec-1/GSK'872, not z-VAD.</p>
         <p class="legend"><span class="dot" style="background:#c98d6e"></span>eat-me <span class="dot" style="background:#51d88a"></span>cleared silently</p>
       </div>
       </div>
     </div>
   </div>
-  <footer class="foot">Regulatory logic from comparison table (anucleate, caspase-independent, RBC-only). Detection: Annexin V+, Fluo-3 Ca2+, forward-scatter shrinkage, ceramide. Brakes: Ca2+ chelation, calpain inhibitors, erythropoietin*. No sex split established. <a href="https://graph.johnnykuo.com/pages/en-US/cell-death-comparison.html#animations">Cell-death animations</a></footer>
+  <section class="notes" aria-label="Eryptosis reference notes">
+    <div class="note">
+      <h2>Regulation</h2>
+      <p>Mature erythrocytes only — enucleation plus organelle clearance deletes cytochrome c / APAF-1 / caspase-9 and the intrinsic apoptosome, so Ca2+ influx from outside (no ER or mitochondrial store) is the <i>initiating</i> signal rather than a MOMP amplifier. Post-translational control only: no epigenetic, transcriptional or translational regulation is possible. Caspase-3 is dispensable for most triggers but required for extrinsic Fas/FADD/DISC eryptosis (caspase-8 → caspase-3), and caspase-8 is the switch that makes eryptosis and erythronecroptosis mutually exclusive. Kinase polarity is cell-type-set: PKC, CK1α, JAK3, p38 MAPK and CDK4 promote eryptosis here although they are canonically anti-apoptotic, while AMPK, cGKI, PAK2, MSK1/2 and PDK1 restrain it.</p>
+    </div>
+    <div class="note">
+      <h2>Detection</h2>
+      <p>The minimum standard is PS externalization <i>and</i> elevated intracellular Ca2+ — Annexin V / Fluo-3 AM, forward-scatter shrinkage, NBD-PS flippase probe, CMAC calpain-1 activity. There is no single accepted eryptosis marker. Eryptosis precedes hemolysis, so &gt;110 compounds score positive <i>below</i> their hemolytic threshold, which makes this pair of readouts a more sensitive, mechanistically informative hemocompatibility endpoint than lysis alone (ISO 10993-4; nanomaterial and nanomedicine safety).</p>
+    </div>
+    <div class="note">
+      <h2>Blockade</h2>
+      <p>Ca2+ chelation, charybdotoxin / clotrimazole (Gardos), calpain inhibitors, NO donors (nitroprusside, dibutyryl-cGMP) via soluble guanylate cyclase → cGMP → cGKI, cGKI and AMPK, PKC / p38 MAPK / CK1α inhibitors, N-acetyl-L-cysteine, erythropoietin. Pro-eryptotic: G6PD / PPP inhibition, ceramide and sphingomyelinase activation, Rac1 activation.</p>
+    </div>
+    <div class="note">
+      <h2>Why it matters</h2>
+      <p>A defence program, not just a death mechanism — it removes damaged cells, including <i>Plasmodium falciparum</i>-infected erythrocytes, before they lyse and release heme, Hb, methemoglobin, ATP, HSP70 and IL-33 (TLR4/NF-κB endothelial activation, heme-iron NETs). G6PD deficiency, sickle trait and β-thalassemia buy partial malarial protection through enhanced eryptosis. Rates rise measurably in CKD/ESRD and peritoneal dialysis, sepsis (tracking endotoxin activity and mortality), cold-IgM autoimmune haemolysis, antiphospholipid syndrome and lung cancer. Distinguish from senescence — which shares the morphology — by the rule that a senescent cell exposing PS is called eryptotic. Naming: cation-channel-driven, ROS-mediated, ceramide-driven, extrinsic Fas-mediated or caspase-dependent eryptosis; never "erythroptosis" or "apoptosis of RBCs". Iron-overload death is left unlabelled pending evidence — it is eryptosis-shaped, not established as ferroptosis.</p>
+    </div>
+  </section>
+  <footer class="foot">
+    <p>No sex split established. <a href="https://graph.johnnykuo.com/pages/en-US/cell-death-comparison.html#animations">Cell-death animations</a></p>
+  </footer>
 </div>
 <script type="module">
 import * as THREE from 'three';
@@ -156,25 +185,25 @@ function makeLabel(text, scale = 1) {
 
 /* ---------- info ---------- */
 const INFO = {
-  trig: ['Triggers — four doors', 'oxidative / osmotic / energy / ceramide', 'All four converge on calcium entry. CKD and sepsis are the clinical contexts. EPO restrains.'],
-  oxs: ['Oxidative stress — trigger', 'depletes GSH, opens gates', 'Shares lipid-peroxidation triggers with ferroptosis; canonical GPX4/ACSL4 iron-death machinery is not established in RBCs.'],
-  osmo: ['Osmotic shock — trigger', 'shrinkage signal', 'Hyperosmotic stress opens cation entry within minutes.'],
-  edepl: ['Energy depletion — trigger', 'ATP-dependent extrusion fails', 'Without ATP, Ca2+ cannot be pumped out; the pump logic mirrors necrosis at small scale.'],
-  cer: ['Ceramide — trigger', 'sphingomyelinase product', 'Membrane ceramide platforms sensitize scramblase. Stained directly in assays.'],
-  ckd: ['CKD/sepsis — contexts', 'uremic + inflammatory milieu', 'Where eryptosis rates rise clinically; forward-scatter shrinkage readouts.'],
-  epo: ['EPO — brake*', 'erythropoietin rescue', 'Starred inference from cross-biology; calpain inhibitors and chelation are the direct brakes.'],
-  ca2: ['Ca2+ hub — integrator', 'influx → enzymes', 'Cytosolic Ca2+ is the single second messenger; Fluo-3 reports it.'],
-  cain: ['Ca2+ influx — entry', 'nonselective cation channels', 'The committed step; everything downstream is calcium-enzymology.'],
-  calp: ['Calpain — cutter', 'spectrin/ankyrin cleavage', ' dismantles the membrane skeleton → blebbing. Same family as parthanatos BID cutter.'],
+  trig: ['Triggers — many doors', 'oxidative / osmotic / energy / ceramide', 'All converge on calcium entry. CKD and sepsis are the clinical contexts. Brakes: NO donors via cGMP → cGKI, cGKI, AMPK, N-acetyl-L-cysteine, erythropoietin.'],
+  oxs: ['Oxidative stress — trigger', 'depletes GSH, opens gates', 'Sources are hemoglobin Fenton chemistry, NADPH oxidase and xanthine oxidoreductase — no ETC, no peroxisome. Shares lipid-peroxidation triggers with ferroptosis; canonical GPX4/ACSL4 iron-death machinery is not established in RBCs.'],
+  osmo: ['Osmotic shock — trigger', 'shrinkage signal', 'Hyperosmotic stress opens cation entry within minutes; chloride depletion does it via PGE2 release.'],
+  edepl: ['Energy depletion — trigger', 'doubly signed', 'ATP loss drives the program (PKCα translocation, channel phosphorylation) but also opposes it by disabling Ca2+-ATPase extrusion. Both directions at once.'],
+  cer: ['Ceramide — trigger', 'sphingomyelinase product', 'Acid and neutral sphingomyelinase cleave SM to ceramide, which forms membrane platforms that sensitize scramblase. Cigarette-smoke extract routes through p38 MAPK → DISC assembly.'],
+  ckd: ['CKD/sepsis — contexts', 'uremic + inflammatory milieu', 'Eryptosis rises in CKD/ESRD and PD (3× on day 1 of peritonitis) and in sepsis, where septic plasma cytotoxicity peaks at 15 min and tracks endotoxin activity and mortality.'],
+  epo: ['EPO — brake, bidirectional', 'erythropoietin', 'Rescues eryptosis acutely, but chronic exposure raises susceptibility — elevated EPO in lung cancer tracks faster red-cell turnover.'],
+  ca2: ['Ca2+ hub — integrator', 'influx → enzymes', 'Cytosolic Ca2+ is the single second messenger; Fluo-3 reports it. With no ER or mitochondrial store, all Ca2+ arrives from outside.'],
+  cain: ['Ca2+ influx — entry', 'TRPC6 · PIEZO1 · NMDA/AMPA', 'TRPC6 in human RBCs but TRPC4/5 in mouse — a species caveat that matters for knockout studies. PIEZO1 takes shear stress and non-internalized nanoparticles; Cav2.1 is pharmacological evidence only.'],
+  calp: ['Calpain — cutter', 'spectrin/ankyrin cleavage', 'Dismantles the membrane skeleton → blebbing and microvesiculation; also degrades AE1/band 3. Honest caveat: calpain-1 knockout mice have an unaltered erythrocyte lifespan.'],
   scram: ['Scramblase — PS flipper on', 'TMEM16F-class activity', 'Scrambles leaflets; PS appears outside = Annexin V+.'],
-  flipase: ['Flippase — off switch', 'aminophospholipid translocase', 'Normally hides PS inside; calcium shuts it down.'],
-  cacage: ['Ca2+ chelation — brake', 'experimental rescue', 'Removing entry calcium aborts the program; diagnostic test.'],
-  gardos: ['Gardos channel — K+ out', 'Ca2+-activated K+ efflux', 'K+ and water leave; the cell shrinks toward a spherocyte remnant.'],
-  psexp: ['PS exposure — eat-me flag', 'Annexin V+ remnant', 'Shrunken, blebbed, PS-positive remnant awaits macrophages. Silent like apoptosis.'],
-  annex: ['Annexin V+ — detection', 'PS staining', 'With Fluo-3 Ca2+, forward-scatter shrinkage and ceramide staining.'],
-  spleen: ['Splenic clearance — payoff', 'macrophage engulfment', 'Red-pulp macrophages eat remnants; anti-inflammatory unless overwhelmed.'],
-  hemol: ['Hemolysis — overflow only', 'massive load rupture', 'If clearance saturates, remnants lyse intravascularly; the exception, not the rule.'],
-  damp: ['Silent — no alarm', 'clearance without DAMP', 'Mirrors apoptosis: PS flags, macrophages clear, no storm.']
+  flipase: ['Flippase — off switch', 'aminophospholipid translocase', 'Normally hides PS inside; calcium shuts it down. Activity is measurable with an NBD-PS probe.'],
+  cacage: ['Ca2+ chelation — brake', 'experimental rescue', 'Removing entry calcium aborts the program; diagnostic test. Charybdotoxin and clotrimazole block the Gardos shrinkage.'],
+  gardos: ['Gardos channel — K+ out', 'Ca2+-activated K+ efflux', 'KCNN4: K+ and water leave, the cell hyperpolarizes and shrinks toward a spherocyte remnant. This is what actually makes the morphology — charybdotoxin and clotrimazole block it.'],
+  psexp: ['PS exposure — eat-me flag', 'Annexin V+ remnant', 'Shrunken, spiculated, PS-positive remnant awaiting phagocytes. Morphology is apoptotic-like; the machinery is not.'],
+  annex: ['Annexin V+ — detection', 'PS staining', 'Minimum standard is PS externalization AND elevated intracellular Ca2+. Add NBD-PS flippase activity and CMAC calpain-1. No single accepted marker exists.'],
+  spleen: ['Kupffer-cell clearance — payoff', 'hepatic sinusoid efferocytosis', 'Pathological PS+ cells are cleared PS-dependently in the liver by Kupffer cells via stabilin-1/2 and integrin αvβ5 — the spleen is the slower route for senescent cells. Efferocytosis pushes macrophages toward HO-1 up, IL-1β/TNF-α down.'],
+  enec: ['Erythronecroptosis — the lytic alternative', 'RIPK1 · RIPK3 · MLKL', 'Bacterial pore-forming toxins drive Syk/Src-dependent MLKL lysis. Blocked by Nec-1 and GSK\'872, not z-VAD. Caspase-8 activity blocks it, which is what makes the two programs mutually exclusive. Mature RBCs lack TNFR1/2 and TRAIL-R, so the erythrocyte variant is cell-specific. Uncontrolled lysis instead releases heme, Hb, metHb, ATP, HSP70 and IL-33 → TLR4/NF-κB endothelium, heme-iron NETs.'],
+  damp: ['Nearly silent — a prior, not a fact', 'clearance with few DAMPs', 'No DAMP release is demonstrated for eryptosis itself, but eryptosis does generate extracellular vesicles, and EV-associated DAMPs are found in stored red-cell concentrates. Hemolysis is the noisy neighbour.']
 };
 /* node id → component card (A/B/C); clicking a blob flashes its card, cards stay static */
 const COMP = {
@@ -195,7 +224,7 @@ const COMP = {
   psexp: 'C',
   annex: 'C',
   spleen: 'C',
-  hemol: 'C',
+  enec: 'C',
   damp: 'C'
 };
 function flashCard(c) {
@@ -325,8 +354,8 @@ B_REGS.forEach(([id, lb, p, geo, mat, kind]) => node(geo, mat, p, id, lb, .8, gB
 const hubC = node(new THREE.IcosahedronGeometry(0.58, 1), M.hubC, [3.1, -0.1, 0.4], 'psexp', 'PS exposure', 1.1, gC);
 const C_REGS = [
   ['annex', 'Annexin V+', [1.7, 2.1, -1.0], new THREE.TorusKnotGeometry(0.2, 0.06), M.reg(0xc98d6e, 0x4d2805), 'pro'],
-  ['spleen', 'Splenic clearance', [1.8, 0.5, 0.9], new THREE.BoxGeometry(0.45, 0.3, 0.3), M.reg(0x51d88a, 0x0b4a1e), 'pro'],
-  ['hemol', 'Hemolysis if mass', [1.8, -1.15, 0.7], new THREE.CapsuleGeometry(0.2, 0.32), M.reg(0xff5a4d, 0x5a0e08), 'pro']
+  ['spleen', 'Kupffer clearance', [1.8, 0.5, 0.9], new THREE.BoxGeometry(0.45, 0.3, 0.3), M.reg(0x51d88a, 0x0b4a1e), 'pro'],
+  ['enec', 'Erythronecroptosis ⊣', [1.8, -1.15, 0.7], new THREE.CapsuleGeometry(0.2, 0.32), M.reg(0xff5a4d, 0x5a0e08), 'pro']
 ];
 C_REGS.forEach(([id, lb, p, geo, mat, kind]) => node(geo, mat, p, id, lb, .85, gC));
 
@@ -482,10 +511,10 @@ const fadeMats = [];
 /* ---------- phases ---------- */
 const PHASES = [
   [0, 'A · Triggers open calcium gates — oxidative / osmotic / energy / ceramide'],
-  [6, 'B · Calpain + scramblase fire — flippase off, Gardos K+ out'],
-  [12, 'C · PS flags the remnant — Annexin V+, blebbed, shrunken'],
+  [6, 'B · Gardos K+ out, scramblase on / flippase off, calpain blebs'],
+  [12, 'C · PS flags the remnant — Annexin V+, spiculated, shrunken'],
   [17.5, 'Remnant persists — sealed, no nucleus to fragment'],
-  [20.5, 'Splenic clearance — silent; hemolysis only if overwhelmed']
+  [20.5, 'Efferocytosis in minutes — Kupffer cells in the liver sinusoid']
 ];
 function phaseAt(t) { let s = PHASES[0][1]; for (const [st, tx] of PHASES) if (t >= st) s = tx; return s; }
 

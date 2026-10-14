@@ -1,0 +1,34 @@
+# URL routing for the site. Cloudflare applies these on deploy; web/vite.config.js
+# parses this same file for `npm run dev` / `vite preview`, so the two cannot drift.
+#
+# ## Pretty note URLs
+#
+#   /note/en-US/cell-death/Eryptosis          → wiki note
+#   /output/en-US/task_output_parthanatos_…   → task output
+#
+# Both are 200 proxies (rewrites, not redirects) to pages/md-viewer.html, which
+# renders the note and points rel=canonical back at the pretty path. The browser
+# URL is unchanged by a proxy, so md-viewer reads the note from
+# location.pathname — the rewrite target's query never reaches the shell (see
+# noteFromPathname() in md-viewer.html).
+#
+# WHY NOT /wiki/* AND /tasks/*: those prefixes contain the raw .md assets, and
+# Cloudflare follows redirects "regardless of whether or not an asset matches
+# the incoming request". A splat there therefore swallows the shell's own fetch
+# of the note body, and the shell receives HTML instead of markdown (every note
+# fails). There is no rule that fixes this from inside the prefix: Cloudflare
+# supports only ONE trailing splat per rule, so the mid-path guard
+# (`/wiki/*.md → /wiki/:splat.md`) that wrangler dev tolerates is silently
+# ignored in production. Distinct prefixes are the only collision-free option.
+# (Found live: `.md` fetches 307'd/200'd to the md-viewer shell.)
+#
+# ## Root
+#
+# `"html_handling": "none"` (wrangler.jsonc) disables Cloudflare's automatic
+# `/` → index.html mapping, so the root rule below restores it. That setting is
+# also required so `.html` URLs are not 307-stripped — which would drop the
+# query string the reader iframe depends on.
+
+/  /index.html  200
+/note/*    /pages/md-viewer.html    200
+/output/*  /pages/md-viewer.html    200

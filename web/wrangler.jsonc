@@ -6,7 +6,17 @@
     "enabled": true
   },
   "assets": {
-    "directory": "dist"
+    "directory": "dist",
+    // Must stay "none": the default handling 307-redirects any `.html` URL to
+    // its extension-less form AND drops the query string with it. That breaks
+    // two load-bearing flows: the reader iframe (?src= lost → every note shows
+    // "Invalid or missing ?src=") and the _redirects pretty URLs (rewrite
+    // target's ?kind=&src= lost → shell can't resolve the note). Observed in
+    // production as `.md` fetches 307ing to `/pages/md-viewer` (query gone)
+    // and rendering the shell as markdown. With "none", `/` no longer serves
+    // index.html automatically — covered by the explicit `/ → /index.html`
+    // rule at the top of public/_redirects.
+    "html_handling": "none"
   },
   "compatibility_flags": [
     "nodejs_compat"

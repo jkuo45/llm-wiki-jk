@@ -21,7 +21,7 @@ c-Met is synthesized as a single-chain precursor that is cleaved in the Golgi in
 Ligand binding induces HGF-dependent dimerization and trans-autophosphorylation of c-Met. Phosphorylated Tyr1234/1235 fully activate the kinase, while Tyr1349/1356 serve as a "multisubstrate docking site" recruiting effectors via their SH2 or PTB domains. Key downstream pathways include:
 
 - **[[RAS]]–[[MAPK]] / [[ERK]]** — mitogenic and proliferative signaling.
-- **[[PI3K]]–[[AKT]]** — survival, anti-apoptosis, and growth.
+- **[[PI3K]]–[[Akt]]** — survival, anti-apoptosis, and growth.
 - **[[STAT]] (especially STAT3)** — proliferation and invasion.
 - **[[GAB1]] scaffolding** — amplifies branching morphogenesis and invasive growth signals.
 - **[[FAK Signaling]] and [[Integrin]] crosstalk** — motility, invasion, and adhesion turnover.
@@ -47,6 +47,6 @@ c-Met is a prototypic [[Oncogene]] when dysregulated. Aberrant activation — th
 
 ## Linking Summary
 
-- New links added: [[MET gene]], [[Hepatocyte Growth Factor]], [[Receptor Tyrosine Kinase]], [[Cancer]], [[Angiogenesis]], [[RAS]], [[MAPK]], [[PI3K]], [[AKT]], [[STAT]], [[GAB1]], [[FAK Signaling]], [[Integrin]], [[EGFR]], [[Oncogene]], [[Liver Regeneration]], [[Mesenchymal Stromal Cells]], [[Pluripotency]], [[Reprogramming]], [[Induced Pluripotent Stem Cells]], [[Disease Modeling]], [[Onartuzumab]], [[Rilotumumab]], [[Crizotinib]], [[Cabozantinib]], [[Tepotinib]], [[Capmatinib]]
+- New links added: [[MET gene]], [[Hepatocyte Growth Factor]], [[Receptor Tyrosine Kinase]], [[Cancer]], [[Angiogenesis]], [[RAS]], [[MAPK]], [[PI3K]], [[Akt]], [[STAT]], [[GAB1]], [[FAK Signaling]], [[Integrin]], [[EGFR]], [[Oncogene]], [[Liver Regeneration]], [[Mesenchymal Stromal Cells]], [[Pluripotency]], [[Reprogramming]], [[Induced Pluripotent Stem Cells]], [[Disease Modeling]], [[Onartuzumab]], [[Rilotumumab]], [[Crizotinib]], [[Cabozantinib]], [[Tepotinib]], [[Capmatinib]]
 - Suggested new entity notes to create: [[Scatter Factor]], [[MET Exon 14 Skipping]], [[HGFR]]
 - Strong connections to strengthen: [[c-Met]] ↔ [[Quiescence]], [[c-Met]] ↔ [[Hepatocyte Growth Factor]]

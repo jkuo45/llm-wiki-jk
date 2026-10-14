@@ -47,7 +47,7 @@ List of documents that mention this entity
 
   - New links added: [[MAPKAPK2|MK2]], [[p38 MAPK]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Apoptosis]], [[Senescent Cells]], [[IL-6]], [[IL-8]], [[Ivermectin]], [[EGFR]], [[HER2]], [[erlotinib]], [[cetuximab]], [[Metastasis]], [[Oxidative Stress]], [[Cytochrome c]], [[ASK1]], [[Glutathione]]
   - Suggested new entity notes to create: [[MAPKAPK-2]], [[OGX-427]], [[HSPB1]]
-  - Strong connections to strengthen: [[HSP27]] ↔ [[MAPKAPK2|MK2]], [[HSP27]] ↔ SASP mRNA stability, [[HSP27]] ↔ [[Ivermectin]], [[HSP27]] ↔ [[EGFR]], [[HSP27]] ↔ [[Enzalutamide]]/[[Docetaxel]] (prostate-cancer resistance reversal)
+  - Strong connections to strengthen: [[HSP27]] ↔ [[MAPKAPK2|MK2]], [[HSP27]] ↔ SASP mRNA stability, [[HSP27]] ↔ [[Ivermectin]], [[HSP27]] ↔ [[EGFR]], [[HSP27]] ↔ [[Enzalutamide]]/[[docetaxel]] (prostate-cancer resistance reversal)
 
 ## Additional Context (Cancer / Chemoresistance)
 
@@ -65,7 +65,7 @@ In AR-pathway prostate cancer, [[Ivermectin]] reverses **enzalutamide and doceta
 ### Connections
 
   - [[Ivermectin]]: Inhibits HSP27 phosphorylation, restoring therapy sensitivity; reverses enzalutamide/docetaxel resistance in DU145/PC3 cells.
-  - [[Enzalutamide]] / [[Docetaxel]]: Prostate-cancer resistance overcome by ivermectin via HSP27.
+  - [[Enzalutamide]] / [[docetaxel]]: Prostate-cancer resistance overcome by ivermectin via HSP27.
   - [[EGFR]] / [[HER2]]: Targeted-therapy efficacy enhanced by HSP27 inhibition.
   - [[erlotinib]] / [[cetuximab]]: EGFR agents potentiated by HSP27 inhibition.
   - [[Oxidative Stress]] / [[Metastasis]] / [[Angiogenesis]]: HSP27-mediated resistance mechanisms.

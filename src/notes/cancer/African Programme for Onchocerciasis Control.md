@@ -20,7 +20,7 @@ Onchocerciasis is caused by the filarial nematode *Onchocerca volvulus*, transmi
 
 Although APOC addressed a parasitic disease rather than cancer directly, it is documented in the [[Cancer]] knowledge base for two intersecting reasons:
 
-- **Ivermectin Repurposing**: Ivermectin, the cornerstone of APOC, has been investigated for anticancer properties — inhibiting the [[Wnt/β-catenin]] and [[AKT/mTOR]] pathways, impairing [[Mitochondrial Respiration]], and enhancing [[Apoptosis]] in tumor models. Population-scale experience from APOC informed its safety profile for such repositioning.
+- **Ivermectin Repurposing**: Ivermectin, the cornerstone of APOC, has been investigated for anticancer properties — inhibiting the [[Wnt/β-catenin]] and [[Akt]]/[[mTOR]] pathways, impairing [[Mitochondrial Respiration]], and enhancing [[Apoptosis]] in tumor models. Population-scale experience from APOC informed its safety profile for such repositioning.
 - **Neglected Disease & Oncology Equity**: APOC exemplified community-directed delivery models now proposed for equitable cancer prevention (e.g., HPV/cervical cancer screening) in low-resource settings.
 
 ## Outcomes & Legacy
@@ -47,6 +47,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Onchocerciasis]], [[Ivermectin]], [[World Health Organization]], [[Merck & Co. Inc]], [[Community-directed treatment]], [[Cancer]], [[Neglected Tropical Diseases]], [[Wnt/β-catenin]], [[AKT/mTOR]], [[Mitochondrial Respiration]], [[Apoptosis]]
+- New links added: [[Onchocerciasis]], [[Ivermectin]], [[World Health Organization]], [[Merck & Co. Inc]], [[Community-directed treatment]], [[Cancer]], [[Neglected Tropical Diseases]], [[Wnt/β-catenin]], [[Akt]]/[[mTOR]], [[Mitochondrial Respiration]], [[Apoptosis]]
 - Suggested new entity notes to create: [[Community-directed treatment]], [[Onchocerca volvulus]], [[ESPEN]]
 - Strong connections to strengthen: [[African Programme for Onchocerciasis Control]] ↔ [[Onchocerciasis]], [[African Programme for Onchocerciasis Control]] ↔ [[Ivermectin]]

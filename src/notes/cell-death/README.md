@@ -3,7 +3,7 @@ title: Cell Death
 aliases: []
 description: index of entities and documents in this directory
 created: 2026-09-07
-updated: 2026-09-23
+updated: 2026-10-08
 ---
 # Cell Death
 
@@ -21,6 +21,7 @@ updated: 2026-09-23
 | [[_document_ - Ferroptosis past present and future\|Ferroptosis: past, present and future]] | Ferroptosis review: iron-dependent death with iron accumulation and lipid peroxidation; GPX4/glutathione axis, ROS accumulation, and pathophysiological relevance. |
 | [[_document_ - Necroptosis (2014), Linkermann, Green\|Necroptosis (2014), Linkermann & Green]] | Linkermann and Green 2014 review of necroptosis — regulated necrotic cell death downstream of RIPK1/RIPK3/MLKL, its inflammatory signaling, and roles in ischemia-reperfusion injury. |
 | [[_document_ - RIP3 targets pyruvate dehydrogenase complex to increase aerobic respiration in TNF-induced necroptosis\|RIP3 targets pyruvate dehydrogenase complex to increase aerobic respiration in TNF-induced necroptosis]] | Yang et al. 2018 — RIP3 phosphorylates the PDH E3 subunit at Thr135 to boost aerobic respiration and mitochondrial ROS, feeding back on the necrosome; blocking mitochondrial pyruvate uptake suppresses necroptosis. |
+| [[_document_ - Current understanding of eryptosis mechanisms, physiological functions, role in disease, pharmacological applications, and nomenclature recommendations\|Current understanding of eryptosis: mechanisms, physiological functions, role in disease, pharmacological applications, and nomenclature recommendations]] | Tkachenko et al. 2025 consensus review — eryptosis as the Ca²⁺-driven regulated death of mature anucleate erythrocytes (Gardos K⁺ efflux, scramblase, calpain-1, PS externalisation); its distinction from apoptosis, senescence, hemolysis and erythronecroptosis; caspase-8 as the fate switch; disease roles; druggability; and the nomenclature recommendations. |
 
 ## Entity Notes
 
@@ -28,13 +29,15 @@ Core death machinery lives here per §7 (topic home outranks `_link/`; all notes
 
 Modalities: [[Regulated Cell Death]], [[Apoptosis]], [[Apoptotic Bodies]], [[Apoptosome]], [[Necroptosis]], [[necrosome]], [[Necrosis]], [[Secondary Necrosis]], [[Parthanatos]], [[Ferroptosis]], [[Pyroptosis]], [[Autophagic Cell Death]].
 
+Erythrocyte death modalities: [[Eryptosis]] (Ca²⁺-driven, PS-exposing, non-lytic; the only RCD of anucleate cells) and [[Erythronecroptosis]] (RIPK1/RIPK3/MLKL-dependent lytic death; caspase-8 switches between the two). Supporting notes in `_link/`: [[Gardos Channel]], [[Piezo1]], [[Efferocytosis]], [[Erythropoiesis]], [[Anion Exchanger 1]], [[Erythrocytes]].
+
 Caspases: [[Caspases]], [[Caspase-2]], [[Caspase-3]], [[Caspase-4]], [[Caspase-5]], [[Caspase-6]], [[Caspase-7]], [[Caspase-8]], [[Caspase-8-c-FLIP Rheostat]], [[Caspase-9]], [[Caspase-10]], [[Caspase-11]], [[Caspase-12]], [[Executioner Caspase]], [[Inhibitor of Apoptosis Proteins]], [[cIAPs]].
 
 BCL-2 family and mitochondrial gatekeepers: [[Bcl-2 family]], [[Bcl-2]], [[Bcl-w]], [[Bcl-xL]], [[BCL2L13]], [[BAX]], [[BAK]], [[BOK]], [[Bid]], [[Smac DIABLO]], [[Smac mimetics]], [[VDAC]], [[Apoptosis-Inducing Factor]], [[AIFM2]].
 
 Death-receptor and necrosome signaling: [[TNFR1]], [[TNFR1 complex I]], [[TNFR1 complex II]], [[RIPK3]], [[MLKL]], [[FasL]], [[TRAIL]].
 
-Necroptosis regulators and sensors (mostly `_link/`): [[ZBP1]], [[TRIF]], [[PANoptosis]], [[PANoptosome]], [[CYLD]], [[OTULIN]], [[TRIM21]], [[RSK3]], [[CSNK1G2]], [[TAM Kinases]], [[PGAM5]], [[Pyruvate Dehydrogenase]], [[Hsp90]], [[BRD4]].
+Necroptosis regulators and sensors (mostly `_link/`): [[ZBP1]], [[TRIF]], [[PANoptosis]], [[PANoptosome]], [[CYLD]], [[OTULIN]], [[TRIM21]], [[RSK3]], [[CSNK1G2]], [[TAM Kinases]], [[PGAM5]], [[Pyruvate Dehydrogenase]], [[HSP90β]], [[BRD4]].
 
 Necroptosis tools and modulators (mostly `_link/`): [[GSK872]], [[GSK840]], [[Zharp-99]], [[HG-9-91-01]], [[Apelin]], [[TRPM7]].
 

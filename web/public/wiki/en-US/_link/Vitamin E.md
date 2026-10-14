@@ -3,7 +3,7 @@ title: Vitamin E
 description: Vitamin E is a group of eight fat-soluble compounds that include
   four tocopherols and four tocotrienols. It acts as a potent antioxidant.
 created: 2026-05-29
-updated: 2026-09-24
+updated: 2026-09-26
 tags:
   - chemical-compound
 aliases: []
@@ -54,7 +54,7 @@ Relative vitamin E content across common cooking oils (unrefined/cold-pressed, a
 | Safflower (high-oleic), cottonseed | 18–35 | α |
 | Corn, soybean, canola | 8–20 | mostly γ |
 | Olive (extra virgin), avocado | 6–20 | mostly α |
-| Red (crude) palm | 15–25 | tocotrienols |
+| [[Red Palm Oil|Red (crude) palm]] | 15–25 | tocotrienols |
 
 > [!warning] Refining and label declaration
 > Bleaching and deodorizing destroy 50–80% of tocopherols and essentially all carotenoids, so refined "palm olein" is pale and vitamin-E-poor compared with red palm oil. Because the FDA does not require declaring vitamin E (or vitamin K) unless fortified, common refined corn, canola and avocado oils appear to contain none on the label while still carrying meaningful amounts when cold-pressed. Sunflower and wheat germ oils are the most reliable α-tocopherol sources; corn and soybean supply mostly γ-tocopherol, which scores lower on conventional vitamin-E activity despite similar mass.

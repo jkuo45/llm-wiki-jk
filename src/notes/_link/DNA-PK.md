@@ -14,7 +14,7 @@ protected: false
 
 # DNA-PK
 
-[[DNA-PK]] (DNA-dependent protein kinase, catalytic subunit PRKDC) is a serine/threonine kinase central to the non-homologous end-joining (NHEJ) pathway of [[DNA Repair]]. Along with [[ATM]] and [[ATR]], it phosphorylates histone H2AX to form [[γH2AX]] foci at DNA double-strand breaks.
+[[DNA-PK]] (DNA-dependent protein kinase, catalytic subunit PRKDC) is a serine/threonine kinase central to the non-homologous end-joining (NHEJ) pathway of [[DNA Repair]]. Along with [[ATM]] and [[ATR]], it phosphorylates histone H2AX to form [[γ-H2AX]] foci at DNA double-strand breaks.
 
 > [!info] Source: [[Oral Fenbendazole for Cancer Therapy in Humans and Animals]]
 > Fenbendazole elevates γH2AX in A375 cells, marking DNA damage; γH2AX is deposited by ATM/ATR/DNA-PK (35).
@@ -26,12 +26,12 @@ protected: false
 
 ## Connections
 
-- [[γH2AX]] — phosphorylation product marking DSBs.
+- [[γ-H2AX]] — phosphorylation product marking DSBs.
 - [[ATM]] / [[ATR]] — co-depositors of γH2AX.
 - [[DNA Repair]] — NHEJ pathway member.
 - [[Fenbendazole]] — induces DNA damage reflected by γH2AX.
 
 ## Linking Summary
 
-- New links added: [[γH2AX]], [[ATM]], [[ATR]], [[DNA Repair]], [[Fenbendazole]].
-- Strong connections to strengthen: [[DNA-PK]] → [[γH2AX]] (deposition).
+- New links added: [[γ-H2AX]], [[ATM]], [[ATR]], [[DNA Repair]], [[Fenbendazole]].
+- Strong connections to strengthen: [[DNA-PK]] → [[γ-H2AX]] (deposition).

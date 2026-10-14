@@ -18,7 +18,7 @@ aliases:
 
 ## Overview
 
-**Glutathione S-transferases (GSTs)** are a superfamily of phase II metabolic enzymes that catalyze the conjugation of the tripeptide [[Glutathione]] (GSH) to a wide range of electrophilic endogenous and xenobiotic substrates, facilitating their detoxification and excretion. Beyond classical detoxification, GSTs are central to cellular [[Antioxidants|antioxidant]] defense and redox homeostasis, and several isoforms directly neutralize lipid peroxidation products such as 4-hydroxynonenal.
+**Glutathione S-transferases (GSTs)** are a superfamily of phase II metabolic enzymes that catalyze the conjugation of the tripeptide [[Glutathione]] (GSH) to a wide range of electrophilic endogenous and xenobiotic substrates, facilitating their detoxification and excretion. Beyond classical detoxification, GSTs are central to cellular [[Antioxidant|antioxidant]] defense and redox homeostasis, and several isoforms directly neutralize lipid peroxidation products such as 4-hydroxynonenal.
 
 ## Structure & Isoforms
 
@@ -57,6 +57,6 @@ The review *Pharmacological Effects of Urolithin A and Its Role in Muscle Health
 
 ## Linking Summary
 
-- New links added: [[Glutathione]], [[NRF2]], [[Antioxidant Response Element]], [[Glutathione Peroxidase]], [[Superoxide Dismutase]], [[Antioxidants]], [[Oxidative Stress]], [[Mitochondria]], [[Mitophagy]], [[Urolithin A]], [[Inflammation]], [[Insulin Resistance]], [[ABCG1]]
+- New links added: [[Glutathione]], [[NRF2]], [[Antioxidant Response Element]], [[Glutathione Peroxidase]], [[Superoxide Dismutase]], [[Antioxidant]], [[Oxidative Stress]], [[Mitochondria]], [[Mitophagy]], [[Urolithin A]], [[Inflammation]], [[Insulin Resistance]], [[ABCG1]]
 - Suggested new entity notes to create: [[Keap1]]
 - Strong connections to strengthen: [[Urolithin A]] ↔ [[Glutathione S-Transferase]]

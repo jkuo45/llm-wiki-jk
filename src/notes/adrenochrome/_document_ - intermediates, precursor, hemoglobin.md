@@ -15,7 +15,7 @@ aliases: []
 > [!info] Source
 > AI-generated research analysis from Google AI Studio covering [[Leuco-adrenochrome]] — its role in the [[Epinephrine]] oxidation pathway, use as a pharmaceutical [[Reference standard]] and [[Impurity marker]], interaction with [[Hemoglobin]]/[[Erythrocytes]], and implications for [[Epinephrine]] formulation stability.
 
-[[Leuco-adrenochrome]] ((S)-1-Methylindoline-3,5,6-triol) is a chemical intermediate and natural byproduct formed during the oxidation of [[Epinephrine]] (adrenaline) into [[Adrenochrome]]. It acts as an unstable, highly reactive [[Redox]] intermediate within the body's [[Catecholamine]] pathways.
+[[Leuco-adrenochrome]] ((S)-1-Methylindoline-3,5,6-triol) is a chemical intermediate and natural byproduct formed during the oxidation of [[Epinephrine]] (adrenaline) into [[Adrenochrome]]. It acts as an unstable, highly reactive [[Redox]] intermediate within the body's [[Catecholamines]] pathways.
 
 ---
 
@@ -23,7 +23,7 @@ aliases: []
 
 [[Leuco-adrenochrome]] is central to the oxidative degradation of [[Epinephrine]]. The pathway proceeds as follows:
 
-- **[[Epinephrine]] (Adrenaline):** The starting [[Catecholamine]].
+- **[[Epinephrine]] (Adrenaline):** The starting [[Catecholamines]].
 - **[[Adrenaline-quinone]]:** Through oxidation (often [[Autoxidation]] at physiological pH or via enzymatic activity), [[Epinephrine]] loses electrons to form the highly reactive [[Electrophile|electrophilic]] intermediate [[Adrenaline-quinone]].
 - **[[Leuco-adrenochrome]]:** Cyclization of [[Adrenaline-quinone]] occurs, yielding the leuco-form (the "white" or reduced form), (S)-1-Methylindoline-3,5,6-triol.
 - **[[Adrenochrome]]:** Further oxidation of [[Leuco-adrenochrome]] results in the formation of [[Adrenochrome]], which is distinctly colored (red/pink/orange) due to its extended conjugated system.
@@ -36,7 +36,7 @@ aliases: []
 Interest in [[Leuco-adrenochrome]] and its parent compound [[Adrenochrome]] peaked in the 1950s with the work of researchers [[Abram Hoffer]] and [[Humphry Osmond]].
 
 - **The Theory:** They proposed the [[Adrenochrome Hypothesis]], which suggested that [[Adrenochrome]] might be a psychotomimetic (hallucinogenic) agent formed endogenously. They hypothesized that an imbalance in the oxidation of [[Epinephrine]] into [[Adrenochrome]] might contribute to the etiology of [[Schizophrenia]].
-- **Legacy:** While this hypothesis triggered extensive research into [[Catecholamine]] metabolism, it was largely superseded by the [[Dopamine hypothesis]] of [[Schizophrenia]] in later decades. However, the legacy of this research remains significant in the study of how [[Catecholamine]] metabolites interact with neurological receptors and [[Oxidative Stress]] pathways.
+- **Legacy:** While this hypothesis triggered extensive research into [[Catecholamines]] metabolism, it was largely superseded by the [[Dopamine hypothesis]] of [[Schizophrenia]] in later decades. However, the legacy of this research remains significant in the study of how [[Catecholamines]] metabolites interact with neurological receptors and [[Oxidative Stress]] pathways.
 
 ### 3. Current Analytical and Pharmaceutical Usage
 
@@ -51,7 +51,7 @@ Because of its extreme sensitivity to oxidation, researchers handling [[Leuco-ad
 
 - **Atmosphere:** Typically stored under an inert atmosphere (such as [[Argon]] or [[Nitrogen gas]]) to prevent spontaneous oxidation to [[Adrenochrome]].
 - **Temperature:** Kept at sub-zero temperatures (e.g., -20°C or lower) to maintain chemical stability.
-- **Solvent Choice:** Dissolved in solvents that do not promote oxidation, often with addition of [[Antioxidants]] (like [[Ascorbic Acid]]) depending on experimental requirements.
+- **Solvent Choice:** Dissolved in solvents that do not promote oxidation, often with addition of [[Antioxidant]] (like [[Ascorbic Acid]]) depending on experimental requirements.
 
 > [!note] Purchasing
 > When obtaining this compound from chemical supply houses (e.g., BOC Sciences, SynZeal, Cayman Chemical), request the [[Certificate of Analysis]] (CoA), which specifies purity and the method used to verify the molecular structure (usually [[H-NMR]] or [[Mass Spectrometry]]), as batches can easily degrade if mishandled.
@@ -95,8 +95,8 @@ No strong evidence shows direct binding of [[Leuco-adrenochrome]] to [[Hemoglobi
 - **pH:** Optimal stability at acidic pH (around 3–4, often 2.5–5.5). Higher pH (>5.5) accelerates degradation significantly.
 - **Temperature:** Higher temperatures speed up oxidation and [[Racemization]].
 - **Light:** Major driver of photodegradation; amber glass or opaque packaging is essential.
-- **Oxygen/Air:** Headspace oxygen promotes [[Autoxidation]]; nitrogen blanketing or [[Antioxidants]] help.
-- **[[Antioxidants]]:** [[Sodium Metabisulfite]] or similar sulfites are common stabilizers, though they have limitations (e.g., potential synergistic degradation with [[Adrenochrome]] under light). Newer formulations explore sulfite-free options like [[Cysteine]] or [[Thioglycerol]].
+- **Oxygen/Air:** Headspace oxygen promotes [[Autoxidation]]; nitrogen blanketing or [[Antioxidant]] help.
+- **[[Antioxidant]]:** [[Sodium Metabisulfite]] or similar sulfites are common stabilizers, though they have limitations (e.g., potential synergistic degradation with [[Adrenochrome]] under light). Newer formulations explore sulfite-free options like [[Cysteine]] or [[Thioglycerol]].
 - **[[Chelating agents]]:** Reduce metal-catalyzed oxidation.
 
 #### Stability in Commercial and Extemporaneous Formulations

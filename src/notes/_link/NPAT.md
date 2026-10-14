@@ -41,7 +41,7 @@ Direct modulation of NPAT is not a current senescence therapy, but understanding
 
 ## Documents
 
-- [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]] — Although not named in the review, NPAT underlies the decline in canonical histone biosynthesis it describes: NPAT inactivation in arrested cells explains the histone loss that correlates with chromatin decompaction and SASP upregulation.
+- [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]] — Although not named in the review, NPAT underlies the decline in canonical histone biosynthesis it describes: NPAT inactivation in arrested cells explains the histone loss that correlates with chromatin decompaction and SASP upregulation.
 
 ## Connections
 

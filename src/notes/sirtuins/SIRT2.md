@@ -3,7 +3,7 @@ title: SIRT2
 description: SIRT2 (Sirtuin 2) is a member of the sirtuin family of NAD+-dependent
   deacetylases, primarily localized in the cytosol.
 created: 2026-07-04
-updated: 2026-08-11
+updated: 2026-09-30
 tags:
   - enzyme
   - nad-plus
@@ -14,28 +14,16 @@ protected: true
 
 # SIRT2
 
-
-## From [[SIRT2]]
-
-# SIRT2
-
-**SIRT2** (Sirtuin 2) is a member of the sirtuin family of NAD+-dependent deacetylases, primarily localized in the cytosol.
+**SIRT2** (Sirtuin 2) is a member of the sirtuin family of NAD+-dependent deacetylases, primarily localized in the cytosol. It is a mammalian sirtuin classified in phylogenetic **Class Ib** alongside yeast Hst2, fly D.mel2, and sirtuins from other fungi and protozoa, and is the primary **cytoplasmic sirtuin** — an NAD⁺-dependent tubulin deacetylase with additional roles in cell cycle regulation, chromosomal integrity, adipose-tissue development, blood-glucose homeostasis, peripheral myelination, and brain tumour suppression. While [[SIRT1]] is often nuclear, SIRT2 provides a cytoplasmic mechanism for responding to energy stress and coordinating autophagic flux.
 
 ## Role in Autophagy
 - SIRT2 is involved in the regulation of [[Autophagy]] in response to metabolic stress.
 - **Deacetylation of [[Atg4B|ATG4B]]**: Starvation in mice has been shown to induce SIRT2 activity, which deacetylates ATG4B. This modification is necessary for the proper processing of [[LC3]] and the induction of autophagy.
 - Loss of SIRT2 (as seen in *Sirt2* −/− models) leads to a suppression of the autophagic response under starvation conditions.
+- SIRT2 also regulates [[Autophagy]] by deacetylating [[FoxO1]] and [[FOXO3a]].
 
-## Relationship with SIRT1
-- While [[SIRT1]] is often nuclear, SIRT2 provides a cytoplasmic mechanism for responding to energy stress and coordinating autophagic flux.
-
-## Function
-
-SIRT2 is a cytoplasmic and nuclear NAD+-dependent deacetylase that regulates [[Autophagy]] by deacetylating [[FoxO1]] and [[FOXO3a]].
-
-# SIRT2
-
-**SIRT2** (Sirtuin 2) is a mammalian sirtuin classified in phylogenetic **Class Ib** alongside yeast Hst2, fly D.mel2, and sirtuins from other fungi and protozoa. It is the primary **cytoplasmic sirtuin** and functions as an NAD⁺-dependent tubulin deacetylase, with additional roles in cell cycle regulation, chromosomal integrity, and brain tumour suppression.
+> [!info] Source: [[_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases]]
+> Zhao et al. (2020) highlight that SIRT2 extends lifespan in the BubR1 hypomorphic progeroid mouse model, marking it as a key mammalian ageing modulator. SIRT2 also activates PEPCK via deacetylation to enhance gluconeogenesis during glucose deprivation and shows opposing roles in insulin sensitivity across tissues.
 
 ## Enzymatic Activity
 
@@ -170,6 +158,9 @@ List of documents that mention this entity
 - [[_document_ - Sirtuins, a promising target in slowing down the ageing process|Sirtuins, a promising target in slowing down the ageing process]]
   - Review (Grabowska et al., Biogerontology 2017) noting SIRT2 as a cellular-senescence marker (elevated in senescent but not quiescent/apoptotic cells), its deacetylation of α-tubulin, and its role as the main cytoplasmic FOXO1 deacetylase.
 
+- [[_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases]]
+  - Identifies SIRT2 as a longevity modulator (BubR1 progeroid model) and details its metabolic (PEPCK/gluconeogenesis) and cancer-related roles.
+
 ## Connections
 
 - [[SIRT1]] — fellow Class I sirtuin; both have deacetylase and ADP-ribosyl transferase activities
@@ -182,38 +173,26 @@ List of documents that mention this entity
 
 
 - [[NLRP3]]: SIRT2 modulates NLRP3 inflammasome activation via α-tubulin deacetylation, linking it to vascular inflammation
+- [[BubR1]] — SIRT2 extends lifespan in BubR1 hypomorphic progeroid mice
+- [[PEPCK]] — SIRT2 activates PEPCK via deacetylation to drive gluconeogenesis
+- [[Aging]] — SIRT2 is a key mammalian ageing modulator
+
 ## Linking Summary
+
+### Core Sirtuin Network
+
 - New links added: [[NAD+]], [[OAADPr]], [[Glioma]], [[HOXA10]], [[SIRT1]], [[SIRT3]], [[TRPM2]]
 - Suggested new entity notes to create: [[TRPM2]], [[CDC14B]], neurofascin
 - Strong connections to strengthen: [[SIRT2]] ↔ [[Glioma]], [[SIRT2]] ↔ [[OAADPr]]
+
+### Autophagy
+
 - New links added: [[Autophagy]], [[Atg4B]], [[LC3]], [[SIRT1]]
 - Suggested new entity notes to create: [[Atg4B]]
 
-## Linking Summary (Disease Landscape)
+### Disease Landscape
 
 - New links added: [[Breast Cancer]], [[Lung Cancer]], [[Hepatocellular Carcinoma]], [[Colorectal Cancer]], [[Ovarian Cancer]], [[Endometrial Cancer]], [[Cervical Cancer]], [[leukemia]], [[Cardiac Hypertrophy]], [[Cardiac Fibrosis]], [[Atherosclerosis]], [[Asthma]], [[Non-alcoholic Fatty Liver Disease]], [[Hepatitis B]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Huntington's Disease]], [[Stroke]], [[Diabetes Mellitus]], [[Obesity]], [[Acute Kidney Injury]], [[Kidney Fibrosis]], [[Osteoarthritis]], [[Intervertebral Disc Degeneration]], [[Muscle Atrophy]]
 - Suggested new entity notes to create: [[Ovarian Cancer]], [[Endometrial Cancer]], [[Cervical Cancer]], [[leukemia]], [[Hepatitis B]]
 - Strong connections to strengthen: [[SIRT2]] ↔ [[Alzheimer's Disease]], [[SIRT2]] ↔ [[Parkinson's Disease]], [[SIRT2]] ↔ [[Breast Cancer]]
-
-# SIRT2
-
-SIRT2 is a predominantly cytoplasmic sirtuin with both deacetylase and mono-ADP-ribosyl transferase activity. It is involved in regulating cell cycle, cell motility, tubulin acetylation, and is overexpressed in various cancers and [[Neurodegeneration|neurodegenerative disorders]].
-
-# SIRT2
-
-SIRT2 (Sirtuin 2) is a NAD+-dependent deacetylase localized primarily in the cytosol and nucleus. It is involved in cell cycle regulation, adipose tissue development and functionality, blood glucose homeostasis, and the modulation of peripheral myelination.
-
-> [!info] Source: [[_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases]]
-> Zhao et al. (2020) highlight that SIRT2 extends lifespan in the BubR1 hypomorphic progeroid mouse model, marking it as a key mammalian ageing modulator. SIRT2 also activates PEPCK via deacetylation to enhance gluconeogenesis during glucose deprivation and shows opposing roles in insulin sensitivity across tissues.
-
-## Documents
-
-- [[_document_ - Sirtuins and their Biological Relevance in Aging and Age-Related Diseases]]
-  - Identifies SIRT2 as a longevity modulator (BubR1 progeroid model) and details its metabolic (PEPCK/gluconeogenesis) and cancer-related roles.
-
-## Connections
-
-- [[BubR1]] — SIRT2 extends lifespan in BubR1 hypomorphic progeroid mice
-- [[PEPCK]] — SIRT2 activates PEPCK via deacetylation to drive gluconeogenesis
-- [[Aging]] — SIRT2 is a key mammalian ageing modulator
 

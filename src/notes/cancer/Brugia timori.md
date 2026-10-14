@@ -23,7 +23,7 @@ Mass drug administration with [[Ivermectin]] (often combined with [[Albendazole]
 ## Relevance to the Cancer Knowledge Base
 
 *Brugia timori* appears in the [[Cancer]] base primarily as a context for the **antiparasitic agents under anticancer repurposing**:
-- [[Ivermectin]] inhibits [[Wnt/β-catenin]], [[AKT/mTOR]], and [[PAK1]] oncogenic signaling and promotes [[Apoptosis]] in tumors.
+- [[Ivermectin]] inhibits [[Wnt/β-catenin]], [[Akt]]/[[mTOR]], and [[PAK1]] oncogenic signaling and promotes [[Apoptosis]] in tumors.
 - [[Albendazole]] (a [[Benzimidazole]]) disrupts [[Tubulin]] and the [[Warburg Effect]], with documented antitumor activity.
 Population-scale safety data from filariasis control de-risk these repurposing efforts.
 
@@ -47,6 +47,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Lymphatic Filariasis]], [[Ivermectin]], [[Albendazole]], [[Diethylcarbamazine]], [[Brugia malayi]], [[Wuchereria bancrofti]], [[Cancer]], [[Wnt/β-catenin]], [[AKT/mTOR]], [[PAK1]], [[Apoptosis]], [[Benzimidazole]], [[Tubulin]], [[Warburg Effect]], [[Wolbachia]], [[African Programme for Onchocerciasis Control]]
+- New links added: [[Lymphatic Filariasis]], [[Ivermectin]], [[Albendazole]], [[Diethylcarbamazine]], [[Brugia malayi]], [[Wuchereria bancrofti]], [[Cancer]], [[Wnt/β-catenin]], [[Akt]]/[[mTOR]], [[PAK1]], [[Apoptosis]], [[Benzimidazole]], [[Tubulin]], [[Warburg Effect]], [[Wolbachia]], [[African Programme for Onchocerciasis Control]]
 - Suggested new entity notes to create: [[Timor]], [[Wolbachia], [Elephantiasis]]
 - Strong connections to strengthen: [[Brugia timori]] ↔ [[Lymphatic Filariasis]], [[Brugia timori]] ↔ [[Ivermectin]]

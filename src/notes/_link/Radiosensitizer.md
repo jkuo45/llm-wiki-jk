@@ -34,11 +34,11 @@ protected: false
 ## Connections
 
 - [[Hypoxia]] — selectivity context for hypoxic cell radiosensitizers.
-- [[Radiation Therapy]] — clinical application.
+- [[Radiotherapy]] — clinical application.
 - [[Nitroimidazole]] / [[Benzimidazole]] — chemical classes of radiosensitizers.
 - [[Fenbendazole]] — tested as radiosensitizer; negative result.
 
 ## Linking Summary
 
-- New links added: [[Hypoxia]], [[Radiation Therapy]], [[Nitroimidazole]], [[Benzimidazole]], [[Fenbendazole]].
+- New links added: [[Hypoxia]], [[Radiotherapy]], [[Nitroimidazole]], [[Benzimidazole]], [[Fenbendazole]].
 - Strong connections to strengthen: [[Radiosensitizer]] ↔ [[Fenbendazole]] (tested and negative).

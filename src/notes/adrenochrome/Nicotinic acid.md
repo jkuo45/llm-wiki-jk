@@ -58,7 +58,7 @@ The acute vasodilatory flush (erythema, warmth, pruritus) is mediated by [[GPR10
 
 ### Adrenochrome Hypothesis
 
-In a mid-20th-century line of thinking, [[Abram Hoffer]] and [[Humphry Osmond]] proposed that niacin could attenuate the formation of [[Adrenochrome]] by shunting epinephrine metabolism away from oxidative pathways. The rationale was that niacin, by enhancing [[NADPH]] availability via the Preiss-Handler pathway, supports reductive detoxification systems (e.g., [[DT-diaphorase]], [[NQO1]]) that reduce adrenochrome back to [[Leuco-adrenochrome]] or its precursors. This hypothesis — part of the broader [[Adrenochrome Hypothesis]] of schizophrenia — has not been validated by rigorous clinical evidence, and contemporary views attribute niacin's effects in psychiatric contexts to NAD+‑dependent neuronal energetics and [[SIRT1]]-mediated transcriptional regulation rather than direct adrenochrome antagonism.
+In a mid-20th-century line of thinking, [[Abram Hoffer]] and [[Humphry Osmond]] proposed that niacin could attenuate the formation of [[Adrenochrome]] by shunting epinephrine metabolism away from oxidative pathways. The rationale was that niacin, by enhancing [[NADPH]] availability via the Preiss-Handler pathway, supports reductive detoxification systems (e.g., [[NQO1|DT-diaphorase]]) that reduce adrenochrome back to [[Leuco-adrenochrome]] or its precursors. This hypothesis — part of the broader [[Adrenochrome Hypothesis]] of schizophrenia — has not been validated by rigorous clinical evidence, and contemporary views attribute niacin's effects in psychiatric contexts to NAD+‑dependent neuronal energetics and [[SIRT1]]-mediated transcriptional regulation rather than direct adrenochrome antagonism.
 
 ## Side Effects
 
@@ -84,6 +84,6 @@ The most common is the niacin flush (up to 80% at initiation), which is benign b
 
 ## Linking Summary
 
-- New links added: [[NAD+]], [[NADH]], [[NADPH]], [[SIRT1]], [[SIRT3]], [[SIRT6]], [[PARP1]], [[NMN]], [[Nicotinamide Riboside]], [[NMNAT]], [[Pellagra]], [[GPR109A]], [[Adrenochrome]], [[Adrenochrome Hypothesis]], [[Vitamin B3]], [[Abram Hoffer]], [[Humphry Osmond]], [[DT-diaphorase]], [[NQO1]], [[Leuco-adrenochrome]], [[Diabetes]], [[Insulin Resistance]], [[SARM1]], [[CD157]], [[Nicotinamide]]
+- New links added: [[NAD+]], [[NADH]], [[NADPH]], [[SIRT1]], [[SIRT3]], [[SIRT6]], [[PARP1]], [[NMN]], [[Nicotinamide Riboside]], [[NMNAT]], [[Pellagra]], [[GPR109A]], [[Adrenochrome]], [[Adrenochrome Hypothesis]], [[Vitamin B3]], [[Abram Hoffer]], [[Humphry Osmond]], [[NQO1|DT-diaphorase]], [[Leuco-adrenochrome]], [[Diabetes]], [[Insulin Resistance]], [[SARM1]], [[CD157]], [[Nicotinamide]]
 - Suggested new entity notes to create: [[Pellagra]], [[GPR109A]], [[Preiss-Handler pathway]], [[Dyslipidemia]], [[HDL]], [[Triglycerides]], [[Niacin flush]]
 - Strong connections to strengthen: [[Nicotinic acid]] ↔ [[NAD+]], [[Nicotinic acid]] ↔ [[Pellagra]], [[Nicotinic acid]] ↔ [[SIRT1]]

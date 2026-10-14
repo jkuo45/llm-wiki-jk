@@ -4,10 +4,10 @@ description: In the field of Geroscience, biomarkers are essential tools for mea
   the physiological state of an organism and predicting its future health outcomes.
   Epigenetics-based biomarkers, particu...
 created: 2024-01-01
-updated: 2024-01-01
+updated: 2026-10-01
 tags:
   - biological-molecule
-aliases: []
+aliases: [Biomarkers of Aging, Biomarker of Aging, Biomarkers of ageing]
 ---
 
 # Biomarkers

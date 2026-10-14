@@ -50,7 +50,7 @@ Because METTL3–METTL14 and other epigenetic modulators can suppress SASP witho
 
 List of documents that mention this entity
 
-  - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression|The role of the dynamic epigenetic landscape in senescence — orchestrating SASP expression]]
+  - [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression|The role of the dynamic epigenetic landscape in senescence — orchestrating SASP expression]]
     - The review identifies the METTL3–METTL14 complex as a driver of senescence-associated enhancer–promoter looping and SASP expression in an enzymatic-activity-independent manner, situating RNA methyltransferases within the 3D-epigenome axis controlling the secretome.
 
   - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]

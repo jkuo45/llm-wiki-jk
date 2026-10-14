@@ -31,7 +31,7 @@ Within the [[Mitohormesis]] framework, catalase expression is upregulated as an 
 - [[Reactive Oxygen Species]]
 - [[Oxidative Stress]]
 - [[Superoxide Dismutase]]
-- [[Antioxidants]]
+- [[Antioxidant]]
 ## Definition
 Catalase is a common enzyme found in nearly all living organisms exposed to oxygen. It catalyzes the decomposition of [[Hydrogen Peroxide]] to water and oxygen.
 ## Function
@@ -69,6 +69,6 @@ List of documents that mention this entity
 - [[Peroxiredoxin]]: Another $H_2O_2$ scavenger with distinct catalytic mechanism.
 
 ## Linking Summary
-- New links added: [[Glutathione Peroxidase]], [[Glutathione]], [[Mitochondria]], [[Cytosol]], [[Ischemia-reperfusion Injury]], [[Diabetes Mellitus]], [[Atherosclerosis]], [[Cancer]], [[Breast Cancer]], [[NF-κB]], [[Caloric Restriction]], [[Aging]], [[Superoxide Dismutase]], [[Peroxiredoxin]], [[Fatty acid oxidation]], [[Fenton Reaction]], [[Respiratory Burst]], [[Hydrogen Peroxide]], [[Reactive Oxygen Species]], [[Oxidative Stress]], [[Antioxidants]]
+- New links added: [[Glutathione Peroxidase]], [[Glutathione]], [[Mitochondria]], [[Cytosol]], [[Ischemia-reperfusion Injury]], [[Diabetes Mellitus]], [[Atherosclerosis]], [[Cancer]], [[Breast Cancer]], [[NF-κB]], [[Caloric Restriction]], [[Aging]], [[Superoxide Dismutase]], [[Peroxiredoxin]], [[Fatty acid oxidation]], [[Fenton Reaction]], [[Respiratory Burst]], [[Hydrogen Peroxide]], [[Reactive Oxygen Species]], [[Oxidative Stress]], [[Antioxidant]]
 - Suggested new entity notes to create: [[Acatalasemia]], [[Peroxisomes]], [[Compound I]], [[MCAT Mouse]], [[Takahara's Disease]], [[Enzyme]], [[Oxidative damage]]
   - Strong connections to strengthen: [[Catalase]] ↔ Oxidative Stress, [[Catalase]] ↔ Hydrogen Peroxide

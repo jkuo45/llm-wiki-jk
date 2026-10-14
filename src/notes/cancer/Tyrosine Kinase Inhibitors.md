@@ -15,7 +15,7 @@ protected: true
 
 ## Mechanism of Action
 
-Most small-molecule TKIs are ATP-competitive: they bind the conserved kinase hinge region, preventing autophosphorylation and downstream activation of pathways such as PI3K/AKT, RAS/MAPK, and STAT. Some (e.g., [[Lapatinib]]) are dual EGFR/HER2 inhibitors; others are multi-targeted (e.g., [[Erlotinib]] and gefitinib inhibit EGFR; sunitinib and sorafenib inhibit VEGFR and related kinases; imatinib targets BCR-ABL). Inhibition of receptor tyrosine kinases such as [[HER2]] (via lapatinib) complements antibody approaches like [[Trastuzumab]].
+Most small-molecule TKIs are ATP-competitive: they bind the conserved kinase hinge region, preventing autophosphorylation and downstream activation of pathways such as PI3K/AKT, RAS/MAPK, and STAT. Some (e.g., [[Lapatinib]]) are dual EGFR/HER2 inhibitors; others are multi-targeted (e.g., [[Erlotinib]] and gefitinib inhibit EGFR; sunitinib and sorafenib inhibit VEGFR and related kinases; imatinib targets BCR-ABL). Inhibition of receptor tyrosine kinases such as [[HER2]] (via lapatinib) complements antibody approaches like [[trastuzumab]].
 
 ## Classes and Representative Agents
 
@@ -50,10 +50,10 @@ List of documents that mention this entity
 - [[SRC kinase]]: Dasatinib inhibits Src-family kinases among others.
 - [[Angiogenesis]]: VEGFR TKIs suppress tumor vasculature.
 - [[Chemotherapy]]: Frequently combined with TKIs.
-- [[Trastuzumab]]: Antibody alternative/complement to HER2 TKIs.
+- [[trastuzumab]]: Antibody alternative/complement to HER2 TKIs.
 
 ## Linking Summary
 
-- New links added: [[Tyrosine Kinase]], [[Lapatinib]], [[Erlotinib]], [[HER2]], [[SRC kinase]], [[Angiogenesis]], [[Chemotherapy]], [[Trastuzumab]], [[VEGFR]], [[Apoptosis]]
+- New links added: [[Tyrosine Kinase]], [[Lapatinib]], [[Erlotinib]], [[HER2]], [[SRC kinase]], [[Angiogenesis]], [[Chemotherapy]], [[trastuzumab]], [[VEGFR]], [[Apoptosis]]
 - Suggested new entity notes to create: [[EGFR]], [[BCR-ABL]], [[MEK Inhibitor]], [[Gatekeeper Mutation]]
 - Strong connections to strengthen: [[Tyrosine Kinase Inhibitors]] ↔ [[HER2]], [[Tyrosine Kinase Inhibitors]] ↔ [[Angiogenesis]]

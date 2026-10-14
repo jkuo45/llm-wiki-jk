@@ -69,7 +69,7 @@ Though most often associated with toxin binding, the uniquely reducing environme
 ### Linking Summary:
 
 - New links added: [[Parkinson's Disease]], [[Neuromelanin]], [[Dopamine]], [[Neurodegenerative Diseases]], [[MPTP]], [[Oxidative Stress]], [[Mitochondrial Dysfunction]], [[Iron]], [[Chemical memory]], [[Substantia Nigra Pars Compacta]], [[Locus Coeruleus]], [[Ventral Tegmental Area]], [[Ascorbic Acid]], [[Dopaminergic Neurons]], [[L-DOPA]], [[Cysteine]], [[Glutathione]], [[Pheomelanin]], [[Eumelanin]], [[6-hydroxydopamine]], [[DNA]], [[Benzothiazine]], [[Dolichol]], [[Manganese]], [[Monoamine oxidase B]], [[Glial cells]], [[MPP+]], [[Apoptosis]], [[Mitochondria]], [[Aging]], [[Quinones]], [[Dopamine o-quinone]], [[Aminochrome]], [[5,6-indolequinone]], [[Alpha-synuclein]], [[Endoplasmic Reticulum Stress]], [[Catecholamines]], [[Substantia Nigra]], [[Epinephrine]], [[Indole]], [[Vesicular Monoamine Transporter 2]], [[Neurotransmission]], [[Tyrosine Hydroxylase]], [[Addiction]], [[Synaptic plasticity]], [[Haloperidol]], [[HPP+]], [[Manganism]].
-- Suggested new entity notes to create: [[Antioxidants]], [[Thiols]], [[Indoleamine]], [[Animal Models]].
+- Suggested new entity notes to create: [[Antioxidant]], [[Thiols]], [[Indoleamine]], [[Animal Models]].
 - Strong connections to strengthen: [[Neuromelanin]] ↔ [[Dopamine]], [[Neuromelanin]] ↔ [[Chemical memory]], [[MPP+]] ↔ [[Monoamine oxidase B]].
 
 ## References

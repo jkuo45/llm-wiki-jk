@@ -12,7 +12,7 @@ aliases: [PGH2, Prostaglandin H₂, Prostaglandin H2, PG-H2]
 
 # Prostaglandin H2
 
-**Prostaglandin H₂ (PGH₂)** is the prostaglandin endoperoxide produced when the peroxidase site of [[Cyclooxygenases|cyclooxygenase]] reduces the C15 hydroperoxide of [[Prostaglandin G₂]] to a hydroxyl group. It is the common precursor from which all terminal prostanoids are made.
+**Prostaglandin H₂ (PGH₂)** is the prostaglandin endoperoxide produced when the peroxidase site of [[Cyclooxygenase|cyclooxygenase]] reduces the C15 hydroperoxide of [[Prostaglandin G₂]] to a hydroxyl group. It is the common precursor from which all terminal prostanoids are made.
 
 ## Formation and Chemistry
 
@@ -58,7 +58,7 @@ List of documents that mention this entity
 
 - [[Arachidonic acid]]: Substrate for the COX reaction producing PGG₂/PGH₂.
 - [[Prostaglandin G₂]]: The 15-hydroperoxide precursor reduced to PGH₂.
-- [[Cyclooxygenases]]: COX-1/COX-2 catalyze both steps of PGG₂ → PGH₂.
+- [[Cyclooxygenase]]: COX-1/COX-2 catalyze both steps of PGG₂ → PGH₂.
 - [[Prostaglandins]]: The family of isomerase products derived from PGH₂.
 - [[Prostacyclin]]: Vasodilator product of PGH₂ in endothelium.
 - [[Thromboxane A₂]]: Vasoconstrictor product of PGH₂ in platelets.
@@ -70,6 +70,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Arachidonic acid]], [[Prostaglandin G₂]], [[Cyclooxygenases]], [[Prostaglandins]], [[Prostacyclin]], [[Thromboxane A₂]], [[Malondialdehyde]], [[Lipid Peroxidation]], [[F2-Isoprostanes]], [[Atherosclerosis]], [[Aspirin]]
+- New links added: [[Arachidonic acid]], [[Prostaglandin G₂]], [[Cyclooxygenase]], [[Prostaglandins]], [[Prostacyclin]], [[Thromboxane A₂]], [[Malondialdehyde]], [[Lipid Peroxidation]], [[F2-Isoprostanes]], [[Atherosclerosis]], [[Aspirin]]
 - Suggested new entity notes to create: [[PGE synthase]], [[Prostacyclin synthase]], [[Thromboxane synthase]]
 - Strong connections to strengthen: [[Prostaglandin H₂]] ↔ [[Prostaglandin G₂]], [[Prostaglandin H₂]] ↔ [[Thromboxane A₂]], [[Prostaglandin H₂]] ↔ [[Malondialdehyde]]

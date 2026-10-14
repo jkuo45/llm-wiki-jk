@@ -48,7 +48,7 @@ Dysregulated GATA4 activity contributes to cardiomyopathy, congenital heart defe
 
 ## Documents
 
-- [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]] — The review names GATA4 among the transcription factors (with NF-κB, C/EBPβ, p38 MAPK, mTOR, JAK-STAT, Notch, and DNA-damage signaling) that regulate SASP expression in senescent cells.
+- [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]] — The review names GATA4 among the transcription factors (with NF-κB, C/EBPβ, p38 MAPK, mTOR, JAK-STAT, Notch, and DNA-damage signaling) that regulate SASP expression in senescent cells.
 - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
   - SIRT5 prevents age-related Cardiac Hypertrophy, while SIRT7 ameliorates stress-induced Cardiac Hypertrophy by interacting with and deacetylating GATA4; SIRT4 seemingly has an adverse effect on Cardiac Hypertrophy.
 

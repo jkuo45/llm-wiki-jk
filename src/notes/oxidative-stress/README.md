@@ -3,7 +3,7 @@ title: Oxidative Stress
 aliases: []
 description: index of entities and documents in this directory
 created: 2026-07-04
-updated: 2026-09-24
+updated: 2026-09-26
 ---
 # Oxidative Stress
 
@@ -87,12 +87,14 @@ updated: 2026-09-24
 | [[Coenzyme Q10]] | chemical-compound | Coenzyme Q10 (CoQ10), also known as ubiquinone, is a naturally occurring coenzyme found in every cell of the human body. It plays a critical role in cellular energy production and acts as a... |
 | [[MitoQ]] | chemical-compound | MitoQ (Mitoquinone mesylate) is a mitochondria-targeted antioxidant composed of a ubiquinone (Coenzyme Q10) moiety covalently linked to a triphenylphosphonium cation, enabling selective accumulation in the mitochondrial matrix. |
 | [[Ferritin]] | protein | Ferritin is a conserved multimeric iron storage protein that sequesters intracellular iron in a bioavailable, non-toxic form, limiting Fenton Reaction chemistry and protecting against Ferroptosis. |
+| [[HFE]] | gene | HFE is an iron-regulatory protein whose common variants (C282Y, H63D) cause hereditary hemochromatosis by raising the labile iron pool, lowering the Ferroptosis threshold and shifting lipid peroxidation at every downstream protocol. |
 | [[Glutathione S-transferase π1]] | enzyme | Phase II detoxification enzyme (GSTP1) whose SIRT3-mediated downregulation enhances sorafenib sensitivity in HCC. |
 | [[Methionine sulfoxide reductases]] | enzyme | Enzymes that reduce oxidized methionine back to methionine using the thioredoxin system, acting as reversible oxidant sinks. |
 | [[UDP-glucuronosyltransferases]] | enzyme | Phase II conjugation enzymes that glucuronidate polyphenols like fisetin, limiting their oral bioavailability. |
 | [[A20]] | protein | A20 (TNF alpha-induced protein 3, TNFAIP3) is a dual-function ubiquitin-editing enzyme that functions as a master negative regulator of NF-kappa B signaling and Inflammation. |
 | [[Genistein]] | oxidative-stress | Genistein is an isoflavone that is described as an angiogenesis inhibitor and a phytoestrogen. It belongs to the class of Flavonoids and exhibits significant antioxidant activity, contributing to t... |
 | [[Queen Palm]] | plant | Syagrus romanzoffiana (jerivá) ornamental palm whose fruit pulp and kernel supply carotenoids, polyphenols, tocopherols and medium-chain lipids — a studied dietary source of lipophilic defense against lipid peroxidation. |
+| [[Red Palm Oil]] | food | Crude/minimally refined oil from Elaeis guineensis mesocarp that co-delivers provitamin-A carotenoids, tocotrienol-rich vitamin E, CoQ10, and squalene on an oleic/palmitic lipid vehicle — the Tier-1 dietary source of lipophilic membrane antioxidants. |
 | [[Cyanidin-3-glucoside]] | chemical | Anthocyanin abundant in elderberries; a natural SIRT6 activator with antioxidant activity and immunomodulatory potential. |
 | [[flavanone]] | chemical | Flavonoid subclass with saturated C-ring lacking catechol motifs; includes hesperidin and naringenin. |
 | [[Indoles]] | chemical | Heterocyclic chemical class whose indoline-5,6-dione scaffold underlies adrenochrome and related catecholamine pigments. |

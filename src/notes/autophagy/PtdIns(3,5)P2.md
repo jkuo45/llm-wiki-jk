@@ -25,7 +25,7 @@ PtdIns(3,5)P2 acts as a membrane identity mark that recruits effector proteins a
 
 ## Physiological & Pathological Relevance
 
-Because PtdIns(3,5)P2 is indispensable for lysosomal morphology and reformation, its dysregulation underlies human disease: FIG4 mutations cause Charcot-Marie-Tooth type 4J and Yunis-Varon syndrome, and PIKfyve dysfunction produces fleck cornea with pigmented maculopathy—both manifesting as [[Lysosomal Storage Disorders]]. Defective PtdIns(3,5)P2 signaling collapses autophagic clearance, contributing to [[Neurodegeneration]] and proteostatic failure in [[Aging]]. Pharmacologically, PIKfyve inhibitors such as apilimod raise PtdIns(3)P while depleting PtdIns(3,5)P2, disrupting lysosomal reformation and exhausting lysosomes in [[Cancer]] cells to amplify therapy-induced stress. Thus PtdIns(3,5)P2 is both a disease locus and a therapeutic interface bridging lipid signaling to the autophagy-lysosome network.
+Because PtdIns(3,5)P2 is indispensable for lysosomal morphology and reformation, its dysregulation underlies human disease: FIG4 mutations cause Charcot-Marie-Tooth type 4J and Yunis-Varon syndrome, and PIKfyve dysfunction produces fleck cornea with pigmented maculopathy—both manifesting as [[Lysosomal Storage Diseases]]. Defective PtdIns(3,5)P2 signaling collapses autophagic clearance, contributing to [[Neurodegeneration]] and proteostatic failure in [[Aging]]. Pharmacologically, PIKfyve inhibitors such as apilimod raise PtdIns(3)P while depleting PtdIns(3,5)P2, disrupting lysosomal reformation and exhausting lysosomes in [[Cancer]] cells to amplify therapy-induced stress. Thus PtdIns(3,5)P2 is both a disease locus and a therapeutic interface bridging lipid signaling to the autophagy-lysosome network.
 
 ## Documents
 
@@ -44,9 +44,9 @@ List of documents that mention this entity
 - [[Autophagic Lysosome Reformation]]: Reformation process requiring PtdIns(3,5)P2-TRPML1 signaling.
 - [[Phagocytic Lysosome Reformation]]: Related reformation pathway dependent on this lipid.
 - [[Autophagic Flux]]: Supported by PtdIns(3,5)P2-mediated fusion and reformation.
-- [[Lysosomal Storage Disorders]]: Diseases arising from PtdIns(3,5)P2 pathway defects (FIG4, PIKfyve).
+- [[Lysosomal Storage Diseases]]: Diseases arising from PtdIns(3,5)P2 pathway defects (FIG4, PIKfyve).
 
 ## Linking Summary
-- New links added: [[PIKfyve]], [[PtdIns3P]], [[TRPML1]], [[Lysosome]], [[Autophagic Lysosome Reformation]], [[Phagocytic Lysosome Reformation]], [[Autophagic Flux]], [[Lysosomal Storage Disorders]], [[Neurodegeneration], [Aging], [Cancer]]
+- New links added: [[PIKfyve]], [[PtdIns3P]], [[TRPML1]], [[Lysosome]], [[Autophagic Lysosome Reformation]], [[Phagocytic Lysosome Reformation]], [[Autophagic Flux]], [[Lysosomal Storage Diseases]], [[Neurodegeneration], [Aging], [Cancer]]
 - Suggested new entity notes to create: [[FIG4]], [[MTMR]], [[Apilimod]]
 - Strong connections to strengthen: [[PtdIns(3,5)P2]] ↔ [[PIKfyve]], [[PtdIns(3,5)P2]] ↔ [[TRPML1]]

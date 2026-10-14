@@ -54,7 +54,7 @@ Formate is exported to the cytoplasm where it re-enters the cytosolic folate cyc
 ## Role in Aging and Healthspan
 
 - One-carbon metabolism influences lifespan through methylation status, homocysteine balance, and NADPH/redox homeostasis.
-- Dietary serine/glycine restriction can extend lifespan in animal models, partly by modulating one-carbon flux and [[IGF-1]] signaling.
+- Dietary serine/glycine restriction can extend lifespan in animal models, partly by modulating one-carbon flux and [[IGF1]] signaling.
 - Disruption of one-carbon metabolism is linked to neural tube defects (folate deficiency), cognitive decline, and cardiovascular disease.
 
 ## Connections

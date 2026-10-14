@@ -5,7 +5,7 @@ created: 2026-07-06
 updated: 2026-07-07
 tags:
   - protein
-aliases: []
+aliases: [Trastuzumab]
 protected: true
 ---
 
@@ -51,4 +51,4 @@ List of documents that mention this entity
 
 - New links added: [[HER2]], [[Breast Cancer]], [[Gastric Cancer]], [[melittin]], [[Antibody]], [[Chemotherapy]], [[SRC kinase]], [[ADCC]], [[Pertuzumab]]
 - Suggested new entity notes to create: [[T-DM1]], [[HER2-positive Breast Cancer]], [[Antibody-Dependent Cellular Cytotoxicity]]
-- Strong connections to strengthen: [[Trastuzumab]] ↔ [[HER2]], [[Trastuzumab]] ↔ [[melittin]]
+- Strong connections to strengthen: [[trastuzumab]] ↔ [[HER2]], [[trastuzumab]] ↔ [[melittin]]

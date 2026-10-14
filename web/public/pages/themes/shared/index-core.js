@@ -32,17 +32,26 @@ window.IndexCore = (function () {
     return Array.isArray(v) ? v.join(" ") : String(v == null ? "" : v);
   }
 
+  /* Registry dates are date-only (`YYYY-MM-DD`), and `new Date("2026-10-04")`
+     is UTC midnight — the previous LOCAL day in every negative-offset timezone,
+     so a note written today rendered "1d ago" after 17:00 PDT. Parse as local
+     midnight and diff whole local calendar days; the frontmatter carries no
+     time of day, so calendar days are the finest granularity available. */
+  function dayOf(iso) {
+    var m = /^(\d{4})-(\d{2})-(\d{2})/.exec(String(iso));
+    var d = m ? new Date(+m[1], +m[2] - 1, +m[3]) : new Date(iso);
+    if (isNaN(d)) return null;
+    return new Date(d.getFullYear(), d.getMonth(), d.getDate());
+  }
   function ageDays(iso) {
-    if (!iso) return NaN;
-    return (Date.now() - new Date(iso).getTime()) / 864e5;
+    var d = iso ? dayOf(iso) : null;
+    return d ? (Date.now() - d.getTime()) / 864e5 : NaN;
   }
   function relAge(iso) {
-    if (!iso) return "";
-    var t = Date.parse(iso);
-    if (Number.isNaN(t)) return "date unknown";
-    var ms = Date.now() - t;
-    if (ms < 864e5) return "today";
-    var days = Math.floor(ms / 864e5);
+    var days = ageDays(iso);
+    if (isNaN(days)) return iso ? "date unknown" : "";
+    days = Math.max(0, Math.floor(days));
+    if (days === 0) return "today";
     if (days < 7) return days + "d";
     if (days < 30) return Math.floor(days / 7) + "w";
     if (days < 365) return Math.floor(days / 30) + "mo";
@@ -143,16 +152,17 @@ window.IndexCore = (function () {
   }
 
   /* Trello-style stat chips for index cards: raw word count plus
-     icon+count badges for images, links, and mermaid diagrams. Zero or
+     icon+count badges for images, links, and diagrams (mermaid fences;
+     articles also count inline svg figures). Zero or
      missing counts are skipped; returns '' when there is nothing to show.
      SVGs inherit currentColor via CSS (.stat svg in index.css). */
   function statChips(stats) {
     if (!stats) return "";
     var ICONS = [
       ["words", "Words / 字數", '<path d="M6 4h12v16H6z"/><path d="M9 8h6M9 12h6M9 16h4"/>'],
-      ["images", "Images / 圖片", '<path d="M4 6h16v12H4z"/><circle cx="9" cy="11" r="1.4"/><path d="M20 15l-4.5-4.5L12 14l-2-2-6 6"/>'],
       ["links", "Links / 連結", '<path d="M10.5 13.5a4 4 0 0 0 5.7 0l2.8-2.8a4 4 0 1 0-5.7-5.7l-1.4 1.4"/><path d="M13.5 10.5a4 4 0 0 0-5.7 0L5 13.3a4 4 0 1 0 5.7 5.7l1.4-1.4"/>'],
-      ["diagrams", "Mermaid diagrams / 圖表", '<rect x="3.5" y="4" width="6" height="5" rx="1"/><rect x="14.5" y="15" width="6" height="5" rx="1"/><path d="M6.5 9v5.5a2 2 0 0 0 2 2H14"/>'],
+      ["images", "Images / 圖片", '<path d="M4 6h16v12H4z"/><circle cx="9" cy="11" r="1.4"/><path d="M20 15l-4.5-4.5L12 14l-2-2-6 6"/>'],
+      ["diagrams", "Diagrams / 圖表", '<rect x="3.5" y="4" width="6" height="5" rx="1"/><rect x="14.5" y="15" width="6" height="5" rx="1"/><path d="M6.5 9v5.5a2 2 0 0 0 2 2H14"/>'],
     ];
     var out = "";
     ICONS.forEach(function (spec) {
@@ -162,6 +172,51 @@ window.IndexCore = (function () {
         spec[2] + "</svg>" + (spec[0] === "words" ? n.toLocaleString("en-US") : String(n)) + "</span>";
     });
     return out ? '<span class="stat-chips">' + out + "</span>" : "";
+  }
+
+  /* Tag pills for expanded index cards: en-first union deduped (en/zh
+     tag sets are near-identical), boilerplate 'task-output' dropped, first
+     5 shown, rest collapsed into a +N marker. Each pill is a button that
+     wireTagPills toggles as the search filter; `active` (current query)
+     paints the pressed state. Empty when nothing survives. */
+  function tagPills(tags, active) {
+    if (!Array.isArray(tags) || !tags.length) return "";
+    var seen = {}, shown = [], total = 0;
+    tags.forEach(function (raw) {
+      var t = asStr(raw).trim();
+      if (!t || t.toLowerCase() === "task-output") return;
+      var key = t.toLowerCase();
+      if (seen[key]) return;
+      seen[key] = 1;
+      total++;
+      if (shown.length < 5) shown.push(t);
+    });
+    if (!total) return "";
+    var html = shown.map(function (t) {
+      var on = active === t;
+      return '<button type="button" class="tag-pill' + (on ? " on" : "") + '" data-tag="' + esc(t) +
+        '" title="' + (on ? "Clear filter / 清除篩選" : "Filter by " + esc(t) + " / 篩選") + '">' +
+        esc(t) + "</button>";
+    }).join("");
+    if (total > shown.length) {
+      html += '<span class="tag-pill more">+' + (total - shown.length) + "</span>";
+    }
+    return '<span class="tag-row">' + html + "</span>";
+  }
+
+  /* Delegated click: a pill sets the search query and re-renders; clicking
+     the same pill again clears it (mirrors the clear button — focus the box
+     either way so typing can refine). One listener per list; pills live in
+     the same container the page already delegates other clicks from. */
+  function wireTagPills(list, searchBox, render) {
+    list.addEventListener("click", function (e) {
+      var btn = e.target.closest ? e.target.closest("button[data-tag]") : null;
+      if (!btn || !list.contains(btn)) return;
+      var tag = btn.getAttribute("data-tag") || "";
+      searchBox.value = searchBox.value.trim() === tag ? "" : tag;
+      render();
+      searchBox.focus();
+    });
   }
 
   function restoreQuery(box, key) {
@@ -205,6 +260,8 @@ window.IndexCore = (function () {
     wireSort: wireSort,
     wireDescLang: wireDescLang,
     statChips: statChips,
+    tagPills: tagPills,
+    wireTagPills: wireTagPills,
     restoreQuery: restoreQuery,
     persistQuery: persistQuery,
     wireSearch: wireSearch,

@@ -2,7 +2,7 @@
 title: Tocotrienols
 description: Tocotrienols are the four unsaturated forms of vitamin E (alpha, beta, gamma, delta) carrying an isoprenoid tail with three double bonds; chain-breaking antioxidants with distinct anti-inflammatory, anticancer, and hypocholesterolemic properties.
 created: 2026-09-24
-updated: 2026-09-24
+updated: 2026-09-26
 tags:
   - chemical-class
   - antioxidant
@@ -52,12 +52,32 @@ Because [[Alpha-tocopherol]] is preferentially retained by α-tocopherol transfe
 > [!info] Vitamin E activity units undervalue tocotrienols
 > Historical IU values assign tocotrienols only 30% of α-tocopherol activity, which reflects reproductive-endpoint assays in rats, not antioxidant capacity or the non-antioxidant effects above. Functional assays routinely place γ- and δ-tocotrienol above α-tocopherol for lipid-lowering and antiproliferative endpoints.
 
+## Ferroptosis Suppression: Potency Versus Tocopherols
+
+Tocotrienols are not merely equivalent to tocopherols against ferroptosis — head-to-head they are an order of magnitude more potent. Yang, Ito et al. (*Sci Rep* 2026;16:4497, doi:10.1038/s41598-025-34673-1; PMID 41501350) compared all nine tocochromanol analogs against four ferroptosis induction models — RSL3 (GPX4 inhibitor), erastin (system xᶜ⁻ inhibitor), BSO (GSH synthesis block), and genetic *Gpx4* deletion — in human HT-1080 cells and murine Pfa1 fibroblasts:
+
+| Model | α-/β-/γ-/δ-tocotrienol EC₅₀ | α-/β-/γ-/δ-tocopherol EC₅₀ | Trolox |
+| --- | --- | --- | --- |
+| *Gpx4* deletion (Pfa1) | **0.12 / 0.12 / 0.13 / 0.36 μM** | 2.0 / 2.1 / 2.3 / 1.0 μM | 29 μM |
+| RSL3 (HT-1080) | complete protection **<1 μM** | required **>10 μM** | — |
+
+The same ranking held in cell-free liposomal autoxidation (FENIX assay) and in cellular BODIPY 581/591 oxidation, so the advantage tracks radical-trapping efficiency in bilayers rather than a signaling effect. The proposed basis is membrane integration: the unsaturated farnesyl tail lets tocotrienols intercalate deeper and over a wider lateral radius than the phytyl-tailed tocopherols — with the caveat that cellular uptake differs (δ-tocotrienol is taken up ~8× more efficiently than α yet is *not* the most potent inhibitor, so intracellular localization and recycling also matter). Cytotoxicity was comparable to or lower than ferrostatin-1 and deferoxamine.
+
+> [!warning] Translational caveat
+> This is an in-vitro potency ranking. In vivo, α-tocopherol is actively transported by α-TTP and also scavenged through a glycosaminoglycan-driven lipoprotein uptake pathway, whereas tocotrienols have lower α-TTP affinity and lower systemic bioavailability — so superior per-molecule potency does not automatically translate into superior tissue protection, and no human ferroptosis endpoint has been tested.
+
+> [!info] Human comparison
+> Jakaria et al. 2023 (PMID 37236031) found retinol and all-*trans* retinal inhibit ferroptosis *more* potently than α-tocopherol (EC₅₀ 0.4–4.8 μM and 0.7–1.1 μM vs 7.4–36.1 μM), placing [[Vitamin A]] metabolites above even tocopherols in the dietary radical-trapping tier.
+
 ## Documents
 
 List of documents that mention this entity
 
   - [[task_output_queen_palm_biochemical_nutrients_23_Sep_2026|Queen Palm Biochemical Nutrients Profile]]
     - Dietary food-source angle on lipophilic defenders, placing crude palm-type tocotrienol suites in a high-potency tier alongside carotenoids against lipid peroxidation.
+
+  - [[task_output_anti_ferroptosis_intake_schedule_26_Sep_2026|Anti-Ferroptosis Intake Schedule]]
+    - Yang et al. 2026 EC₅₀ table folded into the tocotrienol entity note; red palm oil (≈70% tocotrienol vitamin E) positioned as the Tier-1 dietary delivery vehicle.
 
 ## Connections
 
@@ -73,6 +93,10 @@ List of documents that mention this entity
 - [[Lipoxygenase]]: 12/15-LOX-driven peroxidation is a tocotrienol-sensitive injury route.
 - [[Cellular Senescence]] / [[SASP]]: Tocotrienols reduce senescence burden in vascular models.
 - [[Antioxidant Supplementation Paradox]]: Tocotrienol selectivity illustrates why total "vitamin E" dosing is a blunt instrument.
+- [[Red Palm Oil]]: ~70% of its vitamin E is tocotrienols (α-T3 29%, γ-T3 41%, δ-T3 10%) — the richest common dietary delivery vehicle for the most potent anti-ferroptotic vitamer class.
+- [[Vitamin A]]: Retinol and atRAL out-trap α-tocopherol in erastin/RSL3 models, so the two fat-soluble vitamins sit at adjacent rungs of the same dietary defense tier.
+- [[Carotenoids]]: Xanthophylls and carotenes occupy the same bilayer, quenching ¹O₂ where tocotrienols terminate LOO• chains.
+- [[C11-BODIPY]]: The cellular lipid-oxidation probe that confirmed the tocotrienol potency gap alongside cell-free liposomal autoxidation — DPPH-based antioxidant capacity does *not* predict ferroptosis rescue.
 
 ## Linking Summary
 

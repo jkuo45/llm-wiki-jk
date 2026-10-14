@@ -48,7 +48,7 @@ Beyond writers and readers, H3K27ac at SASP loci is gated by substrate availabil
 
 ## Documents
 
-- [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]] — H3K27ac is the active-enhancer mark remodeled at TAD scale in senescence; AP-1 opens enhancers, BRD4/CEBPα bind H3K27ac at SA-SEs to drive SASP.
+- [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]] — H3K27ac is the active-enhancer mark remodeled at TAD scale in senescence; AP-1 opens enhancers, BRD4/CEBPα bind H3K27ac at SA-SEs to drive SASP.
 - [[_document_ - Mitochondrial metabolism and epigenetic crosstalk drive SASP|Mitochondrial metabolism and epigenetic crosstalk drive SASP]] — Demonstrates that H3K27ac at SASP loci depends on mitochondrial citrate-derived acetyl-CoA (MPC/SLC25A1/ACLY); SLC25A1 inhibition removes H3K27ac and suppresses SASP.
 
 ## Connections

@@ -23,7 +23,7 @@ Senescent cells acquire a complex anti-apoptotic network that protects them from
 - **BCL-2 family:** [[Bcl-2]], [[Bcl-xL]], and [[Bcl-w]] are upregulated in many senescent cell types, blocking [[Bax]]/[[Bak]]-mediated mitochondrial outer membrane permeabilization.
 - **PI3K/Akt pathway:** [[Akt]] activation suppresses pro-apoptotic [[Bad]] and [[CASP9]].
 - **p53/p21 axis:** Paradoxically, p21 activation inhibits [[CASP3]] activation downstream of mitochondrial signals.
-- **HSP90/FOXO:** [[Hsp90]] chaperones stabilize pro-survival FOXO transcription factors.
+- **HSP90/FOXO:** [[HSP90β]] chaperones stabilize pro-survival FOXO transcription factors.
 
 Senolytics target these survival circuits. For example, [[Navitoclax]] (ABT-263) inhibits BCL-2/BCL-XL/BCL-W, and [[Dasatinib]] inhibits SFK-dependent anti-apoptotic pathways.
 
@@ -76,7 +76,7 @@ List of documents that mention this entity
 - [[Bad]]: - **PI3K/Akt pathway:** [[Akt]] activation suppresses pro-apoptotic Bad and [[CASP9]].
 - [[CASP9]]: - **PI3K/Akt pathway:** [[Akt]] activation suppresses pro-apoptotic [[Bad]] and CASP9.
 - [[CASP3]]: - **p53/p21 axis:** Paradoxically, p21 activation inhibits CASP3 activation downstream of mitochondrial signals.
-- [[Hsp90]]: - **HSP90/FOXO:** Hsp90 chaperones stabilize pro-survival FOXO transcription factors.
+- [[HSP90β]]: - **HSP90/FOXO:** Hsp90 chaperones stabilize pro-survival FOXO transcription factors.
 - [[Navitoclax]]: For example, Navitoclax (ABT-263) inhibits BCL-2/BCL-XL/BCL-W, and [[Dasatinib]] inhibits SFK-dependent anti-apoptoti...
 - [[Dasatinib]]: For example, [[Navitoclax]] (ABT-263) inhibits BCL-2/BCL-XL/BCL-W, and Dasatinib inhibits SFK-dependent anti-apoptoti...
 - [[Quercetin]]: | Agent | Target | Senescent Cell Types Cleared | Status | |---|---|---|---| | [[Dasatinib]] + Quercetin (D+Q) | SFKs...

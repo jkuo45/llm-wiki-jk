@@ -66,7 +66,7 @@ eNOS activity is exquisitely controlled through:
 
 ### Protein-Protein Interactions
 - **[[Caveolin-1]]**: Binds eNOS in [[Caveolae]], maintaining it in an inactive state; calcium-calmodulin displaces caveolin
-- **[[Hsp90]]**: Facilitates [[Akt]]-mediated eNOS activation
+- **[[HSP90β]]**: Facilitates [[Akt]]-mediated eNOS activation
 - **[[Dynamin-2]]**: Promotes eNOS internalization in endothelial cells
 
 ### Subcellular Localization

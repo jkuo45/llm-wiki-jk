@@ -19,48 +19,87 @@ import { registerModal, openModal, closeModal, isModalOpen } from './modal.js';
 // lang-level title/path override group defaults; `active` is group-level.
 // Only entries with `active: true` are listed/opened by the reader —
 // set `active: false` while an entry is being edited so it stays hidden.
-// Task outputs (tasks.json) are namespaced by file membership (data.js loads
-// them as TASKS) and stamped kind: "task" by flattenRegistry below, so they
-// never collide with article groups in the hash route. Bare snake_case ids
-// (no "task:" prefix). Legacy "task:<stem>" deep links still resolve via
-// normalizeTaskId in getArticle. Entity notes are published to the website
+// Every row's `id` is namespaced by kind as `<kind>/<id>` (article/eryptosis,
+// wiki/Eryptosis, task/task_output_…). The three registries are merged into
+// one flat list that the hash route addresses, and article ids are lowercase
+// slugs while wiki ids are note-filename stems — so the same entity exists
+// twice under ids differing only in case (apoptosis / Apoptosis,
+// lipid-peroxidation / Lipid Peroxidation). A `/` prefix removes that
+// ambiguity permanently, is legal unencoded in a URL fragment, and appears in
+// no registry id (unlike `.` and `-`, which occur inside them).
+// Pre-namespaced deep links (`article:foo`, `task:foo`) and bare ids both
+// still resolve — see getArticle's fallback ladder — so URLs shared before
+// this change keep opening. Entity notes are published to the website
 // as a capped wiki registry (wiki.json — the top `--wiki-limit` notes by a
-// recency + graph-centrality score, emitted by readme-counts).
+// recency + graph-centrality score, plus every note that has a zh-TW
+// translation, emitted by readme-counts).
 // The source tabs (#reader-source) switch the dropdown between the three
 // registries; task and wiki options are grouped by recency of their
 // `updated` date (this week / this month / older).
 // ------------------------------------------------------------
 
+// `<kind>/<bare>` — the hash-route id. `bare` keeps the per-language suffix
+// (`-zh`) so #reader=wiki/Eryptosis-zh still resolves to the zh edition.
+const namespacedId = (kind, bare) => `${kind}/${bare}`;
+
+// Index entry for a source mode — the reader's default landing entry (opened
+// by tab clicks, the modal title, and whenever no specific article applies).
+// Fixed here in code rather than flagged in the registry JSON.
+const indexBareIdForMode = (mode) =>
+  mode === 'tasks' ? 'tasks-index'
+    : mode === 'wiki' ? 'wiki-index'
+      : 'articles-index';
+
+const indexIdForMode = (mode) =>
+  namespacedId(mode === 'tasks' ? 'task' : mode === 'wiki' ? 'wiki' : 'article',
+    indexBareIdForMode(mode));
+
 const flattenRegistry = (rows, kind) => rows.flatMap((a) => {
   const langs = Object.entries(a.langs || {});
-  return langs.map(([lang, l]) => ({
-    ...a, ...l, // lang-level title/path/dates override group defaults
-    id: lang === 'en-US' ? a.id : `${a.id}-${lang.split('-')[0].toLowerCase()}`,
-    group: a.id,
-    lang,
-  }));
-}).map((row) => ({ ...row, kind }))
-  .filter((a) => a.active !== false);
+  return langs.map(([lang, l]) => {
+    const bare = lang === 'en-US' ? a.id : `${a.id}-${lang.split('-')[0].toLowerCase()}`;
+    return {
+      ...a, ...l, // lang-level title/path/dates override group defaults
+      bare,
+      id: namespacedId(kind, bare),
+      group: a.id,
+      kind,
+      lang,
+    };
+  });
+}).filter((a) => a.active !== false);
 
 const ACTIVE_ARTICLES = flattenRegistry(ARTICLES, 'article');
 const ACTIVE_TASKS = flattenRegistry(TASKS, 'task');
 const ACTIVE_WIKI = flattenRegistry(WIKI, 'wiki');
 const ALL_ROWS = [...ACTIVE_ARTICLES, ...ACTIVE_TASKS, ...ACTIVE_WIKI];
 
-const normalizeTaskId = (id) =>
+// Legacy `task:<stem>` deep links (pre-namespace) resolve to the task stem.
+const stripLegacyPrefix = (id) =>
   typeof id === 'string' ? id.replace(/^task:/, '') : id;
 
-const getArticle = (id) => ALL_ROWS.find((a) => a.id === id)
-  || ALL_ROWS.find((a) => a.id === normalizeTaskId(id))
-  || ALL_ROWS.find((a) => a.group === normalizeTaskId(id)) || null;
+// decodeURIComponent throws on a malformed sequence; never let a bad hash or
+// a stray % in a path take down the reader.
+const safeDecode = (s) => {
+  try { return decodeURIComponent(s); } catch (e) { return s; }
+};
 
-// Index entry for a source mode — the reader's default landing entry (opened
-// by tab clicks, the modal title, and whenever no specific article applies).
-// Fixed here in code rather than flagged in the registry JSON.
-const indexIdForMode = (mode) =>
-  mode === 'tasks' ? 'tasks-index'
-    : mode === 'wiki' ? 'wiki-index'
-      : 'articles-index';
+// Fallback ladder, most-specific first:
+//   1. exact namespaced id           → `wiki/Eryptosis`
+//   2. exact bare id                 → a pre-namespace `Eryptosis` link;
+//      case-sensitive, so the old `eryptosis` vs `Eryptosis` distinction
+//      keeps pointing where it does today (article vs note)
+//   3. legacy `task:` stem, exact
+//   4. bare group id                 → language-agnostic landing on the
+//      en-US edition, whichever registry owns it
+const getArticle = (id) => {
+  if (typeof id !== 'string') return null;
+  if (id.includes('/')) return ALL_ROWS.find((a) => a.id === id) || null;
+  const bare = stripLegacyPrefix(id);
+  return ALL_ROWS.find((a) => a.bare === id)
+    || ALL_ROWS.find((a) => a.bare === bare)
+    || ALL_ROWS.find((a) => a.group === bare) || null;
+};
 
 const getDefaultArticle = () =>
   getArticle(indexIdForMode('articles')) || ACTIVE_ARTICLES[0] || ACTIVE_TASKS[0];
@@ -203,33 +242,63 @@ function loadArticle(article, section) {
     : /^tour=[A-Za-z0-9_]+(&step=\d+)?$/.test(section) ? '#' + section
     : '#' + encodeURIComponent(section);
   let url;
+  // "Open in new tab" target. For markdown-backed rows prefer the pretty
+  // extension-less path (/wiki/en-US/cell-death/Eryptosis), which the
+  // public/_redirects rule rewrites to the same md-viewer shell — that is the
+  // URL worth bookmarking or sharing, and md-viewer points rel=canonical at
+  // it. The iframe keeps the ?src= form (stable even if the redirect is not
+  // deployed yet); index pages are plain HTML and load directly.
+  let shareUrl = null;
   if ((article.kind === 'task' || article.kind === 'wiki') && article.path.endsWith('.md')) {
-    // Task outputs and wiki notes are raw markdown rendered by the shared
-    // md-viewer shell; index pages are plain HTML and load directly.
+    // Root-absolute src: md-viewer fetches it with fetch(), which resolves
+    // relative URLs against the *document* — and that document is also served
+    // at pretty note paths, where "../wiki/…" would land under them.
     url = 'pages/md-viewer.html?kind=' + article.kind + '&src=' +
-      encodeURIComponent('../' + article.path) + anchor;
+      encodeURIComponent('/' + article.path) + anchor;
+    // Pretty target for "open in new tab": /note/… for wiki notes, /output/…
+    // for task outputs (public/_redirects proxies both to the md-viewer
+    // shell). Registry `path` is already percent-encoded (%20, not a literal
+    // space), which matches md-viewer's rel=canonical.
+    shareUrl = '/' + article.path
+      .replace(/^wiki\//, 'note/')
+      .replace(/^tasks\//, 'output/')
+      .replace(/\.md$/, '') + anchor;
   } else {
     url = article.path + anchor;
   }
   frame.src = url;
-  openLink.href = url;
+  openLink.href = shareUrl || url;
+}
+
+// Age in whole local calendar days. Registry dates are date-only
+// (`YYYY-MM-DD`), and `new Date("2026-10-04")` is UTC midnight — the previous
+// LOCAL day in every negative-offset timezone, so a note written today read as
+// "1d" after 17:00 PDT. Port of ageDays in pages/themes/shared/index-core.js
+// (the two bundles can't share a module); frontmatter has no time of day, so
+// calendar days are the finest granularity available.
+function ageDays(updated) {
+  const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(String(updated || ''));
+  const d = m ? new Date(+m[1], +m[2] - 1, +m[3]) : new Date(updated);
+  if (!updated || Number.isNaN(d.getTime())) return NaN;
+  return (Date.now() - new Date(d.getFullYear(), d.getMonth(), d.getDate()).getTime()) / 864e5;
 }
 
 // Relative age label for the freshness highlight ("today", "2d", "5mo").
 function relativeAge(updated) {
-  const ms = Date.now() - new Date(updated).getTime();
-  if (ms < 864e5) return 'today';
-  const days = Math.floor(ms / 864e5);
-  if (days < 7) return `${days}d`;
-  if (days < 30) return `${Math.floor(days / 7)}w`;
-  if (days < 365) return `${Math.floor(days / 30)}mo`;
-  return `${(days / 365).toFixed(1)}y`;
+  const days = ageDays(updated);
+  if (Number.isNaN(days)) return '';
+  const n = Math.max(0, Math.floor(days));
+  if (n === 0) return 'today';
+  if (n < 7) return `${n}d`;
+  if (n < 30) return `${Math.floor(n / 7)}w`;
+  if (n < 365) return `${Math.floor(n / 30)}mo`;
+  return `${(n / 365).toFixed(1)}y`;
 }
 
 // Freshness bucket from an ISO `updated` date: 0 ≤7d, 1 ≤30d, 2 older.
 function recencyBucket(updated) {
-  if (!updated) return 2;
-  const days = (Date.now() - new Date(updated).getTime()) / 864e5;
+  const days = ageDays(updated);
+  if (Number.isNaN(days)) return 2;
   if (days <= 7) return 0;
   if (days <= 30) return 1;
   return 2;
@@ -285,7 +354,7 @@ function buildOptions() {
   // Nothing opened yet → preselect the source's index entry so the Reader
   // button opens the index by default (openReader re-selects afterwards).
   if (!state.readerId) {
-    const idx = rows.find((r) => r.group === indexIdForMode(sourceMode));
+    const idx = rows.find((r) => r.group === indexBareIdForMode(sourceMode));
     if (idx) select.value = idx.group;
   }
 }
@@ -502,7 +571,45 @@ frame.addEventListener('load', () => {
 // tasks-index.html onto articles-index's index.html).
 function matchFrameArticle() {
   try {
-    const path = frame.contentWindow.location.pathname;
+    const loc = frame.contentWindow.location;
+    const path = loc.pathname;
+    // Wiki notes and task outputs render through pages/md-viewer.html?src=<path>
+    // OR through a pretty note URL (/note/…, /output/… — same shell via
+    // _redirects; md-viewer's Next button keeps the current form, so an iframe
+    // showing a pretty page stays pretty). Neither pathname carries identity on
+    // its own: match the `src` query param first, else derive the registry path
+    // from the pretty pathname. `src` is root-absolute ("/wiki/…"), but older
+    // links produce the bare form, and the reader used to write "../wiki/…" —
+    // accept all three. Without the first branch, md-viewer's Next button
+    // navigated the iframe to a different note while the address bar kept
+    // naming the old one, so a saved/shared URL reopened the wrong note.
+    // (`/pages/md-viewer.html` keeps its extension under
+    // `"html_handling": "none"`, but tolerate the stripped form too — a stale
+    // deploy or a different handling mode serves it extension-less, and the
+    // note identity is in `?src=` either way.)
+    const mdPath = path.replace(/\.html$/, '');
+    if (mdPath.endsWith('/md-viewer')) {
+      const src = new URLSearchParams(loc.search).get('src') || '';
+      const want = src.replace(/^(?:\.\.\/|\/)/, '');
+      if (!want) return null;
+      // Registry paths are percent-encoded by readme-counts (spaces → %20) and
+      // the iframe URL encodes them once more, so compare both raw and decoded
+      // rather than assuming one form.
+      const wantDecoded = safeDecode(want);
+      return ALL_ROWS.find((a) => a.path === want
+        || safeDecode(a.path) === wantDecoded) || null;
+    }
+    {
+      // Pretty note path → asset path: /note/x → wiki/x.md, /output/x → tasks/x.md.
+      const pm = path.match(/^\/(note|output)\/(.+)$/);
+      if (pm && !pm[2].endsWith('.md') && !pm[2].endsWith('.html')) {
+        const dir = pm[1] === 'note' ? 'wiki' : 'tasks';
+        const want = dir + '/' + pm[2] + '.md';
+        const wantDecoded = safeDecode(want);
+        return ALL_ROWS.find((a) => a.path === want
+          || safeDecode(a.path) === wantDecoded) || null;
+      }
+    }
     const exact = ALL_ROWS.filter((a) => path.endsWith('/' + a.path));
     if (exact.length > 1) {
       // Several rows share this file (index pages: one path for both

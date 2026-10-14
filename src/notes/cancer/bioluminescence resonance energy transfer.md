@@ -5,7 +5,7 @@ created: 2026-07-06
 updated: 2026-07-07
 tags:
   - analytical-technique
-aliases: []
+aliases: [Bioluminescence Resonance Energy Transfer]
 ---
 
 # Bioluminescence Resonance Energy Transfer
@@ -49,4 +49,4 @@ List of documents that mention this entity
 
 - New links added: [[EGFR]], [[melittin]], [[Bax]], [[Bcl-2]], [[SRC kinase]], [[ERK]], [[Ivermectin]], [[BH3 mimetics]], [[Annexin V]], [[Cancer]], [[β-catenin]]
 - Suggested new entity notes to create: [[NanoLuc]], [[FRET], [BRET biosensor]]
-- Strong connections to strengthen: [[Bioluminescence Resonance Energy Transfer]] ↔ [[melittin]], [[Bioluminescence Resonance Energy Transfer]] ↔ [[EGFR]]
+- Strong connections to strengthen: [[bioluminescence resonance energy transfer]] ↔ [[melittin]], [[bioluminescence resonance energy transfer]] ↔ [[EGFR]]

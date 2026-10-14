@@ -42,7 +42,7 @@ Because macroH2A both enforces arrest and tunes SASP, it is a candidate node for
 
 ## Documents
 
-- [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]] — macroH2A accumulates in senescence and aged tissues, stabilizes SAHF, enforces arrest, and both activates and times SASP expression.
+- [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]] — macroH2A accumulates in senescence and aged tissues, stabilizes SAHF, enforces arrest, and both activates and times SASP expression.
 
 ## Connections
 

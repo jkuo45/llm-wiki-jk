@@ -45,7 +45,7 @@ List of documents that mention this entity
   - [[_document_ - SASP, senescent cells, grok|SASP, senescent cells, grok]]
     - Identifies IL-6 as a core, highly conserved marker of the SASP.
 
-  - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
+  - [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]]
     - Review notes epigenetic regulators converge on the IL-6 locus: loss of H3K9me2/3 (KDM4 up, SUV39H1 down) and reduced H3K27me3 (JMJD3/KDM6B) at IL-6 promoters, plus H3K27ac/BRD4 and AP-1 at enhancers, derepress IL-6 as a core SASP cytokine.
 
   - [[_document_ - The Senescence-Associated Secretory Phenotype The Dark Side of Tumor Suppression|SASP: The Dark Side of Tumor Suppression]]
