@@ -7,10 +7,10 @@ updated: 2026-10-21
 ---
 # Shared Entities (`_link`)
 
-Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **2029 entities** in a single flat index and **34 documents**.
+Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **2028 entities** in a single flat index and **34 documents**.
 
 > [!note]
-> `_link` index. Total entities: 2029 | Documents: 34
+> `_link` index. Total entities: 2028 | Documents: 34
 >
 ## Documents
 
@@ -841,7 +841,6 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Hair Cells\|Hair Cells]] | Specialized mechanosensory epithelial cells of the cochlea that transduce sound into neural signals; highly vulnerable to oxidative stress, and preserved by SIRT3-dependent antioxidant defense under caloric restriction. |
 | [[Hallmarks of Aging\|Hallmarks of Aging]] | The hallmarks of aging are the interconnected molecular and cellular changes that drive progressive loss of physiological integrity across organisms. |
 | [[Hamartoma\|Hamartoma]] | A hamartoma is a benign tumor-like lesion composed of disorganized mature cells native to the tissue of origin; in mTORopathies it reflects mTORC1 hyperactivation rather than a protective arrest. |
-| [[handgrip strength]] | Maximum voluntary grip force measured with a hand dynamometer; a validated, low-cost proxy for overall muscle strength that declines with age and with chronic low-grade inflammation. |
 | [[Hannum Clock\|Hannum Clock]] | A blood-based epigenetic clock estimating chronological age from DNA methylation, trained on whole-blood samples. |
 | [[HDAC inhibitors\|HDAC inhibitors]] | Chemical properties: HDAC inhibitors is a chemical substance with defined molecular structure, functional groups, and physicochemical properties that determine its biological activity. |
 | [[HDAC3\|HDAC3]] | Histone deacetylase 3, a class I HDAC that partners with the reader HDAC4 to restrain AP-1-driven SASP enhancer activation in senescence. |

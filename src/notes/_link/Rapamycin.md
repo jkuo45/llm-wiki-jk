@@ -20,11 +20,6 @@ In the [[SASP-Remodeling Aminochrome Complex]] strategy, Rapamycin acts as a "br
 ### Merged from notes/autophagy/Rapamycin.md
 Rapamycin (also known as Sirolimus) is a potent immunosuppressant and [[Autophagy]] inducer that specifically inhibits the [[mTORC1]] complex.
 
-
-#
-
-# 
-
 ## Documents
 
 List of documents that mention this entity
