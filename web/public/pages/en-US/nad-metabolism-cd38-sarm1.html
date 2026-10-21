@@ -1,0 +1,1442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NAD+ Metabolism — Substrate Supply, Enzymatic Consumption, and the CD38–SARM1 Competition</title>
+<meta name="description" content="Visual synthesis of NAD+ metabolism: the three functional categories of the cofactor (catalytic, redox, signalling), the salvage and Preiss–Handler biosynthetic routes, the hierarchy of four NAD+-consuming enzyme systems (CD38, SARM1, PARP1, sirtuins), the NMN linkage and the CD38-inhibition paradox with its literature resolution, the current knowledge-graph metrics for the NAD+ module, the therapeutic landscape by consumption pathway, sex divergence in NAD+ metabolism, and the open questions the vault itself flags.">
+<link rel="canonical" href="https://graph.johnnykuo.com/pages/en-US/nad-metabolism-cd38-sarm1.html">
+<link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/nad-metabolism-cd38-sarm1.html">
+<link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/nad-metabolism-cd38-sarm1.html">
+<link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/nad-metabolism-cd38-sarm1.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
+<link rel="stylesheet" href="../themes/theme-01/pages.css">
+<link rel="stylesheet" href="../themes/theme-01/pages-light.css" id="theme-light">
+<link rel="stylesheet" href="../themes/theme-01/pages-article.css">
+<link rel="stylesheet" href="../themes/theme-01/pages-gallery.css">
+<script src="../themes/theme-01/page-theme.js"></script>
+<script src="../themes/shared/nav-auto-hide.js"></script>
+<style>
+  /* page-specific only — shared components live in themes/theme-01/ */
+  #pool .tbl-wrap{ --tbl-col-1:"Role"; --tbl-col-2:"Primary enzyme"; --tbl-col-3:"Consequence of depletion"; }
+  #supply .tbl-wrap{ --tbl-col-1:"Route"; --tbl-col-2:"Key enzyme"; --tbl-col-3:"Precursor"; --tbl-col-4:"Rate-limiting step"; }
+  #drain .tbl-wrap{ --tbl-col-1:"Consumer"; --tbl-col-2:"Compartment"; --tbl-col-3:"Timescale"; --tbl-col-4:"Trigger"; }
+  #graph .tbl-wrap{ --tbl-col-1:"Node"; --tbl-col-2:"Wiki nb"; --tbl-col-3:"Triples nb"; --tbl-col-4:"Community (wiki / triples)"; }
+  #therapy .tbl-wrap{ --tbl-col-1:"Target"; --tbl-col-2:"Agents"; --tbl-col-3:"Mechanism"; --tbl-col-4:"Evidence"; }
+  .metric-note{ color:var(--mute); font-size:.78rem; margin:8px 0 14px; }
+  .metric-note b{ color:var(--text); }
+  a.wikilink{ color:var(--teal); }
+</style>
+</head>
+<body style="--wrap-width:1200px;">
+
+<nav>
+  <div class="wrap">
+    <a id="back-home" class="back-home" href="../index.html" title="Back to articles index">&#8592; Back</a>
+    <a class="n" href="#pool">Substrate Pool</a>
+    <a class="n" href="#supply">Biosynthesis</a>
+    <a class="n" href="#drain">Consumption</a>
+    <a class="n" href="#cd38">CD38</a>
+    <a class="n" href="#sarm1">SARM1</a>
+    <a class="n" href="#bridge">NMN Linkage</a>
+    <a class="n" href="#graph">Graph</a>
+    <a class="n" href="#therapy">Therapy</a>
+    <a class="n" href="#sex">Sex</a>
+    <a class="n" href="#gaps">Gaps</a>
+    <a class="n" href="#sources">Sources</a>
+  </div>
+</nav>
+
+<header>
+  <div class="wrap">
+    <div class="kicker">NAD+ Metabolism · CD38 · SARM1 · 2026</div>
+    <h1>NAD+ Metabolism — substrate supply, enzymatic consumption, and the CD38–SARM1 competition</h1>
+    <p class="lead" style="margin-top:14px;">
+      <b style="color:var(--text)">NAD+</b> is often presented as a concentration to be restored by supplementation. The
+      underlying enzymology is more constrained: NAD+ is a shared substrate pool consumed by at least four
+      enzymatic systems, each operating in a distinct cellular compartment and on a distinct timescale, and the
+      resulting substrate deficit in every case propagates to the same downstream target —
+      <b style="color:var(--text)">sirtuin-dependent NAD+-requiring reactions</b>.
+      This page covers the biosynthetic routes, the hierarchy of NAD+-consuming enzymes, the two NADases that
+      dominate the flux (<b style="color:var(--text)">CD38</b>, constitutively extracellular; <b style="color:var(--text)">SARM1</b>,
+      acutely intracellular in neurons), the <b style="color:var(--text)">NMN</b> metabolite that links them, and the
+      resulting pharmacological paradox together with the axotomy data that constrain it.
+      It concludes with the current knowledge-graph readout for the NAD+ module, the therapeutic landscape
+      organised by <i>which consumption pathway</i> is being targeted, and the sex divergence that determines
+      whether NAD+ repletion is uniform or stratified.
+    </p>
+    <div class="meta">
+      Sources: vault notes
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/NAD%2B.md" target="_blank" rel="noopener noreferrer"><code>src/notes/_link/NAD+.md</code></a>,
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/CD38.md" target="_blank" rel="noopener noreferrer"><code>CD38.md</code></a>,
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/SARM1.md" target="_blank" rel="noopener noreferrer"><code>SARM1.md</code></a>,
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/NMN.md" target="_blank" rel="noopener noreferrer"><code>NMN.md</code></a>,
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/NAMPT.md" target="_blank" rel="noopener noreferrer"><code>NAMPT.md</code></a>
+      · task outputs:
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_nad_metabolism_cd38_sarm1_20_Oct_2026.md" target="_blank" rel="noopener noreferrer"><code>NAD+ / CD38–SARM1 consolidated synthesis (20 Oct 2026)</code></a>,
+      plus nine July 2026 traces in <code>src/tasks/cd38_sarm1_nad_trace/</code>
+      · graph: combined union, 4,821 nodes / 47,925 edges (build 02 Oct 2026)
+    </div>
+    <div class="pill-row">
+      <a class="badge teal" href="#pool">NAD+ substrate pool · three roles</a>
+      <a class="badge" href="#drain">four consumers: CD38 · SARM1 · PARP1 · sirtuins</a>
+      <a class="badge red" href="#bridge">NMN/NAD+ ratio = SARM1 trigger</a>
+      <a class="badge amber" href="#bridge">paradox: CD38 inhibition vs SARM1 sensitization</a>
+      <a class="badge" href="#graph">graph: 277 nb · k-core 20</a>
+      <a class="badge" href="#sex">sex divergence: PARP-1 vs CD38</a>
+      <a class="badge speculative" href="#gaps">open: no direct study</a>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <!-- ==================== POOL ==================== -->
+  <section id="pool">
+    <h2>Three functional categories of a single cofactor</h2>
+    <p>
+      NAD+ (nicotinamide adenine dinucleotide) performs three distinct functions: it is an obligate co-substrate for
+      hundreds of enzymes, it sets the intracellular NADH:NAD+ ratio as the oxidant in NAD+-dependent
+      dehydrogenases, and it is a signalling molecule in its own right. These functions are not independent —
+      each draws on the same cellular substrate pool, so NAD+ consumed by one leaves less available to the others.
+      The three are therefore necessarily considered together.
+    </p>
+
+    <div class="callout teal">
+      <span class="callout-tag">The thesis</span>
+      <p>
+        Cellular NAD+ is <b>not a static quantity that can simply be topped up</b> — it is a shared substrate pool
+        subject to consumption by at least four enzymatic systems on four different timescales, and the substrate
+        deficit produced by each converges on the same downstream target: sirtuin-catalysed reactions.
+        The sirtuins are themselves consumers: each deacetylation event hydrolyses one NAD+ into nicotinamide and
+        OAADPr. NAD+ repletion is therefore never metabolically neutral.
+      </p>
+    </div>
+
+    <div class="tbl-wrap" style="margin-top:18px;">
+      <table class="tbl-fixed">
+        <thead>
+          <tr>
+            <th style="width:20%;">Role</th>
+            <th style="width:26%;">Primary enzyme</th>
+            <th style="width:34%;">Consequence of reduced substrate availability</th>
+            <th style="width:20%;">Functional category</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><b>Catalytic</b></td>
+            <td>SIRT1–SIRT7 (obligate co-substrate)</td>
+            <td>Loss of deacetylation-dependent transcriptional and metabolic regulation</td>
+            <td>Signal</td>
+          </tr>
+          <tr>
+            <td><b>Redox</b></td>
+            <td>GAPDH, IDH, 3-KGDH, Complex I</td>
+            <td>Glycolytic and respiratory collapse; NADH:NAD+ ratio tips reductive</td>
+            <td>Energy</td>
+          </tr>
+          <tr>
+            <td><b>Signalling</b></td>
+            <td>CD38, SARM1 (cADPR / NAADP synthesis)</td>
+            <td>Dysregulated Ca²⁺ release; the messenger is itself a product of NAD+ catabolism</td>
+            <td>Message</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p class="metric-note">
+      A fourth role is easy to overlook: NAD+ is also the <b>substrate of the enzymes that mediate cell death</b>.
+      PARP1 consumes it during DNA repair, and the two NADases on this page consume it as their catalytic
+      substrate. The same pool therefore serves as both the reaction substrate and the casualty.
+    </p>
+  </section>
+
+  <!-- ==================== SUPPLY ==================== -->
+  <section id="supply">
+    <h2>Biosynthetic routes — three pathways, one rate-limiting enzyme</h2>
+    <p>
+      The salvage pathway is the dominant source of cellular NAD+ in most mammalian tissues: it recycles the
+      nicotinamide generated by NAD+-consuming enzymes back into the pool. Two enzymes catalyse the sequence —
+      <b>NAMPT</b>, which is rate-limiting, and <b>NMNAT</b>, which completes the conversion.
+    </p>
+
+    <div class="tbl-wrap" style="margin-top:18px;">
+      <table class="tbl-fixed">
+        <thead>
+          <tr>
+            <th style="width:26%;">Route</th>
+            <th style="width:20%;">Key enzyme</th>
+            <th style="width:22%;">Precursor</th>
+            <th style="width:32%;">Rate-limiting step &amp; aging effect</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><b>Salvage</b> (dominant)</td>
+            <td>NAMPT → NMNAT</td>
+            <td>Nicotinamide (NAM)</td>
+            <td>NAMPT activity falls with age in many tissues — synthetic capacity declines</td>
+          </tr>
+          <tr>
+            <td><b>Preiss–Handler</b></td>
+            <td>Nicotinic acid pathway</td>
+            <td>Nicotinic acid (NA)</td>
+            <td>Bypasses NAMPT; relatively minor in most tissues</td>
+          </tr>
+          <tr>
+            <td><b>Riboside route</b></td>
+            <td>NRK1/NRK2 → NMNAT</td>
+            <td>Nicotinamide riboside (NR)</td>
+            <td>Supplements enter here — and are themselves degraded by CD38</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p>
+      <b>NAMPT is the same enzyme in two opposing strategies.</b> It is the master regulator to <i>preserve</i> in
+      longevity — circadian-controlled via CLOCK:BMAL1, activated by AMPK under energetic stress, and the route by
+      which resveratrol's PDE4 inhibition eventually raises NAD+ and SIRT1 activity. It is also the target to
+      <i>inhibit</i> in oncology: FK866 depletes NAD+ so that PARP-driven DNA repair fails in tumour cells.
+      Same enzyme, opposite aim, and the same reason: NAD+ is the currency.
+    </p>
+
+    <div class="callout">
+      <span class="callout-tag">Precursor efficacy is gated by the drain</span>
+      <p>
+        Orally administered precursors do not simply accumulate in the pool. <b>CD38 degrades extracellular NMN and
+        NR</b>, so precursor bioavailability is determined by the same enzyme whose activity increases with age. Any
+        regimen based on NR or NMN is therefore implicitly a regimen that must also account for CD38 activity.
+      </p>
+    </div>
+  </section>
+
+  <!-- ==================== DRAIN ==================== -->
+  <section id="drain">
+    <h2>NAD+ consumption — the hierarchy of NAD+-utilising enzymes</h2>
+    <p>
+      Four enzyme systems compete for the same substrate pool. They differ in cellular compartment, in kinetic
+      timescale, and in the phenotype of their failure — which is why they constitute four distinct therapeutic
+      targets rather than a single entity that might be addressed as "low NAD+".
+    </p>
+
+    <figure class="fig">
+      <div class="fig-canvas">
+        <svg id="drainSvg" viewBox="0 0 1000 490" role="img" aria-labelledby="drainSvgTitle">
+          <title id="drainSvgTitle">The NAD+ consumption hierarchy — four enzyme systems drawing on one shared substrate pool, across four compartments and four timescales</title>
+          <defs>
+            <marker id="dArr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,1 L9,5 L0,9 z" class="s-dim"/>
+            </marker>
+            <marker id="dArrR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,1 L9,5 L0,9 z" class="s-red"/>
+            </marker>
+            <marker id="dArrA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,1 L9,5 L0,9 z" class="s-amber"/>
+            </marker>
+            <marker id="dArrT" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,1 L9,5 L0,9 z" class="s-teal"/>
+            </marker>
+          </defs>
+
+          <!-- the pool -->
+          <rect x="330" y="196" width="340" height="78" rx="14" class="teal-f" fill-opacity="0.14"/>
+          <rect x="330" y="196" width="340" height="78" rx="14" class="stroke-line2" fill="none"/>
+          <text x="500" y="228" text-anchor="middle" font-size="19" font-weight="700" class="s-teal">SHARED NAD+ POOL</text>
+          <text x="500" y="250" text-anchor="middle" font-size="11.5" class="s-dim">one substrate pool · four consumers · one downstream deficit</text>
+
+          <!-- CD38 -->
+          <rect x="24" y="26" width="286" height="118" rx="12" class="panel-f stroke-line" fill-opacity="0.55"/>
+          <text x="167" y="52" text-anchor="middle" font-size="14" font-weight="700" class="s-red">CD38</text>
+          <text x="167" y="72" text-anchor="middle" font-size="10.5" class="s-dim">extracellular · cell surface</text>
+          <text x="167" y="90" text-anchor="middle" font-size="10.5" class="s-mute">chronic · hours to years</text>
+          <text x="167" y="108" text-anchor="middle" font-size="10.5" class="s-mute">trigger: inflammaging</text>
+          <text x="167" y="128" text-anchor="middle" font-size="10.5" class="s-amber">NAD+ &#8595; · NMN &#8595; · cADPR &#8593;</text>
+
+          <!-- SARM1 -->
+          <rect x="690" y="26" width="286" height="118" rx="12" class="panel-f stroke-line" fill-opacity="0.55"/>
+          <text x="833" y="52" text-anchor="middle" font-size="14" font-weight="700" class="s-red">SARM1</text>
+          <text x="833" y="72" text-anchor="middle" font-size="10.5" class="s-dim">intracellular · axon</text>
+          <text x="833" y="90" text-anchor="middle" font-size="10.5" class="s-mute">acute · minutes</text>
+          <text x="833" y="108" text-anchor="middle" font-size="10.5" class="s-mute">trigger: injury &#8594; NMNAT2 loss</text>
+          <text x="833" y="128" text-anchor="middle" font-size="10.5" class="s-amber">NAD+ &#8594; ~0 · Wallerian degeneration</text>
+
+          <!-- PARP -->
+          <rect x="24" y="326" width="286" height="118" rx="12" class="panel-f stroke-line" fill-opacity="0.55"/>
+          <text x="167" y="352" text-anchor="middle" font-size="14" font-weight="700" class="s-purple">PARP1 / PARP2</text>
+          <text x="167" y="372" text-anchor="middle" font-size="10.5" class="s-dim">nucleus</text>
+          <text x="167" y="390" text-anchor="middle" font-size="10.5" class="s-mute">hours</text>
+          <text x="167" y="408" text-anchor="middle" font-size="10.5" class="s-mute">trigger: DNA damage</text>
+          <text x="167" y="428" text-anchor="middle" font-size="10.5" class="s-amber">NAD+ &#8595; · PAR &#8593;</text>
+
+          <!-- SIRTUINS -->
+          <rect x="690" y="326" width="286" height="118" rx="12" class="panel-f stroke-line" fill-opacity="0.55"/>
+          <text x="833" y="352" text-anchor="middle" font-size="14" font-weight="700" class="s-teal">SIRTUINS</text>
+          <text x="833" y="372" text-anchor="middle" font-size="10.5" class="s-dim">nucleus · cytosol · mitochondria</text>
+          <text x="833" y="390" text-anchor="middle" font-size="10.5" class="s-mute">continuous</text>
+          <text x="833" y="408" text-anchor="middle" font-size="10.5" class="s-mute">regulated pathway — and a competing consumer</text>
+          <text x="833" y="428" text-anchor="middle" font-size="10.5" class="s-amber">1 NAD+ per deacetylation</text>
+
+          <!-- consumers drain the pool: routed from each box's inner corner to the pool -->
+          <path d="M368,192 L280,146" class="stroke-line2" fill="none" marker-end="url(#dArrR)" stroke-width="1.6"/>
+          <path d="M632,192 L720,146" class="stroke-line2" fill="none" marker-end="url(#dArrR)" stroke-width="1.6"/>
+          <path d="M368,278 L280,324" class="stroke-line2" fill="none" marker-end="url(#dArrA)" stroke-width="1.6"/>
+          <path d="M632,278 L720,324" class="stroke-line2" fill="none" marker-end="url(#dArrA)" stroke-width="1.6"/>
+
+          <!-- victim -->
+          <rect x="330" y="326" width="340" height="96" rx="14" class="red-f" fill-opacity="0.12"/>
+          <rect x="330" y="326" width="340" height="96" rx="14" class="stroke-line2" fill="none"/>
+          <text x="500" y="356" text-anchor="middle" font-size="14" font-weight="700" class="s-red">CONVERGENT DOWNSTREAM EFFECT</text>
+          <text x="500" y="378" text-anchor="middle" font-size="11.5" class="s-dim">reduced sirtuin activity · impaired redox homeostasis</text>
+          <text x="500" y="398" text-anchor="middle" font-size="10.5" class="s-mute">ROS &#8593; · ATP &#8595; · stress response lost</text>
+
+          <!-- supply: label sits in the free band between the top two boxes, arrow points DOWN into the pool -->
+          <path d="M500,100 L500,190" class="stroke-line2" fill="none" marker-end="url(#dArrT)" stroke-width="1.6"/>
+          <rect x="380" y="62" width="240" height="34" rx="9" class="teal-f" fill-opacity="0.10"/>
+          <text x="500" y="84" text-anchor="middle" font-size="11" font-weight="700" class="s-teal">NAMPT &#8594; NMN &#8594; NAD+</text>
+
+          <!-- the pool feeds the convergent victim -->
+          <path d="M500,282 L500,322" class="stroke-line2" fill="none" marker-end="url(#dArrR)" stroke-width="1.6" stroke-dasharray="5 4"/>
+          <text x="512" y="306" font-size="10.5" class="s-dim">deficit</text>
+
+          <text x="500" y="468" text-anchor="middle" font-size="10.5" class="s-mute">CD73 is a fifth competitor in the same extracellular compartment, converting NAD+ to adenosine.</text>
+        </svg>
+      </div>
+      <figcaption class="fig-cap"><b>Figure 1 — The NAD+ consumer hierarchy.</b>
+        Four enzyme systems draw on a single shared substrate pool. The two NADases at the top are the subject of this
+        page; PARP1/2 consume nuclear NAD+ during DNA repair; the sirtuins consume NAD+ as their catalytic
+        co-substrate and are therefore both the regulated process and a competing consumer of the same pool.
+        Replenishment enters the pool from above via the salvage pathway. Arrows leaving the pool denote NAD+
+        allocation to each of the four consuming enzyme systems; the dashed arrow below the pool denotes
+        propagation of the resulting substrate deficit, which arises from all four and converges on the same
+        downstream phenotype: reduced sirtuin-dependent activity and impaired redox homeostasis.
+        Client-side SVG with theme-01 palette classes —
+        re-themes with the site light/dark toggle.</figcaption>
+    </figure>
+
+    <div class="tbl-wrap" style="margin-top:18px;">
+      <table class="tbl-fixed">
+        <thead>
+          <tr>
+            <th style="width:16%;">Consumer</th>
+            <th style="width:20%;">Compartment</th>
+            <th style="width:16%;">Timescale</th>
+            <th style="width:22%;">Trigger</th>
+            <th style="width:26%;">Signature</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><b>CD38</b></td>
+            <td>Extracellular / cell surface</td>
+            <td>Hours–years</td>
+            <td>Inflammaging; CD38-high immune-cell infiltration</td>
+            <td>NAD+ ↓, NMN ↓, cADPR ↑</td>
+          </tr>
+          <tr>
+            <td><b>SARM1</b></td>
+            <td>Intracellular (axon)</td>
+            <td>Minutes</td>
+            <td>Axonal injury → NMNAT2 loss</td>
+            <td>NAD+ → ~0; Wallerian degeneration</td>
+          </tr>
+          <tr>
+            <td><b>PARP1 / PARP2</b></td>
+            <td>Nucleus</td>
+            <td>Hours</td>
+            <td>DNA damage</td>
+            <td>NAD+ ↓, PAR accumulation</td>
+          </tr>
+          <tr>
+            <td><b>Sirtuins</b></td>
+            <td>Nucleus / cytosol / mitochondria</td>
+            <td>Continuous</td>
+            <td>—</td>
+            <td>1 NAD+ consumed per deacetylation</td>
+          </tr>
+          <tr>
+            <td><b>CD73</b></td>
+            <td>Extracellular</td>
+            <td>Continuous</td>
+            <td>—</td>
+            <td>NAD+ → adenosine (competitive substrate)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p class="metric-note">
+      Net decline in aging is the sum of two terms moving the same way: <b>reduced synthetic capacity</b> (NAMPT
+      activity falls with age) and <b>increased consumption</b> (CD38 expression rises with age).
+    </p>
+  </section>
+
+  <!-- ==================== CD38 ==================== -->
+  <section id="cd38">
+    <h2>CD38 — the chronic drain</h2>
+    <p>
+      CD38 is a bifunctional ectoenzyme and the largest age-related consumer of NAD+ in the vault's graph. It
+      catalyses four reactions, and they differ in consequence: one constitutes the principal NAD+ sink, one
+      controls precursor availability, and two generate calcium signals as products of that same catabolism.
+    </p>
+
+    <div class="tbl-wrap" style="margin-top:18px;">
+      <table class="tbl-fixed">
+        <thead>
+          <tr>
+            <th style="width:24%;">Activity</th>
+            <th style="width:34%;">Reaction</th>
+            <th style="width:42%;">Function</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><b>NAD+ glycohydrolase</b></td>
+            <td>NAD+ → ADP-ribose + nicotinamide</td>
+            <td>Primary NAD+ consumption — the drain</td>
+          </tr>
+          <tr>
+            <td><b>ADP-ribosyl cyclase</b></td>
+            <td>NAD+ → cADPR</td>
+            <td>Ca²⁺ mobilisation from the ER via ryanodine receptors (~2–3% of total consumption)</td>
+          </tr>
+          <tr>
+            <td><b>NAADP synthase</b> (base-exchange)</td>
+            <td>NADP+ → NAADP</td>
+            <td>Lysosomal Ca²⁺ release</td>
+          </tr>
+          <tr>
+            <td><b>Ecto-NMNase</b></td>
+            <td>Extracellular NMN → nicotinamide + ribose</td>
+            <td>Gatekeeper of the extracellular NMN pool — and thus of supplement pharmacokinetics</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p>
+      The kinetic difference from SARM1 is what makes CD38 the <i>high-affinity</i> consumer: it has the lower
+      K<sub>m</sub>. SARM1 has the higher NAD-cyclising activity. Identical substrate and products, but different
+      kinetics and different cellular compartments.
+    </p>
+
+    <h3>Why aging turns it on</h3>
+    <p>
+      CD38 expression rises with age, driven partly by inflammaging and the infiltration of CD38-high immune cells
+      — macrophages and T cells — into white adipose tissue, liver and brain. The graph encodes this directly:
+      CD38 is wired to <code>increases_with → Aging</code>, <code>is_upregulated_on → Neutrophils</code> and
+      <code>overexpress → CD4+ T Cells</code>, and to <code>Inflammaging</code>, <code>Inflammation</code>,
+      <code>Tumor Microenvironment</code> and <code>Microglia</code>. The ageing sequence the vault describes is:
+      senescent cells → SASP → recruitment of CD38+ immune cells → extracellular NAD+ and NMN degradation →
+      parenchymal cells depleted of precursors.
+    </p>
+
+    <div class="tbl-wrap" style="margin-top:18px;">
+      <table class="tbl-fixed">
+        <thead>
+          <tr>
+            <th style="width:34%;">Finding</th>
+            <th style="width:18%;">Model</th>
+            <th style="width:48%;">Consequence</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>CD38 knockout preserves NAD+ levels</td>
+            <td>Mouse</td>
+            <td>Higher NAD+ across multiple organs</td>
+          </tr>
+          <tr>
+            <td>CD38 KO boosts SIRT3 activity</td>
+            <td>Aged mice</td>
+            <td>Improved mitochondrial function, exercise capacity and metabolic health</td>
+          </tr>
+          <tr>
+            <td>78c extends lifespan ~14%</td>
+            <td>Male mice</td>
+            <td>With severe adverse reactions in females requiring euthanasia — see the sex section</td>
+          </tr>
+          <tr>
+            <td>CD38 degrades extracellular NMN and NR</td>
+            <td>In vitro / in vivo</td>
+            <td>Limits precursor bioavailability; positionable by CD38 inhibitors</td>
+          </tr>
+          <tr>
+            <td>CD38+ immune cells infiltrate aged tissues</td>
+            <td>Mouse WAT, liver</td>
+            <td>Covarrubias et al. 2020, <i>Nature Metabolism</i> (PMID 33028765)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p>
+      The graph's own CD38 edge list is worth reading as a map of the drug opportunity:
+      <code>degrades → NAD+</code>, <code>degrades → Nicotinamide Mononucleotide</code>,
+      <code>degrades → Nicotinamide Riboside</code>, <code>boosts → SIRT3</code>,
+      <code>produces → Nicotinamide</code>, <code>produces → cADP-Ribose</code>,
+      <code>inhibits → Quercetin</code>, <code>inhibits → Apigenin</code>,
+      <code>is_a → Isatuximab</code>, and links to <code>Daratumumab</code>, <code>Multiple myeloma</code>,
+      <code>ML385</code>, <code>CZ-48</code>, <code>CD38 inhibitor 78c</code>, <code>DSRM-3716</code>,
+      <code>GSK-428</code> and <code>NB-4746</code>.
+    </p>
+  </section>
+
+  <!-- ==================== SARM1 ==================== -->
+  <section id="sarm1">
+    <h2>SARM1 — the acute drain</h2>
+    <p>
+      SARM1 (Sterile Alpha and TIR Motif Containing 1, ~724 aa / ~80 kDa) is the founding member of the TIR-domain
+      family with intrinsic NADase activity, and the executor of Wallerian degeneration. Its architecture is a
+      three-part autoinhibition mechanism with a catalysis switch.
+    </p>
+
+    <div class="tbl-wrap" style="margin-top:18px;">
+      <table class="tbl-fixed">
+        <thead>
+          <tr>
+            <th style="width:22%;">Domain</th>
+            <th style="width:38%;">Function</th>
+            <th style="width:40%;">Role in the switch</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><b>ARM repeats</b> (N-terminal)</td>
+            <td>Helical armadillo repeats; contain the NMN-binding pocket</td>
+            <td>Packs against the TIR domain in cis — this <i>is</i> the autoinhibition</td>
+          </tr>
+          <tr>
+            <td><b>SAM1 / SAM2</b> (central)</td>
+            <td>Tandem sterile-alpha motifs driving multimerisation</td>
+            <td>Octameric ring assembly is required for catalytic competence</td>
+          </tr>
+          <tr>
+            <td><b>TIR domain</b> (C-terminal)</td>
+            <td>Rossmann-fold NAD+ glycohydrolase core</td>
+            <td>Blocked by ARM when autoinhibited; forms the composite active site on release</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <figure class="fig" style="margin-top:20px;">
+      <div class="fig-canvas">
+        <svg id="sarmSvg" viewBox="0 0 1000 380" role="img" aria-labelledby="sarmSvgTitle">
+          <title id="sarmSvgTitle">Three-phase SARM1 activation — homeostasis, trigger, catastrophe</title>
+          <defs>
+            <marker id="sArr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,1 L9,5 L0,9 z" class="s-dim"/>
+            </marker>
+            <marker id="sArrR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,1 L9,5 L0,9 z" class="s-red"/>
+            </marker>
+            <marker id="sArrT" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,1 L9,5 L0,9 z" class="s-teal"/>
+            </marker>
+          </defs>
+
+          <!-- Phase 1 -->
+          <rect x="20" y="24" width="290" height="300" rx="13" class="panel-f stroke-line" fill-opacity="0.5"/>
+          <text x="165" y="50" text-anchor="middle" font-size="12.5" font-weight="700" letter-spacing="2" class="s-teal">PHASE 1 · HOMEOSTASIS</text>
+          <rect x="46" y="72" width="238" height="52" rx="9" class="teal-f" fill-opacity="0.10"/>
+          <text x="165" y="94" text-anchor="middle" font-size="11.5" font-weight="700" class="s-teal">NMNAT2 delivered from soma</text>
+          <text x="165" y="112" text-anchor="middle" font-size="10.5" class="s-dim">t&#189; ~30 min · keeps NMN &#8594; NAD+</text>
+          <rect x="46" y="140" width="238" height="46" rx="9" class="teal-f" fill-opacity="0.10"/>
+          <text x="165" y="160" text-anchor="middle" font-size="11.5" font-weight="700" class="s-teal">axonal NAD+ ~400 &#181;M</text>
+          <text x="165" y="178" text-anchor="middle" font-size="10.5" class="s-dim">NMN/NAD+ ratio low</text>
+          <rect x="46" y="202" width="238" height="46" rx="9" class="teal-f" fill-opacity="0.10"/>
+          <text x="165" y="222" text-anchor="middle" font-size="11.5" font-weight="700" class="s-teal">ARM packs against TIR</text>
+          <text x="165" y="240" text-anchor="middle" font-size="10.5" class="s-dim">SARM1 autoinhibited</text>
+          <text x="165" y="276" text-anchor="middle" font-size="10.5" class="s-mute">nicotinamide also</text>
+          <text x="165" y="292" text-anchor="middle" font-size="10.5" class="s-mute">allosterically suppresses SARM1</text>
+
+          <!-- Phase 2 -->
+          <rect x="355" y="24" width="290" height="300" rx="13" class="panel-f stroke-line" fill-opacity="0.5"/>
+          <text x="500" y="50" text-anchor="middle" font-size="12.5" font-weight="700" letter-spacing="2" class="s-amber">PHASE 2 · TRIGGER</text>
+          <rect x="381" y="72" width="238" height="46" rx="9" class="amber-f" fill-opacity="0.12"/>
+          <text x="500" y="92" text-anchor="middle" font-size="11.5" font-weight="700" class="s-amber">axonal injury</text>
+          <text x="500" y="110" text-anchor="middle" font-size="10.5" class="s-dim">axon severed from soma</text>
+          <rect x="381" y="134" width="238" height="46" rx="9" class="amber-f" fill-opacity="0.12"/>
+          <text x="500" y="154" text-anchor="middle" font-size="11.5" font-weight="700" class="s-amber">NMNAT2 lost</text>
+          <text x="500" y="172" text-anchor="middle" font-size="10.5" class="s-dim">proteasomal degradation</text>
+          <rect x="381" y="196" width="238" height="62" rx="9" class="amber-f" fill-opacity="0.12"/>
+          <text x="500" y="216" text-anchor="middle" font-size="11.5" font-weight="700" class="s-amber">NMN accumulates</text>
+          <text x="500" y="236" text-anchor="middle" font-size="10.5" class="s-dim">ratio NMN/NAD+ rises</text>
+          <text x="500" y="252" text-anchor="middle" font-size="10.5" class="s-mute">the ratio, not the amount</text>
+          <rect x="381" y="274" width="238" height="34" rx="9" class="amber-f" fill-opacity="0.12"/>
+          <text x="500" y="296" text-anchor="middle" font-size="11.5" font-weight="700" class="s-amber">NMN binds ARM pocket</text>
+
+          <!-- Phase 3 -->
+          <rect x="690" y="24" width="290" height="300" rx="13" class="panel-f stroke-line" fill-opacity="0.5"/>
+          <text x="835" y="50" text-anchor="middle" font-size="12.5" font-weight="700" letter-spacing="2" class="s-red">PHASE 3 · CATASTROPHE</text>
+          <rect x="716" y="72" width="238" height="46" rx="9" class="red-f" fill-opacity="0.12"/>
+          <text x="835" y="92" text-anchor="middle" font-size="11.5" font-weight="700" class="s-red">SAM octamer assembles</text>
+          <text x="835" y="110" text-anchor="middle" font-size="10.5" class="s-dim">TIR dimerises across protomers</text>
+          <rect x="716" y="134" width="238" height="46" rx="9" class="red-f" fill-opacity="0.12"/>
+          <text x="835" y="154" text-anchor="middle" font-size="11.5" font-weight="700" class="s-red">NADase fully active</text>
+          <text x="835" y="172" text-anchor="middle" font-size="10.5" class="s-dim">+ MARylation activity</text>
+          <rect x="716" y="196" width="238" height="46" rx="9" class="red-f" fill-opacity="0.12"/>
+          <text x="835" y="216" text-anchor="middle" font-size="11.5" font-weight="700" class="s-red">axonal NAD+ &#8594; ~0</text>
+          <text x="835" y="234" text-anchor="middle" font-size="10.5" class="s-dim">within minutes</text>
+          <rect x="716" y="258" width="238" height="50" rx="9" class="red-f" fill-opacity="0.12"/>
+          <text x="835" y="278" text-anchor="middle" font-size="11.5" font-weight="700" class="s-red">ATP collapse &#8594; Ca&#178;&#8314;</text>
+          <text x="835" y="296" text-anchor="middle" font-size="10.5" class="s-dim">calpain &#8594; Wallerian degeneration</text>
+
+          <!-- arrows between phases -->
+          <path d="M312,174 L351,174" class="stroke-line2" fill="none" marker-end="url(#sArr)" stroke-width="1.8"/>
+          <path d="M647,174 L686,174" class="stroke-line2" fill="none" marker-end="url(#sArrR)" stroke-width="1.8"/>
+
+          <text x="500" y="352" text-anchor="middle" font-size="10.5" class="s-mute">Within 30–60 minutes of injury the axon is structurally and functionally gone. SARM1 knockout mice are profoundly resistant to Wallerian degeneration.</text>
+        </svg>
+      </div>
+      <figcaption class="fig-cap"><b>Figure 2 — The three-phase axonal NAD+ catastrophe.</b>
+        SARM1 is a metabolic sensor of the NMN/NAD+ ratio, and the injury context is what lets the ratio move.
+        Phase 1 holds the enzyme off via ARM–TIR autoinhibition with NAD+ high and NAM present. Phase 2 severs
+        axonal NMNAT2 delivery, NMN accumulates, and NMN binds the ARM pocket to relieve autoinhibition — the
+        ratio, not absolute NMN, is the trigger. Phase 3 assembles the octameric NADase, drains axonal NAD+ to
+        near zero in minutes, and collapses ATP. Mechanism per the vault SARM1 note; Figley et al. 2021
+        (<i>Neuron</i>) for the ratio sensor. Client-side SVG with theme-01 palette classes — re-themes with the
+        site light/dark toggle.</figcaption>
+    </figure>
+
+    <p>
+      The trigger is the <b>NMN/NAD+ ratio</b>, not absolute NMN: NMN and NAD+ compete for the same ARM-domain
+      pocket, and Figley et al. 2021 established the ratio as the primary metabolic sensor. This distinction is
+      what makes the CD38 paradox resolvable rather than merely alarming — see the next section.
+    </p>
+
+    <p>
+      A fourth catalytic activity was identified in 2025: <b>mono-ADP-ribosylation</b>. SARM1 MARylates itself and
+      other proteins with catalytic efficiency <i>higher</i> than its hydrolase activity, and auto-MARylation
+      promotes a liquid-to-solid phase transition that spatially restricts activation to damaged axons. Recent work
+      also implicates SARM1 in the mitochondrial unfolded protein response and mitophagy, in TIR-domain JNK/p38
+      signalling via TRAF6 (independent of NADase activity), in negative regulation of TLR3/TLR4, and in HSV-1
+      restriction.
+    </p>
+  </section>
+
+  <!-- ==================== BRIDGE ==================== -->
+  <section id="bridge">
+    <h2>The NMN linkage — and the pharmacological paradox it generates</h2>
+    <p>
+      The two NADases are connected by a single metabolite, and the connection runs in opposite directions on the
+      two sides of the cell membrane.
+    </p>
+
+    <div class="callout red">
+      <span class="callout-tag">The paradox</span>
+      <p>
+        CD38 degrades <b>extracellular</b> NMN. SARM1 is activated by <b>intracellular</b> NMN accumulation.
+        So high CD38 activity may <i>protect</i> against SARM1 activation by keeping NMN low — and therefore
+        <b>CD38 inhibition for longevity might sensitize neurons to SARM1-dependent Wallerian degeneration.</b>
+      </p>
+    </div>
+
+    <div class="tbl-wrap" style="margin-top:18px;">
+      <table class="tbl-fixed">
+        <thead>
+          <tr>
+            <th style="width:28%;">Step</th>
+            <th style="width:72%;">Mechanism</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><b>CD38 degrades extracellular NMN</b></td>
+            <td>Ecto-NMNase activity limits the NMN available for cellular uptake — CD38 is one of the main enzymes degrading NMN in mouse tissues and controls NMN pharmacokinetics (Camacho-Pereira et al. 2016, <i>Cell Metabolism</i>, PMID 27133162; Covarrubias et al. 2020, <i>Nature Metabolism</i>, PMID 33028765)</td>
+          </tr>
+          <tr>
+            <td><b>Less NMN enters cells</b></td>
+            <td>Lower intracellular NMN leaves the NMN/NAD+ ratio lower, keeping SARM1 further from its threshold</td>
+          </tr>
+          <tr>
+            <td><b>Injury reverses it</b></td>
+            <td>NMNAT2 loss stops NMN consumption regardless of supply — the ratio rises from the injury side, not the supply side</td>
+          </tr>
+          <tr>
+            <td><b>Precursor supplementation is the sharp edge</b></td>
+            <td>NR/NMN raises NMN without a guaranteed compensating NAD+ rise; Takaso et al. 2020 state explicitly that "accumulated NMN appeared to be an activator of the prodegenerative cADPR-forming enzyme SARM1" (PMID 33082370)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>CZ-48 proves the enzymes are separable</h3>
+    <p>
+      CZ-48 (sulfo-ara-F-NMN) is the cleanest pharmacological demonstration that CD38 and SARM1 are two enzymes
+      sharing a substrate and products, not one enzyme wearing two hats.
+    </p>
+
+    <div class="tbl-wrap" style="margin-top:14px;">
+      <table class="tbl-fixed">
+        <thead>
+          <tr>
+            <th style="width:24%;">Compound</th>
+            <th style="width:26%;">Effect on CD38</th>
+            <th style="width:26%;">Effect on SARM1</th>
+            <th style="width:24%;">Reading</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><b>CZ-48</b></td>
+            <td><b style="color:var(--teal);">Inhibits</b></td>
+            <td><b style="color:var(--red);">Activates</b></td>
+            <td>Pharmacologically separable</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p>
+      It is the only molecule in the vault with opposite effects on the two NADases. In the current graph it sits
+      inside the wiki layer's <code>NAD+</code> community with 4 distinct neighbours and clustering 1.000 — a divergence node
+      in the strictest graph sense.
+    </p>
+
+    <div class="callout teal">
+      <span class="callout-tag">What the literature actually shows</span>
+      <p>
+        The paradox is real as a <i>mechanism</i>, but the axotomy data do not support it as a risk of CD38
+        <i>inhibition</i>. CD38 knockout mice show <b>delayed</b> axon degeneration after facial nerve axotomy
+        (Takaso et al. 2020) — the opposite of what SARM1 sensitization would predict.
+      </p>
+      <p style="margin-top:10px;">
+        The resolution: the trigger is the <b>ratio</b>, and CD38 deletion raises NAD+ as well as NMN, which lowers
+        NMN/NAD+ even as absolute NMN rises. NMN accumulation alone is not sufficient to activate SARM1 without the
+        concurrent injury-specific NMNAT2 loss context.
+      </p>
+      <p style="margin-top:10px;">
+        So the caution attaches to <b>precursor supplementation</b>, which raises NMN without the same
+        compensatory NAD+ rise — not to CD38 inhibition itself. Stated precisely: <i>NR/NMN supplementation
+        during or after axonal injury carries an SARM1-activation risk that CD38 inhibition does not.</i>
+      </p>
+    </div>
+
+    <p>
+      A third mechanism couples them anyway, so pharmacological separability does not mean mechanistic
+      independence: 78c and the SARM1 inhibitors are both <b>adduct-forming uncompetitive inhibitors</b> of
+      NAD-dependent enzymes — a conserved NAD-dependent mechanism (Bratkowski et al. 2022, <i>Neuron</i>).
+    </p>
+  </section>
+
+  <!-- ==================== GRAPH ==================== -->
+  <section id="graph">
+    <h2>The NAD+ module in the knowledge graph</h2>
+    <p>
+      All figures below are recomputed on the current combined union — 4,821 nodes, 47,925 edges, build
+      20 Oct 2026 — not copied from the July 2026 traces, which were computed on a 4,714-node triples-only graph.
+    </p>
+
+    <div class="callout">
+      <span class="callout-tag">A note on the degree convention</span>
+      <p>
+        The <code>degree</code> field stored in <code>nodes.json</code> is inherited from the source layer and is
+        <b>not</b> the union degree. For 2,157 of 2,158 shared nodes it understates the combined union, because
+        the union adds the wiki layer's co-mention edges on top. NAD+ stores <code>degree: 51</code> while actually
+        carrying <b>321 incident edges across 277 distinct neighbours</b>.
+        Every figure on this page is the <b>recomputed union degree</b> — the same convention as the
+        <a href="caspase-graph-analysis.html">caspase graph analysis</a> page, where Caspase-3 is stored as 29
+        and correctly reported as 76.
+      </p>
+    </div>
+
+    <div class="tbl-wrap" style="margin-top:18px;">
+      <table class="tbl-fixed">
+        <thead>
+          <tr>
+            <th style="width:28%;">Node</th>
+            <th style="width:12%;">Union deg</th>
+            <th style="width:10%;">in / out</th>
+            <th style="width:10%;">k-core</th>
+            <th style="width:12%;">Clustering</th>
+            <th style="width:28%;">Community</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><b>NAD+</b></td>
+            <td>277</td>
+            <td>267 / 54</td>
+            <td>20</td>
+            <td>0.048</td>
+            <td>NAD+</td>
+          </tr>
+          <tr>
+            <td>Sirtuins</td>
+            <td>187</td>
+            <td>141 / 60</td>
+            <td>20</td>
+            <td>0.061</td>
+            <td>Sirtuins</td>
+          </tr>
+          <tr>
+            <td>Nicotinamide Riboside</td>
+            <td>112</td>
+            <td>68 / 61</td>
+            <td>20</td>
+            <td>0.085</td>
+            <td>Nicotinamide Riboside</td>
+          </tr>
+          <tr>
+            <td>PARP1</td>
+            <td>91</td>
+            <td>67 / 53</td>
+            <td>20</td>
+            <td>0.110</td>
+            <td>Parthanatos</td>
+          </tr>
+          <tr>
+            <td>Microglia</td>
+            <td>76</td>
+            <td>62 / 24</td>
+            <td>20</td>
+            <td>0.133</td>
+            <td>Microgliosis</td>
+          </tr>
+          <tr>
+            <td>Glycolysis</td>
+            <td>69</td>
+            <td>60 / 26</td>
+            <td>19</td>
+            <td>0.099</td>
+            <td>HIF-1α</td>
+          </tr>
+          <tr>
+            <td>NMN</td>
+            <td>65</td>
+            <td>62 / 11</td>
+            <td>19</td>
+            <td>0.161</td>
+            <td>Nicotinamide Mononucleotide</td>
+          </tr>
+          <tr style="background:rgba(228,87,94,.07);">
+            <td><b>CD38</b></td>
+            <td><b>48</b></td>
+            <td>38 / 28</td>
+            <td>19</td>
+            <td>0.174</td>
+            <td>CD38</td>
+          </tr>
+          <tr>
+            <td>NAMPT</td>
+            <td>46</td>
+            <td>39 / 17</td>
+            <td>18</td>
+            <td>0.175</td>
+            <td>Heart Failure</td>
+          </tr>
+          <tr>
+            <td>Nicotinamide Mononucleotide</td>
+            <td>33</td>
+            <td>6 / 27</td>
+            <td>17</td>
+            <td>0.146</td>
+            <td>Nicotinamide Mononucleotide</td>
+          </tr>
+          <tr style="background:rgba(228,87,94,.07);">
+            <td><b>SARM1</b></td>
+            <td><b>31</b></td>
+            <td>18 / 27</td>
+            <td>16</td>
+            <td>0.247</td>
+            <td>Nicotinamide Riboside</td>
+          </tr>
+          <tr>
+            <td>CD157</td>
+            <td>26</td>
+            <td>4 / 24</td>
+            <td>16</td>
+            <td>0.172</td>
+            <td>Nicotinamide Riboside</td>
+          </tr>
+          <tr>
+            <td>NMNAT2</td>
+            <td>8</td>
+            <td>4 / 7</td>
+            <td>8</td>
+            <td>0.750</td>
+            <td>NAD+</td>
+          </tr>
+          <tr>
+            <td>CZ-48</td>
+            <td>4</td>
+            <td>2 / 4</td>
+            <td>4</td>
+            <td>1.000</td>
+            <td>NAD+</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Three readings the July traces could not make</h3>
+
+    <div class="pattern">
+      <b>1 · The NAD+ module is a structural spine of the graph, not a topic-level appendage.</b>
+      NAD+ (k-core 20), Sirtuins (20), NR (20), PARP1 (20) and Microglia (20) all reach the union's maximum
+      k-core; CD38 sits at 19, NAMPT 18, SARM1 16. The NAD+ module is among the deepest embedded
+      neighbourhoods in the vault, structurally comparable to the SIRT1/SASP god-node region rather than a
+      peripheral topic.
+    </div>
+
+    <div class="pattern">
+      <b>2 · Clustering inverts between the two NADases — they are different therapeutic objects.</b>
+      SARM1's clustering (0.247) is higher than CD38's (0.174) despite SARM1 having the <i>lower</i> degree
+      (31 vs 48). SARM1's neighbours are mutually connected: TIR domain, NMNAT2, Wallerian degeneration, axon
+      degeneration, Disulfiram, DSRM-3716, GSK-428, NB-4746 — a closed, self-referential injury-and-pharmacology
+      neighbourhood. CD38's neighbours spread across immune-cell, tumour-microenvironment and sirtuin territory.
+      <b>CD38 is the diffuse hub; SARM1 is the closed specialist.</b>
+    </div>
+
+    <div class="pattern">
+      <b>3 · The inhibitor nodes are near-perfectly cliqued with their targets.</b>
+      CZ-48 clustering 1.000, NB-4746 0.864, DSRM-3716 and GSK-428 0.795, Disulfiram 0.705. The graph has learned
+      the pharmacology as a closed sub-cluster — and notably files <code>Disulfiram</code> under the community
+      <b>Paracrine Senescence</b> rather than NAD+, because it is a repurposed drug whose primary fame is alcohol
+      use disorder.
+    </div>
+
+    <h3>Layer divergence — the wiki has unified what the triples layer has scattered</h3>
+    <p>
+      The clearest structural finding in the current build. Counts are distinct neighbours in each layer's own
+      edge list, joined on canonical node id.
+    </p>
+    <div class="callout">
+      <span class="callout-tag">Compare the layers by node id, not by label</span>
+      <p>
+        The two layers spell several of the same nodes differently — the wiki layer writes
+        <code>CD38 Inhibitor 78c</code> and <code>NMN (Nicotinamide Mononucleotide)</code> where the triples layer
+        writes <code>CD38 inhibitor 78c</code> and <code>NMN</code>. Joining on the rendered label silently drops
+        those rows and makes wiki-only nodes look absent from both.
+      </p>
+    </div>
+
+    <div class="tbl-wrap" style="margin-top:14px;">
+      <table class="tbl-fixed">
+        <thead>
+          <tr>
+            <th style="width:26%;">Node</th>
+            <th style="width:10%;">Wiki nb</th>
+            <th style="width:10%;">Triples nb</th>
+            <th style="width:28%;">Wiki community</th>
+            <th style="width:26%;">Triples community</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>NAD+</td>
+            <td>270</td>
+            <td>38</td>
+            <td>NAD+</td>
+            <td>NAD+</td>
+          </tr>
+          <tr>
+            <td>CD38</td>
+            <td>42</td>
+            <td>16</td>
+            <td><b style="color:var(--amber);">NAD+</b></td>
+            <td><b style="color:var(--amber);">CD38</b></td>
+          </tr>
+          <tr>
+            <td>SARM1</td>
+            <td>31</td>
+            <td>4</td>
+            <td><b style="color:var(--amber);">NAD+</b></td>
+            <td><b style="color:var(--amber);">Nicotinamide Riboside</b></td>
+          </tr>
+          <tr>
+            <td>NAMPT</td>
+            <td>42</td>
+            <td>8</td>
+            <td><b style="color:var(--amber);">NAD+</b></td>
+            <td><b style="color:var(--amber);">Heart Failure</b></td>
+          </tr>
+          <tr>
+            <td>NMNAT2</td>
+            <td>8</td>
+            <td>—</td>
+            <td>NAD+</td>
+            <td>—</td>
+          </tr>
+          <tr>
+            <td>Nicotinamide Riboside</td>
+            <td>70</td>
+            <td>60</td>
+            <td>NAD+</td>
+            <td>Nicotinamide Riboside</td>
+          </tr>
+          <tr>
+            <td>NMN</td>
+            <td>65</td>
+            <td>1</td>
+            <td>NAD+</td>
+            <td>Nicotinamide Mononucleotide</td>
+          </tr>
+          <tr>
+            <td>Nicotinamide Mononucleotide</td>
+            <td>5</td>
+            <td>29</td>
+            <td><b style="color:var(--amber);">AMPK</b></td>
+            <td><b style="color:var(--amber);">Nicotinamide Mononucleotide</b></td>
+          </tr>
+          <tr>
+            <td>Glycolysis</td>
+            <td>66</td>
+            <td>6</td>
+            <td><b style="color:var(--amber);">Mitochondrial Respiration</b></td>
+            <td><b style="color:var(--amber);">HIF-1α</b></td>
+          </tr>
+          <tr>
+            <td>PARP1</td>
+            <td>89</td>
+            <td>11</td>
+            <td><b style="color:var(--amber);">PARP1</b></td>
+            <td><b style="color:var(--amber);">Parthanatos</b></td>
+          </tr>
+          <tr>
+            <td>Quercetin</td>
+            <td>65</td>
+            <td>12</td>
+            <td><b style="color:var(--amber);">Cellular Senescence</b></td>
+            <td><b style="color:var(--amber);">Fisetin</b></td>
+          </tr>
+          <tr>
+            <td>Apigenin</td>
+            <td>94</td>
+            <td>39</td>
+            <td><b style="color:var(--amber);">Senescence-Associated Secretory Phenotype</b></td>
+            <td><b style="color:var(--amber);">p53</b></td>
+          </tr>
+          <tr>
+            <td>Disulfiram</td>
+            <td>12</td>
+            <td>1</td>
+            <td><b style="color:var(--amber);">NAD+</b></td>
+            <td><b style="color:var(--amber);">Paracrine Senescence</b></td>
+          </tr>
+          <tr>
+            <td>Microglia</td>
+            <td>75</td>
+            <td>3</td>
+            <td>Alzheimer's Disease</td>
+            <td>Microgliosis</td>
+          </tr>
+          <tr>
+            <td>Neuron</td>
+            <td>28</td>
+            <td>3</td>
+            <td>Alzheimer's Disease</td>
+            <td>Humanin</td>
+          </tr>
+          <tr>
+            <td>cADPR (Cyclic ADP-ribose)</td>
+            <td>7</td>
+            <td>—</td>
+            <td>NAD+</td>
+            <td>—</td>
+          </tr>
+          <tr>
+            <td>CD38 Inhibitor 78c</td>
+            <td>11</td>
+            <td>7</td>
+            <td>NAD+</td>
+            <td>NAD+</td>
+          </tr>
+          <tr>
+            <td>ML385</td>
+            <td>19</td>
+            <td>1</td>
+            <td><b style="color:var(--amber);">Nrf2</b></td>
+            <td><b style="color:var(--amber);">NRF2</b></td>
+          </tr>
+        </tbody>
+        </table>
+    </div>
+
+    <div class="callout teal">
+      <span class="callout-tag">The finding</span>
+      <p>
+        The <b>wiki layer has already unified the entire NAD+ module into a single <code>NAD+</code> community</b> —
+        CD38, SARM1, NAMPT, NMNAT2, NR, CZ-48, Disulfiram, DSRM-3716, GSK-428, NB-4746, SLC25A51, Wallerian
+        degeneration and CIPN all sit inside it. The <b>triples layer still scatters the same module across five
+        unrelated communities</b>, filing the salvage enzyme NAMPT under Heart Failure and the SARM1 inhibitor
+        Disulfiram under Paracrine Senescence.
+      </p>
+      <p style="margin-top:10px;">
+        The combined dataset inherits the triples label for shared node ids, so the default UI shows the scattered
+        labels even though the coherent wiki clustering is present in the data. Any analysis that reads community
+        labels from the combined dataset will mis-scope this module — it should read the wiki layer's labels for
+        these nodes.
+      </p>
+    </div>
+
+    <h3>Extraction gaps within the module</h3>
+    <div class="tbl-wrap" style="margin-top:14px;">
+      <table class="tbl-fixed">
+        <thead>
+          <tr>
+            <th style="width:24%;">Gap</th>
+            <th style="width:36%;">Evidence</th>
+            <th style="width:40%;">Impact</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><b>cADPR split in two</b></td>
+            <td><code>cADPR (Cyclic ADP-ribose)</code> (wiki-only, 7 nb) vs <code>cADP-Ribose</code> (triples-only, 1 nb)</td>
+            <td>The calcium messenger made by <i>both</i> NADases exists under two node identities</td>
+          </tr>
+          <tr>
+            <td><b>NMN has a shadow node</b></td>
+            <td>Two node identities for one molecule: <code>nmn</code> (wiki 65 nb / triples 1 nb) vs <code>nicotinamide_mononucleotide</code> (wiki 5 nb / triples 29 nb)</td>
+            <td>The bridging metabolite is duplicated — half the CD38↔SARM1 bridge runs through a node that does not know what it is</td>
+          </tr>
+          <tr>
+            <td><b>78c is a phrase</b></td>
+            <td>Same node id, two spellings: wiki writes <code>CD38 Inhibitor 78c</code>, triples writes <code>CD38 inhibitor 78c</code>; compounds are indexed by prose, not identifier</td>
+            <td>Compounds are indexed by prose, not identifier — blocks compound-level queries</td>
+          </tr>
+          <tr>
+            <td><b>SARM1 drugs absent from triples</b></td>
+            <td>DSRM-3716 / GSK-428 / NB-4746 / CZ-48 are wiki-only; Disulfiram is 12 wiki nb vs 1 triples nb</td>
+            <td>The typed layer cannot express SARM1 pharmacology as directed edges</td>
+          </tr>
+          <tr>
+            <td><b>ML385 has no incoming edges</b></td>
+            <td>19 wiki nb, 1 triples nb, 0 incoming; community drifts (wiki <code>Nrf2</code>, triples <code>NRF2</code>)</td>
+            <td>An NRF2 inhibitor wired one-directionally out to CD38 — likely an extraction artefact</td>
+          </tr>
+          <tr>
+            <td><b>Microglia / Neuron stubs</b></td>
+            <td>3 stored degree each in the combined set (union 76 / 29)</td>
+            <td>The CNS compartment map rests on nodes the typed layer barely resolves</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ==================== THERAPY ==================== -->
+  <section id="therapy">
+    <h2>The therapeutic landscape — organised by consumption pathway</h2>
+    <p>
+      The informative classification is not a list of compounds but the identity of the consumption pathway being
+      targeted. An intervention directed at chronic, compartment-wide substrate catabolism and one directed at
+      acute, axonal catabolism are not interchangeable.
+    </p>
+
+    <div class="tbl-wrap" style="margin-top:18px;">
+      <table class="tbl-fixed">
+        <thead>
+          <tr>
+            <th style="width:12%;">Target</th>
+            <th style="width:20%;">Agents</th>
+            <th style="width:22%;">Mechanism</th>
+            <th style="width:46%;">Evidence &amp; caveat</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><b>CD38</b></td>
+            <td>78c</td>
+            <td>Adduct-forming uncompetitive inhibitor</td>
+            <td>~14% lifespan extension in male mice; severe adverse reactions in females requiring euthanasia — sex-specific</td>
+          </tr>
+          <tr>
+            <td>CD38</td>
+            <td>Quercetin, apigenin</td>
+            <td>Natural flavonoids</td>
+            <td>Weaker and pleiotropic — also act on sirtuins and PI3K</td>
+          </tr>
+          <tr>
+            <td>CD38</td>
+            <td>Daratumumab, isatuximab</td>
+            <td>Anti-CD38 monoclonal antibodies (ADCC / direct apoptosis)</td>
+            <td>Oncology — multiple myeloma; not a longevity tool</td>
+          </tr>
+          <tr>
+            <td><b>SARM1</b></td>
+            <td>Disulfiram</td>
+            <td>Covalent TIR cysteine</td>
+            <td>First-in-class repurposed; graph files it under Paracrine Senescence</td>
+          </tr>
+          <tr>
+            <td>SARM1</td>
+            <td>DSRM-3716</td>
+            <td>Non-covalent pocket binder</td>
+            <td>Preclinical</td>
+          </tr>
+          <tr>
+            <td>SARM1</td>
+            <td>GSK-428</td>
+            <td>Quinazoline, nM IC₅₀</td>
+            <td>Preclinical</td>
+          </tr>
+          <tr>
+            <td>SARM1</td>
+            <td>NB-4746</td>
+            <td>Brain-penetrant</td>
+            <td>Clinical-stage (Nura Bio)</td>
+          </tr>
+          <tr>
+            <td><b>Pool</b></td>
+            <td>NR, NMN</td>
+            <td>Precursor repletion</td>
+            <td>Gated by CD38; raises NMN → SARM1-sensitization risk during or after axonal injury</td>
+          </tr>
+          <tr>
+            <td>Pool</td>
+            <td>FK866</td>
+            <td>NAMPT inhibition — <i>depletes</i> NAD+</td>
+            <td>Oncology; the inverse strategy, same rate-limiting enzyme</td>
+          </tr>
+          <tr>
+            <td><b>PARP</b></td>
+            <td>PARP inhibition</td>
+            <td>Stops the third drain</td>
+            <td>CD38 + PARP inhibition fully reversed LPS-induced NAD+ decline where single agents failed (Covarrubias 2020)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Two targeting strategies, and why combined coverage exceeds either alone</h3>
+    <p>
+      <b>Strategy A — chronic:</b> CD38 inhibition + NR repletion → restore substrate availability for sirtuin
+      catalysis. Operates on the ageing and inflammaging timescale, hours to years.
+    </p>
+    <p>
+      <b>Strategy B — acute:</b> SARM1 inhibition → prevent axonal NAD+ collapse. Operates on the injury
+      timescale, minutes.
+    </p>
+    <p>
+      The combination exceeds simple additivity because the two strategies address <b>different compartments and
+      different timescales of the same substrate pool</b>, so combined coverage is broader than either alone.
+    </p>
+
+    <div class="caveat">
+      <b>Speculative — the synergy edge does not exist in the graph.</b>
+      No extracted edge connects a CD38 inhibitor to a SARM1 inhibitor; the proposition is AMBIGUOUS (0.45) by
+      construction, inferred from convergent node logic. The only supporting precedent is <b>CD38 + PARP</b>, not
+      CD38 + SARM1. Any claim of CD38+SARM1 synergy is untested and should be labelled as such.
+      The NMN-sensitisation caveat still applies to the <b>precursor component of Strategy A</b> (NR/NMN) — but not
+      to CD38 inhibition alone, for the reasons set out above.
+    </div>
+
+    <h3>The CNS compartment map</h3>
+    <p>
+      Microglial CD38 and neuronal SARM1 draw on the same cerebral NAD+ pool while operating on opposite
+      timescales.
+    </p>
+
+    <div class="tbl-wrap" style="margin-top:14px;">
+      <table class="tbl-fixed">
+        <thead>
+          <tr>
+            <th style="width:22%;">Property</th>
+            <th style="width:39%;">Microglial CD38</th>
+            <th style="width:39%;">Neuronal SARM1</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Cell type</td>
+            <td>Microglia (brain-resident macrophage)</td>
+            <td>Neuron (soma, axon, mitochondria)</td>
+          </tr>
+          <tr>
+            <td>Timescale</td>
+            <td>Chronic — aging, neuroinflammation</td>
+            <td>Acute — injury, minutes</td>
+          </tr>
+          <tr>
+            <td>Trigger</td>
+            <td>Inflammaging, immune activation</td>
+            <td>Axonal severance, NMNAT2 depletion</td>
+          </tr>
+          <tr>
+            <td>Output</td>
+            <td>Neuroinflammation, precursor drain</td>
+            <td>Axonal NAD+ catastrophe, Wallerian degeneration</td>
+          </tr>
+          <tr>
+            <td>Disease links</td>
+            <td>Neuroinflammation, aging brain</td>
+            <td>TBI, neuropathy, glaucoma, ALS, AD, PD</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="callout teal">
+      <span class="callout-tag">A convergence the July traces missed</span>
+      <p>
+        In the current build, <b>Chemotherapy-Induced Peripheral Neuropathy</b> is a wiki-layer neighbour of
+        <i>both</i> CD38 and SARM1, sitting in the <code>NAD+</code> community with clustering 0.697. The chronic
+        drain and the acute drain converge on the same clinical indication.
+      </p>
+      <p style="margin-top:10px;">
+        CIPN is <b>wiki-only</b> — the node does not exist in the triples layer at all, and the edges reaching it
+        from CD38 and from SARM1 are wiki co-mention edges with no typed counterpart. The July SARM1 trace did list
+        CIPN as a SARM1 neighbour; what is new is the <i>convergence</i> and the fact that the triples layer cannot
+        see it at all. The July traces ran against the triples graph, where the CIPN node and all three of its
+        edges are absent.
+      </p>
+    </div>
+  </section>
+
+  <!-- ==================== SEX ==================== -->
+  <section id="sex">
+    <h2>Sex divergence — NAD+ is not the same problem in men and women</h2>
+    <p>
+      The vault's NAD+ note carries a substantial sex-difference section with no page home until now, and it
+      changes the therapeutic logic rather than just adding a footnote.
+    </p>
+
+    <div class="tbl-wrap" style="margin-top:18px;">
+      <table class="tbl-fixed">
+        <thead>
+          <tr>
+            <th style="width:30%;">Observation</th>
+            <th style="width:16%;">Direction</th>
+            <th style="width:54%;">Detail &amp; source</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Baseline whole-blood NAD+</td>
+            <td>Male higher</td>
+            <td>34.5 vs 31.3 µmol/L (Yang et al., <i>Front Endocrinol</i> 2022)</td>
+          </tr>
+          <tr>
+            <td>Age trajectory</td>
+            <td>Male declines</td>
+            <td>Males decline progressively from age 60; females fluctuate without monotonic decline</td>
+          </tr>
+          <tr>
+            <td>NAD+/NADH ratio</td>
+            <td>Female higher</td>
+            <td>1.33 vs 1.09, P&lt;0.001; the gap narrows with biological age (Schwarzmann et al., <i>Biosci Rep</i> 2021)</td>
+          </tr>
+          <tr>
+            <td><b>PARP-1 activity</b></td>
+            <td>Male-specific rise</td>
+            <td>PARP activity rises with age in male skin but not female skin; in males PARP inversely correlates with NAD+ (r=−0.639)</td>
+          </tr>
+          <tr>
+            <td>PARP-1 knockout</td>
+            <td>Sex-reversed</td>
+            <td>Protects males from ischemic brain injury but <b>exacerbates</b> damage in females (McCullough et al. 2005)</td>
+          </tr>
+          <tr>
+            <td><b>Ovarian NAD+ decline</b></td>
+            <td>Female-specific</td>
+            <td>CD38 rises with reproductive aging in the ovary; CD38-KO mice have larger primordial follicle pools, higher ovarian NAD+ and increased fecundity (Wang et al., <i>Nature Aging</i> 2023)</td>
+          </tr>
+          <tr>
+            <td><b>NMN lifespan effect</b></td>
+            <td>Sex-split</td>
+            <td>Females +8.5% median lifespan (no metabolic improvement); males improved metabolic health but no lifespan extension (Kane et al., <i>bioRxiv</i> 2024)</td>
+          </tr>
+          <tr>
+            <td>NMN metabolism route</td>
+            <td>Sex-split</td>
+            <td>Greater Preiss–Handler metabolism in females; greater liver salvage metabolism in males</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="caveat">
+      <b>Labelled hypothesis, not proof.</b> The proposed mechanism — estrogen stabilising PARP-1 and thereby sparing
+      NAD+ in females — is an inference, not a direct demonstration. The evidence it rests on (sex-reversed
+      PARP-1 knockout phenotypes, ischemic injury data) is consistent with it but does not prove the mechanism.
+      The pilot observation that women retain higher absolute SIRT1 and SIRT3 protein pools with age
+      (<i>Biology</i> 2025) is preliminary and should not be presented as established.
+    </div>
+
+    <p>
+      The practical consequence: <b>precursor dosing and gate choice may need sex stratification</b>. Males may
+      benefit more from PARP-1 inhibition to slow consumption; females more from CD38 inhibition to prevent
+      ovarian and residual NAD+ decline. Post-menopausal women face a compounding "double decline" — hormonal
+      shift layered on age-related NAD+ change — making them potentially the most responsive population for NAD+
+      restoration, and the 78c adverse-reaction signal in female mice argues against blanket CD38 inhibition in
+      that group.
+    </p>
+  </section>
+
+  <!-- ==================== GAPS ==================== -->
+  <section id="gaps">
+    <h2>Open questions the vault itself flags</h2>
+    <ol class="d-list" style="font-size:.95rem; color:var(--text);">
+      <li><b>Does CD38 inhibition alter SARM1-dependent axon degeneration?</b> No study has tested this directly. The mechanism is sound; the evidence is absent.</li>
+      <li><b>Does combined CD38 + SARM1 inhibition synergize?</b> The only precedent is CD38 + PARP.</li>
+      <li><b>CD38 / SARM1 co-expression in microglia</b> — the graph nodes are stubs in the typed layer.</li>
+      <li><b>NR + CD38-inhibitor dosing</b> — does NMN preservation cross the SARM1 activation threshold?</li>
+      <li><b>CD38 + PARP versus CD38 + SARM1</b> — which dual pairing gives the stronger NAD+ rescue?</li>
+      <li><b>Which NMN ratio matters</b> — plasma, tissue, or the axonal compartment?</li>
+      <li><b>Is the CIPN convergence causal?</b> Both NADases reaching one indication may be a shared causal axis or a co-mention artefact of the wiki layer.</li>
+    </ol>
+
+    <div class="caveat">
+      <b>Scope and status.</b> This page is a graph-derived and preclinical synthesis. The 78c lifespan figure is
+      mouse and male-specific. The CD38+SARM1 synergy is a hypothesis. NR/NMN human efficacy remains contested,
+      and human NAD+ precursor trials to date have generally failed to produce the dramatic phenotypic effects seen
+      in rodents. Nothing here is medical advice.
+    </div>
+  </section>
+
+  <!-- ==================== SOURCES ==================== -->
+  <section id="sources">
+    <h2>Sources &amp; methods</h2>
+
+    <h3>Vault notes</h3>
+    <ul class="d-list">
+      <li><code>src/notes/_link/NAD+.md</code> — roles, biosynthesis, aging, cancer metabolism, sex divergence, MiDAS</li>
+      <li><code>src/notes/_link/CD38.md</code> — enzymology, aging biology, evidence table, consumer cross-talk</li>
+      <li><code>src/notes/_link/SARM1.md</code> — domains, three-phase activation, MARylation, clinical relevance</li>
+      <li><code>src/notes/_link/NMN.md</code> — precursor role, bioavailability, and the SARM1 ratio sensor</li>
+      <li><code>src/notes/_link/NAMPT.md</code> — salvage, circadian control, iNAMPT/eNAMPT, oncology inversion</li>
+      <li><code>src/notes/_link/Nicotinamide Riboside.md</code>, <code>Nicotinamide Mononucleotide.md</code>, <code>NAD+ Salvage Pathway.md</code>, <code>NAD+ Biosynthesis.md</code>, <code>cADPR.md</code>, <code>CZ-48.md</code>, <code>Disulfiram.md</code>, <code>DSRM-3716.md</code>, <code>GSK-428.md</code>, <code>NB-4746.md</code></li>
+    </ul>
+
+    <h3>Task outputs</h3>
+    <ul class="d-list">
+      <li><code>src/tasks/task_output_nad_metabolism_cd38_sarm1_20_Oct_2026.md</code> — the consolidated synthesis; source of every graph figure on this page</li>
+      <li><code>src/tasks/cd38_sarm1_nad_trace/</code> — nine July 2026 traces: CD38 trace, SARM1 trace, competition, synergy, CNS map, bridging gaps, literature gaps, adrenochrome parallel, NAD+→BNIP3 trace</li>
+    </ul>
+
+    <h3>Graph</h3>
+    <p class="metric-note">
+      Combined union — <code>web/public/data/nodes.json</code> + <code>edges.json</code>, 4,821 nodes / 47,925 edges,
+      build 02 Oct 2026 (hash <code>3d9d2c9fe214c0d2</code>). Layer comparisons from <code>wiki-nodes.json</code> and
+      <code>triples-nodes.json</code>. Degree = distinct neighbours in the relevant edge list; in/out = edge
+      incidences; k-core = core number on the simple undirected projection; clustering = same projection. Reproduce with:
+    </p>
+    <p class="metric-note">
+      <code>uv run --with networkx python3 -m scripts analyze-nodes --graph web/public/data/edges.json</code> —
+      or the inlined snippet in the consolidated task output.
+    </p>
+
+    <h3>Primary literature cited</h3>
+    <ul class="d-list">
+      <li>Covarrubias et al. 2020, <i>Nature Metabolism</i> — CD38, NAD+ decline and the LPS rescue (PMID 33028765)</li>
+      <li>Camacho-Pereira et al. 2016, <i>Cell Metabolism</i> — CD38 as the main tissue NMN-degrading enzyme (PMID 27133162)</li>
+      <li>Zhao et al. 2019, <i>iScience</i> — SARM1 vs CD38 catalytic comparison; CZ-48 divergence (PMID 31128467)</li>
+      <li>Figley et al. 2021, <i>Neuron</i> — SARM1 as a sensor of the NMN/NAD+ ratio (PMID 33657413)</li>
+      <li>Takaso et al. 2020, <i>Scientific Reports</i> — CD38 KO delays axon degeneration; NMN activates SARM1 (PMID 33082370)</li>
+      <li>Bratkowski et al. 2022, <i>Neuron</i> — adduct-forming uncompetitive inhibition shared by 78c and SARM1 inhibitors</li>
+      <li>McCullough et al. 2005 — PARP-1 knockout sex reversal in ischemic injury</li>
+      <li>Wang et al. 2023, <i>Nature Aging</i> — CD38 and ovarian NAD+ decline</li>
+      <li>Kane et al. 2024, <i>bioRxiv</i> — sex-split NMN lifespan effects</li>
+    </ul>
+  </section>
+
+</div>
+
+</body>
+</html>

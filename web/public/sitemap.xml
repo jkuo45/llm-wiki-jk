@@ -692,4 +692,22 @@
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/lipid-peroxidation.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/lipid-peroxidation.html"/>
   </url>
+  <url>
+    <loc>https://graph.johnnykuo.com/pages/en-US/nad-metabolism-cd38-sarm1.html</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/nad-metabolism-cd38-sarm1.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/nad-metabolism-cd38-sarm1.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/nad-metabolism-cd38-sarm1.html"/>
+  </url>
+  <url>
+    <loc>https://graph.johnnykuo.com/pages/zh-TW/nad-metabolism-cd38-sarm1.html</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/nad-metabolism-cd38-sarm1.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/nad-metabolism-cd38-sarm1.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/nad-metabolism-cd38-sarm1.html"/>
+  </url>
 </urlset>

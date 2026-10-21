@@ -1,5 +1,5 @@
 {
-  "generated": "20_OCT_2026 07:35 PM PDT",
+  "generated": "21_OCT_2026 06:38 AM PDT",
   "stats": {
     "sirtuin-pleiotropy": {
       "words": 2318,
@@ -216,6 +216,12 @@
       "images": 0,
       "links": 25,
       "diagrams": 1
+    },
+    "nad-metabolism-cd38-sarm1": {
+      "words": 5031,
+      "images": 0,
+      "links": 26,
+      "diagrams": 2
     },
     "hard-coded-biomarker-gates": {
       "words": 4536,
