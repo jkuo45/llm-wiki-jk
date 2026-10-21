@@ -5,11 +5,11 @@
 <!-- GENERATED: summary_table -->
 | topic | updated | documents | entities | words | disk |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 04_OCT_2026 | 33 | 2046 | 1,447,073 | 17.80 MB |
-| [adrenochrome](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 02_OCT_2026 | 19 | 258 | 201,872 | 2.65 MB |
+| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 08_OCT_2026 | 34 | 2061 | 1,475,081 | 18.04 MB |
+| [adrenochrome](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 08_OCT_2026 | 19 | 258 | 202,300 | 2.65 MB |
 | [autophagy](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 04_OCT_2026 | 12 | 234 | 187,217 | 1.73 MB |
 | [cancer](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 04_OCT_2026 | 11 | 286 | 258,502 | 2.99 MB |
-| [cell-death](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cell-death) [[src/notes/cell-death/README\|wiki]] | 04_OCT_2026 | 11 | 89 | 140,565 | 1.53 MB |
+| [cell-death](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cell-death) [[src/notes/cell-death/README\|wiki]] | 08_OCT_2026 | 11 | 91 | 105,417 | 1.13 MB |
 | [comt](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/comt) [[src/notes/comt/README\|wiki]] | 01_OCT_2026 | 2 | 45 | 28,206 | 0.54 MB |
 | [epigenetics](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]] | 04_OCT_2026 | 8 | 225 | 207,456 | 2.23 MB |
 | [hormesis](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/hormesis) [[src/notes/hormesis/README\|wiki]] | 01_OCT_2026 | 7 | 16 | 69,145 | 0.63 MB |
@@ -18,7 +18,7 @@
 | [senescence](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 02_OCT_2026 | 16 | 66 | 156,813 | 2.24 MB |
 | [sirtuins](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 02_OCT_2026 | 20 | 173 | 314,605 | 3.98 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 04_OCT_2026 | **142** | **3633** | **3,166,620** | **38.28 MB** |
+| **subtotal** | 08_OCT_2026 | **143** | **3650** | **3,159,908** | **38.13 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***
@@ -130,12 +130,12 @@ Build: 02_OCT_2026 · hash `3d9d2c9fe214c0d2`
 ## Documents
 
 <details>
-<summary><strong>Documents (142 total)</strong> — click to expand</summary>
+<summary><strong>Documents (143 total)</strong> — click to expand</summary>
 
+- `cell-death`: [Current understanding of eryptosis mechanisms, physiological functions, role in disease, pharmaco...](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/_document_%20-%20Current%20understanding%20of%20eryptosis%20mechanisms%2C%20physiological%20functions%2C%20role%20in%20disease%2C%20pharmacological%20applications%2C%20and%20nomenclature%20recommendations.md) [[src/notes/cell-death/_document_ - Current understanding of eryptosis mechanisms, physiological functions, role in disease, pharmacological applications, and nomenclature recommendations.md|wiki]] (08_OCT_2026 11:56 PM PDT)
 - `autophagy`: [From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/autophagy/_document_%20-%20From%20the%20regulatory%20mechanism%20of%20TFEB%20to%20its%20therapeutic%20implications%20-%20Cell%20Death%20Discovery.md) [[src/notes/autophagy/_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery.md|wiki]] (02_OCT_2026 07:22 AM PDT)
 - `senescence`: [Senecent cell activate neighboring macrophages](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/_document_%20-%20Senecent%20cell%20activate%20neighboring%20macrophages.md) [[src/notes/senescence/_document_ - Senecent cell activate neighboring macrophages.md|wiki]] (02_OCT_2026 07:22 AM PDT)
 - `autophagy`: [s41514-026-00424-3_reference_mitophagy_neuroprotection](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/autophagy/_document_%20-%20s41514-026-00424-3_reference_mitophagy_neuroprotection.md) [[src/notes/autophagy/_document_ - s41514-026-00424-3_reference_mitophagy_neuroprotection.md|wiki]] (01_OCT_2026 10:01 PM PDT)
-- `cell-death`: [Current understanding of eryptosis mechanisms, physiological functions, role in disease, pharmaco...](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/_document_%20-%20Current%20understanding%20of%20eryptosis%20mechanisms%2C%20physiological%20functions%2C%20role%20in%20disease%2C%20pharmacological%20applications%2C%20and%20nomenclature%20recommendations.md) [[src/notes/cell-death/_document_ - Current understanding of eryptosis mechanisms, physiological functions, role in disease, pharmacological applications, and nomenclature recommendations.md|wiki]] (01_OCT_2026 06:21 PM PDT)
 - `_link`: [Mitohormesis - 2023_NOV](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/_document_%20-%20Mitohormesis%20-%202023_NOV.md) [[src/notes/_link/_document_ - Mitohormesis - 2023_NOV.md|wiki]] (29_SEP_2026 05:23 PM PDT)
 - `cancer`: [Apoptosis in cancer from pathogenesis to treatment](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cancer/_document_%20-%20Apoptosis%20in%20cancer%20from%20pathogenesis%20to%20treatment.md) [[src/notes/cancer/_document_ - Apoptosis in cancer from pathogenesis to treatment.md|wiki]] (29_SEP_2026 05:23 PM PDT)
 - `cell-death`: [Regulatory complexity and therapeutic targeting of the necroptosis network](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/_document_%20-%20Regulatory%20complexity%20and%20therapeutic%20targeting%20of%20the%20necroptosis%20network.md) [[src/notes/cell-death/_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network.md|wiki]] (29_SEP_2026 05:23 PM PDT)
@@ -156,6 +156,7 @@ Build: 02_OCT_2026 · hash `3d9d2c9fe214c0d2`
 - `neuromelanin`: [Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/neuromelanin/_document_%20-%20Neuromelanin%2C%20one%20of%20the%20most%20overlooked%20molecules%20in%20modern%20medicine%2C%20is%20not%20a%20spectator.md) [[src/notes/neuromelanin/_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator.md|wiki]] (29_SEP_2026 08:42 AM PDT)
 - `sirtuins`: [The Sirtuin System The Holy Grail of Resveratrol?](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/_document_%20-%20The%20Sirtuin%20System%20The%20Holy%20Grail%20of%20Resveratrol%3F.md) [[src/notes/sirtuins/_document_ - The Sirtuin System The Holy Grail of Resveratrol?.md|wiki]] (29_SEP_2026 08:42 AM PDT)
 - `adrenochrome`: [as senotherapeutic agent](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/_document_%20-%20as%20senotherapeutic%20agent.md) [[src/notes/adrenochrome/_document_ - as senotherapeutic agent.md|wiki]] (26_SEP_2026 03:19 AM PDT)
+- `_link`: [Proximity-guided graph learning reveals tumour-associated proximity antigens](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/_document_%20-%20Proximity-guided%20graph%20learning%20reveals%20tumour-associated%20proximity%20antigens.md) [[src/notes/_link/_document_ - Proximity-guided graph learning reveals tumour-associated proximity antigens.md|wiki]] (22_SEP_2026 08:50 AM PDT)
 - `_link`: [Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/_document_%20-%20Natural%20Bioactive%20Compounds%20Spermidine%20Fisetin%20Berberine%20Urolithin%20A.md) [[src/notes/_link/_document_ - Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A.md|wiki]] (18_SEP_2026 10:57 AM PDT)
 - `senescence`: [Birch and Gil 2020 - Senescence and the SASP many therapeutic avenues](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/_document_%20-%20Birch%20and%20Gil%202020%20-%20Senescence%20and%20the%20SASP%20many%20therapeutic%20avenues.md) [[src/notes/senescence/_document_ - Birch and Gil 2020 - Senescence and the SASP many therapeutic avenues.md|wiki]] (15_SEP_2026 09:55 PM PDT)
 - `cancer`: [Ivermectin, a potential anticancer drug derived from an antiparasitic drug](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cancer/_document_%20-%20Ivermectin%2C%20a%20potential%20anticancer%20drug%20derived%20from%20an%20antiparasitic%20drug.md) [[src/notes/cancer/_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug.md|wiki]] (15_SEP_2026 09:22 AM PDT)
@@ -284,7 +285,7 @@ Build: 02_OCT_2026 · hash `3d9d2c9fe214c0d2`
 <details>
 <summary><strong>Tasks (126 total)</strong> — click to expand</summary>
 
-- [task_output_biomarker_gate_supply_chain_procurement_04_Oct_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_biomarker_gate_supply_chain_procurement_04_Oct_2026.md) [[src/tasks/task_output_biomarker_gate_supply_chain_procurement_04_Oct_2026.md|wiki]] (04_OCT_2026 07:02 PM PDT)
+- [task_output_biomarker_gate_supply_chain_procurement_04_Oct_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_biomarker_gate_supply_chain_procurement_04_Oct_2026.md) [[src/tasks/task_output_biomarker_gate_supply_chain_procurement_04_Oct_2026.md|wiki]] (04_OCT_2026 07:18 PM PDT)
 - [task_output_eryptosis_review_vs_cell_death_01_Oct_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md) [[src/tasks/task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md|wiki]] (04_OCT_2026 01:21 PM PDT)
 - [task_output_bioactive_compounds_aging_formulations_17_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_bioactive_compounds_aging_formulations_17_Sep_2026.md) [[src/tasks/task_output_bioactive_compounds_aging_formulations_17_Sep_2026.md|wiki]] (29_SEP_2026 05:23 PM PDT)
 - [task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md) [[src/tasks/task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md|wiki]] (29_SEP_2026 11:00 AM PDT)
