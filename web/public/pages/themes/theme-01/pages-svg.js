@@ -331,7 +331,7 @@ function compositeStageLabels(cv, ctx, scale){
   const stage = (cv.closest && (cv.closest('.stage') || cv.closest('#ic-stage'))) || cv.parentElement;
   if (!stage || !stage.querySelectorAll) return;
   const cvRect = cv.getBoundingClientRect();
-  const nodes = stage.querySelectorAll('.lbl, .ic-lbl, .phase, #ic-stepflag, #ic-scalebar');
+  const nodes = stage.querySelectorAll('.lbl, .ic-lbl, .phase, .stage-status, .stage-scale, .stage-help, #ic-stepflag, #ic-scalebar, #sel3d-phase, #pd3d-phase');
   nodes.forEach((el)=>{
     if (el.closest && el.closest('.copy-btn')) return;
     let cs;
@@ -407,7 +407,8 @@ function bindCanvasCopyBtn(btn){
         if (!cv) throw new Error('no-canvas');
         const blob = await canvasToBlob(cv);
         const a = document.createElement('a');
-        a.download = (cvId || 'canvas') + '.png';
+        // data-copy-name gives the exported file a page-specific name.
+        a.download = (btn.getAttribute('data-copy-name') || cvId || 'canvas') + '.png';
         a.href = URL.createObjectURL(blob);
         a.click();
         setTimeout(()=>URL.revokeObjectURL(a.href), 4000);

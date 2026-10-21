@@ -221,7 +221,8 @@
 <p style="font-size:.9rem;line-height:1.65">Textbook senolytic diagrams draw a single arrow to <b>apoptosis</b>. In aged-mouse adipose/aorta (CyTOF + scRNA-seq, Yousefzadeh 2018 and follow-ups), intermittent fisetin <b>clears 4 senescent sub-types and spares 2</b> — and effects differ by <b>sex and disease stage</b> (e.g. early-life dosing beneficial in males; no human sex-stratified data). <u>Fisetin spans both panels below — senolytic clearance via PI3K/Akt + Bcl-2/Bcl-xL plus SASP reduction and NRF2 antioxidant defense.</u> Drag to orbit · scroll to zoom · click a cell · fire the pulse.</p>
 <div id="sel3d">
   <div id="sel3d-stage" role="group" aria-label="Three.js model of fisetin-sensitive vs spared senescent cell types">
-    <canvas id="sel3d-canvas" aria-label="3-D fisetin selectivity model"></canvas>
+    <canvas id="sel3d-canvas" aria-label="3-D fisetin selectivity model">
+    <button class="copy-btn" data-copy-canvas="sel3d-canvas" data-copy-name="fisetin-selectivity" title="Copy stage snapshot as PNG" aria-label="Copy stage snapshot as PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button></canvas>
     <div id="sel3d-phase">loading three.js…</div>
   </div>
   <div id="sel3d-bar">
@@ -247,7 +248,8 @@
 <p style="font-size:.9rem;line-height:1.65">Fisetin's four phenolic OH groups (3, 7, 3′, 4′) make it a prime UGT/SULT conjugation substrate — the dominant reason oral exposure collapses. Masking <b>3-OH and 7-OH</b> as <b>isobutyryl esters</b> (leaving the senolytic catechol intact) raises logP ~1.7 units, drops H-bond donors 4→2, and blocks the two major Phase&nbsp;II sites until tissue carboxylesterases (CES1/2) regenerate free fisetin. Below: MMFF-optimized 3D geometries (RDKit, PubChem CID&nbsp;5281614) stepping through conjugation failure → membrane crossing → CES activation → gut → portal → liver first-pass (lobule zonation with CES vs UGT vs CYP3A4 nodes). Drag to orbit · scroll to zoom.</p>
 <div id="pd3d">
   <div id="pd3d-stage" role="group" aria-label="Three.js molecular model of fisetin prodrug activation phases">
-    <canvas id="pd3d-canvas" aria-label="3-D fisetin prodrug molecular model"></canvas>
+    <canvas id="pd3d-canvas" aria-label="3-D fisetin prodrug molecular model">
+    <button class="copy-btn" data-copy-canvas="pd3d-canvas" data-copy-name="fisetin-prodrug" title="Copy stage snapshot as PNG" aria-label="Copy stage snapshot as PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button></canvas>
     <div id="pd3d-phase">loading three.js…</div>
     <div id="pd3d-stats" aria-hidden="true"></div>
   </div>
@@ -372,7 +374,7 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
   if (!stage || !canvas) return;
   var renderer;
   try {
-    renderer = new THREE.WebGLRenderer({ canvas: canvas, antialias: true, alpha: true });
+    renderer = new THREE.WebGLRenderer({ canvas: canvas, antialias: true, alpha: true, preserveDrawingBuffer: true });
   } catch (_) { if (phase) phase.textContent = 'WebGL unavailable — see text summary below.'; return; }
   renderer.setPixelRatio(Math.min(devicePixelRatio || 1, 2));
   var scene = new THREE.Scene();
@@ -569,7 +571,7 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
   var COL = { C: 0x555b66, cap: 0xc9a227, O: 0xc1121f, H: 0xcccccc, oh: 0xe9c46a };
   var renderer;
   try {
-    renderer = new THREE.WebGLRenderer({ canvas: canvas, antialias: true, alpha: true });
+    renderer = new THREE.WebGLRenderer({ canvas: canvas, antialias: true, alpha: true, preserveDrawingBuffer: true });
   } catch (_) { if (phaseEl) phaseEl.textContent = 'WebGL unavailable — see phase list below.'; return; }
   renderer.setPixelRatio(Math.min(devicePixelRatio || 1, 2));
   var scene = new THREE.Scene();
@@ -1031,5 +1033,6 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
   })();
 })();
 </script>
+<script src="../themes/theme-02/pages-svg.js"></script>
 </body>
 </html>

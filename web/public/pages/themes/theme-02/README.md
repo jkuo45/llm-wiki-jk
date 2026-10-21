@@ -18,10 +18,11 @@ page-specific styles/scripts stay inline in each page.
 
 | File | Purpose |
 |---|---|
-| `theme.css` | Shared base: font imports, `:root` light palette, reset, nav/hero primitives **and** shared article chrome (notes, figures, tables, metrics, lightbox…). Loaded BEFORE each page's inline `<style>`. Includes the mobile table readability guard (prose columns get a `min-width` so wide tables scroll horizontally instead of collapsing to narrow columns). |
-| `pages-core.js` | Shared behaviors as global `T2`: SVG diagram helpers (`el`, `text`, `svgRoot`, `arrowHead`, `wrapText`), scroll-spy, chart tooltip, figure lightbox, nav scroll-hint, Reader/iframe detection. Synchronous in `<head>`. |
+| `theme.css` | Shared base: font imports, `:root` light palette, reset, nav/hero primitives **and** shared article chrome (notes, figures, tables, metrics…). Loaded BEFORE each page's inline `<style>`. Includes the mobile table readability guard (prose columns get a `min-width` so wide tables scroll horizontally instead of collapsing to narrow columns). |
+| `pages-core.js` | Shared behaviors as global `T2`: SVG diagram helpers (`el`, `text`, `svgRoot`, `arrowHead`, `wrapText`), scroll-spy, chart tooltip, figure lightbox (auto-initialized on every page), nav scroll-hint, Reader/iframe detection. Synchronous in `<head>`. |
 | `theme.js` | Pre-paint theme bootstrap (no flash) + resident listener for `storage` events / `wiki-theme` postMessages. |
 | `pages-svg.js` | Copy-to-clipboard / PNG export for diagram SVGs and data tables (`resolveCssVars`, `svgToPngBlob`, copy-button sweep). Theme-agnostic — kept as a local copy so theme-02 pages don't depend on theme-01 assets. Loaded at the end of `<body>` (after page figure scripts). |
+| `../shared/figure-lightbox.css` | The figure-lightbox overlay styles (`.lb*`). `theme.css` @imports it; the stage pages (`shared/stage.css` instead of `theme.css`) link it directly. |
 | `dark.css` | `[data-theme="dark"]` token overrides + attribute-selector remaps for hardcoded SVG fill/stroke hexes. Loaded AFTER inline `<style>` so overrides win. |
 
 ## Page head/body template

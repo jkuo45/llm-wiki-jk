@@ -147,77 +147,268 @@ function tipTap(ev, html){
 document.addEventListener('touchstart', ()=>hideTip(), true);
 window.addEventListener('scroll', hideTip, true);
 
-/* ============================= DIAGRAM LIGHTBOX ============================= */
+/* ============================= FIGURE LIGHTBOX =============================
+   One overlay for both figure kinds: inline SVG diagrams (click a diagram
+   to view it full-screen) and raster figure images (gallery cards, <figure>
+   blocks). The overlay copies the figure as PNG, zooms images to their
+   native size, steps through the page's figure images, and behaves like a
+   dialog (Esc / arrow keys, focus restore).
+
+   An SVG diagram is MOVED into the overlay (not cloned) so it keeps its id
+   and every id-scoped page rule (#netSvg{background:...}) still paints the
+   same card; it goes back to its exact place when the overlay closes. */
 (function(){
+  const IMG_SEL = 'figure img, .gallery-card img, .img-wrap img';
+  const SVG_SEL = 'svg[role="img"]';
   const lb = document.createElement('div');
   lb.id = 'diagram-lightbox';
   lb.setAttribute('role', 'dialog');
   lb.setAttribute('aria-modal', 'true');
+  lb.setAttribute('aria-label', 'Figure viewer');
   lb.innerHTML =
-    '<button id="diagram-lightbox-close" aria-label="Close full view">&times;</button>' +
+    '<button id="diagram-lightbox-close" type="button" aria-label="Close full view">&times;</button>' +
+    '<button id="diagram-lightbox-prev" type="button" class="diagram-lightbox-nav" aria-label="Previous figure">&#8249;</button>' +
+    '<button id="diagram-lightbox-next" type="button" class="diagram-lightbox-nav" aria-label="Next figure">&#8250;</button>' +
     '<div class="diagram-lightbox-stage"></div>' +
-    '<div class="diagram-lightbox-caption"></div>';
+    '<div class="diagram-lightbox-caption"></div>' +
+    '<div class="diagram-lightbox-tools">' +
+      '<button type="button" class="diagram-lightbox-tool" data-lb="copy">Copy</button>' +
+      '<button type="button" class="diagram-lightbox-tool" data-lb="zoom">Zoom</button>' +
+      '<a class="diagram-lightbox-tool" data-lb="open" target="_blank" rel="noopener noreferrer" hidden>Open original</a>' +
+    '</div>';
   document.body.appendChild(lb);
   const stage = lb.querySelector('.diagram-lightbox-stage');
   const caption = lb.querySelector('.diagram-lightbox-caption');
+  const tools = lb.querySelector('.diagram-lightbox-tools');
+  const btnCopy = tools.querySelector('[data-lb="copy"]');
+  const btnZoom = tools.querySelector('[data-lb="zoom"]');
+  const linkOpen = tools.querySelector('[data-lb="open"]');
+  const btnPrev = lb.querySelector('#diagram-lightbox-prev');
+  const btnNext = lb.querySelector('#diagram-lightbox-next');
   let lastFocus = null;
+  let current = null;  // { kind:'img'|'svg', src, svg, home:{parent,next}, captionEl }
+  let gallery = [];    // the page's figure images, in document order
+  let index = -1;
 
-  function sizeClone(clone){
-    const vb = clone.getAttribute('viewBox');
+  // Icons (small svgs / thumbs) are not figures — same <60px rule the
+  // copy-button sweep uses in pages-svg.js.
+  function isIcon(el){
+    const r = el.getBoundingClientRect();
+    return (r.width && r.width < 60) || (r.height && r.height < 60);
+  }
+
+  function sizeClone(el){
+    const vb = el.getAttribute('viewBox');
     let W = 1000, H = 1000;
     if (vb){ const p = vb.trim().split(/[\s,]+/).map(Number); if (p.length >= 4){ W = p[2]; H = p[3]; } }
     const maxW = window.innerWidth * 0.94;
     const maxH = window.innerHeight * 0.82;
     let w = maxW, h = w * (H / W);
     if (h > maxH){ h = maxH; w = h * (W / H); }
-    clone.style.width = Math.round(w) + 'px';
-    clone.style.height = Math.round(h) + 'px';
+    el.style.width = Math.round(w) + 'px';
+    el.style.height = Math.round(h) + 'px';
   }
 
-  function openDiagram(svg){
-    const clone = svg.cloneNode(true);
-    clone.removeAttribute('id');
-    sizeClone(clone);
-    stage.innerHTML = '';
-    stage.appendChild(clone);
-    const cap = svg.getAttribute('aria-label');
-    caption.textContent = cap || '';
+  function captionFor(el, isSvg){
+    if (isSvg){
+      const label = el.getAttribute('aria-label');
+      if (label) return label.trim();
+    }
+    const card = el.closest('.gallery-card, figure, .fig, .card');
+    const figcap = card && card.querySelector('figcaption');
+    if (figcap){
+      const t = figcap.textContent.replace(/\s+/g, ' ').trim();
+      if (t) return t;
+    }
+    const parts = [];
+    if (card){
+      const l = card.querySelector('.fig-label');
+      const h = card.querySelector('h3');
+      if (l) parts.push(l.textContent.trim());
+      if (h) parts.push(h.textContent.trim());
+    }
+    if (parts.length) return parts.join(' · ');
+    return (el.getAttribute('aria-label') || el.alt || '').trim();
+  }
+
+  function downloadBlob(blob, name){
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = name;
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    setTimeout(() => URL.revokeObjectURL(a.href), 4000);
+  }
+
+  function flash(msg){
+    const orig = btnCopy.textContent;
+    btnCopy.textContent = msg;
+    btnCopy.disabled = true;
+    setTimeout(() => { btnCopy.textContent = orig; btnCopy.disabled = false; }, 1600);
+  }
+
+  function show(el, isSvg, trigger){
+    const cap = captionFor(el, isSvg);
+    caption.textContent = cap;
     caption.style.display = cap ? 'block' : 'none';
     lb.classList.add('open');
-    document.body.style.overflow = 'hidden';
-    lastFocus = document.activeElement;
+    document.body.classList.add('lb-open');
+    if (!lastFocus) lastFocus = trigger || document.activeElement;
     lb.querySelector('#diagram-lightbox-close').focus();
+    updateNav();
   }
 
-  function closeDiagram(){
+  function updateNav(){
+    // The arrows step through the page's figure IMAGES — an SVG diagram has
+    // no place in that sequence.
+    const many = gallery.length > 1 && current && current.kind === 'img';
+    btnPrev.hidden = !many;
+    btnNext.hidden = !many;
+  }
+
+  function openImage(img, trigger){
+    gallery = Array.from(document.querySelectorAll(IMG_SEL)).filter(el => !isIcon(el));
+    index = gallery.indexOf(img);
+    const src = img.currentSrc || img.src;
+    const full = document.createElement('img');
+    full.className = 'diagram-lightbox-img';
+    full.src = src;
+    full.alt = img.alt || '';
+    stage.innerHTML = '';
+    stage.appendChild(full);
+    current = { kind: 'img', src: src, el: full, captionEl: null };
+    const a = img.closest('a[href]');
+    linkOpen.href = a ? a.getAttribute('href') : src;
+    linkOpen.hidden = false;
+    btnZoom.hidden = false;
+    btnCopy.textContent = 'Copy image';
+    show(img, false, trigger);
+  }
+
+  function openSvg(svg, trigger){
+    const cap = svg.closest('figure, .fig, .gallery-card');
+    const captionEl = cap ? cap.querySelector('figcaption') : null;
+    const home = { parent: svg.parentNode, next: svg.nextSibling };
+    stage.innerHTML = '';
+    svg.classList.add('diagram-lightbox-svg');
+    sizeClone(svg);
+    stage.appendChild(svg);
+    current = { kind: 'svg', svg: svg, home: home, captionEl: captionEl };
+    btnPrev.hidden = true;   // arrows step through the page's figure images
+    btnNext.hidden = true;
+    linkOpen.hidden = true;
+    btnZoom.hidden = true;
+    btnCopy.textContent = 'Copy diagram';
+    show(svg, true, trigger);
+  }
+
+  function closeFigure(){
+    if (!current) return;
+    if (current.kind === 'svg' && current.home && current.home.parent){
+      current.home.parent.insertBefore(current.svg, current.home.next);
+      current.svg.classList.remove('diagram-lightbox-svg');
+      current.svg.style.width = '';
+      current.svg.style.height = '';
+    }
+    current = null;
     lb.classList.remove('open');
     stage.innerHTML = '';
     caption.textContent = '';
-    document.body.style.overflow = '';
+    document.body.classList.remove('lb-open');
     if (lastFocus && lastFocus.focus) lastFocus.focus();
+    lastFocus = null;
+  }
+
+  function step(delta){
+    if (!gallery.length) return;
+    index = (index + delta + gallery.length) % gallery.length;
+    openImage(gallery[index]);
+  }
+
+  async function copyCurrent(){
+    if (!current) return;
+    try {
+      if (current.kind === 'img'){
+        // Cross-origin images need CORS to be readable by canvas; the figure
+        // hosts (cdn.ncbi.nlm.nih.gov, api.johnnykuo.com) send ACAO:*.
+        const res = new Image();
+        res.crossOrigin = 'anonymous';
+        res.src = current.src;
+        await res.decode();
+        const canvas = document.createElement('canvas');
+        canvas.width = res.naturalWidth || res.width;
+        canvas.height = res.naturalHeight || res.height;
+        canvas.getContext('2d').drawImage(res, 0, 0);
+        const blob = await new Promise((ok, no) =>
+          canvas.toBlob(b => b ? ok(b) : no(new Error('toBlob failed')), 'image/png'));
+        if (!(navigator.clipboard && window.ClipboardItem)) throw new Error('clipboard-unsupported');
+        await navigator.clipboard.write([new ClipboardItem({'image/png': blob})]);
+        flash('Copied ✓');
+      } else {
+        const svg = current.svg;
+        if (typeof window.svgToPngBlob === 'function' && svg.id){
+          const blob = await window.svgToPngBlob(svg.id, 2, { captionEl: current.captionEl });
+          if (!(navigator.clipboard && window.ClipboardItem)) throw new Error('clipboard-unsupported');
+          await navigator.clipboard.write([new ClipboardItem({'image/png': blob})]);
+          flash('Copied ✓');
+        } else {
+          // No PNG exporter on this page — fall back to the vector source.
+          const xml = new XMLSerializer().serializeToString(svg);
+          downloadBlob(new Blob([xml], {type:'image/svg+xml;charset=utf-8'}), (svg.id || 'diagram') + '.svg');
+          flash('Saved SVG ✓');
+        }
+      }
+    } catch (err) {
+      // A tainted canvas (image without CORS headers) can't be exported —
+      // point at the original file instead of failing silently.
+      console.warn('figure copy failed', err);
+      flash('Copy unavailable');
+    }
   }
 
   document.addEventListener('click', (e)=>{
     if (lb.classList.contains('open')) return;
     if (e.target.closest && e.target.closest('.copy-btn')) return; // copy button must not open the full view
-    const svg = e.target.closest && e.target.closest('svg[role="img"]');
-    if (svg) openDiagram(svg);
+    const img = e.target.closest && e.target.closest(IMG_SEL);
+    if (img && !isIcon(img)){
+      e.preventDefault(); // the figure may be wrapped in a link to the original
+      openImage(img, img);
+      return;
+    }
+    const svg = e.target.closest && e.target.closest(SVG_SEL);
+    if (svg && !isIcon(svg)) openSvg(svg, svg);
   });
 
   lb.addEventListener('click', (e)=>{
     if (e.target.id === 'diagram-lightbox-close' || e.target === lb || e.target === stage){
-      closeDiagram();
+      closeFigure();
+    } else if (e.target.classList.contains('diagram-lightbox-img')){
+      e.target.classList.toggle('is-original'); // click the image to zoom to 1:1
     }
   });
 
+  tools.addEventListener('click', (e)=>{
+    const btn = e.target.closest('[data-lb]');
+    if (!btn) return;
+    if (btn.dataset.lb === 'copy') copyCurrent();
+    else if (btn.dataset.lb === 'zoom'){
+      const img = stage.querySelector('.diagram-lightbox-img');
+      if (img) img.classList.toggle('is-original');
+    }
+  });
+
+  btnPrev.addEventListener('click', () => step(-1));
+  btnNext.addEventListener('click', () => step(1));
+
   document.addEventListener('keydown', (e)=>{
-    if (e.key === 'Escape' && lb.classList.contains('open')) closeDiagram();
+    if (!lb.classList.contains('open')) return;
+    if (e.key === 'Escape') closeFigure();
+    else if (e.key === 'ArrowLeft') step(-1);
+    else if (e.key === 'ArrowRight') step(1);
   });
 
   window.addEventListener('resize', ()=>{
-    if (lb.classList.contains('open')){
-      const c = stage.querySelector('.diagram-lightbox-svg');
-      if (c) sizeClone(c);
-    }
+    if (lb.classList.contains('open') && current && current.kind === 'svg') sizeClone(current.svg);
   });
 })();

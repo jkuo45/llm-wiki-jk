@@ -13,6 +13,7 @@
 */
 
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400;1,8..60,600&display=swap");
+@import url("../shared/figure-lightbox.css");
 
 :root {
   --paper: #f2ece1;
@@ -1187,7 +1188,7 @@ body {
   }
 }
 
-/* ——— Diagram lightbox ——— */
+/* ——— Figure lightbox (click a diagram or figure image to view full-screen) ——— */
 
 .lb {
   position: fixed;
@@ -1208,6 +1209,91 @@ body {
 
 .lb.open {
   display: flex;
+}
+
+figure img,
+.gallery-card img,
+.img-wrap img {
+  cursor: zoom-in;
+}
+
+/* The diagram is moved into the overlay, so it keeps its own id styles. */
+.lb-svg {
+  display: block;
+  background: var(--sheet);
+  border-radius: 12px;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
+}
+
+.lb-img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+/* Zoom to the image's native resolution (the stage scrolls from there). */
+.lb-img.is-original {
+  max-width: none;
+  max-height: none;
+}
+
+.lb-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--sans);
+  font-size: 28px;
+  line-height: 1;
+  background: rgba(20, 20, 40, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 50%;
+  color: var(--sheet);
+  cursor: pointer;
+  padding: 0;
+}
+
+.lb-nav:hover {
+  border-color: var(--gold-soft);
+  color: var(--gold-soft);
+}
+
+.lb-prev { left: 18px; }
+.lb-next { right: 18px; }
+
+.lb-tools {
+  display: flex;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.lb-tool {
+  font-family: var(--sans);
+  font-size: 12px;
+  line-height: 1;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  background: rgba(20, 20, 40, 0.85);
+  color: var(--sheet);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.lb-tool:hover {
+  border-color: var(--gold-soft);
+  color: var(--gold-soft);
+}
+
+.lb-tool:disabled {
+  opacity: 0.6;
+  cursor: wait;
 }
 
 .lb-stage {
