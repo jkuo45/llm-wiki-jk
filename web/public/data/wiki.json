@@ -1,5 +1,5 @@
 {
-  "generated": "20_OCT_2026 07:54 PM PDT",
+  "generated": "20_OCT_2026 07:59 PM PDT",
   "wiki": [
     {
       "id": "wiki-index",
@@ -443,6 +443,18 @@
           "filename": "Erythrocytes.md",
           "path": "wiki/en-US/adrenochrome/Erythrocytes.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/Erythrocytes.md"
+        },
+        "zh-TW": {
+          "title": "Erythrocytes",
+          "description": "成熟紅血球——充滿血紅素、無核、無胞器、7–8 µm 的雙凹圓盤細胞，其僅存的受調控死亡程式為 eryptosis 與 erythronecroptosis，並同時主導一氧化氮生物可用性、凝血、氧化還原平衡與先天免疫。",
+          "created": "2026-07-04",
+          "updated": "2026-10-08",
+          "tags": [
+            "cell-type",
+            "erythrocyte"
+          ],
+          "filename": "Erythrocytes.md",
+          "path": "wiki/zh-TW/adrenochrome/Erythrocytes.md"
         }
       },
       "stats": {
@@ -540,6 +552,19 @@
           "filename": "TLR9.md",
           "path": "wiki/en-US/_link/TLR9.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/TLR9.md"
+        },
+        "zh-TW": {
+          "title": "TLR9",
+          "description": "內體 Toll 樣受體，負責感受未甲基化的 CpG DNA，並以情境相依的方式調節 cGAS 的表現。",
+          "created": "2026-07-13",
+          "updated": "2026-10-08",
+          "tags": [
+            "protein",
+            "receptor",
+            "innate-immunity"
+          ],
+          "filename": "TLR9.md",
+          "path": "wiki/zh-TW/_link/TLR9.md"
         }
       },
       "stats": {
@@ -600,6 +625,20 @@
           "filename": "Scramblase.md",
           "path": "wiki/en-US/_link/Scramblase.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Scramblase.md"
+        },
+        "zh-TW": {
+          "title": "Scramblase",
+          "description": "鈣活化的磷脂 scramblase（TMEM16F/ANO6、PLSCR 家族），將磷脂醯絲胺酸外露——即 eryptosis 與凋亡所執行的「eat-me」訊號。",
+          "created": "2026-09-10",
+          "updated": "2026-10-08",
+          "tags": [
+            "protein",
+            "calcium-signaling",
+            "cell-death",
+            "membrane-biology"
+          ],
+          "filename": "Scramblase.md",
+          "path": "wiki/zh-TW/_link/Scramblase.md"
         }
       },
       "stats": {
@@ -1424,6 +1463,20 @@
           "filename": "Calpain.md",
           "path": "wiki/en-US/_link/Calpain.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Calpain.md"
+        },
+        "zh-TW": {
+          "title": "Calpain",
+          "description": "Calpain 是一種 Ca2+ 依賴型半胱胺酸蛋白酶；calpain-1 在 parthanatos 中媒介 AIF 的釋放，並經由 BID/BAX 傳遞 Ca2+ 訊號，同時透過消化膜—細胞骨架支架而造成紅血球 eryptosis 的膜出芽。",
+          "created": "2026-07-04",
+          "updated": "2026-10-08",
+          "tags": [
+            "enzyme",
+            "protease",
+            "calcium-signaling",
+            "cell-death"
+          ],
+          "filename": "Calpain.md",
+          "path": "wiki/zh-TW/_link/Calpain.md"
         }
       },
       "stats": {
@@ -1642,6 +1695,20 @@
           "filename": "FASN.md",
           "path": "wiki/en-US/_link/FASN.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/FASN.md"
+        },
+        "zh-TW": {
+          "title": "FASN",
+          "description": "FASN 是人類脂肪酸合成酶，一條 251 kDa 的多酵素多肽鏈，將一個乙醯輔酶 A、七個丙二醯輔酶 A 加上 14 個 NADPH 縮合為棕櫚酸，是從頭脂肪生成的承諾步驟酵素。",
+          "created": "2026-09-29",
+          "updated": "2026-09-29",
+          "tags": [
+            "enzyme",
+            "protein",
+            "lipid-metabolism",
+            "metabolism"
+          ],
+          "filename": "FASN.md",
+          "path": "wiki/zh-TW/_link/FASN.md"
         }
       },
       "stats": {
