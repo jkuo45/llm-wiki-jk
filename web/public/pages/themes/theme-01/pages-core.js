@@ -156,35 +156,40 @@ window.addEventListener('scroll', hideTip, true);
 
    An SVG diagram is MOVED into the overlay (not cloned) so it keeps its id
    and every id-scoped page rule (#netSvg{background:...}) still paints the
-   same card; it goes back to its exact place when the overlay closes. */
+   same card; it goes back to its exact place when the overlay closes.
+
+   The markup and the styles live in themes/shared/figure-lightbox.css —
+   theme-02's pages-core.js emits the exact same markup, so both themes
+   show the same frame. */
 (function(){
   const IMG_SEL = 'figure img, .gallery-card img, .img-wrap img';
   const SVG_SEL = 'svg[role="img"]';
+  const FIG_SEL = SVG_SEL + ', ' + IMG_SEL;
   const lb = document.createElement('div');
-  lb.id = 'diagram-lightbox';
+  lb.className = 'fig-lb';
   lb.setAttribute('role', 'dialog');
   lb.setAttribute('aria-modal', 'true');
   lb.setAttribute('aria-label', 'Figure viewer');
   lb.innerHTML =
-    '<button id="diagram-lightbox-close" type="button" aria-label="Close full view">&times;</button>' +
-    '<button id="diagram-lightbox-prev" type="button" class="diagram-lightbox-nav" aria-label="Previous figure">&#8249;</button>' +
-    '<button id="diagram-lightbox-next" type="button" class="diagram-lightbox-nav" aria-label="Next figure">&#8250;</button>' +
-    '<div class="diagram-lightbox-stage"></div>' +
-    '<div class="diagram-lightbox-caption"></div>' +
-    '<div class="diagram-lightbox-tools">' +
-      '<button type="button" class="diagram-lightbox-tool" data-lb="copy">Copy</button>' +
-      '<button type="button" class="diagram-lightbox-tool" data-lb="zoom">Zoom</button>' +
-      '<a class="diagram-lightbox-tool" data-lb="open" target="_blank" rel="noopener noreferrer" hidden>Open original</a>' +
+    '<button class="fig-lb-close" type="button" aria-label="Close full view">&times;</button>' +
+    '<button class="fig-lb-nav fig-lb-prev" type="button" aria-label="Previous figure">&#8249;</button>' +
+    '<button class="fig-lb-nav fig-lb-next" type="button" aria-label="Next figure">&#8250;</button>' +
+    '<div class="fig-lb-stage"></div>' +
+    '<p class="fig-lb-cap"></p>' +
+    '<div class="fig-lb-tools">' +
+      '<button type="button" class="fig-lb-tool" data-lb="copy">Copy</button>' +
+      '<button type="button" class="fig-lb-tool" data-lb="zoom">Zoom</button>' +
+      '<a class="fig-lb-tool" data-lb="open" target="_blank" rel="noopener noreferrer" hidden>Open original</a>' +
     '</div>';
   document.body.appendChild(lb);
-  const stage = lb.querySelector('.diagram-lightbox-stage');
-  const caption = lb.querySelector('.diagram-lightbox-caption');
-  const tools = lb.querySelector('.diagram-lightbox-tools');
+  const stage = lb.querySelector('.fig-lb-stage');
+  const caption = lb.querySelector('.fig-lb-cap');
+  const tools = lb.querySelector('.fig-lb-tools');
   const btnCopy = tools.querySelector('[data-lb="copy"]');
   const btnZoom = tools.querySelector('[data-lb="zoom"]');
   const linkOpen = tools.querySelector('[data-lb="open"]');
-  const btnPrev = lb.querySelector('#diagram-lightbox-prev');
-  const btnNext = lb.querySelector('#diagram-lightbox-next');
+  const btnPrev = lb.querySelector('.fig-lb-prev');
+  const btnNext = lb.querySelector('.fig-lb-next');
   let lastFocus = null;
   let current = null;  // { kind:'img'|'svg', src, svg, home:{parent,next}, captionEl }
   let gallery = [];    // the page's figure images, in document order
@@ -197,12 +202,20 @@ window.addEventListener('scroll', hideTip, true);
     return (r.width && r.width < 60) || (r.height && r.height < 60);
   }
 
-  function sizeClone(el){
+  // Mark the figures the overlay can open, so the zoom-in cursor matches
+  // exactly what a click does (icons stay un-marked).
+  function markFigures(){
+    document.querySelectorAll(FIG_SEL).forEach(el => {
+      if (!isIcon(el)) el.classList.add('fig-zoom');
+    });
+  }
+
+  function sizeFigure(el){
     const vb = el.getAttribute('viewBox');
     let W = 1000, H = 1000;
     if (vb){ const p = vb.trim().split(/[\s,]+/).map(Number); if (p.length >= 4){ W = p[2]; H = p[3]; } }
-    const maxW = window.innerWidth * 0.94;
-    const maxH = window.innerHeight * 0.82;
+    const maxW = Math.max(window.innerWidth * 0.94, 200);
+    const maxH = window.innerHeight * 0.76;
     let w = maxW, h = w * (H / W);
     if (h > maxH){ h = maxH; w = h * (W / H); }
     el.style.width = Math.round(w) + 'px';
@@ -248,17 +261,6 @@ window.addEventListener('scroll', hideTip, true);
     setTimeout(() => { btnCopy.textContent = orig; btnCopy.disabled = false; }, 1600);
   }
 
-  function show(el, isSvg, trigger){
-    const cap = captionFor(el, isSvg);
-    caption.textContent = cap;
-    caption.style.display = cap ? 'block' : 'none';
-    lb.classList.add('open');
-    document.body.classList.add('lb-open');
-    if (!lastFocus) lastFocus = trigger || document.activeElement;
-    lb.querySelector('#diagram-lightbox-close').focus();
-    updateNav();
-  }
-
   function updateNav(){
     // The arrows step through the page's figure IMAGES — an SVG diagram has
     // no place in that sequence.
@@ -267,12 +269,23 @@ window.addEventListener('scroll', hideTip, true);
     btnNext.hidden = !many;
   }
 
+  function show(el, isSvg, trigger){
+    const cap = captionFor(el, isSvg);
+    caption.textContent = cap;
+    caption.style.display = cap ? '' : 'none';
+    lb.classList.add('open');
+    document.body.classList.add('fig-lb-open');
+    if (!lastFocus) lastFocus = trigger || document.activeElement;
+    lb.querySelector('.fig-lb-close').focus();
+    updateNav();
+  }
+
   function openImage(img, trigger){
     gallery = Array.from(document.querySelectorAll(IMG_SEL)).filter(el => !isIcon(el));
     index = gallery.indexOf(img);
     const src = img.currentSrc || img.src;
     const full = document.createElement('img');
-    full.className = 'diagram-lightbox-img';
+    full.className = 'fig-lb-img';
     full.src = src;
     full.alt = img.alt || '';
     stage.innerHTML = '';
@@ -291,12 +304,10 @@ window.addEventListener('scroll', hideTip, true);
     const captionEl = cap ? cap.querySelector('figcaption') : null;
     const home = { parent: svg.parentNode, next: svg.nextSibling };
     stage.innerHTML = '';
-    svg.classList.add('diagram-lightbox-svg');
-    sizeClone(svg);
+    svg.classList.add('fig-lb-svg');
+    sizeFigure(svg);
     stage.appendChild(svg);
     current = { kind: 'svg', svg: svg, home: home, captionEl: captionEl };
-    btnPrev.hidden = true;   // arrows step through the page's figure images
-    btnNext.hidden = true;
     linkOpen.hidden = true;
     btnZoom.hidden = true;
     btnCopy.textContent = 'Copy diagram';
@@ -307,7 +318,7 @@ window.addEventListener('scroll', hideTip, true);
     if (!current) return;
     if (current.kind === 'svg' && current.home && current.home.parent){
       current.home.parent.insertBefore(current.svg, current.home.next);
-      current.svg.classList.remove('diagram-lightbox-svg');
+      current.svg.classList.remove('fig-lb-svg');
       current.svg.style.width = '';
       current.svg.style.height = '';
     }
@@ -315,7 +326,7 @@ window.addEventListener('scroll', hideTip, true);
     lb.classList.remove('open');
     stage.innerHTML = '';
     caption.textContent = '';
-    document.body.classList.remove('lb-open');
+    document.body.classList.remove('fig-lb-open');
     if (lastFocus && lastFocus.focus) lastFocus.focus();
     lastFocus = null;
   }
@@ -361,7 +372,7 @@ window.addEventListener('scroll', hideTip, true);
       }
     } catch (err) {
       // A tainted canvas (image without CORS headers) can't be exported —
-      // point at the original file instead of failing silently.
+      // say so instead of failing silently.
       console.warn('figure copy failed', err);
       flash('Copy unavailable');
     }
@@ -381,9 +392,9 @@ window.addEventListener('scroll', hideTip, true);
   });
 
   lb.addEventListener('click', (e)=>{
-    if (e.target.id === 'diagram-lightbox-close' || e.target === lb || e.target === stage){
+    if (e.target.classList.contains('fig-lb-close') || e.target === lb || e.target === stage){
       closeFigure();
-    } else if (e.target.classList.contains('diagram-lightbox-img')){
+    } else if (e.target.classList.contains('fig-lb-img')){
       e.target.classList.toggle('is-original'); // click the image to zoom to 1:1
     }
   });
@@ -393,7 +404,7 @@ window.addEventListener('scroll', hideTip, true);
     if (!btn) return;
     if (btn.dataset.lb === 'copy') copyCurrent();
     else if (btn.dataset.lb === 'zoom'){
-      const img = stage.querySelector('.diagram-lightbox-img');
+      const img = stage.querySelector('.fig-lb-img');
       if (img) img.classList.toggle('is-original');
     }
   });
@@ -409,6 +420,12 @@ window.addEventListener('scroll', hideTip, true);
   });
 
   window.addEventListener('resize', ()=>{
-    if (lb.classList.contains('open') && current && current.kind === 'svg') sizeClone(current.svg);
+    if (lb.classList.contains('open') && current && current.kind === 'svg') sizeFigure(current.svg);
   });
+
+  markFigures();
+  // Diagrams are drawn by the page scripts that load after this file, so
+  // re-mark once the DOM is parsed and again after load.
+  document.addEventListener('DOMContentLoaded', markFigures);
+  window.addEventListener('load', markFigures);
 })();

@@ -116,3 +116,68 @@ class TestPublishedFigures:
             "pages must not reference the removed gallery lightbox: "
             + "; ".join(problems)
         )
+
+
+# ---------------------------------------------------------------------------
+# The two themes must show the SAME overlay. They keep separate JS (each
+# theme's own file), but the markup and the styles are shared — otherwise
+# the frames drift apart again (they did: two different lightboxes).
+# ---------------------------------------------------------------------------
+
+THEMES = Path("web/public/pages/themes")
+SHARED_OVERLAY_CSS = THEMES / "shared" / "figure-lightbox.css"
+THEME_CORES = [THEMES / "theme-01" / "pages-core.js", THEMES / "theme-02" / "pages-core.js"]
+THEME_STYLES = [THEMES / "theme-01" / "pages.css", THEMES / "theme-02" / "theme.css"]
+FIG_LB_CLASS = re.compile(r"fig-lb[\w-]*")
+ZOOM_CURSOR = re.compile(r"cursor\s*:\s*zoom-in")
+
+
+def overlay_classes(src: str) -> set:
+    return set(FIG_LB_CLASS.findall(src))
+
+
+@pytest.mark.skipif(not THEMES.exists(), reason="page themes not present")
+class TestOverlayParity:
+    def test_both_themes_emit_the_same_markup(self):
+        sets = {p.name: overlay_classes(p.read_text(encoding="utf-8")) for p in THEME_CORES}
+        assert all(sets.values()), f"no overlay classes found: {sets}"
+        first, *rest = sets.items()
+        for name, classes in rest:
+            assert classes == first[1], (
+                f"{name} emits different overlay classes than {first[0]}: "
+                f"{sorted(classes ^ first[1])}"
+            )
+
+    def test_one_stylesheet_backs_both_overlays(self):
+        assert SHARED_OVERLAY_CSS.exists(), "shared overlay stylesheet missing"
+        for p in THEME_STYLES:
+            src = p.read_text(encoding="utf-8")
+            assert "figure-lightbox.css" in src, f"{p} does not import the shared overlay"
+            # the theme stylesheets must not restyle the overlay themselves
+            assert ".fig-lb" not in src, f"{p} defines .fig-lb rules of its own"
+
+    def test_zoom_cursor_only_on_js_marked_figures(self):
+        """The zoom-in cursor must come from .fig-zoom, not a broad selector.
+
+        A blanket `svg[role="img"]{cursor:zoom-in}` promises zoom on icons
+        the JS refuses to open (they are under 60px), so the cursor lies.
+        """
+        shared = SHARED_OVERLAY_CSS.read_text(encoding="utf-8")
+        assert ".fig-zoom" in shared and ZOOM_CURSOR.search(shared), (
+            "the shared overlay must style .fig-zoom with the zoom-in cursor"
+        )
+        offenders = []
+        for p in THEMES.rglob("*.css"):
+            src = p.read_text(encoding="utf-8")
+            for rule in re.finditer(r"([^{}]*)\{([^{}]*)\}", src):
+                selector, body = rule.group(1), rule.group(2)
+                if not ZOOM_CURSOR.search(body):
+                    continue
+                if ".fig-zoom" in selector:
+                    continue
+                if "svg[role=" in selector or "fig-canvas svg" in selector:
+                    offenders.append(f"{p.name}: {selector.strip()[:60]}")
+        assert not offenders, (
+            "zoom-in cursor must be driven by the .fig-zoom class the JS sets: "
+            + "; ".join(offenders)
+        )

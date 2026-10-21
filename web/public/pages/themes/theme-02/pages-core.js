@@ -174,64 +174,77 @@ window.T2 = (function () {
   }
 
 /* ——— Figure lightbox ———
-     One overlay for both figure kinds: inline SVG diagrams (click a diagram
-     to view it full-screen) and raster figure images (<figure> blocks,
-     gallery cards). The overlay copies the figure as PNG, zooms images to
-     their native size, steps through the page's figure images, and behaves
-     like a dialog (Esc / arrow keys, focus restore).
+       One overlay for both figure kinds: inline SVG diagrams (click a
+       diagram to view it full-screen) and raster figure images (<figure>
+       blocks, gallery cards). The overlay copies the figure as PNG, zooms
+       images to their native size, steps through the page's figure images,
+       and behaves like a dialog (Esc / arrow keys, focus restore).
 
-     An SVG diagram is MOVED into the overlay (not cloned) so it keeps its id
-     and every id-scoped page rule (#netSvg{...}) still paints the same card;
-     it goes back to its exact place when the overlay closes. */
+       An SVG diagram is MOVED into the overlay (not cloned) so it keeps its
+       id and every id-scoped page rule (#netSvg{...}) still paints the same
+       card; it goes back to its exact place when the overlay closes.
 
-  var IMG_SEL = "figure img, .gallery-card img, .img-wrap img";
-  var SVG_SEL = "svg[role=\"img\"]";
+       The markup and the styles live in themes/shared/figure-lightbox.css —
+       theme-01's pages-core.js emits the exact same markup, so both themes
+       show the same frame. */
+
+  var FIG_IMG_SEL = "figure img, .gallery-card img, .img-wrap img";
+  var FIG_SVG_SEL = "svg[role=\"img\"]";
+  var FIG_SEL = FIG_SVG_SEL + ", " + FIG_IMG_SEL;
+
+  // Icons (small svgs / thumbs) are not figures — same <60px rule the
+  // copy-button sweep uses in pages-svg.js.
+  function figIsIcon(el) {
+    var r = el.getBoundingClientRect();
+    return (r.width && r.width < 60) || (r.height && r.height < 60);
+  }
+
+  // Mark the figures the overlay can open, so the zoom-in cursor matches
+  // exactly what a click does (icons stay un-marked).
+  function markFigures() {
+    document.querySelectorAll(FIG_SEL).forEach(function (el) {
+      if (!figIsIcon(el)) el.classList.add("fig-zoom");
+    });
+  }
 
   function initLightbox() {
-    if (document.querySelector(".lb")) return; // idempotent — pages may also call T2.initLightbox()
+    if (document.querySelector(".fig-lb")) return; // idempotent — pages may also call T2.initLightbox()
     var lb = document.createElement("div");
-    lb.className = "lb";
+    lb.className = "fig-lb";
     lb.setAttribute("role", "dialog");
     lb.setAttribute("aria-modal", "true");
     lb.setAttribute("aria-label", "Figure viewer");
     lb.innerHTML =
-      '<button class="lb-close" type="button" aria-label="Close full view">&times;</button>' +
-      '<button class="lb-nav lb-prev" type="button" aria-label="Previous figure">&#8249;</button>' +
-      '<button class="lb-nav lb-next" type="button" aria-label="Next figure">&#8250;</button>' +
-      '<div class="lb-stage"></div>' +
-      '<p class="lb-cap"></p>' +
-      '<div class="lb-tools">' +
-      '<button class="lb-tool" type="button" data-lb="copy">Copy</button>' +
-      '<button class="lb-tool" type="button" data-lb="zoom">Zoom</button>' +
-      '<a class="lb-tool" data-lb="open" target="_blank" rel="noopener noreferrer" hidden>Open original</a>' +
+      '<button class="fig-lb-close" type="button" aria-label="Close full view">&times;</button>' +
+      '<button class="fig-lb-nav fig-lb-prev" type="button" aria-label="Previous figure">&#8249;</button>' +
+      '<button class="fig-lb-nav fig-lb-next" type="button" aria-label="Next figure">&#8250;</button>' +
+      '<div class="fig-lb-stage"></div>' +
+      '<p class="fig-lb-cap"></p>' +
+      '<div class="fig-lb-tools">' +
+      '<button type="button" class="fig-lb-tool" data-lb="copy">Copy</button>' +
+      '<button type="button" class="fig-lb-tool" data-lb="zoom">Zoom</button>' +
+      '<a class="fig-lb-tool" data-lb="open" target="_blank" rel="noopener noreferrer" hidden>Open original</a>' +
       '</div>';
     document.body.appendChild(lb);
-    var stage = lb.querySelector(".lb-stage");
-    var cap = lb.querySelector(".lb-cap");
-    var tools = lb.querySelector(".lb-tools");
+    var stage = lb.querySelector(".fig-lb-stage");
+    var cap = lb.querySelector(".fig-lb-cap");
+    var tools = lb.querySelector(".fig-lb-tools");
     var btnCopy = tools.querySelector('[data-lb="copy"]');
     var btnZoom = tools.querySelector('[data-lb="zoom"]');
     var linkOpen = tools.querySelector('[data-lb="open"]');
-    var btnPrev = lb.querySelector(".lb-prev");
-    var btnNext = lb.querySelector(".lb-next");
+    var btnPrev = lb.querySelector(".fig-lb-prev");
+    var btnNext = lb.querySelector(".fig-lb-next");
     var lastFocus = null;
     var current = null; // { kind:'img'|'svg', src, svg, home:{parent,next}, captionEl }
     var gallery = [];   // the page's figure images, in document order
     var index = -1;
 
-    // Icons (small svgs / thumbs) are not figures — same <60px rule the
-    // copy-button sweep uses in pages-svg.js.
-    function isIcon(el) {
-      var r = el.getBoundingClientRect();
-      return (r.width && r.width < 60) || (r.height && r.height < 60);
-    }
-
-    function sizeClone(el) {
+    function sizeFigure(el) {
       var vb = el.getAttribute("viewBox");
       var W = 1000, H = 1000;
       if (vb) { var p = vb.trim().split(/[\s,]+/).map(Number); if (p.length >= 4) { W = p[2]; H = p[3]; } }
       var maxW = Math.max(window.innerWidth * 0.94, 200);
-      var maxH = window.innerHeight * 0.78;
+      var maxH = window.innerHeight * 0.76;
       var w = maxW, h = w * (H / W);
       if (h > maxH) { h = maxH; w = h * (W / H); }
       el.style.width = Math.round(w) + "px";
@@ -280,8 +293,8 @@ window.T2 = (function () {
     }
 
     function updateNav() {
-      // The arrows step through the page's figure IMAGES — an SVG diagram has
-      // no place in that sequence.
+      // The arrows step through the page's figure IMAGES — an SVG diagram
+      // has no place in that sequence.
       var many = gallery.length > 1 && current && current.kind === "img";
       btnPrev.hidden = !many;
       btnNext.hidden = !many;
@@ -292,18 +305,18 @@ window.T2 = (function () {
       cap.textContent = text;
       cap.style.display = text ? "" : "none";
       lb.classList.add("open");
-      document.body.classList.add("lb-open");
+      document.body.classList.add("fig-lb-open");
       if (!lastFocus) lastFocus = trigger || document.activeElement;
-      lb.querySelector(".lb-close").focus();
+      lb.querySelector(".fig-lb-close").focus();
       updateNav();
     }
 
     function openImage(img, trigger) {
-      gallery = Array.prototype.slice.call(document.querySelectorAll(IMG_SEL)).filter(function (el) { return !isIcon(el); });
+      gallery = Array.prototype.slice.call(document.querySelectorAll(FIG_IMG_SEL)).filter(function (el) { return !figIsIcon(el); });
       index = gallery.indexOf(img);
       var src = img.currentSrc || img.src;
       var full = document.createElement("img");
-      full.className = "lb-img";
+      full.className = "fig-lb-img";
       full.src = src;
       full.alt = img.alt || "";
       stage.innerHTML = "";
@@ -322,12 +335,10 @@ window.T2 = (function () {
       var captionEl = card ? card.querySelector("figcaption") : null;
       var home = { parent: svg.parentNode, next: svg.nextSibling };
       stage.innerHTML = "";
-      svg.classList.add("lb-svg");
-      sizeClone(svg);
+      svg.classList.add("fig-lb-svg");
+      sizeFigure(svg);
       stage.appendChild(svg);
       current = { kind: "svg", svg: svg, home: home, captionEl: captionEl };
-      btnPrev.hidden = true;   // arrows step through the page's figure images
-      btnNext.hidden = true;
       linkOpen.hidden = true;
       btnZoom.hidden = true;
       btnCopy.textContent = "Copy diagram";
@@ -338,13 +349,13 @@ window.T2 = (function () {
       if (!current) return;
       if (current.kind === "svg" && current.home && current.home.parent) {
         current.home.parent.insertBefore(current.svg, current.home.next);
-        current.svg.classList.remove("lb-svg");
+        current.svg.classList.remove("fig-lb-svg");
         current.svg.style.width = "";
         current.svg.style.height = "";
       }
       current = null;
       lb.classList.remove("open");
-      document.body.classList.remove("lb-open");
+      document.body.classList.remove("fig-lb-open");
       stage.innerHTML = "";
       cap.textContent = "";
       if (lastFocus && lastFocus.focus) lastFocus.focus();
@@ -361,8 +372,8 @@ window.T2 = (function () {
       if (!current) return;
       try {
         if (current.kind === "img") {
-          // Cross-origin images need CORS to be readable by canvas; the figure
-          // hosts (cdn.ncbi.nlm.nih.gov, api.johnnykuo.com) send ACAO:*.
+          // Cross-origin images need CORS to be readable by canvas; the
+          // figure hosts (cdn.ncbi.nlm.nih.gov, api.johnnykuo.com) send ACAO:*.
           var res = new Image();
           res.crossOrigin = "anonymous";
           res.src = current.src;
@@ -402,20 +413,20 @@ window.T2 = (function () {
     document.addEventListener("click", function (e) {
       if (lb.classList.contains("open")) return;
       if (e.target.closest && e.target.closest(".copy-btn")) return; // copy button must not open the full view
-      var img = e.target.closest && e.target.closest(IMG_SEL);
-      if (img && !isIcon(img)) {
+      var img = e.target.closest && e.target.closest(FIG_IMG_SEL);
+      if (img && !figIsIcon(img)) {
         e.preventDefault(); // the figure may be wrapped in a link to the original
         openImage(img, img);
         return;
       }
-      var svg = e.target.closest && e.target.closest(SVG_SEL);
-      if (svg && !isIcon(svg)) openSvg(svg, svg);
+      var svg = e.target.closest && e.target.closest(FIG_SVG_SEL);
+      if (svg && !figIsIcon(svg)) openSvg(svg, svg);
     });
 
     lb.addEventListener("click", function (e) {
-      if (e.target.classList.contains("lb-close") || e.target === lb || e.target === stage) {
+      if (e.target.classList.contains("fig-lb-close") || e.target === lb || e.target === stage) {
         closeFigure();
-      } else if (e.target.classList.contains("lb-img")) {
+      } else if (e.target.classList.contains("fig-lb-img")) {
         e.target.classList.toggle("is-original"); // click the image to zoom to 1:1
       }
     });
@@ -425,7 +436,7 @@ window.T2 = (function () {
       if (!btn) return;
       if (btn.dataset.lb === "copy") copyCurrent();
       else if (btn.dataset.lb === "zoom") {
-        var img = stage.querySelector(".lb-img");
+        var img = stage.querySelector(".fig-lb-img");
         if (img) img.classList.toggle("is-original");
       }
     });
@@ -441,8 +452,11 @@ window.T2 = (function () {
     });
 
     window.addEventListener("resize", function () {
-      if (lb.classList.contains("open") && current && current.kind === "svg") sizeClone(current.svg);
+      if (lb.classList.contains("open") && current && current.kind === "svg") sizeFigure(current.svg);
     });
+
+    markFigures();
+    window.addEventListener("load", markFigures);
   }
 
   /* ——— Nav scroll-hint ——— */

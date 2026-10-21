@@ -30,6 +30,11 @@ The original wiki-page theme, coupled to the graph app chrome.
   inline and JS-rendered diagrams re-theme automatically.
 - `pages-gallery.css` — figure-gallery cards & documents-index tables
   (including mobile table→card stacking, labeled via `--tbl-col-1..4`).
+- `../shared/figure-lightbox.css` — the figure-lightbox overlay
+  (`.fig-lb*`), `@import`ed by `pages.css`. It is shared with theme-02,
+  which emits the same markup from its own `pages-core.js`, so both themes
+  show the same frame; only the accent follows each theme's own token
+  (`--teal` here, `--gold-soft` in theme-02).
 
 Pages using this theme live directly in `web/pages/` and reference assets
 as `themes/theme-01/…`.
