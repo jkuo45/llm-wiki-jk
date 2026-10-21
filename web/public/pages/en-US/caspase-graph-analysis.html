@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Caspases — Graph Analysis (wiki + triples)</title>
-<meta name="description" content="Task-output report: multi-metric network analysis of all caspase nodes on the combined triples + wiki knowledge graph — layer decomposition, community structure, centrality and role classification, shortest-path structure, personalized PageRank across death modalities, Adamic-Adar link prediction, graph gaps and an enrichment queue — paired with a literature synthesis on caspase classification, substrates, aging biology, and pharmacology.">
+<meta name="description" content="The caspase enzyme class read through the combined triples + wiki knowledge graph: MEROPS classification, catalytic mechanism and substrate specificity, activation platforms, a 14-member taxonomy table with per-member graph metrics, intra-family wiring, class regulation, assay toolbox and pharmacology — then multi-metric network analysis of all 13 caspase nodes (layer decomposition, community structure, centrality and role classification, shortest-path structure, personalized PageRank across death modalities, Adamic-Adar link prediction, graph gaps and an enrichment queue) and a literature synthesis on substrates, aging biology, and pharmacology.">
 <link rel="canonical" href="https://graph.johnnykuo.com/pages/en-US/caspase-graph-analysis.html">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◎</text></svg>">
 <link rel="stylesheet" href="../themes/theme-02/theme.css">
@@ -53,7 +53,7 @@ figcaption { font-size: 12.5px; }
   <div class="wrap">
     <a class="home" href="https://graph.johnnykuo.com/#reader">← Back</a>
     <div class="nav-links">
-      <a href="#biological-role">Biology</a>
+      <a href="#enzyme-class">Enzyme class</a>
       <a href="#communities">Network</a>
       <a href="#predictions">Predictions</a>
       <a href="#gaps-enrichment">Gaps</a>
@@ -65,21 +65,26 @@ figcaption { font-size: 12.5px; }
 
 <header class="hero">
   <div class="wrap">
-    <p class="kicker">Task Output · Network Analysis · 28 Aug 2026 · Figures re-run 6 Oct 2026</p>
+    <p class="kicker">Caspase enzyme class · Combined wiki + triples graph analysis · Task-output report</p>
     <h1>Caspases — Graph Analysis (wiki + triples)</h1>
     <p class="lede">
-      Multi-metric network analysis of all 13 caspase entities on the combined triples ∪ wiki graph
-      (4,821 nodes / 47,925 edges), with per-layer decomposition — paired with a literature synthesis
-      on caspase classification, activation platforms, substrates, aging biology, and pharmacology.
+      The caspase enzyme class, read through the combined triples ∪ wiki graph (4,821 nodes /
+      47,925 edges): MEROPS classification, catalytic mechanism and substrate specificity, activation
+      platforms, a 14-member taxonomy table carrying each enzyme's graph metrics, intra-family wiring,
+      class regulation, assay toolbox and pharmacology — followed by the multi-metric network analysis
+      itself (layer decomposition, communities, centrality, paths, personalized PageRank, link
+      prediction, enrichment queue) and a literature synthesis on substrates, aging biology, and
+      pharmacology.
     </p>
     <div class="meta">
-      <p><strong>Published</strong> 28 Aug 2026 · <strong>Figures re-run</strong> 6 Oct 2026 (combined 4821n / 47925e; triples abef7fdf · wiki e0d4adc1; Sep build 4539n / 40940e)</p>
+      <p><strong>Published</strong> 28 Aug 2026 · <strong>Figures re-run</strong> 6 Oct 2026 (combined 4821n / 47925e; triples abef7fdf · wiki e0d4adc1; Sep build 4539n / 40940e) · <strong>Enzyme-class chapter</strong> 20 Oct 2026</p>
       <details><summary>Data, source, and raw files</summary>
-      <p><strong>Data</strong> <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/data/nodes.json" target="_blank">nodes.json</a> + <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/data/edges.json" target="_blank">edges.json</a> (combined, per-edge source tags) · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/wiki-out/graph.json" target="_blank">wiki-out/graph.json</a> (wiki layer) · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/data/node_roles.json" target="_blank">node_roles.json</a> (roles, generated 2 Oct 2026)</p>
-      <p><strong>Source</strong> <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_caspase_28_AUG_2026/task_output_caspase_network_deep_dive_28_AUG_2026.md" target="_blank">task output + raw metric runs</a> · <strong>Methods</strong> <a href="node-analysis-examples-biology.html">Node-level Network Analysis for Biological Knowledge Graphs</a> · <strong>Code</strong> <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py" target="_blank">node_analysis</a>, <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/link_prediction.py" target="_blank">link_prediction</a>, <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/role_query.py" target="_blank">role_query</a></p>
-      <p><strong>6 Oct 2026 re-run:</strong> <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_caspase_28_AUG_2026/raw_caspases_combined_graph_06_OCT_2026.txt" target="_blank">raw_caspases_combined_graph_06_OCT_2026.txt</a> (combined union, 4821n/47925e) and <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_caspase_28_AUG_2026/raw_caspases_combined_link_prediction_06_OCT_2026.json" target="_blank">raw_caspases_combined_link_prediction_06_OCT_2026.json</a> (global Adamic-Adar sweep on the union).</p>
-      <p><strong>20 Sep 2026 re-run:</strong> <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_caspase_28_AUG_2026/raw_caspases_combined_graph_20_SEP_2026.txt" target="_blank">raw_caspases_combined_graph_20_SEP_2026.txt</a> (combined union, 4539n/40940e).</p>
-      <p><strong>28 Aug 2026:</strong> <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_caspase_28_AUG_2026/raw_caspases_combined_graph.txt" target="_blank">raw_caspases_combined_graph.txt</a> (combined union), <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_caspase_28_AUG_2026/raw_caspases_wiki_graph_node.txt" target="_blank">raw_caspases_wiki_graph_node.txt</a> (wiki layer), <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_caspase_28_AUG_2026/raw_caspases_wiki_graph_link_prediction.txt" target="_blank">raw_caspases_wiki_graph_link_prediction.txt</a> (wiki Adamic-Adar sweep)</p>
+      <p><strong>Data</strong> <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/data/nodes.json" target="_blank" rel="noopener noreferrer">nodes.json</a> + <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/data/edges.json" target="_blank" rel="noopener noreferrer">edges.json</a> (combined, per-edge source tags) · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/wiki-out/graph.json" target="_blank" rel="noopener noreferrer">wiki-out/graph.json</a> (wiki layer) · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/data/node_roles.json" target="_blank" rel="noopener noreferrer">node_roles.json</a> (roles, generated 2 Oct 2026)</p>
+      <p><strong>Source</strong> <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_caspase_28_AUG_2026/task_output_caspase_network_deep_dive_28_AUG_2026.md" target="_blank" rel="noopener noreferrer">task output + raw metric runs</a> · <strong>Methods</strong> <a href="node-analysis-examples-biology.html">Node-level Network Analysis for Biological Knowledge Graphs</a> · <strong>Code</strong> <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py" target="_blank" rel="noopener noreferrer">node_analysis</a>, <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/link_prediction.py" target="_blank" rel="noopener noreferrer">link_prediction</a>, <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/role_query.py" target="_blank" rel="noopener noreferrer">role_query</a></p>
+      <p><strong>20 Oct 2026 class aggregation:</strong> <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_caspase_28_AUG_2026/raw_caspase_class_aggregates_20_OCT_2026.json" target="_blank" rel="noopener noreferrer">raw_caspase_class_aggregates_20_OCT_2026.json</a> — per-class degree aggregates, intra-family edges, class cliques and activation-platform adjacency for the enzyme-class chapter.</p>
+      <p><strong>6 Oct 2026 re-run:</strong> <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_caspase_28_AUG_2026/raw_caspases_combined_graph_06_OCT_2026.txt" target="_blank" rel="noopener noreferrer">raw_caspases_combined_graph_06_OCT_2026.txt</a> (combined union, 4821n/47925e) and <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_caspase_28_AUG_2026/raw_caspases_combined_link_prediction_06_OCT_2026.json" target="_blank" rel="noopener noreferrer">raw_caspases_combined_link_prediction_06_OCT_2026.json</a> (global Adamic-Adar sweep on the union).</p>
+      <p><strong>20 Sep 2026 re-run:</strong> <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_caspase_28_AUG_2026/raw_caspases_combined_graph_20_SEP_2026.txt" target="_blank" rel="noopener noreferrer">raw_caspases_combined_graph_20_SEP_2026.txt</a> (combined union, 4539n/40940e).</p>
+      <p><strong>28 Aug 2026:</strong> <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_caspase_28_AUG_2026/raw_caspases_combined_graph.txt" target="_blank" rel="noopener noreferrer">raw_caspases_combined_graph.txt</a> (combined union), <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_caspase_28_AUG_2026/raw_caspases_wiki_graph_node.txt" target="_blank" rel="noopener noreferrer">raw_caspases_wiki_graph_node.txt</a> (wiki layer), <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_caspase_28_AUG_2026/raw_caspases_wiki_graph_link_prediction.txt" target="_blank" rel="noopener noreferrer">raw_caspases_wiki_graph_link_prediction.txt</a> (wiki Adamic-Adar sweep)</p>
       </details>
     </div>
   </div>
@@ -89,7 +94,7 @@ figcaption { font-size: 12.5px; }
   <aside class="toc" aria-label="On this page">
     <p>Contents</p>
     <ol>
-      <li><a href="#biological-role">The biological role of caspases</a></li>
+      <li><a href="#enzyme-class">The caspase enzyme class, read through the graph</a></li>
       <li><a href="#scope">Scope</a></li>
       <li><a href="#communities">Community structure: apoptotic vs inflammatory modules</a></li>
       <li><a href="#layers">Layer decomposition: what the triples layer adds</a></li>
@@ -104,11 +109,11 @@ figcaption { font-size: 12.5px; }
   </aside>
 
   <main id="content">
-    <section id="biological-role">
-      <p class="sec-label">Biology</p>
-      <h2>The biological role of caspases</h2>
+    <section id="enzyme-class">
+      <p class="sec-label">Enzyme class</p>
+      <h2>The caspase enzyme class, read through the graph</h2>
       <p class="drop">
-        Caspases are cysteine-aspartic proteases — signaling proteases that make one or two specific
+        Caspases are cysteine-aspartic proteases — signalling enzymes that make one or two specific
         cuts after aspartate residues, converting target proteins into gain- or loss-of-function states
         rather than degrading them (McIlwain, Berger &amp; Mak 2013, PMID 23545416). Humans encode 14:
         <strong>initiators</strong> (CASP-8/9/10/2) dock via DED/CARD prodomains onto activation
@@ -121,22 +126,471 @@ figcaption { font-size: 12.5px; }
       <p>
         Activation is <strong>scaffolded</strong> — platform identity determines which caspase
         activates, in which cell, and with what outcome. Caspases also act outside cell death
-        (non-apoptotic CASP-3 in senescence reinforcement, CASP-1 as a SASP amplifier): these
-        non-canonical roles are exactly the axes the network analysis below tests against the graph.
+        (non-apoptotic CASP-3 in senescence reinforcement, CASP-1 as a SASP amplifier).
       </p>
+      <p>
+        This section walks the enzyme class from its taxonomy down to its pharmacology, and reads each
+        layer against the combined graph: every <em>Graph readout</em> callout is a measurement on the
+        4,821-node / 47,925-edge union, reproducible from
+        <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_caspase_28_AUG_2026/raw_caspase_class_aggregates_20_OCT_2026.json" target="_blank" rel="noopener noreferrer">raw_caspase_class_aggregates_20_OCT_2026.json</a>.
+        The method sections that follow (<a href="#communities">communities</a>,
+        <a href="#centrality">centrality</a>, <a href="#ppr">PPR</a>) carry the full metric detail; here
+        the class is the spine and the graph is the read-out.
+      </p>
+
+      <h3>Classification: where caspases sit in the enzyme hierarchy</h3>
+      <p>
+        Caspases are one branch of the peptidase (protease) superfamily — EC 3.4 hydrolases — and they
+        are defined by <em>how</em> they cut. The catalytic type is set by the active-site nucleophile,
+        which is the scheme used by both the MEROPS peptidase database and the IUBMB nomenclature:
+        serine (Ser–His–Asp charge relay), cysteine (Cys–His dyad, thiolate nucleophile), aspartic
+        (Asp–Asp dyad), metallo (Zn²⁺-activated water), and threonine (Thr nucleophile) types.
+        Caspases belong to the <strong>cysteine (C) type</strong>, and within it to
+        <strong>MEROPS clan CD</strong> (the papain superfamily), family <strong>C1</strong>, subfamily
+        <strong>C1B</strong> — the caspases.
+      </p>
+      <div class="copy-host table-host"><table>
+        <thead>
+          <tr><th>Rank</th><th>Classification</th><th>Value</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Enzyme class</td><td>Peptidase / protease</td><td>EC 3.4 (peptide hydrolases)</td></tr>
+          <tr><td>Subclass</td><td>Endopeptidase</td><td>EC 3.4.21–99 (internal peptide bonds)</td></tr>
+          <tr><td>Catalytic type</td><td>Cysteine peptidase (C)</td><td>Cys–His dyad; thiolate nucleophile; no metal or cofactor</td></tr>
+          <tr><td>MEROPS</td><td>Clan CD → family C1 → subfamily C1B</td><td>Papain superfamily; caspases are the only animal family in C1B</td></tr>
+          <tr><td>Vault note</td><td><code>src/notes/_link/Protease.md</code></td><td>Class-level container; names caspases as "clan CD"</td></tr>
+        </tbody>
+      </table></div>
+      <div class="note">
+        <h4>Graph readout</h4>
+        <p>
+          The vault models that hierarchy as a note, and the graph wires it thinly: the
+          <code>Protease</code> node has union degree 38 and reaches exactly three caspase nodes —
+          Caspase-1, Caspase-3, and the generic <code>Caspases</code> class node — while
+          <code>Cathepsins</code> (degree 25) touches the family only through <code>Caspases</code>.
+          The superfamily edge exists but carries almost no weight, so the graph will not surface
+          cross-superfamily relations (caspase–calpain crosstalk, caspase–proteasome coupling) on its
+          own: they have to be wired deliberately.
+        </p>
+      </div>
+
+      <h3>Catalytic mechanism and substrate specificity</h3>
+      <p>
+        All caspases share one catalytic construction: a Cys–His dyad (plus a third residue, Arg-179 in
+        human caspase-3, that orients the substrate) generates a thiolate nucleophile that attacks the
+        scissile peptide bond, with water completing the hydrolysis. The strict requirement is an
+        aspartate at P1; preference at P2–P4 is what separates family members. These preferences are
+        encoded in the S1–S4 substrate-recognition pocket, and the differences are small but decisive:
+        executioner caspases carry a glycine at S2 and prefer acidic P2 residues, whereas initiator
+        caspases carry a bulkier S2 side chain and accept hydrophobic P2 — caspase-8's <code>IETD</code>,
+        caspase-9's <code>FEAD</code>, caspase-6's <code>LETD</code>, caspase-3/7's <code>DEVD</code>.
+        Caspase-2 is the odd case: a small S2 pocket (Ala-338) plus a strong P5 requirement, which is why
+        it recognises sites (e.g. <code>IEKD</code>) no other family member will cut.
+      </p>
+      <p>
+        The enzymological consequence is that a caspase is a <strong>signed, limited editor</strong> of
+        its substrates, not a bulk degrader: one or two cuts at defined sites convert a target into a new
+        active, inactive or fragmented state. The same cleavage can be activating in one substrate and
+        inhibiting in another — which is why "cleaved" is not the same as "degraded" in every pathway
+        below.
+      </p>
+      <div class="note">
+        <h4>Graph readout</h4>
+        <p>
+          The most-connected node in the family is also the one carrying the most-used motif:
+          Caspase-3 (<code>DEVD</code>) has union degree 76 with in-degree 59 — the family's most-cited
+          member. Caspase-7 shares the <code>DEVD</code> specificity but sits at degree 26, and Caspase-6
+          (<code>LETD</code>) at 16 lands in its own community ("Apoptosis-Inducing Factor"), because its
+          lamin edge dominates its neighbourhood. The reading: graph degree tracks how many notes a
+          member participates in, which correlates with motif ubiquity but is <em>not</em> an
+          enzymological ranking — Caspase-6 is narrowly specific, not weak.
+        </p>
+      </div>
+
+      <h3>Activation platforms: the class's control layer</h3>
+      <p>
+        Caspases are synthesized as inactive zymogens. Initiators are activated by <strong>induced
+        proximity</strong> — dimerization on a scaffold, not proteolysis — which is why platform identity
+        decides the outcome; executioners are activated by <strong>initiator-mediated cleavage</strong> of
+        their interdomain linker. The platforms are the family's regulatory core:
+      </p>
+      <div class="copy-host table-host"><table>
+        <thead>
+          <tr><th>Platform</th><th>Composition</th><th>Caspases</th><th>Activation mode</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>Apoptosome</strong></td><td>Cytochrome c + Apaf-1 + dATP (heptamer)</td><td>Caspase-9</td><td>CARD–CARD recruitment, proximity dimerization</td></tr>
+          <tr><td><strong>DISC</strong></td><td>Fas/TRAIL/TNFR1 + FADD/TRADD</td><td>Caspase-8, Caspase-10</td><td>DED clustering, dimerization</td></tr>
+          <tr><td><strong>PIDDosome</strong></td><td>PIDD + RAIDD + Caspase-2</td><td>Caspase-2</td><td>Five-PIDD domain assembly on genotoxic stress</td></tr>
+          <tr><td><strong>Inflammasome</strong></td><td>NLRP3/NLRP1/NLRC4/AIM2/pyrin + ASC</td><td>Caspase-1</td><td>Clustered CARD recruitment</td></tr>
+          <tr><td><strong>Noncanonical inflammasome</strong></td><td>Caspase-4/5/11 CARD binding cytosolic LPS</td><td>Caspase-4, -5, -11</td><td>Direct CARD–lipid binding, no scaffold</td></tr>
+          <tr><td><strong>Initiator relay</strong> (no scaffold)</td><td>Caspase-8/-9/-10</td><td>Caspase-3, -6, -7</td><td>Interdomain-linker cleavage by an initiator</td></tr>
+          <tr><td><strong>ER stress</strong></td><td>ER membrane, UPR signalling</td><td>Caspase-12 (mouse; human pseudogene)</td><td>Autocatalytic, disulfide-mediated</td></tr>
+        </tbody>
+      </table></div>
+
+      <p>
+        <strong>Figure 1</strong> maps every member onto the platforms and class regulators it is
+        actually wired to — and makes the two exceptions legible at a glance.
+      </p>
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">Figure 1 · Class × activation-platform incidence map (combined union, 20 Oct 2026 class aggregation)</span></div>
+        <div class="copy-host">
+        <svg viewBox="0 0 980 842" role="img" aria-label="Incidence matrix of the 13 caspase nodes against their activation platforms and class regulators">
+<text x="248" y="26" font-size="12" font-weight="700" fill="var(--slate-soft, #4c6e86)">ACTIVATION PLATFORMS</text>
+<text x="578" y="26" font-size="12" font-weight="700" fill="var(--gold-soft, #c49a4a)">CLASS REGULATORS / SUBSTRATES</text>
+<line x1="248" y1="34" x2="578" y2="34" stroke="var(--slate-soft, #4c6e86)" stroke-opacity="0.75" stroke-width="2"/>
+<line x1="578" y1="34" x2="974" y2="34" stroke="var(--gold-soft, #c49a4a)" stroke-opacity="0.75" stroke-width="2"/>
+<line x1="248" y1="124" x2="248" y2="778" stroke="var(--rule, #d3c9b6)" stroke-opacity="0.55" stroke-width="1"/>
+<line x1="314" y1="124" x2="314" y2="778" stroke="var(--rule, #d3c9b6)" stroke-opacity="0.55" stroke-width="1"/>
+<line x1="380" y1="124" x2="380" y2="778" stroke="var(--rule, #d3c9b6)" stroke-opacity="0.55" stroke-width="1"/>
+<line x1="446" y1="124" x2="446" y2="778" stroke="var(--rule, #d3c9b6)" stroke-opacity="0.55" stroke-width="1"/>
+<line x1="512" y1="124" x2="512" y2="778" stroke="var(--rule, #d3c9b6)" stroke-opacity="0.55" stroke-width="1"/>
+<line x1="578" y1="124" x2="578" y2="778" stroke="var(--rule, #d3c9b6)" stroke-opacity="0.55" stroke-width="1"/>
+<line x1="644" y1="124" x2="644" y2="778" stroke="var(--rule, #d3c9b6)" stroke-opacity="0.55" stroke-width="1"/>
+<line x1="710" y1="124" x2="710" y2="778" stroke="var(--rule, #d3c9b6)" stroke-opacity="0.55" stroke-width="1"/>
+<line x1="776" y1="124" x2="776" y2="778" stroke="var(--rule, #d3c9b6)" stroke-opacity="0.55" stroke-width="1"/>
+<line x1="842" y1="124" x2="842" y2="778" stroke="var(--rule, #d3c9b6)" stroke-opacity="0.55" stroke-width="1"/>
+<line x1="908" y1="124" x2="908" y2="778" stroke="var(--rule, #d3c9b6)" stroke-opacity="0.55" stroke-width="1"/>
+<line x1="974" y1="124" x2="974" y2="778" stroke="var(--rule, #d3c9b6)" stroke-opacity="0.55" stroke-width="1"/>
+<text transform="translate(254,118) rotate(-45)" font-size="12" dy="0" fill="var(--slate-soft, #4c6e86)">DISC</text>
+<text transform="translate(320,118) rotate(-45)" font-size="12" dy="0" fill="var(--slate-soft, #4c6e86)">Apoptosome</text>
+<text transform="translate(386,118) rotate(-45)" font-size="12" dy="0" fill="var(--slate-soft, #4c6e86)">PIDDosome</text>
+<text transform="translate(452,118) rotate(-45)" font-size="12" dy="0" fill="var(--slate-soft, #4c6e86)">Inflammasome</text>
+<text transform="translate(518,118) rotate(-45)" font-size="12" dy="0" fill="var(--slate-soft, #4c6e86)">Noncanonical</text>
+<text transform="translate(518,118) rotate(-45)" font-size="12" dy="13" fill="var(--slate-soft, #4c6e86)">Inflammasome</text>
+<text transform="translate(584,118) rotate(-45)" font-size="12" dy="0" fill="var(--gold-soft, #c49a4a)">Gasdermin D</text>
+<text transform="translate(650,118) rotate(-45)" font-size="12" dy="0" fill="var(--gold-soft, #c49a4a)">XIAP</text>
+<text transform="translate(716,118) rotate(-45)" font-size="12" dy="0" fill="var(--gold-soft, #c49a4a)">c-FLIP</text>
+<text transform="translate(782,118) rotate(-45)" font-size="12" dy="0" fill="var(--gold-soft, #c49a4a)">Bid</text>
+<text transform="translate(848,118) rotate(-45)" font-size="12" dy="0" fill="var(--gold-soft, #c49a4a)">Apaf-1</text>
+<text transform="translate(914,118) rotate(-45)" font-size="12" dy="0" fill="var(--gold-soft, #c49a4a)">Cytochrome c</text>
+<line x1="20" y1="130" x2="974" y2="130" stroke="var(--rule, #d3c9b6)" stroke-opacity="0.9" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="24" y="155" font-size="9.5" font-weight="700" fill="var(--mute, #6d665b)">INITIATOR</text>
+<text x="108" y="155" font-size="10.5" fill="var(--mute, #6d665b)">mean deg 36.8 · 43.0%</text>
+<text x="108" y="188" font-size="12.5" fill="var(--ink, #1c1915)">Caspase-2</text>
+<text x="238" y="188" font-size="11" text-anchor="end" fill="var(--mute, #6d665b)">deg 20</text>
+<circle cx="809.0" cy="183" r="6.5" fill="var(--gold-soft, #c49a4a)"/>
+<circle cx="413.0" cy="183" r="6.5" fill="var(--slate-soft, #4c6e86)"/>
+<text x="108" y="224" font-size="12.5" fill="var(--ink, #1c1915)">Caspase-8</text>
+<text x="238" y="224" font-size="11" text-anchor="end" fill="var(--mute, #6d665b)">deg 67</text>
+<circle cx="281.0" cy="219" r="6.5" fill="var(--slate-soft, #4c6e86)"/>
+<circle cx="809.0" cy="219" r="6.5" fill="var(--gold-soft, #c49a4a)"/>
+<circle cx="743.0" cy="219" r="6.5" fill="var(--gold-soft, #c49a4a)"/>
+<text x="108" y="260" font-size="12.5" fill="var(--ink, #1c1915)">Caspase-9</text>
+<text x="238" y="260" font-size="11" text-anchor="end" fill="var(--mute, #6d665b)">deg 42</text>
+<circle cx="347.0" cy="255" r="6.5" fill="var(--slate-soft, #4c6e86)"/>
+<circle cx="941.0" cy="255" r="6.5" fill="var(--gold-soft, #c49a4a)"/>
+<circle cx="677.0" cy="255" r="6.5" fill="var(--gold-soft, #c49a4a)"/>
+<circle cx="875.0" cy="255" r="6.5" fill="var(--gold-soft, #c49a4a)"/>
+<text x="108" y="296" font-size="12.5" fill="var(--ink, #1c1915)">Caspase-10</text>
+<text x="238" y="296" font-size="11" text-anchor="end" fill="var(--mute, #6d665b)">deg 18</text>
+<circle cx="281.0" cy="291" r="6.5" fill="var(--slate-soft, #4c6e86)"/>
+<circle cx="743.0" cy="291" r="6.5" fill="var(--gold-soft, #c49a4a)"/>
+<line x1="20" y1="310" x2="974" y2="310" stroke="var(--rule, #d3c9b6)" stroke-opacity="0.9" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="24" y="335" font-size="9.5" font-weight="700" fill="var(--mute, #6d665b)">EXECUTIONER</text>
+<text x="108" y="335" font-size="10.5" fill="var(--mute, #6d665b)">mean deg 39.3 · 34.5%</text>
+<text x="108" y="368" font-size="12.5" fill="var(--ink, #1c1915)">Caspase-3</text>
+<text x="238" y="368" font-size="11" text-anchor="end" fill="var(--mute, #6d665b)">deg 76</text>
+<circle cx="281.0" cy="363" r="6.5" fill="var(--slate-soft, #4c6e86)"/>
+<circle cx="347.0" cy="363" r="6.5" fill="var(--slate-soft, #4c6e86)"/>
+<circle cx="611.0" cy="363" r="6.5" fill="var(--gold-soft, #c49a4a)"/>
+<circle cx="677.0" cy="363" r="6.5" fill="var(--gold-soft, #c49a4a)"/>
+<circle cx="875.0" cy="363" r="6.5" fill="var(--gold-soft, #c49a4a)"/>
+<text x="108" y="404" font-size="12.5" fill="var(--ink, #1c1915)">Caspase-7</text>
+<text x="238" y="404" font-size="11" text-anchor="end" fill="var(--mute, #6d665b)">deg 26</text>
+<circle cx="347.0" cy="399" r="6.5" fill="var(--slate-soft, #4c6e86)"/>
+<circle cx="677.0" cy="399" r="6.5" fill="var(--gold-soft, #c49a4a)"/>
+<text x="108" y="440" font-size="12.5" fill="var(--ink, #1c1915)">Caspase-6</text>
+<text x="238" y="440" font-size="11" text-anchor="end" fill="var(--mute, #6d665b)">deg 16</text>
+<text x="254" y="439" font-size="11" fill="var(--faint, #8d8578)">—</text>
+<line x1="20" y1="454" x2="974" y2="454" stroke="var(--rule, #d3c9b6)" stroke-opacity="0.9" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="24" y="479" font-size="9.5" font-weight="700" fill="var(--mute, #6d665b)">INFLAMMATORY</text>
+<text x="108" y="479" font-size="10.5" fill="var(--mute, #6d665b)">mean deg 17.5 · 20.5%</text>
+<text x="108" y="512" font-size="12.5" fill="var(--ink, #1c1915)">Caspase-1</text>
+<text x="238" y="512" font-size="11" text-anchor="end" fill="var(--mute, #6d665b)">deg 40</text>
+<circle cx="809.0" cy="507" r="6.5" fill="var(--gold-soft, #c49a4a)"/>
+<circle cx="479.0" cy="507" r="6.5" fill="var(--slate-soft, #4c6e86)"/>
+<circle cx="545.0" cy="507" r="6.5" fill="var(--slate-soft, #4c6e86)"/>
+<circle cx="611.0" cy="507" r="6.5" fill="var(--gold-soft, #c49a4a)"/>
+<text x="108" y="548" font-size="12.5" fill="var(--ink, #1c1915)">Caspase-4</text>
+<text x="238" y="548" font-size="11" text-anchor="end" fill="var(--mute, #6d665b)">deg 10</text>
+<circle cx="479.0" cy="543" r="6.5" fill="var(--slate-soft, #4c6e86)"/>
+<circle cx="545.0" cy="543" r="6.5" fill="var(--slate-soft, #4c6e86)"/>
+<circle cx="611.0" cy="543" r="6.5" fill="var(--gold-soft, #c49a4a)"/>
+<text x="108" y="584" font-size="12.5" fill="var(--ink, #1c1915)">Caspase-5</text>
+<text x="238" y="584" font-size="11" text-anchor="end" fill="var(--mute, #6d665b)">deg 10</text>
+<circle cx="479.0" cy="579" r="6.5" fill="var(--slate-soft, #4c6e86)"/>
+<circle cx="545.0" cy="579" r="6.5" fill="var(--slate-soft, #4c6e86)"/>
+<circle cx="611.0" cy="579" r="6.5" fill="var(--gold-soft, #c49a4a)"/>
+<text x="108" y="620" font-size="12.5" fill="var(--ink, #1c1915)">Caspase-11</text>
+<text x="238" y="620" font-size="11" text-anchor="end" fill="var(--mute, #6d665b)">deg 10</text>
+<circle cx="479.0" cy="615" r="6.5" fill="var(--slate-soft, #4c6e86)"/>
+<circle cx="545.0" cy="615" r="6.5" fill="var(--slate-soft, #4c6e86)"/>
+<circle cx="611.0" cy="615" r="6.5" fill="var(--gold-soft, #c49a4a)"/>
+<line x1="20" y1="634" x2="974" y2="634" stroke="var(--rule, #d3c9b6)" stroke-opacity="0.9" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="24" y="659" font-size="9.5" font-weight="700" fill="var(--mute, #6d665b)">OTHER</text>
+<text x="108" y="659" font-size="10.5" fill="var(--mute, #6d665b)">mean deg 7.0 · 2.0%</text>
+<text x="108" y="692" font-size="12.5" fill="var(--ink, #1c1915)">Caspase-12</text>
+<text x="238" y="692" font-size="11" text-anchor="end" fill="var(--mute, #6d665b)">deg 7</text>
+<text x="254" y="691" font-size="11" fill="var(--faint, #8d8578)">—</text>
+<line x1="20" y1="706" x2="974" y2="706" stroke="var(--rule, #d3c9b6)" stroke-opacity="0.9" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="24" y="731" font-size="9.5" font-weight="700" fill="var(--mute, #6d665b)">class node</text>
+<text x="108" y="764" font-size="12.5" fill="var(--ink, #1c1915)">Caspases</text>
+<text x="238" y="764" font-size="11" text-anchor="end" fill="var(--mute, #6d665b)">deg 43</text>
+<circle cx="875.0" cy="759" r="6.5" fill="var(--gold-soft, #c49a4a)"/>
+<circle cx="941.0" cy="759" r="6.5" fill="var(--gold-soft, #c49a4a)"/>
+<circle cx="479.0" cy="759" r="6.5" fill="var(--slate-soft, #4c6e86)"/>
+<circle cx="677.0" cy="759" r="6.5" fill="var(--gold-soft, #c49a4a)"/>
+<text x="24" y="788" font-size="11" fill="var(--mute, #6d665b)">Filled dot = edge present in the combined union (triples ∪ wiki), 20 Oct 2026 class aggregation run. Slate = activation platform, amber = class regulator or substrate.</text>
+<text x="24" y="804" font-size="11" fill="var(--mute, #6d665b)">A member with no platform dot is not scaffolded: Caspase-6 is cleaved by initiators, Caspase-12's ER platform is unwired.</text>
+</svg>
+        </div>
+        <figcaption>
+          <strong>The graph encodes the scaffold architecture almost one-to-one.</strong> Slate dots are
+          activation-platform edges, amber dots are class regulator or substrate edges. Every
+          scaffolded member is wired to its own platform: Caspase-8/10 to the DISC, Caspase-9 to the
+          Apoptosome, Caspase-2 to the PIDDosome, Caspase-1/4/5/11 to the canonical and noncanonical
+          inflammasomes and to Gasdermin D. The two members with no platform dot are informative —
+          Caspase-6 has no scaffold <em>by definition</em> (it is activated by initiator cleavage, not
+          by proximity), and Caspase-12's ER-stress platform is a genuine modelling gap (the Unfolded
+          Protein Response node exists at degree 63, but no edge connects it to Caspase-12). The
+          regulator columns show the same asymmetry in the other direction: XIAP and Apaf-1 reach the
+          executioners, c-FLIP reaches Caspase-8/10, and <em>no</em> regulator reaches the inflammatory
+          branch. Class aggregates: executioner mean degree 39.3 (34.5% of family links), initiator 36.8
+          (43.0%), inflammatory 17.5 (20.5%), other 7.0 (2.0%).
+        </figcaption>
+      </figure>
+
+      <h3>Family taxonomy: 14 enzymes, 13 graph nodes</h3>
+      <p>
+        The class is fully enumerated below: enzymology on the left, the graph's reading of each member on
+        the right. Two further graph nodes belong to the family without being enzymes of it:
+        <code>Executioner Caspase</code> (a class stub, degree 10, Periphery) and the site-level stubs
+        <code>Caspase-3 (at Ser150)</code> and <code>Caspase-2 Ser135</code> (degree 1 each). Degrees are distinct neighbours in the combined union; k-core is the union
+        giant-component value from the node-analysis run; roles come from the vault's classifier
+        (<code>node_roles.json</code>). Vault notes live in <code>src/notes/cell-death/</code>
+        (Caspase-1 in <code>src/notes/adrenochrome/</code>); Caspase-14 has no note.
+      </p>
+      <div class="copy-host table-host"><table>
+        <thead>
+          <tr><th>Caspase</th><th>Class</th><th>Prodomain</th><th>Platform</th><th>Motif</th><th class="num">Deg (in/out)</th><th class="num">k-core</th><th>Roles · community</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>Caspase-1</strong></td><td>Inflammatory</td><td>CARD</td><td>Inflammasome / noncanonical</td><td>GSDMD (D275), pro-IL-1β</td><td class="num">40 (35/13)</td><td class="num">17</td><td>Sink · Bottleneck · Paracrine Senescence</td></tr>
+          <tr><td>Caspase-2</td><td>Initiator</td><td>CARD</td><td>PIDDosome</td><td>IEKD (proposed)</td><td class="num">20 (18/13)</td><td class="num">13</td><td>Bottleneck · Akt</td></tr>
+          <tr><td><strong>Caspase-3</strong></td><td>Executioner</td><td>short</td><td>Initiator relay</td><td>DEVD</td><td class="num">76 (59/36)</td><td class="num">18</td><td>Sink · Master regulator · Bottleneck · Apoptosis</td></tr>
+          <tr><td>Caspase-4</td><td>Inflammatory</td><td>CARD</td><td>Noncanonical (LPS)</td><td>GSDMD (D275)</td><td class="num">10 (5/8)</td><td class="num">10</td><td>Periphery · Paracrine Senescence</td></tr>
+          <tr><td>Caspase-5</td><td>Inflammatory</td><td>CARD</td><td>Noncanonical (LPS)</td><td>GSDMD (D275)</td><td class="num">10 (6/8)</td><td class="num">10</td><td>Spreader · Module member · Paracrine Senescence</td></tr>
+          <tr><td>Caspase-6</td><td>Executioner</td><td>short</td><td>Initiator relay</td><td>LETD</td><td class="num">16 (6/13)</td><td class="num">12</td><td>Spreader · Apoptosis-Inducing Factor</td></tr>
+          <tr><td>Caspase-7</td><td>Executioner</td><td>short</td><td>Initiator relay</td><td>DEVD</td><td class="num">26 (22/13)</td><td class="num">16</td><td>Sink · Bottleneck · Apoptosis</td></tr>
+          <tr><td><strong>Caspase-8</strong></td><td>Initiator</td><td>2× DED</td><td>DISC</td><td>IETD</td><td class="num">67 (59/40)</td><td class="num">17</td><td>Sink · Master regulator · Bottleneck · Caspase-8</td></tr>
+          <tr><td>Caspase-9</td><td>Initiator</td><td>CARD</td><td>Apoptosome</td><td>FEAD</td><td class="num">42 (37/25)</td><td class="num">17</td><td>Sink · Bottleneck · Apoptosis</td></tr>
+          <tr><td>Caspase-10</td><td>Initiator</td><td>2× DED</td><td>DISC</td><td>IETD</td><td class="num">18 (7/14)</td><td class="num">15</td><td>Spreader · Apoptosis</td></tr>
+          <tr><td>Caspase-11</td><td>Inflammatory (murine)</td><td>CARD</td><td>Noncanonical (LPS)</td><td>GSDMD (D275)</td><td class="num">10 (6/8)</td><td class="num">10</td><td>Periphery · Paracrine Senescence</td></tr>
+          <tr><td>Caspase-12</td><td>Other (ER)</td><td>CARD</td><td>ER stress / UPR</td><td>—</td><td class="num">7 (4/6)</td><td class="num">6</td><td>Spreader · Apoptosis</td></tr>
+          <tr><td>Caspase-14</td><td>Other (epidermal)</td><td>short</td><td>Proteolytic maturation</td><td>—</td><td class="num" colspan="2">absent from vault</td><td>enrichment queue item 7</td></tr>
+          <tr><td><em>Caspases</em> (class node)</td><td>—</td><td>—</td><td>—</td><td>—</td><td class="num">43 (24/29)</td><td class="num">19</td><td>Spreader · Master regulator · Bottleneck · Apoptosis</td></tr>
+        </tbody>
+      </table></div>
+      <div class="note">
+        <h4>Graph readout</h4>
+        <p>
+          The class node <code>Caspases</code> carries the family's <strong>highest k-core (19)</strong>
+          and a Master-regulator role with the largest out-degree (29) — and it is where the class meets
+          its own enzyme class: its 43 neighbours include <code>Protease</code>,
+          <code>Cathepsins</code>, <code>Z-VAD-FMK</code>, <code>Livin</code>, <code>XIAP</code>,
+          <code>Smac DIABLO</code>, <code>PARP1</code>, <code>ICAD</code>, <code>Gasdermin E</code>
+          and <code>Unfolded Protein Response</code> alongside nine other caspase nodes. No single member
+          does that. The generic class node is doing the work that no individual enzyme can: it is the
+          family's only representation of the protease superfamily and of its pharmacology.
+        </p>
+      </div>
+
+      <h3>Intra-family wiring: what the graph calls redundancy</h3>
+      <p>
+        Within-class edges were extracted from the union (19 intra-family edges over the 13 member
+        nodes). Their pattern reproduces the activation hierarchy rather than the taxonomy:
+      </p>
+      <ul>
+        <li>
+          <strong>Inflammatory group — complete 4-clique.</strong> All six edges among Caspase-1, -4, -5
+          and -11 are present. This is the mechanical reason their pairwise Jaccard is 0.818 (the
+          highest redundancy in the source set): the members are wired to each other as well as to the
+          shared platform.
+        </li>
+        <li>
+          <strong>Executioners — a hub and two spokes.</strong> Caspase-3 ↔ Caspase-6 and
+          Caspase-3 ↔ Caspase-7 are present, but <strong>Caspase-6 ↔ Caspase-7 is absent</strong>: both
+          executioners hang off the relay hub rather than each other, which is what a cascade topology
+          predicts.
+        </li>
+        <li>
+          <strong>Initiators — a triad and one isolate.</strong> Caspase-8, -9 and -10 are mutually
+          linked, but <strong>Caspase-2 has no intra-initiator edge at all</strong>; it reaches the other
+          initiators only through the generic class node. The graph keeps the PIDDosome axis separate,
+          mirroring its distinct platform (and the same fact that surfaces as the missing
+          <code>Caspase-2 → Apoptosis</code> edge in the enrichment queue).
+        </li>
+      </ul>
+      <div class="note">
+        <h4>Graph readout — read the clique carefully</h4>
+        <p>
+          A 4-clique among Caspase-1/4/5/11 is not four independent biological statements. Two of these
+          nodes (<strong>Caspase-4</strong> and <strong>Caspase-5</strong>) are human genes whose
+          ortholog pair is the single murine gene <strong>Caspase-11</strong> (see
+          <a href="#evolution">Evolution</a>). Part of the clique is therefore an artifact of how
+          orthologous biology is written into notes — and part is real (same platform, same substrate).
+          The honest reading of Jaccard 0.818 is "same functional neighbourhood", not "three redundant
+          enzymes". The vault's per-member notes already flag 4/5 as human and 11 as murine.
+        </p>
+      </div>
+
+      <h3>Regulation at the class level</h3>
+      <p>
+        The family's activity is gated by three layers: <strong>decoys</strong> (IAPs — XIAP's BIR2 and
+        BIR3 domains bind the executioner and initiator active sites; Livin and cIAP1/2 are further
+        members), <strong>antagonists</strong> (Smac/DIABLO neutralizes XIAP; TBK1-driven XIAP
+        degradation releases the brake), and <strong>pseudo-substrates</strong> (c-FLIP binds the DISC
+        with higher affinity than procaspase-8, and in its long form converts Caspase-8 into a
+        DISC-retained, necroptosis-blocking complex rather than an active enzyme). Viruses encode the
+        same strategy — CrmA and SPI-2 are serpins that occlude the Caspase-1 and Caspase-8 active sites.
+        On top of that sits a dense <strong>phosphorylation switch</strong>: Akt at Ser196 of Caspase-9,
+        p38 MAPK at Ser150 of Caspase-3 and Ser364 of Caspase-8, Src/FYN/LYN at Tyr397 of Caspase-8
+        (reversed by SHP1), PAK2 at Ser30/Thr173/Ser239 of Caspase-7, CDK1 at Ser308 of Caspase-2 —
+        and localization matters as much as cleavage (cytosolic Caspase-3 versus nuclear Caspase-6).
+      </p>
+      <div class="note">
+        <h4>Graph readout</h4>
+        <p>
+          The class-level brake is well modelled on the executioners and invisible on the inflammatory
+          arm. <code>XIAP</code> (degree 30), <code>Smac DIABLO</code> (degree 30) and
+          <code>TBK1</code> (degree 42) each wire to Caspase-3, Caspase-7 and Caspase-9; <code>c-FLIP</code>
+          (degree 35) wires to Caspase-8 and Caspase-10 — and the <em>mechanism</em> itself lives in a
+          dedicated note node, <code>Caspase-8-c-FLIP Rheostat</code> (degree 39, k-core 16), the
+          highest-k-core node anywhere in the caspase neighbourhood. Note the asymmetry: no regulator
+          reaches Caspase-1/-4/-5/-11. One normalization artifact shows up here too — phosphorylation
+          sites are modelled as entities, so <code>Caspase-3 (at Ser150)</code> and
+          <code>Caspase-2 Ser135</code> are degree-1 stubs that should be attributes of their enzymes.
+        </p>
+      </div>
+
+      <h3>Assay toolbox</h3>
+      <p>
+        Caspase activity is measured either kinetically or morphologically, and the two answer different
+        questions. Fluorogenic peptide substrates (<code>DEVD-AMC</code>, <code>AC-DEVD-FMK</code>) and
+        chromogenic substrates give rate constants and inhibitor IC₅₀ values but read out only the
+        dominant activity, and DEVD-based substrates cannot separate Caspase-3 from Caspase-7.
+        Immunostaining for cleaved Caspase-3 (Asp175 neo-epitope) is the marker of record for apoptosis
+        in tissue, and cleaved GSDMD N-term for pyroptosis — but cleavage is not activity: inhibitors,
+        IAPs and reversible phosphorylation all decouple the two. Peptidomic substrate mapping (N-
+        terminomics; CASBAH) is what turned "caspase" from a pathway label into an enzyme class, with
+        more than a thousand mapped cleavage sites.
+      </p>
+      <div class="note">
+        <h4>Graph readout</h4>
+        <p>
+          Pharmacology entered the graph as a <em>class-level</em> annotation: the pan-caspase inhibitor
+          <code>Z-VAD-FMK</code> is a node (degree 10) whose only caspase neighbour is the generic
+          <code>Caspases</code> class node, and the IAP <code>Livin</code> (degree 7) attaches the same
+          way. The graph therefore asserts that the class has a pharmacology, but not which enzyme any
+          given drug touches — the target-level edges are exactly the ones an enzyme-class account
+          would want.
+        </p>
+      </div>
+
+      <h3>Pharmacology of the class</h3>
+      <p>
+        No caspase inhibitor has achieved regulatory approval. The reasons are structural: the catalytic
+        Cys-His dyad is near-identical across the family, so selectivity must come from the S3/S4
+        pockets, and the executioners' active sites are also the ones most worth preserving in tumors.
+        The clinically active arena has therefore shifted <em>upstream</em> — inflammasome and NLRP3
+        modulation, GSDMD pore blockade — or <em>indirectly</em>, through BCL-2 family inhibitors that
+        restore executioner sensitivity in senescent cells.
+      </p>
+      <div class="copy-host table-host"><table>
+        <thead>
+          <tr><th>Agent</th><th>Target</th><th>Class position</th><th>Status</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>Emricasan (IDN-6556)</strong></td><td>pan-caspase</td><td>Class-wide</td><td>best clinically advanced; Phase 2b ENCORE-NFH in NASH fibrosis <strong>missed primary endpoint</strong>; no approved indication</td></tr>
+          <tr><td><strong>VX-765 (belnacasan)</strong></td><td>Caspase-1/-4</td><td>Inflammatory branch</td><td>Phase 2 (epilepsy, RA, psoriasis; recent CNS interest); no approval</td></tr>
+          <tr><td>Pralnacasan (VX-740)</td><td>Caspase-1</td><td>Inflammatory branch</td><td>discontinued (PK/safety)</td></tr>
+          <tr><td>Q-VD-OPh</td><td>Caspase-3 / -7</td><td>Executioner branch</td><td>research use; higher selectivity than Z-VAD-FMK, still a research tool</td></tr>
+          <tr><td>Z-VAD-FMK, Ac-YVAD-CMK</td><td>pan / Caspase-1</td><td>Class-wide / inflammatory</td><td>research tools only (off-targets incl. calpain)</td></tr>
+          <tr><td>MCC950, dapansutrile (OLT1177)</td><td>NLRP3 upstream</td><td>Upstream of the class</td><td>indirect Caspase-1 modulation; dapansutrile in Phase 2 (OA, HF)</td></tr>
+          <tr><td>Disulfiram, necrosulfonamide</td><td>GSDMD</td><td>Downstream of the class</td><td>pyroptosis blockers acting after caspase-1/4/5/11 have cut</td></tr>
+          <tr><td>Navitoclax / D+Q senolytics</td><td>BCL-2 family</td><td>Upstream of the class</td><td>indirectly restore caspase-3/8 sensitivity in senescent cells</td></tr>
+        </tbody>
+      </table></div>
+      <div class="note">
+        <h4>Translational gap</h4>
+        <p>
+          <strong>No caspase inhibitor has achieved regulatory approval as of 2026.</strong> Pan-caspase
+          inhibition risks dampening apoptotic clearance of damaged cells; the most active clinical
+          arena is NLRP3/inflammasome modulation rather than direct caspase targeting. Pro-caspase
+          "senolytic re-activation" remains an aspiration, not a realized pharmacology. The graph's
+          prediction queue reaches the same conclusion from the other side: the strongest absent
+          caspase pairs are the clinical ones (Caspase-3 → Cancer/Chemotherapy, Caspase-9 → Cancer —
+          see <a href="#predictions">Predictions</a>), i.e. the class is best documented in its
+          enzymology and worst documented in its therapeutic edges.
+        </p>
+      </div>
+
+      <h3 id="evolution">Evolution and orthology</h3>
+      <p>
+        Caspases are a metazoan invention: no caspase genes exist in yeast or plants, and the family
+        traces to a bilaterian ancestor, with the epidermal Caspase-14 as the most divergent member.
+        Two orthology facts shape the graph directly. First, human <strong>CASP-4</strong> and
+        <strong>CASP-5</strong> are orthologs of the single murine gene <strong>Caspase-11</strong> —
+        so the vault's 13 caspase nodes cover 14 human genes, with one node carrying two of them.
+        Second, human <strong>CASP-12</strong> is a pseudogene in most populations (a functional ER
+        caspase only in mouse and a few human alleles), which explains why its graph degree (7) is the
+        family's lowest and why its community assignment ("Apoptosis") reflects the note's content
+        rather than a distinct ER platform.
+      </p>
+      <div class="note">
+        <h4>Graph readout</h4>
+        <p>
+          Orthology is visible in the graph as a clique and as a node count. The
+          Caspase-1/-4/-5/-11 4-clique and the Jaccard 0.818 both trace to the murine-node convention
+          (see <a href="#communities">Communities</a>); the 13-node/14-gene mismatch is why
+          "Caspase-14" — and, more consequentially, a distinct human Caspase-5 node — is on the
+          enrichment queue rather than in the graph.
+        </p>
+      </div>
+
+      <div class="note">
+        <h4>The class in one paragraph</h4>
+        <p>
+          Caspases are one enzyme class — cysteine peptidases of MEROPS clan CD — whose functional
+          diversity is bought with one architecture (prodomain + p20 + p10, Cys-His dyad, (p20/p10)₂
+          tetramer) reused across three activation strategies (proximity on a scaffold, initiator relay,
+          noncanonical lipid sensing). The combined graph reproduces that architecture rather than
+          merely annotating it: platform edges are one-to-one with the class taxonomy, the degree
+          ordering tracks motif ubiquity, the class node is where the superfamily and the pharmacology
+          live, and the family's visible anomalies — Caspase-2's isolation, Caspase-6's lamin community,
+          the Caspase-1/4/5/11 clique, Caspase-12's missing ER platform — are each explicable as
+          enzymology rather than as noise.
+        </p>
+      </div>
     </section>
 
 
     <section id="scope">
       <p class="sec-label">Scope</p>
-      <h2>Two parts</h2>
+      <h2>Three parts</h2>
       <p>
+        <strong>Enzyme class</strong> (<a href="#enzyme-class">§1</a>): the caspase family as an enzyme
+        class — MEROPS taxonomy, catalytic mechanism and substrate specificity, activation platforms, a
+        14-member taxonomy table with per-member graph metrics, intra-family wiring, class regulation,
+        assay toolbox, pharmacology and evolution — each layer read against the graph.
         <strong>Network analysis</strong> (combined triples ∪ wiki union, per-edge source tags;
         13 caspase sources × 14 target anchors: cell-death modalities, senescence hubs, apoptosis
         machinery (the generic <code>Caspase</code> node from the August run is consolidated into
         <code>Caspases</code>): layer decomposition, community detection, centrality, role classification, path
         structure, personalized PageRank, link prediction. <strong>Literature synthesis</strong> of
-        caspase classification, activation platforms, substrates, aging biology, and pharmacology.
+        caspase substrates, aging biology, and the pharmacology behind the class account.
       </p>
       <div class="note">
         <h4>Graph mode</h4>
@@ -165,15 +619,19 @@ figcaption { font-size: 12.5px; }
       <p class="sec-label">Communities</p>
       <h2>Community structure: apoptotic vs inflammatory modules</h2>
       <p>
-        Louvain community detection on the wiki layer splits the caspases along their
-        biological class boundary: c4 <strong>Apoptosis</strong> (110 nodes) holds Caspase-3/6/7/9/12,
+        <em>Class taxonomy for reference: <a href="#enzyme-class">the caspase enzyme class</a> — and the
+        intra-family edges and platform adjacency quoted below are derived there.</em>
+      </p>
+      <p>
+        Louvain community detection on the wiki layer (<strong>Figure 2</strong>) splits the caspases
+        along their biological class boundary: c4 <strong>Apoptosis</strong> (110 nodes) holds Caspase-3/6/7/9/12,
         Caspases, and Executioner Caspase; c13 <strong>NF-κB</strong> (76) holds
         Caspase-4/5/11 together with Inflammasome; c11 <strong>Necroptosis</strong> (80) holds
         Caspase-1/8/10 with Pyroptosis, Gasdermin D, and the Caspase-8-c-FLIP Rheostat.
       </p>
 
       <figure class="fig">
-        <div class="fig-head"><span class="fig-num">Figure · Community structure: apoptotic vs inflammatory modules (combined-union degrees and roles)</span></div>
+        <div class="fig-head"><span class="fig-num">Figure 2 · Community structure: apoptotic vs inflammatory modules (combined-union degrees and roles)</span></div>
         <div class="copy-host">
         <svg viewBox="0 0 980 430" role="img" aria-label="Two-block map of the caspase family with combined degrees and key roles">
           <rect x="20" y="30" width="440" height="370" rx="12" fill="rgba(110,160,220,0.10)" stroke="rgba(110,160,220,0.55)"/>
@@ -526,29 +984,31 @@ figcaption { font-size: 12.5px; }
       <h2>Literature deep dive: caspases</h2>
 
       <h3>Classification</h3>
-      <p>The 14 human caspases (cysteine-aspartic proteases, CASP1–CASP14) group by function and homology:</p>
-      <ul>
-        <li><strong>Initiators</strong> — CASP-8, -9, -10, -2. Long N-terminal prodomains recruit them to activation platforms; activation is by induced-proximity <strong>dimerization</strong>, not proteolysis.</li>
-        <li><strong>Executioners</strong> — CASP-3, -6, -7. Short prodomains, inactive zymogen dimers; activated by initiator-mediated cleavage of their interdomain linkers.</li>
-        <li><strong>Inflammatory</strong> — CASP-1, -4, -5, -11 (murine ortholog of human 4/5), -12. CASP-12 is truncated/pseudogene-derived in most humans and negatively regulates CASP-1.</li>
-        <li><strong>CASP-14</strong> — epidermal differentiation; neither apoptotic nor inflammatory.</li>
-      </ul>
+      <p>
+        Full taxonomy — MEROPS clan CD / family C1 / subfamily C1B, per-member prodomain, activation
+        platform, signature motif and graph metrics — is in
+        <a href="#enzyme-class">the enzyme-class chapter</a>, with the activation-platform and
+        intra-family wiring read directly off the combined graph. In brief: 14 human caspases
+        (cysteine-aspartic proteases, CASP1–CASP14) group by function and homology —
+        <strong>initiators</strong> (CASP-8, -9, -10, -2; long prodomains, activation by induced-proximity
+        dimerization), <strong>executioners</strong> (CASP-3, -6, -7; short prodomains, activated by
+        initiator-mediated cleavage), <strong>inflammatory</strong> (CASP-1, -4, -5, -11), and the
+        specialised CASP-12 (ER stress; truncated/pseudogene-derived in most humans) and CASP-14
+        (epidermal differentiation).
+      </p>
 
       <h3>Domain structure &amp; activation platforms</h3>
       <p>
-        Conserved architecture: prodomain (CARD in CASP-1/2/4/5/9/12; DED in CASP-8/10; none in
-        executioners) + large (p20) + small (p10) catalytic subunits; active enzyme is a (p20/p10)₂
-        heterotetramer. Three activation platforms:
+        Conserved architecture — prodomain (CARD in CASP-1/2/4/5/9/12; DED in CASP-8/10; none in
+        executioners) + large (p20) + small (p10) catalytic subunits, active enzyme a (p20/p10)₂
+        heterotetramer — and the platform table are covered in
+        <a href="#enzyme-class">Activation platforms</a>. The primary literature behind them:
       </p>
-      <ol>
+      <ul>
         <li><strong>Apoptosome</strong> (intrinsic): Cytochrome c + Apaf-1 + dATP → heptameric platform → CARD–CARD recruitment of pro-CASP-9 (Li et al. 2000, PMID 10529249; Riedl &amp; Salvesen 2007, PMID 17344876).</li>
         <li><strong>DISC</strong> (extrinsic): death receptors (FasL/TRAIL/TNF-α) → FADD → pro-CASP-8/10 DED clustering; type-II cells amplify via CASP-8 cleavage of Bid (Li et al. 1998, PMID 9808642).</li>
         <li><strong>Inflammasomes</strong>: NLRP3/NLRP1/NLRC4/AIM2/pyrin + ASC → pro-CASP-1; <strong>non-canonical</strong> CASP-4/5/11 bind cytosolic LPS directly via CARD (Shi et al. 2014, PMID 25043016).</li>
-      </ol>
-      <p>
-        <strong>Regulation:</strong> XIAP inhibits CASP-3/-7/-9; Smac/DIABLO (mitochondrial) neutralizes
-        XIAP; viral serpins CrmA/SPI-2 target CASP-1/-8.
-      </p>
+      </ul>
 
       <h3>Key substrates</h3>
       <div class="copy-host table-host"><table>
@@ -608,32 +1068,18 @@ figcaption { font-size: 12.5px; }
       </p>
 
       <h3>Pharmacology</h3>
-      <div class="copy-host table-host"><table>
-        <thead>
-          <tr><th>Agent</th><th>Targets</th><th>Status</th></tr>
-        </thead>
-        <tbody>
-          <tr><td><strong>Emricasan (IDN-6556)</strong></td><td>pan-caspase</td><td>best clinically advanced; Phase 2b ENCORE-NFH in NASH fibrosis <strong>missed primary endpoint</strong>; no approved indication</td></tr>
-          <tr><td><strong>VX-765 (belnacasan)</strong></td><td>CASP-1/4</td><td>Phase 2 (epilepsy, RA, psoriasis; recent CNS interest); no approval</td></tr>
-          <tr><td>Pralnacasan (VX-740)</td><td>CASP-1</td><td>discontinued (PK/safety)</td></tr>
-          <tr><td>Z-VAD-FMK, Ac-YVAD-CMK</td><td>pan / CASP-1</td><td>research tools only (off-targets incl. calpain)</td></tr>
-          <tr><td>MCC950, dapansutrile (OLT1177)</td><td>NLRP3 upstream</td><td>indirect CASP-1 modulation; dapansutrile in Phase 2 (OA, HF)</td></tr>
-          <tr><td>Disulfiram, necrosulfonamide</td><td>GSDMD</td><td>downstream-of-caspase pyroptosis blockers</td></tr>
-          <tr><td>Navitoclax / D+Q senolytics</td><td>BCL-2 family</td><td>indirectly restore caspase-3/8 sensitivity in senescent cells</td></tr>
-        </tbody>
-      </table></div>
-      <div class="note">
-        <h4>Translational gap</h4>
-        <p>
-          <strong>No caspase inhibitor has achieved regulatory approval as of 2026.</strong> Pan-caspase
-          inhibition risks dampening apoptotic clearance of damaged cells; the most active clinical
-          arena is NLRP3/inflammasome modulation rather than direct caspase targeting. Pro-caspase
-          "senolytic re-activation" remains an aspiration, not a realized pharmacology.
-        </p>
-      </div>
+      <p>
+        The class-wide pharmacology — pan-caspase agents (emricasan, VX-765, pralnacasan), the
+        NLRP3/GSDMD axis upstream and downstream of the family, and the senolytic route that restores
+        executioner sensitivity indirectly — is tabulated in
+        <a href="#enzyme-class">Pharmacology of the class</a>, together with the graph's reading of it
+        (the inhibitor nodes <code>Z-VAD-FMK</code> and <code>Livin</code> attach to the generic
+        <code>Caspases</code> node rather than to their targets).
+      </p>
 
       <h3>Key takeaways</h3>
       <ol>
+        <li>Enzymologically the family is one class (cysteine peptidases, MEROPS clan CD) deployed through three activation strategies — scaffold proximity, initiator relay, and direct lipid sensing — and the combined graph reproduces that architecture one-to-one: platform edges, class-degree ordering, and a class node that carries the family's pharmacology.</li>
         <li>Caspases are not solely death proteases — inflammation (1/4/5/11), differentiation (14), tumor suppression (2), and senescence regulation (3) are all represented.</li>
         <li>Activation is scaffolded (apoptosome/DISC/inflammasome) — platform identity determines outcome.</li>
         <li>Aging biology is caspase-entangled at three axes: CASP-1 inflammaging, CASP-2 genome stability, and senescent-cell apoptosis resistance.</li>
@@ -671,14 +1117,15 @@ uv run --with networkx python3 scripts/analysis/link_prediction.py \
   --out src/tasks/node_network_caspase_28_AUG_2026/raw_caspases_combined_link_prediction_06_OCT_2026.json
 
 # Role classes (reads web/public/data/node_roles.json)
-uv run python3 scripts/analysis/role_query.py --node "Caspase-3"</code></pre></div>
+uv run python3 scripts/analysis/role_query.py --node "Caspase-3"
+</code></pre></div>
       <p>
         Spectral parameters (6 Oct 2026): combined giant component <strong>λ₂ = 0.101</strong>
         (4,821 nodes / 4,560 giant-component nodes / 40,860 edges); PPR damping
         α = 0.85; effective-resistance null sample n = 300. (Sep run: identical λ₂ on
         4,539 / 4,271 / 34,780; August run: λ₂ = 0.188 on 4,084 / 3,839 / 31,719.) Raw metric
         runs live in
-        <code><a href="https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/tasks/node_network_caspase_28_AUG_2026" target="_blank">src/tasks/node_network_caspase_28_AUG_2026/</a></code>.
+        <code><a href="https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/tasks/node_network_caspase_28_AUG_2026" target="_blank" rel="noopener noreferrer">src/tasks/node_network_caspase_28_AUG_2026/</a></code>.
       </p>
     </section>
 
@@ -688,8 +1135,10 @@ uv run python3 scripts/analysis/role_query.py --node "Caspase-3"</code></pre></d
 <footer>
   <div class="wrap">
     <p>
-      Caspase family deep dive for the llm-wiki-jk knowledge graph.
-      Metrics computed on the combined triples ∪ wiki union (figures re-run 6 Oct 2026: 4821n / 47925e). Not medical advice;
+      Caspase family deep dive for the llm-wiki-jk knowledge graph: the enzyme class (MEROPS clan CD)
+      read through the graph, plus the multi-metric network analysis.
+      Metrics computed on the combined triples ∪ wiki union (figures re-run 6 Oct 2026: 4821n / 47925e;
+      class aggregation 20 Oct 2026). Not medical advice;
       every network reading and predicted edge is a hypothesis to check against the source notes.
     </p>
     <p><strong>Graph build:</strong> combined <code>4821n / 47925e</code> · giant component <code>4560n / 40860e</code> · sources 13 caspases × 14 anchors · triples abef7fdf · wiki e0d4adc1</p>

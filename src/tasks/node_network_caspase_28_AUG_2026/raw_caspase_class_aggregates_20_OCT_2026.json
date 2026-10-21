@@ -1,0 +1,589 @@
+{
+ "generated": "2026-10-21T02:32:03Z",
+ "source_graph": "web/public/data/nodes.json + web/public/data/edges.json (combined triples u wiki)",
+ "graph_nodes": 4821,
+ "graph_edges": 47925,
+ "params": {
+  "degree_metric": "distinct neighbours in the combined union (each counted once)",
+  "in_out_degree_source": "web/public/data/node_roles.json",
+  "command": "one-off task script (caspase_class_agg.py), run 20 Oct 2026; script not committed - artifact is the record"
+ },
+ "classes": {
+  "initiator": {
+   "members": 4,
+   "present": 4,
+   "absent": [],
+   "degree_sum": 147,
+   "degree_mean": 36.8,
+   "degree_max": 67,
+   "degree_min": 18,
+   "members_detail": [
+    {
+     "label": "Caspase-2",
+     "union_degree": 20
+    },
+    {
+     "label": "Caspase-8",
+     "union_degree": 67
+    },
+    {
+     "label": "Caspase-9",
+     "union_degree": 42
+    },
+    {
+     "label": "Caspase-10",
+     "union_degree": 18
+    }
+   ],
+   "share_of_family_links_pct": 43.0
+  },
+  "executioner": {
+   "members": 3,
+   "present": 3,
+   "absent": [],
+   "degree_sum": 118,
+   "degree_mean": 39.3,
+   "degree_max": 76,
+   "degree_min": 16,
+   "members_detail": [
+    {
+     "label": "Caspase-3",
+     "union_degree": 76
+    },
+    {
+     "label": "Caspase-6",
+     "union_degree": 16
+    },
+    {
+     "label": "Caspase-7",
+     "union_degree": 26
+    }
+   ],
+   "share_of_family_links_pct": 34.5
+  },
+  "inflammatory": {
+   "members": 4,
+   "present": 4,
+   "absent": [],
+   "degree_sum": 70,
+   "degree_mean": 17.5,
+   "degree_max": 40,
+   "degree_min": 10,
+   "members_detail": [
+    {
+     "label": "Caspase-1",
+     "union_degree": 40
+    },
+    {
+     "label": "Caspase-4",
+     "union_degree": 10
+    },
+    {
+     "label": "Caspase-5",
+     "union_degree": 10
+    },
+    {
+     "label": "Caspase-11",
+     "union_degree": 10
+    }
+   ],
+   "share_of_family_links_pct": 20.5
+  },
+  "other": {
+   "members": 2,
+   "present": 1,
+   "absent": [
+    "Caspase-14"
+   ],
+   "degree_sum": 7,
+   "degree_mean": 7.0,
+   "degree_max": 7,
+   "degree_min": 7,
+   "members_detail": [
+    {
+     "label": "Caspase-12",
+     "union_degree": 7
+    }
+   ],
+   "share_of_family_links_pct": 2.0
+  }
+ },
+ "members": [
+  {
+   "label": "Caspase-2",
+   "class": "initiator",
+   "present_in_graph": true,
+   "node_id": "caspase_2",
+   "union_degree": 20,
+   "in_degree": 18.0,
+   "out_degree": 13.0,
+   "pagerank": 0.00102315,
+   "betweenness": 0.00220329,
+   "roles": [
+    "Bottleneck"
+   ],
+   "community": "Akt",
+   "platforms": [
+    "PIDDosome",
+    "Bid"
+   ]
+  },
+  {
+   "label": "Caspase-8",
+   "class": "initiator",
+   "present_in_graph": true,
+   "node_id": "caspase_8",
+   "union_degree": 67,
+   "in_degree": 59.0,
+   "out_degree": 40.0,
+   "pagerank": 0.00111814,
+   "betweenness": 0.00293987,
+   "roles": [
+    "Sink",
+    "Master regulator",
+    "Bottleneck"
+   ],
+   "community": "Caspase-8",
+   "platforms": [
+    "DISC",
+    "c-FLIP",
+    "Bid",
+    "Apoptosis"
+   ]
+  },
+  {
+   "label": "Caspase-9",
+   "class": "initiator",
+   "present_in_graph": true,
+   "node_id": "caspase_9",
+   "union_degree": 42,
+   "in_degree": 37.0,
+   "out_degree": 25.0,
+   "pagerank": 0.00133764,
+   "betweenness": 0.00216586,
+   "roles": [
+    "Sink",
+    "Bottleneck"
+   ],
+   "community": "Apoptosis",
+   "platforms": [
+    "Apoptosome",
+    "XIAP",
+    "Apaf-1",
+    "Cytochrome c",
+    "Apoptosis"
+   ]
+  },
+  {
+   "label": "Caspase-10",
+   "class": "initiator",
+   "present_in_graph": true,
+   "node_id": "caspase_10",
+   "union_degree": 18,
+   "in_degree": 7.0,
+   "out_degree": 14.0,
+   "pagerank": 0.00013014,
+   "betweenness": 0.00032904,
+   "roles": [
+    "Spreader"
+   ],
+   "community": "Apoptosis",
+   "platforms": [
+    "DISC",
+    "c-FLIP",
+    "Apoptosis"
+   ]
+  },
+  {
+   "label": "Caspase-3",
+   "class": "executioner",
+   "present_in_graph": true,
+   "node_id": "caspase_3",
+   "union_degree": 76,
+   "in_degree": 59.0,
+   "out_degree": 36.0,
+   "pagerank": 0.00082813,
+   "betweenness": 0.00454595,
+   "roles": [
+    "Sink",
+    "Master regulator",
+    "Bottleneck"
+   ],
+   "community": "Apoptosis",
+   "platforms": [
+    "Apoptosome",
+    "DISC",
+    "XIAP",
+    "Apaf-1",
+    "Gasdermin D",
+    "Apoptosis"
+   ]
+  },
+  {
+   "label": "Caspase-6",
+   "class": "executioner",
+   "present_in_graph": true,
+   "node_id": "caspase_6",
+   "union_degree": 16,
+   "in_degree": 6.0,
+   "out_degree": 13.0,
+   "pagerank": 0.00013014,
+   "betweenness": 0.00019086,
+   "roles": [
+    "Spreader"
+   ],
+   "community": "Apoptosis-Inducing Factor",
+   "platforms": [
+    "Apoptosis"
+   ]
+  },
+  {
+   "label": "Caspase-7",
+   "class": "executioner",
+   "present_in_graph": true,
+   "node_id": "caspase_7",
+   "union_degree": 26,
+   "in_degree": 22.0,
+   "out_degree": 13.0,
+   "pagerank": 0.00142596,
+   "betweenness": 0.00106272,
+   "roles": [
+    "Sink",
+    "Bottleneck"
+   ],
+   "community": "Apoptosis",
+   "platforms": [
+    "Apoptosome",
+    "XIAP",
+    "Apoptosis"
+   ]
+  },
+  {
+   "label": "Caspase-1",
+   "class": "inflammatory",
+   "present_in_graph": true,
+   "node_id": "caspase_1",
+   "union_degree": 40,
+   "in_degree": 35.0,
+   "out_degree": 13.0,
+   "pagerank": 0.0005914,
+   "betweenness": 0.00142,
+   "roles": [
+    "Sink",
+    "Bottleneck"
+   ],
+   "community": "Paracrine Senescence",
+   "platforms": [
+    "Inflammasome",
+    "Noncanonical Inflammasome",
+    "Bid",
+    "Gasdermin D"
+   ]
+  },
+  {
+   "label": "Caspase-4",
+   "class": "inflammatory",
+   "present_in_graph": true,
+   "node_id": "caspase_4",
+   "union_degree": 10,
+   "in_degree": 5.0,
+   "out_degree": 8.0,
+   "pagerank": 0.00015066,
+   "betweenness": 0.0,
+   "roles": [
+    "Periphery"
+   ],
+   "community": "Paracrine Senescence",
+   "platforms": [
+    "Inflammasome",
+    "Noncanonical Inflammasome",
+    "Gasdermin D"
+   ]
+  },
+  {
+   "label": "Caspase-5",
+   "class": "inflammatory",
+   "present_in_graph": true,
+   "node_id": "caspase_5",
+   "union_degree": 10,
+   "in_degree": 6.0,
+   "out_degree": 8.0,
+   "pagerank": 0.00015066,
+   "betweenness": 2.02e-06,
+   "roles": [
+    "Spreader",
+    "Module member"
+   ],
+   "community": "Paracrine Senescence",
+   "platforms": [
+    "Inflammasome",
+    "Noncanonical Inflammasome",
+    "Gasdermin D"
+   ]
+  },
+  {
+   "label": "Caspase-11",
+   "class": "inflammatory",
+   "present_in_graph": true,
+   "node_id": "caspase_11",
+   "union_degree": 10,
+   "in_degree": 6.0,
+   "out_degree": 8.0,
+   "pagerank": 0.00015066,
+   "betweenness": 0.0,
+   "roles": [
+    "Periphery"
+   ],
+   "community": "Paracrine Senescence",
+   "platforms": [
+    "Inflammasome",
+    "Noncanonical Inflammasome",
+    "Gasdermin D"
+   ]
+  },
+  {
+   "label": "Caspase-12",
+   "class": "other",
+   "present_in_graph": true,
+   "node_id": "caspase_12",
+   "union_degree": 7,
+   "in_degree": 4.0,
+   "out_degree": 6.0,
+   "pagerank": 0.00013014,
+   "betweenness": 6.2e-07,
+   "roles": [
+    "Spreader"
+   ],
+   "community": "Apoptosis",
+   "platforms": [
+    "Apoptosis"
+   ]
+  },
+  {
+   "label": "Caspase-14",
+   "class": "other",
+   "present_in_graph": false
+  }
+ ],
+ "intra_family_edges": [
+  [
+   "Caspase-1",
+   "Caspase-11"
+  ],
+  [
+   "Caspase-1",
+   "Caspase-4"
+  ],
+  [
+   "Caspase-1",
+   "Caspase-5"
+  ],
+  [
+   "Caspase-10",
+   "Caspase-3"
+  ],
+  [
+   "Caspase-10",
+   "Caspase-7"
+  ],
+  [
+   "Caspase-10",
+   "Caspase-8"
+  ],
+  [
+   "Caspase-10",
+   "Caspase-9"
+  ],
+  [
+   "Caspase-11",
+   "Caspase-4"
+  ],
+  [
+   "Caspase-11",
+   "Caspase-5"
+  ],
+  [
+   "Caspase-3",
+   "Caspase-6"
+  ],
+  [
+   "Caspase-3",
+   "Caspase-7"
+  ],
+  [
+   "Caspase-3",
+   "Caspase-8"
+  ],
+  [
+   "Caspase-3",
+   "Caspase-9"
+  ],
+  [
+   "Caspase-4",
+   "Caspase-5"
+  ],
+  [
+   "Caspase-6",
+   "Caspase-8"
+  ],
+  [
+   "Caspase-6",
+   "Caspase-9"
+  ],
+  [
+   "Caspase-7",
+   "Caspase-8"
+  ],
+  [
+   "Caspase-7",
+   "Caspase-9"
+  ],
+  [
+   "Caspase-8",
+   "Caspase-9"
+  ]
+ ],
+ "class_cliques": {
+  "initiator": {
+   "members": [
+    "Caspase-2",
+    "Caspase-8",
+    "Caspase-9",
+    "Caspase-10"
+   ],
+   "missing_edges": [
+    [
+     "Caspase-2",
+     "Caspase-8"
+    ],
+    [
+     "Caspase-2",
+     "Caspase-9"
+    ],
+    [
+     "Caspase-2",
+     "Caspase-10"
+    ]
+   ],
+   "complete": false
+  },
+  "executioner": {
+   "members": [
+    "Caspase-3",
+    "Caspase-6",
+    "Caspase-7"
+   ],
+   "missing_edges": [
+    [
+     "Caspase-6",
+     "Caspase-7"
+    ]
+   ],
+   "complete": false
+  },
+  "inflammatory": {
+   "members": [
+    "Caspase-1",
+    "Caspase-4",
+    "Caspase-5",
+    "Caspase-11"
+   ],
+   "missing_edges": [],
+   "complete": true
+  },
+  "other": {
+   "members": [
+    "Caspase-12"
+   ],
+   "missing_edges": [],
+   "complete": true
+  }
+ },
+ "platform_degrees": {
+  "Apoptosome": 26,
+  "DISC": 26,
+  "PIDDosome": 10,
+  "Inflammasome": 57,
+  "Noncanonical Inflammasome": 21,
+  "XIAP": 30,
+  "c-FLIP": 35,
+  "Bid": 34,
+  "Apaf-1": 12,
+  "Cytochrome c": 53,
+  "Gasdermin D": 30,
+  "Apoptosis": 503
+ },
+ "platform_caspase_neighbors": {
+  "Apoptosome": [
+   "Caspase-3",
+   "Caspase-7",
+   "Caspase-9"
+  ],
+  "DISC": [
+   "Caspase-10",
+   "Caspase-3",
+   "Caspase-8",
+   "Caspase-8-c-FLIP Rheostat"
+  ],
+  "PIDDosome": [
+   "Caspase-2"
+  ],
+  "Inflammasome": [
+   "Caspase-1",
+   "Caspase-11",
+   "Caspase-4",
+   "Caspase-5",
+   "Caspases"
+  ],
+  "Noncanonical Inflammasome": [
+   "Caspase-1",
+   "Caspase-11",
+   "Caspase-4",
+   "Caspase-5"
+  ],
+  "XIAP": [
+   "Caspase-3",
+   "Caspase-7",
+   "Caspase-9",
+   "Caspases"
+  ],
+  "c-FLIP": [
+   "Caspase-10",
+   "Caspase-8",
+   "Caspase-8-c-FLIP Rheostat"
+  ],
+  "Bid": [
+   "Caspase-1",
+   "Caspase-2",
+   "Caspase-8",
+   "Caspase-8-c-FLIP Rheostat"
+  ],
+  "Apaf-1": [
+   "Caspase-3",
+   "Caspase-9",
+   "Caspases"
+  ],
+  "Cytochrome c": [
+   "Caspase-9",
+   "Caspases"
+  ],
+  "Gasdermin D": [
+   "Caspase-1",
+   "Caspase-11",
+   "Caspase-3",
+   "Caspase-4",
+   "Caspase-5"
+  ],
+  "Apoptosis": [
+   "Caspase-10",
+   "Caspase-12",
+   "Caspase-3",
+   "Caspase-6",
+   "Caspase-7",
+   "Caspase-8",
+   "Caspase-8-c-FLIP Rheostat",
+   "Caspase-9",
+   "Caspases"
+  ]
+ }
+}

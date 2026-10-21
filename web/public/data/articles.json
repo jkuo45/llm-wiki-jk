@@ -225,17 +225,17 @@
         "langs": {
             "en-US": {
                 "title": "Caspases — Graph Analysis (wiki + triples)",
-                "description": "Multi-metric network analysis of all caspase nodes on the combined triples + wiki knowledge graph — centrality, communities, and role ranking.",
+                "description": "The caspase enzyme class read through the combined triples + wiki knowledge graph: MEROPS clan CD classification, catalytic mechanism and substrate specificity, activation platforms, a 14-member taxonomy table with per-member graph metrics, intra-family wiring, class regulation, assay toolbox and pharmacology — plus the multi-metric network analysis (communities, centrality, PPR death-modality signatures, link predictions, enrichment queue).",
                 "path": "pages/en-US/caspase-graph-analysis.html"
             },
             "zh-TW": {
                 "title": "Caspases — 圖譜分析（wiki + triples）",
-                "description": "在 triples＋wiki 合併知識圖譜上對全部 caspase 節點的多指標網絡分析——中心性、社群與角色排名。",
+                "description": "在 triples＋wiki 合併知識圖譜上讀取 caspase 酵素類：MEROPS clan CD 分類、催化機制與受質專一性、活化平台、含逐成員圖譜指標的 14 成員分類表、類內連線、類層級調控、檢測工具箱與藥理學——並附多指標網絡分析（社群、中心性、PPR 死亡模式簽名、連結預測、增補佇列）。",
                 "path": "pages/zh-TW/caspase-graph-analysis.html"
             }
         },
         "created": "2026-08-28",
-        "updated": "2026-10-06"
+        "updated": "2026-10-20"
     },
     {
         "id": "neurodegeneration-ad-pd-hd-als-review",
