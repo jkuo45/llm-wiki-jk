@@ -1,5 +1,5 @@
 {
-  "generated": "20_OCT_2026 07:59 PM PDT",
+  "generated": "21_OCT_2026 06:45 AM PDT",
   "wiki": [
     {
       "id": "wiki-index",
@@ -255,6 +255,44 @@
       }
     },
     {
+      "id": "CD38",
+      "langs": {
+        "en-US": {
+          "title": "CD38",
+          "description": "CD38 is an ectoenzyme that degrades NAD+ and its precursors like NMN, with its levels and activity increasing during aging and contributing to mitochondrial dysfunction. Also regulates extracellular NMN availability and is neuroprotective in axon injury models.",
+          "created": "2026-07-04",
+          "updated": "2026-10-20",
+          "tags": [
+            "enzyme",
+            "nad-metabolism",
+            "aging"
+          ],
+          "filename": "CD38.md",
+          "path": "wiki/en-US/_link/CD38.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/CD38.md"
+        },
+        "zh-TW": {
+          "title": "CD38",
+          "description": "CD38 是一種降解 NAD+ 及其前驅物（如 NMN）的胞外酵素，其濃度與活性隨老化上升，並促成粒線體功能失調。它同時調控胞外 NMN 的可用性，並在軸突損傷模型中具有神經保護作用。",
+          "created": "2026-07-04",
+          "updated": "2026-10-20",
+          "tags": [
+            "enzyme",
+            "nad-metabolism",
+            "aging"
+          ],
+          "filename": "CD38.md",
+          "path": "wiki/zh-TW/_link/CD38.md"
+        }
+      },
+      "stats": {
+        "words": 1585,
+        "images": 0,
+        "links": 82,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "Apoptosis",
       "langs": {
         "en-US": {
@@ -287,6 +325,76 @@
         "words": 3248,
         "images": 0,
         "links": 212,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "cADPR",
+      "langs": {
+        "en-US": {
+          "title": "cADPR (Cyclic ADP-ribose)",
+          "description": "Cyclic ADP-ribose (cADPR) is a novel cyclic nucleotide second messenger synthesized from NAD+ by ADP-ribosyl cyclases, primarily CD38 in mammals.",
+          "created": "2026-07-03",
+          "updated": "2026-10-20",
+          "tags": [
+            "chemical-compound"
+          ],
+          "filename": "cADPR.md",
+          "path": "wiki/en-US/_link/cADPR.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/cADPR.md"
+        },
+        "zh-TW": {
+          "title": "cADPR (Cyclic ADP-ribose)",
+          "description": "環腺苷二磷酸核糖（cADPR）是一種新型的環狀核苷酸第二訊使，由 ADP-核糖基環化酶自 NAD+ 合成；在哺乳類中主要由 CD38 負責。",
+          "created": "2026-07-03",
+          "updated": "2026-10-20",
+          "tags": [
+            "chemical-compound"
+          ],
+          "filename": "cADPR.md",
+          "path": "wiki/zh-TW/_link/cADPR.md"
+        }
+      },
+      "stats": {
+        "words": 597,
+        "images": 0,
+        "links": 25,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "NMN",
+      "langs": {
+        "en-US": {
+          "title": "NMN (Nicotinamide Mononucleotide)",
+          "description": "Nicotinamide Mononucleotide (NMN) is an endogenous nucleotide derived from vitamin B3 (niacin) and a direct biosynthetic precursor to NAD+ (nicotinamide adenine dinucleotide). NMN serves as a key i...",
+          "created": "2026-07-05",
+          "updated": "2026-10-20",
+          "tags": [
+            "biological-molecule",
+            "nad-plus"
+          ],
+          "filename": "NMN.md",
+          "path": "wiki/en-US/_link/NMN.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/NMN.md"
+        },
+        "zh-TW": {
+          "title": "NMN (Nicotinamide Mononucleotide)",
+          "description": "菸鹼醯胺單核苷酸（NMN）是源自維生素 B3（菸酸）的內源性核苷酸，也是 NAD+（菸鹼醯胺腺嘌呤二核苷酸）的直接生合成前驅物。NMN 是 NAD+ 補救路徑的關鍵中間產物。",
+          "created": "2026-07-05",
+          "updated": "2026-10-20",
+          "tags": [
+            "biological-molecule",
+            "nad-plus"
+          ],
+          "filename": "NMN.md",
+          "path": "wiki/zh-TW/_link/NMN.md"
+        }
+      },
+      "stats": {
+        "words": 747,
+        "images": 0,
+        "links": 38,
         "diagrams": 0
       }
     },
@@ -1447,6 +1555,44 @@
       }
     },
     {
+      "id": "ATG Genes",
+      "langs": {
+        "en-US": {
+          "title": "ATG Genes",
+          "description": "ATG genes encode the core autophagy machinery first identified in yeast and named Apg/Nir/Atg; the roughly 35 human ATG genes encode the ULK1, class III PI3K and ubiquitin-like conjugation systems that build, close and deliver autophagosomes.",
+          "created": "2026-10-01",
+          "updated": "2026-10-02",
+          "tags": [
+            "gene",
+            "autophagy",
+            "protein"
+          ],
+          "filename": "ATG Genes.md",
+          "path": "wiki/en-US/autophagy/ATG%20Genes.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/autophagy/ATG%20Genes.md"
+        },
+        "zh-TW": {
+          "title": "ATG 基因",
+          "description": "ATG 基因編碼自噬的核心機制，最初在酵母菌中被發現並命名為 Apg/Nir/Atg；人類約 35 個 ATG 基因編碼 ULK1、III 型 PI3K 與類泛素接合系統，負責自噬體的建構、封閉與運送。",
+          "created": "2026-10-01",
+          "updated": "2026-10-02",
+          "tags": [
+            "gene",
+            "autophagy",
+            "protein"
+          ],
+          "filename": "ATG Genes.md",
+          "path": "wiki/zh-TW/autophagy/ATG%20Genes.md"
+        }
+      },
+      "stats": {
+        "words": 803,
+        "images": 0,
+        "links": 58,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "Calpain",
       "langs": {
         "en-US": {
@@ -1483,44 +1629,6 @@
         "words": 706,
         "images": 0,
         "links": 49,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "ATG Genes",
-      "langs": {
-        "en-US": {
-          "title": "ATG Genes",
-          "description": "ATG genes encode the core autophagy machinery first identified in yeast and named Apg/Nir/Atg; the roughly 35 human ATG genes encode the ULK1, class III PI3K and ubiquitin-like conjugation systems that build, close and deliver autophagosomes.",
-          "created": "2026-10-01",
-          "updated": "2026-10-02",
-          "tags": [
-            "gene",
-            "autophagy",
-            "protein"
-          ],
-          "filename": "ATG Genes.md",
-          "path": "wiki/en-US/autophagy/ATG%20Genes.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/autophagy/ATG%20Genes.md"
-        },
-        "zh-TW": {
-          "title": "ATG 基因",
-          "description": "ATG 基因編碼自噬的核心機制，最初在酵母菌中被發現並命名為 Apg/Nir/Atg；人類約 35 個 ATG 基因編碼 ULK1、III 型 PI3K 與類泛素接合系統，負責自噬體的建構、封閉與運送。",
-          "created": "2026-10-01",
-          "updated": "2026-10-02",
-          "tags": [
-            "gene",
-            "autophagy",
-            "protein"
-          ],
-          "filename": "ATG Genes.md",
-          "path": "wiki/zh-TW/autophagy/ATG%20Genes.md"
-        }
-      },
-      "stats": {
-        "words": 803,
-        "images": 0,
-        "links": 58,
         "diagrams": 0
       }
     },
@@ -1563,42 +1671,6 @@
       }
     },
     {
-      "id": "LC3B",
-      "langs": {
-        "en-US": {
-          "title": "LC3B",
-          "description": "Microtubule-associated protein 1B light chain 3 (MAP1LC3B), the most abundant mammalian ATG8-family protein. LC3B is lipidated to the inner autophagosomal membrane and acts as a membrane-bound binding platform for cargo receptors through LIR motif recognition; it is the standard biochemical marker of autophagic flux.",
-          "created": "2026-07-04",
-          "updated": "2026-10-01",
-          "tags": [
-            "protein",
-            "autophagy"
-          ],
-          "filename": "LC3B.md",
-          "path": "wiki/en-US/_link/LC3B.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/LC3B.md"
-        },
-        "zh-TW": {
-          "title": "LC3B",
-          "description": "微管相關蛋白 1B 輕鏈 3（MAP1LC3B），為哺乳類中含量最豐富的 ATG8 家族蛋白。LC3B 會被脂質化至自噬體內膜，並透過 LIR 標記辨識，作為膜上結合貨受體的結合平台；它是自噬流量的標準生化標記。",
-          "created": "2026-07-04",
-          "updated": "2026-10-01",
-          "tags": [
-            "protein",
-            "autophagy"
-          ],
-          "filename": "LC3B.md",
-          "path": "wiki/zh-TW/_link/LC3B.md"
-        }
-      },
-      "stats": {
-        "words": 1161,
-        "images": 0,
-        "links": 38,
-        "diagrams": 0
-      }
-    },
-    {
       "id": "MET",
       "langs": {
         "en-US": {
@@ -1635,6 +1707,42 @@
         "words": 1647,
         "images": 0,
         "links": 145,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "LC3B",
+      "langs": {
+        "en-US": {
+          "title": "LC3B",
+          "description": "Microtubule-associated protein 1B light chain 3 (MAP1LC3B), the most abundant mammalian ATG8-family protein. LC3B is lipidated to the inner autophagosomal membrane and acts as a membrane-bound binding platform for cargo receptors through LIR motif recognition; it is the standard biochemical marker of autophagic flux.",
+          "created": "2026-07-04",
+          "updated": "2026-10-01",
+          "tags": [
+            "protein",
+            "autophagy"
+          ],
+          "filename": "LC3B.md",
+          "path": "wiki/en-US/_link/LC3B.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/LC3B.md"
+        },
+        "zh-TW": {
+          "title": "LC3B",
+          "description": "微管相關蛋白 1B 輕鏈 3（MAP1LC3B），為哺乳類中含量最豐富的 ATG8 家族蛋白。LC3B 會被脂質化至自噬體內膜，並透過 LIR 標記辨識，作為膜上結合貨受體的結合平台；它是自噬流量的標準生化標記。",
+          "created": "2026-07-04",
+          "updated": "2026-10-01",
+          "tags": [
+            "protein",
+            "autophagy"
+          ],
+          "filename": "LC3B.md",
+          "path": "wiki/zh-TW/_link/LC3B.md"
+        }
+      },
+      "stats": {
+        "words": 1161,
+        "images": 0,
+        "links": 38,
         "diagrams": 0
       }
     },
@@ -2031,46 +2139,6 @@
       }
     },
     {
-      "id": "Taxanes",
-      "langs": {
-        "en-US": {
-          "title": "Taxanes",
-          "description": "Taxanes are microtubule-stabilizing chemotherapy agents — paclitaxel, docetaxel and cabazitaxel — that bind the β-tubulin taxane site, suppress microtubule dynamics, arrest mitosis in metaphase, and convert the arrest into apoptosis.",
-          "created": "2026-10-02",
-          "updated": "2026-10-02",
-          "tags": [
-            "drug-class",
-            "chemotherapy",
-            "microtubule-targeting-agent",
-            "antimitotic"
-          ],
-          "filename": "Taxanes.md",
-          "path": "wiki/en-US/cancer/Taxanes.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cancer/Taxanes.md"
-        },
-        "zh-TW": {
-          "title": "紫杉烷類",
-          "description": "紫杉烷類（taxanes）是穩定微管的化療藥物——paclitaxel、docetaxel 與 cabazitaxel——它們結合 β-tubulin 上的 taxane 結合位、抑制微管動態、將細胞停滯於中期有絲分裂，並將此停滯轉為凋亡。",
-          "created": "2026-10-02",
-          "updated": "2026-10-02",
-          "tags": [
-            "drug-class",
-            "chemotherapy",
-            "microtubule-targeting-agent",
-            "antimitotic"
-          ],
-          "filename": "Taxanes.md",
-          "path": "wiki/zh-TW/cancer/Taxanes.md"
-        }
-      },
-      "stats": {
-        "words": 789,
-        "images": 0,
-        "links": 40,
-        "diagrams": 0
-      }
-    },
-    {
       "id": "Phagocytosis",
       "langs": {
         "en-US": {
@@ -2109,6 +2177,46 @@
         "words": 1109,
         "images": 0,
         "links": 63,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Taxanes",
+      "langs": {
+        "en-US": {
+          "title": "Taxanes",
+          "description": "Taxanes are microtubule-stabilizing chemotherapy agents — paclitaxel, docetaxel and cabazitaxel — that bind the β-tubulin taxane site, suppress microtubule dynamics, arrest mitosis in metaphase, and convert the arrest into apoptosis.",
+          "created": "2026-10-02",
+          "updated": "2026-10-02",
+          "tags": [
+            "drug-class",
+            "chemotherapy",
+            "microtubule-targeting-agent",
+            "antimitotic"
+          ],
+          "filename": "Taxanes.md",
+          "path": "wiki/en-US/cancer/Taxanes.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cancer/Taxanes.md"
+        },
+        "zh-TW": {
+          "title": "紫杉烷類",
+          "description": "紫杉烷類（taxanes）是穩定微管的化療藥物——paclitaxel、docetaxel 與 cabazitaxel——它們結合 β-tubulin 上的 taxane 結合位、抑制微管動態、將細胞停滯於中期有絲分裂，並將此停滯轉為凋亡。",
+          "created": "2026-10-02",
+          "updated": "2026-10-02",
+          "tags": [
+            "drug-class",
+            "chemotherapy",
+            "microtubule-targeting-agent",
+            "antimitotic"
+          ],
+          "filename": "Taxanes.md",
+          "path": "wiki/zh-TW/cancer/Taxanes.md"
+        }
+      },
+      "stats": {
+        "words": 789,
+        "images": 0,
+        "links": 40,
         "diagrams": 0
       }
     },
@@ -3197,6 +3305,46 @@
       }
     },
     {
+      "id": "Necroptosis",
+      "langs": {
+        "en-US": {
+          "title": "Necroptosis",
+          "description": "Regulated necrotic cell death executed by the RIPK1-RIPK3-MLKL necrosome when caspase-8 is blocked; lytic and inflammatory, bridging cell death, innate immunity, and disease.",
+          "created": "2026-07-04",
+          "updated": "2026-09-14",
+          "tags": [
+            "biological-process",
+            "cell-death",
+            "inflammation",
+            "regulated-cell-death"
+          ],
+          "filename": "Necroptosis.md",
+          "path": "wiki/en-US/cell-death/Necroptosis.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Necroptosis.md"
+        },
+        "zh-TW": {
+          "title": "Necroptosis",
+          "description": "當 caspase-8 被阻斷時，由 RIPK1-RIPK3-MLKL 壞死小體執行的調控性壞死細胞死亡；具裂解性與發炎性，連結細胞死亡、先天免疫與疾病。",
+          "created": "2026-07-04",
+          "updated": "2026-09-14",
+          "tags": [
+            "biological-process",
+            "cell-death",
+            "inflammation",
+            "regulated-cell-death"
+          ],
+          "filename": "Necroptosis.md",
+          "path": "wiki/zh-TW/cell-death/Necroptosis.md"
+        }
+      },
+      "stats": {
+        "words": 2808,
+        "images": 0,
+        "links": 230,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "Traumatic Brain Injury",
       "langs": {
         "en-US": {
@@ -3269,46 +3417,6 @@
         "words": 1394,
         "images": 0,
         "links": 93,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "Necroptosis",
-      "langs": {
-        "en-US": {
-          "title": "Necroptosis",
-          "description": "Regulated necrotic cell death executed by the RIPK1-RIPK3-MLKL necrosome when caspase-8 is blocked; lytic and inflammatory, bridging cell death, innate immunity, and disease.",
-          "created": "2026-07-04",
-          "updated": "2026-09-14",
-          "tags": [
-            "biological-process",
-            "cell-death",
-            "inflammation",
-            "regulated-cell-death"
-          ],
-          "filename": "Necroptosis.md",
-          "path": "wiki/en-US/cell-death/Necroptosis.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Necroptosis.md"
-        },
-        "zh-TW": {
-          "title": "Necroptosis",
-          "description": "當 caspase-8 被阻斷時，由 RIPK1-RIPK3-MLKL 壞死小體執行的調控性壞死細胞死亡；具裂解性與發炎性，連結細胞死亡、先天免疫與疾病。",
-          "created": "2026-07-04",
-          "updated": "2026-09-14",
-          "tags": [
-            "biological-process",
-            "cell-death",
-            "inflammation",
-            "regulated-cell-death"
-          ],
-          "filename": "Necroptosis.md",
-          "path": "wiki/zh-TW/cell-death/Necroptosis.md"
-        }
-      },
-      "stats": {
-        "words": 2808,
-        "images": 0,
-        "links": 230,
         "diagrams": 0
       }
     },
@@ -4667,6 +4775,50 @@
       }
     },
     {
+      "id": "SIRT6",
+      "langs": {
+        "en-US": {
+          "title": "SIRT6",
+          "description": "SIRT6 (Sirtuin 6) is a nuclear, chromatin-associated sirtuin classified in phylogenetic Class IVa alongside its nucleolar homolog SIRT7 (Class IVb). As a \"longevity gene,\" SIRT6 serves as an essent...",
+          "created": "2026-07-02",
+          "updated": "2026-09-02",
+          "tags": [
+            "protein",
+            "nad-plus",
+            "sirtuin-6",
+            "nuclear-sirtuin-6",
+            "sirt6-adp-ribosyl-transferase",
+            "sirt6-adp-ribosyl-transferase"
+          ],
+          "filename": "SIRT6.md",
+          "path": "wiki/en-US/sirtuins/SIRT6.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/SIRT6.md"
+        },
+        "zh-TW": {
+          "title": "SIRT6",
+          "description": "SIRT6（Sirtuin 6）是位於細胞核、與染色質結合的 sirtuin，在系統發生分類上屬 Class IVa，與其核仁同源蛋白 SIRT7（Class IVb）並列。作為「長壽基因」，SIRT6 是...",
+          "created": "2026-07-02",
+          "updated": "2026-09-02",
+          "tags": [
+            "protein",
+            "nad-plus",
+            "sirtuin-6",
+            "nuclear-sirtuin-6",
+            "sirt6-adp-ribosyl-transferase",
+            "sirt6-adp-ribosyl-transferase"
+          ],
+          "filename": "SIRT6.md",
+          "path": "wiki/zh-TW/sirtuins/SIRT6.md"
+        }
+      },
+      "stats": {
+        "words": 3487,
+        "images": 0,
+        "links": 228,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "Resolvins",
       "langs": {
         "en-US": {
@@ -4743,50 +4895,6 @@
         "words": 574,
         "images": 0,
         "links": 41,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "SIRT6",
-      "langs": {
-        "en-US": {
-          "title": "SIRT6",
-          "description": "SIRT6 (Sirtuin 6) is a nuclear, chromatin-associated sirtuin classified in phylogenetic Class IVa alongside its nucleolar homolog SIRT7 (Class IVb). As a \"longevity gene,\" SIRT6 serves as an essent...",
-          "created": "2026-07-02",
-          "updated": "2026-09-02",
-          "tags": [
-            "protein",
-            "nad-plus",
-            "sirtuin-6",
-            "nuclear-sirtuin-6",
-            "sirt6-adp-ribosyl-transferase",
-            "sirt6-adp-ribosyl-transferase"
-          ],
-          "filename": "SIRT6.md",
-          "path": "wiki/en-US/sirtuins/SIRT6.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/SIRT6.md"
-        },
-        "zh-TW": {
-          "title": "SIRT6",
-          "description": "SIRT6（Sirtuin 6）是位於細胞核、與染色質結合的 sirtuin，在系統發生分類上屬 Class IVa，與其核仁同源蛋白 SIRT7（Class IVb）並列。作為「長壽基因」，SIRT6 是...",
-          "created": "2026-07-02",
-          "updated": "2026-09-02",
-          "tags": [
-            "protein",
-            "nad-plus",
-            "sirtuin-6",
-            "nuclear-sirtuin-6",
-            "sirt6-adp-ribosyl-transferase",
-            "sirt6-adp-ribosyl-transferase"
-          ],
-          "filename": "SIRT6.md",
-          "path": "wiki/zh-TW/sirtuins/SIRT6.md"
-        }
-      },
-      "stats": {
-        "words": 3487,
-        "images": 0,
-        "links": 228,
         "diagrams": 0
       }
     },
@@ -5137,6 +5245,40 @@
       }
     },
     {
+      "id": "RIPK1",
+      "langs": {
+        "en-US": {
+          "title": "RIPK1",
+          "description": "RIPK1 (Receptor-interacting serine/threonine-protein kinase 1) is a 76 kDa kinase and death domain-containing protein that serves as a central molecular switch governing cell fate decisions between survival, apoptosis, and necroptosis.",
+          "created": "2026-07-04",
+          "updated": "2026-09-14",
+          "tags": [
+            "enzyme"
+          ],
+          "filename": "RIPK1.md",
+          "path": "wiki/en-US/adrenochrome/RIPK1.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/RIPK1.md"
+        },
+        "zh-TW": {
+          "title": "RIPK1",
+          "description": "RIPK1（受體交互作用絲胺酸／蘇胺酸蛋白激酶 1）是分子量 76 kDa 的激酶與含死亡結構域蛋白質，作為核心分子開關，主導細胞在存活、凋亡與壞死性凋亡之間的命運決定。",
+          "created": "2026-07-04",
+          "updated": "2026-09-14",
+          "tags": [
+            "enzyme"
+          ],
+          "filename": "RIPK1.md",
+          "path": "wiki/zh-TW/adrenochrome/RIPK1.md"
+        }
+      },
+      "stats": {
+        "words": 1317,
+        "images": 0,
+        "links": 96,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "Polyphenols",
       "langs": {
         "en-US": {
@@ -5201,40 +5343,6 @@
         "words": 893,
         "images": 0,
         "links": 84,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "RIPK1",
-      "langs": {
-        "en-US": {
-          "title": "RIPK1",
-          "description": "RIPK1 (Receptor-interacting serine/threonine-protein kinase 1) is a 76 kDa kinase and death domain-containing protein that serves as a central molecular switch governing cell fate decisions between survival, apoptosis, and necroptosis.",
-          "created": "2026-07-04",
-          "updated": "2026-09-14",
-          "tags": [
-            "enzyme"
-          ],
-          "filename": "RIPK1.md",
-          "path": "wiki/en-US/adrenochrome/RIPK1.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/RIPK1.md"
-        },
-        "zh-TW": {
-          "title": "RIPK1",
-          "description": "RIPK1（受體交互作用絲胺酸／蘇胺酸蛋白激酶 1）是分子量 76 kDa 的激酶與含死亡結構域蛋白質，作為核心分子開關，主導細胞在存活、凋亡與壞死性凋亡之間的命運決定。",
-          "created": "2026-07-04",
-          "updated": "2026-09-14",
-          "tags": [
-            "enzyme"
-          ],
-          "filename": "RIPK1.md",
-          "path": "wiki/zh-TW/adrenochrome/RIPK1.md"
-        }
-      },
-      "stats": {
-        "words": 1317,
-        "images": 0,
-        "links": 96,
         "diagrams": 0
       }
     },

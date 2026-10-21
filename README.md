@@ -5,7 +5,7 @@
 <!-- GENERATED: summary_table -->
 | topic | updated | documents | entities | words | disk |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 20_OCT_2026 | 34 | 2062 | 1,476,291 | 18.05 MB |
+| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 20_OCT_2026 | 34 | 2062 | 1,476,293 | 18.05 MB |
 | [adrenochrome](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 08_OCT_2026 | 19 | 258 | 202,300 | 2.65 MB |
 | [autophagy](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 04_OCT_2026 | 12 | 234 | 187,217 | 1.73 MB |
 | [cancer](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 04_OCT_2026 | 11 | 286 | 258,502 | 2.99 MB |
@@ -18,7 +18,7 @@
 | [senescence](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 02_OCT_2026 | 16 | 66 | 156,813 | 2.24 MB |
 | [sirtuins](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 02_OCT_2026 | 20 | 172 | 314,180 | 3.97 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 20_OCT_2026 | **143** | **3650** | **3,160,693** | **38.13 MB** |
+| **subtotal** | 20_OCT_2026 | **143** | **3650** | **3,160,695** | **38.13 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***
@@ -288,7 +288,7 @@ Build: 02_OCT_2026 · hash `3d9d2c9fe214c0d2`
 <details>
 <summary><strong>Tasks (127 total)</strong> — click to expand</summary>
 
-- [task_output_nad_metabolism_cd38_sarm1_20_Oct_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_nad_metabolism_cd38_sarm1_20_Oct_2026.md) [[src/tasks/task_output_nad_metabolism_cd38_sarm1_20_Oct_2026.md|wiki]] (21_OCT_2026 06:37 AM PDT)
+- [task_output_nad_metabolism_cd38_sarm1_20_Oct_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_nad_metabolism_cd38_sarm1_20_Oct_2026.md) [[src/tasks/task_output_nad_metabolism_cd38_sarm1_20_Oct_2026.md|wiki]] (21_OCT_2026 06:40 AM PDT)
 - [task_output_biomarker_gate_supply_chain_procurement_04_Oct_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_biomarker_gate_supply_chain_procurement_04_Oct_2026.md) [[src/tasks/task_output_biomarker_gate_supply_chain_procurement_04_Oct_2026.md|wiki]] (04_OCT_2026 07:18 PM PDT)
 - [task_output_eryptosis_review_vs_cell_death_01_Oct_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md) [[src/tasks/task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md|wiki]] (04_OCT_2026 01:21 PM PDT)
 - [task_output_bioactive_compounds_aging_formulations_17_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_bioactive_compounds_aging_formulations_17_Sep_2026.md) [[src/tasks/task_output_bioactive_compounds_aging_formulations_17_Sep_2026.md|wiki]] (29_SEP_2026 05:23 PM PDT)
