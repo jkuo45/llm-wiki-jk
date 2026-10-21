@@ -6,7 +6,10 @@ description: Multidrug Resistance (MDR) is the phenomenon where tumor cells beco
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - transporter
+  - biological-process
+  - cancer
+  - pharmacology
+  - drug-efflux
 aliases: []
 ---
 # Multidrug Resistance

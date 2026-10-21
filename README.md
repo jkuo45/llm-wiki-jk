@@ -5,20 +5,20 @@
 <!-- GENERATED: summary_table -->
 | topic | updated | documents | entities | words | disk |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 20_OCT_2026 | 34 | 2062 | 1,476,293 | 18.05 MB |
-| [adrenochrome](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 08_OCT_2026 | 19 | 258 | 202,300 | 2.65 MB |
-| [autophagy](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 04_OCT_2026 | 12 | 234 | 187,217 | 1.73 MB |
-| [cancer](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 04_OCT_2026 | 11 | 286 | 258,502 | 2.99 MB |
-| [cell-death](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cell-death) [[src/notes/cell-death/README\|wiki]] | 08_OCT_2026 | 11 | 91 | 105,417 | 1.13 MB |
-| [comt](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/comt) [[src/notes/comt/README\|wiki]] | 01_OCT_2026 | 2 | 45 | 28,206 | 0.54 MB |
-| [epigenetics](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]] | 04_OCT_2026 | 8 | 225 | 207,456 | 2.23 MB |
-| [hormesis](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/hormesis) [[src/notes/hormesis/README\|wiki]] | 01_OCT_2026 | 7 | 16 | 69,145 | 0.63 MB |
-| [neuromelanin](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/neuromelanin) [[src/notes/neuromelanin/README\|wiki]] | 01_OCT_2026 | 2 | 91 | 64,364 | 0.80 MB |
-| [oxidative-stress](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/oxidative-stress) [[src/notes/oxidative-stress/README\|wiki]] | 04_OCT_2026 | 1 | 104 | 90,802 | 1.15 MB |
+| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 21_OCT_2026 | 34 | 2063 | 1,477,544 | 18.06 MB |
+| [adrenochrome](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 08_OCT_2026 | 19 | 258 | 201,800 | 2.65 MB |
+| [autophagy](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 04_OCT_2026 | 12 | 234 | 187,557 | 1.74 MB |
+| [cancer](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 04_OCT_2026 | 11 | 286 | 259,175 | 3.00 MB |
+| [cell-death](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cell-death) [[src/notes/cell-death/README\|wiki]] | 08_OCT_2026 | 11 | 91 | 105,518 | 1.13 MB |
+| [comt](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/comt) [[src/notes/comt/README\|wiki]] | 01_OCT_2026 | 2 | 45 | 28,241 | 0.54 MB |
+| [epigenetics](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]] | 04_OCT_2026 | 8 | 225 | 208,120 | 2.24 MB |
+| [hormesis](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/hormesis) [[src/notes/hormesis/README\|wiki]] | 01_OCT_2026 | 7 | 16 | 69,625 | 0.63 MB |
+| [neuromelanin](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/neuromelanin) [[src/notes/neuromelanin/README\|wiki]] | 01_OCT_2026 | 2 | 91 | 64,406 | 0.80 MB |
+| [oxidative-stress](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/oxidative-stress) [[src/notes/oxidative-stress/README\|wiki]] | 04_OCT_2026 | 1 | 104 | 90,970 | 1.15 MB |
 | [senescence](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 02_OCT_2026 | 16 | 66 | 156,813 | 2.24 MB |
-| [sirtuins](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 02_OCT_2026 | 20 | 172 | 314,180 | 3.97 MB |
+| [sirtuins](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 21_OCT_2026 | 20 | 172 | 314,060 | 3.97 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 20_OCT_2026 | **143** | **3650** | **3,160,695** | **38.13 MB** |
+| **subtotal** | 21_OCT_2026 | **143** | **3651** | **3,163,829** | **38.16 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***

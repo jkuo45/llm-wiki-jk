@@ -1,3 +1,11 @@
+---
+title: "Brosimine B and the biphasic dose-response: insights into Hormesis and retinal neuroprotection"
+description: Brosimine B (a prenylated flavan from Brosimum acutifolium) improves retinal cell viability and lowers ROS under oxygen-glucose deprivation at 10 uM, with cytotoxicity above that concentration; a hormetic (inverted U) model fits the dose-response (peak 10.2 uM, R2 = 0.984).
+created: 2026-09-02
+source: 2025_Fonseca_brosimineB-hormesis_Front-Pharmacol.nxml
+author: [Fonseca]
+tags: [hormesis, flavonoid, neuroprotection, dose-response, retina]
+---
 # [[Brosimine B]] and the biphasic dose-response: insights into [[Hormesis]] and retinal neuroprotection
 
 _Source: 2025_Fonseca_brosimineB-hormesis_Front-Pharmacol.nxml (JATS full text via EuropePMC, converted auto)_

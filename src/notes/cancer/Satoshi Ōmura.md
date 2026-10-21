@@ -4,7 +4,10 @@ description: Satoshi Ōmura is a Japanese microbiologist and 2015 Nobel laureate
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - organization
+  - person
+  - antiparasitic
+  - nobel-laureate
+  - ivermectin
 aliases: []
 ---
 

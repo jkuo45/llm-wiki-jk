@@ -6,7 +6,10 @@ description: The Intrinsic Pathway, also known as the mitochondrial pathway
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - enzyme
+  - biological-process
+  - apoptosis
+  - mitochondrial
+  - caspase-9
 aliases: []
 ---
 

@@ -7,8 +7,10 @@ protected: true
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - medical-condition
+  - protein
   - apoptosis
+  - bcl-2-family
+  - mitochondrial
 aliases: []
 ---
 

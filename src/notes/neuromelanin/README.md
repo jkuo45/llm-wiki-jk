@@ -3,7 +3,7 @@ title: Neuromelanin
 aliases: []
 description: index of entities and documents in this directory
 created: 2026-07-04
-updated: 2026-08-16
+updated: 2026-10-21
 ---
 # Neuromelanin
 
@@ -106,6 +106,7 @@ updated: 2026-08-16
 | [[Haloperidol]] | chemical-compound | Haloperidol is an antipsychotic medication that can be metabolized into the neurotoxin HPP+, potentially contributing to drug-induced Parkinsonism. |
 | [[Ambroxol]] | chemical-compound | Ambroxol is a drug used to treat respiratory diseases involving excessive mucus; it is also a glucocerebrosidase chaperone investigated in Parkinson''s Disease. |
 | [[Flortaucipir]] | chemical-compound | Flortaucipir ([18F]-AV-1451) is a positron emission tomography (PET) tracer originally developed for imaging tau protein aggregates but also found to bind strongly to Neuromelanin. |
+| [[VMAT2]] | protein | VMAT2 is the presynaptic vesicular monoamine transporter in monoaminergic neurons; it packages cytosolic dopamine, serotonin and noradrenaline into synaptic vesicles and is the pharmacological target of reserpine and the tetrabenazine-class VMAT2 inhibitors used in tardive dyskinesia. |
 
 ### Glial & Immune Responses
 

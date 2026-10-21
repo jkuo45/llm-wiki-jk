@@ -6,7 +6,9 @@ description: Fas (also known as CD95, APO-1, or DR2) is a key death receptor
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - enzyme
+  - receptor
+  - tnf-superfamily
+  - apoptosis
 aliases: []
 ---
 

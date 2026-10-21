@@ -6,7 +6,10 @@ description: The Extrinsic Pathway, also known as the death receptor pathway
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - enzyme
+  - biological-process
+  - apoptosis
+  - tnf-superfamily
+  - caspase-8
 aliases: []
 ---
 

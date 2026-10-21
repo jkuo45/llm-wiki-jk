@@ -1,8 +1,17 @@
-# hormesis
+---
+title: Hormesis
+aliases: []
+description: index of entities and documents in this directory
+created: 2026-09-02
+updated: 2026-10-21
+tags: [hormesis, geroscience, dose-response]
+---
+
+# Hormesis
 
 This topic directory contains documents and entity notes sourced using the cross-disciplinary search strategies described in [The 80-90% Blind Spot: Mapping Solutions to Hormesis Literature Invisibility Through Vocabulary Fragmentation](../tasks/task_output_hormesis_literature_invisibility_02_Sep_2026.md) (02_Sep_2026).
 
-The core insight: searching PubMed with only "hormesis" or "hormetic" **misses 80–90% of relevant literature** because the same biphasic dose-response phenomenon is described under dozens of discipline-specific terms — ischemic preconditioning, trained immunity, repeated bout effect, eustress, preparation for oxidative stress, supercompensation, Wolff's law, and many more.
+The core insight: searching PubMed with only "hormesis" or "hormetic" **misses 80–90% of relevant literature** because the same biphasic dose-response phenomenon is described under dozens of discipline-specific terms — ischemic preconditioning, trained immunity, repeated bout effect, eustress, preparation for oxidative stress, supercompensation, Wolff's Law, and many more.
 
 Documents here were retrieved using:
 - **Multi-term Boolean search strings** (Solution 2 of the report) combining field-specific synonyms with dose/low-dose/adaptation qualifiers
@@ -14,28 +23,29 @@ See also: [[Hormesis Vocabulary Bridge]], [[Hormesis]], [[Mitohormesis]], [[Xeno
 
 ## Documents
 
-| Filename | Source | Vocabulary term used |
+| Document | Source | Vocabulary term used |
 |---|---|---|
-| _document_ - 2026_Li_hormesis_in_disease_npJ-Aging_s41514-024-00155-3.md | *npj Aging* (2024) | hormesis (direct) |
-| _document_ - 2026_Liu_redox-exercise_Nrf2-BDNF_Front-Nutr-1850414.md | *Front Nutr* (2026) | Nrf2, autophagy, mitohormesis |
-| _document_ - 2025_Fonseca_brosimineB-hormesis_Front-Pharmacol.md | *Front Pharmacol* (2025) | biphasic dose-response |
-| _document_ - 2025_Kim_DAMP-trained-immunity_Front-Immunol.md | *Front Immunol* (2025) | trained immunity |
-| _document_ - 2025_dietary-hormesis-beyond-nutrition_NPJ-SciFood.md | *NPJ Sci Food* (2025) | dietary hormesis, hormetins |
-| _document_ - 2018_Oliveira_POS-conditioning-hormesis_Front-Physiol.md | *Front Physiol* (2018) | preparation for oxidative stress |
-| _document_ - 2026_Mickky_salt-eustress-sunflower_BMC-Plant-Biol_ABSTRACT-STUB.md | *BMC Plant Biol* (2026) | eustress (plant) |
+| [[_document_ - 2026_Li_hormesis_in_disease_npJ-Aging_s41514-024-00155-3\|_document_ - 2026_Li_hormesis_in_disease_npJ-Aging_s41514-024-00155-3]] | *npj Aging* (2024) | hormesis (direct) |
+| [[_document_ - 2026_Liu_redox-exercise_Nrf2-BDNF_Front-Nutr-1850414\|_document_ - 2026_Liu_redox-exercise_Nrf2-BDNF_Front-Nutr-1850414]] | *Front Nutr* (2026) | Nrf2, autophagy, mitohormesis |
+| [[_document_ - 2025_Fonseca_brosimineB-hormesis_Front-Pharmacol\|_document_ - 2025_Fonseca_brosimineB-hormesis_Front-Pharmacol]] | *Front Pharmacol* (2025) | biphasic dose-response |
+| [[_document_ - 2025_Kim_DAMP-trained-immunity_Front-Immunol\|_document_ - 2025_Kim_DAMP-trained-immunity_Front-Immunol]] | *Front Immunol* (2025) | trained immunity |
+| [[_document_ - 2025_dietary-hormesis-beyond-nutrition_NPJ-SciFood\|_document_ - 2025_dietary-hormesis-beyond-nutrition_NPJ-SciFood]] | *NPJ Sci Food* (2025) | dietary hormesis, hormetins |
+| [[_document_ - 2018_Oliveira_POS-conditioning-hormesis_Front-Physiol\|_document_ - 2018_Oliveira_POS-conditioning-hormesis_Front-Physiol]] | *Front Physiol* (2018) | preparation for oxidative stress |
+| [[_document_ - 2026_Mickky_salt-eustress-sunflower_BMC-Plant-Biol_ABSTRACT-STUB\|_document_ - 2026_Mickky_salt-eustress-sunflower_BMC-Plant-Biol_ABSTRACT-STUB]] | *BMC Plant Biol* (2026) | eustress (plant) |
 
-## Entities
+## Entity Notes
 
-| Entity | Source documents |
-|---|---|
-| [[Hormesis Vocabulary Bridge]] | all seven — synonym index |
-| [[Dietary Hormesis]] | dietary-hormesis, Brosimine B, redox-exercise |
-| [[Hormetin]] | dietary-hormesis, Brosimine B |
-| [[Trained Immunity]] | Kim DAMP-trained-immunity, Li review |
-| [[Preparation for Oxidative Stress]] | Oliveira POS, Li review |
-| [[Brosimine B]] | Fonseca Brosimine B |
-| [[Eustress]] | Mickky salt-eustress (abstract stub) |
-| [[Exercise Hormesis]] | Liu redox-exercise |
+| Entity | entity_type_1 | Source documents | Description |
+|---|---|---|---|
+| [[Hormesis Vocabulary Bridge]] | scientific-concept | all seven — synonym index | Cross-disciplinary synonym map explaining why PubMed searches for hormesis miss most relevant literature. |
+| [[Dietary Hormesis]] | scientific-concept | dietary-hormesis, Brosimine B, redox-exercise | Beneficial adaptive responses to low doses of food-borne bioactive compounds within whole-food matrices. |
+| [[Hormetin]] | chemical | dietary-hormesis, Brosimine B | Low-dose bioactive compound that triggers adaptive hormetic stress responses. |
+| [[Trained Immunity]] | immune-process | Kim DAMP-trained-immunity, Li review | Innate immune memory encoded by metabolic and epigenetic reprogramming after DAMP or PAMP exposure. |
+| [[Preparation for Oxidative Stress]] | physiological-process | Oliveira POS, Li review | Hypoxia-induced upregulation of antioxidant defenses that preconditions animals for reoxygenation, proposed as conditioning hormesis. |
+| [[Brosimine B]] | chemical | Fonseca Brosimine B | Prenylated flavan flavonoid from Brosimum acutifolium with quantified hormetic neuroprotection in retinal OGD. |
+| [[Eustress]] | scientific-concept | Mickky salt-eustress (abstract stub) | Beneficial low-dose stress that stimulates growth and quality, contrasted with distress at higher doses. |
+| [[Exercise Hormesis]] | physiological-process | Liu redox-exercise | Exercise-induced transient ROS that drives Nrf2-BDNF, autophagy, and mitochondrial adaptation in neurodegeneration models. |
+| [[Yerkes-Dodson Law]] | scientific-concept | — | The Yerkes-Dodson law is the empirical inverted-U relationship between arousal and performance, first described in 1908 from mouse discrimination-learning experiments; it is the best-known psychological expression of the biphasic dose-response underlying hormesis, though its biological interpretation as a general law is contested. |
 
 ## Connections
 
@@ -44,3 +54,4 @@ See also: [[Hormesis Vocabulary Bridge]], [[Hormesis]], [[Mitohormesis]], [[Xeno
 - [[Trained Immunity]] ↔ [[Preparation for Oxidative Stress]] ↔ [[Exercise Hormesis]]: three preconditioning paradigms (immune memory, antioxidant memory, redox adaptation) sharing mTOR/AMPK and ROS logic.
 - [[Eustress]] ↔ [[Dietary Hormesis]]: plant eustress directly improves food nutritional value.
 - [[Brosimine B]] ↔ [[Preparation for Oxidative Stress]]: OGD-catalase rescue mirrors POS preconditioning.
+- [[Yerkes-Dodson Law]] ↔ [[Hormetic Window]]: the inverted-U performance curve is the psychological face of the biphasic dose-response.

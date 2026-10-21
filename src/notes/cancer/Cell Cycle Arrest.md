@@ -4,7 +4,11 @@ description: A regulated halting of cell cycle progression at the G1 or G2/M pha
 protected: false
 created: 2026-08-15
 updated: 2026-08-15
-tags: [process, cell-cycle, cancer, chemoprevention]
+tags:
+  - biological-process
+  - cell-cycle
+  - cancer
+  - chemoprevention
 url: #
 source: _document_ - Plant flavone apigenin An emerging anticancer agent.md
 aliases: [cell cycle block, checkpoint arrest]

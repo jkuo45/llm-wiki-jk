@@ -3,7 +3,7 @@ title: Autophagy
 aliases: []
 description: index of entities and documents in this directory
 created: 2026-07-04
-updated: 2026-08-16
+updated: 2026-10-21
 ---
 # Autophagy
 
@@ -66,6 +66,10 @@ updated: 2026-08-16
 | [[FIP200]] | protein | FIP200 (FAK family-interacting protein of 200 kDa), also known as RB1CC1, is a core component of the ULK1 complex essential for the initiation of Macroautophagy. |
 | [[ULK1]] | gene | ULK1 (Unc-51 Like Autophagy Activating Kinase 1) is a serine/threonine protein kinase that serves as the central initiator of Autophagy in response to nutrient and energy signals. It is the mam... |
 | [[WHAMM]] | protein | WHAMM (WASP Homolog Associated with Actin, Membranes, and Microtubules) is a WASP-family nucleation-promoting factor that links Arp2/3 actin assembly to ER/Golgi and autolysosomal membranes, supporting autophagosome formation and autophagic lysosome reformation. |
+| [[Reticulophagy]] | biological-process | Reticulophagy is the selective autophagic degradation of the endoplasmic reticulum through lysosomal delivery, driven by resident receptor proteins such as FAM134B/RETREG1, ATL3, TEX264, CCPG1 and SEC62; it relieves ER stress and area, and its failure contributes to neurodegeneration, liver disease and inflammatory disease. |
+| [[LAMP2]] | protein | LAMP2 is a heavily glycosylated lysosomal membrane glycoprotein with three splice isoforms (LAMP-2A, -2B, -2C); LAMP-2A is the lysosomal receptor for chaperone-mediated autophagy and LAMP-2B is required for autophagosome maturation. |
+| [[Atg3]] | protein | Atg3 (Autophagy-related 3) is the E2 conjugating enzyme that transfers Atg8/LC3-family proteins from Atg7 to phosphatidylethanolamine, a lipid conjugation step unique to autophagosome membrane biogenesis. |
+| [[ATG Genes]] | gene | ATG genes encode the core autophagy machinery first identified in yeast and named Apg/Nir/Atg; the roughly 35 human ATG genes encode the ULK1, class III PI3K and ubiquitin-like conjugation systems that build, close and deliver autophagosomes. |
 
 ### mTORC1 Complex & Lysosomal Nutrient Sensing
 
@@ -144,6 +148,9 @@ updated: 2026-08-16
 | [[SNARE proteins]] | scientific-concept | SNARE proteins (Soluble N-ethylmaleimide-sensitive factor attachment protein receptors) are a large family of proteins that mediate membrane fusion between organelles, such as the fusion of Aut... |
 | [[ESCRT]] | scientific-concept | The Endosomal Sorting Complexes Required for Transport (ESCRT) is a protein machinery generally involved in membrane remodeling, vesicle budding, and cargo sorting within endosomes. In the context ... |
 | [[Starvation]] | biological-process | Starvation is a state of severe nutrient deficiency that triggers profound metabolic and cellular adaptations, including the massive activation of Autophagy. |
+| [[PtdIns4P]] | biological-molecule | Phosphatidylinositol 4-phosphate is an abundant phosphoinositide concentrated in the Golgi and trans-Golgi network, where it recruits coat adaptors and oxysterol-binding proteins to drive lipid countertransport, lysosomal repair, and autophagosome formation. |
+| [[Ferritinophagy]] | biological-process | Ferritinophagy is the cargo-receptor-mediated selective autophagic degradation of ferritin, mediated by NCOA4, which liberates free iron from storage and thereby sets the threshold for ferroptosis. |
+| [[HOPS Complex]] | protein-complex | The HOPS complex is a conserved six-subunit homotypic fusion and protein sorting tethering complex, built on a VPS16-VPS33-VPS18-VPS11 core, that couples Rab7-GTP on late endosomes and lysosomes to SNARE assembly and membrane fusion. |
 
 ### Autophagy Regulators: Kinases, Signaling & PTMs
 
@@ -184,7 +191,7 @@ updated: 2026-08-16
 
 | Entity | entity_type_1 | Description |
 |--------|---------------|-------------|
-| [[TFEB_disease_model]] | scientific-concept | | Targeting regulatory mechanisms of TFEB | Disease | Characteristics of disease ... |
+| [[TFEB_disease_model]] | scientific-concept | \| Targeting regulatory mechanisms of TFEB \| Disease \| Characteristics of disease ... |
 | [[MiT-TFE family]] | gene | The microphthalmia (MiT/TFE) family of transcription factors includes TFEB, TFE3, MITF, and TFEC, which regulate autophagy and lysosomal genes by binding to CLEAR Elements. |
 | [[MiTF TFE family]] | gene | A family of basic helix-loop-helix transcription factors that regulate Lysosome and Autophagy. |
 | [[TFE3]] | gene | TFE3 (Transcription Factor E3) is a member of the MiT/TFE family of basic helix-loop-helix transcription factors that, along with TFEB, regulates the expression of genes involved in Lysosome bi... |
@@ -229,6 +236,8 @@ updated: 2026-08-16
 | [[Trehalose]] | chemical-compound | Trehalose is a natural disaccharide that induces TFEB-mediated autophagy and has been shown to attenuate mitochondrial dysfunction in various disease models. |
 | [[Polyamine]] | chemical-class | Polyamines are organic compounds that play essential roles in cell growth, survival, and stress adaptation. |
 | [[SIR-2.1]] | enzyme | SIR-2.1 is the C. elegans orthologue of the mammalian SIRT1 sirtuin. It is an NAD+-dependent histone deacetylase that regulates Longevity and stress resistance. |
+| [[Ketone Body]] | metabolite | Ketone bodies are the three water-soluble compounds acetoacetate, beta-hydroxybutyrate and acetone produced by the liver from fatty acids during carbohydrate restriction, exported to extrahepatic tissue as alternative redox fuel. |
+| [[Hydroxycitrate]] | chemical-compound | (-)-Hydroxycitric acid is a competitive inhibitor of ATP-citrate lyase that blocks cytosolic acetyl-CoA generation, suppressing de novo lipogenesis; it is the active principle of Garcinia cambogia and a classical caloric restriction mimetic. |
 
 ### Immune Response & Cell Types
 

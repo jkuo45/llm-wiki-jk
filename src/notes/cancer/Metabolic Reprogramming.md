@@ -4,7 +4,9 @@ description: '- Aerobic Glycolysis: Also known as the Warburg Effect, where cell
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - enzyme
+  - biological-process
+  - metabolism
+  - cancer-metabolism
 aliases: []
 ---
 

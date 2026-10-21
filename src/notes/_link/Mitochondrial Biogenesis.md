@@ -5,9 +5,10 @@ protected: false
 created: 2026-07-04
 updated: 2026-08-16
 tags:
-  - process
   - biological-process
   - mitochondria
+  - ppargc1a
+  - sirtuin-target
 aliases:
   - Mitochondriogenesis
   - Mitochondrial proliferation

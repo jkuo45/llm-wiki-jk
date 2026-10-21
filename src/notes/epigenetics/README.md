@@ -3,7 +3,7 @@ title: Epigenetics
 aliases: []
 description: index of entities and documents in this directory
 created: 2026-07-04
-updated: 2026-08-16
+updated: 2026-10-21
 ---
 # Epigenetics
 
@@ -61,6 +61,12 @@ updated: 2026-08-16
 | [[SAHF]] | biological-molecule | Senescence-Associated Heterochromatin Foci (SAHF) are specialized facultative heterochromatin domains in senescent nuclei that silence proliferation genes via H3K9me3 and macroH2A, enforcing irreversible growth arrest. |
 | [[Polycomb Group Proteins]] | protein | Polycomb group (PcG) proteins are evolutionarily conserved chromatin regulators that maintain transcriptional repression of developmental genes, cell cycle regulators, and senescence-associated... |
 | [[Sas2p]] | protein | A yeast histone acetyltransferase that, opposing Sir2p, sets H4K16 acetylation at the telomere-euchromatin boundary, a balance whose disruption shortens lifespan. |
+| [[Histone H2B]] | protein | Histone H2B is one of the four canonical core histones, present as two copies per nucleosome octamer as the obligate partner of H2A; its best-known modification is K120 monoubiquitination, a co-transcriptional mark that is an obligate precursor to H3K4 and H3K79 methylation, and its C-terminal motif is a major docking site for FACT and TFIIS. |
+| [[Histone H2A]] | protein | Histone H2A is one of the four canonical core histones, present as two copies per nucleosome octamer; it supplies the acidic patch on the nucleosome surface that most bromodomain and PHD finger readers bind, carries modification sites including H2AK119ub, and is the base protein from which H2A.Z, H2A.X, H2A.J and macroH2A variants are derived. |
+| [[HMGA2]] | protein | HMGA2 is a small oncofetal chromatin architectural protein of the high-mobility-group AT-hook family that acts as an oncogene by repressing cell differentiation, is the best-characterised target of the let-7 microRNA and a key downstream effector of LIN28, and is upregulated in senescence where it cooperates with the Rb pathway. |
+| [[H4K16ac]] | histone-modification | Acetylation of histone H4 at lysine 16, an active chromatin mark deposited by KAT8/MOF and read by bromodomain proteins; it blocks nucleosome stacking, marks active promoters and is the substrate SIRT2 and HDAC modules remove to permit mitotic chromosome condensation. |
+| [[ChIP-seq]] | analytical-technique | Chromatin immunoprecipitation followed by sequencing, the standard genome-wide method for mapping where a DNA-binding protein, histone modification or chromatin-associated factor occupies the genome. |
+| [[CTCF]] | protein | CTCF is a CCCTC-binding zinc-finger transcriptional regulator that acts as the principal chromatin insulator, binding loop anchors to halt cohesin loop extrusion and thereby define topologically associating domain boundaries. |
 
 ### DNA Methylation Machinery & Inhibitors
 
@@ -121,6 +127,8 @@ updated: 2026-08-16
 | [[Disease Modeling]] | scientific-concept | Disease Modeling uses patient-derived cells (especially Induced Pluripotent Stem Cells) and Organoids to recreate human pathology in vitro for mechanistic study and Drug Discovery. |
 | [[Model Organisms]] | scientific-concept | Model organisms are non-human species used in biomedical research to understand biological processes, such as aging, in a controlled environment. |
 | [[Isogenic Pair]] | scientific-concept | Two cell lines that are genetically identical except for a single defined locus, enabling controlled attribution of phenotype to genotype. |
+| [[Self-Renewal]] | biological-process | Self-renewal is the intrinsic capacity of a stem cell to produce at least one daughter cell that retains the parent cell's undifferentiated identity, allowing indefinite propagation of the stem cell pool alongside differentiated progeny. |
+| [[John Gurdon]] | person | Sir John Bertrand Gurdon (1933-2025) was a British developmental biologist whose nuclear transplantation experiments showed that the genome of a differentiated cell remains totipotent; he shared the 2012 Nobel Prize in Physiology or Medicine. |
 
 ### Senescence & Cellular Aging
 
@@ -152,6 +160,8 @@ updated: 2026-08-16
 | [[Retinoblastoma Protein]] | protein | The Retinoblastoma Protein (pRb) is a tumor suppressor that restricts G1/S progression by binding and inhibiting E2F transcription factors. |
 | [[RB1]] | gene | RB1 is the gene encoding the Retinoblastoma Protein (pRb), a tumor suppressor that gates the G1/S transition by inhibiting E2F and enforcing quiescence. |
 | [[Tumor Suppressor Gene]] | gene | A Tumor Suppressor Gene (TSG) encodes a protein that protects cells from neoplastic transformation. Unlike Oncogene (which promote proliferation when mutated or overexpressed), TSGs suppress tu... |
+| [[Spindle Assembly Checkpoint]] | protein-complex | The surveillance network that delays anaphase until every kinetochore is correctly attached to spindle microtubules, halting APC/C activity through the Mad2-BubR1-Bub3-Cdc20 mitotic checkpoint complex. |
+| [[Mad2]] | protein | Mad2 (MAD2L1) is the checkpoint-sensing component of the mitotic spindle assembly checkpoint; it binds Cdc20 to inhibit APC/C activity until every kinetochore is correctly attached, thereby preventing aneuploidy. |
 
 ### Cell Adhesion, Cytoskeleton & EMT
 
@@ -186,6 +196,7 @@ updated: 2026-08-16
 | [[SMAD Proteins]] | protein | SMAD Proteins are intracellular signal transducers of the TGF-beta superfamily; receptor-regulated SMADs complex with Co-SMAD to relay TGF-beta signals to target genes controlling quiescence, EMT, and fibrosis. |
 | [[Wnt4]] | protein | Wnt4 is a secreted Wnt ligand regulating β-catenin-independent and -dependent signaling in kidney, sex determination, and stem-cell quiescence. |
 | [[Hippo Signaling Pathway]] | biological-process | A highly conserved signaling pathway (Salvador-Warts-Hippo) controlling organ size through regulation of proliferation, apoptosis, and contact inhibition via YAP/TAZ transcriptional coactivators. |
+| [[SRF]] | protein | Serum response factor (SRF) is a MADS-box transcription factor that binds CArG boxes and, with the coactivators myocardin and MRTF-A/B, regulates most smooth-muscle and myofibroblast genes, making it a central node in fibrosis. |
 
 ### Transcription Factors & RNA Regulation
 
@@ -209,6 +220,10 @@ updated: 2026-08-16
 | [[ICAD]] | protein | The inhibitor of the caspase-activated DNase (CAD); cleavage of ICAD by executioner caspases releases CAD to fragment nuclear DNA during apoptosis. |
 | [[B18R]] | protein | A vaccinia virus protein that acts as a decoy receptor for interferon-gamma, facilitating viral evasion of the host immune response. |
 | [[BIG1]] | protein | B-cell immunoglobulin gene product 1, a protein involved in cell signaling, growth, and potentially neurodegenerative processes. |
+| [[RNA Polymerase II]] | protein | RNA polymerase II is the twelve-subunit eukaryotic enzyme that transcribes all protein-coding genes and most non-coding RNAs; its largest-subunit C-terminal domain is a heptad-repeat landing pad whose phosphorylation pattern coordinates capping, elongation, splicing and termination. |
+| [[NRL]] | protein | NRL (neural retina leucine zipper) is a Maf-family basic leucine zipper transcription factor that determines rod photoreceptor cell fate in the mammalian retina and drives expression of most rod-specific genes including rhodopsin. |
+| [[Enhancer]] | gene-regulation | Cis-regulatory DNA element that raises transcription of a target gene from variable distance and orientation, marked by open chromatin, H3K4me1, and (when active) H3K27ac. |
+| [[CDK9]] | kinase | Cyclin-dependent kinase 9, the catalytic subunit of P-TEFb that phosphorylates RNA polymerase II CTD Ser2 and releases promoter-proximal pausing, and a transcriptional vulnerability in cancer. |
 
 ### DNA Damage, Repair & Genomic Stability
 
@@ -284,6 +299,7 @@ updated: 2026-08-16
 | [[FL118]] | chemical-compound | FL118 is a novel camptothecin analog and second-generation topoisomerase I inhibitor that traps the TOP1 cleavage complex and selectively suppresses survivin, exhibiting broad anticancer activity with reduced toxicity. |
 | [[NRTI]] | drug | Nucleoside reverse transcriptase inhibitors, antiretroviral drugs that also block LINE-1 and HERV retrotransposition, reducing cGAS-STING-driven inflammation and SASP in aging. |
 | [[Phytochemicals]] | chemical-class | A diverse chemical class of plant-derived bioactive secondary metabolites that can modulate epigenetic machinery, redox state, and signaling with effects on aging and cancer. |
+| [[Alkylating Agent]] | drug-class | A class of cytotoxic compounds that transfer alkyl groups to nucleophilic sites in DNA, proteins and RNA, most characteristically the N7 position of guanine, producing monoadducts, intrastrand and interstrand crosslinks that block replication and transcription; the oldest class of cancer chemotherapy. |
 
 ### Diseases & Pathologies
 

@@ -6,7 +6,10 @@ description: Survivin (also known as BIRC5) is a member of the Inhibitor of Apop
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - enzyme
+  - protein
+  - apoptosis
+  - mitotic-checkpoint
+  - cancer
 aliases: []
 protected: true
 ---

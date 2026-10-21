@@ -4,7 +4,10 @@ description: William C. Campbell is an Irish-American parasitologist who, with S
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - organization
+  - person
+  - antiparasitic
+  - nobel-laureate
+  - ivermectin
 aliases: []
 ---
 

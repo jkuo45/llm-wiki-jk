@@ -4,8 +4,10 @@ description: Cellular transport of glucose across the plasma membrane, principal
 created: 2026-07-28
 updated: 2026-07-28
 tags:
-  - process
+  - biological-process
   - metabolism
+  - insulin
+  - glycolysis
 aliases:
   - glucose transport
 protected: false

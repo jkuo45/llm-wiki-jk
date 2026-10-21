@@ -1,5 +1,5 @@
 {
-  "generated": "21_OCT_2026 06:45 AM PDT",
+  "generated": "21_OCT_2026 10:01 AM PDT",
   "wiki": [
     {
       "id": "wiki-index",
@@ -433,6 +433,32 @@
       }
     },
     {
+      "id": "handgrip strength",
+      "langs": {
+        "en-US": {
+          "title": "handgrip strength",
+          "description": "Maximum voluntary grip force measured with a hand dynamometer; a validated, low-cost proxy for overall muscle strength that declines with age and with chronic low-grade inflammation.",
+          "created": "2026-10-21",
+          "updated": "2026-10-21",
+          "tags": [
+            "biomarker",
+            "muscle-function",
+            "aging",
+            "clinical-measure"
+          ],
+          "filename": "handgrip strength.md",
+          "path": "wiki/en-US/_link/handgrip%20strength.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/handgrip%20strength.md"
+        }
+      },
+      "stats": {
+        "words": 264,
+        "images": 0,
+        "links": 25,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "SIRT2",
       "langs": {
         "en-US": {
@@ -807,44 +833,6 @@
       }
     },
     {
-      "id": "Lysosomal Storage Diseases",
-      "langs": {
-        "en-US": {
-          "title": "Lysosomal Storage Diseases",
-          "description": "A group of about 50 rare inherited metabolic disorders that result from defects in lysosomal function.",
-          "created": "2024-01-01",
-          "updated": "2026-10-02",
-          "tags": [
-            "medical-condition",
-            "autophagy",
-            "lysosome"
-          ],
-          "filename": "Lysosomal Storage Diseases.md",
-          "path": "wiki/en-US/_link/Lysosomal%20Storage%20Diseases.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Lysosomal%20Storage%20Diseases.md"
-        },
-        "zh-TW": {
-          "title": "Lysosomal Storage Diseases",
-          "description": "約 50 種罕見遺傳性代謝疾病所構成的一個群體，源自溶酶體功能的缺陷。",
-          "created": "2024-01-01",
-          "updated": "2026-10-02",
-          "tags": [
-            "medical-condition",
-            "autophagy",
-            "lysosome"
-          ],
-          "filename": "Lysosomal Storage Diseases.md",
-          "path": "wiki/zh-TW/_link/Lysosomal%20Storage%20Diseases.md"
-        }
-      },
-      "stats": {
-        "words": 1924,
-        "images": 0,
-        "links": 39,
-        "diagrams": 0
-      }
-    },
-    {
       "id": "NF-κB",
       "langs": {
         "en-US": {
@@ -881,6 +869,44 @@
         "words": 1486,
         "images": 0,
         "links": 138,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Lysosomal Storage Diseases",
+      "langs": {
+        "en-US": {
+          "title": "Lysosomal Storage Diseases",
+          "description": "A group of about 50 rare inherited metabolic disorders that result from defects in lysosomal function.",
+          "created": "2024-01-01",
+          "updated": "2026-10-02",
+          "tags": [
+            "medical-condition",
+            "autophagy",
+            "lysosome"
+          ],
+          "filename": "Lysosomal Storage Diseases.md",
+          "path": "wiki/en-US/_link/Lysosomal%20Storage%20Diseases.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Lysosomal%20Storage%20Diseases.md"
+        },
+        "zh-TW": {
+          "title": "Lysosomal Storage Diseases",
+          "description": "約 50 種罕見遺傳性代謝疾病所構成的一個群體，源自溶酶體功能的缺陷。",
+          "created": "2024-01-01",
+          "updated": "2026-10-02",
+          "tags": [
+            "medical-condition",
+            "autophagy",
+            "lysosome"
+          ],
+          "filename": "Lysosomal Storage Diseases.md",
+          "path": "wiki/zh-TW/_link/Lysosomal%20Storage%20Diseases.md"
+        }
+      },
+      "stats": {
+        "words": 1924,
+        "images": 0,
+        "links": 39,
         "diagrams": 0
       }
     },
@@ -999,46 +1025,6 @@
       }
     },
     {
-      "id": "CBP",
-      "langs": {
-        "en-US": {
-          "title": "CBP",
-          "description": "CBP (CREB-binding protein / CREBBP) is a 2442-residue transcriptional coactivator and lysine acetyltransferase that scaffolds enhancer-bound transcription factors to the Mediator complex and acetylates histones and non-histone targets including p53.",
-          "created": "2026-07-04",
-          "updated": "2026-10-01",
-          "tags": [
-            "protein",
-            "transcription",
-            "histone-acetylation",
-            "neurodegeneration"
-          ],
-          "filename": "CBP.md",
-          "path": "wiki/en-US/_link/CBP.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/CBP.md"
-        },
-        "zh-TW": {
-          "title": "CBP",
-          "description": "CBP（CREB-binding protein／CREBBP）是一個 2442 個殘基的轉錄共活化因子與離胺酸乙醯化轉移酶，能將結合於增強子的轉錄因子搭接到 Mediator 複合體，並乙醯化組蛋白與包括 p53 在內的非組蛋白標的。",
-          "created": "2026-07-04",
-          "updated": "2026-10-01",
-          "tags": [
-            "protein",
-            "transcription",
-            "histone-acetylation",
-            "neurodegeneration"
-          ],
-          "filename": "CBP.md",
-          "path": "wiki/zh-TW/_link/CBP.md"
-        }
-      },
-      "stats": {
-        "words": 1079,
-        "images": 0,
-        "links": 47,
-        "diagrams": 0
-      }
-    },
-    {
       "id": "Kidney Diseases",
       "langs": {
         "en-US": {
@@ -1075,6 +1061,46 @@
         "words": 1392,
         "images": 0,
         "links": 95,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "CBP",
+      "langs": {
+        "en-US": {
+          "title": "CBP",
+          "description": "CBP (CREB-binding protein / CREBBP) is a 2442-residue transcriptional coactivator and lysine acetyltransferase that scaffolds enhancer-bound transcription factors to the Mediator complex and acetylates histones and non-histone targets including p53.",
+          "created": "2026-07-04",
+          "updated": "2026-10-01",
+          "tags": [
+            "protein",
+            "transcription",
+            "histone-acetylation",
+            "neurodegeneration"
+          ],
+          "filename": "CBP.md",
+          "path": "wiki/en-US/_link/CBP.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/CBP.md"
+        },
+        "zh-TW": {
+          "title": "CBP",
+          "description": "CBP（CREB-binding protein／CREBBP）是一個 2442 個殘基的轉錄共活化因子與離胺酸乙醯化轉移酶，能將結合於增強子的轉錄因子搭接到 Mediator 複合體，並乙醯化組蛋白與包括 p53 在內的非組蛋白標的。",
+          "created": "2026-07-04",
+          "updated": "2026-10-01",
+          "tags": [
+            "protein",
+            "transcription",
+            "histone-acetylation",
+            "neurodegeneration"
+          ],
+          "filename": "CBP.md",
+          "path": "wiki/zh-TW/_link/CBP.md"
+        }
+      },
+      "stats": {
+        "words": 1079,
+        "images": 0,
+        "links": 47,
         "diagrams": 0
       }
     },
@@ -1593,6 +1619,44 @@
       }
     },
     {
+      "id": "Rac GTPase",
+      "langs": {
+        "en-US": {
+          "title": "Rac GTPase",
+          "description": "The Rac GTPases (RAC1, RAC2, RAC3, RHOG) are a subfamily of Rho-family small GTPases of roughly 21-25 kDa. They act as binary GDP/GTP switches cycle nucleotide state via GEFs, GAPs and GDIs, and drive lamellipodia membrane ruffles and cell adhesion through WAVE, PAK and NADPH oxidase effectors.",
+          "created": "2026-07-04",
+          "updated": "2026-10-01",
+          "tags": [
+            "protein",
+            "signaling",
+            "gtpase"
+          ],
+          "filename": "Rac GTPase.md",
+          "path": "wiki/en-US/_link/Rac%20GTPase.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Rac%20GTPase.md"
+        },
+        "zh-TW": {
+          "title": "Rac GTP酶",
+          "description": "Rac GTP酶（RAC1、RAC2、RAC3、RHOG）是 Rho 家族小 GTP酶中約 21-25 kDa 的一個亞家族。它們以 GDP/GTP 二元開關運作，透過 GEF、GAP 與 GDI 循環核苷酸狀態，並經由 WAVE、PAK 與 NADPH 氧化酶等效應器驅動偽足、膜皺褶與細胞黏附。",
+          "created": "2026-07-04",
+          "updated": "2026-10-01",
+          "tags": [
+            "protein",
+            "signaling",
+            "gtpase"
+          ],
+          "filename": "Rac GTPase.md",
+          "path": "wiki/zh-TW/_link/Rac%20GTPase.md"
+        }
+      },
+      "stats": {
+        "words": 900,
+        "images": 0,
+        "links": 65,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "Calpain",
       "langs": {
         "en-US": {
@@ -1629,44 +1693,6 @@
         "words": 706,
         "images": 0,
         "links": 49,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "Rac GTPase",
-      "langs": {
-        "en-US": {
-          "title": "Rac GTPase",
-          "description": "The Rac GTPases (RAC1, RAC2, RAC3, RHOG) are a subfamily of Rho-family small GTPases of roughly 21-25 kDa. They act as binary GDP/GTP switches cycle nucleotide state via GEFs, GAPs and GDIs, and drive lamellipodia membrane ruffles and cell adhesion through WAVE, PAK and NADPH oxidase effectors.",
-          "created": "2026-07-04",
-          "updated": "2026-10-01",
-          "tags": [
-            "protein",
-            "signaling",
-            "gtpase"
-          ],
-          "filename": "Rac GTPase.md",
-          "path": "wiki/en-US/_link/Rac%20GTPase.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Rac%20GTPase.md"
-        },
-        "zh-TW": {
-          "title": "Rac GTP酶",
-          "description": "Rac GTP酶（RAC1、RAC2、RAC3、RHOG）是 Rho 家族小 GTP酶中約 21-25 kDa 的一個亞家族。它們以 GDP/GTP 二元開關運作，透過 GEF、GAP 與 GDI 循環核苷酸狀態，並經由 WAVE、PAK 與 NADPH 氧化酶等效應器驅動偽足、膜皺褶與細胞黏附。",
-          "created": "2026-07-04",
-          "updated": "2026-10-01",
-          "tags": [
-            "protein",
-            "signaling",
-            "gtpase"
-          ],
-          "filename": "Rac GTPase.md",
-          "path": "wiki/zh-TW/_link/Rac%20GTPase.md"
-        }
-      },
-      "stats": {
-        "words": 900,
-        "images": 0,
-        "links": 65,
         "diagrams": 0
       }
     },
@@ -2331,44 +2357,6 @@
       }
     },
     {
-      "id": "Rac1",
-      "langs": {
-        "en-US": {
-          "title": "Rac1",
-          "description": "Rac1 (Ras-related C3 botulinum toxin substrate 1) is a 21 kDa Rho-family small GTPase and the ubiquitously expressed prototype of the Rac subfamily. It cycles GDP/GTP under control of GEFs, GAPs and RhoGDI, and via PAK, WAVE and NADPH oxidase controls lamellipodia, adhesion, gene expression and the respiratory burst.",
-          "created": "2026-07-04",
-          "updated": "2026-10-01",
-          "tags": [
-            "protein",
-            "signaling",
-            "gtpase"
-          ],
-          "filename": "Rac1.md",
-          "path": "wiki/en-US/_link/Rac1.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Rac1.md"
-        },
-        "zh-TW": {
-          "title": "Rac1",
-          "description": "Rac1（Ras-related C3 botulinum toxin substrate 1）是一個 21 kDa 的 Rho 家族小 GTPase，也是 Rac 亞家族中廣泛表現的原型。它在 GEF、GAP 與 RhoGDI 的調控下進行 GDP/GTP 循環，並透過 PAK、WAVE 與 NADPH 氧化酶控制偽足、黏附、基因表現與呼吸爆發。",
-          "created": "2026-07-04",
-          "updated": "2026-10-01",
-          "tags": [
-            "protein",
-            "signaling",
-            "gtpase"
-          ],
-          "filename": "Rac1.md",
-          "path": "wiki/zh-TW/_link/Rac1.md"
-        }
-      },
-      "stats": {
-        "words": 971,
-        "images": 0,
-        "links": 87,
-        "diagrams": 0
-      }
-    },
-    {
       "id": "Embryogenesis",
       "langs": {
         "en-US": {
@@ -2407,6 +2395,44 @@
         "words": 1378,
         "images": 0,
         "links": 110,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Rac1",
+      "langs": {
+        "en-US": {
+          "title": "Rac1",
+          "description": "Rac1 (Ras-related C3 botulinum toxin substrate 1) is a 21 kDa Rho-family small GTPase and the ubiquitously expressed prototype of the Rac subfamily. It cycles GDP/GTP under control of GEFs, GAPs and RhoGDI, and via PAK, WAVE and NADPH oxidase controls lamellipodia, adhesion, gene expression and the respiratory burst.",
+          "created": "2026-07-04",
+          "updated": "2026-10-01",
+          "tags": [
+            "protein",
+            "signaling",
+            "gtpase"
+          ],
+          "filename": "Rac1.md",
+          "path": "wiki/en-US/_link/Rac1.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Rac1.md"
+        },
+        "zh-TW": {
+          "title": "Rac1",
+          "description": "Rac1（Ras-related C3 botulinum toxin substrate 1）是一個 21 kDa 的 Rho 家族小 GTPase，也是 Rac 亞家族中廣泛表現的原型。它在 GEF、GAP 與 RhoGDI 的調控下進行 GDP/GTP 循環，並透過 PAK、WAVE 與 NADPH 氧化酶控制偽足、黏附、基因表現與呼吸爆發。",
+          "created": "2026-07-04",
+          "updated": "2026-10-01",
+          "tags": [
+            "protein",
+            "signaling",
+            "gtpase"
+          ],
+          "filename": "Rac1.md",
+          "path": "wiki/zh-TW/_link/Rac1.md"
+        }
+      },
+      "stats": {
+        "words": 971,
+        "images": 0,
+        "links": 87,
         "diagrams": 0
       }
     },
@@ -3271,40 +3297,6 @@
       }
     },
     {
-      "id": "Parkin",
-      "langs": {
-        "en-US": {
-          "title": "Parkin",
-          "description": "An E3 ubiquitin ligase that plays a critical role in Mitophagy. It is recruited to damaged mitochondria by PINK1 and labels them for degradation by the lysosome.",
-          "created": "2026-07-04",
-          "updated": "2026-10-01",
-          "tags": [
-            "protein"
-          ],
-          "filename": "Parkin.md",
-          "path": "wiki/en-US/_link/Parkin.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Parkin.md"
-        },
-        "zh-TW": {
-          "title": "Parkin",
-          "description": "Parkin 是一種在粒線體自噬中扮演關鍵角色的 E3 泛素連接酶。它由 PINK1 招募至受損的粒線體，並將其標記以供溶酶體降解。",
-          "created": "2026-07-04",
-          "updated": "2026-10-01",
-          "tags": [
-            "protein"
-          ],
-          "filename": "Parkin.md",
-          "path": "wiki/zh-TW/_link/Parkin.md"
-        }
-      },
-      "stats": {
-        "words": 1016,
-        "images": 0,
-        "links": 73,
-        "diagrams": 0
-      }
-    },
-    {
       "id": "Necroptosis",
       "langs": {
         "en-US": {
@@ -3341,6 +3333,40 @@
         "words": 2808,
         "images": 0,
         "links": 230,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Parkin",
+      "langs": {
+        "en-US": {
+          "title": "Parkin",
+          "description": "An E3 ubiquitin ligase that plays a critical role in Mitophagy. It is recruited to damaged mitochondria by PINK1 and labels them for degradation by the lysosome.",
+          "created": "2026-07-04",
+          "updated": "2026-10-01",
+          "tags": [
+            "protein"
+          ],
+          "filename": "Parkin.md",
+          "path": "wiki/en-US/_link/Parkin.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Parkin.md"
+        },
+        "zh-TW": {
+          "title": "Parkin",
+          "description": "Parkin 是一種在粒線體自噬中扮演關鍵角色的 E3 泛素連接酶。它由 PINK1 招募至受損的粒線體，並將其標記以供溶酶體降解。",
+          "created": "2026-07-04",
+          "updated": "2026-10-01",
+          "tags": [
+            "protein"
+          ],
+          "filename": "Parkin.md",
+          "path": "wiki/zh-TW/_link/Parkin.md"
+        }
+      },
+      "stats": {
+        "words": 1016,
+        "images": 0,
+        "links": 73,
         "diagrams": 0
       }
     },
@@ -5025,6 +5051,40 @@
       }
     },
     {
+      "id": "mTORC1",
+      "langs": {
+        "en-US": {
+          "title": "mTORC1",
+          "description": "mTORC1 (mechanistic target of rapamycin complex 1) is a multi-protein signaling complex that integrates nutrient, energy, and growth factor signals to coordinate cell growth, protein synthesis, and metabolism.",
+          "created": "2024-01-01",
+          "updated": "2026-09-02",
+          "tags": [
+            "protein"
+          ],
+          "filename": "mTORC1.md",
+          "path": "wiki/en-US/_link/mTORC1.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/mTORC1.md"
+        },
+        "zh-TW": {
+          "title": "mTORC1",
+          "description": "mTORC1（mechanistic target of rapamycin complex 1）是整合營養、能量與生長因子訊號，以協調細胞生長、蛋白質合成與代謝的多蛋白訊號複合體。",
+          "created": "2024-01-01",
+          "updated": "2026-09-02",
+          "tags": [
+            "protein"
+          ],
+          "filename": "mTORC1.md",
+          "path": "wiki/zh-TW/_link/mTORC1.md"
+        }
+      },
+      "stats": {
+        "words": 2471,
+        "images": 0,
+        "links": 256,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "Prostaglandin H₂",
       "langs": {
         "en-US": {
@@ -5059,40 +5119,6 @@
         "words": 567,
         "images": 0,
         "links": 45,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "mTORC1",
-      "langs": {
-        "en-US": {
-          "title": "mTORC1",
-          "description": "mTORC1 (mechanistic target of rapamycin complex 1) is a multi-protein signaling complex that integrates nutrient, energy, and growth factor signals to coordinate cell growth, protein synthesis, and metabolism.",
-          "created": "2024-01-01",
-          "updated": "2026-09-02",
-          "tags": [
-            "protein"
-          ],
-          "filename": "mTORC1.md",
-          "path": "wiki/en-US/_link/mTORC1.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/mTORC1.md"
-        },
-        "zh-TW": {
-          "title": "mTORC1",
-          "description": "mTORC1（mechanistic target of rapamycin complex 1）是整合營養、能量與生長因子訊號，以協調細胞生長、蛋白質合成與代謝的多蛋白訊號複合體。",
-          "created": "2024-01-01",
-          "updated": "2026-09-02",
-          "tags": [
-            "protein"
-          ],
-          "filename": "mTORC1.md",
-          "path": "wiki/zh-TW/_link/mTORC1.md"
-        }
-      },
-      "stats": {
-        "words": 2471,
-        "images": 0,
-        "links": 256,
         "diagrams": 0
       }
     },
