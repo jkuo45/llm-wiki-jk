@@ -1,3 +1,11 @@
+---
+title: "Dietary hormesis: beyond nutrition and energy supply"
+description: Perspective arguing that whole-food matrices, not isolated hormetins, drive the health effects of dietary hormesis, tracing the concept from Paracelsus through Schulz and Southam to Calabrese's definition of the hormetic dose-response.
+created: 2026-09-02
+source: 2025_dietary-hormesis-beyond-nutrition_NPJ-SciFood.nxml
+author: [Wang]
+tags: [hormesis, nutrition, food-matrix, dose-response, review]
+---
 # Dietary hormesis: beyond nutrition and energy supply
 
 _Source: 2025_dietary-hormesis-beyond-nutrition_NPJ-SciFood.nxml (JATS full text via EuropePMC, converted auto)_

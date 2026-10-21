@@ -6,7 +6,11 @@ description: Ivermectin is a macrolide antiparasitic drug with a 16-membered rin
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - medical-condition
+  - drug
+  - antiparasitic
+  - repurposed-drug
+  - anticancer
+  - cancer
 aliases: []
 protected: true
 ---

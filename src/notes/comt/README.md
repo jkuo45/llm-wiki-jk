@@ -3,7 +3,7 @@ title: COMT
 aliases: []
 description: index of entities and documents in this directory
 created: 2026-07-04
-updated: 2026-08-16
+updated: 2026-10-21
 ---
 # COMT
 
@@ -86,6 +86,7 @@ updated: 2026-08-16
 | [[Alcohol-Induced Depression]] | disease | Depression-like behavior triggered by alcohol, mitigated by nicotinamide riboside via gut-microbiota and BDNF-mediated mechanisms. |
 | [[Bipolar II Disorder]] | medical-condition | Bipolar II Disorder is a mood disorder defined by recurrent hypomanic and major depressive episodes, with implicated dopaminergic and methylation-pathway contributions involving COMT and MTHFR variants. |
 | [[narcolepsy]] | disease | Sleep disorder of excessive daytime sleepiness treated with wakefulness-promoting agents such as modafinil acting via dopamine transporter inhibition. |
+| [[ADHD]] | disease | Attention-deficit/hyperactivity disorder is a common neurodevelopmental disorder beginning in childhood, characterized by persistent inattention, hyperactivity, and impulsivity, with pathophysiology involving dopaminergic and noradrenergic signalling in prefrontal cortex and striatum. |
 
 ### COMT-Targeting Pharmacology
 

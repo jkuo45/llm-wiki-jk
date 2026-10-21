@@ -221,7 +221,8 @@
 <p style="font-size:.9rem;line-height:1.65">教科書的衰老細胞清除圖只畫一個指向 <b>apoptosis</b>（細胞凋亡）的箭頭。但在老齡小鼠脂肪／主動脈（CyTOF＋單細胞定序，Yousefzadeh 2018 及後續研究）中，間歇性非瑟酮<b>清除了 4 種衰老亞型、放過 2 種</b> — 且效應隨<b>性別與疾病階段</b>而異（例如早期給藥對雄性有益；尚無人體性別分層數據）。<u>非瑟酮橫跨下圖兩種機制 — 經 PI3K/Akt + Bcl-2/Bcl-xL 清除衰老細胞，同時降低 SASP 並啟動 NRF2 抗氧化防禦。</u>拖曳旋轉 · 滾輪縮放 · 點選細胞 · 觸發脈衝。</p>
 <div id="sel3d">
   <div id="sel3d-stage" role="group" aria-label="非瑟酮敏感 vs 放過的衰老細胞類型 three.js 模型">
-    <canvas id="sel3d-canvas" aria-label="3-D 非瑟酮選擇性模型"></canvas>
+    <canvas id="sel3d-canvas" aria-label="3-D 非瑟酮選擇性模型">
+    <button class="copy-btn" data-copy-canvas="sel3d-canvas" data-copy-name="fisetin-selectivity" title="Copy stage snapshot as PNG" aria-label="Copy stage snapshot as PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button></canvas>
     <div id="sel3d-phase">three.js 載入中…</div>
   </div>
   <div id="sel3d-bar">
@@ -247,7 +248,8 @@
 <p style="font-size:.9rem;line-height:1.65">非瑟酮的四個酚羥基（3、7、3′、4′）使它成為 UGT／SULT 結合反應的主要受質 — 這正是口服暴露崩壞的主因。將 <b>3-OH 與 7-OH</b> 遮蔽為<b>異丁醯酯</b>（保留衰老細胞清除所需的兒茶酚），可使 logP 上升約 1.7 個單位、氫鍵供體由 4 降至 2，並在組織羧酸酯酶（CES1／2）再生游離非瑟酮之前，阻斷兩個主要第二相代謝位點。下方為 RDKit MMFF 最佳化 3D 幾何（PubChem CID&nbsp;5281614），逐步展示：結合失敗 → 膜穿透 → CES 活化 → 腸道 → 門脈 → 肝臟首過（小葉分區：CES vs UGT vs CYP3A4 節點）。拖曳旋轉 · 滾輪縮放。</p>
 <div id="pd3d">
   <div id="pd3d-stage" role="group" aria-label="非瑟酮前藥活化階段 three.js 分子模型">
-    <canvas id="pd3d-canvas" aria-label="3-D 非瑟酮前藥分子模型"></canvas>
+    <canvas id="pd3d-canvas" aria-label="3-D 非瑟酮前藥分子模型">
+    <button class="copy-btn" data-copy-canvas="pd3d-canvas" data-copy-name="fisetin-prodrug" title="Copy stage snapshot as PNG" aria-label="Copy stage snapshot as PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button></canvas>
     <div id="pd3d-phase">three.js 載入中…</div>
     <div id="pd3d-stats" aria-hidden="true"></div>
   </div>
@@ -371,7 +373,7 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
   if (!stage || !canvas) return;
   var renderer;
   try {
-    renderer = new THREE.WebGLRenderer({ canvas: canvas, antialias: true, alpha: true });
+    renderer = new THREE.WebGLRenderer({ canvas: canvas, antialias: true, alpha: true, preserveDrawingBuffer: true });
   } catch (_) { if (phase) phase.textContent = '無 WebGL — 請見下方文字摘要。'; return; }
   renderer.setPixelRatio(Math.min(devicePixelRatio || 1, 2));
   var scene = new THREE.Scene();
@@ -568,7 +570,7 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
   var COL = { C: 0x555b66, cap: 0xc9a227, O: 0xc1121f, H: 0xcccccc, oh: 0xe9c46a };
   var renderer;
   try {
-    renderer = new THREE.WebGLRenderer({ canvas: canvas, antialias: true, alpha: true });
+    renderer = new THREE.WebGLRenderer({ canvas: canvas, antialias: true, alpha: true, preserveDrawingBuffer: true });
   } catch (_) { if (phaseEl) phaseEl.textContent = '無 WebGL — 請見下方階段列表。'; return; }
   renderer.setPixelRatio(Math.min(devicePixelRatio || 1, 2));
   var scene = new THREE.Scene();
@@ -1015,5 +1017,6 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
   })();
 })();
 </script>
+<script src="../themes/theme-02/pages-svg.js"></script>
 </body>
 </html>

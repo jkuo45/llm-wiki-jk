@@ -14,7 +14,7 @@ import {
 } from './core.js';
 import { clearTrace, clearCommunityFocus, setActiveWindow, exportGraphPNG, rebindTracePanel, showInfo, showEdgeInfo, showCommunityInfo, setNodeActionBuilder, showToast } from './ui.js';
 import { deselectNode, selectNode } from './interaction.js';
-import { esc, unescapeHtml, renderMarkdown, wikiExcerpt, escapeRegex, stripUnsafeHtml } from './markdown.js';
+import { esc, unescapeHtml, renderMarkdown, wikiExcerpt, escapeRegex, stripUnsafeHtml, enhanceMermaid, enhanceImages } from './markdown.js';
 import { updateHash } from './routing.js';
 import { currentTheme } from './theme.js';
 import { getUiLang, setUiLang, persistUiLang, onUiLangChange, t } from './i18n.js';
@@ -467,6 +467,10 @@ function openWikiModal(wikiKey) {
   const title = wikiKey.replace(/_/g, ' ');
   wikiModalTitle.textContent = title;
   wikiModalBody.innerHTML = renderMarkdown(desc);
+  // Mermaid fences render as SVG with their own toolbar; images open in the
+  // shared full-screen figure overlay.
+  enhanceMermaid(wikiModalBody);
+  enhanceImages(wikiModalBody);
   const ghHref = noteUrl(wikiKey);
   wikiModalLink.href = ghHref || '#';
   wikiModalLink.toggleAttribute('disabled', !ghHref);
@@ -838,6 +842,8 @@ async function streamPromptResponse(intentData, typingDiv, typingStart, typingTi
 
   html += responseMode === 'html' ? `<div class="prompt-html-inline">${renderInlineHtml(responseText)}</div>` : formatBotMessage(responseText);
   div.innerHTML = html;
+  enhanceMermaid(div);
+  enhanceImages(div);
   addCopyButton(div, responseText);
   if (responseMode === 'html') addOpenHtmlButton(div, responseText, clean);
   promptMessages.appendChild(div);
@@ -908,6 +914,8 @@ async function streamGraphOp(intentData, typingDiv, typingStart, typingTimerId, 
   html += `<span class="prompt-elapsed" title="Thinking time">${secs.toFixed(1)}s</span>`;
   html += responseMode === 'html' ? `<div class="prompt-html-inline">${renderInlineHtml(textBuf)}</div>` : formatBotMessage(textBuf);
   div.innerHTML = html;
+  enhanceMermaid(div);
+  enhanceImages(div);
   addCopyButton(div, textBuf);
   if (responseMode === 'html') addOpenHtmlButton(div, textBuf, clean);
   promptMessages.appendChild(div);

@@ -6,7 +6,10 @@ description: The Warburg Effect refers to the observation that Cancer cells, unl
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - enzyme
+  - biological-process
+  - metabolism
+  - cancer-metabolism
+  - aerobic-glycolysis
 aliases: []
 protected: true
 ---

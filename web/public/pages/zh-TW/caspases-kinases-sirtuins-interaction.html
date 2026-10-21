@@ -245,7 +245,8 @@ caption { padding: .6rem; color: var(--mute); font-size: .76rem; text-align: lef
       </div>
       <div class="viewer-grid">
         <div class="stage" id="stage">
-          <canvas id="scene" aria-label="Caspase、激酶、Sirtuin 與共享細胞死亡調控因子交互作用的互動三維模型"></canvas>
+          <canvas id="scene" aria-label="Caspase、激酶、Sirtuin 與共享細胞死亡調控因子交互作用的互動三維模型">
+          <button class="copy-btn" data-copy-canvas="scene" data-copy-name="caspases-kinases-sirtuins" title="Copy stage snapshot as PNG" aria-label="Copy stage snapshot as PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button></canvas>
           <div class="stage-status" id="stageStatus">分子網路 · 參考狀態</div>
           <div class="stage-scale">空間配置為示意，非等比例</div>
           <div class="stage-help">拖曳旋轉 · 滾輪縮放 · 點選節點</div>

@@ -23,7 +23,7 @@ import {
 } from './core.js';
 import { selectNode, deselectNode, setUiHooks } from './interaction.js';
 import { updateHash } from './routing.js';
-import { esc, renderMarkdown, wikiExcerpt } from './markdown.js';
+import { esc, renderMarkdown, wikiExcerpt, enhanceMermaid, enhanceImages } from './markdown.js';
 import { setUiLang } from './i18n.js';
 import { registerModal, openModal } from './modal.js';
 import { h } from './ui/dom.js';
@@ -199,6 +199,10 @@ function openNodeWikiModal(anchor) {
   wikiModalTitle.textContent = title.replace(/_/g, ' ');
   if (desc) {
     wikiModalBody.innerHTML = renderMarkdown(desc);
+    // Mermaid fences render as SVG with their own toolbar; images open in the
+    // shared full-screen figure overlay.
+    enhanceMermaid(wikiModalBody);
+    enhanceImages(wikiModalBody);
   } else {
     wikiModalBody.innerHTML = gh
       ? '<p>No summary is stored for this entity. Open the full note on GitHub.</p>'

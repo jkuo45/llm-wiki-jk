@@ -1,3 +1,11 @@
+---
+title: "Is \"Preparation for Oxidative Stress\" a Case of Physiological Conditioning Hormesis?"
+description: Review arguing that the hypoxia-driven "preparation for oxidative stress" (POS) response — transient up-regulation of antioxidant enzymes in 83 animal species across 8 phyla — is a case of physiological conditioning hormesis.
+created: 2026-09-02
+source: 2018_Oliveira_POS-conditioning-hormesis_Front-Physiol.nxml
+author: [Oliveira, Hermes-Lima]
+tags: [hormesis, oxidative-stress, preconditioning, hypoxia, review]
+---
 # Is “[[Preparation for Oxidative Stress]]” a Case of Physiological Conditioning [[Hormesis]]?
 
 _Source: 2018_Oliveira_POS-conditioning-hormesis_Front-Physiol.nxml (JATS full text via EuropePMC, converted auto)_

@@ -255,6 +255,12 @@ uv run python3 -m scripts query-roles --roles-file web/public/data/node_roles.js
 # numbers describing the previous build.
 uv run python3 -m scripts readme-counts
 
+# Topic README index audit: every note in a topic must be indexed, every
+# wikilink must resolve, entity rows must carry a note tag as entity_type_1
+# and a description, and the quoted counts must match the notes on disk.
+python3 -m scripts audit-topic-readmes          # check mode (exit 1 on issues)
+python3 -m scripts audit-topic-readmes --fix    # repair what is mechanical
+
 # Offline API test suite (tests/; no Supabase or opencode server needed)
 # (--with graphifyy: scripts/ rebuild modules import graphify at module level)
 # (--with pyyaml: scripts/sync/graph_to_db.py parses frontmatter with PyYAML)

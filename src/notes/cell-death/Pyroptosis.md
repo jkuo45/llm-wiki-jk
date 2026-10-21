@@ -7,7 +7,11 @@ protected: true
 created: 2026-07-06
 updated: 2026-09-11
 tags:
-  - enzyme
+  - biological-process
+  - inflammation
+  - caspase-1
+  - gasdermin
+  - innate-immunity
 aliases: []
 ---
 # Pyroptosis

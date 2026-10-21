@@ -245,7 +245,8 @@ caption { padding: .6rem; color: var(--mute); font-size: .76rem; text-align: lef
       </div>
       <div class="viewer-grid">
         <div class="stage" id="stage">
-          <canvas id="scene" aria-label="Interactive three-dimensional model of interactions among caspases, kinases, sirtuins, and shared cell-death regulators"></canvas>
+          <canvas id="scene" aria-label="Interactive three-dimensional model of interactions among caspases, kinases, sirtuins, and shared cell-death regulators">
+          <button class="copy-btn" data-copy-canvas="scene" data-copy-name="caspases-kinases-sirtuins" title="Copy stage snapshot as PNG" aria-label="Copy stage snapshot as PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button></canvas>
           <div class="stage-status" id="stageStatus">Molecular network · reference state</div>
           <div class="stage-scale">spatial layout is schematic, not to scale</div>
           <div class="stage-help">Drag to orbit · scroll to zoom · select a node</div>

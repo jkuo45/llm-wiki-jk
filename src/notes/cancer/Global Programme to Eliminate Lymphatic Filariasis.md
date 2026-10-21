@@ -4,7 +4,9 @@ description: The Global Programme to Eliminate Lymphatic Filariasis (GPELF) is a
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - scientific-concept
+  - organization
+  - neglected-tropical-disease
+  - ivermectin
 aliases: []
 ---
 

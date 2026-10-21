@@ -34,6 +34,7 @@ COMMANDS: dict[str, tuple[str, str]] = {
     "sync-content": ("scripts.sync.content_to_db", "Mirror the content registry + star flags into Supabase"),
     # --- vault (scripts/vault/) ---
     "readme-counts": ("scripts.vault.readme_counts", "Update topic README counts/tables from the vault"),
+    "audit-topic-readmes": ("scripts.vault.audit_topic_readmes", "Audit/repair topic README indexes against their notes"),
     # --- tools (scripts/tools/) ---
     "thumbnail": ("scripts.tools.thumbnail", "Generate note-page thumbnails"),
     "pdf-to-md": ("scripts.tools.pdf_to_md", "Parse a PDF to Markdown (Obsidian-friendly)"),

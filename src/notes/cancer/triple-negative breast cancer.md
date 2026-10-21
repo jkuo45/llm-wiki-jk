@@ -6,7 +6,10 @@ description: Triple-negative breast cancer (TNBC) is an aggressive subtype of
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - receptor
+  - medical-condition
+  - breast-cancer
+  - oncology
+  - targeted-therapy
 aliases: []
 protected: true
 ---

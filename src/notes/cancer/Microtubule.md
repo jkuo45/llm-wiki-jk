@@ -6,7 +6,10 @@ description: Microtubules are critical for the formation of the mitotic spindle 
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - medical-condition
+  - cytoskeleton
+  - cell-structure
+  - microtubule-targeting-agent
+  - mitosis
 aliases: []
 ---
 # Microtubule

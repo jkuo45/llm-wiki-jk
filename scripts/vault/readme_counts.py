@@ -257,6 +257,19 @@ def parse_frontmatter(filepath):
         stripped = line.strip()
         if not stripped or stripped.startswith("#"):
             continue
+        if stripped.startswith("- "):
+            # Block sequence item ("tags:" then "- value"). YAML allows zero
+            # indentation, so this must be recognised before the key test.
+            item = stripped[2:].strip().rstrip(",").strip("\"'")
+            if key is None or not item:
+                continue
+            if isinstance(props.get(key), list):
+                props[key].append(item)
+            elif props.get(key):
+                props[key] = [props[key], item]
+            else:
+                props[key] = [item]
+            continue
         if not line[:1] in (" ", "\t"):
             key, _, value = line.partition(":")
             key = key.strip()

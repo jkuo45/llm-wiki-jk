@@ -7,8 +7,10 @@ protected: true
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - enzyme
+  - protein
   - apoptosis
+  - ubiquitin
+  - cancer
 aliases: []
 ---
 

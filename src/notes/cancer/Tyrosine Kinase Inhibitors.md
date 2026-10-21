@@ -4,7 +4,10 @@ description: Tyrosine kinase inhibitors (TKIs) are targeted anticancer drugs tha
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - pharmacological-action
+  - chemical-class
+  - pharmacology
+  - targeted-therapy
+  - kinase-inhibitor
 aliases: []
 protected: true
 ---

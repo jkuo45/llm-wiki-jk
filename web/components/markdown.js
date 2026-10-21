@@ -697,6 +697,119 @@ export async function enhanceMermaid(root = document, opts = {}) {
   return done;
 }
 
+// ------------------------------------------------------------
+// Figure lightbox for markdown images (click → full screen).
+// ------------------------------------------------------------
+// renderMarkdown() emits plain <img> tags for markdown images and for raw
+// <figure>/<img> HTML — none of them were zoomable. This wires one shared
+// overlay (full screen, copy PNG, Esc) to every image in the rendered
+// markdown. Used by md-viewer.html and by the SPA's wiki modal.
+const FIG_LB_CSS = `
+.md-fig-lb{position:fixed;inset:0;z-index:10000;display:none;align-items:center;justify-content:center;padding:24px;background:rgba(8,8,16,.9);-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px)}
+.md-fig-lb.open{display:flex}
+.md-fig-lb img{max-width:94vw;max-height:86vh;border-radius:var(--r-lg, 14px);box-shadow:0 20px 60px rgba(0,0,0,.55)}
+.md-fig-lb-cap{position:absolute;left:0;right:0;bottom:56px;text-align:center;color:rgba(255,255,255,.88);font-size:.82rem;padding:0 16px;pointer-events:none}
+.md-fig-lb-close{position:absolute;top:14px;right:14px;width:40px;height:40px;border-radius:var(--r-pill, 999px);border:1px solid rgba(255,255,255,.3);background:rgba(20,20,40,.85);color:#fff;font-size:26px;line-height:1;cursor:pointer}
+.md-fig-lb-close:hover{border-color:var(--accent, #4E79A7);color:var(--accent, #4E79A7)}
+.md-fig-lb-copy{position:absolute;left:50%;transform:translateX(-50%);bottom:14px;font:inherit;font-size:.78rem;line-height:1;padding:8px 12px;border-radius:var(--r-md, 8px);border:1px solid rgba(255,255,255,.3);background:rgba(20,20,40,.85);color:#fff;cursor:pointer}
+.md-fig-lb-copy:hover{border-color:var(--accent, #4E79A7);color:var(--accent, #4E79A7)}
+`;
+
+let figLb = null;
+
+function ensureFigLb() {
+  if (figLb || typeof document === 'undefined') return figLb;
+  if (!document.querySelector('style[data-md-fig-lb]')) {
+    const style = document.createElement('style');
+    style.setAttribute('data-md-fig-lb', '');
+    style.textContent = FIG_LB_CSS;
+    document.head.appendChild(style);
+  }
+  const lb = document.createElement('div');
+  lb.className = 'md-fig-lb';
+  lb.setAttribute('role', 'dialog');
+  lb.setAttribute('aria-modal', 'true');
+  lb.setAttribute('aria-label', 'Figure viewer');
+  lb.innerHTML =
+    '<button class="md-fig-lb-close" type="button" aria-label="Close full view">&times;</button>' +
+    '<img alt="">' +
+    '<div class="md-fig-lb-cap"></div>' +
+    '<button class="md-fig-lb-copy" type="button">Copy image</button>';
+  document.body.appendChild(lb);
+  const img = lb.querySelector('img');
+  const cap = lb.querySelector('.md-fig-lb-cap');
+  const copyBtn = lb.querySelector('.md-fig-lb-copy');
+  let lastFocus = null;
+  lb.querySelector('.md-fig-lb-close').addEventListener('click', () => closeFigLb());
+  copyBtn.addEventListener('click', async () => {
+    const src = img.currentSrc || img.src;
+    const orig = copyBtn.textContent;
+    copyBtn.disabled = true;
+    try {
+      // Cross-origin images need CORS to be readable by canvas.
+      const res = new Image();
+      res.crossOrigin = 'anonymous';
+      res.src = src;
+      await res.decode();
+      const canvas = document.createElement('canvas');
+      canvas.width = res.naturalWidth || res.width;
+      canvas.height = res.naturalHeight || res.height;
+      canvas.getContext('2d').drawImage(res, 0, 0);
+      const blob = await new Promise((ok, no) =>
+        canvas.toBlob(b => (b ? ok(b) : no(new Error('toBlob failed'))), 'image/png'));
+      if (!(navigator.clipboard && window.ClipboardItem)) throw new Error('clipboard-unsupported');
+      await navigator.clipboard.write([new ClipboardItem({ 'image/png': blob })]);
+      copyBtn.textContent = 'Copied ✓';
+    } catch (err) {
+      console.warn('image copy failed', err);
+      copyBtn.textContent = 'Copy unavailable';
+    }
+    setTimeout(() => { copyBtn.textContent = orig; copyBtn.disabled = false; }, 1600);
+  });
+  lb.addEventListener('click', (e) => {
+    if (e.target === lb || e.target.classList.contains('md-fig-lb-close')) closeFigLb();
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && lb.classList.contains('open')) closeFigLb();
+  });
+  function closeFigLb() {
+    lb.classList.remove('open');
+    if (lastFocus && lastFocus.focus) lastFocus.focus();
+    lastFocus = null;
+  }
+  figLb = {
+    el: lb,
+    open(src, alt, trigger) {
+      img.src = src;
+      img.alt = alt || '';
+      cap.textContent = alt || '';
+      cap.style.display = alt ? 'block' : 'none';
+      lastFocus = trigger || document.activeElement;
+      lb.classList.add('open');
+      lb.querySelector('.md-fig-lb-close').focus();
+    },
+  };
+  return figLb;
+}
+
+// Make every image in the rendered markdown zoomable (one delegated click
+// handler per root; safe to call repeatedly).
+export function enhanceImages(root = document) {
+  if (!root || typeof root.addEventListener !== 'function') return;
+  if (root.__mdFigWired) return;
+  root.__mdFigWired = '1';
+  root.addEventListener('click', (e) => {
+    const img = e.target.closest ? e.target.closest('img') : null;
+    if (!img || !root.contains(img)) return;
+    if (img.closest('a')) return;          // the link owns the click
+    if (img.closest('.md-fig-lb')) return; // the overlay's own image
+    const lb = ensureFigLb();
+    if (!lb) return;
+    e.preventDefault();
+    lb.open(img.currentSrc || img.src, img.alt || '', img);
+  });
+}
+
 // ponytail: self-check — `node web/components/markdown.js`. One smoke assert
 // per indent rule; delete once the nesting looks right in the UI.
 if (typeof process !== 'undefined' && import.meta.url.endsWith(process.argv[1]?.replace(/\\/g, '/').split('/').pop() || '\u0000')) {

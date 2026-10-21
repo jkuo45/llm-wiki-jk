@@ -1,3 +1,11 @@
+---
+title: "DAMP-driven Trained Immunity: metabolic and epigenetic reprogramming in critical illness and chronic inflammation"
+description: Review of how damage-associated molecular patterns (oxidized LDL, HMGB1, heme, urate, mitochondrial DNA) induce innate immune memory through mTOR/HIF-1a signalling and epigenetic priming, and how this shapes sepsis, burns and trauma.
+created: 2026-09-02
+source: 2025_Kim_DAMP-trained-immunity_Front-Immunol.nxml
+author: [Kim]
+tags: [hormesis, trained-immunity, innate-immunity, inflammation, review]
+---
 # [[DAMP]]-driven [[Trained Immunity]]: metabolic and epigenetic reprogramming in critical illness and chronic inflammation
 
 _Source: 2025_Kim_DAMP-trained-immunity_Front-Immunol.nxml (JATS full text via EuropePMC, converted auto)_

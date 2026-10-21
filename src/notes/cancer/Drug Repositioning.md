@@ -6,7 +6,9 @@ description: Drug repositioning (also known as drug repurposing) refers to the p
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - medical-condition
+  - scientific-concept
+  - pharmacology
+  - drug-development
 aliases: []
 ---
 # Drug Repositioning

@@ -52,6 +52,7 @@ via `--graph` — no rebuild required.
 | `sync-graph` | `sync/graph_to_db.py` | Mirror base graph layer into Supabase (needs `SUPABASE_URL`/`SUPABASE_SERVICE_KEY`) | `supabase pyyaml networkx` |
 | `sync-content` | `sync/content_to_db.py` | Mirror content registry + star flags into Supabase | `supabase pyyaml` |
 | `readme-counts` | `vault/readme_counts.py` | Update topic README counts/tables from the vault; emits the reader's `tasks.json` + `wiki.json` (capped wiki feed) | — |
+| `audit-topic-readmes` | `vault/audit_topic_readmes.py` | Audit topic README indexes (completion, link resolution, structure, counts); `--fix` repairs them | — |
 | `thumbnail` | `tools/thumbnail.py` | Generate note-page thumbnails | `pillow` |
 | `pdf-to-md` | `tools/pdf_to_md.py` | Parse a PDF to Markdown (Obsidian-friendly) | `pymupdf4llm` |
 | `sort-manifest-tags` | `tools/sort_manifest_tags.py` | Sort `src/images/manifest.json` tags by relevance | — |

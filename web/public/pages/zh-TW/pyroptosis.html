@@ -521,46 +521,6 @@ function setRunning(v) { running = v; playBtn.textContent = v ? '⏸ 暫停' : '
 playBtn.onclick = () => setRunning(!running);
 setRunning(running);
 resetBtn.onclick = () => { camera.position.copy(CAM0); controls.target.set(0, 0.1, 0); };
-/* copy stage snapshot as PNG (clipboard, download fallback) */
-const copyBtn = document.getElementById('copybtn');
-const ICON_COPY = copyBtn.innerHTML;
-const ICON_OK = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>';
-const ICON_DL = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg>';
-const ICON_ERR = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>';
-function flashCopyBtn(cls, title, icon) {
-  copyBtn.classList.add(cls);
-  copyBtn.title = title;
-  copyBtn.innerHTML = icon;
-  setTimeout(() => { copyBtn.innerHTML = ICON_COPY; copyBtn.title = '複製舞台快照為 PNG'; copyBtn.classList.remove('ok', 'err'); }, 1800);
-}
-function snapshotBlob() {
-  return new Promise((resolve, reject) => {
-    renderer.render(scene, camera);
-    canvas.toBlob(b => b ? resolve(b) : reject(new Error('no-blob')), 'image/png');
-  });
-}
-copyBtn.onclick = async () => {
-  copyBtn.disabled = true;
-  try {
-    const blob = await snapshotBlob();
-    if (!(navigator.clipboard && window.ClipboardItem)) throw new Error('clipboard-unsupported');
-    await navigator.clipboard.write([new ClipboardItem({ 'image/png': blob })]);
-    flashCopyBtn('ok', '已複製 ✓', ICON_OK);
-  } catch (_) {
-    try {
-      const blob = await snapshotBlob();
-      const a = document.createElement('a');
-      a.download = 'pyroptosis.png';
-      a.href = URL.createObjectURL(blob);
-      a.click();
-      setTimeout(() => URL.revokeObjectURL(a.href), 4000);
-      flashCopyBtn('ok', '已下載', ICON_DL);
-    } catch (_) {
-      flashCopyBtn('err', '複製失敗', ICON_ERR);
-    }
-  }
-  setTimeout(() => { copyBtn.disabled = false; }, 50);
-};
 /* death-threshold scrubber: drag the meter track to seek the 24 s loop (stays paused until play) */
 let scrubbing = false;
 function scrubTo(clientX) {
@@ -792,5 +752,6 @@ function animate() {
 applyVis();
 animate();
 </script>
+<script src="../themes/theme-02/pages-svg.js"></script>
 </body>
 </html>

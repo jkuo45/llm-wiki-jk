@@ -6,7 +6,9 @@ description: Merck & Co., Inc. (known as MSD outside the US and Canada) is an Am
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - analytical-technique
+  - organization
+  - pharmaceutical
+  - clinical-trials
 aliases: []
 ---
 # Merck & Co. Inc.

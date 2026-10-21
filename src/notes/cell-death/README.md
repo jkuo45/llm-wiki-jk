@@ -33,11 +33,17 @@ Erythrocyte death modalities: [[Eryptosis]] (Ca²⁺-driven, PS-exposing, non-ly
 
 Caspases: [[Caspases]], [[Caspase-2]], [[Caspase-3]], [[Caspase-4]], [[Caspase-5]], [[Caspase-6]], [[Caspase-7]], [[Caspase-8]], [[Caspase-8-c-FLIP Rheostat]], [[Caspase-9]], [[Caspase-10]], [[Caspase-11]], [[Caspase-12]], [[Executioner Caspase]], [[Inhibitor of Apoptosis Proteins]], [[cIAPs]].
 
+Survival signalling that opposes death: [[Cell Survival]] (PI3K/AKT and NF-κB programmes that raise the apoptotic threshold; the therapeutic-resistance axis targeted by IAP and BCL-2 antagonists).
+
 BCL-2 family and mitochondrial gatekeepers: [[Bcl-2 family]], [[Bcl-2]], [[Bcl-w]], [[Bcl-xL]], [[BCL2L13]], [[BAX]], [[BAK]], [[BOK]], [[Bid]], [[Smac DIABLO]], [[Smac mimetics]], [[VDAC]], [[Apoptosis-Inducing Factor]], [[AIFM2]].
 
 Death-receptor and necrosome signaling: [[TNFR1]], [[TNFR1 complex I]], [[TNFR1 complex II]], [[RIPK3]], [[MLKL]], [[FasL]], [[TRAIL]].
 
 Necroptosis regulators and sensors (mostly `_link/`): [[ZBP1]], [[TRIF]], [[PANoptosis]], [[PANoptosome]], [[CYLD]], [[OTULIN]], [[TRIM21]], [[RSK3]], [[CSNK1G2]], [[TAM Kinases]], [[PGAM5]], [[Pyruvate Dehydrogenase]], [[HSP90β]], [[BRD4]].
+
+Linear ubiquitination and ubiquitin signalling: [[LUBAC]] (RBR E3 ligase assembling M1-linked polyubiquitin chains on TNF-receptor complex I, the pivot between NF-κB survival signalling and necroptosis).
+
+Clearance of dying cells: [[Efferocytosis]] and [[Phagocytosis]] (actin-driven engulfment of large particles by macrophages and neighbouring cells; the clearance route that limits DAMP-driven inflammation).
 
 Necroptosis tools and modulators (mostly `_link/`): [[GSK872]], [[GSK840]], [[Zharp-99]], [[HG-9-91-01]], [[Apelin]], [[TRPM7]].
 
@@ -47,4 +53,4 @@ PARP axis: [[PARP]], [[PARP1]], [[PARP2]], [[PARP inhibitors]], [[89-kDa PARP1 F
 
 Parthanatos triggers and machinery: [[MNNG]], [[MMS]], [[PAANIB-1]], [[Iduna]], [[H1.2]], [[Cyclophilin A]], [[PARG53]].
 
-Pyroptosis and ferroptosis effectors and tools: [[Gasdermin D]], [[Gasdermin E]], [[GPX4]], [[Erastin]], [[Ferrostatin-1]], [[Liproxstatin-1]], [[Z-VAD-FMK]], [[Necrostatin-1]], [[Necrostatin-1s]], [[Necrosulfonamide]].
+Pyroptosis and ferroptosis effectors and tools: [[Gasdermin D]], [[Gasdermin E]], [[NLRC4]] (inflammasome sensor whose activation triggers caspase-1 and Gasdermin D pores), [[GPX4]], [[Erastin]], [[Ferrostatin-1]], [[Liproxstatin-1]], [[Z-VAD-FMK]], [[Necrostatin-1]], [[Necrostatin-1s]], [[Necrosulfonamide]].

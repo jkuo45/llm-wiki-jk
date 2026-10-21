@@ -6,7 +6,11 @@ description: Melittin is a positively charged, amphipathic 26-amino-acid peptide
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - enzyme
+  - chemical-compound
+  - peptide
+  - bee-venom
+  - apitherapy
+  - cancer
 aliases: []
 protected: true
 ---

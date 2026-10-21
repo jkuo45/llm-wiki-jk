@@ -6,7 +6,10 @@ description: Sir2 (Silent Information Regulator 2) from _Saccharomyces cerevisia
 created: 2026-07-02
 updated: 2026-08-03
 tags:
-  - chemical-compound
+  - protein
+  - sirtuin
+  - epigenetics
+  - longevity
 aliases:
   - SIR2
   - silent information regulator 2

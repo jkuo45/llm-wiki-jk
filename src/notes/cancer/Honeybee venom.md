@@ -6,7 +6,11 @@ description: Honeybee venom (also known as apitoxin) is a complex mixture of
 created: 2026-07-06
 updated: 2026-10-01
 tags:
-  - medical-condition
+  - chemical-compound
+  - bee-venom
+  - apitherapy
+  - cancer
+  - inflammation
 aliases: [Bee Venom, Apitoxin]
 ---
 

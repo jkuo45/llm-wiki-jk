@@ -1,5 +1,5 @@
 {
-  "generated": "04_OCT_2026 07:11 PM PDT",
+  "generated": "21_OCT_2026 10:01 AM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -22,6 +22,37 @@
           "tags": [],
           "path": "pages/tasks-index.html"
         }
+      }
+    },
+    {
+      "id": "task_output_nad_metabolism_cd38_sarm1_20_Oct_2026",
+      "langs": {
+        "en-US": {
+          "title": "NAD+ Metabolism and the CD38–SARM1 Competition — Consolidated Graph Synthesis",
+          "description": "Consolidates the nine July 2026 CD38/SARM1 trace outputs onto the current combined graph build (4,821 nodes / 47,925 edges), re-derives the NAD+ consumer hierarchy, the CD38↔SARM1 competition and NMN-linkage metrics, audits layer divergence (wiki unified vs triples scattered) and extraction gaps within the NAD+ module, and states the pharmacological paradox of CD38 inhibition with its literature resolution.",
+          "created": "2026-10-20",
+          "updated": "2026-10-20",
+          "tags": [
+            "task-output",
+            "nad-plus",
+            "cd38",
+            "sarm1",
+            "knowledge-graph",
+            "metabolism",
+            "aging",
+            "sirtuins",
+            "graph-analysis"
+          ],
+          "filename": "task_output_nad_metabolism_cd38_sarm1_20_Oct_2026.md",
+          "path": "tasks/en-US/task_output_nad_metabolism_cd38_sarm1_20_Oct_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_nad_metabolism_cd38_sarm1_20_Oct_2026.md"
+        }
+      },
+      "stats": {
+        "words": 3882,
+        "images": 0,
+        "links": 0,
+        "diagrams": 0
       }
     },
     {

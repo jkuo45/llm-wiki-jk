@@ -159,7 +159,7 @@
 // the browser's base URL is the note path, so any relative specifier would
 // resolve under it and 404 into the SPA shell — surfacing as "Failed to load
 // module script: … MIME type of text/html".
-import { renderMarkdown, esc, wikiExcerpt, enhanceMermaid } from '/components/markdown.js';
+import { renderMarkdown, esc, wikiExcerpt, enhanceMermaid, enhanceImages } from '/components/markdown.js';
 
 const GITHUB_BASE = 'https://github.com/jkuo45/llm-wiki-jk/blob/dev/';
 
@@ -466,6 +466,8 @@ if (!src) {
     // Fire-and-forget: fences swap to SVG figures in place; the fallback
     // <pre><code> stays until (and if) the CDN import/render succeeds.
     renderMermaidDiagrams(content);
+    // Markdown images open in the shared full-screen figure overlay.
+    enhanceImages(content);
 
     // Upgrade [[Entity]] links that have a graph node description into
     // tooltip-enabled entity links (the rest keep their GitHub fallback).

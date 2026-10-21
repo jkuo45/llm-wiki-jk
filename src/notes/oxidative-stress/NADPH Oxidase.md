@@ -6,10 +6,10 @@ description: NADPH oxidase (NOX) is a family of membrane-bound enzyme complexes 
 created: 2026-05-09
 updated: 2026-09-03
 tags:
+  - enzyme
   - oxidative-stress
   - superoxide
   - immune-system
-  - enzyme
   - nad-plus
 aliases: [NOX, NADPH oxidase complex, NOX family, NAD(P)H Oxidase]
 protected: true

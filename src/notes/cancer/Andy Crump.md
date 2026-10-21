@@ -4,7 +4,9 @@ description: Andy Crump is a scientist and science communicator who has worked e
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - organization
+  - person
+  - onchocerciasis
+  - ivermectin
 aliases: []
 ---
 
