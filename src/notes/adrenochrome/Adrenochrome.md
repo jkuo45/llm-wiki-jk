@@ -97,7 +97,7 @@ List of documents that mention this entity
 
 ## Connections
 - [[Epinephrine]] ↔ Direct precursor via oxidation.
-- [[Aminochrones]] ↔ Class of molecules to which adrenochrome belongs.
+- [[Aminochromes]] ↔ Class of molecules to which adrenochrome belongs.
 - [[Redox Cycling]] ↔ Mechanism of ROS amplification.
 - [[Neutrophils]] ↔ Cellular site of production during inflammation.
 - [[COMT]] & [[MAO]] ↔ Enzymes whose inhibition increases substrate availability for adrenochrome formation.

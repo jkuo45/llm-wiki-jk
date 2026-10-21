@@ -1,6 +1,6 @@
 ---
 title: Dopaminochrome
-description: Dopaminochrome（多巴胺色素）是多巴胺氧化過程中形成的胺基色素（aminochrome）中間產物，於多巴胺神經傳遞路徑中為[[Adrenochrome|腎上腺紅素]]的結構與生化類比物。
+description: Dopaminochrome（多巴胺色素）是多巴胺氧化過程中形成的胺基色素（aminochrome）中間產物，於多巴胺神經傳遞路徑中為腎上腺紅素（Adrenochrome）的結構與生化類比物。
 created: 2026-07-04
 updated: 2026-10-01
 tags:
@@ -10,7 +10,7 @@ aliases: [Dopaminochrome]
 ---
 
 # Dopaminochrome
-**Dopaminochrome（多巴胺色素）**是[[Dopamine|多巴胺]]經[[Oxidation|氧化]]後形成的胺基色素（aminochrome）中間產物，於多巴胺神經傳遞路徑中為[[Adrenochrome|腎上腺紅素]]的結構與生化類比物。
+**Dopaminochrome（多巴胺色素）**是[[Dopamine|多巴胺]]經[[Oxidation|氧化]]後形成的胺基色素（aminochrome）中間產物，於多巴胺神經傳遞路徑中為腎上腺紅素（Adrenochrome）的結構與生化類比物。
 
 ## 形成
 Dopaminochrome 在[[Dopamine|多巴胺]]的兒茶酚環被氧化為鄰醌（o-quinone）、隨後發生分子內環化時生成。此過程可為：

@@ -1,5 +1,5 @@
 {
-  "generated": "21_OCT_2026 10:01 AM PDT",
+  "generated": "21_OCT_2026 10:59 AM PDT",
   "wiki": [
     {
       "id": "wiki-index",
@@ -433,32 +433,6 @@
       }
     },
     {
-      "id": "handgrip strength",
-      "langs": {
-        "en-US": {
-          "title": "handgrip strength",
-          "description": "Maximum voluntary grip force measured with a hand dynamometer; a validated, low-cost proxy for overall muscle strength that declines with age and with chronic low-grade inflammation.",
-          "created": "2026-10-21",
-          "updated": "2026-10-21",
-          "tags": [
-            "biomarker",
-            "muscle-function",
-            "aging",
-            "clinical-measure"
-          ],
-          "filename": "handgrip strength.md",
-          "path": "wiki/en-US/_link/handgrip%20strength.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/handgrip%20strength.md"
-        }
-      },
-      "stats": {
-        "words": 264,
-        "images": 0,
-        "links": 25,
-        "diagrams": 0
-      }
-    },
-    {
       "id": "SIRT2",
       "langs": {
         "en-US": {
@@ -511,7 +485,7 @@
         },
         "zh-TW": {
           "title": "AMPK",
-          "description": "AMP 活化蛋白激酶（AMPK）是中央代謝感測器，藉由整合能量狀態與表觀遺傳調節，在[[Aging]]過程中扮演關鍵角色。隨著生物體老化，AMPK 的活性與反應性通常會下降，進而促成老化的各項徵象，包括表觀遺傳改變、蛋白質恆定性喪失與粒線體功能障礙。",
+          "description": "AMP 活化蛋白激酶（AMPK）是中央代謝感測器，藉由整合能量狀態與表觀遺傳調節，在老化（Aging）過程中扮演關鍵角色。隨著生物體老化，AMPK 的活性與反應性通常會下降，進而促成老化的各項徵象，包括表觀遺傳改變、蛋白質恆定性喪失與粒線體功能障礙。",
           "created": "2026-05-29",
           "updated": "2026-10-02",
           "tags": [
@@ -3975,7 +3949,7 @@
         },
         "zh-TW": {
           "title": "Dopaminochrome",
-          "description": "Dopaminochrome（多巴胺色素）是多巴胺氧化過程中形成的胺基色素（aminochrome）中間產物，於多巴胺神經傳遞路徑中為[[Adrenochrome|腎上腺紅素]]的結構與生化類比物。",
+          "description": "Dopaminochrome（多巴胺色素）是多巴胺氧化過程中形成的胺基色素（aminochrome）中間產物，於多巴胺神經傳遞路徑中為腎上腺紅素（Adrenochrome）的結構與生化類比物。",
           "created": "2026-07-04",
           "updated": "2026-10-01",
           "tags": [
@@ -4567,6 +4541,52 @@
       }
     },
     {
+      "id": "Parkinson's Disease",
+      "langs": {
+        "en-US": {
+          "title": "Parkinson's Disease",
+          "description": "A progressive neurodegenerative disorder defined by loss of dopaminergic neurons in the substantia nigra, causing resting tremor, rigidity, bradykinesia, and postural instability. Linked to cellular senescence, inflammaging, and a distinguishable circulating SASP signature.",
+          "created": "2026-05-29",
+          "updated": "2026-08-11",
+          "tags": [
+            "disease",
+            "medical-condition",
+            "neurodegenerative-disease",
+            "neurodegeneration",
+            "aging",
+            "alpha-synuclein",
+            "inflammaging"
+          ],
+          "filename": "Parkinson's Disease.md",
+          "path": "wiki/en-US/_link/Parkinson%27s%20Disease.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Parkinson%27s%20Disease.md"
+        },
+        "zh-TW": {
+          "title": "Parkinson's Disease（帕金森氏症）",
+          "description": "帕金森氏症是一種漸進性的神經退化性疾病，特徵為黑質中多巴胺神經元喪失，造成靜息性震顫、僵硬、運動緩慢與姿勢不穩。與細胞衰老、發炎性老化，以及可辨識的循環 SASP 訊號特徵相關。",
+          "created": "2026-05-29",
+          "updated": "2026-10-21",
+          "tags": [
+            "disease",
+            "medical-condition",
+            "neurodegenerative-disease",
+            "neurodegeneration",
+            "aging",
+            "alpha-synuclein",
+            "inflammaging"
+          ],
+          "filename": "Parkinson's Disease.md",
+          "path": "wiki/zh-TW/_link/Parkinson%27s%20Disease.md"
+        }
+      },
+      "stats": {
+        "words": 1888,
+        "images": 0,
+        "links": 166,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "Tocopherols",
       "langs": {
         "en-US": {
@@ -4761,46 +4781,6 @@
       }
     },
     {
-      "id": "Hydroxyeicosatetraenoic acids",
-      "langs": {
-        "en-US": {
-          "title": "Hydroxyeicosatetraenoic acids",
-          "description": "HETEs are monohydroxylated derivatives of arachidonic acid produced by lipoxygenases, cytochrome P450 enzymes, or non-enzymatic lipid peroxidation; bioactive oxylipins and markers of oxidative stress.",
-          "created": "2026-09-24",
-          "updated": "2026-09-24",
-          "tags": [
-            "lipid",
-            "eicosanoid",
-            "oxidative-stress",
-            "signaling-molecule"
-          ],
-          "filename": "Hydroxyeicosatetraenoic acids.md",
-          "path": "wiki/en-US/_link/Hydroxyeicosatetraenoic%20acids.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Hydroxyeicosatetraenoic%20acids.md"
-        },
-        "zh-TW": {
-          "title": "羥基二十碳四烯酸",
-          "description": "HETEs 為花生四烯酸（arachidonic acid）的單羥基化衍生物，可由脂氧合酶、細胞色素 P450 酶或非酵素性脂質過氧化反應生成；屬具生物活性的氧脂質（oxylipins），亦為氧化壓力的標記物。",
-          "created": "2026-09-24",
-          "updated": "2026-09-24",
-          "tags": [
-            "lipid",
-            "eicosanoid",
-            "oxidative-stress",
-            "signaling-molecule"
-          ],
-          "filename": "Hydroxyeicosatetraenoic acids.md",
-          "path": "wiki/zh-TW/_link/Hydroxyeicosatetraenoic%20acids.md"
-        }
-      },
-      "stats": {
-        "words": 722,
-        "images": 0,
-        "links": 45,
-        "diagrams": 0
-      }
-    },
-    {
       "id": "SIRT6",
       "langs": {
         "en-US": {
@@ -4841,6 +4821,46 @@
         "words": 3487,
         "images": 0,
         "links": 228,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Hydroxyeicosatetraenoic acids",
+      "langs": {
+        "en-US": {
+          "title": "Hydroxyeicosatetraenoic acids",
+          "description": "HETEs are monohydroxylated derivatives of arachidonic acid produced by lipoxygenases, cytochrome P450 enzymes, or non-enzymatic lipid peroxidation; bioactive oxylipins and markers of oxidative stress.",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "lipid",
+            "eicosanoid",
+            "oxidative-stress",
+            "signaling-molecule"
+          ],
+          "filename": "Hydroxyeicosatetraenoic acids.md",
+          "path": "wiki/en-US/_link/Hydroxyeicosatetraenoic%20acids.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Hydroxyeicosatetraenoic%20acids.md"
+        },
+        "zh-TW": {
+          "title": "羥基二十碳四烯酸",
+          "description": "HETEs 為花生四烯酸（arachidonic acid）的單羥基化衍生物，可由脂氧合酶、細胞色素 P450 酶或非酵素性脂質過氧化反應生成；屬具生物活性的氧脂質（oxylipins），亦為氧化壓力的標記物。",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "lipid",
+            "eicosanoid",
+            "oxidative-stress",
+            "signaling-molecule"
+          ],
+          "filename": "Hydroxyeicosatetraenoic acids.md",
+          "path": "wiki/zh-TW/_link/Hydroxyeicosatetraenoic%20acids.md"
+        }
+      },
+      "stats": {
+        "words": 722,
+        "images": 0,
+        "links": 45,
         "diagrams": 0
       }
     },
@@ -5271,6 +5291,40 @@
       }
     },
     {
+      "id": "Inflammaging",
+      "langs": {
+        "en-US": {
+          "title": "Inflammaging",
+          "description": "Inflammaging is a state of chronic, low-grade, systemic inflammation that develops with advanced age and is a major risk factor for many age-related diseases.",
+          "created": "2026-05-29",
+          "updated": "2026-09-02",
+          "tags": [
+            "biological-process"
+          ],
+          "filename": "Inflammaging.md",
+          "path": "wiki/en-US/_link/Inflammaging.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Inflammaging.md"
+        },
+        "zh-TW": {
+          "title": "Inflammaging（發炎性老化）",
+          "description": "發炎性老化是一種隨著年齡增長而形成的慢性、低度、全身性發炎狀態，是許多年齡相關疾病的主要風險因子。",
+          "created": "2026-05-29",
+          "updated": "2026-10-21",
+          "tags": [
+            "biological-process"
+          ],
+          "filename": "Inflammaging.md",
+          "path": "wiki/zh-TW/_link/Inflammaging.md"
+        }
+      },
+      "stats": {
+        "words": 1653,
+        "images": 0,
+        "links": 160,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "RIPK1",
       "langs": {
         "en-US": {
@@ -5403,6 +5457,46 @@
         "words": 2878,
         "images": 0,
         "links": 133,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Oxidative Stress",
+      "langs": {
+        "en-US": {
+          "title": "Oxidative Stress",
+          "description": "A phenomenon caused by an imbalance between the production and accumulation of Reactive Oxygen Species (ROS) and a biological system's ability to detoxify them; plays dual roles in physiology (redox signaling, mitohormesis) and pathology (aging, atherosclerosis, neurodegeneration).",
+          "created": "2026-07-04",
+          "updated": "2026-08-16",
+          "tags": [
+            "biological-process",
+            "scientific-concept",
+            "atherosclerosis",
+            "oxidative-stress"
+          ],
+          "filename": "Oxidative Stress.md",
+          "path": "wiki/en-US/oxidative-stress/Oxidative%20Stress.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/oxidative-stress/Oxidative%20Stress.md"
+        },
+        "zh-TW": {
+          "title": "Oxidative Stress（氧化壓力）",
+          "description": "一種由活性氧（ROS）的生成與累積、以及生物系統將其解毒的能力之間失衡所造成的現象；在生理學（氧化還原訊號傳遞、粒線體毒物興奮效應）與病理學（老化、動脈粥狀硬化、神經退化）中扮演雙重角色。",
+          "created": "2026-07-04",
+          "updated": "2026-10-21",
+          "tags": [
+            "biological-process",
+            "scientific-concept",
+            "atherosclerosis",
+            "oxidative-stress"
+          ],
+          "filename": "Oxidative Stress.md",
+          "path": "wiki/zh-TW/oxidative-stress/Oxidative%20Stress.md"
+        }
+      },
+      "stats": {
+        "words": 3362,
+        "images": 0,
+        "links": 350,
         "diagrams": 0
       }
     },
@@ -6019,6 +6113,46 @@
       }
     },
     {
+      "id": "Adrenochrome",
+      "langs": {
+        "en-US": {
+          "title": "Adrenochrome",
+          "description": "Adrenochrome is a chemical compound formed by the oxidation of epinephrine (adrenaline), a member of the Aminochromes family and minor metabolic byproduct rather than a primary hormone.",
+          "created": "2026-07-21",
+          "updated": "2026-08-09",
+          "tags": [
+            "chemical-compound",
+            "catecholamine",
+            "oxidation",
+            "neuromelanin"
+          ],
+          "filename": "Adrenochrome.md",
+          "path": "wiki/en-US/adrenochrome/Adrenochrome.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/Adrenochrome.md"
+        },
+        "zh-TW": {
+          "title": "Adrenochrome（腎上腺紅質）",
+          "description": "Adrenochrome（腎上腺紅質）是由腎上腺素（epinephrine，adrenaline）氧化所形成的化學化合物，屬於胺基醌（Aminochromes）家族，是次要的代謝副產物，而非主要的激素。",
+          "created": "2026-07-21",
+          "updated": "2026-10-21",
+          "tags": [
+            "chemical-compound",
+            "catecholamine",
+            "oxidation",
+            "neuromelanin"
+          ],
+          "filename": "Adrenochrome.md",
+          "path": "wiki/zh-TW/adrenochrome/Adrenochrome.md"
+        }
+      },
+      "stats": {
+        "words": 1607,
+        "images": 0,
+        "links": 148,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "AGE-1",
       "langs": {
         "en-US": {
@@ -6053,6 +6187,42 @@
         "words": 132,
         "images": 0,
         "links": 14,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Bcl-2",
+      "langs": {
+        "en-US": {
+          "title": "Bcl-2",
+          "description": "Anti-apoptotic protein that localizes to the mitochondrial outer membrane and inhibits cytochrome c release.",
+          "created": "2026-07-04",
+          "updated": "2026-09-02",
+          "tags": [
+            "protein",
+            "apoptosis"
+          ],
+          "filename": "Bcl-2.md",
+          "path": "wiki/en-US/cell-death/Bcl-2.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Bcl-2.md"
+        },
+        "zh-TW": {
+          "title": "Bcl-2",
+          "description": "定位於粒線體外膜並抑制細胞色素 c 釋放的抗凋亡蛋白。",
+          "created": "2026-07-04",
+          "updated": "2026-10-21",
+          "tags": [
+            "protein",
+            "apoptosis"
+          ],
+          "filename": "Bcl-2.md",
+          "path": "wiki/zh-TW/cell-death/Bcl-2.md"
+        }
+      },
+      "stats": {
+        "words": 943,
+        "images": 0,
+        "links": 52,
         "diagrams": 0
       }
     },
@@ -6131,6 +6301,48 @@
       }
     },
     {
+      "id": "Senolytics",
+      "langs": {
+        "en-US": {
+          "title": "Senolytics",
+          "description": "A class of small molecules and peptides that selectively induce death in senescent cells by targeting senescent cell anti-apoptotic pathways (SCAPs).",
+          "created": "2024-01-01",
+          "updated": "2026-09-02",
+          "tags": [
+            "pharmacological-action",
+            "senescence",
+            "apoptosis",
+            "pharmacology",
+            "anti-aging"
+          ],
+          "filename": "Senolytics.md",
+          "path": "wiki/en-US/senescence/Senolytics.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/Senolytics.md"
+        },
+        "zh-TW": {
+          "title": "Senolytics（衰老細胞清除劑）",
+          "description": "一類藉由標的衰老細胞抗凋亡路徑（SCAPs），選擇性地誘導衰老細胞死亡的小分子與胜肽。",
+          "created": "2024-01-01",
+          "updated": "2026-10-21",
+          "tags": [
+            "pharmacological-action",
+            "senescence",
+            "apoptosis",
+            "pharmacology",
+            "anti-aging"
+          ],
+          "filename": "Senolytics.md",
+          "path": "wiki/zh-TW/senescence/Senolytics.md"
+        }
+      },
+      "stats": {
+        "words": 1014,
+        "images": 0,
+        "links": 55,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "APC",
       "langs": {
         "en-US": {
@@ -6165,6 +6377,342 @@
         "words": 118,
         "images": 0,
         "links": 17,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "FSP1",
+      "langs": {
+        "en-US": {
+          "title": "FSP1",
+          "description": "Ferroptosis suppressor protein 1 (FSP1, formerly AIFM2) is a plasma-membrane flavoprotein that uses NAD(P)H to reduce ubiquinone (CoQ10) to ubiquinol, a lipophilic radical-trapping antioxidant, acting as a GPX4-independent, parallel brake on ferroptosis.",
+          "created": "2026-07-04",
+          "updated": "2026-08-24",
+          "tags": [
+            "protein",
+            "enzyme",
+            "ferroptosis",
+            "antioxidant",
+            "lipid-metabolism"
+          ],
+          "filename": "FSP1.md",
+          "path": "wiki/en-US/_link/FSP1.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/FSP1.md"
+        },
+        "zh-TW": {
+          "title": "FSP1",
+          "description": "鐵死亡抑制蛋白 1（FSP1，舊稱 AIFM2）是一種質膜黃素蛋白，利用 NAD(P)H 將泛醌（CoQ10）還原為泛醇，一種親脂性的自由基捕捉型抗氧化劑，藉此作為不依賴 GPX4 的平行鐵死亡煞車。",
+          "created": "2026-07-04",
+          "updated": "2026-10-21",
+          "tags": [
+            "protein",
+            "enzyme",
+            "ferroptosis",
+            "antioxidant",
+            "lipid-metabolism"
+          ],
+          "filename": "FSP1.md",
+          "path": "wiki/zh-TW/_link/FSP1.md"
+        }
+      },
+      "stats": {
+        "words": 1546,
+        "images": 0,
+        "links": 53,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Telomere",
+      "langs": {
+        "en-US": {
+          "title": "Telomere",
+          "description": "Repetitive nucleoprotein caps at chromosome ends that protect genomic integrity and shorten with age and cell division.",
+          "created": "2026-07-09",
+          "updated": "2026-09-02",
+          "tags": [
+            "scientific-concept",
+            "telomere",
+            "aging",
+            "genomic-instability",
+            "dna-damage",
+            "hallmarks-of-aging"
+          ],
+          "filename": "Telomere.md",
+          "path": "wiki/en-US/_link/Telomere.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Telomere.md"
+        },
+        "zh-TW": {
+          "title": "端粒",
+          "description": "位於染色體末端、可保護基因體完整性的重複核蛋白帽狀結構，並隨老化與細胞分裂而縮短。",
+          "created": "2026-07-09",
+          "updated": "2026-10-21",
+          "tags": [
+            "scientific-concept",
+            "telomere",
+            "aging",
+            "genomic-instability",
+            "dna-damage",
+            "hallmarks-of-aging"
+          ],
+          "filename": "Telomere.md",
+          "path": "wiki/zh-TW/_link/Telomere.md"
+        }
+      },
+      "stats": {
+        "words": 926,
+        "images": 0,
+        "links": 55,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Aging",
+      "langs": {
+        "en-US": {
+          "title": "Aging",
+          "description": "The relationship between aging and Epigenetics is a central focus of modern Geroscience. Epigenetics refers to chemical modifications to DNA and its associated proteins that regulate gene expre...",
+          "created": "2026-05-29",
+          "updated": "2026-05-29",
+          "tags": [
+            "biological-process"
+          ],
+          "filename": "Aging.md",
+          "path": "wiki/en-US/_link/Aging.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Aging.md"
+        },
+        "zh-TW": {
+          "title": "Aging（老化）",
+          "description": "老化與表觀遺傳學的關係是現代老年生物學的核心焦點。表觀遺傳學是指對 DNA 及其相關蛋白質的化學修飾，這些修飾可在不改變基因序列的情況下調節基因表現……",
+          "created": "2026-05-29",
+          "updated": "2026-10-21",
+          "tags": [
+            "biological-process"
+          ],
+          "filename": "Aging.md",
+          "path": "wiki/zh-TW/_link/Aging.md"
+        }
+      },
+      "stats": {
+        "words": 1399,
+        "images": 0,
+        "links": 77,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Sirtuins",
+      "langs": {
+        "en-US": {
+          "title": "Sirtuins",
+          "description": "Sirtuins (SIRTs) are a highly conserved family of nicotinamide adenine dinucleotide (NAD⁺)-dependent enzymes belonging to Class III histone deacetylases (HDACs). Spanning all domains of life, sirtu...",
+          "created": "2026-07-04",
+          "updated": "2026-08-03",
+          "tags": [
+            "protein",
+            "epigenetics",
+            "nad-plus"
+          ],
+          "filename": "Sirtuins.md",
+          "path": "wiki/en-US/sirtuins/Sirtuins.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/Sirtuins.md"
+        },
+        "zh-TW": {
+          "title": "Sirtuins（sirtuin 家族）",
+          "description": "Sirtuins（SIRTs）是一類高度保守的菸鹼醯胺腺嘌呤二核苷酸（NAD⁺）依賴性酵素，屬於第 III 類組蛋白去乙醯化酶（HDACs）。遍布所有生命領域，sirtuin 扮演代謝感受器的角色，...",
+          "created": "2026-07-04",
+          "updated": "2026-10-21",
+          "tags": [
+            "protein",
+            "epigenetics",
+            "nad-plus"
+          ],
+          "filename": "Sirtuins.md",
+          "path": "wiki/zh-TW/sirtuins/Sirtuins.md"
+        }
+      },
+      "stats": {
+        "words": 2321,
+        "images": 0,
+        "links": 131,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Neuromelanin",
+      "langs": {
+        "en-US": {
+          "title": "Neuromelanin",
+          "description": "Neuromelanin is a dark pigment found in specific populations of catecholaminergic neurons in the brain, most notably in the substantia nigra and locus coeruleus.",
+          "created": "2026-07-04",
+          "updated": "2026-07-04",
+          "tags": [
+            "biological-molecule"
+          ],
+          "filename": "Neuromelanin.md",
+          "path": "wiki/en-US/neuromelanin/Neuromelanin.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/neuromelanin/Neuromelanin.md"
+        },
+        "zh-TW": {
+          "title": "神經黑色素",
+          "description": "神經黑色素是存在於腦中特定兒茶酚胺能神經元族群的一種深色色素，最具代表性的是黑質與藍斑核。",
+          "created": "2026-07-04",
+          "updated": "2026-10-21",
+          "tags": [
+            "biological-molecule"
+          ],
+          "filename": "Neuromelanin.md",
+          "path": "wiki/zh-TW/neuromelanin/Neuromelanin.md"
+        }
+      },
+      "stats": {
+        "words": 622,
+        "images": 0,
+        "links": 53,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "NRF2",
+      "langs": {
+        "en-US": {
+          "title": "Nrf2",
+          "description": "Transcription factor (NF-E2-related factor 2) that orchestrates the antioxidant and detoxification response by binding ARE/EpRE elements.",
+          "created": "2026-07-09",
+          "updated": "2026-07-29",
+          "tags": [
+            "protein",
+            "redox",
+            "transcription-factor",
+            "oxidative-stress"
+          ],
+          "filename": "NRF2.md",
+          "path": "wiki/en-US/_link/NRF2.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/NRF2.md"
+        },
+        "zh-TW": {
+          "title": "Nrf2",
+          "description": "轉錄因子（NF-E2-related factor 2），藉由結合 ARE/EpRE 元件來統籌抗氧化與解毒反應。",
+          "created": "2026-07-09",
+          "updated": "2026-10-21",
+          "tags": [
+            "protein",
+            "redox",
+            "transcription-factor",
+            "oxidative-stress"
+          ],
+          "filename": "NRF2.md",
+          "path": "wiki/zh-TW/_link/NRF2.md"
+        }
+      },
+      "stats": {
+        "words": 705,
+        "images": 0,
+        "links": 40,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Mitophagy",
+      "langs": {
+        "en-US": {
+          "title": "Mitophagy",
+          "description": "Mitophagy is a specialized form of Selective Autophagy that targets damaged or dysfunctional Mitochondria for degradation. It is a critical quality control mechanism for maintaining mitochondri...",
+          "created": "2024-01-01",
+          "updated": "2026-07-26",
+          "tags": [
+            "biological-process",
+            "mitochondria"
+          ],
+          "filename": "Mitophagy.md",
+          "path": "wiki/en-US/_link/Mitophagy.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Mitophagy.md"
+        },
+        "zh-TW": {
+          "title": "Mitophagy（粒線體自噬）",
+          "description": "粒線體自噬是一種選擇性自噬的特化形式，針對受損或功能異常的粒線體進行降解。它是維持粒線體健康與細胞恆定的關鍵品質管制機制……",
+          "created": "2024-01-01",
+          "updated": "2026-10-21",
+          "tags": [
+            "biological-process",
+            "mitochondria"
+          ],
+          "filename": "Mitophagy.md",
+          "path": "wiki/zh-TW/_link/Mitophagy.md"
+        }
+      },
+      "stats": {
+        "words": 1577,
+        "images": 0,
+        "links": 131,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "mTOR",
+      "langs": {
+        "en-US": {
+          "title": "mTOR",
+          "description": "mTOR (Mechanistic Target of Rapamycin) is a protein kinase that serves as a central ''master regulator'' of cellular metabolism. It integrates signals from nutrients, growth factors, and energy s...",
+          "created": "2026-05-31",
+          "updated": "2026-07-29",
+          "tags": [
+            "protein"
+          ],
+          "filename": "mTOR.md",
+          "path": "wiki/en-US/_link/mTOR.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/mTOR.md"
+        },
+        "zh-TW": {
+          "title": "mTOR",
+          "description": "mTOR（Mechanistic Target of Rapamycin）是一種蛋白質激酶，作為細胞代謝的「總調節者」。它整合來自營養、生長因子與能量狀態的訊號……",
+          "created": "2026-05-31",
+          "updated": "2026-10-21",
+          "tags": [
+            "protein"
+          ],
+          "filename": "mTOR.md",
+          "path": "wiki/zh-TW/_link/mTOR.md"
+        }
+      },
+      "stats": {
+        "words": 1452,
+        "images": 0,
+        "links": 100,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Rapamycin",
+      "langs": {
+        "en-US": {
+          "title": "Rapamycin",
+          "description": "In the SASP-Remodeling Aminochrome Complex strategy, Rapamycin acts as a \"brake.\" It ensures that Adrenochrome-induced ROS signals are diverted from pro-inflammatory SASP production toward a quiesc...",
+          "created": "2024-01-01",
+          "updated": "2026-07-07",
+          "tags": [
+            "chemical-compound"
+          ],
+          "filename": "Rapamycin.md",
+          "path": "wiki/en-US/_link/Rapamycin.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Rapamycin.md"
+        },
+        "zh-TW": {
+          "title": "Rapamycin（雷帕黴素）",
+          "description": "在 SASP-Remodeling Aminochrome Complex 策略中，Rapamycin 扮演「煞車」的角色。它確保由腎上腺素紅引發的 ROS 訊號從促發炎的 SASP 生成，轉而流向靜止樣的「senomorphic」狀態……",
+          "created": "2024-01-01",
+          "updated": "2026-10-21",
+          "tags": [
+            "chemical-compound"
+          ],
+          "filename": "Rapamycin.md",
+          "path": "wiki/zh-TW/_link/Rapamycin.md"
+        }
+      },
+      "stats": {
+        "words": 908,
+        "images": 0,
+        "links": 63,
         "diagrams": 0
       }
     },
@@ -6205,6 +6753,184 @@
         "words": 1131,
         "images": 0,
         "links": 81,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Hormesis",
+      "langs": {
+        "en-US": {
+          "title": "Hormesis",
+          "description": "Hormesis is a biological phenomenon where a beneficial effect (improved health, stress tolerance, growth, or longevity) results from exposure to low doses of an agent that is otherwise toxic or let...",
+          "created": "2026-07-04",
+          "updated": "2026-07-04",
+          "tags": [
+            "scientific-concept",
+            "hormesis"
+          ],
+          "filename": "Hormesis.md",
+          "path": "wiki/en-US/_link/Hormesis.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Hormesis.md"
+        },
+        "zh-TW": {
+          "title": "Hormesis（馴化）",
+          "description": "馴化是一種生物學現象：暴露於某種在較高劑量下具有毒性或致命性（…）的作用因子之低劑量，會產生有益效應（健康改善、壓力耐受性、生長或長壽）。",
+          "created": "2026-07-04",
+          "updated": "2026-10-21",
+          "tags": [
+            "scientific-concept",
+            "hormesis"
+          ],
+          "filename": "Hormesis.md",
+          "path": "wiki/zh-TW/_link/Hormesis.md"
+        }
+      },
+      "stats": {
+        "words": 1881,
+        "images": 0,
+        "links": 147,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Reactive Oxygen Species",
+      "langs": {
+        "en-US": {
+          "title": "Reactive Oxygen Species",
+          "description": "Reactive Oxygen Species (ROS) are highly reactive molecules containing oxygen, formed as natural byproducts of oxygen metabolism. They play dual roles as signaling molecules and agents of oxida...",
+          "created": "2026-05-31",
+          "updated": "2026-05-31",
+          "tags": [
+            "chemical-compound"
+          ],
+          "filename": "Reactive Oxygen Species.md",
+          "path": "wiki/en-US/_link/Reactive%20Oxygen%20Species.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Reactive%20Oxygen%20Species.md"
+        },
+        "zh-TW": {
+          "title": "Reactive Oxygen Species（活性氧）",
+          "description": "活性氧（ROS）是含氧的高反應性分子，為氧代謝的自然副產物。它們兼具訊號傳遞分子與氧化性損傷因子的雙重角色……",
+          "created": "2026-05-31",
+          "updated": "2026-10-21",
+          "tags": [
+            "chemical-compound"
+          ],
+          "filename": "Reactive Oxygen Species.md",
+          "path": "wiki/zh-TW/_link/Reactive%20Oxygen%20Species.md"
+        }
+      },
+      "stats": {
+        "words": 1210,
+        "images": 0,
+        "links": 90,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "TFEB",
+      "langs": {
+        "en-US": {
+          "title": "TFEB",
+          "description": "Master regulator of the autophagy-lysosome pathway coordinating lysosomal biogenesis and autophagy",
+          "created": "2024-01-01",
+          "updated": "2024-01-01",
+          "tags": [
+            "transcription-factor",
+            "autophagy",
+            "lysosome-biogenesis"
+          ],
+          "filename": "TFEB.md",
+          "path": "wiki/en-US/_link/TFEB.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/TFEB.md"
+        },
+        "zh-TW": {
+          "title": "TFEB",
+          "description": "自噬－溶酶體途徑的主調節因子，協調溶酶體生合成與自噬",
+          "created": "2024-01-01",
+          "updated": "2026-10-21",
+          "tags": [
+            "transcription-factor",
+            "autophagy",
+            "lysosome-biogenesis"
+          ],
+          "filename": "TFEB.md",
+          "path": "wiki/zh-TW/_link/TFEB.md"
+        }
+      },
+      "stats": {
+        "words": 611,
+        "images": 0,
+        "links": 55,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Mitochondrial Dysfunction",
+      "langs": {
+        "en-US": {
+          "title": "Mitochondrial Dysfunction",
+          "description": "Mitochondrial dysfunction is a central feature of Parkinson's Disease and is thought to be both a cause and a consequence of other pathological processes.",
+          "created": "2024-01-01",
+          "updated": "2024-01-01",
+          "tags": [
+            "biological-process",
+            "mitochondria"
+          ],
+          "filename": "Mitochondrial Dysfunction.md",
+          "path": "wiki/en-US/_link/Mitochondrial%20Dysfunction.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Mitochondrial%20Dysfunction.md"
+        },
+        "zh-TW": {
+          "title": "粒線體功能障礙",
+          "description": "粒線體功能障礙是帕金森氏症的中央特徵，並被認為既是其他病理過程的原因，也是其結果。",
+          "created": "2024-01-01",
+          "updated": "2026-10-21",
+          "tags": [
+            "biological-process",
+            "mitochondria"
+          ],
+          "filename": "Mitochondrial Dysfunction.md",
+          "path": "wiki/zh-TW/_link/Mitochondrial%20Dysfunction.md"
+        }
+      },
+      "stats": {
+        "words": 527,
+        "images": 0,
+        "links": 36,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "FOXO",
+      "langs": {
+        "en-US": {
+          "title": "FOXO",
+          "description": "A family of transcription factors (Forkhead box O) that regulate the expression of genes involved in cell cycle, Apoptosis, and Autophagy.",
+          "created": "2024-01-01",
+          "updated": "2024-01-01",
+          "tags": [
+            "protein"
+          ],
+          "filename": "FOXO.md",
+          "path": "wiki/en-US/_link/FOXO.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/FOXO.md"
+        },
+        "zh-TW": {
+          "title": "FOXO",
+          "description": "一族轉錄因子（Forkhead box O，叉頭框蛋白 O），負責調節與細胞週期、細胞凋亡與自噬相關基因的表現。",
+          "created": "2024-01-01",
+          "updated": "2026-10-21",
+          "tags": [
+            "protein"
+          ],
+          "filename": "FOXO.md",
+          "path": "wiki/zh-TW/_link/FOXO.md"
+        }
+      },
+      "stats": {
+        "words": 477,
+        "images": 0,
+        "links": 20,
         "diagrams": 0
       }
     }
