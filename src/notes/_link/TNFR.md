@@ -18,7 +18,7 @@ TNFR (TNF receptor) denotes the receptor family for [[TNFα]]. The death-domain-
 
 ## Family Context
 
-See [[TNFR1]] for the death receptor proper. Other members — TNFR2 (no death domain), and death-domain receptors Fas and TRAIL-R — can also drive RIPK1-dependent necroptosis when [[Caspase-8]] is blocked (e.g. Holler et al. 2000), but their [[necrosome]] coupling is less defined than TNFR1's and they mainly modulate the inflammatory milieu around necroptotic lesions.
+See [[TNFR1]] for the death receptor proper. Other members — [[TNFR2]] (no death domain), and the death-domain receptors Fas and the TRAIL receptors [[DR4]]/[[DR5]] — can also drive RIPK1-dependent necroptosis when [[Caspase-8]] is blocked (e.g. Holler et al. 2000), but their [[necrosome]] coupling is less defined than TNFR1's and they mainly modulate the inflammatory milieu around necroptotic lesions.
 
 ## Documents
 

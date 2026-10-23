@@ -37,7 +37,7 @@ Survival signalling that opposes death: [[Cell Survival]] (PI3K/AKT and NF-κB p
 
 BCL-2 family and mitochondrial gatekeepers: [[Bcl-2 family]], [[Bcl-2]], [[Bcl-w]], [[Bcl-xL]], [[BCL2L13]], [[BAX]], [[BAK]], [[BOK]], [[Bid]], [[Smac DIABLO]], [[Smac mimetics]], [[VDAC]], [[Apoptosis-Inducing Factor]], [[AIFM2]].
 
-Death-receptor and necrosome signaling: [[TNFR1]], [[TNFR1 complex I]], [[TNFR1 complex II]], [[RIPK3]], [[MLKL]], [[FasL]], [[TRAIL]].
+Death-receptor and necrosome signaling: [[TNFR1]], [[TNFR1 complex I]], [[TNFR1 complex II]], [[RIPK3]], [[MLKL]], [[FasL]], [[TRAIL]], [[DR4]] (TRAIL-R1/CD261), [[DR5]] (TRAIL-R2/CD262), [[TNFR2]] (CD120b).
 
 Necroptosis regulators and sensors (mostly `_link/`): [[ZBP1]], [[TRIF]], [[PANoptosis]], [[PANoptosome]], [[CYLD]], [[OTULIN]], [[TRIM21]], [[RSK3]], [[CSNK1G2]], [[TAM Kinases]], [[PGAM5]], [[Pyruvate Dehydrogenase]], [[HSP90β]], [[BRD4]].
 

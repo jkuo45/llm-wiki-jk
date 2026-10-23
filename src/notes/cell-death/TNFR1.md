@@ -8,7 +8,7 @@ updated: 2026-07-06
 tags:
   - enzyme
   - inflammation
-aliases: []
+aliases: [CD120a, DR1, TNFRSF1A, TNF Receptor 1]
 ---
 
 # TNFR1

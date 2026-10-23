@@ -16,7 +16,7 @@ aliases: [Erythrocyte necroptosis, Regulated necrosis of erythrocytes]
 
 > [!info]
 > Source: [[_document_ - Current understanding of eryptosis mechanisms, physiological functions, role in disease, pharmacological applications, and nomenclature recommendations|Tkachenko et al. 2025 eryptosis consensus review]]
-> Mature erythrocytes lack TNFR1/TNFR2/TRAIL-R1/DR4/DR5, so their necroptosis has cell-specific features — hence a separate name rather than reuse of "necroptosis."
+> Mature erythrocytes lack [[TNFR1]]/[[TNFR2]]/[[DR4]] (TRAIL-R1)/[[DR5]] (TRAIL-R2), so their necroptosis has cell-specific features — hence a separate name rather than reuse of "necroptosis."
 
 ## Mechanism
 
@@ -43,6 +43,7 @@ aliases: [Erythrocyte necroptosis, Regulated necrosis of erythrocytes]
 - [[Fas]] / [[FasL]] — shared Fas/FasL entry point for both modalities
 - [[Ceramide]] / [[Reactive Oxygen Species|ROS]] / [[Advanced Glycation End Products|AGEs]] — shared inducers
 - [[Necrosis]] / [[Hemolysis]] — morphological and immunological consequence of membrane rupture
+- [[TNFR1]] / [[TNFR2]] / [[DR4]] / [[DR5]] — death receptors absent from mature erythrocytes, hence alternative induction routes
 - [[Hemoglobin]] — released content capable of ROS and DAMP activity
 
 ## Linking Summary
