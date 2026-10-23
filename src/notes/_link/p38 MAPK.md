@@ -4,12 +4,19 @@ description: p38 mitogen-activated protein kinase (p38 MAPK) is a signaling mole
   that regulates TFEB by phosphorylating it at S211 (inhibitory) or S401 (activating),
   depending on the cellular context.
 created: 2024-01-01
-updated: 2024-01-01
+updated: 2026-10-23
 tags:
   - protein
-aliases: []
+aliases: [p38 mitogen-activated protein kinase, p38 MAP kinase, p38]
 ---
 # p38 MAPK
+
+## Eryptosis
+
+p38 MAPK is **pro-eryptotic** in erythrocytes. It is phosphorylated by hyperosmotic shock, and the p38 inhibitors SB203580 and p38 Inh III blunt the accompanying rise in cytosolic Ca2+, PS exposure and shrinkage. Cigarette smoke extract uses the same axis: p38 phosphorylation initiates Fas oligomerization and [[FADD]]/DISC assembly with [[Caspase-8]] and [[Caspase-3]] activation, downstream of neutral-sphingomyelinase ceramide generation — a Ca2+-independent route to PS exposure. Erythrocytes from cigarette smokers show elevated p-p38 and assembled Fas-FADD complexes.
+
+> [!warning] Inhibitor caveat
+> The pyridinyl imidazole p38 inhibitors SB203580 and SB202190 also inhibit [[CK1]] in vitro, so "p38-dependence" inferred from these compounds alone can be confounded by CK1 inhibition — and CK1α is itself pro-eryptotic.
 
 ## BAX Regulation
 
@@ -60,7 +67,12 @@ List of documents that mention this entity
 - [[LINE-1]] — p38 MAPK contributes to retroelement-driven SASP
 - [[DNA Methylation]] — p38 MAPK intersects methylation dynamics at SASP genes
 - [[Senescence-Associated Heterochromatin Foci]] — p38 MAPK acts at SASP loci outside SAHF
+- [[Eryptosis]] — pro-eryptotic kinase in erythrocytes; initiates Fas/DISC assembly
+- [[FADD]] — recruited into the DISC downstream of p38 phosphorylation
+- [[Caspase-8]] / [[Caspase-3]] — activated by the p38-initiated DISC
+- [[CK1]] — cross-inhibited by the pyridinyl imidazole p38 inhibitors
 ## Linking Summary
-- New links added: [[TFEB]], [[Caspase-3]], [[Caspase-8]], [[Caspase-9]], [[Bim]], [[Apoptosis|Apoptosis]], [[p38 MAPK]], [[Apoptosis]], [[Bax]], [[Phosphorylation]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Epigenetic Alterations]], [[KDM4]], [[AP-1]], [[BRD4]], [[NF-κB]], [[cGAS-STING Pathway]], [[EZH2]], [[LINE-1]], [[DNA Methylation]], [[Senescence-Associated Heterochromatin Foci]]
+- New links added: [[TFEB]], [[Caspase-3]], [[Caspase-8]], [[Caspase-9]], [[Bim]], [[Apoptosis|Apoptosis]], [[p38 MAPK]], [[Apoptosis]], [[Bax]], [[Phosphorylation]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Epigenetic Alterations]], [[KDM4]], [[AP-1]], [[BRD4]], [[NF-κB]], [[cGAS-STING Pathway]], [[EZH2]], [[LINE-1]], [[DNA Methylation]], [[Senescence-Associated Heterochromatin Foci]], [[Eryptosis]], [[FADD]], [[CK1]]
 - Suggested new entity notes to create: [[MAPK Signaling]]
   - Strong connections to strengthen: p38 MAPK ↔ [[TFEB]], p38 MAPK ↔ Caspase-8, p38 MAPK ↔ Bim, p38 MAPK ↔ Bax
+- 2026-10-23: added the erythrocyte/[[Eryptosis]] section and aliases.

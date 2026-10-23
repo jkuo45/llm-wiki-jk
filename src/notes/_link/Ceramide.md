@@ -15,7 +15,7 @@ aliases:
 
 # Ceramide
 
-**Ceramide** is the central hub of [[Sphingolipid Metabolism|sphingolipid metabolism]], consisting of a [[Sphingosine|sphingosine]] backbone *N*-acylated to a fatty acid. It sits at the branch point between synthesis ([[Sphingomyelin|sphingomyelin]] hydrolysis via [[Acid Sphingomyelinase|SMase]] and *de novo* ceramide synthase) and breakdown (cleavage by [[Acid ceramidase|acid ceramidase, ASAH1]] into [[Sphingosine|sphingosine]] + free fatty acid).
+**Ceramide** is the central hub of [[Sphingolipid Metabolism|sphingolipid metabolism]], consisting of a [[Sphingosine|sphingosine]] backbone *N*-acylated to a fatty acid. It sits at the branch point between synthesis ([[Sphingomyelin|sphingomyelin]] hydrolysis via [[Sphingomyelinase|sphingomyelinases]] — acid [[Acid Sphingomyelinase|ASM]] and the neutral forms — and *de novo* ceramide synthase) and breakdown (cleavage by [[Acid ceramidase|acid ceramidase, ASAH1]] into [[Sphingosine|sphingosine]] + free fatty acid).
 
 ## Role in Membrane Lipid Homeostasis
 

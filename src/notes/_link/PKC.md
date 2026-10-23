@@ -19,6 +19,8 @@ aliases: [protein kinase C, PKC family]
 PKC activation (via [[PMA]] or DAG analogs) induces [[TFEB]] nuclear translocation through [[GSK3β]] inactivation and [[calcineurin]] activation. This provides a [[mTORC1]]-independent route for inducing [[Autophagy]] and lysosomal biogenesis. PKCδ and PKCθ also regulate autophagy in immune cells and cancer.
 ## Physiological Functions
 PKC isoforms control immune receptor signaling ([[T Cell]] activation via PKCθ), insulin signaling (PKCβ in [[Diabetes Mellitus]]), cardiac contraction, and neuronal plasticity. PKCβ deficiency impairs [[B Cell]] responses and antibody production.
+## Eryptosis
+PKC — specifically PKCα — is **pro-eryptotic** in erythrocytes: ATP depletion drives PKCα membrane translocation, which phosphorylates the membrane cation channel and raises cytosolic Ca2+, producing [[Scramblase]] activation and [[Phosphatidylserine]] exposure. As with [[CK1α]], PKC is largely anti-apoptotic in nucleated cells, so the sign flips in anucleate cells with a truncated effector set.
 ## Therapeutic Relevance
 PKCβ inhibitors ([[Enzastaurin]], [[Ruboxistaurin]]) are being investigated for diabetic complications and cancer. [[PMA]] is a research tool that activates conventional and novel PKCs.
 
@@ -50,3 +52,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[TFEB]], [[Autophagy]], [[GSK3β]], [[calcineurin]], [[mTORC1]], [[PMA]], [[B Cell]], [[T Cell]], [[Bcl-2]], [[Phosphorylation]], [[PKCδ]], [[PKCζ]], [[PKCι]]
   - Strong connections to strengthen: [[PKC]] ↔ [[Bcl-2]]
+- 2026-10-23: added the erythrocyte/[[Eryptosis]] role of PKCα (ATP depletion → PKCα translocation → Ca2+ rise → PS exposure).

@@ -5,20 +5,20 @@
 <!-- GENERATED: summary_table -->
 | topic | updated | documents | entities | words | disk |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 21_OCT_2026 | 34 | 2062 | 1,477,190 | 18.06 MB |
-| [adrenochrome](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 21_OCT_2026 | 19 | 258 | 201,774 | 2.65 MB |
+| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 23_OCT_2026 | 34 | 2063 | 1,478,858 | 18.07 MB |
+| [adrenochrome](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 23_OCT_2026 | 19 | 258 | 201,773 | 2.65 MB |
 | [autophagy](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 21_OCT_2026 | 12 | 234 | 187,557 | 1.74 MB |
-| [cancer](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 21_OCT_2026 | 11 | 286 | 259,175 | 3.00 MB |
-| [cell-death](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cell-death) [[src/notes/cell-death/README\|wiki]] | 21_OCT_2026 | 11 | 91 | 105,518 | 1.13 MB |
+| [cancer](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 21_OCT_2026 | 11 | 286 | 259,524 | 3.00 MB |
+| [cell-death](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cell-death) [[src/notes/cell-death/README\|wiki]] | 23_OCT_2026 | 11 | 95 | 107,604 | 1.15 MB |
 | [comt](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/comt) [[src/notes/comt/README\|wiki]] | 21_OCT_2026 | 2 | 45 | 28,241 | 0.54 MB |
 | [epigenetics](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]] | 21_OCT_2026 | 8 | 225 | 208,120 | 2.24 MB |
 | [hormesis](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/hormesis) [[src/notes/hormesis/README\|wiki]] | 21_OCT_2026 | 7 | 16 | 69,625 | 0.63 MB |
 | [neuromelanin](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/neuromelanin) [[src/notes/neuromelanin/README\|wiki]] | 21_OCT_2026 | 2 | 91 | 64,406 | 0.80 MB |
-| [oxidative-stress](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/oxidative-stress) [[src/notes/oxidative-stress/README\|wiki]] | 21_OCT_2026 | 1 | 104 | 90,970 | 1.15 MB |
+| [oxidative-stress](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/oxidative-stress) [[src/notes/oxidative-stress/README\|wiki]] | 21_OCT_2026 | 1 | 104 | 91,073 | 1.16 MB |
 | [senescence](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 21_OCT_2026 | 16 | 66 | 156,813 | 2.24 MB |
 | [sirtuins](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 21_OCT_2026 | 20 | 172 | 314,060 | 3.97 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 21_OCT_2026 | **143** | **3650** | **3,163,449** | **38.15 MB** |
+| **subtotal** | 23_OCT_2026 | **143** | **3655** | **3,167,654** | **38.19 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***

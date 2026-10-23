@@ -25,17 +25,17 @@ aliases: [Eryptotic cell death, Suicidal erythrocyte death, Eryptosis (erythrocy
 | Ca2+ entry through cation channels | Ca2+ → Gardos/calpain/scramblase | cation channel-driven eryptosis |
 | Oxidative stress (Hb Fenton chemistry, NADPH oxidase, xanthine oxidoreductase) | ROS → Ca2+ influx, caspase-3 | ROS-mediated eryptosis |
 | Sphingomyelin hydrolysis → ceramide | Ceramide → Fas rafts, DISC, caspase-8/-3 | lipid-driven eryptosis |
-| Fas/FasL ligation | Fas → FADD → caspase-8/-3 | extrinsic eryptosis |
+| Fas/FasL ligation | Fas → [[FADD]] → caspase-8/-3 | extrinsic eryptosis |
 | Inherited enzyme defects (G6PD) | ↑ susceptibility to all inducers | RBC enzyme deficiency-dependent death |
 
 - **Ca2+ entry:** RBCs cannot store Ca2+, so influx is obligatory. Candidate routes: [[TRPC6]] (human) / TRPC4-5 (mouse), [[NMDA receptor|NMDA]]/AMPA receptors, [[Piezo1]] (mechanical stress), Cav2.1. Channels rest closed and open on ROS, hyperosmolarity, or Cl− removal with gluconate replacement; exclusion of extracellular Ca2+ aborts eryptosis.
 - **Execution:** [[Gardos Channel|Gardos channel (KCa3.1/KCNN4)]] K+ efflux (blocked by charybdotoxin/clotrimazole), Cl− and water follow; [[Calpain]] degrades the membrane–cytoskeleton scaffold (but calpain-1-null mice have normal RBC lifespan, so calpain is amplifier, not obligate executor).
-- **Energy coupling:** glucose withdrawal or 2-deoxyglucose → ATP depletion → PKCα membrane translocation → phosphorylation of the cation channel → Ca2+ rise. [[AMPK]] senses the deficit and restrains death (AMPKα-null mice: splenomegaly, severe anemia); [[Glucose-6-Phosphate Dehydrogenase|G6PD]]/PPP-derived NADPH feeds glutathione reductase, and G6PD inhibition (dimethyl fumarate, parthenolide) causes GSH depletion and eryptosis.
-- **Anti-eryptotic arms:** [[Nitric Oxide|NO]] → soluble guanylate cyclase → cGMP → cGKI (cGKI-null mice: enhanced eryptosis, anemia, splenomegaly); [[Erythropoietin]]; MSK1/2.
+- **Energy coupling:** glucose withdrawal or 2-deoxyglucose → ATP depletion → [[PKC|PKCα]] membrane translocation → phosphorylation of the cation channel → Ca2+ rise. [[AMPK]] senses the deficit and restrains death (AMPKα-null mice: splenomegaly, severe anemia); [[Glucose-6-Phosphate Dehydrogenase|G6PD]]/PPP-derived NADPH feeds glutathione reductase, and G6PD inhibition (dimethyl fumarate, parthenolide) causes GSH depletion and eryptosis.
+- **Anti-eryptotic arms:** [[Nitric Oxide|NO]] → soluble guanylate cyclase → cGMP → [[cGMP-Dependent Protein Kinase I|cGKI]] (cGKI-null mice: enhanced eryptosis, anemia, splenomegaly); [[Erythropoietin]]; MSK1/2.
 
 ## Caspases are secondary, but caspase-8 is the switch
 
-Caspases ([[Caspase-3]], [[Caspase-8]]) are retained heritage of the erythroid lineage yet are non-essential for eryptosis: PS externalization frequently occurs without caspase-3 recruitment, and staurosporine (a classic apoptosis trigger) does not kill RBCs whereas the Ca2+ ionophore ionomycin does. Where caspases do act, they sit downstream of Fas: in aged RBCs [[Fas]] colocalizes with lipid-raft markers (Gαs, CD59), oxidative stress drives Fas translocation into rafts, DISC assembly and caspase-8/-3 activation (NAC blocks it, calpain does not). Arsenic and lead intoxication, and cigarette smoke extract via p38 MAPK, use the same route.
+Caspases ([[Caspase-3]], [[Caspase-8]]) are retained heritage of the erythroid lineage yet are non-essential for eryptosis: PS externalization frequently occurs without caspase-3 recruitment, and staurosporine (a classic apoptosis trigger) does not kill RBCs whereas the Ca2+ ionophore ionomycin does. Where caspases do act, they sit downstream of Fas: in aged RBCs [[Fas]] colocalizes with lipid-raft markers (Gαs, CD59), oxidative stress drives Fas translocation into rafts, DISC assembly and caspase-8/-3 activation (NAC blocks it, calpain does not). Arsenic and lead intoxication, and cigarette smoke extract via [[p38 MAPK]], use the same route.
 
 > [!important]
 > **Erythrocyte necroptosis runs through a RIPK1/FADD/caspase-8 necrosome in which caspase-8 activity prevents death** — the mirror image of nucleated cells. Eryptosis and [[Erythronecroptosis]] appear mutually exclusive, so caspase-8 selects the death modality. That RBCs integrate external death signals at all challenges the "RBCs are neither alive nor dead" view.
@@ -81,8 +81,9 @@ Accelerated eryptosis causes anemia (rapid clearance), adds coagulation risk (PS
 - [[Scramblase]] / [[Flippase]] / [[Phosphatidylserine]] — the eat-me signal machinery; PS is both the marker and the drug target
 - [[Calpain]] — Ca2+-dependent cytoskeleton protease producing blebbing and AE1 cleavage
 - [[Caspase-8]] / [[Caspase-3]] — retained from erythroid lineage; downstream of Fas/DISC and the fate switch vs necroptosis
-- [[Fas]] / [[FasL]] / [[Lipid Rafts]] — extrinsic eryptosis platform; ceramide drives Fas oligomerization in rafts
-- [[Ceramide]] / [[Sphingomyelin]] / [[Acid Sphingomyelinase]] — lipid-driven arm
+- [[Fas]] / [[FasL]] / [[FADD]] / [[Lipid Rafts]] — extrinsic eryptosis platform; ceramide drives Fas oligomerization in rafts, FADD assembles the DISC
+- [[CK1α]] / [[p38 MAPK]] / [[PKC]] / [[cGMP-Dependent Protein Kinase I|cGKI]] — the erythrocyte kinase set: CK1α, p38 MAPK and PKC are pro-eryptotic, cGKI anti-eryptotic
+- [[Ceramide]] / [[Sphingomyelin]] / [[Sphingomyelinase|SMases]] / [[Acid Sphingomyelinase]] — lipid-driven arm
 - [[Reactive Oxygen Species|ROS]] / [[Glutathione]] / [[Glucose-6-Phosphate Dehydrogenase]] / [[Glycolysis]] / [[AMPK]] — redox and energy arms
 - [[Efferocytosis]] / [[Macrophage]] / [[Kupffer Cell]] / [[Phagocytosis]] / [[CD47]] / [[Anion Exchanger 1]] — clearance machinery and its brakes
 - [[Hemolysis]] / [[Damage-Associated Molecular Patterns|DAMPs]] — the proinflammatory alternative outcome prevented by eryptosis

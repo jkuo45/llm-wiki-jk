@@ -32,6 +32,10 @@ PGE2 is a core [[SASP|Senescence-Associated Secretory Phenotype]] factor secrete
 - **Tumor promotion**: Enhances [[Angiogenesis]], [[Metastasis]], and cancer stem cell maintenance.
 - **Therapeutic target**: [[NSAIDs]] (e.g., [[aspirin]], [[celecoxib]]) inhibit COX-2 and reduce PGE2 levels; EP receptor antagonists are in development.
 
+## Role in Eryptosis
+
+PGE2 is a **pro-eryptotic** mediator in erythrocytes: its formation activates cation channels, raising cytosolic Ca2+ and driving [[Scramblase]]-mediated [[Phosphatidylserine]] exposure. Occupational lead exposure triggers eryptosis through a phospholipase-A2/PGE2 axis — PLA2 activity mediates the effect better than sphingomyelinase does — and in vitro lead acts independently of ROS, via Ca2+ and caspase-3. PGE2 is also one of the xenobiotics that slow *Plasmodium* parasitemia by provoking eryptosis of infected red cells.
+
 ---
 
 ## Documents
@@ -47,9 +51,11 @@ PGE2 is a core [[SASP|Senescence-Associated Secretory Phenotype]] factor secrete
 - [[Hepatocellular Carcinoma]]: PGE2 from senescent HSCs promotes HCC immune evasion
 - [[MDSC]]: Recruited by PGE2 to suppress antitumor immunity
 - [[NSAIDs]]: Pharmacological inhibitors of PGE2 synthesis
+- [[Eryptosis]]: Pro-eryptotic mediator — activates cation channels, raising Ca2+ and PS exposure
 
 ## Linking Summary
 
-- New links added: [[COX-2]], [[arachidonic acid]], [[Phospholipase A2]], [[MDSC]], [[macrophages]], [[regulatory T cell]], [[NSAIDs]], [[celecoxib]]
+- New links added: [[COX-2]], [[arachidonic acid]], [[Phospholipase A2]], [[MDSC]], [[macrophages]], [[regulatory T cell]], [[NSAIDs]], [[celecoxib]], [[Eryptosis]], [[Phosphatidylserine]], [[Scramblase]]
 - Suggested new entity notes to create: [[cyclooxygenase-2]] (if separate from COX-2 entry)
 - Strong connections to strengthen: [[Prostaglandin E2]] ↔ [[COX-2]] (synthesis), [[Prostaglandin E2]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]] (senescence)
+- 2026-10-23: added the erythrocyte/[[Eryptosis]] role (Ca2+ entry, PLA2/PGE2 axis in lead toxicity).

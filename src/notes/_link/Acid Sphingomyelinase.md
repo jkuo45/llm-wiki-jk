@@ -9,7 +9,7 @@ aliases: []
 ---
 # Acid Sphingomyelinase
 
-Acid sphingomyelinase (ASM; EC 3.1.4.12) is a zinc-dependent hydrolase that catalyzes the catabolism of sphingomyelin into ceramide and phosphocholine at acidic pH. Encoded by the *SMPD1* gene, ASM is primarily localized to the [[Lysosome]], where it plays a central role in [[Sphingolipid]] metabolism and membrane turnover. Beyond its catabolic function, ASM is a key regulator of ceramide-mediated cell signaling, influencing [[Apoptosis]], stress responses, and the biophysical properties of cellular membranes. Deficiency in ASM causes Niemann-Pick disease, a severe lysosomal storage disorder, and the enzyme has been implicated in the pathogenesis of [[Alzheimer's Disease]], [[Atherosclerosis]], and [[Depression]].
+Acid sphingomyelinase (ASM; EC 3.1.4.12) is a zinc-dependent hydrolase that catalyzes the catabolism of sphingomyelin into ceramide and phosphocholine at acidic pH. Encoded by the *SMPD1* gene, ASM is primarily localized to the [[Lysosome]], where it plays a central role in [[Sphingolipid]] metabolism and membrane turnover. It is the acid member of the [[Sphingomyelinase|sphingomyelinase]] family; the neutral forms (SMPD2/3) act at pH 7 in the Golgi, ER and mitochondria. Beyond its catabolic function, ASM is a key regulator of ceramide-mediated cell signaling, influencing [[Apoptosis]], stress responses, and the biophysical properties of cellular membranes. Deficiency in ASM causes Niemann-Pick disease, a severe lysosomal storage disorder, and the enzyme has been implicated in the pathogenesis of [[Alzheimer's Disease]], [[Atherosclerosis]], and [[Depression]].
 
 ## Structure & Domains
 
@@ -55,6 +55,7 @@ List of documents that mention this entity
 ## Connections
 
 - [[Lysosome]] — degradative organelle; autophagic flux endpoint; nutrient sensing hub
+- [[Sphingomyelinase]] — the enzyme family ASM belongs to (acid vs neutral forms)
 - [[Apoptosis]] — ASM-derived ceramide is a key mediator of programmed cell death
 - [[Alzheimer's Disease]] — ceramide accumulation linked to neurodegeneration
 - [[Atherosclerosis]] — ASM contributes to foam cell formation and plaque progression
@@ -63,6 +64,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Apoptosis]], [[Alzheimer's Disease]], [[Atherosclerosis]], [[Depression]], [[Sphingolipid]]
+- New links added: [[Apoptosis]], [[Alzheimer's Disease]], [[Atherosclerosis]], [[Depression]], [[Sphingolipid]], [[Sphingomyelinase]]
 - Suggested new entity notes to create: [[Niemann-Pick Disease]], [[Ceramide]], [[Sphingomyelin]], [[Olipudase alfa]], [[Saposin B]]
   - Strong connections to strengthen: Acid Sphingomyelinase ↔ [[Lysosome]], Acid Sphingomyelinase ↔ [[Apoptosis]]

@@ -3,7 +3,7 @@ title: Cancer notes
 aliases: []
 description: Index of wiki notes for cancer
 created: 2026-07-06
-updated: 2026-10-21
+updated: 2026-10-23
 ---
 # Cancer
 
@@ -321,7 +321,7 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[DR5]] | 06_Jul_2026 12:00 PM PDT | enzyme        | 6 | 0 | DR5 (Death Receptor 5), also known as TRAIL-R2 or TNFRSF10B, is |
 | [[Endoplasmic Reticulum Pathway]] | 06_Jul_2026 12:00 PM PDT | enzyme        | 6 | 0 | The Endoplasmic Reticulum (ER) Pathway is an initiation route for |
 | [[Esophageal Cancer]] | 06_Jul_2026 12:00 PM PDT | medical-condition| 6 | 0 | Esophageal cancer is a malignancy of the esophagus with approximately 600,000 new cases worldwide annually, ranking 9th among all cancers globally. The two main histological types are squamous cell... |
-| [[FADD]] | 06_Jul_2026 12:00 PM PDT | enzyme        | 6 | 0 | FADD (Fas-associated via death domain) is a critical adaptor protein |
+| [[FADD]] | 06_Jul_2026 12:00 PM PDT | protein       | 6 | 0 | FADD (Fas-associated via death domain) is a critical adaptor protein |
 | [[Gossypol]] | 06_Jul_2026 12:00 PM PDT | medical-condition| 6 | 0 | Gossypol is a natural polyphenolic compound derived from the cotton |
 | [[HSP90β]] | 07_Jul_2026 12:00 PM PDT | protein       | 6 | 0 | HSP90β is a cytosolic chaperone protein that acts as an Apaf-1 inhibitor, suppressing Apaf-1 oligomerization and Apoptosome formation in tyrosine kinase-induced leukemias. |
 | [[IBRDC2]] | 07_Jul_2026 12:00 PM PDT | enzyme        | 6 | 0 | IBRDC2 (also known as p53RFP or RNF144B) is an E3 ubiquitin ligase that ubiquitinates Bax on the mitochondrial outer membrane, regulating its stability and apoptotic activation. |

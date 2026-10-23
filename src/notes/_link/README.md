@@ -3,14 +3,14 @@ title: Shared Entities (_link)
 aliases: []
 description: index of cross-topic shared entities and documents in the _link directory
 created: 2026-08-16
-updated: 2026-10-21
+updated: 2026-10-23
 ---
 # Shared Entities (`_link`)
 
-Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **2028 entities** in a single flat index and **34 documents**.
+Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **2029 entities** in a single flat index and **34 documents**.
 
 > [!note]
-> `_link` index. Total entities: 2028 | Documents: 34
+> `_link` index. Total entities: 2029 | Documents: 34
 >
 ## Documents
 
@@ -379,6 +379,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[cGAS\|cGAS]] | Cyclic GMP-AMP synthase that senses cytosolic DNA to activate the cGAS-STING innate immune pathway, linking genome stress, senescence, and inflammaging. |
 | [[cGAS Inhibitors\|cGAS Inhibitors]] | Experimental small molecules that suppress cGAS enzymatic activity to dampen cGAS-STING–driven neuroinflammation. |
 | [[cGAS-STING Pathway\|cGAS-STING Pathway]] | The cGAS-STING complex is an innate immune sensor that detects cytoplasmic DNA and activates inflammatory interferon signalling, playing a crucial role in SASP activation and age-related inflammation. |
+| [[cGMP-Dependent Protein Kinase I]] | cGMP-dependent protein kinase type I (cGKI, PRKG1) is the principal cGMP effector in erythrocytes; its loss raises cytosolic Ca2+, collapses phosphatidylserine asymmetry and drives eryptosis, causing anemia and splenomegaly in knockout mice. |
 | [[Charcot-Marie-Tooth Disease Type 2A\|Charcot-Marie-Tooth Disease Type 2A]] | Autosomal dominant axonal neuropathy caused by MFN2 mutations impairing axonal mitochondrial transport. |
 | [[Checkpoint Inhibitor\|Checkpoint Inhibitor]] | A class of cancer immunotherapeutics (notably anti-CTLA-4, anti-PD-1, anti-PD-L1 agents) that block inhibitory immune-checkpoint receptors to reinvigorate T-cell anti-tumor immunity. |
 | [[Chemokines\|Chemokines]] | Chemokines are a family of small chemotactic cytokines that direct immune cell migration and are key components of the senescence-associated secretory phenotype (SASP). |
@@ -1709,7 +1710,6 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[RNF168\|RNF168]] | A RING finger E3 ubiquitin ligase that acts second in the RNF8-RNF168 cascade at DNA double-strand breaks, monoubiquitinating histone H2A/H2AX at K13-K15 and extending K63-linked chains to generate the binding surface that recruits 53BP1 and BRCA1. |
 | [[RNF185\|RNF185]] | Mitochondrial ubiquitin E3 ligase that regulates autophagy through interaction with BNIP1, using K63-linked ubiquitin chains to recruit p62 for mitophagy. |
 | [[ROCK]] | ROCK (Rho-associated coiled-coil containing protein kinase) comprises ROCK1 and ROCK2, the serine/threonine kinases that act as the principal effectors of RhoA, raising actomyosin contractility, promoting focal-adhesion and stress-fibre turnover, and driving cytokinesis. |
-| [[ROS\|ROS]] | Reactive Oxygen Species (ROS) are chemically reactive molecules containing oxygen, including Superoxide Radicals, Hydrogen Peroxide, Hydroxyl Radicals, and Singlet Oxygen. They serve dual roles... |
 | [[Rotenone\|Rotenone]] | Rotenone is a naturally occurring isoflavonoid pesticide and classic Complex I inhibitor used to model Parkinson's disease through mitochondrial dysfunction and oxidative stress. |
 | [[RRM1\|RRM1]] | RRM1 encodes the large (α) catalytic subunit of human ribonucleotide reductase (RNR); its homodimer carries the active site where ribonucleoside diphosphates are reduced to deoxyribonucleoside diphosphates, plus the allosteric specificity/activity sites and the redox-active disulfide re-reduced each cycle by thioredoxin-1 or glutaredoxin. RRM1 overexpression predicts chemoresistance, notably to gemcitabine. |
 | [[RRM2\|RRM2]] | RRM2 encodes the small (β) subunit of human ribonucleotide reductase that houses the diferric-tyrosyl radical cofactor driving catalysis; expression is S-phase-restricted via E2F, and the subunit is the direct target of hydroxyurea and triapine, which destroy the radical (or its iron center) to collapse de novo dNTP synthesis. |
@@ -1817,6 +1817,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Spermine\|Spermine]] | The highest polyamine in the putrescine-spermidine-spermine pathway, a tetravalent polycation that binds nucleic acids, scavenges free radicals, and regulates chromatin, translation and innate immune sensing. |
 | [[Sphingolipid Metabolism\|Sphingolipid Metabolism]] | The network of pathways synthesizing and degrading sphingolipids (ceramide, sphingomyelin, sphingosine, sphingosine-1-phosphate), central to cell survival, stress signaling, and — newly — ferroptosis sensitivity in senescence. |
 | [[Sphingomyelin\|Sphingomyelin]] | A phosphosphingolipid synthesized from ceramide; a structural component of membranes and a reservoir for ceramide generation via sphingomyelinases. |
+| [[Sphingomyelinase]] | Sphingomyelinases are the sphingomyelin-hydrolyzing enzymes that generate ceramide; the acid form acts in lysosomes and secretory vesicles, the neutral forms (SMPD2/3) act at pH 7 in Golgi, ER and mitochondria, and both feed ceramide-dependent death signalling. |
 | [[Sphingosine\|Sphingosine]] | An amino alcohol backbone of sphingolipids; produced by acid ceramidase-mediated cleavage of ceramide and phosphorylated to sphingosine-1-phosphate, a pro-survival signaling lipid. |
 | [[Sphingosine-1-phosphate\|Sphingosine-1-phosphate]] | A bioactive sphingolipid signaling lipid phosphorylated from sphingosine; generally pro-survival, pro-proliferative, and anti-apoptotic, counterbalancing ceramide. |
 | [[Spinal Cord Injury (SCI)\|Spinal Cord Injury (SCI)]] | Damage to the spinal cord from trauma or ischemia causing loss of motor, sensory, and autonomic function below the lesion; associated with muscle atrophy and neuropathic sequelae. |

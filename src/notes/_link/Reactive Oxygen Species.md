@@ -4,10 +4,10 @@ description: Reactive Oxygen Species (ROS) are highly reactive molecules contain
   oxygen, formed as natural byproducts of oxygen metabolism. They play dual roles
   as signaling molecules and agents of oxida...
 created: 2026-05-31
-updated: 2026-05-31
+updated: 2026-10-23
 tags:
   - chemical-compound
-aliases: []
+aliases: [ROS, Reactive oxygen species, Reactive oxygen intermediates]
 ---
 
 # Reactive Oxygen Species
@@ -43,6 +43,10 @@ During the early stages of [[Cellular Reprogramming]] via viral transduction of 
 - Enhance the differentiation of [[Embryonic Stem Cells]], thereby antagonizing the induction of [[Pluripotency]].
 ## Mitigation Strategies
 The use of ROS scavengers (antioxidants like Vitamin C) and hypoxic growth conditions have been shown to improve the efficiency of inducing pluripotency by buffering ROS-induced damage and preventing premature differentiation.
+
+## Necroptosis regulation
+
+ROS promote [[Necroptosis]] by inducing [[RIPK1]] autophosphorylation in septic cardiomyopathy and viral myocarditis — a signalling role rather than a purely damaging one, mirroring the hormetic pattern above.
 
 #
 
@@ -98,6 +102,12 @@ List of documents that mention this entity
   - [[_document_ - mitohormesis, heart rate variability|Mitohormesis, HRV & Recovery Tracking]]
     - The transient acute ROS spike from HIIT is the trigger that activates AMPK/PGC-1α/SIRT1/NRF2 downstream pathways.
 
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - The mechanism of OIS involves DNA damage that may be the result of hyper-replication and replication-fork collapse, with increased intracellular ROS as a driver.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease]]
+    - SIRT1/SIRT6 inhibition of TNFα-induced inflammation in vascular adventitial fibroblasts proceeds through ROS and Akt signaling.
+
 ## Connections
 - [[Oxidative Stress]] ↔ Condition resulting from an imbalance between ROS production and antioxidant defenses.
 - [[Adrenochrome]] ↔ Formed via ROS-mediated oxidation of adrenaline.
@@ -107,8 +117,11 @@ List of documents that mention this entity
 - [[Innate Immunity]]: Viral-induced innate immune responses are a primary source of ROS during reprogramming.
 - [[DNA Damage]]: A direct consequence of elevated ROS levels.
 - [[p53]]: Activated as a response to ROS-induced stress and DNA damage.
+- [[RIPK1]] — ROS drive RIPK1 autophosphorylation, promoting [[Necroptosis]] in septic cardiomyopathy and viral myocarditis.
+- [[Superoxide Radicals]] / [[Hydrogen Peroxide]] / [[Hydroxyl Radicals]] / [[Singlet Oxygen]] — the four canonical ROS species.
 
 ## Linking Summary
-- New links added: [[Reactive Oxygen Species]], [[Superoxide anion]], [[Hydrogen Peroxide]], [[Hydroxyl radical]], [[MAO]], [[Adrenochrome]], [[Oxidation]], [[Epinephrine]], [[Redox Cycling]], [[Neutrophils]], [[Myeloperoxidase]], [[Smoking]], [[Oxidative Stress]], [[Inflammation]], [[Aminochromes]], [[Superoxide Radicals]], [[Hydroxyl Radicals]], [[Apoptosis]], [[Immunity]], [[Singlet Oxygen]], [[Cellular Reprogramming]], [[OSKM]], [[DNA Damage]], [[p53]], [[Senescence]], [[Embryonic Stem Cells]], [[Pluripotency]], [[Innate Immunity]]
+- New links added: [[Reactive Oxygen Species]], [[Superoxide anion]], [[Hydrogen Peroxide]], [[Hydroxyl radical]], [[MAO]], [[Adrenochrome]], [[Oxidation]], [[Epinephrine]], [[Redox Cycling]], [[Neutrophils]], [[Myeloperoxidase]], [[Smoking]], [[Oxidative Stress]], [[Inflammation]], [[Aminochromes]], [[Superoxide Radicals]], [[Hydroxyl Radicals]], [[Apoptosis]], [[Immunity]], [[Singlet Oxygen]], [[Cellular Reprogramming]], [[OSKM]], [[DNA Damage]], [[p53]], [[Senescence]], [[Embryonic Stem Cells]], [[Pluripotency]], [[Innate Immunity]], [[Necroptosis]], [[RIPK1]]
 - Suggested new entity notes to create: [[Immunity]], [[Signaling Molecules]]
   - Strong connections to strengthen: Reactive Oxygen Species ↔ Oxidative Stress
+- 2026-10-23: merged the duplicate `ROS.md` stub into this canonical note (AGENTS §7 — one resolvable copy per entity); its necroptosis/RIPK1 content and two document references were carried over.

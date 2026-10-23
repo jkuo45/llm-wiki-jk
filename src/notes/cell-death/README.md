@@ -29,7 +29,7 @@ Core death machinery lives here per §7 (topic home outranks `_link/`; all notes
 
 Modalities: [[Regulated Cell Death]], [[Apoptosis]], [[Apoptotic Bodies]], [[Apoptosome]], [[Necroptosis]], [[necrosome]], [[Necrosis]], [[Secondary Necrosis]], [[Parthanatos]], [[Ferroptosis]], [[Pyroptosis]], [[Autophagic Cell Death]].
 
-Erythrocyte death modalities: [[Eryptosis]] (Ca²⁺-driven, PS-exposing, non-lytic; the only RCD of anucleate cells) and [[Erythronecroptosis]] (RIPK1/RIPK3/MLKL-dependent lytic death; caspase-8 switches between the two). Supporting notes in `_link/`: [[Gardos Channel]], [[Piezo1]], [[Efferocytosis]], [[Erythropoiesis]], [[Anion Exchanger 1]], [[Erythrocytes]].
+Erythrocyte death modalities: [[Eryptosis]] (Ca²⁺-driven, PS-exposing, non-lytic; the only RCD of anucleate cells) and [[Erythronecroptosis]] (RIPK1/RIPK3/MLKL-dependent lytic death; caspase-8 switches between the two). Supporting notes in `_link/`: [[Gardos Channel]], [[Piezo1]], [[Efferocytosis]], [[Erythropoiesis]], [[Anion Exchanger 1]], [[Erythrocytes]]. Erythrocyte kinase set: [[CK1α]] and [[p38 MAPK]] (pro-eryptotic), [[PKC]] (pro-eryptotic), [[cGMP-Dependent Protein Kinase I|cGKI]] (anti-eryptotic).
 
 Caspases: [[Caspases]], [[Caspase-2]], [[Caspase-3]], [[Caspase-4]], [[Caspase-5]], [[Caspase-6]], [[Caspase-7]], [[Caspase-8]], [[Caspase-8-c-FLIP Rheostat]], [[Caspase-9]], [[Caspase-10]], [[Caspase-11]], [[Caspase-12]], [[Executioner Caspase]], [[Inhibitor of Apoptosis Proteins]], [[cIAPs]].
 

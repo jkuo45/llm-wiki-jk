@@ -28,6 +28,11 @@ CK1 isoforms are ubiquitously expressed and essential for development. Their ant
 
 CK1 inhibitors (e.g., D4476, PF-4800567) are explored as sensitizers that restore Bid cleavage and mitochondrial apoptosis in resistant cancers, and as modulators of WNT signaling. Because CK1 phosphorylates many substrates, selectivity across isoforms is a key drug-design challenge. Biomarker studies link CK1δ/ε overexpression to poor prognosis in several carcinomas, supporting its evaluation as a therapeutic node where inhibiting survival phosphorylation could enhance [[Chemotherapy]] or immunotherapy efficacy.
 
+## Isoform notes
+
+- [[CK1α]] — the α isoform (CSNK1A1) is the erythrocyte-expressed member and acts **pro-eryptotic** by modulating cytosolic Ca2+; its own note covers the D4476/pyrvinium-pamoate pharmacology.
+- [[CSNK1G2]] — the γ2 isoform; binds [[RIPK3]] to restrain necroptosis.
+
 ## Documents
 
 List of documents that mention this entity
@@ -39,6 +44,8 @@ List of documents that mention this entity
 ## Connections
 
 - [[Bid]]: Direct CK1 substrate phosphorylated to block caspase-8 cleavage.
+- [[CK1α]]: The α isoform; pro-eryptotic kinase in erythrocytes.
+- [[CSNK1G2]]: The γ2 isoform; negative regulator of RIPK3-driven necroptosis.
 - [[Caspase-8]]: Cleaves Bid; opposed by CK1 phosphorylation.
 - [[Intrinsic Pathway]]: Mitochondrial amplification dampened by CK1.
 - [[BAX]] / [[BAK]]: Downstream effectors of tBid blocked by CK1.
@@ -49,4 +56,5 @@ List of documents that mention this entity
 
 - New links added: [[Bid]], [[Caspase-8]], [[Intrinsic Pathway]], [[BAX]], [[BAK]], [[β-catenin]], [[Apoptosis]]
 - Suggested new entity notes to create: [[Bid]], [[β-catenin]]
+- 2026-10-23: added isoform cross-links to [[CK1α]] and [[CSNK1G2]].
 - Strong connections to strengthen: [[CK1]] ↔ [[Bid]], [[CK1]] ↔ [[Caspase-8]]
