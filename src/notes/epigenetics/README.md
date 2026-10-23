@@ -3,7 +3,7 @@ title: Epigenetics
 aliases: []
 description: index of entities and documents in this directory
 created: 2026-07-04
-updated: 2026-10-21
+updated: 2026-10-23
 ---
 # Epigenetics
 
@@ -39,6 +39,7 @@ updated: 2026-10-21
 | [[Biological Age]] | concept | An epigenetic clock-derived estimate of biological aging based on DNA methylation at defined CpG sites, used as a biomarker of aging and mortality risk. |
 | [[Genome stability]] | concept | The maintenance of genetic integrity through faithful DNA replication, repair, and telomere protection, supported by sirtuin-dependent deacetylation of histones and suppression of retrotransposons. |
 | [[single nucleotide variation]] | concept | A variation at a single nucleotide position in the genome, the most common type of genetic variation, including functional variants such as COMT Val158Met used in pharmacogenetics. |
+| [[Bromodomain]] | epigenetics | Bromodomains are ~110-residue acetyl-lysine reader modules that translate histone acetylation into recruitment of transcriptional machinery, forming the reader tier of the writer-reader-eraser system alongside BET family proteins such as BRD2/3/4. |
 
 ### Chromatin, Histones & Nucleosome Remodeling
 
@@ -224,6 +225,7 @@ updated: 2026-10-21
 | [[NRL]] | protein | NRL (neural retina leucine zipper) is a Maf-family basic leucine zipper transcription factor that determines rod photoreceptor cell fate in the mammalian retina and drives expression of most rod-specific genes including rhodopsin. |
 | [[Enhancer]] | gene-regulation | Cis-regulatory DNA element that raises transcription of a target gene from variable distance and orientation, marked by open chromatin, H3K4me1, and (when active) H3K27ac. |
 | [[CDK9]] | kinase | Cyclin-dependent kinase 9, the catalytic subunit of P-TEFb that phosphorylates RNA polymerase II CTD Ser2 and releases promoter-proximal pausing, and a transcriptional vulnerability in cancer. |
+| [[Coactivator]] | protein | Transcriptional coactivators such as p300/CBP, PGC-1alpha and the SRC/p160 family translate signalling inputs into chromatin opening and transcriptional output, and are held in check by NAD+-dependent sirtuins and HDACs. |
 
 ### DNA Damage, Repair & Genomic Stability
 

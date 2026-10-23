@@ -3,7 +3,7 @@ title: Autophagy
 aliases: []
 description: index of entities and documents in this directory
 created: 2026-07-04
-updated: 2026-10-21
+updated: 2026-10-23
 ---
 # Autophagy
 
@@ -70,6 +70,7 @@ updated: 2026-10-21
 | [[LAMP2]] | protein | LAMP2 is a heavily glycosylated lysosomal membrane glycoprotein with three splice isoforms (LAMP-2A, -2B, -2C); LAMP-2A is the lysosomal receptor for chaperone-mediated autophagy and LAMP-2B is required for autophagosome maturation. |
 | [[Atg3]] | protein | Atg3 (Autophagy-related 3) is the E2 conjugating enzyme that transfers Atg8/LC3-family proteins from Atg7 to phosphatidylethanolamine, a lipid conjugation step unique to autophagosome membrane biogenesis. |
 | [[ATG Genes]] | gene | ATG genes encode the core autophagy machinery first identified in yeast and named Apg/Nir/Atg; the roughly 35 human ATG genes encode the ULK1, class III PI3K and ubiquitin-like conjugation systems that build, close and deliver autophagosomes. |
+| [[Nucleophagy]] | process | Selective autophagy of nuclear components, in which outer-membrane receptors such as NIX/BNIP3 and FUNDC1 deliver portions of the nuclear envelope and nucleoplasm to autophagosomes for lysosomal degradation. |
 
 ### mTORC1 Complex & Lysosomal Nutrient Sensing
 

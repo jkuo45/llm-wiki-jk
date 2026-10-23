@@ -3,7 +3,7 @@ title: Oxidative Stress
 aliases: []
 description: index of entities and documents in this directory
 created: 2026-07-04
-updated: 2026-10-21
+updated: 2026-10-23
 ---
 # Oxidative Stress
 
@@ -45,6 +45,7 @@ updated: 2026-10-21
 | [[nNOS]] | enzyme | nNOS is the neuronal nitric oxide synthase isoform (NOS1), a calcium/calmodulin- dependent enzyme producing nitric oxide for neurotransmission, synaptic plasticity, and cerebral autoregulation, and — in excess — a mediator of excitotoxic neuronal death. |
 | [[p40phox]] | protein | p40phox (NCF4) is the fourth cytosolic subunit of the NOX2 NADPH oxidase, involved in complex assembly and autoregulation through its PX and SH3 domains; NCF4 mutations cause a mild atypical autosomal chronic granulomatous disease. |
 | [[p67phox]] | protein | p67phox (NCF2) is the activator subunit of the NOX2 NADPH oxidase complex; it organizes and stabilizes cytosolic subunit assembly on the membrane, and NCF2 mutations cause autosomal recessive chronic granulomatous disease. |
+| [[PRDX1]] | protein | PRDX1 (peroxiredoxin-1) is a thioredoxin-dependent peroxidase with a catalytic cysteine that acts as a fast H2O2 scavenger, a redox sensor, and a holdase chaperone, and it constrains ferroptosis by limiting lipid hydroperoxide accumulation. |
 
 ### Lipid Peroxidation & Lipid-Derived Damage
 

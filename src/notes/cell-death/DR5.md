@@ -23,7 +23,8 @@ DR5 is a type I transmembrane protein with extracellular cysteine-rich domains a
 - **Extrinsic apoptosis:** [[Caspase-8]] activation at the DISC drives [[Caspase-3]]/[[Caspase-7]] execution and, via [[Bid]], the mitochondrial amplification loop.
 - **Necroptosis:** with [[Caspase-8]] inhibited (e.g. by c-FLIP or viral FLIP), the receptor complex switches to the RIPK1/RIPK3 [[necrosome]], whose RIPK3-mediated [[MLKL]] phosphorylation permeabilises the plasma membrane. DR5-driven necroptosis is a well-documented route in hepatocyte and tumour-cell models.
 - **Decoy competition:** DR5 shares TRAIL with the decoy receptors DcR1/DcR2, which lack functional death domains and tune sensitivity on normal cells.
-- **Therapeutics:** agonistic anti-DR5 antibodies (e.g. conatumumab) were tested in combination with chemotherapy and IAP antagonists (see [[Smac mimetics]]) to overcome tumour resistance.
+- **Therapeutics:** agonistic anti-DR5 antibodies (e.g. conatumumab, lexatumumab) were tested in combination with chemotherapy and IAP antagonists (see [[Smac mimetics]]) to overcome tumour resistance.
+- **Regulation:** DR5 surface expression can be upregulated by cellular stress and DNA-damaging agents, often downstream of [[p53]].
 
 ## Erythrocytes
 
