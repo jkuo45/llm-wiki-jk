@@ -65,12 +65,17 @@ install -d -o "$SERVICE_USER" -g "$SERVICE_USER" \
 chown -R "$SERVICE_USER:$SERVICE_USER" "$WIKI_ROOT"
 
 # --- opencode ----------------------------------------------------------------
-if ! command -v opencode >/dev/null 2>&1; then
-  log "installing opencode"
+# The adapter talks the opencode v2 server API, so anything older than v2 is
+# upgraded in place. The curl installer drops the binary in ~/.opencode/bin.
+if ! command -v opencode >/dev/null 2>&1 \
+   || ! opencode --version 2>/dev/null | grep -qE 'v2\.[0-9]'; then
+  log "installing opencode v2"
   curl -fsSL https://opencode.ai/install | bash
-  # The installer drops it in ~/.opencode/bin; expose it system-wide.
-  if [[ -x "$HOME/.opencode/bin/opencode" && ! -e /usr/local/bin/opencode ]]; then
-    ln -s "$HOME/.opencode/bin/opencode" /usr/local/bin/opencode
+  # The installer drops it in ~/.opencode/bin; expose it system-wide. Copy it
+  # rather than symlinking: under sudo $HOME is /root, which the service user
+  # cannot traverse.
+  if [[ -x "$HOME/.opencode/bin/opencode" ]]; then
+    install -m 0755 "$HOME/.opencode/bin/opencode" /usr/local/bin/opencode
   fi
 fi
 command -v opencode >/dev/null || die "opencode not on PATH after install"
@@ -223,7 +228,7 @@ Next:
        sudo systemctl restart opencode-serve
   2. Confirm the prompt agent is loaded and locked down:
        PW=\$(grep OPENCODE_SERVER_PASSWORD ${ENV_FILE} | cut -d= -f2)
-       curl -s -u "opencode:\$PW" http://127.0.0.1:4096/agent | python3 -m json.tool
+       curl -s -u "opencode:\$PW" http://127.0.0.1:4096/api/agent | python3 -m json.tool
   3. Set up the reverse proxy — see deploy/README.md, section "Reverse proxy (nginx)".
 
 EOF
