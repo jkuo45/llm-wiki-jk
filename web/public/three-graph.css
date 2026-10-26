@@ -190,10 +190,11 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
 #wiki-tooltip.visible { opacity: 1; }
 #wiki-tooltip b { color: var(--link-bright); display: block; margin-bottom: 4px; }
 
-/* Wiki Modal */
+/* Wiki Modal — must stack above the chat panel (600), the reader (600) and
+   the node detail sheet (620) so entity clicks inside them aren't buried. */
 #wiki-modal-overlay {
   position: fixed; top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(0,0,0,0.6); z-index: 500;
+  background: rgba(0,0,0,0.6); z-index: 640;
   display: none; align-items: center; justify-content: center;
   backdrop-filter: blur(4px);
 }
