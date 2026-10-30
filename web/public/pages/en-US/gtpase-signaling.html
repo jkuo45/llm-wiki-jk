@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>GTPase Signaling — the cell's switchboard, from Ras to Rab</title>
-<meta name="description" content="Visual guide to GTPase signaling: the GDP/GTP nucleotide cycle (GEF, GAP, GDI), GTPase fold architecture (P-loop, switch I/II, CAAX prenylation), the five small-GTPase families and their effectors, and four worked cases — Rho-family polarity control, the Rab5-to-Rab7 conversion that gates autophagic flux, the TSC/Rheb/mTORC1 brake, and NADPH-oxidase assembly. Includes family-size, hydrolysis-kinetics and KRAS-mutation charts. Based on the llm-wiki-jk knowledge base.">
+<title>GTPase Signaling — the GDP/GTP switch and its effectors</title>
+<meta name="description" content="Visual guide to GTPase signaling: the GDP/GTP nucleotide cycle (GEF, GAP, GDI), GTPase fold architecture (P-loop, switch I/II, CAAX prenylation), the five small-GTPase families and their effectors, and four worked cases — Rho-family control of cell polarity, the Rab5-to-Rab7 conversion that gates autophagic flux, TSC2 GAP regulation of Rheb-mTORC1, and NADPH oxidase assembly. Includes family-size, hydrolysis-kinetics and KRAS-mutation charts. Based on the llm-wiki-jk knowledge base.">
 <link rel="canonical" href="https://graph.johnnykuo.com/pages/en-US/gtpase-signaling.html">
 <link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/gtpase-signaling.html">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#9881;</text></svg>">
@@ -51,18 +51,8 @@
 <header>
   <div class="wrap">
     <div class="kicker">Signaling · Molecular Switches · 2026</div>
-    <h1>GTPase signaling — the cell's switchboard</h1>
-    <p class="lead" style="margin-top:14px;">
-      <b style="color:var(--text)">GTPases</b> are the cell's fast, reversible switches. A small GTPase is
-      <b style="color:var(--text)">on</b> when it holds GTP and <b style="color:var(--text)">off</b> when it holds
-      GDP; the energy of hydrolysis is what lets one molecule recruit many effectors before it shuts off again.
-      The same architecture is reused for growth signaling ([[RAS]] → ERK), actin organisation
-      ([[RhoA]], [[Rac1]], [[Cdc42]]), membrane identity ([[Rab5]] → [[Rab7]]), coat assembly ([[Arf1]]), and
-      the physical scission of membranes ([[Dynamin]]). Because a switch that cannot be turned off is a
-      disease — oncogenic Ras, a missing brake ([[GAP]]), a GTPase that never reaches its membrane — the
-      GTPase cycle sits upstream of most of what this wiki cares about: autophagy flux, ROS, and the
-      cytoskeleton that senescence and stress leave behind.
-    </p>
+    <h1>GTPase signaling — the GDP/GTP switch and its effectors</h1>
+    <p class="lead" style="margin-top:14px;"> <b style="color:var(--text)">GTPases</b> are reversible molecular switches. A small GTPase is active when it holds GTP and inactive when it holds GDP; GTP hydrolysis terminates the active state, and a single active GTPase can recruit many effector molecules before it is switched off. The same regulatory architecture underlies growth signaling ([[RAS]] → ERK), actin organisation ([[RhoA]], [[Rac1]], [[Cdc42]]), membrane compartment identity ([[Rab5]] → [[Rab7]]), coat assembly ([[Arf1]]), and membrane scission ([[Dynamin]]). Loss of control over this cycle is a recurrent mechanism of disease — activating Ras mutations, loss of GAP ([[GAP]]) activity, or failure of membrane targeting — which places the GTPase cycle upstream of several processes in this knowledge base: autophagic flux, reactive oxygen species, and the cytoskeletal changes that accompany senescence and stress. </p>
     <div class="meta">
       Sources: llm-wiki-jk vault notes
       <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/GTPase.md" target="_blank" rel="noopener noreferrer"><code>src/notes/_link/GTPase.md</code></a>,
@@ -78,7 +68,7 @@
       <a class="badge amber" href="#families">Ras &#183; Rho &#183; Rab &#183; Arf &#183; Dynamin</a>
       <a class="badge" href="#rho">RhoA vs Rac1 vs Cdc42</a>
       <a class="badge teal" href="#rab">Rab5 &#8594; Rab7 &#183; autophagic flux</a>
-      <a class="badge" href="#rheb">TSC / Rheb / mTORC1 brake</a>
+      <a class="badge" href="#rheb">TSC2 GAP · Rheb · mTORC1</a>
       <a class="badge red" href="#nox">Rac1 &#183; Cdc42 &#8594; NOX &#8594; ROS</a>
       <a class="badge red" href="#disease">oncogenic RAS &#183; Mendelian disease</a>
     </div>
@@ -88,54 +78,27 @@
 <!-- ============ OVERVIEW ============ -->
 <section id="overview">
   <div class="wrap">
-    <h2>One cycle, dozens of families</h2>
-    <p class="lead">
-      Almost every fast decision a cell makes is made by a nucleotide switch. The biochemistry is
-      stereotyped: a GEF loads GTP, the GTP-bound protein presents a new binding surface, a GAP
-      hydrolyses the γ-phosphate, and the protein returns to its GDP-bound, effector-incompetent
-      state. What changes between families is the <i>effector cohort</i> — what the exposed surface
-      recruits — and the <i>compartment</i> in which the switch is allowed to happen.
-    </p>
+    <h2>One cycle, multiple families</h2>
+    <p class="lead"> Fast cellular responses are commonly mediated by nucleotide switches. The mechanism is stereotyped: a GEF catalyses GDP release and GTP loading, the GTP-bound protein presents an effector-binding surface, and a GAP catalyses hydrolysis of the γ-phosphate, returning the protein to the inactive GDP-bound state. What differs between families is the set of effectors recruited by the active surface and the cellular compartment in which the cycle operates. </p>
 
     <div class="grid g3" style="margin-top:20px;">
       <div class="card">
         <h3 style="color:var(--teal);">Fast, reversible, amplifiable</h3>
-        <p class="kv">
-          A single GTP-bound GTPase can recruit dozens of effector molecules before hydrolysis
-          shuts it down, so one activated receptor can produce a large, graded output. Switching
-          costs seconds, not hours — which is why GTPases carry the fast layer of signaling and
-          kinases carry the slow one.
-        </p>
+        <p class="kv"> One GTP-bound GTPase can recruit dozens of effector molecules before hydrolysis terminates its activity, so activation of a single receptor can produce a large, graded output. The switch operates on a time scale of seconds rather than hours, which is why GTPases mediate rapid responses and kinase-mediated responses are typically slower and more persistent. </p>
       </div>
       <div class="card">
-        <h3 style="color:var(--amber);">Spatial confinement is part of the signal</h3>
-        <p class="kv">
-          A lipid anchor (CAAX prenylation) and an extractant (GDI) tie "on/off" to "where". Rho-family
-          GTPases spend most of their life GDP-bound and cytosolic, held by RhoGDI; only a local GEF at
-          the right membrane loads them. A signal that is correct in bulk but wrong in place is a
-          disease, not a signal.
-        </p>
+        <h3 style="color:var(--amber);">Spatial confinement determines the output</h3>
+        <p class="kv"> A lipid anchor (CAAX prenylation) and an extractant (GDI) couple nucleotide state to subcellular location. Rho-family GTPases are predominantly GDP-bound and cytosolic, sequestered by RhoGDI, and are loaded only by GEFs present at the relevant membrane. The same GTPase can therefore generate different outputs depending on where in the cell it is activated. </p>
       </div>
       <div class="card">
-        <h3 style="color:var(--red);">The brake is as important as the accelerator</h3>
-        <p class="kv">
-          Cells express far more inactive than active GTPase at any moment. A GAP is a brake, not an
-          off-switch on a running motor: losing one does not block signaling, it makes it
-          <i>persist</i>. That is why the best-known tumour suppressors in this family — NF1 for Ras,
-          TSC2 for Rheb — are GAPs.
-        </p>
+        <h3 style="color:var(--red);">GAP activity limits signal duration</h3>
+        <p class="kv"> At any moment the abundance of inactive GTPase greatly exceeds that of active GTPase. Because a GAP catalyses the reaction that terminates the active state, loss of GAP activity extends the duration of signaling rather than abolishing it. This is why several well-characterised tumour suppressors in this family are GAPs: NF1 for Ras and TSC2 for Rheb. </p>
       </div>
     </div>
 
     <div class="callout teal" style="margin-top:22px;">
       <span class="callout-tag">Why this page exists</span>
-      <p>
-        The vault already contains the individual nodes — [[GTPase]], [[GAP]], [[Rac1]], [[RhoA]],
-        [[Cdc42]], [[Rab5]], [[Rab7]], [[Arf1]], [[Dynamin]], [[RAS]], [[KRAS]]. What was missing was the
-        connective tissue: which family does what, how the cycle generates the output, and where the
-        switch ties into this wiki's three themes — <b>autophagy</b> (the [[Rab7]] fusion step),
-        <b>oxidative stress</b> (the NOX complex), and <b>nutrient sensing</b> (the Rheb–mTORC1 brake).
-      </p>
+      <p> The knowledge base already contains the individual entities — [[GTPase]], [[GAP]], [[Rac1]], [[RhoA]], [[Cdc42]], [[Rab5]], [[Rab7]], [[Arf1]], [[Dynamin]], [[RAS]], [[KRAS]]. This page adds the framework that links them: which family performs which function, how nucleotide exchange generates the downstream output, and how the cycle connects to the three recurring themes of this knowledge base — <b>autophagy</b> (the [[Rab7]]-dependent fusion step), <b>oxidative stress</b> (the NOX complex), and <b>nutrient sensing</b> (the Rheb–mTORC1 pathway). </p>
     </div>
   </div>
 </section>
@@ -144,10 +107,7 @@
 <section id="cycle">
   <div class="wrap">
     <h2>The nucleotide cycle</h2>
-    <p class="lead">
-      A GTPase is a P-loop NTPase that reads the state of the guanine nucleotide it carries.
-      Three classes of partner set the state, and one structural feature reads it.
-    </p>
+    <p class="lead"> A GTPase is a P-loop NTPase whose activity depends on the guanine nucleotide it carries. Three classes of regulatory protein set the nucleotide state, and one structural feature — the switch regions — reports it. </p>
 
     <figure class="fig">
       <div class="fig-canvas">
@@ -220,25 +180,11 @@
           <path d="M 748 250 L 784 250" fill="none" stroke="var(--teal)" stroke-width="2.5" marker-end="url(#mTeal)"/>
         </svg>
       </div>
-      <figcaption class="fig-cap">
-        <b>Figure 1 — the switch.</b> The GEF/GAP cycle is the whole mechanism; everything else in this
-        page is a description of what the exposed switch surface does and where the cycle is allowed to
-        run. GEFs turn the switch on by catalysing GDP release; GAPs turn it off by supplying a catalytic
-        arginine ("arginine finger") that stabilises the transition state of hydrolysis, typically
-        accelerating the reaction by 10<sup>2</sup>–10<sup>3</sup>-fold. The GDI arm is what makes the
-        cycle spatially restricted: the inactive, GDP-bound protein is extracted from the membrane and
-        held in the cytosol until a local GEF releases it.
-      </figcaption>
+      <figcaption class="fig-cap"> <b>Figure 1 — the nucleotide cycle.</b> GEFs activate the protein by catalysing GDP release; GAPs inactivate it by supplying a catalytic arginine ("arginine finger") that stabilises the transition state of hydrolysis, typically accelerating the reaction by 10<sup>2</sup>–10<sup>3</sup>-fold. GDIs restrict the cycle spatially by extracting the inactive, GDP-bound protein from the membrane and retaining it in the cytosol until a GEF at the relevant membrane releases it. </figcaption>
     </figure>
 
-    <h3 style="margin-top:26px;">How fast does the switch turn off?</h3>
-    <p>
-      Because the brake is a catalyst, the intrinsic hydrolysis rate of the GTPase sets the ceiling on
-      how long a signal can persist without a GAP. Ras-family and Arf-family GTPases are intrinsically
-      slow — a Ras-GTP molecule survives for minutes to hours — which is precisely why they need GAPs to
-      be switch-like at all. Rab GTPases and dynamin are intrinsically far faster, so they can be
-      regulated by localisation alone.
-    </p>
+    <h3 style="margin-top:26px;">How quickly is the active state terminated?</h3>
+    <p> Because GAPs act catalytically, the intrinsic hydrolysis rate sets the maximum duration of the active state in the absence of a GAP. Ras-family and Arf-family GTPases hydrolyse GTP slowly, so that Ras-GTP persists for minutes to hours; their activity is therefore terminated predominantly by GAPs. Rab GTPases and dynamin hydrolyse GTP considerably faster and can be regulated principally by subcellular localisation. </p>
 
     <figure class="fig">
       <div class="fig-canvas">
@@ -295,25 +241,12 @@
         <text x="902.1" y="380" class="s-mute" font-size="11" text-anchor="middle">assembled collar</text>
         </svg>
       </div>
-      <figcaption class="fig-cap">
-        <b>Figure 2 — representative turnover rates.</b> Order-of-magnitude values for GTP
-        hydrolysis (k<sub>cat</sub>, s<sup>−1</sup>); exact figures depend on nucleotide concentration,
-        Mg<sup>2+</sup>, lipid binding and assay format. The point of the chart is the <i>gap</i> between
-        the dim bars (intrinsic) and the teal bars (GAP-catalysed) for Ras and Rheb, versus the
-        already-fast intrinsic rates of Rab7 and dynamin-1. Ras is the extreme case: without a GAP its
-        GTP-bound state would persist far longer than any biological signal.
-      </figcaption>
+      <figcaption class="fig-cap"> <b>Figure 2 — representative turnover rates.</b> Values are order-of-magnitude estimates of GTP hydrolysis (k<sub>cat</sub>, s<sup>−1</sup>); exact figures depend on nucleotide concentration, Mg<sup>2+</sup>, lipid binding and assay conditions. The comparison of interest is between intrinsic rates (grey bars) and GAP-catalysed rates (teal bars) for Ras and Rheb, in contrast to the intrinsically rapid turnover of Rab7 and dynamin-1. Ras is the most extreme case: in the absence of a GAP, its GTP-bound state would persist far longer than is compatible with any biological response. </figcaption>
     </figure>
 
     <div class="callout" style="margin-top:20px;">
-      <span class="callout-tag">Reading the cycle as logic</span>
-      <p>
-        <b>GEF</b> = accelerate (catalyse the slow step). <b>GAP</b> = brake (catalyse the reverse).
-        <b>GDI</b> = localisation. A node that is only a GEF makes a signal that persists; a node that is
-        only a GAP makes a signal that cannot be sustained; a node that is only a GDI makes a signal that
-        cannot be localised. Disease follows when a brake is lost ([[NF1]] loss in neurofibromatosis,
-        [[TSC2]] loss in tuberous sclerosis) or when a switch is pinned on (oncogenic [[KRAS]]).
-      </p>
+      <span class="callout-tag">Regulation logic</span>
+      <p> <b>GEFs</b> catalyse the rate-limiting step of the cycle (GDP release), <b>GAPs</b> catalyse the reverse reaction (GTP hydrolysis), and <b>GDIs</b> determine subcellular localisation. Loss of GAP activity prolongs signaling ([[NF1]] in neurofibromatosis type 1, [[TSC2]] in tuberous sclerosis complex); impaired hydrolysis of the GTPase itself produces constitutively active proteins (oncogenic [[KRAS]]). </p>
     </div>
   </div>
 </section>
@@ -321,12 +254,8 @@
 <!-- ============ ARCHITECTURE ============ -->
 <section id="fold">
   <div class="wrap">
-    <h2>What the switch is made of</h2>
-    <p class="lead">
-      Small GTPases are 20–25 kDa proteins built on the Ras fold. Two parts matter: a catalytic
-      <b>G domain</b> that reads the nucleotide, and a C-terminal <b>hypervariable region (HVR)</b>
-      that decides where the protein goes and which effectors it can engage.
-    </p>
+    <h2>Structural basis of the switch</h2>
+    <p class="lead"> Small GTPases are 20–25 kDa proteins built on the Ras fold. Two regions are functionally distinct: the catalytic <b>G domain</b>, which binds and hydrolyses the nucleotide, and the C-terminal <b>hypervariable region (HVR)</b>, which determines subcellular localisation and contributes to effector selection. </p>
 
     <figure class="fig">
       <div class="fig-canvas">
@@ -386,7 +315,7 @@
           <text x="900" y="120" class="s-teal" font-size="12.5" font-weight="700" text-anchor="middle">CAAX box</text>
           <text x="900" y="136" class="s-mute" font-size="11" text-anchor="middle">prenyl site</text>
           <text x="620" y="172" class="s-dim" font-size="12.5">Because RAC1/2/3 G-domains are ~90% identical, specificity</text>
-          <text x="620" y="192" class="s-dim" font-size="12.5">comes from the HVR: membrane address + effector choice.</text>
+          <text x="620" y="192" class="s-dim" font-size="12.5">comes from the HVR: membrane targeting + effector choice.</text>
 
           <!-- prenyl + membrane -->
           <path d="M 900 214 L 900 246" fill="none" stroke="var(--teal)" stroke-width="2.5" marker-end="url(#mTeal2)"/>
@@ -402,34 +331,17 @@
           <text x="212" y="330" class="s-teal" font-size="12">switch I/II surface &#8594; effectors</text>
         </svg>
       </div>
-      <figcaption class="fig-cap">
-        <b>Figure 3 — the GTPase fold and its tail.</b> The G domain is nearly identical across the
-        superfamily, which is why the same GEF/GAP/GDI logic works everywhere. The
-        <b>hypervariable region</b> is where the families diverge: it carries the prenylated CAAX box
-        that anchors the protein, a polybasic region, and a proline-rich stretch that binds SH3 domains.
-        It also contributes directly to effector engagement — the same tail that says <i>where</i> also
-        says <i>to whom</i>.
-      </figcaption>
+      <figcaption class="fig-cap"> <b>Figure 3 — the GTPase fold and the hypervariable region.</b> The G domain is highly conserved across the superfamily, which is why GEF, GAP and GDI operate by the same mechanism in every family. Sequence divergence between families is concentrated in the hypervariable region, which carries the prenylated CAAX box that anchors the protein to membranes, a polybasic region, and a proline-rich segment that binds SH3 domains. The same region also contributes directly to effector recruitment. </figcaption>
     </figure>
 
     <div class="grid g2" style="margin-top:8px;">
       <div class="card">
         <h3 style="color:var(--teal);">Why switch I and switch II matter</h3>
-        <p class="kv">
-          When the γ-phosphate is present, the two switch regions rearrange relative to each other and
-          create a high-affinity effector-binding surface. GAPs dock on switch II — which is why a GAP
-          can catalyse hydrolysis and simultaneously occlude the effector site, making the switch turn
-          off cleanly rather than merely slowly.
-        </p>
+        <p class="kv"> Binding of the γ-phosphate alters the relative arrangement of switch I and switch II, generating a high-affinity effector-binding surface. GAPs dock on switch II, so a bound GAP both accelerates hydrolysis and occludes the effector-binding surface, terminating effector recruitment as hydrolysis proceeds. </p>
       </div>
       <div class="card">
         <h3 style="color:var(--amber);">Bigger GTPases use the same chemistry</h3>
-        <p class="kv">
-          [[Dynamin]] (~100 kDa) and the trimeric G-protein α subunits keep the Ras-like catalytic
-          fold and add effector-binding, oligomerisation and membrane-targeting modules. Dynamin turns
-          the energy of hydrolysis into <i>mechanical work</i> — it is a GTPase that severs membranes
-          rather than one that relays a signal.
-        </p>
+        <p class="kv"> [[Dynamin]] (~100 kDa) and the trimeric G-protein α subunits retain the Ras-like catalytic fold and add effector-binding, oligomerisation and membrane-targeting modules. Dynamin converts the energy of GTP hydrolysis into <i>mechanical work</i>, catalysing membrane scission rather than relaying a signal. </p>
       </div>
     </div>
   </div>
@@ -438,11 +350,8 @@
 <!-- ============ FAMILIES ============ -->
 <section id="families">
   <div class="wrap">
-    <h2>Five families, five jobs</h2>
-    <p class="lead">
-      The small-GTPase superfamily splits into families that share an effector vocabulary. If you know
-      which family a protein belongs to, you can predict most of what it does.
-    </p>
+    <h2>Five families and their outputs</h2>
+    <p class="lead"> The small-GTPase superfamily divides into families that share characteristic effectors and outputs. Membership in a given family therefore predicts much of a protein's function. </p>
 
     <figure class="fig">
       <div class="fig-canvas">
@@ -559,15 +468,7 @@
           </g>
         </svg>
       </div>
-      <figcaption class="fig-cap">
-        <b>Figure 4 — the family map.</b> Read left to right: family → who switches it → what it
-        switches on. Note how differently the families are regulated. Ras-family GTPases have no
-        canonical GDI and are switched by membrane-localised GEFs that are themselves recruited by
-        receptors. Rho-family GTPases are additionally held in the cytosol by RhoGDI and released
-        membrane-first. Rab GTPases have a dedicated GDI/REP system and a large repertoire of GEFs and
-        GAPs that encode <i>which membrane</i> the switch runs on. Dynamin is the odd one out: no GEF,
-        no GAP, recruitment by phosphoinositide, and it does mechanical work.
-      </figcaption>
+      <figcaption class="fig-cap"> <b>Figure 4 — the family map.</b> Each row gives the family, its principal regulators, and its effectors and outputs. Regulation differs substantially between families: Ras-family GTPases have no canonical GDI and are activated by membrane-localised GEFs that are themselves recruited to activated receptors; Rho-family GTPases are additionally sequestered in the cytosol by RhoGDI and released at the membrane; Rab GTPases use a dedicated GDI/REP system, and their large number of GEFs and GAPs specifies the membrane on which each Rab is activated; dynamin has neither GEF nor GAP, is recruited by phosphoinositide, and catalyses mechanical work. </figcaption>
     </figure>
 
     <figure class="fig">
@@ -602,13 +503,7 @@
         <line x1="130" y1="250" x2="940" y2="250" class="stroke-line2" stroke-width="1.5"/>
         </svg>
       </div>
-      <figcaption class="fig-cap">
-        <b>Figure 5 — family size is a proxy for task complexity.</b> Roughly 150 human GTPases exist
-        (~70 Rab, ~20 Rho, 6 Arf, 4 Ras, 3 dynamin, plus mitofusins and dynamin-like proteins).
-        The Rab family is large because membrane identity is combinatorial: each organelle needs its own
-        molecular address, and the address is the GTPase. The Ras family is small because "growth on"
-        is a single job that can be served by four interchangeable proteins.
-      </figcaption>
+      <figcaption class="fig-cap"> <b>Figure 5 — approximate number of GTPases per family.</b> Approximately 150 human GTPases are encoded (~70 Rab, ~20 Rho, 6 Arf, 4 Ras, 3 dynamin, in addition to mitofusins and dynamin-like proteins). The size of the Rab family reflects the number of distinct membrane compartments that require separate identity markers, whereas the Ras family covers a smaller number of related functions that can be met by four closely related proteins. </figcaption>
     </figure>
 
     <div class="tbl-wrap" style="margin-top:8px; max-height:none;">
@@ -632,7 +527,7 @@
           <tr>
             <td><b>Rab</b><br><span class="s-mute" style="font-size:.78rem;">~60&#8211;70 members</span></td>
             <td>GEF: Mon1&#8211;Ccz1, TRAPP II<br>GAP: TBC1D family<br>GDI: REP/REM</td>
-            <td>EEA1, HOPS, FYCO1, RILP, myosin-V, PI4K, LC3</td>
+            <td>EEA1, HOPS, FYCO1, RILP, myosin-V, PI4K</td>
             <td>Endosomal identity, lysosome biogenesis, autophagosome&#8211;lysosome fusion, exocytosis</td>
           </tr>
           <tr>
@@ -662,11 +557,8 @@
 <!-- ============ OUTPUT MAP ============ -->
 <section id="matrix">
   <div class="wrap">
-    <h2>Which family owns which process</h2>
-    <p class="lead">
-      A useful way to read the superfamily is as a partition of cellular labour. Each family has a
-      domain it owns outright, a domain where it is a contributor, and a domain it does not touch.
-    </p>
+    <h2>Principal and secondary contributions by family</h2>
+    <p class="lead"> Each family has one or more processes in which it is the principal regulator, processes to which it contributes, and processes it does not regulate. </p>
 
     <figure class="fig">
       <div class="fig-canvas">
@@ -780,24 +672,12 @@
         <text x="14" y="472" class="s-mute" font-size="11.5">primary = defining control &#183; major = substantial contribution &#183; secondary = contributes &#183; &#183; = not a role</text>
         </svg>
       </div>
-      <figcaption class="fig-cap">
-        <b>Figure 6 — family × output matrix.</b> Ras owns proliferation; Rho owns the actin
-        cytoskeleton; Rab owns endomembrane traffic and autophagic delivery; Arf owns coat assembly;
-        dynamin owns scission. The overlaps are the interesting cells — Rho-family GTPases contribute
-        to ROS generation through NOX, and Rab GTPases gate autophagy, which is why a "trafficking"
-        defect can present as a protein-aggregation disease.
-      </figcaption>
+      <figcaption class="fig-cap"> <b>Figure 6 — family × output matrix.</b> Ras is the principal regulator of proliferation, Rho of the actin cytoskeleton, Rab of endomembrane traffic and autophagic delivery, Arf of coat assembly, and dynamin of membrane scission. Cells in which two families meet reflect shared control: Rho-family GTPases contribute to ROS generation through NOX, and Rab GTPases gate autophagic flux, so that a trafficking defect can present clinically as a protein-aggregation disorder. </figcaption>
     </figure>
 
     <div class="callout teal">
       <span class="callout-tag">The cross-theme reading</span>
-      <p>
-        Three of this wiki's recurring themes land on this matrix. <b>Autophagy</b> needs Rab7 (fusion)
-        and Rheb (the mTORC1 brake that gates initiation). <b>Oxidative stress</b> needs Rac1 and Cdc42
-        (NOX assembly). <b>Cellular senescence</b> needs all of them, because senescent cells have
-        deranged actin, stalled lysosomes, and a chronically elevated ROS signal. The GTPase layer is
-        where those three themes are wired together.
-      </p>
+      <p> Three recurring themes of this knowledge base intersect with this matrix. <b>Autophagy</b> requires Rab7-dependent fusion and the Rheb-mTORC1 pathway that gates initiation. <b>Oxidative stress</b> requires Rac1 and Cdc42 for NOX assembly. <b>Cellular senescence</b> affects all of these, since senescent cells show disorganised actin, impaired lysosomal function, and chronically elevated ROS. GTPase regulation is the level at which these three processes converge. </p>
     </div>
   </div>
 </section>
@@ -806,12 +686,7 @@
 <section id="rho">
   <div class="wrap">
     <h2>Case study — RhoA, Rac1, Cdc42: one cell, three jobs</h2>
-    <p class="lead">
-      The clearest demonstration that the GTPase family encodes <i>compartment</i> rather than
-      <i>pathway</i> is migrating fibroblasts. Three Rho-family GTPases are active in the same cell at
-      the same time, on the same actin, with opposing outputs. The <b>balance</b> between them —
-      not the absolute level of any one — decides the cell's motility mode.
-    </p>
+    <p class="lead"> Migrating fibroblasts illustrate how closely related GTPases can produce different outputs within the same cell. Three Rho-family GTPases operate simultaneously on the same actin network with opposing effects, and the motility mode of the cell is determined by the ratio of their activities rather than by the absolute level of any one of them. </p>
 
     <figure class="fig">
       <div class="fig-canvas">
@@ -892,55 +767,27 @@
           <text x="46" y="194" class="s-mute" font-size="11.5">Cdc42 loss &#8594; no polarity</text>
         </svg>
       </div>
-      <figcaption class="fig-cap">
-        <b>Figure 7 — spatial division of labour in a migrating cell.</b> Cdc42 sets <i>where</i> the
-        front is (filopodia, polarity, cilium orientation); Rac1 pushes the front forward
-        (WAVE&#8211;Arp2/3 branched actin, via IRSp53 relieving WAVE2 autoinhibition); RhoA pulls the
-        back (ROCK phosphorylates MYPT1 and myosin light chain, mDia1/2 nucleate straight filaments).
-        Focal adhesions are the mechanical anchor: RhoA activity drives their maturation, and turnover
-        is what releases the rear.
-      </figcaption>
+      <figcaption class="fig-cap"> <b>Figure 7 — spatial division of labour in a migrating cell.</b> Cdc42-GTP establishes front–rear polarity, including filopodium formation and cilium orientation. Rac1-GTP drives membrane protrusion through the WAVE–Arp2/3 complex, activated by IRSp53 relieving WAVE2 autoinhibition. RhoA-GTP generates actomyosin contractility, with ROCK phosphorylating MYPT1 and myosin light chain and mDia1/2 nucleating unbranched filaments. Focal adhesions couple the cell to its substrate: RhoA activity promotes their maturation, and adhesion turnover permits release of the rear. </figcaption>
     </figure>
 
     <div class="grid g3" style="margin-top:6px;">
       <div class="card">
-        <h3 style="color:var(--red);">RhoA — the rear</h3>
-        <p class="kv">
-          RhoA&#8211;ROCK is the contractile arm: stress fibres, focal-adhesion maturation, the
-          cytokinetic ring (delivered to the cleavage furrow by Ect2), and smooth-muscle contraction.
-          Excessive RhoA/ROCK tone is a cardiovascular and fibrotic problem — which is why ROCK is one
-          of the few druggable nodes in this family.
-        </p>
+        <h3 style="color:var(--red);">RhoA: actomyosin contractility</h3>
+        <p class="kv"> RhoA&#8211;ROCK signalling mediates stress-fibre formation, focal-adhesion maturation, contractile-ring constriction during cytokinesis (delivered to the cleavage furrow by Ect2), and smooth-muscle contraction. Excessive RhoA/ROCK activity contributes to cardiovascular disease and fibrosis, which is why ROCK is among the few druggable nodes in this family. </p>
       </div>
       <div class="card">
-        <h3 style="color:var(--teal);">Rac1 — the front</h3>
-        <p class="kv">
-          Rac1 also sits upstream of the phagocyte respiratory burst (it is required to assemble NOX)
-          and of NF-&#954;B transcription, so it carries signals that have nothing to do with the
-          cytoskeleton. Rac1 is one of the few mutated Rho GTPases: P29S in 4&#8211;9% of sun-exposed
-          melanomas; the RAC1B splice variant is overexpressed in breast, colorectal and lung cancer.
-        </p>
+        <h3 style="color:var(--teal);">Rac1: membrane protrusion</h3>
+        <p class="kv"> Rac1 also acts upstream of the phagocyte respiratory burst, since it is required for NOX assembly, and upstream of NF-&#954;B-dependent transcription; its functions therefore extend beyond the cytoskeleton. Rac1 is one of the few mutated Rho GTPases: P29S in 4&#8211;9% of sun-exposed melanomas; the RAC1B splice variant is overexpressed in breast, colorectal and lung cancer. </p>
       </div>
       <div class="card">
-        <h3 style="color:var(--amber);">Cdc42 — the compass</h3>
-        <p class="kv">
-          Cdc42 organises polarity, filopodia, the NADPH oxidase, and the actin cytoskeleton of
-          haematopoietic cells via WASP — which is why dominant-negative Cdc42 alleles reproduce the
-          actinopathy of Wiskott&#8211;Aldrich syndrome. Cdc42 is also the flagellar master
-          regulator, setting cilium orientation and ciliary trafficking.
-        </p>
+        <h3 style="color:var(--amber);">Cdc42: cell polarity</h3>
+        <p class="kv"> Cdc42 organises polarity, filopodia, the NADPH oxidase, and the actin cytoskeleton of haematopoietic cells via WASP — which is why dominant-negative Cdc42 alleles reproduce the actinopathy of Wiskott&#8211;Aldrich syndrome. Cdc42 is also the flagellar master regulator, setting cilium orientation and ciliary trafficking. </p>
       </div>
     </div>
 
     <div class="callout" style="margin-top:20px;">
-      <span class="callout-tag">Why the antagonism is the point</span>
-      <p>
-        Rock alone produces disordered random bundles; mDia is needed to correct them. Rac and Rho
-        antagonise in migration but cooperate in tension sensing (adhesion through integrin and cadherin
-        activates RhoA; force on those junctions activates AMPK and glucose uptake — a positive loop).
-        The system is not a set of independent pathways but a <i>ratio controller</i>: the cell's shape
-        and motility mode are set by the relative activity of two GTPases pulling in opposite directions.
-      </p>
+      <span class="callout-tag">Reciprocal antagonism between Rac and RhoA</span>
+      <p> ROCK alone generates disorganised, randomly oriented bundles, which mDia corrects by producing aligned filaments. Rac and Rho antagonise each other during migration but cooperate in tension sensing: adhesion through integrin and cadherin activates RhoA, and the resulting force on those junctions activates AMPK and glucose uptake, forming a positive feedback loop. Cell shape and motility mode therefore depend on the relative activity of two opposing GTPases rather than on independent pathways. </p>
     </div>
   </div>
 </section>
@@ -949,12 +796,7 @@
 <section id="rab">
   <div class="wrap">
     <h2>Case study — the Rab5&#8594;Rab7 conversion gates autophagic flux</h2>
-    <p class="lead">
-      This is the case that ties the GTPase layer to this wiki's core theme. Autophagy is often
-      described as a bulk pathway, but its <i>terminal</i> step — the fusion of an autophagosome with a
-      lysosome — is executed by a Rab GTPase cascade. If the cascade stalls, autophagosomes still form,
-      LC3-II still accumulates, and nothing is degraded: a high-flux-looking assay with no flux behind it.
-    </p>
+    <p class="lead"> This is the case that ties the GTPase layer to this wiki's core theme. Autophagy is usually described as a bulk pathway, but its <i>terminal</i> step — fusion of an autophagosome with a lysosome — depends on a Rab GTPase cascade. If the cascade is interrupted, autophagosomes still form and LC3-II still accumulates while cargo degradation ceases; the resulting marker pattern therefore indicates impaired autophagic flux rather than increased autophagic activity. </p>
 
     <figure class="fig">
       <div class="fig-canvas">
@@ -987,7 +829,7 @@
           <text x="288" y="112" class="s-dim" font-size="12.5">Mon1&#8211;Ccz1 GEF</text>
           <text x="288" y="132" class="s-dim" font-size="12.5">(+ SAND-1/MON1)</text>
           <text x="288" y="152" class="s-dim" font-size="12.5">Rab5 GAP: TBC1D2</text>
-          <text x="288" y="176" class="s-mute" font-size="11.5">the hand-off: one address</text>
+          <text x="288" y="176" class="s-mute" font-size="11.5">identity exchange: one GTPase</text>
           <text x="288" y="196" class="s-mute" font-size="11.5">replaced by the next</text>
 
           <!-- stage 3 -->
@@ -1022,45 +864,23 @@
 
           <!-- consequence strip -->
           <rect x="24" y="330" width="952" height="92" rx="12" class="panel-f" stroke="var(--red)" stroke-width="1.5"/>
-          <text x="44" y="356" class="s-red" font-size="15" font-weight="700">If the switch fails: Rab7 loss or dominant-negative Rab7</text>
+          <text x="44" y="356" class="s-red" font-size="15" font-weight="700">Rab7 loss or dominant-negative Rab7</text>
           <text x="44" y="380" class="s-dim" font-size="13">HOPS cannot be recruited &#8594; autophagosome&#8211;lysosome fusion fails &#8594; undigested vesicles accumulate</text>
           <text x="44" y="402" class="s-dim" font-size="13">LC3-II &#8593; &#183; p62 &#8593; &#183; autolysosomes &#8593; &#183; aggregate clearance &#8595;</text>
           <text x="44" y="418" class="s-dim" font-size="13">&#8212; the classic signature of <tspan font-weight="700">blocked flux</tspan>, not of increased autophagy</text>
         </svg>
       </div>
-      <figcaption class="fig-cap">
-        <b>Figure 8 — the Rab conversion and the autophagic handover.</b> Maturation is a replacement,
-        not an addition: the early endosome's address (Rab5 + PtdIns3P) is swapped for the late
-        endosome's address (Rab7 + PtdIns(3,5)P<sub>2</sub>), executed by the Mon1&#8211;Ccz1 GEF. Rab7-GTP
-        then recruits HOPS to tether syntaxin-17&#8211;SNARE complexes, and the motors (RILP with dynactin
-        for minus-end transport, FYCO1 for plus-end) position the compartment. Note the consequence
-        strip: when Rab7 fails, every "autophagosome" marker rises while throughput falls.
-      </figcaption>
+      <figcaption class="fig-cap"> <b>Figure 8 — the Rab conversion and autophagic delivery.</b> Endosome maturation replaces one molecular identity with another: the early endosome's Rab5 and PtdIns3P are exchanged for Rab7 and PtdIns(3,5)P<sub>2</sub> through the Mon1&#8211;Ccz1 GEF. Rab7-GTP recruits HOPS, which tethers syntaxin-17&#8211;SNARE complexes, while RILP with dynactin and FYCO1 position the compartment along microtubules. Loss of Rab7 function blocks fusion: autophagosome markers accumulate while degradative throughput falls. </figcaption>
     </figure>
 
     <div class="grid g2" style="margin-top:6px;">
       <div class="card">
-        <h3 style="color:var(--blue);">The same cascade, three diseases</h3>
-        <p class="kv">
-          <b>Rab7</b> mutations cause Charcot&#8211;Marie&#8211;Tooth type 2B neuropathy, reflecting the
-          requirement for Rab7 in neuronal degradative traffic; defective Rab7 fusion contributes to
-          aggregate accumulation in neurodegeneration and ageing.
-          <b>Rab27A</b> defects cause Chediak&#8211;Higashi syndrome (lysosomal trafficking and
-          degranulation failure).
-          <b>Rab8</b> interacts with the mitophagy receptor [[OPTN]] to move mitochondria-containing
-          autophagosomes retrogradely to the cell body — and mutant huntingtin disrupts exactly that
-          OPTN&#8211;Rab8 interaction in Huntington's disease, blocking autophagic progression.
-        </p>
+        <h3 style="color:var(--blue);">Clinical consequences of Rab dysfunction</h3>
+        <p class="kv"> <b>Rab7</b> mutations cause Charcot&#8211;Marie&#8211;Tooth type 2B neuropathy, reflecting the requirement for Rab7 in neuronal degradative traffic; defective Rab7 fusion contributes to aggregate accumulation in neurodegeneration and ageing. <b>Rab27A</b> defects cause Chediak&#8211;Higashi syndrome (lysosomal trafficking and degranulation failure). <b>Rab8</b> interacts with the mitophagy receptor [[OPTN]] to move mitochondria-containing autophagosomes retrogradely to the cell body; mutant huntingtin disrupts this OPTN&#8211;Rab8 interaction in Huntington's disease, blocking autophagic progression. </p>
       </div>
       <div class="card">
-        <h3 style="color:var(--amber);">Pathogens hijack the switch</h3>
-        <p class="kv">
-          The <i>Legionella</i> effector SetA glucosylates Rab5 (and Rab22), immobilising endosomes
-          and blocking autophagosome&#8211;lysosome fusion to create a replication-permissive vacuole —
-          xenophagy evasion by editing the address label. Overactive Rab5 signaling is also implicated
-          in oncogenic growth and RTK-driven proliferation, which links endocytic trafficking to
-          proliferative signaling.
-        </p>
+        <h3 style="color:var(--amber);">Pathogen-mediated modification of Rab GTPases</h3>
+        <p class="kv"> The <i>Legionella</i> effector SetA glucosylates Rab5 (and Rab22), immobilising endosomes and blocking autophagosome&#8211;lysosome fusion, which produces a vacuole permissive for bacterial replication and thereby evades xenophagy. Persistent Rab5 activity has also been implicated in oncogenic growth and RTK-driven proliferation, linking endocytic trafficking to proliferative signalling. </p>
       </div>
     </div>
   </div>
@@ -1069,18 +889,13 @@
 <!-- ============ RHEB CASE ============ -->
 <section id="rheb">
   <div class="wrap">
-    <h2>Case study — the Rheb&#8211;TSC brake: a GAP as tumour suppressor</h2>
-    <p class="lead">
-      The cleanest example in the vault of GAP biology is the TSC1/TSC2 heterodimer acting as the GAP
-      for [[Rheb]], the small Ras-related GTPase that directly activates [[mTORC1]]. The same node
-      receives nutrient and energy signals, which makes it one of the few places where the cell's
-      metabolic state and its growth machinery are wired through a single nucleotide switch.
-    </p>
+    <h2>Case study — Rheb and the TSC GAP: a tumour-suppressor node</h2>
+    <p class="lead"> The best-characterised example of GAP biology in this knowledge base is the TSC1/TSC2 heterodimer, which acts as the GAP for [[Rheb]], the Ras-related GTPase that directly activates [[mTORC1]]. Because the same node integrates nutrient and energy signals, it couples the cell's metabolic state to its growth machinery through a single nucleotide switch. </p>
 
     <figure class="fig">
       <div class="fig-canvas">
         <svg id="rhebSvg" viewBox="0 0 1000 400" role="img" aria-labelledby="rhebTitle">
-          <title id="rhebTitle">The TSC1/TSC2 GAP as the brake on Rheb-GTP and mTORC1, activated by AMPK under energy stress and released by Akt and ERK-RSK under growth signalling</title>
+          <title id="rhebTitle">TSC1/TSC2 GAP regulation of Rheb-GTP and mTORC1: GAP activity increased by AMPK under energy stress and reduced by Akt and ERK-RSK under growth signalling</title>
           <defs>
             <marker id="mGreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
               <path d="M0,0 L10,5 L0,10 z" class="green-f"/>
@@ -1093,7 +908,7 @@
             </marker>
           </defs>
 
-          <text x="30" y="34" class="s-green" font-size="14" font-weight="700">BRAKE ENGAGED &#183; energy stress / starvation</text>
+          <text x="30" y="34" class="s-green" font-size="14" font-weight="700">GAP ACTIVE &#183; energy stress / starvation</text>
           <g>
             <rect x="30" y="48" width="170" height="60" rx="10" class="card-f" stroke="var(--green)" stroke-width="1.5"/>
             <text x="115" y="74" class="s-text" font-size="14" font-weight="700" text-anchor="middle">AMPK</text>
@@ -1101,7 +916,7 @@
 
             <rect x="250" y="48" width="190" height="60" rx="10" class="card-f" stroke="var(--green)" stroke-width="1.5"/>
             <text x="345" y="74" class="s-text" font-size="14" font-weight="700" text-anchor="middle">TSC1/TSC2</text>
-            <text x="345" y="93" class="s-dim" font-size="11.5" text-anchor="middle">Rheb GAP &#183; activity &#8593;</text>
+            <text x="345" y="93" class="s-dim" font-size="11.5" text-anchor="middle">Rheb GAP, activity &#8593;</text>
 
             <rect x="490" y="48" width="170" height="60" rx="10" class="card-f" stroke="var(--green)" stroke-width="1.5"/>
             <text x="575" y="74" class="s-text" font-size="14" font-weight="700" text-anchor="middle">Rheb-GDP</text>
@@ -1117,7 +932,7 @@
             <text x="223" y="66" class="s-mute" font-size="11" text-anchor="middle">phospho</text>
           </g>
 
-          <text x="30" y="164" class="s-amber" font-size="14" font-weight="700">BRAKE RELEASED &#183; growth factors / nutrient abundance</text>
+          <text x="30" y="164" class="s-amber" font-size="14" font-weight="700">GAP ACTIVITY REDUCED &#183; growth factors / nutrient abundance</text>
           <g>
             <rect x="30" y="178" width="170" height="60" rx="10" class="card-f" stroke="var(--amber)" stroke-width="1.5"/>
             <text x="115" y="204" class="s-text" font-size="14" font-weight="700" text-anchor="middle">Akt &#183; ERK&#8211;RSK</text>
@@ -1143,30 +958,18 @@
 
           <rect x="30" y="264" width="940" height="122" rx="12" class="panel-f" stroke="var(--line2)" stroke-width="1.5"/>
           <text x="50" y="292" class="s-text" font-size="14" font-weight="700">Therapeutic logic of a GAP</text>
-          <text x="50" y="316" class="s-dim" font-size="12.5">Restore a missing brake: biallelic loss of TSC1/TSC2 causes tuberous sclerosis complex disease &#8212;</text>
+          <text x="50" y="316" class="s-dim" font-size="12.5">Compensating for loss of GAP activity: biallelic loss of TSC1/TSC2 causes tuberous sclerosis complex disease &#8212;</text>
           <text x="50" y="336" class="s-dim" font-size="12.5">renal angiomyolipomas, cardiac rhabdomyomas, subependymal giant cell astrocytomas, cortical tubers.</text>
           <text x="50" y="356" class="s-dim" font-size="12.5">Somatic TSC2 loss with mTOR activation is common in bladder cancer. The drug that substitutes for the</text>
           <text x="50" y="376" class="s-dim" font-size="12.5">lost GAP is the rapamycin class: rapamycin and everolimus are used in TSC and TSC-associated lesions.</text>
         </svg>
       </div>
-      <figcaption class="fig-cap">
-        <b>Figure 9 — one GAP, two directions.</b> The TSC1/TSC2 heterodimer is a brake on Rheb, and
-        therefore a brake on mTORC1, and therefore a brake on autophagy initiation. AMPK phosphorylation
-        of TSC2 <i>increases</i> GAP activity under energy depletion; Akt and ERK&#8211;RSK phosphorylation
-        of TSC2 <i>reduces</i> it under growth signalling. The therapeutic corollary is elegant — a lost
-        brake can be pharmacologically replaced, which is exactly what the rapamycin class does.
-      </figcaption>
+      <figcaption class="fig-cap"> <b>Figure 9 — one GAP, two regulatory directions.</b> TSC1/TSC2 acts as a GAP for Rheb and therefore limits mTORC1 activity and autophagy initiation. AMPK phosphorylation of TSC2 <i>increases</i> its GAP activity under energy depletion, whereas Akt and ERK&#8211;RSK phosphorylation <i>reduces</i> it under growth signalling. Loss of GAP activity can be compensated pharmacologically by inhibiting mTORC1, which is the basis for the use of rapamycin-class drugs in tuberous sclerosis complex. </figcaption>
     </figure>
 
     <div class="callout teal" style="margin-top:20px;">
       <span class="callout-tag">The broader pattern</span>
-      <p>
-        Both [[NF1]] (a Ras GAP) and [[TSC2]] (a Rheb GAP) are tumour suppressors, and both sit in the
-        ageing-relevant part of this wiki. Losing a GAP does not switch signaling off — it makes the
-        signal <i>persist</i>, which is how a cell acquires growth independence without a gain-of-function
-        mutation in the switch itself. It is the same logic as the lipid-peroxidation page's dose
-        argument: the difference between a signal and a lesion is concentration over time.
-      </p>
+      <p> Both [[NF1]] (a Ras GAP) and [[TSC2]] (a Rheb GAP) are tumour suppressors and are relevant to the ageing-related questions in this knowledge base. Loss of GAP activity does not eliminate signaling; it extends its duration, allowing growth independence without a gain-of-function mutation in the GTPase itself. The distinction between a physiological signal and a pathological lesion is therefore one of concentration and duration. </p>
     </div>
   </div>
 </section>
@@ -1174,12 +977,8 @@
 <!-- ============ NOX CASE ============ -->
 <section id="nox">
   <div class="wrap">
-    <h2>Case study — Rac1 and Cdc42 build the NADPH oxidase</h2>
-    <p class="lead">
-      The phagocyte respiratory burst is the clearest example of a GTPase acting as a
-      <i>licence</i> rather than a relay: the enzyme is always in the membrane, but it cannot fire
-      until the correct small GTPases hand it its cytosolic activators.
-    </p>
+    <h2>Case study — Rac1 and Cdc42 in NADPH oxidase assembly</h2>
+    <p class="lead"> The phagocyte respiratory burst illustrates a distinct mode of GTPase control: the catalytic subunits are constitutively membrane-associated, but the complex is not active until p47phox and p67phox translocate to the membrane, and p67phox does so only in complex with the appropriate GTPases. </p>
 
     <figure class="fig">
       <div class="fig-canvas">
@@ -1246,25 +1045,12 @@
           <text x="30" y="330" class="s-mute" font-size="11.5">Failure of this assembly = chronic granulomatous disease&#8211;like immunodeficiency (e.g. Rac2 loss).</text>
         </svg>
       </div>
-      <figcaption class="fig-cap">
-        <b>Figure 10 — NOX assembly.</b> Membrane Nox2 and p22phox are the catalytic core; p47phox and
-        p67phox arrive from the cytosol, and p67phox is the subunit that carries the GTPases — Rac1-GTP
-        (Rac2 in haematopoietic cells) and Cdc42-GTP — onto the complex. This is the direct mechanistic
-        link from the Rho family to the reactive-oxygen axis: Rac1 sits upstream of a large fraction of
-        the cell's superoxide production, which is why Rac1 drives both the oxidative burst and
-        NF-&#954;B transcription in phagocytes.
-      </figcaption>
+      <figcaption class="fig-cap"> <b>Figure 10 — NOX assembly.</b> Nox2 and p22phox form the membrane-bound core, while p47phox and p67phox translocate from the cytosol; p67phox binds Rac1-GTP (Rac2 in haematopoietic cells) and Cdc42-GTP and thereby recruits the complex to the membrane. This constitutes the direct mechanistic link between the Rho family and reactive oxygen species generation, and Rac1 contributes both to the oxidative burst and to NF-&#954;B-dependent transcription in phagocytes. </figcaption>
     </figure>
 
     <div class="callout red">
-      <span class="callout-tag">The ROS dial this sets</span>
-      <p>
-        The same switch that licenses the oxidative burst also licenses the low-level ROS that acts as
-        a signaling species — and that is the seam this wiki cares about. At low flux, ROS is a signal
-        (NRF2/ARE induction, hormetic adaptation); at high flux, it is damage (lipid peroxidation,
-        ferroptosis). GTPase signalling controls the <i>position</i> and <i>duration</i> of the burst,
-        which is the upstream half of the redox decision.
-      </p>
+      <span class="callout-tag">Regulation of ROS production</span>
+      <p> GTPase-dependent NOX activation regulates both the oxidative burst and the lower, steady-state ROS production that functions as a signaling species. At low rates, ROS acts as a signal (NRF2/ARE induction, hormetic adaptation); at high rates it causes damage, including lipid peroxidation and ferroptosis. Control of NOX activity therefore influences both the amplitude and the duration of the cellular redox signal. </p>
     </div>
   </div>
 </section>
@@ -1272,12 +1058,8 @@
 <!-- ============ DISEASE ============ -->
 <section id="disease">
   <div class="wrap">
-    <h2>When the switch misbehaves</h2>
-    <p class="lead">
-      GTPase disease comes in two shapes: a switch that cannot be turned off (oncogenic gain of
-      function) and a switch that cannot be turned on, or that runs in the wrong place (loss of
-      function, or mislocalisation).
-    </p>
+    <h2>Disease mechanisms</h2>
+    <p class="lead"> GTPase-associated disease arises through two principal mechanisms: constitutively active GTPases resulting from activating mutations, and loss of GTPase function resulting from inactivating mutations or from failure of correct localisation. </p>
 
     <figure class="fig">
       <div class="fig-canvas">
@@ -1306,13 +1088,7 @@
         <line x1="120" y1="250" x2="950" y2="250" class="stroke-line2" stroke-width="1.5"/>
         </svg>
       </div>
-      <figcaption class="fig-cap">
-        <b>Figure 11 — KRAS, the most frequently mutated oncogene.</b> Hot-spot mutations at codons
-        G12, G13 and Q61 impair GTP hydrolysis, so the mutant protein is locked in the GTP-bound state
-        regardless of upstream signalling. Note the specificity of the G12C subset: it is ~13% of
-        NSCLC but a large fraction of KRAS-driven lung cancer, and it is the one that is directly
-        druggable.
-      </figcaption>
+      <figcaption class="fig-cap"> <b>Figure 11 — KRAS, the most frequently mutated oncogene.</b> Hot-spot substitutions at codons G12, G13 and Q61 impair GTP hydrolysis, so that the mutant protein remains GTP-bound irrespective of upstream signalling. The G12C substitution accounts for approximately 13% of NSCLC and a substantial proportion of KRAS-mutant lung cancer; it is also the subset for which direct inhibitors are available. </figcaption>
     </figure>
 
     <div class="tbl-wrap" style="margin-top:6px; max-height:none;">
@@ -1324,19 +1100,19 @@
           <tr>
             <td><b>Pancreatic, colorectal, NSCLC</b></td>
             <td>KRAS (G12, G13, Q61)</td>
-            <td>Hydrolysis impaired → GTP-locked → constitutive RAF&#8211;MEK&#8211;ERK and PI3K&#8211;AKT output</td>
+            <td>Impaired hydrolysis → constitutively GTP-bound → persistent RAF&#8211;MEK&#8211;ERK and PI3K&#8211;AKT signalling</td>
             <td>Established (driver mutation, licensed therapy)</td>
           </tr>
           <tr>
             <td><b>Neurofibromatosis type 1</b></td>
             <td>NF1 / neurofibromin (Ras GAP)</td>
-            <td>Brake lost → Ras stays GTP-loaded → RAS&#8211;MAPK hyperactivation</td>
+            <td>Loss of GAP activity → persistently GTP-loaded Ras → RAS&#8211;MAPK hyperactivation</td>
             <td>Established</td>
           </tr>
           <tr>
             <td><b>Tuberous sclerosis complex</b></td>
             <td>TSC1/TSC2 (Rheb GAP)</td>
-            <td>Brake lost → Rheb-GTP → mTORC1 hyperactivation</td>
+            <td>Loss of GAP activity → elevated Rheb-GTP → mTORC1 hyperactivation</td>
             <td>Established (rapamycin/everolimus approved)</td>
           </tr>
           <tr>
@@ -1360,7 +1136,7 @@
           <tr>
             <td><b>Chronic granulomatous disease&#8211;like</b></td>
             <td>RAC2</td>
-            <td>Loss of the oxidase assembly licence → absent respiratory burst</td>
+            <td>Failure of NOX assembly → absent respiratory burst</td>
             <td>Established</td>
           </tr>
           <tr>
@@ -1402,7 +1178,7 @@
           <tr>
             <td><b>Autophagic flux failure in ageing / senescence</b></td>
             <td>Rab7 &#183; HOPS &#183; Mon1&#8211;Ccz1</td>
-            <td>Fusion failure → lipofuscin and debris accumulation; blocked flux masquerading as increased autophagy</td>
+            <td>Fusion failure → lipofuscin and debris accumulation; marker accumulation mimics increased autophagy</td>
             <td>Mechanistically established; therapeutic leverage emerging</td>
           </tr>
         </tbody>
@@ -1410,16 +1186,8 @@
     </div>
 
     <div class="callout" style="margin-top:22px;">
-      <span class="callout-tag">Two recurring mechanisms</span>
-      <p>
-        <b>Locked on.</b> Hot-spot mutations (Ras G12/G13/Q61, RhoA G17V, Rac1 P29S) do not change how much
-        the protein can be activated — they change how fast it can be <i>switched off</i>. A
-        fast-cycling allele and a GTP-locked allele are the same disease logic.
-        <b>Lost brake.</b> Loss of a GAP (NF1, TSC2) or of a phosphatase-like restraint produces the same
-        endpoint by a different route. The therapeutic targets differ accordingly: an activating mutation
-        wants a <i>ligand</i>, a lost brake wants a <i>downstream substitute</i> — which is why TSC is
-        treated with mTOR inhibitors rather than with a TSC activator.
-      </p>
+      <span class="callout-tag">Two recurrent mechanisms</span>
+      <p> <b>Constitutive activation.</b> Hot-spot substitutions (Ras G12/G13/Q61, RhoA G17V, Rac1 P29S) do not alter the maximum activity of the protein; they reduce the rate at which it is inactivated. Fast-cycling and GTP-locked alleles therefore produce the same functional consequence. <b>Loss of GAP activity.</b> Loss of a GAP (NF1, TSC2) produces the same endpoint by a different route. The appropriate intervention differs accordingly: activating mutations can be addressed with direct ligands, whereas loss of GAP activity is compensated by inhibiting the downstream pathway, which is why tuberous sclerosis complex is treated with mTOR inhibitors rather than with a TSC activator. </p>
     </div>
   </div>
 </section>
@@ -1428,12 +1196,7 @@
 <section id="drugs">
   <div class="wrap">
     <h2>What is druggable, and where</h2>
-    <p class="lead">
-      Direct ligands for small GTPases are rare. The tractable levels are (a) the switch itself, for the
-      one family with approved direct inhibitors; (b) the prenylation step that makes the switch
-      membrane-bound; and (c) the effector kinases downstream — which is where most of the clinical
-      pharmacology actually happens.
-    </p>
+    <p class="lead"> Direct ligands for small GTPases are uncommon. The tractable points are (a) the nucleotide-binding site itself, for the one family with approved direct inhibitors; (b) the prenylation step that determines membrane association; and (c) the downstream effector kinases, which account for most of the clinical pharmacology. </p>
 
     <div class="tbl-wrap" style="max-height:none;">
       <table>
@@ -1459,25 +1222,11 @@
     <div class="grid g2" style="margin-top:20px;">
       <div class="card">
         <h3 style="color:var(--teal);">The pattern</h3>
-        <p class="kv">
-          Where a direct switch ligand is not available, the drug hits one of three things: the
-          <b>lipid anchor</b> (prenylation inhibition removes the switch from the membrane entirely),
-          the <b>GEF</b> (blocking exchange keeps the switch in the off state), or the
-          <b>effector kinase</b> (ROCK, PAK, MEK) — which is downstream of dozens of GTPases and
-          therefore both broader and less specific.
-        </p>
+        <p class="kv"> Where no direct ligand is available, compounds act at one of three points: the <b>lipid anchor</b> (prenylation inhibitors remove the GTPase from the membrane), the <b>exchange factor</b> (inhibition of GDP release maintains the inactive state), or the <b>effector kinase</b> (ROCK, PAK, MEK), which is downstream of numerous GTPases and is consequently less specific. </p>
       </div>
       <div class="card">
         <h3 style="color:var(--amber);">Why the switch itself is a hard target</h3>
-        <p class="kv">
-          The GDP-binding pocket is one of the most conserved pockets in biology, and it has to bind
-          GTP, GDP and Mg<sup>2+</sup> with high fidelity for the cycle to work at all. Selectivity
-          between family members therefore has to come from the shallow switch surfaces or the
-          hypervariable region — and those are large, flat, and hard to drug. The two exceptions prove
-          the rule: KRAS G12C is druggable because the mutation creates a novel pocket, and Ras
-          prenylation is druggable because it is a covalent lipid chemistry problem rather than a
-          binding problem.
-        </p>
+        <p class="kv"> The guanine-nucleotide-binding pocket is highly conserved and must bind GTP, GDP and Mg<sup>2+</sup> with high fidelity for the cycle to function. Selectivity between family members must therefore come from the comparatively shallow switch surfaces or from the hypervariable region, both of which are poorly suited to high-affinity small-molecule binding. Two cases illustrate the exceptions: KRAS G12C is druggable because the substitution creates a distinct binding pocket, and Ras prenylation is druggable because it targets a lipid-modification step rather than a protein–ligand interface. </p>
       </div>
     </div>
   </div>
@@ -1487,55 +1236,10 @@
 <footer id="sources">
   <div class="wrap">
     <h2 style="font-size:1.1rem;">Sources &amp; methods</h2>
-    <p style="margin-top:10px;">
-      Primary source: llm-wiki-jk vault notes —
-      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/GTPase.md" target="_blank" rel="noopener noreferrer"><code>src/notes/_link/GTPase.md</code></a>
-      (superclass note: nucleotide cycle, family overview, pathology) ·
-      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/GAP.md" target="_blank" rel="noopener noreferrer"><code>src/notes/_link/GAP.md</code></a>
-      (GAP logic, TSC1/TSC2&#8211;Rheb, NF1, ARHGAP) ·
-      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Rac GTPase.md" target="_blank" rel="noopener noreferrer"><code>src/notes/_link/Rac GTPase.md</code></a> ·
-      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Rac1.md" target="_blank" rel="noopener noreferrer"><code>src/notes/_link/Rac1.md</code></a> ·
-      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/RhoA.md" target="_blank" rel="noopener noreferrer"><code>src/notes/_link/RhoA.md</code></a> ·
-      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Cdc42.md" target="_blank" rel="noopener noreferrer"><code>src/notes/_link/Cdc42.md</code></a> ·
-      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/autophagy/Rab5.md" target="_blank" rel="noopener noreferrer"><code>src/notes/autophagy/Rab5.md</code></a> ·
-      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/autophagy/Rab7.md" target="_blank" rel="noopener noreferrer"><code>src/notes/autophagy/Rab7.md</code></a> ·
-      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Rab8.md" target="_blank" rel="noopener noreferrer"><code>src/notes/_link/Rab8.md</code></a> ·
-      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Arf1.md" target="_blank" rel="noopener noreferrer"><code>src/notes/_link/Arf1.md</code></a> ·
-      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Dynamin.md" target="_blank" rel="noopener noreferrer"><code>src/notes/_link/Dynamin.md</code></a> ·
-      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cancer/KRAS.md" target="_blank" rel="noopener noreferrer"><code>src/notes/cancer/KRAS.md</code></a> ·
-      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/autophagy/RAS.md" target="_blank" rel="noopener noreferrer"><code>src/notes/autophagy/RAS.md</code></a> ·
-      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/Autophagosome-lysosome%20fusion.md" target="_blank" rel="noopener noreferrer"><code>src/notes/senescence/Autophagosome-lysosome fusion.md</code></a>.
-    </p>
-    <p>
-      Related vault notes: [[GTPase]], [[GTP]], [[GAP]], [[RAS]], [[KRAS]], [[RhoA]], [[Rac GTPase]],
-      [[Rac1]], [[Cdc42]], [[Rab5]], [[Rab7]], [[Rab8]], [[Arf1]], [[Dynamin]], [[ROCK]], [[PAK1]],
-      [[Actin Cytoskeleton]], [[Focal Adhesion]], [[Cell Migration]], [[NADPH Oxidase]],
-      [[Respiratory Burst]], [[Endocytosis]], [[Membrane Trafficking]], [[Autophagy]],
-      [[Autophagosome-lysosome fusion]], [[Autophagic Flux]], [[HOPS Complex]], [[Mon1-Ccz1]], [[RILP]],
-      [[FYCO1]], [[OPTN]], [[Huntington's Disease]], [[TSC]], [[TSC1]], [[TSC2]], [[Rheb]], [[mTORC1]],
-      [[mTORC2]], [[AMPK]], [[Akt]], [[ULK1]], [[TFEB]], [[Clear Network]], [[SIRT1]], [[SIRT2]],
-      [[Reactive Oxygen Species]], [[Cellular Senescence]], [[Neurodegeneration]], [[Chronic Granulomatous Disease]],
-      [[Melanoma]], [[Alzheimer's Disease]], [[Fibrosis]], [[Atherosclerosis]], [[Vps34]], [[PtdIns3P]],
-      [[PtdIns(4,5)P2]], [[Mitochondrial Fission]], [[MFN1]], [[MFN2]], [[Charcot–Marie-Tooth Disease]].
-    </p>
-    <p>
-      Figures 1, 3, 4, 7, 8, 9 and 10 are client-side SVG using theme-01 CSS variables — no external
-      dependencies, they re-theme with the site light/dark toggle, and they work offline. Figures 2, 5,
-      6 and 11 are generated charts from the same page template (log-scale turnover rates, family
-      membership, family × output matrix, KRAS mutation frequency).
-    </p>
-    <p style="margin-top:8px; color:var(--mute);">
-      Informational synthesis, not medical advice. <b>Figure 2 is illustrative</b>: the hydrolysis rates
-      are representative order-of-magnitude values (k<sub>cat</sub>, s<sup>−1</sup>) assembled from the
-      standard literature on Ras/Rheb/Rab/Arf/dynamin turnover, and the exact numbers depend on
-      nucleotide concentration, Mg<sup>2+</sup>, lipid binding and assay format — they are drawn to show
-      the <i>relative</i> gap between intrinsic and GAP-catalysed hydrolysis, not to be quoted as
-      constants. Family sizes in Figure 5 are approximate genome-level counts. The schematics in
-      Figures 3, 4, 7, 8, 9 and 10 are editorial encodings of the mechanisms described in the cited
-      vault notes, not experimental data. Drug status in the pharmacology table reflects approvals and
-      trial phases as described in the vault notes; verify current regulatory status before clinical
-      use.
-    </p>
+    <p style="margin-top:10px;"> Primary source: llm-wiki-jk vault notes — <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/GTPase.md" target="_blank" rel="noopener noreferrer"><code>src/notes/_link/GTPase.md</code></a> (superclass note: nucleotide cycle, family overview, pathology) · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/GAP.md" target="_blank" rel="noopener noreferrer"><code>src/notes/_link/GAP.md</code></a> (GAP logic, TSC1/TSC2&#8211;Rheb, NF1, ARHGAP) · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Rac GTPase.md" target="_blank" rel="noopener noreferrer"><code>src/notes/_link/Rac GTPase.md</code></a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Rac1.md" target="_blank" rel="noopener noreferrer"><code>src/notes/_link/Rac1.md</code></a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/RhoA.md" target="_blank" rel="noopener noreferrer"><code>src/notes/_link/RhoA.md</code></a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Cdc42.md" target="_blank" rel="noopener noreferrer"><code>src/notes/_link/Cdc42.md</code></a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/autophagy/Rab5.md" target="_blank" rel="noopener noreferrer"><code>src/notes/autophagy/Rab5.md</code></a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/autophagy/Rab7.md" target="_blank" rel="noopener noreferrer"><code>src/notes/autophagy/Rab7.md</code></a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Rab8.md" target="_blank" rel="noopener noreferrer"><code>src/notes/_link/Rab8.md</code></a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Arf1.md" target="_blank" rel="noopener noreferrer"><code>src/notes/_link/Arf1.md</code></a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Dynamin.md" target="_blank" rel="noopener noreferrer"><code>src/notes/_link/Dynamin.md</code></a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cancer/KRAS.md" target="_blank" rel="noopener noreferrer"><code>src/notes/cancer/KRAS.md</code></a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/autophagy/RAS.md" target="_blank" rel="noopener noreferrer"><code>src/notes/autophagy/RAS.md</code></a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/Autophagosome-lysosome%20fusion.md" target="_blank" rel="noopener noreferrer"><code>src/notes/senescence/Autophagosome-lysosome fusion.md</code></a>. </p>
+    <p> Related vault notes: [[GTPase]], [[GTP]], [[GAP]], [[RAS]], [[KRAS]], [[RhoA]], [[Rac GTPase]], [[Rac1]], [[Cdc42]], [[Rab5]], [[Rab7]], [[Rab8]], [[Arf1]], [[Dynamin]], [[ROCK]], [[PAK1]], [[Actin Cytoskeleton]], [[Focal Adhesion]], [[Cell Migration]], [[NADPH Oxidase]], [[Respiratory Burst]], [[Endocytosis]], [[Membrane Trafficking]], [[Autophagy]], [[Autophagosome-lysosome fusion]], [[Autophagic Flux]], [[HOPS Complex]], [[Mon1-Ccz1]], [[RILP]], [[FYCO1]], [[OPTN]], [[Huntington's Disease]], [[TSC]], [[TSC1]], [[TSC2]], [[Rheb]], [[mTORC1]], [[mTORC2]], [[AMPK]], [[Akt]], [[ULK1]], [[TFEB]], [[Clear Network]], [[SIRT1]], [[SIRT2]], [[Reactive Oxygen Species]], [[Cellular Senescence]], [[Neurodegeneration]], [[Chronic Granulomatous Disease]], [[Melanoma]], [[Alzheimer's Disease]], [[Fibrosis]], [[Atherosclerosis]], [[Vps34]], [[PtdIns3P]], [[PtdIns(4,5)P2]], [[Mitochondrial Fission]], [[MFN1]], [[MFN2]], [[Charcot–Marie-Tooth Disease]]. </p>
+    <p> Figures 1, 3, 4, 7, 8, 9 and 10 are client-side SVG using theme-01 CSS variables — no external dependencies, they re-theme with the site light/dark toggle, and they work offline. Figures 2, 5, 6 and 11 are generated charts (log-scale turnover rates, family membership, family × output matrix, KRAS mutation frequency). </p>
+    <p style="margin-top:8px; color:var(--mute);"> Informational synthesis, not medical advice. <b>Figure 2 is illustrative</b>: the hydrolysis rates are representative order-of-magnitude values (k<sub>cat</sub>, s<sup>−1</sup>) assembled from the standard literature on Ras/Rheb/Rab/Arf/dynamin turnover, and the exact numbers depend on nucleotide concentration, Mg<sup>2+</sup>, lipid binding and assay format — they are drawn to show the <i>relative</i> gap between intrinsic and GAP-catalysed hydrolysis, not to be quoted as constants. Family sizes in Figure 5 are approximate genome-level counts. The schematics in Figures 3, 4, 7, 8, 9 and 10 are schematic representations of the mechanisms described in the cited knowledge-base notes and are not experimental data. Drug status in the pharmacology table reflects approvals and trial phases as described in the vault notes; verify current regulatory status before clinical use. </p>
   </div>
 </footer>
 
