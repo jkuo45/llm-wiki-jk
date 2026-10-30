@@ -1,5 +1,5 @@
 {
-  "generated": "29_OCT_2026 07:43 PM PDT",
+  "generated": "23_OCT_2026 08:46 AM PDT",
   "stats": {
     "sirtuin-pleiotropy": {
       "words": 2318,
@@ -228,12 +228,6 @@
       "images": 0,
       "links": 37,
       "diagrams": 7
-    },
-    "gtpase-signaling": {
-      "words": 5335,
-      "images": 0,
-      "links": 41,
-      "diagrams": 11
     }
   }
 }

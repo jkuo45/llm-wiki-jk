@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-30T02:24:02Z",
-  "node_count": 3553,
-  "edge_count": 46463,
+  "generated_at": "2026-10-02T15:49:19Z",
+  "node_count": 3486,
+  "edge_count": 44994,
   "reference_links": {
     "document_notes": {
       "total_targets": 145,
-      "total_links": 4505
+      "total_links": 4446
     },
     "task_outputs": {
       "total_targets": 29,
       "total_links": 170
     }
   },
-  "total_orphan_targets": 6549,
-  "total_orphan_links": 12445,
+  "total_orphan_targets": 6539,
+  "total_orphan_links": 12663,
   "top_targets": [
     {
       "norm_id": "document_mitohormetic_redox_relay",
@@ -61,19 +61,34 @@
       "link_count": 10
     },
     {
-      "norm_id": "mediator_complex",
-      "raw": "mediator_complex",
+      "norm_id": "p_selectin",
+      "raw": "p_selectin",
       "link_count": 10
     },
     {
-      "norm_id": "p_selectin",
-      "raw": "p_selectin",
+      "norm_id": "dynamin",
+      "raw": "dynamin",
       "link_count": 10
     },
     {
       "norm_id": "document_dgcr8_is_essential_for_microrna_biogenesis_and_silencing_of_embryonic_stem_cell_self_renewal",
       "raw": "document_dgcr8_is_essential_for_microrna_biogenesis_and_silencing_of_embryonic_stem_cell_self_renewal",
       "link_count": 10
+    },
+    {
+      "norm_id": "cdc42",
+      "raw": "cdc42",
+      "link_count": 10
+    },
+    {
+      "norm_id": "mediator_complex",
+      "raw": "mediator_complex",
+      "link_count": 9
+    },
+    {
+      "norm_id": "kinetochore",
+      "raw": "kinetochore",
+      "link_count": 9
     },
     {
       "norm_id": "melanin",
@@ -101,23 +116,23 @@
       "link_count": 9
     },
     {
-      "norm_id": "niemann_pick_disease",
-      "raw": "niemann_pick_disease",
-      "link_count": 8
-    },
-    {
       "norm_id": "enzyme",
       "raw": "enzyme",
       "link_count": 8
     },
     {
-      "norm_id": "carboplatin",
-      "raw": "carboplatin",
+      "norm_id": "bromodomain",
+      "raw": "bromodomain",
       "link_count": 8
     },
     {
       "norm_id": "adenosine_triphosphate_atp",
       "raw": "adenosine_triphosphate_atp",
+      "link_count": 8
+    },
+    {
+      "norm_id": "von_willebrand_factor",
+      "raw": "von_willebrand_factor",
       "link_count": 8
     },
     {
@@ -131,9 +146,29 @@
       "link_count": 8
     },
     {
-      "norm_id": "lc3_associated_phagocytosis",
-      "raw": "lc3_associated_phagocytosis",
+      "norm_id": "separase",
+      "raw": "separase",
       "link_count": 8
+    },
+    {
+      "norm_id": "demyelination",
+      "raw": "demyelination",
+      "link_count": 8
+    },
+    {
+      "norm_id": "coactivator",
+      "raw": "coactivator",
+      "link_count": 8
+    },
+    {
+      "norm_id": "semicarbazide_sensitive_amine_oxidase",
+      "raw": "semicarbazide_sensitive_amine_oxidase",
+      "link_count": 8
+    },
+    {
+      "norm_id": "tissue_factor",
+      "raw": "tissue_factor",
+      "link_count": 7
     },
     {
       "norm_id": "igf2",
@@ -141,8 +176,13 @@
       "link_count": 7
     },
     {
-      "norm_id": "mgmt",
-      "raw": "mgmt",
+      "norm_id": "acetylcholine",
+      "raw": "acetylcholine",
+      "link_count": 7
+    },
+    {
+      "norm_id": "gtpase",
+      "raw": "gtpase",
       "link_count": 7
     },
     {
@@ -161,8 +201,28 @@
       "link_count": 7
     },
     {
+      "norm_id": "srebp",
+      "raw": "srebp",
+      "link_count": 7
+    },
+    {
       "norm_id": "lysyl_oxidase",
       "raw": "lysyl_oxidase",
+      "link_count": 7
+    },
+    {
+      "norm_id": "chip_seq",
+      "raw": "chip_seq",
+      "link_count": 7
+    },
+    {
+      "norm_id": "lubac",
+      "raw": "lubac",
+      "link_count": 7
+    },
+    {
+      "norm_id": "verapamil",
+      "raw": "verapamil",
       "link_count": 7
     },
     {
@@ -173,6 +233,21 @@
     {
       "norm_id": "wilson_s_disease",
       "raw": "wilson_s_disease",
+      "link_count": 7
+    },
+    {
+      "norm_id": "carboplatin",
+      "raw": "carboplatin",
+      "link_count": 7
+    },
+    {
+      "norm_id": "phagolysosome",
+      "raw": "phagolysosome",
+      "link_count": 7
+    },
+    {
+      "norm_id": "cystic_fibrosis",
+      "raw": "cystic_fibrosis",
       "link_count": 7
     },
     {
@@ -188,81 +263,6 @@
     {
       "norm_id": "disseminated_intravascular_coagulation",
       "raw": "disseminated_intravascular_coagulation",
-      "link_count": 7
-    },
-    {
-      "norm_id": "lynch_syndrome",
-      "raw": "lynch_syndrome",
-      "link_count": 7
-    },
-    {
-      "norm_id": "asystole",
-      "raw": "asystole",
-      "link_count": 7
-    },
-    {
-      "norm_id": "rosc",
-      "raw": "rosc",
-      "link_count": 7
-    },
-    {
-      "norm_id": "lymphangiogenesis",
-      "raw": "lymphangiogenesis",
-      "link_count": 7
-    },
-    {
-      "norm_id": "teratogen",
-      "raw": "teratogen",
-      "link_count": 7
-    },
-    {
-      "norm_id": "gfral",
-      "raw": "gfral",
-      "link_count": 7
-    },
-    {
-      "norm_id": "heat_shock",
-      "raw": "heat_shock",
-      "link_count": 7
-    },
-    {
-      "norm_id": "heat_shock_response",
-      "raw": "heat_shock_response",
-      "link_count": 7
-    },
-    {
-      "norm_id": "proteasomal_degradation",
-      "raw": "proteasomal_degradation",
-      "link_count": 7
-    },
-    {
-      "norm_id": "ulcerative_colitis",
-      "raw": "ulcerative_colitis",
-      "link_count": 7
-    },
-    {
-      "norm_id": "dengue",
-      "raw": "dengue",
-      "link_count": 7
-    },
-    {
-      "norm_id": "bard1",
-      "raw": "bard1",
-      "link_count": 7
-    },
-    {
-      "norm_id": "dynein",
-      "raw": "dynein",
-      "link_count": 7
-    },
-    {
-      "norm_id": "carboxymethyllysine",
-      "raw": "carboxymethyllysine",
-      "link_count": 7
-    },
-    {
-      "norm_id": "rpn4",
-      "raw": "rpn4",
       "link_count": 7
     }
   ]

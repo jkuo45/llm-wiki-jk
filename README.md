@@ -5,20 +5,20 @@
 <!-- GENERATED: summary_table -->
 | topic | updated | documents | entities | words | disk |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 23_OCT_2026 | 34 | 2100 | 1,509,703 | 18.30 MB |
+| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 23_OCT_2026 | 34 | 2063 | 1,478,858 | 18.07 MB |
 | [adrenochrome](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 23_OCT_2026 | 19 | 258 | 201,773 | 2.65 MB |
-| [autophagy](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 23_OCT_2026 | 12 | 235 | 188,595 | 1.74 MB |
-| [cancer](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 23_OCT_2026 | 11 | 285 | 260,064 | 3.01 MB |
-| [cell-death](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cell-death) [[src/notes/cell-death/README\|wiki]] | 23_OCT_2026 | 11 | 99 | 110,172 | 1.16 MB |
+| [autophagy](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 21_OCT_2026 | 12 | 234 | 187,557 | 1.74 MB |
+| [cancer](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 21_OCT_2026 | 11 | 286 | 259,524 | 3.00 MB |
+| [cell-death](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cell-death) [[src/notes/cell-death/README\|wiki]] | 23_OCT_2026 | 11 | 95 | 107,604 | 1.15 MB |
 | [comt](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/comt) [[src/notes/comt/README\|wiki]] | 21_OCT_2026 | 2 | 45 | 28,241 | 0.54 MB |
-| [epigenetics](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]] | 23_OCT_2026 | 8 | 227 | 209,647 | 2.25 MB |
+| [epigenetics](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]] | 21_OCT_2026 | 8 | 225 | 208,120 | 2.24 MB |
 | [hormesis](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/hormesis) [[src/notes/hormesis/README\|wiki]] | 21_OCT_2026 | 7 | 16 | 69,625 | 0.63 MB |
 | [neuromelanin](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/neuromelanin) [[src/notes/neuromelanin/README\|wiki]] | 21_OCT_2026 | 2 | 91 | 64,406 | 0.80 MB |
-| [oxidative-stress](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/oxidative-stress) [[src/notes/oxidative-stress/README\|wiki]] | 23_OCT_2026 | 1 | 105 | 91,823 | 1.16 MB |
+| [oxidative-stress](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/oxidative-stress) [[src/notes/oxidative-stress/README\|wiki]] | 21_OCT_2026 | 1 | 104 | 91,073 | 1.16 MB |
 | [senescence](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 21_OCT_2026 | 16 | 66 | 156,813 | 2.24 MB |
 | [sirtuins](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 21_OCT_2026 | 20 | 172 | 314,060 | 3.97 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 23_OCT_2026 | **143** | **3699** | **3,204,922** | **38.46 MB** |
+| **subtotal** | 23_OCT_2026 | **143** | **3655** | **3,167,654** | **38.19 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***
@@ -30,15 +30,15 @@
 >
 > **Combined Merge**
 >
-> The combined dataset is the union of the triples and wiki graphs, deduplicated by canonical id (`norm(label)`). 3,177 entities appear in both sources (4,367 triples + 3,553 wiki − 3,177 shared → 4,885); edges are unioned by (`from`, `to`) pair — 7,099 edge pairs are shared, and an edge present in both graphs is emitted once with both sources recorded.
+> The combined dataset is the union of the triples and wiki graphs, deduplicated by canonical id (`norm(label)`). 2,158 entities appear in both sources (3,493 triples + 3,486 wiki − 2,158 shared → 4,821); edges are unioned by (`from`, `to`) pair — 3,354 edge pairs are shared, and an edge present in both graphs is emitted once with both sources recorded.
 
 | Dataset | `web/public/data/` files | Nodes | Edges |
 | :--- | :--- | ---: | ---: |
-| **Combined** *(default)* | `nodes.json, edges.json, legend.json, graph-meta.json, node_roles.json, roles-meta.json` | 4,885 | 49,376 |
-| **Triples** | `triples-*.json` | 4,367 | 11,863 |
-| **Wiki** | `wiki-*.json` | 3,553 | 46,463 |
+| **Combined** *(default)* | `nodes.json, edges.json, legend.json, graph-meta.json, node_roles.json, roles-meta.json` | 4,821 | 47,925 |
+| **Triples** | `triples-*.json` | 3,493 | 6,605 |
+| **Wiki** | `wiki-*.json` | 3,486 | 44,994 |
 
-Build: 29_OCT_2026 · hash `86117335d137840b`
+Build: 02_OCT_2026 · hash `3d9d2c9fe214c0d2`
 <!-- END GENERATED: graph_datasets -->
 
 ## 📝 Updates
@@ -135,13 +135,13 @@ Build: 29_OCT_2026 · hash `86117335d137840b`
 <details>
 <summary><strong>Documents (143 total)</strong> — click to expand</summary>
 
-- `cell-death`: [Current understanding of eryptosis mechanisms, physiological functions, role in disease, pharmaco...](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/_document_%20-%20Current%20understanding%20of%20eryptosis%20mechanisms%2C%20physiological%20functions%2C%20role%20in%20disease%2C%20pharmacological%20applications%2C%20and%20nomenclature%20recommendations.md) [[src/notes/cell-death/_document_ - Current understanding of eryptosis mechanisms, physiological functions, role in disease, pharmacological applications, and nomenclature recommendations.md|wiki]] (23_OCT_2026 08:48 AM PDT)
 - `adrenochrome`: [Dietary Advanced Glycation End Products and Aging](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/_document_%20-%20Dietary%20Advanced%20Glycation%20End%20Products%20and%20Aging.md) [[src/notes/adrenochrome/_document_ - Dietary Advanced Glycation End Products and Aging.md|wiki]] (21_OCT_2026 10:58 AM PDT)
 - `hormesis`: [2018_Oliveira_POS-conditioning-hormesis_Front-Physiol](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/hormesis/_document_%20-%202018_Oliveira_POS-conditioning-hormesis_Front-Physiol.md) [[src/notes/hormesis/_document_ - 2018_Oliveira_POS-conditioning-hormesis_Front-Physiol.md|wiki]] (21_OCT_2026 10:01 AM PDT)
 - `hormesis`: [2025_Fonseca_brosimineB-hormesis_Front-Pharmacol](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/hormesis/_document_%20-%202025_Fonseca_brosimineB-hormesis_Front-Pharmacol.md) [[src/notes/hormesis/_document_ - 2025_Fonseca_brosimineB-hormesis_Front-Pharmacol.md|wiki]] (21_OCT_2026 10:01 AM PDT)
 - `hormesis`: [2025_Kim_DAMP-trained-immunity_Front-Immunol](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/hormesis/_document_%20-%202025_Kim_DAMP-trained-immunity_Front-Immunol.md) [[src/notes/hormesis/_document_ - 2025_Kim_DAMP-trained-immunity_Front-Immunol.md|wiki]] (21_OCT_2026 10:01 AM PDT)
 - `hormesis`: [2025_dietary-hormesis-beyond-nutrition_NPJ-SciFood](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/hormesis/_document_%20-%202025_dietary-hormesis-beyond-nutrition_NPJ-SciFood.md) [[src/notes/hormesis/_document_ - 2025_dietary-hormesis-beyond-nutrition_NPJ-SciFood.md|wiki]] (21_OCT_2026 10:01 AM PDT)
 - `_link`: [Proximity-guided graph learning reveals tumour-associated proximity antigens](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/_document_%20-%20Proximity-guided%20graph%20learning%20reveals%20tumour-associated%20proximity%20antigens.md) [[src/notes/_link/_document_ - Proximity-guided graph learning reveals tumour-associated proximity antigens.md|wiki]] (20_OCT_2026 07:55 PM PDT)
+- `cell-death`: [Current understanding of eryptosis mechanisms, physiological functions, role in disease, pharmaco...](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/_document_%20-%20Current%20understanding%20of%20eryptosis%20mechanisms%2C%20physiological%20functions%2C%20role%20in%20disease%2C%20pharmacological%20applications%2C%20and%20nomenclature%20recommendations.md) [[src/notes/cell-death/_document_ - Current understanding of eryptosis mechanisms, physiological functions, role in disease, pharmacological applications, and nomenclature recommendations.md|wiki]] (08_OCT_2026 11:56 PM PDT)
 - `autophagy`: [From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/autophagy/_document_%20-%20From%20the%20regulatory%20mechanism%20of%20TFEB%20to%20its%20therapeutic%20implications%20-%20Cell%20Death%20Discovery.md) [[src/notes/autophagy/_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery.md|wiki]] (02_OCT_2026 07:22 AM PDT)
 - `senescence`: [Senecent cell activate neighboring macrophages](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/_document_%20-%20Senecent%20cell%20activate%20neighboring%20macrophages.md) [[src/notes/senescence/_document_ - Senecent cell activate neighboring macrophages.md|wiki]] (02_OCT_2026 07:22 AM PDT)
 - `autophagy`: [s41514-026-00424-3_reference_mitophagy_neuroprotection](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/autophagy/_document_%20-%20s41514-026-00424-3_reference_mitophagy_neuroprotection.md) [[src/notes/autophagy/_document_ - s41514-026-00424-3_reference_mitophagy_neuroprotection.md|wiki]] (01_OCT_2026 10:01 PM PDT)
@@ -288,9 +288,9 @@ Build: 29_OCT_2026 · hash `86117335d137840b`
 <details>
 <summary><strong>Tasks (127 total)</strong> — click to expand</summary>
 
-- [task_output_eryptosis_review_vs_cell_death_01_Oct_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md) [[src/tasks/task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md|wiki]] (23_OCT_2026 08:48 AM PDT)
 - [task_output_nad_metabolism_cd38_sarm1_20_Oct_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_nad_metabolism_cd38_sarm1_20_Oct_2026.md) [[src/tasks/task_output_nad_metabolism_cd38_sarm1_20_Oct_2026.md|wiki]] (21_OCT_2026 06:40 AM PDT)
 - [task_output_biomarker_gate_supply_chain_procurement_04_Oct_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_biomarker_gate_supply_chain_procurement_04_Oct_2026.md) [[src/tasks/task_output_biomarker_gate_supply_chain_procurement_04_Oct_2026.md|wiki]] (04_OCT_2026 07:18 PM PDT)
+- [task_output_eryptosis_review_vs_cell_death_01_Oct_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md) [[src/tasks/task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md|wiki]] (04_OCT_2026 01:21 PM PDT)
 - [task_output_bioactive_compounds_aging_formulations_17_Sep_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_bioactive_compounds_aging_formulations_17_Sep_2026.md) [[src/tasks/task_output_bioactive_compounds_aging_formulations_17_Sep_2026.md|wiki]] (29_SEP_2026 05:23 PM PDT)
 - [task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md) [[src/tasks/task_output_neurodegeneration_review_ad_pd_hd_als_29_AUG_2026.md|wiki]] (29_SEP_2026 11:00 AM PDT)
 - [`adrenochrome_mb_ag/` outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md) [[src/tasks/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md|wiki]] (29_SEP_2026 10:48 AM PDT)
