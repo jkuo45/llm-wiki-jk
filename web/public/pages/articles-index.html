@@ -245,7 +245,7 @@
           html += group.map((a) => `
             <li class="article-card card ${ACCENTS[a._idx % ACCENTS.length]}${a.weight > 0 ? ' is-index' : ''}">
               <h2 class="article-title"><a href="${esc(a.enPath)}" data-article-id="${esc(a.id)}">${highlight(a.display, tokens)}</a></h2>
-              <p class="article-zh"><a href="${esc(a.zhPath)}" data-article-id="${esc(a.id)}-zh" lang="zh-TW">${highlight(a.zhTitle, tokens)}</a></p>
+              ${a.zhTitle ? `<p class="article-zh"><a href="${esc(a.zhPath)}" data-article-id="${esc(a.id)}-zh" lang="zh-TW">${highlight(a.zhTitle, tokens)}</a></p>` : ''}
               ${a.desc ? `<p class="article-desc">${highlight(a.desc, tokens)}</p>` : ''}
               <p class="article-meta"><span class="badge fill">${esc(a.id)}</span>${a.starred ? '<span class="card-star" title="Starred">★</span>' : ''}</p>
               <p class="article-meta"><span class="${cls}">${!a.latest ? 'date unknown' : a.age === 'today' ? `${a.verb} today` : `${a.verb} ${esc(a.age)} ago`}</span>${statChips(a.stats)}</p>

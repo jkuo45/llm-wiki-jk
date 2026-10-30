@@ -1,0 +1,1548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GTPase Signaling — the cell's switchboard, from Ras to Rab</title>
+<meta name="description" content="Visual guide to GTPase signaling: the GDP/GTP nucleotide cycle (GEF, GAP, GDI), GTPase fold architecture (P-loop, switch I/II, CAAX prenylation), the five small-GTPase families and their effectors, and four worked cases — Rho-family polarity control, the Rab5-to-Rab7 conversion that gates autophagic flux, the TSC/Rheb/mTORC1 brake, and NADPH-oxidase assembly. Includes family-size, hydrolysis-kinetics and KRAS-mutation charts. Based on the llm-wiki-jk knowledge base.">
+<link rel="canonical" href="https://graph.johnnykuo.com/pages/en-US/gtpase-signaling.html">
+<link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/gtpase-signaling.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#9881;</text></svg>">
+<link rel="stylesheet" href="../themes/theme-01/pages.css">
+<link rel="stylesheet" href="../themes/theme-01/pages-light.css" id="theme-light">
+<link rel="stylesheet" href="../themes/theme-01/pages-article.css">
+<script src="../themes/theme-01/page-theme.js"></script>
+<script src="../themes/shared/nav-auto-hide.js"></script>
+<style>
+  /* page-specific only — shared components live in themes/theme-01/ */
+  #fam .tbl-wrap{ --tbl-col-1:"Family"; --tbl-col-2:"GEF / GAP / GDI"; --tbl-col-3:"Effectors"; --tbl-col-4:"Primary output"; }
+  #dis .tbl-wrap{ --tbl-col-1:"Disease"; --tbl-col-2:"GTPase node"; --tbl-col-3:"Mechanism"; --tbl-col-4:"Evidence"; }
+  #drug .tbl-wrap{ --tbl-col-1:"Target"; --tbl-col-2:"Compound"; --tbl-col-3:"Status"; --tbl-col-4:"Note"; }
+  .legend-row{display:flex; flex-wrap:wrap; gap:16px; font-size:.8rem; color:var(--dim); margin-top:10px;}
+  .legend-row span{display:flex; align-items:center; gap:6px;}
+  .sw{width:12px; height:12px; border-radius:3px; display:inline-block;}
+  a.badge{text-decoration:none; cursor:pointer;}
+  a.badge:hover{filter:brightness(1.15); border-color:var(--teal);}
+  .kv{font-size:.86rem; color:var(--dim);}
+  .kv b{color:var(--text);}
+  .fig-canvas svg text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
+</style>
+</head>
+<body style="--wrap-width:1200px;">
+
+<nav>
+  <div class="wrap">
+    <a id="back-home" class="back-home" href="../index.html" title="Back to articles index">&#8592; Back</a>
+    <a class="n" href="#overview">Overview</a>
+    <a class="n" href="#cycle">The Cycle</a>
+    <a class="n" href="#fold">Architecture</a>
+    <a class="n" href="#families">Families</a>
+    <a class="n" href="#matrix">Output Map</a>
+    <a class="n" href="#rho">Rho Case</a>
+    <a class="n" href="#rab">Rab Case</a>
+    <a class="n" href="#rheb">Rheb Case</a>
+    <a class="n" href="#nox">NOX Case</a>
+    <a class="n" href="#disease">Disease</a>
+    <a class="n" href="#drugs">Drugs</a>
+    <a class="n" href="#sources">Sources</a>
+  </div>
+</nav>
+
+<header>
+  <div class="wrap">
+    <div class="kicker">Signaling · Molecular Switches · 2026</div>
+    <h1>GTPase signaling — the cell's switchboard</h1>
+    <p class="lead" style="margin-top:14px;">
+      <b style="color:var(--text)">GTPases</b> are the cell's fast, reversible switches. A small GTPase is
+      <b style="color:var(--text)">on</b> when it holds GTP and <b style="color:var(--text)">off</b> when it holds
+      GDP; the energy of hydrolysis is what lets one molecule recruit many effectors before it shuts off again.
+      The same architecture is reused for growth signaling ([[RAS]] → ERK), actin organisation
+      ([[RhoA]], [[Rac1]], [[Cdc42]]), membrane identity ([[Rab5]] → [[Rab7]]), coat assembly ([[Arf1]]), and
+      the physical scission of membranes ([[Dynamin]]). Because a switch that cannot be turned off is a
+      disease — oncogenic Ras, a missing brake ([[GAP]]), a GTPase that never reaches its membrane — the
+      GTPase cycle sits upstream of most of what this wiki cares about: autophagy flux, ROS, and the
+      cytoskeleton that senescence and stress leave behind.
+    </p>
+    <div class="meta">
+      Sources: llm-wiki-jk vault notes
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/GTPase.md" target="_blank" rel="noopener noreferrer"><code>src/notes/_link/GTPase.md</code></a>,
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/GAP.md" target="_blank" rel="noopener noreferrer"><code>GAP.md</code></a>,
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Rac1.md" target="_blank" rel="noopener noreferrer"><code>Rac1.md</code></a>,
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/RhoA.md" target="_blank" rel="noopener noreferrer"><code>RhoA.md</code></a>,
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Cdc42.md" target="_blank" rel="noopener noreferrer"><code>Cdc42.md</code></a>,
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/src/notes/autophagy/Rab7.md" target="_blank" rel="noopener noreferrer"><code>Rab7.md</code></a>
+    </div>
+    <div class="pill-row">
+      <a class="badge teal" href="#cycle">GEF &#8594; GTP &#8594; GAP</a>
+      <a class="badge" href="#fold">P-loop &#183; switch I/II &#183; CAAX</a>
+      <a class="badge amber" href="#families">Ras &#183; Rho &#183; Rab &#183; Arf &#183; Dynamin</a>
+      <a class="badge" href="#rho">RhoA vs Rac1 vs Cdc42</a>
+      <a class="badge teal" href="#rab">Rab5 &#8594; Rab7 &#183; autophagic flux</a>
+      <a class="badge" href="#rheb">TSC / Rheb / mTORC1 brake</a>
+      <a class="badge red" href="#nox">Rac1 &#183; Cdc42 &#8594; NOX &#8594; ROS</a>
+      <a class="badge red" href="#disease">oncogenic RAS &#183; Mendelian disease</a>
+    </div>
+  </div>
+</header>
+
+<!-- ============ OVERVIEW ============ -->
+<section id="overview">
+  <div class="wrap">
+    <h2>One cycle, dozens of families</h2>
+    <p class="lead">
+      Almost every fast decision a cell makes is made by a nucleotide switch. The biochemistry is
+      stereotyped: a GEF loads GTP, the GTP-bound protein presents a new binding surface, a GAP
+      hydrolyses the γ-phosphate, and the protein returns to its GDP-bound, effector-incompetent
+      state. What changes between families is the <i>effector cohort</i> — what the exposed surface
+      recruits — and the <i>compartment</i> in which the switch is allowed to happen.
+    </p>
+
+    <div class="grid g3" style="margin-top:20px;">
+      <div class="card">
+        <h3 style="color:var(--teal);">Fast, reversible, amplifiable</h3>
+        <p class="kv">
+          A single GTP-bound GTPase can recruit dozens of effector molecules before hydrolysis
+          shuts it down, so one activated receptor can produce a large, graded output. Switching
+          costs seconds, not hours — which is why GTPases carry the fast layer of signaling and
+          kinases carry the slow one.
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--amber);">Spatial confinement is part of the signal</h3>
+        <p class="kv">
+          A lipid anchor (CAAX prenylation) and an extractant (GDI) tie "on/off" to "where". Rho-family
+          GTPases spend most of their life GDP-bound and cytosolic, held by RhoGDI; only a local GEF at
+          the right membrane loads them. A signal that is correct in bulk but wrong in place is a
+          disease, not a signal.
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--red);">The brake is as important as the accelerator</h3>
+        <p class="kv">
+          Cells express far more inactive than active GTPase at any moment. A GAP is a brake, not an
+          off-switch on a running motor: losing one does not block signaling, it makes it
+          <i>persist</i>. That is why the best-known tumour suppressors in this family — NF1 for Ras,
+          TSC2 for Rheb — are GAPs.
+        </p>
+      </div>
+    </div>
+
+    <div class="callout teal" style="margin-top:22px;">
+      <span class="callout-tag">Why this page exists</span>
+      <p>
+        The vault already contains the individual nodes — [[GTPase]], [[GAP]], [[Rac1]], [[RhoA]],
+        [[Cdc42]], [[Rab5]], [[Rab7]], [[Arf1]], [[Dynamin]], [[RAS]], [[KRAS]]. What was missing was the
+        connective tissue: which family does what, how the cycle generates the output, and where the
+        switch ties into this wiki's three themes — <b>autophagy</b> (the [[Rab7]] fusion step),
+        <b>oxidative stress</b> (the NOX complex), and <b>nutrient sensing</b> (the Rheb–mTORC1 brake).
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ THE CYCLE ============ -->
+<section id="cycle">
+  <div class="wrap">
+    <h2>The nucleotide cycle</h2>
+    <p class="lead">
+      A GTPase is a P-loop NTPase that reads the state of the guanine nucleotide it carries.
+      Three classes of partner set the state, and one structural feature reads it.
+    </p>
+
+    <figure class="fig">
+      <div class="fig-canvas">
+        <svg id="cycleSvg" viewBox="0 0 1000 500" role="img" aria-labelledby="cycleTitle">
+          <title id="cycleTitle">The GTPase nucleotide cycle: GEF loads GTP, effectors bind the exposed switch surface, GAP hydrolyses the gamma phosphate, GDI returns the inactive protein to the cytosol</title>
+          <defs>
+            <marker id="mTeal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" class="teal-f"/>
+            </marker>
+            <marker id="mRed" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" class="red-f"/>
+            </marker>
+            <marker id="mAmber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" class="amber-f"/>
+            </marker>
+            <marker id="mMute" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" class="s-mute"/>
+            </marker>
+          </defs>
+
+          <!-- OFF state -->
+          <circle cx="270" cy="250" r="108" class="panel-f" stroke-width="2" stroke="var(--line2)"/>
+          <text x="270" y="218" class="s-text" font-size="26" font-weight="700" text-anchor="middle">OFF</text>
+          <text x="270" y="248" class="s-mute" font-size="16" text-anchor="middle">GDP-bound</text>
+          <text x="270" y="278" class="s-dim" font-size="13" text-anchor="middle">switch I/II collapsed</text>
+          <text x="270" y="298" class="s-dim" font-size="13" text-anchor="middle">no effector surface</text>
+          <text x="270" y="332" class="s-mute" font-size="12" text-anchor="middle">cytosolic, GDI-bound</text>
+
+          <!-- ON state -->
+          <circle cx="640" cy="250" r="108" class="panel-f" stroke-width="2.5" stroke="var(--teal)"/>
+          <text x="640" y="218" class="s-teal" font-size="26" font-weight="700" text-anchor="middle">ON</text>
+          <text x="640" y="248" class="s-teal" font-size="16" text-anchor="middle">GTP-bound</text>
+          <text x="640" y="278" class="s-dim" font-size="13" text-anchor="middle">switch I/II rearranged</text>
+          <text x="640" y="298" class="s-dim" font-size="13" text-anchor="middle">effector surface exposed</text>
+          <text x="640" y="332" class="s-mute" font-size="12" text-anchor="middle">membrane-anchored</text>
+
+          <!-- GEF arc (up) -->
+          <path d="M 338 168 Q 455 100 572 168" fill="none" stroke="var(--teal)" stroke-width="3" marker-end="url(#mTeal)"/>
+          <text x="455" y="58" class="s-teal" font-size="18" font-weight="700" text-anchor="middle">GEF</text>
+          <text x="455" y="78" class="s-dim" font-size="12.5" text-anchor="middle">guanine nucleotide exchange factor</text>
+          <text x="455" y="95" class="s-dim" font-size="12.5" text-anchor="middle">destabilises the GDP pocket; cytosolic GTP loads</text>
+
+          <!-- GAP arc (down) -->
+          <path d="M 572 332 Q 455 412 338 332" fill="none" stroke="var(--red)" stroke-width="3" marker-end="url(#mRed)"/>
+          <text x="455" y="452" class="s-red" font-size="18" font-weight="700" text-anchor="middle">GAP</text>
+          <text x="455" y="472" class="s-dim" font-size="12.5" text-anchor="middle">GTPase-activating protein</text>
+          <text x="455" y="489" class="s-dim" font-size="12.5" text-anchor="middle">arginine finger &#8594; hydrolysis &#8594; GDP + P<tspan baseline-shift="sub" font-size="9">i</tspan></text>
+
+          <!-- GDI -->
+          <rect x="24" y="368" width="256" height="84" rx="10" class="panel-f" stroke="var(--line2)" stroke-width="1.5"/>
+          <text x="152" y="392" class="s-amber" font-size="14.5" font-weight="700" text-anchor="middle">GDI</text>
+          <text x="152" y="412" class="s-dim" font-size="12" text-anchor="middle">masks the prenyl group and extracts</text>
+          <text x="152" y="429" class="s-dim" font-size="12" text-anchor="middle">the GDP-bound protein from the</text>
+          <text x="152" y="446" class="s-dim" font-size="12" text-anchor="middle">membrane into the cytosol</text>
+          <path d="M 258 344 L 214 366" fill="none" stroke="var(--amber)" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#mAmber)"/>
+
+          <!-- effectors panel -->
+          <rect x="790" y="120" width="200" height="262" rx="12" class="panel-f" stroke="var(--line2)" stroke-width="1.5"/>
+          <text x="890" y="146" class="s-text" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="1">EFFECTORS</text>
+          <line x1="806" y1="158" x2="974" y2="158" stroke="var(--line)" stroke-width="1"/>
+          <text x="806" y="180" class="s-dim" font-size="12.5">PAK1 / PAK4 &#8594; MAPK, JNK</text>
+          <text x="806" y="202" class="s-dim" font-size="12.5">WAVE &#8594; Arp2/3, lamellipodia</text>
+          <text x="806" y="224" class="s-dim" font-size="12.5">ROCK / mDia &#8594; tension</text>
+          <text x="806" y="246" class="s-dim" font-size="12.5">p67phox &#8594; NOX &#8594; ROS</text>
+          <text x="806" y="268" class="s-dim" font-size="12.5">PI3K, RalGDS, EEA1, HOPS</text>
+          <text x="806" y="290" class="s-dim" font-size="12.5">GEFs for other GTPases</text>
+          <text x="806" y="312" class="s-dim" font-size="12.5">lipid kinases, scaffolds</text>
+          <text x="806" y="340" class="s-mute" font-size="11.5">effectors read switch I/II</text>
+          <text x="806" y="358" class="s-mute" font-size="11.5">and often the G4 tetrad</text>
+          <path d="M 748 250 L 784 250" fill="none" stroke="var(--teal)" stroke-width="2.5" marker-end="url(#mTeal)"/>
+        </svg>
+      </div>
+      <figcaption class="fig-cap">
+        <b>Figure 1 — the switch.</b> The GEF/GAP cycle is the whole mechanism; everything else in this
+        page is a description of what the exposed switch surface does and where the cycle is allowed to
+        run. GEFs turn the switch on by catalysing GDP release; GAPs turn it off by supplying a catalytic
+        arginine ("arginine finger") that stabilises the transition state of hydrolysis, typically
+        accelerating the reaction by 10<sup>2</sup>–10<sup>3</sup>-fold. The GDI arm is what makes the
+        cycle spatially restricted: the inactive, GDP-bound protein is extracted from the membrane and
+        held in the cytosol until a local GEF releases it.
+      </figcaption>
+    </figure>
+
+    <h3 style="margin-top:26px;">How fast does the switch turn off?</h3>
+    <p>
+      Because the brake is a catalyst, the intrinsic hydrolysis rate of the GTPase sets the ceiling on
+      how long a signal can persist without a GAP. Ras-family and Arf-family GTPases are intrinsically
+      slow — a Ras-GTP molecule survives for minutes to hours — which is precisely why they need GAPs to
+      be switch-like at all. Rab GTPases and dynamin are intrinsically far faster, so they can be
+      regulated by localisation alone.
+    </p>
+
+    <figure class="fig">
+      <div class="fig-canvas">
+        <svg id="kineticsSvg" viewBox="0 0 1000 470" role="img" aria-labelledby="kineticsTitle">
+        <title id="kineticsTitle">Approximate GTP hydrolysis rates of representative GTPases, with and without a GTPase-activating protein</title>
+        <line x1="150" y1="320.0" x2="960" y2="320.0" class="stroke-line" stroke-width="1"/>
+        <text x="136" y="325.0" class="s-mute" font-size="13" text-anchor="end">10<tspan baseline-shift="super" font-size="10">-3</tspan></text>
+        <line x1="150" y1="252.5" x2="960" y2="252.5" class="stroke-line" stroke-width="1"/>
+        <text x="136" y="257.5" class="s-mute" font-size="13" text-anchor="end">10<tspan baseline-shift="super" font-size="10">-2</tspan></text>
+        <line x1="150" y1="185.0" x2="960" y2="185.0" class="stroke-line" stroke-width="1"/>
+        <text x="136" y="190.0" class="s-mute" font-size="13" text-anchor="end">10<tspan baseline-shift="super" font-size="10">-1</tspan></text>
+        <line x1="150" y1="117.5" x2="960" y2="117.5" class="stroke-line" stroke-width="1"/>
+        <text x="136" y="122.5" class="s-mute" font-size="13" text-anchor="end">10<tspan baseline-shift="super" font-size="10">0</tspan></text>
+        <line x1="150" y1="50.0" x2="960" y2="50.0" class="stroke-line" stroke-width="1"/>
+        <text x="136" y="55.0" class="s-mute" font-size="13" text-anchor="end">10<tspan baseline-shift="super" font-size="10">1</tspan></text>
+        <line x1="150" y1="50" x2="150" y2="320" class="stroke-line2" stroke-width="1.5"/>
+        <line x1="150" y1="320" x2="960" y2="320" class="stroke-line2" stroke-width="1.5"/>
+        <text x="555" y="428" class="s-dim" font-size="13" text-anchor="middle">log scale &#183; GTP hydrolysis turnover number k<tspan baseline-shift="sub" font-size="10">cat</tspan> (s<tspan baseline-shift="super" font-size="10">&#8722;1</tspan>)</text>
+        <text x="26" y="185" class="s-dim" font-size="13" text-anchor="middle" transform="rotate(-90 26 185)">faster hydrolysis &#8594;</text>
+        <rect x="175.5" y="320.0" width="64.8" height="0.0" rx="4" class="s-mute" fill-opacity="0.55"/>
+        <text x="207.9" y="311.0" class="s-text" font-size="12.5" font-weight="700" text-anchor="middle">0.001</text>
+        <text x="207.9" y="344" class="s-text" font-size="12.5" text-anchor="middle">Ras (KRAS)</text>
+        <text x="207.9" y="361" class="s-text" font-size="12.5" text-anchor="middle">intrinsic</text>
+        <text x="207.9" y="380" class="s-mute" font-size="11" text-anchor="middle">no GAP</text>
+        <rect x="291.2" y="117.5" width="64.8" height="202.5" rx="4" class="teal-f"/>
+        <text x="323.6" y="108.5" class="s-text" font-size="12.5" font-weight="700" text-anchor="middle">1</text>
+        <text x="323.6" y="344" class="s-text" font-size="12.5" text-anchor="middle">Ras + NF1</text>
+        <text x="323.6" y="361" class="s-text" font-size="12.5" text-anchor="middle">RasGAP</text>
+        <text x="323.6" y="380" class="s-mute" font-size="11" text-anchor="middle">GAP-catalysed</text>
+        <rect x="406.9" y="252.5" width="64.8" height="67.5" rx="4" class="s-mute" fill-opacity="0.55"/>
+        <text x="439.3" y="243.5" class="s-text" font-size="12.5" font-weight="700" text-anchor="middle">0.01</text>
+        <text x="439.3" y="344" class="s-text" font-size="12.5" text-anchor="middle">Rheb</text>
+        <text x="439.3" y="361" class="s-text" font-size="12.5" text-anchor="middle">intrinsic</text>
+        <text x="439.3" y="380" class="s-mute" font-size="11" text-anchor="middle">no GAP</text>
+        <rect x="522.6" y="185.0" width="64.8" height="135.0" rx="4" class="teal-f"/>
+        <text x="555.0" y="176.0" class="s-text" font-size="12.5" font-weight="700" text-anchor="middle">0.1</text>
+        <text x="555.0" y="344" class="s-text" font-size="12.5" text-anchor="middle">Rheb + TSC2</text>
+        <text x="555.0" y="361" class="s-text" font-size="12.5" text-anchor="middle">TSC GAP</text>
+        <text x="555.0" y="380" class="s-mute" font-size="11" text-anchor="middle">GAP-catalysed</text>
+        <rect x="638.3" y="252.5" width="64.8" height="67.5" rx="4" class="s-mute" fill-opacity="0.55"/>
+        <text x="670.7" y="243.5" class="s-text" font-size="12.5" font-weight="700" text-anchor="middle">0.01</text>
+        <text x="670.7" y="344" class="s-text" font-size="12.5" text-anchor="middle">Rab7</text>
+        <text x="670.7" y="361" class="s-text" font-size="12.5" text-anchor="middle">intrinsic</text>
+        <text x="670.7" y="380" class="s-mute" font-size="11" text-anchor="middle">no GAP</text>
+        <rect x="754.0" y="320.0" width="64.8" height="0.0" rx="4" class="s-mute" fill-opacity="0.55"/>
+        <text x="786.4" y="311.0" class="s-text" font-size="12.5" font-weight="700" text-anchor="middle">0.001</text>
+        <text x="786.4" y="344" class="s-text" font-size="12.5" text-anchor="middle">Arf1</text>
+        <text x="786.4" y="361" class="s-text" font-size="12.5" text-anchor="middle">intrinsic</text>
+        <text x="786.4" y="380" class="s-mute" font-size="11" text-anchor="middle">no GAP</text>
+        <rect x="869.7" y="50.0" width="64.8" height="270.0" rx="4" class="amber-f"/>
+        <text x="902.1" y="41.0" class="s-text" font-size="12.5" font-weight="700" text-anchor="middle">10</text>
+        <text x="902.1" y="344" class="s-text" font-size="12.5" text-anchor="middle">Dynamin-1</text>
+        <text x="902.1" y="361" class="s-text" font-size="12.5" text-anchor="middle">on lipid</text>
+        <text x="902.1" y="380" class="s-mute" font-size="11" text-anchor="middle">assembled collar</text>
+        </svg>
+      </div>
+      <figcaption class="fig-cap">
+        <b>Figure 2 — representative turnover rates.</b> Order-of-magnitude values for GTP
+        hydrolysis (k<sub>cat</sub>, s<sup>−1</sup>); exact figures depend on nucleotide concentration,
+        Mg<sup>2+</sup>, lipid binding and assay format. The point of the chart is the <i>gap</i> between
+        the dim bars (intrinsic) and the teal bars (GAP-catalysed) for Ras and Rheb, versus the
+        already-fast intrinsic rates of Rab7 and dynamin-1. Ras is the extreme case: without a GAP its
+        GTP-bound state would persist far longer than any biological signal.
+      </figcaption>
+    </figure>
+
+    <div class="callout" style="margin-top:20px;">
+      <span class="callout-tag">Reading the cycle as logic</span>
+      <p>
+        <b>GEF</b> = accelerate (catalyse the slow step). <b>GAP</b> = brake (catalyse the reverse).
+        <b>GDI</b> = localisation. A node that is only a GEF makes a signal that persists; a node that is
+        only a GAP makes a signal that cannot be sustained; a node that is only a GDI makes a signal that
+        cannot be localised. Disease follows when a brake is lost ([[NF1]] loss in neurofibromatosis,
+        [[TSC2]] loss in tuberous sclerosis) or when a switch is pinned on (oncogenic [[KRAS]]).
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ARCHITECTURE ============ -->
+<section id="fold">
+  <div class="wrap">
+    <h2>What the switch is made of</h2>
+    <p class="lead">
+      Small GTPases are 20–25 kDa proteins built on the Ras fold. Two parts matter: a catalytic
+      <b>G domain</b> that reads the nucleotide, and a C-terminal <b>hypervariable region (HVR)</b>
+      that decides where the protein goes and which effectors it can engage.
+    </p>
+
+    <figure class="fig">
+      <div class="fig-canvas">
+        <svg id="foldSvg" viewBox="0 0 1000 400" role="img" aria-labelledby="foldTitle">
+          <title id="foldTitle">Architecture of a small GTPase: the G domain with P-loop, switch I and II, G4 tetrad and allosteric motifs, plus the hypervariable region carrying a prenylated CAAX box</title>
+          <defs>
+            <marker id="mTeal2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" class="teal-f"/>
+            </marker>
+            <marker id="mAmber2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" class="amber-f"/>
+            </marker>
+          </defs>
+
+          <!-- G domain -->
+          <rect x="30" y="60" width="530" height="240" rx="20" class="panel-f" stroke="var(--line2)" stroke-width="1.5"/>
+          <text x="52" y="88" class="s-text" font-size="16" font-weight="700">G domain (Ras fold) &#183; residues 1&#8211;166</text>
+
+          <rect x="52" y="104" width="150" height="48" rx="8" class="card-f" stroke="var(--teal)" stroke-width="1.5"/>
+          <text x="127" y="126" class="s-teal" font-size="13.5" font-weight="700" text-anchor="middle">P-loop (Walker A)</text>
+          <text x="127" y="143" class="s-dim" font-size="11.5" text-anchor="middle">GxxxxGK[ST]</text>
+
+          <rect x="214" y="104" width="152" height="48" rx="8" class="card-f" stroke="var(--amber)" stroke-width="1.5"/>
+          <text x="290" y="126" class="s-amber" font-size="13.5" font-weight="700" text-anchor="middle">Switch I</text>
+          <text x="290" y="143" class="s-dim" font-size="11.5" text-anchor="middle">effector contact surface</text>
+
+          <rect x="378" y="104" width="152" height="48" rx="8" class="card-f" stroke="var(--amber)" stroke-width="1.5"/>
+          <text x="454" y="126" class="s-amber" font-size="13.5" font-weight="700" text-anchor="middle">Switch II</text>
+          <text x="454" y="143" class="s-dim" font-size="11.5" text-anchor="middle">GAP contact surface</text>
+
+          <rect x="52" y="166" width="150" height="48" rx="8" class="card-f" stroke="var(--purple)" stroke-width="1.5"/>
+          <text x="127" y="188" class="s-purple" font-size="13.5" font-weight="700" text-anchor="middle">G4 tetrad</text>
+          <text x="127" y="205" class="s-dim" font-size="11.5" text-anchor="middle">reads the guanine base</text>
+
+          <rect x="214" y="166" width="152" height="48" rx="8" class="card-f" stroke="var(--blue)" stroke-width="1.5"/>
+          <text x="290" y="188" class="s-blue" font-size="13.5" font-weight="700" text-anchor="middle">N/TKXD &#183; ExSAK</text>
+          <text x="290" y="205" class="s-dim" font-size="11.5" text-anchor="middle">allosteric, family-specific</text>
+
+          <rect x="378" y="166" width="152" height="48" rx="8" class="card-f" stroke="var(--red)" stroke-width="1.5"/>
+          <text x="454" y="188" class="s-red" font-size="13.5" font-weight="700" text-anchor="middle">Insert region</text>
+          <text x="454" y="205" class="s-dim" font-size="11.5" text-anchor="middle">Rho family hallmark</text>
+
+          <text x="52" y="248" class="s-dim" font-size="13">Mg<tspan baseline-shift="super" font-size="9">2+</tspan>-coordinated phosphate binding and hydrolysis;</text>
+          <text x="52" y="268" class="s-dim" font-size="13">the &#947;-phosphate is what pushes switch I and II apart in the GTP-bound state.</text>
+          <text x="52" y="288" class="s-mute" font-size="12">Hot-spot residues: G12/G13, Q61 (Ras) &#183; G14/G15, Q63 (RhoA)</text>
+
+          <!-- HVR -->
+          <rect x="600" y="60" width="370" height="150" rx="16" class="panel-f" stroke="var(--line2)" stroke-width="1.5"/>
+          <text x="620" y="86" class="s-text" font-size="15.5" font-weight="700">Hypervariable region (HVR) &#183; C-terminus</text>
+          <rect x="620" y="100" width="104" height="44" rx="8" class="card-f" stroke="var(--line2)" stroke-width="1.2"/>
+          <text x="672" y="120" class="s-dim" font-size="12.5" text-anchor="middle">polybasic</text>
+          <text x="672" y="136" class="s-mute" font-size="11" text-anchor="middle">(+ NLS)</text>
+          <rect x="734" y="100" width="104" height="44" rx="8" class="card-f" stroke="var(--line2)" stroke-width="1.2"/>
+          <text x="786" y="120" class="s-dim" font-size="12.5" text-anchor="middle">proline-rich</text>
+          <text x="786" y="136" class="s-mute" font-size="11" text-anchor="middle">SH3 binding</text>
+          <rect x="848" y="100" width="104" height="44" rx="8" class="card-f" stroke="var(--teal)" stroke-width="1.5"/>
+          <text x="900" y="120" class="s-teal" font-size="12.5" font-weight="700" text-anchor="middle">CAAX box</text>
+          <text x="900" y="136" class="s-mute" font-size="11" text-anchor="middle">prenyl site</text>
+          <text x="620" y="172" class="s-dim" font-size="12.5">Because RAC1/2/3 G-domains are ~90% identical, specificity</text>
+          <text x="620" y="192" class="s-dim" font-size="12.5">comes from the HVR: membrane address + effector choice.</text>
+
+          <!-- prenyl + membrane -->
+          <path d="M 900 214 L 900 246" fill="none" stroke="var(--teal)" stroke-width="2.5" marker-end="url(#mTeal2)"/>
+          <text x="884" y="236" class="s-teal" font-size="11.5" text-anchor="end">geranylgeranyl (or farnesyl) lipid anchor</text>
+          <rect x="600" y="256" width="370" height="16" rx="6" class="teal-f" fill-opacity="0.28"/>
+          <text x="628" y="292" class="s-dim" font-size="12.5">membrane &#8212; the switch only runs where it is anchored</text>
+          <text x="970" y="312" class="s-amber" font-size="11.5" text-anchor="end">GDI masks the prenyl group and extracts the GDP-bound</text>
+          <text x="970" y="328" class="s-amber" font-size="11.5" text-anchor="end">protein back into the cytosol</text>
+          <path d="M 600 288 L 566 288" fill="none" stroke="var(--amber)" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#mAmber2)"/>
+
+          <!-- effector arrow -->
+          <path d="M 200 330 L 200 306" fill="none" stroke="var(--teal)" stroke-width="2.5" marker-end="url(#mTeal2)"/>
+          <text x="212" y="330" class="s-teal" font-size="12">switch I/II surface &#8594; effectors</text>
+        </svg>
+      </div>
+      <figcaption class="fig-cap">
+        <b>Figure 3 — the GTPase fold and its tail.</b> The G domain is nearly identical across the
+        superfamily, which is why the same GEF/GAP/GDI logic works everywhere. The
+        <b>hypervariable region</b> is where the families diverge: it carries the prenylated CAAX box
+        that anchors the protein, a polybasic region, and a proline-rich stretch that binds SH3 domains.
+        It also contributes directly to effector engagement — the same tail that says <i>where</i> also
+        says <i>to whom</i>.
+      </figcaption>
+    </figure>
+
+    <div class="grid g2" style="margin-top:8px;">
+      <div class="card">
+        <h3 style="color:var(--teal);">Why switch I and switch II matter</h3>
+        <p class="kv">
+          When the γ-phosphate is present, the two switch regions rearrange relative to each other and
+          create a high-affinity effector-binding surface. GAPs dock on switch II — which is why a GAP
+          can catalyse hydrolysis and simultaneously occlude the effector site, making the switch turn
+          off cleanly rather than merely slowly.
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--amber);">Bigger GTPases use the same chemistry</h3>
+        <p class="kv">
+          [[Dynamin]] (~100 kDa) and the trimeric G-protein α subunits keep the Ras-like catalytic
+          fold and add effector-binding, oligomerisation and membrane-targeting modules. Dynamin turns
+          the energy of hydrolysis into <i>mechanical work</i> — it is a GTPase that severs membranes
+          rather than one that relays a signal.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAMILIES ============ -->
+<section id="families">
+  <div class="wrap">
+    <h2>Five families, five jobs</h2>
+    <p class="lead">
+      The small-GTPase superfamily splits into families that share an effector vocabulary. If you know
+      which family a protein belongs to, you can predict most of what it does.
+    </p>
+
+    <figure class="fig">
+      <div class="fig-canvas">
+        <svg id="famMapSvg" viewBox="0 0 1000 520" role="img" aria-labelledby="famMapTitle">
+          <title id="famMapTitle">Map of five small GTPase families: members, their GEF and GAP regulators, their principal effectors and their primary cellular output</title>
+          <defs>
+            <marker id="mMute2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" class="s-mute"/>
+            </marker>
+          </defs>
+          <text x="30" y="24" class="s-mute" font-size="11.5" font-weight="700" letter-spacing="1">FAMILY</text>
+          <text x="330" y="24" class="s-mute" font-size="11.5" font-weight="700" letter-spacing="1">REGULATORS (GEF / GAP / GDI)</text>
+          <text x="700" y="24" class="s-mute" font-size="11.5" font-weight="700" letter-spacing="1">EFFECTORS &#8594; OUTPUT</text>
+
+          <!-- rows: y, name, count, regulator lines, output lines, colour -->
+          <g>
+            <rect x="20" y="40" width="200" height="80" rx="10" class="card-f" stroke="var(--amber)" stroke-width="1.5"/>
+            <text x="36" y="70" class="s-amber" font-size="18" font-weight="700">Ras</text>
+            <text x="36" y="92" class="s-dim" font-size="12">H/K/N-Ras, Rheb</text>
+            <text x="36" y="109" class="s-mute" font-size="11.5">growth, nutrient sensing</text>
+
+            <rect x="320" y="40" width="300" height="80" rx="10" class="panel-f" stroke="var(--line2)" stroke-width="1"/>
+            <text x="336" y="64" class="s-dim" font-size="12.5">GEF: SOS, RasGRP</text>
+            <text x="336" y="83" class="s-dim" font-size="12.5">GAP: NF1/neurofibromin, RASA1/2</text>
+            <text x="336" y="102" class="s-mute" font-size="11.5">no canonical GDI</text>
+
+            <rect x="700" y="40" width="280" height="80" rx="10" class="panel-f" stroke="var(--line2)" stroke-width="1"/>
+            <text x="716" y="64" class="s-dim" font-size="12.5">RAF&#8211;MEK&#8211;ERK &#183; PI3K&#8211;AKT</text>
+            <text x="716" y="83" class="s-dim" font-size="12.5">RalGDS</text>
+            <text x="716" y="102" class="s-mute" font-size="11.5">proliferation, survival</text>
+
+            <line x1="222" y1="80" x2="314" y2="80" stroke="var(--line2)" stroke-width="1.5" marker-end="url(#mMute2)"/>
+            <line x1="622" y1="80" x2="694" y2="80" stroke="var(--line2)" stroke-width="1.5" marker-end="url(#mMute2)"/>
+          </g>
+
+          <g>
+            <rect x="20" y="134" width="200" height="80" rx="10" class="card-f" stroke="var(--teal)" stroke-width="1.5"/>
+            <text x="36" y="164" class="s-teal" font-size="18" font-weight="700">Rho</text>
+            <text x="36" y="186" class="s-dim" font-size="12">RhoA/B/C, Rac1&#8211;3, Cdc42</text>
+            <text x="36" y="203" class="s-mute" font-size="11.5">actin, polarity, migration</text>
+
+            <rect x="320" y="134" width="300" height="80" rx="10" class="panel-f" stroke="var(--line2)" stroke-width="1"/>
+            <text x="336" y="158" class="s-dim" font-size="12.5">GEF: Dbl-family (Tiam1, &#946;-PIX, p115RhoGEF)</text>
+            <text x="336" y="177" class="s-dim" font-size="12.5">GAP: ARHGAP family</text>
+            <text x="336" y="196" class="s-mute" font-size="11.5">GDI: RhoGDI extracts GDP-bound RhoA</text>
+
+            <rect x="700" y="134" width="280" height="80" rx="10" class="panel-f" stroke="var(--line2)" stroke-width="1"/>
+            <text x="716" y="158" class="s-dim" font-size="12.5">ROCK, mDia (RhoA)</text>
+            <text x="716" y="177" class="s-dim" font-size="12.5">WAVE&#8211;Arp2/3, PAK (Rac1, Cdc42)</text>
+            <text x="716" y="196" class="s-mute" font-size="11.5">contractility, protrusion, polarity</text>
+
+            <line x1="222" y1="174" x2="314" y2="174" stroke="var(--line2)" stroke-width="1.5" marker-end="url(#mMute2)"/>
+            <line x1="622" y1="174" x2="694" y2="174" stroke="var(--line2)" stroke-width="1.5" marker-end="url(#mMute2)"/>
+          </g>
+
+          <g>
+            <rect x="20" y="228" width="200" height="80" rx="10" class="card-f" stroke="var(--blue)" stroke-width="1.5"/>
+            <text x="36" y="258" class="s-blue" font-size="18" font-weight="700">Rab</text>
+            <text x="36" y="280" class="s-dim" font-size="12">Rab5, Rab7, Rab8, Rab27A&#8230;</text>
+            <text x="36" y="297" class="s-mute" font-size="11.5">membrane identity</text>
+
+            <rect x="320" y="228" width="300" height="80" rx="10" class="panel-f" stroke="var(--line2)" stroke-width="1"/>
+            <text x="336" y="252" class="s-dim" font-size="12.5">GEF: Mon1&#8211;Ccz1, TRAPP II, SH3BP5</text>
+            <text x="336" y="271" class="s-dim" font-size="12.5">GAP: TBC1D family (TBC1D15/17 for Rab7)</text>
+            <text x="336" y="290" class="s-mute" font-size="11.5">GDI: REP/REM extract GDP-bound Rab</text>
+
+            <rect x="700" y="228" width="280" height="80" rx="10" class="panel-f" stroke="var(--line2)" stroke-width="1"/>
+            <text x="716" y="252" class="s-dim" font-size="12.5">EEA1, HOPS, FYCO1, RILP</text>
+            <text x="716" y="271" class="s-dim" font-size="12.5">Rab5 &#8594; Rab7 conversion</text>
+            <text x="716" y="290" class="s-mute" font-size="11.5">endosomal maturation, autophagic fusion</text>
+
+            <line x1="222" y1="268" x2="314" y2="268" stroke="var(--line2)" stroke-width="1.5" marker-end="url(#mMute2)"/>
+            <line x1="622" y1="268" x2="694" y2="268" stroke="var(--line2)" stroke-width="1.5" marker-end="url(#mMute2)"/>
+          </g>
+
+          <g>
+            <rect x="20" y="322" width="200" height="80" rx="10" class="card-f" stroke="var(--purple)" stroke-width="1.5"/>
+            <text x="36" y="352" class="s-purple" font-size="18" font-weight="700">Arf</text>
+            <text x="36" y="374" class="s-dim" font-size="12">Arf1&#8211;Arf6</text>
+            <text x="36" y="391" class="s-mute" font-size="11.5">coat assembly, lipid enzymes</text>
+
+            <rect x="320" y="322" width="300" height="80" rx="10" class="panel-f" stroke="var(--line2)" stroke-width="1"/>
+            <text x="336" y="346" class="s-dim" font-size="12.5">GEF: Sec7-domain (GBF1, BIG1/3)</text>
+            <text x="336" y="365" class="s-dim" font-size="12.5">GAP: ARFGAP1</text>
+            <text x="336" y="384" class="s-mute" font-size="11.5">myristoyl switch couples pool to membrane</text>
+
+            <rect x="700" y="322" width="280" height="80" rx="10" class="panel-f" stroke="var(--line2)" stroke-width="1"/>
+            <text x="716" y="346" class="s-dim" font-size="12.5">COPI, GGA adaptors, AP1/clathrin</text>
+            <text x="716" y="365" class="s-dim" font-size="12.5">phospholipase D</text>
+            <text x="716" y="384" class="s-mute" font-size="11.5">membrane bending, cargo packaging</text>
+
+            <line x1="222" y1="362" x2="314" y2="362" stroke="var(--line2)" stroke-width="1.5" marker-end="url(#mMute2)"/>
+            <line x1="622" y1="362" x2="694" y2="362" stroke="var(--line2)" stroke-width="1.5" marker-end="url(#mMute2)"/>
+          </g>
+
+          <g>
+            <rect x="20" y="416" width="200" height="80" rx="10" class="card-f" stroke="var(--red)" stroke-width="1.5"/>
+            <text x="36" y="446" class="s-red" font-size="18" font-weight="700">Dynamin</text>
+            <text x="36" y="468" class="s-dim" font-size="12">DNM1, DNM2, DNM1L, MFN1/2</text>
+            <text x="36" y="485" class="s-mute" font-size="11.5">membrane scission, fission</text>
+
+            <rect x="320" y="416" width="300" height="80" rx="10" class="panel-f" stroke="var(--line2)" stroke-width="1"/>
+            <text x="336" y="440" class="s-dim" font-size="12.5">GEF: none &#8212; recruited by PIP<tspan baseline-shift="sub" font-size="9">2</tspan></text>
+            <text x="336" y="459" class="s-dim" font-size="12.5">GAP: none &#8212; self-limiting</text>
+            <text x="336" y="478" class="s-mute" font-size="11.5">oligomerises into a collar around the neck</text>
+
+            <rect x="700" y="416" width="280" height="80" rx="10" class="panel-f" stroke="var(--line2)" stroke-width="1"/>
+            <text x="716" y="440" class="s-dim" font-size="12.5">endocytosis, synaptic vesicle recycling</text>
+            <text x="716" y="459" class="s-dim" font-size="12.5">mitochondrial fission (MFN1/2)</text>
+            <text x="716" y="478" class="s-mute" font-size="11.5">mechanical work from GTP hydrolysis</text>
+
+            <line x1="222" y1="456" x2="314" y2="456" stroke="var(--line2)" stroke-width="1.5" marker-end="url(#mMute2)"/>
+            <line x1="622" y1="456" x2="694" y2="456" stroke="var(--line2)" stroke-width="1.5" marker-end="url(#mMute2)"/>
+          </g>
+        </svg>
+      </div>
+      <figcaption class="fig-cap">
+        <b>Figure 4 — the family map.</b> Read left to right: family → who switches it → what it
+        switches on. Note how differently the families are regulated. Ras-family GTPases have no
+        canonical GDI and are switched by membrane-localised GEFs that are themselves recruited by
+        receptors. Rho-family GTPases are additionally held in the cytosol by RhoGDI and released
+        membrane-first. Rab GTPases have a dedicated GDI/REP system and a large repertoire of GEFs and
+        GAPs that encode <i>which membrane</i> the switch runs on. Dynamin is the odd one out: no GEF,
+        no GAP, recruitment by phosphoinositide, and it does mechanical work.
+      </figcaption>
+    </figure>
+
+    <figure class="fig">
+      <div class="fig-canvas">
+        <svg id="familySvg" viewBox="0 0 1000 360" role="img" aria-labelledby="familyTitle">
+        <title id="familyTitle">Approximate number of human GTPases in each small GTPase family</title>
+        <rect x="170.5" y="52.0" width="81.0" height="198.0" rx="5" class="teal-f"/>
+        <text x="211.0" y="42.0" class="s-text" font-size="17" font-weight="700" text-anchor="middle">66</text>
+        <text x="211.0" y="276" class="s-text" font-size="14" font-weight="700" text-anchor="middle">Rab</text>
+        <text x="211.0" y="296" class="s-dim" font-size="11.5" text-anchor="middle">membrane identity:</text>
+        <text x="211.0" y="312" class="s-dim" font-size="11.5" text-anchor="middle">early endosome &#8594; lysosome</text>
+        <rect x="332.5" y="190.0" width="81.0" height="60.0" rx="5" class="blue-f"/>
+        <text x="373.0" y="180.0" class="s-text" font-size="17" font-weight="700" text-anchor="middle">20</text>
+        <text x="373.0" y="276" class="s-text" font-size="14" font-weight="700" text-anchor="middle">Rho</text>
+        <text x="373.0" y="296" class="s-dim" font-size="11.5" text-anchor="middle">actin, polarity,</text>
+        <text x="373.0" y="312" class="s-dim" font-size="11.5" text-anchor="middle">contractility</text>
+        <rect x="494.5" y="232.0" width="81.0" height="18.0" rx="5" class="purple-f"/>
+        <text x="535.0" y="222.0" class="s-text" font-size="17" font-weight="700" text-anchor="middle">6</text>
+        <text x="535.0" y="276" class="s-text" font-size="14" font-weight="700" text-anchor="middle">Arf</text>
+        <text x="535.0" y="296" class="s-dim" font-size="11.5" text-anchor="middle">coat recruitment</text>
+        <text x="535.0" y="312" class="s-dim" font-size="11.5" text-anchor="middle">at Golgi / endosome</text>
+        <rect x="656.5" y="238.0" width="81.0" height="12.0" rx="5" class="amber-f"/>
+        <text x="697.0" y="228.0" class="s-text" font-size="17" font-weight="700" text-anchor="middle">4</text>
+        <text x="697.0" y="276" class="s-text" font-size="14" font-weight="700" text-anchor="middle">Ras</text>
+        <text x="697.0" y="296" class="s-dim" font-size="11.5" text-anchor="middle">growth,</text>
+        <text x="697.0" y="312" class="s-dim" font-size="11.5" text-anchor="middle">proliferation</text>
+        <rect x="818.5" y="241.0" width="81.0" height="9.0" rx="5" class="red-f"/>
+        <text x="859.0" y="231.0" class="s-text" font-size="17" font-weight="700" text-anchor="middle">3</text>
+        <text x="859.0" y="276" class="s-text" font-size="14" font-weight="700" text-anchor="middle">Dynamin</text>
+        <text x="859.0" y="296" class="s-dim" font-size="11.5" text-anchor="middle">membrane scission</text>
+        <text x="859.0" y="312" class="s-dim" font-size="11.5" text-anchor="middle">(+ MFN1/2, DNM1L)</text>
+        <line x1="130" y1="250" x2="940" y2="250" class="stroke-line2" stroke-width="1.5"/>
+        </svg>
+      </div>
+      <figcaption class="fig-cap">
+        <b>Figure 5 — family size is a proxy for task complexity.</b> Roughly 150 human GTPases exist
+        (~70 Rab, ~20 Rho, 6 Arf, 4 Ras, 3 dynamin, plus mitofusins and dynamin-like proteins).
+        The Rab family is large because membrane identity is combinatorial: each organelle needs its own
+        molecular address, and the address is the GTPase. The Ras family is small because "growth on"
+        is a single job that can be served by four interchangeable proteins.
+      </figcaption>
+    </figure>
+
+    <div class="tbl-wrap" style="margin-top:8px; max-height:none;">
+      <table>
+        <thead>
+          <tr><th>Family</th><th>GEF / GAP / GDI</th><th>Effectors</th><th>Primary output</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><b>Ras</b><br><span class="s-mute" style="font-size:.78rem;">H/K/N-Ras, Rheb, Rheb-like</span></td>
+            <td>GEF: SOS, RasGRP<br>GAP: NF1, RASA1/2<br>GDI: &#8212;</td>
+            <td>RAF&#8211;MEK&#8211;ERK, PI3K, RalGDS, mTORC1 (via Rheb)</td>
+            <td>Proliferation, survival, nutrient-driven growth</td>
+          </tr>
+          <tr>
+            <td><b>Rho</b><br><span class="s-mute" style="font-size:.78rem;">RhoA/B/C, Rac1&#8211;3, Cdc42</span></td>
+            <td>GEF: Dbl-family, p115RhoGEF, PDZ-RhoGEF, Ect2<br>GAP: ARHGAP<br>GDI: RhoGDI</td>
+            <td>ROCK, mDia1/2, WAVE&#8211;Arp2/3, PAK1/4, p67phox, IQGAP</td>
+            <td>Stress fibres, focal adhesions, lamellipodia, filopodia, cytokinesis, migration</td>
+          </tr>
+          <tr>
+            <td><b>Rab</b><br><span class="s-mute" style="font-size:.78rem;">~60&#8211;70 members</span></td>
+            <td>GEF: Mon1&#8211;Ccz1, TRAPP II<br>GAP: TBC1D family<br>GDI: REP/REM</td>
+            <td>EEA1, HOPS, FYCO1, RILP, myosin-V, PI4K, LC3</td>
+            <td>Endosomal identity, lysosome biogenesis, autophagosome&#8211;lysosome fusion, exocytosis</td>
+          </tr>
+          <tr>
+            <td><b>Arf</b><br><span class="s-mute" style="font-size:.78rem;">Arf1&#8211;Arf6</span></td>
+            <td>GEF: Sec7-domain (GBF1, BIG1/3)<br>GAP: ARFGAP1<br>GDI: &#8212; (myristoyl switch)</td>
+            <td>COPI, GGA adaptors, AP1/clathrin, phospholipase D, PIP kinases</td>
+            <td>Coat recruitment, membrane bending, Golgi and endosome trafficking</td>
+          </tr>
+          <tr>
+            <td><b>Dynamin</b><br><span class="s-mute" style="font-size:.78rem;">DNM1, DNM2, DNM1L, MFN1/2</span></td>
+            <td>GEF: &#8212; (PIP<tspan baseline-shift="sub">2</tspan>-recruited)<br>GAP: &#8212;<br>GDI: &#8212;</td>
+            <td>PH-domain PIP<tspan baseline-shift="sub">2</tspan> binding, PRD&#8211;SH3 partners (amphiphysin, endophilin)</td>
+            <td>Scission of clathrin and synaptic vesicles; mitochondrial fission via mitofusins</td>
+          </tr>
+          <tr>
+            <td><b>Heterotrimeric G&#945;</b><br><span class="s-mute" style="font-size:.78rem;">G<tspan baseline-shift="sub">s</tspan>, G<tspan baseline-shift="sub">i</tspan>, G<tspan baseline-shift="sub">q</tspan></span></td>
+            <td>GEF: GPCR acting as an exchange factor<br>GAP: RGS proteins<br>GDI: &#8212;</td>
+            <td>Adenylyl cyclase, PLC&#946;, GRK, ion channels</td>
+            <td>Second-messenger generation; G&#945;12/13 also feeds RhoA</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ============ OUTPUT MAP ============ -->
+<section id="matrix">
+  <div class="wrap">
+    <h2>Which family owns which process</h2>
+    <p class="lead">
+      A useful way to read the superfamily is as a partition of cellular labour. Each family has a
+      domain it owns outright, a domain where it is a contributor, and a domain it does not touch.
+    </p>
+
+    <figure class="fig">
+      <div class="fig-canvas">
+        <svg id="matrixSvg" viewBox="0 0 1000 488" role="img" aria-labelledby="matrixTitle">
+        <title id="matrixTitle">Matrix of GTPase families against the cellular processes each family primarily controls</title>
+        <text x="195" y="26" class="s-dim" font-size="12.5" font-weight="700" text-anchor="middle">Growth /</text>
+        <text x="195" y="43" class="s-dim" font-size="12.5" font-weight="700" text-anchor="middle">proliferation</text>
+        <text x="325" y="26" class="s-dim" font-size="12.5" font-weight="700" text-anchor="middle">Actin &amp;</text>
+        <text x="325" y="43" class="s-dim" font-size="12.5" font-weight="700" text-anchor="middle">cell shape</text>
+        <text x="455" y="26" class="s-dim" font-size="12.5" font-weight="700" text-anchor="middle">Endomembrane</text>
+        <text x="455" y="43" class="s-dim" font-size="12.5" font-weight="700" text-anchor="middle">traffic</text>
+        <text x="585" y="26" class="s-dim" font-size="12.5" font-weight="700" text-anchor="middle">ROS</text>
+        <text x="585" y="43" class="s-dim" font-size="12.5" font-weight="700" text-anchor="middle">(NOX)</text>
+        <text x="715" y="26" class="s-dim" font-size="12.5" font-weight="700" text-anchor="middle">Autophagy /</text>
+        <text x="715" y="43" class="s-dim" font-size="12.5" font-weight="700" text-anchor="middle">mitophagy</text>
+        <text x="845" y="26" class="s-dim" font-size="12.5" font-weight="700" text-anchor="middle">Translation</text>
+        <text x="845" y="43" class="s-dim" font-size="12.5" font-weight="700" text-anchor="middle">(EF-Tu/G)</text>
+        <text x="14" y="109.0" class="s-text" font-size="13" font-weight="700">Ras</text>
+        <rect x="133" y="81" width="124" height="46" rx="6" class="teal-f" fill-opacity="0.94"/>
+        <text x="195.0" y="108.0" class="s-text" font-size="11" font-weight="700" text-anchor="middle">primary</text>
+        <rect x="263" y="81" width="124" height="46" rx="6" class="teal-f" fill-opacity="0.42"/>
+        <text x="325.0" y="108.0" class="s-text" font-size="11" font-weight="700" text-anchor="middle">secondary</text>
+        <rect x="393" y="81" width="124" height="46" rx="6" class="teal-f" fill-opacity="0.42"/>
+        <text x="455.0" y="108.0" class="s-text" font-size="11" font-weight="700" text-anchor="middle">secondary</text>
+        <rect x="523" y="81" width="124" height="46" rx="6" class="teal-f" fill-opacity="0.42"/>
+        <text x="585.0" y="108.0" class="s-text" font-size="11" font-weight="700" text-anchor="middle">secondary</text>
+        <rect x="653" y="81" width="124" height="46" rx="6" class="teal-f" fill-opacity="0.42"/>
+        <text x="715.0" y="108.0" class="s-text" font-size="11" font-weight="700" text-anchor="middle">secondary</text>
+        <rect x="783" y="81" width="124" height="46" rx="6" class="rowh-f"/>
+        <text x="845.0" y="108.0" class="s-mute" font-size="11" text-anchor="middle">&#183;</text>
+        <text x="14" y="161.0" class="s-text" font-size="13" font-weight="700">Rho</text>
+        <rect x="133" y="133" width="124" height="46" rx="6" class="teal-f" fill-opacity="0.42"/>
+        <text x="195.0" y="160.0" class="s-text" font-size="11" font-weight="700" text-anchor="middle">secondary</text>
+        <rect x="263" y="133" width="124" height="46" rx="6" class="teal-f" fill-opacity="0.94"/>
+        <text x="325.0" y="160.0" class="s-text" font-size="11" font-weight="700" text-anchor="middle">primary</text>
+        <rect x="393" y="133" width="124" height="46" rx="6" class="teal-f" fill-opacity="0.42"/>
+        <text x="455.0" y="160.0" class="s-text" font-size="11" font-weight="700" text-anchor="middle">secondary</text>
+        <rect x="523" y="133" width="124" height="46" rx="6" class="teal-f" fill-opacity="0.68"/>
+        <text x="585.0" y="160.0" class="s-text" font-size="11" font-weight="700" text-anchor="middle">major</text>
+        <rect x="653" y="133" width="124" height="46" rx="6" class="rowh-f"/>
+        <text x="715.0" y="160.0" class="s-mute" font-size="11" text-anchor="middle">&#183;</text>
+        <rect x="783" y="133" width="124" height="46" rx="6" class="rowh-f"/>
+        <text x="845.0" y="160.0" class="s-mute" font-size="11" text-anchor="middle">&#183;</text>
+        <text x="14" y="213.0" class="s-text" font-size="13" font-weight="700">Rab</text>
+        <rect x="133" y="185" width="124" height="46" rx="6" class="rowh-f"/>
+        <text x="195.0" y="212.0" class="s-mute" font-size="11" text-anchor="middle">&#183;</text>
+        <rect x="263" y="185" width="124" height="46" rx="6" class="rowh-f"/>
+        <text x="325.0" y="212.0" class="s-mute" font-size="11" text-anchor="middle">&#183;</text>
+        <rect x="393" y="185" width="124" height="46" rx="6" class="teal-f" fill-opacity="0.94"/>
+        <text x="455.0" y="212.0" class="s-text" font-size="11" font-weight="700" text-anchor="middle">primary</text>
+        <rect x="523" y="185" width="124" height="46" rx="6" class="rowh-f"/>
+        <text x="585.0" y="212.0" class="s-mute" font-size="11" text-anchor="middle">&#183;</text>
+        <rect x="653" y="185" width="124" height="46" rx="6" class="teal-f" fill-opacity="0.94"/>
+        <text x="715.0" y="212.0" class="s-text" font-size="11" font-weight="700" text-anchor="middle">primary</text>
+        <rect x="783" y="185" width="124" height="46" rx="6" class="rowh-f"/>
+        <text x="845.0" y="212.0" class="s-mute" font-size="11" text-anchor="middle">&#183;</text>
+        <text x="14" y="265.0" class="s-text" font-size="13" font-weight="700">Arf</text>
+        <rect x="133" y="237" width="124" height="46" rx="6" class="rowh-f"/>
+        <text x="195.0" y="264.0" class="s-mute" font-size="11" text-anchor="middle">&#183;</text>
+        <rect x="263" y="237" width="124" height="46" rx="6" class="rowh-f"/>
+        <text x="325.0" y="264.0" class="s-mute" font-size="11" text-anchor="middle">&#183;</text>
+        <rect x="393" y="237" width="124" height="46" rx="6" class="teal-f" fill-opacity="0.94"/>
+        <text x="455.0" y="264.0" class="s-text" font-size="11" font-weight="700" text-anchor="middle">primary</text>
+        <rect x="523" y="237" width="124" height="46" rx="6" class="rowh-f"/>
+        <text x="585.0" y="264.0" class="s-mute" font-size="11" text-anchor="middle">&#183;</text>
+        <rect x="653" y="237" width="124" height="46" rx="6" class="teal-f" fill-opacity="0.42"/>
+        <text x="715.0" y="264.0" class="s-text" font-size="11" font-weight="700" text-anchor="middle">secondary</text>
+        <rect x="783" y="237" width="124" height="46" rx="6" class="rowh-f"/>
+        <text x="845.0" y="264.0" class="s-mute" font-size="11" text-anchor="middle">&#183;</text>
+        <text x="14" y="317.0" class="s-text" font-size="13" font-weight="700">Dynamin</text>
+        <rect x="133" y="289" width="124" height="46" rx="6" class="rowh-f"/>
+        <text x="195.0" y="316.0" class="s-mute" font-size="11" text-anchor="middle">&#183;</text>
+        <rect x="263" y="289" width="124" height="46" rx="6" class="teal-f" fill-opacity="0.42"/>
+        <text x="325.0" y="316.0" class="s-text" font-size="11" font-weight="700" text-anchor="middle">secondary</text>
+        <rect x="393" y="289" width="124" height="46" rx="6" class="teal-f" fill-opacity="0.68"/>
+        <text x="455.0" y="316.0" class="s-text" font-size="11" font-weight="700" text-anchor="middle">major</text>
+        <rect x="523" y="289" width="124" height="46" rx="6" class="rowh-f"/>
+        <text x="585.0" y="316.0" class="s-mute" font-size="11" text-anchor="middle">&#183;</text>
+        <rect x="653" y="289" width="124" height="46" rx="6" class="teal-f" fill-opacity="0.68"/>
+        <text x="715.0" y="316.0" class="s-text" font-size="11" font-weight="700" text-anchor="middle">major</text>
+        <rect x="783" y="289" width="124" height="46" rx="6" class="rowh-f"/>
+        <text x="845.0" y="316.0" class="s-mute" font-size="11" text-anchor="middle">&#183;</text>
+        <text x="14" y="361.0" class="s-text" font-size="13" font-weight="700">Heterotrimeric</text>
+        <text x="14" y="378.0" class="s-text" font-size="13" font-weight="700">G&#945;</text>
+        <rect x="133" y="341" width="124" height="46" rx="6" class="teal-f" fill-opacity="0.68"/>
+        <text x="195.0" y="368.0" class="s-text" font-size="11" font-weight="700" text-anchor="middle">major</text>
+        <rect x="263" y="341" width="124" height="46" rx="6" class="teal-f" fill-opacity="0.42"/>
+        <text x="325.0" y="368.0" class="s-text" font-size="11" font-weight="700" text-anchor="middle">secondary</text>
+        <rect x="393" y="341" width="124" height="46" rx="6" class="teal-f" fill-opacity="0.42"/>
+        <text x="455.0" y="368.0" class="s-text" font-size="11" font-weight="700" text-anchor="middle">secondary</text>
+        <rect x="523" y="341" width="124" height="46" rx="6" class="teal-f" fill-opacity="0.68"/>
+        <text x="585.0" y="368.0" class="s-text" font-size="11" font-weight="700" text-anchor="middle">major</text>
+        <rect x="653" y="341" width="124" height="46" rx="6" class="rowh-f"/>
+        <text x="715.0" y="368.0" class="s-mute" font-size="11" text-anchor="middle">&#183;</text>
+        <rect x="783" y="341" width="124" height="46" rx="6" class="rowh-f"/>
+        <text x="845.0" y="368.0" class="s-mute" font-size="11" text-anchor="middle">&#183;</text>
+        <text x="14" y="413.0" class="s-text" font-size="13" font-weight="700">Transl.</text>
+        <text x="14" y="430.0" class="s-text" font-size="13" font-weight="700">factors</text>
+        <rect x="133" y="393" width="124" height="46" rx="6" class="rowh-f"/>
+        <text x="195.0" y="420.0" class="s-mute" font-size="11" text-anchor="middle">&#183;</text>
+        <rect x="263" y="393" width="124" height="46" rx="6" class="rowh-f"/>
+        <text x="325.0" y="420.0" class="s-mute" font-size="11" text-anchor="middle">&#183;</text>
+        <rect x="393" y="393" width="124" height="46" rx="6" class="rowh-f"/>
+        <text x="455.0" y="420.0" class="s-mute" font-size="11" text-anchor="middle">&#183;</text>
+        <rect x="523" y="393" width="124" height="46" rx="6" class="rowh-f"/>
+        <text x="585.0" y="420.0" class="s-mute" font-size="11" text-anchor="middle">&#183;</text>
+        <rect x="653" y="393" width="124" height="46" rx="6" class="rowh-f"/>
+        <text x="715.0" y="420.0" class="s-mute" font-size="11" text-anchor="middle">&#183;</text>
+        <rect x="783" y="393" width="124" height="46" rx="6" class="teal-f" fill-opacity="0.94"/>
+        <text x="845.0" y="420.0" class="s-text" font-size="11" font-weight="700" text-anchor="middle">primary</text>
+        <text x="14" y="472" class="s-mute" font-size="11.5">primary = defining control &#183; major = substantial contribution &#183; secondary = contributes &#183; &#183; = not a role</text>
+        </svg>
+      </div>
+      <figcaption class="fig-cap">
+        <b>Figure 6 — family × output matrix.</b> Ras owns proliferation; Rho owns the actin
+        cytoskeleton; Rab owns endomembrane traffic and autophagic delivery; Arf owns coat assembly;
+        dynamin owns scission. The overlaps are the interesting cells — Rho-family GTPases contribute
+        to ROS generation through NOX, and Rab GTPases gate autophagy, which is why a "trafficking"
+        defect can present as a protein-aggregation disease.
+      </figcaption>
+    </figure>
+
+    <div class="callout teal">
+      <span class="callout-tag">The cross-theme reading</span>
+      <p>
+        Three of this wiki's recurring themes land on this matrix. <b>Autophagy</b> needs Rab7 (fusion)
+        and Rheb (the mTORC1 brake that gates initiation). <b>Oxidative stress</b> needs Rac1 and Cdc42
+        (NOX assembly). <b>Cellular senescence</b> needs all of them, because senescent cells have
+        deranged actin, stalled lysosomes, and a chronically elevated ROS signal. The GTPase layer is
+        where those three themes are wired together.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ RHO CASE ============ -->
+<section id="rho">
+  <div class="wrap">
+    <h2>Case study — RhoA, Rac1, Cdc42: one cell, three jobs</h2>
+    <p class="lead">
+      The clearest demonstration that the GTPase family encodes <i>compartment</i> rather than
+      <i>pathway</i> is migrating fibroblasts. Three Rho-family GTPases are active in the same cell at
+      the same time, on the same actin, with opposing outputs. The <b>balance</b> between them —
+      not the absolute level of any one — decides the cell's motility mode.
+    </p>
+
+    <figure class="fig">
+      <div class="fig-canvas">
+        <svg id="rhoSvg" viewBox="0 0 1000 470" role="img" aria-labelledby="rhoTitle">
+          <title id="rhoTitle">A migrating fibroblast: Cdc42 at the leading edge establishing polarity, Rac1 driving lamellipodial protrusion, and RhoA at the rear driving actomyosin contractility and focal adhesion turnover</title>
+          <defs>
+            <marker id="mTeal3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" class="teal-f"/>
+            </marker>
+            <marker id="mAmber3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" class="amber-f"/>
+            </marker>
+            <marker id="mRed3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" class="red-f"/>
+            </marker>
+          </defs>
+
+          <!-- cell body -->
+          <path d="M 250 250 C 250 170, 380 150, 470 170 C 560 190, 640 170, 720 200
+                   C 800 230, 830 260, 800 300 C 770 340, 640 340, 560 330
+                   C 470 320, 380 350, 300 320 C 265 305, 250 290, 250 250 Z"
+                class="card-f" stroke="var(--line2)" stroke-width="2"/>
+
+          <!-- nucleus -->
+          <ellipse cx="500" cy="248" rx="62" ry="46" class="panel-f" stroke="var(--line2)" stroke-width="1.5"/>
+          <text x="500" y="253" class="s-mute" font-size="13" text-anchor="middle">nucleus</text>
+
+          <!-- stress fibres (RhoA, rear) -->
+          <g stroke="var(--red)" stroke-width="2.5" opacity="0.85">
+            <line x1="290" y1="205" x2="450" y2="195"/>
+            <line x1="285" y1="250" x2="445" y2="245"/>
+            <line x1="290" y1="295" x2="450" y2="292"/>
+          </g>
+          <text x="300" y="180" class="s-red" font-size="14" font-weight="700">RhoA &#183; ROCK &#183; mDia</text>
+          <text x="300" y="322" class="s-dim" font-size="12">stress fibres &#183; contractility</text>
+
+          <!-- focal adhesions -->
+          <g>
+            <ellipse cx="330" cy="342" rx="26" ry="9" class="red-f" fill-opacity="0.35" stroke="var(--red)" stroke-width="1.5"/>
+            <ellipse cx="430" cy="352" rx="24" ry="8" class="red-f" fill-opacity="0.3" stroke="var(--red)" stroke-width="1.5"/>
+            <text x="330" y="372" class="s-dim" font-size="11.5" text-anchor="middle">focal adhesions</text>
+          </g>
+
+          <!-- lamellipodium (Rac1, front) -->
+          <path d="M 780 275 C 850 250, 900 245, 945 258 C 905 285, 850 300, 790 295 Z"
+                class="teal-f" fill-opacity="0.28"/>
+          <g stroke="var(--teal)" stroke-width="2" opacity="0.9">
+            <path d="M 800 285 L 905 262" fill="none"/>
+            <path d="M 800 288 L 915 278" fill="none"/>
+            <path d="M 795 282 L 890 258" fill="none"/>
+          </g>
+          <text x="742" y="236" class="s-teal" font-size="14" font-weight="700">Rac1 &#183; WAVE&#8211;Arp2/3</text>
+          <text x="742" y="254" class="s-dim" font-size="12">branched actin, lamellipodium</text>
+
+          <!-- filopodia (Cdc42) -->
+          <g stroke="var(--amber)" stroke-width="3" stroke-linecap="round">
+            <line x1="700" y1="200" x2="762" y2="146"/>
+            <line x1="742" y1="198" x2="822" y2="150"/>
+            <line x1="784" y1="205" x2="862" y2="170"/>
+          </g>
+          <text x="496" y="116" class="s-amber" font-size="14" font-weight="700">Cdc42</text>
+          <text x="496" y="134" class="s-dim" font-size="12">filopodia, polarity</text>
+          <path d="M 596 122 L 690 186" fill="none" stroke="var(--amber)" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.7"/>
+
+          <!-- direction arrow -->
+          <path d="M 850 420 L 960 420" fill="none" stroke="var(--teal)" stroke-width="2.5" marker-end="url(#mTeal3)"/>
+          <text x="850" y="408" class="s-teal" font-size="12.5" font-weight="700">protrusion</text>
+          <path d="M 260 420 L 150 420" fill="none" stroke="var(--red)" stroke-width="2.5" marker-end="url(#mRed3)"/>
+          <text x="260" y="408" class="s-red" font-size="12.5" font-weight="700">retraction</text>
+
+          <!-- inset: motility mode -->
+          <rect x="30" y="60" width="200" height="150" rx="10" class="panel-f" stroke="var(--line2)" stroke-width="1.5"/>
+          <text x="46" y="84" class="s-text" font-size="13" font-weight="700">motility mode</text>
+          <text x="46" y="106" class="s-dim" font-size="12">low RhoA + high Rac1</text>
+          <text x="46" y="124" class="s-mute" font-size="11.5">elongated, mesenchymal</text>
+          <text x="46" y="150" class="s-dim" font-size="12">high RhoA / ROCK</text>
+          <text x="46" y="168" class="s-mute" font-size="11.5">bleb-driven, amoeboid</text>
+          <text x="46" y="194" class="s-mute" font-size="11.5">Cdc42 loss &#8594; no polarity</text>
+        </svg>
+      </div>
+      <figcaption class="fig-cap">
+        <b>Figure 7 — spatial division of labour in a migrating cell.</b> Cdc42 sets <i>where</i> the
+        front is (filopodia, polarity, cilium orientation); Rac1 pushes the front forward
+        (WAVE&#8211;Arp2/3 branched actin, via IRSp53 relieving WAVE2 autoinhibition); RhoA pulls the
+        back (ROCK phosphorylates MYPT1 and myosin light chain, mDia1/2 nucleate straight filaments).
+        Focal adhesions are the mechanical anchor: RhoA activity drives their maturation, and turnover
+        is what releases the rear.
+      </figcaption>
+    </figure>
+
+    <div class="grid g3" style="margin-top:6px;">
+      <div class="card">
+        <h3 style="color:var(--red);">RhoA — the rear</h3>
+        <p class="kv">
+          RhoA&#8211;ROCK is the contractile arm: stress fibres, focal-adhesion maturation, the
+          cytokinetic ring (delivered to the cleavage furrow by Ect2), and smooth-muscle contraction.
+          Excessive RhoA/ROCK tone is a cardiovascular and fibrotic problem — which is why ROCK is one
+          of the few druggable nodes in this family.
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--teal);">Rac1 — the front</h3>
+        <p class="kv">
+          Rac1 also sits upstream of the phagocyte respiratory burst (it is required to assemble NOX)
+          and of NF-&#954;B transcription, so it carries signals that have nothing to do with the
+          cytoskeleton. Rac1 is one of the few mutated Rho GTPases: P29S in 4&#8211;9% of sun-exposed
+          melanomas; the RAC1B splice variant is overexpressed in breast, colorectal and lung cancer.
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--amber);">Cdc42 — the compass</h3>
+        <p class="kv">
+          Cdc42 organises polarity, filopodia, the NADPH oxidase, and the actin cytoskeleton of
+          haematopoietic cells via WASP — which is why dominant-negative Cdc42 alleles reproduce the
+          actinopathy of Wiskott&#8211;Aldrich syndrome. Cdc42 is also the flagellar master
+          regulator, setting cilium orientation and ciliary trafficking.
+        </p>
+      </div>
+    </div>
+
+    <div class="callout" style="margin-top:20px;">
+      <span class="callout-tag">Why the antagonism is the point</span>
+      <p>
+        Rock alone produces disordered random bundles; mDia is needed to correct them. Rac and Rho
+        antagonise in migration but cooperate in tension sensing (adhesion through integrin and cadherin
+        activates RhoA; force on those junctions activates AMPK and glucose uptake — a positive loop).
+        The system is not a set of independent pathways but a <i>ratio controller</i>: the cell's shape
+        and motility mode are set by the relative activity of two GTPases pulling in opposite directions.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ RAB CASE ============ -->
+<section id="rab">
+  <div class="wrap">
+    <h2>Case study — the Rab5&#8594;Rab7 conversion gates autophagic flux</h2>
+    <p class="lead">
+      This is the case that ties the GTPase layer to this wiki's core theme. Autophagy is often
+      described as a bulk pathway, but its <i>terminal</i> step — the fusion of an autophagosome with a
+      lysosome — is executed by a Rab GTPase cascade. If the cascade stalls, autophagosomes still form,
+      LC3-II still accumulates, and nothing is degraded: a high-flux-looking assay with no flux behind it.
+    </p>
+
+    <figure class="fig">
+      <div class="fig-canvas">
+        <svg id="rabSvg" viewBox="0 0 1000 430" role="img" aria-labelledby="rabTitle">
+          <title id="rabTitle">The Rab5 to Rab7 endosome maturation cascade and its role in autophagosome-lysosome fusion</title>
+          <defs>
+            <marker id="mBlue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" class="blue-f"/>
+            </marker>
+            <marker id="mMute3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" class="s-mute"/>
+            </marker>
+            <marker id="mRed4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" class="red-f"/>
+            </marker>
+          </defs>
+
+          <!-- stage 1 -->
+          <rect x="24" y="60" width="210" height="150" rx="12" class="card-f" stroke="var(--blue)" stroke-width="1.5"/>
+          <text x="40" y="88" class="s-blue" font-size="16" font-weight="700">Early endosome</text>
+          <text x="40" y="112" class="s-dim" font-size="12.5">Rab5-GTP</text>
+          <text x="40" y="132" class="s-dim" font-size="12.5">PtdIns3P</text>
+          <text x="40" y="152" class="s-dim" font-size="12.5">EEA1, Vps34</text>
+          <text x="40" y="176" class="s-mute" font-size="11.5">fusion, motility, PI3P</text>
+          <text x="40" y="196" class="s-mute" font-size="11.5">generation</text>
+
+          <!-- stage 2 -->
+          <rect x="272" y="60" width="210" height="150" rx="12" class="panel-f" stroke="var(--teal)" stroke-width="1.5"/>
+          <text x="288" y="88" class="s-teal" font-size="16" font-weight="700">Conversion</text>
+          <text x="288" y="112" class="s-dim" font-size="12.5">Mon1&#8211;Ccz1 GEF</text>
+          <text x="288" y="132" class="s-dim" font-size="12.5">(+ SAND-1/MON1)</text>
+          <text x="288" y="152" class="s-dim" font-size="12.5">Rab5 GAP: TBC1D2</text>
+          <text x="288" y="176" class="s-mute" font-size="11.5">the hand-off: one address</text>
+          <text x="288" y="196" class="s-mute" font-size="11.5">replaced by the next</text>
+
+          <!-- stage 3 -->
+          <rect x="520" y="60" width="210" height="150" rx="12" class="card-f" stroke="var(--teal)" stroke-width="1.5"/>
+          <text x="536" y="88" class="s-teal" font-size="16" font-weight="700">Late endosome</text>
+          <text x="536" y="112" class="s-dim" font-size="12.5">Rab7-GTP</text>
+          <text x="536" y="132" class="s-dim" font-size="12.5">PtdIns(3,5)P<tspan baseline-shift="sub" font-size="9">2</tspan></text>
+          <text x="536" y="152" class="s-dim" font-size="12.5">HOPS, syntaxin-17</text>
+          <text x="536" y="176" class="s-mute" font-size="11.5">tethering + motor</text>
+          <text x="536" y="196" class="s-mute" font-size="11.5">recruitment (RILP, FYCO1)</text>
+
+          <!-- stage 4 -->
+          <rect x="768" y="60" width="208" height="150" rx="12" class="card-f" stroke="var(--green)" stroke-width="1.5"/>
+          <text x="784" y="88" class="s-green" font-size="16" font-weight="700">Autolysosome</text>
+          <text x="784" y="112" class="s-dim" font-size="12.5">fusion completed</text>
+          <text x="784" y="132" class="s-dim" font-size="12.5">cargo degraded</text>
+          <text x="784" y="152" class="s-dim" font-size="12.5">flux &#8594; complete</text>
+          <text x="784" y="176" class="s-mute" font-size="11.5">TFEB/CLEAR drives</text>
+          <text x="784" y="196" class="s-mute" font-size="11.5">lysosomal biogenesis</text>
+
+          <path d="M 236 135 L 266 135" fill="none" stroke="var(--line2)" stroke-width="2.5" marker-end="url(#mMute3)"/>
+          <path d="M 484 135 L 514 135" fill="none" stroke="var(--line2)" stroke-width="2.5" marker-end="url(#mMute3)"/>
+          <path d="M 732 135 L 762 135" fill="none" stroke="var(--line2)" stroke-width="2.5" marker-end="url(#mMute3)"/>
+
+          <!-- autophagosome feeding into stage 4 -->
+          <g>
+            <circle cx="872" cy="272" r="30" class="card-f" stroke="var(--green)" stroke-width="2"/>
+            <circle cx="872" cy="272" r="16" class="panel-f" stroke="var(--line2)" stroke-width="1.5"/>
+            <text x="872" y="322" class="s-green" font-size="12.5" font-weight="700" text-anchor="middle">autophagosome</text>
+            <path d="M 872 242 L 872 218" fill="none" stroke="var(--green)" stroke-width="2" marker-end="url(#mBlue)"/>
+          </g>
+
+          <!-- consequence strip -->
+          <rect x="24" y="330" width="952" height="92" rx="12" class="panel-f" stroke="var(--red)" stroke-width="1.5"/>
+          <text x="44" y="356" class="s-red" font-size="15" font-weight="700">If the switch fails: Rab7 loss or dominant-negative Rab7</text>
+          <text x="44" y="380" class="s-dim" font-size="13">HOPS cannot be recruited &#8594; autophagosome&#8211;lysosome fusion fails &#8594; undigested vesicles accumulate</text>
+          <text x="44" y="402" class="s-dim" font-size="13">LC3-II &#8593; &#183; p62 &#8593; &#183; autolysosomes &#8593; &#183; aggregate clearance &#8595;</text>
+          <text x="44" y="418" class="s-dim" font-size="13">&#8212; the classic signature of <tspan font-weight="700">blocked flux</tspan>, not of increased autophagy</text>
+        </svg>
+      </div>
+      <figcaption class="fig-cap">
+        <b>Figure 8 — the Rab conversion and the autophagic handover.</b> Maturation is a replacement,
+        not an addition: the early endosome's address (Rab5 + PtdIns3P) is swapped for the late
+        endosome's address (Rab7 + PtdIns(3,5)P<sub>2</sub>), executed by the Mon1&#8211;Ccz1 GEF. Rab7-GTP
+        then recruits HOPS to tether syntaxin-17&#8211;SNARE complexes, and the motors (RILP with dynactin
+        for minus-end transport, FYCO1 for plus-end) position the compartment. Note the consequence
+        strip: when Rab7 fails, every "autophagosome" marker rises while throughput falls.
+      </figcaption>
+    </figure>
+
+    <div class="grid g2" style="margin-top:6px;">
+      <div class="card">
+        <h3 style="color:var(--blue);">The same cascade, three diseases</h3>
+        <p class="kv">
+          <b>Rab7</b> mutations cause Charcot&#8211;Marie&#8211;Tooth type 2B neuropathy, reflecting the
+          requirement for Rab7 in neuronal degradative traffic; defective Rab7 fusion contributes to
+          aggregate accumulation in neurodegeneration and ageing.
+          <b>Rab27A</b> defects cause Chediak&#8211;Higashi syndrome (lysosomal trafficking and
+          degranulation failure).
+          <b>Rab8</b> interacts with the mitophagy receptor [[OPTN]] to move mitochondria-containing
+          autophagosomes retrogradely to the cell body — and mutant huntingtin disrupts exactly that
+          OPTN&#8211;Rab8 interaction in Huntington's disease, blocking autophagic progression.
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--amber);">Pathogens hijack the switch</h3>
+        <p class="kv">
+          The <i>Legionella</i> effector SetA glucosylates Rab5 (and Rab22), immobilising endosomes
+          and blocking autophagosome&#8211;lysosome fusion to create a replication-permissive vacuole —
+          xenophagy evasion by editing the address label. Overactive Rab5 signaling is also implicated
+          in oncogenic growth and RTK-driven proliferation, which links endocytic trafficking to
+          proliferative signaling.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ RHEB CASE ============ -->
+<section id="rheb">
+  <div class="wrap">
+    <h2>Case study — the Rheb&#8211;TSC brake: a GAP as tumour suppressor</h2>
+    <p class="lead">
+      The cleanest example in the vault of GAP biology is the TSC1/TSC2 heterodimer acting as the GAP
+      for [[Rheb]], the small Ras-related GTPase that directly activates [[mTORC1]]. The same node
+      receives nutrient and energy signals, which makes it one of the few places where the cell's
+      metabolic state and its growth machinery are wired through a single nucleotide switch.
+    </p>
+
+    <figure class="fig">
+      <div class="fig-canvas">
+        <svg id="rhebSvg" viewBox="0 0 1000 400" role="img" aria-labelledby="rhebTitle">
+          <title id="rhebTitle">The TSC1/TSC2 GAP as the brake on Rheb-GTP and mTORC1, activated by AMPK under energy stress and released by Akt and ERK-RSK under growth signalling</title>
+          <defs>
+            <marker id="mGreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" class="green-f"/>
+            </marker>
+            <marker id="mAmber4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" class="amber-f"/>
+            </marker>
+            <marker id="mRed5" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" class="red-f"/>
+            </marker>
+          </defs>
+
+          <text x="30" y="34" class="s-green" font-size="14" font-weight="700">BRAKE ENGAGED &#183; energy stress / starvation</text>
+          <g>
+            <rect x="30" y="48" width="170" height="60" rx="10" class="card-f" stroke="var(--green)" stroke-width="1.5"/>
+            <text x="115" y="74" class="s-text" font-size="14" font-weight="700" text-anchor="middle">AMPK</text>
+            <text x="115" y="93" class="s-dim" font-size="11.5" text-anchor="middle">energy depletion</text>
+
+            <rect x="250" y="48" width="190" height="60" rx="10" class="card-f" stroke="var(--green)" stroke-width="1.5"/>
+            <text x="345" y="74" class="s-text" font-size="14" font-weight="700" text-anchor="middle">TSC1/TSC2</text>
+            <text x="345" y="93" class="s-dim" font-size="11.5" text-anchor="middle">Rheb GAP &#183; activity &#8593;</text>
+
+            <rect x="490" y="48" width="170" height="60" rx="10" class="card-f" stroke="var(--green)" stroke-width="1.5"/>
+            <text x="575" y="74" class="s-text" font-size="14" font-weight="700" text-anchor="middle">Rheb-GDP</text>
+            <text x="575" y="93" class="s-dim" font-size="11.5" text-anchor="middle">hydrolysed, off</text>
+
+            <rect x="710" y="48" width="260" height="60" rx="10" class="card-f" stroke="var(--green)" stroke-width="1.5"/>
+            <text x="840" y="74" class="s-text" font-size="14" font-weight="700" text-anchor="middle">mTORC1 &#8595; &#8594; autophagy &#8593;</text>
+            <text x="840" y="93" class="s-dim" font-size="11.5" text-anchor="middle">ULK1 released, flux resumes</text>
+
+            <path d="M 202 78 L 244 78" fill="none" stroke="var(--green)" stroke-width="2.5" marker-end="url(#mGreen)"/>
+            <path d="M 442 78 L 484 78" fill="none" stroke="var(--green)" stroke-width="2.5" marker-end="url(#mGreen)"/>
+            <path d="M 662 78 L 704 78" fill="none" stroke="var(--green)" stroke-width="2.5" marker-end="url(#mGreen)"/>
+            <text x="223" y="66" class="s-mute" font-size="11" text-anchor="middle">phospho</text>
+          </g>
+
+          <text x="30" y="164" class="s-amber" font-size="14" font-weight="700">BRAKE RELEASED &#183; growth factors / nutrient abundance</text>
+          <g>
+            <rect x="30" y="178" width="170" height="60" rx="10" class="card-f" stroke="var(--amber)" stroke-width="1.5"/>
+            <text x="115" y="204" class="s-text" font-size="14" font-weight="700" text-anchor="middle">Akt &#183; ERK&#8211;RSK</text>
+            <text x="115" y="223" class="s-dim" font-size="11.5" text-anchor="middle">growth signalling</text>
+
+            <rect x="250" y="178" width="190" height="60" rx="10" class="card-f" stroke="var(--amber)" stroke-width="1.5"/>
+            <text x="345" y="204" class="s-text" font-size="14" font-weight="700" text-anchor="middle">TSC2</text>
+            <text x="345" y="223" class="s-dim" font-size="11.5" text-anchor="middle">GAP activity &#8595;</text>
+
+            <rect x="490" y="178" width="170" height="60" rx="10" class="card-f" stroke="var(--red)" stroke-width="1.5"/>
+            <text x="575" y="204" class="s-red" font-size="14" font-weight="700" text-anchor="middle">Rheb-GTP</text>
+            <text x="575" y="223" class="s-dim" font-size="11.5" text-anchor="middle">accumulates, on</text>
+
+            <rect x="710" y="178" width="260" height="60" rx="10" class="card-f" stroke="var(--red)" stroke-width="1.5"/>
+            <text x="840" y="204" class="s-red" font-size="14" font-weight="700" text-anchor="middle">mTORC1 &#8593; &#8594; autophagy &#8595;</text>
+            <text x="840" y="223" class="s-dim" font-size="11.5" text-anchor="middle">ULK1 inhibited</text>
+
+            <path d="M 202 208 L 244 208" fill="none" stroke="var(--amber)" stroke-width="2.5" marker-end="url(#mAmber4)"/>
+            <path d="M 442 208 L 484 208" fill="none" stroke="var(--red)" stroke-width="2.5" marker-end="url(#mRed5)"/>
+            <path d="M 662 208 L 704 208" fill="none" stroke="var(--red)" stroke-width="2.5" marker-end="url(#mRed5)"/>
+            <text x="223" y="196" class="s-mute" font-size="11" text-anchor="middle">phospho</text>
+          </g>
+
+          <rect x="30" y="264" width="940" height="122" rx="12" class="panel-f" stroke="var(--line2)" stroke-width="1.5"/>
+          <text x="50" y="292" class="s-text" font-size="14" font-weight="700">Therapeutic logic of a GAP</text>
+          <text x="50" y="316" class="s-dim" font-size="12.5">Restore a missing brake: biallelic loss of TSC1/TSC2 causes tuberous sclerosis complex disease &#8212;</text>
+          <text x="50" y="336" class="s-dim" font-size="12.5">renal angiomyolipomas, cardiac rhabdomyomas, subependymal giant cell astrocytomas, cortical tubers.</text>
+          <text x="50" y="356" class="s-dim" font-size="12.5">Somatic TSC2 loss with mTOR activation is common in bladder cancer. The drug that substitutes for the</text>
+          <text x="50" y="376" class="s-dim" font-size="12.5">lost GAP is the rapamycin class: rapamycin and everolimus are used in TSC and TSC-associated lesions.</text>
+        </svg>
+      </div>
+      <figcaption class="fig-cap">
+        <b>Figure 9 — one GAP, two directions.</b> The TSC1/TSC2 heterodimer is a brake on Rheb, and
+        therefore a brake on mTORC1, and therefore a brake on autophagy initiation. AMPK phosphorylation
+        of TSC2 <i>increases</i> GAP activity under energy depletion; Akt and ERK&#8211;RSK phosphorylation
+        of TSC2 <i>reduces</i> it under growth signalling. The therapeutic corollary is elegant — a lost
+        brake can be pharmacologically replaced, which is exactly what the rapamycin class does.
+      </figcaption>
+    </figure>
+
+    <div class="callout teal" style="margin-top:20px;">
+      <span class="callout-tag">The broader pattern</span>
+      <p>
+        Both [[NF1]] (a Ras GAP) and [[TSC2]] (a Rheb GAP) are tumour suppressors, and both sit in the
+        ageing-relevant part of this wiki. Losing a GAP does not switch signaling off — it makes the
+        signal <i>persist</i>, which is how a cell acquires growth independence without a gain-of-function
+        mutation in the switch itself. It is the same logic as the lipid-peroxidation page's dose
+        argument: the difference between a signal and a lesion is concentration over time.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ NOX CASE ============ -->
+<section id="nox">
+  <div class="wrap">
+    <h2>Case study — Rac1 and Cdc42 build the NADPH oxidase</h2>
+    <p class="lead">
+      The phagocyte respiratory burst is the clearest example of a GTPase acting as a
+      <i>licence</i> rather than a relay: the enzyme is always in the membrane, but it cannot fire
+      until the correct small GTPases hand it its cytosolic activators.
+    </p>
+
+    <figure class="fig">
+      <div class="fig-canvas">
+        <svg id="noxSvg" viewBox="0 0 1000 360" role="img" aria-labelledby="noxTitle">
+          <title id="noxTitle">Assembly of the NOX2 complex: Rac1-GTP and Cdc42-GTP bind p67phox, which together with p47phox translocates to the membrane alongside p22phox and Nox2 to generate superoxide</title>
+          <defs>
+            <marker id="mTeal4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" class="teal-f"/>
+            </marker>
+            <marker id="mAmber5" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" class="amber-f"/>
+            </marker>
+            <marker id="mRed6" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" class="red-f"/>
+            </marker>
+            <marker id="mMute4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" class="s-mute"/>
+            </marker>
+          </defs>
+
+          <!-- membrane -->
+          <rect x="300" y="248" width="560" height="18" rx="8" class="teal-f" fill-opacity="0.3"/>
+          <text x="310" y="286" class="s-mute" font-size="12">plasma membrane / phagosome membrane</text>
+
+          <!-- Nox2 + p22phox -->
+          <rect x="650" y="190" width="110" height="70" rx="10" class="card-f" stroke="var(--red)" stroke-width="1.8"/>
+          <text x="705" y="222" class="s-red" font-size="14" font-weight="700" text-anchor="middle">Nox2</text>
+          <text x="705" y="242" class="s-dim" font-size="11.5" text-anchor="middle">catalytic</text>
+          <rect x="510" y="200" width="110" height="56" rx="10" class="card-f" stroke="var(--line2)" stroke-width="1.4"/>
+          <text x="565" y="226" class="s-dim" font-size="13.5" text-anchor="middle">p22phox</text>
+          <text x="565" y="244" class="s-mute" font-size="11" text-anchor="middle">transmembrane</text>
+
+          <!-- cytosolic subunits -->
+          <rect x="300" y="24" width="130" height="54" rx="10" class="card-f" stroke="var(--line2)" stroke-width="1.4"/>
+          <text x="365" y="48" class="s-dim" font-size="13.5" text-anchor="middle">p47phox</text>
+          <text x="365" y="66" class="s-mute" font-size="11" text-anchor="middle">SH3 + PX</text>
+          <rect x="300" y="96" width="130" height="60" rx="10" class="card-f" stroke="var(--teal)" stroke-width="1.6"/>
+          <text x="365" y="122" class="s-teal" font-size="13.5" font-weight="700" text-anchor="middle">p67phox</text>
+          <text x="365" y="140" class="s-mute" font-size="11" text-anchor="middle">binds small GTPase</text>
+          <path d="M 365 78 L 365 94" fill="none" stroke="var(--line2)" stroke-width="2" marker-end="url(#mMute4)"/>
+
+          <!-- GTPases -->
+          <rect x="40" y="52" width="180" height="54" rx="10" class="card-f" stroke="var(--teal)" stroke-width="1.6"/>
+          <text x="130" y="76" class="s-teal" font-size="13.5" font-weight="700" text-anchor="middle">Rac1-GTP</text>
+          <text x="130" y="94" class="s-mute" font-size="11" text-anchor="middle">Rac2 in myeloid cells</text>
+          <rect x="40" y="146" width="180" height="54" rx="10" class="card-f" stroke="var(--amber)" stroke-width="1.6"/>
+          <text x="130" y="170" class="s-amber" font-size="13.5" font-weight="700" text-anchor="middle">Cdc42-GTP</text>
+          <text x="130" y="188" class="s-mute" font-size="11" text-anchor="middle">filament orientation</text>
+
+          <path d="M 222 76 L 294 112" fill="none" stroke="var(--teal)" stroke-width="2.5" marker-end="url(#mTeal4)"/>
+          <path d="M 222 170 L 294 136" fill="none" stroke="var(--amber)" stroke-width="2.5" marker-end="url(#mAmber5)"/>
+
+          <!-- translocation -->
+          <path d="M 430 126 L 430 240" fill="none" stroke="var(--teal)" stroke-width="2.5" stroke-dasharray="6 4" marker-end="url(#mTeal4)"/>
+          <text x="442" y="180" class="s-dim" font-size="11.5">translocation to the membrane</text>
+
+          <!-- output -->
+          <path d="M 762 214 L 826 214" fill="none" stroke="var(--red)" stroke-width="2.5" marker-end="url(#mRed6)"/>
+          <text x="838" y="208" class="s-red" font-size="13" font-weight="700">superoxide</text>
+          <text x="838" y="226" class="s-dim" font-size="12">&#8594; H<tspan baseline-shift="sub" font-size="9">2</tspan>O<tspan baseline-shift="sub" font-size="9">2</tspan> &#8594; ROS</text>
+          <text x="838" y="248" class="s-mute" font-size="11.5">respiratory burst</text>
+
+          <text x="30" y="40" class="s-mute" font-size="11.5" font-weight="700" letter-spacing="1">CYTOSOL</text>
+          <text x="30" y="330" class="s-mute" font-size="11.5">Failure of this assembly = chronic granulomatous disease&#8211;like immunodeficiency (e.g. Rac2 loss).</text>
+        </svg>
+      </div>
+      <figcaption class="fig-cap">
+        <b>Figure 10 — NOX assembly.</b> Membrane Nox2 and p22phox are the catalytic core; p47phox and
+        p67phox arrive from the cytosol, and p67phox is the subunit that carries the GTPases — Rac1-GTP
+        (Rac2 in haematopoietic cells) and Cdc42-GTP — onto the complex. This is the direct mechanistic
+        link from the Rho family to the reactive-oxygen axis: Rac1 sits upstream of a large fraction of
+        the cell's superoxide production, which is why Rac1 drives both the oxidative burst and
+        NF-&#954;B transcription in phagocytes.
+      </figcaption>
+    </figure>
+
+    <div class="callout red">
+      <span class="callout-tag">The ROS dial this sets</span>
+      <p>
+        The same switch that licenses the oxidative burst also licenses the low-level ROS that acts as
+        a signaling species — and that is the seam this wiki cares about. At low flux, ROS is a signal
+        (NRF2/ARE induction, hormetic adaptation); at high flux, it is damage (lipid peroxidation,
+        ferroptosis). GTPase signalling controls the <i>position</i> and <i>duration</i> of the burst,
+        which is the upstream half of the redox decision.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DISEASE ============ -->
+<section id="disease">
+  <div class="wrap">
+    <h2>When the switch misbehaves</h2>
+    <p class="lead">
+      GTPase disease comes in two shapes: a switch that cannot be turned off (oncogenic gain of
+      function) and a switch that cannot be turned on, or that runs in the wrong place (loss of
+      function, or mislocalisation).
+    </p>
+
+    <figure class="fig">
+      <div class="fig-canvas">
+        <svg id="krasSvg" viewBox="0 0 1000 360" role="img" aria-labelledby="krasTitle">
+        <title id="krasTitle">KRAS mutation frequency by tumour type</title>
+        <rect x="178.1" y="61.0" width="91.3" height="189.0" rx="5" class="red-f"/>
+        <text x="223.8" y="50.0" class="s-text" font-size="19" font-weight="700" text-anchor="middle">90%</text>
+        <text x="223.8" y="276" class="s-text" font-size="13.5" font-weight="700" text-anchor="middle">Pancreatic</text>
+        <text x="223.8" y="293" class="s-text" font-size="13.5" font-weight="700" text-anchor="middle">cancer</text>
+        <text x="223.8" y="314" class="s-dim" font-size="11.5" text-anchor="middle">G12D most common</text>
+        <rect x="385.6" y="166.0" width="91.3" height="84.0" rx="5" class="amber-f"/>
+        <text x="431.2" y="155.0" class="s-text" font-size="19" font-weight="700" text-anchor="middle">40%</text>
+        <text x="431.2" y="276" class="s-text" font-size="13.5" font-weight="700" text-anchor="middle">Colorectal</text>
+        <text x="431.2" y="293" class="s-text" font-size="13.5" font-weight="700" text-anchor="middle">cancer</text>
+        <text x="431.2" y="314" class="s-dim" font-size="11.5" text-anchor="middle">G12V, G12D, G13D</text>
+        <rect x="593.1" y="187.0" width="91.3" height="63.0" rx="5" class="purple-f"/>
+        <text x="638.8" y="176.0" class="s-text" font-size="19" font-weight="700" text-anchor="middle">30%</text>
+        <text x="638.8" y="276" class="s-text" font-size="13.5" font-weight="700" text-anchor="middle">NSCLC</text>
+        <text x="638.8" y="293" class="s-text" font-size="13.5" font-weight="700" text-anchor="middle">(all KRAS)</text>
+        <text x="638.8" y="314" class="s-dim" font-size="11.5" text-anchor="middle">G12C subset ≈ 13% of NSCLC</text>
+        <rect x="800.6" y="222.7" width="91.3" height="27.3" rx="5" class="teal-f"/>
+        <text x="846.2" y="211.7" class="s-text" font-size="19" font-weight="700" text-anchor="middle">13%</text>
+        <text x="846.2" y="276" class="s-text" font-size="13.5" font-weight="700" text-anchor="middle">KRAS G12C</text>
+        <text x="846.2" y="293" class="s-text" font-size="13.5" font-weight="700" text-anchor="middle">within NSCLC</text>
+        <text x="846.2" y="314" class="s-dim" font-size="11.5" text-anchor="middle">target of sotorasib / adagrasib</text>
+        <line x1="120" y1="250" x2="950" y2="250" class="stroke-line2" stroke-width="1.5"/>
+        </svg>
+      </div>
+      <figcaption class="fig-cap">
+        <b>Figure 11 — KRAS, the most frequently mutated oncogene.</b> Hot-spot mutations at codons
+        G12, G13 and Q61 impair GTP hydrolysis, so the mutant protein is locked in the GTP-bound state
+        regardless of upstream signalling. Note the specificity of the G12C subset: it is ~13% of
+        NSCLC but a large fraction of KRAS-driven lung cancer, and it is the one that is directly
+        druggable.
+      </figcaption>
+    </figure>
+
+    <div class="tbl-wrap" style="margin-top:6px; max-height:none;">
+      <table>
+        <thead>
+          <tr><th>Disease / context</th><th>GTPase node</th><th>Mechanism</th><th>Evidence tier</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><b>Pancreatic, colorectal, NSCLC</b></td>
+            <td>KRAS (G12, G13, Q61)</td>
+            <td>Hydrolysis impaired → GTP-locked → constitutive RAF&#8211;MEK&#8211;ERK and PI3K&#8211;AKT output</td>
+            <td>Established (driver mutation, licensed therapy)</td>
+          </tr>
+          <tr>
+            <td><b>Neurofibromatosis type 1</b></td>
+            <td>NF1 / neurofibromin (Ras GAP)</td>
+            <td>Brake lost → Ras stays GTP-loaded → RAS&#8211;MAPK hyperactivation</td>
+            <td>Established</td>
+          </tr>
+          <tr>
+            <td><b>Tuberous sclerosis complex</b></td>
+            <td>TSC1/TSC2 (Rheb GAP)</td>
+            <td>Brake lost → Rheb-GTP → mTORC1 hyperactivation</td>
+            <td>Established (rapamycin/everolimus approved)</td>
+          </tr>
+          <tr>
+            <td><b>Diffuse-type gastric cancer</b></td>
+            <td>RHOA (R5Q, G17E, Y42C in ~25%)</td>
+            <td>Y42C impairs PKN binding while leaving ROCK1/mDia2 intact; cooperates with E-cadherin loss</td>
+            <td>Established</td>
+          </tr>
+          <tr>
+            <td><b>Angioimmunoblastic T-cell lymphoma</b></td>
+            <td>RHOA G17V</td>
+            <td>Behaves more like a dominant-negative than an activator</td>
+            <td>Established</td>
+          </tr>
+          <tr>
+            <td><b>Melanoma</b></td>
+            <td>RAC1 P29S (4&#8211;9% of sun-exposed)</td>
+            <td>Fast-cycling, effector-enhanced switch I allele</td>
+            <td>Established</td>
+          </tr>
+          <tr>
+            <td><b>Chronic granulomatous disease&#8211;like</b></td>
+            <td>RAC2</td>
+            <td>Loss of the oxidase assembly licence → absent respiratory burst</td>
+            <td>Established</td>
+          </tr>
+          <tr>
+            <td><b>Wiskott&#8211;Aldrich syndrome</b></td>
+            <td>Cdc42 &#183; WASP axis</td>
+            <td>Actinopathy from defective Cdc42&#8211;WASP signalling in haematopoietic cells</td>
+            <td>Established</td>
+          </tr>
+          <tr>
+            <td><b>Chediak&#8211;Higashi syndrome</b></td>
+            <td>Rab27A</td>
+            <td>Defective lysosomal trafficking and degranulation</td>
+            <td>Established</td>
+          </tr>
+          <tr>
+            <td><b>Charcot&#8211;Marie&#8211;Tooth 2B / 2M</b></td>
+            <td>Rab7 &#183; DNM2</td>
+            <td>Degradative traffic and vesicle scission failure in neurons</td>
+            <td>Established</td>
+          </tr>
+          <tr>
+            <td><b>Huntington's disease</b></td>
+            <td>Rab8 &#183; OPTN</td>
+            <td>Mutant huntingtin disrupts the OPTN&#8211;Rab8 interaction → retrograde mitophagic transport fails</td>
+            <td>Established</td>
+          </tr>
+          <tr>
+            <td><b>Centronuclear myopathy</b></td>
+            <td>DNM2</td>
+            <td>Defective membrane remodelling and scission</td>
+            <td>Established</td>
+          </tr>
+          <tr>
+            <td><b>KRAS&#8211;LKB1 lung cancer</b></td>
+            <td>KRAS + STK11/LKB1</td>
+            <td>STING silenced via DNMT1 methylation → cold tumour, reduced PD-L1, ICI resistance</td>
+            <td>Established</td>
+          </tr>
+          <tr>
+            <td><b>Autophagic flux failure in ageing / senescence</b></td>
+            <td>Rab7 &#183; HOPS &#183; Mon1&#8211;Ccz1</td>
+            <td>Fusion failure → lipofuscin and debris accumulation; blocked flux masquerading as increased autophagy</td>
+            <td>Mechanistically established; therapeutic leverage emerging</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="callout" style="margin-top:22px;">
+      <span class="callout-tag">Two recurring mechanisms</span>
+      <p>
+        <b>Locked on.</b> Hot-spot mutations (Ras G12/G13/Q61, RhoA G17V, Rac1 P29S) do not change how much
+        the protein can be activated — they change how fast it can be <i>switched off</i>. A
+        fast-cycling allele and a GTP-locked allele are the same disease logic.
+        <b>Lost brake.</b> Loss of a GAP (NF1, TSC2) or of a phosphatase-like restraint produces the same
+        endpoint by a different route. The therapeutic targets differ accordingly: an activating mutation
+        wants a <i>ligand</i>, a lost brake wants a <i>downstream substitute</i> — which is why TSC is
+        treated with mTOR inhibitors rather than with a TSC activator.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PHARMACOLOGY ============ -->
+<section id="drugs">
+  <div class="wrap">
+    <h2>What is druggable, and where</h2>
+    <p class="lead">
+      Direct ligands for small GTPases are rare. The tractable levels are (a) the switch itself, for the
+      one family with approved direct inhibitors; (b) the prenylation step that makes the switch
+      membrane-bound; and (c) the effector kinases downstream — which is where most of the clinical
+      pharmacology actually happens.
+    </p>
+
+    <div class="tbl-wrap" style="max-height:none;">
+      <table>
+        <thead>
+          <tr><th>Target</th><th>Compound</th><th>Status</th><th>Note</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>KRAS G12C</td><td>Sotorasib (AMG 510), adagrasib (MRTX849)</td><td>Approved</td><td>First direct small-GTPase therapies; first approval in NSCLC</td></tr>
+          <tr><td>KRAS (pan, active state)</td><td>RMC-6236 and related</td><td>Clinical</td><td>Tri-complex–style agents targeting active-state KRAS</td></tr>
+          <tr><td>Ras prenylation (farnesyltransferase)</td><td>Farnesyltransferase inhibitors</td><td>Approved (other indication)</td><td>Effective against HRAS/NRAS more than KRAS (KRAS can be geranylgeranylated)</td></tr>
+          <tr><td>ROCK (downstream of RhoA)</td><td>Fasudil (Japan, cerebral vasospasm); Y-27632, AT13148</td><td>Approved / clinical</td><td>The most advanced druggable node in the Rho family</td></tr>
+          <tr><td>RhoA prenylation</td><td>PTX-100 (geranylgeranyltransferase-1)</td><td>Early trials</td><td>Prenylation rather than the switch itself</td></tr>
+          <tr><td>PAK (downstream of Rac1/Cdc42)</td><td>FRAX597, IPA-3</td><td>Preclinical</td><td>Effector-level; upstream of MAPK and cytoskeletal output</td></tr>
+          <tr><td>Rac1&#8211;GEF interaction</td><td>NSC23766, EHop-016</td><td>Tool compounds</td><td>Inadequate potency for the clinic</td></tr>
+          <tr><td>RhoA directly</td><td>Rhosin, CCG-1423</td><td>Tool compounds</td><td>No approved direct RhoA ligand</td></tr>
+          <tr><td>Cdc42 directly</td><td>Rhosin, ML141</td><td>Tool compounds</td><td>Research tools</td></tr>
+          <tr><td>Dynamin</td><td>Dynasore, Ryngo 1-23, bis-T-22b</td><td>Tool / preclinical</td><td>Explored as antiviral (dynamin-dependent budding) and anti-invasive</td></tr>
+          <tr><td>mTORC1 (downstream of Rheb-GTP)</td><td>Rapamycin, everolimus (rapalogs)</td><td>Approved</td><td>Functionally substitutes for the lost TSC GAP in TSC</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="grid g2" style="margin-top:20px;">
+      <div class="card">
+        <h3 style="color:var(--teal);">The pattern</h3>
+        <p class="kv">
+          Where a direct switch ligand is not available, the drug hits one of three things: the
+          <b>lipid anchor</b> (prenylation inhibition removes the switch from the membrane entirely),
+          the <b>GEF</b> (blocking exchange keeps the switch in the off state), or the
+          <b>effector kinase</b> (ROCK, PAK, MEK) — which is downstream of dozens of GTPases and
+          therefore both broader and less specific.
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--amber);">Why the switch itself is a hard target</h3>
+        <p class="kv">
+          The GDP-binding pocket is one of the most conserved pockets in biology, and it has to bind
+          GTP, GDP and Mg<sup>2+</sup> with high fidelity for the cycle to work at all. Selectivity
+          between family members therefore has to come from the shallow switch surfaces or the
+          hypervariable region — and those are large, flat, and hard to drug. The two exceptions prove
+          the rule: KRAS G12C is druggable because the mutation creates a novel pocket, and Ras
+          prenylation is druggable because it is a covalent lipid chemistry problem rather than a
+          binding problem.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SOURCES ============ -->
+<footer id="sources">
+  <div class="wrap">
+    <h2 style="font-size:1.1rem;">Sources &amp; methods</h2>
+    <p style="margin-top:10px;">
+      Primary source: llm-wiki-jk vault notes —
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/GTPase.md" target="_blank" rel="noopener noreferrer"><code>src/notes/_link/GTPase.md</code></a>
+      (superclass note: nucleotide cycle, family overview, pathology) ·
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/GAP.md" target="_blank" rel="noopener noreferrer"><code>src/notes/_link/GAP.md</code></a>
+      (GAP logic, TSC1/TSC2&#8211;Rheb, NF1, ARHGAP) ·
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Rac GTPase.md" target="_blank" rel="noopener noreferrer"><code>src/notes/_link/Rac GTPase.md</code></a> ·
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Rac1.md" target="_blank" rel="noopener noreferrer"><code>src/notes/_link/Rac1.md</code></a> ·
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/RhoA.md" target="_blank" rel="noopener noreferrer"><code>src/notes/_link/RhoA.md</code></a> ·
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Cdc42.md" target="_blank" rel="noopener noreferrer"><code>src/notes/_link/Cdc42.md</code></a> ·
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/autophagy/Rab5.md" target="_blank" rel="noopener noreferrer"><code>src/notes/autophagy/Rab5.md</code></a> ·
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/autophagy/Rab7.md" target="_blank" rel="noopener noreferrer"><code>src/notes/autophagy/Rab7.md</code></a> ·
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Rab8.md" target="_blank" rel="noopener noreferrer"><code>src/notes/_link/Rab8.md</code></a> ·
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Arf1.md" target="_blank" rel="noopener noreferrer"><code>src/notes/_link/Arf1.md</code></a> ·
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Dynamin.md" target="_blank" rel="noopener noreferrer"><code>src/notes/_link/Dynamin.md</code></a> ·
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cancer/KRAS.md" target="_blank" rel="noopener noreferrer"><code>src/notes/cancer/KRAS.md</code></a> ·
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/autophagy/RAS.md" target="_blank" rel="noopener noreferrer"><code>src/notes/autophagy/RAS.md</code></a> ·
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/Autophagosome-lysosome%20fusion.md" target="_blank" rel="noopener noreferrer"><code>src/notes/senescence/Autophagosome-lysosome fusion.md</code></a>.
+    </p>
+    <p>
+      Related vault notes: [[GTPase]], [[GTP]], [[GAP]], [[RAS]], [[KRAS]], [[RhoA]], [[Rac GTPase]],
+      [[Rac1]], [[Cdc42]], [[Rab5]], [[Rab7]], [[Rab8]], [[Arf1]], [[Dynamin]], [[ROCK]], [[PAK1]],
+      [[Actin Cytoskeleton]], [[Focal Adhesion]], [[Cell Migration]], [[NADPH Oxidase]],
+      [[Respiratory Burst]], [[Endocytosis]], [[Membrane Trafficking]], [[Autophagy]],
+      [[Autophagosome-lysosome fusion]], [[Autophagic Flux]], [[HOPS Complex]], [[Mon1-Ccz1]], [[RILP]],
+      [[FYCO1]], [[OPTN]], [[Huntington's Disease]], [[TSC]], [[TSC1]], [[TSC2]], [[Rheb]], [[mTORC1]],
+      [[mTORC2]], [[AMPK]], [[Akt]], [[ULK1]], [[TFEB]], [[Clear Network]], [[SIRT1]], [[SIRT2]],
+      [[Reactive Oxygen Species]], [[Cellular Senescence]], [[Neurodegeneration]], [[Chronic Granulomatous Disease]],
+      [[Melanoma]], [[Alzheimer's Disease]], [[Fibrosis]], [[Atherosclerosis]], [[Vps34]], [[PtdIns3P]],
+      [[PtdIns(4,5)P2]], [[Mitochondrial Fission]], [[MFN1]], [[MFN2]], [[Charcot–Marie-Tooth Disease]].
+    </p>
+    <p>
+      Figures 1, 3, 4, 7, 8, 9 and 10 are client-side SVG using theme-01 CSS variables — no external
+      dependencies, they re-theme with the site light/dark toggle, and they work offline. Figures 2, 5,
+      6 and 11 are generated charts from the same page template (log-scale turnover rates, family
+      membership, family × output matrix, KRAS mutation frequency).
+    </p>
+    <p style="margin-top:8px; color:var(--mute);">
+      Informational synthesis, not medical advice. <b>Figure 2 is illustrative</b>: the hydrolysis rates
+      are representative order-of-magnitude values (k<sub>cat</sub>, s<sup>−1</sup>) assembled from the
+      standard literature on Ras/Rheb/Rab/Arf/dynamin turnover, and the exact numbers depend on
+      nucleotide concentration, Mg<sup>2+</sup>, lipid binding and assay format — they are drawn to show
+      the <i>relative</i> gap between intrinsic and GAP-catalysed hydrolysis, not to be quoted as
+      constants. Family sizes in Figure 5 are approximate genome-level counts. The schematics in
+      Figures 3, 4, 7, 8, 9 and 10 are editorial encodings of the mechanisms described in the cited
+      vault notes, not experimental data. Drug status in the pharmacology table reflects approvals and
+      trial phases as described in the vault notes; verify current regulatory status before clinical
+      use.
+    </p>
+  </div>
+</footer>
+
+<div id="netTip"></div>
+
+<script src="../themes/theme-01/pages-core.js"></script>
+<script src="../themes/theme-01/pages-svg.js"></script>
+<script src="../themes/theme-01/context-tooltip.js"></script>
+</body>
+</html>

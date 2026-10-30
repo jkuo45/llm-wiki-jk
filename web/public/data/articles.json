@@ -686,5 +686,18 @@
         },
         "created": "2026-09-26",
         "updated": "2026-09-29"
+    },
+    {
+        "id": "gtpase-signaling",
+        "active": true,
+        "langs": {
+            "en-US": {
+                "title": "GTPase Signaling - the cell's switchboard",
+                "description": "Visual guide to the GDP/GTP switch: GEF, GAP and GDI, the GTPase fold (P-loop, switch I/II, CAAX prenylation), the five small-GTPase families and their effectors, and four worked cases - Rho-family polarity control, the Rab5-to-Rab7 conversion that gates autophagic flux, the TSC/Rheb/mTORC1 brake, and NADPH-oxidase assembly.",
+                "path": "pages/en-US/gtpase-signaling.html"
+            }
+        },
+        "created": "2026-10-29",
+        "updated": "2026-10-29"
     }
 ]
