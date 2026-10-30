@@ -1,5 +1,5 @@
 {
-  "generated": "23_OCT_2026 08:46 AM PDT",
+  "generated": "29_OCT_2026 07:43 PM PDT",
   "tasks": [
     {
       "id": "tasks-index",
@@ -56,6 +56,53 @@
       }
     },
     {
+      "id": "task_output_eryptosis_review_vs_cell_death_01_Oct_2026",
+      "langs": {
+        "en-US": {
+          "title": "Eryptosis 2025 — mechanistic update, how it differs from other cell death programs, and review points for cell-death-comparison.html",
+          "description": "Draft summary/outline of Tkachenko et al. 2025 (Cell Death Dis 16:467) focused on eryptosis's distinct signalling, what is new since the 2001-2010 literature, and concrete corrections to the eryptosis row on the cell-death comparison page.",
+          "created": "2026-10-01",
+          "updated": "2026-10-04",
+          "tags": [
+            "cell-death",
+            "eryptosis",
+            "erythrocyte",
+            "calcium-signaling",
+            "ceramide",
+            "eryptosis-nomenclature",
+            "pharmacology"
+          ],
+          "filename": "task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md",
+          "path": "tasks/en-US/task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md"
+        },
+        "zh-TW": {
+          "title": "紅血球凋亡（eryptosis）2025 — 機制更新、與其他細胞死亡程式的差異，以及 cell-death-comparison.html 的審查要點",
+          "description": "Tkachenko 等人 2025（Cell Death Dis 16:467）的摘要大綱草案，聚焦於 eryptosis 獨特的訊號傳遞、相較 2001–2010 年文獻的新進展，以及對細胞死亡比較頁面 eryptosis 列的具體修正建議。",
+          "created": "2026-10-01",
+          "updated": "2026-10-04",
+          "tags": [
+            "cell-death",
+            "eryptosis",
+            "erythrocyte",
+            "calcium-signaling",
+            "ceramide",
+            "eryptosis-nomenclature",
+            "pharmacology"
+          ],
+          "filename": "task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md",
+          "path": "tasks/zh-TW/task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md"
+        }
+      },
+      "stats": {
+        "words": 4585,
+        "images": 7,
+        "links": 16,
+        "diagrams": 1
+      }
+    },
+    {
       "id": "task_output_biomarker_gate_supply_chain_procurement_04_Oct_2026",
       "langs": {
         "en-US": {
@@ -104,53 +151,6 @@
         "images": 0,
         "links": 6,
         "diagrams": 0
-      }
-    },
-    {
-      "id": "task_output_eryptosis_review_vs_cell_death_01_Oct_2026",
-      "langs": {
-        "en-US": {
-          "title": "Eryptosis 2025 — mechanistic update, how it differs from other cell death programs, and review points for cell-death-comparison.html",
-          "description": "Draft summary/outline of Tkachenko et al. 2025 (Cell Death Dis 16:467) focused on eryptosis's distinct signalling, what is new since the 2001-2010 literature, and concrete corrections to the eryptosis row on the cell-death comparison page.",
-          "created": "2026-10-01",
-          "updated": "2026-10-04",
-          "tags": [
-            "cell-death",
-            "eryptosis",
-            "erythrocyte",
-            "calcium-signaling",
-            "ceramide",
-            "eryptosis-nomenclature",
-            "pharmacology"
-          ],
-          "filename": "task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md",
-          "path": "tasks/en-US/task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md"
-        },
-        "zh-TW": {
-          "title": "紅血球凋亡（eryptosis）2025 — 機制更新、與其他細胞死亡程式的差異，以及 cell-death-comparison.html 的審查要點",
-          "description": "Tkachenko 等人 2025（Cell Death Dis 16:467）的摘要大綱草案，聚焦於 eryptosis 獨特的訊號傳遞、相較 2001–2010 年文獻的新進展，以及對細胞死亡比較頁面 eryptosis 列的具體修正建議。",
-          "created": "2026-10-01",
-          "updated": "2026-10-04",
-          "tags": [
-            "cell-death",
-            "eryptosis",
-            "erythrocyte",
-            "calcium-signaling",
-            "ceramide",
-            "eryptosis-nomenclature",
-            "pharmacology"
-          ],
-          "filename": "task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md",
-          "path": "tasks/zh-TW/task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md"
-        }
-      },
-      "stats": {
-        "words": 4585,
-        "images": 7,
-        "links": 16,
-        "diagrams": 1
       }
     },
     {

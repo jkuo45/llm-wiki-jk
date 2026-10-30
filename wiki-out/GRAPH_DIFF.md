@@ -1,45 +1,45 @@
 # Triples vs Wiki Graph Diff
 
 - Triples graph: `/Users/johnnykuo/Projects/llm-wiki-jk/graphify-out/graph.json` (3493 nodes, 6605 edges)
-- Wiki graph:    `/Users/johnnykuo/Projects/llm-wiki-jk/wiki-out/graph.json` (3486 nodes, 44994 edges)
+- Wiki graph:    `/Users/johnnykuo/Projects/llm-wiki-jk/wiki-out/graph.json` (3553 nodes, 46463 edges)
 
 ## Node overlap
 
-- **Shared** (in both): 2158
-- **Wiki-only** (linked, no triple): 1328
-- **Triples-only** (triple, no wikilink): 1335
+- **Shared** (in both): 2161
+- **Wiki-only** (linked, no triple): 1392
+- **Triples-only** (triple, no wikilink): 1332
 
 ## Edge overlap
 
-- Overlap is classified by (source, target) pair, relation-agnostic. Unique pairs: triples 6285 / wiki 44994 — the triples graph carries 6605 links over 6285 pairs (320 parallel-relation links preserved by the MultiDiGraph rebuild).
+- Overlap is classified by (source, target) pair, relation-agnostic. Unique pairs: triples 6285 / wiki 46463 — the triples graph carries 6605 links over 6285 pairs (320 parallel-relation links preserved by the MultiDiGraph rebuild).
 
-- **Wiki-only pairs** (under-extracted triples / curation gaps): 41640
-- **Triples-only pairs** (not surfaced as a wikilink): 2931
+- **Wiki-only pairs** (under-extracted triples / curation gaps): 43091
+- **Triples-only pairs** (not surfaced as a wikilink): 2913
 
 ## Top 20 wiki-only nodes (linked but absent from triples)
 
 | Node | Degree |
 | --- | --- |
-| Macrophage | 93 |
-| Endothelial Cells | 77 |
+| Macrophage | 113 |
+| Eryptosis | 92 |
+| Endothelial Cells | 80 |
 | Chronic Inflammation | 72 |
+| Histone Variant | 72 |
 | Fibroblast | 71 |
-| Histone Variant | 70 |
+| Kidney Diseases | 69 |
 | Epigenetics and aging | 67 |
-| NAFLD | 65 |
-| Kidney Diseases | 65 |
-| Cell Signaling | 63 |
-| Unfolded Protein Response | 63 |
-| Citric Acid Cycle | 63 |
+| NAFLD | 66 |
+| Insulin | 66 |
+| Citric Acid Cycle | 64 |
+| Cell Signaling | 64 |
+| Unfolded Protein Response | 64 |
+| Erythrocytes | 62 |
 | Caenorhabditis elegans | 59 |
-| Insulin | 58 |
-| MMP-12 | 56 |
+| FASN | 58 |
+| Hypertension | 57 |
 | Atg1 | 56 |
-| Cardiomyocyte Toxicity | 55 |
-| Muscle | 54 |
-| MET | 54 |
-| Immunity | 53 |
-| Hypertension | 53 |
+| MMP-12 | 56 |
+| Endocytosis | 55 |
 
 ## Top 20 triples-only nodes (triple but no wikilink)
 
@@ -48,23 +48,23 @@
 | Adrenochrome formation | 11 |
 | Ascorbic Acid | 10 |
 | Females | 9 |
+| ROS | 7 |
 | Antioxidants | 7 |
-| NF-kB | 5 |
-| p21 | 5 |
 | CDK4 | 5 |
 | Sodium Chloride | 5 |
-| CDK6 | 4 |
-| slow COMT | 4 |
+| NF-kB | 5 |
+| p21 | 5 |
 | Biphasic Dose Response | 4 |
-| JAK-STAT3 | 4 |
+| Mice | 4 |
+| slow COMT | 4 |
 | Physical Activity | 4 |
+| JAK-STAT3 | 4 |
+| SIRT3 deficiency | 4 |
 | SIRT1 and SIRT2 | 4 |
 | COMT Val158 allele | 4 |
-| SIRT3 deficiency | 4 |
-| Mice | 4 |
-| anti-inflammatory properties | 3 |
-| Advanced Glycation End Products formation | 3 |
-| H3K9 | 3 |
+| CDK6 | 4 |
+| IGF-1 | 3 |
+| SIRT6 overexpression | 3 |
 
 ## Top 20 wiki-only edges (suggest extracting as triples)
 
