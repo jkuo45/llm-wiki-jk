@@ -41,7 +41,7 @@ Never present general knowledge as if it came from the vault, and never present 
 
 ## Output Contract
 
-- File: `src/tasks/task_output_<slug>_<DD_MMM_YYYY>.md` (timestamp format `%d_%b_%Y %I:%M %p %Z` per AGENTS.md; topic subdirectories are allowed).
+- File: `src/tasks/task_output_<slug>_<DD_MMM_YYYY>.md` (date portion of the AGENTS.md timestamp `%d_%b_%Y %I:%M %p %Z`; topic subdirectories are allowed). Print the full timestamp in the document body.
 - Frontmatter: `title`, `description`, `created`, `updated` (`YYYY-MM-DD`), `source`, `tags`, `author`.
 - Link every distinct biomedical entity on its first meaningful mention as `[[Canonical Title]]` — exact filename match, bare links only, no path prefixes. Never put wiki links in frontmatter.
 - Use descriptive `##` / `###` headings. No numbering unless the order itself is meaningful.
