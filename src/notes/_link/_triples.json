@@ -93028,5 +93028,103 @@
     "source_document": "γ-H2AX.md",
     "created": "2026-09-29T18:07:33Z",
     "updated": "2026-09-29T18:36:32Z"
+  },
+  {
+    "id": "c2a537b8772e",
+    "subject": "Glycolysis",
+    "predicate": "produces",
+    "object": "ATP",
+    "context": {
+      "en-US": "Glycolysis yields 2 ATP per glucose molecule by substrate-level phosphorylation at hexokinase, phosphofructokinase-1 and pyruvate kinase, in the cytosol and without oxygen. In mature erythrocytes, which lack mitochondria, this substrate-level phosphorylation is the cell's only source of ATP; the same pathway also feeds the pentose phosphate pathway that supplies NADPH for glutathione reductase, so glycolytic flux sets both the energy budget and the redox defence of the red cell.",
+      "zh-TW": "糖解作用每分子葡萄糖經受己糖激酶、磷酸果糖激酶-1 與丙酮酸激酶的受質層次磷酸化產生 2 ATP，於細胞質內進行且不需要氧氣。在缺乏粒線體的成熟紅血球中，此受質層次磷酸化是細胞唯一的 ATP 來源；同一途徑亦供應磷酸戊糖途徑所需的葡萄糖-6-磷酸，進而提供 NADPH 給穀胱甘肽還原酶，因此糖解通量同時決定紅血球的能量預算與抗氧化防禦。"
+    },
+    "confidence": 0.95,
+    "source_document": "ATP.md",
+    "created": "2026-10-30T03:20:00Z",
+    "updated": "2026-10-30T03:20:00Z"
+  },
+  {
+    "id": "194d31c39d67",
+    "subject": "Erythrocytes",
+    "predicate": "depend_on",
+    "object": "Glycolysis",
+    "context": {
+      "en-US": "Mature erythrocytes expel their mitochondria during erythropoiesis and cannot regenerate them, so glycolysis is their sole ATP source — the metabolic dependency that makes the red cell's death threshold a function of glycolytic flux. When glucose is withdrawn or glycolysis is blocked (e.g. by 2-deoxyglucose), ATP falls fast, PKCα translocates to the plasma membrane and phosphorylates the Ca2+-permeable cation channel, the cytosolic Ca2+ rises, and phosphatidylserine is exposed with cell shrinkage: cation channel-driven eryptosis. AMPK senses the ATP/AMP deficit and restrains this death.",
+      "zh-TW": "成熟紅血球在紅血球生成過程中排出粒線體且無法再生，因此糖解作用是其唯一的 ATP 來源——正是這個代謝依賴使紅血球的死亡閾值成為糖解通量的函數。當葡萄糖被撤除或糖解被阻斷（例如 2-脱氧葡萄糖），ATP 迅速下降，PKCα 轉位至細胞質膜並磷酸化 Ca2+ 可通透的陽離子通道，細胞質 Ca2+ 上升，導致磷脂醯絲胺酸暴露與細胞縮小，即陽離子通道驅動的 eryptosis。AMPK 感知 ATP/AMP 失衡並抑制此死亡程序。"
+    },
+    "confidence": 0.92,
+    "source_document": "Glycolysis.md",
+    "created": "2026-10-30T03:20:00Z",
+    "updated": "2026-10-30T03:20:00Z"
+  },
+  {
+    "id": "00949d578f7e",
+    "subject": "2-deoxy-D-glucose",
+    "predicate": "triggers",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "In erythrocytes, 2-deoxyglucose is a standard experimental inducer of eryptosis because glycolysis is the cell's only ATP source: blocking it causes fast ATP loss, which drives PKCα translocation to the plasma membrane and serine phosphorylation of the Ca2+-permeable cation channel, raising cytosolic Ca2+ and triggering phosphatidylserine exposure and cell shrinkage. The same compound is mitohormetic in nucleated cells, so the sign of the effect inverts with the cell type.",
+      "zh-TW": "在紅血球中，2-脱氧葡萄糖是誘發 eryptosis 的標準實驗工具，因為糖解作用是細胞唯一的 ATP 來源：阻斷糖解會造成 ATP 迅速耗竭，驅使 PKCα 轉位至細胞質膜並對 Ca2+ 可通透的陽離子通道進行絲胺酸磷酸化，使細胞質 Ca2+ 上升，觸發磷脂醯絲胺酸暴露與細胞縮小。同一化合物在有核細胞中則屬於微 hormetic 效應，因此其作用方向隨細胞類型而反轉。"
+    },
+    "confidence": 0.9,
+    "source_document": "2-deoxy-D-glucose.md",
+    "created": "2026-10-30T03:20:00Z",
+    "updated": "2026-10-30T03:20:00Z"
+  },
+  {
+    "id": "e062626224c9",
+    "subject": "PKC",
+    "predicate": "promotes",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "PKC — specifically PKCα — is pro-eryptotic in erythrocytes, which is the reverse of its role in nucleated cells where it is largely anti-apoptotic: ATP depletion drives PKCα membrane translocation, which phosphorylates the membrane cation channel and raises cytosolic Ca2+, producing scramblase activation and phosphatidylserine exposure. As with CK1α, the sign of the kinase flips in anucleate cells that retain only a truncated effector set.",
+      "zh-TW": "PKC——具體而言為 PKCα——在紅血球中是促 eryptosis 的，這與其在有核細胞中主要抗凋亡的角色相反：ATP 耗竭驅使 PKCα 轉位至細胞膜，使其磷酸化膜上陽離子通道並提高細胞質 Ca2+，進而活化 scramblase 並造成磷脂醯絲胺酸暴露。與 CK1α 相同，此激酶的作用方向在缺乏細胞核、僅保留簡化效應子集合的細胞中反轉。"
+    },
+    "confidence": 0.9,
+    "source_document": "PKC.md",
+    "created": "2026-10-30T03:20:00Z",
+    "updated": "2026-10-30T03:20:00Z"
+  },
+  {
+    "id": "0feaa1ff92c6",
+    "subject": "AMPK",
+    "predicate": "inhibits",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "AMPK is the energy sensor that restrains eryptosis: it senses the ATP/AMP deficit produced by glycolytic failure and suppresses the resulting death program. Loss of AMPKα in mice causes splenomegaly and severe anemia because eryptotic red cells accumulate in the spleen, and pharmacological AMPK activation (e.g. by AICAR or metformin) reduces PS-positive erythrocytes. AMPK therefore opposes the ATP-depletion arm of cation channel-driven eryptosis.",
+      "zh-TW": "AMPK 是抑制 eryptosis 的能量感測器：它感知糖解失效所造成的 ATP/AMP 失衡，並抑制隨之而來的死亡程序。AMPKα 在小鼠中缺失會造成脾臟腫大與嚴重貧血，因為 eryptotic 紅血球在脾臟中堆積；而 AMPK 的藥理學活化（例如 AICAR 或 metformin）可減少 PS 陽性的紅血球。因此 AMPK 對抗陽離子通道驅動 eryptosis 中的 ATP 耗竭支路。"
+    },
+    "confidence": 0.9,
+    "source_document": "Eryptosis.md",
+    "created": "2026-10-30T03:20:00Z",
+    "updated": "2026-10-30T03:20:00Z"
+  },
+  {
+    "id": "deb1060a260e",
+    "subject": "Calcium Signaling",
+    "predicate": "activates",
+    "object": "Gardos Channel",
+    "context": {
+      "en-US": "The Gardos channel (KCa3.1/KCNN4) is the Ca2+-activated K+ channel of the erythrocyte membrane and the executor of eryptotic shrinkage: elevated cytosolic Ca2+ opens it, K+ efflux hyperpolarizes the membrane, Cl- and water follow, and the cell shrinks — measurable as reduced forward scatter. Charybdotoxin and clotrimazole block the channel and avert shrinkage. The same Ca2+ rise concurrently inhibits the flippase, activates the scramblase (PS exposure) and activates calpain (blebbing), which is why Ca2+ is called the master regulator of eryptosis.",
+      "zh-TW": "Gardos 通道（KCa3.1/KCNN4）是紅血球膜上的 Ca2+ 活化型 K+ 通道，也是 eryptosis 縮小的執行者：細胞質 Ca2+ 上升使其開啟，K+ 外流使膜過極化，Cl- 與水隨之流失，細胞因而縮小（以前向散射降低量測）。Charybdotoxin 與 clotrimazole 可阻斷該通道並避免縮小。同一 Ca2+ 上升同時抑制 flippase、活化 scramblase（PS 暴露）並活化 calpain（起泡），因此 Ca2+ 被稱為 eryptosis 的主調節因子。"
+    },
+    "confidence": 0.9,
+    "source_document": "Gardos Channel.md",
+    "created": "2026-10-30T03:20:00Z",
+    "updated": "2026-10-30T03:20:00Z"
+  },
+  {
+    "id": "5aa52408166c",
+    "subject": "Eryptosis",
+    "predicate": "exposes",
+    "object": "Phosphatidylserine",
+    "context": {
+      "en-US": "Phosphatidylserine exposure is the defining readout and the required confirmation criterion of eryptosis: confirmation needs PS externalization plus elevated intracellular Ca2+, and Ca2+ inhibits the flippase while activating the scramblase, so the inner-leaflet asymmetry collapses within minutes. Annexin V-FITC binding is the gold-standard assay. Because the membrane remains intact and PS is immunosuppressive, PS-positive cells are engulfed within minutes by efferocytosis, usually before any hemolysis releases proinflammatory DAMPs.",
+      "zh-TW": "磷脂醯絲胺酸（PS）暴露是 eryptosis 的定義性讀出與必要確認條件：確認需同時具備 PS 外翻與細胞內 Ca2+ 上升，而 Ca2+ 抑制 flippase 並活化 scramblase，使 PS 的內葉不對稱性在數分鐘內崩解。Annexin V-FITC 結合為金標準檢測。由於細胞膜保持完整且 PS 具有免疫抑制作用，PS 陽性細胞通常在溶血釋放促炎 DAMPs 之前，即於數分鐘內被凋亡細胞清除（efferocytosis）。"
+    },
+    "confidence": 0.92,
+    "source_document": "Phosphatidylserine.md",
+    "created": "2026-10-30T03:20:00Z",
+    "updated": "2026-10-30T03:20:00Z"
   }
 ]
