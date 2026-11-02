@@ -24,6 +24,7 @@ Extracellular cysteine-rich domains bind the trimeric TRAIL ligand; binding clus
 - **Necroptosis:** when caspase-8 is inhibited or deleted, the same receptor complex recruits [[RIPK1]] and [[RIPK3]] to form the [[necrosome]], and RIPK3 phosphorylates [[MLKL]] — the switch that converts apoptosis into necroptosis.
 - **Decoy competition:** DR4 also binds soluble TRAIL bound to the decoy receptors DcR1 and DcR2, which lack functional death domains and blunt signalling on normal cells.
 - **Resistance:** decoy-receptor overexpression, FLIP, XIAP, and SHP1-mediated dephosphorylation of caspase-8 all reduce DR4-driven apoptosis; agonistic antibodies against DR4/DR5 have been developed as cancer therapeutics.
+- **Tumour selectivity:** DR4 is frequently overexpressed on tumour cells relative to normal tissue, which is what makes agonist antibodies an attractive therapeutic strategy.
 
 ## Erythrocytes
 
