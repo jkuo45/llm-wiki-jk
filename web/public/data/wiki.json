@@ -1,5 +1,5 @@
 {
-  "generated": "01_NOV_2026 07:32 PM PST",
+  "generated": "01_NOV_2026 07:49 PM PST",
   "wiki": [
     {
       "id": "wiki-index",
@@ -256,6 +256,17 @@
           "filename": "Glycolysis.md",
           "path": "wiki/en-US/_link/Glycolysis.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Glycolysis.md"
+        },
+        "zh-TW": {
+          "title": "Glycolysis",
+          "description": "糖解作用是將葡萄糖轉換為丙酮酸的代謝途徑。此途徑的副產物之一是甲基乙二醛（Methylglyoxal），為晚期糖化終產物的強效前驅物。",
+          "created": "2026-07-04",
+          "updated": "2026-11-01",
+          "tags": [
+            "biological-process"
+          ],
+          "filename": "Glycolysis.md",
+          "path": "wiki/zh-TW/_link/Glycolysis.md"
         }
       },
       "stats": {
@@ -280,6 +291,18 @@
           "filename": "2-deoxy-D-glucose.md",
           "path": "wiki/en-US/adrenochrome/2-deoxy-D-glucose.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/2-deoxy-D-glucose.md"
+        },
+        "zh-TW": {
+          "title": "2-deoxy-D-glucose",
+          "description": "2-去氧-D-葡萄糖（2DG）是抑制糖解的葡萄糖類似物，會觸發粒線體毒物興奮效應的 ROS 反應，在模式生物中延長壽命。",
+          "created": "2026-07-04",
+          "updated": "2026-11-01",
+          "tags": [
+            "chemical-compound",
+            "glycolysis-inhibitor"
+          ],
+          "filename": "2-deoxy-D-glucose.md",
+          "path": "wiki/zh-TW/adrenochrome/2-deoxy-D-glucose.md"
         }
       },
       "stats": {
@@ -572,6 +595,20 @@
           "filename": "Fas.md",
           "path": "wiki/en-US/cell-death/Fas.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Fas.md"
+        },
+        "zh-TW": {
+          "title": "Fas",
+          "description": "Fas（CD95／APO-1／FasR／TNFRSF6）是 TNF 超家族死亡受體，與 FADD 及 Caspase-8 組裝 DISC 以啟動外在凋亡；當 Caspase-8 被阻斷時，訊號轉向 RIPK1/RIPK3/MLKL 壞死性凋亡。",
+          "created": "2026-10-22",
+          "updated": "2026-11-01",
+          "tags": [
+            "receptor",
+            "apoptosis",
+            "cell-death",
+            "immunology"
+          ],
+          "filename": "Fas.md",
+          "path": "wiki/zh-TW/cell-death/Fas.md"
         }
       },
       "stats": {
@@ -741,6 +778,19 @@
           "filename": "Separase.md",
           "path": "wiki/en-US/_link/Separase.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Separase.md"
+        },
+        "zh-TW": {
+          "title": "Separase",
+          "description": "在後期（anaphase）開始時切割黏連蛋白、釋放姊妹染色單體使各自移向子細胞的半胱胺酸蛋白酶；其活性由 APC/C 依賴的 securin 降解所把關。",
+          "created": "2026-10-22",
+          "updated": "2026-11-01",
+          "tags": [
+            "enzyme",
+            "cell-cycle",
+            "mitosis"
+          ],
+          "filename": "Separase.md",
+          "path": "wiki/zh-TW/_link/Separase.md"
         }
       },
       "stats": {
@@ -806,6 +856,19 @@
           "filename": "Temozolomide.md",
           "path": "wiki/en-US/cancer/Temozolomide.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cancer/Temozolomide.md"
+        },
+        "zh-TW": {
+          "title": "Temozolomide",
+          "description": "替莫唑胺（TMZ）是口服可用的咪唑并四氮烯類烷化前驅藥，會生成 MTIC 與 O6-甲基鳥嘌呤 DNA 加合物，是膠質母細胞瘤合併放射治療的標準化學治療骨幹。",
+          "created": "2026-10-22",
+          "updated": "2026-11-01",
+          "tags": [
+            "drug",
+            "anticancer",
+            "chemotherapy"
+          ],
+          "filename": "Temozolomide.md",
+          "path": "wiki/zh-TW/cancer/Temozolomide.md"
         }
       },
       "stats": {
@@ -831,6 +894,19 @@
           "filename": "Decoy Receptor.md",
           "path": "wiki/en-US/cell-death/Decoy%20Receptor.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Decoy%20Receptor.md"
+        },
+        "zh-TW": {
+          "title": "Decoy Receptor",
+          "description": "可溶性或膜性誘餌受體能結合死亡配體但缺乏功能性死亡結構域，使正常細胞免於凋亡——包括 TRAIL 的 DcR1/DcR2 與 RANKL 的骨保護素。",
+          "created": "2026-10-22",
+          "updated": "2026-11-01",
+          "tags": [
+            "receptor",
+            "cell-death",
+            "apoptosis"
+          ],
+          "filename": "Decoy Receptor.md",
+          "path": "wiki/zh-TW/cell-death/Decoy%20Receptor.md"
         }
       },
       "stats": {
@@ -856,6 +932,19 @@
           "filename": "Succinate.md",
           "path": "wiki/en-US/_link/Succinate.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Succinate.md"
+        },
+        "zh-TW": {
+          "title": "Succinate",
+          "description": "TCA 循環中間產物琥珀酸，是 SDH 的受質，在 SDH 受抑制時穩定 HIF-α，並為蛋白質琥珀酸化與髓系細胞發炎代謝物的來源。",
+          "created": "2026-10-22",
+          "updated": "2026-11-01",
+          "tags": [
+            "metabolite",
+            "signaling",
+            "mitochondria"
+          ],
+          "filename": "Succinate.md",
+          "path": "wiki/zh-TW/_link/Succinate.md"
         }
       },
       "stats": {
@@ -997,6 +1086,19 @@
           "filename": "Mycobacterium tuberculosis.md",
           "path": "wiki/en-US/_link/Mycobacterium%20tuberculosis.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Mycobacterium%20tuberculosis.md"
+        },
+        "zh-TW": {
+          "title": "Mycobacterium tuberculosis",
+          "description": "引起結核病的抗酸性、富含脂質分枝桿菌，藉阻斷吞噬體—溶體融合在巨噬細胞記憶存活，並導致乾酪性肉芽腫、潛伏感染與抗藥性疾病。",
+          "created": "2026-10-22",
+          "updated": "2026-11-01",
+          "tags": [
+            "bacteria",
+            "pathogen",
+            "infectious-disease"
+          ],
+          "filename": "Mycobacterium tuberculosis.md",
+          "path": "wiki/zh-TW/_link/Mycobacterium%20tuberculosis.md"
         }
       },
       "stats": {
@@ -1022,6 +1124,19 @@
           "filename": "Nucleophagy.md",
           "path": "wiki/en-US/autophagy/Nucleophagy.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/autophagy/Nucleophagy.md"
+        },
+        "zh-TW": {
+          "title": "Nucleophagy",
+          "description": "針對核成分的選擇性自噬，由 NIX/BNIP3、FUNDC1 等外膜受體把核被膜與核質部分送入自噬體進行溶體降解。",
+          "created": "2026-10-22",
+          "updated": "2026-11-01",
+          "tags": [
+            "process",
+            "autophagy",
+            "selective-autophagy"
+          ],
+          "filename": "Nucleophagy.md",
+          "path": "wiki/zh-TW/autophagy/Nucleophagy.md"
         }
       },
       "stats": {
@@ -1047,6 +1162,19 @@
           "filename": "Polymorphism.md",
           "path": "wiki/en-US/_link/Polymorphism.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Polymorphism.md"
+        },
+        "zh-TW": {
+          "title": "Polymorphism",
+          "description": "在族群中頻率約 1% 以上的 DNA 序列變異，涵蓋單核苷酸變異、插入缺失與重複長度變異，是 GWAS 與藥物基因體學的基礎。",
+          "created": "2026-10-22",
+          "updated": "2026-11-01",
+          "tags": [
+            "genetics",
+            "genetic-variation",
+            "genomics"
+          ],
+          "filename": "Polymorphism.md",
+          "path": "wiki/zh-TW/_link/Polymorphism.md"
         }
       },
       "stats": {
@@ -1072,6 +1200,19 @@
           "filename": "von Willebrand Factor.md",
           "path": "wiki/en-US/_link/von%20Willebrand%20Factor.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/von%20Willebrand%20Factor.md"
+        },
+        "zh-TW": {
+          "title": "von Willebrand Factor",
+          "description": "多聚體性內皮與血小板黏附蛋白，在高剪應力下結合血小板 GPIb 錨定初期止血，並攜帶穩定第八凝血因子；量或質的變異造成 von Willebrand 氏病。",
+          "created": "2026-10-22",
+          "updated": "2026-11-01",
+          "tags": [
+            "protein",
+            "adhesion",
+            "coagulation"
+          ],
+          "filename": "von Willebrand Factor.md",
+          "path": "wiki/zh-TW/_link/von%20Willebrand%20Factor.md"
         }
       },
       "stats": {
@@ -1097,6 +1238,19 @@
           "filename": "Prophase I.md",
           "path": "wiki/en-US/_link/Prophase%20I.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Prophase%20I.md"
+        },
+        "zh-TW": {
+          "title": "Prophase I",
+          "description": "減數分裂前期 I 是減數分裂漫長的第一階段，包含細線期、合線期、粗線期、雙線期與終變期，同源染色體於此配對、聯會、重組並接受基因體監控。",
+          "created": "2026-10-22",
+          "updated": "2026-11-01",
+          "tags": [
+            "process",
+            "meiosis",
+            "cell-division"
+          ],
+          "filename": "Prophase I.md",
+          "path": "wiki/zh-TW/_link/Prophase%20I.md"
         }
       },
       "stats": {
@@ -1122,6 +1276,19 @@
           "filename": "Verapamil.md",
           "path": "wiki/en-US/_link/Verapamil.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Verapamil.md"
+        },
+        "zh-TW": {
+          "title": "Verapamil",
+          "description": "苯烷胺類第四類抗心律不整藥與 L 型鈣通道阻斷劑，用於上心室性心律不整與高血壓，同時抑制 P-醣蛋白並干擾粒線體鈣處理。",
+          "created": "2026-10-22",
+          "updated": "2026-11-01",
+          "tags": [
+            "drug",
+            "ion-channel",
+            "cardiovascular"
+          ],
+          "filename": "Verapamil.md",
+          "path": "wiki/zh-TW/_link/Verapamil.md"
         }
       },
       "stats": {
@@ -1147,6 +1314,19 @@
           "filename": "Semicarbazide-Sensitive Amine Oxidase.md",
           "path": "wiki/en-US/_link/Semicarbazide-Sensitive%20Amine%20Oxidase.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Semicarbazide-Sensitive%20Amine%20Oxidase.md"
+        },
+        "zh-TW": {
+          "title": "Semicarbazide-Sensitive Amine Oxidase",
+          "description": "銅依賴的血管胺氧化酶 SSAO（VAP-1），位於內皮與發炎細胞表面，將一級胺氧化為醛並產生過氧化氫，把膠原交聯與糖尿病血管病變及發炎連結起來。",
+          "created": "2026-10-22",
+          "updated": "2026-11-01",
+          "tags": [
+            "enzyme",
+            "inflammation",
+            "vascular"
+          ],
+          "filename": "Semicarbazide-Sensitive Amine Oxidase.md",
+          "path": "wiki/zh-TW/_link/Semicarbazide-Sensitive%20Amine%20Oxidase.md"
         }
       },
       "stats": {
@@ -1172,6 +1352,19 @@
           "filename": "GTPase.md",
           "path": "wiki/en-US/_link/GTPase.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/GTPase.md"
+        },
+        "zh-TW": {
+          "title": "GTPase",
+          "description": "鳥嘌呤核苷酸結合蛋白超類，藉由 GTP 結合與 GDP 結合狀態間的循環，把受體或機械輸入轉為細胞輸出，涵蓋 Ras、Rho、Rab、Arf 與 dynamin 家族。",
+          "created": "2026-10-22",
+          "updated": "2026-11-01",
+          "tags": [
+            "protein",
+            "gtpase",
+            "signaling"
+          ],
+          "filename": "GTPase.md",
+          "path": "wiki/zh-TW/_link/GTPase.md"
         }
       },
       "stats": {
@@ -1197,6 +1390,19 @@
           "filename": "Mast Cells.md",
           "path": "wiki/en-US/_link/Mast%20Cells.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Mast%20Cells.md"
+        },
+        "zh-TW": {
+          "title": "Mast Cells",
+          "description": "結締組織中的顆粒性白血球，透過 Fc-epsilonRI 與 Toll 樣受體感知過敏原與病原，釋放組織胺、蛋白酶與脂質介質，驅動過敏性休克並塑造組織發炎。",
+          "created": "2026-10-22",
+          "updated": "2026-11-01",
+          "tags": [
+            "cell-type",
+            "granulocyte",
+            "immunity"
+          ],
+          "filename": "Mast Cells.md",
+          "path": "wiki/zh-TW/_link/Mast%20Cells.md"
         }
       },
       "stats": {
@@ -1222,6 +1428,19 @@
           "filename": "Lipolysis.md",
           "path": "wiki/en-US/_link/Lipolysis.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Lipolysis.md"
+        },
+        "zh-TW": {
+          "title": "Lipolysis",
+          "description": "脂解（lipolysis）是由 ATGL-HSL-MGL 級聯把儲存的三酸甘油酯水解為游離脂肪酸與甘油的荷爾蒙門控過程，為脂肪組織釋放能量的主要通路。",
+          "created": "2026-10-22",
+          "updated": "2026-11-01",
+          "tags": [
+            "process",
+            "metabolism",
+            "lipid"
+          ],
+          "filename": "Lipolysis.md",
+          "path": "wiki/zh-TW/_link/Lipolysis.md"
         }
       },
       "stats": {
@@ -1247,6 +1466,19 @@
           "filename": "Serum Amyloid A.md",
           "path": "wiki/en-US/_link/Serum%20Amyloid%20A.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Serum%20Amyloid%20A.md"
+        },
+        "zh-TW": {
+          "title": "Serum Amyloid A",
+          "description": "由 IL-6 與 IL-1 誘導、肝臟來源的急性期載脂蛋白（SAA1/SAA2），促進膽固醇運送，長期升高則形成類澱粉纖維導致 AA 類澱粉沉積症。",
+          "created": "2026-10-22",
+          "updated": "2026-11-01",
+          "tags": [
+            "protein",
+            "acute-phase-reactant",
+            "inflammation"
+          ],
+          "filename": "Serum Amyloid A.md",
+          "path": "wiki/zh-TW/_link/Serum%20Amyloid%20A.md"
         }
       },
       "stats": {
@@ -1272,6 +1504,19 @@
           "filename": "HDL3.md",
           "path": "wiki/en-US/_link/HDL3.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/HDL3.md"
+        },
+        "zh-TW": {
+          "title": "HDL3",
+          "description": "HDL3 是小型、緻密、盤狀的高密度脂蛋白次分群，經 ABCA1 接受細胞膽固醇，並透過 LCAT 生成膽固醇酯成熟為 HDL2。",
+          "created": "2026-10-22",
+          "updated": "2026-11-01",
+          "tags": [
+            "lipoprotein",
+            "metabolism",
+            "cardiovascular"
+          ],
+          "filename": "HDL3.md",
+          "path": "wiki/zh-TW/_link/HDL3.md"
         }
       },
       "stats": {
@@ -1297,6 +1542,19 @@
           "filename": "Osteoblast.md",
           "path": "wiki/en-US/_link/Osteoblast.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Osteoblast.md"
+        },
+        "zh-TW": {
+          "title": "Osteoblast",
+          "description": "由間質幹細胞而來、分泌類骨質並控制礦化的造骨細胞，受 Runx2 與 osterix 及 Wnt/β-catenin 訊號驅動分化，並與破骨細胞在重塑中耦聯。",
+          "created": "2026-10-22",
+          "updated": "2026-11-01",
+          "tags": [
+            "cell-type",
+            "bone",
+            "differentiation"
+          ],
+          "filename": "Osteoblast.md",
+          "path": "wiki/zh-TW/_link/Osteoblast.md"
         }
       },
       "stats": {
@@ -1322,6 +1580,19 @@
           "filename": "Phagolysosome.md",
           "path": "wiki/en-US/_link/Phagolysosome.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Phagolysosome.md"
+        },
+        "zh-TW": {
+          "title": "Phagolysosome",
+          "description": "吞噬體與溶體融合形成的酸性雜交胞器，以 NADPH 氧化酶產生的 ROS 與溶體組織蛋白酶殺死吞噬的微生物，並處理抗原供 MHC 第二類呈現。",
+          "created": "2026-10-22",
+          "updated": "2026-11-01",
+          "tags": [
+            "structure",
+            "lysosome",
+            "antigen-presentation"
+          ],
+          "filename": "Phagolysosome.md",
+          "path": "wiki/zh-TW/_link/Phagolysosome.md"
         }
       },
       "stats": {
@@ -1347,6 +1618,19 @@
           "filename": "Dynamin.md",
           "path": "wiki/en-US/_link/Dynamin.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Dynamin.md"
+        },
+        "zh-TW": {
+          "title": "Dynamin",
+          "description": "大型膜重塑 GTPase，聚合成環狀套筒環繞膜頸，透過水解 GTP 驅動網格蛋白媒介的胞吞作用與突觸囊泡剪切。",
+          "created": "2026-10-22",
+          "updated": "2026-11-01",
+          "tags": [
+            "protein",
+            "gtpase",
+            "membrane-fission"
+          ],
+          "filename": "Dynamin.md",
+          "path": "wiki/zh-TW/_link/Dynamin.md"
         }
       },
       "stats": {
@@ -1408,6 +1692,19 @@
           "filename": "Plasmalogen.md",
           "path": "wiki/en-US/_link/Plasmalogen.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Plasmalogen.md"
+        },
+        "zh-TW": {
+          "title": "Plasmalogen",
+          "description": "sn-1 位置帶乙烯醚鍵的醚磷脂，可保護膜免受氧化傷害、作為血小板活化因子儲庫，並富集於腦、心臟與粒線體膜。",
+          "created": "2026-10-22",
+          "updated": "2026-11-01",
+          "tags": [
+            "lipid",
+            "ether-lipid",
+            "membrane"
+          ],
+          "filename": "Plasmalogen.md",
+          "path": "wiki/zh-TW/_link/Plasmalogen.md"
         }
       },
       "stats": {
@@ -1433,6 +1730,19 @@
           "filename": "Triglycerides.md",
           "path": "wiki/en-US/_link/Triglycerides.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Triglycerides.md"
+        },
+        "zh-TW": {
+          "title": "Triglycerides",
+          "description": "三酸甘油酯是膳食與儲存脂質的主體，由乳糜微粒與 VLDL 運送、經脂解動員，血中升高會驅動胰臟炎與代謝疾病。",
+          "created": "2026-10-22",
+          "updated": "2026-11-01",
+          "tags": [
+            "lipid",
+            "metabolism",
+            "lipoprotein"
+          ],
+          "filename": "Triglycerides.md",
+          "path": "wiki/zh-TW/_link/Triglycerides.md"
         }
       },
       "stats": {
@@ -1458,6 +1768,19 @@
           "filename": "uPA-uPAR.md",
           "path": "wiki/en-US/_link/uPA-uPAR.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/uPA-uPAR.md"
+        },
+        "zh-TW": {
+          "title": "uPA/uPAR",
+          "description": "尿激酶型纖溶酶原活化因子與其 GPI 錨定受體 CD87，共同把纖溶酶生成局限於細胞表面，驅動纖溶、基質重塑、遷移與溶小體—轉錄訊息軸。",
+          "created": "2026-10-22",
+          "updated": "2026-11-01",
+          "tags": [
+            "protein",
+            "protease-receptor",
+            "fibrinolysis"
+          ],
+          "filename": "uPA-uPAR.md",
+          "path": "wiki/zh-TW/_link/uPA-uPAR.md"
         }
       },
       "stats": {
@@ -1483,6 +1806,19 @@
           "filename": "Kinetochore.md",
           "path": "wiki/en-US/_link/Kinetochore.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Kinetochore.md"
+        },
+        "zh-TW": {
+          "title": "Kinetochore",
+          "description": "組裝於著絲點染色質上的多聚蛋白複合體，負責捕捉紡錘體微管、產生並感知附著張力，並承載守護染色體分配的紡錘體組裝檢查點。",
+          "created": "2026-10-22",
+          "updated": "2026-11-01",
+          "tags": [
+            "structure",
+            "cell-cycle",
+            "mitosis"
+          ],
+          "filename": "Kinetochore.md",
+          "path": "wiki/zh-TW/_link/Kinetochore.md"
         }
       },
       "stats": {
@@ -1508,6 +1844,19 @@
           "filename": "Hypokalemia.md",
           "path": "wiki/en-US/_link/Hypokalemia.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Hypokalemia.md"
+        },
+        "zh-TW": {
+          "title": "Hypokalemia",
+          "description": "血清鉀低於 3.5 mmol/L 的狀態，源於胃腸與腎臟鉀流失、醛固酮過多、藥物與鹼中毒，造成神經肌肉無力與心律不整。",
+          "created": "2026-10-22",
+          "updated": "2026-11-01",
+          "tags": [
+            "medical-condition",
+            "electrolyte",
+            "cardiology"
+          ],
+          "filename": "Hypokalemia.md",
+          "path": "wiki/zh-TW/_link/Hypokalemia.md"
         }
       },
       "stats": {
@@ -1533,6 +1882,19 @@
           "filename": "M-CSF.md",
           "path": "wiki/en-US/_link/M-CSF.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/M-CSF.md"
+        },
+        "zh-TW": {
+          "title": "M-CSF",
+          "description": "巨噬細胞群落刺激因子（CSF-1），結合 CSF1R 驅動單核球與巨噬細胞分化、微膠細胞維持及腫瘤相關巨噬細胞極化。",
+          "created": "2026-10-22",
+          "updated": "2026-11-01",
+          "tags": [
+            "cytokine",
+            "growth-factor",
+            "macrophage"
+          ],
+          "filename": "M-CSF.md",
+          "path": "wiki/zh-TW/_link/M-CSF.md"
         }
       },
       "stats": {
