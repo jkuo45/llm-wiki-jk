@@ -1,5 +1,5 @@
 {
-  "generated": "01_NOV_2026 07:49 PM PST",
+  "generated": "04_NOV_2026 07:39 AM PST",
   "tasks": [
     {
       "id": "tasks-index",
@@ -25,31 +25,133 @@
       }
     },
     {
-      "id": "task_output_nad_metabolism_cd38_sarm1_20_Oct_2026",
+      "id": "task_output_adrenochrome_eryptosis_crossover_04_Nov_2026",
       "langs": {
         "en-US": {
-          "title": "NAD+ Metabolism and the CD38–SARM1 Competition — Consolidated Graph Synthesis",
-          "description": "Consolidates the nine July 2026 CD38/SARM1 trace outputs onto the current combined graph build (4,821 nodes / 47,925 edges), re-derives the NAD+ consumer hierarchy, the CD38↔SARM1 competition and NMN-linkage metrics, audits layer divergence (wiki unified vs triples scattered) and extraction gaps within the NAD+ module, and states the pharmacological paradox of CD38 inhibition with its literature resolution.",
-          "created": "2026-10-20",
-          "updated": "2026-10-20",
+          "title": "Adrenochrome–eryptosis crossover — evidence synthesis",
+          "description": "Synthesis of vault notes and cited sources on the mechanistic overlap between adrenochrome (epinephrine autoxidation product) and eryptosis (Ca2+/PS-executed erythrocyte death), covering erythrocyte oxidation routes, shared glutathione/G6PD and Ca2+ nodes, hemolysis versus eryptosis branching, and the absence of direct experimental demonstration; evidence tiers annotated.",
+          "created": "2026-11-04",
+          "updated": "2026-11-04",
           "tags": [
-            "task-output",
-            "nad-plus",
-            "cd38",
-            "sarm1",
-            "knowledge-graph",
-            "metabolism",
-            "aging",
-            "sirtuins",
-            "graph-analysis"
+            "adrenochrome",
+            "eryptosis",
+            "erythrocyte",
+            "oxidative-stress",
+            "cell-death",
+            "longevity"
           ],
-          "filename": "task_output_nad_metabolism_cd38_sarm1_20_Oct_2026.md",
-          "path": "tasks/en-US/task_output_nad_metabolism_cd38_sarm1_20_Oct_2026.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_nad_metabolism_cd38_sarm1_20_Oct_2026.md"
+          "filename": "task_output_adrenochrome_eryptosis_crossover_04_Nov_2026.md",
+          "path": "tasks/en-US/task_output_adrenochrome_eryptosis_crossover_04_Nov_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_adrenochrome_eryptosis_crossover_04_Nov_2026.md"
+        },
+        "zh-TW": {
+          "title": "Adrenochrome–eryptosis 交叉——證據綜合",
+          "description": "彙整知識庫筆記與所引來源，探討 adrenochrome（腎上腺素自氧化產物）與 eryptosis（Ca²⁺/PS 執行的紅血球死亡）之間的機制重疊，涵蓋紅血球氧化路徑、共享的 glutathione/G6PD 與 Ca²⁺ 節點、溶血 vs eryptosis 分流，以及缺乏直接實驗證明；均標註證據層級。",
+          "created": "2026-11-04",
+          "updated": "2026-11-04",
+          "tags": [
+            "adrenochrome",
+            "eryptosis",
+            "erythrocyte",
+            "oxidative-stress",
+            "cell-death",
+            "longevity"
+          ],
+          "filename": "task_output_adrenochrome_eryptosis_crossover_04_Nov_2026.md",
+          "path": "tasks/zh-TW/task_output_adrenochrome_eryptosis_crossover_04_Nov_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_adrenochrome_eryptosis_crossover_04_Nov_2026.md"
         }
       },
       "stats": {
-        "words": 3882,
+        "words": 1641,
+        "images": 0,
+        "links": 50,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "task_output_eryptosis_excess_and_under_clearance_04_Nov_2026",
+      "langs": {
+        "en-US": {
+          "title": "Eryptosis — excess death signaling and under-clearance; evidence synthesis",
+          "description": "Synthesis of vault notes and the published literature on eryptosis as regulated erythrocyte clearance, its relevance to longevity/anti-aging, the absence of a quantified normal eryptotic fraction, and the two failure modes — accelerated eryptosis (anemia, PS-mediated coagulation, endothelial dysfunction) and insufficient eryptosis/under-clearance of damaged/PS-positive cells (hemolysis and persistent procoagulant cells) — with evidence-tier annotations.",
+          "created": "2026-11-04",
+          "updated": "2026-11-04",
+          "tags": [
+            "cell-death",
+            "eryptosis",
+            "erythrocyte",
+            "longevity",
+            "coagulation",
+            "anemia",
+            "chronic-kidney-disease"
+          ],
+          "filename": "task_output_eryptosis_excess_and_under_clearance_04_Nov_2026.md",
+          "path": "tasks/en-US/task_output_eryptosis_excess_and_under_clearance_04_Nov_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_eryptosis_excess_and_under_clearance_04_Nov_2026.md"
+        },
+        "zh-TW": {
+          "title": "紅血球凋亡（eryptosis）— 過度死亡訊號與清除不足；證據綜合",
+          "description": "彙整知識庫筆記與已發表文獻，探討 eryptosis 作為受調控的紅血球清除機制、其與長壽／抗老化的關聯、正常人群 eryptotic fraction 缺乏量化數據，以及兩種失敗模式——加速型 eryptosis（貧血、PS 介導的凝血、內皮功能障礙）與 eryptosis 不足／PS 陽性細胞清除不足（溶血與持續性促凝血細胞）——並標註證據層級。",
+          "created": "2026-11-04",
+          "updated": "2026-11-04",
+          "tags": [
+            "cell-death",
+            "eryptosis",
+            "erythrocyte",
+            "longevity",
+            "coagulation",
+            "anemia",
+            "chronic-kidney-disease"
+          ],
+          "filename": "task_output_eryptosis_excess_and_under_clearance_04_Nov_2026.md",
+          "path": "tasks/zh-TW/task_output_eryptosis_excess_and_under_clearance_04_Nov_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_eryptosis_excess_and_under_clearance_04_Nov_2026.md"
+        }
+      },
+      "stats": {
+        "words": 2575,
+        "images": 0,
+        "links": 29,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "task_output_major_research_gaps_review_03_Nov_2026",
+      "langs": {
+        "en-US": {
+          "title": "Research Gaps Across Task Outputs — Review",
+          "description": "Consolidated open questions and coverage gaps reported across ~90 task outputs in src/tasks/ (June–October 2026), grouped by thematic cluster, with recurring human-data, biomarker, and window-definition deficits and a source-derived priority order.",
+          "created": "2026-11-03",
+          "updated": "2026-11-04",
+          "tags": [
+            "research-gaps",
+            "review",
+            "meta-analysis",
+            "geroscience"
+          ],
+          "filename": "task_output_major_research_gaps_review_03_Nov_2026.md",
+          "path": "tasks/en-US/task_output_major_research_gaps_review_03_Nov_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_major_research_gaps_review_03_Nov_2026.md"
+        },
+        "zh-TW": {
+          "title": "任務輸出中的研究缺口 — 綜述",
+          "description": "彙整 src/tasks/ 約 90 份任務輸出（2026 年 6–10 月）所回報的開放問題與涵蓋缺口，依主題分組，並列出反覆出現的人體資料、生物標記與激效窗口定義缺口，以及依來源推導的優先順序。",
+          "created": "2026-11-03",
+          "updated": "2026-11-04",
+          "tags": [
+            "research-gaps",
+            "review",
+            "meta-analysis",
+            "geroscience"
+          ],
+          "filename": "task_output_major_research_gaps_review_03_Nov_2026.md",
+          "path": "tasks/zh-TW/task_output_major_research_gaps_review_03_Nov_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_major_research_gaps_review_03_Nov_2026.md"
+        }
+      },
+      "stats": {
+        "words": 2969,
         "images": 0,
         "links": 0,
         "diagrams": 0
@@ -59,10 +161,10 @@
       "id": "task_output_eryptosis_review_vs_cell_death_01_Oct_2026",
       "langs": {
         "en-US": {
-          "title": "Eryptosis 2025 — mechanistic update, how it differs from other cell death programs, and review points for cell-death-comparison.html",
-          "description": "Draft summary/outline of Tkachenko et al. 2025 (Cell Death Dis 16:467) focused on eryptosis's distinct signalling, what is new since the 2001-2010 literature, and concrete corrections to the eryptosis row on the cell-death comparison page.",
+          "title": "Tkachenko 2025 eryptosis review — mechanisms, distinction from other cell-death modalities, and corrections for cell-death-comparison.html",
+          "description": "Scope: Tkachenko et al. 2025 (Cell Death Dis 16:467) — eryptosis signalling mechanisms, distinctions from other regulated cell-death modalities, evidence published since 2001, and 18 proposed corrections to the eryptosis row of cell-death-comparison.html.",
           "created": "2026-10-01",
-          "updated": "2026-10-04",
+          "updated": "2026-11-04",
           "tags": [
             "cell-death",
             "eryptosis",
@@ -100,6 +202,37 @@
         "images": 7,
         "links": 16,
         "diagrams": 1
+      }
+    },
+    {
+      "id": "task_output_nad_metabolism_cd38_sarm1_20_Oct_2026",
+      "langs": {
+        "en-US": {
+          "title": "NAD+ Metabolism and the CD38–SARM1 Competition — Consolidated Graph Synthesis",
+          "description": "Consolidates the nine July 2026 CD38/SARM1 trace outputs onto the current combined graph build (4,821 nodes / 47,925 edges), re-derives the NAD+ consumer hierarchy, the CD38↔SARM1 competition and NMN-linkage metrics, audits layer divergence (wiki unified vs triples scattered) and extraction gaps within the NAD+ module, and states the pharmacological paradox of CD38 inhibition with its literature resolution.",
+          "created": "2026-10-20",
+          "updated": "2026-10-20",
+          "tags": [
+            "task-output",
+            "nad-plus",
+            "cd38",
+            "sarm1",
+            "knowledge-graph",
+            "metabolism",
+            "aging",
+            "sirtuins",
+            "graph-analysis"
+          ],
+          "filename": "task_output_nad_metabolism_cd38_sarm1_20_Oct_2026.md",
+          "path": "tasks/en-US/task_output_nad_metabolism_cd38_sarm1_20_Oct_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_nad_metabolism_cd38_sarm1_20_Oct_2026.md"
+        }
+      },
+      "stats": {
+        "words": 3882,
+        "images": 0,
+        "links": 0,
+        "diagrams": 0
       }
     },
     {
