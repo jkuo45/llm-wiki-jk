@@ -1,8 +1,8 @@
 ---
-title: "紅血球凋亡（eryptosis）2025 — 機制更新、與其他細胞死亡程式的差異，以及 cell-death-comparison.html 的審查要點"
-description: Tkachenko 等人 2025（Cell Death Dis 16:467）的摘要大綱草案，聚焦於 eryptosis 獨特的訊號傳遞、相較 2001–2010 年文獻的新進展，以及對細胞死亡比較頁面 eryptosis 列的具體修正建議。
+title: "Tkachenko 2025 eryptosis 綜述——機制、與其他細胞死亡型式的區別，以及 cell-death-comparison.html 的修正"
+description: "範圍：Tkachenko 等人 2025（Cell Death Dis 16:467）——eryptosis 訊號傳遞機制、與其他受調控細胞死亡型式的區別、2001 年以來發表的證據，以及針對 cell-death-comparison.html eryptosis 列的 18 項擬議修正。"
 created: 2026-10-01
-updated: 2026-10-04
+updated: 2026-11-04
 type: task-output
 tags:
   - cell-death
@@ -14,18 +14,18 @@ tags:
   - pharmacology
 ---
 
-# 紅血球凋亡（eryptosis）2025 — 摘要／大綱
+# Tkachenko 2025 eryptosis 綜述——機制、區別與頁面修正
 
 > [!info] 來源
 >
 > [[_document_ - Current understanding of eryptosis mechanisms, physiological functions, role in disease, pharmacological applications, and nomenclature recommendations]] — Tkachenko A、Alfhili MA、Alsughayyir J 等人。*Current understanding of eryptosis…* **Cell Death Dis 16, 467（2025）**。doi:[10.1038/s41419-025-07784-w](https://doi.org/10.1038/s41419-025-07784-w)，PMC12216432，PMID 40592821。由紅血球細胞死亡研究聯盟（Consortium for Erythrocyte Cell Death Research）撰寫的共識綜述（截至 2024 年底，PubMed 上「eryptosis」相關文獻逾 600 篇）。
-> Vault 路徑：`src/notes/cell-death/_document_ - Current understanding of eryptosis…md`。對應的 vault 筆記：[[Eryptosis]]（位於 `src/notes/_link/`，內容精簡——需由本文檔充實）。
+> 對應的 vault 筆記：[[Eryptosis]]（內容精簡——需由本文檔充實）。
 
 ---
 
-## 核心主張（單段版）
+## 主要發現
 
-成熟紅血球是無核、無胞器、充滿血紅素的細胞：沒有粒線體、沒有內質網、沒有高基氏體、沒有核糖體，實質上也沒有轉錄組（雖有低度轉譯的報告，但可視為可忽略）。因此，紅血球生成過程中的去核加上自噬依賴的胞器清除，實際上*移除了大部分古典死亡機器*——細胞色素 c、APAF-1、caspase-2/-6/-7/-9、內源性凋亡小體、PARP-1/AIF parthanatos、NLRP3／發炎小體焦亡、自噬機器。仍保留的是一小組紅血球系譜蛋白：Fas/CD95、FasL、FADD、caspase-3、caspase-8、RIPK1/RIPK3/MLKL、calpain-1、Gardos 通道（KCNN4）、陰離子交換體 AE1／band 3，以及完整的質膜離子轉運與磷脂不對稱裝置。**紅血球凋亡（eryptosis）就是以這組蛋白為基礎執行的受調控死亡程式。**其主控調節因子是**胞質 Ca²⁺**，執行器組合則是**Gardos 介導的 K⁺／水外流、 scramblase 活化搭配 flippase 抑制，以及 calpain-1 對細胞骨架的蛋白水解**。形態學上它屬於凋亡型（皺縮、出泡、PS 外翻），免疫學上則是沉默的（依目前證據）——但機制上確實是一套獨立程式，而這篇綜述的核心貢獻是一套*命名法*，讓上述差異得以明確表述：離子通道驅動型、ROS 介導型、脂質驅動型、外源性 Fas 介導型、caspase 依賴型，以及紅血球酵素缺乏依賴型 eryptosis，並加上刻意不去對應鐵死亡的「鐵負荷驅動型細胞死亡」標籤。
+成熟紅血球是無核、無胞器、充滿血紅素的細胞：沒有粒線體、沒有內質網、沒有高基氏體、沒有核糖體，實質上也沒有轉錄組（雖有低度轉譯的報告，但可視為可忽略）。紅血球生成過程中的去核加上自噬依賴的胞器清除，因此移除了大部分古典死亡機器——細胞色素 c、APAF-1、caspases-2/-6/-7/-9、內源性凋亡小體、PARP-1/AIF parthanatos、NLRP3／發炎小體焦亡路徑，以及自噬機器。仍保留的是一小組紅血球系譜蛋白：Fas/CD95、FasL、FADD、caspase-3、caspase-8、RIPK1/RIPK3/MLKL、calpain-1、Gardos 通道（KCNN4）、陰離子交換體 AE1／band 3，以及完整的質膜離子轉運與磷脂不對稱裝置。**紅血球凋亡（eryptosis）就是以這組蛋白為基礎執行的受調控細胞死亡（RCD）程式。**其共同效應器是**胞質 Ca²⁺**；執行器組合則是**Gardos 介導的 K⁺／水外流、scramblase 活化搭配 flippase 抑制，以及 calpain-1 對細胞骨架的蛋白水解**。形態學上它屬於凋亡型（皺縮、出泡、PS 外翻）；依目前證據它在免疫學上是沉默的，但有下文標註的但書。機制上是一套獨立程式。此綜述的命名法讓上述差異得以明確表述：離子通道驅動型、ROS 介導型、脂質驅動型、外源性 Fas 介導型、caspase 依賴型，以及紅血球酵素缺乏依賴型 eryptosis，並加上刻意不對應鐵死亡的「鐵負荷驅動型細胞死亡」標籤。
 
 ---
 
@@ -33,7 +33,7 @@ tags:
 
 六張圖——任何 eryptosis 教學頁面的核心圖組。目前先熱連結至 PMC；之後透過 `image-ingest` 技能重新抓取並改為託管於 `src/images/`。
 
-**圖 1 — 可用的死亡模式：有核細胞 vs 成熟紅血球。** 有核細胞（a）與成熟紅血球（b）中的意外性與受調控細胞死亡模式。成熟紅血球缺乏胞器，限制了細胞死亡機器的多樣性。ACDC 自噬依賴型細胞死亡；PARP 聚（ADP-核糖）聚合酶；ROS 活性氧。*這是說明「eryptosis 有何不同」最直接的單一圖——b 面板顯示成熟紅血球僅保留兩條 RCD 路徑。*
+**圖 1 — 有核細胞 vs 成熟紅血球的死亡招式。** 有核細胞（a）與成熟紅血球（b）中的意外性與受調控細胞死亡模式。成熟紅血球缺乏胞器，限制了細胞死亡機器的多樣性。ACDC 自噬依賴型細胞死亡；PARP 聚（ADP-核糖）聚合酶；ROS 活性氧。*b 面板顯示成熟紅血球僅保留兩條 RCD 路徑；用於「有何不同」章節。*
 
 ![Fig 1 — Accidental and regulated cell death modalities in nucleated cells (a) and mature erythrocytes (b). Lack of organelles in mature erythrocytes restricts the diversity of the cell death machinery. ACDC autophagy-dependent cell death, PARP poly(ADP-ribose) polymerase, ROS reactive oxygen species. Created with Biorender.com.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5e67/12216432/eb39a49e1601/41419_2025_7784_Fig1_HTML.jpg)
 
