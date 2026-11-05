@@ -294,7 +294,9 @@ def main() -> int:
     # files (triples-* / wiki-*); combined-* is no longer emitted.
     # ------------------------------------------------------------------
     write("nodes.json", nodes)
-    write("edges.json", edges)
+    # ponytail: "sources" is build-time provenance, unused by the web app;
+    # dropping it keeps edges.json under Workers' 25 MiB asset cap.
+    write("edges.json", [{k: v for k, v in e.items() if k != "sources"} for e in edges])
     write("legend.json", legend, compact=False)
     write("graph-meta.json", tM)
 

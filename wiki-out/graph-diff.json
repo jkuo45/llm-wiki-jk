@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T21:29:56Z",
+  "generated_at": "2026-11-05T06:51:48Z",
   "triples_graph": "/Users/johnnykuo/Projects/llm-wiki-jk/graphify-out/graph.json",
   "wiki_graph": "/Users/johnnykuo/Projects/llm-wiki-jk/wiki-out/graph.json",
   "counts": {
@@ -52,19 +52,14 @@
       "degree": 55
     },
     {
-      "id": "met",
-      "label": "MET",
-      "degree": 54
-    },
-    {
       "id": "immunity",
       "label": "Immunity",
       "degree": 54
     },
     {
-      "id": "growth_factor_receptor",
-      "label": "Growth Factor Receptor",
-      "degree": 52
+      "id": "met",
+      "label": "MET",
+      "degree": 54
     },
     {
       "id": "membrane_trafficking",
@@ -74,6 +69,11 @@
     {
       "id": "receptor_tyrosine_kinases",
       "label": "Receptor Tyrosine Kinases",
+      "degree": 52
+    },
+    {
+      "id": "growth_factor_receptor",
+      "label": "Growth Factor Receptor",
       "degree": 52
     },
     {
@@ -107,13 +107,13 @@
       "degree": 42
     },
     {
-      "id": "high_fat_diet",
-      "label": "High-fat Diet",
+      "id": "histone_h2a",
+      "label": "Histone H2A",
       "degree": 40
     },
     {
-      "id": "histone_h2a",
-      "label": "Histone H2A",
+      "id": "rac_gtpase",
+      "label": "Rac GTPase",
       "degree": 40
     }
   ],
@@ -144,13 +144,8 @@
       "degree": 5
     },
     {
-      "id": "lysosomal_storage_disorders",
-      "label": "Lysosomal Storage Disorders",
-      "degree": 4
-    },
-    {
-      "id": "jak_stat3",
-      "label": "JAK-STAT3",
+      "id": "physical_activity",
+      "label": "Physical Activity",
       "degree": 4
     },
     {
@@ -159,18 +154,8 @@
       "degree": 4
     },
     {
-      "id": "comt_val158_allele",
-      "label": "COMT Val158 allele",
-      "degree": 4
-    },
-    {
-      "id": "biphasic_dose_response",
-      "label": "Biphasic Dose Response",
-      "degree": 4
-    },
-    {
-      "id": "physical_activity",
-      "label": "Physical Activity",
+      "id": "jak_stat3",
+      "label": "JAK-STAT3",
       "degree": 4
     },
     {
@@ -184,28 +169,28 @@
       "degree": 4
     },
     {
-      "id": "catechol_flavonoid",
-      "label": "catechol flavonoid",
+      "id": "comt_val158_allele",
+      "label": "COMT Val158 allele",
+      "degree": 4
+    },
+    {
+      "id": "lysosomal_storage_disorders",
+      "label": "Lysosomal Storage Disorders",
+      "degree": 4
+    },
+    {
+      "id": "biphasic_dose_response",
+      "label": "Biphasic Dose Response",
+      "degree": 4
+    },
+    {
+      "id": "target_of_rapamycin",
+      "label": "Target of rapamycin",
       "degree": 3
     },
     {
-      "id": "nucleoside_analog",
-      "label": "Nucleoside Analog",
-      "degree": 3
-    },
-    {
-      "id": "reactive_species",
-      "label": "Reactive Species",
-      "degree": 3
-    },
-    {
-      "id": "h4k16",
-      "label": "H4K16",
-      "degree": 3
-    },
-    {
-      "id": "radiation_therapy",
-      "label": "Radiation Therapy",
+      "id": "s6k1_2",
+      "label": "S6K1/2",
       "degree": 3
     },
     {
@@ -214,8 +199,23 @@
       "degree": 3
     },
     {
+      "id": "h3k9",
+      "label": "H3K9",
+      "degree": 3
+    },
+    {
+      "id": "catechol_flavonoid",
+      "label": "catechol flavonoid",
+      "degree": 3
+    },
+    {
       "id": "pi3k_akt",
       "label": "PI3K/Akt",
+      "degree": 3
+    },
+    {
+      "id": "h4k16",
+      "label": "H4K16",
       "degree": 3
     }
   ],

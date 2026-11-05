@@ -409,9 +409,7 @@ def export_wiki_three_json(graph: dict, labels: dict[int, str], web_data_dir: Pa
             "weight": link.get("weight", cs),
             "context": link.get("context", ""),
             "context_zh_TW": link.get("context_zh_TW", ""),
-            "created": link.get("created", ""),
-            "updated": link.get("updated", ""),
-            "color": {"opacity": max(0.1, min(1.0, cs))},
+            # ponytail: edge color/created/updated omitted — unread by the web app; keeps edges.json under Workers' 25 MiB asset cap. Re-add if a consumer appears.
         })
 
     (web_data_dir / "wiki-nodes.json").write_text(
