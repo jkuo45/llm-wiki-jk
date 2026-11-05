@@ -21,6 +21,8 @@
   #nodes .tbl-wrap{ --tbl-col-1:"Node"; --tbl-col-2:"Adrenochrome arm"; --tbl-col-3:"Eryptosis arm"; --tbl-col-4:"Evidence"; }
   a.wikilink{ color:var(--teal); }
   .tier{ font-family:var(--mono); font-size:.72rem; border:1px solid currentColor; border-radius:3px; padding:0 5px; white-space:nowrap; }
+  .anim-frame{ width:100%; max-width:860px; aspect-ratio:16/10; height:auto; margin-inline:auto; border:1px solid var(--line); border-radius:14px; background:#141210; display:block; }
+  @media (max-width:640px){ .anim-frame{ max-width:100%; aspect-ratio:4/3; } }
   .t4{ color:var(--blue); } .t3{ color:var(--purple); } .t2{ color:var(--teal); } .t5{ color:var(--red); }
 </style>
 </head>
@@ -211,6 +213,15 @@
       </figcaption>
     </figure>
 
+    <figure class="fig">
+      <iframe class="anim-frame" src="eryptosis.html?embed=1" title="Interactive three.js model — eryptosis in the mature erythrocyte (triggers, Ca2+ hub, PS exposure)" loading="lazy"></iframe>
+      <figcaption class="fig-cap"><b>Figure 2 — The same cascade as an interactive three.js model.</b>
+        Drag to orbit, scroll to zoom; chips isolate the trigger, Ca²⁺-hub and PS-exposure layers; click a blob
+        for mechanism; scrub the meter for biological time (T+, hours). Interactive counterpart of Figure 1 —
+        Figure 1 remains the printable static form. Standalone page: <a href="eryptosis.html">Eryptosis — three.js animation</a>.
+      </figcaption>
+    </figure>
+
     <div class="callout teal">
       <span class="callout-tag">The physiological rationale</span>
       <p>
@@ -296,7 +307,7 @@
           <text x="871" y="429" font-size="10.5" font-weight="700" class="s-red">3.10%</text>
         </svg>
       </div>
-      <figcaption class="fig-cap"><b>Figure 2 — Measured PS-positive fractions rise two- to ten-fold under oxidative, inflammatory and uremic load.</b>
+      <figcaption class="fig-cap"><b>Figure 3 — Measured PS-positive fractions rise two- to ten-fold under oxidative, inflammatory and uremic load.</b>
         Data: lead-exposed workers (occupational capture); appendicitis cohort with plasma-borne CRP effect; pre- vs
         post-dialysis in the same patients (Abed et al.); hemodialysis patients vs healthy controls (Bonomini et al.,
         reversible on plasma replacement). The dashed line marks the ≈0.5–0.6% baseline of reference cohorts. Caveats:
@@ -508,7 +519,7 @@
           <path d="M755,480 L670,494" class="stroke-line2" fill="none" marker-end="url(#fArr)" stroke-width="1.6"/>
         </svg>
       </div>
-      <figcaption class="fig-cap"><b>Figure 3 — The two failure modes.</b>
+      <figcaption class="fig-cap"><b>Figure 4 — The two failure modes.</b>
         Excess eryptosis converts a protective clearance program into anemia, thrombogenicity and endothelial injury;
         insufficient signalling or saturated clearance leaves damaged cells to lyse or persist. The clinical evidence
         base is asymmetric — the excess arm is documented across human disease cohorts, the under-clearance arm rests
@@ -628,7 +639,7 @@
           <path d="M500,414 L500,464" class="stroke-line2" fill="none" marker-end="url(#aArrR)" stroke-width="1.6" stroke-dasharray="5 4"/>
         </svg>
       </div>
-      <figcaption class="fig-cap"><b>Figure 4 — The adrenochrome–eryptosis crossover.</b>
+      <figcaption class="fig-cap"><b>Figure 5 — The adrenochrome–eryptosis crossover.</b>
         Each constituent link is individually documented (Tier 4): erythrocytes form aminochromes, hemoglobin
         catalyzes the oxidation, diaphorase/ascorbate hold adrenochrome at nanomolar steady state, and both arms
         converge on ROS generation and the GSH/NADPH budget. The final step — adrenochrome as a direct eryptosis
