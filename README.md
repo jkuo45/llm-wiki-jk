@@ -9,7 +9,7 @@
 | [adrenochrome](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 29_OCT_2026 | 19 | 258 | 202,027 | 2.65 MB |
 | [autophagy](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 23_OCT_2026 | 12 | 235 | 188,595 | 1.74 MB |
 | [cancer](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 23_OCT_2026 | 11 | 285 | 260,064 | 3.01 MB |
-| [cell-death](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cell-death) [[src/notes/cell-death/README\|wiki]] | 23_OCT_2026 | 11 | 99 | 110,172 | 1.16 MB |
+| [cell-death](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cell-death) [[src/notes/cell-death/README\|wiki]] | 04_NOV_2026 | 12 | 100 | 122,345 | 1.38 MB |
 | [comt](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/comt) [[src/notes/comt/README\|wiki]] | 21_OCT_2026 | 2 | 45 | 28,241 | 0.54 MB |
 | [epigenetics](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]] | 23_OCT_2026 | 8 | 227 | 209,647 | 2.25 MB |
 | [hormesis](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/hormesis) [[src/notes/hormesis/README\|wiki]] | 21_OCT_2026 | 7 | 16 | 69,625 | 0.63 MB |
@@ -18,7 +18,7 @@
 | [senescence](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 21_OCT_2026 | 16 | 66 | 156,813 | 2.24 MB |
 | [sirtuins](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 21_OCT_2026 | 20 | 172 | 314,060 | 3.97 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 29_OCT_2026 | **143** | **3699** | **3,205,484** | **38.47 MB** |
+| **subtotal** | 04_NOV_2026 | **144** | **3700** | **3,217,657** | **38.69 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***
@@ -30,15 +30,15 @@
 >
 > **Combined Merge**
 >
-> The combined dataset is the union of the triples and wiki graphs, deduplicated by canonical id (`norm(label)`). 2,158 entities appear in both sources (3,493 triples + 3,486 wiki − 2,158 shared → 4,821); edges are unioned by (`from`, `to`) pair — 3,354 edge pairs are shared, and an edge present in both graphs is emitted once with both sources recorded.
+> The combined dataset is the union of the triples and wiki graphs, deduplicated by canonical id (`norm(label)`). 3,187 entities appear in both sources (4,577 triples + 3,553 wiki − 3,187 shared → 4,943); edges are unioned by (`from`, `to`) pair — 7,108 edge pairs are shared, and an edge present in both graphs is emitted once with both sources recorded.
 
 | Dataset | `web/public/data/` files | Nodes | Edges |
 | :--- | :--- | ---: | ---: |
-| **Combined** *(default)* | `nodes.json, edges.json, legend.json, graph-meta.json, node_roles.json, roles-meta.json` | 4,821 | 47,925 |
-| **Triples** | `triples-*.json` | 3,493 | 6,605 |
-| **Wiki** | `wiki-*.json` | 3,486 | 44,994 |
+| **Combined** *(default)* | `nodes.json, edges.json, legend.json, graph-meta.json, node_roles.json, roles-meta.json` | 4,943 | 50,628 |
+| **Triples** | `triples-*.json` | 4,577 | 12,116 |
+| **Wiki** | `wiki-*.json` | 3,553 | 46,474 |
 
-Build: 02_OCT_2026 · hash `3d9d2c9fe214c0d2`
+Build: 04_NOV_2026 · hash `ebef71c1a8438a25`
 <!-- END GENERATED: graph_datasets -->
 
 ## 📝 Updates
@@ -133,8 +133,9 @@ Build: 02_OCT_2026 · hash `3d9d2c9fe214c0d2`
 ## Documents
 
 <details>
-<summary><strong>Documents (143 total)</strong> — click to expand</summary>
+<summary><strong>Documents (144 total)</strong> — click to expand</summary>
 
+- `cell-death`: [Current understanding of eryptosis supplementary material (MOESM1)](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/_document_%20-%20Current%20understanding%20of%20eryptosis%20supplementary%20material%20%28MOESM1%29.md) [[src/notes/cell-death/_document_ - Current understanding of eryptosis supplementary material (MOESM1).md|wiki]] (04_NOV_2026 09:15 PM PST)
 - `cell-death`: [Current understanding of eryptosis mechanisms, physiological functions, role in disease, pharmaco...](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/_document_%20-%20Current%20understanding%20of%20eryptosis%20mechanisms%2C%20physiological%20functions%2C%20role%20in%20disease%2C%20pharmacological%20applications%2C%20and%20nomenclature%20recommendations.md) [[src/notes/cell-death/_document_ - Current understanding of eryptosis mechanisms, physiological functions, role in disease, pharmacological applications, and nomenclature recommendations.md|wiki]] (23_OCT_2026 08:48 AM PDT)
 - `adrenochrome`: [Dietary Advanced Glycation End Products and Aging](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/_document_%20-%20Dietary%20Advanced%20Glycation%20End%20Products%20and%20Aging.md) [[src/notes/adrenochrome/_document_ - Dietary Advanced Glycation End Products and Aging.md|wiki]] (21_OCT_2026 10:58 AM PDT)
 - `hormesis`: [2018_Oliveira_POS-conditioning-hormesis_Front-Physiol](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/hormesis/_document_%20-%202018_Oliveira_POS-conditioning-hormesis_Front-Physiol.md) [[src/notes/hormesis/_document_ - 2018_Oliveira_POS-conditioning-hormesis_Front-Physiol.md|wiki]] (21_OCT_2026 10:01 AM PDT)
