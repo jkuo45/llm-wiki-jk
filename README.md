@@ -34,7 +34,7 @@
 
 | Dataset | `web/public/data/` files | Nodes | Edges |
 | :--- | :--- | ---: | ---: |
-| **Combined** *(default)* | `nodes.json, edges.json, legend.json, graph-meta.json, node_roles.json, roles-meta.json` | 4,943 | 50,628 |
+| **Combined** *(default)* | `nodes.json, edges.json, edge-context.json, legend.json, graph-meta.json, node_roles.json, roles-meta.json` | 4,943 | 50,628 |
 | **Triples** | `triples-*.json` | 4,577 | 12,116 |
 | **Wiki** | `wiki-*.json` | 3,553 | 46,474 |
 

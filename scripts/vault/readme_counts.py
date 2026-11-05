@@ -1202,7 +1202,7 @@ def main():
     dataset_rows = [
         (
             "**Combined** *(default)*",
-            "nodes.json, edges.json, legend.json, graph-meta.json, node_roles.json, roles-meta.json",
+            "nodes.json, edges.json, edge-context.json, legend.json, graph-meta.json, node_roles.json, roles-meta.json",
             "nodes.json",
             "edges.json",
         ),

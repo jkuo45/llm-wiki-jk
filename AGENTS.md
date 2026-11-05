@@ -266,6 +266,13 @@ Normalizations (verify canonical filenames first):
 
 Regenerating web data (all keyed by `norm(label)`):
 
+Edge `context`/`context_zh_TW` prose is **not** in the edges files — it lives in
+`edge-context.json` / `wiki-edge-context.json` / `triples-edge-context.json`
+(keyed by `JSON.stringify([from, to])`), fetched lazily on first edge-card open.
+`edges.json` must stay under Cloudflare Workers' 25 MiB per-asset cap, so don't
+re-inline prose or re-add edge `color`/`created`/`updated`/`sources` when
+touching the data pipeline.
+
 ```bash
 # Triples graph + triples-* web files (graphify-out/, web/public/data/)
 uv run --with graphifyy --with networkx --with scipy python3 -m scripts rebuild-triples
