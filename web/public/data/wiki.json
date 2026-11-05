@@ -1,5 +1,5 @@
 {
-  "generated": "04_NOV_2026 09:30 PM PST",
+  "generated": "05_NOV_2026 06:20 AM PST",
   "wiki": [
     {
       "id": "wiki-index",
@@ -862,6 +862,19 @@
           "filename": "Skp2.md",
           "path": "wiki/en-US/_link/Skp2.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Skp2.md"
+        },
+        "zh-TW": {
+          "title": "Skp2",
+          "description": "SCF 泛素連接酶的 F-box 次單元，可結合被磷酸化的 CDK 抑制物 p27 與 p21、抑制 FoxO 轉錄因子與 p53，藉以促進細胞週期進程並繞過細胞老化。",
+          "created": "2026-10-22",
+          "updated": "2026-11-04",
+          "tags": [
+            "protein",
+            "ubiquitin-ligase",
+            "oncology"
+          ],
+          "filename": "Skp2.md",
+          "path": "wiki/zh-TW/_link/Skp2.md"
         }
       },
       "stats": {
@@ -963,6 +976,19 @@
           "filename": "Cdc42.md",
           "path": "wiki/en-US/_link/Cdc42.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Cdc42.md"
+        },
+        "zh-TW": {
+          "title": "Cdc42",
+          "description": "小型 Rho 家族 GTPase，組織細胞極性、絲狀偽足與膜皺褶，活化 WAVE 與 PAK 效應子，並招募 p67phox 組裝 NADPH 氧化酶。",
+          "created": "2026-10-22",
+          "updated": "2026-11-04",
+          "tags": [
+            "protein",
+            "gtpase",
+            "cell-signaling"
+          ],
+          "filename": "Cdc42.md",
+          "path": "wiki/zh-TW/_link/Cdc42.md"
         }
       },
       "stats": {
@@ -1026,6 +1052,19 @@
           "filename": "c-Rel.md",
           "path": "wiki/en-US/_link/c-Rel.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/c-Rel.md"
+        },
+        "zh-TW": {
+          "title": "c-Rel",
+          "description": "NF-kappaB 家族轉錄因子，形成 p50/c-Rel 與 p52/RelB 二聚體，在發炎、存活與免疫耐受訊號傳遞中扮演不同角色，並在淋巴瘤中具致癌性。",
+          "created": "2026-10-22",
+          "updated": "2026-11-04",
+          "tags": [
+            "protein",
+            "transcription-factor",
+            "nf-kappa-b"
+          ],
+          "filename": "c-Rel.md",
+          "path": "wiki/zh-TW/_link/c-Rel.md"
         }
       },
       "stats": {
@@ -1089,6 +1128,19 @@
           "filename": "Coactivator.md",
           "path": "wiki/en-US/epigenetics/Coactivator.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/epigenetics/Coactivator.md"
+        },
+        "zh-TW": {
+          "title": "Coactivator",
+          "description": "p300/CBP、PGC-1alpha 與 SRC/p160 家族等轉錄共活化因子把訊號輸入轉譯為染色質開放與轉錄輸出，並受 NAD+ 依賴性 sirtuins 與 HDAC 抑制。",
+          "created": "2026-10-22",
+          "updated": "2026-11-04",
+          "tags": [
+            "protein",
+            "epigenetics",
+            "transcription"
+          ],
+          "filename": "Coactivator.md",
+          "path": "wiki/zh-TW/epigenetics/Coactivator.md"
         }
       },
       "stats": {
@@ -1115,6 +1167,20 @@
           "filename": "TLR7.md",
           "path": "wiki/en-US/_link/TLR7.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/TLR7.md"
+        },
+        "zh-TW": {
+          "title": "TLR7",
+          "description": "內體 Toll-like receptor 7，在內溶酶體區室偵測單股 RNA，驅動漿細胞樣樹突細胞與 B 細胞中的第一型干擾素及 NF-kappaB 發炎訊號。",
+          "created": "2026-10-22",
+          "updated": "2026-11-04",
+          "tags": [
+            "receptor",
+            "innate-immunity",
+            "toll-like-receptor",
+            "interferon"
+          ],
+          "filename": "TLR7.md",
+          "path": "wiki/zh-TW/_link/TLR7.md"
         }
       },
       "stats": {
@@ -1216,6 +1282,19 @@
           "filename": "Bromodomain.md",
           "path": "wiki/en-US/epigenetics/Bromodomain.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/epigenetics/Bromodomain.md"
+        },
+        "zh-TW": {
+          "title": "Bromodomain",
+          "description": "Bromodomains 是約 110 個殘基的乙醯離胺酸讀取模組，把組蛋白乙醯化轉為轉錄機器的招募，與 BRD2/3/4 等 BET 家族蛋白共同構成書寫—讀取—擦除系統的讀取層。",
+          "created": "2026-10-22",
+          "updated": "2026-11-04",
+          "tags": [
+            "epigenetics",
+            "protein",
+            "domain"
+          ],
+          "filename": "Bromodomain.md",
+          "path": "wiki/zh-TW/epigenetics/Bromodomain.md"
         }
       },
       "stats": {
@@ -1241,6 +1320,19 @@
           "filename": "Demyelination.md",
           "path": "wiki/en-US/_link/Demyelination.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Demyelination.md"
+        },
+        "zh-TW": {
+          "title": "Demyelination",
+          "description": "中樞或周邊神經系統髓鞘的喪失或功能障礙，在脫髓鞘疾病中造成傳導變慢、傳導阻斷與續發性軸突變性。",
+          "created": "2026-10-22",
+          "updated": "2026-11-04",
+          "tags": [
+            "process",
+            "neurobiology",
+            "neuroinflammation"
+          ],
+          "filename": "Demyelination.md",
+          "path": "wiki/zh-TW/_link/Demyelination.md"
         }
       },
       "stats": {
@@ -1342,6 +1434,19 @@
           "filename": "Tissue Factor.md",
           "path": "wiki/en-US/_link/Tissue%20Factor.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Tissue%20Factor.md"
+        },
+        "zh-TW": {
+          "title": "Tissue Factor",
+          "description": "Factor III，外在凝血級聯的跨膜啟動者，結合 factor VIIa 觸發凝血酶生成，並在單核球與腫瘤細胞上把凝血與發炎及癌症相連。",
+          "created": "2026-10-22",
+          "updated": "2026-11-04",
+          "tags": [
+            "protein",
+            "coagulation",
+            "signaling"
+          ],
+          "filename": "Tissue Factor.md",
+          "path": "wiki/zh-TW/_link/Tissue%20Factor.md"
         }
       },
       "stats": {
@@ -1405,6 +1510,19 @@
           "filename": "Resistance Training.md",
           "path": "wiki/en-US/_link/Resistance%20Training.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Resistance%20Training.md"
+        },
+        "zh-TW": {
+          "title": "Resistance Training",
+          "description": "負重、高負荷的運動，可增進肌肉力量與質量、提升胰島素敏感性，並活化 mTOR/AMPK、肌肉細胞因子與粒線體生合成——健康老化的核心槓桿。",
+          "created": "2026-10-22",
+          "updated": "2026-11-04",
+          "tags": [
+            "process",
+            "exercise",
+            "aging"
+          ],
+          "filename": "Resistance Training.md",
+          "path": "wiki/zh-TW/_link/Resistance%20Training.md"
         }
       },
       "stats": {
@@ -1430,6 +1548,19 @@
           "filename": "Acetylcholine.md",
           "path": "wiki/en-US/_link/Acetylcholine.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Acetylcholine.md"
+        },
+        "zh-TW": {
+          "title": "Acetylcholine",
+          "description": "作用於毒蕈鹼型 M1-M5 與菸鹼型乙醯膽鹼受體的神經傳訊物質與旁分泌訊號分子，在膽鹼能抗發炎反射、迷走神經張力與代謝調控中居於核心地位。",
+          "created": "2026-10-22",
+          "updated": "2026-11-04",
+          "tags": [
+            "neurotransmitter",
+            "signaling",
+            "neurology"
+          ],
+          "filename": "Acetylcholine.md",
+          "path": "wiki/zh-TW/_link/Acetylcholine.md"
         }
       },
       "stats": {
@@ -1569,6 +1700,19 @@
           "filename": "PEGylation.md",
           "path": "wiki/en-US/_link/PEGylation.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/PEGylation.md"
+        },
+        "zh-TW": {
+          "title": "PEGylation",
+          "description": "將聚乙二醇鏈共價結合至蛋白質、胜肽或脂質表面，用以延長循環半衰期、降低免疫原性，並改善治療劑的溶解度與藥物動力學性質。",
+          "created": "2026-10-22",
+          "updated": "2026-11-04",
+          "tags": [
+            "process",
+            "protein-engineering",
+            "drug-delivery"
+          ],
+          "filename": "PEGylation.md",
+          "path": "wiki/zh-TW/_link/PEGylation.md"
         }
       },
       "stats": {
@@ -1594,6 +1738,19 @@
           "filename": "PRDX1.md",
           "path": "wiki/en-US/oxidative-stress/PRDX1.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/oxidative-stress/PRDX1.md"
+        },
+        "zh-TW": {
+          "title": "PRDX1",
+          "description": "PRDX1（peroxiredoxin-1）是硫氧還蛋白依賴性過氧化物酶，具催化性半胱胺酸，作為快速 H2O2 清除劑、氧化還原感受器與 holdase 伴侶蛋白，並藉限制脂質氫過氧化物累積而抑制鐵凋亡。",
+          "created": "2026-10-22",
+          "updated": "2026-11-04",
+          "tags": [
+            "protein",
+            "enzyme",
+            "oxidative-stress"
+          ],
+          "filename": "PRDX1.md",
+          "path": "wiki/zh-TW/oxidative-stress/PRDX1.md"
         }
       },
       "stats": {
@@ -1619,6 +1776,19 @@
           "filename": "Cystic Fibrosis.md",
           "path": "wiki/en-US/_link/Cystic%20Fibrosis.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Cystic%20Fibrosis.md"
+        },
+        "zh-TW": {
+          "title": "Cystic Fibrosis",
+          "description": "自體隱性疾病，因 CFTR 通道功能失常造成濃稠氣道黏液、慢性 Pseudomonas 感染、胰臟功能不足與進行性支氣管擴張，現可用 CFTR 調節劑治療。",
+          "created": "2026-10-22",
+          "updated": "2026-11-04",
+          "tags": [
+            "disease",
+            "genetic-disease",
+            "pulmonology"
+          ],
+          "filename": "Cystic Fibrosis.md",
+          "path": "wiki/zh-TW/_link/Cystic%20Fibrosis.md"
         }
       },
       "stats": {
@@ -1644,6 +1814,19 @@
           "filename": "Endothelium-Dependent Dilation.md",
           "path": "wiki/en-US/_link/Endothelium-Dependent%20Dilation.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Endothelium-Dependent%20Dilation.md"
+        },
+        "zh-TW": {
+          "title": "Endothelium-Dependent Dilation",
+          "description": "由內皮 NO、前列環素與 EDHF 介導的血流介導血管擴張——內皮功能的標準檢測，也是血管老化與心血管風險最早可測得的徵象之一。",
+          "created": "2026-10-22",
+          "updated": "2026-11-04",
+          "tags": [
+            "process",
+            "vascular",
+            "physiology"
+          ],
+          "filename": "Endothelium-Dependent Dilation.md",
+          "path": "wiki/zh-TW/_link/Endothelium-Dependent%20Dilation.md"
         }
       },
       "stats": {
@@ -1669,6 +1852,19 @@
           "filename": "SREBP.md",
           "path": "wiki/en-US/_link/SREBP.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/SREBP.md"
+        },
+        "zh-TW": {
+          "title": "SREBP",
+          "description": "固醇調節元素結合蛋白——SREBP1/SREBP2 家族，錨定於內質網的 basic helix-loop-helix 轉錄因子，其蛋白水解除裂過程控制膽固醇合成（SREBP-2）與脂肪酸／脂質生成（SREBP-1c）。",
+          "created": "2026-10-22",
+          "updated": "2026-11-04",
+          "tags": [
+            "transcription-factor",
+            "lipid",
+            "metabolism"
+          ],
+          "filename": "SREBP.md",
+          "path": "wiki/zh-TW/_link/SREBP.md"
         }
       },
       "stats": {
@@ -1695,6 +1891,20 @@
           "filename": "DcR2.md",
           "path": "wiki/en-US/cell-death/DcR2.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/DcR2.md"
+        },
+        "zh-TW": {
+          "title": "DcR2",
+          "description": "DcR2（TRAIL-R4/TNFRSF10D）是 TNF 超家族誘餌受體，結合 TRAIL 但缺乏功能性死亡結構域，調節 TRAIL 誘發的細胞凋亡，並作為阻斷誘餌受體之合併策略的標的。",
+          "created": "2026-10-22",
+          "updated": "2026-11-04",
+          "tags": [
+            "receptor",
+            "apoptosis",
+            "cell-death",
+            "cancer"
+          ],
+          "filename": "DcR2.md",
+          "path": "wiki/zh-TW/cell-death/DcR2.md"
         }
       },
       "stats": {
@@ -2943,42 +3153,42 @@
       }
     },
     {
-      "id": "Scramblase",
+      "id": "NF-κB",
       "langs": {
         "en-US": {
-          "title": "Scramblase",
-          "description": "Calcium-activated phospholipid scramblases (TMEM16F/ANO6, PLSCR family) that externalize phosphatidylserine — the eat-me signal executed in eryptosis and apoptosis.",
-          "created": "2026-09-10",
-          "updated": "2026-10-08",
+          "title": "NF-κB",
+          "description": "Nuclear factor kappa-light-chain-enhancer of activated B cells (NF-κB) is a protein complex that controls transcription of DNA, cytokine production, and cell survival. It plays a central role in immunity, inflammation, and redox signaling.",
+          "created": "2026-05-09",
+          "updated": "2026-09-02",
           "tags": [
             "protein",
-            "calcium-signaling",
-            "cell-death",
-            "membrane-biology"
+            "transcription-factor",
+            "inflammation",
+            "oxidative-stress"
           ],
-          "filename": "Scramblase.md",
-          "path": "wiki/en-US/_link/Scramblase.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Scramblase.md"
+          "filename": "NF-κB.md",
+          "path": "wiki/en-US/_link/NF-%CE%BAB.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/NF-%CE%BAB.md"
         },
         "zh-TW": {
-          "title": "Scramblase",
-          "description": "鈣活化的磷脂 scramblase（TMEM16F/ANO6、PLSCR 家族），將磷脂醯絲胺酸外露——即 eryptosis 與凋亡所執行的「eat-me」訊號。",
-          "created": "2026-09-10",
-          "updated": "2026-10-08",
+          "title": "NF-κB",
+          "description": "活化 B 細胞核因子 κ 輕鏈增強子（NF-κB）是控制 DNA 轉錄、胞激素生成與細胞存活的蛋白質複合體，在免疫、發炎與氧化還原訊號中扮演核心角色。",
+          "created": "2026-05-09",
+          "updated": "2026-09-02",
           "tags": [
             "protein",
-            "calcium-signaling",
-            "cell-death",
-            "membrane-biology"
+            "transcription-factor",
+            "inflammation",
+            "oxidative-stress"
           ],
-          "filename": "Scramblase.md",
-          "path": "wiki/zh-TW/_link/Scramblase.md"
+          "filename": "NF-κB.md",
+          "path": "wiki/zh-TW/_link/NF-%CE%BAB.md"
         }
       },
       "stats": {
-        "words": 387,
+        "words": 1486,
         "images": 0,
-        "links": 23,
+        "links": 138,
         "diagrams": 0
       }
     },
@@ -3021,42 +3231,42 @@
       }
     },
     {
-      "id": "NF-κB",
+      "id": "Scramblase",
       "langs": {
         "en-US": {
-          "title": "NF-κB",
-          "description": "Nuclear factor kappa-light-chain-enhancer of activated B cells (NF-κB) is a protein complex that controls transcription of DNA, cytokine production, and cell survival. It plays a central role in immunity, inflammation, and redox signaling.",
-          "created": "2026-05-09",
-          "updated": "2026-09-02",
+          "title": "Scramblase",
+          "description": "Calcium-activated phospholipid scramblases (TMEM16F/ANO6, PLSCR family) that externalize phosphatidylserine — the eat-me signal executed in eryptosis and apoptosis.",
+          "created": "2026-09-10",
+          "updated": "2026-10-08",
           "tags": [
             "protein",
-            "transcription-factor",
-            "inflammation",
-            "oxidative-stress"
+            "calcium-signaling",
+            "cell-death",
+            "membrane-biology"
           ],
-          "filename": "NF-κB.md",
-          "path": "wiki/en-US/_link/NF-%CE%BAB.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/NF-%CE%BAB.md"
+          "filename": "Scramblase.md",
+          "path": "wiki/en-US/_link/Scramblase.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Scramblase.md"
         },
         "zh-TW": {
-          "title": "NF-κB",
-          "description": "活化 B 細胞核因子 κ 輕鏈增強子（NF-κB）是控制 DNA 轉錄、胞激素生成與細胞存活的蛋白質複合體，在免疫、發炎與氧化還原訊號中扮演核心角色。",
-          "created": "2026-05-09",
-          "updated": "2026-09-02",
+          "title": "Scramblase",
+          "description": "鈣活化的磷脂 scramblase（TMEM16F/ANO6、PLSCR 家族），將磷脂醯絲胺酸外露——即 eryptosis 與凋亡所執行的「eat-me」訊號。",
+          "created": "2026-09-10",
+          "updated": "2026-10-08",
           "tags": [
             "protein",
-            "transcription-factor",
-            "inflammation",
-            "oxidative-stress"
+            "calcium-signaling",
+            "cell-death",
+            "membrane-biology"
           ],
-          "filename": "NF-κB.md",
-          "path": "wiki/zh-TW/_link/NF-%CE%BAB.md"
+          "filename": "Scramblase.md",
+          "path": "wiki/zh-TW/_link/Scramblase.md"
         }
       },
       "stats": {
-        "words": 1486,
+        "words": 387,
         "images": 0,
-        "links": 138,
+        "links": 23,
         "diagrams": 0
       }
     },
@@ -3929,6 +4139,44 @@
       }
     },
     {
+      "id": "Gaucher Disease",
+      "langs": {
+        "en-US": {
+          "title": "Gaucher Disease",
+          "description": "Gaucher disease is the most common lysosomal storage disorder, an autosomal recessive deficiency of lysosomal glucocerebrosidase that causes glucosylceramide accumulation in monocyte-macrophages, producing hepatosplenomegaly, cytopenias, bone disease and, in rare types, neurological involvement.",
+          "created": "2026-10-01",
+          "updated": "2026-10-01",
+          "tags": [
+            "medical-condition",
+            "lysosomal-storage-disease",
+            "metabolism"
+          ],
+          "filename": "Gaucher Disease.md",
+          "path": "wiki/en-US/_link/Gaucher%20Disease.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Gaucher%20Disease.md"
+        },
+        "zh-TW": {
+          "title": "高雪氏症",
+          "description": "高雪氏症是最常見的溶酶體儲積症，屬體染色體隱性的溶酶體葡萄糖腦苷脂酶缺乏症，造成葡萄糖神經醯胺在單核細胞—巨噬細胞中累積，導致肝脾腫大、血球減少、骨病變，少数類型則涉及神經系統。",
+          "created": "2026-10-01",
+          "updated": "2026-10-01",
+          "tags": [
+            "medical-condition",
+            "lysosomal-storage-disease",
+            "metabolism"
+          ],
+          "filename": "Gaucher Disease.md",
+          "path": "wiki/zh-TW/_link/Gaucher%20Disease.md"
+        }
+      },
+      "stats": {
+        "words": 1289,
+        "images": 0,
+        "links": 75,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "Cell Survival",
       "langs": {
         "en-US": {
@@ -3967,44 +4215,6 @@
         "words": 914,
         "images": 0,
         "links": 52,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "Gaucher Disease",
-      "langs": {
-        "en-US": {
-          "title": "Gaucher Disease",
-          "description": "Gaucher disease is the most common lysosomal storage disorder, an autosomal recessive deficiency of lysosomal glucocerebrosidase that causes glucosylceramide accumulation in monocyte-macrophages, producing hepatosplenomegaly, cytopenias, bone disease and, in rare types, neurological involvement.",
-          "created": "2026-10-01",
-          "updated": "2026-10-01",
-          "tags": [
-            "medical-condition",
-            "lysosomal-storage-disease",
-            "metabolism"
-          ],
-          "filename": "Gaucher Disease.md",
-          "path": "wiki/en-US/_link/Gaucher%20Disease.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Gaucher%20Disease.md"
-        },
-        "zh-TW": {
-          "title": "高雪氏症",
-          "description": "高雪氏症是最常見的溶酶體儲積症，屬體染色體隱性的溶酶體葡萄糖腦苷脂酶缺乏症，造成葡萄糖神經醯胺在單核細胞—巨噬細胞中累積，導致肝脾腫大、血球減少、骨病變，少数類型則涉及神經系統。",
-          "created": "2026-10-01",
-          "updated": "2026-10-01",
-          "tags": [
-            "medical-condition",
-            "lysosomal-storage-disease",
-            "metabolism"
-          ],
-          "filename": "Gaucher Disease.md",
-          "path": "wiki/zh-TW/_link/Gaucher%20Disease.md"
-        }
-      },
-      "stats": {
-        "words": 1289,
-        "images": 0,
-        "links": 75,
         "diagrams": 0
       }
     },
@@ -4315,46 +4525,6 @@
       }
     },
     {
-      "id": "Ceruloplasmin",
-      "langs": {
-        "en-US": {
-          "title": "Ceruloplasmin",
-          "description": "Ceruloplasmin is a 1065-residue, six-domain plasma multicopper oxidase that carries 6–7 copper atoms and oxidises Fe2+ to Fe3+ for transferrin loading, while serving as the major copper transport protein and an acute-phase reactant.",
-          "created": "2026-07-04",
-          "updated": "2026-10-01",
-          "tags": [
-            "protein",
-            "iron-metabolism",
-            "ferroxidase",
-            "acute-phase-reactant"
-          ],
-          "filename": "Ceruloplasmin.md",
-          "path": "wiki/en-US/_link/Ceruloplasmin.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Ceruloplasmin.md"
-        },
-        "zh-TW": {
-          "title": "Ceruloplasmin",
-          "description": "Ceruloplasmin 是一個 1065 殘基、具六個結構域的血漿多銅氧化酶，可攜帶 6–7 個銅原子，並將 Fe2+ 氧化為 Fe3+ 以利轉鐵蛋白負載；同時也是主要的銅運輸蛋白與急性期反應蛋白。",
-          "created": "2026-07-04",
-          "updated": "2026-10-01",
-          "tags": [
-            "protein",
-            "iron-metabolism",
-            "ferroxidase",
-            "acute-phase-reactant"
-          ],
-          "filename": "Ceruloplasmin.md",
-          "path": "wiki/zh-TW/_link/Ceruloplasmin.md"
-        }
-      },
-      "stats": {
-        "words": 1059,
-        "images": 0,
-        "links": 43,
-        "diagrams": 0
-      }
-    },
-    {
       "id": "Necroptosis",
       "langs": {
         "en-US": {
@@ -4391,6 +4561,46 @@
         "words": 2808,
         "images": 0,
         "links": 230,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Ceruloplasmin",
+      "langs": {
+        "en-US": {
+          "title": "Ceruloplasmin",
+          "description": "Ceruloplasmin is a 1065-residue, six-domain plasma multicopper oxidase that carries 6–7 copper atoms and oxidises Fe2+ to Fe3+ for transferrin loading, while serving as the major copper transport protein and an acute-phase reactant.",
+          "created": "2026-07-04",
+          "updated": "2026-10-01",
+          "tags": [
+            "protein",
+            "iron-metabolism",
+            "ferroxidase",
+            "acute-phase-reactant"
+          ],
+          "filename": "Ceruloplasmin.md",
+          "path": "wiki/en-US/_link/Ceruloplasmin.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Ceruloplasmin.md"
+        },
+        "zh-TW": {
+          "title": "Ceruloplasmin",
+          "description": "Ceruloplasmin 是一個 1065 殘基、具六個結構域的血漿多銅氧化酶，可攜帶 6–7 個銅原子，並將 Fe2+ 氧化為 Fe3+ 以利轉鐵蛋白負載；同時也是主要的銅運輸蛋白與急性期反應蛋白。",
+          "created": "2026-07-04",
+          "updated": "2026-10-01",
+          "tags": [
+            "protein",
+            "iron-metabolism",
+            "ferroxidase",
+            "acute-phase-reactant"
+          ],
+          "filename": "Ceruloplasmin.md",
+          "path": "wiki/zh-TW/_link/Ceruloplasmin.md"
+        }
+      },
+      "stats": {
+        "words": 1059,
+        "images": 0,
+        "links": 43,
         "diagrams": 0
       }
     },
@@ -5863,6 +6073,40 @@
       }
     },
     {
+      "id": "PARP1",
+      "langs": {
+        "en-US": {
+          "title": "PARP1",
+          "description": "PARP1 (Poly [ADP-ribose] polymerase 1, 116 kDa) is a nuclear zinc-finger enzyme that detects DNA strand breaks and catalyzes the transfer of ADP-ribose units from NAD+ onto target proteins, forming poly(ADP-ribose) (PAR) chains.",
+          "created": "2024-01-01",
+          "updated": "2026-09-14",
+          "tags": [
+            "enzyme"
+          ],
+          "filename": "PARP1.md",
+          "path": "wiki/en-US/cell-death/PARP1.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/PARP1.md"
+        },
+        "zh-TW": {
+          "title": "PARP1",
+          "description": "PARP1（Poly [ADP-ribose] polymerase 1，分子量 116 kDa）是一種細胞核鋅指酵素，可偵測 DNA 鏈斷裂，並催化 ADP-核糖單元從 NAD+ 轉移至目標蛋白質，形成聚（ADP-核糖）（PAR）鏈。",
+          "created": "2024-01-01",
+          "updated": "2026-09-14",
+          "tags": [
+            "enzyme"
+          ],
+          "filename": "PARP1.md",
+          "path": "wiki/zh-TW/cell-death/PARP1.md"
+        }
+      },
+      "stats": {
+        "words": 2878,
+        "images": 0,
+        "links": 133,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "PDK1",
       "langs": {
         "en-US": {
@@ -5897,40 +6141,6 @@
         "words": 1199,
         "images": 0,
         "links": 41,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "PARP1",
-      "langs": {
-        "en-US": {
-          "title": "PARP1",
-          "description": "PARP1 (Poly [ADP-ribose] polymerase 1, 116 kDa) is a nuclear zinc-finger enzyme that detects DNA strand breaks and catalyzes the transfer of ADP-ribose units from NAD+ onto target proteins, forming poly(ADP-ribose) (PAR) chains.",
-          "created": "2024-01-01",
-          "updated": "2026-09-14",
-          "tags": [
-            "enzyme"
-          ],
-          "filename": "PARP1.md",
-          "path": "wiki/en-US/cell-death/PARP1.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/PARP1.md"
-        },
-        "zh-TW": {
-          "title": "PARP1",
-          "description": "PARP1（Poly [ADP-ribose] polymerase 1，分子量 116 kDa）是一種細胞核鋅指酵素，可偵測 DNA 鏈斷裂，並催化 ADP-核糖單元從 NAD+ 轉移至目標蛋白質，形成聚（ADP-核糖）（PAR）鏈。",
-          "created": "2024-01-01",
-          "updated": "2026-09-14",
-          "tags": [
-            "enzyme"
-          ],
-          "filename": "PARP1.md",
-          "path": "wiki/zh-TW/cell-death/PARP1.md"
-        }
-      },
-      "stats": {
-        "words": 2878,
-        "images": 0,
-        "links": 133,
         "diagrams": 0
       }
     },
@@ -6131,46 +6341,6 @@
       }
     },
     {
-      "id": "Tocotrienols",
-      "langs": {
-        "en-US": {
-          "title": "Tocotrienols",
-          "description": "Tocotrienols are the four unsaturated forms of vitamin E (alpha, beta, gamma, delta) carrying an isoprenoid tail with three double bonds; chain-breaking antioxidants with distinct anti-inflammatory, anticancer, and hypocholesterolemic properties.",
-          "created": "2026-09-24",
-          "updated": "2026-09-26",
-          "tags": [
-            "chemical-class",
-            "antioxidant",
-            "vitamin",
-            "lipid"
-          ],
-          "filename": "Tocotrienols.md",
-          "path": "wiki/en-US/_link/Tocotrienols.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Tocotrienols.md"
-        },
-        "zh-TW": {
-          "title": "生育三烯酚",
-          "description": "生育三烯酚是維生素E的四種不飽和形式（alpha、beta、gamma、delta），帶有含三個雙鍵的類異戊二烯側鏈；屬於斷鏈型抗氧化劑，具有獨特的抗發炎、抗癌與降膽固醇特性。",
-          "created": "2026-09-24",
-          "updated": "2026-09-26",
-          "tags": [
-            "chemical-class",
-            "antioxidant",
-            "vitamin",
-            "lipid"
-          ],
-          "filename": "Tocotrienols.md",
-          "path": "wiki/zh-TW/_link/Tocotrienols.md"
-        }
-      },
-      "stats": {
-        "words": 1246,
-        "images": 0,
-        "links": 55,
-        "diagrams": 0
-      }
-    },
-    {
       "id": "Parthanatos",
       "langs": {
         "en-US": {
@@ -6207,6 +6377,46 @@
         "words": 2547,
         "images": 0,
         "links": 189,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Tocotrienols",
+      "langs": {
+        "en-US": {
+          "title": "Tocotrienols",
+          "description": "Tocotrienols are the four unsaturated forms of vitamin E (alpha, beta, gamma, delta) carrying an isoprenoid tail with three double bonds; chain-breaking antioxidants with distinct anti-inflammatory, anticancer, and hypocholesterolemic properties.",
+          "created": "2026-09-24",
+          "updated": "2026-09-26",
+          "tags": [
+            "chemical-class",
+            "antioxidant",
+            "vitamin",
+            "lipid"
+          ],
+          "filename": "Tocotrienols.md",
+          "path": "wiki/en-US/_link/Tocotrienols.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Tocotrienols.md"
+        },
+        "zh-TW": {
+          "title": "生育三烯酚",
+          "description": "生育三烯酚是維生素E的四種不飽和形式（alpha、beta、gamma、delta），帶有含三個雙鍵的類異戊二烯側鏈；屬於斷鏈型抗氧化劑，具有獨特的抗發炎、抗癌與降膽固醇特性。",
+          "created": "2026-09-24",
+          "updated": "2026-09-26",
+          "tags": [
+            "chemical-class",
+            "antioxidant",
+            "vitamin",
+            "lipid"
+          ],
+          "filename": "Tocotrienols.md",
+          "path": "wiki/zh-TW/_link/Tocotrienols.md"
+        }
+      },
+      "stats": {
+        "words": 1246,
+        "images": 0,
+        "links": 55,
         "diagrams": 0
       }
     },
@@ -6401,6 +6611,42 @@
       }
     },
     {
+      "id": "NQO1",
+      "langs": {
+        "en-US": {
+          "title": "NQO1",
+          "description": "NQO1 (NAD(P)H:quinone oxidoreductase 1) is a multi-functional antioxidant enzyme that is regulated by NRF2 and protects cells from oxidative stress by catalyzing the two-electron reduction of q...",
+          "created": "2026-07-04",
+          "updated": "2026-09-26",
+          "tags": [
+            "enzyme",
+            "pharmacogenetics"
+          ],
+          "filename": "NQO1.md",
+          "path": "wiki/en-US/adrenochrome/NQO1.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/NQO1.md"
+        },
+        "zh-TW": {
+          "title": "NQO1",
+          "description": "NQO1（NAD(P)H:醌氧化還原酶 1）是一種多功能抗氧化酵素，受 NRF2 調控，藉由催化醌類的兩電子還原為氫醌，保護細胞免受氧化壓力。",
+          "created": "2026-07-04",
+          "updated": "2026-09-26",
+          "tags": [
+            "enzyme",
+            "pharmacogenetics"
+          ],
+          "filename": "NQO1.md",
+          "path": "wiki/zh-TW/adrenochrome/NQO1.md"
+        }
+      },
+      "stats": {
+        "words": 1880,
+        "images": 0,
+        "links": 76,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "STAT1",
       "langs": {
         "en-US": {
@@ -6435,42 +6681,6 @@
         "words": 974,
         "images": 0,
         "links": 64,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "NQO1",
-      "langs": {
-        "en-US": {
-          "title": "NQO1",
-          "description": "NQO1 (NAD(P)H:quinone oxidoreductase 1) is a multi-functional antioxidant enzyme that is regulated by NRF2 and protects cells from oxidative stress by catalyzing the two-electron reduction of q...",
-          "created": "2026-07-04",
-          "updated": "2026-09-26",
-          "tags": [
-            "enzyme",
-            "pharmacogenetics"
-          ],
-          "filename": "NQO1.md",
-          "path": "wiki/en-US/adrenochrome/NQO1.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/NQO1.md"
-        },
-        "zh-TW": {
-          "title": "NQO1",
-          "description": "NQO1（NAD(P)H:醌氧化還原酶 1）是一種多功能抗氧化酵素，受 NRF2 調控，藉由催化醌類的兩電子還原為氫醌，保護細胞免受氧化壓力。",
-          "created": "2026-07-04",
-          "updated": "2026-09-26",
-          "tags": [
-            "enzyme",
-            "pharmacogenetics"
-          ],
-          "filename": "NQO1.md",
-          "path": "wiki/zh-TW/adrenochrome/NQO1.md"
-        }
-      },
-      "stats": {
-        "words": 1880,
-        "images": 0,
-        "links": 76,
         "diagrams": 0
       }
     },
@@ -7175,46 +7385,6 @@
       }
     },
     {
-      "id": "Thromboxane A₂",
-      "langs": {
-        "en-US": {
-          "title": "Thromboxane A2",
-          "description": "Thromboxane A2 (TXA2) is the prostanoid produced by thromboxane synthase in platelets; a potent vasoconstrictor and promoter of platelet aggregation that balances prostacyclin.",
-          "created": "2026-09-24",
-          "updated": "2026-09-24",
-          "tags": [
-            "eicosanoid",
-            "lipid",
-            "signaling-molecule",
-            "cardiovascular"
-          ],
-          "filename": "Thromboxane A₂.md",
-          "path": "wiki/en-US/_link/Thromboxane%20A%E2%82%82.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Thromboxane%20A%E2%82%82.md"
-        },
-        "zh-TW": {
-          "title": "Thromboxane A2",
-          "description": "Thromboxane A2（TXA2）是 thromboxane synthase 於血小板中生成的 prostanoid；為強效的血管收縮劑並促進血小板聚集，與 prostacyclin 相互平衡。",
-          "created": "2026-09-24",
-          "updated": "2026-09-24",
-          "tags": [
-            "eicosanoid",
-            "lipid",
-            "signaling-molecule",
-            "cardiovascular"
-          ],
-          "filename": "Thromboxane A₂.md",
-          "path": "wiki/zh-TW/_link/Thromboxane%20A%E2%82%82.md"
-        }
-      },
-      "stats": {
-        "words": 548,
-        "images": 0,
-        "links": 40,
-        "diagrams": 0
-      }
-    },
-    {
       "id": "Adrenochrome",
       "langs": {
         "en-US": {
@@ -7251,6 +7421,46 @@
         "words": 1607,
         "images": 0,
         "links": 148,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Thromboxane A₂",
+      "langs": {
+        "en-US": {
+          "title": "Thromboxane A2",
+          "description": "Thromboxane A2 (TXA2) is the prostanoid produced by thromboxane synthase in platelets; a potent vasoconstrictor and promoter of platelet aggregation that balances prostacyclin.",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "eicosanoid",
+            "lipid",
+            "signaling-molecule",
+            "cardiovascular"
+          ],
+          "filename": "Thromboxane A₂.md",
+          "path": "wiki/en-US/_link/Thromboxane%20A%E2%82%82.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Thromboxane%20A%E2%82%82.md"
+        },
+        "zh-TW": {
+          "title": "Thromboxane A2",
+          "description": "Thromboxane A2（TXA2）是 thromboxane synthase 於血小板中生成的 prostanoid；為強效的血管收縮劑並促進血小板聚集，與 prostacyclin 相互平衡。",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "eicosanoid",
+            "lipid",
+            "signaling-molecule",
+            "cardiovascular"
+          ],
+          "filename": "Thromboxane A₂.md",
+          "path": "wiki/zh-TW/_link/Thromboxane%20A%E2%82%82.md"
+        }
+      },
+      "stats": {
+        "words": 548,
+        "images": 0,
+        "links": 40,
         "diagrams": 0
       }
     },
@@ -7409,46 +7619,6 @@
       }
     },
     {
-      "id": "Resolvins",
-      "langs": {
-        "en-US": {
-          "title": "Resolvins",
-          "description": "Resolvins are specialized pro-resolving lipid mediators derived from EPA and DHA that actively terminate inflammation and promote tissue repair rather than merely suppressing it.",
-          "created": "2026-09-24",
-          "updated": "2026-09-24",
-          "tags": [
-            "lipid",
-            "signaling-molecule",
-            "anti-inflammatory",
-            "eicosanoid"
-          ],
-          "filename": "Resolvins.md",
-          "path": "wiki/en-US/_link/Resolvins.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Resolvins.md"
-        },
-        "zh-TW": {
-          "title": "消退素",
-          "description": "Resolvins 是源自 EPA 與 DHA 的特化促消退脂質介質，能主動終止發炎並促進組織修復，而非僅止於抑制發炎。",
-          "created": "2026-09-24",
-          "updated": "2026-09-24",
-          "tags": [
-            "lipid",
-            "signaling-molecule",
-            "anti-inflammatory",
-            "eicosanoid"
-          ],
-          "filename": "Resolvins.md",
-          "path": "wiki/zh-TW/_link/Resolvins.md"
-        }
-      },
-      "stats": {
-        "words": 663,
-        "images": 0,
-        "links": 58,
-        "diagrams": 0
-      }
-    },
-    {
       "id": "p21 CIP1",
       "langs": {
         "en-US": {
@@ -7491,42 +7661,42 @@
       }
     },
     {
-      "id": "Alpha-tocopherol",
+      "id": "Resolvins",
       "langs": {
         "en-US": {
-          "title": "Alpha-tocopherol",
-          "description": "Alpha-tocopherol is the principal form of Vitamin E, selectively retained in human plasma and tissue by alpha-tocopherol transfer protein; the reference chain-breaking antioxidant of membranes and lipoproteins.",
-          "created": "2026-05-25",
+          "title": "Resolvins",
+          "description": "Resolvins are specialized pro-resolving lipid mediators derived from EPA and DHA that actively terminate inflammation and promote tissue repair rather than merely suppressing it.",
+          "created": "2026-09-24",
           "updated": "2026-09-24",
           "tags": [
-            "chemical-compound",
-            "antioxidant",
-            "vitamin",
-            "lipid"
+            "lipid",
+            "signaling-molecule",
+            "anti-inflammatory",
+            "eicosanoid"
           ],
-          "filename": "Alpha-tocopherol.md",
-          "path": "wiki/en-US/comt/Alpha-tocopherol.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/comt/Alpha-tocopherol.md"
+          "filename": "Resolvins.md",
+          "path": "wiki/en-US/_link/Resolvins.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Resolvins.md"
         },
         "zh-TW": {
-          "title": "α-生育酚",
-          "description": "Alpha-tocopherol 是 Vitamin E 的主要形式，由 alpha-tocopherol transfer protein 選擇性地保留於人體血漿與組織中；是膜與脂蛋白的標準斷鏈抗氧化劑。",
-          "created": "2026-05-25",
+          "title": "消退素",
+          "description": "Resolvins 是源自 EPA 與 DHA 的特化促消退脂質介質，能主動終止發炎並促進組織修復，而非僅止於抑制發炎。",
+          "created": "2026-09-24",
           "updated": "2026-09-24",
           "tags": [
-            "chemical-compound",
-            "antioxidant",
-            "vitamin",
-            "lipid"
+            "lipid",
+            "signaling-molecule",
+            "anti-inflammatory",
+            "eicosanoid"
           ],
-          "filename": "Alpha-tocopherol.md",
-          "path": "wiki/zh-TW/comt/Alpha-tocopherol.md"
+          "filename": "Resolvins.md",
+          "path": "wiki/zh-TW/_link/Resolvins.md"
         }
       },
       "stats": {
-        "words": 1212,
+        "words": 663,
         "images": 0,
-        "links": 80,
+        "links": 58,
         "diagrams": 0
       }
     },
@@ -7573,6 +7743,46 @@
         "words": 1888,
         "images": 0,
         "links": 166,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Alpha-tocopherol",
+      "langs": {
+        "en-US": {
+          "title": "Alpha-tocopherol",
+          "description": "Alpha-tocopherol is the principal form of Vitamin E, selectively retained in human plasma and tissue by alpha-tocopherol transfer protein; the reference chain-breaking antioxidant of membranes and lipoproteins.",
+          "created": "2026-05-25",
+          "updated": "2026-09-24",
+          "tags": [
+            "chemical-compound",
+            "antioxidant",
+            "vitamin",
+            "lipid"
+          ],
+          "filename": "Alpha-tocopherol.md",
+          "path": "wiki/en-US/comt/Alpha-tocopherol.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/comt/Alpha-tocopherol.md"
+        },
+        "zh-TW": {
+          "title": "α-生育酚",
+          "description": "Alpha-tocopherol 是 Vitamin E 的主要形式，由 alpha-tocopherol transfer protein 選擇性地保留於人體血漿與組織中；是膜與脂蛋白的標準斷鏈抗氧化劑。",
+          "created": "2026-05-25",
+          "updated": "2026-09-24",
+          "tags": [
+            "chemical-compound",
+            "antioxidant",
+            "vitamin",
+            "lipid"
+          ],
+          "filename": "Alpha-tocopherol.md",
+          "path": "wiki/zh-TW/comt/Alpha-tocopherol.md"
+        }
+      },
+      "stats": {
+        "words": 1212,
+        "images": 0,
+        "links": 80,
         "diagrams": 0
       }
     },
@@ -8065,6 +8275,40 @@
       }
     },
     {
+      "id": "Aging",
+      "langs": {
+        "en-US": {
+          "title": "Aging",
+          "description": "The relationship between aging and Epigenetics is a central focus of modern Geroscience. Epigenetics refers to chemical modifications to DNA and its associated proteins that regulate gene expre...",
+          "created": "2026-05-29",
+          "updated": "2026-05-29",
+          "tags": [
+            "biological-process"
+          ],
+          "filename": "Aging.md",
+          "path": "wiki/en-US/_link/Aging.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Aging.md"
+        },
+        "zh-TW": {
+          "title": "Aging（老化）",
+          "description": "老化與表觀遺傳學的關係是現代老年生物學的核心焦點。表觀遺傳學是指對 DNA 及其相關蛋白質的化學修飾，這些修飾可在不改變基因序列的情況下調節基因表現……",
+          "created": "2026-05-29",
+          "updated": "2026-10-21",
+          "tags": [
+            "biological-process"
+          ],
+          "filename": "Aging.md",
+          "path": "wiki/zh-TW/_link/Aging.md"
+        }
+      },
+      "stats": {
+        "words": 1399,
+        "images": 0,
+        "links": 77,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "Chromosome",
       "langs": {
         "en-US": {
@@ -8097,40 +8341,6 @@
         "words": 155,
         "images": 0,
         "links": 23,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "Aging",
-      "langs": {
-        "en-US": {
-          "title": "Aging",
-          "description": "The relationship between aging and Epigenetics is a central focus of modern Geroscience. Epigenetics refers to chemical modifications to DNA and its associated proteins that regulate gene expre...",
-          "created": "2026-05-29",
-          "updated": "2026-05-29",
-          "tags": [
-            "biological-process"
-          ],
-          "filename": "Aging.md",
-          "path": "wiki/en-US/_link/Aging.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Aging.md"
-        },
-        "zh-TW": {
-          "title": "Aging（老化）",
-          "description": "老化與表觀遺傳學的關係是現代老年生物學的核心焦點。表觀遺傳學是指對 DNA 及其相關蛋白質的化學修飾，這些修飾可在不改變基因序列的情況下調節基因表現……",
-          "created": "2026-05-29",
-          "updated": "2026-10-21",
-          "tags": [
-            "biological-process"
-          ],
-          "filename": "Aging.md",
-          "path": "wiki/zh-TW/_link/Aging.md"
-        }
-      },
-      "stats": {
-        "words": 1399,
-        "images": 0,
-        "links": 77,
         "diagrams": 0
       }
     },
