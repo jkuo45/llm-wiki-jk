@@ -131,16 +131,22 @@
         ? f.starred === true : t.starred === true;
     };
     const toTime = (s) => { const t = Date.parse(s || ''); return Number.isNaN(t) ? -Infinity : t; };
+    /* Newest non-empty date, by parsed time — a zh-TW-only update must not
+       lose to an older EN date just because EN is preferred elsewhere. */
+    const pickNewest = (...vals) => vals.filter(Boolean)
+      .sort((a, b) => toTime(b) - toTime(a))[0] || '';
     const notes = (data.wiki || [])
       .filter(t => t.active !== false && t.id !== 'wiki-index' && t.langs && t.langs['en-US'])
       .map(t => {
         const en = t.langs['en-US'];
         const zh = t.langs['zh-TW'];
         /* Sort/group by whichever is newer — created or updated (fall
-           back to created when an entry has no updated date): the wiki
-           feed is a recent-activity list. Dates live under langs. */
-        const updated = en.updated || zh?.updated || en.created || zh?.created || '';
-        const created = en.created || zh?.created || '';
+           back to created when an entry has no updated date) across BOTH
+           languages: the zh-TW translation is hand-maintained web-only and
+           is often the newest change. The wiki feed is a recent-activity
+           list. Dates live under langs. */
+        const updated = pickNewest(en.updated, zh?.updated) || pickNewest(en.created, zh?.created);
+        const created = pickNewest(en.created, zh?.created) || pickNewest(en.updated, zh?.updated);
         const latest = toTime(updated) >= toTime(created) ? (updated || created) : created;
         const isNew = toTime(created) >= toTime(updated);
         const key = noteIdOf(t);

@@ -136,6 +136,10 @@
         ? f.starred === true : t.starred === true;
     };
     const toTime = (s) => { const t = Date.parse(s || ''); return Number.isNaN(t) ? -Infinity : t; };
+    /* Newest non-empty date, by parsed time — a zh-TW-only update must not
+       lose to an older EN date just because EN is preferred elsewhere. */
+    const pickNewest = (...vals) => vals.filter(Boolean)
+      .sort((a, b) => toTime(b) - toTime(a))[0] || '';
     const tasks = (data.tasks || [])
       .filter(t => t.active !== false && t.id !== 'tasks-index' && t.langs && t.langs['en-US'])
       .map(t => {
@@ -145,9 +149,10 @@
            back to created when an entry has no updated date).
            Date.parse comparison (not string >) so mixed ISO formats
            still order correctly; unparsable dates sort as oldest.
-           Task dates live under langs (no top-level dates like articles). */
-        const updated = en.updated || zh?.updated || en.created || zh?.created || '';
-        const created = en.created || zh?.created || '';
+           Task dates live under langs (no top-level dates like articles),
+           and both languages count toward recency. */
+        const updated = pickNewest(en.updated, zh?.updated) || pickNewest(en.created, zh?.created);
+        const created = pickNewest(en.created, zh?.created) || pickNewest(en.updated, zh?.updated);
         const latest = toTime(updated) >= toTime(created) ? (updated || created) : created;
         const isNew = toTime(created) >= toTime(updated);
         const key = taskIdOf(t);
