@@ -394,12 +394,19 @@ def export_wiki_three_json(graph: dict, labels: dict[int, str], web_data_dir: Pa
 
     # --- edge objects ---
     edge_objects = []
+    context_map = {}
     for link in links:
         src = link["source"]
         tgt = link["target"]
         if src not in node_id_set or tgt not in node_id_set:
             continue
         cs = link.get("confidence_score", 1.0)
+        ctx = link.get("context", "")
+        ctx_zh = link.get("context_zh_TW", "")
+        if ctx or ctx_zh:
+            context_map[json.dumps([src, tgt], ensure_ascii=False, separators=(",", ":"))] = {
+                "context": ctx, "context_zh_TW": ctx_zh,
+            }
         edge_objects.append({
             "from": src,
             "to": tgt,
@@ -407,9 +414,7 @@ def export_wiki_three_json(graph: dict, labels: dict[int, str], web_data_dir: Pa
             "confidence": link.get("confidence", "EXTRACTED"),
             "confidence_score": cs,
             "weight": link.get("weight", cs),
-            "context": link.get("context", ""),
-            "context_zh_TW": link.get("context_zh_TW", ""),
-            # ponytail: edge color/created/updated omitted — unread by the web app; keeps edges.json under Workers' 25 MiB asset cap. Re-add if a consumer appears.
+            # ponytail: edge prose lives in <prefix>edge-context.json (lazy-loaded); keeps edges.json under Workers' 25 MiB cap.
         })
 
     (web_data_dir / "wiki-nodes.json").write_text(
@@ -418,6 +423,10 @@ def export_wiki_three_json(graph: dict, labels: dict[int, str], web_data_dir: Pa
     )
     (web_data_dir / "wiki-edges.json").write_text(
         json.dumps(edge_objects, ensure_ascii=False, separators=(",", ":")),
+        encoding="utf-8",
+    )
+    (web_data_dir / "wiki-edge-context.json").write_text(
+        json.dumps(context_map, ensure_ascii=False, separators=(",", ":")),
         encoding="utf-8",
     )
     (web_data_dir / "wiki-legend.json").write_text(

@@ -1,4 +1,4 @@
-# Graph Report - llm-wiki-jk  (2026-11-04)
+# Graph Report - llm-wiki-jk  (2026-11-05)
 
 ## Corpus Check
 - 13 files · ~1,117,158 words

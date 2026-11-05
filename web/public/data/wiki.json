@@ -1,5 +1,5 @@
 {
-  "generated": "05_NOV_2026 06:52 AM PST",
+  "generated": "05_NOV_2026 07:07 AM PST",
   "wiki": [
     {
       "id": "wiki-index",
@@ -7661,46 +7661,6 @@
       }
     },
     {
-      "id": "Resolvins",
-      "langs": {
-        "en-US": {
-          "title": "Resolvins",
-          "description": "Resolvins are specialized pro-resolving lipid mediators derived from EPA and DHA that actively terminate inflammation and promote tissue repair rather than merely suppressing it.",
-          "created": "2026-09-24",
-          "updated": "2026-09-24",
-          "tags": [
-            "lipid",
-            "signaling-molecule",
-            "anti-inflammatory",
-            "eicosanoid"
-          ],
-          "filename": "Resolvins.md",
-          "path": "wiki/en-US/_link/Resolvins.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Resolvins.md"
-        },
-        "zh-TW": {
-          "title": "消退素",
-          "description": "Resolvins 是源自 EPA 與 DHA 的特化促消退脂質介質，能主動終止發炎並促進組織修復，而非僅止於抑制發炎。",
-          "created": "2026-09-24",
-          "updated": "2026-09-24",
-          "tags": [
-            "lipid",
-            "signaling-molecule",
-            "anti-inflammatory",
-            "eicosanoid"
-          ],
-          "filename": "Resolvins.md",
-          "path": "wiki/zh-TW/_link/Resolvins.md"
-        }
-      },
-      "stats": {
-        "words": 663,
-        "images": 0,
-        "links": 58,
-        "diagrams": 0
-      }
-    },
-    {
       "id": "Parkinson's Disease",
       "langs": {
         "en-US": {
@@ -7743,6 +7703,46 @@
         "words": 1888,
         "images": 0,
         "links": 166,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Resolvins",
+      "langs": {
+        "en-US": {
+          "title": "Resolvins",
+          "description": "Resolvins are specialized pro-resolving lipid mediators derived from EPA and DHA that actively terminate inflammation and promote tissue repair rather than merely suppressing it.",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "lipid",
+            "signaling-molecule",
+            "anti-inflammatory",
+            "eicosanoid"
+          ],
+          "filename": "Resolvins.md",
+          "path": "wiki/en-US/_link/Resolvins.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Resolvins.md"
+        },
+        "zh-TW": {
+          "title": "消退素",
+          "description": "Resolvins 是源自 EPA 與 DHA 的特化促消退脂質介質，能主動終止發炎並促進組織修復，而非僅止於抑制發炎。",
+          "created": "2026-09-24",
+          "updated": "2026-09-24",
+          "tags": [
+            "lipid",
+            "signaling-molecule",
+            "anti-inflammatory",
+            "eicosanoid"
+          ],
+          "filename": "Resolvins.md",
+          "path": "wiki/zh-TW/_link/Resolvins.md"
+        }
+      },
+      "stats": {
+        "words": 663,
+        "images": 0,
+        "links": 58,
         "diagrams": 0
       }
     },

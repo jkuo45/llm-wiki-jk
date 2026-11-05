@@ -7,7 +7,7 @@ import * as THREE from 'three';
 import {
   RAW_NODES, LEGEND, TRACES, TRANSLATIONS, nodeMap, adjacency,
   descriptionMap, githubSourceUrl, noteUrl, predicateZh, DATASET_MODE,
-  BUILD_INFO,
+  BUILD_INFO, loadEdgeContext, getEdgeContext, isEdgeContextLoaded,
 } from './data.js';
 import { state, persistSettings, resetSettings } from './state.js';
 import {
@@ -469,10 +469,21 @@ function renderEdgeInfo(edge) {
   const displayRelation = state.analysisUiLang === 'zh-TW'
     ? (predicateZh(relationLabel) || relationLabel)
     : relationLabel;
-  // Edge evidence/context, bilingual per the panel language.
+  // Edge evidence/context, bilingual per the panel language. Prose lives in a
+  // lazy-loaded sidecar (see data.js); card renders without it and re-renders
+  // when it arrives.
+  const ctxLoaded = isEdgeContextLoaded();
+  const ctx = getEdgeContext(edge);
+  if (!ctxLoaded) {
+    loadEdgeContext().then(() => {
+      if (currentView && currentView.type === 'edge' && currentView.edge === edge) {
+        renderEdgeInfo(edge);
+      }
+    });
+  }
   const edgeDesc = state.analysisUiLang === 'zh-TW'
-    ? (edge.context_zh_TW || edge.context || '')
-    : (edge.context || edge.context_zh_TW || '');
+    ? ((ctx && (ctx.context_zh_TW || ctx.context)) || '')
+    : ((ctx && (ctx.context || ctx.context_zh_TW)) || '');
 
   renderDetailCard(infoCard, {
     title: 'Relation / 關聯',

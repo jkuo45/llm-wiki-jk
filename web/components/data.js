@@ -12,6 +12,9 @@ const DATA_BASE = import.meta.env.BASE_URL + 'data/';
 // string; the larger data files then use the hash (stable within a build, so
 // browsers can cache them across visits) instead of Date.now(), which forced
 // re-downloading ~11 MB on every page load.
+// Edge context sidecar cache: null until loadEdgeContext() resolves.
+const EDGE_CONTEXT = { map: null, promise: null };
+
 let CACHE_HASH = '';
 
 // Graph build identity (from data/version.json) shown in the home-page footer.
@@ -215,6 +218,32 @@ export async function loadRolesMeta() {
 }
 
 let LINK_PREDICTION = null;
+export async function loadEdgeContext() {
+  // Edge evidence prose (~12 MB) is split out of edges.json and fetched
+  // lazily on first edge-card open. Keyed by JSON.stringify([from, to]).
+  if (!EDGE_CONTEXT.promise) {
+    const name = DATASET_MODE === 'triples' ? 'triples-edge-context.json'
+      : DATASET_MODE === 'wiki' ? 'wiki-edge-context.json'
+      : 'edge-context.json';
+    const q = CACHE_HASH ? ('?v=' + CACHE_HASH) : ('?v=' + Date.now());
+    EDGE_CONTEXT.promise = fetch(DATA_BASE + name + q)
+      .then((r) => (r.ok ? r.json() : {}))
+      .catch((e) => { console.warn('Could not load edge-context:', e); return {}; })
+      .then((m) => { EDGE_CONTEXT.map = m; return m; });
+  }
+  return EDGE_CONTEXT.promise;
+}
+
+export function getEdgeContext(edge) {
+  return EDGE_CONTEXT.map
+    ? EDGE_CONTEXT.map[JSON.stringify([edge.from, edge.to])] || null
+    : null;
+}
+
+export function isEdgeContextLoaded() {
+  return EDGE_CONTEXT.map !== null;
+}
+
 export async function loadLinkPrediction() {
   if (LINK_PREDICTION) return LINK_PREDICTION;
   const empty = { params: {}, summary: {}, candidates: [], ppr_similar: {} };

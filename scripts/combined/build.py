@@ -294,9 +294,25 @@ def main() -> int:
     # files (triples-* / wiki-*); combined-* is no longer emitted.
     # ------------------------------------------------------------------
     write("nodes.json", nodes)
+    # ponytail: edge prose moved to sidecars by the dataset builders; merge them
+    # here (triples wins, mirroring add_edge) so combined keeps its own edge-context.json.
+    ctx_map = {}
+    for name in ("wiki-edge-context.json", "triples-edge-context.json"):  # wiki first, triples overwrites
+        for k, v in (load(name) or {}).items():
+            try:
+                f, t = json.loads(k)
+            except (ValueError, TypeError):
+                continue
+            ctx_map[(f, t)] = v
+    edge_context = {}
+    for e in edges:
+        entry = ctx_map.get((e.get("from"), e.get("to")))
+        if entry:
+            edge_context[json.dumps([e["from"], e["to"]], ensure_ascii=False, separators=(",", ":"))] = entry
+    write("edge-context.json", edge_context)
     # ponytail: "sources" is build-time provenance, unused by the web app;
     # dropping it keeps edges.json under Workers' 25 MiB asset cap.
-    write("edges.json", [{k: v for k, v in e.items() if k != "sources"} for e in edges])
+    write("edges.json", [{k: v for k, v in e.items() if k not in ("sources", "context", "context_zh_TW", "color", "created", "updated")} for e in edges])
     write("legend.json", legend, compact=False)
     write("graph-meta.json", tM)
 

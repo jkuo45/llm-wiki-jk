@@ -38,7 +38,7 @@
 | **Triples** | `triples-*.json` | 4,577 | 12,116 |
 | **Wiki** | `wiki-*.json` | 3,553 | 46,474 |
 
-Build: 05_NOV_2026 · hash `1dc9ec5bce2de339`
+Build: 05_NOV_2026 · hash `b15ba0951b3d5362`
 <!-- END GENERATED: graph_datasets -->
 
 ## 📝 Updates

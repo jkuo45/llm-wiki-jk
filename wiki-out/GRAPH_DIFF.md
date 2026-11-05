@@ -27,8 +27,8 @@
 | NAFLD | 66 |
 | FASN | 58 |
 | Endocytosis | 55 |
-| Immunity | 54 |
 | MET | 54 |
+| Immunity | 54 |
 | Membrane Trafficking | 52 |
 | Receptor Tyrosine Kinases | 52 |
 | Growth Factor Receptor | 52 |
@@ -38,8 +38,8 @@
 | Angiotensin II Type 1 Receptor | 44 |
 | Helminth | 43 |
 | Cytokine Storm | 42 |
-| Histone H2A | 40 |
 | Rac GTPase | 40 |
+| High-fat Diet | 40 |
 
 ## Top 20 triples-only nodes (triple but no wikilink)
 
@@ -50,21 +50,21 @@
 | Females | 9 |
 | Sodium Chloride | 5 |
 | Nonselective Cation Channel | 5 |
-| Physical Activity | 4 |
-| slow COMT | 4 |
-| JAK-STAT3 | 4 |
-| Mice | 4 |
-| SIRT1 and SIRT2 | 4 |
-| COMT Val158 allele | 4 |
 | Lysosomal Storage Disorders | 4 |
+| COMT Val158 allele | 4 |
+| Mice | 4 |
+| Physical Activity | 4 |
 | Biphasic Dose Response | 4 |
-| Target of rapamycin | 3 |
-| S6K1/2 | 3 |
-| TLR2/6 | 3 |
-| H3K9 | 3 |
-| catechol flavonoid | 3 |
-| PI3K/Akt | 3 |
+| JAK-STAT3 | 4 |
+| slow COMT | 4 |
+| SIRT1 and SIRT2 | 4 |
 | H4K16 | 3 |
+| S6K1/2 | 3 |
+| catechol flavonoid | 3 |
+| SIRT7 depletion | 3 |
+| H3K9 | 3 |
+| TRIM28 | 3 |
+| Antioxidant Properties | 3 |
 
 ## Top 20 wiki-only edges (suggest extracting as triples)
 

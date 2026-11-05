@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T06:51:48Z",
+  "generated_at": "2026-11-05T07:06:13Z",
   "triples_graph": "/Users/johnnykuo/Projects/llm-wiki-jk/graphify-out/graph.json",
   "wiki_graph": "/Users/johnnykuo/Projects/llm-wiki-jk/wiki-out/graph.json",
   "counts": {
@@ -52,13 +52,13 @@
       "degree": 55
     },
     {
-      "id": "immunity",
-      "label": "Immunity",
+      "id": "met",
+      "label": "MET",
       "degree": 54
     },
     {
-      "id": "met",
-      "label": "MET",
+      "id": "immunity",
+      "label": "Immunity",
       "degree": 54
     },
     {
@@ -107,13 +107,13 @@
       "degree": 42
     },
     {
-      "id": "histone_h2a",
-      "label": "Histone H2A",
+      "id": "rac_gtpase",
+      "label": "Rac GTPase",
       "degree": 40
     },
     {
-      "id": "rac_gtpase",
-      "label": "Rac GTPase",
+      "id": "high_fat_diet",
+      "label": "High-fat Diet",
       "degree": 40
     }
   ],
@@ -144,28 +144,8 @@
       "degree": 5
     },
     {
-      "id": "physical_activity",
-      "label": "Physical Activity",
-      "degree": 4
-    },
-    {
-      "id": "slow_comt",
-      "label": "slow COMT",
-      "degree": 4
-    },
-    {
-      "id": "jak_stat3",
-      "label": "JAK-STAT3",
-      "degree": 4
-    },
-    {
-      "id": "mice",
-      "label": "Mice",
-      "degree": 4
-    },
-    {
-      "id": "sirt1_and_sirt2",
-      "label": "SIRT1 and SIRT2",
+      "id": "lysosomal_storage_disorders",
+      "label": "Lysosomal Storage Disorders",
       "degree": 4
     },
     {
@@ -174,8 +154,13 @@
       "degree": 4
     },
     {
-      "id": "lysosomal_storage_disorders",
-      "label": "Lysosomal Storage Disorders",
+      "id": "mice",
+      "label": "Mice",
+      "degree": 4
+    },
+    {
+      "id": "physical_activity",
+      "label": "Physical Activity",
       "degree": 4
     },
     {
@@ -184,8 +169,23 @@
       "degree": 4
     },
     {
-      "id": "target_of_rapamycin",
-      "label": "Target of rapamycin",
+      "id": "jak_stat3",
+      "label": "JAK-STAT3",
+      "degree": 4
+    },
+    {
+      "id": "slow_comt",
+      "label": "slow COMT",
+      "degree": 4
+    },
+    {
+      "id": "sirt1_and_sirt2",
+      "label": "SIRT1 and SIRT2",
+      "degree": 4
+    },
+    {
+      "id": "h4k16",
+      "label": "H4K16",
       "degree": 3
     },
     {
@@ -194,8 +194,13 @@
       "degree": 3
     },
     {
-      "id": "tlr2_6",
-      "label": "TLR2/6",
+      "id": "catechol_flavonoid",
+      "label": "catechol flavonoid",
+      "degree": 3
+    },
+    {
+      "id": "sirt7_depletion",
+      "label": "SIRT7 depletion",
       "degree": 3
     },
     {
@@ -204,18 +209,13 @@
       "degree": 3
     },
     {
-      "id": "catechol_flavonoid",
-      "label": "catechol flavonoid",
+      "id": "trim28",
+      "label": "TRIM28",
       "degree": 3
     },
     {
-      "id": "pi3k_akt",
-      "label": "PI3K/Akt",
-      "degree": 3
-    },
-    {
-      "id": "h4k16",
-      "label": "H4K16",
+      "id": "antioxidant_properties",
+      "label": "Antioxidant Properties",
       "degree": 3
     }
   ],
