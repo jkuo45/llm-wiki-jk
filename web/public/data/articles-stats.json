@@ -1,5 +1,5 @@
 {
-  "generated": "04_NOV_2026 07:39 AM PST",
+  "generated": "04_NOV_2026 08:21 PM PST",
   "stats": {
     "sirtuin-pleiotropy": {
       "words": 2318,
@@ -234,6 +234,12 @@
       "images": 0,
       "links": 41,
       "diagrams": 11
+    },
+    "eryptosis-evidence-synthesis": {
+      "words": 4762,
+      "images": 0,
+      "links": 42,
+      "diagrams": 4
     }
   }
 }

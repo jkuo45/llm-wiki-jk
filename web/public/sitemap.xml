@@ -594,6 +594,24 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/eryptosis.html"/>
   </url>
   <url>
+    <loc>https://graph.johnnykuo.com/pages/en-US/eryptosis-evidence-synthesis.html</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/eryptosis-evidence-synthesis.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/eryptosis-evidence-synthesis.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/eryptosis-evidence-synthesis.html"/>
+  </url>
+  <url>
+    <loc>https://graph.johnnykuo.com/pages/zh-TW/eryptosis-evidence-synthesis.html</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/eryptosis-evidence-synthesis.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/eryptosis-evidence-synthesis.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/eryptosis-evidence-synthesis.html"/>
+  </url>
+  <url>
     <loc>https://graph.johnnykuo.com/pages/zh-TW/eryptosis.html</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>monthly</changefreq>

@@ -704,5 +704,23 @@
         },
         "created": "2026-10-29",
         "updated": "2026-10-29"
+    },
+    {
+        "id": "eryptosis-evidence-synthesis",
+        "active": true,
+        "langs": {
+            "en-US": {
+                "title": "Eryptosis — Excess Death Signalling, Under-Clearance, and the Adrenochrome Crossover",
+                "description": "Evidence-graded synthesis of eryptosis, the Ca2+-driven phosphatidylserine-executed regulated death of mature erythrocytes: the mechanistic core, the unquantified normal eryptotic fraction with measured PS-positive fractions across disease contexts, the two failure modes — accelerated eryptosis (anemia with ESA hypo-responsiveness, PS-mediated thrombin generation, endothelial adhesion with ferroptotic uptake) and insufficient eryptosis/under-clearance (hemolysis cascade, persistent procoagulant PS-positive cells, lost Plasmodium clearance) — the mechanistic but undemonstrated adrenochrome crossover, and the longevity positioning.",
+                "path": "pages/en-US/eryptosis-evidence-synthesis.html"
+            },
+            "zh-TW": {
+                "title": "Eryptosis 紅血球凋亡 — 過度死亡訊號、清除不足與腎上腺素紅交叉",
+                "description": "Eryptosis（紅血球調控性死亡）的證據分級綜述：Ca²⁺ 驅動、磷脂醯絲胺酸執行的機制核心；正常 eryptosis 比例未被量化的限制與疾病狀態下 PS 陽性比例的實測數據；兩種失效模式——過度 eryptosis（貧血伴 ESA 低反應、PS 介導的凝血酶生成、內皮黏附與鐵死亡攝入、微循環障礙）與清除不足／訊號不足（溶血級聯、持續促凝血的 PS 陽性細胞、瘧原蟲清除喪失）；機制上支持但實驗未證實的腎上腺素紅交叉；以及長壽研究定位。",
+                "path": "pages/zh-TW/eryptosis-evidence-synthesis.html"
+            }
+        },
+        "created": "2026-11-04",
+        "updated": "2026-11-04"
     }
 ]
