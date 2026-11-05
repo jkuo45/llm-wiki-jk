@@ -22,6 +22,8 @@
   #nodes .tbl-wrap{ --tbl-col-1:"節點"; --tbl-col-2:"腎上腺素紅臂"; --tbl-col-3:"Eryptosis 臂"; --tbl-col-4:"證據"; }
   a.wikilink{ color:var(--teal); }
   .tier{ font-family:var(--mono); font-size:.72rem; border:1px solid currentColor; border-radius:3px; padding:0 5px; white-space:nowrap; }
+  .anim-frame{ width:100%; max-width:860px; aspect-ratio:16/10; height:auto; margin-inline:auto; border:1px solid var(--line); border-radius:14px; background:#141210; display:block; }
+  @media (max-width:640px){ .anim-frame{ max-width:100%; aspect-ratio:4/3; } }
   .t4{ color:var(--blue); } .t3{ color:var(--purple); } .t2{ color:var(--teal); } .t5{ color:var(--red); }
   .fig-canvas svg text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans TC",Helvetica,Arial,sans-serif;}
 </style>
@@ -204,6 +206,15 @@
       </figcaption>
     </figure>
 
+    <figure class="fig">
+      <iframe class="anim-frame" src="eryptosis.html?embed=1" title="互動式 three.js 模型 — 成熟紅血球中的 eryptosis（觸發、Ca2+ 中樞、PS 外翻）" loading="lazy"></iframe>
+      <figcaption class="fig-cap"><b>圖 2 — 同一級聯的互動式 three.js 模型。</b>
+        拖曳旋轉、滾輪縮放；使用晶片隔離觸發、Ca²⁺ 中樞與 PS 外翻三個層級；點擊色塊檢視機制；
+        拖曳計量條可對應生物時間（T+，小時）。內容與圖 1 相同的互動版本——圖 1 保留為可列印的靜態形式。
+        獨立頁面：<a href="eryptosis.html">Eryptosis — three.js 動畫</a>。
+      </figcaption>
+    </figure>
+
     <div class="callout teal">
       <span class="callout-tag">生理學理由</span>
       <p>
@@ -285,7 +296,7 @@
           <text x="871" y="429" font-size="10.5" font-weight="700" class="s-red">3.10%</text>
         </svg>
       </div>
-      <figcaption class="fig-cap"><b>圖 2 — 實測 PS 陽性比例在氧化、發炎與尿毒負荷下上升二至十倍。</b>
+      <figcaption class="fig-cap"><b>圖 3 — 實測 PS 陽性比例在氧化、發炎與尿毒負荷下上升二至十倍。</b>
         資料：鉛暴露工人（職業醫學資料）；闌尾炎世代（含血漿 CRP 效應）；同一患者透析前後對比（Abed et al.）；
         血液透析患者與健康對照（Bonomini et al.，血漿置換後可逆）。虛線標示參考族群約 0.5–0.6% 的基準。
         限制：跨研究數值不可直接比較（標記物與協定差異——lactadherin 與 annexin V 結果不一致）；
@@ -478,7 +489,7 @@
           <path d="M755,480 L670,494" class="stroke-line2" fill="none" marker-end="url(#fArr)" stroke-width="1.6"/>
         </svg>
       </div>
-      <figcaption class="fig-cap"><b>圖 3 — 兩種失效模式。</b>
+      <figcaption class="fig-cap"><b>圖 4 — 兩種失效模式。</b>
         過度 eryptosis 將保護性清除程序轉為貧血、促凝血與內皮損傷；訊號不足或清除飽和則使受損細胞裂解或滯留。
         臨床證據基礎不對稱——過度臂已在多個人類疾病世代被記錄，清除不足臂則仰賴溶血生理學與清除途徑細胞生物學。
       </figcaption>
@@ -591,7 +602,7 @@
           <path d="M500,414 L500,464" class="stroke-line2" fill="none" marker-end="url(#aArrR)" stroke-width="1.6" stroke-dasharray="5 4"/>
         </svg>
       </div>
-      <figcaption class="fig-cap"><b>圖 4 — 腎上腺素紅–eryptosis 交叉。</b>
+      <figcaption class="fig-cap"><b>圖 5 — 腎上腺素紅–eryptosis 交叉。</b>
         每一組成環節皆被個別記錄（Tier 4）：紅血球生成胺基色素、血紅素催化該氧化、黃遞酶／抗壞血酸將腎上腺素紅維持在
         奈莫耳穩態，且兩臂匯聚於 ROS 生成與 GSH/NADPH 預算。最後一步——腎上腺素紅作為直接 eryptosis 誘發物——
         是推論而非實驗（Tier 5）。
