@@ -1,5 +1,5 @@
 {
-  "generated": "05_NOV_2026 07:20 AM PST",
+  "generated": "05_NOV_2026 07:34 AM PST",
   "wiki": [
     {
       "id": "wiki-index",
@@ -1915,6 +1915,82 @@
       }
     },
     {
+      "id": "DcR1",
+      "langs": {
+        "en-US": {
+          "title": "DcR1",
+          "description": "DcR1 (TRAIL-R3/TNFRSF10C) is a TNF-superfamily decoy receptor that sequesters TRAIL without a functional death domain, sparing normal cells and contributing to tumour resistance to TRAIL-based therapies.",
+          "created": "2026-10-22",
+          "updated": "2026-10-22",
+          "tags": [
+            "receptor",
+            "apoptosis",
+            "cell-death",
+            "cancer"
+          ],
+          "filename": "DcR1.md",
+          "path": "wiki/en-US/cell-death/DcR1.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/DcR1.md"
+        }
+      },
+      "stats": {
+        "words": 575,
+        "images": 0,
+        "links": 29,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Osteoprotegerin",
+      "langs": {
+        "en-US": {
+          "title": "Osteoprotegerin",
+          "description": "OPG (TNFRSF11B) — a soluble decoy receptor for RANKL that restrains osteoclastogenesis and bone resorption, with roles in osteoporosis, vascular calcification and tumour-bone interaction.",
+          "created": "2026-10-22",
+          "updated": "2026-10-22",
+          "tags": [
+            "protein",
+            "bone",
+            "receptor"
+          ],
+          "filename": "Osteoprotegerin.md",
+          "path": "wiki/en-US/_link/Osteoprotegerin.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Osteoprotegerin.md"
+        }
+      },
+      "stats": {
+        "words": 356,
+        "images": 0,
+        "links": 26,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Oxaliplatin",
+      "langs": {
+        "en-US": {
+          "title": "Oxaliplatin",
+          "description": "Oxaliplatin is a third-generation platinum (1R,2R-cyclohexane-1,2-diamine) complex that forms bulky intra- and interstrand DNA crosslinks, the backbone of chemotherapy in colorectal cancer, with cumulative peripheral neuropathy as its signature toxicity.",
+          "created": "2026-10-22",
+          "updated": "2026-10-22",
+          "tags": [
+            "drug",
+            "anticancer",
+            "chemotherapy"
+          ],
+          "filename": "Oxaliplatin.md",
+          "path": "wiki/en-US/cancer/Oxaliplatin.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cancer/Oxaliplatin.md"
+        }
+      },
+      "stats": {
+        "words": 611,
+        "images": 0,
+        "links": 37,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "TNFR2",
       "langs": {
         "en-US": {
@@ -1993,6 +2069,31 @@
       }
     },
     {
+      "id": "Small Humanin-Like Peptides",
+      "langs": {
+        "en-US": {
+          "title": "Small Humanin-Like Peptides",
+          "description": "SHLPs — a family of short peptides derived from the mitochondrial open-reading frame of MTRNR2L (Humanin), with proposed mitochondrial and endocrine signalling roles in ageing and metabolism.",
+          "created": "2026-10-22",
+          "updated": "2026-10-22",
+          "tags": [
+            "peptide",
+            "mitochondria",
+            "aging"
+          ],
+          "filename": "Small Humanin-Like Peptides.md",
+          "path": "wiki/en-US/_link/Small%20Humanin-Like%20Peptides.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Small%20Humanin-Like%20Peptides.md"
+        }
+      },
+      "stats": {
+        "words": 377,
+        "images": 0,
+        "links": 31,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "FADD",
       "langs": {
         "en-US": {
@@ -2023,6 +2124,31 @@
         "words": 412,
         "images": 0,
         "links": 41,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "1-Methylguanine",
+      "langs": {
+        "en-US": {
+          "title": "1-Methylguanine",
+          "description": "M1dG — the exocyclic guanine adduct formed by lipid peroxidation, a marker of oxidative DNA damage that is repaired by ALKBH2 and OGG1 and whose urinary levels track inflammation and lipid oxidation.",
+          "created": "2026-10-22",
+          "updated": "2026-10-22",
+          "tags": [
+            "metabolite",
+            "dna-damage",
+            "oxidative-stress"
+          ],
+          "filename": "1-Methylguanine.md",
+          "path": "wiki/en-US/_link/1-Methylguanine.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/1-Methylguanine.md"
+        }
+      },
+      "stats": {
+        "words": 334,
+        "images": 0,
+        "links": 20,
         "diagrams": 0
       }
     },
@@ -2773,6 +2899,57 @@
       }
     },
     {
+      "id": "Erythronecroptosis",
+      "langs": {
+        "en-US": {
+          "title": "Erythronecroptosis",
+          "description": "RIPK1/RIPK3/MLKL-dependent regulated necrosis of mature erythrocytes — the lytic, hemolysis-like counterpart of eryptosis, triggered by Fas/FasL, CD59 ligation with pore formation, ROS, ceramide and AGEs, and mutually exclusive with eryptosis via caspase-8.",
+          "created": "2026-10-08",
+          "updated": "2026-10-08",
+          "tags": [
+            "cell-death",
+            "erythrocyte",
+            "necroptosis"
+          ],
+          "filename": "Erythronecroptosis.md",
+          "path": "wiki/en-US/cell-death/Erythronecroptosis.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Erythronecroptosis.md"
+        }
+      },
+      "stats": {
+        "words": 434,
+        "images": 0,
+        "links": 43,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Efferocytosis",
+      "langs": {
+        "en-US": {
+          "title": "Efferocytosis",
+          "description": "PS-dependent phagocytic clearance of apoptotic cells; in erythrocytes it removes eryptotic RBCs within minutes, reprograms macrophages toward an antiinflammatory/antioxidant (HO-1) phenotype, and thereby suppresses DAMP-driven inflammation from hemolysis.",
+          "created": "2026-10-08",
+          "updated": "2026-10-08",
+          "tags": [
+            "process",
+            "innate-immunity",
+            "macrophage",
+            "cell-death"
+          ],
+          "filename": "Efferocytosis.md",
+          "path": "wiki/en-US/_link/Efferocytosis.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Efferocytosis.md"
+        }
+      },
+      "stats": {
+        "words": 341,
+        "images": 0,
+        "links": 29,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "Akt",
       "langs": {
         "en-US": {
@@ -2807,6 +2984,84 @@
       }
     },
     {
+      "id": "Kupffer Cell",
+      "langs": {
+        "en-US": {
+          "title": "Kupffer Cell",
+          "description": "Hepatic macrophage of the liver sinusoids; the principal phagocyte clearing PS-exposing (eryptotic and senescent) erythrocytes and RBC-derived vesicles, forming erythrophagolysosomes and driving hepatic iron recycling.",
+          "created": "2026-10-08",
+          "updated": "2026-10-08",
+          "tags": [
+            "cell-type",
+            "innate-immunity",
+            "macrophage",
+            "liver"
+          ],
+          "filename": "Kupffer Cell.md",
+          "path": "wiki/en-US/_link/Kupffer%20Cell.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Kupffer%20Cell.md"
+        }
+      },
+      "stats": {
+        "words": 357,
+        "images": 0,
+        "links": 28,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Malaria",
+      "langs": {
+        "en-US": {
+          "title": "Malaria",
+          "description": "Plasmodium infection of erythrocytes; oxidative stress opens cation channels, eryptosis clears infected cells and parasites, eryptosis-lowering erythrocyte traits (G6PD deficiency, sickle trait, thalassemia) confer partial protection, and pro-eryptotic xenobiotics slow parasitemia.",
+          "created": "2026-10-08",
+          "updated": "2026-10-08",
+          "tags": [
+            "disease",
+            "infection",
+            "parasitic",
+            "erythrocyte"
+          ],
+          "filename": "Malaria.md",
+          "path": "wiki/en-US/_link/Malaria.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Malaria.md"
+        }
+      },
+      "stats": {
+        "words": 366,
+        "images": 0,
+        "links": 26,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Erythropoiesis",
+      "langs": {
+        "en-US": {
+          "title": "Erythropoiesis",
+          "description": "Bone-marrow production of red cells from hematopoietic stem cells through erythroid progenitors and reticulocytes, ending in enucleation and organelle clearance — the process whose terminal steps define which cell-death machinery mature erythrocytes retain.",
+          "created": "2026-10-08",
+          "updated": "2026-10-08",
+          "tags": [
+            "process",
+            "hematopoiesis",
+            "erythrocyte",
+            "cell-differentiation"
+          ],
+          "filename": "Erythropoiesis.md",
+          "path": "wiki/en-US/_link/Erythropoiesis.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Erythropoiesis.md"
+        }
+      },
+      "stats": {
+        "words": 430,
+        "images": 0,
+        "links": 28,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "RIPK3",
       "langs": {
         "en-US": {
@@ -2837,6 +3092,32 @@
         "words": 760,
         "images": 0,
         "links": 78,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Hemopexin",
+      "langs": {
+        "en-US": {
+          "title": "Hemopexin",
+          "description": "Plasma heme-binding glycoprotein that scavenges heme released by hemoglobin breakdown, delivering it to CD91 receptors on hepatocytes and macrophages for HO-1-dependent recycling to bilirubin and iron; its depletion is a marker of intravascular hemolysis.",
+          "created": "2026-10-08",
+          "updated": "2026-10-08",
+          "tags": [
+            "protein",
+            "heme",
+            "hemolysis",
+            "plasma-protein"
+          ],
+          "filename": "Hemopexin.md",
+          "path": "wiki/en-US/_link/Hemopexin.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Hemopexin.md"
+        }
+      },
+      "stats": {
+        "words": 383,
+        "images": 0,
+        "links": 39,
         "diagrams": 0
       }
     },
@@ -2881,6 +3162,110 @@
       }
     },
     {
+      "id": "Erythrocyte Senescence",
+      "langs": {
+        "en-US": {
+          "title": "Erythrocyte Senescence",
+          "description": "The ~120-day aging program of mature red cells — surface/volume loss, density rise, reduced deformability, cation loss, desialylation, oxidative damage, hemichrome, reduced CD47, AE1 neo-antigen — cleared over days by macrophage/NOAb immunity, distinct from minutes-fast eryptosis.",
+          "created": "2026-10-08",
+          "updated": "2026-10-08",
+          "tags": [
+            "process",
+            "erythrocyte",
+            "aging",
+            "cellular-senescence"
+          ],
+          "filename": "Erythrocyte Senescence.md",
+          "path": "wiki/en-US/_link/Erythrocyte%20Senescence.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Erythrocyte%20Senescence.md"
+        }
+      },
+      "stats": {
+        "words": 427,
+        "images": 0,
+        "links": 28,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Haptoglobin",
+      "langs": {
+        "en-US": {
+          "title": "Haptoglobin",
+          "description": "Plasma glycoprotein that binds free hemoglobin released by hemolysis with high affinity, forming the haptoglobin-hemoglobin complex cleared via CD91 receptors; a front-line scavenger of intravascular hemolysis.",
+          "created": "2026-10-08",
+          "updated": "2026-10-08",
+          "tags": [
+            "protein",
+            "hemolysis",
+            "plasma-protein",
+            "innate-immunity"
+          ],
+          "filename": "Haptoglobin.md",
+          "path": "wiki/en-US/_link/Haptoglobin.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Haptoglobin.md"
+        }
+      },
+      "stats": {
+        "words": 332,
+        "images": 0,
+        "links": 24,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Carbonic Anhydrase",
+      "langs": {
+        "en-US": {
+          "title": "Carbonic Anhydrase",
+          "description": "Zinc enzyme catalyzing CO2 + H2O <-> H2CO3 <-> H+ + HCO3-; in erythrocytes it completes ~23% of CO2 carriage and pairs with anion exchanger 1 in the chloride shift that loads and unloads CO2 in tissues and lung.",
+          "created": "2026-10-08",
+          "updated": "2026-10-08",
+          "tags": [
+            "enzyme",
+            "erythrocyte",
+            "gas-transport",
+            "carbon-dioxide"
+          ],
+          "filename": "Carbonic Anhydrase.md",
+          "path": "wiki/en-US/_link/Carbonic%20Anhydrase.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Carbonic%20Anhydrase.md"
+        }
+      },
+      "stats": {
+        "words": 347,
+        "images": 0,
+        "links": 14,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "TRPC6",
+      "langs": {
+        "en-US": {
+          "title": "TRPC6",
+          "description": "Ca2+-permeable transient receptor potential channel 6; mediates Ca2+ influx into human erythrocytes (TRPC4/5 fill that role in mouse), one of the entry routes whose overload can trigger eryptosis.",
+          "created": "2026-10-08",
+          "updated": "2026-10-08",
+          "tags": [
+            "protein",
+            "ion-channel",
+            "calcium-signaling",
+            "erythrocyte"
+          ],
+          "filename": "TRPC6.md",
+          "path": "wiki/en-US/_link/TRPC6.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/TRPC6.md"
+        }
+      },
+      "stats": {
+        "words": 349,
+        "images": 0,
+        "links": 28,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "Erythrocytes",
       "langs": {
         "en-US": {
@@ -2913,6 +3298,32 @@
         "words": 665,
         "images": 0,
         "links": 73,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Piezo1",
+      "langs": {
+        "en-US": {
+          "title": "Piezo1",
+          "description": "Mechanosensitive nonselective cation channel; in erythrocytes it transduces mechanical stress into Ca2+ influx, linking shear/stretch (including from nanomaterials accumulating outside the cell) to eryptosis.",
+          "created": "2026-10-08",
+          "updated": "2026-10-08",
+          "tags": [
+            "protein",
+            "ion-channel",
+            "mechanosensation",
+            "erythrocyte"
+          ],
+          "filename": "Piezo1.md",
+          "path": "wiki/en-US/_link/Piezo1.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Piezo1.md"
+        }
+      },
+      "stats": {
+        "words": 314,
+        "images": 0,
+        "links": 22,
         "diagrams": 0
       }
     },
@@ -2951,6 +3362,59 @@
         "words": 583,
         "images": 0,
         "links": 44,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Duffy Antigen Receptor for Chemokines",
+      "langs": {
+        "en-US": {
+          "title": "Duffy Antigen Receptor for Chemokines",
+          "description": "DARC (ACKM1), the erythrocyte surface chemokine receptor that scavenges CXC and CC chemokines from plasma, fine-tuning immune cell trafficking and serving as the invasion receptor for Plasmodium vivax and P. knowlesi.",
+          "created": "2026-10-08",
+          "updated": "2026-10-08",
+          "tags": [
+            "protein",
+            "receptor",
+            "chemokine",
+            "erythrocyte",
+            "innate-immunity"
+          ],
+          "filename": "Duffy Antigen Receptor for Chemokines.md",
+          "path": "wiki/en-US/_link/Duffy%20Antigen%20Receptor%20for%20Chemokines.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Duffy%20Antigen%20Receptor%20for%20Chemokines.md"
+        }
+      },
+      "stats": {
+        "words": 300,
+        "images": 0,
+        "links": 15,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Reticulocyte",
+      "langs": {
+        "en-US": {
+          "title": "Reticulocyte",
+          "description": "The immature, enucleated red cell released from bone marrow that still contains residual ribosomes and organelles; the stage at which mitochondria are cleared, and its circulating count is the standard readout of erythropoietic output in anemia.",
+          "created": "2026-10-08",
+          "updated": "2026-10-08",
+          "tags": [
+            "cell-type",
+            "erythrocyte",
+            "hematopoiesis",
+            "biomarker"
+          ],
+          "filename": "Reticulocyte.md",
+          "path": "wiki/en-US/_link/Reticulocyte.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Reticulocyte.md"
+        }
+      },
+      "stats": {
+        "words": 360,
+        "images": 0,
+        "links": 16,
         "diagrams": 0
       }
     },
@@ -3305,6 +3769,32 @@
         "words": 1592,
         "images": 0,
         "links": 94,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Antiphospholipid Syndrome",
+      "langs": {
+        "en-US": {
+          "title": "Antiphospholipid Syndrome",
+          "description": "Autoimmune thrombophilia defined by antiphospholipid antibodies plus arterial/venous thrombosis or pregnancy morbidity; APS patient autoantibodies induce eryptosis in healthy red cells, offering a route to the prothrombotic erythrocyte phenotype.",
+          "created": "2026-10-08",
+          "updated": "2026-10-08",
+          "tags": [
+            "disease",
+            "autoimmune",
+            "thrombosis",
+            "autoimmune-hemolytic-anemia"
+          ],
+          "filename": "Antiphospholipid Syndrome.md",
+          "path": "wiki/en-US/_link/Antiphospholipid%20Syndrome.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Antiphospholipid%20Syndrome.md"
+        }
+      },
+      "stats": {
+        "words": 319,
+        "images": 0,
+        "links": 20,
         "diagrams": 0
       }
     },
@@ -3901,6 +4391,29 @@
       }
     },
     {
+      "id": "HO-1",
+      "langs": {
+        "en-US": {
+          "title": "HO-1",
+          "description": "Heme oxygenase 1 (HO-1) is a stress-inducible enzyme that catalyzes the rate-limiting step in heme degradation, producing biliverdin, carbon monoxide (CO), and ferrous iron (Fe²⁺). It is a key ...",
+          "created": "2026-07-04",
+          "updated": "2026-10-08",
+          "tags": [
+            "enzyme"
+          ],
+          "filename": "HO-1.md",
+          "path": "wiki/en-US/_link/HO-1.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/HO-1.md"
+        }
+      },
+      "stats": {
+        "words": 783,
+        "images": 0,
+        "links": 84,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "VMAT2",
       "langs": {
         "en-US": {
@@ -4215,6 +4728,32 @@
         "words": 914,
         "images": 0,
         "links": 52,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Gardos Channel",
+      "langs": {
+        "en-US": {
+          "title": "Gardos Channel",
+          "description": "KCa3.1 (KCNN4), the Ca2+-activated K+ channel of erythrocytes whose opening drives K+ efflux, hyperpolarization, Cl- and water loss, and the cell shrinkage of eryptosis; blocked by charybdotoxin and clotrimazole.",
+          "created": "2026-10-08",
+          "updated": "2026-10-08",
+          "tags": [
+            "protein",
+            "ion-channel",
+            "calcium-signaling",
+            "erythrocyte"
+          ],
+          "filename": "Gardos Channel.md",
+          "path": "wiki/en-US/_link/Gardos%20Channel.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Gardos%20Channel.md"
+        }
+      },
+      "stats": {
+        "words": 360,
+        "images": 0,
+        "links": 19,
         "diagrams": 0
       }
     },
@@ -5067,6 +5606,32 @@
         "words": 1402,
         "images": 0,
         "links": 38,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Anion Exchanger 1",
+      "langs": {
+        "en-US": {
+          "title": "Anion Exchanger 1",
+          "description": "AE1/Band 3 (SLC4A1), the most abundant erythrocyte membrane protein: anion exchanger, CO2/HCO3- transporter, membrane-cytoskeleton anchor maintaining biconcave shape, senescent-antigen epitope, and target of calpain/caspase cleavage during eryptosis.",
+          "created": "2026-10-08",
+          "updated": "2026-10-08",
+          "tags": [
+            "protein",
+            "membrane-biology",
+            "erythrocyte",
+            "ion-transport"
+          ],
+          "filename": "Anion Exchanger 1.md",
+          "path": "wiki/en-US/_link/Anion%20Exchanger%201.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Anion%20Exchanger%201.md"
+        }
+      },
+      "stats": {
+        "words": 319,
+        "images": 0,
+        "links": 18,
         "diagrams": 0
       }
     },
@@ -7619,48 +8184,6 @@
       }
     },
     {
-      "id": "p21 CIP1",
-      "langs": {
-        "en-US": {
-          "title": "p21 CIP1",
-          "description": "p21CIP1 (encoded by CDKN1A) is a cyclin-dependent kinase inhibitor that mediates DNA damage-induced cell cycle arrest and supports an early immunosurveillance SASP profile.",
-          "created": "2026-07-07",
-          "updated": "2026-09-19",
-          "tags": [
-            "protein",
-            "senescence",
-            "cell-cycle",
-            "tumor-suppressor",
-            "biomarker"
-          ],
-          "filename": "p21 CIP1.md",
-          "path": "wiki/en-US/_link/p21%20CIP1.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/p21%20CIP1.md"
-        },
-        "zh-TW": {
-          "title": "p21 CIP1",
-          "description": "p21CIP1（由 CDKN1A 編碼）是細胞週期依賴性激酶抑制劑，可介導 DNA 損傷誘導的細胞週期停滯，並支持具免疫監視功能的早期 SASP 表型。",
-          "created": "2026-07-07",
-          "updated": "2026-09-19",
-          "tags": [
-            "protein",
-            "senescence",
-            "cell-cycle",
-            "tumor-suppressor",
-            "biomarker"
-          ],
-          "filename": "p21 CIP1.md",
-          "path": "wiki/zh-TW/_link/p21%20CIP1.md"
-        }
-      },
-      "stats": {
-        "words": 753,
-        "images": 0,
-        "links": 48,
-        "diagrams": 0
-      }
-    },
-    {
       "id": "Parkinson's Disease",
       "langs": {
         "en-US": {
@@ -7703,6 +8226,48 @@
         "words": 1888,
         "images": 0,
         "links": 166,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "p21 CIP1",
+      "langs": {
+        "en-US": {
+          "title": "p21 CIP1",
+          "description": "p21CIP1 (encoded by CDKN1A) is a cyclin-dependent kinase inhibitor that mediates DNA damage-induced cell cycle arrest and supports an early immunosurveillance SASP profile.",
+          "created": "2026-07-07",
+          "updated": "2026-09-19",
+          "tags": [
+            "protein",
+            "senescence",
+            "cell-cycle",
+            "tumor-suppressor",
+            "biomarker"
+          ],
+          "filename": "p21 CIP1.md",
+          "path": "wiki/en-US/_link/p21%20CIP1.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/p21%20CIP1.md"
+        },
+        "zh-TW": {
+          "title": "p21 CIP1",
+          "description": "p21CIP1（由 CDKN1A 編碼）是細胞週期依賴性激酶抑制劑，可介導 DNA 損傷誘導的細胞週期停滯，並支持具免疫監視功能的早期 SASP 表型。",
+          "created": "2026-07-07",
+          "updated": "2026-09-19",
+          "tags": [
+            "protein",
+            "senescence",
+            "cell-cycle",
+            "tumor-suppressor",
+            "biomarker"
+          ],
+          "filename": "p21 CIP1.md",
+          "path": "wiki/zh-TW/_link/p21%20CIP1.md"
+        }
+      },
+      "stats": {
+        "words": 753,
+        "images": 0,
+        "links": 48,
         "diagrams": 0
       }
     },
