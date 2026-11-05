@@ -4100,5 +4100,3491 @@
     "source_document": "_document_ - Necroptosis (2014), Linkermann, Green.md",
     "created": "2026-09-14T23:30:00Z",
     "updated": "2026-09-29T18:36:13Z"
+  },
+  {
+    "id": "993ac6066bc4",
+    "subject": "Senicapoc",
+    "predicate": "inhibits",
+    "object": "Gardos Channel",
+    "context": {
+      "en-US": "Senicapoc and clotrimazole block the Ca2+-activated K+ channel (KCa3.1/KCNN4) that executes erythrocyte shrinkage in eryptosis; refs 5,6.",
+      "zh-TW": "Senicapoc 與 clotrimazole 阻斷介導紅血球皺縮的 Ca2+ 活化 K+ 通道(KCa3.1/KCNN4);參考文獻 5,6。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "6389094addd5",
+    "subject": "Clotrimazole",
+    "predicate": "inhibits",
+    "object": "Gardos Channel",
+    "context": {
+      "en-US": "Senicapoc and clotrimazole block the Ca2+-activated K+ channel (KCa3.1/KCNN4) that executes erythrocyte shrinkage in eryptosis; refs 5,6.",
+      "zh-TW": "Clotrimazole 與 senicapoc 阻斷介導紅血球皺縮的 Ca2+ 活化 K+ 通道(KCa3.1/KCNN4);參考文獻 5,6。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "54de0680213d",
+    "subject": "Amiloride",
+    "predicate": "inhibits",
+    "object": "Nonselective Cation Channel",
+    "context": {
+      "en-US": "Amiloride, amlodipine, HOE 642, HOE 694 and erythropoietin inhibit the Ca2+-permeable nonselective cation channels / Na+/H+ exchanger mediating Ca2+ entry in eryptosis; refs 7,8,9.",
+      "zh-TW": "Amiloride、amlodipine、HOE 642、HOE 694 與 erythropoietin 抑制介導 eryptosis 中 Ca2+ 內流的 Ca2+ 可通透非選擇性陽離子通道 / Na+/H+ 交換體;參考文獻 7,8,9。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "6559a6e18564",
+    "subject": "Amlodipine",
+    "predicate": "inhibits",
+    "object": "Nonselective Cation Channel",
+    "context": {
+      "en-US": "Amiloride, amlodipine, HOE 642, HOE 694 and erythropoietin inhibit the Ca2+-permeable nonselective cation channels / Na+/H+ exchanger mediating Ca2+ entry in eryptosis; refs 7,8,9.",
+      "zh-TW": "Amlodipine 與 amiloride、HOE 642、HOE 694、erythropoietin 抑制介導 eryptosis 中 Ca2+ 內流的 Ca2+ 可通透非選擇性陽離子通道;參考文獻 7,8,9。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "349bd6f79ff8",
+    "subject": "HOE 642",
+    "predicate": "inhibits",
+    "object": "Nonselective Cation Channel",
+    "context": {
+      "en-US": "Amiloride, amlodipine, HOE 642, HOE 694 and erythropoietin inhibit the Ca2+-permeable nonselective cation channels / Na+/H+ exchanger mediating Ca2+ entry in eryptosis; refs 7,8,9.",
+      "zh-TW": "HOE 642(cariporide)與 amiloride、amlodipine、HOE 694、erythropoietin 抑制介導 eryptosis 中 Ca2+ 內流的 Ca2+ 可通透非選擇性陽離子通道;參考文獻 7,8,9。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "45a8983736f6",
+    "subject": "HOE 694",
+    "predicate": "inhibits",
+    "object": "Nonselective Cation Channel",
+    "context": {
+      "en-US": "Amiloride, amlodipine, HOE 642, HOE 694 and erythropoietin inhibit the Ca2+-permeable nonselective cation channels / Na+/H+ exchanger mediating Ca2+ entry in eryptosis; refs 7,8,9.",
+      "zh-TW": "HOE 694 與 amiloride、amlodipine、HOE 642、erythropoietin 抑制介導 eryptosis 中 Ca2+ 內流的 Ca2+ 可通透非選擇性陽離子通道;參考文獻 7,8,9。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "c14bb70af562",
+    "subject": "Erythropoietin",
+    "predicate": "inhibits",
+    "object": "Nonselective Cation Channel",
+    "context": {
+      "en-US": "Erythropoietin suppresses Ca2+ entry through nonselective cation channels in erythrocytes, the protective arm linking EPO signaling to reduced eryptosis; refs 7,8,9.",
+      "zh-TW": "Erythropoietin 抑制紅血球非選擇性陽離子通道的 Ca2+ 內流,是 EPO 抑制 eryptosis 的機制之一;參考文獻 7,8,9。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "8dd3308b78c9",
+    "subject": "Niflumic acid",
+    "predicate": "inhibits",
+    "object": "Ca2+-activated Chloride Channel",
+    "context": {
+      "en-US": "Niflumic acid and CaCCinh-A01 block the Ca2+-activated Cl- channel (CaCC) that mediates Cl- efflux downstream of Gardos opening; refs 10,11.",
+      "zh-TW": "Niflumic acid 與 CaCCinh-A01 阻斷 Gardos 開放下游介導 Cl- 外流的 Ca2+ 活化 Cl- 通道(CaCC);參考文獻 10,11。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "d612da351257",
+    "subject": "CaCCinh-A01",
+    "predicate": "inhibits",
+    "object": "Ca2+-activated Chloride Channel",
+    "context": {
+      "en-US": "Niflumic acid and CaCCinh-A01 block the Ca2+-activated Cl- channel (CaCC) that mediates Cl- efflux downstream of Gardos opening; refs 10,11.",
+      "zh-TW": "CaCCinh-A01 與 niflumic acid 阻斷 Gardos 開放下游介導 Cl- 外流的 Ca2+ 活化 Cl- 通道(CaCC);參考文獻 10,11。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "453e8367ee4e",
+    "subject": "Ouabain",
+    "predicate": "inhibits",
+    "object": "Na+/K+-ATPase",
+    "context": {
+      "en-US": "Ouabain and rostafuroxin inhibit the Na+/K+-ATPase, disrupting ion homeostasis and altering eryptosis susceptibility; refs 12,13.",
+      "zh-TW": "Ouabain 與 rostafuroxin 抑制 Na+/K+-ATPase,破壞離子穩態並改變 eryptosis 易感性;參考文獻 12,13。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "c81d74f17ca7",
+    "subject": "Rostafuroxin",
+    "predicate": "inhibits",
+    "object": "Na+/K+-ATPase",
+    "context": {
+      "en-US": "Ouabain and rostafuroxin inhibit the Na+/K+-ATPase, disrupting ion homeostasis and altering eryptosis susceptibility; refs 12,13.",
+      "zh-TW": "Rostafuroxin 與 ouabain 抑制 Na+/K+-ATPase,破壞離子穩態並改變 eryptosis 易感性;參考文獻 12,13。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "ed40aae79fdc",
+    "subject": "DIDS",
+    "predicate": "inhibits",
+    "object": "Anion Exchanger 1",
+    "context": {
+      "en-US": "DIDS inhibits AE1/band 3, the erythrocyte anion exchanger whose dysregulation contributes to membrane instability in eryptosis; ref 14.",
+      "zh-TW": "DIDS 抑制紅血球陰離子交換體 AE1/band 3,其失調參與 eryptosis 中的膜不穩定;參考文獻 14。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "71bf2f8ab768",
+    "subject": "WZB117",
+    "predicate": "inhibits",
+    "object": "GLUT1",
+    "context": {
+      "en-US": "WZB117 inhibits GLUT1-mediated glucose uptake, starving erythrocyte glycolysis and promoting energetic eryptosis; ref 15.",
+      "zh-TW": "WZB117 抑制 GLUT1 介導的葡萄糖攝取,耗竭紅血球糖酵解並促進能量耗竭型 eryptosis;參考文獻 15。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "9faa18123b39",
+    "subject": "Anti-EpoR",
+    "predicate": "inhibits",
+    "object": "Erythropoietin Receptor",
+    "context": {
+      "en-US": "Neutralizing anti-EpoR antibody suppresses erythropoietin-receptor signaling, promoting eryptosis; ref 16.",
+      "zh-TW": "抗 EpoR 中和抗體抑制 erythropoietin 受體訊號,促進 eryptosis;參考文獻 16。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "f8e49bc5a27e",
+    "subject": "J1D9",
+    "predicate": "inhibits",
+    "object": "TNFα",
+    "context": {
+      "en-US": "J1D9 (anti-TNFα) blocks TNF-alpha signaling that sensitizes erythrocytes to membrane scrambling; ref 17.",
+      "zh-TW": "J1D9(抗 TNFα)阻斷使紅血球敏感化的 TNF-alpha 訊號;參考文獻 17。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "aaff25fc214d",
+    "subject": "NOK-1",
+    "predicate": "inhibits",
+    "object": "FasL",
+    "context": {
+      "en-US": "NOK-1 (anti-FasL) blocks Fas-ligand signaling, preventing extrinsic (Fas) eryptosis; ref 17.",
+      "zh-TW": "NOK-1(抗 FasL)阻斷 Fas 配體訊號,阻止外源性(Fas)eryptosis;參考文獻 17。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "5b311d5e8fcb",
+    "subject": "RIK-2",
+    "predicate": "inhibits",
+    "object": "TRAIL",
+    "context": {
+      "en-US": "RIK-2 (anti-TRAIL) blocks TRAIL signaling; mature erythrocytes lack TRAIL receptors, so this reports on assay specificity; ref 17.",
+      "zh-TW": "RIK-2(抗 TRAIL)阻斷 TRAIL 訊號;成熟紅血球缺乏 TRAIL 受體,故該項反映檢測特異性;參考文獻 17。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "78e1c5521140",
+    "subject": "Apafant",
+    "predicate": "inhibits",
+    "object": "Platelet-Activating Factor Receptor",
+    "context": {
+      "en-US": "Apafant (WEB2086) and foropafant (SR27417) antagonize the PAF receptor, blocking PAF-driven eryptosis; refs 18,19.",
+      "zh-TW": "Apafant(WEB2086)與 foropafant(SR27417)拮抗 PAF 受體,阻斷 PAF 驅動的 eryptosis;參考文獻 18,19。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "3bcc3a646ab5",
+    "subject": "Foropafant",
+    "predicate": "inhibits",
+    "object": "Platelet-Activating Factor Receptor",
+    "context": {
+      "en-US": "Apafant (WEB2086) and foropafant (SR27417) antagonize the PAF receptor, blocking PAF-driven eryptosis; refs 18,19.",
+      "zh-TW": "Foropafant(SR27417)與 apafant(WEB2086)拮抗 PAF 受體,阻斷 PAF 驅動的 eryptosis;參考文獻 18,19。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "dbfd79e64f79",
+    "subject": "Guanidinoethyl sulfonate",
+    "predicate": "inhibits",
+    "object": "Taurine Transporter",
+    "context": {
+      "en-US": "Guanidinoethyl sulfonate (taurocyamine) inhibits the taurine transporter (TAUT), removing a cytoprotective osmolyte from erythrocytes; ref 20.",
+      "zh-TW": "Guanidinoethyl sulfonate(taurocyamine)抑制牛磺酸轉運體(TAUT),剝奪紅血球的 cytoprotective 滲透調節物質;參考文獻 20。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "ca57cb42b5d1",
+    "subject": "BAPTA-AM",
+    "predicate": "chelates",
+    "object": "Intracellular Calcium",
+    "context": {
+      "en-US": "BAPTA-AM chelates cytosolic Ca2+, uncoupling upstream triggers from the Ca2+-dependent execution steps of eryptosis; ref 21.",
+      "zh-TW": "BAPTA-AM 螯合胞質 Ca2+,使上游觸發因素與 eryptosis 的 Ca2+ 依賴執行步驟脫鉤;參考文獻 21。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "4a2e6046cfec",
+    "subject": "zVAD",
+    "predicate": "inhibits",
+    "object": "Caspases",
+    "context": {
+      "en-US": "zVAD-FMK and emricasan are pan-caspase inhibitors that blunt caspase-dependent amplification of eryptosis; refs 22,23.",
+      "zh-TW": "zVAD-FMK 與 emricasan 是廣譜 caspase 抑制劑,削弱 eryptosis 的 caspase 依賴放大;參考文獻 22,23。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "0938d33c28f0",
+    "subject": "Emricasan",
+    "predicate": "inhibits",
+    "object": "Caspases",
+    "context": {
+      "en-US": "zVAD-FMK and emricasan are pan-caspase inhibitors that blunt caspase-dependent amplification of eryptosis; refs 22,23.",
+      "zh-TW": "Emricasan 與 zVAD-FMK 是廣譜 caspase 抑制劑,削弱 eryptosis 的 caspase 依賴放大;參考文獻 22,23。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "b015b8ce31b5",
+    "subject": "SB203580",
+    "predicate": "inhibits",
+    "object": "p38 MAPK",
+    "context": {
+      "en-US": "SB203580 and p38 inhibitor III block p38 MAPK, a kinase whose activity is required for stress-induced eryptosis; ref 24.",
+      "zh-TW": "SB203580 與 p38 inhibitor III 阻斷 p38 MAPK,該激酶活性是應激誘導的 eryptosis 所必需;參考文獻 24。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "1137a5237abc",
+    "subject": "p38 inhibitor III",
+    "predicate": "inhibits",
+    "object": "p38 MAPK",
+    "context": {
+      "en-US": "SB203580 and p38 inhibitor III block p38 MAPK, a kinase whose activity is required for stress-induced eryptosis; ref 24.",
+      "zh-TW": "P38 inhibitor III 與 SB203580 阻斷 p38 MAPK,該激酶活性是應激誘導的 eryptosis 所必需;參考文獻 24。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "8c1e4386645b",
+    "subject": "D4476",
+    "predicate": "inhibits",
+    "object": "CK1α",
+    "context": {
+      "en-US": "D4476 inhibits casein kinase 1 alpha (CK1α), a pro-eryptotic kinase; D4476 also blocks CK1α in the tBuOOH assay (Table S5); ref 22.",
+      "zh-TW": "D4476 抑制酪蛋白激酶 1 alpha(CK1α)——一種促 eryptosis 激酶;參考文獻 22。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "a71adc267916",
+    "subject": "Staurosporine",
+    "predicate": "inhibits",
+    "object": "PKC",
+    "context": {
+      "en-US": "Staurosporine inhibits protein kinase C; at low concentrations used in the cited work it modulates PKC-dependent eryptosis signaling; ref 25.",
+      "zh-TW": "Staurosporine 抑制蛋白激酶 C;參考文獻 25。"
+    },
+    "confidence": "medium",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "9d8a42747681",
+    "subject": "NSC 23766",
+    "predicate": "inhibits",
+    "object": "Rac1",
+    "context": {
+      "en-US": "NSC 23766 inhibits Rac1 GTPase, blunting ROS-driven eryptosis and oxysterol-induced membrane scrambling; ref 26.",
+      "zh-TW": "NSC 23766 抑制 Rac1 GTPase,減弱 ROS 驅動的 eryptosis 與羥基固醇誘導的膜 scrambling;參考文獻 26。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "de167c7627e8",
+    "subject": "Acetylsalicylic acid",
+    "predicate": "inhibits",
+    "object": "Cyclooxygenase",
+    "context": {
+      "en-US": "Acetylsalicylic acid and ibuprofen inhibit cyclooxygenase (COX), reducing PGE2 generation that activates cation channels in eryptosis; ref 27.",
+      "zh-TW": "Acetylsalicylic acid 與 ibuprofen 抑制環氧合酶(COX),減少啟用 eryptosis 陽離子通道的 PGE2 生成;參考文獻 27。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "e17ad3050094",
+    "subject": "Ibuprofen",
+    "predicate": "inhibits",
+    "object": "Cyclooxygenase",
+    "context": {
+      "en-US": "Acetylsalicylic acid and ibuprofen inhibit cyclooxygenase (COX), reducing PGE2 generation that activates cation channels in eryptosis; ref 27.",
+      "zh-TW": "Ibuprofen 與 acetylsalicylic acid 抑制環氧合酶(COX),減少啟用 eryptosis 陽離子通道的 PGE2 生成;參考文獻 27。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "872324c1ec37",
+    "subject": "Quinacrine",
+    "predicate": "inhibits",
+    "object": "Phospholipase A2",
+    "context": {
+      "en-US": "Quinacrine inhibits phospholipase A2, suppressing PGE2-mediated signaling implicated in eryptosis (e.g. lead exposure); ref 28.",
+      "zh-TW": "Quinacrine 抑制磷脂酶 A2,抑制涉及 eryptosis(如鉛暴露)的 PGE2 介導訊號;參考文獻 28。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "e9a1a0f7a05e",
+    "subject": "Myriocin",
+    "predicate": "inhibits",
+    "object": "Serine Palmitoyltransferase",
+    "context": {
+      "en-US": "Myriocin (thermozymocidin) inhibits serine palmitoyltransferase, the rate-limiting enzyme of de novo sphingolipid/ceramide synthesis; ref 29.",
+      "zh-TW": "Myriocin(thermozymocidin)抑制絲胺酸棕櫚醯轉移酶——鞘脂/ceramide 從頭合成的限速酶;參考文獻 29。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "c76f925618ad",
+    "subject": "Bay-Y5884",
+    "predicate": "inhibits",
+    "object": "Lipoxygenase",
+    "context": {
+      "en-US": "Bay-Y5884 inhibits lipoxygenase, reducing leukotriene-mediated eryptosis; ref 30.",
+      "zh-TW": "Bay-Y5884 抑制脂氧合酶,減少白三烯介導的 eryptosis;參考文獻 30。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "1fc7fa9919c8",
+    "subject": "JANEX-1",
+    "predicate": "inhibits",
+    "object": "JAK3",
+    "context": {
+      "en-US": "JANEX-1 inhibits Janus kinase 3, a kinase activated upon energy depletion in erythrocytes; ref 31.",
+      "zh-TW": "JANEX-1 抑制 Janus kinase 3——一種紅血球能量耗竭時被啟用的激酶;參考文獻 31。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "4b6008c88b71",
+    "subject": "SB-747651-A",
+    "predicate": "inhibits",
+    "object": "MSK1",
+    "context": {
+      "en-US": "SB-747651-A inhibits mitogen- and stress-activated protein kinase 1 (MSK1); ref 32.",
+      "zh-TW": "SB-747651-A 抑制絲裂原與應激啟用蛋白激酶 1(MSK1);參考文獻 32。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "28e092bd3448",
+    "subject": "SB-747651-A",
+    "predicate": "inhibits",
+    "object": "MSK2",
+    "context": {
+      "en-US": "SB-747651-A inhibits mitogen- and stress-activated protein kinase 2 (MSK2); ref 32.",
+      "zh-TW": "SB-747651-A 抑制絲裂原與應激啟用蛋白激酶 2(MSK2);參考文獻 32。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "daca37c2253f",
+    "subject": "LY294002",
+    "predicate": "inhibits",
+    "object": "Akt",
+    "context": {
+      "en-US": "LY294002 inhibits PI3K/Akt signaling upstream of PKC-dependent cation-channel activation in eryptosis; ref 26.",
+      "zh-TW": "LY294002 抑制 PI3K/Akt 訊號,位於 eryptosis 中 PKC 依賴的陽離子通道啟用上游;參考文獻 26。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "2cd55fb535c7",
+    "subject": "Calpain inhibitor I",
+    "predicate": "inhibits",
+    "object": "Calpain",
+    "context": {
+      "en-US": "Calpain inhibitors I and II block mu-calpain, the Ca2+-dependent protease responsible for cytoskeletal digestion and blebbing in eryptosis; ref 27.",
+      "zh-TW": "Calpain 抑制劑 I 與 II 阻斷 mu-calpain——eryptosis 中負責細胞骨架消化與膜泡形成的 Ca2+ 依賴蛋白酶;參考文獻 27。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "1aa8dd20feae",
+    "subject": "Calpain inhibitor II",
+    "predicate": "inhibits",
+    "object": "Calpain",
+    "context": {
+      "en-US": "Calpain inhibitors I and II block mu-calpain, the Ca2+-dependent protease responsible for cytoskeletal digestion and blebbing in eryptosis; ref 27.",
+      "zh-TW": "Calpain 抑制劑 II 與 I 阻斷 mu-calpain——eryptosis 中負責細胞骨架消化與膜泡形成的 Ca2+ 依賴蛋白酶;參考文獻 27。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "9f034f399b7c",
+    "subject": "Compound C",
+    "predicate": "inhibits",
+    "object": "AMPK",
+    "context": {
+      "en-US": "Compound C (dorsomorphin) inhibits AMP-activated protein kinase, aggravating energy-depletion-induced eryptosis; ref 33.",
+      "zh-TW": "Compound C(dorsomorphin)抑制 AMP 活化蛋白激酶,加重能量耗竭誘導的 eryptosis;參考文獻 33。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "dc297b206245",
+    "subject": "Resveratrol",
+    "predicate": "inhibits",
+    "object": "AMPK",
+    "context": {
+      "en-US": "Resveratrol at low micromolar concentrations inhibits AMPK in the cited eryptosis assay; at higher concentrations it scavenges ROS; ref 33.",
+      "zh-TW": "Resveratrol 在低微摩爾濃度下在該 eryptosis 檢測中抑制 AMPK;更高濃度下為 ROS 清除劑;參考文獻 33。"
+    },
+    "confidence": "medium",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "de571e2db541",
+    "subject": "AICAR phosphate",
+    "predicate": "activates",
+    "object": "AMPK",
+    "context": {
+      "en-US": "AICAR phosphate and cordycepin activate AMPK, the energy sensor that restrains ATP-depletion-driven eryptosis; refs 33,34.",
+      "zh-TW": "AICAR 磷酸酯與 cordycepin 啟用 AMPK——抑制 ATP 耗竭驅動 eryptosis 的能量感測器;參考文獻 33,34。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "90c44b927a03",
+    "subject": "Cordycepin",
+    "predicate": "activates",
+    "object": "AMPK",
+    "context": {
+      "en-US": "AICAR phosphate and cordycepin activate AMPK, the energy sensor that restrains ATP-depletion-driven eryptosis; refs 33,34.",
+      "zh-TW": "Cordycepin 透過 AMPK 啟用發揮作用;與 AICAR 磷酸酯共同啟用 AMPK——抑制 ATP 耗竭驅動 eryptosis 的能量感測器;參考文獻 33,34。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "61eb306aa2c6",
+    "subject": "8-Bromo-cGMP",
+    "predicate": "inhibits",
+    "object": "cGMP-Dependent Protein Kinase I",
+    "context": {
+      "en-US": "8-Bromo-cGMP inhibits cGMP-dependent protein kinase type I (cGKI) in the cited assay, removing the anti-eryptotic NO/cGMP arm; refs 35,36.",
+      "zh-TW": "8-Bromo-cGMP 抑制 cGMP 依賴蛋白激酶 I(cGKI),解除 NO/cGMP 的抗 eryptosis 作用;參考文獻 35,36。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "654efd7573c9",
+    "subject": "8-pCPT-cGMP",
+    "predicate": "activates",
+    "object": "cGMP-Dependent Protein Kinase I",
+    "context": {
+      "en-US": "8-pCPT-cGMP and TEA activate cGMP-dependent protein kinase type I (cGKI), reinforcing the anti-eryptotic NO/cGMP arm; refs 35,36.",
+      "zh-TW": "8-pCPT-cGMP 與 TEA 啟用 cGMP 依賴蛋白激酶 I(cGKI),強化 NO/cGMP 的抗 eryptosis 作用;參考文獻 35,36。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "bb609f03a455",
+    "subject": "TEA",
+    "predicate": "activates",
+    "object": "cGMP-Dependent Protein Kinase I",
+    "context": {
+      "en-US": "8-pCPT-cGMP and TEA activate cGMP-dependent protein kinase type I (cGKI), reinforcing the anti-eryptotic NO/cGMP arm; refs 35,36.",
+      "zh-TW": "TEA(tetraethylammonium chloride)與 8-pCPT-cGMP 啟用 cGMP 依賴蛋白激酶 I(cGKI);參考文獻 35,36。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "7c4d54163eb8",
+    "subject": "FRAX486",
+    "predicate": "inhibits",
+    "object": "PAK2",
+    "context": {
+      "en-US": "FRAX486 and G-5555 inhibit p21-activated kinase 2 (PAK2), a kinase protecting erythrocytes under stress; refs 37,38.",
+      "zh-TW": "FRAX486 與 G-5555 抑制 p21 啟用激酶 2(PAK2)——應激下保護紅血球的激酶;參考文獻 37,38。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "b3ae14e4613e",
+    "subject": "G-5555",
+    "predicate": "inhibits",
+    "object": "PAK2",
+    "context": {
+      "en-US": "FRAX486 and G-5555 inhibit p21-activated kinase 2 (PAK2), a kinase protecting erythrocytes under stress; refs 37,38.",
+      "zh-TW": "G-5555 與 FRAX486 抑制 p21 啟用激酶 2(PAK2)——應激下保護紅血球的激酶;參考文獻 37,38。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "9b83c6ed2c00",
+    "subject": "BX-320",
+    "predicate": "inhibits",
+    "object": "PDK1",
+    "context": {
+      "en-US": "BX-320 inhibits phosphoinositide-dependent kinase-1 (PDK1), an upstream kinase in the Akt survival pathway; ref 39.",
+      "zh-TW": "BX-320 抑制磷酸肌醇依賴激酶-1(PDK1)——Akt 存活通路的上游激酶;參考文獻 39。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "9edbe23a1448",
+    "subject": "CDK4 inhibitor II",
+    "predicate": "inhibits",
+    "object": "CDK4",
+    "context": {
+      "en-US": "CDK4 inhibitor II blocks cyclin-dependent kinase 4; CDK4 activity favors erythrocyte survival under stress; ref 40.",
+      "zh-TW": "CDK4 inhibitor II 阻斷細胞週期蛋白依賴激酶 4;CDK4 活性有利於應激下紅血球存活;參考文獻 40。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "ef3f9d0fc270",
+    "subject": "HS-1371",
+    "predicate": "inhibits",
+    "object": "RIPK3",
+    "context": {
+      "en-US": "GSK’872 and HS-1371 inhibit RIPK3, the kinase executing necroptotic membrane disruption; refs 17,42.",
+      "zh-TW": "HS-1371 與 GSK’872 抑制 RIPK3——執行 necroptotic 膜破壞的激酶;參考文獻 17,42。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "a20941582367",
+    "subject": "Bay 61-3606",
+    "predicate": "inhibits",
+    "object": "Syk",
+    "context": {
+      "en-US": "Bay 61-3606 inhibits spleen tyrosine kinase (Syk), modulating RIPK1/RIPK3 necrosome signaling; ref 44.",
+      "zh-TW": "Bay 61-3606 抑制脾酪胺酸激酶(Syk),調節 RIPK1/RIPK3 necrosome 訊號;參考文獻 44。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "77a3c8d1bd5b",
+    "subject": "PP1",
+    "predicate": "inhibits",
+    "object": "Src",
+    "context": {
+      "en-US": "PP1 inhibits Src-family kinases that participate in death-receptor signaling in erythrocytes; ref 17.",
+      "zh-TW": "PP1 抑制參與紅血球死亡受體訊號的 Src 家族激酶;參考文獻 17。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "6d164b2730b8",
+    "subject": "Vitamin C",
+    "predicate": "scavenges",
+    "object": "Reactive Oxygen Species",
+    "context": {
+      "en-US": "Vitamin C is a water-soluble chain-breaking antioxidant that suppresses ROS-mediated eryptosis; ref 45.",
+      "zh-TW": "Vitamin C 是水溶性斷鏈抗氧化劑,抑制 ROS 介導的 eryptosis;參考文獻 45。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "6abd308b873a",
+    "subject": "Vitamin E",
+    "predicate": "scavenges",
+    "object": "Reactive Oxygen Species",
+    "context": {
+      "en-US": "Vitamin E (alpha-tocopherol) is a lipid-soluble antioxidant stabilizing erythrocyte membranes against peroxidative damage; ref 46.",
+      "zh-TW": "Vitamin E(α-生育酚)是脂溶性抗氧化劑,穩定紅血球膜抵禦過氧化損傷;參考文獻 46。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "5a13272ea099",
+    "subject": "Trolox",
+    "predicate": "scavenges",
+    "object": "Reactive Oxygen Species",
+    "context": {
+      "en-US": "Trolox, a water-soluble vitamin E analog, scavenges ROS and protects erythrocytes from oxidative-stress eryptosis; ref 47.",
+      "zh-TW": "Trolox 是水溶性維生素 E 類似物,清除 ROS 並保護紅血球免受氧化應激 eryptosis;參考文獻 47。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "3aceb4457ff8",
+    "subject": "Glutathione",
+    "predicate": "scavenges",
+    "object": "Reactive Oxygen Species",
+    "context": {
+      "en-US": "Glutathione (GSH) is the principal intracellular thiol buffer; GSH depletion precedes and permits eryptosis; ref 48.",
+      "zh-TW": "Glutathione(GSH)是主要的胞內硫醇緩衝劑;GSH 耗竭先於並允許 eryptosis 發生;參考文獻 48。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "06b3808eb99e",
+    "subject": "N-Acetylcysteine",
+    "predicate": "scavenges",
+    "object": "Reactive Oxygen Species",
+    "context": {
+      "en-US": "N-acetylcysteine replenishes GSH and suppresses ROS-mediated eryptosis; it prolongs mouse erythrocyte half-life in vivo; ref 49.",
+      "zh-TW": "N-acetylcysteine 補充 GSH 並抑制 ROS 介導的 eryptosis;參考文獻 49。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "e911a5fa114c",
+    "subject": "Melatonin",
+    "predicate": "scavenges",
+    "object": "Reactive Oxygen Species",
+    "context": {
+      "en-US": "Melatonin scavenges ROS/RNS and protects erythrocytes from oxidative damage; ref 50.",
+      "zh-TW": "Melatonin 清除 ROS/RNS 並保護紅血球免受氧化損傷;參考文獻 50。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "4889760d9e29",
+    "subject": "Catalase",
+    "predicate": "scavenges",
+    "object": "Reactive Oxygen Species",
+    "context": {
+      "en-US": "Catalase decomposes H2O2; its low expression in erythrocytes underlies their sensitivity to oxidants; ref 51.",
+      "zh-TW": "Catalase 分解 H2O2;紅血球中其表達量低,是紅血球對氧化劑敏感的基礎;參考文獻 51。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "c743eb52e754",
+    "subject": "Pyridoxamine",
+    "predicate": "inhibits",
+    "object": "Advanced Glycation End Products",
+    "context": {
+      "en-US": "Pyridoxamine inhibits formation of advanced glycation end products (AGEs) that drive glycation-induced eryptosis; ref 44.",
+      "zh-TW": "Pyridoxamine 抑制晚期糖基化終產物(AGEs)形成——AGE 驅動糖基化誘導的 eryptosis;參考文獻 44。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "411e74a9c409",
+    "subject": "VAS2870",
+    "predicate": "inhibits",
+    "object": "NADPH Oxidase",
+    "context": {
+      "en-US": "VAS2870 and DPI inhibit NADPH oxidase, reducing superoxide generation that triggers eryptosis; ref 26.",
+      "zh-TW": "VAS2870 與 DPI 抑制 NADPH 氧化酶,減少觸發 eryptosis 的超氧陰離子生成;參考文獻 26。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "47733bf1b085",
+    "subject": "DPI",
+    "predicate": "inhibits",
+    "object": "NADPH Oxidase",
+    "context": {
+      "en-US": "VAS2870 and DPI inhibit NADPH oxidase, reducing superoxide generation that triggers eryptosis; ref 26.",
+      "zh-TW": "DPI 與 VAS2870 抑制 NADPH 氧化酶,減少觸發 eryptosis 的超氧陰離子生成;參考文獻 26。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "0e7ce534fcd0",
+    "subject": "L-NAME",
+    "predicate": "inhibits",
+    "object": "Nitric Oxide Synthase",
+    "context": {
+      "en-US": "L-NAME inhibits nitric oxide synthase, removing the anti-eryptotic NO/cGMP brake on cation channels; ref 26.",
+      "zh-TW": "L-NAME 抑制一氧化氮合酶,解除 NO/cGMP 對非選擇性陽離子通道的抗 eryptosis 剎車;參考文獻 26。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "34285dde3e22",
+    "subject": "Nitroprusside",
+    "predicate": "inhibits",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Nitroprusside (NO donor) and papanonoate suppress eryptosis, including ionomycin-induced eryptosis, via the NO-cGMP-cGKI arm; ref 52. Also reported: Reported in supplementary Table S5: Nitroprusside (1 µM) inhibited eryptosis induced by Ionomycin; treatment 4 h; readouts: readouts not annotated; reference 52.",
+      "zh-TW": "Nitroprusside(NO 供體)與 papanonoate 經 NO-cGMP-cGKI 途徑抑制 eryptosis(包括 ionomycin 誘導者);參考文獻 52。另有：補充表 S5 所述:Nitroprusside(1 µM)抑制由 Ionomycin 誘導的 eryptosis;處理 4 h;讀數:未標注讀數;參考文獻 52。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "19a5d4824390",
+    "subject": "papanonoate",
+    "predicate": "inhibits",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Nitroprusside (NO donor) and papanonoate suppress eryptosis, including ionomycin-induced eryptosis, via the NO-cGMP-cGKI arm; ref 52.",
+      "zh-TW": "Papanonoate(NO 供體)與 nitroprusside 經 NO-cGMP-cGKI 途徑抑制 eryptosis(包括 ionomycin 誘導者);參考文獻 52。"
+    },
+    "confidence": "medium",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "4c7fbf3c87e9",
+    "subject": "AAPH",
+    "predicate": "induces",
+    "object": "Hemolysis",
+    "context": {
+      "en-US": "AAPH (2,2'-azobis(2-amidinopropane) dihydrochloride) is a water-soluble azo initiator used as a membrane-rupturing hemolytic agent; ref 53.",
+      "zh-TW": "AAPH 是水溶性偶氮引發劑,作為破壞膜的溶血劑使用;參考文獻 53。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "bb65427655bf",
+    "subject": "Ionomycin",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Ionomycin is a Ca2+ ionophore that bypasses upstream triggers and directly elevates cytosolic Ca2+, the committed step of eryptosis; refs 9,54.",
+      "zh-TW": "Ionomycin 是 Ca2+ 離子載體,繞過上游觸發因素直接升高胞質 Ca2+——eryptosis 的決定步驟;參考文獻 9,54。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "f2cb7d88c377",
+    "subject": "A23187",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "A23187 is a Ca2+ ionophore used to raise cytosolic Ca2+ acutely in erythrocytes; refs 9,54. Also reported: Reported in supplementary Table S4: A23187 at 2 µM for Ca2+: 5-30 min / Annexin: 15-120 min; readouts: Ca2+ influx; reference 62.",
+      "zh-TW": "A23187 是 Ca2+ 離子載體,用於急性升高紅血球胞質 Ca2+;參考文獻 9,54。另有：補充表 S4 所述:2 µM 下處理 Ca2+: 5-30 min / Annexin: 15-120 min;讀數:Ca2+ 內流;參考文獻 62。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "0845f1273322",
+    "subject": "Hydrogen Peroxide",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "H2O2 and other oxidants (tBuOOH, PEITC) trigger ROS-mediated eryptosis, blocked by NAC; refs 55,56.",
+      "zh-TW": "H2O2 及其他氧化劑(tBuOOH、PEITC)觸發 ROS 介導的 eryptosis,可被 NAC 阻斷;參考文獻 55,56。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "d502e7108850",
+    "subject": "tert-Butyl hydroperoxide",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "tBuOOH is a membrane-permeable organic peroxide used to induce oxidative-stress eryptosis; refs 55,56.",
+      "zh-TW": "tBuOOH 是膜透性有機過氧化物,用於誘導氧化應激 eryptosis;參考文獻 55,56。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "98facd6087c9",
+    "subject": "PEITC",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "PEITC (2-phenethyl isothiocyanate) is an electrophilic oxidant used to trigger ROS-mediated eryptosis; refs 55,56.",
+      "zh-TW": "PEITC(2-phenethyl isothiocyanate)是親電氧化劑,用於觸發 ROS 介導的 eryptosis;參考文獻 55,56。"
+    },
+    "confidence": "medium",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "fe0d30f5bedf",
+    "subject": "Sphingomyelinase",
+    "predicate": "induces",
+    "object": "Ceramide",
+    "context": {
+      "en-US": "Sphingomyelinase hydrolyzes membrane sphingomyelin to ceramide, the lipid signal driving lipid-dependent eryptosis; ref 52.",
+      "zh-TW": "Sphingomyelinase 水解膜鞘磷脂生成 ceramide——驅動脂質依賴 eryptosis 的脂質訊號;參考文獻 52。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "a2b57ae0a901",
+    "subject": "C6 ceramide",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "C6 ceramide (cell-permeable short-chain ceramide) restores the lipid arm of eryptosis when sphingomyelinase is ineffective; ref 52.",
+      "zh-TW": "C6 ceramide(細胞可滲透短鏈 ceramide)在 sphingomyelinase 無效時恢復 eryptosis 的脂質通路;參考文獻 52。"
+    },
+    "confidence": "medium",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "0bfc30a1719b",
+    "subject": "Bay 11-7082",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Bay 11-7082 at 7-20 µM for 6-48 h; readouts: Ca2+ influx; GSH; reference 59.",
+      "zh-TW": "補充表 S4 所述:7-20 µM 下處理 6-48 h;讀數:Ca2+ 內流、GSH;參考文獻 59。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "a9c1e676586a",
+    "subject": "Bay-Y5884",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Bay-Y5884 at 20-40 μM for Ca2+: 1-6 h / Annexin: 24 h; readouts: Ca2+ influx; reference 30.",
+      "zh-TW": "補充表 S4 所述:20-40 μM 下處理 Ca2+: 1-6 h / Annexin: 24 h;讀數:Ca2+ 內流;參考文獻 30。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "51924276d3b7",
+    "subject": "BI2536",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: BI2536 at 25-100 µM for 48 h; readouts: Ca2+ influx; ceramide formation; reference 60.",
+      "zh-TW": "補充表 S4 所述:25-100 µM 下處理 48 h;讀數:Ca2+ 內流、ceramide 生成;參考文獻 60。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "e713ff20f2ac",
+    "subject": "IPA3",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: IPA3 at 5 μM for 48 h; readouts: PAK2; reference 61.",
+      "zh-TW": "補充表 S4 所述:5 μM 下處理 48 h;讀數:PAK2;參考文獻 61。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "f7996aa1185c",
+    "subject": "Phorbol-12 myristate-13 acetate",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Phorbol-12 myristate-13 acetate at 6 μM for Ca2+: 1-30 min / Annexin: 30 min; readouts: Ca2+ influx; PKC; reference 62.",
+      "zh-TW": "補充表 S4 所述:6 μM 下處理 Ca2+: 1-30 min / Annexin: 30 min;讀數:Ca2+ 內流、PKC;參考文獻 62。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "43731d85734f",
+    "subject": "Vanadate",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Vanadate at 5-20 μg/mL for 48 h; readouts: Ca2+ influx; ATP; reference 63.",
+      "zh-TW": "補充表 S4 所述:5-20 μg/mL 下處理 48 h;讀數:Ca2+ 內流、ATP;參考文獻 63。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "25141070a44f",
+    "subject": "4-Hydroxynonenal",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: 4-Hydroxynonenal at 10-100 µM for 24 h; readouts: Ca2+ influx; ceramide formation; PGE2 / Caspase-3; reference 64.",
+      "zh-TW": "補充表 S4 所述:10-100 µM 下處理 24 h;讀數:Ca2+ 內流、ceramide 生成、PGE2 / Caspase-3;參考文獻 64。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "14da9c1e75dc",
+    "subject": "15-Deoxy-delta-12,14-prostaglandin J2",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: 15-Deoxy-delta-12,14-prostaglandin J2 at 3-10 µM for Ca2+: 6 h / Annexin: 24 h; readouts: Ca2+ influx; reference 65.",
+      "zh-TW": "補充表 S4 所述:3-10 µM 下處理 Ca2+: 6 h / Annexin: 24 h;讀數:Ca2+ 內流;參考文獻 65。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "7fee96cdca35",
+    "subject": "α-Lipoic acid",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: α-Lipoic acid at 20-100 µM for 48 h; readouts: Ca2+ influx; ceramide formation; ATP / Caspase-3; reference 66.",
+      "zh-TW": "補充表 S4 所述:20-100 µM 下處理 48 h;讀數:Ca2+ 內流、ceramide 生成、ATP / Caspase-3;參考文獻 66。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "6aba21cfb427",
+    "subject": "Adarotene",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Adarotene at 6-9 µM for 48 h; readouts: Ca2+ influx; ceramide formation; ROS; reference 67.",
+      "zh-TW": "補充表 S4 所述:6-9 µM 下處理 48 h;讀數:Ca2+ 內流、ceramide 生成、ROS;參考文獻 67。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "ccef64325e6b",
+    "subject": "Amyloid",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Amyloid at 0.1-2 μM for 24 h; readouts: ceramide formation; reference 68.",
+      "zh-TW": "補充表 S4 所述:0.1-2 μM 下處理 24 h;讀數:ceramide 生成;參考文獻 68。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "47187587f02c",
+    "subject": "Anandamide",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Anandamide at 2.5-10 μM for Ca2+: 60-180-360 min / Annexin: 24 h; readouts: Ca2+ influx; reference 69.",
+      "zh-TW": "補充表 S4 所述:2.5-10 μM 下處理 Ca2+: 60-180-360 min / Annexin: 24 h;讀數:Ca2+ 內流;參考文獻 69。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "cc76d46f12d1",
+    "subject": "Anti-A IgG",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Anti-A IgG at 0.5 μg/mL for Ca2+: 6 h / Annexin: 24 h; readouts: Ca2+ influx; reference 70.",
+      "zh-TW": "補充表 S4 所述:0.5 μg/mL 下處理 Ca2+: 6 h / Annexin: 24 h;讀數:Ca2+ 內流;參考文獻 70。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "9e89039b11a8",
+    "subject": "Ceramide (acylsphingosine)",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Ceramide (acylsphingosine) at 50 μM for 4-8 h; readouts: Hyperosmotic shock; reference 71.",
+      "zh-TW": "補充表 S4 所述:50 μM 下處理 4-8 h;讀數:Hyperosmotic shock;參考文獻 71。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "2b50eacb0c46",
+    "subject": "Glycation",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Glycation at 40-100 mM glucose for 48 h; readouts: Ca2+ influx; reference 72.",
+      "zh-TW": "補充表 S4 所述:40-100 mM glucose 下處理 48 h;讀數:Ca2+ 內流;參考文獻 72。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "58102b547fe2",
+    "subject": "Hemin",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Hemin at 1-10 μM for 48 h; readouts: Ca2+ influx; ceramide formation; reference 73.",
+      "zh-TW": "補充表 S4 所述:1-10 μM 下處理 48 h;讀數:Ca2+ 內流、ceramide 生成;參考文獻 73。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "f00c41dcdd77",
+    "subject": "Leukotriene C(4)",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Leukotriene C(4) at 5-10 µM for Ca2+: 5-60 min / Annexin/Ca2+: 48 h; readouts: Ca2+ influx; Caspase-8 and caspase-3; reference 74.",
+      "zh-TW": "補充表 S4 所述:5-10 µM 下處理 Ca2+: 5-60 min / Annexin/Ca2+: 48 h;讀數:Ca2+ 內流、Caspase-8 and caspase-3;參考文獻 74。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "4a42d76e90f5",
+    "subject": "Lipopeptides",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Lipopeptides at 1-10 µg/mL for 48 h; readouts: Ca2+ influx; ceramide formation; reference 75.",
+      "zh-TW": "補充表 S4 所述:1-10 µg/mL 下處理 48 h;讀數:Ca2+ 內流、ceramide 生成;參考文獻 75。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "b26631d831d5",
+    "subject": "Lysophosphatidic acid",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Lysophosphatidic acid at 2.5 μM for Ca2+: 1-30 min / Annexin:15-120 min; readouts: Ca2+ influx; PKC; reference 62.",
+      "zh-TW": "補充表 S4 所述:2.5 μM 下處理 Ca2+: 1-30 min / Annexin:15-120 min;讀數:Ca2+ 內流、PKC;參考文獻 62。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "42b3e1b9755e",
+    "subject": "Methylglyoxal",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Methylglyoxal at 0.3-300 μM for 6-48 h; readouts: ATP / GSH; reference 76.",
+      "zh-TW": "補充表 S4 所述:0.3-300 μM 下處理 6-48 h;讀數:ATP / GSH;參考文獻 76。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "6ac77228a47a",
+    "subject": "Mushroom tyrosinase",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Mushroom tyrosinase at 5-7 U/mL for 24 h; readouts: Ca2+ influx; ceramide formation; reference 77.",
+      "zh-TW": "補充表 S4 所述:5-7 U/mL 下處理 24 h;讀數:Ca2+ 內流、ceramide 生成;參考文獻 77。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "1d80b0139cd4",
+    "subject": "Oxysterols",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Oxysterols at 2-20 μM for 2-48 h; readouts: Ca2+ influx; ROS / Nitric oxide / GSH / Rac GTPase / PKC / PGE2; reference 78,26.",
+      "zh-TW": "補充表 S4 所述:2-20 μM 下處理 2-48 h;讀數:Ca2+ 內流、ROS / Nitric oxide / GSH / Rac GTPase / PKC / PGE2;參考文獻 78,26。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "4b97cb8f969a",
+    "subject": "PAF",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: PAF at 0.5-3.8 μM for 30 min-24 h; readouts: Ca2+ influx; ceramide formation; reference 79.",
+      "zh-TW": "補充表 S4 所述:0.5-3.8 μM 下處理 30 min-24 h;讀數:Ca2+ 內流、ceramide 生成;參考文獻 79。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "ffaa61163e95",
+    "subject": "Peptidoglycan",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Peptidoglycan at 5-100 μg/mL for 48 h; readouts: Ca2+ influx; ceramide formation; ATP; reference 80,81.",
+      "zh-TW": "補充表 S4 所述:5-100 μg/mL 下處理 48 h;讀數:Ca2+ 內流、ceramide 生成、ATP;參考文獻 80,81。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "2ebf0d2f8764",
+    "subject": "Phosphate",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Phosphate at 0.5-5 mM for 48 h; readouts: Ca2+ influx; reference 82.",
+      "zh-TW": "補充表 S4 所述:0.5-5 mM 下處理 48 h;讀數:Ca2+ 內流;參考文獻 82。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "1e7ed062ed1b",
+    "subject": "Phosphatidic acid",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Phosphatidic acid at 1-25 µM for 15 min; readouts: Ca2+ influx; ATP / PKC; reference 83.",
+      "zh-TW": "補充表 S4 所述:1-25 µM 下處理 15 min;讀數:Ca2+ 內流、ATP / PKC;參考文獻 83。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "4577fba43dca",
+    "subject": "PGE2",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: PGE2 at Annexin: 20-50 µM / Ca2+: 0.1 nM-50 µM for 20 min-24 h / 1 min-4 h; readouts: Ca2+ influx; reference 27.",
+      "zh-TW": "補充表 S4 所述:Annexin: 20-50 µM / Ca2+: 0.1 nM-50 µM 下處理 20 min-24 h / 1 min-4 h;讀數:Ca2+ 內流;參考文獻 27。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "662ec1b4c41a",
+    "subject": "Retinoic acid",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Retinoic acid at 3-10 µM for 24 h; readouts: Ca2+ influx; reference 84.",
+      "zh-TW": "補充表 S4 所述:3-10 µM 下處理 24 h;讀數:Ca2+ 內流;參考文獻 84。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "fc4ac9e760d7",
+    "subject": "Selenium (sodium selenite)",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Selenium (sodium selenite) at 100-500 µg/L for 48 h; readouts: Ca2+ influx; ceramide formation; reference 85.",
+      "zh-TW": "補充表 S4 所述:100-500 µg/L 下處理 48 h;讀數:Ca2+ 內流、ceramide 生成;參考文獻 85。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "675e3e4d5921",
+    "subject": "Sphingomyelinase",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Sphingomyelinase at 1-10 mU/mL for 6 h; readouts: Ca2+ influx; ceramide formation; reference 86.",
+      "zh-TW": "補充表 S4 所述:1-10 mU/mL 下處理 6 h;讀數:Ca2+ 內流、ceramide 生成;參考文獻 86。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "83fc8e85a79a",
+    "subject": "Sphingosine",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Sphingosine at 10 μM for 48 h; readouts: Ca2+ influx; reference 87.",
+      "zh-TW": "補充表 S4 所述:10 μM 下處理 48 h;讀數:Ca2+ 內流;參考文獻 87。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "06e7c3ff3c55",
+    "subject": "Vitamin K(3)",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Vitamin K(3) at 1-30 µM for 48 h; readouts: ceramide formation; ATP; reference 88.",
+      "zh-TW": "補充表 S4 所述:1-30 µM 下處理 48 h;讀數:ceramide 生成、ATP;參考文獻 88。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "d6fc36d6da6c",
+    "subject": "Zinc",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Zinc at 10-50 µM for 6-24 h; readouts: Ca2+ influx; ceramide formation; reference 89.",
+      "zh-TW": "補充表 S4 所述:10-50 µM 下處理 6-24 h;讀數:Ca2+ 內流、ceramide 生成;參考文獻 89。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "2a1d5cc729b9",
+    "subject": "Apigenin",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Apigenin at 1-15 μM for 48 h; readouts: Ca2+ influx; ceramide formation; ATP; reference 90.",
+      "zh-TW": "補充表 S4 所述:1-15 μM 下處理 48 h;讀數:Ca2+ 內流、ceramide 生成、ATP;參考文獻 90。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "e484eddff6e9",
+    "subject": "Aristolochic Acid",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Aristolochic Acid at 75-100 μg/mL for 48 h; readouts: Ca2+ influx; ceramide formation; reference 91.",
+      "zh-TW": "補充表 S4 所述:75-100 μg/mL 下處理 48 h;讀數:Ca2+ 內流、ceramide 生成;參考文獻 91。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "98f8417efce4",
+    "subject": "Betulinic acid",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Betulinic acid at 15-240 μM for 3-24 h; readouts: Ca2+ influx; reference 92.",
+      "zh-TW": "補充表 S4 所述:15-240 μM 下處理 3-24 h;讀數:Ca2+ 內流;參考文獻 92。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "58a17609802d",
+    "subject": "Cordycepin",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Cordycepin at 30-250 µM for 24 h; readouts: Ca2+ influx; reference 93.",
+      "zh-TW": "補充表 S4 所述:30-250 µM 下處理 24 h;讀數:Ca2+ 內流;參考文獻 93。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "9c8f28337d25",
+    "subject": "Costunolide",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Costunolide at 10-15 μg/mL for 48 h; readouts: Ca2+ influx; ceramide formation; ROS; reference 94.",
+      "zh-TW": "補充表 S4 所述:10-15 μg/mL 下處理 48 h;讀數:Ca2+ 內流、ceramide 生成、ROS;參考文獻 94。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "6614fdd9b9f3",
+    "subject": "Cryptotanshinone",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Cryptotanshinone at 5-10 μM for 48 h; readouts: Ca2+ influx; reference 95.",
+      "zh-TW": "補充表 S4 所述:5-10 μM 下處理 48 h;讀數:Ca2+ 內流;參考文獻 95。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "65a6d0115565",
+    "subject": "Curcumin",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Curcumin at 0.1-10 μM for 0.5-24 h; readouts: Ca2+ influx; ceramide formation; reference 96.",
+      "zh-TW": "補充表 S4 所述:0.1-10 μM 下處理 0.5-24 h;讀數:Ca2+ 內流、ceramide 生成;參考文獻 96。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "c8f4a99a7051",
+    "subject": "Dermaseptin",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Dermaseptin at 50 μM for 48 h; readouts: Ca2+ influx; ceramide formation; reference 97.",
+      "zh-TW": "補充表 S4 所述:50 μM 下處理 48 h;讀數:Ca2+ 內流、ceramide 生成;參考文獻 97。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "cf8f3afffda5",
+    "subject": "Fascaplysin",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Fascaplysin at 1-10 µM for 48 h; readouts: Ca2+ influx; ceramide formation; ROS; reference 98.",
+      "zh-TW": "補充表 S4 所述:1-10 µM 下處理 48 h;讀數:Ca2+ 內流、ceramide 生成、ROS;參考文獻 98。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "bfc7bef97f77",
+    "subject": "Ferutinin",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Ferutinin at 10-40 µM for 24 h; readouts: Ca2+ influx; reference 99.",
+      "zh-TW": "補充表 S4 所述:10-40 µM 下處理 24 h;讀數:Ca2+ 內流;參考文獻 99。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "c6c452020235",
+    "subject": "Gambogic acid",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Gambogic acid at 100-500 nM for 48 h; readouts: Ca2+ influx; ceramide formation; reference 100.",
+      "zh-TW": "補充表 S4 所述:100-500 nM 下處理 48 h;讀數:Ca2+ 內流、ceramide 生成;參考文獻 100。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "2ba74c50e0ba",
+    "subject": "Gedunin",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Gedunin at 12-24 µM for 48 h; readouts: Ca2+ influx; reference 101.",
+      "zh-TW": "補充表 S4 所述:12-24 µM 下處理 48 h;讀數:Ca2+ 內流;參考文獻 101。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "6562b0897138",
+    "subject": "Gossypol",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Gossypol at 0.25-1 μM for 48 h; readouts: Ca2+ influx; reference 102.",
+      "zh-TW": "補充表 S4 所述:0.25-1 μM 下處理 48 h;讀數:Ca2+ 內流;參考文獻 102。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "26d5b39bb6eb",
+    "subject": "Honokiol",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Honokiol at 5-15 μM for 6-48 h; readouts: Ca2+ influx; ceramide formation; reference 103.",
+      "zh-TW": "補充表 S4 所述:5-15 μM 下處理 6-48 h;讀數:Ca2+ 內流、ceramide 生成;參考文獻 103。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "2f5fcab90de8",
+    "subject": "Myricetin",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Myricetin at 2-8 µM for 24 h; readouts: Ca2+ influx; ceramide formation; ROS; reference 104.",
+      "zh-TW": "補充表 S4 所述:2-8 µM 下處理 24 h;讀數:Ca2+ 內流、ceramide 生成、ROS;參考文獻 104。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "6edc1808f8a6",
+    "subject": "Naphthoquinone derivatives",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Naphthoquinone derivatives at 10-50 μM for 4-24 h; readouts: ATP / ROS / GSH; reference 105.",
+      "zh-TW": "補充表 S4 所述:10-50 μM 下處理 4-24 h;讀數:ATP / ROS / GSH;參考文獻 105。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "e8997724e24c",
+    "subject": "Oridonin",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Oridonin at 10-50 µM for 48 h; readouts: Ca2+ influx; ceramide formation; reference 106.",
+      "zh-TW": "補充表 S4 所述:10-50 µM 下處理 48 h;讀數:Ca2+ 內流、ceramide 生成;參考文獻 106。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "c561c1989cde",
+    "subject": "Parthenolide",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Parthenolide at 30-100 μM for 6-48 h; readouts: Ca2+ influx; Interference with NF-κB signaling; reference 59,107.",
+      "zh-TW": "補充表 S4 所述:30-100 μM 下處理 6-48 h;讀數:Ca2+ 內流、Interference with NF-κB signaling;參考文獻 59,107。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "f269965f01bd",
+    "subject": "Penta-O-galloyl-β-D-glucose",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Penta-O-galloyl-β-D-glucose at 10-50 μM for 48 h; readouts: Ca2+ influx; ceramide formation; reference 108.",
+      "zh-TW": "補充表 S4 所述:10-50 μM 下處理 48 h;讀數:Ca2+ 內流、ceramide 生成;參考文獻 108。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "901eaadc38e9",
+    "subject": "Phloretin",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Phloretin at 100-300 μM for 48 h; readouts: ceramide formation; reference 109.",
+      "zh-TW": "補充表 S4 所述:100-300 μM 下處理 48 h;讀數:ceramide 生成;參考文獻 109。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "b70c96a6dd8d",
+    "subject": "Physcion",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Physcion at 25-100 µM for 24 h; readouts: Ca2+ influx; reference 110.",
+      "zh-TW": "補充表 S4 所述:25-100 µM 下處理 24 h;讀數:Ca2+ 內流;參考文獻 110。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "80b920331f38",
+    "subject": "Phytic acid",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Phytic acid at 1-5 mM for 48 h; readouts: ATP; reference 111.",
+      "zh-TW": "補充表 S4 所述:1-5 mM 下處理 48 h;讀數:ATP;參考文獻 111。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "2e18586e863d",
+    "subject": "Piceatannol",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Piceatannol at 10-20 µM for 48 h; readouts: ceramide formation; ROS; reference 112.",
+      "zh-TW": "補充表 S4 所述:10-20 µM 下處理 48 h;讀數:ceramide 生成、ROS;參考文獻 112。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "aaf91ffa6992",
+    "subject": "Plumbagin",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Plumbagin at 0.5-2 μM for Ca2+: 1-48 h / Annexin: 48 h; readouts: Ca2+ influx; ceramide formation; reference 113.",
+      "zh-TW": "補充表 S4 所述:0.5-2 μM 下處理 Ca2+: 1-48 h / Annexin: 48 h;讀數:Ca2+ 內流、ceramide 生成;參考文獻 113。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "60cb9c4ddc43",
+    "subject": "Polyphyllin D",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Polyphyllin D at 0.32-2.5 µM for 24 h; readouts: Ca2+ influx; Caspase-3 / Membrane permeabilization; reference 114.",
+      "zh-TW": "補充表 S4 所述:0.32-2.5 µM 下處理 24 h;讀數:Ca2+ 內流、Caspase-3 / Membrane permeabilization;參考文獻 114。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "01821d012144",
+    "subject": "Rotenone",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Rotenone at 1-10 μM for 48 h; readouts: Ca2+ influx; ceramide formation; reference 115.",
+      "zh-TW": "補充表 S4 所述:1-10 μM 下處理 48 h;讀數:Ca2+ 內流、ceramide 生成;參考文獻 115。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "4dcfeb36ad8b",
+    "subject": "Shikonin",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Shikonin at 0.5-1 μM for 24-48 h; readouts: Ca2+ influx; ceramide formation; ATP; reference 116.",
+      "zh-TW": "補充表 S4 所述:0.5-1 μM 下處理 24-48 h;讀數:Ca2+ 內流、ceramide 生成、ATP;參考文獻 116。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "b616ab0bd43d",
+    "subject": "Tannic acid",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Tannic acid at 1-50 µM for 48 h; readouts: ceramide formation; reference 117.",
+      "zh-TW": "補充表 S4 所述:1-50 µM 下處理 48 h;讀數:ceramide 生成;參考文獻 117。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "6d0a0f762366",
+    "subject": "Tanshinone IIA",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Tanshinone IIA at 10-25 μM for 48 h; readouts: Ca2+ influx; ceramide formation; ATP; reference 118.",
+      "zh-TW": "補充表 S4 所述:10-25 μM 下處理 48 h;讀數:Ca2+ 內流、ceramide 生成、ATP;參考文獻 118。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "8f058d985a07",
+    "subject": "Thymoquinone",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Thymoquinone at 3-20 µM for 48 h; readouts: Unknown mechanism; reference 119.",
+      "zh-TW": "補充表 S4 所述:3-20 µM 下處理 48 h;讀數:Unknown mechanism;參考文獻 119。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "a5d035c0e2d0",
+    "subject": "Trans-cinnamaldehyde",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Trans-cinnamaldehyde at 20-30 µM for 48 h; readouts: Ca2+ influx; reference 120.",
+      "zh-TW": "補充表 S4 所述:20-30 µM 下處理 48 h;讀數:Ca2+ 內流;參考文獻 120。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "cf18c96740fa",
+    "subject": "Ursolic acid",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Ursolic acid at 1-10 µM for 48 h; readouts: Ca2+ influx; ceramide formation; reference 121.",
+      "zh-TW": "補充表 S4 所述:1-10 µM 下處理 48 h;讀數:Ca2+ 內流、ceramide 生成;參考文獻 121。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "3a66300b2021",
+    "subject": "Withaferin A",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Withaferin A at 5-10 μM for 48 h; readouts: Ca2+ influx; ceramide formation; ROS; reference 122.",
+      "zh-TW": "補充表 S4 所述:5-10 μM 下處理 48 h;讀數:Ca2+ 內流、ceramide 生成、ROS;參考文獻 122。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "b6a12c7aafa7",
+    "subject": "Afatinib",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Afatinib at 4-8 μg/mL for 48 h; readouts: Ca2+ influx; ceramide formation; ROS; reference 123.",
+      "zh-TW": "補充表 S4 所述:4-8 μg/mL 下處理 48 h;讀數:Ca2+ 內流、ceramide 生成、ROS;參考文獻 123。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "523a9519f61e",
+    "subject": "Amantadine",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Amantadine at 0.2-1 μg/mL for 48 h; readouts: Ca2+ influx; reference 124.",
+      "zh-TW": "補充表 S4 所述:0.2-1 μg/mL 下處理 48 h;讀數:Ca2+ 內流;參考文獻 124。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "3d57b6be7d8b",
+    "subject": "Amiodarone",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Amiodarone at 0.01-1 μM for Ca2+: 60-180-360 min / Annexin: 24 h / Hyperosmotic shock: 6 h; readouts: Ca2+ influx; reference 125.",
+      "zh-TW": "補充表 S4 所述:0.01-1 μM 下處理 Ca2+: 60-180-360 min / Annexin: 24 h / Hyperosmotic shock: 6 h;讀數:Ca2+ 內流;參考文獻 125。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "13c05de7cbca",
+    "subject": "Amphotericin B",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Amphotericin B at 0.1-1 μg/mL for 48 h; readouts: Ca2+ influx; ATP; reference 126.",
+      "zh-TW": "補充表 S4 所述:0.1-1 μg/mL 下處理 48 h;讀數:Ca2+ 內流、ATP;參考文獻 126。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "4f9a2dec1ee2",
+    "subject": "Artesunate",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Artesunate at 6-35 μg/mL for 48 h; readouts: Ca2+ influx; ceramide formation; ROS; reference 127.",
+      "zh-TW": "補充表 S4 所述:6-35 μg/mL 下處理 48 h;讀數:Ca2+ 內流、ceramide 生成、ROS;參考文獻 127。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "a54c9bca9d4f",
+    "subject": "Auranofin",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Auranofin at 5-10 μg/mL for 24 h; readouts: ROS; reference 128.",
+      "zh-TW": "補充表 S4 所述:5-10 μg/mL 下處理 24 h;讀數:ROS;參考文獻 128。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "ef09f54e1153",
+    "subject": "Azathioprine",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Azathioprine at 1-10 μg/mL for 48 h; readouts: Ca2+ influx; reference 129, 130.",
+      "zh-TW": "補充表 S4 所述:1-10 μg/mL 下處理 48 h;讀數:Ca2+ 內流;參考文獻 129, 130。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "1544b77242fa",
+    "subject": "Benzethonium",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Benzethonium at 2.5 -5 μM for 48 h; readouts: Ca2+ influx; reference 131.",
+      "zh-TW": "補充表 S4 所述:2.5 -5 μM 下處理 48 h;讀數:Ca2+ 內流;參考文獻 131。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "6ae906dc7db6",
+    "subject": "Carmustine",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Carmustine at 25-100 μM for 48 h; readouts: Ca2+ influx; reference 132.",
+      "zh-TW": "補充表 S4 所述:25-100 μM 下處理 48 h;讀數:Ca2+ 內流;參考文獻 132。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "89df9d756885",
+    "subject": "Celecoxib",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Celecoxib at 10-15 μM for 48 h; readouts: Ca2+ influx; reference 133.",
+      "zh-TW": "補充表 S4 所述:10-15 μM 下處理 48 h;讀數:Ca2+ 內流;參考文獻 133。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "06ee40776ddc",
+    "subject": "Chlorpromazine",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Chlorpromazine at 10-50 μM for Ca2+: 6 h / Annexin: 24 h / GSH: 24-48 h; readouts: Ca2+ influx; ATP / GSH / Hyperosmotic shock; reference 134.",
+      "zh-TW": "補充表 S4 所述:10-50 μM 下處理 Ca2+: 6 h / Annexin: 24 h / GSH: 24-48 h;讀數:Ca2+ 內流、ATP / GSH / Hyperosmotic shock;參考文獻 134。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "63da7cf3b7f5",
+    "subject": "Ciglitazone",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Ciglitazone at 2-10 μM for Ca2+: 6 h / Annexin: 24 h; readouts: Ca2+ influx; reference 65.",
+      "zh-TW": "補充表 S4 所述:2-10 μM 下處理 Ca2+: 6 h / Annexin: 24 h;讀數:Ca2+ 內流;參考文獻 65。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "ca65bf6dffc4",
+    "subject": "Cisplatin",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Cisplatin at 1-10 µM for 48 h; readouts: Ca2+ influx; ATP; reference 135.",
+      "zh-TW": "補充表 S4 所述:1-10 µM 下處理 48 h;讀數:Ca2+ 內流、ATP;參考文獻 135。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "bddda5bf0f91",
+    "subject": "Cyclosporine",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Cyclosporine at 5-10 μM for 24-48 h; readouts: ceramide formation; ATP; reference 136,137.",
+      "zh-TW": "補充表 S4 所述:5-10 μM 下處理 24-48 h;讀數:ceramide 生成、ATP;參考文獻 136,137。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "97e70eb97505",
+    "subject": "Dicoumarol",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Dicoumarol at 1-30 μM for 48 h; readouts: Ca2+ influx; reference 138.",
+      "zh-TW": "補充表 S4 所述:1-30 μM 下處理 48 h;讀數:Ca2+ 內流;參考文獻 138。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "878ab2776ed9",
+    "subject": "Dimethylfumarate",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Dimethylfumarate at 35-140 μM for 24-48 h; readouts: Ca2+ influx; GSH; reference 139.",
+      "zh-TW": "補充表 S4 所述:35-140 μM 下處理 24-48 h;讀數:Ca2+ 內流、GSH;參考文獻 139。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "99057de68bf6",
+    "subject": "Estramustine",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Estramustine at 50-100 µM for 24-72 h; readouts: Ca2+ influx; ceramide formation; reference 140.",
+      "zh-TW": "補充表 S4 所述:50-100 µM 下處理 24-72 h;讀數:Ca2+ 內流、ceramide 生成;參考文獻 140。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "06b9de8a7f5a",
+    "subject": "Fluoxetine",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Fluoxetine at 25-50 μM for 48 h; readouts: Ca2+ influx; reference 141.",
+      "zh-TW": "補充表 S4 所述:25-50 μM 下處理 48 h;讀數:Ca2+ 內流;參考文獻 141。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "0df93452187d",
+    "subject": "FTY720",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: FTY720 at 5-10 μM for 48 h; readouts: Ca2+ influx; reference 142.",
+      "zh-TW": "補充表 S4 所述:5-10 μM 下處理 48 h;讀數:Ca2+ 內流;參考文獻 142。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "d10729b971ab",
+    "subject": "Gefitinib",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Gefitinib at 2-3 μg/mL for 48 h; readouts: ROS; reference 143.",
+      "zh-TW": "補充表 S4 所述:2-3 μg/mL 下處理 48 h;讀數:ROS;參考文獻 143。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "1f5cdb5c8c0d",
+    "subject": "Geldanamycin",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Geldanamycin at 5-50 μM for 48 h; readouts: ceramide formation; reference 144.",
+      "zh-TW": "補充表 S4 所述:5-50 μM 下處理 48 h;讀數:ceramide 生成;參考文獻 144。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "18b241decf8a",
+    "subject": "Ipratropium bromide",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Ipratropium bromide at 0.4-1 nM for 48 h; readouts: Ca2+ influx; reference 145.",
+      "zh-TW": "補充表 S4 所述:0.4-1 nM 下處理 48 h;讀數:Ca2+ 內流;參考文獻 145。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "6853d9fb3e6d",
+    "subject": "Lithium",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Lithium at 0.1-3 mM for 1-48 h; readouts: Ca2+ influx; reference 146.",
+      "zh-TW": "補充表 S4 所述:0.1-3 mM 下處理 1-48 h;讀數:Ca2+ 內流;參考文獻 146。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "f2627d36d1fa",
+    "subject": "Lumefantrine",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Lumefantrine at 3-24 μg/mL for 48 h; readouts: Unknown mechanism; reference 147.",
+      "zh-TW": "補充表 S4 所述:3-24 μg/mL 下處理 48 h;讀數:Unknown mechanism;參考文獻 147。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "ca123c3219df",
+    "subject": "Methyldopa",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Methyldopa at 6-50 μg/mL for 48 h; readouts: ceramide formation; GSH; reference 148.",
+      "zh-TW": "補充表 S4 所述:6-50 μg/mL 下處理 48 h;讀數:ceramide 生成、GSH;參考文獻 148。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "6de40a34c918",
+    "subject": "Miltefosine",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Miltefosine at 2.45-12.25 μM for 6-48 h; readouts: Ca2+ influx; reference 149.",
+      "zh-TW": "補充表 S4 所述:2.45-12.25 μM 下處理 6-48 h;讀數:Ca2+ 內流;參考文獻 149。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "b27e13397750",
+    "subject": "Mitotane",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Mitotane at 5-15 μg/mL for 2.5-48 h; readouts: Ca2+ influx; reference 150.",
+      "zh-TW": "補充表 S4 所述:5-15 μg/mL 下處理 2.5-48 h;讀數:Ca2+ 內流;參考文獻 150。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "ba97e76de08a",
+    "subject": "Mitoxantrone",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Mitoxantrone at 5-25 μg/mL for 48 h; readouts: ceramide formation; ROS; reference 151.",
+      "zh-TW": "補充表 S4 所述:5-25 μg/mL 下處理 48 h;讀數:ceramide 生成、ROS;參考文獻 151。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "c8c7b29aaf5b",
+    "subject": "Naproxen Sodium",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Naproxen Sodium at 10-25 µM for 48 h; readouts: Ca2+ influx; Oxidative stress; reference 152.",
+      "zh-TW": "補充表 S4 所述:10-25 µM 下處理 48 h;讀數:Ca2+ 內流、Oxidative stress;參考文獻 152。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "c7315f9964c6",
+    "subject": "Nitazoxanide",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Nitazoxanide at 10-50 μg/mL for 48 h; readouts: ceramide formation; reference 153.",
+      "zh-TW": "補充表 S4 所述:10-50 μg/mL 下處理 48 h;讀數:ceramide 生成;參考文獻 153。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "d37b46ab2656",
+    "subject": "Novobiocin",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Novobiocin at 500 μM for 48 h; readouts: Ca2+ influx; ceramide formation; reference 154.",
+      "zh-TW": "補充表 S4 所述:500 μM 下處理 48 h;讀數:Ca2+ 內流、ceramide 生成;參考文獻 154。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "6dd327069e3c",
+    "subject": "Nystatin",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Nystatin at 5-15 μg/mL for 48 h; readouts: Ca2+ influx; reference 155.",
+      "zh-TW": "補充表 S4 所述:5-15 μg/mL 下處理 48 h;讀數:Ca2+ 內流;參考文獻 155。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "60e8791fce55",
+    "subject": "Paclitaxel",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Paclitaxel at 1-10 μM for 20 min-48 h; readouts: Ca2+ influx; ceramide formation; reference 156,157.",
+      "zh-TW": "補充表 S4 所述:1-10 μM 下處理 20 min-48 h;讀數:Ca2+ 內流、ceramide 生成;參考文獻 156,157。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "e53d061a152b",
+    "subject": "Pazopanib",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Pazopanib at 25-50 μg/mL for 48 h; readouts: Ca2+ influx; ceramide formation; ROS; reference 158.",
+      "zh-TW": "補充表 S4 所述:25-50 μg/mL 下處理 48 h;讀數:Ca2+ 內流、ceramide 生成、ROS;參考文獻 158。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "bc766f888a8d",
+    "subject": "Pyrvinium pamoate",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Pyrvinium pamoate at 1-10 μM for 24-48 h; readouts: Ca2+ influx; reference 159,160.",
+      "zh-TW": "補充表 S4 所述:1-10 μM 下處理 24-48 h;讀數:Ca2+ 內流;參考文獻 159,160。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "648139219b69",
+    "subject": "Ribavirin",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Ribavirin at 8-16 μg/mL for 48 h; readouts: Ca2+ influx; reference 161.",
+      "zh-TW": "補充表 S4 所述:8-16 μg/mL 下處理 48 h;讀數:Ca2+ 內流;參考文獻 161。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "73c9c2ad4ad9",
+    "subject": "Rifampicin",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Rifampicin at 24-120 μg/mL for 48 h; readouts: Ca2+ influx; ceramide formation; reference 162.",
+      "zh-TW": "補充表 S4 所述:24-120 μg/mL 下處理 48 h;讀數:Ca2+ 內流、ceramide 生成;參考文獻 162。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "bcc825c8c0bd",
+    "subject": "Salinomycin",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Salinomycin at 5-100 nM for 48 h; readouts: Ca2+ influx; ROS; reference 163.",
+      "zh-TW": "補充表 S4 所述:5-100 nM 下處理 48 h;讀數:Ca2+ 內流、ROS;參考文獻 163。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "88b8cb7a0a81",
+    "subject": "Simvastatin",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Simvastatin at 0.5-2 μg/mL for 48 h; readouts: Ca2+ influx; ROS / p38 MAPK; reference 164.",
+      "zh-TW": "補充表 S4 所述:0.5-2 μg/mL 下處理 48 h;讀數:Ca2+ 內流、ROS / p38 MAPK;參考文獻 164。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "ea4d38821260",
+    "subject": "Sorafenib",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Sorafenib at 0.5-10 μM for 48 h; readouts: Ca2+ influx; ROS; reference 165.",
+      "zh-TW": "補充表 S4 所述:0.5-10 μM 下處理 48 h;讀數:Ca2+ 內流、ROS;參考文獻 165。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "c9b8eca99a99",
+    "subject": "Sulindac sulfide",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Sulindac sulfide at 5-20 μM for 48 h; readouts: Ca2+ influx; ceramide formation; reference 166.",
+      "zh-TW": "補充表 S4 所述:5-20 μM 下處理 48 h;讀數:Ca2+ 內流、ceramide 生成;參考文獻 166。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "33c4f247cc7f",
+    "subject": "Sunitinib",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Sunitinib at 10-20 μM for 48 h; readouts: Ca2+ influx; p38 MAPK / Caspases; reference 167.",
+      "zh-TW": "補充表 S4 所述:10-20 μM 下處理 48 h;讀數:Ca2+ 內流、p38 MAPK / Caspases;參考文獻 167。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "88575acaaa34",
+    "subject": "Taurolidine",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Taurolidine at 15-60 μg/mL for 48 h; readouts: Ca2+ influx; ceramide formation; reference 168.",
+      "zh-TW": "補充表 S4 所述:15-60 μg/mL 下處理 48 h;讀數:Ca2+ 內流、ceramide 生成;參考文獻 168。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "991eb348d379",
+    "subject": "Thioridazine",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Thioridazine at 12-30 μM for 48 h; readouts: Ca2+ influx; p38 MAPK; reference 169.",
+      "zh-TW": "補充表 S4 所述:12-30 μM 下處理 48 h;讀數:Ca2+ 內流、p38 MAPK;參考文獻 169。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "afd6e070d907",
+    "subject": "Topotecan",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Topotecan at 125-175 μg/mL for 48 h; readouts: Ca2+ influx; ceramide formation; reference 170.",
+      "zh-TW": "補充表 S4 所述:125-175 μg/mL 下處理 48 h;讀數:Ca2+ 內流、ceramide 生成;參考文獻 170。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "5023f02253a4",
+    "subject": "Triclosan",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Triclosan at 25-100 µM for 1-4 h; readouts: Ca2+ influx; p38 MAPK / RIPK1; reference 41.",
+      "zh-TW": "補充表 S4 所述:25-100 µM 下處理 1-4 h;讀數:Ca2+ 內流、p38 MAPK / RIPK1;參考文獻 41。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "b7bbdb8e2ce3",
+    "subject": "Beauvericin",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Beauvericin at 1-10 μM for 48 h; readouts: Ca2+ influx; ATP; reference 171.",
+      "zh-TW": "補充表 S4 所述:1-10 μM 下處理 48 h;讀數:Ca2+ 內流、ATP;參考文獻 171。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "16f5f54ce8e4",
+    "subject": "Enniatin A",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Enniatin A at 1-5 μM for 48 h; readouts: Ca2+ influx; ATP; reference 172.",
+      "zh-TW": "補充表 S4 所述:1-5 μM 下處理 48 h;讀數:Ca2+ 內流、ATP;參考文獻 172。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "cad84f745af7",
+    "subject": "Fumagillin",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Fumagillin at 10-100 μM for 48 h; readouts: Ca2+ influx; ceramide formation; reference 173.",
+      "zh-TW": "補充表 S4 所述:10-100 μM 下處理 48 h;讀數:Ca2+ 內流、ceramide 生成;參考文獻 173。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "7b818663a331",
+    "subject": "Hemolysin",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Hemolysin at 0.1-0.5 U/mL for 0.5-10 h; readouts: Ca2+ influx; reference 174.",
+      "zh-TW": "補充表 S4 所述:0.1-0.5 U/mL 下處理 0.5-10 h;讀數:Ca2+ 內流;參考文獻 174。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "5e8275d57900",
+    "subject": "Indoxyl sulfate",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Indoxyl sulfate at 50-600 μM for 48 h; readouts: Ca2+ influx; ceramide formation; reference 175.",
+      "zh-TW": "補充表 S4 所述:50-600 μM 下處理 48 h;讀數:Ca2+ 內流、ceramide 生成;參考文獻 175。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "6678aa83219e",
+    "subject": "Listeriolysin",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Listeriolysin at 10-250 ng/mL for 30 min; readouts: Ca2+ influx; reference 176.",
+      "zh-TW": "補充表 S4 所述:10-250 ng/mL 下處理 30 min;讀數:Ca2+ 內流;參考文獻 176。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "7ba3a535abec",
+    "subject": "Monensin",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Monensin at 0.5-10 µM for 24 h; readouts: Ca2+ influx; ATP; reference 177.",
+      "zh-TW": "補充表 S4 所述:0.5-10 µM 下處理 24 h;讀數:Ca2+ 內流、ATP;參考文獻 177。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "80251dc52d60",
+    "subject": "Narasin",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Narasin at 1-25 ng/mL for 48 h; readouts: Ca2+ influx; ceramide formation; reference 178.",
+      "zh-TW": "補充表 S4 所述:1-25 ng/mL 下處理 48 h;讀數:Ca2+ 內流、ceramide 生成;參考文獻 178。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "deb481fe7dfe",
+    "subject": "Ochratoxin A",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Ochratoxin A at 2.5-10 μM for 48 h; readouts: Ca2+ influx; ceramide formation; reference 179.",
+      "zh-TW": "補充表 S4 所述:2.5-10 μM 下處理 48 h;讀數:Ca2+ 內流、ceramide 生成;參考文獻 179。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "68e7cb7164ba",
+    "subject": "Patulin",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Patulin at 2.5-10 μM for 48 h; readouts: Ca2+ influx; reference 180.",
+      "zh-TW": "補充表 S4 所述:2.5-10 μM 下處理 48 h;讀數:Ca2+ 內流;參考文獻 180。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "fae559180016",
+    "subject": "Valinomycin",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Valinomycin at 1 nM and 10 nM for 24 h; readouts: K+ loss; reference 181.",
+      "zh-TW": "補充表 S4 所述:1 nM and 10 nM 下處理 24 h;讀數:K+ loss;參考文獻 181。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "55e6a5be84e7",
+    "subject": "Zearalenone",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Zearalenone at 10-50 μM for 48 h; readouts: Ca2+ influx; reference 182.",
+      "zh-TW": "補充表 S4 所述:10-50 μM 下處理 48 h;讀數:Ca2+ 內流;參考文獻 182。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "b7a39980fa06",
+    "subject": "Acrolein",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Acrolein at 15-50 µM for 48 h; readouts: Ca2+ influx; ceramide formation; reference 183.",
+      "zh-TW": "補充表 S4 所述:15-50 µM 下處理 48 h;讀數:Ca2+ 內流、ceramide 生成;參考文獻 183。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "60346c7b2db5",
+    "subject": "Aluminum",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Aluminum at 100 µM for Ca2+: 24 h / Other: 21 days; readouts: Ca2+ influx; ROS / GSH / Cell morphology; reference 184.",
+      "zh-TW": "補充表 S4 所述:100 µM 下處理 Ca2+: 24 h / Other: 21 days;讀數:Ca2+ 內流、ROS / GSH / Cell morphology;參考文獻 184。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "c11c167a33ff",
+    "subject": "Arsenic",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Arsenic at 7-10 μM for 48 h; readouts: Ca2+ influx; ceramide formation; ATP; reference 185.",
+      "zh-TW": "補充表 S4 所述:7-10 μM 下處理 48 h;讀數:Ca2+ 內流、ceramide 生成、ATP;參考文獻 185。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "a1bcff68e862",
+    "subject": "Bismuth chloride",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Bismuth chloride at 0.5-2 μg/mL for 48 h; readouts: Ca2+ influx; ceramide formation; reference 186.",
+      "zh-TW": "補充表 S4 所述:0.5-2 μg/mL 下處理 48 h;讀數:Ca2+ 內流、ceramide 生成;參考文獻 186。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "06343c233404",
+    "subject": "Bromfenvinphos",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Bromfenvinphos at 100-350 µM for 48 h; readouts: Ca2+ influx; ROS; reference 187.",
+      "zh-TW": "補充表 S4 所述:100-350 µM 下處理 48 h;讀數:Ca2+ 內流、ROS;參考文獻 187。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "408914930293",
+    "subject": "Cadmium",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Cadmium at 0.1-10 µg/mL for 48 h; readouts: Ca2+ influx; ATP; reference 188.",
+      "zh-TW": "補充表 S4 所述:0.1-10 µg/mL 下處理 48 h;讀數:Ca2+ 內流、ATP;參考文獻 188。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "8455309a3d3b",
+    "subject": "Carbon monoxide",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Carbon monoxide at 5-10 μM for 24 h; readouts: Ca2+ influx; reference 189.",
+      "zh-TW": "補充表 S4 所述:5-10 μM 下處理 24 h;讀數:Ca2+ 內流;參考文獻 189。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "b6a07ee022ed",
+    "subject": "Chromium",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Chromium at 10-20 μM for 48 h; readouts: Ca2+ influx; ATP; reference 190.",
+      "zh-TW": "補充表 S4 所述:10-20 μM 下處理 48 h;讀數:Ca2+ 內流、ATP;參考文獻 190。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "0522e162bfc2",
+    "subject": "Cigarette Smoke Extract",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Cigarette Smoke Extract at 5-20 % for Ceramide: 20 min-6 h / Annexin: 24 h; readouts: ceramide formation; p38 MAPK / DISC / Caspase-8 and caspase-3; reference 191.",
+      "zh-TW": "補充表 S4 所述:5-20 % 下處理 Ceramide: 20 min-6 h / Annexin: 24 h;讀數:ceramide 生成、p38 MAPK / DISC / Caspase-8 and caspase-3;參考文獻 191。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "9d241bdd27bd",
+    "subject": "Copper",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Copper at 1-3 µM for 24 h; readouts: ceramide formation; reference 192.",
+      "zh-TW": "補充表 S4 所述:1-3 µM 下處理 24 h;讀數:ceramide 生成;參考文獻 192。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "65201c74a32c",
+    "subject": "Gold chloride",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Gold chloride at 0.25-1 μg/mL for 48 h; readouts: Ca2+ influx; reference 193.",
+      "zh-TW": "補充表 S4 所述:0.25-1 μg/mL 下處理 48 h;讀數:Ca2+ 內流;參考文獻 193。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "ee708369152d",
+    "subject": "Hexavalent chromium",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Hexavalent chromium at 20 µM for 6-48 h; readouts: Ca2+ influx; ATP / ROS; reference 194.",
+      "zh-TW": "補充表 S4 所述:20 µM 下處理 6-48 h;讀數:Ca2+ 內流、ATP / ROS;參考文獻 194。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "bd6b295f3b98",
+    "subject": "Lead",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Lead at 0.3-3 µM for Ca2+: 20 min / Annexin: 24 h; readouts: Ca2+ influx; reference 6.",
+      "zh-TW": "補充表 S4 所述:0.3-3 µM 下處理 Ca2+: 20 min / Annexin: 24 h;讀數:Ca2+ 內流;參考文獻 6。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "56ab8f1292e9",
+    "subject": "Mercury",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Mercury at 1-10 μM for K+-selective conductance: 1-4 min / Annexin: 24 h; readouts: ceramide formation; K+ loss; reference 195.",
+      "zh-TW": "補充表 S4 所述:1-10 μM 下處理 K+-selective conductance: 1-4 min / Annexin: 24 h;讀數:ceramide 生成、K+ loss;參考文獻 195。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "6ce3b4befa55",
+    "subject": "Nickel chloride",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Nickel chloride at 5-10 mM for 24 h; readouts: Ca2+ influx; ROS / p38 MAPK; reference 196.",
+      "zh-TW": "補充表 S4 所述:5-10 mM 下處理 24 h;讀數:Ca2+ 內流、ROS / p38 MAPK;參考文獻 196。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "c6fb27689f97",
+    "subject": "Radiocontrast agent",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Radiocontrast agent at 0.76-5 mM for 10 min-48 h; readouts: Ca2+ influx; reference 197.",
+      "zh-TW": "補充表 S4 所述:0.76-5 mM 下處理 10 min-48 h;讀數:Ca2+ 內流;參考文獻 197。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "6c2639a4a3d5",
+    "subject": "Silver ions",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Silver ions at 50-1,000 nM for 48 h; readouts: ATP; reference 198.",
+      "zh-TW": "補充表 S4 所述:50-1,000 nM 下處理 48 h;讀數:ATP;參考文獻 198。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "d370c28b37b0",
+    "subject": "Tin",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S4: Tin at 3-100 µM for 48 h; readouts: Ca2+ influx; ceramide formation; ATP; reference 199.",
+      "zh-TW": "補充表 S4 所述:3-100 µM 下處理 48 h;讀數:Ca2+ 內流、ceramide 生成、ATP;參考文獻 199。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "ec4221ea54e4",
+    "subject": "Adenosine",
+    "predicate": "inhibits",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S5: Adenosine (10-100 µM) inhibited eryptosis induced by Glucose depletion; treatment 24-48 h; readouts: FSC; reference 200.",
+      "zh-TW": "補充表 S5 所述:Adenosine(10-100 µM)抑制由 Glucose depletion 誘導的 eryptosis;處理 24-48 h;讀數:FSC;參考文獻 200。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "3c4a49afdc6c",
+    "subject": "Antirhea borbonica extract",
+    "predicate": "inhibits",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S5: Antirhea borbonica extract (500 mg/L in zebrafish) inhibited eryptosis induced by Methylglyoxal; treatment 24-48 h; readouts: ROS / Antiglycative; reference 201.",
+      "zh-TW": "補充表 S5 所述:Antirhea borbonica extract(500 mg/L in zebrafish)抑制由 Methylglyoxal 誘導的 eryptosis;處理 24-48 h;讀數:ROS / Antiglycative;參考文獻 201。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "aefb5461d059",
+    "subject": "Acetylsalycilic acid",
+    "predicate": "inhibits",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S5: Acetylsalycilic acid (50 µM) inhibited eryptosis induced by 4-Hydroxynonenal; treatment 24 h; readouts: Ca2+; reference 64.",
+      "zh-TW": "補充表 S5 所述:Acetylsalycilic acid(50 µM)抑制由 4-Hydroxynonenal 誘導的 eryptosis;處理 24 h;讀數:Ca2+;參考文獻 64。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "c4a4058f9804",
+    "subject": "Caffeine",
+    "predicate": "inhibits",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S5: Caffeine (50-500 µM) inhibited eryptosis induced by Glucose depletion; treatment 48 h; readouts: Ca2+; reference 3.",
+      "zh-TW": "補充表 S5 所述:Caffeine(50-500 µM)抑制由 Glucose depletion 誘導的 eryptosis;處理 48 h;讀數:Ca2+;參考文獻 3。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "5b46847d3604",
+    "subject": "Chelerythrine",
+    "predicate": "inhibits",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S5: Chelerythrine (1-10 µM) inhibited eryptosis induced by Costunolide; treatment 24 h; readouts: FSC; reference 202.",
+      "zh-TW": "補充表 S5 所述:Chelerythrine(1-10 µM)抑制由 Costunolide 誘導的 eryptosis;處理 24 h;讀數:FSC;參考文獻 202。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "e9f1cfe5e9e7",
+    "subject": "Erythropoietin",
+    "predicate": "inhibits",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S5: Erythropoietin (760 pM) inhibited eryptosis induced by Osmotic shock; treatment 4 h; readouts: ROS; reference 8. Also reported: Reported in supplementary Table S5: Erythropoietin (1-40 U/mL) inhibited eryptosis induced by H2O2; treatment 2 h; readouts: Ca2+, ROS; reference 9.",
+      "zh-TW": "補充表 S5 所述:Erythropoietin(760 pM)抑制由 Osmotic shock 誘導的 eryptosis;處理 4 h;讀數:ROS;參考文獻 8。另有：補充表 S5 所述:Erythropoietin(1-40 U/mL)抑制由 H2O2 誘導的 eryptosis;處理 2 h;讀數:Ca2+, ROS;參考文獻 9。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "6d08596c2207",
+    "subject": "Fisetin",
+    "predicate": "inhibits",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S5: Fisetin (15 mg/kg in rats) inhibited eryptosis induced by D-galactose; treatment 6 weeks; readouts: ROS, GSH; reference 203.",
+      "zh-TW": "補充表 S5 所述:Fisetin(15 mg/kg in rats)抑制由 D-galactose 誘導的 eryptosis;處理 6 weeks;讀數:ROS, GSH;參考文獻 203。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "fe141f56b08f",
+    "subject": "Hydroxytyrosol",
+    "predicate": "inhibits",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S5: Hydroxytyrosol (1 µM) inhibited eryptosis induced by Lysophosphatidic acid; treatment 24 h; readouts: Ca2+, ATP; reference 204. Also reported: Reported in supplementary Table S5: Hydroxytyrosol (5 µM) inhibited eryptosis induced by Mercury; treatment 4 h; readouts: GSH, ATP; reference 205.",
+      "zh-TW": "補充表 S5 所述:Hydroxytyrosol(1 µM)抑制由 Lysophosphatidic acid 誘導的 eryptosis;處理 24 h;讀數:Ca2+, ATP;參考文獻 204。另有：補充表 S5 所述:Hydroxytyrosol(5 µM)抑制由 Mercury 誘導的 eryptosis;處理 4 h;讀數:GSH, ATP;參考文獻 205。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "c4d9d01e8159",
+    "subject": "Indicaxanthin",
+    "predicate": "inhibits",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S5: Indicaxanthin (1-5 µM) inhibited eryptosis induced by Oxysterols; treatment 48 h; readouts: ROS, GSH, PGE2, Ca2+, Ceramide; reference 206. Also reported: Reported in supplementary Table S5: Indicaxanthin (1-5 µM) inhibited eryptosis induced by CSE; treatment 4 h; readouts: Ceramide, DISC, ATP; reference 207.",
+      "zh-TW": "補充表 S5 所述:Indicaxanthin(1-5 µM)抑制由 Oxysterols 誘導的 eryptosis;處理 48 h;讀數:ROS, GSH, PGE2, Ca2+, Ceramide;參考文獻 206。另有：補充表 S5 所述:Indicaxanthin(1-5 µM)抑制由 CSE 誘導的 eryptosis;處理 4 h;讀數:Ceramide, DISC, ATP;參考文獻 207。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "9bec57d81ad4",
+    "subject": "Isoproterenol",
+    "predicate": "inhibits",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S5: Isoproterenol (10 µM) inhibited eryptosis induced by Osmotic shock; treatment 24 h; readouts: Ca2+; reference 208.",
+      "zh-TW": "補充表 S5 所述:Isoproterenol(10 µM)抑制由 Osmotic shock 誘導的 eryptosis;處理 24 h;讀數:Ca2+;參考文獻 208。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "36bdfdd79f7f",
+    "subject": "L-Carnitine",
+    "predicate": "inhibits",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S5: L-Carnitine (200 umol/L) inhibited eryptosis induced by Uremic serum; treatment 24-48 h; readouts: ROS, GSH; reference 209.",
+      "zh-TW": "補充表 S5 所述:L-Carnitine(200 umol/L)抑制由 Uremic serum 誘導的 eryptosis;處理 24-48 h;讀數:ROS, GSH;參考文獻 209。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "96640a5955e9",
+    "subject": "N-Acetylcysteine",
+    "predicate": "inhibits",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S5: N-Acetylcysteine (5 mM) inhibited eryptosis induced by Aluminum; treatment 21 days; readouts: ROS, GSH, Ca2+; reference 184.",
+      "zh-TW": "補充表 S5 所述:N-Acetylcysteine(5 mM)抑制由 Aluminum 誘導的 eryptosis;處理 21 days;讀數:ROS, GSH, Ca2+;參考文獻 184。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "748baf47d0f2",
+    "subject": "Naringin",
+    "predicate": "inhibits",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S5: Naringin (20-40 µM) inhibited eryptosis induced by tBuOOH; treatment 48 h; readouts: FSC, Ca2+; reference 210.",
+      "zh-TW": "補充表 S5 所述:Naringin(20-40 µM)抑制由 tBuOOH 誘導的 eryptosis;處理 48 h;讀數:FSC, Ca2+;參考文獻 210。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "eb34e24e219f",
+    "subject": "Phlorizin",
+    "predicate": "inhibits",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S5: Phlorizin (10-100 µM) inhibited eryptosis induced by Glucose depletion; treatment 0.5-48 h; readouts: FSC, Ca2+,; reference 211.",
+      "zh-TW": "補充表 S5 所述:Phlorizin(10-100 µM)抑制由 Glucose depletion 誘導的 eryptosis;處理 0.5-48 h;讀數:FSC, Ca2+,;參考文獻 211。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "4a22cc6cbaf7",
+    "subject": "Plant sterols",
+    "predicate": "inhibits",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S5: Plant sterols (22 µM) inhibited eryptosis induced by tBuOOH; treatment 24-48 h; readouts: ROS, GSH; reference 212. Also reported: Reported in supplementary Table S5: Plant sterols (22 µM) inhibited eryptosis induced by CSE; treatment 4 h; readouts: Ceramide, DISC; reference 213.",
+      "zh-TW": "補充表 S5 所述:Plant sterols(22 µM)抑制由 tBuOOH 誘導的 eryptosis;處理 24-48 h;讀數:ROS, GSH;參考文獻 212。另有：補充表 S5 所述:Plant sterols(22 µM)抑制由 CSE 誘導的 eryptosis;處理 4 h;讀數:Ceramide, DISC;參考文獻 213。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "104938eef105",
+    "subject": "Pyrogallol",
+    "predicate": "inhibits",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S5: Pyrogallol (2-8 µM) inhibited eryptosis induced by Glucose depletion; treatment 0.5-48 h; readouts: FSC; reference 214.",
+      "zh-TW": "補充表 S5 所述:Pyrogallol(2-8 µM)抑制由 Glucose depletion 誘導的 eryptosis;處理 0.5-48 h;讀數:FSC;參考文獻 214。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "8b42b37e670b",
+    "subject": "Resveratrol",
+    "predicate": "inhibits",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S5: Resveratrol (10 µM) inhibited eryptosis induced by Glucose depletion; treatment 48 h; readouts: Ca2+; reference 215. Also reported: Reported in supplementary Table S5: Resveratrol (40 µM / in rabbit) inhibited eryptosis induced by Cyadox; treatment 3h; readouts: ROS, GSH, LDH; reference 216.",
+      "zh-TW": "補充表 S5 所述:Resveratrol(10 µM)抑制由 Glucose depletion 誘導的 eryptosis;處理 48 h;讀數:Ca2+;參考文獻 215。另有：補充表 S5 所述:Resveratrol(40 µM / in rabbit)抑制由 Cyadox 誘導的 eryptosis;處理 3h;讀數:ROS, GSH, LDH;參考文獻 216。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "84e1ca384cc0",
+    "subject": "Salidroside",
+    "predicate": "inhibits",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S5: Salidroside (60-280 µM) inhibited eryptosis induced by H2O2; treatment 24 h; readouts: ROS, Ca2+, Caspase-3; reference 217.",
+      "zh-TW": "補充表 S5 所述:Salidroside(60-280 µM)抑制由 H2O2 誘導的 eryptosis;處理 24 h;讀數:ROS, Ca2+, Caspase-3;參考文獻 217。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "8cf29c92976a",
+    "subject": "Staurosporine",
+    "predicate": "inhibits",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S5: Staurosporine (1 µM) inhibited eryptosis induced by Glucose depletion; treatment 48 h; readouts: FSC, PKCɑ; reference 218.",
+      "zh-TW": "補充表 S5 所述:Staurosporine(1 µM)抑制由 Glucose depletion 誘導的 eryptosis;處理 48 h;讀數:FSC, PKCɑ;參考文獻 218。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "60be5b05ebc5",
+    "subject": "Tamarind seed extract",
+    "predicate": "inhibits",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S5: Tamarind seed extract (50–200 µg/mL) inhibited eryptosis induced by AAPH; treatment 24 h; readouts: ROS, GSH, Ca2+; reference 219.",
+      "zh-TW": "補充表 S5 所述:Tamarind seed extract(50–200 µg/mL)抑制由 AAPH 誘導的 eryptosis;處理 24 h;讀數:ROS, GSH, Ca2+;參考文獻 219。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "50753bebcddc",
+    "subject": "Thymol",
+    "predicate": "inhibits",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S5: Thymol (2.5–20 µg/mL) inhibited eryptosis induced by tBuOOH; treatment 0.5-48 h; readouts: FSC, Ca2+; reference 220.",
+      "zh-TW": "補充表 S5 所述:Thymol(2.5–20 µg/mL)抑制由 tBuOOH 誘導的 eryptosis;處理 0.5-48 h;讀數:FSC, Ca2+;參考文獻 220。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "2e0866db5315",
+    "subject": "Urea",
+    "predicate": "inhibits",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S5: Urea (650 mM) inhibited eryptosis induced by Osmotic shock; treatment 6 h; readouts: readouts not annotated; reference 57.",
+      "zh-TW": "補充表 S5 所述:Urea(650 mM)抑制由 Osmotic shock 誘導的 eryptosis;處理 6 h;讀數:未標注讀數;參考文獻 57。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "577e76d00d15",
+    "subject": "Vitamin C",
+    "predicate": "inhibits",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S5: Vitamin C (1 mg/mL) inhibited eryptosis induced by H2O2; treatment 0.5 h; readouts: FSC, Caspase-3; reference 221. Also reported: Reported in supplementary Table S5: Vitamin C (280 µM) inhibited eryptosis induced by Glucose depletion; treatment 48 h; readouts: Ca2+; reference 45.",
+      "zh-TW": "補充表 S5 所述:Vitamin C(1 mg/mL)抑制由 H2O2 誘導的 eryptosis;處理 0.5 h;讀數:FSC, Caspase-3;參考文獻 221。另有：補充表 S5 所述:Vitamin C(280 µM)抑制由 Glucose depletion 誘導的 eryptosis;處理 48 h;讀數:Ca2+;參考文獻 45。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "5735649c61fc",
+    "subject": "Wogonin",
+    "predicate": "inhibits",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S5: Wogonin (100 µM) inhibited eryptosis induced by Ionomycin, Osmotic shock, PEITC; treatment 24–48 h; readouts: FSC, Ca2+, ROS; reference 56.",
+      "zh-TW": "補充表 S5 所述:Wogonin(100 µM)抑制由 Ionomycin, Osmotic shock, PEITC 誘導的 eryptosis;處理 24–48 h;讀數:FSC, Ca2+, ROS;參考文獻 56。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "85f9fbe49cef",
+    "subject": "Xanthohumol",
+    "predicate": "inhibits",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S5: Xanthohumol (0.25–1 µM) inhibited eryptosis induced by tBuOOH; treatment 0.5-48 h; readouts: FSC, Ca2+; reference 55.",
+      "zh-TW": "補充表 S5 所述:Xanthohumol(0.25–1 µM)抑制由 tBuOOH 誘導的 eryptosis;處理 0.5-48 h;讀數:FSC, Ca2+;參考文獻 55。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "bc78eb97a617",
+    "subject": "Amitriptyline",
+    "predicate": "inhibits",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S5: Amitriptyline (50-100 µM in mice) inhibited eryptosis induced by Plasmodium / berghei; treatment 48 h; readouts: FSC, Ceramide; reference 222.",
+      "zh-TW": "補充表 S5 所述:Amitriptyline(50-100 µM in mice)抑制由 Plasmodium / berghei 誘導的 eryptosis;處理 48 h;讀數:FSC, Ceramide;參考文獻 222。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "2af62934b177",
+    "subject": "D4476",
+    "predicate": "inhibits",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S5: D4476 (10 µM) inhibited eryptosis induced by tBuOOH; treatment 48 h; readouts: CK1 isoform α, Ca2+; reference 159.",
+      "zh-TW": "補充表 S5 所述:D4476(10 µM)抑制由 tBuOOH 誘導的 eryptosis;處理 48 h;讀數:CK1 isoform α, Ca2+;參考文獻 159。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "8c0a8578bb75",
+    "subject": "Dibutyryl-cGMP",
+    "predicate": "inhibits",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S5: Dibutyryl-cGMP (1 mM) inhibited eryptosis induced by Ionomycin; treatment 4 h; readouts: Ca2+; reference 52.",
+      "zh-TW": "補充表 S5 所述:Dibutyryl-cGMP(1 mM)抑制由 Ionomycin 誘導的 eryptosis;處理 4 h;讀數:Ca2+;參考文獻 52。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "f68826762260",
+    "subject": "Ethyl isopropyl amiloride",
+    "predicate": "inhibits",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S5: Ethyl isopropyl amiloride (100 µM) inhibited eryptosis induced by Ionomycin; treatment 6 h; readouts: readouts not annotated; reference 7.",
+      "zh-TW": "補充表 S5 所述:Ethyl isopropyl amiloride(100 µM)抑制由 Ionomycin 誘導的 eryptosis;處理 6 h;讀數:未標注讀數;參考文獻 7。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "8206ef14652a",
+    "subject": "Flufenamic acid",
+    "predicate": "inhibits",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S5: Flufenamic acid (10 µM) inhibited eryptosis induced by Plasmodium falciparum; treatment 48 h; readouts: FSC, Ca2+; reference 14.",
+      "zh-TW": "補充表 S5 所述:Flufenamic acid(10 µM)抑制由 Plasmodium falciparum 誘導的 eryptosis;處理 48 h;讀數:FSC, Ca2+;參考文獻 14。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "2e2dc6f58107",
+    "subject": "Furosemide",
+    "predicate": "inhibits",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S5: Furosemide (10-100 µM) inhibited eryptosis induced by ATP depletion; treatment 45 min; readouts: Ca2+; reference 223.",
+      "zh-TW": "補充表 S5 所述:Furosemide(10-100 µM)抑制由 ATP depletion 誘導的 eryptosis;處理 45 min;讀數:Ca2+;參考文獻 223。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "fd7a8fd08d04",
+    "subject": "p38 Inh III",
+    "predicate": "inhibits",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S5: p38 Inh III (1 µM) inhibited eryptosis induced by Osmotic shock; treatment 5 h; readouts: FSC, p38 MAPK, Ca2+; reference 24.",
+      "zh-TW": "補充表 S5 所述:p38 Inh III(1 µM)抑制由 Osmotic shock 誘導的 eryptosis;處理 5 h;讀數:FSC, p38 MAPK, Ca2+;參考文獻 24。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
+  },
+  {
+    "id": "49d25fb0eb63",
+    "subject": "Zidovudine",
+    "predicate": "inhibits",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Reported in supplementary Table S5: Zidovudine (2 µg/mL) inhibited eryptosis induced by Glucose depletion; treatment 2 h; readouts: Ca2+; reference 224.",
+      "zh-TW": "補充表 S5 所述:Zidovudine(2 µg/mL)抑制由 Glucose depletion 誘導的 eryptosis;處理 2 h;讀數:Ca2+;參考文獻 224。"
+    },
+    "confidence": "high",
+    "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
+    "created": "2026-11-05T05:07:23Z",
+    "updated": "2026-11-05T05:07:23Z"
   }
 ]

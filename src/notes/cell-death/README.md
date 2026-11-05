@@ -3,7 +3,7 @@ title: Cell Death
 aliases: []
 description: index of entities and documents in this directory
 created: 2026-09-07
-updated: 2026-10-08
+updated: 2026-11-04
 ---
 # Cell Death
 
@@ -21,6 +21,7 @@ updated: 2026-10-08
 | [[_document_ - Ferroptosis past present and future\|Ferroptosis: past, present and future]] | Ferroptosis review: iron-dependent death with iron accumulation and lipid peroxidation; GPX4/glutathione axis, ROS accumulation, and pathophysiological relevance. |
 | [[_document_ - Necroptosis (2014), Linkermann, Green\|Necroptosis (2014), Linkermann & Green]] | Linkermann and Green 2014 review of necroptosis — regulated necrotic cell death downstream of RIPK1/RIPK3/MLKL, its inflammatory signaling, and roles in ischemia-reperfusion injury. |
 | [[_document_ - RIP3 targets pyruvate dehydrogenase complex to increase aerobic respiration in TNF-induced necroptosis\|RIP3 targets pyruvate dehydrogenase complex to increase aerobic respiration in TNF-induced necroptosis]] | Yang et al. 2018 — RIP3 phosphorylates the PDH E3 subunit at Thr135 to boost aerobic respiration and mitochondrial ROS, feeding back on the necrosome; blocking mitochondrial pyruvate uptake suppresses necroptosis. |
+| [[_document_ - Current understanding of eryptosis supplementary material (MOESM1)\|Supplementary Material for Current understanding of eryptosis (Tkachenko et al. 2025)]] | Tkachenko et al. 2025 supplementary tables (MOESM1) — Ringer buffer compositions (S1), eryptosis modulators by target class (S2), approaches to study eryptosis inhibition (S3), 140+ compounds that significantly induce eryptosis with dose/time/Ca2+/ceramide readouts (S4), and major inhibitors with effect readouts (S5). |
 | [[_document_ - Current understanding of eryptosis mechanisms, physiological functions, role in disease, pharmacological applications, and nomenclature recommendations\|Current understanding of eryptosis: mechanisms, physiological functions, role in disease, pharmacological applications, and nomenclature recommendations]] | Tkachenko et al. 2025 consensus review — eryptosis as the Ca²⁺-driven regulated death of mature anucleate erythrocytes (Gardos K⁺ efflux, scramblase, calpain-1, PS externalisation); its distinction from apoptosis, senescence, hemolysis and erythronecroptosis; caspase-8 as the fate switch; disease roles; druggability; and the nomenclature recommendations. |
 
 ## Entity Notes

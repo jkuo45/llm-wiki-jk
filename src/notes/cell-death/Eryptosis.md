@@ -3,7 +3,7 @@ title: Eryptosis
 description: The Ca2+-driven, PS-exposing regulated death of mature anucleate erythrocytes — Gardos K+ efflux, scramblase activation, calpain blebbing, caspase-8 fate switching against erythronecroptosis, rapid efferocytotic clearance before hemolysis, and its druggability.
 protected: true
 created: 2026-09-10
-updated: 2026-10-08
+updated: 2026-11-04
 tags: [cell-death, erythrocyte, calcium-signaling]
 url: #
 source: #
@@ -68,6 +68,7 @@ Accelerated eryptosis causes anemia (rapid clearance), adds coagulation risk (PS
 ## Documents
 
 - [[_document_ - Current understanding of eryptosis mechanisms, physiological functions, role in disease, pharmacological applications, and nomenclature recommendations|Tkachenko et al. 2025 eryptosis consensus review]] — Ca2+/Gardos/scramblase/calpain axis, caspase-8 as fate switch between eryptosis and erythronecroptosis, disease map, nomenclature, druggability, assay guidelines.
+- [[_document_ - Current understanding of eryptosis supplementary material (MOESM1)|Tkachenko et al. 2025 supplementary material (MOESM1)]] — Ringer buffer compositions; modulator catalog by target class; assay approaches; 140+ inducers and major inhibitors with dose/time/Ca2+/ceramide readouts.
 - Cell death comparison page (eryptosis row + animation): Ca2+ → scramblase → PS axis; hours-scale course; silent clearance unless overwhelming hemolysis follows.
 
 ## Connections
