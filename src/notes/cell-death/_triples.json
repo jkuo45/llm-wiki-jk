@@ -7586,5 +7586,201 @@
   "source_document": "_document_ - Current understanding of eryptosis supplementary material (MOESM1).md",
   "created": "2026-11-05T05:07:23Z",
   "updated": "2026-11-05T05:07:23Z"
+ },
+ {
+  "id": "17140026f8aa",
+  "subject": "Neutrophils",
+  "predicate": "release",
+  "object": "Neutrophil Extracellular Traps",
+  "context": {
+   "en-US": "Neutrophils are the source of neutrophil extracellular traps (NETs): webs of decondensed DNA coated with histones and antimicrobial proteins that are extruded during NETosis. NET release follows NADPH-oxidase ROS production, PAD4-mediated histone citrullination, nuclear envelope breakdown and plasma membrane rupture; vital NETosis preserves an intact membrane and releases NETs within minutes. The protein cargo is a conserved set of nuclear, granular and cytoplasmic proteins rather than the full neutrophil proteome (Burgener & Schroder 2020, Cold Spring Harb Perspect Biol 12:a037028; Urban et al. 2009, PLoS Pathog 5:e1000639).",
+   "zh-TW": "Neutrophils 是 Neutrophil Extracellular Traps（NETs）的來源：由去濃縮 DNA 構成、包覆 Histone 與抗微生物蛋白的網狀結構，在 NETosis 時擠出。NET 釋放接續 NADPH-oxidase ROS 產生、PAD4 媒介的 Histone citrullination、核膜崩解與質膜破裂；vital NETosis 保留完整膜並在數分鐘內釋出 NETs。其蛋白貨物為保守的核、顆粒與細胞質蛋白集合，而非完整的嗜中性球蛋白體（Burgener & Schroder 2020, Cold Spring Harb Perspect Biol 12:a037028；Urban et al. 2009, PLoS Pathog 5:e1000639）。"
+  },
+  "confidence": 0.95,
+  "source_document": "NETosis.md",
+  "created": "2026-11-09T20:53:24Z",
+  "updated": "2026-11-09T20:53:24Z"
+ },
+ {
+  "id": "059a6236db31",
+  "subject": "NETosis",
+  "predicate": "produces",
+  "object": "Neutrophil Extracellular Traps",
+  "context": {
+   "en-US": "NETosis is the regulated neutrophil death (suicidal) or secretory (vital) program whose output is the neutrophil extracellular trap. Suicidal NETosis ruptures the cell over ~2-4 h; vital NETosis releases NETs within minutes while the neutrophil remains viable and motile. The three pathways reviewed by Burgener & Schroder 2020 converge on chromatin decondensation and extrusion of a DNA scaffold decorated with a conserved set of nuclear, granular and cytoplasmic proteins; NETosis is caspase-independent and distinct from apoptosis and necrosis.",
+   "zh-TW": "NETosis 是受調控的嗜中性球死亡（suicidal）或分泌（vital）程序，其產物為 Neutrophil Extracellular Traps。suicidal NETosis 約在 2-4 小時內使細胞破裂；vital NETosis 在數分鐘內釋出 NETs，且嗜中性球仍存活並可遷移。Burgener & Schroder 2020 回顧的三條路徑皆匯流於染色質去濃縮，以及擠出帶有保守核、顆粒與細胞質蛋白集合的 DNA 骨架；NETosis 為 caspase 非依賴，且與 apoptosis、necrosis 不同。"
+  },
+  "confidence": 0.95,
+  "source_document": "NETosis.md",
+  "created": "2026-11-09T20:53:24Z",
+  "updated": "2026-11-09T20:53:24Z"
+ },
+ {
+  "id": "99aac32c1767",
+  "subject": "Neutrophil Extracellular Traps",
+  "predicate": "is_composed_of",
+  "object": "Chromatin",
+  "context": {
+   "en-US": "The NET scaffold is decondensed chromatin: extracellular DNA plus core histones released after nuclear envelope disassembly. Field-emission SEM of PMA-induced NETs shows smooth ~5 nm thick, ~10 nm wide nucleosome-like fibers interspersed with 25-50 nm globular domains containing granule proteins (Urban et al. 2009). Purified NETs contain 1.67 +/- 0.26 g protein per g DNA, and NET histones run 2-5 kDa lower than nuclear histones, consistent with proteolytic clipping during NETosis.",
+   "zh-TW": "Neutrophil Extracellular Traps 的骨架為去濃縮 Chromatin：核膜崩解後釋出的胞外 DNA 與核心 Histone。PMA 誘導 NETs 的場發射掃描電鏡顯示約 5 nm 厚、10 nm 寬的平滑 nucleosome 樣纖維，間雜含顆粒蛋白的 25-50 nm 球狀區域（Urban et al. 2009）。純化 NETs 含 1.67 +/- 0.26 g 蛋白質／g DNA，且 NET Histone 較細胞核 Histone 低 2-5 kDa，與 NETosis 中的蛋白酶切割一致。"
+  },
+  "confidence": 0.93,
+  "source_document": "NETosis.md",
+  "created": "2026-11-09T20:53:24Z",
+  "updated": "2026-11-09T20:53:24Z"
+ },
+ {
+  "id": "4ca4ae1ffbb6",
+  "subject": "Neutrophil Extracellular Traps",
+  "predicate": "is_decorated_with",
+  "object": "Histone",
+  "context": {
+   "en-US": "Core histones H2A, H2B, H3 and H4 are the most abundant NET proteins, accounting for ~70% of total NET protein in PMA-induced NETs (Urban et al. 2009, Table 2: 26.29, 23.95, 14.50 and 4.41 mol%; H3 and H4 are under-represented relative to intact nuclei). The fifth nuclear NET protein identified in that 24-protein dataset was myeloid cell nuclear differentiation antigen (MNDA); linker histone H1, BPI, pentraxin 3 and cathelicidin were not detected by MS, though BPI was confirmed by immunoblot. Histones are the principal antimicrobial effectors of the DNA web (Burgener & Schroder 2020).",
+   "zh-TW": "核心 Histone H2A、H2B、H3、H4 是 NETs 中含量最高的蛋白質，約佔 PMA 誘導 NETs 總蛋白質的 70%（Urban et al. 2009, Table 2：26.29、23.95、14.50、4.41 mol%；相較完整細胞核，H3 與 H4 比例偏低）。該 24 蛋白資料集中第五個核蛋白為 myeloid cell nuclear differentiation antigen（MNDA）；linker Histone H1、BPI、pentraxin 3 與 cathelicidin 未被質譜偵測，但 BPI 經免疫墨點確認。Histone 為 DNA 網的主要抗微生物效應分子（Burgener & Schroder 2020）。"
+  },
+  "confidence": 0.95,
+  "source_document": "NETosis.md",
+  "created": "2026-11-09T20:53:24Z",
+  "updated": "2026-11-09T20:53:24Z"
+ },
+ {
+  "id": "da5b09e1e1b6",
+  "subject": "Neutrophil Extracellular Traps",
+  "predicate": "is_decorated_with",
+  "object": "Neutrophil granule proteins",
+  "context": {
+   "en-US": "Eight granular proteins were identified in PMA-induced NETs (Urban et al. 2009, Table 1): neutrophil elastase (ELANE), lactotransferrin (LTF), azurocidin (AZU1), cathepsin G (CTSG), myeloperoxidase (MPO), proteinase 3 (PRTN3), lysozyme C (LYZ) and neutrophil defensins 1 and 3 (DEFA1/DEFA3, alpha-defensins); azurocidin, lysozyme C and alpha-defensins were independently reported in P. aeruginosa-induced NETs (Dwyer et al. 2014). The granule proteases NE, cathepsin G and proteinase 3 reportedly remain enzymatically active when NETs are exposed to endogenous protease inhibitors (Burgener & Schroder 2020), but activity-based probing in a 2020 JBC study found NET-bound neutrophil serine proteases in an inactive conformation, so the activity status is model-dependent (Kasperkiewicz et al. 2020).",
+   "zh-TW": "PMA 誘導 NETs 中鑑定出八種顆粒蛋白（Urban et al. 2009, Table 1）：neutrophil elastase（ELANE）、lactotransferrin（LTF）、azurocidin（AZU1）、cathepsin G（CTSG）、myeloperoxidase（MPO）、proteinase 3（PRTN3）、lysozyme C（LYZ）與 neutrophil defensin 1 和 3（DEFA1/DEFA3，alpha-defensins）；azurocidin、lysozyme C 與 alpha-defensins 亦在 P. aeruginosa 誘導 NETs 中被獨立報告（Dwyer et al. 2014）。顆粒蛋白酶 NE、cathepsin G 與 proteinase 3 據報在 NETs 暴露於內源性蛋白酶抑制劑時仍具酵素活性（Burgener & Schroder 2020），但 2020 年 JBC 的活性探針研究發現 NET 結合的 neutrophil serine proteases 處於不活化構形，故活性狀態取決於實驗模型（Kasperkiewicz et al. 2020）。"
+  },
+  "confidence": 0.8,
+  "source_document": "NETosis.md",
+  "created": "2026-11-09T20:53:24Z",
+  "updated": "2026-11-09T20:53:24Z"
+ },
+ {
+  "id": "93a9086b9d8b",
+  "subject": "Neutrophil Extracellular Traps",
+  "predicate": "is_decorated_with",
+  "object": "Cytoplasmic and cytoskeletal proteins",
+  "context": {
+   "en-US": "Urban et al. 2009 identified eleven cytoplasmic, cytoskeletal, peroxisomal and glycolytic NET-associated proteins in PMA-induced NETs: S100A8, S100A9, S100A12, beta/gamma-actin, myosin-9, alpha-actinin 1/4, plastin-2, cytokeratin-10, catalase, alpha-enolase and transketolase; GAPDH and lactate dehydrogenase were present in supernatants but absent from nuclease-released NETs, supporting selective binding. Dwyer et al. 2014 expanded this class in P. aeruginosa-induced NETs to metabolic enzymes (transaldolase, glucose-6-phosphate isomerase, aldolase A, triosephosphate isomerase, phosphoglycerate kinase 1, GAPDH, lactate dehydrogenase A/B, malate dehydrogenases), chaperones (annexin A1/A3/A5, HSP70 family, HSPA5, peptidyl-prolyl isomerase A) and oxidoreductases (catalase, peroxiredoxin-1/2, superoxide dismutase 1).",
+   "zh-TW": "Urban et al. 2009 在 PMA 誘導 NETs 中鑑定出十一種細胞質、細胞骨架、過氧化體與糖解相關蛋白：S100A8、S100A9、S100A12、beta/gamma-actin、myosin-9、alpha-actinin 1/4、plastin-2、cytokeratin-10、catalase、alpha-enolase 與 transketolase；GAPDH 與 lactate dehydrogenase 存在於上清液但未出現於核酸酶釋出的 NETs，支持選擇性結合。Dwyer et al. 2014 在 P. aeruginosa 誘導 NETs 中擴充此類為代謝酶（transaldolase、glucose-6-phosphate isomerase、aldolase A、triosephosphate isomerase、phosphoglycerate kinase 1、GAPDH、lactate dehydrogenase A/B、malate dehydrogenases）、伴護蛋白（annexin A1/A3/A5、HSP70 家族、HSPA5、peptidyl-prolyl isomerase A）與氧化還原酶（catalase、peroxiredoxin-1/2、superoxide dismutase 1）。"
+  },
+  "confidence": 0.9,
+  "source_document": "NETosis.md",
+  "created": "2026-11-09T20:53:24Z",
+  "updated": "2026-11-09T20:53:24Z"
+ },
+ {
+  "id": "2c0459b08642",
+  "subject": "Neutrophil Extracellular Traps",
+  "predicate": "contains",
+  "object": "Neutrophil Elastase",
+  "context": {
+   "en-US": "Neutrophil elastase is the most abundant non-histone protein of PMA-induced NETs (5.84 mol%, 133.0 +/- 21.5 mg per g NET-DNA; Urban et al. 2009, Table 2) and the dominant NET-associated protease. MSP-MS profiling of PMA/MNase NETs attributed ~70% of cleavage sites to NE, ~25% to cathepsin G and ~5% to proteinase 3; NE immunodepletion unmasked cathepsin G activity (O'Donoghue et al. 2013, PLoS One 8:e75141). NE also translocates to the nucleus to clip histones during chromatin decondensation and serves as a standard NET marker with MPO-DNA complexes.",
+   "zh-TW": "Neutrophil Elastase 是 PMA 誘導 NETs 中含量最高的非 Histone 蛋白（5.84 mol%，133.0 +/- 21.5 mg 每 g NET-DNA；Urban et al. 2009, Table 2），也是主要的 NET 結合蛋白酶。PMA/MNase NETs 的 MSP-MS 分析將約 70% 切割位點歸因於 NE、約 25% 歸於 cathepsin G、約 5% 歸於 proteinase 3；NE 免疫去除後顯露 cathepsin G 活性（O'Donoghue et al. 2013, PLoS One 8:e75141）。NE 亦於染色質去濃縮時轉位至細胞核切割 Histone，並與 MPO-DNA 複合物同為標準 NET 標記。"
+  },
+  "confidence": 0.92,
+  "source_document": "NETosis.md",
+  "created": "2026-11-09T20:53:24Z",
+  "updated": "2026-11-09T20:53:24Z"
+ },
+ {
+  "id": "5ece33020c4d",
+  "subject": "Neutrophil Extracellular Traps",
+  "predicate": "contains",
+  "object": "Myeloperoxidase",
+  "context": {
+   "en-US": "Myeloperoxidase is a granular NET effector quantified at 1.01 mol% (71.3 +/- 5.3 mg per g NET-DNA) in PMA-induced NETs (Urban et al. 2009, Table 2). MPO-DNA complexes are a standard NETosis readout, and NET-associated MPO is enzymatically active, mediating bacterial killing in the presence of hydrogen peroxide (Parker et al. 2012, J Leukoc Biol 91:369-376). MPO also cooperates with neutrophil elastase in an azurophil-granule complex that drives chromatin decondensation.",
+   "zh-TW": "Myeloperoxidase 是 PMA 誘導 NETs 中的顆粒效應蛋白，定量為 1.01 mol%（71.3 +/- 5.3 mg 每 g NET-DNA；Urban et al. 2009, Table 2）。MPO-DNA 複合物為標準 NETosis 讀值，且 NET 結合的 MPO 具酵素活性，在過氧化氫存在下媒介細菌殺傷（Parker et al. 2012, J Leukoc Biol 91:369-376）。MPO 亦與 neutrophil elastase 在 azurophil 顆粒複合物中合作，驅動染色質去濃縮。"
+  },
+  "confidence": 0.9,
+  "source_document": "NETosis.md",
+  "created": "2026-11-09T20:53:24Z",
+  "updated": "2026-11-09T20:53:24Z"
+ },
+ {
+  "id": "32f9eac7a78f",
+  "subject": "Neutrophil Extracellular Traps",
+  "predicate": "contains",
+  "object": "Calprotectin",
+  "context": {
+   "en-US": "Calprotectin (S100A8/S100A9 heterodimer) is the major antifungal component of NETs: S100A8 and S100A9 account for 4.00 and 1.41 mol% of NET protein (Urban et al. 2009, Table 2), immunodepletion of calprotectin abolishes the in vitro antifungal activity of NET proteins, and S100A9-deficient mice show larger abscesses, higher fungal load and reduced survival after Candida albicans challenge. Approximately one third of cellular S100A9 is released bound to NETs rather than as a soluble protein. S100A12 and S100A4 were additionally reported in P. aeruginosa-induced NETs (Dwyer et al. 2014).",
+   "zh-TW": "Calprotectin（S100A8/S100A9 異二聚體）是 NETs 的主要抗真菌成分：S100A8 與 S100A9 分別佔 NET 蛋白的 4.00 與 1.41 mol%（Urban et al. 2009, Table 2）；免疫去除 Calprotectin 會消除 NET 蛋白的體外抗真菌活性，S100A9 缺失小鼠在 Candida albicans 攻毒後呈現較大膿瘍、較高真菌負荷與較低存活。約三分之一的細胞 S100A9 以 NET 結合形式而非可溶性蛋白釋出。P. aeruginosa 誘導 NETs 另報告 S100A12 與 S100A4（Dwyer et al. 2014）。"
+  },
+  "confidence": 0.92,
+  "source_document": "NETosis.md",
+  "created": "2026-11-09T20:53:24Z",
+  "updated": "2026-11-09T20:53:24Z"
+ },
+ {
+  "id": "499793bc7d32",
+  "subject": "PMA",
+  "predicate": "induces",
+  "object": "NETosis",
+  "context": {
+   "en-US": "Phorbol 12-myristate 13-acetate (PMA) is the standard pharmacological trigger of NETosis and of the reference NET proteome. Proteomics of DNase-1-released proteins from PMA-induced NETs identified 24 NET-associated proteins, 15 of them new at the time (Urban et al. 2009, PLoS Pathog 5:e1000639, Table 1: 8 granular, 5 nuclear and 11 cytoplasmic/cytoskeletal/peroxisomal/glycolytic proteins); 15 quantified proteins represented 90.3% of total NET protein. An independent LC-MS/MS study of PMA/MNase-treated NETs detected 29 proteins, with only neutrophil elastase, alpha-enolase, histone H2A and histone H3 enriched relative to controls (O'Donoghue et al. 2013, PLoS One 8:e75141).",
+   "zh-TW": "Phorbol 12-myristate 13-acetate（PMA）是 NETosis 與參考 NET 蛋白體的標準藥理誘導劑。由 PMA 誘導 NETs 經 DNase-1 釋出蛋白的蛋白質體分析鑑定出 24 種 NET 結合蛋白，其中 15 種當時為首次發現（Urban et al. 2009, PLoS Pathog 5:e1000639, Table 1：8 種顆粒、5 種核、11 種細胞質／細胞骨架／過氧化體／糖解蛋白）；15 種定量蛋白佔 NET 總蛋白的 90.3%。另一項 PMA/MNase 處理 NETs 的 LC-MS/MS 研究偵測到 29 種蛋白，僅 neutrophil elastase、alpha-enolase、Histone H2A 與 Histone H3 相對對照組富集（O'Donoghue et al. 2013, PLoS One 8:e75141）。"
+  },
+  "confidence": 0.95,
+  "source_document": "NETosis.md",
+  "created": "2026-11-09T20:53:24Z",
+  "updated": "2026-11-09T20:53:24Z"
+ },
+ {
+  "id": "9e4317f90a25",
+  "subject": "Pseudomonas aeruginosa",
+  "predicate": "induces",
+  "object": "NETosis",
+  "context": {
+   "en-US": "Nonmucoid (PAO1, 2192 nmr, PA14) and mucoid (PA581, PA14 mucA, 2192) Pseudomonas aeruginosa strains induce NET release from human neutrophils; eDNA release is higher for nonmucoid strains, and flagellin contributes in the PA14 pair (Dwyer et al. 2014, J Innate Immun 6:765-779). LC-MS/MS of sucrose-gradient-purified NET fragments identified 45 proteins for PAO1, 71 for mucoid PA581 and 80 for mucoid 2192, with 33 proteins shared by all three stimuli (Fig. 2a). The '80 proteins' cited in review texts is the upper bound of a 45-80 per-stimulus range, not a single stimulus-invariant list.",
+   "zh-TW": "非黏液型（PAO1、2192 nmr、PA14）與黏液型（PA581、PA14 mucA、2192）Pseudomonas aeruginosa 菌株皆誘導人類嗜中性球釋出 NETs；非黏液型菌株的 eDNA 釋出量較高，PA14 配對中 flagellin 有貢獻（Dwyer et al. 2014, J Innate Immun 6:765-779）。以蔗糖梯度純化 NET 片段進行的 LC-MS/MS 於 PAO1 鑑定 45 種、黏液型 PA581 71 種、黏液型 2192 80 種蛋白，三種刺激共享 33 種蛋白（Fig. 2a）。綜論中所稱「80 種蛋白」為 45-80 此一依刺激而異範圍的上限，並非單一不隨刺激變動的清單。"
+  },
+  "confidence": 0.9,
+  "source_document": "NETosis.md",
+  "created": "2026-11-09T20:53:24Z",
+  "updated": "2026-11-09T20:53:24Z"
+ },
+ {
+  "id": "56e58f9405a0",
+  "subject": "Pseudomonas aeruginosa",
+  "predicate": "modulates",
+  "object": "Neutrophil Extracellular Traps",
+  "context": {
+   "en-US": "NET composition is influenced by the eliciting stimulus: more than 90% of PAO1-induced host NET proteins were identical to those from mucoid PA581, yet 39 proteins were unique to 2192-induced NETs and 22 to PA581-induced NETs (Dwyer et al. 2014, Fig. 2a). The conserved 33-protein 'NET core signature' comprises nucleosome-associated proteins (histone H4, H2A/H2B variants, H3.1), structural proteins (coronin-1A, beta-actin, alpha-actinin, profilin-1, gelsolin, moesin), enzymes (neutrophil elastase, transaldolase, transketolase, GAPDH, alpha-enolase, phosphoglycerate kinase 1) and antimicrobial proteins (MPO, lysozyme C, lactotransferrin, azurocidin, cathepsin G). Supplementary Table S1 groups the identified proteins into metabolic enzymes, structural proteins, nucleosome-associated proteins, antimicrobial-related proteins, chaperone/support proteins, oxidoreductases and unclassified entries.",
+   "zh-TW": "NET 組成受誘導刺激影響：PAO1 誘導的宿主 NET 蛋白逾 90% 與黏液型 PA581 相同，但 2192 誘導 NETs 有 39 種獨特蛋白、PA581 誘導 NETs 有 22 種（Dwyer et al. 2014, Fig. 2a）。保守的 33 蛋白「NET core signature」包含 nucleosome 相關蛋白（Histone H4、H2A/H2B 變體、H3.1）、結構蛋白（coronin-1A、beta-actin、alpha-actinin、profilin-1、gelsolin、moesin）、酶（neutrophil elastase、transaldolase、transketolase、GAPDH、alpha-enolase、phosphoglycerate kinase 1）與抗微生物蛋白（MPO、lysozyme C、lactotransferrin、azurocidin、cathepsin G）。補充表 S1 將鑑定蛋白分為代謝酶、結構蛋白、nucleosome 相關蛋白、抗微生物相關蛋白、伴護／支持蛋白、氧化還原酶與未分類項目。"
+  },
+  "confidence": 0.88,
+  "source_document": "NETosis.md",
+  "created": "2026-11-09T20:53:24Z",
+  "updated": "2026-11-09T20:53:24Z"
+ },
+ {
+  "id": "3facae4e622c",
+  "subject": "Cystic Fibrosis",
+  "predicate": "is_enriched_for",
+  "object": "Neutrophil Extracellular Traps",
+  "context": {
+   "en-US": "DNA-protein complexes purified from cystic fibrosis sputum share the NET protein signature: 58 proteins were common to three patient samples, including the NET markers elastase, MPO and lysozyme, and NE, transketolase and GAPDH were confirmed by immunoblot in six additional patients; low-DNA sputum fractions contained only trace NE and GAPDH (Dwyer et al. 2014). MIF promotes P. aeruginosa-induced NET release via MAPK and ROS; in 117 CF patient sera mean MIF was 6,328 +/- 2,891 pg/ml versus 2,400 +/- 900 pg/ml in pooled healthy serum (p < 0.0001), and MIF predicted FEV1 percent (beta = -0.002, R2 = 0.04, p = 0.03).",
+   "zh-TW": "自 Cystic Fibrosis 痰液純化的 DNA-蛋白複合物具有 NET 蛋白特徵：三名患者樣本共享 58 種蛋白，包含 NET 標記 elastase、MPO 與 lysozyme；另六名患者以免疫墨點確認 NE、transketolase 與 GAPDH，低 DNA 痰液分液僅含微量 NE 與 GAPDH（Dwyer et al. 2014）。MIF 經 MAPK 與 ROS 促進 P. aeruginosa 誘導的 NET 釋出；117 份 CF 患者血清平均 MIF 為 6,328 +/- 2,891 pg/ml，對照混合健康血清 2,400 +/- 900 pg/ml（p < 0.0001），且 MIF 可預測 FEV1 百分比（beta = -0.002, R2 = 0.04, p = 0.03）。"
+  },
+  "confidence": 0.85,
+  "source_document": "NETosis.md",
+  "created": "2026-11-09T20:53:24Z",
+  "updated": "2026-11-09T20:53:24Z"
+ },
+ {
+  "id": "f4b4159f5c8d",
+  "subject": "Neutrophil Extracellular Traps",
+  "predicate": "activates",
+  "object": "NLRP3",
+  "context": {
+   "en-US": "NETs license NLRP3 inflammasome activation: during NETosis, gasdermin D-driven NLRP3 activation triggers IL-1beta release that recruits and activates neutrophils to kill NET-entrapped bacteria (Burgener & Schroder 2020, Cold Spring Harb Perspect Biol 12:a037028). NET-derived DAMPs and extracellular histones additionally activate NLRP3 in macrophages, linking the lytic neutrophil program to inflammatory amplification.",
+   "zh-TW": "Neutrophil Extracellular Traps 促成 NLRP3 發炎體活化：NETosis 期間，gasdermin D 驅動的 NLRP3 活化觸發 IL-1beta 釋出，招募並活化嗜中性球以殺死被 NETs 捕捉的細菌（Burgener & Schroder 2020, Cold Spring Harb Perspect Biol 12:a037028）。NET 衍生的 DAMP 與胞外 Histone 亦在巨噬細胞中活化 NLRP3，將裂解性嗜中性球程序與發炎放大連結。"
+  },
+  "confidence": 0.8,
+  "source_document": "NETosis.md",
+  "created": "2026-11-09T20:53:24Z",
+  "updated": "2026-11-09T20:53:24Z"
  }
 ]
