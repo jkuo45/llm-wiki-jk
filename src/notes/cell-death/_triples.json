@@ -7782,5 +7782,397 @@
   "source_document": "NETosis.md",
   "created": "2026-11-09T20:53:24Z",
   "updated": "2026-11-09T20:53:24Z"
+ },
+ {
+  "id": "df0cadf9b4ce",
+  "subject": "NETosis",
+  "predicate": "comprises",
+  "object": "Suicidal NETosis",
+  "context": {
+   "en-US": "Burgener & Schroder 2020 resolve NETosis into three pathways distinguished by trigger, machinery and cell fate. Suicidal NETosis is the lytic, relatively slow arm first described in 2004 in PMA-stimulated neutrophils, in which NADPH oxidase-derived ROS, MPO and neutrophil elastase drive chromatin decondensation and GSDMD-pore-mediated plasma membrane rupture. NETosis therefore encompasses this arm alongside noncanonical and vital NETosis; all three converge on chromatin extrusion but differ in whether the neutrophil survives.",
+   "zh-TW": "Burgener & Schroder 2020 將 NETosis 區分為三條路徑，差異在於誘因、機制與細胞命運。Suicidal NETosis 是 2004 年首次在 PMA 刺激嗜中性球中描述的裂解性、相對緩慢的一臂，由 NADPH Oxidase 衍生的 ROS、MPO 與 Neutrophil Elastase 驅動染色質去濃縮，並經 GSDMD 孔道造成質膜破裂。因此 NETosis 除本臂外尚包含 Noncanonical NETosis 與 Vital NETosis；三者皆匯流於染色質擠出，但嗜中性球是否存活不同。"
+  },
+  "confidence": 0.95,
+  "source_document": "_document_ - Neutrophil Extracellular Traps in Host Defense.md",
+  "created": "2026-11-09T22:35:07Z",
+  "updated": "2026-11-09T22:35:07Z"
+ },
+ {
+  "id": "cd867e3bf44b",
+  "subject": "NETosis",
+  "predicate": "comprises",
+  "object": "Noncanonical NETosis",
+  "context": {
+   "en-US": "Noncanonical NETosis is one of three NETosis pathways named by Burgener & Schroder 2020. It is deployed when neutrophils detect cytosolic Gram-negative bacteria and relies on the noncanonical inflammasome (caspase-4/5 in humans, caspase-11 in mice) and GSDMD to extrude NETs; it proceeds independently of neutrophil elastase, myeloperoxidase and PAD4. NETosis thus spans this lytic arm as well as suicidal and vital NETosis, which share chromatin extrusion but use different upstream machinery.",
+   "zh-TW": "Noncanonical NETosis 是 Burgener & Schroder 2020 命名的三條 NETosis 路徑之一。當嗜中性球偵測到胞質內 Gram-Negative Bacteria 時啟動，依賴 Noncanonical Inflammasome（人類 Caspase-4/5、小鼠 Caspase-11）與 Gasdermin D 擠出 NETs，且不依賴 Neutrophil Elastase、Myeloperoxidase 與 PAD4。因此 NETosis 除了本裂解臂之外尚包含 Suicidal NETosis 與 Vital NETosis；三者共享染色質擠出，但上游機制各異。"
+  },
+  "confidence": 0.95,
+  "source_document": "_document_ - Neutrophil Extracellular Traps in Host Defense.md",
+  "created": "2026-11-09T22:35:07Z",
+  "updated": "2026-11-09T22:35:07Z"
+ },
+ {
+  "id": "d05ed717e519",
+  "subject": "NETosis",
+  "predicate": "comprises",
+  "object": "Vital NETosis",
+  "context": {
+   "en-US": "Vital NETosis (leukotoxic hypercitrullination) is one of three NETosis pathways reviewed by Burgener & Schroder 2020. It is the rapid, receptor- and calcium-driven arm in which PAD4 citrullinates histones and chromatin is externalised by nuclear blebbing without plasma-membrane permeabilisation, leaving the neutrophil viable, motile and phagocytic. NETosis therefore includes this non-lytic arm alongside the two GSDMD-dependent lytic arms, suicidal and noncanonical NETosis.",
+   "zh-TW": "Vital NETosis（leukotoxic hypercitrullination）是 Burgener & Schroder 2020 回顧的三條 NETosis 路徑之一。此快速、受體與鈣離子驅動的一臂由 PAD4 瓜胺酸化 Histone，染色質經核膜出芽以囊泡方式外排而不穿透質膜，使嗜中性球仍存活、可遷移並可吞噬。因此 NETosis 除本非裂解臂外，尚包含兩條依賴 Gasdermin D 的裂解臂：Suicidal NETosis 與 Noncanonical NETosis。"
+  },
+  "confidence": 0.95,
+  "source_document": "_document_ - Neutrophil Extracellular Traps in Host Defense.md",
+  "created": "2026-11-09T22:35:07Z",
+  "updated": "2026-11-09T22:35:07Z"
+ },
+ {
+  "id": "9e18215ac9e2",
+  "subject": "Suicidal NETosis",
+  "predicate": "requires",
+  "object": "NADPH Oxidase",
+  "context": {
+   "en-US": "NADPH oxidase is the ROS source required for the canonical suicidal NETosis pathway. PMA-induced glycolysis and ERK signalling phosphorylate p47phox, which assembles the NADPH oxidase complex that generates superoxide; ERK inhibitors, Rac2 deficiency and chronic granulomatous disease (NADPH oxidase deficiency) all suppress PMA- and microbe-induced NET release. Gene therapy restoring NADPH oxidase function in a CGD patient reinstated NET production that inhibited Aspergillus nidulans growth (Burgener & Schroder 2020; Bianchi et al. 2009).",
+   "zh-TW": "NADPH Oxidase 是典型 Suicidal NETosis 路徑所需的 ROS 來源。PMA 誘導的糖解與 ERK 訊號磷酸化 p47phox，組裝 NADPH Oxidase 複合物以產生 Superoxide；ERK 抑制劑、Rac2 缺失與 Chronic Granulomatous Disease（NADPH Oxidase 缺陷）皆抑制 PMA 與微生物誘導的 NET 釋出。對一名 CGD 患者以基因治療恢復 NADPH Oxidase 功能後，重新獲得可抑制 Aspergillus nidulans 生長的 NETs（Burgener & Schroder 2020；Bianchi et al. 2009）。"
+  },
+  "confidence": 0.95,
+  "source_document": "_document_ - Neutrophil Extracellular Traps in Host Defense.md",
+  "created": "2026-11-09T22:35:07Z",
+  "updated": "2026-11-09T22:35:07Z"
+ },
+ {
+  "id": "c004e211997f",
+  "subject": "Suicidal NETosis",
+  "predicate": "requires",
+  "object": "Myeloperoxidase",
+  "context": {
+   "en-US": "Myeloperoxidase is required for suicidal NETosis as the azurosome partner that gates neutrophil elastase release. NADPH-oxidase-derived ROS activate MPO and dissociate MPO and NE from the azurophil-granule azurosome, releasing NE into the cytosol by a mechanism requiring intracellular MPO activity. Neutrophils with partial MPO deficiency still form NETs against C. albicans, whereas MPO-deficient neutrophils cannot; MPO also synergises with NE in chromatin decondensation (Metzler et al. 2011, 2014).",
+   "zh-TW": "Myeloperoxidase 在 Suicidal NETosis 中作為 azurosome 伴侶，負責調控 Neutrophil Elastase 的釋出。NADPH Oxidase 衍生的 ROS 活化 MPO，使 MPO 與 NE 自 azurophil 顆粒的 azurosome 解離，並經需胞內 MPO 活性的機制將 NE 釋入胞質。部分 MPO 缺陷的嗜中性球仍可對 C. albicans 形成 NETs，完全 MPO 缺陷者則不能；MPO 亦與 NE 協同驅動染色質去濃縮（Metzler et al. 2011, 2014）。"
+  },
+  "confidence": 0.9,
+  "source_document": "_document_ - Neutrophil Extracellular Traps in Host Defense.md",
+  "created": "2026-11-09T22:35:07Z",
+  "updated": "2026-11-09T22:35:07Z"
+ },
+ {
+  "id": "98fa38c56567",
+  "subject": "Suicidal NETosis",
+  "predicate": "requires",
+  "object": "Neutrophil Elastase",
+  "context": {
+   "en-US": "Neutrophil elastase is the critical granule protease of suicidal NETosis: murine NE deficiency prevents NET formation during in vivo Klebsiella pneumoniae challenge (Papayannopoulos et al. 2010). Cytosolic NE degrades F-actin to immobilise the neutrophil, then translocates to the nucleus to cleave histones H4 and H2B, driving chromatin relaxation. NE also cleaves gasdermin D to GSDMD-p30, initiating the feedforward membrane-rupture loop that releases NETs (Metzler et al. 2014; Sollberger et al. 2018).",
+   "zh-TW": "Neutrophil Elastase 是 Suicidal NETosis 的關鍵顆粒蛋白酶：小鼠 NE 缺失會阻止體內 Klebsiella pneumoniae 攻毒時的 NET 形成（Papayannopoulos et al. 2010）。胞質 NE 降解 F-actin 使嗜中性球失去移動能力，隨後轉位至細胞核切割 Histone H4 與 H2B，驅動染色質鬆弛。NE 亦切割 Gasdermin D 產生 GSDMD-p30，啟動釋出 NETs 的膜破裂正回饋迴路（Metzler et al. 2014；Sollberger et al. 2018）。"
+  },
+  "confidence": 0.95,
+  "source_document": "_document_ - Neutrophil Extracellular Traps in Host Defense.md",
+  "created": "2026-11-09T22:35:07Z",
+  "updated": "2026-11-09T22:35:07Z"
+ },
+ {
+  "id": "10e443f4dd52",
+  "subject": "Suicidal NETosis",
+  "predicate": "requires",
+  "object": "Gasdermin D",
+  "context": {
+   "en-US": "Gasdermin D is the terminal executioner required for suicidal NETosis. During PMA-induced NETosis, neutrophil elastase cleaves GSDMD to GSDMD-p30, which forms pores in granule and plasma membranes; a GSDMD inhibitor blocked PMA-induced NETosis without affecting NADPH oxidase, NE or MPO function, isolating membrane permeabilisation as the obligatory final step. GSDMD-p30 pores then rupture the plasma membrane to enable NET release and neutrophil death (Sollberger et al. 2018).",
+   "zh-TW": "Gasdermin D 是 Suicidal NETosis 所需的終端執行者。在 PMA 誘導的 NETosis 中，Neutrophil Elastase 將 GSDMD 切割為 GSDMD-p30，於顆粒膜與質膜形成孔道；GSDMD 抑制劑可在不影響 NADPH Oxidase、NE 或 MPO 功能的情況下阻斷 PMA 誘導的 NETosis，顯示膜通透化為必要的最終步驟。GSDMD-p30 孔道隨後使質膜破裂，釋出 NETs 並造成嗜中性球死亡（Sollberger et al. 2018）。"
+  },
+  "confidence": 0.95,
+  "source_document": "_document_ - Neutrophil Extracellular Traps in Host Defense.md",
+  "created": "2026-11-09T22:35:07Z",
+  "updated": "2026-11-09T22:35:07Z"
+ },
+ {
+  "id": "5addebd175b3",
+  "subject": "PMA",
+  "predicate": "induces",
+  "object": "Suicidal NETosis",
+  "context": {
+   "en-US": "Phorbol-12-myristate-13-acetate (PMA) is the defining stimulus of suicidal NETosis: the first NETosis pathway was described in 2004 as NET extrusion and cell death in response to high-dose PMA (Brinkmann et al. 2004). PMA activates PKC and drives ERK-dependent NADPH oxidase assembly, ROS production, MPO activation and cytosolic NE release, leading to chromatin decondensation and GSDMD-dependent NET expulsion. Its robust responses made PMA the standard in vitro NETosis stimulant (Burgener & Schroder 2020).",
+   "zh-TW": "Phorbol-12-myristate-13-acetate（PMA）是 Suicidal NETosis 的定義性刺激：2004 年首次描述的 NETosis 路徑即為高劑量 PMA 引發的 NET 擠出與細胞死亡（Brinkmann et al. 2004）。PMA 活化 PKC 並驅動 ERK 依賴的 NADPH Oxidase 組裝、ROS 產生、MPO 活化與胞質 NE 釋出，導致染色質去濃縮及依賴 Gasdermin D 的 NET 排出。其強健反應使 PMA 成為標準體外 NETosis 刺激劑（Burgener & Schroder 2020）。"
+  },
+  "confidence": 0.95,
+  "source_document": "_document_ - Neutrophil Extracellular Traps in Host Defense.md",
+  "created": "2026-11-09T22:35:07Z",
+  "updated": "2026-11-09T22:35:07Z"
+ },
+ {
+  "id": "cdc67b774d76",
+  "subject": "Neutrophil Elastase",
+  "predicate": "cleaves",
+  "object": "Histone",
+  "context": {
+   "en-US": "Neutrophil elastase inactivates histones by proteolytic clipping during suicidal NETosis: nuclear NE cleaves H4 and H2B, causing chromatin relaxation and DNA decondensation, while MPO acts synergistically (Papayannopoulos et al. 2010). This NE-dependent cleavage provides redundancy with PAD4-mediated histone citrullination, explaining why PAD4 is often dispensable for NET extrusion in the suicidal pathway. Histone clipping also distinguishes suicidal NETosis from vital NETosis, which proceeds without apparent histone clipping (Burgener & Schroder 2020).",
+   "zh-TW": "Neutrophil Elastase 在 Suicidal NETosis 中以蛋白酶切割使 Histone 失活：細胞核內 NE 切割 H4 與 H2B，造成染色質鬆弛與 DNA 去濃縮，MPO 並與之協同（Papayannopoulos et al. 2010）。此 NE 依賴的切割與 PAD4 媒介的 Histone citrullination 形成冗餘，說明為何 PAD4 在 suicidal 路徑的 NET 擠出中常被視為非必要。Histone 切割亦區分 Suicidal NETosis 與無明顯 Histone 切割的 Vital NETosis（Burgener & Schroder 2020）。"
+  },
+  "confidence": 0.9,
+  "source_document": "_document_ - Neutrophil Extracellular Traps in Host Defense.md",
+  "created": "2026-11-09T22:35:07Z",
+  "updated": "2026-11-09T22:35:07Z"
+ },
+ {
+  "id": "30c627b85c26",
+  "subject": "Neutrophil Elastase",
+  "predicate": "cleaves",
+  "object": "Gasdermin D",
+  "context": {
+   "en-US": "Neutrophil elastase cleaves gasdermin D to generate the pore-forming GSDMD-p30 fragment during PMA-induced suicidal NETosis (Sollberger et al. 2018). The initial small amount of cytosolic NE suffices to cleave GSDMD; GSDMD pores then rupture granule membranes, releasing more NE and amplifying GSDMD cleavage in a feedforward loop that ends in plasma-membrane rupture and NET release. This NE–GSDMD axis contrasts with noncanonical NETosis, where caspase-4/11 rather than NE cleaves GSDMD (Chen et al. 2018).",
+   "zh-TW": "Neutrophil Elastase 在 PMA 誘導的 Suicidal NETosis 中切割 Gasdermin D，產生成孔片段 GSDMD-p30（Sollberger et al. 2018）。少量胞質 NE 即足以切割 GSDMD；GSDMD 孔道隨後使顆粒膜破裂、釋出更多 NE，並在正回饋迴路中放大 GSDMD 切割，最終造成質膜破裂與 NET 釋出。此 NE–GSDMD 軸與 Noncanonical NETosis 不同，後者由 Caspase-4/11 而非 NE 切割 GSDMD（Chen et al. 2018）。"
+  },
+  "confidence": 0.95,
+  "source_document": "_document_ - Neutrophil Extracellular Traps in Host Defense.md",
+  "created": "2026-11-09T22:35:07Z",
+  "updated": "2026-11-09T22:35:07Z"
+ },
+ {
+  "id": "4272f4a4b8ec",
+  "subject": "Neutrophil Elastase",
+  "predicate": "degrades",
+  "object": "Actin",
+  "context": {
+   "en-US": "In the cytoplasm of neutrophils undergoing suicidal NETosis, neutrophil elastase binds the actin cytoskeleton and degrades F-actin, causing actin disassembly and neutrophil immobilisation (Metzler et al. 2014). This cytoskeletal step precedes NE nuclear translocation and histone clipping, and is proposed to arrest migration before the cell ruptures. Actin is also a reported cytoplasmic/cytoskeletal component of the extruded NET web itself (Urban et al. 2009; Burgener & Schroder 2020).",
+   "zh-TW": "在進行 Suicidal NETosis 的嗜中性球胞質中，Neutrophil Elastase 結合 Actin 細胞骨架並降解 F-actin，造成 Actin 解組與嗜中性球失去移動能力（Metzler et al. 2014）。此細胞骨架步驟先於 NE 的核轉位與 Histone 切割，推測在細胞破裂前先停止遷移。Actin 亦為擠出 NET 網本身被報告的細胞質／細胞骨架成分（Urban et al. 2009；Burgener & Schroder 2020）。"
+  },
+  "confidence": 0.9,
+  "source_document": "_document_ - Neutrophil Extracellular Traps in Host Defense.md",
+  "created": "2026-11-09T22:35:07Z",
+  "updated": "2026-11-09T22:35:07Z"
+ },
+ {
+  "id": "7ca2d82abd01",
+  "subject": "Gasdermin D",
+  "predicate": "executes",
+  "object": "Suicidal NETosis",
+  "context": {
+   "en-US": "Gasdermin D is the executioner of suicidal NETosis: NE-cleaved GSDMD-p30 forms pores in granule and plasma membranes, and a GSDMD inhibitor blocks PMA-induced NETosis without affecting NADPH oxidase, NE or MPO (Sollberger et al. 2018). Suicidal NETosis and noncanonical NETosis converge on GSDMD as a single cell-death executioner, which motivated the proposal that GSDMD inhibitors may treat NET-associated diseases such as thrombosis, rheumatoid arthritis and systemic lupus erythematosus (Burgener & Schroder 2020).",
+   "zh-TW": "Gasdermin D 是 Suicidal NETosis 的執行者：經 NE 切割的 GSDMD-p30 於顆粒膜與質膜形成孔道，且 GSDMD 抑制劑可在不影響 NADPH Oxidase、NE 或 MPO 的情況下阻斷 PMA 誘導的 NETosis（Sollberger et al. 2018）。Suicidal NETosis 與 Noncanonical NETosis 匯流於單一細胞死亡執行者 GSDMD，因而提出 GSDMD 抑制劑可能用於治療 thrombosis、Rheumatoid Arthritis 與 Systemic Lupus Erythematosus 等 NET 相關疾病（Burgener & Schroder 2020）。"
+  },
+  "confidence": 0.95,
+  "source_document": "_document_ - Neutrophil Extracellular Traps in Host Defense.md",
+  "created": "2026-11-09T22:35:07Z",
+  "updated": "2026-11-09T22:35:07Z"
+ },
+ {
+  "id": "149e9676d950",
+  "subject": "Gasdermin D",
+  "predicate": "executes",
+  "object": "Noncanonical NETosis",
+  "context": {
+   "en-US": "Gasdermin D executes noncanonical NETosis downstream of the noncanonical inflammasome: cytosolic LPS activates caspase-4/11, which cleaves GSDMD to p30 (Chen et al. 2018). GSDMD-p30 pores permeabilise granule and nuclear membranes and eventually rupture the plasma membrane, and nuclear pores allow caspase-11 to access chromatin and degrade histones. Murine Casp11 or Gsdmd deficiency promotes microbial dissemination during Delta-sifA Salmonella challenge, establishing GSDMD as the pathway's host-defense executor.",
+   "zh-TW": "Gasdermin D 在 Noncanonical Inflammasome 下游執行 Noncanonical NETosis：胞質 LPS 活化 Caspase-4/11，後者將 GSDMD 切割為 p30（Chen et al. 2018）。GSDMD-p30 孔道使顆粒膜與核膜通透化並最終使質膜破裂，核孔並使 Caspase-11 得以接觸染色質並降解 Histone。小鼠 Casp11 或 Gsdmd 缺失會在 Delta-sifA Salmonella 攻毒時促進微生物擴散，確立 GSDMD 為此路徑的宿主防禦執行者。"
+  },
+  "confidence": 0.95,
+  "source_document": "_document_ - Neutrophil Extracellular Traps in Host Defense.md",
+  "created": "2026-11-09T22:35:07Z",
+  "updated": "2026-11-09T22:35:07Z"
+ },
+ {
+  "id": "3c0ca144d28b",
+  "subject": "Vital NETosis",
+  "predicate": "requires",
+  "object": "PAD4",
+  "context": {
+   "en-US": "PAD4 is essential for chromatin decondensation in vital NETosis. Ionophores, bacterial products or elevated extracellular pH drive mitochondrial ROS and calcium influx that activate calcium-dependent PAD4, which citrullinates histones to decondense DNA. PAD4 deficiency in Shigella flexneri-infected neutrophils abolished histone citrullination, vital NETosis and bacterial killing, and a selective PAD4 inhibitor abrogated ionomycin- or S. aureus-induced vital NETosis (Li et al. 2010; Lewis et al. 2015). In suicidal NETosis PAD4 is instead dispensable.",
+   "zh-TW": "PAD4 是 Vital NETosis 染色質去濃縮所必需。離子載體、細菌產物或胞外 pH 上升驅動粒線體 ROS 與鈣離子內流，活化鈣依賴的 PAD4，使其瓜胺酸化 Histone 以去濃縮 DNA。Shigella flexneri 感染的嗜中性球若缺乏 PAD4，即失去 Histone citrullination、Vital NETosis 與殺菌能力；選擇性 PAD4 抑制劑亦消除 ionomycin 或 S. aureus 誘導的 Vital NETosis（Li et al. 2010；Lewis et al. 2015）。相對地，PAD4 在 Suicidal NETosis 中非必要。"
+  },
+  "confidence": 0.95,
+  "source_document": "_document_ - Neutrophil Extracellular Traps in Host Defense.md",
+  "created": "2026-11-09T22:35:07Z",
+  "updated": "2026-11-09T22:35:07Z"
+ },
+ {
+  "id": "73d1631d3083",
+  "subject": "Suicidal NETosis",
+  "predicate": "is_independent_of",
+  "object": "PAD4",
+  "context": {
+   "en-US": "PAD4-dependent histone citrullination often accompanies suicidal NETosis but is often dispensable for NET extrusion via this pathway, probably because neutrophil elastase additionally cleaves and inactivates histones, providing redundancy (Claushuis et al. 2018; Guiducci et al. 2018). PAD4 is activated by a cytosolic calcium spike induced by ionophores but not by PMA. Suicidal NETosis therefore proceeds without PAD4, whereas PAD4 is crucial for chromatin decondensation in vital NETosis (Burgener & Schroder 2020).",
+   "zh-TW": "PAD4 依賴的 Histone citrullination 雖常伴隨 Suicidal NETosis 出現，但在此路徑的 NET 擠出中常被視為非必要，原因可能是 Neutrophil Elastase 另行切割並使 Histone 失活而提供冗餘（Claushuis et al. 2018；Guiducci et al. 2018）。PAD4 由離子載體誘發的胞質鈣離子尖峰活化，PMA 則不會。因此 Suicidal NETosis 不依賴 PAD4，而 PAD4 對 Vital NETosis 的染色質去濃縮至關重要（Burgener & Schroder 2020）。"
+  },
+  "confidence": 0.9,
+  "source_document": "_document_ - Neutrophil Extracellular Traps in Host Defense.md",
+  "created": "2026-11-09T22:35:07Z",
+  "updated": "2026-11-09T22:35:07Z"
+ },
+ {
+  "id": "bab32bc862fb",
+  "subject": "Noncanonical NETosis",
+  "predicate": "requires",
+  "object": "Noncanonical Inflammasome",
+  "context": {
+   "en-US": "Noncanonical NETosis is specified by the noncanonical inflammasome, which senses cytosolic lipopolysaccharide of Gram-negative bacteria and activates caspase-4/5 in humans or caspase-11 in mice (Chen et al. 2018). Unlike canonical caspase-1-activating inflammasomes, this pathway has no separate sensor protein: LPS binds the caspase CARD directly. Neutrophils die and extrude NETs on noncanonical inflammasome activation but resist caspase-1-dependent pyroptosis during canonical inflammasome signaling (Burgener & Schroder 2020).",
+   "zh-TW": "Noncanonical NETosis 由 Noncanonical Inflammasome 所指定，後者感測 Gram-Negative Bacteria 的胞質 Lipopolysaccharide，並活化人類 Caspase-4/5 或小鼠 Caspase-11（Chen et al. 2018）。與活化 Caspase-1 的典型發炎體不同，此路徑無獨立的感測蛋白：LPS 直接結合 caspase 的 CARD。嗜中性球在 Noncanonical Inflammasome 活化時死亡並擠出 NETs，但在典型發炎體訊號下不發生 Caspase-1 依賴的 Pyroptosis（Burgener & Schroder 2020）。"
+  },
+  "confidence": 0.95,
+  "source_document": "_document_ - Neutrophil Extracellular Traps in Host Defense.md",
+  "created": "2026-11-09T22:35:07Z",
+  "updated": "2026-11-09T22:35:07Z"
+ },
+ {
+  "id": "c9c7077c5024",
+  "subject": "Noncanonical NETosis",
+  "predicate": "requires",
+  "object": "Caspase-11",
+  "context": {
+   "en-US": "Caspase-11 (mouse; caspase-4 in humans) is required for noncanonical NETosis. Human and murine neutrophils infected with cytosol-accessing Gram-negative bacteria (Delta-sifA Salmonella enterica, Citrobacter rodentium) died and extruded NETs through a pathway requiring caspase-4/11 and GSDMD but not NE or MPO (Chen et al. 2018). GSDMD-p30 nuclear pores allow caspase-11 to access chromatin, where it degrades histones in a function analogous to neutrophil elastase in suicidal NETosis.",
+   "zh-TW": "Caspase-11（小鼠；人類為 Caspase-4）為 Noncanonical NETosis 所必需。感染可進入胞質之 Gram-Negative Bacteria（Delta-sifA Salmonella enterica、Citrobacter rodentium）的人類與小鼠嗜中性球，經由需要 Caspase-4/11 與 GSDMD、但不需 NE 或 MPO 的路徑死亡並擠出 NETs（Chen et al. 2018）。GSDMD-p30 核孔使 Caspase-11 得以接觸染色質，在該處降解 Histone，功能類似 Suicidal NETosis 中的 Neutrophil Elastase。"
+  },
+  "confidence": 0.95,
+  "source_document": "_document_ - Neutrophil Extracellular Traps in Host Defense.md",
+  "created": "2026-11-09T22:35:07Z",
+  "updated": "2026-11-09T22:35:07Z"
+ },
+ {
+  "id": "c4f8d6e5dd56",
+  "subject": "Noncanonical NETosis",
+  "predicate": "is_independent_of",
+  "object": "Neutrophil Elastase",
+  "context": {
+   "en-US": "Neutrophil NET extrusion during noncanonical NETosis requires the pyroptotic machinery, caspase-4/11 and GSDMD, but proceeds independently of neutrophil elastase and myeloperoxidase (Chen et al. 2018). PAD4-dependent histone citrullination accompanies the pathway but is not required for death or NET extrusion; instead caspase-11 gains nuclear access through GSDMD-p30 pores and degrades histones. This NE/MPO/PAD4 independence separates noncanonical NETosis from the NE/MPO/ROS-driven suicidal pathway (Burgener & Schroder 2020).",
+   "zh-TW": "Noncanonical NETosis 期間的嗜中性球 NET 擠出需要焦亡機制、Caspase-4/11 與 GSDMD，但不依賴 Neutrophil Elastase 與 Myeloperoxidase（Chen et al. 2018）。PAD4 依賴的 Histone citrullination 雖伴隨此路徑，卻非死亡或 NET 擠出所必需；取而代之的是 Caspase-11 經 GSDMD-p30 核孔進入細胞核降解 Histone。此 NE/MPO/PAD4 非依賴性將 Noncanonical NETosis 與 NE/MPO/ROS 驅動的 Suicidal NETosis 區分開來（Burgener & Schroder 2020）。"
+  },
+  "confidence": 0.95,
+  "source_document": "_document_ - Neutrophil Extracellular Traps in Host Defense.md",
+  "created": "2026-11-09T22:35:07Z",
+  "updated": "2026-11-09T22:35:07Z"
+ },
+ {
+  "id": "57a58425bc3d",
+  "subject": "Noncanonical Inflammasome",
+  "predicate": "senses",
+  "object": "Lipopolysaccharide",
+  "context": {
+   "en-US": "The noncanonical inflammasome senses cytosolic lipopolysaccharide of Gram-negative bacteria: on LPS detection it assembles to activate caspase-4/5 in humans and caspase-11 in mice, which cleave GSDMD to trigger GSDMD-p30 plasma membrane pores, IL-1beta/IL-18 release and pyroptotic lysis (Kayagaki et al. 2015; Shi et al. 2015; Liu et al. 2016). Lipopolysaccharide that reaches the neutrophil cytosol through phagosomal escape therefore specifies noncanonical NETosis (Chen et al. 2018; Burgener & Schroder 2020).",
+   "zh-TW": "Noncanonical Inflammasome 感測 Gram-Negative Bacteria 的胞質 Lipopolysaccharide：偵測到 LPS 後組裝並活化人類 Caspase-4/5 與小鼠 Caspase-11，後者切割 GSDMD，觸發 GSDMD-p30 質膜孔道、IL-1beta/IL-18 釋出與焦亡性裂解（Kayagaki et al. 2015；Shi et al. 2015；Liu et al. 2016）。因此經吞噬體逃逸進入嗜中性球胞質的 Lipopolysaccharide 指定了 Noncanonical NETosis（Chen et al. 2018；Burgener & Schroder 2020）。"
+  },
+  "confidence": 0.95,
+  "source_document": "_document_ - Neutrophil Extracellular Traps in Host Defense.md",
+  "created": "2026-11-09T22:35:07Z",
+  "updated": "2026-11-09T22:35:07Z"
+ },
+ {
+  "id": "de941b39fc52",
+  "subject": "Caspase-11",
+  "predicate": "degrades",
+  "object": "Histone",
+  "context": {
+   "en-US": "During noncanonical NETosis, GSDMD-p30 nuclear pores appear to enable caspase-11 to access chromatin, where caspase-11 degrades histones to relax DNA in a function analogous to neutrophil elastase in suicidal NETosis (Chen et al. 2018). Histone degradation by caspase-11 substitutes for the NE-dependent histone clipping and PAD4-dependent citrullination used by other NETosis pathways, and explains why noncanonical NETosis proceeds independently of NE, MPO and PAD4 while still displaying histone citrullination as a morphological hallmark.",
+   "zh-TW": "在 Noncanonical NETosis 期間，GSDMD-p30 核孔使 Caspase-11 得以接觸染色質，並於該處降解 Histone 以鬆弛 DNA，功能類似 Suicidal NETosis 中的 Neutrophil Elastase（Chen et al. 2018）。Caspase-11 對 Histone 的降解取代了其他 NETosis 路徑所使用的 NE 依賴 Histone 切割與 PAD4 依賴 citrullination，並說明為何 Noncanonical NETosis 不依賴 NE、MPO 與 PAD4，卻仍以 Histone citrullination 作為形態學標記。"
+  },
+  "confidence": 0.9,
+  "source_document": "_document_ - Neutrophil Extracellular Traps in Host Defense.md",
+  "created": "2026-11-09T22:35:07Z",
+  "updated": "2026-11-09T22:35:07Z"
+ },
+ {
+  "id": "c9b4d689f7cb",
+  "subject": "Vital NETosis",
+  "predicate": "is_independent_of",
+  "object": "NADPH Oxidase",
+  "context": {
+   "en-US": "NADPH oxidase function is dispensable for vital NETosis, whereas most stimulators of suicidal NETosis require it and induce NE-dependent histone clipping (Pilsczek et al. 2010; Douda et al. 2015). Vital NETosis instead depends on mitochondrial ROS, calcium influx and calcium-activated PAD4, proceeds without apparent histone clipping (Pieterse et al. 2018), and externalises chromatin by vesicular nuclear blebbing without plasma-membrane permeabilisation. NADPH oxidase therefore separates the vital arm from the ROS-driven suicidal arm.",
+   "zh-TW": "NADPH Oxidase 功能對 Vital NETosis 非必要，而多數 Suicidal NETosis 刺激劑需要它並誘發 NE 依賴的 Histone 切割（Pilsczek et al. 2010；Douda et al. 2015）。Vital NETosis 反而依賴粒線體 ROS、鈣離子內流與鈣活化的 PAD4，在無明顯 Histone 切割下進行（Pieterse et al. 2018），並以核出芽囊泡外排染色質而不穿透質膜。因此 NADPH Oxidase 區分了 vital 臂與 ROS 驅動的 suicidal 臂。"
+  },
+  "confidence": 0.9,
+  "source_document": "_document_ - Neutrophil Extracellular Traps in Host Defense.md",
+  "created": "2026-11-09T22:35:07Z",
+  "updated": "2026-11-09T22:35:07Z"
+ },
+ {
+  "id": "3451dba5452c",
+  "subject": "TLR4",
+  "predicate": "triggers",
+  "object": "Vital NETosis",
+  "context": {
+   "en-US": "TLR4 participates in receptor-mediated rapid vital NETosis: TLR4-activated platelets and platelet-neutrophil interaction via P-selectin are required for NET extrusion when neutrophils are exposed to bacterial LPS in whole blood (Pieterse et al. 2016). TLR2 or TLR4 blockade also suppresses NET formation induced by in vitro S. aureus exposure, while TLR2 is required during murine in vivo skin infection (Yipp et al. 2012; Wan et al. 2017). Vital NETosis is thus receptor-specified rather than ROS-driven.",
+   "zh-TW": "TLR4 參與受體媒介的快速 Vital NETosis：嗜中性球在全血中暴露於細菌 LPS 時，NET 擠出需要 TLR4 表現於 Platelets 上，以及經 P-selectin 的血小板–嗜中性球交互作用（Pieterse et al. 2016）。TLR2 或 TLR4 阻斷亦抑制體外 S. aureus 誘導的 NET 形成，而 TLR2 在小鼠體內皮膚感染中為必要（Yipp et al. 2012；Wan et al. 2017）。因此 Vital NETosis 由受體指定，而非由 ROS 驅動。"
+  },
+  "confidence": 0.9,
+  "source_document": "_document_ - Neutrophil Extracellular Traps in Host Defense.md",
+  "created": "2026-11-09T22:35:07Z",
+  "updated": "2026-11-09T22:35:07Z"
+ },
+ {
+  "id": "e9bbdafa7a12",
+  "subject": "Phagocytosis",
+  "predicate": "prevents",
+  "object": "NETosis",
+  "context": {
+   "en-US": "A microbe size-sensing mechanism makes phagosome formation a checkpoint that prevents NETosis. Small microbes readily taken up by phagocytosis are poor NET stimulants because the phagosome fuses with azurophil granules, sequestering the granule proteases needed to initiate NETosis (Branzk et al. 2014). Microbes too large to be engulfed, such as C. albicans hyphae or Mycobacterium bovis aggregates, instead trigger cytosolic NE release and NET formation; dectin-1-deficient neutrophils show uncontrolled NET release (Branzk et al. 2014).",
+   "zh-TW": "微生物尺寸感測機制使吞噬體形成成為阻止 NETosis 的檢查點。易被 Phagocytosis 攝入的小型微生物是弱的 NET 刺激物，因為吞噬體與 azurophil 顆粒融合，隔離了啟動 NETosis 所需的顆粒蛋白酶（Branzk et al. 2014）。過大而無法被吞噬的微生物，如 C. albicans 菌絲或 Mycobacterium bovis 聚集體，則觸發胞質 NE 釋出與 NET 形成；dectin-1 缺陷的嗜中性球呈現不受控的 NET 釋出（Branzk et al. 2014）。"
+  },
+  "confidence": 0.9,
+  "source_document": "_document_ - Neutrophil Extracellular Traps in Host Defense.md",
+  "created": "2026-11-09T22:35:07Z",
+  "updated": "2026-11-09T22:35:07Z"
+ },
+ {
+  "id": "469ffe709323",
+  "subject": "Gram-Negative Bacteria",
+  "predicate": "induces",
+  "object": "Noncanonical NETosis",
+  "context": {
+   "en-US": "Gram-negative bacteria that escape the phagosome and translocate to the cytosol induce NETs through the noncanonical inflammasome pathway (Chen et al. 2018). Human and murine neutrophils infected with cytosol-accessing Delta-sifA Salmonella enterica or Citrobacter rodentium died and extruded NETs with nuclear delobulation, DNA extrusion, DNA-MPO colocalisation and histone citrullination. Noncanonical NETosis suppresses bacterial residence in the neutrophil cytosol and prevents in vivo dissemination to secondary infection sites (Burgener & Schroder 2020).",
+   "zh-TW": "逃離吞噬體並轉位至胞質的 Gram-Negative Bacteria 會經 Noncanonical Inflammasome 路徑誘發 NETs（Chen et al. 2018）。感染可進入胞質之 Delta-sifA Salmonella enterica 或 Citrobacter rodentium 的人類與小鼠嗜中性球，出現核分葉消失、DNA 擠出、DNA-MPO 共定位與 Histone citrullination 並死亡擠出 NETs。Noncanonical NETosis 抑制細菌在嗜中性球胞質內滯留，並防止體內擴散至次級感染部位（Burgener & Schroder 2020）。"
+  },
+  "confidence": 0.9,
+  "source_document": "_document_ - Neutrophil Extracellular Traps in Host Defense.md",
+  "created": "2026-11-09T22:35:07Z",
+  "updated": "2026-11-09T22:35:07Z"
+ },
+ {
+  "id": "70318d7ba1b6",
+  "subject": "Neutrophil Extracellular Traps",
+  "predicate": "limits",
+  "object": "Microbial Dissemination",
+  "context": {
+   "en-US": "Neutrophil extracellular traps restrict microbial dissemination to secondary infection sites by entrapping microbes. DNase I dismantling of NETs at a primary infection site promoted bacterial dissemination in wild-type mice but not in Casp11- or Gsdmd-deficient mice, indicating that the NET structures themselves mediate host defense (Chen et al. 2018). Confocal intravital microscopy captured circulating E. coli in NETs within hepatic sinusoids, and NETs additionally carry direct antimicrobial cargo (histones, NE, MPO, GSDMD-p30) (McDonald et al. 2012; Burgener & Schroder 2020).",
+   "zh-TW": "Neutrophil Extracellular Traps 藉由捕捉微生物，限制其擴散至次級感染部位。在原發感染部位以 DNase I 拆解 NETs 會促進野生型小鼠的細菌擴散，但 Casp11 或 Gsdmd 缺陷小鼠則否，顯示 NET 結構本身即媒介宿主防禦（Chen et al. 2018）。共軛焦活體顯微鏡捕捉到肝竇內 NETs 捕捉循環中 E. coli；NETs 另攜帶直接抗微生物貨物（Histone、NE、MPO、GSDMD-p30）（McDonald et al. 2012；Burgener & Schroder 2020）。"
+  },
+  "confidence": 0.9,
+  "source_document": "_document_ - Neutrophil Extracellular Traps in Host Defense.md",
+  "created": "2026-11-09T22:35:07Z",
+  "updated": "2026-11-09T22:35:07Z"
+ },
+ {
+  "id": "c2bbcf6ac3f6",
+  "subject": "IL-1β",
+  "predicate": "recruits",
+  "object": "Neutrophils",
+  "context": {
+   "en-US": "IL-1beta secretion downstream of GSDMD-driven NLRP3 inflammasome activation recruits neutrophils to a site of infection, where IL-1beta and other factors activate them and extend their life span so they can kill NET-entrapped microbes (Monteleone et al. 2018; Miller et al. 2007; Rider et al. 2011; Biondo et al. 2014). In noncanonical NETosis, GSDMD-p30 pores enable both NET release and IL-1beta secretion, coupling physical pathogen immobilisation to cellular recruitment (Chen et al. 2018; Burgener & Schroder 2020).",
+   "zh-TW": "GSDMD 驅動的 NLRP3 發炎體活化下游之 IL-1beta 分泌，會將 Neutrophils 招募至感染部位；IL-1beta 與其他因子並活化嗜中性球、延長其壽命，使其得以殺死被 NETs 捕捉的微生物（Monteleone et al. 2018；Miller et al. 2007；Rider et al. 2011；Biondo et al. 2014）。在 Noncanonical NETosis 中，GSDMD-p30 孔道同時促成 NET 釋出與 IL-1beta 分泌，將物理性病原固定與細胞招募耦聯（Chen et al. 2018；Burgener & Schroder 2020）。"
+  },
+  "confidence": 0.9,
+  "source_document": "_document_ - Neutrophil Extracellular Traps in Host Defense.md",
+  "created": "2026-11-09T22:35:07Z",
+  "updated": "2026-11-09T22:35:07Z"
+ },
+ {
+  "id": "242fb2522689",
+  "subject": "Chronic Granulomatous Disease",
+  "predicate": "impairs",
+  "object": "Suicidal NETosis",
+  "context": {
+   "en-US": "Chronic granulomatous disease is an NADPH-oxidase deficiency whose neutrophils cannot generate the ROS required for suicidal NETosis: PMA- and microbe-induced NET release is suppressed in CGD neutrophils (Bianchi et al. 2009; Roehm et al. 2014). Gene therapy restored NADPH oxidase function in a CGD patient and consequently reinstated NET production capable of inhibiting Aspergillus nidulans growth. Because invasive aspergillosis is a leading cause of death in CGD, ROS-dependent NETs are implicated in anti-Aspergillus host defense (Burgener & Schroder 2020).",
+   "zh-TW": "Chronic Granulomatous Disease 為 NADPH Oxidase 缺陷，其嗜中性球無法產生 Suicidal NETosis 所需的 ROS：CGD 嗜中性球中 PMA 與微生物誘導的 NET 釋出受抑制（Bianchi et al. 2009；Roehm et al. 2014）。對一名 CGD 患者進行基因治療恢復 NADPH Oxidase 功能後，重新獲得能抑制 Aspergillus nidulans 生長的 NETs。由於侵襲性麴菌病是 CGD 主要死因，ROS 依賴的 NETs 被認為參與抗 Aspergillus 宿主防禦（Burgener & Schroder 2020）。"
+  },
+  "confidence": 0.85,
+  "source_document": "_document_ - Neutrophil Extracellular Traps in Host Defense.md",
+  "created": "2026-11-09T22:35:07Z",
+  "updated": "2026-11-09T22:35:07Z"
+ },
+ {
+  "id": "84f6904ec434",
+  "subject": "Streptococcus pyogenes",
+  "predicate": "degrades",
+  "object": "Neutrophil Extracellular Traps",
+  "context": {
+   "en-US": "Group A Streptococcus (Streptococcus pyogenes) evades NET-dependent host defense by expressing nucleases that degrade the NET DNA web, and by suppressing MPO release via the M1T1 serotype streptococcal collagen-like protein 1 (Scl-1) (Sumby et al. 2005; Walker et al. 2007; Doehring et al. 2014). Neutrophil extracellular traps are therefore a selective pressure driving microbial countermeasures: other pathogens block upstream signaling or resist NET-bound antimicrobial proteins (Burgener & Schroder 2020).",
+   "zh-TW": "Group A Streptococcus（Streptococcus pyogenes）藉由表現降解 NET DNA 網的核酸酶，以及經 M1T1 血清型 streptococcal collagen-like protein 1（Scl-1）抑制 MPO 釋出，來逃避免疫依賴的 NET 宿主防禦（Sumby et al. 2005；Walker et al. 2007；Doehring et al. 2014）。因此 Neutrophil Extracellular Traps 構成驅動微生物反制措施的選汰壓力：其他病原體則阻斷上游訊號或抵抗 NET 結合的抗微生物蛋白（Burgener & Schroder 2020）。"
+  },
+  "confidence": 0.85,
+  "source_document": "_document_ - Neutrophil Extracellular Traps in Host Defense.md",
+  "created": "2026-11-09T22:35:07Z",
+  "updated": "2026-11-09T22:35:07Z"
  }
 ]

@@ -3,14 +3,14 @@ title: Shared Entities (_link)
 aliases: []
 description: index of cross-topic shared entities and documents in the _link directory
 created: 2026-08-16
-updated: 2026-11-08
+updated: 2026-11-09
 ---
 # Shared Entities (`_link`)
 
-Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **2069 entities** in a single flat index and **34 documents**.
+Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **2099 entities** in a single flat index and **34 documents**.
 
 > [!note]
-> `_link` index. Total entities: 2069 | Documents: 34
+> `_link` index. Total entities: 2099 | Documents: 34
 >
 ## Documents
 
@@ -201,6 +201,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[ASC\|ASC]] | Apoptosis-associated speck-like protein containing a CARD; the adaptor that nucleates inflammasome assembly and ASC specks downstream of AIM2/NLRP3. |
 | [[ASCT2\|ASCT2]] | ASCT2 (SLC1A5) is a sodium-dependent neutral amino acid transporter that is the principal plasma-membrane importer of glutamine, and a well-characterized metabolic dependency of cancer cells. |
 | [[ASF1a\|ASF1a]] | Anti-silencing function 1a histone chaperone that hands off H3.3–H4 to the HIRA complex and is essential for SAHF formation in senescent cells. |
+| [[Aspergillus fumigatus]] | Filamentous fungal NET inducer; ROS-dependent NETs are implicated in defense against Aspergilli in chronic granulomatous disease. |
 | [[Astrocyte Senescence\|Astrocyte Senescence]] | Acquisition of a senescence-associated phenotype by astrocytes, driven by cGAS-STING signaling in neurodegenerative disease. |
 | [[Astrocytes\|Astrocytes]] | Star-shaped glia that support neurons and, when activated via cGAS-STING, adopt neurotoxic A1/senescent states in neurodegeneration. |
 | [[ATAC-seq\|ATAC-seq]] | ATAC-seq (Assay for Transposase-Accessible Chromatin using sequencing) is a method for mapping Chromatin Accessibility genome-wide. It uses hyperactive Tn5 Transposase to simultaneously fragmen... |
@@ -227,9 +228,12 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Aurora Kinase\|Aurora Kinase]] | Aurora Kinases (Aurora-A, Aurora-B, Aurora-C) are a family of serine/threonine kinases that regulate mitotic spindle assembly, chromosome segregation, and cytokinesis. Aurora-A and Aurora-B levels rise when SIRT2 is disrupted, linking sirtuins to aneuploidy. |
 | [[Autism\|Autism]] | Autism spectrum disorder (ASD) is a heterogeneous neurodevelopmental condition characterized by persistent deficits in social communication and interaction alongside restricted, repetitive behaviors, arising from highly polygenic susceptibility interacting with prenatal environment and, possibly, immune mechanisms. |
 | [[Autoimmune Disease\|Autoimmune Disease]] | Etiology and pathophysiology: Autoimmune Disease is a medical condition characterized by specific pathological changes in cellular, tissue, or organ function. Its development involves genetic, ... |
+| [[Autoimmune Vasculitis]] | Autoimmune vessel-wall inflammation associated with vital NETosis and proposed, without clinical testing, as a GSDMD-inhibitor indication. |
 | [[Autoinflammation\|Autoinflammation]] | Autoinflammation refers to dysregulated innate immune activation without identifiable adaptive immune involvement, driven by inflammasome hyperactivation and excessive IL-1β production. |
 | [[Autonomic Nervous System\|Autonomic Nervous System]] | The involuntary branch of the peripheral nervous system (sympathetic and parasympathetic) that regulates visceral function and, via HRV, mirrors recovery capacity. |
 | [[Axon Degeneration\|Axon Degeneration]] | Axon degeneration is the pathological loss of axonal integrity in response to injury, disease, or metabolic stress, with SARM1-mediated Wallerian degeneration as its best-characterized execution pathway. |
+| [[Azurophil Granule]] | Primary neutrophil granules storing elastase, MPO, cathepsin G, proteinase 3 and antimicrobial peptides that supply NET cargo and gate suicidal NETosis. |
+| [[Azurosome]] | Azurophil-granule complex sequestering NE with MPO and other granule proteins; ROS-driven dissociation releases NE to initiate suicidal NETosis. |
 | [[B Cells\|B Cells]] | Antibody-producing adaptive lymphocytes that infiltrate the CNS in neurodegeneration and are shaped by cGAS-STING signaling. |
 | [[B-cell Immunoglobulin-derived Gene 1\|B-cell Immunoglobulin-derived Gene 1]] | A disambiguation entry for the historical gene name BIG1, which in the vault resolves to GBF1, the Golgi-resident Sec7-domain Arf1 guanine nucleotide exchange factor that drives COPI coat recruitment and secretory-pathway trafficking. The full name "B-cell immunoglobulin-derived gene 1" is not a current HGNC or NCBI Gene symbol. |
 | [[B2M\|B2M]] | Beta-2 microglobulin, the invariant light chain of MHC class I molecules; a senescence surface marker used for targeted senolytic delivery and a plasma protein surrogate in the DNAmGrimAge epigenetic clock. |
@@ -269,6 +273,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Body Mass Index\|Body Mass Index]] | A simple anthropometric index calculated as body weight in kilograms divided by height in metres squared (kg/m2), used to classify underweight, normal weight, overweight, and obesity in populations and clinical practice. |
 | [[Bone Marrow\|Bone Marrow]] | Bone Marrow is a semi-solid tissue found within the spongy (trabecular) portions of bones. It is the primary site of Hematopoiesis — the production of all blood cell lineages — in adult mammals. |
 | [[Bone marrow-derived macrophages\|Bone marrow-derived macrophages]] | Macrophages differentiated in vitro from bone marrow progenitors; widely used model for inflammasome and innate immune studies. |
+| [[Bordetella pertussis]] | Gram-negative pathogen whose adenylate cyclase toxin raises cAMP to suppress the ERK-dependent neutrophil oxidative burst and NETosis. |
 | [[Bortezomib\|Bortezomib]] | A first-in-class reversible proteasome inhibitor used to treat multiple myeloma and mantle cell lymphoma. |
 | [[BRAF\|BRAF]] | BRAF (B-Raf Proto-Oncogene, Serine/Threonine Kinase) is a protein kinase in the RAS-RAF-MEK1/2-ERK1/2 (MAPK/ERK pathway) signaling cascade that regulates Cell Proliferation, Differentiation, and Su... |
 | [[Brain\|Brain]] | The Brain is the central organ of the nervous system, coordinating cognition, sensation, movement, and autonomic control. |
@@ -305,9 +310,11 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Caloric Restriction\|Caloric Restriction]] | Caloric restriction (CR)—reducing calorie intake without malnutrition—is the most robust non-genetic intervention known to delay Aging. It exerts its effects largely by remodeling the Epigenome, ef... |
 | [[Calpain\|Calpain]] | Calpain is a Ca2+-dependent cysteine protease; calpain I is a candidate mediator of AIF release in parthanatos and cleaves BID to route Ca2+ signals through BAX, though its role is dispensable in some models. |
 | [[Calpain-2\|Calpain-2]] | Calcium-dependent cysteine protease (CAPN2/m-calpain) recruited by the phosphorylated caspase-8 scaffold to drive focal-adhesion turnover, migration and therapy resistance. |
+| [[Calprotectin]] | S100A8/S100A9 heterodimer and major antifungal NET protein; about one third of cellular S100A9 is released NET-bound. |
 | [[Calreticulin\|Calreticulin]] | Calreticulin (CRT, CALR) is an ER calcium-binding chaperone with three domains that also functions as a cell-surface 'eat-me' signal driving phagocytic clearance, a plasminogen receptor on the tumor surface, and a regulator of both MeCP2 and NRF2 activity. |
 | [[Canakinumab\|Canakinumab]] | Canakinumab is a human monoclonal antibody that selectively targets interleukin-1 beta (IL-1β), used in autoinflammatory conditions and studied for cardiovascular risk reduction. |
 | [[Cancer Chemoprevention\|Cancer Chemoprevention]] | The use of natural or synthetic agents to prevent, reverse, or delay carcinogenesis before invasive cancer develops. |
+| [[Candida albicans]] | Fungal pathogen whose hyphae exceed phagocytic capacity, triggering size-sensing NET release and CR3-mediated vital NETosis. |
 | [[CANTOS Trial\|CANTOS Trial]] | Landmark trial proving IL-1beta blockade with canakinumab lowers cardiovascular events independent of lipids. |
 | [[cap-dependent translation\|cap-dependent translation]] | Definition: cap-dependent translation is a fundamental biological process that maintains cellular and organismal homeostasis. It involves coordinated molecular events regulated by signaling pat... |
 | [[Cardiac Development\|Cardiac Development]] | Cardiogenesis is the process by which the heart forms from mesoderm through induction, tube formation, looping, septation and maturation, controlled by combinatorial transcription factor codes and sequential waves of signalling. |
@@ -327,6 +334,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Catechol\|Catechol]] | Catechol (pyrocatechol, 1,2-dihydroxybenzene) is an organic ortho-diphenol compound, the parent scaffold of the catecholamine family and a key intermediate in melanin formation and adrenochrome research. |
 | [[Catecholamine-induced cardiomyopathy\|Catecholamine-induced cardiomyopathy]] | Myocardial injury and ventricular dysfunction caused by excess catecholamines from stress, pheochromocytoma, or exogenous sympathomimetics. |
 | [[Catecholamines\|Catecholamines]] | Catecholamines are a class of aromatic amines that serve as hormones and neurotransmitters. They are characterized by a catechol group (a benzene ring with two hydroxyl groups) and an amine sid... |
+| [[Cathepsin G]] | Neutrophil serine protease (CatG) of azurophil granules, azurosome complex and NET granule cargo. |
 | [[Cathepsin L1\|Cathepsin L1]] | Lysosomal cysteine protease (CTSL) that cleaves the N-terminal tail of histone H3.3, generating the senescence-associated H3.3cs1 fragment linked to SASP and growth arrest. |
 | [[CB-839\|CB-839]] | CB-839 (telaglenastat) — a first-in-class, orally bioavailable glutaminase (GLS1) inhibitor that starves glutamine-addicted tumors of TCA anaplerosis; limited monotherapy efficacy, but a synthetic-lethality partner for Complex I inhibition in MYC-high tumors. |
 | [[CBP\|CBP]] | CBP (CREB-binding protein / CREBBP) is a 2442-residue transcriptional coactivator and lysine acetyltransferase that scaffolds enhancer-bound transcription factors to the Mediator complex and acetylates histones and non-histone targets including p53. |
@@ -424,6 +432,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Citrate\|Citrate]] | Tricarboxylic acid intermediate of the TCA cycle and substrate for mitochondrial citrate carrier SLC25A1. Exported to the cytosol, citrate is converted by ACLY to acetyl-CoA for lipid synthesis and histone acetylation. |
 | [[Citrate Synthase\|Citrate Synthase]] | The first and rate-limiting enzyme of the tricarboxylic acid (TCA) cycle, catalysing condensation of acetyl-CoA with oxaloacetate to form citrate. Citrate synthase activity is a marker of mitochondrial content and is induced in muscle by endurance training. |
 | [[Citric Acid Cycle\|Citric Acid Cycle]] | The central mitochondrial metabolic pathway (Krebs/TCA cycle) that generates NADH and FADH2 for OXPHOS; its dysregulation contributes to the altered NAD+/NADH ratio and bioenergetic defects of senescent cells. |
+| [[Citrobacter rodentium]] | Cytosol-accessing Gram-negative bacterium used with Delta-sifA Salmonella to define caspase-4/11- and GSDMD-dependent noncanonical NETosis. |
 | [[CK2\|CK2]] | Casein kinase 2 is a ubiquitous serine/threonine protein kinase that restrains NF-κB and senescence. |
 | [[Cl-amidine\|Cl-amidine]] | A pan-peptidylarginine deiminase inhibitor that blocks PAD4-mediated histone citrullination and NET release — the pharmacological probe for PAD4-dependent NETosis. |
 | [[Clathrin\|Clathrin]] | Clathrin is a three-legged scaffold protein that polymerises into the lattice of clathrin-coated pits and vesicles, the entry route for receptor-mediated endocytosis at the plasma membrane and at endosomes. |
@@ -450,6 +459,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Collagen\|Collagen]] | Collagen is the main structural protein in the extracellular matrix of various connective tissues in the body. |
 | [[Colloidal Silver\|Colloidal Silver]] | Colloidal silver is a suspension of silver nanoparticles in water, marketed as a broad-spectrum antimicrobial with no approved therapeutic indication. Its antimicrobial plausibility has not been supported by clinical evidence, and chronic ingestion causes irreversible argyria. |
 | [[Colorectal Cancer\|Colorectal Cancer]] | Colorectal cancer (CRC) is a common malignant tumor affecting the colon or rectum. |
+| [[Complement Receptor 3]] | Beta-2 integrin (CD11b/CD18) recognising fibronectin-bound fungal beta-glucan to trigger receptor-mediated vital NETosis. |
 | [[Complement System\|Complement System]] | The complement system is a network of roughly 30 soluble and membrane-bound proteins that provides the fastest-acting antimicrobial defence, links innate and adaptive immunity, and is a major driver of inflammatory and autoimmune disease when dysregulated. |
 | [[Complex I\|Complex I]] | Complex I (NADH:ubiquinone oxidoreductase) is the first and largest enzyme complex of the mitochondrial respiratory chain. |
 | [[Complex II\|Complex II]] | Succinate dehydrogenase, the only TCA-cycle enzyme also embedded in the electron transport chain, oxidizing succinate and feeding electrons to ubiquinone. |
@@ -544,6 +554,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[DdCBE\|DdCBE]] | DddA-derived cytosine base editors, a class of programmable base-editing tools that make targeted C-to-T edits in mitochondrial DNA without creating double-strand breaks; an emerging approach to correct pathogenic mtDNA mutations. |
 | [[DDX3X\|DDX3X]] | DDX3X (DEAD-box helicase 3 X-linked) is an X-linked RNA helicase involved in translation initiation and mRNA splicing; recurrently mutated in cancer with male-enriched loss-of-function mutations. |
 | [[DDX3Y\|DDX3Y]] | DDX3Y (DEAD-box helicase 3 Y-linked) is the Y homolog of DDX3X with overlapping but non-identical RNA-helicase functions and partial tumor-suppressor compensation. |
+| [[Dectin-1]] | Fungal beta-glucan receptor (CLEC7A) whose loss causes uncontrolled NET release by disrupting neutrophil microbe size sensing. |
 | [[Deep Vein Thrombosis\|Deep Vein Thrombosis]] | Deep vein thrombosis is clot formation in a deep vein, most often below the knee, arising where venous stasis, endothelial injury and hypercoagulability converge; it is the primary cause of pulmonary embolism and a major preventable cause of morbidity and mortality. |
 | [[Deferoxamine\|Deferoxamine]] | Deferoxamine (DFO) is an iron-chelating drug that inhibits ferroptosis by depriving cells of the labile iron required for Fenton-driven lipid peroxidation. |
 | [[Defibrillation]] | Defibrillation is the delivery of an unsynchronised electrical shock through the chest to terminate ventricular fibrillation or pulseless ventricular tachycardia by depolarising a critical mass of myocardium and allowing spontaneous circulation to restart. |
@@ -577,6 +588,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[DNA Repair\|DNA Repair]] | DNA repair refers to the collection of processes by which a cell identifies and corrects damage to the DNA molecules that encode its genome. |
 | [[DNA-PK\|DNA-PK]] | DNA-dependent protein kinase catalytic subunit (PRKDC) central to non-homologous end joining. |
 | [[DNA-SCARS\|DNA-SCARS]] | Persistent nuclear DNA damage foci (DNA segments with chromatin alterations reinforcing senescence) that sustain growth arrest and inflammatory cytokine secretion in senescence. |
+| [[DNase I]] | Endonuclease degrading NET DNA; experimental NET dismantling promoted bacterial dissemination in wild-type but not Casp11/Gsdmd-deficient mice. |
 | [[DNASE2\|DNASE2]] | Acid endolysosomal DNase whose downregulation in senescence permits cytosolic DNA accumulation and cGAS-STING activation. |
 | [[DNM2\|DNM2]] | Dynamin 2, a dynamin-like GTPase recruited to DRP1-constricted mitochondria to complete division. |
 | [[dNTP\|dNTP]] | Deoxyribonucleoside triphosphates (dNTPs — dATP, dGTP, dCTP, dTTP) are the four deoxyribose building blocks of DNA, produced de novo by ribonucleotide reductase; balanced dNTP pools are essential for high-fidelity DNA replication and repair, and both depletion and imbalance drive replication stress, mutagenesis, and genomic instability. |
@@ -675,6 +687,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Erythrocyte Senescence\|Erythrocyte Senescence]] | The ~120-day red-cell aging program (density rise, desialylation, cation loss, oxidative damage, CD47 loss, AE1 neo-antigen) cleared over days by macrophage/NOAb immunity — distinct from minutes-fast eryptosis. |
 | [[Erythropoietin\|Erythropoietin]] | The renal hypoxia-induced hematopoietic cytokine (EPO) driving erythropoiesis — reported protective against eryptosis, though direct anti-eryptotic action is inferred rather than demonstrated. |
 | [[Erythropoiesis\|Erythropoiesis]] | The marrow line from hematopoietic stem cells to mature erythrocytes, ending in enucleation and organelle clearance — which is why mature red cells retain only a truncated death machinery. |
+| [[Escherichia coli]] | Gram-negative bacterium captured by NETs in hepatic sinusoids and killed by NET proteases, MPO oxidants and GSDMD-p30 pores. |
 | [[Essential Amino Acids\|Essential Amino Acids]] | The nine amino acids that cannot be synthesized de novo by humans and must be obtained from the diet (histidine, isoleucine, leucine, lysine, methionine, phenylalanine, threonine, tryptophan, valine). Their dietary restriction underlies the benefits of protein and amino-acid restriction. |
 | [[Estrogen\|Estrogen]] | Estrogen is a category of sex hormones responsible for the development and regulation of the female reproductive system and secondary sex characteristics. |
 | [[Estrogen Receptor\|Estrogen Receptor]] | Nuclear receptor transcription factors (ERα/ERβ) that mediate estrogen signaling and are key targets in breast and other hormone-sensitive cancers; ERβ in particular gates female-restrained inflammasome/cell-death programs and is an emerging sex-stratified therapeutic axis. |
@@ -825,6 +838,8 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Growth Factor\|Growth Factor]] | Growth factors are signaling molecules (typically Peptides or Proteins) that stimulate Cell Proliferation, Differentiation, Survival, and Migration by binding to Receptor Tyrosine Kinases or G Prot... |
 | [[Growth Factor Receptor\|Growth Factor Receptor]] | Growth factor receptors are cell-surface receptors — almost all receptor tyrosine kinases — that bind secreted peptide growth factors such as EGF, FGF, VEGF, PDGF and insulin-like factors. Ligand binding induces oligomerisation and trans-autophosphorylation on cytoplasmic tyrosines, generating docking sites that trigger RAS–MAPK, PI3K–AKT and PLCγ signalling. |
 | [[GRP75\|GRP75]] | Glucose-regulated protein 75 (mortalin/HSPA9), a mitochondrial Hsp70-family chaperone that bridges the VDAC1/IP3R complex at mitochondria-associated ER membranes, connecting ER calcium release to mitochondrial calcium uptake. |
+| [[GSDMD inhibitor]] | Tool compounds blocking gasdermin D pores; used to isolate membrane permeabilisation in NETosis and proposed, without clinical testing, for NET-associated disease. |
+| [[GSDMD-p30]] | Pore-forming N-terminal fragment of gasdermin D that permeabilises neutrophil granule, nuclear and plasma membranes during suicidal and noncanonical NETosis. |
 | [[GSIS\|GSIS]] | Glucose-stimulated insulin secretion (GSIS) is the process by which pancreatic beta cells sense rising glucose and exocytose insulin, maintaining glucose homeostasis; its failure underlies type 2 diabetes. |
 | [[GSK-428\|GSK-428]] | GSK-428 is a quinazoline-scaffold SARM1 inhibitor with orthosteric, high-potency (nanomolar IC50) activity that blocks the TIR-domain NADase, developed for axon-degeneration and neurodegenerative indications. |
 | [[GSK3\|GSK3]] | Glycogen synthase kinase 3, a serine/threonine protein kinase that regulates numerous signaling pathways, including Wnt signaling and mTOR. |
@@ -1033,6 +1048,8 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Intrinsically Disordered Region\|Intrinsically Disordered Region]] | Intrinsically disordered regions (IDRs) are protein segments that lack a fixed three-dimensional structure under physiological conditions, yet mediate critical protein-protein interactions, phase separation, and signaling. |
 | [[Inulin\|Inulin]] | Inulin is a non-digestible fructan oligosaccharide used as a prebiotic and as a nanodimensional carrier that enhances the solubility and stability of hydrophobic bioactives such as fisetin. |
 | [[Iodoacetic Acid\|Iodoacetic Acid]] | Iodoacetic acid (IAA) is an alkylating glycolytic inhibitor that depletes ATP and elevates mitochondrial ROS, used as a neuronal oxidative-stress insult in methylene blue neuroprotection assays. |
+| [[Ionomycin]] | Calcium ionophore used with S. aureus to induce PAD4-dependent vital NETosis; a selective PAD4 inhibitor abolishes the response. |
+| [[Ionophores]] | Calcium ionophores (A23187, nigericin, ionomycin) that activate PAD4 and trigger NE/MPO/ROS-independent NETosis. |
 | [[IP3R2\|IP3R2]] | Inositol 1,4,5-trisphosphate receptor type 2 located on the endoplasmic reticulum that interacts with FUNDC1 at mitochondria-associated membranes to regulate calcium signaling. |
 | [[IRAK\|IRAK]] | Interleukin-1 receptor-associated kinase, a small family of serine/threonine kinases of which IRAK4 is the obligatory upstream kinase for Toll-like receptor and IL-1 receptor signalling into NF-kappaB and AP-1. |
 | [[IRAK1\|IRAK1]] | Interleukin-1 receptor-associated kinase 1, an upstream kinase in IL-1R/TLR signaling whose inhibition by apigenin contributes to SASP suppression. |
@@ -1074,6 +1091,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Kinase\|Kinase]] | Kinases are enzymes that catalyze the transfer of the gamma-phosphate of ATP to substrate hydroxyl groups (kinase activity), regulating nearly every signaling pathway. Protein kinases share an adenosine-binding site that can be exploited by kinase inhibitors repurposed against sirtuins. |
 | [[Kinase Inhibitor\|Kinase Inhibitor]] | A small-molecule drug that inhibits a protein kinase; the dominant class of targeted cancer and signaling therapies, and the class in which drug hormesis (biphasic dose response) is frequently observed. |
 | [[Kinesin\|Kinesin]] | Microtubule motor protein that drives axonal mitochondrial transport via the MFN2-Miro-Milton complex. |
+| [[Klebsiella pneumoniae]] | Gram-negative challenge model in which murine neutrophil elastase deficiency prevents NET formation during suicidal NETosis. |
 | [[Klotho\|Klotho]] | An anti-aging transmembrane and secreted protein (hormone) whose deficiency drives premature aging; rapamycin improves function in Klotho-deficient models via stem-cell protection. |
 | [[Knockout mouse\|Knockout mouse]] | A genetically engineered mouse in which a specific gene has been inactivated (knocked out) to study gene function in vivo. |
 | [[Kynurenic Acid\|Kynurenic Acid]] | Kynurenic acid (KynA) is a neuroactive metabolite of the kynurenine pathway that acts as an NMDA receptor antagonist, providing neuroprotection that counterbalances the excitotoxic effects of quinolinic acid. |
@@ -1082,6 +1100,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[L-Carnitine\|L-Carnitine]] | L-Carnitine is the biologically active enantiomer of carnitine, an endogenous quaternary ammonium compound required for shuttling long-chain fatty acids into mitochondria for β-oxidation. |
 | [[Lactate\|Lactate]] | Biochemical properties: Lactate is an endogenous metabolite involved in cellular energy metabolism, redox reactions, or biosynthetic pathways. Its cellular concentration reflects metabolic flux... |
 | [[Lactobacillus\|Lactobacillus]] | Lactobacillus is a genus of Gram-positive, lactic-acid-fermenting bacteria abundant in fermented foods, the vaginal tract, and the gut, where it supports barrier integrity and metabolic health. |
+| [[Lactotransferrin]] | Iron-binding lactoferrin (LTF) of neutrophil azurophil granules, azurosome complex and NET antimicrobial cargo. |
 | [[Lactylation\|Lactylation]] | Lysine lactylation (Kla), a lactate-derived post-translational modification of histones and other proteins that couples metabolic state to gene expression; implicated in SIRT3-dependent ferroptosis in intervertebral disc degeneration. |
 | [[Lamin A\|Lamin A]] | Lamin A is a nuclear-envelope intermediate-filament protein encoded by LMNA; defective processing produces progerin and drives progeroid syndromes. |
 | [[Lamin B1\|Lamin B1]] | Nuclear lamina protein whose loss is a conserved, cell-autonomous marker of senescence, linked to nuclear envelope defects, chromatin reorganization, and SAHF formation. |
@@ -1486,6 +1505,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Oxidized LDL\|Oxidized LDL]] | Oxidized LDL (oxLDL) is low-density lipoprotein that has undergone oxidative modification, primarily by Reactive Oxygen Species and Myeloperoxidase. It is a key driver of Atherosclerosis and En... |
 | [[P-glycoprotein\|P-glycoprotein]] | P-glycoprotein (ABCB1/MDR1) is a full-length ATP-binding cassette transporter that pumps a very broad range of hydrophobic drugs and xenobiotics out of cells using ATP hydrolysis; its activity underlies both multidrug resistance in cancer and xenobiotic protection at the gut, kidney, and blood-brain barrier. |
 | [[P-gp\|P-gp]] | Overview: P-gp is a membrane transport protein that facilitates the movement of molecules across biological membranes. It mediates substrate translocation through conformational changes driven ... |
+| [[P-selectin]] | CD62P adhesion molecule mediating platelet-neutrophil contact required for LPS-induced vital NETosis. |
 | [[p15INK4b\|p15INK4b]] | A cyclin-dependent kinase inhibitor encoded by CDKN2B that enforces G1 arrest by blocking CDK4/6 and maintaining Rb in its hypophosphorylated state. |
 | [[p16\|p16]] | Cyclin-dependent kinase inhibitor 2A, a critical tumor suppressor and cell cycle regulator that enforces senescence via the p16/RB pathway |
 | [[p21 CIP1\|p21 CIP1]] | p21CIP1 (encoded by CDKN1A) is a cyclin-dependent kinase inhibitor that mediates DNA damage-induced cell cycle arrest and supports an early immunosurveillance SASP profile. |
@@ -1592,6 +1612,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Plasmalogen]] | Ether phospholipid containing a vinyl ether bond at the sn-1 position that protects membranes against oxidative damage, serves as a platelet-activating factor reservoir, and is enriched in brain, heart and mitochondrial membranes. |
 | [[Plasmin\|Plasmin]] | A broad-spectrum serine protease generated from plasminogen by plasminogen activators (tPA and uPA), central to fibrinolysis, ECM remodelling, and pro-MMP activation. |
 | [[Plasminogen\|Plasminogen]] | Inactive zymogen precursor of Plasmin, synthesised in the liver and circulating in plasma; converted to active plasmin by tPA and uPA to initiate fibrinolysis. |
+| [[Plasmodium falciparum]] | Malaria parasite reported among the parasitic triggers of NETosis. |
 | [[Platelet\|Platelet]] | Anucleate cytoplasmic fragments shed from megakaryocytes that execute primary haemostasis by adhering to exposed subendothelium, degranulating, and aggregating into the primary platelet plug. |
 | [[Platelet aggregation\|Platelet aggregation]] | The process by which activated platelets adhere to one another to form a hemostatic plug or pathological thrombus. |
 | [[Platelet-Derived Growth Factor\|Platelet-Derived Growth Factor]] | Platelet-derived growth factor (PDGF) is a dimeric growth factor that activates vascular smooth muscle cells; in mitochondria it lowers MFN2 and drives fission. |
@@ -1644,6 +1665,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Protein Restriction\|Protein Restriction]] | Dietary regimen that lowers total protein intake while meeting nutritional needs, promoting metabolic health, reduced senescence, and extended lifespan across species. Its benefits are mediated in part by FGF21 and by restriction of specific essential amino acids. |
 | [[Protein Synthesis\|Protein Synthesis]] | Ribosomal translation of mRNA into protein; highly ATP-consuming and coupled to growth signaling. |
 | [[Protein Turnover\|Protein Turnover]] | The continuous synthesis and degradation of body proteins. Whole-body protein turnover correlates with resting metabolic rate and contributes to the residual variance in RMR not explained by lean mass. |
+| [[Proteinase 3]] | Neutrophil serine protease (PRTN3) of azurophil granules, azurosome complex and NET granule cargo. |
 | [[Proteinopathy\|Proteinopathy]] | Diseases driven by misfolded and aggregated proteins, sharing cytosolic dsDNA generation as a unifying trigger of cGAS-STING activation. |
 | [[Proteobacteria\|Proteobacteria]] | Proteobacteria is a major phylum of Gram-negative bacteria, including many pathogens; its increased abundance in the gut is frequently associated with dysbiosis, inflammation, and aging-related inflammaging. |
 | [[Proteostasis\|Proteostasis]] | Protein homeostasis—the networked set of pathways that maintain protein folding, quality control, and turnover; declines with age and is restored by mTORC1 inhibition. |
@@ -1652,6 +1674,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Proto-lysosomal Tubules\|Proto-lysosomal Tubules]] | Transient tubular membrane extensions that bud from endolysosomes to recycle limiting membrane and content during phagocytic lysosome reformation. |
 | [[Protozoa\|Protozoa]] | A convenience grouping of heterotrophic unicellular eukaryotes, most of which move by cilia, flagella or pseudopodia; the medically important members are the apicomplexans (Plasmodium, Toxoplasma, Cryptosporidium) and the kinetoplastid flagellates (Leishmania, Trypanosoma). |
 | [[Pruritus\|Pruritus]] | The unpleasant cutaneous sensation that provokes scratching, carried by unmyelinated C fibres and thinly myelinated A-delta fibres to the dorsal horn; unlike pain it is not a defence against tissue injury but a disease in its own right. |
+| [[Pseudomonas aeruginosa]] | Gram-negative bacterium whose mucoid and nonmucoid strains yield stimulus-dependent 80-protein NET proteomes. |
 | [[Psoriasis\|Psoriasis]] | Psoriasis is a chronic immune-mediated inflammatory skin disease driven by the IL-23/Th17 axis, causing hyperproliferative, scaly plaques. |
 | [[PSTK\|PSTK]] | PSTK (O-phosphoseryl-tRNA kinase) phosphorylates Ser-tRNA[Ser]Sec to O-phosphoseryl-tRNA[Ser]Sec, an intermediate in the biosynthesis of selenocysteine on its tRNA. |
 | [[Psychiatric Disorders\|Psychiatric Disorders]] | Etiology and pathophysiology: Psychiatric Disorders is a medical condition characterized by specific pathological changes in cellular, tissue, or organ function. Its development involves geneti... |
@@ -1679,6 +1702,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Rab8\|Rab8]] | Small GTPase that interacts with the mitophagy receptor Optineurin and is required for retrograde transport of mitochondria-containing autophagosomes in neurons. |
 | [[Rac GTPase\|Rac GTPase]] | The Rac GTPases (RAC1, RAC2, RAC3, RHOG) are a subfamily of Rho-family small GTPases of roughly 21-25 kDa. They act as binary GDP/GTP switches, cycle nucleotide state via GEFs, GAPs and GDIs, and drive lamellipodia, membrane ruffles and cell adhesion through WAVE, PAK and NADPH oxidase effectors. |
 | [[Rac1\|Rac1]] | Rac1 (Ras-related C3 botulinum toxin substrate 1) is a 21 kDa Rho-family small GTPase and the ubiquitously expressed prototype of the Rac subfamily. It cycles GDP/GTP under control of GEFs, GAPs and RhoGDI, and via PAK, WAVE and NADPH oxidase controls lamellipodia, adhesion, gene expression and the respiratory burst. |
+| [[Rac2]] | Small GTPase required for neutrophil NADPH oxidase function; its deficiency suppresses ROS-dependent suicidal NETosis. |
 | [[RAD51\|RAD51]] | RAD51 is a recombinase enzyme essential for Homologous Recombination (HR) repair of Double-Strand Breaks and DNA Interstrand Crosslinks. It forms helical filaments on single-stranded DNA, catalyzin... |
 | [[Radical-trapping Antioxidant\|Radical-trapping Antioxidant]] | A radical-trapping antioxidant (RTA) is a molecule that terminates peroxidation chain reactions by donating a hydrogen atom to a lipid peroxyl radical, yielding a stabilized radical; endogenous RTAs include ubiquinol (CoQ10), vitamin K hydroquinone, and vitamin E, and synthetic RTAs include ferrostatin-1 and liproxstatin-1. |
 | [[Radiosensitizer\|Radiosensitizer]] | Agents that increase the cytotoxic effects of ionizing radiation, particularly in hypoxic tumor cells. |
@@ -1802,6 +1826,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Sex Steroid Ablation\|Sex Steroid Ablation]] | A therapeutic approach involving removal or suppression of sex steroids to restore thymic architecture, increase thymic cellularity, and enhance thymopoiesis. |
 | [[SH-SY5Y\|SH-SY5Y]] | A human neuroblastoma cell line differentiated into neuron-like cells, widely used as a dopaminergic neuron model. |
 | [[SHARPIN\|SHARPIN]] | Component of the linear ubiquitin chain assembly complex (LUBAC) and a regulator of RIPK1-dependent signaling; spontaneous SHARPIN-deficiency causes chronic proliferative dermatitis in mice that is reversed by TNFR1 deficiency. |
+| [[Shigella flexneri]] | Gram-negative enterobacterium whose infection of PAD4-deficient neutrophils abolishes histone citrullination, vital NETosis and killing. |
 | [[Shingles Vaccine\|Shingles Vaccine]] | Recombinant subunit (glycoprotein E + AS01B adjuvant) or live-attenuated vaccine that prevents herpes zoster and may attenuate age-related inflammaging. |
 | [[SHMT2\|SHMT2]] | Serine hydroxymethyltransferase 2, a mitochondrial enzyme that catalyzes the conversion of serine to glycine in one-carbon metabolism, is upregulated in colorectal cancer and promoted by SIRT3-mediated deacetylation. |
 | [[Short-chain Fatty Acids\|Short-chain Fatty Acids]] | Short-chain fatty acids (SCFAs) are produced by the gut microbiota through the fermentation of non-digestible carbohydrates, serving as important signaling molecules and energy sources for host cells. |
@@ -1813,6 +1838,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Simian Virus 40\|Simian Virus 40]] | Simian Virus 40 (SV40) is a non-enveloped DNA virus belonging to the Polyomaviridae family. Its small (~5.2 kb) circular double-stranded DNA genome has been a foundational model in Molecular Bi... |
 | [[Single-Cell RNA-seq\|Single-Cell RNA-seq]] | Single-cell RNA sequencing measures the transcriptome of individual cells rather than bulk tissue, resolving heterogeneous cell populations and states that averaging hides; droplet platforms with molecular barcodes made it routine, but dropout, batch effects and stochastic expression remain its defining analytic problems. |
 | [[Sirtuin-Caspase Crosstalk\|Sirtuin-Caspase Crosstalk]] | The bidirectional regulatory loop between sirtuins (NAD+-dependent deacetylases) and caspases (apoptotic executioner proteases) — sirtuins generally suppress caspase-dependent apoptosis, while caspases feed back to cleave and inactivate sirtuins, locking in cell death. |
+| [[Sivelestat]] | Selective neutrophil elastase inhibitor (ONO-5046) used as a tool compound; not cited in the source review. |
 | [[sjTREC\|sjTREC]] | Single joint T cell receptor excision circle; a molecular marker for recent thymic emigrants and active thymopoiesis, used to quantify thymic output. |
 | [[Skeletal Muscle\|Skeletal Muscle]] | Overview: Skeletal Muscle is a specialized cellular or anatomical structure with defined functions in tissue organization and physiology. |
 | [[Skp2]] | F-box component of the SCF ubiquitin ligase that binds phosphorylated CDK inhibitors p27 and p21, represses the FoxO transcription factors and p53, and thereby promotes cell-cycle progression and senescence bypass. |
@@ -1864,6 +1890,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[SREBP2\|SREBP2]] | Sterol regulatory element-binding protein 2; a basic helix-loop-helix leucine zipper transcription factor that activates genes of cholesterol biosynthesis and uptake; negatively regulated by SIRT6. |
 | [[SSRP1\|SSRP1]] | SSRP1 is the 80 kDa HMG-box subunit of the FACT chromatin transcription complex, a histone chaperone that disassembles and reassembles H2A-H2B dimers during transcription elongation and replication, and which also recognizes cisplatin-modified DNA. |
 | [[Stanniocalcin-1\|Stanniocalcin-1]] | Glycoprotein hormone that orchestrates a hormetic AMPK/SIRT3 axis mitigating oxidative stress and apoptosis; inhibits BNIP3 expression to ameliorate renal injury in diabetic models. |
+| [[Staphylococcus aureus]] | Gram-positive bacterium triggering TLR2/TLR4- and PAD4-dependent vital NETosis; SpA promotes and Eap suppresses NET formation. |
 | [[STAT\|STAT]] | Signal transducer and activator of transcription family mediating JAK-STAT signaling downstream of interferons in necroptotic inflammation. |
 | [[STAT1\|STAT1]] | STAT1 is a latent cytoplasmic transcription factor and the canonical effector of type I and type II interferon signaling. JAK phosphorylation at Tyr701 drives reciprocal SH2-phosphotyrosine dimerization, nuclear translocation and binding to GAS elements; STAT1 forms homodimers and STAT1-STAT2 heterodimers. |
 | [[STAT3\|STAT3]] | Signal transducer and activator of transcription 3 (STAT3) is a transcription factor which in humans is encoded by the *STAT3* gene. |
@@ -1875,6 +1902,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[STING\|STING]] | Stimulator of interferon genes, a signaling protein that plays a key role in innate immunity by sensing cytosolic DNA. |
 | [[STING Inhibitors\|STING Inhibitors]] | Experimental small molecules that block STING signaling to reduce neuroinflammation and neuronal death. |
 | [[Stomatitis\|Stomatitis]] | Inflammation and ulceration of the oral mucosa, a frequent and dose-limiting adverse effect of mTOR inhibitor therapy. |
+| [[Streptococcus pyogenes]] | Group A Streptococcus using nucleases and Scl-1-mediated MPO suppression to evade NET-dependent host defense. |
 | [[Stress Granules\|Stress Granules]] | Cytoplasmic ribonucleoprotein condensates that sequester RNA-binding proteins such as TDP-43 and interface with innate immune signaling. |
 | [[Stress-Induced Senescence\|Stress-Induced Senescence]] | Cellular senescence triggered by acute stressors including genotoxic damage, oxidative stress, oncogene activation, and mitochondrial dysfunction. |
 | [[Striatum\|Striatum]] | The Striatum (also known as the neostriatum or caudate-putamen) is a subcortical part of the forebrain and a critical component of the Basal Ganglia. It consists of the Caudate Nucleus ... |
@@ -1953,6 +1981,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Thrombin\|Thrombin]] | Catalytic function: Thrombin is an enzyme that catalyzes biochemical reactions essential for cellular metabolism and homeostasis. |
 | [[Thrombocytopenia\|Thrombocytopenia]] | A hematological condition defined by abnormally low blood platelet counts; a common, usually mild and reversible side effect of chronic mTOR inhibition. |
 | [[Thromboembolism\|Thromboembolism]] | Obstruction of a vessel by a clot that has detached from its site of formation and travelled in the bloodstream; the dominant causes are venous thromboembolism (DVT and pulmonary embolism) and arterial thromboembolism (stroke, myocardial infarction). |
+| [[Thrombosis]] | Pathological clot formation associated with vital NETosis, platelet-neutrophil contact and NET-driven immunothrombosis. |
 | [[Thromboxane A₂\|Thromboxane A2]] | Thromboxane A2 (TXA2) is the prostanoid produced by thromboxane synthase in platelets; a potent vasoconstrictor and promoter of platelet aggregation that balances prostacyclin. |
 | [[Thymic Epithelial Cells\|Thymic Epithelial Cells]] | Stromal cells in the thymus cortex and medulla that form a supportive network essential for T cell development, selection, and tolerance induction. |
 | [[Thymic Involution\|Thymic Involution]] | The age-related shrinkage and functional decline of the thymus, characterized by loss of thymic epithelial space, reduced thymopoiesis, and decreased naive T cell output, contributing to immune aging; reversible by interventions including autophagy induction. |
@@ -1984,6 +2013,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[TOP1\|TOP1]] | Topoisomerase 1, whose trapped cleavage complexes (TOP1cc) license cGAS recognition of cytoplasmic chromatin fragments to trigger SASP via cGAS–STING. |
 | [[Topoisomerase\|Topoisomerase]] | Topoisomerases are enzymes that regulate DNA supercoiling by cleaving and religating DNA strands; fisetin is a topoisomerase inhibitor, contributing to its anti-cancer activity. |
 | [[Topologically Associating Domain\|Topologically Associating Domain]] | Megabase-scale chromosomal domain within which DNA sequences contact each other more frequently than with outside sequences, organizing enhancer-promoter interactions that regulate SASP in senescence. |
+| [[Toxoplasma gondii]] | Apicomplexan parasite reported to induce NETosis and to be entrapped by neutrophil extracellular traps. |
 | [[TRAF2\|TRAF2]] | TRAF2 (TNF receptor-associated factor 2) is a protein recruited by the MAVS complex to activate an innate immune response following viral infection. |
 | [[TRAF3\|TRAF3]] | TNF receptor-associated factor 3, an E3 ubiquitin ligase adaptor that links TLR/TRIF and antiviral receptors to IRF3-mediated interferon induction. |
 | [[TRAK1\|TRAK1]] | Mitochondrial transport adaptor protein that forms a complex with OPTN and KIF5B for anterograde axonal mitochondrial transport. |
