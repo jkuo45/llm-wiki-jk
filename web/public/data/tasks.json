@@ -1,5 +1,5 @@
 {
-  "generated": "05_NOV_2026 07:34 AM PST",
+  "generated": "09_NOV_2026 08:25 AM PST",
   "tasks": [
     {
       "id": "tasks-index",
@@ -22,6 +22,34 @@
           "tags": [],
           "path": "pages/tasks-index.html"
         }
+      }
+    },
+    {
+      "id": "task_output_eat_me_dont_eat_me_signals_08_Nov_2026",
+      "langs": {
+        "en-US": {
+          "title": "Eat-me and don't-eat-me phagocytic signals — comparative inventory",
+          "description": "Compiled inventory of pro-phagocytic (eat-me) and anti-phagocytic (don't-eat-me) cell-surface signals with receptors, execution machinery, physiological contexts, and evidence-tier annotations, synthesized from vault notes plus published reviews.",
+          "created": "2026-11-08",
+          "updated": "2026-11-08",
+          "tags": [
+            "cell-death",
+            "efferocytosis",
+            "phagocytosis",
+            "immunology",
+            "cancer-immunotherapy",
+            "eryptosis"
+          ],
+          "filename": "task_output_eat_me_dont_eat_me_signals_08_Nov_2026.md",
+          "path": "tasks/en-US/task_output_eat_me_dont_eat_me_signals_08_Nov_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_eat_me_dont_eat_me_signals_08_Nov_2026.md"
+        }
+      },
+      "stats": {
+        "words": 1684,
+        "images": 0,
+        "links": 52,
+        "diagrams": 0
       }
     },
     {
