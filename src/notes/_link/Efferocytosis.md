@@ -3,7 +3,7 @@ title: Efferocytosis
 description: PS-dependent phagocytic clearance of apoptotic cells; in erythrocytes it removes eryptotic RBCs within minutes, reprograms macrophages toward an antiinflammatory/antioxidant (HO-1) phenotype, and thereby suppresses DAMP-driven inflammation from hemolysis.
 protected: false
 created: 2026-10-08
-updated: 2026-10-08
+updated: 2026-11-08
 tags: [process, innate-immunity, macrophage, cell-death]
 url: #
 source: #
@@ -20,7 +20,7 @@ aliases: [Efferocytosis of eryptotic cells, PS-mediated clearance]
 
 ## Mechanism and consequences
 
-- Macrophages recognize PS (directly or via bridging molecules) on apoptotic/eryptotic cells; [[CD47]]–SIRPα provides the opposing "don't-eat-me" signal on healthy cells.
+- Macrophages recognize PS (directly or via bridging molecules) on apoptotic/eryptotic cells; [[CD47]]–SIRPα provides the opposing "don't-eat-me" signal on healthy cells. The don't-eat-me display layer also includes [[CD24]]–[[Siglec-10]], [[PD-L1]] (macrophage PD-1 arm), MHC-I/[[B2M]] readouts, and homophilic [[PECAM1|CD31]] engagement on live cells — uptake is decided by the eat-me/don't-eat-me *ratio*, with surface [[Calreticulin]] the principal eat-me counter-signal to CD47. Full signal inventory: [[task_output_eat_me_dont_eat_me_signals_08_Nov_2026|eat-me / don't-eat-me signal inventory]].
 - Clearance sites: splenic and hepatic sinusoid macrophages, [[Kupffer Cell|Kupffer cells]] (eryptotic RBCs are engulfed into erythrophagolysosomes); Kupffer cells also remove ~80% of RBC-derived vesicles within 5 min via scavenger receptors.
 - Anti-inflammatory payoff: PS recognition alone is immunosuppressive, so eryptotic clearance actively resolves inflammation instead of amplifying it — the mechanistic opposite of hemolysis-derived DAMPs.
 - Efferocytosis also produces extracellular-vesicle shedding whose EV-associated DAMPs appear in stored red-cell concentrates, a potential bridge back to proinflammatory effects.
@@ -37,6 +37,7 @@ aliases: [Efferocytosis of eryptotic cells, PS-mediated clearance]
 - [[CD47]] — "don't-eat-me" brake on healthy erythrocytes
 - [[Hemolysis]] / [[Damage-Associated Molecular Patterns|DAMPs]] — the proinflammatory alternative suppressed by efferocytosis
 - [[Inflammation]] — the process efferocytosis resolves
+- [[Siglec-10]] / [[CD24]] — second inhibitory axis that spares viable self cells during clearance decisions
 
 ## Linking Summary
 

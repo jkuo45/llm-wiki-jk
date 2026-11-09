@@ -3,7 +3,7 @@ title: PD-L1
 description: Programmed death-ligand 1 (CD274/B7-H1); a transmembrane protein that inhibits T-cell function by binding PD-1, serving as a key immune checkpoint in cancer and a target modulated by SASP signaling in the senescent tumor microenvironment.
 protected: false
 created: 2026-07-06
-updated: 2026-08-16
+updated: 2026-11-08
 tags:
   - protein
   - immune-checkpoint
@@ -57,6 +57,10 @@ The [[SASP]] influences PD-L1 expression through multiple indirect mechanisms:
 - **Breast Cancer**: PD-L1 expression is high in [[triple-negative breast cancer]] and [[HER2-enriched breast cancer]].
 - **Regulation**: [[melittin]] has been shown to significantly reduce PD-L1 expression in tumors.
 
+## Anti-phagocytic (Macrophage) Arm
+
+Beyond T-cell checkpointing, PD-L1–PD-1 engagement at the macrophage phagocytic synapse also delivers an anti-phagocytic ("don't-eat-me") signal: PD-1 expressed on tumor-associated macrophages inhibits tumor-cell phagocytosis, so anti-PD-1/anti-PD-L1 blockade licenses uptake of PD-L1-expressing tumor cells independent of T-cell effects (Gordon et al. 2017, J Exp Med; Tier 4 — PD-1/PD-L1 blockade itself reached Tier 1 in oncology). PD-L1 therefore belongs to the same anti-phagocytic display class as [[CD47]], [[CD24]]–[[Siglec-10]], and MHC-I/[[B2M]]; see [[Efferocytosis]].
+
 ## Therapeutic Targeting
 
 - **Anti-PD-L1 antibodies**: Atezolizumab, durvalumab, avelumab
@@ -85,6 +89,7 @@ The [[SASP]] influences PD-L1 expression through multiple indirect mechanisms:
 - [[melittin]] — Attenuates PD-L1 levels, potentially improving antitumoral immune responses
 - [[HER2-enriched breast cancer]] — Subtype with high PD-L1 expression
 - [[PD-1]] — Receptor for PD-L1
+- [[Siglec-10]] / [[CD24]] / [[CD47]] / [[B2M]] — parallel "don't-eat-me" signals of the macrophage phagocytic synapse; PD-1/PD-L1 blockade licenses tumor-cell phagocytosis (Gordon et al. 2017, JEM)
 
 ## Linking Summary
 

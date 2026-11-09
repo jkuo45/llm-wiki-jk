@@ -3,14 +3,14 @@ title: Shared Entities (_link)
 aliases: []
 description: index of cross-topic shared entities and documents in the _link directory
 created: 2026-08-16
-updated: 2026-10-23
+updated: 2026-11-08
 ---
 # Shared Entities (`_link`)
 
-Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **2066 entities** in a single flat index and **34 documents**.
+Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **2069 entities** in a single flat index and **34 documents**.
 
 > [!note]
-> `_link` index. Total entities: 2066 | Documents: 34
+> `_link` index. Total entities: 2069 | Documents: 34
 >
 ## Documents
 
@@ -343,7 +343,9 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[CD4+ T Cells\|CD4+ T Cells]] | CD4-positive T helper cells are central coordinators of adaptive immunity, orchestrating immune responses through cytokine production and helper functions. |
 | [[CD40L\|CD40L]] | CD40L (CD154, TNFSF5) is a trimeric TNF-superfamily type II transmembrane cytokine expressed on activated CD4+ T cells that engages CD40 on B cells and antigen-presenting cells to drive germinal centre formation, class-switch recombination, and dendritic cell maturation. |
 | [[CD44\|CD44]] | CD44 variant isoforms (CD44v) partner with MUC1-C and xCT to sustain GSH and ferroptosis resistance in triple-negative breast cancer. |
+| [[ITIM\|ITIM]] | Immunoreceptor tyrosine-based inhibitory motif — cytoplasmic sequence that, once phosphorylated, recruits SHP-1/SHP-2 phosphatases to deliver inhibitory signals; the shared execution mechanism of don't-eat-me receptors including SIRPα, Siglec-10, CD31, and PD-1. |
 | [[CD47\|CD47]] | CD47 is a ubiquitously expressed immunoglobulin-superfamily receptor that pairs with SIRP-alpha on myeloid cells to deliver a "don't eat me" signal suppressing phagocytosis; blockade of CD47 is a cancer and fibrosis immunotherapy strategy. |
+| [[CD24\|CD24]] | CD24 is a small GPI-anchored sialoprotein on developing hematopoietic and tumor cells that, in humans, binds Siglec-10 on macrophages as a potent "don't-eat-me" signal and is a cancer stem-cell marker. |
 | [[CD73\|CD73]] | CD73 is an ectoenzyme that can degrade NMN into Nicotinamide Riboside (NR), thereby sustaining NAD+ synthesis. |
 | [[CD8 T cells\|CD8 T cells]] | Cytotoxic CD8+ T lymphocytes that mediate pathogen-specific and anti-tumor immunity; their memory subset is increased by mTOR inhibition, improving vaccine responses. |
 | [[CD86\|CD86]] | Co-stimulatory B7-family transmembrane receptor (B7-2) on antigen-presenting cells that engages CD28/CTLA-4 to regulate T-cell activation. |
@@ -648,6 +650,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Enterocloster\|Enterocloster]] | Enterocloster is a gut bacterial genus contributing to ellagitannin conversion toward urolithin A. |
 | [[Enzalutamide\|enzalutamide]] | Enzalutamide is a second-generation, nonsteroidal androgen-receptor (AR) signaling inhibitor used in castration-resistant prostate cancer (CRPC) for which drug resistance is a major clinical problem; preclinical studies show ivermectin can overcome enzalutamide resistance and synergize with docetaxel. |
 | [[Efferocytosis\|Efferocytosis]] | PS-dependent phagocytic clearance of apoptotic cells; in erythrocytes it removes eryptotic cells within minutes and reprograms macrophages toward an antiinflammatory, heme-oxygenase-1-high phenotype. |
+| [[Siglec-10\|Siglec-10]] | Siglec-10 (SIGLEC10) is an inhibitory I-type lectin on macrophages and other leukocytes that recognizes sialylated — and via CD24, non-sialylated — "don't-eat-me" signals, dampening phagocytosis of viable healthy cells. |
 | [[Eosinophilia]] | Eosinophilia is an elevated absolute eosinophil count above 0.5 x 10^9/L, graded as mild, moderate, or severe; it is a laboratory finding rather than a diagnosis, and its cause must be sought before it is treated. |
 | [[Eosinophils\|Eosinophils]] | Eosinophils are IL-5-driven granulocytes of myeloid lineage that degranulate a cationic, peroxidase-rich granule arsenal onto helminths and onto host tissue, making them simultaneously essential for parasite defence and drivers of allergic and fibrotic disease. |
 | [[EP300\|EP300]] | E1A binding protein p300, a histone acetyltransferase whose inhibition by spermidine derepresses autophagy. |
