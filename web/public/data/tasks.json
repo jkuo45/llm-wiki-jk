@@ -1,5 +1,5 @@
 {
-  "generated": "09_NOV_2026 08:25 AM PST",
+  "generated": "09_NOV_2026 12:01 PM PST",
   "tasks": [
     {
       "id": "tasks-index",
@@ -22,6 +22,53 @@
           "tags": [],
           "path": "pages/tasks-index.html"
         }
+      }
+    },
+    {
+      "id": "task_output_eryptosis_and_aging_12_hallmarks_09_Nov_2026",
+      "langs": {
+        "en-US": {
+          "title": "Eryptosis and aging — a 12-hallmark mapping",
+          "description": "Hallmark-by-hallmark assessment of how the 12 hallmarks of aging (López-Otín et al. 2023) relate to eryptosis and erythrocyte aging, separating mature-erythrocyte, erythroid-lineage, and systemic levels of action, with published evidence tiers, a source audit, and a premises test of eryptosis as a hallmark candidate.",
+          "created": "2026-11-09",
+          "updated": "2026-11-09",
+          "tags": [
+            "cell-death",
+            "eryptosis",
+            "geroscience",
+            "hallmarks-of-aging",
+            "erythrocyte",
+            "aging",
+            "evidence-synthesis"
+          ],
+          "filename": "task_output_eryptosis_and_aging_12_hallmarks_09_Nov_2026.md",
+          "path": "tasks/en-US/task_output_eryptosis_and_aging_12_hallmarks_09_Nov_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_eryptosis_and_aging_12_hallmarks_09_Nov_2026.md"
+        },
+        "zh-TW": {
+          "title": "紅血球凋亡（eryptosis）與老化 — 12 項老化特徵對應",
+          "description": "以 López-Otín 等人 2023 年提出的 12 項老化特徵為架構，逐項評估其與 eryptosis 及紅血球老化的關係，區分成熟紅血球、紅血球系列與全身性三個作用位階，附已發表證據層級、來源查核，以及將 eryptosis 檢視為老化特徵候選項的前提檢驗。",
+          "created": "2026-11-09",
+          "updated": "2026-11-09",
+          "tags": [
+            "cell-death",
+            "eryptosis",
+            "geroscience",
+            "hallmarks-of-aging",
+            "erythrocyte",
+            "aging",
+            "evidence-synthesis"
+          ],
+          "filename": "task_output_eryptosis_and_aging_12_hallmarks_09_Nov_2026.md",
+          "path": "tasks/zh-TW/task_output_eryptosis_and_aging_12_hallmarks_09_Nov_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_eryptosis_and_aging_12_hallmarks_09_Nov_2026.md"
+        }
+      },
+      "stats": {
+        "words": 4166,
+        "images": 0,
+        "links": 146,
+        "diagrams": 0
       }
     },
     {
