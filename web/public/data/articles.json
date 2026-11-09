@@ -722,5 +722,23 @@
         },
         "created": "2026-11-04",
         "updated": "2026-11-05"
+    },
+    {
+        "id": "eat-me-dont-eat-me-signals",
+        "active": true,
+        "langs": {
+            "en-US": {
+                "title": "Eat-me and Don't-eat-me Signals — the Phagocytic Balance, Illustrated",
+                "description": "Illustrated guide to the pro-phagocytic (eat-me) and anti-phagocytic (don't-eat-me) cell-surface signals that govern efferocytosis and tumor-cell phagocytosis — an interactive three.js phagocytosis-decision model, a signal-balance chart, a signal-to-receptor wiring graph, a membrane-asymmetry flow diagram, an evidence-tier chart, and evidence-graded inventories of phosphatidylserine, calreticulin, CD47, CD24, PD-L1 and related axes.",
+                "path": "pages/en-US/eat-me-dont-eat-me-signals.html"
+            },
+            "zh-TW": {
+                "title": "「吃我」與「別吃我」訊號 — 吞噬決策的平衡（圖解）",
+                "description": "圖解促吞噬（「吃我」）與抗吞噬（「別吃我」）細胞表面訊號如何支配胞葬作用與腫瘤細胞吞噬：互動式 three.js 吞噬決策模型、訊號平衡圖、訊號→受體接線圖、膜不對稱流程圖、證據等級圖，以及磷脂醯絲胺酸、鈣網蛋白、CD47、CD24、PD-L1 等軸的證據分級清單。",
+                "path": "pages/zh-TW/eat-me-dont-eat-me-signals.html"
+            }
+        },
+        "created": "2026-11-08",
+        "updated": "2026-11-08"
     }
 ]
