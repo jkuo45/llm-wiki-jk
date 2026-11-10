@@ -638,18 +638,18 @@
         "active": true,
         "langs": {
             "en-US": {
-                "title": "Lipid Peroxidation — the chain reaction that rusts membranes",
-                "description": "Visual review of lipid peroxidation — initiation, propagation, and termination of the free-radical chain reaction, its product cascade, disease axes, and the membrane defense network.",
+                "title": "Lipid Peroxidation — radical chain oxidation of membrane polyunsaturated fatty acids",
+                "description": "Visual review of lipid peroxidation — initiation, propagation, and termination of the free-radical chain reaction, its product cascade, disease associations, and inhibitors.",
                 "path": "pages/en-US/lipid-peroxidation.html"
             },
             "zh-TW": {
-                "title": "脂質過氧化 — 鏽蝕膜結構的自由基鏈式反應",
-                "description": "脂質過氧化視覺化綜述——自由基鏈式反應的引發、傳播與終止、產物級聯、疾病軸線與膜防禦網絡。",
+                "title": "脂質過氧化 — 膜多元不飽和脂肪酸的自由基鏈式氧化",
+                "description": "脂質過氧化視覺化綜述——自由基鏈式反應的引發、傳播與終止、產物級聯、疾病關聯與抑制因子。",
                 "path": "pages/zh-TW/lipid-peroxidation.html"
             }
         },
         "created": "2026-09-23",
-        "updated": "2026-09-23"
+        "updated": "2026-11-10"
     },
     {
         "id": "nad-metabolism-cd38-sarm1",
