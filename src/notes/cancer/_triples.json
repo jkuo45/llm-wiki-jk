@@ -10680,5 +10680,47 @@
     "source_document": "Cholangiocarcinoma.md",
     "created": "2026-08-16T22:55:28Z",
     "updated": "2026-08-20T00:00:00Z"
+  },
+  {
+    "id": "18a027466697",
+    "subject": "Oxaliplatin",
+    "predicate": "induces",
+    "object": "DNA Damage",
+    "context": {
+      "en-US": "Oxaliplatin's DACH platinum complex forms bulky 1,2-intrastrand, 1,3-intrastrand and interstrand DNA crosslinks that bend and distort the helix, stalling replication and transcription. The interstrand crosslinks are the most lethal lesion, activating the Fanconi anaemia pathway and ATR/CHK1 checkpoint before apoptosis or senescence; damage is amplified by glutathione and metallothionein sequestration of platinum.",
+      "zh-TW": "Oxaliplatin 誘導 DNA Damage：Oxaliplatin 的 DACH 鉑複合物形成體積龐大的 1,2-股內、1,3-股內與股間 DNA 交聯，使雙螺旋彎曲變形，停滯複製與轉錄。股間交聯是最致命的損傷，先活化 Fanconi anemia 路徑與 ATR/CHK1 檢查點，再走向 Apoptosis 或衰老；Glutathione 與 metallothionein 對鉑的隔離會放大損傷。"
+    },
+    "confidence": 0.9,
+    "source_document": "Oxaliplatin.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "96bd9a61b081",
+    "subject": "Oxaliplatin",
+    "predicate": "treats",
+    "object": "Colorectal Cancer",
+    "context": {
+      "en-US": "Oxaliplatin is a standard component of FOLFOX and CAPOX regimens for advanced colorectal and rectal cancer, used in the adjuvant setting for stage II–III disease and combined with anti-EGFR or anti-VEGF antibodies. It has a terminal half-life of roughly 350–400 hours from slow covalent binding to plasma proteins and red cells; cumulative, often irreversible peripheral sensory neuropathy is dose-limiting.",
+      "zh-TW": "Oxaliplatin 治療 Colorectal Cancer：Oxaliplatin 是晚期 Colorectal Cancer 與 Rectal Cancer 的 FOLFOX、CAPOX 處方標準成分，用於 II–III 期輔助治療，並與 anti-EGFR 或 anti-VEGF 抗體併用。因與血漿蛋白、紅血球緩慢共價結合，終末半衰期約 350–400 小時；累積性且常不可逆的周邊感覺神經病變為劑量限制毒性。"
+    },
+    "confidence": 0.9,
+    "source_document": "Oxaliplatin.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "b745faf60d58",
+    "subject": "Temozolomide",
+    "predicate": "treats",
+    "object": "Glioblastoma",
+    "context": {
+      "en-US": "Temozolomide is an orally bioavailable imidazotetrazine prodrug that spontaneously ring-opens at physiological pH to MTIC and a methyldiazonium ion, methylating the O6 position of guanine; it crosses the blood-brain barrier. Concomitant radiotherapy plus daily temozolomide (the Stupp regimen) followed by adjuvant temozolomide is standard of care for newly diagnosed glioblastoma, improving survival over radiotherapy alone.",
+      "zh-TW": "Temozolomide 治療 Glioblastoma：Temozolomide 是口服可用的 imidazotetrazine 前藥，於生理 pH 自發開環生成 MTIC 與 methyldiazonium 離子，甲基化鳥嘌呤 O6 位置，並可通過 Blood-Brain Barrier。同步 Radiotherapy 加上每日 Temozolomide（Stupp 處方）再接續輔助性 Temozolomide，是新診斷 Glioblastoma 的標準治療，較單獨放療改善存活。"
+    },
+    "confidence": 0.9,
+    "source_document": "Temozolomide.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
   }
 ]

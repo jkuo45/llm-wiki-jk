@@ -7096,5 +7096,621 @@
     "source_document": "_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md",
     "created": "2026-11-10T10:00:00Z",
     "updated": "2026-11-10T10:00:00Z"
+  },
+  {
+    "id": "7d3db5ac5d88",
+    "subject": "Adoptive Transfer",
+    "predicate": "transfers",
+    "object": "CD8 T cells",
+    "context": {
+      "en-US": "Adoptive Transfer transfers isolated CD8 T cells from a donor preparation into a recipient organism so effects attributable to that defined population can be tested in vivo. The method separates cell-intrinsic properties from the donor tissue environment, permits tracking of engraftment and tissue localization, and in immunology provides causal evidence for or against a pathogenic or protective lymphocyte subset.",
+      "zh-TW": "Adoptive Transfer 將分離的 CD8 T cells 從供體製備物轉移至受體生物體，使該明確族群的效應可在體內檢驗。此方法將細胞內在特性與供體組織環境分離，允許追蹤植入與組織定位，並在免疫學中為致病性或保護性淋巴球亞群提供因果證據。"
+    },
+    "confidence": 0.9,
+    "source_document": "Adoptive Transfer.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "87926a754ad0",
+    "subject": "Adoptive Transfer",
+    "predicate": "complements",
+    "object": "Senolytic Therapy",
+    "context": {
+      "en-US": "Adoptive Transfer complements Senolytic Therapy as an experimental strategy because transfer tests whether adding a defined cell population is sufficient to produce a phenotype, whereas senolytic treatment tests whether removing senescent cells reverses it. Used together, gain-of-function transfer and loss-of-function clearance provide convergent causal evidence that a senescent lymphocyte population drives tissue inflammation rather than merely correlating with disease severity.",
+      "zh-TW": "Adoptive Transfer 作為實驗策略補充 Senolytic Therapy，因為轉移檢驗加入明確細胞族群是否足以產生表型，而 senolytic 治療檢驗移除衰老細胞是否能逆轉之。兩者並用時，gain-of-function 轉移與 loss-of-function 清除提供匯聚的因果證據，證明衰老淋巴球族群驅動組織發炎，而非僅與疾病嚴重度相關。"
+    },
+    "confidence": 0.7,
+    "source_document": "Adoptive Transfer.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "704826857382",
+    "subject": "C178",
+    "predicate": "blocks_palmitoylation_of",
+    "object": "STING",
+    "context": {
+      "en-US": "C178 blocks palmitoylation of STING by covalently modifying Cys91 in its transmembrane domain, preventing the Golgi clustering required for downstream signaling. Palmitoylation is an activation-associated modification for STING, so its blockade retains STING in a signaling-incompetent state. This mechanism is largely selective for murine STING and explains the compound's utility as a pharmacological loss-of-function tool in mouse T-cell experiments.",
+      "zh-TW": "C178 透過共價修飾 STING 跨膜域的 Cys91 阻斷 STING 的 palmitoylation，防止下游訊號所需的 Golgi 聚集。Palmitoylation 是 STING 活化相關修飾，因此阻斷之可使 STING 保持無訊號能力狀態。此機制大致對 murine STING 具選擇性，解釋此化合物在小鼠 T 細胞實驗中作為藥理 loss-of-function 工具的用途。"
+    },
+    "confidence": 0.9,
+    "source_document": "C178.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "d160ba9d34d7",
+    "subject": "C178",
+    "predicate": "suppresses_phosphorylation_of",
+    "object": "TBK1",
+    "context": {
+      "en-US": "C178 suppresses phosphorylation of TBK1 indirectly by preventing STING palmitoylation, clustering and recruitment of its downstream kinase machinery at the Golgi. Reduced TBK1 activation lowers IRF3 phosphorylation and type I interferon and pro-inflammatory transcription. The relation places C178 upstream of TBK1 in the cGAS-STING Pathway and accounts for its ability to attenuate cytokine production following pharmacological NAD+ restriction in CD8 T cells.",
+      "zh-TW": "C178 透過防止 STING palmitoylation、聚集及其在 Golgi 的下游激酶機器招募，間接抑制 TBK1 的磷酸化。TBK1 活化降低使 IRF3 磷酸化以及 Type I Interferon 與促發炎轉錄下降。此關係將 C178 置於 cGAS-STING Pathway 中 TBK1 的上游，並解釋其減弱 CD8 T cells 藥理 NAD+ 限制後細胞激素產生的能力。"
+    },
+    "confidence": 0.7,
+    "source_document": "C178.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "c53107643a37",
+    "subject": "CD27",
+    "predicate": "is_activated_by",
+    "object": "CD70",
+    "context": {
+      "en-US": "CD27 is activated by CD70, its TNF-family ligand expressed transiently on activated antigen-presenting cells and lymphocytes. CD70 engagement provides co-stimulatory signaling that supports T-cell expansion, survival and memory formation during an immune response. Progressive differentiation reduces CD27 surface expression, so the CD70-CD27 axis is strongest in naive and early-memory compartments and weakens as T cells approach terminal differentiation and senescence.",
+      "zh-TW": "CD27 由 CD70 活化，CD70 為其 TNF 家族配體，短暫表現在活化的 antigen-presenting cells 與淋巴球上。CD70 接合提供支持免疫反應期間 T 細胞擴增、存活與記憶形成的共刺激訊號。進行性分化降低 CD27 表面表現，因此 CD70-CD27 軸在 naive 與 early-memory 區室最強，隨 T cells 接近終末分化與衰老而減弱。"
+    },
+    "confidence": 0.9,
+    "source_document": "CD27.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "29fd15927ad5",
+    "subject": "CD27",
+    "predicate": "promotes_expansion_of",
+    "object": "T Cell",
+    "context": {
+      "en-US": "CD27 promotes expansion of T Cell populations through CD70-dependent co-stimulation that complements T-cell receptor signaling, enhancing proliferation, survival and memory precursor formation. Because CD27 is constitutively present on naive and early-memory T cells, its signaling capacity marks a less differentiated state. Loss of CD27 therefore indicates reduced co-stimulatory potential and is used, together with KLRG1 gain, to identify late-differentiated senescent T cells.",
+      "zh-TW": "CD27 透過補充 T-cell receptor 訊號的 CD70 依賴共刺激促進 T Cell 族群擴增，增強增殖、存活與記憶前驅形成。由於 CD27 恆常存在於 naive 與 early-memory T cells，其訊號能力標記較低分化狀態。因此 CD27 喪失表示共刺激潛力降低，並與 KLRG1 增加並用以辨識晚期分化衰老 T cells。"
+    },
+    "confidence": 0.9,
+    "source_document": "CD27.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "0df48bb79245",
+    "subject": "Dextran Sulfate Sodium",
+    "predicate": "disrupts",
+    "object": "Intestinal Barrier",
+    "context": {
+      "en-US": "Dextran Sulfate Sodium disrupts the Intestinal Barrier through direct toxicity to colonic epithelial cells after oral administration in drinking water. Barrier loss permits luminal microbes and antigens to reach mucosal immune cells and trigger inflammation resembling Ulcerative Colitis. The effect is dose-titratable and reproducible, which is why this chemical injury model is widely used to study mucosal inflammation and candidate interventions in mice.",
+      "zh-TW": "Dextran Sulfate Sodium 經飲水口服給予後，透過對結腸上皮細胞的直接毒性破壞 Intestinal Barrier。屏障喪失使腔內微生物與抗原接觸黏膜免疫細胞並觸發類似 Ulcerative Colitis 的發炎。此效應可依劑量調整且可重現，因此此化學損傷模型被廣泛用於研究小鼠黏膜發炎與候選介入。"
+    },
+    "confidence": 0.9,
+    "source_document": "Dextran Sulfate Sodium.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "e0162db78f48",
+    "subject": "Dextran Sulfate Sodium",
+    "predicate": "induces",
+    "object": "Inflammation",
+    "context": {
+      "en-US": "Dextran Sulfate Sodium induces Inflammation in the colonic mucosa by injuring epithelium and exposing immune cells to luminal microbial products and antigens. Acute administration produces epithelial injury and innate inflammation, while cyclical administration produces chronic colitis with crypt distortion and ulceration. The induced inflammatory phenotype underlies its use as an experimental model of Inflammatory Bowel Disease, although it does not reproduce every feature of human disease.",
+      "zh-TW": "Dextran Sulfate Sodium 透過損傷上皮並使免疫細胞暴露於腔內微生物產物與抗原，誘發結腸黏膜的 Inflammation。急性給予產生上皮損傷與先天發炎，週期性給予則產生伴 crypt 扭曲與潰瘍的慢性結腸炎。誘發的發炎表型構成其作為 Inflammatory Bowel Disease 實驗模型的基礎，儘管它並未重現人類疾病的每一特徵。"
+    },
+    "confidence": 0.9,
+    "source_document": "Dextran Sulfate Sodium.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "2e1fdd52ff21",
+    "subject": "FK866",
+    "predicate": "inhibits",
+    "object": "NAMPT",
+    "context": {
+      "en-US": "FK866 inhibits NAMPT, the rate-limiting enzyme of the NAD+ Salvage Pathway that converts Nicotinamide to NMN. Blocking NAMPT lowers intracellular and mitochondrial NAD+ pools and reproduces a hyperconsumptive, NAD+-depleted state in experimental systems. NMN supplementation and genetic NAMPT knockdown controls support that the resulting phenotypes track NAD+ availability rather than an unrelated off-target action of FK866 in treated CD8 T cells.",
+      "zh-TW": "FK866 抑制 NAMPT，NAMPT 為 NAD+ Salvage Pathway 的速率限制酶，將 Nicotinamide 轉化為 NMN。阻斷 NAMPT 降低細胞內與粒線體 NAD+ 池，並在實驗系統重現 hyperconsumptive、NAD+ 耗竭狀態。NMN 補充與基因 NAMPT knockdown 控制支持所產生的表型追蹤 NAD+ 可用性，而非 FK866 在處理的 CD8 T cells 中的無關 off-target 作用。"
+    },
+    "confidence": 0.9,
+    "source_document": "FK866.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "211708a1a149",
+    "subject": "FK866",
+    "predicate": "depletes",
+    "object": "NAD+",
+    "context": {
+      "en-US": "FK866 depletes NAD+ by inhibiting salvage biosynthesis through NAMPT, reducing the cofactor available for redox reactions, sirtuins and other NAD+-consuming enzymes. Sustained depletion alters mitochondrial metabolism and can trigger stress and innate-immune signaling in susceptible cells. In primary murine CD8 T cells, FK866-induced NAD+ loss is sufficient to expand senescent populations, an effect largely abrogated by prior NMN supplementation restoring NAD+ availability.",
+      "zh-TW": "FK866 透過抑制經 NAMPT 的 salvage 生物合成耗竭 NAD+，減少可用於氧化還原反應、sirtuins 與其他 NAD+ 消耗酶的輔因子。持續耗竭改變粒線體代謝，並可在易感細胞觸發壓力與先天免疫訊號。在原代小鼠 CD8 T cells 中，FK866 誘發的 NAD+ 喪失足以擴增衰老族群，此效應大致被事先 NMN 補充恢復 NAD+ 可用性所消除。"
+    },
+    "confidence": 0.9,
+    "source_document": "FK866.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "d44030cd75b8",
+    "subject": "Gene Set Enrichment Analysis",
+    "predicate": "quantifies_activity_of",
+    "object": "Oxidative Phosphorylation",
+    "context": {
+      "en-US": "Gene Set Enrichment Analysis quantifies activity of Oxidative Phosphorylation by testing whether genes in that predefined set cluster at either extreme of a genome-wide ranked expression list. Its rank-based normalized enrichment score avoids an arbitrary differential-expression cutoff. In NAD+-depleted CD8 T cells, this approach detected suppressed Oxidative Phosphorylation alongside increased Glycolysis, supporting a metabolic shift accompanying senescence induction rather than isolated changes in individual genes.",
+      "zh-TW": "Gene Set Enrichment Analysis 透過檢驗 Oxidative Phosphorylation 預定義基因集是否聚集於全基因組排序表現清單任一極端，量化其活性。其基於排名的 normalized enrichment score 避免任意的 differential-expression cutoff。在 NAD+ 耗竭的 CD8 T cells 中，此方法偵測到 Oxidative Phosphorylation 受抑且 Glycolysis 增加，支持伴隨衰老誘發的代謝轉移，而非個別基因的孤立變化。"
+    },
+    "confidence": 0.7,
+    "source_document": "Gene Set Enrichment Analysis.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "64da99e2c09b",
+    "subject": "Gene Set Enrichment Analysis",
+    "predicate": "scores",
+    "object": "Gene Expression",
+    "context": {
+      "en-US": "Gene Set Enrichment Analysis scores Gene Expression data by comparing the distribution of a predefined gene set against all ranked genes in a sample or contrast, using permutation to estimate significance. The single-sample variant derives per-sample pathway scores that can be correlated with clinical variables. This makes the method suitable for converting transcriptomic profiles into pathway-level biomarkers without reducing results to individual differentially expressed genes.",
+      "zh-TW": "Gene Set Enrichment Analysis 透過比較預定義基因集與樣本或對比中所有排名基因的分布，並以 permutation 估計顯著性，為 Gene Expression 資料評分。Single-sample 變體得出可與臨床變數相關的逐樣本路徑分數。這使此方法適合將轉錄組輪廓轉化為路徑層級生物標記，而不將結果縮減為個別差異表現基因。"
+    },
+    "confidence": 0.7,
+    "source_document": "Gene Set Enrichment Analysis.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "c063dca14ce7",
+    "subject": "Granzyme B",
+    "predicate": "induces",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "Granzyme B induces Apoptosis after entering a target cell, where its serine protease activity cleaves aspartate-containing substrates and activates caspase-dependent and caspase-independent death pathways, including Bid-mediated mitochondrial amplification. Stored in cytotoxic granules of CD8 T cells and Natural Killer Cells, Granzyme B is a canonical effector of cytotoxic lymphocyte killing. Its reduction therefore marks loss of direct cytolytic capacity in dysfunctional T-cell states.",
+      "zh-TW": "Granzyme B 進入標的細胞後誘發 Apoptosis，其 serine protease 活性切割含 aspartate 的受質並活化 caspase 依賴與非依賴死亡路徑，包括 Bid 介導的粒線體放大。Granzyme B 儲存於 CD8 T cells 與 Natural Killer Cells 的細胞毒性顆粒，是細胞毒性淋巴球殺傷的典型效應器。因此其減少標記功能障礙 T 細胞狀態中直接細胞溶解能力的喪失。"
+    },
+    "confidence": 0.9,
+    "source_document": "Granzyme B.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "5ae105d563ff",
+    "subject": "Granzyme B",
+    "predicate": "is_delivered_by",
+    "object": "Perforin",
+    "context": {
+      "en-US": "Granzyme B is delivered by Perforin, whose calcium-dependent pores in the target-cell membrane permit granule proteases to reach the cytosol during cytotoxic lymphocyte attack. Perforin and Granzyme B are co-stored in cytotoxic granules and act as a paired killing module in CD8 T cells and Natural Killer Cells. Coordinated downregulation of both molecules therefore indicates dismantling of the canonical granule-mediated cytotoxic program in senescent CD8 T cells.",
+      "zh-TW": "Granzyme B 由 Perforin 遞送，Perforin 在標的細胞膜形成的 calcium 依賴孔洞使顆粒 proteases 在細胞毒性淋巴球攻擊期間到達胞質。Perforin 與 Granzyme B 共同儲存於細胞毒性顆粒，在 CD8 T cells 與 Natural Killer Cells 中作為配對殺傷模組。因此兩分子協調下調表示 Senescent CD8+ T Cells 中典型顆粒介導細胞毒性程序的拆解。"
+    },
+    "confidence": 0.9,
+    "source_document": "Granzyme B.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "493ff3d0778c",
+    "subject": "Infliximab",
+    "predicate": "blocks",
+    "object": "TNFR1",
+    "context": {
+      "en-US": "Infliximab blocks TNFR1 signaling indirectly by binding soluble and transmembrane TNF-alpha with high affinity and preventing its interaction with TNFR1 and TNFR2. Neutralizing the ligand interrupts downstream inflammatory transcription in TNF-driven disease. As a chimeric IgG1 antibody, Infliximab can also engage Fc-mediated effector functions against TNF-expressing cells, contributing to its activity in Inflammatory Bowel Disease beyond simple soluble cytokine neutralization alone.",
+      "zh-TW": "Infliximab 透過高親和力結合可溶性與跨膜 TNF-alpha 並防止其與 TNFR1 及 TNFR2 交互作用，間接阻斷 TNFR1 訊號。中和配體中斷 TNF 驅動疾病中的下游發炎轉錄。作為 chimeric IgG1 抗體，Infliximab 也可對表現 TNF 的細胞啟動 Fc 介導效應功能，使其在 Inflammatory Bowel Disease 的活性超越單純可溶性細胞激素中和。"
+    },
+    "confidence": 0.7,
+    "source_document": "Infliximab.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "16869804fc8d",
+    "subject": "Infliximab",
+    "predicate": "treats",
+    "object": "Inflammatory Bowel Disease",
+    "context": {
+      "en-US": "Infliximab treats Inflammatory Bowel Disease, including moderate-to-severe Ulcerative Colitis and Crohn's Disease, by neutralizing TNF-alpha and suppressing mucosal inflammatory signaling. It is a cornerstone biologic for immune-mediated inflammatory disease, although primary non-response remains common in Ulcerative Colitis cohorts. Pretreatment molecular signatures may identify patients less likely to respond, supporting biomarker-guided selection between anti-TNF therapy and mechanistically distinct biologic treatments in clinical practice.",
+      "zh-TW": "Infliximab 透過中和 TNF-alpha 並抑制黏膜發炎訊號治療 Inflammatory Bowel Disease，包括中重度 Ulcerative Colitis 與 Crohn's Disease。它是免疫介導發炎疾病的基石生物製劑，儘管原發性無反應在 Ulcerative Colitis 隊列仍常見。治療前分子特徵可辨識較不可能反應的患者，支持在臨床實務中以生物標記引導 anti-TNF 治療與機制不同生物製劑間的選擇。"
+    },
+    "confidence": 0.9,
+    "source_document": "Infliximab.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "64a9632f5855",
+    "subject": "KLRG1",
+    "predicate": "binds",
+    "object": "E-cadherin",
+    "context": {
+      "en-US": "KLRG1 binds E-cadherin, an adhesion molecule on epithelial and other target cells, through its C-type lectin-like extracellular domain. Ligand engagement transmits an inhibitory signal into KLRG1-expressing T cells and Natural Killer Cells, restraining effector activity at tissue interfaces. Because KLRG1 expression rises with cumulative antigen-driven differentiation, this inhibitory interaction preferentially regulates terminally differentiated lymphocytes that accumulate in chronic inflammation and aging tissues.",
+      "zh-TW": "KLRG1 透過其 C-type lectin-like 胞外域結合 E-cadherin，E-cadherin 為上皮與其他標的細胞上的黏附分子。配體接合將抑制訊號傳入表現 KLRG1 的 T cells 與 Natural Killer Cells，在組織介面 restrain 效應活性。由於 KLRG1 表現隨累積抗原驅動分化上升，此抑制交互作用優先調節在慢性發炎與老化組織累積的終末分化淋巴球。"
+    },
+    "confidence": 0.9,
+    "source_document": "KLRG1.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "c3ab43e8c50d",
+    "subject": "KLRG1",
+    "predicate": "is_expressed_on",
+    "object": "Natural Killer Cells",
+    "context": {
+      "en-US": "KLRG1 is expressed on Natural Killer Cells as well as differentiated T cells, where it functions as an inhibitory C-type lectin-like receptor responsive to E-cadherin. Its surface abundance increases with maturation and cumulative activation history, making it a marker of terminal differentiation across cytotoxic lymphocyte lineages. Interpretation therefore requires lineage and differentiation context, because KLRG1 alone does not distinguish senescence from other end-stage differentiated states.",
+      "zh-TW": "KLRG1 表現在 Natural Killer Cells 以及分化 T cells 上，作為回應 E-cadherin 的抑制性 C-type lectin-like 受體。其表面豐度隨成熟與累積活化歷史增加，使其成為跨細胞毒性淋巴球譜系的終末分化標記。因此判讀需要譜系與分化脈絡，因為 KLRG1 單獨無法區分衰老與其他末期分化狀態。"
+    },
+    "confidence": 0.9,
+    "source_document": "KLRG1.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "e6b67a68453d",
+    "subject": "LAG-3",
+    "predicate": "is_marker_of",
+    "object": "T Cell Exhaustion",
+    "context": {
+      "en-US": "LAG-3 is marker of T Cell Exhaustion because chronically stimulated T cells upregulate this inhibitory immunoglobulin-superfamily receptor together with PD-1, CTLA-4 and TIM-3 family checkpoints. LAG-3 binds MHC class II, FGL1 and other ligands to suppress T-cell receptor signaling and cytokine production. Its absence of differential expression in a dysfunctional T-cell population therefore argues against canonical exhaustion and prompts evaluation for alternative states such as senescence.",
+      "zh-TW": "LAG-3 是 T Cell Exhaustion 的標記，因為慢性刺激的 T cells 上調此抑制性 immunoglobulin-superfamily 受體，並伴隨 PD-1、CTLA-4 與 TIM-3 家族檢查點。LAG-3 結合 MHC class II、FGL1 與其他配體以抑制 T-cell receptor 訊號與細胞激素產生。因此其在功能障礙 T 細胞族群無差異表現，反對典型 exhaustion，並提示評估衰老等替代狀態。"
+    },
+    "confidence": 0.9,
+    "source_document": "LAG-3.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "cc4efeea033b",
+    "subject": "LAG-3",
+    "predicate": "suppresses",
+    "object": "T Cell",
+    "context": {
+      "en-US": "LAG-3 suppresses T Cell activation by delivering inhibitory signals after ligand binding, reducing T-cell receptor signaling, proliferation and cytokine production in activated T cells, Regulatory T cells contexts and Natural Killer Cells. This checkpoint function can limit immunopathology but also contributes to hypofunction during chronic antigen exposure. Clinically, antibody blockade of LAG-3 is used to relieve this restraint, exemplified by relatlimab combined with anti-PD-1 therapy.",
+      "zh-TW": "LAG-3 在配體結合後傳遞抑制訊號，抑制 T Cell 活化，降低活化 T cells、Regulatory T cells 脈絡與 Natural Killer Cells 的 T-cell receptor 訊號、增殖與細胞激素產生。此檢查點功能可限制免疫病理，但也在慢性抗原暴露期間造成低功能。臨床上，LAG-3 抗體阻斷用於解除此限制，例如 relatlimab 與 anti-PD-1 治療併用。"
+    },
+    "confidence": 0.7,
+    "source_document": "LAG-3.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "c28ce02468ae",
+    "subject": "NAD+ Metabolic Reprogramming",
+    "predicate": "depletes",
+    "object": "NAD+",
+    "context": {
+      "en-US": "NAD+ Metabolic Reprogramming depletes NAD+ when impaired biosynthesis coincides with increased expression of NAD+-consuming enzymes, producing a hyperconsumptive state that exhausts the mucosal NAD+ pool. Precursors such as Tryptophan and nicotinic acid fall while catabolites including Nicotinamide and ADP-ribose accumulate. The resulting NAD+ shortage compromises mitochondrial metabolism and creates conditions sufficient to drive CD8 T-cell senescence in inflamed Ulcerative Colitis tissue.",
+      "zh-TW": "NAD+ Metabolic Reprogramming 在生物合成受損與 NAD+ 消耗酶表現增加同時發生時耗竭 NAD+，產生耗竭黏膜 NAD+ 池的 hyperconsumptive 狀態。Tryptophan 與 nicotinic acid 等前驅物下降，而 Nicotinamide 與 ADP-ribose 等分解產物累積。所致 NAD+ 短缺損害粒線體代謝，並創造足以在發炎 Ulcerative Colitis 組織驅動 CD8 T-cell 衰老的條件。"
+    },
+    "confidence": 0.9,
+    "source_document": "NAD+ Metabolic Reprogramming.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "d6008d1fb427",
+    "subject": "NAD+ Metabolic Reprogramming",
+    "predicate": "promotes",
+    "object": "Glycolysis",
+    "context": {
+      "en-US": "NAD+ Metabolic Reprogramming promotes Glycolysis as NAD+ depletion suppresses Oxidative Phosphorylation, reduces ATP production and mitochondrial mass, and shifts CD8 T cells toward glycolytic metabolism. This compensatory rewiring accompanies mitochondrial reactive oxygen species accumulation and organelle damage rather than restoring normal energy homeostasis. The glycolytic shift is therefore part of the metabolic phenotype linking mucosal NAD+ exhaustion to mitochondrial dysfunction and subsequent innate DNA-sensing activation.",
+      "zh-TW": "NAD+ Metabolic Reprogramming 促進 Glycolysis，因為 NAD+ 耗竭抑制 Oxidative Phosphorylation、減少 ATP 產生與粒線體質量，並使 CD8 T cells 轉向糖酵解代謝。此代償性重連伴隨粒線體 reactive oxygen species 累積與胞器損傷，而非恢復正常能量恆定。因此糖酵解轉移是連結黏膜 NAD+ 耗竭至粒線體功能障礙與後續先天 DNA 感知活化的代謝表型一部分。"
+    },
+    "confidence": 0.7,
+    "source_document": "NAD+ Metabolic Reprogramming.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "dd6367c4be54",
+    "subject": "Nicotinate and Nicotinamide Metabolism",
+    "predicate": "includes",
+    "object": "NAD+ Salvage Pathway",
+    "context": {
+      "en-US": "Nicotinate and Nicotinamide Metabolism includes the NAD+ Salvage Pathway alongside de novo synthesis from Tryptophan through the kynurenine route and the Preiss-Handler pathway from nicotinic acid. In salvage, NAMPT converts Nicotinamide to NMN and NMNAT enzymes generate NAD+. NAD+-consuming enzymes cleave NAD+ back to Nicotinamide and ADP-ribose, so this KEGG pathway encompasses both production and recycling of the cellular NAD+ pool.",
+      "zh-TW": "Nicotinate and Nicotinamide Metabolism 包括 NAD+ Salvage Pathway，以及經 kynurenine 途徑從 Tryptophan 的 de novo 合成與從 nicotinic acid 的 Preiss-Handler 路徑。在 salvage 中，NAMPT 將 Nicotinamide 轉化為 NMN，NMNAT 酶生成 NAD+。NAD+ 消耗酶將 NAD+ 切回 Nicotinamide 與 ADP-ribose，因此此 KEGG 路徑涵蓋細胞 NAD+ 池的產生與回收。"
+    },
+    "confidence": 0.9,
+    "source_document": "Nicotinate and Nicotinamide Metabolism.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "adfebb1fa86b",
+    "subject": "Nicotinate and Nicotinamide Metabolism",
+    "predicate": "uses_precursor",
+    "object": "Tryptophan",
+    "context": {
+      "en-US": "Nicotinate and Nicotinamide Metabolism uses precursor Tryptophan for de novo NAD+ synthesis through the kynurenine pathway, complementing salvage of Nicotinamide and utilization of nicotinic acid. Reduced biosynthetic precursors, including Tryptophan, were reported in colitic mucosa together with accumulated catabolites and lower quantified NAD+. Precursor availability therefore forms one side of the pathway imbalance, opposed by heightened NAD+ consumption that exhausts the pool.",
+      "zh-TW": "Nicotinate and Nicotinamide Metabolism 使用前驅物 Tryptophan 經 kynurenine 路徑進行 NAD+ de novo 合成，補充 Nicotinamide 的 salvage 與 nicotinic acid 的利用。結腸炎黏膜中報告生物合成前驅物（包括 Tryptophan）減少，伴隨分解產物累積與量化的較低 NAD+。因此前驅物可用性構成路徑失衡的一側，與耗竭 NAD+ 池的升高消耗相對。"
+    },
+    "confidence": 0.9,
+    "source_document": "Nicotinate and Nicotinamide Metabolism.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "ecca309d1e97",
+    "subject": "Perforin",
+    "predicate": "delivers",
+    "object": "Granzyme B",
+    "context": {
+      "en-US": "Perforin delivers Granzyme B into target cells by oligomerizing in their membrane after immunological-synapse formation and forming pores that permit granule proteases to enter the cytosol. This delivery step initiates apoptotic substrate cleavage by Granzyme B and is non-redundant for normal cytotoxic lymphocyte function, as Perforin deficiency causes severe familial hemophagocytic lymphohistiocytosis. Loss of Perforin therefore disables canonical granule-mediated killing by CD8 T cells.",
+      "zh-TW": "Perforin 在 immunological-synapse 形成後於標的細胞膜寡聚並形成孔洞，使顆粒 proteases 進入胞質，從而將 Granzyme B 遞送入標的細胞。此遞送步驟啟動 Granzyme B 的凋亡受質切割，且對正常細胞毒性淋巴球功能不可或缺，因為 Perforin 缺乏造成嚴重 familial hemophagocytic lymphohistiocytosis。因此 Perforin 喪失使 CD8 T cells 的典型顆粒介導殺傷失效。"
+    },
+    "confidence": 0.9,
+    "source_document": "Perforin.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "5fc2ef1b93cd",
+    "subject": "Perforin",
+    "predicate": "is_expressed_by",
+    "object": "Natural Killer Cells",
+    "context": {
+      "en-US": "Perforin is expressed by Natural Killer Cells and CD8 T cells, which store this calcium-dependent pore-forming glycoprotein in cytotoxic granules for rapid release at an immunological synapse. Its expression identifies lymphocytes equipped for granule-mediated target killing. Reduced Perforin in senescent CD8 T cells consequently indicates loss of cytotoxic effector capacity even when those cells retain or increase pro-inflammatory cytokine and SASP mediator production.",
+      "zh-TW": "Perforin 由 Natural Killer Cells 與 CD8 T cells 表現，這些細胞將此 calcium 依賴成孔 glycoprotein 儲存於細胞毒性顆粒，以在 immunological synapse 快速釋放。其表現辨識具備顆粒介導標的殺傷的淋巴球。因此 Senescent CD8+ T Cells 中 Perforin 減少表示即使這些細胞保留或增加促發炎細胞激素與 SASP 介質產生，仍喪失細胞毒性效應能力。"
+    },
+    "confidence": 0.9,
+    "source_document": "Perforin.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "65b3de5a7a31",
+    "subject": "Senescent CD8+ T Cells",
+    "predicate": "express",
+    "object": "p16",
+    "context": {
+      "en-US": "Senescent CD8+ T Cells express p16, encoded by CDKN2A, as part of the cell-cycle arrest program defining this population in Ulcerative Colitis mucosa. p16 positivity occurs together with p21 CIP1, SA-beta-gal activity, gamma-H2A.X and shortened telomeres, distinguishing durable senescent arrest from transient activation. Upregulation of p16 alongside KLRG1 and inflammatory mediators supports classification of these CD8 T cells as senescent rather than conventionally exhausted.",
+      "zh-TW": "Senescent CD8+ T Cells 表現 p16（由 CDKN2A 編碼），作為定義 Ulcerative Colitis 黏膜此族群的細胞週期停滯程序一部分。p16 陽性與 p21 CIP1、SA-beta-gal 活性、gamma-H2A.X 及縮短 telomeres 並存，區分持久衰老停滯與短暫活化。p16 與 KLRG1 及發炎介質一起上調，支持將這些 CD8 T cells 分類為衰老而非典型耗竭。"
+    },
+    "confidence": 0.9,
+    "source_document": "Senescent CD8+ T Cells.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "e33ed10f7fab",
+    "subject": "Senescent CD8+ T Cells",
+    "predicate": "express",
+    "object": "p21 CIP1",
+    "context": {
+      "en-US": "Senescent CD8+ T Cells express p21 CIP1, encoded by CDKN1A, which enforces cell-cycle arrest in this pathogenic Ulcerative Colitis population. p21 expression accompanies p16, KLRG1, impaired proliferation and a pro-inflammatory secretory phenotype, while canonical exhaustion checkpoints are not differentially increased. Pharmacological induction of NAD+ depletion raises p21 in CD8 T cells, and STING inhibition rescues that induction, linking p21 to the upstream metabolic and DNA-sensing mechanism.",
+      "zh-TW": "Senescent CD8+ T Cells 表現 p21 CIP1（由 CDKN1A 編碼），其在此致病性 Ulcerative Colitis 族群強制細胞週期停滯。p21 表現伴隨 p16、KLRG1、增殖受損與促發炎分泌表型，而典型 exhaustion 檢查點未差異增加。藥理誘發 NAD+ 耗竭使 CD8 T cells 的 p21 上升，STING 抑制則拯救該誘發，將 p21 連結至上游代謝與 DNA 感知機制。"
+    },
+    "confidence": 0.9,
+    "source_document": "Senescent CD8+ T Cells.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "46ae81814c06",
+    "subject": "Spatial Transcriptomics",
+    "predicate": "localizes",
+    "object": "Senescent CD8+ T Cells",
+    "context": {
+      "en-US": "Spatial Transcriptomics localizes Senescent CD8+ T Cells within intact colonic tissue by scoring their high-senescence signature at spatially barcoded spots while preserving histological coordinates. In Ulcerative Colitis, spots jointly high for this signature and NAD+ metabolism expanded compared with healthy colon, defining a senescent niche. Localization supports a model in which these cells arise in mucosal microenvironments of NAD+ dysregulation rather than distributing uniformly throughout tissue.",
+      "zh-TW": "Spatial Transcriptomics 透過在保留組織座標的空間條碼 spots 評分 Senescent CD8+ T Cells 的高衰老特徵，將其定位於完整結腸組織內。在 Ulcerative Colitis 中，此特徵與 NAD+ 代謝 jointly high 的 spots 相較健康結腸擴增，定義衰老 niche。此定位支持這些細胞在 NAD+ 失調的黏膜微環境中產生、而非均勻分布於組織的模型。"
+    },
+    "confidence": 0.9,
+    "source_document": "Spatial Transcriptomics.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "72428361a746",
+    "subject": "Spatial Transcriptomics",
+    "predicate": "complements",
+    "object": "Single-Cell RNA-seq",
+    "context": {
+      "en-US": "Spatial Transcriptomics complements Single-Cell RNA-seq because spatial methods retain tissue architecture and neighbor relationships that are lost when tissue is dissociated for single-cell profiling. Single-cell data define cell-state signatures with high resolution, while spatial data assign those signatures to histological niches in intact sections. Combining both approaches links molecular phenotypes to anatomical context and avoids inferring tissue organization solely from dissociated cell proportions or marker expression.",
+      "zh-TW": "Spatial Transcriptomics 補充 Single-Cell RNA-seq，因為空間方法保留組織解離進行單細胞分析時喪失的組織架構與鄰近關係。單細胞資料以高解析度定義細胞狀態特徵，空間資料則將這些特徵指派至完整切片的組織 niche。結合兩種方法將分子表型連結至解剖脈絡，避免僅從解離細胞比例或標記表現推斷組織組織。"
+    },
+    "confidence": 0.9,
+    "source_document": "Spatial Transcriptomics.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "0cf4e1a62e4a",
+    "subject": "T Cell Exhaustion",
+    "predicate": "is_characterized_by",
+    "object": "PD-1",
+    "context": {
+      "en-US": "T Cell Exhaustion is characterized by PD-1 upregulation on chronically stimulated T cells, together with CTLA-4, LAG-3 and HAVCR2/TIM-3 inhibitory checkpoints and progressive loss of effector function. PD-1 therefore serves as a canonical marker of the exhaustion program and a target for checkpoint blockade intended to restore antitumor immunity. Absence of increased PD-1 in senescent CD8 T cells helps distinguish durable senescent arrest from reversible exhaustion.",
+      "zh-TW": "T Cell Exhaustion 的特徵為慢性刺激 T cells 上 PD-1 上調，並伴 CTLA-4、LAG-3 與 HAVCR2/TIM-3 抑制檢查點及效應功能進行性喪失。因此 PD-1 是 exhaustion 程序的典型標記，也是旨在恢復抗腫瘤免疫的檢查點阻斷標靶。Senescent CD8+ T Cells 中 PD-1 未增加，有助區分持久衰老停滯與可逆 exhaustion。"
+    },
+    "confidence": 0.9,
+    "source_document": "T Cell Exhaustion.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "fce7b21fedf9",
+    "subject": "T Cell Exhaustion",
+    "predicate": "is_characterized_by",
+    "object": "CTLA-4",
+    "context": {
+      "en-US": "T Cell Exhaustion is characterized by CTLA-4 expression as part of a coordinated inhibitory-receptor program induced by chronic antigenic stimulation and inflammation. CTLA-4 co-occurs with PD-1, LAG-3 and HAVCR2 in exhausted T cells and contributes to reduced effector cytokine production and proliferation. Profiling CTLA-4 with other checkpoints is therefore used to test whether dysfunctional T cells follow an exhaustion trajectory rather than a senescence program dominated by p16, p21 and SASP.",
+      "zh-TW": "T Cell Exhaustion 的特徵為 CTLA-4 表現，作為慢性抗原刺激與發炎誘發的協調抑制受體程序一部分。CTLA-4 與 PD-1、LAG-3 及 HAVCR2 在耗竭 T cells 中並存，並造成效應細胞激素產生與增殖降低。因此以 CTLA-4 與其他檢查點分析，可檢驗功能障礙 T cells 是否遵循 exhaustion 軌跡，而非由 p16、p21 與 SASP 主導的衰老程序。"
+    },
+    "confidence": 0.9,
+    "source_document": "T Cell Exhaustion.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "7bd3e64e5d17",
+    "subject": "Ulcerative Colitis",
+    "predicate": "damages",
+    "object": "Intestinal Barrier",
+    "context": {
+      "en-US": "Ulcerative Colitis damages the Intestinal Barrier through chronic inflammation restricted predominantly to the colonic mucosa, producing epithelial ulceration and impaired containment of luminal microbes and antigens. Barrier failure sustains immune activation and tissue injury, while pathogenic T cells contribute substantially to mucosal damage. Experimental Dextran Sulfate Sodium injury reproduces barrier disruption and ulceration, although human Ulcerative Colitis additionally involves chronic adaptive immune and genetic components.",
+      "zh-TW": "Ulcerative Colitis 透過主要侷限於結腸黏膜的慢性發炎損害 Intestinal Barrier，產生上皮潰瘍並損害對腔內微生物與抗原的 containment。屏障失效維持免疫活化與組織損傷，而致病性 T cells 對黏膜損傷有 substantial 貢獻。實驗性 Dextran Sulfate Sodium 損傷重現屏障破壞與潰瘍，儘管人類 Ulcerative Colitis 另涉及慢性適應性免疫與遺傳成分。"
+    },
+    "confidence": 0.7,
+    "source_document": "Ulcerative Colitis.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "e33f74d2e370",
+    "subject": "Ulcerative Colitis",
+    "predicate": "is_characterized_by",
+    "object": "Inflammation",
+    "context": {
+      "en-US": "Ulcerative Colitis is characterized by Inflammation of the colonic mucosa that is chronic, relapsing and driven by dysregulated immune responses to luminal factors. Mucosal inflammation produces ulceration, bleeding and increased intestinal permeability and is quantified clinically and endoscopically by disease activity indices. Within this inflammatory environment, premature T-cell senescence and NAD+ dysregulation can amplify cytokine production and contribute to persistent tissue injury in affected patients.",
+      "zh-TW": "Ulcerative Colitis 的特徵為結腸黏膜的 Inflammation，其慢性、復發且由對腔內因子的失調免疫反應驅動。黏膜發炎產生潰瘍、出血與腸通透性增加，並由疾病活動指數在臨床與內視鏡上量化。在此發炎環境中，過早 T 細胞衰老與 NAD+ 失調可放大細胞激素產生，並貢獻受影響患者的持續組織損傷。"
+    },
+    "confidence": 0.9,
+    "source_document": "Ulcerative Colitis.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "77fd4404dbb8",
+    "subject": "VBIT-4",
+    "predicate": "inhibits_oligomerization_of",
+    "object": "VDAC",
+    "context": {
+      "en-US": "VBIT-4 inhibits oligomerization of VDAC, specifically VDAC1 in the mitochondrial outer membrane, preventing assembly of the large pore through which mtDNA and pro-apoptotic factors can escape. This target-level action distinguishes VBIT-4 from broader VDAC channel blockade and explains its use to test VDAC-dependent mtDNA release. A reported specificity concern and possible membrane-disruptive activity mean mechanistic conclusions require appropriate controls in each experimental system.",
+      "zh-TW": "VBIT-4 抑制 VDAC 的寡聚化，特別是粒線體外膜的 VDAC1，防止 mtDNA 與 pro-apoptotic 因子可逃逸的大孔洞組裝。此標的層級作用區分 VBIT-4 與較廣泛的 VDAC 通道阻斷，並解釋其用於檢驗 VDAC 依賴 mtDNA 釋放。已報告的專一性疑慮與可能的膜破壞活性意味每個實驗系統的機制結論需適當控制。"
+    },
+    "confidence": 0.9,
+    "source_document": "VBIT-4.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "62b56a0822d4",
+    "subject": "VBIT-4",
+    "predicate": "suppresses",
+    "object": "Senescent CD8+ T Cells",
+    "context": {
+      "en-US": "VBIT-4 suppresses Senescent CD8+ T Cells formation in the FK866 model by blocking VDAC1-dependent cytosolic mtDNA accumulation and thereby reducing downstream STING and IRF3 activation. Treated CD8 T cells show a lower SA-beta-gal-positive senescent fraction and reduced senescence-associated signaling. The result positions mitochondrial mtDNA release as an intervening step between NAD+ exhaustion-induced organelle damage and cGAS-STING Pathway-driven senescence, rather than a parallel unrelated consequence.",
+      "zh-TW": "VBIT-4 在 FK866 模型中透過阻斷 VDAC1 依賴的胞質 mtDNA 累積，從而減少下游 STING 與 IRF3 活化，抑制 Senescent CD8+ T Cells 形成。處理的 CD8 T cells 顯示較低 SA-beta-gal 陽性衰老比例與減少的衰老相關訊號。此結果將粒線體 mtDNA 釋放定位為 NAD+ 耗竭誘發胞器損傷與 cGAS-STING Pathway 驅動衰老之間的中介步驟，而非平行無關後果。"
+    },
+    "confidence": 0.7,
+    "source_document": "VBIT-4.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "a9221cd7724a",
+    "subject": "VBIT-4",
+    "predicate": "suppresses",
+    "object": "STING",
+    "context": {
+      "en-US": "VBIT-4 suppresses STING activation indirectly by preventing VDAC1 oligomerization and cytosolic release of mtDNA, the DNA ligand that initiates cGAS-STING Pathway signaling after mitochondrial damage. Reduced cytosolic mtDNA lowers Cgas and Sting1 expression readouts and diminishes phosphorylated STING and IRF3 in FK866-treated CD8 T cells. STING suppression by VBIT-4 therefore reflects interruption of an upstream mitochondrial release step, not direct binding to STING itself.",
+      "zh-TW": "VBIT-4 透過防止 VDAC1 寡聚化與粒線體損傷後啟動 cGAS-STING Pathway 訊號的 DNA 配體 mtDNA 胞質釋放，間接抑制 STING 活化。胞質 mtDNA 減少降低 FK866 處理 CD8 T cells 的 Cgas 與 Sting1 表現讀值，並減少磷酸化 STING 與 IRF3。因此 VBIT-4 對 STING 的抑制反映上游粒線體釋放步驟的中斷，而非直接結合 STING 本身。"
+    },
+    "confidence": 0.7,
+    "source_document": "VBIT-4.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "afc5c495ba0f",
+    "subject": "Vedolizumab",
+    "predicate": "inhibits_trafficking_of",
+    "object": "T Cell",
+    "context": {
+      "en-US": "Vedolizumab inhibits trafficking of T Cell populations into gastrointestinal mucosa by binding alpha4beta7 integrin on circulating lymphocytes and blocking its interaction with mucosal addressin ligands. This gut-selective trafficking blockade limits lymphocyte recruitment to inflamed intestine without the systemic TNF neutralization used by Infliximab. The mechanism supports efficacy in Ulcerative Colitis and Crohn's Disease while producing a more anatomically restricted immunosuppressive profile than systemic lymphocyte depletion.",
+      "zh-TW": "Vedolizumab 透過結合循環淋巴球上的 alpha4beta7 integrin 並阻斷其與黏膜 addressin 配體的交互作用，抑制 T Cell 族群遷移至胃腸黏膜。此腸道選擇性 trafficking 阻斷限制淋巴球招募至發炎腸道，而不使用 Infliximab 的全身 TNF 中和。此機制支持其在 Ulcerative Colitis 與 Crohn's Disease 的療效，同時產生比全身淋巴球耗竭更具解剖限制的免疫抑制輪廓。"
+    },
+    "confidence": 0.7,
+    "source_document": "Vedolizumab.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "fe3219aa66d1",
+    "subject": "Vedolizumab",
+    "predicate": "treats",
+    "object": "Crohn's Disease",
+    "context": {
+      "en-US": "Vedolizumab treats Crohn's Disease as well as Ulcerative Colitis, the two principal forms of Inflammatory Bowel Disease, through gut-selective alpha4beta7 integrin blockade. By preventing lymphocyte trafficking into gastrointestinal mucosa, it suppresses intestinal inflammation at sites relevant to both diseases. Approval for moderate-to-severe disease reflects clinical efficacy of trafficking inhibition, although pretreatment molecular features, including NAD+ metabolism and senescent T-cell infiltration scores, may identify patients at higher risk of non-response.",
+      "zh-TW": "Vedolizumab 透過腸道選擇性 alpha4beta7 integrin 阻斷治療 Crohn's Disease 以及 Ulcerative Colitis，此兩者為 Inflammatory Bowel Disease 的主要形式。透過防止淋巴球遷移至胃腸黏膜，它抑制與兩種疾病相關部位的腸道發炎。中重度疾病的核准反映 trafficking 抑制的臨床療效，儘管治療前分子特徵（包括 NAD+ 代謝與衰老 T 細胞浸潤分數）可辨識無反應風險較高的患者。"
+    },
+    "confidence": 0.9,
+    "source_document": "Vedolizumab.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "e8a58ae88964",
+    "subject": "diABZI",
+    "predicate": "activates",
+    "object": "IRF3",
+    "context": {
+      "en-US": "diABZI activates IRF3 downstream of direct STING binding, through STING translocation from the Endoplasmic Reticulum to the Golgi, TBK1 recruitment and IRF3 phosphorylation. IRF3 activation drives type I interferon and pro-inflammatory transcription independently of cGAS or cytosolic DNA. In CD8 T cells, this pharmacological gain-of-function recapitulates senescence-associated p16 and p21 induction, supporting sufficiency of STING-IRF3 signaling for the senescent program under study.",
+      "zh-TW": "diABZI 在直接 STING 結合下游，透過 STING 從 Endoplasmic Reticulum 轉位至 Golgi、TBK1 招募與 IRF3 磷酸化，活化 IRF3。IRF3 活化獨立於 cGAS 或胞質 DNA 驅動 Type I Interferon 與促發炎轉錄。在 CD8 T cells 中，此藥理 gain-of-function 重現衰老相關 p16 與 p21 誘發，支持 STING-IRF3 訊號對所研究衰老程序的充分性。"
+    },
+    "confidence": 0.7,
+    "source_document": "diABZI.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "06913a2f0129",
+    "subject": "diABZI",
+    "predicate": "upregulates",
+    "object": "p21 CIP1",
+    "context": {
+      "en-US": "diABZI upregulates p21 CIP1 in CD8 T cells by directly hyperactivating STING and its TBK1-IRF3 downstream signaling, recapitulating the senescence phenotype produced by NAD+ depletion with FK866. Increased p21, together with p16, enforces cell-cycle arrest and marks entry into the senescent state. This agonist result complements STING inhibition and knockout resistance, together supporting necessity and sufficiency of cGAS-STING Pathway signaling for senescence induction.",
+      "zh-TW": "diABZI 透過直接過度活化 STING 及其 TBK1-IRF3 下游訊號，在 CD8 T cells 中上調 p21 CIP1，重現 FK866 NAD+ 耗竭產生的衰老表型。p21 增加與 p16 一起強制細胞週期停滯並標記進入衰老狀態。此 agonist 結果補充 STING 抑制與 knockout 抗性，共同支持 cGAS-STING Pathway 訊號對衰老誘發的必要性與充分性。"
+    },
+    "confidence": 0.7,
+    "source_document": "diABZI.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "fe386da072ea",
+    "subject": "Immunosenescence",
+    "predicate": "is_characterized_by",
+    "object": "Senescent CD8+ T Cells",
+    "context": {
+      "en-US": "Immunosenescence is characterized by Senescent CD8+ T Cells in premature, non-chronological settings such as Ulcerative Colitis, where metabolic dysregulation rather than age alone generates a pathogenic senescent T-cell population. These cells combine impaired proliferative and cytotoxic capacity with a pro-inflammatory SASP that amplifies mucosal inflammation. Their accumulation links immune aging to chronic inflammatory disease and to reduced responsiveness against infection, vaccination and malignant or senescent target cells.",
+      "zh-TW": "Immunosenescence 在 Ulcerative Colitis 等過早、非時間性情境中以 Senescent CD8+ T Cells 為特徵，其中代謝失調而非單獨年齡產生致病性衰老 T 細胞族群。這些細胞結合受損的增殖與細胞毒性能力，以及放大黏膜發炎的促發炎 SASP。其累積將免疫老化連結至慢性發炎疾病，以及對感染、疫苗與惡性或衰老標的細胞的反應降低。"
+    },
+    "confidence": 0.7,
+    "source_document": "Immunosenescence.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "3c17c45153db",
+    "subject": "Immunosenescence",
+    "predicate": "increases_susceptibility_to",
+    "object": "Autoimmune Disease",
+    "context": {
+      "en-US": "Immunosenescence increases susceptibility to Autoimmune Disease by deteriorating adaptive immune regulation, accumulating senescence-like memory T cells and sustaining chronic innate activation through Inflammaging. Impaired responses to new antigens and perturbed memory immunity coexist with loss of tolerance control, creating conditions for inappropriate tissue-directed inflammation. Premature immunosenescence in chronic inflammatory disease illustrates that this susceptibility can arise from metabolic and inflammatory stress rather than chronological aging alone.",
+      "zh-TW": "Immunosenescence 透過退化適應性免疫調節、累積衰老樣記憶 T cells 並經 Inflammaging 維持慢性先天活化，增加對 Autoimmune Disease 的易感性。對新抗原回應受損與記憶免疫擾動，與耐受控制喪失並存，創造不當組織導向發炎的條件。慢性發炎疾病中的過早 immunosenescence 說明此易感性可由代謝與發炎壓力產生，而非僅時間性老化。"
+    },
+    "confidence": 0.7,
+    "source_document": "Immunosenescence.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "9cc805b85573",
+    "subject": "Immunosenescence",
+    "predicate": "increases_susceptibility_to",
+    "object": "Cancer",
+    "context": {
+      "en-US": "Immunosenescence increases susceptibility to Cancer by weakening T-cell and natural killer surveillance that normally eliminates malignant and senescent cells, while chronic Inflammaging can create a tissue environment favoring tumor promotion. Declining naive T-cell output and accumulation of dysfunctional memory subsets reduce recognition of new tumor antigens. This dual loss of surveillance and rise in inflammatory signaling situates immune aging within both cancer predisposition and impaired senescence clearance during aging.",
+      "zh-TW": "Immunosenescence 透過削弱通常消除惡性與衰老細胞的 T-cell 與 natural killer 監視，增加對 Cancer 的易感性，而慢性 Inflammaging 可創造有利腫瘤促進的組織環境。Naive T-cell 產出下降與功能障礙記憶亞群累積降低對新腫瘤抗原的辨識。此監視喪失與發炎訊號上升的雙重變化，將免疫老化置於癌症易感性與老化期間衰老清除受損之中。"
+    },
+    "confidence": 0.7,
+    "source_document": "Immunosenescence.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
   }
 ]

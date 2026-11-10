@@ -5066,5 +5066,33 @@
     "source_document": "Glutathione S-transferase π1.md",
     "created": "2026-09-04T18:36:16Z",
     "updated": "2026-09-29T18:36:32Z"
+  },
+  {
+    "id": "5cabfc7f4014",
+    "subject": "PRDX1",
+    "predicate": "scavenges",
+    "object": "Hydrogen Peroxide",
+    "context": {
+      "en-US": "PRDX1 is a thioredoxin-dependent 2-Cys peroxiredoxin whose peroxidatic Cys52 reacts with hydrogen peroxide at near diffusion-limited rates to form a sulfenic acid, then a disulfide with resolving Cys173 that thioredoxin reduces back. Because it sets local peroxide tone, PRDX1 governs the activity of redox-sensitive NF-kappaB and HIF-1alpha rather than acting as a simple peroxide sink.",
+      "zh-TW": "PRDX1 清除 Hydrogen Peroxide：PRDX1 是 Thioredoxin 依賴的 2-Cys peroxiredoxin，其過氧化 Cys52 以接近擴散限制的速率與 Hydrogen Peroxide 反應生成次磺酸，再與 resolving Cys173 形成雙硫鍵，由 Thioredoxin 還原回復。由於 PRDX1 設定局部過氧化物的張力，它調控氧化還原敏感的 NF-kappaB 與 HIF-1alpha 活性，而非僅作為單純的過氧化物接收槽。"
+    },
+    "confidence": 0.9,
+    "source_document": "PRDX1.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "d74436a5ec59",
+    "subject": "PRDX1",
+    "predicate": "restrains",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "PRDX1 and PRDX2 neutralise lipid hydroperoxides before they can propagate, competing with GPX4 for the lipid peroxidation substrate. Loss of PRDX1 or of thioredoxin recycling increases lipid hydroperoxide burden and promotes ferroptosis alongside GPX4 loss; hyperoxidation of Cys52 to sulfinic acid converts PRDX1 from a peroxidase into a holdase chaperone that binds unfolded proteins.",
+      "zh-TW": "PRDX1 抑制 Ferroptosis：PRDX1 與 PRDX2 在脂質氫過氧化物傳播前將其中和，與 GPX4 競爭 Lipid Peroxidation 受質。PRDX1 缺失或 Thioredoxin 回收受損會提高脂質氫過氧化物負荷，並與 GPX4 缺失共同促進 Ferroptosis；Cys52 過度氧化為亞磺酸則使 PRDX1 由過氧化酶轉為結合未折疊蛋白的 holdase 伴護蛋白。"
+    },
+    "confidence": 0.9,
+    "source_document": "PRDX1.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
   }
 ]
