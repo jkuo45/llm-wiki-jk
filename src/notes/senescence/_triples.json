@@ -6438,5 +6438,663 @@
     "source_document": "_document_ - Birch and Gil 2020 - Senescence and the SASP many therapeutic avenues.md",
     "created": "2026-09-15T00:00:00Z",
     "updated": "2026-09-29T18:36:32Z"
+  },
+  {
+    "id": "851e5422af6a",
+    "subject": "Ulcerative Colitis",
+    "predicate": "is_a_type_of",
+    "object": "Inflammatory Bowel Disease",
+    "context": {
+      "en-US": "Ulcerative colitis (UC) is a predominant form of inflammatory bowel disease (IBD), characterised by unchecked colonic mucosal inflammation to which pathogenic T cells contribute substantially. In Ye et al. 2026 it is the specific disease context in which premature immunosenescence — NAD+ metabolic dysregulation-driven senescence of CD8+ T cells — is identified as a core pathogenic vulnerability. IBD is the broader category; UC is the mucosa-limited colonic subtype studied, where high primary non-response rates to biologics motivate looking beyond T-cell hyperactivation.",
+      "zh-TW": "潰瘍性結腸炎（UC）是發炎性腸道疾病（IBD）的一種主要形式，特徵為結腸黏膜不受控的發炎，致病性 T 細胞對組織損傷有實質貢獻。在 Ye 等人 2026 的研究中，它是辨識出過早免疫衰老——即 NAD+ 代謝失調驅動的 CD8+ T 細胞衰老——作為核心致病脆弱性的特定疾病脈絡。IBD 為較廣的分類，UC 是此處研究的侷限於黏膜的結腸亞型，其中生物製劑的高原發性無反應率促使研究超越 T 細胞過度活化的視角。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md",
+    "created": "2026-11-10T09:00:00Z",
+    "updated": "2026-11-10T09:00:00Z"
+  },
+  {
+    "id": "d4698492c93c",
+    "subject": "Ulcerative Colitis",
+    "predicate": "is_characterized_by",
+    "object": "Senescent CD8+ T Cells",
+    "context": {
+      "en-US": "Single-cell RNA-seq of colonic mucosa (GSE182270, validated in GSE214695) revealed elevated senescence-module scores specifically in T cells from UC patients, while B cells and myeloid cells were unchanged; high-senescence-score CD8+ T cells were expanded in the inflamed microenvironment. In chronic DSS colitis mice, colonic T cells show increased SA-β-gal, γ-H2A.X/p21 positivity, CD27−KLRG1+ phenotype and shorter telomeres. Senescent CD8+ T cells thus constitute a defining cellular feature of UC mucosa.",
+      "zh-TW": "結腸黏膜的單細胞 RNA-seq（GSE182270，於 GSE214695 驗證）顯示 UC 患者的 T 細胞衰老模組分數特異性升高，而 B 細胞與骨髓細胞未見增加；高衰老分數的 CD8+ T 細胞在發炎微環境中擴增。在慢性 DSS 結腸炎小鼠中，結腸 T 細胞呈現 SA-β-gal、γ-H2A.X/p21 陽性增加、CD27−KLRG1+ 表型與較短端粒。因此衰老 CD8+ T 細胞構成 UC 黏膜的定義性細胞特徵。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md",
+    "created": "2026-11-10T09:00:00Z",
+    "updated": "2026-11-10T09:00:00Z"
+  },
+  {
+    "id": "7a696c294913",
+    "subject": "Senescent CD8+ T Cells",
+    "predicate": "are_a_type_of",
+    "object": "CD8 T cells",
+    "context": {
+      "en-US": "Senescent CD8+ T cells are CD8+ cytotoxic T lymphocytes that have entered irreversible cell-cycle arrest with a pro-inflammatory SASP. Ye et al. show they derive from the colonic CD8+ T-cell compartment of UC patients, where a high-senescence-score subset (top 10% by senescence gene signature) is expanded relative to healthy controls. They retain CD8 lineage identity while acquiring p16/p21, KLRG1, loss of CD27/CD28 and reduced perforin/granzyme B, distinguishing them from functional effector CD8 T cells.",
+      "zh-TW": "衰老 CD8+ T 細胞是已進入不可逆細胞週期停滯、具促發炎 SASP 的 CD8+ 細胞毒性 T 淋巴球。Ye 等人顯示它們源自 UC 患者結腸的 CD8+ T 細胞區室，其中高衰老分數子集（依衰老基因特徵前 10%）相較健康對照擴增。它們保留 CD8 譜系身分，同時獲得 p16/p21、KLRG1、喪失 CD27/CD28 並降低 perforin/granzyme B，與功能性效應 CD8 T 細胞區分。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md",
+    "created": "2026-11-10T09:00:00Z",
+    "updated": "2026-11-10T09:00:00Z"
+  },
+  {
+    "id": "9966dfe924d7",
+    "subject": "Senescent CD8+ T Cells",
+    "predicate": "exacerbate",
+    "object": "Ulcerative Colitis",
+    "context": {
+      "en-US": "Adoptive transfer of FK866-induced senescent CD8+ T cells into mice with DSS-induced colitis accelerated disease progression, with more severe weight loss and higher disease activity index scores than vehicle- or control-CD8+ T-cell transfer groups. Recipients showed expansion of total and CD8+ colonic T cells, increased KLRG1+CD27− senescent CD8+ T cells and elevated IFN-γ-producing CD8+ T cells in the mucosa. This demonstrates that NAD+ dysregulation-driven senescent CD8+ T cells directly exacerbate intestinal inflammation in vivo.",
+      "zh-TW": "將 FK866 誘發的衰老 CD8+ T 細胞過繼轉移至 DSS 誘發結腸炎小鼠，較車劑或對照 CD8+ T 細胞轉移組加速疾病進展，體重減輕更嚴重且疾病活動指數分數更高。受體鼠結腸總 T 細胞與 CD8+ T 細胞擴增、KLRG1+CD27− 衰老 CD8+ T 細胞增加，黏膜中 IFN-γ 產生的 CD8+ T 細胞升高。這顯示 NAD+ 失調驅動的衰老 CD8+ T 細胞在體內直接加劇腸道發炎。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md",
+    "created": "2026-11-10T09:00:00Z",
+    "updated": "2026-11-10T09:00:00Z"
+  },
+  {
+    "id": "a1e629865acd",
+    "subject": "Immunosenescence",
+    "predicate": "contributes_to",
+    "object": "Ulcerative Colitis",
+    "context": {
+      "en-US": "Ye et al. frame premature immunosenescence — driven not solely by chronological aging but also by metabolic dysregulation, oxidative stress and genomic instability — as a core pathogenic vulnerability in UC. Senescent T cells acquire a SASP releasing pro-inflammatory cytokines and chemokines that amplify tissue damage and perpetuate chronic mucosal inflammation. The study positions accumulation of senescent CD8+ T cells, rather than classical T-cell hyperactivation, as a driver of UC pathogenesis and a viable therapeutic target.",
+      "zh-TW": "Ye 等人將過早免疫衰老——不僅來自時序老化，也來自代謝失調、氧化壓力與基因組不穩定——框定為 UC 的核心致病脆弱性。衰老 T 細胞獲得 SASP，釋放促發炎細胞激素與趨化因子，放大組織損傷並延續慢性黏膜發炎。該研究將衰老 CD8+ T 細胞的累積，而非典型 T 細胞過度活化，定位為 UC 致病機轉的驅動者與可行的治療標的。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md",
+    "created": "2026-11-10T09:00:00Z",
+    "updated": "2026-11-10T09:00:00Z"
+  },
+  {
+    "id": "c8a3afe3b97c",
+    "subject": "NAD+ Metabolic Reprogramming",
+    "predicate": "drives",
+    "object": "Senescent CD8+ T Cells",
+    "context": {
+      "en-US": "Mucosal NAD+ metabolic dysregulation — reduced biosynthetic precursors (tryptophan, nicotinic acid), accumulated catabolites (nicotinamide, ADP-ribose), upregulated CD38/SIRT1/PARP1 and downregulated NAMPT — depletes NAD+ and is sufficient to induce CD8+ T-cell senescence. FK866 (NAMPT inhibition), SRT1720 (SIRT1 agonism) and NAMPT siRNA each lower intracellular NAD+ and expand the SA-β-gal+ senescent population; NMN supplementation largely abrogates the phenotype, establishing NAD+ availability as the causal metabolic constraint.",
+      "zh-TW": "黏膜 NAD+ 代謝失調——生物合成前驅物（色胺酸、菸鹼酸）減少、分解代謝物（菸鹼醯胺、ADP-ribose）累積、CD38/SIRT1/PARP1 上調與 NAMPT 下調——耗竭 NAD+ 且足以誘發 CD8+ T 細胞衰老。FK866（NAMPT 抑制）、SRT1720（SIRT1 促效）與 NAMPT siRNA 皆降低細胞內 NAD+ 並擴增 SA-β-gal+ 衰老族群；補充 NMN 大致消除此表型，確立 NAD+ 可利用性為因果性的代謝限制。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md",
+    "created": "2026-11-10T09:00:00Z",
+    "updated": "2026-11-10T09:00:00Z"
+  },
+  {
+    "id": "5486a49a732a",
+    "subject": "NAD+ Metabolic Reprogramming",
+    "predicate": "upregulates",
+    "object": "CD38",
+    "context": {
+      "en-US": "In the inflamed colonic mucosa of chronic colitis mice and in human UC transcriptomes, the NAD+-consuming and salvage enzymes Nampt, Sirt1, Cd38 and Parp1 are significantly upregulated, with CD38 particularly elevated in high-senescence-score CD8+ T cells. CD38 is a major NADase whose age-related induction by senescent-cell factors is linked to NAD+ decline and SASP. Its upregulation here marks a hyperconsumptive state that drains the mucosal NAD+ pool and couples NAD+ metabolism to immune senescence.",
+      "zh-TW": "在慢性結腸炎小鼠的發炎結腸黏膜與人類 UC 轉錄體中，NAD+ 消耗與回收酵素 Nampt、Sirt1、Cd38 與 Parp1 顯著上調，其中 CD38 在高衰老分數 CD8+ T 細胞中特別升高。CD38 是主要的 NADase，其隨年齡被衰老細胞因子誘發與 NAD+ 下降及 SASP 相關。此處的上調標記一個耗竭黏膜 NAD+ 池的高消耗狀態，將 NAD+ 代謝耦合到免疫衰老。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md",
+    "created": "2026-11-10T09:00:00Z",
+    "updated": "2026-11-10T09:00:00Z"
+  },
+  {
+    "id": "6c563b907a7d",
+    "subject": "NAD+ Metabolic Reprogramming",
+    "predicate": "downregulates",
+    "object": "NAMPT",
+    "context": {
+      "en-US": "NAMPT, the rate-limiting enzyme of the NAD+ salvage pathway, is reduced in high-senescence-score CD8+ T cells and in colonic CD8+ T cells sorted from colitis mice, alongside robust upregulation of CD38, SIRT1 and PARP1. This imbalance between impaired biosynthesis and increased consumption defines the hyperconsumptive NAD+ state. siRNA-mediated NAMPT knockdown in primary CD8+ T cells depletes NAD+, shortens telomeres and increases SA-β-gal activity, reproducing FK866-induced senescence and confirming the salvage enzyme's protective role.",
+      "zh-TW": "NAMPT 是 NAD+ 回收路徑的速率限制酵素，在高衰老分數 CD8+ T 細胞與自結腸炎小鼠分選的結腸 CD8+ T 細胞中下降，同時 CD38、SIRT1 與 PARP1 強健上調。此生物合成受損與消耗增加間的失衡定義了高消耗 NAD+ 狀態。在原代 CD8+ T 細胞中以 siRNA 敲低 NAMPT 會耗竭 NAD+、縮短端粒並提高 SA-β-gal 活性，重現 FK866 誘發的衰老，確認回收酵素的保護角色。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md",
+    "created": "2026-11-10T09:00:00Z",
+    "updated": "2026-11-10T09:00:00Z"
+  },
+  {
+    "id": "f2e9a64dd2cf",
+    "subject": "NAD+ Metabolic Reprogramming",
+    "predicate": "causes",
+    "object": "Mitochondrial Dysfunction",
+    "context": {
+      "en-US": "NAD+ depletion in CD8+ T cells suppresses oxidative phosphorylation while upregulating glycolysis, reduces intracellular ATP, and downregulates electron-transport-chain genes (Nduf, Cox, Atp families, Cyc1, Sdha). FK866-treated cells lose mitochondrial mass (MitoTracker), show aberrant morphology by TEM, accumulate mitochondrial ROS (MitoSOX) and have profoundly reduced mitochondrial NAD+ content. These changes establish severe mitochondrial damage as the organelle-level consequence of NAD+ exhaustion that precedes cytosolic mtDNA leakage and cGAS-STING activation.",
+      "zh-TW": "CD8+ T 細胞中 NAD+ 耗竭抑制氧化磷酸化並上調糖解、降低細胞內 ATP，且下調電子傳遞鏈基因（Nduf、Cox、Atp 家族、Cyc1、Sdha）。FK866 處理的細胞喪失粒線體質量（MitoTracker）、以 TEM 可見異常形態、累積粒線體 ROS（MitoSOX），且粒線體內 NAD+ 含量大幅降低。這些變化確立嚴重粒線體損傷為 NAD+ 耗竭在胞器層級的後果，先於胞質 mtDNA 滲漏與 cGAS-STING 活化。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md",
+    "created": "2026-11-10T09:00:00Z",
+    "updated": "2026-11-10T09:00:00Z"
+  },
+  {
+    "id": "0b676e38710b",
+    "subject": "NAD+ Metabolic Reprogramming",
+    "predicate": "suppresses",
+    "object": "Oxidative Phosphorylation",
+    "context": {
+      "en-US": "GSEA of FK866-treated CD8+ T cells shows suppressed oxidative phosphorylation with concomitantly upregulated glycolysis, indicating a metabolic shift away from mitochondrial respiration. Intracellular ATP levels fall and genes encoding electron-transport-chain subunits are downregulated in both bulk RNA-seq and qRT-PCR. The suppression of OXPHOS distinguishes this NAD+-depletion senescence program from an energetically intact effector T-cell state and provides the bioenergetic context for mitochondrial damage, mtROS overproduction and subsequent mtDNA release.",
+      "zh-TW": "FK866 處理之 CD8+ T 細胞的 GSEA 顯示氧化磷酸化受抑制，同時糖解上調，指出代謝偏離粒線體呼吸。細胞內 ATP 下降，且電子傳遞鏈次單元編碼基因在 bulk RNA-seq 與 qRT-PCR 中皆下調。OXPHOS 的抑制將此 NAD+ 耗竭衰老程序與能量完整的效應 T 細胞狀態區分，並為粒線體損傷、mtROS 過度產生及後續 mtDNA 釋放提供生物能量脈絡。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md",
+    "created": "2026-11-10T09:00:00Z",
+    "updated": "2026-11-10T09:00:00Z"
+  },
+  {
+    "id": "0b8e4894510f",
+    "subject": "NAD+ Metabolic Reprogramming",
+    "predicate": "activates",
+    "object": "cGAS-STING Pathway",
+    "context": {
+      "en-US": "Transcriptomic profiling of FK866-treated CD8+ T cells shows concurrent upregulation across the cGAS-STING cascade (Cgas, Sting1, Tbk1, Irf7) and enrichment of interferon-regulator transcription factors IRF3/IRF7. Immunoblotting confirms increased phosphorylated STING and IRF3. The activation is downstream of mitochondrial damage-driven cytosolic mtDNA leakage: blocking mtDNA release with the VDAC1 oligomerization inhibitor VBIT-4 reduces Cgas/Sting1 expression and p-STING/p-IRF3 abundance, linking NAD+ metabolic stress to innate DNA sensing.",
+      "zh-TW": "FK866 處理之 CD8+ T 細胞的轉錄體分析顯示 cGAS-STING 級聯（Cgas、Sting1、Tbk1、Irf7）同步上調，且干擾素調節轉錄因子 IRF3/IRF7 富集。免疫墨點確認磷酸化 STING 與 IRF3 增加。此活化位於粒線體損傷驅動的胞質 mtDNA 滲漏下游：以 VDAC1 寡聚化抑制劑 VBIT-4 阻斷 mtDNA 釋放可降低 Cgas/Sting1 表現與 p-STING/p-IRF3 含量，將 NAD+ 代謝壓力連結到先天 DNA 感測。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md",
+    "created": "2026-11-10T09:00:00Z",
+    "updated": "2026-11-10T09:00:00Z"
+  },
+  {
+    "id": "adc8a76276b5",
+    "subject": "FK866",
+    "predicate": "induces",
+    "object": "Senescent CD8+ T Cells",
+    "context": {
+      "en-US": "FK866, a specific inhibitor of the NAD+ salvage enzyme NAMPT, is used at 100 nM for 72 h to deplete intracellular NAD+ in primary murine CD8+ T cells. It induces multiple senescence-associated features: robust upregulation of p16 and p21, severely impaired proliferative capacity (CFSE/EdU), accelerated telomere attrition, an expanded SA-β-gal+ population, and a transcriptomic shift toward terminal differentiation with a pro-inflammatory SASP. FK866-induced senescent CD8+ T cells are the donor population for the in-vivo adoptive-transfer experiments.",
+      "zh-TW": "FK866 是 NAD+ 回收酵素 NAMPT 的特異性抑制劑，以 100 nM 處理 72 小時耗竭原代小鼠 CD8+ T 細胞的細胞內 NAD+。它誘發多種衰老相關特徵：p16 與 p21 強健上調、增殖能力嚴重受損（CFSE/EdU）、端粒加速磨損、SA-β-gal+ 族群擴增，以及朝向終末分化並具促發炎 SASP 的轉錄體偏移。FK866 誘發的衰老 CD8+ T 細胞即體內過繼轉移實驗的供體族群。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md",
+    "created": "2026-11-10T09:00:00Z",
+    "updated": "2026-11-10T09:00:00Z"
+  },
+  {
+    "id": "759f41994858",
+    "subject": "NMN",
+    "predicate": "suppresses",
+    "object": "Senescent CD8+ T Cells",
+    "context": {
+      "en-US": "Supplementing CD8+ T cells with the NAD+ precursor nicotinamide mononucleotide (NMN) prior to FK866 exposure largely abrogates FK866-induced senescence, and bulk RNA-seq shows the FK866-shifted transcriptome reverts toward the control profile after NAD+ supplementation. Previous work cited by the authors also reports that NAD+ precursor supplementation alleviates DSS-induced colitis. NMN thus establishes that restoring NAD+ availability is sufficient to restrain the metabolic induction of CD8+ T-cell senescence, complementing the causal loss-of-function evidence from FK866.",
+      "zh-TW": "在 FK866 暴露前以 NAD+ 前驅物菸鹼醯胺單核苷酸（NMN）補充 CD8+ T 細胞，大致消除 FK866 誘發的衰老，且 bulk RNA-seq 顯示 FK866 偏移的轉錄體在補充 NAD+ 後回復至對照輪廓。作者引用的先前研究亦報告 NAD+ 前驅物補充可減輕 DSS 誘發的結腸炎。NMN 因此確立回復 NAD+ 可利用性足以抑制 CD8+ T 細胞衰老的代謝誘發，補充 FK866 提供的因果性功能缺失證據。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md",
+    "created": "2026-11-10T09:00:00Z",
+    "updated": "2026-11-10T09:00:00Z"
+  },
+  {
+    "id": "09deecce5df2",
+    "subject": "Mitochondrial Dysfunction",
+    "predicate": "releases",
+    "object": "mtDNA",
+    "context": {
+      "en-US": "Mitochondrial damage in senescent CD8+ T cells is accompanied by a marked increase in cytosolic mitochondrial DNA while total mtDNA is reduced. The leakage is functionally upstream of innate immune activation: pre-treatment with VBIT-4, an inhibitor of VDAC1 oligomerization (the macropore responsible for mtDNA release), abolishes cytosolic mtDNA accumulation and reduces the SA-β-gal+ fraction. Cytosolic mtDNA acts as a damage-associated molecular pattern engaging cGAS-STING, translating metabolic stress into an antigen-independent pro-inflammatory program.",
+      "zh-TW": "衰老 CD8+ T 細胞的粒線體損傷伴隨胞質粒線體 DNA 顯著增加，而總 mtDNA 減少。此滲漏在功能上位於先天免疫活化上游：以 VDAC1 寡聚化抑制劑 VBIT-4（負責 mtDNA 釋放的大孔）前處理，可消除胞質 mtDNA 累積並降低 SA-β-gal+ 比例。胞質 mtDNA 作為損傷相關分子模式接合 cGAS-STING，將代謝壓力轉化為抗原非依賴的促發炎程序。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md",
+    "created": "2026-11-10T09:00:00Z",
+    "updated": "2026-11-10T09:00:00Z"
+  },
+  {
+    "id": "1ceb480de18a",
+    "subject": "VDAC",
+    "predicate": "mediates_release_of",
+    "object": "mtDNA",
+    "context": {
+      "en-US": "Voltage-dependent anion channel 1 (VDAC1) oligomerization forms the macropore through which mitochondrial DNA escapes into the cytosol in NAD+-depleted CD8+ T cells. VBIT-4, an inhibitor of VDAC1 oligomerization, abolishes cytosolic mtDNA accumulation, reduces Cgas/Sting1 expression and phosphorylated STING/IRF3, and lowers the SA-β-gal+ senescent fraction. This positions VDAC1-mediated mtDNA release as the mechanistic bridge between mitochondrial dysfunction and cGAS-STING-driven senescence, and identifies a pharmacological intercept point upstream of innate DNA sensing.",
+      "zh-TW": "電壓依賴性陰離子通道 1（VDAC1）寡聚化形成大孔，使粒線體 DNA 在 NAD+ 耗竭的 CD8+ T 細胞中逸入胞質。VDAC1 寡聚化抑制劑 VBIT-4 可消除胞質 mtDNA 累積、降低 Cgas/Sting1 表現與磷酸化 STING/IRF3，並減少 SA-β-gal+ 衰老比例。這將 VDAC1 介導的 mtDNA 釋放定位為粒線體功能障礙與 cGAS-STING 驅動衰老間的機制橋樑，並指出先天 DNA 感測上游的藥理攔截點。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md",
+    "created": "2026-11-10T09:00:00Z",
+    "updated": "2026-11-10T09:00:00Z"
+  },
+  {
+    "id": "d85746216eab",
+    "subject": "cGAS-STING Pathway",
+    "predicate": "drives",
+    "object": "Senescent CD8+ T Cells",
+    "context": {
+      "en-US": "The cGAS-STING pathway is required for NAD+-depletion-induced CD8+ T-cell senescence. The STING agonist diABZI recapitulates the phenotype by inducing p16 and p21, while the STING inhibitor C178 rescues FK866-induced upregulation of these markers and attenuates the pro-inflammatory IFN-γ/TNF-α output. In primary CD8+ T cells from STING-knockout mice, FK866 fails to increase SA-β-gal+ proportions, IFN-γ/TNF-α secretion or p16/p21 expression. Cytosolic mtDNA-derived cGAMP–STING–TBK1–IRF3 signalling therefore translates metabolic stress into the senescent program.",
+      "zh-TW": "cGAS-STING 路徑為 NAD+ 耗竭誘發之 CD8+ T 細胞衰老所必需。STING 促效劑 diABZI 透過誘發 p16 與 p21 重現此表型，而 STING 抑制劑 C178 拯救 FK866 誘發的這些標記上調並減弱促發炎 IFN-γ/TNF-α 輸出。在來自 STING 剔除小鼠的原代 CD8+ T 細胞中，FK866 無法提高 SA-β-gal+ 比例、IFN-γ/TNF-α 分泌或 p16/p21 表現。因此胞質 mtDNA 衍生的 cGAMP–STING–TBK1–IRF3 訊號將代謝壓力轉化為衰老程序。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md",
+    "created": "2026-11-10T09:00:00Z",
+    "updated": "2026-11-10T09:00:00Z"
+  },
+  {
+    "id": "67b059e7a293",
+    "subject": "Senescent CD8+ T Cells",
+    "predicate": "produce",
+    "object": "SASP",
+    "context": {
+      "en-US": "High-senescence-score colonic CD8+ T cells from UC patients exhibit a prominent senescence-associated secretory phenotype: upregulated pro-inflammatory mediators (IFNG, TNF, CCL3, CCL4) and senescence genes (CDKN2A, CDKN1A, KLRG1) with lower expression of cytotoxic molecules (GZMB, PRF1). FK866-treated CD8+ T cells show enhanced IFN-γ/TNF-α secretion but reduced perforin and impaired proliferation, and bulk RNA-seq shows enriched TNF-α/NF-κB signalling. This antigen-independent pro-inflammatory program amplifies mucosal inflammation while antigen-specific TCR responses are blunted.",
+      "zh-TW": "來自 UC 患者的高衰老分數結腸 CD8+ T 細胞展現顯著的衰老相關分泌表型：促發炎介質（IFNG、TNF、CCL3、CCL4）與衰老基因（CDKN2A、CDKN1A、KLRG1）上調，而細胞毒性分子（GZMB、PRF1）表現較低。FK866 處理的 CD8+ T 細胞顯示 IFN-γ/TNF-α 分泌增強但 perforin 降低與增殖受損，bulk RNA-seq 顯示 TNF-α/NF-κB 訊號富集。此抗原非依賴的促發炎程序放大黏膜發炎，同時抗原專一性 TCR 反應被削弱。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md",
+    "created": "2026-11-10T09:00:00Z",
+    "updated": "2026-11-10T09:00:00Z"
+  },
+  {
+    "id": "0e77401b903b",
+    "subject": "Senescent CD8+ T Cells",
+    "predicate": "are_distinct_from",
+    "object": "T Cell Exhaustion",
+    "context": {
+      "en-US": "Ye et al. explicitly distinguish CD8+ T-cell senescence from exhaustion, two dysfunctional states arising from chronic antigenic stimulation and inflammation. Classical exhaustion checkpoint markers (PDCD1, CTLA4, LAG3, HAVCR2) show no differential expression between high- and low-senescence-score CD8+ T cells, and FK866-induced senescent cells do not upregulate PD-1. Instead they show irreversible arrest with p16, p21 and KLRG1 and a robust SASP. The distinction implies senolytics, rather than checkpoint blockade, are the logical intervention for autoimmune and chronic inflammatory disease.",
+      "zh-TW": "Ye 等人明確區分 CD8+ T 細胞衰老與耗竭，兩者皆為慢性抗原刺激與發炎產生的功能障礙狀態。典型耗竭檢查點標記（PDCD1、CTLA4、LAG3、HAVCR2）在高與低衰老分數 CD8+ T 細胞間無差異表現，且 FK866 誘發的衰老細胞不上調 PD-1。相反地，它們呈現 p16、p21 與 KLRG1 的不可逆停滯及強健 SASP。此區別意謂對自體免疫與慢性發炎疾病而言，senolytics 而非檢查點阻斷才是合理的介入。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md",
+    "created": "2026-11-10T09:00:00Z",
+    "updated": "2026-11-10T09:00:00Z"
+  },
+  {
+    "id": "68bc688eb8f6",
+    "subject": "Senolytic Therapy",
+    "predicate": "clears",
+    "object": "Senescent CD8+ T Cells",
+    "context": {
+      "en-US": "In mice with chronic DSS colitis, oral dasatinib plus quercetin (5 mg/kg + 50 mg/kg, intermittent 3-day pulses) significantly decreases the frequency of CD27− CD8+ T cells in the colonic lamina propria, while CD27− CD4+ and CD4+Foxp3+ populations are unchanged. D+Q reduces IFN-γ and TNF-α production by colonic CD8+ T cells and lowers p16/p21. Combining D+Q with an anti-CD8 neutralizing antibody yields no additive benefit over either single treatment, indicating senolytic amelioration is mediated primarily by clearance of senescent CD8+ T cells.",
+      "zh-TW": "在慢性 DSS 結腸炎小鼠中，口服 dasatinib 合併 quercetin（5 mg/kg + 50 mg/kg，間歇 3 天脈衝）顯著降低結腸固有層中 CD27− CD8+ T 細胞比例，而 CD27− CD4+ 與 CD4+Foxp3+ 族群不變。D+Q 降低結腸 CD8+ T 細胞的 IFN-γ 與 TNF-α 產生並下調 p16/p21。D+Q 與抗 CD8 中和抗體合併使用較任一單一治療無額外效益，顯示 senolytic 的緩解主要透過清除衰老 CD8+ T 細胞介導。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md",
+    "created": "2026-11-10T09:00:00Z",
+    "updated": "2026-11-10T09:00:00Z"
+  },
+  {
+    "id": "e55888a90dc2",
+    "subject": "Senolytic Therapy",
+    "predicate": "attenuates",
+    "object": "Ulcerative Colitis",
+    "context": {
+      "en-US": "Systemic senolytic treatment with dasatinib plus quercetin significantly attenuates disease severity in a chronic DSS-induced colitis model that mimics key features of human ulcerative colitis. Treated mice show reduced body-weight loss, lower disease activity index, prevention of colitis-associated colon-weight increase, and downregulated colonic proinflammatory cytokines (Tnf, Il6, Il1b, Mcp1, Cxcl1) and senescence markers (Cdkn2a, Cdkn1a). The study establishes clearance of senescent immune cells as a candidate therapeutic strategy for UC, pending lineage-specific validation.",
+      "zh-TW": "以 dasatinib 合併 quercetin 進行的全身性 senolytic 治療，在模擬人類潰瘍性結腸炎關鍵特徵的慢性 DSS 誘發結腸炎模型中顯著減輕疾病嚴重度。治療小鼠顯示體重減輕降低、疾病活動指數較低、結腸炎相關結腸重量增加被阻止，且結腸促發炎細胞激素（Tnf、Il6、Il1b、Mcp1、Cxcl1）與衰老標記（Cdkn2a、Cdkn1a）下調。該研究確立清除衰老免疫細胞為 UC 的候選治療策略，尚待譜系特異性驗證。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md",
+    "created": "2026-11-10T09:00:00Z",
+    "updated": "2026-11-10T09:00:00Z"
+  },
+  {
+    "id": "f264227b70c6",
+    "subject": "NAD+ Metabolic Reprogramming",
+    "predicate": "predicts_nonresponse_to",
+    "object": "Infliximab",
+    "context": {
+      "en-US": "In the GSE16879 UC cohort, patients with high pretreatment scores for both NAD+ metabolism and senescent CD8+ T-cell infiltration showed significantly lower response rates to the anti-TNF-α biologic infliximab, and responders had lower baseline scores than non-responders; post-treatment score reductions were more pronounced in responders. The association was validated in the independent GSE73661 cohort for the α4β7 integrin antagonist vedolizumab. The NAD+–senescence signature therefore functions as a candidate predictive biomarker of primary biologic non-response in UC.",
+      "zh-TW": "在 GSE16879 UC 世代中，治療前 NAD+ 代謝與衰老 CD8+ T 細胞浸潤分數皆高的患者，對抗 TNF-α 生物製劑 infliximab 的反應率顯著較低，且反應者的基線分數低於無反應者；治療後分數下降在反應者更為明顯。此關聯在獨立的 GSE73661 世代以 α4β7 整合素拮抗劑 vedolizumab 獲得驗證。因此 NAD+–衰老特徵作為 UC 原發性生物製劑無反應的候選預測生物標記。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md",
+    "created": "2026-11-10T09:00:00Z",
+    "updated": "2026-11-10T09:00:00Z"
+  },
+  {
+    "id": "e3d4a987ea6e",
+    "subject": "NAD+ Metabolic Reprogramming",
+    "predicate": "is_spatially_associated_with",
+    "object": "Senescent CD8+ T Cells",
+    "context": {
+      "en-US": "Spatial transcriptomics of human colonic mucosa (GSE189184) was used to map the co-localization of the high-senescence-score CD8+ T-cell signature and the NAD+ metabolism signature. Healthy colon is dominated by an HSS-low/NAD-low homeostatic niche, with the HSS-high/NAD-high 'senescent niche' rare at 5.6%; in UC tissue this double-high niche expands to 16.7%. The spatial association indicates that senescent CD8+ T cells emerge within local mucosal niches experiencing high NAD+ metabolic dysregulation.",
+      "zh-TW": "人類結腸黏膜的空間轉錄體學（GSE189184）被用於繪製高衰老分數 CD8+ T 細胞特徵與 NAD+ 代謝特徵的共定位。健康結腸以 HSS-low/NAD-low 恆定 niche 為主，HSS-high/NAD-high「衰老 niche」僅佔 5.6%；在 UC 組織中此雙高 niche 擴張至 16.7%。此空間關聯指出衰老 CD8+ T 細胞出現於經歷高度 NAD+ 代謝失調的局部黏膜 niche 內。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md",
+    "created": "2026-11-10T09:00:00Z",
+    "updated": "2026-11-10T09:00:00Z"
+  },
+  {
+    "id": "598a160a5064",
+    "subject": "diABZI",
+    "predicate": "activates",
+    "object": "STING",
+    "context": {
+      "en-US": "diABZI (compound 3) is a non-nucleotide dimeric amidobenzimidazole STING agonist used in Ye et al. 2026 to test whether the cGAS-STING pathway drives NAD+-depletion-induced CD8+ T-cell senescence. Direct STING hyperactivation by diABZI upregulated cGAS and IRF3 expression, increased STING phosphorylation, and promoted IFN-γ and TNF-α production. As an agonist acting downstream of cGAS and cytosolic DNA, it supplies gain-of-function evidence complementary to the STING inhibitor C178 and to STING-knockout CD8+ T cells.",
+      "zh-TW": "diABZI（化合物 3）是非核苷酸的二聚體 amidobenzimidazole STING 促效劑，Ye 等人 2026 用它檢驗 cGAS-STING 路徑是否驅動 NAD+ 耗竭誘發的 CD8+ T 細胞衰老。diABZI 直接過度活化 STING 會上調 cGAS 與 IRF3 表現、增加 STING 磷酸化，並促進 IFN-γ 與 TNF-α 產生。作為作用於 cGAS 與胞質 DNA 下游的促效劑，它提供與 STING 抑制劑 C178 及 STING 剔除 CD8+ T 細胞互補的功能獲得證據。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md",
+    "created": "2026-11-10T10:00:00Z",
+    "updated": "2026-11-10T10:00:00Z"
+  },
+  {
+    "id": "705bd9b64d55",
+    "subject": "diABZI",
+    "predicate": "induces",
+    "object": "Senescent CD8+ T Cells",
+    "context": {
+      "en-US": "In Ye et al. 2026, direct STING hyperactivation by the agonist diABZI recapitulated the senescence phenotype in primary CD8+ T cells, inducing expression of the cell-cycle inhibitors p16 and p21. Together with the failure of FK866 to induce SA-β-gal, IFN-γ/TNF-α, p16 or p21 in STING-knockout CD8+ T cells, this establishes STING signalling as sufficient to drive the senescent CD8+ T-cell program independently of the upstream NAD+-depletion steps.",
+      "zh-TW": "在 Ye 等人 2026 中，促效劑 diABZI 直接過度活化 STING 可在原代 CD8+ T 細胞重現衰老表型，誘發細胞週期抑制因子 p16 與 p21 表現。連同 FK866 在 STING 剔除 CD8+ T 細胞中無法誘發 SA-β-gal、IFN-γ/TNF-α、p16 或 p21，這確立 STING 訊號足以獨立於上游 NAD+ 耗竭步驟驅動衰老 CD8+ T 細胞程序。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md",
+    "created": "2026-11-10T10:00:00Z",
+    "updated": "2026-11-10T10:00:00Z"
+  },
+  {
+    "id": "ba72ce94cf1e",
+    "subject": "C178",
+    "predicate": "inhibits",
+    "object": "STING",
+    "context": {
+      "en-US": "C-178 is a covalent small-molecule STING antagonist that modifies Cys91 in the transmembrane domain of murine STING, blocking the palmitoylation required for activation-associated clustering and downstream TBK1/IRF3 signalling. In Ye et al. 2026 it was paired with the agonist diABZI to dissect the pathway in primary murine CD8+ T cells; C178 blockade rescued FK866-induced upregulation of p16 and p21 and attenuated the pro-inflammatory phenotype.",
+      "zh-TW": "C-178 是共價小分子 STING 拮抗劑，修飾小鼠 STING 跨膜域的 Cys91，阻斷活化相關群聚所需的棕櫚醯化及下游 TBK1/IRF3 訊號。Ye 等人 2026 將其與促效劑 diABZI 配對，在原代小鼠 CD8+ T 細胞剖析此路徑；C178 阻斷可拯救 FK866 誘發的 p16 與 p21 上調並減弱促發炎表型。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md",
+    "created": "2026-11-10T10:00:00Z",
+    "updated": "2026-11-10T10:00:00Z"
+  },
+  {
+    "id": "4339e842d2a7",
+    "subject": "C178",
+    "predicate": "suppresses",
+    "object": "SASP",
+    "context": {
+      "en-US": "Flow cytometry in Ye et al. 2026 showed that the STING inhibitor C178 firmly attenuated the pro-inflammatory phenotype induced by NAD+ restriction: while the agonist diABZI promoted IFN-γ and TNF-α production by CD8+ T cells, C178 intervention reduced it. Since the senescent CD8+ T-cell SASP is the amplifier of mucosal inflammation in ulcerative colitis, pharmacological STING blockade intercepts the secretory output downstream of mitochondrial mtDNA leakage.",
+      "zh-TW": "Ye 等人 2026 的流式細胞術顯示 STING 抑制劑 C178 明確減弱 NAD+ 限制誘發的促發炎表型：促效劑 diABZI 促進 CD8+ T 細胞產生 IFN-γ 與 TNF-α，而 C178 介入則降低之。由於衰老 CD8+ T 細胞的 SASP 是潰瘍性結腸炎黏膜發炎的放大器，藥理性 STING 阻斷在粒線體 mtDNA 滲漏下游攔截此分泌輸出。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md",
+    "created": "2026-11-10T10:00:00Z",
+    "updated": "2026-11-10T10:00:00Z"
+  },
+  {
+    "id": "39affc5947f3",
+    "subject": "VBIT-4",
+    "predicate": "inhibits",
+    "object": "VDAC",
+    "context": {
+      "en-US": "VBIT-4 is a small molecule that binds VDAC1 and prevents its oligomerization, the process that forms the mitochondrial outer-membrane macropore through which mtDNA and pro-apoptotic factors escape. In Ye et al. 2026, pre-treating CD8+ T cells with VBIT-4 abolished cytosolic mtDNA accumulation and reduced the SA-β-gal+ fraction, identifying VDAC1 oligomerization as the release step linking NAD+ exhaustion-induced mitochondrial damage to innate immune activation.",
+      "zh-TW": "VBIT-4 是結合 VDAC1 並阻止其寡聚化的小分子；該寡聚化形成粒線體外膜大孔，使 mtDNA 與促凋亡因子逸出。Ye 等人 2026 以 VBIT-4 前處理 CD8+ T 細胞，消除胞質 mtDNA 累積並降低 SA-β-gal+ 比例，確認 VDAC1 寡聚化是連結 NAD+ 耗竭所致粒線體損傷與先天免疫活化的釋放步驟。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md",
+    "created": "2026-11-10T10:00:00Z",
+    "updated": "2026-11-10T10:00:00Z"
+  },
+  {
+    "id": "a0d0a3f563ae",
+    "subject": "VBIT-4",
+    "predicate": "blocks_release_of",
+    "object": "mtDNA",
+    "context": {
+      "en-US": "Cytosolic mtDNA is the damage-associated molecular pattern that engages cGAS-STING in NAD+-depleted CD8+ T cells. Ye et al. 2026 showed total mtDNA decreases while cytosolic mtDNA rises in FK866-treated cells, and that VBIT-4 pre-treatment abolishes this cytosolic accumulation. By cutting the ligand supply upstream of cGAS, VBIT-4 also reduced Cgas/Sting1 expression and p-STING/p-IRF3 abundance, demonstrating that mtDNA release is required for the senescence-associated inflammatory program.",
+      "zh-TW": "胞質 mtDNA 是在 NAD+ 耗竭 CD8+ T 細胞中接合 cGAS-STING 的損傷相關分子模式。Ye 等人 2026 顯示 FK866 處理細胞的總 mtDNA 下降而胞質 mtDNA 上升，且 VBIT-4 前處理消除此胞質累積。透過在 cGAS 上游切斷配體供應，VBIT-4 亦降低 Cgas/Sting1 表現與 p-STING/p-IRF3 含量，證明 mtDNA 釋放為衰老相關發炎程序所必需。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md",
+    "created": "2026-11-10T10:00:00Z",
+    "updated": "2026-11-10T10:00:00Z"
+  },
+  {
+    "id": "df600c83a942",
+    "subject": "VBIT-4",
+    "predicate": "suppresses",
+    "object": "cGAS-STING Pathway",
+    "context": {
+      "en-US": "In the Ye 2026 mechanistic dissection, blocking mtDNA release with VBIT-4 not only abolished cytosolic mtDNA but also reduced expression of Cgas and Sting1 and markedly diminished phosphorylated STING and IRF3. This places the VDAC1-dependent leakage step upstream of cGAS-STING activation and shows that the pathway is engaged by mitochondrial damage rather than being constitutively active in NAD+-depleted CD8+ T cells.",
+      "zh-TW": "在 Ye 2026 的機制剖析中，以 VBIT-4 阻斷 mtDNA 釋放不僅消除胞質 mtDNA，亦降低 Cgas 與 Sting1 表現並顯著減少磷酸化 STING 與 IRF3。這將 VDAC1 依賴的滲漏步驟置於 cGAS-STING 活化的上游，並顯示該路徑是由粒線體損傷接合，而非在 NAD+ 耗竭 CD8+ T 細胞中持續活化。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md",
+    "created": "2026-11-10T10:00:00Z",
+    "updated": "2026-11-10T10:00:00Z"
+  },
+  {
+    "id": "aeae99dc833e",
+    "subject": "SRT1720",
+    "predicate": "activates",
+    "object": "SIRT1",
+    "context": {
+      "en-US": "SRT1720 is a synthetic imidazothiazole sirtuin-activating compound (STAC) developed as a potent SIRT1 activator. Ye et al. 2026 use it as an agonist of the NAD+-consuming deacetylase SIRT1 in primary murine CD8+ T cells. Because SIRT1 cleaves NAD+ during deacetylation, pharmacological activation increases NAD+ turnover — the opposite direction from FK866, which blocks NAD+ biosynthesis at NAMPT — yet both converge on intracellular NAD+ depletion.",
+      "zh-TW": "SRT1720 是合成的 imidazothiazole 類 sirtuin 活化化合物（STAC），開發為強效 SIRT1 活化劑。Ye 等人 2026 在原代小鼠 CD8+ T 細胞中將其用作 NAD+ 消耗性去乙醯酶 SIRT1 的促效劑。由於 SIRT1 去乙醯化時會切割 NAD+，藥理活化提高 NAD+ 周轉——方向與在 NAMPT 阻斷 NAD+ 生物合成的 FK866 相反——但兩者皆收斂於細胞內 NAD+ 耗竭。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md",
+    "created": "2026-11-10T10:00:00Z",
+    "updated": "2026-11-10T10:00:00Z"
+  },
+  {
+    "id": "38bcf7f65cb0",
+    "subject": "SRT1720",
+    "predicate": "depletes",
+    "object": "NAD+",
+    "context": {
+      "en-US": "Ye et al. 2026 report that treating primary murine CD8+ T cells with SRT1720 (10 μM, 72 h) effectively downregulated intracellular NAD+ levels, alongside FK866 (100 nM), and significantly expanded the SA-β-gal+ senescent population (Figure 4f,g). The authors selected FK866 for subsequent experiments because of SIRT1's pleiotropic effects, but the paired result establishes that lowering intracellular NAD+ — by blocking synthesis or increasing consumption — is sufficient to induce CD8+ T-cell senescence.",
+      "zh-TW": "Ye 等人 2026 報告以 SRT1720（10 μM，72 小時）處理原代小鼠 CD8+ T 細胞，與 FK866（100 nM）同樣有效下調細胞內 NAD+ 濃度並顯著擴增 SA-β-gal+ 衰老族群（圖 4f,g）。作者因 SIRT1 的多效性而選用 FK866 進行後續實驗，但此配對結果確立降低細胞內 NAD+——無論阻斷合成或增加消耗——足以誘發 CD8+ T 細胞衰老。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md",
+    "created": "2026-11-10T10:00:00Z",
+    "updated": "2026-11-10T10:00:00Z"
+  },
+  {
+    "id": "784a09d1aee5",
+    "subject": "SRT1720",
+    "predicate": "induces",
+    "object": "Senescent CD8+ T Cells",
+    "context": {
+      "en-US": "In Ye et al. 2026 both FK866 and SRT1720 significantly expanded the SA-β-gal+ senescent population in primary murine CD8+ T cells, indicating that lowering intracellular NAD+ is sufficient to induce CD8+ T-cell senescence. NMN supplementation largely abrogated FK866-induced senescence and NAMPT siRNA knockdown reproduced the phenotype, so the convergence of a NAMPT inhibitor and a SIRT1 agonist on the same senescent state supports a metabolic rather than target-specific etiology.",
+      "zh-TW": "在 Ye 等人 2026 中，FK866 與 SRT1720 皆顯著擴增原代小鼠 CD8+ T 細胞的 SA-β-gal+ 衰老族群，指出降低細胞內 NAD+ 足以誘發 CD8+ T 細胞衰老。補充 NMN 大致消除 FK866 誘發的衰老，且 NAMPT siRNA 敲低重現該表型，因此 NAMPT 抑制劑與 SIRT1 促效劑收斂於同一衰老狀態，支持代謝性而非標靶專一性的病因。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md",
+    "created": "2026-11-10T10:00:00Z",
+    "updated": "2026-11-10T10:00:00Z"
+  },
+  {
+    "id": "88c1f3760747",
+    "subject": "Infliximab",
+    "predicate": "targets",
+    "object": "TNF-alpha",
+    "context": {
+      "en-US": "Infliximab is a chimeric human-murine IgG1 monoclonal antibody that binds soluble and transmembrane TNF-alpha, preventing receptor engagement; it is a cornerstone anti-TNF biologic for inflammatory bowel disease. In Ye et al. 2026 it is the GSE16879-cohort biologic against which the NAD+ metabolism and senescent CD8+ T-cell infiltration scores were tested as predictors of primary non-response.",
+      "zh-TW": "Infliximab 是嵌合型人-鼠 IgG1 單株抗體，結合可溶型與穿膜型 TNF-alpha 以阻止受體接合，是發炎性腸道疾病的基石抗 TNF 生物製劑。在 Ye 等人 2026 中，它是 GSE16879 世代用以檢驗 NAD+ 代謝與衰老 CD8+ T 細胞浸潤分數作為原發性無反應預測因子的生物製劑。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md",
+    "created": "2026-11-10T10:00:00Z",
+    "updated": "2026-11-10T10:00:00Z"
+  },
+  {
+    "id": "42e14b2c27d8",
+    "subject": "Infliximab",
+    "predicate": "treats",
+    "object": "Ulcerative Colitis",
+    "context": {
+      "en-US": "Infliximab is an established anti-TNF-alpha biologic for moderate-to-severe ulcerative colitis. Ye et al. 2026 analyse the GSE16879 UC cohort and find that patients with high pretreatment NAD+ metabolism and senescent CD8+ T-cell infiltration scores have significantly lower response rates, while responders show lower baseline scores and larger post-treatment score reductions — positioning the senescent/NAD+ signature as a candidate biomarker of refractoriness to this therapy.",
+      "zh-TW": "Infliximab 是中至重度潰瘍性結腸炎既有的抗 TNF-alpha 生物製劑。Ye 等人 2026 分析 GSE16879 UC 世代，發現治療前 NAD+ 代謝與衰老 CD8+ T 細胞浸潤分數高的患者反應率顯著較低，而反應者基線分數較低且治療後分數下降較大——將衰老/NAD+ 特徵定位為此療法難治性的候選生物標記。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md",
+    "created": "2026-11-10T10:00:00Z",
+    "updated": "2026-11-10T10:00:00Z"
+  },
+  {
+    "id": "4266d581c610",
+    "subject": "Vedolizumab",
+    "predicate": "treats",
+    "object": "Ulcerative Colitis",
+    "context": {
+      "en-US": "Vedolizumab is a gut-selective humanized monoclonal antibody against the alpha4beta7 integrin approved for moderate-to-severe ulcerative colitis; it blocks lymphocyte trafficking into gastrointestinal mucosa. Ye et al. 2026 use the independent GSE73661 cohort treated with vedolizumab to validate that high pretreatment NAD+ metabolism and senescent CD8+ T-cell infiltration scores predict therapeutic non-response, replicating the infliximab finding with a mechanistically distinct biologic.",
+      "zh-TW": "Vedolizumab 是針對 alpha4beta7 整合素、核准用於中至重度潰瘍性結腸炎的腸道選擇性人源化單株抗體，阻斷淋巴球遷移至胃腸黏膜。Ye 等人 2026 以接受 vedolizumab 治療的獨立 GSE73661 世代，驗證治療前 NAD+ 代謝與衰老 CD8+ T 細胞浸潤分數高可預測治療無反應，以機制不同的生物製劑複製 infliximab 的發現。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md",
+    "created": "2026-11-10T10:00:00Z",
+    "updated": "2026-11-10T10:00:00Z"
+  },
+  {
+    "id": "ac005e253bca",
+    "subject": "Vedolizumab",
+    "predicate": "is_mechanistically_distinct_from",
+    "object": "Infliximab",
+    "context": {
+      "en-US": "Ye et al. 2026 explicitly describe vedolizumab (an alpha4beta7 integrin antagonist that blocks gut lymphocyte trafficking) as a mechanistically distinct biologic from infliximab (anti-TNF-alpha). Replication of the NAD+-senescence non-response signature in GSE73661 therefore supports a disease-intrinsic refractory state rather than a drug-specific pharmacokinetic or target-dependent effect, strengthening the biomarker's broad applicability across UC biologic classes.",
+      "zh-TW": "Ye 等人 2026 明確將 vedolizumab（阻斷腸道淋巴球遷移的 alpha4beta7 整合素拮抗劑）描述為機制上不同於 infliximab（抗 TNF-alpha）的生物製劑。因此 NAD+–衰老無反應特徵在 GSE73661 的再現，支持其為疾病內在的難治狀態，而非藥物專一的藥動或標靶依賴效應，強化此生物標記跨 UC 生物製劑類別的廣泛適用性。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md",
+    "created": "2026-11-10T10:00:00Z",
+    "updated": "2026-11-10T10:00:00Z"
+  },
+  {
+    "id": "80ecf4f29008",
+    "subject": "NAD+ Metabolic Reprogramming",
+    "predicate": "predicts_nonresponse_to",
+    "object": "Vedolizumab",
+    "context": {
+      "en-US": "In the independent GSE73661 UC cohort, high pretreatment NAD+ metabolism and senescent CD8+ T-cell infiltration scores were associated with therapeutic non-response following administration of the alpha4beta7 integrin antagonist vedolizumab. This mirrors the GSE16879 infliximab result and extends the NAD+-senescence signature from an anti-TNF biologic to an anti-integrin biologic; both scores also correlate with endoscopic/Mayo disease activity indices.",
+      "zh-TW": "在獨立的 GSE73661 UC 世代中，治療前 NAD+ 代謝與衰老 CD8+ T 細胞浸潤分數高，與投予 alpha4beta7 整合素拮抗劑 vedolizumab 後的治療無反應相關。此結果呼應 GSE16879 的 infliximab 發現，將 NAD+–衰老特徵從抗 TNF 生物製劑擴展至抗整合素生物製劑；兩項分數亦與內視鏡/Mayo 疾病活動指數相關。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md",
+    "created": "2026-11-10T10:00:00Z",
+    "updated": "2026-11-10T10:00:00Z"
+  },
+  {
+    "id": "1d6bd25a0b46",
+    "subject": "KLRG1",
+    "predicate": "marks",
+    "object": "Senescent CD8+ T Cells",
+    "context": {
+      "en-US": "KLRG1 is an inhibitory C-type lectin-like receptor whose expression rises with terminal T-cell differentiation. In Ye et al. 2026 the CD27-KLRG1+ phenotype is used operationally to gate senescent CD8+ T cells: colitic mice show increased CD27-KLRG1+ CD8+ T cells, HSS CD8+ T cells from UC patients upregulate KLRG1, and the KLRG1+CD27- fraction increases after adoptive transfer of senescent cells and decreases after senolytic therapy.",
+      "zh-TW": "KLRG1 是抑制性 C 型凝集素樣受體，其表現隨 T 細胞終末分化上升。Ye 等人 2026 以 CD27-KLRG1+ 表型操作性地圈選衰老 CD8+ T 細胞：結腸炎小鼠 CD27-KLRG1+ CD8+ T 細胞增加，UC 患者高衰老分數 CD8+ T 細胞上調 KLRG1，且 KLRG1+CD27- 比例在過繼轉移衰老細胞後上升、在 senolytic 治療後下降。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md",
+    "created": "2026-11-10T10:00:00Z",
+    "updated": "2026-11-10T10:00:00Z"
+  },
+  {
+    "id": "271a76e99c4e",
+    "subject": "CD27",
+    "predicate": "is_lost_in",
+    "object": "Senescent CD8+ T Cells",
+    "context": {
+      "en-US": "CD27 (TNFRSF7) is a co-stimulatory receptor downregulated with progressive T-cell differentiation. Ye et al. 2026 show that D+Q senolytic treatment significantly decreases the frequency of CD27- CD8+ T cells in colitic lamina propria while CD27- CD4+ and CD27- CD4+Foxp3+ cells are unchanged, and that the CD27- CD8+ fraction — but not CD27- CD4+ — correlates with body-weight and colon-weight disease metrics.",
+      "zh-TW": "CD27（TNFRSF7）是隨 T 細胞漸進分化而下調的共刺激受體。Ye 等人 2026 顯示 D+Q senolytic 治療顯著降低結腸炎固有層中 CD27- CD8+ T 細胞比例，而 CD27- CD4+ 與 CD27- CD4+Foxp3+ 細胞不變，且 CD27- CD8+ 比例（而非 CD27- CD4+）與體重及結腸重量疾病指標相關。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md",
+    "created": "2026-11-10T10:00:00Z",
+    "updated": "2026-11-10T10:00:00Z"
+  },
+  {
+    "id": "e81732c7d45c",
+    "subject": "Perforin",
+    "predicate": "is_downregulated_in",
+    "object": "Senescent CD8+ T Cells",
+    "context": {
+      "en-US": "Perforin (PRF1) is the pore-forming cytotoxic granule protein that delivers granzymes into target cells. Ye et al. 2026 report lower GZMB and PRF1 expression in high-senescence-score colonic CD8+ T cells from UC patients, reduced perforin production and impaired proliferation in FK866-treated cells, and a shift toward IFN-γ/TNF-α secretion — a cytotoxic-to-secretory switch in which SASP output replaces killing capacity.",
+      "zh-TW": "Perforin（PRF1）是將 granzymes 送入標的細胞的成孔細胞毒性顆粒蛋白。Ye 等人 2026 報告 UC 患者高衰老分數結腸 CD8+ T 細胞的 GZMB 與 PRF1 表現較低，FK866 處理細胞的 perforin 產生降低且增殖受損，並偏向 IFN-γ/TNF-α 分泌——即 SASP 輸出取代殺傷能力的細胞毒性至分泌轉換。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md",
+    "created": "2026-11-10T10:00:00Z",
+    "updated": "2026-11-10T10:00:00Z"
+  },
+  {
+    "id": "5783e37541fc",
+    "subject": "Granzyme B",
+    "predicate": "is_downregulated_in",
+    "object": "Senescent CD8+ T Cells",
+    "context": {
+      "en-US": "Granzyme B (GZMB) is the serine protease that, delivered through perforin pores, executes cytotoxic killing. Ye et al. 2026 show GZMB and PRF1 among the canonical cytotoxic molecules downregulated in high-senescence-score CD8+ T cells, while pro-inflammatory mediators (IFNG, TNF, CCL3, CCL4) and senescence genes (CDKN2A, CDKN1A, KLRG1) are upregulated — defining the senescent subset by loss of cytotoxic machinery plus a robust SASP.",
+      "zh-TW": "Granzyme B（GZMB）是經 perforin 孔洞送入以執行細胞毒性殺傷的絲胺酸蛋白酶。Ye 等人 2026 顯示 GZMB 與 PRF1 屬高衰老分數 CD8+ T 細胞中下調的典型細胞毒性分子，而促發炎介質（IFNG、TNF、CCL3、CCL4）與衰老基因（CDKN2A、CDKN1A、KLRG1）上調——以細胞毒性機器喪失加上強健 SASP 定義此衰老子集。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md",
+    "created": "2026-11-10T10:00:00Z",
+    "updated": "2026-11-10T10:00:00Z"
+  },
+  {
+    "id": "6b0151b70bac",
+    "subject": "LAG-3",
+    "predicate": "is_unchanged_in",
+    "object": "Senescent CD8+ T Cells",
+    "context": {
+      "en-US": "LAG-3 (CD223) is a canonical inhibitory checkpoint of exhausted T cells. In Ye et al. 2026 the classical exhaustion markers PDCD1, CTLA4, LAG3 and HAVCR2 show no differential expression between high- and low-senescence-score CD8+ T cells, and FK866-induced senescent cells do not upregulate PD-1. LAG-3 therefore acts as a negative discriminator: the pathogenic UC subset is defined by p16, p21, KLRG1 and SASP, not by checkpoint upregulation.",
+      "zh-TW": "LAG-3（CD223）是耗竭 T 細胞的典型抑制性檢查點。Ye 等人 2026 中，典型耗竭標記 PDCD1、CTLA4、LAG3 與 HAVCR2 在高與低衰老分數 CD8+ T 細胞間無差異表現，且 FK866 誘發的衰老細胞不上調 PD-1。LAG-3 因此作為負向判別因子：致病性 UC 子集由 p16、p21、KLRG1 與 SASP 定義，而非檢查點上調。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md",
+    "created": "2026-11-10T10:00:00Z",
+    "updated": "2026-11-10T10:00:00Z"
+  },
+  {
+    "id": "8659df81db03",
+    "subject": "Spatial Transcriptomics",
+    "predicate": "maps",
+    "object": "NAD+ Metabolic Reprogramming",
+    "context": {
+      "en-US": "Spatial transcriptomics of human colonic mucosa (GSE189184), processed with the Seurat spatial framework, was used to co-localize the HSS CD8+ T-cell and NAD+ metabolism signatures per spot. Using the 75th-percentile cutoff, the HSS-high/NAD-high senescent niche is rare in healthy colon (5.6%) but expands to 16.7% in UC, indicating that senescent CD8+ T cells arise within local mucosal niches of NAD+ dysregulation.",
+      "zh-TW": "以 Seurat 空間框架處理的人類結腸黏膜空間轉錄體學（GSE189184），用於將 HSS CD8+ T 細胞與 NAD+ 代謝特徵逐點共定位。以第 75 百分位為切點，HSS-high/NAD-high 衰老 niche 在健康結腸罕見（5.6%），於 UC 擴張至 16.7%，指出衰老 CD8+ T 細胞出現於 NAD+ 失調的局部黏膜 niche 內。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md",
+    "created": "2026-11-10T10:00:00Z",
+    "updated": "2026-11-10T10:00:00Z"
+  },
+  {
+    "id": "978a52a53e41",
+    "subject": "Gene Set Enrichment Analysis",
+    "predicate": "identifies",
+    "object": "Nicotinate and Nicotinamide Metabolism",
+    "context": {
+      "en-US": "GSEA and expression profiling in Ye et al. 2026 confirmed significant enrichment of the nicotinate and nicotinamide metabolism (NAD+) pathway in colonic CD8+ T cells from colitis mice, driven by downregulated Nampt and robustly upregulated Cd38, Sirt1 and Parp1 (Figure 4d,e). Pathway enrichment was also corroborated in human UC mucosa (GSE87466) and by untargeted metabolomics of murine intestinal mucosa.",
+      "zh-TW": "Ye 等人 2026 的 GSEA 與表現量分析確認，結腸炎小鼠結腸 CD8+ T 細胞中菸鹼酸與菸鹼醯胺代謝（NAD+）路徑顯著富集，由 Nampt 下調與 Cd38、Sirt1、Parp1 強健上調驅動（圖 4d,e）。該路徑富集亦於人類 UC 黏膜（GSE87466）與小鼠腸黏膜非靶向代謝體學獲得佐證。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md",
+    "created": "2026-11-10T10:00:00Z",
+    "updated": "2026-11-10T10:00:00Z"
+  },
+  {
+    "id": "bde1e1b5a6b9",
+    "subject": "Nicotinate and Nicotinamide Metabolism",
+    "predicate": "supplies",
+    "object": "NAD+",
+    "context": {
+      "en-US": "The nicotinate and nicotinamide metabolism pathway encompasses de novo NAD+ synthesis from tryptophan, the Preiss-Handler route from nicotinic acid, and NAMPT-dependent salvage from nicotinamide; NAD+-consuming enzymes (CD38, SIRT1, PARP1) return nicotinamide and ADP-ribose. Ye et al. 2026 show this cycle is imbalanced in UC — reduced precursors, accumulated catabolites, lower NAD+ — producing the hyperconsumptive state that drives CD8+ T-cell senescence.",
+      "zh-TW": "菸鹼酸與菸鹼醯胺代謝路徑涵蓋自色胺酸之 NAD+ 新生合成、自菸鹼酸的 Preiss-Handler 路徑，以及 NAMPT 依賴的菸鹼醯胺回收；NAD+ 消耗酵素（CD38、SIRT1、PARP1）回產菸鹼醯胺與 ADP-ribose。Ye 等人 2026 顯示此循環在 UC 失衡——前驅物減少、分解代謝物累積、NAD+ 降低——形成驅動 CD8+ T 細胞衰老的高消耗狀態。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md",
+    "created": "2026-11-10T10:00:00Z",
+    "updated": "2026-11-10T10:00:00Z"
+  },
+  {
+    "id": "f848d8e7012b",
+    "subject": "Adoptive Transfer",
+    "predicate": "demonstrates_pathogenicity_of",
+    "object": "Senescent CD8+ T Cells",
+    "context": {
+      "en-US": "Adoptive transfer of FK866-induced senescent CD8+ T cells (100 nM, 72 h; n = 6) into DSS-colitic mice accelerated disease versus vehicle or control-CD8+ T-cell transfer, with more severe weight loss, higher disease activity index, expansion of colonic CD8+ T cells, increased KLRG1+CD27- senescent CD8+ T cells and more IFN-γ-producing CD8+ T cells. The experiment establishes pathogenic sufficiency of the senescent subset in vivo.",
+      "zh-TW": "將 FK866 誘發的衰老 CD8+ T 細胞（100 nM，72 小時；n = 6）過繼轉移至 DSS 結腸炎小鼠，較車劑或對照 CD8+ T 細胞轉移加速疾病，體重減輕更嚴重、疾病活動指數更高、結腸 CD8+ T 細胞擴增、KLRG1+CD27- 衰老 CD8+ T 細胞增加且 IFN-γ 產生 CD8+ T 細胞增多。此實驗確立該衰老子集在體內的致病充分性。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md",
+    "created": "2026-11-10T10:00:00Z",
+    "updated": "2026-11-10T10:00:00Z"
+  },
+  {
+    "id": "fc79e976d928",
+    "subject": "Dextran Sulfate Sodium",
+    "predicate": "models",
+    "object": "Ulcerative Colitis",
+    "context": {
+      "en-US": "Dextran sulfate sodium (DSS) given in drinking water is a widely used chemical colitis model; Ye et al. 2026 induced chronic colitis with cyclical 3% DSS (7 days DSS, 14 days water, repeated twice, then a final 7 days). Mice show weight loss, colon shortening and severe mucosal ulceration with crypt distortion. The model underpins the senolytic, adoptive-transfer and NAD+ experiments, though the authors note it does not fully replicate human UC.",
+      "zh-TW": "飲水中投予 dextran sulfate sodium（DSS）是廣泛使用的化學性結腸炎模型；Ye 等人 2026 以週期性 3% DSS（7 天 DSS、14 天清水，重複兩次，再給 7 天）誘發慢性結腸炎。小鼠呈現體重減輕、結腸縮短與伴隨腺窩變形的嚴重黏膜潰瘍。此模型支撐 senolytic、過繼轉移與 NAD+ 實驗，惟作者指出其未完全再現人類 UC。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md",
+    "created": "2026-11-10T10:00:00Z",
+    "updated": "2026-11-10T10:00:00Z"
   }
 ]

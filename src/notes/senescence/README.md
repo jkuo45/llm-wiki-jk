@@ -3,7 +3,7 @@ title: Senescence
 aliases: []
 description: index of entities and documents in this directory
 created: 2026-07-04
-updated: 2026-10-21
+updated: 2026-11-10
 ---
 # Senescence
 
@@ -27,6 +27,7 @@ updated: 2026-10-21
 | [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications\|The senescence-associated secretory phenotype and its physiological and pathological implications]]                                           | Comprehensive review of SASP composition, dynamics, heterogeneity, biological functions, biomarkers, and senomorphic therapy from Nature Reviews Molecular Cell Biology (2024).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | [[_document_ - acosta2013_paracrine_senescence\|A complex secretory program orchestrated by the inflammasome controls paracrine senescence]]                                                                                                                    | Landmark study demonstrating that SASP factors from oncogene-induced senescent cells induce paracrine senescence in neighboring normal cells via TGF-β family ligands, VEGF, CCL2, and CCL20, with the inflammasome-IL-1α axis as the master upstream regulator.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | [[_document_ - cellular_senescence_ipf_diseases-14-00201\|Cellular Senescence in Idiopathic Pulmonary Fibrosis: Molecular Mechanisms, Pathogenic Networks, and Emerging Therapeutic Targets]]                                                                   | Narrative review synthesizing cellular senescence mechanisms in IPF—telomere attrition, mitochondrial dysfunction, TGF-β, SASP—and senolytic/senomorphic therapeutic strategies.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| [[_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis\|Ye et al., 2026 — NAD+ metabolic reprogramming drives CD8+ T cell senescence and exacerbates ulcerative colitis]] | Aging Cell research article showing that NAD+ metabolic dysregulation drives premature CD8+ T-cell senescence via mitochondrial dysfunction and cytosolic mtDNA–cGAS-STING signaling in ulcerative colitis; senolytic therapy (dasatinib + quercetin) attenuates colitis by clearing senescent CD8+ T cells, and the NAD+–senescence signature predicts non-response to infliximab and vedolizumab. |
 
 ## Entity Notes
 
@@ -111,6 +112,38 @@ updated: 2026-10-21
 | [[Lymphopenia]] | disease | Lymphopenia is the abnormal reduction of circulating lymphocytes, a hallmark of severe SARS-CoV-2 infection where CD4+ and CD8+ T-cell depletion is exacerbated by CD38-driven NAD+ loss and impaired sirtuin function. |
 | [[Gut Dysbiosis]] | concept | Gut dysbiosis is the disruption of gut microbial composition and diversity linked to intestinal and systemic inflammation; NAD+ precursors such as NMN reverse dysbiosis and restore intestinal homeostasis. |
 | [[Intestinal Barrier]] | concept | The intestinal barrier is the epithelial, mucus, and immune interface that prevents translocation of gut microbes and toxins; NAD+ precursors such as NMN strengthen it by enhancing tight junctions and mucus secretion. |
+
+### NAD+ Metabolism, Mucosal Immunity & Ulcerative Colitis (Ye 2026)
+
+| Entity | entity_type_1 | Description |
+|--------|---------------|-------------|
+| [[Ulcerative Colitis]] | disease | Chronic inflammatory bowel disease of the colonic mucosa in which NAD+ metabolic dysregulation-driven senescence of CD8+ T cells contributes to pathogenesis and predicts non-response to biologic therapy. |
+| [[Senescent CD8+ T Cells]] | cell-type | Pathogenic, prematurely senescent cytotoxic T-cell population in UC, induced by NAD+ metabolic dysregulation via mitochondrial dysfunction and cGAS-STING signaling, and cleared by senolytic therapy. |
+| [[NAD+ Metabolic Reprogramming]] | biological-process | Mucosal imbalance of impaired NAD+ biosynthesis and heightened NAD+ consumption that depletes NAD+ in UC and drives CD8+ T-cell senescence via mitochondrial dysfunction and cGAS-STING signaling. |
+| [[FK866]] | chemical-compound | Potent, specific inhibitor of the NAD+ salvage enzyme NAMPT used to deplete intracellular NAD+ and thereby induce CD8+ T-cell senescence in experimental UC models. |
+| [[T Cell Exhaustion]] | biological-process | Hypofunctional, adaptive T-cell state defined by inhibitory checkpoint upregulation (PD-1, CTLA-4, LAG-3, TIM-3), mechanistically distinct from the bioactive, SASP-secreting senescent CD8+ T-cell state. |
+
+
+### Senescence Markers, Biologics & Experimental Tools (Ye 2026)
+
+| Entity | entity_type_1 | Description |
+|--------|---------------|-------------|
+| [[KLRG1]] | receptor | Inhibitory C-type lectin-like receptor marking terminally differentiated and senescent T cells; the CD27-KLRG1+ phenotype defines the senescent CD8+ T-cell subset in UC. |
+| [[CD27]] | receptor | TNFR-superfamily co-stimulatory receptor on T cells whose loss marks terminally differentiated and senescent T cells; CD27-KLRG1+ CD8+ T cells are the pathogenic subset in UC. |
+| [[Infliximab]] | drug | Chimeric IgG1 monoclonal antibody against TNF-alpha used in IBD; high NAD+-senescence scores predict primary non-response to infliximab in the Ye 2026 UC cohort. |
+| [[Vedolizumab]] | drug | Gut-selective humanized monoclonal antibody against the alpha4beta7 integrin; in GSE73661 high NAD+-senescence scores predict vedolizumab non-response. |
+| [[Perforin]] | protein | Pore-forming cytotoxic granule protein (PRF1) that delivers granzymes into target cells; its expression declines in senescent CD8+ T cells as the SASP replaces cytotoxic function. |
+| [[Granzyme B]] | enzyme | Serine protease (GZMB) of cytotoxic granules that induces target-cell apoptosis; downregulated in senescent CD8+ T cells alongside perforin. |
+| [[LAG-3]] | receptor | Inhibitory immune-checkpoint receptor (CD223) on T cells; unchanged expression in senescent CD8+ T cells serves as a negative marker distinguishing senescence from exhaustion. |
+| [[Dextran Sulfate Sodium]] | chemical-compound | Sulfated polysaccharide given in drinking water to produce a chemical colitis model; cyclical 3% DSS modelled chronic ulcerative colitis in the Ye 2026 study. |
+| [[Spatial Transcriptomics]] | analytical-technique | Methods that map gene expression within intact tissue sections; used to localize senescent CD8+ T cells to NAD+-high mucosal niches in UC (5.6% to 16.7%). |
+| [[Gene Set Enrichment Analysis]] | analytical-technique | Rank-based pathway analysis (GSEA/ssGSEA); identified NAD+ metabolism and inflammatory pathway enrichment in colitic and senescent CD8+ T cells. |
+| [[Nicotinate and Nicotinamide Metabolism]] | biological-process | KEGG pathway of NAD+ biosynthesis, salvage and consumption whose enrichment defines the NAD+ metabolic reprogramming driving UC. |
+| [[VBIT-4]] | chemical-compound | Small-molecule inhibitor of VDAC1 oligomerization that blocks cytosolic mtDNA release; abolishes mtDNA accumulation and reduces CD8+ T-cell senescence in the Ye 2026 study. |
+| [[diABZI]] | chemical-compound | Potent non-nucleotide dimeric amidobenzimidazole STING agonist; direct STING hyperactivation recapitulates CD8+ T-cell senescence by inducing p16 and p21. |
+| [[C178]] | chemical-compound | Covalent STING inhibitor binding Cys91 of murine STING and blocking palmitoylation; rescues FK866-induced CD8+ T-cell senescence. |
+| [[Adoptive Transfer]] | analytical-technique | Experimental transfer of isolated cells into a recipient; transfer of FK866-induced senescent CD8+ T cells into DSS-colitic mice demonstrates their pathogenic sufficiency. |
+
 
 ### Cellular Processes & Pathogens
 
