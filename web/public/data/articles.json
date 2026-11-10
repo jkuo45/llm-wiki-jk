@@ -58,13 +58,13 @@
         "active": true,
         "langs": {
             "en-US": {
-                "title": "[Speculative] Adrenochrome MB/AG Protocol",
-                "description": "Speculative mitohormetic longevity stack: controlled low-level oxidative stress from adrenochrome derivatives, amplified by methylene blue and buffered by aminoguanidine, across mitochondrial dysfunction, senescence, and proteostasis.",
+                "title": "[Speculative] Adrenochrome MB/AG protocol — hypothesised mitohormetic redox relay, senomorphic–senolytic sequencing, and glyco-oxidative proteostasis",
+                "description": "Speculative, hypothesis-driven protocol: adrenochrome-derivative redox cycling is proposed to produce a compartment-confined mitochondrial superoxide signal, with methylene blue as electron shuttle and aminoguanidine as dicarbonyl scavenger; mechanisms, doses, and sequencing derive from task outlines and remain untested in humans.",
                 "path": "pages/en-US/adrenochrome-protocol.html"
             },
             "zh-TW": {
-                "title": "腎上腺色素 亞甲藍/銀 方案（推測性）",
-                "description": "推測性粒線體激效長壽堆疊：以腎上腺色素衍生物可控的低度氧化壓力為核心，經亞甲藍放大、氨基胍緩衝，涵蓋粒線體功能障礙、細胞衰老與蛋白質穩態。",
+                "title": "腎上腺色素 亞甲藍／氨基胍 方案（推測性）——假說性粒線體氧化還原中繼、衰老調節–衰老細胞清除序貫與糖化氧化蛋白質恆態",
+                "description": "推測性、假說驅動方案：腎上腺色素衍生物的氧化還原循環被假設產生局限於粒線體區室的超氧陰離子訊號，以亞甲藍作為電子穿梭體、氨基胍作為二羰基清除劑；機制、劑量與序貫源自任務大綱，尚未於人體驗證。",
                 "path": "pages/zh-TW/adrenochrome-protocol.html"
             }
         },
@@ -170,13 +170,13 @@
         "active": true,
         "langs": {
             "en-US": {
-                "title": "[Speculative] The Adrenochrome Protocol: Network Analysis via Sirtuins, Mitohormesis, and Autophagy",
-                "description": "Network-trace atlas for the methylene blue + aminoguanidine adrenochrome protocol — graph paths coupling each protocol agent to sirtuins, mitohormesis, and autophagy.",
+                "title": "[Speculative] Network Analysis of the Adrenochrome Protocol: Agent Coupling to the Adrenochrome Node Relative to Mitohormesis, Autophagy, and Sirtuins",
+                "description": "Graph analysis of the proposed methylene blue + aminoguanidine adrenochrome protocol: stored-edge paths from each protocol agent to the adrenochrome node, PPR coupling ladder, direct versus bridge edges, Fiedler community boundary, adaptive-program baseline, and hypotheses H1–H8 (untested in humans). Computed for graph build 867a5ae5fdb8a46c; dose and biological effect are not quantified.",
                 "path": "pages/en-US/adrenochrome-protocol-node-network-analysis.html"
             },
             "zh-TW": {
-                "title": "腎上腺素紅方案：作用劑—觸發器網絡追蹤",
-                "description": "亞甲藍＋氨基胍腎上腺色素方案的網絡追蹤圖譜——將各方案成分與 sirtuins、粒線體激效及自噬耦合的圖譜路徑。",
+                "title": "[推測性] 腎上腺素紅方案的網絡分析：作用劑與腎上腺素紅節點的耦合，相對於粒線體激效、自噬與 Sirtuins",
+                "description": "在 llm-wiki-jk 知識圖譜上針對推測性亞甲藍＋氨基胍腎上腺素紅方案的圖譜分析：各作用劑至腎上腺素紅節點的儲存邊路徑、PPR 耦合排序、直接邊與橋接邊、Fiedler 社群邊界、適應性程式基準，以及假說 H1–H8（未於人體驗證）。數值依據圖譜建構 867a5ae5fdb8a46c 計算；劑量與生物效應未量化。",
                 "path": "pages/zh-TW/adrenochrome-protocol-node-network-analysis.html"
             }
         },
