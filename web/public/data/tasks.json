@@ -90,6 +90,23 @@
           "filename": "task_output_eat_me_dont_eat_me_signals_08_Nov_2026.md",
           "path": "tasks/en-US/task_output_eat_me_dont_eat_me_signals_08_Nov_2026.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_eat_me_dont_eat_me_signals_08_Nov_2026.md"
+        },
+        "zh-TW": {
+          "title": "吃我與不許吃我噬訊號 — 比較清單",
+          "description": "彙整促吞噬（eat-me）與抗吞噬（don't-eat-me）細胞表面訊號的清單，含受體、執行機器、生理情境與證據層級標註，綜合自知識庫筆記與已發表綜述。",
+          "created": "2026-11-08",
+          "updated": "2026-11-08",
+          "tags": [
+            "cell-death",
+            "efferocytosis",
+            "phagocytosis",
+            "immunology",
+            "cancer-immunotherapy",
+            "eryptosis"
+          ],
+          "filename": "task_output_eat_me_dont_eat_me_signals_08_Nov_2026.md",
+          "path": "tasks/zh-TW/task_output_eat_me_dont_eat_me_signals_08_Nov_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_eat_me_dont_eat_me_signals_08_Nov_2026.md"
         }
       },
       "stats": {
