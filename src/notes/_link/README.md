@@ -3,14 +3,14 @@ title: Shared Entities (_link)
 aliases: []
 description: index of cross-topic shared entities and documents in the _link directory
 created: 2026-08-16
-updated: 2026-11-09
+updated: 2026-11-10
 ---
 # Shared Entities (`_link`)
 
-Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **2099 entities** in a single flat index and **34 documents**.
+Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **2099 entities** in a single flat index and **35 documents**.
 
 > [!note]
-> `_link` index. Total entities: 2099 | Documents: 34
+> `_link` index. Total entities: 2099 | Documents: 35
 >
 ## Documents
 
@@ -50,6 +50,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[_document_ - The role of mitochondrial dynamics in disease\|The role of mitochondrial dynamics in disease]] | Mitochondria are multifaceted and dynamic organelles regulating various important cellular processes from signal transduction to determining cell fate. As dynamic properties of mitochondria, fusion and fission accompanied with mitophagy, undergo ... |
 | [[_document_ - Thymic Rejuvenation and Aging\|Thymic Rejuvenation and Aging]] | The thymus is a vital organ for homeostatic maintenance of the peripheral immune system, where T cells develop and are educated before export to the periphery. Thymic involution with age reduces immune efficacy and increases susceptibility to infection, autoimmunity, and cancer. This review discusses thymic rejuvenation strategies including sex steroid ablation, cytokine therapy (IL-7, KGF, IL-22), and hormone therapy (growth hormone, ghrelin). |
 | [[_document_ - Proximity-guided graph learning reveals tumour-associated proximity antigens\|Proximity-guided graph learning reveals tumour-associated proximity antigens]] | The spatial organization of membrane proteins is an underexplored dimension of cell surface biology1,2. Spatial proximity shapes cellular function and therapeutic targetability2,3, yet efforts to identify tumour-associated antigens (TAAs) have largely focused on expression alone4. Here, we developed an industrialized surface protein proximity-mapping workflow to interrogate TAAs within their membrane microenvironments. Using this workflow, we generated 248 proximity maps across 12 receptor tyrosine kinases and 28 tumour cell systems. The resulting atlas enabled the development of MetaMap, a correlation-based analytical framework that defines spatial protein communities and infers conserved proximity relationships among non-targeted proteins, and establishes the concept of tumour-associated proximity antigens (TAPAs), a class of co-targets defined by disease-specific spatial proximity to TAAs rather than expression alone. Integrating these proximity-derived relationships within a multimodal prioritization framework, we identified and validated EGFR–CDCP1 as a TAA–TAPA pair that enhances tumour cell killing across therapeutic modalities. Together, this work advances disease-associated membrane proximity as a guiding principle for the design of precision multispecific therapeutics. A proximity-mapping atlas defines tumour-associated proximity antigens, revealing disease-associated membrane spatial communities, and identifies EGFR–CDCP1 as a co-target pair that enhances tumour killing by multispecific therapeutics. |
+| [[_document_ - The bleeding edge of NAD in human ageing\|The bleeding edge of NAD in human ageing]] | Preview-only record of a Nature Metabolism Comment on whole-blood NAD levels as a biomarker of ageing; full text is behind a subscription paywall. |
 
 ## Entity Notes
 
