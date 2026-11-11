@@ -2,7 +2,7 @@
 title: Senolytics（衰老細胞清除劑）
 description: 一類藉由標的衰老細胞抗凋亡路徑（SCAPs），選擇性地誘導衰老細胞死亡的小分子與胜肽。
 created: 2024-01-01
-updated: 2026-10-21
+updated: 2026-09-02
 tags:
   - pharmacological-action
   - senescence

@@ -3,7 +3,7 @@ title: Verapamil
 description: 苯烷胺類第四類抗心律不整藥與 L 型鈣通道阻斷劑，用於上心室性心律不整與高血壓，同時抑制 P-醣蛋白並干擾粒線體鈣處理。
 protected: false
 created: 2026-10-22
-updated: 2026-11-01
+updated: 2026-10-22
 tags: [drug, ion-channel, cardiovascular]
 url: #
 source: #

@@ -3,7 +3,7 @@ title: Mast Cells
 description: 結締組織中的顆粒性白血球，透過 Fc-epsilonRI 與 Toll 樣受體感知過敏原與病原，釋放組織胺、蛋白酶與脂質介質，驅動過敏性休克並塑造組織發炎。
 protected: false
 created: 2026-10-22
-updated: 2026-11-01
+updated: 2026-10-22
 tags: [cell-type, granulocyte, immunity]
 url: #
 source: #

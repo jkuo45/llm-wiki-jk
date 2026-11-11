@@ -3,7 +3,7 @@ title: Duffy Antigen Receptor for Chemokines（Duffy 趨化因子受體）
 description: DARC（ACKM1），紅血球表面的趨化因子受體，從血漿清除 CXC 與 CC 趨化因子，微調免疫細胞運輸，並作為 Plasmodium vivax 與 P. knowlesi 的入侵受體。
 protected: false
 created: 2026-10-08
-updated: 2026-11-09
+updated: 2026-10-08
 tags: [protein, receptor, chemokine, erythrocyte, innate-immunity]
 url: #
 source: #

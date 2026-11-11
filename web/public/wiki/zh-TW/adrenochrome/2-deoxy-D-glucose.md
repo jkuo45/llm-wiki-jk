@@ -3,7 +3,7 @@ title: 2-deoxy-D-glucose
 description: 2-去氧-D-葡萄糖（2DG）是抑制糖解的葡萄糖類似物，會觸發粒線體毒物興奮效應的 ROS 反應，在模式生物中延長壽命。
 protected: false
 created: 2026-07-04
-updated: 2026-11-01
+updated: 2026-10-29
 tags: [chemical-compound, glycolysis-inhibitor]
 url: #
 source: #

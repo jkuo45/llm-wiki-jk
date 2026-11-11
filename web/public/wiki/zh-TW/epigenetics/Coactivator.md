@@ -3,7 +3,7 @@ title: Coactivator
 description: p300/CBP、PGC-1alpha 與 SRC/p160 家族等轉錄共活化因子把訊號輸入轉譯為染色質開放與轉錄輸出，並受 NAD+ 依賴性 sirtuins 與 HDAC 抑制。
 protected: false
 created: 2026-10-22
-updated: 2026-11-04
+updated: 2026-10-22
 tags: [protein, epigenetics, transcription]
 url: #
 source: #

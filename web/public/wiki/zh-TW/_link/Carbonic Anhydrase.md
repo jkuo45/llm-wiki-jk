@@ -3,7 +3,7 @@ title: Carbonic Anhydrase（碳酸酐酶）
 description: 催化 CO2 + H2O ⇄ H2CO3 ⇄ H+ + HCO3− 的含鋅酵素；在紅血球中完成約 23% 的 CO2 運送，並與陰離子交換蛋白 1 配對，在組織與肺臟進行氯離子轉移以裝載與卸載 CO2。
 protected: false
 created: 2026-10-08
-updated: 2026-11-09
+updated: 2026-10-08
 tags: [enzyme, erythrocyte, gas-transport, carbon-dioxide]
 url: #
 source: #

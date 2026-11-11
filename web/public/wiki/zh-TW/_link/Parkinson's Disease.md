@@ -2,7 +2,7 @@
 title: Parkinson's Disease（帕金森氏症）
 description: 帕金森氏症是一種漸進性的神經退化性疾病，特徵為黑質中多巴胺神經元喪失，造成靜息性震顫、僵硬、運動緩慢與姿勢不穩。與細胞衰老、發炎性老化，以及可辨識的循環 SASP 訊號特徵相關。
 created: 2026-05-29
-updated: 2026-10-21
+updated: 2026-08-11
 tags:
   - disease
   - medical-condition

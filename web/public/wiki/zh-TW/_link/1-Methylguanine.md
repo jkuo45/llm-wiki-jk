@@ -3,7 +3,7 @@ title: 1-Methylguanine（1-甲基鳥嘌呤）
 description: M1dG——由脂質過氧化形成的鳥嘌呤環外加合物，是氧化性 DNA 損傷的標記，由 ALKBH2 與 OGG1 修復，其尿液含量追蹤發炎與脂質氧化。
 protected: false
 created: 2026-10-22
-updated: 2026-11-09
+updated: 2026-10-22
 tags: [metabolite, dna-damage, oxidative-stress]
 url: #
 source: #

@@ -3,7 +3,7 @@ title: PECAM1
 description: 血小板內皮細胞黏附分子 1（CD31），一種表現於內皮細胞與免疫細胞的跨膜醣蛋白
 protected: false
 created: 2026-07-15
-updated: 2026-11-09
+updated: 2026-11-08
 tags: [cell-adhesion, endothelial-cells, immune-cells, vascular-biology, immunoglobulin-superfamily]
 aliases: [CD31, Platelet Endothelial Cell Adhesion Molecule 1, EndoCAM]
 ---

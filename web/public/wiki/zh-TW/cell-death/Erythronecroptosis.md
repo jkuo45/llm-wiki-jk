@@ -3,7 +3,7 @@ title: Erythronecroptosis
 description: 由 RIPK1/RIPK3/MLKL 介導的成熟紅血球受調控壞死——eryptosis 的裂解性、類溶血對應形式，由 Fas/FasL、CD59 聯結（伴隨孔洞形成）、ROS、神經醯胺與 AGEs 觸發，並經由 caspase-8 與 eryptosis 互斥。
 protected: true
 created: 2026-10-08
-updated: 2026-11-09
+updated: 2026-10-08
 tags: [cell-death, erythrocyte, necroptosis]
 url: #
 source: #

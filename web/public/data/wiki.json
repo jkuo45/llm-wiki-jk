@@ -1,5 +1,5 @@
 {
-  "generated": "11_NOV_2026 08:41 AM PST",
+  "generated": "11_NOV_2026 08:51 AM PST",
   "wiki": [
     {
       "id": "wiki-index",
@@ -1111,7 +1111,7 @@
           "title": "CD47",
           "description": "CD47 是廣泛表現的免疫球蛋白超家族受體，與骨髓細胞上的 SIRPα 配對傳遞「don't eat me」訊號以抑制吞噬作用；阻斷 CD47 是癌症與纖維化的免疫治療策略。",
           "created": "2026-09-29",
-          "updated": "2026-11-09",
+          "updated": "2026-11-08",
           "tags": [
             "protein",
             "receptor",
@@ -1260,7 +1260,7 @@
           "title": "Efferocytosis",
           "description": "依賴 PS 的凋亡細胞吞噬清除；在紅血球中，它在數分鐘內移除 eryptotic RBC，將巨噬細胞重新編排為抗發炎／抗氧化（HO-1）表型，藉此抑制溶血驅動的 DAMP 發炎。",
           "created": "2026-10-08",
-          "updated": "2026-11-09",
+          "updated": "2026-11-08",
           "tags": [
             "process",
             "innate-immunity",
@@ -1445,7 +1445,7 @@
           "title": "PD-L1",
           "description": "程式性死亡配體 1（CD274/B7-H1）；一種透過結合 PD-1 抑制 T 細胞功能的跨膜蛋白，是癌症中關鍵的免疫檢查點，也是衰老腫瘤微環境中 SASP 訊號調節的標的。",
           "created": "2026-07-06",
-          "updated": "2026-11-09",
+          "updated": "2026-11-08",
           "tags": [
             "protein",
             "immune-checkpoint",
@@ -1962,7 +1962,7 @@
           "title": "B2M",
           "description": "β2-微小球蛋白，MHC 第一類分子的不變輕鏈；一種用於靶向 senolytic 遞送的衰老表面標記，以及 DNAmGrimAge 表觀遺傳時鐘中的血漿蛋白代理。",
           "created": "2026-07-27",
-          "updated": "2026-11-09",
+          "updated": "2026-11-08",
           "tags": [
             "protein",
             "cell-surface-marker",
@@ -2003,7 +2003,7 @@
           "title": "PECAM1",
           "description": "血小板內皮細胞黏附分子 1（CD31），一種表現於內皮細胞與免疫細胞的跨膜醣蛋白",
           "created": "2026-07-15",
-          "updated": "2026-11-09",
+          "updated": "2026-11-08",
           "tags": [
             "cell-adhesion",
             "endothelial-cells",
@@ -3269,7 +3269,7 @@
           "title": "Glycolysis",
           "description": "糖解作用是將葡萄糖轉換為丙酮酸的代謝途徑。此途徑的副產物之一是甲基乙二醛（Methylglyoxal），為晚期糖化終產物的強效前驅物。",
           "created": "2026-07-04",
-          "updated": "2026-11-01",
+          "updated": "2026-10-29",
           "tags": [
             "biological-process"
           ],
@@ -4770,7 +4770,7 @@
           "title": "Siglec-10",
           "description": "Siglec-10（SIGLEC10）是巨噬細胞與其他白血球上的抑制性 I 型凝集素，辨識唾液酸化——以及經由 CD24 的非唾液酸化——「don't-eat-me」訊號，抑制對存活健康細胞的吞噬作用。",
           "created": "2026-11-08",
-          "updated": "2026-11-09",
+          "updated": "2026-11-08",
           "tags": [
             "receptor",
             "immunology",
@@ -4810,7 +4810,7 @@
           "title": "CD24",
           "description": "CD24 是發育中造血細胞與腫瘤細胞上的一種小型 GPI 錨定唾液酸蛋白，在人類中結合巨噬細胞上的 Siglec-10 作為強效的「don't-eat-me」訊號，也是癌症幹細胞標記。",
           "created": "2026-11-08",
-          "updated": "2026-11-09",
+          "updated": "2026-11-08",
           "tags": [
             "protein",
             "cell-surface-marker",
@@ -4849,7 +4849,7 @@
           "title": "ITIM",
           "description": "免疫受體酪胺酸基礎抑制基序（ITIM）——一種細胞質共有序列（S/I/V/LxYxxI/V/L），一旦磷酸化，會招募 SHP-1/SHP-2 磷酸酶以在免疫受體中傳遞抑制性訊號。",
           "created": "2026-11-08",
-          "updated": "2026-11-09",
+          "updated": "2026-11-08",
           "tags": [
             "motif",
             "immunology",
@@ -4927,7 +4927,7 @@
           "title": "p38 MAPK",
           "description": "p38 促分裂原活化蛋白激酶（p38 MAPK）是一種訊號分子，依細胞情境在 S211（抑制性）或 S401（活化性）位點磷酸化 TFEB 以調控其功能。",
           "created": "2024-01-01",
-          "updated": "2026-11-01",
+          "updated": "2026-10-23",
           "tags": [
             "protein"
           ],
@@ -4962,7 +4962,7 @@
           "title": "2-deoxy-D-glucose",
           "description": "2-去氧-D-葡萄糖（2DG）是抑制糖解的葡萄糖類似物，會觸發粒線體毒物興奮效應的 ROS 反應，在模式生物中延長壽命。",
           "created": "2026-07-04",
-          "updated": "2026-11-01",
+          "updated": "2026-10-29",
           "tags": [
             "chemical-compound",
             "glycolysis-inhibitor"
@@ -4999,7 +4999,7 @@
           "title": "Polymorphism",
           "description": "在族群中頻率約 1% 以上的 DNA 序列變異，涵蓋單核苷酸變異、插入缺失與重複長度變異，是 GWAS 與藥物基因體學的基礎。",
           "created": "2026-10-22",
-          "updated": "2026-11-01",
+          "updated": "2026-10-22",
           "tags": [
             "genetics",
             "genetic-variation",
@@ -5037,7 +5037,7 @@
           "title": "GTPase",
           "description": "鳥嘌呤核苷酸結合蛋白超類，藉由 GTP 結合與 GDP 結合狀態間的循環，把受體或機械輸入轉為細胞輸出，涵蓋 Ras、Rho、Rab、Arf 與 dynamin 家族。",
           "created": "2026-10-22",
-          "updated": "2026-11-01",
+          "updated": "2026-10-22",
           "tags": [
             "protein",
             "gtpase",
@@ -5075,7 +5075,7 @@
           "title": "Mast Cells",
           "description": "結締組織中的顆粒性白血球，透過 Fc-epsilonRI 與 Toll 樣受體感知過敏原與病原，釋放組織胺、蛋白酶與脂質介質，驅動過敏性休克並塑造組織發炎。",
           "created": "2026-10-22",
-          "updated": "2026-11-01",
+          "updated": "2026-10-22",
           "tags": [
             "cell-type",
             "granulocyte",
@@ -5113,7 +5113,7 @@
           "title": "Mycobacterium tuberculosis",
           "description": "引起結核病的抗酸性、富含脂質分枝桿菌，藉阻斷吞噬體—溶體融合在巨噬細胞記憶存活，並導致乾酪性肉芽腫、潛伏感染與抗藥性疾病。",
           "created": "2026-10-22",
-          "updated": "2026-11-01",
+          "updated": "2026-10-22",
           "tags": [
             "bacteria",
             "pathogen",
@@ -5151,7 +5151,7 @@
           "title": "Osteoblast",
           "description": "由間質幹細胞而來、分泌類骨質並控制礦化的造骨細胞，受 Runx2 與 osterix 及 Wnt/β-catenin 訊號驅動分化，並與破骨細胞在重塑中耦聯。",
           "created": "2026-10-22",
-          "updated": "2026-11-01",
+          "updated": "2026-10-22",
           "tags": [
             "cell-type",
             "bone",
@@ -5189,7 +5189,7 @@
           "title": "Phagolysosome",
           "description": "吞噬體與溶體融合形成的酸性雜交胞器，以 NADPH 氧化酶產生的 ROS 與溶體組織蛋白酶殺死吞噬的微生物，並處理抗原供 MHC 第二類呈現。",
           "created": "2026-10-22",
-          "updated": "2026-11-01",
+          "updated": "2026-10-22",
           "tags": [
             "structure",
             "lysosome",
@@ -5227,7 +5227,7 @@
           "title": "Nucleophagy",
           "description": "針對核成分的選擇性自噬，由 NIX/BNIP3、FUNDC1 等外膜受體把核被膜與核質部分送入自噬體進行溶體降解。",
           "created": "2026-10-22",
-          "updated": "2026-11-01",
+          "updated": "2026-10-22",
           "tags": [
             "process",
             "autophagy",
@@ -5303,7 +5303,7 @@
           "title": "Serum Amyloid A",
           "description": "由 IL-6 與 IL-1 誘導、肝臟來源的急性期載脂蛋白（SAA1/SAA2），促進膽固醇運送，長期升高則形成類澱粉纖維導致 AA 類澱粉沉積症。",
           "created": "2026-10-22",
-          "updated": "2026-11-01",
+          "updated": "2026-10-22",
           "tags": [
             "protein",
             "acute-phase-reactant",
@@ -5341,7 +5341,7 @@
           "title": "Kinetochore",
           "description": "組裝於著絲點染色質上的多聚蛋白複合體，負責捕捉紡錘體微管、產生並感知附著張力，並承載守護染色體分配的紡錘體組裝檢查點。",
           "created": "2026-10-22",
-          "updated": "2026-11-01",
+          "updated": "2026-10-22",
           "tags": [
             "structure",
             "cell-cycle",
@@ -5379,7 +5379,7 @@
           "title": "Skp2",
           "description": "SCF 泛素連接酶的 F-box 次單元，可結合被磷酸化的 CDK 抑制物 p27 與 p21、抑制 FoxO 轉錄因子與 p53，藉以促進細胞週期進程並繞過細胞老化。",
           "created": "2026-10-22",
-          "updated": "2026-11-04",
+          "updated": "2026-10-22",
           "tags": [
             "protein",
             "ubiquitin-ligase",
@@ -5417,7 +5417,7 @@
           "title": "Lipolysis",
           "description": "脂解（lipolysis）是由 ATGL-HSL-MGL 級聯把儲存的三酸甘油酯水解為游離脂肪酸與甘油的荷爾蒙門控過程，為脂肪組織釋放能量的主要通路。",
           "created": "2026-10-22",
-          "updated": "2026-11-01",
+          "updated": "2026-10-22",
           "tags": [
             "process",
             "metabolism",
@@ -5455,7 +5455,7 @@
           "title": "Cdc42",
           "description": "小型 Rho 家族 GTPase，組織細胞極性、絲狀偽足與膜皺褶，活化 WAVE 與 PAK 效應子，並招募 p67phox 組裝 NADPH 氧化酶。",
           "created": "2026-10-22",
-          "updated": "2026-11-04",
+          "updated": "2026-10-22",
           "tags": [
             "protein",
             "gtpase",
@@ -5493,7 +5493,7 @@
           "title": "Phosphatidylserine",
           "description": "磷脂醯絲胺酸是陰離子性胺基磷脂，在健康細胞中侷限於質膜內葉；其外露於外葉是驅動胞葬作用的通用「eat-me」訊號，同時也是膜彎曲與 Ca2+ 依賴性凝血複合體組裝所必需的負電荷。",
           "created": "2026-09-29",
-          "updated": "2026-11-01",
+          "updated": "2026-10-23",
           "tags": [
             "lipid",
             "cell-membrane",
@@ -5531,7 +5531,7 @@
           "title": "Dynamin",
           "description": "大型膜重塑 GTPase，聚合成環狀套筒環繞膜頸，透過水解 GTP 驅動網格蛋白媒介的胞吞作用與突觸囊泡剪切。",
           "created": "2026-10-22",
-          "updated": "2026-11-01",
+          "updated": "2026-10-22",
           "tags": [
             "protein",
             "gtpase",
@@ -5569,7 +5569,7 @@
           "title": "c-Rel",
           "description": "NF-kappaB 家族轉錄因子，形成 p50/c-Rel 與 p52/RelB 二聚體，在發炎、存活與免疫耐受訊號傳遞中扮演不同角色，並在淋巴瘤中具致癌性。",
           "created": "2026-10-22",
-          "updated": "2026-11-04",
+          "updated": "2026-10-22",
           "tags": [
             "protein",
             "transcription-factor",
@@ -5607,7 +5607,7 @@
           "title": "Triglycerides",
           "description": "三酸甘油酯是膳食與儲存脂質的主體，由乳糜微粒與 VLDL 運送、經脂解動員，血中升高會驅動胰臟炎與代謝疾病。",
           "created": "2026-10-22",
-          "updated": "2026-11-01",
+          "updated": "2026-10-22",
           "tags": [
             "lipid",
             "metabolism",
@@ -5645,7 +5645,7 @@
           "title": "Coactivator",
           "description": "p300/CBP、PGC-1alpha 與 SRC/p160 家族等轉錄共活化因子把訊號輸入轉譯為染色質開放與轉錄輸出，並受 NAD+ 依賴性 sirtuins 與 HDAC 抑制。",
           "created": "2026-10-22",
-          "updated": "2026-11-04",
+          "updated": "2026-10-22",
           "tags": [
             "protein",
             "epigenetics",
@@ -5684,7 +5684,7 @@
           "title": "TLR7",
           "description": "內體 Toll-like receptor 7，在內溶酶體區室偵測單股 RNA，驅動漿細胞樣樹突細胞與 B 細胞中的第一型干擾素及 NF-kappaB 發炎訊號。",
           "created": "2026-10-22",
-          "updated": "2026-11-04",
+          "updated": "2026-10-22",
           "tags": [
             "receptor",
             "innate-immunity",
@@ -5723,7 +5723,7 @@
           "title": "Semicarbazide-Sensitive Amine Oxidase",
           "description": "銅依賴的血管胺氧化酶 SSAO（VAP-1），位於內皮與發炎細胞表面，將一級胺氧化為醛並產生過氧化氫，把膠原交聯與糖尿病血管病變及發炎連結起來。",
           "created": "2026-10-22",
-          "updated": "2026-11-01",
+          "updated": "2026-10-22",
           "tags": [
             "enzyme",
             "inflammation",
@@ -5761,7 +5761,7 @@
           "title": "uPA/uPAR",
           "description": "尿激酶型纖溶酶原活化因子與其 GPI 錨定受體 CD87，共同把纖溶酶生成局限於細胞表面，驅動纖溶、基質重塑、遷移與溶小體—轉錄訊息軸。",
           "created": "2026-10-22",
-          "updated": "2026-11-01",
+          "updated": "2026-10-22",
           "tags": [
             "protein",
             "protease-receptor",
@@ -5799,7 +5799,7 @@
           "title": "Bromodomain",
           "description": "Bromodomains 是約 110 個殘基的乙醯離胺酸讀取模組，把組蛋白乙醯化轉為轉錄機器的招募，與 BRD2/3/4 等 BET 家族蛋白共同構成書寫—讀取—擦除系統的讀取層。",
           "created": "2026-10-22",
-          "updated": "2026-11-04",
+          "updated": "2026-10-22",
           "tags": [
             "epigenetics",
             "protein",
@@ -5837,7 +5837,7 @@
           "title": "Demyelination",
           "description": "中樞或周邊神經系統髓鞘的喪失或功能障礙，在脫髓鞘疾病中造成傳導變慢、傳導阻斷與續發性軸突變性。",
           "created": "2026-10-22",
-          "updated": "2026-11-04",
+          "updated": "2026-10-22",
           "tags": [
             "process",
             "neurobiology",
@@ -5875,7 +5875,7 @@
           "title": "von Willebrand Factor",
           "description": "多聚體性內皮與血小板黏附蛋白，在高剪應力下結合血小板 GPIb 錨定初期止血，並攜帶穩定第八凝血因子；量或質的變異造成 von Willebrand 氏病。",
           "created": "2026-10-22",
-          "updated": "2026-11-01",
+          "updated": "2026-10-22",
           "tags": [
             "protein",
             "adhesion",
@@ -5913,7 +5913,7 @@
           "title": "Prophase I",
           "description": "減數分裂前期 I 是減數分裂漫長的第一階段，包含細線期、合線期、粗線期、雙線期與終變期，同源染色體於此配對、聯會、重組並接受基因體監控。",
           "created": "2026-10-22",
-          "updated": "2026-11-01",
+          "updated": "2026-10-22",
           "tags": [
             "process",
             "meiosis",
@@ -5951,7 +5951,7 @@
           "title": "Tissue Factor",
           "description": "Factor III，外在凝血級聯的跨膜啟動者，結合 factor VIIa 觸發凝血酶生成，並在單核球與腫瘤細胞上把凝血與發炎及癌症相連。",
           "created": "2026-10-22",
-          "updated": "2026-11-04",
+          "updated": "2026-10-22",
           "tags": [
             "protein",
             "coagulation",
@@ -5989,7 +5989,7 @@
           "title": "Verapamil",
           "description": "苯烷胺類第四類抗心律不整藥與 L 型鈣通道阻斷劑，用於上心室性心律不整與高血壓，同時抑制 P-醣蛋白並干擾粒線體鈣處理。",
           "created": "2026-10-22",
-          "updated": "2026-11-01",
+          "updated": "2026-10-22",
           "tags": [
             "drug",
             "ion-channel",
@@ -6027,7 +6027,7 @@
           "title": "Resistance Training",
           "description": "負重、高負荷的運動，可增進肌肉力量與質量、提升胰島素敏感性，並活化 mTOR/AMPK、肌肉細胞因子與粒線體生合成——健康老化的核心槓桿。",
           "created": "2026-10-22",
-          "updated": "2026-11-04",
+          "updated": "2026-10-22",
           "tags": [
             "process",
             "exercise",
@@ -6065,7 +6065,7 @@
           "title": "Acetylcholine",
           "description": "作用於毒蕈鹼型 M1-M5 與菸鹼型乙醯膽鹼受體的神經傳訊物質與旁分泌訊號分子，在膽鹼能抗發炎反射、迷走神經張力與代謝調控中居於核心地位。",
           "created": "2026-10-22",
-          "updated": "2026-11-04",
+          "updated": "2026-10-22",
           "tags": [
             "neurotransmitter",
             "signaling",
@@ -6103,7 +6103,7 @@
           "title": "M-CSF",
           "description": "巨噬細胞群落刺激因子（CSF-1），結合 CSF1R 驅動單核球與巨噬細胞分化、微膠細胞維持及腫瘤相關巨噬細胞極化。",
           "created": "2026-10-22",
-          "updated": "2026-11-01",
+          "updated": "2026-10-22",
           "tags": [
             "cytokine",
             "growth-factor",
@@ -6141,7 +6141,7 @@
           "title": "HDL3",
           "description": "HDL3 是小型、緻密、盤狀的高密度脂蛋白次分群，經 ABCA1 接受細胞膽固醇，並透過 LCAT 生成膽固醇酯成熟為 HDL2。",
           "created": "2026-10-22",
-          "updated": "2026-11-01",
+          "updated": "2026-10-22",
           "tags": [
             "lipoprotein",
             "metabolism",
@@ -6179,7 +6179,7 @@
           "title": "Hypokalemia",
           "description": "血清鉀低於 3.5 mmol/L 的狀態，源於胃腸與腎臟鉀流失、醛固酮過多、藥物與鹼中毒，造成神經肌肉無力與心律不整。",
           "created": "2026-10-22",
-          "updated": "2026-11-01",
+          "updated": "2026-10-22",
           "tags": [
             "medical-condition",
             "electrolyte",
@@ -6217,7 +6217,7 @@
           "title": "PEGylation",
           "description": "將聚乙二醇鏈共價結合至蛋白質、胜肽或脂質表面，用以延長循環半衰期、降低免疫原性，並改善治療劑的溶解度與藥物動力學性質。",
           "created": "2026-10-22",
-          "updated": "2026-11-04",
+          "updated": "2026-10-22",
           "tags": [
             "process",
             "protein-engineering",
@@ -6255,7 +6255,7 @@
           "title": "PRDX1",
           "description": "PRDX1（peroxiredoxin-1）是硫氧還蛋白依賴性過氧化物酶，具催化性半胱胺酸，作為快速 H2O2 清除劑、氧化還原感受器與 holdase 伴侶蛋白，並藉限制脂質氫過氧化物累積而抑制鐵凋亡。",
           "created": "2026-10-22",
-          "updated": "2026-11-04",
+          "updated": "2026-10-22",
           "tags": [
             "protein",
             "enzyme",
@@ -6293,7 +6293,7 @@
           "title": "Cystic Fibrosis",
           "description": "自體隱性疾病，因 CFTR 通道功能失常造成濃稠氣道黏液、慢性 Pseudomonas 感染、胰臟功能不足與進行性支氣管擴張，現可用 CFTR 調節劑治療。",
           "created": "2026-10-22",
-          "updated": "2026-11-04",
+          "updated": "2026-10-22",
           "tags": [
             "disease",
             "genetic-disease",
@@ -6331,7 +6331,7 @@
           "title": "Endothelium-Dependent Dilation",
           "description": "由內皮 NO、前列環素與 EDHF 介導的血流介導血管擴張——內皮功能的標準檢測，也是血管老化與心血管風險最早可測得的徵象之一。",
           "created": "2026-10-22",
-          "updated": "2026-11-04",
+          "updated": "2026-10-22",
           "tags": [
             "process",
             "vascular",
@@ -6369,7 +6369,7 @@
           "title": "SREBP",
           "description": "固醇調節元素結合蛋白——SREBP1/SREBP2 家族，錨定於內質網的 basic helix-loop-helix 轉錄因子，其蛋白水解除裂過程控制膽固醇合成（SREBP-2）與脂肪酸／脂質生成（SREBP-1c）。",
           "created": "2026-10-22",
-          "updated": "2026-11-04",
+          "updated": "2026-10-22",
           "tags": [
             "transcription-factor",
             "lipid",
@@ -6408,7 +6408,7 @@
           "title": "DcR2",
           "description": "DcR2（TRAIL-R4/TNFRSF10D）是 TNF 超家族誘餌受體，結合 TRAIL 但缺乏功能性死亡結構域，調節 TRAIL 誘發的細胞凋亡，並作為阻斷誘餌受體之合併策略的標的。",
           "created": "2026-10-22",
-          "updated": "2026-11-04",
+          "updated": "2026-10-22",
           "tags": [
             "receptor",
             "apoptosis",
@@ -6482,7 +6482,7 @@
           "title": "DcR1",
           "description": "DcR1（TRAIL-R3/TNFRSF10C）是 TNF 超家族誘餌受體，在缺乏功能性死亡結構域的情況下隔離 TRAIL，使正常細胞免於凋亡，並促成腫瘤對 TRAIL 療法的抗性。",
           "created": "2026-10-22",
-          "updated": "2026-11-09",
+          "updated": "2026-10-22",
           "tags": [
             "receptor",
             "apoptosis",
@@ -6521,7 +6521,7 @@
           "title": "Osteoprotegerin（骨保護素）",
           "description": "OPG（TNFRSF11B）——RANKL 的可溶性誘餌受體，能抑制破骨細胞生成與骨質再吸收，並參與骨質疏鬆症、血管鈣化與腫瘤—骨交互作用。",
           "created": "2026-10-22",
-          "updated": "2026-11-09",
+          "updated": "2026-10-22",
           "tags": [
             "protein",
             "bone",
@@ -6559,7 +6559,7 @@
           "title": "Oxaliplatin",
           "description": "Oxaliplatin 是第三代鉑類（1R,2R-環己烷-1,2-二胺）複合物，會形成龐大的鏈內與鏈間 DNA 交聯，是大腸直腸癌化療的骨幹，其特徵性毒性為累積性周邊神經病變。",
           "created": "2026-10-22",
-          "updated": "2026-11-09",
+          "updated": "2026-10-22",
           "tags": [
             "drug",
             "anticancer",
@@ -6597,7 +6597,7 @@
           "title": "TNFR2",
           "description": "TNFRSF1B（CD120b）——腫瘤壞死因子受體 2，為不帶死亡結構域的 TNFR1 旁系同源蛋白，經 TRAF2/PI3K-Akt 與 NF-κB 傳訊，並透過可溶性外域脫落調節 TNF 生物可用性；成熟紅血球不表現此受體。",
           "created": "2026-10-21",
-          "updated": "2026-11-01",
+          "updated": "2026-10-21",
           "tags": [
             "receptor",
             "cell-death",
@@ -6636,7 +6636,7 @@
           "title": "Reactive Nitrogen Species（活性氮物種）",
           "description": "活性氮物種（RNS）是由一氧化氮（•NO）與超氧化物（O2•−）衍生、經誘導型一氧化氮合成酶與 NADPH 氧化酶酵素活性產生的一族抗菌分子。",
           "created": "2026-05-09",
-          "updated": "2026-11-01",
+          "updated": "2026-10-23",
           "tags": [
             "oxidative-stress",
             "nitric-oxide",
@@ -6675,7 +6675,7 @@
           "title": "Small Humanin-Like Peptides（小型 Humanin 樣胜肽）",
           "description": "SHLPs——源自粒線體 MTRNR2L（Humanin）開放讀碼框的一族短胜肽，被推斷在老化與代謝中具有粒線體與內分泌訊號角色。",
           "created": "2026-10-22",
-          "updated": "2026-11-09",
+          "updated": "2026-10-22",
           "tags": [
             "peptide",
             "mitochondria",
@@ -6711,7 +6711,7 @@
           "title": "FADD",
           "description": "FADD（Fas-associated via death domain）是關鍵的銜接蛋白，在凋亡的外在途徑中將死亡受體連結至起始型 caspase。",
           "created": "2026-07-06",
-          "updated": "2026-11-01",
+          "updated": "2026-10-23",
           "tags": [
             "protein"
           ],
@@ -6747,7 +6747,7 @@
           "title": "1-Methylguanine（1-甲基鳥嘌呤）",
           "description": "M1dG——由脂質過氧化形成的鳥嘌呤環外加合物，是氧化性 DNA 損傷的標記，由 ALKBH2 與 OGG1 修復，其尿液含量追蹤發炎與脂質氧化。",
           "created": "2026-10-22",
-          "updated": "2026-11-09",
+          "updated": "2026-10-22",
           "tags": [
             "metabolite",
             "dna-damage",
@@ -6822,7 +6822,7 @@
           "title": "cGMP-Dependent Protein Kinase I",
           "description": "cGMP 依賴性蛋白激酶 I 型（cGKI、PRKG1）是紅血球中主要的 cGMP 效應器；其缺失會提高細胞質 Ca2+、瓦解磷脂醯絲胺酸不對稱並驅動 eryptosis，使基因剔除小鼠出現貧血與脾腫大。",
           "created": "2026-10-23",
-          "updated": "2026-11-01",
+          "updated": "2026-10-23",
           "tags": [
             "enzyme",
             "kinase",
@@ -6860,7 +6860,7 @@
           "title": "Sphingomyelin",
           "description": "由神經醯胺合成的磷酸鞘脂；膜的結構成分，也是經鞘磷脂酶產生神經醯胺的儲備池。",
           "created": "2026-07-24",
-          "updated": "2026-11-01",
+          "updated": "2026-10-23",
           "tags": [
             "lipid",
             "sphingolipid-metabolism"
@@ -6898,7 +6898,7 @@
           "title": "Fas",
           "description": "Fas（CD95／APO-1／FasR／TNFRSF6）是 TNF 超家族死亡受體，與 FADD 及 Caspase-8 組裝 DISC 以啟動外在凋亡；當 Caspase-8 被阻斷時，訊號轉向 RIPK1/RIPK3/MLKL 壞死性凋亡。",
           "created": "2026-10-22",
-          "updated": "2026-11-01",
+          "updated": "2026-10-22",
           "tags": [
             "receptor",
             "apoptosis",
@@ -6937,7 +6937,7 @@
           "title": "Sphingomyelinase",
           "description": "鞘磷脂酶是水解鞘磷脂以產生神經醯胺的酵素家族；酸性型作用於溶酶體與分泌囊泡，中性型（SMPD2/3）在 pH 7 作用於高基氏體、內質網與粒線體，兩者皆供應神經醯胺依賴的死亡訊號。",
           "created": "2026-10-23",
-          "updated": "2026-11-01",
+          "updated": "2026-10-23",
           "tags": [
             "enzyme",
             "lipid",
@@ -6976,7 +6976,7 @@
           "title": "DR5",
           "description": "TRAIL-R2（TNFRSF10B、CD262）——第二個具功能的 TRAIL 死亡受體，屬含死亡結構域的 TNF 超家族受體，經 FADD/caspase-8 走向凋亡；當 caspase-8 被阻斷時，則轉為 RIPK1/RIPK3/MLKL 壞死性凋亡。",
           "created": "2026-10-21",
-          "updated": "2026-11-01",
+          "updated": "2026-10-21",
           "tags": [
             "receptor",
             "cell-death",
@@ -7015,7 +7015,7 @@
           "title": "CK1α",
           "description": "酪蛋白激酶 1α（CK1α、CSNK1A1）是紅血球表現的 CK1 異構型，藉由提高細胞質 Ca2+ 而具促 eryptosis 作用；活化會增強 PS 外露，抑制則減弱壓力誘發的 eryptosis。",
           "created": "2026-10-23",
-          "updated": "2026-11-01",
+          "updated": "2026-10-23",
           "tags": [
             "enzyme",
             "kinase",
@@ -7087,7 +7087,7 @@
           "title": "Plasmalogen",
           "description": "sn-1 位置帶乙烯醚鍵的醚磷脂，可保護膜免受氧化傷害、作為血小板活化因子儲庫，並富集於腦、心臟與粒線體膜。",
           "created": "2026-10-22",
-          "updated": "2026-11-01",
+          "updated": "2026-10-22",
           "tags": [
             "lipid",
             "ether-lipid",
@@ -7125,7 +7125,7 @@
           "title": "Separase",
           "description": "在後期（anaphase）開始時切割黏連蛋白、釋放姊妹染色單體使各自移向子細胞的半胱胺酸蛋白酶；其活性由 APC/C 依賴的 securin 降解所把關。",
           "created": "2026-10-22",
-          "updated": "2026-11-01",
+          "updated": "2026-10-22",
           "tags": [
             "enzyme",
             "cell-cycle",
@@ -7163,7 +7163,7 @@
           "title": "Temozolomide",
           "description": "替莫唑胺（TMZ）是口服可用的咪唑并四氮烯類烷化前驅藥，會生成 MTIC 與 O6-甲基鳥嘌呤 DNA 加合物，是膠質母細胞瘤合併放射治療的標準化學治療骨幹。",
           "created": "2026-10-22",
-          "updated": "2026-11-01",
+          "updated": "2026-10-22",
           "tags": [
             "drug",
             "anticancer",
@@ -7202,7 +7202,7 @@
           "title": "DR4",
           "description": "TRAIL-R1（TNFRSF10A、CD261）——主要的 TRAIL 死亡受體，屬含死亡結構域的 TNF 超家族受體，組裝 DISC 以活化 caspase-8；當 caspase-8 被阻斷時，則轉為 RIPK1/RIPK3/MLKL 壞死性凋亡。",
           "created": "2026-10-21",
-          "updated": "2026-11-01",
+          "updated": "2026-10-21",
           "tags": [
             "receptor",
             "cell-death",
@@ -7275,7 +7275,7 @@
           "title": "Succinate",
           "description": "TCA 循環中間產物琥珀酸，是 SDH 的受質，在 SDH 受抑制時穩定 HIF-α，並為蛋白質琥珀酸化與髓系細胞發炎代謝物的來源。",
           "created": "2026-10-22",
-          "updated": "2026-11-01",
+          "updated": "2026-10-22",
           "tags": [
             "metabolite",
             "signaling",
@@ -7313,7 +7313,7 @@
           "title": "Decoy Receptor",
           "description": "可溶性或膜性誘餌受體能結合死亡配體但缺乏功能性死亡結構域，使正常細胞免於凋亡——包括 TRAIL 的 DcR1/DcR2 與 RANKL 的骨保護素。",
           "created": "2026-10-22",
-          "updated": "2026-11-01",
+          "updated": "2026-10-22",
           "tags": [
             "receptor",
             "cell-death",
@@ -7352,7 +7352,7 @@
           "title": "Oxidative Stress（氧化壓力）",
           "description": "一種由活性氧（ROS）的生成與累積、以及生物系統將其解毒的能力之間失衡所造成的現象；在生理學（氧化還原訊號傳遞、粒線體毒物興奮效應）與病理學（老化、動脈粥狀硬化、神經退化）中扮演雙重角色。",
           "created": "2026-07-04",
-          "updated": "2026-10-21",
+          "updated": "2026-08-16",
           "tags": [
             "biological-process",
             "scientific-concept",
@@ -7461,7 +7461,7 @@
           "title": "Erythronecroptosis",
           "description": "由 RIPK1/RIPK3/MLKL 介導的成熟紅血球受調控壞死——eryptosis 的裂解性、類溶血對應形式，由 Fas/FasL、CD59 聯結（伴隨孔洞形成）、ROS、神經醯胺與 AGEs 觸發，並經由 caspase-8 與 eryptosis 互斥。",
           "created": "2026-10-08",
-          "updated": "2026-11-09",
+          "updated": "2026-10-08",
           "tags": [
             "cell-death",
             "erythrocyte",
@@ -7534,7 +7534,7 @@
           "title": "Kupffer Cell",
           "description": "肝血竇的肝臟巨噬細胞；清除 PS 外露（eryptotic 與衰老）紅血球與 RBC 衍生囊泡的主要吞噬細胞，形成 erythrophagolysosome 並驅動肝臟鐵回收。",
           "created": "2026-10-08",
-          "updated": "2026-11-09",
+          "updated": "2026-10-08",
           "tags": [
             "cell-type",
             "innate-immunity",
@@ -7608,7 +7608,7 @@
           "title": "Malaria（瘧疾）",
           "description": "瘧原蟲感染紅血球；氧化壓力開啟陽離子通道，eryptosis 清除受感染細胞與寄生蟲，降低 eryptosis 的紅血球性狀（G6PD 缺乏、鐮刀型細胞性狀、地中海型貧血）提供部分保護，而促 eryptosis 的外來物質減緩寄生蟲血症。",
           "created": "2026-10-08",
-          "updated": "2026-11-09",
+          "updated": "2026-10-08",
           "tags": [
             "disease",
             "infection",
@@ -7648,7 +7648,7 @@
           "title": "Erythropoiesis（紅血球生成）",
           "description": "骨髓從造血幹細胞經過紅血球前驅細胞與網狀紅血球製造紅血球，最終脫核並清除胞器——此過程的終端步驟決定成熟紅血球保留哪些細胞死亡機器。",
           "created": "2026-10-08",
-          "updated": "2026-11-09",
+          "updated": "2026-10-08",
           "tags": [
             "process",
             "hematopoiesis",
@@ -7728,7 +7728,7 @@
           "title": "Hemopexin",
           "description": "血漿中結合血基質的醣蛋白，會捕捉血紅素分解釋出的血基質，將其遞送至肝細胞與巨噬細胞上的 CD91 受體，供 HO-1 依賴的回收為膽紅素與鐵；其耗盡是血管內溶血的標記。",
           "created": "2026-10-08",
-          "updated": "2026-11-09",
+          "updated": "2026-10-08",
           "tags": [
             "protein",
             "heme",
@@ -7808,7 +7808,7 @@
           "title": "Erythrocyte Senescence（紅血球衰老）",
           "description": "成熟紅血球約 120 天的老化程式——表面積／體積喪失、密度上升、變形性降低、陽離子喪失、去唾液酸化、氧化損傷、hemichrome、CD47 減少、AE1 新抗原——由巨噬細胞／NOAb 免疫在數天內清除，與數分鐘內完成的 eryptosis 不同。",
           "created": "2026-10-08",
-          "updated": "2026-11-09",
+          "updated": "2026-10-08",
           "tags": [
             "process",
             "erythrocyte",
@@ -7890,7 +7890,7 @@
           "title": "Haptoglobin",
           "description": "血漿醣蛋白，以高度親和力結合溶血釋出的游離血紅蛋白，形成 haptoglobin-血紅蛋白複體並經由 CD91 受體清除；是血管內溶血的第一線清道夫。",
           "created": "2026-10-08",
-          "updated": "2026-11-09",
+          "updated": "2026-10-08",
           "tags": [
             "protein",
             "hemolysis",
@@ -7970,7 +7970,7 @@
           "title": "Carbonic Anhydrase（碳酸酐酶）",
           "description": "催化 CO2 + H2O ⇄ H2CO3 ⇄ H+ + HCO3− 的含鋅酵素；在紅血球中完成約 23% 的 CO2 運送，並與陰離子交換蛋白 1 配對，在組織與肺臟進行氯離子轉移以裝載與卸載 CO2。",
           "created": "2026-10-08",
-          "updated": "2026-11-09",
+          "updated": "2026-10-08",
           "tags": [
             "enzyme",
             "erythrocyte",
@@ -8048,7 +8048,7 @@
           "title": "TRPC6",
           "description": "可通透 Ca2+ 的瞬時受體電位通道 6；在人類紅血球中介導 Ca2+ 內流（小鼠由 TRPC4/5 擔任該角色），是過載可觸發 eryptosis 的進入途徑之一。",
           "created": "2026-10-08",
-          "updated": "2026-11-09",
+          "updated": "2026-10-08",
           "tags": [
             "protein",
             "ion-channel",
@@ -8202,7 +8202,7 @@
           "title": "Piezo1",
           "description": "機械敏感性非選擇性陽離子通道；在紅血球中將機械壓力轉換為 Ca2+ 內流，將剪應力／拉伸（包括細胞外累積的奈米材料）連結到 eryptosis。",
           "created": "2026-10-08",
-          "updated": "2026-11-09",
+          "updated": "2026-10-08",
           "tags": [
             "protein",
             "ion-channel",
@@ -8281,7 +8281,7 @@
           "title": "Duffy Antigen Receptor for Chemokines（Duffy 趨化因子受體）",
           "description": "DARC（ACKM1），紅血球表面的趨化因子受體，從血漿清除 CXC 與 CC 趨化因子，微調免疫細胞運輸，並作為 Plasmodium vivax 與 P. knowlesi 的入侵受體。",
           "created": "2026-10-08",
-          "updated": "2026-11-09",
+          "updated": "2026-10-08",
           "tags": [
             "protein",
             "receptor",
@@ -8360,7 +8360,7 @@
           "title": "Reticulocyte（網狀紅血球）",
           "description": "從骨髓釋出的未成熟、已脫核紅血球，仍含有殘餘核糖體與胞器；是粒線體被清除的階段，其循環計數是貧血中紅血球生成輸出的標準讀數。",
           "created": "2026-10-08",
-          "updated": "2026-11-09",
+          "updated": "2026-10-08",
           "tags": [
             "cell-type",
             "erythrocyte",
@@ -8682,7 +8682,7 @@
           "title": "Antiphospholipid Syndrome（抗磷脂症候群）",
           "description": "由抗磷脂抗體加上動脈／靜脈血栓或妊娠罹病所定義的自體免疫性血栓形成傾向；APS 患者的自體抗體在健康紅血球中誘導 eryptosis，提供通往促血栓性紅血球表型的途徑。",
           "created": "2026-10-08",
-          "updated": "2026-11-09",
+          "updated": "2026-10-08",
           "tags": [
             "disease",
             "autoimmune",
@@ -9503,7 +9503,7 @@
           "title": "HO-1",
           "description": "血基質氧化酶 1（HO-1）是一種壓力可誘導酵素，催化血基質降解的速率限制步驟，產生膽綠素、一氧化碳（CO）與亞鐵（Fe²⁺）。它是受 NRF2 誘導的關鍵細胞保護酵素。",
           "created": "2026-07-04",
-          "updated": "2026-11-09",
+          "updated": "2026-10-08",
           "tags": [
             "enzyme"
           ],
@@ -9808,7 +9808,7 @@
           "title": "Gardos Channel（Gardos 通道）",
           "description": "KCa3.1（KCNN4），紅血球的 Ca2+ 活化 K+ 通道，其開啟驅動 K+ 外流、過極化、Cl− 與水分流失，以及 eryptosis 的細胞皺縮；受 charybdotoxin 與 clotrimazole 阻斷。",
           "created": "2026-10-08",
-          "updated": "2026-11-09",
+          "updated": "2026-10-08",
           "tags": [
             "protein",
             "ion-channel",
@@ -10694,7 +10694,7 @@
           "title": "Anion Exchanger 1（陰離子交換蛋白 1）",
           "description": "AE1/Band 3（SLC4A1），紅血球膜最豐富的蛋白質：陰離子交換器、CO2/HCO3− 運輸器、維持雙凹形狀的膜—細胞骨架錨點、衰老抗原表位，以及 eryptosis 期間 calpain/caspase 切割的標的。",
           "created": "2026-10-08",
-          "updated": "2026-11-09",
+          "updated": "2026-10-08",
           "tags": [
             "protein",
             "membrane-biology",
@@ -11521,6 +11521,44 @@
       }
     },
     {
+      "id": "Traumatic Brain Injury",
+      "langs": {
+        "en-US": {
+          "title": "Traumatic Brain Injury",
+          "description": "Traumatic brain injury (TBI) is an acquired brain injury from external mechanical force causing transient or prolonged neurological deficits; mild TBI (concussion) is common in sport and military populations. Mitochondria-targeted agents are an active neuroprotection research focus.",
+          "created": "2026-07-08",
+          "updated": "2026-09-29",
+          "tags": [
+            "medical-condition",
+            "neurology",
+            "trauma"
+          ],
+          "filename": "Traumatic Brain Injury.md",
+          "path": "wiki/en-US/_link/Traumatic%20Brain%20Injury.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Traumatic%20Brain%20Injury.md"
+        },
+        "zh-TW": {
+          "title": "Traumatic Brain Injury",
+          "description": "腦外傷（TBI）是由外部機械力造成的後天腦損傷，會導致暫時性或持續性的神經功能缺損；輕度 TBI（腦震盪）在運動與軍隊族群中十分常見。以粒線體為標的的藥物是目前神經保護研究的活躍方向。",
+          "created": "2026-07-08",
+          "updated": "2026-09-29",
+          "tags": [
+            "medical-condition",
+            "neurology",
+            "trauma"
+          ],
+          "filename": "Traumatic Brain Injury.md",
+          "path": "wiki/zh-TW/_link/Traumatic%20Brain%20Injury.md"
+        }
+      },
+      "stats": {
+        "words": 533,
+        "images": 0,
+        "links": 41,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "CHOP",
       "langs": {
         "en-US": {
@@ -11557,44 +11595,6 @@
         "words": 1036,
         "images": 0,
         "links": 64,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "Traumatic Brain Injury",
-      "langs": {
-        "en-US": {
-          "title": "Traumatic Brain Injury",
-          "description": "Traumatic brain injury (TBI) is an acquired brain injury from external mechanical force causing transient or prolonged neurological deficits; mild TBI (concussion) is common in sport and military populations. Mitochondria-targeted agents are an active neuroprotection research focus.",
-          "created": "2026-07-08",
-          "updated": "2026-09-29",
-          "tags": [
-            "medical-condition",
-            "neurology",
-            "trauma"
-          ],
-          "filename": "Traumatic Brain Injury.md",
-          "path": "wiki/en-US/_link/Traumatic%20Brain%20Injury.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Traumatic%20Brain%20Injury.md"
-        },
-        "zh-TW": {
-          "title": "Traumatic Brain Injury",
-          "description": "腦外傷（TBI）是由外部機械力造成的後天腦損傷，會導致暫時性或持續性的神經功能缺損；輕度 TBI（腦震盪）在運動與軍隊族群中十分常見。以粒線體為標的的藥物是目前神經保護研究的活躍方向。",
-          "created": "2026-07-08",
-          "updated": "2026-09-29",
-          "tags": [
-            "medical-condition",
-            "neurology",
-            "trauma"
-          ],
-          "filename": "Traumatic Brain Injury.md",
-          "path": "wiki/zh-TW/_link/Traumatic%20Brain%20Injury.md"
-        }
-      },
-      "stats": {
-        "words": 533,
-        "images": 0,
-        "links": 41,
         "diagrams": 0
       }
     },
@@ -11964,7 +11964,7 @@
           "title": "Adrenochrome（腎上腺紅質）",
           "description": "Adrenochrome（腎上腺紅質）是由腎上腺素（epinephrine，adrenaline）氧化所形成的化學化合物，屬於胺基醌（Aminochromes）家族，是次要的代謝副產物，而非主要的激素。",
           "created": "2026-07-21",
-          "updated": "2026-10-21",
+          "updated": "2026-08-09",
           "tags": [
             "chemical-compound",
             "catecholamine",
@@ -12197,7 +12197,7 @@
           "title": "Parkinson's Disease（帕金森氏症）",
           "description": "帕金森氏症是一種漸進性的神經退化性疾病，特徵為黑質中多巴胺神經元喪失，造成靜息性震顫、僵硬、運動緩慢與姿勢不穩。與細胞衰老、發炎性老化，以及可辨識的循環 SASP 訊號特徵相關。",
           "created": "2026-05-29",
-          "updated": "2026-10-21",
+          "updated": "2026-08-11",
           "tags": [
             "disease",
             "medical-condition",
@@ -13224,7 +13224,7 @@
           "title": "Bcl-2",
           "description": "定位於粒線體外膜並抑制細胞色素 c 釋放的抗凋亡蛋白。",
           "created": "2026-07-04",
-          "updated": "2026-10-21",
+          "updated": "2026-09-02",
           "tags": [
             "protein",
             "apoptosis"
@@ -13259,7 +13259,7 @@
           "title": "Aging（老化）",
           "description": "老化與表觀遺傳學的關係是現代老年生物學的核心焦點。表觀遺傳學是指對 DNA 及其相關蛋白質的化學修飾，這些修飾可在不改變基因序列的情況下調節基因表現……",
           "created": "2026-05-29",
-          "updated": "2026-10-21",
+          "updated": "2026-05-29",
           "tags": [
             "biological-process"
           ],
@@ -13517,7 +13517,7 @@
           "title": "Senolytics（衰老細胞清除劑）",
           "description": "一類藉由標的衰老細胞抗凋亡路徑（SCAPs），選擇性地誘導衰老細胞死亡的小分子與胜肽。",
           "created": "2024-01-01",
-          "updated": "2026-10-21",
+          "updated": "2026-09-02",
           "tags": [
             "pharmacological-action",
             "senescence",
@@ -13784,7 +13784,7 @@
           "title": "端粒",
           "description": "位於染色體末端、可保護基因體完整性的重複核蛋白帽狀結構，並隨老化與細胞分裂而縮短。",
           "created": "2026-07-09",
-          "updated": "2026-10-21",
+          "updated": "2026-09-02",
           "tags": [
             "scientific-concept",
             "telomere",
@@ -13827,7 +13827,7 @@
           "title": "FSP1",
           "description": "鐵死亡抑制蛋白 1（FSP1，舊稱 AIFM2）是一種質膜黃素蛋白，利用 NAD(P)H 將泛醌（CoQ10）還原為泛醇，一種親脂性的自由基捕捉型抗氧化劑，藉此作為不依賴 GPX4 的平行鐵死亡煞車。",
           "created": "2026-07-04",
-          "updated": "2026-10-21",
+          "updated": "2026-08-24",
           "tags": [
             "protein",
             "enzyme",
@@ -13866,7 +13866,7 @@
           "title": "Mitophagy（粒線體自噬）",
           "description": "粒線體自噬是一種選擇性自噬的特化形式，針對受損或功能異常的粒線體進行降解。它是維持粒線體健康與細胞恆定的關鍵品質管制機制……",
           "created": "2024-01-01",
-          "updated": "2026-10-21",
+          "updated": "2026-07-26",
           "tags": [
             "biological-process",
             "mitochondria"
@@ -13904,7 +13904,7 @@
           "title": "Nrf2",
           "description": "轉錄因子（NF-E2-related factor 2），藉由結合 ARE/EpRE 元件來統籌抗氧化與解毒反應。",
           "created": "2026-07-09",
-          "updated": "2026-10-21",
+          "updated": "2026-07-29",
           "tags": [
             "protein",
             "redox",
@@ -13981,7 +13981,7 @@
           "title": "mTOR",
           "description": "mTOR（Mechanistic Target of Rapamycin）是一種蛋白質激酶，作為細胞代謝的「總調節者」。它整合來自營養、生長因子與能量狀態的訊號……",
           "created": "2026-05-31",
-          "updated": "2026-10-21",
+          "updated": "2026-07-29",
           "tags": [
             "protein"
           ],
@@ -14015,7 +14015,7 @@
           "title": "神經黑色素",
           "description": "神經黑色素是存在於腦中特定兒茶酚胺能神經元族群的一種深色色素，最具代表性的是黑質與藍斑核。",
           "created": "2026-07-04",
-          "updated": "2026-10-21",
+          "updated": "2026-07-04",
           "tags": [
             "biological-molecule"
           ],
@@ -14049,7 +14049,7 @@
           "title": "Rapamycin（雷帕黴素）",
           "description": "在 SASP-Remodeling Aminochrome Complex 策略中，Rapamycin 扮演「煞車」的角色。它確保由腎上腺素紅引發的 ROS 訊號從促發炎的 SASP 生成，轉而流向靜止樣的「senomorphic」狀態……",
           "created": "2024-01-01",
-          "updated": "2026-10-21",
+          "updated": "2026-07-07",
           "tags": [
             "chemical-compound"
           ],
@@ -14084,7 +14084,7 @@
           "title": "Hormesis（馴化）",
           "description": "馴化是一種生物學現象：暴露於某種在較高劑量下具有毒性或致命性（…）的作用因子之低劑量，會產生有益效應（健康改善、壓力耐受性、生長或長壽）。",
           "created": "2026-07-04",
-          "updated": "2026-10-21",
+          "updated": "2026-07-04",
           "tags": [
             "scientific-concept",
             "hormesis"
@@ -14121,7 +14121,7 @@
           "title": "TFEB",
           "description": "自噬－溶酶體途徑的主調節因子，協調溶酶體生合成與自噬",
           "created": "2024-01-01",
-          "updated": "2026-10-21",
+          "updated": "2024-01-01",
           "tags": [
             "transcription-factor",
             "autophagy",
@@ -14158,7 +14158,7 @@
           "title": "粒線體功能障礙",
           "description": "粒線體功能障礙是帕金森氏症的中央特徵，並被認為既是其他病理過程的原因，也是其結果。",
           "created": "2024-01-01",
-          "updated": "2026-10-21",
+          "updated": "2024-01-01",
           "tags": [
             "biological-process",
             "mitochondria"
@@ -14193,7 +14193,7 @@
           "title": "FOXO",
           "description": "一族轉錄因子（Forkhead box O，叉頭框蛋白 O），負責調節與細胞週期、細胞凋亡與自噬相關基因的表現。",
           "created": "2024-01-01",
-          "updated": "2026-10-21",
+          "updated": "2024-01-01",
           "tags": [
             "protein"
           ],

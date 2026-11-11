@@ -3,7 +3,7 @@ title: DcR2
 description: DcR2（TRAIL-R4/TNFRSF10D）是 TNF 超家族誘餌受體，結合 TRAIL 但缺乏功能性死亡結構域，調節 TRAIL 誘發的細胞凋亡，並作為阻斷誘餌受體之合併策略的標的。
 protected: false
 created: 2026-10-22
-updated: 2026-11-04
+updated: 2026-10-22
 tags: [receptor, apoptosis, cell-death, cancer]
 url: #
 source: #

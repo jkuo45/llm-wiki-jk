@@ -3,7 +3,7 @@ title: Osteoblast
 description: 由間質幹細胞而來、分泌類骨質並控制礦化的造骨細胞，受 Runx2 與 osterix 及 Wnt/β-catenin 訊號驅動分化，並與破骨細胞在重塑中耦聯。
 protected: false
 created: 2026-10-22
-updated: 2026-11-01
+updated: 2026-10-22
 tags: [cell-type, bone, differentiation]
 url: #
 source: #

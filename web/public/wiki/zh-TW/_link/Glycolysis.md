@@ -3,7 +3,7 @@ title: Glycolysis
 description: 糖解作用是將葡萄糖轉換為丙酮酸的代謝途徑。此途徑的副產物之一是甲基乙二醛（Methylglyoxal），為晚期糖化終產物的強效前驅物。
 protected: false
 created: 2026-07-04
-updated: 2026-11-01
+updated: 2026-10-29
 tags: [biological-process]
 url: #
 source: #

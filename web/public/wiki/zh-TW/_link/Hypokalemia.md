@@ -3,7 +3,7 @@ title: Hypokalemia
 description: 血清鉀低於 3.5 mmol/L 的狀態，源於胃腸與腎臟鉀流失、醛固酮過多、藥物與鹼中毒，造成神經肌肉無力與心律不整。
 protected: false
 created: 2026-10-22
-updated: 2026-11-01
+updated: 2026-10-22
 tags: [medical-condition, electrolyte, cardiology]
 url: #
 source: #

@@ -2,7 +2,7 @@
 title: HO-1
 description: 血基質氧化酶 1（HO-1）是一種壓力可誘導酵素，催化血基質降解的速率限制步驟，產生膽綠素、一氧化碳（CO）與亞鐵（Fe²⁺）。它是受 NRF2 誘導的關鍵細胞保護酵素。
 created: 2026-07-04
-updated: 2026-11-09
+updated: 2026-10-08
 tags: [enzyme]
 aliases: [Heme oxygenase 1, Heme oxygenase-1, HMOX1, Hsp32]
 ---

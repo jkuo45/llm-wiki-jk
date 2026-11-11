@@ -3,7 +3,7 @@ title: Bcl-2
 description: 定位於粒線體外膜並抑制細胞色素 c 釋放的抗凋亡蛋白。
 protected: true
 created: 2026-07-04
-updated: 2026-10-21
+updated: 2026-09-02
 tags:
   - protein
   - apoptosis

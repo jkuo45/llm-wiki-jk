@@ -3,7 +3,7 @@ title: Serum Amyloid A
 description: 由 IL-6 與 IL-1 誘導、肝臟來源的急性期載脂蛋白（SAA1/SAA2），促進膽固醇運送，長期升高則形成類澱粉纖維導致 AA 類澱粉沉積症。
 protected: false
 created: 2026-10-22
-updated: 2026-11-01
+updated: 2026-10-22
 tags: [protein, acute-phase-reactant, inflammation]
 url: #
 source: #

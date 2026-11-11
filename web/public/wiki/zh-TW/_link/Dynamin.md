@@ -3,7 +3,7 @@ title: Dynamin
 description: 大型膜重塑 GTPase，聚合成環狀套筒環繞膜頸，透過水解 GTP 驅動網格蛋白媒介的胞吞作用與突觸囊泡剪切。
 protected: false
 created: 2026-10-22
-updated: 2026-11-01
+updated: 2026-10-22
 tags: [protein, gtpase, membrane-fission]
 url: #
 source: #

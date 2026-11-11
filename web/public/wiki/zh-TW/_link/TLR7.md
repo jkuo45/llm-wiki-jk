@@ -3,7 +3,7 @@ title: TLR7
 description: 內體 Toll-like receptor 7，在內溶酶體區室偵測單股 RNA，驅動漿細胞樣樹突細胞與 B 細胞中的第一型干擾素及 NF-kappaB 發炎訊號。
 protected: false
 created: 2026-10-22
-updated: 2026-11-04
+updated: 2026-10-22
 tags: [receptor, innate-immunity, toll-like-receptor, interferon]
 url: #
 source: #

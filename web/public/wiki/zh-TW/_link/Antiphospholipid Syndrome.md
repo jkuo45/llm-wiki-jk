@@ -3,7 +3,7 @@ title: Antiphospholipid Syndrome（抗磷脂症候群）
 description: 由抗磷脂抗體加上動脈／靜脈血栓或妊娠罹病所定義的自體免疫性血栓形成傾向；APS 患者的自體抗體在健康紅血球中誘導 eryptosis，提供通往促血栓性紅血球表型的途徑。
 protected: false
 created: 2026-10-08
-updated: 2026-11-09
+updated: 2026-10-08
 tags: [disease, autoimmune, thrombosis, autoimmune-hemolytic-anemia]
 url: #
 source: #

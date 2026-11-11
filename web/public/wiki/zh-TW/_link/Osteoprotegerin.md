@@ -3,7 +3,7 @@ title: Osteoprotegerin（骨保護素）
 description: OPG（TNFRSF11B）——RANKL 的可溶性誘餌受體，能抑制破骨細胞生成與骨質再吸收，並參與骨質疏鬆症、血管鈣化與腫瘤—骨交互作用。
 protected: false
 created: 2026-10-22
-updated: 2026-11-09
+updated: 2026-10-22
 tags: [protein, bone, receptor]
 url: #
 source: #

@@ -30,15 +30,15 @@
 >
 > **Combined Merge**
 >
-> The combined dataset is the union of the triples and wiki graphs, deduplicated by canonical id (`norm(label)`). 3,187 entities appear in both sources (4,577 triples + 3,553 wiki − 3,187 shared → 4,943); edges are unioned by (`from`, `to`) pair — 7,108 edge pairs are shared, and an edge present in both graphs is emitted once with both sources recorded.
+> The combined dataset is the union of the triples and wiki graphs, deduplicated by canonical id (`norm(label)`). Overlap stats unavailable (missing source files).
 
 | Dataset | `web/public/data/` files | Nodes | Edges |
 | :--- | :--- | ---: | ---: |
-| **Combined** *(default)* | `nodes.json, edges.json, edge-context.json, legend.json, graph-meta.json, node_roles.json, roles-meta.json` | 4,943 | 50,628 |
-| **Triples** | `triples-*.json` | 4,577 | 12,116 |
-| **Wiki** | `wiki-*.json` | 3,553 | 46,474 |
+| **Combined** *(default)* | `nodes.json, edges.json, edge-context.json, legend.json, graph-meta.json, node_roles.json, roles-meta.json` | 4,943 | 3 |
+| **Triples** | `triples-*.json` | 4,577 | 3 |
+| **Wiki** | `wiki-*.json` | 3,553 | 3 |
 
-Build: 05_NOV_2026 · hash `b15ba0951b3d5362`
+Build: 11_NOV_2026 · hash `b2a17c3b971e574d`
 <!-- END GENERATED: graph_datasets -->
 
 ## 📝 Updates

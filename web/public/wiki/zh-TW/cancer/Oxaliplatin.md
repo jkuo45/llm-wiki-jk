@@ -3,7 +3,7 @@ title: Oxaliplatin
 description: Oxaliplatin 是第三代鉑類（1R,2R-環己烷-1,2-二胺）複合物，會形成龐大的鏈內與鏈間 DNA 交聯，是大腸直腸癌化療的骨幹，其特徵性毒性為累積性周邊神經病變。
 protected: false
 created: 2026-10-22
-updated: 2026-11-09
+updated: 2026-10-22
 tags: [drug, anticancer, chemotherapy]
 url: #
 source: #

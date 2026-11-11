@@ -3,7 +3,7 @@ title: Decoy Receptor
 description: 可溶性或膜性誘餌受體能結合死亡配體但缺乏功能性死亡結構域，使正常細胞免於凋亡——包括 TRAIL 的 DcR1/DcR2 與 RANKL 的骨保護素。
 protected: false
 created: 2026-10-22
-updated: 2026-11-01
+updated: 2026-10-22
 tags: [receptor, cell-death, apoptosis]
 url: #
 source: #

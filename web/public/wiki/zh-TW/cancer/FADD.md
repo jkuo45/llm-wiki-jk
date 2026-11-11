@@ -3,7 +3,7 @@ title: FADD
 description: FADD（Fas-associated via death domain）是關鍵的銜接蛋白，在凋亡的外在途徑中將死亡受體連結至起始型 caspase。
 protected: false
 created: 2026-07-06
-updated: 2026-11-01
+updated: 2026-10-23
 tags: [protein]
 url: #
 source: #

@@ -3,7 +3,7 @@ title: GTPase
 description: 鳥嘌呤核苷酸結合蛋白超類，藉由 GTP 結合與 GDP 結合狀態間的循環，把受體或機械輸入轉為細胞輸出，涵蓋 Ras、Rho、Rab、Arf 與 dynamin 家族。
 protected: false
 created: 2026-10-22
-updated: 2026-11-01
+updated: 2026-10-22
 tags: [protein, gtpase, signaling]
 url: #
 source: #

@@ -3,7 +3,7 @@ title: cGMP-Dependent Protein Kinase I
 description: cGMP 依賴性蛋白激酶 I 型（cGKI、PRKG1）是紅血球中主要的 cGMP 效應器；其缺失會提高細胞質 Ca2+、瓦解磷脂醯絲胺酸不對稱並驅動 eryptosis，使基因剔除小鼠出現貧血與脾腫大。
 protected: false
 created: 2026-10-23
-updated: 2026-11-01
+updated: 2026-10-23
 tags: [enzyme, kinase, signal-transduction, nitric-oxide-pathway]
 url: #
 source: #

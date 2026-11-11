@@ -3,7 +3,7 @@ title: Erythropoiesis（紅血球生成）
 description: 骨髓從造血幹細胞經過紅血球前驅細胞與網狀紅血球製造紅血球，最終脫核並清除胞器——此過程的終端步驟決定成熟紅血球保留哪些細胞死亡機器。
 protected: false
 created: 2026-10-08
-updated: 2026-11-09
+updated: 2026-10-08
 tags: [process, hematopoiesis, erythrocyte, cell-differentiation]
 url: #
 source: #

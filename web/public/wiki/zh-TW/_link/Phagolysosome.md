@@ -3,7 +3,7 @@ title: Phagolysosome
 description: 吞噬體與溶體融合形成的酸性雜交胞器，以 NADPH 氧化酶產生的 ROS 與溶體組織蛋白酶殺死吞噬的微生物，並處理抗原供 MHC 第二類呈現。
 protected: false
 created: 2026-10-22
-updated: 2026-11-01
+updated: 2026-10-22
 tags: [structure, lysosome, antigen-presentation]
 url: #
 source: #

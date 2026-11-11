@@ -3,7 +3,7 @@ title: Sphingomyelin
 description: 由神經醯胺合成的磷酸鞘脂；膜的結構成分，也是經鞘磷脂酶產生神經醯胺的儲備池。
 protected: false
 created: 2026-07-24
-updated: 2026-11-01
+updated: 2026-10-23
 tags: [lipid, sphingolipid-metabolism]
 url: #
 source: #

@@ -3,7 +3,7 @@ title: Temozolomide
 description: 替莫唑胺（TMZ）是口服可用的咪唑并四氮烯類烷化前驅藥，會生成 MTIC 與 O6-甲基鳥嘌呤 DNA 加合物，是膠質母細胞瘤合併放射治療的標準化學治療骨幹。
 protected: false
 created: 2026-10-22
-updated: 2026-11-01
+updated: 2026-10-22
 tags: [drug, anticancer, chemotherapy]
 url: #
 source: #

@@ -3,7 +3,7 @@ title: p38 MAPK
 description: p38 促分裂原活化蛋白激酶（p38 MAPK）是一種訊號分子，依細胞情境在 S211（抑制性）或 S401（活化性）位點磷酸化 TFEB 以調控其功能。
 protected: false
 created: 2024-01-01
-updated: 2026-11-01
+updated: 2026-10-23
 tags: [protein]
 url: #
 source: #

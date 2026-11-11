@@ -3,7 +3,7 @@ title: Piezo1
 description: 機械敏感性非選擇性陽離子通道；在紅血球中將機械壓力轉換為 Ca2+ 內流，將剪應力／拉伸（包括細胞外累積的奈米材料）連結到 eryptosis。
 protected: false
 created: 2026-10-08
-updated: 2026-11-09
+updated: 2026-10-08
 tags: [protein, ion-channel, mechanosensation, erythrocyte]
 url: #
 source: #

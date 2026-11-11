@@ -3,7 +3,7 @@ title: Reactive Nitrogen Species（活性氮物種）
 description: 活性氮物種（RNS）是由一氧化氮（•NO）與超氧化物（O2•−）衍生、經誘導型一氧化氮合成酶與 NADPH 氧化酶酵素活性產生的一族抗菌分子。
 protected: true
 created: 2026-05-09
-updated: 2026-11-01
+updated: 2026-10-23
 tags: [oxidative-stress, nitric-oxide, nitrative-stress, chemical-class]
 url: #
 source: #

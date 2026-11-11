@@ -3,7 +3,7 @@ title: Phosphatidylserine
 description: 磷脂醯絲胺酸是陰離子性胺基磷脂，在健康細胞中侷限於質膜內葉；其外露於外葉是驅動胞葬作用的通用「eat-me」訊號，同時也是膜彎曲與 Ca2+ 依賴性凝血複合體組裝所必需的負電荷。
 protected: false
 created: 2026-09-29
-updated: 2026-11-01
+updated: 2026-10-23
 tags: [lipid, cell-membrane, apoptosis]
 url: #
 source: #

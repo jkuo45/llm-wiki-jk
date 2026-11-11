@@ -3,7 +3,7 @@ title: M-CSF
 description: 巨噬細胞群落刺激因子（CSF-1），結合 CSF1R 驅動單核球與巨噬細胞分化、微膠細胞維持及腫瘤相關巨噬細胞極化。
 protected: false
 created: 2026-10-22
-updated: 2026-11-01
+updated: 2026-10-22
 tags: [cytokine, growth-factor, macrophage]
 url: #
 source: #

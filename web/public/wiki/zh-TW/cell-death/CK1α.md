@@ -3,7 +3,7 @@ title: CK1α
 description: 酪蛋白激酶 1α（CK1α、CSNK1A1）是紅血球表現的 CK1 異構型，藉由提高細胞質 Ca2+ 而具促 eryptosis 作用；活化會增強 PS 外露，抑制則減弱壓力誘發的 eryptosis。
 protected: false
 created: 2026-10-23
-updated: 2026-11-01
+updated: 2026-10-23
 tags: [enzyme, kinase, cell-death]
 url: #
 source: #

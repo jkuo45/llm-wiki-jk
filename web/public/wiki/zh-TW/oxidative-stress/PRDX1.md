@@ -3,7 +3,7 @@ title: PRDX1
 description: PRDX1（peroxiredoxin-1）是硫氧還蛋白依賴性過氧化物酶，具催化性半胱胺酸，作為快速 H2O2 清除劑、氧化還原感受器與 holdase 伴侶蛋白，並藉限制脂質氫過氧化物累積而抑制鐵凋亡。
 protected: false
 created: 2026-10-22
-updated: 2026-11-04
+updated: 2026-10-22
 tags: [protein, enzyme, oxidative-stress]
 url: #
 source: #

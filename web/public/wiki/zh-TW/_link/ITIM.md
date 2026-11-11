@@ -3,7 +3,7 @@ title: ITIM
 description: 免疫受體酪胺酸基礎抑制基序（ITIM）——一種細胞質共有序列（S/I/V/LxYxxI/V/L），一旦磷酸化，會招募 SHP-1/SHP-2 磷酸酶以在免疫受體中傳遞抑制性訊號。
 protected: false
 created: 2026-11-08
-updated: 2026-11-09
+updated: 2026-11-08
 tags: [motif, immunology, receptor]
 aliases: [Immunoreceptor tyrosine-based inhibitory motif]
 ---

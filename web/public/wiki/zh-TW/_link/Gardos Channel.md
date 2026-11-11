@@ -3,7 +3,7 @@ title: Gardos Channel（Gardos 通道）
 description: KCa3.1（KCNN4），紅血球的 Ca2+ 活化 K+ 通道，其開啟驅動 K+ 外流、過極化、Cl− 與水分流失，以及 eryptosis 的細胞皺縮；受 charybdotoxin 與 clotrimazole 阻斷。
 protected: false
 created: 2026-10-08
-updated: 2026-11-09
+updated: 2026-10-08
 tags: [protein, ion-channel, calcium-signaling, erythrocyte]
 url: #
 source: #

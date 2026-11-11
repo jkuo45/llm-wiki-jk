@@ -3,7 +3,7 @@ title: Haptoglobin
 description: 血漿醣蛋白，以高度親和力結合溶血釋出的游離血紅蛋白，形成 haptoglobin-血紅蛋白複體並經由 CD91 受體清除；是血管內溶血的第一線清道夫。
 protected: false
 created: 2026-10-08
-updated: 2026-11-09
+updated: 2026-10-08
 tags: [protein, hemolysis, plasma-protein, innate-immunity]
 url: #
 source: #

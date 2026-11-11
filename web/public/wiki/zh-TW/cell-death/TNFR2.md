@@ -3,7 +3,7 @@ title: TNFR2
 description: TNFRSF1B（CD120b）——腫瘤壞死因子受體 2，為不帶死亡結構域的 TNFR1 旁系同源蛋白，經 TRAF2/PI3K-Akt 與 NF-κB 傳訊，並透過可溶性外域脫落調節 TNF 生物可用性；成熟紅血球不表現此受體。
 protected: false
 created: 2026-10-21
-updated: 2026-11-01
+updated: 2026-10-21
 tags: [receptor, cell-death, inflammation]
 url: #
 source: #

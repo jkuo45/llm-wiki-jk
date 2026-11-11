@@ -3,7 +3,7 @@ title: SREBP
 description: 固醇調節元素結合蛋白——SREBP1/SREBP2 家族，錨定於內質網的 basic helix-loop-helix 轉錄因子，其蛋白水解除裂過程控制膽固醇合成（SREBP-2）與脂肪酸／脂質生成（SREBP-1c）。
 protected: false
 created: 2026-10-22
-updated: 2026-11-04
+updated: 2026-10-22
 tags: [transcription-factor, lipid, metabolism]
 url: #
 source: #

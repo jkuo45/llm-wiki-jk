@@ -3,7 +3,7 @@ title: c-Rel
 description: NF-kappaB 家族轉錄因子，形成 p50/c-Rel 與 p52/RelB 二聚體，在發炎、存活與免疫耐受訊號傳遞中扮演不同角色，並在淋巴瘤中具致癌性。
 protected: false
 created: 2026-10-22
-updated: 2026-11-04
+updated: 2026-10-22
 tags: [protein, transcription-factor, nf-kappa-b]
 url: #
 source: #

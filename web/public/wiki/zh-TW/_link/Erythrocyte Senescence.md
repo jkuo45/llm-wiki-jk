@@ -3,7 +3,7 @@ title: Erythrocyte Senescence（紅血球衰老）
 description: 成熟紅血球約 120 天的老化程式——表面積／體積喪失、密度上升、變形性降低、陽離子喪失、去唾液酸化、氧化損傷、hemichrome、CD47 減少、AE1 新抗原——由巨噬細胞／NOAb 免疫在數天內清除，與數分鐘內完成的 eryptosis 不同。
 protected: false
 created: 2026-10-08
-updated: 2026-11-09
+updated: 2026-10-08
 tags: [process, erythrocyte, aging, cellular-senescence]
 url: #
 source: #

@@ -3,7 +3,7 @@ title: Semicarbazide-Sensitive Amine Oxidase
 description: 銅依賴的血管胺氧化酶 SSAO（VAP-1），位於內皮與發炎細胞表面，將一級胺氧化為醛並產生過氧化氫，把膠原交聯與糖尿病血管病變及發炎連結起來。
 protected: false
 created: 2026-10-22
-updated: 2026-11-01
+updated: 2026-10-22
 tags: [enzyme, inflammation, vascular]
 url: #
 source: #

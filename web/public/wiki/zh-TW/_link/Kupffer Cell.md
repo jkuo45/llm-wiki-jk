@@ -3,7 +3,7 @@ title: Kupffer Cell
 description: 肝血竇的肝臟巨噬細胞；清除 PS 外露（eryptotic 與衰老）紅血球與 RBC 衍生囊泡的主要吞噬細胞，形成 erythrophagolysosome 並驅動肝臟鐵回收。
 protected: false
 created: 2026-10-08
-updated: 2026-11-09
+updated: 2026-10-08
 tags: [cell-type, innate-immunity, macrophage, liver]
 url: #
 source: #

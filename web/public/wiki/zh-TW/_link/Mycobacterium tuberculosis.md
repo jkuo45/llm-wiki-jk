@@ -3,7 +3,7 @@ title: Mycobacterium tuberculosis
 description: 引起結核病的抗酸性、富含脂質分枝桿菌，藉阻斷吞噬體—溶體融合在巨噬細胞記憶存活，並導致乾酪性肉芽腫、潛伏感染與抗藥性疾病。
 protected: false
 created: 2026-10-22
-updated: 2026-11-01
+updated: 2026-10-22
 tags: [bacteria, pathogen, infectious-disease]
 url: #
 source: #

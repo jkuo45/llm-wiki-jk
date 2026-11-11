@@ -3,7 +3,7 @@ title: TRPC6
 description: 可通透 Ca2+ 的瞬時受體電位通道 6；在人類紅血球中介導 Ca2+ 內流（小鼠由 TRPC4/5 擔任該角色），是過載可觸發 eryptosis 的進入途徑之一。
 protected: false
 created: 2026-10-08
-updated: 2026-11-09
+updated: 2026-10-08
 tags: [protein, ion-channel, calcium-signaling, erythrocyte]
 url: #
 source: #

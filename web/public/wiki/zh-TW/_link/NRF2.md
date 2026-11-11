@@ -2,7 +2,7 @@
 title: Nrf2
 description: 轉錄因子（NF-E2-related factor 2），藉由結合 ARE/EpRE 元件來統籌抗氧化與解毒反應。
 created: 2026-07-09
-updated: 2026-10-21
+updated: 2026-07-29
 tags:
   - protein
   - redox

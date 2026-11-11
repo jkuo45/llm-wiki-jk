@@ -3,7 +3,7 @@ title: Efferocytosis
 description: 依賴 PS 的凋亡細胞吞噬清除；在紅血球中，它在數分鐘內移除 eryptotic RBC，將巨噬細胞重新編排為抗發炎／抗氧化（HO-1）表型，藉此抑制溶血驅動的 DAMP 發炎。
 protected: false
 created: 2026-10-08
-updated: 2026-11-09
+updated: 2026-11-08
 tags: [process, innate-immunity, macrophage, cell-death]
 url: #
 source: #

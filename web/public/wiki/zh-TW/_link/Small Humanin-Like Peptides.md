@@ -3,7 +3,7 @@ title: Small Humanin-Like Peptides（小型 Humanin 樣胜肽）
 description: SHLPs——源自粒線體 MTRNR2L（Humanin）開放讀碼框的一族短胜肽，被推斷在老化與代謝中具有粒線體與內分泌訊號角色。
 protected: false
 created: 2026-10-22
-updated: 2026-11-09
+updated: 2026-10-22
 tags: [peptide, mitochondria, aging]
 url: #
 source: #

@@ -3,7 +3,7 @@ title: Cystic Fibrosis
 description: 自體隱性疾病，因 CFTR 通道功能失常造成濃稠氣道黏液、慢性 Pseudomonas 感染、胰臟功能不足與進行性支氣管擴張，現可用 CFTR 調節劑治療。
 protected: false
 created: 2026-10-22
-updated: 2026-11-04
+updated: 2026-10-22
 tags: [disease, genetic-disease, pulmonology]
 url: #
 source: #

@@ -3,7 +3,7 @@ title: Skp2
 description: SCF 泛素連接酶的 F-box 次單元，可結合被磷酸化的 CDK 抑制物 p27 與 p21、抑制 FoxO 轉錄因子與 p53，藉以促進細胞週期進程並繞過細胞老化。
 protected: false
 created: 2026-10-22
-updated: 2026-11-04
+updated: 2026-10-22
 tags: [protein, ubiquitin-ligase, oncology]
 url: #
 source: #

@@ -3,7 +3,7 @@ title: Prophase I
 description: 減數分裂前期 I 是減數分裂漫長的第一階段，包含細線期、合線期、粗線期、雙線期與終變期，同源染色體於此配對、聯會、重組並接受基因體監控。
 protected: false
 created: 2026-10-22
-updated: 2026-11-01
+updated: 2026-10-22
 tags: [process, meiosis, cell-division]
 url: #
 source: #

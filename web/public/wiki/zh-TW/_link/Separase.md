@@ -3,7 +3,7 @@ title: Separase
 description: 在後期（anaphase）開始時切割黏連蛋白、釋放姊妹染色單體使各自移向子細胞的半胱胺酸蛋白酶；其活性由 APC/C 依賴的 securin 降解所把關。
 protected: false
 created: 2026-10-22
-updated: 2026-11-01
+updated: 2026-10-22
 tags: [enzyme, cell-cycle, mitosis]
 url: #
 source: #

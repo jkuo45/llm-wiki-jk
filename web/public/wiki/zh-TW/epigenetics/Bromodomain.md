@@ -3,7 +3,7 @@ title: Bromodomain
 description: Bromodomains 是約 110 個殘基的乙醯離胺酸讀取模組，把組蛋白乙醯化轉為轉錄機器的招募，與 BRD2/3/4 等 BET 家族蛋白共同構成書寫—讀取—擦除系統的讀取層。
 protected: false
 created: 2026-10-22
-updated: 2026-11-04
+updated: 2026-10-22
 tags: [epigenetics, protein, domain]
 url: #
 source: #

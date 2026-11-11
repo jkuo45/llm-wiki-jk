@@ -3,7 +3,7 @@ title: Fas
 description: Fas（CD95／APO-1／FasR／TNFRSF6）是 TNF 超家族死亡受體，與 FADD 及 Caspase-8 組裝 DISC 以啟動外在凋亡；當 Caspase-8 被阻斷時，訊號轉向 RIPK1/RIPK3/MLKL 壞死性凋亡。
 protected: false
 created: 2026-10-22
-updated: 2026-11-01
+updated: 2026-10-22
 tags: [receptor, apoptosis, cell-death, immunology]
 url: #
 source: #

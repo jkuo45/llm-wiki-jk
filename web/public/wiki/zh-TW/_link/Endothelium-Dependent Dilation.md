@@ -3,7 +3,7 @@ title: Endothelium-Dependent Dilation
 description: 由內皮 NO、前列環素與 EDHF 介導的血流介導血管擴張——內皮功能的標準檢測，也是血管老化與心血管風險最早可測得的徵象之一。
 protected: false
 created: 2026-10-22
-updated: 2026-11-04
+updated: 2026-10-22
 tags: [process, vascular, physiology]
 url: #
 source: #

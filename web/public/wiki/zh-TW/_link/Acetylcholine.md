@@ -3,7 +3,7 @@ title: Acetylcholine
 description: 作用於毒蕈鹼型 M1-M5 與菸鹼型乙醯膽鹼受體的神經傳訊物質與旁分泌訊號分子，在膽鹼能抗發炎反射、迷走神經張力與代謝調控中居於核心地位。
 protected: false
 created: 2026-10-22
-updated: 2026-11-04
+updated: 2026-10-22
 tags: [neurotransmitter, signaling, neurology]
 url: #
 source: #

@@ -3,7 +3,7 @@ title: Sphingomyelinase
 description: 鞘磷脂酶是水解鞘磷脂以產生神經醯胺的酵素家族；酸性型作用於溶酶體與分泌囊泡，中性型（SMPD2/3）在 pH 7 作用於高基氏體、內質網與粒線體，兩者皆供應神經醯胺依賴的死亡訊號。
 protected: false
 created: 2026-10-23
-updated: 2026-11-01
+updated: 2026-10-23
 tags: [enzyme, lipid, sphingolipid-metabolism]
 url: #
 source: #

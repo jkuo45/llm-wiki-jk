@@ -3,7 +3,7 @@ title: Malaria（瘧疾）
 description: 瘧原蟲感染紅血球；氧化壓力開啟陽離子通道，eryptosis 清除受感染細胞與寄生蟲，降低 eryptosis 的紅血球性狀（G6PD 缺乏、鐮刀型細胞性狀、地中海型貧血）提供部分保護，而促 eryptosis 的外來物質減緩寄生蟲血症。
 protected: false
 created: 2026-10-08
-updated: 2026-11-09
+updated: 2026-10-08
 tags: [disease, infection, parasitic, erythrocyte]
 url: #
 source: #

@@ -3,7 +3,7 @@ title: HDL3
 description: HDL3 是小型、緻密、盤狀的高密度脂蛋白次分群，經 ABCA1 接受細胞膽固醇，並透過 LCAT 生成膽固醇酯成熟為 HDL2。
 protected: false
 created: 2026-10-22
-updated: 2026-11-01
+updated: 2026-10-22
 tags: [lipoprotein, metabolism, cardiovascular]
 url: #
 source: #

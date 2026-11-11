@@ -2,7 +2,7 @@
 title: B2M
 description: β2-微小球蛋白，MHC 第一類分子的不變輕鏈；一種用於靶向 senolytic 遞送的衰老表面標記，以及 DNAmGrimAge 表觀遺傳時鐘中的血漿蛋白代理。
 created: 2026-07-27
-updated: 2026-11-09
+updated: 2026-11-08
 tags: [protein, cell-surface-marker, senescence-biomarker, mhc-molecule]
 aliases: [beta-2 microglobulin, β2-microglobulin, Beta-2-microglobulin]
 ---

@@ -3,7 +3,7 @@ title: Succinate
 description: TCA 循環中間產物琥珀酸，是 SDH 的受質，在 SDH 受抑制時穩定 HIF-α，並為蛋白質琥珀酸化與髓系細胞發炎代謝物的來源。
 protected: false
 created: 2026-10-22
-updated: 2026-11-01
+updated: 2026-10-22
 tags: [metabolite, signaling, mitochondria]
 url: #
 source: #

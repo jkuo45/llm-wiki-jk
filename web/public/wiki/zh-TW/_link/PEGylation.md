@@ -3,7 +3,7 @@ title: PEGylation
 description: 將聚乙二醇鏈共價結合至蛋白質、胜肽或脂質表面，用以延長循環半衰期、降低免疫原性，並改善治療劑的溶解度與藥物動力學性質。
 protected: false
 created: 2026-10-22
-updated: 2026-11-04
+updated: 2026-10-22
 tags: [process, protein-engineering, drug-delivery]
 url: #
 source: #

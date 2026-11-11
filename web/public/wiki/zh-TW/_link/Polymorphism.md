@@ -3,7 +3,7 @@ title: Polymorphism
 description: 在族群中頻率約 1% 以上的 DNA 序列變異，涵蓋單核苷酸變異、插入缺失與重複長度變異，是 GWAS 與藥物基因體學的基礎。
 protected: false
 created: 2026-10-22
-updated: 2026-11-01
+updated: 2026-10-22
 tags: [genetics, genetic-variation, genomics]
 url: #
 source: #

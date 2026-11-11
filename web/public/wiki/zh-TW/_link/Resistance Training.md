@@ -3,7 +3,7 @@ title: Resistance Training
 description: 負重、高負荷的運動，可增進肌肉力量與質量、提升胰島素敏感性，並活化 mTOR/AMPK、肌肉細胞因子與粒線體生合成——健康老化的核心槓桿。
 protected: false
 created: 2026-10-22
-updated: 2026-11-04
+updated: 2026-10-22
 tags: [process, exercise, aging]
 url: #
 source: #

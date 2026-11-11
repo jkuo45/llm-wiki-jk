@@ -3,7 +3,7 @@ title: uPA/uPAR
 description: 尿激酶型纖溶酶原活化因子與其 GPI 錨定受體 CD87，共同把纖溶酶生成局限於細胞表面，驅動纖溶、基質重塑、遷移與溶小體—轉錄訊息軸。
 protected: false
 created: 2026-10-22
-updated: 2026-11-01
+updated: 2026-10-22
 tags: [protein, protease-receptor, fibrinolysis]
 url: #
 source: #

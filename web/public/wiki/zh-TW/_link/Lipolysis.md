@@ -3,7 +3,7 @@ title: Lipolysis
 description: 脂解（lipolysis）是由 ATGL-HSL-MGL 級聯把儲存的三酸甘油酯水解為游離脂肪酸與甘油的荷爾蒙門控過程，為脂肪組織釋放能量的主要通路。
 protected: false
 created: 2026-10-22
-updated: 2026-11-01
+updated: 2026-10-22
 tags: [process, metabolism, lipid]
 url: #
 source: #

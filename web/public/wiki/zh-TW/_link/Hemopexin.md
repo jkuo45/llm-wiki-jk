@@ -3,7 +3,7 @@ title: Hemopexin
 description: 血漿中結合血基質的醣蛋白，會捕捉血紅素分解釋出的血基質，將其遞送至肝細胞與巨噬細胞上的 CD91 受體，供 HO-1 依賴的回收為膽紅素與鐵；其耗盡是血管內溶血的標記。
 protected: false
 created: 2026-10-08
-updated: 2026-11-09
+updated: 2026-10-08
 tags: [protein, heme, hemolysis, plasma-protein]
 url: #
 source: #

@@ -3,7 +3,7 @@ title: PD-L1
 description: 程式性死亡配體 1（CD274/B7-H1）；一種透過結合 PD-1 抑制 T 細胞功能的跨膜蛋白，是癌症中關鍵的免疫檢查點，也是衰老腫瘤微環境中 SASP 訊號調節的標的。
 protected: false
 created: 2026-07-06
-updated: 2026-11-09
+updated: 2026-11-08
 tags: [protein, immune-checkpoint, cancer, immunology, senescence]
 aliases: [CD274, B7-H1, programmed death-ligand 1, program death ligand 1]
 ---

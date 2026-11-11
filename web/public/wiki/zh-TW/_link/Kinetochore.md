@@ -3,7 +3,7 @@ title: Kinetochore
 description: 組裝於著絲點染色質上的多聚蛋白複合體，負責捕捉紡錘體微管、產生並感知附著張力，並承載守護染色體分配的紡錘體組裝檢查點。
 protected: false
 created: 2026-10-22
-updated: 2026-11-01
+updated: 2026-10-22
 tags: [structure, cell-cycle, mitosis]
 url: #
 source: #

@@ -3,7 +3,7 @@ title: Triglycerides
 description: 三酸甘油酯是膳食與儲存脂質的主體，由乳糜微粒與 VLDL 運送、經脂解動員，血中升高會驅動胰臟炎與代謝疾病。
 protected: false
 created: 2026-10-22
-updated: 2026-11-01
+updated: 2026-10-22
 tags: [lipid, metabolism, lipoprotein]
 url: #
 source: #

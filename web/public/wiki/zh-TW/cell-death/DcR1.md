@@ -3,7 +3,7 @@ title: DcR1
 description: DcR1（TRAIL-R3/TNFRSF10C）是 TNF 超家族誘餌受體，在缺乏功能性死亡結構域的情況下隔離 TRAIL，使正常細胞免於凋亡，並促成腫瘤對 TRAIL 療法的抗性。
 protected: false
 created: 2026-10-22
-updated: 2026-11-09
+updated: 2026-10-22
 tags: [receptor, apoptosis, cell-death, cancer]
 url: #
 source: #

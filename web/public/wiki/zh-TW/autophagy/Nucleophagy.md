@@ -3,7 +3,7 @@ title: Nucleophagy
 description: 針對核成分的選擇性自噬，由 NIX/BNIP3、FUNDC1 等外膜受體把核被膜與核質部分送入自噬體進行溶體降解。
 protected: false
 created: 2026-10-22
-updated: 2026-11-01
+updated: 2026-10-22
 tags: [process, autophagy, selective-autophagy]
 url: #
 source: #

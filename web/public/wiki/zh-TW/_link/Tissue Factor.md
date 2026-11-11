@@ -3,7 +3,7 @@ title: Tissue Factor
 description: Factor III，外在凝血級聯的跨膜啟動者，結合 factor VIIa 觸發凝血酶生成，並在單核球與腫瘤細胞上把凝血與發炎及癌症相連。
 protected: false
 created: 2026-10-22
-updated: 2026-11-04
+updated: 2026-10-22
 tags: [protein, coagulation, signaling]
 url: #
 source: #

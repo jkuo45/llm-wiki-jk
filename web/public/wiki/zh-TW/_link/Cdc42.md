@@ -3,7 +3,7 @@ title: Cdc42
 description: 小型 Rho 家族 GTPase，組織細胞極性、絲狀偽足與膜皺褶，活化 WAVE 與 PAK 效應子，並招募 p67phox 組裝 NADPH 氧化酶。
 protected: false
 created: 2026-10-22
-updated: 2026-11-04
+updated: 2026-10-22
 tags: [protein, gtpase, cell-signaling]
 url: #
 source: #

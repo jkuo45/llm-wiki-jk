@@ -3,7 +3,7 @@ title: Demyelination
 description: 中樞或周邊神經系統髓鞘的喪失或功能障礙，在脫髓鞘疾病中造成傳導變慢、傳導阻斷與續發性軸突變性。
 protected: false
 created: 2026-10-22
-updated: 2026-11-04
+updated: 2026-10-22
 tags: [process, neurobiology, neuroinflammation]
 url: #
 source: #

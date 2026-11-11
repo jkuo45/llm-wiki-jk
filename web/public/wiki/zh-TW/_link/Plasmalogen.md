@@ -3,7 +3,7 @@ title: Plasmalogen
 description: sn-1 位置帶乙烯醚鍵的醚磷脂，可保護膜免受氧化傷害、作為血小板活化因子儲庫，並富集於腦、心臟與粒線體膜。
 protected: false
 created: 2026-10-22
-updated: 2026-11-01
+updated: 2026-10-22
 tags: [lipid, ether-lipid, membrane]
 url: #
 source: #

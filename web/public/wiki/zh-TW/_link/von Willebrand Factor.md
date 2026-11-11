@@ -3,7 +3,7 @@ title: von Willebrand Factor
 description: 多聚體性內皮與血小板黏附蛋白，在高剪應力下結合血小板 GPIb 錨定初期止血，並攜帶穩定第八凝血因子；量或質的變異造成 von Willebrand 氏病。
 protected: false
 created: 2026-10-22
-updated: 2026-11-01
+updated: 2026-10-22
 tags: [protein, adhesion, coagulation]
 url: #
 source: #

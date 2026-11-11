@@ -2,7 +2,7 @@
 title: 神經黑色素
 description: 神經黑色素是存在於腦中特定兒茶酚胺能神經元族群的一種深色色素，最具代表性的是黑質與藍斑核。
 created: 2026-07-04
-updated: 2026-10-21
+updated: 2026-07-04
 tags:
   - biological-molecule
 aliases:

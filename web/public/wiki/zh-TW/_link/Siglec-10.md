@@ -3,7 +3,7 @@ title: Siglec-10
 description: Siglec-10（SIGLEC10）是巨噬細胞與其他白血球上的抑制性 I 型凝集素，辨識唾液酸化——以及經由 CD24 的非唾液酸化——「don't-eat-me」訊號，抑制對存活健康細胞的吞噬作用。
 protected: false
 created: 2026-11-08
-updated: 2026-11-09
+updated: 2026-11-08
 tags: [receptor, immunology, innate-immunity, phagocytosis]
 aliases: [SIGLEC10, Sialic acid-binding Ig-like lectin 10]
 ---

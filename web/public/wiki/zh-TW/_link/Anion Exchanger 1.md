@@ -3,7 +3,7 @@ title: Anion Exchanger 1（陰離子交換蛋白 1）
 description: AE1/Band 3（SLC4A1），紅血球膜最豐富的蛋白質：陰離子交換器、CO2/HCO3− 運輸器、維持雙凹形狀的膜—細胞骨架錨點、衰老抗原表位，以及 eryptosis 期間 calpain/caspase 切割的標的。
 protected: false
 created: 2026-10-08
-updated: 2026-11-09
+updated: 2026-10-08
 tags: [protein, membrane-biology, erythrocyte, ion-transport]
 url: #
 source: #

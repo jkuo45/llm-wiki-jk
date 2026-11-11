@@ -3,7 +3,7 @@ title: DR4
 description: TRAIL-R1（TNFRSF10A、CD261）——主要的 TRAIL 死亡受體，屬含死亡結構域的 TNF 超家族受體，組裝 DISC 以活化 caspase-8；當 caspase-8 被阻斷時，則轉為 RIPK1/RIPK3/MLKL 壞死性凋亡。
 protected: false
 created: 2026-10-21
-updated: 2026-11-01
+updated: 2026-10-21
 tags: [receptor, cell-death, apoptosis, cancer]
 url: #
 source: #

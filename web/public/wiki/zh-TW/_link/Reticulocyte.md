@@ -3,7 +3,7 @@ title: Reticulocyte（網狀紅血球）
 description: 從骨髓釋出的未成熟、已脫核紅血球，仍含有殘餘核糖體與胞器；是粒線體被清除的階段，其循環計數是貧血中紅血球生成輸出的標準讀數。
 protected: false
 created: 2026-10-08
-updated: 2026-11-09
+updated: 2026-10-08
 tags: [cell-type, erythrocyte, hematopoiesis, biomarker]
 url: #
 source: #
