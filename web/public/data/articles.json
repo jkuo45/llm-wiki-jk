@@ -657,12 +657,12 @@
         "langs": {
             "en-US": {
                 "title": "NAD+ Metabolism — Substrate Supply, Enzymatic Consumption, and the CD38–SARM1 Competition",
-                "description": "NAD+ as a shared substrate pool consumed by four enzymatic systems on four timescales — CD38 (chronic, extracellular), SARM1 (acute, axonal), PARP1/2 and the sirtuins themselves — with the biosynthetic routes, the NMN linkage and the CD38-inhibition paradox with its literature resolution, current knowledge-graph metrics for the NAD+ module, the therapeutic landscape by consumption pathway, and sex divergence in NAD+ metabolism.",
+                "description": "NAD+ as a shared substrate pool consumed by four enzymatic systems on four timescales — CD38 (chronic, extracellular), SARM1 (acute, axonal), PARP1/2 and the sirtuins themselves — with the biosynthetic routes, the NMN linkage between CD38 and SARM1, competing hypotheses on CD38 inhibition and SARM1 activation with the reported axotomy findings, recomputed knowledge-graph metrics for the NAD+ module, interventions classified by consumption pathway, and sex-stratified differences in NAD+ metabolism.",
                 "path": "pages/en-US/nad-metabolism-cd38-sarm1.html"
             },
             "zh-TW": {
                 "title": "NAD+ 代謝 — 受質供應、酵素消耗，與 CD38–SARM1 競爭",
-                "description": "NAD+ 作為共享的受質池，被四種酵素系統在四個時間尺度上消耗——CD38（慢性、胞外）、SARM1（急性、軸突）、PARP1/2 與 sirtuin 自身——並涵蓋生合成路徑、NMN 連結與 CD38 抑制的悖論及其文獻裁決、NAD+ 模組在當前知識圖譜上的指標、以消耗路徑組織的治療版圖，以及 NAD+ 代謝的性別分歧。",
+                "description": "NAD+ 作為共享的受質池，被四種酵素系統在四個時間尺度上消耗——CD38（慢性、胞外）、SARM1（急性、軸突）、PARP1/2 與 sirtuin 自身——並涵蓋生合成路徑、CD38 與 SARM1 之間的 NMN 連結、CD38 抑制與 SARM1 活化的競爭假說及已報告的軸切術結果、重新計算的 NAD+ 模組知識圖譜指標、依消耗路徑分類的介入措施，以及 NAD+ 代謝的性別分層差異。",
                 "path": "pages/zh-TW/nad-metabolism-cd38-sarm1.html"
             }
         },
