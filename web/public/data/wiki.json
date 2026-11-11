@@ -1,5 +1,5 @@
 {
-  "generated": "11_NOV_2026 08:20 AM PST",
+  "generated": "11_NOV_2026 08:35 AM PST",
   "wiki": [
     {
       "id": "wiki-index",
@@ -236,6 +236,23 @@
           "filename": "cGAS-STING Pathway.md",
           "path": "wiki/en-US/_link/cGAS-STING%20Pathway.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/cGAS-STING%20Pathway.md"
+        },
+        "zh-TW": {
+          "title": "cGAS-STING Pathway",
+          "description": "cGAS-STING 複合體是偵測細胞質 DNA 並活化發炎性干擾素訊號的先天免疫感受器，在 SASP 活化與年齡相關發炎中扮演關鍵角色。",
+          "created": "2026-07-07",
+          "updated": "2026-11-10",
+          "tags": [
+            "biological-process",
+            "senescence",
+            "innate-immunity",
+            "inflammation",
+            "signaling-pathway",
+            "neuroinflammation",
+            "neurodegeneration"
+          ],
+          "filename": "cGAS-STING Pathway.md",
+          "path": "wiki/zh-TW/_link/cGAS-STING%20Pathway.md"
         }
       },
       "stats": {
@@ -334,6 +351,18 @@
           "filename": "SIRT4.md",
           "path": "wiki/en-US/sirtuins/SIRT4.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/SIRT4.md"
+        },
+        "zh-TW": {
+          "title": "SIRT4",
+          "description": "SIRT4（Sirtuin 4）是分類於系統發生第 II 類的粒線體 sirtuin；該類包含來自細菌、昆蟲、線蟲、黴菌與原生動物的 sirtuins——使 SIRT4 與第 II 類...",
+          "created": "2026-07-02",
+          "updated": "2026-11-10",
+          "tags": [
+            "protein",
+            "nad-plus"
+          ],
+          "filename": "SIRT4.md",
+          "path": "wiki/zh-TW/sirtuins/SIRT4.md"
         }
       },
       "stats": {
@@ -358,6 +387,18 @@
           "filename": "SIRT5.md",
           "path": "wiki/en-US/sirtuins/SIRT5.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/SIRT5.md"
+        },
+        "zh-TW": {
+          "title": "SIRT5",
+          "description": "SIRT5（Sirtuin 5）是粒線體 sirtuin，也是系統發生第 III 類 sirtuins 在哺乳動物中的唯一成員——該類廣泛分布於所有原核生物（細菌與古菌）。這種深...",
+          "created": "2026-07-02",
+          "updated": "2026-11-10",
+          "tags": [
+            "protein",
+            "nad-plus"
+          ],
+          "filename": "SIRT5.md",
+          "path": "wiki/zh-TW/sirtuins/SIRT5.md"
         }
       },
       "stats": {
@@ -382,6 +423,18 @@
           "filename": "SIRT7.md",
           "path": "wiki/en-US/sirtuins/SIRT7.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/SIRT7.md"
+        },
+        "zh-TW": {
+          "title": "SIRT7",
+          "description": "SIRT7（Sirtuin 7）是定位於細胞核/核仁的 sirtuin，分類於系統發生第 IVb 類——與 SIRT6（第 IVa 類）同屬第 IV 類。第 IV 類 sirtuins 不存在於原核生物，但廣泛分布於...",
+          "created": "2026-07-02",
+          "updated": "2026-11-10",
+          "tags": [
+            "protein",
+            "nad-plus"
+          ],
+          "filename": "SIRT7.md",
+          "path": "wiki/zh-TW/sirtuins/SIRT7.md"
         }
       },
       "stats": {
@@ -484,6 +537,22 @@
           "filename": "STING.md",
           "path": "wiki/en-US/_link/STING.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/STING.md"
+        },
+        "zh-TW": {
+          "title": "STING",
+          "description": "干擾素基因刺激因子（Stimulator of interferon genes），是一種透過感知細胞質 DNA 在先天免疫中扮演關鍵角色的訊號傳導蛋白。",
+          "created": "2024-01-01",
+          "updated": "2026-11-10",
+          "tags": [
+            "innate-immunity",
+            "cgas-sting-pathway",
+            "interferon",
+            "dna-sensing",
+            "autoinflammation",
+            "protein"
+          ],
+          "filename": "STING.md",
+          "path": "wiki/zh-TW/_link/STING.md"
         }
       },
       "stats": {
@@ -535,6 +604,18 @@
           "filename": "TNFα.md",
           "path": "wiki/en-US/_link/TNF%CE%B1.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/TNF%CE%B1.md"
+        },
+        "zh-TW": {
+          "title": "TNFα",
+          "description": "腫瘤壞死因子 alpha（TNFα）是一種多效性促發炎細胞激素，主要由活化的巨噬細胞、T 細胞與自然殺手細胞產生。它是發炎反應的主要調控因子...",
+          "created": "2026-07-04",
+          "updated": "2026-11-10",
+          "tags": [
+            "protein",
+            "inflammation"
+          ],
+          "filename": "TNFα.md",
+          "path": "wiki/zh-TW/_link/TNF%CE%B1.md"
         }
       },
       "stats": {
@@ -769,6 +850,19 @@
           "filename": "LXRα.md",
           "path": "wiki/en-US/oxidative-stress/LXR%CE%B1.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/oxidative-stress/LXR%CE%B1.md"
+        },
+        "zh-TW": {
+          "title": "LXRα",
+          "description": "肝 X 受體 alpha（LXRα）是在膽固醇、脂肪酸與葡萄糖恆定調控中扮演核心角色的核受體。它與 PPARγ 等其他受體協同作用，調控對膽固醇外流至關重要的 ABCA1...",
+          "created": "2026-05-09",
+          "updated": "2026-11-10",
+          "tags": [
+            "oxidative-stress",
+            "cholesterol",
+            "nuclear-receptor"
+          ],
+          "filename": "LXRα.md",
+          "path": "wiki/zh-TW/oxidative-stress/LXR%CE%B1.md"
         }
       },
       "stats": {
@@ -795,6 +889,20 @@
           "filename": "Gasdermin D.md",
           "path": "wiki/en-US/cell-death/Gasdermin%20D.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Gasdermin%20D.md"
+        },
+        "zh-TW": {
+          "title": "Gasdermin D",
+          "description": "一種成孔效應蛋白，可被發炎性半胱氨酸蛋白酶切割，以執行焦亡並促進 IL-1 家族細胞激素釋放。",
+          "created": "2026-07-25",
+          "updated": "2026-11-09",
+          "tags": [
+            "protein",
+            "cell-death",
+            "inflammation",
+            "inflammasome"
+          ],
+          "filename": "Gasdermin D.md",
+          "path": "wiki/zh-TW/cell-death/Gasdermin%20D.md"
         }
       },
       "stats": {
@@ -1095,6 +1203,20 @@
           "filename": "NETosis.md",
           "path": "wiki/en-US/_link/NETosis.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/NETosis.md"
+        },
+        "zh-TW": {
+          "title": "NETosis",
+          "description": "受調節之中性白血球死亡，並排出中性白血球胞外陷阱（NETs）——解凝聚染色質，外加組蛋白、彈性蛋白酶與髓過氧化酶——主要經由 PAD4 介導之組蛋白瓜氨酸化達成。",
+          "created": "2026-09-10",
+          "updated": "2026-11-09",
+          "tags": [
+            "cell-death",
+            "neutrophil",
+            "inflammation",
+            "innate-immunity"
+          ],
+          "filename": "NETosis.md",
+          "path": "wiki/zh-TW/_link/NETosis.md"
         }
       },
       "stats": {
@@ -1296,6 +1418,20 @@
           "filename": "PAD4.md",
           "path": "wiki/en-US/_link/PAD4.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/PAD4.md"
+        },
+        "zh-TW": {
+          "title": "PAD4",
+          "description": "胜肽精氨酸去亞氨酶 4——一種鈣依賴之組蛋白瓜氨酸化酵素，驅動 NETosis 中染色質解凝聚，並標記 cit-H3 陽性之發炎性死亡。",
+          "created": "2026-09-10",
+          "updated": "2026-11-09",
+          "tags": [
+            "protein",
+            "enzyme",
+            "inflammation",
+            "neutrophil"
+          ],
+          "filename": "PAD4.md",
+          "path": "wiki/zh-TW/_link/PAD4.md"
         }
       },
       "stats": {
@@ -1381,6 +1517,20 @@
           "filename": "Neutrophil Elastase.md",
           "path": "wiki/en-US/_link/Neutrophil%20Elastase.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Neutrophil%20Elastase.md"
+        },
+        "zh-TW": {
+          "title": "Neutrophil Elastase",
+          "description": "嗜天青顆粒絲胺酸蛋白酶（ELANE），降解染色質包裝並裝飾 NETs——與 MPO 及 cit-H3 一同作為 NETosis 之效應物與標記物。",
+          "created": "2026-09-10",
+          "updated": "2026-11-09",
+          "tags": [
+            "protein",
+            "protease",
+            "neutrophil",
+            "inflammation"
+          ],
+          "filename": "Neutrophil Elastase.md",
+          "path": "wiki/zh-TW/_link/Neutrophil%20Elastase.md"
         }
       },
       "stats": {
@@ -1584,6 +1734,21 @@
           "filename": "Caspase-11.md",
           "path": "wiki/en-US/cell-death/Caspase-11.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Caspase-11.md"
+        },
+        "zh-TW": {
+          "title": "Caspase-11",
+          "description": "非經典發炎小體之小鼠發炎性半胱氨酸蛋白酶；偵測細胞質 LPS、切割 gasdermin D 形成焦亡孔洞，並參與與 SASP 相關之 IL-1α 處理。",
+          "created": "2026-07-07",
+          "updated": "2026-11-09",
+          "tags": [
+            "enzyme",
+            "inflammation",
+            "sasp",
+            "inflammasome",
+            "caspase"
+          ],
+          "filename": "Caspase-11.md",
+          "path": "wiki/zh-TW/cell-death/Caspase-11.md"
         }
       },
       "stats": {
@@ -1744,6 +1909,20 @@
           "filename": "Thrombosis.md",
           "path": "wiki/en-US/_link/Thrombosis.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Thrombosis.md"
+        },
+        "zh-TW": {
+          "title": "Thrombosis",
+          "description": "與維生性 NETosis 及 NET 驅動之免疫血栓形成相關之病理性血管內血塊形成。",
+          "created": "2026-11-09",
+          "updated": "2026-11-09",
+          "tags": [
+            "medical-condition",
+            "cardiovascular",
+            "inflammation",
+            "cell-death"
+          ],
+          "filename": "Thrombosis.md",
+          "path": "wiki/zh-TW/_link/Thrombosis.md"
         }
       },
       "stats": {
@@ -1983,6 +2162,20 @@
           "filename": "Ionomycin.md",
           "path": "wiki/en-US/_link/Ionomycin.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Ionomycin.md"
+        },
+        "zh-TW": {
+          "title": "Ionomycin",
+          "description": "用於誘導嗜中性白血球 PAD4 依賴之維生性 NETosis 之鈣離子載體。",
+          "created": "2026-11-09",
+          "updated": "2026-11-09",
+          "tags": [
+            "tool-compound",
+            "neutrophil",
+            "cell-death",
+            "calcium"
+          ],
+          "filename": "Ionomycin.md",
+          "path": "wiki/zh-TW/_link/Ionomycin.md"
         }
       },
       "stats": {
@@ -2248,6 +2441,20 @@
           "filename": "Suicidal NETosis.md",
           "path": "wiki/en-US/cell-death/Suicidal%20NETosis.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Suicidal%20NETosis.md"
+        },
+        "zh-TW": {
+          "title": "Suicidal NETosis",
+          "description": "裂解性 NETosis 通路，其中 NADPH oxidase 衍生 ROS、MPO 介導之嗜中性白血球彈性蛋白酶釋放，以及 GSDMD 成孔，驅動染色質解凝聚、質膜破裂與嗜中性白血球死亡。",
+          "created": "2026-11-09",
+          "updated": "2026-11-09",
+          "tags": [
+            "cell-death",
+            "neutrophil",
+            "innate-immunity",
+            "inflammation"
+          ],
+          "filename": "Suicidal NETosis.md",
+          "path": "wiki/zh-TW/cell-death/Suicidal%20NETosis.md"
         }
       },
       "stats": {
@@ -2299,6 +2506,20 @@
           "filename": "Neutrophil Extracellular Traps.md",
           "path": "wiki/en-US/cell-death/Neutrophil%20Extracellular%20Traps.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Neutrophil%20Extracellular%20Traps.md"
+        },
+        "zh-TW": {
+          "title": "Neutrophil Extracellular Traps",
+          "description": "解凝聚嗜中性白血球 DNA 之胞外網，外加組蛋白與顆粒抗微生物蛋白，可陷捕微生物並限制病原體散布。",
+          "created": "2026-11-09",
+          "updated": "2026-11-09",
+          "tags": [
+            "cell-death",
+            "neutrophil",
+            "innate-immunity",
+            "inflammation"
+          ],
+          "filename": "Neutrophil Extracellular Traps.md",
+          "path": "wiki/zh-TW/cell-death/Neutrophil%20Extracellular%20Traps.md"
         }
       },
       "stats": {
@@ -2325,6 +2546,20 @@
           "filename": "Noncanonical NETosis.md",
           "path": "wiki/en-US/cell-death/Noncanonical%20NETosis.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Noncanonical%20NETosis.md"
+        },
+        "zh-TW": {
+          "title": "Noncanonical NETosis",
+          "description": "由細胞質革蘭氏陰性細菌 LPS 觸發、經非經典發炎小體感知之裂解性 NETosis 通路，驅動 caspase-4/11 與 GSDMD 依賴之 NET 排出，不依賴 NE、MPO 與 PAD4。",
+          "created": "2026-11-09",
+          "updated": "2026-11-09",
+          "tags": [
+            "cell-death",
+            "neutrophil",
+            "innate-immunity",
+            "inflammation"
+          ],
+          "filename": "Noncanonical NETosis.md",
+          "path": "wiki/zh-TW/cell-death/Noncanonical%20NETosis.md"
         }
       },
       "stats": {
@@ -2351,6 +2586,20 @@
           "filename": "Vital NETosis.md",
           "path": "wiki/en-US/cell-death/Vital%20NETosis.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Vital%20NETosis.md"
+        },
+        "zh-TW": {
+          "title": "Vital NETosis",
+          "description": "一種迅速、依賴 PAD4 與鈣離子的 NETosis 通路，嗜中性白血球透過細胞核出泡（nuclear blebbing）將染色質外排，而不造成質膜通透化；釋放 NET 後仍保持存活與移動能力。",
+          "created": "2026-11-09",
+          "updated": "2026-11-09",
+          "tags": [
+            "cell-death",
+            "neutrophil",
+            "innate-immunity",
+            "inflammation"
+          ],
+          "filename": "Vital NETosis.md",
+          "path": "wiki/zh-TW/cell-death/Vital%20NETosis.md"
         }
       },
       "stats": {
@@ -2637,6 +2886,20 @@
           "filename": "Staphylococcus aureus.md",
           "path": "wiki/en-US/_link/Staphylococcus%20aureus.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Staphylococcus%20aureus.md"
+        },
+        "zh-TW": {
+          "title": "Staphylococcus aureus",
+          "description": "一種革蘭氏陽性菌，可經由 TLR2/TLR4 與 PAD4 誘導 vital NETosis，並編碼可調節 NET 形成的毒力因子。",
+          "created": "2026-11-09",
+          "updated": "2026-11-09",
+          "tags": [
+            "organism",
+            "bacterium",
+            "pathogen",
+            "innate-immunity"
+          ],
+          "filename": "Staphylococcus aureus.md",
+          "path": "wiki/zh-TW/_link/Staphylococcus%20aureus.md"
         }
       },
       "stats": {
@@ -2663,6 +2926,20 @@
           "filename": "Candida albicans.md",
           "path": "wiki/en-US/_link/Candida%20albicans.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Candida%20albicans.md"
+        },
+        "zh-TW": {
+          "title": "Candida albicans",
+          "description": "一種機會性真菌病原體，其絲狀菌絲可經由體積 sensing 與補體受體 3 辨識，觸發嗜中性白血球外排胞外陷阱。",
+          "created": "2026-11-09",
+          "updated": "2026-11-09",
+          "tags": [
+            "organism",
+            "fungus",
+            "pathogen",
+            "innate-immunity"
+          ],
+          "filename": "Candida albicans.md",
+          "path": "wiki/zh-TW/_link/Candida%20albicans.md"
         }
       },
       "stats": {
@@ -2689,6 +2966,20 @@
           "filename": "Azurophil Granule.md",
           "path": "wiki/en-US/_link/Azurophil%20Granule.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Azurophil%20Granule.md"
+        },
+        "zh-TW": {
+          "title": "Azurophil Granule",
+          "description": "嗜中性白血球的初級顆粒，儲存絲氨酸蛋白酶、髓過氧化酶與抗菌胜肽，在吞噬作用、去顆粒化與 NETosis 期間動員。",
+          "created": "2026-11-09",
+          "updated": "2026-11-09",
+          "tags": [
+            "cell-structure",
+            "neutrophil",
+            "innate-immunity",
+            "inflammation"
+          ],
+          "filename": "Azurophil Granule.md",
+          "path": "wiki/zh-TW/_link/Azurophil%20Granule.md"
         }
       },
       "stats": {
@@ -2715,6 +3006,20 @@
           "filename": "GSDMD-p30.md",
           "path": "wiki/en-US/_link/GSDMD-p30.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/GSDMD-p30.md"
+        },
+        "zh-TW": {
+          "title": "GSDMD-p30",
+          "description": "gasdermin D 的 N 端成孔片段，由嗜中性白血球彈性蛋白酶或 caspase-4/11 在 NETosis 與焦亡期間切割產生。",
+          "created": "2026-11-09",
+          "updated": "2026-11-09",
+          "tags": [
+            "protein-fragment",
+            "cell-death",
+            "inflammation",
+            "neutrophil"
+          ],
+          "filename": "GSDMD-p30.md",
+          "path": "wiki/zh-TW/_link/GSDMD-p30.md"
         }
       },
       "stats": {
@@ -2741,6 +3046,20 @@
           "filename": "Azurosome.md",
           "path": "wiki/en-US/_link/Azurosome.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Azurosome.md"
+        },
+        "zh-TW": {
+          "title": "Azurosome",
+          "description": "azurophil granules 中的多蛋白複合物體，在 ROS 驅動解離釋放 elastase 之前，將嗜中性白血球彈性蛋白酶與髓過氧化酶隔離於其中。",
+          "created": "2026-11-09",
+          "updated": "2026-11-09",
+          "tags": [
+            "protein-complex",
+            "neutrophil",
+            "inflammation",
+            "cell-death"
+          ],
+          "filename": "Azurosome.md",
+          "path": "wiki/zh-TW/_link/Azurosome.md"
         }
       },
       "stats": {
@@ -2767,6 +3086,20 @@
           "filename": "GSDMD inhibitor.md",
           "path": "wiki/en-US/_link/GSDMD%20inhibitor.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/GSDMD%20inhibitor.md"
+        },
+        "zh-TW": {
+          "title": "GSDMD inhibitor",
+          "description": "用於阻斷 gasdermin D 成孔的藥理學阻斷劑，用於解析 NETosis，並被提出作為 NET 相關疾病的候選治療藥物。",
+          "created": "2026-11-09",
+          "updated": "2026-11-09",
+          "tags": [
+            "inhibitor",
+            "cell-death",
+            "inflammation",
+            "tool-compound"
+          ],
+          "filename": "GSDMD inhibitor.md",
+          "path": "wiki/zh-TW/_link/GSDMD%20inhibitor.md"
         }
       },
       "stats": {
@@ -2793,6 +3126,20 @@
           "filename": "DNase I.md",
           "path": "wiki/en-US/_link/DNase%20I.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/DNase%20I.md"
+        },
+        "zh-TW": {
+          "title": "DNase I",
+          "description": "可降解嗜中性白血球胞外陷阱之 DNA 支架的核酸內切酶，在實驗中用於拆解 NETs，並由微生物編碼作為逃逸因子。",
+          "created": "2026-11-09",
+          "updated": "2026-11-09",
+          "tags": [
+            "enzyme",
+            "neutrophil",
+            "innate-immunity",
+            "tool-compound"
+          ],
+          "filename": "DNase I.md",
+          "path": "wiki/zh-TW/_link/DNase%20I.md"
         }
       },
       "stats": {
@@ -2819,6 +3166,20 @@
           "filename": "Escherichia coli.md",
           "path": "wiki/en-US/_link/Escherichia%20coli.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Escherichia%20coli.md"
+        },
+        "zh-TW": {
+          "title": "Escherichia coli",
+          "description": "一種革蘭氏陰性菌，可被嗜中性白血球胞外陷阱捕捉並殺死，並為 GSDMD-p30 孔洞及 NET 相關抗菌蛋白的作用標靶。",
+          "created": "2026-11-09",
+          "updated": "2026-11-09",
+          "tags": [
+            "organism",
+            "bacterium",
+            "pathogen",
+            "innate-immunity"
+          ],
+          "filename": "Escherichia coli.md",
+          "path": "wiki/zh-TW/_link/Escherichia%20coli.md"
         }
       },
       "stats": {
@@ -2845,6 +3206,20 @@
           "filename": "Dectin-1.md",
           "path": "wiki/en-US/_link/Dectin-1.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Dectin-1.md"
+        },
+        "zh-TW": {
+          "title": "Dectin-1",
+          "description": "C 型凝集素受體，可辨識真菌 β-glucan，並閘控嗜中性白血球在吞噬作用與 NETosis 之間的體積 sensing 決策。",
+          "created": "2026-11-09",
+          "updated": "2026-11-09",
+          "tags": [
+            "receptor",
+            "innate-immunity",
+            "neutrophil",
+            "inflammation"
+          ],
+          "filename": "Dectin-1.md",
+          "path": "wiki/zh-TW/_link/Dectin-1.md"
         }
       },
       "stats": {
@@ -2871,6 +3246,20 @@
           "filename": "Complement Receptor 3.md",
           "path": "wiki/en-US/_link/Complement%20Receptor%203.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Complement%20Receptor%203.md"
+        },
+        "zh-TW": {
+          "title": "Complement Receptor 3",
+          "description": "可辨識結合於纖維連接蛋白上的真菌 β-葡聚醣，從而觸發 vital NETosis 的 β-2 整合素。",
+          "created": "2026-11-09",
+          "updated": "2026-11-09",
+          "tags": [
+            "receptor",
+            "innate-immunity",
+            "neutrophil",
+            "inflammation"
+          ],
+          "filename": "Complement Receptor 3.md",
+          "path": "wiki/zh-TW/_link/Complement%20Receptor%203.md"
         }
       },
       "stats": {
@@ -2897,6 +3286,20 @@
           "filename": "Autoimmune Vasculitis.md",
           "path": "wiki/en-US/_link/Autoimmune%20Vasculitis.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Autoimmune%20Vasculitis.md"
+        },
+        "zh-TW": {
+          "title": "Autoimmune Vasculitis",
+          "description": "與 vital NETosis 相關的自體免疫性血管壁發炎，並被提議作為 GSDMD 抑制劑治療的 NET 相關疾病標的。",
+          "created": "2026-11-09",
+          "updated": "2026-11-09",
+          "tags": [
+            "medical-condition",
+            "autoimmune",
+            "inflammation",
+            "cell-death"
+          ],
+          "filename": "Autoimmune Vasculitis.md",
+          "path": "wiki/zh-TW/_link/Autoimmune%20Vasculitis.md"
         }
       },
       "stats": {
@@ -2923,6 +3326,20 @@
           "filename": "Aspergillus fumigatus.md",
           "path": "wiki/en-US/_link/Aspergillus%20fumigatus.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Aspergillus%20fumigatus.md"
+        },
+        "zh-TW": {
+          "title": "Aspergillus fumigatus",
+          "description": "已確認可誘導嗜中性白血球胞外誘捕網釋放的有絲狀真菌。",
+          "created": "2026-11-09",
+          "updated": "2026-11-09",
+          "tags": [
+            "organism",
+            "fungus",
+            "pathogen",
+            "innate-immunity"
+          ],
+          "filename": "Aspergillus fumigatus.md",
+          "path": "wiki/zh-TW/_link/Aspergillus%20fumigatus.md"
         }
       },
       "stats": {
@@ -2949,6 +3366,20 @@
           "filename": "Ionophores.md",
           "path": "wiki/en-US/_link/Ionophores.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Ionophores.md"
+        },
+        "zh-TW": {
+          "title": "Ionophores",
+          "description": "用於提高細胞質鈣離子並激活 PAD4，從而觸發 NETosis 的鈣離子載體。",
+          "created": "2026-11-09",
+          "updated": "2026-11-09",
+          "tags": [
+            "tool-compound",
+            "neutrophil",
+            "cell-death",
+            "calcium"
+          ],
+          "filename": "Ionophores.md",
+          "path": "wiki/zh-TW/_link/Ionophores.md"
         }
       },
       "stats": {
@@ -2975,6 +3406,20 @@
           "filename": "Sivelestat.md",
           "path": "wiki/en-US/_link/Sivelestat.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Sivelestat.md"
+        },
+        "zh-TW": {
+          "title": "Sivelestat",
+          "description": "用作工具化合物以探討依賴彈性蛋白酶的 NETosis 的選擇性小分子嗜中性白血球彈性蛋白酶抑制劑。",
+          "created": "2026-11-09",
+          "updated": "2026-11-09",
+          "tags": [
+            "inhibitor",
+            "neutrophil",
+            "tool-compound",
+            "inflammation"
+          ],
+          "filename": "Sivelestat.md",
+          "path": "wiki/zh-TW/_link/Sivelestat.md"
         }
       },
       "stats": {
@@ -3001,6 +3446,20 @@
           "filename": "Streptococcus pyogenes.md",
           "path": "wiki/en-US/_link/Streptococcus%20pyogenes.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Streptococcus%20pyogenes.md"
+        },
+        "zh-TW": {
+          "title": "Streptococcus pyogenes",
+          "description": "透過核酸酶、抑制 MPO 釋放及逃避吞噬作用，逃避 NET 依賴性宿主防禦的 A 群鏈球菌。",
+          "created": "2026-11-09",
+          "updated": "2026-11-09",
+          "tags": [
+            "organism",
+            "bacterium",
+            "pathogen",
+            "innate-immunity"
+          ],
+          "filename": "Streptococcus pyogenes.md",
+          "path": "wiki/zh-TW/_link/Streptococcus%20pyogenes.md"
         }
       },
       "stats": {
@@ -3027,6 +3486,20 @@
           "filename": "Citrobacter rodentium.md",
           "path": "wiki/en-US/_link/Citrobacter%20rodentium.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Citrobacter%20rodentium.md"
+        },
+        "zh-TW": {
+          "title": "Citrobacter rodentium",
+          "description": "可進入嗜中性白血球細胞質，並透過非典型發炎小體觸發非典型 NETosis 的革蘭氏陰性細菌。",
+          "created": "2026-11-09",
+          "updated": "2026-11-09",
+          "tags": [
+            "organism",
+            "bacterium",
+            "pathogen",
+            "innate-immunity"
+          ],
+          "filename": "Citrobacter rodentium.md",
+          "path": "wiki/zh-TW/_link/Citrobacter%20rodentium.md"
         }
       },
       "stats": {
@@ -3053,6 +3526,20 @@
           "filename": "Calprotectin.md",
           "path": "wiki/en-US/_link/Calprotectin.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Calprotectin.md"
+        },
+        "zh-TW": {
+          "title": "Calprotectin",
+          "description": "S100A8/S100A9 異二聚體，為嗜中性白血球胞外誘捕網的主要抗真菌成分。",
+          "created": "2026-11-09",
+          "updated": "2026-11-09",
+          "tags": [
+            "protein-complex",
+            "neutrophil",
+            "innate-immunity",
+            "antimicrobial"
+          ],
+          "filename": "Calprotectin.md",
+          "path": "wiki/zh-TW/_link/Calprotectin.md"
         }
       },
       "stats": {
@@ -3079,6 +3566,20 @@
           "filename": "Shigella flexneri.md",
           "path": "wiki/en-US/_link/Shigella%20flexneri.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Shigella%20flexneri.md"
+        },
+        "zh-TW": {
+          "title": "Shigella flexneri",
+          "description": "其感染 PAD4 缺失嗜中性白血球可消除組蛋白瓜氨酸化、vital NETosis 與殺菌作用的革蘭氏陰性細菌。",
+          "created": "2026-11-09",
+          "updated": "2026-11-09",
+          "tags": [
+            "organism",
+            "bacterium",
+            "pathogen",
+            "innate-immunity"
+          ],
+          "filename": "Shigella flexneri.md",
+          "path": "wiki/zh-TW/_link/Shigella%20flexneri.md"
         }
       },
       "stats": {
@@ -3105,6 +3606,20 @@
           "filename": "Cathepsin G.md",
           "path": "wiki/en-US/_link/Cathepsin%20G.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Cathepsin%20G.md"
+        },
+        "zh-TW": {
+          "title": "Cathepsin G",
+          "description": "儲存於嗜天青顆粒並攜帶於嗜中性白血球胞外誘捕網上的嗜中性白血球絲氨酸蛋白酶。",
+          "created": "2026-11-09",
+          "updated": "2026-11-09",
+          "tags": [
+            "enzyme",
+            "neutrophil",
+            "protease",
+            "innate-immunity"
+          ],
+          "filename": "Cathepsin G.md",
+          "path": "wiki/zh-TW/_link/Cathepsin%20G.md"
         }
       },
       "stats": {
@@ -3131,6 +3646,20 @@
           "filename": "Pseudomonas aeruginosa.md",
           "path": "wiki/en-US/_link/Pseudomonas%20aeruginosa.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Pseudomonas%20aeruginosa.md"
+        },
+        "zh-TW": {
+          "title": "Pseudomonas aeruginosa",
+          "description": "革蘭氏陰性細菌，其非黏液型與黏液型菌株均可誘導 NETs，誘導刺激決定 NET 蛋白質組成。",
+          "created": "2026-11-09",
+          "updated": "2026-11-09",
+          "tags": [
+            "organism",
+            "bacterium",
+            "pathogen",
+            "innate-immunity"
+          ],
+          "filename": "Pseudomonas aeruginosa.md",
+          "path": "wiki/zh-TW/_link/Pseudomonas%20aeruginosa.md"
         }
       },
       "stats": {
@@ -3157,6 +3686,20 @@
           "filename": "Rac2.md",
           "path": "wiki/en-US/_link/Rac2.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Rac2.md"
+        },
+        "zh-TW": {
+          "title": "Rac2",
+          "description": "造血系統來源的小型 GTP 酶，為中性粒細胞中 NADPH 氧化酶功能及 ROS 依賴性 NET 釋放所必需。",
+          "created": "2026-11-09",
+          "updated": "2026-11-09",
+          "tags": [
+            "protein",
+            "neutrophil",
+            "innate-immunity",
+            "signaling"
+          ],
+          "filename": "Rac2.md",
+          "path": "wiki/zh-TW/_link/Rac2.md"
         }
       },
       "stats": {
@@ -3183,6 +3726,20 @@
           "filename": "Klebsiella pneumoniae.md",
           "path": "wiki/en-US/_link/Klebsiella%20pneumoniae.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Klebsiella%20pneumoniae.md"
+        },
+        "zh-TW": {
+          "title": "Klebsiella pneumoniae",
+          "description": "革蘭氏陰性細菌，用作活體挑戰模型，中性粒細胞彈性蛋白酶缺失可阻止 NET 形成。",
+          "created": "2026-11-09",
+          "updated": "2026-11-09",
+          "tags": [
+            "organism",
+            "bacterium",
+            "pathogen",
+            "innate-immunity"
+          ],
+          "filename": "Klebsiella pneumoniae.md",
+          "path": "wiki/zh-TW/_link/Klebsiella%20pneumoniae.md"
         }
       },
       "stats": {
@@ -3209,6 +3766,20 @@
           "filename": "P-selectin.md",
           "path": "wiki/en-US/_link/P-selectin.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/P-selectin.md"
+        },
+        "zh-TW": {
+          "title": "P-selectin",
+          "description": "血小板與內皮黏附分子，介導 LPS 觸發的 vital NETosis 所需的血小板-中性粒細胞交互作用。",
+          "created": "2026-11-09",
+          "updated": "2026-11-09",
+          "tags": [
+            "protein",
+            "platelet",
+            "inflammation",
+            "innate-immunity"
+          ],
+          "filename": "P-selectin.md",
+          "path": "wiki/zh-TW/_link/P-selectin.md"
         }
       },
       "stats": {
@@ -3235,6 +3806,20 @@
           "filename": "Bordetella pertussis.md",
           "path": "wiki/en-US/_link/Bordetella%20pertussis.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Bordetella%20pertussis.md"
+        },
+        "zh-TW": {
+          "title": "Bordetella pertussis",
+          "description": "革蘭氏陰性細菌，其腺苷酸環化酶毒素抑制中性粒細胞的 ERK 依賴性氧化爆發，從而抑制 NETosis。",
+          "created": "2026-11-09",
+          "updated": "2026-11-09",
+          "tags": [
+            "organism",
+            "bacterium",
+            "pathogen",
+            "innate-immunity"
+          ],
+          "filename": "Bordetella pertussis.md",
+          "path": "wiki/zh-TW/_link/Bordetella%20pertussis.md"
         }
       },
       "stats": {
@@ -3261,6 +3846,20 @@
           "filename": "Proteinase 3.md",
           "path": "wiki/en-US/_link/Proteinase%203.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Proteinase%203.md"
+        },
+        "zh-TW": {
+          "title": "Proteinase 3",
+          "description": "儲存於嗜天青顆粒並存在於中性粒細胞胞外陷阱的中性粒細胞絲胺酸蛋白酶。",
+          "created": "2026-11-09",
+          "updated": "2026-11-09",
+          "tags": [
+            "enzyme",
+            "neutrophil",
+            "protease",
+            "innate-immunity"
+          ],
+          "filename": "Proteinase 3.md",
+          "path": "wiki/zh-TW/_link/Proteinase%203.md"
         }
       },
       "stats": {
@@ -3287,6 +3886,20 @@
           "filename": "Plasmodium falciparum.md",
           "path": "wiki/en-US/_link/Plasmodium%20falciparum.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Plasmodium%20falciparum.md"
+        },
+        "zh-TW": {
+          "title": "Plasmodium falciparum",
+          "description": "瘧疾寄生蟲，據報告可誘導中性粒細胞胞外陷阱釋放。",
+          "created": "2026-11-09",
+          "updated": "2026-11-09",
+          "tags": [
+            "organism",
+            "parasite",
+            "pathogen",
+            "innate-immunity"
+          ],
+          "filename": "Plasmodium falciparum.md",
+          "path": "wiki/zh-TW/_link/Plasmodium%20falciparum.md"
         }
       },
       "stats": {
@@ -3313,6 +3926,20 @@
           "filename": "Toxoplasma gondii.md",
           "path": "wiki/en-US/_link/Toxoplasma%20gondii.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Toxoplasma%20gondii.md"
+        },
+        "zh-TW": {
+          "title": "Toxoplasma gondii",
+          "description": "頂復門寄生蟲，據報告可誘導 NETosis，並被中性粒細胞胞外陷阱捕獲。",
+          "created": "2026-11-09",
+          "updated": "2026-11-09",
+          "tags": [
+            "organism",
+            "parasite",
+            "pathogen",
+            "innate-immunity"
+          ],
+          "filename": "Toxoplasma gondii.md",
+          "path": "wiki/zh-TW/_link/Toxoplasma%20gondii.md"
         }
       },
       "stats": {
@@ -3339,6 +3966,20 @@
           "filename": "Lactotransferrin.md",
           "path": "wiki/en-US/_link/Lactotransferrin.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Lactotransferrin.md"
+        },
+        "zh-TW": {
+          "title": "Lactotransferrin",
+          "description": "中性粒細胞顆粒中的鐵結合醣蛋白，也是中性粒細胞胞外陷阱的組成成分。",
+          "created": "2026-11-09",
+          "updated": "2026-11-09",
+          "tags": [
+            "protein",
+            "neutrophil",
+            "innate-immunity",
+            "antimicrobial"
+          ],
+          "filename": "Lactotransferrin.md",
+          "path": "wiki/zh-TW/_link/Lactotransferrin.md"
         }
       },
       "stats": {
@@ -7147,46 +7788,6 @@
       }
     },
     {
-      "id": "Scramblase",
-      "langs": {
-        "en-US": {
-          "title": "Scramblase",
-          "description": "Calcium-activated phospholipid scramblases (TMEM16F/ANO6, PLSCR family) that externalize phosphatidylserine — the eat-me signal executed in eryptosis and apoptosis.",
-          "created": "2026-09-10",
-          "updated": "2026-10-08",
-          "tags": [
-            "protein",
-            "calcium-signaling",
-            "cell-death",
-            "membrane-biology"
-          ],
-          "filename": "Scramblase.md",
-          "path": "wiki/en-US/_link/Scramblase.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Scramblase.md"
-        },
-        "zh-TW": {
-          "title": "Scramblase",
-          "description": "鈣活化的磷脂 scramblase（TMEM16F/ANO6、PLSCR 家族），將磷脂醯絲胺酸外露——即 eryptosis 與凋亡所執行的「eat-me」訊號。",
-          "created": "2026-09-10",
-          "updated": "2026-10-08",
-          "tags": [
-            "protein",
-            "calcium-signaling",
-            "cell-death",
-            "membrane-biology"
-          ],
-          "filename": "Scramblase.md",
-          "path": "wiki/zh-TW/_link/Scramblase.md"
-        }
-      },
-      "stats": {
-        "words": 387,
-        "images": 0,
-        "links": 23,
-        "diagrams": 0
-      }
-    },
-    {
       "id": "FASN",
       "langs": {
         "en-US": {
@@ -7223,6 +7824,46 @@
         "words": 1271,
         "images": 0,
         "links": 97,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Scramblase",
+      "langs": {
+        "en-US": {
+          "title": "Scramblase",
+          "description": "Calcium-activated phospholipid scramblases (TMEM16F/ANO6, PLSCR family) that externalize phosphatidylserine — the eat-me signal executed in eryptosis and apoptosis.",
+          "created": "2026-09-10",
+          "updated": "2026-10-08",
+          "tags": [
+            "protein",
+            "calcium-signaling",
+            "cell-death",
+            "membrane-biology"
+          ],
+          "filename": "Scramblase.md",
+          "path": "wiki/en-US/_link/Scramblase.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Scramblase.md"
+        },
+        "zh-TW": {
+          "title": "Scramblase",
+          "description": "鈣活化的磷脂 scramblase（TMEM16F/ANO6、PLSCR 家族），將磷脂醯絲胺酸外露——即 eryptosis 與凋亡所執行的「eat-me」訊號。",
+          "created": "2026-09-10",
+          "updated": "2026-10-08",
+          "tags": [
+            "protein",
+            "calcium-signaling",
+            "cell-death",
+            "membrane-biology"
+          ],
+          "filename": "Scramblase.md",
+          "path": "wiki/zh-TW/_link/Scramblase.md"
+        }
+      },
+      "stats": {
+        "words": 387,
+        "images": 0,
+        "links": 23,
         "diagrams": 0
       }
     },
