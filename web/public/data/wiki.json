@@ -1,5 +1,5 @@
 {
-  "generated": "11_NOV_2026 08:38 AM PST",
+  "generated": "11_NOV_2026 08:41 AM PST",
   "wiki": [
     {
       "id": "wiki-index",
@@ -46,7 +46,7 @@
           "title": "SIRT1",
           "description": "Sirt1 是一種 NAD+-依賴性第 III 類組蛋白去乙醯化酶（sirtuin），也是 Sirtuins 家族中被研究最廣泛的成員。它將細胞能量狀態與染色質調節、壓力抗性與代謝恆定聯繫起來，...",
           "created": "2026-07-06",
-          "updated": "2026-09-30",
+          "updated": "2026-11-10",
           "tags": [
             "gene",
             "protein",
@@ -83,9 +83,9 @@
         },
         "zh-TW": {
           "title": "Eryptosis",
-          "description": "無核紅血球類凋亡式的受調控死亡——Ca2+ 內流、calpain／scramblase 活化、磷脂醯絲胺酸外露——最終靜默地被脾臟清除。",
+          "description": "Ca2+ 驅動、磷脂醯絲胺酸外露的成熟無核紅血球受調控死亡——Gardos K+ 外排、scramblase 活化、calpain 膜出芽、對抗紅血球壞死性凋亡的 caspase-8 命運轉換、在溶血之前快速被細胞清除，以及相關的可成藥性。",
           "created": "2026-09-10",
-          "updated": "2026-10-01",
+          "updated": "2026-11-04",
           "tags": [
             "cell-death",
             "erythrocyte",
@@ -122,7 +122,7 @@
           "title": "SIRT3",
           "description": "SIRT3 (Sirtuin 3) 是主要定位於粒線體內的 NAD+-依賴性去乙醯化酶。",
           "created": "2026-07-04",
-          "updated": "2026-09-29",
+          "updated": "2026-11-10",
           "tags": [
             "enzyme",
             "nad-plus"
@@ -162,7 +162,7 @@
           "title": "SIRT6",
           "description": "SIRT6（Sirtuin 6）是位於細胞核、與染色質結合的 sirtuin，在系統發生分類上屬 Class IVa，與其核仁同源蛋白 SIRT7（Class IVb）並列。作為「長壽基因」，SIRT6 是...",
           "created": "2026-07-02",
-          "updated": "2026-09-02",
+          "updated": "2026-11-10",
           "tags": [
             "protein",
             "nad-plus",
@@ -198,10 +198,10 @@
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Inflammaging.md"
         },
         "zh-TW": {
-          "title": "Inflammaging（發炎性老化）",
+          "title": "Inflammaging",
           "description": "發炎性老化是一種隨著年齡增長而形成的慢性、低度、全身性發炎狀態，是許多年齡相關疾病的主要風險因子。",
           "created": "2026-05-29",
-          "updated": "2026-10-21",
+          "updated": "2026-11-10",
           "tags": [
             "biological-process"
           ],
@@ -280,10 +280,10 @@
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/Sirtuins.md"
         },
         "zh-TW": {
-          "title": "Sirtuins（sirtuin 家族）",
-          "description": "Sirtuins（SIRTs）是一類高度保守的菸鹼醯胺腺嘌呤二核苷酸（NAD⁺）依賴性酵素，屬於第 III 類組蛋白去乙醯化酶（HDACs）。遍布所有生命領域，sirtuin 扮演代謝感受器的角色，...",
+          "title": "Sirtuins",
+          "description": "Sirtuins（SIRTs）是一類高度保守的菸鹼醯胺腺嘌呤二核苷酸（NAD⁺）依賴性酵素，屬於第 III 類組蛋白去乙醯化酶（HDACs）。遍布所有生命領域，sirtuin 扮演代謝感受器……",
           "created": "2026-07-04",
-          "updated": "2026-10-21",
+          "updated": "2026-11-10",
           "tags": [
             "protein",
             "epigenetics",
@@ -320,7 +320,7 @@
           "title": "SIRT2",
           "description": "SIRT2（Sirtuin 2）是 NAD+ 依賴型去乙醯化酶 sirtuin 家族的成員，主要定位於細胞質。",
           "created": "2026-07-04",
-          "updated": "2026-09-30",
+          "updated": "2026-11-10",
           "tags": [
             "enzyme",
             "nad-plus"
@@ -1590,10 +1590,10 @@
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Reactive%20Oxygen%20Species.md"
         },
         "zh-TW": {
-          "title": "Reactive Oxygen Species（活性氧）",
+          "title": "Reactive Oxygen Species",
           "description": "活性氧（ROS）是含氧的高反應性分子，為氧代謝的自然副產物。它們兼具訊號傳遞分子與氧化性損傷因子的雙重角色……",
           "created": "2026-05-31",
-          "updated": "2026-10-21",
+          "updated": "2026-10-23",
           "tags": [
             "chemical-compound"
           ],
