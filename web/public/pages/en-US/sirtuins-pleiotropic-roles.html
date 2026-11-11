@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Sirtuins - Pleiotropy in Tumor Cell Metabolism</title>
-<meta name="description" content="The seven mammalian sirtuins as a compartmentalized, context-dependent metabolic rheostat: interactive charts of opposing sirtuin roles in tumor cell metabolism, where the same enzyme can suppress or drive cancer depending on location, stage, and NAD+ availability.">
+<meta name="description" content="The seven mammalian sirtuins as compartmentalized, context-dependent metabolic regulators: interactive charts of opposing sirtuin roles in tumor cell metabolism, where the same enzyme can suppress or drive cancer depending on location, stage, and NAD+ availability.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
 <link rel="stylesheet" href="../themes/theme-01/pages.css">
 <link rel="stylesheet" href="../themes/theme-01/pages-light.css" id="theme-light">
@@ -38,7 +38,7 @@
     <h1>Pleiotropic Roles of SIRTs in Tumor Cell Metabolism &amp; Therapeutic Targeting</h1>
     <p class="lead" style="margin-top:14px;">
       The seven mammalian sirtuins (SIRT1–SIRT7) are NAD<sup>+</sup>-dependent acyltransferases that act as a
-      <b style="color:var(--text)">compartmentalized, context-dependent metabolic rheostat</b>. The same enzyme can be
+      <b style="color:var(--text)">compartmentalized, context-dependent regulatory system</b>. The same enzyme can be
       tumor-suppressive <i>or</i> oncogenic depending on subcellular location, tumor type, stage, and NAD<sup>+</sup> availability.
       This page turns the task-output synthesis into interactive charts of the opposing sirtuin behaviors.
     </p>
@@ -59,20 +59,20 @@
 <!-- OVERVIEW -->
 <section id="overview">
   <div class="wrap">
-    <h2>Why the same enzyme can fight cancer and feed it</h2>
+    <h2>Opposing tumor-suppressive and oncogenic roles of the same enzyme</h2>
     <p class="lead" style="margin-bottom:20px;">Pleiotropy stems from three interacting sources.</p>
     <div class="grid g3">
       <div class="card">
-        <h3>1 · Compartmentalization</h3>
+        <h3>Compartmentalization</h3>
         <p style="color:var(--dim); font-size:.9rem;">
           <b style="color:var(--text)">Nuclear</b> [[SIRT1]]/6/7 control <i>transcription</i> of metabolic programs.<br>
           <b style="color:var(--text)">Cytosolic</b> [[SIRT2]] tunes cytoskeleton &amp; cell cycle.<br>
           <b style="color:var(--text)">Mitochondrial</b> [[SIRT3]]/4/5 set the <i>metabolic setpoint</i> (TCA, glutamine, redox).
-          "SIRT output" is the integration of a mitochondrial setpoint and a nuclear transcriptional gate.
+          "SIRT output" is the integration of a mitochondrial setpoint and nuclear transcriptional control.
         </p>
       </div>
       <div class="card">
-        <h3>2 · Catalytic promiscuity</h3>
+        <h3>Catalytic promiscuity</h3>
         <p style="color:var(--dim); font-size:.9rem;">
           Beyond deacetylation: <code>demalonylation</code>, <code>desuccinylation</code>, <code>deglutarylation</code>, and
           <code>ADP-ribosylation</code>. [[SIRT5]] has almost no classical deacetylase activity (a desuccinylase/demalonylase/deglutarylase),
@@ -80,7 +80,7 @@
         </p>
       </div>
       <div class="card">
-        <h3>3 · Context-dependence</h3>
+        <h3>Context-dependence</h3>
         <p style="color:var(--dim); font-size:.9rem;">
           Same substrate, opposite sign: SIRT1 and SIRT3 both deacetylate <code>[[p53]]</code> yet with pro- vs anti-tumor consequences;
           SIRT7's H3K18 deacetylation both lifts <code>p21</code> (pro-proliferative) and silences EMT genes (anti-metastatic).
@@ -91,7 +91,7 @@
     <div class="grid g3" style="margin-top:16px;">
       <div class="card" style="text-align:center;">
         <div style="font-size:2rem; color:var(--teal); font-weight:700;">7</div>
-        <div style="color:var(--dim); font-size:.85rem;">NAD<sup>+</sup>-coupled isoforms — tumor metabolic state (Complex I, glutaminolysis, NAMPT/CD38) directly gates their output</div>
+        <div style="color:var(--dim); font-size:.85rem;">NAD<sup>+</sup>-coupled isoforms — tumor metabolic state (Complex I, glutaminolysis, NAMPT/CD38) directly controls their output</div>
       </div>
       <div class="card" style="text-align:center;">
         <div style="font-size:2rem; color:var(--purple); font-weight:700;">3</div>
@@ -110,7 +110,7 @@
   <div class="wrap">
     <h2>Opposing SIRTs — the tumor-suppressor ⇄ oncogenic spectrum</h2>
     <p class="lead" style="margin-bottom:18px;">
-      Each bar is a sirtuin's <b style="color:var(--text)">net lean</b> across tumor biology (right = more consistently tumor-suppressive,
+      Each bar is a sirtuin's <b style="color:var(--text)">net direction</b> across tumor biology (right = more consistently tumor-suppressive,
       left = more consistently oncogenic/pro-tumor). The shaded <b style="color:var(--dim)">context window</b> shows how far the same
       isoform can flip sign by tumor type, stage, or dose. Hover a bar for the rationale.
     </p>
@@ -151,7 +151,7 @@
     <h2>Metabolic axes × SIRT matrix</h2>
     <p class="lead" style="margin-bottom:6px;">
       Net effect of each sirtuin on four tumor-metabolic axes. <b style="color:var(--teal)">Teal</b> = tumor-suppressive action on that axis,
-      <b style="color:var(--red)">red</b> = pro-tumor action, <b style="color:var(--amber)">amber</b> = truly bidirectional/dual on that axis.
+      <b style="color:var(--red)">red</b> = pro-tumor action, <b style="color:var(--amber)">amber</b> = bidirectional/dual on that axis.
     </p>
     <p class="sub" style="font-size:.8rem; margin-bottom:16px;">Hover a cell for the mechanism.</p>
     <div class="spectrum-card">
@@ -187,15 +187,15 @@
 <!-- SIRT BY SIRT -->
 <section id="sirts">
   <div class="wrap">
-    <h2>SIRT by SIRT — dual faces</h2>
+    <h2>SIRT by SIRT — dual roles</h2>
     <p class="lead" style="margin-bottom:20px;">
-      Every isoform carries a <b style="color:var(--green)">suppressor face</b> and an <b style="color:var(--red)">oncogenic face</b>.
+      Every isoform has both <b style="color:var(--green)">tumor-suppressive</b> and <b style="color:var(--red)">oncogenic</b> activities.
       The balance depends on dose, stage, and genetic background.
     </p>
     <div class="grid g2" style="gap:18px;">
       <!-- SIRT1 -->
       <div class="sirt-card">
-        <div class="sirt-head"><h3 style="color:var(--amber)">[[SIRT1]]</h3><span class="tagline">the archetypal "double-edged sword"</span>
+        <div class="sirt-head"><h3 style="color:var(--amber)">[[SIRT1]]</h3><span class="tagline">tumor-suppressive or oncogenic depending on context</span>
           <span class="comp">Nucleus<br>+ cytosol</span></div>
         <div class="sirt-body">
           <div class="faces">
@@ -207,7 +207,7 @@
               <li>[[PAK1]] K420 deacetylation → hinders [[Glioblastoma]]</li>
             </ul></div>
             <div class="face red"><h4>Oncogenic / pro-tumor</h4><ul>
-              <li>p53 deacetylation in <b>chronic</b> setting blunts the tumor-suppressor brake</li>
+              <li>p53 deacetylation in <b>chronic</b> setting blunts p53-mediated tumor suppression</li>
               <li>Partners with [[c-Myc]] &amp; [[HIF-1α]]</li>
               <li>EMT/metadherin → chemoresistance in TNBC</li>
               <li>cisplatin resistance (VEGF-A) in NSCLC; tamoxifen resistance (MRP2/FoxO1)</li>
@@ -241,7 +241,7 @@
       </div>
       <!-- SIRT3 -->
       <div class="sirt-card">
-        <div class="sirt-head"><h3 style="color:var(--green)">[[SIRT3]]</h3><span class="tagline">mitochondrial "guardian", double-edged oxidative phenotype</span>
+        <div class="sirt-head"><h3 style="color:var(--green)">[[SIRT3]]</h3><span class="tagline">mitochondrial redox regulator with a dual oxidative phenotype</span>
           <span class="comp">Mitochondria</span></div>
         <div class="sirt-body">
           <div class="faces">
@@ -253,14 +253,14 @@
               <li>Disrupts ERα–p53 interaction in breast</li>
             </ul></div>
             <div class="face red"><h4>Oncogenic (same biology, flipped)</h4><ul>
-              <li>Suppresses ROS so well → <b>radiore/chemoresistance</b> (ATM–Chk2 in NSCLC)</li>
+              <li>Sustained ROS suppression → <b>radio-/chemoresistance</b> (ATM–Chk2 in NSCLC)</li>
               <li>Improves drug resistance in CRC (SOD2/PGC-1α)</li>
               <li>p53 deacetylation (onco-route)</li>
               <li>ACC1 upregulation → lipogenesis → cervical cancer invasion</li>
               <li>Ku70–Bax stabilization → glioma viability</li>
             </ul></div>
           </div>
-          <div class="context"><b>Core tension:</b> low-ROS/intact-OXPHOS "guardian" phenotype prevents <b>cancer initiation</b> but keeps <b>established tumors</b> alive by preventing stress-induced death. Genuinely dual in NAFLD and [[Osteoarthritis]]. Elevated in node-positive [[Breast Cancer]] and OSCC.</div>
+          <div class="context"><b>Central trade-off:</b> the low-ROS/intact-OXPHOS phenotype prevents <b>cancer initiation</b> but supports survival of <b>established tumors</b> by preventing stress-induced death. Genuinely dual in NAFLD and [[Osteoarthritis]]. Elevated in node-positive [[Breast Cancer]] and OSCC.</div>
         </div>
       </div>
       <!-- SIRT4 -->
@@ -270,7 +270,7 @@
         <div class="sirt-body">
           <div class="faces">
             <div class="face green"><h4>Tumor-suppressive (dominant)</h4><ul>
-              <li>[[GDH]] mono-ADP-ribosylation → limits glutamine→α-KG flux → <b>directly attacks glutamine addiction</b></li>
+              <li>[[GDH]] mono-ADP-ribosylation → limits glutamine→α-KG flux → <b>directly restricts glutamine-addicted metabolism</b></li>
               <li>Represses [[mTOR]] via amino-acid-stimulated insulin secretion</li>
               <li>p16/p21 upregulation + CyclinB1/Cdc2/Cdc25c suppression → HCC apoptosis</li>
               <li>Restores E-cadherin in CRC</li>
@@ -280,10 +280,10 @@
               <li>GDH inhibition → reduced amino-acid-stimulated insulin secretion</li>
               <li>Suppresses hepatic fatty-acid oxidation (MTPα) → lipid accumulation</li>
               <li>Only sirtuin with adverse cardiac effects (aggravates Ang II hypertrophy/fibrosis)</li>
-              <li>Metabolically "thrifty" — antitumor but costly</li>
+              <li>Antitumor effect coupled to metabolic costs (lipid accumulation, cardiac aggravation)</li>
             </ul></div>
           </div>
-          <div class="context"><b>Loss is uniformly prognostic for poor survival</b> in HCC, [[Gastric Cancer|gastric]], CRC, bladder, breast cancer. Therapeutic angle: preserve/induce as a glutamine-addiction brake.</div>
+          <div class="context"><b>Loss is uniformly prognostic for poor survival</b> in HCC, [[Gastric Cancer|gastric]], CRC, bladder, breast cancer. Therapeutic direction: preserve/induce SIRT4 as a constraint on glutamine-addicted tumors.</div>
         </div>
       </div>
       <!-- SIRT5 -->
@@ -299,7 +299,7 @@
             </ul></div>
             <div class="face red"><h4>Pro-tumor metabolic reprogramming</h4><ul>
               <li>Overexpressed in HCC, CRC, NSCLC → pushes glutaminolysis + glycolysis</li>
-              <li>LDHB desuccinylation → hyperactive autophagy → nutrient recycling</li>
+              <li>LDHB desuccinylation → hyperactive autophagy → nutrient mobilization</li>
               <li>Deglutarylation-dependent glutaminolysis in CRC</li>
               <li>cisplatin resistance in ovarian cancer via [[Nrf2]]/HO-1</li>
               <li>HCC: promotes growth/metastasis via OXPHOS→glycolysis switch</li>
@@ -324,11 +324,11 @@
             <div class="face red"><h4>Dual exceptions + chemoresistance</h4><ul>
               <li>Lung: snail-dependent [[KLF4]] transrepression → [[EMT]]/metastasis</li>
               <li>HCC: high SIRT6 correlates with chemoresistance</li>
-              <li>Suppresses apoptosis (survivin/HIF-1α) so effectively → chemoresistance in breast/prostate</li>
-              <li>The DDR/austerity program that prevents initiation later keeps established tumors alive in therapy</li>
+              <li>Apoptosis suppression (survivin/HIF-1α) → chemoresistance in breast/prostate</li>
+              <li>The DNA-damage-response program that prevents initiation later supports survival of established tumors during therapy</li>
             </ul></div>
           </div>
-          <div class="context"><b>Bottom line:</b> the most unambiguously anti-cancer sirtuin (anti-Warburg, pro-DDR). Its protective genome-stability program is a double-edged sword during therapy.</div>
+          <div class="context"><b>Summary:</b> the most consistently anti-cancer sirtuin (anti-Warburg, pro-DDR). Its protective genome-stability program is protective at initiation but can support therapy resistance.</div>
         </div>
       </div>
       <!-- SIRT7 -->
@@ -427,9 +427,9 @@
 <!-- THERAPEUTICS -->
 <section id="therapeutics">
   <div class="wrap">
-    <h2>Targeting the rheostat — therapeutic landscape</h2>
+    <h2>Sirtuin-directed therapeutics</h2>
     <p class="lead" style="margin-bottom:6px;">
-      Where the field stands today. Only SIRT1-directed agents have reached human trials; the most advanced clinical lever is
+      Clinical development. Only SIRT1-directed agents have reached human trials; the most clinically advanced approach is
       <b style="color:var(--teal)">indirect NAD<sup>+</sup> boosting</b>. Hover a bubble for details.
     </p>
     <p class="sub" style="font-size:.8rem; margin-bottom:16px;">Bubble area ∝ number of agents at that target × stage.</p>
@@ -480,7 +480,7 @@
           <tr><td>CD38 inhibitor 78c</td><td>Indirect (NAD<sup>+</sup> preservation)</td><td class="mod-ind">Inhibitor</td><td><span class="stage prec">Preclinical</span></td><td>Longevity / aging (male-biased signal)</td></tr>
           <tr><td>AAV-SIRT6</td><td>SIRT6</td><td class="mod-ind">Gene therapy</td><td><span class="stage prec">Preclinical</span></td><td>Progeria, aging-associated defects</td></tr>
           <tr><td>Caloric Restriction / mimetics</td><td>Pan-sirtuin</td><td>Lifestyle / indirect</td><td><span class="stage appr">Established biology</span></td><td>Aging, metabolic health</td></tr>
-          <tr><td>SIRT4</td><td>—</td><td class="mod-inh">No specific agent</td><td>—</td><td>Glutamine-addiction brake</td></tr>
+          <tr><td>SIRT4</td><td>—</td><td class="mod-inh">No specific agent</td><td>—</td><td>Constraint on glutamine-addicted tumors</td></tr>
           <tr><td>SIRT5</td><td>—</td><td class="mod-inh">No specific agent</td><td>—</td><td>Desuccinylase; nicotinamide-resistant; open target</td></tr>
           <tr><td>SIRT7</td><td>—</td><td class="mod-inh">No specific agent</td><td>—</td><td>Ribosome-biogenesis driver; undrugged</td></tr>
         </tbody>
@@ -496,7 +496,7 @@
         Early inhibitors (sirtinol, cambinol, tenovins, suramin) are dual/multi-isoform. Truly isoform-selective allosterics
         (EX-527→SIRT1, AGK2/SirReal2→SIRT2, MDL-800/801 &amp; UBCS039→SIRT6) are recent and preclinical.</p></div>
       <div class="card"><h3>Context governs use</h3><p style="color:var(--dim); font-size:.85rem;">
-        Activators help when the isoform is tumor-suppressive (SIRT6 in HCC, SIRT3 guardian) but harm when oncogenic
+        Activators help when the isoform is tumor-suppressive (SIRT6 in HCC, SIRT3 at tumor initiation) but harm when oncogenic
         (SIRT1 in gastric/endometrial, SIRT3 radioresistance, SIRT6 chemoresistance); inhibitors face the mirror risk.</p></div>
     </div>
   </div>
@@ -505,17 +505,17 @@
 <!-- PATTERNS -->
 <section id="patterns">
   <div class="wrap">
-    <h2>Cross-cutting patterns &amp; the bottom line</h2>
+    <h2>Cross-cutting patterns and summary</h2>
     <div style="margin-top:18px;">
-      <div class="pattern"><b>ROS and DNA repair are the fault line.</b>
-        SIRT3/SIRT6 protect against oxidative damage and fix DNA — this <i>prevents tumor initiation</i> but <i>mediates therapy resistance</i>
+      <div class="pattern"><b>ROS control and DNA repair separate protection from resistance.</b>
+        SIRT3/SIRT6 protect against oxidative damage and repair DNA — this <i>prevents tumor initiation</i> but <i>mediates therapy resistance</i>
         in established disease (SIRT3 radioresistance, SIRT6 chemoresistance).</div>
       <div class="pattern"><b>Substrate sharing with opposite sign.</b>
         SIRT1/SIRT3 both deacetylate [[p53]] — SIRT1's repression is protumorigenic, SIRT3's in some models an "oncogene" route;
         SIRT2 deacetylates Slug (onco) but BRCA1 (suppressive) via entirely different complexes.</div>
       <div class="pattern"><b>Compartment matters.</b>
         The mitochondrial trio (SIRT3/4/5) governs metabolic state, nuclear SIRT1/6/7 govern the transcription of the same programs —
-        cellular "SIRT output" is the integration of a mitochondrial setpoint and a nuclear transcriptional gate.</div>
+        cellular "SIRT output" is the integration of a mitochondrial setpoint and nuclear transcriptional control.</div>
       <div class="pattern"><b>Dose and stage dominate.</b>
         CRC SIRT1, cardiac SIRT1, and SIRT7's H3K18ac show the same principle: low/moderate activity is protective,
         high/chronically activated flips to pathology; early-stage loss favors initiation, late-stage loss sensitizes to therapy.</div>
@@ -524,7 +524,7 @@
       <b>Caveat.</b> Every sirtuin shows dual/context-dependent behavior — metabolic phenotype cannot be read from a single sirtuin in isolation.
       Pleiotropy is not random: it's the product of <b>NAD<sup>+</sup> availability</b>, <b>subcellular compartment</b>,
       <b>target-site selectivity</b>, and <b>tumor evolutionary stage</b>. That is why NAD<sup>+</sup> depletion is emerging as a
-      synthetic-lethal lever in MYC-high / glutamine-dependent cancers, and why sirtuin modulation must be context-aware.
+      synthetic-lethal strategy in MYC-high / glutamine-dependent cancers, and why sirtuin modulation must be context-aware.
     </div>
   </div>
 </section>
@@ -547,23 +547,23 @@
 <script>
 const SIRTS = [
  {id:'SIRT1', name:'SIRT1', color:'#E8A33D', comp:'Nucleus + cytosol', score:0,  range:2.6,
-  net:'Archetypal double-edged sword',
-  rationale:'Deacetylates p53, Ku70, FOXO (repair-over-apoptosis) but partners c-Myc/HIF-1α and drives chemoresistance. Dose, type and stage decide the sign.'},
+  net:'Dual — suppressive in some contexts, oncogenic in others',
+  rationale:'Deacetylates p53, Ku70, FOXO (repair-over-apoptosis) but partners c-Myc/HIF-1α and drives chemoresistance. Dose, tumor type and stage determine the sign.'},
  {id:'SIRT2', name:'SIRT2', color:'#9D8DF1', comp:'Cytosol', score:0.9, range:2.0,
   net:'Epithelial suppressor, basal-like/leukemia promoter',
   rationale:'BRCA1–BARD1, IDH1, AKR1C1 on the suppressor side; Slug, PGM K100, LMO2 on the pro-tumor side.'},
  {id:'SIRT3', name:'SIRT3', color:'#58D68D', comp:'Mitochondria', score:1.5, range:1.7,
-  net:'Mostly protective; oxidative phenotype double-edged',
-  rationale:'Anti-Warburg via ROS↓ → HIF-1α destabilization, but low-ROS confers radio/chemoresistance. Guardian vs initiation, liability vs established disease.'},
+  net:'Mostly protective; dual oxidative phenotype',
+  rationale:'Anti-Warburg via ROS↓ → HIF-1α destabilization, but low-ROS confers radio/chemoresistance. Protective against initiation; liability for established tumors under therapy.'},
  {id:'SIRT4', name:'SIRT4', color:'#3EC9A7', comp:'Mitochondria', score:1.9, range:0.9,
   net:'Most consistently tumor-suppressive',
-  rationale:'GDH ADP-ribosylation directly attacks glutamine addiction; loss uniformly prognostic for poor survival. Metabolically "thrifty" (lipid accumulation, adverse cardiac).'},
+  rationale:'GDH ADP-ribosylation directly restricts glutamine-addicted metabolism; loss uniformly prognostic for poor survival. Metabolic costs: lipid accumulation, adverse cardiac effects.'},
  {id:'SIRT5', name:'SIRT5', color:'#F5A65B', comp:'Mitochondria', score:-1.2, range:1.3,
   net:'Deacylase with pro-tumor metabolic bias',
   rationale:'Pushes glutaminolysis + glycolysis in HCC/CRC/NSCLC; LDHB desuccinylation drives autophagy. Favorable in pancreatic cancer; nicotinamide-resistant.'},
  {id:'SIRT6', name:'SIRT6', color:'#5DA8FF', comp:'Nucleus (heterochromatin)', score:2.0, range:0.8,
   net:'Most consistently protective; dual only in lung/HCC',
-  rationale:'Anti-Warburg (HIF-1α corepressor), pro-DDR, suppresses survivin/c-MYC. Chemoresistance face: the same austerity program keeps established tumors alive.'},
+  rationale:'Anti-Warburg (HIF-1α corepressor), pro-DDR, suppresses survivin/c-MYC. Chemoresistance mechanism: the same genome-stability program supports survival of established tumors under therapy.'},
  {id:'SIRT7', name:'SIRT7', color:'#F283B2', comp:'Nucleus → nucleolus', score:-1.4, range:1.1,
   net:'Proliferative biosynthetic driver',
   rationale:'RNA Pol I → ribosome biogenesis; p21 H3K18 deacetylation → cell cycle. Anti-metastatic face via the same H3K18 mark at EMT promoters.'},
@@ -631,7 +631,7 @@ renderSpectrum('spectrumSvg', SIRTS, {top:'ONCOGENIC / pro-tumor', center:'cente
   // nucleus
   const nuc='<ellipse cx="500" cy="250" rx="300" ry="210" fill="#191934" stroke="#2a2a4e" stroke-width="2"/>'+
             '<text x="500" y="70" text-anchor="middle" fill="#9a9ab0" font-size="13" letter-spacing="2">NUCLEUS</text>'+
-            '<text x="500" y="86" text-anchor="middle" fill="#6b6b85" font-size="11">transcriptional gate — governs transcription of metabolic programs</text>'+
+            '<text x="500" y="86" text-anchor="middle" fill="#6b6b85" font-size="11">transcriptional control — governs transcription of metabolic programs</text>'+
             // nucleolus
             '<circle cx="500" cy="150" r="52" fill="#1f1f3a" stroke="#F283B2" stroke-width="1.5" stroke-dasharray="4 3"/>'+
             '<text x="500" y="146" text-anchor="middle" fill="#F283B2" font-size="13" font-weight="700">SIRT7</text>'+
@@ -647,7 +647,7 @@ renderSpectrum('spectrumSvg', SIRTS, {top:'ONCOGENIC / pro-tumor', center:'cente
            '<text x="605" y="208" text-anchor="middle" fill="#E8A33D" font-size="14" font-weight="700">SIRT1</text>'+
            '<text x="605" y="226" text-anchor="middle" fill="#9a9ab0" font-size="9">p53, Ku70, FOXO, HIF-1α</text>'+
            '<text x="605" y="240" text-anchor="middle" fill="#9a9ab0" font-size="9">PGC-1α, c-Myc, NF-κB</text>'+
-           '<text x="605" y="254" text-anchor="middle" fill="#6b6b85" font-size="8">double-edged · context-dependent</text>';
+           '<text x="605" y="254" text-anchor="middle" fill="#6b6b85" font-size="8">dual · context-dependent</text>';
   // cytoplasm (cell membrane)
   const cyto='<rect x="120" y="30" width="760" height="500" rx="30" fill="none" stroke="#2a2a4e" stroke-width="2"/>'+
              '<text x="150" y="52" fill="#9a9ab0" font-size="12" letter-spacing="2">CYTOPLASM</text>';
@@ -666,10 +666,10 @@ renderSpectrum('spectrumSvg', SIRTS, {top:'ONCOGENIC / pro-tumor', center:'cente
   const m4='<circle cx="820" cy="450" r="24" fill="#1a1a3a" stroke="#3EC9A7" stroke-width="1.5"/><text x="820" y="455" text-anchor="middle" fill="#3EC9A7" font-size="13" font-weight="700">S4</text>';
   const m5='<circle cx="885" cy="450" r="24" fill="#1a1a3a" stroke="#F5A65B" stroke-width="1.5"/><text x="885" y="455" text-anchor="middle" fill="#F5A65B" font-size="13" font-weight="700">S5</text>';
   // notes under mito
-  const mnote='<text x="820" y="476" text-anchor="middle" fill="#6b6b85" font-size="9">S3 redox/PDC · S4 GDH (glutamine brake)</text>'+
+  const mnote='<text x="820" y="476" text-anchor="middle" fill="#6b6b85" font-size="9">S3 redox/PDC · S4 GDH (glutamine restriction)</text>'+
               '<text x="820" y="489" text-anchor="middle" fill="#6b6b85" font-size="9">· S5 desuccinylase (glutaminolysis)</text>';
   // footer legend
-  const foot='<text x="500" y="535" text-anchor="middle" fill="#9a9ab0" font-size="11">mitochondrial trio (S3/S4/S5) = metabolic setpoint &nbsp;·&nbsp; nuclear trio (S1/S6/S7) = transcriptional gate</text>';
+  const foot='<text x="500" y="535" text-anchor="middle" fill="#9a9ab0" font-size="11">mitochondrial trio (S3/S4/S5) = metabolic setpoint &nbsp;·&nbsp; nuclear trio (S1/S6/S7) = transcriptional control</text>';
   svg.innerHTML = nuc + s6 + s1 + cyto + s2 + mito + m3 + m4 + m5 + mnote + foot;
 })();
 
@@ -892,7 +892,7 @@ renderNetwork('netSvg', netData, nodeColor, legendDefs);
   const caption = document.createElementNS('http://www.w3.org/2000/svg','text');
   caption.setAttribute('x', left); caption.setAttribute('y', top+plotH+34);
   caption.setAttribute('fill', '#6b6b85'); caption.setAttribute('font-size', '11');
-  caption.innerHTML = 'Only SIRT1-directed agents have reached human trials — the most advanced clinical lever is indirect NAD<sup>+</sup> boosting.';
+  caption.innerHTML = 'Only SIRT1-directed agents have reached human trials — the most clinically advanced approach is indirect NAD<sup>+</sup> boosting.';
   svg.appendChild(caption);
   const caption2 = document.createElementNS('http://www.w3.org/2000/svg','text');
   caption2.setAttribute('x', left); caption2.setAttribute('y', top+plotH+50);

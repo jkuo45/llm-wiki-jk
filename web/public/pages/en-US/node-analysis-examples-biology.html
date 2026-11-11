@@ -98,7 +98,7 @@
             <strong>Type-hub denylisting.</strong> Abstract categories
             (<code>chemical</code>, <code>protein</code>, <code>enzyme</code>, <code>gene</code>,
             and the rest of <code>DENYLIST</code>) are pruned before centrality. Otherwise a
-            generic “protein” blob dominates every ranking and specific entities
+            generic “protein” hub dominates every ranking and specific entities
             (ACSL4, GPX4, ferroptosis) disappear.
           </li>
           <li>
@@ -125,7 +125,7 @@
 
     <section id="metrics">
       <p class="sec-label">02 · Metric atlas</p>
-      <h2>What each number is asking the graph</h2>
+      <h2>What each metric measures</h2>
       <div class="note">
         <h4>Scope of the fingerprint — metrics versus relation-aware methods</h4>
         <p>
@@ -154,7 +154,7 @@
           <p class="badge directed">Directed</p>
           <p class="op">G.in_degree / G.out_degree</p>
           <h3>In-degree and out-degree</h3>
-          <p class="q">Regulator versus target? Upstream driver versus downstream effector?</p>
+          <p class="q">Regulator versus target; upstream driver versus downstream effector.</p>
           <div class="more">
             <p>
               Total <code>degree</code> here is <code>in_degree + out_degree</code> on the
@@ -169,8 +169,8 @@
             </p>
             <p class="method-ex"><em>Example:</em> Acid ceramidase (out 17 / in 3) is a source
               that broadcasts into lipid and ferroptosis nodes; Aging (in 35 / out 13) is a sink
-              that collects triggers. The asymmetry — not the total — tells you which to hit and
-              which to read.</p>
+              that collects triggers. The asymmetry — not the total — indicates which node is
+              the intervention target and which to read.</p>
           </div>
         </button>
 
@@ -204,7 +204,7 @@
           <p class="badge undirected">Undirected</p>
           <p class="op">nx.betweenness_centrality(G.to_undirected())</p>
           <h3>Betweenness centrality</h3>
-          <p class="q">Bottleneck or bridge — a systemic-leverage target?</p>
+          <p class="q">Bottleneck or bridge — a candidate for systemic-leverage targeting.</p>
           <div class="more">
             <p>
               Fraction of shortest paths that pass through the node, on the undirected
@@ -231,7 +231,7 @@
           <p class="badge undirected">Undirected</p>
           <p class="op">nx.clustering(G.to_undirected())</p>
           <h3>Clustering coefficient</h3>
-          <p class="q">Tight module (complex, cascade) or connector (signaling hub)?</p>
+          <p class="q">Tight module (complex, cascade) versus connector (signaling hub).</p>
           <div class="more">
             <p>
               Local transitivity: the fraction of a node’s neighbour pairs that are
@@ -255,7 +255,7 @@
           <p class="badge undirected">Undirected</p>
           <p class="op">nx.core_number(G.to_undirected())</p>
           <h3>k-core number</h3>
-          <p class="q">Resilient backbone versus incidental periphery?</p>
+          <p class="q">Resilient backbone versus incidental periphery.</p>
           <div class="more">
             <p>
               The highest <em>k</em> such that the node remains after iteratively deleting
@@ -267,7 +267,7 @@
               <strong>Caveat.</strong> NetworkX’s default core number on a directed graph
               uses total degree; this implementation correctly computes it on the undirected view.
               Inner cores enrich for essential proteins in classical PPI work
-              (Wuchty &amp; Almaas 2005). They are a screening filter, not a proof of essentiality.
+              (Wuchty &amp; Almaas 2005). They are a screening filter, not a demonstration of essentiality.
             </p>
             <p class="method-ex"><em>Example:</em> Aging, SASP, and Senescent cells occupy the
               k = 6 inner shell, while Acetate and Alagebrium hang at k = 1 — examine the shell
@@ -279,7 +279,7 @@
           <p class="badge undirected">Undirected</p>
           <p class="op">Leiden clustering + top-degree community label</p>
           <h3>Community name and size</h3>
-          <p class="q">Which emergent pathway or process does the node belong to?</p>
+          <p class="q">Emergent pathway or process to which the node belongs.</p>
           <div class="more">
             <p>
               Leiden partitions the graph; each community is labelled from its highest-degree
@@ -351,8 +351,8 @@
           <p class="method-bio">
             Count of equally short, relationally distinct chains between a driver and an
             effector, read off the undirected graph. High multiplicity is the network signature
-            of a module built to reroute: a block at any single hop is absorbed by parallel
-            bypass rather than propagating failure. SIRT1 reaches NF-κB by three chains (NAD+
+            of a module with redundant routing: a block at any single hop is absorbed by parallel
+            bypasses rather than propagating failure. SIRT1 reaches NF-κB by three chains (NAD+
             competition, direct RelA deacetylation, a chromatin relay), so boosting SIRT1
             only partly dampens NF-κB through redundant wiring.
           </p>
@@ -377,21 +377,21 @@
           </p>
           <p class="method-bio">
             Fraction of shared neighbours (Jaccard) between two entities, on the undirected
-            projection. High overlap is the network signature of entities that are echoes of
-            one another — co-complexed, co-regulated, or paralogous — so a hit to one is heard
-            in the other. PARP1 and PARP2 share NAD+ turnover, PARP inhibitors, and DNA-repair
-            partners, so a supposed PARP1-selective inhibitor is likely to nudge PARP2.
+            projection. High overlap is the network signature of entities that are mechanistic
+            duplicates — co-complexed, co-regulated, or paralogous — so inhibition of one is
+            likely to affect the other. PARP1 and PARP2 share NAD+ turnover, PARP inhibitors, and DNA-repair
+            partners, so a supposed PARP1-selective inhibitor is likely to affect PARP2.
           </p>
           <p class="method-caveat">
             <strong>Caveat.</strong> A low Jaccard against a high-degree partner is not a weak
-            copy of the same biology but a genuinely distinct address — the distinction between
-            a true functional twin and an off-target confound. Separation reads as mechanistic
-            independence: two name-adjacent nodes that share no actual interactors argue for
-            their own mechanism.
+            copy of the same biology but a genuinely distinct neighbourhood — the distinction between
+            a true functional twin and an off-target confound. Separation is consistent with
+            mechanistic independence: two name-adjacent nodes that share no actual interactors
+            support distinct mechanisms.
           </p>
           <p class="method-ex"><em>Example:</em> PARP1 and PARP2 share NAD+ turnover, PARP
             inhibitors, and DNA-repair partners — a high Jaccard therefore warns that a supposed
-            PARP1-selective inhibitor is likely to nudge PARP2, a de-risking check before
+            PARP1-selective inhibitor is likely to affect PARP2, a de-risking check before
             committing to it.</p>
         </article>
         <article class="method">
@@ -405,7 +405,7 @@
           <p class="method-bio">
             Score of plausible missing edges from shared neighbours down-weighted by log-degree
             (Adamic–Adar), on the undirected projection. High score is the network signature of
-            a real, under-recorded interaction: a quiet shared neighbour is a strong hint because
+            a real, under-recorded interaction: a low-degree shared neighbour is a strong hint because
             a promiscuous hub would make the signal meaningless. SIRT1 and an unconnected kinase
             that share only one rare scaffold warrant a targeted literature search before being
             written off as unrelated.
@@ -431,20 +431,20 @@
           <p class="method-bio">
             Algebraic connectivity λ<sub>2</sub> and the Fiedler vector split the graph into two
             coherent subsystems, computed on the Laplacian of the undirected projection. The cut is
-            the network signature of the weakest functional seam: it cleaves catabolic from
+            the network signature of the weakest functional boundary: it separates catabolic from
             anabolic programs, or stress responses from housekeeping metabolism. On the senescence
-            corpus the seam falls between the lipid-peroxidation/secretory program and housekeeping
-            metabolism, stranding bridges like Acid ceramidase squarely on the cut.
+            corpus the boundary falls between the lipid-peroxidation/secretory program and housekeeping
+            metabolism, placing bridges like Acid ceramidase on the cut.
           </p>
           <p class="method-caveat">
             <strong>Caveat.</strong> λ<sub>2</sub> near zero exposes a near-fragmented architecture
-            prone to dissociation; larger values denote a tightly interwoven state. Nodes deep in
-            one half are captive to that program alone — local specialists, not cross-program
-            levers.
+            prone to dissociation; larger values denote a tightly interconnected state. Nodes deep in
+            one half connect to that program alone — local specialists, not cross-program
+            regulators.
           </p>
           <p class="method-ex"><em>Example:</em> on a senescence corpus the seam tends to fall
             between the lipid-peroxidation/secretory program and housekeeping metabolism,
-            stranding bridges like Acid ceramidase squarely on the cut — the first place to look
+            placing bridges like Acid ceramidase on the cut — the first place to look
             for cross-program regulators.</p>
         </article>
         <article class="method">
@@ -484,15 +484,15 @@
           <p class="method-bio">
             Walk-mass ranking from a seeded node (personalization=), on the undirected graph. High
             local rank is the network signature of effectors a process actually drives, surfaced by
-            redistributing probability down that node's own wiring rather than the famous global
+            redistributing probability down that node's own wiring rather than the high-degree global
             hubs. Seeding Senescent cells and intersecting with Ferroptosis and SASP surfaces the
             shared effectors — lipid peroxidation, IL-6 — that generalist ranking would bury.
           </p>
           <p class="method-caveat">
             <strong>Caveat.</strong> A lone seed's top ranks reflect as much the choice of origin
-            as the underlying network, so over-read one walk at your peril. Seed several
+            as the underlying network, so a single walk should not be over-read. Seed several
             independent nodes and intersect the top ranks; effectors that recur across seeds are
-            the robust, mechanism-true biology.
+            the robust candidates.
           </p>
           <p class="method-ex"><em>Example:</em> seeding PPR on Senescent cells and intersecting
             with seeds on Ferroptosis and SASP surfaces the shared effectors — lipid peroxidation,
@@ -644,7 +644,7 @@
         The asymmetry marks a source: it pushes effects onto lipid and ferroptosis
         nodes rather than being acted upon. In the source document, elevated acid
         ceramidase in senescent cells reshapes membranes toward a PUFA-rich,
-        pro-ferroptotic profile; knockdown or ARN14794 protects cells.
+        pro-ferroptotic profile; knockdown or ARN14794 reduces ferroptosis sensitivity in that in-vitro model.
         <strong>Source:</strong> <em>Acid ceramidase modulates the lipid profile and
         exacerbates sensitivity to ferroptosis in WI-38 replicative senescent cells</em>
         (Soriano-Castell, Goujon, Dar, Currais &amp; Maher, <em>Cell Death and Disease</em>,
@@ -737,8 +737,8 @@
         sits on shortest paths between mitochondria, epigenetics, inflammation, and
         senescence. It is a sink for upstream triggers and a source for paracrine
         cytokines (IL-6, IL-8) that, in the acid-ceramidase document, induce the
-        enzyme in bystander cells. High in, high out, top betweenness: a master
-        program. Perturbing it reverberates network-wide — which is both the
+        enzyme in bystander cells. High in, high out, top betweenness: a central
+        program. Perturbing it propagates network-wide — both the
         therapeutic appeal and the on-target risk.
       </p>
 
@@ -943,7 +943,7 @@
         suitable for many applications.
       </p>
       <p>
-        This reference leans on the biological half of that remit. A knowledge graph of
+        This reference draws on the biological half of that remit. A knowledge graph of
         biomedical entities and the typed relations between them — an enzyme remodelling a
         membrane, a cytokine driving inflammation, a senescent cell broadcasting a secretory
         program — is precisely the kind of complex network NetworkX was built to describe.
@@ -960,7 +960,7 @@
             <code>G.to_undirected()</code> for clustering, betweenness, and k-core.
             Multi-node analytics in <code>scripts/analysis/node_analysis.py</code> further restrict
             to the giant component after dropping self-loops. Path metrics on a
-            disconnected graph are otherwise undefined or silently harmonic-flavoured.
+            disconnected graph are otherwise undefined or produce harmonic-function artifacts.
           </p>
           <pre><code>G_und = G.to_undirected()
 cc = max(nx.connected_components(G_und), key=len)

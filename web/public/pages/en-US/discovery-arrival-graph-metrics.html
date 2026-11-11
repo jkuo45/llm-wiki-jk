@@ -63,7 +63,7 @@
   <aside class="toc" aria-label="On this page">
     <p>Contents</p>
     <ol>
-      <li><a href="#framing">Framing: what should a metric "see"?</a></li>
+      <li><a href="#framing">Framing: what each metric measures</a></li>
       <li><a href="#lifecycle">The five-phase discovery lifecycle</a></li>
       <li><a href="#ferroptosis">Worked example A — ferroptosis replayed (2012→2026)</a></li>
       <li><a href="#covid">Worked example B — COVID/vaccines (2020→2026)</a></li>
@@ -80,25 +80,26 @@
     <!-- ============ 1. FRAMING ============ -->
     <section id="framing">
       <p class="sec-label">Framing</p>
-      <h2>What should a metric "see" when a discovery arrives?</h2>
+      <h2>What each metric measures when a discovery arrives</h2>
       <p>
-        The motivating question: suppose new entities arrive — a new mechanism (<em>ferroptosis</em>, named in one
+        The scenario: new entities arrive — a new mechanism (<em>ferroptosis</em>, named in one
         Cell paper in 2012), a new disease-plus-intervention cluster (<em>COVID-19 and vaccines</em>, 2019–2021).
-        What happens to the <em>calculations</em> at introduction, as the entities mature, and as implications accrete?
-        And — because edges in this graph carry <strong>relation type, direction, confidence, and provenance</strong> —
-        can the metrics surface connections that nobody has explicitly stated yet?
+        The questions are what happens to the <em>calculations</em> at introduction, as the entities mature, and as implications accrete,
+        and — because edges in this graph carry <strong>relation type, direction, confidence, and provenance</strong> —
+        whether the metrics can surface connections that nobody has explicitly stated yet.
       </p>
       <p>
-        The short answers, developed below: <strong>(1)</strong> each metric is a different instrument pointed at the
+        The short answers, developed below: <strong>(1)</strong> each metric measures a different aspect of the
         same maturation curve — betweenness is the maturation signal, k-core the depth signal, Adamic-Adar the
-        <em>foresight</em> signal (highest at birth, decaying as the node fills in), PageRank the <em>rear-view mirror</em>.
-        <strong>(2)</strong> Topology proposes, semantics dispose: undirected metrics tell you <em>where</em> implications
-        will land; the typed edges tell you <em>what</em> they are — cause, cure, or mere association.
+        <em>predictive</em> signal (highest at birth, decaying as the node fills in), PageRank a retrospective signal
+        that accumulates after edges exist.
+        <strong>(2)</strong> Topology localizes, semantics identify: undirected metrics indicate <em>where</em> implications
+        will land; the typed edges identify <em>what</em> they are — cause, cure, or mere association.
         <strong>(3)</strong> Graph output is a triage instrument with a calibrated base rate (top-ranked candidates hit
-        ~10–30% vs 0.8% unguided), never an oracle.
+        ~10–30% vs 0.8% unguided), not a validated prediction of efficacy.
       </p>
       <div class="note">
-        <p><strong>Why replay?</strong> You cannot observe a discovery's metrics retrospectively — today's graph already
+        <p><strong>Method: counterfactual replay.</strong> You cannot observe a discovery's metrics retrospectively — today's graph already
         contains the mature node. So the runs used <em>counterfactual replay</em>: the ferroptosis node was emptied,
         its edges re-added in literature-timeline batches (2012, 2015, 2017, 2019, 2020, 2022, 2024), and every metric
         recomputed per batch. The result is a metric <em>trajectory</em>, not a snapshot.</p>
@@ -113,12 +114,12 @@
         Bibliometrics of real concepts show a recurring curve: a <strong>lag phase</strong> (ferroptosis: 1 paper in
         2012, dozens/year through 2016; PROTACs: named 2001, dormant until ~2014), an <strong>inflection</strong>
         (one bridging paper or trial), <strong>explosive edge growth</strong> (ferroptosis &gt;1,000 papers/year by
-        2021, exponential fit R² = 0.95), then <strong>saturation and fragmentation</strong>. Each graph metric fires
-        at a different phase.
+        2021, exponential fit R² = 0.95), then <strong>saturation and fragmentation</strong>. Each graph metric is
+        most informative at a different phase.
       </p>
 
       <figure class="fig">
-        <div class="fig-head"><span class="fig-num">Figure 1 · The five-phase lifecycle and which calculations fire in each</span></div>
+        <div class="fig-head"><span class="fig-num">Figure 1 · The five-phase lifecycle and which calculations are informative in each</span></div>
         <div class="fig-canvas">
         <svg viewBox="0 0 960 420" role="img" aria-label="Five-phase discovery lifecycle diagram: orphan, seed attachment, absorption, bridging, nucleation, with the metrics that fire at each phase" xmlns="http://www.w3.org/2000/svg" font-family="inherit">
           <defs>
@@ -196,8 +197,8 @@
           <g font-size="11.5">
             <rect x="34"  y="290" width="150" height="58" rx="6" fill="var(--panel,#fff)" stroke="var(--border,#ddd)"/>
             <text x="109" y="308" text-anchor="middle" font-weight="700">none fire —</text>
-            <text x="109" y="323" text-anchor="middle">un-thinkable by</text>
-            <text x="109" y="338" text-anchor="middle">the graph (alarm)</text>
+            <text x="109" y="323" text-anchor="middle">no substrate</text>
+            <text x="109" y="338" text-anchor="middle">to measure (alarm)</text>
 
             <rect x="220" y="290" width="150" height="58" rx="6" fill="var(--panel,#fff)" stroke="var(--border,#ddd)"/>
             <text x="295" y="308" text-anchor="middle" font-weight="700">typed seeds ·</text>
@@ -227,8 +228,8 @@
         </div>
         <figcaption>
           Each metric is an instrument pointed at the maturation curve. Phase 0 is itself a finding: a discovery with
-          no substrate cannot be <em>thought</em> by the graph. Real arcs: ferroptosis went orphan→hub in ~8 years;
-          PROTACs sat at "peripheral, k-core 1" for ~18 years while being an unrealized bridge.
+          no substrate has no graph representation to measure. Real arcs: ferroptosis went orphan→hub in ~8 years;
+          PROTACs remained at "peripheral, k-core 1" for ~18 years while being an unrealized bridge.
         </figcaption>
       </figure>
 
@@ -238,16 +239,16 @@
         node predicted <strong>80%</strong> of its eventual edge set (precision@10 = 0.8), falling to 0.6 by the 2024
         stage and 0.0 when fully attached — the "easy" attachments get drawn first. Triage a discovery's neighborhood
         <em>early</em>.</p>
-        <p><strong>Rule 2 — Topology proposes, semantics dispose.</strong> Undirected calculations (AA, PPR, k-core)
-        say <em>where</em> implications will land; the relation type, direction, confidence, and provenance on typed
-        edges say <em>what</em> they are.</p>
+        <p><strong>Rule 2 — Topology localizes, semantics identify.</strong> Undirected calculations (AA, PPR, k-core)
+        indicate <em>where</em> implications will land; the relation type, direction, confidence, and provenance on typed
+        edges indicate <em>what</em> they are.</p>
       </div>
     </section>
 
     <!-- ============ 3. FERROPTOSIS ============ -->
     <section id="ferroptosis">
       <p class="sec-label">Worked example A</p>
-      <h2>"What if it were 2012?" — ferroptosis replayed</h2>
+      <h2>Ferroptosis replayed — counterfactual start at 2012</h2>
       <p>
         Ferroptosis was named by <a href="https://www.cell.com/fulltext/S0092-8674(12)00520-X" target="_blank" rel="noopener noreferrer">Dixon et al., Cell 2012</a>
         from vocabulary that already existed — system x꜀⁻ (1980), "oxytosis" (2001), erastin (2003), RSL3 (2008),
@@ -325,27 +326,27 @@
         </svg>
         </div>
         <figcaption>
-          The 2020 inflection is the graph saying "this node now carries implications for other fields" — the moment
+          The 2020 inflection indicates that the node now carries implications for other fields — the point at which
           ferroptosis stopped being a cell-death subtopic and started bridging into iron handling (NCOA4
           ferritinophagy, Deferoxamine) and senescence (SASP, Senescent Cells).
         </figcaption>
       </figure>
 
-      <p>Read as an instrument panel:</p>
+      <p>Metric readings:</p>
       <ul>
         <li><strong>Betweenness ≈ 1,000× growth (0.01 → 9.86 ×10⁻³)</strong>, largest leap (×11) at the 2020 stage — bridging = the node now carries implications for other fields.</li>
-        <li><strong>k-core 8 → 19</strong>: graduation into the wiki graph's maximum core tier. The role classifier agrees — Ferroptosis = Sink + Master regulator + Bottleneck + Core backbone.</li>
-        <li><strong>AA foreseeability was highest at birth (0.8)</strong> and decayed as the node filled in. The top-25 <em>misses</em> at the 2012 snapshot are exactly the post-2012 literature: FSP1 (+7 yr), ALOX15/ALOX5, ASAH1/Acid Ceramidase (+12 yr), Artesunate, CD44, STEAP3. <strong>The miss list is the research agenda.</strong></li>
+        <li><strong>k-core 8 → 19</strong>: entry into the wiki graph's maximum core tier. The role classifier agrees — Ferroptosis = Sink + Master regulator + Bottleneck + Core backbone.</li>
+        <li><strong>AA foreseeability was highest at birth (0.8)</strong> and decayed as the node filled in. The top-25 <em>misses</em> at the 2012 snapshot are exactly the post-2012 literature: FSP1 (+7 yr), ALOX15/ALOX5, ASAH1/Acid Ceramidase (+12 yr), Artesunate, CD44, STEAP3. <strong>The miss list maps onto later-arriving literature — the basis for using it as a gap detector.</strong></li>
         <li><strong>PPR stayed local until maturity</strong> — flow follows degree, so "where does influence reach" is answerable only <em>after</em> implication edges exist. Flow metrics measure accumulated implications; local-similarity metrics measure future ones.</li>
-        <li><strong>Mirror experiment</strong> (delete the matured node): 13 satellite nodes drop out of the triples giant component; PageRank shifts onto the defense belt (NADPH −1,159, Statins −977 on triples; Vitamin K −315, HMG-CoA reductase −279 on wiki). A discovery's implications are visible as the satellite belt that would dangle without it.</li>
+        <li><strong>Mirror experiment</strong> (delete the matured node): 13 satellite nodes drop out of the triples giant component; PageRank shifts onto the defense belt (NADPH −1,159, Statins −977 on triples; Vitamin K −315, HMG-CoA reductase −279 on wiki). A discovery's implications are visible in the satellite nodes whose PageRank depends on it.</li>
       </ul>
 
       <h3 id="typed-ferroptosis">What the typed edges add: from "linked to" to "what the link means"</h3>
       <p>
         In the combined graph's typed layer, every edge carries a direction, a relation label, a
         <code>confidence_score</code>, and <code>sources</code> provenance. The same ferroptosis neighborhood now
-        separates therapeutic levers from toxic liabilities — which the undirected wiki graph merges into one
-        undifferentiated bubble:
+        separates therapeutic targets from toxic liabilities — which the undirected wiki graph merges into one
+        undifferentiated set:
       </p>
       <div class="table-wrap">
         <table>
@@ -364,9 +365,9 @@
       </div>
       <p>
         Polarity census on the triples layer: Ferroptosis carries 8 pro- vs 6 anti-ferroptotic in-edges; CoQ10 is
-        purely anti- (0 PRO / 2 ANTI); and <strong>metformin needs both signs at once</strong> — ferroptosis inducer
-        in tumors (via SLC7A11-UFMylation) yet suppressor in diabetic kidney disease (via NRF2). A genuinely bipolar
-        edge that must never be averaged.
+        purely anti- (0 PRO / 2 ANTI); and <strong>metformin carries both signs at once</strong> — ferroptosis inducer
+        in tumors (via SLC7A11-UFMylation) yet suppressor in diabetic kidney disease (via NRF2). A bipolar
+        edge that should not be averaged.
       </p>
       <div class="note">
         <p><strong>Clinical reality anchor.</strong> Despite 8,000+ cumulative papers, no purpose-built ferroptosis drug
@@ -467,8 +468,7 @@
         (<code>shingles_vaccine</code>) — no mRNA/LNP/PEG/IgG4/myocarditis/ACE2/spike nodes; a future vaccine discovery
         would arrive as an orphan. And the highest-quality 2024–26 evidence is <em>conditioned</em>: myocarditis
         ~150/10⁶ second doses in males 12–15 with a steep age gradient; IgG4 class-switching is dose-count-dependent
-        and plateaus after dose 3. A single averaged vaccine→myocarditis edge <strong>washes out exactly the
-        heterogeneity that is the clinical truth</strong> — the graph needs edge attributes (dose × age × sex ×
+        and plateaus after dose 3. A single averaged vaccine→myocarditis edge <strong>averages away the age- and sex-conditioned heterogeneity present in the trial data</strong> — the graph needs edge attributes (dose × age × sex ×
         evidence tier) or hyperedges (<a href="https://pubmed.ncbi.nlm.nih.gov/39673764/" target="_blank" rel="noopener noreferrer">myocarditis meta, Epidemiol Rev 2025</a>;
         <a href="https://www.science.org/doi/10.1126/sciimmunol.ade2798" target="_blank" rel="noopener noreferrer">IgG4, Sci Immunol 2023</a>).</p>
       </div>
@@ -493,7 +493,7 @@
         neighbor: they <strong>inherited ferroptosis's attribute cloud</strong> — iron overload, lipid peroxidation,
         PUFA membranes, GPX4/CoQ10 defense, NCOA4 ferritinophagy — none of which the statin note mentions. Any
         <em>new</em> discovery in that cloud (say, 7-DHC in 2024) is instantly one hop from statins. This is the
-        general form of "we didn't know X was connected to cancer": <strong>a new edge to a hub silently pre-wires X
+        general form of "we didn't know X was connected to cancer": <strong>a new edge to a hub pre-wires X
         to everything the hub already knows.</strong> COVID demonstrates it in-repo: the single typed edge
         <code>sars_cov_2 --[disrupts]--> NAD+_metabolism</code> pulls the virus into the CD38/PARP/sirtuin/inflammaging
         attribute space with no further edges.
@@ -608,7 +608,7 @@
       <h3>4.4 · Signed triads — inferring the sign of unknown edges</h3>
       <p>
         Typed signs enable balance-style inference: if A inhibits B and B inhibits C, A likely <em>relieves</em>
-        pressure on C ("enemy of my enemy"). Repo instance: <code>statins --[sensitize_to]--> ferroptosis</code> (+)
+        pressure on C. Repo instance: <code>statins --[sensitize_to]--> ferroptosis</code> (+)
         and <code>mitohormesis --[protects_against]--> ferroptosis</code> (−) ⇒ predict a
         <strong>statin↔mitohormesis antagonism</strong> edge (CoQ10 depletion undermining the hormetic defense) — no
         such edge exists in the graph, no paper states it directly, and it is checkable. This is classic signed link
@@ -617,7 +617,7 @@
       </p>
 
       <figure class="fig">
-        <div class="fig-head"><span class="fig-num">Figure 6 · Signed-triad ("enemy of my enemy") inference on live graph edges</span></div>
+        <div class="fig-head"><span class="fig-num">Figure 6 · Signed-triad inference on live graph edges</span></div>
         <div class="fig-canvas">
         <svg viewBox="0 0 720 300" role="img" aria-label="Signed triad diagram: statins sensitizes to ferroptosis (positive), mitohormesis protects against ferroptosis (negative), predicting an antagonistic statin-mitohormesis edge" xmlns="http://www.w3.org/2000/svg" font-family="inherit">
           <defs>
@@ -643,7 +643,7 @@
           <!-- inferred edge -->
           <line x1="214" y1="228" x2="496" y2="228" stroke="var(--warn,#b8860b)" stroke-width="3" stroke-dasharray="9 6" marker-end="url(#arrow6)" marker-start="url(#arrow6)"/>
           <text x="355" y="216" text-anchor="middle" font-size="12.5" font-weight="700" fill="var(--warn,#b8860b)">⟹ inferred antagonism</text>
-          <text x="355" y="254" text-anchor="middle" font-size="11.5" fill="var(--fg-dim,#777)">enemy of my enemy: CoQ10 depletion undermines the hormetic defense</text>
+          <text x="355" y="254" text-anchor="middle" font-size="11.5" fill="var(--fg-dim,#777)">Signed-triad example: CoQ10 depletion undermines the hormetic defense</text>
           <text x="355" y="272" text-anchor="middle" font-size="11.5" fill="var(--fg-dim,#777)">no such edge in the graph · no paper states it directly · checkable</text>
         </svg>
         </div>
@@ -685,11 +685,11 @@
             <tr>
               <td><strong>GLP-1 agonists</strong></td>
               <td>2005–2015: endocrine leaves. Then one community edge per outcomes trial: cardiology (LEADER 2016, MACE −13%), obesity (STEP 2021), cardiology without diabetes (SELECT 2023, MACE −20%), nephrology (FLOW 2024, −24%), sleep medicine (first OSA drug, Dec 2024), hepatology (MASH resolution, FDA indication Aug 2025), addiction (semaglutide cut heavy-drinking days &gt;70% in AUD, Lancet 2026). By 2026 semaglutide is one of the highest-degree, highest-bridging drug nodes in medicine.</td>
-              <td>Degree explosion <em>across five communities</em>. But the most fragile edge was <strong>analogical</strong> (obesity→Alzheimer's): it snapped when tested — EVOKE/EVOKE+ negative (Nov 2025); exenatide failed Phase 3 in Parkinson's the same way. <strong>Analogical edges are a graph's most profitable and most breakable links</strong> — flag them in §4.2's composition rule.</td>
+              <td>Degree explosion <em>across five communities</em>. But the most fragile edge was <strong>analogical</strong> (obesity→Alzheimer's): it failed when tested — EVOKE/EVOKE+ negative (Nov 2025); exenatide failed Phase 3 in Parkinson's the same way. <strong>Analogical edges are high-yield but fragile</strong> — flag them in §4.2's composition rule.</td>
             </tr>
             <tr>
               <td><strong>SGLT2 inhibitors</strong></td>
-              <td>Empagliflozin was a glucose-excretion leaf when EMPA-REG (2015) delivered −38% CV death; heart failure (DAPA-HF 2019, ~half non-diabetics), HFpEF (2021), kidney (EMPA-KIDNEY 2022, −28%) followed. Topologically the node had <strong>no edge to myocardium at all</strong>. The newest edge — dementia — repeats the pattern: observational ORs 0.45–0.62, pooled RCT null (23 RCTs, n≈160k, 2025).</td>
+              <td>Empagliflozin was a glucose-excretion leaf when EMPA-REG (2015) delivered −38% CV death; heart failure (DAPA-HF 2019, ~half non-diabetics), HFpEF (2021), kidney (EMPA-KIDNEY 2022, −28%) followed. Topologically the node had <strong>no edge to myocardium</strong>. The newest edge — dementia — repeats the pattern: observational ORs 0.45–0.62, pooled RCT null (23 RCTs, n≈160k, 2025).</td>
               <td>Direction is not predictable from network distance. <strong>Observational co-occurrence edges overweight confounded links; RCT-grade edges arrive years later and can erase them</strong> — an argument for evidence-tier attributes on edges.</td>
             </tr>
             <tr>
@@ -730,8 +730,8 @@
     <!-- ============ 8. SCORECARD ============ -->
     <section id="metrics">
       <p class="sec-label">Metrics</p>
-      <h2>So — do the metrics (plus typed edges) aid understanding of implications?</h2>
-      <p><strong>Yes, as triage instruments, gap detectors, and typed-inference engines — no, as oracles.</strong></p>
+      <h2>Metric-by-metric scorecard: what the graph reveals and where it fails</h2>
+      <p><strong>The metrics function as triage instruments, gap detectors, and typed-inference engines — bounded, not predictive oracles.</strong></p>
       <div class="table-wrap">
         <table>
           <caption>What each calculation genuinely reveals, and how it fails</caption>
@@ -742,7 +742,7 @@
             <tr><td><strong>Attribute transfer via a new hub edge</strong></td><td>a single new edge pre-wires the node to the hub's whole cloud</td><td>depends on hub quality; garbage-hub edges spread garbage</td></tr>
             <tr><td><strong>Signed triads / balance</strong></td><td>sign of unknown edges</td><td>signs are extraction-derived; triads suggest, never prove</td></tr>
             <tr><td><strong>Direction (in/out edges)</strong></td><td>upstream levers vs downstream consequences; two opposite therapeutic programs on one node</td><td>only as good as the extraction's orientation (<code>is_inhibited_by</code> vs <code>inhibits</code> bookkeeping)</td></tr>
-            <tr><td><strong>PPR from the node</strong></td><td>field gravity well; where influence accumulates (Statins→Ferroptosis #3 of 2,996)</td><td>accumulated, not future, implications; local until mature</td></tr>
+            <tr><td><strong>PPR from the node</strong></td><td>node-centered neighborhood; where PPR mass accumulates (Statins→Ferroptosis #3 of 2,996)</td><td>accumulated, not future, implications; local until mature</td></tr>
             <tr><td><strong>Betweenness trajectory</strong></td><td>maturation/bridging (×11 leap at ferroptosis-2020; baricitinib-style constrained bridging)</td><td>percentile churn re-grades 21–111 nodes per insertion; needs a null</td></tr>
             <tr><td><strong>Community oscillation</strong></td><td>boundary-straddler fingerprint (COVID flipping senescence↔NAD+ worlds)</td><td>Louvain seeds/labels differ between tools — compare membership descriptions, not ids</td></tr>
             <tr><td><strong>k-core</strong></td><td>structural depth (ferroptosis 8→19)</td><td>inherits the neighborhood's core; says nothing about evidence quality</td></tr>

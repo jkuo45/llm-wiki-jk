@@ -241,7 +241,7 @@
               <td data-hl="">none specific</td>
               <td data-hl="lytic"><b>↑</b> all cells under severe ATP loss; esp. cardiomyocytes, neurons, renal tubule — <b>↓</b> none (RBCs lyse as hemolysis instead)</td>
               <td data-hl="">~40–50% of non-apoptotic* (≈4–5% of all)</td>
-              <td data-hl="">the big non-apoptotic bucket: secondary necrosis of uncleared apoptotics + injury; small at homeostasis, spikes with trauma</td>
+              <td data-hl="">the largest non-apoptotic category: secondary necrosis of uncleared apoptotics + injury; small at homeostasis, spikes with trauma</td>
             </tr>
             <tr data-program="necroptosis">
               <th scope="row"><b>Necroptosis</b><span class="sub">regulated necrosis</span></th>
@@ -273,7 +273,7 @@
               <td data-hl="iron">Ferrostatin-1, liproxstatin-1, deferoxamine</td>
               <td data-hl="iron"><b>↑</b> renal proximal tubule, neurons, hepatocytes, cardiomyocytes — <b>↓</b> glycolytic / low-PUFA cells*</td>
               <td data-hl="">~5–10% of non-apoptotic* (≈0.5–1% of all)</td>
-              <td data-hl="">rising fast in I/R, neurodegeneration, kidney; near-zero in pure infection</td>
+              <td data-hl="">increasingly reported in I/R, neurodegeneration, kidney; near-zero in pure infection</td>
             </tr>
             <tr data-program="autophagy">
               <th scope="row"><b>Autophagy</b><span class="sub">survival process; death only if ATG-dependent (NCCD criteria)</span></th>
@@ -382,9 +382,9 @@
       <div class="grid" id="anim"></div>
 <footer class="legend">
       <p><b>How to read them.</b> Swelling + sudden burst with debris cloud = lytic (necrosis, necroptosis, pyroptosis, PANoptosis, late ferroptosis).
-      Shrinkage + surface blebs pinching off into separate balls = apoptosis. PAR signal → AIF marching nucleus-ward with no swelling = parthanatos.
+      Shrinkage + surface blebs pinching off into separate balls = apoptosis. PAR signal → AIF translocating to the nucleus with no swelling = parthanatos.
       Peroxidation patches + shrinking condensed mitochondria = ferroptosis. Crescent moons closing around cargo and fusing with a lysosome = autophagy.
-      Each 12 s loop is a time-lapse — the T+ clock runs at biological speed, so identical loop lengths cover wildly different real durations:
+      Each 12 s loop is a time-lapse — the T+ clock runs at biological speed, so identical loop lengths cover very different real durations:
       ≈20 min (necrosis) and ≈45 min (pyroptosis) at the fast end, ≈2 h starvation flux (autophagy) and ≈3–4 h (apoptosis, necroptosis) in the middle,
       ≈8 h (parthanatos, ferroptosis) and ≈12 h infection courses (PANoptosis) at the slow end, ≈2–4 h suicidal NETosis and hours-scale eryptosis alongside. Single-cell timing varies by cell type and stimulus — treat clocks as representative, not exact.
       Built with three.js r160 (CDN importmap); vertex-displaced membranes, instanced particles, no post-processing. Respects <code>prefers-reduced-motion</code> (starts paused).
@@ -587,8 +587,8 @@ const PROGRAMS = [
  { id:'apoptosis', title:'Apoptosis', sub:'programmed · silent · non-lytic',
    pills:'<span class="pill reg">regulated</span><span class="pill silent">non-lytic</span>',
    bioNote:'⏱ ≈3 h single-cell execution · 12 s loop (time-lapse)',
-   phases:[[0,0,'death signal — caspase-8/9 ignite'],[2.5,30,'cell shrinks · chromatin condenses'],[5,75,'membrane blebbing — intact'],[7.5,140,'apoptotic bodies pinch off'],[10,170,'parcels ready for engulfment']],
-   steps:['Initiation — caspase-8/9 ignite caspase-3; PS starts flipping out (Annexin V+).','<strong>Cell shrinks</strong>; chromatin condenses then fragments into a DNA ladder.','Membrane blebs but stays sealed — PS tint marks the eat-me signal, no rupture.','Splits into sealed <strong>apoptotic bodies</strong> — no debris cloud; engulfed silently.'],
+   phases:[[0,0,'death signal — caspase-8/9 activate'],[2.5,30,'cell shrinks · chromatin condenses'],[5,75,'membrane blebbing — intact'],[7.5,140,'apoptotic bodies pinch off'],[10,170,'parcels ready for engulfment']],
+   steps:['Initiation — caspase-8/9 activate caspase-3; PS starts flipping out (Annexin V+).','<strong>Cell shrinks</strong>; chromatin condenses then fragments into a DNA ladder.','Membrane blebs but stays sealed — PS tint marks the eat-me signal, no rupture.','Splits into sealed <strong>apoptotic bodies</strong> — no debris cloud; engulfed silently.'],
    labels:[
     {text:'Membrane', pos:()=>[1.5,1.45,0]},
     {text:'Nucleus', pos:()=>[-0.75,-0.7,0], show:(R,t)=>t<8},
@@ -599,8 +599,8 @@ const PROGRAMS = [
  { id:'parthanatos', title:'Parthanatos', sub:'PARP-1 · AIF · MIF — NAD⁺-consuming',
    pills:'<span class="pill reg">regulated</span>',
    bioNote:'⏱ ≈8 h MNNG-type course · 12 s loop (time-lapse)',
-   phases:[[0,0,'heavy DNA damage — PARP-1 overactivates'],[3,15,'PAR chains flood · NAD⁺ drains (cell dims)'],[5.5,120,'AIF leaves mitochondria → nucleus'],[8,300,'large-scale (~50 kbp) clumping — no ladder'],[10.3,450,'PS flips out · membrane leaks, no swelling']],
-   steps:['DNA damage hyperactivates PARP-1; PAR bursts from the nucleus.','NAD⁺/ATP drains away — whole-cell light dims; PAR binds AIF on mitochondria.','AIF streams into the nucleus; MIF nuclease follows and cuts DNA.','Nucleus clumps into <strong>~50-kbp fragments</strong> (no ladder); PS flips out, slight leak — <strong>never swells</strong> or bursts.'],
+   phases:[[0,0,'heavy DNA damage — PARP-1 overactivates'],[3,15,'PAR chains accumulate · NAD⁺ drains (cell dims)'],[5.5,120,'AIF leaves mitochondria → nucleus'],[8,300,'large-scale (~50 kbp) clumping — no ladder'],[10.3,450,'PS flips out · membrane leaks, no swelling']],
+   steps:['DNA damage hyperactivates PARP-1; PAR bursts from the nucleus.','NAD⁺/ATP drains away — whole-cell light dims; PAR binds AIF on mitochondria.','AIF translocates into the nucleus; MIF nuclease follows and cuts DNA.','Nucleus clumps into <strong>~50-kbp fragments</strong> (no ladder); PS flips out, slight leak — <strong>never swells</strong> or bursts.'],
    labels:[
     {text:'Membrane', pos:()=>[1.5,1.45,0]},
     {text:'Nucleus', pos:()=>[-0.8,-0.7,0]},
@@ -613,7 +613,7 @@ const PROGRAMS = [
    pills:'<span class="pill acc">accidental</span>',
    bioNote:'⏱ ≈20 min — fastest of the ten · 12 s loop (time-lapse)',
    phases:[[0,0,'injury — Na⁺/K⁺ pumps fail'],[2.5,4,'oncosis — water floods in, cell swells'],[5,9,'organelles swell · lysosomes leak'],[7,14,'membrane ruptures'],[8,18,'DAMP storm — HMGB1, ATP, uric acid']],
-   steps:['Na⁺/K⁺ pumps fail — <strong>oncosis balloons the cell</strong>; mitochondria swell and pop, lysosomes leak.','<strong>Membrane tears open</strong> at one point — ragged hole.','DAMP cloud explodes outward = highly inflammatory.'],
+   steps:['Na⁺/K⁺ pumps fail — <strong>oncosis balloons the cell</strong>; mitochondria swell and pop, lysosomes leak.','<strong>Membrane tears open</strong> at one point — ragged hole.','DAMPs are released outward — highly inflammatory.'],
    labels:[
     {text:'Membrane', pos:()=>[1.5,1.45,0]},
     {text:'Nucleus', pos:()=>[-0.8,-0.7,0], show:(R,t)=>t<7.5},
@@ -634,8 +634,8 @@ const PROGRAMS = [
  { id:'ferroptosis', title:'Ferroptosis', sub:'iron · lipid peroxidation · GPX4 failure',
    pills:'<span class="pill reg">regulated</span>',
    bioNote:'⏱ ≈8 h erastin-type course (RSL3 ≈4–5 h) · 12 s loop (time-lapse)',
-   phases:[[0,0,'system Xc⁻ / GPX4 fails — GSH drains'],[3,120,'Fe²⁺ sparks · Fenton ROS'],[5.5,240,'lipid peroxidation spreads'],[8,360,'mitochondria shrink and condense'],[10,450,'membrane ruptures at peroxidized patch']],
-   steps:['System Xc⁻ → GSH → GPX4 fails (FSP1 backup overwhelmed) — antioxidant shield drops.','Labile Fe²⁺ drives Fenton ROS; ACSL4-loaded PUFA phospholipids peroxidize.','Lipid-ROS patches creep across the membrane (C11-BODIPY signal); <strong>mitochondria shrivel and condense</strong>.','Nucleus stays intact — <strong>no fragmentation</strong>; late rupture at the peroxidized patch.'],
+   phases:[[0,0,'system Xc⁻ / GPX4 fails — GSH drains'],[3,120,'Fe²⁺ drives Fenton ROS'],[5.5,240,'lipid peroxidation spreads'],[8,360,'mitochondria shrink and condense'],[10,450,'membrane ruptures at peroxidized patch']],
+   steps:['System Xc⁻ → GSH → GPX4 fails (FSP1 backup overwhelmed) — antioxidant shield drops.','Labile Fe²⁺ drives Fenton ROS; ACSL4-loaded PUFA phospholipids peroxidize.','Lipid-ROS patches spread across the membrane (C11-BODIPY signal); <strong>mitochondria shrivel and condense</strong>.','Nucleus stays intact — <strong>no fragmentation</strong>; late rupture at the peroxidized patch.'],
    labels:[
     {text:'Membrane', pos:()=>[1.5,1.45,0]},
     {text:'Nucleus', pos:()=>[-0.8,-0.7,0]},
@@ -658,8 +658,8 @@ const PROGRAMS = [
  { id:'pyroptosis', title:'Pyroptosis', sub:'inflammasome · gasdermin-D pores · lytic',
    pills:'<span class="pill reg">regulated</span><span class="pill lytic">lytic</span>',
    bioNote:'⏱ ≈45 min stimulus-to-rupture · 12 s loop (time-lapse)',
-   phases:[[0,0,'PRR senses danger — inflammasome speck'],[2.5,8,'caspase-1 ignites — GSDMD cleaved'],[5,18,'10–20 nm pores ring the membrane'],[7,30,'IL-1β/IL-18 jets + swelling'],[8.5,40,'rupture — cytokine storm']],
-   steps:['PRR senses danger — inflammasome speck assembles; caspase-1 ignites, GSDMD cleaved.','GSDMD-N <strong>10–20 nm pore-rings</strong> stud the membrane.','IL-1β/IL-18 jets fountain through the pores as the cell <strong>swells</strong>.','Rupture — cytokine storm. (Non-canonical caspase-4/5/11 and caspase-3/GSDME arms converge here.)'],
+   phases:[[0,0,'PRR senses danger — inflammasome speck'],[2.5,8,'caspase-1 activates — GSDMD cleaved'],[5,18,'10–20 nm pores ring the membrane'],[7,30,'IL-1β/IL-18 jets + swelling'],[8.5,40,'rupture — cytokine storm']],
+   steps:['PRR senses danger — inflammasome speck assembles; caspase-1 activates, GSDMD cleaved.','GSDMD-N <strong>10–20 nm pore-rings</strong> stud the membrane.','IL-1β/IL-18 are secreted through the pores as the cell <strong>swells</strong>.','Rupture — cytokine storm. (Non-canonical caspase-4/5/11 and caspase-3/GSDME arms converge here.)'],
    labels:[
     {text:'Membrane', pos:()=>[1.5,1.45,0]},
     {text:'Nucleus', pos:()=>[-0.8,-0.7,0]},
@@ -670,8 +670,8 @@ const PROGRAMS = [
  { id:'panoptosis', title:'PANoptosis', sub:'all-in-one — ZBP1 PANoptosome, non-redundant',
    pills:'<span class="pill reg">regulated</span><span class="pill lytic">lytic</span>',
    bioNote:'⏱ ≈12 h infection course — slowest of the ten · 12 s loop (time-lapse)',
-   phases:[[0,0,'ZBP1 senses — PANoptosome assembles'],[3,240,'three arms fire: GSDMD + caspase-3 + MLKL'],[6,480,'hybrid: pores + blebs + swelling at once'],[8.5,600,'total rupture — no single inhibitor rescues'],[10,690,'DAMP + cytokine storm from all arms']],
-   steps:['ZBP1 senses (or TAK1 lost) — PANoptosome assembles: RIPK1/RIPK3/caspase-8/caspase-1 + ASC/FADD.','Three arms fire in parallel: GSDMD pores + caspase-3 activity + pMLKL.','<strong>Hybrid morphology — pores, blebs and condensation happen simultaneously</strong>.','Total rupture + DAMP/cytokine storm; <strong>single-arm drugs (z-VAD, necrostatin-1) fail</strong> — needs multi-arm blockade.'],
+   phases:[[0,0,'ZBP1 senses — PANoptosome assembles'],[3,240,'three arms activate: GSDMD + caspase-3 + MLKL'],[6,480,'hybrid: pores + blebs + swelling at once'],[8.5,600,'total rupture — no single inhibitor rescues'],[10,690,'DAMP + cytokine storm from all arms']],
+   steps:['ZBP1 senses (or TAK1 lost) — PANoptosome assembles: RIPK1/RIPK3/caspase-8/caspase-1 + ASC/FADD.','Three arms activate in parallel: GSDMD pores + caspase-3 activity + pMLKL.','<strong>Hybrid morphology — pores, blebs and condensation happen simultaneously</strong>.','Total rupture + DAMP/cytokine storm; <strong>single-arm drugs (z-VAD, necrostatin-1) fail</strong> — needs multi-arm blockade.'],
    labels:[
     {text:'Membrane', pos:()=>[1.5,1.45,0]},
     {text:'Nucleus', pos:()=>[-0.8,-0.7,0]},
@@ -706,11 +706,11 @@ const REG_DETAIL = {
  apoptosis: { layers: [['Sense / integrate', 'Extrinsic FasL/TRAIL to Caspase-8; intrinsic p53 to PUMA/NOXA/BAX to Bax/BAK activation and MOMP to cytochrome c to Caspase-9. Caspase-8 also cleaves RIPK1/3 to block necroptosis.'], ['Amplify', 'Executioner Caspase-3/7; Caspase-3 cleaves GSDMD at D87 off while activating GSDME on.'], ['Execute', 'Shrinkage, sealed blebbing, apoptotic bodies, DNA ladder; PS eat-me signal, silent clearance.']], regulators: 'Bcl-2 / XIAP restrain; Smac/DIABLO relieve.', inhibitors: 'Blocked by z-VAD-FMK, Bcl-2 overexpression.' },
  parthanatos: { layers: [['Sense / integrate', 'Heavy DNA damage to PARP1 overactivation; consumes NAD+/ATP, cell dims.'], ['Amplify', 'PAR polymer leaves nucleus, binds mitochondrial AIF; MIF nuclease recruited.'], ['Execute', 'AIF+MIF to nucleus gives ~50-kbp large-scale fragmentation, PS flip plus slight leak, no swelling, no ladder.']], regulators: 'SIRT1-PARP1 NAD+ competition; AIF release precedes cytochrome c.', inhibitors: 'PARP inhibitors, AIF blockade, NAD+ preservation.' },
  necrosis: { layers: [['Sense / integrate', 'Severe injury to Na+/K+ pump failure, ATP depletion.'], ['Amplify', 'Ca2+ overload to calpains; ROS to mPTP; lysosomal leakage to cathepsins.'], ['Execute', 'Oncosis swelling, early ragged rupture, random DNA smear, DAMP storm.']], regulators: 'Accidental cell death (NCCD) - no dedicated brakes; in tissue often the endpoint of regulated pathways.', inhibitors: 'None specific; secondary necrosis if apoptotic bodies uncleared.' },
- necroptosis: { layers: [['RIPK1 - decision integrator', 'DAPK1-Ser321 / PTPN6 restrain; ROS autophosphorylation, TRIM21 Ub activate; CYLD deubiquitinates to license necrosome; Caspase-8 cleavage is the brake (off here).'], ['RIPK3 - amplifier', 'RHIM recruitment (RIPK1/ZBP1/TRIF), RSK3, viral SFTSV-NSs bypass; CK1G2 brake. Outputs to MLKL plus mito (CaMKII to mPTP, PGAM5 to Drp1, PDC-E3-T135).'], ['MLKL - executor', 'BRD4 supply, HSP90 shield, RIPK3 p-Thr357/Ser358 to oligomer to PIPs/cardiolipin pores to ion influx, DAMPs, NLRP3 handoff.']], regulators: 'Green flows drive death, red restrain - toggle RIPK1/RIPK3/MLKL chips in the full cell.', inhibitors: 'Nec-1 (RIPK1), GSK\'872 (RIPK3), NSA (human MLKL only).', iframe: 'necroptosis.html?embed=1' },
+ necroptosis: { layers: [['RIPK1 - signal integrator', 'DAPK1-Ser321 / PTPN6 restrain; ROS autophosphorylation, TRIM21 Ub activate; CYLD deubiquitinates to license necrosome; Caspase-8 cleavage is the brake (off here).'], ['RIPK3 - amplifier', 'RHIM recruitment (RIPK1/ZBP1/TRIF), RSK3, viral SFTSV-NSs bypass; CK1G2 brake. Outputs to MLKL plus mito (CaMKII to mPTP, PGAM5 to Drp1, PDC-E3-T135).'], ['MLKL - executor', 'BRD4 supply, HSP90 shield, RIPK3 p-Thr357/Ser358 to oligomer to PIPs/cardiolipin pores to ion influx, DAMPs, NLRP3 handoff.']], regulators: 'Green flows drive death, red restrain - toggle RIPK1/RIPK3/MLKL chips in the full cell.', inhibitors: 'Nec-1 (RIPK1), GSK\'872 (RIPK3), NSA (human MLKL only).', iframe: 'necroptosis.html?embed=1' },
  ferroptosis: { layers: [['Sense / integrate', 'System Xc- (SLC7A11) to GSH to GPX4 fails; FSP1-ubiquinone-NADPH backup overwhelmed; GSH/NADPH drain.'], ['Amplify', 'Labile Fe2+ Fenton ROS; ACSL4 loads PUFA-phospholipids; NCOA4 ferritinophagy feeds iron.'], ['Execute', 'Lipid-ROS patches spread (C11-BODIPY), mitochondria shrink/condense, nucleus intact, late rupture at peroxidized patch.']], regulators: 'MBOAT1/2 remodeling gates; SIRT3 failure feeds ROS.', inhibitors: 'Ferrostatin-1, liproxstatin-1, deferoxamine.' },
  autophagy: { layers: [['Sense / integrate', 'Starvation: mTORC1 off, AMPK on to ULK1-FIP200 plus Beclin-1-Vps34 nucleation; TFEB via SIRT1.'], ['Amplify', 'Phagophore crescents grow (LC3 lipidation), close around cargo to double-membrane autophagosomes.'], ['Execute', 'Lysosome fusion flash to degrade/recycle; survival unless 2-plus ATG interventions rescue (NCCD criterion).']], regulators: 'PINK1/Parkin mitophagy restrains NLRP3; Caspase-1 cleaves Parkin to break restraint.', inhibitors: 'Death claim needs ATG5/7 KO plus 3-MA/CQ rescue; induced by rapamycin.' },
  pyroptosis: { layers: [['Sense / integrate', 'PRR plus ASC plus pro-Caspase-1 to inflammasome speck; non-canonical Caspase-4/5/11 sense LPS to K+ efflux to NLRP3.'], ['Amplify', 'Caspase-1 to GSDMD cleavage; Caspase-3/GSDME arm converges.'], ['Execute', 'GSDMD-N 10-20 nm pore rings to IL-1beta/IL-18 jets plus swelling to rupture, cytokine storm.']], regulators: 'GSDMD pores license NLRP3; SIRT3 lowers mtROS to suppress.', inhibitors: 'NLRP3 / Caspase-1 inhibitors, disulfiram / GSDMD blockade.' },
- panoptosis: { layers: [['Sense / integrate', 'ZBP1 senses (or TAK1 loss) to PANoptosome: RIPK1-RIPK3-Caspase-8-Caspase-1 plus ASC/FADD.'], ['Amplify', 'Three arms fire in parallel: GSDMD pores plus Caspase-3 plus pMLKL; NLRP3 wired in.'], ['Execute', 'Hybrid pores plus blebs plus condensation at once to total rupture; no single inhibitor rescues.']], regulators: 'It is the crosstalk - co-assembled pyroptosis plus apoptosis plus necroptosis.', inhibitors: 'Upstream ZBP1/RIPK3 targeting; combined multi-arm blockade.' },
+ panoptosis: { layers: [['Sense / integrate', 'ZBP1 senses (or TAK1 loss) to PANoptosome: RIPK1-RIPK3-Caspase-8-Caspase-1 plus ASC/FADD.'], ['Amplify', 'Three arms activate in parallel: GSDMD pores plus Caspase-3 plus pMLKL; NLRP3 wired in.'], ['Execute', 'Hybrid pores plus blebs plus condensation at once to total rupture; no single inhibitor rescues.']], regulators: 'It is the crosstalk - co-assembled pyroptosis plus apoptosis plus necroptosis.', inhibitors: 'Upstream ZBP1/RIPK3 targeting; combined multi-arm blockade.' },
  eryptosis: { layers: [['Sense / integrate', 'Oxidative / osmotic / energy-depletion / ceramide trigger in anucleate RBC; no nucleus/mitochondria.'], ['Amplify', 'Ca2+ influx to calpain plus scramblase activation.'], ['Execute', 'Shrinkage, blebbing, PS exposure (Annexin V+); splenic clearance - hemolysis only if overwhelming.']], regulators: 'Mirrors apoptosis PS without caspases; shares lipid-peroxidation triggers with ferroptosis.', inhibitors: 'Ca2+ chelation, calpain inhibitors, erythropoietin*.' },
  netosis: { layers: [['Sense / integrate', 'Pathogen/LPS/PMA to NADPH-oxidase ROS burst (NOX-independent routes exist).'], ['Amplify', 'Largely PAD4-mediated histone citrullination (cit-H3); NE-mediated / mito-ROS / ionomycin routes exist.'], ['Execute', 'Chromatin decondenses, envelope breaks, DNA+histone+elastase/MPO web extrudes; suicidal ruptures, vital keeps membrane.']], regulators: 'NETs license macrophage NLRP3; histones trigger coagulation.', inhibitors: 'PAD4 inhibitors (Cl-amidine), NE/MPO inhibition, DNase digestion.' }
 };
