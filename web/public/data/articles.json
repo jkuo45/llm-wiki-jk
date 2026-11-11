@@ -225,7 +225,7 @@
         "langs": {
             "en-US": {
                 "title": "Caspases — Graph Analysis (wiki + triples)",
-                "description": "The caspase enzyme class read through the combined triples + wiki knowledge graph: MEROPS clan CD classification, catalytic mechanism and substrate specificity, activation platforms, a 14-member taxonomy table with per-member graph metrics, intra-family wiring, class regulation, assay toolbox and pharmacology — plus the multi-metric network analysis (communities, centrality, PPR death-modality signatures, link predictions, enrichment queue).",
+                "description": "The caspase enzyme class analyzed on the combined triples + wiki knowledge graph: MEROPS clan CD classification, catalytic mechanism and substrate specificity, activation platforms, a 14-member taxonomy table with per-member graph metrics, intra-family wiring, class regulation, assay toolbox and pharmacology — plus the multi-metric network analysis (communities, centrality, PPR death-modality signatures, link predictions, enrichment queue).",
                 "path": "pages/en-US/caspase-graph-analysis.html"
             },
             "zh-TW": {
