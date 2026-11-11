@@ -2,7 +2,7 @@
 title: Mitochondrial Membrane Potential
 description: The mitochondrial membrane potential (ΔΨm) is the proton-motive force across the inner mitochondrial membrane; its glutamate-induced collapse is attenuated by methylene blue and neuroprotective phenothiazines.
 created: 2026-07-08
-updated: 2026-07-08
+updated: 2026-11-11
 tags:
   - scientific-concept
   - mitochondria
@@ -26,10 +26,14 @@ The methylene blue derivative study quantified ΔΨm in HT-22 cells by two metho
 
 A strong correlation (Pearson r = 0.9456) linked ΔΨm preservation with neuroprotection across the compound series [^1].
 
+> [!info] Source: [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026]]
+> Loss of membrane potential is a unifying theme across senescence and ageing, coinciding with increased proton leakage, reduced respiratory capacity, and increased ROS production; sustained dynamics abnormalities can themselves induce senescence-associated phenotypes.
+
 ## Documents
 
   - [[_document_ - Neuroprotective Actions of Methylene Blue and Its Derivatives|Neuroprotective Actions of Methylene Blue and Its Derivatives]]
     - ΔΨm depolarization by glutamate is attenuated most potently by TB and MB; preservation of ΔΨm correlates strongly with viability.
+- [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026 — Mitochondrial dysfunction and inflammaging]]: Links declining membrane potential to bioenergetic failure and senescence.
 
 ## Connections
 

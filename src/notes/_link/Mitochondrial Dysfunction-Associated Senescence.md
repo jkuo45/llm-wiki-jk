@@ -2,7 +2,7 @@
 title: Mitochondrial Dysfunction-Associated Senescence
 description: A form of cellular senescence triggered by mitochondrial dysfunction, driven by NAD+/NADH collapse and AMPK–p53 signaling, and characterized by a p53-dependent SASP with an attenuated IL-1-dependent inflammatory arm.
 created: 2026-07-31
-updated: 2026-07-31
+updated: 2026-11-11
 tags:
   - biological-process
   - senescence
@@ -55,12 +55,16 @@ MiDAS is closely related to, but distinct from, [[Senescence-associated mitochon
 - **Mitochondrial quality control** enhancement ([[Mitophagy]] inducers such as [[Urolithin A]], mitochondrial biogenesis via [[PGC-1α]]) reduces the initiating mitochondrial dysfunction.
 - Interventions are context-dependent: restoring NAD+ has been shown to delay stem cell senescence and extend lifespan in model organisms (Zhang et al., 2016).
 
+> [!info] Source: [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026]]
+> This review frames MiDAS as a distinct senescence programme placed upstream of tissue degeneration: direct mitochondrial impairment induces a stable arrest with a rewired secretome in which the IL-1–dependent inflammatory arm is blunted, while selected SASP factors are maintained. It contrasts metabolic signalling (MiDAS) with loss of mitochondrial compartmentalization ([[Minority MOMP]] → [[cGAS-STING Pathway|cGAS–STING]]) as related but distinguishable contributions to the senescent phenotype.
+
 ## Documents
 
 - [[_document_ - Mitochondrial Drivers Stem Cell Aging Inflammaging Bautista 2026|Mitochondrial Drivers of Stem Cell Aging and Inflammaging (Bautista 2026)]]
   - Frames NAD+ depletion as a metabolic bottleneck that enforces MiDAS via AMPK–p53 signaling and couples it to a distinct secretory phenotype with an attenuated IL-1–dependent inflammatory arm of the SASP; discusses MiDAS in the context of stem cell aging.
 - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]
   - Identifies MiDAS among senescence states with p53/p16-dependent, non-classical secretory profiles and emphasizes that mitochondrial perturbation produces unique SASP outputs relative to NF-κB-driven senescence.
+- [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026 — Mitochondrial dysfunction and inflammaging]]: Frames MiDAS as a metabolic, AMPK–p53-driven senescence programme with an attenuated IL-1–dependent SASP arm, distinct from the cGAS–STING/mtDNA-driven SASP of [[Senescence-associated mitochondrial dysfunction|SAMD]].
 
 ## Connections
 

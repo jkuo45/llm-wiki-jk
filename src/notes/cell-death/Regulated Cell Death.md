@@ -3,7 +3,7 @@ title: Regulated Cell Death
 description: Genetically encoded cell death programs distinct from accidental necrosis, including apoptosis, necroptosis, pyroptosis, and ferroptosis, which are druggable targets relevant to cancer, neurodegeneration, and healthy aging.
 protected: true
 created: 2026-08-15
-updated: 2026-09-07
+updated: 2026-11-11
 tags: [process, cell-death, aging, oncology]
 url: #
 source: _document_ - Could this enzyme help remove "zombie" cells from our tissues?.md
@@ -31,10 +31,14 @@ The druggability of ferroptosis (e.g., via GPX4 or system xc− inhibition) and 
 
 #
 
+> [!info] Source: [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026]]
+> Mitochondria are pathway-specific participants rather than universal regulators: MOMP/cytochrome c drive intrinsic apoptosis; [[RIPK3]]–[[MLKL]] necroptosis can proceed without mitochondria but is modulated by mtROS and MPT; pyroptosis is executed by gasdermin pores amplified by mitochondrial signals; ferroptosis depends on iron-dependent lipid peroxidation with stimulus-dependent mitochondrial involvement.
+
 ## Documents
 
 - [[_document_ - Could this enzyme help remove "zombie" cells from our tissues?|Could this enzyme help remove "zombie" cells from our tissues?]]
   - This document introduces ferroptosis as a regulated, iron-dependent death pathway distinct from necrosis and apoptosis, framing it alongside cellular senescence as a druggable target for healthy aging.
+- [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026 — Mitochondrial dysfunction and inflammaging]]: Synthesizes the four regulated cell death pathways and their differing mitochondrial contributions.
 
 ## Connections
 

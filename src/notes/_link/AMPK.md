@@ -4,7 +4,7 @@ description: AMP-activated protein kinase (AMPK) is a central metabolic sensor
   that plays a critical role in the Aging process by integrating energy status with
   epigenetic regulation. As organisms age, AMPK...
 created: 2026-05-29
-updated: 2026-10-02
+updated: 2026-11-11
 tags:
   - enzyme
 aliases: [AMP-activated protein kinase, AMP-activated protein kinase (AMPK), adenosine monophosphate-activated protein kinase, AMPK complex, AMPKα]
@@ -43,9 +43,10 @@ AMPK signaling is **sexually dimorphic**, most clearly at the level of hepatic e
 > [!note]
 > Because AMPK's hepatic response to metabolic stressors is ~3× higher in males, and estrogen drives female AMPK activation, sex is a primary covariate in interpreting AMPK biomarkers (p-AMPK, p-ACC) and AMPK-targeting therapies ([[Metformin]], urolithin A) across MASLD, diabetes, and aging.
 
-#
 
-# 
+
+> [!info] Source: [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026]]
+> In MiDAS, inefficient NADH reoxidation lowers the [[NAD+]]/[[NADH]] ratio and activates AMPK, which stabilizes [[p53]] to enforce [[p21 CIP1|p21]]-dependent arrest; the same AMPK–p53 axis restrains the IL-1–dependent arm of the [[SASP]].
 
 ## Documents
 
@@ -102,6 +103,7 @@ List of documents that mention this entity
 
    - [[task_output_comt_fisetin_senolytic_09_July_2026|COMT × Fisetin Research Evaluation]]
      - AMPK is listed among the longevity pathways in fisetin's network pharmacology profile (alongside mTOR, NRF2, NF-κB, PI3K). Proposed computational modeling will map fisetin's multi-target profile across these pathways using STRING and KEGG analysis.
+- [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026 — Mitochondrial dysfunction and inflammaging]]: Places AMPK at the centre of the MiDAS metabolic-signalling axis.
 
 ## Connections
 - **[[SIRT1]]**: Works in tandem with AMPK to regulate metabolism and longevity.

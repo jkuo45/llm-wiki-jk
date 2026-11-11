@@ -2,7 +2,7 @@
 title: Dasatinib
 description: 'Chemical properties: Dasatinib is a chemical substance with defined molecular structure, functional groups, and physicochemical properties that determine its biological activity.'
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-11-11
 tags:
   - chemical-compound
 aliases: [Sprycel, BMS-354825]
@@ -19,9 +19,10 @@ aliases: [Sprycel, BMS-354825]
 
 **Safety and toxicity:** The safety profile of Dasatinib depends on dose, duration of exposure, and individual susceptibility. Understanding its toxicology is essential for safe therapeutic use.
 
-#
 
-# 
+
+> [!info] Source: [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026]]
+> A randomized phase II trial of dasatinib plus [[Quercetin|quercetin]] in 60 postmenopausal women found no significant between-group difference in the primary endpoint (change in a bone resorption marker at 20 weeks); an open-label phase I study in early symptomatic [[Alzheimer's Disease|Alzheimer’s disease]] detected dasatinib but not quercetin in cerebrospinal fluid.
 
 ## Documents
 
@@ -33,6 +34,7 @@ List of documents that mention this entity
 
   - [[_document_ - cellular_senescence_ipf_diseases-14-00201|Cellular Senescence in IPF (Baurzhan et al., 2026)]]
     - Dasatinib+quercetin is the lead senolytic combination in IPF; a phase I pilot showed improved physical function and acceptable safety.
+- [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026 — Mitochondrial dysfunction and inflammaging]]: Reports the phase II senolytic trial null endpoint and CSF detectability of dasatinib.
 
 ## Connections
 - [[Dasatinib]] — related entity

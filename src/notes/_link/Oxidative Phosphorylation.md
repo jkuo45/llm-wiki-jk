@@ -2,7 +2,7 @@
 title: Oxidative Phosphorylation
 description: 'Definition: Oxidative Phosphorylation is a fundamental biological process that maintains cellular and organismal homeostasis. It involves coordinated molecular events regulated by signaling pat...'
 created: 2026-07-04
-updated: 2026-07-06
+updated: 2026-11-11
 tags:
   - biological-process
 aliases: [OXPHOS, Electron Transport Chain]
@@ -29,6 +29,9 @@ This finding contrasts with the classical [[Warburg Effect]] model, which emphas
 
 # 
 
+> [!info] Source: [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026]]
+> Declining OXPHOS efficiency reduces proton pumping, [[Mitochondrial Membrane Potential|membrane potential]], and ATP output while increasing electron leak — particularly at [[Complex I]] and [[Complex III]] — which amplifies [[Mitochondrial ROS|ROS]] production and drives a vicious cycle of bioenergetic failure.
+
 ## Documents
 
 List of documents that mention this entity
@@ -41,6 +44,7 @@ List of documents that mention this entity
 
   - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
     - The activation of mitochondrial SIRT5 contributes to the promotion of growth and metastasis of HCC cells via glucose metabolism reprogramming from Oxidative Phosphorylation to Glycolysis.
+- [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026 — Mitochondrial dysfunction and inflammaging]]: Describes OXPHOS decline as the primary defect coupling bioenergetic failure to oxidative stress.
 
 
 ## Connections

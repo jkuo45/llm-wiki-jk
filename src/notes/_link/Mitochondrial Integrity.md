@@ -2,7 +2,7 @@
 title: Mitochondrial Integrity
 description: Maintenance of mitochondrial structure, function, and homeostasis via balanced fusion and fission.
 created: 2026-07-23
-updated: 2026-07-23
+updated: 2026-11-11
 tags:
   - mitochondria-concept
 ---
@@ -16,9 +16,13 @@ Balanced dynamics permit content complementation (via fusion) and selective remo
 ### Disease Relevance
 Defects in integrity underlie a range of diseases, including [[Charcot-Marie-Tooth Disease Type 2A]] ([[MFN2]] mutations), [[Dominant Optic Atrophy]] ([[OPA1]] mutations), and [[Left Ventricular Hypertrophy]] (altered DRP1/MFN2). Preserving integrity is a therapeutic target, e.g., with [[Mdivi-1]].
 
+> [!info] Source: [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026]]
+> Mitochondrial integrity depends on the dynamic balance between fusion and fission, which preserves membrane potential, distributes metabolites, and segregates damaged components; disruption of these quality-control processes remodels morphology and can induce senescence-associated phenotypes.
+
 ## Documents
 - [[_document_ - Mitochondrial Fusion and Fission The fine-tune balance for cellular homeostasis|Mitochondrial Fusion and Fission review]]
   - The review frames mitochondrial integrity as continuously maintained by balanced fusion and fission, defects of which underlie disease.
+- [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026 — Mitochondrial dysfunction and inflammaging]]: Frames mitochondrial integrity as dependent on dynamics and quality control.
 ## Connections
 - [[Mitochondrial Fusion]] — promotes integrity via complementation
 - [[Mitochondrial Fission]] — promotes integrity via quality control

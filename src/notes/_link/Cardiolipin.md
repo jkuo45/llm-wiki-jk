@@ -4,7 +4,7 @@ description: Cardiolipin is a diphosphatidylglycerol lipid uniquely concentrated
   the inner mitochondrial membrane, essential for electron transport chain function
   and a key damage-associated molecular pattern (DAMP) when released into the cytosol.
 created: 2026-07-11
-updated: 2026-07-11
+updated: 2026-11-11
 tags:
   - biological-molecule
   - lipid
@@ -56,6 +56,9 @@ This pathway is a key molecular bridge linking [[Mitochondrial Dysfunction]], [[
 - **Inflammaging** — Chronic low-level mitochondrial damage leads to persistent cardiolipin release, contributing to [[NLRP3]] activation and [[Inflammaging]]
 - **Non-alcoholic Steatohepatitis (NASH)** — Cardiolipin remodeling defects contribute to hepatic mitochondrial dysfunction and inflammation
 
+> [!info] Source: [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026]]
+> Cardiolipin exposed or redistributed during mitochondrial stress directly participates in inflammasome signalling: [[NLRP3]] and [[Caspase-1]] associate with cardiolipin-rich mitochondrial membranes, and [[Gasdermin D|GSDMD]] can act on mitochondrial membranes in a cardiolipin-dependent manner to promote depolarization and DAMP release.
+
 ## Documents
 
 List of documents that mention this entity
@@ -65,6 +68,7 @@ List of documents that mention this entity
 
   - [[_document_ - Mitochondrial Fusion and Fission The fine-tune balance for cellular homeostasis|Mitochondrial Fusion and Fission review]]
     - Cardiolipin is an obligate cofactor for OPA1-mediated inner-membrane fusion and activates DRP1 oligomerization for fission, bidirectionally regulating mitochondrial dynamics.
+- [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026 — Mitochondrial dysfunction and inflammaging]]: Adds the cardiolipin–NLRP3/caspase-1 assembly platform and GSDMD's cardiolipin-dependent mitochondrial action.
 
 ## Connections
 

@@ -3,7 +3,7 @@ title: Quercetin
 description: Quercetin is a plant Flavonoids found in many fruits, vegetables,
   and grains. It is commonly used as an Anti-inflammatory and antioxidant supplement.
 created: 2026-05-29
-updated: 2026-05-29
+updated: 2026-11-11
 tags:
   - chemical-compound
 aliases: []
@@ -16,9 +16,10 @@ aliases: []
 ## Clinical Considerations
 Individuals with slow [[COMT]] variants may experience side effects such as irritability or anxiety when taking high doses of [[Quercetin]] due to the further reduction in [[COMT]] activity.
 
-#
 
-# 
+
+> [!info] Source: [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026]]
+> A randomized phase II trial of [[Dasatinib|dasatinib]] plus quercetin in 60 postmenopausal women found no significant between-group difference in the primary endpoint (bone resorption marker at 20 weeks); quercetin was not detected in cerebrospinal fluid in an open-label Alzheimer’s disease study.
 
 ## Documents
 
@@ -41,6 +42,7 @@ List of documents that mention this entity
 
   - [[_document_ - cellular_senescence_ipf_diseases-14-00201|Cellular Senescence in IPF (Baurzhan et al., 2026)]]
     - Profiled as a dual senolytic/senomorphic flavonoid; dasatinib+quercetin reduces senescent cell burden and attenuates bleomycin-induced lung fibrosis.
+- [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026 — Mitochondrial dysfunction and inflammaging]]: Reports the phase II senolytic trial null endpoint and the absence of quercetin in CSF.
 
 
 ## Connections

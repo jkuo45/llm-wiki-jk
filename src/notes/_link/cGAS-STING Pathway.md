@@ -4,7 +4,7 @@ description: The cGAS-STING complex is an innate immune sensor that detects cyto
   DNA and activates inflammatory interferon signalling, playing a crucial role in SASP
   activation and age-related inflammation.
 created: 2026-07-07
-updated: 2026-11-10
+updated: 2026-11-11
 tags:
   - biological-process
   - senescence
@@ -85,6 +85,9 @@ cGAS–STING hyperactivation is implicated in sterile inflammation of ageing, lu
 
 #
 
+> [!info] Source: [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026]]
+> Persistent activation of cGAS–STING by cytosolic mtDNA is a key route converting mitochondrial damage into chronic inflammatory signalling in ageing. In senescent cells it sustains a SASP-like programme (IL-6, TNF, CXCL10, CCL5, and interferon-stimulated genes ISG15, IFIT2, IRF7) rather than a transient antiviral response; defective mitophagy intensifies mtDNA leakage.
+
 ## Documents
 - [[_document_ - Cytotoxic CD4 T cells induce age-associated myelopoiesis through CCL5-CCR5 signaling|Cytotoxic CD4 T cells induce age-associated myelopoiesis (Nat Aging 2026)]]: Nat Aging 2026 shows chronic TCR stimulation causes cytosolic mitochondrial DNA release in CD4+ T cells, activating cGAS-STING to induce CCL5; STING deficiency preserves cytotoxic differentiation but abolishes CCL5 induction.
 
@@ -104,6 +107,7 @@ List of documents that mention this entity
 
   - [[_document_ - Mitochondrial metabolism and epigenetic crosstalk drive SASP|Mitochondrial metabolism and epigenetic crosstalk drive SASP]]
     - Shows the mtDNA–cGAS–STING arm of the SASP is separable from the mitochondrial acetyl-CoA/H3K27ac arm; mtDNA depletion or STING inhibition (SN011) does not block H3K27ac loss upon SLC25A1 inhibition.
+- [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026 — Mitochondrial dysfunction and inflammaging]]: Positions persistent mtDNA–cGAS–STING activation as a central driver of SASP-like sterile inflammation and inflammaging.
 
 ## Connections
 - [[SASP|Senescence-Associated Secretory Phenotype]] — cGAS–STING is a key driver of SASP factor transcription

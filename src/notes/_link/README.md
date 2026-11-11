@@ -3,14 +3,14 @@ title: Shared Entities (_link)
 aliases: []
 description: index of cross-topic shared entities and documents in the _link directory
 created: 2026-08-16
-updated: 2026-11-10
+updated: 2026-11-11
 ---
 # Shared Entities (`_link`)
 
-Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **2108 entities** in a single flat index and **35 documents**.
+Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **2112 entities** in a single flat index and **35 documents**.
 
 > [!note]
-> `_link` index. Total entities: 2108 | Documents: 35
+> `_link` index. Total entities: 2112 | Documents: 35
 >
 ## Documents
 
@@ -354,6 +354,8 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[CD40L\|CD40L]] | CD40L (CD154, TNFSF5) is a trimeric TNF-superfamily type II transmembrane cytokine expressed on activated CD4+ T cells that engages CD40 on B cells and antigen-presenting cells to drive germinal centre formation, class-switch recombination, and dendritic cell maturation. |
 | [[CD44\|CD44]] | CD44 variant isoforms (CD44v) partner with MUC1-C and xCT to sustain GSH and ferroptosis resistance in triple-negative breast cancer. |
 | [[Cytotoxic CD4+ T Cells]] | Effector CD4+ T cells (CD4 CTLs) expressing EOMES, CD38, CCL5, perforin and granzymes that expand during aging, accumulate in the bone marrow, and drive CCL5–CCR5-dependent myelopoiesis while retaining senescent-cell killing capacity. |
+| [[Formyl Peptide Receptor]] | Formyl peptide receptors (FPRs) are G-protein-coupled receptors that sense N-formyl peptides from bacteria and mitochondria, recruiting and activating innate immune cells. |
+| [[Dapansutrile]] | Dapansutrile (OLT1177) is an oral, selective NLRP3 inflammasome inhibitor that blocks NLRP3 ATPase activity and is being developed for inflammatory diseases. |
 | [[HIF2α]] | Hypoxia-inducible factor 2 alpha — activated by SIRT1 deacetylation under hypoxia, opposite to SIRT1's inhibition of HIF-1alpha; falls as NAD+ and SIRT1 decline, proposing a HIF2alpha-to-HIF1alpha switch. |
 | [[Immunosenescence]] | Age-related decline and reprogramming of immune function, including thymic involution, naive T cell loss, accumulation of exhausted/cytotoxic effector T cells, myeloid skewing of hematopoiesis, and inflammaging. |
 | [[ITIM\|ITIM]] | Immunoreceptor tyrosine-based inhibitory motif — cytoplasmic sequence that, once phosphorylated, recruits SHP-1/SHP-2 phosphatases to deliver inhibitory signals; the shared execution mechanism of don't-eat-me receptors including SIRPα, Siglec-10, CD31, and PD-1. |
@@ -670,7 +672,10 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[LCAD]] | Long-chain acyl-CoA dehydrogenase — mitochondrial beta-oxidation enzyme deacetylated and activated by SIRT3 during fasting; SIRT3 knockout accumulates fatty-acid oxidation intermediates with low ATP. |
 | [[Maraviroc]] | FDA-approved CCR5 antagonist (HIV-1 entry inhibitor) that in aged mice normalizes CCL5-CCR5-driven myelopoiesis, lowers the neutrophil-to-lymphocyte ratio and inflammaging cytokines, and improves metabolic and functional healthspan outcomes. |
 | [[miR-134]] | Brain-enriched microRNA repressed by SIRT1 to permit CREB and BDNF expression; the SIRT1–miR-134–CREB–BDNF axis promotes memory formation and synaptic plasticity. |
+| [[Mitochondrial-Derived Vesicles]] | Mitochondrial-derived vesicles (MDVs) are selective cargo carriers that bud from mitochondria to deliver mitochondrial components to lysosomes or export them via extracellular vesicles, influencing mitochondrial DAMP release. |
+| [[Mitochondrial RNA]] | Mitochondrial RNA (mtRNA) species, including double-stranded RNA exposed during mitochondrial stress, act as damage-associated molecular patterns that engage innate immune sensors. |
 | [[Myelopoiesis]] | Production of myeloid lineage cells (granulocytes, monocytes, macrophages) from hematopoietic progenitors; biased expansion during aging via CCL5–CCR5 signaling raises the neutrophil-to-lymphocyte ratio. |
+| [[N-Formyl Peptides]] | N-formyl peptides are mitochondrial translation products with bacterial-like immunogenic features that signal through formyl peptide receptors to recruit and activate innate immune cells. |
 | [[POMC]] | Pro-opiomelanocortin — precursor polypeptide cleaved into ACTH, alpha-MSH and beta-endorphin; hypothalamic arcuate POMC neurons are a SIRT1-regulated feeding-behavior node under dietary restriction. |
 | [[NDUFA9]] | Accessory subunit of mitochondrial Complex I (39-kDa subunit) deacetylated by SIRT3; part of the OXPHOS machinery regulating cellular ATP levels. |
 | [[Siglec-10\|Siglec-10]] | Siglec-10 (SIGLEC10) is an inhibitory I-type lectin on macrophages and other leukocytes that recognizes sialylated — and via CD24, non-sialylated — "don't-eat-me" signals, dampening phagocytosis of viable healthy cells. |
@@ -1353,7 +1358,6 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[mPOS\|mPOS]] | Mitochondrial precursor over-accumulation stress. A cellular stress condition arising when mitochondrial precursor proteins accumulate excessively in the cytosol, leading to proteotoxicity and cell death. |
 | [[MRN Complex\|MRN Complex]] | The MRN complex is the MRE11-RAD50-NBS1 heterotrimer, the primary sensor of DNA double-strand breaks and the activator of ATM, coordinating end resection for homologous recombination repair, alternative end joining, and telomere maintenance. |
 | [[Mst1\|Mst1]] | Mammalian STE20-like kinase 1 (STK4), a Hippo pathway kinase regulating apoptosis, autophagy, and cell proliferation; its phosphorylation is inhibited by melatonin to protect the diabetic heart via SIRT3. |
-| [[mtDNA\|mtDNA]] | Mitochondrial DNA that can be released into the cytosol to activate innate immune signaling via cGAS-STING, acting as a DAMP in senescence and aging. |
 | [[MTFP1\|MTFP1]] | Mitochondrial fission process 1 (MTFP1/MTP18), an inner mitochondrial membrane protein essential for mitochondrial division and cardiac function |
 | [[MTHFD2\|MTHFD2]] | MTHFD2 (methylenetetrahydrofolate dehydrogenase 2) is the mitochondrial bifunctional enzyme of one-carbon metabolism that generates NADPH; deacetylated by SIRT3 and linked to tumor redox balance, chemoresistance, and metabolic plasticity. |
 | [[MTHFR\|MTHFR]] | MTHFR (Methylenetetrahydrofolate Reductase) is a critical enzyme in the Methylation Cycle. It is responsible for converting 5,10-methylenetetrahydrofolate to 5-methyltetrahydrofolate, the prima... |

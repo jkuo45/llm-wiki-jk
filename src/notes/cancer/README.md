@@ -3,7 +3,7 @@ title: Cancer notes
 aliases: []
 description: Index of wiki notes for cancer
 created: 2026-07-06
-updated: 2026-10-23
+updated: 2026-11-11
 ---
 # Cancer
 
@@ -40,7 +40,7 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 ## Maintenance
 
 - Last updated: 23_September_2026 12:00 PM PDT
-- Total count of entities: 274
+- Total count of entities: 273
 
 | entity                                                 | datetime updated         | entity_type_1        | entity_relevance_score_1 | entity_sentiment_score_1 | entity_justification_1 |
 | ------------------------------------------------------ | ------------------------ | -------------------- | ------------------------ | ------------------------ | ---------------------- |
@@ -255,7 +255,6 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[GSK3]] | 31_May_2026 05:30 PM PDT | enzyme | 8 | 0 | Kinase that regulates Mcl-1 stability and apoptosis. |
 | [[HUWE1]] | 31_May_2026 05:30 PM PDT | enzyme | 8 | 0 | E3 ubiquitin ligase (MULE) that targets Mcl-1 for degradation. |
 | [[JNK]] | 31_May_2026 05:30 PM PDT | enzyme | 8 | 0 | Stress-activated kinase that promotes Bim and Puma activity. |
-| [[MOMP]] | 31_May_2026 05:30 PM PDT | biological-process | 10 | 0 | Mitochondrial outer membrane permeabilization, the point of no return in apoptosis. |
 | [[mTORC1]] | 31_May_2026 05:30 PM PDT | protein             | 8 | 0 | Protein complex regulating protein synthesis and survival downstream of PI3K/Akt. |
 | [[Phosphorylation]] | 31_May_2026 05:30 PM PDT | biological-process| 8 | 0 | Post-translational modification regulating protein function and stability. |
 | [[PIDD]] | 31_May_2026 05:30 PM PDT | protein | 7 | 0 | Component of the PIDDosome involved in Caspase-2 activation. |

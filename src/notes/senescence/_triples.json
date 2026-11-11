@@ -7922,5 +7922,481 @@
     "source_document": "_document_ - Cytotoxic CD4 T cells induce age-associated myelopoiesis through CCL5-CCR5 signaling.md",
     "created": "2026-11-11T02:36:11Z",
     "updated": "2026-11-11T02:36:11Z"
+  },
+  {
+    "id": "75da3637454c",
+    "subject": "Mitochondrial Dysfunction",
+    "predicate": "drives",
+    "object": "Inflammaging",
+    "context": {
+      "en-US": "Mitochondrial dysfunction acts as both an initiator and an amplifier of inflammaging: it promotes senescence, fuels sterile inflammation through mitochondrial DAMP release, and undermines tissue repair capacity.",
+      "zh-TW": "粒線體功能障礙既是發炎性老化的啟動者也是放大器：它促進細胞衰老、透過粒線體 DAMP 釋放驅動無菌性發炎，並損害組織修復能力。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence.md",
+    "created": "2026-11-11T22:18:05Z",
+    "updated": "2026-11-11T22:18:05Z"
+  },
+  {
+    "id": "f56492aabf9a",
+    "subject": "Oxidative Phosphorylation",
+    "predicate": "declines_in",
+    "object": "Aging",
+    "context": {
+      "en-US": "Ageing is characterized by progressive decline in oxidative phosphorylation: reduced electron transport chain efficiency lowers proton pumping, mitochondrial membrane potential, and ATP synthase activity, while increasing electron leak and ROS generation.",
+      "zh-TW": "老化的特徵是氧化磷酸化進行性下降：電子傳遞鏈效率降低會減少質子泵送、粒線體膜電位與 ATP 合成酶活性，同時增加電子滲漏與 ROS 產生。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence.md",
+    "created": "2026-11-11T22:18:05Z",
+    "updated": "2026-11-11T22:18:05Z"
+  },
+  {
+    "id": "3d68bbcfa4e2",
+    "subject": "Mitochondrial ROS",
+    "predicate": "damages",
+    "object": "Mitochondrial DNA",
+    "context": {
+      "en-US": "Electron leak at complexes I and III increases mitochondrial ROS, which damage mitochondrial lipids, the respiratory chain, and mtDNA, reinforcing a vicious cycle of bioenergetic failure and oxidative stress.",
+      "zh-TW": "複合體 I 與 III 的電子滲漏會增加粒線體 ROS，損害粒線體脂質、呼吸鏈與 mtDNA，強化生物能量失敗與氧化壓力的惡性循環。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence.md",
+    "created": "2026-11-11T22:18:05Z",
+    "updated": "2026-11-11T22:18:05Z"
+  },
+  {
+    "id": "a8eb724119a2",
+    "subject": "Heteroplasmy",
+    "predicate": "drives",
+    "object": "Mitochondrial Dysfunction",
+    "context": {
+      "en-US": "Most pathogenic mtDNA mutations are functionally recessive at the cellular level: OXPHOS is preserved by complementation until mutant genomes exceed a mutation- and tissue-specific threshold, after which respiratory chain deficiency emerges.",
+      "zh-TW": "大多數致病性 mtDNA 突變在細胞層級屬於功能性隱性：在突變基因體超過突變特異性與組織特異性閾值之前，OXPHOS 可藉由互補維持；超過閾值後才會出現呼吸鏈缺陷。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence.md",
+    "created": "2026-11-11T22:18:05Z",
+    "updated": "2026-11-11T22:18:05Z"
+  },
+  {
+    "id": "b30cbd2327ae",
+    "subject": "Mitophagy",
+    "predicate": "restrains",
+    "object": "NLRP3",
+    "context": {
+      "en-US": "In experimental macrophage systems, mitophagic clearance of damaged mitochondria restrains NLRP3 inflammasome activation; failure of mitophagy favours persistent mitochondrial stress and inflammatory amplification.",
+      "zh-TW": "在實驗性巨噬細胞系統中，受損粒線體的 mitophagy 清除會抑制 NLRP3 發炎體活化；mitophagy 失敗則有利於持續的粒線體壓力與發炎放大。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence.md",
+    "created": "2026-11-11T22:18:05Z",
+    "updated": "2026-11-11T22:18:05Z"
+  },
+  {
+    "id": "e597aee77bf9",
+    "subject": "Mitochondrial-Derived Vesicles",
+    "predicate": "exports",
+    "object": "Mitochondrial DNA",
+    "context": {
+      "en-US": "Mitochondrial-derived vesicles and extracellular vesicles provide an additional route for selective disposal and export of mitochondrial cargo, including nucleic acids and proteins, extending inflammatory signalling beyond the injured cell.",
+      "zh-TW": "粒線體來源囊泡與細胞外囊泡提供了選擇性清除與輸出粒線體物質（包括核酸與蛋白質）的額外途徑，將發炎訊號延伸到受傷細胞之外。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence.md",
+    "created": "2026-11-11T22:18:05Z",
+    "updated": "2026-11-11T22:18:05Z"
+  },
+  {
+    "id": "24fec5765ef9",
+    "subject": "Mitochondrial DNA",
+    "predicate": "is_sensed_by",
+    "object": "TLR9",
+    "context": {
+      "en-US": "Endosomal TLR9 recognizes unmethylated CpG-rich DNA motifs and can respond to released mtDNA, particularly in inflammatory and tissue-damage settings.",
+      "zh-TW": "內體 TLR9 辨識未甲基化的 CpG 富含 DNA 基序，可對釋放的 mtDNA 產生反應，特別是在發炎與組織損傷情境中。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence.md",
+    "created": "2026-11-11T22:18:05Z",
+    "updated": "2026-11-11T22:18:05Z"
+  },
+  {
+    "id": "dff901220a77",
+    "subject": "Mitochondrial Permeability Transition",
+    "predicate": "modulates",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "Mitochondrial ROS, metabolic failure, mitochondrial permeability transition, and defective mitophagy can lower the threshold for necroptotic injury, although necroptosis can proceed independently of mitochondria.",
+      "zh-TW": "粒線體 ROS、代謝衰竭、粒線體通透性轉變與 mitophagy 缺陷可降低壞死性凋亡損傷的閾值，儘管壞死性凋亡可在無粒線體參與下進行。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence.md",
+    "created": "2026-11-11T22:18:05Z",
+    "updated": "2026-11-11T22:18:05Z"
+  },
+  {
+    "id": "4848be226580",
+    "subject": "NLRP3",
+    "predicate": "assembles_on",
+    "object": "Mitochondria",
+    "context": {
+      "en-US": "NLRP3 and caspase-1 interact with cardiolipin and assemble on mitochondrial membranes, supporting the view that mitochondria function as supramolecular organizing centres for pyroptotic signalling.",
+      "zh-TW": "NLRP3 與 caspase-1 和 cardiolipin 互動並組裝於粒線體膜上，支持粒線體作為焦亡訊息傳遞超分子組織中心的觀點。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence.md",
+    "created": "2026-11-11T22:18:05Z",
+    "updated": "2026-11-11T22:18:05Z"
+  },
+  {
+    "id": "f46614eacf43",
+    "subject": "Gasdermin D",
+    "predicate": "executes",
+    "object": "Pyroptosis",
+    "context": {
+      "en-US": "Gasdermin D is cleaved by inflammatory caspases downstream of inflammasome activation; its N-terminal fragments form membrane pores that drive IL-1β and IL-18 release and pyroptotic cell lysis.",
+      "zh-TW": "Gasdermin D 在發炎體活化下游被發炎性 caspase 切割；其 N 端片段形成膜孔，驅動 IL-1β 與 IL-18 釋放及焦亡性細胞裂解。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence.md",
+    "created": "2026-11-11T22:18:05Z",
+    "updated": "2026-11-11T22:18:05Z"
+  },
+  {
+    "id": "82a403491fb6",
+    "subject": "Gasdermin D",
+    "predicate": "permeabilizes_mitochondria_during",
+    "object": "Pyroptosis",
+    "context": {
+      "en-US": "GSDMD can act on mitochondrial membranes in a cardiolipin-dependent manner, promoting depolarization, ROS production, mitochondrial permeabilization, and release of mitochondrial DAMPs that further amplify pyroptotic signalling.",
+      "zh-TW": "GSDMD 可以 cardiolipin 依賴性方式作用於粒線體膜，促進去極化、ROS 產生、粒線體通透化與粒線體 DAMP 釋放，進一步放大焦亡訊息傳遞。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence.md",
+    "created": "2026-11-11T22:18:05Z",
+    "updated": "2026-11-11T22:18:05Z"
+  },
+  {
+    "id": "c39d5bbaa8e3",
+    "subject": "Gasdermin E",
+    "predicate": "links",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "Gasdermin E links caspase-3-mediated apoptosis to secondary pyroptosis, expanding the gasdermin network that couples mitochondrial dysfunction to inflammatory cell death.",
+      "zh-TW": "Gasdermin E 將 caspase-3 介導的凋亡與次級焦亡連結，擴展了將粒線體功能障礙與發炎性細胞死亡耦合的 gasdermin 網絡。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence.md",
+    "created": "2026-11-11T22:18:05Z",
+    "updated": "2026-11-11T22:18:05Z"
+  },
+  {
+    "id": "fb974573502a",
+    "subject": "Mitochondrial RNA",
+    "predicate": "activates",
+    "object": "Innate Immune System",
+    "context": {
+      "en-US": "Mitochondrial stress can expose mtRNA, including double-stranded species, to innate immune sensors; these RNA species engage antiviral-like pathways even in the absence of infection.",
+      "zh-TW": "粒線體壓力可能使 mtRNA（包括雙股物種）暴露於先天免疫感受器；這些 RNA 物種即使在無感染情況下也能活化類抗病毒路徑。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence.md",
+    "created": "2026-11-11T22:18:05Z",
+    "updated": "2026-11-11T22:18:05Z"
+  },
+  {
+    "id": "91624e1c2e80",
+    "subject": "N-Formyl Peptides",
+    "predicate": "signals_through",
+    "object": "Formyl Peptide Receptor",
+    "context": {
+      "en-US": "N-formyl peptides derived from mitochondrial translation products signal through formyl peptide receptors, recruiting and activating innate immune cells and amplifying NLRP3 activation and redox-sensitive transcriptional responses.",
+      "zh-TW": "源自粒線體翻譯產物的 N-甲醯基胜肽透過甲醯基胜肽受體傳遞訊息，招募並活化先天免疫細胞，放大 NLRP3 活化與氧化還原敏感轉錄反應。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence.md",
+    "created": "2026-11-11T22:18:05Z",
+    "updated": "2026-11-11T22:18:05Z"
+  },
+  {
+    "id": "10ee984d32bc",
+    "subject": "Mitochondrial Translation",
+    "predicate": "produces",
+    "object": "N-Formyl Peptides",
+    "context": {
+      "en-US": "N-formyl peptides are derived from mitochondrial translation products and retain bacterial-like immunogenic features that engage formyl peptide receptors.",
+      "zh-TW": "N-甲醯基胜肽源自粒線體翻譯產物，保留類似細菌的免疫原性特徵，可接合甲醯基胜肽受體。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence.md",
+    "created": "2026-11-11T22:18:05Z",
+    "updated": "2026-11-11T22:18:05Z"
+  },
+  {
+    "id": "9fb65d3c4f0b",
+    "subject": "Mitochondrial Dysfunction-Associated Senescence",
+    "predicate": "induced_by",
+    "object": "NAD+",
+    "context": {
+      "en-US": "Direct impairment of mitochondrial function induces MiDAS in proliferating human cells, associated with a reduced NAD+/NADH ratio, AMPK-dependent p53 activation, and a modified secretory phenotype.",
+      "zh-TW": "直接損害粒線體功能會在增殖中的人類細胞誘導 MiDAS，伴隨著 NAD+/NADH 比率下降、AMPK 依賴性的 p53 活化與改變的分泌性表現型。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence.md",
+    "created": "2026-11-11T22:18:05Z",
+    "updated": "2026-11-11T22:18:05Z"
+  },
+  {
+    "id": "27ea9598352c",
+    "subject": "AMPK",
+    "predicate": "activates",
+    "object": "p53",
+    "context": {
+      "en-US": "In MiDAS, inefficient NADH reoxidation lowers the NAD+/NADH ratio and activates AMPK, which stabilizes p53 to enforce p21-dependent growth arrest.",
+      "zh-TW": "在 MiDAS 中，NADH 再氧化效率降低使 NAD+/NADH 比率下降並活化 AMPK，後者穩定 p53 以執行 p21 依賴性的生長阻滯。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence.md",
+    "created": "2026-11-11T22:18:05Z",
+    "updated": "2026-11-11T22:18:05Z"
+  },
+  {
+    "id": "5f8b458cf4fb",
+    "subject": "Mitochondrial Dysfunction-Associated Senescence",
+    "predicate": "suppresses",
+    "object": "IL-1β",
+    "context": {
+      "en-US": "The AMPK-p53 axis in MiDAS restrains the IL-1-dependent inflammatory arm that normally reinforces the canonical SASP, producing a rewired secretome rather than a stronger generic inflammatory output.",
+      "zh-TW": "MiDAS 中的 AMPK-p53 軸抑制通常強化典型 SASP 的 IL-1 依賴性發炎臂，產生重新連結的分泌體，而非更強的廣泛發炎輸出。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence.md",
+    "created": "2026-11-11T22:18:05Z",
+    "updated": "2026-11-11T22:18:05Z"
+  },
+  {
+    "id": "9f50ea45b8b7",
+    "subject": "cGAS-STING Pathway",
+    "predicate": "drives",
+    "object": "SASP",
+    "context": {
+      "en-US": "In senescent cells, cytosolic mtDNA sustains a SASP-like programme through cGAS-STING, promoting IL-6, TNF, CXCL10, and CCL5 together with interferon-stimulated genes such as ISG15, IFIT2, and IRF7.",
+      "zh-TW": "在衰老細胞中，細胞質 mtDNA 透過 cGAS-STING 維持類 SASP 程序，促進 IL-6、TNF、CXCL10、CCL5 以及干擾素刺激基因（如 ISG15、IFIT2、IRF7）。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence.md",
+    "created": "2026-11-11T22:18:05Z",
+    "updated": "2026-11-11T22:18:05Z"
+  },
+  {
+    "id": "45db9a78acdb",
+    "subject": "Urolithin A",
+    "predicate": "improves",
+    "object": "Muscle Endurance",
+    "context": {
+      "en-US": "In a randomized trial of 66 older adults, urolithin A improved muscle endurance at 2 months and altered selected plasma biomarkers, but between-group differences in 6-minute walk distance and maximal ATP production were not statistically significant.",
+      "zh-TW": "在一項 66 位老年人的隨機試驗中，urolithin A 在 2 個月時改善肌肉耐力並改變部分血漿生物標記，但 6 分鐘步行距離與最大 ATP 產生的組間差異未達統計顯著。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence.md",
+    "created": "2026-11-11T22:18:05Z",
+    "updated": "2026-11-11T22:18:05Z"
+  },
+  {
+    "id": "7cdcca5a94ed",
+    "subject": "Dasatinib",
+    "predicate": "combined_with",
+    "object": "Quercetin",
+    "context": {
+      "en-US": "Dasatinib plus quercetin is the leading senolytic combination; in a randomized phase II trial of 60 postmenopausal women it found no significant between-group difference in the primary endpoint, change in a bone resorption marker at 20 weeks.",
+      "zh-TW": "Dasatinib 加上 quercetin 是主要的 senolytic 組合；在一項 60 位停經後女性的隨機第二階段試驗中，其主要終點（20 週時骨吸收標記的變化）未達組間顯著差異。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence.md",
+    "created": "2026-11-11T22:18:05Z",
+    "updated": "2026-11-11T22:18:05Z"
+  },
+  {
+    "id": "72b89b44bbf7",
+    "subject": "Dapansutrile",
+    "predicate": "inhibits",
+    "object": "NLRP3",
+    "context": {
+      "en-US": "Dapansutrile is an oral selective NLRP3 inflammasome inhibitor evaluated in an open-label phase 2a trial in acute gout; its uncontrolled design and short treatment period limit conclusions about efficacy and long-term safety.",
+      "zh-TW": "Dapansutrile 是一種口服選擇性 NLRP3 發炎體抑制劑，已在急性痛風的開放式第二階段 a 試驗中評估；其非對照設計與短期治療限制了对療效與長期安全性的結論。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence.md",
+    "created": "2026-11-11T22:18:05Z",
+    "updated": "2026-11-11T22:18:05Z"
+  },
+  {
+    "id": "4b78658ced8b",
+    "subject": "Senolytics",
+    "predicate": "reduce",
+    "object": "Senescent Cells",
+    "context": {
+      "en-US": "Senolytic strategies (e.g., dasatinib plus quercetin) aim to reduce senescent cell burden, but clinical efficacy requires confirmation beyond feasibility studies in ageing-related indications.",
+      "zh-TW": "Senolytic 策略（如 dasatinib 加 quercetin）旨在減少衰老細胞負擔，但其臨床療效仍需超過可行性研究的確認，並應在老化相關適應症中驗證。"
+    },
+    "confidence": 0.75,
+    "source_document": "_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence.md",
+    "created": "2026-11-11T22:18:05Z",
+    "updated": "2026-11-11T22:18:05Z"
+  },
+  {
+    "id": "db5f356594ed",
+    "subject": "Mitochondrial Membrane Potential",
+    "predicate": "declines_in",
+    "object": "Aging",
+    "context": {
+      "en-US": "Loss of mitochondrial membrane potential is a unifying theme across cellular senescence and aging, coinciding with increased proton leakage and reduced respiratory capacity.",
+      "zh-TW": "粒線體膜電位喪失是細胞衰老與老化中的統一主題，伴隨著質子滲漏增加與呼吸能力下降。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence.md",
+    "created": "2026-11-11T22:18:05Z",
+    "updated": "2026-11-11T22:18:05Z"
+  },
+  {
+    "id": "fa2ff651e25f",
+    "subject": "Reactive Oxygen Species",
+    "predicate": "activates",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "Mitochondrial ROS activate NF-κB and stress kinases such as p38 MAPK, promoting SASP transcription and inflammatory amplification.",
+      "zh-TW": "粒線體 ROS 活化 NF-κB 與壓力激酶（如 p38 MAPK），促進 SASP 轉錄與發炎放大。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence.md",
+    "created": "2026-11-11T22:18:05Z",
+    "updated": "2026-11-11T22:18:05Z"
+  },
+  {
+    "id": "a7c49b38b713",
+    "subject": "Mitochondrial Dynamics",
+    "predicate": "regulates",
+    "object": "Mitophagy",
+    "context": {
+      "en-US": "Fusion and fission coordinate network remodelling and segregation of damaged components; fission is a prerequisite for efficient mitophagy, and sustained abnormalities in mitochondrial dynamics are sufficient to induce senescence-associated phenotypes.",
+      "zh-TW": "融合與分裂協調網絡重塑與受損成分的分離；分裂是有效 mitophagy 的先決條件，而粒線體動力學的持續異常足以誘導衰老相關表現型。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence.md",
+    "created": "2026-11-11T22:18:05Z",
+    "updated": "2026-11-11T22:18:05Z"
+  },
+  {
+    "id": "c77ddff5255f",
+    "subject": "Mitophagy",
+    "predicate": "clears",
+    "object": "Mitochondria",
+    "context": {
+      "en-US": "Mitophagy selectively delivers mitochondria to lysosomes through PINK1-Parkin signalling and receptor-mediated pathways; effective clearance requires completion of lysosomal degradation.",
+      "zh-TW": "Mitophagy 透過 PINK1-Parkin 訊息傳遞與受體介導路徑，將粒線體選擇性運送至溶酶體；有效清除需要完成溶酶體降解。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence.md",
+    "created": "2026-11-11T22:18:05Z",
+    "updated": "2026-11-11T22:18:05Z"
+  },
+  {
+    "id": "70a1d46f2045",
+    "subject": "Inflammaging",
+    "predicate": "characterized_by",
+    "object": "Sterile Inflammation",
+    "context": {
+      "en-US": "Inflammaging is a chronic, sterile, low-grade inflammatory condition that accompanies ageing and contributes to age-related tissue degeneration and disease susceptibility.",
+      "zh-TW": "發炎性老化是一種慢性、無菌性、低度的發炎狀態，伴隨老化並造成年齡相關組織退化與疾病易感性。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence.md",
+    "created": "2026-11-11T22:18:05Z",
+    "updated": "2026-11-11T22:18:05Z"
+  },
+  {
+    "id": "a328950b6d35",
+    "subject": "Damage-Associated Molecular Patterns",
+    "predicate": "promotes",
+    "object": "Inflammaging",
+    "context": {
+      "en-US": "Persistent release of mitochondrial DAMPs (mtDNA, mtRNA, cardiolipin, N-formyl peptides, ROS) engages TLR9, cGAS-STING, NLRP3, and formyl peptide receptors, converting mitochondrial injury into chronic sterile inflammation.",
+      "zh-TW": "粒線體 DAMP（mtDNA、mtRNA、cardiolipin、N-甲醯基胜肽、ROS）的持續釋放會接合 TLR9、cGAS-STING、NLRP3 與甲醯基胜肽受體，將粒線體損傷轉化為慢性無菌性發炎。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence.md",
+    "created": "2026-11-11T22:18:05Z",
+    "updated": "2026-11-11T22:18:05Z"
+  },
+  {
+    "id": "5b07303688aa",
+    "subject": "Mitochondrial DNA",
+    "predicate": "activates",
+    "object": "NLRP3",
+    "context": {
+      "en-US": "Oxidized mtDNA may potentiate TLR9- and NLRP3-dependent inflammation, linking mitochondrial nucleic-acid release to inflammasome activation.",
+      "zh-TW": "氧化的 mtDNA 可能增強 TLR9 與 NLRP3 依賴性的發炎，將粒線體核酸釋放與發炎體活化連結起來。"
+    },
+    "confidence": 0.75,
+    "source_document": "_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence.md",
+    "created": "2026-11-11T22:18:05Z",
+    "updated": "2026-11-11T22:18:05Z"
+  },
+  {
+    "id": "eeb12f069eae",
+    "subject": "Mitochondrial outer membrane permeabilization",
+    "predicate": "releases",
+    "object": "Mitochondrial RNA",
+    "context": {
+      "en-US": "mtDNA and mtRNA can escape when mitochondrial membranes become permeable during stress, apoptosis-associated MOMP, MPT, or defective mitochondrial quality control.",
+      "zh-TW": "當粒線體膜在壓力、凋亡相關 MOMP、MPT 或粒線體品質控制缺陷期間變得通透時，mtDNA 與 mtRNA 可能逃脫。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence.md",
+    "created": "2026-11-11T22:18:05Z",
+    "updated": "2026-11-11T22:18:05Z"
+  },
+  {
+    "id": "35cb0ed1360d",
+    "subject": "Mitochondrial ROS",
+    "predicate": "promotes",
+    "object": "Telomere Attrition",
+    "context": {
+      "en-US": "Excess mitochondrial ROS oxidize DNA and promote persistent telomere-associated damage, a particularly effective driver of irreversible senescence.",
+      "zh-TW": "過量的粒線體 ROS 氧化 DNA 並促進持續的端粒相關損傷，這是不可逆衰老特別有效的驅動因子。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence.md",
+    "created": "2026-11-11T22:18:05Z",
+    "updated": "2026-11-11T22:18:05Z"
+  },
+  {
+    "id": "c55fb9b5a493",
+    "subject": "Mitochondrial Dysfunction",
+    "predicate": "drives",
+    "object": "Cellular Senescence",
+    "context": {
+      "en-US": "Direct impairment of mitochondrial function is sufficient to induce a stable senescent state with proliferative arrest, altered metabolism, and persistent inflammatory signalling.",
+      "zh-TW": "直接損害粒線體功能足以誘導穩定的衰老狀態，表現為增殖阻斷、代謝改變與持續的發炎訊息傳遞。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence.md",
+    "created": "2026-11-11T22:18:05Z",
+    "updated": "2026-11-11T22:18:05Z"
+  },
+  {
+    "id": "9e5a22fa091b",
+    "subject": "Mitochondrial Dysfunction",
+    "predicate": "drives",
+    "object": "Regulated Cell Death",
+    "context": {
+      "en-US": "Dysfunctional mitochondria generate a permissive state characterized by ATP decline, redox imbalance, impaired mitophagy, membrane remodelling, and danger-signal release that feeds into apoptosis, necroptosis, pyroptosis, and ferroptosis.",
+      "zh-TW": "功能障礙的粒線體產生一種允許狀態，其特徵為 ATP 下降、氧化還原失衡、mitophagy 受損、膜重塑與危險訊號釋放，並輸入凋亡、壞死性凋亡、焦亡與鐵死亡。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence.md",
+    "created": "2026-11-11T22:18:05Z",
+    "updated": "2026-11-11T22:18:05Z"
   }
 ]

@@ -3,7 +3,7 @@ title: Gasdermin E
 description: Gasdermin E (GSDME, formerly DFNA5) — the pore-forming gasdermin cleaved by caspase-3 that converts apoptosis into pyroptosis; its expression level is the molecular switch deciding which death program chemotherapy triggers.
 protected: true
 created: 2026-08-29
-updated: 2026-08-29
+updated: 2026-11-11
 tags:
   - protein
   - cell-death
@@ -30,10 +30,14 @@ aliases:
 > [!important]
 > GSDME and [[Gasdermin D]] are regulated in opposite directions by apoptotic caspases: caspase-3/-7 **activate** GSDME (full pyroptosis) but **inactivate** GSDMD (non-canonical D87 cleavage, pyroptosis brake). The gasdermin substrate available — not the caspase activated — determines the death modality.
 
+> [!info] Source: [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026]]
+> GSDME expands the gasdermin network by linking [[Caspase-3]]-mediated apoptosis to secondary pyroptosis, coupling mitochondrial dysfunction to inflammatory cell death in ageing tissues.
+
 ## Documents
 
 - [[_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9|Crosstalk Among Cell Death Mechanisms (Eskander et al. 2025)]]
   - The caspase-3/GSDME pathway as the chemotherapy-relevant switch between apoptosis and pyroptosis, plus PINK1 mitophagy suppression of caspase-3/GSDME pyroptosis.
+- [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026 — Mitochondrial dysfunction and inflammaging]]: Links GSDME to caspase-3-mediated secondary pyroptosis.
 
 ## Connections
 
