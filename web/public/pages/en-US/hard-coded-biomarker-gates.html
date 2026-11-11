@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Individual Biomarker Gates (hard-coded)</title>
-<meta name="description" content="Discrete, largely immutable individual values (COMT rs4680, urolithin metabotype, NQO1 C609T, CYP3A5, HFE C282Y, APOE ε4, MC1R, karyotype) that determine treatment response. An interactive profile tool with a gate-by-therapy consequence table, population exposure estimates, and a minimum assay panel.">
+<meta name="description" content="Discrete, largely immutable individual values (COMT rs4680, urolithin metabotype, NQO1 C609T, CYP3A5, HFE C282Y, APOE ε4, MC1R, karyotype) associated with individual-level variation in treatment response. An interactive profile tool with a gate-by-therapy consequence table, population exposure estimates, and a three-assay minimum panel.">
 <link rel="canonical" href="https://graph.johnnykuo.com/pages/en-US/hard-coded-biomarker-gates.html">
 <link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/hard-coded-biomarker-gates.html">
 <link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/hard-coded-biomarker-gates.html">
@@ -293,9 +293,9 @@
     <p class="kicker">Biomarkers · Pharmacogenomics · SEP 2026</p>
     <h1>Individual Biomarker Gates <span class="h1-sub">(hard-coded)</span></h1>
     <p class="lede">
-      Mechanistic literature establishes what a compound does. It rarely establishes whether the
-      effect occurs in a given individual. This page compiles the discrete, largely immutable
-      individual values that determine treatment response, quantifies the proportion of exposed
+      Mechanistic literature describes compound action at molecular targets. Human outcome data
+      stratified by individual-level values are sparse in the source corpus. This page compiles the discrete, largely immutable
+      individual values associated with treatment response, quantifies the proportion of exposed
       patients on the adverse side of each value, and provides a profile tool for recording
       measured values alongside current therapy.
     </p>
@@ -311,7 +311,7 @@
       <li><a href="#definition">Definition</a></li>
       <li><a href="#tracker">Profile Tool</a></li>
       <li><a href="#dangers">Unmeasured Gates</a></li>
-      <li><a href="#mechanisms">Four Worked Examples</a></li>
+      <li><a href="#mechanisms">Worked Examples</a></li>
       <li><a href="#panel">Minimum Panel</a></li>
       <li><a href="#limits">Limitations</a></li>
       <li><a href="#refs">References</a></li>
@@ -323,13 +323,13 @@
     <!-- ==================== RATIONALE ==================== -->
     <section id="problem">
       <p class="sec-label">Rationale</p>
-      <h2>Response is a property of the compound and the host</h2>
+      <h2>Compound mechanism and host stratification as determinants of treatment response</h2>
       <p class="drop">
         The source corpus is organised around mechanism: mitohormesis, sirtuins, autophagy,
         senescence, oxidative stress, epigenetics, cell death, and catecholamine oxidation. The
         subject index contains 3,174 notes across 12 topic areas. Within that corpus, the
-        <em>to whom</em> component of a treatment claim — the stratification variable that
-        determines which patients respond — is addressed explicitly in three instances.
+        <em>individual-level stratification of treatment claims</em>
+        is addressed explicitly in three instances.
       </p>
 
       <figure class="fig">
@@ -349,9 +349,9 @@
       <h3>Three gates already established in the corpus</h3>
       <p>
         The profile tool below carries all seventeen, and the <a href="#anatTable">extended
-        panel</a> sets them out side by side. Three warrant naming here because they are the
-        ones already worked through in this repository, and because each fails in a different
-        mode: COMT <em>reverses</em> the direction of a benefit, the urolithin metabotype
+        panel</a> sets them out side by side. Three are described here because the corresponding
+        task outputs exist in the repository and each alters a different step: COMT
+        <em>reverses</em> the direction of a benefit, the urolithin metabotype
         removes the mechanism's first step for most of the population, and karyotype changes
         which cell-death programme is available. Source documents, from the list above:
         <a class="cite" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_comt_vitamin_e_genotype_gate_24_Sep_2026.md" target="_blank" rel="noopener noreferrer"><code>task_output_comt_vitamin_e_genotype_gate_24_Sep_2026</code></a>,
@@ -360,10 +360,10 @@
       </p>
       <div class="callout">
         <p>
-          <strong>Interpretation.</strong> These findings do not indicate that α-tocopherol is
+          <strong>Interpretation of the COMT–α-tocopherol finding.</strong> These findings do not indicate that α-tocopherol is
           unsuitable as a class. They indicate that in approximately one quarter of users the
           expected direction of effect is reversed, and that this is detectable before exposure.
-          The correct response is measurement prior to treatment, not revision of the mechanistic
+          These findings support measuring the stratifying value before exposure; they do not require revision of the mechanistic
           account.
         </p>
       </div>
@@ -409,12 +409,12 @@
             <tr>
               <td><span class="gbadge C">C</span></td>
               <td>Association only, confounded by ancestry, or with documented genotype–phenotype discordance</td>
-              <td>Assay activity directly; treat the genotype as a weak prior</td>
+              <td>The activity assay is the informative measurement; genotype is a weak prior</td>
             </tr>
             <tr>
               <td><span class="gbadge D">D</span></td>
               <td>Mechanistically plausible without human outcome data</td>
-              <td>Research priority only. The absence of routine measurement is itself the finding</td>
+              <td>Research priority only. These values are recorded as unmeasured.</td>
             </tr>
           </tbody>
         </table>
@@ -431,7 +431,7 @@
           unusually reliable because COMT activity is closely determined by rs4680 (3–4-fold
           separation with limited within-category variance); this degree of concordance is
           uncommon. Where genotype predicts function, genotype is sufficient; where it does not,
-          measure the enzyme.
+          the enzyme activity assay is required.
         </p>
       </div>
     </section>
@@ -441,13 +441,13 @@
       <p class="sec-label">Profile Tool</p>
       <h2>Recording measured values against current therapy</h2>
       <p>
-        Enter the values that have been measured. A row left unassigned is recorded as
+        The tool accepts values that have been measured. A row left unassigned is recorded as
         <span class="sev sev-unknown">not measured</span>, which corresponds to the default
-        condition in clinical practice. Select the therapies currently taken or under consideration;
-        the output identifies those for which the stratifying value has not been established.
+        condition in clinical practice. Interventions currently taken or under consideration are
+        selected below; the output identifies those for which the stratifying value has not been established.
       </p>
       <p>
-        Each card carries three things in order: why the value is a gate, <em>where it acts</em> —
+        Each card reports three items in order: why the value is a gate, <em>where it acts</em> —
         the anatomical compartment in which it is expressed and in which its consequence is
         executed, which is often not the organ that produces it — and the pathway axis, assay and
         population shares. The <a href="#anatTable">extended panel</a> sets the same gates side by
@@ -464,30 +464,29 @@
         </select>
       </div>
       <p class="tbl-note">
-        Population shares are approximations derived from the cited cohorts and vary substantially
+        Population shares are approximations derived from the cited cohorts and vary
         by ancestry. Several gates are uncommon in the populations in which they were first
         characterised and common elsewhere — for NQO1 T/T, 2–5% in European and Black populations
         against approximately 20% in Asian populations. Shares indicate the scale of exposure in a
-        population and should not be applied to an individual.
+        population and are not applicable to an individual.
       </p>
       <p class="tbl-note">
-        <b>One gate is exempt from all of the above.</b> Karyotype is not sampled from a
+        <b>Karyotype is not a population-frequency gate.</b> Karyotype is not sampled from a
         population — it is read directly off the individual, and reproductive stage is
         fixed by that individual's age. There is no distribution to draw a percentage
         from, so this gate carries no ancestry-varying shares, its two XX stages carry no
         percentage at all, and its row in Figure 3 and in the register is reported as
         <code>n/a</code> rather than as a small number. Karyotype composition is
         ancestry-invariant (46,XY ≈ 50%; 45,X pooled birth prevalence 31.5 per 100,000
-        female live births, 47,XXY 1 in 500–1000 male births). A short bar here would read
-        as "a small fraction is at risk", which is the opposite of the truth: the gate
-        applies in full, to every individual, once the value is known.
+        female live births, 47,XXY 1 in 500–1000 male births). A short bar would indicate a small
+        fraction at risk; the gate applies to every individual once the value is known.
       </p>
 
       <div id="gates"></div>
 
       <h3>Current and planned therapy</h3>
       <p>
-        Select all applicable interventions and protocols.
+        All applicable interventions and protocols are listed below.
       </p>
       <div class="rx-list" id="rxList"></div>
 
@@ -498,9 +497,9 @@
         <button class="btn" type="button" onclick="window.print()">Print / PDF</button>
       </div>
       <p class="tbl-note">
-        Nothing is stored: this profile is discarded when the page is closed. Use Export to keep
-        a copy. Values are self-reported and are not verified against a laboratory report; an
-        incorrect entry will produce an incorrect output without warning.
+        Nothing is stored: this profile is discarded when the page is closed. The Export control
+        writes a JSON copy. Values are self-reported and are not verified against a laboratory report; an
+        incorrect entry produces an incorrect output without warning.
       </p>
 
       <figure class="fig">
@@ -513,7 +512,7 @@
           interventions by consequence class. Interventions classified as
           <span class="sev sev-harm">increased risk</span> warrant review before continued
           exposure. The <span class="sev sev-unknown">not measured</span> category represents
-          the usual condition and is the principal finding of this analysis.
+          the usual condition; the analysis reports the proportion of selected interventions with unmeasured stratifiers.
         </figcaption>
       </figure>
 
@@ -522,7 +521,7 @@
 
       <div class="callout warn">
         <p>
-          <strong>Interpret the evidence grade before the output.</strong> A Grade A entry
+          <strong>Evidence grade and output interpretation.</strong> A Grade A entry
           indicates that the gate–intervention relationship is replicated; it does not constitute
           an instruction to initiate or discontinue treatment. Grade D entries (mtDNA
           haplogroup, KEAP1/NRF2 haplotypes as a dosing variable, X-chromosome inactivation
@@ -542,7 +541,7 @@
         of exposed patients whose stratifying value places them in a consequential state, and
         the nature of that consequence. Consequential states are: reversal of the expected
         direction of effect, absence of the mechanism's first step, sub-therapeutic exposure
-        recorded as non-response, and omission of an indicated intervention. A bar of 60% means
+        recorded as non-response, and omission of an indicated intervention. A 60% bar indicates
         that in roughly 60% of users the stratifying value has not been established and, on
         population frequencies, would be expected to alter the outcome.
       </p>
@@ -556,14 +555,14 @@
           distribution for the selected reference population, ordered by gate value. The
           uncoloured portion comprises values for which the gate is not consequential.
           Highlighted segments: <span style="color:var(--sev-harm)">increased risk</span>,
-          <span style="color:var(--sev-blind)">predicted no-op</span>,
-          <span style="color:var(--sev-under)">under-exposed</span>,
-          <span style="color:var(--sev-miss)">missed therapy</span>. The right-hand value is the
+          <span style="color:var(--sev-blind)">mechanism not initiated</span>,
+          <span style="color:var(--sev-under)">sub-therapeutic exposure</span>,
+          <span style="color:var(--sev-miss)">indicated intervention omitted</span>. The right-hand value is the
           total consequential proportion. Segment hover reports the gate, the value, and the
-          consequence. Changing the reference population rescales all values; rapamycin,
-          α-tocopherol, and the quinone redox protocol are the most ancestry-sensitive.
+          consequence. Selecting a different reference population rescales all shares; rapamycin,
+          α-tocopherol, and the quinone redox protocol show the largest ancestry-dependent variation.
           <br><br>
-          One row — SIRT-targeted longevity stacking — is drawn as a dashed outline rather than
+          One row — SIRT-targeted combination protocol — is drawn as a dashed outline rather than
           segments, and its total is printed as a range. The SIRT3/SIRT6 gate's values overlap:
           the "common alleles" category is the residue after the two named variants, so a carrier
           of either is also counted in it. Laying those out as adjacent segments would assert a
@@ -586,19 +585,19 @@
               <td>α-tocopherol in Val/Val COMT carriers</td>
             </tr>
             <tr>
-              <td><span class="sev sev-blind">Predicted no-op</span></td>
-              <td>The mechanism's entry step is absent or substituted. Nothing downstream happens.</td>
+              <td><span class="sev sev-blind">Mechanism not initiated</span></td>
+              <td>The mechanism's entry step is absent or substituted. Downstream steps are not initiated.</td>
               <td>Recorded as non-responder; excluded from the trial; the mechanism is attributed as ineffective.</td>
               <td>Dietary ellagitannins in metabotype-0 individuals</td>
             </tr>
             <tr>
-              <td><span class="sev sev-under">Under-exposed</span></td>
+              <td><span class="sev sev-under">Sub-therapeutic exposure</span></td>
               <td>The agent is present at an inadequate concentration; apparent non-response is pharmacokinetic in origin.</td>
               <td>Non-responder classification applied to an agent that is effective at adequate exposure.</td>
               <td>Rapamycin in a CYP3A5 expressor maintained on a fixed low dose</td>
             </tr>
             <tr>
-              <td><span class="sev sev-miss">Indicated, omitted</span></td>
+              <td><span class="sev sev-miss">Indicated intervention omitted</span></td>
               <td>An indicated intervention is withheld, or an unsuitable one is applied, because the value is unknown.</td>
               <td>Standard care delivered without reference to the subpopulation that requires modification.</td>
               <td>Iron management in a C282Y homozygote; hormone replacement in perimenopausal XX individuals</td>
@@ -640,7 +639,7 @@
         screening recommendation.
       </p>
 
-      <h3>Five structural deficiencies</h3>
+      <h3>Five structural gaps in the corpus</h3>
       <ol class="rank-list">
         <li>
           <span class="k">01</span>
@@ -654,8 +653,8 @@
           <span><b>Microbial phenotypes are less developed than germline genotypes.</b> Urolithin
           metabotype is characterised; TMAO producer status is not. This is relevant because
           spermidine, fisetin, berberine, quercetin, resveratrol, and urolithin all act partly
-          through the microbiome, so an incorrect metabotype nullifies the intervention
-          irrespective of dose.</span>
+          through the microbiome, so an incorrect metabotype assignment removes the intervention's
+          first step at any dose.</span>
         </li>
         <li>
           <span class="k">03</span>
@@ -686,7 +685,7 @@
     <!-- ==================== MECHANISMS ==================== -->
     <section id="mechanisms">
       <p class="sec-label">Worked Examples</p>
-      <h2>Four gates in detail</h2>
+      <h2>Mechanisms of four stratifying values</h2>
       <p>
         In each of the following, the stratifying value determines whether the mechanism can be
         engaged at all, rather than modulating its magnitude. These are the four relationships
@@ -773,7 +772,7 @@
       <h3>CYP3A5 and FKBP1A in rapamycin dosing</h3>
       <p>
         Between 20% and 40% of off-label rapamycin users report no benefit. Pharmacokinetic
-        variation accounts for a substantial proportion of this. Sirolimus AUC has a
+        variation accounts for a proportion of this; the fraction is not quantified. Sirolimus AUC has a
         inter-individual coefficient of variation exceeding 40%. CYP3A5 <code>*1</code>
         expressors, comprising 15–25% of European-ancestry and 60–70% of African-ancestry
         individuals, clear sirolimus 40–60% faster. In the Mannick dose-escalation study, 22% of
@@ -804,7 +803,7 @@
           the Mannick cohort fell beneath. The expressor is therefore not pharmacologically
           resistant
           to rapamycin — adequate exposure was never achieved, and classifying such a patient as an
-          mTORC1 non-responder is a false attribution. The third trace represents FKBP12
+          mTORC1 non-responder attributes a pharmacokinetic finding to the mechanism. The third trace represents FKBP12
           loss-of-function, in which concentrations do not enter the target range at any dose
           because complex formation does not occur. Profiles are schematic, derived from the
           reported inter-individual AUC variation and the 22% sub-1 ng/mL finding, and do not
@@ -816,7 +815,7 @@
     <!-- ==================== PANEL ==================== -->
     <section id="panel">
       <p class="sec-label">Recommended Testing</p>
-      <h2>Minimum panel</h2>
+      <h2>Three-assay minimum panel</h2>
       <p>
         Three assays account for the largest share of consequential exposure across the
         interventions in this analysis. Between them they address one intervention that
@@ -843,7 +842,7 @@
         expressed and in which its consequence is executed — not where the gene is
         transcribed, which is often a different organ. The <em>Discrete value</em> and
         <em>Grade</em> columns restate the gate cards, which are the source of truth; the
-        point of this table is the anatomical column and the comparison across gates.
+        anatomical column provides the comparison across gates.
       </p>
       <div class="table-wrap">
         <table id="anatTable">
@@ -864,19 +863,19 @@
 
       <h4>Six patterns in the anatomical columns</h4>
       <p>
-        These do not fit in a per-gate row, and they are the reason the column is worth
-        reading across rather than down.
+        These patterns are not representable in a per-gate row and are reported by comparison
+        across gates.
       </p>
       <ol class="rank-list">
         <li>
           <span class="k">01</span>
-          <span><b>Produced in one organ, executed in another.</b> APOE4 is made by
+          <span><b>Synthesis and site of action in different organs.</b> APOE4 is made by
           hepatocytes and acts on brain microglia; PON1 is made in the liver and acts at
           the arterial intima; TMAO is produced in the colon, detoxified in the liver and
           acts on the vessel wall; urolithin A is produced in the colon and acts in muscle,
           adipose, liver and brain. For these the assay compartment and the consequence
-          compartment are anatomically separated, which is why plasma surrogates misreport
-          and why the organ that manufactures the effector is not the organ that suffers.</span>
+          compartment are anatomically separated; plasma measurements do not report the tissue concentration.
+          The site of synthesis differs from the site of the consequence.</span>
         </li>
         <li>
           <span class="k">02</span>
@@ -890,22 +889,22 @@
           <span class="k">03</span>
           <span><b>Gates that set exposure, not response.</b> CYP3A5, CYP1A2/ADORA2A and
           TMA producer status all change how much active compound reaches the tissue. All are
-          correctable by dose, and all are currently misreported as pharmacological
-          non-response.</span>
+          correctable by dose and are recorded as pharmacological non-response when exposure
+          has not been measured.</span>
         </li>
         <li>
           <span class="k">04</span>
           <span><b>Gates that set a window rather than a target.</b> SOD2 rs4880 sets the
           <em>width</em> of the hormetic window through the SIRT3/SIRT4 ratio; reproductive
-          stage sets a trajectory rather than a current value. A numeric threshold is the
-          wrong output format for either.</span>
+          stage sets a trajectory rather than a current value. Neither value is represented by
+          a single numeric threshold.</span>
         </li>
         <li>
           <span class="k">05</span>
           <span><b>Gates whose sign flips with the indication.</b> NQO1 T/T is
           <em>harmful</em> in a quinone redox-donor/terminator protocol and
           <em>disqualifying</em> in NQO1-bioactivated chemotherapy. APOE4 is
-          <em>missed therapy</em> for cGAS inhibition and <em>predicted no-op</em> for a
+          <em>indicated intervention omitted</em> for cGAS inhibition and <em>mechanism not initiated</em> for a
           ketogenic diet. Severity is therefore a property of the (genotype, intervention)
           pair, never of the genotype alone.</span>
         </li>
@@ -915,8 +914,8 @@
           expresses only against a somatic TERT promoter mutation; the SIRT3/SIRT6 longevity
           variants express only against karyotype; KL-VS expresses only against APOE ε4
           dosage; menopausal status modifies the HFE iron threshold. This compositional
-          structure is not visible in a flat list of gates and is the most common source of
-          wrong conclusions drawn from single-assay panels.</span>
+          structure is not visible in a flat list of gates and is a source of
+          misclassification in single-assay panels.</span>
         </li>
       </ol>
 
@@ -930,7 +929,7 @@
         threshold for phlebotomy. A C282Y homozygote above these thresholds has an indicated
         iron-directed intervention, and an antioxidant-only regimen addresses a consequence
         rather than the underlying iron accumulation. Prevalent iron overload is more common in
-        men than in premenopausal women, since menstrual blood loss constitutes an iron sink;
+        men than in premenopausal women, since menstrual blood loss removes iron;
         this connects the HFE gate to the karyotype gate.
       </p>
     </section>
@@ -955,7 +954,7 @@
           was established constitutes extrapolation.
         </li>
         <li>
-          <strong>The finding is unmeasured values, not genetic determinism.</strong> See
+          <strong>The analysis concerns unmeasured stratifying values rather than genetic determinism.</strong> See
           <a href="#problem">Rationale</a>.
         </li>
         <li>
@@ -971,7 +970,7 @@
         </li>
         <li>
           <strong>Documented negative results are retained.</strong> GPX1 Pro200Leu does not
-          substantially modify whole-blood GPx response to selenium supplementation (Miller 2012).
+          modify whole-blood GPx response to selenium supplementation (Miller 2012; effect size not quantified).
           A candidate gate that was tested and did not stratify response remains part of the
           evidence base.
         </li>
@@ -991,12 +990,12 @@
         <li>Wendt AK et al. <em>JAMA Dermatol</em>, 2016 — UV-independent MC1R melanoma risk.</li>
         <li>Jarvik GP et al. <em>ATVB</em> 20(11):2441–2447, 2000 — PON1 phenotype variance exceeds genotype.</li>
         <li>Selma MV et al. <em>Clin Nutr</em> 37(3):897–905, 2018 — urolithin metabotype prevalence (A/B/0) by cohort.</li>
-        <li>Singh R et al. <em>JAMA Netw Open</em>, 2021 — direct UA supplementation overcomes individual microbiome limitations (N=100, 12% detectable UA glucuronide at baseline, ~40% converting after pomegranate). <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8821002" target="_blank" rel="noopener noreferrer">PMC8821002</a></li>
+        <li>Singh R et al. <em>JAMA Netw Open</em>, 2021 — direct UA supplementation bypasses microbiome conversion (N=100, 12% detectable UA glucuronide at baseline, ~40% converting after pomegranate). <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8821002" target="_blank" rel="noopener noreferrer">PMC8821002</a></li>
         <li>Andreux PA et al. <em>Nat Metab</em> 1(6):595–603, 2019 — urolithin A human RCT.</li>
         <li>Taub H et al. (PEARL) / Mannick JB et al. — sirolimus dose escalation, troughs, PD-1.</li>
         <li>Diederichsen M et al. <em>PLoS One</em>, 2013 — APOE × KL-VS, CSF biomarkers in an AD-risk-enriched cohort.</li>
         <li>Adams PC et al. <em>Haematologica</em>, 2017 — Hemochromatosis International treatment recommendations (TSAT/ferritin thresholds).</li>
-        <li>Kanfi S et al. <em>Nature</em> 2012 — SIRT6 male-specific lifespan extension.</li>
+        <li>Kanfi S et al. <em>Nature</em> 2012 — SIRT6 male-specific lifespan extension in mice.</li>
         <li>Roichman R et al. <em>Nat Commun</em> 2021, PMID 34050173 — SIRT6 in both sexes, hepatic NAD+.</li>
         <li>Hirvonen M et al. 2017 — SIRT6 rs117385980, Finnish men; Goronzy JJ et al. <em>Trends Genet</em> 2014 — sirtuin longevity SNPs.</li>
         <li>Giunco S et al. <em>Oncotarget</em> 2017 — TERT promoter rs2853669 meta-analysis (a modifier, not a risk gene).</li>
@@ -1031,23 +1030,23 @@ var GATES = [
     /* Not a population-frequency gate. Karyotype is read directly off the
        individual, and reproductive stage is determined by that individual's
        age — there is no sampling distribution to draw a percentage from. The
-       previous values here were invented-looking ancestry columns (24/24/27/48)
-       that made the reference-population selector appear to change a number
-       that cannot change. Composition is ancestry-invariant (see vals); the
+       previous values here were ancestry columns (24/24/27/48)
+       that implied the reference-population selector changed a value
+       that cannot vary. Composition is ancestry-invariant (see vals); the
        stage split has no defensible single value at all. drawMass() draws this
        row differently and buildGapTable() reports n/a for it. */
     observed: true,
     assay: "Karyotype with menstrual or androgen-blockade status",
-    why: "Estrogen is a principal mediator of the sirtuin, NAD+, mitohormesis, autophagy and cell-death pathways, and whether estrogen-dependent therapy is indicated is the Grade A part of this gate — that is well established and does not rest on the cardiac literature. The cardiac phenotype is a weaker citation and is often overstated. Barcena de Arellano et al. (Aging 2019;11:1918–33, PMC6503880) report reduced SIRT1, SIRT3 and SOD2 protein EXPRESSION with NF-κB p50 elevation, CD68+ macrophage accumulation and IL-18 upregulation in old female ventricles, against unchanged SIRT1/SIRT3 in male. Four limits on that finding. It is expression, not activity: the only activity proxy measured, AMPK phosphorylation, fell in BOTH sexes, which is evidence against a sex difference at the activity level. Menopausal status was never recorded — donors were binned 17–40 versus 50–68, and that upper bin straddles a median menopause of about 51, so 'aged female' cannot be read as 'postmenopausal female'. The aged male heart moved the opposite way rather than standing still: SOD2 and catalase were elevated, NF-κB p50 markedly reduced, TOM40 upregulated, and the authors identify that divergence as the source of the sex difference. And the cohorts are small (n=6–8 per group, cross-sectional), with the authors' own caveat that statistical significance may not accurately show age or sex differences. PGC-1α and TFAM were unchanged, which argues against the obvious PGC-1α→SOD2 route; the authors offer it as speculation, as they do the estrogen mechanism (they note estrogen RISES with age in men, which would reverse the therapeutic inference). So: the sex divergence in cardiac sirtuin expression is real and interesting; a menopause-specific, activity-level, intervention-defining claim is not supported by this study. The cell-death claim is separately Grade B — XX and XY neurons subjected to the same insult engage different death machinery (caspase-8/3 versus PARP1/AIF), SIRT6 overexpression extends lifespan in males only, and caloric restriction and rapamycin produce larger lifespan extensions in males and females respectively. Those are in-vitro insult paradigms, a transgenic overexpression result and mouse lifespan findings, not human outcome data, and do not extrapolate. See <a class='cite' href='https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md' target='_blank' rel='noopener noreferrer'><code>task_output_gender_specific_attributes_vault_topics_02_SEP_2026</code></a>.",
-    anatomy: "The gate is hormonal and the hormone is produced in hypothalamus-driven endocrine tissue — ovarian follicle in XX, testis in XY, with androgen blockade as the XY analogue of menopause. The tissue that reads it is nearly everything: myocardium, bone, brain. The load-bearing consequence is that this gate determines which cell-death programme is available, not how fast it runs. XX neurons subjected to the same insult engage caspase-8/3 apoptosis; XY neurons engage PARP1/AIF parthanatosis, with necroptosis as the neighbouring modality. That asymmetry is in-vitro insult-paradigm data, not human outcome data, and is graded separately from the endocrine indication below.",
+    why: "Estrogen is a principal mediator of the sirtuin, NAD+, mitohormesis, autophagy and cell-death pathways, and whether estrogen-dependent therapy is indicated is the Grade A part of this gate — that is well established and does not rest on the cardiac literature. The cardiac citation is Grade B and does not support a menopause-specific activity-level claim. Barcena de Arellano et al. (Aging 2019;11:1918–33, PMC6503880) report reduced SIRT1, SIRT3 and SOD2 protein expression with NF-κB p50 elevation, CD68+ macrophage accumulation and IL-18 upregulation in old female ventricles, against unchanged SIRT1/SIRT3 in male. Four limitations apply. It is expression, not activity: the only activity proxy measured, AMPK phosphorylation, fell in both sexes, which is evidence against a sex difference at the activity level. Menopausal status was never recorded — donors were binned 17–40 versus 50–68, and that upper bin straddles a median menopause of about 51, so 'aged female' cannot be read as 'postmenopausal female'. Aged male ventricles showed changes in the opposite direction: SOD2 and catalase were elevated, NF-κB p50 markedly reduced, TOM40 upregulated, and the authors identify that divergence as the source of the sex difference. And the cohorts are small (n=6–8 per group, cross-sectional), with the authors' own caveat that statistical significance may not accurately show age or sex differences. PGC-1α and TFAM were unchanged, which argues against the PGC-1α→SOD2 route; the authors offer it as speculation, as they do the estrogen mechanism (they note estrogen increases with age in men, which would reverse the therapeutic inference). Cardiac sirtuin expression differs by sex in this cohort; a menopause-specific, activity-level, intervention-defining claim is not supported. The cell-death claim is separately Grade B — XX and XY neurons subjected to the same insult engage different death machinery (caspase-8/3 versus PARP1/AIF), SIRT6 overexpression extends lifespan in male mice only, and caloric restriction and rapamycin produce larger lifespan extensions in male and female mice respectively. These are in-vitro insult paradigms, a transgenic overexpression result and mouse lifespan findings, not human outcome data. See <a class='cite' href='https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_gender_specific_attributes_vault_topics_02_SEP_2026.md' target='_blank' rel='noopener noreferrer'><code>task_output_gender_specific_attributes_vault_topics_02_SEP_2026</code></a>.",
+    anatomy: "The gate is hormonal and the hormone is produced in hypothalamus-driven endocrine tissue — ovarian follicle in XX, testis in XY, with androgen blockade as the XY analogue of menopause. Responsive tissues include myocardium, bone and brain. This gate determines which cell-death programme is available, not the rate at which it proceeds. XX neurons subjected to the same insult engage caspase-8/3 apoptosis; XY neurons engage PARP1/AIF parthanatosis, with necroptosis as an adjacent modality. That asymmetry is in-vitro insult-paradigm data, not human outcome data, and is graded separately from the endocrine indication below.",
     topics: "Sirtuins · NAD+ · SIRT3-SIRT4 Ratio · Autophagy/mTORC1 · Apoptosis vs necrosis · SASP/Inflammaging · Telomere · p53",
     vals: [
       // No prev on the two XX stages: the split between them is a function of
-      // the age distribution of whoever is being prescribed the drug, not a
+      // the age distribution of the treated individuals, not a
       // property of the population. Pooled age at natural menopause is ~49–51
       // years (36-study meta-analysis) with regional differences of ~1–3 years,
-      // which is far too coarse to put a percentage on. The individual is
-      // either menopausal or she is not.
+      // which does not support a single percentage. The individual is
+      // either menopausal or not.
       { v: "xxpre", l: "XX", s: "premenopausal" },
       { v: "xxpost", l: "XX", s: "peri / post" },
       // Ancestry-invariant. The previously-shown value was 0.48, and the
@@ -1063,8 +1062,8 @@ var GATES = [
   {
     id: "comt", name: "COMT Val158Met", code: "rs4680", grade: "A",
     assay: "Saliva SNP or buccal swab",
-    why: "Enzyme activity differs 3–4-fold between genotypes with limited within-category variance, which is unusual and makes genotype an adequate proxy for activity. This value determines the direction of the α-tocopherol effect, the tolerance of methyl donors, and — because fisetin is a validated COMT substrate inhibitor (IC₅₀ 2.6–5.8 µM) — senolytic exposure.",
-    anatomy: "Highest expression in liver and kidney, the classic catecholamine-clearance organs, with substantial expression in dopamine-rich prefrontal cortex; also erythrocytes, which is why the activity phenotype is readable from a cheek epithelial scrape rather than a biopsy. The pharmacology sits in the liver, where high-dose alpha-tocopherol is cleared faster in Val/Val. The intersection with estrogen is direct: catechol estrogens are neutralised by COMT-dependent methylation, so slow COMT means slower oestrogen-metabolite clearance.",
+    why: "Enzyme activity differs 3–4-fold between genotypes with limited within-category variance, so genotype is an adequate proxy for activity. This value determines the direction of the α-tocopherol effect, the tolerance of methyl donors, and — because fisetin is a validated COMT substrate inhibitor (IC₅₀ 2.6–5.8 µM) — senolytic exposure.",
+    anatomy: "Highest expression in liver and kidney, the catecholamine-clearance organs, with expression in dopamine-rich prefrontal cortex; also erythrocytes, which is why the activity phenotype is readable from a cheek epithelial scrape rather than a biopsy. Hepatic clearance of high-dose alpha-tocopherol is faster in Val/Val. The intersection with estrogen is direct: catechol estrogens are neutralised by COMT-dependent methylation, so slow COMT means slower oestrogen-metabolite clearance.",
     topics: "Dopamine · Prefrontal Cortex · Alpha-tocopherol · Aspirin · Fisetin/Quercetin/EGCG · Methylation Cycle · Modafinil",
     vals: [
       { v: "VV", l: "Val/Val", s: "fast", prev: { eur: .29, eas: .52, blk: .43, oth: .35 } },
@@ -1079,16 +1078,16 @@ var GATES = [
     anatomy: "The conversion happens in the colon, on ellagitannin substrate arriving from pomegranate, walnut and strawberry, and no host tissue is required for the first step. The metabolite then acts systemically, with the highest mitophagy receptor density in skeletal muscle, adipose tissue, liver and brain. This is the one gate in the set that is potentially modifiable, by prebiotics, next-generation probiotics or antibiotics, which makes it an ecological phenotype rather than a germline genotype.",
     topics: "Mitophagy · AMPK/mTORC1/PGC-1α · Oxidative Stress · NAD+ · Metabolic Syndrome · Cancer prevention",
     vals: [
-      { v: "A", l: "Metabotype A", s: "makes UA", prev: { eur: .40, eas: .40, blk: .40, oth: .40 } },
-      { v: "B", l: "Metabotype B", s: "makes isourolithin A", prev: { eur: .10, eas: .10, blk: .10, oth: .10 } },
+      { v: "A", l: "Metabotype A", s: "produces urolithin A", prev: { eur: .40, eas: .40, blk: .40, oth: .40 } },
+      { v: "B", l: "Metabotype B", s: "produces isourolithin A", prev: { eur: .10, eas: .10, blk: .10, oth: .10 } },
       { v: "0", l: "Metabotype 0", s: "no urolithin", prev: { eur: .50, eas: .50, blk: .50, oth: .50 } }
     ]
   },
   {
     id: "mc1r", name: "MC1R variant class", code: "R-class / r-class / wild-type", grade: "A",
-    assay: "MC1R sequencing (or phenotype: red hair + freckling + always-burn history)",
+    assay: "MC1R sequencing (or phenotype: red hair + freckling + history of burning without tanning)",
     why: "Pheomelanin generates reactive oxygen species and depletes glutathione during synthesis, so carriers of R-class alleles have a higher baseline oxidant load arising from the pigment biosynthetic pathway, together with approximately two-fold melanoma risk that is independent of UV exposure.",
-    anatomy: "The canonical site is the melanocyte, in the epidermal basal layer and the hair follicle, and less obviously in the eye: retinal pigment epithelium and photoreceptors carry the same pigment biosynthetic programme. The second, separate site is brain — MC1R is expressed on neurons and astrocytes, and loss-of-function associates with Parkinson's risk with the vulnerable population being dopaminergic neurons of the substantia nigra. A dermatologic variant is therefore also a neurologic risk factor, and the mechanism linking them runs in the substantia nigra rather than in the skin.",
+    anatomy: "The primary site is the melanocyte, in the epidermal basal layer and the hair follicle, and additionally in the eye: retinal pigment epithelium and photoreceptors carry the same pigment biosynthetic programme. The second, separate site is brain — MC1R is expressed on neurons and astrocytes, and loss-of-function associates with Parkinson's risk with the vulnerable population being dopaminergic neurons of the substantia nigra. A dermatologic variant is therefore also a neurologic risk factor, and the shared mechanism is localised to the substantia nigra rather than the skin.",
     topics: "MC1R · Pheomelanin/Neuromelanin · Melanins/Tyrosinase · Parkinson's Disease · Melanoma · Oxidative Stress",
     vals: [
       { v: "R", l: "R-class", s: "dysfunctional", prev: { eur: .14, eas: .05, blk: .08, oth: .10 } },
@@ -1100,7 +1099,7 @@ var GATES = [
     id: "nqo1", name: "NQO1 C609T", code: "rs1800566 (Pro187Ser)", grade: "A",
     assay: "Saliva SNP, or NQO1 activity in saliva / biopsy",
     why: "Determines whether a quinone is reduced by two electrons to a stable, detoxifiable hydroquinone or by one electron to a semiquinone that undergoes redox cycling. The genotype therefore determines the direction rather than the magnitude of the effect. T/T is functionally null, with no detectable NQO1 protein in saliva, bone marrow, lung epithelium, or endothelium.",
-    anatomy: "Cytosolic and ubiquitous, highest in the organs of xenobiotic handling — liver, gastrointestinal tract wall, kidney and lung epithelium — which is why T/T has no detectable protein in saliva, bone marrow, lung epithelium or endothelium. The relevant quinones are adrenochrome and aminochromes, so the gate sits inside the adrenal-medullary and CNS catechol programme rather than in general oxidative stress.",
+    anatomy: "Cytosolic and ubiquitous, highest in the organs of xenobiotic handling — liver, gastrointestinal tract wall, kidney and lung epithelium — which is why T/T has no detectable protein in saliva, bone marrow, lung epithelium or endothelium. The relevant quinones are adrenochrome and aminochromes, so the gate acts within the adrenal-medullary and CNS catechol programme rather than in general oxidative stress.",
     topics: "NQO1 · Oxidative Stress · Adrenochrome/Aminochromes · Hormesis · Cancer/p53",
     vals: [
       { v: "CC", l: "C/C", s: "full activity", prev: { eur: .66, eas: .48, blk: .70, oth: .62 } },
@@ -1111,8 +1110,8 @@ var GATES = [
   {
     id: "cyp3a5", name: "CYP3A5 status", code: "*1 expressor / non-expressor; FKBP1A LOF", grade: "B",
     assay: "CYP3A5 *1 / *3 genotyping (+ FKBP1A sequencing; whole-blood sirolimus trough as the pharmacodynamic check)",
-    why: "A substantial proportion of apparent non-response is pharmacokinetic. AUC varies by more than 40% between individuals, expressors clear 40–60% faster, and 22% of the Mannick dose-escalation cohort maintained on 2 mg weekly had troughs below 1 ng/mL. FKBP12 loss-of-function is a separate category that is not correctable by dose escalation.",
-    anatomy: "The site of this gate is the liver and the small-intestinal wall, the two organs that clear a systemically available drug. FKBP1A acts everywhere, but its consequence is only visible where mTORC1 is receptor-proximal: T cell proliferation, osteoclast differentiation, hepatocyte and neuron autophagy programmes. Whole-blood sirolimus trough measures systemic exposure; p70S6 kinase Thr389 measures downstream engagement in the sampled nucleated cells. The liver decides the dose, the blood decides whether the dose was enough, and neither is the target.",
+    why: "A proportion of apparent non-response is pharmacokinetic; the fraction is not quantified. AUC varies by more than 40% between individuals, expressors clear 40–60% faster, and 22% of the Mannick dose-escalation cohort maintained on 2 mg weekly had troughs below 1 ng/mL. FKBP12 loss-of-function is a separate category that is not correctable by dose escalation.",
+    anatomy: "The site of this gate is the liver and the small-intestinal wall, the two organs that clear a systemically available drug. FKBP1A acts everywhere, but its consequence is only visible where mTORC1 is receptor-proximal: T cell proliferation, osteoclast differentiation, hepatocyte and neuron autophagy programmes. Whole-blood sirolimus trough measures systemic exposure; p70S6 kinase Thr389 measures downstream engagement in the sampled nucleated cells. Hepatic and intestinal metabolism determine systemic exposure; the whole-blood trough reports achieved exposure; neither is the pharmacodynamic target.",
     topics: "mTORC1 · Autophagy · mTORopathies · AMPK · IRS1",
     vals: [
       { v: "exp", l: "*1 expressor", s: "fast clearance", prev: { eur: .20, eas: .15, blk: .65, oth: .22 } },
@@ -1123,8 +1122,8 @@ var GATES = [
   {
     id: "hfe", name: "HFE C282Y / H63D", code: "rs1800562 / rs1799943", grade: "A",
     assay: "HFE genotyping + ferritin + transferrin saturation",
-    why: "Iron overload is a Mendelian condition with a carrier rate of 1–3% and is not addressed in the corpus ferroptosis material (GPX4, ACSL4, FSP1, iron). C282Y homozygosity produces a chronically expanded lablabile iron pool, lowering the threshold for ferroptosis induction. Transferrin saturation above 45% with ferritin above 300 ng/mL (male, postmenopausal) or 200 ng/mL (premenopausal) is the established threshold for phlebotomy.",
-    anatomy: "Two sites matter. The duodenal enterocyte is the regulatory site, where HFE expression controls apical ferroportin export of dietary iron and therefore hepcidin production. The hepatocyte is the storage site and the site of the injury — parenchymal loading in liver drives the endocrine, cardiac and dermatologic phenotypes, and peripheral loading then reaches heart, pancreatic islet tissue, joints and skin. The labile pool linked to ferroptosis is not a plasma concentration; it is a subcellular pool in the affected parenchyma.",
+    why: "Iron overload is a Mendelian condition with a carrier rate of 1–3% and is not addressed in the corpus ferroptosis material (GPX4, ACSL4, FSP1, iron). C282Y homozygosity produces a chronically expanded labile iron pool, lowering the threshold for ferroptosis induction. Transferrin saturation above 45% with ferritin above 300 ng/mL (male, postmenopausal) or 200 ng/mL (premenopausal) is the established threshold for phlebotomy.",
+    anatomy: "Two sites are involved. The duodenal enterocyte is the regulatory site, where HFE expression controls apical ferroportin export of dietary iron and therefore hepcidin production. The hepatocyte is the storage site and the site of the injury — parenchymal loading in liver drives the endocrine, cardiac and dermatologic phenotypes, and peripheral loading then reaches heart, pancreatic islet tissue, joints and skin. The labile pool linked to ferroptosis is not a plasma concentration; it is a subcellular pool in the affected parenchyma.",
     topics: "Ferritin · GPX4 · Ferroptosis · Lipid Peroxidation · Oxidative Stress · Cancer",
     vals: [
       { v: "cc", l: "C/C", s: "wild-type", prev: { eur: .86, eas: .95, blk: .80, oth: .88 } },
@@ -1136,8 +1135,8 @@ var GATES = [
   {
     id: "sod2", name: "SOD2 Ala16Val", code: "rs4880", grade: "C",
     assay: "SNP <strong>plus</strong> measured MnSOD activity (never the SNP alone)",
-    why: "rs4880 alters MnSOD import efficiency by 30–40%. Acetylation at Lys68/Lys122 is the actionable readout of the SIRT3/SIRT4 ratio, so a 30–40% change in this enzyme corresponds to a 30–40% change in the range over which hormesis is observed. The direction of the genotype–phenotype relationship is inconsistent across primary studies, so activity should be measured directly.",
-    anatomy: "Uniquely well-placed: SOD2 is mitochondrial, so this variant is expressed in every nucleated cell at full strength, with the highest functional relevance in skeletal muscle, myocardium and kidney — the most oxidatively loaded tissues. It is a trafficking lesion, not a catalytic one. Less enzyme arrives in the matrix, the superoxide steady state rises, and the damage falls on mitochondrial lipids and mtDNA.",
+    why: "rs4880 alters MnSOD import efficiency by 30–40%. Acetylation at Lys68/Lys122 is the actionable readout of the SIRT3/SIRT4 ratio, so a 30–40% change in this enzyme corresponds to a 30–40% change in the range over which hormesis is observed. The direction of the genotype–phenotype relationship is inconsistent across primary studies, so the activity assay is the informative measurement.",
+    anatomy: "SOD2 is mitochondrial, so this variant is expressed in every nucleated cell, with the highest functional relevance in skeletal muscle, myocardium and kidney — the most oxidatively loaded tissues. It is a trafficking lesion, not a catalytic one. Less enzyme arrives in the matrix, the superoxide steady state rises, and the resulting damage affects mitochondrial lipids and mtDNA.",
     topics: "MnSOD · SIRT3-SIRT4 Ratio · Oxidative Stress · Adrenochrome · Mitohormesis window width",
     vals: [
       { v: "AA", l: "Ala/Ala", s: "measured activity", prev: { eur: .34, eas: .30, blk: .40, oth: .35 } },
@@ -1148,8 +1147,8 @@ var GATES = [
   {
     id: "tmao", name: "TMAO producer status", code: "microbial TMA/TMAO", grade: "A",
     assay: "Urinary TMAO after a standardized choline/carnitine challenge",
-    why: "A second microbial producer phenotype, documented in the corpus without the associated stratification logic. High producers derive substantially greater TMAO exposure from a choline-, carnitine-, or red-meat-supplemented diet than low producers, although identical dietary advice is applied to both groups.",
-    anatomy: "The same two-compartment structure as urolithin, inverted in direction. Production is in the colonic lumen, detoxification in the liver via FMO3, and the target tissue is the vascular endothelium and vessel wall, with kidney the major elimination route — so renal impairment raises exposure independently of diet. The senescence-plus-SIRT1 mechanism the page names is executed in the vessel wall, not in the gut.",
+    why: "A second microbial producer phenotype, documented in the corpus without the associated stratification logic. High producers derive greater TMAO exposure from a choline-, carnitine-, or red-meat-supplemented diet than low producers, although identical dietary advice is applied to both groups; the difference is not quantified.",
+    anatomy: "The same two-compartment structure as urolithin, inverted in direction. Production is in the colonic lumen, detoxification in the liver via FMO3, and the target tissue is the vascular endothelium and vessel wall, with kidney the major elimination route — so renal impairment raises exposure independently of diet. The reported senescence/SIRT1 mechanism acts in the vessel wall, not in the gut.",
     topics: "Trimethylamine N-oxide · SIRT1 · Oxidative Stress · Inflammaging · Cellular Senescence · Atherosclerosis",
     vals: [
       { v: "high", l: "High producer", s: "rises on challenge", prev: { eur: .30, eas: .30, blk: .30, oth: .30 } },
@@ -1160,8 +1159,8 @@ var GATES = [
   {
     id: "apoe", name: "APOE ε isoform dosage", code: "ε2 / ε3 / ε4", grade: "A",
     assay: "APOE genotyping",
-    why: "At least three distinct therapeutic relationships depend on this value: cGAS–STING/IFN-I microglial priming, which raises the predicted ceiling for cGAS inhibition and dilutes unstratified trials; dietary intervention, where randomised human data do not support the ketogenic approach and rodent data are female-specific; and Alzheimer disease risk dosage (ε4/ε4 approximately 10-fold, single allele approximately 3-fold). Note the compartment split: the allele is manufactured almost entirely by hepatocytes and acts on brain microglia and astrocytes, so a plasma measurement and a CNS consequence are anatomically separated. The same value is disqualifying in one indication and a missed opportunity in another — see the sign-flip pattern below.",
-    anatomy: "Produced almost entirely by hepatocytes and delivered to the brain, where the relevant cells are microglia, which are primed and IFN-I amplifying, and astrocytes, which supply APOE abundance, the TREM2 ligand pool and blood-brain barrier integrity. Peripherally it acts at vessel endothelium on lipid metabolism. Alzheimer disease is a brain disease whose risk allele is manufactured in the liver, and its risk is dose-graded: epsilon4/epsilon4 approximately 10-fold, single allele approximately 3-fold.",
+    why: "At least three distinct therapeutic relationships depend on this value: cGAS–STING/IFN-I microglial priming, which raises the predicted ceiling for cGAS inhibition and dilutes unstratified trials; dietary intervention, where randomised human data do not support the ketogenic approach and rodent data are female-specific; and Alzheimer disease risk dosage (ε4/ε4 approximately 10-fold, single allele approximately 3-fold). The allele is synthesised almost entirely by hepatocytes and acts on brain microglia and astrocytes, so a plasma measurement and a CNS consequence are anatomically separated. The same value is disqualifying in one indication and indicates an omitted intervention in another — see the sign-flip pattern below.",
+    anatomy: "Produced almost entirely by hepatocytes and delivered to the brain, where the relevant cells are microglia, which are primed and IFN-I amplifying, and astrocytes, which supply APOE abundance, the TREM2 ligand pool and blood-brain barrier integrity. Peripherally it acts at vessel endothelium on lipid metabolism. Alzheimer disease is a brain disease whose risk allele is synthesised in the liver, and its risk is dose-graded: epsilon4/epsilon4 approximately 10-fold, single allele approximately 3-fold.",
     topics: "APOE4 · APOE3 Christchurch · cGAS-STING/IFN-I · SASP · Microglial mitochondria · Inflammaging",
     vals: [
       { v: "e23", l: "ε2/ε3", s: "one ε2", prev: { eur: .08, eas: .05, blk: .16, oth: .10 } },
@@ -1186,7 +1185,7 @@ var GATES = [
     id: "cyp1a2", name: "CYP1A2 / ADORA2A", code: "rs762551 + rs5751876", grade: "A",
     assay: "Saliva SNP; phenotype: caffeine half-life, sleep disruption after an afternoon dose",
     why: "CYP1A2 slow metabolisers show a 2–12 hour spread in caffeine half-life, so reduced perceived efficacy and sleep disruption after afternoon dosing arise from the same determinant. CYP1A2 fast metabolisers obtain a larger cognitive effect (reaction time −18 against −1.0 ms) at equivalent ergogenic effect, and the coffee–Parkinson's association is strongest in slow metabolisers.",
-    anatomy: "A liver enzyme with near-zero extrahepatic contribution, which makes this the cleanest pharmacokinetic gate in the set — a single-organ determinant. The behavioural consequence is cortical, at the prefrontal cortex, and for the sleep penalty the circadian system. Not a pathway axis but pharmacology, included because the page's argument generalises: reduced perceived efficacy and sleep disruption after afternoon dosing share one determinant.",
+    anatomy: "A liver enzyme with near-zero extrahepatic contribution, which makes this a single-organ pharmacokinetic determinant. The behavioural consequence is cortical, at the prefrontal cortex, and the sleep effect involves the circadian system. Not a pathway axis but pharmacology; reduced perceived efficacy and sleep disruption after afternoon dosing share one determinant.",
     topics: "Green tea/EGCG · Dopamine · Prefrontal Cortex · Anxiety · Exercise hormesis",
     vals: [
       { v: "AA", l: "CYP1A2 A/A", s: "fast", prev: { eur: .43, eas: .50, blk: .40, oth: .45 } },
@@ -1197,8 +1196,8 @@ var GATES = [
   {
     id: "pon1", name: "PON1 Q192R / L55M", code: "rs662 + rs854560", grade: "A",
     assay: "SNP <strong>plus</strong> diazoxonase activity assay",
-    why: "Two amino-acid substitutions: Q192R (Q = glutamine, R = arginine) and L55M (L = leucine, M = methionine), so RR/QR/QQ and LL/LM/MM are the respective genotypes. They are not one activity ladder — Q192R orders <em>diazoxonase</em> activity (RR &gt; QR &gt; QQ) and L55M orders <em>paraoxonase</em> (LL &gt; LM &gt; MM); the 55Met allele raises paraoxonase while lowering diazoxonase, so which assay you mean decides which allele matters. The L55M axis is not a selectable value here, so a 192RR 55LL individual is not distinguished from a 192RR 55MM one. Jarvik (2000) further found variation within genotype categories to exceed that between categories; a given MM individual may exceed a given LL individual. Low activity is an independent risk factor for coronary events and is directly relevant to the lipid peroxidation and vitamin E pathway cluster. Synthesised in the liver, carried on HDL, executed at the arterial intima — the action site is the vessel wall, not the organ of synthesis. This is the page's worked example of a gate where the activity assay, not the genotype, is the informative measurement.",
-    anatomy: "Synthesised in the liver, carried in plasma on HDL, and executed at the arterial intima, where it hydrolyses oxidised phospholipids. Another gate manufactured in one organ and executed in another, shared with APOE4 and TMAO. For these the assay compartment and the consequence compartment are anatomically separated, which is why plasma surrogates misreport.",
+    why: "Two amino-acid substitutions: Q192R (Q = glutamine, R = arginine) and L55M (L = leucine, M = methionine), so RR/QR/QQ and LL/LM/MM are the respective genotypes. They do not define a single activity ranking — Q192R orders <em>diazoxonase</em> activity (RR &gt; QR &gt; QQ) and L55M orders <em>paraoxonase</em> (LL &gt; LM &gt; MM); the 55Met allele raises paraoxonase while lowering diazoxonase, so the assay determines which allele is informative. The L55M axis is not a selectable value here, so a 192RR 55LL individual is not distinguished from a 192RR 55MM one. Jarvik (2000) further found variation within genotype categories to exceed that between categories; a given MM individual may exceed a given LL individual. Low activity is an independent risk factor for coronary events and is directly relevant to the lipid peroxidation and vitamin E pathway cluster. Synthesised in the liver, carried on HDL, executed at the arterial intima — the action site is the vessel wall, not the organ of synthesis. For this gate, the activity assay is the informative measurement and genotype is a weak prior.",
+    anatomy: "Synthesised in the liver, carried in plasma on HDL, and active at the arterial intima, where it hydrolyses oxidised phospholipids. Another gate whose site of synthesis differs from its site of action, shared with APOE4 and TMAO. For these the assay compartment and the consequence compartment are anatomically separated; plasma measurements do not report the tissue concentration.",
     topics: "PON1 · Oxidized LDL · Lipid Peroxidation · Oxidative Stress · Aging",
     vals: [
       { v: "QQ", l: "192QQ", s: "lowest", prev: { eur: .33, eas: .42, blk: .55, oth: .40 } },
@@ -1222,7 +1221,7 @@ var GATES = [
     id: "tert", name: "TERT promoter genotype", code: "rs2853669 + somatic TERTp", grade: "B",
     assay: "Germline rs2853669 genotyping; somatic TERTp −124/−146 C>T status from tumour sequencing; measured telomere length",
     why: "Sets transcription from the TERT promoter for the lifespan of the individual. The rs2853669 G allele disrupts an ETS/TCF binding site upstream of the transcription start site. In patients carrying a somatic TERT promoter mutation, germline status is associated with survival, a germline-by-somatic interaction. TERT activation is rate-limiting for replicative immortality, so this constitutes an upper bound on replicative reserve that is not modified by NMN, rapamycin, or behavioural intervention.",
-    anatomy: "The narrowest anatomical gate in the set, and that is the point. TERT transcription is rate-limiting for replicative immortality only in long-lived dividing populations — germ cells, bone marrow and haematopoietic progenitors, intestinal stem cells, epidermal basal melanocytes, endothelium. Post-mitotic tissue such as neuron and cardiomyocyte has already spent its reserve, so the gate is a stem-cell-compartment value whose consequence is expressed systemically as replicative senescence.",
+    anatomy: "TERT transcription is restricted to dividing cell populations and is rate-limiting for replicative immortality only in long-lived dividing populations — germ cells, bone marrow and haematopoietic progenitors, intestinal stem cells, epidermal basal melanocytes, endothelium. Post-mitotic tissue such as neuron and cardiomyocyte does not maintain TERT transcription, so the gate is a stem-cell-compartment value whose consequence is expressed systemically as replicative senescence.",
     topics: "Telomere / Telomere Attrition · Replicative Senescence · p53 / p16 · Cancer · Lifespan",
     vals: [
       { v: "AA", l: "A/A", s: "full TERT transcription", prev: { eur: .42, eas: .55, blk: .55, oth: .48 } },
@@ -1240,8 +1239,8 @@ var GATES = [
     // wrongSide() reports an upper bound rather than a share.
     partitions: false,
     assay: "SNP genotyping",
-    why: "The most replicated human sirtuin-longevity finding in the corpus differs in direction between studies: rs11555236 was associated with longevity in males in an Italian cohort, was not replicated in a pooled cohort, and was significant in females only in TRELONG. SIRT6 overexpression extends lifespan in males only, and the Finnish longevity association was reported in Finnish men. These must be interpreted jointly with karyotype.",
-    anatomy: "The two sirtuins sit in different compartments, which explains the sex-inconsistent findings better than the statistics do. SIRT3 is mitochondrial-matrix resident, so its variants act where mitochondrial density is highest — myocardium, skeletal muscle, kidney, brown fat, T cell — and deacetylates MnSOD, the actionable readout being Lys68/Lys122 acetylation. SIRT6 is nuclear, acting on chromatin and the NAD+ pool, with liver, adipocyte and neuron among the highest.",
+    why: "The most replicated human sirtuin-longevity finding in the corpus differs in direction between studies: rs11555236 was associated with longevity in males in an Italian cohort, was not replicated in a pooled cohort, and was reported in females only in TRELONG. SIRT6 overexpression extends lifespan in male mice only, and the Finnish longevity association was reported in Finnish men. These findings are interpreted jointly with karyotype.",
+    anatomy: "The two sirtuins localise to different compartments, which is consistent with the sex-inconsistent findings. SIRT3 is mitochondrial-matrix resident, so its variants act where mitochondrial density is highest — myocardium, skeletal muscle, kidney, brown fat, T cell — and deacetylates MnSOD, the actionable readout being Lys68/Lys122 acetylation. SIRT6 is nuclear, acting on chromatin and the NAD+ pool, with liver, adipocyte and neuron among the highest.",
     topics: "SIRT3 · SIRT6 · MnSOD · Centenarians · Senescence",
     vals: [
       { v: "common", l: "Common alleles", s: "reference; still includes carriers of the variants below", prev: { eur: .78, eas: .72, blk: .76, oth: .77 } },
@@ -1278,9 +1277,9 @@ var GATES = [
    ============================================================ */
 var SEV = {
   harm:    { l: "Increased risk",   v: "var(--sev-harm)" },
-  blind:   { l: "Predicted no-op", v: "var(--sev-blind)" },
-  under:   { l: "Under-exposed",   v: "var(--sev-under)" },
-  miss:    { l: "Indicated, omitted", v: "var(--sev-miss)" },
+  blind:   { l: "Mechanism not initiated", v: "var(--sev-blind)" },
+  under:   { l: "Sub-therapeutic exposure", v: "var(--sev-under)" },
+  miss:    { l: "Indicated intervention omitted", v: "var(--sev-miss)" },
   benefit: { l: "Supported",       v: "var(--sev-ok)" },
   neutral: { l: "No association",  v: "var(--sev-neutral)" },
   unknown: { l: "Not measured",    v: "var(--sev-unknown)" }
@@ -1289,26 +1288,26 @@ var CONSEQUENTIAL = { harm: 1, blind: 1, under: 1, miss: 1 };
 
 var THERAPIES = [
   {
-    id: "vite", ico: "d_antiox", dom: "Antioxidant stack", name: "High-dose α-tocopherol (vitamin E)", gate: "comt", grade: "A",
+    id: "vite", ico: "d_antiox", dom: "Antioxidant intervention", name: "High-dose α-tocopherol (vitamin E)", gate: "comt", grade: "A",
     map: {
       VV: ["harm", "Increased incident cancer at both 50 IU/day and 600 IU alternate-day (HR 1.18, 95% CI 1.06–1.31). The association is present below the 400 IU/day threshold, so dose reduction to that level does not mitigate it. Concordant at rs4818 G/G (HR 1.29)."],
-      VM: ["neutral", "No significant interaction in the pooled gene-dose analysis."],
+      VM: ["neutral", "No interaction was reported in the pooled gene-dose analysis."],
       MM: ["benefit", "Reduced incidence of approximately 12% (HR 0.88). Aspirin cardiovascular protection is also concentrated in this group."]
     }
   },
   {
-    id: "ellagitannin", ico: "d_mito", dom: "Mitochondrial stack", name: "Dietary ellagitannins (pomegranate, walnut, strawberry)", gate: "urolithin", grade: "A",
+    id: "ellagitannin", ico: "d_mito", dom: "Mitochondrial intervention", name: "Dietary ellagitannins (pomegranate, walnut, strawberry)", gate: "urolithin", grade: "A",
     map: {
-      A: ["benefit", "The substrate is converted to urolithin A, the metabolite used in published trials. Dietary administration is effective."],
+      A: ["benefit", "The substrate is converted to urolithin A, the metabolite used in published trials."],
       B: ["blind", "Produces isourolithin A and uro-B. These are distinct compounds whose pharmacology is largely uncharacterised, so the metabolite used in published trials is not obtained."],
-      "0": ["blind", "No urolithin is produced. Dietary ellagitannins have no effect irrespective of dose, source, or adherence. Only direct urolithin A administration is applicable."]
+      "0": ["blind", "No urolithin is produced. The metabolite used in published trials is not obtained at any dose, source, or adherence. Only direct urolithin A administration is applicable."]
     }
   },
   {
-    id: "rapamycin", ico: "d_mtor", dom: "mTOR / autophagy", name: "Rapamycin (sirolimus) or an mTORC1-directed stack", gate: "cyp3a5", grade: "B",
+    id: "rapamycin", ico: "d_mtor", dom: "mTOR / autophagy", name: "Rapamycin (sirolimus) or an mTORC1-directed regimen", gate: "cyp3a5", grade: "B",
     map: {
       exp: ["under", "Rapid clearance at a fixed low dose leaves most of the dosing interval below the exposure associated with target engagement. Such patients are recorded as non-responders to an agent that is effective at adequate exposure. This is a pharmacokinetic rather than a pharmacological finding."],
-      nonexp: ["benefit", "Exposure is in the expected range. Trough concentration and p70S6K1 Thr389 suppression should still be measured before classifying a patient as a non-responder."],
+      nonexp: ["benefit", "Exposure is in the expected range. Trough concentration and p70S6K1 Thr389 suppression are measured before classifying a patient as a non-responder."],
       lof: ["blind", "FKBP12 loss-of-function prevents formation of the FKBP12–rapamycin complex, so the mechanism is not initiated. Dose escalation is not corrective."]
     }
   },
@@ -1317,17 +1316,17 @@ var THERAPIES = [
     map: {
       CC: ["benefit", "Two-electron reduction to a stable hydroquinone. The redox signal is deliverable and terminable as intended."],
       CT: ["benefit", "Activity is approximately three-fold lower but the pathway is intact; the same route operates at reduced amplitude."],
-      TT: ["harm", "Functionally NQO1-null. The quinone is reduced by the one-electron CYP450/b5-reductase pathway to a semiquinone that undergoes redox cycling. Individuals in this group are those most likely to convert an intended adaptive response into oxidative injury. This is a determinant of admissibility rather than of dose."]
+      TT: ["harm", "Functionally NQO1-null. The quinone is reduced by the one-electron CYP450/b5-reductase pathway to a semiquinone that undergoes redox cycling. The one-electron route is predicted to increase superoxide production in this group; human outcome data are not available. This is a determinant of admissibility rather than of dose."]
     }
   },
   {
     id: "estrogen", ico: "d_endo", dom: "Endocrine", name: "Systemic hormone replacement, or a SIRT3-targeted cardiac/mitochondrial intervention", gate: "sex", grade: "A",
-    // Grade A applies to the estrogen half of this row, which is why the gate
-    // is a gate. The SIRT3-directed half has no established indication to miss,
-    // so no value here is classed as "indicated, omitted" — see xxpost.
+    // Grade A applies to the estrogen half of this row.
+    // The SIRT3-directed half has no established indication to miss,
+    // so no value here is classed as an omitted indicated intervention — see xxpost.
     map: {
       xxpre: ["neutral", "Estrogen is at physiological levels. The relevant consideration is the anticipated perimenopausal trajectory rather than current replacement."],
-      xxpost: ["neutral", "This row conflates two interventions and they do not share an evidence grade. For systemic hormone replacement the gate is decisive and well established: menopausal status determines whether estrogen is indicated at all, and that rests on decades of trial data, not on the cardiac literature. For a SIRT3-directed cardiac or mitochondrial intervention the gate is a plausible modifier with no established indication behind it — there is no such approved therapy to be withheld, so nothing is being missed. The often-cited support is Barcena de Arellano et al. (Aging 2019, PMC6503880), which measured sirtuin and SOD2 protein EXPRESSION in donor ventricles, not activity; never recorded menopausal status, binning donors 17–40 versus 50–68 across a median menopause of about 51; and found the aged male heart moving in the opposite direction (SOD2 and catalase up, NF-κB p50 down). n=6–8 per group, cross-sectional, with the authors' own small-sample caveat. Directional sex divergence in cardiac sirtuin expression: supported. Menopause-specific, activity-level, indication-defining inference: not supported."],
+      xxpost: ["neutral", "This row covers two interventions with different evidence grades. For systemic hormone replacement the gate is decisive and well established: menopausal status determines whether estrogen is indicated at all, and that rests on decades of trial data, not on the cardiac literature. For a SIRT3-directed cardiac or mitochondrial intervention the gate is a plausible modifier with no established indication behind it — there is no such approved therapy to be withheld, so nothing is being missed. The often-cited support is Barcena de Arellano et al. (Aging 2019, PMC6503880), which measured sirtuin and SOD2 protein expression in donor ventricles, not activity; never recorded menopausal status, binning donors 17–40 versus 50–68 across a median menopause of about 51; and reported changes in the opposite direction in aged male ventricles (SOD2 and catalase elevated, NF-κB p50 reduced). n=6–8 per group, cross-sectional, with the authors' own small-sample caveat. Directional sex divergence in cardiac sirtuin expression: supported. Menopause-specific, activity-level, indication-defining inference: not supported."],
       xy: ["neutral", "The phenotype described does not apply. The male counterpart is testosterone suppression following androgen ablation rather than the menopausal transition."],
       other: ["under", "45,X and 47,XXY karyotypes carry distinct SIRT and NAD+ phenotypes that current protocols do not address."],
       _default: ["neutral", "No protocol branch is defined for this state."]
@@ -1336,7 +1335,7 @@ var THERAPIES = [
   {
     id: "sun", ico: "d_expo", dom: "Exposure / prevention", name: "Sun and solarium exposure decisions, or MC1R-agonist neuroprotection", gate: "mc1r", grade: "A",
     map: {
-      R: ["harm", "Pheomelanin synthesis generates reactive oxygen species and depletes glutathione, so baseline oxidant load is increased before any UV exposure. Advice based on skin phototype alone understates a UV-independent risk of approximately two-fold (OR 2.13 with two or more variants)."],
+      R: ["harm", "Pheomelanin synthesis generates reactive oxygen species and depletes glutathione, so baseline oxidant load is increased before any UV exposure. Skin phototype alone does not capture a UV-independent risk of approximately two-fold (OR 2.13 with two or more variants)."],
       r: ["neutral", "Reduced receptor function without the increased oxidant production associated with R-class alleles."],
       wt: ["neutral", "Fitzpatrick skin type is an adequate proxy for UV susceptibility in this group."]
     }
@@ -1344,10 +1343,10 @@ var THERAPIES = [
   {
     id: "iron", ico: "d_ferro", dom: "Ferroptosis / redox", name: "An antioxidant-only or ferroptosis-adjacent protocol", gate: "hfe", grade: "A",
     map: {
-      cc: ["neutral", "Iron status should still be measured directly. There is no Mendelian basis for expecting an altered ferroptosis threshold."],
+      cc: ["neutral", "Iron status is measured directly. There is no Mendelian basis for expecting an altered ferroptosis threshold."],
       het: ["neutral", "Simple heterozygote: iron handling is usually within the normal range."],
       hh: ["miss", "Transferrin saturation above 45% with ferritin above 300 ng/mL (male, postmenopausal) or 200 ng/mL (premenopausal) is the established threshold for phlebotomy, so an iron-directed intervention is indicated. An antioxidant-only regimen addresses a downstream consequence rather than the iron accumulation itself."],
-      comp: ["miss", "Most guidelines apply the same management pathway to compound heterozygotes as to homozygotes. This category should not be treated as a simple heterozygote."]
+      comp: ["miss", "Most guidelines apply the same management pathway to compound heterozygotes as to homozygotes. This category is not classified as a simple heterozygote."]
     }
   },
   {
@@ -1356,7 +1355,7 @@ var THERAPIES = [
       e23: ["neutral", "No ε4-associated limitation applies to this intervention."],
       e33: ["benefit", "In TRIAD AC-1202, MCT and ketone supplementation was measurably more effective in non-ε4 carriers."],
       e34: ["blind", "Randomised human data and scoping reviews find ketogenic agents ineffective in ε4 carriers, with high saturated-fat intake specifically detrimental. A 2025 umbrella review excepted only the Mediterranean dietary pattern from this finding."],
-      e44: ["blind", "The same relationship at greater ε4 dosage. Ketogenic-diet cognitive benefit in APOE4 mice is female-specific and has not translated to human data."]
+      e44: ["blind", "The same relationship at greater ε4 dosage. Ketogenic-diet cognitive benefit in APOE4 mice is female-specific and has not been replicated in human trials."]
     }
   },
   {
@@ -1373,7 +1372,7 @@ var THERAPIES = [
     map: {
       VV: ["neutral", "COMT is not rate-limiting in this pathway; downstream methylation capacity determines tolerance."],
       VM: ["neutral", "Intermediate activity."],
-      MM: ["harm", "Reduced COMT activity combined with methyl donor supplementation is associated with anxiety and insomnia. Folinic acid bypasses the methylation step and is the standard workaround."]
+      MM: ["harm", "Reduced COMT activity combined with methyl donor supplementation is associated with anxiety and insomnia. Folinic acid is administered without requiring COMT-dependent methylation."]
     }
   },
   {
@@ -1381,7 +1380,7 @@ var THERAPIES = [
     map: {
       high: ["harm", "The intestinal flora converts this dietary pattern to TMAO at a high rate, while the same dietary advice is issued to low producers. TMAO-accelerated senescence and SIRT1-mediated attenuation in vascular smooth muscle are downstream consequences."],
       low: ["neutral", "TMAO generation is modest and the dietary pattern is not the dominant source of exposure."],
-      none: ["benefit", "TMA-reducing flora (Lactobacillus, Eubacterium limosum). Standard dietary guidance is calibrated to this group."]
+      none: ["benefit", "TMA-reducing flora (Lactobacillus, Eubacterium limosum). Dietary guidance is not stratified by TMAO producer status."]
     }
   },
   {
@@ -1438,18 +1437,18 @@ var THERAPIES = [
     }
   },
   {
-    id: "sirtuin", ico: "d_senes", dom: "Longevity stack", name: "SIRT-targeted longevity stacking", gate: "sirt", grade: "B",
+    id: "sirtuin", ico: "d_senes", dom: "Longevity intervention", name: "SIRT-targeted combination protocol", gate: "sirt", grade: "B",
     map: {
       common: ["neutral", "Reference category; no longevity association has been established."],
-      s3het: ["under", "rs11555236 was associated with longevity in males in an Italian cohort, was not replicated in a pooled cohort, and was significant in females only in TRELONG. This is a modifier and should be interpreted jointly with karyotype."],
-      s6var: ["miss", "N308K and A313S elevate SIRT6 activity and delay senescence. The lifespan effect of SIRT6 overexpression has been reported in males only, so the evidence does not extend to high-activity alleles in females."],
+      s3het: ["under", "rs11555236 was associated with longevity in males in an Italian cohort, was not replicated in a pooled cohort, and was reported in females only in TRELONG. This is a modifier and is interpreted jointly with karyotype."],
+      s6var: ["miss", "N308K and A313S elevate SIRT6 activity and delay senescence in vitro. The lifespan effect of SIRT6 overexpression has been reported in male mice only, so the evidence does not extend to high-activity alleles in females."],
       _default: ["neutral", "Reference category."]
     }
   },
   {
-    id: "klothoStack", ico: "d_senes", dom: "Longevity stack", name: "Soluble-Klotho / exerkine-oriented stacking", gate: "klotho", grade: "B",
+    id: "klothoStack", ico: "d_senes", dom: "Longevity intervention", name: "Soluble-Klotho / exerkine-oriented protocol", gate: "klotho", grade: "B",
     map: {
-      het: ["miss", "KL-VS heterozygosity attenuates CSF IL-6, S100B, α-synuclein, and NfL, with a larger effect in an AD-risk-enriched cohort, indicating interaction with APOE ε4. Soluble Klotho is raised by exercise, so this value supports the use of an exercise prescription with an objective pharmacodynamic readout."],
+      het: ["miss", "KL-VS heterozygosity attenuates CSF IL-6, S100B, α-synuclein, and NfL, with a larger effect in an AD-risk-enriched cohort, indicating interaction with APOE ε4. Soluble Klotho is raised by exercise, so an exercise prescription has an objective pharmacodynamic readout in this group."],
       nc: ["neutral", "Reference category."],
       homo: ["harm", "Rare genotype, associated with lower klotho concentrations, reduced longevity, and poorer cognitive performance. The direction of effect is reversed relative to heterozygosity."],
       _default: ["neutral", "Reference category."]
@@ -1524,8 +1523,8 @@ function icon(key, alt) {
    In-memory only. Nothing is persisted: closing the page discards
    the profile. Export writes a JSON file if a copy is needed.
    ============================================================ */
-/* rx defaults to every intervention selected. The page's finding is about
-   unmeasured gates, which is only visible against a full therapy list, and an
+/* rx defaults to every intervention selected. The analysis concerns
+   unmeasured gates, which are apparent only against a full therapy list, and an
    empty list makes the first render read as "no findings" rather than as
    "nothing selected yet". The Clear therapy list button still empties it. */
 var state = { pop: "eur", gates: {}, rx: THERAPIES.map(function (t) { return t.id; }) };
@@ -1648,8 +1647,8 @@ function buildGates() {
       var sp = document.createElement("span");
       var s = share(g, val.v);
       sp.innerHTML = val.l + " <em>" + val.s + (s == null ? "" : " · ~" + (s < .01 ? (s * 100).toFixed(2) : Math.round(s * 100)) + "%") + "</em>";
-      // Title has to say *why* there is no percentage, otherwise an absent
-      // number reads as missing data rather than as "not a population quantity".
+      // A title is set so an absent
+      // number is reported as "not a population quantity" rather than as missing data.
       sp.title = val.s + " — " + (s == null
         ? (g.observed ? "determined by this individual's age, not a population frequency; " : "no cohort estimate; ")
         : Math.round(s * 100) + "% of " + POPS[state.pop] + ", identical across the four reference populations; ")
@@ -1727,7 +1726,7 @@ function profile() {
 function renderActions(p) {
   var host = document.getElementById("actions");
   if (!p.act.length) {
-    host.innerHTML = '<p class="empty">No interventions selected. Select those above to generate the interpreted profile.</p>';
+    host.innerHTML = '<p class="empty">No interventions selected. No interpreted profile is generated without a selected intervention.</p>';
     return;
   }
   var order = { harm: 0, under: 1, blind: 2, miss: 3, unknown: 4, benefit: 5, neutral: 6 };
@@ -1830,7 +1829,7 @@ function drawMass() {
     text(svg, labelW, y + 13, r.t.name.length > 44 ? r.t.name.slice(0, 43) + "…" : r.t.name,
       { size: 11, anchor: "end" });
     // Segments laid out in gate-value order at their true population offsets, so
-    // the coloured run is where those people actually sit in the bar rather than
+    // the coloured run is at the true offsets rather than
     // a rescaled summary. The uncoloured remainder is the unproblematic arms.
     // That requires the gate's categories to partition the population. Where they
     // overlap (sirt: the "common" bucket is the residue after the two named
@@ -1839,9 +1838,9 @@ function drawMass() {
     var g = byId(r.t.gate), cx = x0;
     el("rect", { x: x0, y: y + 3, width: barW, height: 9, fill: "var(--rule)", opacity: 0.5 }, svg);
     // An observed gate has no population distribution to draw. Drawing a short
-    // bar here would read as "we measured a small fraction at risk", which is
-    // the opposite of the truth: for an individual the value is either present
-    // or it is not, and the gate still applies in full.
+    // bar would indicate a small fraction at risk;
+    // for an individual the value is either present
+    // or it is not, and the gate applies in full.
     if (g.observed) {
       el("rect", { x: x0, y: y, width: barW, height: 15, fill: "none", stroke: "var(--periphery)", "stroke-width": 1, "stroke-dasharray": "1 4" }, svg);
       text(svg, x0 + 8, y + 11, "value is observed in the individual — not a population frequency", { size: 9.5, fill: "var(--mute)" });
@@ -1932,7 +1931,7 @@ function drawGate() {
   el("line", { x1: 398, y1: 150, x2: 442, y2: 150, stroke: "var(--rule-strong)", "stroke-width": 1.4, "marker-end": "url(#ahGate)" }, svg);
   text(svg, 420, 138, "one", { size: 10, anchor: "middle", fill: "var(--faint)", mono: true });
   text(svg, 420, 170, "value", { size: 10, anchor: "middle", fill: "var(--faint)", mono: true });
-  text(svg, W / 2, 24, "The mechanism specifies the compound. The individual value determines the outcome, and is measurable before exposure.",
+  text(svg, W / 2, 24, "The mechanistic chain specifies compound and target; the individual value determines the outcome and is measurable before exposure.",
     { size: 12.5, anchor: "middle", weight: 600 });
 }
 
@@ -1941,14 +1940,14 @@ function drawGate() {
    ============================================================ */
 function drawUro() {
   var W = 840, H = 404, host = document.getElementById("figUro");
-  var svg = svgRoot(host, W, H, "Urolithin metabotype: one substrate, three outcomes");
+  var svg = svgRoot(host, W, H, "Urolithin metabotype: substrate conversion by metabotype");
   var x0 = 40, bw = W - 80;
 
   text(svg, x0, 34, "Dietary ellagitannin load (pomegranate / walnut / strawberry)", { size: 12, weight: 600 });
   var segs = [
-    { w: .40, f: "var(--forest)", t: "UM-A · 40%", d: "Gordonibacter urolithinfaciens → urolithin A, the metabolite used in published trials. Dietary route effective." },
+    { w: .40, f: "var(--forest)", t: "UM-A · 40%", d: "Gordonibacter urolithinfaciens → urolithin A, the metabolite used in published trials." },
     { w: .10, f: "var(--gold)", t: "UM-B · 10%", d: "Ellagibacter / Enterocloster → isourolithin A. A distinct compound, pharmacology largely uncharacterised." },
-    { w: .50, f: "var(--oxblood)", t: "UM-0 · 50%", d: "No detectable urolithin. Dietary ellagitannins have no effect at any dose or adherence." }
+    { w: .50, f: "var(--oxblood)", t: "UM-0 · 50%", d: "No urolithin is detectable; the metabolite used in published trials is not obtained at any dose or adherence." }
   ];
   var cx = x0;
   segs.forEach(function (s) {
@@ -1970,7 +1969,7 @@ function drawUro() {
   [
     "~40% convert after a standardized pomegranate challenge (N=100) — the challenge-test prevalence.",
     "12% had detectable UA glucuronide at baseline in the same US cohort — a fasting measurement, so a producer on a low-ellagitannin day reads as a non-producer.",
-    "~10% non-producers in a third cohort. A serum value is a snapshot of a meal; the challenge test is the phenotype."
+    "~10% non-producers in a third cohort. A serum value reflects recent intake; the challenge test reports the phenotype."
   ].forEach(function (t) {
     el("circle", { cx: x0 + 4, cy: yU - 3, r: 2.5, fill: "var(--mute)" }, svg);
     wrapText(svg, x0 + 14, yU, t, bw - 14, 10.5);
@@ -1990,7 +1989,7 @@ function drawComt() {
   var BULLETS = [
     "Replicated in two independent randomised trials (WGHS, ATBC).",
     "Monotonic gene-dose gradient across all three genotypes.",
-    "Effect present below 400 IU/day — that threshold is not protective."
+    "The association is present below 400 IU/day; dose reduction to that threshold does not remove it."
   ];
   var BULLET_PITCH = 22;
   var H = 310 + BULLETS.reduce(function (a, t) { return a + nLines(t, bw + 20, 10.5) * BULLET_PITCH + 8; }, 0);
@@ -2007,7 +2006,7 @@ function drawComt() {
 
   var rows = [
     { l: "Val/Val (fast) \u2014 supplement", hr: 1.18, lo: 1.06, hi: 1.31, c: "var(--oxblood)", t: "HR 1.18 (1.06\u20131.31). ~29% of European-ancestry, ~52% of Han Chinese. Present at 50 IU/day and 600 IU alternate-day, i.e. below 400 IU/day." },
-    { l: "Val/Met (intermediate)", hr: 1.00, lo: 0.94, hi: 1.07, c: "var(--mute)", t: "No significant interaction in the pooled gene-dose analysis." },
+    { l: "Val/Met (intermediate)", hr: 1.00, lo: 0.94, hi: 1.07, c: "var(--mute)", t: "No interaction was reported in the pooled gene-dose analysis." },
     { l: "Met/Met (slow)", hr: 0.88, lo: 0.82, hi: 0.95, c: "var(--forest)", t: "HR 0.88 \u2014 ~12% reduction. Aspirin cardiovascular protection is also concentrated here." },
     { l: "Per Val allele, supplement", hr: 1.11, lo: 1.05, hi: 1.18, c: "var(--oxblood)", t: "Gene-dose: 1.11 on supplement vs 0.95 on placebo, P interaction < .001." },
     { l: "Sister SNP rs4818 G/G", hr: 1.29, lo: 1.14, hi: 1.46, c: "var(--oxblood)", t: "Concordant result at a second COMT locus." }
@@ -2016,7 +2015,7 @@ function drawComt() {
     var y = ROW0 + i * PITCH;
     text(svg, x0 - 14, y + 4, r.l, { size: 12, anchor: "end" });
     var g = el("g", null, svg);
-    g.setAttribute("data-tip", r.t); // row label is already beside the point
+    g.setAttribute("data-tip", r.t); // the row label is already shown beside the marker
     el("line", { x1: X(r.lo), y1: y, x2: X(r.hi), y2: y, stroke: r.c, "stroke-width": 2 }, g);
     el("line", { x1: X(r.lo), y1: y - 5.5, x2: X(r.lo), y2: y + 5.5, stroke: r.c, "stroke-width": 1.6 }, g);
     el("line", { x1: X(r.hi), y1: y - 5.5, x2: X(r.hi), y2: y + 5.5, stroke: r.c, "stroke-width": 1.6 }, g);
@@ -2040,7 +2039,7 @@ function drawComt() {
    ============================================================ */
 function drawNqo1() {
   var W = 840, H = 380, host = document.getElementById("figNqo1");
-  var svg = svgRoot(host, W, H, "Quinone fate decided by NQO1 C609T");
+  var svg = svgRoot(host, W, H, "Quinone reduction route determined by NQO1 C609T");
   arrowHead(svg, "ahQ", "var(--rule-strong)");
 
   /* Accent is carried by the stroke and the label, not by a saturated fill:
@@ -2080,7 +2079,7 @@ function drawNqo1() {
   text(svg, 70, 294, "Redox cycling with superoxide generation rather than signal delivery.", { size: 11, fill: "var(--ink-soft)" });
 
   el("rect", { x: 70, y: 306, width: 700, height: 1, fill: "var(--rule)" }, svg);
-  wrapText(svg, 70, 328, "Implication: protocols combining methylene blue or carbazochrome as signal donors with aminoguanidine as a terminator assume substrate clearance that is absent in approximately 3% of European-ancestry and 17% of East Asian individuals. This determines admissibility rather than dose.", 700, 10.5);
+  wrapText(svg, 70, 328, "Protocols combining methylene blue or carbazochrome as signal donors with aminoguanidine as a terminator are predicted to require substrate clearance through the two-electron reduction route, which is absent in approximately 3% of European-ancestry and 17% of East Asian individuals. This concerns admissibility rather than dose; human outcome data are not available.", 700, 10.5);
 }
 
 /* ============================================================
@@ -2093,22 +2092,22 @@ function drawRap() {
      inline labels collided with the target band and with the curve tails.
      The clinical consequence of each trace is folded into its own legend row
      rather than kept as a separate prose block underneath: two of the three
-     former notes only restated these rows ("troughs do not enter the target
-     range at any dose" IS "not correctable by dose"), and a caveat sitting
-     200px below the curve it qualifies is not read alongside the curve. */
+     former notes restated these rows ("troughs do not enter the target
+     range at any dose" is "not correctable by dose"), and a caveat placed
+     200px below the curve it qualifies is separated from the curve. */
   var LEGEND = [
     { c: "var(--forest)", dash: null, l: "CYP3A5 non-expressor",
       s: "in range for the first ~42 h after each dose, below range for the remaining ~126 h; weekly trough \u2248 2 ng/mL \u2014 approximately 79% of European-ancestry",
-      k: "the only group whose dose reaches the target range at all \u2014 non-response here is not explained by exposure" },
+      k: "the group whose dose reaches the target range \u2014 non-response in this group is not attributable to low exposure" },
     { c: "var(--slate)", dash: "6 3", l: "CYP3A5 *1 expressor",
       s: "peak already below the target range at this dose; weekly trough \u2248 0.4 ng/mL, under the 1 ng/mL floor \u2014 20% European-ancestry, 65% African-ancestry",
-      k: "not pharmacologically resistant \u2014 adequate exposure was never achieved, so recording non-response attributes a pharmacokinetic finding to the mechanism" },
+      k: "pharmacological resistance is not demonstrated \u2014 adequate exposure was not achieved, so a non-response classification attributes a pharmacokinetic finding to the mechanism" },
     { c: "var(--oxblood)", dash: "2 3", l: "FKBP1A loss-of-function",
       s: "troughs do not enter the target range at any dose",
       k: "a non-response not correctable by dose, and identifiable by sequencing rather than by trial" }
   ];
-  /* The one former note that was not a restatement of a legend row: what to
-     measure before calling anyone a non-responder. Kept, below the rule. */
+  /* The one former note that was not a restatement of a legend row: the
+     measurements preceding a non-response classification. Kept, below the rule. */
   var ACTION = "Without whole-blood trough concentration and p70S6K1 Thr389 suppression, a classification of non-response is a hypothesis about exposure rather than a measurement of it.";
   /* LH must equal T2.wrapText's own line advance (size + 4) or the height
      budget and the drawn blocks drift apart. The previous version budgeted
@@ -2190,7 +2189,7 @@ function drawRap() {
     // a rule per row reads as a table.
     if (i === rows.length - 1) el("line", { x1: x0, y1: y - RULE / 2, x2: x1, y2: y - RULE / 2, stroke: "var(--rule-strong)" }, svg);
   });
-  text(svg, x0, actY + 22, "Before classifying non-response", { size: 12, weight: 600 });
+  text(svg, x0, actY + 22, "Measurements preceding a non-response classification", { size: 12, weight: 600 });
   wrapText(svg, x0, actY + 40, ACTION, MW, 10.5);
 }
 
@@ -2244,8 +2243,8 @@ var GRADE_ORDER = { A: 0, B: 1, C: 2, D: 3 };
    already breaks on <br> and the cell wraps, so names are shown in full.
    They were being cut at 46 characters, which silently dropped the tail of
    the longest ones ("...SIRT3-targeted cardiac/mitochondrial intervention")
-   — the column is the reason to read the table at all, so it should not be
-   the column that lies. */
+   — names are shown in full so the column reports them completely.
+   */
 function gatedBy(gid) {
   return THERAPIES.filter(function (t) { return t.gate === gid; }).map(function (t) { return t.name; });
 }
@@ -2281,8 +2280,8 @@ function buildAnatTable() {
     carded + " values, each with a card and a value selector in the profile tool above. " +
     "One further group is recommended but not implemented here — CYP2C9/VKORC1, CYP2D6 and " +
     "SLCO1B1 metaboliser phenotypes, which are CPIC-level determinants for agents already in " +
-    "use. mtDNA haplogroup is listed for completeness and is excluded from dosing; the absence " +
-    "of measurement is the finding.";
+    "use. mtDNA haplogroup is listed for completeness and is excluded from dosing; these " +
+    "values are recorded as unmeasured.";
 }
 
 function exportProfile() {
