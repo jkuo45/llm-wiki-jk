@@ -1,5 +1,5 @@
 {
-  "generated": "11_NOV_2026 08:35 AM PST",
+  "generated": "11_NOV_2026 08:38 AM PST",
   "wiki": [
     {
       "id": "wiki-index",
@@ -580,6 +580,21 @@
           "filename": "HIF-1α.md",
           "path": "wiki/en-US/_link/HIF-1%CE%B1.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/HIF-1%CE%B1.md"
+        },
+        "zh-TW": {
+          "title": "HIF-1α",
+          "description": "缺氧誘導因子 1 α；缺氧反應的主調轉錄調控者，受 SIRT6 抑制、受 SIRT3 缺失去抑制。",
+          "created": "2026-08-17",
+          "updated": "2026-11-10",
+          "tags": [
+            "transcription-factor",
+            "hypoxia",
+            "senescence",
+            "sirtuins",
+            "cancer-metabolism"
+          ],
+          "filename": "HIF-1α.md",
+          "path": "wiki/zh-TW/_link/HIF-1%CE%B1.md"
         }
       },
       "stats": {
@@ -639,6 +654,17 @@
           "filename": "BDNF.md",
           "path": "wiki/en-US/sirtuins/BDNF.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/BDNF.md"
+        },
+        "zh-TW": {
+          "title": "BDNF",
+          "description": "BDNF（腦衍生神經營養因子）是神經營養因子家族生長因子的成員，支持神經元存活、分化、突觸可塑性與神經發生，對學習、記憶與情緒調節至關重要。",
+          "created": "2026-07-04",
+          "updated": "2026-11-10",
+          "tags": [
+            "protein"
+          ],
+          "filename": "BDNF.md",
+          "path": "wiki/zh-TW/sirtuins/BDNF.md"
         }
       },
       "stats": {
@@ -702,6 +728,17 @@
           "filename": "NAMPT.md",
           "path": "wiki/en-US/_link/NAMPT.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/NAMPT.md"
+        },
+        "zh-TW": {
+          "title": "NAMPT",
+          "description": "NAMPT（菸醯胺磷酸核糖轉移酶）是 NAD+ 生合成挽救途徑的關鍵酶，其水平在衰老期間於多種組織中顯著下降。",
+          "created": "2026-07-04",
+          "updated": "2026-11-10",
+          "tags": [
+            "enzyme"
+          ],
+          "filename": "NAMPT.md",
+          "path": "wiki/zh-TW/_link/NAMPT.md"
         }
       },
       "stats": {
@@ -726,6 +763,18 @@
           "filename": "Immunosenescence.md",
           "path": "wiki/en-US/senescence/Immunosenescence.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/Immunosenescence.md"
+        },
+        "zh-TW": {
+          "title": "Immunosenescence",
+          "description": "免疫衰老是指與老化相關的免疫系統逐漸退化，導致對感染、自體免疫疾病及癌症的易感性增加。",
+          "created": "2026-05-29",
+          "updated": "2026-11-10",
+          "tags": [
+            "biological-process",
+            "senescence"
+          ],
+          "filename": "Immunosenescence.md",
+          "path": "wiki/zh-TW/senescence/Immunosenescence.md"
         }
       },
       "stats": {
@@ -749,6 +798,17 @@
           "filename": "Neutrophils.md",
           "path": "wiki/en-US/_link/Neutrophils.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Neutrophils.md"
+        },
+        "zh-TW": {
+          "title": "Neutrophils",
+          "description": "嗜中性球（又稱多形核白血球或顆粒球）是最常見的白血球類型，在先天免疫系統中擔任第一道防線。",
+          "created": "2026-05-29",
+          "updated": "2026-11-10",
+          "tags": [
+            "cell-type"
+          ],
+          "filename": "Neutrophils.md",
+          "path": "wiki/zh-TW/_link/Neutrophils.md"
         }
       },
       "stats": {
@@ -776,6 +836,21 @@
           "filename": "Senolytic Therapy.md",
           "path": "wiki/en-US/senescence/Senolytic%20Therapy.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/Senolytic%20Therapy.md"
+        },
+        "zh-TW": {
+          "title": "Senolytic Therapy",
+          "description": "治療策略，選擇性消除衰老細胞，藉由阻斷其抗凋亡存活路徑，降低衰老負擔及 SASP 驅動的病理。",
+          "created": "2026-07-07",
+          "updated": "2026-11-10",
+          "tags": [
+            "therapy",
+            "anti-aging",
+            "senescence",
+            "pharmacology",
+            "sasp"
+          ],
+          "filename": "Senolytic Therapy.md",
+          "path": "wiki/zh-TW/senescence/Senolytic%20Therapy.md"
         }
       },
       "stats": {
@@ -802,6 +877,20 @@
           "filename": "PIP5KI.md",
           "path": "wiki/en-US/_link/PIP5KI.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/PIP5KI.md"
+        },
+        "zh-TW": {
+          "title": "PIP5KI",
+          "description": "PIP5KI 指第一型磷脂醯肌醇 4-磷酸 5-激酶（PIP5K1A、PIP5K1B、PIP5K1C），將 PtdIns4P 磷酸化為 PtdIns(4,5)P2；不同的第二型家族（PIP4K2A-C，前稱 PIP5K2）反而生成 PI5P，兩者皆被作為癌症標靶研究。",
+          "created": "2026-09-29",
+          "updated": "2026-11-10",
+          "tags": [
+            "enzyme",
+            "kinase",
+            "lipid-metabolism",
+            "signaling"
+          ],
+          "filename": "PIP5KI.md",
+          "path": "wiki/zh-TW/_link/PIP5KI.md"
         }
       },
       "stats": {
@@ -825,6 +914,17 @@
           "filename": "FoxO1.md",
           "path": "wiki/en-US/_link/FoxO1.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/FoxO1.md"
+        },
+        "zh-TW": {
+          "title": "FoxO1",
+          "description": "受 Akt 調控的轉錄因子，控制糖質新生、脂肪生成與 β 細胞功能。",
+          "created": "2026-07-04",
+          "updated": "2026-11-10",
+          "tags": [
+            "protein"
+          ],
+          "filename": "FoxO1.md",
+          "path": "wiki/zh-TW/_link/FoxO1.md"
         }
       },
       "stats": {
@@ -928,6 +1028,19 @@
           "filename": "CD4+ T Cells.md",
           "path": "wiki/en-US/_link/CD4%2B%20T%20Cells.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/CD4%2B%20T%20Cells.md"
+        },
+        "zh-TW": {
+          "title": "CD4+ T Cells",
+          "description": "CD4 陽性 T 輔助細胞是適應性免疫的核心協調者，透過細胞激素生成與輔助功能統籌免疫反應。",
+          "created": "2026-07-11",
+          "updated": "2026-11-10",
+          "tags": [
+            "cell-type",
+            "immune-regulation",
+            "adaptive-immunity"
+          ],
+          "filename": "CD4+ T Cells.md",
+          "path": "wiki/zh-TW/_link/CD4%2B%20T%20Cells.md"
         }
       },
       "stats": {
@@ -953,6 +1066,19 @@
           "filename": "PPARγ.md",
           "path": "wiki/en-US/_link/PPAR%CE%B3.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/PPAR%CE%B3.md"
+        },
+        "zh-TW": {
+          "title": "PPARγ",
+          "description": "過氧化物酶體增殖物活化受體 γ（PPARγ）是一種調節脂肪酸儲存與葡萄糖代謝的核受體。它是治療糖尿病的一個關鍵靶點，並在抑制發炎方面發揮作用...",
+          "created": "2026-07-04",
+          "updated": "2026-11-10",
+          "tags": [
+            "transcription-factor",
+            "nuclear-receptor",
+            "metabolism"
+          ],
+          "filename": "PPARγ.md",
+          "path": "wiki/zh-TW/_link/PPAR%CE%B3.md"
         }
       },
       "stats": {
@@ -1018,6 +1144,17 @@
           "filename": "Hematopoietic Stem Cell.md",
           "path": "wiki/en-US/_link/Hematopoietic%20Stem%20Cell.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Hematopoietic%20Stem%20Cell.md"
+        },
+        "zh-TW": {
+          "title": "Hematopoietic Stem Cell",
+          "description": "經由造血生成所有血細胞類型的多能幹細胞",
+          "created": "2024-01-01",
+          "updated": "2026-11-10",
+          "tags": [
+            "cell-type"
+          ],
+          "filename": "Hematopoietic Stem Cell.md",
+          "path": "wiki/zh-TW/_link/Hematopoietic%20Stem%20Cell.md"
         }
       },
       "stats": {
@@ -1044,6 +1181,20 @@
           "filename": "Sir2 (yeast).md",
           "path": "wiki/en-US/sirtuins/Sir2%20%28yeast%29.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/Sir2%20%28yeast%29.md"
+        },
+        "zh-TW": {
+          "title": "Sir2 (yeast)",
+          "description": "來自 _Saccharomyces cerevisiae_ 的 Sir2（Silent Information Regulator 2）是 sirtuin 蛋白家族的創始成員。最初以 MAR1（mating-type regulator 1）發現，隨後...",
+          "created": "2026-07-02",
+          "updated": "2026-11-10",
+          "tags": [
+            "protein",
+            "sirtuin",
+            "epigenetics",
+            "longevity"
+          ],
+          "filename": "Sir2 (yeast).md",
+          "path": "wiki/zh-TW/sirtuins/Sir2%20%28yeast%29.md"
         }
       },
       "stats": {
@@ -1067,6 +1218,17 @@
           "filename": "CREB.md",
           "path": "wiki/en-US/sirtuins/CREB.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/CREB.md"
+        },
+        "zh-TW": {
+          "title": "cAMP Response Element Binding Protein (CREB)",
+          "description": "cAMP Response Element Binding Protein（CREB/CREB1）是一種 43 kDa 的鹼性亮氨酸拉鍊（bZIP）轉錄因子，可結合目標基因啟動子中的 cAMP 反應元件（CRE）。它整合 cAMP、Ca2+/鈣調蛋白與生長因子訊號。",
+          "created": "2026-07-04",
+          "updated": "2026-11-10",
+          "tags": [
+            "protein"
+          ],
+          "filename": "CREB.md",
+          "path": "wiki/zh-TW/sirtuins/CREB.md"
         }
       },
       "stats": {
@@ -1131,6 +1293,18 @@
           "filename": "Hematopoiesis.md",
           "path": "wiki/en-US/_link/Hematopoiesis.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Hematopoiesis.md"
+        },
+        "zh-TW": {
+          "title": "Hematopoiesis",
+          "description": "造血是一種由骨髓造血幹細胞形成血細胞的終生過程，受轉錄因子、細胞因子與微環境調控，並隨年齡而衰退。",
+          "created": "2026-07-04",
+          "updated": "2026-11-10",
+          "tags": [
+            "biological-process",
+            "stem-cell"
+          ],
+          "filename": "Hematopoiesis.md",
+          "path": "wiki/zh-TW/_link/Hematopoiesis.md"
         }
       },
       "stats": {
@@ -1154,6 +1328,17 @@
           "filename": "Gluconeogenesis.md",
           "path": "wiki/en-US/_link/Gluconeogenesis.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Gluconeogenesis.md"
+        },
+        "zh-TW": {
+          "title": "Gluconeogenesis",
+          "description": "定義：糖質新生是一種維持細胞與生物體穩態的基本生物學過程，涉及由訊號路徑與……調控的協調分子事件。",
+          "created": "2026-07-04",
+          "updated": "2026-11-10",
+          "tags": [
+            "biological-process"
+          ],
+          "filename": "Gluconeogenesis.md",
+          "path": "wiki/zh-TW/_link/Gluconeogenesis.md"
         }
       },
       "stats": {
@@ -1177,6 +1362,17 @@
           "filename": "AceCS2.md",
           "path": "wiki/en-US/sirtuins/AceCS2.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/AceCS2.md"
+        },
+        "zh-TW": {
+          "title": "AceCS2",
+          "description": "AceCS2（乙醯-CoA 合成酶 2，粒線體；由 ACSS1 編碼）是一種粒線體基質酶，催化 ATP 依賴的乙酸與 CoA 轉化為乙醯-CoA，將乙酸碳送入 TCA 循環以產生 ATP。",
+          "created": "2026-07-03",
+          "updated": "2026-11-10",
+          "tags": [
+            "enzyme"
+          ],
+          "filename": "AceCS2.md",
+          "path": "wiki/zh-TW/sirtuins/AceCS2.md"
         }
       },
       "stats": {
@@ -1286,6 +1482,21 @@
           "filename": "SUV39H1.md",
           "path": "wiki/en-US/_link/SUV39H1.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/SUV39H1.md"
+        },
+        "zh-TW": {
+          "title": "SUV39H1",
+          "description": "變異花斑抑制子 3-9 同源 1（KMT1A），即 H3K9 三甲基轉移酶，其衰老相關下降使 H3K9 去甲基化與 SASP 表現得以發生。",
+          "created": "2026-07-09",
+          "updated": "2026-11-10",
+          "tags": [
+            "enzyme",
+            "epigenetics",
+            "histone-methyltransferase",
+            "senescence",
+            "sasp"
+          ],
+          "filename": "SUV39H1.md",
+          "path": "wiki/zh-TW/_link/SUV39H1.md"
         }
       },
       "stats": {
@@ -1309,6 +1520,17 @@
           "filename": "UCP2.md",
           "path": "wiki/en-US/sirtuins/UCP2.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/UCP2.md"
+        },
+        "zh-TW": {
+          "title": "UCP2",
+          "description": "UCP2（Uncoupling Protein 2）是一種粒線體內膜轉運蛋白，屬於粒線體解偶聯蛋白家族，經由促進內粒線體膜質子滲漏，將氧消耗與 ATP 合成解偶聯。",
+          "created": "2026-07-03",
+          "updated": "2026-11-10",
+          "tags": [
+            "protein"
+          ],
+          "filename": "UCP2.md",
+          "path": "wiki/zh-TW/sirtuins/UCP2.md"
         }
       },
       "stats": {
@@ -1332,6 +1554,17 @@
           "filename": "SRT1720.md",
           "path": "wiki/en-US/sirtuins/SRT1720.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/SRT1720.md"
+        },
+        "zh-TW": {
+          "title": "SRT1720",
+          "description": "SRT1720 是一種 Sirtris Pharmaceuticals 開發的合成小分子 STAC（sirtuin 活化化合物），為強效 SIRT1 活化劑。它屬於 imidazothiazole 類，結構上不同於白藜蘆醇。",
+          "created": "2026-07-04",
+          "updated": "2026-11-10",
+          "tags": [
+            "chemical-compound"
+          ],
+          "filename": "SRT1720.md",
+          "path": "wiki/zh-TW/sirtuins/SRT1720.md"
         }
       },
       "stats": {
@@ -1392,6 +1625,20 @@
           "filename": "CCL5.md",
           "path": "wiki/en-US/_link/CCL5.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/CCL5.md"
+        },
+        "zh-TW": {
+          "title": "CCL5",
+          "description": "C-C 基序趨化因子配體 5（RANTES），是一種 SASP 趨化因子，結合 CCR1/3/5 並促進癌症進展與生殖衰老。",
+          "created": "2026-07-07",
+          "updated": "2026-11-10",
+          "tags": [
+            "chemokine",
+            "sasp",
+            "cancer",
+            "aging"
+          ],
+          "filename": "CCL5.md",
+          "path": "wiki/zh-TW/_link/CCL5.md"
         }
       },
       "stats": {
@@ -1491,6 +1738,19 @@
           "filename": "TFAM.md",
           "path": "wiki/en-US/_link/TFAM.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/TFAM.md"
+        },
+        "zh-TW": {
+          "title": "TFAM",
+          "description": "粒線體轉錄因子 A，一種由核基因編碼的粒線體 DNA 複製、轉錄與核樣體結構調節者；經 mTOR 抑制誘導以支援粒線體更新。",
+          "created": "2026-07-07",
+          "updated": "2026-11-10",
+          "tags": [
+            "protein",
+            "mitochondrial",
+            "transcription-factor"
+          ],
+          "filename": "TFAM.md",
+          "path": "wiki/zh-TW/_link/TFAM.md"
         }
       },
       "stats": {
@@ -1554,6 +1814,17 @@
           "filename": "Bone Marrow.md",
           "path": "wiki/en-US/_link/Bone%20Marrow.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Bone%20Marrow.md"
+        },
+        "zh-TW": {
+          "title": "Bone Marrow",
+          "description": "骨髓是位於骨骼海綿質（小樑骨）部位的半固態組織，是成年哺乳類中[[Hematopoiesis|造血作用]]（所有血細胞譜系的生成）的主要場所。",
+          "created": "2026-07-04",
+          "updated": "2026-11-10",
+          "tags": [
+            "anatomy"
+          ],
+          "filename": "Bone Marrow.md",
+          "path": "wiki/zh-TW/_link/Bone%20Marrow.md"
         }
       },
       "stats": {
@@ -1578,6 +1849,18 @@
           "filename": "Histone H1.md",
           "path": "wiki/en-US/sirtuins/Histone%20H1.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/Histone%20H1.md"
+        },
+        "zh-TW": {
+          "title": "Histone H1",
+          "description": "Histone H1（Linker Histone H1）是一家族鹼性核蛋白，可結合核小體之間的連接 DNA，促進高階染色質結構與壓縮。與核心組蛋白不同，H1 位於核小體核心之外...",
+          "created": "2026-07-04",
+          "updated": "2026-11-10",
+          "tags": [
+            "protein",
+            "epigenetics"
+          ],
+          "filename": "Histone H1.md",
+          "path": "wiki/zh-TW/sirtuins/Histone%20H1.md"
         }
       },
       "stats": {
@@ -1602,6 +1885,18 @@
           "filename": "CRTC2.md",
           "path": "wiki/en-US/_link/CRTC2.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/CRTC2.md"
+        },
+        "zh-TW": {
+          "title": "CRTC2",
+          "description": "CREB 調控轉錄共活化因子 2（CRTC2，亦稱 TORC2）是一種驅動肝臟糖質新生的共活化因子；受磷酸化（SIK/AMPK）與 sirtuin 去乙醯化調控。",
+          "created": "2026-08-03",
+          "updated": "2026-11-10",
+          "tags": [
+            "transcription-coactivator",
+            "gluconeogenesis"
+          ],
+          "filename": "CRTC2.md",
+          "path": "wiki/zh-TW/_link/CRTC2.md"
         }
       },
       "stats": {
@@ -1625,6 +1920,17 @@
           "filename": "HIC1.md",
           "path": "wiki/en-US/sirtuins/HIC1.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/HIC1.md"
+        },
+        "zh-TW": {
+          "title": "HIC1",
+          "description": "HIC1（Hypermethylated in Cancer 1）是一種具序列特異性的鋅指轉錄抑制因子，含 N 端 POZ/BTB 域。它是在基因體中經常發生高甲基化、突變或缺失的關鍵抑癌基因...",
+          "created": "2026-07-03",
+          "updated": "2026-11-10",
+          "tags": [
+            "protein"
+          ],
+          "filename": "HIC1.md",
+          "path": "wiki/zh-TW/sirtuins/HIC1.md"
         }
       },
       "stats": {
@@ -1776,6 +2082,21 @@
           "filename": "FK866.md",
           "path": "wiki/en-US/senescence/FK866.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/FK866.md"
+        },
+        "zh-TW": {
+          "title": "FK866",
+          "description": "FK866 是 NAD+ 挽救酶 NAMPT 的強效特異性抑制劑，用於耗竭細胞內 NAD+，從而在潰瘍性結腸炎實驗模型中誘導 CD8+ T 細胞衰老。",
+          "created": "2026-11-10",
+          "updated": "2026-11-10",
+          "tags": [
+            "chemical-compound",
+            "nampt-inhibitor",
+            "nad-metabolism",
+            "senescence",
+            "research-tool"
+          ],
+          "filename": "FK866.md",
+          "path": "wiki/zh-TW/senescence/FK866.md"
         }
       },
       "stats": {
@@ -1803,6 +2124,21 @@
           "filename": "Senescent CD8+ T Cells.md",
           "path": "wiki/en-US/senescence/Senescent%20CD8%2B%20T%20Cells.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/Senescent%20CD8%2B%20T%20Cells.md"
+        },
+        "zh-TW": {
+          "title": "Senescent CD8+ T Cells",
+          "description": "衰老 CD8+ T 細胞是潰瘍性結腸炎中致病性的、過早衰老的細胞毒 T 細胞群，由 NAD+ 代謝失調經粒線體功能障礙及 cGAS-STING 訊號誘導，並可被衰老細胞清除治療清除。",
+          "created": "2026-11-10",
+          "updated": "2026-11-10",
+          "tags": [
+            "cell-type",
+            "senescence",
+            "immunosenescence",
+            "cd8-t-cells",
+            "ulcerative-colitis"
+          ],
+          "filename": "Senescent CD8+ T Cells.md",
+          "path": "wiki/zh-TW/senescence/Senescent%20CD8%2B%20T%20Cells.md"
         }
       },
       "stats": {
@@ -1830,6 +2166,21 @@
           "filename": "NAD+ Metabolic Reprogramming.md",
           "path": "wiki/en-US/senescence/NAD%2B%20Metabolic%20Reprogramming.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/NAD%2B%20Metabolic%20Reprogramming.md"
+        },
+        "zh-TW": {
+          "title": "NAD+ Metabolic Reprogramming",
+          "description": "NAD+ 代謝重編程是黏膜 NAD+ 生物合成受損及 NAD+ 消耗增加的失衡，導致潰瘍性結腸炎中 NAD+ 耗竭，並經粒線體功能障礙及 cGAS-STING 訊號驅動 CD8+ T 細胞衰老。",
+          "created": "2026-11-10",
+          "updated": "2026-11-10",
+          "tags": [
+            "biological-process",
+            "nad-metabolism",
+            "senescence",
+            "immunosenescence",
+            "ulcerative-colitis"
+          ],
+          "filename": "NAD+ Metabolic Reprogramming.md",
+          "path": "wiki/zh-TW/senescence/NAD%2B%20Metabolic%20Reprogramming.md"
         }
       },
       "stats": {
@@ -1856,6 +2207,20 @@
           "filename": "T Cell Exhaustion.md",
           "path": "wiki/en-US/senescence/T%20Cell%20Exhaustion.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/T%20Cell%20Exhaustion.md"
+        },
+        "zh-TW": {
+          "title": "T Cell Exhaustion",
+          "description": "T 細胞耗竭是一種低功能、適應性的 T 細胞狀態，以抑制性檢查點上調（PD-1、CTLA-4、LAG-3、TIM-3）為定義，其機制上與 CD8+ T 細胞具生物活性、分泌 SASP 的衰老狀態不同。",
+          "created": "2026-11-10",
+          "updated": "2026-11-10",
+          "tags": [
+            "biological-process",
+            "immunosenescence",
+            "senescence",
+            "t-cell-dysfunction"
+          ],
+          "filename": "T Cell Exhaustion.md",
+          "path": "wiki/zh-TW/senescence/T%20Cell%20Exhaustion.md"
         }
       },
       "stats": {
@@ -1883,6 +2248,21 @@
           "filename": "Ulcerative Colitis.md",
           "path": "wiki/en-US/senescence/Ulcerative%20Colitis.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/Ulcerative%20Colitis.md"
+        },
+        "zh-TW": {
+          "title": "Ulcerative Colitis",
+          "description": "潰瘍性結腸炎是一種結腸黏膜的慢性發炎性腸病，其中由 NAD+ 代謝失調驅動的 CD8+ T 細胞衰老促成發病，並預測對生物製劑治療無反應。",
+          "created": "2026-11-10",
+          "updated": "2026-11-10",
+          "tags": [
+            "disease",
+            "medical-condition",
+            "inflammatory-bowel-disease",
+            "ulcerative-colitis",
+            "senescence"
+          ],
+          "filename": "Ulcerative Colitis.md",
+          "path": "wiki/zh-TW/senescence/Ulcerative%20Colitis.md"
         }
       },
       "stats": {
@@ -1949,6 +2329,20 @@
           "filename": "Cytotoxic CD4+ T Cells.md",
           "path": "wiki/en-US/_link/Cytotoxic%20CD4%2B%20T%20Cells.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Cytotoxic%20CD4%2B%20T%20Cells.md"
+        },
+        "zh-TW": {
+          "title": "Cytotoxic CD4+ T Cells",
+          "description": "效應 CD4+ T 細胞（CD4 CTL），表現 EOMES、CD38、CCL5、perforin 與 granzymes，隨著衰老擴增、累積於骨髓，並透過 CCL5–CCR5 依賴的骨髓生成，同時保留殺傷衰老細胞的能力。",
+          "created": "2026-11-10",
+          "updated": "2026-11-10",
+          "tags": [
+            "cell-type",
+            "t-cell",
+            "immunosenescence",
+            "inflammaging"
+          ],
+          "filename": "Cytotoxic CD4+ T Cells.md",
+          "path": "wiki/zh-TW/_link/Cytotoxic%20CD4%2B%20T%20Cells.md"
         }
       },
       "stats": {
@@ -1976,6 +2370,21 @@
           "filename": "Dextran Sulfate Sodium.md",
           "path": "wiki/en-US/senescence/Dextran%20Sulfate%20Sodium.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/Dextran%20Sulfate%20Sodium.md"
+        },
+        "zh-TW": {
+          "title": "Dextran Sulfate Sodium",
+          "description": "右旋糖酐硫酸鈉（DSS）是一種硫酸化多醣，經飲用水給予可產生化學性結腸炎模型，模擬人類潰瘍性結腸炎的關鍵特徵；Ye 2026 研究以週期性 3% DSS 建立慢性結腸炎模型。",
+          "created": "2026-11-10",
+          "updated": "2026-11-10",
+          "tags": [
+            "chemical-compound",
+            "colitis-model",
+            "disease-model",
+            "ulcerative-colitis",
+            "research-tool"
+          ],
+          "filename": "Dextran Sulfate Sodium.md",
+          "path": "wiki/zh-TW/senescence/Dextran%20Sulfate%20Sodium.md"
         }
       },
       "stats": {
@@ -2003,6 +2412,21 @@
           "filename": "Adoptive Transfer.md",
           "path": "wiki/en-US/senescence/Adoptive%20Transfer.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/Adoptive%20Transfer.md"
+        },
+        "zh-TW": {
+          "title": "Adoptive Transfer",
+          "description": "過繼轉移是將分離的細胞實驗性轉移至受體個體；在 Ye 2026 研究中，將 FK866 誘導的衰老 CD8+ T 細胞轉移至 DSS 結腸炎小鼠，證實這些細胞直接加劇潰瘍性結腸炎。",
+          "created": "2026-11-10",
+          "updated": "2026-11-10",
+          "tags": [
+            "analytical-technique",
+            "experimental-method",
+            "immunology",
+            "senescence",
+            "ulcerative-colitis"
+          ],
+          "filename": "Adoptive Transfer.md",
+          "path": "wiki/zh-TW/senescence/Adoptive%20Transfer.md"
         }
       },
       "stats": {
@@ -2029,6 +2453,20 @@
           "filename": "Gene Set Enrichment Analysis.md",
           "path": "wiki/en-US/senescence/Gene%20Set%20Enrichment%20Analysis.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/Gene%20Set%20Enrichment%20Analysis.md"
+        },
+        "zh-TW": {
+          "title": "Gene Set Enrichment Analysis",
+          "description": "基因集富集分析（GSEA）是一種計算方法，檢驗預先定義的基因集是否在排序基因列表的極端處過度富集；在 Ye 2026 研究中，它揭示衰老 CD8+ T 細胞中 NAD+ 代謝通路與發炎通路的富集。",
+          "created": "2026-11-10",
+          "updated": "2026-11-10",
+          "tags": [
+            "analytical-technique",
+            "bioinformatics",
+            "gene-expression",
+            "pathway-analysis"
+          ],
+          "filename": "Gene Set Enrichment Analysis.md",
+          "path": "wiki/zh-TW/senescence/Gene%20Set%20Enrichment%20Analysis.md"
         }
       },
       "stats": {
@@ -2056,6 +2494,21 @@
           "filename": "Nicotinate and Nicotinamide Metabolism.md",
           "path": "wiki/en-US/senescence/Nicotinate%20and%20Nicotinamide%20Metabolism.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/Nicotinate%20and%20Nicotinamide%20Metabolism.md"
+        },
+        "zh-TW": {
+          "title": "Nicotinate and Nicotinamide Metabolism",
+          "description": "菸酸與菸醯胺代謝是涵蓋 NAD+ 生物合成、挽救及消耗的 KEGG 路徑；其在結腸炎黏膜及衰老 CD8+ T 細胞中富集，定義驅動潰瘍性結腸炎的 NAD+ 代謝重編程。",
+          "created": "2026-11-10",
+          "updated": "2026-11-10",
+          "tags": [
+            "biological-process",
+            "nad-metabolism",
+            "metabolic-pathway",
+            "senescence",
+            "ulcerative-colitis"
+          ],
+          "filename": "Nicotinate and Nicotinamide Metabolism.md",
+          "path": "wiki/zh-TW/senescence/Nicotinate%20and%20Nicotinamide%20Metabolism.md"
         }
       },
       "stats": {
@@ -2083,6 +2536,21 @@
           "filename": "LAG-3.md",
           "path": "wiki/en-US/senescence/LAG-3.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/LAG-3.md"
+        },
+        "zh-TW": {
+          "title": "LAG-3",
+          "description": "LAG-3（CD223）是一種 T 細胞上的抑制性免疫檢測點受體；其表現在潰瘍性結腸炎的衰老 CD8+ T 細胞中無變化，是區分衰老與 T 細胞耗竭的關鍵陰性標誌。",
+          "created": "2026-11-10",
+          "updated": "2026-11-10",
+          "tags": [
+            "receptor",
+            "immune-checkpoint",
+            "immunosenescence",
+            "senescence",
+            "t-cell"
+          ],
+          "filename": "LAG-3.md",
+          "path": "wiki/zh-TW/senescence/LAG-3.md"
         }
       },
       "stats": {
@@ -2110,6 +2578,21 @@
           "filename": "KLRG1.md",
           "path": "wiki/en-US/senescence/KLRG1.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/KLRG1.md"
+        },
+        "zh-TW": {
+          "title": "KLRG1",
+          "description": "KLRG1 是一種抑制性 C 型凝集素樣受體，用作末端分化及衰老 T 細胞的標誌；CD27-KLRG1+ 表型在操作上定義潰瘍性結腸炎中的衰老 CD8+ T 細胞群。",
+          "created": "2026-11-10",
+          "updated": "2026-11-10",
+          "tags": [
+            "receptor",
+            "cell-marker",
+            "immunosenescence",
+            "senescence",
+            "t-cell"
+          ],
+          "filename": "KLRG1.md",
+          "path": "wiki/zh-TW/senescence/KLRG1.md"
         }
       },
       "stats": {
@@ -2136,6 +2619,20 @@
           "filename": "diABZI.md",
           "path": "wiki/en-US/senescence/diABZI.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/diABZI.md"
+        },
+        "zh-TW": {
+          "title": "diABZI",
+          "description": "diABZI（化合物 3）是一種強效的非核苷酸二聚醯胺基苯並咪唑 STING 激動劑；在 Ye 2026 研究中，diABZI 直接過度活化 STING，經由誘導 p16 與 p21 而重現 CD8+ T 細胞衰老。",
+          "created": "2026-11-10",
+          "updated": "2026-11-10",
+          "tags": [
+            "chemical-compound",
+            "sting-agonist",
+            "research-tool",
+            "senescence"
+          ],
+          "filename": "diABZI.md",
+          "path": "wiki/zh-TW/senescence/diABZI.md"
         }
       },
       "stats": {
@@ -2203,6 +2700,21 @@
           "filename": "CD27.md",
           "path": "wiki/en-US/senescence/CD27.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/CD27.md"
+        },
+        "zh-TW": {
+          "title": "CD27",
+          "description": "CD27 是 T 細胞上的 TNFR 超家族共刺激受體，其喪失標誌終末分化與衰老 T 細胞；CD27-KLRG1+ CD8+ T 細胞是潰瘍性結腸炎中的致病衰老子集。",
+          "created": "2026-11-10",
+          "updated": "2026-11-10",
+          "tags": [
+            "receptor",
+            "cell-marker",
+            "immunosenescence",
+            "senescence",
+            "t-cell"
+          ],
+          "filename": "CD27.md",
+          "path": "wiki/zh-TW/senescence/CD27.md"
         }
       },
       "stats": {
@@ -2230,6 +2742,21 @@
           "filename": "Perforin.md",
           "path": "wiki/en-US/senescence/Perforin.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/Perforin.md"
+        },
+        "zh-TW": {
+          "title": "Perforin",
+          "description": "穿孔素（PRF1）是 NK 細胞及 CD8+ T 細胞顆粒中的成孔細胞毒蛋白，其表現在衰老 CD8+ T 細胞中下降，標誌伴隨衰老相關分泌表型而來的細胞毒功能喪失。",
+          "created": "2026-11-10",
+          "updated": "2026-11-10",
+          "tags": [
+            "protein",
+            "cytotoxic-molecule",
+            "immunosenescence",
+            "senescence",
+            "t-cell"
+          ],
+          "filename": "Perforin.md",
+          "path": "wiki/zh-TW/senescence/Perforin.md"
         }
       },
       "stats": {
@@ -2256,6 +2783,20 @@
           "filename": "Spatial Transcriptomics.md",
           "path": "wiki/en-US/senescence/Spatial%20Transcriptomics.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/Spatial%20Transcriptomics.md"
+        },
+        "zh-TW": {
+          "title": "Spatial Transcriptomics",
+          "description": "空間轉錄體學在完整組織切片中繪製基因表現；在 Ye 2026 研究中將衰老的 CD8+ T 細胞定位於潰瘍性結腸炎中 NAD+ 代謝分數高的黏膜微環境。",
+          "created": "2026-11-10",
+          "updated": "2026-11-10",
+          "tags": [
+            "analytical-technique",
+            "transcriptomics",
+            "gene-expression",
+            "spatial-biology"
+          ],
+          "filename": "Spatial Transcriptomics.md",
+          "path": "wiki/zh-TW/senescence/Spatial%20Transcriptomics.md"
         }
       },
       "stats": {
@@ -2282,6 +2823,20 @@
           "filename": "VBIT-4.md",
           "path": "wiki/en-US/senescence/VBIT-4.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/VBIT-4.md"
+        },
+        "zh-TW": {
+          "title": "VBIT-4",
+          "description": "VBIT-4 是 VDAC1 寡聚化的抑制劑，可阻斷粒線體 DNA 釋放入細胞質；在 Ye 2026 研究中它消除細胞質 mtDNA 累積並減少 CD8+ T 細胞衰老。",
+          "created": "2026-11-10",
+          "updated": "2026-11-10",
+          "tags": [
+            "chemical-compound",
+            "vdac-inhibitor",
+            "research-tool",
+            "senescence"
+          ],
+          "filename": "VBIT-4.md",
+          "path": "wiki/zh-TW/senescence/VBIT-4.md"
         }
       },
       "stats": {
@@ -2308,6 +2863,20 @@
           "filename": "C178.md",
           "path": "wiki/en-US/senescence/C178.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/C178.md"
+        },
+        "zh-TW": {
+          "title": "C178",
+          "description": "C-178 是一種共價小分子 STING 抑制劑，結合鼠 STING 的 Cys91 並阻斷活化相關的棕櫚醯化；在 Ye 2026 研究中，它挽救 FK866 誘導的 CD8+ T 細胞衰老。",
+          "created": "2026-11-10",
+          "updated": "2026-11-10",
+          "tags": [
+            "chemical-compound",
+            "sting-inhibitor",
+            "research-tool",
+            "senescence"
+          ],
+          "filename": "C178.md",
+          "path": "wiki/zh-TW/senescence/C178.md"
         }
       },
       "stats": {
@@ -2335,6 +2904,21 @@
           "filename": "Granzyme B.md",
           "path": "wiki/en-US/senescence/Granzyme%20B.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/Granzyme%20B.md"
+        },
+        "zh-TW": {
+          "title": "Granzyme B",
+          "description": "顆粒酶 B（GZMB）是一種細胞毒顆粒中的絲胺酸蛋白酶，可誘導標靶細胞凋亡；其表現量在衰老 CD8+ T 細胞中下降，細胞毒功能轉為促發炎 SASP 分泌表型。",
+          "created": "2026-11-10",
+          "updated": "2026-11-10",
+          "tags": [
+            "enzyme",
+            "cytotoxic-molecule",
+            "immunosenescence",
+            "senescence",
+            "t-cell"
+          ],
+          "filename": "Granzyme B.md",
+          "path": "wiki/zh-TW/senescence/Granzyme%20B.md"
         }
       },
       "stats": {
@@ -2361,6 +2945,20 @@
           "filename": "CCR5.md",
           "path": "wiki/en-US/_link/CCR5.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/CCR5.md"
+        },
+        "zh-TW": {
+          "title": "CCR5",
+          "description": "CC 趨化因子受體 5（CD195），一種 Gαi 偶聯的 GPCR，也是 CCL5 的主要受體；在衰老造血祖細胞上調控上升，介導 T 細胞驅動的骨髓生成，也是 maraviroc 的標靶。",
+          "created": "2026-11-10",
+          "updated": "2026-11-10",
+          "tags": [
+            "receptor",
+            "chemokine",
+            "gpcr",
+            "immunosenescence"
+          ],
+          "filename": "CCR5.md",
+          "path": "wiki/zh-TW/_link/CCR5.md"
         }
       },
       "stats": {
@@ -2388,6 +2986,21 @@
           "filename": "Infliximab.md",
           "path": "wiki/en-US/senescence/Infliximab.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/Infliximab.md"
+        },
+        "zh-TW": {
+          "title": "Infliximab",
+          "description": "Infliximab 是用於發炎性腸道疾病的抗 TNF-alpha 嵌合 IgG1 單株抗體；在 Ye 2026 潰瘍性結腸炎世代中，高 NAD+-衰老評分可預測對 infliximab 的主要無反應。",
+          "created": "2026-11-10",
+          "updated": "2026-11-10",
+          "tags": [
+            "drug",
+            "monoclonal-antibody",
+            "tnf-inhibitor",
+            "inflammatory-bowel-disease",
+            "ulcerative-colitis"
+          ],
+          "filename": "Infliximab.md",
+          "path": "wiki/zh-TW/senescence/Infliximab.md"
         }
       },
       "stats": {
@@ -2415,6 +3028,21 @@
           "filename": "Vedolizumab.md",
           "path": "wiki/en-US/senescence/Vedolizumab.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/Vedolizumab.md"
+        },
+        "zh-TW": {
+          "title": "Vedolizumab",
+          "description": "Vedolizumab 是一種針對 α4β7 整合素的腸道選擇性人源化單株抗體，用於潰瘍性結腸炎；在 Ye 2026 的 GSE73661 隊列中，高 NAD+–衰老分數預測對 vedolizumab 無反應。",
+          "created": "2026-11-10",
+          "updated": "2026-11-10",
+          "tags": [
+            "drug",
+            "monoclonal-antibody",
+            "integrin-antagonist",
+            "inflammatory-bowel-disease",
+            "ulcerative-colitis"
+          ],
+          "filename": "Vedolizumab.md",
+          "path": "wiki/zh-TW/senescence/Vedolizumab.md"
         }
       },
       "stats": {
@@ -2480,6 +3108,19 @@
           "filename": "Myelopoiesis.md",
           "path": "wiki/en-US/_link/Myelopoiesis.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Myelopoiesis.md"
+        },
+        "zh-TW": {
+          "title": "Myelopoiesis",
+          "description": "由造血前體細胞生成骨髓系細胞（顆粒球、單核球、巨噬細胞）；衰老期間經由 CCL5–CCR5 訊號偏倚擴增，提高嗜中性球對淋巴球比值。",
+          "created": "2026-11-10",
+          "updated": "2026-11-10",
+          "tags": [
+            "process",
+            "hematopoiesis",
+            "immunosenescence"
+          ],
+          "filename": "Myelopoiesis.md",
+          "path": "wiki/zh-TW/_link/Myelopoiesis.md"
         }
       },
       "stats": {
@@ -2660,6 +3301,20 @@
           "filename": "Maraviroc.md",
           "path": "wiki/en-US/_link/Maraviroc.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Maraviroc.md"
+        },
+        "zh-TW": {
+          "title": "Maraviroc",
+          "description": "核准的 CCR5 拮抗劑（HIV-1 進入抑制劑），在老齡小鼠中可使 CCL5-CCR5 驅動的骨髓生成正常化，降低嗜中性球對淋巴球比值與炎性衰老細胞因子，並改善代謝與功能性健康壽命結果。",
+          "created": "2026-11-10",
+          "updated": "2026-11-10",
+          "tags": [
+            "drug",
+            "ccr5-antagonist",
+            "antiretroviral",
+            "geroscience"
+          ],
+          "filename": "Maraviroc.md",
+          "path": "wiki/zh-TW/_link/Maraviroc.md"
         }
       },
       "stats": {
@@ -2685,6 +3340,19 @@
           "filename": "DBC1.md",
           "path": "wiki/en-US/sirtuins/DBC1.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/DBC1.md"
+        },
+        "zh-TW": {
+          "title": "DBC1",
+          "description": "Deleted in bladder cancer 1（CCAR2）——抑癌基因，可結合 SIRT1 的 N 端並抑制其去乙醯酶活性；在癌症中 DBC1 與 HIC1 的沉默使 SIRT1 失去箝制。",
+          "created": "2026-11-10",
+          "updated": "2026-11-10",
+          "tags": [
+            "protein",
+            "sirtuin-regulator",
+            "cancer"
+          ],
+          "filename": "DBC1.md",
+          "path": "wiki/zh-TW/sirtuins/DBC1.md"
         }
       },
       "stats": {
@@ -2710,6 +3378,19 @@
           "filename": "POMC.md",
           "path": "wiki/en-US/_link/POMC.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/POMC.md"
+        },
+        "zh-TW": {
+          "title": "POMC",
+          "description": "前鴉片黑素皮質素——前體多肽，經切割為 ACTH、alpha-MSH 與 beta-endorphin；下視丘弓狀核 POMC 神經元為飲食限制下受 SIRT1 調控的攝食行為節點。",
+          "created": "2026-11-10",
+          "updated": "2026-11-10",
+          "tags": [
+            "protein",
+            "hypothalamus",
+            "feeding-behavior"
+          ],
+          "filename": "POMC.md",
+          "path": "wiki/zh-TW/_link/POMC.md"
         }
       },
       "stats": {
@@ -2735,6 +3416,19 @@
           "filename": "HIF2α.md",
           "path": "wiki/en-US/_link/HIF2%CE%B1.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/HIF2%CE%B1.md"
+        },
+        "zh-TW": {
+          "title": "HIF2α",
+          "description": "缺氧誘導因子 2 α——於缺氧下受 SIRT1 去乙醯化活化，與 SIRT1 對 HIF-1α 的抑制方向相反；隨 NAD+ 與 SIRT1 下降而衰減，提出 HIF2α 至 HIF1α 的切換。",
+          "created": "2026-11-10",
+          "updated": "2026-11-10",
+          "tags": [
+            "transcription-factor",
+            "hypoxia",
+            "sirtuins"
+          ],
+          "filename": "HIF2α.md",
+          "path": "wiki/zh-TW/_link/HIF2%CE%B1.md"
         }
       },
       "stats": {
@@ -2760,6 +3454,19 @@
           "filename": "miR-134.md",
           "path": "wiki/en-US/_link/miR-134.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/miR-134.md"
+        },
+        "zh-TW": {
+          "title": "miR-134",
+          "description": "受 SIRT1 抑制的腦富集微小 RNA，使 CREB 與 BDNF 表現得以發生；SIRT1–miR-134–CREB–BDNF 軸促進記憶形成與突觸可塑性。",
+          "created": "2026-11-10",
+          "updated": "2026-11-10",
+          "tags": [
+            "microRNA",
+            "brain",
+            "memory"
+          ],
+          "filename": "miR-134.md",
+          "path": "wiki/zh-TW/_link/miR-134.md"
         }
       },
       "stats": {
@@ -2785,6 +3492,19 @@
           "filename": "BESTO Mice.md",
           "path": "wiki/en-US/sirtuins/BESTO%20Mice.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/BESTO%20Mice.md"
+        },
+        "zh-TW": {
+          "title": "BESTO Mice",
+          "description": "胰臟 β 細胞特異性 SIRT1 轉基因（RIP-SIRT1）小鼠模型——胰臟 β 細胞中 SIRT1 過度表現抑制 UCP2，在高脂飲食下改善葡萄糖耐受性。",
+          "created": "2026-11-10",
+          "updated": "2026-11-10",
+          "tags": [
+            "organism",
+            "model-organism",
+            "diabetes"
+          ],
+          "filename": "BESTO Mice.md",
+          "path": "wiki/zh-TW/sirtuins/BESTO%20Mice.md"
         }
       },
       "stats": {
@@ -2810,6 +3530,19 @@
           "filename": "NDUFA9.md",
           "path": "wiki/en-US/_link/NDUFA9.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/NDUFA9.md"
+        },
+        "zh-TW": {
+          "title": "NDUFA9",
+          "description": "粒線體複合物 I 的輔助次單元（39-kDa 次單元），受 SIRT3 去乙醯化；氧化磷酸化機制中調控細胞 ATP 水平的一部分。",
+          "created": "2026-11-10",
+          "updated": "2026-11-10",
+          "tags": [
+            "protein",
+            "complex-i",
+            "mitochondrial"
+          ],
+          "filename": "NDUFA9.md",
+          "path": "wiki/zh-TW/_link/NDUFA9.md"
         }
       },
       "stats": {
@@ -2835,6 +3568,19 @@
           "filename": "SIRT1 BAC Mice.md",
           "path": "wiki/en-US/sirtuins/SIRT1%20BAC%20Mice.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/SIRT1%20BAC%20Mice.md"
+        },
+        "zh-TW": {
+          "title": "SIRT1 BAC Mice",
+          "description": "細菌人工染色體 SIRT1 轉基因小鼠模型——SIRT1 功能增益提高能量效率，並防止高脂飲食誘導的第 2 型糖尿病。",
+          "created": "2026-11-10",
+          "updated": "2026-11-10",
+          "tags": [
+            "organism",
+            "model-organism",
+            "diabetes"
+          ],
+          "filename": "SIRT1 BAC Mice.md",
+          "path": "wiki/zh-TW/sirtuins/SIRT1%20BAC%20Mice.md"
         }
       },
       "stats": {
@@ -2860,6 +3606,19 @@
           "filename": "LCAD.md",
           "path": "wiki/en-US/_link/LCAD.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/LCAD.md"
+        },
+        "zh-TW": {
+          "title": "LCAD",
+          "description": "長鏈醯基輔酶 A 去氫酶——粒線體 beta-氧化酶，在禁食期間受 SIRT3 去乙醯化並活化；SIRT3 剔除鼠在禁食期間累積脂肪酸氧化中間物並伴隨 ATP 降低。",
+          "created": "2026-11-10",
+          "updated": "2026-11-10",
+          "tags": [
+            "enzyme",
+            "fatty-acid-oxidation",
+            "mitochondrial"
+          ],
+          "filename": "LCAD.md",
+          "path": "wiki/zh-TW/_link/LCAD.md"
         }
       },
       "stats": {
