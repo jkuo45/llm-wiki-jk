@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>「吃我」與「別吃我」訊號 — 吞噬決策的平衡（圖解）</title>
-<meta name="description" content="圖解促吞噬（「吃我」）與抗吞噬（「別吃我」）細胞表面訊號如何支配胞葬作用與腫瘤細胞吞噬：互動式 three.js 吞噬決策模型、訊號平衡圖、訊號→受體接線圖、膜不對稱流程圖、證據等級圖，以及磷脂醯絲胺酸、鈣網蛋白、CD47、CD24、PD-L1 等軸的證據分級清單。">
+<meta name="description" content="圖解促吞噬（「吃我」）與抗吞噬（「別吃我」）細胞表面訊號如何調節胞葬作用與腫瘤細胞吞噬：互動式 three.js 吞噬決策模型、訊號平衡圖、訊號→受體接線圖、膜不對稱流程圖、證據等級圖，以及磷脂醯絲胺酸、鈣網蛋白、CD47、CD24、PD-L1 等軸的證據分級清單。">
 <link rel="canonical" href="https://graph.johnnykuo.com/pages/zh-TW/eat-me-dont-eat-me-signals.html">
 <link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/eat-me-dont-eat-me-signals.html">
 <link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/eat-me-dont-eat-me-signals.html">
@@ -164,7 +164,7 @@
       · 姊妹頁面：<a href="eryptosis.html">紅細胞凋亡</a> · <a href="apoptosis.html">細胞凋亡</a> · <a href="cell-death-comparison.html">細胞死亡比較</a>
     </div>
     <div class="pill-row">
-      <a class="badge teal" href="#decision">PS 外翻＋鈣網蛋白驅動攝入</a>
+      <a class="badge teal" href="#decision">PS 外翻＋鈣網蛋白許可攝入（Tier 4）</a>
       <a class="badge red" href="#dont">CD47 · CD24 · PD-L1 拉高抑制閾值</a>
       <a class="badge" href="#balance">結果取決於比例，而非單一配體</a>
       <a class="badge amber" href="#evidence">多數配體為 Tier 4；少數軸進入試驗</a>
@@ -179,8 +179,8 @@
   <section id="overview">
     <h2>兩類互相對抗的訊號</h2>
     <p>
-      吞噬細胞並非讀取單一「移除」旗標，而是在吞噬突觸整合活化與抑制輸入。「吃我」配體表現在死亡、受壓、
-      感染或經調理的細胞上；「別吃我」配體則持續表現在活細胞上，且常在腫瘤細胞上升。最典型的對照是
+      吞噬細胞在吞噬突觸整合活化與抑制輸入。「吃我」配體表現在死亡、受壓、
+      感染或經調理的細胞上；「別吃我」配體則持續表現在活細胞上，且在腫瘤細胞上調高。常用的對照是
       表面鈣網蛋白對 CD47：鈣網蛋白許可攝入，CD47–SIRPα 訊號則加以阻斷（Tier 4，細胞實驗）。
     </p>
     <div class="concept">
@@ -201,7 +201,7 @@
       <span class="callout-tag">平衡法則</span>
       <p>胞葬作用由「吃我」與「別吃我」表現的<b>比例</b>觸發，而非任一單一配體。活細胞透過 flippase
         活性將 PS 維持在內小葉，同時表現 CD47、唾液酸與 MHC-I；死亡或壓力使 flippase 失效、scramblase 活化，
-        PS 外翻且 CD47 常隨之下降，比例因而翻向吞入（Tier 4）。</p>
+        PS 外翻，並伴隨已報告的 CD47 下降，比例因而轉向吞入（Tier 4）。</p>
     </div>
   </section>
 
@@ -255,11 +255,11 @@
     </div>
     <p class="fig-cap" style="margin-top:10px;">
       <b>如何閱讀模型。</b>綠色與紅色標記為示意性的表面配體；數量隨兩項輸入調整，且綠色 PS／鈣網蛋白標記
-      會隨「吃我」表現量上升而由內小葉遷移至外小葉（flippase → scramblase）。半透明巨噬細胞執行四階段序列——
-      趨化（伴隨「找我」粒子流）、在彩色突觸環進行接觸／辨識、偽足形成吞噬杯、內化為吞噬體；當
-      ITIM／SHP-1 煞車佔優時，突觸處會出現紅色脈衝環。<code>eat − brake</code> 是教學上的抽象：抑制性受體
-      提高的是活化閾值，而非把配體數量相減。數值僅為示意，非實測。以 three.js r160（CDN importmap）建置；
-      在 <code>prefers-reduced-motion</code> 下停用所有動畫。
+      會隨「吃我」表現量上升而由內小葉遷移至外小葉（flippase → scramblase；半透明「鬼影」標記內小葉 PS 池）。
+      半透明巨噬細胞執行四階段序列——趨化（伴隨向外擴散的「找我」訊號光暈）、在突觸環進行短暫接觸／辨識
+      （煞車佔優時亦然——「別吃我」阻斷的是吞噬杯閉合，而非接近）、偽足形成吞噬杯、內化為完整大小的吞噬體；
+      當 ITIM／SHP-1 煞車佔優時，突觸處會出現紅色脈衝環。綠色與紅色受體並存於吞噬細胞上，其鍵結不透明度
+      隨各自訊號量調整。<code>eat − brake</code> 是教學上的抽象：抑制性受體提高的是活化閾值，而非把配體數量相減。數值僅為示意，非實測。以 three.js r160（CDN importmap）建置；在 <code>prefers-reduced-motion</code> 下停用所有動畫。
     </p>
   </section>
 
@@ -281,7 +281,7 @@
 
   <!-- ==================== MECHANISM FLOW ==================== -->
   <section id="mechanism">
-    <h2>從膜不對稱到吞入</h2>
+    <h2>膜不對稱喪失與 PS 介導的吞入</h2>
     <p>
       健康細胞透過 ATP 依賴的 flippase 活性將 PS 留在內小葉。凋亡與紅細胞凋亡的執行過程使 flippase 失效、
       scramblase 活化——凋亡中為 caspase 切割 ATP11C 並活化 XKR8，紅細胞凋亡中為 Ca²⁺ 驅動
@@ -296,10 +296,10 @@
         由比例決定結果（Tier 4）。</div>
     </div>
     <ol class="steps">
-      <li><b>活細胞。</b>flippase 將 PS 留在內側；CD47、唾液酸與 MHC-I 主導外表面 → 不吞噬。</li>
-      <li><b>死亡或壓力。</b>flippase 關、scramblase 開（紅細胞凋亡為 Ca²⁺ 驅動；凋亡為 caspase 驅動）→ PS 出現在外小葉；CD47 常隨老化流失 → 比例翻轉 → 吞入，PS 介導時不引發發炎。</li>
-      <li><b>疾病利用錯誤的那一側。</b>癌症過度表現煞車（CD47、CD24、PD-L1）；纖維化與動脈粥狀硬化在下游損害「吃我」辨識；過度紅細胞凋亡使清除飽和，並送出 PS 陽性的促凝血細胞。</li>
-      <li><b>ICD 治療利用「吃我」側。</b>蒽環類、光動力療法與部分放療後出現表面鈣網蛋白。樹突細胞對 PS 陽性屍體的攝入具耐受性，除非同時具備鈣網蛋白與危險訊號。</li>
+      <li><b>活細胞。</b>flippase 將 PS 留在內側；CD47、唾液酸與 MHC-I 主導外表面 → 無持續吞噬。</li>
+      <li><b>死亡或壓力。</b>flippase 關、scramblase 開（紅細胞凋亡為 Ca²⁺ 驅動；凋亡為 caspase 驅動）→ PS 出現在外小葉；隨老化出現 CD47 流失已有報告 → 比例轉向 → 吞入，PS 介導時不引發發炎。</li>
+      <li><b>疾病效應。</b>癌症過度表現煞車（CD47、CD24、PD-L1）；纖維化與動脈粥狀硬化在下游損害「吃我」辨識；過度紅細胞凋亡使清除飽和，並送出 PS 陽性的促凝血細胞。</li>
+      <li><b>ICD 治療。</b>蒽環類、光動力療法與部分放療後出現表面鈣網蛋白。樹突細胞對 PS 陽性屍體的攝入在體外實驗中被報告為耐受性，除非同時具備鈣網蛋白與危險訊號。</li>
     </ol>
   </section>
 
@@ -329,7 +329,7 @@
         <tbody>
           <tr>
             <td><b>磷脂醯絲胺酸（PS）</b></td>
-            <td>普遍存在：凋亡、紅細胞凋亡、活化血小板與腫瘤細胞膜的外小葉；凋亡小體。</td>
+            <td>多種情境：凋亡、紅細胞凋亡、活化血小板與腫瘤細胞膜的外小葉；凋亡小體。</td>
             <td>直接 PS 受體（TIM-4、BAI1、stabilin-2）與橋接分子（Gas6/Protein S → MerTK 類 TAM 受體；MFGE8 → 整合素）。</td>
             <td>哺乳動物中研究最完整的「吃我」訊號 <span class="tier t4">Tier 4</span>。執行需 scramblase 活化＋flippase 失效（紅細胞凋亡為 TMEM16F/ANO6；凋亡為 caspase 切割 ATP11C 與 XKR8）。PS 陽性物質的攝入使巨噬細胞偏向產生 HO-1 的抗發炎狀態 <span class="tier t4">Tier 4</span>–<span class="tier t3">Tier 3</span>。</td>
           </tr>
@@ -337,7 +337,7 @@
             <td><b>鈣網蛋白（表面外露）</b></td>
             <td>蒽環類化療、光動力療法、部分放療後的細胞表面；免疫原性細胞死亡中的主要「吃我」訊號。</td>
             <td>吞噬細胞上的 LRP1/CD91；移除對立的 CD47 煞車可許可攝入。</td>
-            <td>表面 CRT 由 LRP1/CD91 辨識（Gardai et al. 2005）；CRT 亦是已報告的 C1q 結合共受體，分泌型或經切割的 CRT 可作為調理素。雙死亡訊號邏輯：CRT 驅動攝入，而同一次死亡產生的腫瘤抗原觸發適應性反應 <span class="tier t4">Tier 4</span>。</td>
+            <td>表面 CRT 由 LRP1/CD91 辨識（Gardai et al. 2005）；CRT 亦是已報告的 C1q 結合共受體，分泌型或經切割的 CRT 可作為調理素。CRT 為攝入所需，而同一次死亡產生的腫瘤抗原觸發適應性反應 <span class="tier t4">Tier 4</span>。</td>
           </tr>
           <tr>
             <td><b>SLAMF7（CS1 / CD319）</b></td>
@@ -355,19 +355,19 @@
             <td><b>氧化磷脂／oxLDL 決定位</b></td>
             <td>氧化壓力下的細胞；粥樣斑塊碎片。</td>
             <td>清道夫受體（CD36、SR-A、LOX-1）。</td>
-            <td>不穩定斑塊泡沫細胞攝入的主要基礎；透過 oxPS 決定位與 PS 路徑重疊 <span class="tier t4">Tier 4</span>。</td>
+            <td>不穩定斑塊泡沫細胞攝入的已報告促成因素；透過 oxPS 決定位與 PS 路徑重疊 <span class="tier t4">Tier 4</span>。</td>
           </tr>
           <tr>
             <td><b>去唾液酸化醣鏈</b></td>
             <td>老化紅血球 — 古典的衰老「吃我」線索；神經胺酸酶處理在實驗上會驅動 PS 外露。</td>
-            <td>天然存在的 IgG 自體抗體（常針對 AE1/band 3）→ Fc 受體橋接。</td>
+            <td>天然存在的 IgG 自體抗體（已報告針對 AE1/band 3）→ Fc 受體橋接。</td>
             <td>與 PS 路徑不同：並非紅細胞凋亡。去唾液酸化銜接兩套清除程式，因為去唾液酸化與 PS 外露會同時發生 <span class="tier t4">Tier 4</span>。</td>
           </tr>
           <tr>
             <td><b>受損胞器上的泛素鏈</b></td>
             <td>經 Parkin 標記的粒線體（PINK1/Parkin 路徑）；粒線體自噬受體。</td>
             <td>自噬受體 p62、NBR1、NDP52、OPTN。</td>
-            <td>粒線體自噬的「吃我」邏輯在胞器尺度上鏡像胞葬作用 <span class="tier t4">Tier 4</span>；PINK1/Parkin 失效與家族性巴金森氏症相關。</td>
+            <td>粒線體自噬的「吃我」機制在胞器尺度與胞葬作用相似 <span class="tier t4">Tier 4</span>；PINK1/Parkin 失效與家族性巴金森氏症相關。</td>
           </tr>
           <tr>
             <td><b>胞外基質錨定的 CXCL14</b></td>
@@ -379,7 +379,7 @@
             <td><b>補體 C1q（橋接調理素）</b></td>
             <td>凋亡細胞；古典路徑感測器。</td>
             <td>C1q 橋接至吞噬細胞上的表面鈣網蛋白／CD91（LRP1）。</td>
-            <td>呼應 CRT 的關聯：CRT（cC1qR）是已報告、與 CD91/LRP1 搭配的 C1q 結合共受體；因 CRT 不具穿膜區段，此歸屬仍有爭議（Park &amp; Kim 2017）。為完整起見列出 <span class="tier t4">Tier 4</span>。</td>
+            <td>CRT（cC1qR）是已報告、與 CD91/LRP1 搭配的 C1q 結合共受體；因 CRT 不具穿膜區段，此歸屬仍有爭議（Park &amp; Kim 2017）。為完整起見列出 <span class="tier t4">Tier 4</span>。</td>
           </tr>
         </tbody>
       </table>
@@ -397,7 +397,7 @@
         <tbody>
           <tr>
             <td><b>CD47</b></td>
-            <td>幾乎所有有核細胞＋紅血球 — 典型的煞車。</td>
+            <td>幾乎所有有核細胞＋紅血球 — 常用的煞車範例。</td>
             <td>巨噬細胞／DC 上的 SIRPα → ITIM、SHP-1/2、肌球蛋白 II 累積，阻斷吞入。</td>
             <td>普遍表現；部分組織（動脈、肺、光老化皮膚）隨年齡上升。老化紅血球失去 CD47 會移除煞車並加速清除 <span class="tier t4">Tier 4</span>，紅血球模型為 <span class="tier t3">Tier 3</span>。抗 CD47 藥物（單株抗體、SIRPα 誘餌、雙特異性抗體）仍屬研究階段且未獲核准：Gilead 於 2024 年因 ENHANCE-3 顯示無效且死亡增加而終止 magrolimab（FDA 對 AML/MDS 試驗全面暫停），其餘實體瘤試驗亦自研發管線移除；其他藥物在 2024–25 年亦接連受挫 <span class="tier t2">Tier 2</span>。</td>
           </tr>
@@ -421,7 +421,7 @@
           </tr>
           <tr>
             <td><b>β2-微球蛋白（＋MHC-I 表現）</b></td>
-            <td>有核細胞；腫瘤細胞常上調此軸。</td>
+            <td>有核細胞；腫瘤細胞上調此軸。</td>
             <td>巨噬細胞上的 LILRB1（ILT2）；小鼠中樞神經為 LILRB2 / PirB。</td>
             <td>表面 MHC-I/β2M 透過 LILRB1 設定抗吞噬閾值；破壞 MHC-I 或 LILRB1 任一者，都在體外與小鼠模型中增強腫瘤細胞吞噬（Barkal et al. 2018, <i>Nat Immunol</i> 19:76–84；PMID 29180808） <span class="tier t3">Tier 3</span>。PILRβ 是 CD99 的活化型受體，KIR 則為 NK 細胞受體，皆非此煞車。</td>
           </tr>
@@ -475,7 +475,7 @@
 
   <!-- ==================== FAILURE MODES ==================== -->
   <section id="failure">
-    <h2>平衡失效之時</h2>
+    <h2>失效模式：煞車過度表現與清除受損</h2>
     <div class="fail-grid">
       <div class="fail cancer">
         <h4>癌症 — 煞車過度表現</h4>
@@ -494,8 +494,8 @@
           促凝血細胞。見<a href="eryptosis-evidence-synthesis.html">紅細胞凋亡證據綜述</a>。</p>
       </div>
       <div class="fail icd">
-        <h4>ICD 治療 — 利用「吃我」側</h4>
-        <p>蒽環類、光動力療法與部分放療後出現表面鈣網蛋白。樹突細胞對 PS 陽性屍體的攝入具耐受性，
+        <h4>ICD 治療 — 增加「吃我」表現</h4>
+        <p>蒽環類、光動力療法與部分放療後出現表面鈣網蛋白。樹突細胞對 PS 陽性屍體的攝入在體外實驗中被報告為耐受性，
           除非同時配備 CRT 與危險訊號，因此「吃我」訊號也左右適應性反應。</p>
       </div>
     </div>
@@ -677,7 +677,7 @@ function flowArrow(x1, y, x2, cls, marker){
   ];
   B.forEach(n=>{ s += flowNode(n.x, 205, n.w, 60, n.L, 'node-brake'); });
   [[245,275],[500,530],[755,785]].forEach(p=>{ s += flowArrow(p[0], 235, p[1], 'edge-brake', 'flB'); });
-  s += svgText(500, 300, 'PS 介導的攝入不引發發炎；DC 的耐受性攝入需 CRT＋危險訊號才會偏向適應性免疫反應。', 's-mute', 10, 'middle');
+  s += svgText(500, 300, 'PS 介導的攝入不引發發炎；DC 的耐受性攝入（體外）需 CRT＋危險訊號才會偏向適應性免疫反應。', 's-mute', 10, 'middle');
   document.getElementById('flowSvg').innerHTML = s;
 })();
 
@@ -830,8 +830,8 @@ brakeSlider.addEventListener('input', onSlider);
 const canvas = document.getElementById('signal-canvas');
 const fallback = document.getElementById('stage-fallback');
 let renderer, scene, camera, controls;
-let membrane, phago, armA, armB, body, phagosome, synapse, contacts, contactGeo, stream, streamGeo, streamSeed, nubs, world;
-let eatKnobs = [], brakeKnobs = [], N = 0;
+let membrane, phago, armA, armB, body, phagosome, synapse, stream, streamGeo, streamSeed, nubs, world;
+let eatKnobs = [], brakeKnobs = [], ghostKnobs = [], N = 0;
 let engage = 0, want = 0;
 
 try {
@@ -871,7 +871,7 @@ scene.add(dust);
 
 /* Target cell — green eat-me markers migrate from inner to outer leaflet as eat-me display rises */
 const target = new THREE.Group();
-target.position.set(-1.7, 0, 0);
+target.position.set(-2.2, 0, 0);
 world.add(target);
 membrane = new THREE.Mesh(
   new THREE.SphereGeometry(1.25, 48, 32),
@@ -917,8 +917,10 @@ function makeMarker(p, km, sm, geo){
   return g;
 }
 const eatPts = fib(N, 0), brakePts = fib(N, Math.PI);
+const ghostMat = new THREE.MeshBasicMaterial({ color:0x2aa866, transparent:true, opacity:0.35 });
 eatPts.forEach((p,i)=>{ const m=makeMarker(p, eatMat, stalkEat, i<N/2?markerGeo.ps:markerGeo.crt); target.add(m); eatKnobs.push(m); });
 brakePts.forEach((p,i)=>{ const m=makeMarker(p, brakeMat, stalkBrk, i<N/2?markerGeo.cd47:markerGeo.sia); target.add(m); brakeKnobs.push(m); });
+eatPts.forEach((p)=>{ const g=new THREE.Mesh(markerGeo.ps, ghostMat); g.position.copy(p).multiplyScalar(1.0); target.add(g); ghostKnobs.push(g); });
 const eatOrder = spread(N), brakeOrder = spread(N);
 function setMarkers(){
   const ne = Math.round(eatLevel*N), nb = Math.round(brakeLevel*N);
@@ -931,11 +933,15 @@ function setMarkers(){
     knob.position.copy(p).multiplyScalar(r);
   });
   brakeKnobs.forEach((m,i)=>m.visible = vb.has(i));
+  // ponytail: inner-leaflet PS ghosts fade as eat-me rises (cap 12, schematic pool)
+  const ng = Math.min(12, N - ne);
+  ghostKnobs.forEach((g,i)=>{ g.visible = i < ng; });
+  ghostMat.opacity = 0.35 * Math.max(0, 1 - eatLevel);
 }
 
 /* Phagocyte (macrophage) */
 phago = new THREE.Group();
-phago.position.set(3.4, 0, 0);
+phago.position.set(4.65, 0, 0);
 world.add(phago);
 body = new THREE.Mesh(
   new THREE.SphereGeometry(2.15, 40, 28),
@@ -953,29 +959,38 @@ function makeArm(y){
 }
 armA = makeArm(0.65); armB = makeArm(-0.65);
 
-/* Phagosome, synapse ring, receptor nubs + ligand→receptor links, find-me stream */
+/* Phagosome matches target radius; it is positioned at the target each frame and
+   cross-fades in as the target is drawn inside the phagocyte (no shrink-collapse). */
 phagosome = new THREE.Mesh(
-  new THREE.SphereGeometry(0.30, 20, 14),
+  new THREE.SphereGeometry(1.25, 32, 22),
   new THREE.MeshStandardMaterial({ color:0x9fb4c9, emissive:0x2aa866, emissiveIntensity:0.5, transparent:true, opacity:0 }));
-phagosome.position.set(-0.2, 0, 0); phago.add(phagosome);
+phagosome.position.set(-2.2, 0, 0); world.add(phagosome);
 
 synapse = new THREE.Mesh(
   new THREE.TorusGeometry(0.5, 0.035, 8, 40),
   new THREE.MeshBasicMaterial({ color:0x35d07f, transparent:true, opacity:0 }));
-synapse.rotation.y = Math.PI/2; synapse.position.set(0.95, 0, 0); world.add(synapse);
+synapse.rotation.y = Math.PI/2; world.add(synapse);
 
+// Activating and inhibitory receptors coexist on the phagocyte; they are not
+// alternative states. Green nubs = TIM-4/MerTK-like, red = SIRPα/Siglec-like.
 const nubGeo = new THREE.SphereGeometry(0.07, 10, 8);
 nubs = [];
-for (let i=0;i<4;i++){
-  const n = new THREE.Mesh(nubGeo, new THREE.MeshBasicMaterial({ color:0x35d07f }));
-  n.position.set(-1.9, -0.6 + i*0.4, 0.2); phago.add(n); nubs.push(n);
+[[-0.25,'eat'],[0.25,'eat'],[-0.55,'brake'],[0.55,'brake']].forEach(([yy,kind])=>{
+  const n = new THREE.Mesh(nubGeo, new THREE.MeshBasicMaterial({ color: kind==='eat'?0x35d07f:0xff5d63, transparent:true, opacity:0 }));
+  n.position.set(-2.05, yy, 0.15); n.userData.kind = kind; phago.add(n); nubs.push(n);
+});
+function makeContacts(color){
+  const g = new THREE.BufferGeometry();
+  g.setAttribute('position', new THREE.BufferAttribute(new Float32Array(2*2*3), 3));
+  const l = new THREE.LineSegments(g, new THREE.LineBasicMaterial({ color, transparent:true, opacity:0 }));
+  world.add(l); return [l, g];
 }
-contactGeo = new THREE.BufferGeometry();
-contactGeo.setAttribute('position', new THREE.BufferAttribute(new Float32Array(4*2*3), 3));
-contacts = new THREE.LineSegments(contactGeo, new THREE.LineBasicMaterial({ color:0x9fe8c0, transparent:true, opacity:0 }));
-world.add(contacts);
+const [contactsEat, contactGeoEat] = makeContacts(0x9fe8c0);
+const [contactsBrake, contactGeoBrake] = makeContacts(0xff9a9e);
 
-streamSeed = Array.from({length:36},()=>({ t:Math.random(), y:(Math.random()-0.5)*1.6, z:(Math.random()-0.5)*1.2 }));
+/* Find-me cues diffuse outward from the target (halo), they are not a beam. */
+const haloDirs = fib(36, 0.7);
+streamSeed = haloDirs.map((d,i)=>({ dir:d, off:(i%9)/9 }));
 streamGeo = new THREE.BufferGeometry();
 streamGeo.setAttribute('position', new THREE.BufferAttribute(new Float32Array(streamSeed.length*3), 3));
 stream = new THREE.Points(streamGeo, new THREE.PointsMaterial({ color:0x7fd4ff, size:0.05, transparent:true, opacity:0 }));
@@ -998,62 +1013,78 @@ fit();
 
 setPreset('apoptotic');
 
+let stageVisible = true;
+new IntersectionObserver(en=>{ stageVisible = en[0].isIntersecting; }).observe(document.getElementById('stage'));
+
 function animate(){
   requestAnimationFrame(animate);
+  if (!stageVisible) return;   // off-screen: skip render, keep rAF alive
   const t = performance.now()*0.001;
   const net = eatLevel - brakeLevel;
   want = net > 0.12 ? 1 : (net < -0.05 ? 0 : 0.5);
   engage += (want - engage) * 0.028;
   if (paused) engage = want;            // reduced motion: snap, no transition
   const p = engage;
+  const brake = want === 0;
 
   // four stages: chemotaxis → contact/tasting → cup formation → internalization
   const a = Math.min(1, p/0.35);
   const b = Math.min(1, Math.max(0, (p-0.35)/0.25));
   const c = Math.min(1, Math.max(0, (p-0.6)/0.25));
   const d = Math.min(1, Math.max(0, (p-0.85)/0.15));
+  // ponytail: don't-eat-me blocks cup closure, not approach — transient tasting
+  // contact under brake dominance (approach → red pulse → retract), not parking.
+  const brakeProbe = brake ? (paused ? 0.72 : 0.45 + 0.35*Math.sin(t*1.1)) : 0;
+  const aEff = Math.max(a, brakeProbe), bEff = Math.max(b, brakeProbe*0.4);
+  const contact = Math.max(bEff, brakeProbe) * (1-c) * (1-d);
 
-  phago.position.x = 3.4 - 2.75*a;
-  phago.position.y = paused ? 0 : 0.06*Math.sin(t*1.6)*(1-a);
-  target.position.x = -1.7 + 0.9*c;
-  target.scale.setScalar(1 - 0.55*c - 0.35*d);
-  armA.scale.y = armB.scale.y = 0.5 + 1.8*b;
-  armA.position.x = armB.position.x = -1.2 - 0.7*b;
+  phago.position.x = 4.65 - 3.2*aEff;   // contact at 1.45: centre gap 3.65 (1.25+2.15+0.25 gap)
+  phago.position.y = paused ? 0 : 0.06*Math.sin(t*1.6)*(1-aEff);
+  target.position.x = -2.2 + 1.6*c + 0.4*d;   // drawn into the phagocyte, kept intact
+  armA.scale.y = armB.scale.y = 0.5 + 1.8*bEff;
+  armA.position.x = armB.position.x = -1.2 - 0.7*bEff;
   armA.rotation.z = Math.PI/2 + 0.45*c;
   armB.rotation.z = Math.PI/2 - 0.45*c;
-  body.material.opacity = 0.26 + 0.18*a + 0.10*c;
+  body.material.opacity = 0.26 + 0.18*aEff + 0.10*c;
 
+  // phagosome cross-fade at full target size; hide the exterior target once inside
+  phagosome.position.copy(target.position);
   phagosome.visible = d > 0.01;
   phagosome.material.opacity = 0.85*d;
-  phagosome.position.x = -0.2 - 0.7*d;
-  phagosome.scale.setScalar(1 - 0.4*d);
+  target.visible = d < 0.6;
 
-  const brake = want === 0;
-  const col = brake ? 0xff5d63 : 0x35d07f;
-  synapse.material.color.setHex(col);
+  // synapse anchored to the moving contact plane, radius closing with the cup
+  synapse.position.set(target.position.x + 1.25, 0, 0);
+  synapse.scale.setScalar(Math.max(0.2, 1 - 0.6*c));
+  synapse.material.color.setHex(brake ? 0xff5d63 : 0x35d07f);
   synapse.material.opacity = brake
-    ? (paused ? 0.4 : 0.35 + 0.25*Math.sin(t*3))
+    ? 0.25 + 0.5*brakeProbe
     : 0.15 + 0.55*b;
-  nubs.forEach(n=>n.material.color.setHex(col));
-  contacts.material.color.setHex(col);
-  contacts.material.opacity = 0.7*b*(1-c)*(1-d);   // receptor engagement fades as the cup closes
 
-  // ligand → receptor links across the synapse
-  const cp = contactGeo.attributes.position.array;
-  for (let i=0;i<4;i++){
-    const yy = -0.6 + i*0.4;
-    cp[i*6+0] = target.position.x + 1.1; cp[i*6+1] = yy; cp[i*6+2] = 0.2;
-    cp[i*6+3] = phago.position.x - 1.9;  cp[i*6+4] = yy; cp[i*6+5] = 0.2;
-  }
-  contactGeo.attributes.position.needsUpdate = true;
+  // receptor nubs + ligand→receptor bonds, weighted by each signal class
+  nubs.forEach(n=>{ n.material.opacity = (n.userData.kind==='eat' ? 0.25+0.75*eatLevel : 0.25+0.75*brakeLevel) * contact; });
+  const surfT = target.position.x + 1.25, surfP = phago.position.x - 2.15;
+  [[contactGeoEat, [-0.25, 0.25]], [contactGeoBrake, [-0.55, 0.55]]].forEach(([geo, ys])=>{
+    const cp = geo.attributes.position.array;
+    ys.forEach((yy,i)=>{
+      cp[i*6+0] = surfT; cp[i*6+1] = yy; cp[i*6+2] = 0.15;
+      cp[i*6+3] = surfP; cp[i*6+4] = yy; cp[i*6+5] = 0.15;
+    });
+    geo.attributes.position.needsUpdate = true;
+  });
+  contactsEat.material.opacity = contact * (0.2 + 0.8*eatLevel);
+  contactsBrake.material.opacity = contact * (0.2 + 0.8*brakeLevel);
 
-  // find-me particle stream from target toward phagocyte during chemotaxis
-  stream.material.opacity = paused ? 0 : 0.55*Math.max(0,1-a)*(brake?0:1);
+  // find-me halo: particles diffuse outward from the target, strongest during
+  // chemotaxis, independent of the eat/brake verdict (recruitment ≠ engulfment)
+  stream.material.opacity = paused ? 0.35 : 0.55*(1 - 0.5*aEff);
   const sp = streamGeo.attributes.position.array;
   for (let i=0;i<streamSeed.length;i++){
-    const s = streamSeed[i], q = (s.t + t*0.15) % 1;
-    sp[i*3]   = (target.position.x + 1.2) + q*(phago.position.x - target.position.x - 1.2);
-    sp[i*3+1] = s.y; sp[i*3+2] = s.z;
+    const s = streamSeed[i], q = paused ? s.off : (s.off + t*0.12) % 1;
+    const r = 1.5 + 0.9*q;
+    sp[i*3]   = target.position.x + s.dir.x*r;
+    sp[i*3+1] = s.dir.y*r;
+    sp[i*3+2] = s.dir.z*r;
   }
   streamGeo.attributes.position.needsUpdate = true;
 
