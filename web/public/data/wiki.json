@@ -1,5 +1,5 @@
 {
-  "generated": "10_NOV_2026 06:41 PM PST",
+  "generated": "11_NOV_2026 08:20 AM PST",
   "wiki": [
     {
       "id": "wiki-index",
@@ -568,6 +568,46 @@
       }
     },
     {
+      "id": "SASP",
+      "langs": {
+        "en-US": {
+          "title": "Senescence-Associated Secretory Phenotype",
+          "description": "The senescence-associated secretory phenotype (SASP) is a complex mixture of cytokines, chemokines, growth factors, matrix metalloproteinases, bioactive lipids, extracellular vesicles, and non-coding nucleic acids secreted by senescent cells, mediating paracrine and systemic effects on the tissue microenvironment.",
+          "created": "2024-01-01",
+          "updated": "2026-09-15",
+          "tags": [
+            "biological-process",
+            "senescence",
+            "inflammaging",
+            "aging"
+          ],
+          "filename": "SASP.md",
+          "path": "wiki/en-US/senescence/SASP.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/SASP.md"
+        },
+        "zh-TW": {
+          "title": "Senescence-Associated Secretory Phenotype",
+          "description": "衰老相關分泌表型（SASP）是衰老細胞分泌的一複雜混合物，包含細胞激素、趨化因子、生長因子、基質金屬蛋白酶、生物活性脂質、細胞外囊泡與非編碼核酸，對組織微環境介導旁分泌與全身性效應。",
+          "created": "2024-01-01",
+          "updated": "2026-09-15",
+          "tags": [
+            "biological-process",
+            "senescence",
+            "inflammaging",
+            "aging"
+          ],
+          "filename": "SASP.md",
+          "path": "wiki/zh-TW/senescence/SASP.md"
+        }
+      },
+      "stats": {
+        "words": 6046,
+        "images": 0,
+        "links": 491,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "NAMPT",
       "langs": {
         "en-US": {
@@ -611,46 +651,6 @@
         "words": 639,
         "images": 0,
         "links": 63,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "SASP",
-      "langs": {
-        "en-US": {
-          "title": "Senescence-Associated Secretory Phenotype",
-          "description": "The senescence-associated secretory phenotype (SASP) is a complex mixture of cytokines, chemokines, growth factors, matrix metalloproteinases, bioactive lipids, extracellular vesicles, and non-coding nucleic acids secreted by senescent cells, mediating paracrine and systemic effects on the tissue microenvironment.",
-          "created": "2024-01-01",
-          "updated": "2026-09-15",
-          "tags": [
-            "biological-process",
-            "senescence",
-            "inflammaging",
-            "aging"
-          ],
-          "filename": "SASP.md",
-          "path": "wiki/en-US/senescence/SASP.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/SASP.md"
-        },
-        "zh-TW": {
-          "title": "Senescence-Associated Secretory Phenotype",
-          "description": "衰老相關分泌表型（SASP）是衰老細胞分泌的一複雜混合物，包含細胞激素、趨化因子、生長因子、基質金屬蛋白酶、生物活性脂質、細胞外囊泡與非編碼核酸，對組織微環境介導旁分泌與全身性效應。",
-          "created": "2024-01-01",
-          "updated": "2026-09-15",
-          "tags": [
-            "biological-process",
-            "senescence",
-            "inflammaging",
-            "aging"
-          ],
-          "filename": "SASP.md",
-          "path": "wiki/zh-TW/senescence/SASP.md"
-        }
-      },
-      "stats": {
-        "words": 6046,
-        "images": 0,
-        "links": 491,
         "diagrams": 0
       }
     },
@@ -1728,32 +1728,6 @@
       }
     },
     {
-      "id": "Cytotoxic CD4+ T Cells",
-      "langs": {
-        "en-US": {
-          "title": "Cytotoxic CD4+ T Cells",
-          "description": "Effector CD4+ T cells (CD4 CTLs) expressing EOMES, CD38, CCL5, perforin and granzymes that expand during aging, accumulate in the bone marrow, and drive CCL5–CCR5-dependent myelopoiesis while retaining senescent-cell killing capacity.",
-          "created": "2026-11-10",
-          "updated": "2026-11-10",
-          "tags": [
-            "cell-type",
-            "t-cell",
-            "immunosenescence",
-            "inflammaging"
-          ],
-          "filename": "Cytotoxic CD4+ T Cells.md",
-          "path": "wiki/en-US/_link/Cytotoxic%20CD4%2B%20T%20Cells.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Cytotoxic%20CD4%2B%20T%20Cells.md"
-        }
-      },
-      "stats": {
-        "words": 459,
-        "images": 0,
-        "links": 30,
-        "diagrams": 0
-      }
-    },
-    {
       "id": "Thrombosis",
       "langs": {
         "en-US": {
@@ -1776,6 +1750,32 @@
         "words": 241,
         "images": 0,
         "links": 33,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Cytotoxic CD4+ T Cells",
+      "langs": {
+        "en-US": {
+          "title": "Cytotoxic CD4+ T Cells",
+          "description": "Effector CD4+ T cells (CD4 CTLs) expressing EOMES, CD38, CCL5, perforin and granzymes that expand during aging, accumulate in the bone marrow, and drive CCL5–CCR5-dependent myelopoiesis while retaining senescent-cell killing capacity.",
+          "created": "2026-11-10",
+          "updated": "2026-11-10",
+          "tags": [
+            "cell-type",
+            "t-cell",
+            "immunosenescence",
+            "inflammaging"
+          ],
+          "filename": "Cytotoxic CD4+ T Cells.md",
+          "path": "wiki/en-US/_link/Cytotoxic%20CD4%2B%20T%20Cells.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Cytotoxic%20CD4%2B%20T%20Cells.md"
+        }
+      },
+      "stats": {
+        "words": 459,
+        "images": 0,
+        "links": 30,
         "diagrams": 0
       }
     },
@@ -2361,32 +2361,6 @@
       }
     },
     {
-      "id": "Maraviroc",
-      "langs": {
-        "en-US": {
-          "title": "Maraviroc",
-          "description": "FDA-approved CCR5 antagonist (HIV-1 entry inhibitor) that in aged mice normalizes CCL5-CCR5-driven myelopoiesis, lowers the neutrophil-to-lymphocyte ratio and inflammaging cytokines, and improves metabolic and functional healthspan outcomes.",
-          "created": "2026-11-10",
-          "updated": "2026-11-10",
-          "tags": [
-            "drug",
-            "ccr5-antagonist",
-            "antiretroviral",
-            "geroscience"
-          ],
-          "filename": "Maraviroc.md",
-          "path": "wiki/en-US/_link/Maraviroc.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Maraviroc.md"
-        }
-      },
-      "stats": {
-        "words": 290,
-        "images": 0,
-        "links": 13,
-        "diagrams": 0
-      }
-    },
-    {
       "id": "Glycolysis",
       "langs": {
         "en-US": {
@@ -2417,6 +2391,32 @@
         "words": 720,
         "images": 0,
         "links": 73,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Maraviroc",
+      "langs": {
+        "en-US": {
+          "title": "Maraviroc",
+          "description": "FDA-approved CCR5 antagonist (HIV-1 entry inhibitor) that in aged mice normalizes CCL5-CCR5-driven myelopoiesis, lowers the neutrophil-to-lymphocyte ratio and inflammaging cytokines, and improves metabolic and functional healthspan outcomes.",
+          "created": "2026-11-10",
+          "updated": "2026-11-10",
+          "tags": [
+            "drug",
+            "ccr5-antagonist",
+            "antiretroviral",
+            "geroscience"
+          ],
+          "filename": "Maraviroc.md",
+          "path": "wiki/en-US/_link/Maraviroc.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Maraviroc.md"
+        }
+      },
+      "stats": {
+        "words": 290,
+        "images": 0,
+        "links": 13,
         "diagrams": 0
       }
     },
@@ -5027,6 +5027,40 @@
       }
     },
     {
+      "id": "Ferroptosis",
+      "langs": {
+        "en-US": {
+          "title": "Ferroptosis",
+          "description": "Ferroptosis is a non-apoptotic form of regulated cell death driven by iron-dependent Lipid Peroxidation.",
+          "created": "2024-01-01",
+          "updated": "2026-09-26",
+          "tags": [
+            "biological-process"
+          ],
+          "filename": "Ferroptosis.md",
+          "path": "wiki/en-US/cell-death/Ferroptosis.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Ferroptosis.md"
+        },
+        "zh-TW": {
+          "title": "Ferroptosis",
+          "description": "鐵死亡是一種由鐵依賴性脂質過氧化所驅動的非凋亡型受調控細胞死亡形式。",
+          "created": "2024-01-01",
+          "updated": "2026-09-26",
+          "tags": [
+            "biological-process"
+          ],
+          "filename": "Ferroptosis.md",
+          "path": "wiki/zh-TW/cell-death/Ferroptosis.md"
+        }
+      },
+      "stats": {
+        "words": 2861,
+        "images": 0,
+        "links": 269,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "DcR1",
       "langs": {
         "en-US": {
@@ -5101,40 +5135,6 @@
         "words": 356,
         "images": 0,
         "links": 26,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "Ferroptosis",
-      "langs": {
-        "en-US": {
-          "title": "Ferroptosis",
-          "description": "Ferroptosis is a non-apoptotic form of regulated cell death driven by iron-dependent Lipid Peroxidation.",
-          "created": "2024-01-01",
-          "updated": "2026-09-26",
-          "tags": [
-            "biological-process"
-          ],
-          "filename": "Ferroptosis.md",
-          "path": "wiki/en-US/cell-death/Ferroptosis.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Ferroptosis.md"
-        },
-        "zh-TW": {
-          "title": "Ferroptosis",
-          "description": "鐵死亡是一種由鐵依賴性脂質過氧化所驅動的非凋亡型受調控細胞死亡形式。",
-          "created": "2024-01-01",
-          "updated": "2026-09-26",
-          "tags": [
-            "biological-process"
-          ],
-          "filename": "Ferroptosis.md",
-          "path": "wiki/zh-TW/cell-death/Ferroptosis.md"
-        }
-      },
-      "stats": {
-        "words": 2861,
-        "images": 0,
-        "links": 269,
         "diagrams": 0
       }
     },
@@ -5821,6 +5821,40 @@
       }
     },
     {
+      "id": "AMPK",
+      "langs": {
+        "en-US": {
+          "title": "AMPK",
+          "description": "AMP-activated protein kinase (AMPK) is a central metabolic sensor that plays a critical role in the Aging process by integrating energy status with epigenetic regulation. As organisms age, AMPK...",
+          "created": "2026-05-29",
+          "updated": "2026-10-02",
+          "tags": [
+            "enzyme"
+          ],
+          "filename": "AMPK.md",
+          "path": "wiki/en-US/_link/AMPK.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/AMPK.md"
+        },
+        "zh-TW": {
+          "title": "AMPK",
+          "description": "AMP 活化蛋白激酶（AMPK）是中央代謝感測器，藉由整合能量狀態與表觀遺傳調節，在老化（Aging）過程中扮演關鍵角色。隨著生物體老化，AMPK 的活性與反應性通常會下降，進而促成老化的各項徵象，包括表觀遺傳改變、蛋白質恆定性喪失與粒線體功能障礙。",
+          "created": "2026-05-29",
+          "updated": "2026-10-02",
+          "tags": [
+            "enzyme"
+          ],
+          "filename": "AMPK.md",
+          "path": "wiki/zh-TW/_link/AMPK.md"
+        }
+      },
+      "stats": {
+        "words": 1530,
+        "images": 0,
+        "links": 79,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "Succinate",
       "langs": {
         "en-US": {
@@ -5893,40 +5927,6 @@
         "words": 347,
         "images": 0,
         "links": 35,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "AMPK",
-      "langs": {
-        "en-US": {
-          "title": "AMPK",
-          "description": "AMP-activated protein kinase (AMPK) is a central metabolic sensor that plays a critical role in the Aging process by integrating energy status with epigenetic regulation. As organisms age, AMPK...",
-          "created": "2026-05-29",
-          "updated": "2026-10-02",
-          "tags": [
-            "enzyme"
-          ],
-          "filename": "AMPK.md",
-          "path": "wiki/en-US/_link/AMPK.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/AMPK.md"
-        },
-        "zh-TW": {
-          "title": "AMPK",
-          "description": "AMP 活化蛋白激酶（AMPK）是中央代謝感測器，藉由整合能量狀態與表觀遺傳調節，在老化（Aging）過程中扮演關鍵角色。隨著生物體老化，AMPK 的活性與反應性通常會下降，進而促成老化的各項徵象，包括表觀遺傳改變、蛋白質恆定性喪失與粒線體功能障礙。",
-          "created": "2026-05-29",
-          "updated": "2026-10-02",
-          "tags": [
-            "enzyme"
-          ],
-          "filename": "AMPK.md",
-          "path": "wiki/zh-TW/_link/AMPK.md"
-        }
-      },
-      "stats": {
-        "words": 1530,
-        "images": 0,
-        "links": 79,
         "diagrams": 0
       }
     },
@@ -6267,46 +6267,6 @@
       }
     },
     {
-      "id": "Hemopexin",
-      "langs": {
-        "en-US": {
-          "title": "Hemopexin",
-          "description": "Plasma heme-binding glycoprotein that scavenges heme released by hemoglobin breakdown, delivering it to CD91 receptors on hepatocytes and macrophages for HO-1-dependent recycling to bilirubin and iron; its depletion is a marker of intravascular hemolysis.",
-          "created": "2026-10-08",
-          "updated": "2026-10-08",
-          "tags": [
-            "protein",
-            "heme",
-            "hemolysis",
-            "plasma-protein"
-          ],
-          "filename": "Hemopexin.md",
-          "path": "wiki/en-US/_link/Hemopexin.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Hemopexin.md"
-        },
-        "zh-TW": {
-          "title": "Hemopexin",
-          "description": "血漿中結合血基質的醣蛋白，會捕捉血紅素分解釋出的血基質，將其遞送至肝細胞與巨噬細胞上的 CD91 受體，供 HO-1 依賴的回收為膽紅素與鐵；其耗盡是血管內溶血的標記。",
-          "created": "2026-10-08",
-          "updated": "2026-11-09",
-          "tags": [
-            "protein",
-            "heme",
-            "hemolysis",
-            "plasma-protein"
-          ],
-          "filename": "Hemopexin.md",
-          "path": "wiki/zh-TW/_link/Hemopexin.md"
-        }
-      },
-      "stats": {
-        "words": 383,
-        "images": 0,
-        "links": 39,
-        "diagrams": 0
-      }
-    },
-    {
       "id": "NF-κB",
       "langs": {
         "en-US": {
@@ -6343,6 +6303,46 @@
         "words": 1486,
         "images": 0,
         "links": 138,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Hemopexin",
+      "langs": {
+        "en-US": {
+          "title": "Hemopexin",
+          "description": "Plasma heme-binding glycoprotein that scavenges heme released by hemoglobin breakdown, delivering it to CD91 receptors on hepatocytes and macrophages for HO-1-dependent recycling to bilirubin and iron; its depletion is a marker of intravascular hemolysis.",
+          "created": "2026-10-08",
+          "updated": "2026-10-08",
+          "tags": [
+            "protein",
+            "heme",
+            "hemolysis",
+            "plasma-protein"
+          ],
+          "filename": "Hemopexin.md",
+          "path": "wiki/en-US/_link/Hemopexin.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Hemopexin.md"
+        },
+        "zh-TW": {
+          "title": "Hemopexin",
+          "description": "血漿中結合血基質的醣蛋白，會捕捉血紅素分解釋出的血基質，將其遞送至肝細胞與巨噬細胞上的 CD91 受體，供 HO-1 依賴的回收為膽紅素與鐵；其耗盡是血管內溶血的標記。",
+          "created": "2026-10-08",
+          "updated": "2026-11-09",
+          "tags": [
+            "protein",
+            "heme",
+            "hemolysis",
+            "plasma-protein"
+          ],
+          "filename": "Hemopexin.md",
+          "path": "wiki/zh-TW/_link/Hemopexin.md"
+        }
+      },
+      "stats": {
+        "words": 383,
+        "images": 0,
+        "links": 39,
         "diagrams": 0
       }
     },
@@ -6427,86 +6427,6 @@
       }
     },
     {
-      "id": "Haptoglobin",
-      "langs": {
-        "en-US": {
-          "title": "Haptoglobin",
-          "description": "Plasma glycoprotein that binds free hemoglobin released by hemolysis with high affinity, forming the haptoglobin-hemoglobin complex cleared via CD91 receptors; a front-line scavenger of intravascular hemolysis.",
-          "created": "2026-10-08",
-          "updated": "2026-10-08",
-          "tags": [
-            "protein",
-            "hemolysis",
-            "plasma-protein",
-            "innate-immunity"
-          ],
-          "filename": "Haptoglobin.md",
-          "path": "wiki/en-US/_link/Haptoglobin.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Haptoglobin.md"
-        },
-        "zh-TW": {
-          "title": "Haptoglobin",
-          "description": "血漿醣蛋白，以高度親和力結合溶血釋出的游離血紅蛋白，形成 haptoglobin-血紅蛋白複體並經由 CD91 受體清除；是血管內溶血的第一線清道夫。",
-          "created": "2026-10-08",
-          "updated": "2026-11-09",
-          "tags": [
-            "protein",
-            "hemolysis",
-            "plasma-protein",
-            "innate-immunity"
-          ],
-          "filename": "Haptoglobin.md",
-          "path": "wiki/zh-TW/_link/Haptoglobin.md"
-        }
-      },
-      "stats": {
-        "words": 332,
-        "images": 0,
-        "links": 24,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "Carbonic Anhydrase",
-      "langs": {
-        "en-US": {
-          "title": "Carbonic Anhydrase",
-          "description": "Zinc enzyme catalyzing CO2 + H2O <-> H2CO3 <-> H+ + HCO3-; in erythrocytes it completes ~23% of CO2 carriage and pairs with anion exchanger 1 in the chloride shift that loads and unloads CO2 in tissues and lung.",
-          "created": "2026-10-08",
-          "updated": "2026-10-08",
-          "tags": [
-            "enzyme",
-            "erythrocyte",
-            "gas-transport",
-            "carbon-dioxide"
-          ],
-          "filename": "Carbonic Anhydrase.md",
-          "path": "wiki/en-US/_link/Carbonic%20Anhydrase.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Carbonic%20Anhydrase.md"
-        },
-        "zh-TW": {
-          "title": "Carbonic Anhydrase（碳酸酐酶）",
-          "description": "催化 CO2 + H2O ⇄ H2CO3 ⇄ H+ + HCO3− 的含鋅酵素；在紅血球中完成約 23% 的 CO2 運送，並與陰離子交換蛋白 1 配對，在組織與肺臟進行氯離子轉移以裝載與卸載 CO2。",
-          "created": "2026-10-08",
-          "updated": "2026-11-09",
-          "tags": [
-            "enzyme",
-            "erythrocyte",
-            "gas-transport",
-            "carbon-dioxide"
-          ],
-          "filename": "Carbonic Anhydrase.md",
-          "path": "wiki/zh-TW/_link/Carbonic%20Anhydrase.md"
-        }
-      },
-      "stats": {
-        "words": 347,
-        "images": 0,
-        "links": 14,
-        "diagrams": 0
-      }
-    },
-    {
       "id": "Lipid Peroxidation",
       "langs": {
         "en-US": {
@@ -6549,6 +6469,46 @@
       }
     },
     {
+      "id": "Haptoglobin",
+      "langs": {
+        "en-US": {
+          "title": "Haptoglobin",
+          "description": "Plasma glycoprotein that binds free hemoglobin released by hemolysis with high affinity, forming the haptoglobin-hemoglobin complex cleared via CD91 receptors; a front-line scavenger of intravascular hemolysis.",
+          "created": "2026-10-08",
+          "updated": "2026-10-08",
+          "tags": [
+            "protein",
+            "hemolysis",
+            "plasma-protein",
+            "innate-immunity"
+          ],
+          "filename": "Haptoglobin.md",
+          "path": "wiki/en-US/_link/Haptoglobin.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Haptoglobin.md"
+        },
+        "zh-TW": {
+          "title": "Haptoglobin",
+          "description": "血漿醣蛋白，以高度親和力結合溶血釋出的游離血紅蛋白，形成 haptoglobin-血紅蛋白複體並經由 CD91 受體清除；是血管內溶血的第一線清道夫。",
+          "created": "2026-10-08",
+          "updated": "2026-11-09",
+          "tags": [
+            "protein",
+            "hemolysis",
+            "plasma-protein",
+            "innate-immunity"
+          ],
+          "filename": "Haptoglobin.md",
+          "path": "wiki/zh-TW/_link/Haptoglobin.md"
+        }
+      },
+      "stats": {
+        "words": 332,
+        "images": 0,
+        "links": 24,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "Glutathione",
       "langs": {
         "en-US": {
@@ -6585,6 +6545,46 @@
         "words": 1202,
         "images": 0,
         "links": 97,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Carbonic Anhydrase",
+      "langs": {
+        "en-US": {
+          "title": "Carbonic Anhydrase",
+          "description": "Zinc enzyme catalyzing CO2 + H2O <-> H2CO3 <-> H+ + HCO3-; in erythrocytes it completes ~23% of CO2 carriage and pairs with anion exchanger 1 in the chloride shift that loads and unloads CO2 in tissues and lung.",
+          "created": "2026-10-08",
+          "updated": "2026-10-08",
+          "tags": [
+            "enzyme",
+            "erythrocyte",
+            "gas-transport",
+            "carbon-dioxide"
+          ],
+          "filename": "Carbonic Anhydrase.md",
+          "path": "wiki/en-US/_link/Carbonic%20Anhydrase.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Carbonic%20Anhydrase.md"
+        },
+        "zh-TW": {
+          "title": "Carbonic Anhydrase（碳酸酐酶）",
+          "description": "催化 CO2 + H2O ⇄ H2CO3 ⇄ H+ + HCO3− 的含鋅酵素；在紅血球中完成約 23% 的 CO2 運送，並與陰離子交換蛋白 1 配對，在組織與肺臟進行氯離子轉移以裝載與卸載 CO2。",
+          "created": "2026-10-08",
+          "updated": "2026-11-09",
+          "tags": [
+            "enzyme",
+            "erythrocyte",
+            "gas-transport",
+            "carbon-dioxide"
+          ],
+          "filename": "Carbonic Anhydrase.md",
+          "path": "wiki/zh-TW/_link/Carbonic%20Anhydrase.md"
+        }
+      },
+      "stats": {
+        "words": 347,
+        "images": 0,
+        "links": 14,
         "diagrams": 0
       }
     },
@@ -7017,44 +7017,6 @@
       }
     },
     {
-      "id": "NLRP3",
-      "langs": {
-        "en-US": {
-          "title": "NLRP3",
-          "description": "NOD-like receptor pyrin domain-containing protein 3 (NLRP3, cryopyrin), the sensor component of the NLRP3 inflammasome. It is a tripartite PYD-NACHT-LRR protein activated by a two-step priming-then-activation process that culminates in caspase-1 activation and pyroptosis.",
-          "created": "2026-07-04",
-          "updated": "2026-10-01",
-          "tags": [
-            "protein",
-            "inflammation",
-            "innate-immunity"
-          ],
-          "filename": "NLRP3.md",
-          "path": "wiki/en-US/_link/NLRP3.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/NLRP3.md"
-        },
-        "zh-TW": {
-          "title": "NLRP3",
-          "description": "NOD-like receptor pyrin domain-containing protein 3（NLRP3，cryopyrin），為 NLRP3 發炎小體的感測器成分。它是一個由 PYD-NACHT-LRR 三部分組成的蛋白，透過「先致敏（priming）、後活化」的兩步驟過程被活化，最終導致 caspase-1 活化與細胞焦亡（pyroptosis）。",
-          "created": "2026-07-04",
-          "updated": "2026-10-01",
-          "tags": [
-            "protein",
-            "inflammation",
-            "innate-immunity"
-          ],
-          "filename": "NLRP3.md",
-          "path": "wiki/zh-TW/_link/NLRP3.md"
-        }
-      },
-      "stats": {
-        "words": 1472,
-        "images": 0,
-        "links": 73,
-        "diagrams": 0
-      }
-    },
-    {
       "id": "MnSOD",
       "langs": {
         "en-US": {
@@ -7105,42 +7067,40 @@
       }
     },
     {
-      "id": "Scramblase",
+      "id": "NLRP3",
       "langs": {
         "en-US": {
-          "title": "Scramblase",
-          "description": "Calcium-activated phospholipid scramblases (TMEM16F/ANO6, PLSCR family) that externalize phosphatidylserine — the eat-me signal executed in eryptosis and apoptosis.",
-          "created": "2026-09-10",
-          "updated": "2026-10-08",
+          "title": "NLRP3",
+          "description": "NOD-like receptor pyrin domain-containing protein 3 (NLRP3, cryopyrin), the sensor component of the NLRP3 inflammasome. It is a tripartite PYD-NACHT-LRR protein activated by a two-step priming-then-activation process that culminates in caspase-1 activation and pyroptosis.",
+          "created": "2026-07-04",
+          "updated": "2026-10-01",
           "tags": [
             "protein",
-            "calcium-signaling",
-            "cell-death",
-            "membrane-biology"
+            "inflammation",
+            "innate-immunity"
           ],
-          "filename": "Scramblase.md",
-          "path": "wiki/en-US/_link/Scramblase.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Scramblase.md"
+          "filename": "NLRP3.md",
+          "path": "wiki/en-US/_link/NLRP3.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/NLRP3.md"
         },
         "zh-TW": {
-          "title": "Scramblase",
-          "description": "鈣活化的磷脂 scramblase（TMEM16F/ANO6、PLSCR 家族），將磷脂醯絲胺酸外露——即 eryptosis 與凋亡所執行的「eat-me」訊號。",
-          "created": "2026-09-10",
-          "updated": "2026-10-08",
+          "title": "NLRP3",
+          "description": "NOD-like receptor pyrin domain-containing protein 3（NLRP3，cryopyrin），為 NLRP3 發炎小體的感測器成分。它是一個由 PYD-NACHT-LRR 三部分組成的蛋白，透過「先致敏（priming）、後活化」的兩步驟過程被活化，最終導致 caspase-1 活化與細胞焦亡（pyroptosis）。",
+          "created": "2026-07-04",
+          "updated": "2026-10-01",
           "tags": [
             "protein",
-            "calcium-signaling",
-            "cell-death",
-            "membrane-biology"
+            "inflammation",
+            "innate-immunity"
           ],
-          "filename": "Scramblase.md",
-          "path": "wiki/zh-TW/_link/Scramblase.md"
+          "filename": "NLRP3.md",
+          "path": "wiki/zh-TW/_link/NLRP3.md"
         }
       },
       "stats": {
-        "words": 387,
+        "words": 1472,
         "images": 0,
-        "links": 23,
+        "links": 73,
         "diagrams": 0
       }
     },
@@ -7183,6 +7143,46 @@
         "words": 1395,
         "images": 0,
         "links": 82,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Scramblase",
+      "langs": {
+        "en-US": {
+          "title": "Scramblase",
+          "description": "Calcium-activated phospholipid scramblases (TMEM16F/ANO6, PLSCR family) that externalize phosphatidylserine — the eat-me signal executed in eryptosis and apoptosis.",
+          "created": "2026-09-10",
+          "updated": "2026-10-08",
+          "tags": [
+            "protein",
+            "calcium-signaling",
+            "cell-death",
+            "membrane-biology"
+          ],
+          "filename": "Scramblase.md",
+          "path": "wiki/en-US/_link/Scramblase.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Scramblase.md"
+        },
+        "zh-TW": {
+          "title": "Scramblase",
+          "description": "鈣活化的磷脂 scramblase（TMEM16F/ANO6、PLSCR 家族），將磷脂醯絲胺酸外露——即 eryptosis 與凋亡所執行的「eat-me」訊號。",
+          "created": "2026-09-10",
+          "updated": "2026-10-08",
+          "tags": [
+            "protein",
+            "calcium-signaling",
+            "cell-death",
+            "membrane-biology"
+          ],
+          "filename": "Scramblase.md",
+          "path": "wiki/zh-TW/_link/Scramblase.md"
+        }
+      },
+      "stats": {
+        "words": 387,
+        "images": 0,
+        "links": 23,
         "diagrams": 0
       }
     },
@@ -7853,6 +7853,46 @@
       }
     },
     {
+      "id": "Necroptosis",
+      "langs": {
+        "en-US": {
+          "title": "Necroptosis",
+          "description": "Regulated necrotic cell death executed by the RIPK1-RIPK3-MLKL necrosome when caspase-8 is blocked; lytic and inflammatory, bridging cell death, innate immunity, and disease.",
+          "created": "2026-07-04",
+          "updated": "2026-09-14",
+          "tags": [
+            "biological-process",
+            "cell-death",
+            "inflammation",
+            "regulated-cell-death"
+          ],
+          "filename": "Necroptosis.md",
+          "path": "wiki/en-US/cell-death/Necroptosis.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Necroptosis.md"
+        },
+        "zh-TW": {
+          "title": "Necroptosis",
+          "description": "當 caspase-8 被阻斷時，由 RIPK1-RIPK3-MLKL 壞死小體執行的調控性壞死細胞死亡；具裂解性與發炎性，連結細胞死亡、先天免疫與疾病。",
+          "created": "2026-07-04",
+          "updated": "2026-09-14",
+          "tags": [
+            "biological-process",
+            "cell-death",
+            "inflammation",
+            "regulated-cell-death"
+          ],
+          "filename": "Necroptosis.md",
+          "path": "wiki/zh-TW/cell-death/Necroptosis.md"
+        }
+      },
+      "stats": {
+        "words": 2808,
+        "images": 0,
+        "links": 230,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "LC3B",
       "langs": {
         "en-US": {
@@ -7965,46 +8005,6 @@
       }
     },
     {
-      "id": "Necroptosis",
-      "langs": {
-        "en-US": {
-          "title": "Necroptosis",
-          "description": "Regulated necrotic cell death executed by the RIPK1-RIPK3-MLKL necrosome when caspase-8 is blocked; lytic and inflammatory, bridging cell death, innate immunity, and disease.",
-          "created": "2026-07-04",
-          "updated": "2026-09-14",
-          "tags": [
-            "biological-process",
-            "cell-death",
-            "inflammation",
-            "regulated-cell-death"
-          ],
-          "filename": "Necroptosis.md",
-          "path": "wiki/en-US/cell-death/Necroptosis.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Necroptosis.md"
-        },
-        "zh-TW": {
-          "title": "Necroptosis",
-          "description": "當 caspase-8 被阻斷時，由 RIPK1-RIPK3-MLKL 壞死小體執行的調控性壞死細胞死亡；具裂解性與發炎性，連結細胞死亡、先天免疫與疾病。",
-          "created": "2026-07-04",
-          "updated": "2026-09-14",
-          "tags": [
-            "biological-process",
-            "cell-death",
-            "inflammation",
-            "regulated-cell-death"
-          ],
-          "filename": "Necroptosis.md",
-          "path": "wiki/zh-TW/cell-death/Necroptosis.md"
-        }
-      },
-      "stats": {
-        "words": 2808,
-        "images": 0,
-        "links": 230,
-        "diagrams": 0
-      }
-    },
-    {
       "id": "Cell Survival",
       "langs": {
         "en-US": {
@@ -8047,40 +8047,6 @@
       }
     },
     {
-      "id": "HO-1",
-      "langs": {
-        "en-US": {
-          "title": "HO-1",
-          "description": "Heme oxygenase 1 (HO-1) is a stress-inducible enzyme that catalyzes the rate-limiting step in heme degradation, producing biliverdin, carbon monoxide (CO), and ferrous iron (Fe²⁺). It is a key ...",
-          "created": "2026-07-04",
-          "updated": "2026-10-08",
-          "tags": [
-            "enzyme"
-          ],
-          "filename": "HO-1.md",
-          "path": "wiki/en-US/_link/HO-1.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/HO-1.md"
-        },
-        "zh-TW": {
-          "title": "HO-1",
-          "description": "血基質氧化酶 1（HO-1）是一種壓力可誘導酵素，催化血基質降解的速率限制步驟，產生膽綠素、一氧化碳（CO）與亞鐵（Fe²⁺）。它是受 NRF2 誘導的關鍵細胞保護酵素。",
-          "created": "2026-07-04",
-          "updated": "2026-11-09",
-          "tags": [
-            "enzyme"
-          ],
-          "filename": "HO-1.md",
-          "path": "wiki/zh-TW/_link/HO-1.md"
-        }
-      },
-      "stats": {
-        "words": 783,
-        "images": 0,
-        "links": 84,
-        "diagrams": 0
-      }
-    },
-    {
       "id": "BiP",
       "langs": {
         "en-US": {
@@ -8115,6 +8081,40 @@
         "words": 1411,
         "images": 0,
         "links": 67,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "HO-1",
+      "langs": {
+        "en-US": {
+          "title": "HO-1",
+          "description": "Heme oxygenase 1 (HO-1) is a stress-inducible enzyme that catalyzes the rate-limiting step in heme degradation, producing biliverdin, carbon monoxide (CO), and ferrous iron (Fe²⁺). It is a key ...",
+          "created": "2026-07-04",
+          "updated": "2026-10-08",
+          "tags": [
+            "enzyme"
+          ],
+          "filename": "HO-1.md",
+          "path": "wiki/en-US/_link/HO-1.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/HO-1.md"
+        },
+        "zh-TW": {
+          "title": "HO-1",
+          "description": "血基質氧化酶 1（HO-1）是一種壓力可誘導酵素，催化血基質降解的速率限制步驟，產生膽綠素、一氧化碳（CO）與亞鐵（Fe²⁺）。它是受 NRF2 誘導的關鍵細胞保護酵素。",
+          "created": "2026-07-04",
+          "updated": "2026-11-09",
+          "tags": [
+            "enzyme"
+          ],
+          "filename": "HO-1.md",
+          "path": "wiki/zh-TW/_link/HO-1.md"
+        }
+      },
+      "stats": {
+        "words": 783,
+        "images": 0,
+        "links": 84,
         "diagrams": 0
       }
     },
@@ -8347,46 +8347,6 @@
       }
     },
     {
-      "id": "Gardos Channel",
-      "langs": {
-        "en-US": {
-          "title": "Gardos Channel",
-          "description": "KCa3.1 (KCNN4), the Ca2+-activated K+ channel of erythrocytes whose opening drives K+ efflux, hyperpolarization, Cl- and water loss, and the cell shrinkage of eryptosis; blocked by charybdotoxin and clotrimazole.",
-          "created": "2026-10-08",
-          "updated": "2026-10-08",
-          "tags": [
-            "protein",
-            "ion-channel",
-            "calcium-signaling",
-            "erythrocyte"
-          ],
-          "filename": "Gardos Channel.md",
-          "path": "wiki/en-US/_link/Gardos%20Channel.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Gardos%20Channel.md"
-        },
-        "zh-TW": {
-          "title": "Gardos Channel（Gardos 通道）",
-          "description": "KCa3.1（KCNN4），紅血球的 Ca2+ 活化 K+ 通道，其開啟驅動 K+ 外流、過極化、Cl− 與水分流失，以及 eryptosis 的細胞皺縮；受 charybdotoxin 與 clotrimazole 阻斷。",
-          "created": "2026-10-08",
-          "updated": "2026-11-09",
-          "tags": [
-            "protein",
-            "ion-channel",
-            "calcium-signaling",
-            "erythrocyte"
-          ],
-          "filename": "Gardos Channel.md",
-          "path": "wiki/zh-TW/_link/Gardos%20Channel.md"
-        }
-      },
-      "stats": {
-        "words": 360,
-        "images": 0,
-        "links": 19,
-        "diagrams": 0
-      }
-    },
-    {
       "id": "Anticancer",
       "langs": {
         "en-US": {
@@ -8423,6 +8383,46 @@
         "words": 844,
         "images": 0,
         "links": 36,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Gardos Channel",
+      "langs": {
+        "en-US": {
+          "title": "Gardos Channel",
+          "description": "KCa3.1 (KCNN4), the Ca2+-activated K+ channel of erythrocytes whose opening drives K+ efflux, hyperpolarization, Cl- and water loss, and the cell shrinkage of eryptosis; blocked by charybdotoxin and clotrimazole.",
+          "created": "2026-10-08",
+          "updated": "2026-10-08",
+          "tags": [
+            "protein",
+            "ion-channel",
+            "calcium-signaling",
+            "erythrocyte"
+          ],
+          "filename": "Gardos Channel.md",
+          "path": "wiki/en-US/_link/Gardos%20Channel.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Gardos%20Channel.md"
+        },
+        "zh-TW": {
+          "title": "Gardos Channel（Gardos 通道）",
+          "description": "KCa3.1（KCNN4），紅血球的 Ca2+ 活化 K+ 通道，其開啟驅動 K+ 外流、過極化、Cl− 與水分流失，以及 eryptosis 的細胞皺縮；受 charybdotoxin 與 clotrimazole 阻斷。",
+          "created": "2026-10-08",
+          "updated": "2026-11-09",
+          "tags": [
+            "protein",
+            "ion-channel",
+            "calcium-signaling",
+            "erythrocyte"
+          ],
+          "filename": "Gardos Channel.md",
+          "path": "wiki/zh-TW/_link/Gardos%20Channel.md"
+        }
+      },
+      "stats": {
+        "words": 360,
+        "images": 0,
+        "links": 19,
         "diagrams": 0
       }
     },
@@ -8703,6 +8703,40 @@
       }
     },
     {
+      "id": "mTORC1",
+      "langs": {
+        "en-US": {
+          "title": "mTORC1",
+          "description": "mTORC1 (mechanistic target of rapamycin complex 1) is a multi-protein signaling complex that integrates nutrient, energy, and growth factor signals to coordinate cell growth, protein synthesis, and metabolism.",
+          "created": "2024-01-01",
+          "updated": "2026-09-02",
+          "tags": [
+            "protein"
+          ],
+          "filename": "mTORC1.md",
+          "path": "wiki/en-US/_link/mTORC1.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/mTORC1.md"
+        },
+        "zh-TW": {
+          "title": "mTORC1",
+          "description": "mTORC1（mechanistic target of rapamycin complex 1）是整合營養、能量與生長因子訊號，以協調細胞生長、蛋白質合成與代謝的多蛋白訊號複合體。",
+          "created": "2024-01-01",
+          "updated": "2026-09-02",
+          "tags": [
+            "protein"
+          ],
+          "filename": "mTORC1.md",
+          "path": "wiki/zh-TW/_link/mTORC1.md"
+        }
+      },
+      "stats": {
+        "words": 2471,
+        "images": 0,
+        "links": 256,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "Central Sensitization",
       "langs": {
         "en-US": {
@@ -8737,40 +8771,6 @@
         "words": 1394,
         "images": 0,
         "links": 93,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "mTORC1",
-      "langs": {
-        "en-US": {
-          "title": "mTORC1",
-          "description": "mTORC1 (mechanistic target of rapamycin complex 1) is a multi-protein signaling complex that integrates nutrient, energy, and growth factor signals to coordinate cell growth, protein synthesis, and metabolism.",
-          "created": "2024-01-01",
-          "updated": "2026-09-02",
-          "tags": [
-            "protein"
-          ],
-          "filename": "mTORC1.md",
-          "path": "wiki/en-US/_link/mTORC1.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/mTORC1.md"
-        },
-        "zh-TW": {
-          "title": "mTORC1",
-          "description": "mTORC1（mechanistic target of rapamycin complex 1）是整合營養、能量與生長因子訊號，以協調細胞生長、蛋白質合成與代謝的多蛋白訊號複合體。",
-          "created": "2024-01-01",
-          "updated": "2026-09-02",
-          "tags": [
-            "protein"
-          ],
-          "filename": "mTORC1.md",
-          "path": "wiki/zh-TW/_link/mTORC1.md"
-        }
-      },
-      "stats": {
-        "words": 2471,
-        "images": 0,
-        "links": 256,
         "diagrams": 0
       }
     },
@@ -9045,6 +9045,40 @@
       }
     },
     {
+      "id": "Fisetin",
+      "langs": {
+        "en-US": {
+          "title": "Fisetin",
+          "description": "Fisetin is a plant Flavonoids and antioxidant found in many fruits and vegetables, such as strawberries and apples. It has been identified as a potent senolytic agent, selectively inducing apoptosi...",
+          "created": "2026-05-25",
+          "updated": "2026-09-17",
+          "tags": [
+            "chemical-compound"
+          ],
+          "filename": "Fisetin.md",
+          "path": "wiki/en-US/_link/Fisetin.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Fisetin.md"
+        },
+        "zh-TW": {
+          "title": "Fisetin",
+          "description": "非瑟酮是存在於草莓、蘋果等多種水果與蔬菜的植物類黃酮與抗氧化劑，已被確認為強效的衰老細胞清除劑，可選擇性誘導衰老細胞凋亡……",
+          "created": "2026-05-25",
+          "updated": "2026-09-17",
+          "tags": [
+            "chemical-compound"
+          ],
+          "filename": "Fisetin.md",
+          "path": "wiki/zh-TW/_link/Fisetin.md"
+        }
+      },
+      "stats": {
+        "words": 2194,
+        "images": 0,
+        "links": 213,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "MODY1",
       "langs": {
         "en-US": {
@@ -9081,40 +9115,6 @@
         "words": 1472,
         "images": 0,
         "links": 88,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "Fisetin",
-      "langs": {
-        "en-US": {
-          "title": "Fisetin",
-          "description": "Fisetin is a plant Flavonoids and antioxidant found in many fruits and vegetables, such as strawberries and apples. It has been identified as a potent senolytic agent, selectively inducing apoptosi...",
-          "created": "2026-05-25",
-          "updated": "2026-09-17",
-          "tags": [
-            "chemical-compound"
-          ],
-          "filename": "Fisetin.md",
-          "path": "wiki/en-US/_link/Fisetin.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Fisetin.md"
-        },
-        "zh-TW": {
-          "title": "Fisetin",
-          "description": "非瑟酮是存在於草莓、蘋果等多種水果與蔬菜的植物類黃酮與抗氧化劑，已被確認為強效的衰老細胞清除劑，可選擇性誘導衰老細胞凋亡……",
-          "created": "2026-05-25",
-          "updated": "2026-09-17",
-          "tags": [
-            "chemical-compound"
-          ],
-          "filename": "Fisetin.md",
-          "path": "wiki/zh-TW/_link/Fisetin.md"
-        }
-      },
-      "stats": {
-        "words": 2194,
-        "images": 0,
-        "links": 213,
         "diagrams": 0
       }
     },
@@ -9433,6 +9433,40 @@
       }
     },
     {
+      "id": "p53",
+      "langs": {
+        "en-US": {
+          "title": "p53",
+          "description": "p53 (also known as tumor protein P53 or TP53) is a crucial tumor suppressor protein that regulates the cell cycle and prevents cancer formation. It is often referred to as the ''guardian of the ...",
+          "created": "2026-05-29",
+          "updated": "2026-09-02",
+          "tags": [
+            "protein"
+          ],
+          "filename": "p53.md",
+          "path": "wiki/en-US/_link/p53.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/p53.md"
+        },
+        "zh-TW": {
+          "title": "p53",
+          "description": "p53（又稱腫瘤蛋白 P53 或 TP53）是調節細胞週期、 防止癌症形成的重要腫瘤抑制蛋白，常被譽為基因組的守護者。",
+          "created": "2026-05-29",
+          "updated": "2026-09-02",
+          "tags": [
+            "protein"
+          ],
+          "filename": "p53.md",
+          "path": "wiki/zh-TW/_link/p53.md"
+        }
+      },
+      "stats": {
+        "words": 2355,
+        "images": 0,
+        "links": 110,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "VDAC",
       "langs": {
         "en-US": {
@@ -9471,40 +9505,6 @@
         "words": 1606,
         "images": 0,
         "links": 87,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "p53",
-      "langs": {
-        "en-US": {
-          "title": "p53",
-          "description": "p53 (also known as tumor protein P53 or TP53) is a crucial tumor suppressor protein that regulates the cell cycle and prevents cancer formation. It is often referred to as the ''guardian of the ...",
-          "created": "2026-05-29",
-          "updated": "2026-09-02",
-          "tags": [
-            "protein"
-          ],
-          "filename": "p53.md",
-          "path": "wiki/en-US/_link/p53.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/p53.md"
-        },
-        "zh-TW": {
-          "title": "p53",
-          "description": "p53（又稱腫瘤蛋白 P53 或 TP53）是調節細胞週期、 防止癌症形成的重要腫瘤抑制蛋白，常被譽為基因組的守護者。",
-          "created": "2026-05-29",
-          "updated": "2026-09-02",
-          "tags": [
-            "protein"
-          ],
-          "filename": "p53.md",
-          "path": "wiki/zh-TW/_link/p53.md"
-        }
-      },
-      "stats": {
-        "words": 2355,
-        "images": 0,
-        "links": 110,
         "diagrams": 0
       }
     },
@@ -9669,6 +9669,40 @@
       }
     },
     {
+      "id": "PARP1",
+      "langs": {
+        "en-US": {
+          "title": "PARP1",
+          "description": "PARP1 (Poly [ADP-ribose] polymerase 1, 116 kDa) is a nuclear zinc-finger enzyme that detects DNA strand breaks and catalyzes the transfer of ADP-ribose units from NAD+ onto target proteins, forming poly(ADP-ribose) (PAR) chains.",
+          "created": "2024-01-01",
+          "updated": "2026-09-14",
+          "tags": [
+            "enzyme"
+          ],
+          "filename": "PARP1.md",
+          "path": "wiki/en-US/cell-death/PARP1.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/PARP1.md"
+        },
+        "zh-TW": {
+          "title": "PARP1",
+          "description": "PARP1（Poly [ADP-ribose] polymerase 1，分子量 116 kDa）是一種細胞核鋅指酵素，可偵測 DNA 鏈斷裂，並催化 ADP-核糖單元從 NAD+ 轉移至目標蛋白質，形成聚（ADP-核糖）（PAR）鏈。",
+          "created": "2024-01-01",
+          "updated": "2026-09-14",
+          "tags": [
+            "enzyme"
+          ],
+          "filename": "PARP1.md",
+          "path": "wiki/zh-TW/cell-death/PARP1.md"
+        }
+      },
+      "stats": {
+        "words": 2878,
+        "images": 0,
+        "links": 133,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "Vitamin C",
       "langs": {
         "en-US": {
@@ -9703,40 +9737,6 @@
         "words": 1192,
         "images": 0,
         "links": 95,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "PARP1",
-      "langs": {
-        "en-US": {
-          "title": "PARP1",
-          "description": "PARP1 (Poly [ADP-ribose] polymerase 1, 116 kDa) is a nuclear zinc-finger enzyme that detects DNA strand breaks and catalyzes the transfer of ADP-ribose units from NAD+ onto target proteins, forming poly(ADP-ribose) (PAR) chains.",
-          "created": "2024-01-01",
-          "updated": "2026-09-14",
-          "tags": [
-            "enzyme"
-          ],
-          "filename": "PARP1.md",
-          "path": "wiki/en-US/cell-death/PARP1.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/PARP1.md"
-        },
-        "zh-TW": {
-          "title": "PARP1",
-          "description": "PARP1（Poly [ADP-ribose] polymerase 1，分子量 116 kDa）是一種細胞核鋅指酵素，可偵測 DNA 鏈斷裂，並催化 ADP-核糖單元從 NAD+ 轉移至目標蛋白質，形成聚（ADP-核糖）（PAR）鏈。",
-          "created": "2024-01-01",
-          "updated": "2026-09-14",
-          "tags": [
-            "enzyme"
-          ],
-          "filename": "PARP1.md",
-          "path": "wiki/zh-TW/cell-death/PARP1.md"
-        }
-      },
-      "stats": {
-        "words": 2878,
-        "images": 0,
-        "links": 133,
         "diagrams": 0
       }
     },
@@ -9971,44 +9971,6 @@
       }
     },
     {
-      "id": "PDGFR",
-      "langs": {
-        "en-US": {
-          "title": "PDGFR",
-          "description": "Platelet-derived growth factor receptor, a family of type III receptor tyrosine kinases comprising PDGFRA and PDGFRB. Dimeric PDGF ligands bind the extracellular Ig-like domain, triggering trans-autophosphorylation on the intracellular kinase domain and recruitment of PI3K, SHP2 and PLCγ adaptors.",
-          "created": "2026-07-04",
-          "updated": "2026-10-01",
-          "tags": [
-            "protein",
-            "receptor-tyrosine-kinase",
-            "cancer"
-          ],
-          "filename": "PDGFR.md",
-          "path": "wiki/en-US/_link/PDGFR.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/PDGFR.md"
-        },
-        "zh-TW": {
-          "title": "PDGFR",
-          "description": "血小板衍生生長因子受體，一族由 PDGFRA 與 PDGFRB 組成的第三型受體酪胺酸激酶。二聚體形式的 PDGF 配體結合胞外的 Ig 樣結構域，觸發胞內激酶結構域的反式自體磷酸化，並招募 PI3K、SHP2 與 PLCγ 適應蛋白。",
-          "created": "2026-07-04",
-          "updated": "2026-10-01",
-          "tags": [
-            "protein",
-            "receptor-tyrosine-kinase",
-            "cancer"
-          ],
-          "filename": "PDGFR.md",
-          "path": "wiki/zh-TW/_link/PDGFR.md"
-        }
-      },
-      "stats": {
-        "words": 1243,
-        "images": 0,
-        "links": 48,
-        "diagrams": 0
-      }
-    },
-    {
       "id": "Parthanatos",
       "langs": {
         "en-US": {
@@ -10045,6 +10007,44 @@
         "words": 2547,
         "images": 0,
         "links": 189,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "PDGFR",
+      "langs": {
+        "en-US": {
+          "title": "PDGFR",
+          "description": "Platelet-derived growth factor receptor, a family of type III receptor tyrosine kinases comprising PDGFRA and PDGFRB. Dimeric PDGF ligands bind the extracellular Ig-like domain, triggering trans-autophosphorylation on the intracellular kinase domain and recruitment of PI3K, SHP2 and PLCγ adaptors.",
+          "created": "2026-07-04",
+          "updated": "2026-10-01",
+          "tags": [
+            "protein",
+            "receptor-tyrosine-kinase",
+            "cancer"
+          ],
+          "filename": "PDGFR.md",
+          "path": "wiki/en-US/_link/PDGFR.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/PDGFR.md"
+        },
+        "zh-TW": {
+          "title": "PDGFR",
+          "description": "血小板衍生生長因子受體，一族由 PDGFRA 與 PDGFRB 組成的第三型受體酪胺酸激酶。二聚體形式的 PDGF 配體結合胞外的 Ig 樣結構域，觸發胞內激酶結構域的反式自體磷酸化，並招募 PI3K、SHP2 與 PLCγ 適應蛋白。",
+          "created": "2026-07-04",
+          "updated": "2026-10-01",
+          "tags": [
+            "protein",
+            "receptor-tyrosine-kinase",
+            "cancer"
+          ],
+          "filename": "PDGFR.md",
+          "path": "wiki/zh-TW/_link/PDGFR.md"
+        }
+      },
+      "stats": {
+        "words": 1243,
+        "images": 0,
+        "links": 48,
         "diagrams": 0
       }
     },
@@ -10359,40 +10359,6 @@
       }
     },
     {
-      "id": "Biomarkers",
-      "langs": {
-        "en-US": {
-          "title": "Biomarkers",
-          "description": "In the field of Geroscience, biomarkers are essential tools for measuring the physiological state of an organism and predicting its future health outcomes. Epigenetics-based biomarkers, particu...",
-          "created": "2024-01-01",
-          "updated": "2026-10-01",
-          "tags": [
-            "biological-molecule"
-          ],
-          "filename": "Biomarkers.md",
-          "path": "wiki/en-US/_link/Biomarkers.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Biomarkers.md"
-        },
-        "zh-TW": {
-          "title": "Biomarkers",
-          "description": "在老年生物學領域，生物標記是測量一個生物體生理狀態並預測其未來健康結果的必備工具。以表觀遺傳學為基礎的生物標記，特別是…",
-          "created": "2024-01-01",
-          "updated": "2026-10-01",
-          "tags": [
-            "biological-molecule"
-          ],
-          "filename": "Biomarkers.md",
-          "path": "wiki/zh-TW/_link/Biomarkers.md"
-        }
-      },
-      "stats": {
-        "words": 570,
-        "images": 0,
-        "links": 35,
-        "diagrams": 0
-      }
-    },
-    {
       "id": "HSP90β",
       "langs": {
         "en-US": {
@@ -10423,6 +10389,40 @@
         "words": 492,
         "images": 0,
         "links": 45,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Biomarkers",
+      "langs": {
+        "en-US": {
+          "title": "Biomarkers",
+          "description": "In the field of Geroscience, biomarkers are essential tools for measuring the physiological state of an organism and predicting its future health outcomes. Epigenetics-based biomarkers, particu...",
+          "created": "2024-01-01",
+          "updated": "2026-10-01",
+          "tags": [
+            "biological-molecule"
+          ],
+          "filename": "Biomarkers.md",
+          "path": "wiki/en-US/_link/Biomarkers.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Biomarkers.md"
+        },
+        "zh-TW": {
+          "title": "Biomarkers",
+          "description": "在老年生物學領域，生物標記是測量一個生物體生理狀態並預測其未來健康結果的必備工具。以表觀遺傳學為基礎的生物標記，特別是…",
+          "created": "2024-01-01",
+          "updated": "2026-10-01",
+          "tags": [
+            "biological-molecule"
+          ],
+          "filename": "Biomarkers.md",
+          "path": "wiki/zh-TW/_link/Biomarkers.md"
+        }
+      },
+      "stats": {
+        "words": 570,
+        "images": 0,
+        "links": 35,
         "diagrams": 0
       }
     },
@@ -10543,6 +10543,46 @@
       }
     },
     {
+      "id": "Adrenochrome",
+      "langs": {
+        "en-US": {
+          "title": "Adrenochrome",
+          "description": "Adrenochrome is a chemical compound formed by the oxidation of epinephrine (adrenaline), a member of the Aminochromes family and minor metabolic byproduct rather than a primary hormone.",
+          "created": "2026-07-21",
+          "updated": "2026-08-09",
+          "tags": [
+            "chemical-compound",
+            "catecholamine",
+            "oxidation",
+            "neuromelanin"
+          ],
+          "filename": "Adrenochrome.md",
+          "path": "wiki/en-US/adrenochrome/Adrenochrome.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/Adrenochrome.md"
+        },
+        "zh-TW": {
+          "title": "Adrenochrome（腎上腺紅質）",
+          "description": "Adrenochrome（腎上腺紅質）是由腎上腺素（epinephrine，adrenaline）氧化所形成的化學化合物，屬於胺基醌（Aminochromes）家族，是次要的代謝副產物，而非主要的激素。",
+          "created": "2026-07-21",
+          "updated": "2026-10-21",
+          "tags": [
+            "chemical-compound",
+            "catecholamine",
+            "oxidation",
+            "neuromelanin"
+          ],
+          "filename": "Adrenochrome.md",
+          "path": "wiki/zh-TW/adrenochrome/Adrenochrome.md"
+        }
+      },
+      "stats": {
+        "words": 1607,
+        "images": 0,
+        "links": 148,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "Malondialdehyde",
       "langs": {
         "en-US": {
@@ -10613,46 +10653,6 @@
         "words": 386,
         "images": 0,
         "links": 19,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "Adrenochrome",
-      "langs": {
-        "en-US": {
-          "title": "Adrenochrome",
-          "description": "Adrenochrome is a chemical compound formed by the oxidation of epinephrine (adrenaline), a member of the Aminochromes family and minor metabolic byproduct rather than a primary hormone.",
-          "created": "2026-07-21",
-          "updated": "2026-08-09",
-          "tags": [
-            "chemical-compound",
-            "catecholamine",
-            "oxidation",
-            "neuromelanin"
-          ],
-          "filename": "Adrenochrome.md",
-          "path": "wiki/en-US/adrenochrome/Adrenochrome.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/Adrenochrome.md"
-        },
-        "zh-TW": {
-          "title": "Adrenochrome（腎上腺紅質）",
-          "description": "Adrenochrome（腎上腺紅質）是由腎上腺素（epinephrine，adrenaline）氧化所形成的化學化合物，屬於胺基醌（Aminochromes）家族，是次要的代謝副產物，而非主要的激素。",
-          "created": "2026-07-21",
-          "updated": "2026-10-21",
-          "tags": [
-            "chemical-compound",
-            "catecholamine",
-            "oxidation",
-            "neuromelanin"
-          ],
-          "filename": "Adrenochrome.md",
-          "path": "wiki/zh-TW/adrenochrome/Adrenochrome.md"
-        }
-      },
-      "stats": {
-        "words": 1607,
-        "images": 0,
-        "links": 148,
         "diagrams": 0
       }
     },
