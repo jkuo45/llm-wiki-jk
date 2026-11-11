@@ -4,7 +4,7 @@ description: Liver X receptor alpha (LXRα) is a nuclear receptor that plays a c
   role in the regulation of Cholesterol, fatty acid, and glucose homeostasis. It works
   in conjunction with other receptors lik...
 created: 2026-05-09
-updated: 2026-07-04
+updated: 2026-11-10
 tags:
   - oxidative-stress
   - cholesterol
@@ -33,6 +33,10 @@ In atherosclerotic lesions, [[CD36 Receptor]]-mediated uptake of [[Oxidized LDL]
 
 ### Clinical Perspectives: LXR Agonists and Oxidative Modulation
 Synthetic LXR agonists (e.g., [[GW3965]], [[T0901317]]) demonstrate potent anti-atherosclerotic and anti-inflammatory effects in animal models but are limited by hepatic lipogenesis. Novel strategies include [[LXRβ-selective agonists]] (to avoid LXRα-driven lipogenesis), [[tissue-selective LXR modulators]], and combination therapy with [[Mitochondria|mitochondrial]]-targeted antioxidants. LXRα also interacts with [[NRF2]] signaling — the LXRα promoter contains an [[ARE|antioxidant response element]], and Nrf2 activation upregulates LXRα expression, suggesting coordinated cytoprotective transcriptional programs.
+
+## SIRT1 Regulation
+
+[[SIRT1]] deacetylates LXRα and promotes its ubiquitylation, resulting in its activation and induction of cholesterol efflux (Li et al., 2007b; via [[_document_ - Sirtuins at a glance|Sirtuins at a Glance (Nakagawa & Guarente 2011)]]).
 
 ## Linking Summary (New Additions)
 - New links added: [[Oxidative Stress]], [[Cholesterol]], [[Atherosclerosis]], [[ABCA1]], [[IL-1β]], [[TNF-alpha]], [[Macrophage]], [[CD36 Receptor]], [[Oxidized LDL]], [[Lipid Peroxidation]], [[PPARγ]], [[NF-κB]], [[Inflammation]], [[PGC-1α]]

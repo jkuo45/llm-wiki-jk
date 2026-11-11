@@ -3,7 +3,7 @@ title: PIP5KI
 description: PIP5KI refers to the type I phosphatidylinositol 4-phosphate 5-kinases (PIP5K1A, PIP5K1B, PIP5K1C) that phosphorylate PtdIns4P to PtdIns(4,5)P2; a distinct type II family (PIP4K2A-C, formerly PIP5K2) makes PI5P instead, and the two are being pursued as cancer targets.
 protected: false
 created: 2026-09-29
-updated: 2026-09-29
+updated: 2026-11-10
 tags:
   - enzyme
   - kinase
@@ -39,6 +39,10 @@ PIP5K1B and PIP5K1C are required for **autophagic lysosome reformation (ALR)** â
 - **PIP4K2C.** Elevated in colorectal, breast, and other carcinomas; degrader and inhibitor programs (including the first-in-class degrader LRK-4189) target it in microsatellite-stable colorectal cancer.
 - **Type I / PIP5K1A.** Required for invadopodia formation and survival in metastatic breast cancer models, which is the main rationale for type I kinases as anti-metastatic targets.
 - **Infectious disease.** Type II PIP5K2C is a reported host factor for SARS-CoV-2 and MERS-CoV replication, and PIP4K2C inhibition restores autophagic flux in models of coronavirus infection.
+
+## SIRT1 regulation (TSH secretion)
+
+[[SIRT1]] positively regulates pituitary thyroid-stimulating hormone (TSH) secretion by deacetylating PIP5KÎ³ (phosphatidylinositol 4-phosphate 5-kinase type-1 gamma), which is required for TSH exocytosis (Akieda-Asai et al., 2010; via [[_document_ - Sirtuins at a glance|Sirtuins at a Glance (Nakagawa & Guarente 2011)]]).
 
 ## Documents
 

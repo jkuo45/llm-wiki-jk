@@ -4,7 +4,7 @@ description: Histone H1 (Linker Histone H1) is a family of basic nuclear protein
   that bind to linker DNA between nucleosomes, facilitating higher-order chromatin
   structure and compaction. Unlike core histo...
 created: 2026-07-04
-updated: 2026-07-07
+updated: 2026-11-10
 tags:
   - protein
   - epigenetics
@@ -33,6 +33,14 @@ By sealing nucleosomes into higher-order structures, H1 restricts access of tran
 ## Clinical & Research Relevance
 
 Aberrant H1 subtype expression and post-translational modification are observed in cancer and during cellular [[Aging]], where global H1 levels decline and chromatin becomes more open. The SIRT1–H1 axis links metabolic state (via [[NAD+]]) to chromatin architecture, providing a mechanism through which [[Caloric Restriction]] and sirtuin activation reshape the epigenome.
+
+## SIRT1 deacetylation (H1K26)
+
+[[SIRT1]] interacts with linker histone H1b and deacetylates H1K26; under oxidative stress redistributed SIRT1 binds acetylated H1K26 and represses target genes in a pattern resembling the aged brain (via [[_document_ - Sirtuins at a glance|Sirtuins at a Glance (Nakagawa & Guarente 2011)]]).
+
+## Documents
+
+[[_document_ - Sirtuins at a glance|Sirtuins at a Glance (Nakagawa & Guarente 2011)]]
 
 ## Connections
 

@@ -7,10 +7,10 @@ updated: 2026-11-10
 ---
 # Shared Entities (`_link`)
 
-Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **2102 entities** in a single flat index and **35 documents**.
+Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **2104 entities** in a single flat index and **35 documents**.
 
 > [!note]
-> `_link` index. Total entities: 2102 | Documents: 35
+> `_link` index. Total entities: 2104 | Documents: 35
 >
 ## Documents
 
@@ -352,6 +352,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[CD4+ T Cells\|CD4+ T Cells]] | CD4-positive T helper cells are central coordinators of adaptive immunity, orchestrating immune responses through cytokine production and helper functions. |
 | [[CD40L\|CD40L]] | CD40L (CD154, TNFSF5) is a trimeric TNF-superfamily type II transmembrane cytokine expressed on activated CD4+ T cells that engages CD40 on B cells and antigen-presenting cells to drive germinal centre formation, class-switch recombination, and dendritic cell maturation. |
 | [[CD44\|CD44]] | CD44 variant isoforms (CD44v) partner with MUC1-C and xCT to sustain GSH and ferroptosis resistance in triple-negative breast cancer. |
+| [[HIF2α]] | Hypoxia-inducible factor 2 alpha — activated by SIRT1 deacetylation under hypoxia, opposite to SIRT1's inhibition of HIF-1alpha; falls as NAD+ and SIRT1 decline, proposing a HIF2alpha-to-HIF1alpha switch. |
 | [[ITIM\|ITIM]] | Immunoreceptor tyrosine-based inhibitory motif — cytoplasmic sequence that, once phosphorylated, recruits SHP-1/SHP-2 phosphatases to deliver inhibitory signals; the shared execution mechanism of don't-eat-me receptors including SIRPα, Siglec-10, CD31, and PD-1. |
 | [[CD47\|CD47]] | CD47 is a ubiquitously expressed immunoglobulin-superfamily receptor that pairs with SIRP-alpha on myeloid cells to deliver a "don't eat me" signal suppressing phagocytosis; blockade of CD47 is a cancer and fibrosis immunotherapy strategy. |
 | [[CD24\|CD24]] | CD24 is a small GPI-anchored sialoprotein on developing hematopoietic and tumor cells that, in humans, binds Siglec-10 on macrophages as a potent "don't-eat-me" signal and is a cancer stem-cell marker. |
@@ -663,6 +664,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Enterocloster\|Enterocloster]] | Enterocloster is a gut bacterial genus contributing to ellagitannin conversion toward urolithin A. |
 | [[Enzalutamide\|enzalutamide]] | Enzalutamide is a second-generation, nonsteroidal androgen-receptor (AR) signaling inhibitor used in castration-resistant prostate cancer (CRPC) for which drug resistance is a major clinical problem; preclinical studies show ivermectin can overcome enzalutamide resistance and synergize with docetaxel. |
 | [[Efferocytosis\|Efferocytosis]] | PS-dependent phagocytic clearance of apoptotic cells; in erythrocytes it removes eryptotic cells within minutes and reprograms macrophages toward an antiinflammatory, heme-oxygenase-1-high phenotype. |
+| [[LCAD]] | Long-chain acyl-CoA dehydrogenase — mitochondrial beta-oxidation enzyme deacetylated and activated by SIRT3 during fasting; SIRT3 knockout accumulates fatty-acid oxidation intermediates with low ATP. |
 | [[miR-134]] | Brain-enriched microRNA repressed by SIRT1 to permit CREB and BDNF expression; the SIRT1–miR-134–CREB–BDNF axis promotes memory formation and synaptic plasticity. |
 | [[POMC]] | Pro-opiomelanocortin — precursor polypeptide cleaved into ACTH, alpha-MSH and beta-endorphin; hypothalamic arcuate POMC neurons are a SIRT1-regulated feeding-behavior node under dietary restriction. |
 | [[NDUFA9]] | Accessory subunit of mitochondrial Complex I (39-kDa subunit) deacetylated by SIRT3; part of the OXPHOS machinery regulating cellular ATP levels. |

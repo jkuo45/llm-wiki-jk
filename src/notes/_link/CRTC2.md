@@ -2,7 +2,7 @@
 title: CRTC2
 description: CREB-regulated transcriptional coactivator 2 (CRTC2, also TORC2) is a coactivator that drives hepatic gluconeogenesis; it is regulated by phosphorylation (SIK/AMPK) and by sirtuin deacetylation.
 created: 2026-08-03
-updated: 2026-08-03
+updated: 2026-11-10
 tags:
   - transcription-coactivator
   - gluconeogenesis
@@ -16,6 +16,10 @@ source:
 # CRTC2
 
 SIRT1 deacetylates CRTC2 as part of the dynamic regulation of hepatic gluconeogenesis under fasting, complementing its actions on FOXO1 and PGC-1α to control glucose production (Szczęsny-Małysiak et al., 2026).
+
+## Fasting switch (Liu et al., 2008)
+
+In early fasting, CRTC2 is activated by acetylation (CBP/p300) and drives early gluconeogenic genes; in prolonged fasting [[SIRT1]] deacetylates CRTC2 and [[FOXO1]], switching gluconeogenesis from CRTC2-driven to FOXO1-driven genes (Liu et al., 2008; via " + DOC + ").
 
 ## Documents
 

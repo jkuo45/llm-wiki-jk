@@ -3,7 +3,7 @@ title: HIF-1α
 description: Hypoxia-inducible factor 1 alpha; master transcriptional regulator of the hypoxic response, repressed by SIRT6 and de-repressed by SIRT3 loss.
 protected: false
 created: 2026-08-17
-updated: 2026-08-17
+updated: 2026-11-10
 tags:
   - transcription-factor
   - hypoxia
@@ -29,6 +29,10 @@ These relationships position HIF-1α as a downstream effector through which sirt
 ## Relevance to ageing and disease
 
 HIF-1α activation is double-edged: physiologically protective during ischemia (preconditioning, angiogenesis) but, when constitutively engaged—as in SIRT3 deficiency or the ageing milieu—it can promote the glycolytic shift, [[Inflammaging|low-grade inflammation]], and tumor growth associated with age-related disease.
+
+## SIRT1 deacetylation (Lys647)
+
+[[SIRT1]] deacetylates HIF1α at Lys647, which in this case *inhibits* its activity to control glycolysis under hypoxia — the opposite arm of [[SIRT1]] activating HIF2α; as hypoxia depletes [[NAD+]] and SIRT1 is inactivated, a HIF2α-to-HIF1α switch is proposed to coordinate metabolism and vascular responses (Lim et al., 2010; via [[_document_ - Sirtuins at a glance|Sirtuins at a Glance (Nakagawa & Guarente 2011)]]).
 
 ## Documents
 

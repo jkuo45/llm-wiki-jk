@@ -3,7 +3,7 @@ title: FoxO1
 description: Transcription factor regulated by Akt that controls gluconeogenesis,
   adipogenesis, and beta-cell function.
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-11-10
 tags:
   - protein
 aliases: [Forkhead Box O1]
@@ -75,6 +75,14 @@ List of documents that mention this entity
 
 - [[_document_ - SIRT1 Protein roles at the nexus of health, disease, and therapeutics|SIRT1: Protein Roles at the Nexus (Chaqour, 2026)]]
   - SIRT1 deacetylates FOXO1 to enhance transcriptional activity, while FOXO1 reciprocally activates SIRT1 expression — a positive feedback loop.
+
+## Fasting switch with CRTC2
+
+In early fasting, [[CRTC2]] (acetylated by CBP/p300) drives gluconeogenic genes; in prolonged fasting [[SIRT1]] deacetylates CRTC2 and FOXO1, switching hepatic gluconeogenesis to late-phase FOXO1-driven genes (Liu et al., 2008; via [[_document_ - Sirtuins at a glance|Sirtuins at a Glance (Nakagawa & Guarente 2011)]]).
+
+## Documents
+
+[[_document_ - Sirtuins at a glance|Sirtuins at a Glance (Nakagawa & Guarente 2011)]]
 
 ## Connections
 - [[SIRT1]] — directly deacetylates FOXO1; primary regulatory relationship

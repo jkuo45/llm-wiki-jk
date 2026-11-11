@@ -4,7 +4,7 @@ description: Peroxisome proliferator-activated receptor gamma (PPARγ) is a nucl
   receptor that regulates fatty acid storage and glucose metabolism. It is a key target
   for treating Diabetes Mellitus and plays ...
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-11-10
 tags:
   - transcription-factor
   - nuclear-receptor
@@ -22,6 +22,10 @@ Peroxisome proliferator-activated receptor-γ (PPARγ) is a transcription factor
 #
 
 # 
+
+## SIRT1 fat-mobilization mechanism
+
+In white adipose tissue [[SIRT1]] represses [[PPARγ]] by binding its NCoR/SMRT co-repressors, regulating fat mobilization (Picard et al., 2004; via [[_document_ - Sirtuins at a glance|Sirtuins at a Glance (Nakagawa & Guarente 2011)]]).
 
 ## Documents
 

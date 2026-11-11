@@ -4,7 +4,7 @@ description: AceCS2 (Acetyl-CoA Synthetase 2, mitochondrial; encoded by ACSS1) i
   matrix enzyme that catalyzes the ATP-dependent conversion of acetate and CoA into acetyl-CoA,
   feeding acetate carbon into the TCA cycle for ATP generation.
 created: 2026-07-03
-updated: 2026-07-07
+updated: 2026-11-10
 tags:
   - enzyme
 aliases:
@@ -37,6 +37,10 @@ The reversible acetylation of acetyl-CoA synthetases is a highly conserved regul
 ## Physiological Relevance
 
 By reclaiming acetate, AceCS2 supports energy production during fasting, exercise, and caloric restriction, and buffers acetyl-CoA supply when pyruvate-derived acetyl-CoA is limiting. Dysregulation of SIRT3 or AceCS2 impairs mitochondrial substrate flexibility and contributes to metabolic disease and age-related decline in mitochondrial function.
+
+## Deacetylation site
+
+[[SIRT3]] deacetylates AceCS2 at Lys642 in vitro and in vivo, increasing its acetyl-CoA synthesis activity; the same acetate-salvage logic applies to cytoplasmic AceCS1 via [[SIRT1]] (via " + DOC + ").
 
 ## Documents
 
