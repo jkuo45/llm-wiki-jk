@@ -4,7 +4,7 @@ description: The cGAS-STING complex is an innate immune sensor that detects cyto
   DNA and activates inflammatory interferon signalling, playing a crucial role in SASP
   activation and age-related inflammation.
 created: 2026-07-07
-updated: 2026-07-13
+updated: 2026-11-10
 tags:
   - biological-process
   - senescence
@@ -86,6 +86,7 @@ cGAS–STING hyperactivation is implicated in sterile inflammation of ageing, lu
 #
 
 ## Documents
+- [[_document_ - Cytotoxic CD4 T cells induce age-associated myelopoiesis through CCL5-CCR5 signaling|Cytotoxic CD4 T cells induce age-associated myelopoiesis (Nat Aging 2026)]]: Nat Aging 2026 shows chronic TCR stimulation causes cytosolic mitochondrial DNA release in CD4+ T cells, activating cGAS-STING to induce CCL5; STING deficiency preserves cytotoxic differentiation but abolishes CCL5 induction.
 
 List of documents that mention this entity
 

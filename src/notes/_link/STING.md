@@ -3,7 +3,7 @@ title: STING
 description: Stimulator of interferon genes, a signaling protein that plays a key
   role in innate immunity by sensing cytosolic DNA.
 created: 2024-01-01
-updated: 2026-09-12
+updated: 2026-11-10
 tags:
   - innate-immunity
   - cgas-sting-pathway
@@ -100,6 +100,7 @@ Though primarily an immune adaptor, neuronal STING restricts viral replication i
 # 
 
 ## Documents
+- [[_document_ - Cytotoxic CD4 T cells induce age-associated myelopoiesis through CCL5-CCR5 signaling|Cytotoxic CD4 T cells induce age-associated myelopoiesis (Nat Aging 2026)]]: Nat Aging 2026 identifies STING as the mitochondrial-DNA-stress sensor required for CCL5 induction in chronically stimulated CD4+ T cells; Sting-deficient cells retain EOMES/cytotoxic differentiation but lose CCL5, and in vivo STING deficiency reduces CCL5+CD4+ CTL accumulation in aged bone marrow.
 
 List of documents that mention this entity
 

@@ -2,7 +2,7 @@
 title: TFAM
 description: Mitochondrial transcription factor A, a nuclear-encoded regulator of mitochondrial DNA replication, transcription, and nucleoid architecture; induced by mTOR inhibition to support mitochondrial renewal.
 created: 2026-07-07
-updated: 2026-07-07
+updated: 2026-11-10
 tags:
   - protein
   - mitochondrial
@@ -24,6 +24,7 @@ Inhibition of the [[mTOR]] pathway by [[Rapamycin]] promotes mitochondrial bioge
 > TFAM and PGC-1α are the major effectors by which mTOR inhibition rebuilds mitochondrial networks and improves cellular energy efficiency.
 
 ## Documents
+- [[_document_ - Cytotoxic CD4 T cells induce age-associated myelopoiesis through CCL5-CCR5 signaling|Cytotoxic CD4 T cells induce age-associated myelopoiesis (Nat Aging 2026)]]: Nat Aging 2026 shows T-cell-specific Tfam deletion (Cd4CreTfamfl/fl mice) causes CD4+CCL5+ cytotoxic T cell accumulation, neutrophilia, elevated NLR, and expanded GMPs by 8 months, recapitulating the aging phenotype.
 
 List of documents in the wiki that mention this entity
 

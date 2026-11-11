@@ -7712,5 +7712,215 @@
     "source_document": "Immunosenescence.md",
     "created": "2026-11-10T16:49:16Z",
     "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "3202ccc5acb7",
+    "subject": "Cytotoxic CD4+ T Cells",
+    "predicate": "accumulates_in",
+    "object": "Bone Marrow",
+    "context": {
+      "en-US": "In aged mice, CCL5+ cytotoxic CD4+ T cells (CD4 CTLs) accumulate specifically in the bone marrow, exceeding 25% of CD4+ cells at 24 months versus ~1.6% in young mice, while blood, lymph node, and spleen fractions decline. Heterochronic adoptive transfer shows young CD4+ T cells placed in an aged host preferentially enrich in the bone marrow (18.5-fold increase in CD4+ CTLs), establishing the marrow as the preferential accumulation site that positions these cells next to hematopoietic progenitors.",
+      "zh-TW": "在老年小鼠中，表現 CCL5 的 cytotoxic CD4+ T cells（CD4 CTLs）特別累積於骨髓，24 個月齡時佔 CD4+ 細胞逾 25%，年輕小鼠僅約 1.6%，而血液、淋巴結與脾臟比例下降。異時性 adoptive transfer 顯示置於老化宿主的年輕 CD4+ T cells 優先富集於骨髓（CD4+ CTL 增加 18.5 倍），確立骨髓為優先累積部位，使這些細胞緊鄰造血前驅細胞。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Cytotoxic CD4 T cells induce age-associated myelopoiesis through CCL5-CCR5 signaling.md",
+    "created": "2026-11-11T02:36:11Z",
+    "updated": "2026-11-11T02:36:11Z"
+  },
+  {
+    "id": "ca5743ed516f",
+    "subject": "Cytotoxic CD4+ T Cells",
+    "predicate": "produces",
+    "object": "CCL5",
+    "context": {
+      "en-US": "The CCL5+ cluster is the dominant age-expanded CD4+ T cell subset in the bone marrow; its cells co-express EOMES, CD38, perforin, and granzymes and secrete CCL5. Chronic TCR stimulation in vitro raises CCL5 mRNA and protein, and this production depends on cGAS-STING signaling downstream of mitochondrial stress: Sting-deficient chronically stimulated cells lose CCL5 while retaining EOMES expression.",
+      "zh-TW": "CCL5+ cluster 是老化骨髓中主要的擴增 CD4+ T cell 亞群；其細胞共同表現 EOMES、CD38、perforin 與 granzymes 並分泌 CCL5。體外慢性 TCR 刺激提升 CCL5 mRNA 與蛋白，且此產生依賴粒線體壓力下游的 cGAS-STING 訊號：Sting 缺陷的慢性刺激細胞在保留 EOMES 表現的同時失去 CCL5。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Cytotoxic CD4 T cells induce age-associated myelopoiesis through CCL5-CCR5 signaling.md",
+    "created": "2026-11-11T02:36:11Z",
+    "updated": "2026-11-11T02:36:11Z"
+  },
+  {
+    "id": "22cd370886a9",
+    "subject": "T Cell Receptor",
+    "predicate": "causes",
+    "object": "Mitochondrial Dysfunction",
+    "context": {
+      "en-US": "Chronic (but not acute) TCR stimulation with anti-CD3/CD28 drives mitochondrial depolarization, reduced TMRM/MitoTracker Green ratio, elevated mitochondrial ROS (MitoSOX), and impaired oxygen consumption in CD4+ T cells. Antigenic chronic stimulation of OT-II cells reproduces the phenotype, indicating that persistent antigen recognition — the aged-milieu condition shown to be TCR-dependent by OT-II transfer — is the trigger of mitochondrial stress in CD4 CTL differentiation.",
+      "zh-TW": "慢性（而非急性）anti-CD3/CD28 TCR 刺激使 CD4+ T cells 粒線體去極化、TMRM/MitoTracker Green 比值下降、粒線體 ROS（MitoSOX）升高且耗氧受損。OT-II 細胞的抗原慢性刺激重現此表現型，表示持續的抗原辨識（經 OT-II 轉移實驗證明依賴 TCR 的老化環境條件）是 CD4 CTL 分化中粒線體壓力的觸發因素。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Cytotoxic CD4 T cells induce age-associated myelopoiesis through CCL5-CCR5 signaling.md",
+    "created": "2026-11-11T02:36:11Z",
+    "updated": "2026-11-11T02:36:11Z"
+  },
+  {
+    "id": "8d3bc3d35706",
+    "subject": "Mitochondrial Dysfunction",
+    "predicate": "activates",
+    "object": "cGAS-STING Pathway",
+    "context": {
+      "en-US": "Chronically stimulated and aged CD4+ T cells release DNA into the cytosol without TOMM20 co-localization, consistent with mitochondrial origin; this cytosolic DNA engages the cGAS-STING pathway. cGAMP addition increases CCL5 dose-dependently, and rotenone or antimycin A inhibition of complexes I/III further elevates CCL5, placing mitochondrial stress upstream of STING-dependent inflammatory chemokine production in T cells.",
+      "zh-TW": "慢性刺激與老化的 CD4+ T cells 釋放不含 TOMM20 共定位之 DNA 至細胞質，符合粒線體來源；此胞質 DNA 活化 cGAS-STING 途徑。添加 cGAMP 劑量依賴性地增加 CCL5，而 complex I/III 抑制劑 rotenone 或 antimycin A 進一步提升 CCL5，將粒線體壓力置於 T 細胞 STING 依賴性發炎趨化因子產生的上游。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Cytotoxic CD4 T cells induce age-associated myelopoiesis through CCL5-CCR5 signaling.md",
+    "created": "2026-11-11T02:36:11Z",
+    "updated": "2026-11-11T02:36:11Z"
+  },
+  {
+    "id": "4ca3a8a9dfc8",
+    "subject": "cGAS-STING Pathway",
+    "predicate": "induces",
+    "object": "CCL5",
+    "context": {
+      "en-US": "STING activation by cGAMP increases CCL5 in CD4+ T cells in a dose-dependent manner, while Sting-deficient chronically stimulated cells show markedly reduced CCL5 despite preserved EOMES. In vivo, Sting−/− CD4+ cells adoptively transferred into aged hosts produce less CCL5 but achieve normal cytotoxic differentiation frequencies, demonstrating STING is required for CCL5 induction but dispensable for the cytotoxic program.",
+      "zh-TW": "cGAMP 活化 STING 劑量依賴性地提升 CD4+ T cells 的 CCL5，而 Sting 缺陷的慢性刺激細胞在 EOMES 保留的情況下 CCL5 明顯降低。體內將 Sting−/− CD4+ 細胞轉移至老化宿主產生較少 CCL5 但達到正常細胞毒性分化頻率，證明 STING 為 CCL5 誘導所需，但對細胞毒性程序非必需。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Cytotoxic CD4 T cells induce age-associated myelopoiesis through CCL5-CCR5 signaling.md",
+    "created": "2026-11-11T02:36:11Z",
+    "updated": "2026-11-11T02:36:11Z"
+  },
+  {
+    "id": "fd5381893595",
+    "subject": "T Cell Receptor",
+    "predicate": "induces",
+    "object": "Cytotoxic CD4+ T Cells",
+    "context": {
+      "en-US": "Differentiation of CD4+ T cells into CCL5+ cytotoxic CTLs in an aged environment requires TCR signaling: OT-II cells lacking cognate antigen cannot engage TCR-dependent activation and show reduced CCL5+ and PD-1+ fractions in aged bone marrow despite cytokine exposure. Chronic anti-CD3/CD28 stimulation alone converts naive CD4+ cells into EOMES+, CD38+, perforin+, granzyme+ cytotoxic cells with functional killing capacity.",
+      "zh-TW": "在老化環境中 CD4+ T cells 分化為 CCL5+ cytotoxic CTL 需要 TCR 訊號：缺乏同源抗原的 OT-II 細胞無法進行 TCR 依賴性活化，即使有細胞激素暴露，在老化骨髓中 CCL5+ 與 PD-1+ 比例仍下降。單獨的慢性 anti-CD3/CD28 刺激即可將初始 CD4+ 細胞轉化為 EOMES+、CD38+、perforin+、granzyme+ 且具功能殺傷能力的 cytotoxic 細胞。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Cytotoxic CD4 T cells induce age-associated myelopoiesis through CCL5-CCR5 signaling.md",
+    "created": "2026-11-11T02:36:11Z",
+    "updated": "2026-11-11T02:36:11Z"
+  },
+  {
+    "id": "211928cdd470",
+    "subject": "TFAM",
+    "predicate": "causes",
+    "object": "Cytotoxic CD4+ T Cells",
+    "context": {
+      "en-US": "T-cell-specific deletion of the mitochondrial transcription factor A gene (Cd4CreTfamfl/fl mice) causes accumulation of CD4+CCL5+ cytotoxic cells by 8 months of age at levels comparable to 24-month-old mice, along with neutrophilia, an elevated neutrophil-to-lymphocyte ratio, expanded bone marrow GMPs, and Myeloperoxidase-positive neutrophil infiltration of kidney, liver, and lung — demonstrating genetically induced T cell mitochondrial dysfunction is sufficient to recapitulate the aged CD4 CTL phenotype.",
+      "zh-TW": "T 細胞特異性刪除粒線體轉錄因子 A 基因（Cd4CreTfamfl/fl 小鼠）在 8 個月齡即造成 CD4+CCL5+ cytotoxic 細胞累積，程度相當於 24 個月齡小鼠，並伴隨中性球增多、NLR 上升、骨髓 GMP 擴增與 MPO 陽性中性球浸潤腎、肝、肺——證明基因性誘導的 T 細胞粒線體功能失調足以重現老化 CD4 CTL 表現型。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Cytotoxic CD4 T cells induce age-associated myelopoiesis through CCL5-CCR5 signaling.md",
+    "created": "2026-11-11T02:36:11Z",
+    "updated": "2026-11-11T02:36:11Z"
+  },
+  {
+    "id": "27fe2aaa54be",
+    "subject": "Cytotoxic CD4+ T Cells",
+    "predicate": "induces",
+    "object": "Myelopoiesis",
+    "context": {
+      "en-US": "Adoptive transfer of aged (but not young) CD4+ T cells into Rag1−/− recipients increases bone marrow LS−K cells, GMPs, and neutrophils within 7 days; co-culture of sorted LSK cells with aged CD4+ T cells increases Gr-1+ myeloid output, and T-cell-deficient Cd3e−/− aged mice have reduced circulating neutrophils and monocytes. Together these establish bone marrow-infiltrating cytotoxic CD4+ T cells as direct inducers of age-associated myelopoiesis.",
+      "zh-TW": "將老年（而非年輕）CD4+ T cells 轉移至 Rag1−/− 受體，7 天內增加骨髓 LS−K 細胞、GMP 與中性球；將分選之 LSK 細胞與老化 CD4+ T cells 共培養增加 Gr-1+ 髓系輸出，且缺乏 T 細胞的老化 Cd3e−/− 小鼠循環中性球與單核球減少。這些結果共同確立骨髓浸潤的 cytotoxic CD4+ T cells 為年齡相關髓系造血的直接誘導者。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Cytotoxic CD4 T cells induce age-associated myelopoiesis through CCL5-CCR5 signaling.md",
+    "created": "2026-11-11T02:36:11Z",
+    "updated": "2026-11-11T02:36:11Z"
+  },
+  {
+    "id": "73704b2d95fe",
+    "subject": "CCL5",
+    "predicate": "signals_through",
+    "object": "CCR5",
+    "context": {
+      "en-US": "CCL5 secreted by aged bone marrow cytotoxic CD4+ T cells engages CCR5, whose expression is upregulated on aged hematopoietic stem cells and downstream myeloid progenitors. In mixed bone marrow chimeras, transfer of aged CD4+ cells expands LS−K, CMP, GMP, Ly6Chi monocyte, and neutrophil fractions only among Ccr5+/+ progenitors, while Ccr5−/− progenitors remain at baseline, and an anti-CCL5 blocking antibody reverses the myeloid differentiation in vitro.",
+      "zh-TW": "老化骨髓 cytotoxic CD4+ T cells 分泌的 CCL5 作用於 CCR5；CCR5 在老化造血幹細胞與下游髓系前驅細胞上表現上調。在混合骨髓嵌合體中，轉移老化 CD4+ 細胞僅在 Ccr5+/+ 前驅細胞中擴增 LS−K、CMP、GMP、Ly6Chi 單核球與中性球比例，Ccr5−/− 前驅細胞維持基線，且 anti-CCL5 阻斷抗體在體外逆轉髓系分化。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Cytotoxic CD4 T cells induce age-associated myelopoiesis through CCL5-CCR5 signaling.md",
+    "created": "2026-11-11T02:36:11Z",
+    "updated": "2026-11-11T02:36:11Z"
+  },
+  {
+    "id": "e59f20796dfe",
+    "subject": "Hematopoietic Stem Cell",
+    "predicate": "is_upregulated_with",
+    "object": "CCR5",
+    "context": {
+      "en-US": "Aging increases the percentage of CCR5-expressing HSCs and GMPs in the bone marrow, rendering hematopoietic progenitors responsive to the CCL5 produced by accumulating cytotoxic CD4+ T cells. This receptor upregulation is the permissive step that converts a T cell chemokine signal into myeloid lineage commitment; importantly, CCR5-driven skewing alters progenitor output without changing HSC numbers.",
+      "zh-TW": "老化增加骨髓中表現 CCR5 的 HSC 與 GMP 比例，使造血前驅細胞對累積之 cytotoxic CD4+ T cells 產生的 CCL5 產生反應。此受體上調是將 T 細胞趨化因子訊號轉為髓系譜系承諾的允許步驟；重要的是，CCR5 驅動的偏斜改變前驅細胞輸出而不改變 HSC 數量。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Cytotoxic CD4 T cells induce age-associated myelopoiesis through CCL5-CCR5 signaling.md",
+    "created": "2026-11-11T02:36:11Z",
+    "updated": "2026-11-11T02:36:11Z"
+  },
+  {
+    "id": "ad5e42beb773",
+    "subject": "CCL5",
+    "predicate": "causes",
+    "object": "Myelopoiesis",
+    "context": {
+      "en-US": "CCL5 is a direct driver of age-associated myelopoiesis: prior work showed Rantes/Ccl5 causes myeloid skewing of hematopoietic stem cell subtypes, and this study identifies the aged T cell compartment as a major source. Anti-CCL5 blockade reverses aged CD4+ T cell-driven Gr-1+ myeloid differentiation of LSK cells in co-culture, confirming CCL5 sufficiency for the myeloid commitment signal.",
+      "zh-TW": "CCL5 是年齡相關髓系造血的直接驅動因子：先前研究顯示 Rantes/Ccl5 造成造血幹細胞亞群的髓系偏斜，本研究則指出老化 T 細胞區室為主要來源。anti-CCL5 阻斷在共培養中逆轉老化 CD4+ T cell 驅動的 LSK 細胞 Gr-1+ 髓系分化，確認 CCL5 對髓系承諾訊號的充分性。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Cytotoxic CD4 T cells induce age-associated myelopoiesis through CCL5-CCR5 signaling.md",
+    "created": "2026-11-11T02:36:11Z",
+    "updated": "2026-11-11T02:36:11Z"
+  },
+  {
+    "id": "cd52b011239e",
+    "subject": "Maraviroc",
+    "predicate": "inhibits",
+    "object": "CCR5",
+    "context": {
+      "en-US": "Maraviroc is an FDA-approved allosteric CCR5 antagonist originally developed for HIV-1 entry blockade. In the geroscience context it pharmacologically interrupts the CCL5-CCR5 axis linking aged cytotoxic CD4+ T cells to hematopoietic progenitors, and CCR5-Delta32 loss-of-function carriers show better stroke and multiple sclerosis outcomes, supporting target engagement in humans.",
+      "zh-TW": "Maraviroc 是 FDA 核准的變構 CCR5 拮抗劑，原為 HIV-1 進入阻斷而開發。在 geroscience 脈絡下，它以藥理方式中斷連結老化 cytotoxic CD4+ T cells 與造血前驅細胞的 CCL5-CCR5 軸，且 CCR5-Delta32 功能缺失攜帶者在中風與多發性硬化症有較佳預後，支持該標的於人體的有效性。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Cytotoxic CD4 T cells induce age-associated myelopoiesis through CCL5-CCR5 signaling.md",
+    "created": "2026-11-11T02:36:11Z",
+    "updated": "2026-11-11T02:36:11Z"
+  },
+  {
+    "id": "832593cc14af",
+    "subject": "Maraviroc",
+    "predicate": "attenuates",
+    "object": "Myelopoiesis",
+    "context": {
+      "en-US": "One month of daily maraviroc (35 mg/kg i.p.) in 23-month-old mice reduces bone marrow GMP and LS−K progenitor fractions without affecting HSCs, decreases circulating and tissue-infiltrating neutrophils, normalizes the neutrophil-to-lymphocyte ratio, lowers multiple inflammaging cytokines, and improves nonfasting glucose, ALT/AST, grip strength, and rotarod performance, with no effect in young mice — establishing CCR5 blockade as a geroprotective strategy.",
+      "zh-TW": "23 個月齡小鼠每日 maraviroc（35 mg/kg 腹腔注射）一個月，降低骨髓 GMP 與 LS−K 前驅細胞比例而不影響 HSC，減少循環與組織浸潤之中性球，使 NLR 正常化，降低多種 inflammaging 細胞激素，並改善非空腹血糖、ALT/AST、握力與旋轉棒表現，對年輕小鼠無影響——確立 CCR5 阻斷為 geroprotective 策略。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Cytotoxic CD4 T cells induce age-associated myelopoiesis through CCL5-CCR5 signaling.md",
+    "created": "2026-11-11T02:36:11Z",
+    "updated": "2026-11-11T02:36:11Z"
+  },
+  {
+    "id": "c250c41b8dec",
+    "subject": "Myelopoiesis",
+    "predicate": "expands",
+    "object": "Neutrophils",
+    "context": {
+      "en-US": "Age-associated myelopoiesis increases granulocyte-monocyte progenitors and neutrophil output, elevating the neutrophil-to-lymphocyte ratio — a strong predictor of all-cause mortality across age-associated diseases. The expanded aged neutrophil pool (CXCR4hiCD62Llo) shows an activated, pro-inflammatory phenotype with upregulated ICAM-1, TLR-4, and CD11b and infiltrates kidney, liver, and lung, propagating paracrine senescence.",
+      "zh-TW": "年齡相關髓系造血增加 granulocyte-monocyte 前驅細胞與中性球輸出，抬高 NLR——跨年齡相關疾病的全因死亡率強預測因子。擴增的老化中性球群（CXCR4hiCD62Llo）呈活化促炎表現型，ICAM-1、TLR-4、CD11B 上調並浸潤腎、肝、肺，傳播旁分泌衰老。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Cytotoxic CD4 T cells induce age-associated myelopoiesis through CCL5-CCR5 signaling.md",
+    "created": "2026-11-11T02:36:11Z",
+    "updated": "2026-11-11T02:36:11Z"
+  },
+  {
+    "id": "10e75415de99",
+    "subject": "Immunosenescence",
+    "predicate": "drives",
+    "object": "Myelopoiesis",
+    "context": {
+      "en-US": "Immunosenescence is not only a consequence but a driver of hematopoietic aging: cytotoxic CD4+ T cells undergoing age-dependent mitochondrial stress and TCR overstimulation accumulate in the bone marrow and impose myeloid skewing through CCL5-CCR5 signaling. This T cell-bone marrow axis joins niche-intrinsic mechanisms (adrenergic degeneration, IL-1β, IGF1 decline) as a causal route to the aged neutrophil-to-lymphocyte ratio.",
+      "zh-TW": "免疫老化不只是結果，更是造血老化的驅動者：經歷年齡相關粒線體壓力與 TCR 過度刺激的 cytotoxic CD4+ T cells 累積於骨髓，經 CCL5-CCR5 訊號施加髓系偏斜。此 T 細胞-骨髓軸與生態位內在機制（腎上腺素能退化、IL-1β、IGF1 下降）並列為老化 NLR 的因果途徑。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Cytotoxic CD4 T cells induce age-associated myelopoiesis through CCL5-CCR5 signaling.md",
+    "created": "2026-11-11T02:36:11Z",
+    "updated": "2026-11-11T02:36:11Z"
   }
 ]

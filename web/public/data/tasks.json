@@ -1,5 +1,5 @@
 {
-  "generated": "09_NOV_2026 12:01 PM PST",
+  "generated": "10_NOV_2026 06:41 PM PST",
   "tasks": [
     {
       "id": "tasks-index",
@@ -22,6 +22,76 @@
           "tags": [],
           "path": "pages/tasks-index.html"
         }
+      }
+    },
+    {
+      "id": "task_output_whole_blood_nad_biomarker_viewpoint_10_Nov_2026",
+      "langs": {
+        "en-US": {
+          "title": "Whole-Blood NAD+ as a Biomarker of Ageing — Viewpoint Differences Between the 2026 Nature Metabolism Cluster and the Vault",
+          "description": "Compares the position on whole-blood NAD+ as a biomarker of ageing in Gardell & Baur (Nat Metab 2026), Trętowicz et al. (Nat Metab 2026) and Romenskaja-Avgul et al. (Nat Metab 2026) against NAD+ claims in src/notes/ and raw/, and records 2025–2026 human trial, review and cohort evidence retrieved from the web.",
+          "created": "2026-11-10",
+          "updated": "2026-11-10",
+          "tags": [
+            "task-output",
+            "nad-plus",
+            "aging",
+            "biomarkers",
+            "metabolism",
+            "sirtuins",
+            "clinical-evidence"
+          ],
+          "filename": "task_output_whole_blood_nad_biomarker_viewpoint_10_Nov_2026.md",
+          "path": "tasks/en-US/task_output_whole_blood_nad_biomarker_viewpoint_10_Nov_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_whole_blood_nad_biomarker_viewpoint_10_Nov_2026.md"
+        }
+      },
+      "stats": {
+        "words": 3362,
+        "images": 0,
+        "links": 20,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "task_output_adrenochrome_price_estimates_13_JUL_2026",
+      "langs": {
+        "en-US": {
+          "title": "Supplier & Price Estimates - Adrenochrome (MB, AG) Protocol",
+          "description": "Supplier and cost analysis of pharmaceutical-grade methylene blue (IV) and aminoguanidine for the MB+AG protocol in a 75 kg adult, assuming 10 consecutive treatment days per quarter over four quarters per year.",
+          "created": "2026-07-13",
+          "updated": "2026-08-23",
+          "tags": [
+            "task-output",
+            "methylene-blue",
+            "aminoguanidine",
+            "cost-analysis"
+          ],
+          "filename": "task_output_adrenochrome_price_estimates_13_JUL_2026.md",
+          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_adrenochrome_price_estimates_13_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_price_estimates_13_JUL_2026.md"
+        },
+        "zh-TW": {
+          "title": "供應商與價格估算 — 腎上腺素色素（MB, AG）方案",
+          "description": "針對 75 公斤成人的 MB+AG 方案，進行藥用級亞甲藍（IV）與氨基胍之供應商及成本分析，假設每年四個季度，每季度連續 10 個治療日。",
+          "created": "2026-07-13",
+          "updated": "2026-11-10",
+          "tags": [
+            "task-output",
+            "methylene-blue",
+            "aminoguanidine",
+            "cost-analysis"
+          ],
+          "filename": "task_output_adrenochrome_price_estimates_13_JUL_2026.md",
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_price_estimates_13_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_price_estimates_13_JUL_2026.md"
+        }
+      },
+      "stats": {
+        "words": 771,
+        "images": 0,
+        "links": 11,
+        "diagrams": 0
       }
     },
     {
@@ -1559,47 +1629,6 @@
         "words": 519,
         "images": 0,
         "links": 59,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "task_output_adrenochrome_price_estimates_13_JUL_2026",
-      "langs": {
-        "en-US": {
-          "title": "Supplier & Price Estimates - Adrenochrome (MB, AG) Protocol",
-          "description": "Supplier and cost analysis of pharmaceutical-grade methylene blue (IV) and aminoguanidine for the MB+AG protocol in a 75 kg adult, assuming 10 consecutive treatment days per quarter over four quarters per year.",
-          "created": "2026-07-13",
-          "updated": "2026-08-23",
-          "tags": [
-            "task-output",
-            "methylene-blue",
-            "aminoguanidine",
-            "cost-analysis"
-          ],
-          "filename": "task_output_adrenochrome_price_estimates_13_JUL_2026.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_adrenochrome_price_estimates_13_JUL_2026.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_price_estimates_13_JUL_2026.md"
-        },
-        "zh-TW": {
-          "title": "供應商與價格估算 — 腎上腺素色素（MB, AG）方案",
-          "description": "針對 75 公斤成人的 MB+AG 方案，進行藥用級亞甲藍（IV）與氨基胍之供應商及成本分析，假設每年四個季度，每季度連續 10 個治療日。",
-          "created": "2026-07-13",
-          "updated": "2026-09-22",
-          "tags": [
-            "task-output",
-            "methylene-blue",
-            "aminoguanidine",
-            "cost-analysis"
-          ],
-          "filename": "task_output_adrenochrome_price_estimates_13_JUL_2026.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_price_estimates_13_JUL_2026.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_price_estimates_13_JUL_2026.md"
-        }
-      },
-      "stats": {
-        "words": 771,
-        "images": 0,
-        "links": 11,
         "diagrams": 0
       }
     },

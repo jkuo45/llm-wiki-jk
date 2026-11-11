@@ -133,7 +133,7 @@ updated: 2026-11-10
 |--------|--------------|-------------|
 | [[PGC-1α]] | protein | Master regulator of mitochondrial biogenesis; deacetylated/activated by SIRT1; neuroprotective |
 | [[p53]] | protein | Tumour suppressor; deacetylated by SIRT1; SIRT1–HIC1–p53 feedback loop |
-| [[FoxO1]] | transcription-factor| Forkhead transcription factor; SIRT1 deacetylation regulates adiponectin, β-cell survival |
+| [[FoxO1]] | protein             | Forkhead transcription factor; SIRT1 deacetylation regulates adiponectin, β-cell survival |
 | [[FOXO3a]] | protein | Forkhead transcription factor; SIRT1 deacetylation shifts output from apoptosis to stress survival |
 | [[FOXO3]] | transcription-factor | Forkhead box O3 transcription factor that forms a feed-forward stress-resistance loop with SIRT1 and is central to longevity-associated signaling. |
 | [[FOXO4]] | protein | Forkhead transcription factor; deacetylated by SIRT1 to enhance antioxidant defense via GADD45 |

@@ -27,6 +27,7 @@ Immunosenescence refers to the gradual deterioration of the immune system associ
 - Premature, non-chronological accumulation of senescent T cells in chronic inflammatory disease ([[Ulcerative Colitis]]; Ye et al., 2026).
 ## Reversal
 - Clinical implementation of [[Autophagy Inducer|autophagy inducers]] (e.g., [[Rapamycin]], [[Metformin]], [[Spermidine]]) provides potential to partially reverse systemic immunosenescence.
+- A T cell–bone marrow axis of immunosenescence drives hematopoietic aging: [[Cytotoxic CD4+ T Cells]] with mitochondrial stress accumulate in the [[Bone Marrow]] and impose myeloid skewing of [[Hematopoiesis]] through [[CCL5]]–[[CCR5]] signaling; pharmacological blockade with [[Maraviroc]] normalizes myelopoiesis and the neutrophil-to-lymphocyte ratio in aged mice (Gabandé-Rodríguez et al., 2026, *Nat Aging*).
 ---
 
 ## Documents
@@ -42,6 +43,9 @@ List of documents that mention this entity
   - [[_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis|Ye et al., 2026, Aging Cell]]
     - Frames premature immunosenescence (senescent CD8+ T cells driven by NAD+ metabolic dysregulation) as a core pathogenic vulnerability in ulcerative colitis rather than a consequence of chronological aging; the senescent/NAD+ signature predicts biologic non-response.
 
+  - [[_document_ - Cytotoxic CD4 T cells induce age-associated myelopoiesis through CCL5-CCR5 signaling|Cytotoxic CD4 T cells induce age-associated myelopoiesis (Nat Aging 2026)]]
+    - Defines a T cell–bone marrow axis of immunosenescence in which cytotoxic CD4+ T cells with mitochondrial stress drive CCL5–CCR5-dependent myelopoiesis, neutrophilia, and an elevated neutrophil-to-lymphocyte ratio; maraviroc rebalances hematopoiesis.
+
 ## Connections
 - [[Immune Aging]] — interacts with Immunosenescence
 - [[Aging]] — progressive decline in physiological function; primary risk factor
@@ -49,6 +53,10 @@ List of documents that mention this entity
 - [[Senescence]] — interacts with Immunosenescence
 - [[Inflammaging]] — chronic low-grade inflammation with aging
 - [[Senescent CD8+ T Cells]] — premature senescent effector population in ulcerative colitis (Ye et al., 2026)
+- [[Cytotoxic CD4+ T Cells]] — age-expanded cytotoxic effector population driving myelopoiesis via CCL5–CCR5
+- [[CCL5]] — chemokine produced by bone marrow CD4+ CTLs under mitochondrial/STING stress
+- [[CCR5]] — receptor on aged hematopoietic progenitors mediating myeloid skewing
+- [[Maraviroc]] — CCR5 antagonist that rebalances aged hematopoiesis
 - [[NAD+ Metabolic Reprogramming]] — mucosal NAD+ dysregulation that drives this premature T-cell senescence
 - [[Ulcerative Colitis]] — chronic inflammatory disease in which premature immunosenescence is pathogenic
 - [[SASP]] — pro-inflammatory secretome through which senescent T cells amplify mucosal inflammation

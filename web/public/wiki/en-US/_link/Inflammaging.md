@@ -4,7 +4,7 @@ description: Inflammaging is a state of chronic, low-grade, systemic inflammatio
   that develops with advanced age and is a major risk factor for many age-related
   diseases.
 created: 2026-05-29
-updated: 2026-09-02
+updated: 2026-11-10
 tags:
   - biological-process
 aliases: []
@@ -77,6 +77,7 @@ Strategies to reduce inflammaging include [[Autophagy Inducer|autophagy inductio
 # 
 
 ## Documents
+- [[_document_ - Cytotoxic CD4 T cells induce age-associated myelopoiesis through CCL5-CCR5 signaling|Cytotoxic CD4 T cells induce age-associated myelopoiesis (Nat Aging 2026)]]: Nat Aging 2026 links inflammaging to hematopoietic aging: cytotoxic CD4+ T cells with mitochondrial stress produce CCL5 via STING, driving myelopoiesis and neutrophil-mediated paracrine senescence; maraviroc lowers multiple inflammaging cytokines in aged mice.
 
 List of documents that mention this entity
 

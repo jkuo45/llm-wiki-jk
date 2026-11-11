@@ -2,7 +2,7 @@
 title: Hematopoiesis
 description: Hematopoiesis is the lifelong process of blood-cell formation from hematopoietic stem cells in the bone marrow, governed by transcription factors, cytokines, and the niche, and declining with age.
 created: 2026-07-04
-updated: 2026-07-09
+updated: 2026-11-10
 tags:
   - biological-process
   - stem-cell
@@ -22,6 +22,7 @@ aliases: [Blood cell formation, Hematopoietic development]
 #
 
 ## Documents
+- [[_document_ - Cytotoxic CD4 T cells induce age-associated myelopoiesis through CCL5-CCR5 signaling|Cytotoxic CD4 T cells induce age-associated myelopoiesis (Nat Aging 2026)]]: Nat Aging 2026 establishes a T cell-bone marrow axis of hematopoietic aging: CCL5+CD4+ CTLs induce myeloid skewing via CCR5 on progenitors, and CCR5 blockade with maraviroc rebalances hematopoiesis in old mice.
 
   - [[_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses|Nicotinamide Riboside: Current Research]]
     - Links NAD+ metabolism to hematopoietic and regenerative function.

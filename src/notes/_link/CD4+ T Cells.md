@@ -2,7 +2,7 @@
 title: CD4+ T Cells
 description: CD4-positive T helper cells are central coordinators of adaptive immunity, orchestrating immune responses through cytokine production and helper functions.
 created: 2026-07-11
-updated: 2026-07-11
+updated: 2026-11-10
 tags:
   - cell-type
   - immune-regulation
@@ -79,3 +79,7 @@ Regulatory T cells (Tregs), a specialized CD4+ subset expressing FoxP3, suppress
 
 - New links added: [[MHC type II]], [[Th1]], [[Th2]], [[IL-12]], [[IL-4]], [[IFNγ]], [[IL-10]], [[Macrophages]], [[B Cells]], [[CD8+ T Cells]], [[STAT6]], [[T-bet]]
 - Strong connections to strengthen: [[CD4+ T Cells]] ↔ [[MHC type II]], [[CD4+ T Cells]] ↔ [[Th1]], [[CD4+ T Cells]] ↔ [[Th2]]
+
+## Documents
+
+- [[_document_ - Cytotoxic CD4 T cells induce age-associated myelopoiesis through CCL5-CCR5 signaling|Cytotoxic CD4 T cells induce age-associated myelopoiesis (Nat Aging 2026)]]: Nat Aging 2026 shows aged bone marrow CD4+ T cells convert to a CCL5+ cytotoxic (CD4 CTL) effector phenotype in a TCR-dependent manner and drive myelopoiesis via CCL5-CCR5 signaling to hematopoietic progenitors.

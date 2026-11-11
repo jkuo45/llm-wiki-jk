@@ -5,7 +5,7 @@ description: Sirt1 is a NAD+-dependent class III histone deacetylase (sirtuin)
   energy status to chromatin regulation, ...
 aliases: [Sirt1, SIRT1 (feedback inhibition), SIRT1 knockout mice, SIRT1 (dendritic cells), SIRT1 (activated by resveratrol)]
 created: 2026-07-06
-updated: 2026-09-30
+updated: 2026-11-10
 protected: true
 tags:
   - gene
@@ -318,6 +318,9 @@ In the [[Mitohormesis]] framework, SIRT1 transduces mitochondrial signals into n
 - Since SIRT1 activity is NAD⁺-gated, the male PARP-driven NAD⁺ decline and the female post-menopausal sirtuin hub collapse converge on the same downstream deficits (impaired FOXO/MnSOD antioxidant programs, unchecked NF-κB inflammation), even though they originate from opposite sex-hormonal logic — see the unified framework in [[NAD+]] and [[NF-κB]].
 
 ## Documents
+
+- [[_document_ - Sirtuins at a glance|Sirtuins at a Glance (Nakagawa & Guarente 2011)]]
+  - *J. Cell Sci.* Cell Science at a Glance: sirtuin core-domain architecture, NAD+ biosynthesis/circadian (NAMPT, CLOCK:BMAL1) regulation, and SIRT1 across chromatin, metabolism, inflammation, cardiovascular, cancer and brain — this note's primary 2011 survey source.
 
 List of documents that mention this entity
 

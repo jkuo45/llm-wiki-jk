@@ -2,7 +2,7 @@
 title: CCL5
 description: C-C motif chemokine ligand 5 (RANTES), a SASP chemokine that binds CCR1/3/5 and promotes cancer progression and reproductive aging.
 created: 2026-07-07
-updated: 2026-07-08
+updated: 2026-11-10
 tags:
   - chemokine
   - sasp
@@ -37,6 +37,7 @@ CCL5 (C-C motif chemokine ligand 5), also known as RANTES, is a CC chemokine tha
 - CCL5 is a candidate biomarker of senescence in reproductive tissues and of SASP burden in cancer.
 
 ## Documents
+- [[_document_ - Cytotoxic CD4 T cells induce age-associated myelopoiesis through CCL5-CCR5 signaling|Cytotoxic CD4 T cells induce age-associated myelopoiesis (Nat Aging 2026)]]: In the Nat Aging 2026 myelopoiesis study, CCL5 is the signature chemokine of bone marrow-infiltrating cytotoxic CD4+ T cells, induced by TCR-driven mitochondrial stress through cGAS-STING; CCL5 signaling to CCR5 on aged HSCs and GMPs drives myeloid skewing, and anti-CCL5 blockade or maraviroc reverses it.
 
 - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review describes CCL5 as a SASP chemokine secreted by therapy-induced senescent cancer cells that activates MYC–cyclin D signaling in neighboring cancer cells to promote non-small-cell lung cancer progression. It also notes CCL5 release by senescent ovarian stromal cells impairs preantral follicle development, linking the SASP to both tumor promotion and reproductive aging.
 

@@ -5,20 +5,20 @@
 <!-- GENERATED: summary_table -->
 | topic | updated | documents | entities | words | disk |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 08_NOV_2026 | 34 | 2103 | 1,512,016 | 18.32 MB |
+| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 10_NOV_2026 | 35 | 2143 | 1,526,545 | 18.50 MB |
 | [adrenochrome](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 29_OCT_2026 | 19 | 258 | 202,027 | 2.65 MB |
 | [autophagy](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 23_OCT_2026 | 12 | 235 | 188,595 | 1.74 MB |
 | [cancer](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 23_OCT_2026 | 11 | 285 | 260,064 | 3.01 MB |
-| [cell-death](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cell-death) [[src/notes/cell-death/README\|wiki]] | 04_NOV_2026 | 12 | 100 | 122,345 | 1.68 MB |
+| [cell-death](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cell-death) [[src/notes/cell-death/README\|wiki]] | 09_NOV_2026 | 13 | 105 | 132,558 | 1.91 MB |
 | [comt](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/comt) [[src/notes/comt/README\|wiki]] | 21_OCT_2026 | 2 | 45 | 28,241 | 0.54 MB |
 | [epigenetics](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]] | 23_OCT_2026 | 8 | 227 | 209,647 | 2.25 MB |
 | [hormesis](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/hormesis) [[src/notes/hormesis/README\|wiki]] | 21_OCT_2026 | 7 | 16 | 69,625 | 0.63 MB |
 | [neuromelanin](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/neuromelanin) [[src/notes/neuromelanin/README\|wiki]] | 21_OCT_2026 | 2 | 91 | 64,406 | 0.80 MB |
-| [oxidative-stress](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/oxidative-stress) [[src/notes/oxidative-stress/README\|wiki]] | 23_OCT_2026 | 1 | 105 | 91,823 | 1.16 MB |
-| [senescence](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 21_OCT_2026 | 16 | 66 | 156,813 | 2.24 MB |
-| [sirtuins](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 21_OCT_2026 | 20 | 172 | 314,060 | 3.97 MB |
+| [oxidative-stress](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/oxidative-stress) [[src/notes/oxidative-stress/README\|wiki]] | 10_NOV_2026 | 1 | 105 | 91,860 | 1.16 MB |
+| [senescence](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 10_NOV_2026 | 18 | 88 | 180,548 | 2.54 MB |
+| [sirtuins](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 10_NOV_2026 | 21 | 176 | 323,561 | 4.10 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 08_NOV_2026 | **144** | **3703** | **3,219,662** | **39.00 MB** |
+| **subtotal** | 10_NOV_2026 | **149** | **3774** | **3,277,677** | **39.85 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***
@@ -179,8 +179,13 @@ Build: 05_NOV_2026 · hash `b15ba0951b3d5362`
 ## Documents
 
 <details>
-<summary><strong>Documents (144 total)</strong> — click to expand</summary>
+<summary><strong>Documents (149 total)</strong> — click to expand</summary>
 
+- `senescence`: [Cytotoxic CD4 T cells induce age-associated myelopoiesis through CCL5-CCR5 signaling](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/_document_%20-%20Cytotoxic%20CD4%20T%20cells%20induce%20age-associated%20myelopoiesis%20through%20CCL5-CCR5%20signaling.md) [[src/notes/senescence/_document_ - Cytotoxic CD4 T cells induce age-associated myelopoiesis through CCL5-CCR5 signaling.md|wiki]] (10_NOV_2026 06:32 PM PST)
+- `sirtuins`: [Sirtuins at a glance](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/_document_%20-%20Sirtuins%20at%20a%20glance.md) [[src/notes/sirtuins/_document_ - Sirtuins at a glance.md|wiki]] (10_NOV_2026 05:55 PM PST)
+- `_link`: [The bleeding edge of NAD in human ageing](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/_document_%20-%20The%20bleeding%20edge%20of%20NAD%20in%20human%20ageing.md) [[src/notes/_link/_document_ - The bleeding edge of NAD in human ageing.md|wiki]] (10_NOV_2026 02:29 PM PST)
+- `senescence`: [Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerba...](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/_document_%20-%20Aging%20Cell%20-%202026%20-%20Ye%20-%20NAD%20%20Metabolic%20Reprogramming%20Drives%20CD8%20%20T%20Cells%20Senescence%20and%20Exacerbates%20Ulcerative%20Colitis.md) [[src/notes/senescence/_document_ - Aging Cell - 2026 - Ye - NAD  Metabolic Reprogramming Drives CD8  T Cells Senescence and Exacerbates Ulcerative Colitis.md|wiki]] (10_NOV_2026 07:41 AM PST)
+- `cell-death`: [Neutrophil Extracellular Traps in Host Defense](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/_document_%20-%20Neutrophil%20Extracellular%20Traps%20in%20Host%20Defense.md) [[src/notes/cell-death/_document_ - Neutrophil Extracellular Traps in Host Defense.md|wiki]] (09_NOV_2026 02:50 PM PST)
 - `cell-death`: [Current understanding of eryptosis supplementary material (MOESM1)](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/_document_%20-%20Current%20understanding%20of%20eryptosis%20supplementary%20material%20%28MOESM1%29.md) [[src/notes/cell-death/_document_ - Current understanding of eryptosis supplementary material (MOESM1).md|wiki]] (04_NOV_2026 09:15 PM PST)
 - `cell-death`: [Current understanding of eryptosis mechanisms, physiological functions, role in disease, pharmaco...](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/_document_%20-%20Current%20understanding%20of%20eryptosis%20mechanisms%2C%20physiological%20functions%2C%20role%20in%20disease%2C%20pharmacological%20applications%2C%20and%20nomenclature%20recommendations.md) [[src/notes/cell-death/_document_ - Current understanding of eryptosis mechanisms, physiological functions, role in disease, pharmacological applications, and nomenclature recommendations.md|wiki]] (23_OCT_2026 08:48 AM PDT)
 - `adrenochrome`: [Dietary Advanced Glycation End Products and Aging](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/_document_%20-%20Dietary%20Advanced%20Glycation%20End%20Products%20and%20Aging.md) [[src/notes/adrenochrome/_document_ - Dietary Advanced Glycation End Products and Aging.md|wiki]] (21_OCT_2026 10:58 AM PDT)
@@ -333,8 +338,10 @@ Build: 05_NOV_2026 · hash `b15ba0951b3d5362`
 ## Tasks
 
 <details>
-<summary><strong>Tasks (131 total)</strong> — click to expand</summary>
+<summary><strong>Tasks (133 total)</strong> — click to expand</summary>
 
+- [task_output_whole_blood_nad_biomarker_viewpoint_10_Nov_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_whole_blood_nad_biomarker_viewpoint_10_Nov_2026.md) [[src/tasks/task_output_whole_blood_nad_biomarker_viewpoint_10_Nov_2026.md|wiki]] (10_NOV_2026 02:29 PM PST)
+- [task_output_eryptosis_and_aging_12_hallmarks_09_Nov_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_eryptosis_and_aging_12_hallmarks_09_Nov_2026.md) [[src/tasks/task_output_eryptosis_and_aging_12_hallmarks_09_Nov_2026.md|wiki]] (09_NOV_2026 12:54 PM PST)
 - [task_output_eat_me_dont_eat_me_signals_08_Nov_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_eat_me_dont_eat_me_signals_08_Nov_2026.md) [[src/tasks/task_output_eat_me_dont_eat_me_signals_08_Nov_2026.md|wiki]] (08_NOV_2026 10:09 PM PST)
 - [task_output_adrenochrome_eryptosis_crossover_04_Nov_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_adrenochrome_eryptosis_crossover_04_Nov_2026.md) [[src/tasks/task_output_adrenochrome_eryptosis_crossover_04_Nov_2026.md|wiki]] (04_NOV_2026 07:47 AM PST)
 - [task_output_eryptosis_excess_and_under_clearance_04_Nov_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_eryptosis_excess_and_under_clearance_04_Nov_2026.md) [[src/tasks/task_output_eryptosis_excess_and_under_clearance_04_Nov_2026.md|wiki]] (04_NOV_2026 07:47 AM PST)

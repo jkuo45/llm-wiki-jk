@@ -7,10 +7,10 @@ updated: 2026-11-10
 ---
 # Shared Entities (`_link`)
 
-Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **2104 entities** in a single flat index and **35 documents**.
+Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **2108 entities** in a single flat index and **35 documents**.
 
 > [!note]
-> `_link` index. Total entities: 2104 | Documents: 35
+> `_link` index. Total entities: 2108 | Documents: 35
 >
 ## Documents
 
@@ -345,6 +345,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[CCL5\|CCL5]] | C-C motif chemokine ligand 5 (RANTES), a SASP chemokine that binds CCR1/3/5 and promotes cancer progression and reproductive aging. |
 | [[CCN1\|CCN1]] | Cellular communication network factor 1 (CYR61), a matricellular SASP protein that promotes wound healing, fibroblast senescence, and tissue regeneration through integrin signaling. |
 | [[CCR2\|CCR2]] | C-C chemokine receptor type 2, the principal receptor for the monocyte chemoattractant MCP-1 (CCL2). Mediates monocyte/macrophage recruitment in inflammation, including SASP-driven immune infiltration in aged tissues. |
+| [[CCR5]] | CC chemokine receptor 5 (CD195), a Gαi-coupled GPCR and principal receptor for CCL5; upregulated on aged hematopoietic progenitors where it mediates T cell-driven myelopoiesis, and the target of maraviroc. |
 | [[CD206\|CD206]] | Mannose receptor (MRC1), a C-type lectin on alternatively activated M2 macrophages involved in endocytosis and immune tolerance. |
 | [[CD36\|CD36]] | Cluster of differentiation 36, a scavenger receptor essential for NF-κB activation and SASP signaling downstream of lipid ligands. |
 | [[CD38\|CD38]] | CD38 is an ectoenzyme that degrades NAD+ and its precursors like NMN, with its levels and activity increasing during aging and contributing to mitochondrial dysfunction. Also regulates extracellular NMN availability and is neuroprotective in axon injury models. |
@@ -352,7 +353,9 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[CD4+ T Cells\|CD4+ T Cells]] | CD4-positive T helper cells are central coordinators of adaptive immunity, orchestrating immune responses through cytokine production and helper functions. |
 | [[CD40L\|CD40L]] | CD40L (CD154, TNFSF5) is a trimeric TNF-superfamily type II transmembrane cytokine expressed on activated CD4+ T cells that engages CD40 on B cells and antigen-presenting cells to drive germinal centre formation, class-switch recombination, and dendritic cell maturation. |
 | [[CD44\|CD44]] | CD44 variant isoforms (CD44v) partner with MUC1-C and xCT to sustain GSH and ferroptosis resistance in triple-negative breast cancer. |
+| [[Cytotoxic CD4+ T Cells]] | Effector CD4+ T cells (CD4 CTLs) expressing EOMES, CD38, CCL5, perforin and granzymes that expand during aging, accumulate in the bone marrow, and drive CCL5–CCR5-dependent myelopoiesis while retaining senescent-cell killing capacity. |
 | [[HIF2α]] | Hypoxia-inducible factor 2 alpha — activated by SIRT1 deacetylation under hypoxia, opposite to SIRT1's inhibition of HIF-1alpha; falls as NAD+ and SIRT1 decline, proposing a HIF2alpha-to-HIF1alpha switch. |
+| [[Immunosenescence]] | Age-related decline and reprogramming of immune function, including thymic involution, naive T cell loss, accumulation of exhausted/cytotoxic effector T cells, myeloid skewing of hematopoiesis, and inflammaging. |
 | [[ITIM\|ITIM]] | Immunoreceptor tyrosine-based inhibitory motif — cytoplasmic sequence that, once phosphorylated, recruits SHP-1/SHP-2 phosphatases to deliver inhibitory signals; the shared execution mechanism of don't-eat-me receptors including SIRPα, Siglec-10, CD31, and PD-1. |
 | [[CD47\|CD47]] | CD47 is a ubiquitously expressed immunoglobulin-superfamily receptor that pairs with SIRP-alpha on myeloid cells to deliver a "don't eat me" signal suppressing phagocytosis; blockade of CD47 is a cancer and fibrosis immunotherapy strategy. |
 | [[CD24\|CD24]] | CD24 is a small GPI-anchored sialoprotein on developing hematopoietic and tumor cells that, in humans, binds Siglec-10 on macrophages as a potent "don't-eat-me" signal and is a cancer stem-cell marker. |
@@ -665,7 +668,9 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Enzalutamide\|enzalutamide]] | Enzalutamide is a second-generation, nonsteroidal androgen-receptor (AR) signaling inhibitor used in castration-resistant prostate cancer (CRPC) for which drug resistance is a major clinical problem; preclinical studies show ivermectin can overcome enzalutamide resistance and synergize with docetaxel. |
 | [[Efferocytosis\|Efferocytosis]] | PS-dependent phagocytic clearance of apoptotic cells; in erythrocytes it removes eryptotic cells within minutes and reprograms macrophages toward an antiinflammatory, heme-oxygenase-1-high phenotype. |
 | [[LCAD]] | Long-chain acyl-CoA dehydrogenase — mitochondrial beta-oxidation enzyme deacetylated and activated by SIRT3 during fasting; SIRT3 knockout accumulates fatty-acid oxidation intermediates with low ATP. |
+| [[Maraviroc]] | FDA-approved CCR5 antagonist (HIV-1 entry inhibitor) that in aged mice normalizes CCL5-CCR5-driven myelopoiesis, lowers the neutrophil-to-lymphocyte ratio and inflammaging cytokines, and improves metabolic and functional healthspan outcomes. |
 | [[miR-134]] | Brain-enriched microRNA repressed by SIRT1 to permit CREB and BDNF expression; the SIRT1–miR-134–CREB–BDNF axis promotes memory formation and synaptic plasticity. |
+| [[Myelopoiesis]] | Production of myeloid lineage cells (granulocytes, monocytes, macrophages) from hematopoietic progenitors; biased expansion during aging via CCL5–CCR5 signaling raises the neutrophil-to-lymphocyte ratio. |
 | [[POMC]] | Pro-opiomelanocortin — precursor polypeptide cleaved into ACTH, alpha-MSH and beta-endorphin; hypothalamic arcuate POMC neurons are a SIRT1-regulated feeding-behavior node under dietary restriction. |
 | [[NDUFA9]] | Accessory subunit of mitochondrial Complex I (39-kDa subunit) deacetylated by SIRT3; part of the OXPHOS machinery regulating cellular ATP levels. |
 | [[Siglec-10\|Siglec-10]] | Siglec-10 (SIGLEC10) is an inhibitory I-type lectin on macrophages and other leukocytes that recognizes sialylated — and via CD24, non-sialylated — "don't-eat-me" signals, dampening phagocytosis of viable healthy cells. |
