@@ -3,7 +3,7 @@ title: SIRT2
 description: SIRT2 (Sirtuin 2) is a member of the sirtuin family of NAD+-dependent
   deacetylases, primarily localized in the cytosol.
 created: 2026-07-04
-updated: 2026-09-30
+updated: 2026-11-10
 tags:
   - enzyme
   - nad-plus
@@ -125,6 +125,9 @@ Compiled from [[_document_ - sirtuins in health and disease s41392-022-01257-8|S
 - **[[Muscle Atrophy]]**: Inhibits autophagic flux → maintains protein metabolism homeostasis in skeletal muscle.
 
 ## Documents
+
+- [[_document_ - Sirtuins at a glance|Sirtuins at a Glance (Nakagawa & Guarente 2011)]]
+  - *J. Cell Sci.* Cell Science at a Glance: sirtuin core-domain architecture, NAD+ biosynthesis/circadian (NAMPT, CLOCK:BMAL1) regulation, and SIRT1 across chromatin, metabolism, inflammation, cardiovascular, cancer and brain — this note's primary 2011 survey source.
 
 List of documents that mention this entity
 

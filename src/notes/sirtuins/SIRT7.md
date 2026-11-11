@@ -4,7 +4,7 @@ description: SIRT7 (Sirtuin 7) is a nuclear/nucleolar sirtuin classified in phyl
   Class IVb — the same class as SIRT6 (Class IVa). Class IV sirtuins are absent from
   prokaryotes but broadly distributed in...
 created: 2026-07-02
-updated: 2026-08-11
+updated: 2026-11-10
 tags:
   - protein
   - nad-plus
@@ -118,6 +118,9 @@ Compiled from [[_document_ - sirtuins in health and disease s41392-022-01257-8|S
 - **[[Acute Kidney Injury]]**: SIRT7-deficient mice protected against AKI → **promotes tubular damage/kidney inflammation**.
 
 ## Documents
+
+- [[_document_ - Sirtuins at a glance|Sirtuins at a Glance (Nakagawa & Guarente 2011)]]
+  - *J. Cell Sci.* Cell Science at a Glance: sirtuin core-domain architecture, NAD+ biosynthesis/circadian (NAMPT, CLOCK:BMAL1) regulation, and SIRT1 across chromatin, metabolism, inflammation, cardiovascular, cancer and brain — this note's primary 2011 survey source.
 
 List of documents that mention this entity
 

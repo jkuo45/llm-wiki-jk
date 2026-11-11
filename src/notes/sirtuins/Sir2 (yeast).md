@@ -4,7 +4,7 @@ description: Sir2 (Silent Information Regulator 2) from _Saccharomyces cerevisia
   is the founding member of the sirtuin family of proteins. Originally discovered
   as MAR1 (mating-type regulator 1) and subsequen...
 created: 2026-07-02
-updated: 2026-08-03
+updated: 2026-11-10
 tags:
   - protein
   - sirtuin
@@ -81,6 +81,9 @@ The *Trends in Genetics* review ([[_document_ - Sirtuins Guardians of Mammalian 
 > *sir2* inactivation shortens yeast lifespan ~50%, while a single extra copy of *SIR2* extends it ~30% — the observation that launched sirtuin longevity research.
 
 ## Documents
+
+- [[_document_ - Sirtuins at a glance|Sirtuins at a Glance (Nakagawa & Guarente 2011)]]
+  - *J. Cell Sci.* Cell Science at a Glance: sirtuin core-domain architecture, NAD+ biosynthesis/circadian (NAMPT, CLOCK:BMAL1) regulation, and SIRT1 across chromatin, metabolism, inflammation, cardiovascular, cancer and brain — this note's primary 2011 survey source.
 
 List of documents that mention this entity
 

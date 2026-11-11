@@ -7,10 +7,10 @@ updated: 2026-11-10
 ---
 # Shared Entities (`_link`)
 
-Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **2099 entities** in a single flat index and **35 documents**.
+Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **2102 entities** in a single flat index and **35 documents**.
 
 > [!note]
-> `_link` index. Total entities: 2099 | Documents: 35
+> `_link` index. Total entities: 2102 | Documents: 35
 >
 ## Documents
 
@@ -663,6 +663,9 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Enterocloster\|Enterocloster]] | Enterocloster is a gut bacterial genus contributing to ellagitannin conversion toward urolithin A. |
 | [[Enzalutamide\|enzalutamide]] | Enzalutamide is a second-generation, nonsteroidal androgen-receptor (AR) signaling inhibitor used in castration-resistant prostate cancer (CRPC) for which drug resistance is a major clinical problem; preclinical studies show ivermectin can overcome enzalutamide resistance and synergize with docetaxel. |
 | [[Efferocytosis\|Efferocytosis]] | PS-dependent phagocytic clearance of apoptotic cells; in erythrocytes it removes eryptotic cells within minutes and reprograms macrophages toward an antiinflammatory, heme-oxygenase-1-high phenotype. |
+| [[miR-134]] | Brain-enriched microRNA repressed by SIRT1 to permit CREB and BDNF expression; the SIRT1–miR-134–CREB–BDNF axis promotes memory formation and synaptic plasticity. |
+| [[POMC]] | Pro-opiomelanocortin — precursor polypeptide cleaved into ACTH, alpha-MSH and beta-endorphin; hypothalamic arcuate POMC neurons are a SIRT1-regulated feeding-behavior node under dietary restriction. |
+| [[NDUFA9]] | Accessory subunit of mitochondrial Complex I (39-kDa subunit) deacetylated by SIRT3; part of the OXPHOS machinery regulating cellular ATP levels. |
 | [[Siglec-10\|Siglec-10]] | Siglec-10 (SIGLEC10) is an inhibitory I-type lectin on macrophages and other leukocytes that recognizes sialylated — and via CD24, non-sialylated — "don't-eat-me" signals, dampening phagocytosis of viable healthy cells. |
 | [[Eosinophilia]] | Eosinophilia is an elevated absolute eosinophil count above 0.5 x 10^9/L, graded as mild, moderate, or severe; it is a laboratory finding rather than a diagnosis, and its cause must be sought before it is treated. |
 | [[Eosinophils\|Eosinophils]] | Eosinophils are IL-5-driven granulocytes of myeloid lineage that degranulate a cationic, peroxidase-rich granule arsenal onto helminths and onto host tissue, making them simultaneously essential for parasite defence and drivers of allergic and fibrotic disease. |
