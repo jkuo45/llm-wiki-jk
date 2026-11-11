@@ -359,6 +359,33 @@ def main() -> None:
         "triples": json.loads((DATA_DIR / "triples-edges.json").read_text()),
         "wiki": json.loads((DATA_DIR / "wiki-edges.json").read_text()),
     }
+    # ponytail: inline decode of the int-encoded edge form (standalone
+    # script; mirrors scripts/lib/graph_common.decode_edges).
+    def _decode_edges(doc):
+        if isinstance(doc, list):
+            return doc
+        ids, labels = doc["ids"], doc["labels"]
+        return [{
+            "from": ids[r[0]], "to": ids[r[1]], "label": labels[r[2]],
+            "confidence": "EXTRACTED" if r[3] >= 0.7 else "AMBIGUOUS",
+            "confidence_score": r[3], "weight": r[4] if len(r) > 4 else r[3],
+        } for r in doc["edges"]]
+
+    edge_files = {mode: _decode_edges(doc) for mode, doc in edge_files.items()}
+    # Descriptions live in the <prefix>node-desc.json sidecars; merge them
+    # back into the node dicts so build_entities keeps working unchanged.
+    for mode, nodes in node_files.items():
+        prefix = "" if mode == "combined" else mode + "-"
+        sidecar = DATA_DIR / (prefix + "node-desc.json")
+        if not sidecar.exists():
+            continue
+        desc_map = json.loads(sidecar.read_text())
+        for n in nodes:
+            entry = desc_map.get(n.get("id")) or {}
+            if entry.get("en") and not n.get("description"):
+                n["description"] = entry["en"]
+            if entry.get("zh") and not n.get("description_zh_TW"):
+                n["description_zh_TW"] = entry["zh"]
     fm_index = load_frontmatter_index()
     topic_slugs = json.loads((DATA_DIR / "topics.json").read_text())
 

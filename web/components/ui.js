@@ -8,6 +8,7 @@ import {
   RAW_NODES, LEGEND, TRACES, TRANSLATIONS, nodeMap, adjacency,
   descriptionMap, githubSourceUrl, noteUrl, predicateZh, DATASET_MODE,
   BUILD_INFO, loadEdgeContext, getEdgeContext, isEdgeContextLoaded,
+  loadNodeDesc, isNodeDescLoaded,
 } from './data.js';
 import { state, persistSettings, resetSettings } from './state.js';
 import {
@@ -175,7 +176,10 @@ function nodeDescById(nid) {
   const nd = nodeMap.get(nid);
   if (!nd) return '';
   const useZh = state.analysisUiLang === 'zh-TW';
-  return useZh ? (nd.description_zh_TW || nd.description || '') : (nd.description || '');
+  const desc = useZh ? (nd.description_zh_TW || nd.description || '') : (nd.description || '');
+  // Descriptions load lazily; kick the fetch so a later hover/card works.
+  if (!desc && !isNodeDescLoaded()) loadNodeDesc().catch(() => {});
+  return desc;
 }
 
 function showNodeWikiTooltip(anchor) {

@@ -44,10 +44,12 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 from scripts.lib.graph_common import (  # noqa: E402
     PALETTE,
     dataset_counts,
+    encode_edges,
     enrich_graph_metrics,
     generate_community_colors,
     inject_graph_metadata,
     norm,
+    split_descriptions,
     strip_wikilink,
     surprising_connections_capped,
 )
@@ -333,12 +335,19 @@ def export_three_json(gp: Path, labels: dict[int, str]) -> None:
             # ponytail: edge prose lives in triples-edge-context.json (lazy-loaded); keeps triples-edges.json under Workers' 25 MiB cap.
         })
 
+    # ponytail: descriptions split into the lazy triples-node-desc.json
+    # sidecar and edges int-encoded; keeps the boot payload small.
+    core_nodes, node_desc = split_descriptions(node_objects)
     (DATA_DIR / "triples-nodes.json").write_text(
-        json.dumps(node_objects, ensure_ascii=False, separators=(",", ":")),
+        json.dumps(core_nodes, ensure_ascii=False, separators=(",", ":")),
+        encoding="utf-8",
+    )
+    (DATA_DIR / "triples-node-desc.json").write_text(
+        json.dumps(node_desc, ensure_ascii=False, separators=(",", ":")),
         encoding="utf-8",
     )
     (DATA_DIR / "triples-edges.json").write_text(
-        json.dumps(edge_objects, ensure_ascii=False, separators=(",", ":")),
+        json.dumps(encode_edges(edge_objects), ensure_ascii=False, separators=(",", ":")),
         encoding="utf-8",
     )
     (DATA_DIR / "triples-edge-context.json").write_text(

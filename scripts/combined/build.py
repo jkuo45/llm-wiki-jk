@@ -42,7 +42,14 @@ from pathlib import Path
 # Bootstrap the repo root so this file also runs directly
 # (python3 scripts/combined/build.py) and not only via `python -m`.
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
-from scripts.lib.graph_common import export_roles_json, generate_community_colors, write_web_version
+from scripts.lib.graph_common import (
+    decode_edges,
+    encode_edges,
+    export_roles_json,
+    generate_community_colors,
+    split_descriptions,
+    write_web_version,
+)
 
 ROOT = Path(__file__).resolve().parents[2]  # repo root (scripts/<group>/)
 DATA_DIR = ROOT / "web" / "public" / "data"
@@ -196,13 +203,24 @@ def write_compare_report(top: int = COMPARE_TOP) -> None:
 
 def main() -> int:
     tN = load("triples-nodes.json") or []
-    tE = load("triples-edges.json") or []
+    tE = decode_edges(load("triples-edges.json") or [])
     tL = load("triples-legend.json") or []
     tM = load("triples-graph-meta.json") or {}
 
     wN = load("wiki-nodes.json") or []
-    wE = load("wiki-edges.json") or []
+    wE = decode_edges(load("wiki-edges.json") or [])
     wL = load("wiki-legend.json") or []
+
+    # Source descriptions live in the <prefix>node-desc.json sidecars
+    # (split at export); re-attach them so the merge below keeps working.
+    for nodes, prefix in ((tN, "triples-"), (wN, "wiki-")):
+        desc = load(prefix + "node-desc.json") or {}
+        for n in nodes:
+            entry = desc.get(n["id"]) or {}
+            if entry.get("en"):
+                n["description"] = entry["en"]
+            if entry.get("zh"):
+                n["description_zh_TW"] = entry["zh"]
 
     # Remove the deprecated combined-* files: the merged dataset is now emitted
     # as the canonical nodes.json / edges.json / legend.json / graph-meta.json.
@@ -293,7 +311,11 @@ def main() -> int:
     # files (default "combined" mode). Triples and wiki keep their source
     # files (triples-* / wiki-*); combined-* is no longer emitted.
     # ------------------------------------------------------------------
-    write("nodes.json", nodes)
+    # ponytail: descriptions split into the lazy node-desc.json sidecar and
+    # edges int-encoded; keeps the boot payload small (see graph_common).
+    core_nodes, node_desc = split_descriptions(nodes)
+    write("nodes.json", core_nodes)
+    write("node-desc.json", node_desc)
     # ponytail: edge prose moved to sidecars by the dataset builders; merge them
     # here (triples wins, mirroring add_edge) so combined keeps its own edge-context.json.
     ctx_map = {}
@@ -312,7 +334,7 @@ def main() -> int:
     write("edge-context.json", edge_context)
     # ponytail: "sources" is build-time provenance, unused by the web app;
     # dropping it keeps edges.json under Workers' 25 MiB asset cap.
-    write("edges.json", [{k: v for k, v in e.items() if k not in ("sources", "context", "context_zh_TW", "color", "created", "updated")} for e in edges])
+    write("edges.json", encode_edges([{k: v for k, v in e.items() if k not in ("sources", "context", "context_zh_TW", "color", "created", "updated")} for e in edges]))
     write("legend.json", legend, compact=False)
     write("graph-meta.json", tM)
 

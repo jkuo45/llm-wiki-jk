@@ -20,26 +20,26 @@
 
 | Node | Degree |
 | --- | --- |
-| Chronic Inflammation | 72 |
 | Histone Variant | 72 |
+| Chronic Inflammation | 72 |
 | Kidney Diseases | 69 |
 | Epigenetics and aging | 67 |
 | NAFLD | 66 |
 | FASN | 58 |
 | Endocytosis | 55 |
-| MET | 54 |
 | Immunity | 54 |
-| Membrane Trafficking | 52 |
-| Receptor Tyrosine Kinases | 52 |
+| MET | 54 |
 | Growth Factor Receptor | 52 |
+| Receptor Tyrosine Kinases | 52 |
+| Membrane Trafficking | 52 |
 | Embryogenesis | 48 |
 | Intestine | 46 |
 | Radiotherapy | 45 |
 | Angiotensin II Type 1 Receptor | 44 |
 | Helminth | 43 |
 | Cytokine Storm | 42 |
-| Rac GTPase | 40 |
 | High-fat Diet | 40 |
+| Rac GTPase | 40 |
 
 ## Top 20 triples-only nodes (triple but no wikilink)
 
@@ -48,23 +48,23 @@
 | Adrenochrome formation | 11 |
 | ROS | 10 |
 | Females | 9 |
-| Sodium Chloride | 5 |
 | Nonselective Cation Channel | 5 |
-| Lysosomal Storage Disorders | 4 |
-| COMT Val158 allele | 4 |
+| Sodium Chloride | 5 |
 | Mice | 4 |
+| COMT Val158 allele | 4 |
+| Lysosomal Storage Disorders | 4 |
 | Physical Activity | 4 |
-| Biphasic Dose Response | 4 |
+| SIRT1 and SIRT2 | 4 |
 | JAK-STAT3 | 4 |
 | slow COMT | 4 |
-| SIRT1 and SIRT2 | 4 |
-| H4K16 | 3 |
-| S6K1/2 | 3 |
+| Biphasic Dose Response | 4 |
+| Radiation Therapy | 3 |
 | catechol flavonoid | 3 |
-| SIRT7 depletion | 3 |
 | H3K9 | 3 |
-| TRIM28 | 3 |
 | Antioxidant Properties | 3 |
+| SIRT7 depletion | 3 |
+| PI3K/Akt | 3 |
+| Streptomyces avermectinius | 3 |
 
 ## Top 20 wiki-only edges (suggest extracting as triples)
 

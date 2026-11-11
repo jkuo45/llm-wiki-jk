@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T07:06:13Z",
+  "generated_at": "2026-11-11T08:49:11Z",
   "triples_graph": "/Users/johnnykuo/Projects/llm-wiki-jk/graphify-out/graph.json",
   "wiki_graph": "/Users/johnnykuo/Projects/llm-wiki-jk/wiki-out/graph.json",
   "counts": {
@@ -17,13 +17,13 @@
   },
   "top_wiki_only_nodes": [
     {
-      "id": "chronic_inflammation",
-      "label": "Chronic Inflammation",
+      "id": "histone_variant",
+      "label": "Histone Variant",
       "degree": 72
     },
     {
-      "id": "histone_variant",
-      "label": "Histone Variant",
+      "id": "chronic_inflammation",
+      "label": "Chronic Inflammation",
       "degree": 72
     },
     {
@@ -52,18 +52,18 @@
       "degree": 55
     },
     {
-      "id": "met",
-      "label": "MET",
-      "degree": 54
-    },
-    {
       "id": "immunity",
       "label": "Immunity",
       "degree": 54
     },
     {
-      "id": "membrane_trafficking",
-      "label": "Membrane Trafficking",
+      "id": "met",
+      "label": "MET",
+      "degree": 54
+    },
+    {
+      "id": "growth_factor_receptor",
+      "label": "Growth Factor Receptor",
       "degree": 52
     },
     {
@@ -72,8 +72,8 @@
       "degree": 52
     },
     {
-      "id": "growth_factor_receptor",
-      "label": "Growth Factor Receptor",
+      "id": "membrane_trafficking",
+      "label": "Membrane Trafficking",
       "degree": 52
     },
     {
@@ -107,13 +107,13 @@
       "degree": 42
     },
     {
-      "id": "rac_gtpase",
-      "label": "Rac GTPase",
+      "id": "high_fat_diet",
+      "label": "High-fat Diet",
       "degree": 40
     },
     {
-      "id": "high_fat_diet",
-      "label": "High-fat Diet",
+      "id": "rac_gtpase",
+      "label": "Rac GTPase",
       "degree": 40
     }
   ],
@@ -134,18 +134,18 @@
       "degree": 9
     },
     {
-      "id": "sodium_chloride",
-      "label": "Sodium Chloride",
-      "degree": 5
-    },
-    {
       "id": "nonselective_cation_channel",
       "label": "Nonselective Cation Channel",
       "degree": 5
     },
     {
-      "id": "lysosomal_storage_disorders",
-      "label": "Lysosomal Storage Disorders",
+      "id": "sodium_chloride",
+      "label": "Sodium Chloride",
+      "degree": 5
+    },
+    {
+      "id": "mice",
+      "label": "Mice",
       "degree": 4
     },
     {
@@ -154,8 +154,8 @@
       "degree": 4
     },
     {
-      "id": "mice",
-      "label": "Mice",
+      "id": "lysosomal_storage_disorders",
+      "label": "Lysosomal Storage Disorders",
       "degree": 4
     },
     {
@@ -164,8 +164,8 @@
       "degree": 4
     },
     {
-      "id": "biphasic_dose_response",
-      "label": "Biphasic Dose Response",
+      "id": "sirt1_and_sirt2",
+      "label": "SIRT1 and SIRT2",
       "degree": 4
     },
     {
@@ -179,18 +179,13 @@
       "degree": 4
     },
     {
-      "id": "sirt1_and_sirt2",
-      "label": "SIRT1 and SIRT2",
+      "id": "biphasic_dose_response",
+      "label": "Biphasic Dose Response",
       "degree": 4
     },
     {
-      "id": "h4k16",
-      "label": "H4K16",
-      "degree": 3
-    },
-    {
-      "id": "s6k1_2",
-      "label": "S6K1/2",
+      "id": "radiation_therapy",
+      "label": "Radiation Therapy",
       "degree": 3
     },
     {
@@ -199,23 +194,28 @@
       "degree": 3
     },
     {
-      "id": "sirt7_depletion",
-      "label": "SIRT7 depletion",
-      "degree": 3
-    },
-    {
       "id": "h3k9",
       "label": "H3K9",
       "degree": 3
     },
     {
-      "id": "trim28",
-      "label": "TRIM28",
+      "id": "antioxidant_properties",
+      "label": "Antioxidant Properties",
       "degree": 3
     },
     {
-      "id": "antioxidant_properties",
-      "label": "Antioxidant Properties",
+      "id": "sirt7_depletion",
+      "label": "SIRT7 depletion",
+      "degree": 3
+    },
+    {
+      "id": "pi3k_akt",
+      "label": "PI3K/Akt",
+      "degree": 3
+    },
+    {
+      "id": "streptomyces_avermectinius",
+      "label": "Streptomyces avermectinius",
       "degree": 3
     }
   ],

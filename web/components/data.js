@@ -51,6 +51,23 @@ async function getJSON(name, logName) {
   }
 }
 
+// Edges ship int-encoded {ids, labels, edges: [[f, t, labelIdx, score, weight?]]}
+// (scripts/lib/graph_common.py encode_edges) — decode back to the plain
+// {from, to, label, confidence, confidence_score, weight} objects the rest of
+// the app expects. confidence is derived, not stored (score >= 0.7 rule).
+function decodeEdges(doc) {
+  if (Array.isArray(doc)) return doc; // legacy list form
+  if (!doc || !Array.isArray(doc.edges)) return [];
+  return doc.edges.map((row) => ({
+    from: doc.ids[row[0]],
+    to: doc.ids[row[1]],
+    label: doc.labels[row[2]],
+    confidence: row[3] >= 0.7 ? 'EXTRACTED' : 'AMBIGUOUS',
+    confidence_score: row[3],
+    weight: row.length > 4 ? row[4] : row[3],
+  }));
+}
+
 // Strict fetch: critical-path files (nodes/edges/legend/graph-meta) must
 // load or the app has nothing to show — surface a real error instead of
 // silently rendering an empty graph.
@@ -101,7 +118,7 @@ async function loadAllData() {
   ]);
   return {
     RAW_NODES: RAW_NODES || [],
-    RAW_EDGES: RAW_EDGES || [],
+    RAW_EDGES: decodeEdges(RAW_EDGES),
     LEGEND: LEGEND || [],
     GRAPH_META: GRAPH_META || {},
     TRANSLATIONS: TRANSLATIONS || {},
@@ -198,6 +215,9 @@ loadCacheTag().then(() => {
   return fetch(DATA_BASE + 'manifest.json' + q);
 }).then(r => r.ok ? r.json() : null).then(m => { if (m) MANIFEST = m; }).catch(() => {});
 
+// Node descriptions in the background too (non-critical for first paint).
+loadNodeDesc().catch(() => {});
+
 // ------------------------------------------------------------
 // Lazy analysis artifacts — fetched on first Graph-mode open rather
 // than at page load. roles-meta.json (~1 KB) carries the role rule
@@ -234,6 +254,39 @@ export async function loadEdgeContext() {
   return EDGE_CONTEXT.promise;
 }
 
+// Node descriptions (~4.6 MB of prose) are split out of nodes.json into a
+// lazy <prefix>node-desc.json sidecar ({id: {en, zh}}) — the same pattern as
+// the edge-context sidecars above. Kicked off in the background right after
+// boot (like the manifest fetch); description consumers degrade to a
+// GitHub-note hint until it lands.
+const NODE_DESC = { loaded: false, promise: null };
+
+export async function loadNodeDesc() {
+  if (!NODE_DESC.promise) {
+    const name = DATASET_MODE === 'triples' ? 'triples-node-desc.json'
+      : DATASET_MODE === 'wiki' ? 'wiki-node-desc.json'
+      : 'node-desc.json';
+    NODE_DESC.promise = getJSON(name, 'node-desc').then((descMap) => {
+      if (descMap) {
+        for (const [nid, entry] of Object.entries(descMap)) {
+          const nd = nodeMap.get(nid);
+          if (!nd) continue;
+          if (entry.en) nd.description = entry.en;
+          if (entry.zh) nd.description_zh_TW = entry.zh;
+        }
+        rebuildDescriptionMaps();
+      }
+      NODE_DESC.loaded = true;
+      return descMap;
+    });
+  }
+  return NODE_DESC.promise;
+}
+
+export function isNodeDescLoaded() {
+  return NODE_DESC.loaded;
+}
+
 export function getEdgeContext(edge) {
   return EDGE_CONTEXT.map
     ? EDGE_CONTEXT.map[JSON.stringify([edge.from, edge.to])] || null
@@ -263,21 +316,33 @@ export const descriptionMap = new Map();
 export const descriptionZhMap = new Map();
 export const descByLabel = new Map();
 export const descByLabelZh = new Map();
-RAW_NODES.forEach(n => {
-  if (n.description) {
-    descriptionMap.set(n.id, n.description);
-    if (!descByLabel.has(n.label)) descByLabel.set(n.label, n.description);
-    const lower = n.label.toLowerCase();
-    if (!descByLabel.has(lower)) descByLabel.set(lower, n.description);
-  }
-  const zh = n.description_zh_TW;
-  if (zh && zh !== n.description) {
-    descriptionZhMap.set(n.id, zh);
-    if (!descByLabelZh.has(n.label)) descByLabelZh.set(n.label, zh);
-    const lower = n.label.toLowerCase();
-    if (!descByLabelZh.has(lower)) descByLabelZh.set(lower, zh);
-  }
-});
+
+// (Re)build the description lookups from RAW_NODES. Runs once at boot
+// (empty until the sidecar lands, or populated if nodes.json ever carries
+// inline descriptions again) and again when loadNodeDesc() resolves.
+function rebuildDescriptionMaps() {
+  descriptionMap.clear();
+  descriptionZhMap.clear();
+  descByLabel.clear();
+  descByLabelZh.clear();
+  RAW_NODES.forEach(n => {
+    if (n.description) {
+      descriptionMap.set(n.id, n.description);
+      if (!descByLabel.has(n.label)) descByLabel.set(n.label, n.description);
+      const lower = n.label.toLowerCase();
+      if (!descByLabel.has(lower)) descByLabel.set(lower, n.description);
+    }
+    const zh = n.description_zh_TW;
+    if (zh && zh !== n.description) {
+      descriptionZhMap.set(n.id, zh);
+      if (!descByLabelZh.has(n.label)) descByLabelZh.set(n.label, zh);
+      const lower = n.label.toLowerCase();
+      if (!descByLabelZh.has(lower)) descByLabelZh.set(lower, zh);
+    }
+  });
+}
+
+rebuildDescriptionMaps();
 
 // Localize a relationship predicate for display in the zh UI. Falls back to
 // the English predicate when untranslated. Hand-maintained in

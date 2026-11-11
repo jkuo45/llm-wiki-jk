@@ -417,12 +417,19 @@ def export_wiki_three_json(graph: dict, labels: dict[int, str], web_data_dir: Pa
             # ponytail: edge prose lives in <prefix>edge-context.json (lazy-loaded); keeps edges.json under Workers' 25 MiB cap.
         })
 
+    # ponytail: descriptions split into the lazy wiki-node-desc.json sidecar
+    # and edges int-encoded; keeps the boot payload small (see module note).
+    core_nodes, node_desc = split_descriptions(node_objects)
     (web_data_dir / "wiki-nodes.json").write_text(
-        json.dumps(node_objects, ensure_ascii=False, separators=(",", ":")),
+        json.dumps(core_nodes, ensure_ascii=False, separators=(",", ":")),
+        encoding="utf-8",
+    )
+    (web_data_dir / "wiki-node-desc.json").write_text(
+        json.dumps(node_desc, ensure_ascii=False, separators=(",", ":")),
         encoding="utf-8",
     )
     (web_data_dir / "wiki-edges.json").write_text(
-        json.dumps(edge_objects, ensure_ascii=False, separators=(",", ":")),
+        json.dumps(encode_edges(edge_objects), ensure_ascii=False, separators=(",", ":")),
         encoding="utf-8",
     )
     (web_data_dir / "wiki-edge-context.json").write_text(
@@ -460,6 +467,75 @@ def export_wiki_three_json(graph: dict, labels: dict[int, str], web_data_dir: Pa
     )
 
 
+# ----------------------------------------------------------------------
+# Web payload slimming: description sidecars + int-encoded edges.
+#
+# nodes.json carries only render-critical fields; the bilingual prose
+# (78% of the file) lives in <prefix>node-desc.json as {id: {en, zh}},
+# fetched lazily by the front-end (mirrors the edge-context sidecars).
+# edges.json is {ids, labels, edges} with integer endpoint/label indices
+# and [from, to, labelIdx, score, weight?] rows; the front-end decodes
+# it back to the plain {from, to, label, confidence, confidence_score,
+# weight} objects every consumer already expects. `confidence` is derived
+# from the score (>= 0.7 EXTRACTED, else AMBIGUOUS — the same threshold
+# as triples/rebuild.py CONF_RANK), so it is not stored.
+# ----------------------------------------------------------------------
+
+_CONFIDENCE_THRESHOLD = 0.7
+
+
+def split_descriptions(node_objects: list[dict]) -> tuple[list[dict], dict]:
+    """Split node objects into (core, desc sidecar). Core drops the two
+    description fields; the sidecar keeps only non-empty text."""
+    core, desc = [], {}
+    for n in node_objects:
+        core.append({k: v for k, v in n.items()
+                     if k not in ("description", "description_zh_TW")})
+        entry = {}
+        if n.get("description"):
+            entry["en"] = n["description"]
+        if n.get("description_zh_TW"):
+            entry["zh"] = n["description_zh_TW"]
+        if entry:
+            desc[n["id"]] = entry
+    return core, desc
+
+
+def encode_edges(edge_objects: list[dict]) -> dict:
+    """Int-encode edge objects into the compact {ids, labels, edges} form."""
+    ids = sorted({e["from"] for e in edge_objects} | {e["to"] for e in edge_objects})
+    labels = sorted({e.get("label", "") for e in edge_objects})
+    id_idx = {nid: i for i, nid in enumerate(ids)}
+    label_idx = {lab: i for i, lab in enumerate(labels)}
+    rows = []
+    for e in edge_objects:
+        score = e.get("confidence_score", 0.7)
+        row = [id_idx[e["from"]], id_idx[e["to"]],
+               label_idx.get(e.get("label", ""), 0), score]
+        if e.get("weight", score) != score:
+            row.append(e["weight"])
+        rows.append(row)
+    return {"ids": ids, "labels": labels, "edges": rows}
+
+
+def decode_edges(doc) -> list[dict]:
+    """Inverse of encode_edges (also accepts the legacy list form)."""
+    if isinstance(doc, list):
+        return doc
+    ids, labels = doc["ids"], doc["labels"]
+    out = []
+    for row in doc["edges"]:
+        score = row[3]
+        out.append({
+            "from": ids[row[0]], "to": ids[row[1]],
+            "label": labels[row[2]],
+            "confidence": "EXTRACTED" if score >= _CONFIDENCE_THRESHOLD else "AMBIGUOUS",
+            "confidence_score": score,
+            "weight": row[4] if len(row) > 4 else score,
+        })
+    return out
+
+
 def dataset_counts(web_data_dir: Path) -> dict:
     """Per-dataset node/edge counts for the view-mode slider.
 
@@ -477,7 +553,8 @@ def dataset_counts(web_data_dir: Path) -> dict:
         except Exception:
             nodes = None
         try:
-            edges = len(json.loads(edges_p.read_text(encoding="utf-8")))
+            edges_doc = json.loads(edges_p.read_text(encoding="utf-8"))
+            edges = len(edges_doc["edges"]) if isinstance(edges_doc, dict) else len(edges_doc)
         except Exception:
             edges = None
         return {"nodes": nodes, "edges": edges}

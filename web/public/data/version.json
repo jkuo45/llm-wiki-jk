@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-05 07:06:13",
-  "hash": "b15ba0951b3d5362",
+  "generated": "2026-11-11 08:49:11",
+  "hash": "b2a17c3b971e574d",
   "datasets": {
     "triples": {
       "nodes": 4577,
@@ -29,6 +29,7 @@
     "legend.json",
     "link-prediction.json",
     "manifest.json",
+    "node-desc.json",
     "node_roles.json",
     "nodes.json",
     "notes-tags-zh-TW.json",
@@ -43,6 +44,7 @@
     "triples-edges.json",
     "triples-graph-meta.json",
     "triples-legend.json",
+    "triples-node-desc.json",
     "triples-node_roles.json",
     "triples-nodes.json",
     "triples-roles-meta.json",
@@ -51,6 +53,7 @@
     "wiki-graph-meta.json",
     "wiki-legend.json",
     "wiki-link-prediction.json",
+    "wiki-node-desc.json",
     "wiki-node_roles.json",
     "wiki-nodes.json",
     "wiki-roles-meta.json",
