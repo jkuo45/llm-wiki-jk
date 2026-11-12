@@ -1,7 +1,7 @@
 /* Shared index helpers — single source of truth for articles-index.html
    and tasks-index.html (previously copy-pasted: esc/highlight, query
    parsing, rel-age/bucket, flags overlay URL, reader-navigate announce,
-   debounced search wiring). Load before the page's inline script:
+   reader-driven search query). Load before the page's inline script:
      <script src="themes/shared/index-core.js"></script>
    Exposed as window.IndexCore. */
 window.IndexCore = (function () {
@@ -131,6 +131,122 @@ window.IndexCore = (function () {
     return function () { return asc ? -1 : 1; };
   }
 
+  /* Search for the index cards: the in-page input filters the cards
+     locally AND asks the Reader parent for cross-source hits
+     (Articles+Tasks+Wiki), which render in the dropdown under the
+     search row. Standalone (no parent), the dropdown never populates
+     and the input is a plain local filter. */
+  var readerQuery = "";
+  var readerQueryRender = null;
+  var crossInput = null, crossResults = null, crossItems = [], crossIdx = -1;
+  var crossTimer = null;
+  var KIND_LABELS = { article: "Articles / 文章", task: "Tasks / 任務", wiki: "Wiki / 筆記" };
+
+  function embedded() {
+    try { return !!(window.parent && window.parent !== window); } catch (e) { return false; }
+  }
+  function postCross(msg) {
+    try {
+      if (embedded()) window.parent.postMessage(msg, window.location.origin);
+    } catch (e) { /* standalone view */ }
+  }
+
+  function hideCrossResults() {
+    if (!crossResults) return;
+    crossResults.hidden = true;
+    crossResults.innerHTML = "";
+    crossItems = [];
+    crossIdx = -1;
+    if (crossInput) crossInput.setAttribute("aria-expanded", "false");
+  }
+
+  function renderCrossResults(hits, tokens) {
+    if (!crossResults) return;
+    if (!hits.length) {
+      crossItems = [];
+      crossResults.innerHTML = '<div class="cross-empty">No matches / 沒有符合的結果</div>';
+    } else {
+      var parts = [];
+      ["article", "task", "wiki"].forEach(function (kind) {
+        var group = hits.filter(function (h) { return h.kind === kind; });
+        if (!group.length) return;
+        parts.push('<div class="cross-results-label">' + esc(KIND_LABELS[kind]) + "</div>");
+        parts.push(group.map(function (h) {
+          return '<button type="button" class="cross-item" role="option" data-id="' + esc(h.id) + '">' +
+            '<span class="cross-title">' + (h.starred ? "★ " : "") + highlight(h.title, tokens) + "</span>" +
+            (h.desc ? '<span class="cross-desc">' + highlight(h.desc, tokens) + "</span>" : "") +
+            '<span class="cross-sub">' + esc(h.group) + esc(h.age ? " · " + h.age : "") + "</span>" +
+            "</button>";
+        }).join(""));
+      });
+      crossResults.innerHTML = parts.join("");
+      crossItems = Array.from(crossResults.querySelectorAll(".cross-item"));
+    }
+    crossIdx = -1;
+    crossResults.hidden = false;
+    if (crossInput) crossInput.setAttribute("aria-expanded", "true");
+  }
+
+  function wireReaderSearch(render, input, resultsEl, clearBtn) {
+    readerQueryRender = render;
+    crossInput = input;
+    crossResults = resultsEl;
+    function setQuery(q, fromInput) {
+      readerQuery = q;
+      if (crossInput && crossInput.value !== q) crossInput.value = q;
+      if (!q) hideCrossResults();
+      render();
+      postCross({ type: "reader-search-query", query: q });
+    }
+    var api = { getQuery: function () { return readerQuery; }, setQuery: setQuery };
+    if (crossInput) {
+      crossInput.addEventListener("input", function () {
+        if (clearBtn) clearBtn.hidden = !crossInput.value;
+        clearTimeout(crossTimer);
+        crossTimer = setTimeout(function () { setQuery(crossInput.value, true); }, 150);
+      });
+      crossInput.addEventListener("keydown", function (e) {
+        if (crossResults && crossResults.hidden) return;
+        if (!crossItems.length) return;
+        if (e.key === "ArrowDown") {
+          e.preventDefault();
+          crossIdx = (crossIdx + 1) % crossItems.length;
+        } else if (e.key === "ArrowUp") {
+          e.preventDefault();
+          crossIdx = (crossIdx - 1 + crossItems.length) % crossItems.length;
+        } else if (e.key === "Enter") {
+          e.preventDefault();
+          (crossItems[Math.max(0, crossIdx)] || crossItems[0]).click();
+          return;
+        } else if (e.key === "Escape") {
+          hideCrossResults();
+          return;
+        } else return;
+        crossItems.forEach(function (b, i) { b.classList.toggle("active", i === crossIdx); });
+      });
+    }
+    if (clearBtn) {
+      clearBtn.addEventListener("click", function () {
+        clearTimeout(crossTimer);
+        setQuery("");
+        crossInput.focus();
+      });
+    }
+    if (crossResults) {
+      crossResults.addEventListener("click", function (e) {
+        var item = e.target.closest ? e.target.closest(".cross-item") : null;
+        if (!item) return;
+        hideCrossResults();
+        postCross({ type: "reader-open", id: item.dataset.id });
+      });
+      document.addEventListener("pointerdown", function (e) {
+        var row = crossInput && crossInput.closest ? crossInput.closest(".search-row") : null;
+        if (!crossResults.hidden && row && !row.contains(e.target)) hideCrossResults();
+      }, true);
+    }
+    return api;
+  }
+
   /* Description language for the index cards, driven by the Reader's EN/中
      lang toggle (parent → child `reader-lang` postMessage, announced after
      every frame load and language switch). Cards always exist in both
@@ -140,7 +256,13 @@ window.IndexCore = (function () {
   var descLangRender = null;
   window.addEventListener("message", function (e) {
     if (e.origin !== window.location.origin) return;
-    if (!e.data || e.data.type !== "reader-lang") return;
+    if (!e.data) return;
+    if (e.data.type === "reader-search-results") {
+      var hits = Array.isArray(e.data.hits) ? e.data.hits : [];
+      renderCrossResults(hits, parseQuery(readerQuery));
+      return;
+    }
+    if (e.data.type !== "reader-lang") return;
     var lang = e.data.lang === "zh-TW" ? "zh-TW" : "en-US";
     if (lang === descLang) return;
     descLang = lang;
@@ -204,44 +326,16 @@ window.IndexCore = (function () {
     return '<span class="tag-row">' + html + "</span>";
   }
 
-  /* Delegated click: a pill sets the search query and re-renders; clicking
-     the same pill again clears it (mirrors the clear button — focus the box
-     either way so typing can refine). One listener per list; pills live in
-     the same container the page already delegates other clicks from. */
-  function wireTagPills(list, searchBox, render) {
+  /* Delegated click: a pill sets the shared query and re-renders; clicking
+     the same pill again clears it. */
+  function wireTagPills(list, searchApi, render) {
     list.addEventListener("click", function (e) {
       var btn = e.target.closest ? e.target.closest("button[data-tag]") : null;
       if (!btn || !list.contains(btn)) return;
       var tag = btn.getAttribute("data-tag") || "";
-      searchBox.value = searchBox.value.trim() === tag ? "" : tag;
-      render();
-      searchBox.focus();
+      var q = searchApi.getQuery().trim() === tag ? "" : tag;
+      searchApi.setQuery(q);
     });
-  }
-
-  function restoreQuery(box, key) {
-    try { box.value = sessionStorage.getItem(key) || ""; } catch (e) { /* storage unavailable */ }
-  }
-  function persistQuery(box, key) {
-    try { sessionStorage.setItem(key, box.value); } catch (e) { /* storage unavailable */ }
-  }
-  /* Debounced re-render on input; the query survives navigation via
-     sessionStorage so returning from an article keeps the filter. */
-  function wireSearch(box, clearBtn, storageKey, render) {
-    var timer = null;
-    box.addEventListener("input", function () {
-      clearTimeout(timer);
-      timer = setTimeout(render, 150);
-    });
-    if (clearBtn) {
-      clearBtn.addEventListener("click", function () {
-        box.value = "";
-        clearTimeout(timer);
-        render();
-        box.focus();
-      });
-    }
-    return function cancel() { clearTimeout(timer); };
   }
 
   return {
@@ -262,8 +356,6 @@ window.IndexCore = (function () {
     statChips: statChips,
     tagPills: tagPills,
     wireTagPills: wireTagPills,
-    restoreQuery: restoreQuery,
-    persistQuery: persistQuery,
-    wireSearch: wireSearch,
+    wireReaderSearch: wireReaderSearch,
   };
 })();

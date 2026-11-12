@@ -360,6 +360,7 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
   color: var(--ink-hi); font-size: 13px; padding: 6px 8px; cursor: pointer;
 }
 #reader-select:focus { outline: none; border-color: var(--accent); }
+
 .lang-toggle { display: inline-flex; flex-shrink: 0; background: var(--surface); border: 1px solid var(--line-strong); border-radius: var(--r-sm); overflow: hidden; }
 .lang-toggle button {
   background: transparent; border: none; color: var(--ink-5); font-size: 12px; line-height: 1;

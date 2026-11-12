@@ -67,6 +67,7 @@
       <button type="button" id="searchClear" class="search-clear" title="Clear / 清除" hidden>&times;</button>
       <button type="button" id="sortToggle" class="search-clear sort-toggle" aria-label="Toggle sort order / 切換排序">↓</button>
       <button type="button" id="descToggle" class="search-clear desc-toggle" title="Toggle descriptions / 切換說明" aria-pressed="false">¶</button>
+      <div class="cross-results" id="crossResults" role="listbox" hidden></div>
     </div>
     <div id="taskIndex"></div>
   </div>
@@ -80,23 +81,20 @@
 (function(){
   const { esc, highlight, parseQuery, asStr, relAge, bucket, UPDATED_BUCKETS,
     FLAGS_OVERLAY_ENABLED, flagsUrl, announceNavigate, wireSort, wireDescLang,
-    restoreQuery, persistQuery, wireSearch, statChips, tagPills, wireTagPills } = window.IndexCore;
+    wireReaderSearch, statChips, tagPills, wireTagPills } = window.IndexCore;
   const BUCKETS = UPDATED_BUCKETS;
   const list = document.getElementById('taskIndex');
   const emptyNote = document.getElementById('emptyNote');
   const noMatchNote = document.getElementById('noMatchNote');
   const searchBox = document.getElementById('searchBox');
   const searchClear = document.getElementById('searchClear');
+  const crossResults = document.getElementById('crossResults');
   const descToggle = document.getElementById('descToggle');
-  const SEARCH_KEY = 'tasks-index-search';
   const DESC_KEY = 'tasks-index-desc';
   /* Descriptions hidden by default; the ¶ toggle flips them and remembers
      the choice for the session. */
   let showDesc = false;
   try { showDesc = sessionStorage.getItem(DESC_KEY) === '1'; } catch { /* storage unavailable */ }
-  /* Restore the query from a previous visit so returning from an article
-     keeps the active filter. */
-  restoreQuery(searchBox, SEARCH_KEY);
 
   function matches(t, tokens){
     if (!tokens.length) return true;
@@ -201,8 +199,7 @@
         const zhDesc = getDescLang() === 'zh-TW';
         tasks.forEach(t => { t.desc = zhDesc ? (t.descZh || t.descEn) : (t.descEn || t.descZh); });
         sortTasks();
-        const tokens = parseQuery(searchBox.value);
-        searchClear.hidden = !searchBox.value;
+        const tokens = parseQuery(search.getQuery());
         let shown = 0;
         let html = '';
         BUCKETS.forEach(([label, zhLabel, cls], bi) => {
@@ -216,7 +213,7 @@
               <p class="task-title"><a href="${esc(viewerHref(t.enPath))}" data-task-id="${esc(t.id)}">${highlight(t.display, tokens)}</a></p>
               ${t.zhTitle ? `<p class="task-zh"><a href="${esc(viewerHref(t.zhPath))}" data-task-id="${esc(t.id)}-zh" lang="zh-TW">${highlight(t.zhTitle, tokens)}</a></p>` : ''}
               ${t.desc ? `<p class="task-desc">${highlight(t.desc, tokens)}</p>` : ''}
-              ${tagPills(t.tags, searchBox.value.trim())}
+              ${tagPills(t.tags, search.getQuery().trim())}
               <p class="task-meta">${t.github
                 ? `<a class="task-file" href="${esc(t.github)}" target="_blank" rel="noopener" title="View source on GitHub / 原始檔"><code>${esc(t.file)}</code></a>`
                 : `<code>${esc(t.file)}</code>`}${t.starred ? '<span class="card-star" title="Starred">★</span>' : ''}</p>
@@ -228,20 +225,17 @@
         list.classList.toggle('no-desc', !showDesc);
         descToggle.setAttribute('aria-pressed', showDesc ? 'true' : 'false');
         noMatchNote.hidden = !(tasks.length && !shown && tokens.length);
-        noMatchNote.textContent = `No task outputs match “${searchBox.value.trim()}” / 沒有符合的任務輸出`;
-        persistQuery(searchBox, SEARCH_KEY);
+        noMatchNote.textContent = `No task outputs match “${search.getQuery().trim()}” / 沒有符合的任務輸出`;
       }
+      const search = wireReaderSearch(render, searchBox, crossResults, searchClear);
       render();
 
       emptyNote.hidden = tasks.length > 0;
       if (!tasks.length) emptyNote.textContent = 'No active task outputs found.';
 
-      /* Debounced re-render on input; the query survives navigation via
-         sessionStorage so returning from a task keeps the filter. */
-      wireSearch(searchBox, searchClear, SEARCH_KEY, render);
 
       /* Tag pills (expanded view) set the search filter on click. */
-      wireTagPills(list, searchBox, render);
+      wireTagPills(list, search, render);
 
       descToggle.addEventListener('click', () => {
         showDesc = !showDesc;

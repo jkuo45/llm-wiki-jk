@@ -110,6 +110,7 @@
       <button type="button" id="searchClear" class="search-clear" title="Clear / 清除" hidden>&times;</button>
       <button type="button" id="sortToggle" class="search-clear sort-toggle" aria-label="Toggle sort order / 切換排序">↓</button>
       <button type="button" id="descToggle" class="search-clear desc-toggle" title="Toggle descriptions / 切換說明" aria-pressed="false">¶</button>
+      <div class="cross-results" id="crossResults" role="listbox" hidden></div>
     </div>
     <div id="articleList"></div>
     <p class="empty-note" id="noMatchNote" hidden></p>
@@ -121,24 +122,21 @@
 (function(){
   const { esc, highlight, parseQuery, asStr, relAge, bucket, UPDATED_BUCKETS,
     FLAGS_OVERLAY_ENABLED, flagsUrl, announceNavigate, wireSort, wireDescLang,
-    restoreQuery, persistQuery, wireSearch, statChips } = window.IndexCore;
+    wireReaderSearch, statChips } = window.IndexCore;
   const BUCKETS = UPDATED_BUCKETS;
   const ACCENTS = ['', 'slate', 'forest', 'gold'];
-  const SEARCH_KEY = 'articles-index-search';
   const list = document.getElementById('articleList');
   const emptyNote = document.getElementById('emptyNote');
   const noMatchNote = document.getElementById('noMatchNote');
   const searchBox = document.getElementById('searchBox');
   const searchClear = document.getElementById('searchClear');
+  const crossResults = document.getElementById('crossResults');
   const descToggle = document.getElementById('descToggle');
   const DESC_KEY = 'articles-index-desc';
   /* Descriptions hidden by default; the ¶ toggle flips them and remembers
      the choice for the session. */
   let showDesc = false;
   try { showDesc = sessionStorage.getItem(DESC_KEY) === '1'; } catch { /* storage unavailable */ }
-  /* Restore the query from a previous visit so returning from an article
-     keeps the active filter. */
-  restoreQuery(searchBox, SEARCH_KEY);
 
   function matches(a, tokens){
     if (!tokens.length) return true;
@@ -232,8 +230,7 @@
         const zhDesc = getDescLang() === 'zh-TW';
         articles.forEach(a => { a.desc = zhDesc ? (a.descZh || a.descEn) : (a.descEn || a.descZh); });
         sortArticles();
-        const tokens = parseQuery(searchBox.value);
-        searchClear.hidden = !searchBox.value;
+        const tokens = parseQuery(search.getQuery());
         let shown = 0;
         let html = '';
         BUCKETS.forEach(([label, zhLabel, cls], bi) => {
@@ -256,14 +253,10 @@
         list.classList.toggle('no-desc', !showDesc);
         descToggle.setAttribute('aria-pressed', showDesc ? 'true' : 'false');
         noMatchNote.hidden = !(articles.length && !shown && tokens.length);
-        noMatchNote.textContent = `No articles match “${searchBox.value.trim()}” / 沒有符合的文章`;
-        persistQuery(searchBox, SEARCH_KEY);
+        noMatchNote.textContent = `No articles match “${search.getQuery().trim()}” / 沒有符合的文章`;
       }
+      const search = wireReaderSearch(render, searchBox, crossResults, searchClear);
       render();
-
-      /* Debounced re-render on input; the query survives navigation via
-         sessionStorage so returning from an article keeps the filter. */
-      wireSearch(searchBox, searchClear, SEARCH_KEY, render);
 
       descToggle.addEventListener('click', () => {
         showDesc = !showDesc;

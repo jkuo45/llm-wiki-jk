@@ -115,6 +115,28 @@
 }
 .search-row input:focus { outline: none; border-color: var(--oxblood); }
 .search-row input::placeholder { color: var(--faint); }
+/* Cross-source results dropdown (parent-computed hits, rendered here).
+   Absolute under the sticky search row so it overlays the cards. */
+.cross-results {
+  position: absolute; top: calc(100% + 2px); left: 4px; right: 4px;
+  max-height: 50vh; overflow-y: auto; z-index: 6;
+  background: var(--sheet); border: 1px solid var(--rule); border-radius: 2px;
+}
+.cross-results-label {
+  padding: 8px 10px 4px; font-family: var(--mono); font-size: 11px;
+  color: var(--mute); text-transform: uppercase; letter-spacing: 0.04em;
+}
+.cross-item {
+  display: flex; flex-direction: column; gap: 2px; width: 100%;
+  background: transparent; border: none; text-align: left;
+  padding: 8px 10px; cursor: pointer; color: var(--ink);
+  font-family: var(--mono); font-size: 12px;
+}
+.cross-item:hover, .cross-item.active { background: var(--paper); }
+.cross-item .cross-title { font-size: 13px; font-weight: 700; }
+.cross-item .cross-desc { color: var(--mute); }
+.cross-item .cross-sub { color: var(--faint); font-size: 11px; }
+.cross-empty { padding: 10px; font-family: var(--mono); font-size: 12px; color: var(--mute); }
 .search-clear {
   flex: none; width: 32px; height: 32px; line-height: 1;
   font-size: 16px; color: var(--mute); background: var(--sheet);

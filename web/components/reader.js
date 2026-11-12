@@ -372,6 +372,88 @@ function setLangToggleFor(article) {
 }
 
 // ------------------------------------------------------------
+// Cross-source metadata search backend (Articles + Tasks + Wiki)
+// The index pages own the search input; they post `reader-search-query`
+// here and this module replies with ranked hits (title / description /
+// tags / id across every registry, both languages). The index page
+// renders the dropdown and posts `reader-open` for the chosen hit.
+// Full body text is not indexed.
+// ------------------------------------------------------------
+
+// One entry per group (en/zh editions merged): title/desc/tags/id of
+// every edition lowercased into a single haystack per field tier, so
+// ranking can weight title hits over description hits.
+let searchIndex = null;
+function buildSearchIndex() {
+  if (searchIndex) return searchIndex;
+  const byGroup = new Map();
+  for (const a of ALL_ROWS) {
+    let e = byGroup.get(a.group);
+    if (!e) {
+      e = { group: a.group, kind: a.kind, rows: [], starred: false,
+        titleHay: '', descHay: '', idHay: '' };
+      byGroup.set(a.group, e);
+    }
+    e.rows.push(a);
+    e.starred = e.starred || !!a.starred;
+    e.titleHay += ' ' + (a.title || '');
+    e.descHay += ' ' + (a.description || '') + ' ' + ((a.tags || []).join(' '));
+    e.idHay += ' ' + a.group + ' ' + a.id;
+  }
+  for (const e of byGroup.values()) {
+    e.titleHay = e.titleHay.toLowerCase();
+    e.descHay = e.descHay.toLowerCase();
+    e.idHay = e.idHay.toLowerCase();
+    e.updated = latestUpdated(e.group);
+  }
+  searchIndex = [...byGroup.values()];
+  return searchIndex;
+}
+
+function searchEntries(tokens) {
+  const scored = [];
+  for (const e of buildSearchIndex()) {
+    let score = 0;
+    let ok = true;
+    for (const tok of tokens) {
+      // Every token must hit somewhere; title hits rank highest.
+      if (e.titleHay.includes(tok)) score += 3;
+      else if (e.descHay.includes(tok)) score += 2;
+      else if (e.idHay.includes(tok)) score += 1;
+      else { ok = false; break; }
+    }
+    if (ok) scored.push({ e, score: score + (e.starred ? 2 : 0) });
+  }
+  return scored
+    .sort((x, y) => (y.score - x.score) || (y.e.updated || '').localeCompare(x.e.updated || ''))
+    .slice(0, 24)
+    .map((s) => s.e);
+}
+
+// Answer an index page's `reader-search-query`: ranked hits in the
+// Reader's current language edition, posted back for in-page render.
+function replySearchHits(query) {
+  const tokens = String(query || '').trim().toLowerCase().split(/\s+/).filter(Boolean);
+  const hits = tokens.length ? searchEntries(tokens).map((e) => {
+    const lang = currentArticle().lang;
+    const row = resolveForGroup(e.group, lang) || e.rows[0];
+    const desc = (row.description || '').replace(/\s+/g, ' ').trim();
+    return {
+      id: row.id,
+      group: e.group,
+      kind: e.kind,
+      title: row.title || e.group,
+      desc: desc.length > 140 ? desc.slice(0, 140).trimEnd() + '…' : desc,
+      starred: e.starred,
+      age: e.updated ? relativeAge(e.updated) : '',
+    };
+  }) : [];
+  try {
+    frame.contentWindow.postMessage({ type: 'reader-search-results', query, hits }, window.location.origin);
+  } catch (e) { /* frame not ready */ }
+}
+
+// ------------------------------------------------------------
 // Open / close (exported for graph.js hash restore)
 // `restore = true` for hash-restore/popstate: reconcile the session
 // stack to the current article instead of pushing a new entry.
@@ -524,6 +606,17 @@ window.addEventListener('message', (e) => {
     if (state.readerSection === sec) return;
     state.readerSection = sec;
     updateHash();
+    return;
+  }
+  if (e.data.type === 'reader-search-query') {
+    if (!isReaderOpen() || e.source !== frame.contentWindow) return;
+    replySearchHits(typeof e.data.query === 'string' ? e.data.query : '');
+    return;
+  }
+  if (e.data.type === 'reader-open') {
+    if (!isReaderOpen() || e.source !== frame.contentWindow) return;
+    const article = getArticle(e.data.id);
+    if (article) openReader(article.id, { section: null });
     return;
   }
   if (e.data.type !== 'reader-navigate') return;
