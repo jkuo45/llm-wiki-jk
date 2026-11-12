@@ -2,7 +2,7 @@
 title: Senolytics
 description: A class of small molecules and peptides that selectively induce death in senescent cells by targeting senescent cell anti-apoptotic pathways (SCAPs).
 created: 2024-01-01
-updated: 2026-09-02
+updated: 2026-11-11
 tags:
   - pharmacological-action
   - senescence
@@ -73,6 +73,9 @@ Senolytic outcomes are **strikingly sex- and age-dependent**, and no single agen
 - [[SASP|Senescence-Associated Secretory Phenotype]]
 - [[Senescent cell anti-apoptotic pathways|SCAPs]]
 
+> [!info] Source: [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026]]
+> Senolytic efficacy requires confirmation beyond feasibility studies: a randomized phase II trial of [[Dasatinib|dasatinib]] plus [[Quercetin|quercetin]] in 60 postmenopausal women found no significant between-group difference in its primary bone-resorption endpoint at 20 weeks.
+
 ## Documents
 
 - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review frames senolytics as agents that target SCAPs to selectively push senescent cells into apoptosis while sparing healthy cells, thereby reducing the SASP burden and inflammaging. By eliminating the secreting cell rather than only the secretome, they complement senomorphics and address senescence-driven pathology across aging and disease models.
@@ -81,6 +84,7 @@ Senolytic outcomes are **strikingly sex- and age-dependent**, and no single agen
 
   - [[_document_ - cellular_senescence_ipf_diseases-14-00201|Cellular Senescence in IPF (Baurzhan et al., 2026)]]
     - Senolytics (D+Q, procyanidin C1) reduce senescent cell burden and attenuate experimental lung fibrosis; a D+Q IPF pilot improved physical function.
+- [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026 — Mitochondrial dysfunction and inflammaging]]: Reports the randomized phase II senolytic trial null endpoint.
 
 ## Connections
 

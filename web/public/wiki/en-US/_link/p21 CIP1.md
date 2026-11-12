@@ -4,7 +4,7 @@ description: p21CIP1 (encoded by CDKN1A) is a cyclin-dependent kinase inhibitor
   that mediates DNA damage-induced cell cycle arrest and supports an early immunosurveillance SASP
   profile.
 created: 2026-07-07
-updated: 2026-09-19
+updated: 2026-11-11
 tags:
   - protein
   - senescence
@@ -64,6 +64,9 @@ CDKN1A is a canonical p53 target; its loss cooperates with p53 mutation in tumou
 
 #
 
+> [!info] Source: [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026]]
+> In MiDAS, p21 mediates the stable G1 arrest downstream of the AMPK–p53 axis, while the same axis blunts the IL-1/NF-κB-driven SASP arm.
+
 ## Documents
 
 List of documents that mention this entity
@@ -76,6 +79,7 @@ List of documents that mention this entity
 
   - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
     - Lists p21 (CDKN1A) with p27/p57 as CDK inhibitors gating G0/G1 via Cyclin–CDK and Rb control.
+- [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026 — Mitochondrial dysfunction and inflammaging]]: Positions p21 as the effector of MiDAS growth arrest downstream of AMPK–p53.
 
 ## Connections
 - [[Senescence]] — p21 is a core effector of DNA damage-induced cell cycle arrest

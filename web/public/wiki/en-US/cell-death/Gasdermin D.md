@@ -3,7 +3,7 @@ title: Gasdermin D
 description: A pore-forming effector protein cleaved by inflammatory caspases to execute pyroptosis and drive IL-1 family cytokine release.
 protected: true
 created: 2026-07-25
-updated: 2026-11-09
+updated: 2026-11-11
 tags: [protein, cell-death, inflammation, inflammasome]
 url: #
 source: #
@@ -42,9 +42,13 @@ GSDMD is a promising therapeutic target for inflammatory and infectious diseases
 > Source: [[_document_ - Neutrophil Extracellular Traps in Host Defense]]
 > GSDMD is the shared executioner of [[Suicidal NETosis]] and [[Noncanonical NETosis]], and its inhibition is proposed as a therapeutic route in NET-associated disease (Chen et al. 2018; Sollberger et al. 2018). During PMA-induced suicidal NETosis, [[Neutrophil Elastase]] cleaves GSDMD to GSDMD-p30, which forms pores in granule and plasma membranes; a GSDMD inhibitor blocked PMA-induced NETosis without affecting NADPH oxidase, NE, or MPO function. During noncanonical NETosis, [[Caspase-4]]/[[Caspase-11]] cleave GSDMD; GSDMD-p30 pores permeabilize nuclear and granule membranes and allow caspase-11 nuclear access to degrade histones. GSDMD-p30 also binds cardiolipin, phosphatidylinositol phosphates, and phosphatidylserine and directly targets bacterial membranes, while GSDMD-dependent [[NLRP3]] activation drives [[IL-1β]] secretion that recruits neutrophils to kill NET-entrapped bacteria. [[Vital NETosis]] is the GSDMD-independent, membrane-preserving arm.
 
+> [!info] Source: [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026]]
+> GSDMD can act on mitochondrial membranes in a [[Cardiolipin|cardiolipin]]-dependent manner, promoting depolarization, ROS production, mitochondrial permeabilization, and release of mitochondrial DAMPs that further amplify pyroptotic signalling.
+
 ## Documents
 - [[_document_ - Neutrophil Extracellular Traps in Host Defense]] — Burgener & Schroder 2020 review identifying GSDMD as the convergent NETosis executioner and GSDMD inhibitors as candidate NET-disease therapeutics.
 - The knowledge-graph triple contexts (caspase-cleaves-GSDMD / NLRP3 inflammasome entries) were the source for this entity note.
+- [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026 — Mitochondrial dysfunction and inflammaging]]: Adds cardiolipin-dependent mitochondrial permeabilization by GSDMD as an amplification loop.
 
 ## Connections
 - [[Caspase-5]]: Cleaves GSDMD in noncanonical inflammasome signaling, releasing the pore-forming fragment.

@@ -9658,5 +9658,103 @@
     "source_document": "task_output_major_research_gaps_review_03_Nov_2026.md",
     "created": "2026-11-10T16:49:16Z",
     "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "70208019a7ca",
+    "subject": "Whole-Blood NAD+",
+    "predicate": "does_not_decline_with",
+    "object": "Aging",
+    "context": {
+      "en-US": "Tretowicz et al. quantified whole-blood NAD+ across seven independent human cohorts with a validated UHPLC-high-resolution mass spectrometry method and found whole-blood NAD+ remained stable with age and across lifestyle interventions, challenging the utility of blood NAD+ as a biomarker of ageing.",
+      "zh-TW": "Tretowicz 等人以驗證過的 UHPLC-高解析質譜方法，在七個獨立人類世代中定量全血 NAD+，發現全血 NAD+ 隨年齡與生活型態介入而保持穩定，質疑血液 NAD+ 作為衰老生物標誌的效用。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_whole_blood_nad_biomarker_viewpoint_10_Nov_2026.md",
+    "created": "2026-11-12T02:37:47Z",
+    "updated": "2026-11-12T02:37:47Z"
+  },
+  {
+    "id": "2dcb9bae3adf",
+    "subject": "Whole-Blood NAD+",
+    "predicate": "tracks",
+    "object": "Cardiovascular Disease",
+    "context": {
+      "en-US": "Romenskaja-Avgul et al. studied 1,068 adults and found whole-blood NAD tracks cardiovascular disease but not chronological age: reduced NAD was identified in cardiovascular disease and hypertension in both sexes, while healthy males showed no association with age.",
+      "zh-TW": "Romenskaja-Avgul 等人研究 1,068 名成人，發現全血 NAD 追蹤心血管疾病而非實際年齡：在兩性中，心血管疾病與高血壓患者均顯示 NAD 降低，而健康男性與年齡無關聯。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_whole_blood_nad_biomarker_viewpoint_10_Nov_2026.md",
+    "created": "2026-11-12T02:37:47Z",
+    "updated": "2026-11-12T02:37:47Z"
+  },
+  {
+    "id": "0942a497a631",
+    "subject": "Whole-Blood NAD+",
+    "predicate": "is_higher_in",
+    "object": "Males",
+    "context": {
+      "en-US": "In the Romenskaja-Avgul cohort, males had higher whole-blood NAD than females (P = 5.0 x 10^-13), retaining the male-greater-than-female baseline difference even though healthy-ageing trajectories were flat in males and rising in females.",
+      "zh-TW": "Romenskaja-Avgul 世代中，男性全血 NAD 高於女性（P = 5.0 x 10^-13）；雖然健康衰老的變化軌跡在男性為平坦、在女性為上升，男性較高的基準差異仍存在。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_whole_blood_nad_biomarker_viewpoint_10_Nov_2026.md",
+    "created": "2026-11-12T02:37:47Z",
+    "updated": "2026-11-12T02:37:47Z"
+  },
+  {
+    "id": "ecc2ad40144b",
+    "subject": "Nicotinamide Riboside",
+    "predicate": "increases",
+    "object": "Whole-Blood NAD+",
+    "context": {
+      "en-US": "Whole-blood NAD+ increased after nicotinamide riboside supplementation (twin-pair cohort escalated from 250 mg/day to 1 g/day over 5 months), confirming whole-blood NAD+ as a target-engagement marker but not as a marker of ageing or lifestyle.",
+      "zh-TW": "補充菸鹼醯胺核糖苷後全血 NAD+ 上升（雙胞胎世代在 5 個月內由每日 250 mg 增至 1 g），證實全血 NAD+ 是標靶結合標誌，但不是衰老或生活型態的標誌。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_whole_blood_nad_biomarker_viewpoint_10_Nov_2026.md",
+    "created": "2026-11-12T02:37:47Z",
+    "updated": "2026-11-12T02:37:47Z"
+  },
+  {
+    "id": "d28f3e22705e",
+    "subject": "Whole-Blood NAD+",
+    "predicate": "does_not_reflect",
+    "object": "Tissue NAD+",
+    "context": {
+      "en-US": "Gardell and Baur argue that blood NAD provides an incomplete view of systemic NAD metabolism and fails to capture heterogeneity across blood and solid tissues, so whole-blood NAD levels do not reliably reflect NAD homeostasis in other tissues.",
+      "zh-TW": "Gardell 與 Baur 指出，血液 NAD 僅提供全身 NAD 代謝的不完整視圖，無法反映血液與實體組織間的異質性，因此全血 NAD 濃度無法可靠反映其他組織的 NAD 穩態。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_whole_blood_nad_biomarker_viewpoint_10_Nov_2026.md",
+    "created": "2026-11-12T02:37:47Z",
+    "updated": "2026-11-12T02:37:47Z"
+  },
+  {
+    "id": "8296defa1edb",
+    "subject": "Nicotinamide Riboside",
+    "predicate": "failed_to_improve",
+    "object": "Parkinson's Disease",
+    "context": {
+      "en-US": "The phase 3 NOPARK randomised trial gave 410 participants with early Parkinson disease oral nicotinamide riboside 500 mg twice daily or placebo for 52 weeks; the adjusted between-group difference on the MDS-UPDRS was 2.72 points favouring placebo, with no clinical benefit despite increased NAD metabolism.",
+      "zh-TW": "第三期 NOPARK 隨機試驗納入 410 名早期 Parkinson's Disease 患者，口服菸鹼醯胺核糖苷每日兩次 500 mg 或安慰劑，52 週；MDS-UPDRS 評分的調整後組間差異為 2.72 分， favor 安慰劑——儘管 NAD 代謝增加，仍無臨床益處。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_whole_blood_nad_biomarker_viewpoint_10_Nov_2026.md",
+    "created": "2026-11-12T02:37:47Z",
+    "updated": "2026-11-12T02:37:47Z"
+  },
+  {
+    "id": "b76e463bd9fa",
+    "subject": "Hypertension",
+    "predicate": "reduces",
+    "object": "Whole-Blood NAD+",
+    "context": {
+      "en-US": "Stratification of the chronic-disease group identified reduced whole-blood NAD in cardiovascular disease and hypertension in both sexes, and the authors propose that rising hypertension prevalence with age may account for previously reported age-related NAD trajectories in unstratified cohorts.",
+      "zh-TW": "對慢性病組分層分析發現，兩性中心血管疾病與高血壓患者的確全血 NAD 降低；作者提出，隨年齡上升的高血壓盛行率可能解釋了先前未分層世代中報告的年齡相關 NAD 變化軌跡。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_whole_blood_nad_biomarker_viewpoint_10_Nov_2026.md",
+    "created": "2026-11-12T02:37:47Z",
+    "updated": "2026-11-12T02:37:47Z"
   }
 ]

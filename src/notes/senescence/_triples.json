@@ -8398,5 +8398,229 @@
     "source_document": "_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence.md",
     "created": "2026-11-11T22:18:05Z",
     "updated": "2026-11-11T22:18:05Z"
+  },
+  {
+    "id": "85d3c9755863",
+    "subject": "Dapansutrile",
+    "predicate": "inhibits",
+    "object": "Caspase-1",
+    "context": {
+      "en-US": "Dapansutrile binds the NLRP3 NACHT domain and inhibits NLRP3 ATPase activity, blocking inflammasome assembly and thereby preventing Caspase-1 activation, the downstream effector of NLRP3-driven IL-1beta and IL-18 maturation.",
+      "zh-TW": "Dapansutrile 結合 NLRP3 NACHT 結構域並抑制 NLRP3 ATP 酶活性，阻斷發炎小體組裝，從而防止 Caspase-1 活化——即 NLRP3 驅動的 IL-1β 與 IL-18 成熟的下游效應蛋白。"
+    },
+    "confidence": 0.9,
+    "source_document": "Dapansutrile.md",
+    "created": "2026-11-12T02:37:47Z",
+    "updated": "2026-11-12T02:37:47Z"
+  },
+  {
+    "id": "4ec54a2b17c3",
+    "subject": "Dapansutrile",
+    "predicate": "prevents_maturation_of",
+    "object": "IL-1β",
+    "context": {
+      "en-US": "By acting on the NLRP3 activation (second-signal) step rather than on priming, dapansutrile prevents maturation of IL-1beta and IL-18, the cytokine outputs of NLRP3 inflammasome signalling in inflammatory tissue injury.",
+      "zh-TW": "Dapansutrile 作用於 NLRP3 活化（第二訊號）步驟而非啟動步驟，防止 IL-1β 與 IL-18 成熟——即發炎組織損傷中 NLRP3 發炎小體訊號的細胞因子產物。"
+    },
+    "confidence": 0.9,
+    "source_document": "Dapansutrile.md",
+    "created": "2026-11-12T02:37:47Z",
+    "updated": "2026-11-12T02:37:47Z"
+  },
+  {
+    "id": "d35ae28b2117",
+    "subject": "Dapansutrile",
+    "predicate": "prevents_cleavage_of",
+    "object": "Gasdermin D",
+    "context": {
+      "en-US": "Dapansutrile prevents Gasdermin D cleavage that would otherwise execute pyroptosis; NLRP3-driven pyroptotic signalling contributes to tissue injury in inflammatory conditions such as gout flares, where the drug showed preliminary target engagement in an open-label phase 2a trial.",
+      "zh-TW": "Dapansutrile 可防止 Gasdermin D 的切割——該切割若發生將執行焦亡；NLRP3 驅動的焦亡訊號有助於發炎組織損傷（如痛風發作）；dapansutrile 在一項開放標記第二期試驗中顯示初步的標靶結合證據。"
+    },
+    "confidence": 0.9,
+    "source_document": "Dapansutrile.md",
+    "created": "2026-11-12T02:37:47Z",
+    "updated": "2026-11-12T02:37:47Z"
+  },
+  {
+    "id": "1e66dbb4db62",
+    "subject": "MCC950",
+    "predicate": "precedes",
+    "object": "Dapansutrile",
+    "context": {
+      "en-US": "Dapansutrile represents the class of selective NLRP3 inhibitors succeeding MCC950, and is a candidate strategy for age-related sterile inflammation where mitochondrial dysfunction supplies the NLRP3 second signal.",
+      "zh-TW": "Dapansutrile 代表了繼 MCC950 之後的新一代選擇性 NLRP3 抑制劑；當粒線體功能障礙提供 NLRP3 第二訊號時，可作為治療年齡相關無菌性發炎的候選策略。"
+    },
+    "confidence": 0.9,
+    "source_document": "Dapansutrile.md",
+    "created": "2026-11-12T02:37:47Z",
+    "updated": "2026-11-12T02:37:47Z"
+  },
+  {
+    "id": "f19f9c4f2e31",
+    "subject": "Formyl Peptide Receptor",
+    "predicate": "recruits",
+    "object": "Neutrophils",
+    "context": {
+      "en-US": "Formyl peptide receptors are G-protein-coupled receptors on innate immune cells that recognize N-formyl peptides; their engagement triggers chemotaxis of neutrophils, macrophages, and other myeloid cells, linking mitochondrial injury to innate immune recruitment and sterile inflammation.",
+      "zh-TW": "甲醯基胜肽受體是先天免疫細胞上的 G 蛋白偶聯受體，可辨識 N-甲醯基胜肽；其活化觸發嗜中性白血球、巨噬細胞及其他骨髓系細胞的趨化作用，將粒線體損傷與先天免疫細胞募集及無菌性發炎連結起來。"
+    },
+    "confidence": 0.9,
+    "source_document": "Formyl Peptide Receptor.md",
+    "created": "2026-11-12T02:37:47Z",
+    "updated": "2026-11-12T02:37:47Z"
+  },
+  {
+    "id": "44ec48daf9d2",
+    "subject": "Formyl Peptide Receptor",
+    "predicate": "facilitates",
+    "object": "NLRP3",
+    "context": {
+      "en-US": "In the context of mitochondrial dysfunction, formyl peptide receptor signalling amplifies inflammatory responses by facilitating NLRP3 activation and redox-sensitive transcriptional programmes, creating a feed-forward loop in which inflammation further damages mitochondria.",
+      "zh-TW": "在粒線體功能障礙的背景下，甲醯基胜肽受體訊號透過促進 NLRP3 活化及氧化還原敏感的轉錄程式來放大發炎反應，形成正回饋迴路，使發炎進一步損傷粒線體。"
+    },
+    "confidence": 0.9,
+    "source_document": "Formyl Peptide Receptor.md",
+    "created": "2026-11-12T02:37:47Z",
+    "updated": "2026-11-12T02:37:47Z"
+  },
+  {
+    "id": "c5d5f9fa75f9",
+    "subject": "Formyl Peptide Receptor",
+    "predicate": "contributes_to",
+    "object": "Inflammaging",
+    "context": {
+      "en-US": "Formyl peptide receptors form part of an interconnected mitochondrial-DAMP sensing network with TLR9, the cGAS-STING pathway, and NLRP3; in ageing, persistent mitochondrial dysfunction favours repeated DAMP release, contributing to chronic sterile inflammation and inflammaging.",
+      "zh-TW": "甲醯基胜肽受體與 TLR9、cGAS-STING 通路及 NLRP3 共同構成互連的粒線體 DAMP 感測網絡；在衰老過程中，持續的粒線體功能障礙促進反覆的 DAMP 釋放，導致慢性無菌性發炎與發炎性衰老。"
+    },
+    "confidence": 0.9,
+    "source_document": "Formyl Peptide Receptor.md",
+    "created": "2026-11-12T02:37:47Z",
+    "updated": "2026-11-12T02:37:47Z"
+  },
+  {
+    "id": "5fced39cb16d",
+    "subject": "Mitochondrial RNA",
+    "predicate": "is_transcribed_from",
+    "object": "Mitochondrial DNA",
+    "context": {
+      "en-US": "Mitochondrial RNA comprises the transcripts of the mitochondrial genome — mRNAs, rRNAs, and tRNAs — produced by mitochondrial transcription and translation and compartmentalized within the mitochondrial matrix under homeostatic conditions.",
+      "zh-TW": "粒線體 RNA 包括粒線體基因體的轉錄物——mRNA、rRNA 與 tRNA——由粒線體轉錄與轉譯產生，在穩態下分隔於粒線體基質中。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial RNA.md",
+    "created": "2026-11-12T02:37:47Z",
+    "updated": "2026-11-12T02:37:47Z"
+  },
+  {
+    "id": "9b7264cc6061",
+    "subject": "Mitochondrial RNA",
+    "predicate": "is_a_type_of",
+    "object": "Damage-Associated Molecular Patterns",
+    "context": {
+      "en-US": "Under mitochondrial stress, exposed mitochondrial RNA species, including double-stranded RNA, act as damage-associated molecular patterns; because mitochondria retain bacterial ancestry, their nucleic acids carry microbe-like features that activate innate immunity even without infection.",
+      "zh-TW": "在粒線體壓力下，暴露的粒線體 RNA 物種（包括雙股 RNA）作為損傷相關分子模式作用；由於粒線體保留細菌祖源，其核酸帶有類微生物特徵，即使沒有感染也能活化先天免疫。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial RNA.md",
+    "created": "2026-11-12T02:37:47Z",
+    "updated": "2026-11-12T02:37:47Z"
+  },
+  {
+    "id": "16303e5e5e95",
+    "subject": "Mitochondrial RNA",
+    "predicate": "contributes_to",
+    "object": "Inflammaging",
+    "context": {
+      "en-US": "Mitochondrial RNA escapes when mitochondrial membranes become permeable and mitophagy fails; in ageing, declining quality control and accumulation of damaged organelles facilitate persistent nucleic-acid leakage and inflammaging.",
+      "zh-TW": "當粒線體膜通透性增加且粒線體自噬失效時，粒線體 RNA 會洩漏；在衰老過程中，品質控制下降及損傷細胞器累積促進持續的核酸洩漏與發炎性衰老。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial RNA.md",
+    "created": "2026-11-12T02:37:47Z",
+    "updated": "2026-11-12T02:37:47Z"
+  },
+  {
+    "id": "ea9d2342ea30",
+    "subject": "Mitochondrial-Derived Vesicles",
+    "predicate": "delivers_cargo_to",
+    "object": "Lysosome",
+    "context": {
+      "en-US": "Mitochondrial-derived vesicles bud from mitochondrial membranes and carry selected mitochondrial cargo — proteins, lipids, and nucleic acids — to lysosomes for degradation, providing a selective disposal route that operates alongside mitophagy.",
+      "zh-TW": "粒線體衍生囊泡自粒線體膜芽生，攜帶選定的粒線體貨物——蛋白質、脂質與核酸——至溶酶體進行降解，提供與粒線體自噬並行運作的選擇性清除途徑。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial-Derived Vesicles.md",
+    "created": "2026-11-12T02:37:47Z",
+    "updated": "2026-11-12T02:37:47Z"
+  },
+  {
+    "id": "54a390870a6f",
+    "subject": "Mitochondrial-Derived Vesicles",
+    "predicate": "exports_cargo_via",
+    "object": "Extracellular Vesicles",
+    "context": {
+      "en-US": "MDVs can deliver oxidized or damaged mitochondrial components to lysosomes, complementing mitophagy when the mitophagic load exceeds capacity, or export cargo via extracellular vesicles; by exporting selected mitochondrial cargo, MDVs can either limit DAMP release or propagate inflammatory signalling.",
+      "zh-TW": "MDV 可將氧化或損傷的粒線體成分運送至溶酶體，在粒線體自噬負荷超過容量時補充後者，或經由細胞外囊泡輸出貨物；透過輸出選定的粒線體貨物，MDV 可限制 DAMP 釋放或傳播發炎訊號。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial-Derived Vesicles.md",
+    "created": "2026-11-12T02:37:47Z",
+    "updated": "2026-11-12T02:37:47Z"
+  },
+  {
+    "id": "bb847b7b48ac",
+    "subject": "Mitochondrial-Derived Vesicles",
+    "predicate": "contributes_to",
+    "object": "Inflammaging",
+    "context": {
+      "en-US": "In ageing, declining mitochondrial quality control and lysosomal function may shift the MDV balance toward DAMP export, favouring persistent activation of TLR9, the cGAS-STING pathway, and NLRP3 and contributing to inflammaging.",
+      "zh-TW": "在衰老過程中，粒線體品質控制與溶酶體功能下降可能使 MDV 的平衡偏向 DAMP 輸出，促進 TLR9、cGAS-STING 通路及 NLRP3 的持續活化，並導致發炎性衰老。"
+    },
+    "confidence": 0.9,
+    "source_document": "Mitochondrial-Derived Vesicles.md",
+    "created": "2026-11-12T02:37:47Z",
+    "updated": "2026-11-12T02:37:47Z"
+  },
+  {
+    "id": "db373bcefd11",
+    "subject": "N-Formyl Peptides",
+    "predicate": "is_a_type_of",
+    "object": "Damage-Associated Molecular Patterns",
+    "context": {
+      "en-US": "N-formyl peptides are short peptides derived from mitochondrial translation products; because mitochondrial protein synthesis initiates with N-formylmethionine as in bacteria, these peptides retain bacterial-like immunogenic features and function as damage-associated molecular patterns when released from damaged mitochondria.",
+      "zh-TW": "N-甲醯基胜肽是源自粒線體轉譯產物的短胜肽；由於粒線體蛋白質合成如同細菌般由 N-甲醯基甲硫氨酸起始，這些胜肽保留具細菌樣的免疫原性特徵，在自損傷粒線體釋放時作為損傷相關分子模式作用。"
+    },
+    "confidence": 0.9,
+    "source_document": "N-Formyl Peptides.md",
+    "created": "2026-11-12T02:37:47Z",
+    "updated": "2026-11-12T02:37:47Z"
+  },
+  {
+    "id": "df6208d754ca",
+    "subject": "N-Formyl Peptides",
+    "predicate": "amplifies",
+    "object": "NLRP3",
+    "context": {
+      "en-US": "N-formyl peptides signal through formyl peptide receptors, recruiting and activating innate immune cells, and strongly amplify inflammatory signalling, facilitating NLRP3 activation, redox-sensitive transcriptional responses, and further mitochondrial damage.",
+      "zh-TW": "N-甲醯基胜肽經由甲醯基胜肽受體訊號傳導，募集並活化先天免疫細胞，並強力放大發炎訊號，促進 NLRP3 活化、氧化還原敏感的轉錄反應及進一步的粒線體損傷。"
+    },
+    "confidence": 0.9,
+    "source_document": "N-Formyl Peptides.md",
+    "created": "2026-11-12T02:37:47Z",
+    "updated": "2026-11-12T02:37:47Z"
+  },
+  {
+    "id": "09f1726b000a",
+    "subject": "N-Formyl Peptides",
+    "predicate": "contributes_to",
+    "object": "Inflammaging",
+    "context": {
+      "en-US": "Together with mtDNA, mtRNA, cardiolipin, and mitochondrial ROS, N-formyl peptides link mitochondrial injury to innate immune activation; their release during mitochondrial dysfunction and defective mitophagy contributes to the persistent inflammatory tone of inflammaging.",
+      "zh-TW": "N-甲醯基胜肽與 mtDNA、mtRNA、心磷脂及粒線體 ROS 共同將粒線體損傷與先天免疫活化連結；其在粒線體功能障礙及粒線體自噬缺陷期間的釋放，有助於發炎性衰老的持續發炎狀態。"
+    },
+    "confidence": 0.9,
+    "source_document": "N-Formyl Peptides.md",
+    "created": "2026-11-12T02:37:47Z",
+    "updated": "2026-11-12T02:37:47Z"
   }
 ]

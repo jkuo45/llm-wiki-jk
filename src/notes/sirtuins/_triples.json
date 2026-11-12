@@ -15580,5 +15580,47 @@
     "source_document": "_document_ - Sirtuins at a glance.md",
     "created": "2026-11-10T00:00:00Z",
     "updated": "2026-11-10T00:00:00Z"
+  },
+  {
+    "id": "11328b038feb",
+    "subject": "POMC",
+    "predicate": "is_cleaved_into",
+    "object": "ACTH",
+    "context": {
+      "en-US": "POMC is a precursor polypeptide that is proteolytically cleaved, via PC1/3 and PC2, into biologically active peptides including adrenocorticotropic hormone (ACTH), alpha-melanocyte-stimulating hormone, and beta-endorphin.",
+      "zh-TW": "POMC 是一種前體多肽，可經 PC1/3 與 PC2 蛋白水解切割為具生物活性的胜肽，包括促腎上腺皮質激素（ACTH）、α-黑素細胞刺激激素與 β-內啡肽。"
+    },
+    "confidence": 0.9,
+    "source_document": "POMC.md",
+    "created": "2026-11-12T02:37:47Z",
+    "updated": "2026-11-12T02:37:47Z"
+  },
+  {
+    "id": "de2285a54699",
+    "subject": "SIRT1",
+    "predicate": "regulates",
+    "object": "POMC",
+    "context": {
+      "en-US": "SIRT1 expression is induced in arcuate hypothalamic POMC neurons during dietary restriction, where SIRT1 regulates feeding behaviors and is required for homeostatic defenses against diet-induced obesity.",
+      "zh-TW": "在飲食限制期間，SIRT1 表現於弓狀核下視丘 POMC 神經元中上調；SIRT1 調節攝食行為，且為抵抗飲食誘導肥胖的穩態防禦所必需。"
+    },
+    "confidence": 0.9,
+    "source_document": "POMC.md",
+    "created": "2026-11-12T02:37:47Z",
+    "updated": "2026-11-12T02:37:47Z"
+  },
+  {
+    "id": "5502e9d0f4b6",
+    "subject": "POMC",
+    "predicate": "expressed_in",
+    "object": "Hypothalamus",
+    "context": {
+      "en-US": "Arcuate hypothalamic POMC neurons are a central node of energy homeostasis and feeding behavior, placing hypothalamic POMC-neuron SIRT1 at the center of SIRT1's neuronal control of feeding under caloric restriction and fasting.",
+      "zh-TW": "弓狀核下視丘 POMC 神經元是能量穩態與攝食行為的中樞節點；下視丘 POMC 神經元中的 SIRT1 位於 SIRT1 在熱量限制與禁食下對攝食的神經調控核心。"
+    },
+    "confidence": 0.9,
+    "source_document": "POMC.md",
+    "created": "2026-11-12T02:37:47Z",
+    "updated": "2026-11-12T02:37:47Z"
   }
 ]

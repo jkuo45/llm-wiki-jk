@@ -1,18 +1,18 @@
 {
-  "generated": "2026-11-11 08:49:11",
-  "hash": "b2a17c3b971e574d",
+  "generated": "2026-11-11 18:43:52",
+  "hash": "663ac957d5242f5b",
   "datasets": {
     "triples": {
-      "nodes": 4577,
-      "edges": 12116
+      "nodes": 4756,
+      "edges": 12589
     },
     "wiki": {
-      "nodes": 3553,
-      "edges": 46474
+      "nodes": 3625,
+      "edges": 47441
     },
     "combined": {
-      "nodes": 4943,
-      "edges": 50628
+      "nodes": 5068,
+      "edges": 51812
     }
   },
   "files": [

@@ -1,70 +1,70 @@
 # Triples vs Wiki Graph Diff
 
-- Triples graph: `/Users/johnnykuo/Projects/llm-wiki-jk/graphify-out/graph.json` (4577 nodes, 12116 edges)
-- Wiki graph:    `/Users/johnnykuo/Projects/llm-wiki-jk/wiki-out/graph.json` (3553 nodes, 46474 edges)
+- Triples graph: `/Users/johnnykuo/Projects/llm-wiki-jk/graphify-out/graph.json` (4756 nodes, 12589 edges)
+- Wiki graph:    `/Users/johnnykuo/Projects/llm-wiki-jk/wiki-out/graph.json` (3625 nodes, 47441 edges)
 
 ## Node overlap
 
-- **Shared** (in both): 3187
-- **Wiki-only** (linked, no triple): 366
-- **Triples-only** (triple, no wikilink): 1390
+- **Shared** (in both): 3313
+- **Wiki-only** (linked, no triple): 312
+- **Triples-only** (triple, no wikilink): 1443
 
 ## Edge overlap
 
-- Overlap is classified by (source, target) pair, relation-agnostic. Unique pairs: triples 11262 / wiki 46474 — the triples graph carries 12116 links over 11262 pairs (854 parallel-relation links preserved by the MultiDiGraph rebuild).
+- Overlap is classified by (source, target) pair, relation-agnostic. Unique pairs: triples 11716 / wiki 47441 — the triples graph carries 12589 links over 11716 pairs (873 parallel-relation links preserved by the MultiDiGraph rebuild).
 
-- **Wiki-only pairs** (under-extracted triples / curation gaps): 39366
-- **Triples-only pairs** (not surfaced as a wikilink): 4154
+- **Wiki-only pairs** (under-extracted triples / curation gaps): 40096
+- **Triples-only pairs** (not surfaced as a wikilink): 4371
 
 ## Top 20 wiki-only nodes (linked but absent from triples)
 
 | Node | Degree |
 | --- | --- |
 | Histone Variant | 72 |
-| Chronic Inflammation | 72 |
 | Kidney Diseases | 69 |
 | Epigenetics and aging | 67 |
 | NAFLD | 66 |
 | FASN | 58 |
 | Endocytosis | 55 |
-| Immunity | 54 |
+| Immunity | 55 |
 | MET | 54 |
-| Growth Factor Receptor | 52 |
 | Receptor Tyrosine Kinases | 52 |
 | Membrane Trafficking | 52 |
+| Growth Factor Receptor | 52 |
 | Embryogenesis | 48 |
 | Intestine | 46 |
 | Radiotherapy | 45 |
 | Angiotensin II Type 1 Receptor | 44 |
 | Helminth | 43 |
 | Cytokine Storm | 42 |
+| Rac GTPase | 42 |
 | High-fat Diet | 40 |
-| Rac GTPase | 40 |
+| Histone H2A | 40 |
 
 ## Top 20 triples-only nodes (triple but no wikilink)
 
 | Node | Degree |
 | --- | --- |
+| MOMP | 21 |
+| mtDNA | 15 |
 | Adrenochrome formation | 11 |
+| Females | 10 |
 | ROS | 10 |
-| Females | 9 |
-| Nonselective Cation Channel | 5 |
+| Whole-Blood NAD+ | 6 |
 | Sodium Chloride | 5 |
-| Mice | 4 |
+| Nonselective Cation Channel | 5 |
+| Physical Activity | 4 |
+| slow COMT | 4 |
 | COMT Val158 allele | 4 |
 | Lysosomal Storage Disorders | 4 |
-| Physical Activity | 4 |
-| SIRT1 and SIRT2 | 4 |
 | JAK-STAT3 | 4 |
-| slow COMT | 4 |
+| SIRT1 and SIRT2 | 4 |
 | Biphasic Dose Response | 4 |
+| Mice | 4 |
 | Radiation Therapy | 3 |
-| catechol flavonoid | 3 |
-| H3K9 | 3 |
-| Antioxidant Properties | 3 |
 | SIRT7 depletion | 3 |
-| PI3K/Akt | 3 |
-| Streptomyces avermectinius | 3 |
+| H3K9 | 3 |
+| Cutaneous Melanoma | 3 |
 
 ## Top 20 wiki-only edges (suggest extracting as triples)
 

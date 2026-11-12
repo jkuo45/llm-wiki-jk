@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-11-05T15:05:43Z",
-  "node_count": 3553,
-  "edge_count": 46474,
+  "generated_at": "2026-11-12T02:43:22Z",
+  "node_count": 3625,
+  "edge_count": 47441,
   "reference_links": {
     "document_notes": {
-      "total_targets": 146,
-      "total_links": 4507
+      "total_targets": 151,
+      "total_links": 4765
     },
     "task_outputs": {
-      "total_targets": 29,
-      "total_links": 170
+      "total_targets": 30,
+      "total_links": 174
     }
   },
-  "total_orphan_targets": 6549,
-  "total_orphan_links": 12445,
+  "total_orphan_targets": 6545,
+  "total_orphan_links": 12410,
   "top_targets": [
     {
       "norm_id": "document_mitohormetic_redox_relay",
@@ -66,11 +66,6 @@
       "link_count": 10
     },
     {
-      "norm_id": "p_selectin",
-      "raw": "p_selectin",
-      "link_count": 10
-    },
-    {
       "norm_id": "document_dgcr8_is_essential_for_microrna_biogenesis_and_silencing_of_embryonic_stem_cell_self_renewal",
       "raw": "document_dgcr8_is_essential_for_microrna_biogenesis_and_silencing_of_embryonic_stem_cell_self_renewal",
       "link_count": 10
@@ -111,6 +106,11 @@
       "link_count": 8
     },
     {
+      "norm_id": "sirpalpha",
+      "raw": "sirpalpha",
+      "link_count": 8
+    },
+    {
       "norm_id": "carboplatin",
       "raw": "carboplatin",
       "link_count": 8
@@ -131,8 +131,18 @@
       "link_count": 8
     },
     {
+      "norm_id": "cd28",
+      "raw": "cd28",
+      "link_count": 8
+    },
+    {
       "norm_id": "lc3_associated_phagocytosis",
       "raw": "lc3_associated_phagocytosis",
+      "link_count": 8
+    },
+    {
+      "norm_id": "adalimumab",
+      "raw": "adalimumab",
       "link_count": 8
     },
     {
@@ -236,11 +246,6 @@
       "link_count": 7
     },
     {
-      "norm_id": "ulcerative_colitis",
-      "raw": "ulcerative_colitis",
-      "link_count": 7
-    },
-    {
       "norm_id": "dengue",
       "raw": "dengue",
       "link_count": 7
@@ -258,11 +263,6 @@
     {
       "norm_id": "carboxymethyllysine",
       "raw": "carboxymethyllysine",
-      "link_count": 7
-    },
-    {
-      "norm_id": "rpn4",
-      "raw": "rpn4",
       "link_count": 7
     }
   ]

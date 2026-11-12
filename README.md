@@ -5,20 +5,20 @@
 <!-- GENERATED: summary_table -->
 | topic | updated | documents | entities | words | disk |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 10_NOV_2026 | 35 | 2143 | 1,526,545 | 18.50 MB |
+| [_link](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/_link) [[src/notes/_link/README\|wiki]] | 11_NOV_2026 | 35 | 2147 | 1,531,099 | 18.54 MB |
 | [adrenochrome](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 29_OCT_2026 | 19 | 258 | 202,027 | 2.65 MB |
 | [autophagy](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 23_OCT_2026 | 12 | 235 | 188,595 | 1.74 MB |
-| [cancer](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 23_OCT_2026 | 11 | 285 | 260,064 | 3.01 MB |
-| [cell-death](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cell-death) [[src/notes/cell-death/README\|wiki]] | 09_NOV_2026 | 13 | 105 | 132,558 | 1.91 MB |
+| [cancer](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 11_NOV_2026 | 11 | 284 | 259,541 | 3.01 MB |
+| [cell-death](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cell-death) [[src/notes/cell-death/README\|wiki]] | 11_NOV_2026 | 13 | 105 | 132,899 | 1.92 MB |
 | [comt](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/comt) [[src/notes/comt/README\|wiki]] | 21_OCT_2026 | 2 | 45 | 28,241 | 0.54 MB |
 | [epigenetics](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]] | 23_OCT_2026 | 8 | 227 | 209,647 | 2.25 MB |
 | [hormesis](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/hormesis) [[src/notes/hormesis/README\|wiki]] | 21_OCT_2026 | 7 | 16 | 69,625 | 0.63 MB |
 | [neuromelanin](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/neuromelanin) [[src/notes/neuromelanin/README\|wiki]] | 21_OCT_2026 | 2 | 91 | 64,406 | 0.80 MB |
 | [oxidative-stress](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/oxidative-stress) [[src/notes/oxidative-stress/README\|wiki]] | 10_NOV_2026 | 1 | 105 | 91,860 | 1.16 MB |
-| [senescence](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 10_NOV_2026 | 18 | 88 | 180,548 | 2.54 MB |
+| [senescence](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 11_NOV_2026 | 19 | 89 | 188,568 | 2.67 MB |
 | [sirtuins](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 10_NOV_2026 | 21 | 176 | 323,561 | 4.10 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 10_NOV_2026 | **149** | **3774** | **3,277,677** | **39.85 MB** |
+| **subtotal** | 11_NOV_2026 | **150** | **3778** | **3,290,069** | **40.01 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***
@@ -34,11 +34,11 @@
 
 | Dataset | `web/public/data/` files | Nodes | Edges |
 | :--- | :--- | ---: | ---: |
-| **Combined** *(default)* | `nodes.json, edges.json, edge-context.json, legend.json, graph-meta.json, node_roles.json, roles-meta.json` | 4,943 | 3 |
-| **Triples** | `triples-*.json` | 4,577 | 3 |
-| **Wiki** | `wiki-*.json` | 3,553 | 3 |
+| **Combined** *(default)* | `nodes.json, edges.json, edge-context.json, legend.json, graph-meta.json, node_roles.json, roles-meta.json` | 5,068 | 3 |
+| **Triples** | `triples-*.json` | 4,756 | 3 |
+| **Wiki** | `wiki-*.json` | 3,625 | 3 |
 
-Build: 11_NOV_2026 · hash `b2a17c3b971e574d`
+Build: 11_NOV_2026 · hash `663ac957d5242f5b`
 <!-- END GENERATED: graph_datasets -->
 
 ## 📝 Updates
@@ -179,8 +179,9 @@ Build: 11_NOV_2026 · hash `b2a17c3b971e574d`
 ## Documents
 
 <details>
-<summary><strong>Documents (149 total)</strong> — click to expand</summary>
+<summary><strong>Documents (150 total)</strong> — click to expand</summary>
 
+- `senescence`: [Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and...](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/_document_%20-%20Mitochondrial%20dysfunction%20and%20inflammaging%20a%20mechanistic%20bridge%20between%20bioenergetic%20failure%20and%20senescence.md) [[src/notes/senescence/_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence.md|wiki]] (11_NOV_2026 02:46 PM PST)
 - `senescence`: [Cytotoxic CD4 T cells induce age-associated myelopoiesis through CCL5-CCR5 signaling](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/_document_%20-%20Cytotoxic%20CD4%20T%20cells%20induce%20age-associated%20myelopoiesis%20through%20CCL5-CCR5%20signaling.md) [[src/notes/senescence/_document_ - Cytotoxic CD4 T cells induce age-associated myelopoiesis through CCL5-CCR5 signaling.md|wiki]] (10_NOV_2026 06:42 PM PST)
 - `sirtuins`: [Sirtuins at a glance](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/_document_%20-%20Sirtuins%20at%20a%20glance.md) [[src/notes/sirtuins/_document_ - Sirtuins at a glance.md|wiki]] (10_NOV_2026 05:55 PM PST)
 - `_link`: [The bleeding edge of NAD in human ageing](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/_document_%20-%20The%20bleeding%20edge%20of%20NAD%20in%20human%20ageing.md) [[src/notes/_link/_document_ - The bleeding edge of NAD in human ageing.md|wiki]] (10_NOV_2026 02:29 PM PST)

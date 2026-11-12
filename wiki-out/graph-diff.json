@@ -1,29 +1,24 @@
 {
-  "generated_at": "2026-11-11T08:49:11Z",
+  "generated_at": "2026-11-11T18:43:53Z",
   "triples_graph": "/Users/johnnykuo/Projects/llm-wiki-jk/graphify-out/graph.json",
   "wiki_graph": "/Users/johnnykuo/Projects/llm-wiki-jk/wiki-out/graph.json",
   "counts": {
-    "triples_nodes": 4577,
-    "wiki_nodes": 3553,
-    "shared_nodes": 3187,
-    "wiki_only_nodes": 366,
-    "triples_only_nodes": 1390,
-    "triples_edges": 12116,
-    "wiki_edges": 46474,
-    "triples_edge_pairs": 11262,
-    "wiki_edge_pairs": 46474,
-    "wiki_only_edges": 39366,
-    "triples_only_edges": 4154
+    "triples_nodes": 4756,
+    "wiki_nodes": 3625,
+    "shared_nodes": 3313,
+    "wiki_only_nodes": 312,
+    "triples_only_nodes": 1443,
+    "triples_edges": 12589,
+    "wiki_edges": 47441,
+    "triples_edge_pairs": 11716,
+    "wiki_edge_pairs": 47441,
+    "wiki_only_edges": 40096,
+    "triples_only_edges": 4371
   },
   "top_wiki_only_nodes": [
     {
       "id": "histone_variant",
       "label": "Histone Variant",
-      "degree": 72
-    },
-    {
-      "id": "chronic_inflammation",
-      "label": "Chronic Inflammation",
       "degree": 72
     },
     {
@@ -54,17 +49,12 @@
     {
       "id": "immunity",
       "label": "Immunity",
-      "degree": 54
+      "degree": 55
     },
     {
       "id": "met",
       "label": "MET",
       "degree": 54
-    },
-    {
-      "id": "growth_factor_receptor",
-      "label": "Growth Factor Receptor",
-      "degree": 52
     },
     {
       "id": "receptor_tyrosine_kinases",
@@ -74,6 +64,11 @@
     {
       "id": "membrane_trafficking",
       "label": "Membrane Trafficking",
+      "degree": 52
+    },
+    {
+      "id": "growth_factor_receptor",
+      "label": "Growth Factor Receptor",
       "degree": 52
     },
     {
@@ -107,21 +102,41 @@
       "degree": 42
     },
     {
+      "id": "rac_gtpase",
+      "label": "Rac GTPase",
+      "degree": 42
+    },
+    {
       "id": "high_fat_diet",
       "label": "High-fat Diet",
       "degree": 40
     },
     {
-      "id": "rac_gtpase",
-      "label": "Rac GTPase",
+      "id": "histone_h2a",
+      "label": "Histone H2A",
       "degree": 40
     }
   ],
   "top_triples_only_nodes": [
     {
+      "id": "momp",
+      "label": "MOMP",
+      "degree": 21
+    },
+    {
+      "id": "mtdna",
+      "label": "mtDNA",
+      "degree": 15
+    },
+    {
       "id": "adrenochrome_formation",
       "label": "Adrenochrome formation",
       "degree": 11
+    },
+    {
+      "id": "females",
+      "label": "Females",
+      "degree": 10
     },
     {
       "id": "ros",
@@ -129,14 +144,9 @@
       "degree": 10
     },
     {
-      "id": "females",
-      "label": "Females",
-      "degree": 9
-    },
-    {
-      "id": "nonselective_cation_channel",
-      "label": "Nonselective Cation Channel",
-      "degree": 5
+      "id": "whole_blood_nad",
+      "label": "Whole-Blood NAD+",
+      "degree": 6
     },
     {
       "id": "sodium_chloride",
@@ -144,8 +154,18 @@
       "degree": 5
     },
     {
-      "id": "mice",
-      "label": "Mice",
+      "id": "nonselective_cation_channel",
+      "label": "Nonselective Cation Channel",
+      "degree": 5
+    },
+    {
+      "id": "physical_activity",
+      "label": "Physical Activity",
+      "degree": 4
+    },
+    {
+      "id": "slow_comt",
+      "label": "slow COMT",
       "degree": 4
     },
     {
@@ -159,8 +179,8 @@
       "degree": 4
     },
     {
-      "id": "physical_activity",
-      "label": "Physical Activity",
+      "id": "jak_stat3",
+      "label": "JAK-STAT3",
       "degree": 4
     },
     {
@@ -169,18 +189,13 @@
       "degree": 4
     },
     {
-      "id": "jak_stat3",
-      "label": "JAK-STAT3",
-      "degree": 4
-    },
-    {
-      "id": "slow_comt",
-      "label": "slow COMT",
-      "degree": 4
-    },
-    {
       "id": "biphasic_dose_response",
       "label": "Biphasic Dose Response",
+      "degree": 4
+    },
+    {
+      "id": "mice",
+      "label": "Mice",
       "degree": 4
     },
     {
@@ -189,8 +204,8 @@
       "degree": 3
     },
     {
-      "id": "catechol_flavonoid",
-      "label": "catechol flavonoid",
+      "id": "sirt7_depletion",
+      "label": "SIRT7 depletion",
       "degree": 3
     },
     {
@@ -199,23 +214,8 @@
       "degree": 3
     },
     {
-      "id": "antioxidant_properties",
-      "label": "Antioxidant Properties",
-      "degree": 3
-    },
-    {
-      "id": "sirt7_depletion",
-      "label": "SIRT7 depletion",
-      "degree": 3
-    },
-    {
-      "id": "pi3k_akt",
-      "label": "PI3K/Akt",
-      "degree": 3
-    },
-    {
-      "id": "streptomyces_avermectinius",
-      "label": "Streptomyces avermectinius",
+      "id": "cutaneous_melanoma",
+      "label": "Cutaneous Melanoma",
       "degree": 3
     }
   ],

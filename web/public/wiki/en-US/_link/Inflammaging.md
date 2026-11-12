@@ -4,7 +4,7 @@ description: Inflammaging is a state of chronic, low-grade, systemic inflammatio
   that develops with advanced age and is a major risk factor for many age-related
   diseases.
 created: 2026-05-29
-updated: 2026-11-10
+updated: 2026-11-11
 tags:
   - biological-process
 aliases: []
@@ -72,9 +72,10 @@ Strategies to reduce inflammaging include [[Autophagy Inducer|autophagy inductio
 - Post-menopausal estrogen replacement (e.g., the KEEPS trial) reduced circulating SASP/senescence biomarkers (GDF15, TNFR1, FAS), supporting estrogen's repressive role in vivo (Raz et al., *Physiol Rep* 2020).
 - The sex-disparate onset of age-related inflammatory diseases (cardiovascular, neurodegenerative) converges on this cliff: males get there earlier via a higher PARP-driven NAD⁺ drain and basal NF-κB tone (see [[NAD+]]); females arrive via estrogen withdrawal.
 
-#
 
-# 
+
+> [!info] Source: [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026]]
+> Mitochondrial dysfunction is both a driver and an amplifier of inflammaging: it promotes senescence, fuels sterile inflammation through [[Damage-Associated Molecular Patterns|mitochondrial DAMP]] release, and undermines tissue repair. Persistent cytosolic [[Mitochondrial DNA|mtDNA]]–[[cGAS-STING Pathway|cGAS–STING]] signalling can sustain a SASP-like programme rather than a transient antiviral response.
 
 ## Documents
 - [[_document_ - Cytotoxic CD4 T cells induce age-associated myelopoiesis through CCL5-CCR5 signaling|Cytotoxic CD4 T cells induce age-associated myelopoiesis (Nat Aging 2026)]]: Nat Aging 2026 links inflammaging to hematopoietic aging: cytotoxic CD4+ T cells with mitochondrial stress produce CCL5 via STING, driving myelopoiesis and neutrophil-mediated paracrine senescence; maraviroc lowers multiple inflammaging cytokines in aged mice.
@@ -107,6 +108,7 @@ List of documents that mention this entity
 
   - [[_document_ - Mitochondrial Drivers Stem Cell Aging Inflammaging Bautista 2026]]
     - Comprehensive review establishing mitochondrial dysfunction as an upstream driver of inflammaging via mtDNA/mtDAMP release, cGAS–STING activation, NAD+ depletion, and quality control failure.
+- [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026 — Mitochondrial dysfunction and inflammaging]]: Synthesizes mitochondrial dysfunction as an upstream driver of inflammaging via mtDAMP release, cGAS–STING/NLRP3 sensing, MiDAS, and failure of mitochondrial quality control.
 
 ## Connections
 - [[Aging]] — progressive decline in physiological function; primary risk factor

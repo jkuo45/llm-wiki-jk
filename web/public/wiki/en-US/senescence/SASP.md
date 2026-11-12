@@ -5,7 +5,7 @@ description: The senescence-associated secretory phenotype (SASP) is a complex
   lipids, extracellular vesicles, and non-coding nucleic acids secreted by senescent
   cells, mediating paracrine and systemic effects on the tissue microenvironment.
 created: 2024-01-01
-updated: 2026-09-15
+updated: 2026-11-11
 tags:
   - biological-process
   - senescence
@@ -304,6 +304,9 @@ Circulating SASP factors ([[IL-6]], [[IL-8]], [[MMP-9]], [[PAI-1]]) serve as bio
 
 # 
 
+> [!info] Source: [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026]]
+> MiDAS shows that the SASP is not uniform: the AMPK–p53 axis maintains p21-dependent arrest while suppressing the IL-1–dependent inflammatory arm, yielding a rewired secretome; cytosolic mtDNA–[[cGAS-STING Pathway|cGAS–STING]] signalling can instead sustain a SASP-like programme with type I interferon output.
+
 ## Documents
 
 List of documents that mention this entity
@@ -351,6 +354,7 @@ List of documents that mention this entity
 
   - [[_document_ - Mitochondrial metabolism and epigenetic crosstalk drive SASP|Mitochondrial metabolism and epigenetic crosstalk drive SASP]]
     - Demonstrates that mitochondrial pyruvate→citrate→acetyl-CoA export (MPC/SLC25A1/ACLY) supplies the acetyl-CoA for H3K27ac at SASP loci; SLC25A1 inhibition with CTPI2 selectively suppresses the SASP and improves healthspan in aged mice, via a mechanism separable from mtDNA–cGAS–STING signaling.
+- [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026 — Mitochondrial dysfunction and inflammaging]]: Distinguishes the rewired MiDAS secretome from canonical and cGAS–STING-driven SASP programmes.
 
 ## Connections
 - [[Senescence]] — the SASP is the effector arm of the senescence program

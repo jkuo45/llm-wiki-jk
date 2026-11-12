@@ -2,7 +2,7 @@
 title: NLRP3
 description: 'NOD-like receptor pyrin domain-containing protein 3 (NLRP3, cryopyrin), the sensor component of the NLRP3 inflammasome. It is a tripartite PYD-NACHT-LRR protein activated by a two-step priming-then-activation process that culminates in caspase-1 activation and pyroptosis.'
 created: 2026-07-04
-updated: 2026-10-01
+updated: 2026-11-11
 tags:
   - protein
   - inflammation
@@ -52,9 +52,13 @@ The priming/activation split explains the pharmacology: gene-expression-suppress
 >
 > **Therapeutics.** Beyond MCC950 and its relatives, the target space includes P2X7 antagonists, K⁺-efflux-independent NEK7 inhibition, gasdermin D pore blockers, and — most relevant to ageing — upstream interventions that restore mitochondrial quality and reduce ROS, of which [[Mitophagy]] and SIRT3 activation are the leading examples.
 
+> [!info] Source: [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026]]
+> [[NLRP3]] and [[Caspase-1]] associate with [[Cardiolipin|cardiolipin]]-rich mitochondrial membranes, making mitochondria a platform for inflammasome assembly; mitophagic clearance of damaged mitochondria restrains NLRP3 activation, and mitochondrial ROS lower the activation threshold.
+
 ## Documents
 
 - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]] — states the two-step priming/activation model, describes TLR4→NF-κB-driven NLRP3 upregulation with IL-1β/IL-18/TNF-α generation, and reports SIRT1/SIRT3 attenuation of NLRP3 activity via reduced ROS plus the mitophagy-blockade → mitochondrial ROS → NLRP3 route.
+- [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026 — Mitochondrial dysfunction and inflammaging]]: Describes mitochondria as a cardiolipin-rich assembly platform for NLRP3/caspase-1 and mitophagy as a restraint on NLRP3 activation.
 
 ## Connections
 
