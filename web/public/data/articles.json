@@ -148,6 +148,25 @@
         "updated": "2026-09-09"
     },
     {
+        "id": "adrenochrome-articles-and-figures",
+        "active": true,
+        "weight": 100,
+        "langs": {
+            "en-US": {
+                "title": "Adrenochrome - Articles, figures, images (index)",
+                "description": "Topic index of the adrenochrome wiki: 19 documents with citations plus a gallery of 33 figures from 14 open-access sources — aminochrome neurotoxicity, AGEs, NAD+ precursors, and methemoglobinemia.",
+                "path": "pages/en-US/adrenochrome-articles-and-figures.html"
+            },
+            "zh-TW": {
+                "title": "腎上腺色素 — 文章中的圖像與圖表",
+                "description": "adrenochrome 主題索引：19 份附引文的文件，以及來自 14 個開放取用來源的 33 張圖表圖庫——胺基色素神經毒性、AGEs、NAD+ 前驅物與高鐵血紅蛋白血症。",
+                "path": "pages/zh-TW/adrenochrome-articles-and-figures.html"
+            }
+        },
+        "created": "2026-11-11",
+        "updated": "2026-11-11"
+    },
+    {
         "id": "node-analysis-examples-biology",
         "active": true,
         "langs": {
