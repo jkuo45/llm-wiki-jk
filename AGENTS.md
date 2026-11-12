@@ -273,6 +273,15 @@ Edge `context`/`context_zh_TW` prose is **not** in the edges files — it lives 
 re-inline prose or re-add edge `color`/`created`/`updated`/`sources` when
 touching the data pipeline.
 
+Node `description`/`description_zh_TW` prose is likewise **not** in the nodes
+files — it lives in `node-desc.json` / `wiki-node-desc.json` /
+`triples-node-desc.json` (`{id: {en, zh}}`), fetched lazily in the background.
+Edges files are int-encoded `{ids, labels, edges: [[from, to, labelIdx, score,
+weight?]]}` (NOT a list of objects) — decode with
+`scripts.lib.graph_common.decode_edges()`; `confidence` is derived from the
+score (>= 0.7 → EXTRACTED), never stored. Keep both prose and endpoint strings
+out of the critical-path files.
+
 ```bash
 # Triples graph + triples-* web files (graphify-out/, web/public/data/)
 uv run --with graphifyy --with networkx --with scipy python3 -m scripts rebuild-triples
