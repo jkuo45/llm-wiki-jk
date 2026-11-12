@@ -2,7 +2,7 @@
 title: Mitochondrial Quality Control
 description: The collective cellular mechanisms that maintain mitochondrial homeostasis, including mitochondrial dynamics (fission/fusion), mitophagy, mitochondrial biogenesis, and proteostasis within the organelle.
 created: 2026-07-16
-updated: 2026-07-16
+updated: 2026-11-11
 tags:
   - entity-type-1
   - process
@@ -20,6 +20,9 @@ Mitochondrial quality control encompasses the integrated network of processes th
 > [!info] Source: [[_document_ - Mitochondrial dysfunction in cellular senescence a bridge to neurodegenerative disease]]
 > Impaired mitochondrial quality control is a central feature of [[Senescence|senescence]]. Senescent cells exhibit reduced mitophagy (driven by [[PINK1]]/[[Parkin]]/[[p62]] pathway impairment), downregulation of fission machinery ([[DRP1]]/[[FIS1]]), and altered fusion dynamics, leading to accumulation of dysfunctional, elongated mitochondria that produce excessive [[Reactive Oxygen Species|ROS]]. These defects reinforce the senescent phenotype and promote the [[SASP]] through [[NLRP3]] inflammasome and [[JNK]] signaling.
 
+> [!info] Source: [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026]]
+> Effective mitochondrial quality control requires completion of lysosomal degradation; impaired acidification or proteolytic activity limits turnover despite upstream [[Mitophagy]] signals. [[Mitochondrial-Derived Vesicles|Mitochondrial-derived vesicles]] provide an additional selective cargo-disposal route. Failure of these systems favours persistent [[NLRP3]] activation and [[Inflammaging|inflammaging]].
+
 ## Connections
 
 - [[Mitophagy]] — Autophagic clearance of damaged mitochondria; impaired in senescence
@@ -33,3 +36,8 @@ Mitochondrial quality control encompasses the integrated network of processes th
 
 - New links added: [[Mitophagy]], [[Mitochondrial Dynamics]], [[PINK1]], [[Parkin]], [[DRP1]], [[FIS1]], [[Senescence]], [[SASP]]
 - Suggested new entity notes to create: None
+
+
+## Documents
+
+- [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026 — Mitochondrial dysfunction and inflammaging]]: Adds the lysosomal-degradation requirement, MDVs, and the link between quality-control failure and NLRP3-driven inflammaging.

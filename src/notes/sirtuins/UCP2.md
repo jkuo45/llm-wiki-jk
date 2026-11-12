@@ -2,7 +2,7 @@
 title: UCP2
 description: UCP2 (Uncoupling Protein 2) is a mitochondrial inner membrane transporter protein belonging to the family of mitochondrial uncoupling proteins, which uncouple oxygen consumption from ATP synthesis by facilitating proton leak across the inner mitochondrial membrane.
 created: 2026-07-03
-updated: 2026-07-31
+updated: 2026-11-10
 tags:
   - protein
 aliases:
@@ -37,6 +37,9 @@ UCP2 is highly expressed in the central nervous system, where it plays a neuropr
 Beyond β-cells and neurons, UCP2 modulates immune cell metabolism, macrophage inflammatory polarization, and fatty acid oxidation. Its dual roles — coupling efficiency in endocrine pancreas versus redox protection in brain — make UCP2 a versatile node in the [[NAD+]]–sirtuin metabolic network and a participant in [[Aging]] and longevity physiology.
 
 ## Documents
+
+- [[_document_ - Sirtuins at a glance|Sirtuins at a Glance (Nakagawa & Guarente 2011)]]
+  - *J. Cell Sci.* Cell Science at a Glance: SIRT1 across chromatin, metabolism, inflammation, cardiovascular, cancer and brain; NAD+ biosynthesis/circadian regulation via NAMPT.
 
 List of documents that mention this entity
 

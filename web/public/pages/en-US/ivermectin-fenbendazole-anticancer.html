@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>[Preclinical] Ivermectin × Fenbendazole (complementary mechanisms)</title>
-<meta name="description" content="Two repurposed antiparasitics attacking different nodes of cancer biology — ivermectin at kinase/signalling hubs, fenbendazole at structural/metabolic machinery — presented as an interactive synthesis of a candidate drug-repositioning combination.">
+<meta name="description" content="Two repurposed antiparasitics targeting different nodes of cancer biology — ivermectin at kinase/signalling hubs, fenbendazole at structural/metabolic machinery — presented as an interactive synthesis of a candidate drug-repositioning combination.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
 <link rel="stylesheet" href="../themes/theme-01/pages.css">
 <link rel="stylesheet" href="../themes/theme-01/pages-light.css" id="theme-light">
@@ -37,11 +37,11 @@
     <div class="kicker">Interactive explainer · llm-wiki-jk</div>
     <h1>Ivermectin × Fenbendazole — Complementary Anticancer Mechanisms &amp; the Sirtuin Connection <span class="badge preclinical" style="vertical-align:middle; font-size:.58rem;">Preclinical</span></h1>
     <p class="lead" style="margin-top:14px;">
-      Two repurposed antiparasitics attack <b style="color:var(--text)">fundamentally different nodes of cancer biology</b> —
+      Two repurposed antiparasitics target <b style="color:var(--text)">different nodes of cancer biology</b> —
       ivermectin at <b style="color:var(--teal)">kinase / signaling hubs</b>, fenbendazole at
-      <b style="color:var(--orange)">structural / metabolic machinery</b>. Their primary mechanisms barely overlap, which is precisely why
+      <b style="color:var(--orange)">structural / metabolic machinery</b>. Their primary mechanisms barely overlap, which is why
       they are discussed as a potential drug-repositioning combination. This page turns the task-output synthesis into interactive charts,
-      then traces where the <b style="color:var(--blue)">sirtuins</b> — the NAD<sup>+</sup>-coupled metabolic rheostat — intersect the pair.
+      then traces where the <b style="color:var(--blue)">sirtuins</b> — NAD<sup>+</sup>-coupled metabolic regulators — intersect the pair.
     </p>
     <div class="meta">
       Source synthesis: <code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md" target="_blank">src/tasks/task_output_ivermectin_fenbendazole_mechanisms_28_JULY_2026.md</a></code> ·
@@ -63,8 +63,8 @@
 <!-- OVERVIEW -->
 <section id="overview">
   <div class="wrap">
-    <h2>The complementary thesis: one drug removes signals, the other removes machinery</h2>
-    <p class="lead" style="margin-bottom:20px;">Complementarity, not redundancy, is the entire basis of the pairing.</p>
+    <h2>The complementary thesis: one drug degrades signaling hubs, the other destabilizes structural/metabolic machinery</h2>
+    <p class="lead" style="margin-bottom:20px;">Complementarity, not redundancy, is the basis of the pairing.</p>
     <div class="grid g3">
       <div class="card">
         <h3 style="color:var(--teal)">Ivermectin — signaling &amp; kinase hubs</h3>
@@ -82,11 +82,11 @@
         </p>
       </div>
       <div class="card">
-        <h3 style="color:var(--amber)">Why pairing makes sense</h3>
+        <h3 style="color:var(--amber)">Rationale for pairing</h3>
         <p style="color:var(--dim); font-size:.9rem;">
-          Kinase-addicted cells fall to ivermectin; metabolically-addicted cells fall to fenbendazole. Their downstream effects <i>converge</i>
-          on mitochondria, redox, cell cycle and metabolism — from different doors — while ivermectin's P-gp blockade and fenbendazole's
-          NADPH/glutathione collapse make the two a potential dose-sparing, resistance-averse pair.
+          Ivermectin acts on cells dependent on kinase signaling; fenbendazole on cells dependent on glycolytic metabolism. Their downstream
+          effects <i>converge</i> on mitochondria, redox, cell cycle and metabolism via distinct upstream targets, while ivermectin's P-gp
+          blockade and fenbendazole's NADPH/glutathione depletion make the pair potentially dose-sparing and resistance-limiting.
         </p>
       </div>
     </div>
@@ -112,10 +112,11 @@
   <div class="wrap">
     <h2>Antiparasitic origin → repositioned anticancer mechanisms</h2>
     <p class="lead" style="margin-bottom:18px;">
-      Ivermectin did not start as an anticancer drug. The graph trace (<code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_ivermectin_cancer_14_JUL_2026.md" target="_blank">src/tasks/task_output_ivermectin_cancer_14_JUL_2026.md</a></code>)
-      recovers the full lineage: a macrocyclic lactone born as a mass-drug-administration anthelmintic pivots, through the fact that
-      <b style="color:var(--text)">humans lack its invertebrate-specific target</b>, into a <b style="color:var(--teal)">repurposed anticancer agent</b>.
-      The bridge is <i>pharmacological</i> — one safe scaffold whose vertebrate-sparing dose window leaves headroom to hit conserved mammalian survival kinases.
+      Ivermectin was developed as an antiparasitic, not an anticancer drug. The graph trace (<code><a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_ivermectin_cancer_14_JUL_2026.md" target="_blank">src/tasks/task_output_ivermectin_cancer_14_JUL_2026.md</a></code>)
+      recovers the full lineage: a macrocyclic lactone introduced for mass drug administration, investigated as a
+      <b style="color:var(--teal)">repurposed anticancer agent</b> because
+      <b style="color:var(--text)">humans lack its invertebrate-specific target</b>.
+      The pharmacological basis is the vertebrate-sparing dose window from antiparasitic use, which leaves room to test effects on conserved mammalian survival kinases.
     </p>
     <div class="spectrum-card">
       <div style="position:relative;">
@@ -124,9 +125,9 @@
       </div>
       <div class="legend">
         <span><span class="sw" style="background:var(--green)"></span> antiparasitic lineage &amp; mechanism</span>
-        <span><span class="sw" style="background:var(--amber)"></span> pivot — vertebrate safety margin</span>
+        <span><span class="sw" style="background:var(--amber)"></span> host sparing — vertebrate safety margin</span>
         <span><span class="sw" style="background:var(--teal)"></span> repositioned mammalian targets</span>
-        <span><span class="sw" style="background:var(--red)"></span> honest gap — preclinical only</span>
+        <span><span class="sw" style="background:var(--red)"></span> preclinical-only limitation</span>
       </div>
     </div>
 
@@ -141,12 +142,12 @@
         </p>
       </div>
       <div class="card">
-        <h3 style="color:var(--amber)">The pivot — a target humans lack</h3>
+        <h3 style="color:var(--amber)">Host selectivity — a target humans lack</h3>
         <p style="color:var(--dim); font-size:.9rem;">
           Humans <b style="color:var(--text)">have no GluCls</b>. Vertebrate GABA<sub>A</sub>/glycine receptors need roughly
           <b style="color:var(--text)">~100× higher</b> ivermectin concentrations, so therapeutic plasma levels spare the host
-          (Glutamate-gated Cl- channels.md:21). This built-in safety margin — underwritten by decades of mass drug administration
-          (OCP, APOC, the Mectizan program) — is what makes repurposing trials medically defensible.
+          (Glutamate-gated Cl- channels.md:21). This safety margin — underwritten by decades of mass drug administration
+          (OCP, APOC, the Mectizan program) — is the basis for initiating repurposing trials.
         </p>
       </div>
       <div class="card">
@@ -160,7 +161,7 @@
       </div>
     </div>
     <div class="context" style="margin-top:16px;">
-      <b>Headline finding.</b> The wiki corpus frames ivermectin strictly as a <b>repurposed therapeutic agent</b>, not a primary preventive:
+      <b>Corpus finding.</b> The wiki corpus frames ivermectin strictly as a <b>repurposed therapeutic agent</b>, not a primary preventive:
       every note places it in treatment/adjuvant contexts (inhibiting proliferation, metastasis, angiogenesis; reversing multidrug resistance).
       <b style="color:var(--red)">No note addresses primary prevention (reducing cancer incidence in healthy people)</b> — the preventive framing is inference beyond the corpus.
     </div>
@@ -174,12 +175,12 @@
             <tr>
               <td><b>[[Lung Cancer]]</b></td>
               <td>Synergy with [[erlotinib]]; EGFR targeting</td>
-              <td>Lung Cancer.md — co-voiced with fenbendazole's metabolic axis below</td>
+              <td>Lung Cancer.md — cited alongside fenbendazole's metabolic axis (below)</td>
             </tr>
             <tr>
               <td><b>[[Glioblastoma]]</b></td>
               <td>Angiogenesis / growth / survival inhibited via mitochondrial dysfunction + oxidative stress</td>
-              <td>Ivermectin.md — the exact ΔΨm levers the pair converges on</td>
+              <td>Ivermectin.md — the ΔΨm endpoints the pair converges on</td>
             </tr>
             <tr>
               <td><b>[[Prostate Cancer]]</b></td>
@@ -202,8 +203,8 @@
     </div>
 
     <div class="caveat" style="margin-top:20px;">
-      <b>Honest gap.</b> The anticancer evidence is entirely preclinical — tumor-cell and xenograft models — and the corpus itself states clinical
-      validation "remains a research priority." Decades of antiparasitic safety data underwrite <i>repurposing trials</i>, but
+      <b>Preclinical limitation.</b> The anticancer evidence is entirely preclinical — tumor-cell and xenograft models — and the corpus itself states clinical
+      validation "remains a research priority." Decades of antiparasitic safety data support <i>repurposing trials</i>, but
       <b>anticancer dosing and schedules are not established</b>, and no primary-prevention evidence exists anywhere in the vault.
     </div>
   </div>
@@ -214,8 +215,8 @@
   <div class="wrap">
     <h2>Division of labor — non-overlapping primary targets</h2>
     <p class="lead" style="margin-bottom:18px;">
-      Each drug claims its own set of nodes. The middle band is where they <i>converge downstream</i> —
-      the basis of rational combination rather than redundancy.
+      Each drug targets a distinct set of nodes. The middle band is where they <i>converge downstream</i> —
+      the basis of the proposed combination rather than redundancy.
     </p>
     <div class="spectrum-card">
       <div style="position:relative;">
@@ -236,8 +237,8 @@
   <div class="wrap">
     <h2>Convergent nodes — where the two drugs reinforce</h2>
     <p class="lead" style="margin-bottom:6px;">
-      Both compounds funnel into the same downstream endpoints, but enter from different doors. This non-overlap is what turns
-      single-agent effects into a potential combined attack.
+      Both compounds act on the same downstream endpoints via distinct upstream targets. This non-overlap is the basis
+      for combining single-agent effects.
     </p>
     <div class="spectrum-card">
       <div class="tbl-wrap" style="max-height:none;">
@@ -249,19 +250,19 @@
               <td><b>Intrinsic apoptosis / mitochondria</b></td>
               <td>Direct: ΔΨm collapse, Bax↑ / Bcl-2↓, cytochrome c release, ATP collapse, ROS amplification</td>
               <td>Indirect: HK2 released from VDAC → de-repressed MOMP / cytochrome c release</td>
-              <td>Ivermectin primes from the signaling side, fenbendazole from the metabolic side — together they push cells past the mitochondrial threshold neither reaches alone</td>
+              <td>Ivermectin acts from the signaling side, fenbendazole from the metabolic side; combined they may lower the mitochondrial death threshold beyond what either drug reaches alone</td>
             </tr>
             <tr>
               <td><b>ROS &amp; redox</b></td>
               <td>ROS via mitochondrial depolarization + Cl<sup>−</sup>-channel membrane hyperpolarization</td>
               <td>ROS via MEK3/6–p38 + collapse of glycolytic NADPH → glutathione recycling fails</td>
-              <td>Fenbendazole disarms the antioxidant buffer; ivermectin pushes ROS past the lethal threshold — a potential "redox catastrophe"</td>
+              <td>Fenbendazole depletes NADPH/glutathione antioxidant capacity; ivermectin raises mitochondrial ROS; the combined oxidative burden may exceed the lethal threshold (hypothesis, untested)</td>
             </tr>
             <tr>
               <td><b>Cell-cycle arrest</b></td>
               <td>G1/S or S-phase arrest (context-dependent, via PAK1 loss)</td>
               <td>G2/M arrest via spindle disruption + p21-mediated arrest (p53 → p21)</td>
-              <td>Dual-checkpoint trapping — cells escaping one block are caught by the other</td>
+              <td>Dual-checkpoint arrest — cells escaping one block encounter the other</td>
             </tr>
             <tr>
               <td><b>Warburg / glycolysis</b></td>
@@ -273,7 +274,7 @@
               <td><b>NF-κB suppression</b></td>
               <td>Direct via PAK1 loss (PAK1 enables NF-κB nuclear activation)</td>
               <td>Modulates NF-κB, likely indirect via ROS / p53</td>
-              <td>Two independent routes into the master survival switch — Bcl-xL / XIAP / cIAP downregulation compounds</td>
+              <td>Two independent inputs to NF-κB survival output; Bcl-xL / XIAP / cIAP downregulation compounds the effect</td>
             </tr>
             <tr>
               <td><b>Autophagy</b></td>
@@ -297,10 +298,10 @@
 <!-- SIRTUINS -->
 <section id="sirtuins">
   <div class="wrap">
-    <h2>Sirtuin intersections — where the pair meets the NAD<sup>+</sup> rheostat</h2>
+    <h2>Sirtuin intersections — where the pair meets NAD<sup>+</sup>-dependent regulation</h2>
     <p class="lead" style="margin-bottom:6px;">
-      The seven sirtuins are NAD<sup>+</sup>-dependent deacylases whose output is gated by the very redox and metabolic state these drugs perturb.
-      Four hubs intersect the combination in concrete, graph-backed ways: <b style="color:var(--amber)">SIRT1</b> (p53 / NF-κB / PAK1),
+      The seven sirtuins are NAD<sup>+</sup>-dependent deacylases whose output depends on the redox and metabolic state these drugs perturb.
+      Four sirtuin hubs intersect the combination with graph-traced links: <b style="color:var(--amber)">SIRT1</b> (p53 / NF-κB / PAK1),
       <b style="color:var(--purple)">SIRT2</b> (tubulin), <b style="color:var(--green)">SIRT3</b> (mitochondrial ROS) and
       <b style="color:var(--blue)">SIRT6</b> (anti-Warburg). Green = reinforces the combination; red = opposes / context-dependent.
     </p>
@@ -323,12 +324,12 @@
     <div class="grid g2" style="gap:18px;">
       <!-- SIRT1 -->
       <div class="sirt-card">
-        <div class="sirt-head"><h3 style="color:var(--amber)">SIRT1</h3><span class="tagline">the p53 / NF-κB / PAK1 rheostat</span>
+        <div class="sirt-head"><h3 style="color:var(--amber)">SIRT1</h3><span class="tagline">regulates p53 / NF-κB / PAK1</span>
           <span class="comp">Nucleus + cytosol</span></div>
         <div class="sirt-body">
           <div class="faces">
             <div class="face green"><h4>Reinforces the combination</h4><ul>
-              <li>Deacetylates <b>p53</b> (Lys379) → restrains its pro-apoptotic output; p53 reciprocally <i>inhibits</i> SIRT1, so fenbendazole's p53 stabilization self-amplifies by lowering SIRT1</li>
+              <li>Deacetylates <b>p53</b> (Lys379) → restrains its pro-apoptotic output; p53 reciprocally <i>inhibits</i> SIRT1, so fenbendazole's p53 stabilization lowers SIRT1 and further increases p53 acetylation</li>
               <li>Deacetylates <b>RelA/p65 (NF-κB)</b> and <b>STAT3</b> → a third pathway into the survival axes both drugs already suppress</li>
               <li>Inhibits <b>[[HIF-1α]]</b> and <b>[[mTOR]]</b>, deacetylates [[ULK1]] / [[Beclin1|Beclin-1]] / [[Atg5]]-[[Atg7|7]] / [[LC3]] → [[Warburg Effect|anti-Warburg]] + pro-autophagy, aligned with ivermectin's PAK1→Akt→mTOR arm</li>
               <li>SIRT1-mediated <b>PAK1 deacetylation at K420 hinders glioblastoma growth</b> — the same PAK1 node ivermectin degrades, hit via a separate post-translational route</li>
@@ -360,16 +361,16 @@
       </div>
       <!-- SIRT3 -->
       <div class="sirt-card">
-        <div class="sirt-head"><h3 style="color:var(--green)">SIRT3</h3><span class="tagline">the mitochondrial guardian — a sensitivity switch</span>
+        <div class="sirt-head"><h3 style="color:var(--green)">SIRT3</h3><span class="tagline">mitochondrial ROS regulation — a sensitivity determinant</span>
           <span class="comp">Mitochondria</span></div>
         <div class="sirt-body">
           <div class="faces">
             <div class="face green"><h4>Reinforces the combination</h4><ul>
-              <li>Low-SIRT3 tumors (~40% of breast/ovarian cancers) run high mitochondrial ROS — a <b>redox-primed</b> state that should sensitize to both drugs' oxidative / mitochondrial attack</li>
+              <li>Low-SIRT3 tumors (~40% of breast/ovarian cancers) run high mitochondrial ROS — a <b>redox-primed</b> state that should sensitize cells to both drugs' oxidative and mitochondrial effects</li>
               <li>Destabilizes <b>HIF-1α</b> → anti-Warburg, aligned with fenbendazole's GLUT1/HK2 program</li>
             </ul></div>
             <div class="face red"><h4>Opposes / context</h4><ul>
-              <li>High SIRT3 clears ROS (SOD2/MnSOD, IDH2) and maintains mitochondria (Complex I, PDH) — the <b>exact levers ivermectin collapses</b> (ΔΨm, respiration, ATP)</li>
+              <li>High SIRT3 clears ROS (SOD2/MnSOD, IDH2) and maintains mitochondria (Complex I, PDH) — the same parameters ivermectin lowers (ΔΨm, respiration, ATP)</li>
               <li>High-SIRT3 cells are the likely resistance context for the pair's ROS-dependent death</li>
             </ul></div>
           </div>
@@ -377,18 +378,18 @@
       </div>
       <!-- SIRT6 -->
       <div class="sirt-card">
-        <div class="sirt-head"><h3 style="color:var(--blue)">SIRT6</h3><span class="tagline">fenbendazole's nuclear twin</span>
+        <div class="sirt-head"><h3 style="color:var(--blue)">SIRT6</h3><span class="tagline">transcriptional suppression of GLUT1/HK2</span>
           <span class="comp">Nucleus (heterochromatin)</span></div>
         <div class="sirt-body">
           <div class="faces">
             <div class="face green"><h4>Reinforces the combination (strongest intersection)</h4><ul>
               <li><b>Corepresses HIF-1α</b> and suppresses <b>GLUT1 / HK2 transcription</b> → anti-glycolysis at the transcriptional level, while fenbendazole hits the same gene products at the protein level — one axis, two levels</li>
-              <li><b>p53 activates SIRT6</b> → fenbendazole's p53 stabilization feeds back to raise SIRT6, reinforcing glycolysis / NF-κB / HIF-1α suppression (a clean synergy loop)</li>
+              <li><b>p53 activates SIRT6</b> → fenbendazole's p53 stabilization feeds back to raise SIRT6, reinforcing glycolysis / NF-κB / HIF-1α suppression (a positive feedback loop)</li>
               <li>Suppresses NF-κB (H3K9 at target promoters) and inhibits [[JAK2]]/STAT3 → joins both drugs</li>
             </ul></div>
             <div class="face red"><h4>Opposes / context</h4><ul>
-              <li>Requires <b>NAD<sup>+</sup></b> — oxidative-stress PARP consumption may starve it exactly when needed</li>
-              <li>Its austerity / DNA-repair program can confer chemoresistance in established tumors</li>
+              <li>Requires <b>NAD<sup>+</sup></b> — PARP consumption of NAD<sup>+</sup> under oxidative stress may limit its substrate availability when the activity would matter most</li>
+              <li>Its stress-response / DNA-repair program can confer chemoresistance in established tumors</li>
             </ul></div>
           </div>
         </div>
@@ -396,7 +397,7 @@
     </div>
 
     <div class="context" style="margin-top:20px;">
-      <b>Secondary isoforms:</b> <b style="color:var(--teal)">SIRT4</b> (glutamine-addiction brake; upregulates p16/p21 — aligned with fenbendazole's p21 arrest) ·
+      <b>Secondary isoforms:</b> <b style="color:var(--teal)">SIRT4</b> (restricts glutaminolysis; upregulates p16/p21 — aligned with fenbendazole's p21 arrest) ·
       <b style="color:var(--orange)">SIRT5</b> (glutaminolysis / glycolysis driver — its inhibition would help) ·
       <b style="color:var(--pink)">SIRT7</b> (ribosome biogenesis / cell-cycle driver — oncogenic; less connected to this pair).
     </div>
@@ -406,11 +407,11 @@
 <!-- NAD GATE -->
 <section id="nad-gate">
   <div class="wrap">
-    <h2>The NAD<sup>+</sup> gate — redox rewires the sirtuin rheostat mid-treatment</h2>
+    <h2>The NAD<sup>+</sup> gate — redox state alters sirtuin activity during treatment</h2>
     <p class="lead" style="margin-bottom:6px;">
       Sirtuins are NAD<sup>+</sup>-consuming enzymes, and NAD<sup>+</sup> is also a glycolytic cofactor (GAPDH). The pair's
-      oxidative and metabolic attack therefore does not just <i>read</i> sirtuin activity — it <i>rewrites</i> the NAD<sup>+</sup> pool
-      that gates it. This is the most hypothesis-generating intersection and should be read as a hypothesis, not established fact.
+      oxidative and metabolic effects therefore do not merely correlate with altered sirtuin activity — they change the NAD<sup>+</sup> pool
+      that determines it. This intersection is hypothesis-generating and should be read as a hypothesis, not established fact.
     </p>
     <div class="spectrum-card">
       <div style="position:relative;">
@@ -428,15 +429,15 @@
       <div class="card"><h3>Upside of NAD<sup>+</sup> drain</h3><p style="color:var(--dim); font-size:.85rem;">
         Drug-induced oxidative stress → PARP consumes NAD<sup>+</sup> → sirtuin output falls. This lowers <b style="color:var(--amber)">SIRT1</b>'s p53 deacetylation
         (reinforces fenbendazole), <b style="color:var(--purple)">SIRT2</b>'s p53 inhibition, and <b style="color:var(--green)">SIRT3</b>'s ROS scavenging —
-        amplifying the pair's death signals.</p></div>
+        amplifying the pair's pro-death signaling.</p></div>
       <div class="card"><h3>Downside of NAD<sup>+</sup> drain</h3><p style="color:var(--dim); font-size:.85rem;">
         The same drain lowers <b style="color:var(--blue)">SIRT6</b> (anti-Warburg reinforcement lost) and <b style="color:var(--amber)">SIRT1</b>
         (NF-κB / STAT3 suppression lost) — two of the most desirable anti-tumor sirtuin outputs. Net sirtuin behavior during treatment is a
         function of redox state, not a constant.</p></div>
       <div class="card"><h3>Read-out</h3><p style="color:var(--dim); font-size:.85rem;">
-        Any claim that "the combination boosts sirtuins" or "blocks sirtuins" is over-simplified. The honest framing: the pair shifts the
+        A claim that the combination uniformly "boosts sirtuins" or "blocks sirtuins" is over-simplified. The accurate framing: the pair shifts the
         <b style="color:var(--pink)">NAD<sup>+</sup>/NADH</b> and <b style="color:var(--green)">NADPH/glutathione</b> pools, and each sirtuin's
-        sign flips accordingly — a context-dependent, isoform-specific outcome.</p></div>
+        output sign changes accordingly — a context-dependent, isoform-specific outcome.</p></div>
     </div>
   </div>
 </section>
@@ -477,12 +478,12 @@
           <colgroup><col style="width:13%"><col style="width:29%"><col style="width:29%"><col style="width:29%"></colgroup>
           <thead><tr><th>Dimension</th><th><span style="color:var(--teal)">Ivermectin</span></th><th><span style="color:var(--orange)">Fenbendazole</span></th><th>Combined effect</th></tr></thead>
           <tbody>
-            <tr><td><b>Signaling</b></td><td>PAK1 / YAP1 / Akt / mTOR suppression</td><td>Minimal direct signaling impact</td><td>Ivermectin removes oncogenic signaling; fenbendazole exploits the resulting metabolic vulnerability</td></tr>
-            <tr><td><b>Structure</b></td><td>No direct tubulin effect</td><td>Microtubule destabilization → mitotic arrest</td><td>Fenbendazole traps dividing cells; ivermectin prevents escape via survival signaling</td></tr>
-            <tr><td><b>Metabolism</b></td><td>Indirect (Akt/mTOR → glycolytic gene regulation)</td><td>Direct (GLUT1 ↓, HK2 ↓, Warburg disruption)</td><td>Fenbendazole starves the cell; ivermectin prevents compensatory metabolic reprogramming</td></tr>
-            <tr><td><b>ROS / apoptosis</b></td><td>Mitochondrial depolarization, Cl<sup>−</sup>-channel ROS</td><td>Metabolic ROS + NADPH depletion</td><td>Fenbendazole disarms antioxidant defenses; ivermectin pushes ROS past the lethal threshold</td></tr>
-            <tr><td><b>p53</b></td><td>Not a primary mechanism</td><td>MDM2/MdmX suppression → p53 stabilization</td><td>Restores p53 function in wild-type-p53 / MDM2-overexpressing tumors</td></tr>
-            <tr><td><b>Stem cells</b></td><td>PAK1–STAT3 axis suppression (NANOG, OCT-4, SOX-2)</td><td>Not specifically demonstrated</td><td>Ivermectin targets the recurrence-driving CSC population</td></tr>
+            <tr><td><b>Signaling</b></td><td>PAK1 / YAP1 / Akt / mTOR suppression</td><td>Minimal direct signaling impact</td><td>Ivermectin removes oncogenic signaling; fenbendazole acts on the resulting metabolic vulnerability</td></tr>
+            <tr><td><b>Structure</b></td><td>No direct tubulin effect</td><td>Microtubule destabilization → mitotic arrest</td><td>Fenbendazole arrests dividing cells; ivermectin suppresses the survival signaling that permits checkpoint bypass</td></tr>
+            <tr><td><b>Metabolism</b></td><td>Indirect (Akt/mTOR → glycolytic gene regulation)</td><td>Direct (GLUT1 ↓, HK2 ↓, Warburg disruption)</td><td>Fenbendazole limits glucose uptake and glycolytic flux; ivermectin suppresses compensatory metabolic reprogramming</td></tr>
+            <tr><td><b>ROS / apoptosis</b></td><td>Mitochondrial depolarization, Cl<sup>−</sup>-channel ROS</td><td>Metabolic ROS + NADPH depletion</td><td>Fenbendazole depletes antioxidant defenses; the combined ROS burden may exceed the lethal threshold</td></tr>
+            <tr><td><b>p53</b></td><td>Not a primary mechanism</td><td>MDM2/MdmX suppression → p53 stabilization</td><td>May restore p53 function in wild-type-p53 / MDM2-overexpressing tumors (preclinical)</td></tr>
+            <tr><td><b>Stem cells</b></td><td>PAK1–STAT3 axis suppression (NANOG, OCT-4, SOX-2)</td><td>Not specifically demonstrated</td><td>Ivermectin targets the recurrence-associated CSC population (preclinical)</td></tr>
             <tr><td><b>Drug resistance</b></td><td>Potent P-gp / MDR protein inhibitor</td><td>Partial P-gp evasion (benzimidazole class)</td><td>Ivermectin may raise intratumoral fenbendazole retention</td></tr>
             <tr><td><b>Immune</b></td><td>HMGB1 release → immunogenic cell death</td><td>Less characterized</td><td>Ivermectin may prime immune recognition of dying tumor cells</td></tr>
           </tbody>
@@ -495,26 +496,26 @@
 <!-- CAVEATS -->
 <section id="caveats">
   <div class="wrap">
-    <h2>Cross-cutting caveats &amp; the bottom line</h2>
+    <h2>Cross-cutting caveats &amp; summary</h2>
     <div style="margin-top:18px;">
       <div class="pattern"><b>Everything is preclinical.</b>
         Every mechanism cited here is from cell lines and xenograft models (Tang et al. 2020; Nguyen et al. 2024). There are
         <b>no clinical trials</b> of either compound as an anticancer agent. The combination rationale is a mechanistic hypothesis.</div>
       <div class="pattern"><b>The autophagy paradox.</b>
-        Ivermectin's autophagic death is the primary mode in breast cancer but protective in melanoma; context decides whether autophagic flux
-        kills or shields. Dose and tumor type will dictate net effect.</div>
-      <div class="pattern"><b>Sirtuins flip sign.</b>
-        SIRT1/3/6 are anti-tumor in some settings and chemoresistance factors in others. The pair's NAD<sup>+</sup> drain makes this worse:
-        the same redox stress that empowers p53 / ROS also starves SIRT6 — so "sirtuin support" cannot be prescribed as a blanket strategy.</div>
+        Ivermectin-induced autophagic death is the primary mode in breast cancer models but cytoprotective in melanoma; whether autophagic flux
+        is cytotoxic or cytoprotective depends on tumor context. Dose and tumor type determine the net effect.</div>
+      <div class="pattern"><b>Sirtuin outputs are context-dependent.</b>
+        SIRT1/3/6 are anti-tumor in some settings and chemoresistance factors in others. The pair's NAD<sup>+</sup> consumption adds to this:
+        the same redox stress that increases p53 acetylation and ROS also lowers SIRT6 activity — so "sirtuin support" cannot be prescribed as a blanket strategy.</div>
       <div class="pattern"><b>SIRT2 directionality is unresolved.</b>
-        SIRT2 sits on the tubulin node fenbendazole attacks, but whether its deacetylation of α-tubulin amplifies or counteracts the microtubule
+        SIRT2 acts on the tubulin node fenbendazole targets, but whether its deacetylation of α-tubulin amplifies or counteracts the microtubule
         block is an open question.</div>
     </div>
     <div class="caveat">
-      <b>Bottom line.</b> Ivermectin and fenbendazole are a mechanistically complementary pair — signaling hub vs structural/metabolic machinery —
+      <b>Summary.</b> Ivermectin and fenbendazole are a mechanistically complementary pair — signaling hub vs structural/metabolic machinery —
       with convergent mitochondria, redox, cell-cycle, and metabolic endpoints. The most concrete sirtuin links are
-      <b>SIRT6 (fenbendazole's anti-Warburg twin, with a p53→SIRT6 feedback loop)</b>, <b>SIRT1 (p53 / NF-κB / PAK1 rheostat)</b>,
-      <b>SIRT3 (mitochondrial ROS sensitivity switch)</b>, and <b>SIRT2 (tubulin node)</b> — all gated by the NAD<sup>+</sup> pool the pair itself rewrites.
+      <b>SIRT6 (transcriptional suppression of GLUT1/HK2, with a p53→SIRT6 feedback loop)</b>, <b>SIRT1 (p53 / NF-κB / PAK1 regulation)</b>,
+      <b>SIRT3 (mitochondrial ROS sensitivity switch)</b>, and <b>SIRT2 (tubulin node)</b> — all dependent on the NAD<sup>+</sup> pool the pair itself alters.
       Treat the sirtuin dimension as hypothesis-generating until tested in vivo.
     </div>
   </div>
@@ -660,7 +661,7 @@
     '#3EC9A7','rgba(62,201,167,.08)');
   // Column B: redox hub
   m += box(300,110,210,220,'REDOX HUB',
-    ['NADPH / glutathione collapse','+ mitochondrial ROS burst','= "redox catastrophe"','(two directions at once)'],
+    ['NADPH / glutathione depletion','+ mitochondrial ROS burst','= combined oxidative burden','(two directions at once)'],
     '#E8C65B','rgba(232,198,91,.08)');
   // Column C: NAD+ pool
   m += box(570,110,210,220,'NAD+ POOL',
@@ -703,7 +704,7 @@
       'Cl⁻ influx → hyperpolarization',
       '→ paralysis & death of the',
       'parasite']},
-    {t:'THE PIVOT', color:'#E8A33D', fill:'rgba(232,163,61,.08)', lines:[
+    {t:'HOST SPARING', color:'#E8A33D', fill:'rgba(232,163,61,.08)', lines:[
       'Humans LACK GluCls',
       'Vertebrate GABA_A / glycine',
       'receptors need ~100× more',
@@ -728,9 +729,9 @@
       m += `<line x1="${x+bw+8}" y1="${y0+bh/2}" x2="${xs[i+1]-8}" y2="${y0+bh/2}" stroke="#6b6b85" stroke-width="1.6" marker-end="url(#larr)"/>`;
     }
   });
-  // honest gap band
+  // preclinical limitation band
   m += `<rect x="30" y="270" width="940" height="160" rx="14" fill="rgba(228,87,94,.06)" stroke="#E4575E" stroke-width="1.5" stroke-dasharray="6 4"/>`;
-  m += `<text x="500" y="296" text-anchor="middle" fill="#E4575E" font-size="12" font-weight="800" letter-spacing="1">HONEST GAP — ALL PRECLINICAL</text>`;
+  m += `<text x="500" y="296" text-anchor="middle" fill="#E4575E" font-size="12" font-weight="800" letter-spacing="1">LIMITATION — ALL PRECLINICAL</text>`;
   const gapLines = [
     'Evidence limited to tumor-cell & xenograft models · clinical validation "remains a research priority" (Lung Cancer.md)',
     'Anticancer dosing / schedules not established — only antiparasitic safety data (OCP · APOC · Mectizan) underwrite repurposing',

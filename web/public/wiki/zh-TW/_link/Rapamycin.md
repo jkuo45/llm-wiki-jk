@@ -2,7 +2,7 @@
 title: Rapamycin（雷帕黴素）
 description: "在 SASP-Remodeling Aminochrome Complex 策略中，Rapamycin 扮演「煞車」的角色。它確保由腎上腺素紅引發的 ROS 訊號從促發炎的 SASP 生成，轉而流向靜止樣的「senomorphic」狀態……"
 created: 2024-01-01
-updated: 2026-10-21
+updated: 2026-07-07
 tags:
   - chemical-compound
 aliases: [雷帕黴素]

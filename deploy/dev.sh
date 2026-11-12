@@ -56,7 +56,7 @@ OC_PID=$!
 
 for _ in $(seq 1 30); do
   if curl -fsS -u "${OPENCODE_SERVER_USERNAME}:${OPENCODE_SERVER_PASSWORD}" \
-       "${OPENCODE_URL}/global/health" >/dev/null 2>&1; then
+       "${OPENCODE_URL}/api/info" >/dev/null 2>&1; then
     break
   fi
   sleep 1
@@ -69,7 +69,7 @@ API_PID=$!
 cat <<EOF
 
   adapter   http://127.0.0.1:${API_PORT}/v1/health
-  opencode  ${OPENCODE_URL}/doc
+  opencode  ${OPENCODE_URL}/api/info
 
   To point the graph UI at this backend, serve web/ and set:
     <script>window.GRAPH_API_BASE = 'http://127.0.0.1:8000/v1';</script>

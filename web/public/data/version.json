@@ -1,18 +1,18 @@
 {
-  "generated": "2026-10-02 08:49:47",
-  "hash": "3d9d2c9fe214c0d2",
+  "generated": "2026-11-11 18:43:52",
+  "hash": "663ac957d5242f5b",
   "datasets": {
     "triples": {
-      "nodes": 3493,
-      "edges": 6605
+      "nodes": 4756,
+      "edges": 12589
     },
     "wiki": {
-      "nodes": 3486,
-      "edges": 44994
+      "nodes": 3625,
+      "edges": 47441
     },
     "combined": {
-      "nodes": 4821,
-      "edges": 47925
+      "nodes": 5068,
+      "edges": 51812
     }
   },
   "files": [
@@ -20,6 +20,7 @@
     "articles.json",
     "celltype-sex-zh.json",
     "celltype-sex.json",
+    "edge-context.json",
     "edges.json",
     "graph-meta.json",
     "hormetic-domains.json",
@@ -28,6 +29,7 @@
     "legend.json",
     "link-prediction.json",
     "manifest.json",
+    "node-desc.json",
     "node_roles.json",
     "nodes.json",
     "notes-tags-zh-TW.json",
@@ -38,16 +40,20 @@
     "tasks.json",
     "topics.json",
     "translations-zh-TW.json",
+    "triples-edge-context.json",
     "triples-edges.json",
     "triples-graph-meta.json",
     "triples-legend.json",
+    "triples-node-desc.json",
     "triples-node_roles.json",
     "triples-nodes.json",
     "triples-roles-meta.json",
+    "wiki-edge-context.json",
     "wiki-edges.json",
     "wiki-graph-meta.json",
     "wiki-legend.json",
     "wiki-link-prediction.json",
+    "wiki-node-desc.json",
     "wiki-node_roles.json",
     "wiki-nodes.json",
     "wiki-roles-meta.json",

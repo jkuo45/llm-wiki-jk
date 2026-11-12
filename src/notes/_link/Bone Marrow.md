@@ -4,7 +4,7 @@ description: Bone Marrow is a semi-solid tissue found within the spongy (trabecu
   portions of bones. It is the primary site of Hematopoiesis — the production of all
   blood cell lineages — in adult mammals.
 created: 2026-07-04
-updated: 2026-07-06
+updated: 2026-11-10
 tags:
   - anatomy
 aliases: [Medulla Ossium]
@@ -42,3 +42,7 @@ Bone marrow is the target of [[Bone Marrow Transplantation]] (hematopoietic stem
 - New links added: [[Hematopoiesis]], [[Hematopoietic Stem Cell]], [[Progenitor Cells]], [[Erythrocytes]], [[Platelets]], [[Granulocytes]], [[Monocytes]], [[Lymphocytes]], [[Stromal Cells]], [[Osteoblasts]], [[Endothelial Cells]], [[Bone Marrow Transplantation]], [[leukemia]], [[Lymphoma]], [[Multiple Myeloma]], [[Aplastic Anemia]], [[Chemotherapy]], [[Radiotherapy]], [[Adipose Tissue]]
 - Suggested new entity notes to create: [[Bone Marrow Microenvironment]], [[Myelosuppression]], [[Hematopoietic niche]], [[Stromal cell]], [[Progenitor Cell]]
   - Strong connections to strengthen: Bone Marrow ↔ Hematopoietic Stem Cell, Bone Marrow ↔ [[Hematopoiesis]], Bone Marrow ↔ leukemia
+
+## Documents
+
+- [[_document_ - Cytotoxic CD4 T cells induce age-associated myelopoiesis through CCL5-CCR5 signaling|Cytotoxic CD4 T cells induce age-associated myelopoiesis (Nat Aging 2026)]]: Nat Aging 2026 identifies the aged bone marrow as a preferential accumulation site for CCL5+ cytotoxic CD4+ T cells that remodel the niche and drive myeloid-biased hematopoiesis through CCL5-CCR5 signaling to HSCs and GMPs.

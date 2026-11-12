@@ -378,6 +378,7 @@ def wiki_args(tmp_path, **over):
         wiki_half_life=60.0,
         wiki_weights=(0.5, 0.35, 0.10, 0.05),
         wiki_no_score=False,
+        wiki_recent_days=0,  # legacy tests assert the pure score cap
     )
     for k, v in over.items():
         setattr(ns, k, v)
@@ -541,6 +542,46 @@ class TestBuildWebWikiTranslations:
     def test_rerun_is_a_fixpoint(self, tmp_path):
         args = self._seed(tmp_path, wiki_limit=1)
         self.write_zh(args, "cold")
+        rows = rc.scan_notes_for_web(args.notes_dir)
+        rc.build_web_wiki(rows, args, tmp_path)
+        first = wiki_ids(args)
+        rc.build_web_wiki(rows, args, tmp_path)
+        assert wiki_ids(args) == first
+
+
+class TestBuildWebWikiRecency:
+    """A note touched within --wiki-recent-days must survive the score cap,
+    like the zh-TW keeper rule (and must not duplicate a zh-kept note)."""
+
+    def _seed(self, tmp_path, **over):
+        from datetime import timedelta
+        args = wiki_args(tmp_path, **over)
+        today = datetime.now(timezone.utc).date()
+        write_roles(args, {"hub": (0.01, 0.18, 300)})  # graph-max on every metric
+        write_note(args, "hub", created="2026-01-01",
+                   updated=str(today - timedelta(days=10)), words=2000)
+        write_note(args, "cold", created="2026-01-01",
+                   updated=str(today - timedelta(days=400)))
+        write_note(args, "fresh", created=str(today), updated=str(today))
+        return args
+
+    def test_fresh_note_outside_cap_is_kept(self, tmp_path):
+        args = self._seed(tmp_path, wiki_limit=1, wiki_recent_days=30)
+        rc.build_web_wiki(rc.scan_notes_for_web(args.notes_dir), args, tmp_path)
+        ids = wiki_ids(args)
+        assert ids[1] == "hub"      # cap still caps the score
+        assert "fresh" in ids       # ... but not the recency keeper
+        assert "cold" not in ids
+
+    def test_recent_days_zero_disables_keeper(self, tmp_path):
+        args = self._seed(tmp_path, wiki_limit=1, wiki_recent_days=0)
+        rc.build_web_wiki(rc.scan_notes_for_web(args.notes_dir), args, tmp_path)
+        ids = wiki_ids(args)
+        assert ids[1] == "hub"
+        assert "fresh" not in ids
+
+    def test_recency_rerun_is_a_fixpoint(self, tmp_path):
+        args = self._seed(tmp_path, wiki_limit=1, wiki_recent_days=30)
         rows = rc.scan_notes_for_web(args.notes_dir)
         rc.build_web_wiki(rows, args, tmp_path)
         first = wiki_ids(args)

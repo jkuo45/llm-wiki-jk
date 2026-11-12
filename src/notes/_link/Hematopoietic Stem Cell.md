@@ -3,7 +3,7 @@ title: Hematopoietic Stem Cell
 description: Multipotent stem cells that give rise to all blood cell types through
   haematopoiesis
 created: 2024-01-01
-updated: 2024-01-01
+updated: 2026-11-10
 tags:
   - cell-type
 aliases: []
@@ -26,6 +26,7 @@ aliases: []
 # 
 
 ## Documents
+- [[_document_ - Cytotoxic CD4 T cells induce age-associated myelopoiesis through CCL5-CCR5 signaling|Cytotoxic CD4 T cells induce age-associated myelopoiesis (Nat Aging 2026)]]: Nat Aging 2026 reports aged bone marrow HSCs upregulate CCR5; CCR5 signaling from CCL5+ cytotoxic CD4+ T cells biases lineage output toward the myeloid arm while HSC numbers are unaffected, and maraviroc restores a more youthful output.
 
 List of documents that mention this entity
 

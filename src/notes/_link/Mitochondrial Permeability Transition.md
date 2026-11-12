@@ -3,7 +3,7 @@ title: Mitochondrial Permeability Transition
 description: Pathological increase in inner and outer mitochondrial membrane permeability causing swelling, ROS, NAD+ loss, and necrotic death.
 protected: false
 created: 2026-09-14
-updated: 2026-09-14
+updated: 2026-11-11
 tags: [cellular-process, cell-death]
 url: #
 source: #
@@ -23,7 +23,12 @@ The pore (see [[Mitochondrial Permeability Transition Pore]]) is sensitized by c
 > [!warning]
 > Whether MPT is an obligate downstream step of [[Necroptosis]] is controversial: [[RIPK3]]–[[MLKL]] signaling can kill without MPT, and MPT inhibitors often fail where [[Necrostatin-1]] or [[Necrosulfonamide]] succeed. The two necrosis programs overlap but are genetically separable.
 
+> [!info] Source: [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026]]
+> Mitochondrial permeability transition is one of the contextual mitochondrial amplifiers that lower the threshold for necroptotic injury, and a route by which mtDNA/mtRNA escape during stress.
+
 ## Documents
+
+- [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026 — Mitochondrial dysfunction and inflammaging]]: Adds MPT as a necroptosis-threshold modulator and a route for mitochondrial nucleic-acid release.
 
 None yet.
 

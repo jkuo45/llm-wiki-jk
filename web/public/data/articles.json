@@ -58,13 +58,13 @@
         "active": true,
         "langs": {
             "en-US": {
-                "title": "[Speculative] Adrenochrome MB/AG Protocol",
-                "description": "Speculative mitohormetic longevity stack: controlled low-level oxidative stress from adrenochrome derivatives, amplified by methylene blue and buffered by aminoguanidine, across mitochondrial dysfunction, senescence, and proteostasis.",
+                "title": "[Speculative] Adrenochrome MB/AG protocol — hypothesised mitohormetic redox relay, senomorphic–senolytic sequencing, and glyco-oxidative proteostasis",
+                "description": "Speculative, hypothesis-driven protocol: adrenochrome-derivative redox cycling is proposed to produce a compartment-confined mitochondrial superoxide signal, with methylene blue as electron shuttle and aminoguanidine as dicarbonyl scavenger; mechanisms, doses, and sequencing derive from task outlines and remain untested in humans.",
                 "path": "pages/en-US/adrenochrome-protocol.html"
             },
             "zh-TW": {
-                "title": "腎上腺色素 亞甲藍/銀 方案（推測性）",
-                "description": "推測性粒線體激效長壽堆疊：以腎上腺色素衍生物可控的低度氧化壓力為核心，經亞甲藍放大、氨基胍緩衝，涵蓋粒線體功能障礙、細胞衰老與蛋白質穩態。",
+                "title": "腎上腺色素 亞甲藍／氨基胍 方案（推測性）——假說性粒線體氧化還原中繼、衰老調節–衰老細胞清除序貫與糖化氧化蛋白質恆態",
+                "description": "推測性、假說驅動方案：腎上腺色素衍生物的氧化還原循環被假設產生局限於粒線體區室的超氧陰離子訊號，以亞甲藍作為電子穿梭體、氨基胍作為二羰基清除劑；機制、劑量與序貫源自任務大綱，尚未於人體驗證。",
                 "path": "pages/zh-TW/adrenochrome-protocol.html"
             }
         },
@@ -148,6 +148,25 @@
         "updated": "2026-09-09"
     },
     {
+        "id": "adrenochrome-articles-and-figures",
+        "active": true,
+        "weight": 100,
+        "langs": {
+            "en-US": {
+                "title": "Adrenochrome - Articles, figures, images (index)",
+                "description": "Topic index of the adrenochrome wiki: 19 documents with citations plus a gallery of 33 figures from 14 open-access sources — aminochrome neurotoxicity, AGEs, NAD+ precursors, and methemoglobinemia.",
+                "path": "pages/en-US/adrenochrome-articles-and-figures.html"
+            },
+            "zh-TW": {
+                "title": "腎上腺色素 — 文章中的圖像與圖表",
+                "description": "adrenochrome 主題索引：19 份附引文的文件，以及來自 14 個開放取用來源的 33 張圖表圖庫——胺基色素神經毒性、AGEs、NAD+ 前驅物與高鐵血紅蛋白血症。",
+                "path": "pages/zh-TW/adrenochrome-articles-and-figures.html"
+            }
+        },
+        "created": "2026-11-11",
+        "updated": "2026-11-11"
+    },
+    {
         "id": "node-analysis-examples-biology",
         "active": true,
         "langs": {
@@ -170,13 +189,13 @@
         "active": true,
         "langs": {
             "en-US": {
-                "title": "[Speculative] The Adrenochrome Protocol: Network Analysis via Sirtuins, Mitohormesis, and Autophagy",
-                "description": "Network-trace atlas for the methylene blue + aminoguanidine adrenochrome protocol — graph paths coupling each protocol agent to sirtuins, mitohormesis, and autophagy.",
+                "title": "[Speculative] Network Analysis of the Adrenochrome Protocol: Agent Coupling to the Adrenochrome Node Relative to Mitohormesis, Autophagy, and Sirtuins",
+                "description": "Graph analysis of the proposed methylene blue + aminoguanidine adrenochrome protocol: stored-edge paths from each protocol agent to the adrenochrome node, PPR coupling ladder, direct versus bridge edges, Fiedler community boundary, adaptive-program baseline, and hypotheses H1–H8 (untested in humans). Computed for graph build 867a5ae5fdb8a46c; dose and biological effect are not quantified.",
                 "path": "pages/en-US/adrenochrome-protocol-node-network-analysis.html"
             },
             "zh-TW": {
-                "title": "腎上腺素紅方案：作用劑—觸發器網絡追蹤",
-                "description": "亞甲藍＋氨基胍腎上腺色素方案的網絡追蹤圖譜——將各方案成分與 sirtuins、粒線體激效及自噬耦合的圖譜路徑。",
+                "title": "[推測性] 腎上腺素紅方案的網絡分析：作用劑與腎上腺素紅節點的耦合，相對於粒線體激效、自噬與 Sirtuins",
+                "description": "在 llm-wiki-jk 知識圖譜上針對推測性亞甲藍＋氨基胍腎上腺素紅方案的圖譜分析：各作用劑至腎上腺素紅節點的儲存邊路徑、PPR 耦合排序、直接邊與橋接邊、Fiedler 社群邊界、適應性程式基準，以及假說 H1–H8（未於人體驗證）。數值依據圖譜建構 867a5ae5fdb8a46c 計算；劑量與生物效應未量化。",
                 "path": "pages/zh-TW/adrenochrome-protocol-node-network-analysis.html"
             }
         },
@@ -225,7 +244,7 @@
         "langs": {
             "en-US": {
                 "title": "Caspases — Graph Analysis (wiki + triples)",
-                "description": "The caspase enzyme class read through the combined triples + wiki knowledge graph: MEROPS clan CD classification, catalytic mechanism and substrate specificity, activation platforms, a 14-member taxonomy table with per-member graph metrics, intra-family wiring, class regulation, assay toolbox and pharmacology — plus the multi-metric network analysis (communities, centrality, PPR death-modality signatures, link predictions, enrichment queue).",
+                "description": "The caspase enzyme class analyzed on the combined triples + wiki knowledge graph: MEROPS clan CD classification, catalytic mechanism and substrate specificity, activation platforms, a 14-member taxonomy table with per-member graph metrics, intra-family wiring, class regulation, assay toolbox and pharmacology — plus the multi-metric network analysis (communities, centrality, PPR death-modality signatures, link predictions, enrichment queue).",
                 "path": "pages/en-US/caspase-graph-analysis.html"
             },
             "zh-TW": {
@@ -302,7 +321,7 @@
             },
             "zh-TW": {
                 "title": "超越粒線體毒物興奮效應 — 12 個被忽視的荷爾蒙興奮領域",
-                "description": "十二個被忽視的激效領域之數據驅動綜述——溫和壓力源帶來超越粒線體典範的益處。",
+                "description": "檢視十二個生物領域的毒物興奮效應（hormesis）雙相劑量反應——低劑量壓力源產生適應性反應——及其證據、機制與定量劑量反應數據；這些領域因壓力源的負面框架而在研究與臨床上受忽視。",
                 "path": "pages/zh-TW/beyond-mitohormesis-overlooked-paradigms.html"
             }
         },
@@ -613,7 +632,7 @@
             }
         },
         "created": "2026-09-18",
-        "updated": "2026-09-23"
+        "updated": "2026-09-18"
     },
     {
         "id": "caspases-kinases-sirtuins-interaction",
@@ -638,13 +657,13 @@
         "active": true,
         "langs": {
             "en-US": {
-                "title": "Lipid Peroxidation — the chain reaction that rusts membranes",
-                "description": "Visual review of lipid peroxidation — initiation, propagation, and termination of the free-radical chain reaction, its product cascade, disease axes, and the membrane defense network.",
+                "title": "Lipid Peroxidation — radical chain oxidation of membrane polyunsaturated fatty acids",
+                "description": "Visual review of lipid peroxidation — initiation, propagation, and termination of the free-radical chain reaction, its product cascade, disease associations, and inhibitors.",
                 "path": "pages/en-US/lipid-peroxidation.html"
             },
             "zh-TW": {
-                "title": "脂質過氧化 — 鏽蝕膜結構的自由基鏈式反應",
-                "description": "脂質過氧化視覺化綜述——自由基鏈式反應的引發、傳播與終止、產物級聯、疾病軸線與膜防禦網絡。",
+                "title": "脂質過氧化 — 膜多元不飽和脂肪酸的自由基鏈式氧化",
+                "description": "脂質過氧化視覺化綜述——自由基鏈式反應的引發、傳播與終止、產物級聯、疾病關聯與抑制因子。",
                 "path": "pages/zh-TW/lipid-peroxidation.html"
             }
         },
@@ -657,12 +676,12 @@
         "langs": {
             "en-US": {
                 "title": "NAD+ Metabolism — Substrate Supply, Enzymatic Consumption, and the CD38–SARM1 Competition",
-                "description": "NAD+ as a shared substrate pool consumed by four enzymatic systems on four timescales — CD38 (chronic, extracellular), SARM1 (acute, axonal), PARP1/2 and the sirtuins themselves — with the biosynthetic routes, the NMN linkage and the CD38-inhibition paradox with its literature resolution, current knowledge-graph metrics for the NAD+ module, the therapeutic landscape by consumption pathway, and sex divergence in NAD+ metabolism.",
+                "description": "NAD+ as a shared substrate pool consumed by four enzymatic systems on four timescales — CD38 (chronic, extracellular), SARM1 (acute, axonal), PARP1/2 and the sirtuins themselves — with the biosynthetic routes, the NMN linkage between CD38 and SARM1, competing hypotheses on CD38 inhibition and SARM1 activation with the reported axotomy findings, recomputed knowledge-graph metrics for the NAD+ module, interventions classified by consumption pathway, and sex-stratified differences in NAD+ metabolism.",
                 "path": "pages/en-US/nad-metabolism-cd38-sarm1.html"
             },
             "zh-TW": {
                 "title": "NAD+ 代謝 — 受質供應、酵素消耗，與 CD38–SARM1 競爭",
-                "description": "NAD+ 作為共享的受質池，被四種酵素系統在四個時間尺度上消耗——CD38（慢性、胞外）、SARM1（急性、軸突）、PARP1/2 與 sirtuin 自身——並涵蓋生合成路徑、NMN 連結與 CD38 抑制的悖論及其文獻裁決、NAD+ 模組在當前知識圖譜上的指標、以消耗路徑組織的治療版圖，以及 NAD+ 代謝的性別分歧。",
+                "description": "NAD+ 作為共享的受質池，被四種酵素系統在四個時間尺度上消耗——CD38（慢性、胞外）、SARM1（急性、軸突）、PARP1/2 與 sirtuin 自身——並涵蓋生合成路徑、CD38 與 SARM1 之間的 NMN 連結、CD38 抑制與 SARM1 活化的競爭假說及已報告的軸切術結果、重新計算的 NAD+ 模組知識圖譜指標、依消耗路徑分類的介入措施，以及 NAD+ 代謝的性別分層差異。",
                 "path": "pages/zh-TW/nad-metabolism-cd38-sarm1.html"
             }
         },
@@ -675,16 +694,70 @@
         "langs": {
             "en-US": {
                 "title": "Individual Biomarker Gates (hard-coded)",
-                "description": "Discrete, largely immutable individual values (COMT rs4680, urolithin metabotype, NQO1 C609T, CYP3A5, HFE C282Y, APOE e4, MC1R, karyotype) that determine treatment response, with a profile tool, a gate-by-intervention consequence table, population exposure estimates, and a minimum assay panel.",
+                "description": "Discrete, largely immutable individual values (COMT rs4680, urolithin metabotype, NQO1 C609T, CYP3A5, HFE C282Y, APOE ε4, MC1R, karyotype) associated with individual-level variation in treatment response, with an evidence-graded profile tool, a gate-by-intervention consequence table, population exposure estimates, and a three-assay minimum panel.",
                 "path": "pages/en-US/hard-coded-biomarker-gates.html"
             },
             "zh-TW": {
                 "title": "個體生物標記關卡（硬編碼）",
-                "description": "決定治療反應的離散、大致不可變的個體數值（COMT rs4680、尿石素代謝型、NQO1 C609T、CYP3A5、HFE C282Y、APOE ε4、MC1R、核型）。含可記錄已測數值與現行治療的個人檔案工具、各介入措施的後果對照表、族群曝露比例估計，以及最低檢測組合。",
+                "description": "與治療反應的個體差異相關之離散、在生命早期即賦值且長期穩定的個體數值（COMT rs4680、尿石素代謝型、NQO1 C609T、CYP3A5、HFE C282Y、APOE ε4、MC1R、核型）。含具證據分級的個人檔案工具、各介入措施的後果對照表、依引用檢驗群體推估的族群曝露比例，以及三項檢測的最低組合。",
                 "path": "pages/zh-TW/hard-coded-biomarker-gates.html"
             }
         },
         "created": "2026-09-26",
         "updated": "2026-09-29"
+    },
+    {
+        "id": "gtpase-signaling",
+        "active": true,
+        "langs": {
+            "en-US": {
+                "title": "GTPase Signaling - the GDP/GTP switch and its effectors",
+                "description": "Visual guide to the GDP/GTP molecular switch: GEF, GAP and GDI regulation, GTPase fold architecture (P-loop, switch I/II, CAAX prenylation), the five small-GTPase families and their effectors, and four worked cases - Rho-family control of cell polarity, the Rab5-to-Rab7 conversion that gates autophagic flux, TSC2 GAP regulation of Rheb-mTORC1, and NADPH oxidase assembly. Includes family-size, hydrolysis-kinetics and KRAS-mutation charts.",
+                "path": "pages/en-US/gtpase-signaling.html"
+            },
+            "zh-TW": {
+                "title": "GTPase 訊號傳遞 — GDP/GTP 開關與其效應器",
+                "description": "GTPase 訊號傳遞視覺化指南：GDP/GTP 核苷酸循環（GEF、GAP、GDI）、GTPase 結構基礎（P-loop、switch I/II、CAAX 異戊二烯化）、五大小型 GTPase 家族及其效應器，以及四個實例解析——Rho 家族對細胞極性的調控、決定自噬通量的 Rab5→Rab7 轉換、TSC2 GAP 對 Rheb–mTORC1 的調控，以及 NADPH 氧化酶組裝。附家族數量、GTP 水解動力學與 KRAS 突變頻率圖表。",
+                "path": "pages/zh-TW/gtpase-signaling.html"
+            }
+        },
+        "created": "2026-10-29",
+        "updated": "2026-10-29"
+    },
+    {
+        "id": "eryptosis-evidence-synthesis",
+        "active": true,
+        "langs": {
+            "en-US": {
+                "title": "Eryptosis — Excess Death Signalling, Under-Clearance, and the Adrenochrome Crossover",
+                "description": "Evidence-graded synthesis of eryptosis, the Ca2+-driven phosphatidylserine-executed regulated death of mature erythrocytes: the mechanistic core, the unquantified normal eryptotic fraction with measured PS-positive fractions across disease contexts, the two failure modes — accelerated eryptosis (anemia with ESA hypo-responsiveness, PS-mediated thrombin generation, endothelial adhesion with ferroptotic uptake) and insufficient eryptosis/under-clearance (hemolysis cascade, persistent procoagulant PS-positive cells, lost Plasmodium clearance) — the mechanistic but undemonstrated adrenochrome crossover, and the longevity positioning.",
+                "path": "pages/en-US/eryptosis-evidence-synthesis.html"
+            },
+            "zh-TW": {
+                "title": "Eryptosis 紅血球凋亡 — 過度死亡訊號、清除不足與腎上腺素紅交叉",
+                "description": "Eryptosis（紅血球調控性死亡）的證據分級綜述：Ca²⁺ 驅動、磷脂醯絲胺酸執行的機制核心；正常 eryptosis 比例未被量化的限制與疾病狀態下 PS 陽性比例的實測數據；兩種失效模式——過度 eryptosis（貧血伴 ESA 低反應、PS 介導的凝血酶生成、內皮黏附與鐵死亡攝入、微循環障礙）與清除不足／訊號不足（溶血級聯、持續促凝血的 PS 陽性細胞、瘧原蟲清除喪失）；機制上支持但實驗未證實的腎上腺素紅交叉；以及長壽研究定位。",
+                "path": "pages/zh-TW/eryptosis-evidence-synthesis.html"
+            }
+        },
+        "created": "2026-11-04",
+        "updated": "2026-11-05"
+    },
+    {
+        "id": "eat-me-dont-eat-me-signals",
+        "active": true,
+        "langs": {
+            "en-US": {
+                "title": "Eat-me and Don't-eat-me Signals — the Phagocytic Balance, Illustrated",
+                "description": "Illustrated guide to the pro-phagocytic (eat-me) and anti-phagocytic (don't-eat-me) cell-surface signals that govern efferocytosis and tumor-cell phagocytosis — an interactive three.js phagocytosis-decision model, a signal-balance chart, a signal-to-receptor wiring graph, a membrane-asymmetry flow diagram, an evidence-tier chart, and evidence-graded inventories of phosphatidylserine, calreticulin, CD47, CD24, PD-L1 and related axes.",
+                "path": "pages/en-US/eat-me-dont-eat-me-signals.html"
+            },
+            "zh-TW": {
+                "title": "「吃我」與「別吃我」訊號 — 吞噬決策的平衡（圖解）",
+                "description": "圖解促吞噬（「吃我」）與抗吞噬（「別吃我」）細胞表面訊號如何支配胞葬作用與腫瘤細胞吞噬：互動式 three.js 吞噬決策模型、訊號平衡圖、訊號→受體接線圖、膜不對稱流程圖、證據等級圖，以及磷脂醯絲胺酸、鈣網蛋白、CD47、CD24、PD-L1 等軸的證據分級清單。",
+                "path": "pages/zh-TW/eat-me-dont-eat-me-signals.html"
+            }
+        },
+        "created": "2026-11-08",
+        "updated": "2026-11-08"
     }
 ]

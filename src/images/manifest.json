@@ -10642,5 +10642,108 @@
         "ocr": "圖中無文字。棕櫚樹上懸掛著成串的橙色漿果，左側可見乾枯葉片，背景為綠色棕櫚葉，細長果梗支撐著密集的圓形果實。"
       }
     }
+  },
+  {
+    "id": "n-20261111-mitodys-inflammaging-fig1-00",
+    "document": "_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence.md",
+    "entities": [
+      "Apoptosis",
+      "Necroptosis",
+      "Pyroptosis",
+      "Ferroptosis",
+      "Cytochrome c",
+      "Apoptosome",
+      "Caspase-9",
+      "NLRP3",
+      "Gasdermin D",
+      "IL-1β",
+      "MLKL",
+      "Mitochondrial Permeability Transition",
+      "Reactive Oxygen Species",
+      "Cardiolipin",
+      "mtDNA",
+      "cGAS-STING Pathway",
+      "SASP",
+      "Senescence",
+      "System Xc-",
+      "Glutathione",
+      "Lipid Peroxidation"
+    ],
+    "tags": [
+      "cell-death",
+      "diagrams-charts",
+      "inflammation",
+      "mitochondria",
+      "innate-immunity",
+      "redox"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "11357_2026_2588_Fig1_HTML.jpg"
+      }
+    ],
+    "annotations": [],
+    "created": "2026-11-11",
+    "updated": "2026-11-11",
+    "author": "you",
+    "draft": false,
+    "translations": {
+      "en-US": {
+        "title": "Fig. 1 — Distinct mitochondrial contributions to regulated cell death and inflammatory signalling",
+        "ocr": "A) INTRINSIC APOPTOSIS: STRESS, DNA DAMAGE; BCL-2 family (MOMP); Cyt c; SUBLETHAL MOMP; CYTOSOLIC mtDNA; cGAS-STING; INFLAMMATION / SASP; SENESCENCE; IMPAIRED apoptotic execution; APAPTOSOME (sic); CASPASE-9; EXECUTIONER CASPASES; CLEAN REMOVAL / SILENT CELL DEATH.\nB) NECROPTOSIS: TNF-R1, TLR3/4; Necrosome (RIPK1-RIPK3); MLKL; MPT; ROS; MITOCHONDRIAL CROSSTALK; MEMBRANE RUPTURE (MLKL); INFLAMMATORY DEATH / DAMPs RELEASE.\nC) PYRROPTOSIS (as printed): Mitochondrial dysfunction; PAMPs, DAMPs; INFLAMMASOME (NLRP3, ASC); CARDIOLIPIN; mtDNA; CASPASE-1; GASDERMIN D (GSDMD); GSDMD PORE FORMATION; CYTOKINE RELEASE (IL-1β, IL-18); PYRROPTOSIS / INFLAMMATORY DEATH; ROS; MITOCHONDRIAL.\nD) FERROPTOSIS: SYSTEM Xc-; GSH (depletion); Fe; TCA CYCLE / ELECTRON TRANSPORT; ROS; MITOCHONDRIAL; POLYUNSATURATED FATTY ACIDS (PUFA); Lipid peroxidation; Ferroptotic death; Membrane rupture.\nFigure caption: Distinct mitochondrial contributions to regulated cell death and inflammatory signalling. A Intrinsic apoptosis: stress and DNA damage promote MOMP, cytochrome c release, apoptosome assembly, caspase-9 and executioner caspase activation; a sublethal minority-MOMP branch releases cytosolic mtDNA and activates cGAS-STING, contributing to SASP regulation and senescence. B Necroptosis: RIPK3-dependent MLKL activation permeabilizes the plasma membrane and releases DAMPs; mitochondrial ROS and MPT modulate the pathway in specific settings. C Pyroptosis: the NLRP3 inflammasome activates caspase-1, cleaving gasdermin D; GSDMD pores permit IL-1β/IL-18 release, amplified by mitochondrial ROS, cardiolipin redistribution, and mtDNA release. D Ferroptosis: iron-dependent peroxidation of PUFA-containing phospholipids causes lethal membrane damage; system Xc- inhibition and reduced GSH sensitize cells; mitochondrial metabolism contributes stimulus-dependently.\nSource: Nesci S, Algieri C. Mitochondrial dysfunction and inflammaging: a mechanistic bridge between bioenergetic failure and senescence. GeroScience. 2026. doi:10.1007/s11357-026-02588-y Figure 1."
+      },
+      "zh-TW": {
+        "title": "圖1 — 粒線體對調節性細胞死亡與發炎訊號的不同貢獻",
+        "ocr": ""
+      }
+    }
+  },
+  {
+    "id": "n-20261111-mitodys-inflammaging-fig2-00",
+    "document": "_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence.md",
+    "entities": [
+      "Senescence",
+      "SASP",
+      "Inflammaging",
+      "NAD+",
+      "p53",
+      "AMPK",
+      "Mitophagy",
+      "mtDNA",
+      "Cytochrome c",
+      "Mitochondrial ROS",
+      "Telomere"
+    ],
+    "tags": [
+      "senescence",
+      "diagrams-charts",
+      "sasp",
+      "inflammation",
+      "mitochondria",
+      "nad-metabolism",
+      "redox"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "11357_2026_2588_Fig2_HTML.png"
+      }
+    ],
+    "annotations": [],
+    "created": "2026-11-11",
+    "updated": "2026-11-11",
+    "author": "you",
+    "draft": false,
+    "translations": {
+      "en-US": {
+        "title": "Fig. 2 — MiDAS and mitochondrial DAMP signaling as drivers of inflammaging",
+        "ocr": "Mitochondrial Dysfunction as a Driver of Senescence and Inflammaging\nA) Mitochondrial Dysfunction: NAD+/NADH decreased; ROS increased; Mitochondrial DNA Mutations; Impaired Mitophagy; Metabolic & Redox Imbalance; AMPK-dependent p53 activation; Senescence or regulated cell death.\nB) MiDAS Senescence: NON-CANONICAL SASP; Remodeled, Context-Dependent SASP; Altered: Nucleotide metabolism, Calcium handling, Redox-signalling; Pro-Inflammatory Signals (Self-Reinforcing Loop); Mitochondrial DAMPs; ROS and telomere-associated damage.\nC) Inflammaging: Mitochondrial DAMPs (mtDNA, cytochrome c, high mitochondrial stress); Chronic Inflammation; Paracrine Dysfunction; Accumulation senescent cells; Tissue Dysfunction.\nFigure caption: MiDAS and mitochondrial DAMP signaling as drivers of inflammaging. Mitochondrial dysfunction (decreased NAD+/NADH, increased ROS, mtDNA mutations, impaired mitophagy) promotes AMPK-dependent p53 activation and senescence or regulated cell death; MiDAS carries a remodelled, context-dependent SASP with mitochondrial DAMP release (mtDNA, cytochrome c); mitochondrial DAMPs drive chronic sterile inflammation, paracrine dysfunction, senescent-cell accumulation, and tissue dysfunction, in a self-reinforcing cycle.\nSource: Nesci S, Algieri C. Mitochondrial dysfunction and inflammaging: a mechanistic bridge between bioenergetic failure and senescence. GeroScience. 2026. doi:10.1007/s11357-026-02588-y Figure 2."
+      },
+      "zh-TW": {
+        "title": "圖2 — MiDAS 與粒線體 DAMP 訊號驅動發炎老化",
+        "ocr": ""
+      }
+    }
   }
 ]

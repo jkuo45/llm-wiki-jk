@@ -25,6 +25,7 @@
   var SPANS = []; // data-tip spans, refreshed once nodes.json lands
 
   var CTX_URL = "../../data/nodes.json";
+  var DESC_URL = "../../data/node-desc.json"; // {id:{en,zh}} prose sidecar
   var MAP = null; // populated after fetch
   // zh-Hant pages read the Traditional-Chinese descriptions; en pages the English.
   var ZH = (document.documentElement.lang || "").toLowerCase().indexOf("zh") === 0;
@@ -43,12 +44,14 @@
 
   // Build lookup maps from nodes.json (a top-level array of node objects):
   // keyed by node label (exact and lowercase) and by normalized node id.
-  function buildMap(nodes) {
+  // The prose lives in node-desc.json ({id:{en,zh}}), joined by id.
+  function buildMap(nodes, descMap) {
     var byLabel = {}, byId = {};
     (nodes || []).forEach(function (n) {
-      // description_zh_TW covers only the triples-derived nodes; fall back to the
+      var entry = (descMap && descMap[n.id]) || {};
+      // The zh sidecar covers only translated nodes; fall back to the
       // English description so zh pages stay as complete as en pages.
-      var desc = (ZH && n.description_zh_TW) || n.description;
+      var desc = (ZH && entry.zh) || entry.en || n.description;
       if (!desc) return;
       var info = { description: desc, label: n.label };
       byId[n.id] = info;
@@ -212,10 +215,12 @@
       return;
     }
     if (typeof fetch !== "function") return;
-    fetch(CTX_URL)
-      .then(function (r) { return r.ok ? r.json() : Promise.reject(); })
-      .then(function (nodes) {
-        MAP = buildMap(nodes);
+    Promise.all([
+      fetch(CTX_URL).then(function (r) { return r.ok ? r.json() : Promise.reject(); }),
+      fetch(DESC_URL).then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return {}; }),
+    ])
+      .then(function (pair) {
+        MAP = buildMap(pair[0], pair[1]);
         if (!NETTIP) refreshDataTips();
       })
       .catch(function () { /* tooltips stay unavailable; highlight still works */ });

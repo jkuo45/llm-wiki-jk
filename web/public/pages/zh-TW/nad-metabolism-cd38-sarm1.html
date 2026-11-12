@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>NAD+ 代謝 — 受質供應、酵素消耗，與 CD38–SARM1 競爭</title>
-<meta name="description" content="NAD+ 代謝視覺化綜述：此輔因子的三種功能類別（催化、氧化還原、訊號）、補救路徑與 Preiss–Handler 生合成路徑、四種 NAD+ 消耗酵素系統的階層（CD38、SARM1、PARP1、sirtuin）、NMN 連結與 CD38 抑制的悖論及其文獻裁決、當前知識圖譜上 NAD+ 模組的指標、以「抑制哪一條消耗路徑」組織的治療版圖、NAD+ 代謝的性別分歧，以及知識庫自身標記的開放問題。">
+<meta name="description" content="NAD+ 代謝綜述：NAD+ 作為共享受質池的三種功能類別（催化輔底物、氧化還原、訊號分子）、補救路徑與 Preiss–Handler 生合成路徑、四種 NAD+ 消耗酵素系統（CD38、SARM1、PARP1、sirtuin）在不同區室與時間尺度的消耗、以 NMN/NAD+ 比值觸發 SARM1 活化的機制與 CD38 抑制相關的競爭假說及其軸切術資料、當前合併聯集圖譜中 NAD+ 模組的度數／k-core／聚類係數與社群指派、依消耗路徑分類的介入措施、NAD+ 代謝的性別分層差異，以及知識庫中尚未解決的問題。78c 壽命延長約 14% 為雄性小鼠結果；CD38+SARM1 協同屬未經檢驗的假說；人體 NAD+ 前驅物試驗未重現囓齒類報告的表型效果。">
 <link rel="canonical" href="https://graph.johnnykuo.com/pages/zh-TW/nad-metabolism-cd38-sarm1.html">
 <link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/nad-metabolism-cd38-sarm1.html">
 <link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/nad-metabolism-cd38-sarm1.html">
@@ -34,7 +34,7 @@
     <a id="back-home" class="back-home" href="../index.html" title="返回文章索引">&#8592; 返回</a>
     <a class="n" href="#pool">受質池</a>
     <a class="n" href="#supply">生合成</a>
-    <a class="n" href="#drain">消耗途徑</a>
+    <a class="n" href="#drain">消耗路徑</a>
     <a class="n" href="#cd38">CD38</a>
     <a class="n" href="#sarm1">SARM1</a>
     <a class="n" href="#bridge">NMN 連結</a>
@@ -51,13 +51,11 @@
     <div class="kicker">NAD+ 代謝 · CD38 · SARM1 · 2026</div>
     <h1>NAD+ 代謝 — 受質供應、酵素消耗，與 CD38–SARM1 競爭</h1>
     <p class="lead" style="margin-top:14px;">
-      <b style="color:var(--text)">NAD+</b> 通常被描述為一個「需要補滿的濃度」。其背後的酵素學約束更為嚴格：NAD+ 是一個共享的受質池，
-      至少被四種酵素系統在不同區室、不同時間尺度上消耗，而各者造成的受質不足最終都傳遞至同一個下游標的——
-      <b style="color:var(--text)">依賴 NAD+ 的 sirtuin 催化反應</b>。
-      本頁依序處理生合成路徑、NAD+ 消耗酵素的階層、主導通量的兩種 NADase
-      （<b style="color:var(--text)">CD38</b>——恆定表現於胞外；<b style="color:var(--text)">SARM1</b>——在神經元內急性的胞內作用）、
-      將兩者連結起來的 <b style="color:var(--text)">NMN</b> 代謝物與其衍生的藥理學悖論，以及限制該悖論範圍的軸切術數據。
-      結尾則是 NAD+ 模組在當前知識圖譜上的讀數、以<i>抑制哪一條消耗路徑</i>組織的治療版圖，以及決定 NAD+ 補充是否需要分層的性別分歧。
+      <b style="color:var(--text)">NAD+</b> 為共享受質池，至少受四種酵素系統在不同區室與時間尺度上消耗；所產生的受質不足會降低 <b style="color:var(--text)">依賴 NAD+ 的 sirtuin 活性</b>。
+      本頁報告生合成路徑、NAD+ 消耗酵素的階層、主導通量的兩種 NADase
+      （<b style="color:var(--text)">CD38</b>，恆定表現於胞外；<b style="color:var(--text)">SARM1</b>，在神經元內急性作用）、
+      連結兩者的 <b style="color:var(--text)">NMN</b> 代謝物、CD38 抑制與 SARM1 活化的競爭假說，以及與該假說相關的軸切術資料。
+      並報告 NAD+ 模組在當前知識圖譜上的指標、依消耗路徑分類的介入措施，以及 NAD+ 代謝的性別分層差異。
     </p>
     <div class="meta">
       來源：知識庫筆記
@@ -75,10 +73,10 @@
       <a class="badge teal" href="#pool">NAD+ 受質池 · 三種類別</a>
       <a class="badge" href="#drain">四種消耗者：CD38 · SARM1 · PARP1 · sirtuin</a>
       <a class="badge red" href="#bridge">NMN/NAD+ 比值 = SARM1 觸發器</a>
-      <a class="badge amber" href="#bridge">悖論：CD38 抑制 vs SARM1 敏化</a>
+      <a class="badge amber" href="#bridge">假說：CD38 抑制與 SARM1 活化</a>
       <a class="badge" href="#graph">圖譜：277 鄰居 · k-core 20</a>
       <a class="badge" href="#sex">性別分歧：PARP-1 vs CD38</a>
-      <a class="badge speculative" href="#gaps">開放：無直接研究</a>
+      <a class="badge speculative" href="#gaps">未解決：無直接研究</a>
     </div>
   </div>
 </header>
@@ -95,12 +93,12 @@
     </p>
 
     <div class="callout teal">
-      <span class="callout-tag">核心論點</span>
+      <span class="callout-tag">共享受質池</span>
       <p>
-        細胞內 NAD+ <b>並非一個可以單純補滿的靜態數值</b>——它是一個共享的受質池，至少被四種酵素系統在不同時間尺度上消耗，
-        而各者造成的受質不足都匯流至同一個下游標的：sirtuin 催化的反應。
-        sirtuin 本身也是消耗者：每次去乙醯化都水解掉一個 NAD+，產生菸鹼醯胺與 OAADPr。
-        因此 NAD+ 的補充在代謝上從來不是中性的。
+        細胞內 NAD+ <b>無法在不改變消耗的情況下單靠補充回復</b>——它是一個共享的受質池，至少被四種酵素系統在不同時間尺度上消耗，
+        而各者造成的受質不足均降低依賴 NAD+ 的 sirtuin 活性。
+        sirtuin 本身也是消耗者：每次去乙醯化水解一個 NAD+，產生菸鹼醯胺與 OAADPr。
+        因此補充 NAD+ 同時供應四種消耗酵素系統，受質池的淨濃度由補充與消耗速率共同決定。
       </p>
     </div>
 
@@ -124,13 +122,13 @@
           <tr>
             <td><b>氧化還原</b></td>
             <td>GAPDH、IDH、3-KGDH、複合體 I</td>
-            <td>糖解與呼吸崩潰；NADH:NAD+ 比值偏向還原態</td>
+            <td>糖解與呼吸通量降低；NADH:NAD+ 比值偏向還原態</td>
             <td>能量</td>
           </tr>
           <tr>
             <td><b>訊號</b></td>
             <td>CD38、SARM1（cADPR / NAADP 合成）</td>
-            <td>Ca²⁺ 釋放失調；該訊使本身即為 NAD+ 分解的產物</td>
+            <td>Ca²⁺ 釋放失調；該訊號分子本身即為 NAD+ 分解的產物</td>
             <td>訊息</td>
           </tr>
         </tbody>
@@ -138,8 +136,8 @@
     </div>
 
     <p class="metric-note">
-      還有第四種角色容易被忽略：NAD+ 同時也是<b>媒介細胞死亡之酵素的受質</b>。
-      PARP1 在 DNA 修復期間消耗它，而本頁的兩種 NADase 則以其催化反應消耗它。同一個受質池因而既是反應受質，也是受質不足的承受者。
+      還有第四種角色已有記載：NAD+ 同時也是<b>媒介細胞死亡之酵素的受質</b>。
+      PARP1 在 DNA 修復期間消耗它，而本頁的兩種 NADase 則以其催化反應消耗它。NAD+ 既是這些酵素的受質，也是其活性所耗盡的受質池。
     </p>
   </section>
 
@@ -148,7 +146,7 @@
     <h2>供應 — 三條入口，一個限速酵素</h2>
     <p>
       在大多數哺乳動物組織中，補救（salvage）路徑是細胞 NAD+ 的主要來源：它把 NAD+ 消耗酵素產生的菸鹼醯胺重新回收。
-      兩個酵素完成這項工作——限速的 <b>NAMPT</b>，以及完成轉換的 <b>NMNAT</b>。
+      兩個酵素催化此反應序列——限速的 <b>NAMPT</b>，以及完成轉換的 <b>NMNAT</b>。
     </p>
 
     <div class="tbl-wrap" style="margin-top:18px;">
@@ -163,7 +161,7 @@
         </thead>
         <tbody>
           <tr>
-            <td><b>補救路徑</b>（主力）</td>
+            <td><b>補救路徑</b>（主要）</td>
             <td>NAMPT → NMNAT</td>
             <td>菸鹼醯胺（NAM）</td>
             <td>NAMPT 活性隨年齡在許多組織下降——合成能力衰退</td>
@@ -185,17 +183,17 @@
     </div>
 
     <p>
-      <b>NAMPT 是同一個酵素在兩種相反策略中的角色。</b>在長壽研究中它是該<i>保留</i>的總調節因子——受
-      CLOCK:BMAL1 晝夜節律控制，在能量壓力下被 AMPK 活化，也是 resveratrol 經 PDE4 抑制、最終提升 NAD+ 與 SIRT1 活性的路徑。
-      在腫瘤學中它卻是該<i>抑制</i>的標的：FK866 耗竭 NAD+，讓 PARP 驅動的 DNA 修復在腫瘤細胞中失效。
-      同一酵素，相反目的，而理由相同：NAD+ 就是那個通用貨幣。
+      <b>NAMPT 是兩項相反介入策略中的限速酵素。</b>長壽策略保留 NAMPT 活性；NAMPT 受
+      CLOCK:BMAL1 晝夜節律控制，在能量壓力下被 AMPK 活化，並媒介 resveratrol 經 PDE4 抑制後提升 NAD+ 與 SIRT1 活性的路徑。
+      腫瘤學策略抑制 NAMPT：FK866 耗竭 NAD+，使 PARP 驅動的 DNA 修復在腫瘤細胞中失效。
+      兩項策略作用於同一個限速步驟。
     </p>
 
     <div class="callout">
-      <span class="callout-tag">前驅物的效力由消耗者把關</span>
+      <span class="callout-tag">CD38 活性限制前驅物生體可用率</span>
       <p>
-        補充劑並非單純地往池裡加東西。<b>CD38 會降解胞外 NMN 與 NR</b>，因此前驅物的生體可用性，是由那個在老化時升高的酵素所決定。
-        任何以 NR 或 NMN 為基礎的方案，隱含地都必須同時處理 CD38。
+        口服 NR 與 NMN 為胞外 CD38 的受質。<b>CD38 會降解胞外 NMN 與 NR</b>，因此前驅物生體可用率取決於 CD38 活性；CD38 表現隨年齡上升。
+        以 NR 或 NMN 為基礎的方案因此受 CD38 活性影響。
       </p>
     </div>
   </section>
@@ -204,8 +202,8 @@
   <section id="drain">
     <h2>NAD+ 消耗 — NAD+ 利用酵素的階層</h2>
     <p>
-      四種酵素系統爭用同一個受質池。它們在細胞區室、動力學時間尺度與失效表型上都不同——這就是為什麼它們構成四個
-      各自獨立的治療標的，而非一個可用「NAD+ 過低」概括的單一問題。
+      四種酵素系統爭用同一個受質池，在細胞區室、動力學時間尺度與失效表型上各不相同，因此構成四個
+      各自獨立的治療標的，而非可以「NAD+ 過低」概括的單一問題。
     </p>
 
     <figure class="fig">
@@ -244,7 +242,7 @@
           <text x="833" y="72" text-anchor="middle" font-size="10.5" class="s-dim">細胞內 · 軸突</text>
           <text x="833" y="90" text-anchor="middle" font-size="10.5" class="s-mute">急性 · 分鐘</text>
           <text x="833" y="108" text-anchor="middle" font-size="10.5" class="s-mute">觸發：損傷 &#8594; NMNAT2 流失</text>
-          <text x="833" y="128" text-anchor="middle" font-size="10.5" class="s-amber">NAD+ &#8594; ~0 · 華勒氏 degeneration</text>
+          <text x="833" y="128" text-anchor="middle" font-size="10.5" class="s-amber">NAD+ &#8594; ~0 · 華勒氏退化</text>
 
           <rect x="24" y="326" width="286" height="118" rx="12" class="panel-f stroke-line" fill-opacity="0.55"/>
           <text x="167" y="352" text-anchor="middle" font-size="14" font-weight="700" class="s-purple">PARP1 / PARP2</text>
@@ -267,9 +265,9 @@
 
           <rect x="330" y="326" width="340" height="96" rx="14" class="red-f" fill-opacity="0.12"/>
           <rect x="330" y="326" width="340" height="96" rx="14" class="stroke-line2" fill="none"/>
-          <text x="500" y="356" text-anchor="middle" font-size="14" font-weight="700" class="s-red">匯流的下游效應</text>
+          <text x="500" y="356" text-anchor="middle" font-size="14" font-weight="700" class="s-red">共同的下游效應</text>
           <text x="500" y="378" text-anchor="middle" font-size="11.5" class="s-dim">sirtuin 活性下降 · 氧化還原恆定受損</text>
-          <text x="500" y="398" text-anchor="middle" font-size="10.5" class="s-mute">ROS &#8593; · ATP &#8595; · 應激反應喪失</text>
+          <text x="500" y="398" text-anchor="middle" font-size="10.5" class="s-mute">ROS &#8593; · ATP &#8595; · 壓力反應訊號降低</text>
 
           <path d="M500,100 L500,190" class="stroke-line2" fill="none" marker-end="url(#dArrT)" stroke-width="1.6"/>
           <rect x="380" y="62" width="240" height="34" rx="9" class="teal-f" fill-opacity="0.10"/>
@@ -281,11 +279,11 @@
           <text x="500" y="468" text-anchor="middle" font-size="10.5" class="s-mute">CD73 是同一胞外區室中的第五個競爭者，把 NAD+ 轉為腺苷。</text>
         </svg>
       </div>
-      <figcaption class="fig-cap"><b>圖 1 — NAD+ 消耗酵素的階層。</b>
+      <figcaption class="fig-cap"><b>圖 1 — 四種酵素系統的 NAD+ 消耗。</b>
         四種酵素系統爭用同一個共享的受質池。上方的兩種 NADase 是本頁主題；PARP1/2 在 DNA 修復期間消耗細胞核中的 NAD+；
         sirtuin 則以催化輔底物的身分消耗 NAD+，因此既是受調控的生理過程，也是同一個池的競爭性消耗者。
         補充由上方經補救路徑進入這個池。自池出發的箭頭表示 NAD+ 分配給四種消耗酵素系統；
-        池下方的虛線箭頭則表示受質不足的傳遞——四者造成的不足都匯流至同一種下游表型：
+        池下方的虛線箭頭則表示受質不足的傳遞——四者造成的不足均導致同一種下游表型：
         sirtuin 活性下降與氧化還原恆定受損。
         用戶端 SVG，採用 theme-01 配色類別——隨站台明暗切換主題。</figcaption>
     </figure>
@@ -314,7 +312,7 @@
             <td>細胞內（軸突）</td>
             <td>數分鐘</td>
             <td>軸突損傷 → NMNAT2 流失</td>
-            <td>NAD+ → ~0；華勒氏 degeneration</td>
+            <td>NAD+ → ~0；華勒氏退化</td>
           </tr>
           <tr>
             <td><b>PARP1 / PARP2</b></td>
@@ -349,10 +347,10 @@
 
   <!-- ==================== CD38 ==================== -->
   <section id="cd38">
-    <h2>CD38 — 慢性的消耗者</h2>
+    <h2>CD38 — 慢性胞外 NAD+ 消耗</h2>
     <p>
-      CD38 是一個雙功能胞外酵素，也是知識庫圖譜中老化相關最大的 NAD+ 消耗者。它催化四種反應，而它們的重要性各不相同：
-      一種消耗池、一種把關前驅物，另有兩種從同一個消耗過程中產生鈣離子訊號。
+      CD38 是一個雙功能胞外酵素，也是知識庫圖譜中老化相關的主要 NAD+ 消耗者。它催化四種反應：
+      一種消耗 NAD+ 池、一種限制前驅物生體可用率，另有兩種從同一個消耗過程中產生鈣離子訊號。
     </p>
 
     <div class="tbl-wrap" style="margin-top:18px;">
@@ -368,7 +366,7 @@
           <tr>
             <td><b>NAD+ 糖苷水解酶</b></td>
             <td>NAD+ → ADP-核糖 + 菸鹼醯胺</td>
-            <td>主要的 NAD+ 消耗——就是那個消耗者</td>
+            <td>主要的 NAD+ 消耗</td>
           </tr>
           <tr>
             <td><b>ADP-核糖基環化酶</b></td>
@@ -383,24 +381,24 @@
           <tr>
             <td><b>胞外 NMN 酶</b></td>
             <td>胞外 NMN → 菸鹼醯胺 + 核糖</td>
-            <td>胞外 NMN 池的守門人——也因此決定了補充劑的藥動學</td>
+            <td>限制胞外 NMN 池的可用性，並決定前驅物的藥動學</td>
           </tr>
         </tbody>
       </table>
     </div>
 
     <p>
-      與 SARM1 的動力學差異，正是 CD38 成為<i>優先</i>消耗者的原因：它的 K<sub>m</sub> 較低。
-      SARM1 則有較高的 NAD-環化活性。相同底物、相同產物，不同動力學、不同區室。
+      CD38 的 K<sub>m</sub> 低於 SARM1，因此對 NAD+ 的親和力較高。
+      SARM1 則有較高的 NAD-環化活性。兩者使用相同受質、產生相同產物，但動力學與細胞區室不同。
     </p>
 
-    <h3>老化為何把它打開</h3>
+    <h3>CD38 隨年齡上升的調控</h3>
     <p>
-      CD38 的表現隨年齡上升，部分由發炎性老化以及 CD38 高表現免疫細胞——巨噬細胞與 T 細胞——浸入
-      白色脂肪組織、肝臟與腦部所驅動。圖譜直接編碼了這點：CD38 連著
+      CD38 的表現隨年齡上升，部分由發炎性老化以及 CD38 高表現免疫細胞——巨噬細胞與 T 細胞——浸潤
+      白色脂肪組織、肝臟與腦部所驅動。CD38 透過圖譜中儲存的邊連接到
       <code>increases_with → Aging</code>、<code>is_upregulated_on → Neutrophils</code>、
       <code>overexpress → CD4+ T Cells</code>，並連向 <code>Inflammaging</code>、<code>Inflammation</code>、
-      <code>Tumor Microenvironment</code> 與 <code>Microglia</code>。知識庫描述的老化序列是：
+      <code>Tumor Microenvironment</code> 與 <code>Microglia</code>。知識庫報告的序列為：
       衰老細胞 → SASP → 招募 CD38+ 免疫細胞 → 胞外 NAD+ 與 NMN 降解 → 實質細胞缺乏前驅物。
     </p>
 
@@ -435,7 +433,7 @@
             <td>限制前驅物生體可用性；可由 CD38 抑制劑調節</td>
           </tr>
           <tr>
-            <td>CD38+ 免疫細胞浸入老化組織</td>
+            <td>CD38+ 免疫細胞浸潤老化組織</td>
             <td>小鼠白色脂肪組織、肝臟</td>
             <td>Covarrubias 等 2020，<i>Nature Metabolism</i>（PMID 33028765）</td>
           </tr>
@@ -444,7 +442,7 @@
     </div>
 
     <p>
-      圖譜中 CD38 的邊清單值得當成一張藥理機會地圖來讀：
+      圖譜中的 CD38 邊清單包含：
       <code>degrades → NAD+</code>、<code>degrades → Nicotinamide Mononucleotide</code>、
       <code>degrades → Nicotinamide Riboside</code>、<code>boosts → SIRT3</code>、
       <code>produces → Nicotinamide</code>、<code>produces → cADP-Ribose</code>、
@@ -457,10 +455,10 @@
 
   <!-- ==================== SARM1 ==================== -->
   <section id="sarm1">
-    <h2>SARM1 — 急性的消耗者</h2>
+    <h2>SARM1 — 急性軸突 NAD+ 消耗</h2>
     <p>
       SARM1（Sterile Alpha and TIR Motif Containing 1，約 724 個胺基酸／約 80 kDa）是 TIR 結構域家族中第一個
-      具有內在 NADase 活性者，也是華勒氏退化的執行者。它的架構是一套三段式自抑制機制，附帶一個催化開關。
+      具有內在 NADase 活性者，媒介華勒氏退化。其三個結構域媒介自抑制與活化。
     </p>
 
     <div class="tbl-wrap" style="margin-top:18px;">
@@ -474,9 +472,9 @@
         </thead>
         <tbody>
           <tr>
-            <td><b>ARM 重复</b>（N 端）</td>
-            <td>螺旋狀 armadillo 重复；含 NMN 結合口袋</td>
-            <td>以順式（cis）方式貼合 TIR 結構域——這<i>就是</i>自抑制</td>
+            <td><b>ARM 重複</b>（N 端）</td>
+            <td>螺旋狀 armadillo 重複；含 NMN 結合口袋</td>
+            <td>以順式（cis）方式貼合 TIR 結構域——此交互作用維持自抑制</td>
           </tr>
           <tr>
             <td><b>SAM1 / SAM2</b>（中央）</td>
@@ -485,7 +483,7 @@
           </tr>
           <tr>
             <td><b>TIR 結構域</b>（C 端）</td>
-            <td>Rossmann 折叠的 NAD+ 糖苷水解酶核心</td>
+            <td>Rossmann 折疊的 NAD+ 糖苷水解酶核心</td>
             <td>自抑制時被 ARM 阻擋；解除後形成複合活性位</td>
           </tr>
         </tbody>
@@ -495,7 +493,7 @@
     <figure class="fig" style="margin-top:20px;">
       <div class="fig-canvas">
         <svg id="sarmSvg" viewBox="0 0 1000 380" role="img" aria-labelledby="sarmSvgTitle">
-          <title id="sarmSvgTitle">SARM1 三階段活化 — 恆定態、觸發、崩潰</title>
+          <title id="sarmSvgTitle">SARM1 三階段活化 — 恆定態、觸發、NAD+ 耗竭</title>
           <defs>
             <marker id="sArr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
               <path d="M0,1 L9,5 L0,9 z" class="s-dim"/>
@@ -512,7 +510,7 @@
           <text x="165" y="50" text-anchor="middle" font-size="12.5" font-weight="700" letter-spacing="2" class="s-teal">階段 1 · 恆定態</text>
           <rect x="46" y="72" width="238" height="52" rx="9" class="teal-f" fill-opacity="0.10"/>
           <text x="165" y="94" text-anchor="middle" font-size="11.5" font-weight="700" class="s-teal">NMNAT2 由胞體持續運送</text>
-          <text x="165" y="112" text-anchor="middle" font-size="10.5" class="s-dim">t&#189; ~30 分鐘 · 維持 NMN &#8594; NAD+</text>
+          <text x="165" y="112" text-anchor="middle" font-size="10.5" class="s-dim">t&#189; ~30 分鐘 · 維持 NMN &#8594; NAD+ 轉換</text>
           <rect x="46" y="140" width="238" height="46" rx="9" class="teal-f" fill-opacity="0.10"/>
           <text x="165" y="160" text-anchor="middle" font-size="11.5" font-weight="700" class="s-teal">軸突 NAD+ ~400 &#181;M</text>
           <text x="165" y="178" text-anchor="middle" font-size="10.5" class="s-dim">NMN/NAD+ 比值低</text>
@@ -538,7 +536,7 @@
           <text x="500" y="296" text-anchor="middle" font-size="11.5" font-weight="700" class="s-amber">NMN 結合 ARM 口袋</text>
 
           <rect x="690" y="24" width="290" height="300" rx="13" class="panel-f stroke-line" fill-opacity="0.5"/>
-          <text x="835" y="50" text-anchor="middle" font-size="12.5" font-weight="700" letter-spacing="2" class="s-red">階段 3 · 崩潰</text>
+          <text x="835" y="50" text-anchor="middle" font-size="12.5" font-weight="700" letter-spacing="2" class="s-red">階段 3 · NADase 活化</text>
           <rect x="716" y="72" width="238" height="46" rx="9" class="red-f" fill-opacity="0.12"/>
           <text x="835" y="92" text-anchor="middle" font-size="11.5" font-weight="700" class="s-red">SAM 八聚體組裝</text>
           <text x="835" y="110" text-anchor="middle" font-size="10.5" class="s-dim">TIR 跨次單元二聚化</text>
@@ -549,50 +547,50 @@
           <text x="835" y="216" text-anchor="middle" font-size="11.5" font-weight="700" class="s-red">軸突 NAD+ &#8594; ~0</text>
           <text x="835" y="234" text-anchor="middle" font-size="10.5" class="s-dim">數分鐘之內</text>
           <rect x="716" y="258" width="238" height="50" rx="9" class="red-f" fill-opacity="0.12"/>
-          <text x="835" y="278" text-anchor="middle" font-size="11.5" font-weight="700" class="s-red">ATP 崩潰 &#8594; Ca&#178;&#8314;</text>
+          <text x="835" y="278" text-anchor="middle" font-size="11.5" font-weight="700" class="s-red">ATP 降低 &#8594; Ca&#178;&#8314;</text>
           <text x="835" y="296" text-anchor="middle" font-size="10.5" class="s-dim">calpain &#8594; 華勒氏退化</text>
 
           <path d="M312,174 L351,174" class="stroke-line2" fill="none" marker-end="url(#sArr)" stroke-width="1.8"/>
           <path d="M647,174 L686,174" class="stroke-line2" fill="none" marker-end="url(#sArrR)" stroke-width="1.8"/>
 
-          <text x="500" y="352" text-anchor="middle" font-size="10.5" class="s-mute">損傷後 30–60 分鐘內，軸突在結構與功能上已然消失。SARM1 敲除小鼠對華勒氏退化具有高度抵抗性。</text>
+          <text x="500" y="352" text-anchor="middle" font-size="10.5" class="s-mute">小鼠模式中，損傷後 30–60 分鐘內報告有軸突變性。SARM1 基因剔除小鼠對華勒氏退化表現抗性。</text>
         </svg>
       </div>
-      <figcaption class="fig-cap"><b>圖 2 — 軸突 NAD+ 崩潰的三階段。</b>
-        SARM1 是 NMN/NAD+ 比值的代謝感測器，而讓比值移動的是損傷情境。
-        階段 1 以 ARM–TIR 自抑制將酵素關閉，此時 NAD+ 高、NAM 存在。階段 2 切斷軸突的 NMNAT2 供應，
+      <figcaption class="fig-cap"><b>圖 2 — 軸突中三階段 SARM1 活化。</b>
+        SARM1 活化取決於 NMN/NAD+ 比值；損傷透過移除 NMNAT2 改變該比值。
+        階段 1：ARM–TIR 交互作用維持自抑制，此時 NAD+ 高、NAM 存在。階段 2 切斷軸突的 NMNAT2 供應，
         NMN 累積並結合 ARM 口袋解除自抑制——觸發器是比值而非絕對 NMN 量。階段 3 組裝八聚體 NADase，
-        在數分鐘內將軸突 NAD+ 抽至接近零，ATP 隨之崩潰。機制依知識庫 SARM1 筆記；
+        在數分鐘內將軸突 NAD+ 降至接近零並降低 ATP。機制依知識庫 SARM1 筆記；
         比值感測器依 Figley 等 2021（<i>Neuron</i>）。用戶端 SVG，採用 theme-01 配色類別——隨站台明暗切換主題。</figcaption>
     </figure>
 
     <p>
       觸發器是 <b>NMN/NAD+ 比值</b>，而非絕對 NMN 量：NMN 與 NAD+ 競爭同一個 ARM 結構域口袋，
-      Figley 等 2021 確立比值才是主要的代謝感測器。這個區別，正是 CD38 悖論得以被裁決、而不只是被警告的原因——見下一節。
+      Figley 等 2021 報告比值為主要的代謝感測器。此區別亦決定 CD38 抑制與前驅物補充對 NMN/NAD+ 比值的影響。
     </p>
 
     <p>
       2025 年還發現第四種催化活性：<b>單-ADP-核糖基化（MARylation）</b>。SARM1 對自身與其他蛋白進行 MARylation，
-      其催化效率甚至<i>高於</i>其水解酶活性，而自我 MARylation 促進液態到固態的相變，把活化空間上限制在受損的軸突。
-      近期的研究也將 SARM1 與粒線體未折疊蛋白質反應（UPR<sup>mt</sup>）與粒線體自噬、
+      其催化效率<i>高於</i>其水解酶活性，而自我 MARylation 促進液態到固態的相變，把活化空間上限制在受損的軸突。
+      研究報告 SARM1 涉及粒線體未折疊蛋白質反應（UPR<sup>mt</sup>）與粒線體自噬、
       經 TRAF6 的 TIR 結構域 JNK/p38 訊號（獨立於 NADase 活性）、TLR3/TLR4 的負向調控，
-      以及 HSV-1 限制等現象連結起來。
+      以及 HSV-1 限制。
     </p>
   </section>
 
   <!-- ==================== BRIDGE ==================== -->
   <section id="bridge">
-    <h2>NMN 連結 — 與其衍生的藥理學悖論</h2>
+    <h2>CD38 與 SARM1 之間的 NMN 連結</h2>
     <p>
       兩種 NADase 由單一代謝物連結起來，而這個連結在細胞膜兩側是反向的。
     </p>
 
     <div class="callout red">
-      <span class="callout-tag">悖論</span>
+      <span class="callout-tag">CD38 抑制與 SARM1 活化：競爭假說</span>
       <p>
         CD38 降解<i>胞外</i> NMN；SARM1 則由<i>細胞內</i> NMN 累積所活化。
-        因此高 CD38 活性可能<i>保護</i>免於 SARM1 活化——也因此
-        <b>為了長壽而抑制 CD38，可能讓神經元對 SARM1 依賴性的華勒氏退化更加敏化。</b>
+        一項競爭假說提出，高 CD38 活性降低胞外 NMN，使 SARM1 維持低於活化閾值；
+        另一項假說提出，為長壽而抑制 CD38 可能提高神經元對 SARM1 依賴之軸突退化的敏感性。該推論尚未於人體驗證。
       </p>
     </div>
 
@@ -611,23 +609,23 @@
           </tr>
           <tr>
             <td><b>進入細胞的 NMN 減少</b></td>
-            <td>細胞內 NMN 較低，使 NMN/NAD+ 比值較低，讓 SARM1 遠離其閾值</td>
+            <td>細胞內 NMN 較低，使 NMN/NAD+ 比值低於 SARM1 活化閾值</td>
           </tr>
           <tr>
-            <td><b>損傷會逆轉它</b></td>
-            <td>NMNAT2 流失使 NMN 無論供應多少都不再被消耗——比值是從損傷那一側上升的，不是從供應那一側</td>
+            <td><b>損傷移除 NMNAT2</b></td>
+            <td>NMNAT2 流失使 NMN 不再被消耗；NMN/NAD+ 比值因 NMN 累積而上升，與供應量無關</td>
           </tr>
           <tr>
-            <td><b>前驅物補充才是尖銳處</b></td>
-            <td>NR/NMN 提升 NMN，卻不保證伴隨 NAD+ 的相應上升；Takaso 等 2020 明確指出「累積的 NMN 似乎是促退化酵素 SARM1 的活化劑」（PMID 33082370）</td>
+            <td><b>前驅物補充未伴隨補償性 NAD+ 上升</b></td>
+            <td>NR/NMN 提升 NMN，而未伴隨 NAD+ 的相應上升；Takaso 等 2020 報告「累積的 NMN 似乎是促退化酵素 SARM1 的活化劑」（PMID 33082370）</td>
           </tr>
         </tbody>
       </table>
     </div>
 
-    <h3>CZ-48 證明兩者可以藥理分離</h3>
+    <h3>CZ-48 對 CD38 與 SARM1 的相反作用</h3>
     <p>
-      CZ-48（sulfo-ara-F-NMN）是 CD38 與 SARM1 共享底物與產物、卻是兩個獨立酵素的最乾淨藥理證明。
+      CZ-48（sulfo-ara-F-NMN）對兩種 NADase 具相反作用，提供兩者可分的藥理學證據；兩者共享受質與產物，但為獨立酵素。
     </p>
 
     <div class="tbl-wrap" style="margin-top:14px;">
@@ -637,7 +635,7 @@
             <th style="width:24%;">化合物</th>
             <th style="width:26%;">對 CD38 的作用</th>
             <th style="width:26%;">對 SARM1 的作用</th>
-            <th style="width:24%;">解讀</th>
+            <th style="width:24%;">推論</th>
           </tr>
         </thead>
         <tbody>
@@ -653,27 +651,27 @@
 
     <p>
       它是知識庫中唯一對兩種 NADase 有相反作用的分子。在當前圖譜中，它位於 <code>NAD+</code> 社群內，
-      有 4 個相異鄰居、聚類係數 1.000——嚴格圖譜意義下的一個分歧節點。
+      有 4 個相異鄰居、聚類係數 1.000——在 wiki 層具有分歧邊符號的節點。
     </p>
 
     <div class="callout teal">
-      <span class="callout-tag">文獻實際上怎麼說</span>
+      <span class="callout-tag">已報告的軸切術結果</span>
       <p>
-        這個悖論作為<i>機制</i>確實成立，但軸切術數據並不支持它作為 CD38<i>抑制</i>的風險。
-        CD38 敲除小鼠在面神經軸切後表現出<b>延遲的</b>軸突退化（Takaso 等 2020）——與 SARM1 敏化的預期正好相反。
+        競爭假說在機制上與已報告資料一致；軸切術資料不支持其作為 CD38 抑制的風險。
+        CD38 基因剔除小鼠在面神經軸切後表現出<b>延遲的</b>軸突變性（Takaso 等 2020）——與 SARM1 敏化的預期相反。
       </p>
       <p style="margin-top:10px;">
-        裁決方式：觸發器是<b>比值</b>，而 CD38 剔除同時提升了 NAD+ 與 NMN，因此即使絕對 NMN 上升，
+        已報告的機制：觸發器是<b>比值</b>，而 CD38 剔除同時提升了 NAD+ 與 NMN，因此即使絕對 NMN 上升，
         NMN/NAD+ 比值仍然下降。單有 NMN 累積不足以活化 SARM1；還需要損傷特有的 NMNAT2 流失情境。
       </p>
       <p style="margin-top:10px;">
-        因此這項警示附著於<b>前驅物補充</b>（它提升 NMN 而沒有同等的代償性 NAD+ 上升），而非 CD38 抑制本身。
-        精確地說：<i>在軸突損傷期間或之後進行 NR/NMN 補充，帶有 CD38 抑制所沒有的 SARM1 活化風險。</i>
+        已報告的風險涉及<b>前驅物補充</b>（提升 NMN 而未伴隨同等的代償性 NAD+ 上升），而非 CD38 抑制本身。
+        <i>在軸突損傷期間或之後進行 NR/NMN 補充，帶有 CD38 抑制所沒有的 SARM1 活化風險。</i>
       </p>
     </div>
 
     <p>
-      然而仍有第三種機制將兩者耦合，因此藥理可分離並不等於機制獨立：78c 與 SARM1 抑制劑都是 NAD 依賴性酵素的
+      第三種機制耦合兩種 NADase；藥理學可分並不確立機制獨立：78c 與 SARM1 抑制劑都是 NAD 依賴性酵素的
       <b>加成型非競爭性抑制劑</b>——一個保守的 NAD 依賴機制（Bratkowski 等 2022，<i>Neuron</i>）。
     </p>
   </section>
@@ -687,13 +685,13 @@
     </p>
 
     <div class="callout">
-      <span class="callout-tag">關於 degree 慣例的說明</span>
+      <span class="callout-tag">nodes.json 中的 degree 慣例</span>
       <p>
         <code>nodes.json</code> 中儲存的 <code>degree</code> 欄位繼承自來源層，<b>並非</b>聯集 degree。
         在 2,158 個共享節點中有 2,157 個低於合併聯集的真實值，因為聯集會額外加入 wiki 層的共現邊。
         NAD+ 儲存的是 <code>degree: 51</code>，但實際上帶有 <b>321 條關聯邊、橫跨 277 個相異鄰居</b>。
         本頁所有數字都是<b>重新計算的聯集 degree</b>——與
-        <a href="caspase-graph-analysis.html">caspase 圖譜分析</a>頁相同的慣例，該頁中 Caspase-3 儲存值為 29，正確報導為 76。
+        <a href="caspase-graph-analysis.html">caspase 圖譜分析</a>頁相同的慣例，該頁中 Caspase-3 儲存值為 29，回報為 76。
       </p>
     </div>
 
@@ -826,40 +824,39 @@
       </table>
     </div>
 
-    <h3>七月追蹤無法做出的三個判讀</h3>
+    <h3>由重新計算的聯集圖譜得出的三項結果</h3>
 
     <div class="pattern">
-      <b>1 · NAD+ 模組是圖譜的結構性主幹，而非某個主題層級的附屬物。</b>
+      <b>1 · NAD+ 模組達到聯集圖譜的最大 k-core（20）。</b>
       NAD+（k-core 20）、Sirtuins（20）、NR（20）、PARP1（20）與 Microglia（20）都達到聯集的最大 k-core；
-      CD38 為 19，NAMPT 18，SARM1 16。NAD+ 模組是知識庫中嵌入最深的鄰域之一，在結構上可與 SIRT1／SASP 的
-      神節點區域相提並論，而非邊緣化的主題。
+      CD38 為 19，NAMPT 18，SARM1 16。NAD+ 模組與 SIRT1／SASP 神節點區域同屬 k-core 20 的鄰域。
     </div>
 
     <div class="pattern">
-      <b>2 · 兩種 NADase 之間的聚類係數反轉——它們是不同的治療對象。</b>
+      <b>2 · CD38（0.174）與 SARM1（0.247）的聚類係數不同。</b>
       SARM1 的聚類係數（0.247）高於 CD38（0.174），儘管 SARM1 的 degree <i>較低</i>（31 vs 48）。
-      SARM1 的鄰居彼此高度相連：TIR 結構域、NMNAT2、華勒氏退化、軸突退化、Disulfiram、DSRM-3716、GSK-428、
-      NB-4746——一個封閉而自指的「損傷與藥理」鄰域。CD38 的鄰居則散佈在免疫細胞、腫瘤微環境與 sirtuin 領地。
-      <b>CD38 是擴散型樞紐；SARM1 是封閉型專家。</b>
+      SARM1 的鄰居相互連接：TIR 結構域、NMNAT2、華勒氏退化、軸突退化、Disulfiram、DSRM-3716、GSK-428、
+      NB-4746——富含損傷與藥理學節點的鄰域。CD38 的鄰居分布於免疫細胞、腫瘤微環境與 sirtuin 相關節點。
+      <b>CD38 的鄰居跨多個社群；SARM1 的鄰居在單一社群內相互連接。</b>
     </div>
 
     <div class="pattern">
-      <b>3 · 抑制劑節點與其標的幾乎完美地抱團。</b>
+      <b>3 · 抑制劑節點的聚類係數介於 0.705 與 1.000。</b>
       CZ-48 聚類係數 1.000、NB-4746 0.864、DSRM-3716 與 GSK-428 0.795、Disulfiram 0.705。
-      圖譜已把這套藥理學學成一個封閉子叢——而值得注意的是，圖譜把 <code>Disulfiram</code> 歸在
-      <b>Paracrine Senescence</b> 社群而非 NAD+，因為它是一個主要名聲在酒精使用障礙的再定位藥物。
+      抑制劑—標的節點形成高聚類子群；圖譜把 <code>Disulfiram</code> 歸在
+      <b>Paracrine Senescence</b> 社群而非 NAD+，該藥物核准用於酒精使用疾患。
     </div>
 
-    <h3>層間分歧——wiki 已統一，而 triples 仍四散</h3>
+    <h3>社群指派上的層間分歧</h3>
     <p>
-      這是當前建置中最清楚的結構性發現。數字為各層自身邊清單中的相異鄰居數，並以正規化節點 id 連結。
+      數字為各層自身邊清單中的相異鄰居數，以正規化節點 id 連結，顯示 wiki 層與 triples 層在社群指派上的差異。
     </p>
     <div class="callout">
-      <span class="callout-tag">層間比較須以節點 id，而非標籤</span>
+      <span class="callout-tag">層間比較需以節點 id 連結，而非以顯示標籤</span>
       <p>
         兩層對若干相同節點的拼寫不同——wiki 層寫 <code>CD38 Inhibitor 78c</code> 與
         <code>NMN (Nicotinamide Mononucleotide)</code>，triples 層則寫 <code>CD38 inhibitor 78c</code> 與
-        <code>NMN</code>。若以顯示標籤連結，這些列會被靜默丟失，也會讓僅存在於 wiki 的節點看起來兩層皆無。
+        <code>NMN</code>。若以顯示標籤連結，這些列會丟失，也會讓僅存在於 wiki 的節點看起來兩層皆無。
       </p>
     </div>
 
@@ -1006,17 +1003,16 @@
     </div>
 
     <div class="callout teal">
-      <span class="callout-tag">此發現</span>
+      <span class="callout-tag">wiki 層對 NAD+ 模組的社群指派</span>
       <p>
-        <b>wiki 層已將整個 NAD+ 模組統一進單一的 <code>NAD+</code> 社群</b>——CD38、SARM1、NAMPT、NMNAT2、NR、
+        <b>wiki 層將 NAD+ 模組節點指派到單一 <code>NAD+</code> 社群</b>——CD38、SARM1、NAMPT、NMNAT2、NR、
         CZ-48、Disulfiram、DSRM-3716、GSK-428、NB-4746、SLC25A51、華勒氏退化與 CIPN 全都在其中。
-        <b>而 triples 層仍將同一條軸打散在五個互不相干的社群裡</b>，把補救路徑的限速酵素 NAMPT 歸在 Heart Failure，
-        把 SARM1 抑制劑 Disulfiram 歸在 Paracrine Senescence。
+        <b>triples 層將相同節點指派到五個社群</b>，其中 NAMPT 歸於 Heart Failure，
+        SARM1 抑制劑 Disulfiram 歸於 Paracrine Senescence。
       </p>
       <p style="margin-top:10px;">
-        合併資料集對共享節點 id 沿用 triples 標籤，因此預設介面顯示的是那些四散的標籤，
-        儘管更連貫的 wiki 聚類已存在於資料中。任何從合併資料集讀取社群標籤的分析都會誤判此模組的範圍——
-        對這些節點，它應讀取 wiki 層的標籤。
+        合併資料集對共享節點 id 沿用 triples 標籤，預設介面顯示 triples 標籤；wiki 層聚類存在於資料中。
+        從合併資料讀取社群標籤的分析，對這些節點應採用 wiki 層標籤。
       </p>
     </div>
 
@@ -1034,15 +1030,15 @@
           <tr>
             <td><b>cADPR 分裂成兩個</b></td>
             <td><code>cADPR (Cyclic ADP-ribose)</code>（僅 wiki，7 鄰居）vs <code>cADP-Ribose</code>（僅 triples，1 鄰居）</td>
-            <td>兩種 NADase <i>共同</i>製造的鈣離子訊使存在於兩個節點身分之下</td>
+            <td>兩種 NADase <i>共同</i>製造的鈣離子訊號分子存在於兩個節點身分之下</td>
           </tr>
           <tr>
-            <td><b>NMN 有影子節點</b></td>
+            <td><b>NMN 由兩個節點 id 表示</b></td>
             <td>同一個分子有兩個節點身分：<code>nmn</code>（wiki 65 鄰居／triples 1 鄰居）vs <code>nicotinamide_mononucleotide</code>（wiki 5 鄰居、triples 29 鄰居）</td>
-            <td>這個連結代謝物被重複建檔——CD38↔SARM1 連結的一半，跑在一個「不知道自己身為何物」的節點上</td>
+            <td>此連結代謝物被重複建檔；其中一個 id 在 triples 層僅有 1 個鄰居</td>
           </tr>
           <tr>
-            <td><b>78c 是一個片語</b></td>
+            <td><b>78c 有兩種標籤拼寫</b></td>
             <td>同一個節點 id 卻有兩種拼寫：wiki 寫 <code>CD38 Inhibitor 78c</code>，triples 寫 <code>CD38 inhibitor 78c</code>；且化合物以散文而非識別碼建檔</td>
             <td>化合物以散文而非識別碼建檔——阻擋化合物層級的查詢</td>
           </tr>
@@ -1054,12 +1050,12 @@
           <tr>
             <td><b>ML385 沒有入邊</b></td>
             <td>wiki 19 鄰居、triples 1 鄰居、0 入邊；社群漂移（wiki <code>Nrf2</code>、triples <code>NRF2</code>）</td>
-            <td>一個 NRF2 抑制劑單向連向 CD38——很可能是萃取瑕疵</td>
+            <td>以單一出邊連接到 CD38；報告為可能的擷取假象</td>
           </tr>
           <tr>
             <td><b>Microglia / Neuron 樁節點</b></td>
             <td>合併資料集各僅 3 儲存 degree（聯集 76 / 29）</td>
-            <td>中樞神經區室地圖建立在型別層幾乎無法解析的節點之上</td>
+            <td>中樞神經區室地圖使用合併集中儲存度數為 3 的節點</td>
           </tr>
         </tbody>
       </table>
@@ -1070,7 +1066,7 @@
   <section id="therapy">
     <h2>治療版圖 — 以消耗路徑組織</h2>
     <p>
-      具資訊性的分類不是化合物清單，而是所抑制的消耗路徑之身分。針對慢性、區室廣泛受質分解的干預，
+      介入措施依其所標的的消耗路徑分類。針對慢性、區室廣泛受質分解的干預，
       與針對急性、軸突性分解的干預並不能互相取代。
     </p>
 
@@ -1095,13 +1091,13 @@
             <td>CD38</td>
             <td>Quercetin、Apigenin</td>
             <td>天然類黃酮</td>
-            <td>效力較弱且多效——也作用於 sirtuin 與 PI3K</td>
+            <td>效力未量化，具多效性——亦作用於 sirtuin 與 PI3K</td>
           </tr>
           <tr>
             <td>CD38</td>
             <td>Daratumumab、Isatuximab</td>
             <td>抗 CD38 單株抗體（ADCC／直接誘發凋亡）</td>
-            <td>腫瘤學——多發性骨髓瘤；不是長壽工具</td>
+            <td>腫瘤學——多發性骨髓瘤；長壽用途未經確效</td>
           </tr>
           <tr>
             <td><b>SARM1</b></td>
@@ -1131,7 +1127,7 @@
             <td><b>池</b></td>
             <td>NR、NMN</td>
             <td>前驅物補充</td>
-            <td>受 CD38 把關；提升 NMN → 軸突損傷期間或之後的 SARM1 敏化風險</td>
+            <td>受 CD38 活性限制；提升 NMN → 軸突損傷期間或之後的 SARM1 活化風險</td>
           </tr>
           <tr>
             <td>池</td>
@@ -1142,30 +1138,29 @@
           <tr>
             <td><b>PARP</b></td>
             <td>PARP 抑制</td>
-            <td>止住第三種消耗</td>
+            <td>抑制第三種 NAD+ 消耗</td>
             <td>CD38 + PARP 抑制完全逆轉了 LPS 誘導的 NAD+ 衰退，而單獨用藥未能做到（Covarrubias 2020）</td>
           </tr>
         </tbody>
       </table>
     </div>
 
-    <h3>兩種標定策略，以及合併覆蓋為何優於任一單獨方案</h3>
+    <h3>慢性與急性標的策略</h3>
     <p>
       <b>策略 A — 慢性：</b>CD38 抑制 + NR 補充 → 恢復供 sirtuin 催化的受質可用性。
       作用於老化與發炎性老化的時間尺度，數小時至數年。
     </p>
     <p>
-      <b>策略 B — 急性：</b>SARM1 抑制 → 阻止軸突 NAD+ 崩潰。作用於損傷的時間尺度，數分鐘。
+      <b>策略 B — 急性：</b>SARM1 抑制 → 阻止軸突 NAD+ 耗竭。作用於損傷的時間尺度，數分鐘。
     </p>
     <p>
-      組合之所以超越單純相加，是因為兩種策略涵蓋<b>同一受質池的不同區室與不同時間尺度</b>——因此合併覆蓋比任一單獨方案更廣。
+      兩項策略處理<b>同一受質池的不同區室與不同時間尺度</b>；合併覆蓋範圍大於任一單獨策略。
     </p>
 
     <div class="caveat">
-      <b>推測性——圖譜中不存在這個協同邊。</b>
-      沒有任何萃取邊把 CD38 抑制劑連向 SARM1 抑制劑；該命題在建構上即為 AMBIGUOUS（0.45），
-      是從收斂的節點邏輯推得的。唯一支持性先例是 <b>CD38 + PARP</b>，而非 CD38 + SARM1。
-      任何關於 CD38+SARM1 協同的宣稱都是未經測試的，應如此標示。
+      <b>證據狀態：沒有擷取的邊連接 CD38 抑制劑與 SARM1 抑制劑。</b>
+      該命題在建構上標記為 AMBIGUOUS（0.45），由收斂節點邏輯推得。唯一支持性先例是 <b>CD38 + PARP</b>，而非 CD38 + SARM1。
+      CD38+SARM1 協同尚未經檢驗。
       NMN 敏化的提醒仍適用於<b>策略 A 的前驅物成分</b>（NR/NMN）——但不適用於單獨的 CD38 抑制，理由如前所述。
     </div>
 
@@ -1202,7 +1197,7 @@
           <tr>
             <td>輸出</td>
             <td>神經發炎、前驅物流失</td>
-            <td>軸突 NAD+ 崩潰、華勒氏退化</td>
+            <td>軸突 NAD+ 耗竭、華勒氏退化</td>
           </tr>
           <tr>
             <td>疾病連結</td>
@@ -1214,15 +1209,15 @@
     </div>
 
     <div class="callout teal">
-      <span class="callout-tag">七月追蹤錯過的一個收斂</span>
+      <span class="callout-tag">化療誘發性周邊神經病變作為共同鄰居</span>
       <p>
         在當前建置中，<b>化療誘發性周邊神經病變</b>是 CD38 與 SARM1 <i>兩者</i>在 wiki 層的鄰居，
-        位於 <code>NAD+</code> 社群內、聚類係數 0.697。慢性的消耗與急性的消耗收斂到同一個臨床適應症。
+        位於 <code>NAD+</code> 社群內、聚類係數 0.697。慢性與急性的 NAD+ 消耗收斂到同一個臨床適應症。
       </p>
       <p style="margin-top:10px;">
-        CIPN 為<b>僅 wiki 存在</b>的節點——它根本不存在於 triples 層，而從 CD38 與從 SARM1 連向它的邊都是
-        wiki 共現邊，沒有任何型別層的對應邊。七月 SARM1 追蹤確實把 CIPN 列為 SARM1 的鄰居；
-        新的部分是這個<i>收斂</i>本身，以及 triples 層完全看不見它。七月追蹤跑的是 triples 圖譜，
+        CIPN 為<b>僅 wiki 存在</b>的節點；從 CD38 與從 SARM1 連向它的邊都是
+        wiki 共現邊，沒有任何型別層的對應邊。七月 SARM1 追蹤已把 CIPN 列為 SARM1 的鄰居；
+        此收斂為新結果，且 triples 層不含 CIPN 節點。七月追蹤跑的是 triples 圖譜，
         而 CIPN 節點與其三條邊在該圖譜中都不存在。
       </p>
     </div>
@@ -1230,10 +1225,9 @@
 
   <!-- ==================== SEX ==================== -->
   <section id="sex">
-    <h2>性別分歧 — NAD+ 在男女不是同一個問題</h2>
+    <h2>NAD+ 代謝的性別分層差異</h2>
     <p>
-      知識庫的 NAD+ 筆記帶有一個篇幅可觀的性別差異章節，此前沒有任何頁面承載，而它改變的是治療邏輯，
-      不只是加註腳。
+      知識庫 NAD+ 筆記報告 NAD+ 代謝的性別分層差異；這些差異影響介入選擇。
     </p>
 
     <div class="tbl-wrap" style="margin-top:18px;">
@@ -1269,7 +1263,7 @@
           <tr>
             <td>PARP-1 敲除</td>
             <td>性別反轉</td>
-            <td>保護男性免於缺血性腦損傷，卻<b>加重</b>雌性的損傷（McCullough 等 2005）</td>
+            <td>在小鼠，PARP-1 敲除保護雄性免於缺血性腦損傷，卻<b>加重</b>雌性損傷（McCullough 等 2005）</td>
           </tr>
           <tr>
             <td><b>卵巢 NAD+ 衰退</b></td>
@@ -1279,7 +1273,7 @@
           <tr>
             <td><b>NMN 壽命效應</b></td>
             <td>性別分歧</td>
-            <td>雌性中位壽命 +8.5%（代謝未改善）；雄性代謝健康改善但無壽命延長（Kane 等，<i>bioRxiv</i> 2024）</td>
+            <td>在小鼠，雌性中位壽命 +8.5%（代謝未改善）；雄性代謝健康改善但無壽命延長（Kane 等，<i>bioRxiv</i> 2024）</td>
           </tr>
           <tr>
             <td>NMN 代謝路徑</td>
@@ -1291,37 +1285,35 @@
     </div>
 
     <div class="caveat">
-      <b>標示為假說，而非證實。</b>所提出的機制——雌激素穩定 PARP-1、因而使雌性得以節省 NAD+——是一項推論，
-      並非直接證明。它所依據的證據（性別反轉的 PARP-1 敲除表型、缺血損傷數據）與該假說一致，但並未證明此機制。
-      關於女性老化時保有較高絕對 SIRT1 與 SIRT3 蛋白量的初步觀察（<i>Biology</i> 2025）仍屬初步階段，
-      不應以既定事實呈現。
+      <b>證據狀態：假說。</b>所提出的機制——雌激素穩定 PARP-1、因而使雌性得以節省 NAD+——是一項推論，
+      未經直接驗證。其所依據的證據（性別反轉的 PARP-1 敲除表型、缺血損傷資料）與該假說一致，但未能確立該機制。
+      關於女性老化時保有較高絕對 SIRT1 與 SIRT3 蛋白量的初步觀察（<i>Biology</i> 2025）仍屬初步。
     </div>
 
     <p>
-      實際後果：<b>前驅物劑量與閘門選擇可能需要性別分層</b>。男性可能更受益於 PARP-1 抑制以減緩消耗；
-      女性則可能更受益於 CD38 抑制以防止卵巢與其餘 NAD+ 的衰退。絕經後女性面臨「雙重衰退」——
-      荷爾蒙轉變疊加於與年齡相關的 NAD+ 變化之上——使她們可能是 NAD+ 恢復策略最具反應性的族群；
-      而 78c 在雌性小鼠中的不良反應訊號，也正反對對該族群進行一體化的 CD38 抑制。
+      對介入選擇的意涵：<b>前驅物劑量與閘門選擇可能需要性別分層</b>。男性可能較受益於 PARP-1 抑制以減緩 NAD+ 消耗；
+      女性可能較受益於 CD38 抑制以減少卵巢與其餘組織的 NAD+ 衰退。停經後女性的荷爾蒙轉變疊加於與年齡相關的 NAD+ 變化；
+      此族群的 NAD+ 補充反應性未量化。78c 在雌性小鼠中的不良反應訊號，不支持對該族群進行一體化的 CD38 抑制。
     </p>
   </section>
 
   <!-- ==================== GAPS ==================== -->
   <section id="gaps">
-    <h2>知識庫自身標記的開放問題</h2>
+    <h2>知識庫中尚未解決的問題</h2>
     <ol class="d-list" style="font-size:.95rem; color:var(--text);">
-      <li><b>CD38 抑制是否會改變 SARM1 依賴性的軸突退化？</b>沒有任何研究直接測試過這一點。機制合理；證據缺席。</li>
-      <li><b>CD38 + SARM1 抑制是否協同？</b>唯一的先例是 CD38 + PARP。</li>
-      <li><b>小膠質細胞中的 CD38 / SARM1 共表現</b>——圖譜節點在型別層只是樁節點。</li>
-      <li><b>NR + CD38 抑制劑的劑量</b>——NMN 的保留是否越過 SARM1 活化閾值？</li>
-      <li><b>CD38 + PARP 與 CD38 + SARM1</b>——哪一種雙重配對給出更強的 NAD+ 救援？</li>
-      <li><b>哪一種 NMN 比值才重要</b>——血漿、組織，還是軸突區室？</li>
-      <li><b>CIPN 的收斂是因果的嗎？</b>兩種 NADase 指向同一適應症，可能是共享的因果軸，也可能只是 wiki 層的共現偽影。</li>
+      <li><b>CD38 抑制對 SARM1 依賴之軸突變性的影響尚未被直接檢驗。</b>尚無研究直接檢驗此交互作用；已有機制合理性報告，人體或動物結果資料缺席。</li>
+      <li><b>CD38 + SARM1 抑制的協同作用尚未經檢驗。</b>已報告的先例為 CD38 + PARP。</li>
+      <li><b>小膠質細胞中 CD38 與 SARM1 的共表現尚未判定。</b>圖譜節點在型別層為樁節點。</li>
+      <li><b>NR 與 CD38 抑制劑合併給藥的劑量尚未判定。</b>NMN 保留越過 SARM1 活化閾值的狀態尚未判定。</li>
+      <li><b>CD38 + PARP 與 CD38 + SARM1 的 NAD+ 救援強度尚未比較。</b>雙重配對的相對效果未量化。</li>
+      <li><b>與 SARM1 活化相關的 NMN 比值所屬區室尚未判定。</b>血漿、組織與軸突區室的比值未同時量化。</li>
+      <li><b>CIPN 收斂屬因果軸或 wiki 共同提及假象，尚未判定。</b>兩種 NADase 指向同一適應症；共享因果軸與共現偽影皆未排除。</li>
     </ol>
 
     <div class="caveat">
-      <b>範圍與狀態。</b>本頁是圖譜推導加上臨床前的綜合。78c 的壽命數字來自雄性小鼠。
-      CD38+SARM1 的協同是假說。NR/NMN 在人類的效力仍有爭議，且迄今的人體 NAD+ 前驅物試驗，
-      普遍未能重現啮齒類所見的戲劇性表型變化。本頁內容不構成醫療建議。
+      <b>證據狀態與範圍。</b>本頁為圖譜推導與臨床前結果的綜合。78c 的壽命數字來自雄性小鼠。
+      CD38+SARM1 的協同屬假說。NR/NMN 在人體的效力仍有爭議；人體 NAD+ 前驅物試驗未重現囓齒類報告的表型效果。
+      本頁內容不構成醫療建議。
     </div>
   </section>
 

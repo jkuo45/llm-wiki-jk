@@ -68,6 +68,41 @@ offset by +1000).
   navigation reconciled by `matchFrameArticle()` in `web/components/reader.js`.
   Enforced by `tests/test_web_page_links.py`.
 
+### Scientific writing register (task outputs and research writing)
+
+Prose in `src/tasks/` and task-style research answers follows a scientific
+register, not a narrative one:
+
+- **Declarative and mechanistic.** State what is known, in named
+  molecules/pathways/assays. No personification of mechanisms ("the cell
+  decides", "mitochondria power up"), no metaphors or similes standing in
+  for mechanism.
+- **Certainty adjectives must match evidence tier.** Tier 1 (human RCT) may
+  be stated as established in humans; Tier 3 as "in rodents, …"; Tier 4
+  "in vitro"; Tier 5 "hypothesis / plausible / untested". Never render
+  animal or in-vitro results with human-applicable verbs ("treats",
+  "prevents").
+- **Hedging vocabulary.** Allowed: "suggests", "is consistent with",
+  "reported in", "remains untested in humans", "unverified". Banned:
+  "proves", "clearly", "obviously", "undoubtedly", "breakthrough",
+  "landmark", "revolutionary", "game-changing".
+- **Quantification over intensification.** Prefer numbers with units
+  (dose, n, effect size, p-value, model). If the value is not in the
+  source, write "not quantified" — never "substantial"/"dramatic"/
+  "significant" unless statistical significance with p is cited.
+- **Terminology, not colloquialism.** Prefer: senescent cells (not
+  "zombie cells"), damaged-organelle accumulation / lipofuscin (not
+  "cellular junk"), autophagic flux (not "recycling program"),
+  mitochondrial uncoupling (not "metabolic rev-up").
+- **Headings state content, not framing.** "Evidence for SIRT3 lifespan
+  extension in mice", never narrative arcs ("The SIRT3 Lifespan Mystery").
+- **Frontmatter `description:`** is a factual scope statement (what was
+  compared, in what models, with what data) — no evaluative adjectives
+  ("comprehensive", "complete", "groundbreaking").
+- **No rhetorical questions, no editorializing, no narrative arc.**
+  Contrast framing is allowed only when the contrast maps to real study
+  arms or conditions.
+
 ---
 
 ## 3. Frontmatter (Open Knowledge Format)
@@ -230,6 +265,22 @@ Normalizations (verify canonical filenames first):
 ## 8. Graph & Site Pipeline
 
 Regenerating web data (all keyed by `norm(label)`):
+
+Edge `context`/`context_zh_TW` prose is **not** in the edges files — it lives in
+`edge-context.json` / `wiki-edge-context.json` / `triples-edge-context.json`
+(keyed by `JSON.stringify([from, to])`), fetched lazily on first edge-card open.
+`edges.json` must stay under Cloudflare Workers' 25 MiB per-asset cap, so don't
+re-inline prose or re-add edge `color`/`created`/`updated`/`sources` when
+touching the data pipeline.
+
+Node `description`/`description_zh_TW` prose is likewise **not** in the nodes
+files — it lives in `node-desc.json` / `wiki-node-desc.json` /
+`triples-node-desc.json` (`{id: {en, zh}}`), fetched lazily in the background.
+Edges files are int-encoded `{ids, labels, edges: [[from, to, labelIdx, score,
+weight?]]}` (NOT a list of objects) — decode with
+`scripts.lib.graph_common.decode_edges()`; `confidence` is derived from the
+score (>= 0.7 → EXTRACTED), never stored. Keep both prose and endpoint strings
+out of the critical-path files.
 
 ```bash
 # Triples graph + triples-* web files (graphify-out/, web/public/data/)

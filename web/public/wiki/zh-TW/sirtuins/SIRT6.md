@@ -2,7 +2,7 @@
 title: SIRT6
 description: "SIRT6（Sirtuin 6）是位於細胞核、與染色質結合的 sirtuin，在系統發生分類上屬 Class IVa，與其核仁同源蛋白 SIRT7（Class IVb）並列。作為「長壽基因」，SIRT6 是..."
 created: 2026-07-02
-updated: 2026-09-02
+updated: 2026-11-10
 tags:
   - protein
   - nad-plus
@@ -10,6 +10,9 @@ tags:
   - nuclear-sirtuin-6
   - sirt6-adp-ribosyl-transferase
   - sirt6-adp-ribosyl-transferase
+aliases:
+  - Sirtuin 6
+  - SIRT6
 protected: true
 ---
 
@@ -264,6 +267,9 @@ SIRT6 最適切的描述是**雄性主導**的長壽基因，其性別依賴性�
 
 ## 文件
 
+- [[_document_ - Sirtuins at a glance|Sirtuins at a Glance (Nakagawa & Guarente 2011)]]
+  - *J. Cell Sci.* Cell Science at a Glance: sirtuin core-domain architecture, NAD+ biosynthesis/circadian (NAMPT, CLOCK:BMAL1) regulation, and SIRT1 across chromatin, metabolism, inflammation, cardiovascular, cancer and brain — this note's primary 2011 survey source.
+
 提及此實體的文件清單
 
   - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
@@ -287,7 +293,7 @@ SIRT6 最適切的描述是**雄性主導**的長壽基因，其性別依賴性�
   - [[_document_ - centenarian_SIRT6 nihpp-rs9997679v1|Centenarian SIRT6 Variants Study]]
     - 證明百歲人瑞 SIRT6 變異（N308K/A313S）經由削弱與 vimentin 的交互作用提升內源性 SIRT6 蛋白、改變酵素活性（mADPr 增強、去乙醯化酶降低）、延遲複製性衰老，並保護細胞免於 progerin 誘導的壓力。AAV-CentSIRT6 與 Fucoidan-FV 可減少 HGPS 纖維母細胞中的 LINE1。
 
-  - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
+  - [[_document_ - The role of the dynamic epigenetic landscape in senescence orchestrating SASP expression]]
     - 綜述指出 SIRT6 富集於 LINE-1 位點的 5′UTR，在此對 KAP1 進行單 ADP-核糖基化以促進 HP1α 介導的異染色質化；衰老相關的 SIRT6 缺失使 LINE-1 去抑制，為 cGAS–STING 驅動的 SASP 與炎性老化推波助瀾。
 
   - [[_document_ - relocalization of sirtuins - chromatin modifiers, grok|The Relocalization of Chromatin Modifiers (RCM) Hypothesis]]

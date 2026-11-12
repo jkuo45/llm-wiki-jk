@@ -20,5 +20,9 @@
   },
   "compatibility_flags": [
     "nodejs_compat"
-  ]
+  ],
+  // Required by `wrangler preview` (open beta): without this block wrangler
+  // >= 4.151 refuses to run the command. Can be empty — assets, compatibility
+  // settings and placement stay at the top level.
+  "previews": {}
 }

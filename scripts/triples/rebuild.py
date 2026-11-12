@@ -44,10 +44,12 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 from scripts.lib.graph_common import (  # noqa: E402
     PALETTE,
     dataset_counts,
+    encode_edges,
     enrich_graph_metrics,
     generate_community_colors,
     inject_graph_metadata,
     norm,
+    split_descriptions,
     strip_wikilink,
     surprising_connections_capped,
 )
@@ -310,12 +312,19 @@ def export_three_json(gp: Path, labels: dict[int, str]) -> None:
 
     # Build edge objects for web/
     edge_objects = []
+    context_map = {}
     for link in links:
         src = link["source"]
         tgt = link["target"]
         if src not in node_id_set or tgt not in node_id_set:
             continue
         conf = link.get("confidence_score", 0.7)
+        ctx = link.get("context", "")
+        ctx_zh = link.get("context_zh_TW", "")
+        if ctx or ctx_zh:
+            context_map[json.dumps([src, tgt], ensure_ascii=False, separators=(",", ":"))] = {
+                "context": ctx, "context_zh_TW": ctx_zh,
+            }
         edge_objects.append({
             "from": src,
             "to": tgt,
@@ -323,19 +332,26 @@ def export_three_json(gp: Path, labels: dict[int, str]) -> None:
             "confidence": link.get("confidence", "EXTRACTED"),
             "confidence_score": conf,
             "weight": link.get("weight", conf),
-            "context": link.get("context", ""),
-            "context_zh_TW": link.get("context_zh_TW", ""),
-            "created": link.get("created", ""),
-            "updated": link.get("updated", ""),
-            "color": {"opacity": max(0.1, min(1.0, conf))},
+            # ponytail: edge prose lives in triples-edge-context.json (lazy-loaded); keeps triples-edges.json under Workers' 25 MiB cap.
         })
 
+    # ponytail: descriptions split into the lazy triples-node-desc.json
+    # sidecar and edges int-encoded; keeps the boot payload small.
+    core_nodes, node_desc = split_descriptions(node_objects)
     (DATA_DIR / "triples-nodes.json").write_text(
-        json.dumps(node_objects, ensure_ascii=False, separators=(",", ":")),
+        json.dumps(core_nodes, ensure_ascii=False, separators=(",", ":")),
+        encoding="utf-8",
+    )
+    (DATA_DIR / "triples-node-desc.json").write_text(
+        json.dumps(node_desc, ensure_ascii=False, separators=(",", ":")),
         encoding="utf-8",
     )
     (DATA_DIR / "triples-edges.json").write_text(
-        json.dumps(edge_objects, ensure_ascii=False, separators=(",", ":")),
+        json.dumps(encode_edges(edge_objects), ensure_ascii=False, separators=(",", ":")),
+        encoding="utf-8",
+    )
+    (DATA_DIR / "triples-edge-context.json").write_text(
+        json.dumps(context_map, ensure_ascii=False, separators=(",", ":")),
         encoding="utf-8",
     )
     (DATA_DIR / "triples-legend.json").write_text(

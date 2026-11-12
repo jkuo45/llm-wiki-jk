@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eryptosis 紅血球凋亡 — 過度死亡訊號、清除不足與腎上腺素紅交叉</title>
+<meta name="description" content="Eryptosis（紅血球調控性死亡）的證據分級綜述：Ca²⁺ 驅動、磷脂醯絲胺酸執行的機制核心；正常 eryptosis 比例未被量化的限制與疾病狀態下 PS 陽性比例的實測數據；兩種失效模式——過度 eryptosis（貧血伴 ESA 低反應、PS 介導的凝血酶生成、內皮黏附與鐵死亡攝入、微循環障礙）與清除不足／訊號不足（溶血級聯、持續促凝血的 PS 陽性細胞、瘧原蟲清除喪失）；機制上支持但實驗未證實的腎上腺素紅交叉；以及長壽研究定位。">
+<link rel="canonical" href="https://graph.johnnykuo.com/pages/zh-TW/eryptosis-evidence-synthesis.html">
+<link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/eryptosis-evidence-synthesis.html">
+<link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/eryptosis-evidence-synthesis.html">
+<link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/eryptosis-evidence-synthesis.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🩸</text></svg>">
+<link rel="stylesheet" href="../themes/theme-01/pages.css">
+<link rel="stylesheet" href="../themes/theme-01/pages-light.css" id="theme-light">
+<link rel="stylesheet" href="../themes/theme-01/pages-article.css">
+<link rel="stylesheet" href="../themes/theme-01/pages-gallery.css">
+<script src="../themes/theme-01/page-theme.js"></script>
+<script src="../themes/shared/nav-auto-hide.js"></script>
+<style>
+  /* page-specific only — shared components live in themes/theme-01/ */
+  #disease .tbl-wrap{ --tbl-col-1:"情境"; --tbl-col-2:"發現"; --tbl-col-3:"證據"; }
+  #nodes .tbl-wrap{ --tbl-col-1:"節點"; --tbl-col-2:"腎上腺素紅臂"; --tbl-col-3:"Eryptosis 臂"; --tbl-col-4:"證據"; }
+  a.wikilink{ color:var(--teal); }
+  .tier{ font-family:var(--mono); font-size:.72rem; border:1px solid currentColor; border-radius:3px; padding:0 5px; white-space:nowrap; }
+  .anim-frame{ width:100%; max-width:860px; aspect-ratio:16/10; height:auto; margin-inline:auto; border:1px solid var(--line); border-radius:14px; background:#141210; display:block; }
+  @media (max-width:640px){ .anim-frame{ max-width:100%; aspect-ratio:4/3; } }
+  .t4{ color:var(--blue); } .t3{ color:var(--purple); } .t2{ color:var(--teal); } .t5{ color:var(--red); }
+  .fig-canvas svg text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans TC",Helvetica,Arial,sans-serif;}
+</style>
+</head>
+<body style="--wrap-width:1200px;">
+
+<nav>
+  <div class="wrap">
+    <a id="back-home" class="back-home" href="../index.html" title="返回文章索引">&#8592; 返回</a>
+    <a class="n" href="#core">機制核心</a>
+    <a class="n" href="#fraction">更新比例</a>
+    <a class="n" href="#excess">過度</a>
+    <a class="n" href="#under">清除不足</a>
+    <a class="n" href="#adrenochrome">腎上腺素紅</a>
+    <a class="n" href="#longevity">長壽定位</a>
+    <a class="n" href="#gaps">證據限制</a>
+    <a class="n" href="#sources">資料來源</a>
+  </div>
+</nav>
+
+<header>
+  <div class="wrap">
+    <div class="kicker">Eryptosis · 紅血球調控性死亡 · 證據綜述 · 2026</div>
+    <h1>Eryptosis 紅血球凋亡 — 過度死亡訊號、清除不足與腎上腺素紅交叉</h1>
+    <p class="lead" style="margin-top:14px;">
+      成熟紅血球無細胞核、無胞器，無法執行粒線體凋亡。<b style="color:var(--text)">Eryptosis</b>（紅血球凋亡）是其調控性死亡：
+      Ca²⁺ 經陽離子通道內流，活化 Gardos 通道（KCNN4）、scramblase 與 calpain；磷脂醯絲胺酸（PS）外翻；
+      PS 陽性細胞在數分鐘內被胞葬作用（efferocytosis）清除，先於裂解發生。本頁涵蓋訊號核心、紅血球更新中已量化與
+      未量化的比例、系統的兩種失效模式——<b style="color:var(--text)">過度 eryptosis</b>（貧血伴紅血球生成刺激劑低反應、
+      PS 驅動的凝血酶生成、內皮黏附伴鐵死亡式內皮攝入、微循環障礙）與
+      <b style="color:var(--text)">訊號不足／清除不足</b>（溶血級聯、持續促凝血的 PS 陽性細胞、瘧原蟲清除喪失）——
+      並以腎上腺素紅（adrenochrome）交叉作結：紅血球將腎上腺素轉化為胺基色素，同時是該化學的還原槽與氧化標的，
+      以及對長壽研究的定位。證據等級：<span class="tier t2">Tier 2</span> 人類世代研究 ·
+      <span class="tier t3">Tier 3</span> 動物實驗 · <span class="tier t4">Tier 4</span> 人類細胞體外／離體 ·
+      <span class="tier t5">Tier 5</span> 假說。目前不存在任何以 eryptosis 調控為介入的 Tier 1 證據。
+    </p>
+    <div class="meta">
+      資料來源：知識庫任務輸出
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_eryptosis_excess_and_under_clearance_04_Nov_2026.md" target="_blank" rel="noopener noreferrer"><code>eryptosis — 過度與清除不足（2026-11-04）</code></a>、
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_adrenochrome_eryptosis_crossover_04_Nov_2026.md" target="_blank" rel="noopener noreferrer"><code>腎上腺素紅–eryptosis 交叉（2026-11-04）</code></a>
+      · 關鍵文獻：Tkachenko et al., <i>Cell Death Dis</i> 2025 · Lang et al., <i>Kidney Blood Press Res</i> 2017 · Bissinger et al., <i>FEBS J</i> 2019 · Borst et al., <i>Am J Physiol Cell Physiol</i> 2012（完整列表見<a href="#sources">資料來源</a>）
+      · 姊妹頁面：<a href="eryptosis.html">Eryptosis — three.js 動畫</a>
+    </div>
+    <div class="pill-row">
+      <a class="badge teal" href="#core">Ca²⁺ → Gardos · scramblase · calpain</a>
+      <a class="badge" href="#fraction">正常 eryptosis 比例：未量化</a>
+      <a class="badge red" href="#excess">過度 → 貧血 · 促凝血 · 內皮損傷</a>
+      <a class="badge amber" href="#under">清除不足 → 溶血 · 持續 PS⁺ 細胞</a>
+      <a class="badge" href="#adrenochrome">腎上腺素紅交叉：機制支持、實驗未證實</a>
+      <a class="badge speculative" href="#gaps">無人體 RCT · 所有介入皆為臨床前</a>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <!-- ==================== CORE ==================== -->
+  <section id="core">
+    <h2>機制核心 — 一個離子，三條執行臂</h2>
+    <p>
+      Eryptosis 以 Ca²⁺ 依賴的執行過程定義，而紅血球既無內質網也無粒線體鈣庫，因此胞外 Ca²⁺ 內流是起始訊號，
+      而非 MOMP 式擴增器。氧化壓力、滲透壓力、滲透壓衝擊、Cl⁻ 耗竭、能量耗竭、神經醯胺（ceramide）與尿毒毒素開啟非選擇性
+      陽離子通道（人類紅血球為 TRPC6；小鼠為 TRPC4/5；另含 PIEZO1、NMDA 型與 AMPA 型麩胺酸受體、Cav2.1）。
+      胞質 Ca²⁺ 隨後並行驅動三條臂：活化 Gardos 通道（KCNN4），K⁺/Cl⁻/水外流導致細胞皺縮；抑制 flippase 並活化
+      scramblase，使磷脂醯絲胺酸外翻；以及 calpain 介導的細胞骨架蛋白水解，產生起泡與微囊泡脫落。調控完全發生在
+      轉譯後層次——不存在轉錄調控層。激酶極性依細胞類型而定：PKC、CK1α、JAK3、p38 MAPK 與 CDK4 在此促進
+      eryptosis（其中數種在典型細胞凋亡中反而抗凋亡），而 AMPK、cGKI、PAK2、MSK1/2 與 PDK1 則加以抑制。
+      主要煞車是 NO → 可溶性鳥苷酸環化酶 → cGMP → cGKI 軸、AMPK 與 N-乙醯半胱氨酸（NAC）；
+      紅血球生成素（EPO）具雙向性——急性給藥抑制，持續高濃度卻增加易發 eryptosis 的細胞比例（Tier 2 世代／Tier 4）。
+    </p>
+
+    <figure class="fig">
+      <div class="fig-canvas">
+        <svg viewBox="0 0 1000 624" role="img" aria-labelledby="coreTitle">
+          <title id="coreTitle">Eryptosis 執行級聯——觸發因子開啟陽離子通道，Ca2+ 驅動 Gardos 介導的皺縮、scramblase 介導的 PS 外翻與 calpain 介導的起泡，PS 陽性細胞在數分鐘內被胞葬清除；清除飽和或訊號失敗則走向溶血</title>
+          <defs>
+            <marker id="cArr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,1 L9,5 L0,9 z" class="s-dim"/>
+            </marker>
+            <marker id="cArrT" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,1 L9,5 L0,9 z" class="s-teal"/>
+            </marker>
+            <marker id="cArrR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,1 L9,5 L0,9 z" class="s-red"/>
+            </marker>
+            <marker id="cBlunt" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+              <path d="M9,1 L1,5 L9,9 z" class="s-teal"/>
+            </marker>
+          </defs>
+
+          <!-- triggers -->
+          <rect x="20" y="24" width="250" height="206" rx="12" class="panel-f stroke-line" fill-opacity="0.55"/>
+          <text x="145" y="50" text-anchor="middle" font-size="13.5" font-weight="700" class="s-amber">觸發因子</text>
+          <text x="145" y="74" text-anchor="middle" font-size="10.5" class="s-text">氧化壓力（ROS、H₂O₂）</text>
+          <text x="145" y="94" text-anchor="middle" font-size="10.5" class="s-text">能量耗竭 → PKCα</text>
+          <text x="145" y="114" text-anchor="middle" font-size="10.5" class="s-text">滲透壓／Cl⁻ 耗竭 → PGE₂</text>
+          <text x="145" y="134" text-anchor="middle" font-size="10.5" class="s-text">尿毒毒素（CKD／ESRD）</text>
+          <text x="145" y="154" text-anchor="middle" font-size="10.5" class="s-text">神經醯胺／神經磷脂酶</text>
+          <text x="145" y="174" text-anchor="middle" font-size="10.5" class="s-text">異生物質：cisplatin、sorafenib、</text>
+          <text x="145" y="192" text-anchor="middle" font-size="10.5" class="s-text">sunitinib、tamoxifen、鉛</text>
+          <text x="145" y="216" text-anchor="middle" font-size="10" class="s-mute">G6PD 缺乏、HbS、海洋性貧血</text>
+
+          <!-- brakes -->
+          <rect x="20" y="272" width="250" height="128" rx="12" class="teal-f" fill-opacity="0.10"/>
+          <rect x="20" y="272" width="250" height="128" rx="12" class="stroke-line2" fill="none"/>
+          <text x="145" y="298" text-anchor="middle" font-size="13.5" font-weight="700" class="s-teal">煞車</text>
+          <text x="145" y="322" text-anchor="middle" font-size="10.5" class="s-text">NO → sGC → cGMP → cGKI</text>
+          <text x="145" y="342" text-anchor="middle" font-size="10.5" class="s-text">AMPK · PAK2 · MSK1/2 · PDK1</text>
+          <text x="145" y="362" text-anchor="middle" font-size="10.5" class="s-text">N-乙醯半胱氨酸（支持 GSH）</text>
+          <text x="145" y="384" text-anchor="middle" font-size="10" class="s-mute">EPO：急性 −，慢性 +（雙向）</text>
+
+          <!-- channels -->
+          <rect x="330" y="40" width="200" height="96" rx="12" class="panel-f stroke-line" fill-opacity="0.55"/>
+          <text x="430" y="66" text-anchor="middle" font-size="13" font-weight="700" class="s-blue">陽離子通道</text>
+          <text x="430" y="88" text-anchor="middle" font-size="10.5" class="s-text">TRPC6 · PIEZO1</text>
+          <text x="430" y="106" text-anchor="middle" font-size="10.5" class="s-text">NMDA／AMPA-R · Cav2.1</text>
+          <text x="430" y="124" text-anchor="middle" font-size="10" class="s-mute">非選擇性內流</text>
+
+          <!-- Ca hub -->
+          <rect x="330" y="180" width="200" height="72" rx="12" class="blue-f" fill-opacity="0.13"/>
+          <rect x="330" y="180" width="200" height="72" rx="12" class="stroke-line2" fill="none"/>
+          <text x="430" y="210" text-anchor="middle" font-size="14" font-weight="700" class="s-blue">胞質 Ca²⁺ ↑</text>
+          <text x="430" y="232" text-anchor="middle" font-size="10" class="s-mute">無內質網、無粒線體——僅能由外內流</text>
+
+          <!-- execution arms -->
+          <rect x="590" y="24" width="390" height="100" rx="12" class="panel-f stroke-line" fill-opacity="0.55"/>
+          <text x="785" y="50" text-anchor="middle" font-size="13" font-weight="700" class="s-purple">Gardos 通道（KCNN4）</text>
+          <text x="785" y="72" text-anchor="middle" font-size="10.5" class="s-text">K⁺ 外流 → 過極化 → Cl⁻ 外流</text>
+          <text x="785" y="92" text-anchor="middle" font-size="10.5" class="s-text">KCl 流失伴滲透性水分流失</text>
+          <text x="785" y="112" text-anchor="middle" font-size="10.5" class="s-amber">細胞皺縮</text>
+
+          <rect x="590" y="150" width="390" height="100" rx="12" class="panel-f stroke-line" fill-opacity="0.55"/>
+          <text x="785" y="176" text-anchor="middle" font-size="13" font-weight="700" class="s-amber">Scramblase 開 · flippase 關</text>
+          <text x="785" y="198" text-anchor="middle" font-size="10.5" class="s-text">磷脂醯絲胺酸 → 外小葉</text>
+          <text x="785" y="218" text-anchor="middle" font-size="10.5" class="s-text">「吃我」訊號 · 凝血酶原酶組裝的</text>
+          <text x="785" y="238" text-anchor="middle" font-size="10.5" class="s-amber">催化表面</text>
+
+          <rect x="590" y="276" width="390" height="100" rx="12" class="panel-f stroke-line" fill-opacity="0.55"/>
+          <text x="785" y="302" text-anchor="middle" font-size="13" font-weight="700" class="s-pink">Calpain-1</text>
+          <text x="785" y="324" text-anchor="middle" font-size="10.5" class="s-text">細胞骨架蛋白水解</text>
+          <text x="785" y="344" text-anchor="middle" font-size="10.5" class="s-text">膜起泡 · 微囊泡脫落</text>
+          <text x="785" y="364" text-anchor="middle" font-size="10" class="s-mute">注意：calpain-1 基因剔除小鼠紅血球壽命正常（Tier 3）</text>
+
+          <!-- efferocytosis -->
+          <rect x="590" y="404" width="390" height="96" rx="12" class="teal-f" fill-opacity="0.12"/>
+          <rect x="590" y="404" width="390" height="96" rx="12" class="stroke-line2" fill="none"/>
+          <text x="785" y="432" text-anchor="middle" font-size="13" font-weight="700" class="s-teal">胞葬作用 — 數分鐘內</text>
+          <text x="785" y="454" text-anchor="middle" font-size="10.5" class="s-text">巨噬細胞／Kupffer 細胞攝入（stabilin-1/2）</text>
+          <text x="785" y="474" text-anchor="middle" font-size="10.5" class="s-text">促消退：HO-1 ↑ · IL-1β／TNF-α ↓</text>
+          <text x="785" y="492" text-anchor="middle" font-size="10" class="s-mute">老化抗原路徑：需數天 · 非裂解、膜完整</text>
+
+          <!-- hemolysis alternative -->
+          <rect x="330" y="528" width="650" height="84" rx="12" class="red-f" fill-opacity="0.10"/>
+          <rect x="330" y="528" width="650" height="84" rx="12" class="stroke-line" fill="none" stroke-dasharray="6 4"/>
+          <text x="655" y="554" text-anchor="middle" font-size="13" font-weight="700" class="s-red">溶血 — 意外性替代（清除飽和或訊號失敗）</text>
+          <text x="655" y="576" text-anchor="middle" font-size="10.5" class="s-text">Hb／血基質／ATP／IL-33／HSP70 釋放 → NO 清除 · TLR4/NF-κB · NETs · 補體 · NLRP3</text>
+          <text x="655" y="596" text-anchor="middle" font-size="10" class="s-mute">當 caspase-8 關閉時，裂解式調控替代為 erythronecroptosis（RIPK1/3/MLKL）</text>
+
+          <!-- arrows -->
+          <path d="M270,110 L324,96" class="stroke-line2" fill="none" marker-end="url(#cArr)" stroke-width="1.6"/>
+          <path d="M430,136 L430,174" class="stroke-line2" fill="none" marker-end="url(#cArr)" stroke-width="1.6"/>
+          <path d="M530,216 L584,88" class="stroke-line2" fill="none" marker-end="url(#cArr)" stroke-width="1.6"/>
+          <path d="M536,216 L584,200" class="stroke-line2" fill="none" marker-end="url(#cArr)" stroke-width="1.6"/>
+          <path d="M530,216 L584,312" class="stroke-line2" fill="none" marker-end="url(#cArr)" stroke-width="1.6"/>
+          <path d="M785,250 L785,398" class="stroke-line2" fill="none" marker-end="url(#cArrT)" stroke-width="1.6"/>
+          <text x="797" y="372" font-size="10" class="s-teal">PS⁺ 細胞被清除</text>
+          <!-- brakes inhibit -->
+          <path d="M270,320 L368,136" class="stroke-line2" fill="none" marker-end="url(#cBlunt)" stroke-width="1.6" stroke-dasharray="5 4"/>
+          <text x="300" y="252" font-size="10" class="s-teal">抑制</text>
+          <!-- saturation -->
+          <path d="M940,428 L972,428 L972,570" class="stroke-line2" fill="none" marker-end="url(#cArrR)" stroke-width="1.6" stroke-dasharray="5 4"/>
+          <text x="848" y="518" font-size="10" class="s-red">清除飽和 → 裂解</text>
+        </svg>
+      </div>
+      <figcaption class="fig-cap"><b>圖 1 — Eryptosis 執行級聯。</b>
+        觸發因子匯聚於非選擇性陽離子內流；胞質 Ca²⁺ 並行驅動皺縮（Gardos/KCNN4）、PS 外翻（scramblase 開、
+        flippase 關）與起泡（calpain-1）。PS 陽性細胞在數分鐘內被胞葬清除——抗發炎、非裂解的處置路徑。當清除飽和
+        或死亡訊號在執行前失敗，同一受損細胞改為裂解，釋出 Hb、血基質與 DAMP。改編自 Tkachenko et al. 2025
+        （訊號為 Tier 4；小鼠基因剔除為 Tier 3）。
+      </figcaption>
+    </figure>
+
+    <figure class="fig">
+      <iframe class="anim-frame" src="eryptosis.html?embed=1" title="互動式 three.js 模型 — 成熟紅血球中的 eryptosis（觸發、Ca2+ 中樞、PS 外翻）" loading="lazy"></iframe>
+      <figcaption class="fig-cap"><b>圖 2 — 同一級聯的互動式 three.js 模型。</b>
+        拖曳旋轉、滾輪縮放；使用晶片隔離觸發、Ca²⁺ 中樞與 PS 外翻三個層級；點擊色塊檢視機制；
+        拖曳計量條可對應生物時間（T+，小時）。內容與圖 1 相同的互動版本——圖 1 保留為可列印的靜態形式。
+        獨立頁面：<a href="eryptosis.html">Eryptosis — three.js 動畫</a>。
+      </figcaption>
+    </figure>
+
+    <div class="callout teal">
+      <span class="callout-tag">生理學理由</span>
+      <p>
+        Eryptosis 是品質管控的清除臂：它在受損紅血球——包括感染 <i>Plasmodium falciparum</i> 的細胞——裂解並釋出
+        血基質、Hb 與 DAMP 之前將其移除。PS 外翻與巨噬細胞攝入是抗發炎的（HO-1 上調、細胞激素抑制）；
+        溶血則是促發炎的意外事件，而 eryptosis 先行清除正是對其最主要的生理學防禦。宿主防衛同時限定了抑制
+        eryptosis 的上限：G6PD 缺乏（蠶豆症）、鐮刀型性狀與海洋性貧血性狀正是藉由降低 eryptosis 閾值，
+        提供部分瘧疾保護（Tier 2）。
+      </p>
+    </div>
+  </section>
+
+  <!-- ==================== FRACTION ==================== -->
+  <section id="fraction">
+    <h2>有多大比例的紅血球經此途徑死亡 — 未被量化</h2>
+    <p>
+      正常族群的 eryptosis 比例在文獻中<b>未被量化</b>，引用任何具體數字皆無依據。已確立的是：紅血球壽命約 120 天，
+      每日更新約佔紅血球總量的 1%（常見報導為每秒約 2–3 × 10⁶ 個細胞）；eryptotic 清除是此通量中受壓力細胞的子集，
+      而穩態下 eryptotic 清除與老化抗原／IgG 清除的比例分配未有發表。參考族群中基礎 PS 外翻約佔紅血球的
+      0.5–0.6%——且這並非 eryptosis 專一性檢測，因為 annexin V 結合亦標記其他膜狀態。老化細胞更易發生
+      eryptosis，且依慣例，表現 PS 的老化細胞計入 eryptotic（Tkachenko 2025）。
+    </p>
+    <p>
+      疾病對實測比例的影響則在多個情境中被量化，但有一重要限制：下列數字來自不同標記物（annexin V、lactadherin）、
+      不同抗體與流式細胞儀協定，因此<b>跨研究比較依賴檢測方法</b>。在同一研究內——同一標記、同一協定——
+      對比則具有參考價值。
+    </p>
+
+    <figure class="fig">
+      <div class="fig-canvas">
+        <svg viewBox="0 0 1000 560" role="img" aria-labelledby="fracTitle">
+          <title id="fracTitle">對照組與暴露族群的磷脂醯絲胺酸陽性紅血球比例——鉛暴露、闌尾炎、血液透析療程與尿毒症</title>
+          <!-- axis -->
+          <line x1="200" y1="24" x2="200" y2="500" class="stroke-line2"/>
+          <!-- reference band ~0.5-0.6% -->
+          <line x1="318" y1="24" x2="318" y2="500" class="stroke-line" stroke-dasharray="4 4"/>
+          <text x="326" y="40" font-size="10" class="s-mute">參考族群 ≈ 0.5–0.6%</text>
+          <!-- ticks -->
+          <text x="200" y="522" text-anchor="middle" font-size="10.5" class="s-mute">0%</text>
+          <text x="414" y="522" text-anchor="middle" font-size="10.5" class="s-mute">1%</text>
+          <text x="629" y="522" text-anchor="middle" font-size="10.5" class="s-mute">2%</text>
+          <text x="843" y="522" text-anchor="middle" font-size="10.5" class="s-mute">3%</text>
+          <line x1="414" y1="496" x2="414" y2="500" class="stroke-line2"/>
+          <line x1="629" y1="496" x2="629" y2="500" class="stroke-line2"/>
+          <line x1="843" y1="496" x2="843" y2="500" class="stroke-line2"/>
+          <line x1="200" y1="500" x2="960" y2="500" class="stroke-line2"/>
+          <text x="580" y="546" text-anchor="middle" font-size="11" class="s-mute">PS 陽性紅血球比例（%）—除特別註明外皆為 annexin V 流式細胞術</text>
+
+          <!-- study 1: lead -->
+          <text x="188" y="62" text-anchor="end" font-size="12" font-weight="700" class="s-text">職業性鉛暴露</text>
+          <text x="188" y="78" text-anchor="end" font-size="9.5" class="s-mute">對照組 vs 暴露工人</text>
+          <rect x="200" y="44" width="21" height="28" class="blue-f" fill-opacity="0.55"/>
+          <text x="228" y="63" font-size="10.5" class="s-blue">0.10%</text>
+          <rect x="200" y="80" width="604" height="28" class="red-f" fill-opacity="0.65"/>
+          <text x="812" y="99" font-size="10.5" font-weight="700" class="s-red">2.82%</text>
+
+          <!-- study 2: appendicitis -->
+          <text x="188" y="172" text-anchor="end" font-size="12" font-weight="700" class="s-text">闌尾炎（CRP 驅動）</text>
+          <text x="188" y="188" text-anchor="end" font-size="9.5" class="s-mute">健康志願者 vs 患者</text>
+          <rect x="200" y="154" width="174" height="28" class="blue-f" fill-opacity="0.55"/>
+          <text x="381" y="173" font-size="10.5" class="s-blue">0.81%</text>
+          <rect x="200" y="190" width="392" height="28" class="red-f" fill-opacity="0.65"/>
+          <text x="599" y="209" font-size="10.5" font-weight="700" class="s-red">1.83%</text>
+
+          <!-- study 3: HD session -->
+          <text x="188" y="282" text-anchor="end" font-size="12" font-weight="700" class="s-text">血液透析療程（Abed）</text>
+          <text x="188" y="298" text-anchor="end" font-size="9.5" class="s-mute">同一批患者，透析前 vs 透析後</text>
+          <rect x="200" y="264" width="180" height="28" class="blue-f" fill-opacity="0.55"/>
+          <text x="387" y="283" font-size="10.5" class="s-blue">0.84%</text>
+          <rect x="200" y="300" width="290" height="28" class="red-f" fill-opacity="0.65"/>
+          <text x="497" y="319" font-size="10.5" font-weight="700" class="s-red">1.35%</text>
+
+          <!-- study 4: uremia -->
+          <text x="188" y="392" text-anchor="end" font-size="12" font-weight="700" class="s-text">尿毒症（Bonomini）</text>
+          <text x="188" y="408" text-anchor="end" font-size="9.5" class="s-mute">健康對照組 vs 血液透析患者</text>
+          <rect x="200" y="374" width="146" height="28" class="blue-f" fill-opacity="0.55"/>
+          <text x="353" y="393" font-size="10.5" class="s-blue">0.68%</text>
+          <rect x="200" y="410" width="664" height="28" class="red-f" fill-opacity="0.65"/>
+          <text x="871" y="429" font-size="10.5" font-weight="700" class="s-red">3.10%</text>
+        </svg>
+      </div>
+      <figcaption class="fig-cap"><b>圖 3 — 實測 PS 陽性比例在氧化、發炎與尿毒負荷下上升二至十倍。</b>
+        資料：鉛暴露工人（職業醫學資料）；闌尾炎世代（含血漿 CRP 效應）；同一患者透析前後對比（Abed et al.）；
+        血液透析患者與健康對照（Bonomini et al.，血漿置換後可逆）。虛線標示參考族群約 0.5–0.6% 的基準。
+        限制：跨研究數值不可直接比較（標記物與協定差異——lactadherin 與 annexin V 結果不一致）；
+        annexin V 陽性並非 eryptosis 專一。證據等級 Tier 2–4。
+      </figcaption>
+    </figure>
+
+    <div class="callout">
+      <span class="callout-tag">量化限制</span>
+      <p>
+        三項限制約束所有下游主張。第一，<b>不存在 eryptosis 專一標記</b>——檢測標準化是 Tkachenko 2025 的積極建議。
+        第二，PS 陽性細胞在數分鐘內被清除，穩態抽血會低估 eryptotic 通量；實測比例是活性的下限。
+        第三，在 CKD 世代中 eryptosis 與 MPO（ρ = 0.77，p = 0.01）、IL-6（ρ = 0.52，p = 0.05）及 eGFR 分層
+        （p &lt; 0.001）相關（Clementi 2022）——這些是相關性，且尿毒、發炎與 ESA 劑量的混淆極少被完整校正（Tier 2）。
+      </p>
+    </div>
+  </section>
+
+  <!-- ==================== EXCESS ==================== -->
+  <section id="excess">
+    <h2>失效模式一 — 過度 eryptosis 使保護轉為病理</h2>
+    <p>
+      當氧化、尿毒或發炎負荷驅動 eryptosis 的速度快於代償性紅血球生成與清除所能吸收的程度，
+      品質管控程序便成為疾病機制。已記錄的後果有四類。
+    </p>
+
+    <h3>貧血與 ESA 低反應</h3>
+    <p>
+      在 CKD／ESRD，紅血球壽命自約 120 天縮短至 <b>60–90 天</b>（Deng 2025）；貧血盛行率隨 CKD 分期上升，
+      透析患者超過 90%，且約半數治療患者的 ESA／鐵劑矯正效果不理想——eryptosis 是此低反應的組成之一（Lang 2017）。
+      世代研究報告的貧血後果包括生活品質受損、心血管併發症、疾病進展、認知障礙與較高死亡率（Bissinger 2019）——
+      屬相關性而非因果（Tier 2）。eryptosis 並跨癌症（cisplatin、topotecan、tamoxifen、sorafenib、sunitinib 皆促
+      eryptosis）、心臟衰竭、肝衰竭、敗血症與瘧疾，參與慢性病貧血。
+    </p>
+
+    <h3>PS 介導的促凝血活性</h3>
+    <p>
+      外翻的 PS 是凝血酶原酶（prothrombinase）組裝的催化表面；在部分病理狀態下，紅血球可貢獻高達
+      <b>約 40% 的凝血酶生成</b>（Tkachenko 2025；綜述數據）。紅血球衍生的微囊泡經因子 XII——接觸路徑、
+      不依賴組織因子——觸發凝血酶生成（van der Meijden 2012）。表現 PS 的細胞經 CD36 黏附血小板，並經
+      CXCL16/SR-PSOX 與血小板反應蛋白-1（thrombospondin-1）黏附內皮；體外實驗已在動脈剪率下證實黏附，
+      且可被 annexin V 或 CXCL16 阻斷削弱（Borst 2012）。在肝硬化，血球與內皮細胞上的 PS 縮短凝血時間（Wu 2016）。
+    </p>
+
+    <h3>內皮功能障礙與雙區室的發炎分歧</h3>
+    <p>
+      Eryptotic 細胞經 PS/CXCL16 黏附內皮，隨後<b>被內皮細胞攝入並誘導內皮鐵死亡</b>（Tkachenko 2026；
+      Tier 4→3，缺乏人類預後數據）。巨噬細胞區室的反應相反：對 eryptotic 細胞的胞葬使巨噬細胞重編程為促消退表型
+      （HO-1 依賴，於腦出血模型證實，Tier 3）。同一 PS 訊號因此在內皮處促損傷、在免疫區室促消退；
+      其體內淨效應未在人類檢驗。
+    </p>
+
+    <h3>微循環障礙與前饋迴路</h3>
+    <p>
+      黏附形成微聚集體並降低微血管血流，已在鐮刀型紅血球疾病與糖尿病記錄，並與溶血性尿毒症候群相關；
+      在 ESRD，當 ESA 劑量被迫推向高目標時風險放大（Lang 2017）。機制上各臂形成迴路：氧化壓力／尿毒毒素／
+      能量耗竭 → 陽離子通道開啟 → Ca²⁺ → PS 外翻 → 加速清除 → 貧血 → 缺氧與 ESA 加量 → 更多易發 eryptosis 的細胞；
+      同時 PS 介導的黏附 → 微血管阻塞 → 局部缺氧 → 進一步通道活化。每一環節均被個別報導，
+      但<b>此迴路未在人體被實驗閉合</b>——這是機制描述，不是臨床實體（各環節 Tier 4/2）。
+    </p>
+
+    <div class="tbl-wrap" style="margin-top:18px;" id="disease">
+      <table class="tbl-fixed">
+        <thead>
+          <tr>
+            <th style="width:24%;">情境</th>
+            <th style="width:64%;">發現</th>
+            <th style="width:12%;">證據</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><b>CKD／ESRD</b></td><td>透析前、血液透析與腹膜透析皆見加速；依 eGFR 分層（p &lt; 0.001）；紅血球壽命 60–90 天；ESA 低反應組成；與 MPO、IL-6、低白蛋白、高鐵蛋白／副甲狀腺素相關</td><td><span class="tier t2">2</span></td></tr>
+          <tr><td><b>糖尿病／代謝症候群</b></td><td>PS⁺ 比例上升（第一型、第二型糖尿病、甲基乙二醛）；促凝血的微血管與大血管表型</td><td><span class="tier t4">4</span>–<span class="tier t2">2</span></td></tr>
+          <tr><td><b>心血管</b>（主動脈瓣狹窄、缺血性心臟病、心臟衰竭）</td><td>經更新驅動的貧血；PS 促凝血性；心臟衰竭紅血球氧化還原異常</td><td><span class="tier t2">2</span>–<span class="tier t3">3</span></td></tr>
+          <tr><td><b>肝衰竭／肝硬化</b></td><td>貧血加上凝血時間縮短；膽紅素–神經醯胺惡性循環</td><td><span class="tier t2">2</span>–<span class="tier t4">4</span></td></tr>
+          <tr><td><b>敗血症</b></td><td>敗血血漿在 &lt; 15 分鐘內誘發 eryptosis；與內毒素活性、IL-6、MPO 相關；被建議為嚴重度生物標記</td><td><span class="tier t4">4</span>–<span class="tier t2">2</span></td></tr>
+          <tr><td><b>癌症＋化療</b></td><td>經更新></td><td>經更新驅動的貧血；鉑類藥物、tamoxifen 促 eryptosis；MDS 相關血栓</td><td><span class="tier t2">2</span></td></tr>
+          <tr><td><b>溶血性尿毒症候群</b></td><td>患者血漿誘發 eryptosis；依賴補體 C5/C8</td><td><span class="tier t2">2</span>–<span class="tier t4">4</span></td></tr>
+          <tr><td><b>遺傳性疾病</b></td><td>鐮刀型紅血球、海洋性貧血、G6PD 缺乏、球形紅血球增多症、威爾森氏症——eryptosis 閾值降低（瘧疾中具保護性，氧化負荷下致病）</td><td><span class="tier t2">2</span></td></tr>
+          <tr><td><b>長新冠（Long COVID）</b></td><td>微血栓–氧化壓力–eryptosis–微循環衰竭鏈</td><td><span class="tier t5">5</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ==================== UNDER ==================== -->
+  <section id="under">
+    <h2>失效模式二 — 訊號不足與清除不足</h2>
+    <p>
+      兩種不同的缺陷常被混為一談，必須分開。<b>死亡訊號不足</b>：受損細胞未能啟動 eryptosis，或程序被藥理抑制。
+      <b>清除不足</b>：eryptosis 已執行——PS 外翻、皺縮——但胞葬被飽和（如氧化劑暴露後的大規模同步死亡）
+      或受損（Kupffer 細胞功能障礙、stabilin-1/2 訊號缺陷、囊泡清除超載），使 PS 陽性細胞滯留循環。
+      已記錄的後果分為兩臂。
+    </p>
+
+    <h3>受損細胞滯留 → 溶血級聯</h3>
+    <p>
+      溶血釋出 Hb、血基質、ATP、IL-33 與 HSP70。游離 Hb 清除一氧化氮 → 血管收縮、血小板活化、內皮功能障礙。
+      游離血基質驅動芬頓化學、TLR4/NF-κB 內皮活化、TNF-α 釋放、嗜中性球胞外網（NET）形成、補體招募與
+      NLRP3 發炎體活化，並誘導內皮與免疫細胞的血基質驅動型程序性死亡（壞死性凋亡、HO-1 依賴鐵死亡、細胞焦亡）。
+      釋出的血基質蛋白經腎臟過濾造成腎小管損傷；結合珠蛋白（haptoglobin）與血基質結合蛋白（hemopexin）的緩衝可飽和。
+      此病理生理已在人類疾病中確立——鐮刀型紅血球、海洋性貧血、輸血反應、機械瓣膜（Tier 4/3；人類疾病生理）。
+    </p>
+
+    <h3>PS 陽性細胞滯留 → 促凝血與促黏附負擔</h3>
+    <p>
+      Eryptotic PS 陽性細胞不會在局部被清除：肝竇 stabilin-1/2 辨識與 Kupffer 細胞攝入主導清除
+      （實驗中 80% 的紅血球衍生囊泡於 5 分鐘內被移除，Tier 3–4）。若清除飽和或受損，細胞仍保有前述促凝血表面與
+      CXCL16/CD36 黏附表型，使血栓與微循環風險持續，而非在數分鐘內消退（Tier 4；缺乏人類預後數據）。
+      輸入儲存濃縮紅血球——累積 PS 陽性微囊泡與攜帶 DAMP 的微囊泡——可延長受血者的 PS 暴露；臨床後果未量化
+      （Tier 3–4/2，儲存損傷相關性）。CD47–SIRPα 是組成性的「別吃我」煞車；病理性 CD47 滯留將延遲清除，
+      但臨床直接對應未經證實（Tier 5/4）。
+    </p>
+
+    <h3>抑制治療的宿主防衛代價</h3>
+    <p>
+      感染 <i>Plasmodium</i> 的紅血球依賴 eryptosis 被清除；抑制此程序將使感染細胞滯留循環。
+      這是抗 eryptosis 治療最主要的體內代價，另加尚未解決的對細胞抑制劑誘發腫瘤細胞凋亡的干擾
+      （Tier 3/2，來自具保護性的 G6PD、鐮刀型與海洋性貧血性狀的流行病學）。在肝衰竭，兩種失效模式並存：
+      膽紅素與膽汁酸過量驅動紅血球 Ca²⁺ 內流與神經醯胺生成——更多 eryptosis，而非更少。
+    </p>
+
+    <div class="callout red">
+      <span class="callout-tag">清除不足臂的臨床地位</span>
+      <p>
+        一個明確的人類「清除不足」症候群<b>尚未建立</b>。此失效模式表現為溶血（細胞裂解而非被清除），或較少被測量的、
+        大規模氧化或尿毒傷害後持續的 PS 陽性細胞。沒有基於生物標記的診斷閾值，也沒有介入性試驗。
+        此臂應被視為對過度臂的機制性制衡，而非公認適應症。
+      </p>
+    </div>
+
+    <figure class="fig">
+      <div class="fig-canvas">
+        <svg viewBox="0 0 1000 560" role="img" aria-labelledby="failTitle">
+          <title id="failTitle">Eryptosis 品質管控的兩種失效模式——過度死亡訊號與清除不足經由不同路徑匯聚於貧血與血管功能障礙</title>
+          <defs>
+            <marker id="fArr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,1 L9,5 L0,9 z" class="s-dim"/>
+            </marker>
+          </defs>
+
+          <!-- center -->
+          <rect x="330" y="20" width="340" height="92" rx="14" class="teal-f" fill-opacity="0.13"/>
+          <rect x="330" y="20" width="340" height="92" rx="14" class="stroke-line2" fill="none"/>
+          <text x="500" y="52" text-anchor="middle" font-size="14.5" font-weight="700" class="s-teal">ERYPTOTIC 品質管控</text>
+          <text x="500" y="76" text-anchor="middle" font-size="11" class="s-text">Ca²⁺ → PS 外翻 → 胞葬作用</text>
+          <text x="500" y="96" text-anchor="middle" font-size="10" class="s-mute">非裂解 · 抗發炎 · 數分鐘</text>
+
+          <!-- excess panel -->
+          <rect x="20" y="150" width="450" height="330" rx="12" class="red-f" fill-opacity="0.08"/>
+          <rect x="20" y="150" width="450" height="330" rx="12" class="stroke-line" fill="none"/>
+          <text x="245" y="180" text-anchor="middle" font-size="13.5" font-weight="700" class="s-red">過度 — 死亡訊號太多</text>
+          <text x="245" y="210" text-anchor="middle" font-size="10.5" class="s-text">貧血 · 紅血球壽命 120 → 60–90 天（CKD）</text>
+          <text x="245" y="230" text-anchor="middle" font-size="10.5" class="s-text">ESA 低反應</text>
+          <text x="245" y="258" text-anchor="middle" font-size="10.5" class="s-text">PS⁺ 表面 → 凝血酶原酶組裝</text>
+          <text x="245" y="278" text-anchor="middle" font-size="10.5" class="s-text">病理狀態下貢獻約 40% 凝血酶生成</text>
+          <text x="245" y="306" text-anchor="middle" font-size="10.5" class="s-text">CXCL16/SR-PSOX 黏附 → 內皮攝入</text>
+          <text x="245" y="326" text-anchor="middle" font-size="10.5" class="s-text">→ 內皮鐵死亡</text>
+          <text x="245" y="354" text-anchor="middle" font-size="10.5" class="s-text">微聚集體 → 微血管血流受阻</text>
+          <text x="245" y="382" text-anchor="middle" font-size="10.5" class="s-text">內皮與敗血症中的促發炎偏移</text>
+          <text x="245" y="410" text-anchor="middle" font-size="10.5" class="s-text">eryptotic 細胞脫落的囊泡攜帶 DAMP</text>
+          <text x="245" y="448" text-anchor="middle" font-size="10" class="s-mute">已記錄：CKD/ESRD · 糖尿病 · 心臟衰竭 · 肝硬化 · 敗血症</text>
+
+          <!-- under panel -->
+          <rect x="530" y="150" width="450" height="330" rx="12" class="amber-f" fill-opacity="0.09"/>
+          <rect x="530" y="150" width="450" height="330" rx="12" class="stroke-line" fill="none"/>
+          <text x="755" y="180" text-anchor="middle" font-size="13.5" font-weight="700" class="s-amber">清除不足 — 太少或太晚</text>
+          <text x="755" y="210" text-anchor="middle" font-size="10.5" class="s-text">細胞改為裂解 → Hb／血基質／ATP／IL-33／HSP70</text>
+          <text x="755" y="230" text-anchor="middle" font-size="10.5" class="s-text">NO 清除 → 血管收縮 · 血小板活化</text>
+          <text x="755" y="258" text-anchor="middle" font-size="10.5" class="s-text">血基質 → TLR4/NF-κB · NETs · 補體 · NLRP3</text>
+          <text x="755" y="278" text-anchor="middle" font-size="10.5" class="s-text">腎血基質蛋白損傷（haptoglobin 可飽和）</text>
+          <text x="755" y="306" text-anchor="middle" font-size="10.5" class="s-text">持續 PS⁺ 細胞 → 無及時攝入的</text>
+          <text x="755" y="326" text-anchor="middle" font-size="10.5" class="s-text">持續促凝血、促黏附負擔</text>
+          <text x="755" y="354" text-anchor="middle" font-size="10.5" class="s-text">喪失 <tspan font-style="italic">Plasmodium</tspan> 感染細胞清除</text>
+          <text x="755" y="382" text-anchor="middle" font-size="10.5" class="s-text">輸血儲存損傷：PS⁺ 囊泡、攜帶 DAMP 的微囊泡</text>
+          <text x="755" y="410" text-anchor="middle" font-size="10.5" class="s-text">CD47–SIRPα 滯留（假說）</text>
+          <text x="755" y="448" text-anchor="middle" font-size="10" class="s-mute">無明確人類症候群 · 機制上受支持</text>
+
+          <!-- arrows -->
+          <path d="M392,112 L300,146" class="stroke-line2" fill="none" marker-end="url(#fArr)" stroke-width="1.6"/>
+          <text x="300" y="136" font-size="10" class="s-red">通量過高</text>
+          <path d="M608,112 L700,146" class="stroke-line2" fill="none" marker-end="url(#fArr)" stroke-width="1.6"/>
+          <text x="676" y="136" font-size="10" class="s-amber">清除飽和／訊號失敗</text>
+
+          <!-- convergence -->
+          <rect x="230" y="496" width="540" height="50" rx="10" class="panel-f stroke-line" fill-opacity="0.55"/>
+          <text x="500" y="517" text-anchor="middle" font-size="12" font-weight="700" class="s-text">兩者經由不同路徑匯聚於貧血＋血管功能障礙</text>
+          <text x="500" y="536" text-anchor="middle" font-size="10" class="s-mute">過度臂有人類世代記錄 · 清除不足臂由溶血生理與清除途徑細胞生物學推論</text>
+          <path d="M245,480 L330,494" class="stroke-line2" fill="none" marker-end="url(#fArr)" stroke-width="1.6"/>
+          <path d="M755,480 L670,494" class="stroke-line2" fill="none" marker-end="url(#fArr)" stroke-width="1.6"/>
+        </svg>
+      </div>
+      <figcaption class="fig-cap"><b>圖 4 — 兩種失效模式。</b>
+        過度 eryptosis 將保護性清除程序轉為貧血、促凝血與內皮損傷；訊號不足或清除飽和則使受損細胞裂解或滯留。
+        臨床證據基礎不對稱——過度臂已在多個人類疾病世代被記錄，清除不足臂則仰賴溶血生理學與清除途徑細胞生物學。
+      </figcaption>
+    </figure>
+  </section>
+
+  <!-- ==================== ADRENOCHROME ==================== -->
+  <section id="adrenochrome">
+    <h2>腎上腺素紅交叉 — 共享節點、未證實的連結</h2>
+    <p>
+      腎上腺素在氧化壓力下經非酵素途徑氧化為腎上腺素紅（腎上腺素紅；經超氧陰離子、H₂O₂、以及 Fe²⁺/Cu²⁺ 芬頓化學
+      產生的氫氧自由基），亦可經嗜中性球髓過氧化物酶（MPO）酵素性生成。人類紅血球細胞膜以兩相反應將腎上腺素轉化為
+      包括腎上腺素紅在內的胺基色素（PMID 8937691），血紅素亦在血液中催化腎上腺素氧化——兩者皆為 Tier 4。
+      因此紅血球同時是腎上腺素紅生成的次要部位、限制其持續存在的還原槽（黃遞酶 diaphorase 與抗壞血酸將腎上腺素紅
+      還原回反應物，使穩態濃度維持在奈莫耳範圍），以及其氧化化學的標的：膜脂質過氧化、變性血紅素（methemoglobin）
+      形成，以及高濃度下的溶血。
+    </p>
+    <p>
+      兩個系統共享機制節點：腎上腺素紅半醌氧化還原循環在再生母體醌的同時生成超氧陰離子；腎上腺素紅耗竭穀胱甘肽；
+      兩者的化學都消耗由 G6PD 與戊糖磷酸途徑維持的同一 NADPH/GSH 儲備——而正是該儲備的耗竭會降低 eryptosis 閾值。
+      但<b>「腎上腺素紅 → eryptosis」此特定步驟在機制上受支持、在實驗上未被證實</b>：未找到任何以 annexin V／Ca²⁺／
+      溶血為讀值、針對人類紅血球的腎上腺素紅劑量反應研究；腎上腺素紅不在現行綜述所列已測 eryptosis 誘發物之中；
+      次裂解濃度的腎上腺素紅是否相對於溶血優先觸發 eryptosis，未量化且未測試（Tier 5）。
+    </p>
+
+    <figure class="fig">
+      <div class="fig-canvas">
+        <svg viewBox="0 0 1000 600" role="img" aria-labelledby="adrTitle">
+          <title id="adrTitle">腎上腺素紅–eryptosis 交叉——腎上腺素氧化為腎上腺素紅、紅血球還原槽，以及兩臂在 ROS、GSH/NADPH 耗竭與芬頓化學上的匯聚；腎上腺素紅直接誘導 eryptosis 的連結機制上受支持但實驗未證實</title>
+          <defs>
+            <marker id="aArr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,1 L9,5 L0,9 z" class="s-dim"/>
+            </marker>
+            <marker id="aArrR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,1 L9,5 L0,9 z" class="s-red"/>
+            </marker>
+            <marker id="aBlunt" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+              <path d="M9,1 L1,5 L9,9 z" class="s-teal"/>
+            </marker>
+          </defs>
+
+          <!-- epinephrine -->
+          <rect x="20" y="30" width="180" height="70" rx="12" class="panel-f stroke-line" fill-opacity="0.55"/>
+          <text x="110" y="60" text-anchor="middle" font-size="13" font-weight="700" class="s-text">腎上腺素</text>
+          <text x="110" y="82" text-anchor="middle" font-size="10" class="s-mute">兒茶酚胺受質</text>
+
+          <!-- adrenochrome -->
+          <rect x="260" y="20" width="230" height="90" rx="12" class="red-f" fill-opacity="0.10"/>
+          <rect x="260" y="20" width="230" height="90" rx="12" class="stroke-line" fill="none"/>
+          <text x="375" y="50" text-anchor="middle" font-size="14" font-weight="700" class="s-red">腎上腺素紅</text>
+          <text x="375" y="72" text-anchor="middle" font-size="10" class="s-mute">腎上腺素自氧化產物</text>
+          <text x="375" y="92" text-anchor="middle" font-size="10" class="s-mute">生成：ROS · MPO · Fe²⁺/Cu²⁺ 芬頓（Tier 4）</text>
+
+          <!-- oxidation chemistry -->
+          <rect x="550" y="20" width="430" height="100" rx="12" class="panel-f stroke-line" fill-opacity="0.55"/>
+          <text x="765" y="46" text-anchor="middle" font-size="12.5" font-weight="700" class="s-amber">半醌氧化還原循環</text>
+          <text x="765" y="68" text-anchor="middle" font-size="10.5" class="s-text">再生母體醌 · 生成 O₂⁻ · H₂O₂ → •OH</text>
+          <text x="765" y="90" text-anchor="middle" font-size="10.5" class="s-text">耗竭 GSH（心肌／神經元模型）</text>
+          <text x="765" y="110" text-anchor="middle" font-size="10.5" class="s-text">消耗 NADPH——與 G6PD/PPP 同一儲備（Tier 4）</text>
+
+          <!-- RBC sink -->
+          <rect x="20" y="150" width="300" height="110" rx="12" class="teal-f" fill-opacity="0.10"/>
+          <rect x="20" y="150" width="300" height="110" rx="12" class="stroke-line2" fill="none"/>
+          <text x="170" y="176" text-anchor="middle" font-size="12.5" font-weight="700" class="s-teal">紅血球還原槽</text>
+          <text x="170" y="198" text-anchor="middle" font-size="10.5" class="s-text">黃遞酶＋抗壞血酸還原腎上腺素紅</text>
+          <text x="170" y="218" text-anchor="middle" font-size="10.5" class="s-text">穩態：奈莫耳濃度（Tier 4）</text>
+          <text x="170" y="240" text-anchor="middle" font-size="10" class="s-mute">緩衝逾限 → 變性血紅素、脂質</text>
+          <text x="170" y="254" text-anchor="middle" font-size="10" class="s-mute">過氧化、高濃度下溶血</text>
+
+          <!-- erythrocyte target -->
+          <rect x="360" y="150" width="280" height="110" rx="12" class="panel-f stroke-line" fill-opacity="0.55"/>
+          <text x="500" y="176" text-anchor="middle" font-size="12.5" font-weight="700" class="s-red">紅血球作為標的</text>
+          <text x="500" y="198" text-anchor="middle" font-size="10.5" class="s-text">紅血球膜將腎上腺素轉化為</text>
+          <text x="500" y="216" text-anchor="middle" font-size="10.5" class="s-text">胺基色素（PMID 8937691）</text>
+          <text x="500" y="238" text-anchor="middle" font-size="10.5" class="s-text">血紅素催化腎上腺素氧化</text>
+          <text x="500" y="256" text-anchor="middle" font-size="10" class="s-mute">Hb／血基質＝芬頓化學的鐵源</text>
+
+          <!-- eryptosis arm -->
+          <rect x="680" y="150" width="300" height="110" rx="12" class="panel-f stroke-line" fill-opacity="0.55"/>
+          <text x="830" y="176" text-anchor="middle" font-size="12.5" font-weight="700" class="s-purple">ERYPTOSIS 閾值</text>
+          <text x="830" y="198" text-anchor="middle" font-size="10.5" class="s-text">ROS → 陽離子通道 → Ca²⁺（Tier 4）</text>
+          <text x="830" y="218" text-anchor="middle" font-size="10.5" class="s-text">GSH 耗竭觸發 eryptosis；</text>
+          <text x="830" y="236" text-anchor="middle" font-size="10.5" class="s-text">NAC 阻斷之並延長小鼠 RBC 半衰期</text>
+          <text x="830" y="254" text-anchor="middle" font-size="10" class="s-mute">G6PD 缺乏降低閾值（Tier 2–4）</text>
+
+          <!-- convergence -->
+          <rect x="290" y="310" width="420" height="104" rx="14" class="blue-f" fill-opacity="0.12"/>
+          <rect x="290" y="310" width="420" height="104" rx="14" class="stroke-line2" fill="none"/>
+          <text x="500" y="338" text-anchor="middle" font-size="13.5" font-weight="700" class="s-blue">匯聚節點</text>
+          <text x="500" y="362" text-anchor="middle" font-size="11" class="s-text">ROS／芬頓化學 · GSH–NADPH 預算（G6PD/PPP）</text>
+          <text x="500" y="382" text-anchor="middle" font-size="11" class="s-text">血紅素／鐵 · 兒茶酚胺處置（COMT/MAO 抑制</text>
+          <text x="500" y="400" text-anchor="middle" font-size="11" class="s-text">提高流向胺基色素的受質通量）</text>
+
+          <!-- untested link -->
+          <rect x="170" y="470" width="660" height="86" rx="12" class="red-f" fill-opacity="0.07"/>
+          <rect x="170" y="470" width="660" height="86" rx="12" class="stroke-line" fill="none" stroke-dasharray="7 5"/>
+          <text x="500" y="498" text-anchor="middle" font-size="13" font-weight="700" class="s-red">腎上腺素紅 → eryptosis：機制上受支持、實驗上未證實（Tier 5）</text>
+          <text x="500" y="520" text-anchor="middle" font-size="10.5" class="s-text">無 annexin V／Fluo-4／溶血讀值的劑量反應 · 不在已測 eryptosis 誘發物之列</text>
+          <text x="500" y="540" text-anchor="middle" font-size="10" class="s-mute">提出的鐵死亡雙重誘發角色（GPX4 芳基化）——未測試，無 C11-BODIPY 數據</text>
+
+          <!-- arrows -->
+          <path d="M200,65 L254,65" class="stroke-line2" fill="none" marker-end="url(#aArr)" stroke-width="1.6"/>
+          <text x="227" y="56" text-anchor="middle" font-size="9.5" class="s-mute">氧化</text>
+          <path d="M490,65 L544,65" class="stroke-line2" fill="none" marker-end="url(#aArrR)" stroke-width="1.6"/>
+          <path d="M700,120 L620,304" class="stroke-line2" fill="none" marker-end="url(#aArrR)" stroke-width="1.6"/>
+          <path d="M830,260 L700,338" class="stroke-line2" fill="none" marker-end="url(#aArrR)" stroke-width="1.6"/>
+          <path d="M500,260 L500,304" class="stroke-line2" fill="none" marker-end="url(#aArrR)" stroke-width="1.6"/>
+          <path d="M170,260 L350,304" class="stroke-line2" fill="none" marker-end="url(#aBlunt)" stroke-width="1.6" stroke-dasharray="5 4"/>
+          <text x="222" y="292" font-size="10" class="s-teal">緩衝</text>
+          <path d="M500,414 L500,464" class="stroke-line2" fill="none" marker-end="url(#aArrR)" stroke-width="1.6" stroke-dasharray="5 4"/>
+        </svg>
+      </div>
+      <figcaption class="fig-cap"><b>圖 5 — 腎上腺素紅–eryptosis 交叉。</b>
+        每一組成環節皆被個別記錄（Tier 4）：紅血球生成胺基色素、血紅素催化該氧化、黃遞酶／抗壞血酸將腎上腺素紅維持在
+        奈莫耳穩態，且兩臂匯聚於 ROS 生成與 GSH/NADPH 預算。最後一步——腎上腺素紅作為直接 eryptosis 誘發物——
+        是推論而非實驗（Tier 5）。
+      </figcaption>
+    </figure>
+
+    <h3>止血 — 同一分子家族的相反方向</h3>
+    <p>
+      腎上腺素紅衍生物（腎上腺素紅單胺基胍、carbazochrome）曾作為毛細血管止血劑臨床使用（Tier 2，現代驗證有限）。
+      Eryptotic PS 陽性細胞則提供凝血酶原酶組裝的催化表面，在部分病理狀態貢獻約 40% 的凝血酶生成。
+      這是同一化合物家族在凝血相關表型上的相反方向；兩者不會互相抵銷，也不應混為一談。
+    </p>
+
+    <h3>巴金森氏症作為共享情境——也僅止於此</h3>
+    <p>
+      用於巴金森氏症的 COMT 抑制劑使兒茶酚胺通量轉向氧化產物；腎上腺素紅是兒茶酚胺神經黑色素合成過程的中間產物。
+      獨立地，calpain 與神經醯胺生成的改變會在巴金森氏症中觸發 eryptosis，而類澱粉蛋白 β 在阿茲海默症中造成
+      紅血球氧化損傷（Tier 4–2）。這兩條軸都未建立「周邊腎上腺素紅負荷 → eryptosis 驅動貧血」的因果鏈；
+      兩者只是被記錄在同一疾病情境中。所提出的圖譜路徑——腎上腺素紅 → DGCR8/Drosha 微處理器共價修飾 →
+      pri-miRNA 處理改變 → 老化／SASP → 慢性發炎老化（inflammaging）——是知識庫產物，未經實驗驗證（Tier 5）。
+    </p>
+
+    <div class="tbl-wrap" style="margin-top:18px;" id="nodes">
+      <table class="tbl-fixed">
+        <thead>
+          <tr>
+            <th style="width:18%;">節點</th>
+            <th style="width:33%;">腎上腺素紅臂</th>
+            <th style="width:33%;">Eryptosis 臂</th>
+            <th style="width:16%;">證據</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><b>ROS／芬頓</b></td><td>半醌氧化還原循環再生醌、生成超氧陰離子；H₂O₂ 經 Fe²⁺/Cu²⁺ → •OH</td><td>ROS 開啟非選擇性陽離子通道 → 胞質 Ca²⁺</td><td><span class="tier t4">4</span> 兩者</td></tr>
+          <tr><td><b>GSH 耗竭</b></td><td>在心肌／神經元模型中耗竭穀胱甘肽</td><td>GSH 耗竭觸發 eryptosis；NAC 阻斷之並在體內延長小鼠 RBC 半衰期</td><td><span class="tier t4">4</span>／<span class="tier t3">3</span></td></tr>
+          <tr><td><b>G6PD／PPP</b></td><td>消耗同一 NADPH/GSH 儲備</td><td>G6PD 缺乏降低 eryptosis 閾值（瘧疾中保護、氧化負荷下風險）</td><td><span class="tier t2">2</span>–<span class="tier t4">4</span></td></tr>
+          <tr><td><b>兒茶酚胺處置</b></td><td>COMT/MAO 抑制（entacapone、tolcapone、opicapone；槲皮素）提高流向胺基色素的受質通量</td><td>同一氧化負荷落在紅血球膜上</td><td><span class="tier t4">4</span></td></tr>
+          <tr><td><b>脂質過氧化</b></td><td>氫氧自由基引發 PUFA 氫抽取；提出的鐵死亡雙重誘發角色（GPX4 芳基化，類 RSL3）——未測試</td><td>Eryptosis 經 Ca²⁺/scramblase 而非 GPX4 執行；成熟紅血球的鐵死亡未確認</td><td><span class="tier t5">5</span> 兩者</td></tr>
+          <tr><td><b>血紅素／鐵</b></td><td>鐵介導的芬頓化學驅動腎上腺素紅生成</td><td>同一化學驅動紅血球氧化與隨細胞年齡上升的 eryptosis 傾向</td><td><span class="tier t4">4</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>決定性實驗應該長什麼樣</h3>
+    <p>
+      依每單位成本的資訊產出排序——目前無一已被執行：
+    </p>
+    <ol>
+      <li>
+        <b>直接劑量反應。</b>洗滌人類紅血球，腎上腺素紅 0.1–100 µM，讀值：annexin V–FITC（PS）、Fluo-4（Ca²⁺）、
+        前向散射（皺縮）、溶血（Hb，414 nm）。阻斷條件：去除胞外 Ca²⁺、charybdotoxin（Gardos）、NAC。
+        若腎上腺素紅是真正的 eryptosis 誘發物，PS 外翻應先於裂解且依賴 Ca²⁺。
+      </li>
+      <li>
+        <b>G6PD 分層敏感性。</b>G6PD 缺乏與正常紅血球在相同暴露下的對比；預測：缺乏細胞的劑量反應左移。
+      </li>
+      <li>
+        <b>還原槽臂。</b>完整細胞對比黃遞酶受抑制（或重組）條件，量化紅血球緩衝系統在氧化損傷累積前處置了多少腎上腺素紅。
+      </li>
+      <li>
+        <b>鐵死亡鑑別。</b>GPX4 芳基化分析；以 ferrostatin-1／liproxstatin-1 拯救可區分鐵死亡與 eryptosis。
+      </li>
+      <li>
+        <b>體內半衰期。</b>次毒性腎上腺素紅／carbazochrome 暴露後的小鼠 RBC 半衰期，併用與不併用 NAC 前處理。
+      </li>
+    </ol>
+  </section>
+
+  <!-- ==================== LONGEVITY ==================== -->
+  <section id="longevity">
+    <h2>對長壽與抗老化研究的定位</h2>
+    <p>
+      Eryptosis 是品質管控的清除臂，而非嚴格意義的老化（senescence）調節器。可辯護的框架有三。
+      第一，<b>預防裂解式、促發炎的處置</b>：eryptosis 在溶血釋出 Hb、血基質與 DAMP 進入 NO 清除、TLR4 活化、
+      補體招募級聯之前移除受損細胞（Tier 4–3）。第二，<b>系統性氧化還原與紅血球能量代謝作為長壽讀值</b>：
+      G6PD/PPP → NADPH → 穀胱甘肽還原酶預算、NO → sGC → cGMP → cGKI 軸（eNOS 基因剔除小鼠清除 RBC 更快，Tier 3）、
+      AMPK（AMPKα 基因剔除小鼠：脾腫大、貧血，Tier 3）與 EPO（急性抑制、慢性促 eryptosis）都設定 eryptosis 閾值，
+      且易感性隨細胞年齡上升——NAC 在體外阻斷 eryptosis 並在體內延長小鼠 RBC 半衰期（Tier 3–4；人類轉譯未有報導）。
+      第三，<b>生物標記框架</b>：eryptosis 標記氧化、尿毒與發炎負荷，與 MPO、Cu/Zn SOD 及 IL-6 相關（Tier 2）——
+      可作為暴露與嚴重度標記，但未驗證為長壽替代終點。
+    </p>
+    <p>
+      腎上腺素紅佔據互補的位置：它是氧化性、兒茶酚胺豐富、發炎狀態的標記與放大器——正是那些加速 eryptosis 的狀態
+      （CKD/ESRD、敗血症、糖尿病、心臟衰竭、肝衰竭）。可辯護的主張有限：腎上腺素紅負荷與 eryptosis 加速
+      在這些狀態下皆可能升高，且兩者皆與不良血管及血液學預後有實測相關。
+      <b>兩者都不是已確立的長壽或健康壽命標的；所有介入證據皆為 Tier 3–4 或不存在。</b>
+      作為系統性氧化負荷的生物標記，它們是有用的分層工具；作為介入標的，則未經驗證。
+    </p>
+    <p>
+      宿主防衛另為介入設定上限：感染 <i>Plasmodium</i> 的紅血球經 eryptosis 被清除，而降低 eryptosis 閾值的性狀
+      （G6PD 缺乏、鐮刀型性狀、海洋性貧血性狀）正是因為抗瘧保護而在地理上被選擇（Tier 2）。
+      任何抗 eryptosis 策略都必須將此代價計入，另加尚未解決的對細胞抑制劑誘發腫瘤細胞凋亡的干擾。
+    </p>
+  </section>
+
+  <!-- ==================== GAPS ==================== -->
+  <section id="gaps">
+    <h2>證據限制與轉譯缺口</h2>
+    <ul>
+      <li><b>不存在人類 RCT</b> 的抗 eryptosis 治療；eryptosis 抑制劑（NAC、NO/cGMP 軸、離子通道調節劑、EPO）在 ESRD 或任何適應症的療效未確立。介入性主張僅限 Tier 3–4。</li>
+      <li><b>正常 eryptosis 比例未量化。</b>Annexin V 亦結合非 eryptotic 狀態；不同標記結果不一致（lactadherin vs annexin V）；檢測標準化是 Tkachenko 2025 的積極建議。</li>
+      <li><b>清除不足臂屬推論</b>，未在介入性人類世代中被證實：肝臟／Kupffer 清除的飽和與輸血相關 PS／囊泡負荷在臨床上未量化。</li>
+      <li><b>因果性：</b>多數疾病關聯為世代／離體研究；尿毒、發炎與 ESA 劑量的混淆極少被完整校正。</li>
+      <li><b>腎上腺素紅步驟未測試：</b>無針對人類紅血球的腎上腺素紅劑量反應；無證據顯示生理濃度的腎上腺素紅達到陽離子通道活化閾值；無任何腎上腺素紅清除劑的 RCT。思覺失調症紅血球–腎上腺素紅文獻未被重現，不應作為支持引用。</li>
+      <li><b>前饋迴路未在人體端對端閉合</b>；每一環節均為個別報導。</li>
+    </ul>
+
+    <div class="callout">
+      <span class="callout-tag">結論</span>
+      <p>
+        Eryptosis 是受損紅血球非裂解、Ca²⁺／PS 執行的品質管控清除。它朝兩個方向失效：<b>過度</b>產生貧血伴 ESA 低反應、
+        PS 驅動的凝血酶生成、內皮黏附伴鐵死亡損傷與微循環受阻（記錄於 CKD/ESRD、糖尿病、心臟衰竭、肝硬化、敗血症）；
+        <b>訊號不足或清除不足</b>使受損或 PS 陽性細胞裂解或滯留——NO 清除、血基質／TLR4 發炎損傷、腎血基質蛋白損傷、
+        持續促凝血負擔，以及 <i>Plasmodium</i> 清除的喪失（機制上受支持，無明確人類症候群）。
+        正常 eryptosis 比例未量化，所有介入數據皆為臨床前。就長壽目的而言，eryptosis——連同作為匯聚性氧化壓力標記的
+        腎上腺素紅——最適合被視為系統性負荷的生物標記與血管及血液學衰退的上游驅動因子，
+        而非已確立的抗老化標的。
+      </p>
+    </div>
+  </section>
+
+  <!-- ==================== SOURCES ==================== -->
+  <section id="sources">
+    <h2>資料來源</h2>
+    <h3>主要綜述與世代研究</h3>
+    <ul>
+      <li>Tkachenko A, et al. Current understanding of eryptosis: mechanisms, physiological functions, role in disease, pharmacological applications, and nomenclature recommendations. <i>Cell Death Dis</i> 2025;16:467. <a href="https://doi.org/10.1038/s41419-025-07784-w" target="_blank" rel="noopener noreferrer">doi:10.1038/s41419-025-07784-w</a>（PMID 40592821）</li>
+      <li>Tkachenko A, Quintanar-Escorza MA, et al. New insights into the multifaceted role of eryptosis in metabolic and cardiovascular diseases. <i>BBA Mol Cell Res</i> 2026;1873(5):120161. <a href="https://doi.org/10.1016/j.bbamcr.2026.120161" target="_blank" rel="noopener noreferrer">doi:10.1016/j.bbamcr.2026.120161</a>（PMID 42155670）— PS/CXCL16 內皮黏附與內皮鐵死亡</li>
+      <li>Deng X, Gong X, et al. Eryptosis in renal anemia: mechanisms, clinical implications, and therapeutic targeting. <i>Front Pharmacol</i> 2025;16:1718803. <a href="https://doi.org/10.3389/fphar.2025.1718803" target="_blank" rel="noopener noreferrer">doi:10.3389/fphar.2025.1718803</a>（PMID 41383483）— CKD/ESRD 紅血球壽命 60–90 天</li>
+      <li>Lang F, Bissinger R, Abed M, Artunc F. Eryptosis — the neglected cause of anemia in end stage renal disease. <i>Kidney Blood Press Res</i> 2017;42(4):749–60. <a href="https://doi.org/10.1159/000484215" target="_blank" rel="noopener noreferrer">doi:10.1159/000484215</a>（PMID 29151105）</li>
+      <li>Gok MG, et al. Evaluation of eryptosis in patients with chronic kidney disease. <i>Int Urol Nephrol</i> 2022;54(11):2919–28. <a href="https://doi.org/10.1007/s11255-022-03207-3" target="_blank" rel="noopener noreferrer">doi:10.1007/s11255-022-03207-3</a>（PMID 35469112）</li>
+      <li>Clementi A, et al. Eryptosis in patients with CKD: a possible relationship with oxidative stress and inflammatory markers. <i>J Clin Med</i> 2022;11(23):7167（PMID 36498741）</li>
+      <li>Bissinger R, et al. Oxidative stress, eryptosis and anemia: a pivotal mechanistic nexus in systemic diseases. <i>FEBS J</i> 2019. <a href="https://doi.org/10.1111/febs.14606" target="_blank" rel="noopener noreferrer">doi:10.1111/febs.14606</a></li>
+      <li>Borst O, et al. Dynamic adhesion of eryptotic erythrocytes to endothelial cells via CXCL16/SR-PSOX. <i>Am J Physiol Cell Physiol</i> 2012;302:C644–51（PMID 22173866）</li>
+      <li>van der Meijden PEJ, et al. Platelet- and erythrocyte-derived microparticles trigger thrombin generation via factor XIIa. <i>J Thromb Haemost</i> 2012;10:1355–62（PMID 22537188）</li>
+      <li>Wu X, et al. PS on blood cells and endothelial cells contributes to the hypercoagulable state in cirrhosis. <i>Liver Int</i> 2016;36:1800–10（PMID 27206310）</li>
+      <li>Williams A, et al. Pathophysiology of red blood cell dysfunction in diabetes and its complications. <i>Pathophysiology</i> 2023;30(3)（PMID 37606388）</li>
+      <li>The role of eryptosis in the pathogenesis of renal anemia. <i>Front Cell Dev Biol</i> 2020. <a href="https://doi.org/10.3389/fcell.2020.598148" target="_blank" rel="noopener noreferrer">doi:10.3389/fcell.2020.598148</a></li>
+    </ul>
+    <h3>本頁研究時新增</h3>
+    <ul>
+      <li>Eryptosis in peritoneal and hemodialysis: pathophysiology, mechanisms, triggers, and translational perspectives. <i>Kidney Dial</i> 2026;6(2):29. <a href="https://doi.org/10.3390/kidneydial6020029" target="_blank" rel="noopener noreferrer">doi:10.3390/kidneydial6020029</a>—彙整 Bonomini et al.（血液透析 3.1% vs 對照 0.68%）與 Abed et al.（透析前 0.84% → 透析後 1.35%）</li>
+      <li>Flow cytometry for RBC damage and complement activation（2024）—健康 DAT 陰性捐血者：PS⁺ RBC 平均 0.28%、C3⁺ RBC 0.34%（檢測依賴性基準示例）</li>
+      <li>Conversion of adrenaline to indolic derivatives by the human erythrocyte plasma membrane. <i>Neurosignals</i> 1996;5(5):275.（PMID 8937691）—兩相反應的胺基色素生成、NADH 去氫酶參與</li>
+      <li>Methods employed in cytofluorometric assessment of eryptosis, the suicidal erythrocyte death. <i>Cell Physiol Biochem</i> 2017;43(2):431 — annexin V／Fluo-3／前向散射檢測標準與標記物限制</li>
+    </ul>
+    <h3>知識庫依據</h3>
+    <ul>
+      <li><a class="wikilink" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_eryptosis_excess_and_under_clearance_04_Nov_2026.md" target="_blank" rel="noopener noreferrer">task_output_eryptosis_excess_and_under_clearance_04_Nov_2026.md</a></li>
+      <li><a class="wikilink" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_adrenochrome_eryptosis_crossover_04_Nov_2026.md" target="_blank" rel="noopener noreferrer">task_output_adrenochrome_eryptosis_crossover_04_Nov_2026.md</a></li>
+      <li>知識庫筆記：<a class="wikilink" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Eryptosis.md" target="_blank" rel="noopener noreferrer">Eryptosis</a> · <a class="wikilink" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Erythrocytes.md" target="_blank" rel="noopener noreferrer">Erythrocytes</a> · <a class="wikilink" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Phosphatidylserine.md" target="_blank" rel="noopener noreferrer">Phosphatidylserine</a> · <a class="wikilink" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Efferocytosis.md" target="_blank" rel="noopener noreferrer">Efferocytosis</a> · <a class="wikilink" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Gardos%20Channel.md" target="_blank" rel="noopener noreferrer">Gardos Channel</a> · <a class="wikilink" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Adrenochrome.md" target="_blank" rel="noopener noreferrer">Adrenochrome</a> · <a class="wikilink" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Hemolysis.md" target="_blank" rel="noopener noreferrer">Hemolysis</a> · <a class="wikilink" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Glucose-6-Phosphate%20Dehydrogenase.md" target="_blank" rel="noopener noreferrer">G6PD</a> · <a class="wikilink" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/N-Acetylcysteine.md" target="_blank" rel="noopener noreferrer">N-Acetylcysteine</a></li>
+    </ul>
+  </section>
+
+  <footer class="foot" style="margin-top:28px;">
+    <p>
+      相關頁面：<a href="eryptosis.html">Eryptosis — three.js 動畫</a> ·
+      <a href="cell-death-comparison.html">細胞死亡比較</a> ·
+      <a href="ferroptosis.html">鐵死亡</a> ·
+      <a href="adrenochrome-protocol.html">腎上腺素紅療法</a><br>
+      教育性綜述；全文附證據等級標註。非醫療建議。
+    </p>
+  </footer>
+
+</div>
+
+<script src="../themes/theme-01/pages-core.js"></script>
+</body>
+</html>

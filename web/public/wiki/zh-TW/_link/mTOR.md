@@ -2,7 +2,7 @@
 title: mTOR
 description: mTOR（Mechanistic Target of Rapamycin）是一種蛋白質激酶，作為細胞代謝的「總調節者」。它整合來自營養、生長因子與能量狀態的訊號……
 created: 2026-05-31
-updated: 2026-10-21
+updated: 2026-07-29
 tags:
   - protein
 aliases: [TOR, Target of Rapamycin, Mechanistic Target of Rapamycin, Mammalian Target of Rapamycin, FRAP, RAFT1, 哺乳類雷帕黴素標的]

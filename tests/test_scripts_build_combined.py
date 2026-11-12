@@ -7,6 +7,7 @@ import pytest
 from script_loader import load_script
 
 cb = load_script("combined/build")
+gc = load_script("lib/graph_common")
 
 
 def triples_web_data():
@@ -76,8 +77,11 @@ class TestMainMerge:
         shared = nodes["sirt1"]
         assert shared["in_triples"] is True and shared["in_wiki"] is True
         assert shared["graph_sources"] == ["triples", "wiki"]
-        # triples attributes win on shared ids
-        assert shared["description"] == "from triples"
+        # triples attributes win on shared ids; description lives in the
+        # lazy node-desc.json sidecar, not the core nodes file
+        assert "description" not in shared
+        desc = json.loads((data_dir / "node-desc.json").read_text())
+        assert desc["sirt1"]["en"] == "from triples"
         assert shared["community"] == 0
 
     def test_wiki_only_nodes_get_cid_offset(self, data_dir):
@@ -90,11 +94,10 @@ class TestMainMerge:
 
     def test_edge_union_accumulates_sources(self, data_dir):
         assert cb.main() == 0
-        edges = json.loads((data_dir / "edges.json").read_text())
+        edges = gc.decode_edges(json.loads((data_dir / "edges.json").read_text()))
         by_pair = {(e["from"], e["to"]): e for e in edges}
         assert set(by_pair) == {("sirt1", "nad"), ("foxo", "sirt1")}
         shared = by_pair[("sirt1", "nad")]
-        assert shared["sources"] == ["triples", "wiki"]
         # triples relation label kept over the generic wiki links_to
         assert shared["label"] == "activates"
 

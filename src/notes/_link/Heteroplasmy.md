@@ -3,7 +3,7 @@ title: Heteroplasmy
 description: The coexistence of wild-type and mutant mitochondrial DNA molecules within a single cell, tissue, or individual; the fraction of mutant genomes determines disease penetrance and is the target of mtDNA-editing therapies.
 protected: false
 created: 2026-08-01
-updated: 2026-08-01
+updated: 2026-11-11
 tags:
   - genetic-concept
   - mitochondria
@@ -50,6 +50,9 @@ source: #
 - [[DdCBE]] (DddA-derived cytosine base editors) provide an alternative, nick-based approach to correct mutant sequence rather than eliminate it.
 - Proof-of-concept studies in patient cybrids and mouse models (e.g., the m.8993 T>C and m.3243A>G [[MELAS]] mutations) demonstrate that heteroplasmy shifting can restore [[Oxidative Phosphorylation]].
 
+> [!info] Source: [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026]]
+> The threshold effect is not fixed: it depends on variant severity, affected gene, tissue energy demand, and absolute mtDNA copy number. In ageing, clonal expansion can drive mutant load past the threshold for OXPHOS failure, converting heteroplasmy into bioenergetic pathology.
+
 ## Documents
 
 - [[_document_ - Mitochondrial Drivers Stem Cell Aging Inflammaging Bautista 2026|Mitochondrial Drivers of Stem Cell Aging and Inflammaging (Bautista 2026)]]
@@ -58,6 +61,7 @@ source: #
   - Describes how allele-specific TALE–FokI cleavage of mutant mtDNA shifts heteroplasmy toward wild-type genomes.
 - [[mitoZFNs]]
   - Describes zinc-finger-nuclease-based heteroplasmy shifting, the first demonstrated mtDNA-editing platform.
+- [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026 — Mitochondrial dysfunction and inflammaging]]: Emphasizes the variable, tissue- and copy-number-dependent threshold effect and its role in age-related respiratory-chain deficiency.
 
 ## Connections
 

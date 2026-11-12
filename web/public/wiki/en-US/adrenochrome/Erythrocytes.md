@@ -27,7 +27,7 @@ Erythrocytes arise by [[Erythropoiesis]]: enucleation (rate-limiting; FOXO3/E2F2
 
 ## Cell death
 
-Only two regulated death modalities remain in mature RBCs: [[Eryptosis]] (Ca2+-driven, PS-exposing, non-lytic) and [[Erythronecroptosis]] (RIPK1/RIPK3/MLKL, lytic). Accidental death is [[Hemolysis]]. The erythrocyte-specific repertoire is a direct consequence of organelle loss: caspases, Fas/FasL and the necrosome survive as "heritage" of the erythroid lineage, but mitochondria, nucleus and the receptor set (TNFR1/2, TRAIL receptors) are gone.
+Only two regulated death modalities remain in mature RBCs: [[Eryptosis]] (Ca2+-driven, PS-exposing, non-lytic) and [[Erythronecroptosis]] (RIPK1/RIPK3/MLKL, lytic). Accidental death is [[Hemolysis]]. The erythrocyte-specific repertoire is a direct consequence of organelle loss: caspases, Fas/FasL and the necrosome survive as "heritage" of the erythroid lineage, but mitochondria, nucleus and the receptor set ([[TNFR1]]/[[TNFR2]], [[DR4]]/[[DR5]]) are gone.
 
 ## Vulnerability to Oxidation
 

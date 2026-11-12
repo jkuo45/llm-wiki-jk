@@ -234,18 +234,23 @@ class TestExportWikiThreeJson:
         assert a["community_name"] == "C0"
         assert a["size"] == pytest.approx(3 + 2 * 0.8)  # 3 + deg*0.8
         assert a["color"]["background"] == gc.PALETTE[0]
-        assert a["description"] == "node a"
-        assert a["description_zh_TW"] == ""
+        # descriptions are split into the lazy sidecar, not the core file
+        assert "description" not in a and "description_zh_TW" not in a
+        desc = json.loads((tmp_path / "wiki-node-desc.json").read_text(encoding="utf-8"))
+        assert desc["a"]["en"] == "node a"
+        assert "zh" not in desc["a"]
 
     def test_dangling_edges_dropped(self, tmp_path):
         gc.export_wiki_three_json(self.graph(), {0: "C0", 1: "C1"}, tmp_path)
-        edges = json.loads((tmp_path / "wiki-edges.json").read_text(encoding="utf-8"))
+        edges = gc.decode_edges(
+            json.loads((tmp_path / "wiki-edges.json").read_text(encoding="utf-8")))
         assert len(edges) == 1
         e = edges[0]
         assert e["from"] == "a" and e["to"] == "b"
         assert e["label"] == "links_to"
         assert e["weight"] == 2
-        assert e["color"]["opacity"] == 1.0
+        assert e["confidence"] == "EXTRACTED"
+        assert e["confidence_score"] == 1.0
 
     def test_legend_counts_and_colors(self, tmp_path):
         gc.export_wiki_three_json(self.graph(), {0: "C0", 1: "C1"}, tmp_path)
@@ -289,3 +294,33 @@ class TestWriteWebVersion:
         gc.write_web_version(tmp_path)
         v2 = json.loads((tmp_path / "version.json").read_text())
         assert v1["hash"] == v2["hash"]
+
+
+class TestWebPayloadSlimming:
+    def test_split_descriptions(self):
+        core, desc = gc.split_descriptions([
+            {"id": "a", "label": "A", "description": "da", "description_zh_TW": "za"},
+            {"id": "b", "label": "B"},
+        ])
+        assert "description" not in core[0]
+        assert desc == {"a": {"en": "da", "zh": "za"}}
+
+    def test_encode_decode_roundtrip(self):
+        edges = [
+            {"from": "a", "to": "b", "label": "links_to",
+             "confidence_score": 1.0, "weight": 3},
+            {"from": "b", "to": "a", "label": "activates",
+             "confidence_score": 0.4, "weight": 0.4},
+        ]
+        doc = gc.encode_edges(edges)
+        assert isinstance(doc, dict) and len(doc["edges"]) == 2
+        back = gc.decode_edges(doc)
+        assert back[0] == {"from": "a", "to": "b", "label": "links_to",
+                           "confidence": "EXTRACTED",
+                           "confidence_score": 1.0, "weight": 3}
+        assert back[1]["confidence"] == "AMBIGUOUS"
+        assert back[1]["weight"] == 0.4
+
+    def test_decode_accepts_legacy_list(self):
+        edges = [{"from": "a", "to": "b"}]
+        assert gc.decode_edges(edges) == edges

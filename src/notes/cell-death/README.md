@@ -3,7 +3,7 @@ title: Cell Death
 aliases: []
 description: index of entities and documents in this directory
 created: 2026-09-07
-updated: 2026-10-08
+updated: 2026-11-09
 ---
 # Cell Death
 
@@ -21,7 +21,9 @@ updated: 2026-10-08
 | [[_document_ - Ferroptosis past present and future\|Ferroptosis: past, present and future]] | Ferroptosis review: iron-dependent death with iron accumulation and lipid peroxidation; GPX4/glutathione axis, ROS accumulation, and pathophysiological relevance. |
 | [[_document_ - Necroptosis (2014), Linkermann, Green\|Necroptosis (2014), Linkermann & Green]] | Linkermann and Green 2014 review of necroptosis — regulated necrotic cell death downstream of RIPK1/RIPK3/MLKL, its inflammatory signaling, and roles in ischemia-reperfusion injury. |
 | [[_document_ - RIP3 targets pyruvate dehydrogenase complex to increase aerobic respiration in TNF-induced necroptosis\|RIP3 targets pyruvate dehydrogenase complex to increase aerobic respiration in TNF-induced necroptosis]] | Yang et al. 2018 — RIP3 phosphorylates the PDH E3 subunit at Thr135 to boost aerobic respiration and mitochondrial ROS, feeding back on the necrosome; blocking mitochondrial pyruvate uptake suppresses necroptosis. |
+| [[_document_ - Current understanding of eryptosis supplementary material (MOESM1)\|Supplementary Material for Current understanding of eryptosis (Tkachenko et al. 2025)]] | Tkachenko et al. 2025 supplementary tables (MOESM1) — Ringer buffer compositions (S1), eryptosis modulators by target class (S2), approaches to study eryptosis inhibition (S3), 140+ compounds that significantly induce eryptosis with dose/time/Ca2+/ceramide readouts (S4), and major inhibitors with effect readouts (S5). |
 | [[_document_ - Current understanding of eryptosis mechanisms, physiological functions, role in disease, pharmacological applications, and nomenclature recommendations\|Current understanding of eryptosis: mechanisms, physiological functions, role in disease, pharmacological applications, and nomenclature recommendations]] | Tkachenko et al. 2025 consensus review — eryptosis as the Ca²⁺-driven regulated death of mature anucleate erythrocytes (Gardos K⁺ efflux, scramblase, calpain-1, PS externalisation); its distinction from apoptosis, senescence, hemolysis and erythronecroptosis; caspase-8 as the fate switch; disease roles; druggability; and the nomenclature recommendations. |
+| [[_document_ - Neutrophil Extracellular Traps in Host Defense\|Neutrophil Extracellular Traps in Host Defense]] | Burgener & Schroder 2020 review — three NETosis pathways in neutrophils (suicidal NADPH-oxidase/MPO/NE/GSDMD, noncanonical caspase-4/11/GSDMD, vital PAD4/calcium), microbe size sensing, NET composition and antimicrobial cargo, and microbial NET-evasion mechanisms. |
 
 ## Entity Notes
 
@@ -29,7 +31,9 @@ Core death machinery lives here per §7 (topic home outranks `_link/`; all notes
 
 Modalities: [[Regulated Cell Death]], [[Apoptosis]], [[Apoptotic Bodies]], [[Apoptosome]], [[Necroptosis]], [[necrosome]], [[Necrosis]], [[Secondary Necrosis]], [[Parthanatos]], [[Ferroptosis]], [[Pyroptosis]], [[Autophagic Cell Death]].
 
-Erythrocyte death modalities: [[Eryptosis]] (Ca²⁺-driven, PS-exposing, non-lytic; the only RCD of anucleate cells) and [[Erythronecroptosis]] (RIPK1/RIPK3/MLKL-dependent lytic death; caspase-8 switches between the two). Supporting notes in `_link/`: [[Gardos Channel]], [[Piezo1]], [[Efferocytosis]], [[Erythropoiesis]], [[Anion Exchanger 1]], [[Erythrocytes]].
+NETosis / neutrophil extracellular traps: [[NETosis]] (in `_link/`), plus [[Neutrophil Extracellular Traps]], [[Suicidal NETosis]], [[Noncanonical NETosis]], [[Vital NETosis]] here. The three pathways differ in trigger, machinery and cell fate; [[Gasdermin D]] is the shared executioner of the two lytic arms, [[PAD4]] is essential only to the vital arm, and [[Neutrophil Elastase]]/[[Myeloperoxidase]] are specific to the suicidal arm. Supporting neutrophil entities in `_link/`: [[Neutrophils]], [[PAD4]], [[Neutrophil Elastase]], [[Myeloperoxidase]], [[cit-H3]], [[Cl-amidine]]; inflammasome sensors [[Noncanonical Inflammasome]] (senescence), [[NLRP3]], [[Caspase-1]] (adrenochrome).
+
+Erythrocyte death modalities: [[Eryptosis]] (Ca²⁺-driven, PS-exposing, non-lytic; the only RCD of anucleate cells) and [[Erythronecroptosis]] (RIPK1/RIPK3/MLKL-dependent lytic death; caspase-8 switches between the two). Supporting notes in `_link/`: [[Gardos Channel]], [[Piezo1]], [[Efferocytosis]], [[Erythropoiesis]], [[Anion Exchanger 1]], [[Erythrocytes]]. Erythrocyte kinase set: [[CK1α]] and [[p38 MAPK]] (pro-eryptotic), [[PKC]] (pro-eryptotic), [[cGMP-Dependent Protein Kinase I|cGKI]] (anti-eryptotic).
 
 Caspases: [[Caspases]], [[Caspase-2]], [[Caspase-3]], [[Caspase-4]], [[Caspase-5]], [[Caspase-6]], [[Caspase-7]], [[Caspase-8]], [[Caspase-8-c-FLIP Rheostat]], [[Caspase-9]], [[Caspase-10]], [[Caspase-11]], [[Caspase-12]], [[Executioner Caspase]], [[Inhibitor of Apoptosis Proteins]], [[cIAPs]].
 
@@ -37,7 +41,7 @@ Survival signalling that opposes death: [[Cell Survival]] (PI3K/AKT and NF-κB p
 
 BCL-2 family and mitochondrial gatekeepers: [[Bcl-2 family]], [[Bcl-2]], [[Bcl-w]], [[Bcl-xL]], [[BCL2L13]], [[BAX]], [[BAK]], [[BOK]], [[Bid]], [[Smac DIABLO]], [[Smac mimetics]], [[VDAC]], [[Apoptosis-Inducing Factor]], [[AIFM2]].
 
-Death-receptor and necrosome signaling: [[TNFR1]], [[TNFR1 complex I]], [[TNFR1 complex II]], [[RIPK3]], [[MLKL]], [[FasL]], [[TRAIL]].
+Death-receptor and necrosome signaling: [[TNFR1]], [[TNFR1 complex I]], [[TNFR1 complex II]], [[RIPK3]], [[MLKL]], [[Fas]] (CD95), [[FasL]], [[TRAIL]], [[DR4]] (TRAIL-R1/CD261), [[DR5]] (TRAIL-R2/CD262), [[TNFR2]] (CD120b), [[Decoy Receptor]] with [[DcR1]] and [[DcR2]].
 
 Necroptosis regulators and sensors (mostly `_link/`): [[ZBP1]], [[TRIF]], [[PANoptosis]], [[PANoptosome]], [[CYLD]], [[OTULIN]], [[TRIM21]], [[RSK3]], [[CSNK1G2]], [[TAM Kinases]], [[PGAM5]], [[Pyruvate Dehydrogenase]], [[HSP90β]], [[BRD4]].
 

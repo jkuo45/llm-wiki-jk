@@ -74,7 +74,7 @@ This produces `.png`, `.svg`, and `.dot` files. If no output path is specified, 
 - **Predicates** should be clear verbs/relations (e.g., `causes`, `is a type of`, `inhibits`, `produces`)
 - **Focus** on non-obvious, useful relations — avoid trivial ones
 - **Resolve coreferences** so that the same entity uses the same name across triples
-- **Confidence levels**: `high` (directly stated, well-established), `medium` (implied or supported), `low` (speculative or inferred)
+- **Confidence**: float score 0–1 — `0.9` directly stated/well-established, `0.7` implied/supported, `0.5` speculative/inferred. Do not write `high`/`medium`/`low` strings (legacy strings are read by the normalizer but no longer written).
 - **Multilingual context**: every triple carries `context` in `en-US` (canonical) **and** `zh-TW` (translation). Write EN first, then translate within the same extraction pass. Preserve entity names in zh-TW.
 - **Timestamps**: set `created` (first appearance, immutable) and `updated` (on change) as ISO-8601 UTC. Never regress `updated` below `created`.
 - **Context field must describe the relationship, not just one entity** — see below

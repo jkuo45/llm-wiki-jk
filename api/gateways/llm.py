@@ -3,19 +3,21 @@
 Replaces the previous `opencode run` subprocess-per-request design. All model
 work goes over HTTP to a headless opencode server bound to loopback.
 
-Event contract (verified against opencode 1.18.5):
-  GET  /event                     global SSE bus, `data: {...}` framing
-  POST /session                   -> {id, ...}
-  POST /session/:id/prompt_async  -> 204, streams results on the bus
-  POST /session/:id/message       -> synchronous {info, parts}
-  POST /session/:id/abort         -> bool
+Event contract (verified against opencode 2.1.1 — the v2 server API moved
+every route under /api and replaced the v1 message bus):
+  GET  /api/info                       server info (version, pid)
+  POST /api/session                    -> {data: {id, ...}}
+  POST /api/session/:id/agent          -> 204, picks the agent for the turn
+  POST /api/session/:id/prompt         -> {data: {...}}, the turn runs async
+  POST /api/session/:id/interrupt      -> aborts the running turn
+  DELETE /api/session/:id              -> drops the session
+  GET  /api/session/:id/message        -> {data: [messages]}
 
-Bus events consumed here:
-  message.updated        info.role, used to drop the echoed user prompt
-  message.part.updated   part.type in text|reasoning|step-start|step-finish
-                         carries the FULL part.text so far
-  message.part.delta     {partID, field:"text", delta} incremental chunk
-  session.idle           turn complete
+Bus events consumed here (payload lives under `data`, not `properties`):
+  session.text.delta       {assistantMessageID, ordinal, delta}
+  session.text.ended       {assistantMessageID, ordinal, text}  final snapshot
+  session.reasoning.delta  {assistantMessageID, ordinal, delta}
+  session.execution.succeeded | .failed | .interrupted   turn lifecycle
 """
 
 import asyncio
@@ -107,7 +109,7 @@ async def health() -> dict:
     """Return opencode server health, or raise OpencodeUnavailable."""
     try:
         c = _client()
-        r = await c.get("/global/health", timeout=5.0)
+        r = await c.get("/api/info", timeout=5.0)
         r.raise_for_status()
         return r.json()
     except Exception as e:
@@ -118,9 +120,9 @@ async def create_session(title: str = "graph-prompt") -> str:
     """Create an opencode session and return its id."""
     try:
         c = _client()
-        r = await c.post("/session", json={"title": title}, timeout=30.0)
+        r = await c.post("/api/session", json={"title": title}, timeout=30.0)
         r.raise_for_status()
-        return r.json()["id"]
+        return r.json()["data"]["id"]
     except Exception as e:
         raise OpencodeUnavailable(f"create_session failed: {e}") from e
 
@@ -129,7 +131,7 @@ async def delete_session(session_id: str) -> None:
     """Best-effort session teardown."""
     try:
         c = _client()
-        await c.delete(f"/session/{session_id}", timeout=10.0)
+        await c.delete(f"/api/session/{session_id}", timeout=10.0)
     except Exception as e:
         logger.warning(f"delete_session({session_id}) failed: {e}")
 
@@ -138,9 +140,166 @@ async def abort_session(session_id: str) -> None:
     """Best-effort abort of an in-flight turn."""
     try:
         c = _client()
-        await c.post(f"/session/{session_id}/abort", timeout=10.0)
+        await c.post(f"/api/session/{session_id}/interrupt", timeout=10.0)
     except Exception as e:
         logger.warning(f"abort_session({session_id}) failed: {e}")
+
+
+# ----------------------------------------------------------------------------
+# One turn on the v2 event bus
+# ----------------------------------------------------------------------------
+
+
+async def _turn(
+    session_id: str,
+    text: str,
+    agent: str,
+    timeout: float,
+) -> AsyncGenerator[dict, None]:
+    """Run one prompt turn and yield its output as it arrives.
+
+    Yields dicts with keys:
+      - kind: "text" | "reasoning" | "done" | "error"
+      - text: the chunk (text/reasoning) or the message (error)
+
+    The v2 bus is global and carries every session's events, so each event is
+    filtered by session id. Two v2 quirks are handled here:
+
+      1. There is no per-prompt agent field — the session's agent decides how
+         the turn runs, so it is selected before the prompt lands.
+      2. `session.text.ended` carries the full text of a stream, so any suffix
+         the deltas missed is flushed when it arrives.
+    """
+    start = time.monotonic()
+    c = _client()
+    # (kind, assistant message id, ordinal) -> text already relayed for that
+    # stream. Text and reasoning are tracked separately: they are different
+    # streams even when they share an ordinal.
+    sent: dict[tuple[str, str, int], str] = {}
+
+    try:
+        async with c.stream(
+            "GET",
+            "/api/event",
+            timeout=httpx.Timeout(connect=5.0, read=None, write=30.0, pool=10.0),
+        ) as events:
+            if events.status_code != 200:
+                yield {"kind": "error", "text": "Prompt service unavailable."}
+                return
+
+            sel = await c.post(
+                f"/api/session/{session_id}/agent",
+                json={"agent": agent},
+                timeout=15.0,
+            )
+            if sel.status_code >= 400:
+                logger.error(
+                    f"agent select failed: {sel.status_code} {sel.text[:200]}"
+                )
+                yield {"kind": "error", "text": "Prompt service unavailable."}
+                return
+
+            post = await c.post(
+                f"/api/session/{session_id}/prompt",
+                json={"text": text},
+                timeout=30.0,
+            )
+            if post.status_code >= 400:
+                logger.error(f"prompt failed: {post.status_code} {post.text[:200]}")
+                yield {"kind": "error", "text": "Prompt service unavailable."}
+                return
+
+            lines = events.aiter_lines()
+            while True:
+                remaining = timeout - (time.monotonic() - start)
+                if remaining <= 0:
+                    await abort_session(session_id)
+                    yield {"kind": "error", "text": "Request timed out."}
+                    return
+
+                try:
+                    line = await asyncio.wait_for(
+                        lines.__anext__(), timeout=remaining
+                    )
+                except StopAsyncIteration:
+                    break
+                except asyncio.TimeoutError:
+                    await abort_session(session_id)
+                    yield {"kind": "error", "text": "Request timed out."}
+                    return
+
+                if not line.startswith("data:"):
+                    continue
+                try:
+                    event = json.loads(line[5:].lstrip())
+                except json.JSONDecodeError:
+                    continue
+
+                etype = event.get("type", "")
+                props = event.get("data") or {}
+
+                # The bus is global; ignore other sessions.
+                evt_session = props.get("sessionID")
+                if evt_session is not None and evt_session != session_id:
+                    continue
+
+                if etype in ("session.text.delta", "session.reasoning.delta"):
+                    chunk = props.get("delta") or ""
+                    if not chunk:
+                        continue
+                    kind = "text" if etype == "session.text.delta" else "reasoning"
+                    key = (
+                        kind,
+                        props.get("assistantMessageID", ""),
+                        props.get("ordinal", 0),
+                    )
+                    sent[key] = sent.get(key, "") + chunk
+                    yield {"kind": kind, "text": chunk}
+
+                elif etype in ("session.text.ended", "session.reasoning.ended"):
+                    kind = "text" if etype == "session.text.ended" else "reasoning"
+                    key = (
+                        kind,
+                        props.get("assistantMessageID", ""),
+                        props.get("ordinal", 0),
+                    )
+                    full = props.get("text") or ""
+                    have = sent.get(key, "")
+                    if len(full) > len(have):
+                        sent[key] = full
+                        yield {"kind": kind, "text": full[len(have):]}
+
+                elif etype == "session.execution.succeeded":
+                    yield {"kind": "done"}
+                    return
+
+                elif etype == "session.execution.failed":
+                    logger.error(f"execution failed: {props.get('error')}")
+                    yield {
+                        "kind": "error",
+                        "text": "Sorry, I couldn't process that request.",
+                    }
+                    return
+
+                elif etype == "session.execution.interrupted":
+                    yield {
+                        "kind": "error",
+                        "text": "Sorry, I couldn't process that request.",
+                    }
+                    return
+
+    except httpx.ConnectError as e:
+        logger.error(f"opencode server unreachable: {e}")
+        yield {"kind": "error", "text": "Prompt service unavailable."}
+        return
+    except Exception as e:
+        logger.error(f"turn error: {e}")
+        yield {"kind": "error", "text": "Sorry, I couldn't process that request."}
+        return
+
+    # The bus closed without a terminal event — treat the turn as finished so
+    # the caller is not left hanging.
+    yield {"kind": "done"}
 
 
 # ----------------------------------------------------------------------------
@@ -152,20 +311,14 @@ async def _prompt_sync(
     session_id: str, text: str, timeout: float = 60.0, agent: str = UTILITY_AGENT
 ) -> str:
     """Send a prompt and wait for the full reply. Returns concatenated text."""
-    c = _client()
-    r = await c.post(
-        f"/session/{session_id}/message",
-        json={"agent": agent, "parts": [{"type": "text", "text": text}]},
-        timeout=timeout,
-    )
-    r.raise_for_status()
-    data = r.json()
-
-    return "".join(
-        p.get("text", "")
-        for p in data.get("parts", [])
-        if p.get("type") == "text"
-    ).strip()
+    out: list[str] = []
+    async for event in _turn(session_id, text, agent, timeout):
+        kind = event.get("kind")
+        if kind == "text":
+            out.append(event.get("text", ""))
+        elif kind == "error":
+            raise RuntimeError(event.get("text", "prompt failed"))
+    return "".join(out).strip()
 
 
 # ----------------------------------------------------------------------------
@@ -186,181 +339,26 @@ async def stream_answer(
       - text: incremental chunk (reasoning/text)
       - elapsed: seconds since start (done)
 
-    Text is emitted as deltas so the browser can append directly. Two quirks of
-    the opencode bus are handled here:
-
-      1. The prompt is echoed back as a user-role text part. It must not be
-         relayed or it corrupts the client's text buffer.
-      2. The final `message.part.updated` for a part carries the full text while
-         trailing deltas may be coalesced or dropped, so any unsent suffix is
-         flushed on that event. Both feeds describe slices of one cumulative
-         string; deltas advance the emitted cursor and a superseding snapshot
-         absorbs any remaining suffix without replay.
+    Text is emitted as deltas so the browser can append directly.
     """
     start = time.monotonic()
-    part_types: dict[str, str] = {}
-    part_messages: dict[str, str] = {}
-    message_roles: dict[str, str] = {}
-    # Cumulative text already relayed downstream for each part. Both the delta
-    # and the part.updated snapshot feeds describe slices of the SAME
-    # append-only cumulative string, so tracking the full emitted text (rather
-    # than a bare length) lets a superseding snapshot absorb trailing deltas
-    # without any replay.
-    sented: dict[str, str] = {}
-    snap_text: dict[str, str] = {}
-    emitted_done = False
-
-    def _is_user_part(part_id: str) -> bool:
-        mid = part_messages.get(part_id)
-        return bool(mid) and message_roles.get(mid) == "user"
-
-    def _flush(part: dict) -> dict | None:
-        pid = part.get("id")
-        kind = part.get("type")
-        if kind not in ("text", "reasoning") or not pid:
-            return None
-        if _is_user_part(pid):
-            return None
-        full = part.get("text") or ""
-        have = sented.get(pid, "")
-        if len(full) <= len(have):
-            return None
-        # The snapshot supersedes partial deltas: emit only the suffix that has
-        # not gone out yet, then adopt the snapshot as the canonical text.
-        sented[pid] = full
-        return {"type": kind, "text": full[len(have):]}
-
     try:
-        c = _client()
-        # Subscribe BEFORE prompting so no events are missed.
-        async with c.stream("GET", "/event") as events:
-            if events.status_code != 200:
-                yield {"type": "error", "text": "Prompt service unavailable."}
+        async for event in _turn(session_id, message, agent, timeout):
+            kind = event.get("kind")
+            if kind in ("text", "reasoning"):
+                yield {"type": kind, "text": event.get("text", "")}
+            elif kind == "error":
+                yield {"type": "error", "text": event.get("text", "")}
                 return
-
-            post = await c.post(
-                f"/session/{session_id}/prompt_async",
-                json={
-                    "agent": agent,
-                    "parts": [{"type": "text", "text": message}],
-                },
-                timeout=30.0,
-            )
-            if post.status_code >= 400:
-                logger.error(
-                    f"prompt_async failed: {post.status_code} {post.text[:200]}"
-                )
-                yield {"type": "error", "text": "Prompt service unavailable."}
+            elif kind == "done":
+                yield {
+                    "type": "done",
+                    "elapsed": round(time.monotonic() - start, 1),
+                }
                 return
-
-            lines = events.aiter_lines()
-            while True:
-                remaining = timeout - (time.monotonic() - start)
-                if remaining <= 0:
-                    await abort_session(session_id)
-                    yield {"type": "error", "text": "Request timed out."}
-                    return
-
-                try:
-                    line = await asyncio.wait_for(
-                        lines.__anext__(), timeout=remaining
-                    )
-                except StopAsyncIteration:
-                    break
-                except asyncio.TimeoutError:
-                    await abort_session(session_id)
-                    yield {"type": "error", "text": "Request timed out."}
-                    return
-
-                if not line.startswith("data: "):
-                    continue
-                try:
-                    event = json.loads(line[6:])
-                except json.JSONDecodeError:
-                    continue
-
-                etype = event.get("type")
-                props = event.get("properties", {})
-
-                # The bus is global; ignore other sessions.
-                evt_session = props.get("sessionID")
-                if evt_session is not None and evt_session != session_id:
-                    continue
-
-                if etype == "message.updated":
-                    info = props.get("info", {})
-                    mid = info.get("id")
-                    if mid:
-                        message_roles[mid] = info.get("role", "")
-
-                elif etype == "message.part.updated":
-                    part = props.get("part", {})
-                    pid = part.get("id")
-                    ptype = part.get("type")
-                    if pid:
-                        part_types[pid] = ptype
-                        if part.get("messageID"):
-                            part_messages[pid] = part["messageID"]
-                        if ptype in ("text", "reasoning"):
-                            snap_text[pid] = part.get("text") or ""
-                    chunk = _flush(part)
-                    if chunk:
-                        yield chunk
-
-                elif etype == "message.part.delta":
-                    if props.get("field") != "text":
-                        continue
-                    pid = props.get("partID")
-                    kind = part_types.get(pid)
-                    if kind not in ("text", "reasoning"):
-                        continue
-                    if _is_user_part(pid):
-                        continue
-                    delta = props.get("delta") or ""
-                    if not delta:
-                        continue
-                    # Deltas are incremental slices of a cumulative string. If
-                    # the most recent part.updated snapshot already contains
-                    # this slice, it has been (or will be) relayed by the
-                    # snapshot flush — do not re-emit it or the trace greps
-                    # it twice. Otherwise it is a genuine continuation.
-                    have = sented.get(pid, "")
-                    cand = have + delta
-                    snap = snap_text.get(pid)
-                    if snap and snap.startswith(cand):
-                        sented[pid] = cand
-                        continue
-                    sented[pid] = cand
-                    yield {"type": kind, "text": delta}
-
-                elif etype == "session.error":
-                    err = props.get("error", {})
-                    logger.error(f"session.error: {err}")
-                    yield {
-                        "type": "error",
-                        "text": "Sorry, I couldn't process that request.",
-                    }
-                    return
-
-                elif etype == "session.idle":
-                    emitted_done = True
-                    yield {
-                        "type": "done",
-                        "elapsed": round(time.monotonic() - start, 1),
-                    }
-                    return
-
-    except httpx.ConnectError as e:
-        logger.error(f"opencode server unreachable: {e}")
-        yield {"type": "error", "text": "Prompt service unavailable."}
-        return
-    except Exception as e:
+    except Exception as e:  # noqa: BLE001 - never break the SSE stream
         logger.error(f"stream_answer error: {e}")
         yield {"type": "error", "text": "Sorry, I couldn't process that request."}
-        return
-
-    if not emitted_done:
-        yield {"type": "done", "elapsed": round(time.monotonic() - start, 1)}
 
 
 # ----------------------------------------------------------------------------

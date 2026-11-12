@@ -1,0 +1,1254 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GTPase 訊號傳遞 — GDP/GTP 開關與其效應器</title>
+<meta name="description" content="GTPase 訊號傳遞視覺指南：GDP/GTP 核苷酸循環（GEF、GAP、GDI）、GTPase 結構基礎（P-loop、switch I/II、CAAX 異戊二為化）、五大小型 GTPase 家族及其效應器，以及四個實例解析——Rho 家族對细胞正性的調控、決定自噬通量的 Rab5→Rab7 轉換、TSC2 GAP 對 Rheb–mTORC1 的調控，以及 NADPH 氧化酶組装。附家族數量、GTP 水解動力學與 KRAS 突變頳率圖表。改編自 llm-wiki-jk 知識庫。">
+<link rel="canonical" href="https://graph.johnnykuo.com/pages/zh-TW/gtpase-signaling.html">
+<link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/gtpase-signaling.html">
+<link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/gtpase-signaling.html">
+<link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/gtpase-signaling.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#9881;</text></svg>">
+<link rel="stylesheet" href="../themes/theme-01/pages.css">
+<link rel="stylesheet" href="../themes/theme-01/pages-light.css" id="theme-light">
+<link rel="stylesheet" href="../themes/theme-01/pages-article.css">
+<script src="../themes/theme-01/page-theme.js"></script>
+<script src="../themes/shared/nav-auto-hide.js"></script>
+<style>
+  /* page-specific only — shared components live in themes/theme-01/ */
+  #fam .tbl-wrap{ --tbl-col-1:"家族"; --tbl-col-2:"GEF／GAP／GDI"; --tbl-col-3:"效應器"; --tbl-col-4:"主要輸出"; }
+  #dis .tbl-wrap{ --tbl-col-1:"疾病"; --tbl-col-2:"GTPase 節點"; --tbl-col-3:"機轉"; --tbl-col-4:"證據"; }
+  #drug .tbl-wrap{ --tbl-col-1:"標的"; --tbl-col-2:"化合物"; --tbl-col-3:"狀態"; --tbl-col-4:"備註"; }
+  .legend-row{display:flex; flex-wrap:wrap; gap:16px; font-size:.8rem; color:var(--dim); margin-top:10px;}
+  .legend-row span{display:flex; align-items:center; gap:6px;}
+  .sw{width:12px; height:12px; border-radius:3px; display:inline-block;}
+  a.badge{text-decoration:none; cursor:pointer;}
+  a.badge:hover{filter:brightness(1.15); border-color:var(--teal);}
+  .kv{font-size:.86rem; color:var(--dim);}
+  .kv b{color:var(--text);}
+  .fig-canvas svg text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
+</style>
+</head>
+<body style="--wrap-width:1200px;">
+
+<nav>
+  <div class="wrap">
+    <a id="back-home" class="back-home" href="../index.html" title="返回文章索引">&#8592; 返回</a>
+    <a class="n" href="#overview">總覽</a>
+    <a class="n" href="#cycle">核苷酸循環</a>
+    <a class="n" href="#fold">結構基礎</a>
+    <a class="n" href="#families">家族</a>
+    <a class="n" href="#matrix">功能圖譜</a>
+    <a class="n" href="#rho">Rho 案例</a>
+    <a class="n" href="#rab">Rab 案例</a>
+    <a class="n" href="#rheb">Rheb 案例</a>
+    <a class="n" href="#nox">NOX 案例</a>
+    <a class="n" href="#disease">疾病</a>
+    <a class="n" href="#drugs">藥物</a>
+    <a class="n" href="#sources">資料來源</a>
+  </div>
+</nav>
+
+<header>
+  <div class="wrap">
+    <div class="kicker">訊號傳遞 · 分子開關 · 2026 年</div>
+    <h1>GTPase 訊號傳遞 — GDP/GTP 開關與其效應器</h1>
+    <p class="lead" style="margin-top:14px;"><b style="color:var(--text)">GTPase</b> 是可逆的分子開關。當小型 GTPase 結合 GTP 時處於活性狀態，結合 GDP 時處於非活性狀態；GTP 水解終止活性狀態，而單一活性 GTPase 在被關閉前可招募多個效應器分子。相同的調控架構支撐生長訊號傳遞（[[RAS]] → ERK）、肌動蛋白組織（[[RhoA]]、[[Rac1]]、[[Cdc42]]）、膜區室身分（[[Rab5]] → [[Rab7]]）、被膜組裝（[[Arf1]]）與膜的切割（[[Dynamin]]）。對此循環失去調控是疾病反覆出現的機轉——活化型 Ras 突變、GAP（[[GAP]]）活性喪失，或膜定位失敗——因此 GTPase 循環位於本知識庫多個過程的上游：自噬通量、活性氧，以及伴隨細胞衰老與壓力的細胞骨架變化。</p>
+    <div class="meta">
+      來源：llm-wiki-jk 知識庫筆記
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/GTPase.md" target="_blank" rel="noopener noreferrer"><code>src/notes/_link/GTPase.md</code></a>,
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/GAP.md" target="_blank" rel="noopener noreferrer"><code>GAP.md</code></a>,
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Rac1.md" target="_blank" rel="noopener noreferrer"><code>Rac1.md</code></a>,
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/RhoA.md" target="_blank" rel="noopener noreferrer"><code>RhoA.md</code></a>,
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Cdc42.md" target="_blank" rel="noopener noreferrer"><code>Cdc42.md</code></a>,
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/src/notes/autophagy/Rab7.md" target="_blank" rel="noopener noreferrer"><code>Rab7.md</code></a>
+    </div>
+    <div class="pill-row">
+      <a class="badge teal" href="#cycle">GEF &#8594; GTP &#8594; GAP</a>
+      <a class="badge" href="#fold">P-loop &#183; switch I/II &#183; CAAX</a>
+      <a class="badge amber" href="#families">Ras &#183; Rho &#183; Rab &#183; Arf &#183; Dynamin</a>
+      <a class="badge" href="#rho">RhoA 對比 Rac1 對比 Cdc42</a>
+      <a class="badge teal" href="#rab">Rab5 &#8594; Rab7 &#183; 自噬通量</a>
+      <a class="badge" href="#rheb">TSC2 GAP · Rheb · mTORC1</a>
+      <a class="badge red" href="#nox">Rac1 &#183; Cdc42 &#8594; NOX &#8594; ROS</a>
+      <a class="badge red" href="#disease">致癌型 RAS &#183; 孟德爾遺傳疾病</a>
+    </div>
+  </div>
+</header>
+
+<!-- ============ OVERVIEW ============ -->
+<section id="overview">
+  <div class="wrap">
+    <h2>單一循環、多重家族</h2>
+    <p class="lead">快速細胞反應多由核苷酸開關介導。其機制相當固定：GEF 催化 GDP 釋出與 GTP 載入，結合 GTP 的蛋白呈現效應器結合表面，GAP 催化 γ-磷酸水解，使蛋白回到非活性的 GDP 結合狀態。各家族之間的差異，在於活性表面所招募的效應器集合，以及該循環所在的細胞區室。</p>
+
+    <div class="grid g3" style="margin-top:20px;">
+      <div class="card">
+        <h3 style="color:var(--teal);">快速、可逆、可放大</h3>
+        <p class="kv"> 單一 GTP 結合的 GTPase 在水解終止其活性前，可招募數十個效應器分子，因此單一受體的活化即可產生大量且可分級的輸出。開關運作的時間尺度為數秒而非數小時，因此 GTPase 負責快速反應，而激酶介導的反應通常較慢且較持久。 </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--amber);">空間限制決定輸出</h3>
+        <p class="kv"> 脂質錨定（CAAX 異戊二烯化）與萃取因子（GDI）把核苷酸狀態與細胞內位置耦合。Rho 家族 GTPase 多數時間處於 GDP 結合、位於細胞質的狀態，由 RhoGDI 隔離，僅由存在於目標膜上的 GEF 載入 GTP。因此同一 GTPase 在細胞內不同位置被活化時，可產生不同的輸出。 </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--red);">GAP 活性限制訊號持續時間</h3>
+        <p class="kv"> 在任何時刻，非活性 GTPase 的含量都遠高於活性 GTPase。由於 GAP 催化的是終止活性狀態的反應，GAP 活性喪失會延長訊號傳遞的時間，而非完全阻斷訊號。這也是本家族中數個已充分表徵的腫瘤抑制基因為 GAP 的原因：Ras 對應 NF1，Rheb 對應 TSC2。 </p>
+      </div>
+    </div>
+
+    <div class="callout teal" style="margin-top:22px;">
+      <span class="callout-tag">本頁的定位</span>
+      <p> 知識庫已收錄個別實體——[[GTPase]]、[[GAP]]、[[Rac1]]、[[RhoA]]、[[Cdc42]]、[[Rab5]]、[[Rab7]]、[[Arf1]]、[[Dynamin]]、[[RAS]]、[[KRAS]]。本頁補上連結它們的架構：各家族負責哪些功能、核苷酸交換如何產生下游輸出，以及此循環如何連結本知識庫的三個反覆出現的主題——<b>自噬</b>（[[Rab7]] 依賴的融合步驟）、<b>氧化壓力</b>（NOX 複合體）與<b>營養感知</b>（Rheb–mTORC1 途徑）。 </p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ THE CYCLE ============ -->
+<section id="cycle">
+  <div class="wrap">
+    <h2>核苷酸循環</h2>
+    <p class="lead"> GTPase 是 P-loop NTPase，其活性取決於所攜帶的鳥嘌呤核苷酸。三類調控蛋白決定核苷酸狀態，而一個結構特徵——switch 區——負責反映該狀態。 </p>
+
+    <figure class="fig">
+      <div class="fig-canvas">
+        <svg id="cycleSvg" viewBox="0 0 1000 500" role="img" aria-labelledby="cycleTitle">
+          <title id="cycleTitle">GTPase 核苷酸循環：GEF 載入 GTP，效應器結合外露的 switch 表面，GAP 水解 γ-磷酸，GDI 將非活性蛋白送回細胞質</title>
+          <defs>
+            <marker id="mTeal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" class="teal-f"/>
+            </marker>
+            <marker id="mRed" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" class="red-f"/>
+            </marker>
+            <marker id="mAmber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" class="amber-f"/>
+            </marker>
+            <marker id="mMute" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" class="s-mute"/>
+            </marker>
+          </defs>
+
+          <!-- OFF state -->
+          <circle cx="270" cy="250" r="108" class="panel-f" stroke-width="2" stroke="var(--line2)"/>
+          <text x="270" y="218" class="s-text" font-size="26" font-weight="700" text-anchor="middle">關閉</text>
+          <text x="270" y="248" class="s-mute" font-size="16" text-anchor="middle">GDP 結合</text>
+          <text x="270" y="278" class="s-dim" font-size="13" text-anchor="middle">switch I/II 收合</text>
+          <text x="270" y="298" class="s-dim" font-size="13" text-anchor="middle">無效應器結合表面</text>
+          <text x="270" y="332" class="s-mute" font-size="12" text-anchor="middle">細胞質、GDI 結合</text>
+
+          <!-- ON state -->
+          <circle cx="640" cy="250" r="108" class="panel-f" stroke-width="2.5" stroke="var(--teal)"/>
+          <text x="640" y="218" class="s-teal" font-size="26" font-weight="700" text-anchor="middle">開啟</text>
+          <text x="640" y="248" class="s-teal" font-size="16" text-anchor="middle">GTP 結合</text>
+          <text x="640" y="278" class="s-dim" font-size="13" text-anchor="middle">switch I/II 重排</text>
+          <text x="640" y="298" class="s-dim" font-size="13" text-anchor="middle">效應器結合表面外露</text>
+          <text x="640" y="332" class="s-mute" font-size="12" text-anchor="middle">膜錨定</text>
+
+          <!-- GEF arc (up) -->
+          <path d="M 338 168 Q 455 100 572 168" fill="none" stroke="var(--teal)" stroke-width="3" marker-end="url(#mTeal)"/>
+          <text x="455" y="58" class="s-teal" font-size="18" font-weight="700" text-anchor="middle">GEF</text>
+          <text x="455" y="78" class="s-dim" font-size="12.5" text-anchor="middle">鳥嘌呤核苷酸交換因子</text>
+          <text x="455" y="95" class="s-dim" font-size="12.5" text-anchor="middle">使 GDP 口袋不穩定；細胞質 GTP 載入</text>
+
+          <!-- GAP arc (down) -->
+          <path d="M 572 332 Q 455 412 338 332" fill="none" stroke="var(--red)" stroke-width="3" marker-end="url(#mRed)"/>
+          <text x="455" y="452" class="s-red" font-size="18" font-weight="700" text-anchor="middle">GAP</text>
+          <text x="455" y="472" class="s-dim" font-size="12.5" text-anchor="middle">GTPase 活化蛋白</text>
+          <text x="455" y="489" class="s-dim" font-size="12.5" text-anchor="middle">精胺酸指 → 水解 → GDP + P<tspan baseline-shift="sub" font-size="9">i</tspan></text>
+
+          <!-- GDI -->
+          <rect x="24" y="368" width="256" height="84" rx="10" class="panel-f" stroke="var(--line2)" stroke-width="1.5"/>
+          <text x="152" y="392" class="s-amber" font-size="14.5" font-weight="700" text-anchor="middle">GDI</text>
+          <text x="152" y="412" class="s-dim" font-size="12" text-anchor="middle">遮蔽異戊二烯基，並萃取</text>
+          <text x="152" y="429" class="s-dim" font-size="12" text-anchor="middle">GDP 結合蛋白，並將其</text>
+          <text x="152" y="446" class="s-dim" font-size="12" text-anchor="middle">自膜上拉回細胞質</text>
+          <path d="M 258 344 L 214 366" fill="none" stroke="var(--amber)" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#mAmber)"/>
+
+          <!-- effectors panel -->
+          <rect x="790" y="120" width="200" height="262" rx="12" class="panel-f" stroke="var(--line2)" stroke-width="1.5"/>
+          <text x="890" y="146" class="s-text" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="1">效應器</text>
+          <line x1="806" y1="158" x2="974" y2="158" stroke="var(--line)" stroke-width="1"/>
+          <text x="806" y="180" class="s-dim" font-size="12.5">PAK1 / PAK4 &#8594; MAPK, JNK</text>
+          <text x="806" y="202" class="s-dim" font-size="12.5">WAVE → Arp2/3、板狀偽足</text>
+          <text x="806" y="224" class="s-dim" font-size="12.5">ROCK／mDia → 張力</text>
+          <text x="806" y="246" class="s-dim" font-size="12.5">p67phox &#8594; NOX &#8594; ROS</text>
+          <text x="806" y="268" class="s-dim" font-size="12.5">PI3K, RalGDS, EEA1, HOPS</text>
+          <text x="806" y="290" class="s-dim" font-size="12.5">其他 GTPase 的 GEF</text>
+          <text x="806" y="312" class="s-dim" font-size="12.5">脂質激酶、支架蛋白</text>
+          <text x="806" y="340" class="s-mute" font-size="11.5">效應器讀取 switch I/II</text>
+          <text x="806" y="358" class="s-mute" font-size="11.5">且常讀取 G4 四聯體</text>
+          <path d="M 748 250 L 784 250" fill="none" stroke="var(--teal)" stroke-width="2.5" marker-end="url(#mTeal)"/>
+        </svg>
+      </div>
+      <figcaption class="fig-cap"> <b>圖 1 — 核苷酸循環。</b> GEF 藉由催化 GDP 釋出而活化蛋白；GAP 則提供一個催化性精胺酸（「精胺酸指」），穩定水解反應的過渡態，通常使反應加速 10<sup>2</sup>–10<sup>3</sup> 倍，因而使蛋白失活。GDI 將非活性的 GDP 結合蛋白自膜上萃取並留存在細胞質中，直到目標膜上的 GEF 將其釋放，因而在空間上限制此循環。 </figcaption>
+    </figure>
+
+    <h3 style="margin-top:26px;">活性狀態終止的速率</h3>
+    <p> 由於 GAP 以催化方式作用，在沒有 GAP 的情況下，內在水解速率即決定活性狀態可持續的最長時間。Ras 家族與 Arf 家族 GTPase 的 GTP 水解很慢，Ras-GTP 可持續數分鐘至數小時，因此其活性主要仰賴 GAP 終止。Rab GTPase 與 dynamin 的 GTP 水解快得多，因此其調控主要仰賴細胞內定位。 </p>
+
+    <figure class="fig">
+      <div class="fig-canvas">
+        <svg id="kineticsSvg" viewBox="0 0 1000 470" role="img" aria-labelledby="kineticsTitle">
+        <title id="kineticsTitle">代表性 GTPase 在有無 GTPase 活化蛋白時的 GTP 水解速率概略值</title>
+        <line x1="150" y1="320.0" x2="960" y2="320.0" class="stroke-line" stroke-width="1"/>
+        <text x="136" y="325.0" class="s-mute" font-size="13" text-anchor="end">10<tspan baseline-shift="super" font-size="10">-3</tspan></text>
+        <line x1="150" y1="252.5" x2="960" y2="252.5" class="stroke-line" stroke-width="1"/>
+        <text x="136" y="257.5" class="s-mute" font-size="13" text-anchor="end">10<tspan baseline-shift="super" font-size="10">-2</tspan></text>
+        <line x1="150" y1="185.0" x2="960" y2="185.0" class="stroke-line" stroke-width="1"/>
+        <text x="136" y="190.0" class="s-mute" font-size="13" text-anchor="end">10<tspan baseline-shift="super" font-size="10">-1</tspan></text>
+        <line x1="150" y1="117.5" x2="960" y2="117.5" class="stroke-line" stroke-width="1"/>
+        <text x="136" y="122.5" class="s-mute" font-size="13" text-anchor="end">10<tspan baseline-shift="super" font-size="10">0</tspan></text>
+        <line x1="150" y1="50.0" x2="960" y2="50.0" class="stroke-line" stroke-width="1"/>
+        <text x="136" y="55.0" class="s-mute" font-size="13" text-anchor="end">10<tspan baseline-shift="super" font-size="10">1</tspan></text>
+        <line x1="150" y1="50" x2="150" y2="320" class="stroke-line2" stroke-width="1.5"/>
+        <line x1="150" y1="320" x2="960" y2="320" class="stroke-line2" stroke-width="1.5"/>
+        <text x="555" y="428" class="s-dim" font-size="13" text-anchor="middle">對數尺度 · GTP 水解周轉數 k<tspan baseline-shift="sub" font-size="10">cat</tspan> (s<tspan baseline-shift="super" font-size="10">&#8722;1</tspan>)</text>
+        <text x="26" y="185" class="s-dim" font-size="13" text-anchor="middle" transform="rotate(-90 26 185)">水解越快 →</text>
+        <rect x="175.5" y="320.0" width="64.8" height="0.0" rx="4" class="s-mute" fill-opacity="0.55"/>
+        <text x="207.9" y="311.0" class="s-text" font-size="12.5" font-weight="700" text-anchor="middle">0.001</text>
+        <text x="207.9" y="344" class="s-text" font-size="12.5" text-anchor="middle">Ras (KRAS)</text>
+        <text x="207.9" y="361" class="s-text" font-size="12.5" text-anchor="middle">內在</text>
+        <text x="207.9" y="380" class="s-mute" font-size="11" text-anchor="middle">無 GAP</text>
+        <rect x="291.2" y="117.5" width="64.8" height="202.5" rx="4" class="teal-f"/>
+        <text x="323.6" y="108.5" class="s-text" font-size="12.5" font-weight="700" text-anchor="middle">1</text>
+        <text x="323.6" y="344" class="s-text" font-size="12.5" text-anchor="middle">Ras + NF1</text>
+        <text x="323.6" y="361" class="s-text" font-size="12.5" text-anchor="middle">RasGAP</text>
+        <text x="323.6" y="380" class="s-mute" font-size="11" text-anchor="middle">GAP 催化</text>
+        <rect x="406.9" y="252.5" width="64.8" height="67.5" rx="4" class="s-mute" fill-opacity="0.55"/>
+        <text x="439.3" y="243.5" class="s-text" font-size="12.5" font-weight="700" text-anchor="middle">0.01</text>
+        <text x="439.3" y="344" class="s-text" font-size="12.5" text-anchor="middle">Rheb</text>
+        <text x="439.3" y="361" class="s-text" font-size="12.5" text-anchor="middle">內在</text>
+        <text x="439.3" y="380" class="s-mute" font-size="11" text-anchor="middle">無 GAP</text>
+        <rect x="522.6" y="185.0" width="64.8" height="135.0" rx="4" class="teal-f"/>
+        <text x="555.0" y="176.0" class="s-text" font-size="12.5" font-weight="700" text-anchor="middle">0.1</text>
+        <text x="555.0" y="344" class="s-text" font-size="12.5" text-anchor="middle">Rheb + TSC2</text>
+        <text x="555.0" y="361" class="s-text" font-size="12.5" text-anchor="middle">TSC GAP</text>
+        <text x="555.0" y="380" class="s-mute" font-size="11" text-anchor="middle">GAP 催化</text>
+        <rect x="638.3" y="252.5" width="64.8" height="67.5" rx="4" class="s-mute" fill-opacity="0.55"/>
+        <text x="670.7" y="243.5" class="s-text" font-size="12.5" font-weight="700" text-anchor="middle">0.01</text>
+        <text x="670.7" y="344" class="s-text" font-size="12.5" text-anchor="middle">Rab7</text>
+        <text x="670.7" y="361" class="s-text" font-size="12.5" text-anchor="middle">內在</text>
+        <text x="670.7" y="380" class="s-mute" font-size="11" text-anchor="middle">無 GAP</text>
+        <rect x="754.0" y="320.0" width="64.8" height="0.0" rx="4" class="s-mute" fill-opacity="0.55"/>
+        <text x="786.4" y="311.0" class="s-text" font-size="12.5" font-weight="700" text-anchor="middle">0.001</text>
+        <text x="786.4" y="344" class="s-text" font-size="12.5" text-anchor="middle">Arf1</text>
+        <text x="786.4" y="361" class="s-text" font-size="12.5" text-anchor="middle">內在</text>
+        <text x="786.4" y="380" class="s-mute" font-size="11" text-anchor="middle">無 GAP</text>
+        <rect x="869.7" y="50.0" width="64.8" height="270.0" rx="4" class="amber-f"/>
+        <text x="902.1" y="41.0" class="s-text" font-size="12.5" font-weight="700" text-anchor="middle">10</text>
+        <text x="902.1" y="344" class="s-text" font-size="12.5" text-anchor="middle">Dynamin-1</text>
+        <text x="902.1" y="361" class="s-text" font-size="12.5" text-anchor="middle">於脂質上</text>
+        <text x="902.1" y="380" class="s-mute" font-size="11" text-anchor="middle">組裝成環狀結構</text>
+        </svg>
+      </div>
+      <figcaption class="fig-cap"> <b>圖 2 — 代表性的周轉速率。</b> 數值為 GTP 水解（k<sub>cat</sub>，s<sup>−1</sup>）的數量級估計；確切數值取決於核苷酸濃度、Mg<sup>2+</sup>、脂質結合與測定條件。值得比較的是 Ras 與 Rheb 的內在速率（灰色柱）與 GAP 催化速率（青色柱）之差，相較之下 Rab7 與 dynamin-1 的內在周轉已屬快速。Ras 是最極端的情況：沒有 GAP 時，其 GTP 結合狀態的持續時間將遠長於任何生物反應所能容許。 </figcaption>
+    </figure>
+
+    <div class="callout" style="margin-top:20px;">
+      <span class="callout-tag">調控邏輯</span>
+      <p> <b>GEF</b> 催化循環中速率限制步驟（GDP 釋出），<b>GAP</b> 催化相反反應（GTP 水解），<b>GDI</b> 決定細胞內定位。GAP 活性喪失會延長訊號傳遞（[[NF1]]：第一型神經纖維瘤病；[[TSC2]]：結節性硬化症）；GTPase 本身的水解受損則產生持續活化的蛋白（致癌型 [[KRAS]]）。 </p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ARCHITECTURE ============ -->
+<section id="fold">
+  <div class="wrap">
+    <h2>開關的結構基礎</h2>
+    <p class="lead"> 小型 GTPase 是 20–25 kDa 的蛋白，建構於 Ras 摺板（Ras fold）之上。兩個區域在功能上可區分：催化性的 <b>G domain</b> 負責結合並水解核苷酸；C 端的 <b>高變異區（HVR）</b> 則決定細胞內定位，並參與效應器的選擇。 </p>
+
+    <figure class="fig">
+      <div class="fig-canvas">
+        <svg id="foldSvg" viewBox="0 0 1000 400" role="img" aria-labelledby="foldTitle">
+          <title id="foldTitle">小型 GTPase 的結構：含 P-loop、switch I/II、G4 四聯體與異位性基序的 G domain，以及帶有異戊二烯化 CAAX 盒的高變異區</title>
+          <defs>
+            <marker id="mTeal2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" class="teal-f"/>
+            </marker>
+            <marker id="mAmber2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" class="amber-f"/>
+            </marker>
+          </defs>
+
+          <!-- G domain -->
+          <rect x="30" y="60" width="530" height="240" rx="20" class="panel-f" stroke="var(--line2)" stroke-width="1.5"/>
+          <text x="52" y="88" class="s-text" font-size="16" font-weight="700">G domain（Ras 摺板）· 殘基 1–166</text>
+
+          <rect x="52" y="104" width="150" height="48" rx="8" class="card-f" stroke="var(--teal)" stroke-width="1.5"/>
+          <text x="127" y="126" class="s-teal" font-size="13.5" font-weight="700" text-anchor="middle">P-loop (Walker A)</text>
+          <text x="127" y="143" class="s-dim" font-size="11.5" text-anchor="middle">GxxxxGK[ST]</text>
+
+          <rect x="214" y="104" width="152" height="48" rx="8" class="card-f" stroke="var(--amber)" stroke-width="1.5"/>
+          <text x="290" y="126" class="s-amber" font-size="13.5" font-weight="700" text-anchor="middle">Switch I</text>
+          <text x="290" y="143" class="s-dim" font-size="11.5" text-anchor="middle">效應器接觸表面</text>
+
+          <rect x="378" y="104" width="152" height="48" rx="8" class="card-f" stroke="var(--amber)" stroke-width="1.5"/>
+          <text x="454" y="126" class="s-amber" font-size="13.5" font-weight="700" text-anchor="middle">Switch II</text>
+          <text x="454" y="143" class="s-dim" font-size="11.5" text-anchor="middle">GAP 接觸表面</text>
+
+          <rect x="52" y="166" width="150" height="48" rx="8" class="card-f" stroke="var(--purple)" stroke-width="1.5"/>
+          <text x="127" y="188" class="s-purple" font-size="13.5" font-weight="700" text-anchor="middle">G4 四聯體</text>
+          <text x="127" y="205" class="s-dim" font-size="11.5" text-anchor="middle">辨識鳥嘌呤鹼基</text>
+
+          <rect x="214" y="166" width="152" height="48" rx="8" class="card-f" stroke="var(--blue)" stroke-width="1.5"/>
+          <text x="290" y="188" class="s-blue" font-size="13.5" font-weight="700" text-anchor="middle">N/TKXD &#183; ExSAK</text>
+          <text x="290" y="205" class="s-dim" font-size="11.5" text-anchor="middle">異位性、家族專一</text>
+
+          <rect x="378" y="166" width="152" height="48" rx="8" class="card-f" stroke="var(--red)" stroke-width="1.5"/>
+          <text x="454" y="188" class="s-red" font-size="13.5" font-weight="700" text-anchor="middle">插入區</text>
+          <text x="454" y="205" class="s-dim" font-size="11.5" text-anchor="middle">Rho 家族特徵</text>
+
+          <text x="52" y="248" class="s-dim" font-size="13">Mg<tspan baseline-shift="super" font-size="9">2+</tspan>-配位的磷酸結合與水解；</text>
+          <text x="52" y="268" class="s-dim" font-size="13">γ-磷酸使 GTP 結合狀態下的 switch I 與 II 相互推開。</text>
+          <text x="52" y="288" class="s-mute" font-size="12">熱點殘基：G12/G13、Q61（Ras）· G14/G15、Q63（RhoA）</text>
+
+          <!-- HVR -->
+          <rect x="600" y="60" width="370" height="150" rx="16" class="panel-f" stroke="var(--line2)" stroke-width="1.5"/>
+          <text x="620" y="86" class="s-text" font-size="15.5" font-weight="700">高變異區（HVR）· C 端</text>
+          <rect x="620" y="100" width="104" height="44" rx="8" class="card-f" stroke="var(--line2)" stroke-width="1.2"/>
+          <text x="672" y="120" class="s-dim" font-size="12.5" text-anchor="middle">富含鹼性胺基酸</text>
+          <text x="672" y="136" class="s-mute" font-size="11" text-anchor="middle">（含核定位訊號）</text>
+          <rect x="734" y="100" width="104" height="44" rx="8" class="card-f" stroke="var(--line2)" stroke-width="1.2"/>
+          <text x="786" y="120" class="s-dim" font-size="12.5" text-anchor="middle">富含脯胺酸</text>
+          <text x="786" y="136" class="s-mute" font-size="11" text-anchor="middle">結合 SH3</text>
+          <rect x="848" y="100" width="104" height="44" rx="8" class="card-f" stroke="var(--teal)" stroke-width="1.5"/>
+          <text x="900" y="120" class="s-teal" font-size="12.5" font-weight="700" text-anchor="middle">CAAX 盒</text>
+          <text x="900" y="136" class="s-mute" font-size="11" text-anchor="middle">異戊二烯化位點</text>
+          <text x="620" y="172" class="s-dim" font-size="12.5">由於 RAC1/2/3 的 G domain 約有 90% 相同，專一性</text>
+          <text x="620" y="192" class="s-dim" font-size="12.5">來自 HVR：膜定位與效應器選擇。</text>
+
+          <!-- prenyl + membrane -->
+          <path d="M 900 214 L 900 246" fill="none" stroke="var(--teal)" stroke-width="2.5" marker-end="url(#mTeal2)"/>
+          <text x="884" y="236" class="s-teal" font-size="11.5" text-anchor="end">香葉基（或法尼基）脂質錨</text>
+          <rect x="600" y="256" width="370" height="16" rx="6" class="teal-f" fill-opacity="0.28"/>
+          <text x="628" y="292" class="s-dim" font-size="12.5">膜 — 開關只在錨定處運作</text>
+          <text x="970" y="312" class="s-amber" font-size="11.5" text-anchor="end">GDI 遮蔽異戊二烯基，並將 GDP 結合型</text>
+          <text x="970" y="328" class="s-amber" font-size="11.5" text-anchor="end">萃取回細胞質</text>
+          <path d="M 600 288 L 566 288" fill="none" stroke="var(--amber)" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#mAmber2)"/>
+
+          <!-- effector arrow -->
+          <path d="M 200 330 L 200 306" fill="none" stroke="var(--teal)" stroke-width="2.5" marker-end="url(#mTeal2)"/>
+          <text x="212" y="330" class="s-teal" font-size="12">switch I/II 表面 → 效應器</text>
+        </svg>
+      </div>
+      <figcaption class="fig-cap"> <b>圖 3 — GTPase 摺板與高變異區。</b> G domain 在整個超家族中高度保守，因此 GEF、GAP 與 GDI 在各家族都以相同機制運作。家族間的序列差異主要集中於高變異區：其中帶有將蛋白錨定於膜的異戊二烯化 CAAX 盒、富含鹼性胺基酸的區段，以及可結合 SH3 結構域的脯胺酸富含區段。同一區段也直接參與效應器的招募。 </figcaption>
+    </figure>
+
+    <div class="grid g2" style="margin-top:8px;">
+      <div class="card">
+        <h3 style="color:var(--teal);">switch I 與 switch II 為何重要</h3>
+        <p class="kv"> γ-磷酸的結合會改變 switch I 與 switch II 的相對排列，形成高親和力的效應器結合表面。GAP 停靠在 switch II 上，因此結合的 GAP 既加速水解，也遮蔽效應器結合表面，使效應器招募隨水解進行而終止。 </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--amber);">較大的 GTPase 沿用相同化學</h3>
+        <p class="kv"> [[Dynamin]]（約 100 kDa）與三聚體 G 蛋白的 α 次單元保留了類 Ras 的催化摺板，並額外加上效應器結合、寡聚化與膜定位模組。Dynamin 將 GTP 水解的能量轉換為<i>機械功</i>，催化膜的切割，而非傳遞訊號。 </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAMILIES ============ -->
+<section id="families">
+  <div class="wrap">
+    <h2>五大家族及其輸出</h2>
+    <p class="lead"> 小型 GTPase 超家族可分為若干家族，各家族共享特定的效應器與輸出。因此，一個蛋白屬於哪個家族，可預測其多數功能。 </p>
+
+    <figure class="fig">
+      <div class="fig-canvas">
+        <svg id="famMapSvg" viewBox="0 0 1000 520" role="img" aria-labelledby="famMapTitle">
+          <title id="famMapTitle">五大 GTPase 家族地圖：成員、GEF 與 GAP 調控蛋白、主要效應器與主要細胞輸出</title>
+          <defs>
+            <marker id="mMute2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" class="s-mute"/>
+            </marker>
+          </defs>
+          <text x="30" y="24" class="s-mute" font-size="11.5" font-weight="700" letter-spacing="1">家族</text>
+          <text x="330" y="24" class="s-mute" font-size="11.5" font-weight="700" letter-spacing="1">調控蛋白（GEF／GAP／GDI）</text>
+          <text x="700" y="24" class="s-mute" font-size="11.5" font-weight="700" letter-spacing="1">效應器 → 輸出</text>
+
+          <!-- rows: y, name, count, regulator lines, output lines, colour -->
+          <g>
+            <rect x="20" y="40" width="200" height="80" rx="10" class="card-f" stroke="var(--amber)" stroke-width="1.5"/>
+            <text x="36" y="70" class="s-amber" font-size="18" font-weight="700">Ras</text>
+            <text x="36" y="92" class="s-dim" font-size="12">H/K/N-Ras, Rheb</text>
+            <text x="36" y="109" class="s-mute" font-size="11.5">生長、營養感知</text>
+
+            <rect x="320" y="40" width="300" height="80" rx="10" class="panel-f" stroke="var(--line2)" stroke-width="1"/>
+            <text x="336" y="64" class="s-dim" font-size="12.5">GEF: SOS, RasGRP</text>
+            <text x="336" y="83" class="s-dim" font-size="12.5">GAP: NF1/neurofibromin, RASA1/2</text>
+            <text x="336" y="102" class="s-mute" font-size="11.5">無典型 GDI</text>
+
+            <rect x="700" y="40" width="280" height="80" rx="10" class="panel-f" stroke="var(--line2)" stroke-width="1"/>
+            <text x="716" y="64" class="s-dim" font-size="12.5">RAF&#8211;MEK&#8211;ERK &#183; PI3K&#8211;AKT</text>
+            <text x="716" y="83" class="s-dim" font-size="12.5">RalGDS</text>
+            <text x="716" y="102" class="s-mute" font-size="11.5">增殖、存活</text>
+
+            <line x1="222" y1="80" x2="314" y2="80" stroke="var(--line2)" stroke-width="1.5" marker-end="url(#mMute2)"/>
+            <line x1="622" y1="80" x2="694" y2="80" stroke="var(--line2)" stroke-width="1.5" marker-end="url(#mMute2)"/>
+          </g>
+
+          <g>
+            <rect x="20" y="134" width="200" height="80" rx="10" class="card-f" stroke="var(--teal)" stroke-width="1.5"/>
+            <text x="36" y="164" class="s-teal" font-size="18" font-weight="700">Rho</text>
+            <text x="36" y="186" class="s-dim" font-size="12">RhoA/B/C, Rac1&#8211;3, Cdc42</text>
+            <text x="36" y="203" class="s-mute" font-size="11.5">肌動蛋白、極性、遷移</text>
+
+            <rect x="320" y="134" width="300" height="80" rx="10" class="panel-f" stroke="var(--line2)" stroke-width="1"/>
+            <text x="336" y="158" class="s-dim" font-size="12.5">GEF: Dbl-family (Tiam1, &#946;-PIX, p115RhoGEF)</text>
+            <text x="336" y="177" class="s-dim" font-size="12.5">GAP：ARHGAP 家族</text>
+            <text x="336" y="196" class="s-mute" font-size="11.5">GDI：RhoGDI 萃取 GDP 結合的 RhoA</text>
+
+            <rect x="700" y="134" width="280" height="80" rx="10" class="panel-f" stroke="var(--line2)" stroke-width="1"/>
+            <text x="716" y="158" class="s-dim" font-size="12.5">ROCK, mDia (RhoA)</text>
+            <text x="716" y="177" class="s-dim" font-size="12.5">WAVE&#8211;Arp2/3, PAK (Rac1, Cdc42)</text>
+            <text x="716" y="196" class="s-mute" font-size="11.5">收縮力、突出、極性</text>
+
+            <line x1="222" y1="174" x2="314" y2="174" stroke="var(--line2)" stroke-width="1.5" marker-end="url(#mMute2)"/>
+            <line x1="622" y1="174" x2="694" y2="174" stroke="var(--line2)" stroke-width="1.5" marker-end="url(#mMute2)"/>
+          </g>
+
+          <g>
+            <rect x="20" y="228" width="200" height="80" rx="10" class="card-f" stroke="var(--blue)" stroke-width="1.5"/>
+            <text x="36" y="258" class="s-blue" font-size="18" font-weight="700">Rab</text>
+            <text x="36" y="280" class="s-dim" font-size="12">Rab5, Rab7, Rab8, Rab27A&#8230;</text>
+            <text x="36" y="297" class="s-mute" font-size="11.5">膜身分</text>
+
+            <rect x="320" y="228" width="300" height="80" rx="10" class="panel-f" stroke="var(--line2)" stroke-width="1"/>
+            <text x="336" y="252" class="s-dim" font-size="12.5">GEF: Mon1&#8211;Ccz1, TRAPP II, SH3BP5</text>
+            <text x="336" y="271" class="s-dim" font-size="12.5">GAP：TBC1D 家族（TBC1D15／17 對應 Rab7）</text>
+            <text x="336" y="290" class="s-mute" font-size="11.5">GDI：REP／REM 萃取 GDP 結合的 Rab</text>
+
+            <rect x="700" y="228" width="280" height="80" rx="10" class="panel-f" stroke="var(--line2)" stroke-width="1"/>
+            <text x="716" y="252" class="s-dim" font-size="12.5">EEA1, HOPS, FYCO1, RILP</text>
+            <text x="716" y="271" class="s-dim" font-size="12.5">Rab5 → Rab7 轉換</text>
+            <text x="716" y="290" class="s-mute" font-size="11.5">內體成熟、自噬融合</text>
+
+            <line x1="222" y1="268" x2="314" y2="268" stroke="var(--line2)" stroke-width="1.5" marker-end="url(#mMute2)"/>
+            <line x1="622" y1="268" x2="694" y2="268" stroke="var(--line2)" stroke-width="1.5" marker-end="url(#mMute2)"/>
+          </g>
+
+          <g>
+            <rect x="20" y="322" width="200" height="80" rx="10" class="card-f" stroke="var(--purple)" stroke-width="1.5"/>
+            <text x="36" y="352" class="s-purple" font-size="18" font-weight="700">Arf</text>
+            <text x="36" y="374" class="s-dim" font-size="12">Arf1&#8211;Arf6</text>
+            <text x="36" y="391" class="s-mute" font-size="11.5">被膜組裝、脂質酵素</text>
+
+            <rect x="320" y="322" width="300" height="80" rx="10" class="panel-f" stroke="var(--line2)" stroke-width="1"/>
+            <text x="336" y="346" class="s-dim" font-size="12.5">GEF: Sec7-domain (GBF1, BIG1/3)</text>
+            <text x="336" y="365" class="s-dim" font-size="12.5">GAP: ARFGAP1</text>
+            <text x="336" y="384" class="s-mute" font-size="11.5">肉豆蔻醯基開關使蛋白池與膜相連</text>
+
+            <rect x="700" y="322" width="280" height="80" rx="10" class="panel-f" stroke="var(--line2)" stroke-width="1"/>
+            <text x="716" y="346" class="s-dim" font-size="12.5">COPI, GGA adaptors, AP1/clathrin</text>
+            <text x="716" y="365" class="s-dim" font-size="12.5">磷脂酶 D</text>
+            <text x="716" y="384" class="s-mute" font-size="11.5">膜彎曲、貨物包裝</text>
+
+            <line x1="222" y1="362" x2="314" y2="362" stroke="var(--line2)" stroke-width="1.5" marker-end="url(#mMute2)"/>
+            <line x1="622" y1="362" x2="694" y2="362" stroke="var(--line2)" stroke-width="1.5" marker-end="url(#mMute2)"/>
+          </g>
+
+          <g>
+            <rect x="20" y="416" width="200" height="80" rx="10" class="card-f" stroke="var(--red)" stroke-width="1.5"/>
+            <text x="36" y="446" class="s-red" font-size="18" font-weight="700">Dynamin</text>
+            <text x="36" y="468" class="s-dim" font-size="12">DNM1, DNM2, DNM1L, MFN1/2</text>
+            <text x="36" y="485" class="s-mute" font-size="11.5">膜切割、分裂</text>
+
+            <rect x="320" y="416" width="300" height="80" rx="10" class="panel-f" stroke="var(--line2)" stroke-width="1"/>
+            <text x="336" y="440" class="s-dim" font-size="12.5">GEF：無 — 由 PIP<tspan baseline-shift="sub" font-size="9">2</tspan></text>
+            <text x="336" y="459" class="s-dim" font-size="12.5">GAP：無 — 自我限制</text>
+            <text x="336" y="478" class="s-mute" font-size="11.5">寡聚成環狀結構包覆膜頸</text>
+
+            <rect x="700" y="416" width="280" height="80" rx="10" class="panel-f" stroke="var(--line2)" stroke-width="1"/>
+            <text x="716" y="440" class="s-dim" font-size="12.5">胞吞、突觸小泡回收</text>
+            <text x="716" y="459" class="s-dim" font-size="12.5">線粒體分裂（MFN1/2）</text>
+            <text x="716" y="478" class="s-mute" font-size="11.5">由 GTP 水解提供機械功</text>
+
+            <line x1="222" y1="456" x2="314" y2="456" stroke="var(--line2)" stroke-width="1.5" marker-end="url(#mMute2)"/>
+            <line x1="622" y1="456" x2="694" y2="456" stroke="var(--line2)" stroke-width="1.5" marker-end="url(#mMute2)"/>
+          </g>
+        </svg>
+      </div>
+      <figcaption class="fig-cap"> <b>圖 4 — 家族地圖。</b> 每一列列出家族、主要調控蛋白，以及效應器與輸出。各家族的調控方式差異很大：Ras 家族沒有典型的 GDI，而是由受體活化後招募至膜上的 GEF 來活化；Rho 家族另外由 RhoGDI 隔離於細胞質，並在膜上被釋放；Rab 家族具備專一的 GDI／REP 系統，其為數眾多的 GEF 與 GAP 指定了每個 Rab 被活化的膜；dynamin 既無 GEF 也無 GAP，藉由磷脂醯肌醇招募，並執行機械性工作。 </figcaption>
+    </figure>
+
+    <figure class="fig">
+      <div class="fig-canvas">
+        <svg id="familySvg" viewBox="0 0 1000 360" role="img" aria-labelledby="familyTitle">
+        <title id="familyTitle">各小型 GTPase 家族的人類 GTPase 概略數量</title>
+        <rect x="170.5" y="52.0" width="81.0" height="198.0" rx="5" class="teal-f"/>
+        <text x="211.0" y="42.0" class="s-text" font-size="17" font-weight="700" text-anchor="middle">66</text>
+        <text x="211.0" y="276" class="s-text" font-size="14" font-weight="700" text-anchor="middle">Rab</text>
+        <text x="211.0" y="296" class="s-dim" font-size="11.5" text-anchor="middle">膜身分：</text>
+        <text x="211.0" y="312" class="s-dim" font-size="11.5" text-anchor="middle">早期內體 → 溶體</text>
+        <rect x="332.5" y="190.0" width="81.0" height="60.0" rx="5" class="blue-f"/>
+        <text x="373.0" y="180.0" class="s-text" font-size="17" font-weight="700" text-anchor="middle">20</text>
+        <text x="373.0" y="276" class="s-text" font-size="14" font-weight="700" text-anchor="middle">Rho</text>
+        <text x="373.0" y="296" class="s-dim" font-size="11.5" text-anchor="middle">肌動蛋白、極性、</text>
+        <text x="373.0" y="312" class="s-dim" font-size="11.5" text-anchor="middle">收縮力</text>
+        <rect x="494.5" y="232.0" width="81.0" height="18.0" rx="5" class="purple-f"/>
+        <text x="535.0" y="222.0" class="s-text" font-size="17" font-weight="700" text-anchor="middle">6</text>
+        <text x="535.0" y="276" class="s-text" font-size="14" font-weight="700" text-anchor="middle">Arf</text>
+        <text x="535.0" y="296" class="s-dim" font-size="11.5" text-anchor="middle">被膜招募</text>
+        <text x="535.0" y="312" class="s-dim" font-size="11.5" text-anchor="middle">於高基氏體／內體</text>
+        <rect x="656.5" y="238.0" width="81.0" height="12.0" rx="5" class="amber-f"/>
+        <text x="697.0" y="228.0" class="s-text" font-size="17" font-weight="700" text-anchor="middle">4</text>
+        <text x="697.0" y="276" class="s-text" font-size="14" font-weight="700" text-anchor="middle">Ras</text>
+        <text x="697.0" y="296" class="s-dim" font-size="11.5" text-anchor="middle">生長、</text>
+        <text x="697.0" y="312" class="s-dim" font-size="11.5" text-anchor="middle">增殖</text>
+        <rect x="818.5" y="241.0" width="81.0" height="9.0" rx="5" class="red-f"/>
+        <text x="859.0" y="231.0" class="s-text" font-size="17" font-weight="700" text-anchor="middle">3</text>
+        <text x="859.0" y="276" class="s-text" font-size="14" font-weight="700" text-anchor="middle">Dynamin</text>
+        <text x="859.0" y="296" class="s-dim" font-size="11.5" text-anchor="middle">膜切割</text>
+        <text x="859.0" y="312" class="s-dim" font-size="11.5" text-anchor="middle">(+ MFN1/2, DNM1L)</text>
+        <line x1="130" y1="250" x2="940" y2="250" class="stroke-line2" stroke-width="1.5"/>
+        </svg>
+      </div>
+      <figcaption class="fig-cap"> <b>圖 5 — 各家族 GTPase 的概略數量。</b> 人類基因體約編碼 150 個 GTPase（約 70 個 Rab、約 20 個 Rho、6 個 Arf、4 個 Ras、3 個 dynamin，另加線粒體融合蛋白與 dynamin 樣蛋白）。Rab 家族的數量反映需要各自身分標記的膜區室數目較多；Ras 家族涵蓋的功能較少，由四個高度同源的蛋白即可滿足。 </figcaption>
+    </figure>
+
+    <div class="tbl-wrap" style="margin-top:8px; max-height:none;">
+      <table>
+        <thead>
+          <tr><th>家族</th><th>GEF／GAP／GDI</th><th>效應器</th><th>主要輸出</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><b>Ras</b><br><span class="s-mute" style="font-size:.78rem;">H/K/N-Ras, Rheb, Rheb-like</span></td>
+            <td>GEF: SOS, RasGRP<br>GAP: NF1, RASA1/2<br>GDI: &#8212;</td>
+            <td>RAF–MEK–ERK、PI3K、RalGDS、mTORC1（經由 Rheb）</td>
+            <td>增歛、存活、营養驅動的生長</td>
+          </tr>
+          <tr>
+            <td><b>Rho</b><br><span class="s-mute" style="font-size:.78rem;">RhoA/B/C, Rac1&#8211;3, Cdc42</span></td>
+            <td>GEF: Dbl-family, p115RhoGEF, PDZ-RhoGEF, Ect2<br>GAP: ARHGAP<br>GDI: RhoGDI</td>
+            <td>ROCK, mDia1/2, WAVE&#8211;Arp2/3, PAK1/4, p67phox, IQGAP</td>
+            <td>應力維維、黏著斑、板狀偷足、紫狀偷足、细胞分裂、细胞還移</td>
+          </tr>
+          <tr>
+            <td><b>Rab</b><br><span class="s-mute" style="font-size:.78rem;">~60&#8211;70 members</span></td>
+            <td>GEF: Mon1&#8211;Ccz1, TRAPP II<br>GAP: TBC1D family<br>GDI: REP/REM</td>
+            <td>EEA1, HOPS, FYCO1, RILP, myosin-V, PI4K</td>
+            <td>內體身分、溶體生成、自噬體–溶體融合、胞吐</td>
+          </tr>
+          <tr>
+            <td><b>Arf</b><br><span class="s-mute" style="font-size:.78rem;">Arf1&#8211;Arf6</span></td>
+            <td>GEF: Sec7-domain (GBF1, BIG1/3)<br>GAP: ARFGAP1<br>GDI: &#8212; (myristoyl switch)</td>
+            <td>COPI、GGA 轉接蛋白、AP1／網格蛋白、磷脂酶 D、PIP 激酶</td>
+            <td>被膜招募、膜彎曲、高基氏體與內體運輸</td>
+          </tr>
+          <tr>
+            <td><b>Dynamin</b><br><span class="s-mute" style="font-size:.78rem;">DNM1, DNM2, DNM1L, MFN1/2</span></td>
+            <td>GEF: &#8212; (PIP<tspan baseline-shift="sub">2</tspan>-recruited)<br>GAP: &#8212;<br>GDI: &#8212;</td>
+            <td>PH 結構域的 PIP<tspan baseline-shift="sub">2</tspan> 結合、PRD&#8211;SH3 結合蛋白（amphiphysin、endophilin）</td>
+            <td>網格蛋白與突觸小泡的切割；經由線粒體融合蛋白進行線粒体分裂</td>
+          </tr>
+          <tr>
+            <td><b>Heterotrimeric G&#945;</b><br><span class="s-mute" style="font-size:.78rem;">G<tspan baseline-shift="sub">s</tspan>, G<tspan baseline-shift="sub">i</tspan>, G<tspan baseline-shift="sub">q</tspan></span></td>
+            <td>GEF：GPCR 本身即為交換因子<br>GAP：RGS 蛋白<br>GDI: &#8212;</td>
+            <td>膀苏酸環化酶、PLCβ、GRK、雦子通道</td>
+            <td>第二訊使生成；Gα12/13 亦可激活 RhoA</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ============ OUTPUT MAP ============ -->
+<section id="matrix">
+  <div class="wrap">
+    <h2>各家族的主要與次要貢獻</h2>
+    <p class="lead"> 每個家族在一項或多項過程中為主要調控者，也參與其他過程，並且完全不涉入某些過程。 </p>
+
+    <figure class="fig">
+      <div class="fig-canvas">
+        <svg id="matrixSvg" viewBox="0 0 1000 488" role="img" aria-labelledby="matrixTitle">
+        <title id="matrixTitle">GTPase 家族與各家族主要調控之細胞過程的矩陣</title>
+        <text x="195" y="26" class="s-dim" font-size="12.5" font-weight="700" text-anchor="middle">生長／</text>
+        <text x="195" y="43" class="s-dim" font-size="12.5" font-weight="700" text-anchor="middle">增殖</text>
+        <text x="325" y="26" class="s-dim" font-size="12.5" font-weight="700" text-anchor="middle">肌動蛋白與</text>
+        <text x="325" y="43" class="s-dim" font-size="12.5" font-weight="700" text-anchor="middle">細胞形狀</text>
+        <text x="455" y="26" class="s-dim" font-size="12.5" font-weight="700" text-anchor="middle">內膜系統</text>
+        <text x="455" y="43" class="s-dim" font-size="12.5" font-weight="700" text-anchor="middle">運輸</text>
+        <text x="585" y="26" class="s-dim" font-size="12.5" font-weight="700" text-anchor="middle">ROS</text>
+        <text x="585" y="43" class="s-dim" font-size="12.5" font-weight="700" text-anchor="middle">(NOX)</text>
+        <text x="715" y="26" class="s-dim" font-size="12.5" font-weight="700" text-anchor="middle">自噬／</text>
+        <text x="715" y="43" class="s-dim" font-size="12.5" font-weight="700" text-anchor="middle">線粒體自噬</text>
+        <text x="845" y="26" class="s-dim" font-size="12.5" font-weight="700" text-anchor="middle">轉譯</text>
+        <text x="845" y="43" class="s-dim" font-size="12.5" font-weight="700" text-anchor="middle">(EF-Tu/G)</text>
+        <text x="14" y="109.0" class="s-text" font-size="13" font-weight="700">Ras</text>
+        <rect x="133" y="81" width="124" height="46" rx="6" class="teal-f" fill-opacity="0.94"/>
+        <text x="195.0" y="108.0" class="s-text" font-size="11" font-weight="700" text-anchor="middle">主要</text>
+        <rect x="263" y="81" width="124" height="46" rx="6" class="teal-f" fill-opacity="0.42"/>
+        <text x="325.0" y="108.0" class="s-text" font-size="11" font-weight="700" text-anchor="middle">次要</text>
+        <rect x="393" y="81" width="124" height="46" rx="6" class="teal-f" fill-opacity="0.42"/>
+        <text x="455.0" y="108.0" class="s-text" font-size="11" font-weight="700" text-anchor="middle">次要</text>
+        <rect x="523" y="81" width="124" height="46" rx="6" class="teal-f" fill-opacity="0.42"/>
+        <text x="585.0" y="108.0" class="s-text" font-size="11" font-weight="700" text-anchor="middle">次要</text>
+        <rect x="653" y="81" width="124" height="46" rx="6" class="teal-f" fill-opacity="0.42"/>
+        <text x="715.0" y="108.0" class="s-text" font-size="11" font-weight="700" text-anchor="middle">次要</text>
+        <rect x="783" y="81" width="124" height="46" rx="6" class="rowh-f"/>
+        <text x="845.0" y="108.0" class="s-mute" font-size="11" text-anchor="middle">&#183;</text>
+        <text x="14" y="161.0" class="s-text" font-size="13" font-weight="700">Rho</text>
+        <rect x="133" y="133" width="124" height="46" rx="6" class="teal-f" fill-opacity="0.42"/>
+        <text x="195.0" y="160.0" class="s-text" font-size="11" font-weight="700" text-anchor="middle">次要</text>
+        <rect x="263" y="133" width="124" height="46" rx="6" class="teal-f" fill-opacity="0.94"/>
+        <text x="325.0" y="160.0" class="s-text" font-size="11" font-weight="700" text-anchor="middle">主要</text>
+        <rect x="393" y="133" width="124" height="46" rx="6" class="teal-f" fill-opacity="0.42"/>
+        <text x="455.0" y="160.0" class="s-text" font-size="11" font-weight="700" text-anchor="middle">次要</text>
+        <rect x="523" y="133" width="124" height="46" rx="6" class="teal-f" fill-opacity="0.68"/>
+        <text x="585.0" y="160.0" class="s-text" font-size="11" font-weight="700" text-anchor="middle">重要</text>
+        <rect x="653" y="133" width="124" height="46" rx="6" class="rowh-f"/>
+        <text x="715.0" y="160.0" class="s-mute" font-size="11" text-anchor="middle">&#183;</text>
+        <rect x="783" y="133" width="124" height="46" rx="6" class="rowh-f"/>
+        <text x="845.0" y="160.0" class="s-mute" font-size="11" text-anchor="middle">&#183;</text>
+        <text x="14" y="213.0" class="s-text" font-size="13" font-weight="700">Rab</text>
+        <rect x="133" y="185" width="124" height="46" rx="6" class="rowh-f"/>
+        <text x="195.0" y="212.0" class="s-mute" font-size="11" text-anchor="middle">&#183;</text>
+        <rect x="263" y="185" width="124" height="46" rx="6" class="rowh-f"/>
+        <text x="325.0" y="212.0" class="s-mute" font-size="11" text-anchor="middle">&#183;</text>
+        <rect x="393" y="185" width="124" height="46" rx="6" class="teal-f" fill-opacity="0.94"/>
+        <text x="455.0" y="212.0" class="s-text" font-size="11" font-weight="700" text-anchor="middle">主要</text>
+        <rect x="523" y="185" width="124" height="46" rx="6" class="rowh-f"/>
+        <text x="585.0" y="212.0" class="s-mute" font-size="11" text-anchor="middle">&#183;</text>
+        <rect x="653" y="185" width="124" height="46" rx="6" class="teal-f" fill-opacity="0.94"/>
+        <text x="715.0" y="212.0" class="s-text" font-size="11" font-weight="700" text-anchor="middle">主要</text>
+        <rect x="783" y="185" width="124" height="46" rx="6" class="rowh-f"/>
+        <text x="845.0" y="212.0" class="s-mute" font-size="11" text-anchor="middle">&#183;</text>
+        <text x="14" y="265.0" class="s-text" font-size="13" font-weight="700">Arf</text>
+        <rect x="133" y="237" width="124" height="46" rx="6" class="rowh-f"/>
+        <text x="195.0" y="264.0" class="s-mute" font-size="11" text-anchor="middle">&#183;</text>
+        <rect x="263" y="237" width="124" height="46" rx="6" class="rowh-f"/>
+        <text x="325.0" y="264.0" class="s-mute" font-size="11" text-anchor="middle">&#183;</text>
+        <rect x="393" y="237" width="124" height="46" rx="6" class="teal-f" fill-opacity="0.94"/>
+        <text x="455.0" y="264.0" class="s-text" font-size="11" font-weight="700" text-anchor="middle">主要</text>
+        <rect x="523" y="237" width="124" height="46" rx="6" class="rowh-f"/>
+        <text x="585.0" y="264.0" class="s-mute" font-size="11" text-anchor="middle">&#183;</text>
+        <rect x="653" y="237" width="124" height="46" rx="6" class="teal-f" fill-opacity="0.42"/>
+        <text x="715.0" y="264.0" class="s-text" font-size="11" font-weight="700" text-anchor="middle">次要</text>
+        <rect x="783" y="237" width="124" height="46" rx="6" class="rowh-f"/>
+        <text x="845.0" y="264.0" class="s-mute" font-size="11" text-anchor="middle">&#183;</text>
+        <text x="14" y="317.0" class="s-text" font-size="13" font-weight="700">Dynamin</text>
+        <rect x="133" y="289" width="124" height="46" rx="6" class="rowh-f"/>
+        <text x="195.0" y="316.0" class="s-mute" font-size="11" text-anchor="middle">&#183;</text>
+        <rect x="263" y="289" width="124" height="46" rx="6" class="teal-f" fill-opacity="0.42"/>
+        <text x="325.0" y="316.0" class="s-text" font-size="11" font-weight="700" text-anchor="middle">次要</text>
+        <rect x="393" y="289" width="124" height="46" rx="6" class="teal-f" fill-opacity="0.68"/>
+        <text x="455.0" y="316.0" class="s-text" font-size="11" font-weight="700" text-anchor="middle">重要</text>
+        <rect x="523" y="289" width="124" height="46" rx="6" class="rowh-f"/>
+        <text x="585.0" y="316.0" class="s-mute" font-size="11" text-anchor="middle">&#183;</text>
+        <rect x="653" y="289" width="124" height="46" rx="6" class="teal-f" fill-opacity="0.68"/>
+        <text x="715.0" y="316.0" class="s-text" font-size="11" font-weight="700" text-anchor="middle">重要</text>
+        <rect x="783" y="289" width="124" height="46" rx="6" class="rowh-f"/>
+        <text x="845.0" y="316.0" class="s-mute" font-size="11" text-anchor="middle">&#183;</text>
+        <text x="14" y="361.0" class="s-text" font-size="13" font-weight="700">三聚體</text>
+        <text x="14" y="378.0" class="s-text" font-size="13" font-weight="700">G&#945;</text>
+        <rect x="133" y="341" width="124" height="46" rx="6" class="teal-f" fill-opacity="0.68"/>
+        <text x="195.0" y="368.0" class="s-text" font-size="11" font-weight="700" text-anchor="middle">重要</text>
+        <rect x="263" y="341" width="124" height="46" rx="6" class="teal-f" fill-opacity="0.42"/>
+        <text x="325.0" y="368.0" class="s-text" font-size="11" font-weight="700" text-anchor="middle">次要</text>
+        <rect x="393" y="341" width="124" height="46" rx="6" class="teal-f" fill-opacity="0.42"/>
+        <text x="455.0" y="368.0" class="s-text" font-size="11" font-weight="700" text-anchor="middle">次要</text>
+        <rect x="523" y="341" width="124" height="46" rx="6" class="teal-f" fill-opacity="0.68"/>
+        <text x="585.0" y="368.0" class="s-text" font-size="11" font-weight="700" text-anchor="middle">重要</text>
+        <rect x="653" y="341" width="124" height="46" rx="6" class="rowh-f"/>
+        <text x="715.0" y="368.0" class="s-mute" font-size="11" text-anchor="middle">&#183;</text>
+        <rect x="783" y="341" width="124" height="46" rx="6" class="rowh-f"/>
+        <text x="845.0" y="368.0" class="s-mute" font-size="11" text-anchor="middle">&#183;</text>
+        <text x="14" y="413.0" class="s-text" font-size="13" font-weight="700">轉譯</text>
+        <text x="14" y="430.0" class="s-text" font-size="13" font-weight="700">因子</text>
+        <rect x="133" y="393" width="124" height="46" rx="6" class="rowh-f"/>
+        <text x="195.0" y="420.0" class="s-mute" font-size="11" text-anchor="middle">&#183;</text>
+        <rect x="263" y="393" width="124" height="46" rx="6" class="rowh-f"/>
+        <text x="325.0" y="420.0" class="s-mute" font-size="11" text-anchor="middle">&#183;</text>
+        <rect x="393" y="393" width="124" height="46" rx="6" class="rowh-f"/>
+        <text x="455.0" y="420.0" class="s-mute" font-size="11" text-anchor="middle">&#183;</text>
+        <rect x="523" y="393" width="124" height="46" rx="6" class="rowh-f"/>
+        <text x="585.0" y="420.0" class="s-mute" font-size="11" text-anchor="middle">&#183;</text>
+        <rect x="653" y="393" width="124" height="46" rx="6" class="rowh-f"/>
+        <text x="715.0" y="420.0" class="s-mute" font-size="11" text-anchor="middle">&#183;</text>
+        <rect x="783" y="393" width="124" height="46" rx="6" class="teal-f" fill-opacity="0.94"/>
+        <text x="845.0" y="420.0" class="s-text" font-size="11" font-weight="700" text-anchor="middle">主要</text>
+        <text x="14" y="472" class="s-mute" font-size="11.5">主要＝主要調控 · 重要＝具實質貢獻 · 次要＝有參與 · ·＝無此角色</text>
+        </svg>
+      </div>
+      <figcaption class="fig-cap"> <b>圖 6 — 家族 × 輸出矩陣。</b> Ras 是增殖的主要調控者，Rho 是肌動蛋白細胞骨架的主要調控者，Rab 是內膜系統運輸與自噬投遞的主要調控者，Arf 是被膜組裝的主要調控者，dynamin 則是膜切割的主要調控者。兩個家族交會的格位代表共同調控：Rho 家族 GTPase 透過 NOX 參與活性氧生成，Rab GTPase 則控管自噬通量，因此運輸缺陷可能在臨床上表現為蛋白聚集疾病。 </figcaption>
+    </figure>
+
+    <div class="callout teal">
+      <span class="callout-tag">跨主題的解讀</span>
+      <p> 本知識庫三個反覆出現的主題與此矩陣交會。<b>自噬</b> 需要 Rab7 依賴的融合，以及調控起始的 Rheb-mTORC1 途徑。<b>氧化壓力</b> 需要 Rac1 與 Cdc42 進行 NOX 組裝。<b>細胞衰老</b> 則同時影響上述各項，因為衰老細胞可見肌動蛋白排列紊亂、溶體功能受損與慢性升高的活性氧。GTPase 調控正是這三個過程匯合的層級。 </p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ RHO CASE ============ -->
+<section id="rho">
+  <div class="wrap">
+    <h2>實例解析 — RhoA、Rac1、Cdc42：同一細胞的三種任務</h2>
+    <p class="lead"> 遷移中的纖維母細胞可說明序列極為相近的 GTPase 如何在同一細胞內產生不同的輸出。三個 Rho 家族 GTPase 同時作用於同一套肌動蛋白網絡且效果相反，細胞的遷移模式由其活性比例決定，而非由其中任一者的絕對量決定。 </p>
+
+    <figure class="fig">
+      <div class="fig-canvas">
+        <svg id="rhoSvg" viewBox="0 0 1000 470" role="img" aria-labelledby="rhoTitle">
+          <title id="rhoTitle">遷移中的纖維母細胞：前緣的 Cdc42 建立極性、Rac1 驅動板狀偽足突出、後方的 RhoA 驅動肌動蛋白–肌球蛋白收縮與黏著斑更替</title>
+          <defs>
+            <marker id="mTeal3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" class="teal-f"/>
+            </marker>
+            <marker id="mAmber3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" class="amber-f"/>
+            </marker>
+            <marker id="mRed3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" class="red-f"/>
+            </marker>
+          </defs>
+
+          <!-- cell body -->
+          <path d="M 250 250 C 250 170, 380 150, 470 170 C 560 190, 640 170, 720 200
+                   C 800 230, 830 260, 800 300 C 770 340, 640 340, 560 330
+                   C 470 320, 380 350, 300 320 C 265 305, 250 290, 250 250 Z"
+                class="card-f" stroke="var(--line2)" stroke-width="2"/>
+
+          <!-- nucleus -->
+          <ellipse cx="500" cy="248" rx="62" ry="46" class="panel-f" stroke="var(--line2)" stroke-width="1.5"/>
+          <text x="500" y="253" class="s-mute" font-size="13" text-anchor="middle">細胞核</text>
+
+          <!-- stress fibres (RhoA, rear) -->
+          <g stroke="var(--red)" stroke-width="2.5" opacity="0.85">
+            <line x1="290" y1="205" x2="450" y2="195"/>
+            <line x1="285" y1="250" x2="445" y2="245"/>
+            <line x1="290" y1="295" x2="450" y2="292"/>
+          </g>
+          <text x="300" y="180" class="s-red" font-size="14" font-weight="700">RhoA &#183; ROCK &#183; mDia</text>
+          <text x="300" y="322" class="s-dim" font-size="12">應力纖維 · 收縮力</text>
+
+          <!-- focal adhesions -->
+          <g>
+            <ellipse cx="330" cy="342" rx="26" ry="9" class="red-f" fill-opacity="0.35" stroke="var(--red)" stroke-width="1.5"/>
+            <ellipse cx="430" cy="352" rx="24" ry="8" class="red-f" fill-opacity="0.3" stroke="var(--red)" stroke-width="1.5"/>
+            <text x="330" y="372" class="s-dim" font-size="11.5" text-anchor="middle">黏著斑</text>
+          </g>
+
+          <!-- lamellipodium (Rac1, front) -->
+          <path d="M 780 275 C 850 250, 900 245, 945 258 C 905 285, 850 300, 790 295 Z"
+                class="teal-f" fill-opacity="0.28"/>
+          <g stroke="var(--teal)" stroke-width="2" opacity="0.9">
+            <path d="M 800 285 L 905 262" fill="none"/>
+            <path d="M 800 288 L 915 278" fill="none"/>
+            <path d="M 795 282 L 890 258" fill="none"/>
+          </g>
+          <text x="742" y="236" class="s-teal" font-size="14" font-weight="700">Rac1 &#183; WAVE&#8211;Arp2/3</text>
+          <text x="742" y="254" class="s-dim" font-size="12">分支肌動蛋白、板狀偽足</text>
+
+          <!-- filopodia (Cdc42) -->
+          <g stroke="var(--amber)" stroke-width="3" stroke-linecap="round">
+            <line x1="700" y1="200" x2="762" y2="146"/>
+            <line x1="742" y1="198" x2="822" y2="150"/>
+            <line x1="784" y1="205" x2="862" y2="170"/>
+          </g>
+          <text x="496" y="116" class="s-amber" font-size="14" font-weight="700">Cdc42</text>
+          <text x="496" y="134" class="s-dim" font-size="12">絲狀偽足、極性</text>
+          <path d="M 596 122 L 690 186" fill="none" stroke="var(--amber)" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.7"/>
+
+          <!-- direction arrow -->
+          <path d="M 850 420 L 960 420" fill="none" stroke="var(--teal)" stroke-width="2.5" marker-end="url(#mTeal3)"/>
+          <text x="850" y="408" class="s-teal" font-size="12.5" font-weight="700">突出</text>
+          <path d="M 260 420 L 150 420" fill="none" stroke="var(--red)" stroke-width="2.5" marker-end="url(#mRed3)"/>
+          <text x="260" y="408" class="s-red" font-size="12.5" font-weight="700">回縮</text>
+
+          <!-- inset: motility mode -->
+          <rect x="30" y="60" width="200" height="150" rx="10" class="panel-f" stroke="var(--line2)" stroke-width="1.5"/>
+          <text x="46" y="84" class="s-text" font-size="13" font-weight="700">遷移模式</text>
+          <text x="46" y="106" class="s-dim" font-size="12">RhoA 低 + Rac1 高</text>
+          <text x="46" y="124" class="s-mute" font-size="11.5">細長、上皮–間質型</text>
+          <text x="46" y="150" class="s-dim" font-size="12">RhoA／ROCK 高</text>
+          <text x="46" y="168" class="s-mute" font-size="11.5">泡狀驅動、變形蟲型</text>
+          <text x="46" y="194" class="s-mute" font-size="11.5">Cdc42 喪失 → 無極性</text>
+        </svg>
+      </div>
+      <figcaption class="fig-cap"> <b>圖 7 — 遷移細胞中的空間分工。</b> Cdc42-GTP 建立前後極性，包括絲狀偽足形成與纖毛定向。Rac1-GTP 透過 WAVE–Arp2/3 複合體推動膜的突出，WAVE2 的自體抑制由 IRSp53 解除。RhoA-GTP 產生肌動蛋白–肌球蛋白收縮力，其中 ROCK 磷酸化 MYPT1 與肌球蛋白輕鏈，mDia1/2 則成核直線狀肌絲。黏著斑將細胞與基質耦合：RhoA 活性促進其成熟，而黏著斑的更替使細胞後方得以分離。 </figcaption>
+    </figure>
+
+    <div class="grid g3" style="margin-top:6px;">
+      <div class="card">
+        <h3 style="color:var(--red);">RhoA：肌動蛋白–肌球蛋白收縮</h3>
+        <p class="kv"> RhoA–ROCK 訊號傳遞媒介應力纖維形成、黏著斑成熟、細胞分裂時收縮環的收縮（由 Ect2 送至分裂溝），以及平滑肌收縮。過高的 RhoA／ROCK 活性會促成心血管疾病與纖維化，因此 ROCK 是本家族中少數可成藥的節點。 </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--teal);">Rac1：膜的突出</h3>
+        <p class="kv"> Rac1 也作用於吞噬細胞呼吸爆發的上游（NOX 組裝需要 Rac1），並作用於 NF-κB 依賴性轉錄的上游，因此其功能並不限於細胞骨架。Rac1 是少數帶有突變的 Rho GTPase：P29S 出現於 4–9% 的日曬黑色素瘤；RAC1B 剪接異構體在乳癌、大腸直腸癌與肺癌中過度表現。 </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--amber);">Cdc42：細胞極性</h3>
+        <p class="kv"> Cdc42 組織極性、絲狀偽足、NADPH 氧化酶，以及經由 WASP 調控造血細胞的肌動蛋白細胞骨架——這也是顯性負效應的 Cdc42 等位基因可重現 Wiskott–Aldrich 症肌動蛋白病的原因。Cdc42 也是鞭毛的主要調控因子，決定纖毛定向與纖毛運輸。 </p>
+      </div>
+    </div>
+
+    <div class="callout" style="margin-top:20px;">
+      <span class="callout-tag">Rac 與 RhoA 之間的互相拮抗</span>
+      <p> 單獨的 ROCK 會產生排列紊亂、方向隨機的束狀肌絲，須由 mDia 藉由產生排列整齊的絲狀結構加以校正。Rac 與 Rho 在遷移過程中互相拮抗，卻在張力感測上協同：經由整合素與鈣黏著蛋白的黏附活化 RhoA，而作用於該連結點的張力又活化 AMPK 與葡萄糖攝取，形成正回饋。因此，細胞形狀與遷移模式取決於兩個方向相反的 GTPase 的相對活性，而非彼此獨立的路徑。 </p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ RAB CASE ============ -->
+<section id="rab">
+  <div class="wrap">
+    <h2>實例解析 — Rab5→Rab7 轉換如何決定自噬通量</h2>
+    <p class="lead"> 這是將 GTPase 層與本知識庫核心主題連結起來的案例。自噬通常被描述為整體性（bulk）途徑，但其<i>末端</i>步驟——自噬體與溶體的融合——仰賴一條 Rab GTPase 級聯反應。若此級聯被中斷，自噬體仍會形成，LC3-II 仍會累積，但貨物的降解卻停止；因此該標記型態代表自噬通量受損，而非自噬活性增加。 </p>
+
+    <figure class="fig">
+      <div class="fig-canvas">
+        <svg id="rabSvg" viewBox="0 0 1000 430" role="img" aria-labelledby="rabTitle">
+          <title id="rabTitle">Rab5 到 Rab7 的內體成熟級聯反應及其在自噬體–溶體融合中的角色</title>
+          <defs>
+            <marker id="mBlue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" class="blue-f"/>
+            </marker>
+            <marker id="mMute3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" class="s-mute"/>
+            </marker>
+            <marker id="mRed4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" class="red-f"/>
+            </marker>
+          </defs>
+
+          <!-- stage 1 -->
+          <rect x="24" y="60" width="210" height="150" rx="12" class="card-f" stroke="var(--blue)" stroke-width="1.5"/>
+          <text x="40" y="88" class="s-blue" font-size="16" font-weight="700">早期內體</text>
+          <text x="40" y="112" class="s-dim" font-size="12.5">Rab5-GTP</text>
+          <text x="40" y="132" class="s-dim" font-size="12.5">PtdIns3P</text>
+          <text x="40" y="152" class="s-dim" font-size="12.5">EEA1, Vps34</text>
+          <text x="40" y="176" class="s-mute" font-size="11.5">融合、運動性、PI3P</text>
+          <text x="40" y="196" class="s-mute" font-size="11.5">生成</text>
+
+          <!-- stage 2 -->
+          <rect x="272" y="60" width="210" height="150" rx="12" class="panel-f" stroke="var(--teal)" stroke-width="1.5"/>
+          <text x="288" y="88" class="s-teal" font-size="16" font-weight="700">轉換</text>
+          <text x="288" y="112" class="s-dim" font-size="12.5">Mon1&#8211;Ccz1 GEF</text>
+          <text x="288" y="132" class="s-dim" font-size="12.5">(+ SAND-1/MON1)</text>
+          <text x="288" y="152" class="s-dim" font-size="12.5">Rab5 GAP: TBC1D2</text>
+          <text x="288" y="176" class="s-mute" font-size="11.5">身分置換：一個 GTPase</text>
+          <text x="288" y="196" class="s-mute" font-size="11.5">被下一個取代</text>
+
+          <!-- stage 3 -->
+          <rect x="520" y="60" width="210" height="150" rx="12" class="card-f" stroke="var(--teal)" stroke-width="1.5"/>
+          <text x="536" y="88" class="s-teal" font-size="16" font-weight="700">晚期内體</text>
+          <text x="536" y="112" class="s-dim" font-size="12.5">Rab7-GTP</text>
+          <text x="536" y="132" class="s-dim" font-size="12.5">PtdIns(3,5)P<tspan baseline-shift="sub" font-size="9">2</tspan></text>
+          <text x="536" y="152" class="s-dim" font-size="12.5">HOPS, syntaxin-17</text>
+          <text x="536" y="176" class="s-mute" font-size="11.5">繫留 + 馬達</text>
+          <text x="536" y="196" class="s-mute" font-size="11.5">招募（RILP、FYCO1）</text>
+
+          <!-- stage 4 -->
+          <rect x="768" y="60" width="208" height="150" rx="12" class="card-f" stroke="var(--green)" stroke-width="1.5"/>
+          <text x="784" y="88" class="s-green" font-size="16" font-weight="700">自噬溶體</text>
+          <text x="784" y="112" class="s-dim" font-size="12.5">融合完成</text>
+          <text x="784" y="132" class="s-dim" font-size="12.5">貨物降解</text>
+          <text x="784" y="152" class="s-dim" font-size="12.5">通量 → 完整</text>
+          <text x="784" y="176" class="s-mute" font-size="11.5">TFEB／CLEAR 驅動</text>
+          <text x="784" y="196" class="s-mute" font-size="11.5">溶體生成</text>
+
+          <path d="M 236 135 L 266 135" fill="none" stroke="var(--line2)" stroke-width="2.5" marker-end="url(#mMute3)"/>
+          <path d="M 484 135 L 514 135" fill="none" stroke="var(--line2)" stroke-width="2.5" marker-end="url(#mMute3)"/>
+          <path d="M 732 135 L 762 135" fill="none" stroke="var(--line2)" stroke-width="2.5" marker-end="url(#mMute3)"/>
+
+          <!-- autophagosome feeding into stage 4 -->
+          <g>
+            <circle cx="872" cy="272" r="30" class="card-f" stroke="var(--green)" stroke-width="2"/>
+            <circle cx="872" cy="272" r="16" class="panel-f" stroke="var(--line2)" stroke-width="1.5"/>
+            <text x="872" y="322" class="s-green" font-size="12.5" font-weight="700" text-anchor="middle">自噬體</text>
+            <path d="M 872 242 L 872 218" fill="none" stroke="var(--green)" stroke-width="2" marker-end="url(#mBlue)"/>
+          </g>
+
+          <!-- consequence strip -->
+          <rect x="24" y="330" width="952" height="92" rx="12" class="panel-f" stroke="var(--red)" stroke-width="1.5"/>
+          <text x="44" y="356" class="s-red" font-size="15" font-weight="700">Rab7 喪失或顯性負效應 Rab7</text>
+          <text x="44" y="380" class="s-dim" font-size="13">HOPS 無法被招募 → 自噬體–溶體融合失敗 → 未消化囊泡累積</text>
+          <text x="44" y="402" class="s-dim" font-size="13">LC3-II ↑ · p62 ↑ · 自噬溶體 ↑ · 聚集体清除 ↓</text>
+          <text x="44" y="418" class="s-dim" font-size="13">—— 典型的 <tspan font-weight="700">通量受阻</tspan>，而非自噬增加</text>
+        </svg>
+      </div>
+      <figcaption class="fig-cap"> <b>圖 8 — Rab 轉換與自噬投遞。</b> 內體成熟是以一種分子身分取代另一種：早期內體的 Rab5 與 PtdIns3P，經由 Mon1–Ccz1 GEF 置換為 Rab7 與 PtdIns(3,5)P<sub>2</sub>。Rab7-GTP 招募 HOPS，由其繫留 syntaxin-17–SNARE 複合體；同時 RILP 搭配 dynactin、以及 FYCO1 沿微管定位此區室。Rab7 功能喪失會阻斷融合：自噬體相關標記累積，而降解通量下降。 </figcaption>
+    </figure>
+
+    <div class="grid g2" style="margin-top:6px;">
+      <div class="card">
+        <h3 style="color:var(--blue);">Rab 失能的臨床後果</h3>
+        <p class="kv"> <b>Rab7</b> 突變造成 Charcot–Marie–Tooth 2B 型神經病，反映 Rab7 在神經元降解運輸中的必要性；Rab7 介導的融合缺陷會促進神經退化與老化中的蛋白聚集。<b>Rab27A</b> 缺陷造成 Chediak–Higashi 症（溶體運輸與顆粒胞吐失敗）。<b>Rab8</b> 與線粒體自噬受體 [[OPTN]] 交互作用，將含線粒體的自噬體向細胞體方向逆行運送；突變的亨廷頓蛋白會破壞此 OPTN–Rab8 交互作用，在 Huntington 症中阻斷自噬進程。 </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--amber);">病原體對 Rab GTPase 的修飾</h3>
+        <p class="kv"> <i>Legionella</i> 的 effector SetA 對 Rab5（以及 Rab22）進行葡萄糖基化，使內體固定並阻斷自噬體–溶體融合，產生有利於細菌複製的囊泡，藉此逃避異嗜性自噬。持續的 Rab5 活性亦與致癌性生長及 RTK 驅動的增殖有關，將內吞運輸與增殖訊號連結起來。 </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ RHEB CASE ============ -->
+<section id="rheb">
+  <div class="wrap">
+    <h2>實例解析 — Rheb 與 TSC GAP：一個腫瘤抑制節點</h2>
+    <p class="lead"> 本知識庫中對 GAP 機制表徵最完整的例子，是作為 [[Rheb]]（直接活化 [[mTORC1]] 的 Ras 相關 GTPase）之 GAP 的 TSC1/TSC2 異二聚體。由於同一節點同時整合營養與能量訊號，它透過單一核苷酸開關，把細胞的代謝狀態與生長機制耦合起來。 </p>
+
+    <figure class="fig">
+      <div class="fig-canvas">
+        <svg id="rhebSvg" viewBox="0 0 1000 400" role="img" aria-labelledby="rhebTitle">
+          <title id="rhebTitle">TSC1/TSC2 GAP 對 Rheb-GTP 與 mTORC1 的調控：能量壓力下 AMPK 使 GAP 活性升高，生長訊號下 Akt 與 ERK-RSK 使其降低</title>
+          <defs>
+            <marker id="mGreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" class="green-f"/>
+            </marker>
+            <marker id="mAmber4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" class="amber-f"/>
+            </marker>
+            <marker id="mRed5" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" class="red-f"/>
+            </marker>
+          </defs>
+
+          <text x="30" y="34" class="s-green" font-size="14" font-weight="700">GAP 活化 · 能量壓力／禁食</text>
+          <g>
+            <rect x="30" y="48" width="170" height="60" rx="10" class="card-f" stroke="var(--green)" stroke-width="1.5"/>
+            <text x="115" y="74" class="s-text" font-size="14" font-weight="700" text-anchor="middle">AMPK</text>
+            <text x="115" y="93" class="s-dim" font-size="11.5" text-anchor="middle">能量耗竭</text>
+
+            <rect x="250" y="48" width="190" height="60" rx="10" class="card-f" stroke="var(--green)" stroke-width="1.5"/>
+            <text x="345" y="74" class="s-text" font-size="14" font-weight="700" text-anchor="middle">TSC1/TSC2</text>
+            <text x="345" y="93" class="s-dim" font-size="11.5" text-anchor="middle">Rheb GAP，活性 ↑</text>
+
+            <rect x="490" y="48" width="170" height="60" rx="10" class="card-f" stroke="var(--green)" stroke-width="1.5"/>
+            <text x="575" y="74" class="s-text" font-size="14" font-weight="700" text-anchor="middle">Rheb-GDP</text>
+            <text x="575" y="93" class="s-dim" font-size="11.5" text-anchor="middle">已水解，關閉</text>
+
+            <rect x="710" y="48" width="260" height="60" rx="10" class="card-f" stroke="var(--green)" stroke-width="1.5"/>
+            <text x="840" y="74" class="s-text" font-size="14" font-weight="700" text-anchor="middle">mTORC1 ↓ → 自噬 ↑</text>
+            <text x="840" y="93" class="s-dim" font-size="11.5" text-anchor="middle">ULK1 釋放，通量恢復</text>
+
+            <path d="M 202 78 L 244 78" fill="none" stroke="var(--green)" stroke-width="2.5" marker-end="url(#mGreen)"/>
+            <path d="M 442 78 L 484 78" fill="none" stroke="var(--green)" stroke-width="2.5" marker-end="url(#mGreen)"/>
+            <path d="M 662 78 L 704 78" fill="none" stroke="var(--green)" stroke-width="2.5" marker-end="url(#mGreen)"/>
+            <text x="223" y="66" class="s-mute" font-size="11" text-anchor="middle">磷酸化</text>
+          </g>
+
+          <text x="30" y="164" class="s-amber" font-size="14" font-weight="700">GAP 活性降低 · 生長因子／營養充足</text>
+          <g>
+            <rect x="30" y="178" width="170" height="60" rx="10" class="card-f" stroke="var(--amber)" stroke-width="1.5"/>
+            <text x="115" y="204" class="s-text" font-size="14" font-weight="700" text-anchor="middle">Akt &#183; ERK&#8211;RSK</text>
+            <text x="115" y="223" class="s-dim" font-size="11.5" text-anchor="middle">生長訊號傳遞</text>
+
+            <rect x="250" y="178" width="190" height="60" rx="10" class="card-f" stroke="var(--amber)" stroke-width="1.5"/>
+            <text x="345" y="204" class="s-text" font-size="14" font-weight="700" text-anchor="middle">TSC2</text>
+            <text x="345" y="223" class="s-dim" font-size="11.5" text-anchor="middle">GAP 活性 ↓</text>
+
+            <rect x="490" y="178" width="170" height="60" rx="10" class="card-f" stroke="var(--red)" stroke-width="1.5"/>
+            <text x="575" y="204" class="s-red" font-size="14" font-weight="700" text-anchor="middle">Rheb-GTP</text>
+            <text x="575" y="223" class="s-dim" font-size="11.5" text-anchor="middle">累積，開啟</text>
+
+            <rect x="710" y="178" width="260" height="60" rx="10" class="card-f" stroke="var(--red)" stroke-width="1.5"/>
+            <text x="840" y="204" class="s-red" font-size="14" font-weight="700" text-anchor="middle">mTORC1 ↑ → 自噬 ↓</text>
+            <text x="840" y="223" class="s-dim" font-size="11.5" text-anchor="middle">ULK1 受抑制</text>
+
+            <path d="M 202 208 L 244 208" fill="none" stroke="var(--amber)" stroke-width="2.5" marker-end="url(#mAmber4)"/>
+            <path d="M 442 208 L 484 208" fill="none" stroke="var(--red)" stroke-width="2.5" marker-end="url(#mRed5)"/>
+            <path d="M 662 208 L 704 208" fill="none" stroke="var(--red)" stroke-width="2.5" marker-end="url(#mRed5)"/>
+            <text x="223" y="196" class="s-mute" font-size="11" text-anchor="middle">磷酸化</text>
+          </g>
+
+          <rect x="30" y="264" width="940" height="122" rx="12" class="panel-f" stroke="var(--line2)" stroke-width="1.5"/>
+          <text x="50" y="292" class="s-text" font-size="14" font-weight="700">GAP 的治療邏輯</text>
+          <text x="50" y="316" class="s-dim" font-size="12.5">補償 GAP 活性喪失：TSC1／TSC2 雙等位基因喪失造成結節性硬化症——</text>
+          <text x="50" y="336" class="s-dim" font-size="12.5">腎臟血管平滑肌脂肪瘤、心肌橫紋溶解瘤、室管膜下巨細胞星狀細胞瘤、皮質結節。</text>
+          <text x="50" y="356" class="s-dim" font-size="12.5">體細胞 TSC2 喪失伴隨 mTOR 活化常見於膀胱癌。可取代</text>
+          <text x="50" y="376" class="s-dim" font-size="12.5">喪失之 GAP 者為 rapamycin 類：rapamycin 與 everolimus 用於 TSC 及 TSC 相關病灶。</text>
+        </svg>
+      </div>
+      <figcaption class="fig-cap"> <b>圖 9 — 同一 GAP，兩種調控方向。</b> TSC1/TSC2 作為 Rheb 的 GAP，因而限制 mTORC1 活性與自噬起始。能量耗竭時 AMPK 磷酸化 TSC2，使其 <i>GAP 活性增加</i>；而生長訊號下 Akt 與 ERK–RSK 的磷酸化則<i>使其降低</i>。GAP 活性喪失可藉由抑制 mTORC1 在藥理上補償，這正是 rapamycin 類藥物用於結節性硬化症的依據。 </figcaption>
+    </figure>
+
+    <div class="callout teal" style="margin-top:20px;">
+      <span class="callout-tag">更廣泛的型態</span>
+      <p> [[NF1]]（Ras 的 GAP）與 [[TSC2]]（Rheb 的 GAP）都是腫瘤抑制基因，也都與本知識庫中老化相關的問題有關。GAP 活性喪失並不會消除訊號傳遞，而是延長其持續時間，使細胞在 GTPase 本身沒有增益功能突變的情況下取得生長獨立性。因此，生理訊號與病理性損傷之間的差別，在於濃度與持續時間。 </p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ NOX CASE ============ -->
+<section id="nox">
+  <div class="wrap">
+    <h2>實例解析 — Rac1 與 Cdc42 在 NADPH 氧化酶組裝中的角色</h2>
+    <p class="lead"> 吞噬細胞的呼吸爆發呈現一種不同的 GTPase 調控模式：催化次單元恆常與膜結合，但複合體必須等到 p47phox 與 p67phox 轉位至膜上才具有活性，而 p67phox 只有在與適當的 GTPase 結合時才會轉位。 </p>
+
+    <figure class="fig">
+      <div class="fig-canvas">
+        <svg id="noxSvg" viewBox="0 0 1000 360" role="img" aria-labelledby="noxTitle">
+          <title id="noxTitle">NOX2 複合體的組裝：Rac1-GTP 與 Cdc42-GTP 結合 p67phox，後者與 p47phox 一同轉位至膜上，與 p22phox 及 Nox2 共同組成複合體 to generate superoxide</title>
+          <defs>
+            <marker id="mTeal4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" class="teal-f"/>
+            </marker>
+            <marker id="mAmber5" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" class="amber-f"/>
+            </marker>
+            <marker id="mRed6" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" class="red-f"/>
+            </marker>
+            <marker id="mMute4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" class="s-mute"/>
+            </marker>
+          </defs>
+
+          <!-- membrane -->
+          <rect x="300" y="248" width="560" height="18" rx="8" class="teal-f" fill-opacity="0.3"/>
+          <text x="310" y="286" class="s-mute" font-size="12">細胞膜／吞噬體膜</text>
+
+          <!-- Nox2 + p22phox -->
+          <rect x="650" y="190" width="110" height="70" rx="10" class="card-f" stroke="var(--red)" stroke-width="1.8"/>
+          <text x="705" y="222" class="s-red" font-size="14" font-weight="700" text-anchor="middle">Nox2</text>
+          <text x="705" y="242" class="s-dim" font-size="11.5" text-anchor="middle">催化次單元</text>
+          <rect x="510" y="200" width="110" height="56" rx="10" class="card-f" stroke="var(--line2)" stroke-width="1.4"/>
+          <text x="565" y="226" class="s-dim" font-size="13.5" text-anchor="middle">p22phox</text>
+          <text x="565" y="244" class="s-mute" font-size="11" text-anchor="middle">跨膜</text>
+
+          <!-- cytosolic subunits -->
+          <rect x="300" y="24" width="130" height="54" rx="10" class="card-f" stroke="var(--line2)" stroke-width="1.4"/>
+          <text x="365" y="48" class="s-dim" font-size="13.5" text-anchor="middle">p47phox</text>
+          <text x="365" y="66" class="s-mute" font-size="11" text-anchor="middle">SH3 + PX</text>
+          <rect x="300" y="96" width="130" height="60" rx="10" class="card-f" stroke="var(--teal)" stroke-width="1.6"/>
+          <text x="365" y="122" class="s-teal" font-size="13.5" font-weight="700" text-anchor="middle">p67phox</text>
+          <text x="365" y="140" class="s-mute" font-size="11" text-anchor="middle">結合小型 GTPase</text>
+          <path d="M 365 78 L 365 94" fill="none" stroke="var(--line2)" stroke-width="2" marker-end="url(#mMute4)"/>
+
+          <!-- GTPases -->
+          <rect x="40" y="52" width="180" height="54" rx="10" class="card-f" stroke="var(--teal)" stroke-width="1.6"/>
+          <text x="130" y="76" class="s-teal" font-size="13.5" font-weight="700" text-anchor="middle">Rac1-GTP</text>
+          <text x="130" y="94" class="s-mute" font-size="11" text-anchor="middle">髓系細胞中的 Rac2</text>
+          <rect x="40" y="146" width="180" height="54" rx="10" class="card-f" stroke="var(--amber)" stroke-width="1.6"/>
+          <text x="130" y="170" class="s-amber" font-size="13.5" font-weight="700" text-anchor="middle">Cdc42-GTP</text>
+          <text x="130" y="188" class="s-mute" font-size="11" text-anchor="middle">絲狀結構定向</text>
+
+          <path d="M 222 76 L 294 112" fill="none" stroke="var(--teal)" stroke-width="2.5" marker-end="url(#mTeal4)"/>
+          <path d="M 222 170 L 294 136" fill="none" stroke="var(--amber)" stroke-width="2.5" marker-end="url(#mAmber5)"/>
+
+          <!-- translocation -->
+          <path d="M 430 126 L 430 240" fill="none" stroke="var(--teal)" stroke-width="2.5" stroke-dasharray="6 4" marker-end="url(#mTeal4)"/>
+          <text x="442" y="180" class="s-dim" font-size="11.5">轉位至膜上</text>
+
+          <!-- output -->
+          <path d="M 762 214 L 826 214" fill="none" stroke="var(--red)" stroke-width="2.5" marker-end="url(#mRed6)"/>
+          <text x="838" y="208" class="s-red" font-size="13" font-weight="700">超氧陰離子</text>
+          <text x="838" y="226" class="s-dim" font-size="12">&#8594; H<tspan baseline-shift="sub" font-size="9">2</tspan>O<tspan baseline-shift="sub" font-size="9">2</tspan> &#8594; ROS</text>
+          <text x="838" y="248" class="s-mute" font-size="11.5">呼吸爆發</text>
+
+          <text x="30" y="40" class="s-mute" font-size="11.5" font-weight="700" letter-spacing="1">細胞質</text>
+          <text x="30" y="330" class="s-mute" font-size="11.5">此組裝失敗 ＝ 類慢性肉芽腫疾病的免疫缺陷（例如 Rac2 喪失）。</text>
+        </svg>
+      </div>
+      <figcaption class="fig-cap"> <b>圖 10 — NOX 組裝。</b> Nox2 與 p22phox 構成膜上的核心，p47phox 與 p67phox 則由細胞質轉位而來；p67phox 結合 Rac1-GTP（造血細胞中為 Rac2）與 Cdc42-GTP，藉此將複合體招募至膜上。這構成 Rho 家族與活性氧生成之間的直接機制連結，而 Rac1 在吞噬細胞中同時參與氧化爆發與 NF-κB 依賴性轉錄。 </figcaption>
+    </figure>
+
+    <div class="callout red">
+      <span class="callout-tag">活性氧生成的調控</span>
+      <p> GTPase 依賴的 NOX 活化同時調控氧化爆發，以及作為訊號分子的較低、穩態活性氧生成。低流量時，活性氧作為訊號（NRF2／ARE 誘導、激效適應）；高流量時則造成損傷，包括脂質過氧化與鐵死亡。因此 NOX 活性的調控會同時影響細胞氧化還原訊號的幅度與持續時間。 </p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DISEASE ============ -->
+<section id="disease">
+  <div class="wrap">
+    <h2>疾病機轉</h2>
+    <p class="lead"> 與 GTPase 相關的疾病主要有兩種機轉：活化型突變造成的持續活化 GTPase，以及失活型突變或定位失敗造成的 GTPase 功能喪失。 </p>
+
+    <figure class="fig">
+      <div class="fig-canvas">
+        <svg id="krasSvg" viewBox="0 0 1000 360" role="img" aria-labelledby="krasTitle">
+        <title id="krasTitle">各腫瘤類型的 KRAS 突變頻率</title>
+        <rect x="178.1" y="61.0" width="91.3" height="189.0" rx="5" class="red-f"/>
+        <text x="223.8" y="50.0" class="s-text" font-size="19" font-weight="700" text-anchor="middle">90%</text>
+        <text x="223.8" y="276" class="s-text" font-size="13.5" font-weight="700" text-anchor="middle">胰臟癌</text>
+        <text x="223.8" y="293" class="s-text" font-size="13.5" font-weight="700" text-anchor="middle"></text>
+        <text x="223.8" y="314" class="s-dim" font-size="11.5" text-anchor="middle">G12D 最常見</text>
+        <rect x="385.6" y="166.0" width="91.3" height="84.0" rx="5" class="amber-f"/>
+        <text x="431.2" y="155.0" class="s-text" font-size="19" font-weight="700" text-anchor="middle">40%</text>
+        <text x="431.2" y="276" class="s-text" font-size="13.5" font-weight="700" text-anchor="middle">大腸直腸癌</text>
+        <text x="431.2" y="293" class="s-text" font-size="13.5" font-weight="700" text-anchor="middle"></text>
+        <text x="431.2" y="314" class="s-dim" font-size="11.5" text-anchor="middle">G12V, G12D, G13D</text>
+        <rect x="593.1" y="187.0" width="91.3" height="63.0" rx="5" class="purple-f"/>
+        <text x="638.8" y="176.0" class="s-text" font-size="19" font-weight="700" text-anchor="middle">30%</text>
+        <text x="638.8" y="276" class="s-text" font-size="13.5" font-weight="700" text-anchor="middle">NSCLC</text>
+        <text x="638.8" y="293" class="s-text" font-size="13.5" font-weight="700" text-anchor="middle">（全部 KRAS）</text>
+        <text x="638.8" y="314" class="s-dim" font-size="11.5" text-anchor="middle">G12C 亞群 ≈ NSCLC 的 13%</text>
+        <rect x="800.6" y="222.7" width="91.3" height="27.3" rx="5" class="teal-f"/>
+        <text x="846.2" y="211.7" class="s-text" font-size="19" font-weight="700" text-anchor="middle">13%</text>
+        <text x="846.2" y="276" class="s-text" font-size="13.5" font-weight="700" text-anchor="middle">KRAS G12C</text>
+        <text x="846.2" y="293" class="s-text" font-size="13.5" font-weight="700" text-anchor="middle">占 NSCLC</text>
+        <text x="846.2" y="314" class="s-dim" font-size="11.5" text-anchor="middle">sotorasib／adagrasib 的標的</text>
+        <line x1="120" y1="250" x2="950" y2="250" class="stroke-line2" stroke-width="1.5"/>
+        </svg>
+      </div>
+      <figcaption class="fig-cap"> <b>圖 11 — KRAS，突變率最高的致癌基因。</b> G12、G13 與 Q61 密碼子的熱點置換會損害 GTP 水解，使突變蛋白不論上游訊號為何都維持 GTP 結合狀態。G12C 置換約占非小細胞肺癌的 13%，也占 KRAS 突變型肺癌的相當比例；同時它也是已有直接抑制劑的亞群。 </figcaption>
+    </figure>
+
+    <div class="tbl-wrap" style="margin-top:6px; max-height:none;">
+      <table>
+        <thead>
+          <tr><th>疾病／情境</th><th>GTPase 節點</th><th>機轉</th><th>證據等級</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>膏臨癌、大肠直肠癌、NSCLC</td>
+            <td>KRAS (G12, G13, Q61)</td>
+            <td>水解受損 → 持續為 GTP 結合狀態 → RAF–MEK–ERK 與 PI3K–AKT 訊號持續激活</td>
+            <td>確立（驅動突變，已核准疒法）</td>
+          </tr>
+          <tr>
+            <td>第一型神經維維瘤病</td>
+            <td>NF1／神經維維蛋白（Ras GAP）</td>
+            <td>GAP 活性損失 → Ras 持續為 GTP 載入 → RAS–MAPK 過度活化</td>
+            <td>確立</td>
+          </tr>
+          <tr>
+            <td>結節性硬化症</td>
+            <td>TSC1/TSC2 (Rheb GAP)</td>
+            <td>GAP 活性損失 → Rheb-GTP 升高 → mTORC1 過度活化</td>
+            <td>確立（rapamycin／everolimus 已核准）</td>
+          </tr>
+          <tr>
+            <td>潤散型胃癌</td>
+            <td>RHOA（R5Q、G17E、Y42C，約 25%）</td>
+            <td>Y42C 損害 PKN 結合但保留 ROCK1／mDia2 活性；與 E-鈥黏著蛋白損失協同</td>
+            <td>確立</td>
+          </tr>
+          <tr>
+            <td>血管免疫母细胞性 T 紫狀素淋巴瘤</td>
+            <td>RHOA G17V</td>
+            <td>行為較接近顯性負效應而非活化剂</td>
+            <td>確立</td>
+          </tr>
+          <tr>
+            <td>黑色素瘤</td>
+            <td>RAC1 P29S（日曱暴露者中 4–9%）</td>
+            <td>快速周轉、效應器親和力增強的 switch I 等位基因</td>
+            <td>確立</td>
+          </tr>
+          <tr>
+            <td>類慢性肉芽臭疾病</td>
+            <td>RAC2</td>
+            <td>NOX 組装失敗 → 呼吸爆發缺失</td>
+            <td>確立</td>
+          </tr>
+          <tr>
+            <td>Wiskott–Aldrich 症</td>
+            <td>Cdc42 · WASP 軸</td>
+            <td>造血细胞中 Cdc42–WASP 訊號異常造成的肌動蛋白病</td>
+            <td>確立</td>
+          </tr>
+          <tr>
+            <td>Chediak–Higashi 症</td>
+            <td>Rab27A</td>
+            <td>溶體運輸與項粒胞吐缺陷</td>
+            <td>確立</td>
+          </tr>
+          <tr>
+            <td><b>Charcot&#8211;Marie&#8211;Tooth 2B / 2M</b></td>
+            <td>Rab7 &#183; DNM2</td>
+            <td>神經元中降解運輸與小泡切割失敗</td>
+            <td>確立</td>
+          </tr>
+          <tr>
+            <td>Huntington 症</td>
+            <td>Rab8 &#183; OPTN</td>
+            <td>突變亨順顯蛋白破壞 OPTN–Rab8 交互作用 → 線粒體自噬逆行運輸失敗</td>
+            <td>確立</td>
+          </tr>
+          <tr>
+            <td>中央核肌病</td>
+            <td>DNM2</td>
+            <td>膜重塑與切割缺陷</td>
+            <td>確立</td>
+          </tr>
+          <tr>
+            <td>KRAS–LKB1 肺癌</td>
+            <td>KRAS + STK11/LKB1</td>
+            <td>STING 經 DNMT1 甲基化而沉默 → 冷臭瘤、PD-L1 下降、ICI 抗藍性</td>
+            <td>確立</td>
+          </tr>
+          <tr>
+            <td>老化／细胞衰老中的自噬通量失效</td>
+            <td>Rab7 &#183; HOPS &#183; Mon1&#8211;Ccz1</td>
+            <td>融合失敗 → 脂褐素與殘渣累積；標記累積會模擬自噬增加</td>
+            <td>機轉已確立；治療切入點浮現</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="callout" style="margin-top:22px;">
+      <span class="callout-tag">兩種反覆出現的機轉</span>
+      <p> <b>持續活化。</b>熱點置換（Ras G12/G13/Q61、RhoA G17V、Rac1 P29S）並不改變蛋白的最大活性，而是降低其被失活的速率。因此快速周轉與 GTP 鎖定兩類等位基因產生相同的功能後果。<b>GAP 活性喪失。</b>GAP（NF1、TSC2）的喪失以另一條途徑造成相同的終點。適當的介入方式也隨之不同：活化型突變可用直接配體處理，而 GAP 活性喪失則藉抑制下游途徑補償——這也是結節性硬化症以 mTOR 抑制劑而非 TSC 活化劑治療的原因。 </p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PHARMACOLOGY ============ -->
+<section id="drugs">
+  <div class="wrap">
+    <h2>可成藥的層級與位置</h2>
+    <p class="lead"> 針對小型 GTPase 的直接配體並不多見。可成藥的切入點為：(a) 核苷酸結合位本身（唯一已有核准直接抑制劑的家族）；(b) 決定膜結合的異戊二烯化步驟；以及 (c) 下游效應器激酶——多數臨床藥理學都落在這一層。 </p>
+
+    <div class="tbl-wrap" style="max-height:none;">
+      <table>
+        <thead>
+          <tr><th>標的</th><th>化合物</th><th>狀態</th><th>備註</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>KRAS G12C</td><td>Sotorasib（AMG 510）、adagrasib（MRTX849）</td><td>已核准</td><td>首批直接針對小型 GTPase 的疗法；首次核准於 NSCLC</td></tr>
+          <tr><td>KRAS（泛 KRAS、活性態）</td><td>RMC-6236 等</td><td>臨床試驗</td><td>針對活性態 KRAS 的三元複合體類藍物</td></tr>
+          <tr><td>Ras 異戊二為化（法尼基轉移酶）</td><td>法尼基轉移酶抑制剂</td><td>已核准（其他適病）</td><td>對 HRAS／NRAS 的效果優於 KRAS（KRAS 可被香葉基化）</td></tr>
+          <tr><td>ROCK（RhoA 下游）</td><td>Fasudil（日本、腦血管痛摔）；Y-27632、AT13148</td><td>已核准／臨床試驗</td><td>Rho 家族中開發最成熟的成藍節點</td></tr>
+          <tr><td>RhoA 異戊二為化</td><td>PTX-100 (geranylgeranyltransferase-1)</td><td>早期臨床試驗</td><td>作用於異戊二為化而非開關本身</td></tr>
+          <tr><td>PAK（Rac1／Cdc42 下游）</td><td>FRAX597, IPA-3</td><td>臨床前</td><td>效應器層級；位於 MAPK 與细胞骨架輸出的上游</td></tr>
+          <tr><td>Rac1–GEF 交互作用</td><td>NSC23766, EHop-016</td><td>研究工具化合物</td><td>效價不足以用於臨床</td></tr>
+          <tr><td>RhoA 直接</td><td>Rhosin, CCG-1423</td><td>研究工具化合物</td><td>尚無核准的直接 RhoA 配體</td></tr>
+          <tr><td>Cdc42 直接</td><td>Rhosin, ML141</td><td>研究工具化合物</td><td>研究工具</td></tr>
+          <tr><td>Dynamin</td><td>Dynasore, Ryngo 1-23, bis-T-22b</td><td>工具化合物／臨床前</td><td>作為抗病毒（dynamin 依賴性出芽）與抗侵袭藍物開發</td></tr>
+          <tr><td>mTORC1（Rheb-GTP 下游）</td><td>Rapamycin、everolimus（rapalog 類）</td><td>已核准</td><td>在結節性硬化症中功能性取代損失的 TSC GAP</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="grid g2" style="margin-top:20px;">
+      <div class="card">
+        <h3 style="color:var(--teal);">型態</h3>
+        <p class="kv"> 在沒有直接配體的情況下，化合物作用於三個切入點之一：<b>脂質錨</b>（異戊二烯化抑制劑將 GTPase 從膜上移除）、<b>交換因子</b>（抑制 GDP 釋出以維持非活性狀態），或<b>效應器激酶</b>（ROCK、PAK、MEK），後者位於眾多 GTPase 的下游，因此選擇性較差。 </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--amber);">開關本身為何難以成藥</h3>
+        <p class="kv"> 鳥嘌呤核苷酸結合口袋高度保守，必須高保真地結合 GTP、GDP 與 Mg<sup>2+</sup>，循環才能運作。因此家族間的選擇性必須來自相對淺的 switch 表面或高變異區，而這兩者都不利於高親和力的小分子結合。兩個例外可說明此點：KRAS G12C 可成藥，是因為該置換創造出新的結合口袋；Ras 異戊二烯化可成藥，則是因為其作用於脂質修飾步驟，而非蛋白–配體界面。 </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SOURCES ============ -->
+<footer id="sources">
+  <div class="wrap">
+    <h2 style="font-size:1.1rem;">資料來源與方法</h2>
+    <p style="margin-top:10px;"> 主要來源：llm-wiki-jk 知識庫筆記 — <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/GTPase.md" target="_blank" rel="noopener noreferrer"><code>src/notes/_link/GTPase.md</code></a> （總類筆記：核苷酸循環、家族總覽、病理） · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/GAP.md" target="_blank" rel="noopener noreferrer"><code>src/notes/_link/GAP.md</code></a> （GAP 邏輯、TSC1/TSC2–Rheb、NF1、ARHGAP） · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Rac GTPase.md" target="_blank" rel="noopener noreferrer"><code>src/notes/_link/Rac GTPase.md</code></a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Rac1.md" target="_blank" rel="noopener noreferrer"><code>src/notes/_link/Rac1.md</code></a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/RhoA.md" target="_blank" rel="noopener noreferrer"><code>src/notes/_link/RhoA.md</code></a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Cdc42.md" target="_blank" rel="noopener noreferrer"><code>src/notes/_link/Cdc42.md</code></a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/autophagy/Rab5.md" target="_blank" rel="noopener noreferrer"><code>src/notes/autophagy/Rab5.md</code></a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/autophagy/Rab7.md" target="_blank" rel="noopener noreferrer"><code>src/notes/autophagy/Rab7.md</code></a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Rab8.md" target="_blank" rel="noopener noreferrer"><code>src/notes/_link/Rab8.md</code></a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Arf1.md" target="_blank" rel="noopener noreferrer"><code>src/notes/_link/Arf1.md</code></a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Dynamin.md" target="_blank" rel="noopener noreferrer"><code>src/notes/_link/Dynamin.md</code></a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cancer/KRAS.md" target="_blank" rel="noopener noreferrer"><code>src/notes/cancer/KRAS.md</code></a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/autophagy/RAS.md" target="_blank" rel="noopener noreferrer"><code>src/notes/autophagy/RAS.md</code></a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/Autophagosome-lysosome%20fusion.md" target="_blank" rel="noopener noreferrer"><code>src/notes/senescence/Autophagosome-lysosome fusion.md</code></a>. </p>
+    <p> 相關知識庫筆記： [[GTPase]], [[GTP]], [[GAP]], [[RAS]], [[KRAS]], [[RhoA]], [[Rac GTPase]], [[Rac1]], [[Cdc42]], [[Rab5]], [[Rab7]], [[Rab8]], [[Arf1]], [[Dynamin]], [[ROCK]], [[PAK1]], [[Actin Cytoskeleton]], [[Focal Adhesion]], [[Cell Migration]], [[NADPH Oxidase]], [[Respiratory Burst]], [[Endocytosis]], [[Membrane Trafficking]], [[Autophagy]], [[Autophagosome-lysosome fusion]], [[Autophagic Flux]], [[HOPS Complex]], [[Mon1-Ccz1]], [[RILP]], [[FYCO1]], [[OPTN]], [[Huntington's Disease]], [[TSC]], [[TSC1]], [[TSC2]], [[Rheb]], [[mTORC1]], [[mTORC2]], [[AMPK]], [[Akt]], [[ULK1]], [[TFEB]], [[Clear Network]], [[SIRT1]], [[SIRT2]], [[Reactive Oxygen Species]], [[Cellular Senescence]], [[Neurodegeneration]], [[Chronic Granulomatous Disease]], [[Melanoma]], [[Alzheimer's Disease]], [[Fibrosis]], [[Atherosclerosis]], [[Vps34]], [[PtdIns3P]], [[PtdIns(4,5)P2]], [[Mitochondrial Fission]], [[MFN1]], [[MFN2]], [[Charcot–Marie-Tooth Disease]]. </p>
+    <p> 圖 1、3、4、7、8、9、10 為使用 theme-01 CSS 變數的用戶端 SVG——無外部相依，可隨網站淺色／深色切換重新配色，並可離線使用。圖 2、5、6、11 為產生的圖表（對數尺度周轉速率、家族成員數、家族 × 輸出矩陣、KRAS 突變頻率）。 </p>
+    <p style="margin-top:8px; color:var(--mute);"> 本頁為資訊性整理，不構成醫療建議。 <b>圖 2 為示意</b>：水解速率為代表性的數量級數值（k<sub>cat</sub>, s<sup>−1</sup>) 數值彙整自 Ras／Rheb／Rab／Arf／dynamin 周轉的標準文獻，且確切數值取決於核苷酸濃度、Mg<sup>2+</sup>、脂質結合與測定格式——其用途在於呈現 <i>相對</i> 內在水解與 GAP 催化水解之間的差距，而非作為常數引用。圖 5 的家族數量為基因體層級的概略計數。圖 3、4、7、8、9、10 的示意圖是對所引用知識庫筆記所述機制的示意性呈現，並非實驗數據。 藥理學表格中的藥物狀態依知識庫筆記所載的核准與臨床試驗階段；臨床使用前請確認最新法規狀態。 </p>
+  </div>
+</footer>
+
+<div id="netTip"></div>
+
+<script src="../themes/theme-01/pages-core.js"></script>
+<script src="../themes/theme-01/pages-svg.js"></script>
+<script src="../themes/theme-01/context-tooltip.js"></script>
+</body>
+</html>

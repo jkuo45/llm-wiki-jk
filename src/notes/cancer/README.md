@@ -3,7 +3,7 @@ title: Cancer notes
 aliases: []
 description: Index of wiki notes for cancer
 created: 2026-07-06
-updated: 2026-10-21
+updated: 2026-11-11
 ---
 # Cancer
 
@@ -40,7 +40,7 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 ## Maintenance
 
 - Last updated: 23_September_2026 12:00 PM PDT
-- Total count of entities: 275
+- Total count of entities: 273
 
 | entity                                                 | datetime updated         | entity_type_1        | entity_relevance_score_1 | entity_sentiment_score_1 | entity_justification_1 |
 | ------------------------------------------------------ | ------------------------ | -------------------- | ------------------------ | ------------------------ | ---------------------- |
@@ -255,7 +255,6 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[GSK3]] | 31_May_2026 05:30 PM PDT | enzyme | 8 | 0 | Kinase that regulates Mcl-1 stability and apoptosis. |
 | [[HUWE1]] | 31_May_2026 05:30 PM PDT | enzyme | 8 | 0 | E3 ubiquitin ligase (MULE) that targets Mcl-1 for degradation. |
 | [[JNK]] | 31_May_2026 05:30 PM PDT | enzyme | 8 | 0 | Stress-activated kinase that promotes Bim and Puma activity. |
-| [[MOMP]] | 31_May_2026 05:30 PM PDT | biological-process | 10 | 0 | Mitochondrial outer membrane permeabilization, the point of no return in apoptosis. |
 | [[mTORC1]] | 31_May_2026 05:30 PM PDT | protein             | 8 | 0 | Protein complex regulating protein synthesis and survival downstream of PI3K/Akt. |
 | [[Phosphorylation]] | 31_May_2026 05:30 PM PDT | biological-process| 8 | 0 | Post-translational modification regulating protein function and stability. |
 | [[PIDD]] | 31_May_2026 05:30 PM PDT | protein | 7 | 0 | Component of the PIDDosome involved in Caspase-2 activation. |
@@ -317,11 +316,11 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[Colon Cancer]] | 06_Jul_2026 12:00 PM PDT | cancer        | 6 | 0 | Colon cancer is a malignancy of the large intestine (colon), representing a major subset of colorectal cancer. It is the third most common cancer worldwide, with approximately 1.9 million new cases... |
 | [[Common Pathway]] | 06_Jul_2026 12:00 PM PDT | enzyme        | 6 | 0 | The Common Pathway (or execution phase) of Apoptosis is the final |
 | [[DISC]] | 06_Jul_2026 12:00 PM PDT | enzyme        | 6 | 0 | The Death-Inducing Signaling Complex (DISC) is a multi-protein assembly |
-| [[DR4]] | 06_Jul_2026 12:00 PM PDT | enzyme        | 6 | 0 | DR4 (Death Receptor 4), also known as TRAIL-R1 or TNFRSF10A, is |
-| [[DR5]] | 06_Jul_2026 12:00 PM PDT | enzyme        | 6 | 0 | DR5 (Death Receptor 5), also known as TRAIL-R2 or TNFRSF10B, is |
+| [[DR4]] | 06_Jul_2026 12:00 PM PDT | receptor      | 6 | 0 | DR4 (Death Receptor 4), also known as TRAIL-R1 or TNFRSF10A, is |
+| [[DR5]] | 06_Jul_2026 12:00 PM PDT | receptor      | 6 | 0 | DR5 (Death Receptor 5), also known as TRAIL-R2 or TNFRSF10B, is |
 | [[Endoplasmic Reticulum Pathway]] | 06_Jul_2026 12:00 PM PDT | enzyme        | 6 | 0 | The Endoplasmic Reticulum (ER) Pathway is an initiation route for |
 | [[Esophageal Cancer]] | 06_Jul_2026 12:00 PM PDT | medical-condition| 6 | 0 | Esophageal cancer is a malignancy of the esophagus with approximately 600,000 new cases worldwide annually, ranking 9th among all cancers globally. The two main histological types are squamous cell... |
-| [[FADD]] | 06_Jul_2026 12:00 PM PDT | enzyme        | 6 | 0 | FADD (Fas-associated via death domain) is a critical adaptor protein |
+| [[FADD]] | 06_Jul_2026 12:00 PM PDT | protein       | 6 | 0 | FADD (Fas-associated via death domain) is a critical adaptor protein |
 | [[Gossypol]] | 06_Jul_2026 12:00 PM PDT | medical-condition| 6 | 0 | Gossypol is a natural polyphenolic compound derived from the cotton |
 | [[HSP90β]] | 07_Jul_2026 12:00 PM PDT | protein       | 6 | 0 | HSP90β is a cytosolic chaperone protein that acts as an Apaf-1 inhibitor, suppressing Apaf-1 oligomerization and Apoptosome formation in tyrosine kinase-induced leukemias. |
 | [[IBRDC2]] | 07_Jul_2026 12:00 PM PDT | enzyme        | 6 | 0 | IBRDC2 (also known as p53RFP or RNF144B) is an E3 ubiquitin ligase that ubiquitinates Bax on the mitochondrial outer membrane, regulating its stability and apoptotic activation. |
@@ -384,6 +383,8 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[Bevacizumab]] | - | drug | - | - | A humanised monoclonal antibody against VEGF-A that neutralises circulating vascular endothelial growth factor; the first antiangiogenic agent approved by the FDA (2004, colorectal cancer), used in combination with chemotherapy across a wide range of tumour types. |
 | [[Barrett's Esophagus]] | - | medical-condition | - | - | Barrett's esophagus is the replacement of the normal distal esophageal squamous epithelium by metaplastic intestinal-type columnar epithelium with goblet cells, driven by chronic gastroesophageal reflux; it is the only identifiable precursor lesion of esophageal adenocarcinoma. |
 | [[Anticancer]] | - | pharmacology | - | - | Anticancer therapy denotes systemic treatment of malignancy with cytotoxic, targeted, hormonal, or immunologic agents; the modern pharmacopea spans alkylators, antimetabolites, anti-microtubules, kinase inhibitors, antibody-drug conjugates, and checkpoint blockade. |
+| [[Temozolomide]] | - | drug | - | - | Temozolomide (TMZ) is an orally bioavailable imidazotetrazine alkylating prodrug that yields MTIC and O6-methylguanine DNA adducts, and is the standard-of-care chemotherapeutic backbone of glioblastoma when combined with radiotherapy. |
+| [[Oxaliplatin]] | - | drug | - | - | Oxaliplatin is a third-generation platinum (1R,2R-cyclohexane-1,2-diamine) complex that forms bulky intra- and interstrand DNA crosslinks, the backbone of chemotherapy in colorectal cancer, with cumulative peripheral neuropathy as its signature toxicity. |
 
 ## Consolidated to notes/_link/
 

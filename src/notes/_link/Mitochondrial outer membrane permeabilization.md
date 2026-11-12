@@ -2,7 +2,7 @@
 title: Mitochondrial outer membrane permeabilization
 description: The pivotal event in the intrinsic apoptotic pathway where BAX/BAK pores permeabilize the outer mitochondrial membrane; sublethal (minority) MOMP drives senescence.
 created: 2026-07-07
-updated: 2026-07-08
+updated: 2026-11-11
 tags:
   - biological-process
   - apoptosis
@@ -32,7 +32,12 @@ aliases: [Mitochondrial outer membrane permeabilization, MOMP]
 ## Clinical / Pathological Relevance
 
 - MOMP regulators (BCL-2 family) are major oncology targets; BH3 mimetics exploit the all-or-nothing nature of full MOMP.
+- Failure of MOMP underpins the survival of [[Cancer]] cells and their resistance to [[Chemotherapy]] and radiotherapy, since many cytotoxic agents act upstream by triggering mitochondrial apoptosis. Conversely, excessive or mistimed MOMP drives degenerative and ischemic injury.
+- BH3 mimetics such as venetoclax (targeting Bcl-2) push cells toward MOMP, and agents that activate Bax/Bak or disable Mcl-1 are in development. Quantifying MOMP (e.g., by cytochrome c release or caspase activation assays) informs prognostic and pharmacodynamic assessment.
 - The miMOMP–cGAS–STING link explains SASP-driven [[Inflammaging]] and motivates [[Senolytics]] and cGAS–STING inhibitors for age-related disease.
+
+> [!info] Source: [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026]]
+> MOMP releases [[Cytochrome c|cytochrome c]] to drive intrinsic apoptosis, while [[Minority MOMP|minority MOMP]] releases mtDNA to activate [[cGAS-STING Pathway|cGAS–STING]] and regulate the [[SASP]] without cell death; mtDNA/mtRNA also escape through MOMP during stress.
 
 ## Documents
 
@@ -40,6 +45,9 @@ List of documents that mention this entity
 
   - [[_document_ - SASP, senescent cells, grok|SASP, senescent cells, grok]]
     - Explains how sublethal MOMP (miMOMP) releases mtDNA to activate cGAS-STING and drive SASP.
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - MOMP triggers the release of pro-apoptotic proteins, including Cytochrome c and Smac-DIABLO, from the mitochondrial intermembrane space to the cytoplasm (Figure 1); MOMP failure underlies cancer treatment resistance.
+- [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026 — Mitochondrial dysfunction and inflammaging]]: Distinguishes lethal MOMP from minority MOMP in senescence-associated mtDNA release.
 
 ## Connections
 
@@ -49,8 +57,13 @@ List of documents that mention this entity
 - [[cGAS-STING Pathway|cGAS–STING]] — Cytosolic mtDNA activates this pathway
 - [[BAX]] / [[BAK]] — Pro-apoptotic proteins that form MOMP pores
 - [[Minority MOMP]] — The sublethal, senescence-driving variant of MOMP
+- [[Cytochrome c]] — Released at MOMP to initiate the apoptosome
+- [[Smac DIABLO]] — Co-released inhibitor of IAPs
+- [[Bcl-2 family]] — Master regulators of MOMP
+- [[Cancer]] — MOMP failure underlies treatment resistance
+- [[p53]] — DNA damage upstream of MOMP
 
 ## Linking Summary
 
-  - New links added: [[Apoptosis]], [[Senescence]], [[mtDNA]], [[cGAS-STING Pathway|cGAS–STING]], [[BAX]], [[BAK]], [[Minority MOMP]], [[Cytochrome c]], [[Apoptosome]]
+  - New links added: [[Apoptosis]], [[Senescence]], [[mtDNA]], [[cGAS-STING Pathway|cGAS–STING]], [[BAX]], [[BAK]], [[Minority MOMP]], [[Cytochrome c]], [[Apoptosome]], [[Smac DIABLO]], [[Bcl-2 family]], [[Cancer]], [[Chemotherapy]], [[p53]]
   - Strong connections to strengthen: Mitochondrial outer membrane permeabilization ↔ [[Apoptosis]], Mitochondrial outer membrane permeabilization ↔ [[Senescence]], Mitochondrial outer membrane permeabilization ↔ [[Minority MOMP]]

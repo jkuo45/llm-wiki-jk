@@ -4,7 +4,7 @@ description: HIC1 (Hypermethylated in Cancer 1) is a sequence-specific zinc-fing
   transcriptional repressor containing an N-terminal POZ/BTB domain. It is a critical
   tumour suppressor gene located in a genomic...
 created: 2026-07-03
-updated: 2026-07-07
+updated: 2026-11-10
 tags:
   - protein
 aliases:
@@ -40,6 +40,9 @@ This feedback loop embodies a delicate balance: transient HIC1 expression enforc
 *HIC1* hypermethylation is a prognostic and predictive biomarker in several malignancies (breast, lung, glioma). Restoring HIC1 or selectively inhibiting SIRT1 deacetylase activity could reinstate p53 tumor surveillance. The axis also intersects with [[Aging]], as accumulating epigenetic drift in *HIC1* may bias tissues toward a pro-survival, pre-neoplastic state.
 
 ## Documents
+
+- [[_document_ - Sirtuins at a glance|Sirtuins at a Glance (Nakagawa & Guarente 2011)]]
+  - *J. Cell Sci.* Cell Science at a Glance: SIRT1 across chromatin, metabolism, inflammation, cardiovascular, cancer and brain; NAD+ biosynthesis/circadian regulation via NAMPT.
 
 List of documents that mention this entity
 

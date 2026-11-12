@@ -31,8 +31,8 @@ import { registerModal, openModal, closeModal, isModalOpen } from './modal.js';
 // still resolve — see getArticle's fallback ladder — so URLs shared before
 // this change keep opening. Entity notes are published to the website
 // as a capped wiki registry (wiki.json — the top `--wiki-limit` notes by a
-// recency + graph-centrality score, plus every note that has a zh-TW
-// translation, emitted by readme-counts).
+// recency + graph-centrality score, plus every note with a zh-TW translation
+// or touched within --wiki-recent-days, emitted by readme-counts).
 // The source tabs (#reader-source) switch the dropdown between the three
 // registries; task and wiki options are grouped by recency of their
 // `updated` date (this week / this month / older).

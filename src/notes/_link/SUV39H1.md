@@ -2,7 +2,7 @@
 title: SUV39H1
 description: Suppressor of variegation 3-9 homolog 1 (KMT1A), the H3K9 trimethyltransferase whose senescence-associated decline licenses H3K9 demethylation and SASP expression.
 created: 2026-07-09
-updated: 2026-07-09
+updated: 2026-11-10
 tags:
   - enzyme
   - epigenetics
@@ -39,6 +39,10 @@ The review places SUV39H1 on the H3K9 methylation axis governing SASP. Loss of H
 ## Therapeutic Relevance
 
 Pharmacologic inhibition of H3K9 methylation (e.g., SUV39H1/SETDB1 inhibitors such as chaetocin) is explored in oncology. Conversely, restoring SUV39H1 activity could be a [[Senomorphic|senomorphic]] strategy to re-impose H3K9 repression at SASP loci. The KDM4 inhibitor TACH101 is in a Phase 1 trial for advanced cancer (NCT05076552) and is noted in the review as a candidate senomorphic repurposing target.
+
+## SIRT1 regulation (Lys266)
+
+[[SIRT1]] binds [[SUV39H1]] and upregulates its methyltransferase activity by deacetylating Lys266 in the SET domain; SIRT1-deficient epithelial cells show H3K9 hypomethylation (via " + DOC + ").
 
 ## Documents
 

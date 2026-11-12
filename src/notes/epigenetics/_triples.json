@@ -10778,5 +10778,33 @@
     "source_document": "_document_ - This method to reverse cellular aging is about to be tested in humans.md",
     "created": "2026-09-04T18:02:52Z",
     "updated": "2026-09-29T18:36:32Z"
+  },
+  {
+    "id": "4df8a564c4dd",
+    "subject": "Bromodomain",
+    "predicate": "binds",
+    "object": "Histone Acetylation",
+    "context": {
+      "en-US": "A bromodomain is a conserved roughly 110-residue module that binds epsilon-N-acetylated lysine residues through a four-helix bundle whose hydrophobic pocket is lined by an asparagine ladder. It is the reader tier of the writer–reader–eraser system: HATs write acetyl marks, bromodomain proteins read them to recruit transcription factors, Mediator and elongation machinery, and HDACs or sirtuins erase them.",
+      "zh-TW": "Bromodomain 結合 Histone Acetylation：Bromodomain 是約 110 個胺基酸的保守模組，以四螺旋束的疏水口袋（由 asparagine ladder 構成）結合 epsilon-N-乙醯化離胺酸。它是 writer–reader–eraser 系統的 reader 層：HAT 寫入乙醯標記，含 Bromodomain 的蛋白讀取並招募轉錄因子、Mediator 與延伸機器，HDAC 或 Sirtuins 則予以抹除。"
+    },
+    "confidence": 0.9,
+    "source_document": "Bromodomain.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "9410a10c48be",
+    "subject": "Coactivator",
+    "predicate": "amplifies",
+    "object": "Transcription",
+    "context": {
+      "en-US": "A coactivator binds DNA-bound transcription factors and amplifies their output without contacting DNA itself, carrying histone acetyltransferase or scaffolding activity that recruits Mediator and basal transcription machinery. Coactivators such as p300/CBP, PGC-1alpha and the SRC/p160 family are large multi-domain scaffolds where hormone, stress and nutrient signalling pathways converge on transcription.",
+      "zh-TW": "Coactivator 放大 Transcription：Coactivator 結合已與 DNA 結合的轉錄因子，在不直接接觸 DNA 的情況下放大其輸出，並帶有組織蛋白乙醯轉移酶或支架活性，招募 Mediator 與基礎轉錄機器。P300/CBP、PGC-1alpha、SRC/p160 家族等 Coactivator 為大型多結構域支架，是荷爾蒙、壓力與養分訊號路徑匯聚至 Transcription 之處。"
+    },
+    "confidence": 0.9,
+    "source_document": "Coactivator.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
   }
 ]

@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eryptosis — Excess Death Signalling, Under-Clearance, and the Adrenochrome Crossover</title>
+<meta name="description" content="Evidence-graded synthesis of eryptosis, the Ca2+-driven phosphatidylserine-executed regulated death of mature erythrocytes: the mechanistic core, the unquantified normal eryptotic fraction with measured phosphatidylserine-positive fractions across disease contexts, the two failure modes — accelerated eryptosis (anemia with ESA hypo-responsiveness, PS-mediated thrombin generation, endothelial adhesion and ferroptotic uptake, microcirculatory impairment) and insufficient eryptosis/under-clearance (hemolysis cascade, persistent procoagulant PS-positive cells, lost Plasmodium clearance) — the mechanistic but undemonstrated adrenochrome crossover, and the longevity positioning.">
+<link rel="canonical" href="https://graph.johnnykuo.com/pages/en-US/eryptosis-evidence-synthesis.html">
+<link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/eryptosis-evidence-synthesis.html">
+<link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/eryptosis-evidence-synthesis.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🩸</text></svg>">
+<link rel="stylesheet" href="../themes/theme-01/pages.css">
+<link rel="stylesheet" href="../themes/theme-01/pages-light.css" id="theme-light">
+<link rel="stylesheet" href="../themes/theme-01/pages-article.css">
+<link rel="stylesheet" href="../themes/theme-01/pages-gallery.css">
+<script src="../themes/theme-01/page-theme.js"></script>
+<script src="../themes/shared/nav-auto-hide.js"></script>
+<style>
+  /* page-specific only — shared components live in themes/theme-01/ */
+  #disease .tbl-wrap{ --tbl-col-1:"Context"; --tbl-col-2:"Finding"; --tbl-col-3:"Tier"; }
+  #nodes .tbl-wrap{ --tbl-col-1:"Node"; --tbl-col-2:"Adrenochrome arm"; --tbl-col-3:"Eryptosis arm"; --tbl-col-4:"Evidence"; }
+  a.wikilink{ color:var(--teal); }
+  .tier{ font-family:var(--mono); font-size:.72rem; border:1px solid currentColor; border-radius:3px; padding:0 5px; white-space:nowrap; }
+  .anim-frame{ width:100%; max-width:860px; aspect-ratio:16/10; height:auto; margin-inline:auto; border:1px solid var(--line); border-radius:14px; background:#141210; display:block; }
+  @media (max-width:640px){ .anim-frame{ max-width:100%; aspect-ratio:4/3; } }
+  .t4{ color:var(--blue); } .t3{ color:var(--purple); } .t2{ color:var(--teal); } .t5{ color:var(--red); }
+</style>
+</head>
+<body style="--wrap-width:1200px;">
+
+<nav>
+  <div class="wrap">
+    <a id="back-home" class="back-home" href="../index.html" title="Back to articles index">&#8592; Back</a>
+    <a class="n" href="#core">Mechanistic core</a>
+    <a class="n" href="#fraction">Turnover</a>
+    <a class="n" href="#excess">Excess</a>
+    <a class="n" href="#under">Under-clearance</a>
+    <a class="n" href="#adrenochrome">Adrenochrome</a>
+    <a class="n" href="#longevity">Longevity</a>
+    <a class="n" href="#gaps">Evidence limits</a>
+    <a class="n" href="#sources">Sources</a>
+  </div>
+</nav>
+
+<header>
+  <div class="wrap">
+    <div class="kicker">Eryptosis · Regulated erythrocyte death · Evidence synthesis · 2026</div>
+    <h1>Eryptosis — excess death signalling, under-clearance, and the adrenochrome crossover</h1>
+    <p class="lead" style="margin-top:14px;">
+      Mature erythrocytes are anucleate and organelle-free and cannot execute mitochondrial apoptosis.
+      <b style="color:var(--text)">Eryptosis</b> is their regulated death: Ca²⁺ entry through cation channels activates the
+      Gardos channel (KCNN4), scramblase, and calpain; phosphatidylserine (PS) is externalized; and the PS-positive
+      cell is removed by efferocytosis within minutes, before it lyses. This page covers the signalling core, the
+      quantified and unquantified shares of erythrocyte turnover, and the two failure modes of the system —
+      <b style="color:var(--text)">excess eryptosis</b> (anemia with erythropoiesis-stimulating-agent hypo-responsiveness,
+      PS-driven thrombin generation, endothelial adhesion with ferroptotic endothelial uptake, microcirculatory
+      impairment) and <b style="color:var(--text)">insufficient eryptosis / under-clearance</b> (the hemolysis cascade,
+      persistent procoagulant PS-positive cells, lost <i>Plasmodium</i> clearance). It closes with the adrenochrome
+      crossover — erythrocytes convert adrenaline to aminochromes and are simultaneously a reducing sink and an
+      oxidative target of the same chemistry — and the resulting position for longevity research.
+      Evidence tiers: <span class="tier t2">Tier 2</span> human cohort · <span class="tier t3">Tier 3</span> rodent/in-vivo ·
+      <span class="tier t4">Tier 4</span> in-vitro/ex-vivo human cells · <span class="tier t5">Tier 5</span> hypothesis.
+      No Tier 1 evidence exists for eryptosis modulation as an intervention.
+    </p>
+    <div class="meta">
+      Sources: vault task outputs
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_eryptosis_excess_and_under_clearance_04_Nov_2026.md" target="_blank" rel="noopener noreferrer"><code>eryptosis — excess and under-clearance (04 Nov 2026)</code></a>,
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_adrenochrome_eryptosis_crossover_04_Nov_2026.md" target="_blank" rel="noopener noreferrer"><code>adrenochrome–eryptosis crossover (04 Nov 2026)</code></a>
+      · key literature: Tkachenko et al., <i>Cell Death Dis</i> 2025 · Lang et al., <i>Kidney Blood Press Res</i> 2017 · Bissinger et al., <i>FEBS J</i> 2019 · Borst et al., <i>Am J Physiol Cell Physiol</i> 2012 (full list in <a href="#sources">Sources</a>)
+      · companion page: <a href="eryptosis.html">Eryptosis — three.js animation</a>
+    </div>
+    <div class="pill-row">
+      <a class="badge teal" href="#core">Ca²⁺ → Gardos · scramblase · calpain</a>
+      <a class="badge" href="#fraction">normal eryptotic fraction: not quantified</a>
+      <a class="badge red" href="#excess">excess → anemia · thrombogenicity · endothelial injury</a>
+      <a class="badge amber" href="#under">under-clearance → hemolysis · persistent PS⁺ cells</a>
+      <a class="badge" href="#adrenochrome">adrenochrome crossover: mechanistic, undemonstrated</a>
+      <a class="badge speculative" href="#gaps">no human RCT · all interventions preclinical</a>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <!-- ==================== CORE ==================== -->
+  <section id="core">
+    <h2>Mechanistic core — one ion, three execution arms</h2>
+    <p>
+      Eryptosis is defined by Ca²⁺-dependent execution in a cell that has no ER and no mitochondrial store, so
+      extracellular Ca²⁺ entry is the initiating signal rather than a MOMP amplifier. Oxidative stress, osmotic
+      shock, Cl⁻ depletion, energy depletion, ceramide, and uremic toxins open non-selective cation channels
+      (TRPC6 in human erythrocytes; TRPC4/5 in mouse; also PIEZO1, NMDA- and AMPA-type glutamate receptors,
+      Cav2.1). Cytosolic Ca²⁺ then runs three parallel arms: activation of the Gardos channel (KCNN4) with
+      K⁺/Cl⁻/water efflux and cell shrinkage; inhibition of flippase with activation of scramblase and
+      phosphatidylserine externalization; and calpain-mediated cytoskeletal proteolysis with blebbing and
+      microvesicle shedding. Regulation is exclusively post-translational — no transcriptional layer exists.
+      Kinase polarity is cell-type-set: PKC, CK1α, JAK3, p38 MAPK and CDK4 promote eryptosis here although several
+      are canonically anti-apoptotic, while AMPK, cGKI, PAK2, MSK1/2 and PDK1 restrain it. The principal brakes are
+      the NO → soluble guanylate cyclase → cGMP → cGKI axis, AMPK, and N-acetylcysteine; erythropoietin is
+      bidirectional — acutely inhibitory, but sustained high EPO increases the eryptosis-prone fraction
+      (Tier 2 cohort / Tier 4).
+    </p>
+
+    <figure class="fig">
+      <div class="fig-canvas">
+        <svg viewBox="0 0 1000 624" role="img" aria-labelledby="coreTitle">
+          <title id="coreTitle">Eryptosis execution cascade — triggers open cation channels, Ca2+ drives Gardos-mediated shrinkage, scramblase-mediated PS exposure and calpain-mediated blebbing, PS-positive cells are efferocytosed within minutes; saturated or failed clearance routes to hemolysis</title>
+          <defs>
+            <marker id="cArr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,1 L9,5 L0,9 z" class="s-dim"/>
+            </marker>
+            <marker id="cArrT" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,1 L9,5 L0,9 z" class="s-teal"/>
+            </marker>
+            <marker id="cArrR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,1 L9,5 L0,9 z" class="s-red"/>
+            </marker>
+            <marker id="cBlunt" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+              <path d="M9,1 L1,5 L9,9 z" class="s-teal"/>
+            </marker>
+          </defs>
+
+          <!-- triggers -->
+          <rect x="20" y="24" width="250" height="206" rx="12" class="panel-f stroke-line" fill-opacity="0.55"/>
+          <text x="145" y="50" text-anchor="middle" font-size="13.5" font-weight="700" class="s-amber">TRIGGERS</text>
+          <text x="145" y="74" text-anchor="middle" font-size="10.5" class="s-text">oxidative stress (ROS, H₂O₂)</text>
+          <text x="145" y="94" text-anchor="middle" font-size="10.5" class="s-text">energy depletion → PKCα</text>
+          <text x="145" y="114" text-anchor="middle" font-size="10.5" class="s-text">osmotic / Cl⁻ depletion → PGE₂</text>
+          <text x="145" y="134" text-anchor="middle" font-size="10.5" class="s-text">uremic toxins (CKD/ESRD)</text>
+          <text x="145" y="154" text-anchor="middle" font-size="10.5" class="s-text">ceramide / sphingomyelinase</text>
+          <text x="145" y="174" text-anchor="middle" font-size="10.5" class="s-text">xenobiotics: cisplatin, sorafenib,</text>
+          <text x="145" y="192" text-anchor="middle" font-size="10.5" class="s-text">sunitinib, tamoxifen, lead</text>
+          <text x="145" y="216" text-anchor="middle" font-size="10" class="s-mute">G6PD deficiency, HbS, thalassemia</text>
+
+          <!-- brakes -->
+          <rect x="20" y="272" width="250" height="128" rx="12" class="teal-f" fill-opacity="0.10"/>
+          <rect x="20" y="272" width="250" height="128" rx="12" class="stroke-line2" fill="none"/>
+          <text x="145" y="298" text-anchor="middle" font-size="13.5" font-weight="700" class="s-teal">BRAKES</text>
+          <text x="145" y="322" text-anchor="middle" font-size="10.5" class="s-text">NO → sGC → cGMP → cGKI</text>
+          <text x="145" y="342" text-anchor="middle" font-size="10.5" class="s-text">AMPK · PAK2 · MSK1/2 · PDK1</text>
+          <text x="145" y="362" text-anchor="middle" font-size="10.5" class="s-text">N-acetylcysteine (GSH support)</text>
+          <text x="145" y="384" text-anchor="middle" font-size="10" class="s-mute">EPO: acute −, chronic + (bidirectional)</text>
+
+          <!-- channels -->
+          <rect x="330" y="40" width="200" height="96" rx="12" class="panel-f stroke-line" fill-opacity="0.55"/>
+          <text x="430" y="66" text-anchor="middle" font-size="13" font-weight="700" class="s-blue">CATION CHANNELS</text>
+          <text x="430" y="88" text-anchor="middle" font-size="10.5" class="s-text">TRPC6 · PIEZO1</text>
+          <text x="430" y="106" text-anchor="middle" font-size="10.5" class="s-text">NMDA/AMPA-R · Cav2.1</text>
+          <text x="430" y="124" text-anchor="middle" font-size="10" class="s-mute">non-selective entry</text>
+
+          <!-- Ca hub -->
+          <rect x="330" y="180" width="200" height="72" rx="12" class="blue-f" fill-opacity="0.13"/>
+          <rect x="330" y="180" width="200" height="72" rx="12" class="stroke-line2" fill="none"/>
+          <text x="430" y="210" text-anchor="middle" font-size="14" font-weight="700" class="s-blue">CYTOSOLIC Ca²⁺ ↑</text>
+          <text x="430" y="232" text-anchor="middle" font-size="10" class="s-mute">no ER, no mitochondrion — entry only</text>
+
+          <!-- execution arms -->
+          <rect x="590" y="24" width="390" height="100" rx="12" class="panel-f stroke-line" fill-opacity="0.55"/>
+          <text x="785" y="50" text-anchor="middle" font-size="13" font-weight="700" class="s-purple">Gardos channel (KCNN4)</text>
+          <text x="785" y="72" text-anchor="middle" font-size="10.5" class="s-text">K⁺ efflux → hyperpolarization → Cl⁻ exit</text>
+          <text x="785" y="92" text-anchor="middle" font-size="10.5" class="s-text">KCl loss with osmotically obliged water</text>
+          <text x="785" y="112" text-anchor="middle" font-size="10.5" class="s-amber">cell shrinkage</text>
+
+          <rect x="590" y="150" width="390" height="100" rx="12" class="panel-f stroke-line" fill-opacity="0.55"/>
+          <text x="785" y="176" text-anchor="middle" font-size="13" font-weight="700" class="s-amber">Scramblase on · flippase off</text>
+          <text x="785" y="198" text-anchor="middle" font-size="10.5" class="s-text">phosphatidylserine → outer leaflet</text>
+          <text x="785" y="218" text-anchor="middle" font-size="10.5" class="s-text">"eat-me" signal · catalytic surface for</text>
+          <text x="785" y="238" text-anchor="middle" font-size="10.5" class="s-amber">prothrombinase assembly</text>
+
+          <rect x="590" y="276" width="390" height="100" rx="12" class="panel-f stroke-line" fill-opacity="0.55"/>
+          <text x="785" y="302" text-anchor="middle" font-size="13" font-weight="700" class="s-pink">Calpain-1</text>
+          <text x="785" y="324" text-anchor="middle" font-size="10.5" class="s-text">cytoskeletal proteolysis</text>
+          <text x="785" y="344" text-anchor="middle" font-size="10.5" class="s-text">membrane blebbing · microvesicle shedding</text>
+          <text x="785" y="364" text-anchor="middle" font-size="10" class="s-mute">caveat: calpain-1-null mice, normal RBC lifespan (Tier 3)</text>
+
+          <!-- efferocytosis -->
+          <rect x="590" y="404" width="390" height="96" rx="12" class="teal-f" fill-opacity="0.12"/>
+          <rect x="590" y="404" width="390" height="96" rx="12" class="stroke-line2" fill="none"/>
+          <text x="785" y="432" text-anchor="middle" font-size="13" font-weight="700" class="s-teal">EFFEROCYTOSIS — within minutes</text>
+          <text x="785" y="454" text-anchor="middle" font-size="10.5" class="s-text">macrophage / Kupffer-cell uptake (stabilin-1/2)</text>
+          <text x="785" y="474" text-anchor="middle" font-size="10.5" class="s-text">pro-resolving: HO-1 ↑ · IL-1β / TNF-α ↓</text>
+          <text x="785" y="492" text-anchor="middle" font-size="10" class="s-mute">senescent-antigen route: days · non-lytic, membrane intact</text>
+
+          <!-- hemolysis alternative -->
+          <rect x="330" y="528" width="650" height="84" rx="12" class="red-f" fill-opacity="0.10"/>
+          <rect x="330" y="528" width="650" height="84" rx="12" class="stroke-line" fill="none" stroke-dasharray="6 4"/>
+          <text x="655" y="554" text-anchor="middle" font-size="13" font-weight="700" class="s-red">HEMOLYSIS — the accidental alternative (clearance saturated or signalling failed)</text>
+          <text x="655" y="576" text-anchor="middle" font-size="10.5" class="s-text">Hb / heme / ATP / IL-33 / HSP70 release → NO scavenging · TLR4/NF-κB · NETs · complement · NLRP3</text>
+          <text x="655" y="596" text-anchor="middle" font-size="10" class="s-mute">when caspase-8 is off, the lytic regulated alternative is erythronecroptosis (RIPK1/3/MLKL)</text>
+
+          <!-- arrows -->
+          <path d="M270,110 L324,96" class="stroke-line2" fill="none" marker-end="url(#cArr)" stroke-width="1.6"/>
+          <path d="M430,136 L430,174" class="stroke-line2" fill="none" marker-end="url(#cArr)" stroke-width="1.6"/>
+          <path d="M530,216 L584,88" class="stroke-line2" fill="none" marker-end="url(#cArr)" stroke-width="1.6"/>
+          <path d="M536,216 L584,200" class="stroke-line2" fill="none" marker-end="url(#cArr)" stroke-width="1.6"/>
+          <path d="M530,216 L584,312" class="stroke-line2" fill="none" marker-end="url(#cArr)" stroke-width="1.6"/>
+          <path d="M785,250 L785,398" class="stroke-line2" fill="none" marker-end="url(#cArrT)" stroke-width="1.6"/>
+          <text x="797" y="372" font-size="10" class="s-teal">PS⁺ cell cleared</text>
+          <!-- brakes inhibit -->
+          <path d="M270,320 L368,136" class="stroke-line2" fill="none" marker-end="url(#cBlunt)" stroke-width="1.6" stroke-dasharray="5 4"/>
+          <text x="300" y="252" font-size="10" class="s-teal">inhibit</text>
+          <!-- saturation -->
+          <path d="M940,428 L972,428 L972,570" class="stroke-line2" fill="none" marker-end="url(#cArrR)" stroke-width="1.6" stroke-dasharray="5 4"/>
+          <text x="848" y="518" font-size="10" class="s-red">if clearance is saturated → lysis</text>
+        </svg>
+      </div>
+      <figcaption class="fig-cap"><b>Figure 1 — The eryptosis execution cascade.</b>
+        Triggers converge on non-selective cation entry; cytosolic Ca²⁺ drives shrinkage (Gardos/KCNN4), PS exposure
+        (scramblase on, flippase off) and blebbing (calpain-1) in parallel. PS-positive cells are removed by
+        efferocytosis within minutes — the anti-inflammatory, non-lytic disposal route. When clearance is saturated or
+        death signalling fails before execution, the same damaged cell lyses instead, releasing Hb, heme and DAMPs.
+        After Tkachenko et al. 2025 (Tier 4 signalling; Tier 3 for mouse knockouts).
+      </figcaption>
+    </figure>
+
+    <figure class="fig">
+      <iframe class="anim-frame" src="eryptosis.html?embed=1" title="Interactive three.js model — eryptosis in the mature erythrocyte (triggers, Ca2+ hub, PS exposure)" loading="lazy"></iframe>
+      <figcaption class="fig-cap"><b>Figure 2 — The same cascade as an interactive three.js model.</b>
+        Drag to orbit, scroll to zoom; chips isolate the trigger, Ca²⁺-hub and PS-exposure layers; click a blob
+        for mechanism; scrub the meter for biological time (T+, hours). Interactive counterpart of Figure 1 —
+        Figure 1 remains the printable static form. Standalone page: <a href="eryptosis.html">Eryptosis — three.js animation</a>.
+      </figcaption>
+    </figure>
+
+    <div class="callout teal">
+      <span class="callout-tag">The physiological rationale</span>
+      <p>
+        Eryptosis is a quality-control clearance arm: it removes compromised erythrocytes — including
+        <i>Plasmodium falciparum</i>-infected cells — <b>before</b> they lyse. PS externalization and macrophage uptake
+        are anti-inflammatory (HO-1 up-regulation, cytokine suppression); hemolysis is the pro-inflammatory accident
+        whose prevention by prior eryptotic clearance is the principal physiological justification for the program.
+        Host defence bounds how far suppression can go: G6PD deficiency, sickle trait and thalassemia trait confer
+        partial malarial protection precisely by lowering the eryptotic threshold (Tier 2).
+      </p>
+    </div>
+  </section>
+
+  <!-- ==================== FRACTION ==================== -->
+  <section id="fraction">
+    <h2>What fraction of erythrocytes die by this route — not quantified</h2>
+    <p>
+      A normal-population eryptotic fraction is <b>not quantified</b> in the literature and should not be cited as one.
+      What is established: erythrocyte lifespan is ≈ 120 days, so turnover is ≈ 1% of red-cell mass per day
+      (commonly reported as ~2–3 × 10⁶ cells · s⁻¹); eryptotic removal is the stressed-cell subset of this flux,
+      and the split between eryptotic clearance and senescent-antigen/IgG clearance at steady state is unpublished.
+      Baseline PS exposure in reference cohorts is ≈ 0.5–0.6% of erythrocytes — and this is not an eryptosis-specific
+      assay, since annexin V binding also marks other membrane states. Aged cells are more eryptosis-prone, and
+      PS-positive senescent cells are by convention scored as eryptotic (Tkachenko 2025).
+    </p>
+    <p>
+      What disease does to the measured fraction is quantified in several contexts, with an important caveat:
+      the numbers below come from different markers (annexin V, lactadherin), antibodies and flow-cytometry
+      protocols, so <b>between-study comparison is assay-dependent</b>. Within studies — same marker, same protocol —
+      the contrasts are informative.
+    </p>
+
+    <figure class="fig">
+      <div class="fig-canvas">
+        <svg viewBox="0 0 1000 560" role="img" aria-labelledby="fracTitle">
+          <title id="fracTitle">Phosphatidylserine-positive erythrocyte fraction in control versus exposed populations — lead exposure, appendicitis, hemodialysis session, and uremia</title>
+          <!-- axis -->
+          <line x1="200" y1="24" x2="200" y2="500" class="stroke-line2"/>
+          <!-- reference band ~0.5-0.6% -->
+          <line x1="318" y1="24" x2="318" y2="500" class="stroke-line" stroke-dasharray="4 4"/>
+          <text x="326" y="40" font-size="10" class="s-mute">reference cohorts ≈ 0.5–0.6%</text>
+          <!-- ticks -->
+          <text x="200" y="522" text-anchor="middle" font-size="10.5" class="s-mute">0%</text>
+          <text x="414" y="522" text-anchor="middle" font-size="10.5" class="s-mute">1%</text>
+          <text x="629" y="522" text-anchor="middle" font-size="10.5" class="s-mute">2%</text>
+          <text x="843" y="522" text-anchor="middle" font-size="10.5" class="s-mute">3%</text>
+          <line x1="414" y1="496" x2="414" y2="500" class="stroke-line2"/>
+          <line x1="629" y1="496" x2="629" y2="500" class="stroke-line2"/>
+          <line x1="843" y1="496" x2="843" y2="500" class="stroke-line2"/>
+          <line x1="200" y1="500" x2="960" y2="500" class="stroke-line2"/>
+          <text x="580" y="546" text-anchor="middle" font-size="11" class="s-mute">PS-positive erythrocytes (%) — annexin V flow cytometry unless noted</text>
+
+          <!-- study 1: lead -->
+          <text x="188" y="62" text-anchor="end" font-size="12" font-weight="700" class="s-text">Occupational lead exposure</text>
+          <text x="188" y="78" text-anchor="end" font-size="9.5" class="s-mute">control vs exposed workers</text>
+          <rect x="200" y="44" width="21" height="28" class="blue-f" fill-opacity="0.55"/>
+          <text x="228" y="63" font-size="10.5" class="s-blue">0.10%</text>
+          <rect x="200" y="80" width="604" height="28" class="red-f" fill-opacity="0.65"/>
+          <text x="812" y="99" font-size="10.5" font-weight="700" class="s-red">2.82%</text>
+
+          <!-- study 2: appendicitis -->
+          <text x="188" y="172" text-anchor="end" font-size="12" font-weight="700" class="s-text">Appendicitis (CRP-driven)</text>
+          <text x="188" y="188" text-anchor="end" font-size="9.5" class="s-mute">healthy volunteers vs patients</text>
+          <rect x="200" y="154" width="174" height="28" class="blue-f" fill-opacity="0.55"/>
+          <text x="381" y="173" font-size="10.5" class="s-blue">0.81%</text>
+          <rect x="200" y="190" width="392" height="28" class="red-f" fill-opacity="0.65"/>
+          <text x="599" y="209" font-size="10.5" font-weight="700" class="s-red">1.83%</text>
+
+          <!-- study 3: HD session -->
+          <text x="188" y="282" text-anchor="end" font-size="12" font-weight="700" class="s-text">Hemodialysis session (Abed)</text>
+          <text x="188" y="298" text-anchor="end" font-size="9.5" class="s-mute">same patients, pre- vs post-dialysis</text>
+          <rect x="200" y="264" width="180" height="28" class="blue-f" fill-opacity="0.55"/>
+          <text x="387" y="283" font-size="10.5" class="s-blue">0.84%</text>
+          <rect x="200" y="300" width="290" height="28" class="red-f" fill-opacity="0.65"/>
+          <text x="497" y="319" font-size="10.5" font-weight="700" class="s-red">1.35%</text>
+
+          <!-- study 4: uremia -->
+          <text x="188" y="392" text-anchor="end" font-size="12" font-weight="700" class="s-text">Uremia (Bonomini)</text>
+          <text x="188" y="408" text-anchor="end" font-size="9.5" class="s-mute">healthy controls vs HD patients</text>
+          <rect x="200" y="374" width="146" height="28" class="blue-f" fill-opacity="0.55"/>
+          <text x="353" y="393" font-size="10.5" class="s-blue">0.68%</text>
+          <rect x="200" y="410" width="664" height="28" class="red-f" fill-opacity="0.65"/>
+          <text x="871" y="429" font-size="10.5" font-weight="700" class="s-red">3.10%</text>
+        </svg>
+      </div>
+      <figcaption class="fig-cap"><b>Figure 3 — Measured PS-positive fractions rise two- to ten-fold under oxidative, inflammatory and uremic load.</b>
+        Data: lead-exposed workers (occupational capture); appendicitis cohort with plasma-borne CRP effect; pre- vs
+        post-dialysis in the same patients (Abed et al.); hemodialysis patients vs healthy controls (Bonomini et al.,
+        reversible on plasma replacement). The dashed line marks the ≈0.5–0.6% baseline of reference cohorts. Caveats:
+        between-study values are not directly comparable (marker and protocol differences — lactadherin vs annexin V
+        give discordant results); annexin V positivity is not eryptosis-specific. Tiers 2–4.
+      </figcaption>
+    </figure>
+
+    <div class="callout">
+      <span class="callout-tag">Quantification limits</span>
+      <p>
+        Three limits bound every downstream claim. First, <b>no eryptosis-specific marker exists</b> — assay
+        standardization is an active recommendation of Tkachenko 2025. Second, PS-positive cells are cleared within
+        minutes, so steady-state blood sampling undercounts the eryptotic flux; the measured fraction is a lower
+        bound on activity. Third, eryptosis correlates with MPO (ρ = 0.77, p = 0.01), IL-6 (ρ = 0.52, p = 0.05) and
+        eGFR stratum (p &lt; 0.001) in CKD cohorts (Clementi 2022) — these are associations, with confounding by
+        uremia, inflammation and ESA dose rarely fully adjusted (Tier 2).
+      </p>
+    </div>
+  </section>
+
+  <!-- ==================== EXCESS ==================== -->
+  <section id="excess">
+    <h2>Failure mode 1 — excess eryptosis converts protection into pathology</h2>
+    <p>
+      When oxidative, uremic or inflammatory load drives eryptosis faster than compensatory erythropoiesis and
+      clearance can absorb, the quality-control program becomes a disease mechanism. Four consequence classes are
+      documented.
+    </p>
+
+    <h3>Anemia and ESA hypo-responsiveness</h3>
+    <p>
+      In CKD/ESRD, erythrocyte lifespan shortens from ≈ 120 days to <b>60–90 days</b> (Deng 2025); anemia prevalence
+      rises with CKD stage and exceeds 90% of dialysis patients, and ESA/iron correction is suboptimal in roughly
+      half of treated patients — eryptosis is one component of this hypo-responsiveness (Lang 2017). Anemia sequelae
+      reported in association cohorts include impaired quality of life, cardiovascular complications, disease
+      progression, cognitive impairment and higher mortality (Bissinger 2019) — associational, not causal (Tier 2).
+      Eryptosis contributes to the anemia of chronic disease across cancer (cisplatin, topotecan, tamoxifen,
+      sorafenib, sunitinib are pro-eryptotic), heart failure, hepatic failure, sepsis and malaria.
+    </p>
+
+    <h3>PS-mediated procoagulant activity</h3>
+    <p>
+      Externalized PS is the catalytic surface for prothrombinase assembly; in some pathological conditions
+      erythrocytes contribute up to <b>~40% of thrombin generation</b> (Tkachenko 2025; report). RBC-derived
+      microvesicles trigger thrombin generation via factor XII — the contact pathway, tissue-factor-independent
+      (van der Meijden 2012). PS-exposing cells bind platelets (CD36) and endothelium via CXCL16/SR-PSOX and
+      thrombospondin-1, with adhesion demonstrated ex vivo under arterial shear and attenuation by annexin V or
+      CXCL16 blockade (Borst 2012). In cirrhosis, PS on blood and endothelial cells shortens coagulation time
+      (Wu 2016).
+    </p>
+
+    <h3>Endothelial dysfunction and a two-compartment inflammatory split</h3>
+    <p>
+      Eryptotic cells adhere to endothelium via PS/CXCL16 and are subsequently <b>internalised by endothelial cells
+      with induction of endothelial ferroptosis</b> (Tkachenko 2026; Tier 4→3, human outcome data absent). The
+      macrophage compartment responds oppositely: efferocytosis of eryptotic cells reprograms macrophages toward a
+      pro-resolving phenotype (HO-1-dependent, demonstrated in intracerebral hemorrhage models, Tier 3). The same PS
+      signal is therefore pro-injury at the endothelium and pro-resolution in the immune compartment; the net
+      in-vivo sign is untested in humans.
+    </p>
+
+    <h3>Microcirculatory impairment and a feed-forward loop</h3>
+    <p>
+      Adhesion produces microaggregates and reduced capillary flow, documented in sickle cell disease and diabetes
+      and implicated in hemolytic uremic syndrome; in ESRD the risk is amplified when ESA dosing is forced to high
+      targets (Lang 2017). Mechanistically the arms form a loop: oxidative stress / uremic toxins / energy depletion
+      → cation-channel opening → Ca²⁺ → PS exposure → accelerated clearance → anemia → hypoxia and ESA escalation →
+      more eryptosis-prone cells, while PS-mediated adhesion → microvascular compromise → local hypoxia → further
+      channel activation. Each link is individually reported; <b>the end-to-end loop is not experimentally closed in
+      humans</b> — it is a mechanistic description, not a clinical entity (Tier 4/2 links).
+    </p>
+
+    <div class="tbl-wrap" style="margin-top:18px;" id="disease">
+      <table class="tbl-fixed">
+        <thead>
+          <tr>
+            <th style="width:24%;">Context</th>
+            <th style="width:64%;">Finding</th>
+            <th style="width:12%;">Tier</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><b>CKD / ESRD</b></td><td>Accelerated eryptosis across predialysis, HD and PD; eGFR-stratified (p &lt; 0.001); RBC lifespan 60–90 d; ESA-hypo-responsiveness component; correlates with MPO, IL-6, hypoalbuminemia, high ferritin/PTH</td><td><span class="tier t2">2</span></td></tr>
+          <tr><td><b>Diabetes / metabolic syndrome</b></td><td>Increased PS⁺ fraction (T1DM, T2DM, methylglyoxal); procoagulant micro- and macrovascular phenotype</td><td><span class="tier t4">4</span>–<span class="tier t2">2</span></td></tr>
+          <tr><td><b>Cardiovascular</b> (aortic stenosis, IHD, heart failure)</td><td>Anemia via turnover; PS thrombogenicity; heart-failure erythrocyte redox abnormality</td><td><span class="tier t2">2</span>–<span class="tier t3">3</span></td></tr>
+          <tr><td><b>Hepatic failure / cirrhosis</b></td><td>Anemia plus shortened coagulation time; bilirubin–ceramide vicious cycle</td><td><span class="tier t2">2</span>–<span class="tier t4">4</span></td></tr>
+          <tr><td><b>Sepsis</b></td><td>Septic plasma induces eryptosis within &lt; 15 min; correlation with endotoxin activity, IL-6, MPO; proposed severity biomarker</td><td><span class="tier t4">4</span>–<span class="tier t2">2</span></td></tr>
+          <tr><td><b>Cancer + chemotherapy</b></td><td>Turnover-driven anemia; platinum agents, tamoxifen pro-eryptotic; MDS-associated thrombosis</td><td><span class="tier t2">2</span></td></tr>
+          <tr><td><b>Hemolytic uremic syndrome</b></td><td>Patient plasma triggers eryptosis; complement C5/C8-dependent</td><td><span class="tier t2">2</span>–<span class="tier t4">4</span></td></tr>
+          <tr><td><b>Inherited disorders</b></td><td>Sickle cell, thalassemia, G6PD deficiency, spherocytosis, Wilson disease — lowered eryptotic threshold (protective in malaria, pathogenic under oxidative load)</td><td><span class="tier t2">2</span></td></tr>
+          <tr><td><b>Long COVID</b></td><td>Microclot–oxidative stress–eryptosis–microcirculatory failure chain</td><td><span class="tier t5">5</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ==================== UNDER ==================== -->
+  <section id="under">
+    <h2>Failure mode 2 — insufficient eryptosis and under-clearance</h2>
+    <p>
+      Two distinct deficits are often conflated and must be separated. <b>Insufficient death signalling</b>:
+      damaged cells fail to initiate eryptosis, or the program is suppressed pharmacologically. <b>Under-clearance</b>:
+      eryptosis executes — PS exposure, shrinkage — but efferocytosis is saturated (massive synchronized cell death,
+      as after oxidant exposure) or impaired (Kupffer-cell dysfunction, stabilin-1/2 signalling defects, EV clearance
+      overload), so PS-positive cells remain in circulation. The documented consequences fall into two arms.
+    </p>
+
+    <h3>Damaged cells persist → the hemolysis cascade</h3>
+    <p>
+      Hemolysis releases Hb, heme, ATP, IL-33 and HSP70. Free Hb scavenges nitric oxide → vasoconstriction, platelet
+      activation, endothelial dysfunction. Free heme drives Fenton chemistry, TLR4/NF-κB endothelial activation,
+      TNF-α release, neutrophil extracellular trap formation, complement recruitment and NLRP3 inflammasome
+      activation, and heme-driven programmed death of endothelial and immune cells (necroptosis, HO-1-dependent
+      ferroptosis, pyroptosis). Renal filtering of released hemoproteins causes tubular injury; haptoglobin and
+      hemopexin buffering is saturable. This pathophysiology is well established in human disease — sickle cell,
+      thalassemia, transfusion reactions, mechanical valves (Tier 4/3; human disease physiology).
+    </p>
+
+    <h3>PS-positive cells persist → procoagulant and pro-adhesive burden</h3>
+    <p>
+      Eryptotic PS-positive cells do not clear locally: hepatic sinusoid stabilin-1/2 recognition and Kupffer-cell
+      uptake dominate (80% of RBC-derived vesicles removed within 5 min experimentally, Tier 3–4). If clearance is
+      saturated or impaired, the cells retain the procoagulant surface and CXCL16/CD36 adhesive phenotype described
+      above, so thrombotic and microcirculatory risk persists instead of resolving within minutes (Tier 4; direct
+      human outcome data absent). Transfusion of stored red-cell concentrates — which accumulate PS-positive
+      microvesicles and DAMP-carrying EVs — can prolong PS exposure in recipients; clinical consequences are
+      unquantified (Tier 3–4/2, storage-lesion association). CD47–SIRPα is the constitutive "don't-eat-me" brake;
+      pathological CD47 retention would delay clearance, but direct clinical correlates are unverified (Tier 5/4).
+    </p>
+
+    <h3>The host-defence cost of suppression</h3>
+    <p>
+      <i>Plasmodium</i>-infected erythrocytes depend on eryptosis for clearance; suppressing the program leaves
+      infected cells circulating. This is the principal in-vivo cost of anti-eryptotic therapy, alongside unresolved
+      interference with cytostatic tumour-cell apoptosis (Tier 3/2, epidemiology of the protective G6PD, sickle and
+      thalassemia traits). In hepatic failure the two failure modes coexist: bilirubin and bile-acid excess drives
+      erythrocyte Ca²⁺ influx and ceramide formation — more eryptosis, not less.
+    </p>
+
+    <div class="callout red">
+      <span class="callout-tag">Clinical status of the under-clearance arm</span>
+      <p>
+        A defined human "under-eryptosis" syndrome is <b>not established</b>. The failure mode manifests as hemolysis
+        (when cells lyse rather than being cleared) or, less often measured, as persistent PS-positive cells after
+        massive oxidative or uremic insult. No biomarker-based diagnostic threshold and no interventional trial exist.
+        Treat this arm as a mechanistic counterweight to the excess arm, not a recognized indication.
+      </p>
+    </div>
+
+    <figure class="fig">
+      <div class="fig-canvas">
+        <svg viewBox="0 0 1000 560" role="img" aria-labelledby="failTitle">
+          <title id="failTitle">Two failure modes of eryptotic quality control — excess death signalling and under-clearance converge on anemia and vascular dysfunction by different routes</title>
+          <defs>
+            <marker id="fArr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,1 L9,5 L0,9 z" class="s-dim"/>
+            </marker>
+          </defs>
+
+          <!-- center -->
+          <rect x="330" y="20" width="340" height="92" rx="14" class="teal-f" fill-opacity="0.13"/>
+          <rect x="330" y="20" width="340" height="92" rx="14" class="stroke-line2" fill="none"/>
+          <text x="500" y="52" text-anchor="middle" font-size="14.5" font-weight="700" class="s-teal">ERYPTOTIC QUALITY CONTROL</text>
+          <text x="500" y="76" text-anchor="middle" font-size="11" class="s-text">Ca²⁺ → PS externalization → efferocytosis</text>
+          <text x="500" y="96" text-anchor="middle" font-size="10" class="s-mute">non-lytic · anti-inflammatory · minutes</text>
+
+          <!-- excess panel -->
+          <rect x="20" y="150" width="450" height="330" rx="12" class="red-f" fill-opacity="0.08"/>
+          <rect x="20" y="150" width="450" height="330" rx="12" class="stroke-line" fill="none"/>
+          <text x="245" y="180" text-anchor="middle" font-size="13.5" font-weight="700" class="s-red">EXCESS — too much death signalling</text>
+          <text x="245" y="210" text-anchor="middle" font-size="10.5" class="s-text">anemia · RBC lifespan 120 → 60–90 d (CKD)</text>
+          <text x="245" y="230" text-anchor="middle" font-size="10.5" class="s-text">ESA hypo-responsiveness</text>
+          <text x="245" y="258" text-anchor="middle" font-size="10.5" class="s-text">PS⁺ surface → prothrombinase assembly</text>
+          <text x="245" y="278" text-anchor="middle" font-size="10.5" class="s-text">up to ~40% of thrombin generation (pathological)</text>
+          <text x="245" y="306" text-anchor="middle" font-size="10.5" class="s-text">CXCL16/SR-PSOX adhesion → endothelial uptake</text>
+          <text x="245" y="326" text-anchor="middle" font-size="10.5" class="s-text">→ endothelial ferroptosis</text>
+          <text x="245" y="354" text-anchor="middle" font-size="10.5" class="s-text">microaggregates → capillary flow compromise</text>
+          <text x="245" y="382" text-anchor="middle" font-size="10.5" class="s-text">pro-inflammatory skew at endothelium and in sepsis</text>
+          <text x="245" y="410" text-anchor="middle" font-size="10.5" class="s-text">EVs shed from eryptotic cells carry DAMPs</text>
+          <text x="245" y="448" text-anchor="middle" font-size="10" class="s-mute">documented: CKD/ESRD · diabetes · heart failure · cirrhosis · sepsis</text>
+
+          <!-- under panel -->
+          <rect x="530" y="150" width="450" height="330" rx="12" class="amber-f" fill-opacity="0.09"/>
+          <rect x="530" y="150" width="450" height="330" rx="12" class="stroke-line" fill="none"/>
+          <text x="755" y="180" text-anchor="middle" font-size="13.5" font-weight="700" class="s-amber">UNDER-CLEARANCE — too little, or too late</text>
+          <text x="755" y="210" text-anchor="middle" font-size="10.5" class="s-text">cells lyse instead → Hb / heme / ATP / IL-33 / HSP70</text>
+          <text x="755" y="230" text-anchor="middle" font-size="10.5" class="s-text">NO scavenging → vasoconstriction · platelet activation</text>
+          <text x="755" y="258" text-anchor="middle" font-size="10.5" class="s-text">heme → TLR4/NF-κB · NETs · complement · NLRP3</text>
+          <text x="755" y="278" text-anchor="middle" font-size="10.5" class="s-text">renal hemoprotein injury (haptoglobin saturable)</text>
+          <text x="755" y="306" text-anchor="middle" font-size="10.5" class="s-text">persistent PS⁺ cells → sustained procoagulant,</text>
+          <text x="755" y="326" text-anchor="middle" font-size="10.5" class="s-text">pro-adhesive burden without timely uptake</text>
+          <text x="755" y="354" text-anchor="middle" font-size="10.5" class="s-text">lost <tspan font-style="italic">Plasmodium</tspan>-infected cell clearance</text>
+          <text x="755" y="382" text-anchor="middle" font-size="10.5" class="s-text">transfusion storage lesion: PS⁺ EVs, DAMP-carrying MVs</text>
+          <text x="755" y="410" text-anchor="middle" font-size="10.5" class="s-text">CD47–SIRPα retention (hypothesis)</text>
+          <text x="755" y="448" text-anchor="middle" font-size="10" class="s-mute">no defined human syndrome · mechanistically supported</text>
+
+          <!-- arrows -->
+          <path d="M392,112 L300,146" class="stroke-line2" fill="none" marker-end="url(#fArr)" stroke-width="1.6"/>
+          <text x="300" y="136" font-size="10" class="s-red">flux too high</text>
+          <path d="M608,112 L700,146" class="stroke-line2" fill="none" marker-end="url(#fArr)" stroke-width="1.6"/>
+          <text x="676" y="136" font-size="10" class="s-amber">clearance saturated / signalling fails</text>
+
+          <!-- convergence -->
+          <rect x="230" y="496" width="540" height="50" rx="10" class="panel-f stroke-line" fill-opacity="0.55"/>
+          <text x="500" y="517" text-anchor="middle" font-size="12" font-weight="700" class="s-text">Both converge on anemia + vascular dysfunction — by different routes</text>
+          <text x="500" y="536" text-anchor="middle" font-size="10" class="s-mute">excess arm documented in cohorts · under-clearance arm inferred from hemolysis physiology and clearance cell biology</text>
+          <path d="M245,480 L330,494" class="stroke-line2" fill="none" marker-end="url(#fArr)" stroke-width="1.6"/>
+          <path d="M755,480 L670,494" class="stroke-line2" fill="none" marker-end="url(#fArr)" stroke-width="1.6"/>
+        </svg>
+      </div>
+      <figcaption class="fig-cap"><b>Figure 4 — The two failure modes.</b>
+        Excess eryptosis converts a protective clearance program into anemia, thrombogenicity and endothelial injury;
+        insufficient signalling or saturated clearance leaves damaged cells to lyse or persist. The clinical evidence
+        base is asymmetric — the excess arm is documented across human disease cohorts, the under-clearance arm rests
+        on hemolysis physiology and clearance-pathway cell biology.
+      </figcaption>
+    </figure>
+  </section>
+
+  <!-- ==================== ADRENOCHROME ==================== -->
+  <section id="adrenochrome">
+    <h2>The adrenochrome crossover — shared nodes, undemonstrated link</h2>
+    <p>
+      Epinephrine is oxidized to adrenochrome non-enzymatically under oxidative stress (superoxide, H₂O₂, hydroxyl
+      radicals via Fenton chemistry with Fe²⁺/Cu²⁺) and enzymatically via neutrophil myeloperoxidase. The human
+      erythrocyte plasma membrane converts adrenaline to aminochromes including adrenochrome in a two-phase reaction
+      (PMID 8937691), and hemoglobin catalyzes oxidation of adrenaline in blood — both Tier 4. Erythrocytes are
+      therefore simultaneously a minor site of adrenochrome formation, a reducing sink that limits its persistence
+      (diaphorase and ascorbate reduce adrenochrome back, holding steady-state levels in the nanomolar range), and a
+      target of its oxidative chemistry: membrane lipid peroxidation, methemoglobin formation, and hemolysis at high
+      concentrations.
+    </p>
+    <p>
+      The two systems share mechanistic nodes: adrenochrome semiquinone redox cycling regenerates the parent quinone
+      while generating superoxide; adrenochrome depletes glutathione; and both molecules' chemistry consumes the same
+      NADPH/GSH reserve maintained by G6PD and the pentose phosphate pathway — the very reserve whose depletion
+      lowers the eryptotic threshold. But <b>the specific step "adrenochrome → eryptosis" is mechanistically
+      supported and experimentally undemonstrated</b>: no in-vitro dose–response of adrenochrome on human
+      erythrocytes with annexin V / Ca²⁺ / hemolysis readouts was identified, adrenochrome is not among the tested
+      eryptosis inducers in the current reviews, and whether sub-lytic adrenochrome preferentially triggers eryptosis
+      over hemolysis is not quantified and untested (Tier 5).
+    </p>
+
+    <figure class="fig">
+      <div class="fig-canvas">
+        <svg viewBox="0 0 1000 600" role="img" aria-labelledby="adrTitle">
+          <title id="adrTitle">Adrenochrome-eryptosis crossover — epinephrine oxidation to adrenochrome, the erythrocyte reducing sink, and convergence of both arms on ROS, GSH/NADPH depletion and Fenton chemistry; the direct adrenochrome-to-eryptosis link is mechanistically supported but experimentally undemonstrated</title>
+          <defs>
+            <marker id="aArr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,1 L9,5 L0,9 z" class="s-dim"/>
+            </marker>
+            <marker id="aArrR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,1 L9,5 L0,9 z" class="s-red"/>
+            </marker>
+            <marker id="aBlunt" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+              <path d="M9,1 L1,5 L9,9 z" class="s-teal"/>
+            </marker>
+          </defs>
+
+          <!-- epinephrine -->
+          <rect x="20" y="30" width="180" height="70" rx="12" class="panel-f stroke-line" fill-opacity="0.55"/>
+          <text x="110" y="60" text-anchor="middle" font-size="13" font-weight="700" class="s-text">EPINEPHRINE</text>
+          <text x="110" y="82" text-anchor="middle" font-size="10" class="s-mute">catecholamine substrate</text>
+
+          <!-- adrenochrome -->
+          <rect x="260" y="20" width="230" height="90" rx="12" class="red-f" fill-opacity="0.10"/>
+          <rect x="260" y="20" width="230" height="90" rx="12" class="stroke-line" fill="none"/>
+          <text x="375" y="50" text-anchor="middle" font-size="14" font-weight="700" class="s-red">ADRENOCHROME</text>
+          <text x="375" y="72" text-anchor="middle" font-size="10" class="s-mute">epinephrine autoxidation product</text>
+          <text x="375" y="92" text-anchor="middle" font-size="10" class="s-mute">formation: ROS · MPO · Fe²⁺/Cu²⁺ Fenton (Tier 4)</text>
+
+          <!-- oxidation chemistry -->
+          <rect x="550" y="20" width="430" height="100" rx="12" class="panel-f stroke-line" fill-opacity="0.55"/>
+          <text x="765" y="46" text-anchor="middle" font-size="12.5" font-weight="700" class="s-amber">SEMIQUINONE REDOX CYCLING</text>
+          <text x="765" y="68" text-anchor="middle" font-size="10.5" class="s-text">regenerates parent quinone · generates O₂⁻ · H₂O₂ → •OH</text>
+          <text x="765" y="90" text-anchor="middle" font-size="10.5" class="s-text">depletes GSH (cardiac/neuronal models)</text>
+          <text x="765" y="110" text-anchor="middle" font-size="10.5" class="s-text">consumes NADPH — the same reserve as G6PD/PPP (Tier 4)</text>
+
+          <!-- RBC sink -->
+          <rect x="20" y="150" width="300" height="110" rx="12" class="teal-f" fill-opacity="0.10"/>
+          <rect x="20" y="150" width="300" height="110" rx="12" class="stroke-line2" fill="none"/>
+          <text x="170" y="176" text-anchor="middle" font-size="12.5" font-weight="700" class="s-teal">ERYTHROCYTE REDUCING SINK</text>
+          <text x="170" y="198" text-anchor="middle" font-size="10.5" class="s-text">diaphorase + ascorbate reduce adrenochrome</text>
+          <text x="170" y="218" text-anchor="middle" font-size="10.5" class="s-text">steady state: nanomolar (Tier 4)</text>
+          <text x="170" y="240" text-anchor="middle" font-size="10" class="s-mute">buffer exceeded → methemoglobin, lipid</text>
+          <text x="170" y="254" text-anchor="middle" font-size="10" class="s-mute">peroxidation, hemolysis at high concentration</text>
+
+          <!-- erythrocyte target -->
+          <rect x="360" y="150" width="280" height="110" rx="12" class="panel-f stroke-line" fill-opacity="0.55"/>
+          <text x="500" y="176" text-anchor="middle" font-size="12.5" font-weight="700" class="s-red">ERYTHROCYTE AS TARGET</text>
+          <text x="500" y="198" text-anchor="middle" font-size="10.5" class="s-text">RBC membrane converts adrenaline to</text>
+          <text x="500" y="216" text-anchor="middle" font-size="10.5" class="s-text">aminochromes (PMID 8937691)</text>
+          <text x="500" y="238" text-anchor="middle" font-size="10.5" class="s-text">hemoglobin catalyzes adrenaline oxidation</text>
+          <text x="500" y="256" text-anchor="middle" font-size="10" class="s-mute">Hb/heme = the Fe source for Fenton chemistry</text>
+
+          <!-- eryptosis arm -->
+          <rect x="680" y="150" width="300" height="110" rx="12" class="panel-f stroke-line" fill-opacity="0.55"/>
+          <text x="830" y="176" text-anchor="middle" font-size="12.5" font-weight="700" class="s-purple">ERRYPTOSIS THRESHOLD</text>
+          <text x="830" y="198" text-anchor="middle" font-size="10.5" class="s-text">ROS → cation channels → Ca²⁺ (Tier 4)</text>
+          <text x="830" y="218" text-anchor="middle" font-size="10.5" class="s-text">GSH depletion triggers eryptosis;</text>
+          <text x="830" y="236" text-anchor="middle" font-size="10.5" class="s-text">NAC blocks it, prolongs mouse RBC half-life</text>
+          <text x="830" y="254" text-anchor="middle" font-size="10" class="s-mute">G6PD deficiency lowers the threshold (Tier 2–4)</text>
+
+          <!-- convergence -->
+          <rect x="290" y="310" width="420" height="104" rx="14" class="blue-f" fill-opacity="0.12"/>
+          <rect x="290" y="310" width="420" height="104" rx="14" class="stroke-line2" fill="none"/>
+          <text x="500" y="338" text-anchor="middle" font-size="13.5" font-weight="700" class="s-blue">CONVERGENT NODES</text>
+          <text x="500" y="362" text-anchor="middle" font-size="11" class="s-text">ROS / Fenton chemistry · GSH–NADPH budget (G6PD/PPP)</text>
+          <text x="500" y="382" text-anchor="middle" font-size="11" class="s-text">hemoglobin/iron · catecholamine disposal (COMT/MAO inhibition</text>
+          <text x="500" y="400" text-anchor="middle" font-size="11" class="s-text">raises substrate flux toward aminochromes)</text>
+
+          <!-- untested link -->
+          <rect x="170" y="470" width="660" height="86" rx="12" class="red-f" fill-opacity="0.07"/>
+          <rect x="170" y="470" width="660" height="86" rx="12" class="stroke-line" fill="none" stroke-dasharray="7 5"/>
+          <text x="500" y="498" text-anchor="middle" font-size="13" font-weight="700" class="s-red">adrenochrome → eryptosis : mechanistically supported, experimentally undemonstrated (Tier 5)</text>
+          <text x="500" y="520" text-anchor="middle" font-size="10.5" class="s-text">no dose–response with annexin V / Fluo-4 / hemolysis readouts · not among tested eryptosis inducers</text>
+          <text x="500" y="540" text-anchor="middle" font-size="10" class="s-mute">proposed ferroptosis dual-inducer role (GPX4 arylation) — untested, no C11-BODIPY data</text>
+
+          <!-- arrows -->
+          <path d="M200,65 L254,65" class="stroke-line2" fill="none" marker-end="url(#aArr)" stroke-width="1.6"/>
+          <text x="227" y="56" text-anchor="middle" font-size="9.5" class="s-mute">oxidation</text>
+          <path d="M490,65 L544,65" class="stroke-line2" fill="none" marker-end="url(#aArrR)" stroke-width="1.6"/>
+          <path d="M700,120 L620,304" class="stroke-line2" fill="none" marker-end="url(#aArrR)" stroke-width="1.6"/>
+          <path d="M830,260 L700,338" class="stroke-line2" fill="none" marker-end="url(#aArrR)" stroke-width="1.6"/>
+          <path d="M500,260 L500,304" class="stroke-line2" fill="none" marker-end="url(#aArrR)" stroke-width="1.6"/>
+          <path d="M170,260 L350,304" class="stroke-line2" fill="none" marker-end="url(#aBlunt)" stroke-width="1.6" stroke-dasharray="5 4"/>
+          <text x="222" y="292" font-size="10" class="s-teal">buffers</text>
+          <path d="M500,414 L500,464" class="stroke-line2" fill="none" marker-end="url(#aArrR)" stroke-width="1.6" stroke-dasharray="5 4"/>
+        </svg>
+      </div>
+      <figcaption class="fig-cap"><b>Figure 5 — The adrenochrome–eryptosis crossover.</b>
+        Each constituent link is individually documented (Tier 4): erythrocytes form aminochromes, hemoglobin
+        catalyzes the oxidation, diaphorase/ascorbate hold adrenochrome at nanomolar steady state, and both arms
+        converge on ROS generation and the GSH/NADPH budget. The final step — adrenochrome as a direct eryptosis
+        inducer — is inference, not experiment (Tier 5).
+      </figcaption>
+    </figure>
+
+    <h3>Hemostasis — opposing directions from one molecule family</h3>
+    <p>
+      Adrenochrome derivatives (adrenochrome monoaminoguanidine, carbazochrome) have historical clinical use as
+      capillary hemostatics (Tier 2, limited modern validation). Eryptotic PS-positive cells provide the catalytic
+      surface for prothrombinase assembly, contributing up to ~40% of thrombin generation in some pathological
+      conditions. These are opposite coagulation-relevant phenotypes of the same compound family; they do not cancel
+      and should not be conflated.
+    </p>
+
+    <h3>Parkinson's disease as shared context — and no more</h3>
+    <p>
+      COMT inhibitors used in Parkinson's disease shift catecholamine flux toward oxidation products; adrenochrome
+      forms as an intermediate in catecholaminergic neuromelanin synthesis. Independently, altered calpain and
+      ceramide production trigger eryptosis in Parkinson's disease, and amyloid-β causes oxidative erythrocyte damage
+      in Alzheimer's disease (Tier 4–2). Neither axis establishes a causal chain from peripheral adrenochrome burden
+      to eryptosis-driven anemia; both are documented in the same disease context. The proposed graph trace
+      adrenochrome → DGCR8/Drosha microprocessor modification → pri-miRNA processing → senescence/SASP → inflammaging
+      is a vault artefact, not experimentally validated (Tier 5).
+    </p>
+
+    <div class="tbl-wrap" style="margin-top:18px;" id="nodes">
+      <table class="tbl-fixed">
+        <thead>
+          <tr>
+            <th style="width:18%;">Node</th>
+            <th style="width:33%;">Adrenochrome arm</th>
+            <th style="width:33%;">Eryptosis arm</th>
+            <th style="width:16%;">Evidence</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><b>ROS / Fenton</b></td><td>Semiquinone redox cycling regenerates the quinone, generates superoxide; H₂O₂ → •OH via Fe²⁺/Cu²⁺</td><td>ROS open non-selective cation channels → cytosolic Ca²⁺</td><td><span class="tier t4">4</span> both</td></tr>
+          <tr><td><b>GSH depletion</b></td><td>Depletes glutathione in cardiac/neuronal models</td><td>GSH depletion triggers eryptosis; NAC blocks it and prolonged mouse RBC half-life in vivo</td><td><span class="tier t4">4</span> / <span class="tier t3">3</span></td></tr>
+          <tr><td><b>G6PD / PPP</b></td><td>Consumes the same NADPH/GSH reserve</td><td>G6PD deficiency lowers the eryptotic threshold (protective in malaria, risk under oxidative load)</td><td><span class="tier t2">2</span>–<span class="tier t4">4</span></td></tr>
+          <tr><td><b>Catecholamine disposal</b></td><td>COMT/MAO inhibition (entacapone, tolcapone, opicapone; quercetin) raises substrate flux toward aminochromes</td><td>The same oxidative load lands on erythrocyte membranes</td><td><span class="tier t4">4</span></td></tr>
+          <tr><td><b>Lipid peroxidation</b></td><td>Hydroxyl-radical initiation of PUFA abstraction; hypothesised dual ferroptosis inducer (GPX4 arylation, RSL3-analogous) — untested</td><td>Eryptosis proceeds via Ca²⁺/scramblase, not GPX4; ferroptosis in mature RBCs not confirmed</td><td><span class="tier t5">5</span> both</td></tr>
+          <tr><td><b>Hemoglobin / iron</b></td><td>Fe-mediated Fenton chemistry drives adrenochrome formation</td><td>Same chemistry drives erythrocyte oxidation and age-dependent eryptosis propensity</td><td><span class="tier t4">4</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>What a decisive experiment would look like</h3>
+    <p>
+      Ordered by information yield per unit effort — none has been performed:
+    </p>
+    <ol>
+      <li>
+        <b>Direct dose–response.</b> Washed human erythrocytes, adrenochrome 0.1–100 µM, readouts: annexin V–FITC
+        (PS), Fluo-4 (Ca²⁺), forward scatter (shrinkage), hemolysis (Hb, 414 nm). Blocks: extracellular Ca²⁺
+        exclusion, charybdotoxin (Gardos), NAC. If adrenochrome is a bona fide eryptosis inducer, PS exposure should
+        precede lysis and be Ca²⁺-dependent.
+      </li>
+      <li>
+        <b>G6PD-stratified sensitivity.</b> G6PD-deficient versus normal erythrocytes under identical exposure;
+        prediction: left-shifted dose–response in deficient cells.
+      </li>
+      <li>
+        <b>The reducing-sink arm.</b> Intact versus diaphorase-inhibited (or reconstituted) cells, to quantify how
+        much adrenochrome the erythrocyte buffering system disposes of before oxidative damage accrues.
+      </li>
+      <li>
+        <b>Ferroptosis discrimination.</b> GPX4 arylation assay; rescue with ferrostatin-1/liproxstatin-1 would
+        separate ferroptosis from eryptosis.
+      </li>
+      <li>
+        <b>In-vivo half-life.</b> Mouse RBC half-life after sub-toxic adrenochrome/carbazochrome exposure, with and
+        without NAC pre-treatment.
+      </li>
+    </ol>
+  </section>
+
+  <!-- ==================== LONGEVITY ==================== -->
+  <section id="longevity">
+    <h2>Position for longevity and anti-aging research</h2>
+    <p>
+      Eryptosis is a quality-control clearance arm, not a senescence regulator in the strict sense. The defensible
+      framings are three. First, <b>prevention of lytic, pro-inflammatory disposal</b>: eryptosis removes compromised
+      cells before hemolysis releases Hb, heme and DAMPs into the NO-scavenging, TLR4-activating, complement-recruiting
+      cascade (Tier 4–3). Second, <b>systemic redox and erythrocyte energy metabolism as a longevity readout</b>:
+      the G6PD/PPP → NADPH → glutathione reductase budget, the NO → sGC → cGMP → cGKI axis (eNOS-null mice clear RBCs
+      faster, Tier 3), AMPK (AMPKα-null mice: splenomegaly, anemia, Tier 3), and EPO (acute inhibition, chronic
+      pro-eryptotic) all set the eryptotic threshold, and susceptibility rises with cell age — NAC blocked eryptosis
+      in vitro and prolonged mouse RBC half-life in vivo (Tier 3–4; human translation unreported). Third,
+      <b>biomarker framing</b>: eryptosis indexes oxidative, uremic and inflammatory load, correlating with MPO,
+      Cu/Zn SOD and IL-6 (Tier 2) — useful as an exposure and severity marker, not validated as a longevity
+      surrogate endpoint.
+    </p>
+    <p>
+      Adrenochrome occupies the complementary position: a marker and amplifier of oxidative, catecholamine-rich,
+      inflammatory states — the same states that accelerate eryptosis (CKD/ESRD, sepsis, diabetes, heart failure,
+      hepatic failure). The defensible claim is limited: adrenochrome burden and eryptosis acceleration are both
+      plausibly elevated in these states, and both are measurably associated with adverse vascular and hematologic
+      outcomes. <b>Neither is an established longevity or healthspan target; all intervention evidence is Tier 3–4 or
+      absent.</b> Treated as biomarkers of systemic oxidative load, they are useful stratification tools; treated as
+      intervention targets, they are unvalidated.
+    </p>
+    <p>
+      Host defence additionally bounds intervention: <i>Plasmodium</i>-infected erythrocytes are cleared by eryptosis,
+      and the traits that lower the eryptotic threshold (G6PD deficiency, sickle trait, thalassemia trait) are
+      geographically selected precisely because they protect against malaria (Tier 2). Any anti-eryptotic strategy
+      must price in this cost, alongside unresolved interference with cytostatic tumour-cell apoptosis.
+    </p>
+  </section>
+
+  <!-- ==================== GAPS ==================== -->
+  <section id="gaps">
+    <h2>Evidence limits and translation gaps</h2>
+    <ul>
+      <li><b>No human RCT</b> of anti-eryptotic therapy exists; efficacy of eryptosis inhibitors (NAC, the NO/cGMP axis, ion-channel modulators, EPO) in ESRD or any indication is unestablished. Interventional claims are Tier 3–4 only.</li>
+      <li><b>The normal eryptotic fraction is not quantified.</b> Annexin V also binds non-eryptotic states; markers give discordant results (lactadherin vs annexin V); assay standardization is an active recommendation of Tkachenko 2025.</li>
+      <li><b>The under-clearance arm is inferred</b>, not demonstrated in an interventional human cohort: saturation of hepatic/Kupffer clearance and transfusion-related PS/EV burden are unquantified clinically.</li>
+      <li><b>Causality:</b> most disease associations are cohort/ex-vivo; confounding by uremia, inflammation and ESA dose is rarely fully adjusted.</li>
+      <li><b>The adrenochrome step is untested:</b> no adrenochrome dose–response on human erythrocytes; no evidence that physiological adrenochrome concentrations reach cation-channel activation thresholds; no RCT of any adrenochrome-scavenging intervention. The schizophrenia erythrocyte–adrenochrome literature is unreplicated and should not be cited as support.</li>
+      <li><b>The feed-forward loop is not closed</b> end-to-end in humans; each link is individually reported.</li>
+    </ul>
+
+    <div class="callout">
+      <span class="callout-tag">Bottom line</span>
+      <p>
+        Eryptosis is the non-lytic, Ca²⁺/PS-executed quality-control clearance of damaged erythrocytes. It fails in
+        two directions: <b>excess</b> produces anemia with ESA hypo-responsiveness, PS-driven thrombin generation,
+        endothelial adhesion with ferroptotic injury, and microcirculatory compromise (documented across CKD/ESRD,
+        diabetes, heart failure, cirrhosis, sepsis); <b>insufficient signalling or under-clearance</b> leaves damaged
+        or PS-positive cells to lyse or persist — NO scavenging, heme/TLR4 inflammatory injury, renal hemoprotein
+        injury, sustained procoagulant burden, and loss of <i>Plasmodium</i> clearance (mechanistically supported, no
+        defined human syndrome). The normal eryptotic fraction is not quantified, and all intervention data are
+        preclinical. For longevity purposes, eryptosis — with adrenochrome as a convergent oxidative-stress marker —
+        is best treated as a biomarker of systemic load and an upstream driver of vascular and hematologic decline,
+        not as an established anti-aging target.
+      </p>
+    </div>
+  </section>
+
+  <!-- ==================== SOURCES ==================== -->
+  <section id="sources">
+    <h2>Sources</h2>
+    <h3>Primary reviews and cohort studies</h3>
+    <ul>
+      <li>Tkachenko A, et al. Current understanding of eryptosis: mechanisms, physiological functions, role in disease, pharmacological applications, and nomenclature recommendations. <i>Cell Death Dis</i> 2025;16:467. <a href="https://doi.org/10.1038/s41419-025-07784-w" target="_blank" rel="noopener noreferrer">doi:10.1038/s41419-025-07784-w</a> (PMID 40592821)</li>
+      <li>Tkachenko A, Quintanar-Escorza MA, et al. New insights into the multifaceted role of eryptosis in metabolic and cardiovascular diseases. <i>BBA Mol Cell Res</i> 2026;1873(5):120161. <a href="https://doi.org/10.1016/j.bbamcr.2026.120161" target="_blank" rel="noopener noreferrer">doi:10.1016/j.bbamcr.2026.120161</a> (PMID 42155670) — PS/CXCL16 endothelial adhesion and endothelial ferroptosis</li>
+      <li>Deng X, Gong X, et al. Eryptosis in renal anemia: mechanisms, clinical implications, and therapeutic targeting. <i>Front Pharmacol</i> 2025;16:1718803. <a href="https://doi.org/10.3389/fphar.2025.1718803" target="_blank" rel="noopener noreferrer">doi:10.3389/fphar.2025.1718803</a> (PMID 41383483) — RBC lifespan 60–90 d in CKD/ESRD</li>
+      <li>Lang F, Bissinger R, Abed M, Artunc F. Eryptosis — the neglected cause of anemia in end stage renal disease. <i>Kidney Blood Press Res</i> 2017;42(4):749–60. <a href="https://doi.org/10.1159/000484215" target="_blank" rel="noopener noreferrer">doi:10.1159/000484215</a> (PMID 29151105)</li>
+      <li>Gok MG, et al. Evaluation of eryptosis in patients with chronic kidney disease. <i>Int Urol Nephrol</i> 2022;54(11):2919–28. <a href="https://doi.org/10.1007/s11255-022-03207-3" target="_blank" rel="noopener noreferrer">doi:10.1007/s11255-022-03207-3</a> (PMID 35469112)</li>
+      <li>Clementi A, et al. Eryptosis in patients with CKD: a possible relationship with oxidative stress and inflammatory markers. <i>J Clin Med</i> 2022;11(23):7167 (PMID 36498741)</li>
+      <li>Bissinger R, et al. Oxidative stress, eryptosis and anemia: a pivotal mechanistic nexus in systemic diseases. <i>FEBS J</i> 2019. <a href="https://doi.org/10.1111/febs.14606" target="_blank" rel="noopener noreferrer">doi:10.1111/febs.14606</a></li>
+      <li>Borst O, et al. Dynamic adhesion of eryptotic erythrocytes to endothelial cells via CXCL16/SR-PSOX. <i>Am J Physiol Cell Physiol</i> 2012;302:C644–51 (PMID 22173866)</li>
+      <li>van der Meijden PEJ, et al. Platelet- and erythrocyte-derived microparticles trigger thrombin generation via factor XIIa. <i>J Thromb Haemost</i> 2012;10:1355–62 (PMID 22537188)</li>
+      <li>Wu X, et al. PS on blood cells and endothelial cells contributes to the hypercoagulable state in cirrhosis. <i>Liver Int</i> 2016;36:1800–10 (PMID 27206310)</li>
+      <li>Williams A, et al. Pathophysiology of red blood cell dysfunction in diabetes and its complications. <i>Pathophysiology</i> 2023;30(3) (PMID 37606388)</li>
+      <li>The role of eryptosis in the pathogenesis of renal anemia. <i>Front Cell Dev Biol</i> 2020. <a href="https://doi.org/10.3389/fcell.2020.598148" target="_blank" rel="noopener noreferrer">doi:10.3389/fcell.2020.598148</a></li>
+    </ul>
+    <h3>Added during page research</h3>
+    <ul>
+      <li>Eryptosis in peritoneal and hemodialysis: pathophysiology, mechanisms, triggers, and translational perspectives. <i>Kidney Dial</i> 2026;6(2):29. <a href="https://doi.org/10.3390/kidneydial6020029" target="_blank" rel="noopener noreferrer">doi:10.3390/kidneydial6020029</a> — compiles Bonomini et al. (HD 3.1% vs controls 0.68%) and Abed et al. (pre-HD 0.84% → post-HD 1.35%)</li>
+      <li>Flow cytometry for RBC damage and complement activation (2024) — healthy DAT-negative donors: mean PS⁺ RBC 0.28%, C3⁺ RBC 0.34% (assay-dependent baseline illustration)</li>
+      <li>Conversion of adrenaline to indolic derivatives by the human erythrocyte plasma membrane. <i>Neurosignals</i> 1996;5(5):275. (PMID 8937691) — two-phase aminochrome formation, NADH dehydrogenase involvement</li>
+      <li>Methods employed in cytofluorometric assessment of eryptosis, the suicidal erythrocyte death. <i>Cell Physiol Biochem</i> 2017;43(2):431 — annexin V / Fluo-3 / forward-scatter assay standard, marker caveats</li>
+    </ul>
+    <h3>Vault basis</h3>
+    <ul>
+      <li><a class="wikilink" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_eryptosis_excess_and_under_clearance_04_Nov_2026.md" target="_blank" rel="noopener noreferrer">task_output_eryptosis_excess_and_under_clearance_04_Nov_2026.md</a></li>
+      <li><a class="wikilink" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_adrenochrome_eryptosis_crossover_04_Nov_2026.md" target="_blank" rel="noopener noreferrer">task_output_adrenochrome_eryptosis_crossover_04_Nov_2026.md</a></li>
+      <li>Vault notes: <a class="wikilink" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Eryptosis.md" target="_blank" rel="noopener noreferrer">Eryptosis</a> · <a class="wikilink" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Erythrocytes.md" target="_blank" rel="noopener noreferrer">Erythrocytes</a> · <a class="wikilink" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Phosphatidylserine.md" target="_blank" rel="noopener noreferrer">Phosphatidylserine</a> · <a class="wikilink" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Efferocytosis.md" target="_blank" rel="noopener noreferrer">Efferocytosis</a> · <a class="wikilink" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Gardos%20Channel.md" target="_blank" rel="noopener noreferrer">Gardos Channel</a> · <a class="wikilink" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Adrenochrome.md" target="_blank" rel="noopener noreferrer">Adrenochrome</a> · <a class="wikilink" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Hemolysis.md" target="_blank" rel="noopener noreferrer">Hemolysis</a> · <a class="wikilink" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Glucose-6-Phosphate%20Dehydrogenase.md" target="_blank" rel="noopener noreferrer">G6PD</a> · <a class="wikilink" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/N-Acetylcysteine.md" target="_blank" rel="noopener noreferrer">N-Acetylcysteine</a></li>
+    </ul>
+  </section>
+
+  <footer class="foot" style="margin-top:28px;">
+    <p>
+      Related: <a href="eryptosis.html">Eryptosis — three.js animation</a> ·
+      <a href="cell-death-comparison.html">Cell Death Comparison</a> ·
+      <a href="ferroptosis.html">Ferroptosis</a> ·
+      <a href="adrenochrome-protocol.html">Adrenochrome Protocol</a><br>
+      Educational synthesis; evidence tiers annotated throughout. Not medical advice.
+    </p>
+  </footer>
+
+</div>
+
+<script src="../themes/theme-01/pages-core.js"></script>
+</body>
+</html>

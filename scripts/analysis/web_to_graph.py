@@ -29,7 +29,18 @@ def main() -> None:
     args = ap.parse_args()
 
     nodes = json.loads(Path(args.nodes).read_text(encoding="utf-8"))
-    edges = json.loads(Path(args.edges).read_text(encoding="utf-8"))
+    edges_doc = json.loads(Path(args.edges).read_text(encoding="utf-8"))
+    # ponytail: inline decode of the int-encoded edge form (kept standalone
+    # rather than importing scripts.lib.graph_common.decode_edges).
+    if isinstance(edges_doc, dict):
+        ids, labels = edges_doc["ids"], edges_doc["labels"]
+        edges = [{
+            "from": ids[r[0]], "to": ids[r[1]], "label": labels[r[2]],
+            "confidence": "EXTRACTED" if r[3] >= 0.7 else "AMBIGUOUS",
+            "confidence_score": r[3], "weight": r[4] if len(r) > 4 else r[3],
+        } for r in edges_doc["edges"]]
+    else:
+        edges = edges_doc
     links = [
         {"source": e["from"], "target": e["to"], **{k: v for k, v in e.items() if k not in ("from", "to")}}
         for e in edges

@@ -2,7 +2,7 @@
 title: Mitochondrial ROS
 description: Mitochondrial ROS (mtROS) are Reactive Oxygen Species generated primarily at Complex I and Complex III of the electron transport chain; they drive oxidative damage at high levels but mediate adaptive signaling at low levels.
 created: 2026-07-04
-updated: 2026-07-09
+updated: 2026-11-11
 tags:
   - biological-molecule
   - mitochondria
@@ -28,6 +28,9 @@ At high flux, mtROS inflict oxidative damage to lipids (cardiolipin), proteins, 
 
 Compounds such as [[Methylene blue]] and [[MitoQ]] modulate mtROS at the source, illustrating the therapeutic value of calibrated (not absolute) ROS suppression.
 
+> [!info] Source: [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026]]
+> Excess mtROS oxidize DNA, proteins, and lipids, promote persistent [[Telomere|telomere]]-associated damage, and lower the activation threshold of [[NLRP3]] and other innate immune circuits; electron leak occurs particularly at [[Complex I]] and [[Complex III]].
+
 ## Documents
 
   - [[_document_ - Mitohormesis - 2014_FEB|Mitohormesis 2014]]
@@ -36,6 +39,7 @@ Compounds such as [[Methylene blue]] and [[MitoQ]] modulate mtROS at the source,
     - Updates the role of mtROS in mitochondrial quality control and longevity.
   - [[_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health|NAD+ Precursors NMN/NR Review]]
     - Links NAD+ status to ETC efficiency and mtROS production.
+- [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026 — Mitochondrial dysfunction and inflammaging]]: Adds telomere-associated damage and innate-immune threshold lowering as mtROS consequences.
 
 ## Connections
 

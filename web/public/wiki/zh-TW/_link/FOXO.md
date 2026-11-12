@@ -2,7 +2,7 @@
 title: FOXO
 description: 一族轉錄因子（Forkhead box O，叉頭框蛋白 O），負責調節與細胞週期、細胞凋亡與自噬相關基因的表現。
 created: 2024-01-01
-updated: 2026-10-21
+updated: 2024-01-01
 tags:
   - protein
 aliases:

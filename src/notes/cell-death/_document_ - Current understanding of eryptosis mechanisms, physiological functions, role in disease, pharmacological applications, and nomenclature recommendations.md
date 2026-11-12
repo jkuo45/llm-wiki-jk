@@ -40,7 +40,7 @@ journal: Cell Death Dis. 2025 Jul 1;16(1):467
 Consortium review (F. Lang's group lineage) that names and standardizes [[Eryptosis]] as a distinct regulated cell death (RCD) modality of mature [[Erythrocytes]], separates it from [[Apoptosis]], erythrocyte senescence, [[Hemolysis]] and [[Erythronecroptosis]], and argues eryptosis is druggable.
 
 > [!note]
-> Thesis — [[Eryptosis]] is the Ca2+-driven, phosphatidylserine (PS)-exposing death of organelle-free erythrocytes; confirmation requires PS externalization **plus** elevated intracellular Ca2+. All phenotypic hallmarks are Ca2+-mediated: Gardos-channel K+ efflux (shrinkage), [[Calpain]] cytoskeleton digestion (blebbing), [[Scramblase]] activation (PS exposure).
+> Thesis — [[Eryptosis]] is the Ca2+-driven, [[Phosphatidylserine|phosphatidylserine]] (PS)-exposing death of organelle-free erythrocytes; confirmation requires PS externalization **plus** elevated intracellular Ca2+. All phenotypic hallmarks are Ca2+-mediated: Gardos-channel K+ efflux (shrinkage), [[Calpain]] cytoskeleton digestion (blebbing), [[Scramblase]] activation (PS exposure).
 
 ## Facts
 
@@ -50,7 +50,7 @@ Consortium review (F. Lang's group lineage) that names and standardizes [[Erypto
 
 ## Erythrocyte structure as the constraint on cell death
 
-- Mature RBCs are 7–8 µm biconcave, hemoglobin-filled, nucleus- and organelle-free products of [[Erythropoiesis]]; enucleation (rate-limiting; FOXO3, E2F2, miR-30a/miR-191/miR-181a, F-actin, dynein, tropomodulin, p38 MAPK) and mitochondrial clearance by mitophagy free space for Hb.
+- Mature RBCs are 7–8 µm biconcave, hemoglobin-filled, nucleus- and organelle-free products of [[Erythropoiesis]]; enucleation (rate-limiting; FOXO3, E2F2, miR-30a/miR-191/miR-181a, F-actin, dynein, tropomodulin, [[p38 MAPK]]) and mitochondrial clearance by mitophagy free space for Hb.
 - Organelle-containing erythroid precursors execute full [[Apoptosis]] (intrinsic/extrinsic), RIPK1-dependent [[Necroptosis]], and iron-driven [[Ferroptosis]]; mature RBCs retain only [[Fas]]/[[FasL]], [[Caspase-3]], [[Caspase-8]], and the RIPK1/RIPK3/MLKL axis as "heritage" components.
 - Protein synthesis is negligible in mature RBCs, so cell-death regulation is purely post-translational (activity adjustment, phosphorylation, channel gating) — no transcriptional or epigenetic layer.
 
@@ -92,13 +92,13 @@ Consortium review (F. Lang's group lineage) that names and standardizes [[Erypto
 ### Ceramide
 
 - No ER, so erythrocyte ceramide comes only from plasma-membrane sphingomyelin hydrolysis (de novo synthesis is impossible); sphingosine induces eryptosis, sphingosine-1-phosphate does not (sphingosine kinase detoxifies it).
-- Triggers: hyperosmotic shock, secreted SMases during inflammation/sepsis/COVID-19, *C. perfringens* epsilon toxin, platelet-activating factor, cigarette smoke extract (neutral SMase), Cu2+ (leukocyte acidic SMase secretion).
+- Triggers: hyperosmotic shock, secreted [[Sphingomyelinase|SMases]] during inflammation/sepsis/COVID-19, *C. perfringens* epsilon toxin, platelet-activating factor, cigarette smoke extract (neutral SMase), Cu2+ (leukocyte acidic SMase secretion).
 - Downstream in human RBCs: Fas receptor oligomerization in lipid rafts, DISC assembly, cleaved caspase-8/-3, PS exposure and shrinkage — "lipid-driven eryptosis."
 
 ### Caspases and the caspase-8 fate switch
 
 - Caspases are largely non-essential for eryptosis: the key Ca2+ rise occurs without caspase-3, and in vitro eryptosis rarely recruits caspase-3 — but ROS-activated caspase-3 does promote PS externalization. Caspases were probably retained for non-apoptotic roles in erythropoiesis/maturation rather than death.
-- [[Fas]]/[[FasL]]/FADD/DISC are retained; in aged RBCs Fas colocalizes with lipid-raft markers (Gαs, CD59), oxidative stress drives Fas translocation into rafts and caspase-8/-3 activation (NAC blocks it; calpain-independent). Arsenic- and lead-exposed rat RBCs show Fas aggregation/DISC assembly; organosulfur therapy suppresses ceramide-driven Fas aggregation. Cigarette smoke extract acts through p38 MAPK → DISC.
+- [[Fas]]/[[FasL]]/[[FADD]]/DISC are retained; in aged RBCs Fas colocalizes with lipid-raft markers (Gαs, CD59), oxidative stress drives Fas translocation into rafts and caspase-8/-3 activation (NAC blocks it; calpain-independent). Arsenic- and lead-exposed rat RBCs show Fas aggregation/DISC assembly; organosulfur therapy suppresses ceramide-driven Fas aggregation. Cigarette smoke extract acts through [[p38 MAPK]] → DISC.
 - Erythrocyte necroptosis forms a RIPK1/FADD/caspase-8 necrosome in which caspase-8 prevents death, mirroring nucleated cells; eryptosis and erythronecroptosis appear mutually exclusive → caspase-8 as the cell-fate switch, arguing RBCs are decision-capable entities between life and death.
 
 ### Kinases
@@ -107,18 +107,18 @@ Consortium review (F. Lang's group lineage) that names and standardizes [[Erypto
 | --- | --- |
 | [[AMPK]] | Anti-eryptotic (energy sensor; AMPKα-null mice: splenomegaly, severe anemia) |
 | PAK2 | Required for AMPK-mediated protection |
-| cGKI | Anti-eryptotic (NO–sGC–cGMP arm; cGKI-null mice: anemia, splenomegaly) |
+| [[cGMP-Dependent Protein Kinase I|cGKI]] | Anti-eryptotic (NO–sGC–cGMP arm; cGKI-null mice: anemia, splenomegaly) |
 | JAK3 | Pro-eryptotic (JAK3-null/inhibited cells show lower PS exposure — anti-eryptotic) |
 | MSK1/2 | Anti-eryptotic (MSK-null spleens accumulate eryptotic RBCs) |
 | PDK1 | Pro-eryptotic (PDK1-null cells have lower Ca2+) |
-| PKC (incl. PKCα) | Pro-eryptotic; ATP depletion drives PKCα membrane translocation |
-| CK1α, p38 MAPK, CDK4 | Pro-eryptotic (inhibitors reduce stress-induced eryptosis) |
+| [[PKC]] (incl. PKCα) | Pro-eryptotic; ATP depletion drives PKCα membrane translocation |
+| [[CK1α]], [[p38 MAPK]], CDK4 | Pro-eryptotic (inhibitors reduce stress-induced eryptosis) |
 
-Note: CK1α, PKC and JAK3 are largely antiapoptotic in nucleated cells but pro-eryptotic in RBCs — an artifact of the truncated effector set.
+Note: [[CK1α]], [[PKC]] and JAK3 are largely antiapoptotic in nucleated cells but pro-eryptotic in RBCs — an artifact of the truncated effector set.
 
 ### Nitric oxide
 
-- NO is a Ca2+-independent suppressor: nitroprusside blocks even ionomycin-induced eryptosis; eNOS-null mice clear RBCs faster. Mechanism: Hb-derived S-nitrosohemoglobin → soluble guanylate cyclase → cGMP → cGKI; dibutyryl-cGMP rescues.
+- NO is a Ca2+-independent suppressor: nitroprusside blocks even ionomycin-induced eryptosis; eNOS-null mice clear RBCs faster. Mechanism: Hb-derived S-nitrosohemoglobin → soluble guanylate cyclase → cGMP → [[cGMP-Dependent Protein Kinase I|cGKI]]; dibutyryl-cGMP rescues.
 
 ### GTPases
 
@@ -149,20 +149,20 @@ Note: CK1α, PKC and JAK3 are largely antiapoptotic in nucleated cells but pro-e
 - **Cardiovascular/metabolic:** untreated [[Hypertension|hypertension]] shows erythrocyte lipid peroxidation, depleted GSH and reduced CAT/SOD/GPx; T1DM/T2DM hyperglycemia raises PS-positive RBCs, methylglyoxal inhibits glycolysis (ATP/GSH loss), β2-microglobulin adds PS exposure; PS-positive erythrocytes are an independent risk factor for anemia in dialysis patients.
 - **Autoimmune:** SLE patients show higher PS exposure, cytosolic Ca2+, ROS and shrinkage; SLE serum induces eryptosis in healthy RBCs. In autoimmune hemolytic anemia, eryptosis is driven mainly by cold IgM/IgA (complement C5-dependent, C8 supporting, C9 dispensable) rather than warm IgG; [[Antiphospholipid Syndrome|APS]] autoantibodies induce eryptosis and may explain the prothrombotic state. [[Erythropoietin]] both stimulates erythropoiesis and inhibits eryptosis — though sustained high EPO makes cells more eryptosis-prone.
 - **COVID-19:** endotheliopathy, microclots, NETs, complement deposition on RBCs, ↑RDW and sPLA2-IIA; [[Long COVID]] plasma carries fibrin amyloid microclots coating erythrocytes, with stiffened, non-discocytic, less deformable cells — an under-measured microcirculatory/oxidative-stress marker.
-- **Sepsis:** septic plasma induces eryptosis within 15 min, correlating with Endotoxin Activity Assay, oxidative stress and inflammation; neutrophil/macrophage ROS/RNS, neuraminidase activity, and plasma EVs reduce deformability — eryptosis tracks severity and prognosis.
+- **Sepsis:** septic plasma induces eryptosis within 15 min, correlating with Endotoxin Activity Assay, oxidative stress and inflammation; neutrophil/macrophage [[Reactive Oxygen Species|ROS]]/[[Reactive Nitrogen Species|RNS]], neuraminidase activity, and plasma EVs reduce deformability — eryptosis tracks severity and prognosis.
 - **Cancer:** lung cancer anemia is driven by RBC turnover rather than reduced erythropoiesis, with paradoxically elevated EPO and enhanced eryptosis; cytostatics (topotecan, cisplatin) and tamoxifen are pro-eryptotic; PS-positive RBCs add a procoagulant/endothelial burden. Caution: inhibiting eryptosis might interfere with tumor-cell apoptosis.
-- **Malaria:** *Plasmodium*-infected RBCs generate ~2× more radicals, open nonselective cation channels (Na+/Ca2+ entry also favors parasite growth) and undergo eryptosis, so infected cells — and the parasite — are cleared. Eryptosis-promoting traits (G6PD deficiency, sickle cell anemia, thalassemia trait, GLUT1/AE1 deficiency) confer partial protection; pro-eryptotic xenobiotics (lead, paclitaxel, cyclosporine, PGE2, curcumin, amphotericin B, dimethyl fumarate, chlorpromazine) also slow parasitemia.
+- **Malaria:** *Plasmodium*-infected RBCs generate ~2× more radicals, open nonselective cation channels (Na+/Ca2+ entry also favors parasite growth) and undergo eryptosis, so infected cells — and the parasite — are cleared. Eryptosis-promoting traits (G6PD deficiency, sickle cell anemia, thalassemia trait, GLUT1/AE1 deficiency) confer partial protection; pro-eryptotic xenobiotics (lead, paclitaxel, cyclosporine, [[Prostaglandin E2|PGE2]], curcumin, amphotericin B, dimethyl fumarate, chlorpromazine) also slow parasitemia.
 - **Inherited blood disorders:** sickle cell anemia (PS exposure, ROS, Ca2+, RBC microparticles; cumene hydroperoxide pro-oxidant vs NAC), thalassemia, G6PD deficiency, hereditary spherocytosis (PS exposure highest in young cells).
 - **Aging:** eryptosis and senescence are distinct (minutes vs days) but interact — old cells are more oxidation-primed; RBC indices (MCHC, MCV, metabolism) drift with human age.
 
 ## Pollutants, toxicology and nanotoxicology
 
-- **Lead (occupational):** 88.3% lower δ-ALAD, 2.4× TBARS, 32.8% lower GSH/GSSG, elevated Ca2+, μ-calpain activation, 2.82% vs 0.1% PS exposure; PLA2 activity mediates better than SMase (PLA2/PGE2 axis); in vitro lead acts ROS-independently via Ca2+ and caspase-3.
-- **Metals:** aluminum (PS exposure, Ca2+ rise, AE1 degradation; EPO protective), nickel (0.5–10 mM NiCl2: Ca2+ overload, ROS, p38 MAPK-dependent lytic death), chromium VI (≥10 µM: Ca2+ rise, ATP depletion, PS exposure without ceramide), rotenone (Ca2+, ceramide, shrinkage, annexin V).
+- **Lead (occupational):** 88.3% lower δ-ALAD, 2.4× TBARS, 32.8% lower GSH/GSSG, elevated Ca2+, μ-calpain activation, 2.82% vs 0.1% PS exposure; PLA2 activity mediates better than SMase (PLA2/[[Prostaglandin E2|PGE2]] axis); in vitro lead acts ROS-independently via Ca2+ and caspase-3.
+- **Metals:** aluminum (PS exposure, Ca2+ rise, AE1 degradation; EPO protective), nickel (0.5–10 mM NiCl2: Ca2+ overload, ROS, [[p38 MAPK]]-dependent lytic death), chromium VI (≥10 µM: Ca2+ rise, ATP depletion, PS exposure without ceramide), rotenone (Ca2+, ceramide, shrinkage, annexin V).
 - **Substitutes:** BPA/BPF/BPS/BPAF all pro-eryptotic at occupational/subacute concentrations — BPS is not a safe BPA replacement; brominated flame retardants pro-eryptotic at environmental concentrations (0.001–0.01 µg/ml) via ROS without calpain/Ca2+, TBBPA > TBBPS (so TBBPS substitution is validated); organophosphate flame retardants far less erythrotoxic (TCPP > TCEP).
 - **Metabolites:** phthalate parent compounds (DBP/BBP) are more hemolytic/eryptotic than metabolites (MBP/MBzP).
 - **Pesticides:** DEET (1–5 mM, Ca2+-dependent shrinkage and PS exposure) and bromfenvinphos (≥100 µM, ROS + Ca2+).
-- **Cigarette smoke:** PS externalization higher in smokers (21 vs 21 study; 2023 cohort: 418 smokers vs 1000 never vs 605 ex-smokers), dose-dependent with daily cigarettes, correlating with CRP and erythrocyte GSH; CSE mechanism = p38 MAPK → DISC → caspase-8/-3 via neutral SMase/ceramide.
+- **Cigarette smoke:** PS externalization higher in smokers (21 vs 21 study; 2023 cohort: 418 smokers vs 1000 never vs 605 ex-smokers), dose-dependent with daily cigarettes, correlating with CRP and erythrocyte GSH; CSE mechanism = [[p38 MAPK]] → DISC → caspase-8/-3 via neutral [[Sphingomyelinase|SMase]]/ceramide.
 - **Nanomaterials:** eryptosis is proposed as a more sensitive, reproducible, mechanistically informative hemocompatibility endpoint than hemolysis (>110 compounds trigger eryptosis below the hemolytic threshold); triggers include citrate- and PVP-coated Ag NPs, Si NPs, GdVO4:Eu3+, CTAB-coated Au nanorods, antimicrobial nanofibers, Fe3O4, TiO2, SOD-CAT-PLGA, dextran-polyacrylamide Ag NPs; internalized and non-internalized (pristine SiO2, LaVO4:Eu3+ — Piezo1-linked Ca2+) particles both trigger it; smaller CeO2 NPs are more potent; coatings reduce eryptosis.
 
 ## How to study eryptosis
@@ -196,7 +196,8 @@ Note: CK1α, PKC and JAK3 are largely antiapoptotic in nucleated cells but pro-e
 - [[Piezo1]] / [[TRPC6]] — mechanosensitive and TRP Ca2+ entry routes.
 - [[Calpain]] — Ca2+-dependent cytoskeleton protease producing blebbing.
 - [[Caspase-8]] — switch between eryptosis and erythronecroptosis; with [[Caspase-3]], downstream of Fas/DISC.
-- [[Ceramide]] / [[Sphingomyelin]] / [[Acid Sphingomyelinase]] — lipid-driven arm and Fas-raft crosstalk.
+- [[Ceramide]] / [[Sphingomyelin]] / [[Sphingomyelinase|SMases]] / [[Acid Sphingomyelinase]] — lipid-driven arm and Fas-raft crosstalk.
+- [[FADD]] / [[cGMP-Dependent Protein Kinase I|cGKI]] / [[CK1α]] / [[p38 MAPK]] / [[PKC]] / [[Prostaglandin E2|PGE2]] — the signalling entities named in the Figure 2 legend.
 - [[Reactive Oxygen Species|ROS]] / [[Glutathione]] / [[Glucose-6-Phosphate Dehydrogenase]] / [[Glycolysis]] / [[Pentose Phosphate Pathway|PPP]] — redox and energy arms.
 - [[Efferocytosis]] / [[Macrophage]] / [[Kupffer Cell]] / [[Phagocytosis]] — clearance route for PS-positive cells.
 - [[Hemolysis]] / [[Damage-Associated Molecular Patterns|DAMPs]] — the proinflammatory alternative outcome prevented by eryptosis.
@@ -208,7 +209,7 @@ Note: CK1α, PKC and JAK3 are largely antiapoptotic in nucleated cells but pro-e
 - New document note in `src/notes/cell-death/` (cross-topic: cell-death/hematology/oxidative-stress/kidney).
 - Enriched: [[Eryptosis]], [[Erythrocytes]], [[Scramblase]], [[Calpain]].
 - New entities created: [[Erythronecroptosis]], [[Gardos Channel]], [[Piezo1]], [[TRPC6]], [[Efferocytosis]], [[Kupffer Cell]], [[Erythropoiesis]], [[Reticulocyte]], [[Erythrocyte Senescence]], [[Anion Exchanger 1]], [[Carbonic Anhydrase]], [[Malaria]], [[Antiphospholipid Syndrome]], [[Haptoglobin]], [[Hemopexin]], [[Duffy Antigen Receptor for Chemokines]]; [[TLR9]] and [[HO-1]] enriched rather than duplicated.
-- New links added: [[Apoptosis]], [[Necroptosis]], [[Ferroptosis]], [[Pyroptosis]], [[Phosphatidylserine]], [[Scramblase]], [[Flippase]], [[Calpain]], [[Caspase-3]], [[Caspase-8]], [[Fas]], [[FasL]], [[Anion Exchanger 1]], [[Gardos Channel]], [[Piezo1]], [[TRPC6]], [[NMDA receptor]], [[Ceramide]], [[Sphingomyelin]], [[Acid Sphingomyelinase]], [[Reactive Oxygen Species]], [[Reactive Nitrogen Species]], [[Glutathione]], [[Glucose-6-Phosphate Dehydrogenase]], [[Glycolysis]], [[Pentose Phosphate Pathway]], [[Hexokinase-1]], [[AMPK]], [[Nitric Oxide]], [[Annexin V]], [[Efferocytosis]], [[Phagocytosis]], [[Macrophage]], [[Kupffer Cell]], [[CD47]], [[Hemolysis]], [[Damage-Associated Molecular Patterns]], [[NLRP3]], [[Chronic Kidney Disease]], [[Sepsis]], [[Anemia]], [[Diabetes]], [[Hypertension]], [[Parkinson's Disease]], [[Alzheimer's Disease]], [[Systemic Lupus Erythematosus]], [[Antiphospholipid Syndrome]], [[Long COVID]], [[Malaria]], [[Erythropoietin]], [[Erythropoiesis]], [[Heme]], [[Methemoglobin]], [[Platelet]], [[Lipid Rafts]], [[Cholesterol]], [[TLR9]], [[Duffy Antigen Receptor for Chemokines]], [[Thrombin]], [[Fibrin]], [[Hemoglobin]], [[Carbonic Anhydrase]], [[Sphingomyelin]], [[Cisplatin]], [[Oxidative Stress]].
+- New links added: [[Apoptosis]], [[Necroptosis]], [[Ferroptosis]], [[Pyroptosis]], [[Phosphatidylserine]], [[Scramblase]], [[Flippase]], [[Calpain]], [[Caspase-3]], [[Caspase-8]], [[Fas]], [[FasL]], [[FADD]], [[cGMP-Dependent Protein Kinase I|cGKI]], [[CK1α]], [[p38 MAPK]], [[PKC]], [[Prostaglandin E2|PGE2]], [[Sphingomyelinase|SMases]], [[Anion Exchanger 1]], [[Gardos Channel]], [[Piezo1]], [[TRPC6]], [[NMDA receptor]], [[Ceramide]], [[Sphingomyelin]], [[Acid Sphingomyelinase]], [[Reactive Oxygen Species]], [[Reactive Nitrogen Species]], [[Glutathione]], [[Glucose-6-Phosphate Dehydrogenase]], [[Glycolysis]], [[Pentose Phosphate Pathway]], [[Hexokinase-1]], [[AMPK]], [[Nitric Oxide]], [[Annexin V]], [[Efferocytosis]], [[Phagocytosis]], [[Macrophage]], [[Kupffer Cell]], [[CD47]], [[Hemolysis]], [[Damage-Associated Molecular Patterns]], [[NLRP3]], [[Chronic Kidney Disease]], [[Sepsis]], [[Anemia]], [[Diabetes]], [[Hypertension]], [[Parkinson's Disease]], [[Alzheimer's Disease]], [[Systemic Lupus Erythematosus]], [[Antiphospholipid Syndrome]], [[Long COVID]], [[Malaria]], [[Erythropoietin]], [[Erythropoiesis]], [[Heme]], [[Methemoglobin]], [[Platelet]], [[Lipid Rafts]], [[Cholesterol]], [[TLR9]], [[Duffy Antigen Receptor for Chemokines]], [[Thrombin]], [[Fibrin]], [[Hemoglobin]], [[Carbonic Anhydrase]], [[Sphingomyelin]], [[Cisplatin]], [[Oxidative Stress]].
 - Stub follow-ups still open: [[Erythrophagolysosome]], [[Stabilin-1]], [[Stabilin-2]], [[Aquaporin-1]], [[Desialylation]], [[Hemichrome]], [[Thrombosis]], [[Autoimmune Hemolytic Anemia]], [[CD91]], [[Interleukin-8]], [[Plasmodium falciparum]], and a uremic-toxin note (indoxyl sulfate, acrolein, p-cresol, indole-3-acetic acid).
 
 ## Source

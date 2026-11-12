@@ -4,7 +4,7 @@ description: Tumor necrosis factor alpha (TNFα) is a pleiotropic pro-inflammato
   cytokine produced primarily by activated Macrophages, T Cells, and Natural Killer
   Cells. It is a master regulator of the inf...
 created: 2026-07-04
-updated: 2026-07-06
+updated: 2026-11-10
 tags:
   - protein
   - inflammation
@@ -76,6 +76,10 @@ Anti-TNF therapy increases risk of [[Tuberculosis]] reactivation, opportunistic 
 #
 
 # 
+
+## NAMPT/SIRT6-dependent production
+
+Nampt-mediated [[NAD+]] biosynthesis mediates [[TNFα]] production in a [[SIRT6]]-dependent manner (Van Gool et al., 2009; via [[_document_ - Sirtuins at a glance|Sirtuins at a Glance (Nakagawa & Guarente 2011)]]).
 
 ## Documents
 

@@ -8,7 +8,7 @@ tags:
   - neuromelanin
 description: 'Adrenochrome（腎上腺紅質）是由腎上腺素（epinephrine，adrenaline）氧化所形成的化學化合物，屬於胺基醌（Aminochromes）家族，是次要的代謝副產物，而非主要的激素。'
 created: 2026-07-21
-updated: 2026-10-21
+updated: 2026-08-09
 ---
 
 # Adrenochrome

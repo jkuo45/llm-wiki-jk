@@ -3,7 +3,7 @@ title: Damage-Associated Molecular Patterns
 description: Endogenous danger signals (e.g., mtDNA, cardiolipin, TFAM) released by stressed/dying cells that activate innate immunity; in senescence, mitochondrial DAMPs drive cGAS-STING/TLR9/NLRP3 signaling and the SASP.
 protected: false
 created: 2026-07-16
-updated: 2026-07-16
+updated: 2026-11-11
 tags:
   - innate-immunity
   - inflammation
@@ -11,6 +11,8 @@ tags:
 aliases:
   - DAMP
   - DAMPs
+  - mtDAMP
+  - mitochondrial DAMP
   - alarmin
 ---
 
@@ -30,9 +32,13 @@ aliases:
 - Mitochondrial DAMP release converts mitochondrial dysfunction into innate immune activation, making DAMPs the mechanistic bridge between metabolic defects and the SASP.
 - Blocking mtDNA release (e.g., BAX inhibition) reduces SASP expression in bone and improves healthspan measures, validating DAMPs as SASP drivers.
 
+> [!info] Source: [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026]]
+> Mitochondrial DAMPs include cell-free mtDNA, [[Mitochondrial RNA|mtRNA]] (including double-stranded species), [[Cardiolipin|cardiolipin]], [[N-Formyl Peptides|N-formyl peptides]], and [[Mitochondrial ROS|mtROS]]. Release occurs through MOMP/MPT, defective quality control, or failed mitophagy, or via active packaging into [[Mitochondrial-Derived Vesicles|mitochondrial-derived vesicles]] and [[Extracellular Vesicles|extracellular vesicles]]. [[TLR9]], [[cGAS-STING Pathway|cGAS–STING]], [[NLRP3]], and [[Formyl Peptide Receptor|formyl peptide receptors]] form an interconnected sensing network.
+
 ## Documents
 
 - [[_document_ - Mitochondrial dysfunction in cellular senescence a bridge to neurodegenerative disease|Hruby & Higuchi-Sanabria 2025 — Mitochondrial Dysfunction in Senescence Bridges Neurodegeneration]]: Surveys release of DAMPs (mtDNA, cardiolipin, TFAM) in senescence and their activation of cGAS-STING, TLR9, and NLRP3 to drive the SASP; notes more work is needed to fully elucidate DAMP contributions.
+- [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026 — Mitochondrial dysfunction and inflammaging]]: Expands the mitochondrial DAMP repertoire (mtRNA, N-formyl peptides), release routes, and the interconnected TLR9/cGAS–STING/NLRP3/FPR sensing network.
 
 ## Connections
 

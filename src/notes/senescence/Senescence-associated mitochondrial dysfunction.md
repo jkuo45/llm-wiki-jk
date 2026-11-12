@@ -2,7 +2,7 @@
 title: Senescence-associated mitochondrial dysfunction
 description: Senescence-associated mitochondrial dysfunction (SAMD) is the metabolic and functional impairment of mitochondria in senescent cells that drives SASP via ROS and mtDNA release.
 created: 2026-07-07
-updated: 2026-07-08
+updated: 2026-11-11
 tags:
   - biological-process
   - mitochondria
@@ -58,6 +58,9 @@ SAMD underlies the metabolic dysfunction of aged tissues and contributes to SASP
 
 #
 
+> [!info] Source: [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026]]
+> In this framework, SAMD is the mitochondrial deterioration that sustains the [[SASP]] in established senescence: [[Mitochondrial ROS|ROS]] and [[Mitochondrial DNA|mtDNA]] released through [[Minority MOMP|minority MOMP]] activate [[cGAS-STING Pathway|cGAS–STING]] and [[NF-κB]], while impaired [[Mitophagy]] permits persistence of damaged organelles. Gasdermins can feed back by permeabilizing mitochondrial membranes.
+
 ## Documents
 
 List of documents that mention this entity
@@ -69,6 +72,7 @@ List of documents that mention this entity
 
   - [[_document_ - cellular_senescence_ipf_diseases-14-00201|Cellular Senescence in IPF (Baurzhan et al., 2026)]]
     - In IPF, senescence-associated mitochondrial dysfunction (impaired PINK1/mitophagy, ROS) sustains the SASP and fibroblast activation.
+- [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026 — Mitochondrial dysfunction and inflammaging]]: Positions SAMD as a SASP-sustaining state driven by ROS, minority MOMP/mtDNA release, and impaired mitophagy, and links it to inflammaging.
 
 ## Connections
 - [[Senescent Cells]] — SAMD is a hallmark of senescent cells

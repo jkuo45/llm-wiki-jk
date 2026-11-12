@@ -3,7 +3,7 @@ title: Sirtuins
 aliases: []
 description: index of entities and documents in this directory
 created: 2026-07-06
-updated: 2026-10-21
+updated: 2026-11-10
 ---
 # Sirtuins
 
@@ -32,6 +32,7 @@ updated: 2026-10-21
 | [[_document_ - Sirt1 Regulates Aging and Resistance to Oxidative Stress in the Heart\|SIRT1 Cardiac Dose-Response (Alcendor et al. 2007)]] | *Circ Res* primary study: heart-specific Tg-Sirt1 — 2.5×/7.5× cardiac SIRT1 retards age-dependent hypertrophy/fibrosis/apoptosis and resists paraquat oxidative stress via FoxO1a→catalase; 12.5× induces cardiomyopathy via PGC-1α↓, mitochondrial dysfunction, NAD+ depletion (hormetic dose window) |
 
 | [[_document_ - The Sirtuin System The Holy Grail of Resveratrol?\|The Sirtuin System: The Holy Grail of Resveratrol?]] | The oxidative stress theory has been associated with atherosclerosis |
+| [[_document_ - Sirtuins at a glance\|Sirtuins at a Glance (Nakagawa & Guarente 2011)]] | *J. Cell Sci.* Cell Science at a Glance: sirtuin core-domain architecture, NAD+ biosynthesis/circadian regulation, SIRT1 across chromatin, metabolism, inflammation, heart, cancer and brain, and SIRT2–SIRT7 (mitochondrial SIRT3–5, nuclear SIRT6, nucleolar SIRT7) |
 
 ## Entity Notes
 
@@ -47,6 +48,8 @@ updated: 2026-10-21
 | [[SIRT5]] | protein | Class III; mitochondrial; weak deacetylase; most ancient mammalian sirtuin class |
 | [[SIRT6]] | protein | Class IVa; nuclear (heterochromatin); ADP-ribosyl transferase; DNA repair; aging |
 | [[SIRT7]] | protein | Class IVb; nucleolar; RNA Pol I activator; overexpressed in breast and thyroid cancer |
+| [[SIRT1 BAC Mice]] | organism | Bacterial-artificial-chromosome SIRT1 transgenic mouse model — SIRT1 gain-of-function increases energy efficiency and protects against high-fat-diet-induced type 2 diabetes. |
+| [[DBC1]] | protein | Deleted in bladder cancer 1 (CCAR2) — tumor suppressor that binds the SIRT1 N-terminus and inhibits its deacetylase activity; silencing of DBC1 and HIC1 in cancers unleashes SIRT1. |
 
 ### Founding & Model Sirtuins
 
@@ -54,6 +57,7 @@ updated: 2026-10-21
 |--------|--------------|-------------|
 | [[Sir2 (yeast)]] | protein | Founding sirtuin; yeast *SIR2*; first NAD⁺-dependent deacetylase; longevity regulator |
 | [[CobB]] | enzyme | The first bacterial sirtuin, discovered in Salmonella enterica, linking cobalamin biosynthesis and propionic catabolism to prokaryotic NAD+-dependent deacetylation. |
+| [[BESTO Mice]] | organism | Beta-cell-specific SIRT1 transgenic (RIP-SIRT1) mouse model — SIRT1 overexpression in pancreatic beta cells represses UCP2 and improves glucose tolerance on a high-fat diet. |
 
 ### Epigenetic Aging & the RCM Hypothesis
 
@@ -129,7 +133,7 @@ updated: 2026-10-21
 |--------|--------------|-------------|
 | [[PGC-1α]] | protein | Master regulator of mitochondrial biogenesis; deacetylated/activated by SIRT1; neuroprotective |
 | [[p53]] | protein | Tumour suppressor; deacetylated by SIRT1; SIRT1–HIC1–p53 feedback loop |
-| [[FoxO1]] | protein | Forkhead transcription factor; SIRT1 deacetylation regulates adiponectin, β-cell survival |
+| [[FoxO1]] | protein             | Forkhead transcription factor; SIRT1 deacetylation regulates adiponectin, β-cell survival |
 | [[FOXO3a]] | protein | Forkhead transcription factor; SIRT1 deacetylation shifts output from apoptosis to stress survival |
 | [[FOXO3]] | transcription-factor | Forkhead box O3 transcription factor that forms a feed-forward stress-resistance loop with SIRT1 and is central to longevity-associated signaling. |
 | [[FOXO4]] | protein | Forkhead transcription factor; deacetylated by SIRT1 to enhance antioxidant defense via GADD45 |

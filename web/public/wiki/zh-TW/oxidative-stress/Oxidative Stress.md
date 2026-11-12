@@ -2,7 +2,7 @@
 title: Oxidative Stress（氧化壓力）
 description: "一種由活性氧（ROS）的生成與累積、以及生物系統將其解毒的能力之間失衡所造成的現象；在生理學（氧化還原訊號傳遞、粒線體毒物興奮效應）與病理學（老化、動脈粥狀硬化、神經退化）中扮演雙重角色。"
 created: 2026-07-04
-updated: 2026-10-21
+updated: 2026-08-16
 tags:
   - biological-process
   - scientific-concept

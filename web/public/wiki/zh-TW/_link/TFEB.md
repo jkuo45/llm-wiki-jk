@@ -12,7 +12,7 @@ tags:
   - transcription-factor
   - autophagy
   - lysosome-biogenesis
-updated: 2026-10-21
+updated: 2024-01-01
 ---
 # TFEB
 [[TFEB]]（Transcription Factor EB，轉錄因子 EB）是自噬－溶酶體途徑的主調節因子。它協調溶酶體生合成、[[Autophagy|自噬]]與溶酶體胞吐相關基因的表現。研究顯示，TFEB 的過度表現可促進[[Neuromelanin|神經黑色素]]的清除，並在[[Parkinson's Disease|帕金森氏症]]模型中防止神經退化。

@@ -4,7 +4,7 @@ description: Reactive Nitrogen Species (RNS) are a family of antimicrobial molec
   derived from Nitric Oxide (•NO) and superoxide (O2•−) produced via the enzymatic
   activity of inducible Nitric Oxide Synthase ...
 created: 2026-05-09
-updated: 2026-07-04
+updated: 2026-10-23
 tags:
   - oxidative-stress
   - nitric-oxide
@@ -59,6 +59,10 @@ When RNS production exceeds the detoxification capacity of endogenous scavengers
 - **[[Rheumatoid Arthritis]]**: Elevated 3-nitrotyrosine in synovial fluid and tissues correlates with disease activity and joint destruction.
 - **[[Septic Shock]]**: Excessive iNOS-derived NO• causes profound vasodilation and hypotension refractory to vasopressors, with peroxynitrite contributing to myocardial depression and [[Mitochondrial Dysfunction]].
 
+## Erythrocyte Role
+
+RNS act on red cells in two opposite ways. Neutrophil and macrophage ROS/RNS contribute to the oxidative stress and reduced deformability seen in sepsis, and eryptosis tracks sepsis severity and prognosis. Conversely, [[Nitric Oxide]] itself is **anti-eryptotic**: it is a Ca2+-independent suppressor, with nitroprusside blocking even ionomycin-induced eryptosis and eNOS-null mice clearing red cells faster. The mechanism runs through Hb-derived S-nitrosohemoglobin → soluble guanylyl cyclase → cGMP → [[cGMP-Dependent Protein Kinase I|cGKI]], which lowers cytosolic Ca2+ and preserves phosphatidylserine asymmetry.
+
 ## Connections
 - [[Nitric Oxide]]: The primary precursor for most RNS.
 - [[Peroxynitrite]]: The most damaging and reactive species in the RNS family.
@@ -66,10 +70,11 @@ When RNS production exceeds the detoxification capacity of endogenous scavengers
 - [[Tyrosine Nitration]]: A key biomarker of RNS-mediated damage to proteins.
 - [[Myeloperoxidase]]: Contributes to RNS formation via nitrite oxidation.
 - [[Immune System]]: RNS are essential components of macrophage-mediated antimicrobial defense.
+- [[Eryptosis]]: NO/RNS signalling in red cells — NO is anti-eryptotic via the cGMP–cGKI arm.
 
 ## Linking Summary
 - New links added: [[L-arginine]], [[TNF-alpha]], [[IL-1β]], [[LPS]], [[Superoxide Dismutase]], [[Myeloperoxidase]], [[Gut Microbiome]], [[Macrophage]], [[DNA Damage]], [[Glutathione]], [[Thioredoxin]], [[Uric Acid]], [[Lipid Peroxidation]], [[Cardiovascular Disease]], [[Endothelial Dysfunction]], [[Atherosclerosis]], [[Neurodegenerative Diseases]], [[Parkinson's Disease]], [[Alzheimer's Disease]], [[Amyotrophic Lateral Sclerosis]], [[Alpha-synuclein]], [[Tau]], [[Dopaminergic Neurons]], [[Mitochondrial Dysfunction]], [[Diabetes Mellitus]], [[Cancer]], [[NF-κB]], [[STAT3]], [[Angiogenesis]], [[Rheumatoid Arthritis]], [[Inflammation]], [[Septic Shock]]
 - Suggested new entity notes to create: [[S-Nitrosylation]], [[Nitrotyrosine]], [[iNOS Uncoupling]], [[Nitrosative Deamination]], [[TRPA1 Channel]]
-- New links added: [[Nitric Oxide]], [[Nitric Oxide Synthase]], [[NADPH Oxidase]], [[Peroxynitrite]], [[Nitrative Stress]], [[Proteins]], [[Tyrosine Nitration]], [[Lipids]], [[Nucleic Acids]], [[Reactive Oxygen Species]]
+- New links added: [[Nitric Oxide]], [[Nitric Oxide Synthase]], [[NADPH Oxidase]], [[Peroxynitrite]], [[Nitrative Stress]], [[Proteins]], [[Tyrosine Nitration]], [[Lipids]], [[Nucleic Acids]], [[Reactive Oxygen Species]], [[Eryptosis]], [[cGMP-Dependent Protein Kinase I|cGKI]]
 - Suggested new entity notes to create: [[Tyrosine Nitration]]
 - Strong connections to strengthen: [[Reactive Nitrogen Species]] ↔ [[Nitrative Stress]]

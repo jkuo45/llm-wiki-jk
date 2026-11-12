@@ -1,45 +1,30 @@
 {
-  "generated_at": "2026-10-02T08:49:47Z",
+  "generated_at": "2026-11-11T18:43:53Z",
   "triples_graph": "/Users/johnnykuo/Projects/llm-wiki-jk/graphify-out/graph.json",
   "wiki_graph": "/Users/johnnykuo/Projects/llm-wiki-jk/wiki-out/graph.json",
   "counts": {
-    "triples_nodes": 3493,
-    "wiki_nodes": 3486,
-    "shared_nodes": 2158,
-    "wiki_only_nodes": 1328,
-    "triples_only_nodes": 1335,
-    "triples_edges": 6605,
-    "wiki_edges": 44994,
-    "triples_edge_pairs": 6285,
-    "wiki_edge_pairs": 44994,
-    "wiki_only_edges": 41640,
-    "triples_only_edges": 2931
+    "triples_nodes": 4756,
+    "wiki_nodes": 3625,
+    "shared_nodes": 3313,
+    "wiki_only_nodes": 312,
+    "triples_only_nodes": 1443,
+    "triples_edges": 12589,
+    "wiki_edges": 47441,
+    "triples_edge_pairs": 11716,
+    "wiki_edge_pairs": 47441,
+    "wiki_only_edges": 40096,
+    "triples_only_edges": 4371
   },
   "top_wiki_only_nodes": [
     {
-      "id": "macrophage",
-      "label": "Macrophage",
-      "degree": 93
-    },
-    {
-      "id": "endothelial_cells",
-      "label": "Endothelial Cells",
-      "degree": 77
-    },
-    {
-      "id": "chronic_inflammation",
-      "label": "Chronic Inflammation",
+      "id": "histone_variant",
+      "label": "Histone Variant",
       "degree": 72
     },
     {
-      "id": "fibroblast",
-      "label": "Fibroblast",
-      "degree": 71
-    },
-    {
-      "id": "histone_variant",
-      "label": "Histone Variant",
-      "degree": 70
+      "id": "kidney_diseases",
+      "label": "Kidney Diseases",
+      "degree": 69
     },
     {
       "id": "epigenetics_and_aging",
@@ -49,57 +34,22 @@
     {
       "id": "nafld",
       "label": "NAFLD",
-      "degree": 65
+      "degree": 66
     },
     {
-      "id": "kidney_diseases",
-      "label": "Kidney Diseases",
-      "degree": 65
-    },
-    {
-      "id": "cell_signaling",
-      "label": "Cell Signaling",
-      "degree": 63
-    },
-    {
-      "id": "unfolded_protein_response",
-      "label": "Unfolded Protein Response",
-      "degree": 63
-    },
-    {
-      "id": "citric_acid_cycle",
-      "label": "Citric Acid Cycle",
-      "degree": 63
-    },
-    {
-      "id": "c_elegans",
-      "label": "Caenorhabditis elegans",
-      "degree": 59
-    },
-    {
-      "id": "insulin",
-      "label": "Insulin",
+      "id": "fasn",
+      "label": "FASN",
       "degree": 58
     },
     {
-      "id": "mmp_12",
-      "label": "MMP-12",
-      "degree": 56
-    },
-    {
-      "id": "atg1",
-      "label": "Atg1",
-      "degree": 56
-    },
-    {
-      "id": "cardiomyocyte_toxicity",
-      "label": "Cardiomyocyte Toxicity",
+      "id": "endocytosis",
+      "label": "Endocytosis",
       "degree": 55
     },
     {
-      "id": "muscle",
-      "label": "Muscle",
-      "degree": 54
+      "id": "immunity",
+      "label": "Immunity",
+      "degree": 55
     },
     {
       "id": "met",
@@ -107,51 +57,96 @@
       "degree": 54
     },
     {
-      "id": "immunity",
-      "label": "Immunity",
-      "degree": 53
+      "id": "receptor_tyrosine_kinases",
+      "label": "Receptor Tyrosine Kinases",
+      "degree": 52
     },
     {
-      "id": "hypertension",
-      "label": "Hypertension",
-      "degree": 53
+      "id": "membrane_trafficking",
+      "label": "Membrane Trafficking",
+      "degree": 52
+    },
+    {
+      "id": "growth_factor_receptor",
+      "label": "Growth Factor Receptor",
+      "degree": 52
+    },
+    {
+      "id": "embryogenesis",
+      "label": "Embryogenesis",
+      "degree": 48
+    },
+    {
+      "id": "intestine",
+      "label": "Intestine",
+      "degree": 46
+    },
+    {
+      "id": "radiotherapy",
+      "label": "Radiotherapy",
+      "degree": 45
+    },
+    {
+      "id": "angiotensin_ii_type_1_receptor",
+      "label": "Angiotensin II Type 1 Receptor",
+      "degree": 44
+    },
+    {
+      "id": "helminth",
+      "label": "Helminth",
+      "degree": 43
+    },
+    {
+      "id": "cytokine_storm",
+      "label": "Cytokine Storm",
+      "degree": 42
+    },
+    {
+      "id": "rac_gtpase",
+      "label": "Rac GTPase",
+      "degree": 42
+    },
+    {
+      "id": "high_fat_diet",
+      "label": "High-fat Diet",
+      "degree": 40
+    },
+    {
+      "id": "histone_h2a",
+      "label": "Histone H2A",
+      "degree": 40
     }
   ],
   "top_triples_only_nodes": [
+    {
+      "id": "momp",
+      "label": "MOMP",
+      "degree": 21
+    },
+    {
+      "id": "mtdna",
+      "label": "mtDNA",
+      "degree": 15
+    },
     {
       "id": "adrenochrome_formation",
       "label": "Adrenochrome formation",
       "degree": 11
     },
     {
-      "id": "ascorbic_acid",
-      "label": "Ascorbic Acid",
+      "id": "females",
+      "label": "Females",
       "degree": 10
     },
     {
-      "id": "females",
-      "label": "Females",
-      "degree": 9
+      "id": "ros",
+      "label": "ROS",
+      "degree": 10
     },
     {
-      "id": "antioxidants",
-      "label": "Antioxidants",
-      "degree": 7
-    },
-    {
-      "id": "nf_kb",
-      "label": "NF-kB",
-      "degree": 5
-    },
-    {
-      "id": "p21",
-      "label": "p21",
-      "degree": 5
-    },
-    {
-      "id": "cdk4",
-      "label": "CDK4",
-      "degree": 5
+      "id": "whole_blood_nad",
+      "label": "Whole-Blood NAD+",
+      "degree": 6
     },
     {
       "id": "sodium_chloride",
@@ -159,8 +154,13 @@
       "degree": 5
     },
     {
-      "id": "cdk6",
-      "label": "CDK6",
+      "id": "nonselective_cation_channel",
+      "label": "Nonselective Cation Channel",
+      "degree": 5
+    },
+    {
+      "id": "physical_activity",
+      "label": "Physical Activity",
       "degree": 4
     },
     {
@@ -169,8 +169,13 @@
       "degree": 4
     },
     {
-      "id": "biphasic_dose_response",
-      "label": "Biphasic Dose Response",
+      "id": "comt_val158_allele",
+      "label": "COMT Val158 allele",
+      "degree": 4
+    },
+    {
+      "id": "lysosomal_storage_disorders",
+      "label": "Lysosomal Storage Disorders",
       "degree": 4
     },
     {
@@ -179,23 +184,13 @@
       "degree": 4
     },
     {
-      "id": "physical_activity",
-      "label": "Physical Activity",
-      "degree": 4
-    },
-    {
       "id": "sirt1_and_sirt2",
       "label": "SIRT1 and SIRT2",
       "degree": 4
     },
     {
-      "id": "comt_val158_allele",
-      "label": "COMT Val158 allele",
-      "degree": 4
-    },
-    {
-      "id": "sirt3_deficiency",
-      "label": "SIRT3 deficiency",
+      "id": "biphasic_dose_response",
+      "label": "Biphasic Dose Response",
       "degree": 4
     },
     {
@@ -204,18 +199,23 @@
       "degree": 4
     },
     {
-      "id": "anti_inflammatory_properties",
-      "label": "anti-inflammatory properties",
+      "id": "radiation_therapy",
+      "label": "Radiation Therapy",
       "degree": 3
     },
     {
-      "id": "advanced_glycation_end_products_formation",
-      "label": "Advanced Glycation End Products formation",
+      "id": "sirt7_depletion",
+      "label": "SIRT7 depletion",
       "degree": 3
     },
     {
       "id": "h3k9",
       "label": "H3K9",
+      "degree": 3
+    },
+    {
+      "id": "cutaneous_melanoma",
+      "label": "Cutaneous Melanoma",
       "degree": 3
     }
   ],
@@ -327,20 +327,6 @@
     },
     {
       "source": "zinc_finger",
-      "target": "tale",
-      "source_label": "Zinc Finger",
-      "target_label": "TALE",
-      "weight": 1.0
-    },
-    {
-      "source": "zinc_finger",
-      "target": "mitozfns",
-      "source_label": "Zinc Finger",
-      "target_label": "mitoZFNs",
-      "weight": 1.0
-    },
-    {
-      "source": "zinc_finger",
       "target": "mitochondrial_targeting_sequence",
       "source_label": "Zinc Finger",
       "target_label": "Mitochondrial Targeting Sequence",
@@ -359,9 +345,30 @@
       "source_label": "Zinc Finger",
       "target_label": "Mitochondrial DNA",
       "weight": 1.0
+    },
+    {
+      "source": "zinc_finger",
+      "target": "heteroplasmy",
+      "source_label": "Zinc Finger",
+      "target_label": "Heteroplasmy",
+      "weight": 1.0
+    },
+    {
+      "source": "zinc_finger",
+      "target": "foki",
+      "source_label": "Zinc Finger",
+      "target_label": "FokI",
+      "weight": 1.0
     }
   ],
   "top_triples_only_edges": [
+    {
+      "source": "zvad",
+      "target": "caspases",
+      "source_label": "zVAD",
+      "target_label": "Caspases",
+      "weight": 1
+    },
     {
       "source": "zone_2_cardio",
       "target": "mitochondrial_biogenesis",
@@ -378,9 +385,30 @@
     },
     {
       "source": "zinc_supplementation",
-      "target": "alzheimers_disease",
+      "target": "alzheimer_s_disease",
       "source_label": "Zinc Supplementation",
-      "target_label": "Alzheimers Disease",
+      "target_label": "Alzheimer's Disease",
+      "weight": 1
+    },
+    {
+      "source": "zinc_finger",
+      "target": "dna",
+      "source_label": "Zinc Finger",
+      "target_label": "DNA",
+      "weight": 1
+    },
+    {
+      "source": "zinc",
+      "target": "eryptosis",
+      "source_label": "Zinc",
+      "target_label": "Eryptosis",
+      "weight": 1
+    },
+    {
+      "source": "zidovudine",
+      "target": "eryptosis",
+      "source_label": "Zidovudine",
+      "target_label": "Eryptosis",
       "weight": 1
     },
     {
@@ -391,6 +419,13 @@
       "weight": 1
     },
     {
+      "source": "zellweger_syndrome",
+      "target": "neonatal_adrenoleukodystrophy",
+      "source_label": "Zellweger syndrome",
+      "target_label": "Neonatal Adrenoleukodystrophy",
+      "weight": 1
+    },
+    {
       "source": "zeb1",
       "target": "cdh1",
       "source_label": "Zeb1",
@@ -398,10 +433,24 @@
       "weight": 1
     },
     {
+      "source": "zearalenone",
+      "target": "eryptosis",
+      "source_label": "Zearalenone",
+      "target_label": "Eryptosis",
+      "weight": 1
+    },
+    {
       "source": "zcchc11",
       "target": "tutase",
       "source_label": "ZCCHC11",
       "target_label": "TUTase",
+      "weight": 1
+    },
+    {
+      "source": "zbp1",
+      "target": "pattern_recognition_receptors",
+      "source_label": "ZBP1",
+      "target_label": "Pattern Recognition Receptors",
       "weight": 1
     },
     {
@@ -416,6 +465,13 @@
       "target": "necroptosis",
       "source_label": "ZBP1",
       "target_label": "Necroptosis",
+      "weight": 1
+    },
+    {
+      "source": "z_dna",
+      "target": "zbp1",
+      "source_label": "Z-DNA",
+      "target_label": "ZBP1",
       "weight": 1
     },
     {
@@ -440,66 +496,10 @@
       "weight": 1
     },
     {
-      "source": "xanthine_oxidase",
-      "target": "superoxide_anion",
-      "source_label": "Xanthine Oxidase",
-      "target_label": "Superoxide anion",
-      "weight": 1
-    },
-    {
-      "source": "x_chromosome_inactivation",
-      "target": "dosage_compensation",
-      "source_label": "X-Chromosome Inactivation",
-      "target_label": "Dosage Compensation",
-      "weight": 1
-    },
-    {
-      "source": "x_chromosome_inactivation",
-      "target": "barr_body",
-      "source_label": "X-Chromosome Inactivation",
-      "target_label": "Barr Body",
-      "weight": 1
-    },
-    {
-      "source": "working_memory",
-      "target": "limited_capacity_cognitive_system",
-      "source_label": "Working Memory",
-      "target_label": "limited-capacity cognitive system",
-      "weight": 1
-    },
-    {
-      "source": "working_memory",
-      "target": "balanced_dopamine_in_prefrontal_cortex",
-      "source_label": "Working Memory",
-      "target_label": "balanced dopamine in Prefrontal Cortex",
-      "weight": 1
-    },
-    {
-      "source": "wnt",
-      "target": "emt",
-      "source_label": "Wnt",
-      "target_label": "EMT",
-      "weight": 1
-    },
-    {
-      "source": "withaferin_a",
-      "target": "sirt3_for_anti_fibrotic_effect",
-      "source_label": "Withaferin A",
-      "target_label": "SIRT3 for anti-fibrotic effect",
-      "weight": 1
-    },
-    {
-      "source": "william_c_campbell",
-      "target": "nobel_prize_in_physiology_or_medicine",
-      "source_label": "William C. Campbell",
-      "target_label": "Nobel Prize in Physiology or Medicine",
-      "weight": 1
-    },
-    {
-      "source": "western_diet",
-      "target": "nlrp3_dependent_trained_immunity",
-      "source_label": "Western Diet",
-      "target_label": "NLRP3-Dependent Trained Immunity",
+      "source": "xbp1",
+      "target": "upre",
+      "source_label": "XBP1",
+      "target_label": "UPRE",
       "weight": 1
     }
   ]

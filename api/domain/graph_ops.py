@@ -38,8 +38,10 @@ def get_graph() -> nx.MultiDiGraph:
 
 
 def _count_json_array(path: Path) -> int:
-    """Count top-level items in a JSON array file."""
-    return len(json.loads(path.read_text(encoding="utf-8")))
+    """Count items in a JSON array file (edges ship int-encoded {edges: [...]};
+    accept both shapes)."""
+    doc = json.loads(path.read_text(encoding="utf-8"))
+    return len(doc["edges"]) if isinstance(doc, dict) else len(doc)
 
 
 def get_combined_counts() -> dict[str, int | None]:

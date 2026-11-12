@@ -3,7 +3,7 @@ title: Caspase-11
 description: Mouse inflammatory caspase of the non-canonical inflammasome; detects cytosolic LPS, cleaves gasdermin D to form pyroptotic pores, and participates in IL-1α processing relevant to the SASP.
 protected: true
 created: 2026-07-07
-updated: 2026-07-08
+updated: 2026-11-09
 tags:
   - enzyme
   - inflammation
@@ -36,8 +36,15 @@ Caspase 11 is the mouse inflammatory (non-canonical) caspase that is the functio
 - Its human orthologs are candidate targets in autoinflammatory disease; inhibitors may modulate the SASP and [[Inflammaging]].
 - Implicated in sepsis and age-related inflammation.
 
+## Role in NETosis
+
+> [!info]
+> Source: [[_document_ - Neutrophil Extracellular Traps in Host Defense]]
+> In [[Noncanonical NETosis]], cytosolic LPS of [[Gram-Negative Bacteria]] activates the [[Noncanonical Inflammasome]]; caspase-11 (mouse) or [[Caspase-4]] (human) cleaves [[Gasdermin D]], and GSDMD-p30 nuclear pores allow caspase-11 to access chromatin. There caspase-11 degrades histones to mediate DNA decondensation — a function analogous to [[Neutrophil Elastase]] in [[Suicidal NETosis]]. Murine *Casp11* or *Gsdmd* deficiency promoted microbial dissemination to a secondary infection site during Δ*sifA Salmonella* challenge, and DNase I dismantling of NETs promoted dissemination in wild-type but not *Casp11*-deficient mice (Chen et al. 2018). Neutrophils do not undergo [[Caspase-1]]-dependent [[Pyroptosis]] during canonical inflammasome signaling but die by NETosis on noncanonical inflammasome activation.
+
 ## Documents
 
+- [[_document_ - Neutrophil Extracellular Traps in Host Defense]] — Burgener & Schroder 2020 review of caspase-11 nuclear histone cleavage during noncanonical NETosis.
 - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review notes that caspase 11, the mouse ortholog of human caspase 4/5, contributes to SASP regulation by cleaving IL-1α, which translocates to the nucleus to license NF-κB–dependent SASP transcription. Its gasdermin-D pores also enforce an inflammatory, lytic cell state that overlaps functionally with senescence-associated inflammation.
 
 ## Connections
@@ -45,11 +52,14 @@ Caspase 11 is the mouse inflammatory (non-canonical) caspase that is the functio
 - [[IL-1α]]: Caspase 11 cleaves IL-1α
 - [[Caspase-4]]: Human ortholog of caspase 11
 - [[Caspase-5]]: Human paralog with overlapping functions
-- [[Gasdermin D]]: Substrate cleaved by caspase 11 to form pyroptotic pores
+- [[Gasdermin D]]: Substrate cleaved by caspase 11 to form pyroptotic pores; GSDMD-p30 pores grant caspase-11 nuclear access
 - [[Caspase-1]]: Cooperates with caspase 11 in inflammasome amplification
+- [[Noncanonical NETosis]]: Caspase-11-dependent lytic NET extrusion; caspase-11 substitutes for NE as the nuclear histone-degrading activity
+- [[Noncanonical Inflammasome]]: The LPS-sensing cassette that activates caspase-11 in neutrophils
+- [[Neutrophil Elastase]]: Functionally replaced by caspase-11 in noncanonical NETosis
 - [[SASP|Senescence-Associated Secretory Phenotype]]: Caspase 11 activates SASP through IL-1α
 
 ## Linking Summary
 
-- New links added: [[IL-1α]], [[Caspase-4]], [[Caspase-5]], [[Gasdermin D]], [[Caspase-1]], [[Pyroptosis]], [[SASP|Senescence-Associated Secretory Phenotype]]
-- Strong connections to strengthen: Caspase 11 ↔ [[IL-1α]] activation, Caspase 11 ↔ [[Gasdermin D]]
+- New links added: [[IL-1α]], [[Caspase-4]], [[Caspase-5]], [[Gasdermin D]], [[Caspase-1]], [[Pyroptosis]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Noncanonical NETosis]], [[Noncanonical Inflammasome]], [[Neutrophil Elastase]], [[Gram-Negative Bacteria]], [[_document_ - Neutrophil Extracellular Traps in Host Defense]]
+- Strong connections to strengthen: Caspase 11 ↔ [[IL-1α]] activation, Caspase 11 ↔ [[Gasdermin D]], Caspase 11 ↔ [[Noncanonical NETosis]]

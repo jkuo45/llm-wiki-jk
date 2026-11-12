@@ -4,7 +4,7 @@ description: NAD+ (Nicotinamide Adenine Dinucleotide) is a critical coenzyme fou
   in every cell, essential for energy Metabolism and a vital signaling molecule. It
   serves as an obligatory co-substrate for all ...
 created: 2026-07-04
-updated: 2026-09-14
+updated: 2026-11-11
 tags:
   - chemical-compound
   - nad-plus
@@ -108,6 +108,9 @@ NAD+ is synthesized from [[Vitamin B3]] precursors ([[Nicotinamide]], [[Nicotini
 
 # 
 
+> [!info] Source: [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026]]
+> A reduced NAD+/NADH ratio is a retrograde signal in MiDAS: inefficient NADH reoxidation shifts redox state, activates AMPK, and helps determine both cell-cycle arrest and the quality of the SASP.
+
 ## Documents
 
 List of documents that mention this entity
@@ -154,6 +157,7 @@ List of documents that mention this entity
 
   - [[_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers|Moura et al. 2024 Genet Mol Biol]]
     - NAD+ is the consumed substrate of PARP1 hyperactivation; compartmentalized pools (nuclear/cytosolic vs [[SLC25A51]]-gated mitochondrial), salvage ATP cost, and context-dependent NR/NMN rescue are framed as open questions.
+- [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026 — Mitochondrial dysfunction and inflammaging]]: Frames the NAD+/NADH ratio as a metabolic signal coupling respiratory dysfunction to MiDAS.
 
 ## Connections
 - [[Sirtuins]] — NAD+ is the obligate co-substrate for all sirtuin enzymes

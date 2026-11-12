@@ -64,18 +64,18 @@ class TestOriginGate:
 class TestHealth:
     def test_ok(self, api_env, monkeypatch):
         async def healthy():
-            return {"version": "1.18.5"}
+            return {"version": "2.1.1"}
 
         monkeypatch.setattr(prompts_mod, "opencode_health", healthy)
         body = api_env.get("/v1/health").json()
         assert body["status"] == "ok"
         # no combined dataset in tmp -> falls back to triples graph
         assert body["nodes"] == 5 and body["edges"] == 4
-        assert body["opencode"] == {"status": "ok", "version": "1.18.5"}
+        assert body["opencode"] == {"status": "ok", "version": "2.1.1"}
 
     def test_combined_counts(self, api_env, monkeypatch, tmp_path):
         async def healthy():
-            return {"version": "1.18.5"}
+            return {"version": "2.1.1"}
 
         monkeypatch.setattr(prompts_mod, "opencode_health", healthy)
         (tmp_path / "nodes.json").write_text(

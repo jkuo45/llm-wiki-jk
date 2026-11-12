@@ -2,7 +2,7 @@
 title: Aging（老化）
 description: 老化與表觀遺傳學的關係是現代老年生物學的核心焦點。表觀遺傳學是指對 DNA 及其相關蛋白質的化學修飾，這些修飾可在不改變基因序列的情況下調節基因表現……
 created: 2026-05-29
-updated: 2026-10-21
+updated: 2026-05-29
 tags:
   - biological-process
 aliases: [老化]

@@ -2,7 +2,7 @@
 title: Minority MOMP
 description: Sublethal, partial mitochondrial outer membrane permeabilization that releases mtDNA and drives the SASP without committing the cell to apoptosis.
 created: 2026-07-07
-updated: 2026-07-08
+updated: 2026-11-11
 tags:
   - biological-process
   - mitochondria
@@ -36,12 +36,16 @@ aliases: [Minority MOMP, miMOMP, sublethal MOMP]
 - It provides a mechanistic rationale for combining [[Senolytics]] (which kill SCAP-protected cells) with cGAS–STING inhibitors in age-related disease.
 - Dysregulated miMOMP is implicated in sterile inflammation and therapy resistance.
 
+> [!info] Source: [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026]]
+> In cultured human fibroblast senescence models, minority MOMP enables [[BAX]]/[[BAK]]-dependent mtDNA release and [[cGAS-STING Pathway|cGAS–STING]]-mediated [[SASP]] regulation without cell death; genetic and pharmacological interventions support a contribution to inflammatory phenotypes and selected functional outcomes in aged mice (Victorelli et al., Nature 2023). Prevalence in physiological human ageing remains unestablished.
+
 ## Documents
 
 List of documents that mention this entity
 
   - [[_document_ - SASP, senescent cells, grok|SASP, senescent cells, grok]]
     - Explains how miMOMP releases mtDNA to activate cGAS-STING and drive SASP without cell death.
+- [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026 — Mitochondrial dysfunction and inflammaging]]: Cites causal evidence that minority MOMP drives mtDNA release and SASP regulation in senescence models and aged mice.
 
 ## Connections
 

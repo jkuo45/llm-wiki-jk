@@ -2,7 +2,7 @@
 title: FSP1
 description: 鐵死亡抑制蛋白 1（FSP1，舊稱 AIFM2）是一種質膜黃素蛋白，利用 NAD(P)H 將泛醌（CoQ10）還原為泛醇，一種親脂性的自由基捕捉型抗氧化劑，藉此作為不依賴 GPX4 的平行鐵死亡煞車。
 created: 2026-07-04
-updated: 2026-10-21
+updated: 2026-08-24
 tags:
   - protein
   - enzyme

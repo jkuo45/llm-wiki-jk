@@ -2,7 +2,7 @@
 title: Hormesis（馴化）
 description: 馴化是一種生物學現象：暴露於某種在較高劑量下具有毒性或致命性（…）的作用因子之低劑量，會產生有益效應（健康改善、壓力耐受性、生長或長壽）。
 created: 2026-07-04
-updated: 2026-10-21
+updated: 2026-07-04
 tags:
   - scientific-concept
   - hormesis

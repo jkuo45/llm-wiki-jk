@@ -9,7 +9,7 @@ import subprocess
 import sys
 import urllib.parse
 from collections import OrderedDict
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 
 try:
@@ -476,8 +476,9 @@ def build_web_tasks(task_data, args):
 # graph centrality + star + quality — see score_note) and registered in
 # web/public/data/wiki.json, with the markdown copied into
 # web/public/wiki/en-US/ (wiped + regenerated each run). The feed is the top
-# --wiki-limit by score PLUS every note that has a zh-TW translation, so a
-# translated note is never dropped by a burst of new stubs.
+# --wiki-limit by score PLUS every note that has a zh-TW translation PLUS
+# every entity note touched within --wiki-recent-days, so neither a translated
+# note nor a freshly written one is dropped by a burst of new stubs.
 # web/public/wiki/zh-TW is hand-maintained (translations are stored
 # web-only) and must survive rebuilds, exactly like tasks zh-TW.
 # Entities only: README/index and _document_* notes are excluded from the feed.
@@ -591,6 +592,7 @@ def batch_git_dates(subdir, repo_root):
 WIKI_LIMIT_DEFAULT = 50
 WIKI_HALF_LIFE_DAYS = 60.0
 WIKI_WEIGHTS_DEFAULT = (0.50, 0.35, 0.10, 0.05)
+WIKI_RECENT_DAYS_DEFAULT = 30
 
 
 def _parse_weights(s):
@@ -719,19 +721,26 @@ def build_web_wiki(note_rows, args, repo_root):
         reverse=True,
     )
     # The cap bounds the reader dropdown and the EN copies on disk, not the
-    # translations: every note with a zh-TW sibling joins regardless of rank,
-    # so a translated note can never fall out of the feed. Selection reads
-    # only src/notes + web/public/wiki/zh-TW — never last run's wiki.json or
-    # the en-US copies — so re-running is a fixpoint, not a growing set.
+    # translations or fresh work: every note with a zh-TW sibling joins
+    # regardless of rank, and so does any entity note touched within
+    # --wiki-recent-days. Selection reads only src/notes +
+    # web/public/wiki/zh-TW — never last run's wiki.json or the en-US
+    # copies — so re-running is a fixpoint, not a growing set.
     zh_by_norm = {norm(stem_of(z["path"])): z for z in scan_web_zh_wiki(args)}
-    ranked = ranked_all[: args.wiki_limit] + [
-        r for r in ranked_all[args.wiki_limit:]
-        if norm(stem_of(r["src"]["path"])) in zh_by_norm
-    ]
-    n_kept = len(ranked) - min(len(ranked_all), args.wiki_limit)
-    if n_kept:
-        print(f"wiki feed: {min(len(ranked_all), args.wiki_limit)} by score "
-              f"+ {n_kept} kept for zh-TW translation")
+    recent_cutoff = (now - timedelta(days=args.wiki_recent_days)
+                     if args.wiki_recent_days > 0 else None)
+    def is_recent(r):
+        return recent_cutoff is not None and max(r["created_dt"], r["updated_dt"]) >= recent_cutoff
+    beyond = ranked_all[args.wiki_limit:]
+    kept_zh = [r for r in beyond if norm(stem_of(r["src"]["path"])) in zh_by_norm]
+    kept_recent = [r for r in beyond
+                   if norm(stem_of(r["src"]["path"])) not in zh_by_norm and is_recent(r)]
+    ranked = ranked_all[: args.wiki_limit] + kept_recent + kept_zh
+    if kept_recent or kept_zh:
+        print(f"wiki feed: {min(len(ranked_all), args.wiki_limit)} by score"
+              + (f" + {len(kept_recent)} kept for recency (< {args.wiki_recent_days}d)"
+                 if kept_recent else "")
+              + (f" + {len(kept_zh)} kept for zh-TW translation" if kept_zh else ""))
     if ranked:
         names = [re.sub(r"\.md$", "", os.path.basename(r["src"]["path"]))
                  for r in ranked[:5]]
@@ -909,6 +918,12 @@ def main():
         type=int,
         default=WIKI_LIMIT_DEFAULT,
         help=f"Max wiki notes in the reader feed by score; notes with a zh-TW translation are always kept (default: {WIKI_LIMIT_DEFAULT})",
+    )
+    parser.add_argument(
+        "--wiki-recent-days",
+        type=int,
+        default=WIKI_RECENT_DAYS_DEFAULT,
+        help=f"Always include entity notes touched within N days, like the zh-TW keeper rule; 0 disables (default: {WIKI_RECENT_DAYS_DEFAULT})",
     )
     parser.add_argument(
         "--wiki-roles",
@@ -1202,7 +1217,7 @@ def main():
     dataset_rows = [
         (
             "**Combined** *(default)*",
-            "nodes.json, edges.json, legend.json, graph-meta.json, node_roles.json, roles-meta.json",
+            "nodes.json, edges.json, edge-context.json, legend.json, graph-meta.json, node_roles.json, roles-meta.json",
             "nodes.json",
             "edges.json",
         ),

@@ -2,7 +2,7 @@
 title: B2M
 description: Beta-2 microglobulin, the invariant light chain of MHC class I molecules; a senescence surface marker used for targeted senolytic delivery and a plasma protein surrogate in the DNAmGrimAge epigenetic clock.
 created: 2026-07-27
-updated: 2026-07-27
+updated: 2026-11-08
 tags:
   - protein
   - cell-surface-marker
@@ -28,6 +28,10 @@ In the context of the [[HLA-E]] / [[NKG2A]] / [[CD94]] immune checkpoint axis, B
 
 B2M is enriched on the surface of [[Senescent Cells]] and has been exploited as a selective target for antibody-drug conjugates (ADCs) in senolytic therapy. Anti-B2M antibodies conjugated to pyrrolobenzodiazepine (PBD) cytotoxic payloads selectively kill senescent human dermal fibroblasts while sparing proliferating cells. This targeting strategy is part of a broader push toward more specific senolytic agents that spare non-senescent tissues.
 
+## Anti-phagocytic Signal Function
+
+Surface MHC-I/B2M density also sets an anti-phagocytic ("don't-eat-me") threshold in macrophage and microglial phagocytic decisions: inhibitory receptors that read MHC-I display (PILRβ, KIR-family, LILR family) spare MHC-I-intact cells, so reduced β2M/MHC-I display licenses phagocytosis — observed for aged neurons in rodent and organotypic-slice models (Tier 3; untested directly in humans). B2M thus belongs to the don't-eat-me signal class alongside [[CD47]], [[CD24]]–[[Siglec-10]], and [[PD-L1]]; see [[Efferocytosis]] for the balance logic.
+
 ## Biomarker in Aging
 
 B2M is one of the plasma protein surrogates incorporated into the [[DNAmGrimAge]] epigenetic clock, where DNA methylation patterns are used to estimate B2M levels as a component of the composite mortality predictor. Elevated circulating B2M is associated with [[Inflammaging]], [[Chronic Kidney Disease]], and [[Cardiovascular Disease]].
@@ -48,6 +52,8 @@ B2M is one of the plasma protein surrogates incorporated into the [[DNAmGrimAge]
 - [[DNAmGrimAge]]: B2M is a plasma protein surrogate in the GrimAge mortality predictor.
 - [[NKG2A]] / [[CD94]]: The inhibitory receptor that recognizes HLA-E/B2M complexes.
 - [[Immune Evasion]]: Senescent and tumor cells upregulate HLA-E/B2M to evade NK and CD8+ T cell killing.
+- [[Siglec-10]] / [[CD24]] / [[CD47]] / [[PD-L1]] — parallel "don't-eat-me" display; MHC-I/B2M density read by inhibitory receptors licenses phagocytosis of cells that lose it.
+- [[Efferocytosis]] — the clearance process whose uptake threshold B2M/MHC-I display helps set.
 - [[Inflammaging]]: Elevated circulating B2M correlates with age-related chronic inflammation.
 - [[Senolytics]]: B2M-targeted ADCs represent a selective senolytic strategy.
 

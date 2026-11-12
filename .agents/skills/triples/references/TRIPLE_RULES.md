@@ -22,7 +22,7 @@ Each triple is a JSON object with the following fields:
 | `predicate`  | string            | The relationship verb (present tense, lowercase)                     |
 | `object`     | string            | The target entity (normalized to canonical name)                     |
 | `context`    | object            | BCP-47 map: `{"en-US": string, "zh-TW": string}`. `en-US` is canonical; translate prose to `zh-TW`, preserve entity names. |
-| `confidence` | string \| float   | Confidence level (`high`/`medium`/`low`) or numeric score (0–1)       |
+| `confidence` | float             | Numeric confidence score (0–1). Legacy `high`/`medium`/`low` strings are read by the normalizer but no longer written. |
 | `source_document` | string       | Originating wiki note filename                                       |
 | `created`    | string (ISO UTC)  | `YYYY-MM-DDTHH:MM:SSZ` — first added; immutable                       |
 | `updated`    | string (ISO UTC)  | `YYYY-MM-DDTHH:MM:SSZ` — bumped on any content change                 |
@@ -73,11 +73,11 @@ Each triple is a JSON object with the following fields:
 
 ## Confidence Guidelines
 
-| Level    | Criteria                                                |
+| Score    | Criteria                                                |
 | -------- | ------------------------------------------------------- |
-| `high`   | Directly stated in source, well-established finding     |
-| `medium` | Implied by context, supported by multiple mentions      |
-| `low`    | Speculative, inferred, or single indirect mention       |
+| `0.9`    | Directly stated in source, well-established finding     |
+| `0.7`    | Implied by context, supported by multiple mentions      |
+| `0.5`    | Speculative, inferred, or single indirect mention       |
 
 ## Deduplication
 
@@ -85,7 +85,7 @@ When updating an existing `_triples.json`, do not duplicate identical triples (s
 
 - Keep the **existing `id` and `created`**, bump **`updated`** with the newer content.
 - Different context → keep the updated triple's context (both languages) as the canonical entry; retain any alternates as supplementary text if still valued.
-- Different confidence → keep the higher confidence level.
+- Different confidence → keep the higher confidence score.
 - At graph-build time, `scripts/triples/rebuild.py` resolves cross-file edge collisions as **most-recent `updated` wins** (tie-break higher confidence, then first-seen). The schema normalizer enforces unique `id` within each file and drops later duplicates.
 
 ## Normalization

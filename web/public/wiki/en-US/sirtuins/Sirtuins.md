@@ -2,7 +2,7 @@
 title: Sirtuins
 description: Sirtuins (SIRTs) are a highly conserved family of nicotinamide adenine dinucleotide (NAD⁺)-dependent enzymes belonging to Class III histone deacetylases (HDACs). Spanning all domains of life, sirtu...
 created: 2026-07-04
-updated: 2026-08-03
+updated: 2026-11-10
 tags:
   - protein
   - epigenetics
@@ -171,6 +171,9 @@ The _Trends in Genetics_ review ([[_document_ - Sirtuins Guardians of Mammalian 
 - **Pharmacology:** [[Resveratrol]] rescues HFD-shortened lifespan; [[SRT1720]] extends mean lifespan ~18% (HFD) / 8.8% (standard diet); [[NMN]]/[[Nicotinamide Riboside|NR]] raise NAD+ to sustain sirtuin activity; [[CD38]] is the major NADase opposing sirtuins.
 
 ## Documents
+
+- [[_document_ - Sirtuins at a glance|Sirtuins at a Glance (Nakagawa & Guarente 2011)]]
+  - *J. Cell Sci.* Cell Science at a Glance: sirtuin core-domain architecture, NAD+ biosynthesis/circadian (NAMPT, CLOCK:BMAL1) regulation, and SIRT1 across chromatin, metabolism, inflammation, cardiovascular, cancer and brain — this note's primary 2011 survey source.
 
 List of documents that mention this entity
 

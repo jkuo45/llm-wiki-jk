@@ -8468,5 +8468,1293 @@
     "source_document": "task_output_triples_review_adrenochrome_mitohormesis_autophagy_sirtuins_21_AUGUST_2026.md",
     "created": "2026-09-27T03:09:16Z",
     "updated": "2026-09-27T03:09:16Z"
+  },
+  {
+    "id": "2f000dd150f8",
+    "subject": "Calreticulin",
+    "predicate": "is_recognized_by",
+    "object": "LRP1",
+    "context": {
+      "en-US": "Surface-exposed Calreticulin on anthracycline-treated, photodynamically treated, or irradiated tumor cells is recognized by LRP1/CD91 on phagocytes, providing the dominant eat-me signal of immunogenic cell death. Gardai et al. 2005 established this pairing in cellular assays. Calreticulin-driven uptake only proceeds when the opposing CD47 brake is insufficient, so LRP1 engagement licenses engulfment while tumor antigens released from the same dying cell can prime the adaptive immune response.",
+      "zh-TW": "經 anthracycline、光動力治療或放射治療後暴露於腫瘤細胞表面的 Calreticulin，會被吞噬細胞上的 LRP1/CD91 識別，構成免疫原性細胞死亡的主要 eat-me 訊號。Gardai et al. 2005 在細胞試驗中確立此配對。當對抗性的 CD47 剎車不足時，Calreticulin 驅動的攝取才能進行，因此 LRP1 的結合可許可吞噬作用，而同一死亡細胞釋出的腫瘤抗原則可啟動適應性免疫反應。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_eat_me_dont_eat_me_signals_08_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "c50e06bcdbe6",
+    "subject": "Cardiolipin",
+    "predicate": "is_recognized_by",
+    "object": "CD36",
+    "context": {
+      "en-US": "Cardiolipin translocated to the outer surface of stressed mitochondria and dying cells functions as an eat-me signal recognized by CD36 on macrophages. Balasubramanian et al. 2015 (Science Signaling 8:ra95; PMID 26396268) showed extracellular cardiolipin drives CD36-dependent macrophage uptake in vitro. This is distinct from intracellular cardiolipin, whose externalization to the outer mitochondrial membrane recruits LC3 for mitophagic clearance, linking one lipid to both organelle-level and cell-level removal programs.",
+      "zh-TW": "轉位至受壓粒線體與死亡細胞外表面的 Cardiolipin 可作為 eat-me 訊號，被巨噬細胞上的 CD36 識別。Balasubramanian et al. 2015（Science Signaling 8:ra95；PMID 26396268）顯示細胞外 cardiolipin 在體外驅動 CD36 依賴的巨噬細胞攝取。這與細胞內 cardiolipin 不同，後者外翻至粒線體外膜後招募 LC3 進行粒線體自噬清除，使同一脂質連結胞器層級與細胞層級的清除程序。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_eat_me_dont_eat_me_signals_08_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "ad8de68573e2",
+    "subject": "Cardiolipin",
+    "predicate": "recruits",
+    "object": "LC3",
+    "context": {
+      "en-US": "When cardiolipin is externalized from the inner to the outer mitochondrial membrane after mitochondrial stress, it directly recruits LC3, the autophagosome membrane protein, to target the damaged organelle for mitophagy. Chu et al. 2013 (Nature Cell Biology 15:1197-1205; PMID 24036476) demonstrated this cardiolipin-LC3 interaction in vitro. The same lipid therefore acts intracellularly as a mitophagy eat-me tag and extracellularly as a CD36-recognized signal for macrophage clearance of dying cells.",
+      "zh-TW": "粒線體受壓後，cardiolipin 由粒線體內膜外翻至外膜時，會直接招募自噬體膜蛋白 LC3，將受損胞器導向粒線體自噬。Chu et al. 2013（Nature Cell Biology 15:1197-1205；PMID 24036476）在體外證明此 cardiolipin-LC3 交互作用。因此同一脂質在細胞內作為粒線體自噬的 eat-me 標記，在細胞外則作為 CD36 識別的訊號，供巨噬細胞清除死亡細胞。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_eat_me_dont_eat_me_signals_08_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "45701d703f0f",
+    "subject": "CD47",
+    "predicate": "engages",
+    "object": "SIRPalpha",
+    "context": {
+      "en-US": "CD47 on nucleated cells and erythrocytes engages SIRPalpha on macrophages and dendritic cells, whose cytoplasmic ITIM motifs recruit SHP-1 and SHP-2 and drive myosin-II accumulation that physically blocks engulfment. CD47 levels rise with age in arteries, lung, and photoaged skin, whereas loss of CD47 from aged erythrocytes removes this brake and accelerates their clearance in red-cell models (Khandelwal et al. 2007; PMID 17725740), making the pair a threshold-setting inhibitory axis.",
+      "zh-TW": "有核細胞與紅血球上的 CD47 會結合巨噬細胞與樹突細胞上的 SIRPalpha，其細胞質 ITIM 基序招募 SHP-1 與 SHP-2，並驅動 myosin-II 累積，物理性阻斷吞噬。CD47 含量隨年齡在動脈、肺與光老化皮膚中上升，而老化紅血球失去 CD47 則解除此剎車並加速清除（Khandelwal et al. 2007；PMID 17725740），使此配對成為設定門檻的抑制軸。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_eat_me_dont_eat_me_signals_08_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "cb9dbb10ede5",
+    "subject": "PD-L1",
+    "predicate": "inhibits",
+    "object": "Phagocytosis",
+    "context": {
+      "en-US": "PD-L1 on tumor cells engages PD-1 expressed on macrophages at the phagocytic synapse and directly suppresses macrophage phagocytosis, independently of the canonical T-cell checkpoint mechanism. Gordon et al. 2017 (Nature 545:495-499; PMID 28514441) showed blocking the PD-L1-PD-1 pair licenses tumor-cell uptake by macrophages in vitro. PD-1/PD-L1 blockade is approved in oncology for T-cell checkpoint inhibition (Tier 1), but the macrophage phagocytic arm specifically remains Tier 4 evidence.",
+      "zh-TW": "腫瘤細胞上的 PD-L1 會在吞噬突觸處結合巨噬細胞表現的 PD-1，直接抑制巨噬細胞的吞噬作用，獨立於典型的 T 細胞檢查點機制。Gordon et al. 2017（Nature 545:495-499；PMID 28514441）顯示阻斷 PD-L1-PD-1 配對可在體外許可巨噬細胞攝取腫瘤細胞。PD-1/PD-L1 阻斷已獲核准用於 T 細胞檢查點抑制（Tier 1），但巨噬細胞吞噬臂的證據仍屬 Tier 4。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_eat_me_dont_eat_me_signals_08_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "d024e1baa8ad",
+    "subject": "SLAMF7",
+    "predicate": "promotes",
+    "object": "Phagocytosis",
+    "context": {
+      "en-US": "SLAMF7 (CS1/CD319) on hematopoietic tumor cells acts as a pro-phagocytic eat-me signal rather than a brake, engaging homotypic SLAMF7 binding together with Mac-1 (CD11b/CD18) on macrophages through FcRgamma/DAP12 and Syk/Btk signaling. Chen et al. 2017 (Nature 544:493-497; PMID 28424516) found SLAMF7 required for macrophage phagocytosis of hematopoietic tumor cells during CD47-SIRPalpha blockade, although He et al. 2019 disputed the requirement, and SLAMF3/SLAMF4 are the inhibitory family members.",
+      "zh-TW": "造血腫瘤細胞上的 SLAMF7（CS1/CD319）是促吞噬的 eat-me 訊號而非剎車，透過同型 SLAMF7 結合並與巨噬細胞上的 Mac-1（CD11b/CD18）經 FcRgamma/DAP12 與 Syk/Btk 訊號作用。Chen et al. 2017（Nature 544:493-497；PMID 28424516）發現 CD47-SIRPalpha 阻斷時巨噬細胞吞噬造血腫瘤細胞需要 SLAMF7，但 He et al. 2019 對此必要性提出異議，且 SLAMF3/SLAMF4 才是抑制性家族成員。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_eat_me_dont_eat_me_signals_08_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "f9fb79d911b0",
+    "subject": "Phosphatidylserine",
+    "predicate": "is_recognized_by",
+    "object": "TIM-4",
+    "context": {
+      "en-US": "Externalized Phosphatidylserine on apoptotic, eryptotic, activated-platelet, and tumor-cell membranes is directly recognized by TIM-4, BAI1, and stabilin-2 on phagocytes, and indirectly through Gas6/Protein S bridging to MerTK-type TAM receptors or MFGE8 bridging to integrins. Execution requires scramblase activation plus flippase inactivation: calcium activates TMEM16F/ANO6 in eryptosis, whereas caspases cleave ATP11C and activate XKR8 in apoptosis. Phosphatidylserine-positive uptake skews macrophages toward HO-1-producing anti-inflammatory states.",
+      "zh-TW": "凋亡、eryptotic、活化血小板與腫瘤細胞膜上外翻的 Phosphatidylserine，可被吞噬細胞上的 TIM-4、BAI1 與 stabilin-2 直接識別，也可經 Gas6/Protein S 橋接至 MerTK 型 TAM 受體，或經 MFGE8 橋接至 integrins。執行需要 scramblase 活化加 flippase 失活：鈣在 eryptosis 中活化 TMEM16F/ANO6，caspases 在 apoptosis 中切割 ATP11C 並活化 XKR8。Phosphatidylserine 陽性攝取使巨噬細胞偏向產生 HO-1 的抗發炎狀態。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_eat_me_dont_eat_me_signals_08_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "0ddebc5372e2",
+    "subject": "Sialic Acid",
+    "predicate": "inhibits",
+    "object": "Phagocytosis",
+    "context": {
+      "en-US": "Terminal sialic acids and alpha2,8-polysialic acid on healthy viable cells engage inhibitory Siglec lectins on phagocytes, including Siglec-10, Siglec-7, and Siglec-11 for alpha2,8-polysialic acid, thereby marking the cell as not to be eaten. Enzymatic removal by sialidase converts the cell to an eat-me state. Age-related desialylation of erythrocytes is the classical senescent clearance cue and bridges to immunoglobulin recognition of Anion Exchanger 1, distinct from the phosphatidylserine-driven eryptosis route.",
+      "zh-TW": "健康存活細胞上的末端 Sialic Acid 與 alpha2,8-polysialic acid 會結合吞噬細胞上的抑制性 Siglec 凝集素，包括 Siglec-10、Siglec-7，以及識別 alpha2,8-polysialic acid 的 Siglec-11，標記細胞不應被吞噬。經 sialidase 酵素移除後，細胞轉為 eat-me 狀態。紅血球隨年齡去唾液酸化是典型的衰老清除線索，並橋接至針對 Anion Exchanger 1 的免疫球蛋白識別，不同於 Phosphatidylserine 驅動的 eryptosis 路徑。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_eat_me_dont_eat_me_signals_08_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "12fba7da1493",
+    "subject": "Beta-2 Microglobulin",
+    "predicate": "is_recognized_by",
+    "object": "LILRB1",
+    "context": {
+      "en-US": "Surface MHC-I together with its Beta-2 Microglobulin subunit sets an anti-phagocytic threshold through LILRB1 (ILT2) on macrophages, with LILRB2/PirB serving the analogous role in mouse central nervous system. Barkal et al. 2018 (Nature Immunology 19:76-84; PMID 29180808) showed disruption of either MHC-I display or LILRB1 potentiated tumor-cell phagocytosis in vitro and in mouse models (Tier 3). Tumor cells frequently up-regulate this axis to resist macrophage clearance.",
+      "zh-TW": "細胞表面的 MHC-I 及其 Beta-2 Microglobulin 次單元，透過巨噬細胞上的 LILRB1（ILT2）設定抗吞噬門檻，LILRB2/PirB 在小鼠中樞神經系統扮演類似角色。Barkal et al. 2018（Nature Immunology 19:76-84；PMID 29180808）顯示破壞 MHC-I 呈現或 LILRB1 均可在體外與小鼠模型中增強腫瘤細胞吞噬（Tier 3）。腫瘤細胞常上調此軸以抵抗巨噬細胞清除。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_eat_me_dont_eat_me_signals_08_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "71241fe5c476",
+    "subject": "CD31",
+    "predicate": "inhibits",
+    "object": "Phagocytosis",
+    "context": {
+      "en-US": "CD31 (PECAM-1) on endothelium, platelets, and leukocytes functions as a live-cell don't-eat-me badge through homophilic CD31-CD31 engagement between the target cell and the phagocyte. The inhibitory signal operates only while the target cell remains viable and competent to signal through CD31; apoptotic cells lose this competence, permitting engulfment despite continued CD31 presence. This viability-dependent mechanism was reported in vitro (Tier 4) and differs from ITIM-receptor brakes such as SIRPalpha or Siglec-10.",
+      "zh-TW": "內皮細胞、血小板與白血球上的 CD31（PECAM-1）透過目標細胞與吞噬細胞之間的同型 CD31-CD31 結合，作為活細胞的 don't-eat-me 標記。此抑制訊號僅在目標細胞保持存活且能透過 CD31 傳訊時運作；凋亡細胞失去此能力，即使 CD31 仍存在也可被吞噬。此存活依賴機制於體外報告（Tier 4），不同於 SIRPalpha 或 Siglec-10 等 ITIM 受體剎車。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_eat_me_dont_eat_me_signals_08_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "33eefe599106",
+    "subject": "CXCL14",
+    "predicate": "recruits",
+    "object": "Macrophage",
+    "context": {
+      "en-US": "Extracellular-matrix-anchored CXCL14 secreted during early senescence, before the NF-kappaB/IL-6 SASP matures, functions as an eat-me/come-find-me chemoattractant that recruits macrophages, dendritic cells, NK cells, and T cells to senescent cells. CXCL14 is retained on endothelial glycosaminoglycans, positioning the recruited phagocytes at the senescent-cell site, and its receptor remains unidentified (Tier 4). Unlike surface tags such as phosphatidylserine, CXCL14 mediates recruitment rather than the engulfment step itself.",
+      "zh-TW": "早期衰老期間、在 NF-kappaB/IL-6 SASP 成熟之前分泌並錨定於細胞外基質的 CXCL14，作為 eat-me/come-find-me 化學趨化因子，招募巨噬細胞、樹突細胞、NK 細胞與 T 細胞至衰老細胞。CXCL14 保留於內皮 glycosaminoglycans 上，將招募的吞噬細胞定位於衰老細胞處，其受體尚未識別（Tier 4）。與 phosphatidylserine 等表面標記不同，CXCL14 介導招募而非吞噬步驟本身。"
+    },
+    "confidence": 0.7,
+    "source_document": "task_output_eat_me_dont_eat_me_signals_08_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "352013feebba",
+    "subject": "Clonal Hematopoiesis",
+    "predicate": "is_associated_with",
+    "object": "Anemia",
+    "context": {
+      "en-US": "Age-related Clonal Hematopoiesis carrying somatic DNMT3A, TET2, and ASXL1 mutations in hematopoietic stem cells is associated with anemia and adverse outcomes, acting upstream at the erythroid-lineage level because mature erythrocytes carry no nuclear DNA. Jaiswal 2014 (n=17,182; Tier 2) found clonal mutations in 9.5% of individuals aged 70-79 years, 11.7% at 80-89 years, and 18.4% at 90-108 years. No study links donor mutation burden to eryptotic threshold of circulating cells.",
+      "zh-TW": "帶有造血幹細胞體細胞 DNMT3A、TET2 與 ASXL1 突變的年齡相關 Clonal Hematopoiesis 與 Anemia 及不良預後相關，其作用位於紅系譜系層級，因成熟紅血球不含核 DNA。Jaiswal 2014（n=17,182；Tier 2）發現 70-79 歲者 9.5%、80-89 歲者 11.7%、90-108 歲者 18.4% 帶有克隆突變。尚無研究將供者突變負荷與循環細胞的 eryptotic 門檻連結。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_eryptosis_and_aging_12_hallmarks_09_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "e8939da87851",
+    "subject": "N-Acetylcysteine",
+    "predicate": "extends_lifespan_of",
+    "object": "Erythrocytes",
+    "context": {
+      "en-US": "N-Acetylcysteine reversed the age-associated rise in annexin V binding of old erythrocytes in vitro and prolonged mouse red-cell half-life in vivo, reported by Ghashghaeinia 2012 across five density/volume fractions (Tier 4/3). After 48 hours in Ringer solution, annexin V binding rose with cell age without altered glutathione, and NAC normalized the phosphatidylserine exposure. This supports oxidation susceptibility, rather than glutathione depletion alone, as the driver of accelerated eryptosis in aged erythrocytes.",
+      "zh-TW": "N-Acetylcysteine 在體外逆轉老化紅血球隨年齡上升的 annexin V 結合，並在體內延長小鼠紅血球半衰期，由 Ghashghaeinia 2012 在五個密度/體積分級中報告（Tier 4/3）。在 Ringer 溶液 48 小時後，annexin V 結合隨細胞年齡上升而 glutathione 未改變，NAC 使 phosphatidylserine 暴露正常化。這支持氧化敏感性、而非僅 glutathione 耗竭，是老化紅血球 eryptosis 加速的驅動因素。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_eryptosis_and_aging_12_hallmarks_09_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "150556d22fe4",
+    "subject": "MARCH1",
+    "predicate": "ubiquitinates",
+    "object": "CD47",
+    "context": {
+      "en-US": "The E3 ubiquitin ligase MARCH1 mediates ubiquitination and ubiquitin-proteasome degradation of CD47 on erythrocyte ghosts, reducing the don't-eat-me signal and enhancing macrophage phagocytosis of hemolytic erythrocytes. Wang 2026 reported this CD47 downregulation mechanism in iScience (Tier 4, human cohort-adjacent cellular work). Because CD47 loss is also a defining surface change of erythrocyte senescence alongside desialylation and glycophorin depletion, MARCH1-dependent degradation provides a molecular route linking proteostasis machinery to senescent red-cell clearance.",
+      "zh-TW": "E3 泛素連接酶 MARCH1 介導紅血球影膜上 CD47 的泛素化與泛素-蛋白酶體降解，降低 don't-eat-me 訊號並增強巨噬細胞對溶血紅血球的吞噬。Wang 2026 在 iScience 報告此 CD47 下調機制（Tier 4）。由於 CD47 喪失也是紅血球衰老的定義性表面變化，與去唾液酸化及 glycophorin 耗竭並列，MARCH1 依賴的降解提供了連結 proteostasis 機器與衰老紅血球清除的分子路徑。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_eryptosis_and_aging_12_hallmarks_09_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "8c6d6e54da8f",
+    "subject": "Phosphatidylserine",
+    "predicate": "binds",
+    "object": "CXCL16",
+    "context": {
+      "en-US": "Phosphatidylserine exposed on eryptotic erythrocytes mediates adhesion to endothelium through CXCL16/SR-PSOX, which functions as a phosphatidylserine receptor on endothelial cells. Borst 2012 demonstrated dynamic adhesion of eryptotic erythrocytes to endothelial cells via this CXCL16/SR-PSOX interaction in vitro (Tier 4), and phosphatidylserine also mediates platelet binding. This converts the canonical eat-me tag into a vascular adhesion signal, contributing to microvascular impairment when eryptotic cells accumulate rather than being cleared.",
+      "zh-TW": "Eryptotic 紅血球上暴露的 Phosphatidylserine 透過 CXCL16/SR-PSOX 介導與內皮的黏附，CXCL16/SR-PSOX 在內皮細胞上作為 phosphatidylserine 受體。Borst 2012 在體外證明 eryptotic 紅血球經 CXCL16/SR-PSOX 交互作用動態黏附內皮細胞（Tier 4），phosphatidylserine 也介導血小板結合。這使典型 eat-me 標記轉為血管黏附訊號，當 eryptotic 細胞累積而未被清除時促成微血管損傷。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_eryptosis_and_aging_12_hallmarks_09_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "453a1b6f46ab",
+    "subject": "Methylglyoxal",
+    "predicate": "externalizes",
+    "object": "Phosphatidylserine",
+    "context": {
+      "en-US": "Methylglyoxal and hyperglycemia drive Phosphatidylserine exposure on erythrocytes and generate procoagulant red cells under diabetes-relevant conditions, reported by Kim 2026 (Tier 4/3). This places deregulated nutrient-sensing upstream of the eryptosis execution module: glycolytic stress and dicarbonyl load converge on cation-channel calcium entry, Gardos-channel shrinkage, and scramblase-mediated phosphatidylserine externalization. The resulting phosphatidylserine-positive erythrocytes support thrombin generation and venous thrombosis, linking metabolic hallmarks of aging to vascular pathology through eryptosis.",
+      "zh-TW": "Methylglyoxal 與高血糖在糖尿病相關條件下驅動紅血球 Phosphatidylserine 暴露並產生促凝紅血球，由 Kim 2026 報告（Tier 4/3）。這將失調的營養感應置於 eryptosis 執行模組上游：糖解壓力與二羰基負荷匯聚於陽離子通道鈣流入、Gardos 通道皺縮與 scramblase 介導的 phosphatidylserine 外翻。產生的 phosphatidylserine 陽性紅血球支持 thrombin 生成與靜脈血栓，將老化的代謝 hallmarks 透過 eryptosis 連結至血管病理。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_eryptosis_and_aging_12_hallmarks_09_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "958985ad6ff1",
+    "subject": "Aging",
+    "predicate": "increases_frequency_of",
+    "object": "Hematopoietic Stem Cell",
+    "context": {
+      "en-US": "With aging, human hematopoietic stem cells become more frequent in bone marrow yet less quiescent and myeloid-biased, reducing balanced erythroid output and contributing to age-related anemia through a central production deficit. Pang 2011 compared young versus elderly human bone marrow (Tier 2) and established this frequency-plus-bias phenotype. This stem-cell-exhaustion arm operates alongside the peripheral destruction arm of accelerated eryptosis, but the partition of age-related anemia between production failure and eryptotic clearance remains unquantified.",
+      "zh-TW": "隨 Aging，人類 Hematopoietic Stem Cell 在骨髓中頻率增加，卻較不靜止且偏向髓系，減少均衡的紅系產出，透過中樞生產缺陷促成年齡相關貧血。Pang 2011 比較年輕與老年人類骨髓（Tier 2），確立此頻率增加加偏向的表型。此幹細胞耗竭臂與 eryptosis 加速的周邊破壞臂並行，但年齡相關貧血在生產失敗與 eryptotic 清除之間的分配仍未量化。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_eryptosis_and_aging_12_hallmarks_09_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "de51bfab0723",
+    "subject": "Anion Exchanger 1",
+    "predicate": "marks",
+    "object": "Erythrocyte Senescence",
+    "context": {
+      "en-US": "Oxidation and clustering of Anion Exchanger 1 (band 3) generates the senescent-erythrocyte-specific antigen (SESA), a defining surface marker of Erythrocyte Senescence recognized by naturally occurring IgG autoantibodies. Zhang 2026 reported band 3 oxidation in a human cohort of 81 individuals aged 20-90 years (Tier 2/4), and Ghashghaeinia 2012 linked oxidative protein damage accumulation over the approximately 120-day lifespan to reduced deformability. SESA formation substitutes for transcriptional senescence programs that anucleate erythrocytes cannot execute.",
+      "zh-TW": "Anion Exchanger 1（band 3）的氧化與聚集產生衰老紅血球特異抗原（SESA），是 Erythrocyte Senescence 的定義性表面標記，可被天然存在的 IgG 自體抗體識別。Zhang 2026 在 81 名 20-90 歲人類世代中報告 band 3 氧化（Tier 2/4），Ghashghaeinia 2012 將約 120 天壽命內氧化蛋白損傷的累積與變形能力降低連結。SESA 形成替代了無核紅血球無法執行的轉錄性衰老程序。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_eryptosis_and_aging_12_hallmarks_09_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "14747de4dc58",
+    "subject": "Extracellular Vesicles",
+    "predicate": "compensates_for_loss_of",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Mature erythrocytes cannot perform autophagic-lysosomal degradation, so shedding of Extracellular Vesicles removes tagged, damaged membrane patches in place of intracellular degradation, extending red-cell lifespan. This vesicle-shedding substitute is proposed in the Tkachenko 2025 GeroScience synthesis for the disabled-macroautophagy hallmark, whose genuine substrate exists only during erythroid maturation when NIX/BNIP3L-dependent mitophagy clears mitochondria. Vesicle shedding therefore functions as the anucleate analogue of proteostatic quality control in circulating erythrocytes.",
+      "zh-TW": "成熟紅血球無法執行自噬-溶酶體降解，因此釋出 Extracellular Vesicles 以移除被標記的受損膜片段，替代細胞內降解並延長紅血球壽命。此囊泡釋出替代機制由 Tkachenko 2025 GeroScience 綜述針對 disabled-macroautophagy hallmark 提出，其真正受質僅存在於紅系成熟期，當時 NIX/BNIP3L 依賴的粒線體自噬清除粒線體。因此囊泡釋出是循環紅血球中 proteostasis 品質控制的無核類比機制。"
+    },
+    "confidence": 0.7,
+    "source_document": "task_output_eryptosis_and_aging_12_hallmarks_09_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "70ce31f425cc",
+    "subject": "IL-6",
+    "predicate": "correlates_with",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "In chronic kidney disease cohorts, eryptosis tracks inflammatory markers including IL-6, myeloperoxidase, and C-reactive protein, consistent with chronic inflammation acting on circulating erythrocytes from the plasma milieu. Clementi 2022 reported eryptosis differing by eGFR below versus above 60 mL/min/1.73 m2 (p<0.001), with IL-6 correlation rho=0.52 (p=0.05) and myeloperoxidase rho=0.77 (p=0.01) (Tier 2). Associations remain confounded by uremia, inflammation, and erythropoiesis-stimulating agent dose, and causality is untested.",
+      "zh-TW": "在慢性腎臟病世代中，eryptosis 與 IL-6、myeloperoxidase 與 C-reactive protein 等發炎標記相關，符合慢性發炎從血漿環境作用於循環紅血球。Clementi 2022 報告 eryptosis 依 eGFR 低於或高於 60 mL/min/1.73 m2 而不同（p<0.001），IL-6 相關 rho=0.52（p=0.05）、myeloperoxidase rho=0.77（p=0.01）（Tier 2）。關聯仍受尿毒症、發炎與紅血球生成刺激劑劑量混雜，因果關係未經檢驗。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_eryptosis_and_aging_12_hallmarks_09_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "5fd9d9a4ac10",
+    "subject": "Chronic Inflammation",
+    "predicate": "increases",
+    "object": "Hepcidin",
+    "context": {
+      "en-US": "Chronic Inflammation raises hepcidin in older patients, restricting iron availability and compounding inflammation-driven anemia alongside hypoferremia, reduced erythropoietin, and enhanced hepatic and splenic erythrophagocytosis. Praeger-Jahnsen 2026 reported hepcidin associations with inflammation, anemia, frailty, and comorbidity in hospitalized older medical patients (Tier 2), and Wacka 2024 reviewed anemia prevalence reaching 40% in hospitalized and 47% in nursing-home older adults. Hepcidin elevation thus links the inflammaging hallmark to impaired erythropoiesis.",
+      "zh-TW": "Chronic Inflammation 在老年患者中升高 Hepcidin，限制鐵可用性，並與低鐵血症、erythropoietin 減少及肝脾紅血球吞噬增強共同加劇發炎驅動的貧血。Praeger-Jahnsen 2026 報告住院老年患者中 hepcidin 與發炎、貧血、衰弱與共病的關聯（Tier 2），Wacka 2024 綜述貧血盛行率在住院老年者達 40%、護理之家達 47%。因此 Hepcidin 升高將 inflammaging hallmark 連結至受損的紅血球生成。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_eryptosis_and_aging_12_hallmarks_09_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "c6ac0c129c04",
+    "subject": "Dysbiosis",
+    "predicate": "raises",
+    "object": "Indoxyl Sulfate",
+    "context": {
+      "en-US": "Gut Dysbiosis in chronic kidney disease raises gut-derived uremic toxins including Indoxyl Sulfate, p-cresol, acrolein, and urea, which are reported eryptosis triggers acting on circulating erythrocytes, while reduced short-chain fatty acids and increased gut permeability worsen anemia. Coll 2024 reviewed this dysbiosis-anemia axis (Tier 2/4). The full chain from age-related dysbiosis through a named metabolite to a quantified eryptotic fraction and human anemia is not closed, with metabolite-to-eryptosis evidence largely ex vivo.",
+      "zh-TW": "慢性腎臟病中的腸道 Dysbiosis 升高腸源性尿毒素，包括 Indoxyl Sulfate、p-cresol、acrolein 與 urea，這些被報告為作用於循環紅血球的 eryptosis 觸發因子，同時 short-chain fatty acids 減少與腸道通透性增加加劇貧血。Coll 2024 綜述此 dysbiosis-anemia 軸（Tier 2/4）。從年齡相關 dysbiosis 經特定代謝物至量化 eryptotic 分數與人類貧血的完整鏈條尚未閉合，代謝物至 eryptosis 的證據多為體外實驗。"
+    },
+    "confidence": 0.7,
+    "source_document": "task_output_eryptosis_and_aging_12_hallmarks_09_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "0f28bd875327",
+    "subject": "Protein Carbonylation",
+    "predicate": "accumulates_in",
+    "object": "Erythrocytes",
+    "context": {
+      "en-US": "Because mature Erythrocytes cannot synthesize replacement protein or run an unfolded-protein response, oxidative lesions including Protein Carbonylation, hemoglobin oxidation, glycated hemoglobin, hemichromes, and Advanced Glycation End Products accumulate irreversibly over the approximately 120-day lifespan. Ghashghaeinia 2012 and Zhang 2026 (human cohort n=81, 20-90 years) documented this damage accrual with reduced deformability. This irreversible accumulation is the mature-erythrocyte analogue of proteostasis loss, distinct from nucleated-cell proteostasis which retains synthesis and degradation machinery.",
+      "zh-TW": "由於成熟 Erythrocytes 無法合成替代蛋白或執行未摺疊蛋白反應，氧化損傷包括 Protein Carbonylation、血紅蛋白氧化、糖化血紅蛋白、hemichromes 與 Advanced Glycation End Products，在約 120 天壽命內不可逆地累積。Ghashghaeinia 2012 與 Zhang 2026（人類世代 n=81，20-90 歲）記錄此損傷累積伴隨變形能力降低。此不可逆累積是 proteostasis 喪失的成熟紅血球類比，不同於保留合成與降解機器的有核細胞 proteostasis。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_eryptosis_and_aging_12_hallmarks_09_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "e7c118f8ce8b",
+    "subject": "Chronic Kidney Disease",
+    "predicate": "shortens_lifespan_of",
+    "object": "Erythrocytes",
+    "context": {
+      "en-US": "In Chronic Kidney Disease, red-cell lifespan shortens from the normal 120 days to 60-90 days through accelerated eryptosis driven by uremic toxins, oxidative stress, and inflammation, with more than 90% of dialysis patients affected and roughly half of erythropoiesis-stimulating-agent-treated patients showing suboptimal correction. Deng 2025 reported these figures in a renal-anemia review (Tier 2, associational). The shortened lifespan converts eryptosis from a quality-control program into a direct contributor to renal anemia and ESA resistance.",
+      "zh-TW": "在 Chronic Kidney Disease 中，紅血球壽命由正常 120 天縮短至 60-90 天，原因是尿毒素、氧化壓力與發炎驅動的 eryptosis 加速，超過 90% 的透析患者受影響，約一半接受紅血球生成刺激劑治療的患者校正不佳。Deng 2025 在腎性貧血綜述中報告這些數字（Tier 2，關聯性）。壽命縮短使 eryptosis 由品質控制程序轉為腎性貧血與 ESA 抗性的直接促成因素。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_eryptosis_and_aging_12_hallmarks_09_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "635cd565fb43",
+    "subject": "TRPC6",
+    "predicate": "conducts_calcium_into",
+    "object": "Erythrocytes",
+    "context": {
+      "en-US": "TRPC6 in human erythrocytes is a plasma-membrane calcium channel supplying the cytosolic calcium that executes eryptosis, since anucleate red cells lack endoplasmic reticulum and mitochondrial stores and must import all calcium from outside. Species differences matter: TRPC4/5 predominate in mouse erythrocytes and TRPC3 in erythroid progenitors, limiting knockout translation. Channels are mostly closed at rest and opened by reactive oxygen species, hyperosmolarity, and chloride depletion acting partly through prostaglandin E2 release (Tkachenko 2025).",
+      "zh-TW": "人類紅血球中的 TRPC6 是質膜鈣通道，供應執行 eryptosis 的細胞質鈣，因無核紅血球缺乏內質網與粒線體儲存，必須從外界輸入全部鈣。物種差異重要：TRPC4/5 在小鼠紅血球為主，TRPC3 在紅系前驅細胞為主，限制敲除研究的轉譯。通道靜息時多關閉，由活性氧、hyperosmolarity 與氯耗竭經 prostaglandin E2 釋放部分開啟（Tkachenko 2025）。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "af57c123ba73",
+    "subject": "Piezo1",
+    "predicate": "mediates",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "The mechanosensitive channel Piezo1 transduces shear stress into calcium entry in erythrocytes and mediates eryptosis triggered by non-internalized nanomaterials such as pristine silica and LaVO4:Eu particles, which cannot enter the cell. Tkachenko 2025 (Cell Death and Disease 16:467) reports this Piezo1 route alongside internalized-particle eryptosis mediated by caspase-3 and calpain (in vitro evidence). Piezo1 therefore extends the calcium-entry channel inventory beyond TRPC channels to mechanical and surface-contact stimuli in hemocompatibility assessment.",
+      "zh-TW": "機械敏感通道 Piezo1 將剪切力轉為紅血球的鈣流入，並介導由無法進入細胞的非內化奈米材料（如 pristine silica 與 LaVO4:Eu 粒子）觸發的 Eryptosis。Tkachenko 2025（Cell Death and Disease 16:467）報告此 Piezo1 路徑，與經 caspase-3 與 calpain 介導的內化粒子 eryptosis 並列（體外證據）。因此 Piezo1 將鈣流入通道清單由 TRPC 通道擴展至血液相容性評估中的機械與表面接觸刺激。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "3ed0ab204c77",
+    "subject": "Caspase-8",
+    "predicate": "suppresses",
+    "object": "Erythronecroptosis",
+    "context": {
+      "en-US": "In mature erythrocytes, caspase-8 functions as the fate switch between eryptosis and Erythronecroptosis, mirroring its nucleated-cell role among apoptosis, necroptosis, and pyroptosis. Fas/FasL through FADD activates caspase-8 to drive caspase-3-dependent extrinsic eryptosis (Mandal 2005), while LaRocca 2014 showed the RIPK1/FADD/caspase-8 complex also forms the necroptosome, with active caspase-8 suppressing necroptosis. The two red-cell regulated death programs are therefore mutually exclusive, determined by signalling input at caspase-8.",
+      "zh-TW": "在成熟紅血球中，Caspase-8 作為 Eryptosis 與 Erythronecroptosis 之間的命運開關，呼應其在有核細胞中於 apoptosis、necroptosis 與 pyroptosis 之間的角色。Fas/FasL 經 FADD 活化 caspase-8，驅動 caspase-3 依賴的外源性 eryptosis（Mandal 2005），而 LaRocca 2014 顯示 RIPK1/FADD/caspase-8 複合體也形成 necroptosome，活化的 caspase-8 抑制 necroptosis。因此兩種紅血球受調控死亡程序互斥，由 caspase-8 處的訊號輸入決定。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "9387ccb520a4",
+    "subject": "Erythronecroptosis",
+    "predicate": "is_executed_by",
+    "object": "MLKL",
+    "context": {
+      "en-US": "Erythronecroptosis, the second regulated death program retained by mature erythrocytes, is executed by MLKL downstream of RIPK1 and RIPK3, producing lytic death with loss of membrane integrity and damage-associated molecular pattern release. Bacterial pore-forming toxins drive this RIPK1-dependent, Syk/Src-dependent, MLKL-dependent route via CD59 ligation plus pore formation. Mature erythrocytes lack TNFR1/2 and TRAIL-R1/2 that license canonical necroptosis, making the erythrocyte variant cell-specific; hemolysis is its accidental-cell-death counterpart (Tkachenko 2025).",
+      "zh-TW": "Erythronecroptosis 是成熟紅血球保留的第二種受調控死亡程序，由 RIPK1 與 RIPK3 下游的 MLKL 執行，產生膜完整性喪失的裂解死亡並釋放損傷相關分子模式。細菌成孔毒素經 CD59 結合加成孔，驅動此 RIPK1 依賴、Syk/Src 依賴、MLKL 依賴的路徑。成熟紅血球缺乏許可典型 necroptosis 的 TNFR1/2 與 TRAIL-R1/2，使紅血球變體具有細胞特異性；hemolysis 是其意外細胞死亡對應形式（Tkachenko 2025）。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "16a486b4fc82",
+    "subject": "Kupffer Cell",
+    "predicate": "clears",
+    "object": "Erythrocytes",
+    "context": {
+      "en-US": "Pathological phosphatidylserine-exposed erythrocytes are cleared primarily in the hepatic sinusoid by Kupffer Cell populations through stabilin-1 and stabilin-2 and integrin alpha-v-beta-5, rather than by splenic macrophages, which handle the slower senescent route. Tkachenko 2025 identifies liver, not spleen, as the primary pathological clearance site and reports approximately 80% of red-cell-derived vesicles cleared within 5 minutes, although the primary citation was not traced. This hepatic routing corrects the common splenic-clearance description for eryptosis.",
+      "zh-TW": "病理性 phosphatidylserine 暴露的紅血球主要在肝竇由 Kupffer Cell 透過 stabilin-1、stabilin-2 與 integrin alpha-v-beta-5 清除，而非由處理較慢衰老路徑的脾巨噬細胞清除。Tkachenko 2025 指出肝臟而非脾臟是主要病理清除部位，並報告約 80% 的紅血球來源囊泡在 5 分鐘內清除，但原始引用未追溯。此肝臟路徑修正了 eryptosis 常見的脾臟清除描述。"
+    },
+    "confidence": 0.7,
+    "source_document": "task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "74f9a8689972",
+    "subject": "Phosphatidylserine",
+    "predicate": "is_recognized_by",
+    "object": "Stabilin-2",
+    "context": {
+      "en-US": "Phosphatidylserine exposed on eryptotic erythrocytes is recognized by Stabilin-2 (with stabilin-1) on Kupffer cells lining hepatic sinusoids, executing the rapid phosphatidylserine-dependent efferocytosis that removes damaged red cells within minutes. Tkachenko 2025 distinguishes this hepatic stabilin route from the slower splenic and naturally-occurring-autoantibody routes used for senescent erythrocytes over days. The minutes-versus-days latency is the operational discriminator the review proposes between eryptotic clearance and erythrocyte senescence clearance.",
+      "zh-TW": "Eryptotic 紅血球上暴露的 Phosphatidylserine 被肝竇 Kupffer 細胞上的 Stabilin-2（與 stabilin-1）識別，執行快速的 phosphatidylserine 依賴 efferocytosis，在數分鐘內移除受損紅血球。Tkachenko 2025 區分此肝臟 stabilin 路徑與衰老紅血球數天內使用的較慢脾臟及天然自體抗體路徑。分鐘對數天的延遲是該綜述提出的 eryptotic 清除與紅血球衰老清除的操作性區別標準。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "6e505932668a",
+    "subject": "Hemolysis",
+    "predicate": "releases",
+    "object": "Hemoglobin",
+    "context": {
+      "en-US": "Hemolysis, the accidental lytic death of erythrocytes, releases Hemoglobin, heme, methemoglobin, ATP, HSP70, and IL-33 that eryptosis avoids releasing. These products activate TLR4/NF-kappaB endothelium, drive NADPH-oxidase and heme-iron-dependent neutrophil extracellular traps, trigger macrophage TNF-alpha and microglial MyD88/TRIF activation, recruit complement, scavenge nitric oxide, and injure renal filtering. Eryptosis exists physiologically to remove damaged cells before such lysis occurs, making the hemolysis product profile the mechanistic basis of its host-defence value.",
+      "zh-TW": "Hemolysis 是紅血球的意外裂解死亡，釋放 Hemoglobin、heme、methemoglobin、ATP、HSP70 與 IL-33，而 eryptosis 避免釋放這些產物。這些產物活化 TLR4/NF-kappaB 內皮，驅動 NADPH-oxidase 與 heme-iron 依賴的中性粒細胞胞外陷阱，觸發巨噬細胞 TNF-alpha 與小膠質 MyD88/TRIF 活化，招募 complement，清除 nitric oxide 並損傷腎臟過濾。Eryptosis 生理上在裂解發生前移除受損細胞，使 hemolysis 產物譜成為其宿主防禦價值的機制基礎。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "b7ec1fe1ea58",
+    "subject": "Plasmodium falciparum",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Eryptosis clears Plasmodium falciparum-infected erythrocytes before they lyse, and infected cells show twice the free-radical output of uninfected cells while opening non-selective cation channels for sodium and calcium entry that feed the eryptotic program. Host traits including G6PD deficiency, sickle trait, beta-thalassemia, and GLUT1/Anion Exchanger 1 defects confer partial malarial protection through enhanced eryptosis of infected cells. Suppressing eryptosis therefore carries a host-defence trade-off against malaria clearance noted in Tkachenko 2025.",
+      "zh-TW": "Eryptosis 在 Plasmodium falciparum 感染的紅血球裂解前將其清除，感染細胞的自由基產出是未感染細胞的兩倍，並開啟非選擇性陽離子通道供鈉與鈣流入，餵養 eryptotic 程序。包括 G6PD 缺乏、sickle trait、beta-thalassemia 與 GLUT1/Anion Exchanger 1 缺陷在內的宿主特徵，透過增強感染細胞的 eryptosis 賦予部分瘧疾保護。因此抑制 eryptosis 帶有對抗瘧疾清除的宿主防禦權衡，如 Tkachenko 2025 所述。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "a9f22355a5f8",
+    "subject": "Dimethyl Fumarate",
+    "predicate": "inhibits",
+    "object": "G6PD",
+    "context": {
+      "en-US": "Dimethyl fumarate acts as a proeryptotic antimalarial by inhibiting G6PD, depleting reduced glutathione and thereby sensitizing erythrocytes, including Plasmodium-infected cells, to oxidative eryptosis. Tkachenko 2025 lists dimethyl fumarate alongside beta-cryptoxanthin, lead, paclitaxel, cyclosporine, prostaglandin E2, curcumin, amphotericin B, and chlorpromazine as proeryptotic candidates exploiting enhanced infected-cell clearance. Evidence is overwhelmingly in vitro, and the same glutathione-depleting mechanism that clears infected cells risks accelerating clearance of uninfected erythrocytes and worsening anemia.",
+      "zh-TW": "Dimethyl Fumarate 透過抑制 G6PD 作為促 eryptotic 抗瘧藥，耗竭還原型 glutathione，使紅血球（包括 Plasmodium 感染細胞）對氧化性 eryptosis 敏感。Tkachenko 2025 將 dimethyl fumarate 與 beta-cryptoxanthin、lead、paclitaxel、cyclosporine、prostaglandin E2、curcumin、amphotericin B 及 chlorpromazine 並列為利用增強感染細胞清除的促 eryptotic 候選物。證據多為體外實驗，同一耗竭 glutathione 的機制在清除感染細胞時，也可能加速未感染紅血球清除並惡化貧血。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "c4f42aa92873",
+    "subject": "p38 MAPK",
+    "predicate": "promotes",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "p38 MAPK promotes eryptosis and, in a 2022 cigarette-smoke-extract study, initiates death-inducing signalling complex assembly through neutral sphingomyelinase-derived ceramide upstream of caspase-8. Tkachenko 2025 also lists nickel acting through p38 MAPK among proeryptotic pollutant mechanisms and counts p38 MAPK among the kinases whose erythrocyte effect is pro-death, opposite to restraining kinases AMPK and cGKI whose knockout mice show enhanced eryptosis, anemia, and splenomegaly. p38 MAPK inhibitors are accordingly listed as antieryptotic interventions.",
+      "zh-TW": "p38 MAPK 促進 Eryptosis，且在 2022 年香菸煙霧萃取物研究中，透過中性 sphingomyelinase 衍生的 ceramide 在 caspase-8 上游啟動死亡誘導訊號複合體組裝。Tkachenko 2025 也將經 p38 MAPK 作用的 nickel 列入促 eryptotic 污染物機制，並將 p38 MAPK 計入紅血球效應為促死亡的激酶，與抑制性激酶 AMPK 與 cGKI 相反，後者敲除小鼠顯示 eryptosis 增強、貧血與脾腫大。因此 p38 MAPK 抑制劑被列為抗 eryptotic 干預。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "8780ed65314f",
+    "subject": "GPX4",
+    "predicate": "is_not_executor_of",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Although mature erythrocytes are iron-loaded and contain GPX4, ferroptosis is not confirmed in them and GPX4 is not an established executor of eryptosis; Tkachenko 2025 notes ferroptosis is regulated at transcriptional and epigenetic levels that an anucleate red cell cannot reach. Hemochromatosis data instead show phosphatidylserine exposure and calpain activation, an eryptosis-like phenotype, prompting the non-committal label iron-overload-driven cell death. Eryptosis thus shares reactive-oxygen and lipid-peroxidation triggers with ferroptosis without sharing its GPX4/iron executor.",
+      "zh-TW": "儘管成熟紅血球富含鐵且含有 GPX4，ferroptosis 在其中未獲證實，GPX4 也不是 eryptosis 的既定執行者；Tkachenko 2025 指出 ferroptosis 在轉錄與表觀遺傳層級受調控，無核紅血球無法達到。血色素沉著症數據反而顯示 phosphatidylserine 暴露與 calpain 活化，即 eryptosis 樣表型，促成非定性的 iron-overload-driven cell death 標籤。因此 eryptosis 與 ferroptosis 共享活性氧與脂質過氧化觸發因子，但不共享其 GPX4/iron 執行者。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "0595cf1c55d2",
+    "subject": "Calpain",
+    "predicate": "degrades",
+    "object": "Anion Exchanger 1",
+    "context": {
+      "en-US": "Calcium-activated calpain-1 proteolyses the erythrocyte cytoskeleton and Anion Exchanger 1 (band 3), producing the blebbing and microvesiculation morphology of eryptosis alongside caspase-3-mediated band 3 degradation. Tkachenko 2025 identifies calpain-1 as a core executor with Gardos-channel potassium efflux and scramblase activation, while noting calpain-1 knockout mice show unaltered erythrocyte lifespan, constraining claims that calpain is strictly necessary. Calpain activity measured by CMAC substrate is among the review's recommended auxiliary eryptosis readouts beyond phosphatidylserine and calcium.",
+      "zh-TW": "鈣活化的 calpain-1 蛋白水解紅血球細胞骨架與 Anion Exchanger 1（band 3），產生 eryptosis 的 blebbing 與 microvesiculation 形態，並與 caspase-3 介導的 band 3 降解並行。Tkachenko 2025 將 calpain-1 定為與 Gardos 通道鉀外流及 scramblase 活化並列的核心執行者，同時指出 calpain-1 敲除小鼠紅血球壽命未改變，限制 calpain 嚴格必要性的主張。以 CMAC 受質測量的 calpain 活性是該綜述在 phosphatidylserine 與鈣之外推薦的輔助 eryptosis 讀數之一。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "bb0a8f7937b6",
+    "subject": "Sirtuins",
+    "predicate": "consumes",
+    "object": "NAD+",
+    "context": {
+      "en-US": "Each sirtuin-catalysed deacetylation hydrolyses one NAD+ molecule into nicotinamide and O-acetyl-ADP-ribose (OAADPr), so sirtuins are themselves NAD+ consumers rather than passive beneficiaries of repletion. NAD+ supplementation is therefore not metabolically neutral: raising the shared substrate pool increases flux through the same consumption arm. The consolidated synthesis states this explicitly to counter the framing that restoring NAD+ purely benefits sirtuin activity.",
+      "zh-TW": "每一次由 Sirtuins 催化的去乙醯化都會將一個 NAD+ 水解為 Nicotinamide 與 O-acetyl-ADP-ribose（OAADPr），因此 Sirtuins 本身即為 NAD+ 的消耗者，而非補充的被動受益者。補充 NAD+ 因此在代謝上並非中性：提高共享受質池會增加流經同一消耗臂的通量。此整合性綜述明確指出這一點，以矯正「回補 NAD+ 純然有益 Sirtuins 活性」的框架。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_nad_metabolism_cd38_sarm1_20_Oct_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "29ed048bf120",
+    "subject": "CD73",
+    "predicate": "produces",
+    "object": "Adenosine",
+    "context": {
+      "en-US": "CD73 is an extracellular ecto-enzyme that uses NAD+ as a competitive substrate and converts it to adenosine, constituting a fifth, continuous NAD+-consuming pathway alongside CD38, SARM1, PARP1/PARP2 and sirtuins. In the consumer-hierarchy table CD73 is assigned the signature 'NAD+ to adenosine (competitive substrate)', placing it in the same limited extracellular substrate pool that CD38 draws from on the hours-to-years inflammaging timescale.",
+      "zh-TW": "CD73 是一種胞外 ecto-enzyme，以 NAD+ 作為競爭性受質並將其轉化為 Adenosine，構成與 CD38、SARM1、PARP1/PARP2 及 Sirtuins 並列的第五條、持續運作的 NAD+ 消耗路徑。在消耗階層表中，CD73 被標記為『NAD+ → adenosine（競爭性受質）』，使其與 CD38 同處於一個有限的胞外受質池中，而 CD38 則在數小時至數年的 Inflammaging 時間尺度上取用該池。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_nad_metabolism_cd38_sarm1_20_Oct_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "f8d1a3f1ce32",
+    "subject": "CD73",
+    "predicate": "competes_with",
+    "object": "CD38",
+    "context": {
+      "en-US": "Both CD73 and CD38 are extracellular enzymes acting on the same NAD+ pool, so their activities are substrate-competitive: CD73 converts NAD+ to adenosine while CD38 cleaves NAD+ to nicotinamide, ADP-ribose and cADPR. The consolidated NAD+ module lists CD73 under the extracellular compartment with a continuous timescale, implying that ecto-nucleotide flux is partitioned between these two unrelated consumption routes rather than being exclusive to CD38.",
+      "zh-TW": "CD73 與 CD38 皆為作用於同一 NAD+ 池的胞外酶，因此兩者活性具有受質競爭性：CD73 將 NAD+ 轉為 Adenosine，而 CD38 將 NAD+ 裂解為 Nicotinamide、ADP-ribose 與 cADPR。整合後的 NAD+ 模組將 CD73 歸於胞外區室、時間尺度為持續性，意謂胞外核苷酸通量是在這兩條互不相關的消耗路徑之間分配，而非由 CD38 獨占。"
+    },
+    "confidence": 0.7,
+    "source_document": "task_output_nad_metabolism_cd38_sarm1_20_Oct_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "6174377e7ab3",
+    "subject": "CD38 inhibitor 78c",
+    "predicate": "extends",
+    "object": "Lifespan",
+    "context": {
+      "en-US": "The adduct-forming uncompetitive CD38 inhibitor 78c produced approximately 14% lifespan extension in male mice, but severe adverse reactions in females required euthanasia - a sex-specific outcome flagged in the therapeutic landscape table. The review also notes 78c as the only CD38 agent with an in-vivo lifespan result, and its sex divergence recurs across the research-gaps corpus as a reason to stratify NAD+ interventions by sex.",
+      "zh-TW": "形成加合物之非競爭性 CD38 抑制劑 78c 在雄性小鼠約延長 14% 壽命，但雌性出現嚴重不良反應而需安樂死——此性別特異性結果列於治療版圖表中。該回顧亦指出 78c 是唯一具有體內壽命數據的 CD38 藥物；其性別差異在整個研究缺口資料集中反覆出現，成為 NAD+ 介入應按性別分層的理由。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_nad_metabolism_cd38_sarm1_20_Oct_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "b36fa3dc4023",
+    "subject": "NMN",
+    "predicate": "activates",
+    "object": "SARM1",
+    "context": {
+      "en-US": "Accumulated NMN is reported to activate the prodegenerative cADPR-forming enzyme SARM1 (Takaso 2020, PMID 33082370), and Figley 2021 (Neuron, PMID 33657413) identifies the NMN/NAD+ ratio as the primary SARM1 activator via ARM-domain binding. Because the trigger is the ratio rather than absolute NMN, raising NAD+ lowers the ratio even as absolute NMN rises; CD38 knockout is protective after facial nerve axotomy despite raising NMN.",
+      "zh-TW": "累積的 NMN 被報導會活化促退化、生成 cADPR 的酵素 SARM1（Takaso 2020，PMID 33082370），而 Figley 2021（Neuron，PMID 33657413）指出 NMN/NAD+ 比值才是 SARM1 的主要活化訊號，經 ARM-domain 結合作用。由於觸發因子是比值而非 NMN 絕對量，提高 NAD+ 即使 NMN 絕對值上升仍會降低比值；CD38 剔除小鼠在顏面神經切斷後雖 NMN 升高仍呈現保護效果。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_nad_metabolism_cd38_sarm1_20_Oct_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "43ac25050f99",
+    "subject": "CD38 inhibitor 78c",
+    "predicate": "synergizes_with",
+    "object": "PARP inhibitors",
+    "context": {
+      "en-US": "Covarrubias 2020 (PMID 33028765) showed that combined CD38 plus PARP inhibition fully reversed LPS-induced NAD+ decline where either single agent failed, establishing the only multi-consumer inhibition precedent in the vault. The synthesis uses this as the supporting analogue for a proposed CD38-inhibitor plus SARM1-inhibitor synergy, while explicitly noting that no extracted synergy edge connects the two and that the CD38+SARM1 proposition remains untested (confidence 0.45 by construction).",
+      "zh-TW": "Covarrubias 2020（PMID 33028765）顯示合併 CD38 與 PARP 抑制可完全逆轉 LPS 誘發的 NAD+ 下降，而任一單獨用藥皆無效，確立了資料庫中唯一的多消耗路徑抑制前例。該綜述以此作為推議之『CD38 抑制劑 + SARM1 抑制劑』協同作用的類比依據，同時明確指出目前沒有任何擷取的協同邊連接兩者，且 CD38+SARM1 命題仍未經試驗（依建構方式信度 0.45）。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_nad_metabolism_cd38_sarm1_20_Oct_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "8de30f298c46",
+    "subject": "Microglia",
+    "predicate": "expresses",
+    "object": "CD38",
+    "context": {
+      "en-US": "The CNS compartment map assigns CD38 to microglia (brain-resident macrophages) on a chronic timescale driven by inflammaging and immune activation, with neuroinflammation and precursor depletion as outputs, whereas SARM1 is neuronal and acute. This places the two NADases in different cell types within the same tissue: microglial CD38 lowers the neuronal NAD+ buffer over years, so injury tips the lower-threshold neuronal SARM1 on more easily.",
+      "zh-TW": "中樞區室圖將 CD38 歸於 Microglia（腦內常駐巨噬細胞），時間尺度為慢性，由 Inflammaging 與免疫活化驅動，輸出為 Neuroinflammation 與前體耗竭；相對地 SARM1 屬於神經元且為急性。這使兩種 NADase 位於同一組織的不同細胞類型：Microglia 的 CD38 在數年間降低神經元 NAD+ 緩衝，使損傷更容易觸發閾值較低的神經元 SARM1。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_nad_metabolism_cd38_sarm1_20_Oct_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "161c9a2ffb17",
+    "subject": "SARM1",
+    "predicate": "is_expressed_in",
+    "object": "Neuron",
+    "context": {
+      "en-US": "In the CNS compartment map SARM1 is the neuronal NADase, localised to soma, axon and mitochondria and triggered within minutes by axonal severance or NMNAT2 depletion, producing axonal NAD+ collapse and Wallerian degeneration. Its disease links are traumatic brain injury, neuropathy, glaucoma, ALS, Alzheimer's and Parkinson's disease, contrasting with microglial CD38's chronic neuroinflammatory axis; the two axes converge on chemotherapy-induced peripheral neuropathy.",
+      "zh-TW": "在中樞區室圖中，SARM1 為神經元 NADase，定位於胞體、軸突與粒線體，在軸突切斷或 NMNAT2 耗竭後數分鐘內被觸發，造成軸突 NAD+ 崩潰與 Wallerian Degeneration。其疾病連結為 Traumatic Brain Injury、神經病變、青光眼、ALS、Alzheimer's Disease 與 Parkinson's Disease，對比於 Microglia CD38 的慢性神經發炎軸；兩軸共同收斂於 Chemotherapy-Induced Peripheral Neuropathy。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_nad_metabolism_cd38_sarm1_20_Oct_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "32c2c2459874",
+    "subject": "PARP1",
+    "predicate": "exacerbates",
+    "object": "Ischemic Stroke",
+    "context": {
+      "en-US": "Sex-stratified data in the NAD+ module show PARP activity rises with age in male but not female skin and inversely correlates with NAD+ in males (r=-0.639). McCullough 2005 found PARP-1 knockout protects males from ischemic brain injury but exacerbates damage in females, so PARP1 promotes injury in males yet is protective in females. Estrogen-mediated PARP-1 stabilisation is offered only as a hypothesis, not direct proof.",
+      "zh-TW": "NAD+ 模組中的性別分層資料顯示，PARP 活性隨年齡在雄性皮膚上升、雌性則否，且雄性體內 PARP 與 NAD+ 呈負相關（r=−0.639）。McCullough 2005 發現 PARP-1 剔除可保護雄性免於缺血性腦損傷，卻加重雌性損傷，因此 PARP1 在雄性促進損傷、在雌性則具保護作用。Estrogen 介導的 PARP-1 穩定化僅被提出為假說，並非直接證據。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_nad_metabolism_cd38_sarm1_20_Oct_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "a9dc869949e8",
+    "subject": "NMN",
+    "predicate": "extends",
+    "object": "Lifespan",
+    "context": {
+      "en-US": "Kane et al. (bioRxiv 2024) report a sex-split NMN lifespan result: females gained +8.5% median lifespan with no metabolic improvement, while males improved metabolic health but showed no lifespan extension. Metabolomics attributed greater Preiss-Handler metabolism to females and greater liver salvage metabolism to males. The synthesis uses this to argue that precursor dosing and gate choice (PARP-1 versus CD38 inhibition) may require sex stratification.",
+      "zh-TW": "Kane 等人（bioRxiv 2024）報告 NMN 壽命結果具性別分歧：雌性中位壽命增加 +8.5%，但無代謝改善；雄性代謝健康改善，卻無壽命延長。代謝體學將較強的 Preiss–Handler 代謝歸於雌性、較強的肝臟回收代謝歸於雄性。該綜述據此主張前體劑量與閘點選擇（PARP-1 抑制相對於 CD38 抑制）可能需要按性別分層。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_nad_metabolism_cd38_sarm1_20_Oct_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "4839bd906d94",
+    "subject": "SARM1",
+    "predicate": "produces",
+    "object": "cADPR",
+    "context": {
+      "en-US": "Zhao et al. 2019 (iScience, PMID 31128467) found SARM1 catalysis similar to CD38 despite no sequence similarity, with much higher NAD-cyclizing activity, making SARM1 the more efficient cADPR producer. Both enzymes cleave NAD+ to nicotinamide, ADP-ribose and cADPR and share base-exchange activity; they differ in kinetics and compartment (SARM1 intracellular axonal, CD38 extracellular ecto-enzyme) rather than chemistry.",
+      "zh-TW": "Zhao 等人 2019（iScience，PMID 31128467）發現 SARM1 的催化作用與 CD38 相似，儘管兩者無序列相似性，且 SARM1 具有更高的 NAD-cyclizing 活性，使其成為更有效率的 cADPR 生成者。兩種酵素皆將 NAD+ 裂解為 Nicotinamide、ADP-ribose 與 cADPR，並共享 base-exchange 活性；差異在於動力學與區室（SARM1 為胞內軸突、CD38 為胞外 ecto-enzyme），而非化學本質。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_nad_metabolism_cd38_sarm1_20_Oct_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "50b07448e819",
+    "subject": "CD38",
+    "predicate": "contributes_to",
+    "object": "Chemotherapy-Induced Peripheral Neuropathy",
+    "context": {
+      "en-US": "In the combined build Chemotherapy-Induced Peripheral Neuropathy is a wiki-layer neighbour of both NADases and sits in the NAD+ community with clustering 0.697, reached by CD38 and by SARM1 through untyped co-mention links. CIPN is entirely absent from the triples layer, so CD38's connection to the indication survives only as a co-mention; whether the convergence reflects a shared causal axis or an artefact is listed as an open question.",
+      "zh-TW": "在合併建置中，Chemotherapy-Induced Peripheral Neuropathy 同時是兩種 NADase 的 wiki 層鄰居，位於 NAD+ 社群、聚集係數 0.697，由 CD38 與 SARM1 透過未分類的共現連結抵達。CIPN 在 triples 層完全不存在，因此 CD38 與此適應症的關聯僅以共現形式留存；此收斂究竟反映共享因果軸或共現假象，被列為未解問題。"
+    },
+    "confidence": 0.7,
+    "source_document": "task_output_nad_metabolism_cd38_sarm1_20_Oct_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "74e295b606f7",
+    "subject": "Erythrocytes",
+    "predicate": "produce",
+    "object": "Aminochromes",
+    "context": {
+      "en-US": "The human erythrocyte plasma membrane converts adrenaline (epinephrine) to aminochromes including adrenochrome in a two-phase reaction (PMID 8937691, Tier 4 ex-vivo). Erythrocytes are therefore a minor site of adrenochrome formation, while simultaneously serving as a reducing sink that limits its persistence and as a target of its oxidative chemistry; haemoglobin in blood catalyses the same adrenaline oxidation and peroxidation.",
+      "zh-TW": "人類 Erythrocytes 的質膜以兩相反應將 adrenaline（Epinephrine）轉化為包含 Adrenochrome 在內的 Aminochromes（PMID 8937691，Tier 4 離體）。因此 Erythrocytes 既是 Adrenochrome 生成的次要場所，同時也是限制其持續存在的還原槽，並為其氧化化學的標的；血液中的 Hemoglobin 亦催化相同的 adrenaline 氧化與過氧化。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_adrenochrome_eryptosis_crossover_04_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "4d16018671d5",
+    "subject": "Hemoglobin",
+    "predicate": "oxidizes",
+    "object": "Epinephrine",
+    "context": {
+      "en-US": "Haemoglobin catalyses the oxidation and peroxidation of adrenaline in blood (JBC source captured in the vault document), providing an enzymatic route to adrenochrome alongside non-enzymatic autoxidation driven by superoxide, H2O2, hydroxyl radicals and Fe2+/Cu2+ Fenton chemistry, and the neutrophil myeloperoxidase route. Iron released from haemoglobin thus feeds the same Fenton chemistry that drives erythrocyte membrane lipid peroxidation.",
+      "zh-TW": "Hemoglobin 催化血液中 adrenaline 的氧化與過氧化（資料庫文件中收錄之 JBC 來源），與由 Superoxide、H2O2、hydroxyl radicals 及 Fe2+/Cu2+ Fenton 化學驅動的非酵素自氧化，以及 Neutrophils 的 Myeloperoxidase 路徑並列為生成 Adrenochrome 的途徑。由 Hemoglobin 釋出的 Iron 因此餵養了驅動 Erythrocytes 膜 Lipid Peroxidation 的同一 Fenton 化學。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_adrenochrome_eryptosis_crossover_04_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "030b439e1b2c",
+    "subject": "Diaphorase",
+    "predicate": "reduces",
+    "object": "Adrenochrome",
+    "context": {
+      "en-US": "In whole blood, erythrocyte diaphorase together with ascorbate reduces adrenochrome back to its leuco form, keeping steady-state adrenochrome concentrations in the nanomolar range (Tier 4 established biochemistry). This reducing sink means erythrocytes both generate and clear adrenochrome; only when the fixed GSH/NADPH/diaphorase redox budget is exceeded do methemoglobin formation, hemolysis and membrane lipid peroxidation become the documented sequelae.",
+      "zh-TW": "在全血中，Erythrocytes 的 Diaphorase 與 ascorbate 共同將 Adrenochrome 還原回 leuco 形式，使穩態 Adrenochrome 濃度維持在 nanomolar 範圍（Tier 4 已確立之生物化學）。此還原槽意謂 Erythrocytes 同時生成並清除 Adrenochrome；唯有當固定的 GSH/NADPH/Diaphorase 氧化還原預算被耗盡時，Methemoglobin 生成、Hemolysis 與膜 Lipid Peroxidation 才成為已記載的後續結果。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_adrenochrome_eryptosis_crossover_04_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "a9a08fa19e99",
+    "subject": "Eryptosis",
+    "predicate": "prevents",
+    "object": "Hemolysis",
+    "context": {
+      "en-US": "Eryptosis is the regulated, non-lytic disposal route: Ca2+ influx, Gardos-channel K+ efflux, PS externalisation and calpain-driven blebbing yield membrane-intact cells cleared by efferocytosis within minutes. By removing compromised erythrocytes before lytic release of Hb and heme, it blocks the pro-inflammatory accidental alternative; an adrenochrome-driven flux that saturates clearance converts this anti-inflammatory process into NO-scavenging, TLR4-activating hemolysis.",
+      "zh-TW": "Eryptosis 為受調控、非裂解的清除路徑：Ca2+ 內流、Gardos Channel 之 K+ 外流、Phosphatidylserine 外翻與 Calpain 驅動的起泡產生膜完整的細胞，並在數分鐘內由 Efferocytosis 清除。藉由在 Hb 與 Heme 裂解性釋出前移除受損 Erythrocytes，它阻斷了促發炎的意外性替代路徑；當 Adrenochrome 驅動的通量飽和清除能力時，此抗發炎程序便轉為清除 Nitric Oxide、活化 TLR4 的 Hemolysis。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_adrenochrome_eryptosis_crossover_04_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "3ba2a5d8a4c0",
+    "subject": "Phosphatidylserine",
+    "predicate": "triggers",
+    "object": "Efferocytosis",
+    "context": {
+      "en-US": "Externalised phosphatidylserine on eryptotic erythrocytes is the eat-me signal recognised by macrophages, so PS-positive cells are cleared by efferocytosis within minutes (senescent cells: days). PS exposure is anti-inflammatory and macrophage uptake is pro-resolving, with HO-1 up-regulation and cytokine suppression in experimental intracerebral hemorrhage models; the same PS signal drives a pro-injury response in the endothelial compartment.",
+      "zh-TW": "Eryptosis 之 Erythrocytes 表面外翻的 Phosphatidylserine 是供 Macrophages 辨識的 eat-me 訊號，因此 PS 陽性細胞在數分鐘內即由 Efferocytosis 清除（衰老細胞則為數天）。PS 外翻具抗發炎性，且 Macrophages 吞噬會導向促解析表現型，在實驗性腦內出血模型中伴隨 HO-1 上調與細胞激素抑制；同一 PS 訊號在內皮區室則驅動促損傷反應。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_adrenochrome_eryptosis_crossover_04_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "77f02869a928",
+    "subject": "Phosphatidylserine",
+    "predicate": "promotes",
+    "object": "Thrombin",
+    "context": {
+      "en-US": "Eryptotic PS-positive erythrocytes provide the catalytic surface for prothrombinase assembly and factor X activation; in some pathological conditions erythrocytes are reported to contribute up to approximately 40% of thrombin generation (Tkachenko 2025; report, not re-derived). RBC-derived microvesicles expose PS and trigger thrombin generation via factor XII, tissue-factor-independent (van der Meijden 2012, J Thromb Haemost 10:1355-62).",
+      "zh-TW": "Eryptosis 之 PS 陽性 Erythrocytes 提供 prothrombinase 組裝與 factor X 活化的催化表面；部分病理狀態下，Erythrocytes 被報導可貢獻高達約 40% 的 Thrombin 生成（Tkachenko 2025；報告數據，未重新推導）。RBC 衍生微囊亦外翻 Phosphatidylserine，並經 factor XII、不依賴 Tissue Factor 的路徑觸發 Thrombin 生成（van der Meijden 2012，J Thromb Haemost 10:1355-62）。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_adrenochrome_eryptosis_crossover_04_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "9f3d5c9180e9",
+    "subject": "Phosphatidylserine",
+    "predicate": "induces",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "Tkachenko 2026 (BBA Mol Cell Res 1873(5):120161, PMID 42155670) reports that PS/CXCL16(SR-PSOX)-mediated adhesion of eryptotic cells to endothelium is followed by endothelial uptake with induction of endothelial ferroptosis (Tier 4 to 3, human outcome data absent). Borst 2012 showed the adhesion is attenuated by annexin V or CXCL16 blockade, so externalised PS links eryptotic clearance to vascular ferroptotic injury.",
+      "zh-TW": "Tkachenko 2026（BBA Mol Cell Res 1873(5):120161，PMID 42155670）報導，Eryptosis 細胞經 Phosphatidylserine/CXCL16（SR-PSOX）介導黏附於內皮後，會被內皮細胞內吞並誘導內皮 Ferroptosis（Tier 4→3，缺乏人類預後資料）。Borst 2012 顯示此黏附可被 annexin V 或 CXCL16 阻斷削弱，因此外翻的 Phosphatidylserine 將 Eryptosis 清除與血管 Ferroptosis 損傷連結起來。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_adrenochrome_eryptosis_crossover_04_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "914c277f4fb9",
+    "subject": "Glutathione",
+    "predicate": "inhibits",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "GSH depletion (for example via G6PD inhibition by dimethyl fumarate or parthenolide) triggers eryptosis, whereas N-acetylcysteine blocks ROS-mediated eryptosis and prolonged mouse RBC half-life in vivo (Tier 3-4). Adrenochrome depletes glutathione in cardiac and neuronal models, so both arms converge on the same fixed NADPH/GSH reserve; G6PD deficiency lowers the eryptotic threshold and is protective in malaria but risky under oxidative load.",
+      "zh-TW": "Glutathione 耗竭（例如 dimethyl fumarate 或 Parthenolide 抑制 Glucose-6-Phosphate Dehydrogenase）會觸發 Eryptosis，而 N-Acetylcysteine 可阻斷 ROS 介導的 Eryptosis 並延長小鼠 RBC 半衰期（Tier 3–4）。Adrenochrome 在心臟與神經元模型中耗竭 Glutathione，因此兩條路徑收斂於同一固定的 NADPH/GSH 儲備；G6PD 缺乏會降低 Eryptosis 閾值，在 Malaria 具保護性，但在氧化負荷下具風險。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_adrenochrome_eryptosis_crossover_04_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "3c590b7652c0",
+    "subject": "Parthenolide",
+    "predicate": "inhibits",
+    "object": "Glucose-6-Phosphate Dehydrogenase",
+    "context": {
+      "en-US": "The shared-mechanism table identifies G6PD inhibition by dimethyl fumarate and parthenolide as the experimental route by which glutathione depletion triggers eryptosis (Tier 4), placing parthenolide in the H2O2/tert-butyl hydroperoxide/G6PD-inhibitor class of tested eryptosis inducers. Adrenochrome is explicitly not among the tested inducers; whether it preferentially triggers eryptosis over hemolysis at sub-lytic concentrations is unquantified and untested (Tier 5).",
+      "zh-TW": "共享機制表將 dimethyl fumarate 與 Parthenolide 對 Glucose-6-Phosphate Dehydrogenase 的抑制，列為 Glutathione 耗竭觸發 Eryptosis 的實驗途徑（Tier 4），使 Parthenolide 歸入已測試的 H2O2／tert-butyl hydroperoxide／G6PD 抑制劑類 Eryptosis 誘導劑。Adrenochrome 明確不在已測試誘導劑之列；其在次致死濃度下是否優先觸發 Eryptosis 而非 Hemolysis，尚未量化且未經試驗（Tier 5）。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_adrenochrome_eryptosis_crossover_04_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "f21cd7572359",
+    "subject": "Tolcapone",
+    "predicate": "increases",
+    "object": "Aminochromes",
+    "context": {
+      "en-US": "COMT/MAO inhibition by entacapone, tolcapone, opicapone and quercetin raises catecholamine substrate flux toward aminochromes, so the same oxidative load lands on erythrocyte membranes (Tier 4). In Parkinson's disease, COMT inhibitors shift catecholamine flux toward oxidation products and adrenochrome forms as an intermediate in catecholaminergic neuromelanin synthesis; no causal chain to eryptosis-driven anemia is established.",
+      "zh-TW": "Entacapone、Tolcapone、Opicapone 與 Quercetin 對 COMT/MAO 的抑制會提高兒茶酚胺受質流向 Aminochromes 的通量，使相同的氧化負荷落於 Erythrocytes 膜上（Tier 4）。在 Parkinson's Disease 中，COMT 抑制劑將兒茶酚胺通量推向氧化產物，Adrenochrome 並作為兒茶酚胺能 Neuromelanin 合成的中間體；目前尚未建立通往 Eryptosis 驅動 Anemia 的因果鏈。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_adrenochrome_eryptosis_crossover_04_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "9272d940785b",
+    "subject": "Adrenochrome",
+    "predicate": "modifies",
+    "object": "DGCR8",
+    "context": {
+      "en-US": "A vault graphify trace proposes that adrenochrome covalently modifies the DGCR8/Drosha microprocessor, altering pri-miRNA processing and thereby driving senescence, SASP and inflammaging (Tier 5, not experimentally validated). This is the only proposed mechanistic route from adrenochrome to the senescence/inflammaging module in the synthesis; no in-vitro validation, dose-response, or human data on the interaction is reported.",
+      "zh-TW": "資料庫中的 graphify 軌跡提出：Adrenochrome 共價修飾 DGCR8/Drosha microprocessor，改變 pri-miRNA 處理，進而驅動 Senescence、SASP 與 Inflammaging（Tier 5，未經實驗驗證）。這是該綜述中唯一被提出、由 Adrenochrome 通往 Senescence/Inflammaging 模組的機制路徑；目前沒有此交互作用的體外驗證、劑量－反應或人類資料。"
+    },
+    "confidence": 0.5,
+    "source_document": "task_output_adrenochrome_eryptosis_crossover_04_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "624f172fcefe",
+    "subject": "Efferocytosis",
+    "predicate": "upregulates",
+    "object": "HO-1",
+    "context": {
+      "en-US": "Efferocytic clearance of eryptotic cells is pro-resolving: macrophage uptake is accompanied by HO-1 up-regulation and suppression of pro-inflammatory cytokines in experimental intracerebral hemorrhage models (Tier 3), whereas endothelial uptake of the same PS-positive cells induces endothelial ferroptosis (PMID 42155670). The macrophage and endothelial compartments therefore respond to the same phosphatidylserine signal in opposite directions.",
+      "zh-TW": "對 Eryptosis 細胞的 Efferocytic 清除具促解析性：在實驗性腦內出血模型中，Macrophages 吞噬伴隨 HO-1 上調與促發炎細胞激素抑制（Tier 3）；相對地，內皮細胞內吞同一 PS 陽性細胞則誘導內皮 Ferroptosis（PMID 42155670）。因此 Macrophages 與內皮區室對同一 Phosphatidylserine 訊號呈相反方向反應。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_adrenochrome_eryptosis_crossover_04_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "fa2f7c78d326",
+    "subject": "Eryptosis",
+    "predicate": "clears",
+    "object": "Erythrocytes",
+    "context": {
+      "en-US": "Eryptosis is the dominant regulated cell death of mature erythrocytes, with PS-positive cells removed by efferocytosis within minutes. Erythrocyte lifespan is approximately 120 days and turnover approximately 1% of red-cell mass per day (roughly 2-3 x 10^6 cells per second); eryptotic removal is the stressed-cell subset of this flux. A normal-population eryptotic fraction is not quantified in the cited literature and must not be cited.",
+      "zh-TW": "Eryptosis 是成熟 Erythrocytes 主要的受調控細胞死亡，PS 陽性細胞在數分鐘內由 Efferocytosis 移除。Erythrocytes 壽命約 120 天，每日周轉約佔紅血球量 1%（約 2–3 × 10⁶ cells/s）；Eryptosis 移除的是此通量中受壓迫細胞的次群。所引用文獻並未量化正常族群的 Eryptosis 比例，不應加以引用。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_eryptosis_excess_and_under_clearance_04_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "acb791799c2a",
+    "subject": "Gardos Channel",
+    "predicate": "drives",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "The Gardos channel (KCNN4) is the shrinkage executor of eryptosis: Ca2+-activated K+ efflux is followed by Cl- and water loss, while flippase inhibition and scramblase activation externalise phosphatidylserine and calpain activation produces cytoskeletal proteolysis and blebbing. Gardos blockade by charybdotoxin, senicapoc or clotrimazole is used experimentally to separate Ca2+-dependent PS exposure from lytic hemoglobin release at 414 nm.",
+      "zh-TW": "Gardos Channel（KCNN4）是 Eryptosis 的皺縮執行者：Ca2+ 活化的 K+ 外流後伴隨 Cl− 與水分流失，同時 Flippase 受抑、Scramblase 活化使 Phosphatidylserine 外翻，Calpain 活化則造成細胞骨架蛋白水解與起泡。實驗上以 charybdotoxin、Senicapoc 或 clotrimazole 阻斷 Gardos，用以區分 Ca2+ 依賴的 PS 外翻與 414 nm 測得的裂解性 Hemoglobin 釋出。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_eryptosis_excess_and_under_clearance_04_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "f1c469e9f5c3",
+    "subject": "Calpain",
+    "predicate": "contributes_to",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Calpain activation downstream of Ca2+ influx executes cytoskeletal proteolysis and membrane blebbing in eryptosis, the non-lytic, membrane-intact quality-control clearance of damaged erythrocytes. In Parkinson's disease altered calpain/ceramide production triggers eryptosis (Tier 4-2), and in hepatic failure bilirubin and bile-acid excess create a vicious cycle with erythrocyte Ca2+ influx and ceramide formation that increases rather than decreases eryptosis.",
+      "zh-TW": "Ca2+ 內流下游的 Calpain 活化執行 Eryptosis 中的細胞骨架蛋白水解與膜起泡，此為對受損 Erythrocytes 非裂解、膜完整的品質管制清除。在 Parkinson's Disease 中，改變的 Calpain/Ceramide 生成會觸發 Eryptosis（Tier 4–2）；在肝衰竭中，Bilirubin 與膽酸過量則與 Erythrocytes 的 Ca2+ 內流及 Ceramide 形成構成惡性循環，反而增加而非減少 Eryptosis。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_eryptosis_excess_and_under_clearance_04_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "86c013537370",
+    "subject": "Nitric Oxide",
+    "predicate": "suppresses",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "The NO/sGC/cGMP/cGKI axis suppresses eryptosis: eNOS-null mice clear red cells faster (Tier 3), and NO donors such as nitroprusside and papanonoate inhibit eryptosis experimentally. Because free hemoglobin released by hemolysis scavenges NO, under-clearance of damaged erythrocytes removes this brake and adds vasoconstriction, platelet activation and endothelial dysfunction to the heme/TLR4 inflammatory cascade.",
+      "zh-TW": "NO/sGC/cGMP/cGMP-Dependent Protein Kinase I 軸會抑制 Eryptosis：eNOS 剔除小鼠清除紅血球較快（Tier 3），而 nitroprusside 與 papanonoate 等 NO 供給劑在實驗上抑制 Eryptosis。由於 Hemolysis 釋出的游離 Hemoglobin 會清除 Nitric Oxide，受損 Erythrocytes 清除不足會解除此煞車，並在 Heme/TLR4 發炎級聯之外另加上血管收縮、Platelet 活化與內皮功能障礙。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_eryptosis_excess_and_under_clearance_04_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "f0b2cd1ed3b0",
+    "subject": "Erythropoietin",
+    "predicate": "increases",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "Erythropoietin has a biphasic relation to eryptosis: it inhibits eryptosis acutely (Tier 4), but sustained high EPO increases the circulating pool of eryptosis-prone cells (Tier 2 cohort). The feed-forward loop links ESA escalation to hypoxia and more eryptotic-prone cells; in CKD/ESRD, where RBC lifespan is shortened to 60-90 days, ESA and iron correction is suboptimal in roughly half of treated patients.",
+      "zh-TW": "Erythropoietin 與 Eryptosis 呈雙相關係：急性作用下抑制 Eryptosis（Tier 4），但持續高 EPO 會增加循環中易發生 Eryptosis 的細胞池（Tier 2 世代研究）。此正回饋迴路將 ESA 劑量升級與缺氧及更多易 Eryptosis 細胞連結；在 CKD/ESRD 中 RBC 壽命縮短至 60–90 天，約半數接受治療的患者對 ESA 與鐵劑矯正反應不佳。"
+    },
+    "confidence": 0.7,
+    "source_document": "task_output_eryptosis_excess_and_under_clearance_04_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "d340763a388e",
+    "subject": "Eryptosis",
+    "predicate": "clears",
+    "object": "Plasmodium falciparum",
+    "context": {
+      "en-US": "Plasmodium-infected erythrocytes depend on eryptosis for clearance; G6PD deficiency, sickle trait and thalassemia trait confer partial protection against malaria by lowering the eryptotic threshold (Tier 2). Suppression of eryptosis therefore leaves infected cells circulating, which the synthesis identifies as the principal in-vivo cost of anti-eryptotic therapy and bounds how aggressively eryptosis may be inhibited.",
+      "zh-TW": "受 Plasmodium falciparum 感染的 Erythrocytes 依賴 Eryptosis 進行清除；G6PD 缺乏、鐮刀型 trait 與地中海貧血 trait 藉由降低 Eryptosis 閾值，對 Malaria 提供部分保護（Tier 2）。因此抑制 Eryptosis 會使受感染細胞持續循環，該綜述將此列為抗 Eryptosis 治療最主要的體內代價，並據此限制 Eryptosis 可被抑制的程度。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_eryptosis_excess_and_under_clearance_04_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "c885cd8beb4b",
+    "subject": "Chronic Kidney Disease",
+    "predicate": "accelerates",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "In CKD/ESRD red-cell lifespan is shortened to 60-90 days (Deng 2025, Front Pharmacol 16:1718803, PMID 41383483), with anemia prevalence above 90% in dialysis patients. eGFR below 60 versus at least 60 mL/min/1.73 m2 gives higher eryptosis (p < 0.001); eryptosis correlates with MPO (rho = 0.77, p = 0.01) and IL-6 (rho = 0.52, p = 0.05) in Gok 2022 (PMID 35469112).",
+      "zh-TW": "在 Chronic Kidney Disease/ESRD 中，紅血球壽命縮短至 60–90 天（Deng 2025，Front Pharmacol 16:1718803，PMID 41383483），透析患者 Anemia 盛行率超過 90%。eGFR < 60 相較 ≥ 60 mL/min/1.73 m² 有較高 Eryptosis（p < 0.001）；Gok 2022（PMID 35469112）中 Eryptosis 與 MPO（ρ = 0.77，p = 0.01）及 IL-6（ρ = 0.52，p = 0.05）相關。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_eryptosis_excess_and_under_clearance_04_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "7d228de27d41",
+    "subject": "Eryptosis",
+    "predicate": "correlates_with",
+    "object": "IL-6",
+    "context": {
+      "en-US": "Eryptosis indexes systemic oxidative, uremic and inflammatory load: correlations are reported with myeloperoxidase (rho = 0.77, p = 0.01) and IL-6 (rho = 0.52, p = 0.05) in CKD (Gok 2022), and with Cu/Zn SOD, MPO and IL-6 in Clementi 2022 (Tier 2), plus sepsis endotoxin activity and IL-6. The synthesis treats it as an exposure/severity biomarker, not a validated longevity surrogate endpoint or intervention target.",
+      "zh-TW": "Eryptosis 反映全身性氧化、尿毒與發炎負荷：在 CKD 中與 Myeloperoxidase（ρ = 0.77，p = 0.01）、IL-6（ρ = 0.52，p = 0.05）相關（Gok 2022），Clementi 2022 亦報導與 Cu/Zn SOD、MPO 及 IL-6 相關（Tier 2），並與 Sepsis 內毒素活性及 IL-6 相關。該綜述將其視為暴露/嚴重度生物標記，而非已驗證的長壽替代終點或介入標的。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_eryptosis_excess_and_under_clearance_04_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "4ccb66fdeab0",
+    "subject": "CD47",
+    "predicate": "inhibits",
+    "object": "Efferocytosis",
+    "context": {
+      "en-US": "CD47-SIRPalpha is the constitutive 'don't-eat-me' brake on erythrocyte clearance; aged red cells normally downregulate CD47. Pathological CD47 retention or SIRPalpha signalling imbalance would delay efferocytosis, leaving PS-positive cells in circulation with their procoagulant surface, but direct clinical correlates are unverified (Tier 5/4) and a defined human under-eryptosis syndrome is not established.",
+      "zh-TW": "CD47–SIRPα 是 Erythrocytes 清除上持續存在的『別吃我』煞車；老化紅血球正常會下調 CD47。病理性 CD47 滯留或 SIRPα 訊號失衡會延遲 Efferocytosis，使帶有促凝血表面的 PS 陽性細胞滯留循環中；但直接臨床關聯尚未驗證（Tier 5/4），且人類『Eryptosis 不足症候群』亦未被確立。"
+    },
+    "confidence": 0.7,
+    "source_document": "task_output_eryptosis_excess_and_under_clearance_04_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "a37ec8bad5bb",
+    "subject": "Kupffer Cell",
+    "predicate": "mediates",
+    "object": "Efferocytosis",
+    "context": {
+      "en-US": "Erythrocytes do not clear locally: hepatic sinusoid stabilin-1/2 recognition and Kupffer-cell uptake dominate, with 80% of RBC-derived vesicles removed within 5 minutes experimentally (Tier 3-4). Reduced hepatic clearance, Kupffer-cell dysfunction, stabilin defects or transfusion of stored concentrates that accumulate PS-positive EVs and DAMP-carrying microvesicles can prolong PS exposure in recipients; clinical consequences remain unquantified.",
+      "zh-TW": "Erythrocytes 不會在局部清除：肝竇 stabilin-1/2 辨識與 Kupffer Cell 吞噬占主導，實驗顯示 80% 的 RBC 衍生囊泡在 5 分鐘內被移除（Tier 3–4）。肝臟清除下降、Kupffer Cell 功能障礙、stabilin 缺陷，或輸注累積 PS 陽性 EV 與帶 DAMP 微囊的庫存血，都可能延長受血者的 PS 暴露；其臨床後果尚未量化。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_eryptosis_excess_and_under_clearance_04_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "f37b7bbe4b65",
+    "subject": "Bilirubin",
+    "predicate": "induces",
+    "object": "Eryptosis",
+    "context": {
+      "en-US": "In hepatic failure, bilirubin and bile-acid excess create a vicious cycle with erythrocyte Ca2+ influx and ceramide formation that increases rather than decreases eryptosis (Tier 2-4), so the excess and under-clearance failure modes coexist. PS on blood and endothelial cells in cirrhosis shortens coagulation time and raises thrombin and fibrin formation (Wu 2016, Liver Int 36:1800-10).",
+      "zh-TW": "在肝衰竭中，Bilirubin 與膽酸過量會與 Erythrocytes 的 Ca2+ 內流及 Ceramide 形成構成惡性循環，使 Eryptosis 增加而非減少（Tier 2–4），因此過度與清除不足兩種失效模式同時存在。肝硬化中血液與內皮細胞上的 Phosphatidylserine 會縮短凝血時間並提高 Thrombin 與纖維蛋白形成（Wu 2016，Liver Int 36:1800-10）。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_eryptosis_excess_and_under_clearance_04_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "f7c68d5018de",
+    "subject": "Hemoglobin",
+    "predicate": "scavenges",
+    "object": "Nitric Oxide",
+    "context": {
+      "en-US": "Hemolysis releases Hb, heme, ATP, IL-33 and HSP70; free hemoglobin scavenges nitric oxide, causing vasoconstriction, platelet activation and endothelial dysfunction, while free heme drives Fenton chemistry, TLR4/NF-kappaB activation, TNF-alpha release, NET formation, complement recruitment and NLRP3 inflammasome activation. Haptoglobin and hemopexin buffering is saturable, and renal filtration of released hemoproteins causes tubular injury (Tier 4/3).",
+      "zh-TW": "Hemolysis 釋出 Hb、Heme、ATP、IL-33 與 HSP70；游離 Hemoglobin 清除 Nitric Oxide，造成血管收縮、Platelet 活化與內皮功能障礙，而游離 Heme 則驅動 Fenton 化學、TLR4/NF-κB 活化、TNF-α 釋出、NET 形成、補體招募與 NLRP3 發炎體活化。Haptoglobin 與 Hemopexin 的緩衝能力可飽和，且釋出之血紅蛋白經腎臟過濾會造成腎小管損傷（Tier 4/3）。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_eryptosis_excess_and_under_clearance_04_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "9be5d3f1762d",
+    "subject": "Senomorphics",
+    "predicate": "inhibits",
+    "object": "IL-6",
+    "context": {
+      "en-US": "The SASP gap section states that current senomorphics only hit IL-6 and IL-8 and may skew the remaining non-inflammatory SASP arms (profibrotic, proangiogenic, ECM and hemostatic), which remain unmapped. Because the beneficial-to-detrimental SASP tipping point by time, dose and composition is undefined, single-timepoint biomarkers cannot discriminate the arms and timed modulate-then-clear dosing cannot be designed.",
+      "zh-TW": "SASP 缺口章節指出，目前的 Senomorphics 僅作用於 IL-6 與 IL-8，且可能使未被標記的非發炎性 SASP 臂（促纖維化、促血管新生、ECM 與止血性）偏移。由於 SASP 由有益轉為有害的臨界點在時間、劑量與組成上皆未定義，單一時間點的生物標記無法區分各臂，也無從設計『先調節後清除』的時序給藥。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_major_research_gaps_review_03_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "e380cc7d0477",
+    "subject": "Senomorphics",
+    "predicate": "inhibits",
+    "object": "IL-8",
+    "context": {
+      "en-US": "Senomorphic therapy is described as targeting only the IL-6/IL-8 inflammatory arm of the senescence-associated secretory phenotype, while senolytic translation is limited by the absence of an intermittent-dosing RCT with biomarker endpoints (D+Q trials in Alzheimer's disease underpowered; the fisetin osteoarthritis trial negative). No universal senescence biomarker exists and the exact tissue proportion of senescent cells remains controversial.",
+      "zh-TW": "Senomorphic Therapy 被描述為僅針對 Senescence-Associated Secretory Phenotype 的 IL-6/IL-8 發炎臂；而 Senolytic 轉譯則受限於缺乏具生物標記終點的間歇給藥 RCT（Alzheimer's Disease 的 D+Q 試驗檢定力不足；Fisetin 之 Osteoarthritis 試驗為陰性）。目前沒有通用的衰老生物標記，衰老細胞的確切組織比例仍有爭議。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_major_research_gaps_review_03_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "6f1e3025734f",
+    "subject": "Fisetin",
+    "predicate": "is_ineffective_in",
+    "object": "Osteoarthritis",
+    "context": {
+      "en-US": "The senescence/SASP gap section reports the fisetin osteoarthritis trial as negative and the dasatinib-plus-quercetin Alzheimer's disease trials as underpowered, with no intermittent-dosing RCT using biomarker endpoints. Senolytic responses are sex-dependent in rodents (D+Q toward females, fisetin toward males), yet zero clinical sex-stratified data exist; JPI-289 reached clinic without sex stratification.",
+      "zh-TW": "Senescence/SASP 缺口章節報告 Fisetin 之 Osteoarthritis 試驗為陰性，Dasatinib 加 Quercetin 之 Alzheimer's Disease 試驗檢定力不足，且沒有任何具生物標記終點的間歇給藥 RCT。Senolytic 反應在齧齒類具性別依賴性（D+Q 偏向雌性、Fisetin 偏向雄性），但臨床上完全沒有性別分層資料；JPI-289 在未做性別分層下即進入臨床。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_major_research_gaps_review_03_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "b137e24c301f",
+    "subject": "Val158Met",
+    "predicate": "modulates",
+    "object": "COMT",
+    "context": {
+      "en-US": "The cross-cutting deficit notes that no senolytic trial stratifies by COMT genotype despite a 3-4x activity span, and the clinical/translational section calls the COMT genotype gate for vitamin E and fisetin mechanistically unexplained (the compartment framing cannot explain the genotype flip). Val158Met is the canonical COMT variant behind that activity span; roughly 96% of caloric-restriction studies additionally ignore sex.",
+      "zh-TW": "跨域缺口指出，儘管 COMT 基因型帶有 3–4 倍活性差異，沒有任何 Senolytic 試驗依其分層；臨床/轉譯章節並稱 Vitamin E 與 Fisetin 的 COMT 基因型閘點在機制上無法解釋（區室框架無法說明基因型翻轉）。Val158Met 即為造成該活性差異的典型 COMT 變異；此外約 96% 的熱量限制研究忽略性別。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_major_research_gaps_review_03_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "6b92c51f3382",
+    "subject": "STACs",
+    "predicate": "activates",
+    "object": "AMPK",
+    "context": {
+      "en-US": "The sirtuin/NAD gap section states the on-target mechanism of SIRT1-activating compounds (STACs) is unresolved: direct activation may be a fluorophore-substrate assay artefact, and in-vivo effects may instead be mediated by cAMP-Epac1-AMPK signalling, with no artefact-free direct on-target proof in vivo. SRT2104-class programs were halted as mostly neutral, and human NAD+-precursor RCTs are null or mixed.",
+      "zh-TW": "Sirtuin/NAD 缺口章節指出，SIRT1 活化化合物（STACs）的標的內機制未解：直接活化可能是螢光團－受質分析法的人為假象，而體內效應反而可能由 cAMP–Epac1–AMPK 訊號介導，且體內尚無無假象的直接標的內證據。SRT2104 類計畫因大致中性而中止，人類 NAD+ 前體 RCT 結果為無效或分歧。"
+    },
+    "confidence": 0.5,
+    "source_document": "task_output_major_research_gaps_review_03_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "770b11852c83",
+    "subject": "CD38 inhibitor 78c",
+    "predicate": "is_toxic_in",
+    "object": "Females",
+    "context": {
+      "en-US": "The CD38 x SARM1 gap entry records sex-divergent outcomes: 78c gives lifespan benefit in male mice but severe or fatal adverse reactions in females requiring euthanasia, while NMN benefit is female-specific. No study tests whether CD38 inhibition alters SARM1-dependent axon degeneration, no CD38+SARM1 synergy data exist (only CD38+PARP precedent), and the NMN dose versus SARM1 activation threshold is unknown.",
+      "zh-TW": "CD38 × SARM1 缺口條目記錄性別分歧結果：78c 在雄性小鼠帶來壽命效益，但雌性出現嚴重或致命不良反應而需安樂死，NMN 的效益則為雌性專一。目前沒有研究檢驗 CD38 抑制是否改變 SARM1 依賴性軸突退化，也沒有 CD38+SARM1 協同資料（僅有 CD38+PARP 前例），且 NMN 劑量相對於 SARM1 活化閾值仍屬未知。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_major_research_gaps_review_03_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "3c222a69b664",
+    "subject": "Mdivi-1",
+    "predicate": "is_ineffective_in",
+    "object": "Myocardial infarction",
+    "context": {
+      "en-US": "The mitochondria/hormesis gap section states that fission/fusion machinery mechanisms are unresolved and a prerequisite for druggable therapies, noting that the DRP1 inhibitor Mdivi-1 has already failed in a pig myocardial infarction model. Unresolved items include the atomic-resolution fusion pore, the L-OPA1/S-OPA1 ratio, cardiolipin's switch between OPA1-fusion and DRP1-fission, and the lack of a unified DRP1 post-translational-modification code.",
+      "zh-TW": "Mitochondria/Hormesis 缺口章節指出，分裂/融合機器的機制未解且為可藥物化治療的前提，並記載 DRP1 抑制劑 Mdivi-1 已在豬 Myocardial infarction 模型中失敗。未解項目包括原子解析度的融合孔、L-OPA1/S-OPA1 比值、Cardiolipin 在 OPA1 融合與 DRP1 分裂之間的切換，以及缺乏統一的 DRP1 轉譯後修飾密碼。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_major_research_gaps_review_03_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "6bb49d467845",
+    "subject": "DRP1",
+    "predicate": "is_not_required_for",
+    "object": "Mitophagy",
+    "context": {
+      "en-US": "In disease, fission is uncoupled from degradation: mutant huntingtin separates fission from mitophagy and autophagic flux, DRP1 is not always required for mitophagy, and downstream lysosomal capacity ('autophagic stress') is a bottleneck rapamycin cannot fix. The fission-to-mitophagy ratio is unmapped per neuronal subtype, and no single intervention reproduces the full set of caloric-restriction effects.",
+      "zh-TW": "在疾病中，分裂與降解彼此解耦：突變 huntingtin 使分裂與 Mitophagy/自噬通量分離，DRP1 並非 Mitophagy 所必需，而下游溶酶體能力（『自噬壓力』）是 Rapamycin 無法修復的瓶頸。各神經元亞型的分裂：Mitophagy 比值尚未描繪，且沒有任何單一介入能重現熱量限制的全部效應。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_major_research_gaps_review_03_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "bc192222d91e",
+    "subject": "Caloric Restriction",
+    "predicate": "fails_to_inhibit",
+    "object": "mTORC1",
+    "context": {
+      "en-US": "The review states that no single intervention reproduces the full set of caloric-restriction effects and that caloric restriction fails to inhibit mTOR in old mice, whereas rapamycin still works; a CR-to-rapamycin-to-exercise sequence has been proposed but not tested. This is grouped under quantitatively undefined hormetic windows, where dose, time, tissue and sex are unspecified for nearly every intervention cited.",
+      "zh-TW": "該回顧指出，沒有單一介入能重現熱量限制的全部效應，且熱量限制在年老小鼠中無法抑制 mTOR，Rapamycin 則仍然有效；CR→Rapamycin→運動的序列已被提出但尚未試驗。此歸類於定量上未定義的 hormetic 窗口——幾乎所有列舉介入的劑量、時間、組織與性別皆未指明。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_major_research_gaps_review_03_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "6cb3bbb2d3a7",
+    "subject": "Autophagy",
+    "predicate": "suppresses",
+    "object": "Breast Cancer",
+    "context": {
+      "en-US": "Autophagy directionality in cancer is listed as unresolved: it kills in breast cancer but protects in melanoma, no method is established for shifting autophagy from pro-survival to pro-death in a given tumor, biomarkers of autophagy dependence are lacking, and the timing window for autophagy inhibition relative to chemotherapy is undefined (hydroxychloroquine trials modest or inconsistent; ovarian phase II negative).",
+      "zh-TW": "Autophagy 在癌症中的方向性被列為未解：在 Breast Cancer 中殺傷細胞，在 Melanoma 中則具保護作用；目前沒有方法可在特定腫瘤中將 Autophagy 由促存活切換為促死亡，缺乏自噬依賴性的生物標記，且相對於化療的自噬抑制時序窗口亦未定義（Hydroxychloroquine 試驗效果有限或不一致；卵巢癌第二期試驗為陰性）。"
+    },
+    "confidence": 0.7,
+    "source_document": "task_output_major_research_gaps_review_03_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "0fef5f8a228a",
+    "subject": "Autophagy",
+    "predicate": "promotes_survival_of",
+    "object": "Melanoma",
+    "context": {
+      "en-US": "The context-dependent autophagy paradox is paired with the breast-cancer finding: in melanoma autophagy protects tumour cells, so systemic autophagy inhibition could be detrimental in that setting while beneficial in breast cancer. Fenbendazole's p53 activation is described as plausibly anti-longevity in normal tissue, untested in aged tissue, and ivermectin/fenbendazole anticancer evidence remains entirely preclinical with no clinical trials.",
+      "zh-TW": "與 Breast Cancer 發現相對，此情境依賴的自噬悖論指出：在 Melanoma 中 Autophagy 保護腫瘤細胞，因此全身性自噬抑制在該情境可能有害，但在 Breast Cancer 中可能有利。Fenbendazole 對 p53 的活化被描述為在正常組織中可能不利於長壽，且未在老化組織中試驗；Ivermectin/Fenbendazole 的抗癌證據則全屬臨床前，沒有臨床試驗。"
+    },
+    "confidence": 0.7,
+    "source_document": "task_output_major_research_gaps_review_03_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "a0a4812d9820",
+    "subject": "CYP3A5",
+    "predicate": "increases_clearance_of",
+    "object": "Rapamycin",
+    "context": {
+      "en-US": "Among unvalidated genomic gates, CYP3A5*1 expressors clear sirolimus (rapamycin) 40-60% faster, producing false mTOR 'non-responders' with no CPIC guideline. NQO1 rs1800566 flips the sign of quinone exposure and is absent from the adrenochrome protocol; PON1/MnSOD activity bins carry more than 2-fold spread ('measure activity, do not infer it from rs4880'); APOE4 is treated as a single gate despite conflicting ketogenic evidence.",
+      "zh-TW": "在尚未驗證的基因體閘點中，CYP3A5*1 表現者清除 sirolimus（Rapamycin）的速度快 40–60%，造成假的 mTOR『無反應者』，且無 CPIC 指引。NQO1 rs1800566 會翻轉 Quinone 暴露的效應方向，且未納入 Adrenochrome 方案；PON1/MnSOD 活性分箱帶有超過 2 倍的離散（『應測量活性，勿由 rs4880 推斷』）；儘管生酮證據相互矛盾，APOE4 仍被當作單一閘點。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_major_research_gaps_review_03_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "084d41dd631e",
+    "subject": "TDP-43",
+    "predicate": "co_occurs_with",
+    "object": "Alzheimer's Disease",
+    "context": {
+      "en-US": "The neurodegeneration gap section notes that TDP-43/LATE co-pathology is present in roughly one third of brains beyond age 85 and predicts non-response to anti-amyloid therapy, whose cognitive slowing is about 25-35%. Prasinezumab is only Phase 3, AMT-130 is open-label with n=12, and no disease-modifying Parkinson's disease therapy exists; the co-pathology therefore bounds who benefits from anti-amyloid treatment.",
+      "zh-TW": "神經退化缺口章節指出，TDP-43/LATE 共病存在於約三分之一 85 歲以上的腦組織，並可預測對抗類澱粉治療無反應，而該類治療的認知減緩約 25–35%。Prasinezumab 僅達第三期，AMT-130 為 n=12 的開放標記試驗，且目前沒有可改變病程的 Parkinson's Disease 療法；此共病因此限制了抗類澱粉治療的受益族群。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_major_research_gaps_review_03_Nov_2026.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "70208019a7ca",
+    "subject": "Whole-Blood NAD+",
+    "predicate": "does_not_decline_with",
+    "object": "Aging",
+    "context": {
+      "en-US": "Tretowicz et al. quantified whole-blood NAD+ across seven independent human cohorts with a validated UHPLC-high-resolution mass spectrometry method and found whole-blood NAD+ remained stable with age and across lifestyle interventions, challenging the utility of blood NAD+ as a biomarker of ageing.",
+      "zh-TW": "Tretowicz 等人以驗證過的 UHPLC-高解析質譜方法，在七個獨立人類世代中定量全血 NAD+，發現全血 NAD+ 隨年齡與生活型態介入而保持穩定，質疑血液 NAD+ 作為衰老生物標誌的效用。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_whole_blood_nad_biomarker_viewpoint_10_Nov_2026.md",
+    "created": "2026-11-12T02:37:47Z",
+    "updated": "2026-11-12T02:37:47Z"
+  },
+  {
+    "id": "2dcb9bae3adf",
+    "subject": "Whole-Blood NAD+",
+    "predicate": "tracks",
+    "object": "Cardiovascular Disease",
+    "context": {
+      "en-US": "Romenskaja-Avgul et al. studied 1,068 adults and found whole-blood NAD tracks cardiovascular disease but not chronological age: reduced NAD was identified in cardiovascular disease and hypertension in both sexes, while healthy males showed no association with age.",
+      "zh-TW": "Romenskaja-Avgul 等人研究 1,068 名成人，發現全血 NAD 追蹤心血管疾病而非實際年齡：在兩性中，心血管疾病與高血壓患者均顯示 NAD 降低，而健康男性與年齡無關聯。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_whole_blood_nad_biomarker_viewpoint_10_Nov_2026.md",
+    "created": "2026-11-12T02:37:47Z",
+    "updated": "2026-11-12T02:37:47Z"
+  },
+  {
+    "id": "0942a497a631",
+    "subject": "Whole-Blood NAD+",
+    "predicate": "is_higher_in",
+    "object": "Males",
+    "context": {
+      "en-US": "In the Romenskaja-Avgul cohort, males had higher whole-blood NAD than females (P = 5.0 x 10^-13), retaining the male-greater-than-female baseline difference even though healthy-ageing trajectories were flat in males and rising in females.",
+      "zh-TW": "Romenskaja-Avgul 世代中，男性全血 NAD 高於女性（P = 5.0 x 10^-13）；雖然健康衰老的變化軌跡在男性為平坦、在女性為上升，男性較高的基準差異仍存在。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_whole_blood_nad_biomarker_viewpoint_10_Nov_2026.md",
+    "created": "2026-11-12T02:37:47Z",
+    "updated": "2026-11-12T02:37:47Z"
+  },
+  {
+    "id": "ecc2ad40144b",
+    "subject": "Nicotinamide Riboside",
+    "predicate": "increases",
+    "object": "Whole-Blood NAD+",
+    "context": {
+      "en-US": "Whole-blood NAD+ increased after nicotinamide riboside supplementation (twin-pair cohort escalated from 250 mg/day to 1 g/day over 5 months), confirming whole-blood NAD+ as a target-engagement marker but not as a marker of ageing or lifestyle.",
+      "zh-TW": "補充菸鹼醯胺核糖苷後全血 NAD+ 上升（雙胞胎世代在 5 個月內由每日 250 mg 增至 1 g），證實全血 NAD+ 是標靶結合標誌，但不是衰老或生活型態的標誌。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_whole_blood_nad_biomarker_viewpoint_10_Nov_2026.md",
+    "created": "2026-11-12T02:37:47Z",
+    "updated": "2026-11-12T02:37:47Z"
+  },
+  {
+    "id": "d28f3e22705e",
+    "subject": "Whole-Blood NAD+",
+    "predicate": "does_not_reflect",
+    "object": "Tissue NAD+",
+    "context": {
+      "en-US": "Gardell and Baur argue that blood NAD provides an incomplete view of systemic NAD metabolism and fails to capture heterogeneity across blood and solid tissues, so whole-blood NAD levels do not reliably reflect NAD homeostasis in other tissues.",
+      "zh-TW": "Gardell 與 Baur 指出，血液 NAD 僅提供全身 NAD 代謝的不完整視圖，無法反映血液與實體組織間的異質性，因此全血 NAD 濃度無法可靠反映其他組織的 NAD 穩態。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_whole_blood_nad_biomarker_viewpoint_10_Nov_2026.md",
+    "created": "2026-11-12T02:37:47Z",
+    "updated": "2026-11-12T02:37:47Z"
+  },
+  {
+    "id": "8296defa1edb",
+    "subject": "Nicotinamide Riboside",
+    "predicate": "failed_to_improve",
+    "object": "Parkinson's Disease",
+    "context": {
+      "en-US": "The phase 3 NOPARK randomised trial gave 410 participants with early Parkinson disease oral nicotinamide riboside 500 mg twice daily or placebo for 52 weeks; the adjusted between-group difference on the MDS-UPDRS was 2.72 points favouring placebo, with no clinical benefit despite increased NAD metabolism.",
+      "zh-TW": "第三期 NOPARK 隨機試驗納入 410 名早期 Parkinson's Disease 患者，口服菸鹼醯胺核糖苷每日兩次 500 mg 或安慰劑，52 週；MDS-UPDRS 評分的調整後組間差異為 2.72 分， favor 安慰劑——儘管 NAD 代謝增加，仍無臨床益處。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_whole_blood_nad_biomarker_viewpoint_10_Nov_2026.md",
+    "created": "2026-11-12T02:37:47Z",
+    "updated": "2026-11-12T02:37:47Z"
+  },
+  {
+    "id": "b76e463bd9fa",
+    "subject": "Hypertension",
+    "predicate": "reduces",
+    "object": "Whole-Blood NAD+",
+    "context": {
+      "en-US": "Stratification of the chronic-disease group identified reduced whole-blood NAD in cardiovascular disease and hypertension in both sexes, and the authors propose that rising hypertension prevalence with age may account for previously reported age-related NAD trajectories in unstratified cohorts.",
+      "zh-TW": "對慢性病組分層分析發現，兩性中心血管疾病與高血壓患者的確全血 NAD 降低；作者提出，隨年齡上升的高血壓盛行率可能解釋了先前未分層世代中報告的年齡相關 NAD 變化軌跡。"
+    },
+    "confidence": 0.9,
+    "source_document": "task_output_whole_blood_nad_biomarker_viewpoint_10_Nov_2026.md",
+    "created": "2026-11-12T02:37:47Z",
+    "updated": "2026-11-12T02:37:47Z"
   }
 ]

@@ -279,15 +279,22 @@ async function loadEntityDescriptions() {
   try {
     // No ?v= cache-buster: the SPA already fingerprints data files via
     // version.json, and a 4.9 MB re-download on every note view is not free.
-    const resp = await fetch('/data/nodes.json');
-    const g = await resp.json();
+    // Nodes carry only id+label; the prose lives in node-desc.json {id:{en,zh}}.
+    const [coreResp, descResp] = await Promise.all([
+      fetch('/data/nodes.json'),
+      fetch('/data/node-desc.json'),
+    ]);
+    const g = await coreResp.json();
+    const descMap = descResp.ok ? await descResp.json() : {};
     (Array.isArray(g) ? g : (g.nodes || [])).forEach((n) => {
-      if (!n.description) return;
-      if (!byLabel.has(n.label)) byLabel.set(n.label, n.description);
+      const entry = descMap[n.id] || {};
+      const description = entry.en || n.description;
+      if (!description) return;
+      if (!byLabel.has(n.label)) byLabel.set(n.label, description);
       const lo = n.label.toLowerCase();
-      if (!byLabel.has(lo)) byLabel.set(lo, n.description);
-      const zh = n.description_zh_TW;
-      if (zh && zh !== n.description) {
+      if (!byLabel.has(lo)) byLabel.set(lo, description);
+      const zh = entry.zh || n.description_zh_TW;
+      if (zh && zh !== description) {
         if (!byLabelZh.has(n.label)) byLabelZh.set(n.label, zh);
         if (!byLabelZh.has(lo)) byLabelZh.set(lo, zh);
       }

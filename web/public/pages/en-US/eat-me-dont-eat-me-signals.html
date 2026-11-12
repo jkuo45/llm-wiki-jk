@@ -1,0 +1,1117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eat-me and Don't-eat-me Signals — the Phagocytic Balance, Illustrated</title>
+<meta name="description" content="Illustrated guide to the pro-phagocytic (eat-me) and anti-phagocytic (don't-eat-me) cell-surface signals reported to regulate efferocytosis and tumor-cell phagocytosis — an interactive three.js phagocytosis-decision model, a signal-balance chart, a signal-to-receptor wiring graph, a membrane-asymmetry flow diagram, evidence-tier chart, and evidence-graded inventories of phosphatidylserine, calreticulin, CD47, CD24, PD-L1 and related axes.">
+<link rel="canonical" href="https://graph.johnnykuo.com/pages/en-US/eat-me-dont-eat-me-signals.html">
+<link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/eat-me-dont-eat-me-signals.html">
+<link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/eat-me-dont-eat-me-signals.html">
+<link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/eat-me-dont-eat-me-signals.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚖️</text></svg>">
+<link rel="stylesheet" href="../themes/theme-01/pages.css">
+<link rel="stylesheet" href="../themes/theme-01/pages-light.css" id="theme-light">
+<link rel="stylesheet" href="../themes/theme-01/pages-article.css">
+<script src="../themes/theme-01/page-theme.js"></script>
+<script src="../themes/shared/nav-auto-hide.js"></script>
+<script type="importmap">
+{"imports":{"three":"https://unpkg.com/three@0.160.0/build/three.module.js","three/addons/":"https://unpkg.com/three@0.160.0/examples/jsm/"}}
+</script>
+<style>
+  /* page-specific only — shared chrome lives in themes/theme-01/ */
+  .nd{ color:var(--teal); border-bottom:1px dotted var(--link-dash); }
+  .tier{ font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-size:.72rem; border:1px solid currentColor; border-radius:3px; padding:0 5px; white-space:nowrap; }
+  .t1{color:var(--green);} .t2{color:var(--teal);} .t3{color:var(--purple);} .t4{color:var(--blue);} .t5{color:var(--red);}
+  .tbl-wrap table{ min-width:940px; }
+  .tbl-wrap td{ font-size:.82rem; line-height:1.5; }
+  .tbl-wrap th{ font-size:.7rem; }
+
+  /* concept cards */
+  .concept{ display:grid; grid-template-columns:1fr 1fr; gap:16px; margin:18px 0 6px; }
+  @media (max-width:760px){ .concept{ grid-template-columns:1fr; } }
+  .concept > div{ border:1px solid var(--line); border-radius:12px; padding:16px 18px; background:var(--card); }
+  .concept .eat{ border-left:4px solid var(--green); }
+  .concept .brake{ border-left:4px solid var(--red); }
+  .concept h3{ margin:0 0 8px; font-size:1.05rem; }
+  .concept .eat h3{ color:var(--green); } .concept .brake h3{ color:var(--red); }
+  .concept p{ font-size:.88rem; color:var(--dim); margin:0 0 8px; line-height:1.55; }
+  .concept .tag{ font-family:ui-monospace,monospace; font-size:.72rem; color:var(--mute); }
+
+  /* three.js stage */
+  .stage{ position:relative; height:440px; border:1px solid var(--line); border-radius:14px; overflow:hidden;
+    background:radial-gradient(600px 320px at 50% 38%, #16233a 0%, #0e1420 72%); }
+  @media (max-width:640px){ .stage{ height:340px; } }
+  .stage canvas{ width:100%; height:100%; display:block; }
+  .status{ position:absolute; left:12px; top:12px; font-family:ui-monospace,monospace; font-size:.78rem; font-weight:700;
+    letter-spacing:.04em; padding:6px 12px; border-radius:999px; border:1px solid; pointer-events:none; }
+  .status.pos{ color:#8ff0bd; border-color:#2f9d68; background:rgba(10,40,26,.72); }
+  .status.neg{ color:#ffb3b6; border-color:#b5454b; background:rgba(52,14,16,.72); }
+  .status.mid{ color:#ffe0a3; border-color:#c08a2a; background:rgba(52,36,8,.72); }
+  .stage-hint{ position:absolute; right:12px; bottom:10px; font-family:ui-monospace,monospace; font-size:.68rem; color:#9fb0c8; opacity:.75; pointer-events:none; }
+  .stage-signal{ position:absolute; left:12px; bottom:10px; font-family:ui-monospace,monospace; font-size:.68rem; color:#9fb0c8; opacity:.8; pointer-events:none; }
+  .anim-toggle{ position:absolute; right:12px; top:12px; font-family:inherit; font-size:.74rem; padding:5px 11px;
+    background:rgba(14,20,32,.72); color:#dce6f4; border:1px solid rgba(255,255,255,.22); border-radius:8px; cursor:pointer; }
+  .anim-toggle:hover{ border-color:#7fd4ff; }
+  .anim-toggle.replay{ top:46px; }
+  .stage-fallback{ position:absolute; inset:0; display:flex; align-items:center; justify-content:center;
+    color:#c9d6ea; font-size:.9rem; text-align:center; padding:24px; background:rgba(14,20,32,.55); }
+
+  .controls{ margin-top:14px; border:1px solid var(--line); border-radius:12px; padding:16px 18px; background:var(--card); }
+  .preset-bar{ display:flex; flex-wrap:wrap; gap:8px; margin-bottom:14px; }
+  .preset{ font-family:inherit; font-size:.8rem; padding:6px 12px; border:1px solid var(--line2); border-radius:999px;
+    background:var(--bg2); color:var(--dim); cursor:pointer; }
+  .preset:hover{ border-color:var(--teal); color:var(--text); }
+  .preset.is-on{ background:var(--teal); border-color:var(--teal); color:var(--btn-fg); font-weight:700; }
+  .sliders{ display:grid; grid-template-columns:1fr 1fr; gap:18px 26px; margin-bottom:14px; }
+  @media (max-width:640px){ .sliders{ grid-template-columns:1fr; } }
+  .sliders label{ font-size:.8rem; color:var(--dim); display:block; }
+  .sliders .lbl{ display:flex; justify-content:space-between; margin-bottom:4px; }
+  .sliders .lbl b{ color:var(--text); font-family:ui-monospace,monospace; }
+  .sliders input[type=range]{ width:100%; accent-color:var(--teal); }
+  .sliders .eat input{ accent-color:var(--green); } .sliders .brake input{ accent-color:var(--red); }
+  .gauge-head{ font-size:.8rem; color:var(--dim); display:flex; flex-wrap:wrap; align-items:baseline; gap:8px; margin-bottom:7px; }
+  .gauge-head b{ color:var(--text); font-family:ui-monospace,monospace; }
+  .gauge-head span{ color:var(--mute); }
+  .gauge-track{ position:relative; height:12px; border-radius:999px; border:1px solid var(--line2);
+    background:linear-gradient(90deg, rgba(228,87,94,.35) 0%, rgba(228,87,94,.12) 48%, rgba(62,201,167,.12) 52%, rgba(62,201,167,.35) 100%); }
+  .gauge-track .band{ position:absolute; left:47.5%; width:8.5%; top:0; bottom:0; background:rgba(255,224,163,.12); border-left:1px solid var(--amber); border-right:1px solid var(--amber); }
+  .gauge-track .thr{ position:absolute; left:56%; top:-4px; bottom:-4px; width:1px; background:var(--amber); opacity:.8; }
+  .gauge-track .needle{ position:absolute; top:-5px; bottom:-5px; width:3px; border-radius:2px; background:var(--text); transform:translateX(-50%); transition:left .12s linear; }
+  .gauge-scale{ display:flex; justify-content:space-between; font-size:.68rem; color:var(--mute); margin-top:5px; }
+  .state-desc{ font-size:.84rem; color:var(--dim); line-height:1.55; margin:12px 0 10px; min-height:2.4em; }
+  .legend{ display:flex; flex-wrap:wrap; gap:14px; font-size:.76rem; color:var(--dim); border-top:1px solid var(--line); padding-top:10px; }
+  .legend span{ display:flex; align-items:center; gap:6px; }
+  .legend .sw{ width:11px; height:11px; border-radius:50%; display:inline-block; }
+  .sw.eat{ background:#35d07f; } .sw.brake{ background:#ff5d63; } .sw.phago{ background:#5c82bd; } .sw.target{ background:#9fb4c9; }
+
+  /* SVG diagram palette (var-based → re-themes with the site toggle) */
+  .node-eat{ fill:color-mix(in srgb, var(--green) 12%, var(--card)); stroke:var(--green); stroke-width:1.2; }
+  .node-brake{ fill:color-mix(in srgb, var(--red) 12%, var(--card)); stroke:var(--red); stroke-width:1.2; }
+  .node-out-eat{ fill:color-mix(in srgb, var(--green) 20%, var(--card)); stroke:var(--green); stroke-width:1.6; }
+  .node-out-brake{ fill:color-mix(in srgb, var(--red) 20%, var(--card)); stroke:var(--red); stroke-width:1.6; }
+  .edge-eat{ stroke:var(--green); stroke-width:1.5; fill:none; opacity:.8; }
+  .edge-brake{ stroke:var(--red); stroke-width:1.5; fill:none; opacity:.8; }
+  .grid-line{ stroke:var(--line); stroke-width:1; stroke-dasharray:3 4; }
+  .axis-line{ stroke:var(--line2); stroke-width:1; }
+  .ev-t1{fill:var(--green);} .ev-t2{fill:var(--teal);} .ev-t3{fill:var(--blue);} .ev-t4{fill:var(--amber);} .ev-t5{fill:var(--red);}
+  .bar-eat{fill:var(--green);} .bar-brake{fill:var(--red);}
+  .balance-row{ cursor:pointer; }
+  .balance-row.is-on rect.bar-eat, .balance-row.is-on rect.bar-brake{ stroke:var(--text); stroke-width:1.4; }
+
+  /* find-me + failure cards */
+  .mini-grid{ display:grid; gap:12px; grid-template-columns:repeat(auto-fit,minmax(215px,1fr)); margin:14px 0; }
+  .mini{ border:1px solid var(--line); border-radius:12px; padding:12px 14px; background:var(--card); }
+  .mini h4{ font-size:.9rem; margin:0 0 5px; color:var(--text); }
+  .mini p{ font-size:.8rem; color:var(--dim); line-height:1.5; margin:0; }
+  .mini .rt{ font-family:ui-monospace,monospace; font-size:.72rem; color:var(--teal); display:block; margin-bottom:5px; }
+  .fail-grid{ display:grid; gap:14px; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); margin:14px 0; }
+  .fail{ border:1px solid var(--line); border-radius:12px; padding:14px 16px; background:var(--card); border-top:3px solid var(--amber); }
+  .fail.cancer{ border-top-color:var(--red); } .fail.icd{ border-top-color:var(--green); }
+  .fail h4{ font-size:.95rem; margin:0 0 6px; }
+  .fail p{ font-size:.82rem; color:var(--dim); line-height:1.55; margin:0; }
+  .chips{ display:flex; flex-wrap:wrap; gap:7px; margin:8px 0 2px; }
+  .chips a{ font-size:.74rem; padding:3px 9px; border:1px solid var(--line2); border-radius:999px; color:var(--dim); background:var(--bg2); }
+  .chips a:hover{ border-color:var(--teal); color:var(--teal); text-decoration:none; }
+  .steps{ padding-left:1.15em; font-size:.88rem; color:var(--dim); line-height:1.7; }
+  .steps li{ margin-bottom:7px; } .steps b{ color:var(--text); }
+  .foot{ border-top:1px solid var(--line); padding:26px 0 60px; color:var(--mute); font-size:.8rem; line-height:1.7; }
+</style>
+</head>
+<body style="--wrap-width:1200px;">
+
+<nav>
+  <div class="wrap">
+    <a id="back-home" class="back-home" href="../index.html" title="Back to articles index">&#8592; Back</a>
+    <a class="n" href="#overview">Overview</a>
+    <a class="n" href="#decision">3-D decision</a>
+    <a class="n" href="#balance">Balance chart</a>
+    <a class="n" href="#mechanism">Mechanism</a>
+    <a class="n" href="#graph">Wiring graph</a>
+    <a class="n" href="#eatme">Eat-me</a>
+    <a class="n" href="#dont">Don't-eat-me</a>
+    <a class="n" href="#findme">Find-me</a>
+    <a class="n" href="#evidence">Evidence</a>
+    <a class="n" href="#failure">Failure modes</a>
+    <a class="n" href="#gaps">Open problems</a>
+    <a class="n" href="#sources">Sources</a>
+  </div>
+</nav>
+
+<header>
+  <div class="wrap">
+    <div class="kicker">Efferocytosis · Phagocytic signalling · Comparative inventory · 2026</div>
+    <h1>Eat-me and don't-eat-me signals — the phagocytic balance</h1>
+    <p class="lead" style="margin-top:14px;">
+      Phagocytosis of a dying, stressed, or malignant cell is gated by the <b style="color:var(--text)">relative display</b> of
+      pro-phagocytic <b style="color:var(--green)">eat-me</b> ligands and anti-phagocytic
+      <b style="color:var(--red)">don't-eat-me</b> ligands on the target-cell surface. Eat-me signals converge on
+      loss of plasma-membrane lipid asymmetry and exposure of
+      <a class="nd" href="https://graph.johnnykuo.com/#node=Phosphatidylserine">phosphatidylserine (PS)</a>,
+      surface <a class="nd" href="https://graph.johnnykuo.com/#node=Calreticulin">calreticulin</a>, and opsonins;
+      don't-eat-me signals engage inhibitory ITIM- or lectin-bearing receptors on the phagocyte. This page illustrates
+      the ratio rule with an interactive three.js model, charts the signal balance across cell states, maps the
+      signal–receptor wiring, and inventories each ligand with its receptor, execution machinery, and evidence tier.
+      Evidence tiers: <span class="tier t1">Tier 1</span> human RCT / approved ·
+      <span class="tier t2">Tier 2</span> human trial / association · <span class="tier t3">Tier 3</span> rodent / in vivo ·
+      <span class="tier t4">Tier 4</span> in vitro / ex vivo · <span class="tier t5">Tier 5</span> hypothesis.
+      Signal biochemistry is Tier 4 unless a clinical axis is named.
+    </p>
+    <div class="meta">
+      Source: vault task output
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_eat_me_dont_eat_me_signals_08_Nov_2026.md" target="_blank" rel="noopener noreferrer"><code>eat-me and don't-eat-me phagocytic signals — comparative inventory (08 Nov 2026)</code></a>
+      · reviews: Birge et al. 2016 · Khalaji et al. 2023 · Xiao et al. 2024 · Park &amp; Kim 2017 (links in <a href="#sources">Sources</a>)
+      · companion pages: <a href="eryptosis.html">Eryptosis</a> · <a href="apoptosis.html">Apoptosis</a> · <a href="cell-death-comparison.html">Cell Death Comparison</a>
+    </div>
+    <div class="pill-row">
+      <a class="badge teal" href="#decision">PS externalization + calreticulin license uptake (Tier 4)</a>
+      <a class="badge red" href="#dont">CD47 · CD24 · PD-L1 raise the inhibitory ceiling</a>
+      <a class="badge" href="#balance">outcome follows the ratio, not a single ligand</a>
+      <a class="badge amber" href="#evidence">most ligands Tier 4; few axes reach trials</a>
+      <a class="badge speculative" href="#gaps">tissue-level ratio unmeasured</a>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <!-- ==================== OVERVIEW ==================== -->
+  <section id="overview">
+    <h2>Two opposing signal classes</h2>
+    <p>
+      A phagocyte integrates activating and inhibitory inputs at the phagocytic synapse. Eat-me ligands are displayed on dying, stressed, infected, or opsonized cells; don't-eat-me
+      ligands are constitutively displayed on viable cells and are up-regulated on tumor cells in reported models. A widely used comparison is surface calreticulin versus CD47: calreticulin licenses uptake while CD47–SIRPα
+      signalling blocks it (Tier 4, cellular assays).
+    </p>
+    <div class="concept">
+      <div class="eat">
+        <h3>Eat-me — pro-phagocytic</h3>
+        <p>Signals exposed on dying, stressed, or infected cells that tag the cell for engulfment. Most recognize a
+          common endpoint: loss of plasma-membrane lipid asymmetry with PS on the outer leaflet. Uptake of
+          PS-positive material skews macrophages toward HO-1-producing, anti-inflammatory states.</p>
+        <span class="tag">PS · calreticulin · cardiolipin · oxPL · desialylated glycans · ubiquitin · C1q · CXCL14 · SLAMF7</span>
+      </div>
+      <div class="brake">
+        <h3>Don't-eat-me — anti-phagocytic</h3>
+        <p>Anti-phagocytic ceilings. Most act through inhibitory ITIM-bearing or homophilic receptors on the
+          phagocyte, recruiting SHP-1/2 and blocking myosin-II-dependent engulfment. Cancer and fibrosis
+          overexpress them.</p>
+        <span class="tag">CD47 · CD24 · PD-L1 · sialic acid · β2M/MHC-I · CD31</span>
+      </div>
+    </div>
+    <div class="callout teal">
+      <span class="callout-tag">The balance rule</span>
+      <p>Efferocytosis is triggered by the <b>ratio</b> of eat-me to don't-eat-me display, not by any one ligand.
+        A viable cell maintains PS on the inner leaflet through flippase activity while displaying CD47, sialic acid,
+        and MHC-I; death or stress inactivates flippase and activates scramblase, externalizing PS with reported
+        reduction in CD47, so the ratio shifts toward engulfment (Tier 4).</p>
+    </div>
+  </section>
+
+  <!-- ==================== 3-D DECISION ==================== -->
+  <section id="decision">
+    <h2>The phagocytosis decision — interactive 3-D illustration</h2>
+    <p>
+      The model shows a target cell carrying surface eat-me markers (green) and don't-eat-me markers (red), and a
+      phagocyte (macrophage) approaching from the right. Marker density follows two independent inputs; the phagocyte
+      engages when the net signal is positive. Presets reproduce the states described in the inventory. The model is a
+      schematic, not to scale.
+    </p>
+
+    <div class="stage" id="stage">
+      <canvas id="signal-canvas" aria-label="Interactive 3-D illustration of a target cell carrying eat-me and don't-eat-me surface markers, and a macrophage that engages when the net phagocytic signal is positive"></canvas>
+      <div class="status pos" id="status" role="status" aria-live="polite">ENGULFMENT · efferocytosis</div>
+      <div class="stage-hint">drag = orbit · scroll = zoom</div>
+      <div class="stage-signal" id="stage-signal">flippase ON · ATP11C · PS on inner leaflet</div>
+      <button class="anim-toggle" id="anim-toggle" aria-label="Pause or resume rotation">⏸ Pause rotation</button>
+      <button class="anim-toggle replay" id="replay-btn" aria-label="Replay the engulfment sequence">↻ Replay engulfment</button>
+      <div class="stage-fallback" id="stage-fallback">Loading 3-D model… If this message persists, WebGL or the three.js CDN is unavailable. The charts, graphs, and inventories below remain available.</div>
+    </div>
+
+    <div class="controls">
+      <div class="preset-bar" id="preset-bar">
+        <button class="preset" data-preset="healthy">Healthy viable cell</button>
+        <button class="preset" data-preset="apoptotic">Apoptotic / stressed</button>
+        <button class="preset" data-preset="aged">Aged erythrocyte</button>
+        <button class="preset" data-preset="cancer">Tumor (brake↑)</button>
+        <button class="preset" data-preset="icd">ICD therapy</button>
+      </div>
+      <div class="sliders">
+        <label class="eat">
+          <span class="lbl"><span>Eat-me display (PS / calreticulin)</span><b id="eat-out">92</b></span>
+          <input type="range" id="eat-slider" min="0" max="100" value="92" aria-label="Eat-me signal display level">
+        </label>
+        <label class="brake">
+          <span class="lbl"><span>Don't-eat-me display (CD47 / sialic acid / MHC-I)</span><b id="brake-out">14</b></span>
+          <input type="range" id="brake-slider" min="0" max="100" value="14" aria-label="Don't-eat-me signal display level">
+        </label>
+      </div>
+      <div class="gauge-head">Net phagocytic signal <b id="net-val">+0.78</b> <span id="verdict-line">positive → engulfment</span></div>
+      <div class="gauge-track"><i class="band"></i><i class="thr"></i><i class="needle" id="needle" style="left:89%"></i></div>
+      <div class="gauge-scale"><span>−1 brake-dominant</span><span>threshold band −0.05 … +0.12</span><span>+1 eat-dominant</span></div>
+      <p class="state-desc" id="state-desc"></p>
+      <div class="legend">
+        <span><i class="sw eat"></i> Eat-me: ● PS, ▲ calreticulin</span>
+        <span><i class="sw brake"></i> Don't-eat-me: ▮ CD47, ◆ sialic acid / MHC-I</span>
+        <span><i class="sw phago"></i> Phagocyte (macrophage)</span>
+        <span><i class="sw target"></i> Target cell / phagosome</span>
+      </div>
+    </div>
+    <p class="fig-cap" style="margin-top:10px;">
+      <b>Reading the model.</b> Green and red markers are schematic surface ligands; their counts scale with the two
+      inputs, and the green PS/calreticulin markers migrate from the inner to the outer leaflet as eat-me display
+      rises (flippase → scramblase; dim ghosts mark the inner-leaflet PS pool). The translucent macrophage runs a
+      four-stage sequence — chemotaxis (with a diffusing find-me halo), transient contact/tasting at the synapse
+      ring (shown under brake dominance too — don't-eat-me blocks cup closure, not approach), pseudopod cup
+      formation, and internalization into a full-size phagosome; a red ring pulses at the synapse when an
+      ITIM/SHP-1 brake dominates. Green and red receptor nubs coexist on the phagocyte; their bond opacity scales
+      with the respective signal. <code>eat − brake</code> is a teaching abstraction: inhibitory receptors raise the activation threshold rather
+      than subtracting ligand counts. Magnitudes are illustrative, not measured. Built with three.js r160 (CDN
+      importmap); all animation is disabled under <code>prefers-reduced-motion</code>.
+    </p>
+  </section>
+
+  <!-- ==================== BALANCE CHART ==================== -->
+  <section id="balance">
+    <h2>The balance rule across cell states</h2>
+    <p>
+      The ratio is reported to vary with cell state: viable cells are brake-dominant; apoptotic, eryptotic, and
+      aged cells become eat-dominant; tumors raise the inhibitory ceiling; immunogenic-cell-death (ICD) therapy
+      raises the eat-me side and removes the brake. The chart is a qualitative schematic — the source inventory
+      reports no quantified tissue-level ratio (see <a href="#gaps">Open problems</a>).
+    </p>
+    <div class="fig">
+      <div class="fig-canvas"><svg id="balanceSvg" viewBox="0 0 1000 470" role="img" aria-label="Diverging bar chart of relative eat-me and don't-eat-me signal display across five cell states"></svg></div>
+      <div class="fig-cap"><b>Schematic relative display</b> of pro-phagocytic (green, right) and anti-phagocytic
+        (red, left) signals across cell states; a diamond on a separate track above each bar pair marks the net
+        signal, and the right column the resulting outcome. Click a row to load the matching 3-D preset.
+        Magnitudes are illustrative, not measured — no quantified tissue-level CD47 : sialic acid : PS ratio
+        is available in the cited literature.</div>
+    </div>
+  </section>
+
+  <!-- ==================== MECHANISM FLOW ==================== -->
+  <section id="mechanism">
+    <h2>Membrane asymmetry loss and PS-mediated engulfment</h2>
+    <p>
+      Healthy cells retain PS on the inner leaflet through ATP-dependent flippase activity. Apoptotic and eryptotic
+      execution inactivates flippase and activates scramblase — caspase cleavage of ATP11C with XKR8 activation in
+      apoptosis, Ca²⁺-driven TMEM16F/ANO6 activation in eryptosis — externalizing PS. PS is then read directly by
+      TIM-family, BAI1, and stabilin receptors or through bridging molecules (Gas6/Protein S to MerTK-type TAM
+      receptors; MFGE8 to integrins). Inhibitory ligands engage a parallel ITIM/SHP-1/2 branch.
+    </p>
+    <div class="fig">
+      <div class="fig-canvas"><svg id="flowSvg" viewBox="0 0 1000 340" role="img" aria-label="Flow diagram of the eat-me activation lane and the don't-eat-me inhibitory lane converging on the phagocytic decision"></svg></div>
+      <div class="fig-cap"><b>Two-lane mechanism.</b> Upper (green): loss of lipid asymmetry → PS exposure → receptor
+        recognition → non-inflammatory engulfment. Lower (red): inhibitory ligands → ITIM-bearing receptors →
+        SHP-1/2 and myosin-II block. The phagocyte integrates both lanes; the ratio sets the outcome (Tier 4).</div>
+    </div>
+    <ol class="steps">
+      <li><b>Viable cell.</b> Flippase keeps PS inward; CD47, sialic acid, and MHC-I dominate the outer surface → no sustained phagocytosis.</li>
+      <li><b>Death or stress.</b> Flippase off, scramblase on (Ca²⁺-driven in eryptosis; caspase-driven in apoptosis) → PS on the outer leaflet; CD47 loss with age is reported → ratio shifts → engulfment, non-inflammatory when PS-mediated.</li>
+      <li><b>Disease effects.</b> Cancer overexpresses brakes (CD47, CD24, PD-L1); fibrosis and atherosclerosis impair eat-me recognition downstream; excess eryptosis saturates clearance and delivers PS-positive procoagulant cells.</li>
+      <li><b>ICD therapy.</b> Surface calreticulin appears after anthracyclines, photodynamic therapy, and some radiotherapy. DC uptake of PS-positive corpses is reported as tolerogenic in vitro unless paired with calreticulin and danger signals.</li>
+    </ol>
+  </section>
+
+  <!-- ==================== WIRING GRAPH ==================== -->
+  <section id="graph">
+    <h2>Signal → receptor → outcome wiring</h2>
+    <p>
+      A graph of selected ligand–receptor pairings. Eat-me ligands converge on engulfment; don't-eat-me ligands
+      converge on the ITIM/SHP-1/2 block. Pairings are drawn from the inventory below; the full set of signals and
+      their contexts is tabulated in the two inventories.
+    </p>
+    <div class="fig">
+      <div class="fig-canvas"><svg id="graphSvg" viewBox="0 0 1000 600" role="img" aria-label="Bipartite graph connecting eat-me and don't-eat-me signals to phagocyte receptors and to engulfment or no-engulfment outcomes"></svg></div>
+      <div class="fig-cap"><b>Selected pairings.</b> Left: signal. Middle: receptor or bridging molecule on the
+        phagocyte. Right: integrated response. Green edges are pro-phagocytic, red edges inhibitory. CD24–Siglec-10
+        and PD-L1–PD-1 are reported in cellular assays (Tier 4); PD-1/PD-L1 blockade itself reached Tier 1 in oncology.</div>
+    </div>
+  </section>
+
+  <!-- ==================== EAT-ME INVENTORY ==================== -->
+  <section id="eatme">
+    <h2>Eat-me signals — inventory</h2>
+    <p>Signals exposed on dying, stressed, or infected cells that tag the cell for engulfment. A complementary
+      class of find-me signals recruits phagocytes without itself triggering engulfment (see <a href="#findme">Find-me</a>).</p>
+    <div class="tbl-wrap">
+      <table class="tbl-fixed">
+        <thead><tr><th style="width:16%">Signal</th><th style="width:24%">Exposed on / context</th><th style="width:26%">Recognized by</th><th style="width:34%">Notes (evidence tier)</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><b>Phosphatidylserine (PS)</b></td>
+            <td>Multiple contexts: outer leaflet of apoptotic, eryptotic, activated-platelet, and tumor-cell membranes; apoptotic bodies.</td>
+            <td>Direct PS receptors (TIM-4, BAI1, stabilin-2) and bridging molecules (Gas6/Protein S → MerTK-type TAM receptors; MFGE8 → integrins).</td>
+            <td>Widely reported mammalian eat-me signal <span class="tier t4">Tier 4</span>. Execution requires scramblase activation + flippase inactivation (TMEM16F/ANO6 in eryptosis; caspase-cleaved ATP11C and XKR8 in apoptosis). PS-positive uptake skews macrophages toward HO-1-producing anti-inflammatory states <span class="tier t4">Tier 4</span>–<span class="tier t3">Tier 3</span>.</td>
+          </tr>
+          <tr>
+            <td><b>Calreticulin (surface-exposed)</b></td>
+            <td>Cell surface after anthracycline chemotherapy, photodynamic therapy, some radiotherapy; reported as the dominant eat-me signal in immunogenic cell death models.</td>
+            <td>LRP1/CD91 on phagocytes; removal of the opposing CD47 brake licenses uptake.</td>
+            <td>Surface CRT is recognized by LRP1/CD91 (Gardai et al. 2005); CRT is also a reported C1q-binding co-receptor, and secreted or cleaved CRT can act as an opsonin. CRT is required for uptake while tumor antigens from the same death trigger the adaptive response <span class="tier t4">Tier 4</span>.</td>
+          </tr>
+          <tr>
+            <td><b>SLAMF7 (CS1 / CD319)</b></td>
+            <td>Hematopoietic tumor cells (myeloma, some lymphoma), plasma cells, NK cells; also macrophages.</td>
+            <td>Homotypic SLAMF7–SLAMF7 binding with Mac-1 (CD11b/CD18) on macrophages → FcRγ/DAP12, Syk/Btk.</td>
+            <td>Pro-phagocytic eat-me signal, not a brake: SLAMF7 is required for macrophage phagocytosis of hematopoietic tumor cells during CD47–SIRPα blockade (Chen et al. 2017, <i>Nature</i> 544:493–497; PMID 28424516) <span class="tier t4">Tier 4</span>. The requirement is disputed (He et al. 2019, <i>Nat Commun</i>); the SLAM-family brakes are SLAMF3/SLAMF4. Elotuzumab is approved in myeloma combinations <span class="tier t1">Tier 1</span> via NK-cell ADCC and macrophage ADCP, not by neutralizing an inhibitory pair.</td>
+          </tr>
+          <tr>
+            <td><b>Cardiolipin (externalized)</b></td>
+            <td>Outer surface of stressed mitochondria and of dying cells; cardiolipin peroxidation is cytochrome-c-linked.</td>
+            <td>CD36 on macrophages for extracellular/exposed cardiolipin; LC3 for intracellular mitophagic clearance.</td>
+            <td>Externalized cardiolipin is a CD36-dependent eat-me signal (Balasubramanian et al. 2015, <i>Sci Signal</i>; PMID 26396268); translocation to the outer mitochondrial membrane recruits LC3 for mitophagy (Chu et al. 2013, <i>Nat Cell Biol</i>; PMID 24036476) <span class="tier t4">Tier 4</span>.</td>
+          </tr>
+          <tr>
+            <td><b>Oxidized phospholipids / oxLDL epitopes</b></td>
+            <td>Oxidatively stressed cells; atheromatous debris.</td>
+            <td>Scavenger receptors (CD36, SR-A, LOX-1).</td>
+            <td>Reported contributor to unstable-plaque foam-cell uptake; overlaps with PS via oxPS determinants <span class="tier t4">Tier 4</span>.</td>
+          </tr>
+          <tr>
+            <td><b>Desialylated glycans</b></td>
+            <td>Aged erythrocytes — the classical senescent eat-me cue; neuraminidase treatment experimentally drives PS exposure.</td>
+            <td>Naturally occurring IgG autoantibodies (reported against AE1/band 3) → Fc-receptor bridging.</td>
+            <td>Distinct from the PS route: not eryptosis. Desialylation bridges the two clearance programs, since desialylation and PS exposure co-occur <span class="tier t4">Tier 4</span>.</td>
+          </tr>
+          <tr>
+            <td><b>Ubiquitin chains on damaged organelles</b></td>
+            <td>Parkin-tagged mitochondria (PINK1/Parkin pathway); mitophagic receptors.</td>
+            <td>Autophagy receptors p62, NBR1, NDP52, OPTN.</td>
+            <td>The eat-me logic of mitophagy mirrors efferocytosis at the organelle scale <span class="tier t4">Tier 4</span>; PINK1/Parkin failure is linked to familial Parkinson's disease.</td>
+          </tr>
+          <tr>
+            <td><b>ECM-anchored CXCL14</b></td>
+            <td>Early senescence secretome, before NF-κB/IL-6 SASP matures.</td>
+            <td>Macrophage, DC, NK, T-cell recruiters (unidentified receptor).</td>
+            <td>An eat-me chemoattractant rather than a surface tag; retained on endothelial glycosaminoglycans <span class="tier t4">Tier 4</span>.</td>
+          </tr>
+          <tr>
+            <td><b>Complement C1q (bridging opsonin)</b></td>
+            <td>Apoptotic cells; classical pathway sensor.</td>
+            <td>C1q bridging to surface calreticulin / CD91 (LRP1) on phagocytes.</td>
+            <td>CRT (cC1qR) is a reported C1q-binding co-receptor with CD91/LRP1; the assignment is debated because CRT has no transmembrane domain (Park &amp; Kim 2017). Listed for completeness <span class="tier t4">Tier 4</span>.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ==================== DON'T-EAT-ME INVENTORY ==================== -->
+  <section id="dont">
+    <h2>Don't-eat-me signals — inventory</h2>
+    <p>Anti-phagocytic ceilings. Most act through inhibitory ITIM-bearing or homophilic receptors on the phagocyte;
+      cancer and fibrosis overexpress them.</p>
+    <div class="tbl-wrap">
+      <table class="tbl-fixed">
+        <thead><tr><th style="width:16%">Signal</th><th style="width:24%">Expressed on</th><th style="width:26%">Recognized by</th><th style="width:34%">Notes (evidence tier)</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><b>CD47</b></td>
+            <td>Nearly all nucleated cells + erythrocytes — a widely used brake example.</td>
+            <td>SIRPα on macrophages/DCs → ITIM, SHP-1/2, myosin-II accumulation blocks engulfment.</td>
+            <td>Ubiquitously expressed; levels rise with age in some tissues (arteries, lung, photoaged skin). Loss on aged erythrocytes removes the brake and accelerates clearance <span class="tier t4">Tier 4</span>, <span class="tier t3">Tier 3</span> in RBC models. Anti-CD47 agents (monoclonal antibodies, SIRPα decoys, bispecifics) remain investigational with no approval: Gilead terminated magrolimab in 2024 after ENHANCE-3 showed futility and increased deaths (FDA full hold in AML/MDS), and the remaining solid-tumor trials were removed from the pipeline; other agents had further setbacks in 2024–25 <span class="tier t2">Tier 2</span>.</td>
+          </tr>
+          <tr>
+            <td><b>CD24</b></td>
+            <td>Human tumors (murine Cd24a differs functionally), developing hematopoietic cells.</td>
+            <td>Siglec-10 on macrophages → inhibitory SHP-1.</td>
+            <td>Reported as an additional don't-eat-me signal alongside CD47: CD24–Siglec-10 blockade augments phagocytosis of CD24-expressing human tumors (Barkal et al. 2019) <span class="tier t4">Tier 4</span>.</td>
+          </tr>
+          <tr>
+            <td><b>PD-L1 (CD274)</b></td>
+            <td>Tumor cells, inflamed tissues.</td>
+            <td>PD-1 on macrophages, at the phagocytic synapse.</td>
+            <td>PD-L1 on tumor cells engaging PD-1 on macrophages suppresses phagocytosis; blocking the pair licenses tumor-cell uptake — the same axis that gates T-cell checkpoints (Gordon et al. 2017, <i>Nature</i> 545:495–499; PMID 28514441) <span class="tier t4">Tier 4</span>. PD-1/PD-L1 blockade is approved in oncology <span class="tier t1">Tier 1</span> for T-cell checkpoint blockade, not specifically for the macrophage arm.</td>
+          </tr>
+          <tr>
+            <td><b>Sialic acid / α2,8-polysialic acid</b></td>
+            <td>Healthy viable cells (immune, neural lineages).</td>
+            <td>Siglecs (inhibitory I-type lectins, incl. Siglec-10, Siglec-7; α2,8-polysialic acid is recognized by Siglec-11).</td>
+            <td>Removal by sialidase converts the cell to an eat-me state; age-related desialylation of erythrocytes links to the eat-me table <span class="tier t4">Tier 4</span>.</td>
+          </tr>
+          <tr>
+            <td><b>β2-microglobulin (+ MHC-I display)</b></td>
+            <td>Nucleated cells; tumor cells up-regulate the axis.</td>
+            <td>LILRB1 (ILT2) on macrophages; LILRB2 / PirB in mouse CNS.</td>
+            <td>Surface MHC-I/β2M sets an anti-phagocytic threshold via LILRB1; disruption of either MHC-I or LILRB1 potentiated tumor-cell phagocytosis in vitro and in mouse models (Barkal et al. 2018, <i>Nat Immunol</i> 19:76–84; PMID 29180808) <span class="tier t3">Tier 3</span>. PILRβ is an activating CD99 receptor and KIRs are NK-cell receptors, not this brake.</td>
+          </tr>
+          <tr>
+            <td><b>CD31 (PECAM-1)</b></td>
+            <td>Endothelium, platelets, leukocytes.</td>
+            <td>CD31–CD31 homophilic engagement on live leukocytes; competence lost on apoptotic cells.</td>
+            <td>A live-cell don't-eat-me badge: homophilic CD31 engagement blocks uptake only while the target cell can signal through it (reported in vitro) <span class="tier t4">Tier 4</span>.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ==================== FIND-ME ==================== -->
+  <section id="findme">
+    <h2>Find-me signals — recruitment, not engulfment</h2>
+    <p>A complementary class of soluble or matrix-bound cues recruits phagocytes to the site without itself
+      triggering engulfment. PS is listed among find-me cues in some reviews, but the standard soluble set is
+      nucleotides, lysophospholipids, sphingosine-1-phosphate, and chemokines <span class="tier t4">Tier 4</span>.</p>
+    <div class="mini-grid">
+      <div class="mini"><span class="rt">LPC → G2A / GPR4</span><h4>Lysophosphatidylcholine</h4><p>Released from apoptotic cells via caspase-3-driven PLA2; sensed by G2A on phagocytes.</p></div>
+      <div class="mini"><span class="rt">ATP / UTP → P2Y2</span><h4>Nucleotides</h4><p>Purinergic find-me gradients released through PANX1; guide monocyte and macrophage migration.</p></div>
+      <div class="mini"><span class="rt">S1P → S1PR1–5</span><h4>Sphingosine-1-phosphate</h4><p>GPCR-mediated recruitment route listed alongside nucleotide and LPC cues.</p></div>
+      <div class="mini"><span class="rt">CX3CL1 → CX3CR1</span><h4>Fractalkine</h4><p>Chemokine released from apoptotic lymphocytes; attracts monocytes, T cells, and NK cells.</p></div>
+      <div class="mini"><span class="rt">CXCL14 (ECM-anchored)</span><h4>Early senescence secretome</h4><p>Retained on endothelial glycosaminoglycans; recruits macrophages, DC, NK, and T cells before SASP maturation.</p></div>
+    </div>
+  </section>
+
+  <!-- ==================== EVIDENCE ==================== -->
+  <section id="evidence">
+    <h2>Evidence tiers and clinical translation</h2>
+    <p>
+      Ligand biochemistry is uniformly Tier 4 (cellular assays). Only a few axes have reached human intervention:
+      PD-1/PD-L1 checkpoint blockade and anti-SLAMF7 elotuzumab are approved in oncology (Tier 1). The anti-CD47
+      class remains in earlier-phase trials with no approval; magrolimab was terminated in 2024 after phase 3
+      futility and safety findings. Blocking a don't-eat-me brake in fibrosis or atherosclerosis is mechanistically
+      plausible but not human-validated; existing anti-CD47 clinical data are oncology-only.
+    </p>
+    <div class="fig">
+      <div class="fig-canvas"><svg id="evidenceSvg" viewBox="0 0 1000 360" role="img" aria-label="Evidence-strength chart showing the highest evidence tier reached per phagocytic-signalling intervention axis"></svg></div>
+      <div class="fig-cap"><b>Highest tier reached per axis.</b> Tiers are ordinal, not effect sizes:
+        Tier 5 = hypothesis, Tier 4 = in vitro / ex vivo, Tier 3 = rodent / in vivo, Tier 2 = human trial / association,
+        Tier 1 = human RCT / approved intervention. Bar length encodes ordinal strength, not magnitude of effect.</div>
+    </div>
+    <div class="callout">
+      <span class="callout-tag">Interpretive limit</span>
+      <p>Which cells in a given tissue read which pairing (CD47 vs CD24 vs C1q–CRT) is context-dependent and not
+        fully mapped in vivo <span class="tier t5">Tier 5</span> across tissues. Quantifying a tissue's
+        CD47 : sialic acid : PS ratio at single-cell resolution is an unresolved technical gap.</p>
+    </div>
+  </section>
+
+  <!-- ==================== FAILURE MODES ==================== -->
+  <section id="failure">
+    <h2>Failure modes: brake overexpression and impaired clearance</h2>
+    <div class="fail-grid">
+      <div class="fail cancer">
+        <h4>Cancer — brake overexpression</h4>
+        <p>Tumors overexpress CD47, CD24, and PD-L1. Don't-eat-me blockade is a cancer-immunotherapy strategy
+          (Khalaji et al. 2023); anti-CD47 antibodies, SIRPα decoys, and bispecifics remain investigational, and
+          magrolimab was terminated in 2024 after phase 3 futility and safety findings.</p>
+      </div>
+      <div class="fail">
+        <h4>Fibrosis and atherosclerosis — impaired recognition</h4>
+        <p>Efferocytosis is impaired downstream of eat-me recognition, producing necrotic-core debris and persistent
+          inflammation (atherosclerosis efferocytosis data, <span class="tier t4">Tier 4</span>–<span class="tier t3">Tier 3</span>).</p>
+      </div>
+      <div class="fail">
+        <h4>Excess eryptosis — clearance saturation</h4>
+        <p>In CKD, sepsis, and hemoglobinopathies, excess eryptosis saturates clearance and delivers PS-positive
+          procoagulant cells. See the <a href="eryptosis-evidence-synthesis.html">eryptosis evidence synthesis</a>.</p>
+      </div>
+      <div class="fail icd">
+        <h4>ICD therapy — increasing eat-me display</h4>
+        <p>Surface calreticulin appears after anthracyclines, photodynamic therapy, and some radiotherapy. DC uptake
+          of PS-positive corpses is reported as tolerogenic in vitro unless paired with CRT and danger signals, so the eat-me signal also
+          biases the adaptive response.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== OPEN PROBLEMS ==================== -->
+  <section id="gaps">
+    <h2>Open problems</h2>
+    <ul class="steps">
+      <li><b>Pairing map.</b> Which cells in a given tissue read which pairing (CD47 vs CD24 vs C1q–CRT) is
+        context-dependent and not fully mapped in vivo <span class="tier t5">Tier 5</span> across tissues.</li>
+      <li><b>Brake blockade outside oncology.</b> Blocking a don't-eat-me brake in fibrosis or atherosclerosis is
+        mechanistically plausible but not human-validated; existing anti-CD47 clinical data are oncology-only
+        <span class="tier t5">Tier 5</span>.</li>
+      <li><b>Ratio measurement.</b> Quantifying a tissue's CD47 : sialic acid : PS ratio at single-cell resolution
+        is an unresolved technical gap (not re-derived from the cited sources).</li>
+    </ul>
+  </section>
+
+  <!-- ==================== SOURCES ==================== -->
+  <section id="sources">
+    <h2>Sources &amp; related vault entries</h2>
+    <p style="font-size:.86rem; color:var(--dim); line-height:1.7;">
+      Compiled from vault notes (Efferocytosis, Eryptosis, Phosphatidylserine, CD47, Calreticulin) plus published
+      reviews:
+      Birge et al. 2016, <i>Cell Death Differ</i> —
+      <a href="https://pubmed.ncbi.nlm.nih.gov/26915293/" target="_blank" rel="noopener noreferrer">PMID 26915293</a>;
+      Khalaji et al. 2023, <i>Heliyon</i> —
+      <a href="https://pubmed.ncbi.nlm.nih.gov/37822610/" target="_blank" rel="noopener noreferrer">PMID 37822610</a>;
+      Xiao et al. 2024, <i>Cancer Communications</i> —
+      <a href="https://doi.org/10.1002/cac2.12579" target="_blank" rel="noopener noreferrer">doi:10.1002/cac2.12579</a>
+      (<a href="https://pubmed.ncbi.nlm.nih.gov/38923737/" target="_blank" rel="noopener noreferrer">PMID 38923737</a>);
+      Park &amp; Kim 2017, <i>Exp Mol Med</i> —
+      <a href="https://pubmed.ncbi.nlm.nih.gov/28496201/" target="_blank" rel="noopener noreferrer">PMID 28496201</a>;
+      Kelley &amp; Ravichandran 2021, <i>EMBO Rep</i> —
+      <a href="https://pubmed.ncbi.nlm.nih.gov/34041845/" target="_blank" rel="noopener noreferrer">PMID 34041845</a>.
+      Additional primary reports cited in the inventory: Barkal et al. 2019, <i>Nature</i> (CD24–Siglec-10;
+      <a href="https://pubmed.ncbi.nlm.nih.gov/31367043/" target="_blank" rel="noopener noreferrer">PMID 31367043</a>);
+      Gordon et al. 2017, <i>Nature</i> (PD-1 on macrophages;
+      <a href="https://pubmed.ncbi.nlm.nih.gov/28514441/" target="_blank" rel="noopener noreferrer">PMID 28514441</a>);
+      Barkal et al. 2018, <i>Nat Immunol</i> (MHC-I–LILRB1;
+      <a href="https://pubmed.ncbi.nlm.nih.gov/29180808/" target="_blank" rel="noopener noreferrer">PMID 29180808</a>);
+      Chen et al. 2017, <i>Nature</i> (SLAMF7–Mac-1;
+      <a href="https://pubmed.ncbi.nlm.nih.gov/28424516/" target="_blank" rel="noopener noreferrer">PMID 28424516</a>);
+      Balasubramanian et al. 2015, <i>Sci Signal</i> (cardiolipin–CD36;
+      <a href="https://pubmed.ncbi.nlm.nih.gov/26396268/" target="_blank" rel="noopener noreferrer">PMID 26396268</a>);
+      Chu et al. 2013, <i>Nat Cell Biol</i> (cardiolipin–LC3;
+      <a href="https://pubmed.ncbi.nlm.nih.gov/24036476/" target="_blank" rel="noopener noreferrer">PMID 24036476</a>).
+      Full task output:
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_eat_me_dont_eat_me_signals_08_Nov_2026.md" target="_blank" rel="noopener noreferrer">task_output_eat_me_dont_eat_me_signals_08_Nov_2026.md</a>.
+    </p>
+    <div class="chips">
+      <a href="https://graph.johnnykuo.com/#node=Phosphatidylserine">Phosphatidylserine</a>
+      <a href="https://graph.johnnykuo.com/#node=CD47">CD47</a>
+      <a href="https://graph.johnnykuo.com/#node=Calreticulin">Calreticulin</a>
+      <a href="https://graph.johnnykuo.com/#node=Efferocytosis">Efferocytosis</a>
+      <a href="https://graph.johnnykuo.com/#node=Eryptosis">Eryptosis</a>
+      <a href="https://graph.johnnykuo.com/#node=Flippase">Flippase</a>
+      <a href="https://graph.johnnykuo.com/#node=Scramblase">Scramblase</a>
+      <a href="https://graph.johnnykuo.com/#node=Apoptotic%20Bodies">Apoptotic Bodies</a>
+      <a href="https://graph.johnnykuo.com/#node=Kupffer%20Cell">Kupffer Cell</a>
+      <a href="https://graph.johnnykuo.com/#node=Cardiolipin">Cardiolipin</a>
+      <a href="https://graph.johnnykuo.com/#node=CXCL14">CXCL14</a>
+      <a href="https://graph.johnnykuo.com/#node=SIRPalpha">SIRPalpha</a>
+      <a href="https://graph.johnnykuo.com/#node=Annexin%20V">Annexin V</a>
+      <a href="https://graph.johnnykuo.com/#node=PINK1">PINK1</a>
+      <a href="https://graph.johnnykuo.com/#node=p62">p62</a>
+    </div>
+    <p style="font-size:.8rem; color:var(--mute); margin-top:14px;">
+      Companion pages: <a href="eryptosis.html">Eryptosis — three.js animation</a> ·
+      <a href="eryptosis-evidence-synthesis.html">Eryptosis evidence synthesis</a> ·
+      <a href="apoptosis.html">Apoptosis</a> · <a href="apoptosis-vs-necrosis.html">Apoptosis vs Necrosis</a> ·
+      <a href="cell-death-comparison.html">Cell Death Comparison</a>.
+    </p>
+  </section>
+
+  <footer class="foot">
+    <p>
+      Charts and graphs are client-side rendered SVG/CSS with no external chart dependency; the 3-D decision model
+      uses three.js r160 via CDN importmap. Educational synthesis of vault task outputs and cited reviews; evidence
+      tiers annotated throughout. Not medical advice. No clinical intervention signal has reached Tier 1 except
+      PD-1/PD-L1 checkpoint blockade and, in combinations, anti-SLAMF7 elotuzumab; the anti-CD47 class remains
+      investigational (magrolimab terminated 2024).
+    </p>
+  </footer>
+
+</div>
+
+<script src="../themes/theme-01/pages-core.js"></script>
+<script>
+/* ============================================================
+   Shared SVG helpers. All fills/strokes resolve through CSS vars
+   (pages-article.css .s-* + page-specific classes above), so the
+   diagrams re-theme automatically with the site light/dark toggle.
+   ponytail: charts live in a classic <script> (no imports) and three.js in a
+   separate module, so the four SVG diagrams still render if the three.js CDN
+   is unavailable; no chart library, no build step, no new dependency.
+   ============================================================ */
+function svgText(x, y, str, cls, size, anchor){
+  return `<text x="${x}" y="${y}" text-anchor="${anchor||'start'}" class="${cls||'s-text'}" font-size="${size||11}">${str}</text>`;
+}
+function defs(p){
+  return `<defs>
+    <marker id="${p}E" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--green)"/></marker>
+    <marker id="${p}B" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--red)"/></marker>
+  </defs>`;
+}
+
+/* ---------- 1. Balance chart (qualitative diverging bars) ---------- */
+const balanceRows = [
+  { key:'healthy',   state:'Healthy viable cell',       eat:0.4, brake:4.6, outcome:'Ignored',  note:'PS inner; CD47 · sialic acid · MHC-I high' },
+  { key:'apoptotic', state:'Apoptotic / stressed cell', eat:4.5, brake:0.6, outcome:'Engulfed', note:'XKR8 / TMEM16F externalize PS; CD47 falls' },
+  { key:'aged',      state:'Aged erythrocyte',          eat:3.8, brake:0.9, outcome:'Engulfed', note:'Desialylation + PS exposure; CD47 lost' },
+  { key:'cancer',    state:'Tumor (brake up)',         eat:2.2, brake:4.8, outcome:'Escapes',  note:'CD47 · CD24 · PD-L1 up-regulated' },
+  { key:'icd',       state:'ICD-treated tumor',        eat:4.8, brake:0.5, outcome:'Engulfed', note:'Surface calreticulin + CD47 blockade' },
+];
+(function(){
+  const CX = 520, UNIT = 46, H = 470;
+  let s = '';
+  s += svgText(CX-250, 26, "← don't-eat-me (anti-phagocytic)", 's-red', 11, 'start');
+  s += svgText(CX+250, 26, 'eat-me (pro-phagocytic) →', 's-green', 11, 'end');
+  s += svgText(20, 26, 'Cell state', 's-mute', 10, 'start');
+  s += svgText(770, 26, 'Outcome', 's-mute', 10, 'start');
+  s += `<line x1="${CX}" y1="36" x2="${CX}" y2="${H-24}" class="axis-line"/>`;
+  balanceRows.forEach((r,i)=>{
+    const y = 62 + i*78, cy = y + 15;
+    s += `<g class="balance-row" data-state="${r.key}">`;
+    s += svgText(20, cy+4, r.state, 's-text', 12, 'start');
+    const bw = r.eat*UNIT, bl = r.brake*UNIT;
+    s += `<rect x="${CX}" y="${y}" width="${bw}" height="30" rx="4" class="bar-eat" opacity="0.82"/>`;
+    s += `<rect x="${CX-bl}" y="${y}" width="${bl}" height="30" rx="4" class="bar-brake" opacity="0.82"/>`;
+    // net diamond on its own track above the bars, so it is not read as a bar marker
+    const net = r.eat - r.brake, nx = CX + net*UNIT;
+    s += `<line x1="${CX}" y1="${y-7}" x2="${nx}" y2="${y-7}" class="grid-line"/>`;
+    s += `<path d="M${nx} ${y-13} L${nx+6} ${y-7} L${nx} ${y-1} L${nx-6} ${y-7} Z" class="${net>0?'bar-eat':'bar-brake'}" style="stroke:var(--text)" stroke-width="0.6"/>`;
+    const ok = r.outcome === 'Engulfed';
+    s += `<rect x="770" y="${y+2}" width="92" height="26" rx="13" class="${ok?'node-out-eat':'node-out-brake'}"/>`;
+    s += svgText(816, cy+4, r.outcome, ok?'s-green':'s-red', 11, 'middle');
+    s += svgText(770, cy+32, r.note, 's-mute', 9.5, 'start');
+    s += `</g>`;
+  });
+  s += svgText(20, H-10, 'Schematic relative display — magnitudes are illustrative, not measured. Click a row to load the 3-D preset.', 's-mute', 10, 'start');
+  const svg = document.getElementById('balanceSvg');
+  svg.innerHTML = s;
+  svg.addEventListener('click', e=>{
+    const g = e.target.closest('.balance-row');
+    if (g) window.dispatchEvent(new CustomEvent('set-preset', { detail:g.dataset.state }));
+  });
+})();
+
+/* ---------- 2. Mechanism flow ---------- */
+function flowNode(x, y, w, h, lines, tone){
+  const cx = x + w/2, cy = y + h/2, n = lines.length;
+  let out = `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="9" class="${tone}"/>`;
+  lines.forEach((L,i)=>{ out += svgText(cx, cy + (i-(n-1)/2)*13 + 3.5, L, 's-text', 10.5, 'middle'); });
+  return out;
+}
+function flowArrow(x1, y, x2, cls, marker){
+  return `<line x1="${x1}" y1="${y}" x2="${x2-7}" y2="${y}" class="${cls}" marker-end="url(#${marker})"/>`;
+}
+(function(){
+  let s = defs('fl');
+  // Column band labels
+  s += svgText(20, 30, 'EAT-ME LANE — activation', 's-green', 11, 'start');
+  s += svgText(20, 182, 'DON\'T-EAT-ME LANE — inhibition', 's-red', 11, 'start');
+  const A = [
+    {x:20,  w:175, L:['Healthy cell','PS inner leaflet','(flippase ON)']},
+    {x:225, w:200, L:['Stress / Ca²⁺ / caspases','XKR8 · TMEM16F ON','ATP11C OFF']},
+    {x:455, w:185, L:['Flippase OFF','Scramblase ON','PS externalized']},
+    {x:670, w:160, L:['TIM-4 · BAI1','stabilin · MerTK','LRP1/CD91']},
+    {x:860, w:120, L:['Engulfment','(efferocytosis)']},
+  ];
+  A.forEach(n=>{ s += flowNode(n.x, 58, n.w, 60, n.L, 'node-eat'); });
+  [[195,225],[425,455],[640,670],[830,860]].forEach(p=>{ s += flowArrow(p[0], 88, p[1], 'edge-eat', 'flE'); });
+  s += svgText(500, 154, 'THE PHAGOCYTE INTEGRATES BOTH LANES — the eat-me : don\'t-eat-me ratio sets the outcome', 's-dim', 11, 'middle');
+  s += `<line x1="20" y1="166" x2="980" y2="166" class="grid-line"/>`;
+  const B = [
+    {x:20,  w:225, L:['CD47 · CD24 · PD-L1','sialic acid · MHC-I']},
+    {x:275, w:225, L:['SIRPα · Siglec-10 · PD-1','Siglecs · LILRB1/2 · PirB']},
+    {x:530, w:225, L:['ITIM → SHP-1/2','myosin-II accumulation']},
+    {x:785, w:195, L:['No engulfment','(inhibitory ceiling)']},
+  ];
+  B.forEach(n=>{ s += flowNode(n.x, 205, n.w, 60, n.L, 'node-brake'); });
+  [[245,275],[500,530],[755,785]].forEach(p=>{ s += flowArrow(p[0], 235, p[1], 'edge-brake', 'flB'); });
+  s += svgText(500, 300, 'PS-mediated uptake is non-inflammatory; DC uptake is reported as tolerogenic in vitro and requires CRT + danger signals to bias the adaptive response.', 's-mute', 10, 'middle');
+  document.getElementById('flowSvg').innerHTML = s;
+})();
+
+/* ---------- 3. Signal → receptor → outcome wiring graph ---------- */
+const graphPairs = [
+  { sig:'Phosphatidylserine (PS)', rec:'TIM-4 · BAI1 · stabilin-2 · MerTK', cls:'eat' },
+  { sig:'Calreticulin (surface)',  rec:'LRP1 / CD91',                       cls:'eat' },
+  { sig:'Oxidized phospholipids',  rec:'CD36 · SR-A · LOX-1',               cls:'eat' },
+  { sig:'Desialylated glycans',    rec:'IgG → Fc receptor',                  cls:'eat' },
+  { sig:'Externalized cardiolipin',rec:'CD36 (LC3 for mitophagy)',           cls:'eat' },
+  { sig:'Complement C1q',          rec:'CRT / CD91 co-receptor',             cls:'eat' },
+  { sig:'SLAMF7',                  rec:'SLAMF7 · Mac-1 (CD11b/CD18)',        cls:'eat' },
+  { sig:'CD47',                    rec:'SIRPα',                               cls:'brake' },
+  { sig:'CD24',                    rec:'Siglec-10',                           cls:'brake' },
+  { sig:'PD-L1',                   rec:'PD-1 (macrophage)',                   cls:'brake' },
+  { sig:'Sialic acid / polySia',   rec:'Siglec-7 / -10 / -11',                cls:'brake' },
+  { sig:'β2M / MHC-I',             rec:'LILRB1 / LILRB2 (PirB)',              cls:'brake' },
+];
+(function(){
+  let s = defs('gr');
+  s += svgText(150, 28, 'SIGNAL', 's-mute', 10, 'middle');
+  s += svgText(490, 28, 'RECEPTOR ON PHAGOCYTE', 's-mute', 10, 'middle');
+  s += svgText(850, 28, 'PHAGOCYTE RESPONSE', 's-mute', 10, 'middle');
+  s += svgText(150, 46, 'EAT-ME (pro-phagocytic)', 's-green', 10.5, 'middle');
+  s += svgText(150, 330, 'DON\'T-EAT-ME (anti-phagocytic)', 's-red', 10.5, 'middle');
+  s += `<line x1="20" y1="308" x2="980" y2="308" class="grid-line"/>`;
+  const EAT_Y = 150, BRK_Y = 448;
+  let ei = 0, bi = 0;
+  graphPairs.forEach((p)=>{
+    const y = p.cls==='eat' ? 62 + (ei++)*36 : 360 + (bi++)*44;
+    const tone = p.cls==='eat' ? 'eat' : 'brake';
+    s += flowNode(50, y-16, 200, 32, [p.sig], `node-${tone}`);
+    s += flowNode(350, y-16, 280, 32, [p.rec], `node-${tone}`);
+    const mk = tone==='eat' ? 'grE' : 'grB';
+    s += `<line x1="250" y1="${y}" x2="343" y2="${y}" class="edge-${tone}" marker-end="url(#${mk})"/>`;
+    const oy = tone==='eat' ? EAT_Y : BRK_Y;
+    s += `<path d="M630 ${y} C 680 ${y}, 680 ${oy}, 723 ${oy}" class="edge-${tone}" marker-end="url(#${mk})"/>`;
+  });
+  s += flowNode(720, EAT_Y-30, 260, 60, ['Pro-phagocytic signalling','→ ENGULFMENT'], 'node-out-eat');
+  s += flowNode(720, BRK_Y-30, 260, 60, ['ITIM / SHP-1/2 · myosin-II block','→ NO ENGULFMENT'], 'node-out-brake');
+  s += svgText(20, 592, 'Selected pairings from the inventories below. Green = pro-phagocytic, red = inhibitory.', 's-mute', 10, 'start');
+  document.getElementById('graphSvg').innerHTML = s;
+})();
+
+/* ---------- 4. Evidence-tier chart ---------- */
+const evRows = [
+  { label:'PD-1 / PD-L1 blockade (oncology)', tier:1, note:'Approved; Tier 1 (T-cell checkpoint)' },
+  { label:'Anti-SLAMF7 / elotuzumab',        tier:1, note:'Approved in myeloma; NK ADCC + ADCP' },
+  { label:'Anti-CD47 class (trials)',        tier:2, note:'Human trials; no approval; magrolimab stopped 2024' },
+  { label:'MHC-I / LILRB1 tumor uptake',    tier:3, note:'Mouse models; Tier 3' },
+  { label:'Ligand biochemistry (PS, CRT…)',  tier:4, note:'Cellular assays' },
+  { label:'CD24–Siglec-10 blockade',         tier:4, note:'Preclinical, in vitro' },
+];
+(function(){
+  const X0 = 330, MAXW = 340, H = 360;
+  let s = '';
+  s += svgText(10, 24, 'Axis', 's-mute', 10, 'start');
+  s += svgText(X0, 24, 'EVIDENCE STRENGTH  →', 's-mute', 10, 'start');
+  const ticks = [ {t:5,x:X0+68}, {t:4,x:X0+136}, {t:3,x:X0+204}, {t:2,x:X0+272}, {t:1,x:X0+340} ];
+  ticks.forEach(tk=>{
+    s += `<line x1="${tk.x}" y1="34" x2="${tk.x}" y2="${H-16}" class="grid-line"/>`;
+    s += svgText(tk.x, 44, 'T'+tk.t, 's-mute', 9.5, 'middle');
+  });
+  evRows.forEach((r,i)=>{
+    const y = 60 + i*42;
+    s += svgText(10, y+16, r.label, 's-text', 11, 'start');
+    const w = (6-r.tier)/5*MAXW;
+    s += `<rect x="${X0}" y="${y+2}" width="${w}" height="20" rx="4" class="ev-t${r.tier}" opacity="0.85"/>`;
+    s += svgText(X0+w+8, y+17, r.note, 's-mute', 9.5, 'start');
+  });
+  s += svgText(10, H-4, 'Tiers are ordinal, not effect sizes. T5 = hypothesis · T4 = in vitro · T3 = animal · T2 = human trial / association · T1 = RCT / approved.', 's-mute', 9.5, 'start');
+  document.getElementById('evidenceSvg').innerHTML = s;
+})();
+
+</script>
+<script type="module">
+/* ============================================================
+   5. three.js — interactive phagocytosis-decision model
+   ============================================================ */
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+
+const presets = {
+  healthy:   { eat:0.08, brake:0.85, desc:'Healthy viable cell. Flippase retains PS on the inner leaflet; CD47, sialic acid, and MHC-I dominate the outer surface. Net signal is negative; the phagocyte does not engage.' },
+  apoptotic: { eat:0.92, brake:0.14, desc:'Apoptotic or stressed cell. Caspase-driven XKR8 activation and ATP11C cleavage externalize PS; CD47 display falls. The ratio flips toward non-inflammatory efferocytosis.' },
+  aged:      { eat:0.80, brake:0.18, desc:'Aged erythrocyte. Desialylation exposes IgG-binding glycans and PS co-externalizes; CD47 is lost with age, removing the brake and accelerating clearance.' },
+  cancer:    { eat:0.45, brake:0.95, desc:'Tumor with don\'t-eat-me overexpression. CD47, CD24, and PD-L1 raise the inhibitory ceiling despite an eat-me display; the phagocyte is held at the checkpoint.' },
+  icd:       { eat:0.95, brake:0.08, desc:'Immunogenic-cell-death therapy. Anthracyclines / photodynamic therapy expose surface calreticulin and CD47 blockade removes the brake, licensing uptake.' },
+};
+let eatLevel = 0.92, brakeLevel = 0.14;
+
+const statusEl = document.getElementById('status');
+const netVal   = document.getElementById('net-val');
+const verdictEl= document.getElementById('verdict-line');
+const needle   = document.getElementById('needle');
+const descEl   = document.getElementById('state-desc');
+const signalEl = document.getElementById('stage-signal');
+const eatOut   = document.getElementById('eat-out');
+const brakeOut = document.getElementById('brake-out');
+const eatSlider= document.getElementById('eat-slider');
+const brakeSlider=document.getElementById('brake-slider');
+const presetBar= document.getElementById('preset-bar');
+let stateLabel = 'efferocytosis';
+
+function updateUI(){
+  const net = eatLevel - brakeLevel;
+  let cls, txt;
+  if (net > 0.12)      { cls='pos'; txt='ENGULFMENT · ' + stateLabel; }
+  else if (net < -0.05){ cls='neg'; txt='NO ENGULFMENT · don\'t-eat-me dominant'; }
+  else                 { cls='mid'; txt='THRESHOLD · context decides'; }
+  statusEl.className = 'status ' + cls;
+  statusEl.textContent = txt;
+  netVal.textContent = (net>=0?'+':'') + net.toFixed(2);
+  verdictEl.textContent = net > 0.12 ? 'positive → engulfment' : (net < -0.05 ? 'negative → no engulfment' : 'near threshold');
+  needle.style.left = Math.max(1, Math.min(99, 50 + net*50)) + '%';
+  eatOut.textContent = Math.round(eatLevel*100);
+  brakeOut.textContent = Math.round(brakeLevel*100);
+  eatSlider.value = Math.round(eatLevel*100);
+  brakeSlider.value = Math.round(brakeLevel*100);
+  signalEl.textContent = eatLevel > 0.5
+    ? 'scramblase ON · XKR8 / TMEM16F · PS on outer leaflet'
+    : 'flippase ON · ATP11C · PS on inner leaflet';
+  setMarkers();
+}
+function setPreset(key){
+  const p = presets[key];
+  eatLevel = p.eat; brakeLevel = p.brake;
+  descEl.textContent = p.desc;
+  stateLabel = (key === 'apoptotic' || key === 'aged') ? 'efferocytosis' : 'phagocytosis';
+  Array.from(presetBar.children).forEach(b=>b.classList.toggle('is-on', b.dataset.preset===key));
+  document.querySelectorAll('#balanceSvg .balance-row').forEach(g=>g.classList.toggle('is-on', g.dataset.state===key));
+  updateUI();
+}
+presetBar.addEventListener('click', e=>{
+  const b = e.target.closest('.preset'); if (b) setPreset(b.dataset.preset);
+});
+window.addEventListener('set-preset', e=>setPreset(e.detail));
+function onSlider(){
+  eatLevel = +eatSlider.value/100; brakeLevel = +brakeSlider.value/100;
+  descEl.textContent = 'Custom ratio. Eat-me and don\'t-eat-me display set independently; the outcome follows their difference. Magnitudes are illustrative, not measured.';
+  stateLabel = 'phagocytosis';
+  Array.from(presetBar.children).forEach(b=>b.classList.remove('is-on'));
+  document.querySelectorAll('#balanceSvg .balance-row').forEach(g=>g.classList.remove('is-on'));
+  updateUI();
+}
+eatSlider.addEventListener('input', onSlider);
+brakeSlider.addEventListener('input', onSlider);
+
+/* ---- WebGL scene ---- */
+const canvas = document.getElementById('signal-canvas');
+const fallback = document.getElementById('stage-fallback');
+let renderer, scene, camera, controls;
+let membrane, phago, armA, armB, body, phagosome, synapse, stream, streamGeo, streamSeed, nubs, world;
+let eatKnobs = [], brakeKnobs = [], ghostKnobs = [], N = 0;
+let engage = 0, want = 0;
+
+try {
+  renderer = new THREE.WebGLRenderer({ canvas, antialias:true, alpha:true });
+} catch (err) {
+  fallback.textContent = 'WebGL is unavailable in this browser. The charts, graphs, and inventories below remain available.';
+  throw err; // charts above already rendered; stop the module here
+}
+fallback.style.display = 'none';
+renderer.setClearColor(0x000000, 0);   // let the CSS stage gradient show through
+renderer.setPixelRatio(Math.min(window.devicePixelRatio||1, 2));
+canvas.addEventListener('webglcontextlost', e=>{ e.preventDefault(); fallback.style.display='flex'; });
+scene = new THREE.Scene();
+world = new THREE.Group(); scene.add(world);   // ponytail: rotate the specimen, not the camera, so the pair stays framed
+scene.fog = new THREE.Fog(0x0e1420, 9, 24);
+camera = new THREE.PerspectiveCamera(42, 1, 0.1, 100);
+camera.position.set(0, 2.1, 10.2);
+controls = new OrbitControls(camera, canvas);
+controls.enableDamping = true; controls.dampingFactor = 0.08;
+controls.enablePan = false; controls.minDistance = 6; controls.maxDistance = 16;
+controls.target.set(0, 0, 0);
+const motionQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
+let paused = motionQuery.matches;
+controls.autoRotate = false;
+motionQuery.addEventListener('change', e=>{ paused = e.matches; syncToggle(); });
+
+scene.add(new THREE.AmbientLight(0xffffff, 0.7));
+const key = new THREE.DirectionalLight(0xffffff, 1.5); key.position.set(5,7,8); scene.add(key);
+const rim = new THREE.DirectionalLight(0x66ccff, 0.6); rim.position.set(-6,-3,-5); scene.add(rim);
+const warm = new THREE.PointLight(0xffb070, 0.45); warm.position.set(2,1,4); scene.add(warm);
+
+const dust = new THREE.Points(
+  new THREE.BufferGeometry().setAttribute('position', new THREE.BufferAttribute(Float32Array.from({length:180*3},(_,i)=>
+    i%3===2 ? (Math.random()-0.5)*16-3 : (Math.random()-0.5)*16),3)),
+  new THREE.PointsMaterial({ color:0x3b4a63, size:0.035, transparent:true, opacity:0.6 }));
+scene.add(dust);
+
+/* Target cell — green eat-me markers migrate from inner to outer leaflet as eat-me display rises */
+const target = new THREE.Group();
+target.position.set(-2.2, 0, 0);
+world.add(target);
+membrane = new THREE.Mesh(
+  new THREE.SphereGeometry(1.25, 48, 32),
+  new THREE.MeshStandardMaterial({ color:0x9fb4c9, roughness:0.55, metalness:0.05, transparent:true, opacity:0.62, emissive:0x0a1420, emissiveIntensity:0.4 }));
+target.add(membrane);
+target.add(new THREE.Mesh(
+  new THREE.SphereGeometry(0.55, 28, 20),
+  new THREE.MeshStandardMaterial({ color:0x5f79a8, roughness:0.6, emissive:0x101a30, emissiveIntensity:0.5, transparent:true, opacity:0.9 })));
+
+function fib(n, offset){
+  const pts = [], ga = Math.PI*(3-Math.sqrt(5));
+  for (let i=0;i<n;i++){
+    const y = 1 - ((i+0.5)/n)*2, r = Math.sqrt(Math.max(0,1-y*y)), th = ga*i + offset;
+    pts.push(new THREE.Vector3(Math.cos(th)*r, y, Math.sin(th)*r));
+  }
+  return pts;
+}
+function spread(n){
+  return Array.from({length:n},(_,i)=>i).sort((a,b)=>((a*37)%n)-((b*37)%n));
+}
+N = 46;
+// ponytail: four shapes share two materials — ligand identity stays legible without extra meshes
+const markerGeo = {
+  ps:  new THREE.SphereGeometry(0.075, 10, 8),
+  crt: new THREE.ConeGeometry(0.075, 0.16, 8),
+  cd47:new THREE.CylinderGeometry(0.045, 0.045, 0.16, 8),
+  sia: new THREE.OctahedronGeometry(0.085, 0)
+};
+const stalkGeo = new THREE.CylinderGeometry(0.018, 0.018, 0.16, 6);
+const eatMat   = new THREE.MeshStandardMaterial({ color:0x35d07f, emissive:0x0e6b3d, emissiveIntensity:0.85, roughness:0.4 });
+const brakeMat = new THREE.MeshStandardMaterial({ color:0xff5d63, emissive:0x8a1520, emissiveIntensity:0.85, roughness:0.4 });
+const stalkEat = new THREE.MeshStandardMaterial({ color:0x2aa866, emissive:0x0e6b3d, emissiveIntensity:0.6 });
+const stalkBrk = new THREE.MeshStandardMaterial({ color:0xd8424a, emissive:0x8a1520, emissiveIntensity:0.6 });
+function makeMarker(p, km, sm, geo){
+  const g = new THREE.Group();
+  const q = new THREE.Quaternion().setFromUnitVectors(new THREE.Vector3(0,1,0), p.clone().normalize());
+  const stalk = new THREE.Mesh(stalkGeo, sm);
+  stalk.position.copy(p.clone().multiplyScalar(1.30)); stalk.quaternion.copy(q);
+  const knob = new THREE.Mesh(geo, km);
+  knob.position.copy(p.clone().multiplyScalar(1.40)); knob.quaternion.copy(q);
+  g.add(stalk, knob);
+  g.userData = { p, stalk, knob };
+  return g;
+}
+const eatPts = fib(N, 0), brakePts = fib(N, Math.PI);
+const ghostMat = new THREE.MeshBasicMaterial({ color:0x2aa866, transparent:true, opacity:0.35 });
+eatPts.forEach((p,i)=>{ const m=makeMarker(p, eatMat, stalkEat, i<N/2?markerGeo.ps:markerGeo.crt); target.add(m); eatKnobs.push(m); });
+brakePts.forEach((p,i)=>{ const m=makeMarker(p, brakeMat, stalkBrk, i<N/2?markerGeo.cd47:markerGeo.sia); target.add(m); brakeKnobs.push(m); });
+eatPts.forEach((p)=>{ const g=new THREE.Mesh(markerGeo.ps, ghostMat); g.position.copy(p).multiplyScalar(1.0); target.add(g); ghostKnobs.push(g); });
+const eatOrder = spread(N), brakeOrder = spread(N);
+function setMarkers(){
+  const ne = Math.round(eatLevel*N), nb = Math.round(brakeLevel*N);
+  const ve = new Set(eatOrder.slice(0,ne)), vb = new Set(brakeOrder.slice(0,nb));
+  const r = 0.95 + 0.45*eatLevel;   // inner leaflet → outer leaflet
+  eatKnobs.forEach((m,i)=>{
+    m.visible = ve.has(i);
+    const { p, stalk, knob } = m.userData;
+    stalk.position.copy(p).multiplyScalar(r - 0.10);
+    knob.position.copy(p).multiplyScalar(r);
+  });
+  brakeKnobs.forEach((m,i)=>m.visible = vb.has(i));
+  // ponytail: inner-leaflet PS ghosts fade as eat-me rises (cap 12, schematic pool)
+  const ng = Math.min(12, N - ne);
+  ghostKnobs.forEach((g,i)=>{ g.visible = i < ng; });
+  ghostMat.opacity = 0.35 * Math.max(0, 1 - eatLevel);
+}
+
+/* Phagocyte (macrophage) */
+phago = new THREE.Group();
+phago.position.set(4.65, 0, 0);
+world.add(phago);
+body = new THREE.Mesh(
+  new THREE.SphereGeometry(2.15, 40, 28),
+  new THREE.MeshStandardMaterial({ color:0x4a6fa5, roughness:0.5, transparent:true, opacity:0.26, emissive:0x0a1830, emissiveIntensity:0.4, side:THREE.DoubleSide }));
+phago.add(body);
+const pNuc = new THREE.Mesh(
+  new THREE.SphereGeometry(0.8, 24, 18),
+  new THREE.MeshStandardMaterial({ color:0x2c4a7a, roughness:0.6, transparent:true, opacity:0.7, emissive:0x0a1830, emissiveIntensity:0.5 }));
+pNuc.position.set(0.5, 0.2, 0); phago.add(pNuc);
+const armGeo = new THREE.CylinderGeometry(0.0, 0.34, 1, 12);
+const armMat = new THREE.MeshStandardMaterial({ color:0x5c82bd, roughness:0.5, transparent:true, opacity:0.55, emissive:0x0e2547, emissiveIntensity:0.4 });
+function makeArm(y){
+  const a = new THREE.Mesh(armGeo, armMat);
+  a.rotation.z = Math.PI/2; a.position.set(-1.2, y, 0); phago.add(a); return a;
+}
+armA = makeArm(0.65); armB = makeArm(-0.65);
+
+/* Phagosome matches target radius; it is positioned at the target each frame and
+   cross-fades in as the target is drawn inside the phagocyte (no shrink-collapse). */
+phagosome = new THREE.Mesh(
+  new THREE.SphereGeometry(1.25, 32, 22),
+  new THREE.MeshStandardMaterial({ color:0x9fb4c9, emissive:0x2aa866, emissiveIntensity:0.5, transparent:true, opacity:0 }));
+phagosome.position.set(-2.2, 0, 0); world.add(phagosome);
+
+synapse = new THREE.Mesh(
+  new THREE.TorusGeometry(0.5, 0.035, 8, 40),
+  new THREE.MeshBasicMaterial({ color:0x35d07f, transparent:true, opacity:0 }));
+synapse.rotation.y = Math.PI/2; world.add(synapse);
+
+// Activating and inhibitory receptors coexist on the phagocyte; they are not
+// alternative states. Green nubs = TIM-4/MerTK-like, red = SIRPα/Siglec-like.
+const nubGeo = new THREE.SphereGeometry(0.07, 10, 8);
+nubs = [];
+[[-0.25,'eat'],[0.25,'eat'],[-0.55,'brake'],[0.55,'brake']].forEach(([yy,kind])=>{
+  const n = new THREE.Mesh(nubGeo, new THREE.MeshBasicMaterial({ color: kind==='eat'?0x35d07f:0xff5d63, transparent:true, opacity:0 }));
+  n.position.set(-2.05, yy, 0.15); n.userData.kind = kind; phago.add(n); nubs.push(n);
+});
+function makeContacts(color){
+  const g = new THREE.BufferGeometry();
+  g.setAttribute('position', new THREE.BufferAttribute(new Float32Array(2*2*3), 3));
+  const l = new THREE.LineSegments(g, new THREE.LineBasicMaterial({ color, transparent:true, opacity:0 }));
+  world.add(l); return [l, g];
+}
+const [contactsEat, contactGeoEat] = makeContacts(0x9fe8c0);
+const [contactsBrake, contactGeoBrake] = makeContacts(0xff9a9e);
+
+/* Find-me cues diffuse outward from the target (halo), they are not a beam. */
+const haloDirs = fib(36, 0.7);
+streamSeed = haloDirs.map((d,i)=>({ dir:d, off:(i%9)/9 }));
+streamGeo = new THREE.BufferGeometry();
+streamGeo.setAttribute('position', new THREE.BufferAttribute(new Float32Array(streamSeed.length*3), 3));
+stream = new THREE.Points(streamGeo, new THREE.PointsMaterial({ color:0x7fd4ff, size:0.05, transparent:true, opacity:0 }));
+world.add(stream);
+
+const toggle = document.getElementById('anim-toggle');
+function syncToggle(){ toggle.textContent = paused ? '▶ Resume rotation' : '⏸ Pause rotation'; }
+toggle.addEventListener('click', ()=>{ paused = !paused; syncToggle(); });
+syncToggle();
+document.getElementById('replay-btn').addEventListener('click', ()=>{ engage = 0; });
+
+function fit(){
+  const w = canvas.clientWidth, h = canvas.clientHeight;
+  if (!w || !h) return;
+  renderer.setSize(w, h, false);
+  camera.aspect = w/h; camera.updateProjectionMatrix();
+}
+new ResizeObserver(fit).observe(document.getElementById('stage'));
+fit();
+
+setPreset('apoptotic');
+
+let stageVisible = true;
+new IntersectionObserver(en=>{ stageVisible = en[0].isIntersecting; }).observe(document.getElementById('stage'));
+
+function animate(){
+  requestAnimationFrame(animate);
+  if (!stageVisible) return;   // off-screen: skip render, keep rAF alive
+  const t = performance.now()*0.001;
+  const net = eatLevel - brakeLevel;
+  want = net > 0.12 ? 1 : (net < -0.05 ? 0 : 0.5);
+  engage += (want - engage) * 0.028;
+  if (paused) engage = want;            // reduced motion: snap, no transition
+  const p = engage;
+  const brake = want === 0;
+
+  // four stages: chemotaxis → contact/tasting → cup formation → internalization
+  const a = Math.min(1, p/0.35);
+  const b = Math.min(1, Math.max(0, (p-0.35)/0.25));
+  const c = Math.min(1, Math.max(0, (p-0.6)/0.25));
+  const d = Math.min(1, Math.max(0, (p-0.85)/0.15));
+  // ponytail: don't-eat-me blocks cup closure, not approach — transient tasting
+  // contact under brake dominance (approach → red pulse → retract), not parking.
+  const brakeProbe = brake ? (paused ? 0.72 : 0.45 + 0.35*Math.sin(t*1.1)) : 0;
+  const aEff = Math.max(a, brakeProbe), bEff = Math.max(b, brakeProbe*0.4);
+  const contact = Math.max(bEff, brakeProbe) * (1-c) * (1-d);
+
+  phago.position.x = 4.65 - 3.2*aEff;   // contact at 1.45: centre gap 3.65 (1.25+2.15+0.25 gap)
+  phago.position.y = paused ? 0 : 0.06*Math.sin(t*1.6)*(1-aEff);
+  target.position.x = -2.2 + 1.6*c + 0.4*d;   // drawn into the phagocyte, kept intact
+  armA.scale.y = armB.scale.y = 0.5 + 1.8*bEff;
+  armA.position.x = armB.position.x = -1.2 - 0.7*bEff;
+  armA.rotation.z = Math.PI/2 + 0.45*c;
+  armB.rotation.z = Math.PI/2 - 0.45*c;
+  body.material.opacity = 0.26 + 0.18*aEff + 0.10*c;
+
+  // phagosome cross-fade at full target size; hide the exterior target once inside
+  phagosome.position.copy(target.position);
+  phagosome.visible = d > 0.01;
+  phagosome.material.opacity = 0.85*d;
+  target.visible = d < 0.6;
+
+  // synapse anchored to the moving contact plane, radius closing with the cup
+  synapse.position.set(target.position.x + 1.25, 0, 0);
+  synapse.scale.setScalar(Math.max(0.2, 1 - 0.6*c));
+  synapse.material.color.setHex(brake ? 0xff5d63 : 0x35d07f);
+  synapse.material.opacity = brake
+    ? 0.25 + 0.5*brakeProbe
+    : 0.15 + 0.55*b;
+
+  // receptor nubs + ligand→receptor bonds, weighted by each signal class
+  nubs.forEach(n=>{ n.material.opacity = (n.userData.kind==='eat' ? 0.25+0.75*eatLevel : 0.25+0.75*brakeLevel) * contact; });
+  const surfT = target.position.x + 1.25, surfP = phago.position.x - 2.15;
+  [[contactGeoEat, [-0.25, 0.25]], [contactGeoBrake, [-0.55, 0.55]]].forEach(([geo, ys])=>{
+    const cp = geo.attributes.position.array;
+    ys.forEach((yy,i)=>{
+      cp[i*6+0] = surfT; cp[i*6+1] = yy; cp[i*6+2] = 0.15;
+      cp[i*6+3] = surfP; cp[i*6+4] = yy; cp[i*6+5] = 0.15;
+    });
+    geo.attributes.position.needsUpdate = true;
+  });
+  contactsEat.material.opacity = contact * (0.2 + 0.8*eatLevel);
+  contactsBrake.material.opacity = contact * (0.2 + 0.8*brakeLevel);
+
+  // find-me halo: particles diffuse outward from the target, strongest during
+  // chemotaxis, independent of the eat/brake verdict (recruitment ≠ engulfment)
+  stream.material.opacity = paused ? 0.35 : 0.55*(1 - 0.5*aEff);
+  const sp = streamGeo.attributes.position.array;
+  for (let i=0;i<streamSeed.length;i++){
+    const s = streamSeed[i], q = paused ? s.off : (s.off + t*0.12) % 1;
+    const r = 1.5 + 0.9*q;
+    sp[i*3]   = target.position.x + s.dir.x*r;
+    sp[i*3+1] = s.dir.y*r;
+    sp[i*3+2] = s.dir.z*r;
+  }
+  streamGeo.attributes.position.needsUpdate = true;
+
+  membrane.material.emissiveIntensity = paused ? 0.35 : 0.35 + 0.15*Math.sin(t*1.4);
+  if (!paused) world.rotation.y += 0.0015;
+  controls.update();
+  renderer.render(scene, camera);
+}
+animate();
+</script>
+</body>
+</html>

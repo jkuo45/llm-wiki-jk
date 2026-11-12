@@ -134,5 +134,9 @@ export default defineConfig(({ mode }) => {
         'Add them to the repo-root .env (see AGENTS.md / deploy docs).',
     );
   }
-  return { envDir, plugins: [redirectsPlugin(), emitStandaloneMarkdown()] };
+  return {
+    envDir,
+    plugins: [redirectsPlugin(), emitStandaloneMarkdown()],
+    build: { chunkSizeWarningLimit: 1100 }, // ponytail: silences warning only; bundle is one Three.js chunk
+  };
 });

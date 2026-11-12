@@ -2,7 +2,7 @@
 title: 粒線體功能障礙
 description: 粒線體功能障礙是帕金森氏症的中央特徵，並被認為既是其他病理過程的原因，也是其結果。
 created: 2024-01-01
-updated: 2026-10-21
+updated: 2024-01-01
 tags:
   - biological-process
   - mitochondria

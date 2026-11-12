@@ -1,0 +1,1099 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>「吃我」與「別吃我」訊號 — 吞噬決策的平衡（圖解）</title>
+<meta name="description" content="圖解促吞噬（「吃我」）與抗吞噬（「別吃我」）細胞表面訊號如何調節胞葬作用與腫瘤細胞吞噬：互動式 three.js 吞噬決策模型、訊號平衡圖、訊號→受體接線圖、膜不對稱流程圖、證據等級圖，以及磷脂醯絲胺酸、鈣網蛋白、CD47、CD24、PD-L1 等軸的證據分級清單。">
+<link rel="canonical" href="https://graph.johnnykuo.com/pages/zh-TW/eat-me-dont-eat-me-signals.html">
+<link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/eat-me-dont-eat-me-signals.html">
+<link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/eat-me-dont-eat-me-signals.html">
+<link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/eat-me-dont-eat-me-signals.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚖️</text></svg>">
+<link rel="stylesheet" href="../themes/theme-01/pages.css">
+<link rel="stylesheet" href="../themes/theme-01/pages-light.css" id="theme-light">
+<link rel="stylesheet" href="../themes/theme-01/pages-article.css">
+<script src="../themes/theme-01/page-theme.js"></script>
+<script src="../themes/shared/nav-auto-hide.js"></script>
+<script type="importmap">
+{"imports":{"three":"https://unpkg.com/three@0.160.0/build/three.module.js","three/addons/":"https://unpkg.com/three@0.160.0/examples/jsm/"}}
+</script>
+<style>
+  /* page-specific only — shared chrome lives in themes/theme-01/ */
+  .nd{ color:var(--teal); border-bottom:1px dotted var(--link-dash); }
+  .tier{ font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-size:.72rem; border:1px solid currentColor; border-radius:3px; padding:0 5px; white-space:nowrap; }
+  .t1{color:var(--green);} .t2{color:var(--teal);} .t3{color:var(--purple);} .t4{color:var(--blue);} .t5{color:var(--red);}
+  .tbl-wrap table{ min-width:940px; }
+  .tbl-wrap td{ font-size:.82rem; line-height:1.5; }
+  .tbl-wrap th{ font-size:.7rem; }
+  .fig-canvas svg text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans TC",Helvetica,Arial,sans-serif;}
+
+  /* concept cards */
+  .concept{ display:grid; grid-template-columns:1fr 1fr; gap:16px; margin:18px 0 6px; }
+  @media (max-width:760px){ .concept{ grid-template-columns:1fr; } }
+  .concept > div{ border:1px solid var(--line); border-radius:12px; padding:16px 18px; background:var(--card); }
+  .concept .eat{ border-left:4px solid var(--green); }
+  .concept .brake{ border-left:4px solid var(--red); }
+  .concept h3{ margin:0 0 8px; font-size:1.05rem; }
+  .concept .eat h3{ color:var(--green); } .concept .brake h3{ color:var(--red); }
+  .concept p{ font-size:.88rem; color:var(--dim); margin:0 0 8px; line-height:1.55; }
+  .concept .tag{ font-family:ui-monospace,monospace; font-size:.72rem; color:var(--mute); }
+
+  /* three.js stage */
+  .stage{ position:relative; height:440px; border:1px solid var(--line); border-radius:14px; overflow:hidden;
+    background:radial-gradient(600px 320px at 50% 38%, #16233a 0%, #0e1420 72%); }
+  @media (max-width:640px){ .stage{ height:340px; } }
+  .stage canvas{ width:100%; height:100%; display:block; }
+  .status{ position:absolute; left:12px; top:12px; font-family:ui-monospace,monospace; font-size:.78rem; font-weight:700;
+    letter-spacing:.04em; padding:6px 12px; border-radius:999px; border:1px solid; pointer-events:none; }
+  .status.pos{ color:#8ff0bd; border-color:#2f9d68; background:rgba(10,40,26,.72); }
+  .status.neg{ color:#ffb3b6; border-color:#b5454b; background:rgba(52,14,16,.72); }
+  .status.mid{ color:#ffe0a3; border-color:#c08a2a; background:rgba(52,36,8,.72); }
+  .stage-hint{ position:absolute; right:12px; bottom:10px; font-family:ui-monospace,monospace; font-size:.68rem; color:#9fb0c8; opacity:.75; pointer-events:none; }
+  .stage-signal{ position:absolute; left:12px; bottom:10px; font-family:ui-monospace,monospace; font-size:.68rem; color:#9fb0c8; opacity:.8; pointer-events:none; }
+  .anim-toggle{ position:absolute; right:12px; top:12px; font-family:inherit; font-size:.74rem; padding:5px 11px;
+    background:rgba(14,20,32,.72); color:#dce6f4; border:1px solid rgba(255,255,255,.22); border-radius:8px; cursor:pointer; }
+  .anim-toggle:hover{ border-color:#7fd4ff; }
+  .anim-toggle.replay{ top:46px; }
+  .stage-fallback{ position:absolute; inset:0; display:flex; align-items:center; justify-content:center;
+    color:#c9d6ea; font-size:.9rem; text-align:center; padding:24px; background:rgba(14,20,32,.55); }
+
+  .controls{ margin-top:14px; border:1px solid var(--line); border-radius:12px; padding:16px 18px; background:var(--card); }
+  .preset-bar{ display:flex; flex-wrap:wrap; gap:8px; margin-bottom:14px; }
+  .preset{ font-family:inherit; font-size:.8rem; padding:6px 12px; border:1px solid var(--line2); border-radius:999px;
+    background:var(--bg2); color:var(--dim); cursor:pointer; }
+  .preset:hover{ border-color:var(--teal); color:var(--text); }
+  .preset.is-on{ background:var(--teal); border-color:var(--teal); color:var(--btn-fg); font-weight:700; }
+  .sliders{ display:grid; grid-template-columns:1fr 1fr; gap:18px 26px; margin-bottom:14px; }
+  @media (max-width:640px){ .sliders{ grid-template-columns:1fr; } }
+  .sliders label{ font-size:.8rem; color:var(--dim); display:block; }
+  .sliders .lbl{ display:flex; justify-content:space-between; margin-bottom:4px; }
+  .sliders .lbl b{ color:var(--text); font-family:ui-monospace,monospace; }
+  .sliders input[type=range]{ width:100%; accent-color:var(--teal); }
+  .sliders .eat input{ accent-color:var(--green); } .sliders .brake input{ accent-color:var(--red); }
+  .gauge-head{ font-size:.8rem; color:var(--dim); display:flex; flex-wrap:wrap; align-items:baseline; gap:8px; margin-bottom:7px; }
+  .gauge-head b{ color:var(--text); font-family:ui-monospace,monospace; }
+  .gauge-head span{ color:var(--mute); }
+  .gauge-track{ position:relative; height:12px; border-radius:999px; border:1px solid var(--line2);
+    background:linear-gradient(90deg, rgba(228,87,94,.35) 0%, rgba(228,87,94,.12) 48%, rgba(62,201,167,.12) 52%, rgba(62,201,167,.35) 100%); }
+  .gauge-track .band{ position:absolute; left:47.5%; width:8.5%; top:0; bottom:0; background:rgba(255,224,163,.12); border-left:1px solid var(--amber); border-right:1px solid var(--amber); }
+  .gauge-track .thr{ position:absolute; left:56%; top:-4px; bottom:-4px; width:1px; background:var(--amber); opacity:.8; }
+  .gauge-track .needle{ position:absolute; top:-5px; bottom:-5px; width:3px; border-radius:2px; background:var(--text); transform:translateX(-50%); transition:left .12s linear; }
+  .gauge-scale{ display:flex; justify-content:space-between; font-size:.68rem; color:var(--mute); margin-top:5px; }
+  .state-desc{ font-size:.84rem; color:var(--dim); line-height:1.55; margin:12px 0 10px; min-height:2.4em; }
+  .legend{ display:flex; flex-wrap:wrap; gap:14px; font-size:.76rem; color:var(--dim); border-top:1px solid var(--line); padding-top:10px; }
+  .legend span{ display:flex; align-items:center; gap:6px; }
+  .legend .sw{ width:11px; height:11px; border-radius:50%; display:inline-block; }
+  .sw.eat{ background:#35d07f; } .sw.brake{ background:#ff5d63; } .sw.phago{ background:#5c82bd; } .sw.target{ background:#9fb4c9; }
+
+  /* SVG diagram palette (var-based → re-themes with the site toggle) */
+  .node-eat{ fill:color-mix(in srgb, var(--green) 12%, var(--card)); stroke:var(--green); stroke-width:1.2; }
+  .node-brake{ fill:color-mix(in srgb, var(--red) 12%, var(--card)); stroke:var(--red); stroke-width:1.2; }
+  .node-out-eat{ fill:color-mix(in srgb, var(--green) 20%, var(--card)); stroke:var(--green); stroke-width:1.6; }
+  .node-out-brake{ fill:color-mix(in srgb, var(--red) 20%, var(--card)); stroke:var(--red); stroke-width:1.6; }
+  .edge-eat{ stroke:var(--green); stroke-width:1.5; fill:none; opacity:.8; }
+  .edge-brake{ stroke:var(--red); stroke-width:1.5; fill:none; opacity:.8; }
+  .grid-line{ stroke:var(--line); stroke-width:1; stroke-dasharray:3 4; }
+  .axis-line{ stroke:var(--line2); stroke-width:1; }
+  .ev-t1{fill:var(--green);} .ev-t2{fill:var(--teal);} .ev-t3{fill:var(--blue);} .ev-t4{fill:var(--amber);} .ev-t5{fill:var(--red);}
+  .bar-eat{fill:var(--green);} .bar-brake{fill:var(--red);}
+  .balance-row{ cursor:pointer; }
+  .balance-row.is-on rect.bar-eat, .balance-row.is-on rect.bar-brake{ stroke:var(--text); stroke-width:1.4; }
+
+  /* find-me + failure cards */
+  .mini-grid{ display:grid; gap:12px; grid-template-columns:repeat(auto-fit,minmax(215px,1fr)); margin:14px 0; }
+  .mini{ border:1px solid var(--line); border-radius:12px; padding:12px 14px; background:var(--card); }
+  .mini h4{ font-size:.9rem; margin:0 0 5px; color:var(--text); }
+  .mini p{ font-size:.8rem; color:var(--dim); line-height:1.5; margin:0; }
+  .mini .rt{ font-family:ui-monospace,monospace; font-size:.72rem; color:var(--teal); display:block; margin-bottom:5px; }
+  .fail-grid{ display:grid; gap:14px; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); margin:14px 0; }
+  .fail{ border:1px solid var(--line); border-radius:12px; padding:14px 16px; background:var(--card); border-top:3px solid var(--amber); }
+  .fail.cancer{ border-top-color:var(--red); } .fail.icd{ border-top-color:var(--green); }
+  .fail h4{ font-size:.95rem; margin:0 0 6px; }
+  .fail p{ font-size:.82rem; color:var(--dim); line-height:1.55; margin:0; }
+  .chips{ display:flex; flex-wrap:wrap; gap:7px; margin:8px 0 2px; }
+  .chips a{ font-size:.74rem; padding:3px 9px; border:1px solid var(--line2); border-radius:999px; color:var(--dim); background:var(--bg2); }
+  .chips a:hover{ border-color:var(--teal); color:var(--teal); text-decoration:none; }
+  .steps{ padding-left:1.15em; font-size:.88rem; color:var(--dim); line-height:1.7; }
+  .steps li{ margin-bottom:7px; } .steps b{ color:var(--text); }
+  .foot{ border-top:1px solid var(--line); padding:26px 0 60px; color:var(--mute); font-size:.8rem; line-height:1.7; }
+</style>
+</head>
+<body style="--wrap-width:1200px;">
+
+<nav>
+  <div class="wrap">
+    <a id="back-home" class="back-home" href="../index.html" title="返回文章索引">&#8592; 返回</a>
+    <a class="n" href="#overview">概覽</a>
+    <a class="n" href="#decision">3-D 決策</a>
+    <a class="n" href="#balance">平衡圖</a>
+    <a class="n" href="#mechanism">機制</a>
+    <a class="n" href="#graph">接線圖</a>
+    <a class="n" href="#eatme">「吃我」</a>
+    <a class="n" href="#dont">「別吃我」</a>
+    <a class="n" href="#findme">「找我」</a>
+    <a class="n" href="#evidence">證據</a>
+    <a class="n" href="#failure">失效模式</a>
+    <a class="n" href="#gaps">未解問題</a>
+    <a class="n" href="#sources">資料來源</a>
+  </div>
+</nav>
+
+<header>
+  <div class="wrap">
+    <div class="kicker">胞葬作用 · 吞噬訊號傳遞 · 比較清單 · 2026</div>
+    <h1>「吃我」與「別吃我」訊號 — 吞噬決策的平衡</h1>
+    <p class="lead" style="margin-top:14px;">
+      吞噬細胞清除死亡、受壓或惡性細胞與否，取決於標的細胞表面促吞噬
+      <b style="color:var(--green)">「吃我」</b>配體與抗吞噬
+      <b style="color:var(--red)">「別吃我」</b>配體的<b style="color:var(--text)">相對表現量</b>。「吃我」訊號匯聚於
+      質膜脂質不對稱性喪失與
+      <a class="nd" href="https://graph.johnnykuo.com/#node=Phosphatidylserine">磷脂醯絲胺酸（PS）</a>、
+      表面<a class="nd" href="https://graph.johnnykuo.com/#node=Calreticulin">鈣網蛋白（calreticulin）</a>及調理素的外露；
+      「別吃我」訊號則接合吞噬細胞上帶 ITIM 或凝集素的抑制性受體。本頁以互動式 three.js 模型說明比例法則、
+      繪製各細胞狀態的訊號平衡、標示訊號→受體接線，並逐一列出各配體的受體、執行機制與證據等級。
+      證據等級：<span class="tier t1">Tier 1</span> 人體 RCT／已核准 ·
+      <span class="tier t2">Tier 2</span> 人體試驗／關聯性 · <span class="tier t3">Tier 3</span> 囓齒類／活體 ·
+      <span class="tier t4">Tier 4</span> 體外／離體 · <span class="tier t5">Tier 5</span> 假說。
+      除非特別標明臨床軸，訊號生化皆為 Tier 4。
+    </p>
+    <div class="meta">
+      資料來源：知識庫任務輸出
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_eat_me_dont_eat_me_signals_08_Nov_2026.md" target="_blank" rel="noopener noreferrer"><code>「吃我」與「別吃我」吞噬訊號 — 比較清單（2026-11-08）</code></a>
+      · 回顧文獻：Birge et al. 2016 · Khalaji et al. 2023 · Xiao et al. 2024 · Park &amp; Kim 2017（連結見<a href="#sources">資料來源</a>）
+      · 姊妹頁面：<a href="eryptosis.html">紅細胞凋亡</a> · <a href="apoptosis.html">細胞凋亡</a> · <a href="cell-death-comparison.html">細胞死亡比較</a>
+    </div>
+    <div class="pill-row">
+      <a class="badge teal" href="#decision">PS 外翻＋鈣網蛋白許可攝入（Tier 4）</a>
+      <a class="badge red" href="#dont">CD47 · CD24 · PD-L1 拉高抑制閾值</a>
+      <a class="badge" href="#balance">結果取決於比例，而非單一配體</a>
+      <a class="badge amber" href="#evidence">多數配體為 Tier 4；少數軸進入試驗</a>
+      <a class="badge speculative" href="#gaps">組織層級比例尚未量化</a>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <!-- ==================== OVERVIEW ==================== -->
+  <section id="overview">
+    <h2>兩類互相對抗的訊號</h2>
+    <p>
+      吞噬細胞在吞噬突觸整合活化與抑制輸入。「吃我」配體表現在死亡、受壓、
+      感染或經調理的細胞上；「別吃我」配體則持續表現在活細胞上，且在腫瘤細胞上調高。常用的對照是
+      表面鈣網蛋白對 CD47：鈣網蛋白許可攝入，CD47–SIRPα 訊號則加以阻斷（Tier 4，細胞實驗）。
+    </p>
+    <div class="concept">
+      <div class="eat">
+        <h3>「吃我」— 促吞噬</h3>
+        <p>表現在死亡、受壓或感染細胞上、標記該細胞應被吞入的訊號。多數匯聚於同一終點：質膜脂質不對稱性
+          喪失、PS 出現在外小葉。攝入 PS 陽性物質會使巨噬細胞偏向產生 HO-1 的抗發炎狀態。</p>
+        <span class="tag">PS · 鈣網蛋白 · 心磷脂 · oxPL · 去唾液酸化醣鏈 · 泛素 · C1q · CXCL14 · SLAMF7</span>
+      </div>
+      <div class="brake">
+        <h3>「別吃我」— 抗吞噬</h3>
+        <p>抗吞噬的抑制閾值。多數經吞噬細胞上帶 ITIM 的抑制性受體或同型結合受體作用，招募 SHP-1/2，
+          阻斷依賴肌球蛋白 II 的吞入。癌症與纖維化會過度表現這些訊號。</p>
+        <span class="tag">CD47 · CD24 · PD-L1 · 唾液酸 · β2M/MHC-I · CD31</span>
+      </div>
+    </div>
+    <div class="callout teal">
+      <span class="callout-tag">平衡法則</span>
+      <p>胞葬作用由「吃我」與「別吃我」表現的<b>比例</b>觸發，而非任一單一配體。活細胞透過 flippase
+        活性將 PS 維持在內小葉，同時表現 CD47、唾液酸與 MHC-I；死亡或壓力使 flippase 失效、scramblase 活化，
+        PS 外翻，並伴隨已報告的 CD47 下降，比例因而轉向吞入（Tier 4）。</p>
+    </div>
+  </section>
+
+  <!-- ==================== 3-D DECISION ==================== -->
+  <section id="decision">
+    <h2>吞噬決策 — 互動式 3-D 圖解</h2>
+    <p>
+      模型顯示一個攜帶表面「吃我」標記（綠色）與「別吃我」標記（紅色）的標的細胞，以及自右方接近的
+      吞噬細胞（巨噬細胞）。標記密度由兩項獨立輸入控制；淨訊號為正時吞噬細胞才會啟動。預設情境重現
+      清單所述的各狀態。本模型為示意圖，非實際比例。
+    </p>
+
+    <div class="stage" id="stage">
+      <canvas id="signal-canvas" aria-label="互動式 3-D 圖解：標的細胞攜帶「吃我」與「別吃我」表面標記，巨噬細胞在淨吞噬訊號為正時啟動吞入"></canvas>
+      <div class="status pos" id="status" role="status" aria-live="polite">吞噬 · 胞葬作用</div>
+      <div class="stage-hint">拖曳＝旋轉 · 滾輪＝縮放</div>
+      <div class="stage-signal" id="stage-signal">flippase 開 · ATP11C · PS 位於內小葉</div>
+      <button class="anim-toggle" id="anim-toggle" aria-label="暫停或繼續旋轉">⏸ 暫停旋轉</button>
+      <button class="anim-toggle replay" id="replay-btn" aria-label="重播吞噬序列">↻ 重播吞噬</button>
+      <div class="stage-fallback" id="stage-fallback">正在載入 3-D 模型… 若此訊息未消失，代表 WebGL 或 three.js CDN 無法使用；下方的圖表、關係圖與清單仍可閱讀。</div>
+    </div>
+
+    <div class="controls">
+      <div class="preset-bar" id="preset-bar">
+        <button class="preset" data-preset="healthy">健康活細胞</button>
+        <button class="preset" data-preset="apoptotic">凋亡／受壓</button>
+        <button class="preset" data-preset="aged">老化紅血球</button>
+        <button class="preset" data-preset="cancer">腫瘤（煞車↑）</button>
+        <button class="preset" data-preset="icd">ICD 治療</button>
+      </div>
+      <div class="sliders">
+        <label class="eat">
+          <span class="lbl"><span>「吃我」表現量（PS／鈣網蛋白）</span><b id="eat-out">92</b></span>
+          <input type="range" id="eat-slider" min="0" max="100" value="92" aria-label="「吃我」訊號表現量">
+        </label>
+        <label class="brake">
+          <span class="lbl"><span>「別吃我」表現量（CD47／唾液酸／MHC-I）</span><b id="brake-out">14</b></span>
+          <input type="range" id="brake-slider" min="0" max="100" value="14" aria-label="「別吃我」訊號表現量">
+        </label>
+      </div>
+      <div class="gauge-head">淨吞噬訊號 <b id="net-val">+0.78</b> <span id="verdict-line">正值 → 吞噬</span></div>
+      <div class="gauge-track"><i class="band"></i><i class="thr"></i><i class="needle" id="needle" style="left:89%"></i></div>
+      <div class="gauge-scale"><span>−1 煞車佔優</span><span>臨界區間 −0.05 … +0.12</span><span>+1「吃我」佔優</span></div>
+      <p class="state-desc" id="state-desc"></p>
+      <div class="legend">
+        <span><i class="sw eat"></i>「吃我」：● PS、▲ 鈣網蛋白</span>
+        <span><i class="sw brake"></i>「別吃我」：▮ CD47、◆ 唾液酸／MHC-I</span>
+        <span><i class="sw phago"></i>吞噬細胞（巨噬細胞）</span>
+        <span><i class="sw target"></i>標的細胞／吞噬體</span>
+      </div>
+    </div>
+    <p class="fig-cap" style="margin-top:10px;">
+      <b>如何閱讀模型。</b>綠色與紅色標記為示意性的表面配體；數量隨兩項輸入調整，且綠色 PS／鈣網蛋白標記
+      會隨「吃我」表現量上升而由內小葉遷移至外小葉（flippase → scramblase；半透明「鬼影」標記內小葉 PS 池）。
+      半透明巨噬細胞執行四階段序列——趨化（伴隨向外擴散的「找我」訊號光暈）、在突觸環進行短暫接觸／辨識
+      （煞車佔優時亦然——「別吃我」阻斷的是吞噬杯閉合，而非接近）、偽足形成吞噬杯、內化為完整大小的吞噬體；
+      當 ITIM／SHP-1 煞車佔優時，突觸處會出現紅色脈衝環。綠色與紅色受體並存於吞噬細胞上，其鍵結不透明度
+      隨各自訊號量調整。<code>eat − brake</code> 是教學上的抽象：抑制性受體提高的是活化閾值，而非把配體數量相減。數值僅為示意，非實測。以 three.js r160（CDN importmap）建置；在 <code>prefers-reduced-motion</code> 下停用所有動畫。
+    </p>
+  </section>
+
+  <!-- ==================== BALANCE CHART ==================== -->
+  <section id="balance">
+    <h2>各細胞狀態下的平衡法則</h2>
+    <p>
+      比例隨細胞狀態規律地移動：活細胞由煞車佔優；凋亡、紅細胞凋亡與老化細胞轉為「吃我」佔優；腫瘤拉高
+      抑制閾值；免疫原性細胞死亡（ICD）治療拉高「吃我」側並移除煞車。本圖為定性示意——來源清單
+      未提出量化的組織層級比例（見<a href="#gaps">未解問題</a>）。
+    </p>
+    <div class="fig">
+      <div class="fig-canvas"><svg id="balanceSvg" viewBox="0 0 1000 470" role="img" aria-label="五種細胞狀態下「吃我」與「別吃我」訊號相對表現量的分歧長條圖"></svg></div>
+      <div class="fig-cap"><b>相對表現示意</b>：各細胞狀態的促吞噬（綠色，右）與抗吞噬（紅色，左）訊號；
+        每對長條上方獨立軌道上的菱形標出淨訊號，右欄為最終結果。點擊任一列可載入對應的 3-D 情境。
+        數值僅為示意，非實測——所引文獻並無量化的組織層級 CD47 : 唾液酸 : PS 比例。</div>
+    </div>
+  </section>
+
+  <!-- ==================== MECHANISM FLOW ==================== -->
+  <section id="mechanism">
+    <h2>膜不對稱喪失與 PS 介導的吞入</h2>
+    <p>
+      健康細胞透過 ATP 依賴的 flippase 活性將 PS 留在內小葉。凋亡與紅細胞凋亡的執行過程使 flippase 失效、
+      scramblase 活化——凋亡中為 caspase 切割 ATP11C 並活化 XKR8，紅細胞凋亡中為 Ca²⁺ 驅動
+      TMEM16F/ANO6——使 PS 外翻。PS 隨後由 TIM 家族、BAI1、stabilin 受體直接辨識，或經橋接分子
+      （Gas6/Protein S → MerTK 類 TAM 受體；MFGE8 → 整合素）讀取。抑制性配體則接上平行的
+      ITIM／SHP-1/2 分支。
+    </p>
+    <div class="fig">
+      <div class="fig-canvas"><svg id="flowSvg" viewBox="0 0 1000 340" role="img" aria-label="「吃我」活化路徑與「別吃我」抑制路徑匯聚於吞噬決策的流程圖"></svg></div>
+      <div class="fig-cap"><b>雙路徑機制。</b>上（綠）：脂質不對稱喪失 → PS 外露 → 受體辨識 → 非發炎性吞入。
+        下（紅）：抑制性配體 → 帶 ITIM 的受體 → SHP-1/2 與肌球蛋白 II 阻斷。吞噬細胞整合兩條路徑，
+        由比例決定結果（Tier 4）。</div>
+    </div>
+    <ol class="steps">
+      <li><b>活細胞。</b>flippase 將 PS 留在內側；CD47、唾液酸與 MHC-I 主導外表面 → 無持續吞噬。</li>
+      <li><b>死亡或壓力。</b>flippase 關、scramblase 開（紅細胞凋亡為 Ca²⁺ 驅動；凋亡為 caspase 驅動）→ PS 出現在外小葉；隨老化出現 CD47 流失已有報告 → 比例轉向 → 吞入，PS 介導時不引發發炎。</li>
+      <li><b>疾病效應。</b>癌症過度表現煞車（CD47、CD24、PD-L1）；纖維化與動脈粥狀硬化在下游損害「吃我」辨識；過度紅細胞凋亡使清除飽和，並送出 PS 陽性的促凝血細胞。</li>
+      <li><b>ICD 治療。</b>蒽環類、光動力療法與部分放療後出現表面鈣網蛋白。樹突細胞對 PS 陽性屍體的攝入在體外實驗中被報告為耐受性，除非同時具備鈣網蛋白與危險訊號。</li>
+    </ol>
+  </section>
+
+  <!-- ==================== WIRING GRAPH ==================== -->
+  <section id="graph">
+    <h2>訊號 → 受體 → 結果接線</h2>
+    <p>
+      選定配體–受體配對的關係圖。「吃我」配體匯聚於吞入；「別吃我」配體匯聚於 ITIM／SHP-1/2 阻斷。
+      配對取自下方清單；完整訊號與其脈絡列於兩張清單中。
+    </p>
+    <div class="fig">
+      <div class="fig-canvas"><svg id="graphSvg" viewBox="0 0 1000 600" role="img" aria-label="將「吃我」與「別吃我」訊號連至吞噬細胞受體、再連至吞噬或不吞噬結果的二分圖"></svg></div>
+      <div class="fig-cap"><b>選定配對。</b>左：訊號。中：吞噬細胞上的受體或橋接分子。右：整合後的反應。
+        綠邊為促吞噬，紅邊為抑制性。CD24–Siglec-10 與 PD-L1–PD-1 為細胞實驗所報告（Tier 4）；
+        PD-1/PD-L1 阻斷本身在腫瘤學已達 Tier 1。</div>
+    </div>
+  </section>
+
+  <!-- ==================== EAT-ME INVENTORY ==================== -->
+  <section id="eatme">
+    <h2>「吃我」訊號 — 清單</h2>
+    <p>表現在死亡、受壓或感染細胞上、標記該細胞應被吞入的訊號。互補的「找我」訊號負責招募吞噬細胞，
+      本身不觸發吞入（見<a href="#findme">「找我」</a>）。</p>
+    <div class="tbl-wrap">
+      <table class="tbl-fixed">
+        <thead><tr><th style="width:16%">訊號</th><th style="width:24%">出現位置／脈絡</th><th style="width:26%">辨識者</th><th style="width:34%">說明（證據等級）</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><b>磷脂醯絲胺酸（PS）</b></td>
+            <td>多種情境：凋亡、紅細胞凋亡、活化血小板與腫瘤細胞膜的外小葉；凋亡小體。</td>
+            <td>直接 PS 受體（TIM-4、BAI1、stabilin-2）與橋接分子（Gas6/Protein S → MerTK 類 TAM 受體；MFGE8 → 整合素）。</td>
+            <td>哺乳動物中研究最完整的「吃我」訊號 <span class="tier t4">Tier 4</span>。執行需 scramblase 活化＋flippase 失效（紅細胞凋亡為 TMEM16F/ANO6；凋亡為 caspase 切割 ATP11C 與 XKR8）。PS 陽性物質的攝入使巨噬細胞偏向產生 HO-1 的抗發炎狀態 <span class="tier t4">Tier 4</span>–<span class="tier t3">Tier 3</span>。</td>
+          </tr>
+          <tr>
+            <td><b>鈣網蛋白（表面外露）</b></td>
+            <td>蒽環類化療、光動力療法、部分放療後的細胞表面；免疫原性細胞死亡中的主要「吃我」訊號。</td>
+            <td>吞噬細胞上的 LRP1/CD91；移除對立的 CD47 煞車可許可攝入。</td>
+            <td>表面 CRT 由 LRP1/CD91 辨識（Gardai et al. 2005）；CRT 亦是已報告的 C1q 結合共受體，分泌型或經切割的 CRT 可作為調理素。CRT 為攝入所需，而同一次死亡產生的腫瘤抗原觸發適應性反應 <span class="tier t4">Tier 4</span>。</td>
+          </tr>
+          <tr>
+            <td><b>SLAMF7（CS1 / CD319）</b></td>
+            <td>造血系腫瘤細胞（骨髓瘤、部分淋巴瘤）、漿細胞、NK 細胞；亦見於巨噬細胞。</td>
+            <td>同型 SLAMF7–SLAMF7 結合，伴巨噬細胞上的 Mac-1（CD11b/CD18）→ FcRγ/DAP12、Syk/Btk。</td>
+            <td>屬促吞噬的「吃我」訊號，而非煞車：在 CD47–SIRPα 阻斷時，SLAMF7 為巨噬細胞吞噬造血系腫瘤細胞所必需（Chen et al. 2017, <i>Nature</i> 544:493–497；PMID 28424516） <span class="tier t4">Tier 4</span>。此必要性仍有爭議（He et al. 2019, <i>Nat Commun</i>）；SLAM 家族的煞車為 SLAMF3/SLAMF4。Elotuzumab 已核准用於骨髓瘤合併療法 <span class="tier t1">Tier 1</span>，機制為 NK 細胞 ADCC 與巨噬細胞 ADCP，而非中和某個抑制性配對。</td>
+          </tr>
+          <tr>
+            <td><b>心磷脂（外翻）</b></td>
+            <td>受壓粒線體與死亡細胞的外表面；心磷脂過氧化與細胞色素 c 相關。</td>
+            <td>胞外／外露心磷脂由巨噬細胞上的 CD36 辨識；胞內粒線體自噬清除則由 LC3 負責。</td>
+            <td>外翻心磷脂是 CD36 依賴的「吃我」訊號（Balasubramanian et al. 2015, <i>Sci Signal</i>；PMID 26396268）；轉位至粒線體外膜會招募 LC3 進行粒線體自噬（Chu et al. 2013, <i>Nat Cell Biol</i>；PMID 24036476） <span class="tier t4">Tier 4</span>。</td>
+          </tr>
+          <tr>
+            <td><b>氧化磷脂／oxLDL 決定位</b></td>
+            <td>氧化壓力下的細胞；粥樣斑塊碎片。</td>
+            <td>清道夫受體（CD36、SR-A、LOX-1）。</td>
+            <td>不穩定斑塊泡沫細胞攝入的已報告促成因素；透過 oxPS 決定位與 PS 路徑重疊 <span class="tier t4">Tier 4</span>。</td>
+          </tr>
+          <tr>
+            <td><b>去唾液酸化醣鏈</b></td>
+            <td>老化紅血球 — 古典的衰老「吃我」線索；神經胺酸酶處理在實驗上會驅動 PS 外露。</td>
+            <td>天然存在的 IgG 自體抗體（已報告針對 AE1/band 3）→ Fc 受體橋接。</td>
+            <td>與 PS 路徑不同：並非紅細胞凋亡。去唾液酸化銜接兩套清除程式，因為去唾液酸化與 PS 外露會同時發生 <span class="tier t4">Tier 4</span>。</td>
+          </tr>
+          <tr>
+            <td><b>受損胞器上的泛素鏈</b></td>
+            <td>經 Parkin 標記的粒線體（PINK1/Parkin 路徑）；粒線體自噬受體。</td>
+            <td>自噬受體 p62、NBR1、NDP52、OPTN。</td>
+            <td>粒線體自噬的「吃我」機制在胞器尺度與胞葬作用相似 <span class="tier t4">Tier 4</span>；PINK1/Parkin 失效與家族性巴金森氏症相關。</td>
+          </tr>
+          <tr>
+            <td><b>胞外基質錨定的 CXCL14</b></td>
+            <td>早期衰老分泌體，在 NF-κB/IL-6 SASP 成熟之前出現。</td>
+            <td>巨噬細胞、DC、NK、T 細胞的招募者（受體尚未確認）。</td>
+            <td>屬「吃我／來找我」趨化因子，而非表面標籤；滯留於內皮醣胺聚醣上 <span class="tier t4">Tier 4</span>。</td>
+          </tr>
+          <tr>
+            <td><b>補體 C1q（橋接調理素）</b></td>
+            <td>凋亡細胞；古典路徑感測器。</td>
+            <td>C1q 橋接至吞噬細胞上的表面鈣網蛋白／CD91（LRP1）。</td>
+            <td>CRT（cC1qR）是已報告、與 CD91/LRP1 搭配的 C1q 結合共受體；因 CRT 不具穿膜區段，此歸屬仍有爭議（Park &amp; Kim 2017）。為完整起見列出 <span class="tier t4">Tier 4</span>。</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ==================== DON'T-EAT-ME INVENTORY ==================== -->
+  <section id="dont">
+    <h2>「別吃我」訊號 — 清單</h2>
+    <p>抗吞噬的抑制閾值。多數經吞噬細胞上帶 ITIM 的抑制性受體或同型結合受體作用；癌症與纖維化會
+      過度表現。</p>
+    <div class="tbl-wrap">
+      <table class="tbl-fixed">
+        <thead><tr><th style="width:16%">訊號</th><th style="width:24%">表現位置</th><th style="width:26%">辨識者</th><th style="width:34%">說明（證據等級）</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><b>CD47</b></td>
+            <td>幾乎所有有核細胞＋紅血球 — 常用的煞車範例。</td>
+            <td>巨噬細胞／DC 上的 SIRPα → ITIM、SHP-1/2、肌球蛋白 II 累積，阻斷吞入。</td>
+            <td>普遍表現；部分組織（動脈、肺、光老化皮膚）隨年齡上升。老化紅血球失去 CD47 會移除煞車並加速清除 <span class="tier t4">Tier 4</span>，紅血球模型為 <span class="tier t3">Tier 3</span>。抗 CD47 藥物（單株抗體、SIRPα 誘餌、雙特異性抗體）仍屬研究階段且未獲核准：Gilead 於 2024 年因 ENHANCE-3 顯示無效且死亡增加而終止 magrolimab（FDA 對 AML/MDS 試驗全面暫停），其餘實體瘤試驗亦自研發管線移除；其他藥物在 2024–25 年亦接連受挫 <span class="tier t2">Tier 2</span>。</td>
+          </tr>
+          <tr>
+            <td><b>CD24</b></td>
+            <td>人類腫瘤（小鼠 Cd24a 功能不同）、發育中的造血細胞。</td>
+            <td>巨噬細胞上的 Siglec-10 → 抑制性 SHP-1。</td>
+            <td>與 CD47 並列的另一個「別吃我」訊號：阻斷 CD24–Siglec-10 可增強對表現 CD24 之人類腫瘤的吞噬（Barkal et al. 2019） <span class="tier t4">Tier 4</span>。</td>
+          </tr>
+          <tr>
+            <td><b>PD-L1（CD274）</b></td>
+            <td>腫瘤細胞、發炎組織。</td>
+            <td>吞噬突觸處巨噬細胞上的 PD-1。</td>
+            <td>腫瘤細胞的 PD-L1 接合巨噬細胞 PD-1 會抑制吞噬；阻斷此配對即可許可腫瘤細胞攝入——與調控 T 細胞檢查點的是同一軸（Gordon et al. 2017, <i>Nature</i> 545:495–499；PMID 28514441） <span class="tier t4">Tier 4</span>。PD-1/PD-L1 阻斷在腫瘤學已核准 <span class="tier t1">Tier 1</span>，但核准適應症為 T 細胞檢查點阻斷，並非專指巨噬細胞此臂。</td>
+          </tr>
+          <tr>
+            <td><b>唾液酸／α2,8-多聚唾液酸</b></td>
+            <td>健康活細胞（免疫、神經系譜）。</td>
+            <td>Siglecs（抑制性 I 型凝集素，含 Siglec-10、Siglec-7；α2,8-多聚唾液酸由 Siglec-11 辨識）。</td>
+            <td>以唾液酸酶移除後，細胞轉為「吃我」狀態；紅血球隨年齡去唾液酸化與「吃我」清單相銜接 <span class="tier t4">Tier 4</span>。</td>
+          </tr>
+          <tr>
+            <td><b>β2-微球蛋白（＋MHC-I 表現）</b></td>
+            <td>有核細胞；腫瘤細胞上調此軸。</td>
+            <td>巨噬細胞上的 LILRB1（ILT2）；小鼠中樞神經為 LILRB2 / PirB。</td>
+            <td>表面 MHC-I/β2M 透過 LILRB1 設定抗吞噬閾值；破壞 MHC-I 或 LILRB1 任一者，都在體外與小鼠模型中增強腫瘤細胞吞噬（Barkal et al. 2018, <i>Nat Immunol</i> 19:76–84；PMID 29180808） <span class="tier t3">Tier 3</span>。PILRβ 是 CD99 的活化型受體，KIR 則為 NK 細胞受體，皆非此煞車。</td>
+          </tr>
+          <tr>
+            <td><b>CD31（PECAM-1）</b></td>
+            <td>內皮、血小板、白血球。</td>
+            <td>活白血球上的 CD31–CD31 同型結合；凋亡細胞失去此能力。</td>
+            <td>活細胞的「別吃我」標章：僅在標的細胞仍能透過 CD31 傳訊時，同型結合才阻斷攝入（體外報告） <span class="tier t4">Tier 4</span>。</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ==================== FIND-ME ==================== -->
+  <section id="findme">
+    <h2>「找我」訊號 — 招募，而非吞入</h2>
+    <p>互補的可溶性或基質結合線索，會把吞噬細胞招募至現場，但本身不觸發吞入。部分回顧亦將 PS 列入
+      「找我」線索，但標準的可溶性組合為核苷酸、溶血磷脂、鞘胺醇-1-磷酸與趨化激素 <span class="tier t4">Tier 4</span>。</p>
+    <div class="mini-grid">
+      <div class="mini"><span class="rt">LPC → G2A / GPR4</span><h4>溶血磷脂醯膽鹼</h4><p>經 caspase-3 驅動的 PLA2 自凋亡細胞釋出；由吞噬細胞上的 G2A 感測。</p></div>
+      <div class="mini"><span class="rt">ATP / UTP → P2Y2</span><h4>核苷酸</h4><p>經 PANX1 釋出的嘌呤能「找我」梯度；引導單核球與巨噬細胞遷移。</p></div>
+      <div class="mini"><span class="rt">S1P → S1PR1–5</span><h4>鞘胺醇-1-磷酸</h4><p>與核苷酸、LPC 並列的 GPCR 介導招募路徑。</p></div>
+      <div class="mini"><span class="rt">CX3CL1 → CX3CR1</span><h4>Fractalkine</h4><p>自凋亡淋巴球釋出的趨化激素；吸引單核球、T 細胞與 NK 細胞。</p></div>
+      <div class="mini"><span class="rt">CXCL14（ECM 錨定）</span><h4>早期衰老分泌體</h4><p>滯留於內皮醣胺聚醣；在 SASP 成熟前招募巨噬細胞、DC、NK 與 T 細胞。</p></div>
+    </div>
+  </section>
+
+  <!-- ==================== EVIDENCE ==================== -->
+  <section id="evidence">
+    <h2>證據等級與臨床轉譯</h2>
+    <p>
+      配體生化一致為 Tier 4（細胞實驗）。僅少數軸已進入人體介入：PD-1/PD-L1 檢查點阻斷與抗 SLAMF7
+      elotuzumab 已核准用於腫瘤學（Tier 1）。抗 CD47 類仍處於較早期試驗且未獲核准；magrolimab 於 2024 年
+      因第三期無效與安全性結果而終止。在纖維化或動脈粥狀硬化中阻斷「別吃我」煞車，機制上合理但尚未
+      經人體驗證；現有抗 CD47 臨床資料僅限腫瘤學。
+    </p>
+    <div class="fig">
+      <div class="fig-canvas"><svg id="evidenceSvg" viewBox="0 0 1000 360" role="img" aria-label="各吞噬訊號介入主軸所達最高證據等級的強度圖"></svg></div>
+      <div class="fig-cap"><b>各主軸達到的最高等級。</b>分級為序位，非效果量：
+        Tier 5＝假說、Tier 4＝體外／離體、Tier 3＝囓齒類／活體、Tier 2＝人體試驗／關聯性、
+        Tier 1＝人體 RCT／已核准介入。長條長度代表序位強度，而非效應大小。</div>
+    </div>
+    <div class="callout">
+      <span class="callout-tag">判讀限制</span>
+      <p>特定組織中由哪類細胞讀取哪一組配對（CD47 vs CD24 vs C1q–CRT）取決於脈絡，跨組織
+        尚未完整描繪 <span class="tier t5">Tier 5</span>。以單細胞解析度量化組織的
+        CD47 : 唾液酸 : PS 比例，仍是未解的技術缺口。</p>
+    </div>
+  </section>
+
+  <!-- ==================== FAILURE MODES ==================== -->
+  <section id="failure">
+    <h2>失效模式：煞車過度表現與清除受損</h2>
+    <div class="fail-grid">
+      <div class="fail cancer">
+        <h4>癌症 — 煞車過度表現</h4>
+        <p>腫瘤過度表現 CD47、CD24 與 PD-L1。阻斷「別吃我」是癌症免疫治療策略
+          （Khalaji et al. 2023）；抗 CD47 抗體、SIRPα 誘餌與雙特異性抗體仍屬研究階段，
+          magrolimab 已於 2024 年因第三期無效與安全性結果終止。</p>
+      </div>
+      <div class="fail">
+        <h4>纖維化與動脈粥狀硬化 — 辨識受損</h4>
+        <p>胞葬作用在「吃我」辨識的下游受損，產生壞死核心碎片與持續發炎
+          （動脈粥狀硬化胞葬資料，<span class="tier t4">Tier 4</span>–<span class="tier t3">Tier 3</span>）。</p>
+      </div>
+      <div class="fail">
+        <h4>過度紅細胞凋亡 — 清除飽和</h4>
+        <p>在慢性腎病、敗血症與血色素病變中，過度紅細胞凋亡使清除飽和，並送出 PS 陽性的
+          促凝血細胞。見<a href="eryptosis-evidence-synthesis.html">紅細胞凋亡證據綜述</a>。</p>
+      </div>
+      <div class="fail icd">
+        <h4>ICD 治療 — 增加「吃我」表現</h4>
+        <p>蒽環類、光動力療法與部分放療後出現表面鈣網蛋白。樹突細胞對 PS 陽性屍體的攝入在體外實驗中被報告為耐受性，
+          除非同時配備 CRT 與危險訊號，因此「吃我」訊號也左右適應性反應。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== OPEN PROBLEMS ==================== -->
+  <section id="gaps">
+    <h2>未解問題</h2>
+    <ul class="steps">
+      <li><b>配對圖譜。</b>特定組織中由哪類細胞讀取哪一組配對（CD47 vs CD24 vs C1q–CRT）取決於脈絡，
+        跨組織尚未完整描繪 <span class="tier t5">Tier 5</span>。</li>
+      <li><b>腫瘤學以外的煞車阻斷。</b>在纖維化或動脈粥狀硬化中阻斷「別吃我」煞車，機制上合理但尚未
+        經人體驗證；現有抗 CD47 臨床資料僅限腫瘤學 <span class="tier t5">Tier 5</span>。</li>
+      <li><b>比例量測。</b>以單細胞解析度量化組織的 CD47 : 唾液酸 : PS 比例，仍是未解的技術缺口
+        （未由所引來源重新推導）。</li>
+    </ul>
+  </section>
+
+  <!-- ==================== SOURCES ==================== -->
+  <section id="sources">
+    <h2>資料來源與相關知識庫條目</h2>
+    <p style="font-size:.86rem; color:var(--dim); line-height:1.7;">
+      整理自知識庫筆記（Efferocytosis、Eryptosis、Phosphatidylserine、CD47、Calreticulin）與已發表的回顧文獻：
+      Birge et al. 2016, <i>Cell Death Differ</i> —
+      <a href="https://pubmed.ncbi.nlm.nih.gov/26915293/" target="_blank" rel="noopener noreferrer">PMID 26915293</a>;
+      Khalaji et al. 2023, <i>Heliyon</i> —
+      <a href="https://pubmed.ncbi.nlm.nih.gov/37822610/" target="_blank" rel="noopener noreferrer">PMID 37822610</a>;
+      Xiao et al. 2024, <i>Cancer Communications</i> —
+      <a href="https://doi.org/10.1002/cac2.12579" target="_blank" rel="noopener noreferrer">doi:10.1002/cac2.12579</a>
+      (<a href="https://pubmed.ncbi.nlm.nih.gov/38923737/" target="_blank" rel="noopener noreferrer">PMID 38923737</a>);
+      Park &amp; Kim 2017, <i>Exp Mol Med</i> —
+      <a href="https://pubmed.ncbi.nlm.nih.gov/28496201/" target="_blank" rel="noopener noreferrer">PMID 28496201</a>;
+      Kelley &amp; Ravichandran 2021, <i>EMBO Rep</i> —
+      <a href="https://pubmed.ncbi.nlm.nih.gov/34041845/" target="_blank" rel="noopener noreferrer">PMID 34041845</a>。
+      清單中引用的其他原始報告：Barkal et al. 2019, <i>Nature</i>（CD24–Siglec-10；
+      <a href="https://pubmed.ncbi.nlm.nih.gov/31367043/" target="_blank" rel="noopener noreferrer">PMID 31367043</a>）；
+      Gordon et al. 2017, <i>Nature</i>（巨噬細胞上的 PD-1；
+      <a href="https://pubmed.ncbi.nlm.nih.gov/28514441/" target="_blank" rel="noopener noreferrer">PMID 28514441</a>）；
+      Barkal et al. 2018, <i>Nat Immunol</i>（MHC-I–LILRB1；
+      <a href="https://pubmed.ncbi.nlm.nih.gov/29180808/" target="_blank" rel="noopener noreferrer">PMID 29180808</a>）；
+      Chen et al. 2017, <i>Nature</i>（SLAMF7–Mac-1；
+      <a href="https://pubmed.ncbi.nlm.nih.gov/28424516/" target="_blank" rel="noopener noreferrer">PMID 28424516</a>）；
+      Balasubramanian et al. 2015, <i>Sci Signal</i>（心磷脂–CD36；
+      <a href="https://pubmed.ncbi.nlm.nih.gov/26396268/" target="_blank" rel="noopener noreferrer">PMID 26396268</a>）；
+      Chu et al. 2013, <i>Nat Cell Biol</i>（心磷脂–LC3；
+      <a href="https://pubmed.ncbi.nlm.nih.gov/24036476/" target="_blank" rel="noopener noreferrer">PMID 24036476</a>）。
+      完整任務輸出：
+      <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_eat_me_dont_eat_me_signals_08_Nov_2026.md" target="_blank" rel="noopener noreferrer">task_output_eat_me_dont_eat_me_signals_08_Nov_2026.md</a>。
+    </p>
+    <div class="chips">
+      <a href="https://graph.johnnykuo.com/#node=Phosphatidylserine">Phosphatidylserine</a>
+      <a href="https://graph.johnnykuo.com/#node=CD47">CD47</a>
+      <a href="https://graph.johnnykuo.com/#node=Calreticulin">Calreticulin</a>
+      <a href="https://graph.johnnykuo.com/#node=Efferocytosis">Efferocytosis</a>
+      <a href="https://graph.johnnykuo.com/#node=Eryptosis">Eryptosis</a>
+      <a href="https://graph.johnnykuo.com/#node=Flippase">Flippase</a>
+      <a href="https://graph.johnnykuo.com/#node=Scramblase">Scramblase</a>
+      <a href="https://graph.johnnykuo.com/#node=Apoptotic%20Bodies">Apoptotic Bodies</a>
+      <a href="https://graph.johnnykuo.com/#node=Kupffer%20Cell">Kupffer Cell</a>
+      <a href="https://graph.johnnykuo.com/#node=Cardiolipin">Cardiolipin</a>
+      <a href="https://graph.johnnykuo.com/#node=CXCL14">CXCL14</a>
+      <a href="https://graph.johnnykuo.com/#node=SIRPalpha">SIRPalpha</a>
+      <a href="https://graph.johnnykuo.com/#node=Annexin%20V">Annexin V</a>
+      <a href="https://graph.johnnykuo.com/#node=PINK1">PINK1</a>
+      <a href="https://graph.johnnykuo.com/#node=p62">p62</a>
+    </div>
+    <p style="font-size:.8rem; color:var(--mute); margin-top:14px;">
+      姊妹頁面：<a href="eryptosis.html">紅細胞凋亡 — three.js 動畫</a> ·
+      <a href="eryptosis-evidence-synthesis.html">紅細胞凋亡證據綜述</a> ·
+      <a href="apoptosis.html">細胞凋亡</a> · <a href="apoptosis-vs-necrosis.html">細胞凋亡 vs 壞死</a> ·
+      <a href="cell-death-comparison.html">細胞死亡比較</a>。
+    </p>
+  </section>
+
+  <footer class="foot">
+    <p>
+      圖表皆為客戶端繪製的 SVG/CSS，不依賴外部圖表套件；3-D 決策模型透過 CDN importmap 使用 three.js r160。
+      本頁為知識庫任務輸出與所引回顧文獻的教育性整理，全文標註證據等級，非醫療建議。除 PD-1/PD-L1
+      檢查點阻斷與合併療法中的抗 SLAMF7 elotuzumab 外，沒有任何臨床介入訊號達到 Tier 1；抗 CD47 類仍屬
+      研究階段（magrolimab 於 2024 年終止）。
+    </p>
+  </footer>
+
+</div>
+
+<script src="../themes/theme-01/pages-core.js"></script>
+<script>
+/* ============================================================
+   Shared SVG helpers. All fills/strokes resolve through CSS vars
+   (pages-article.css .s-* + page-specific classes above), so the
+   diagrams re-theme automatically with the site light/dark toggle.
+   ponytail: charts live in a classic <script> (no imports) and three.js in a
+   separate module, so the four SVG diagrams still render if the three.js CDN
+   is unavailable; no chart library, no build step, no new dependency.
+   ============================================================ */
+function svgText(x, y, str, cls, size, anchor){
+  return `<text x="${x}" y="${y}" text-anchor="${anchor||'start'}" class="${cls||'s-text'}" font-size="${size||11}">${str}</text>`;
+}
+function defs(p){
+  return `<defs>
+    <marker id="${p}E" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--green)"/></marker>
+    <marker id="${p}B" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--red)"/></marker>
+  </defs>`;
+}
+
+/* ---------- 1. Balance chart (qualitative diverging bars) ---------- */
+const balanceRows = [
+  { key:'healthy',   state:'健康活細胞',       eat:0.4, brake:4.6, outcome:'忽略', note:'PS 在內葉；CD47 · 唾液酸 · MHC-I 高' },
+  { key:'apoptotic', state:'凋亡／壓力細胞',   eat:4.5, brake:0.6, outcome:'吞噬', note:'XKR8 / TMEM16F 使 PS 外翻；CD47 下降' },
+  { key:'aged',      state:'老化紅血球',       eat:3.8, brake:0.9, outcome:'吞噬', note:'去唾液酸化＋PS 外露；CD47 流失' },
+  { key:'cancer',    state:'腫瘤（煞車↑）',     eat:2.2, brake:4.8, outcome:'逃脫', note:'CD47 · CD24 · PD-L1 上升' },
+  { key:'icd',       state:'ICD 治療腫瘤',      eat:4.8, brake:0.5, outcome:'吞噬', note:'表面鈣網蛋白＋CD47 阻斷' },
+];
+(function(){
+  const CX = 520, UNIT = 46, H = 470;
+  let s = '';
+  s += svgText(CX-250, 26, "←「別吃我」（抗吞噬）", 's-red', 11, 'start');
+  s += svgText(CX+250, 26, '「吃我」（促吞噬）→', 's-green', 11, 'end');
+  s += svgText(20, 26, '細胞狀態', 's-mute', 10, 'start');
+  s += svgText(770, 26, '結果', 's-mute', 10, 'start');
+  s += `<line x1="${CX}" y1="36" x2="${CX}" y2="${H-24}" class="axis-line"/>`;
+  balanceRows.forEach((r,i)=>{
+    const y = 62 + i*78, cy = y + 15;
+    s += `<g class="balance-row" data-state="${r.key}">`;
+    s += svgText(20, cy+4, r.state, 's-text', 12, 'start');
+    const bw = r.eat*UNIT, bl = r.brake*UNIT;
+    s += `<rect x="${CX}" y="${y}" width="${bw}" height="30" rx="4" class="bar-eat" opacity="0.82"/>`;
+    s += `<rect x="${CX-bl}" y="${y}" width="${bl}" height="30" rx="4" class="bar-brake" opacity="0.82"/>`;
+    // net diamond on its own track above the bars, so it is not read as a bar marker
+    const net = r.eat - r.brake, nx = CX + net*UNIT;
+    s += `<line x1="${CX}" y1="${y-7}" x2="${nx}" y2="${y-7}" class="grid-line"/>`;
+    s += `<path d="M${nx} ${y-13} L${nx+6} ${y-7} L${nx} ${y-1} L${nx-6} ${y-7} Z" class="${net>0?'bar-eat':'bar-brake'}" style="stroke:var(--text)" stroke-width="0.6"/>`;
+    const ok = r.outcome === '吞噬';
+    s += `<rect x="770" y="${y+2}" width="92" height="26" rx="13" class="${ok?'node-out-eat':'node-out-brake'}"/>`;
+    s += svgText(816, cy+4, r.outcome, ok?'s-green':'s-red', 11, 'middle');
+    s += svgText(770, cy+32, r.note, 's-mute', 9.5, 'start');
+    s += `</g>`;
+  });
+  s += svgText(20, H-10, '相對表現示意 — 數值僅為示意，非實測。點擊任一列可載入對應的 3-D 情境。', 's-mute', 10, 'start');
+  const svg = document.getElementById('balanceSvg');
+  svg.innerHTML = s;
+  svg.addEventListener('click', e=>{
+    const g = e.target.closest('.balance-row');
+    if (g) window.dispatchEvent(new CustomEvent('set-preset', { detail:g.dataset.state }));
+  });
+})();
+
+/* ---------- 2. Mechanism flow ---------- */
+function flowNode(x, y, w, h, lines, tone){
+  const cx = x + w/2, cy = y + h/2, n = lines.length;
+  let out = `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="9" class="${tone}"/>`;
+  lines.forEach((L,i)=>{ out += svgText(cx, cy + (i-(n-1)/2)*13 + 3.5, L, 's-text', 10.5, 'middle'); });
+  return out;
+}
+function flowArrow(x1, y, x2, cls, marker){
+  return `<line x1="${x1}" y1="${y}" x2="${x2-7}" y2="${y}" class="${cls}" marker-end="url(#${marker})"/>`;
+}
+(function(){
+  let s = defs('fl');
+  // Column band labels
+  s += svgText(20, 30, '「吃我」路徑 — 活化', 's-green', 11, 'start');
+  s += svgText(20, 182, '「別吃我」路徑 — 抑制', 's-red', 11, 'start');
+  const A = [
+    {x:20,  w:175, L:['健康細胞','PS 位於內小葉','（flippase 開）']},
+    {x:225, w:200, L:['壓力／Ca²⁺／caspase','XKR8 · TMEM16F 開','ATP11C 關']},
+    {x:455, w:185, L:['flippase 關','scramblase 開','PS 外翻']},
+    {x:670, w:160, L:['TIM-4 · BAI1','stabilin · MerTK','LRP1/CD91']},
+    {x:860, w:120, L:['吞噬','（胞葬作用）']},
+  ];
+  A.forEach(n=>{ s += flowNode(n.x, 58, n.w, 60, n.L, 'node-eat'); });
+  [[195,225],[425,455],[640,670],[830,860]].forEach(p=>{ s += flowArrow(p[0], 88, p[1], 'edge-eat', 'flE'); });
+  s += svgText(500, 154, '吞噬細胞整合兩條路徑 —「吃我」：「別吃我」比例決定結果', 's-dim', 11, 'middle');
+  s += `<line x1="20" y1="166" x2="980" y2="166" class="grid-line"/>`;
+  const B = [
+    {x:20,  w:225, L:['CD47 · CD24 · PD-L1','唾液酸 · MHC-I']},
+    {x:275, w:225, L:['SIRPα · Siglec-10 · PD-1','Siglecs · LILRB1/2 · PirB']},
+    {x:530, w:225, L:['ITIM → SHP-1/2','肌球蛋白 II 累積']},
+    {x:785, w:195, L:['不吞噬','（抑制閾值）']},
+  ];
+  B.forEach(n=>{ s += flowNode(n.x, 205, n.w, 60, n.L, 'node-brake'); });
+  [[245,275],[500,530],[755,785]].forEach(p=>{ s += flowArrow(p[0], 235, p[1], 'edge-brake', 'flB'); });
+  s += svgText(500, 300, 'PS 介導的攝入不引發發炎；DC 的耐受性攝入（體外）需 CRT＋危險訊號才會偏向適應性免疫反應。', 's-mute', 10, 'middle');
+  document.getElementById('flowSvg').innerHTML = s;
+})();
+
+/* ---------- 3. Signal → receptor → outcome wiring graph ---------- */
+const graphPairs = [
+  { sig:'磷脂醯絲胺酸（PS）', rec:'TIM-4 · BAI1 · stabilin-2 · MerTK', cls:'eat' },
+  { sig:'鈣網蛋白（表面）',    rec:'LRP1 / CD91',                       cls:'eat' },
+  { sig:'氧化磷脂',            rec:'CD36 · SR-A · LOX-1',               cls:'eat' },
+  { sig:'去唾液酸化醣鏈',      rec:'IgG → Fc 受體',                     cls:'eat' },
+  { sig:'外翻的心磷脂',        rec:'CD36（粒線體自噬為 LC3）',           cls:'eat' },
+  { sig:'補體 C1q',            rec:'CRT／CD91 共受體',                   cls:'eat' },
+  { sig:'SLAMF7',              rec:'SLAMF7 · Mac-1 (CD11b/CD18)',        cls:'eat' },
+  { sig:'CD47',                rec:'SIRPα',                               cls:'brake' },
+  { sig:'CD24',                rec:'Siglec-10',                           cls:'brake' },
+  { sig:'PD-L1',               rec:'PD-1（巨噬細胞）',                    cls:'brake' },
+  { sig:'唾液酸／多聚唾液酸',  rec:'Siglec-7 / -10 / -11',                cls:'brake' },
+  { sig:'β2M / MHC-I',         rec:'LILRB1 / LILRB2 (PirB)',              cls:'brake' },
+];
+(function(){
+  let s = defs('gr');
+  s += svgText(150, 28, '訊號', 's-mute', 10, 'middle');
+  s += svgText(490, 28, '吞噬細胞上的受體', 's-mute', 10, 'middle');
+  s += svgText(850, 28, '吞噬細胞反應', 's-mute', 10, 'middle');
+  s += svgText(150, 46, '「吃我」（促吞噬）', 's-green', 10.5, 'middle');
+  s += svgText(150, 330, '「別吃我」（抗吞噬）', 's-red', 10.5, 'middle');
+  s += `<line x1="20" y1="308" x2="980" y2="308" class="grid-line"/>`;
+  const EAT_Y = 150, BRK_Y = 448;
+  let ei = 0, bi = 0;
+  graphPairs.forEach((p)=>{
+    const y = p.cls==='eat' ? 62 + (ei++)*36 : 360 + (bi++)*44;
+    const tone = p.cls==='eat' ? 'eat' : 'brake';
+    s += flowNode(50, y-16, 200, 32, [p.sig], `node-${tone}`);
+    s += flowNode(350, y-16, 280, 32, [p.rec], `node-${tone}`);
+    const mk = tone==='eat' ? 'grE' : 'grB';
+    s += `<line x1="250" y1="${y}" x2="343" y2="${y}" class="edge-${tone}" marker-end="url(#${mk})"/>`;
+    const oy = tone==='eat' ? EAT_Y : BRK_Y;
+    s += `<path d="M630 ${y} C 680 ${y}, 680 ${oy}, 723 ${oy}" class="edge-${tone}" marker-end="url(#${mk})"/>`;
+  });
+  s += flowNode(720, EAT_Y-30, 260, 60, ['促吞噬訊號','→ 吞噬'], 'node-out-eat');
+  s += flowNode(720, BRK_Y-30, 260, 60, ['ITIM → SHP-1/2 · 阻斷吞噬','→ 不吞噬'], 'node-out-brake');
+  s += svgText(20, 592, '選自下方清單的配對。綠色＝促吞噬，紅色＝抑制性。', 's-mute', 10, 'start');
+  document.getElementById('graphSvg').innerHTML = s;
+})();
+
+/* ---------- 4. Evidence-tier chart ---------- */
+const evRows = [
+  { label:'PD-1／PD-L1 阻斷（腫瘤學）', tier:1, note:'已核准；Tier 1（T 細胞檢查點）' },
+  { label:'抗 SLAMF7／elotuzumab',      tier:1, note:'骨髓瘤已核准；NK ADCC＋ADCP' },
+  { label:'抗 CD47 類（試驗中）',        tier:2, note:'人體試驗；未核准；magrolimab 2024 終止' },
+  { label:'MHC-I／LILRB1 腫瘤攝入',      tier:3, note:'小鼠模型；Tier 3' },
+  { label:'配體生化（PS、CRT…）',        tier:4, note:'細胞實驗' },
+  { label:'CD24–Siglec-10 阻斷',         tier:4, note:'臨床前，體外' },
+];
+(function(){
+  const X0 = 330, MAXW = 340, H = 360;
+  let s = '';
+  s += svgText(10, 24, '主軸', 's-mute', 10, 'start');
+  s += svgText(X0, 24, '證據強度  →', 's-mute', 10, 'start');
+  const ticks = [ {t:5,x:X0+68}, {t:4,x:X0+136}, {t:3,x:X0+204}, {t:2,x:X0+272}, {t:1,x:X0+340} ];
+  ticks.forEach(tk=>{
+    s += `<line x1="${tk.x}" y1="34" x2="${tk.x}" y2="${H-16}" class="grid-line"/>`;
+    s += svgText(tk.x, 44, 'T'+tk.t, 's-mute', 9.5, 'middle');
+  });
+  evRows.forEach((r,i)=>{
+    const y = 60 + i*42;
+    s += svgText(10, y+16, r.label, 's-text', 11, 'start');
+    const w = (6-r.tier)/5*MAXW;
+    s += `<rect x="${X0}" y="${y+2}" width="${w}" height="20" rx="4" class="ev-t${r.tier}" opacity="0.85"/>`;
+    s += svgText(X0+w+8, y+17, r.note, 's-mute', 9.5, 'start');
+  });
+  s += svgText(10, H-4, '分級為序位，非效果量。T5＝假說 · T4＝體外 · T3＝動物 · T2＝人體試驗／關聯 · T1＝RCT／已核准。', 's-mute', 9.5, 'start');
+  document.getElementById('evidenceSvg').innerHTML = s;
+})();
+
+</script>
+<script type="module">
+/* ============================================================
+   5. three.js — interactive phagocytosis-decision model
+   ============================================================ */
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+
+const presets = {
+  healthy:   { eat:0.08, brake:0.85, desc:'健康活細胞。flippase 將 PS 留在內小葉；CD47、唾液酸與 MHC-I 主導外表面。淨訊號為負，吞噬細胞不啟動。' },
+  apoptotic: { eat:0.92, brake:0.14, desc:'凋亡或受壓細胞。caspase 驅動 XKR8 活化與 ATP11C 切割，使 PS 外翻；CD47 表現下降。比例翻向非發炎性的胞葬作用。' },
+  aged:      { eat:0.80, brake:0.18, desc:'老化紅血球。去唾液酸化暴露可結合 IgG 的醣鏈，PS 同時外翻；CD47 隨老化流失，移除煞車並加速清除。' },
+  cancer:    { eat:0.45, brake:0.95, desc:'「別吃我」過度表現的腫瘤。即使有「吃我」表現，CD47、CD24 與 PD-L1 仍拉高抑制閾值；吞噬細胞被擋在檢查點。' },
+  icd:       { eat:0.95, brake:0.08, desc:'免疫原性細胞死亡治療。蒽環類／光動力療法使表面鈣網蛋白外露，CD47 阻斷移除煞車，許可攝入。' },
+};
+let eatLevel = 0.92, brakeLevel = 0.14;
+
+const statusEl = document.getElementById('status');
+const netVal   = document.getElementById('net-val');
+const verdictEl= document.getElementById('verdict-line');
+const needle   = document.getElementById('needle');
+const descEl   = document.getElementById('state-desc');
+const signalEl = document.getElementById('stage-signal');
+const eatOut   = document.getElementById('eat-out');
+const brakeOut = document.getElementById('brake-out');
+const eatSlider= document.getElementById('eat-slider');
+const brakeSlider=document.getElementById('brake-slider');
+const presetBar= document.getElementById('preset-bar');
+let stateLabel = '胞葬作用';
+
+function updateUI(){
+  const net = eatLevel - brakeLevel;
+  let cls, txt;
+  if (net > 0.12)      { cls='pos'; txt='吞噬 · ' + stateLabel; }
+  else if (net < -0.05){ cls='neg'; txt='不吞噬 · 「別吃我」訊號佔優'; }
+  else                 { cls='mid'; txt='臨界值 · 視情境而定'; }
+  statusEl.className = 'status ' + cls;
+  statusEl.textContent = txt;
+  netVal.textContent = (net>=0?'+':'') + net.toFixed(2);
+  verdictEl.textContent = net > 0.12 ? '正值 → 吞噬' : (net < -0.05 ? '負值 → 不吞噬' : '接近臨界值');
+  needle.style.left = Math.max(1, Math.min(99, 50 + net*50)) + '%';
+  eatOut.textContent = Math.round(eatLevel*100);
+  brakeOut.textContent = Math.round(brakeLevel*100);
+  eatSlider.value = Math.round(eatLevel*100);
+  brakeSlider.value = Math.round(brakeLevel*100);
+  signalEl.textContent = eatLevel > 0.5
+    ? 'scramblase 開 · XKR8／TMEM16F · PS 位於外小葉'
+    : 'flippase 開 · ATP11C · PS 位於內小葉';
+  setMarkers();
+}
+function setPreset(key){
+  const p = presets[key];
+  eatLevel = p.eat; brakeLevel = p.brake;
+  descEl.textContent = p.desc;
+  stateLabel = (key === 'apoptotic' || key === 'aged') ? '胞葬作用' : '吞噬作用';
+  Array.from(presetBar.children).forEach(b=>b.classList.toggle('is-on', b.dataset.preset===key));
+  document.querySelectorAll('#balanceSvg .balance-row').forEach(g=>g.classList.toggle('is-on', g.dataset.state===key));
+  updateUI();
+}
+presetBar.addEventListener('click', e=>{
+  const b = e.target.closest('.preset'); if (b) setPreset(b.dataset.preset);
+});
+window.addEventListener('set-preset', e=>setPreset(e.detail));
+function onSlider(){
+  eatLevel = +eatSlider.value/100; brakeLevel = +brakeSlider.value/100;
+  descEl.textContent = '自訂比例。「吃我」與「別吃我」表現各自獨立設定；結果取決於兩者之差。數值僅為示意，非實測。';
+  stateLabel = '吞噬作用';
+  Array.from(presetBar.children).forEach(b=>b.classList.remove('is-on'));
+  document.querySelectorAll('#balanceSvg .balance-row').forEach(g=>g.classList.remove('is-on'));
+  updateUI();
+}
+eatSlider.addEventListener('input', onSlider);
+brakeSlider.addEventListener('input', onSlider);
+
+/* ---- WebGL scene ---- */
+const canvas = document.getElementById('signal-canvas');
+const fallback = document.getElementById('stage-fallback');
+let renderer, scene, camera, controls;
+let membrane, phago, armA, armB, body, phagosome, synapse, stream, streamGeo, streamSeed, nubs, world;
+let eatKnobs = [], brakeKnobs = [], ghostKnobs = [], N = 0;
+let engage = 0, want = 0;
+
+try {
+  renderer = new THREE.WebGLRenderer({ canvas, antialias:true, alpha:true });
+} catch (err) {
+  fallback.textContent = '此瀏覽器無法使用 WebGL；下方的圖表、關係圖與清單仍可閱讀。';
+  throw err; // charts above already rendered; stop the module here
+}
+fallback.style.display = 'none';
+renderer.setClearColor(0x000000, 0);   // let the CSS stage gradient show through
+renderer.setPixelRatio(Math.min(window.devicePixelRatio||1, 2));
+canvas.addEventListener('webglcontextlost', e=>{ e.preventDefault(); fallback.style.display='flex'; });
+scene = new THREE.Scene();
+world = new THREE.Group(); scene.add(world);   // ponytail: rotate the specimen, not the camera, so the pair stays framed
+scene.fog = new THREE.Fog(0x0e1420, 9, 24);
+camera = new THREE.PerspectiveCamera(42, 1, 0.1, 100);
+camera.position.set(0, 2.1, 10.2);
+controls = new OrbitControls(camera, canvas);
+controls.enableDamping = true; controls.dampingFactor = 0.08;
+controls.enablePan = false; controls.minDistance = 6; controls.maxDistance = 16;
+controls.target.set(0, 0, 0);
+const motionQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
+let paused = motionQuery.matches;
+controls.autoRotate = false;
+motionQuery.addEventListener('change', e=>{ paused = e.matches; syncToggle(); });
+
+scene.add(new THREE.AmbientLight(0xffffff, 0.7));
+const key = new THREE.DirectionalLight(0xffffff, 1.5); key.position.set(5,7,8); scene.add(key);
+const rim = new THREE.DirectionalLight(0x66ccff, 0.6); rim.position.set(-6,-3,-5); scene.add(rim);
+const warm = new THREE.PointLight(0xffb070, 0.45); warm.position.set(2,1,4); scene.add(warm);
+
+const dust = new THREE.Points(
+  new THREE.BufferGeometry().setAttribute('position', new THREE.BufferAttribute(Float32Array.from({length:180*3},(_,i)=>
+    i%3===2 ? (Math.random()-0.5)*16-3 : (Math.random()-0.5)*16),3)),
+  new THREE.PointsMaterial({ color:0x3b4a63, size:0.035, transparent:true, opacity:0.6 }));
+scene.add(dust);
+
+/* Target cell — green eat-me markers migrate from inner to outer leaflet as eat-me display rises */
+const target = new THREE.Group();
+target.position.set(-2.2, 0, 0);
+world.add(target);
+membrane = new THREE.Mesh(
+  new THREE.SphereGeometry(1.25, 48, 32),
+  new THREE.MeshStandardMaterial({ color:0x9fb4c9, roughness:0.55, metalness:0.05, transparent:true, opacity:0.62, emissive:0x0a1420, emissiveIntensity:0.4 }));
+target.add(membrane);
+target.add(new THREE.Mesh(
+  new THREE.SphereGeometry(0.55, 28, 20),
+  new THREE.MeshStandardMaterial({ color:0x5f79a8, roughness:0.6, emissive:0x101a30, emissiveIntensity:0.5, transparent:true, opacity:0.9 })));
+
+function fib(n, offset){
+  const pts = [], ga = Math.PI*(3-Math.sqrt(5));
+  for (let i=0;i<n;i++){
+    const y = 1 - ((i+0.5)/n)*2, r = Math.sqrt(Math.max(0,1-y*y)), th = ga*i + offset;
+    pts.push(new THREE.Vector3(Math.cos(th)*r, y, Math.sin(th)*r));
+  }
+  return pts;
+}
+function spread(n){
+  return Array.from({length:n},(_,i)=>i).sort((a,b)=>((a*37)%n)-((b*37)%n));
+}
+N = 46;
+// ponytail: four shapes share two materials — ligand identity stays legible without extra meshes
+const markerGeo = {
+  ps:  new THREE.SphereGeometry(0.075, 10, 8),
+  crt: new THREE.ConeGeometry(0.075, 0.16, 8),
+  cd47:new THREE.CylinderGeometry(0.045, 0.045, 0.16, 8),
+  sia: new THREE.OctahedronGeometry(0.085, 0)
+};
+const stalkGeo = new THREE.CylinderGeometry(0.018, 0.018, 0.16, 6);
+const eatMat   = new THREE.MeshStandardMaterial({ color:0x35d07f, emissive:0x0e6b3d, emissiveIntensity:0.85, roughness:0.4 });
+const brakeMat = new THREE.MeshStandardMaterial({ color:0xff5d63, emissive:0x8a1520, emissiveIntensity:0.85, roughness:0.4 });
+const stalkEat = new THREE.MeshStandardMaterial({ color:0x2aa866, emissive:0x0e6b3d, emissiveIntensity:0.6 });
+const stalkBrk = new THREE.MeshStandardMaterial({ color:0xd8424a, emissive:0x8a1520, emissiveIntensity:0.6 });
+function makeMarker(p, km, sm, geo){
+  const g = new THREE.Group();
+  const q = new THREE.Quaternion().setFromUnitVectors(new THREE.Vector3(0,1,0), p.clone().normalize());
+  const stalk = new THREE.Mesh(stalkGeo, sm);
+  stalk.position.copy(p.clone().multiplyScalar(1.30)); stalk.quaternion.copy(q);
+  const knob = new THREE.Mesh(geo, km);
+  knob.position.copy(p.clone().multiplyScalar(1.40)); knob.quaternion.copy(q);
+  g.add(stalk, knob);
+  g.userData = { p, stalk, knob };
+  return g;
+}
+const eatPts = fib(N, 0), brakePts = fib(N, Math.PI);
+const ghostMat = new THREE.MeshBasicMaterial({ color:0x2aa866, transparent:true, opacity:0.35 });
+eatPts.forEach((p,i)=>{ const m=makeMarker(p, eatMat, stalkEat, i<N/2?markerGeo.ps:markerGeo.crt); target.add(m); eatKnobs.push(m); });
+brakePts.forEach((p,i)=>{ const m=makeMarker(p, brakeMat, stalkBrk, i<N/2?markerGeo.cd47:markerGeo.sia); target.add(m); brakeKnobs.push(m); });
+eatPts.forEach((p)=>{ const g=new THREE.Mesh(markerGeo.ps, ghostMat); g.position.copy(p).multiplyScalar(1.0); target.add(g); ghostKnobs.push(g); });
+const eatOrder = spread(N), brakeOrder = spread(N);
+function setMarkers(){
+  const ne = Math.round(eatLevel*N), nb = Math.round(brakeLevel*N);
+  const ve = new Set(eatOrder.slice(0,ne)), vb = new Set(brakeOrder.slice(0,nb));
+  const r = 0.95 + 0.45*eatLevel;   // inner leaflet → outer leaflet
+  eatKnobs.forEach((m,i)=>{
+    m.visible = ve.has(i);
+    const { p, stalk, knob } = m.userData;
+    stalk.position.copy(p).multiplyScalar(r - 0.10);
+    knob.position.copy(p).multiplyScalar(r);
+  });
+  brakeKnobs.forEach((m,i)=>m.visible = vb.has(i));
+  // ponytail: inner-leaflet PS ghosts fade as eat-me rises (cap 12, schematic pool)
+  const ng = Math.min(12, N - ne);
+  ghostKnobs.forEach((g,i)=>{ g.visible = i < ng; });
+  ghostMat.opacity = 0.35 * Math.max(0, 1 - eatLevel);
+}
+
+/* Phagocyte (macrophage) */
+phago = new THREE.Group();
+phago.position.set(4.65, 0, 0);
+world.add(phago);
+body = new THREE.Mesh(
+  new THREE.SphereGeometry(2.15, 40, 28),
+  new THREE.MeshStandardMaterial({ color:0x4a6fa5, roughness:0.5, transparent:true, opacity:0.26, emissive:0x0a1830, emissiveIntensity:0.4, side:THREE.DoubleSide }));
+phago.add(body);
+const pNuc = new THREE.Mesh(
+  new THREE.SphereGeometry(0.8, 24, 18),
+  new THREE.MeshStandardMaterial({ color:0x2c4a7a, roughness:0.6, transparent:true, opacity:0.7, emissive:0x0a1830, emissiveIntensity:0.5 }));
+pNuc.position.set(0.5, 0.2, 0); phago.add(pNuc);
+const armGeo = new THREE.CylinderGeometry(0.0, 0.34, 1, 12);
+const armMat = new THREE.MeshStandardMaterial({ color:0x5c82bd, roughness:0.5, transparent:true, opacity:0.55, emissive:0x0e2547, emissiveIntensity:0.4 });
+function makeArm(y){
+  const a = new THREE.Mesh(armGeo, armMat);
+  a.rotation.z = Math.PI/2; a.position.set(-1.2, y, 0); phago.add(a); return a;
+}
+armA = makeArm(0.65); armB = makeArm(-0.65);
+
+/* Phagosome matches target radius; it is positioned at the target each frame and
+   cross-fades in as the target is drawn inside the phagocyte (no shrink-collapse). */
+phagosome = new THREE.Mesh(
+  new THREE.SphereGeometry(1.25, 32, 22),
+  new THREE.MeshStandardMaterial({ color:0x9fb4c9, emissive:0x2aa866, emissiveIntensity:0.5, transparent:true, opacity:0 }));
+phagosome.position.set(-2.2, 0, 0); world.add(phagosome);
+
+synapse = new THREE.Mesh(
+  new THREE.TorusGeometry(0.5, 0.035, 8, 40),
+  new THREE.MeshBasicMaterial({ color:0x35d07f, transparent:true, opacity:0 }));
+synapse.rotation.y = Math.PI/2; world.add(synapse);
+
+// Activating and inhibitory receptors coexist on the phagocyte; they are not
+// alternative states. Green nubs = TIM-4/MerTK-like, red = SIRPα/Siglec-like.
+const nubGeo = new THREE.SphereGeometry(0.07, 10, 8);
+nubs = [];
+[[-0.25,'eat'],[0.25,'eat'],[-0.55,'brake'],[0.55,'brake']].forEach(([yy,kind])=>{
+  const n = new THREE.Mesh(nubGeo, new THREE.MeshBasicMaterial({ color: kind==='eat'?0x35d07f:0xff5d63, transparent:true, opacity:0 }));
+  n.position.set(-2.05, yy, 0.15); n.userData.kind = kind; phago.add(n); nubs.push(n);
+});
+function makeContacts(color){
+  const g = new THREE.BufferGeometry();
+  g.setAttribute('position', new THREE.BufferAttribute(new Float32Array(2*2*3), 3));
+  const l = new THREE.LineSegments(g, new THREE.LineBasicMaterial({ color, transparent:true, opacity:0 }));
+  world.add(l); return [l, g];
+}
+const [contactsEat, contactGeoEat] = makeContacts(0x9fe8c0);
+const [contactsBrake, contactGeoBrake] = makeContacts(0xff9a9e);
+
+/* Find-me cues diffuse outward from the target (halo), they are not a beam. */
+const haloDirs = fib(36, 0.7);
+streamSeed = haloDirs.map((d,i)=>({ dir:d, off:(i%9)/9 }));
+streamGeo = new THREE.BufferGeometry();
+streamGeo.setAttribute('position', new THREE.BufferAttribute(new Float32Array(streamSeed.length*3), 3));
+stream = new THREE.Points(streamGeo, new THREE.PointsMaterial({ color:0x7fd4ff, size:0.05, transparent:true, opacity:0 }));
+world.add(stream);
+
+const toggle = document.getElementById('anim-toggle');
+function syncToggle(){ toggle.textContent = paused ? '▶ 繼續旋轉' : '⏸ 暫停旋轉'; }
+toggle.addEventListener('click', ()=>{ paused = !paused; syncToggle(); });
+syncToggle();
+document.getElementById('replay-btn').addEventListener('click', ()=>{ engage = 0; });
+
+function fit(){
+  const w = canvas.clientWidth, h = canvas.clientHeight;
+  if (!w || !h) return;
+  renderer.setSize(w, h, false);
+  camera.aspect = w/h; camera.updateProjectionMatrix();
+}
+new ResizeObserver(fit).observe(document.getElementById('stage'));
+fit();
+
+setPreset('apoptotic');
+
+let stageVisible = true;
+new IntersectionObserver(en=>{ stageVisible = en[0].isIntersecting; }).observe(document.getElementById('stage'));
+
+function animate(){
+  requestAnimationFrame(animate);
+  if (!stageVisible) return;   // off-screen: skip render, keep rAF alive
+  const t = performance.now()*0.001;
+  const net = eatLevel - brakeLevel;
+  want = net > 0.12 ? 1 : (net < -0.05 ? 0 : 0.5);
+  engage += (want - engage) * 0.028;
+  if (paused) engage = want;            // reduced motion: snap, no transition
+  const p = engage;
+  const brake = want === 0;
+
+  // four stages: chemotaxis → contact/tasting → cup formation → internalization
+  const a = Math.min(1, p/0.35);
+  const b = Math.min(1, Math.max(0, (p-0.35)/0.25));
+  const c = Math.min(1, Math.max(0, (p-0.6)/0.25));
+  const d = Math.min(1, Math.max(0, (p-0.85)/0.15));
+  // ponytail: don't-eat-me blocks cup closure, not approach — transient tasting
+  // contact under brake dominance (approach → red pulse → retract), not parking.
+  const brakeProbe = brake ? (paused ? 0.72 : 0.45 + 0.35*Math.sin(t*1.1)) : 0;
+  const aEff = Math.max(a, brakeProbe), bEff = Math.max(b, brakeProbe*0.4);
+  const contact = Math.max(bEff, brakeProbe) * (1-c) * (1-d);
+
+  phago.position.x = 4.65 - 3.2*aEff;   // contact at 1.45: centre gap 3.65 (1.25+2.15+0.25 gap)
+  phago.position.y = paused ? 0 : 0.06*Math.sin(t*1.6)*(1-aEff);
+  target.position.x = -2.2 + 1.6*c + 0.4*d;   // drawn into the phagocyte, kept intact
+  armA.scale.y = armB.scale.y = 0.5 + 1.8*bEff;
+  armA.position.x = armB.position.x = -1.2 - 0.7*bEff;
+  armA.rotation.z = Math.PI/2 + 0.45*c;
+  armB.rotation.z = Math.PI/2 - 0.45*c;
+  body.material.opacity = 0.26 + 0.18*aEff + 0.10*c;
+
+  // phagosome cross-fade at full target size; hide the exterior target once inside
+  phagosome.position.copy(target.position);
+  phagosome.visible = d > 0.01;
+  phagosome.material.opacity = 0.85*d;
+  target.visible = d < 0.6;
+
+  // synapse anchored to the moving contact plane, radius closing with the cup
+  synapse.position.set(target.position.x + 1.25, 0, 0);
+  synapse.scale.setScalar(Math.max(0.2, 1 - 0.6*c));
+  synapse.material.color.setHex(brake ? 0xff5d63 : 0x35d07f);
+  synapse.material.opacity = brake
+    ? 0.25 + 0.5*brakeProbe
+    : 0.15 + 0.55*b;
+
+  // receptor nubs + ligand→receptor bonds, weighted by each signal class
+  nubs.forEach(n=>{ n.material.opacity = (n.userData.kind==='eat' ? 0.25+0.75*eatLevel : 0.25+0.75*brakeLevel) * contact; });
+  const surfT = target.position.x + 1.25, surfP = phago.position.x - 2.15;
+  [[contactGeoEat, [-0.25, 0.25]], [contactGeoBrake, [-0.55, 0.55]]].forEach(([geo, ys])=>{
+    const cp = geo.attributes.position.array;
+    ys.forEach((yy,i)=>{
+      cp[i*6+0] = surfT; cp[i*6+1] = yy; cp[i*6+2] = 0.15;
+      cp[i*6+3] = surfP; cp[i*6+4] = yy; cp[i*6+5] = 0.15;
+    });
+    geo.attributes.position.needsUpdate = true;
+  });
+  contactsEat.material.opacity = contact * (0.2 + 0.8*eatLevel);
+  contactsBrake.material.opacity = contact * (0.2 + 0.8*brakeLevel);
+
+  // find-me halo: particles diffuse outward from the target, strongest during
+  // chemotaxis, independent of the eat/brake verdict (recruitment ≠ engulfment)
+  stream.material.opacity = paused ? 0.35 : 0.55*(1 - 0.5*aEff);
+  const sp = streamGeo.attributes.position.array;
+  for (let i=0;i<streamSeed.length;i++){
+    const s = streamSeed[i], q = paused ? s.off : (s.off + t*0.12) % 1;
+    const r = 1.5 + 0.9*q;
+    sp[i*3]   = target.position.x + s.dir.x*r;
+    sp[i*3+1] = s.dir.y*r;
+    sp[i*3+2] = s.dir.z*r;
+  }
+  streamGeo.attributes.position.needsUpdate = true;
+
+  membrane.material.emissiveIntensity = paused ? 0.35 : 0.35 + 0.15*Math.sin(t*1.4);
+  if (!paused) world.rotation.y += 0.0015;
+  controls.update();
+  renderer.render(scene, camera);
+}
+animate();
+</script>
+</body>
+</html>

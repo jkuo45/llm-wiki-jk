@@ -2,7 +2,7 @@
 title: SIRT3
 description: SIRT3 (Sirtuin 3) 是主要定位於粒線體內的 NAD+-依賴性去乙醯化酶。
 created: 2026-07-04
-updated: 2026-09-29
+updated: 2026-11-10
 tags:
   - enzyme
   - nad-plus
@@ -49,7 +49,7 @@ SIRT3 同時具有：
 
 ## 次細胞定位
 
-**粒線體（主要）**——與[[SIRT4]]、[[SIRT5]]一樣，SIRT3 是三大粒線體 sirtuin 之一。具活性的 **28 kDa 短異構型**（由基質加工肽酶切割 44 kDa 前驅物產生）特異性定位於**粒線體基質**。然而 **44 kDa 長異構型**也被發現存在於細胞核與細胞質中，其運輸歸屬仍有爭議（見[[#時序調節]]）。
+**粒線體（主要）**——與[[SIRT4]]、[[SIRT5]]一樣，SIRT3 是三大粒線體 sirtuin 之一。具活性的 **28 kDa 短異構型**（由基質加工肽酶切割 44 kDa 前驅物產生）特異性定位於**粒線體基質**。然而 **44 kDa 長異構型**也被發現存在於細胞核與細胞質中，其運輸歸屬仍有爭議（見[[#Spatiotemporal Regulation]]）。
 
 ## 時序調節
 
@@ -315,6 +315,9 @@ SIRT3 透過產生[[OAADPr]]，可能與[[SIRT2]]共同調節 **TRPM2** 離子�
 - 缺失 → 核板相關域（LAD）脫離、染色質可及性增加、重複序列異常轉錄 → 人類 MSC 的衰老表型。
 
 ## 文件
+
+- [[_document_ - Sirtuins at a glance|Sirtuins at a Glance (Nakagawa & Guarente 2011)]]
+  - *J. Cell Sci.* Cell Science at a Glance: sirtuin core-domain architecture, NAD+ biosynthesis/circadian (NAMPT, CLOCK:BMAL1) regulation, and SIRT1 across chromatin, metabolism, inflammation, cardiovascular, cancer and brain — this note's primary 2011 survey source.
 
 提及此實體的文件列表
 

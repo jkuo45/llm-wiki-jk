@@ -3638,5 +3638,19 @@
     "source_document": "_document_ - Autophagy and intermittent fasting the connection for cancer therapy?.md",
     "created": "2026-09-04T17:22:34Z",
     "updated": "2026-09-29T18:36:32Z"
+  },
+  {
+    "id": "b7e9ee807b9a",
+    "subject": "Nucleophagy",
+    "predicate": "degrades",
+    "object": "Nuclear Envelope",
+    "context": {
+      "en-US": "Nucleophagy is the selective autophagy of nuclear material, delivering patches of nuclear envelope, nucleoplasmic protein aggregates or the organelle itself to autophagosomes for lysosomal turnover. It requires cargo receptors such as NIX, BNIP3/BNIP3L and FUNDC1, whose LIR motifs bind LC3 on the autophagosomal membrane; the nuclear envelope, continuous with the endoplasmic reticulum, is degraded by the same ER-phagy machinery.",
+      "zh-TW": "Nucleophagy 降解 Nuclear Envelope：Nucleophagy 是針對核內物質的選擇性 Autophagy，將 Nuclear Envelope 片段、核質蛋白聚集物或整個胞器送入 Autophagosome 進行溶酶體降解。它需要 NIX、BNIP3/BNIP3L、FUNDC1 等貨物受體，其 LIR Motif 結合 Autophagosome 膜上的 LC3；與 Endoplasmic Reticulum 連續的 Nuclear Envelope 由相同的 ER-phagy 機器降解。"
+    },
+    "confidence": 0.9,
+    "source_document": "Nucleophagy.md",
+    "created": "2026-11-10T16:49:16Z",
+    "updated": "2026-11-10T16:49:16Z"
   }
 ]

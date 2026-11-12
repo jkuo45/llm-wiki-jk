@@ -4,7 +4,7 @@ description: Urolithin A is a postbiotic metabolite derived from ellagitannins
   (found in pomegranates and nuts) that has been shown to induce mitophagy and improve
   muscle function and longevity in various m...
 created: 2024-01-01
-updated: 2026-10-01
+updated: 2026-11-11
 tags:
   - chemical-compound
 aliases: []
@@ -34,6 +34,9 @@ Urolithin A's mitophagy-activating mechanism positions it as a complementary age
 
 In the Rzeski four-compound framework ([[_document_ - Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A]]), [[Urolithin A]] is the selective-[[Mitophagy]] arm ([[PINK1]]/[[Parkin]]), non-redundant with [[Spermidine]] bulk [[Autophagy]]: impaired mitophagy drives ROS and cGAS-[[STING]] inflammation even when general autophagy is intact. ATLAS RCT: +~12% hamstring strength at 500 mg/d; 1000 mg/d adds OXPHOS/mtDNA gains; 2025 *Nat Aging* RCT shows naive-T/TSCM expansion. Direct supplementation (Tmax 4–6 h, t½ ~20 h, once-daily) bypasses metabotype B/0 non-conversion; ellagitannin foods serve only Metabotype A (~25–55%). Only registered combo trial: NCT06990256 (UA 300 mg + [[Fisetin]] 200 mg arm). Regulatory: FDA GRAS 2018, EU novel-food pending — most advanced of the four.
 
+> [!info] Source: [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026]]
+> In a randomized trial of 66 older adults, urolithin A improved muscle endurance at 2 months and altered selected plasma biomarkers, but between-group differences in the primary outcomes (6-minute walk distance, maximal ATP production) were not statistically significant; the findings do not establish slowing of ageing or mitophagy mediation.
+
 ## Documents
 
 List of documents that mention this entity
@@ -50,6 +53,7 @@ List of documents that mention this entity
 
   - [[_document_ - Natural Bioactive Compounds Spermidine Fisetin Berberine Urolithin A]]
     - Positions Urolithin A as the selective-mitophagy (PINK1/Parkin) arm of a four-compound stack; ATLAS strength data, metabotype-stratified delivery, NCT06990256 combo trial, GRAS/EU status.
+- [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026 — Mitochondrial dysfunction and inflammaging]]: Reports the randomized trial showing improved muscle endurance but null primary 6-min walk/ATP outcomes.
 
 ## Connections
 - [[_document_ - Mitohormetic Redox-Relay]] — interacts with Urolithin A

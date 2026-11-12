@@ -3,7 +3,7 @@ title: SIRT1
 description: Sirt1 是一種 NAD+-依賴性第 III 類組蛋白去乙醯化酶（sirtuin），也是 Sirtuins 家族中被研究最廣泛的成員。它將細胞能量狀態與染色質調節、壓力抗性與代謝恆定聯繫起來，...
 aliases: [Sirt1, SIRT1 (feedback inhibition), SIRT1 knockout mice, SIRT1 (dendritic cells), SIRT1 (activated by resveratrol)]
 created: 2026-07-06
-updated: 2026-09-30
+updated: 2026-11-10
 protected: true
 tags:
   - gene
@@ -316,6 +316,9 @@ SIRT1 透過多重軸線促進粒線體健康：(i) 去乙醯化[[PGC-1α]]驅�
 - 由於 SIRT1 活性受 NAD⁺ 閘控，雄性由 PARP 驅動的 NAD⁺ 下降與雌性停經後的 sirtuin 樞紐崩解，會收斂到相同的下游缺陷（FOXO/MnSOD 抗氧化程式受損、NF-κB 發炎失控），儘管兩者源自相反的性別荷爾蒙邏輯——見[[NAD+]]與[[NF-κB]]中的統一框架。
 
 ## 文件
+
+- [[_document_ - Sirtuins at a glance|Sirtuins at a Glance (Nakagawa & Guarente 2011)]]
+  - *J. Cell Sci.* Cell Science at a Glance: sirtuin core-domain architecture, NAD+ biosynthesis/circadian (NAMPT, CLOCK:BMAL1) regulation, and SIRT1 across chromatin, metabolism, inflammation, cardiovascular, cancer and brain — this note's primary 2011 survey source.
 
 提及此實體的文件列表
 

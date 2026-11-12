@@ -4,7 +4,7 @@ description: Mitophagy is a specialized form of Selective Autophagy that targets
   damaged or dysfunctional Mitochondria for degradation. It is a critical quality
   control mechanism for maintaining mitochondri...
 created: 2024-01-01
-updated: 2026-07-26
+updated: 2026-11-11
 tags:
   - biological-process
   - mitochondria
@@ -45,9 +45,10 @@ Mitophagy efficiency declines with age, contributing to the accumulation of dysf
 [[Adrenochrome]] and related aminochromes are mitochondrial toxins that directly compromise the organelle they trigger removal of. Adrenochrome undergoes redox cycling at Complex I of the electron transport chain, generating superoxide and consuming NADH. This leads to mitochondrial depolarization — precisely the signal that activates the Pink1/Parkin mitophagy pathway. Sustained adrenochrome exposure may exhaust mitophagic capacity, creating a scenario where damaged mitochondria accumulate and amplify ROS production. This mitophagy-impairment feedback loop is a plausible mechanism linking catecholamine oxidation to the mitochondrial dysfunction observed in aging, neurodegeneration, and cardiovascular disease. The interplay between [[Adrenochrome Pathway]] activity and mitophagy competence represents a critical nexus for therapeutic intervention.
 
 
-#
 
-# 
+
+> [!info] Source: [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026]]
+> Effective mitophagic clearance requires completion of lysosomal degradation — impaired acidification or proteolytic activity can limit turnover despite upstream [[PINK1]]–[[Parkin]] signalling. Increased autophagy-marker abundance should not be equated with increased degradative flux. Mitophagic clearance restrains [[NLRP3]] inflammasome activation, and [[Mitochondrial-Derived Vesicles|mitochondrial-derived vesicles]] provide an additional cargo-disposal route.
 
 ## Documents
 
@@ -82,6 +83,7 @@ List of documents that mention this entity
 
   - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
     - It was reported that Mitophagy/autophagy blockade leads to the accumulation of damaged mitochondria generating ROS, and this in turn activates the NLRP3. For instance, a study carried out by Zhao et al.
+- [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026 — Mitochondrial dysfunction and inflammaging]]: Adds the lysosomal-degradation caveat, mitophagy restraint of NLRP3, and mitochondrial-derived vesicles as a parallel disposal route.
 
 
 ## Connections

@@ -2,7 +2,7 @@
 title: TLR9
 description: Endosomal Toll-like receptor that senses unmethylated CpG DNA and modulates cGAS expression in a context-dependent manner.
 created: 2026-07-13
-updated: 2026-10-08
+updated: 2026-11-11
 tags: [protein, receptor, innate-immunity]
 aliases: [Toll-Like Receptor 9]
 ---
@@ -30,12 +30,16 @@ TLR9 is also expressed on intact [[Erythrocytes|Erythrocytes]] — a rare exampl
 > Pioneering work (Lam et al.) showed erythrocyte TLR9 binding bacterial and plasmodial cell-free DNA as well as synthetic CpG DNA. The erythrocyte output is not cytokine production but altered cell fate: activation of erythrophagocytosis and enhancement of the innate immune response, converging on the same clearance route as [[Eryptosis]]-driven [[Phosphatidylserine]] exposure. Plasmodial DNA release therefore connects red-cell TLR9 to [[Malaria]] biology.
 
 
+> [!info] Source: [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026]]
+> TLR9 recognizes unmethylated CpG-rich DNA motifs and can respond to released [[Mitochondrial DNA|mtDNA]] in inflammatory and tissue-damage settings; it forms an interconnected sensing network with [[cGAS-STING Pathway|cGAS–STING]], [[NLRP3]], and [[Formyl Peptide Receptor|formyl peptide receptors]].
+
 ## Documents
 
   - [[_document_ - Current understanding of eryptosis mechanisms, physiological functions, role in disease, pharmacological applications, and nomenclature recommendations|Tkachenko et al. 2025 eryptosis review]]
     - Erythrocyte TLR9 binds bacterial and plasmodial cell-free DNA and synthetic CpG, activating erythrophagocytosis.
   - [[_document_ - JCI -Expanding roles of cGAS-STING signaling in neuroinflammation|JCI cGAS-STING in Neuroinflammation]]
     - The review lists TLR9 among DNA-sensing PRRs and notes it senses DNA in endosomes/lysosomes. It describes TLR9 upregulating cGAS in retinal pigment epithelium and being downregulated (protective) in the AD CNS.
+- [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026 — Mitochondrial dysfunction and inflammaging]]: Adds mtDNA as a TLR9 ligand and places TLR9 within the interconnected mitochondrial-DAMP sensing network.
 
 ## Connections
 

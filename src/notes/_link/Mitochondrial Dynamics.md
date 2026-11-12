@@ -4,7 +4,7 @@ description: Mitochondrial dynamics refers to the continuous processes of mitoch
   fusion and mitochondrial fission that regulate mitochondrial morphology, number,
   and function within a cell.
 created: 2026-07-04
-updated: 2026-07-25
+updated: 2026-11-11
 tags:
   - biological-process
   - mitochondria
@@ -65,6 +65,9 @@ Mild mitochondrial stress induces adaptive changes in dynamics that contribute t
 
 Aging is consistently associated with a shift toward mitochondrial fragmentation (increased fission, decreased fusion), driven by declining OPA1 and MFN2 expression, increased OMA1 activity, and DRP1 hyperactivation. This fragmented phenotype correlates with reduced respiration, increased ROS, impaired calcium buffering, and elevated mitophagy burden. In [[Neurodegeneration]], mutations in OPA1 cause dominant optic atrophy, while MFN2 mutations cause Charcot-Marie-Tooth disease type 2A. In [[Parkinson's Disease]], Parkin-mediated ubiquitination of MFN1/2 links mitophagy failure directly to dynamics dysregulation. Cardiac ischemia-reperfusion injury triggers DRP1-dependent fragmentation that exacerbates [[Cardiotoxicity]], and inhibiting DRP1 with [[Mdivi-1]] is cardioprotective in preclinical models.
 
+> [!info] Source: [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026]]
+> Sustained abnormalities in mitochondrial dynamics are sufficient to induce senescence-associated phenotypes, linking structural derangement to persistent cell-cycle arrest and stress signalling; [[Mitochondrial Fusion|fusion]] and [[Mitochondrial Fission|fission]] also determine whether damaged components are segregated for [[Mitophagy|mitophagy]].
+
 ## Documents
 
 List of documents that mention this entity
@@ -77,6 +80,7 @@ List of documents that mention this entity
 
   - [[_document_ - The role of mitochondrial dynamics in disease]]
     - Comprehensive review of mitochondrial dynamics (fusion, fission, mitophagy) and their roles in CVD, neurodegeneration, cancer, and pulmonary disease. Covers context-dependent roles of key regulators (DRP1, MFN1/2, OPA1, PINK1/Parkin) and therapeutic targeting.
+- [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026 — Mitochondrial dysfunction and inflammaging]]: States that sustained dynamics abnormalities are sufficient to induce senescence-associated phenotypes.
 
 ## Connections
 

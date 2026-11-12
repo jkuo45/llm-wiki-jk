@@ -15244,5 +15244,383 @@
     "source_document": "SIRT6.md",
     "created": "2026-09-02T06:00:00Z",
     "updated": "2026-09-02T06:00:00Z"
+  },
+  {
+    "id": "e74dc1a9743d",
+    "subject": "Sirtuins",
+    "predicate": "share",
+    "object": "Sirtuin core domain (NAD-binding and catalytic)",
+    "context": {
+      "en-US": "All mammalian sirtuins (SIRT1-7) share a conserved NAD-binding and catalytic domain (the sirtuin core), while differing in N- and C-terminal domains that determine substrates, compartment, and function. Directionally, the core domain is common; the variable termini confer specificity.",
+      "zh-TW": "所有哺乳動物 sirtuin（SIRT1-7）共享保守的 NAD 結合與催化結構域（sirtuin 核心），但在 N 端與 C 端結構域上有所不同，後者決定受質、區室與功能。在方向性上，核心結構域相同；可變末端賦予特異性。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Sirtuins at a glance.md",
+    "created": "2026-11-10T00:00:00Z",
+    "updated": "2026-11-10T00:00:00Z"
+  },
+  {
+    "id": "2be11672b869",
+    "subject": "SIRT4",
+    "predicate": "exhibits_only",
+    "object": "ADP-ribosyltransferase activity",
+    "context": {
+      "en-US": "SIRT4 has only ADP-ribosyltransferase (mono-ADP-ribosyltransferase) activity and no detectable deacetylase activity, unlike most sirtuins. Directionally, SIRT4 is specialized for ADP-ribosylation rather than deacetylation, exemplified by its inhibition of glutamate dehydrogenase.",
+      "zh-TW": "SIRT4 只有 ADP-核糖基轉移酶活性，而無可偵測的去乙醯酶活性。方向性上 SIRT4 專精於 ADP-核糖基化而非去乙醯化，例如抑制穀氨酸脫氫酶。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - Sirtuins at a glance.md",
+    "created": "2026-11-10T00:00:00Z",
+    "updated": "2026-11-10T00:00:00Z"
+  },
+  {
+    "id": "34f9fa7c46ef",
+    "subject": "SIRT1 and SIRT6",
+    "predicate": "have_both",
+    "object": "Deacetylase and weak ADP-ribosyltransferase activity",
+    "context": {
+      "en-US": "SIRT1 and SIRT6 each possess both deacetylase and relatively weak ADP-ribosyltransferase activities, intermediate between SIRT4 (transferase only) and most other sirtuins (deacetylase only).",
+      "zh-TW": "SIRT1 與 SIRT6 同時具有去乙醯酶與相對較弱的 ADP-核糖基轉移酶活性，介於 SIRT4（僅轉移酶）與其他多數 sirtuin（僅去乙醯酶）之間。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins at a glance.md",
+    "created": "2026-11-10T00:00:00Z",
+    "updated": "2026-11-10T00:00:00Z"
+  },
+  {
+    "id": "16ee24c0dcf0",
+    "subject": "NAMPT",
+    "predicate": "mediates_in_a",
+    "object": "SIRT6-dependent TNFα production",
+    "context": {
+      "en-US": "Nampt-mediated NAD biosynthesis mediates TNFα production in a SIRT6-dependent manner (Van Gool et al., 2009). Directionally, NAMPT sits upstream of TNFα synthesis, with SIRT6 as the obligatory downstream effector.",
+      "zh-TW": "Nampt 介導的 NAD 生合成以 SIRT6 依賴方式促進 TNFα 產生（Van Gool et al., 2009）。方向性上 NAMPT 位於 TNFα 合成的上游，SIRT6 為必要的下游效應因子。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins at a glance.md",
+    "created": "2026-11-10T00:00:00Z",
+    "updated": "2026-11-10T00:00:00Z"
+  },
+  {
+    "id": "ad7e1740ee3a",
+    "subject": "CLOCK:BMAL1:SIRT1 complex",
+    "predicate": "regulates",
+    "object": "NAMPT expression (circadian NAD+ biosynthesis)",
+    "context": {
+      "en-US": "The CLOCK/BMAL1/SIRT1 complex regulates Nampt expression, creating circadian oscillations in NAD biosynthesis that in turn feed back on SIRT1 activity (Nakahata et al., 2009; Ramsey et al., 2009). Directionally, the clock complex drives NAMPT and NAD+ rhythms.",
+      "zh-TW": "CLOCK/BMAL1/SIRT1 複合體調節 Nampt 表達，產生 NAD 生合成的晝夜節律，後者再回饋影響 SIRT1 活性（Nakahata et al., 2009; Ramsey et al., 2009）。方向性上，時鐘複合體驅動 NAMPT 與 NAD+ 節律。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins at a glance.md",
+    "created": "2026-11-10T00:00:00Z",
+    "updated": "2026-11-10T00:00:00Z"
+  },
+  {
+    "id": "c0ca0a90120f",
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "SUV39H1 at Lys266 (SET domain)",
+    "context": {
+      "en-US": "SIRT1 binds the H3K9 methyltransferase SUV39H1 and upregulates its methyltransferase activity by deacetylating Lys266 in the SET domain; SIRT1-deficient MEFs show H3K9 hypomethylation. Directionally, SIRT1 licenses SUV39H1 for heterochromatin formation.",
+      "zh-TW": "SIRT1 結合組蛋白 H3K9 甲基轉移酶 SUV39H1，透過去乙醯化其 SET 結構域中的 Lys266 提高其甲基轉移酶活性；SIRT1 缺乏的 MEF 顯示 H3K9 過低甲基化。方向性上，SIRT1 賦能 SUV39H1 以形成異染色質。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins at a glance.md",
+    "created": "2026-11-10T00:00:00Z",
+    "updated": "2026-11-10T00:00:00Z"
+  },
+  {
+    "id": "2d1c2a435b9e",
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "Histone H1b at Lys26 (H1K26)",
+    "context": {
+      "en-US": "SIRT1 interacts with linker histone H1b and deacetylates H1K26; under oxidative stress redistributed SIRT1 binds acetylated H1K26 and represses target genes in a pattern resembling the aged mouse brain.",
+      "zh-TW": "SIRT1 與連接組蛋白 H1b 相互作用並去乙醯化 H1K26；在氧化壓力下再分布的 SIRT1 結合乙醯化 H1K26 並抑制目標基因，其模式類似於老化小鼠腦。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Sirtuins at a glance.md",
+    "created": "2026-11-10T00:00:00Z",
+    "updated": "2026-11-10T00:00:00Z"
+  },
+  {
+    "id": "96f27c846e4d",
+    "subject": "Prolonged fasting (SIRT1)",
+    "predicate": "switches",
+    "object": "Gluconeogenesis from CRTC2-driven to FOXO1-driven",
+    "context": {
+      "en-US": "In prolonged fasting SIRT1 deacetylates CRTC2 and FOXO1, switching hepatic gluconeogenesis from early CRTC2-driven genes to late FOXO1-driven genes (Liu et al., 2008). Directionally, SIRT1 acts upstream of this temporal switch.",
+      "zh-TW": "在延長禁食時，SIRT1 去乙醯化 CRTC2 與 FOXO1，將肝臟糖質新生從早期的 CRTC2 驅動基因轉換為晚期的 FOXO1 驅動基因（Liu et al., 2008）。方向性上，SIRT1 位於此時間轉換的上游。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins at a glance.md",
+    "created": "2026-11-10T00:00:00Z",
+    "updated": "2026-11-10T00:00:00Z"
+  },
+  {
+    "id": "98d7e0b41b55",
+    "subject": "BESTO mice (β-cell SIRT1 overexpression)",
+    "predicate": "show",
+    "object": "Improved glucose tolerance on high-fat diet",
+    "context": {
+      "en-US": "Mice overexpressing SIRT1 specifically in pancreatic β cells (BESTO mice) show improved glucose tolerance on a high-fat diet, via UCP2 repression and enhanced glucose-stimulated insulin secretion.",
+      "zh-TW": "在胰腺 β 細胞中特異性過量表達 SIRT1 的小鼠（BESTO 小鼠）在高脂飲食下表現出改善的葡萄糖耐受性，機制為抑制 UCP2 並增強葡萄糖刺激的胰島素分泌。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins at a glance.md",
+    "created": "2026-11-10T00:00:00Z",
+    "updated": "2026-11-10T00:00:00Z"
+  },
+  {
+    "id": "2a1e966a60e6",
+    "subject": "SIRT1 BAC mice",
+    "predicate": "are_protected_against",
+    "object": "High-fat-diet-induced type 2 diabetes",
+    "context": {
+      "en-US": "Mice overexpressing SIRT1 from a bacterial artificial chromosome (BAC) construct are protected against high-fat-diet-induced type 2 diabetes.",
+      "zh-TW": "透過細菌人工染色體（BAC）構築過量表達 SIRT1 的小鼠受到保護，不會出現高脂飲食誘導的第 2 型糖尿病。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins at a glance.md",
+    "created": "2026-11-10T00:00:00Z",
+    "updated": "2026-11-10T00:00:00Z"
+  },
+  {
+    "id": "87d4803cefe3",
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "PIP5Kγ",
+    "context": {
+      "en-US": "SIRT1 positively regulates pituitary thyroid-stimulating hormone (TSH) secretion by deacetylating phosphatidylinositol 4-phosphate 5-kinase type-1 gamma (PIP5Kγ), which is required for TSH exocytosis.",
+      "zh-TW": "SIRT1 透過去乙醯化磷脂醯肌醇 4-磷酸 5-激酶 type-1 gamma（PIP5Kγ）正向調節垂體促甲狀腺激素（TSH）分泌，PIP5Kγ 對 TSH 外吐至關重要。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Sirtuins at a glance.md",
+    "created": "2026-11-10T00:00:00Z",
+    "updated": "2026-11-10T00:00:00Z"
+  },
+  {
+    "id": "acab5c1928b4",
+    "subject": "SIRT1",
+    "predicate": "represses",
+    "object": "miR-134",
+    "context": {
+      "en-US": "SIRT1 promotes CREB expression by repressing microRNA-134 (miR-134) and induces BDNF transcription, supporting memory formation and synaptic plasticity; brain SIRT1 activation enhances memory and its deletion impairs it (Gao et al., 2010).",
+      "zh-TW": "SIRT1 透過去抑制 microRNA-134（miR-134）提高 CREB 表達，並誘導 BDNF 轉錄，支持記憶形成與突觸可塑性；腦內 SIRT1 活化增強記憶，其缺失損害記憶（Gao et al., 2010）。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins at a glance.md",
+    "created": "2026-11-10T00:00:00Z",
+    "updated": "2026-11-10T00:00:00Z"
+  },
+  {
+    "id": "8da3a2cc3283",
+    "subject": "SIRT3",
+    "predicate": "deacetylates",
+    "object": "NDUFA9 (Complex I)",
+    "context": {
+      "en-US": "SIRT3 deacetylates NDUFA9, a component of OXPHOS Complex I, regulating cellular ATP levels (Ahn et al., 2008). Directionally, SIRT3 sits upstream of Complex I function and ATP output.",
+      "zh-TW": "SIRT3 去乙醯化 NDUFA9（OXPHOS 複合體 I 的組分），調節細胞 ATP 水平（Ahn et al., 2008）。方向性上，SIRT3 位於複合體 I 功能與 ATP 產量的上游。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Sirtuins at a glance.md",
+    "created": "2026-11-10T00:00:00Z",
+    "updated": "2026-11-10T00:00:00Z"
+  },
+  {
+    "id": "02f9b65929bf",
+    "subject": "SIRT3 knockout mice (fasting)",
+    "predicate": "accumulate",
+    "object": "Fatty-acid oxidation intermediates with low ATP",
+    "context": {
+      "en-US": "During fasting SIRT3-knockout mice accumulate fatty-acid oxidation intermediates and have lower ATP levels, despite SIRT3-mediated LCAD activation, showing SIRT3 is required for efficient beta-oxidation under fasting.",
+      "zh-TW": "在禁食期間，SIRT3 敲除小鼠累積脂肪酸氧化中間體且 ATP 水平較低，顯示禁食時 SIRT3 對高效 β-氧化至關重要，儘管 SIRT3 可活化 LCAD。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins at a glance.md",
+    "created": "2026-11-10T00:00:00Z",
+    "updated": "2026-11-10T00:00:00Z"
+  },
+  {
+    "id": "67be84df0910",
+    "subject": "SIRT5 knockout mice",
+    "predicate": "are_hyperammonemic_during",
+    "object": "Fasting, high-protein diet, or caloric restriction",
+    "context": {
+      "en-US": "SIRT5-knockout mice fail to upregulate CPS1 activity and become hyperammonemic during fasting, high-protein diet, or caloric restriction, because SIRT5 deacetylates and activates CPS1 of the urea cycle.",
+      "zh-TW": "SIRT5 敲除小鼠在禁食、高蛋白飲食或限制熱量時無法上調 CPS1 活性並出現高氨血症，因為 SIRT5 去乙醯化並活化尿素循環的 CPS1。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins at a glance.md",
+    "created": "2026-11-10T00:00:00Z",
+    "updated": "2026-11-10T00:00:00Z"
+  },
+  {
+    "id": "708882b0a8a1",
+    "subject": "SIRT6 knockout mice",
+    "predicate": "die_by",
+    "object": "4-5 weeks (hypoglycemia, lymphopenia, fat loss)",
+    "context": {
+      "en-US": "SIRT6-knockout mice show aging-like phenotypes - lymphopenia, loss of subcutaneous fat, and severe hypoglycemia - and die by 4-5 weeks.",
+      "zh-TW": "SIRT6 敲除小鼠表現出衰老樣表型：淋巴細胞減少、皮下脂肪缺失與嚴重低血糖，並在 4-5 週時死亡。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins at a glance.md",
+    "created": "2026-11-10T00:00:00Z",
+    "updated": "2026-11-10T00:00:00Z"
+  },
+  {
+    "id": "024548c1e93b",
+    "subject": "SIRT6",
+    "predicate": "regulates",
+    "object": "CtBP- and DNA-PK-dependent double-strand break repair",
+    "context": {
+      "en-US": "SIRT6 is involved in DNA double-strand break repair by regulating C-terminal binding protein (CtBP) and DNA protein kinase (DNA-PK); SIRT6-deficient cells show genomic instability and impaired base-excision repair.",
+      "zh-TW": "SIRT6 透過調節 C 端結合蛋白（CtBP）與 DNA 蛋白激酶（DNA-PK）參與 DNA 雙股斷裂修復；SIRT6 缺乏的細胞顯示基因組不穩定與鹼基切除修復受損。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Sirtuins at a glance.md",
+    "created": "2026-11-10T00:00:00Z",
+    "updated": "2026-11-10T00:00:00Z"
+  },
+  {
+    "id": "b8a7ff719f9e",
+    "subject": "RelA haploinsufficiency",
+    "predicate": "attenuates",
+    "object": "SIRT6-knockout premature aging",
+    "context": {
+      "en-US": "SIRT6 interacts with RelA and deacetylates H3K9 at NF-κB target promoters to repress them; SIRT6 disruption hyperactivates NF-κB, and RelA haploinsufficiency attenuates the lethality and aging-like phenotypes of SIRT6-knockout mice - establishing NF-κB hyperactivation as causal.",
+      "zh-TW": "SIRT6 與 RelA 相互作用並去乙醯化 NF-κB 靶基因啟動子處的 H3K9 以抑制之；SIRT6 中斷會使 NF-κB 過度活化，而 RelA 半量缺失可減輕 SIRT6 敲除小鼠的致死性與衰老樣表型，確立 NF-κB 過度活化為因果機制。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins at a glance.md",
+    "created": "2026-11-10T00:00:00Z",
+    "updated": "2026-11-10T00:00:00Z"
+  },
+  {
+    "id": "4e41c36eb4a3",
+    "subject": "Liver-specific SIRT6 deletion",
+    "predicate": "causes",
+    "object": "Fatty liver (increased glycolysis, decreased β-oxidation)",
+    "context": {
+      "en-US": "Liver-specific SIRT6 deletion in mice increases glycolysis and triglyceride synthesis, reduces β-oxidation, and produces fatty liver.",
+      "zh-TW": "小鼠肝臟特異性刪除 SIRT6 會增加糖酵解與三酸甘油酯合成、減少 β-氧化，並導致脂肪肝。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins at a glance.md",
+    "created": "2026-11-10T00:00:00Z",
+    "updated": "2026-11-10T00:00:00Z"
+  },
+  {
+    "id": "7f5b8c56aca3",
+    "subject": "SIRT7 knockout mice",
+    "predicate": "exhibit",
+    "object": "Kyphosis, fat loss, degenerative heart hypertrophy, premature death",
+    "context": {
+      "en-US": "SIRT7-knockout mice show aging-related changes - kyphosis, loss of subcutaneous fat, degenerative heart hypertrophy - and premature death.",
+      "zh-TW": "SIRT7 敲除小鼠出現衰老相關變化：脊柱後彎、皮下脂肪缺失、退化性心肌肥大，以及提早死亡。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Sirtuins at a glance.md",
+    "created": "2026-11-10T00:00:00Z",
+    "updated": "2026-11-10T00:00:00Z"
+  },
+  {
+    "id": "02eb247740a1",
+    "subject": "SIRT2 knockout MEFs",
+    "predicate": "accumulate",
+    "object": "H4K16 acetylation in mitosis with delayed S-phase entry",
+    "context": {
+      "en-US": "SIRT2-knockout mouse embryonic fibroblasts accumulate H4K16 acetylation during mitosis and show delayed S-phase entry, reflecting SIRT2's nuclear H4K16 deacetylase role.",
+      "zh-TW": "SIRT2 敲除的小鼠胚胎成纖維細胞在有絲分裂期間累積 H4K16 乙醯化，並表現延遲的 S 期進入，反映 SIRT2 的細胞核 H4K16 去乙醯酶角色。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Sirtuins at a glance.md",
+    "created": "2026-11-10T00:00:00Z",
+    "updated": "2026-11-10T00:00:00Z"
+  },
+  {
+    "id": "a00339d1830f",
+    "subject": "SIRT1 (brain knockout)",
+    "predicate": "lower",
+    "object": "Serum growth hormone and CR-induced physical activity",
+    "context": {
+      "en-US": "Brain-specific SIRT1 knockout mice lack the caloric-restriction-induced increase in adaptive physical activity (enhanced by brain SIRT1 overexpression) and have lower serum growth hormone; hypothalamic POMC-neuron SIRT1 regulates feeding behavior under dietary restriction.",
+      "zh-TW": "腦特異性 SIRT1 敲除小鼠缺乏限制熱量引起的適應性身體活動增加（腦內 SIRT1 過量表達則增強之），且血清生長激素較低；下丘腦 POMC 神經元中的 SIRT1 調節限制飲食下的攝食行為。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Sirtuins at a glance.md",
+    "created": "2026-11-10T00:00:00Z",
+    "updated": "2026-11-10T00:00:00Z"
+  },
+  {
+    "id": "8e3a0a2c301f",
+    "subject": "DBC1",
+    "predicate": "inhibits",
+    "object": "SIRT1 (binds N-terminus)",
+    "context": {
+      "en-US": "DBC1 (deleted in bladder cancer 1) binds the N-terminus of SIRT1 and inhibits its enzymatic activity; DBC1/HIC1 silencing in cancers can therefore unleash SIRT1. HIC1 represses SIRT1 transcription.",
+      "zh-TW": "DBC1（deleted in bladder cancer 1）結合 SIRT1 的 N 端並抑制其酶活性；癌症中 DBC1/HIC1 的沉默因此可能釋放 SIRT1。HIC1 則抑制 SIRT1 轉錄。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - Sirtuins at a glance.md",
+    "created": "2026-11-10T00:00:00Z",
+    "updated": "2026-11-10T00:00:00Z"
+  },
+  {
+    "id": "98f9f7cfe4de",
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "PARP1",
+    "context": {
+      "en-US": "SIRT1 functions in ROS-mediated cell death through deacetylation of PARP1; SIRT1 deletion promotes cardiomyocyte death during heart failure.",
+      "zh-TW": "SIRT1 透過去乙醯化 PARP1 參與 ROS 介導的細胞死亡；SIRT1 缺失促進心臟衰竭期間的心肌細胞死亡。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Sirtuins at a glance.md",
+    "created": "2026-11-10T00:00:00Z",
+    "updated": "2026-11-10T00:00:00Z"
+  },
+  {
+    "id": "11328b038feb",
+    "subject": "POMC",
+    "predicate": "is_cleaved_into",
+    "object": "ACTH",
+    "context": {
+      "en-US": "POMC is a precursor polypeptide that is proteolytically cleaved, via PC1/3 and PC2, into biologically active peptides including adrenocorticotropic hormone (ACTH), alpha-melanocyte-stimulating hormone, and beta-endorphin.",
+      "zh-TW": "POMC 是一種前體多肽，可經 PC1/3 與 PC2 蛋白水解切割為具生物活性的胜肽，包括促腎上腺皮質激素（ACTH）、α-黑素細胞刺激激素與 β-內啡肽。"
+    },
+    "confidence": 0.9,
+    "source_document": "POMC.md",
+    "created": "2026-11-12T02:37:47Z",
+    "updated": "2026-11-12T02:37:47Z"
+  },
+  {
+    "id": "de2285a54699",
+    "subject": "SIRT1",
+    "predicate": "regulates",
+    "object": "POMC",
+    "context": {
+      "en-US": "SIRT1 expression is induced in arcuate hypothalamic POMC neurons during dietary restriction, where SIRT1 regulates feeding behaviors and is required for homeostatic defenses against diet-induced obesity.",
+      "zh-TW": "在飲食限制期間，SIRT1 表現於弓狀核下視丘 POMC 神經元中上調；SIRT1 調節攝食行為，且為抵抗飲食誘導肥胖的穩態防禦所必需。"
+    },
+    "confidence": 0.9,
+    "source_document": "POMC.md",
+    "created": "2026-11-12T02:37:47Z",
+    "updated": "2026-11-12T02:37:47Z"
+  },
+  {
+    "id": "5502e9d0f4b6",
+    "subject": "POMC",
+    "predicate": "expressed_in",
+    "object": "Hypothalamus",
+    "context": {
+      "en-US": "Arcuate hypothalamic POMC neurons are a central node of energy homeostasis and feeding behavior, placing hypothalamic POMC-neuron SIRT1 at the center of SIRT1's neuronal control of feeding under caloric restriction and fasting.",
+      "zh-TW": "弓狀核下視丘 POMC 神經元是能量穩態與攝食行為的中樞節點；下視丘 POMC 神經元中的 SIRT1 位於 SIRT1 在熱量限制與禁食下對攝食的神經調控核心。"
+    },
+    "confidence": 0.9,
+    "source_document": "POMC.md",
+    "created": "2026-11-12T02:37:47Z",
+    "updated": "2026-11-12T02:37:47Z"
   }
 ]

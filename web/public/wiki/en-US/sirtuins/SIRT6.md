@@ -4,7 +4,7 @@ description: SIRT6 (Sirtuin 6) is a nuclear, chromatin-associated sirtuin classi
   in phylogenetic Class IVa alongside its nucleolar homolog SIRT7 (Class IVb). As
   a "longevity gene," SIRT6 serves as an essent...
 created: 2026-07-02
-updated: 2026-09-02
+updated: 2026-11-10
 tags:
   - protein
   - nad-plus
@@ -268,6 +268,9 @@ Compiled from [[_document_ - sirtuins in health and disease s41392-022-01257-8|S
 - Strong connections to strengthen: [[SIRT6]] ↔ [[Cardiovascular Disease]], [[SIRT6]] ↔ [[Hepatocellular Carcinoma]], [[SIRT6]] ↔ [[Vascular Calcification]], [[SIRT6]] ↔ [[Longevity]]
 
 ## Documents
+
+- [[_document_ - Sirtuins at a glance|Sirtuins at a Glance (Nakagawa & Guarente 2011)]]
+  - *J. Cell Sci.* Cell Science at a Glance: sirtuin core-domain architecture, NAD+ biosynthesis/circadian (NAMPT, CLOCK:BMAL1) regulation, and SIRT1 across chromatin, metabolism, inflammation, cardiovascular, cancer and brain — this note's primary 2011 survey source.
 
 List of documents that mention this entity
 

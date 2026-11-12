@@ -4,7 +4,7 @@ description: SIRT5 (Sirtuin 5) is a mitochondrial sirtuin and the sole mammalian
   of phylogenetic Class III sirtuins — a class distributed widely in all prokaryotes
   (both bacteria and archaea). This deep ...
 created: 2026-07-02
-updated: 2026-08-11
+updated: 2026-11-10
 tags:
   - protein
   - nad-plus
@@ -109,6 +109,9 @@ Compiled from [[_document_ - sirtuins in health and disease s41392-022-01257-8|S
 - **Genital**: Dysregulation associated with male infertility.
 
 ## Documents
+
+- [[_document_ - Sirtuins at a glance|Sirtuins at a Glance (Nakagawa & Guarente 2011)]]
+  - *J. Cell Sci.* Cell Science at a Glance: sirtuin core-domain architecture, NAD+ biosynthesis/circadian (NAMPT, CLOCK:BMAL1) regulation, and SIRT1 across chromatin, metabolism, inflammation, cardiovascular, cancer and brain — this note's primary 2011 survey source.
 
 List of documents that mention this entity
 

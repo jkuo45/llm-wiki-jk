@@ -4,7 +4,7 @@ description: BDNF (Brain-Derived Neurotrophic Factor) is a member of the Neurotr
   family of growth factors that supports neuronal survival, differentiation, synaptic
   plasticity, and neurogenesis. It is critical for learning, memory, and mood regulation.
 created: 2026-07-04
-updated: 2026-08-31
+updated: 2026-11-10
 tags:
   - protein
 aliases:
@@ -40,6 +40,9 @@ BDNF is a central effector of experience-dependent plasticity: enriched environm
 BDNF is investigated as a biomarker of neuropsychiatric and neurodegenerative disease and as a surrogate for pro-plasticity interventions. Strategies that elevate BDNF through SIRT1/NAD⁺-dependent mechanisms (exercise, fasting, [[Resveratrol]], [[Nicotinamide Mononucleotide|NMN]]) are active areas of geroscience and neurotherapeutics.
 
 ## Documents
+
+- [[_document_ - Sirtuins at a glance|Sirtuins at a Glance (Nakagawa & Guarente 2011)]]
+  - *J. Cell Sci.* Cell Science at a Glance: SIRT1 across chromatin, metabolism, inflammation, cardiovascular, cancer and brain; NAD+ biosynthesis/circadian regulation via NAMPT.
 
 List of documents that mention this entity
 

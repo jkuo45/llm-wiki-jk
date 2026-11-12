@@ -4,7 +4,7 @@ description: NAMPT (Nicotinamide phosphoribosyltransferase) is a key enzyme in t
   salvage pathway of NAD+ biosynthesis, whose levels decrease significantly in various
   tissues during aging.
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-11-10
 tags:
   - enzyme
 aliases: [Nampt]
@@ -29,6 +29,9 @@ By controlling NMN synthesis and subsequently cellular NAD⁺ levels, NAMPT acts
 # 
 
 ## Documents
+
+- [[_document_ - Sirtuins at a glance|Sirtuins at a Glance (Nakagawa & Guarente 2011)]]
+  - *J. Cell Sci.* Cell Science at a Glance: SIRT1 across chromatin, metabolism, inflammation, cardiovascular, cancer and brain; NAD+ biosynthesis/circadian regulation via NAMPT.
 
 List of documents that mention this entity
 

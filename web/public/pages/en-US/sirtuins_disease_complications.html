@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Sirtuins - Disease Complications</title>
-<meta name="description" content="A complication-by-complication atlas of SIRT1–SIRT7 across disease states from cancer to aging: interactive charts of who protects, who harms, and where genetic context, tissue, and tumor stage flip the sign.">
+<meta name="description" content="A complication-by-complication atlas of SIRT1–SIRT7 across disease states from cancer to aging: interactive charts of protective and harmful sirtuin roles, and where genetic context, tissue, and tumor stage flip the sign.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🫀</text></svg>">
 <link rel="stylesheet" href="../themes/theme-01/pages.css">
 <link rel="stylesheet" href="../themes/theme-01/pages-light.css" id="theme-light">
@@ -41,8 +41,8 @@
       <b style="color:var(--text)">tumor suppressors and/or oncogenes</b> and as
       <b style="color:var(--text)">protective or harmful factors</b> depending on genetic context, tissue, tumor type and stage.
       This page turns the task-output complication compilation (cancer → aging) into interactive charts of
-      <b style="color:var(--teal)">who protects</b>, <b style="color:var(--red)">who harms</b>, and
-      <b style="color:var(--amber)">who flips sign</b>.
+      <b style="color:var(--teal)">protective roles</b>, <b style="color:var(--red)">harmful roles</b>, and
+      <b style="color:var(--amber)">sign flips by context</b>.
     </p>
     <div class="meta">
       Source review: <a href="https://doi.org/10.1038/s41392-022-01257-8" target="_blank">Sirtuins in Health and Disease (Wu et al., 2022)</a> ·
@@ -61,7 +61,7 @@
 <!-- OVERVIEW -->
 <section id="overview">
   <div class="wrap">
-    <h2>Why the same enzyme can protect one organ and harm another</h2>
+    <h2>Tissue-specific opposing roles of the same enzyme</h2>
     <p class="lead" style="margin-bottom:20px;">Context-dependence has three interacting sources at the disease level.</p>
     <div class="grid g3">
       <div class="card">
@@ -69,17 +69,17 @@
         <p style="color:var(--dim); font-size:.9rem;">
           <b style="color:var(--text)">[[SIRT4]]</b> suppresses GI cancers and protects metabolism yet <i>aggravates</i> cardiac hypertrophy/fibrosis.<br>
           <b style="color:var(--text)">[[SIRT2]]</b> harms the brain (AD, PD, HD, stroke, asthma) yet protects joints and kidney fibrosis.<br>
-          <b style="color:var(--text)">[[SIRT3]]</b> is near-universally protective in heart/lung/kidney injury — but its low-ROS "guardian"
-          phenotype creates cancer radio/chemoresistance. "Protective" or "harmful" is always conditional on the organ.
+          <b style="color:var(--text)">[[SIRT3]]</b> is near-universally protective in heart/lung/kidney injury — but its low-ROS
+          phenotype supports radio-/chemoresistance in established tumors. "Protective" or "harmful" is always conditional on the organ.
         </p>
       </div>
       <div class="card">
-        <h3>Dose and stage rule</h3>
+        <h3>Dose and stage determine direction</h3>
         <p style="color:var(--dim); font-size:.9rem;">
           Cardiac SIRT1: 2.5× and 7.5× overexpression attenuate hypertrophy; 12.5× converts it into pathology.<br>
           CRC SIRT1: <i>heterozygous</i> KO drives c-Myc/glutamine proliferation, <i>homozygous</i> KO triggers apoptosis.<br>
           SIRT7 rises with positive leukemia treatment response and falls on relapse — a monitoring marker,
-          not a fixed tumorigenic role. Direction is meaningless without dose and stage.
+          not a fixed tumorigenic role. Direction cannot be interpreted without dose and stage.
         </p>
       </div>
       <div class="card">
@@ -88,7 +88,7 @@
           Every condition is annotated with chips per sirtuin: <span class="chip P">P</span> protective / suppressive,
           <span class="chip H">H</span> harmful / driving, <span class="chip D">D</span> dual, <span class="chip N">N</span> not annotated.
           The same sirtuin frequently wears <span class="chip P">P</span> and <span class="chip H">H</span> in different rows of
-          the <i>same</i> organ system — the explorer below surfaces those decisive contexts.
+          the <i>same</i> organ system — the explorer below lists those context variables.
         </p>
       </div>
     </div>
@@ -103,7 +103,7 @@
       </div>
       <div class="card" style="text-align:center;">
         <div class="stat-num" style="color:var(--red); font-weight:700;">0</div>
-        <div style="color:var(--dim); font-size:.85rem;">Sirtuins with a single, unconditional verdict — every isoform flips by tissue, dose and stage</div>
+        <div style="color:var(--dim); font-size:.85rem;">Sirtuins with a single, unconditional role — every isoform flips by tissue, dose and stage</div>
       </div>
     </div>
   </div>
@@ -112,9 +112,9 @@
 <!-- SPECTRUM -->
 <section id="spectrum">
   <div class="wrap">
-    <h2>Net lean across diseases — the protective ⇄ harmful spectrum</h2>
+    <h2>Net direction across diseases — the protective ⇄ harmful spectrum</h2>
     <p class="lead" style="margin-bottom:18px;">
-      Each bar is a sirtuin's <b style="color:var(--text)">net lean</b> aggregated over the 49 annotated conditions
+      Each bar is a sirtuin's <b style="color:var(--text)">net direction</b> aggregated over the 49 annotated conditions
       (right = more consistently protective, left = more consistently harmful). The shaded
       <b style="color:var(--dim)">context window</b> shows how far the same isoform can flip sign across organs.
       Hover a bar for the rationale.
@@ -141,7 +141,7 @@
       A curated 16-node map of the disease compilation: the 7 sirtuin hubs (left) connected to 9 organ systems (right).
       Edge color = net role of that sirtuin in that system (<b style="color:var(--teal)">green</b> protective,
       <b style="color:var(--red)">red</b> harmful, <b style="color:var(--amber)">amber</b> dual).
-      Hover a system node to see per-sirtuin verdicts; click a sirtuin hub to highlight its footprint.
+      Hover a system node to see per-sirtuin roles; click a sirtuin hub to highlight its footprint.
     </p>
     <div class="net-head">
       <button class="btn" id="mapReset">Reset highlight</button>
@@ -163,11 +163,11 @@
 <!-- MATRIX -->
 <section id="matrix">
   <div class="wrap">
-    <h2>Who protects whom — SIRT × system role matrix</h2>
+    <h2>Protective and harmful roles by system — SIRT × system role matrix</h2>
     <p class="lead" style="margin-bottom:6px;">
       Net effect of each sirtuin within each organ system. <b style="color:var(--teal)">Teal</b> = protective /
       suppressive on that system, <b style="color:var(--red)">red</b> = harmful / pro-disease,
-      <b style="color:var(--amber)">amber</b> = genuinely dual within that system.
+      <b style="color:var(--amber)">amber</b> = dual within that system.
     </p>
     <p class="sub" style="font-size:.8rem; margin-bottom:16px;">Hover a cell for the per-condition breakdown.</p>
     <div class="spectrum-card">
@@ -196,16 +196,16 @@
 <!-- SIRT DOSSIERS -->
 <section id="sirts">
   <div class="wrap">
-    <h2>SIRT dossiers — follow one enzyme across all systems</h2>
+    <h2>SIRT dossiers — one enzyme across all systems</h2>
     <p class="lead" style="margin-bottom:20px;">
-      Every isoform carries a <b style="color:var(--green)">protective face</b> and a <b style="color:var(--red)">harmful face</b>.
+      Every isoform has both <b style="color:var(--green)">protective</b> and <b style="color:var(--red)">harmful</b> roles.
       The balance depends on tissue, dose, and stage.
     </p>
     <div class="grid g2" style="gap:18px;">
 
       <!-- SIRT1 -->
       <div class="sirt-card">
-        <div class="sirt-head"><h3 style="color:var(--amber)">[[SIRT1]]</h3><span class="tagline">the most-studied double agent — protective in most systems, harmful in most cancers</span>
+        <div class="sirt-head"><h3 style="color:var(--amber)">[[SIRT1]]</h3><span class="tagline">protective in most systems, harmful in most cancers</span>
           <span class="comp">Nucleus<br>+ cytosol</span></div>
         <div class="sirt-body">
           <div class="faces">
@@ -229,7 +229,7 @@
 
       <!-- SIRT2 -->
       <div class="sirt-card">
-        <div class="sirt-head"><h3 style="color:var(--purple)">[[SIRT2]]</h3><span class="tagline">the axis-opposer — harms the brain, protects joints &amp; kidney fibrosis</span>
+        <div class="sirt-head"><h3 style="color:var(--purple)">[[SIRT2]]</h3><span class="tagline">harmful in neurodegeneration, protective in joints &amp; kidney fibrosis</span>
           <span class="comp">Cytosol</span></div>
         <div class="sirt-body">
           <div class="faces">
@@ -248,13 +248,13 @@
               <li>Basal-like breast invasion (Slug), endometrial stemness, T-ALL (LMO2), lung tumor growth (PGM K100 → NADPH)</li>
             </ul></div>
           </div>
-          <div class="context"><b>Context:</b> cytosolic tubulin/cell-cycle sirtuin that often <b>opposes the protective SIRT1/3/6 axis</b>. Splits cleanly within one organ: in leukemia, activation helps AML while inhibition suppresses T-ALL; in diabetes it promotes glucose uptake yet counterbalances [[Akt]] in neurons.</div>
+          <div class="context"><b>Context:</b> cytosolic tubulin/cell-cycle sirtuin that often <b>opposes the protective SIRT1/3/6 axis</b>. Splits by cancer type within one organ: in leukemia, activation helps AML while inhibition suppresses T-ALL; in diabetes it promotes glucose uptake yet counterbalances [[Akt]] in neurons.</div>
         </div>
       </div>
 
       <!-- SIRT3 -->
       <div class="sirt-card">
-        <div class="sirt-head"><h3 style="color:var(--green)">[[SIRT3]]</h3><span class="tagline">the mitochondrial guardian — near-universal protection with a cancer caveat</span>
+        <div class="sirt-head"><h3 style="color:var(--green)">[[SIRT3]]</h3><span class="tagline">near-universal mitochondrial protection with a cancer-therapy caveat</span>
           <span class="comp">Mitochondria</span></div>
         <div class="sirt-body">
           <div class="faces">
@@ -272,13 +272,13 @@
               <li>Alcoholic hepato-injury, cervical cancer lipogenic invasion (ACC1)</li>
             </ul></div>
           </div>
-          <div class="context"><b>Context:</b> the primary mitochondrial sirtuin; genuinely dual only in OA and fatty liver. The same low-ROS "guardian" phenotype that prevents injury keeps <b>established tumors alive</b> under therapy. Elevated in node-positive [[Breast Cancer]] and OSCC; serum SIRT3 is a lung-cancer diagnostic (AUC 0.918).</div>
+          <div class="context"><b>Context:</b> the primary mitochondrial sirtuin; dual only in OA and fatty liver. The same low-ROS phenotype that prevents injury supports survival of <b>established tumors</b> under therapy. Elevated in node-positive [[Breast Cancer]] and OSCC; serum SIRT3 is a lung-cancer diagnostic (AUC 0.918).</div>
         </div>
       </div>
 
       <!-- SIRT4 -->
       <div class="sirt-card">
-        <div class="sirt-head"><h3 style="color:var(--teal)">[[SIRT4]]</h3><span class="tagline">glutamine &amp; lipid brake — a tumor suppressor with cardiac and hepatic costs</span>
+        <div class="sirt-head"><h3 style="color:var(--teal)">[[SIRT4]]</h3><span class="tagline">glutamine &amp; lipid metabolism restriction — a tumor suppressor with cardiac and hepatic costs</span>
           <span class="comp">Mitochondria</span></div>
         <div class="sirt-body">
           <div class="faces">
@@ -292,16 +292,16 @@
               <li><b>Cardiac</b> — the only sirtuin with adverse cardiac effects: aggravates Ang II hypertrophy/fibrosis via MnSOD inhibition</li>
               <li><b>NAFLD</b> — deacetylates/destabilizes mitochondrial trifunctional protein-α → lipid accumulation</li>
               <li><b>[[Ovarian Cancer]]</b> — high SIRT4 ↔ poor survival</li>
-              <li>Reduced amino-acid-stimulated insulin secretion; suppresses hepatic FAO — metabolically "thrifty"</li>
+              <li>Reduced amino-acid-stimulated insulin secretion; suppresses hepatic FAO — a metabolic cost</li>
             </ul></div>
           </div>
-          <div class="context"><b>Context:</b> loss is <b>uniformly prognostic for poor survival</b> in HCC, gastric, CRC, bladder, breast cancer. GDH mono-ADP-ribosylation directly throttles glutamine–α-KG anaplerosis — a natural brake on glutamine-addicted tumors that is costly to systemic metabolism and cardiac stress responses.</div>
+          <div class="context"><b>Context:</b> loss is <b>uniformly prognostic for poor survival</b> in HCC, gastric, CRC, bladder, breast cancer. GDH mono-ADP-ribosylation directly limits glutamine–α-KG anaplerosis — a constraint on glutamine-addicted tumors that is costly to systemic metabolism and cardiac stress responses.</div>
         </div>
       </div>
 
       <!-- SIRT5 -->
       <div class="sirt-card">
-        <div class="sirt-head"><h3 style="color:var(--orange)">[[SIRT5]]</h3><span class="tagline">the nicotinamide-resistant deacylase — truly mixed across systems</span>
+        <div class="sirt-head"><h3 style="color:var(--orange)">[[SIRT5]]</h3><span class="tagline">the nicotinamide-resistant deacylase — mixed across systems</span>
           <span class="comp">Mitochondria</span></div>
         <div class="sirt-body">
           <div class="faces">
@@ -338,10 +338,10 @@
               <li><b>[[Lung Cancer]]</b> — snail-dependent KLF4 transrepression → EMT/metastasis</li>
               <li><b>HCC</b> — high SIRT6 correlates with chemoresistance</li>
               <li><b>Obesity</b> — exacerbates diet-induced obesity (STAT3 acetylation ↓, POMC ↓)</li>
-              <li>Chemoresistance in breast/prostate — the DDR/austerity program that prevents initiation sustains established tumors in therapy</li>
+              <li>Chemoresistance in breast/prostate — the DNA-damage-response program that prevents initiation sustains established tumors during therapy</li>
             </ul></div>
           </div>
-          <div class="context"><b>Bottom line:</b> the most unambiguously protective sirtuin across CVD, respiratory, digestive, kidney and most cancers. Its genome-stability/austerity program is the double edge during <b>cancer therapy</b>, where its pro-repair activity rescues stressed tumor cells.</div>
+          <div class="context"><b>Summary:</b> the most consistently protective sirtuin across CVD, respiratory, digestive, kidney and most cancers. Its genome-stability program is the dual element during <b>cancer therapy</b>, where its pro-repair activity supports stressed tumor cells.</div>
         </div>
       </div>
 
@@ -376,15 +376,15 @@
 <!-- SIGN FLIPS -->
 <section id="flips">
   <div class="wrap">
-    <h2>The sign-flip ledger — one sirtuin, two verdicts</h2>
+    <h2>The sign-flip table — one sirtuin, two outcomes</h2>
     <p class="lead" style="margin-bottom:6px;">
       The granularity underneath the P/H/D code: specific conditions where a single sirtuin flips polarity.
     </p>
-    <p class="sub" style="font-size:.8rem; margin-bottom:16px;">Protective/beneficial face versus harmful/adverse face of the same enzyme, in the same or directly adjacent condition.</p>
+    <p class="sub" style="font-size:.8rem; margin-bottom:16px;">Protective/beneficial role versus harmful/adverse role of the same enzyme, in the same or directly adjacent condition.</p>
     <div class="tbl-wrap" style="max-height:none;">
       <div class="copy-host table-host"><button class="copy-btn" data-copy-table="dataTable" title="Copy table" aria-label="Copy table to clipboard"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 4v16"/></svg></button><table id="dataTable" class="flip">
         <colgroup><col style="width:9%"><col style="width:17%"><col style="width:37%"><col style="width:37%"></colgroup>
-        <thead><tr><th>Sirtuin</th><th>Condition</th><th>Protective / beneficial face</th><th>Harmful / adverse face</th></tr></thead>
+        <thead><tr><th>Sirtuin</th><th>Condition</th><th>Protective / beneficial role</th><th>Harmful / adverse role</th></tr></thead>
         <tbody>
           <tr><td><span style="color:var(--amber);font-weight:700">SIRT1</span></td><td>[[Cardiac Hypertrophy]]</td>
             <td class="mod-act">Low/moderate (2.5×–7.5×) overexpression attenuates Ang II hypertrophy</td>
@@ -428,7 +428,7 @@
 <!-- SUBSTRATES & TARGETS -->
 <section id="substrates">
   <div class="wrap">
-    <h2>Substrates &amp; Targets — and what recent work adds</h2>
+    <h2>Substrates &amp; Targets — updates from recent work</h2>
     <p class="lead" style="margin-bottom:6px;">
       Deacetylation <b style="color:var(--text)">substrates</b> (histone marks or proteins modified), together with
       the targets each sirtuin <b style="color:var(--green)">activates</b> vs <b style="color:var(--red)">inhibits</b>,
@@ -498,9 +498,9 @@
       </div>
     </div>
     <div class="caveat" style="margin-top:16px;">
-      <b>Recent research (2017–2026) reframes the "substrate" list.</b>
+      <b>Recent research (2017–2026) extends the substrate list.</b>
       <ul style="margin:8px 0 0; padding-left:18px; color:var(--dim); font-size:.88rem;">
-        <li><b>Beyond deacetylation.</b> Sirtuins are broad <b>deacylases</b>: SIRT1–3 additionally carry robust <b>delactylase (Kla)</b> activity and act on lysine malonylation (Kma), β-hydroxybutyrylation (Kbhb) and succinylation (Ksucc) — so the modification column is a floor, not a closed list (Zhang et al., <i>Glycoconj J</i> 2026, PMID 42329469).</li>
+        <li><b>Beyond deacetylation.</b> Sirtuins are broad <b>deacylases</b>: SIRT1–3 additionally carry robust <b>delactylase (Kla)</b> activity and act on lysine malonylation (Kma), β-hydroxybutyrylation (Kbhb) and succinylation (Ksucc) — so the modification column is a minimum, not a closed list (Zhang et al., <i>Glycoconj J</i> 2026, PMID 42329469).</li>
         <li><b>Per-isoform deacylase selectivity.</b> Each mammalian sirtuin possesses multiple individual deacylase activities spanning formyl → acetyl → succinyl → myristoyl substrates; dissecting per-activity physiology now requires deacylase-selective mutants/inhibitors (Zheng, <i>Chem Biol Drug Des</i> 2024, PMID 39556442).</li>
         <li><b>SIRT2 as a drug target.</b> The α-tubulin/H4K16 deacetylase axis is an active discovery target (selective inhibitors and degraders) — a therapeutic hot spot (Advances in SIRT2-Targeted Therapeutics, <i>Med Res Rev</i> 2026, PMID 42087377).</li>
         <li><b>Residue-level precision.</b> SIRT1 deacetylates p53 K320/K373/K382, SUV39H1 K266, p300 K1020/K1024, LKB1 K48, XPA K63/K67, Ku70 (multi-Lys) and NF-κB/RelA K310; SIRT3 deacetylates MnSOD K122 and IDH2 K413; SIRT6 deacetylates CtIP K432/K526/K604 and mono-ADP-ribosylates PARP1 K521; SIRT7 deacetylates H3K18 (Barber et al. 2012); SIRT5 desuccinylates CPS1.</li>
@@ -512,23 +512,22 @@
 <!-- PATTERNS -->
 <section id="patterns">
   <div class="wrap">
-    <h2>Cross-cutting observations &amp; the bottom line</h2>
+    <h2>Cross-cutting observations and summary</h2>
     <div style="margin-top:18px;">
       <div class="pattern"><b>SIRT1 is the most extensively studied and shows opposing roles across and within diseases.</b>
         Tumor suppressor vs promoter in breast, lung, HCC, CRC; protective vs harmful in hypertrophy, fatty liver, IBD,
-        AKI, kidney fibrosis, diabetes and lung injury. Its name is a caveat, not an answer.</div>
+        AKI, kidney fibrosis, diabetes and lung injury. Direction of effect depends on dose, tissue, and stage.</div>
       <div class="pattern"><b>SIRT2 often opposes the SIRT1/SIRT3/SIRT6 protective axis.</b>
         Harmful in AD, PD, HD, asthma and liver I/R; mostly protective in OA, IDD, kidney fibrosis and neuropathic pain —
         and it splits within single organs (AML vs T-ALL).</div>
-      <div class="pattern"><b>SIRT3 is the mitochondrial workhorse with near-universal protective roles</b>
+      <div class="pattern"><b>SIRT3 has near-universal protective roles</b>
         in AKI, MI/R injury, diabetic cardiomyopathy, lung fibrosis, DKD and metabolic disease (dual only in OA and fatty liver),
         with a cancer caveat: its low-ROS phenotype confers therapy resistance.</div>
       <div class="pattern"><b>SIRT4 is predominantly tumor-suppressive and metabolically protective</b>
         (BC, HCC, CRC, GC, diabetes, DKD) — but the <b>only sirtuin with adverse cardiac effects</b> (aggravates Ang II
-        hypertrophy/fibrosis), a living example of tissue-specific sign.</div>
+        hypertrophy/fibrosis), an example of tissue-specific direction of effect.</div>
       <div class="pattern"><b>SIRT6 is consistently protective</b>
-        across CVD, respiratory, digestive, kidney and most cancers (context-dependent only in lung and HCC).
-        The most reliable "anti-disease" sirtuin at the system level.</div>
+        across CVD, respiratory, digestive, kidney and most cancers (dual only in lung cancer, HCC and obesity).</div>
       <div class="pattern"><b>SIRT7 is the least studied and most inconsistent</b>
         (dual in HBV, cardiac fibrosis, CRC) — a monitoring biomarker in leukemia whose RNA-Pol-I axis drives proliferation.</div>
       <div class="pattern"><b>SIRT5 is genuinely mixed</b>
@@ -538,10 +537,10 @@
     <div class="caveat">
       <b>Caveat.</b> Every sirtuin shows dual, context-dependent behavior — an organ or tumor's phenotype cannot be read from
       a single sirtuin in isolation. The same enzyme is simultaneously a tumor suppressor in one tissue, a pro-disease driver in
-      another, and a dose-dependent switch within a single organ. Where the task output records conflicting studies
-      (SIRT1 in lung, SIRT7 in fibrosis), the conflicting verdicts themselves are the data. That is why sirtuin modulation —
-      activator or inhibitor — must be tissue-, stage- and dose-aware, and why SIRT1's dose window and SIRT4's glutamine brake
-      are the most instructive therapeutic leads this compilation yields.
+      another, and dose-dependent within a single organ. Where the task output records conflicting studies
+      (SIRT1 in lung, SIRT7 in fibrosis), both results are reported. That is why sirtuin modulation —
+      activator or inhibitor — must be tissue-, stage- and dose-aware, and why SIRT1's dose window and SIRT4's glutamine
+      constraint are the primary therapeutic leads from this compilation.
     </div>
   </div>
 </section>
@@ -843,11 +842,11 @@ const SIRTS = SIRT_NAMES.map(s=>{
     score: lean*2.6,
     range: 0.9 + (d/N)*2.2,
     ptl:p, hrm:h, dual:d,
-    net:{SIRT1:'The double agent — protective in most systems, harmful in most cancers',
-         SIRT2:'Axis-opposer — harms the brain, protects joints & kidney fibrosis',
-         SIRT3:'Mitochondrial guardian — near-universal protective',
-         SIRT4:'Tumor & glutamine brake with cardiac/hepatic costs',
-         SIRT5:'Nicotinamide-resistant deacylase — truly mixed',
+    net:{SIRT1:'Dual — protective in most systems, harmful in most cancers',
+         SIRT2:'Opposes the protective axis — harmful in neurodegeneration, protective in joints & kidney fibrosis',
+         SIRT3:'Near-universal protective mitochondrial sirtuin',
+         SIRT4:'Tumor suppressor and glutamine-metabolism restriction with cardiac/hepatic costs',
+         SIRT5:'Nicotinamide-resistant deacylase — mixed',
          SIRT6:'The most consistently protective across systems',
          SIRT7:'Least studied — roles frequently inconsistent'}[s],
     rationale:{SIRT1:'Opposing roles across and within diseases (BC/LC/HCC/CRC, hypertrophy, FLD, IBD, AKI, DM). Dose-dependent: cardiac 2.5×/7.5× protective, 12.5× pathogenic.',
@@ -906,7 +905,7 @@ function cellColor(val){
   return '#3a3a5e';
 }
 
-renderSpectrum('spectrumSvg', SIRTS, {top:'PROTECTIVE ⇄ HARMFUL ACROSS DISEASE SYSTEMS', center:'center = genuinely dual / balanced across systems', left:'← harmful / pro-disease', right:'protective / anti-disease →'});
+renderSpectrum('spectrumSvg', SIRTS, {top:'PROTECTIVE ⇄ HARMFUL ACROSS DISEASE SYSTEMS', center:'center = dual / balanced across systems', left:'← harmful / pro-disease', right:'protective / anti-disease →'});
 renderMatrix('matrixSvg', SYSTEMS, SIRT_NAMES, SIRTS, MATRIX, MECH, {W:1220, top:95, left:110, cw:118, rh:80, labelFontSize:'12', cellFontSize:'17', cellPadX:6, cellPadW:14});
 
 /* ============================= ROLE MAP ============================= */
@@ -931,7 +930,7 @@ renderMatrix('matrixSvg', SYSTEMS, SIRT_NAMES, SIRTS, MATRIX, MECH, {W:1220, top
     t2.textContent = sy.n + ' condition' + (sy.n>1?'s':'');
     g.appendChild(rec); g.appendChild(t1); g.appendChild(t2);
     g.addEventListener('mouseenter', ()=>{
-      let html=`<b style="color:var(--teal)">${sy.id}</b> — per-sirtuin verdicts:<br>`;
+      let html=`<b style="color:var(--teal)">${sy.id}</b> — per-sirtuin roles:<br>`;
       SIRT_NAMES.forEach(s=>{
         const v=cellVal(s,sy.id);
         if(v===0){ return; }

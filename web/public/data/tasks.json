@@ -1,5 +1,5 @@
 {
-  "generated": "21_OCT_2026 10:59 AM PDT",
+  "generated": "11_NOV_2026 06:44 PM PST",
   "tasks": [
     {
       "id": "tasks-index",
@@ -25,6 +25,53 @@
       }
     },
     {
+      "id": "task_output_whole_blood_nad_biomarker_viewpoint_10_Nov_2026",
+      "langs": {
+        "en-US": {
+          "title": "Whole-Blood NAD+ as a Biomarker of Ageing — Viewpoint Differences Between the 2026 Nature Metabolism Cluster and the Vault",
+          "description": "Compares the position on whole-blood NAD+ as a biomarker of ageing in Gardell & Baur (Nat Metab 2026), Trętowicz et al. (Nat Metab 2026) and Romenskaja-Avgul et al. (Nat Metab 2026) against NAD+ claims in src/notes/ and raw/, and records 2025–2026 human trial, review and cohort evidence retrieved from the web.",
+          "created": "2026-11-10",
+          "updated": "2026-11-10",
+          "tags": [
+            "task-output",
+            "nad-plus",
+            "aging",
+            "biomarkers",
+            "metabolism",
+            "sirtuins",
+            "clinical-evidence"
+          ],
+          "filename": "task_output_whole_blood_nad_biomarker_viewpoint_10_Nov_2026.md",
+          "path": "tasks/en-US/task_output_whole_blood_nad_biomarker_viewpoint_10_Nov_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_whole_blood_nad_biomarker_viewpoint_10_Nov_2026.md"
+        },
+        "zh-TW": {
+          "title": "全血 NAD+ 作為老化的生物標記 — 2026 年 Nature Metabolism 論文群與 vault 之間的觀點差異",
+          "description": "比較 Gardell 與 Baur（Nat Metab 2026）、Trętowicz 等人（Nat Metab 2026）以及 Romenskaja-Avgul 等人（Nat Metab 2026）對全血 NAD+ 作為老化生物標記的立場，與 src/notes/ 及 raw/ 中的 NAD+ 主張，以及從網路檢索的 2025–2026 年人類試驗、回顧與世代證據。",
+          "created": "2026-11-10",
+          "updated": "2026-11-11",
+          "tags": [
+            "task-output",
+            "nad-plus",
+            "aging",
+            "biomarkers",
+            "metabolism",
+            "sirtuins",
+            "clinical-evidence"
+          ],
+          "filename": "task_output_whole_blood_nad_biomarker_viewpoint_10_Nov_2026.md",
+          "path": "tasks/zh-TW/task_output_whole_blood_nad_biomarker_viewpoint_10_Nov_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_whole_blood_nad_biomarker_viewpoint_10_Nov_2026.md"
+        }
+      },
+      "stats": {
+        "words": 3362,
+        "images": 0,
+        "links": 20,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "task_output_nad_metabolism_cd38_sarm1_20_Oct_2026",
       "langs": {
         "en-US": {
@@ -46,10 +93,798 @@
           "filename": "task_output_nad_metabolism_cd38_sarm1_20_Oct_2026.md",
           "path": "tasks/en-US/task_output_nad_metabolism_cd38_sarm1_20_Oct_2026.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_nad_metabolism_cd38_sarm1_20_Oct_2026.md"
+        },
+        "zh-TW": {
+          "title": "NAD+ 代謝與 CD38–SARM1 競爭 — 合併圖譜綜合分析",
+          "description": "將 2026 年 7 月的九份 CD38/SARM1 追蹤產出整合至目前的合併圖譜建置（4,821 個節點／47,925 條邊），重新推導 NAD+ 消費者層級、CD38↔SARM1 競爭與 NMN 連結指標，稽核 NAD+ 模組內的跨層分歧（wiki 已統一、triples 仍分散）與萃取缺口，並闡述 CD38 抑制的藥理學悖論及其文獻解析。",
+          "created": "2026-10-20",
+          "updated": "2026-11-11",
+          "tags": [
+            "task-output",
+            "nad-plus",
+            "cd38",
+            "sarm1",
+            "knowledge-graph",
+            "metabolism",
+            "aging",
+            "sirtuins",
+            "graph-analysis"
+          ],
+          "filename": "task_output_nad_metabolism_cd38_sarm1_20_Oct_2026.md",
+          "path": "tasks/zh-TW/task_output_nad_metabolism_cd38_sarm1_20_Oct_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_nad_metabolism_cd38_sarm1_20_Oct_2026.md"
         }
       },
       "stats": {
         "words": 3882,
+        "images": 0,
+        "links": 0,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00",
+      "langs": {
+        "en-US": {
+          "title": "Outline - Adrenochrome (MB, AG) Protocol",
+          "description": "Protocol outline optimizing for mitohormesis and autophagy via methylene blue oxidative pulsing and aminoguanidine quinone/AGE control, mapping the MRR, GOPS, and SRAC strategies to compounds, mechanisms, dietary sources, and supporting stack components.",
+          "created": "2026-06-27",
+          "updated": "2026-09-29",
+          "tags": [
+            "outline",
+            "adrenochrome",
+            "mitohormesis",
+            "autophagy",
+            "methylene-blue",
+            "aminoguanidine"
+          ],
+          "filename": "outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md",
+          "path": "tasks/en-US/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md"
+        },
+        "zh-TW": {
+          "title": "大綱 - Adrenochrome (MB, AG) 協定",
+          "description": "協定大綱，透過 methylene blue 氧化脈衝與 aminoguanidine 醌／AGE 控制來最佳化粒線體激效性與自噬，將 MRR、GOPS 與 SRAC 策略對應至化合物、機制、膳食來源與支援性堆疊成分。",
+          "created": "2026-06-27",
+          "updated": "2026-11-10",
+          "tags": [
+            "大綱",
+            "腎上腺素紅",
+            "粒線體毒物興奮作用",
+            "自噬",
+            "亞甲基藍",
+            "氨基胍"
+          ],
+          "filename": "outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md",
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md"
+        }
+      },
+      "stats": {
+        "words": 3799,
+        "images": 0,
+        "links": 39,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026",
+      "langs": {
+        "en-US": {
+          "title": "Research Plan: Adrenochrome as a Sirtuin-Modulating Agent Within the Five-Pillar Longevity Framework",
+          "description": "Research plan proposing that controlled sub-toxic adrenochrome redox cycling generates discrete ROS signals intersecting SIRT1-SIRT7 biology at five mechanistic nodes, positioning adrenochrome derivatives as precision probes of mitochondrial redox state and sirtuin-mediated stress adaptation.",
+          "created": "2026-07-04",
+          "updated": "2026-09-29",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "sirtuins",
+            "redox-signaling",
+            "research-plan"
+          ],
+          "filename": "task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026.md",
+          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026.md"
+        },
+        "zh-TW": {
+          "title": "研究計畫：腎上腺素紅作為五支柱長壽框架內的沉默調節蛋白調節劑",
+          "description": "研究計畫提出，受控的亞毒性腎上腺素紅氧化還原循環會產生離散的 ROS 訊號，在五個機械節點處與 SIRT1-SIRT7 生物學交叉，將腎上腺素紅衍生物定位為粒線體氧化還原狀態和 Sirtuin 介導的壓力適應的精密探針。",
+          "created": "2026-07-04",
+          "updated": "2026-11-10",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "sirtuins",
+            "redox-signaling",
+            "research-plan"
+          ],
+          "filename": "task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026.md",
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026.md"
+        }
+      },
+      "stats": {
+        "words": 3379,
+        "images": 0,
+        "links": 373,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "_document_ - combo therapy (MRR, SRAC, GOPS) gemini",
+      "langs": {
+        "en-US": {
+          "title": "outline_adrenochrome_combo_therapy_gemini",
+          "description": "Outline of the adrenochrome combination therapy program (MRR mitohormesis, SRAC senotherapeutics, GOPS glyco-oxidative proteostasis), covering each protocol's core agents, mechanisms, and design rationale",
+          "created": "2026-07-21",
+          "updated": "2026-09-29",
+          "tags": [
+            "gemini"
+          ],
+          "filename": "_document_ - combo therapy (MRR, SRAC, GOPS) gemini.md",
+          "path": "tasks/en-US/adrenochrome_mb_ag/_document_%20-%20combo%20therapy%20%28MRR%2C%20SRAC%2C%20GOPS%29%20gemini.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/_document_%20-%20combo%20therapy%20%28MRR%2C%20SRAC%2C%20GOPS%29%20gemini.md"
+        },
+        "zh-TW": {
+          "title": "outline_adrenochrome_combo_therapy_gemini",
+          "description": "腎上腺紅質組合療法計畫大綱（MRR 粒線體激效性、SRAC 衰老治療、GOPS 糖氧化蛋白穩態），涵蓋各協定的核心藥劑、機制與設計原理",
+          "created": "2026-07-21",
+          "updated": "2026-11-10",
+          "tags": [
+            "雙子座"
+          ],
+          "filename": "_document_ - combo therapy (MRR, SRAC, GOPS) gemini.md",
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20combo%20therapy%20%28MRR%2C%20SRAC%2C%20GOPS%29%20gemini.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20combo%20therapy%20%28MRR%2C%20SRAC%2C%20GOPS%29%20gemini.md"
+        }
+      },
+      "stats": {
+        "words": 2547,
+        "images": 0,
+        "links": 160,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "task_output_adrenochrome_protocol_traces_round3_24_AUG_2026",
+      "langs": {
+        "en-US": {
+          "title": "Adrenochrome Protocol Network Traces, Round 3 — Triples Remediation",
+          "description": "Round-3 prep for the next graph build — resolves the Round-2 follow-up tickets (NMN/GlyNAC/ratio/NF-kB/Complex I) entirely within src/**/_triples.json, with primary-source grounding.",
+          "created": "2026-08-24",
+          "updated": "2026-08-30",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "knowledge-graph",
+            "nad-plus",
+            "network-analysis"
+          ],
+          "filename": "task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md",
+          "path": "tasks/en-US/node_network_adrenochrome_24_AUG_2026/task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_adrenochrome_24_AUG_2026/task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md"
+        },
+        "zh-TW": {
+          "title": "腎上腺素紅協定網路追蹤，第三輪 — 三元組修復",
+          "description": "為下一次圖譜建構所做的第三輪準備 — 完全在 src/**/_triples.json 內解決第二輪的後續事項（NMN／GlyNAC／比例／NF-κB／Complex I），並以初級文獻為依據。",
+          "created": "2026-08-24",
+          "updated": "2026-11-10",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "knowledge-graph",
+            "nad-plus",
+            "network-analysis"
+          ],
+          "filename": "task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md",
+          "path": "tasks/zh-TW/node_network_adrenochrome_24_AUG_2026/task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/node_network_adrenochrome_24_AUG_2026/task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md"
+        }
+      },
+      "stats": {
+        "words": 1052,
+        "images": 0,
+        "links": 0,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "_document_ - GOPS - glyco-oxidative proteostasis",
+      "langs": {
+        "en-US": {
+          "title": "GOPS - Glyco-Oxidative Proteostasis Shield",
+          "description": "Conceptual longevity protocol combining the adrenochrome monoaminoguanidine hybrid molecule, spermidine autophagy induction, and carnosine/EDTA metal chelation to counter glycation (AGEs), oxidative stress, and impaired proteostasis in aging and metabolic stress contexts.",
+          "created": "2026-06-19",
+          "updated": "2026-08-23",
+          "tags": [
+            "clippings",
+            "glycation",
+            "proteostasis"
+          ],
+          "filename": "_document_ - GOPS - glyco-oxidative proteostasis.md",
+          "path": "tasks/en-US/adrenochrome_mb_ag/_document_%20-%20GOPS%20-%20glyco-oxidative%20proteostasis.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/_document_%20-%20GOPS%20-%20glyco-oxidative%20proteostasis.md"
+        },
+        "zh-TW": {
+          "title": "GOPS - 糖氧化蛋白穩態防護盾",
+          "description": "一個概念性的長壽方案，結合腎上腺紅質單胺基胍雜合分子、精胺（spermidine）自噬誘導，以及肌肽／EDTA 金屬螯合，以對抗老化與代謝壓力情境下的糖化（AGEs）、氧化壓力與受損的蛋白穩態。",
+          "created": "2026-06-19",
+          "updated": "2026-11-10",
+          "tags": [
+            "clippings",
+            "glycation",
+            "proteostasis"
+          ],
+          "filename": "_document_ - GOPS - glyco-oxidative proteostasis.md",
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20GOPS%20-%20glyco-oxidative%20proteostasis.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20GOPS%20-%20glyco-oxidative%20proteostasis.md"
+        }
+      },
+      "stats": {
+        "words": 3068,
+        "images": 0,
+        "links": 52,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "_document_ - MRR - mitohormesis, MB, NAD",
+      "langs": {
+        "en-US": {
+          "title": "MRR - Mitohormetic Redox-Relay Protocol (Carbazochrome, MB, NAD)",
+          "description": "Speculative mitohormetic stack using low-dose carbazochrome redox pulsing, methylene blue electron shunting, NAD+ precursors (NR/NMN), and urolithin A mitophagy to address mitochondrial dysfunction through controlled oxidative eustress and biogenesis signaling.",
+          "created": "2026-06-19",
+          "updated": "2026-08-23",
+          "tags": [
+            "clippings",
+            "mitohormesis",
+            "mitochondria"
+          ],
+          "filename": "_document_ - MRR - mitohormesis, MB, NAD.md",
+          "path": "tasks/en-US/adrenochrome_mb_ag/_document_%20-%20MRR%20-%20mitohormesis%2C%20MB%2C%20NAD.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/_document_%20-%20MRR%20-%20mitohormesis%2C%20MB%2C%20NAD.md"
+        },
+        "zh-TW": {
+          "title": "MRR - 粒線體激效性氧化還原中繼協定（Carbazochrome、MB、NAD）",
+          "description": "一個推測性的粒線體激效性堆疊，使用低劑量 carbazochrome 氧化還原脈衝、methylene blue 電子分流、NAD+ 前驅物（NR/NMN），以及 urolithin A 粒線體自噬，透過受控的氧化性良性壓力與生合成訊號來處理粒線體功能障礙。",
+          "created": "2026-06-19",
+          "updated": "2026-11-10",
+          "tags": [
+            "clippings",
+            "mitohormesis",
+            "mitochondria"
+          ],
+          "filename": "_document_ - MRR - mitohormesis, MB, NAD.md",
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20MRR%20-%20mitohormesis%2C%20MB%2C%20NAD.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20MRR%20-%20mitohormesis%2C%20MB%2C%20NAD.md"
+        }
+      },
+      "stats": {
+        "words": 1476,
+        "images": 0,
+        "links": 45,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "_document_ - SRAC - senescent, ligand-conjugated",
+      "langs": {
+        "en-US": {
+          "title": "SRAC - SASP-Remodeling Aminochrome Complex (Original Nanoparticle Formulation)",
+          "description": "Original SRAC senotherapeutic hypothesis (superseded) using nanoparticle-delivered adrenochrome to sensitize senescent cells, combined with rapamycin SASP suppression, fisetin senolysis, and GlyNAC redox buffering to target cellular senescence and inflammaging.",
+          "created": "2026-06-19",
+          "updated": "2026-08-23",
+          "tags": [
+            "clippings",
+            "senescence",
+            "inflammaging"
+          ],
+          "filename": "_document_ - SRAC - senescent, ligand-conjugated.md",
+          "path": "tasks/en-US/adrenochrome_mb_ag/_document_%20-%20SRAC%20-%20senescent%2C%20ligand-conjugated.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/_document_%20-%20SRAC%20-%20senescent%2C%20ligand-conjugated.md"
+        },
+        "zh-TW": {
+          "title": "SRAC - SASP-重塑 Aminochrome 複合物（原始奈米顆粒配方）",
+          "description": "原始的 SRAC 衰老治療假說（已被取代），使用奈米顆粒遞送的腎上腺紅質來致敏衰老細胞，結合 rapamycin 的 SASP 抑制、fisetin 的衰老溶解，以及 GlyNAC 的氧化還原緩衝，以標靶細胞衰老與發炎老化。",
+          "created": "2026-06-19",
+          "updated": "2026-11-10",
+          "tags": [
+            "剪報",
+            "老化",
+            "發炎"
+          ],
+          "filename": "_document_ - SRAC - senescent, ligand-conjugated.md",
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20SRAC%20-%20senescent%2C%20ligand-conjugated.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20SRAC%20-%20senescent%2C%20ligand-conjugated.md"
+        }
+      },
+      "stats": {
+        "words": 3023,
+        "images": 0,
+        "links": 54,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "task_output_SRAC_revision_log_08_JULY_2026",
+      "langs": {
+        "en-US": {
+          "title": "SRAC Protocol Revision Log",
+          "description": "Revision log documenting two structural changes to the SRAC senotherapy protocol — sequential rapamycin-to-fisetin dosing to resolve the senomorphic/senolytic timing conflict, and carbazochrome substitution for adrenochrome to remove nanoparticle delivery.",
+          "created": "2026-07-08",
+          "updated": "2026-08-23",
+          "tags": [
+            "task-output",
+            "senescence",
+            "rapamycin",
+            "fisetin",
+            "carbazochrome"
+          ],
+          "filename": "task_output_SRAC_revision_log_08_JULY_2026.md",
+          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_SRAC_revision_log_08_JULY_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_SRAC_revision_log_08_JULY_2026.md"
+        },
+        "zh-TW": {
+          "title": "SRAC 協定修訂日誌",
+          "description": "記錄 SRAC 衰老治療協定兩項結構性變更的修訂日誌——序列性 rapamycin 至 fisetin 給藥以解決衰老修飾／衰老溶解的時程衝突，以及以 carbazochrome 取代腎上腺紅質以移除奈米顆粒遞送。",
+          "created": "2026-07-08",
+          "updated": "2026-11-10",
+          "tags": [
+            "task-output",
+            "senescence",
+            "rapamycin",
+            "fisetin",
+            "carbazochrome"
+          ],
+          "filename": "task_output_SRAC_revision_log_08_JULY_2026.md",
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_SRAC_revision_log_08_JULY_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/task_output_SRAC_revision_log_08_JULY_2026.md"
+        }
+      },
+      "stats": {
+        "words": 1484,
+        "images": 0,
+        "links": 0,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "task_output_adrenochrome_neutrophil_protocol_25_May_2026",
+      "langs": {
+        "en-US": {
+          "title": "Analysis and Protocol for Human Adrenochrome Replenishment (Hypothetical)",
+          "description": "Hypothetical replenishment protocol grounded in adrenochrome chemistry — instability and redox cycling risks, endogenous production at neutrophil-rich inflammatory sites, stabilization with antioxidants and inert-atmosphere storage, and carbazochrome as a stable delivery form.",
+          "created": "2026-05-25",
+          "updated": "2026-08-23",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "carbazochrome",
+            "redox-cycling"
+          ],
+          "filename": "task_output_adrenochrome_neutrophil_protocol_25_May_2026.md",
+          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_protocol_25_May_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_protocol_25_May_2026.md"
+        },
+        "zh-TW": {
+          "title": "人類腎上腺素紅補充的分析和方案（假設）",
+          "description": "假設的補充方案是基於腎上腺素紅化學——不穩定性和氧化還原循環風險、富含嗜中性球的發炎部位的內源性產生、抗氧化劑的穩定和惰性氣氛儲存以及卡唑鉻作為穩定的遞送形式。",
+          "created": "2026-05-25",
+          "updated": "2026-11-10",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "carbazochrome",
+            "redox-cycling"
+          ],
+          "filename": "task_output_adrenochrome_neutrophil_protocol_25_May_2026.md",
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_protocol_25_May_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_protocol_25_May_2026.md"
+        }
+      },
+      "stats": {
+        "words": 785,
+        "images": 0,
+        "links": 97,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "task_output_adrenochrome_neutrophil_synthesis_25_May_2026",
+      "langs": {
+        "en-US": {
+          "title": "Protocol for Neutrophil-Mediated Adrenochrome Synthesis (Hypothetical)",
+          "description": "Hypothetical protocol leveraging the neutrophil oxidative burst — PMA/zymosan activation of NADPH oxidase and the myeloperoxidase pathway — to catalyze epinephrine conversion to adrenochrome during induced inflammation.",
+          "created": "2026-05-25",
+          "updated": "2026-08-23",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "neutrophils",
+            "myeloperoxidase",
+            "reactive-oxygen-species"
+          ],
+          "filename": "task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md",
+          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md"
+        },
+        "zh-TW": {
+          "title": "嗜中性球介導之腎上腺素紅合成方案（假設性）",
+          "description": "假設性方案，利用嗜中性球的氧化爆發——PMA/酵母聚醣活化 NADPH oxidase 與髓過氧化物酶途徑——於誘導發炎期間催化腎上腺素轉化為腎上腺素紅。",
+          "created": "2026-05-25",
+          "updated": "2026-11-10",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "neutrophils",
+            "myeloperoxidase",
+            "reactive-oxygen-species"
+          ],
+          "filename": "task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md",
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md"
+        }
+      },
+      "stats": {
+        "words": 519,
+        "images": 0,
+        "links": 59,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "task_output_adrenochrome_price_estimates_13_JUL_2026",
+      "langs": {
+        "en-US": {
+          "title": "Supplier & Price Estimates - Adrenochrome (MB, AG) Protocol",
+          "description": "Supplier and cost analysis of pharmaceutical-grade methylene blue (IV) and aminoguanidine for the MB+AG protocol in a 75 kg adult, assuming 10 consecutive treatment days per quarter over four quarters per year.",
+          "created": "2026-07-13",
+          "updated": "2026-08-23",
+          "tags": [
+            "task-output",
+            "methylene-blue",
+            "aminoguanidine",
+            "cost-analysis"
+          ],
+          "filename": "task_output_adrenochrome_price_estimates_13_JUL_2026.md",
+          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_adrenochrome_price_estimates_13_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_price_estimates_13_JUL_2026.md"
+        },
+        "zh-TW": {
+          "title": "供應商與價格估算 — 腎上腺素色素（MB, AG）方案",
+          "description": "針對 75 公斤成人的 MB+AG 方案，進行藥用級亞甲藍（IV）與氨基胍之供應商及成本分析，假設每年四個季度，每季度連續 10 個治療日。",
+          "created": "2026-07-13",
+          "updated": "2026-11-10",
+          "tags": [
+            "task-output",
+            "methylene-blue",
+            "aminoguanidine",
+            "cost-analysis"
+          ],
+          "filename": "task_output_adrenochrome_price_estimates_13_JUL_2026.md",
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_price_estimates_13_JUL_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_price_estimates_13_JUL_2026.md"
+        }
+      },
+      "stats": {
+        "words": 771,
+        "images": 0,
+        "links": 11,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "task_output_pharmacologist_feasibility_16_JUN_2026",
+      "langs": {
+        "en-US": {
+          "title": "Pharmacological Analysis - Adrenochrome Combination Therapies",
+          "description": "Pharmacologist feasibility assessment of three combination therapies (MRR, SRAC, GOPS) that use adrenochrome derivatives as precision mitohormetic triggers targeting mitochondrial biogenesis, cellular senescence/SASP, and proteostasis, with scored plausibility and safety evaluations.",
+          "created": "2026-06-16",
+          "updated": "2026-08-23",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "mitohormesis",
+            "senescence",
+            "proteostasis",
+            "feasibility-assessment"
+          ],
+          "filename": "task_output_pharmacologist_feasibility_16_JUN_2026.md",
+          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_pharmacologist_feasibility_16_JUN_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_pharmacologist_feasibility_16_JUN_2026.md"
+        },
+        "zh-TW": {
+          "title": "藥理學分析 — 腎上腺色素複方療法",
+          "description": "藥理學家針對三種複方療法（MRR、SRAC、GOPS）的可行性評估，該等療法利用腎上腺色素衍生物作為精準粒線體激效觸發劑，目標為粒線體生合成、細胞衰老/SASP 及蛋白質恆定，並附有評分的合理性與安全性評估。",
+          "created": "2026-06-16",
+          "updated": "2026-11-10",
+          "tags": [
+            "task-output",
+            "adrenochrome",
+            "mitohormesis",
+            "senescence",
+            "proteostasis",
+            "feasibility-assessment"
+          ],
+          "filename": "task_output_pharmacologist_feasibility_16_JUN_2026.md",
+          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_pharmacologist_feasibility_16_JUN_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/task_output_pharmacologist_feasibility_16_JUN_2026.md"
+        }
+      },
+      "stats": {
+        "words": 1486,
+        "images": 0,
+        "links": 14,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "task_output_eryptosis_and_aging_12_hallmarks_09_Nov_2026",
+      "langs": {
+        "en-US": {
+          "title": "Eryptosis and aging — a 12-hallmark mapping",
+          "description": "Hallmark-by-hallmark assessment of how the 12 hallmarks of aging (López-Otín et al. 2023) relate to eryptosis and erythrocyte aging, separating mature-erythrocyte, erythroid-lineage, and systemic levels of action, with published evidence tiers, a source audit, and a premises test of eryptosis as a hallmark candidate.",
+          "created": "2026-11-09",
+          "updated": "2026-11-09",
+          "tags": [
+            "cell-death",
+            "eryptosis",
+            "geroscience",
+            "hallmarks-of-aging",
+            "erythrocyte",
+            "aging",
+            "evidence-synthesis"
+          ],
+          "filename": "task_output_eryptosis_and_aging_12_hallmarks_09_Nov_2026.md",
+          "path": "tasks/en-US/task_output_eryptosis_and_aging_12_hallmarks_09_Nov_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_eryptosis_and_aging_12_hallmarks_09_Nov_2026.md"
+        },
+        "zh-TW": {
+          "title": "紅血球凋亡（eryptosis）與老化 — 12 項老化特徵對應",
+          "description": "以 López-Otín 等人 2023 年提出的 12 項老化特徵為架構，逐項評估其與 eryptosis 及紅血球老化的關係，區分成熟紅血球、紅血球系列與全身性三個作用位階，附已發表證據層級、來源查核，以及將 eryptosis 檢視為老化特徵候選項的前提檢驗。",
+          "created": "2026-11-09",
+          "updated": "2026-11-09",
+          "tags": [
+            "cell-death",
+            "eryptosis",
+            "geroscience",
+            "hallmarks-of-aging",
+            "erythrocyte",
+            "aging",
+            "evidence-synthesis"
+          ],
+          "filename": "task_output_eryptosis_and_aging_12_hallmarks_09_Nov_2026.md",
+          "path": "tasks/zh-TW/task_output_eryptosis_and_aging_12_hallmarks_09_Nov_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_eryptosis_and_aging_12_hallmarks_09_Nov_2026.md"
+        }
+      },
+      "stats": {
+        "words": 4166,
+        "images": 0,
+        "links": 146,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "task_output_eat_me_dont_eat_me_signals_08_Nov_2026",
+      "langs": {
+        "en-US": {
+          "title": "Eat-me and don't-eat-me phagocytic signals — comparative inventory",
+          "description": "Compiled inventory of pro-phagocytic (eat-me) and anti-phagocytic (don't-eat-me) cell-surface signals with receptors, execution machinery, physiological contexts, and evidence-tier annotations, synthesized from vault notes plus published reviews.",
+          "created": "2026-11-08",
+          "updated": "2026-11-08",
+          "tags": [
+            "cell-death",
+            "efferocytosis",
+            "phagocytosis",
+            "immunology",
+            "cancer-immunotherapy",
+            "eryptosis"
+          ],
+          "filename": "task_output_eat_me_dont_eat_me_signals_08_Nov_2026.md",
+          "path": "tasks/en-US/task_output_eat_me_dont_eat_me_signals_08_Nov_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_eat_me_dont_eat_me_signals_08_Nov_2026.md"
+        },
+        "zh-TW": {
+          "title": "吃我與不許吃我噬訊號 — 比較清單",
+          "description": "彙整促吞噬（eat-me）與抗吞噬（don't-eat-me）細胞表面訊號的清單，含受體、執行機器、生理情境與證據層級標註，綜合自知識庫筆記與已發表綜述。",
+          "created": "2026-11-08",
+          "updated": "2026-11-08",
+          "tags": [
+            "cell-death",
+            "efferocytosis",
+            "phagocytosis",
+            "immunology",
+            "cancer-immunotherapy",
+            "eryptosis"
+          ],
+          "filename": "task_output_eat_me_dont_eat_me_signals_08_Nov_2026.md",
+          "path": "tasks/zh-TW/task_output_eat_me_dont_eat_me_signals_08_Nov_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_eat_me_dont_eat_me_signals_08_Nov_2026.md"
+        }
+      },
+      "stats": {
+        "words": 1684,
+        "images": 0,
+        "links": 52,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "task_output_adrenochrome_eryptosis_crossover_04_Nov_2026",
+      "langs": {
+        "en-US": {
+          "title": "Adrenochrome–eryptosis crossover — evidence synthesis",
+          "description": "Synthesis of vault notes and cited sources on the mechanistic overlap between adrenochrome (epinephrine autoxidation product) and eryptosis (Ca2+/PS-executed erythrocyte death), covering erythrocyte oxidation routes, shared glutathione/G6PD and Ca2+ nodes, hemolysis versus eryptosis branching, and the absence of direct experimental demonstration; evidence tiers annotated.",
+          "created": "2026-11-04",
+          "updated": "2026-11-04",
+          "tags": [
+            "adrenochrome",
+            "eryptosis",
+            "erythrocyte",
+            "oxidative-stress",
+            "cell-death",
+            "longevity"
+          ],
+          "filename": "task_output_adrenochrome_eryptosis_crossover_04_Nov_2026.md",
+          "path": "tasks/en-US/task_output_adrenochrome_eryptosis_crossover_04_Nov_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_adrenochrome_eryptosis_crossover_04_Nov_2026.md"
+        },
+        "zh-TW": {
+          "title": "Adrenochrome–eryptosis 交叉——證據綜合",
+          "description": "彙整知識庫筆記與所引來源，探討 adrenochrome（腎上腺素自氧化產物）與 eryptosis（Ca²⁺/PS 執行的紅血球死亡）之間的機制重疊，涵蓋紅血球氧化路徑、共享的 glutathione/G6PD 與 Ca²⁺ 節點、溶血 vs eryptosis 分流，以及缺乏直接實驗證明；均標註證據層級。",
+          "created": "2026-11-04",
+          "updated": "2026-11-04",
+          "tags": [
+            "adrenochrome",
+            "eryptosis",
+            "erythrocyte",
+            "oxidative-stress",
+            "cell-death",
+            "longevity"
+          ],
+          "filename": "task_output_adrenochrome_eryptosis_crossover_04_Nov_2026.md",
+          "path": "tasks/zh-TW/task_output_adrenochrome_eryptosis_crossover_04_Nov_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_adrenochrome_eryptosis_crossover_04_Nov_2026.md"
+        }
+      },
+      "stats": {
+        "words": 1641,
+        "images": 0,
+        "links": 50,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "task_output_eryptosis_excess_and_under_clearance_04_Nov_2026",
+      "langs": {
+        "en-US": {
+          "title": "Eryptosis — excess death signaling and under-clearance; evidence synthesis",
+          "description": "Synthesis of vault notes and the published literature on eryptosis as regulated erythrocyte clearance, its relevance to longevity/anti-aging, the absence of a quantified normal eryptotic fraction, and the two failure modes — accelerated eryptosis (anemia, PS-mediated coagulation, endothelial dysfunction) and insufficient eryptosis/under-clearance of damaged/PS-positive cells (hemolysis and persistent procoagulant cells) — with evidence-tier annotations.",
+          "created": "2026-11-04",
+          "updated": "2026-11-04",
+          "tags": [
+            "cell-death",
+            "eryptosis",
+            "erythrocyte",
+            "longevity",
+            "coagulation",
+            "anemia",
+            "chronic-kidney-disease"
+          ],
+          "filename": "task_output_eryptosis_excess_and_under_clearance_04_Nov_2026.md",
+          "path": "tasks/en-US/task_output_eryptosis_excess_and_under_clearance_04_Nov_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_eryptosis_excess_and_under_clearance_04_Nov_2026.md"
+        },
+        "zh-TW": {
+          "title": "紅血球凋亡（eryptosis）— 過度死亡訊號與清除不足；證據綜合",
+          "description": "彙整知識庫筆記與已發表文獻，探討 eryptosis 作為受調控的紅血球清除機制、其與長壽／抗老化的關聯、正常人群 eryptotic fraction 缺乏量化數據，以及兩種失敗模式——加速型 eryptosis（貧血、PS 介導的凝血、內皮功能障礙）與 eryptosis 不足／PS 陽性細胞清除不足（溶血與持續性促凝血細胞）——並標註證據層級。",
+          "created": "2026-11-04",
+          "updated": "2026-11-04",
+          "tags": [
+            "cell-death",
+            "eryptosis",
+            "erythrocyte",
+            "longevity",
+            "coagulation",
+            "anemia",
+            "chronic-kidney-disease"
+          ],
+          "filename": "task_output_eryptosis_excess_and_under_clearance_04_Nov_2026.md",
+          "path": "tasks/zh-TW/task_output_eryptosis_excess_and_under_clearance_04_Nov_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_eryptosis_excess_and_under_clearance_04_Nov_2026.md"
+        }
+      },
+      "stats": {
+        "words": 2575,
+        "images": 0,
+        "links": 29,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "task_output_eryptosis_review_vs_cell_death_01_Oct_2026",
+      "langs": {
+        "en-US": {
+          "title": "Tkachenko 2025 eryptosis review — mechanisms, distinction from other cell-death modalities, and corrections for cell-death-comparison.html",
+          "description": "Scope: Tkachenko et al. 2025 (Cell Death Dis 16:467) — eryptosis signalling mechanisms, distinctions from other regulated cell-death modalities, evidence published since 2001, and 18 proposed corrections to the eryptosis row of cell-death-comparison.html.",
+          "created": "2026-10-01",
+          "updated": "2026-11-04",
+          "tags": [
+            "cell-death",
+            "eryptosis",
+            "erythrocyte",
+            "calcium-signaling",
+            "ceramide",
+            "eryptosis-nomenclature",
+            "pharmacology"
+          ],
+          "filename": "task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md",
+          "path": "tasks/en-US/task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md"
+        },
+        "zh-TW": {
+          "title": "Tkachenko 2025 eryptosis 綜述——機制、與其他細胞死亡型式的區別，以及 cell-death-comparison.html 的修正",
+          "description": "範圍：Tkachenko 等人 2025（Cell Death Dis 16:467）——eryptosis 訊號傳遞機制、與其他受調控細胞死亡型式的區別、2001 年以來發表的證據，以及針對 cell-death-comparison.html eryptosis 列的 18 項擬議修正。",
+          "created": "2026-10-01",
+          "updated": "2026-11-04",
+          "tags": [
+            "cell-death",
+            "eryptosis",
+            "erythrocyte",
+            "calcium-signaling",
+            "ceramide",
+            "eryptosis-nomenclature",
+            "pharmacology"
+          ],
+          "filename": "task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md",
+          "path": "tasks/zh-TW/task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md"
+        }
+      },
+      "stats": {
+        "words": 4585,
+        "images": 7,
+        "links": 16,
+        "diagrams": 1
+      }
+    },
+    {
+      "id": "task_output_major_research_gaps_review_03_Nov_2026",
+      "langs": {
+        "en-US": {
+          "title": "Research Gaps Across Task Outputs — Review",
+          "description": "Consolidated open questions and coverage gaps reported across ~90 task outputs in src/tasks/ (June–October 2026), grouped by thematic cluster, with recurring human-data, biomarker, and window-definition deficits and a source-derived priority order.",
+          "created": "2026-11-03",
+          "updated": "2026-11-04",
+          "tags": [
+            "research-gaps",
+            "review",
+            "meta-analysis",
+            "geroscience"
+          ],
+          "filename": "task_output_major_research_gaps_review_03_Nov_2026.md",
+          "path": "tasks/en-US/task_output_major_research_gaps_review_03_Nov_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_major_research_gaps_review_03_Nov_2026.md"
+        },
+        "zh-TW": {
+          "title": "任務輸出中的研究缺口 — 綜述",
+          "description": "彙整 src/tasks/ 約 90 份任務輸出（2026 年 6–10 月）所回報的開放問題與涵蓋缺口，依主題分組，並列出反覆出現的人體資料、生物標記與激效窗口定義缺口，以及依來源推導的優先順序。",
+          "created": "2026-11-03",
+          "updated": "2026-11-04",
+          "tags": [
+            "research-gaps",
+            "review",
+            "meta-analysis",
+            "geroscience"
+          ],
+          "filename": "task_output_major_research_gaps_review_03_Nov_2026.md",
+          "path": "tasks/zh-TW/task_output_major_research_gaps_review_03_Nov_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_major_research_gaps_review_03_Nov_2026.md"
+        }
+      },
+      "stats": {
+        "words": 2969,
         "images": 0,
         "links": 0,
         "diagrams": 0
@@ -107,141 +942,6 @@
       }
     },
     {
-      "id": "task_output_eryptosis_review_vs_cell_death_01_Oct_2026",
-      "langs": {
-        "en-US": {
-          "title": "Eryptosis 2025 — mechanistic update, how it differs from other cell death programs, and review points for cell-death-comparison.html",
-          "description": "Draft summary/outline of Tkachenko et al. 2025 (Cell Death Dis 16:467) focused on eryptosis's distinct signalling, what is new since the 2001-2010 literature, and concrete corrections to the eryptosis row on the cell-death comparison page.",
-          "created": "2026-10-01",
-          "updated": "2026-10-04",
-          "tags": [
-            "cell-death",
-            "eryptosis",
-            "erythrocyte",
-            "calcium-signaling",
-            "ceramide",
-            "eryptosis-nomenclature",
-            "pharmacology"
-          ],
-          "filename": "task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md",
-          "path": "tasks/en-US/task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md"
-        },
-        "zh-TW": {
-          "title": "紅血球凋亡（eryptosis）2025 — 機制更新、與其他細胞死亡程式的差異，以及 cell-death-comparison.html 的審查要點",
-          "description": "Tkachenko 等人 2025（Cell Death Dis 16:467）的摘要大綱草案，聚焦於 eryptosis 獨特的訊號傳遞、相較 2001–2010 年文獻的新進展，以及對細胞死亡比較頁面 eryptosis 列的具體修正建議。",
-          "created": "2026-10-01",
-          "updated": "2026-10-04",
-          "tags": [
-            "cell-death",
-            "eryptosis",
-            "erythrocyte",
-            "calcium-signaling",
-            "ceramide",
-            "eryptosis-nomenclature",
-            "pharmacology"
-          ],
-          "filename": "task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md",
-          "path": "tasks/zh-TW/task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_eryptosis_review_vs_cell_death_01_Oct_2026.md"
-        }
-      },
-      "stats": {
-        "words": 4569,
-        "images": 7,
-        "links": 5,
-        "diagrams": 1
-      }
-    },
-    {
-      "id": "outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00",
-      "langs": {
-        "en-US": {
-          "title": "Outline - Adrenochrome (MB, AG) Protocol",
-          "description": "Protocol outline optimizing for mitohormesis and autophagy via methylene blue oxidative pulsing and aminoguanidine quinone/AGE control, mapping the MRR, GOPS, and SRAC strategies to compounds, mechanisms, dietary sources, and supporting stack components.",
-          "created": "2026-06-27",
-          "updated": "2026-09-29",
-          "tags": [
-            "outline",
-            "adrenochrome",
-            "mitohormesis",
-            "autophagy",
-            "methylene-blue",
-            "aminoguanidine"
-          ],
-          "filename": "outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md"
-        },
-        "zh-TW": {
-          "title": "大綱 - Adrenochrome (MB, AG) 協定",
-          "description": "協定大綱，透過 methylene blue 氧化脈衝與 aminoguanidine 醌／AGE 控制來最佳化粒線體激效性與自噬，將 MRR、GOPS 與 SRAC 策略對應至化合物、機制、膳食來源與支援性堆疊成分。",
-          "created": "2026-06-27",
-          "updated": "2026-09-22",
-          "tags": [
-            "大綱",
-            "腎上腺素紅",
-            "粒線體毒物興奮作用",
-            "自噬",
-            "亞甲基藍",
-            "氨基胍"
-          ],
-          "filename": "outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md"
-        }
-      },
-      "stats": {
-        "words": 3799,
-        "images": 0,
-        "links": 39,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026",
-      "langs": {
-        "en-US": {
-          "title": "Research Plan: Adrenochrome as a Sirtuin-Modulating Agent Within the Five-Pillar Longevity Framework",
-          "description": "Research plan proposing that controlled sub-toxic adrenochrome redox cycling generates discrete ROS signals intersecting SIRT1-SIRT7 biology at five mechanistic nodes, positioning adrenochrome derivatives as precision probes of mitochondrial redox state and sirtuin-mediated stress adaptation.",
-          "created": "2026-07-04",
-          "updated": "2026-09-29",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "sirtuins",
-            "redox-signaling",
-            "research-plan"
-          ],
-          "filename": "task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026.md"
-        },
-        "zh-TW": {
-          "title": "研究計畫：腎上腺素紅作為五支柱長壽框架內的沉默調節蛋白調節劑",
-          "description": "研究計畫提出，受控的亞毒性腎上腺素紅氧化還原循環會產生離散的 ROS 訊號，在五個機械節點處與 SIRT1-SIRT7 生物學交叉，將腎上腺素紅衍生物定位為粒線體氧化還原狀態和 Sirtuin 介導的壓力適應的精密探針。",
-          "created": "2026-07-04",
-          "updated": "2026-09-22",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "sirtuins",
-            "redox-signaling",
-            "research-plan"
-          ],
-          "filename": "task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_research_plan_04_JULY_2026.md"
-        }
-      },
-      "stats": {
-        "words": 3379,
-        "images": 0,
-        "links": 373,
-        "diagrams": 0
-      }
-    },
-    {
       "id": "task_output_biomarker_gate_biology_anatomy_review_29_Sep_2026",
       "langs": {
         "en-US": {
@@ -291,41 +991,6 @@
         "words": 6924,
         "images": 0,
         "links": 495,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "_document_ - combo therapy (MRR, SRAC, GOPS) gemini",
-      "langs": {
-        "en-US": {
-          "title": "outline_adrenochrome_combo_therapy_gemini",
-          "description": "Outline of the adrenochrome combination therapy program (MRR mitohormesis, SRAC senotherapeutics, GOPS glyco-oxidative proteostasis), covering each protocol's core agents, mechanisms, and design rationale",
-          "created": "2026-07-21",
-          "updated": "2026-09-29",
-          "tags": [
-            "gemini"
-          ],
-          "filename": "_document_ - combo therapy (MRR, SRAC, GOPS) gemini.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/_document_%20-%20combo%20therapy%20%28MRR%2C%20SRAC%2C%20GOPS%29%20gemini.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/_document_%20-%20combo%20therapy%20%28MRR%2C%20SRAC%2C%20GOPS%29%20gemini.md"
-        },
-        "zh-TW": {
-          "title": "outline_adrenochrome_combo_therapy_gemini",
-          "description": "腎上腺紅質組合療法計畫大綱（MRR 粒線體激效性、SRAC 衰老治療、GOPS 糖氧化蛋白穩態），涵蓋各協定的核心藥劑、機制與設計原理",
-          "created": "2026-07-21",
-          "updated": "2026-09-22",
-          "tags": [
-            "雙子座"
-          ],
-          "filename": "_document_ - combo therapy (MRR, SRAC, GOPS) gemini.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20combo%20therapy%20%28MRR%2C%20SRAC%2C%20GOPS%29%20gemini.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20combo%20therapy%20%28MRR%2C%20SRAC%2C%20GOPS%29%20gemini.md"
-        }
-      },
-      "stats": {
-        "words": 2547,
-        "images": 0,
-        "links": 160,
         "diagrams": 0
       }
     },
@@ -834,49 +1499,6 @@
       }
     },
     {
-      "id": "task_output_adrenochrome_protocol_traces_round3_24_AUG_2026",
-      "langs": {
-        "en-US": {
-          "title": "Adrenochrome Protocol Network Traces, Round 3 — Triples Remediation",
-          "description": "Round-3 prep for the next graph build — resolves the Round-2 follow-up tickets (NMN/GlyNAC/ratio/NF-kB/Complex I) entirely within src/**/_triples.json, with primary-source grounding.",
-          "created": "2026-08-24",
-          "updated": "2026-08-30",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "knowledge-graph",
-            "nad-plus",
-            "network-analysis"
-          ],
-          "filename": "task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md",
-          "path": "tasks/en-US/node_network_adrenochrome_24_AUG_2026/task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_adrenochrome_24_AUG_2026/task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md"
-        },
-        "zh-TW": {
-          "title": "腎上腺素紅協定網路追蹤，第三輪 — 三元組修復",
-          "description": "為下一次圖譜建構所做的第三輪準備 — 完全在 src/**/_triples.json 內解決第二輪的後續事項（NMN／GlyNAC／比例／NF-κB／Complex I），並以初級文獻為依據。",
-          "created": "2026-08-24",
-          "updated": "2026-09-22",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "knowledge-graph",
-            "nad-plus",
-            "network-analysis"
-          ],
-          "filename": "task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md",
-          "path": "tasks/zh-TW/node_network_adrenochrome_24_AUG_2026/task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/node_network_adrenochrome_24_AUG_2026/task_output_adrenochrome_protocol_traces_round3_24_AUG_2026.md"
-        }
-      },
-      "stats": {
-        "words": 1052,
-        "images": 0,
-        "links": 0,
-        "diagrams": 0
-      }
-    },
-    {
       "id": "task_output_adrenochrome_protocol_traces_round2_21_AUG_2026",
       "langs": {
         "en-US": {
@@ -1010,45 +1632,6 @@
       }
     },
     {
-      "id": "_document_ - GOPS - glyco-oxidative proteostasis",
-      "langs": {
-        "en-US": {
-          "title": "GOPS - Glyco-Oxidative Proteostasis Shield",
-          "description": "Conceptual longevity protocol combining the adrenochrome monoaminoguanidine hybrid molecule, spermidine autophagy induction, and carnosine/EDTA metal chelation to counter glycation (AGEs), oxidative stress, and impaired proteostasis in aging and metabolic stress contexts.",
-          "created": "2026-06-19",
-          "updated": "2026-08-23",
-          "tags": [
-            "clippings",
-            "glycation",
-            "proteostasis"
-          ],
-          "filename": "_document_ - GOPS - glyco-oxidative proteostasis.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/_document_%20-%20GOPS%20-%20glyco-oxidative%20proteostasis.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/_document_%20-%20GOPS%20-%20glyco-oxidative%20proteostasis.md"
-        },
-        "zh-TW": {
-          "title": "GOPS - 糖氧化蛋白穩態防護盾",
-          "description": "一個概念性的長壽方案，結合腎上腺紅質單胺基胍雜合分子、精胺（spermidine）自噬誘導，以及肌肽／EDTA 金屬螯合，以對抗老化與代謝壓力情境下的糖化（AGEs）、氧化壓力與受損的蛋白穩態。",
-          "created": "2026-06-19",
-          "updated": "2026-09-22",
-          "tags": [
-            "clippings",
-            "glycation",
-            "proteostasis"
-          ],
-          "filename": "_document_ - GOPS - glyco-oxidative proteostasis.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20GOPS%20-%20glyco-oxidative%20proteostasis.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20GOPS%20-%20glyco-oxidative%20proteostasis.md"
-        }
-      },
-      "stats": {
-        "words": 3068,
-        "images": 0,
-        "links": 52,
-        "diagrams": 0
-      }
-    },
-    {
       "id": "_document_ - MB, AG nitric oxide pathway signaling",
       "langs": {
         "en-US": {
@@ -1086,127 +1669,6 @@
         "words": 913,
         "images": 0,
         "links": 82,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "_document_ - MRR - mitohormesis, MB, NAD",
-      "langs": {
-        "en-US": {
-          "title": "MRR - Mitohormetic Redox-Relay Protocol (Carbazochrome, MB, NAD)",
-          "description": "Speculative mitohormetic stack using low-dose carbazochrome redox pulsing, methylene blue electron shunting, NAD+ precursors (NR/NMN), and urolithin A mitophagy to address mitochondrial dysfunction through controlled oxidative eustress and biogenesis signaling.",
-          "created": "2026-06-19",
-          "updated": "2026-08-23",
-          "tags": [
-            "clippings",
-            "mitohormesis",
-            "mitochondria"
-          ],
-          "filename": "_document_ - MRR - mitohormesis, MB, NAD.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/_document_%20-%20MRR%20-%20mitohormesis%2C%20MB%2C%20NAD.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/_document_%20-%20MRR%20-%20mitohormesis%2C%20MB%2C%20NAD.md"
-        },
-        "zh-TW": {
-          "title": "MRR - 粒線體激效性氧化還原中繼協定（Carbazochrome、MB、NAD）",
-          "description": "一個推測性的粒線體激效性堆疊，使用低劑量 carbazochrome 氧化還原脈衝、methylene blue 電子分流、NAD+ 前驅物（NR/NMN），以及 urolithin A 粒線體自噬，透過受控的氧化性良性壓力與生合成訊號來處理粒線體功能障礙。",
-          "created": "2026-06-19",
-          "updated": "2026-09-22",
-          "tags": [
-            "clippings",
-            "mitohormesis",
-            "mitochondria"
-          ],
-          "filename": "_document_ - MRR - mitohormesis, MB, NAD.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20MRR%20-%20mitohormesis%2C%20MB%2C%20NAD.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20MRR%20-%20mitohormesis%2C%20MB%2C%20NAD.md"
-        }
-      },
-      "stats": {
-        "words": 1476,
-        "images": 0,
-        "links": 45,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "_document_ - SRAC - senescent, ligand-conjugated",
-      "langs": {
-        "en-US": {
-          "title": "SRAC - SASP-Remodeling Aminochrome Complex (Original Nanoparticle Formulation)",
-          "description": "Original SRAC senotherapeutic hypothesis (superseded) using nanoparticle-delivered adrenochrome to sensitize senescent cells, combined with rapamycin SASP suppression, fisetin senolysis, and GlyNAC redox buffering to target cellular senescence and inflammaging.",
-          "created": "2026-06-19",
-          "updated": "2026-08-23",
-          "tags": [
-            "clippings",
-            "senescence",
-            "inflammaging"
-          ],
-          "filename": "_document_ - SRAC - senescent, ligand-conjugated.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/_document_%20-%20SRAC%20-%20senescent%2C%20ligand-conjugated.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/_document_%20-%20SRAC%20-%20senescent%2C%20ligand-conjugated.md"
-        },
-        "zh-TW": {
-          "title": "SRAC - SASP-重塑 Aminochrome 複合物（原始奈米顆粒配方）",
-          "description": "原始的 SRAC 衰老治療假說（已被取代），使用奈米顆粒遞送的腎上腺紅質來致敏衰老細胞，結合 rapamycin 的 SASP 抑制、fisetin 的衰老溶解，以及 GlyNAC 的氧化還原緩衝，以標靶細胞衰老與發炎老化。",
-          "created": "2026-06-19",
-          "updated": "2026-09-22",
-          "tags": [
-            "剪報",
-            "老化",
-            "發炎"
-          ],
-          "filename": "_document_ - SRAC - senescent, ligand-conjugated.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20SRAC%20-%20senescent%2C%20ligand-conjugated.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/_document_%20-%20SRAC%20-%20senescent%2C%20ligand-conjugated.md"
-        }
-      },
-      "stats": {
-        "words": 3023,
-        "images": 0,
-        "links": 54,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "task_output_SRAC_revision_log_08_JULY_2026",
-      "langs": {
-        "en-US": {
-          "title": "SRAC Protocol Revision Log",
-          "description": "Revision log documenting two structural changes to the SRAC senotherapy protocol — sequential rapamycin-to-fisetin dosing to resolve the senomorphic/senolytic timing conflict, and carbazochrome substitution for adrenochrome to remove nanoparticle delivery.",
-          "created": "2026-07-08",
-          "updated": "2026-08-23",
-          "tags": [
-            "task-output",
-            "senescence",
-            "rapamycin",
-            "fisetin",
-            "carbazochrome"
-          ],
-          "filename": "task_output_SRAC_revision_log_08_JULY_2026.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_SRAC_revision_log_08_JULY_2026.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_SRAC_revision_log_08_JULY_2026.md"
-        },
-        "zh-TW": {
-          "title": "SRAC 協定修訂日誌",
-          "description": "記錄 SRAC 衰老治療協定兩項結構性變更的修訂日誌——序列性 rapamycin 至 fisetin 給藥以解決衰老修飾／衰老溶解的時程衝突，以及以 carbazochrome 取代腎上腺紅質以移除奈米顆粒遞送。",
-          "created": "2026-07-08",
-          "updated": "2026-09-22",
-          "tags": [
-            "task-output",
-            "senescence",
-            "rapamycin",
-            "fisetin",
-            "carbazochrome"
-          ],
-          "filename": "task_output_SRAC_revision_log_08_JULY_2026.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_SRAC_revision_log_08_JULY_2026.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/task_output_SRAC_revision_log_08_JULY_2026.md"
-        }
-      },
-      "stats": {
-        "words": 1484,
-        "images": 0,
-        "links": 0,
         "diagrams": 0
       }
     },
@@ -1250,176 +1712,6 @@
         "words": 1527,
         "images": 0,
         "links": 0,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "task_output_adrenochrome_neutrophil_protocol_25_May_2026",
-      "langs": {
-        "en-US": {
-          "title": "Analysis and Protocol for Human Adrenochrome Replenishment (Hypothetical)",
-          "description": "Hypothetical replenishment protocol grounded in adrenochrome chemistry — instability and redox cycling risks, endogenous production at neutrophil-rich inflammatory sites, stabilization with antioxidants and inert-atmosphere storage, and carbazochrome as a stable delivery form.",
-          "created": "2026-05-25",
-          "updated": "2026-08-23",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "carbazochrome",
-            "redox-cycling"
-          ],
-          "filename": "task_output_adrenochrome_neutrophil_protocol_25_May_2026.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_protocol_25_May_2026.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_protocol_25_May_2026.md"
-        },
-        "zh-TW": {
-          "title": "人類腎上腺素紅補充的分析和方案（假設）",
-          "description": "假設的補充方案是基於腎上腺素紅化學——不穩定性和氧化還原循環風險、富含嗜中性球的發炎部位的內源性產生、抗氧化劑的穩定和惰性氣氛儲存以及卡唑鉻作為穩定的遞送形式。",
-          "created": "2026-05-25",
-          "updated": "2026-09-22",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "carbazochrome",
-            "redox-cycling"
-          ],
-          "filename": "task_output_adrenochrome_neutrophil_protocol_25_May_2026.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_protocol_25_May_2026.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_protocol_25_May_2026.md"
-        }
-      },
-      "stats": {
-        "words": 785,
-        "images": 0,
-        "links": 97,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "task_output_adrenochrome_neutrophil_synthesis_25_May_2026",
-      "langs": {
-        "en-US": {
-          "title": "Protocol for Neutrophil-Mediated Adrenochrome Synthesis (Hypothetical)",
-          "description": "Hypothetical protocol leveraging the neutrophil oxidative burst — PMA/zymosan activation of NADPH oxidase and the myeloperoxidase pathway — to catalyze epinephrine conversion to adrenochrome during induced inflammation.",
-          "created": "2026-05-25",
-          "updated": "2026-08-23",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "neutrophils",
-            "myeloperoxidase",
-            "reactive-oxygen-species"
-          ],
-          "filename": "task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md"
-        },
-        "zh-TW": {
-          "title": "嗜中性球介導之腎上腺素紅合成方案（假設性）",
-          "description": "假設性方案，利用嗜中性球的氧化爆發——PMA/酵母聚醣活化 NADPH oxidase 與髓過氧化物酶途徑——於誘導發炎期間催化腎上腺素轉化為腎上腺素紅。",
-          "created": "2026-05-25",
-          "updated": "2026-09-22",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "neutrophils",
-            "myeloperoxidase",
-            "reactive-oxygen-species"
-          ],
-          "filename": "task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_neutrophil_synthesis_25_May_2026.md"
-        }
-      },
-      "stats": {
-        "words": 519,
-        "images": 0,
-        "links": 59,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "task_output_adrenochrome_price_estimates_13_JUL_2026",
-      "langs": {
-        "en-US": {
-          "title": "Supplier & Price Estimates - Adrenochrome (MB, AG) Protocol",
-          "description": "Supplier and cost analysis of pharmaceutical-grade methylene blue (IV) and aminoguanidine for the MB+AG protocol in a 75 kg adult, assuming 10 consecutive treatment days per quarter over four quarters per year.",
-          "created": "2026-07-13",
-          "updated": "2026-08-23",
-          "tags": [
-            "task-output",
-            "methylene-blue",
-            "aminoguanidine",
-            "cost-analysis"
-          ],
-          "filename": "task_output_adrenochrome_price_estimates_13_JUL_2026.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_adrenochrome_price_estimates_13_JUL_2026.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_price_estimates_13_JUL_2026.md"
-        },
-        "zh-TW": {
-          "title": "供應商與價格估算 — 腎上腺素色素（MB, AG）方案",
-          "description": "針對 75 公斤成人的 MB+AG 方案，進行藥用級亞甲藍（IV）與氨基胍之供應商及成本分析，假設每年四個季度，每季度連續 10 個治療日。",
-          "created": "2026-07-13",
-          "updated": "2026-09-22",
-          "tags": [
-            "task-output",
-            "methylene-blue",
-            "aminoguanidine",
-            "cost-analysis"
-          ],
-          "filename": "task_output_adrenochrome_price_estimates_13_JUL_2026.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_price_estimates_13_JUL_2026.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/task_output_adrenochrome_price_estimates_13_JUL_2026.md"
-        }
-      },
-      "stats": {
-        "words": 771,
-        "images": 0,
-        "links": 11,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "task_output_pharmacologist_feasibility_16_JUN_2026",
-      "langs": {
-        "en-US": {
-          "title": "Pharmacological Analysis - Adrenochrome Combination Therapies",
-          "description": "Pharmacologist feasibility assessment of three combination therapies (MRR, SRAC, GOPS) that use adrenochrome derivatives as precision mitohormetic triggers targeting mitochondrial biogenesis, cellular senescence/SASP, and proteostasis, with scored plausibility and safety evaluations.",
-          "created": "2026-06-16",
-          "updated": "2026-08-23",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "mitohormesis",
-            "senescence",
-            "proteostasis",
-            "feasibility-assessment"
-          ],
-          "filename": "task_output_pharmacologist_feasibility_16_JUN_2026.md",
-          "path": "tasks/en-US/adrenochrome_mb_ag/task_output_pharmacologist_feasibility_16_JUN_2026.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_pharmacologist_feasibility_16_JUN_2026.md"
-        },
-        "zh-TW": {
-          "title": "藥理學分析 — 腎上腺色素複方療法",
-          "description": "藥理學家針對三種複方療法（MRR、SRAC、GOPS）的可行性評估，該等療法利用腎上腺色素衍生物作為精準粒線體激效觸發劑，目標為粒線體生合成、細胞衰老/SASP 及蛋白質恆定，並附有評分的合理性與安全性評估。",
-          "created": "2026-06-16",
-          "updated": "2026-09-22",
-          "tags": [
-            "task-output",
-            "adrenochrome",
-            "mitohormesis",
-            "senescence",
-            "proteostasis",
-            "feasibility-assessment"
-          ],
-          "filename": "task_output_pharmacologist_feasibility_16_JUN_2026.md",
-          "path": "tasks/zh-TW/adrenochrome_mb_ag/task_output_pharmacologist_feasibility_16_JUN_2026.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/adrenochrome_mb_ag/task_output_pharmacologist_feasibility_16_JUN_2026.md"
-        }
-      },
-      "stats": {
-        "words": 1486,
-        "images": 0,
-        "links": 14,
         "diagrams": 0
       }
     },

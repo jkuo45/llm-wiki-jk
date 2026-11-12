@@ -2,7 +2,7 @@
 title: 端粒
 description: 位於染色體末端、可保護基因體完整性的重複核蛋白帽狀結構，並隨老化與細胞分裂而縮短。
 created: 2026-07-09
-updated: 2026-10-21
+updated: 2026-09-02
 tags:
   - scientific-concept
   - telomere

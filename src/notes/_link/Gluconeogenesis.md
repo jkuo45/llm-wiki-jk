@@ -2,7 +2,7 @@
 title: Gluconeogenesis
 description: 'Definition: Gluconeogenesis is a fundamental biological process that maintains cellular and organismal homeostasis. It involves coordinated molecular events regulated by signaling pathways and ...'
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-11-10
 tags:
   - biological-process
 aliases: []
@@ -21,6 +21,10 @@ aliases: []
 #
 
 # 
+
+## Fasting switch (SIRT1/CRTC2/FOXO1)
+
+During fasting [[SIRT1]] deacetylates [[PGC-1α]], [[FOXO1]], and [[CRTC2]] to tune hepatic gluconeogenesis; prolonged fasting switches the program from early CRTC2-driven to late FOXO1-driven genes (Liu et al., 2008; via [[_document_ - Sirtuins at a glance|Sirtuins at a Glance (Nakagawa & Guarente 2011)]]).
 
 ## Documents
 

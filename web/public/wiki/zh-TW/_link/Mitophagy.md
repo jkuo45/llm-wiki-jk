@@ -2,7 +2,7 @@
 title: Mitophagy（粒線體自噬）
 description: 粒線體自噬是一種選擇性自噬的特化形式，針對受損或功能異常的粒線體進行降解。它是維持粒線體健康與細胞恆定的關鍵品質管制機制……
 created: 2024-01-01
-updated: 2026-10-21
+updated: 2026-07-26
 tags:
   - biological-process
   - mitochondria

@@ -3,7 +3,7 @@ title: PECAM1
 description: Platelet endothelial cell adhesion molecule 1 (CD31), a transmembrane glycoprotein expressed on endothelial cells and immune cells
 protected: false
 created: 2026-07-15
-updated: 2026-07-15
+updated: 2026-11-08
 tags:
   - cell-adhesion
   - endothelial-cells
@@ -55,6 +55,10 @@ PECAM1 (Platelet Endothelial Cell Adhesion Molecule 1, CD31) is a 130-kDa transm
 - PECAM1 is used as an endothelial marker in immunohistochemistry and flow cytometry
 - Soluble PECAM1 (sPECAM1) levels are elevated in inflammatory and cardiovascular conditions
 
+## Live-cell "Don't-Eat-Me" Signal
+
+Homophilic CD31–CD31 engagement between a live leukocyte (or endothelial/platelet cell) and a phagocyte delivers an inhibitory signal — via the cytoplasmic ITIMs and SHP-1/2 recruitment noted above — that blocks phagocytosis of the CD31-serving target cell. Apoptotic cells lose the signaling competence of their CD31 pair, so the "don't-eat-me" badge switches off on the same surface that then exposes eat-me signals ([[Phosphatidylserine]]): CD31 contributes to the convergence of inhibited/active display that phagocytes read (reported in vitro; Tier 4). See [[Efferocytosis]].
+
 ## Documents
 
 - [[task_output_fisetin_sasp_cxcl12_15_July_2026|CXCL12 → Endothelial Dysfunction Trace]]
@@ -68,6 +72,8 @@ PECAM1 (Platelet Endothelial Cell Adhesion Molecule 1, CD31) is a 130-kDa transm
 - [[TGFβ]] — TGFB1 upregulation drives the EndoMT program that suppresses PECAM1
 - [[ACTA2]] — Inversely regulated: ACTA2 increases as PECAM1 decreases during EndoMT
 - [[Endothelial Dysfunction]] — Loss of PECAM1 contributes to vascular barrier breakdown
+- [[Efferocytosis]] — homophilic CD31 engagement is a live-cell "don't-eat-me" signal in phagocytic decisions
+- [[Siglec-10]] / [[CD24]] / [[CD47]] — parallel anti-phagocytic signals in the same display balance
 
 ## Linking Summary
 

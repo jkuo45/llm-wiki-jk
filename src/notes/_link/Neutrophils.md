@@ -4,7 +4,7 @@ description: Neutrophils (also known as polymorphonuclear leukocytes or granuloc
   are the most abundant type of white blood cell and serve as the first line of defense
   in the innate immune system.
 created: 2026-05-29
-updated: 2026-05-29
+updated: 2026-11-10
 tags:
   - cell-type
 aliases: []
@@ -29,6 +29,7 @@ While essential for killing pathogens, the oxidative environment created by neut
 # 
 
 ## Documents
+- [[_document_ - Cytotoxic CD4 T cells induce age-associated myelopoiesis through CCL5-CCR5 signaling|Cytotoxic CD4 T cells induce age-associated myelopoiesis (Nat Aging 2026)]]: Nat Aging 2026 shows age-associated neutrophilia is driven by CCL5-CCR5 signaling from bone marrow cytotoxic CD4+ T cells; aged CXCR4hiCD62Llo neutrophils are activated (ICAM-1hi, TLR-4hi, CXCR2lo), infiltrate lung/liver/kidney, and maraviroc reduces circulating and tissue neutrophils in old mice.
 
 List of documents that mention this entity
 

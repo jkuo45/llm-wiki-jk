@@ -40,27 +40,25 @@ def sse(obj) -> str:
     return f"data: {json.dumps(obj)}\n"
 
 
-def sse_bus(session_id="s1", reply="Hello world"):
-    """A realistic opencode bus transcript for one assistant turn."""
+def sse_bus(session_id="s1", reply="Hello world", reasoning="thinking"):
+    """A realistic opencode v2 bus transcript for one assistant turn."""
     return "".join([
-        sse({"type": "message.updated", "properties": {
-            "sessionID": session_id, "info": {"id": "m1", "role": "user"}}}),
-        sse({"type": "message.part.updated", "properties": {
-            "sessionID": session_id,
-            "part": {"id": "p0", "type": "text", "messageID": "m1",
-                     "text": "user prompt echo"}}}),
-        sse({"type": "message.updated", "properties": {
-            "sessionID": session_id,
-            "info": {"id": "m2", "role": "assistant"}}}),
-        sse({"type": "message.part.updated", "properties": {
-            "sessionID": session_id,
-            "part": {"id": "p1", "type": "reasoning", "messageID": "m2",
-                     "text": "thinking"}}}),
-        sse({"type": "message.part.updated", "properties": {
-            "sessionID": session_id,
-            "part": {"id": "p2", "type": "text", "messageID": "m2",
-                     "text": reply}}}),
-        sse({"type": "session.idle", "properties": {"sessionID": session_id}}),
+        sse({"type": "session.execution.started",
+             "data": {"sessionID": session_id}}),
+        sse({"type": "session.text.started",
+             "data": {"sessionID": session_id, "assistantMessageID": "m2",
+                      "ordinal": 0}}),
+        sse({"type": "session.reasoning.delta",
+             "data": {"sessionID": session_id, "assistantMessageID": "m2",
+                      "ordinal": 0, "delta": reasoning}}),
+        sse({"type": "session.text.delta",
+             "data": {"sessionID": session_id, "assistantMessageID": "m2",
+                      "ordinal": 0, "delta": reply}}),
+        sse({"type": "session.text.ended",
+             "data": {"sessionID": session_id, "assistantMessageID": "m2",
+                      "ordinal": 0, "text": reply}}),
+        sse({"type": "session.execution.succeeded",
+             "data": {"sessionID": session_id}}),
     ])
 
 
@@ -92,8 +90,15 @@ class TestDetectLang:
 class TestSessionHelpers:
     @pytest.mark.asyncio
     async def test_health(self, opencode, monkeypatch):
-        patch_transport(monkeypatch, lambda r: httpx.Response(200, json={"version": "1.18"}))
-        assert await llm.health() == {"version": "1.18"}
+        seen = {}
+
+        def handler(request):
+            seen["path"] = request.url.path
+            return httpx.Response(200, json={"version": "2.1.1"})
+
+        patch_transport(monkeypatch, handler)
+        assert await llm.health() == {"version": "2.1.1"}
+        assert seen["path"] == "/api/info"
 
     @pytest.mark.asyncio
     async def test_health_unreachable(self, opencode, monkeypatch):
@@ -109,11 +114,13 @@ class TestSessionHelpers:
         seen = {}
 
         def handler(request):
+            seen["path"] = request.url.path
             seen["body"] = json.loads(request.content)
-            return httpx.Response(200, json={"id": "sess-9"})
+            return httpx.Response(200, json={"data": {"id": "sess-9"}})
 
         patch_transport(monkeypatch, handler)
         assert await llm.create_session("graph-prompt") == "sess-9"
+        assert seen["path"] == "/api/session"
         assert seen["body"] == {"title": "graph-prompt"}
 
     @pytest.mark.asyncio
@@ -124,30 +131,40 @@ class TestSessionHelpers:
 
     @pytest.mark.asyncio
     async def test_delete_and_abort_are_best_effort(self, opencode, monkeypatch):
-        patch_transport(monkeypatch, lambda r: httpx.Response(500))
+        seen = []
+
+        def handler(request):
+            seen.append((request.method, request.url.path))
+            return httpx.Response(500)
+
+        patch_transport(monkeypatch, handler)
         await llm.delete_session("s1")  # logs, never raises
         await llm.abort_session("s1")
+        assert seen == [
+            ("DELETE", "/api/session/s1"),
+            ("POST", "/api/session/s1/interrupt"),
+        ]
 
 
 class TestPromptSync:
     @pytest.mark.asyncio
-    async def test_concatenates_text_parts(self, opencode, monkeypatch):
+    async def test_concatenates_text_deltas(self, opencode, monkeypatch):
         seen = {}
 
         def handler(request):
-            seen["path"] = request.url.path
-            seen["body"] = json.loads(request.content)
-            return httpx.Response(200, json={"parts": [
-                {"type": "text", "text": "answer "},
-                {"type": "reasoning", "text": "ignored"},
-                {"type": "text", "text": "text"},
-            ]})
+            if request.url.path == "/api/event":
+                async def bus():
+                    yield sse_bus(reply="answer text").encode()
+                return httpx.Response(200, content=bus())
+            seen[request.url.path] = json.loads(request.content or b"{}")
+            return httpx.Response(200, json={"data": {}})
 
         patch_transport(monkeypatch, handler)
         out = await llm._prompt_sync("s1", "question")
         assert out == "answer text"
-        assert seen["path"] == "/session/s1/message"
-        assert seen["body"]["agent"] == llm.UTILITY_AGENT
+        # v2 picks the agent on the session, then prompts with plain text.
+        assert seen["/api/session/s1/agent"] == {"agent": llm.UTILITY_AGENT}
+        assert seen["/api/session/s1/prompt"] == {"text": "question"}
 
 
 class TestParseIntent:
@@ -156,28 +173,34 @@ class TestParseIntent:
         calls = {"deleted": []}
 
         def handler(request):
-            if request.url.path == "/session":
-                return httpx.Response(200, json={"id": "s1"})
-            if request.url.path.endswith("/message"):
-                return httpx.Response(200, json={"parts": [
-                    {"type": "text", "text": '{"intent": "explain", "node": "SIRT1"}'}]})
-            if request.method == "DELETE" and request.url.path == "/session/s1":
+            if request.url.path == "/api/event":
+                async def bus():
+                    yield sse_bus(
+                        reply='{"intent": "explain", "node": "SIRT1"}',
+                        reasoning="",
+                    ).encode()
+                return httpx.Response(200, content=bus())
+            if request.url.path == "/api/session":
+                return httpx.Response(200, json={"data": {"id": "s1"}})
+            if request.method == "DELETE" and request.url.path == "/api/session/s1":
                 calls["deleted"].append(request.url.path)
                 return httpx.Response(200)
-            return httpx.Response(404)
+            return httpx.Response(200, json={"data": {}})
 
         patch_transport(monkeypatch, handler)
         assert await llm.parse_intent("Explain SIRT1") == {
             "intent": "explain", "node": "SIRT1"}
-        assert calls["deleted"] == ["/session/s1"]  # throwaway session reaped
+        assert calls["deleted"] == ["/api/session/s1"]  # throwaway session reaped
 
     @pytest.mark.asyncio
     async def test_garbage_or_empty_is_unknown(self, opencode, monkeypatch):
         def handler(request):
-            if request.url.path == "/session":
-                return httpx.Response(200, json={"id": "s1"})
-            return httpx.Response(200, json={"parts": [
-                {"type": "text", "text": "I cannot classify that."}]})
+            if request.url.path == "/api/event":
+                async def bus():
+                    yield sse_bus(reply="I cannot classify that.",
+                                  reasoning="").encode()
+                return httpx.Response(200, content=bus())
+            return httpx.Response(200, json={"data": {"id": "s1"}})
 
         patch_transport(monkeypatch, handler)
         assert await llm.parse_intent("hello?") == {"intent": "unknown"}
@@ -265,22 +288,24 @@ class TestBestEffortWrappers:
 
 
 class TestStreamAnswer:
-    def _patch(self, monkeypatch, bus_text, prompt_status=204, event_status=200):
+    def _patch(self, monkeypatch, bus_text, prompt_status=200, event_status=200,
+               agent_status=204):
         async def bus_stream():
             yield bus_text.encode()  # async iterator -> valid for client.stream
 
         def handler(request: httpx.Request) -> httpx.Response:
-            if request.url.path == "/event":
+            if request.url.path == "/api/event":
                 return httpx.Response(event_status, content=bus_stream())
-            if request.url.path == "/session/s1/prompt_async":
+            if request.url.path.endswith("/agent"):
+                return httpx.Response(agent_status)
+            if request.url.path.endswith("/prompt"):
                 return httpx.Response(prompt_status)
             return httpx.Response(404)
 
         patch_transport(monkeypatch, handler)
 
     @pytest.mark.asyncio
-    async def test_streams_text_and_done_dropping_user_echo(self, opencode,
-                                                            monkeypatch):
+    async def test_streams_text_and_done(self, opencode, monkeypatch):
         self._patch(monkeypatch, sse_bus(reply="Hello world"))
         chunks = [c async for c in llm.stream_answer("ask", session_id="s1")]
         assert chunks == [
@@ -291,22 +316,20 @@ class TestStreamAnswer:
 
     @pytest.mark.asyncio
     async def test_delta_feed_appends_incrementally(self, opencode, monkeypatch):
-        # snapshot "Hel", then delta "lo" -> full "Hello" via snapshot flush
+        # delta "Hel", then delta "lo", then the full snapshot "Hello" — the
+        # snapshot must not be replayed.
         bus = "".join([
-            sse({"type": "message.updated", "properties": {
-                "sessionID": "s1", "info": {"id": "m2", "role": "assistant"}}}),
-            sse({"type": "message.part.updated", "properties": {
-                "sessionID": "s1",
-                "part": {"id": "p1", "type": "text", "messageID": "m2",
-                         "text": "Hel"}}}),
-            sse({"type": "message.part.delta", "properties": {
-                "sessionID": "s1", "partID": "p1", "field": "text",
+            sse({"type": "session.text.delta", "data": {
+                "sessionID": "s1", "assistantMessageID": "m2", "ordinal": 0,
+                "delta": "Hel"}}),
+            sse({"type": "session.text.delta", "data": {
+                "sessionID": "s1", "assistantMessageID": "m2", "ordinal": 0,
                 "delta": "lo"}}),
-            sse({"type": "message.part.updated", "properties": {
-                "sessionID": "s1",
-                "part": {"id": "p1", "type": "text", "messageID": "m2",
-                         "text": "Hello"}}}),
-            sse({"type": "session.idle", "properties": {"sessionID": "s1"}}),
+            sse({"type": "session.text.ended", "data": {
+                "sessionID": "s1", "assistantMessageID": "m2", "ordinal": 0,
+                "text": "Hello"}}),
+            sse({"type": "session.execution.succeeded",
+                 "data": {"sessionID": "s1"}}),
         ])
         self._patch(monkeypatch, bus)
         chunks = [c async for c in llm.stream_answer("ask", session_id="s1")]
@@ -314,14 +337,33 @@ class TestStreamAnswer:
         assert texts == ["Hel", "lo"]  # no replay of the superseding snapshot
 
     @pytest.mark.asyncio
+    async def test_snapshot_flushes_missing_suffix(self, opencode, monkeypatch):
+        # The delta feed lost the tail; the final snapshot carries it.
+        bus = "".join([
+            sse({"type": "session.text.delta", "data": {
+                "sessionID": "s1", "assistantMessageID": "m2", "ordinal": 0,
+                "delta": "Hel"}}),
+            sse({"type": "session.text.ended", "data": {
+                "sessionID": "s1", "assistantMessageID": "m2", "ordinal": 0,
+                "text": "Hello"}}),
+            sse({"type": "session.execution.succeeded",
+                 "data": {"sessionID": "s1"}}),
+        ])
+        self._patch(monkeypatch, bus)
+        chunks = [c async for c in llm.stream_answer("ask", session_id="s1")]
+        texts = [c["text"] for c in chunks if c["type"] == "text"]
+        assert texts == ["Hel", "lo"]
+
+    @pytest.mark.asyncio
     async def test_ignores_other_sessions(self, opencode, monkeypatch):
         bus = "".join([
-            sse({"type": "message.part.updated", "properties": {
-                "sessionID": "other",
-                "part": {"id": "px", "type": "text", "messageID": "mx",
-                         "text": "foreign"}}}),
-            sse({"type": "session.idle", "properties": {"sessionID": "other"}}),
-            sse({"type": "session.idle", "properties": {"sessionID": "s1"}}),
+            sse({"type": "session.text.delta", "data": {
+                "sessionID": "other", "assistantMessageID": "mx", "ordinal": 0,
+                "delta": "foreign"}}),
+            sse({"type": "session.execution.succeeded",
+                 "data": {"sessionID": "other"}}),
+            sse({"type": "session.execution.succeeded",
+                 "data": {"sessionID": "s1"}}),
         ])
         self._patch(monkeypatch, bus)
         chunks = [c async for c in llm.stream_answer("ask", session_id="s1")]
@@ -334,15 +376,22 @@ class TestStreamAnswer:
         assert chunks[0]["type"] == "error"
 
     @pytest.mark.asyncio
-    async def test_prompt_async_failure_yields_error(self, opencode, monkeypatch):
+    async def test_prompt_failure_yields_error(self, opencode, monkeypatch):
         self._patch(monkeypatch, "", prompt_status=500)
         chunks = [c async for c in llm.stream_answer("ask", session_id="s1")]
         assert chunks[0] == {"type": "error", "text": "Prompt service unavailable."}
 
     @pytest.mark.asyncio
-    async def test_session_error_event(self, opencode, monkeypatch):
-        bus = sse({"type": "session.error", "properties": {
-            "sessionID": "s1", "error": {"code": 1}}})
+    async def test_agent_selection_failure_yields_error(self, opencode, monkeypatch):
+        self._patch(monkeypatch, "", agent_status=404)
+        chunks = [c async for c in llm.stream_answer("ask", session_id="s1")]
+        assert chunks[0] == {"type": "error", "text": "Prompt service unavailable."}
+
+    @pytest.mark.asyncio
+    async def test_execution_failed_event(self, opencode, monkeypatch):
+        bus = sse({"type": "session.execution.failed", "data": {
+            "sessionID": "s1", "error": {"type": "provider.internal",
+                                         "message": "boom"}}})
         self._patch(monkeypatch, bus)
         chunks = [c async for c in llm.stream_answer("ask", session_id="s1")]
         assert chunks[0]["type"] == "error"

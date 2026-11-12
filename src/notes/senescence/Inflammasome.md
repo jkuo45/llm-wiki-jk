@@ -5,7 +5,7 @@ description: >-
   inflammatory caspases to process IL-1 family cytokines and induce pyroptosis,
   serving as critical mediators of innate immunity and sterile inflammation.
 created: 2026-07-11
-updated: 2026-07-12
+updated: 2026-11-11
 tags:
   - protein-complex
   - innate-immunity
@@ -126,6 +126,9 @@ The inflammasome operates in both senescent cells and neighbouring immune cells:
 - **Cancer**: Dual role — inflammasome can suppress tumorigenesis (immune surveillance) or promote it (chronic inflammation, immunosuppressive microenvironment)
 - **Aging**: Inflammasome activation contributes to [[Inflammaging]] and age-related tissue degeneration
 
+> [!info] Source: [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026]]
+> Mitochondria function as supramolecular organizing centres for pyroptotic signalling: [[NLRP3]] and [[Caspase-1]] interact with [[Cardiolipin|cardiolipin]] and assemble on mitochondrial membranes, while [[Mitochondrial ROS|ROS]], cardiolipin exposure, and mtDNA release facilitate inflammasome activation. [[Mitophagy]] restraint and the two-step priming/activation model remain central.
+
 ## Documents
 
 List of documents in the wiki that mention this entity
@@ -138,6 +141,7 @@ List of documents in the wiki that mention this entity
 
 - [[_document_ - acosta2013_paracrine_senescence|Acosta et al., 2013 — Inflammasome controls paracrine senescence]]
   - Demonstrates canonical inflammasome (caspase-1/ASC/NLRP3) activation during OIS, with caspase-1 activity and mature IL-1α/IL-1β secretion. Shows inflammasome activation in vivo in Braf[V600E] SSAs and Kras[G12D] PanIN lesions. Caspase-1 inhibitors prevent SASP expression and paracrine senescence.
+- [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026 — Mitochondrial dysfunction and inflammaging]]: Describes mitochondrial cardiolipin as an inflammasome assembly platform and mitophagy as a restraint on activation.
 
 ## Connections
 
