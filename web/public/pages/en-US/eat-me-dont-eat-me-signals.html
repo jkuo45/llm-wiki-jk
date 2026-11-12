@@ -601,6 +601,7 @@
 
 <script src="../themes/theme-01/pages-core.js"></script>
 <script src="../themes/theme-01/context-tooltip.js"></script>
+<script src="../themes/theme-01/pages-svg.js"></script>
 <script>
 /* ============================================================
    Shared SVG helpers. All fills/strokes resolve through CSS vars
@@ -717,16 +718,16 @@ const graphPairs = [
 ];
 (function(){
   let s = defs('gr');
-  s += svgText(150, 28, 'SIGNAL', 's-mute', 10, 'middle');
-  s += svgText(490, 28, 'RECEPTOR ON PHAGOCYTE', 's-mute', 10, 'middle');
-  s += svgText(850, 28, 'PHAGOCYTE RESPONSE', 's-mute', 10, 'middle');
-  s += svgText(150, 46, 'EAT-ME (pro-phagocytic)', 's-green', 10.5, 'middle');
+  s += svgText(150, 22, 'SIGNAL', 's-mute', 10, 'middle');
+  s += svgText(490, 22, 'RECEPTOR ON PHAGOCYTE', 's-mute', 10, 'middle');
+  s += svgText(850, 22, 'PHAGOCYTE RESPONSE', 's-mute', 10, 'middle');
+  s += svgText(150, 42, 'EAT-ME (pro-phagocytic)', 's-green', 10.5, 'middle');
   s += svgText(150, 330, 'DON\'T-EAT-ME (anti-phagocytic)', 's-red', 10.5, 'middle');
   s += `<line x1="20" y1="308" x2="980" y2="308" class="grid-line"/>`;
   const EAT_Y = 150, BRK_Y = 448;
   let ei = 0, bi = 0;
   graphPairs.forEach((p)=>{
-    const y = p.cls==='eat' ? 62 + (ei++)*36 : 360 + (bi++)*44;
+    const y = p.cls==='eat' ? 62 + (ei++)*36 : 360 + (bi++)*40;
     const tone = p.cls==='eat' ? 'eat' : 'brake';
     s += flowNode(50, y-16, 200, 32, [p.sig], `node-${tone}`);
     s += flowNode(350, y-16, 280, 32, [p.rec], `node-${tone}`);
