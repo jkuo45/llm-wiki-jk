@@ -79,7 +79,7 @@ const VLT = {
   'Redox cycle': 'Redox cycle', Polymerization: 'Polymerization', Melanins: 'Melanins',
   Magnesium: 'Magnesium', EMT6: 'EMT6', 'Lipid Peroxidation': 'Lipid Peroxidation',
 };
-const vlink = (n) => `<a href="https://graph.johnnykuo.com/#node=${encodeURIComponent(n)}" target="_blank" rel="noopener">[[${VLT[n] || n}]]</a>`;
+const vlink = (n) => `[[${VLT[n] || n}]]`; // plain wikilink: context-tooltip.js renders the hover tooltip
 
 export const STR = {
   en: {

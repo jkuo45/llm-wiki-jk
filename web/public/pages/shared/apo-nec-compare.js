@@ -6,10 +6,7 @@
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 
-const NODE = (n) =>
-  `https://graph.johnnykuo.com/#node=${encodeURIComponent(n)}`;
-const vlink = (n, label) =>
-  `<a href="${NODE(n)}" target="_blank" rel="noopener">[[${label || n}]]</a>`;
+const vlink = (n, label) => `[[${n}${label ? `|${label}` : ''}]]`; // plain wikilink: context-tooltip.js renders the hover tooltip
 
 const STR = {
   en: {
