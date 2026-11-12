@@ -1,5 +1,5 @@
 {
-  "generated": "11_NOV_2026 07:18 PM PST",
+  "generated": "11_NOV_2026 07:31 PM PST",
   "stats": {
     "sirtuin-pleiotropy": {
       "words": 2324,
@@ -26,21 +26,21 @@
       "diagrams": 6
     },
     "sirtuins-articles-and-figures": {
-      "words": 6441,
+      "words": 6766,
       "images": 44,
-      "links": 110,
-      "diagrams": 0
-    },
-    "senescence-articles-and-figures": {
-      "words": 7532,
-      "images": 50,
       "links": 120,
       "diagrams": 0
     },
+    "senescence-articles-and-figures": {
+      "words": 7791,
+      "images": 50,
+      "links": 128,
+      "diagrams": 0
+    },
     "cell-death-articles-and-figures": {
-      "words": 6855,
+      "words": 7134,
       "images": 45,
-      "links": 107,
+      "links": 122,
       "diagrams": 0
     },
     "hormesis-articles-and-figures": {
