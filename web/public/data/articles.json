@@ -387,13 +387,13 @@
         "active": true,
         "langs": {
             "en-US": {
-                "title": "Inside the Human Cell [3D]",
-                "description": "Full-scale three.js human cell (1 unit = 1 µm) with labeled organelles and guided tours of vault processes.",
+                "title": "Inside the Cell — A To-Scale 3-D Map of the Vault's Topics",
+                "description": "A to-scale three.js human cell (1 unit = 1 µm) with labeled organelles representing the topics tracked in the vault — guided tours of adrenochrome, MB/AG protocol, sirtuins, autophagy, cell death, Nrf2/hormesis, senescence/SASP, Warburg metabolism, neuromelanin, COMT, OSKM, and ivermectin × fenbendazole, with vault node links.",
                 "path": "pages/en-US/inside-the-cell.html"
             },
             "zh-TW": {
-                "title": "人體細胞內部 [3D]",
-                "description": "全尺寸等比例 three.js 人類細胞（1 單位 = 1 µm），胞器皆標示，並提供知識庫過程導覽。",
+                "title": "細胞內部 — 等比例 3-D 知識庫主題地圖",
+                "description": "等比例 three.js 人類細胞（1 單位 = 1 µm），胞器標示，代表知識庫追蹤的主題——導覽包括腎上腺色素、MB/AG 方案、sirtuins、自噬、細胞死亡、Nrf2／毒物興奮、衰老／SASP、瓦伯格代謝、神經黑色素、COMT、OSKM 與伊維菌素 × 芬苯達唑，並附知識庫節點連結。",
                 "path": "pages/zh-TW/inside-the-cell.html"
             }
         },
