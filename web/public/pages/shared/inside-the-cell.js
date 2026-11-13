@@ -982,14 +982,18 @@ export function initCellPage({ lang = 'en', canvas, els }) {
       PV.set(arr[0], arr[1], arr[2]).project(camera);
       if (PV.z > 1 || PV.z < -1) { el.style.display = 'none'; continue; }
       el.style.display = 'block';
-      el.style.left = ((PV.x * 0.5 + 0.5) * W + (l.dx || 0)) + 'px';
-      el.style.top = ((-PV.y * 0.5 + 0.5) * H + (l.dy || 0)) + 'px';
+      el.style.transform = `translate3d(${((PV.x * 0.5 + 0.5) * W + (l.dx || 0)).toFixed(1)}px,${((-PV.y * 0.5 + 0.5) * H + (l.dy || 0)).toFixed(1)}px,0) translate(-50%,-140%)`;
     }
   }
 
   /* ---- UI state ---- */
   let mode = 'explore', stepIdx = 0, autoplay = false, rosPulse = false, lastAdvance = -99;
   let paused = false, animTime = 0;
+  // ponytail: reduced-motion = paused by default, snapped fly-tos, static pulses, no autoplay.
+  const motionMQ = typeof matchMedia !== 'undefined' ? matchMedia('(prefers-reduced-motion: reduce)') : { matches: false, addEventListener() {} };
+  let reducedMotion = !!motionMQ.matches;
+  let needsRender = true, pageVisible = true, stageVisible = true;
+  const isVisible = () => pageVisible && stageVisible;
   const animBtn = els.animToggle || document.getElementById('ic-anim');
   function renderAnimBtn() {
     if (!animBtn) return;
@@ -1001,11 +1005,17 @@ export function initCellPage({ lang = 'en', canvas, els }) {
   let selected = null, pulseIds = new Set();
   const tween = { on: false, k: 0, camFrom: new THREE.Vector3(), camTo: new THREE.Vector3(), tgtFrom: new THREE.Vector3(), tgtTo: new THREE.Vector3() };
   function flyTo(cam, tgt) {
+    // ponytail: paused/reduced snap instead of animating — frozen tween + navigation still work.
+    if (paused || reducedMotion) {
+      camera.position.set(cam[0], cam[1], cam[2]); controls.target.set(tgt[0], tgt[1], tgt[2]);
+      tween.on = false; needsRender = true; return;
+    }
     tween.camFrom.copy(camera.position); tween.tgtFrom.copy(controls.target);
     tween.camTo.set(cam[0], cam[1], cam[2]); tween.tgtTo.set(tgt[0], tgt[1], tgt[2]);
-    tween.k = 0; tween.on = true;
+    tween.k = 0; tween.on = true; needsRender = true;
   }
-  controls.addEventListener('start', () => { tween.on = false; });
+  controls.addEventListener('start', () => { tween.on = false; needsRender = true; });
+  controls.addEventListener('change', () => { needsRender = true; });
 
   function legendHTML(items) {
     return (items || []).map(([c, s]) => `<span class="legend-dot" style="background:${c}"></span>${s}`).join(' &nbsp; ');
@@ -1131,7 +1141,7 @@ export function initCellPage({ lang = 'en', canvas, els }) {
     const n = T[TOURS[mode].steps].length;
     stepIdx = (stepIdx + 1) % n; autoplay = false; lastAdvance = animTime; applyStep();
   };
-  els.play.onclick = () => { autoplay = !autoplay; lastAdvance = animTime; renderPanel(); };
+  els.play.onclick = () => { if (reducedMotion) { autoplay = false; renderPanel(); return; } autoplay = !autoplay; lastAdvance = animTime; renderPanel(); };
   if (animBtn) animBtn.onclick = () => { paused = !paused; renderAnimBtn(); };
   renderAnimBtn();
   addEventListener('keydown', (e) => {
@@ -1184,7 +1194,7 @@ export function initCellPage({ lang = 'en', canvas, els }) {
   });
 
   /* toolbar toggles */
-  els.tglLabels.onclick = () => { showLabels = !showLabels; els.tglLabels.classList.toggle('is-on', showLabels); };
+  els.tglLabels.onclick = () => { showLabels = !showLabels; els.tglLabels.classList.toggle('is-on', showLabels); needsRender = true; };
   els.tglLabels.classList.add('is-on');
   els.tglRotate.onclick = () => { controls.autoRotate = !controls.autoRotate; els.tglRotate.classList.toggle('is-on', controls.autoRotate); };
   const clipPlane = new THREE.Plane(new THREE.Vector3(-1, 0, 0), 10);
@@ -1192,13 +1202,20 @@ export function initCellPage({ lang = 'en', canvas, els }) {
     const on = els.tglCut.classList.toggle('is-on');
     clipPlane.constant = parseFloat(els.cutRange.value);
     renderer.clippingPlanes = on ? [clipPlane] : [];
-    els.cutRange.disabled = !on;
+    els.cutRange.disabled = !on; needsRender = true;
   };
-  els.cutRange.oninput = () => { clipPlane.constant = parseFloat(els.cutRange.value); };
-  const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
-  controls.autoRotate = !reduced;
+  els.cutRange.oninput = () => { clipPlane.constant = parseFloat(els.cutRange.value); needsRender = true; };
+  if (reducedMotion) { paused = true; renderAnimBtn(); }
+  controls.autoRotate = !reducedMotion;
   if (!controls.autoRotate) els.tglRotate.classList.remove('is-on');
   else els.tglRotate.classList.add('is-on');
+  if (motionMQ.addEventListener) motionMQ.addEventListener('change', (e) => {
+    reducedMotion = !!e.matches;
+    if (reducedMotion) { paused = true; controls.autoRotate = false; els.tglRotate.classList.remove('is-on'); renderAnimBtn(); needsRender = true; }
+  });
+  // ponytail: visibility gating — no render loop work offscreen/background.
+  document.addEventListener('visibilitychange', () => { pageVisible = !document.hidden; });
+  if ('IntersectionObserver' in window) new IntersectionObserver((es) => { for (const e of es) stageVisible = e.isIntersecting; }).observe(stage);
 
   /* scale bar: world-units-per-pixel at target distance */
   function updateScaleBar() {
@@ -1227,6 +1244,7 @@ export function initCellPage({ lang = 'en', canvas, els }) {
   const HL_OFF = new Map();
   function tick() {
     requestAnimationFrame(tick);
+    if (!isVisible()) { clock.getDelta(); return; }
     const rawDt = Math.min(clock.getDelta(), 0.05);
     if (!paused) animTime += rawDt;
     const time = animTime;
@@ -1237,49 +1255,55 @@ export function initCellPage({ lang = 'en', canvas, els }) {
       controls.target.lerpVectors(tween.tgtFrom, tween.tgtTo, e);
       if (tween.k >= 1) tween.on = false;
     }
+    // ponytail: suppress spin during tween/paused so damping doesn't fight the camera.
     const wantSpin = controls.autoRotate;
-    if (paused) controls.autoRotate = false;
+    if (paused || tween.on || reducedMotion) controls.autoRotate = false;
     controls.update();
     controls.autoRotate = wantSpin;
-    // ambient life: vesicle shuttles, mito breathing, marker pulse
+    function renderFrame() {
+      renderer.render(scene, camera);
+      placeChips(baseChips, true);
+      placeChips(adrenoChips, mode === 'adreno');
+      placeChips(sirtuinChips, mode === 'sirtuin');
+      placeChips(combiChips, mode === 'combi');
+      placeChips(autoChips, mode === 'auto');
+      placeChips(deathChips, mode === 'death');
+      placeChips(redoxChips, mode === 'redox');
+      placeChips(saspChips, mode === 'sasp');
+      placeChips(protoChips, mode === 'proto');
+      placeChips(metabChips, mode === 'metab');
+      placeChips(nmChips, mode === 'nm');
+      placeChips(comtChips, mode === 'comt');
+      placeChips(oskmChips, mode === 'oskm');
+      updateScaleBar();
+    }
+    // ponytail: paused = render only when dirty (idle orbit/cutaway/step change).
+    if (paused) { if (needsRender) { renderFrame(); needsRender = false; } return; }
+    // ambient life: vesicle shuttles, mito breathing, marker pulse (static when reduced-motion)
     for (const v of vesicles) {
       const s = (v.ph + time * v.sp) % 1;
       const go = s < 0.5 ? s * 2 : (1 - s) * 2;
       v.m.position.lerpVectors(v.a, v.b, go);
     }
-    mitos.forEach((m, i) => { m.scale.setScalar(1 + 0.02 * Math.sin(time * 1.4 + i * 1.7)); });
+    mitos.forEach((m, i) => { m.scale.setScalar(1 + (reducedMotion ? 0 : 0.02 * Math.sin(time * 1.4 + i * 1.7))); });
     [...sirtuinMarkers, ...adrenoMarkers, ...combiMarkers, ...autoMarkers, ...deathMarkers, ...redoxMarkers, ...saspMarkers, ...protoMarkers, ...metabMarkers, ...nmMarkers, ...comtMarkers, ...oskmMarkers].forEach((m, i) => {
-      if (m.visible) m.scale.setScalar(1 + 0.25 * Math.sin(time * 3.5 + i));
+      if (m.visible) m.scale.setScalar(1 + (reducedMotion ? 0 : 0.25 * Math.sin(time * 3.5 + i)));
     });
     // tour highlight pulse
     for (const [oid, mats] of Object.entries(HL)) {
       const on = pulseIds.has(oid);
       for (const mt of mats) {
         if (!HL_OFF.has(mt)) HL_OFF.set(mt, mt.emissiveIntensity);
-        mt.emissiveIntensity = on ? HL_OFF.get(mt) + 0.9 + 0.5 * Math.sin(time * 4) : HL_OFF.get(mt);
+        mt.emissiveIntensity = on ? HL_OFF.get(mt) + (reducedMotion ? 0.9 : 0.9 + 0.5 * Math.sin(time * 4)) : HL_OFF.get(mt);
       }
     }
-    if (rosPulse) rosLight.intensity = 40 + 20 * Math.sin(time * 6);
+    if (rosPulse) rosLight.intensity = reducedMotion ? 40 : 40 + 20 * Math.sin(time * 6);
     tickFlows(time);
-    if (autoplay && mode !== 'explore' && time - lastAdvance > 9) {
+    if (autoplay && !reducedMotion && mode !== 'explore' && time - lastAdvance > 9) {
       stepIdx = (stepIdx + 1) % T[TOURS[mode].steps].length;
       lastAdvance = time; applyStep();
     }
-    renderer.render(scene, camera);
-    placeChips(baseChips, true);
-    placeChips(adrenoChips, mode === 'adreno');
-    placeChips(sirtuinChips, mode === 'sirtuin');
-    placeChips(combiChips, mode === 'combi');
-    placeChips(autoChips, mode === 'auto');
-    placeChips(deathChips, mode === 'death');
-    placeChips(redoxChips, mode === 'redox');
-    placeChips(saspChips, mode === 'sasp');
-    placeChips(protoChips, mode === 'proto');
-    placeChips(metabChips, mode === 'metab');
-    placeChips(nmChips, mode === 'nm');
-    placeChips(comtChips, mode === 'comt');
-    placeChips(oskmChips, mode === 'oskm');
-    updateScaleBar();
+    renderFrame();
   }
   const restored = readHash();
   if (restored) { mode = restored.mode; stepIdx = restored.step; }
