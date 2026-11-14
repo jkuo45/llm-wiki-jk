@@ -66,6 +66,11 @@ export function analysisFromPath(pathname) {
   return /^\/analysis\/?$/.test(pathname || '');
 }
 
+// Prompt open on top of analysis: /analysis/prompt (was /analysis#chat).
+export function analysisPromptFromPath(pathname) {
+  return /^\/analysis\/prompt\/?$/.test(pathname || '');
+}
+
 // The panel is labelled "Prompt" in the UI, so the canonical path is
 // /prompt; /chat (the internal flag name) still resolves as a legacy alias.
 export function chatFromPath(pathname) {
@@ -110,8 +115,10 @@ export function updateHash(pushState = true) {
   const notesPath = state.notesOpen && !readerPath
     ? (state.notesNoteId ? '/notes/' + encodeURIComponent(state.notesNoteId) : '/notes')
     : null;
-  const analysisPath = state.analysisOpen && !readerPath && !notesPath ? '/analysis' : null;
-  const chatPath = state.chatOpen && !readerPath && !notesPath && !analysisPath ? '/prompt' : null;
+  const analysisPromptPath = state.analysisOpen && state.chatOpen && !readerPath && !notesPath
+    ? '/analysis/prompt' : null;
+  const analysisPath = state.analysisOpen && !analysisPromptPath && !readerPath && !notesPath ? '/analysis' : null;
+  const chatPath = state.chatOpen && !analysisPromptPath && !readerPath && !notesPath && !analysisPath ? '/prompt' : null;
   if (state.notesOpen) {
     if (!notesPath) {
       parts.push(state.notesNoteId
@@ -143,13 +150,13 @@ export function updateHash(pushState = true) {
     parts.push(`section=${encodeURIComponent(state.readerSection)}`);
   }
   if (state.chatOpen) {
-    if (!chatPath) parts.push('chat');
+    if (!chatPath && !analysisPromptPath) parts.push('chat');
     if (state.analysisUiLang && state.analysisUiLang !== 'en-US') {
       parts.push(`uilang=${encodeURIComponent(state.analysisUiLang)}`);
     }
   }
   if (state.analysisOpen) {
-    if (!analysisPath) parts.push('analysis');
+    if (!analysisPath && !analysisPromptPath) parts.push('analysis');
     if (state.analysisUiLang && state.analysisUiLang !== 'en-US') {
       parts.push(`uilang=${encodeURIComponent(state.analysisUiLang)}`);
     }
@@ -160,7 +167,7 @@ export function updateHash(pushState = true) {
     parts.push('analysis=off');
   }
   const hash = parts.length ? '#' + parts.join('&') : '';
-  const url = (readerPath || notesPath || analysisPath || chatPath || '/') + window.location.search + hash;
+  const url = (readerPath || notesPath || analysisPromptPath || analysisPath || chatPath || '/') + window.location.search + hash;
   // Skip when nothing changed — avoids stacking duplicate history entries when
   // several handlers push the same state in quick succession (e.g. opening a
   // note runs openLightbox → setPage). Compare full

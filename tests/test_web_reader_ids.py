@@ -334,6 +334,7 @@ console.log(JSON.stringify(urls.map((url) => ({{ url, out: resolveRedirect(rules
                 "/wiki",
                 "/wiki/Eryptosis",
                 "/analysis",
+                "/analysis/prompt",
                 "/prompt",
                 "/chat",
                 "/notes",
@@ -394,8 +395,9 @@ console.log(JSON.stringify(urls.map((url) => ({{ url, out: resolveRedirect(rules
         res = self._plugin(tmp_path)
         for url in ("/article/male-distributed-topology-vs-estrogen-hub",
                     "/articles", "/articles/", "/tasks", "/task/tasks-index",
-                    "/wiki", "/wiki/Eryptosis", "/analysis", "/prompt",
-                    "/chat", "/notes", "/notes/some-note-id"):
+                    "/wiki", "/wiki/Eryptosis", "/analysis",
+                    "/analysis/prompt", "/prompt", "/chat", "/notes",
+                    "/notes/some-note-id"):
             assert res[url] is None, (url, res[url])
 
 
@@ -728,16 +730,18 @@ class TestReaderHashKeepsNamespaceReadable:
         still restore (graph-main merge) and upgrade in place."""
         src = Path("web/components/routing.js").read_text(encoding="utf-8")
         assert "notesIdFromPath" in src and "analysisFromPath" in src
-        assert "chatFromPath" in src
+        assert "chatFromPath" in src and "analysisPromptFromPath" in src
         assert "'/notes/' + encodeURIComponent(state.notesNoteId)" in src
         assert "'/analysis'" in src and "'/prompt'" in src
+        assert "'/analysis/prompt'" in src
         assert "(prompt|chat)" in src, "legacy /chat must stay a readable alias"
-        assert "if (!notesPath)" in src and "if (!analysisPath)" in src
-        assert "if (!chatPath)" in src
+        assert "if (!notesPath)" in src and "if (!analysisPath && !analysisPromptPath)" in src
+        assert "if (!chatPath && !analysisPromptPath)" in src
         gm = Path("web/components/graph-main.js").read_text(encoding="utf-8")
         assert "params.notes = pathNotes" in gm
         assert "params.analysis = true" in gm
         assert "params.chat = true" in gm
+        assert "pathAnalysisPrompt" in gm
         assert "state.notesOpen || state.analysisOpen || state.chatOpen" in gm
         notes = Path("web/components/notes.js").read_text(encoding="utf-8")
         assert "notesIdFromPath(window.location.pathname)" in notes

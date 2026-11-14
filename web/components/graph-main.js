@@ -9,7 +9,7 @@ import {
   container, scene, camera, renderer, labelRenderer, controls, nodeObjects,
   applyForces, updateStickyRings, updateZoomBar, renderState, minimap,
 } from './core.js';
-import { parseHash, readerIdFromPath, notesIdFromPath, analysisFromPath, chatFromPath, bareSectionFromParams, updateHash } from './routing.js';
+import { parseHash, readerIdFromPath, notesIdFromPath, analysisFromPath, analysisPromptFromPath, chatFromPath, bareSectionFromParams, updateHash } from './routing.js';
 import { activateTrace, activateRoute, clearTrace, setupDatasetSlider } from './ui.js';
 import { selectNode, deselectNode, selectEdge } from './interaction.js';
 import { openReader, closeReader, isReaderOpen } from './reader.js';
@@ -36,13 +36,17 @@ async function restoreFromHash(params) {
   const pathReader = readerIdFromPath(window.location.pathname);
   const pathNotes = notesIdFromPath(window.location.pathname);
   const pathAnalysis = analysisFromPath(window.location.pathname);
+  const pathAnalysisPrompt = analysisPromptFromPath(window.location.pathname);
   const pathChat = chatFromPath(window.location.pathname);
-  if (pathReader || pathNotes !== null || pathAnalysis || pathChat) {
+  if (pathReader || pathNotes !== null || pathAnalysis || pathAnalysisPrompt || pathChat) {
     params = { ...(params || {}) };
     if (pathReader) params.reader = pathReader;
     if (pathNotes !== null) params.notes = pathNotes;
-    if (pathAnalysis && !('analysis' in params)) params.analysis = true;
-    if (pathChat && !('chat' in params)) params.chat = true;
+    if (pathAnalysisPrompt) { params.analysis = true; params.chat = true; }
+    else {
+      if (pathAnalysis && !('analysis' in params)) params.analysis = true;
+      if (pathChat && !('chat' in params)) params.chat = true;
+    }
   }
   const effectiveReader = pathReader || (params && params.reader ? params.reader : null);
   const section = (params && params.section) || bareSectionFromParams(params) || null;
@@ -256,6 +260,7 @@ const hashParams = parseHash();
 if (hashParams || readerIdFromPath(window.location.pathname)
   || notesIdFromPath(window.location.pathname) !== null
   || analysisFromPath(window.location.pathname)
+  || analysisPromptFromPath(window.location.pathname)
   || chatFromPath(window.location.pathname)) {
   restoreFromHash(hashParams);
   lastRestoredHash = window.location.pathname + window.location.hash;
