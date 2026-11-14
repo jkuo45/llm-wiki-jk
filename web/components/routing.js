@@ -12,6 +12,12 @@ import { state } from './state.js';
 // Internal ids are unchanged (`<kind>/<bare>`), so getArticle, the
 // dropdown, and search hits need no knowledge of the URL shape.
 const READER_KINDS = new Set(['article', 'task', 'wiki']);
+// Index entries collapse to the plural root: /articles, /tasks, /wiki
+// (the -zh editions share the same index document, suffix preserved).
+// The registry rows themselves stay — they are generated, and the default
+// landing, source tabs, and back-links all resolve through them.
+const INDEX_BARE = { article: 'articles-index', task: 'tasks-index', wiki: 'wiki-index' };
+const INDEX_PLURAL = { article: 'articles', task: 'tasks', wiki: 'wiki' };
 export function readerPathForId(id) {
   if (typeof id !== 'string') return null;
   const slash = id.indexOf('/');
@@ -19,10 +25,19 @@ export function readerPathForId(id) {
   const kind = id.slice(0, slash);
   const bare = id.slice(slash + 1);
   if (!READER_KINDS.has(kind) || !bare) return null;
+  const zh = bare.endsWith('-zh');
+  const stem = zh ? bare.slice(0, -3) : bare;
+  if (stem === INDEX_BARE[kind]) return '/' + INDEX_PLURAL[kind] + (zh ? '-zh' : '');
   return '/' + kind + '/' + encodeURIComponent(bare);
 }
 
 export function readerIdFromPath(pathname) {
+  // Plural index roots first (/articles, /tasks, /wiki, optional -zh).
+  const idx = /^\/(articles|tasks|wiki)(-zh)?\/?$/.exec(pathname || '');
+  if (idx) {
+    const kind = { articles: 'article', tasks: 'task', wiki: 'wiki' }[idx[1]];
+    return kind + '/' + INDEX_BARE[kind] + (idx[2] || '');
+  }
   // Bare ids never contain '/', so a multi-segment remainder under any
   // prefix is an asset path (e.g. /wiki/en-US/…md), never a reader URL.
   const m = /^\/(article|task|wiki)\/([^/]+?)\/?$/.exec(pathname || '');

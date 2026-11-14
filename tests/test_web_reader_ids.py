@@ -327,7 +327,11 @@ console.log(JSON.stringify(urls.map((url) => ({{ url, out: resolveRedirect(rules
             urls = [
                 "/",
                 "/article/male-distributed-topology-vs-estrogen-hub",
+                "/articles",
+                "/articles/",
+                "/tasks",
                 "/task/tasks-index",
+                "/wiki",
                 "/wiki/Eryptosis",
                 "/note/en-US/_link/Urolithin%20A",
                 "/note/en-US/cell-death/Ferroptosis",
@@ -384,7 +388,8 @@ console.log(JSON.stringify(urls.map((url) => ({{ url, out: resolveRedirect(rules
         100324). Dev reaches the shell via Vite's SPA history fallback."""
         res = self._plugin(tmp_path)
         for url in ("/article/male-distributed-topology-vs-estrogen-hub",
-                    "/task/tasks-index", "/wiki/Eryptosis"):
+                    "/articles", "/articles/", "/tasks", "/task/tasks-index",
+                    "/wiki", "/wiki/Eryptosis"):
             assert res[url] is None, (url, res[url])
 
 
@@ -646,20 +651,44 @@ class TestReaderHashKeepsNamespaceReadable:
         import re as _re
         from urllib.parse import quote
         kinds = {"article", "task", "wiki"}
+        index_bare = {"article": "articles-index", "task": "tasks-index",
+                      "wiki": "wiki-index"}
+        plural = {"article": "articles", "task": "tasks", "wiki": "wiki"}
         def path_for(id_):
             kind, _, bare = id_.partition("/")
-            return f"/{kind}/{quote(bare, safe='')}" if kind in kinds and bare else None
+            if kind not in kinds or not bare:
+                return None
+            zh = bare.endswith("-zh")
+            stem = bare[:-3] if zh else bare
+            if stem == index_bare[kind]:
+                return f"/{plural[kind]}{'-zh' if zh else ''}"
+            return f"/{kind}/{quote(bare, safe='')}"
         def id_from_path(pn):
+            idx = _re.match(r"^/(articles|tasks|wiki)(-zh)?/?$", pn or "")
+            if idx:
+                kind = {"articles": "article", "tasks": "task",
+                        "wiki": "wiki"}[idx.group(1)]
+                return f"{kind}/{index_bare[kind]}{idx.group(2) or ''}"
             m = _re.match(r"^/(article|task|wiki)/([^/]+?)/?$", pn or "")
             return f"{m.group(1)}/{unquote(m.group(2))}" if m else None
         assert len(rows) > 100
         for r in rows:
             assert id_from_path(path_for(r["id"])) == r["id"], r["id"]
-        # Asset paths under the wiki prefix must never parse as reader URLs.
+        # Asset paths under the wiki/tasks prefixes must never parse as
+        # reader URLs.
         assert id_from_path("/") is None
         assert id_from_path("/note/en-US/x") is None
         assert id_from_path("/wiki/en-US/cell-death/Eryptosis.md") is None
         assert id_from_path("/tasks/en-US/x.md") is None
+
+    def test_index_entries_collapse_to_plural_roots(self):
+        """The `*-index` rows are the index pages; their URLs are the plural
+        roots /articles, /tasks, /wiki (not /article/articles-index etc.)."""
+        src = Path("web/components/routing.js").read_text(encoding="utf-8")
+        assert "INDEX_BARE" in src and "INDEX_PLURAL" in src
+        assert "'/articles'" not in src  # plural built by concatenation, not literal per-kind
+        for plural in ("articles", "tasks", "wiki"):
+            assert plural in src
 
     def test_legacy_hash_still_restores_and_upgrades(self):
         """Old #reader=<kind>/<bare> links must open the entry (graph-main
