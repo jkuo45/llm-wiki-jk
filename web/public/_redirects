@@ -28,8 +28,12 @@
 #
 # Clean pathname form of the legacy `/#reader=article/<slug>` hash (routing.js
 # writes this form; graph-main.js still reads the hash form for old links).
-# A 200 proxy to the SPA shell — the shell reads the id from location.pathname.
-# Safe for the same reason as /note/*: nothing is served under /article/.
+# Deliberately NOT a rule here: wrangler rejects any `/* → /index.html`
+# rewrite as an infinite loop (code 100324 — stripping /index would
+# re-trigger the splat). Instead, `assets.not_found_handling:
+# "single-page-application"` in wrangler.jsonc serves the SPA shell for any
+# unmatched path, which covers /article/* (nothing is served under it).
+# In dev, Vite's SPA history fallback does the same.
 
 # ## Root
 #
@@ -39,6 +43,5 @@
 # query string the reader iframe depends on.
 
 /  /index.html  200
-/article/*  /index.html  200
 /note/*    /pages/md-viewer.html    200
 /output/*  /pages/md-viewer.html    200

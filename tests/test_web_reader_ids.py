@@ -376,13 +376,13 @@ console.log(JSON.stringify(urls.map((url) => ({{ url, out: resolveRedirect(rules
         res = self._plugin(tmp_path)
         assert res["/"] == "/index.html", res["/"]
 
-    def test_article_urls_rewrite_to_index(self, config, tmp_path):
-        """Clean Reader URLs must reach the SPA shell in dev too (vite mirrors
-        _redirects) — otherwise /article/<slug> 404s locally while working
-        in production."""
+    def test_article_urls_have_no_rewrite_rule(self, config, tmp_path):
+        """No _redirects rule may claim /article/* (a wildcard → /index.html
+        rule is rejected by wrangler as an infinite loop, 100324). Dev
+        reaches the shell via Vite's SPA history fallback instead."""
         res = self._plugin(tmp_path)
         url = "/article/male-distributed-topology-vs-estrogen-hub"
-        assert res[url] == "/index.html", res[url]
+        assert res[url] is None, res[url]
 
 
 class TestRedirectShape:
@@ -432,15 +432,23 @@ class TestRedirectShape:
             assert m, f"no /{prefix}/* rule"
             assert m.group(1) == "/pages/md-viewer.html", m.group(1)
 
-    def test_article_rule_serves_index_and_has_no_assets(self, redirects, order):
-        """`/article/*` is only safe while nothing is served under it (same
-        invariant as /note/* and /output/*)."""
-        m = re.search(r"^/article/\*\s+(\S+)\s+200$", redirects, re.M)
-        assert m and m.group(1) == "/index.html", "no /article/* → /index.html rule"
-        assert order.index("/article/*") > order.index("/"), order
+    def test_article_urls_use_spa_fallback_not_a_rewrite(self, redirects):
+        """Clean Reader URLs reach the shell via Workers Assets'
+        single-page-application fallback (wrangler.jsonc), not a _redirects
+        rule: wrangler rejects `/* → /index.html` as an infinite loop
+        (100324), so any such rule here breaks the deploy."""
+        for line in redirects.splitlines():
+            s = line.strip()
+            if s.startswith("/article/"):
+                raise AssertionError(f"forbidden wildcard-to-index rule: {s!r}")
+        import json
+        raw = Path("web/wrangler.jsonc").read_text(encoding="utf-8")
+        cfg = json.loads("\n".join(l.split("//")[0] for l in raw.splitlines()))
+        assert cfg.get("assets", {}).get("not_found_handling") == (
+            "single-page-application"), cfg.get("assets")
         assert not Path("web/public/article").exists(), (
-            "web/public/article/ now exists — /article/* would collide "
-            "with real assets; pick a new prefix")
+            "web/public/article/ now exists — the SPA fallback would "
+            "never serve /article/* URLs; pick a new prefix")
 
     def test_no_rules_under_the_asset_prefixes(self, redirects):
         """Any rule under /wiki/ or /tasks/ can only be broken: Cloudflare

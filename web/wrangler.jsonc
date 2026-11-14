@@ -16,7 +16,12 @@
     // and rendering the shell as markdown. With "none", `/` no longer serves
     // index.html automatically — covered by the explicit `/ → /index.html`
     // rule at the top of public/_redirects.
-    "html_handling": "none"
+    "html_handling": "none",
+    // SPA fallback: serve index.html for unmatched paths. This is how the
+    // clean Reader URLs (/article/<slug>) reach the shell — a `/* →
+    // /index.html` _redirects rule is rejected by wrangler as an infinite
+    // loop (100324). The shell reads the id from location.pathname.
+    "not_found_handling": "single-page-application"
   },
   "compatibility_flags": [
     "nodejs_compat"
