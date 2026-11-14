@@ -2,25 +2,34 @@
 
 import { state } from './state.js';
 
-// Clean Reader URLs: article entries live in the pathname
-// (`/article/<slug>`), not the hash. Task/wiki entries stay on the legacy
-// hash form (`#reader=task/<id>`, `#reader=wiki/<id>`) because `/wiki/*`
-// is the raw .md asset prefix (a rewrite there swallows note fetches) and
-// `/note/*` + `/output/*` already serve those entries standalone.
-// Internal ids are unchanged (`article/<bare>`), so getArticle, the
+// Clean Reader URLs: every entry lives in the pathname
+// (`/article/<slug>`, `/task/<bare>`, `/wiki/<bare>`), not the hash.
+// No _redirects rule serves them — Workers Assets' SPA fallback
+// (wrangler.jsonc) serves the shell for any unmatched path, and the shell
+// reads the id from location.pathname. `/wiki/<bare>` is safe despite the
+// .md asset prefix: assets are `/wiki/<lang>/…` (multi-segment) while a
+// reader bare is a single segment, and asset matches always win first.
+// Internal ids are unchanged (`<kind>/<bare>`), so getArticle, the
 // dropdown, and search hits need no knowledge of the URL shape.
+const READER_KINDS = new Set(['article', 'task', 'wiki']);
 export function readerPathForId(id) {
-  if (typeof id !== 'string' || !id.startsWith('article/')) return null;
-  const bare = id.slice('article/'.length);
-  return bare ? '/article/' + encodeURIComponent(bare) : null;
+  if (typeof id !== 'string') return null;
+  const slash = id.indexOf('/');
+  if (slash === -1) return null;
+  const kind = id.slice(0, slash);
+  const bare = id.slice(slash + 1);
+  if (!READER_KINDS.has(kind) || !bare) return null;
+  return '/' + kind + '/' + encodeURIComponent(bare);
 }
 
 export function readerIdFromPath(pathname) {
-  const m = /^\/article\/(.+?)\/?$/.exec(pathname || '');
+  // Bare ids never contain '/', so a multi-segment remainder under any
+  // prefix is an asset path (e.g. /wiki/en-US/…md), never a reader URL.
+  const m = /^\/(article|task|wiki)\/([^/]+?)\/?$/.exec(pathname || '');
   if (!m) return null;
-  let bare = m[1];
+  let bare = m[2];
   try { bare = decodeURIComponent(bare); } catch { /* malformed % — keep raw */ }
-  return bare ? 'article/' + bare : null;
+  return bare ? m[1] + '/' + bare : null;
 }
 
 // Bare-fragment section fallback: hand-authored `/article/<slug>#animations`
@@ -81,16 +90,9 @@ export function updateHash(pushState = true) {
   if (state.selectedEdge) {
     parts.push(`edge=${encodeURIComponent(state.selectedEdge.from)},${encodeURIComponent(state.selectedEdge.to)}`);
   }
-  // Articles: reader id goes in the pathname (see readerPathForId); the
-  // section stays in the hash (`/article/<slug>#section=<id>`). Task/wiki:
-  // legacy `#reader=<kind>/<id>` hash form, pathname reset to `/`.
-  const articlePath = state.readerId ? readerPathForId(state.readerId) : null;
-  if (state.readerId && !articlePath) {
-    // Keep the `/` in `kind/id` literal: encodeURIComponent would turn it
-    // into %2F, which still round-trips but hides the namespace the change
-    // was made for. `/` never collides with the `&`/`=` hash separators.
-    parts.push(`reader=${encodeURIComponent(state.readerId).replace(/%2F/gi, '/')}`);
-  }
+  // Reader id goes in the pathname (see readerPathForId); the section
+  // stays in the hash (`/<kind>/<bare>#section=<id>`).
+  const readerPath = state.readerId ? readerPathForId(state.readerId) : null;
   if (state.readerId && state.readerSection) {
     parts.push(`section=${encodeURIComponent(state.readerSection)}`);
   }
@@ -112,7 +114,7 @@ export function updateHash(pushState = true) {
     parts.push('analysis=off');
   }
   const hash = parts.length ? '#' + parts.join('&') : '';
-  const url = (articlePath || '/') + window.location.search + hash;
+  const url = (readerPath || '/') + window.location.search + hash;
   // Skip when nothing changed — avoids stacking duplicate history entries when
   // several handlers push the same state in quick succession (e.g. opening a
   // note runs openLightbox → setPage). Compare full

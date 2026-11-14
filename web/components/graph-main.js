@@ -30,8 +30,8 @@ import './admin.js';
 // ------------------------------------------------------------
 async function restoreFromHash(params) {
   state.suppressHashUpdate = true;
-  // Clean article URLs carry the id in the pathname; legacy
-  // `#reader=article/<slug>` (and bare/bare-group ids) still resolve via
+  // Clean reader URLs carry the id in the pathname; legacy
+  // `#reader=<kind>/<bare>` (and bare/bare-group ids) still resolve via
   // the hash fallback when the pathname carries none. Path wins on conflict.
   const pathReader = readerIdFromPath(window.location.pathname);
   const effectiveReader = pathReader || (params && params.reader ? params.reader : null);
@@ -123,9 +123,9 @@ async function restoreFromHash(params) {
     else if (params && !params.chat && chatOpenNow) chatBtnEl.click();
   }
   state.suppressHashUpdate = false;
-  // Upgrade a legacy article hash (`/#reader=article/<slug>`) to the clean
+  // Upgrade a legacy hash (`/#reader=<kind>/<bare>`) to the clean
   // pathname in place — no extra history entry, reloads stay on the new form.
-  if (state.readerId && state.readerId.startsWith('article/')) updateHash(false);
+  if (state.readerId) updateHash(false);
 }
 
 // Guard against double-handling: back/forward between hash-only entries fires

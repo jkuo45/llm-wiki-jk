@@ -268,8 +268,9 @@ function loadArticle(article, section) {
     // relative path would resolve to /article/pages/… → served the shell
     // itself → SPA-in-iframe recursion (each level a new WebGL context).
     url = '/' + article.path + anchor;
-    // Clean share URL for articles: /article/<slug>#section=<id> — the same
-    // canonical form updateHash writes, instead of the raw page path.
+    // Clean share URL: /<kind>/<bare>#section=<id> — the same canonical
+    // form updateHash writes, instead of the raw page path. (Markdown-backed
+    // rows keep their standalone /note/… or /output/… share URL above.)
     const cleanPath = readerPathForId(article.id);
     if (cleanPath) {
       shareUrl = cleanPath + (section ? '#section=' + encodeURIComponent(section) : '');

@@ -327,6 +327,8 @@ console.log(JSON.stringify(urls.map((url) => ({{ url, out: resolveRedirect(rules
             urls = [
                 "/",
                 "/article/male-distributed-topology-vs-estrogen-hub",
+                "/task/tasks-index",
+                "/wiki/Eryptosis",
                 "/note/en-US/_link/Urolithin%20A",
                 "/note/en-US/cell-death/Ferroptosis",
                 "/output/en-US/task_output_x_01_Sep_2026",
@@ -376,13 +378,14 @@ console.log(JSON.stringify(urls.map((url) => ({{ url, out: resolveRedirect(rules
         res = self._plugin(tmp_path)
         assert res["/"] == "/index.html", res["/"]
 
-    def test_article_urls_have_no_rewrite_rule(self, config, tmp_path):
-        """No _redirects rule may claim /article/* (a wildcard → /index.html
-        rule is rejected by wrangler as an infinite loop, 100324). Dev
-        reaches the shell via Vite's SPA history fallback instead."""
+    def test_clean_urls_have_no_rewrite_rule(self, config, tmp_path):
+        """No _redirects rule may claim the clean prefixes (a wildcard →
+        /index.html rule is rejected by wrangler as an infinite loop,
+        100324). Dev reaches the shell via Vite's SPA history fallback."""
         res = self._plugin(tmp_path)
-        url = "/article/male-distributed-topology-vs-estrogen-hub"
-        assert res[url] is None, res[url]
+        for url in ("/article/male-distributed-topology-vs-estrogen-hub",
+                    "/task/tasks-index", "/wiki/Eryptosis"):
+            assert res[url] is None, (url, res[url])
 
 
 class TestRedirectShape:
@@ -439,7 +442,7 @@ class TestRedirectShape:
         (100324), so any such rule here breaks the deploy."""
         for line in redirects.splitlines():
             s = line.strip()
-            if s.startswith("/article/"):
+            if s.startswith(("/article/", "/task/", "/wiki/")):
                 raise AssertionError(f"forbidden wildcard-to-index rule: {s!r}")
         import json
         raw = Path("web/wrangler.jsonc").read_text(encoding="utf-8")
@@ -626,46 +629,44 @@ class TestPrettyUrlRoundTrip:
 
 
 class TestReaderHashKeepsNamespaceReadable:
-    """Task/wiki stay on the hash form (`reader=wiki/Eryptosis` literal `/`);
-    articles moved to `/article/<slug>`. Both must round-trip."""
+    """All three kinds use clean pathname URLs (`/<kind>/<bare>`); the hash
+    writer no longer emits reader= at all, but legacy hash links still
+    restore and upgrade in place."""
 
-    def test_routing_preserves_the_slash(self):
+    def test_no_reader_key_written_to_hash(self):
         src = Path("web/components/routing.js").read_text(encoding="utf-8")
-        assert re.search(r"encodeURIComponent\(state\.readerId\)\.replace\(/%2F/gi,\s*'/'\)", src), (
-            "routing.js must restore '/' after encoding the reader id")
-
-    def test_article_ids_use_pathname_not_hash(self):
-        src = Path("web/components/routing.js").read_text(encoding="utf-8")
+        assert "reader=${" not in src, "reader id must live in the pathname now"
         assert "readerPathForId" in src and "readerIdFromPath" in src
-        assert "/article/" in src
-        # The hash writer must skip reader= for article ids (path carries it).
-        assert "state.readerId && !articlePath" in src
+        assert "READER_KINDS" in src
 
-    def test_article_path_round_trips_every_article(self, rows):
-        """Port of readerPathForId/readerIdFromPath: every published article
-        id must survive id -> path -> id, or its clean URL opens the wrong page."""
+    def test_path_round_trips_every_row(self, rows):
+        """Port of readerPathForId/readerIdFromPath: every published id
+        (all kinds, incl. spaced wiki/task bares) must survive
+        id -> path -> id, or its clean URL opens the wrong page."""
         import re as _re
+        from urllib.parse import quote
+        kinds = {"article", "task", "wiki"}
         def path_for(id_):
-            if not id_.startswith("article/"):
-                return None
-            return "/article/" + __import__("urllib.parse", fromlist=["quote"]).quote(
-                id_[len("article/"):], safe="")
+            kind, _, bare = id_.partition("/")
+            return f"/{kind}/{quote(bare, safe='')}" if kind in kinds and bare else None
         def id_from_path(pn):
-            m = _re.match(r"^/article/(.+?)/?$", pn or "")
-            return "article/" + unquote(m.group(1)) if m else None
-        arts = [r for r in rows if r["kind"] == "article"]
-        assert arts
-        for r in arts:
+            m = _re.match(r"^/(article|task|wiki)/([^/]+?)/?$", pn or "")
+            return f"{m.group(1)}/{unquote(m.group(2))}" if m else None
+        assert len(rows) > 100
+        for r in rows:
             assert id_from_path(path_for(r["id"])) == r["id"], r["id"]
+        # Asset paths under the wiki prefix must never parse as reader URLs.
         assert id_from_path("/") is None
         assert id_from_path("/note/en-US/x") is None
+        assert id_from_path("/wiki/en-US/cell-death/Eryptosis.md") is None
+        assert id_from_path("/tasks/en-US/x.md") is None
 
     def test_legacy_hash_still_restores_and_upgrades(self):
-        """Old #reader=article/<slug> links must open the article (graph-main
+        """Old #reader=<kind>/<bare> links must open the entry (graph-main
         hash fallback) and be rewritten to the clean path in place."""
         gm = Path("web/components/graph-main.js").read_text(encoding="utf-8")
         assert "readerIdFromPath" in gm and "params.reader" in gm
-        assert "startsWith('article/')" in gm and "updateHash(false)" in gm
+        assert "if (state.readerId) updateHash(false)" in gm
 
     def test_bare_fragment_section_fallback(self):
         """`/article/<slug>#animations` and `#tour=on&step=2` must restore
@@ -680,8 +681,9 @@ class TestReaderHashKeepsNamespaceReadable:
             "shareUrl must use the encoded registry path, not a decoded one with spaces")
 
     def test_article_share_url_is_the_clean_path(self):
-        """Open-in-new-tab for an article must offer /article/<slug> (with
-        #section= when a section is active), not the raw page path."""
+        """Open-in-new-tab for a non-markdown row (article or index page)
+        must offer /<kind>/<bare> (with #section= when a section is active),
+        not the raw page path."""
         src = Path("web/components/reader.js").read_text(encoding="utf-8")
         assert "readerPathForId(article.id)" in src
         assert "'#section=' + encodeURIComponent(section)" in src

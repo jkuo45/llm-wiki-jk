@@ -22,18 +22,19 @@
 # ignored in production. Distinct prefixes are the only collision-free option.
 # (Found live: `.md` fetches 307'd/200'd to the md-viewer shell.)
 #
-# ## Reader article URLs
+# ## Reader clean URLs
 #
 #   /article/male-distributed-topology-vs-estrogen-hub
+#   /task/task_output_…    /wiki/Eryptosis
 #
-# Clean pathname form of the legacy `/#reader=article/<slug>` hash (routing.js
+# Clean pathname form of the legacy `/#reader=<kind>/<bare>` hash (routing.js
 # writes this form; graph-main.js still reads the hash form for old links).
-# Deliberately NOT a rule here: wrangler rejects any `/* → /index.html`
+# Deliberately NOT rules here: wrangler rejects any `/* → /index.html`
 # rewrite as an infinite loop (code 100324 — stripping /index would
 # re-trigger the splat). Instead, `assets.not_found_handling:
 # "single-page-application"` in wrangler.jsonc serves the SPA shell for any
-# unmatched path, which covers /article/* (nothing is served under it).
-# In dev, Vite's SPA history fallback does the same.
+# unmatched path. /wiki/<bare> is safe: assets are /wiki/<lang>/… and asset
+# matches always win first. In dev, Vite's SPA history fallback does the same.
 
 # ## Root
 #
