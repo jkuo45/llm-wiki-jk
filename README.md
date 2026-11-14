@@ -43,7 +43,7 @@ Build: 11_NOV_2026 · hash `663ac957d5242f5b`
 
 ## 📝 Updates
 
-- 🍽️ [Eat-me and Don't-eat-me Signals — the Phagocytic Balance, Illustrated](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_eat_me_dont_eat_me_signals_08_Nov_2026.md) [[task_output_eat_me_dont_eat_me_signals_08_Nov_2026|wiki]] — [web page](https://graph.johnnykuo.com/pages/en-US/eat-me-dont-eat-me-signals.html)
+- 🍽️ [Pro-phagocytic and Anti-phagocytic Signals — the Phagocytic Balance, Illustrated](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_eat_me_dont_eat_me_signals_08_Nov_2026.md) [[task_output_eat_me_dont_eat_me_signals_08_Nov_2026|wiki]] — [web page](https://graph.johnnykuo.com/pages/en-US/pro-phagocytic-and-anti-phagocytic-signals.html)
   - Signal-by-signal inventory of the pro-phagocytic (eat-me) and anti-phagocytic (don't-eat-me) cell-surface molecules that govern [[Efferocytosis]] and tumor-cell phagocytosis — receptors, execution machinery, physiological contexts, and evidence tiers — with an interactive three.js phagocytosis-decision model, a signal-balance chart, and a signal→receptor wiring diagram. Covers the [[Phosphatidylserine]], [[Calreticulin]], [[CD47]], [[CD24]], and [[PD-L1]] axes.
   - 🀄️ (zh-TW): 逐項彙整支配胞葬作用與腫瘤細胞吞噬的促吞噬（「吃我」）與抗吞噬（「別吃我」）細胞表面分子——受體、執行機器、生理情境與證據等級——並附互動式 three.js 吞噬決策模型、訊號平衡圖與訊號→受體接線圖；涵蓋磷脂醯絲胺酸、鈣網蛋白、CD47、CD24 與 PD-L1 軸線。
 - 🩸 [Eryptosis — Excess Death Signalling, Under-Clearance, and the Adrenochrome Crossover](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_eryptosis_excess_and_under_clearance_04_Nov_2026.md) [[task_output_eryptosis_excess_and_under_clearance_04_Nov_2026|wiki]] — [web page](https://graph.johnnykuo.com/pages/en-US/eryptosis-evidence-synthesis.html)
