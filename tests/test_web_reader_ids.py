@@ -334,6 +334,7 @@ console.log(JSON.stringify(urls.map((url) => ({{ url, out: resolveRedirect(rules
                 "/wiki",
                 "/wiki/Eryptosis",
                 "/analysis",
+                "/prompt",
                 "/chat",
                 "/notes",
                 "/notes/some-note-id",
@@ -393,8 +394,8 @@ console.log(JSON.stringify(urls.map((url) => ({{ url, out: resolveRedirect(rules
         res = self._plugin(tmp_path)
         for url in ("/article/male-distributed-topology-vs-estrogen-hub",
                     "/articles", "/articles/", "/tasks", "/task/tasks-index",
-                    "/wiki", "/wiki/Eryptosis", "/analysis", "/chat",
-                    "/notes", "/notes/some-note-id"):
+                    "/wiki", "/wiki/Eryptosis", "/analysis", "/prompt",
+                    "/chat", "/notes", "/notes/some-note-id"):
             assert res[url] is None, (url, res[url])
 
 
@@ -729,7 +730,8 @@ class TestReaderHashKeepsNamespaceReadable:
         assert "notesIdFromPath" in src and "analysisFromPath" in src
         assert "chatFromPath" in src
         assert "'/notes/' + encodeURIComponent(state.notesNoteId)" in src
-        assert "'/analysis'" in src and "'/chat'" in src
+        assert "'/analysis'" in src and "'/prompt'" in src
+        assert "(prompt|chat)" in src, "legacy /chat must stay a readable alias"
         assert "if (!notesPath)" in src and "if (!analysisPath)" in src
         assert "if (!chatPath)" in src
         gm = Path("web/components/graph-main.js").read_text(encoding="utf-8")

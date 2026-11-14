@@ -66,8 +66,10 @@ export function analysisFromPath(pathname) {
   return /^\/analysis\/?$/.test(pathname || '');
 }
 
+// The panel is labelled "Prompt" in the UI, so the canonical path is
+// /prompt; /chat (the internal flag name) still resolves as a legacy alias.
 export function chatFromPath(pathname) {
-  return /^\/chat\/?$/.test(pathname || '');
+  return /^\/(prompt|chat)\/?$/.test(pathname || '');
 }
 
 // Bare-fragment section fallback: hand-authored `/article/<slug>#animations`
@@ -109,7 +111,7 @@ export function updateHash(pushState = true) {
     ? (state.notesNoteId ? '/notes/' + encodeURIComponent(state.notesNoteId) : '/notes')
     : null;
   const analysisPath = state.analysisOpen && !readerPath && !notesPath ? '/analysis' : null;
-  const chatPath = state.chatOpen && !readerPath && !notesPath && !analysisPath ? '/chat' : null;
+  const chatPath = state.chatOpen && !readerPath && !notesPath && !analysisPath ? '/prompt' : null;
   if (state.notesOpen) {
     if (!notesPath) {
       parts.push(state.notesNoteId
