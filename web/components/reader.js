@@ -3,7 +3,7 @@
 // The article dropdown picks the group; the language toggle swaps within it.
 
 import { state } from './state.js';
-import { updateHash } from './routing.js';
+import { updateHash, readerPathForId } from './routing.js';
 import { ARTICLES, TASKS, WIKI } from './data.js';
 import { tLang, onUiLangChange } from './i18n.js';
 import { registerModal, openModal, closeModal, isModalOpen } from './modal.js';
@@ -264,7 +264,16 @@ function loadArticle(article, section) {
       .replace(/^tasks\//, 'output/')
       .replace(/\.md$/, '') + anchor;
   } else {
-    url = article.path + anchor;
+    // Root-absolute: the shell also lives at /article/<slug>, where a
+    // relative path would resolve to /article/pages/… → served the shell
+    // itself → SPA-in-iframe recursion (each level a new WebGL context).
+    url = '/' + article.path + anchor;
+    // Clean share URL for articles: /article/<slug>#section=<id> — the same
+    // canonical form updateHash writes, instead of the raw page path.
+    const cleanPath = readerPathForId(article.id);
+    if (cleanPath) {
+      shareUrl = cleanPath + (section ? '#section=' + encodeURIComponent(section) : '');
+    }
   }
   frame.src = url;
   openLink.href = shareUrl || url;

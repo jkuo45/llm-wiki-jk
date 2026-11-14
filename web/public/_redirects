@@ -22,6 +22,15 @@
 # ignored in production. Distinct prefixes are the only collision-free option.
 # (Found live: `.md` fetches 307'd/200'd to the md-viewer shell.)
 #
+# ## Reader article URLs
+#
+#   /article/male-distributed-topology-vs-estrogen-hub
+#
+# Clean pathname form of the legacy `/#reader=article/<slug>` hash (routing.js
+# writes this form; graph-main.js still reads the hash form for old links).
+# A 200 proxy to the SPA shell — the shell reads the id from location.pathname.
+# Safe for the same reason as /note/*: nothing is served under /article/.
+
 # ## Root
 #
 # `"html_handling": "none"` (wrangler.jsonc) disables Cloudflare's automatic
@@ -30,5 +39,6 @@
 # query string the reader iframe depends on.
 
 /  /index.html  200
+/article/*  /index.html  200
 /note/*    /pages/md-viewer.html    200
 /output/*  /pages/md-viewer.html    200

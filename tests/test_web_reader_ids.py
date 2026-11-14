@@ -326,6 +326,7 @@ console.log(JSON.stringify(urls.map((url) => ({{ url, out: resolveRedirect(rules
             mod.write_text(cfg.read_text(encoding="utf-8"), encoding="utf-8")
             urls = [
                 "/",
+                "/article/male-distributed-topology-vs-estrogen-hub",
                 "/note/en-US/_link/Urolithin%20A",
                 "/note/en-US/cell-death/Ferroptosis",
                 "/output/en-US/task_output_x_01_Sep_2026",
@@ -375,6 +376,14 @@ console.log(JSON.stringify(urls.map((url) => ({{ url, out: resolveRedirect(rules
         res = self._plugin(tmp_path)
         assert res["/"] == "/index.html", res["/"]
 
+    def test_article_urls_rewrite_to_index(self, config, tmp_path):
+        """Clean Reader URLs must reach the SPA shell in dev too (vite mirrors
+        _redirects) — otherwise /article/<slug> 404s locally while working
+        in production."""
+        res = self._plugin(tmp_path)
+        url = "/article/male-distributed-topology-vs-estrogen-hub"
+        assert res[url] == "/index.html", res[url]
+
 
 class TestRedirectShape:
     """Rules in web/public/_redirects, in the order Cloudflare applies them."""
@@ -422,6 +431,16 @@ class TestRedirectShape:
             m = re.search(rf"^/{prefix}/\*\s+(\S+)\s+200$", redirects, re.M)
             assert m, f"no /{prefix}/* rule"
             assert m.group(1) == "/pages/md-viewer.html", m.group(1)
+
+    def test_article_rule_serves_index_and_has_no_assets(self, redirects, order):
+        """`/article/*` is only safe while nothing is served under it (same
+        invariant as /note/* and /output/*)."""
+        m = re.search(r"^/article/\*\s+(\S+)\s+200$", redirects, re.M)
+        assert m and m.group(1) == "/index.html", "no /article/* → /index.html rule"
+        assert order.index("/article/*") > order.index("/"), order
+        assert not Path("web/public/article").exists(), (
+            "web/public/article/ now exists — /article/* would collide "
+            "with real assets; pick a new prefix")
 
     def test_no_rules_under_the_asset_prefixes(self, redirects):
         """Any rule under /wiki/ or /tasks/ can only be broken: Cloudflare
@@ -599,19 +618,65 @@ class TestPrettyUrlRoundTrip:
 
 
 class TestReaderHashKeepsNamespaceReadable:
-    """`reader=wiki/Eryptosis` must stay literal in the address bar.
-    A plain encodeURIComponent turns `/` into %2F — still functional, but it
-    hides the namespace the change was made for."""
+    """Task/wiki stay on the hash form (`reader=wiki/Eryptosis` literal `/`);
+    articles moved to `/article/<slug>`. Both must round-trip."""
 
     def test_routing_preserves_the_slash(self):
         src = Path("web/components/routing.js").read_text(encoding="utf-8")
         assert re.search(r"encodeURIComponent\(state\.readerId\)\.replace\(/%2F/gi,\s*'/'\)", src), (
             "routing.js must restore '/' after encoding the reader id")
 
+    def test_article_ids_use_pathname_not_hash(self):
+        src = Path("web/components/routing.js").read_text(encoding="utf-8")
+        assert "readerPathForId" in src and "readerIdFromPath" in src
+        assert "/article/" in src
+        # The hash writer must skip reader= for article ids (path carries it).
+        assert "state.readerId && !articlePath" in src
+
+    def test_article_path_round_trips_every_article(self, rows):
+        """Port of readerPathForId/readerIdFromPath: every published article
+        id must survive id -> path -> id, or its clean URL opens the wrong page."""
+        import re as _re
+        def path_for(id_):
+            if not id_.startswith("article/"):
+                return None
+            return "/article/" + __import__("urllib.parse", fromlist=["quote"]).quote(
+                id_[len("article/"):], safe="")
+        def id_from_path(pn):
+            m = _re.match(r"^/article/(.+?)/?$", pn or "")
+            return "article/" + unquote(m.group(1)) if m else None
+        arts = [r for r in rows if r["kind"] == "article"]
+        assert arts
+        for r in arts:
+            assert id_from_path(path_for(r["id"])) == r["id"], r["id"]
+        assert id_from_path("/") is None
+        assert id_from_path("/note/en-US/x") is None
+
+    def test_legacy_hash_still_restores_and_upgrades(self):
+        """Old #reader=article/<slug> links must open the article (graph-main
+        hash fallback) and be rewritten to the clean path in place."""
+        gm = Path("web/components/graph-main.js").read_text(encoding="utf-8")
+        assert "readerIdFromPath" in gm and "params.reader" in gm
+        assert "startsWith('article/')" in gm and "updateHash(false)" in gm
+
+    def test_bare_fragment_section_fallback(self):
+        """`/article/<slug>#animations` and `#tour=on&step=2` must restore
+        a section even without the canonical `#section=` key."""
+        src = Path("web/components/routing.js").read_text(encoding="utf-8")
+        assert "bareSectionFromParams" in src
+        assert "KNOWN_HASH_KEYS" in src
+
     def test_share_url_stays_encoded(self):
         src = Path("web/components/reader.js").read_text(encoding="utf-8")
         assert re.search(r"shareUrl = '/' \+ article\.path\s*\n?\s*\.replace", src), (
             "shareUrl must use the encoded registry path, not a decoded one with spaces")
+
+    def test_article_share_url_is_the_clean_path(self):
+        """Open-in-new-tab for an article must offer /article/<slug> (with
+        #section= when a section is active), not the raw page path."""
+        src = Path("web/components/reader.js").read_text(encoding="utf-8")
+        assert "readerPathForId(article.id)" in src
+        assert "'#section=' + encodeURIComponent(section)" in src
 
     def test_share_url_uses_the_pretty_prefix(self):
         """Open-in-new-tab must point at /note/… or /output/… — the pretty

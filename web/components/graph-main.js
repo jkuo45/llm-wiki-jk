@@ -9,7 +9,7 @@ import {
   container, scene, camera, renderer, labelRenderer, controls, nodeObjects,
   applyForces, updateStickyRings, updateZoomBar, renderState, minimap,
 } from './core.js';
-import { parseHash } from './routing.js';
+import { parseHash, readerIdFromPath, bareSectionFromParams, updateHash } from './routing.js';
 import { activateTrace, activateRoute, clearTrace, setupDatasetSlider } from './ui.js';
 import { selectNode, deselectNode, selectEdge } from './interaction.js';
 import { openReader, closeReader, isReaderOpen } from './reader.js';
@@ -30,8 +30,14 @@ import './admin.js';
 // ------------------------------------------------------------
 async function restoreFromHash(params) {
   state.suppressHashUpdate = true;
-  if (params && params.reader) {
-    openReader(params.reader, { section: params.section || null });
+  // Clean article URLs carry the id in the pathname; legacy
+  // `#reader=article/<slug>` (and bare/bare-group ids) still resolve via
+  // the hash fallback when the pathname carries none. Path wins on conflict.
+  const pathReader = readerIdFromPath(window.location.pathname);
+  const effectiveReader = pathReader || (params && params.reader ? params.reader : null);
+  const section = (params && params.section) || bareSectionFromParams(params) || null;
+  if (effectiveReader) {
+    openReader(effectiveReader, { section });
   } else if (isReaderOpen()) {
     closeReader();
   }
@@ -52,6 +58,8 @@ async function restoreFromHash(params) {
     deselectNode();
     clearTrace();
     state.suppressHashUpdate = false;
+    // No hash but a clean `/article/<slug>` path: normalize in place.
+    if (state.readerId) updateHash(false);
     return;
   }
   if (params.trace) {
@@ -115,14 +123,19 @@ async function restoreFromHash(params) {
     else if (params && !params.chat && chatOpenNow) chatBtnEl.click();
   }
   state.suppressHashUpdate = false;
+  // Upgrade a legacy article hash (`/#reader=article/<slug>`) to the clean
+  // pathname in place — no extra history entry, reloads stay on the new form.
+  if (state.readerId && state.readerId.startsWith('article/')) updateHash(false);
 }
 
 // Guard against double-handling: back/forward between hash-only entries fires
-// both popstate AND hashchange for the same final hash.
+// both popstate AND hashchange for the same final hash. The key must include
+// the pathname: article entries differ by path with an identical (empty) hash.
 let lastRestoredHash = null;
 function restoreFromHashEvent(params) {
-  if (window.location.hash === lastRestoredHash) return;
-  lastRestoredHash = window.location.hash;
+  const key = window.location.pathname + window.location.hash;
+  if (key === lastRestoredHash) return;
+  lastRestoredHash = key;
   restoreFromHash(params);
 }
 
@@ -230,9 +243,9 @@ new ResizeObserver(() => {
 // Restore state from URL hash (use replaceState to avoid extra history entry)
 // ------------------------------------------------------------
 const hashParams = parseHash();
-if (hashParams) {
+if (hashParams || readerIdFromPath(window.location.pathname)) {
   restoreFromHash(hashParams);
-  lastRestoredHash = window.location.hash;
+  lastRestoredHash = window.location.pathname + window.location.hash;
   history.replaceState({ hash: window.location.hash }, '', window.location.href);
 }
 

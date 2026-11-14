@@ -2,6 +2,45 @@
 
 import { state } from './state.js';
 
+// Clean Reader URLs: article entries live in the pathname
+// (`/article/<slug>`), not the hash. Task/wiki entries stay on the legacy
+// hash form (`#reader=task/<id>`, `#reader=wiki/<id>`) because `/wiki/*`
+// is the raw .md asset prefix (a rewrite there swallows note fetches) and
+// `/note/*` + `/output/*` already serve those entries standalone.
+// Internal ids are unchanged (`article/<bare>`), so getArticle, the
+// dropdown, and search hits need no knowledge of the URL shape.
+export function readerPathForId(id) {
+  if (typeof id !== 'string' || !id.startsWith('article/')) return null;
+  const bare = id.slice('article/'.length);
+  return bare ? '/article/' + encodeURIComponent(bare) : null;
+}
+
+export function readerIdFromPath(pathname) {
+  const m = /^\/article\/(.+?)\/?$/.exec(pathname || '');
+  if (!m) return null;
+  let bare = m[1];
+  try { bare = decodeURIComponent(bare); } catch { /* malformed % — keep raw */ }
+  return bare ? 'article/' + bare : null;
+}
+
+// Bare-fragment section fallback: hand-authored `/article/<slug>#animations`
+// (or `#tour=on&step=2`) carries no `section=` key. Known hash keys are
+// excluded so `#notes`/`#chat` etc. are never mistaken for a section id.
+const KNOWN_HASH_KEYS = new Set([
+  'mode', 'notes', 'note', 'page', 'noteview', 'uilang', 'trace', 'route',
+  'node', 'edge', 'reader', 'section', 'chat', 'analysis',
+]);
+export function bareSectionFromParams(params) {
+  if (!params) return null;
+  if (typeof params.tour === 'string') {
+    return params.step !== undefined
+      ? `tour=${params.tour}&step=${params.step}`
+      : `tour=${params.tour}`;
+  }
+  const bare = Object.keys(params).filter((k) => params[k] === true && !KNOWN_HASH_KEYS.has(k));
+  return bare.length === 1 ? bare[0] : null;
+}
+
 export function updateHash(pushState = true) {
   if (state.suppressHashUpdate) return;
   const parts = [];
@@ -42,14 +81,18 @@ export function updateHash(pushState = true) {
   if (state.selectedEdge) {
     parts.push(`edge=${encodeURIComponent(state.selectedEdge.from)},${encodeURIComponent(state.selectedEdge.to)}`);
   }
-  if (state.readerId) {
+  // Articles: reader id goes in the pathname (see readerPathForId); the
+  // section stays in the hash (`/article/<slug>#section=<id>`). Task/wiki:
+  // legacy `#reader=<kind>/<id>` hash form, pathname reset to `/`.
+  const articlePath = state.readerId ? readerPathForId(state.readerId) : null;
+  if (state.readerId && !articlePath) {
     // Keep the `/` in `kind/id` literal: encodeURIComponent would turn it
     // into %2F, which still round-trips but hides the namespace the change
     // was made for. `/` never collides with the `&`/`=` hash separators.
     parts.push(`reader=${encodeURIComponent(state.readerId).replace(/%2F/gi, '/')}`);
-    if (state.readerSection) {
-      parts.push(`section=${encodeURIComponent(state.readerSection)}`);
-    }
+  }
+  if (state.readerId && state.readerSection) {
+    parts.push(`section=${encodeURIComponent(state.readerSection)}`);
   }
   if (state.chatOpen) {
     parts.push('chat');
@@ -69,7 +112,7 @@ export function updateHash(pushState = true) {
     parts.push('analysis=off');
   }
   const hash = parts.length ? '#' + parts.join('&') : '';
-  const url = window.location.pathname + window.location.search + hash;
+  const url = (articlePath || '/') + window.location.search + hash;
   // Skip when nothing changed — avoids stacking duplicate history entries when
   // several handlers push the same state in quick succession (e.g. opening a
   // note runs openLightbox → setPage). Compare full
