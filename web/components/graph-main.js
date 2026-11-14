@@ -9,7 +9,7 @@ import {
   container, scene, camera, renderer, labelRenderer, controls, nodeObjects,
   applyForces, updateStickyRings, updateZoomBar, renderState, minimap,
 } from './core.js';
-import { parseHash, readerIdFromPath, bareSectionFromParams, updateHash } from './routing.js';
+import { parseHash, readerIdFromPath, notesIdFromPath, analysisFromPath, bareSectionFromParams, updateHash } from './routing.js';
 import { activateTrace, activateRoute, clearTrace, setupDatasetSlider } from './ui.js';
 import { selectNode, deselectNode, selectEdge } from './interaction.js';
 import { openReader, closeReader, isReaderOpen } from './reader.js';
@@ -30,10 +30,18 @@ import './admin.js';
 // ------------------------------------------------------------
 async function restoreFromHash(params) {
   state.suppressHashUpdate = true;
-  // Clean reader URLs carry the id in the pathname; legacy
-  // `#reader=<kind>/<bare>` (and bare/bare-group ids) still resolve via
-  // the hash fallback when the pathname carries none. Path wins on conflict.
+  // Clean URLs carry reader/notes/analysis in the pathname; legacy hash
+  // forms (`#reader=…`, `#notes=<id>`, `#analysis`, bare ids) still resolve
+  // via the hash when the pathname carries none. Path wins on conflict.
   const pathReader = readerIdFromPath(window.location.pathname);
+  const pathNotes = notesIdFromPath(window.location.pathname);
+  const pathAnalysis = analysisFromPath(window.location.pathname);
+  if (pathReader || pathNotes !== null || pathAnalysis) {
+    params = { ...(params || {}) };
+    if (pathReader) params.reader = pathReader;
+    if (pathNotes !== null) params.notes = pathNotes;
+    if (pathAnalysis && !('analysis' in params)) params.analysis = true;
+  }
   const effectiveReader = pathReader || (params && params.reader ? params.reader : null);
   const section = (params && params.section) || bareSectionFromParams(params) || null;
   if (effectiveReader) {
@@ -123,9 +131,9 @@ async function restoreFromHash(params) {
     else if (params && !params.chat && chatOpenNow) chatBtnEl.click();
   }
   state.suppressHashUpdate = false;
-  // Upgrade a legacy hash (`/#reader=<kind>/<bare>`) to the clean
-  // pathname in place — no extra history entry, reloads stay on the new form.
-  if (state.readerId) updateHash(false);
+  // Upgrade legacy hashes (`/#reader=…`, `/#notes=…`, `/#analysis`) to the
+  // clean pathname in place — no extra history entry, reloads stay clean.
+  if (state.readerId || state.notesOpen || state.analysisOpen) updateHash(false);
 }
 
 // Guard against double-handling: back/forward between hash-only entries fires
@@ -243,7 +251,9 @@ new ResizeObserver(() => {
 // Restore state from URL hash (use replaceState to avoid extra history entry)
 // ------------------------------------------------------------
 const hashParams = parseHash();
-if (hashParams || readerIdFromPath(window.location.pathname)) {
+if (hashParams || readerIdFromPath(window.location.pathname)
+  || notesIdFromPath(window.location.pathname) !== null
+  || analysisFromPath(window.location.pathname)) {
   restoreFromHash(hashParams);
   lastRestoredHash = window.location.pathname + window.location.hash;
   history.replaceState({ hash: window.location.hash }, '', window.location.href);

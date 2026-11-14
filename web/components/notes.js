@@ -3,7 +3,7 @@
 // Sibling of the analysis (#prompt) panel.
 
 import { esc } from './markdown.js';
-import { updateHash, parseHash } from './routing.js';
+import { updateHash, parseHash, notesIdFromPath } from './routing.js';
 import { state } from './state.js';
 import { openPromptComposer } from './analysis.js';
 import { getUiLang, setUiLang, persistUiLang, onUiLangChange, t } from './i18n.js';
@@ -1719,9 +1719,12 @@ export async function restoreNotes(params) {
   } catch (err) {
     return; // API unreachable — the gallery shows the error banner instead.
   }
-  // Bail if the hash changed while the gallery was loading (e.g. the user
+  // Bail if the URL changed while the gallery was loading (e.g. the user
   // pressed Back before the fetch resolved) — don't force-open a stale note.
-  if (notesIdFromParams(parseHash()) !== noteId) return;
+  // The id may live in the pathname (/notes/<id>) or the legacy hash.
+  const pathId = notesIdFromPath(window.location.pathname);
+  const curId = typeof pathId === 'string' ? pathId : notesIdFromParams(parseHash());
+  if (curId !== noteId) return;
   const note = notes.find((n) => n.id === noteId);
   if (!note) return; // unknown / deleted id → stays in gallery view
   openLightbox(note);

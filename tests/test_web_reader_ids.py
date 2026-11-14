@@ -333,6 +333,9 @@ console.log(JSON.stringify(urls.map((url) => ({{ url, out: resolveRedirect(rules
                 "/task/tasks-index",
                 "/wiki",
                 "/wiki/Eryptosis",
+                "/analysis",
+                "/notes",
+                "/notes/some-note-id",
                 "/note/en-US/_link/Urolithin%20A",
                 "/note/en-US/cell-death/Ferroptosis",
                 "/output/en-US/task_output_x_01_Sep_2026",
@@ -389,7 +392,8 @@ console.log(JSON.stringify(urls.map((url) => ({{ url, out: resolveRedirect(rules
         res = self._plugin(tmp_path)
         for url in ("/article/male-distributed-topology-vs-estrogen-hub",
                     "/articles", "/articles/", "/tasks", "/task/tasks-index",
-                    "/wiki", "/wiki/Eryptosis"):
+                    "/wiki", "/wiki/Eryptosis", "/analysis", "/notes",
+                    "/notes/some-note-id"):
             assert res[url] is None, (url, res[url])
 
 
@@ -696,6 +700,41 @@ class TestReaderHashKeepsNamespaceReadable:
         gm = Path("web/components/graph-main.js").read_text(encoding="utf-8")
         assert "readerIdFromPath" in gm and "params.reader" in gm
         assert "if (state.readerId) updateHash(false)" in gm
+
+    def test_panel_paths_round_trip(self):
+        """Port of notesIdFromPath/analysisFromPath: /notes, /notes/<id>,
+        /analysis parse; asset/pretty prefixes (snap: /note/<…> is the
+        md-viewer pretty prefix) must not."""
+        import re as _re
+        def notes_from_path(pn):
+            m = _re.match(r"^/notes(?:/([^/]+?))?/?$", pn or "")
+            if not m:
+                return None
+            return unquote(m.group(1)) if m.group(1) else True
+        assert notes_from_path("/notes") is True
+        assert notes_from_path("/notes/") is True
+        assert notes_from_path("/notes/abc%20def") == "abc def"
+        assert notes_from_path("/note/en-US/x") is None, "singular /note/ is md-viewer"
+        assert notes_from_path("/analysis") is None
+        assert notes_from_path("/") is None
+        assert bool(_re.match(r"^/analysis/?$", "/analysis"))
+        assert bool(_re.match(r"^/analysis/?$", "/analysis/"))
+        assert not _re.match(r"^/analysis/?$", "/analysis/x")
+
+    def test_panel_paths_in_routing_and_restore(self):
+        """Writer puts notes/analysis in the pathname; legacy hash forms
+        still restore (graph-main merge) and upgrade in place."""
+        src = Path("web/components/routing.js").read_text(encoding="utf-8")
+        assert "notesIdFromPath" in src and "analysisFromPath" in src
+        assert "'/notes/' + encodeURIComponent(state.notesNoteId)" in src
+        assert "'/analysis'" in src
+        assert "if (!notesPath)" in src and "if (!analysisPath)" in src
+        gm = Path("web/components/graph-main.js").read_text(encoding="utf-8")
+        assert "params.notes = pathNotes" in gm
+        assert "params.analysis = true" in gm
+        assert "state.notesOpen || state.analysisOpen" in gm
+        notes = Path("web/components/notes.js").read_text(encoding="utf-8")
+        assert "notesIdFromPath(window.location.pathname)" in notes
 
     def test_bare_fragment_section_fallback(self):
         """`/article/<slug>#animations` and `#tour=on&step=2` must restore

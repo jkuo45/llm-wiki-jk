@@ -47,6 +47,25 @@ export function readerIdFromPath(pathname) {
   return bare ? m[1] + '/' + bare : null;
 }
 
+// Panel paths, same deal as the reader: `/analysis` and `/notes/<id>`
+// live in the pathname; legacy `/#analysis`, `/#notes=<id>` (and the
+// `note=<id>` spelling) still restore via the hash fallback in graph-main.
+// Note ids are encoded single segments (encodeURIComponent), so `/notes`
+// (gallery) vs `/notes/<id>` (lightbox) can never collide with assets —
+// nothing is served under /notes/ or /analysis/.
+export function notesIdFromPath(pathname) {
+  const m = /^\/notes(?:\/([^/]+?))?\/?$/.exec(pathname || '');
+  if (!m) return null;
+  if (!m[1]) return true; // bare /notes → gallery
+  let id = m[1];
+  try { id = decodeURIComponent(id); } catch { /* malformed % — keep raw */ }
+  return id || true;
+}
+
+export function analysisFromPath(pathname) {
+  return /^\/analysis\/?$/.test(pathname || '');
+}
+
 // Bare-fragment section fallback: hand-authored `/article/<slug>#animations`
 // (or `#tour=on&step=2`) carries no `section=` key. Known hash keys are
 // excluded so `#notes`/`#chat` etc. are never mistaken for a section id.
@@ -76,20 +95,25 @@ export function updateHash(pushState = true) {
   const currentParams = new URLSearchParams(location.hash.replace(/^#\/?/, ""));
   const mode = currentParams.get("mode");
   if (mode === "wiki" || mode === "triples") parts.push(`mode=${encodeURIComponent(mode)}`);
-  // Notes panel first so the hash always opens with #notes when it's shown.
-  //   #notes          → gallery open (no note selected)
-  //   #notes=<id>     → lightbox open on that note (legacy `note=<id>` still read)
+  // Notes panel: id lives in the pathname (/notes, /notes/<id>); page /
+  // noteview / uilang stay in the hash. Legacy `#notes=<id>` still read.
+  // Only one panel owns the pathname (reader > notes > analysis); a panel
+  // that loses the path keeps its hash form so combined state round-trips.
+  const readerPath = state.readerId ? readerPathForId(state.readerId) : null;
+  const notesPath = state.notesOpen && !readerPath
+    ? (state.notesNoteId ? '/notes/' + encodeURIComponent(state.notesNoteId) : '/notes')
+    : null;
+  const analysisPath = state.analysisOpen && !readerPath && !notesPath ? '/analysis' : null;
   if (state.notesOpen) {
-    if (state.notesNoteId) {
-      parts.push(`notes=${encodeURIComponent(state.notesNoteId)}`);
-      if (state.notesPage != null) {
-        parts.push(`page=${state.notesPage}`);
-      }
-      if (state.notesViewMode) {
-        parts.push('noteview=full');
-      }
-    } else {
-      parts.push('notes');
+    if (!notesPath) {
+      parts.push(state.notesNoteId
+        ? `notes=${encodeURIComponent(state.notesNoteId)}` : 'notes');
+    }
+    if (state.notesNoteId && state.notesPage != null) {
+      parts.push(`page=${state.notesPage}`);
+    }
+    if (state.notesNoteId && state.notesViewMode) {
+      parts.push('noteview=full');
     }
     if (state.notesUiLang && state.notesUiLang !== 'en-US') {
       parts.push(`uilang=${encodeURIComponent(state.notesUiLang)}`);
@@ -107,7 +131,6 @@ export function updateHash(pushState = true) {
   }
   // Reader id goes in the pathname (see readerPathForId); the section
   // stays in the hash (`/<kind>/<bare>#section=<id>`).
-  const readerPath = state.readerId ? readerPathForId(state.readerId) : null;
   if (state.readerId && state.readerSection) {
     parts.push(`section=${encodeURIComponent(state.readerSection)}`);
   }
@@ -118,7 +141,7 @@ export function updateHash(pushState = true) {
     }
   }
   if (state.analysisOpen) {
-    parts.push('analysis');
+    if (!analysisPath) parts.push('analysis');
     if (state.analysisUiLang && state.analysisUiLang !== 'en-US') {
       parts.push(`uilang=${encodeURIComponent(state.analysisUiLang)}`);
     }
@@ -129,7 +152,7 @@ export function updateHash(pushState = true) {
     parts.push('analysis=off');
   }
   const hash = parts.length ? '#' + parts.join('&') : '';
-  const url = (readerPath || '/') + window.location.search + hash;
+  const url = (readerPath || notesPath || analysisPath || '/') + window.location.search + hash;
   // Skip when nothing changed — avoids stacking duplicate history entries when
   // several handlers push the same state in quick succession (e.g. opening a
   // note runs openLightbox → setPage). Compare full
