@@ -1,5 +1,5 @@
 {
-  "generated": "11_NOV_2026 07:31 PM PST",
+  "generated": "14_NOV_2026 07:12 AM PST",
   "stats": {
     "sirtuin-pleiotropy": {
       "words": 2324,
@@ -122,13 +122,13 @@
       "diagrams": 0
     },
     "male-distributed-topology-vs-estrogen-hub": {
-      "words": 3080,
+      "words": 3295,
       "images": 0,
       "links": 17,
       "diagrams": 6
     },
     "inside-the-cell": {
-      "words": 367,
+      "words": 355,
       "images": 0,
       "links": 15,
       "diagrams": 1
@@ -194,15 +194,15 @@
       "diagrams": 1
     },
     "apoptosis-vs-necrosis-dichotomy": {
-      "words": 570,
+      "words": 571,
       "images": 0,
-      "links": 16,
+      "links": 14,
       "diagrams": 1
     },
     "sasp-regulation": {
-      "words": 1135,
+      "words": 1136,
       "images": 1,
-      "links": 8,
+      "links": 7,
       "diagrams": 1
     },
     "natural-bioactive-compounds-dosage": {
@@ -248,9 +248,9 @@
       "diagrams": 4
     },
     "eat-me-dont-eat-me-signals": {
-      "words": 3150,
+      "words": 3152,
       "images": 0,
-      "links": 61,
+      "links": 59,
       "diagrams": 5
     }
   }
