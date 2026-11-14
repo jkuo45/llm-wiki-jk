@@ -1,5 +1,5 @@
 {
-  "generated": "11_NOV_2026 06:44 PM PST",
+  "generated": "14_NOV_2026 07:12 AM PST",
   "tasks": [
     {
       "id": "tasks-index",
@@ -22,6 +22,51 @@
           "tags": [],
           "path": "pages/tasks-index.html"
         }
+      }
+    },
+    {
+      "id": "task_output_adrenochrome_mb_ag_protocol_review_12_Nov_2026",
+      "langs": {
+        "en-US": {
+          "title": "Adrenochrome, aminoguanidine and methylene blue protocol review",
+          "description": "Evidence synthesis of vault protocol documents and published web pages for adrenochrome, aminoguanidine, methylene blue and carbazochrome, with recent external research through November 2026 and cross-reference to Nesci and Algieri 2026 mitochondrial dysfunction and inflammaging review, annotated by evidence tier.",
+          "created": "2026-11-12",
+          "updated": "2026-11-13",
+          "tags": [
+            "adrenochrome",
+            "aminoguanidine",
+            "methylene-blue",
+            "carbazochrome",
+            "mitohormesis",
+            "protocol-review"
+          ],
+          "filename": "task_output_adrenochrome_mb_ag_protocol_review_12_Nov_2026.md",
+          "path": "tasks/en-US/task_output_adrenochrome_mb_ag_protocol_review_12_Nov_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_adrenochrome_mb_ag_protocol_review_12_Nov_2026.md"
+        },
+        "zh-TW": {
+          "title": "腎上腺色素、氨基胍與亞甲藍方案綜述",
+          "description": "彙整知識庫方案文件與公開網頁，探討腎上腺色素、氨基胍、亞甲藍與 carbazochrome，並納入截至 2026 年 11 月的近期外部研究，另與 Nesci 與 Algieri 2026 粒線體功能障礙與 inflammaging 綜述交叉比對；均標註證據層級。",
+          "created": "2026-11-12",
+          "updated": "2026-11-13",
+          "tags": [
+            "adrenochrome",
+            "aminoguanidine",
+            "methylene-blue",
+            "carbazochrome",
+            "mitohormesis",
+            "protocol-review"
+          ],
+          "filename": "task_output_adrenochrome_mb_ag_protocol_review_12_Nov_2026.md",
+          "path": "tasks/zh-TW/task_output_adrenochrome_mb_ag_protocol_review_12_Nov_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_adrenochrome_mb_ag_protocol_review_12_Nov_2026.md"
+        }
+      },
+      "stats": {
+        "words": 2714,
+        "images": 0,
+        "links": 41,
+        "diagrams": 0
       }
     },
     {

@@ -339,8 +339,9 @@ Build: 11_NOV_2026 · hash `663ac957d5242f5b`
 ## Tasks
 
 <details>
-<summary><strong>Tasks (133 total)</strong> — click to expand</summary>
+<summary><strong>Tasks (134 total)</strong> — click to expand</summary>
 
+- [task_output_adrenochrome_mb_ag_protocol_review_12_Nov_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_adrenochrome_mb_ag_protocol_review_12_Nov_2026.md) [[src/tasks/task_output_adrenochrome_mb_ag_protocol_review_12_Nov_2026.md|wiki]] (13_NOV_2026 12:58 PM PST)
 - [task_output_whole_blood_nad_biomarker_viewpoint_10_Nov_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_whole_blood_nad_biomarker_viewpoint_10_Nov_2026.md) [[src/tasks/task_output_whole_blood_nad_biomarker_viewpoint_10_Nov_2026.md|wiki]] (10_NOV_2026 02:29 PM PST)
 - [task_output_eryptosis_and_aging_12_hallmarks_09_Nov_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_eryptosis_and_aging_12_hallmarks_09_Nov_2026.md) [[src/tasks/task_output_eryptosis_and_aging_12_hallmarks_09_Nov_2026.md|wiki]] (09_NOV_2026 12:54 PM PST)
 - [task_output_eat_me_dont_eat_me_signals_08_Nov_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_eat_me_dont_eat_me_signals_08_Nov_2026.md) [[src/tasks/task_output_eat_me_dont_eat_me_signals_08_Nov_2026.md|wiki]] (08_NOV_2026 10:09 PM PST)
