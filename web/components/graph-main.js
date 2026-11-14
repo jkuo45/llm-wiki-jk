@@ -9,7 +9,7 @@ import {
   container, scene, camera, renderer, labelRenderer, controls, nodeObjects,
   applyForces, updateStickyRings, updateZoomBar, renderState, minimap,
 } from './core.js';
-import { parseHash, readerIdFromPath, notesIdFromPath, analysisFromPath, bareSectionFromParams, updateHash } from './routing.js';
+import { parseHash, readerIdFromPath, notesIdFromPath, analysisFromPath, chatFromPath, bareSectionFromParams, updateHash } from './routing.js';
 import { activateTrace, activateRoute, clearTrace, setupDatasetSlider } from './ui.js';
 import { selectNode, deselectNode, selectEdge } from './interaction.js';
 import { openReader, closeReader, isReaderOpen } from './reader.js';
@@ -36,11 +36,13 @@ async function restoreFromHash(params) {
   const pathReader = readerIdFromPath(window.location.pathname);
   const pathNotes = notesIdFromPath(window.location.pathname);
   const pathAnalysis = analysisFromPath(window.location.pathname);
-  if (pathReader || pathNotes !== null || pathAnalysis) {
+  const pathChat = chatFromPath(window.location.pathname);
+  if (pathReader || pathNotes !== null || pathAnalysis || pathChat) {
     params = { ...(params || {}) };
     if (pathReader) params.reader = pathReader;
     if (pathNotes !== null) params.notes = pathNotes;
     if (pathAnalysis && !('analysis' in params)) params.analysis = true;
+    if (pathChat && !('chat' in params)) params.chat = true;
   }
   const effectiveReader = pathReader || (params && params.reader ? params.reader : null);
   const section = (params && params.section) || bareSectionFromParams(params) || null;
@@ -133,7 +135,7 @@ async function restoreFromHash(params) {
   state.suppressHashUpdate = false;
   // Upgrade legacy hashes (`/#reader=…`, `/#notes=…`, `/#analysis`) to the
   // clean pathname in place — no extra history entry, reloads stay clean.
-  if (state.readerId || state.notesOpen || state.analysisOpen) updateHash(false);
+  if (state.readerId || state.notesOpen || state.analysisOpen || state.chatOpen) updateHash(false);
 }
 
 // Guard against double-handling: back/forward between hash-only entries fires
@@ -253,7 +255,8 @@ new ResizeObserver(() => {
 const hashParams = parseHash();
 if (hashParams || readerIdFromPath(window.location.pathname)
   || notesIdFromPath(window.location.pathname) !== null
-  || analysisFromPath(window.location.pathname)) {
+  || analysisFromPath(window.location.pathname)
+  || chatFromPath(window.location.pathname)) {
   restoreFromHash(hashParams);
   lastRestoredHash = window.location.pathname + window.location.hash;
   history.replaceState({ hash: window.location.hash }, '', window.location.href);

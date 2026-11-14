@@ -66,6 +66,10 @@ export function analysisFromPath(pathname) {
   return /^\/analysis\/?$/.test(pathname || '');
 }
 
+export function chatFromPath(pathname) {
+  return /^\/chat\/?$/.test(pathname || '');
+}
+
 // Bare-fragment section fallback: hand-authored `/article/<slug>#animations`
 // (or `#tour=on&step=2`) carries no `section=` key. Known hash keys are
 // excluded so `#notes`/`#chat` etc. are never mistaken for a section id.
@@ -97,13 +101,15 @@ export function updateHash(pushState = true) {
   if (mode === "wiki" || mode === "triples") parts.push(`mode=${encodeURIComponent(mode)}`);
   // Notes panel: id lives in the pathname (/notes, /notes/<id>); page /
   // noteview / uilang stay in the hash. Legacy `#notes=<id>` still read.
-  // Only one panel owns the pathname (reader > notes > analysis); a panel
-  // that loses the path keeps its hash form so combined state round-trips.
+  // Only one panel owns the pathname (reader > notes > analysis > chat);
+  // a panel that loses the path keeps its hash form so combined state
+  // round-trips.
   const readerPath = state.readerId ? readerPathForId(state.readerId) : null;
   const notesPath = state.notesOpen && !readerPath
     ? (state.notesNoteId ? '/notes/' + encodeURIComponent(state.notesNoteId) : '/notes')
     : null;
   const analysisPath = state.analysisOpen && !readerPath && !notesPath ? '/analysis' : null;
+  const chatPath = state.chatOpen && !readerPath && !notesPath && !analysisPath ? '/chat' : null;
   if (state.notesOpen) {
     if (!notesPath) {
       parts.push(state.notesNoteId
@@ -135,7 +141,7 @@ export function updateHash(pushState = true) {
     parts.push(`section=${encodeURIComponent(state.readerSection)}`);
   }
   if (state.chatOpen) {
-    parts.push('chat');
+    if (!chatPath) parts.push('chat');
     if (state.analysisUiLang && state.analysisUiLang !== 'en-US') {
       parts.push(`uilang=${encodeURIComponent(state.analysisUiLang)}`);
     }
@@ -152,7 +158,7 @@ export function updateHash(pushState = true) {
     parts.push('analysis=off');
   }
   const hash = parts.length ? '#' + parts.join('&') : '';
-  const url = (readerPath || notesPath || analysisPath || '/') + window.location.search + hash;
+  const url = (readerPath || notesPath || analysisPath || chatPath || '/') + window.location.search + hash;
   // Skip when nothing changed — avoids stacking duplicate history entries when
   // several handlers push the same state in quick succession (e.g. opening a
   // note runs openLightbox → setPage). Compare full
