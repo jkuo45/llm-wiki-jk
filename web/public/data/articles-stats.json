@@ -1,5 +1,5 @@
 {
-  "generated": "14_NOV_2026 07:12 AM PST",
+  "generated": "17_NOV_2026 09:18 AM PST",
   "stats": {
     "sirtuin-pleiotropy": {
       "words": 2324,
@@ -62,10 +62,10 @@
       "diagrams": 8
     },
     "adrenochrome-protocol-node-network-analysis": {
-      "words": 4550,
+      "words": 4647,
       "images": 0,
-      "links": 76,
-      "diagrams": 7
+      "links": 75,
+      "diagrams": 6
     },
     "articles-index": {
       "words": 3,
@@ -124,7 +124,7 @@
     "male-distributed-topology-vs-estrogen-hub": {
       "words": 3295,
       "images": 0,
-      "links": 17,
+      "links": 47,
       "diagrams": 6
     },
     "inside-the-cell": {
@@ -248,10 +248,16 @@
       "diagrams": 4
     },
     "pro-phagocytic-and-anti-phagocytic-signals": {
-      "words": 3152,
+      "words": 3148,
       "images": 0,
       "links": 59,
       "diagrams": 5
+    },
+    "hallmark-modules-human-interactome-graph-analysis": {
+      "words": 2627,
+      "images": 6,
+      "links": 36,
+      "diagrams": 1
     }
   }
 }

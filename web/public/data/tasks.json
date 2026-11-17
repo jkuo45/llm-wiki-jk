@@ -1,5 +1,5 @@
 {
-  "generated": "14_NOV_2026 07:12 AM PST",
+  "generated": "17_NOV_2026 09:18 AM PST",
   "tasks": [
     {
       "id": "tasks-index",
@@ -22,6 +22,53 @@
           "tags": [],
           "path": "pages/tasks-index.html"
         }
+      }
+    },
+    {
+      "id": "task_output_topical_creatine_urolithin_a_17_Nov_2026",
+      "langs": {
+        "en-US": {
+          "title": "Topical Creatine and Topical Urolithin A in Skin Longevity — Comparative Effects and Combined Use",
+          "description": "Comparison of topical [[Creatine]] and topical [[Urolithin A]] effects on mitochondrial function, extracellular matrix, inflammation, and senescence in human skin models and randomized trials, and mechanistic assessment of combined topical use, against vault notes and web-retrieved topical creatine reviews.",
+          "created": "2026-11-17",
+          "updated": "2026-11-17",
+          "tags": [
+            "task-output",
+            "creatine",
+            "urolithin-a",
+            "skin-longevity",
+            "mitophagy",
+            "mitochondrial-function",
+            "clinical-evidence"
+          ],
+          "filename": "task_output_topical_creatine_urolithin_a_17_Nov_2026.md",
+          "path": "tasks/en-US/task_output_topical_creatine_urolithin_a_17_Nov_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_topical_creatine_urolithin_a_17_Nov_2026.md"
+        },
+        "zh-TW": {
+          "title": "外用肌酸與外用尿石素 A 在皮膚長壽中的比較效應與併用",
+          "description": "對照 vault 筆記與網路檢索的外用肌酸回顧，比較外用[[Creatine]]與外用[[Urolithin A]]對人類皮膚模型與隨機試驗中粒線體功能、細胞外基質、發炎與細胞衰老的效應，並作併用外用的機制評估。",
+          "created": "2026-11-17",
+          "updated": "2026-11-17",
+          "tags": [
+            "task-output",
+            "creatine",
+            "urolithin-a",
+            "skin-longevity",
+            "mitophagy",
+            "mitochondrial-function",
+            "clinical-evidence"
+          ],
+          "filename": "task_output_topical_creatine_urolithin_a_17_Nov_2026.md",
+          "path": "tasks/zh-TW/task_output_topical_creatine_urolithin_a_17_Nov_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_topical_creatine_urolithin_a_17_Nov_2026.md"
+        }
+      },
+      "stats": {
+        "words": 2063,
+        "images": 0,
+        "links": 58,
+        "diagrams": 0
       }
     },
     {
