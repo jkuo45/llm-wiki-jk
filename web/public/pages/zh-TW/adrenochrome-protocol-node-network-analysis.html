@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>[推測性] 腎上腺素紅方案的網絡分析：作用劑與腎上腺素紅節點的耦合，相對於粒線體激效、自噬與 Sirtuins</title>
-<meta name="description" content="在 llm-wiki-jk 知識圖譜上針對推測性亞甲藍＋氨基胍腎上腺素紅方案的圖譜分析：亞甲藍、氨基胍、卡巴佐酮與抗壞血酸至腎上腺素紅節點的儲存邊路徑；PPR 耦合排序、直接邊與橋接邊、Fiedler 社群邊界、適應性程式基準，以及假說 H1–H8（未於人體驗證）。所有數值依據圖譜建構 867a5ae5fdb8a46c 計算；劑量與生物效應未量化。">
+<meta name="description" content="在 llm-wiki-jk 知識圖譜上針對所提出的亞甲藍＋氨基胍腎上腺素紅方案進行圖譜分析：亞甲藍、氨基胍、卡巴佐酮與維他命 C 至腎上腺素紅節點的儲存邊路徑；PPR 耦合階梯、直接邊與橋接邊、適應性程式基準，以及假說 H1–H8（未於人體驗證）。所有數值依據圖譜建構 273eba0b1872c83844c9cf5dcabbde8c94c16060 計算；劑量與生物效應未量化。本頁不是臨床建議。">
 <link rel="canonical" href="https://graph.johnnykuo.com/pages/zh-TW/adrenochrome-protocol-node-network-analysis.html">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◎</text></svg>">
 <link rel="stylesheet" href="../themes/theme-02/theme.css">
@@ -15,401 +15,442 @@
 </head>
 <body>
 <a class="skip" href="#content">跳至內容</a>
-<nav aria-label="章節導覽" class="site-nav">
-<div class="wrap">
-<a class="home" href="https://graph.johnnykuo.com/#reader">← 返回</a>
-<div class="nav-links">
-<a href="#question">目標</a>
-<a href="#stack">方案作用劑</a>
-<a href="#ladder">耦合排序</a>
-<a href="#agents">作用劑追蹤</a>
-<a href="#arms">程式基準</a>
-<a href="#structure">結構</a>
-<a href="#seam">社群邊界</a>
-<a href="#hypotheses">假說</a>
-<a href="#log">追蹤日誌</a>
-<a href="#repro">再現性</a>
-<a href="#references">來源</a>
-</div>
-</div>
+
+<nav class="site-nav" aria-label="章節導覽">
+  <div class="wrap">
+    <a class="home" href="https://graph.johnnykuo.com/#reader">← 返回</a>
+    <div class="nav-links">
+      <a href="#question">目標</a>
+      <a href="#stack">方案作用劑</a>
+      <a href="#ladder">耦合階梯</a>
+      <a href="#agents">作用劑追蹤</a>
+      <a href="#arms">程式基準</a>
+      <a href="#structure">結構</a>
+      <a href="#seam">社群邊界</a>
+      <a href="#hypotheses">假說</a>
+      <a href="#log">追蹤日誌</a>
+      <a href="#repro">再現性</a>
+      <a href="#references">來源</a>
+    </div>
+  </div>
 </nav>
+
 <header class="hero">
-<div class="wrap">
-<p class="kicker">知識圖譜追蹤日誌 · 腎上腺素紅</p>
-<h1>[推測性] 腎上腺素紅方案的網絡分析：作用劑與腎上腺素紅節點的耦合，相對於粒線體激效、自噬與 Sirtuins</h1>
-<p class="lede">此推測性方案合併<strong>亞甲藍</strong>（繞過複合物 I/III 的電子分流）與<strong>氨基胍</strong>（二羰基／AGE 捕獲），以產生受控的<strong>腎上腺素紅</strong>氧化還原脈衝。<strong>粒線體激效</strong>、<strong>自噬</strong>與<strong>Sirtuins</strong> 的參與為假說，未於人體驗證，且未量化。本頁報告各方案作用劑至腎上腺素紅節點的儲存邊路徑，資料取自 <code>llm-wiki-jk</code> 知識圖譜。</p>
-<div class="meta">
-<p><strong>報告日期：</strong>2026 年 8 月 20 日（更新）</p>
-<p><strong>圖譜來源：</strong> <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/graphify-out/graph.json" target="_blank" rel="noopener noreferrer"><code>graphify-out/graph.json</code></a>— 建構 <code>867a5ae5fdb8a46c</code>（2,596 個節點/3,737 個邊）</p>
-<p><strong>分析程式：</strong> <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py" target="_blank" rel="noopener noreferrer"><code>scripts/analysis/node_analysis.py</code></a>，針對此建構的補充掃描</p>
-<p><strong>方法依據：</strong> <a href="../en-US/node-analysis-examples-biology.html">用於生物優先排序的節點級網路分析</a></p>
-<p><strong>追蹤日誌：</strong>本頁列出已執行的追蹤（參見<a href="#log">§09</a>)</p>
-<p><strong>方案文件</strong>（repo · <em>dev</em>）：<a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md" target="_blank" rel="noopener noreferrer">protocol outline</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/Adrenochrome%20monoaminoguanidine.md" target="_blank" rel="noopener noreferrer">adrenochrome monoaminoguanidine</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Methylene%20blue.md" target="_blank" rel="noopener noreferrer">methylene blue</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Aminoguanidine.md" target="_blank" rel="noopener noreferrer">aminoguanidine</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Hormetic%20Window.md" target="_blank" rel="noopener noreferrer">hormetic window</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/_document_%20-%20US4501923A%20-%20Process%20for%20preparing%20adrenochrome.md" target="_blank" rel="noopener noreferrer">US4501923A</a></p>
-</div>
-</div>
+  <div class="wrap">
+    <p class="kicker">知識圖譜追蹤日誌 · 腎上腺素紅</p>
+    <h1>[推測性] 腎上腺素紅方案的網絡分析：作用劑與腎上腺素紅節點的耦合，相對於粒線體激效、自噬與 Sirtuins</h1>
+    <p class="lede">
+      此推測性方案將<strong>亞甲藍</strong>（繞過複合物 I/III 的電子分流）與<strong>氨基胍</strong>（二羰基／AGE 捕獲）結合作為<em>推測性</em>的氧化還原中繼模型。在活體中產生受控的<strong>腎上腺素紅</strong>氧化還原脈衝尚屬未驗證——文獻中唯一的直接化學依據為體外止血製造製程（US4501923A）。<strong>粒線體激效</strong>、<strong>自噬</strong>與<strong>Sirtuins</strong> 的參與為假說，未於人體驗證，且未量化。本頁報告各方案作用劑至腎上腺素紅節點的儲存邊路徑，資料取自 <code>llm-wiki-jk</code> 知識圖譜。<strong>本頁不是臨床建議——請見 §01 的安全說明。</strong>
+    </p>
+    <div class="meta">
+      <p><strong>已更新：</strong>2026年11月16日（原始報告 2026年8月20日）</p>
+      <p><strong>圖譜來源：</strong> <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/graphify-out/graph.json" target="_blank" rel="noopener noreferrer"><code>graphify-out/graph.json</code></a> — build <code>273eba0b1872c83844c9cf5dcabbde8c94c16060</code> (4,756 nodes / 12,589 links)</p>
+      <p><strong>分析程式：</strong> <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py" target="_blank" rel="noopener noreferrer"><code>scripts/analysis/node_analysis.py</code></a>，針對此建構的補充掃描</p>
+      <p><strong>方法依據：</strong> <a href="node-analysis-examples-biology.html">用於生物優先排序的節點級網絡分析</a></p>
+      <p><strong>方案文件</strong> (repo · <em>dev</em>): <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md" target="_blank" rel="noopener noreferrer">方案大綱</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/Adrenochrome%20monoaminoguanidine.md" target="_blank" rel="noopener noreferrer">腎上腺素紅單氨基胍</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Methylene%20blue.md" target="_blank" rel="noopener noreferrer">亞甲藍</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Aminoguanidine.md" target="_blank" rel="noopener noreferrer">氨基胍</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Hormetic%20Window.md" target="_blank" rel="noopener noreferrer">毒物興奮效應窗口</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/_document_%20-%20US4501923A%20-%20Process%20for%20preparing%20adrenochrome.md" target="_blank" rel="noopener noreferrer">US4501923A</a></p>
+    </div>
+  </div>
 </header>
+
 <div class="wrap page">
-<aside aria-label="章節索引" class="toc">
-<p>章節索引</p>
-<ol>
-<li><a href="#question">目標與圖譜分析範圍</a></li>
-<li><a href="#stack">方案作用劑與圖節點</a></li>
-<li><a href="#ladder">PPR 耦合排序</a></li>
-<li><a href="#agents">各作用劑的儲存邊追蹤</a></li>
-<li><a href="#arms">適應性程式基準</a></li>
-<li><a href="#structure">結構發現</a></li>
-<li><a href="#seam">化學層與程式層之間的社群邊界</a></li>
-<li><a href="#hypotheses">假說 H1–H8</a></li>
-<li><a href="#log">追蹤日誌</a></li>
-<li><a href="#repro">再現性與待執行分析</a></li>
-<li><a href="#references">來源</a></li>
-</ol>
-</aside>
-<main id="content">
-<section id="question">
-<p class="sec-label">01 · 目標與範圍</p>
-<h2>腎上腺素紅的氧化損傷與低劑量激效兩種解釋</h2>
-<p class="drop">知識庫對腎上腺素紅有兩種解釋。氧化損傷解釋將其描述為氧化還原循環的兒茶酚胺氧化產物，可產生 ROS 並消耗穀胱甘肽；心肌細胞與多巴胺能神經元的鐵死亡為假說，未於人體驗證。方案解釋將腎上腺素紅視為低劑量氧化還原壓力源，其 ROS 輸出被提出可影響<strong>粒線體激效</strong>、<strong>自噬</strong>與<strong>Sirtuins</strong>；此劑量依賴性參與為假說，未量化且未於人體驗證。兩種解釋對應圖譜中同一個腎上腺素紅節點。</p>
-<p>先前的分析追蹤腎上腺素紅節點至三個適應性程式的儲存路徑。本分析涵蓋<strong>方案所列作用劑</strong>：亞甲藍（MB，繞過複合物 I/III 的電子分流）、氨基胍（AG，二羰基／AGE 捕獲），以及綱要文件在粒線體激效氧化還原中繼（MRR）、糖氧化蛋白質穩態（GOPS）與 SASP 重塑氨基色素複合物（SRAC）機轉下提出的搭配作用劑（卡巴佐酮、抗壞血酸、尿石素 A、亞精胺、雷帕黴素、非瑟酮、肌酸、白藜蘆醇）。上述機轉均為假說，未於人體驗證。各作用劑已針對建構 867a5ae5fdb8a46c 完成追蹤。</p>
-<div class="note">
-<h4>主要目標</h4>
-<p>
-<strong>將各方案作用劑與腎上腺素紅節點的連結分類為直接化學邊（反應、衍生、還原）或共享氧化還原／損傷橋接邊，並報告其相對於化學層與程式層之間社群邊界的 Fiedler 座標。</strong>
-</p>
-<p>次要目標：(a) 比較核心作用劑（MB、AG）與適應性程式的 PPR 耦合排序；(b) 辨識具有單一速率限制橋接邊的耦合模式；(c) 比較方案追蹤與四節點基準的重現、延伸或矛盾。</p>
-</div>
-<div class="note gold">
-<h4>激效假說的劑量依賴性</h4>
-<p>知識圖譜儲存邊關係，不包含劑量反應資料。將腎上腺素紅歸類為低劑量激效作用劑屬於<strong>低劑量假說</strong>：其 ROS／親電子化學被提出會參與適應性訊號傳導，而非使其飽和。此圖譜未量化劑量。本頁的網絡分析不依賴劑量；激效主張未於人體驗證，需依原始文獻評估（參見<a href="#repro">§10</a>）。
+  <aside class="toc" aria-label="章節索引">
+    <p>章節索引</p>
+    <ol>
+      <li><a href="#question">目標與圖譜分析範圍</a></li>
+      <li><a href="#stack">方案作用劑與圖節點</a></li>
+      <li><a href="#ladder">PPR 耦合階梯</a></li>
+      <li><a href="#agents">各作用劑的儲存邊追蹤</a></li>
+      <li><a href="#arms">適應性程式基準</a></li>
+      <li><a href="#structure">結構發現</a></li>
+      <li><a href="#seam">化學層與程式層之間的社群邊界</a></li>
+      <li><a href="#hypotheses">假說 H1–H8</a></li>
+      <li><a href="#log">追蹤日誌</a></li>
+      <li><a href="#repro">再現性與排入佇列的分析</a></li>
+      <li><a href="#references">來源</a></li>
+    </ol>
+  </aside>
+
+  <main id="content">
+
+    <section id="question">
+      <p class="sec-label">01 · 目標與範圍</p>
+      <h2>腎上腺素紅的氧化損傷與低劑量毒物興奮效應兩種解釋</h2>
+      <p class="drop">
+        知識庫對腎上腺素紅有兩種解釋。氧化損傷解釋將其描述為氧化還原循環的兒茶酚胺氧化產物，可產生 ROS 並消耗穀胱甘肽；心肌細胞與多巴胺能神經元的鐵死亡為假說，未於人體驗證。方案解釋將腎上腺素紅視為低劑量氧化還原壓力源，其 ROS 輸出被提出可影響<strong>粒線體激效</strong>、<strong>自噬</strong>與<strong>Sirtuins</strong>；此劑量依賴性參與為假說，未量化且未於人體驗證。兩種解釋對應圖譜建構中同一個腎上腺素紅節點。
+      </p>
+      <p>
+        先前的分析追蹤腎上腺素紅節點至三個適應性程式的儲存路徑。本分析涵蓋<strong>方案所列作用劑</strong>：亞甲藍（MB，繞過複合物 I/III 的電子分流）、氨基胍（AG，二羰基／AGE 捕獲），以及綱要文件在粒線體激效氧化還原中繼（MRR）、糖氧化蛋白質恆態（GOPS）與 SASP 重塑氨基色素（SRAC）機轉下提出的搭配作用劑（卡巴佐酮、維他命 C、尿石素 A、亞精胺、雷帕黴素、非瑟酮、肌酸、白藜蘆醇）。上述機轉均為假說，未於人體驗證。各作用劑已針對建構 273eba0b1872c83844c9cf5dcabbde8c94c16060 完成追蹤。
+      </p>
+
+      <div class="note">
+        <h4>主要目標</h4>
+        <p>
+          <strong>將各方案作用劑與腎上腺素紅節點的連結分類為直接化學邊（反應、衍生、還原）或共享氧化還原／損傷橋接邊，並報告其 Fiedler 座標與相對於適應性程式的 PPR 耦合。</strong>
         </p>
-</div>
-<figure class="fig">
-<div class="fig-head"><span class="fig-num">圖 1 · 方案作用劑與腎上腺素紅節點的儲存邊線路</span></div>
-<div class="fig-canvas" data-chart="circuit"></div>
-<figcaption>
-<strong>至腎上腺素紅節點的三種耦合模式。</strong>左欄：方案作用劑。中：MB 共享的橋接節點。右：腎上腺素紅節點。底部：三個適應性程式。實心箭頭為直接儲存邊（標記 ■）；Sirtuins 分支上的虛線赭紅邊標示無向投影<em>反轉</em>的儲存方向—參見<a href="#structure">§06</a>。
+        <p>
+          次要目標：(a) 比較核心作用劑（MB、AG）與適應性程式的 PPR 耦合；(b) 辨識耦合模式（直接邊與共享橋接）；(c) 比較方案追蹤與四節點基準的重現、延伸或矛盾。
+        </p>
+      </div>
+
+      <div class="note gold">
+        <h4>毒物興奮效應假說的劑量依賴性</h4>
+        <p>
+          知識圖譜儲存邊關係，不包含劑量反應資料。將腎上腺素紅歸類為低劑量毒物興奮作用劑屬於<strong>低劑量假說</strong>：其 ROS／親電子化學被提出會參與適應性訊號傳導，而非使其飽和。此圖譜未量化劑量。本頁的網絡分析不依賴劑量；毒物興奮效應主張未於人體驗證，需依原始文獻評估（參見<a href="#repro">§10</a>）。
+        </p>
+      </div>
+
+      <div class="note gold">
+        <h4>安全性——為何本頁不是方案</h4>
+        <ul>
+          <li><strong>亞甲藍：</strong>FDA 黑框警語——強效可逆 MAO-A 抑制劑；血清素作用藥物（SSRI/SNRI/MAOI/哌替啶）必須先停用（≥2 週，氟西汀 5 週），待 MB 停用 ≥24 小時後再恢復。G6PD 缺乏症禁用（溶血、海因茲小體）。劑量 &gt;7 mg/kg 出現不良反應；0.5–4 mg「保健」劑量範圍為社群慣例，非核准適應症（標示：高鐵血紅素血症，1 mg/kg 靜脈注射）。</li>
+          <li><strong>氨基胍（pimagedine）：</strong>糖尿病腎病變 ACTION I/II 第三期試驗未達成主要試驗終點，計畫因安全性終止（腎小球腎炎、吡哆醇／B6 耗竭、ANCA 相關血管炎、二胺氧化酶抑制／組織胺不耐）。從未獲准上市。</li>
+          <li><strong>腎上腺素紅／AMM／卡巴佐酮：</strong>無人體安全性、藥動學或劑量資料。卡巴佐酮為氧化還原靜默的止血性縮氨脲，非毒物興奮效應觸發劑；AMM 為腙封固的衍生物——二者皆不會如腎上腺素紅般自由循環。維他命 C＋腎上腺素紅在體外為促氧化還原循環，非乾淨解毒劑。</li>
+          <li><strong>本修訂版標示的證據缺口：</strong>腎上腺素紅 → NF-κB 抑制／SASP 抑制（SRAC）尚無衰老前臨床資料；腎上腺素紅芳基化 GPX4 為未驗證假說（兒茶酚胺誘發鐵死亡本身已有證據支持）。</li>
+        </ul>
+      </div>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">圖 1 · 方案作用劑與腎上腺素紅節點的儲存邊線路</span></div>
+        <div class="fig-canvas" data-chart="circuit"></div>
+        <figcaption>
+          <strong>兩個面板：方案作用劑（A）與適應性程式（B）。至腎上腺素紅節點的三種耦合模式。</strong>左欄：方案作用劑。中：MB 共享的橋接節點。右：腎上腺素紅節點。底部：三個適應性程式。實心箭頭為直接儲存邊（標記 ■）。Sirtuins 分支現經 NRF2 走向——參見<a href="#structure">§06</a>。
         </figcaption>
-</figure>
-</section>
-<section id="stack">
-<p class="sec-label">02 · 方案組成與圖節點</p>
-<h2>方案作用劑、推測角色與圖節點</h2>
-<p>綱要文件提出三種機轉：<strong>粒線體激效氧化還原中繼（MRR）</strong>（受控氧化脈衝加上生質能量受質）、<strong>糖氧化蛋白質穩態（GOPS）</strong>（氨基胍捕獲二羰基與 AGE），以及<strong>SASP 重塑氨基色素複合物（SRAC）</strong>（腎上腺素紅／AMM 作為衰老型態氧化還原組分）。上述機轉均為假說，其生物效應未量化且未於人體驗證。各作用劑已針對圖譜建構 <code>867a5ae5fdb8a46c</code> 完成追蹤。</p>
-<div class="table-wrap">
-<div class="copy-host table-host"><button class="copy-btn" data-copy-table="dataTable" title="複製表格" aria-label="複製表格至剪貼簿"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 4v16"/></svg></button><table id="dataTable">
-<thead>
-<tr>
-<th>作用劑</th>
-<th>方案中的推測角色</th>
-<th>圖節點（度數）</th>
-<th>至腎上腺素紅的儲存路徑</th>
-<th class="num">PPR 排序 @Adr</th>
-</tr>
-</thead>
-<tbody>
-<tr><td><strong>亞甲藍</strong></td><td>MRR：繞過複合物 I/III 的電子分流</td><td><code>methylene_blue</code> (45)</td><td>3 條等長最短路徑，經複合物 I · 氧化壓力 · 溶血</td><td class="num"><strong>#8</strong></td></tr>
-<tr><td><strong>氨基胍</strong></td><td>GOPS：二羰基／AGE 捕獲；iNOS 抑制</td><td><code>aminoguanidine</code> (32)</td><td><strong>直接邊</strong> <code>reacts_with</code> 0.9</td><td class="num"><strong>#4</strong></td></tr>
-<tr><td><strong>卡巴佐酮</strong></td><td>穩定的腎上腺素紅縮氨脲（腎上腺素紅衍生物）</td><td><code>carbazochrome</code> (2)</td><td><strong>直接邊</strong> <code>is_an_intermediate_for</code> 0.95</td><td class="num"><strong>#14</strong></td></tr>
-<tr><td><strong>抗壞血酸</strong></td><td>還原劑；還原鄰醌</td><td><code>ascorbic_acid</code> (6)</td><td><strong>直接邊</strong> <code>reduces</code> 0.75（+ 抑制形成 0.9）</td><td class="num"><strong>#15</strong></td></tr>
-<tr><td><strong>雷帕黴素</strong></td><td>mTOR–自噬分支</td><td><code>rapamycin</code> (41)</td><td>3 條路徑，經 NF-κB · OXPHOS · 氧化壓力</td><td class="num">#59</td></tr>
-<tr><td><strong>尿石素 A</strong></td><td>粒線體自噬誘導劑</td><td><code>urolithin_a</code> (32)</td><td>3 條路徑，經 NF-κB · 氧化壓力 · ROS</td><td class="num">#90</td></tr>
-<tr><td><strong>肌酸</strong></td><td>磷酸肌酸能量緩衝</td><td><code>creatine</code> (39)</td><td>1 條路徑，經 ROS（<code>reduces</code> 0.88）</td><td class="num">#95</td></tr>
-<tr><td><strong>非瑟酮</strong></td><td>senolytic／senomorphic 類黃酮</td><td><code>fisetin</code> (28)</td><td>7 條路徑，經細胞衰老 · COMT · 類黃酮 · SASP · Senomorphic</td><td class="num">#147</td></tr>
-<tr><td><strong>亞精胺</strong></td><td>自噬誘導劑</td><td><code>spermidine</code> (9)</td><td>1 條路徑，經氧化壓力（<code>reduces</code> 0.95）</td><td class="num">#174</td></tr>
-<tr><td><strong>白藜蘆醇</strong></td><td>Sirtuin 活化多酚（推測）</td><td><code>resveratrol</code> (36)</td><td>8 條路徑，經 COMT · SAMD · SASP · SIRT1 · SIRT3</td><td class="num">#181</td></tr>
-<tr><td><strong>NR / NMN</strong></td><td>NAD<sup>+</sup> 前體（MRR）</td><td><code>Nicotinamide Riboside</code> (57)</td><td>尚未追蹤；排入待辦（§10）</td><td class="num">—</td></tr>
-<tr><td><strong>GlyNAC</strong></td><td>甘氨酸＋NAC 前體</td><td>圖譜中無此節點</td><td>實體註記待建立</td><td class="num">—</td></tr>
-</tbody>
-</table></div>
-</div>
-<div class="note slate">
-<h4>追蹤集的範圍</h4>
-<p>NR/NMN 與 GlyNAC 列於方案中，但未納入本追蹤集。NR 已有儲存節點（<code>Nicotinamide Riboside</code>，度數 57），排入待辦；GlyNAC 無節點，需先進行實體解析。<a href="#log">§09</a> 的重跑將納入兩者。</p>
-</div>
-</section>
-<section id="ladder">
-<p class="sec-label">03 · 耦合排序</p>
-<h2>PPR 排序最高的方案作用劑及其與腎上腺素紅節點的耦合</h2>
-<p>以 <strong>腎上腺素紅</strong> 為種子的置信度加權 Personalized PageRank 將所有已追蹤節點排成單一序列。四個方案核心作用劑位於圖譜前 15 名，PPR 排序數值小於任一適應性程式：</p>
-<p>
-<strong>氨基胍 #4</strong> (0.01401) · <strong>亞甲藍 #8</strong> (0.00929) ·
-        <strong>卡巴佐酮 #14</strong> (0.00716) · <strong>抗壞血酸 #15</strong> (0.00689) —
-        相對於適應性程式的 <strong>#89 / #93 / #305</strong>。反轉種子後，腎上腺素紅從氨基胍起算排名 <strong>#3</strong>，從亞甲藍起算排名 <strong>#7</strong>，兩個方向的排序數值均小於適應性程式（#60 / #58 / #147）。</p>
-<figure class="fig">
-<div class="fig-head"><span class="fig-num">圖 2 · 行走質量 PPR 排序</span></div>
-<div class="fig-canvas" data-chart="ladder"></div>
-<figcaption>
-<strong>以腎上腺素紅（實心）為種子時各節點的對數尺度 PPR 排序。</strong>空心標記為執行反向追蹤處的反向排序。AG、MB、卡巴佐酮與抗壞血酸位於前 15 名，四個方案核心作用劑的 PPR 排序數值均小於三個適應性程式。* 標記至腎上腺素紅節點的直接儲存邊。</figcaption>
-</figure>
-<div class="note forest">
-<h4>直接反應作用劑與調節作用劑之間的排序差距</h4>
-<p>直接反應作用劑位於前 15 名，系統性調節作用劑位於 #59–#181。直接反應作用劑透過儲存邊與腎上腺素紅節點共享行走質量；調節作用劑僅經中間程式與橋接節點到達該節點。因此 PPR 排序依儲存邊連通性排列作用劑，而非依綱要文件提出的順序。</p>
-</div>
-</section>
-<section id="agents">
-<p class="sec-label">04 · 作用劑追蹤</p>
-<h2>核心作用劑對與化學作用劑對的儲存邊追蹤</h2>
-<h3>氨基胍：至腎上腺素紅的儲存化學反應邊</h3>
-<p>AG 是<strong>唯一以儲存化學反應邊連接至腎上腺素紅節點的方案作用劑</strong>：
-        <code>Aminoguanidine --[reacts_with|0.9]→ Adrenochrome</code>（取自 <code>US4501923A</code> 製備專利），為多重數 1、無橋接的直接邊。
-        反應產物本身為圖節點—<strong>腎上腺素紅單氨基胍</strong>（AMM，社群 #98，規模 6）—為 AG 與腎上腺素紅唯一的共享鄰居
-        （Jaccard 0.012；Adamic–Adar 0.558）。</p>
-<pre><code># direction-audited AG edges
-Aminoguanidine --reacts_with(0.9)--&gt; Adrenochrome        direct edge, multiplicity 1
-Aminoguanidine --traps(0.9)--&gt; Dicarbonyls
-Aminoguanidine --inhibits(0.95)--&gt; AGE formation
-Aminoguanidine --inhibits(0.95)--&gt; iNOS      --spares(0.85)--&gt; eNOS
-Aminoguanidine --inhibits(0.92)--&gt; Diamine Oxidase   --inhibits(0.9)--&gt; Monoamine oxidase
-Adrenochrome monoaminoguanidine --is_synthesized_from(0.9)--&gt; Adrenochrome
-Adrenochrome monoaminoguanidine --contains(0.9)--&gt; Aminoguanidine
-Adrenochrome monoaminoguanidine --is_a(0.9)--&gt; Guanylhydrazone
-Adrenochrome monoaminoguanidine --may_act_as(0.6)--&gt; Prodrug
-Adrenochrome monoaminoguanidine --protects(0.8)--&gt; Hematopoietic Stem Cell</code></pre>
-<p>AG 的 Fiedler 座標為正：<strong>+0.0021</strong>。至腎上腺素紅的有效電阻為 0.186 (z −1.64 / −1.80)。PPR 正向 <strong>#4</strong>、反向 <strong>#3</strong>，為本追蹤集中外源性作用劑最小的 PPR 排序數值。</p>
-<h3>亞甲藍：三條等長最短路徑，無直接反應邊</h3>
-<p>MB 經<strong>三條等長最短路徑</strong>到達腎上腺素紅，橋接節點為<strong>複合物 I、氧化壓力與溶血</strong>，無直接反應邊。其至腎上腺素紅的<em>提議缺失邊</em> Adamic–Adar 分數為本追蹤集中最高：<strong>2.641</strong>（共享複合物 I／氧化壓力／溶血鄰域），相對於 Jaccard 0.031。相關儲存邊列於下方：</p>
-<pre><code># direction-audited MB edges
-Methylene blue --bypasses(0.9)--&gt; Complex I    --bypasses(0.9)--&gt; Complex III
-Methylene blue --accepts_electrons_from(0.96)--&gt; NADH   --shunts_electrons_to(0.95)--&gt; Cytochrome c
-Methylene blue --induces(0.88)--&gt; Oxidative Stress      --follows(0.95)--&gt; Hormetic Window
-Methylene blue --causes(0.94)--&gt; Hemolysis              &amp; Adrenochrome --induces(0.75)--&gt; Hemolysis
-Complex I --reduces(0.9)--&gt; Adrenochrome                 # even the "bridge" has a stored chemistry edge
-Methylene blue --reduces(0.93)--&gt; Mitochondrial Superoxide
-Methylene blue --preserves(0.93)--&gt; Mitochondrial Membrane Potential
-Methylene blue --enhances(0.94)--&gt; Mitochondrial Respiration</code></pre>
-<p>MB 透過腎上腺素紅亦具備的氧化還原通道與之相連—<code>Complex I --reduces(0.9)--&gt; Adrenochrome</code> 與 <code>Oxidative Stress --drives(0.95)--&gt; Adrenochrome formation</code> 均為儲存邊。MB 無腎上腺素紅生成的儲存邊；其與腎上腺素紅共享複合物 I／氧化壓力橋接節點。Fiedler <strong>+0.0013</strong>（正值側）；PPR <strong>#8</strong>／<strong>#7</strong>；有效電阻 0.164 (z −1.68 / −1.70)。</p>
-<div class="note">
-<h4>MB ⇄ AG 共享兩個鄰居：單胺氧化酶與一氧化氮合酶 (Jaccard 0.027)</h4>
-<p>MB 與 AG 各帶有 MAO 抑制邊 (0.92 / 0.9) 與 NOS 家族邊（MB 抑制 sGC/NOS；AG 阻斷 NO 生成並抑制 iNOS，eNOS 未降低）。此圖譜中兩個核心作用劑之間無儲存化學邊；兩者皆連接至共享<em>中介節點</em>。此圖譜結構與雙作用劑方案一致，而非單一反應級聯；生物學解釋為假說，未於人體驗證。</p>
-</div>
-<h3>化學作用劑對：卡巴佐酮與抗壞血酸</h3>
-<p>另有兩條直接邊連接化學群組與腎上腺素紅：<code>Carbazochrome --is_an_intermediate_for(0.95)--&gt; Adrenochrome</code> 與 <code>Ascorbic Acid --reduces(0.75)--&gt; Adrenochrome</code>（抗壞血酸另有 <code>inhibits(0.9)</code> <em>腎上腺素紅形成</em>）。兩者的 Fiedler 座標為負，位於社群邊界的<strong>負值側</strong>（卡巴佐酮 −0.0008，抗壞血酸 −0.0023），與鄰醌的氧化還原夥伴同側，而非與系統性程式同側。兩者的共享鄰域僅含腎上腺素紅，故 <strong>Jaccard(Carbazochrome, Ascorbic Acid) = 0.143</strong>，為本追蹤集中最高的成對重疊值。</p>
-<p>兩者的耦合深度不同：抗壞血酸 PPR <strong>#15</strong>，有效電阻 0.282 (z −1.48)；卡巴佐酮 PPR <strong>#14</strong>，有效電阻 0.747 (z −0.70)，為直接邊節點中<em>最大者</em>。卡巴佐酮為 <strong>k-core-2 懸垂節點</strong>（度數 2），位於 AMM 社群外圍。直接儲存邊存在；其 PPR 排序為 <strong>#14</strong>。</p>
-<div class="note slate">
-<h4>本追蹤集中的三種耦合模式</h4>
-<ul>
-<li><strong>化學反應</strong>（AG <code>reacts_with</code>）—直接儲存邊，無橋接，PPR #4。</li>
-<li><strong>衍生／還原</strong>（卡巴佐酮 <code>is_an_intermediate_for</code>，抗壞血酸 <code>reduces</code>）—懸垂／還原節點上的直接儲存邊。</li>
-<li><strong>透過共享橋的功能調節</strong>（MB 與調節作用劑）—無直接邊；與腎上腺素紅共享複合物 I／氧化壓力／ROS 橋接節點。</li>
-</ul>
-</div>
-</section>
-<section id="arms">
-<p class="sec-label">05 · 適應性程式基準</p>
-<h2>執行 C 重現的四節點基準</h2>
-<p>執行 C（參見<a href="#log">§09</a>）依同一建構重新追蹤四節點基準並精確重現：每分支路徑重數 1；橋接節點 ROS／神經黑色素／SASP；PPR #89 / #93 / #305；Fiedler +0.0034 / +0.0033 / +0.0043。下列基準數值與先前研究一致，作為方案追蹤的對照。</p>
-<div class="table-wrap">
-<div class="copy-host table-host"><button class="copy-btn" data-copy-table="dataTable1" title="複製表格" aria-label="複製表格至剪貼簿"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 4v16"/></svg></button><table id="dataTable1">
-<thead>
-<tr>
-<th>節點</th>
-<th class="num">入度</th>
-<th class="num">出度</th>
-<th class="num">度數</th>
-<th class="num">PageRank</th>
-<th class="num">中介中心性</th>
-<th class="num">聚類係數</th>
-<th class="num">k-core</th>
-<th>社群（規模）</th>
-</tr>
-</thead>
-<tbody>
-<tr><td><strong>腎上腺素紅</strong></td><td class="num">18</td><td class="num">42</td><td class="num">60</td><td class="num">0.00501</td><td class="num">0.0387</td><td class="num">0.0094</td><td class="num">4</td><td>腎上腺素紅 (33)</td></tr>
-<tr><td><strong>粒線體激效</strong></td><td class="num">7</td><td class="num">27</td><td class="num">34</td><td class="num">0.00083</td><td class="num">0.0166</td><td class="num">0.0143</td><td class="num">5</td><td>粒線體激效 (35)</td></tr>
-<tr><td><strong>自噬</strong></td><td class="num">23</td><td class="num">16</td><td class="num">39</td><td class="num">0.00429</td><td class="num">0.0276</td><td class="num">0.0390</td><td class="num">6</td><td>自噬 (19)</td></tr>
-<tr><td><strong>Sirtuins</strong></td><td class="num">11</td><td class="num">13</td><td class="num">24</td><td class="num">0.00203</td><td class="num">0.0112</td><td class="num">0.0119</td><td class="num">5</td><td>Sirtuins (17)</td></tr>
-</tbody>
-</table></div>
-</div>
-<figure class="fig">
-<div class="fig-head"><span class="fig-num">圖 3 · 度數組成（六個已追蹤節點）</span></div>
-<div class="fig-canvas" data-chart="composition"></div>
-<figcaption>入度（板岩色）與出度（赭紅色）。腎上腺素紅與粒線體激效以出度為主；兩個方案核心作用劑（MB、AG）分別為入度 1／出度 44 與入度 1／出度 31。上述度數組成依儲存邊計算。</figcaption>
-</figure>
-<figure class="fig">
-<div class="fig-head"><span class="fig-num">圖 4 · 樣本正規化指標（六個節點）</span></div>
-<div class="fig-canvas" data-chart="fingerprint"></div>
-<figcaption>各指標以六節點樣本內的最大值正規化。§03 的 PPR 排序將方案核心作用劑置於適應性程式之前；腎上腺素紅、MB 與 AG 的出度高於入度；自噬為 k-core 6，樣本中最高；Sirtuins 與卡巴佐酮在 k-core 軸上位置不同。</figcaption>
-</figure>
-<div class="table-wrap">
-<div class="copy-host table-host"><button class="copy-btn" data-copy-table="dataTable2" title="複製表格" aria-label="複製表格至剪貼簿"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 4v16"/></svg></button><table id="dataTable2">
-<thead>
-<tr>
-<th>適應性程式 ↔ 腎上腺素紅</th>
-<th class="num">Jaccard</th>
-<th class="num">Adamic–Adar</th>
-<th class="num">有效電阻 (z)</th>
-<th class="num">PPR 正向／反向</th>
-</tr>
-</thead>
-<tbody>
-<tr><td><strong>粒線體激效 ↔ 腎上腺素紅</strong><br/><code>MH —requires(0.9)→ ROS —generates(0.95)→ Adr</code></td><td class="num">0.011</td><td class="num">0.328</td><td class="num">0.141 (−1.72)</td><td class="num">#89 / #60</td></tr>
-<tr><td><strong>自噬 ↔ 腎上腺素紅</strong><br/><code>Auto —associated_with(0.95)→ NM —sequesters(0.8)→ Adr</code></td><td class="num">0.011</td><td class="num">0.271</td><td class="num">0.138 (−1.72)</td><td class="num">#93 / #58</td></tr>
-<tr><td><strong>Sirtuins ↔ 腎上腺素紅</strong><br/><code>Sirt —suppress(0.86)→ SASP ←is_regulated_by(0.96)— NF-κB ←inhibits(0.6⚠)— Adr</code></td><td class="num">0.000</td><td class="num">0.000</td><td class="num">0.227 (−1.57)</td><td class="num">#305 / #147</td></tr>
-</tbody>
-</table></div>
-</div>
-<div class="note slate">
-<h4>適應性程式成對對照</h4>
-<p>Jaccard(Mitohormesis, Autophagy) = <strong>0.076</strong>，為四節點中最高值，共享鄰居為<strong>AMPK、熱量限制、二甲雙胍、粒線體 ROS、粒線體自噬</strong>。Jaccard(Mitohormesis, Sirtuins) = 0.018（僅 AMPK）；Jaccard(Autophagy, Sirtuins) = 0.034（AMPK、SASP）。<strong>AMPK 為三個適應性程式唯一共同共享的鄰居。</strong>
-</p>
-</div>
-</section>
-<section id="structure">
-<p class="sec-label">06 · 結構發現</p>
-<h2>儲存方向查核、單一速率限制橋與橋接擾動掃描</h2>
-<h3>三個分支各含一條速率限制橋</h3>
-<pre><code>Arm A (mitohormetic signalling):  Mitohormesis --requires(0.90)--&gt; ROS --generates(0.95)--&gt; Adrenochrome
-Arm B (autophagic clearance):    Autophagy --associated_with(0.95)--&gt; Neuromelanin --sequesters(0.8)--&gt; Adrenochrome
-Arm C (sirtuin/NAD+):            Sirtuins --suppress(0.86)--&gt; SASP &lt;--is_regulated_by(0.96)-- NF-κB &lt;--inhibits(0.6, AMBIGUOUS)-- Adrenochrome</code></pre>
-<p>A 分支與 B 分支各含兩條儲存邊；C 分支含三個步驟，經過四節點中中介中心性最高的節點（SASP），並終止於四節點中置信度最低的邊（0.6）。執行 C 重現基準：儲存的 <code>requires</code> 置信度讀值為 0.9（先前日誌列印 0.92）；此三重組變更記錄於<a href="#log">§09</a>。</p>
-<div class="note">
-<h4>⚠️ C 分支的儲存方向反轉（持續存在）</h4>
-<p>分析腳本列印 <code>NF-κB --[inhibits|0.6]→ Adrenochrome</code>；儲存三重組的方向相反：<strong>Adrenochrome —inhibits→ NF-κB</strong>（0.6，AMBIGUOUS，取自衰老治療作用劑文件）。<em>senomorphic 假說</em>提出腎上腺素紅的親電子鄰醌化學修飾 p65/IKK 半胱胺酸，降低 NF-κB 驅動的 SASP；此機轉為假說，未於人體驗證。依儲存方向，C 分支將 Sirtuins 與腎上腺素紅置於<strong>同一 SASP/NF-κB 軸上的兩個平行輸入</strong>，而非生成控制鏈。</p>
-</div>
-<figure class="fig">
-<div class="fig-head"><span class="fig-num">圖 5 · C 分支邊的儲存方向</span></div>
-<div class="fig-canvas">
-<div class="copy-host"><svg id="CorrecteddirectionseSvg" aria-label="C 分支邊的儲存方向" role="img" viewbox="0 0 980 240">
-<title>C 分支邊的儲存方向</title>
-<style>text { font-family: 'IBM Plex Sans', 'Helvetica Neue', sans-serif; }</style>
-<rect fill="#fbf8f1" height="240" width="980" x="0" y="0"></rect>
-<defs>
-<marker id="inv-slate" markerheight="7" markerwidth="7" orient="auto-start-reverse" refx="9" refy="5" viewbox="0 0 10 10"><path d="M 0 1.2 L 10 5 L 0 8.8 z" fill="#2e4a5d"></path></marker>
-<marker id="inv-grey" markerheight="7" markerwidth="7" orient="auto-start-reverse" refx="9" refy="5" viewbox="0 0 10 10"><path d="M 0 1.2 L 10 5 L 0 8.8 z" fill="#8a8174"></path></marker>
-<marker id="inv-ox" markerheight="7" markerwidth="7" orient="auto-start-reverse" refx="9" refy="5" viewbox="0 0 10 10"><path d="M 0 1.2 L 10 5 L 0 8.8 z" fill="#7a312c"></path></marker>
-</defs>
-<g><rect fill="#f2ece1" height="40" stroke="#d3c9b6" width="130" x="60" y="95"></rect><text fill="#1c1915" font-size="14" font-weight="600" text-anchor="middle" x="125" y="120">Sirtuins</text></g>
-<g><rect fill="#f2ece1" height="40" stroke="#d3c9b6" width="120" x="330" y="95"></rect><text fill="#1c1915" font-size="14" font-weight="600" text-anchor="middle" x="390" y="120">SASP</text></g>
-<g><rect fill="#f2ece1" height="40" stroke="#d3c9b6" width="120" x="590" y="95"></rect><text fill="#1c1915" font-size="14" font-weight="600" text-anchor="middle" x="650" y="120">NF-κB</text></g>
-<g><rect fill="#7a312c" height="40" width="130" x="835" y="95"></rect><text fill="#fbf8f1" font-size="14" font-weight="600" text-anchor="middle" x="900" y="120">腎上腺素紅</text></g>
-<line marker-end="url(#inv-slate)" stroke="#2e4a5d" stroke-width="2" x1="190" x2="328" y1="115" y2="115"></line><text fill="#2e4a5d" font-size="12" font-weight="600" text-anchor="middle" x="259" y="105">suppress · 0.86</text>
-<line marker-end="url(#inv-slate)" stroke="#4c6e86" stroke-width="1.6" x1="588" x2="452" y1="110" y2="110"></line><text fill="#4c6e86" font-size="12" text-anchor="middle" x="520" y="158">is_regulated_by · 0.96</text>
-<line marker-end="url(#inv-grey)" stroke="#8a8174" stroke-dasharray="5 4" stroke-width="1.4" x1="712" x2="833" y1="150" y2="150"></line><line stroke="#8a8174" stroke-width="1.2" x1="716" x2="832" y1="154" y2="146"></line><text fill="#8a8174" font-size="11.5" text-anchor="middle" x="773" y="172">無向投影列印：「NF-κB inhibits Adrenochrome」✕</text>
-<path d="M 900 93 C 855 40, 740 40, 668 80" fill="none" marker-end="url(#inv-ox)" stroke="#7a312c" stroke-width="2.2"></path><text fill="#7a312c" font-size="12" font-weight="600" text-anchor="middle" x="784" y="38">儲存三重組：Adrenochrome --inhibits--&gt; NF-κB · 0.6 ⚠ AMBIGUOUS</text>
-<text fill="#1c1915" font-size="14" text-anchor="middle" x="490" y="212"><tspan dy="0" x="490">儲存方向：同一 SASP/NF-κB 軸上的兩個平行輸入—</tspan><tspan dy="20" x="490">Sirtuins 抑制 SASP；腎上腺素紅被假說為抑制 NF-κB。</tspan></text>
-</svg><button class="copy-btn" data-copy="CorrecteddirectionseSvg" title="複製為 PNG" aria-label="將 C 分支圖複製為 PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button></div>
-</div>
-<figcaption>
-<strong>本分析所用路徑邊的儲存方向。</strong>儲存三重組為 Adrenochrome → NF-κB（senomorphic 假說，未於人體驗證）；無向投影列印反向方向。用於計算結果的每條路徑邊，其儲存方向均先記錄再引用。</figcaption>
-</figure>
-<div class="note gold">
-<h4>NF-κB 實體碎裂對 Sirtuins 分支的影響（持續存在）</h4>
-<p>此圖譜將<strong>≥ 7 個 NF-κB 變體</strong>儲存為個別節點（<code>NF-κB</code> 48、<code>NF-kB</code> 1、<code>NF-kappaB</code> 2、<code>NF-κB p65</code>、<code>RelA/p65 (NF-κB subunit)</code>、<code>NF-kappa B signaling</code>、<code>NF-κB signaling pathway</code>）。碎裂使行走質量分散於這些節點，並與 Sirtuins 的 Jaccard 值為零相關；實體去重已量化為修復階段 0b。碎裂亦降低搭配作用劑的 NF-κB 介導路徑計數（非瑟酮經 COMT、白藜蘆醇經 SIRT1/SIRT3 部分獨立於 NF-κB）。</p>
-</div>
-<h3>橋擾動掃描</h3>
-<div class="table-wrap">
-<div class="copy-host table-host"><button class="copy-btn" data-copy-table="dataTable3" title="複製表格" aria-label="複製表格至剪貼簿"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 4v16"/></svg></button><table id="dataTable3">
-<thead>
-<tr>
-<th>擾動</th>
-<th class="num">Δ(MH→Adr)</th>
-<th class="num">Δ(Auto→Adr)</th>
-<th class="num">Δ(Sirt→Adr)</th>
-<th>特異性</th>
-</tr>
-</thead>
-<tbody>
-<tr><td>移除邊 Mitohormesis–ROS</td><td class="num"><strong>−22.7%</strong></td><td class="num">−0.4%</td><td class="num">−0.0%</td><td>分支專一</td></tr>
-<tr><td>移除邊 ROS–Adrenochrome</td><td class="num"><strong>−23.4%</strong></td><td class="num">−2.4%</td><td class="num">−7.8%</td><td>分支專一</td></tr>
-<tr><td>刪除節點 ROS</td><td class="num"><strong>−27.0%</strong></td><td class="num">−2.4%</td><td class="num">−9.4%</td><td>分支專一</td></tr>
-<tr><td>移除邊 自噬–神經黑色素</td><td class="num">−0.3%</td><td class="num"><strong>−24.8%</strong></td><td class="num">−1.6%</td><td>分支專一</td></tr>
-<tr><td>移除邊 神經黑色素–腎上腺素紅</td><td class="num">−2.3%</td><td class="num"><strong>−19.5%</strong></td><td class="num">−3.1%</td><td>分支專一</td></tr>
-<tr><td>刪除節點 神經黑色素</td><td class="num">−0.7%</td><td class="num"><strong>−33.3%</strong></td><td class="num">−3.1%</td><td>分支專一</td></tr>
-<tr><td>移除邊 Sirtuins–SASP</td><td class="num">+0.9%</td><td class="num">+3.3%</td><td class="num"><strong>−4.7%</strong></td><td>低</td></tr>
-<tr><td>刪除節點 SASP</td><td class="num">+2.6%</td><td class="num">+3.7%</td><td class="num">−3.1%</td><td>方向反轉</td></tr>
-</tbody>
-</table></div>
-</div>
-<figure class="fig">
-<div class="fig-head"><span class="fig-num">圖 6 · 橋接擾動掃描</span></div>
-<div class="fig-canvas" data-chart="sweep"></div>
-<figcaption>正變化的柱位於零的右側，負變化的柱位於左側。移除 A/B 分支的一跳使<em>該分支</em>耦合降低約 20–33%，其他分支的變化為 −0.3% 至 −9.4%。移除 C 分支標稱橋時變化為 −4.7%；刪除 SASP 使其他分支耦合<em>增加</em> +2.6% / +3.7%。最後兩行標示。</figcaption>
-</figure>
-<p>兩項計算結果：</p>
-<ol>
-<li><strong>A 分支與 B 分支各有一條速率限制橋</strong>—移除任一跳使該分支耦合降低約 20–33%，其他分支的變化為 −0.3% 至 −9.4%。</li>
-<li><strong>移除 C 分支標稱橋時變化為 −4.7%</strong>；刪除 SASP <em>增加</em> Mito/Auto→腎上腺素紅耦合 +2.6% / +3.7%。SASP 作為<strong>競爭節點</strong>攜帶行走質量；移除後重新分配耦合，而非移除儲存路徑。C 分支與軸協同調節一致，而非生成控制鏈；此解讀為圖譜結構假說。</li>
-</ol>
-</section>
-<section id="seam">
-<p class="sec-label">07 · 社群邊界</p>
-<h2>Fiedler 符號區分化學群組與程式層</h2>
-<p>λ₂（代數連通性）=<strong>0.0463</strong>。所有已追蹤節點位於同一 Fiedler 軸，四節點研究記錄的分裂延伸至方案作用劑：</p>
-<p>
-<strong>Fiedler 負值側（−）：</strong>肌酸 -0.0024、抗壞血酸 -0.0023、腎上腺素紅 -0.0015、非瑟酮 -0.0010、卡巴佐酮 -0.0008、白藜蘆醇 -0.0006。</p>
-<p>
-<strong>Fiedler 正值側（+）：</strong>亞甲藍 +0.0013，氨基胍 +0.0021，自噬
-        +0.0033、尿石素 A +0.0033、粒線體激效 +0.0034、雷帕黴素 +0.0036、亞精胺 +0.0037、
-        Sirtuins +0.0043。</p>
-<p><strong>化學群組</strong>—腎上腺素紅、其衍生物（卡巴佐酮）、其還原劑（抗壞血酸）與 COMT 受質調節劑（非瑟酮、白藜蘆醇）—具有負 Fiedler 座標；<strong>系統性程式層</strong>—兩個方案核心作用劑（MB、AG）、其餘方案作用劑與三個適應性程式—具有正座標。方案作用劑分布於最弱功能社群邊界（λ₂ = 0.0463）的<em>兩側</em>。</p>
-<figure class="fig">
-<div class="fig-head"><span class="fig-num">圖 7 · 所有已追蹤節點的 Fiedler 座標與社群邊界</span></div>
-<div class="fig-canvas" data-chart="seam"></div>
-<figcaption>點位於其 Fiedler 座標的垂直軸上；引導線將標籤置於排序網格以避免碰撞。陰影區域標示最弱社群邊界的兩側（λ₂ = 0.0463）。腎上腺素紅及其氧化還原夥伴（抗壞血酸、卡巴佐酮、肌酸、非瑟酮、白藜蘆醇）為負值；各適應性程式與方案核心作用劑為正值。</figcaption>
-</figure>
-<div class="note forest">
-<h4>H2 延伸至方案作用劑，附穩定性條件</h4>
-<p>H2 記述腎上腺素紅的 <em>Fiedler 座標</em>為負，位於適應性三重奏的對側。延伸後的表述為：腎上腺素紅相對於<em>方案的系統性作用劑</em>亦為負值，且與其化學群組同屬負值側。條件：外圍節點的 Fiedler 座標（Carbazochrome 度數 2、抗壞血酸度數 6）在重建下最不穩定；重新執行應先回報低度數成員的符號穩定性，再解讀化學與程式層的邊界。</p>
-</div>
-</section>
-<section id="hypotheses">
-<p class="sec-label">08 · 假說</p>
-<h2>來自基準與方案追蹤的假說 H1–H8（未於人體驗證）</h2>
-<p>H1–H5 延續自四節點研究；H6–H8 為方案特定。全部為針對建構 <code>867a5ae5fdb8a46c</code> 計算的圖譜結構假說；由其衍生的生物學預測未於人體驗證。「證偽」欄列出與各假說矛盾的重新分析。</p>
-<div class="table-wrap">
-<div class="copy-host table-host"><button class="copy-btn" data-copy-table="dataTable4" title="複製表格" aria-label="複製表格至剪貼簿"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 4v16"/></svg></button><table id="dataTable4">
-<thead>
-<tr><th>#</th><th>假說</th><th>圖譜依據</th><th>與之矛盾的重新分析</th></tr>
-</thead>
-<tbody>
-<tr><td class="num"><strong>H1</strong></td><td>各適應性程式經<strong>恰好一條速率限制橋</strong>連接至腎上腺素紅節點，且具分支專一性。</td><td>每臂路徑重數 1；不同的第一跳（ROS、神經黑色素、SASP）。</td><td>每對有多條同樣短的路徑；跨臂共享第一跳橋。</td></tr>
-<tr><td class="num"><strong>H2</strong></td><td>腎上腺素紅與方案的系統性作用劑具有<strong>相反的 Fiedler 符號</strong>；化學群組（卡巴佐酮、抗壞血酸）與腎上腺素紅同屬負值。</td><td>Fiedler：腎上腺素紅 -0.0015；化學群組 -0.0006…-0.0024；MB +0.0013，AG +0.0021，適應性程式 +0.0033…+0.0043。</td><td>重建後任一程式層作用劑變為負值，或化學節點變為正值。</td></tr>
-<tr><td class="num"><strong>H3</strong></td><td>分支間的行走質量耦合順序為 <strong>Mitohormesis ≈ Autophagy ≫ Sirtuins</strong>。</td><td>PPR #89/#93/#305；反向#60/#58/#147。</td><td>Sirtuins 在加權重新分析下排名高於任一程序。</td></tr>
-<tr><td class="num"><strong>H4</strong></td><td>聚類係數與 k-core 在四節點間不同：自噬為聚類 0.039、k-core 6；腎上腺素紅為聚類 0.0094。</td><td>聚類/k 核心對比。</td><td>四重奏中類似的聚類/k 核心配置檔。</td></tr>
-<tr><td class="num"><strong>H5</strong></td><td>四個節點的中介中心性均高於保度零模型數值。</td><td>空值：z +7.76（自動）、+5.87（Adr）、+3.85（Sirt）、 +3.22 (MH)。</td><td>任何節點的介數在其保度零值的~2σ內。</td></tr>
-<tr><td class="num"><strong>H6</strong></td><td>方案核心（AG、MB）在外源作用劑中具<strong>最小的 PPR 排序數值</strong>—AG 雙向前 5（#4/#3），MB 前 10（#8/#7）。</td><td>PPR 排序（§03）；兩個方向的排序數值均小於任一適應性程式。</td><td>在 NF-κB 去重的加權 PPR 下，作用劑排序低於前 20。</td></tr>
-<tr><td class="num"><strong>H7</strong></td><td>耦合模式依儲存邊類型區分：反應／衍生／還原作用劑使用<strong>直接邊</strong>（AG、卡巴佐酮、抗壞血酸）；調節作用劑使用<strong>共享橋</strong>（MB、其餘作用劑）。</td><td>直接邊成員恰為 AG/Carb/Asc；MB 有 Adamic–Adar 提議值 2.641，但無儲存邊。</td><td>實體解析後的執行新增 MB–腎上腺素紅直接邊，或移除 AG 的直接邊。</td></tr>
-<tr><td class="num"><strong>H8</strong></td><td>腎上腺素紅與其<strong>化學群組</strong>同具<em>負 Fiedler 座標</em>；負值集合為 {Adr, Carb, Asc, Creatine, Fisetin, Resveratrol}。</td><td>負 Fiedler 集合 {Adr, Carb, Asc, Creatine, Fisetin, Resveratrol}。</td><td>以更多經驗證的低度數成員重新繪製社群邊界後，化學集合的符號不一致。</td></tr>
-</tbody>
-</table></div>
-</div>
-</section>
-<section id="log">
-<p class="sec-label">09 · 追蹤日誌</p>
-<h2>執行追蹤日誌（建構：<code>867a5ae5fdb8a46c</code>）</h2>
-<div class="table-wrap">
-<div class="copy-host table-host"><button class="copy-btn" data-copy-table="dataTable5" title="複製表格" aria-label="複製表格至剪貼簿"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 4v16"/></svg></button><table id="dataTable5">
-<thead>
-<tr>
-<th>運行</th>
-<th>指令</th>
-<th>計算結果</th>
-<th>存檔</th>
-</tr>
-</thead>
-<tbody>
-<tr><td>20 Aug · AM<br/>四節點基準 A–D</td><td><code>--sources mitohormesis autophagy sirtuins ↔ --targets adrenochrome</code>（兩個方向）＋補充掃描。</td><td>分支／橋接 ROS-NM-SASP；PPR #89/#93/#305；零模型 +3.2…+7.8；掃描；</td><td><code>src/tasks/node_network_adrenochrome_sirtuins_20_AUG_2026/run_log_A…D</code></td></tr>
-<tr><td>8 月 20 日·下午·<strong>A</strong></td><td><code>--sources methylene_blue aminoguanidine --targets adrenochrome</code></td><td>AG 直接邊 <code>reacts_with(0.9)</code>；PPR #4/#8；AA(MB→Adr)=2.641，本追蹤集最高；3 條 MB 橋接路徑；</td><td><code>src/tasks/node_network_adrenochrome_20_AUG_2026/run_log_A_sources_mb_ag_targets_adrenochrome.txt</code></td></tr>
-<tr><td>8 月 20 日·下午·<strong>B</strong></td><td><code>--sources adrenochrome --targets methylene_blue aminoguanidine</code></td><td>反向 PPR：Adr <strong>#3</strong> @AG 種子、<strong>#7</strong> @MB 種子—外源作用劑中最小排序數值。</td><td><code>…/run_log_B_sources_adrenochrome_targets_mb_ag.txt</code></td></tr>
-<tr><td>8 月 20 日·下午·<strong>C</strong></td><td><code>--sources mitohormesis autophagy sirtuins --targets adrenochrome</code></td><td>基準精確重現；<code>requires</code> 置信度列印 0.9（先前日誌列印 0.92）。</td><td><code>…/run_log_C_sources_arms_targets_adrenochrome.txt</code></td></tr>
-<tr><td>8 月 20 日·下午·<strong>D</strong></td><td><code>--sources urolithin_a spermidine rapamycin fisetin creatine resveratrol carbazochrome ascorbic_acid --targets adrenochrome</code></td><td>Carb/Asc 直接邊；排序完成（#14/#15）；Jaccard(Carb,Asc)=0.143，本追蹤集最高成對值；Carb 位於 AMM 社群 #98。</td><td><code>…/run_log_D_sources_protocol_stack_targets_adrenochrome.txt</code></td></tr>
-</tbody>
-</table></div>
-</div>
-<h3>待執行分析</h3>
-<ol>
-<li><strong>置信度加權 PPR 重新排序</strong>完整耦合排序（第 3 階段方法）以檢驗 §03 的 PPR 排序。</li>
-<li><strong>MB ⇄ 卡巴佐酮複合物 I 子圖</strong>—組合治療文件記錄的推測性 MRR 電子分流交互作用（假說，未於人體驗證）。</li>
-<li><strong>激效視窗 / SIRT3-SIRT4 比率</strong>自我圖（<code>SIRT3/SIRT4 ratio --determines(0.95)--&gt; Hormetic Window</code>）—推測性 MRR 生物標記（未於人體驗證）。</li>
-<li><strong>NR / NMN → 腎上腺素紅</strong>NAD+ 前體節點納入集合後進行追蹤。</li>
-<li><strong>實體解析後重新運行</strong>（NF-κB 去重）—預測將改變 C 分支與 Fisetin／白藜蘆醇的多路徑計數；預測未驗證。</li>
-</ol>
-</section>
-<section id="repro">
-<p class="sec-label">10 · 再現性與待執行分析</p>
-<h2>計算受種子、程式與圖譜建構約束</h2>
-<pre><code># Protocol-agent traces (both directions)
+      </figure>
+    </section>
+
+    <section id="stack">
+      <p class="sec-label">02 · 方案作用劑</p>
+      <h2>方案作用劑、推測角色與圖節點</h2>
+      <p>
+        綱要文件提出三種機轉：<strong>粒線體激效氧化還原中繼（MRR）</strong>（受控氧化脈衝加生質能量受質）、<strong>糖氧化蛋白質恆態防護（GOPS）</strong>（氨基胍捕獲二羰基與 AGE），以及<strong>SASP 重塑氨基色素複合物（SRAC）</strong>（腎上腺素紅／AMM 作為衰老型態氧化還原組分）。上述機轉均為假說，其生物效應未量化且未於人體驗證。各作用劑已針對圖譜建構 <code>273eba0b1872c83844c9cf5dcabbde8c94c16060</code> 完成追蹤。
+      </p>
+
+      <div class="table-wrap">
+        <div class="copy-host table-host"><button class="copy-btn" data-copy-table="dataTable" title="複製表格" aria-label="複製表格至剪貼簿"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 4v16"/></svg></button><table id="dataTable">
+          <thead>
+            <tr>
+              <th>作用劑</th>
+              <th>方案中的推測角色</th>
+              <th>圖節點（度）</th>
+              <th>至腎上腺素紅的儲存路徑</th>
+              <th class="num">PPR 名次 @Adr</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td><strong>亞甲藍</strong></td><td>MRR 繞過複合物 I/III 的電子分流</td><td><code>methylene_blue</code> (69)</td><td>經 Complex I · 氧化壓力 · 溶血 · 高鐵血紅素 · 呼吸鏈複合物 I 的 5 條等長最短路徑</td><td class="num"><strong>#35</strong></td></tr>
+            <tr><td><strong>氨基胍</strong></td><td>GOPS 二羰基／AGE 捕獲；iNOS 抑制（劑量相對選擇性）</td><td><code>aminoguanidine</code> (49)</td><td><strong>直接</strong> <code>reacts_with</code> 0.9</td><td class="num"><strong>#4</strong></td></tr>
+            <tr><td><strong>卡巴佐酮</strong></td><td>氧化還原靜默的止血性縮氨脲（腎上腺素紅衍生物）</td><td><code>carbazochrome</code> (8)</td><td><strong>直接</strong> <code>is_an_intermediate_for</code> 0.9（<code>is_derivative_of</code> 0.95）</td><td class="num"><strong>#22</strong></td></tr>
+            <tr><td><strong>維他命 C</strong></td><td>還原劑；還原鄰醌（體外促氧化循環）</td><td><code>vitamin_c</code> (21)</td><td><strong>直接</strong> <code>reduces</code> 0.75（＋<code>prevents_oxidation_of</code> 0.85）</td><td class="num"><strong>#29</strong></td></tr>
+            <tr><td><strong>雷帕黴素</strong></td><td>mTOR–自噬分支</td><td><code>rapamycin</code> (77)</td><td>經發炎 · OXPHOS · 氧化壓力的 3 條路徑</td><td class="num">#171</td></tr>
+            <tr><td><strong>尿石素 A</strong></td><td>粒線體自噬誘導劑</td><td><code>urolithin_a</code> (57)</td><td>經 NRF2 · 氧化壓力 · ROS 的 3 條路徑</td><td class="num">#177</td></tr>
+            <tr><td><strong>肌酸</strong></td><td>磷酸肌酸生質能量緩衝</td><td><code>creatine</code> (56)</td><td>經 COMT · ROS 的 2 條路徑</td><td class="num">#152</td></tr>
+            <tr><td><strong>非瑟酮</strong></td><td>衰老細胞清除／衰老型態類黃酮</td><td><code>fisetin</code> (65)</td><td>經 COMT · 穀胱甘肽 · 發炎 · MnSOD · ROS · SIRT1 的 6 條路徑</td><td class="num">#146</td></tr>
+            <tr><td><strong>亞精胺</strong></td><td>自噬誘導劑</td><td><code>spermidine</code> (33)</td><td>經氧化壓力的 1 條路徑</td><td class="num">#272</td></tr>
+            <tr><td><strong>白藜蘆醇</strong></td><td>Sirtuin 活化多酚（推測；在生理劑量下直接活化未獲證實）</td><td><code>resveratrol</code> (67)</td><td>經 COMT · 脂質過氧化 · SIRT1 · SIRT3 的 4 條路徑</td><td class="num">#162</td></tr>
+            <tr><td><strong>NR / NMN</strong></td><td>NAD<sup>+</sup> 前體（MRR）</td><td><code>nicotinamide_riboside</code> (74)</td><td>尚未追蹤；排入佇列（§10）</td><td class="num">—</td></tr>
+            <tr><td><strong>GlyNAC</strong></td><td>甘胺酸＋NAC 前體</td><td><code>glynac</code>；已儲存 <code>buffers → Adrenochrome</code> 0.8</td><td>尚未追蹤；排入佇列（§10）</td><td class="num">—</td></tr>
+          </tbody>
+        </table></div>
+      </div>
+
+      <div class="note slate">
+        <h4>追蹤集合的範圍</h4>
+        <p>
+          NR/NMN 與 GlyNAC 列於方案中，但不在本追蹤集合內。NR 有已儲存節點（<code>nicotinamide_riboside</code>，度 74）且已排入佇列；GlyNAC 現有已儲存節點帶直接 <code>buffers → Adrenochrome</code> 0.8 邊，亦已排入佇列。<a href="#log">§09</a> 的重跑將納入二者。注意：舊的 <code>ascorbic_acid</code> 節點已於本建構併入 <code>vitamin_c</code>；所有「ascorbate」列現皆為維他命 C。
+        </p>
+      </div>
+    </section>
+
+    <section id="ladder">
+      <p class="sec-label">03 · 耦合階梯</p>
+      <h2>本建構上的 PPR 階梯：一個核心作用劑居首，其餘居中</h2>
+      <p>
+        以<strong>腎上腺素紅</strong>為種子進行個人化 PageRank，排序追蹤節點於同一階梯。僅<strong>氨基胍 #4</strong>（0.00686）在本建構居前十五；其餘直接邊作用劑依次為<strong>卡巴佐酮 #22</strong>（0.00409）與<strong>維他命 C #29</strong>（0.00341）、<strong>亞甲藍 #35</strong>（0.00307），接著是適應性程式<strong>粒線體激效 #36／自噬 #38／Sirtuins #232</strong>。種子反轉時，腎上腺素紅自氨基胍起排名<strong>#3</strong>、自亞甲藍起排名<strong>#16</strong>；自適應性程式起排名<strong>#13／#50／#86</strong>。先前建構「四個核心作用劑居前十五」的主張無法重現——AG 的直接邊仍是單一最強耦合。
+      </p>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">圖 2 · 漫步質量耦合階梯</span></div>
+        <div class="fig-canvas" data-chart="ladder"></div>
+        <figcaption>
+          <strong>以腎上腺素紅為種子的漫步 PPR 名次（對數尺度；已填滿）。</strong>空心標記顯示已執行反向追蹤的反向名次。AG 為本建構居前十五的唯一方案作用劑。■ 標記至腎上腺素紅節點的直接儲存邊。
+        </figcaption>
+      </figure>
+
+      <div class="note forest">
+        <h4>直接反應作用劑與調節作用劑的名次分離</h4>
+        <p>
+          直接反應作用劑（AG、卡巴佐酮、維他命 C）排名 #4–#29，系統性調節作用劑居 #146–#272。直接反應作用劑經儲存邊與腎上腺素紅節點共享漫步質量；調節劑經中介程式與橋接抵達。PPR 階梯因此按儲存邊連結排序作用劑，而非依綱要文件的提案順序。
+        </p>
+      </div>
+    </section>
+
+    <section id="agents">
+      <p class="sec-label">04 · 作用劑追蹤</p>
+      <h2>核心組合與化學組合的儲存邊追蹤</h2>
+
+      <h3>氨基胍：至腎上腺素紅的已儲存化學反應邊</h3>
+      <p>
+        AG 為<strong>唯一由已儲存化學反應邊連結腎上腺素紅節點的方案作用劑</strong>：<code>Aminoguanidine --[reacts_with|0.9]→ Adrenochrome</code>（引自 <code>US4501923A</code> 製備專利），為無橋接的 multiplicity-1 直接邊。反應產物為圖節點——<strong>Adrenochrome monoaminoguanidine</strong>（AMM，社群 109，規模 15）——為腎上腺素紅的五個共享鄰居之一（Jaccard 0.035；Adamic–Adar 4.001）。
+      </p>
+      <pre><code># direction-audited AG edges
+Aminoguanidine --reacts_with(0.9)--> Adrenochrome        direct edge, multiplicity 1
+Aminoguanidine --traps(0.9)--> Dicarbonyls
+Aminoguanidine --inhibits(0.95)--> AGE formation
+Aminoguanidine --inhibits(0.95)--> iNOS      --spares(0.85)--> eNOS
+Aminoguanidine --inhibits(0.92)--> Diamine Oxidase   --inhibits(0.9)--> Monoamine oxidase
+Adrenochrome monoaminoguanidine --is_synthesized_from(0.9)--> Adrenochrome
+Adrenochrome monoaminoguanidine --contains(0.9)--> Aminoguanidine
+Adrenochrome monoaminoguanidine --is_a(0.9)--> Guanylhydrazone
+Adrenochrome monoaminoguanidine --may_act_as(0.6)--> Prodrug
+Adrenochrome monoaminoguanidine --protects(0.8)--> Hematopoietic Stem Cell</code></pre>
+      <p>
+        AG Fiedler 座標：<strong>+0.0003</strong>（符號任意；所有追蹤節點聚於同側，§07）。至腎上腺素紅的有效電阻為 0.077（z −1.29）。PPR 前向<strong>#4</strong>、反向<strong>#3</strong>——為本追蹤集合中外源作用劑的最小 PPR 名次。
+      </p>
+
+      <h3>亞甲藍：無直接反應邊的三條等長最短路徑</h3>
+      <p>
+        MB 經由橋接<strong>複合物 I、氧化壓力、溶血、高鐵血紅素與呼吸鏈複合物 I</strong> 的<strong>五條等長最短路徑</strong>抵達腎上腺素紅，無直接反應邊。其至腎上腺素紅的 Adamic–Adar 分數為<strong>1.976</strong>（<em>推測缺失邊</em>），Jaccard 0.031。儲存邊如下：
+      </p>
+      <pre><code># direction-audited MB edges
+Methylene blue --bypasses(0.9)--> Complex I    --bypasses(0.9)--> Complex III
+Methylene blue --accepts_electrons_from(0.96)--> NADH   --shunts_electrons_to(0.95)--> Cytochrome c
+Methylene blue --induces(0.88)--> Oxidative Stress      --follows(0.95)--> Hormetic Window
+Methylene blue --causes(0.94)--> Hemolysis              &amp; Adrenochrome --induces(0.75)--> Hemolysis
+Complex I --reduces(0.9)--> Adrenochrome                 # even the "bridge" has a stored chemistry edge
+Methylene blue --reduces(0.93)--> Mitochondrial Superoxide
+Methylene blue --preserves(0.93)--> Mitochondrial Membrane Potential
+Methylene blue --enhances(0.94)--> Mitochondrial Respiration</code></pre>
+      <p>
+        MB 經由腎上腺素紅亦儲存的氧化還原通道連結——<code>Complex I --reduces(0.9)--> Adrenochrome</code> 與 <code>Oxidative Stress --drives(0.95)--> Adrenochrome formation</code> 皆已儲存。MB 無腎上腺素紅形成儲存邊；其與腎上腺素紅共享複合物 I／氧化壓力橋接。Fiedler <strong>+0.0005</strong>（與所有追蹤節點同側）；PPR <strong>#35</strong>／<strong>#16</strong>；有效電阻 0.049（z −1.34）。
+      </p>
+
+      <div class="note">
+        <h4>MB ⇄ AG 共享兩個鄰居：單胺氧化酶與一氧化氮合成酶（Jaccard 0.022）</h4>
+        <p>
+          MB 與 AG 各帶一條 MAO 抑制邊（0.92／0.9）與一條 NOS 家族邊（MB 抑制 sGC/NOS；AG 阻擋 NO 生成並抑制 iNOS 而不降低 eNOS）。兩核心作用劑之間無已儲存化學邊；二者皆連結至共享<em>中介</em>。圖結構與雙作用劑方案一致，而非單一反應級聯；生物學解釋為假說，未於人體驗證。
+        </p>
+      </div>
+
+      <h3>化學組合：卡巴佐酮與維他命 C</h3>
+      <p>
+        兩條直接邊將化學組連結至腎上腺素紅：<code>Carbazochrome --is_an_intermediate_for(0.9)--> Adrenochrome</code>（另加 <code>is_derivative_of</code> 0.95）與 <code>Vitamin C --reduces(0.75)--> Adrenochrome</code>（維他命 C 另帶 <code>prevents_oxidation_of(0.85)</code>）。二者位於<strong>與其餘所有追蹤節點相同的 Fiedler 側</strong>（卡巴佐酮 +0.0006，維他命 C +0.0003，§07）——本建構無化學／程式符號分界。其兩兩<strong>Jaccard（卡巴佐酮，維他命 C）= 0.045</strong>。
+      </p>
+      <p>
+        二者耦合深度不同：維他命 C PPR <strong>#29</strong>，有效電阻 0.088（z −1.27）；卡巴佐酮 PPR <strong>#22</strong>，有效電阻 0.338（z −0.77），為直接邊節點中<em>最大</em>有效電阻。卡巴佐酮居腎上腺素紅社群（k-core 3，度 8）。直接儲存邊存在；卡巴佐酮依化學為氧化還原靜默（縮氨脲封固的鄰醌），故其邊反映衍生關係，而非氧化還原活性。
+      </p>
+      <div class="note slate">
+        <h4>追蹤集合中的三種耦合模式</h4>
+        <ul>
+          <li><strong>化學反應</strong>（AG <code>reacts_with</code>）——直接儲存邊，無橋接，PPR #4。</li>
+          <li><strong>衍生／還原</strong>（卡巴佐酮 <code>is_an_intermediate_for</code>、維他命 C <code>reduces</code>）——衍生物／還原劑節點上的直接儲存邊。</li>
+          <li><strong>經共享橋接的功能調節</strong>（MB 與調節作用劑）——無直接邊；與腎上腺素紅共享複合物 I／氧化壓力／ROS 橋接。</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="arms">
+      <p class="sec-label">05 · 適應性程式基準</p>
+      <h2>在 run C 重現四節點基準</h2>
+      <p>
+        run C（參見<a href="#log">§09</a>）針對同一建構重跑四節點基準。先前建構「每臂 multiplicity 1；橋接 ROS／黑質素／SASP」的解讀<strong>無法重現</strong>：粒線體激效現有 6 條最短路徑，自噬 5 條，Sirtuins 經 NRF2 1 條。PPR #36／#38／#232；Fiedler +0.0006／+0.0008／+0.0007。下文即為方案追蹤的本建構參考值。
+      </p>
+
+      <div class="table-wrap">
+        <div class="copy-host table-host"><button class="copy-btn" data-copy-table="dataTable1" title="複製表格" aria-label="複製表格至剪貼簿"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 4v16"/></svg></button><table id="dataTable1">
+          <thead>
+            <tr>
+              <th>節點</th>
+              <th class="num">入</th>
+              <th class="num">出</th>
+              <th class="num">度</th>
+              <th class="num">PageRank</th>
+              <th class="num">介數</th>
+              <th class="num">群集</th>
+              <th class="num">k-core</th>
+              <th>社群（規模）</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td><strong>腎上腺素紅</strong></td><td class="num">75</td><td class="num">74</td><td class="num">149</td><td class="num">0.00477</td><td class="num">0.0500</td><td class="num">0.0190</td><td class="num">7</td><td>腎上腺素紅（85）</td></tr>
+            <tr><td><strong>粒線體激效</strong></td><td class="num">38</td><td class="num">32</td><td class="num">70</td><td class="num">0.00139</td><td class="num">0.0136</td><td class="num">0.0291</td><td class="num">8</td><td>粒線體激效（64）</td></tr>
+            <tr><td><strong>自噬</strong></td><td class="num">162</td><td class="num">48</td><td class="num">210</td><td class="num">0.01016</td><td class="num">0.0668</td><td class="num">0.0165</td><td class="num">8</td><td>自噬（47）</td></tr>
+            <tr><td><strong>Sirtuins</strong></td><td class="num">31</td><td class="num">26</td><td class="num">57</td><td class="num">0.00147</td><td class="num">0.0115</td><td class="num">0.0257</td><td class="num">7</td><td>Sirtuins（28）</td></tr>
+          </tbody>
+        </table></div>
+      </div>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">圖 3 · 度組成（六個追蹤節點）</span></div>
+        <div class="fig-canvas" data-chart="composition"></div>
+        <figcaption>
+          入度（石板灰）與出度（牛血紅）對照。腎上腺素紅（75/74）平衡；MB（7/62）與 AG（4/45）向外；自噬（162/48）偏入。上述度組成引自儲存邊計算。
+        </figcaption>
+      </figure>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">圖 4 · 樣本正規化指標（六個節點）</span></div>
+        <div class="fig-canvas" data-chart="fingerprint"></div>
+        <figcaption>
+          各指標以六節點樣本內最大值縮放（樣本最大值百分比，n=6；原始值於各柱上方）。AG 的 PageRank 與自噬的度／介數主導樣本；k-core 於樣本內為 7–8（粒線體激效／自噬最高 8）。
+        </figcaption>
+      </figure>
+
+      <div class="table-wrap">
+        <div class="copy-host table-host"><button class="copy-btn" data-copy-table="dataTable2" title="複製表格" aria-label="複製表格至剪貼簿"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 4v16"/></svg></button><table id="dataTable2">
+          <thead>
+            <tr>
+              <th>適應性程式 ↔ 腎上腺素紅</th>
+              <th class="num">Jaccard</th>
+              <th class="num">Adamic–Adar</th>
+              <th class="num">有效電阻（z）</th>
+              <th class="num">PPR 前向／反向</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td><strong>粒線體激效 ↔ 腎上腺素紅</strong><br><code>MH —requires(0.91)→ ROS —generates(0.9)→ Adr</code>（6 條最短路徑之一）</td><td class="num">0.036</td><td class="num">2.419</td><td class="num">0.043 (−1.35)</td><td class="num">#36 / #13</td></tr>
+            <tr><td><strong>自噬 ↔ 腎上腺素紅</strong><br><code>Auto —associated_with(0.95)→ NM —sequesters(0.8)→ Adr</code>（5 條最短路徑之一）</td><td class="num">0.018</td><td class="num">1.355</td><td class="num">0.030 (−1.38)</td><td class="num">#38 / #50</td></tr>
+            <tr><td><strong>Sirtuins ↔ 腎上腺素紅</strong><br><code>Sirt —is_co_activated_by(0.8)— NRF2 —(Adr activates NRF2, 0.8)</code>（唯一最短路徑，無向）</td><td class="num">0.006</td><td class="num">0.252</td><td class="num">0.059 (−1.32)</td><td class="num">#232 / #86</td></tr>
+          </tbody>
+        </table></div>
+      </div>
+
+      <div class="note slate">
+        <h4>適應性程式成對對照</h4>
+        <p>
+          Jaccard（粒線體激效，自噬）= <strong>0.044</strong>，為四重組中最高值。Jaccard（粒線體激效，Sirtuins）= 0.019；Jaccard（自噬，Sirtuins）= 0.014。四重組 Jaccard 皆低（≤0.044），與分離良好的社群一致。
+        </p>
+      </div>
+    </section>
+
+    <section id="structure">
+      <p class="sec-label">06 · 結構發現</p>
+      <h2>本建構上的臂結構：multiplicity、權重與 NRF2 Sirtuin 路徑</h2>
+
+      <h3>三臂——更新的 multiplicity 與權重</h3>
+      <pre><code>Arm A (mitohormetic signalling):  Mitohormesis --requires(0.91)--> ROS --generates(0.90)--> Adrenochrome   (1 of 6 shortest paths; others via Catalase, NRF2, Ferroptosis, Adrenochromatization, Reactive Oxygen Species)
+Arm B (autophagic clearance):    Autophagy --associated_with(0.95)--> Neuromelanin --sequesters(0.80)--> Adrenochrome   (1 of 5 shortest paths)
+Arm C (sirtuin/NRF2):            Sirtuins --is_co_activated_by(0.80)-- NRF2 --(Adrenochrome activates NRF2, 0.80)-- Adrenochrome   (sole shortest path, undirected)</code></pre>
+      <p>
+        先前建構「每臂恰好一座速率限制橋接」的解讀<strong>無法重現</strong>。本建構上 A、B 兩臂各有多條等長最短路徑，故無單一橋接按跳數為速率限制。C 臂已不再經 SASP/NF-κB：先前建構記錄的 <code>Adrenochrome —inhibits→ NF-κB</code> 0.6 三元組於<strong>現行圖譜中缺席</strong>（<code>adrenochrome</code> 與 <code>nf_kappab</code> 雙向無邊），因此針對舊建構計算的衰老型態方向審計敘事與橋接擾動掃描一併退役。Sirtuins 現僅經 NRF2 抵達腎上腺素紅。<code>Sirtuins —suppress(0.85)→ SASP</code> 邊仍存在，但不在最短路徑上。掃描已排入重算佇列（§09），舊數字刪除不再沿用。</p>
+
+      <div class="note">
+        <h4>圖譜改變了什麼，以及對舊敘事的影響</h4>
+        <p>
+          NF-κB 實體碎片化在本建構已基本解決（<code>NF-κB</code> 為單一度 140 樞紐；僅剩 <code>NF-kB signaling</code> 度 2 為近重複），故先前「≥7 個變體分攤漫步質量」的保留不再適用於 C 臂。<em>衰老型態假說</em>（腎上腺素紅抑制 NF-κB → 抑制 SASP）尚無衰老前臨床資料，且本建構無已儲存三元組——僅作為標示假說保留，非計算結果。</p>
+      </div>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">圖 5 · 本建構上的 C 臂（Sirtuins–NRF2–腎上腺素紅）</span></div>
+        <div class="fig-canvas">
+          <div class="copy-host"><svg id="ArmCsvg" viewBox="0 0 980 200" role="img" aria-label="Arm C: Sirtuins to NRF2 to Adrenochrome">
+            <title>Arm C: Sirtuins to NRF2 to Adrenochrome</title>
+            <style>text { font-family: 'IBM Plex Sans', 'Helvetica Neue', sans-serif; }</style>
+            <rect x="0" y="0" width="980" height="200" fill="#fbf8f1"/>
+            <defs><marker id="arm-slate" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 1.2 L 10 5 L 0 8.8 z" fill="#2e4a5d"/></marker></defs>
+            <g><rect x="60" y="70" width="150" height="44" fill="#f2ece1" stroke="#d3c9b6"/><text x="135" y="98" text-anchor="middle" fill="#1c1915" font-size="15" font-weight="600">Sirtuins</text></g>
+            <g><rect x="415" y="70" width="150" height="44" fill="#f2ece1" stroke="#d3c9b6"/><text x="490" y="98" text-anchor="middle" fill="#1c1915" font-size="15" font-weight="600">NRF2</text></g>
+            <g><rect x="770" y="70" width="170" height="44" fill="#7a312c"/><text x="855" y="98" text-anchor="middle" fill="#fbf8f1" font-size="15" font-weight="600">Adrenochrome</text></g>
+            <line x1="212" y1="92" x2="412" y2="92" stroke="#2e4a5d" stroke-width="2" marker-end="url(#arm-slate)"/><text x="312" y="82" text-anchor="middle" fill="#2e4a5d" font-size="13" font-weight="600">is_co_activated_by · 0.8</text>
+            <line x1="768" y1="92" x2="568" y2="92" stroke="#2e4a5d" stroke-width="2" marker-end="url(#arm-slate)"/><text x="668" y="82" text-anchor="middle" fill="#2e4a5d" font-size="13" font-weight="600">activates · 0.8（已儲存 Adr→NRF2）</text>
+            <text x="490" y="160" text-anchor="middle" fill="#1c1915" font-size="14">唯一最短路徑（無向）。先前建構的 SASP/NF-κB 臂於本建構缺席。</text>
+          </svg><button class="copy-btn" data-copy="ArmCsvg" title="複製圖表為 PNG" aria-label="複製 C 臂圖表為 PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button></div>
+        </div>
+        <figcaption>
+          <strong>本建構 Sirtuins→腎上腺素紅路徑的儲存邊。</strong>經 NRF2 的無向最短路徑；顯示儲存方向。先前 SASP/NF-κB 路徑與掃描已排入重算佇列，不再沿用。</figcaption>
+      </figure>
+    </section>
+
+    <section id="seam">
+      <p class="sec-label">07 · 社群邊界</p>
+      <h2>本建構上的 Fiedler 座標：無化學／程式分界</h2>
+      <p>
+        λ₂（代數連結度）= <strong>0.0994</strong>。本建構所有 14 個追蹤節點於 Fiedler 軸的<strong>同側</strong>聚為小正值（腎上腺素紅 +0.0005；範圍自 +0.0003 氨基胍／維他命 C／尿石素 A 至 +0.0008 自噬）。先前建構化學組與程式層之間的正負社群邊界<strong>無法重現</strong>——且因 Fiedler 符號具特徵向量任意性，僅其量級與 λ₂ 有意義。此處採用的解讀因此為否定：<em>本建構不支持以符號分層。</em>圖 7 以真實值繪製座標於壓縮軸上，使聚集可見，而非以分界暗示。</p>
+
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">圖 7 · 本建構所有追蹤節點的 Fiedler 座標</span></div>
+        <div class="fig-canvas" data-chart="seam"></div>
+        <figcaption>
+          圓點位於真實 Fiedler 座標；標籤置於圓點高度（僅交替側別），使垂直位置即數值。所有追蹤節點聚集於 +0.0003…+0.0008——本建構無負側化學組（λ₂ = 0.0994）。</figcaption>
+      </figure>
+
+      <div class="note forest">
+        <h4>重跑後的 H2/H8 狀態</h4>
+        <p>
+          先前的 H2/H8（「腎上腺素紅及其化學家族與程式層相反，Fiedler 符號為負」）作為<strong>結果已退役</strong>，僅作為未來建構的可證偽假說保留（§08）：重跑若呈現一致的符號分界即復活之；本建構證偽之。周邊低度節點（卡巴佐酮 度 8、維他命 C 度 21）無論符號於重建下皆為最不穩定的 Fiedler 成員。</p>
+      </div>
+    </section>
+
+    <section id="hypotheses">
+      <p class="sec-label">08 · 假說</p>
+      <h2>重跑後的假說 H1–H8（未於人體驗證）</h2>
+      <p>
+        H1–H5 沿用自四節點研究；H6–H8 為方案特有。所有假說皆為針對建構 <code>273eba0b1872c83844c9cf5dcabbde8c94c16060</code> 計算的圖結構假說；由此衍生的生物學預測未於人體驗證。本次重跑三條假說改變狀態（H1 縮小，H2/H8 作為結果退役）。「證偽」欄列出將推翻各假說的再分析。</p>
+      <div class="table-wrap">
+        <div class="copy-host table-host"><button class="copy-btn" data-copy-table="dataTable4" title="複製表格" aria-label="複製表格至剪貼簿"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 4v16"/></svg></button><table id="dataTable4">
+          <thead>
+            <tr><th>#</th><th>假說</th><th>圖譜依據</th><th>將推翻它的再分析</th></tr>
+          </thead>
+          <tbody>
+            <tr><td class="num"><strong>H1</strong></td><td>各適應性程式經由少量等長最短路徑（橋接家族互異：MH 6、Auto 5、Sirt 經 NRF2 1）連結腎上腺素紅節點。</td><td>最短路徑 multiplicity 6/5/1；ROS 與黑質素臂在列；Sirtuins 僅經 NRF2。</td><td>Sirtuins 獲得第二條最短路徑，或 ROS／黑質素退出 MH/Auto 最短集。</td></tr>
+            <tr><td class="num"><strong>H2</strong></td><td><em>作為結果已退役：</em>化學／程式 Fiedler 符號分界。作為假說保留：未來建構可能呈現腎上腺素紅化學家族與程式層之間一致的符號分界。</td><td>本建構證偽之：14 個追蹤節點皆為 +0.0003…+0.0008（λ₂ 0.0994）。</td><td>任何呈現符號一致分界的未來建構即復活其作為結果的地位。</td></tr>
+            <tr><td class="num"><strong>H3</strong></td><td>方案核心與程式之間的漫步耦合以 AG 為首，MH ≈ Auto ≫ Sirtuins。</td><td>PPR 前向 #4（AG）／#35（MB）／#36（MH）／#38（Auto）／#232（Sirt）；反向腎上腺素紅 #3（AG）／#13（MH）／#50（Auto）／#86（Sirt）。</td><td>加權再分析下 Sirtuins 排名高於 MH/Auto。</td></tr>
+            <tr><td class="num"><strong>H4</strong></td><td>四重組的群集與 k-core 不同：自噬與粒線體激效居 k-core 8；腎上腺素紅 k-core 7，群集 0.019。</td><td>群集／k-core 對照（§05 表）。</td><td>四重組群集／k-core 分布相似。</td></tr>
+            <tr><td class="num"><strong>H5</strong></td><td>四節點皆具高於度保持空模型的介數（待本建構重跑）。</td><td>先前建構空模型已退役；排入佇列（§09）。</td><td>任一節點的介數於其度保持空模型的 ~2σ 內。</td></tr>
+            <tr><td class="num"><strong>H6</strong></td><td>外源作用劑的 PPR 名次雙向最小為 AG（#4／#3）；MB 居中（#35／#16）。</td><td>PPR 階梯（§03）；AG 直接邊對 MB 橋接耦合。</td><td>去重節點加權 PPR 下 AG 跌出前 20。</td></tr>
+            <tr><td class="num"><strong>H7</strong></td><td>耦合模式依儲存邊類型而異：反應／衍生／還原作用劑用<strong>直接邊</strong>（AG、卡巴佐酮、維他命 C）；調節劑用<strong>共享橋接</strong>（MB、其餘作用劑）。</td><td>直接邊成員為 AG／卡巴佐酮／維他命 C；MB 有 Adamic–Adar 提議 1.976 但無已儲存邊。</td><td>未來建構新增 MB–腎上腺素紅直接邊，或移除 AG 直接邊。</td></tr>
+            <tr><td class="num"><strong>H8</strong></td><td><em>作為結果已退役（見 H2）。</em>現行陳述「腎上腺素紅與其化學家族共享負 Fiedler 側」於本建構被證偽。</td><td>所有追蹤節點共享一側 Fiedler（§07）。</td><td>未來建構重現化學／程式符號分界。</td></tr>
+          </tbody>
+        </table></div>
+      </div>
+    </section>
+
+    <section id="log">
+      <p class="sec-label">09 · 追蹤日誌</p>
+      <h2>執行追蹤日誌（建構：273eba0b1872c83844c9cf5dcabbde8c94c16060）</h2>
+      <div class="table-wrap">
+        <div class="copy-host table-host"><button class="copy-btn" data-copy-table="dataTable5" title="複製表格" aria-label="複製表格至剪貼簿"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 4v16"/></svg></button><table id="dataTable5">
+          <thead>
+            <tr>
+              <th>執行</th>
+              <th>指令</th>
+              <th>計算結果</th>
+              <th>存檔</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>11月16日 · C</td><td><code>--sources mitohormesis autophagy sirtuins --targets adrenochrome</code></td><td>臂重跑：MH 6 路徑、Auto 5、Sirt 經 NRF2 1；PPR #36/#38/#232；Fiedler +0.0006/+0.0008/+0.0007；λ₂ 0.0994。先前 multiplicity-1／SASP 解讀已被證偽。</td><td><code>src/tasks/node_network_adrenochrome_20_AUG_2026/rerun_2026-11-16_build_273eba0b/run_log_C.txt</code> （已存檔，參見 §09）</td></tr>
+            <tr><td>11月16日 · A</td><td><code>--sources methylene_blue aminoguanidine --targets adrenochrome</code></td><td>AG 直接 <code>reacts_with(0.9)</code>；PPR #4／MB #35；AA(MB→Adr)=1.976；MB 5 橋接。</td><td><code>src/tasks/node_network_adrenochrome_20_AUG_2026/rerun_2026-11-16_build_273eba0b/run_log_A.txt</code></td></tr>
+            <tr><td>11月16日 · B</td><td><code>--sources adrenochrome --targets methylene_blue aminoguanidine</code></td><td>反向 PPR：腎上腺素紅以 AG 為種子<strong>#3</strong>，以 MB 為種子<strong>#16</strong>。</td><td><code>src/tasks/node_network_adrenochrome_20_AUG_2026/rerun_2026-11-16_build_273eba0b/run_log_B.txt</code></td></tr>
+            <tr><td>11月16日 · C-rev</td><td><code>--sources adrenochrome --targets mitohormesis autophagy sirtuins</code></td><td>反向 PPR 腎上腺素紅 #13（MH）／#50（Auto）／#86（Sirt）。</td><td><code>(標準輸出，§05)</code></td></tr>
+            <tr><td>11月16日 · D</td><td><code>--sources urolithin_a spermidine rapamycin fisetin creatine resveratrol carbazochrome vitamin_c --targets adrenochrome</code></td><td>直接邊 卡巴佐酮／維他命 C；階梯 #22/#29（調節劑 #146–#272）；卡巴佐酮–維他命 C Jaccard 0.045。</td><td><code>src/tasks/node_network_adrenochrome_20_AUG_2026/rerun_2026-11-16_build_273eba0b/run_log_D.txt</code></td></tr>
+            <tr><td>11月16日 · 全節點</td><td><code>--sources (14 agents) --targets adrenochrome</code></td><td>λ₂ 0.0994；14 個節點 Fiedler +0.0003…+0.0008——無符號分界。</td><td><code>(標準輸出，§07)</code></td></tr>
+          </tbody>
+        </table></div>
+      </div>
+
+      <h3>已取代（先前建構 867a5ae5…，刪除不修補）</h3>
+      <ol>
+        <li>橋接擾動掃描（圖 6）及其百分比——針對舊圖譜計算；其移除的邊／節點不再定義最短路徑。已排入重算。</li>
+        <li>組態模型介數空模型（舊 H5 數字）——已排入佇列。</li>
+        <li>SASP/NF-κB C 臂圖與「方向反轉」審計——<code>inhibits</code> 三元組於本建構缺席。</li>
+        <li>化學／程式 Fiedler 分界（§07 H2/H8）——已證偽，僅作假說保留。</li>
+      </ol>
+
+      <h3>排入佇列的分析</h3>
+      <ol>
+        <li><strong>橋接擾動掃描重算</strong>，以現行臂（ROS／黑質素／NRF2 橋接）取代已退役的圖 6。</li>
+        <li><strong>置信度加權 PPR 重排</strong>完整階梯（第三期方法），檢驗 §03 PPR 順序。</li>
+        <li><strong>組態模型介數空模型</strong>（本建構，H5）。</li>
+        <li><strong>GlyNAC／NR／NMN 追蹤</strong>——節點已存在（<code>glynac</code> 帶 <code>buffers→Adrenochrome</code> 0.8；<code>nicotinamide_riboside</code> 度 74）。</li>
+        <li><strong>MB ⇄ 卡巴佐酮複合物 I 子圖</strong>——推測 MRR 電子分流交互（假說，未於人體驗證）。</li>
+        <li><strong>毒物興奮效應窗口／SIRT3-SIRT4 比值</strong> ego 圖——推測 MRR 生物標記（未於人體驗證）。</li>
+      </ol>
+    </section>
+
+    <section id="repro">
+      <p class="sec-label">10 · 再現性與排入佇列的分析</p>
+      <h2>計算綁定於種子、程式與圖建構</h2>
+      <pre><code># Protocol-agent traces (both directions)
 uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
     --sources methylene_blue aminoguanidine --targets adrenochrome
 uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
@@ -419,33 +460,36 @@ uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
 uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
     --sources mitohormesis autophagy sirtuins --targets adrenochrome
 uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
-    --sources urolithin_a spermidine rapamycin fisetin creatine resveratrol carbazochrome ascorbic_acid \
+    --sources urolithin_a spermidine rapamycin fisetin creatine resveratrol carbazochrome vitamin_c \
     --targets adrenochrome</code></pre>
-<p>補充計算（綜合分數、PPR 種子交集、配置模型零模型、橋移除掃描）以內聯程式對 <code>graphify-out/graph.json</code> 執行，採用與 <code>scripts/analysis/node_analysis.py</code> 相同的 <code>RANDOM_SEED=1</code> 約定。環境：Python 3.14、NetworkX 3.x、SciPy 1.x。本頁綁定建構 <code>867a5ae5fdb8a46c</code>；重建會使<a href="#log">§09</a> 的資料列失效。</p>
-</section>
-<section id="references">
-<p class="sec-label">11 · 來源</p>
-<h2>知識庫分析、方案文件與引用文獻</h2>
-<ol class="refs">
-<li>知識庫方法簡報，2026年8月16日。<em>用於生物優先排序的節點層級網路分析。</em> <a href="../en-US/node-analysis-examples-biology.html">web/pages/node-analysis-examples-biology.html</a>。</li>
-<li>方案大綱（任務參考）。<a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md" target="_blank" rel="noopener noreferrer"><code>src/tasks/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md</code></a>— MRR / GOPS / SRAC 機轉（推測）。</li>
-<li>知識庫實體筆記。<a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/Adrenochrome%20monoaminoguanidine.md" target="_blank" rel="noopener noreferrer"><code>src/notes/adrenochrome/Adrenochrome monoaminoguanidine.md</code></a>（GOPS/SRAC 細節）；<a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Methylene%20blue.md" target="_blank" rel="noopener noreferrer"><code>src/notes/_link/Methylene blue.md</code></a>; <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Aminoguanidine.md" target="_blank" rel="noopener noreferrer"><code>src/notes/_link/Aminoguanidine.md</code></a>; <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Hormetic%20Window.md" target="_blank" rel="noopener noreferrer"><code>src/notes/_link/Hormetic Window.md</code></a>; <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/_document_%20-%20US4501923A%20-%20Process%20for%20preparing%20adrenochrome.md" target="_blank" rel="noopener noreferrer"><code>src/notes/adrenochrome/_document_ - US4501923A - Process for preparing adrenochrome.md</code></a>.</li>
-<li>先前任務輸出：<a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_pharmacologist_feasibility_16_JUN_2026.md" target="_blank" rel="noopener noreferrer"><code>adrenochrome_mb_ag/task_output_pharmacologist_feasibility_16_JUN_2026.md</code></a>; <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_research-scientist_combo_therapy_11_JUN_2026.md" target="_blank" rel="noopener noreferrer"><code>task_output_research-scientist_combo_therapy_11_JUN_2026.md</code></a>; <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_mitohormetic_window_13_JUL_2026.md" target="_blank" rel="noopener noreferrer"><code>task_output_mitohormetic_window_13_JUL_2026.md</code></a>; <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_gap_analysis_09_JUL_2026.md" target="_blank" rel="noopener noreferrer"><code>task_output_adrenochrome_gap_analysis_09_JUL_2026.md</code></a>; <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_lipid_peroxidation_bridge_17_July_2026.md" target="_blank" rel="noopener noreferrer"><code>task_output_adrenochrome_lipid_peroxidation_bridge_17_July_2026.md</code></a>; <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_foamcells_autophagy_trace_17_JUL_2026.md" target="_blank" rel="noopener noreferrer"><code>task_output_adrenochrome_foamcells_autophagy_trace_17_JUL_2026.md</code></a>; <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026.md" target="_blank" rel="noopener noreferrer"><code>task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026.md</code></a>.</li>
-<li>四節點基準研究。<a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_adrenochrome_sirtuins_20_AUG_2026/task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md" target="_blank" rel="noopener noreferrer"><code>src/tasks/node_network_adrenochrome_sirtuins_20_AUG_2026/task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md</code></a>.</li>
-<li>本方案追蹤集。<a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_adrenochrome_20_AUG_2026/task_output_adrenochrome_protocol_traces_20_AUG_2026.md" target="_blank" rel="noopener noreferrer"><code>src/tasks/node_network_adrenochrome_20_AUG_2026/task_output_adrenochrome_protocol_traces_20_AUG_2026.md</code></a>與<a href="https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/tasks/node_network_adrenochrome_20_AUG_2026" target="_blank" rel="noopener noreferrer"><code>run_log_A…D_*.txt</code></a>檔案。</li>
-<li>多節點分析工具。<a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py" target="_blank" rel="noopener noreferrer"><code>scripts/analysis/node_analysis.py</code></a>；重建流程<a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/triples/rebuild.py" target="_blank" rel="noopener noreferrer"><code>scripts/triples/rebuild.py</code></a>。</li>
-<li>Jeong H 等人。蛋白質網路中的致死性與中心性。<em>Nature</em> 2001；411：41–42。Yu H 等人。蛋白質網路中瓶頸的重要性。<em>PLoS Comput Biol</em> 2007；3:e59。</li>
-</ol>
-</section>
-</main>
+      <p>
+        補充計算（複合評分、PPR 種子交集、組態模型空模型、橋接移除掃描）以內嵌程式針對 <code>graphify-out/graph.json</code> 執行，遵循與 <code>scripts/analysis/node_analysis.py</code> 相同的 <code>RANDOM_SEED=1</code> 慣例。環境：Python 3.14、NetworkX 3.x、SciPy 1.x。本頁綁定於建構 <code>273eba0b1872c83844c9cf5dcabbde8c94c16060</code>；重建將使 <a href="#log">§09</a> 列失效。橋接擾動掃描與介數空模型於本建構<em>尚</em>未重跑，已刪除於上文（§06、§08 H5），而非沿用。
+      </p>
+    </section>
+
+    <section id="references">
+      <p class="sec-label">11 · 來源</p>
+      <h2>庫分析、方案文件與引用文獻</h2>
+      <ol class="refs">
+        <li>庫方法簡報，2026 年 8 月 16 日。<em>用於生物優先排序的節點級網絡分析。</em> <a href="node-analysis-examples-biology.html">web/pages/node-analysis-examples-biology.html</a>.</li>
+        <li>方案大綱（任務參考）。 <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md" target="_blank" rel="noopener noreferrer"><code>src/tasks/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md</code></a> — MRR／GOPS／SRAC 機轉（推測）。</li>
+        <li>Wiki 實體筆記。 <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/Adrenochrome%20monoaminoguanidine.md" target="_blank" rel="noopener noreferrer"><code>src/notes/adrenochrome/Adrenochrome monoaminoguanidine.md</code></a> (GOPS/SRAC details); <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Methylene%20blue.md" target="_blank" rel="noopener noreferrer"><code>src/notes/_link/Methylene blue.md</code></a>; <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Aminoguanidine.md" target="_blank" rel="noopener noreferrer"><code>src/notes/_link/Aminoguanidine.md</code></a>; <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Hormetic%20Window.md" target="_blank" rel="noopener noreferrer"><code>src/notes/_link/Hormetic Window.md</code></a>; <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/_document_%20-%20US4501923A%20-%20Process%20for%20preparing%20adrenochrome.md" target="_blank" rel="noopener noreferrer"><code>src/notes/adrenochrome/_document_ - US4501923A - Process for preparing adrenochrome.md</code></a>.</li>
+        <li>先前任務輸出： <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_pharmacologist_feasibility_16_JUN_2026.md" target="_blank" rel="noopener noreferrer"><code>adrenochrome_mb_ag/task_output_pharmacologist_feasibility_16_JUN_2026.md</code></a>; <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_research-scientist_combo_therapy_11_JUN_2026.md" target="_blank" rel="noopener noreferrer"><code>task_output_research-scientist_combo_therapy_11_JUN_2026.md</code></a>; <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_mitohormetic_window_13_JUL_2026.md" target="_blank" rel="noopener noreferrer"><code>task_output_mitohormetic_window_13_JUL_2026.md</code></a>; <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_gap_analysis_09_JUL_2026.md" target="_blank" rel="noopener noreferrer"><code>task_output_adrenochrome_gap_analysis_09_JUL_2026.md</code></a>; <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_lipid_peroxidation_bridge_17_July_2026.md" target="_blank" rel="noopener noreferrer"><code>task_output_adrenochrome_lipid_peroxidation_bridge_17_July_2026.md</code></a>; <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_foamcells_autophagy_trace_17_JUL_2026.md" target="_blank" rel="noopener noreferrer"><code>task_output_adrenochrome_foamcells_autophagy_trace_17_JUL_2026.md</code></a>; <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026.md" target="_blank" rel="noopener noreferrer"><code>task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026.md</code></a>.</li>
+        <li>四重組基準研究。 <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_adrenochrome_sirtuins_20_AUG_2026/task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md" target="_blank" rel="noopener noreferrer"><code>src/tasks/node_network_adrenochrome_sirtuins_20_AUG_2026/task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md</code></a>.</li>
+        <li>本方案追蹤集合。 <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_adrenochrome_20_AUG_2026/task_output_adrenochrome_protocol_traces_20_AUG_2026.md" target="_blank" rel="noopener noreferrer"><code>src/tasks/node_network_adrenochrome_20_AUG_2026/task_output_adrenochrome_protocol_traces_20_AUG_2026.md</code></a> 及 <a href="https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/tasks/node_network_adrenochrome_20_AUG_2026" target="_blank" rel="noopener noreferrer"><code>run_log_A…D_*.txt</code></a> 存檔。</li>
+        <li>多節點分析工具。 <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py" target="_blank" rel="noopener noreferrer"><code>scripts/analysis/node_analysis.py</code></a>；重建管線 <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/triples/rebuild.py" target="_blank" rel="noopener noreferrer"><code>scripts/triples/rebuild.py</code></a>。</li>
+        <li>Jeong H 等。Lethality and centrality in protein networks. <em>Nature</em> 2001;411:41–42. Yu H 等。The importance of bottlenecks in protein networks. <em>PLoS Comput Biol</em> 2007;3:e59.</li>
+      </ol>
+    </section>
+  </main>
 </div>
+
 <footer>
-<div class="wrap">
-<p>本頁為 llm-wiki-jk 知識圖譜的追蹤分析頁面，使用獨立樣式表與程式，非共用文章框架。內容不構成醫療建議；所有主張皆為針對知識庫筆記的假說，並綁定於圖譜建構 867a5ae5fdb8a46c。低劑量激效解讀為假說，需依原始文獻評估，非既定事實。追蹤日誌（§09）收錄已執行的運算。</p>
-<p><strong>本分析引用的知識庫文件</strong>（repo · <em>dev</em> 分支）：<a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md" target="_blank" rel="noopener noreferrer">protocol outline</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/Adrenochrome%20monoaminoguanidine.md" target="_blank" rel="noopener noreferrer">adrenochrome monoaminoguanidine</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Methylene%20blue.md" target="_blank" rel="noopener noreferrer">methylene blue</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Aminoguanidine.md" target="_blank" rel="noopener noreferrer">aminoguanidine</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Hormetic%20Window.md" target="_blank" rel="noopener noreferrer">hormetic window</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/_document_%20-%20US4501923A%20-%20Process%20for%20preparing%20adrenochrome.md" target="_blank" rel="noopener noreferrer">US4501923A</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_pharmacologist_feasibility_16_JUN_2026.md" target="_blank" rel="noopener noreferrer">pharmacologist feasibility</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_research-scientist_combo_therapy_11_JUN_2026.md" target="_blank" rel="noopener noreferrer">combo therapy</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_mitohormetic_window_13_JUL_2026.md" target="_blank" rel="noopener noreferrer">mitohormetic window</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_gap_analysis_09_JUL_2026.md" target="_blank" rel="noopener noreferrer">gap analysis</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_lipid_peroxidation_bridge_17_July_2026.md" target="_blank" rel="noopener noreferrer">lipid-peroxidation bridge</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_foamcells_autophagy_trace_17_JUL_2026.md" target="_blank" rel="noopener noreferrer">foam-cell autophagy trace</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026.md" target="_blank" rel="noopener noreferrer">sirtuins/MnSOD·adrenochrome</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_adrenochrome_sirtuins_20_AUG_2026/task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md" target="_blank" rel="noopener noreferrer">quartet study</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_adrenochrome_20_AUG_2026/task_output_adrenochrome_protocol_traces_20_AUG_2026.md" target="_blank" rel="noopener noreferrer">protocol trace set</a>。</p>
-<p><strong>引用論文</strong>（外部連結）：Jeong H, et al. <em>Nature</em> 2001;411:41–42 — <a href="https://doi.org/10.1038/35075138" target="_blank" rel="noopener noreferrer">doi:10.1038/35075138</a> · Yu H, et al. <em>PLoS Comput Biol</em> 2007;3:e59 — <a href="https://doi.org/10.1371/journal.pcbi.0030059" target="_blank" rel="noopener noreferrer">doi:10.1371/journal.pcbi.0030059</a>。</p>
-<p><a href="https://graph.johnnykuo.com">返回圖譜</a></p>
-</div>
+  <div class="wrap">
+    <p><strong>本分析引用的庫文件</strong>（repo · <em>dev</em> 分支）： <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md" target="_blank" rel="noopener noreferrer">方案大綱</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/Adrenochrome%20monoaminoguanidine.md" target="_blank" rel="noopener noreferrer">腎上腺素紅單氨基胍</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Methylene%20blue.md" target="_blank" rel="noopener noreferrer">亞甲藍</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Aminoguanidine.md" target="_blank" rel="noopener noreferrer">氨基胍</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Hormetic%20Window.md" target="_blank" rel="noopener noreferrer">毒物興奮效應窗口</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/_document_%20-%20US4501923A%20-%20Process%20for%20preparing%20adrenochrome.md" target="_blank" rel="noopener noreferrer">US4501923A</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_pharmacologist_feasibility_16_JUN_2026.md" target="_blank" rel="noopener noreferrer">藥理學可行性</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_research-scientist_combo_therapy_11_JUN_2026.md" target="_blank" rel="noopener noreferrer">組合治療</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_mitohormetic_window_13_JUL_2026.md" target="_blank" rel="noopener noreferrer">粒線體激效窗口</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_gap_analysis_09_JUL_2026.md" target="_blank" rel="noopener noreferrer">缺口分析</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_lipid_peroxidation_bridge_17_July_2026.md" target="_blank" rel="noopener noreferrer">脂質過氧化橋接</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_adrenochrome_foamcells_autophagy_trace_17_JUL_2026.md" target="_blank" rel="noopener noreferrer">泡沫細胞自噬追蹤</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/task_output_sirtuins_mnsod_adrenochrome_06_JULY_2026.md" target="_blank" rel="noopener noreferrer">Sirtuins/MnSOD·腎上腺素紅</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_adrenochrome_sirtuins_20_AUG_2026/task_output_node_network_study_adrenochrome_defense_programs_20_August_2026.md" target="_blank" rel="noopener noreferrer">四重組研究</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/node_network_adrenochrome_20_AUG_2026/task_output_adrenochrome_protocol_traces_20_AUG_2026.md" target="_blank" rel="noopener noreferrer">方案追蹤集合</a>.</p>
+    <p><strong>引用文獻</strong>（外連）：Jeong H 等。 <em>Nature</em> 2001;411:41–42 — <a href="https://doi.org/10.1038/35075138" target="_blank" rel="noopener noreferrer">doi:10.1038/35075138</a> · Yu H 等。 <em>PLoS Comput Biol</em> 2007;3:e59 — <a href="https://doi.org/10.1371/journal.pcbi.0030059" target="_blank" rel="noopener noreferrer">doi:10.1371/journal.pcbi.0030059</a>.</p>
+    <p><a href="https://graph.johnnykuo.com">返回圖譜</a></p>
+  </div>
 </footer>
 
 <script>
@@ -462,7 +506,7 @@ uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
     mb: "#2e4a5d",
     ag: "#345443",
     carb: "#a24b44",
-    asc: "#c49a4a",
+    asc: "#a9852f",
     ink: "#1c1915",
     mute: "#6d665b",
     faint: "#8d8578",
@@ -478,12 +522,12 @@ uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
       arrowHead = T2.arrowHead, wrapText = T2.wrapText;
 
   var NODES = {
-    adr:  { id: "adr",  label: "Adrenochrome", degree: 60, in: 18, out: 42, pagerank: 0.00501, betweenness: 0.0387,  clustering: 0.0094, kCore: 4, color: C.adr },
-    mb:   { id: "mb",   label: "Methylene blue", degree: 45, in: 1,  out: 44, pagerank: 0.00040, betweenness: 0.0307,  clustering: 0.0020, kCore: 4, color: C.mb },
-    ag:   { id: "ag",   label: "Aminoguanidine", degree: 32, in: 1, out: 31, pagerank: 0.00026, betweenness: 0.0163,  clustering: 0.0141, kCore: 4, color: C.ag },
-    mh:   { id: "mh",   label: "Mitohormesis",   degree: 34, in: 7,  out: 27, pagerank: 0.00083, betweenness: 0.0166,  clustering: 0.0143, kCore: 5, color: C.mh },
-    auto: { id: "auto", label: "Autophagy",       degree: 39, in: 23, out: 16, pagerank: 0.00429, betweenness: 0.0276,  clustering: 0.0390, kCore: 6, color: C.auto },
-    sirt: { id: "sirt", label: "Sirtuins",        degree: 24, in: 11, out: 13, pagerank: 0.00203, betweenness: 0.0112,  clustering: 0.0119, kCore: 5, color: C.sirt }
+    adr:  { id: "adr",  label: "Adrenochrome", degree: 149, in: 75, out: 74, pagerank: 0.00477121, betweenness: 0.05000066,  clustering: 0.019, kCore: 7, color: C.adr },
+    mb:   { id: "mb",   label: "Methylene blue", degree: 69, in: 7,  out: 62, pagerank: 0.00022931, betweenness: 0.0133,  clustering: 0.0227, kCore: 6, color: C.mb },
+    ag:   { id: "ag",   label: "Aminoguanidine", degree: 49, in: 4,  out: 45, pagerank: 0.00016682, betweenness: 0.00619,  clustering: 0.0413, kCore: 5, color: C.ag },
+    mh:   { id: "mh",   label: "Mitohormesis",   degree: 70, in: 38, out: 32, pagerank: 0.00138821, betweenness: 0.01364,  clustering: 0.0291, kCore: 8, color: C.mh },
+    auto: { id: "auto", label: "Autophagy",       degree: 210, in: 162, out: 48, pagerank: 0.0101558, betweenness: 0.06681,  clustering: 0.0165, kCore: 8, color: C.auto },
+    sirt: { id: "sirt", label: "Sirtuins",        degree: 57, in: 31, out: 26, pagerank: 0.00147489, betweenness: 0.01152,  clustering: 0.0257, kCore: 7, color: C.sirt }
   };
   var SERIES = [NODES.adr, NODES.mb, NODES.ag, NODES.mh, NODES.auto, NODES.sirt];
 
@@ -494,109 +538,107 @@ uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
     el("line", { x1: midX, y1: y2, x2: x2, y2: y2, stroke: color, "stroke-width": width, "stroke-dasharray": dashed || null }, svg);
   }
 
-  /* ——— Figure 1: stored-edge circuit ——— */
+  /* ——— Figure 1: stored-edge circuit, split into two panels ——— */
+  /* Panel A: protocol agents -> adrenochrome. Panel B: adaptive programs -> adrenochrome.
+     One canvas at 980x620 forced three jobs together; splitting gives each edge room. */
   function drawCircuit() {
     var host = document.querySelector('[data-chart="circuit"]');
     if (!host) return;
-    var w = 980, h = 620;
-    var svg = svgRoot(host, w, h, "Stored-edge circuit: protocol agents, shared bridges, adrenochrome node, adaptive programs");
-    var agentColors = { ag: C.ag, mb: C.mb, asc: C.asc, carb: C.carb };
-    arrowHead(svg, "pc-ag", C.ag);
-    arrowHead(svg, "pc-mb", C.mb);
-    arrowHead(svg, "pc-asc", C.asc);
-    arrowHead(svg, "pc-carb", C.carb);
-    arrowHead(svg, "pc-arm-mh", C.mh);
-    arrowHead(svg, "pc-arm-auto", C.auto);
+    var w = 980, h = 1020;
+    var svg = svgRoot(host, w, h, "Stored-edge circuit split in two panels: protocol agents and adaptive programs to the adrenochrome node");
+    arrowHead(svg, "pc-ag", C.ag); arrowHead(svg, "pc-mb", C.mb);
+    arrowHead(svg, "pc-asc", C.asc); arrowHead(svg, "pc-carb", C.carb);
+    arrowHead(svg, "pc-arm-mh", C.mh); arrowHead(svg, "pc-arm-auto", C.auto);
     arrowHead(svg, "pc-arm-sirt", C.sirt);
-    arrowHead(svg, "pc-ox", C.oxblood);
 
     function agent(cx, cy, r, c1, c2, color, sub) {
       el("circle", { cx: cx, cy: cy, r: r, fill: color, stroke: C.ink, "stroke-width": 0.8 }, svg);
-      text(svg, cx, cy, c1, { anchor: "middle", size: 12.5, weight: 600, fill: C.sheet });
-      text(svg, cx, cy + 14, c2, { anchor: "middle", size: 12.5, weight: 600, fill: C.sheet });
-      text(svg, cx, cy + r + 14, sub, { anchor: "middle", size: 11, fill: C.mute });
+      text(svg, cx, cy, c1, { anchor: "middle", size: 13, weight: 600, fill: C.sheet });
+      text(svg, cx, cy + 15, c2, { anchor: "middle", size: 13, weight: 600, fill: C.sheet });
+      text(svg, cx, cy + r + 16, sub, { anchor: "middle", size: 12, fill: C.mute });
     }
     function bridge(x, y, w2, h2, label) {
       el("rect", { x: x, y: y, width: w2, height: h2, fill: C.paper, stroke: C.rule, "stroke-width": 1 }, svg);
-      text(svg, x + w2 / 2, y + h2 / 2 + 4, label, { anchor: "middle", size: 12, weight: 600, fill: C.ink });
+      text(svg, x + w2 / 2, y + h2 / 2 + 4, label, { anchor: "middle", size: 12.5, weight: 600, fill: C.ink });
     }
-
-    // protocol agents (left column)
-    agent(110, 95, 46, "Amino-", "guanidine", C.ag, "dicarbonyl/AGE trapping");
-    agent(110, 230, 46, "Methylene", "blue", C.mb, "electron shunt (Complex I/III)");
-    agent(110, 365, 42, "Ascorbic", "acid", C.asc, "o-quinone reduction");
-    agent(110, 490, 42, "Carbo-", "zochrome", C.carb, "adrenochrome derivative");
-
-    // shared bridges (middle)
-    bridge(300, 140, 150, 34, "Complex I");
-    bridge(300, 208, 150, 34, "Oxidative Stress");
-    bridge(300, 276, 150, 34, "Hemolysis");
-
-    // trigger (right)
-    el("circle", { cx: 700, cy: 250, r: 62, fill: C.oxblood, stroke: C.ink, "stroke-width": 0.8 }, svg);
-    text(svg, 700, 244, "Adreno-", { anchor: "middle", size: 16, weight: 600, fill: C.sheet });
-    text(svg, 700, 262, "chrome", { anchor: "middle", size: 16, weight: 600, fill: C.sheet });
-    text(svg, 700, 340, "adrenochrome node", { anchor: "middle", size: 12, fill: C.mute, weight: 600 });
-
-    // MB fan: MB -> three bridges -> Adr
-    el("line", { x1: 156, y1: 216, x2: 298, y2: 158, stroke: C.mb, "stroke-width": 1.3 }, svg);
-    el("line", { x1: 156, y1: 230, x2: 298, y2: 225, stroke: C.mb, "stroke-width": 1.3 }, svg);
-    el("line", { x1: 156, y1: 244, x2: 298, y2: 292, stroke: C.mb, "stroke-width": 1.3 }, svg);
-    el("line", { x1: 452, y1: 158, x2: 644, y2: 224, stroke: C.mb, "stroke-width": 1.3 }, svg);
-    el("line", { x1: 452, y1: 225, x2: 640, y2: 244, stroke: C.mb, "stroke-width": 1.3 }, svg);
-    el("line", { x1: 452, y1: 292, x2: 648, y2: 264, stroke: C.mb, "stroke-width": 1.3 }, svg);
-    text(svg, 548, 205, "3 co-shortest paths · no direct stored edge", { anchor: "middle", size: 11.5, mono: true, fill: C.mb, weight: 600 });
-
-    // direct edges (with ■ badge marker at midpoint)
+    function adr(cx, cy) {
+      el("circle", { cx: cx, cy: cy, r: 58, fill: C.oxblood, stroke: C.ink, "stroke-width": 0.8 }, svg);
+      text(svg, cx, cy - 6, "Adreno-", { anchor: "middle", size: 16, weight: 600, fill: C.sheet });
+      text(svg, cx, cy + 12, "chrome", { anchor: "middle", size: 16, weight: 600, fill: C.sheet });
+      text(svg, cx, cy + 76, "adrenochrome node", { anchor: "middle", size: 12, fill: C.mute, weight: 600 });
+    }
     function directEdge(x1, y1, x2, y2, label, lx, ly, color, mId) {
       el("line", { x1: x1, y1: y1, x2: x2, y2: y2, stroke: color, "stroke-width": 2.2, "marker-end": "url(#" + mId + ")" }, svg);
       el("rect", { x: (x1 + x2) / 2 - 5, y: (y1 + y2) / 2 - 5, width: 10, height: 10, fill: C.sheet, stroke: color, "stroke-width": 1.4 }, svg);
-      text(svg, lx, ly, label, { anchor: "middle", size: 11.5, mono: true, fill: color, weight: 600 });
+      text(svg, lx, ly, label, { anchor: "middle", size: 12, mono: true, fill: color, weight: 600 });
     }
-    directEdge(158, 102, 642, 214, "reacts_with · 0.9", 400, 128, C.ag, "pc-ag");
-    directEdge(152, 352, 642, 266, "reduces · 0.75", 356, 330, C.asc, "pc-asc");
-    directEdge(152, 470, 648, 286, "is_an_intermediate_for · 0.95", 356, 462, C.carb, "pc-carb");
 
-    // adaptive arms (bottom)
-    var armColors = { mh: C.mh, auto: C.auto, sirt: C.sirt };
-    bridge(390, 470, 110, 34, "ROS");
-    bridge(580, 470, 150, 34, "Neuromelanin");
-    bridge(790, 470, 100, 34, "SASP");
-    text(svg, 900, 492, "NF-κB", { anchor: "middle", size: 11, weight: 600, fill: C.mute });
+    /* — Panel A (y 0–480) — */
+    text(svg, 16, 28, "Panel A · protocol agents → adrenochrome", { size: 15, weight: 600, fill: C.ink });
+    agent(110, 100, 46, "Amino-", "guanidine", C.ag, "dicarbonyl/AGE trapping");
+    agent(110, 245, 46, "Methylene", "blue", C.mb, "electron shunt (Complex I/III)");
+    agent(110, 380, 42, "Vitamin", "C", C.asc, "o-quinone reduction");
+    agent(110, 505, 42, "Carbo-", "zochrome", C.carb, "adrenochrome derivative");
+    // MB bridges: list all five, compact
+    var mbBridges = ["Complex I", "Oxidative Stress", "Hemolysis", "Methemoglobin", "Resp. Chain Complex I"];
+    mbBridges.forEach(function (b, k) { bridge(300, 150 + k * 48, 170, 34, b); });
+    adr(750, 300);
+    // MB fan-out (one labelled fan, no per-line labels)
+    mbBridges.forEach(function (b, k) {
+      var y = 150 + k * 48 + 17;
+      el("line", { x1: 156, y1: 245, x2: 298, y2: y, stroke: C.mb, "stroke-width": 1.3 }, svg);
+      el("line", { x1: 472, y1: y, x2: 696, y2: 300 + (k - 2) * 8, stroke: C.mb, "stroke-width": 1.3 }, svg);
+    });
+    text(svg, 540, 130, "5 co-shortest paths · no direct stored edge", { size: 12, mono: true, fill: C.mb, weight: 600 });
+    // AG: horizontal above the bridge column, then diagonal to Adr top (avoids crossing bridge boxes)
+    el("polyline", { points: "158,100 520,100 700,252", fill: "none", stroke: C.ag, "stroke-width": 2.2, "marker-end": "url(#pc-ag)", "stroke-linejoin": "round" }, svg);
+    el("rect", { x: 424, y: 95, width: 10, height: 10, fill: C.sheet, stroke: C.ag, "stroke-width": 1.4 }, svg);
+    text(svg, 430, 88, "reacts_with · 0.9", { anchor: "middle", size: 12, mono: true, fill: C.ag, weight: 600 });
+    // Vitamin C: horizontal below the bridge column, then diagonal to Adr left
+    el("polyline", { points: "152,380 520,380 692,312", fill: "none", stroke: C.asc, "stroke-width": 2.2, "marker-end": "url(#pc-asc)", "stroke-linejoin": "round" }, svg);
+    el("rect", { x: 424, y: 375, width: 10, height: 10, fill: C.sheet, stroke: C.asc, "stroke-width": 1.4 }, svg);
+    text(svg, 430, 404, "reduces · 0.75", { anchor: "middle", size: 12, mono: true, fill: C.asc, weight: 600 });
+    directEdge(152, 488, 700, 340, "is_an_intermediate_for · 0.9", 430, 500, C.carb, "pc-carb");
 
-    // arm circles
-    el("circle", { cx: 445, cy: 570, r: 34, fill: C.mh, stroke: C.ink, "stroke-width": 0.8 }, svg);
-    text(svg, 445, 568, "Mito-", { anchor: "middle", size: 12, weight: 600, fill: C.sheet });
-    text(svg, 445, 581, "hormesis", { anchor: "middle", size: 12, weight: 600, fill: C.sheet });
-    el("circle", { cx: 655, cy: 570, r: 34, fill: C.auto, stroke: C.ink, "stroke-width": 0.8 }, svg);
-    text(svg, 655, 574, "Autophagy", { anchor: "middle", size: 12, weight: 600, fill: C.sheet });
-    el("circle", { cx: 840, cy: 560, r: 34, fill: C.sirt, stroke: C.ink, "stroke-width": 0.8 }, svg);
-    text(svg, 840, 558, "Sirtu-", { anchor: "middle", size: 12, weight: 600, fill: C.sheet });
-    text(svg, 840, 571, "ins", { anchor: "middle", size: 12, weight: 600, fill: C.sheet });
-
-    // Arm A: MH -> ROS : Adr -> ROS (MH requires ROS; ROS generates Adr)
-    el("line", { x1: 445, y1: 534, x2: 445, y2: 506, stroke: C.mh, "stroke-width": 1.6, "marker-end": "url(#pc-arm-mh)" }, svg);
-    text(svg, 458, 522, "requires · 0.9", { anchor: "start", size: 11, mono: true, fill: C.mh });
-    el("line", { x1: 456, y1: 470, x2: 656, y2: 306, stroke: C.mh, "stroke-width": 1.6, "marker-end": "url(#pc-arm-mh)" }, svg);
-    text(svg, 565, 392, "generates · 0.95", { anchor: "middle", size: 11, mono: true, fill: C.mute });
-
-    // Arm B: Auto -> NM -> Adr
-    el("line", { x1: 620, y1: 546, x2: 624, y2: 506, stroke: C.auto, "stroke-width": 1.6, "marker-end": "url(#pc-arm-auto)" }, svg);
-    text(svg, 640, 530, "associated_with · 0.95", { anchor: "start", size: 11, mono: true, fill: C.mute });
-    el("line", { x1: 648, y1: 470, x2: 684, y2: 312, stroke: C.auto, "stroke-width": 1.6, "marker-end": "url(#pc-arm-auto)" }, svg);
-    text(svg, 672, 396, "sequesters · 0.8", { anchor: "end", size: 11, mono: true, fill: C.mute });
-
-    // Arm C: Sirt -> SASP ; NF-kB -> SASP ; Adr -> NF-kB (dashed, corrected direction)
-    el("line", { x1: 824, y1: 528, x2: 824, y2: 506, stroke: C.sirt, "stroke-width": 1.6, "marker-end": "url(#pc-arm-sirt)" }, svg);
-    text(svg, 810, 522, "suppress · 0.86", { anchor: "end", size: 11, mono: true, fill: C.sirt });
-    el("line", { x1: 892, y1: 487, x2: 872, y2: 487, stroke: C.mute, "stroke-width": 1.4, "marker-end": "url(#pc-arm-sirt)" }, svg);
-    text(svg, 946, 512, "is_regulated_by · 0.96", { anchor: "end", size: 10.5, mono: true, fill: C.mute });
-    el("line", { x1: 742, y1: 296, x2: 882, y2: 470, stroke: C.oxblood, "stroke-width": 1.8, "stroke-dasharray": "5 3", "marker-end": "url(#pc-ox)" }, svg);
-    text(svg, 856, 368, "inhibits · 0.6 ⚠", { anchor: "middle", size: 11, mono: true, fill: C.oxblood, weight: 600 });
-
-    // annotations
-    text(svg, 16, 26, "protocol agents   ·   shared bridges   ·   adrenochrome node   ·   adaptive programs", { size: 12, fill: C.mute });
-    text(svg, 16, 606, "■ direct stored edge to the adrenochrome node   ·   other couplings multi-hop   ·   directions as stored (⚠ audited §06)", { size: 12, fill: C.mute });
+    /* — Panel B (y 620–1020) — */
+    el("line", { x1: 16, y1: 600, x2: 964, y2: 600, stroke: C.rule, "stroke-width": 1 }, svg);
+    text(svg, 16, 628, "Panel B · adaptive programs → adrenochrome (one arm each, bridges labelled)", { size: 15, weight: 600, fill: C.ink });
+    // Arm A (y=720)
+    el("circle", { cx: 150, cy: 720, r: 40, fill: C.mh, stroke: C.ink, "stroke-width": 0.8 }, svg);
+    text(svg, 150, 718, "Mito-", { anchor: "middle", size: 13, weight: 600, fill: C.sheet });
+    text(svg, 150, 733, "hormesis", { anchor: "middle", size: 13, weight: 600, fill: C.sheet });
+    bridge(300, 702, 120, 36, "ROS");
+    el("line", { x1: 192, y1: 720, x2: 298, y2: 720, stroke: C.mh, "stroke-width": 1.8, "marker-end": "url(#pc-arm-mh)" }, svg);
+    text(svg, 245, 708, "requires · 0.91", { anchor: "middle", size: 12, mono: true, fill: C.mh });
+    el("line", { x1: 422, y1: 720, x2: 700, y2: 805, stroke: C.mh, "stroke-width": 1.8, "marker-end": "url(#pc-arm-mh)" }, svg);
+    text(svg, 560, 750, "generates · 0.9", { anchor: "middle", size: 12, mono: true, fill: C.mh });
+    text(svg, 300, 762, "1 of 6 shortest paths", { size: 12, fill: C.mute });
+    // Arm B (y=820)
+    el("circle", { cx: 150, cy: 820, r: 40, fill: C.auto, stroke: C.ink, "stroke-width": 0.8 }, svg);
+    text(svg, 150, 825, "Autophagy", { anchor: "middle", size: 13, weight: 600, fill: C.sheet });
+    bridge(300, 802, 170, 36, "Neuromelanin");
+    el("line", { x1: 192, y1: 820, x2: 298, y2: 820, stroke: C.auto, "stroke-width": 1.8, "marker-end": "url(#pc-arm-auto)" }, svg);
+    text(svg, 245, 808, "associated_with · 0.95", { anchor: "middle", size: 12, mono: true, fill: C.auto });
+    el("line", { x1: 472, y1: 820, x2: 698, y2: 820, stroke: C.auto, "stroke-width": 1.8, "marker-end": "url(#pc-arm-auto)" }, svg);
+    text(svg, 585, 808, "sequesters · 0.8", { anchor: "middle", size: 12, mono: true, fill: C.auto });
+    text(svg, 300, 862, "1 of 5 shortest paths", { size: 12, fill: C.mute });
+    // Arm C (y=920, clear of Arm B and the footer)
+    el("circle", { cx: 150, cy: 920, r: 38, fill: C.sirt, stroke: C.ink, "stroke-width": 0.8 }, svg);
+    text(svg, 150, 917, "Sirtu-", { anchor: "middle", size: 13, weight: 600, fill: C.sheet });
+    text(svg, 150, 932, "ins", { anchor: "middle", size: 13, weight: 600, fill: C.sheet });
+    bridge(300, 902, 150, 36, "NRF2");
+    el("line", { x1: 188, y1: 920, x2: 298, y2: 920, stroke: C.sirt, "stroke-width": 1.8, "marker-end": "url(#pc-arm-sirt)" }, svg);
+    text(svg, 243, 908, "co-activated · 0.8", { anchor: "middle", size: 12, mono: true, fill: C.sirt });
+    el("line", { x1: 452, y1: 920, x2: 701, y2: 837, stroke: C.sirt, "stroke-width": 1.8, "stroke-dasharray": "5 3", "marker-end": "url(#pc-arm-sirt)" }, svg);
+    text(svg, 575, 875, "Adr activates NRF2 · 0.8 (dashed = undirected path)", { anchor: "middle", size: 12, mono: true, fill: C.sirt });
+    text(svg, 300, 962, "sole shortest path (undirected; §06)", { size: 12, fill: C.mute });
+    adr2(750, 820);
+    function adr2(cx, cy) {
+      el("circle", { cx: cx, cy: cy, r: 52, fill: C.oxblood, stroke: C.ink, "stroke-width": 0.8 }, svg);
+      text(svg, cx, cy - 5, "Adreno-", { anchor: "middle", size: 15, weight: 600, fill: C.sheet });
+      text(svg, cx, cy + 12, "chrome", { anchor: "middle", size: 15, weight: 600, fill: C.sheet });
+    }
+    text(svg, 16, 1005, "■ direct stored edge to the adrenochrome node · other couplings multi-hop · directions as stored (§06)", { size: 12, fill: C.mute });
   }
 
   /* ——— Figure 2: coupling ladder (log-scale PPR ranks) ——— */
@@ -612,18 +654,18 @@ uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
 
     var rows = [
       { label: "Aminoguanidine", c: C.ag,   fwd: 4,   rev: 3,   direct: true },
-      { label: "Methylene blue", c: C.mb,   fwd: 8,   rev: 7 },
-      { label: "Carbazochrome",  c: C.carb, fwd: 14,  rev: null, direct: true },
-      { label: "Ascorbic Acid",  c: C.asc,  fwd: 15,  rev: null, direct: true },
-      { label: "Rapamycin",      c: C.periphery, fwd: 59, rev: null },
-      { label: "Mitohormesis",   c: C.mh,   fwd: 89,  rev: 60 },
-      { label: "Urolithin A",    c: C.periphery, fwd: 90, rev: null },
-      { label: "Autophagy",      c: C.auto, fwd: 93,  rev: 58 },
-      { label: "Creatine",       c: C.periphery, fwd: 95, rev: null },
-      { label: "Fisetin",        c: C.periphery, fwd: 147, rev: null },
-      { label: "Spermidine",     c: C.periphery, fwd: 174, rev: null },
-      { label: "Resveratrol",    c: C.periphery, fwd: 181, rev: null },
-      { label: "Sirtuins",       c: C.sirt, fwd: 305, rev: 147 }
+      { label: "Carbazochrome",  c: C.carb, fwd: 22,  rev: null, direct: true },
+      { label: "Vitamin C",  c: C.asc,  fwd: 29,  rev: null, direct: true },
+      { label: "Methylene blue", c: C.mb,   fwd: 35,   rev: 16 },
+      { label: "Mitohormesis",   c: C.mh,   fwd: 36,  rev: 13 },
+      { label: "Autophagy",      c: C.auto, fwd: 38, rev: 50 },
+      { label: "Fisetin",        c: C.periphery, fwd: 146, rev: null },
+      { label: "Creatine",       c: C.periphery, fwd: 152, rev: null },
+      { label: "Resveratrol",    c: C.periphery, fwd: 162, rev: null },
+      { label: "Rapamycin",      c: C.periphery, fwd: 171, rev: null },
+      { label: "Urolithin A",    c: C.periphery, fwd: 177, rev: null },
+      { label: "Sirtuins",       c: C.sirt, fwd: 232, rev: 86 },
+      { label: "Spermidine",     c: C.periphery, fwd: 272, rev: null }
     ];
     var pitch = (h - top - bottom) / rows.length;
 
@@ -647,7 +689,7 @@ uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
       el("circle", { cx: xf, cy: y, r: 6, fill: row.c, stroke: C.ink, "stroke-width": 0.8 }, svg);
       text(svg, xf - 9, y - 8, "#" + row.fwd, { anchor: "end", size: 12, weight: 600, mono: true, fill: C.ink });
       if (xr !== null) {
-        el("circle", { cx: xr, cy: y, r: 6, fill: C.sheet, stroke: row.c, "stroke-width": 2 }, svg);
+        el("rect", { x: xr-5, y: y-5, width: 10, height: 10, fill: C.sheet, stroke: row.c, "stroke-width": 2, transform: "rotate(45 "+xr+" "+y+")" }, svg);
         text(svg, xr + 9, y + 16, "#" + row.rev, { anchor: "start", size: 12, weight: 600, mono: true, fill: C.ink });
       }
     });
@@ -657,7 +699,7 @@ uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
     el("rect", { x: lx, y: ly + 2, width: 12, height: 12, fill: C.ag }, svg);
     text(svg, lx + 20, ly + 13, "PPR rank of node, seeded at Adrenochrome", { size: 12.5, fill: C.mute });
     el("circle", { cx: lx + 6, cy: ly + 36, r: 6, fill: C.sheet, stroke: C.mb, "stroke-width": 2 }, svg);
-    text(svg, lx + 20, ly + 41, "reverse trace (rank of Adrenochrome, where run)", { size: 12.5, fill: C.mute });
+    text(svg, lx + 20, ly + 41, "reverse trace (diamond; rank of Adrenochrome, where run)", { size: 12.5, fill: C.mute });
     el("rect", { x: lx + 4, y: ly + 58, width: 8, height: 8, fill: C.mb }, svg);
     text(svg, lx + 20, ly + 69, "■ direct stored edge", { size: 12.5, fill: C.mute });
   }
@@ -669,7 +711,7 @@ uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
     var w = 980, h = 380;
     var svg = svgRoot(host, w, h, "In-degree versus out-degree composition (six traced nodes)");
     var rows = [NODES.adr, NODES.mb, NODES.ag, NODES.mh, NODES.auto, NODES.sirt];
-    var max = 60;
+    var max = 210;
     var left = 210, top = 48, barH = 32, gap = 50, usable = 620;
     text(svg, left, 28, "in-degree", { size: 14, fill: C.mb, weight: 600 });
     text(svg, left + 84, 28, "out-degree", { size: 14, fill: C.oxblood, weight: 600 });
@@ -683,7 +725,7 @@ uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
       text(svg, left + 6, y + 22, String(n.in), { size: 13, fill: C.sheet, weight: 600 });
       text(svg, left + inW + outW + 10, y + 22, String(n.out) + "  (" + Math.round(100 * n.out / n.degree) + "% out)", { size: 13, fill: C.ink });
     });
-    wrapText(svg, 16, 356, "Adrenochrome, MB and AG have higher out-degree than in-degree; Mitohormesis is a source; Autophagy has higher in-degree; Sirtuins has in-degree 11 and out-degree 13.", 940, 14);
+    wrapText(svg, 16, 356, "Adrenochrome (75/74) is balanced; MB (7/62) and AG (4/45) are outbound; Autophagy (162/48) is inbound-heavy. Axis 0–210 = degree.", 940, 14);
   }
 
   /* ——— Figure 4: normalized fingerprint grouped bars ——— */
@@ -730,6 +772,7 @@ uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
       el("line", { x1: left, y1: yv, x2: w - right, y2: yv, stroke: C.rule, "stroke-width": 1, "stroke-dasharray": "3 4", opacity: 0.7 }, svg);
       text(svg, left - 8, yv + 4, String(Math.round(f * 100)) + "%", { size: 14, fill: C.faint, anchor: "end" });
     });
+    text(svg, left + 60, top - 14, "% of sample maximum (n=6)", { size: 13, fill: C.mute });
 
     metrics.forEach(function (m, gi) {
       var gx = left + gi * groupW;
@@ -751,75 +794,15 @@ uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
     });
   }
 
-  /* ——— Figure 6: perturbation sweep ——— */
-  function drawSweep() {
-    var host = document.querySelector('[data-chart="sweep"]');
-    if (!host) return;
-    var w = 980, h = 540;
-    var svg = svgRoot(host, w, h, "Bridge-perturbation sweep: change in walk-mass coupling by arm");
-    var x0 = 300, x1 = 950;
-    var lo = -36, hi = 8;
-    function xc(v) { return x0 + ((v - lo) / (hi - lo)) * (x1 - x0); }
-    var rows = [
-      { label: "remove edge Mitohormesis–ROS",      v: [-22.7, -0.4, -0.0], hl: false },
-      { label: "remove edge ROS–Adrenochrome",      v: [-23.4, -2.4, -7.8], hl: false },
-      { label: "delete node ROS",                   v: [-27.0, -2.4, -9.4], hl: false },
-      { label: "remove edge Autophagy–Neuromelanin",v: [-0.3, -24.8, -1.6], hl: false },
-      { label: "remove edge Neuromelanin–Adrenochrome", v: [-2.3, -19.5, -3.1], hl: false },
-      { label: "delete node Neuromelanin",          v: [-0.7, -33.3, -3.1], hl: false },
-      { label: "remove edge Sirtuins–SASP",         v: [0.9, 3.3, -4.7],    hl: true },
-      { label: "delete node SASP",                  v: [2.6, 3.7, -3.1],    hl: true }
-    ];
-    var colors = [C.mh, C.auto, C.sirt];
-    var top = 66, pitch = 52, barH = 11;
-
-    rows.forEach(function (row, i) {
-      if (row.hl) el("rect", { x: x0 - 12, y: top + i * pitch - 8, width: (x1 - x0) + 24, height: pitch - 18, fill: "rgba(154,116,48,0.08)" }, svg);
-    });
-    el("line", { x1: xc(0), y1: top - 14, x2: xc(0), y2: top + rows.length * pitch + 6, stroke: C.ink, "stroke-width": 1.2, "stroke-dasharray": "4 3" }, svg);
-    text(svg, xc(0), top - 28, "0", { size: 12, fill: C.mute, anchor: "middle", mono: true });
-    [-30, -20, -10].forEach(function (t) {
-      var xv = xc(t);
-      el("line", { x1: xv, y1: top - 14, x2: xv, y2: top + rows.length * pitch + 6, stroke: C.rule, "stroke-width": 1, "stroke-dasharray": "2 3", opacity: 0.6 }, svg);
-      text(svg, xv, top - 28, String(t) + "%", { size: 12, fill: C.faint, anchor: "middle", mono: true });
-    });
-    text(svg, x0 + (x1 - x0) / 2, top - 44, "Δ coupling to adrenochrome after perturbation", { size: 13, fill: C.mute, anchor: "middle" });
-
-    [
-      { l: "Δ Mitohormesis→Adr", c: C.mh, x: 360 },
-      { l: "Δ Autophagy→Adr", c: C.auto, x: 560 },
-      { l: "Δ Sirtuins→Adr", c: C.sirt, x: 740 }
-    ].forEach(function (item) {
-      el("rect", { x: item.x, y: 24, width: 12, height: 12, fill: item.c }, svg);
-      text(svg, item.x + 18, 35, item.l, { size: 13, fill: C.ink });
-    });
-
-    rows.forEach(function (row, i) {
-      var yBase = top + i * pitch + 4;
-      text(svg, x0 - 16, yBase + 22, row.label, { anchor: "end", size: 12.5, mono: true, fill: C.ink });
-      row.v.forEach(function (val, j) {
-        var bw = Math.abs(val) / 36 * (x1 - x0);
-        var yy = yBase + j * (barH + 4);
-        if (bw > 0.5) {
-          var bx = val < 0 ? xc(0) - bw : xc(0);
-          el("rect", { x: bx, y: yy, width: bw, height: barH, fill: colors[j], opacity: 0.9 }, svg);
-        }
-        var label = (val > 0 ? "+" : "") + val.toFixed(1) + "%";
-        var lx = val < 0 ? xc(0) - bw - 8 : xc(0) + bw + 8;
-        text(svg, lx, yy + barH - 1, label, { anchor: val < 0 ? "end" : "start", size: 11.5, weight: 600, mono: true, fill: colors[j] });
-      });
-    });
-  }
-
-  /* ——— Figure 7: Fiedler coordinates and community boundary ——— */
+  /* ——— Figure 6: Fiedler coordinates (current build) ——— */
   function drawSeam() {
     var host = document.querySelector('[data-chart="seam"]');
     if (!host) return;
     var w = 980, h = 430;
-    var svg = svgRoot(host, w, h, "Fiedler coordinates of all traced nodes and the community boundary");
+    var svg = svgRoot(host, w, h, "Fiedler coordinates of all traced nodes (current build)");
     var axisX = 500;
     var topY = 70, botY = 400;
-    var hi = 0.005, lo = -0.003;
+    var hi = 0.0009, lo = 0.0002;
     var zeroY = topY + ((hi - 0) / (hi - lo)) * (botY - topY);
     function y(v) { return topY + ((hi - v) / (hi - lo)) * (botY - topY); }
 
@@ -830,15 +813,14 @@ uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
     el("line", { x1: axisX, y1: topY, x2: axisX, y2: botY, stroke: C.rule, "stroke-width": 1.4 }, svg);
     // zero seam
     el("line", { x1: 200, y1: zeroY, x2: 800, y2: zeroY, stroke: C.oxblood, "stroke-width": 1.4, "stroke-dasharray": "5 3" }, svg);
-    text(svg, axisX, zeroY + 18, "community boundary (Fiedler sign change)", { size: 12, weight: 600, fill: C.oxblood, anchor: "middle" });
+    text(svg, axisX, zeroY + 18, "no sign split: all traced nodes positive (λ₂ = 0.0994)", { size: 12, weight: 600, fill: C.oxblood, anchor: "middle" });
 
     // lambda2 + side labels
-    text(svg, 200, 52, "λ₂ (algebraic connectivity) = 0.0463", { size: 13, fill: C.mute, mono: true });
+    text(svg, 200, 52, "λ₂ (algebraic connectivity) = 0.0994", { size: 13, fill: C.mute, mono: true });
     text(svg, 230, 92, "positive Fiedler side (+)", { size: 13, fill: C.auto, weight: 600 });
-    text(svg, 230, botY - 20, "negative Fiedler side (−)", { size: 13, fill: C.oxblood, weight: 600 });
 
     // grid ticks (right margin)
-    [0.005, 0.0025, 0, -0.0025].forEach(function (t) {
+    [0.0009, 0.0007, 0.0005, 0.0003, 0.0002].forEach(function (t) {
       var yv = y(t);
       el("line", { x1: 200, y1: yv, x2: 800, y2: yv, stroke: C.rule, "stroke-width": 1, "stroke-dasharray": "2 4", opacity: 0.5 }, svg);
       text(svg, 806, yv + 4, (t === 0 ? "0" : (t > 0 ? "+" : "") + t), { size: 11, fill: C.faint, mono: true });
@@ -846,37 +828,30 @@ uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
 
     // nodes sorted desc by value; labels alternate right/left rows
     var items = [
-      { label: "Sirtuins",       v: 0.0043, c: C.sirt },
-      { label: "Spermidine",     v: 0.0037, c: C.periphery },
-      { label: "Rapamycin",      v: 0.0036, c: C.periphery },
-      { label: "Mitohormesis",   v: 0.0034, c: C.mh },
-      { label: "Urolithin A",    v: 0.0033, c: C.periphery },
-      { label: "Autophagy",      v: 0.0033, c: C.auto },
-      { label: "Aminoguanidine", v: 0.0021, c: C.ag },
-      { label: "Methylene blue", v: 0.0013, c: C.mb },
-      { label: "Resveratrol",    v: 0.0006, c: C.periphery },
-      { label: "Carbazochrome",  v: -0.0008, c: C.carb },
-      { label: "Fisetin",        v: -0.0010, c: C.periphery },
-      { label: "Adrenochrome",   v: -0.0015, c: C.adr },
-      { label: "Ascorbic Acid",  v: -0.0023, c: C.asc },
-      { label: "Creatine",       v: -0.0024, c: C.periphery }
+      { label: "Autophagy",      v: 0.0008, c: C.auto },
+      { label: "Rapamycin",      v: 0.0007, c: C.periphery },
+      { label: "Creatine",       v: 0.0007, c: C.periphery },
+      { label: "Spermidine",     v: 0.0007, c: C.periphery },
+      { label: "Sirtuins",       v: 0.0007, c: C.sirt },
+      { label: "Carbazochrome",  v: 0.0006, c: C.carb },
+      { label: "Mitohormesis",   v: 0.0006, c: C.mh },
+      { label: "Methylene blue", v: 0.0005, c: C.mb },
+      { label: "Adrenochrome",   v: 0.0005, c: C.adr },
+      { label: "Fisetin",        v: 0.0005, c: C.periphery },
+      { label: "Resveratrol",    v: 0.0004, c: C.periphery },
+      { label: "Aminoguanidine", v: 0.0003, c: C.ag },
+      { label: "Vitamin C",  v: 0.0003, c: C.asc },
+      { label: "Urolithin A",    v: 0.0003, c: C.periphery }
     ];
-    var pitch = (botY - topY) / items.length;
-
+    // compressed axis: all values in [0.0002, 0.0009] — plot labels AT dot height, alternating side by index parity offset along x only
+    function yv(v) { return topY + ((0.0009 - v) / 0.0007) * (botY - topY); }
     items.forEach(function (it, i) {
-      var yi = topY + i * pitch + 4;
-      var dotY = y(it.v);
+      var dotY = yv(it.v);
       var onRight = (i % 2 === 0);
-      var ax = onRight ? axisX + 46 : axisX - 46;
-      var labelX = onRight ? axisX + 62 : axisX - 70;
-      // leader from dot to label row
-      el("line", { x1: axisX, y1: dotY, x2: ax, y2: yi, stroke: C.rule, "stroke-width": 1 }, svg);
-      el("line", { x1: ax, y1: yi, x2: labelX, y2: yi, stroke: C.faint, "stroke-width": 1 }, svg);
-      // dot on axis
-      el("circle", { cx: axisX, cy: dotY, r: it.label === "Adrenochrome" ? 10 : 6.5, fill: it.c, stroke: C.ink, "stroke-width": 0.8 }, svg);
-      // label
-      text(svg, labelX, yi + 4, it.label + "  " + (it.v > 0 ? "+" : "") + it.v.toFixed(4), {
-        anchor: onRight ? "start" : "end", size: 12.5, weight: 600, fill: it.c
+      var lx = onRight ? axisX + 24 : axisX - 24;
+      el("circle", { cx: axisX, cy: dotY, r: 7, fill: it.c, stroke: C.ink, "stroke-width": 0.8 }, svg);
+      text(svg, lx, dotY + 4, it.label + "  +" + it.v.toFixed(4), {
+        anchor: onRight ? "start" : "end", size: 13, weight: 600, fill: it.c
       });
     });
   }
@@ -889,7 +864,6 @@ uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
     drawLadder();
     drawComposition();
     drawFingerprint();
-    drawSweep();
     drawSeam();
     T2.initNav();
     T2.initTooltip();
