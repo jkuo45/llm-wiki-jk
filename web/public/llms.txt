@@ -1,5 +1,8 @@
 # llm-wiki-jk — Longevity-Focused Biomedical Wiki & Knowledge Graph
 
+- [Hallmark Modules in the Human Interactome — Graph Analysis](https://graph.johnnykuo.com/pages/en-US/hallmark-modules-human-interactome-graph-analysis.html): Interactive explainer of Gross et al. 2026 (Nature Aging) — the 11 hallmarks as interactome modules (9/11 significant LCCs forming a longevity module), network proximity from 6,442 DrugBank compounds to 370 candidates, the pAGE metric separating pro-longevity (21) from age-accelerating (23) drugs, SHARP validation (100% ITP sensitivity, 42.8% false-positive rate, 88.9% clinical-trial sensitivity), the oxymetazoline worked example (pAGE 0.46), and 83 network drugs invisible to target-overlap methods.
+- [人類相互作用組中的老化特徵模組 — 圖譜分析](https://graph.johnnykuo.com/pages/zh-TW/hallmark-modules-human-interactome-graph-analysis.html): 人類相互作用組（524,156 條交互作用、18,223 個蛋白質）的圖譜分析 — 1,250 個長壽相關基因歸入 11 個老化特徵模組（9/11 LCC 顯著、組成一個長壽模組鄰域），以及下游的接近度（6,442 種 DrugBank 化合物 → 370 種候選）與帶號 pAGE 指標（促進長壽 21 種、加速老化 23 種），並附 oxymetazoline 範例（pAGE 0.46）與 83 種網路藥物。
+
 > An interactive biomedical knowledge graph with a longevity focus, built from a personal Obsidian-style wiki of curated research. Explore thousands of interconnected concepts — sirtuins and NAD⁺ metabolism, autophagy, mitohormesis, cellular senescence, oxidative stress, adrenochrome/neuromelanin chemistry, and cancer prevention — then use the Prompt panel to ask questions and analyze the wiki and the graph in a bilingual (EN / 中文) interface.
 
 ## Wiki Focus

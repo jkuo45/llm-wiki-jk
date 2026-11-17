@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>人類相互作用組中的老化特徵模組 — 圖譜分析（Gross et al. 2026）</title>
+<meta name="description" content="人類相互作用組（524,156 條交互作用、18,223 個蛋白質）的圖譜分析：1,250 個長壽相關基因如何形成 11 個老化特徵模組、長壽模組鄰域，以及接近度與帶號 pAGE 指標如何用於下游藥物再利用（Gross et al., Nature Aging 2026）。">
+<link rel="canonical" href="https://graph.johnnykuo.com/pages/zh-TW/hallmark-modules-human-interactome-graph-analysis.html">
+<link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/hallmark-modules-human-interactome-graph-analysis.html">
+<link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/hallmark-modules-human-interactome-graph-analysis.html">
+<link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/hallmark-modules-human-interactome-graph-analysis.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◎</text></svg>">
+<link rel="stylesheet" href="../themes/theme-02/theme.css">
+<script src="../themes/theme-02/theme.js"></script>
+<script src="../themes/theme-02/pages-core.js"></script>
+<script src="../themes/shared/nav-auto-hide.js"></script>
+<link rel="stylesheet" href="../themes/theme-02/dark.css">
+<style>
+body { font-size: 16.5px; line-height: 1.55; }
+.hero h1 { font-size: clamp(1.7rem, 3.4vw, 2.4rem); }
+main section { padding: 6px 0 28px; margin-bottom: 24px; }
+table { font-size: 13px; } th, td { padding: 6px 10px; }
+td.num, th.num { font-size: 12px; }
+.pos { color: var(--forest-soft); font-weight: 700; }
+.neg { color: var(--oxblood-soft); font-weight: 700; }
+figure.fig img { max-width: 100%; height: auto; border: 1px solid var(--rule); border-radius: 2px; }
+button { background: var(--forest); color: var(--sheet); border: 0; padding: .45em 1em; border-radius: 2px; font-weight: 700; cursor: pointer; }
+select { background: var(--sheet); color: var(--ink); border: 1px solid var(--rule-strong); border-radius: 2px; padding: .35em; margin: .2em; }
+</style>
+</head>
+<body>
+<a class="skip" href="#content">跳到內容</a>
+
+<nav class="site-nav" aria-label="頁面">
+  <div class="wrap">
+    <a class="home" href="https://graph.johnnykuo.com/#reader">← 返回</a>
+    <div class="nav-links">
+      <a href="#graph">圖譜</a>
+      <a href="#modules">模組</a>
+      <a href="#overlap">重疊</a>
+      <a href="#signed">帶號指標</a>
+      <a href="#application">應用</a>
+      <a href="#example">範例</a>
+      <a href="#limits">限制</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">相互作用組圖譜分析 · 老化特徵模組 · Gross et al. 2026</p>
+    <h1>人類相互作用組中的老化特徵模組</h1>
+    <p class="lede">
+      老化的網路醫學圖譜分析：2,358 個長壽相關基因（OpenGenes）對應到人類相互作用組
+      （<strong>524,156 條交互作用 · 18,223 個蛋白質</strong>），其中 1,250 個歸入老化的 11 項特徵。
+      核心圖譜結果是：每個特徵的基因都會聚合成一個具統計顯著性的連結子圖 —
+      <strong>特徵模組</strong> — 而 11 個模組位於同一個共享鄰域，即<strong>長壽模組</strong>。
+      藥物再利用（接近度 + pAGE，即 SHARP 管線）是此拓撲的下游應用，置於圖譜結果之後介紹。
+    </p>
+    <div class="meta">
+      <p><strong>來源</strong> Gross, Ehlert, Gladyshev, Loscalzo &amp; Barabási, <a href="https://www.nature.com/articles/s43587-026-01161-8" target="_blank" rel="noopener noreferrer"><em>Nature Aging</em> 2026</a> · 程式碼／資料：<a href="https://github.com/BnayaGross/Longevity-module/" target="_blank" rel="noopener noreferrer">Longevity-module</a> · <a href="https://github.com/BnayaGross/sharp-aging/" target="_blank" rel="noopener noreferrer">sharp-aging</a></p>
+      <p><strong>圖譜版本</strong> 相互作用組 524,156 條邊／18,223 個節點 · OpenGenes 2,358 個基因，1,250 個歸入特徵，359 個位於特徵模組 LCC · 6,442 種 DrugBank 化合物於下游評分</p>
+    </div>
+  </div>
+</header>
+
+<div class="wrap page">
+  <aside class="toc" aria-label="頁面內容">
+    <p>目錄</p>
+    <ol>
+      <li><a href="#graph">圖譜與基因集合</a></li>
+      <li><a href="#modules">特徵模組：LCC 顯著性</a></li>
+      <li><a href="#overlap">重疊與長壽模組</a></li>
+      <li><a href="#signed">pAGE 作為帶號擾動指標</a></li>
+      <li><a href="#application">下游應用：接近度與 SHARP</a></li>
+      <li><a href="#example"> 範例：oxymetazoline 路徑</a></li>
+      <li><a href="#limits">圖譜限制</a></li>
+    </ol>
+  </aside>
+
+  <main id="content">
+
+    <section id="graph">
+      <p class="sec-label">圖譜</p>
+      <h2>圖譜與基因集合</h2>
+      <p class="drop">
+        分析底座是彙整自 26 個資料庫的人類蛋白質—蛋白質相互作用組：二元酵母雙雜交
+        （HI-Union、HINT、HIPPIE）、激酶—受質圖譜、AP–MS、結構衍生（3D／共同分離）、
+        訊號／調控（SignaLink、ENCODE、RAIN、RISE）與複合物衍生（BioPlex、QUBIC、lncRNome）
+        交互作用 — 共 524,156 條邊、18,223 個蛋白質。穩健性以 STRING 網路
+        （18,506 個蛋白質、728,844 條交互作用）及邊置換零模型複核。
+      </p>
+      <div class="copy-host table-host"><table>
+        <thead><tr><th>基因集合</th><th class="num">基因數</th><th>備註</th></tr></thead>
+        <tbody>
+          <tr><td>長壽相關（OpenGenes，信心 1–5）</td><td class="num">2,358</td><td>僅 26 個為信心第 1 級，多數關聯較弱</td></tr>
+          <tr><td>歸入 ≥1 項特徵</td><td class="num">1,250</td><td>860 個恰屬一項，390 個跨多項特徵</td></tr>
+          <tr><td>未歸入任何特徵</td><td class="num">1,108</td><td>可由拓撲掛接（補充資料 §III）</td></tr>
+          <tr><td>具已知年齡表達方向（pAGE 向量）</td><td class="num">2,025</td><td>995 隨年齡上升、1,030 下降（人類，p&lt;0.01）</td></tr>
+          <tr><td>位於特徵模組 LCC（圖 3）</td><td class="num">359</td><td>TP53 為跨最多特徵的節點：7 項</td></tr>
+        </tbody>
+      </table></div>
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">圖 1（原文）· 老化相關基因 — 輸入集合</span></div>
+        <div class="copy-host">
+        <a href="https://www.nature.com/articles/s43587-026-01161-8#Fig1" target="_blank" rel="noopener noreferrer"><img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs43587-026-01161-8/MediaObjects/43587_2026_1161_Fig1_HTML.png?as=webp" alt="原文圖 1：OpenGenes 信心層級、特徵基因數、跨特徵共享" loading="lazy"></a>
+        <figcaption><strong>解讀：</strong>(a) 2,358 個 OpenGenes 基因多為低信心（僅 26 個為第 1 級），後續步驟必須按信心分層；(b) 柱高為各特徵基因數，即全頁模組大小的來源；(c) 390 個基因跨特徵共享，TP53 屬 7 項。原文圖，CC-BY 4.0，見 <a href="https://www.nature.com/articles/s43587-026-01161-8#Fig1" target="_blank" rel="noopener noreferrer">Nature Aging</a>。</figcaption>
+        </div>
+      </figure>
+      <p>圖 1 的三點貫穿全篇分析。第一，信心分布偏斜：僅 26 個基因達第 1 級（有證據顯示調節其活性可延長哺乳類壽命），若忽略信心，結果將大半建立在弱關聯上 — 這正是接近度與 pAGE 要按五層分層計算的原因。第二，模組大小差一個數量級（89 至 7 個基因），比較 z 分數時須注意：7 基因模組雖顯著，卻可能重只是一項標註更動就消失；89 基因的表觀模組雖大卻僅邊際。第三，390 個共享基因在尚未畫上網路之前，就顯示特徵是重疊的分類 — TP53 橫跨 7 項是極端例子，任何單特徵藥物必然觸及這個樞紐。</p>
+      <p>特徵並非彼此獨立的基因集合：1,250 個基因中有 390 個橫跨多項特徵，55 對特徵組合中有
+      47 對顯著共享基因（Jaccard 指數）。重疊最高：基因體不穩定 × 細胞衰老 × 端粒耗損；
+      最低：細胞外基質變化（重疊近乎為零 — 拓撲上獨立的模組）。</p>
+    </section>
+
+    <section id="modules">
+      <p class="sec-label">模組</p>
+      <h2>特徵模組：LCC 顯著性</h2>
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">圖 2（原文）· 網路特性 — LCC、分離度、接近度</span></div>
+        <div class="copy-host">
+        <a href="https://www.nature.com/articles/s43587-026-01161-8#Fig2" target="_blank" rel="noopener noreferrer"><img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs43587-026-01161-8/MediaObjects/43587_2026_1161_Fig2_HTML.png?as=webp" alt="原文圖 2：LCC 大小相較度數匹配零模型、分離度與接近度定義" loading="lazy"></a>
+        <figcaption><strong>解讀：</strong>(a) 之後每一步用到的三種圖運算 — 連結子圖（LCC）、分離度、接近度；(b) 11 項中有 9 項的觀測 LCC（柱）遠大於度數匹配零模型（虛線）；例外為蛋白穩定性與表觀遺傳改變。原文圖，CC-BY 4.0。</figcaption>
+        </div>
+      </figure>
+      <p>圖 2 是後續一切分析的方法圖，最重要的細節是虛線零模型。沒有度數匹配零模型時，任何大基因集都會因為樞紐節點連結一切而「看似聚集」；論文的主張恰恰是觀測 LCC 超過樞紐偏誤的隨機預期。還要注意圖沒有顯示的：它陳述的是誘導子圖（這些基因彼此是否連結？），不是功能 — 模組在圖 2 顯著，在圖 3 仍可能機制瀰散，表觀遺傳改變即屬此類。分離度與接近度（panel a）之後被用兩次：先在下文比較特徵模組，後在藥物分析中比較藥物標的與模組。</p>
+      <p><strong>疾病／特徵模組</strong>是基因集合在相互作用組中的最大連結子圖（LCC）；
+      顯著性 = LCC 大小相較於 1,000 組度數匹配的隨機基因集合（z 分數）。</p>
+      <div class="copy-host table-host"><table>
+        <thead><tr><th>特徵模組</th><th class="num">LCC 基因數</th><th>LCC 顯著性</th><th>解讀</th></tr></thead>
+        <tbody>
+          <tr><td>表觀遺傳改變</td><td class="num">89</td><td>z = 1.67（邊際）</td><td>模組最大、聚集最弱 — 機制較瀰散</td></tr>
+          <tr><td>細胞間通訊改變</td><td class="num">53</td><td>z &gt; 1.96</td><td>顯著</td></tr>
+          <tr><td>基因體不穩定</td><td class="num">49</td><td>z &gt; 1.96</td><td>顯著；跨特徵樞紐 TP53</td></tr>
+          <tr><td>粒線體功能障礙</td><td class="num">40</td><td>z &gt; 1.96</td><td>顯著</td></tr>
+          <tr><td>營養感測失調</td><td class="num">34</td><td>z &gt; 1.96</td><td>顯著</td></tr>
+          <tr><td>細胞衰老</td><td class="num">27</td><td>z &gt; 1.96</td><td>顯著</td></tr>
+          <tr><td>蛋白穩定性喪失</td><td class="num">27</td><td>z = 1.74（邊際）</td><td>邊際</td></tr>
+          <tr><td>幹細胞耗竭</td><td class="num">10</td><td>z &gt; 1.96</td><td>顯著但小；無第 1–2 級基因</td></tr>
+          <tr><td>巨自噬受損</td><td class="num">7</td><td>z &gt; 1.96</td><td>顯著；無第 1 級基因</td></tr>
+          <tr><td>端粒耗損</td><td class="num">16</td><td>z &gt; 1.96</td><td>顯著</td></tr>
+          <tr><td>細胞外基質結構變化</td><td class="num">7</td><td>z &gt; 1.96</td><td>顯著但小；無第 1–2 級基因；重疊近零</td></tr>
+        </tbody>
+      </table></div>
+      <p><strong>11 個模組中有 9 個顯著（z &gt; 1.96）。</strong> 其餘兩個（表觀遺傳改變、蛋白穩定性喪失）
+      雖為邊際，仍具非隨機連結性。以 STRING 與邊置換重跑後顯著性仍成立 — 模組結構並非
+      PPI 資料庫偏好研究熱點基因的產物，惟 PPI 偏誤仍是作者明述的限制。</p>
+    </section>
+
+    <section id="overlap">
+      <p class="sec-label">重疊</p>
+      <h2>重疊與長壽模組</h2>
+      <p>兩個互補的圖譜指標描述模組彼此的相對位置：</p>
+      <ul>
+        <li><strong>分離度（separation）</strong> S(A,B) = ⟨d<sub>A,B</sub>⟩ − (⟨d<sub>A,A</sub>⟩+⟨d<sub>B,B</sub>⟩)/2 — S &lt; 0 表示模組重疊（共享鄰域）；S &gt; 0 表示拓撲分離。多數特徵對重疊；ECM 對其餘所有模組皆為正。</li>
+        <li><strong>接近度（proximity）</strong> 於模組對之間 — 多數對顯著（z &lt; −1.96），ECM 除外。</li>
+      </ul>
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">示意圖 · 十一個特徵模組位於同一個長壽模組鄰域</span></div>
+        <div class="copy-host">
+        <svg viewBox="0 0 960 300" role="img" aria-label="圖示：特徵模組位於長壽模組鄰域" style="width:100%">
+        <rect x="30" y="30" width="900" height="240" rx="16" fill="none" stroke="var(--focus)" stroke-dasharray="6 4"/>
+        <text x="50" y="58" fill="var(--ink)">長壽模組（一個鄰域）</text>
+        <g font-size="13" text-anchor="middle" fill="var(--ink)">
+        <g><rect x="70" y="90" width="150" height="60" rx="10" fill="var(--sheet)" stroke="var(--rule)"/><text x="145" y="125">細胞衰老</text></g>
+        <g><rect x="260" y="90" width="150" height="60" rx="10" fill="var(--sheet)" stroke="var(--rule)"/><text x="335" y="118">基因體</text><text x="335" y="136">不穩定</text></g>
+        <g><rect x="450" y="90" width="150" height="60" rx="10" fill="var(--sheet)" stroke="var(--rule)"/><text x="525" y="118">表觀遺傳</text><text x="525" y="136">改變</text></g>
+        <g><rect x="640" y="90" width="150" height="60" rx="10" fill="var(--sheet)" stroke="var(--rule)"/><text x="715" y="118">粒線體</text><text x="715" y="136">功能障礙</text></g>
+        <g><rect x="165" y="180" width="180" height="60" rx="10" fill="var(--sheet)" stroke="var(--rule)"/><text x="255" y="215">營養感測</text></g>
+        <g><rect x="400" y="180" width="180" height="60" rx="10" fill="var(--sheet)" stroke="var(--rule)"/><text x="490" y="215">幹細胞耗竭</text></g>
+        <g><rect x="635" y="180" width="150" height="60" rx="10" fill="var(--sheet)" stroke="var(--rule)"/><text x="710" y="215">端粒耗損</text></g>
+        </g><text x="480" y="290" text-anchor="middle" font-size="13" fill="var(--mute)">+ 蛋白穩定性 · 細胞間通訊 · ECM · 自噬 — 重疊且交互的子圖</text></svg>
+        </div>
+      </figure>
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">圖 3（原文）· 十一個特徵模組與長壽模組</span></div>
+        <div class="copy-host">
+        <a href="https://www.nature.com/articles/s43587-026-01161-8#Fig3" target="_blank" rel="noopener noreferrer"><img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs43587-026-01161-8/MediaObjects/43587_2026_1161_Fig3_HTML.png?as=webp" alt="原文圖 3：各特徵模組為彩色子圖，疊合即長壽模組" loading="lazy"></a>
+        <figcaption><strong>解讀：</strong>a–k 為 11 個模組，基因數即上表（表觀 89 個至 ECM 7 個）；l 為疊合圖 — 黑色節點屬 ≥2 個模組，節點大小計特徵成員數。ECM（k）為目視離群者，幾乎不共享基因。原文圖，CC-BY 4.0。</figcaption>
+        </div>
+      </figure>
+      <p>圖 3 將上文的數字轉為地理。a–k 面板看每個特徵核心基因的子圖形貌 — 基因體不穩定稠密且以樞紐為中心，ECM 稀疏；l 面板則是論證：11 個子圖疊合後，高成員數的黑色節點將其橋接，形成一塊連續區域，而非 11 座孤島。這塊區域正是藥物分析的立足點：接近一模組的藥物通常離其餘模組也不遠，bms-754807 與 aspirin（六項特徵）等多特徵候選因而出現。反面如 k 面板所示：ECM 只經自身 7 個基因連結 — 若要標靶此模組，須刻意為之。</p>
+      <p>論文的推論：從網路角度看，針對「理論」（因果驅動）與針對「特徵」（下游過程）
+      落在同一個鄰域 — 傳統的 why／how 之辨在拓撲上坍縮。</p>
+    </section>
+
+    <section id="signed">
+      <p class="sec-label">帶號指標</p>
+      <h2>pAGE 作為帶號擾動指標</h2>
+      <p>無向拓撲無法判斷擾動是好是壞。pAGE 在同一組基因 Λ（2,025 個具已知年齡方向）上賦予號碼：</p>
+      <ul>
+        <li><b>長壽向量 Γ：</b>基因 g 隨年齡上升記 σ<sub>g</sub> = +1，下降記 −1。</li>
+        <li><b>擾動向量 Θ：</b>σ′<sub>g</sub> ∈ {−1, 0, +1}，取自 CMap 藥物處理後的基因表達。</li>
+      </ul>
+      <div class="note"><p><code>pAGE = −(1/|Λ<sub>∅</sub>|) · Σ σ<sub>i</sub>·σ′<sub>i</sub></code>，範圍 [−1, +1]。負號的涵義：與年齡特徵同向者得負分（加速老化）；反向者得正分（促進長壽）。</p></div>
+      <div class="note forest"><p><b>試算範例：</b>基因隨年齡上升（σ = +1），藥物使其下降（σ′ = −1）→ σ·σ′ = −1 → 對 pAGE 貢獻 +1/|Λ<sub>∅</sub>|（逆轉）。基因隨年齡上升，藥物令其更上升 → +1 → 貢獻 −1/|Λ<sub>∅</sub>|（模仿老化）。無變化（σ′ = 0）→ 不計入分子與分母。</p></div>
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">圖 4（原文）· pAGE 指標 — 老化特徵 vs 藥物特徵</span></div>
+        <div class="copy-host">
+        <a href="https://www.nature.com/articles/s43587-026-01161-8#Fig4" target="_blank" rel="noopener noreferrer"><img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs43587-026-01161-8/MediaObjects/43587_2026_1161_Fig4_HTML.png?as=webp" alt="原文圖 4：帶號老化向量對比藥物擾動向量" loading="lazy"></a>
+        <figcaption><strong>解讀：</strong>每節點為一基因；藍＝上升、紅＝下降、白＝不變。橙色邊降低 pAGE（藥物模仿老化），綠色提高（藥物逆轉老化）。原文圖，CC-BY 4.0。</figcaption>
+        </div>
+      </figure>
+      <p>圖 4 存在是因為拓撲無號：圖 3 中緊鄰模組的藥物，可能朝任一方向推動它。圖中的色彩記帳把 Eq. (3) 的直覺具體化 — 每基因貢獻一票（σ·σ′），藥物變化與老化變化同向為正、反向為負，公式中的負號將「模仿老化」轉為負分。兩處細節：未變化基因（白）完全不計入分母，故 pAGE 衡量受影響基因中的方向，而非整體轉錄位移；同一基因在不同特徵的 pAGE 可能方向相反，這解釋了為何延壽藥在驗證集中仍有部分特徵層級為負 pAGE。</p>
+      <div class="note gold"><p><b>提醒：</b>並非所有年齡相關變化皆有害 — 壓力反應活化可能具適應性（毒物興奮效應）。驗證顯示此 confound 僅輕微干擾 pAGE。</p></div>
+    </section>
+
+    <section id="application">
+      <p class="sec-label">下游應用</p>
+      <h2>接近度與 SHARP</h2>
+      <p>接近度為每種 DrugBank 化合物的標的評分其與各模組的距離：</p>
+      <div class="note"><p><code>P(S,T) = (1/|T|) · Σ<sub>t∈T</sub> min<sub>s∈S</sub> d(s,t)</code> — 相較於 1,000 組度數匹配隨機集合，z &lt; −1.96 為顯著，於 OpenGenes 五個信心層級下計算。<b>接近度不論方向：</b>pimasertib 與 selisistat 接近衰老模組，卻<i>促進</i>衰老。SHARP 將接近度（能否擾動？）與 pAGE（方向為何？）取交集。</p></div>
+      <div class="copy-host table-host"><table>
+        <thead><tr><th>測試集</th><th>結果</th></tr></thead>
+        <tbody>
+          <tr><td>11 種 ITP 小鼠延壽藥（8 種具 CMap 資料）</td><td>8/8 正 pAGE ＋ 顯著／邊際接近度 → <b>靈敏度 100%</b>（95% CI 63–100%）</td></tr>
+          <tr><td>17 種 ITP 未延壽藥（7 種具 CMap 資料）</td><td>3/7 為正 → <b>偽陽性率 42.8%</b>（95% CI 9.9–81.5%）</td></tr>
+          <tr><td>17 種人類長壽臨床試驗藥（9 種具 CMap 資料）</td><td>8/9 為正 → <b>靈敏度 88.9%</b>（95% CI 51.7–99.7%）</td></tr>
+          <tr><td>10 種獨立研究化合物（8 種具 CMap 資料，預測先註冊）</td><td><b>靈敏度 100%</b>（95% CI 47.8–100%）</td></tr>
+        </tbody>
+      </table></div>
+      <figure class="fig">
+        <div class="fig-head"><span class="fig-num">圖 6（原文）· 接近度 vs pAGE — 二維藥物讀值</span></div>
+        <div class="copy-host">
+        <a href="https://www.nature.com/articles/s43587-026-01161-8#Fig6" target="_blank" rel="noopener noreferrer"><img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs43587-026-01161-8/MediaObjects/43587_2026_1161_Fig6_HTML.png?as=webp" alt="原文圖 6：接近度 z 分數對 pAGE，所有藥物、兩個範例特徵" loading="lazy"></a>
+        <figcaption><strong>解讀：</strong>每點為一藥物。灰帶左側＝接近度顯著；pAGE 上／下半平面＝促進長壽／加速老化。c–d 顯示單點 pAGE 背後的逐基因票決。SHARP 候選規則即左上象限。原文圖，CC-BY 4.0。</figcaption>
+        </div>
+      </figure>
+      <p>圖 6 是兩個分數交會之處，也解釋了方法的力與錯。橫軸僅接近度會提名大量藥物：a–b 的灰帶顯示 1,346 種 DrugBank∩CMap 化合物多數並不顯著接近任一模組，故左上象限集合不大 — 但其中仍含加速老化者（負 pAGE），正是 ITP 驗證中 42.8% 偽陽性率的來源。c–d 將單點分解為逐基因票決，顯示近零 pAGE 通常意味票決相斥，而非無效應。實務解讀：接近度先將 6,442 篩至 370，pAGE 再將其拆為 21／23／16 三組；310 種無 CMap 資料者須先有表達輪廓，才能在此圖上定位。</p>
+      <p>輸出：370 種接近度顯著藥物；60 種具 CMap 資料者中，<span class="pos">21 種正 pAGE</span>
+      （促進長壽候選），<span class="neg">23 種負</span>（加速老化），16 種未定。其餘 310 種缺乏 CMap 資料；
+      約 35%（~108 種）推估為促進長壽。<b>370 種中有 83 種為網路藥物</b> — 其擾動模組卻不直接標靶
+      特徵基因，標的交集法會漏掉（對照 Gysi et al. 中 77 種有效 COVID-19 藥物有 76 種）。</p>
+
+      <p><label>特徵：<select id="hallFilter"><option value="">全部</option></select></label></p>
+      <div class="copy-host table-host"><table>
+        <thead><tr><th>特徵</th><th>接近藥物數</th><th>具 CMap</th><th>正 pAGE</th><th>負 pAGE</th></tr></thead>
+        <tbody id="candBody"></tbody>
+      </table></div>
+    </section>
+
+    <section id="example">
+      <p class="sec-label">範例</p>
+      <h2>Oxymetazoline：擾動在圖譜中傳播</h2>
+      <p>預測標靶<i>細胞間通訊改變</i>。標的 ADRA1A/B/D 與 HTR1A/B/D；ADRA1A 本身即為特徵基因（第 1 級）。
+      直接鄰居（ALB、NR3C1、TGFB1）擾動弱，故訊號繞經 <b>ACKR3</b> — 非特徵的鄰居 — 進入 NFKB1、TP53、AKT1，
+      抵銷無菌發炎基因（CCL5、NFE2L2、AGER、RELA、CEBPB、C3、MIF、NFKBIA、HDAC4、PTGS2、HLA-DRB1）
+      的年齡變化。結果：<b>pAGE = 0.46，z = 2.35</b> — 一項可證偽的基因層級預測，形式上類似最短路徑主張，可實際檢測。</p>
+  <figure class="fig">
+        <div class="fig-head"><span class="fig-num">圖 8（原文）· Oxymetazoline — 拓撲、擾動、老化特徵、pAGE</span></div>
+        <div class="copy-host">
+        <a href="https://www.nature.com/articles/s43587-026-01161-8#Fig8" target="_blank" rel="noopener noreferrer"><img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs43587-026-01161-8/MediaObjects/43587_2026_1161_Fig8_HTML.png?as=webp" alt="原文圖 8：藥物標的、模組、經 ACKR3 的擾動傳播、pAGE 票決" loading="lazy"></a>
+        <figcaption><strong>解讀：</strong>(a) 藥物標的與模組入口；(b) MCF7 擾動不經最短路徑（ALB／NR3C1），而經 ACKR3 進入 NFKB1／TP53／AKT1；(c) 其對抗的老化特徵；(d) 所得 pAGE = 0.46 的票決。原文圖，CC-BY 4.0。</figcaption>
+        </div>
+      </figure>
+      <p>圖 8 是論文論證管線可解釋而非黑盒分數的關鍵：將一項預測拆為四個可證偽的部分。a 為拓撲主張（標的 ADRA／HTR、入口 ALB／NR3C1／TGFB1、ADRA1A 兼為標的與特徵基因）；b 為傳播主張 — 最強擾動鄰居是 ACKR3 而非最短路徑鄰居，故只檢測直接鄰居的實驗會漏掉機制；c 為對抗的老化特徵；d 為票決統計（pAGE = 0.46，z = 2.35）與文中列出的基因。各面板可獨立以細胞實驗驗證，這正是作者稱預測「可證偽」的涵義。</p>
+    </section>
+
+    <section id="limits">
+      <p class="sec-label">限制</p>
+      <h2>圖譜限制</h2>
+      <ul>
+        <li><b>11 vs 12 項特徵：</b>本分類（OpenGenes，經 Pun et al. 2022）有 ECM 變化，無獨立的慢性發炎與菌群失調（併入細胞間通訊／未做基因編目）。現行 López-Otín 2023 框架為 12 項。結果依賴本體選擇。</li>
+        <li><b>組織盲點：</b>pAGE 主要用 MCF7（癌細胞）CMap 資料；老化隨組織而異。WI38／IMR90 複核顯示差異極小，但作者指明組織特異相互作用組（GTEx 篩選、單細胞）為下一步。</li>
+        <li><b>無劑量／非線性／時程：</b>pAGE 將表達變化視為 ±1；年齡窗口未建模。</li>
+        <li><b>覆蓋率：</b>6,442 種中僅 1,347 種具 CMap 資料，370 種候選中有 310 種尚無 pAGE 值。</li>
+        <li><b>PPI 偏誤：</b>研究較少的蛋白質連結較疏；模組部分受研究關注度塑造（STRING／置換檢驗僅緩解，未消除）。</li>
+        <li>所有結果皆為計算預測，經已發表的小鼠／臨床清單驗證；無新的人體療效資料。</li>
+      </ul>
+    </section>
+
+    <section id="refs">
+      <p class="sec-label">參考文獻</p>
+      <div class="refs">
+        <p>Gross et al., <a href="https://www.nature.com/articles/s43587-026-01161-8" target="_blank" rel="noopener noreferrer"><em>Nature Aging</em> 2026</a> · López-Otín et al., <a href="https://doi.org/10.1016/j.cell.2013.05.039" target="_blank" rel="noopener noreferrer">Cell 2013</a> &amp; <a href="https://doi.org/10.1016/j.cell.2022.11.001" target="_blank" rel="noopener noreferrer">Cell 2023</a> · Pun et al., <a href="https://doi.org/10.18632/aging.203960" target="_blank" rel="noopener noreferrer">Aging 2022</a> · Menche et al., <a href="https://doi.org/10.1126/science.1257601" target="_blank" rel="noopener noreferrer">Science 2015</a> · Guney et al., <a href="https://doi.org/10.1038/ncomms10331" target="_blank" rel="noopener noreferrer">Nat Commun 2016</a> · Gysi et al., <a href="https://doi.org/10.1073/pnas.2025581118" target="_blank" rel="noopener noreferrer">PNAS 2021</a> · Rafikova et al., <a href="https://doi.org/10.1093/nar/gkad712" target="_blank" rel="noopener noreferrer">NAR 2024 (OpenGenes)</a> · Subramanian et al., <a href="https://doi.org/10.1016/j.cell.2017.10.049" target="_blank" rel="noopener noreferrer">Cell 2017 (CMap)</a></p>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<footer>
+  <div class="wrap">
+    <p><strong>圖譜：</strong>人類相互作用組 524,156 條邊／18,223 個節點 · OpenGenes 2,358 個基因 · 數字引自 Gross et al. 2026；pAGE 範例依論文 Eq. 3。 · <a href="https://graph.johnnykuo.com">返回圖譜</a></p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  "use strict";
+  function init() {
+    T2.initNav();
+    T2.initTooltip();
+    T2.initLightbox();
+    T2.initNavScrollHint();
+  }
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init);
+  } else {
+    init();
+  }
+})();
+</script>
+  <script src="../themes/theme-02/pages-svg.js"></script>
+<script>
+const CANDS=[
+["幹細胞耗竭","113（第 3–5 級）","19","9：guanadrel、guanethidine、olopatadine、epirubicin、nisoxetine、clorgiline、amineptine、acemetacin、amlexanox","10：protriptyline、iobenguane、rescinnamine、ketorolac、enalaprilat、doramapimod、ph-797804、navitoclax、neomycin、benzatropine"],
+["細胞間通訊改變","61（全層級）","25","5：oxymetazoline、terazosin、tetryzoline、cirazoline、synephrine","11：niguldipine、phentolamine、sertindole、prazosin、doxazosin、naphazoline、methoxamine、alfuzosin、bms-754807、thioproperazine、dequalinium"],
+["表觀遺傳改變","52（全層級）","5","3：doconexent、fenoprofen、clinofibrate","1：pilaralisib"],
+["粒線體功能障礙","21（全層級）","0（第 4/5 層級另 3 種）","第 4/5 層級 3 種非負：navitoclax、alsterpaullone、pyrazolanthrone","—"],
+["蛋白穩定性喪失","6（全層級）","0（第 4/5 層級 minocycline）","—","minocycline（負 pAGE）"],
+["細胞外基質變化","25（第 3–5 級）","2","marimastat、captopril（第 3 級非負）","—"],
+["營養感測失調","52（全層級）","4","4：tivozanib、bms-754807、pilaralisib、linsitinib","—"],
+["基因體不穩定","4（全層級）","0（第 4 層級另 3 種）","gsk-1059615、paricalcitol（非負）","pimecrolimus（負 pAGE）"],
+["細胞衰老","27（全層級）","3","—","biotin、linsitinib、bms-754807（非正）"],
+["巨自噬受損","7（第 2–5 級）","2","monobenzone、imexon（pAGE = 0）","—"],
+["端粒耗損","2（全層級）","0","—","—"]];
+const sel=document.getElementById('hallFilter');
+CANDS.forEach(c=>sel.insertAdjacentHTML('beforeend',`<option>${c[0]}</option>`));
+function renderCands(v){document.getElementById('candBody').innerHTML=CANDS.filter(c=>!v||c[0]===v).map(c=>`<tr><td><b>${c[0]}</b></td><td>${c[1]}</td><td>${c[2]}</td><td>${c[3]}</td><td>${c[4]}</td></tr>`).join('');}
+renderCands(''); sel.onchange=e=>renderCands(e.target.value);
+</script>
+</body>
+</html>

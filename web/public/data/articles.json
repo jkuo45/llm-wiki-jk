@@ -761,13 +761,18 @@
         "updated": "2026-11-08"
     },
     {
-        "id": "sharp-network-aging-drug-repurposing",
+        "id": "hallmark-modules-human-interactome-graph-analysis",
         "active": true,
         "langs": {
             "en-US": {
-                "title": "Network-Driven Drug Repurposing for Aging — Hallmark Modules, Proximity & pAGE (SHARP)",
-                "description": "Interactive explainer of Gross et al. 2026 (Nature Aging): hallmark modules in the interactome, network proximity, the pAGE directionality metric, the SHARP pipeline, its validation and the 370 hallmark-targeted drug candidates.",
-                "path": "pages/en-US/sharp-network-aging-drug-repurposing.html"
+                "title": "Hallmark Modules in the Human Interactome — Graph Analysis (Gross et al. 2026)",
+                "description": "Interactome graph analysis: 524,156 interactions / 18,223 proteins, 1,250 longevity genes assigned to 11 hallmark modules, the longevity-module neighborhood, and proximity + signed pAGE as downstream applications for drug repurposing (SHARP).",
+                "path": "pages/en-US/hallmark-modules-human-interactome-graph-analysis.html"
+            },
+            "zh-TW": {
+                "title": "人類相互作用組中的老化特徵模組 — 圖譜分析（Gross et al. 2026）",
+                "description": "相互作用組圖譜分析：524,156 條交互作用／18,223 個蛋白質，1,250 個長壽基因歸入 11 個特徵模組、長壽模組鄰域，以及接近度與帶號 pAGE 於藥物再利用的下游應用（SHARP）。",
+                "path": "pages/zh-TW/hallmark-modules-human-interactome-graph-analysis.html"
             }
         },
         "created": "2026-11-16",
