@@ -190,17 +190,17 @@
         "langs": {
             "en-US": {
                 "title": "[Speculative] Network Analysis of the Adrenochrome Protocol: Agent Coupling to the Adrenochrome Node Relative to Mitohormesis, Autophagy, and Sirtuins",
-                "description": "Graph analysis of the proposed methylene blue + aminoguanidine adrenochrome protocol: stored-edge paths from each protocol agent to the adrenochrome node, PPR coupling ladder, direct versus bridge edges, Fiedler community boundary, adaptive-program baseline, and hypotheses H1–H8 (untested in humans). Computed for graph build 867a5ae5fdb8a46c; dose and biological effect are not quantified.",
+                "description": "Graph analysis of the proposed methylene blue + aminoguanidine adrenochrome protocol: stored-edge paths from each protocol agent to the adrenochrome node, PPR coupling ladder, direct versus bridge edges, Fiedler coordinates, adaptive-program baseline, and hypotheses H1–H8 (untested in humans). Computed for graph build 273eba0b1872c83844c9cf5dcabbde8c94c16060; dose and biological effect are not quantified. Not a clinical recommendation.",
                 "path": "pages/en-US/adrenochrome-protocol-node-network-analysis.html"
             },
             "zh-TW": {
                 "title": "[推測性] 腎上腺素紅方案的網絡分析：作用劑與腎上腺素紅節點的耦合，相對於粒線體激效、自噬與 Sirtuins",
-                "description": "在 llm-wiki-jk 知識圖譜上針對推測性亞甲藍＋氨基胍腎上腺素紅方案的圖譜分析：各作用劑至腎上腺素紅節點的儲存邊路徑、PPR 耦合排序、直接邊與橋接邊、Fiedler 社群邊界、適應性程式基準，以及假說 H1–H8（未於人體驗證）。數值依據圖譜建構 867a5ae5fdb8a46c 計算；劑量與生物效應未量化。",
+                "description": "在 llm-wiki-jk 知識圖譜上針對推測性亞甲藍＋氨基胍腎上腺素紅方案的圖譜分析：各作用劑至腎上腺素紅節點的儲存邊路徑、PPR 耦合排序、直接邊與橋接邊、Fiedler 座標、適應性程式基準，以及假說 H1–H8（未於人體驗證）。數值依據圖譜建構 273eba0b1872c83844c9cf5dcabbde8c94c16060 計算；劑量與生物效應未量化。非臨床建議。",
                 "path": "pages/zh-TW/adrenochrome-protocol-node-network-analysis.html"
             }
         },
         "created": "2026-08-20",
-        "updated": "2026-08-20"
+        "updated": "2026-11-16"
     },
     {
         "id": "articles-index",
@@ -759,5 +759,18 @@
         },
         "created": "2026-11-08",
         "updated": "2026-11-08"
+    },
+    {
+        "id": "sharp-network-aging-drug-repurposing",
+        "active": true,
+        "langs": {
+            "en-US": {
+                "title": "Network-Driven Drug Repurposing for Aging — Hallmark Modules, Proximity & pAGE (SHARP)",
+                "description": "Interactive explainer of Gross et al. 2026 (Nature Aging): hallmark modules in the interactome, network proximity, the pAGE directionality metric, the SHARP pipeline, its validation and the 370 hallmark-targeted drug candidates.",
+                "path": "pages/en-US/sharp-network-aging-drug-repurposing.html"
+            }
+        },
+        "created": "2026-11-16",
+        "updated": "2026-11-16"
     }
 ]
