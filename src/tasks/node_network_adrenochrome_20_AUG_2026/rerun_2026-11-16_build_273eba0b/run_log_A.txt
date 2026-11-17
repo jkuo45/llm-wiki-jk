@@ -1,0 +1,110 @@
+graph: 4756 nodes / 4448 giant-component nodes / 10924 edges
+sources: ['Methylene blue', 'Aminoguanidine']   targets: ['Adrenochrome']
+
+
+0. Pre-computed node metrics
+    Methylene blue:
+      degree=69  in=7  out=62  pagerank=0.00022931
+      betweenness=0.01332036  clustering=0.02272727  k_core=6
+      community=12 (Mitohormesis, size=64)
+    Aminoguanidine:
+      degree=49  in=4  out=45  pagerank=0.00016682
+      betweenness=0.00619075  clustering=0.04126984  k_core=5
+      community=76 (Aminoguanidine, size=22)
+    Adrenochrome:
+      degree=149  in=75  out=74  pagerank=0.00477121
+      betweenness=0.05000066  clustering=0.01900082  k_core=7
+      community=4 (Adrenochrome, size=85)
+
+    God nodes (top 10 by degree):
+      SIRT1: degree=429
+      SASP: degree=289
+      SIRT3: degree=280
+      Eryptosis: degree=211
+      Autophagy: degree=210
+      SIRT6: degree=195
+      Apoptosis: degree=169
+      Adrenochrome: degree=149
+      Cancer: degree=141
+      NF-κB: degree=140
+
+    Surprising connections (56 found):
+      Tumor Antigen --[is_discovered_by_proximity_to]--> EGFR: ambiguous connection - not explicitly stated in source; bridges separate communities; peripheral node `Tumor Antigen` unexpectedly reaches hub `EGFR`
+      Prodrug --[releases]--> Aminoguanidine: ambiguous connection - not explicitly stated in source; bridges separate communities; peripheral node `Prodrug` unexpectedly reaches hub `Aminoguanidine`
+      AMPK --[modulates]--> Autophagy: ambiguous connection - not explicitly stated in source; bridges separate communities
+      Senomorphic --[targets]--> KDM4: ambiguous connection - not explicitly stated in source; bridges separate communities
+      Therapy-Induced Senescence --[is_modulated_by]--> Senomorphics: ambiguous connection - not explicitly stated in source; bridges separate communities
+
+    Low-cohesion communities (<0.15): 85
+      Eryptosis (id=0): 0.0145
+      SIRT3 (id=1): 0.0208
+      SIRT1 (id=2): 0.0221
+      SIRT2 (id=10): 0.0312
+      SIRT6 (id=6): 0.0316
+
+0b. Community context
+    Community 12 (Mitohormesis): ['Methylene blue']
+    Community 76 (Aminoguanidine): ['Aminoguanidine']
+    Community 4 (Adrenochrome): ['Adrenochrome']
+    Cross-community analysis: 3 distinct communities
+
+    Source document provenance (3 documents):
+      Methylene Blue - StatPearls.md: ['Methylene blue']
+      Aminoguanidine An AGE Product Inhibitor  Antiaging Systems A: ['Aminoguanidine']
+      Adrenochromatization.md: ['Adrenochrome']
+
+1. Shortest-path multiplicity (bridges = first hop, NetworkX)
+    Methylene blue -> Adrenochrome: 5 shortest path(s), bridges = ['Complex I', 'Hemolysis', 'Methemoglobin', 'Oxidative Stress', 'Respiratory Chain Complex I']
+      Path: Methylene blue --[bypasses|0.85]--> Respiratory Chain Complex I  Respiratory Chain Complex I --[redox_cycles_at|0.85]--> Adrenochrome
+    Aminoguanidine -> Adrenochrome: 1 shortest path(s), bridges = []
+      Path: Aminoguanidine --[reacts_with|0.9]--> Adrenochrome
+
+2. Neighborhood distinctness (degree + pairwise Jaccard)
+    degree Methylene blue: 56  pagerank=0.00022931  betweenness=0.01332036
+    degree Aminoguanidine: 36  pagerank=0.00016682  betweenness=0.00619075
+    degree Adrenochrome: 111  pagerank=0.00477121  betweenness=0.05000066
+    Jaccard(Methylene blue vs Aminoguanidine) = 0.022
+      shared (2): ['Monoamine oxidase', 'Nitric Oxide Synthase']
+      Methylene blue-only: ['Acute Respiratory Distress Syndrome', 'Antimalarial Agent', 'ATP', 'Blood-Brain Barrier', 'Cognition', 'Complex I', 'Complex III', 'Complex IV', 'Cytochrome c', 'Depression', 'Dose-dependent Toxicity', 'Dyspnea', 'G6PD deficiency', 'Glucose-6-Phosphate Dehydrogenase', 'Glucose Oxidase']
+      Aminoguanidine-only: ['Adrenochrome', 'Adrenochrome monoaminoguanidine', 'Advanced Glycation End Products', 'Alagebrium', 'Albuminuria', 'Aldose reductase', 'Atherosclerosis', 'Cataract', 'CH6N4', 'Collagen', 'Cross-link Breakers', 'Cross-linking', 'diabetic complications', 'Diabetic nephropathy', 'Diamine Oxidase']
+    Jaccard(Methylene blue vs Adrenochrome) = 0.031
+      shared (5): ['Complex I', 'Hemolysis', 'Methemoglobin', 'Oxidative Stress', 'Respiratory Chain Complex I']
+      Methylene blue-only: ['Acute Respiratory Distress Syndrome', 'Antimalarial Agent', 'ATP', 'Blood-Brain Barrier', 'Cognition', 'Complex III', 'Complex IV', 'Cytochrome c', 'Depression', 'Dose-dependent Toxicity', 'Dyspnea', 'G6PD deficiency', 'Glucose-6-Phosphate Dehydrogenase', 'Glucose Oxidase', 'Glutamate']
+      Adrenochrome-only: ['179.17 g/mol', '-1.3', '3-hydroxy-1-methyl-2,3-dihydroindole-5,6-dione', '495 nm wavelength', 'Acute oral toxicity', 'Adrenal gland', 'Adrenal medulla', 'Adrenochromatization', 'Adrenochrome Hypothesis', 'Adrenochrome monoaminoguanidine', 'Adrenochrome Pathway', 'Adrenochrome Semiquinone Radical', 'Adrenochrome sulfonate', 'Adrenolutin', 'Aminochrome']
+    Jaccard(Aminoguanidine vs Adrenochrome) = 0.035
+      shared (5): ['Adrenochrome monoaminoguanidine', 'Hydrazine', 'Hydrazines', 'Methylglyoxal', 'Nitric Oxide']
+      Aminoguanidine-only: ['Adrenochrome', 'Advanced Glycation End Products', 'Alagebrium', 'Albuminuria', 'Aldose reductase', 'Atherosclerosis', 'Cataract', 'CH6N4', 'Collagen', 'Cross-link Breakers', 'Cross-linking', 'diabetic complications', 'Diabetic nephropathy', 'Diamine Oxidase', 'Dicarbonyls']
+      Adrenochrome-only: ['179.17 g/mol', '-1.3', '3-hydroxy-1-methyl-2,3-dihydroindole-5,6-dione', '495 nm wavelength', 'Acute oral toxicity', 'Adrenal gland', 'Adrenal medulla', 'Adrenochromatization', 'Adrenochrome Hypothesis', 'Adrenochrome Pathway', 'Adrenochrome Semiquinone Radical', 'Adrenochrome sulfonate', 'Adrenolutin', 'Aminochrome', 'Aminochromes']
+
+3. Adamic-Adar link-prediction proximity (every source x every target)
+    Adamic-Adar(Methylene blue -> Adrenochrome) = 1.976
+    Adamic-Adar(Aminoguanidine -> Adrenochrome) = 4.001
+
+4. k-core nesting depth
+    k-core Methylene blue: 6
+    k-core Aminoguanidine: 5
+    k-core Adrenochrome: 7
+
+5. Spectral (dense eigh)
+    algebraic connectivity lambda2 = 0.0994
+    Fiedler Methylene blue: +0.0005  (sign is arbitrary)
+    Fiedler Aminoguanidine: +0.0003  (sign is arbitrary)
+    Fiedler Adrenochrome: +0.0005  (sign is arbitrary)
+
+6. Effective-resistance / commute distance (pseudoinverse Laplacian)
+    vs Adrenochrome (null mean 0.729 +/- 0.506, n=300):
+      Methylene blue: 0.049   z = -1.34
+      Aminoguanidine: 0.077   z = -1.29
+    self-check R_eff(Adrenochrome, Adrenochrome) = 0.0000 (~0 expected)
+
+7. Personalized PageRank (random-walk flow seeded at each target)
+    Standard PageRank (pre-computed):
+      Adrenochrome: 0.00477121
+      Methylene blue: 0.00022931
+      Aminoguanidine: 0.00016682
+
+    PPR seeded at Adrenochrome:
+      Methylene blue: rank #35 (score 0.00307)
+      Aminoguanidine: rank #4 (score 0.00686)
+
+Cross-metric note: hop distance is frequently non-discriminating; rankings by route-multiplicity vs flow metrics can disagree (see task output).

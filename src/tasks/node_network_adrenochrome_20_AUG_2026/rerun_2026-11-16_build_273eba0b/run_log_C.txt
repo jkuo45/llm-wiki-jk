@@ -1,0 +1,137 @@
+graph: 4756 nodes / 4448 giant-component nodes / 10924 edges
+sources: ['Mitohormesis', 'Autophagy', 'Sirtuins']   targets: ['Adrenochrome']
+
+
+0. Pre-computed node metrics
+    Mitohormesis:
+      degree=70  in=38  out=32  pagerank=0.00138821
+      betweenness=0.01363931  clustering=0.02908514  k_core=8
+      community=12 (Mitohormesis, size=64)
+    Autophagy:
+      degree=210  in=162  out=48  pagerank=0.0101558
+      betweenness=0.06680727  clustering=0.01649351  k_core=8
+      community=19 (Autophagy, size=47)
+    Sirtuins:
+      degree=57  in=31  out=26  pagerank=0.00147489
+      betweenness=0.01152359  clustering=0.02570922  k_core=7
+      community=49 (Sirtuins, size=28)
+    Adrenochrome:
+      degree=149  in=75  out=74  pagerank=0.00477121
+      betweenness=0.05000066  clustering=0.01900082  k_core=7
+      community=4 (Adrenochrome, size=85)
+
+    God nodes (top 10 by degree):
+      SIRT1: degree=429
+      SASP: degree=289
+      SIRT3: degree=280
+      Eryptosis: degree=211
+      Autophagy: degree=210
+      SIRT6: degree=195
+      Apoptosis: degree=169
+      Adrenochrome: degree=149
+      Cancer: degree=141
+      NF-κB: degree=140
+
+    Surprising connections (56 found):
+      Tumor Antigen --[is_discovered_by_proximity_to]--> EGFR: ambiguous connection - not explicitly stated in source; bridges separate communities; peripheral node `Tumor Antigen` unexpectedly reaches hub `EGFR`
+      Prodrug --[releases]--> Aminoguanidine: ambiguous connection - not explicitly stated in source; bridges separate communities; peripheral node `Prodrug` unexpectedly reaches hub `Aminoguanidine`
+      AMPK --[modulates]--> Autophagy: ambiguous connection - not explicitly stated in source; bridges separate communities
+      Senomorphic --[targets]--> KDM4: ambiguous connection - not explicitly stated in source; bridges separate communities
+      Therapy-Induced Senescence --[is_modulated_by]--> Senomorphics: ambiguous connection - not explicitly stated in source; bridges separate communities
+
+    Low-cohesion communities (<0.15): 85
+      Eryptosis (id=0): 0.0145
+      SIRT3 (id=1): 0.0208
+      SIRT1 (id=2): 0.0221
+      SIRT2 (id=10): 0.0312
+      SIRT6 (id=6): 0.0316
+
+0b. Community context
+    Community 12 (Mitohormesis): ['Mitohormesis']
+    Community 19 (Autophagy): ['Autophagy']
+    Community 49 (Sirtuins): ['Sirtuins']
+    Community 4 (Adrenochrome): ['Adrenochrome']
+    Cross-community analysis: 4 distinct communities
+
+    Source document provenance (4 documents):
+      Mitohormesis - 2023_NOV.md: ['Mitohormesis']
+      Plant flavone apigenin An emerging anticancer agent.md: ['Autophagy']
+      Mitohormesis.md: ['Sirtuins']
+      Adrenochromatization.md: ['Adrenochrome']
+
+1. Shortest-path multiplicity (bridges = first hop, NetworkX)
+    Mitohormesis -> Adrenochrome: 6 shortest path(s), bridges = ['Adrenochromatization', 'Catalase', 'Ferroptosis', 'NRF2', 'Reactive Oxygen Species', 'ROS']
+      Path: Mitohormesis --[requires|0.91]--> ROS  ROS --[generates|0.9]--> Adrenochrome
+    Autophagy -> Adrenochrome: 5 shortest path(s), bridges = ['Adrenochrome monoaminoguanidine', 'Inflammation', 'Neuromelanin', 'Reactive Oxygen Species', 'SIRT1']
+      Path: Autophagy --[induces|0.8]--> Adrenochrome monoaminoguanidine  Adrenochrome monoaminoguanidine --[is_derived_from|0.95]--> Adrenochrome
+    Sirtuins -> Adrenochrome: 1 shortest path(s), bridges = ['NRF2']
+      Path: Sirtuins --[is_co_activated_by|0.8]--> NRF2  NRF2 --[activates|0.8]--> Adrenochrome
+
+2. Neighborhood distinctness (degree + pairwise Jaccard)
+    degree Mitohormesis: 62  pagerank=0.00138821  betweenness=0.01363931
+    degree Autophagy: 176  pagerank=0.0101558  betweenness=0.06680727
+    degree Sirtuins: 48  pagerank=0.00147489  betweenness=0.01152359
+    degree Adrenochrome: 111  pagerank=0.00477121  betweenness=0.05000066
+    Jaccard(Mitohormesis vs Autophagy) = 0.044
+      shared (10): ['Aging', 'AMPK', 'Caloric Restriction', 'Chemoresistance', 'Metformin', 'Mitochondrial ROS', 'Mitophagy', 'mitoRQC', 'mTOR', 'Reactive Oxygen Species']
+      Mitohormesis-only: ['2-deoxy-D-glucose', '4-Hydroxynonenal', 'aak-2', 'Adrenochromatization', 'Age-Related Diseases', "Alzheimer's Disease", 'Antioxidant', 'Antioxidant Supplementation Paradox', 'ATF4', 'Catalase', 'cGAS-STING Pathway', 'Dietary Hormesis', 'Exercise', 'Ferroptosis', 'FGF21']
+      Autophagy-only: ['14-3-3', '3-Methyladenine', '4E-BP1', 'Abemaciclib', 'Acetyl-CoA', 'Adaptive Immune Response', 'Adrenochrome monoaminoguanidine', 'Adrenoleukodystrophy', 'Akt', 'Alpha-Synuclein Aggregation', 'Apigenin', 'Apoptosis', 'Arterial Aging', 'Atg', 'Atg1']
+    Jaccard(Mitohormesis vs Sirtuins) = 0.019
+      shared (2): ['AMPK', 'NRF2']
+      Mitohormesis-only: ['2-deoxy-D-glucose', '4-Hydroxynonenal', 'aak-2', 'Adrenochromatization', 'Age-Related Diseases', 'Aging', "Alzheimer's Disease", 'Antioxidant', 'Antioxidant Supplementation Paradox', 'ATF4', 'Caloric Restriction', 'Catalase', 'cGAS-STING Pathway', 'Chemoresistance', 'Dietary Hormesis']
+      Sirtuins-only: ['Acetylation', 'Adenosine-binding site with kinases', 'Amurensin G', 'Apoptosis', 'Aristoforin', 'Autophagosome-lysosome fusion', 'Caspases', 'CobB', 'Curcumin', 'Deacetylases', 'Deacetylation', 'DNA Repair', 'five classes (I-IV and U)', 'Healthspan', 'Histone Deacetylase']
+    Jaccard(Mitohormesis vs Adrenochrome) = 0.036
+      shared (6): ['Adrenochromatization', 'Catalase', 'Ferroptosis', 'NRF2', 'Reactive Oxygen Species', 'ROS']
+      Mitohormesis-only: ['2-deoxy-D-glucose', '4-Hydroxynonenal', 'aak-2', 'Age-Related Diseases', 'Aging', "Alzheimer's Disease", 'AMPK', 'Antioxidant', 'Antioxidant Supplementation Paradox', 'ATF4', 'Caloric Restriction', 'cGAS-STING Pathway', 'Chemoresistance', 'Dietary Hormesis', 'Exercise']
+      Adrenochrome-only: ['179.17 g/mol', '-1.3', '3-hydroxy-1-methyl-2,3-dihydroindole-5,6-dione', '495 nm wavelength', 'Acute oral toxicity', 'Adrenal gland', 'Adrenal medulla', 'Adrenochrome Hypothesis', 'Adrenochrome monoaminoguanidine', 'Adrenochrome Pathway', 'Adrenochrome Semiquinone Radical', 'Adrenochrome sulfonate', 'Adrenolutin', 'Aminochrome', 'Aminochromes']
+    Jaccard(Autophagy vs Sirtuins) = 0.014
+      shared (3): ['AMPK', 'Apoptosis', 'SASP']
+      Autophagy-only: ['14-3-3', '3-Methyladenine', '4E-BP1', 'Abemaciclib', 'Acetyl-CoA', 'Adaptive Immune Response', 'Adrenochrome monoaminoguanidine', 'Adrenoleukodystrophy', 'Aging', 'Akt', 'Alpha-Synuclein Aggregation', 'Apigenin', 'Arterial Aging', 'Atg', 'Atg1']
+      Sirtuins-only: ['Acetylation', 'Adenosine-binding site with kinases', 'Amurensin G', 'Aristoforin', 'Autophagosome-lysosome fusion', 'Caspases', 'CobB', 'Curcumin', 'Deacetylases', 'Deacetylation', 'DNA Repair', 'five classes (I-IV and U)', 'Healthspan', 'Histone Deacetylase', 'MacroD1']
+    Jaccard(Autophagy vs Adrenochrome) = 0.018
+      shared (5): ['Adrenochrome monoaminoguanidine', 'Inflammation', 'Neuromelanin', 'Reactive Oxygen Species', 'SIRT1']
+      Autophagy-only: ['14-3-3', '3-Methyladenine', '4E-BP1', 'Abemaciclib', 'Acetyl-CoA', 'Adaptive Immune Response', 'Adrenoleukodystrophy', 'Aging', 'Akt', 'Alpha-Synuclein Aggregation', 'AMPK', 'Apigenin', 'Apoptosis', 'Arterial Aging', 'Atg']
+      Adrenochrome-only: ['179.17 g/mol', '-1.3', '3-hydroxy-1-methyl-2,3-dihydroindole-5,6-dione', '495 nm wavelength', 'Acute oral toxicity', 'Adrenal gland', 'Adrenal medulla', 'Adrenochromatization', 'Adrenochrome Hypothesis', 'Adrenochrome Pathway', 'Adrenochrome Semiquinone Radical', 'Adrenochrome sulfonate', 'Adrenolutin', 'Aminochrome', 'Aminochromes']
+    Jaccard(Sirtuins vs Adrenochrome) = 0.006
+      shared (1): ['NRF2']
+      Sirtuins-only: ['Acetylation', 'Adenosine-binding site with kinases', 'AMPK', 'Amurensin G', 'Apoptosis', 'Aristoforin', 'Autophagosome-lysosome fusion', 'Caspases', 'CobB', 'Curcumin', 'Deacetylases', 'Deacetylation', 'DNA Repair', 'five classes (I-IV and U)', 'Healthspan']
+      Adrenochrome-only: ['179.17 g/mol', '-1.3', '3-hydroxy-1-methyl-2,3-dihydroindole-5,6-dione', '495 nm wavelength', 'Acute oral toxicity', 'Adrenal gland', 'Adrenal medulla', 'Adrenochromatization', 'Adrenochrome Hypothesis', 'Adrenochrome monoaminoguanidine', 'Adrenochrome Pathway', 'Adrenochrome Semiquinone Radical', 'Adrenochrome sulfonate', 'Adrenolutin', 'Aminochrome']
+
+3. Adamic-Adar link-prediction proximity (every source x every target)
+    Adamic-Adar(Mitohormesis -> Adrenochrome) = 2.419
+    Adamic-Adar(Autophagy -> Adrenochrome) = 1.355
+    Adamic-Adar(Sirtuins -> Adrenochrome) = 0.252
+
+4. k-core nesting depth
+    k-core Mitohormesis: 8
+    k-core Autophagy: 8
+    k-core Sirtuins: 7
+    k-core Adrenochrome: 7
+
+5. Spectral (dense eigh)
+    algebraic connectivity lambda2 = 0.0994
+    Fiedler Mitohormesis: +0.0006  (sign is arbitrary)
+    Fiedler Autophagy: +0.0008  (sign is arbitrary)
+    Fiedler Sirtuins: +0.0007  (sign is arbitrary)
+    Fiedler Adrenochrome: +0.0005  (sign is arbitrary)
+
+6. Effective-resistance / commute distance (pseudoinverse Laplacian)
+    vs Adrenochrome (null mean 0.729 +/- 0.506, n=300):
+      Mitohormesis: 0.043   z = -1.35
+      Autophagy: 0.030   z = -1.38
+      Sirtuins: 0.059   z = -1.32
+    self-check R_eff(Adrenochrome, Adrenochrome) = 0.0000 (~0 expected)
+
+7. Personalized PageRank (random-walk flow seeded at each target)
+    Standard PageRank (pre-computed):
+      Autophagy: 0.01015580
+      Adrenochrome: 0.00477121
+      Sirtuins: 0.00147489
+      Mitohormesis: 0.00138821
+
+    PPR seeded at Adrenochrome:
+      Mitohormesis: rank #36 (score 0.00300)
+      Autophagy: rank #38 (score 0.00297)
+      Sirtuins: rank #232 (score 0.00060)
+
+Cross-metric note: hop distance is frequently non-discriminating; rankings by route-multiplicity vs flow metrics can disagree (see task output).

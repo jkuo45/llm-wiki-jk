@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>[Speculative] Network Analysis of the Adrenochrome Protocol: Agent Coupling to the Adrenochrome Node Relative to Mitohormesis, Autophagy, and Sirtuins</title>
-<meta name="description" content="Graph analysis of the proposed methylene blue + aminoguanidine adrenochrome protocol on the llm-wiki-jk knowledge graph: stored-edge paths from methylene blue, aminoguanidine, carbazochrome and ascorbic acid to the adrenochrome node; PPR coupling ladder, direct versus bridge edges, Fiedler community boundary, adaptive-program baseline, and hypotheses H1–H8 (untested in humans). All values are computed for graph build 867a5ae5fdb8a46c; dose and biological effect are not quantified.">
+<meta name="description" content="Graph analysis of the proposed methylene blue + aminoguanidine adrenochrome protocol on the llm-wiki-jk knowledge graph: stored-edge paths from methylene blue, aminoguanidine, carbazochrome and vitamin C to the adrenochrome node; PPR coupling ladder, direct versus bridge edges, adaptive-program baseline, and hypotheses H1–H8 (untested in humans). All values are computed for graph build 273eba0b1872c83844c9cf5dcabbde8c94c16060; dose and biological effect are not quantified. This page is not a clinical recommendation.">
 <link rel="canonical" href="https://graph.johnnykuo.com/pages/en-US/adrenochrome-protocol-node-network-analysis.html">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◎</text></svg>">
 <link rel="stylesheet" href="../themes/theme-02/theme.css">
@@ -41,15 +41,19 @@
     <h1>[Speculative] Network Analysis of the Adrenochrome Protocol: Agent Coupling to the Adrenochrome Node Relative to Mitohormesis, Autophagy, and Sirtuins</h1>
     <p class="lede">
       The proposed protocol combines <strong>methylene blue</strong> (electron shunt around Complex
-      I/III) with <strong>aminoguanidine</strong> (dicarbonyl/AGE trapping) to generate a controlled
-      <strong>adrenochrome</strong> redox pulse. Engagement of <strong>mitohormesis</strong>,
-      <strong>autophagy</strong>, and <strong>sirtuins</strong> is hypothesised, remains untested in
-      humans, and is not quantified. This page reports stored-edge paths from each protocol agent to
-      the adrenochrome node in the <code>llm-wiki-jk</code> knowledge graph.
+      I/III) with <strong>aminoguanidine</strong> (dicarbonyl/AGE trapping) under a <em>proposed</em>
+      redox-relay model. Whether this combination generates a controlled
+      <strong>adrenochrome</strong> redox pulse in vivo is untested — the only direct chemical link in
+      the literature is an in-vitro hemostatic manufacturing process (US4501923A). Engagement of
+      <strong>mitohormesis</strong>, <strong>autophagy</strong>, and <strong>sirtuins</strong> is
+      hypothesised, remains untested in humans, and is not quantified. This page reports stored-edge
+      paths from each protocol agent to the adrenochrome node in the
+      <code>llm-wiki-jk</code> knowledge graph. <strong>This page is not a clinical recommendation —
+      see the safety note in §01.</strong>
     </p>
     <div class="meta">
-      <p><strong>Report date:</strong> 20 August 2026 (updated)</p>
-      <p><strong>Graph source:</strong> <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/graphify-out/graph.json" target="_blank" rel="noopener noreferrer"><code>graphify-out/graph.json</code></a> — build <code>867a5ae5fdb8a46c</code> (2,596 nodes / 3,737 edges)</p>
+      <p><strong>Date updated:</strong> 16 November 2026 (re-run on current build; original report 20 August 2026)</p>
+      <p><strong>Graph source:</strong> <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/graphify-out/graph.json" target="_blank" rel="noopener noreferrer"><code>graphify-out/graph.json</code></a> — build <code>273eba0b1872c83844c9cf5dcabbde8c94c16060</code> (4,756 nodes / 12,589 links)</p>
       <p><strong>Analysis script:</strong> <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/scripts/analysis/node_analysis.py" target="_blank" rel="noopener noreferrer"><code>scripts/analysis/node_analysis.py</code></a>, supplementary scans of this build</p>
       <p><strong>Method basis:</strong> <a href="node-analysis-examples-biology.html">Node-level Network Analysis for Biological Prioritization</a></p>
       <p><strong>Protocol documents</strong> (repo · <em>dev</em>): <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/adrenochrome_mb_ag/outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00.md" target="_blank" rel="noopener noreferrer">protocol outline</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/Adrenochrome%20monoaminoguanidine.md" target="_blank" rel="noopener noreferrer">adrenochrome monoaminoguanidine</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Methylene%20blue.md" target="_blank" rel="noopener noreferrer">methylene blue</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Aminoguanidine.md" target="_blank" rel="noopener noreferrer">aminoguanidine</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Hormetic%20Window.md" target="_blank" rel="noopener noreferrer">hormetic window</a> · <a href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/_document_%20-%20US4501923A%20-%20Process%20for%20preparing%20adrenochrome.md" target="_blank" rel="noopener noreferrer">US4501923A</a></p>
@@ -94,11 +98,11 @@
         A prior analysis traced stored paths from the adrenochrome node to the three adaptive
         programs. This analysis covers the <strong>proposed protocol agents</strong>: methylene blue
         (MB, electron shunt around Complex I/III), aminoguanidine (AG, dicarbonyl/AGE trapping), and
-        the supporting agents (carbazochrome, ascorbic acid, urolithin A, spermidine, rapamycin,
+        the supporting agents (carbazochrome, vitamin C, urolithin A, spermidine, rapamycin,
         fisetin, creatine, resveratrol) proposed in the outline document under the
         mitohormetic-redox-relay (MRR), glyco-oxidative-proteostasis (GOPS) and
         SASP-remodeling-aminochrome (SRAC) mechanisms. These mechanisms are hypotheses, untested in
-        humans. Each listed agent was traced against build 867a5ae5fdb8a46c.
+        humans. Each listed agent was traced against build 273eba0b1872c83844c9cf5dcabbde8c94c16060.
       </p>
 
       <div class="note">
@@ -106,12 +110,11 @@
         <p>
           <strong>Classify each protocol agent's connection to the adrenochrome node as a direct
           chemical edge (reaction, derivation, reduction) or shared redox/injury bridge, and report
-          its Fiedler coordinate relative to the community boundary between the chemistry and program
-          layers.</strong>
+          its Fiedler coordinate and PPR coupling relative to the adaptive programs.</strong>
         </p>
         <p>
           Sub-objectives: (a) compare PPR coupling of the core agents (MB, AG) with that of the
-          adaptive programs; (b) identify coupling modes with a single rate-limiting bridge;
+          adaptive programs; (b) identify coupling modes (direct edge vs shared bridges);
           (c) compare the protocol traces with the four-node baseline for reproduction, extension,
           or contradiction.
         </p>
@@ -129,15 +132,23 @@
         </p>
       </div>
 
+      <div class="note gold">
+        <h4>Safety — why this page is not a protocol</h4>
+        <ul>
+          <li><strong>Methylene blue:</strong> FDA boxed warning — potent reversible MAO-A inhibitor; serotonergic agents (SSRIs/SNRIs/MAOIs/meperidine) must be held (≥2 weeks, fluoxetine 5 weeks) and resumed ≥24 h after MB. Contraindicated in G6PD deficiency (hemolysis, Heinz bodies). Adverse effects above 7 mg/kg; the 0.5–4 mg "wellness" range is community convention, not an approved indication (label: methemoglobinemia, 1 mg/kg IV).</li>
+          <li><strong>Aminoguanidine (pimagedine):</strong> Phase III ACTION I/II in diabetic nephropathy failed their primary endpoints and the programme was terminated for safety (glomerulonephritis, pyridoxine/B6 depletion, ANCA-associated vasculitis, diamine-oxidase inhibition/histamine intolerance). Never approved.</li>
+          <li><strong>Adrenochrome / AMM / carbazochrome:</strong> no human safety, pharmacokinetic, or dosing data. Carbazochrome is a redox-silent hemostatic semicarbazone, not a hormetic trigger; AMM is a hydrazone-capped derivative — neither free-cycles like adrenochrome. Vitamin C + adrenochrome is pro-oxidant redox-cycling in vitro, not a clean antidote.</li>
+          <li><strong>Evidence gaps flagged in this revision:</strong> adrenochrome → NF-κB inhibition / SASP suppression (SRAC) has no preclinical senescence data; GPX4 arylation by adrenochrome is an untested hypothesis (catecholamine ferroptosis per se is supported).</li>
+        </ul>
+      </div>
+
       <figure class="fig">
         <div class="fig-head"><span class="fig-num">Figure 1 · Stored-edge circuit of protocol agents and the adrenochrome node</span></div>
         <div class="fig-canvas" data-chart="circuit"></div>
         <figcaption>
-          <strong>Three coupling modes to the adrenochrome node.</strong>
+          <strong>Two panels: protocol agents (A) and adaptive programs (B). Three coupling modes to the adrenochrome node.</strong>
           Left column: protocol agents. Middle: bridges shared by MB. Right: the adrenochrome node.
-          Bottom: the three adaptive programs. Solid arrows are direct stored edges (badge ■); the
-          dashed oxblood edge on the sirtuin arm marks a stored direction that the undirected
-          projection <em>reversed</em> — see <a href="#structure">§06</a>.
+          Bottom: the three adaptive programs. Solid arrows are direct stored edges (badge ■). The sirtuin arm now runs via NRF2 — see <a href="#structure">§06</a>.
         </figcaption>
       </figure>
     </section>
@@ -153,7 +164,7 @@
         <strong>SASP-Remodeling Aminochrome Complex (SRAC)</strong> (adrenochrome/AMM as the
         senomorphic-redox component). These mechanisms are hypotheses; their biological effects are
         not quantified and remain untested in humans. Each agent was traced against graph build
-        <code>867a5ae5fdb8a46c</code>.
+        <code>273eba0b1872c83844c9cf5dcabbde8c94c16060</code>.
       </p>
 
       <div class="table-wrap">
@@ -168,18 +179,18 @@
             </tr>
           </thead>
           <tbody>
-            <tr><td><strong>Methylene blue</strong></td><td>MRR electron shunt around Complex I/III</td><td><code>methylene_blue</code> (45)</td><td>3 co-shortest paths via Complex I · Oxidative Stress · Hemolysis</td><td class="num"><strong>#8</strong></td></tr>
-            <tr><td><strong>Aminoguanidine</strong></td><td>GOPS dicarbonyl/AGE trapping; iNOS inhibition</td><td><code>aminoguanidine</code> (32)</td><td><strong>direct</strong> <code>reacts_with</code> 0.9</td><td class="num"><strong>#4</strong></td></tr>
-            <tr><td><strong>Carbazochrome</strong></td><td>stabilized adrenochrome semicarbazone (adrenochrome derivative)</td><td><code>carbazochrome</code> (2)</td><td><strong>direct</strong> <code>is_an_intermediate_for</code> 0.95</td><td class="num"><strong>#14</strong></td></tr>
-            <tr><td><strong>Ascorbic Acid</strong></td><td>reducer; reduces the o-quinone</td><td><code>ascorbic_acid</code> (6)</td><td><strong>direct</strong> <code>reduces</code> 0.75 (+ inhibits formation 0.9)</td><td class="num"><strong>#15</strong></td></tr>
-            <tr><td><strong>Rapamycin</strong></td><td>mTOR–autophagy arm</td><td><code>rapamycin</code> (41)</td><td>3 paths via NF-κB · OXPHOS · Ox Stress</td><td class="num">#59</td></tr>
-            <tr><td><strong>Urolithin A</strong></td><td>mitophagy inducer</td><td><code>urolithin_a</code> (32)</td><td>3 paths via NF-κB · Ox Stress · ROS</td><td class="num">#90</td></tr>
-            <tr><td><strong>Creatine</strong></td><td>phosphocreatine bioenergetic buffer</td><td><code>creatine</code> (39)</td><td>1 path via ROS (<code>reduces</code> 0.88)</td><td class="num">#95</td></tr>
-            <tr><td><strong>Fisetin</strong></td><td>senolytic / senomorphic flavonoid</td><td><code>fisetin</code> (28)</td><td>7 paths via Senescence · COMT · Flavonoids · SASP · Senomorphic</td><td class="num">#147</td></tr>
-            <tr><td><strong>Spermidine</strong></td><td>autophagy inducer</td><td><code>spermidine</code> (9)</td><td>1 path via Ox Stress (<code>reduces</code> 0.95)</td><td class="num">#174</td></tr>
-            <tr><td><strong>Resveratrol</strong></td><td>sirtuin-activating polyphenol (proposed)</td><td><code>resveratrol</code> (36)</td><td>8 paths via COMT · SAMD · SASP · SIRT1 · SIRT3</td><td class="num">#181</td></tr>
-            <tr><td><strong>NR / NMN</strong></td><td>NAD<sup>+</sup> precursor (MRR)</td><td><code>Nicotinamide Riboside</code> (57)</td><td>not yet traced; queued (§10)</td><td class="num">—</td></tr>
-            <tr><td><strong>GlyNAC</strong></td><td>glycine + NAC precursor</td><td>absent from graph</td><td>entity note queued</td><td class="num">—</td></tr>
+            <tr><td><strong>Methylene blue</strong></td><td>MRR electron shunt around Complex I/III</td><td><code>methylene_blue</code> (69)</td><td>5 co-shortest paths via Complex I · Oxidative Stress · Hemolysis · Methemoglobin · Respiratory Chain Complex I</td><td class="num"><strong>#35</strong></td></tr>
+            <tr><td><strong>Aminoguanidine</strong></td><td>GOPS dicarbonyl/AGE trapping; iNOS inhibition (dose-relative selectivity)</td><td><code>aminoguanidine</code> (49)</td><td><strong>direct</strong> <code>reacts_with</code> 0.9</td><td class="num"><strong>#4</strong></td></tr>
+            <tr><td><strong>Carbazochrome</strong></td><td>redox-silent hemostatic semicarbazone (adrenochrome derivative)</td><td><code>carbazochrome</code> (8)</td><td><strong>direct</strong> <code>is_an_intermediate_for</code> 0.9 (<code>is_derivative_of</code> 0.95)</td><td class="num"><strong>#22</strong></td></tr>
+            <tr><td><strong>Vitamin C</strong></td><td>reducer; reduces the o-quinone (pro-oxidant cycling in vitro)</td><td><code>vitamin_c</code> (21)</td><td><strong>direct</strong> <code>reduces</code> 0.75 (+ <code>prevents_oxidation_of</code> 0.85)</td><td class="num"><strong>#29</strong></td></tr>
+            <tr><td><strong>Rapamycin</strong></td><td>mTOR–autophagy arm</td><td><code>rapamycin</code> (77)</td><td>3 paths via Inflammation · OXPHOS · Ox Stress</td><td class="num">#171</td></tr>
+            <tr><td><strong>Urolithin A</strong></td><td>mitophagy inducer</td><td><code>urolithin_a</code> (57)</td><td>3 paths via NRF2 · Ox Stress · ROS</td><td class="num">#177</td></tr>
+            <tr><td><strong>Creatine</strong></td><td>phosphocreatine bioenergetic buffer</td><td><code>creatine</code> (56)</td><td>2 paths via COMT · ROS</td><td class="num">#152</td></tr>
+            <tr><td><strong>Fisetin</strong></td><td>senolytic / senomorphic flavonoid</td><td><code>fisetin</code> (65)</td><td>6 paths via COMT · Glutathione · Inflammation · MnSOD · ROS · SIRT1</td><td class="num">#146</td></tr>
+            <tr><td><strong>Spermidine</strong></td><td>autophagy inducer</td><td><code>spermidine</code> (33)</td><td>1 path via Ox Stress</td><td class="num">#272</td></tr>
+            <tr><td><strong>Resveratrol</strong></td><td>sirtuin-activating polyphenol (proposed; direct activation unproven at physiological dose)</td><td><code>resveratrol</code> (67)</td><td>4 paths via COMT · Lipid Peroxidation · SIRT1 · SIRT3</td><td class="num">#162</td></tr>
+            <tr><td><strong>NR / NMN</strong></td><td>NAD<sup>+</sup> precursor (MRR)</td><td><code>nicotinamide_riboside</code> (74)</td><td>not yet traced; queued (§10)</td><td class="num">—</td></tr>
+            <tr><td><strong>GlyNAC</strong></td><td>glycine + NAC precursor</td><td><code>glynac</code>; stored <code>buffers → Adrenochrome</code> 0.8</td><td>not yet traced; queued (§10)</td><td class="num">—</td></tr>
           </tbody>
         </table></div>
       </div>
@@ -188,27 +199,28 @@
         <h4>Scope of the trace set</h4>
         <p>
           NR/NMN and GlyNAC are listed in the protocol but are not in this trace set. NR has a stored
-          node (<code>Nicotinamide Riboside</code>, degree 57) and is queued; GlyNAC has no node and
-          requires entity resolution first. Reruns in <a href="#log">§09</a> will include them.
+          node (<code>nicotinamide_riboside</code>, degree 74) and is queued; GlyNAC now has a stored
+          node with a direct <code>buffers → Adrenochrome</code> 0.8 edge and is queued. Reruns in
+          <a href="#log">§09</a> will include them. Note: the old <code>ascorbic_acid</code> node was
+          consolidated into <code>vitamin_c</code> in this build; all "ascorbate" rows now read
+          Vitamin C.
         </p>
       </div>
     </section>
 
     <section id="ladder">
       <p class="sec-label">03 · Coupling ladder</p>
-      <h2>Highest PPR-ranked protocol agents: four core agents in the graph top-15</h2>
+      <h2>PPR ladder on the current build: one core agent at the top, the rest mid-pack</h2>
       <p>
-        Confidence-weighted Personalized PageRank seeded at <strong>Adrenochrome</strong> ranks the
-        traced nodes on one ladder. Four protocol core agents occupy the graph's top-15, with smaller
-        PPR ranks than any adaptive program:
-      </p>
-      <p>
-        <strong>Aminoguanidine #4</strong> (0.01401) · <strong>Methylene blue #8</strong> (0.00929) ·
-        <strong>Carbazochrome #14</strong> (0.00716) · <strong>Ascorbic Acid #15</strong> (0.00689) —
-        versus the adaptive programs at <strong>#89 / #93 / #305</strong>. With the seed reversed,
-        Adrenochrome ranks <strong>#3</strong> from Aminoguanidine and <strong>#7</strong> from
-        Methylene blue — smaller PPR ranks in both directions than the adaptive programs
-        (#60 / #58 / #147).
+        Personalized PageRank seeded at <strong>Adrenochrome</strong> ranks the traced nodes on one
+        ladder. Only <strong>Aminoguanidine #4</strong> (0.00686) sits in the top-15 on this build;
+        the other direct-edge agents follow at <strong>Carbazochrome #22</strong> (0.00409) and
+        <strong>Vitamin C #29</strong> (0.00341), <strong>Methylene blue #35</strong> (0.00307),
+        then the adaptive programs <strong>Mitohormesis #36 / Autophagy #38 / Sirtuins #232</strong>.
+        With the seed reversed, Adrenochrome ranks <strong>#3</strong> from Aminoguanidine and
+        <strong>#16</strong> from Methylene blue; from the adaptive programs it ranks
+        <strong>#13 / #50 / #86</strong>. The previous build's "four core agents in the top-15"
+        claim does not reproduce — AG's direct edge remains the strongest single coupling.
       </p>
 
       <figure class="fig">
@@ -216,20 +228,19 @@
         <div class="fig-canvas" data-chart="ladder"></div>
         <figcaption>
           <strong>Log-scale PPR rank of each node with the walk seeded at Adrenochrome (filled).</strong>
-          Open markers show the reverse rank where a reverse trace was run. AG, MB, Carbazochrome
-          and Ascorbic Acid occupy the top 15 — four protocol core agents have smaller PPR ranks than
-          all three adaptive programs. * marks a direct stored edge to the adrenochrome node.
+          Open markers show the reverse rank where a reverse trace was run. AG is the only
+          protocol agent in the top 15 on this build. ■ marks a direct stored edge to the adrenochrome node.
         </figcaption>
       </figure>
 
       <div class="note forest">
         <h4>Rank separation between direct-reaction agents and the modulation agents</h4>
         <p>
-          Direct-reaction agents occupy the top-15 and the systemic modulation agents occupy
-          #59–#181. Direct-reaction agents share walk mass with the adrenochrome node through stored
-          edges; modulators reach it through intermediate programs and bridges. The PPR ladder
-          therefore ranks agents by stored-edge connectivity rather than by the order proposed in the
-          outline document.
+          Direct-reaction agents (AG, Carbazochrome, Vitamin C) rank #4–#29 and the systemic
+          modulation agents occupy #146–#272. Direct-reaction agents share walk mass with the
+          adrenochrome node through stored edges; modulators reach it through intermediate programs
+          and bridges. The PPR ladder therefore ranks agents by stored-edge connectivity rather than
+          by the order proposed in the outline document.
         </p>
       </div>
     </section>
@@ -244,8 +255,8 @@
         <code>Aminoguanidine --[reacts_with|0.9]→ Adrenochrome</code> (from the
         <code>US4501923A</code> preparation patent), a multiplicity-1 direct edge with no bridge.
         The reaction product is a graph node — <strong>Adrenochrome monoaminoguanidine</strong>
-        (AMM, community #98, size 6) — AG's only shared neighbour with adrenochrome
-        (Jaccard 0.012; Adamic–Adar 0.558).
+        (AMM, community 109, size 15) — one of five shared neighbours with adrenochrome
+        (Jaccard 0.035; Adamic–Adar 4.001).
       </p>
       <pre><code># direction-audited AG edges
 Aminoguanidine --reacts_with(0.9)--> Adrenochrome        direct edge, multiplicity 1
@@ -259,18 +270,17 @@ Adrenochrome monoaminoguanidine --is_a(0.9)--> Guanylhydrazone
 Adrenochrome monoaminoguanidine --may_act_as(0.6)--> Prodrug
 Adrenochrome monoaminoguanidine --protects(0.8)--> Hematopoietic Stem Cell</code></pre>
       <p>
-        AG has a positive Fiedler coordinate: <strong>+0.0021</strong>. Effective resistance to
-        adrenochrome is 0.186 (z −1.64 / −1.80). PPR is <strong>#4</strong> forward and
+        AG Fiedler coordinate: <strong>+0.0003</strong> (sign is arbitrary; all traced nodes cluster on the same side, §07). Effective resistance to
+        adrenochrome is 0.077 (z −1.29). PPR is <strong>#4</strong> forward and
         <strong>#3</strong> reverse — the smallest PPR ranks for an exogenous agent measured in this
         trace set.
       </p>
 
       <h3>Methylene blue: three co-shortest paths without a direct reaction edge</h3>
       <p>
-        MB reaches adrenochrome through <strong>three co-shortest paths</strong> with bridges
-        <strong>Complex I, Oxidative Stress, and Hemolysis</strong> and no direct reaction edge. It
-        has the highest Adamic–Adar score for a <em>proposed missing edge</em> to adrenochrome in this trace
-        set: <strong>2.641</strong> (shared Complex I / Oxidative Stress / Hemolysis neighbourhood),
+        MB reaches adrenochrome through <strong>five co-shortest paths</strong> with bridges
+        <strong>Complex I, Oxidative Stress, Hemolysis, Methemoglobin, and Respiratory Chain Complex I</strong> and no direct reaction edge. It
+        has an Adamic–Adar score of <strong>1.976</strong> for a <em>proposed missing edge</em> to adrenochrome,
         against a Jaccard of 0.031. The stored edges are listed below:
       </p>
       <pre><code># direction-audited MB edges
@@ -287,12 +297,12 @@ Methylene blue --enhances(0.94)--> Mitochondrial Respiration</code></pre>
         <code>Complex I --reduces(0.9)--> Adrenochrome</code> and
         <code>Oxidative Stress --drives(0.95)--> Adrenochrome formation</code> are both stored. MB
         has no stored edge for adrenochrome formation; it shares the Complex I / oxidative-stress
-        bridges with adrenochrome. Fiedler <strong>+0.0013</strong> (positive side); PPR
-        <strong>#8</strong> / <strong>#7</strong>; effective resistance 0.164 (z −1.68 / −1.70).
+        bridges with adrenochrome. Fiedler <strong>+0.0005</strong> (same side as all traced nodes); PPR
+        <strong>#35</strong> / <strong>#16</strong>; effective resistance 0.049 (z −1.34).
       </p>
 
       <div class="note">
-        <h4>MB ⇄ AG share two neighbours: Monoamine oxidase and Nitric Oxide Synthase (Jaccard 0.027)</h4>
+        <h4>MB ⇄ AG share two neighbours: Monoamine oxidase and Nitric Oxide Synthase (Jaccard 0.022)</h4>
         <p>
           MB and AG each carry an MAO-inhibition edge (0.92 / 0.9) and an NOS-family edge
           (MB inhibits sGC/NOS; AG blocks NO production and inhibits iNOS while not reducing eNOS).
@@ -303,30 +313,26 @@ Methylene blue --enhances(0.94)--> Mitochondrial Respiration</code></pre>
         </p>
       </div>
 
-      <h3>Chemistry pair: carbazochrome and ascorbic acid</h3>
+      <h3>Chemistry pair: carbazochrome and vitamin C</h3>
       <p>
         Two further direct edges connect the chemistry group to adrenochrome:
-        <code>Carbazochrome --is_an_intermediate_for(0.95)--> Adrenochrome</code> and
-        <code>Ascorbic Acid --reduces(0.75)--> Adrenochrome</code> (ascorbate additionally
-        <code>inhibits(0.9)</code> <em>Adrenochrome formation</em>). Both have negative Fiedler
-        coordinates on the <strong>negative side</strong> of the community boundary (Carbazochrome
-        −0.0008, Ascorbic Acid −0.0023) and cluster with the redox partners of the o-quinone rather
-        than with the systemic programs. Their shared neighbourhood contains adrenochrome only,
-        giving <strong>Jaccard(Carbazochrome, Ascorbic Acid) = 0.143</strong>, the highest pairwise
-        overlap in this trace set.
+        <code>Carbazochrome --is_an_intermediate_for(0.9)--> Adrenochrome</code> (plus <code>is_derivative_of</code> 0.95) and
+        <code>Vitamin C --reduces(0.75)--> Adrenochrome</code> (vitamin C additionally
+        <code>prevents_oxidation_of(0.85)</code>). Both sit on the <strong>same Fiedler side as every other traced node</strong> (Carbazochrome
+        +0.0006, Vitamin C +0.0003, §07) — no chemistry/program sign split on this build. Their pairwise
+        <strong>Jaccard(Carbazochrome, Vitamin C) = 0.045</strong>.
       </p>
       <p>
-        Their coupling depths differ: Ascorbate PPR <strong>#15</strong>, effective resistance 0.282
-        (z −1.48); Carbazochrome PPR <strong>#14</strong>, effective resistance 0.747 (z −0.70), the
-        <em>largest</em> effective resistance among direct-edge nodes. Carbazochrome is a
-        <strong>k-core-2 pendant</strong> (degree 2) at the periphery of the AMM community. The
-        direct stored edge is present; its PPR rank is <strong>#14</strong>.
+        Their coupling depths differ: Vitamin C PPR <strong>#29</strong>, effective resistance 0.088
+        (z −1.27); Carbazochrome PPR <strong>#22</strong>, effective resistance 0.338 (z −0.77), the
+        <em>largest</em> effective resistance among direct-edge nodes. Carbazochrome is in the adrenochrome community (k-core 3, degree 8).
+        The direct stored edges are present; Carbazochrome is redox-silent by chemistry (semicarbazone-capped o-quinone), so its edge reflects derivation, not redox activity.
       </p>
       <div class="note slate">
         <h4>Three coupling modes in the trace set</h4>
         <ul>
           <li><strong>Chemical reaction</strong> (AG <code>reacts_with</code>) — direct stored edge, no bridge, PPR #4.</li>
-          <li><strong>Derivation / reduction</strong> (Carbazochrome <code>is_an_intermediate_for</code>, Ascorbate <code>reduces</code>) — direct stored edges on pendant / reducer nodes.</li>
+          <li><strong>Derivation / reduction</strong> (Carbazochrome <code>is_an_intermediate_for</code>, Vitamin C <code>reduces</code>) — direct stored edges on derivative / reducer nodes.</li>
           <li><strong>Functional modulation via shared bridges</strong> (MB and the modulation agents) — no direct edge; shares Complex I / oxidative-stress / ROS bridges with adrenochrome.</li>
         </ul>
       </div>
@@ -336,10 +342,7 @@ Methylene blue --enhances(0.94)--> Mitochondrial Respiration</code></pre>
       <p class="sec-label">05 · Adaptive-program baseline</p>
       <h2>Four-node baseline reproduced in run C</h2>
       <p>
-        Run C (see <a href="#log">§09</a>) re-traced the four-node baseline against the same build and
-        reproduced it exactly — multiplicity 1 per arm; bridges ROS / Neuromelanin / SASP; PPR
-        #89 / #93 / #305; Fiedler +0.0034 / +0.0033 / +0.0043. The baseline values below are
-        unchanged from the prior study and provide the reference for the protocol traces.
+        Run C (see <a href="#log">§09</a>) re-traced the four-node baseline against the same build. The prior build's "multiplicity 1 per arm; bridges ROS / Neuromelanin / SASP" reading <strong>does not reproduce</strong>: Mitohormesis now has 6 shortest paths, Autophagy 5, and Sirtuins 1 via NRF2. PPR #36 / #38 / #232; Fiedler +0.0006 / +0.0008 / +0.0007. Values below are the current-build reference for the protocol traces.
       </p>
 
       <div class="table-wrap">
@@ -358,10 +361,10 @@ Methylene blue --enhances(0.94)--> Mitochondrial Respiration</code></pre>
             </tr>
           </thead>
           <tbody>
-            <tr><td><strong>Adrenochrome</strong></td><td class="num">18</td><td class="num">42</td><td class="num">60</td><td class="num">0.00501</td><td class="num">0.0387</td><td class="num">0.0094</td><td class="num">4</td><td>Adrenochrome (33)</td></tr>
-            <tr><td><strong>Mitohormesis</strong></td><td class="num">7</td><td class="num">27</td><td class="num">34</td><td class="num">0.00083</td><td class="num">0.0166</td><td class="num">0.0143</td><td class="num">5</td><td>Mitohormesis (35)</td></tr>
-            <tr><td><strong>Autophagy</strong></td><td class="num">23</td><td class="num">16</td><td class="num">39</td><td class="num">0.00429</td><td class="num">0.0276</td><td class="num">0.0390</td><td class="num">6</td><td>Autophagy (19)</td></tr>
-            <tr><td><strong>Sirtuins</strong></td><td class="num">11</td><td class="num">13</td><td class="num">24</td><td class="num">0.00203</td><td class="num">0.0112</td><td class="num">0.0119</td><td class="num">5</td><td>Sirtuins (17)</td></tr>
+            <tr><td><strong>Adrenochrome</strong></td><td class="num">75</td><td class="num">74</td><td class="num">149</td><td class="num">0.00477</td><td class="num">0.0500</td><td class="num">0.0190</td><td class="num">7</td><td>Adrenochrome (85)</td></tr>
+            <tr><td><strong>Mitohormesis</strong></td><td class="num">38</td><td class="num">32</td><td class="num">70</td><td class="num">0.00139</td><td class="num">0.0136</td><td class="num">0.0291</td><td class="num">8</td><td>Mitohormesis (64)</td></tr>
+            <tr><td><strong>Autophagy</strong></td><td class="num">162</td><td class="num">48</td><td class="num">210</td><td class="num">0.01016</td><td class="num">0.0668</td><td class="num">0.0165</td><td class="num">8</td><td>Autophagy (47)</td></tr>
+            <tr><td><strong>Sirtuins</strong></td><td class="num">31</td><td class="num">26</td><td class="num">57</td><td class="num">0.00147</td><td class="num">0.0115</td><td class="num">0.0257</td><td class="num">7</td><td>Sirtuins (28)</td></tr>
           </tbody>
         </table></div>
       </div>
@@ -370,8 +373,7 @@ Methylene blue --enhances(0.94)--> Mitochondrial Respiration</code></pre>
         <div class="fig-head"><span class="fig-num">Figure 3 · Degree composition (six traced nodes)</span></div>
         <div class="fig-canvas" data-chart="composition"></div>
         <figcaption>
-          In-degree (slate) vs out-degree (oxblood). Adrenochrome and Mitohormesis are outbound; both
-          protocol core agents (MB, AG) have in 1 / out 44 and in 1 / out 31, respectively. These
+          In-degree (slate) vs out-degree (oxblood). Adrenochrome (75/74) is balanced; MB (7/62) and AG (4/45) are outbound; Autophagy (162/48) is inbound-heavy. These
           degree compositions are computed from the stored edges.
         </figcaption>
       </figure>
@@ -380,10 +382,7 @@ Methylene blue --enhances(0.94)--> Mitochondrial Respiration</code></pre>
         <div class="fig-head"><span class="fig-num">Figure 4 · Sample-normalized metrics (six nodes)</span></div>
         <div class="fig-canvas" data-chart="fingerprint"></div>
         <figcaption>
-          Each metric scaled to its maximum within the six-node sample. The §03 PPR ordering places
-          the protocol core ahead of the adaptive programs; Adrenochrome, MB and AG have higher
-          out-degree than in-degree; Autophagy has k-core 6, the highest in the sample; Sirtuins and
-          Carbazochrome occupy different positions on the k-core axis.
+          Each metric scaled to its maximum within the six-node sample (% of sample max, n=6; raw values above bars). AG's PageRank and Autophagy's degree/betweenness dominate the sample; k-core is 7–8 across the sample (Mitohormesis/Autophagy highest at 8).
         </figcaption>
       </figure>
 
@@ -399,9 +398,9 @@ Methylene blue --enhances(0.94)--> Mitochondrial Respiration</code></pre>
             </tr>
           </thead>
           <tbody>
-            <tr><td><strong>Mitohormesis ↔ Adrenochrome</strong><br><code>MH —requires(0.9)→ ROS —generates(0.95)→ Adr</code></td><td class="num">0.011</td><td class="num">0.328</td><td class="num">0.141 (−1.72)</td><td class="num">#89 / #60</td></tr>
-            <tr><td><strong>Autophagy ↔ Adrenochrome</strong><br><code>Auto —associated_with(0.95)→ NM —sequesters(0.8)→ Adr</code></td><td class="num">0.011</td><td class="num">0.271</td><td class="num">0.138 (−1.72)</td><td class="num">#93 / #58</td></tr>
-            <tr><td><strong>Sirtuins ↔ Adrenochrome</strong><br><code>Sirt —suppress(0.86)→ SASP ←is_regulated_by(0.96)— NF-κB ←inhibits(0.6⚠)— Adr</code></td><td class="num">0.000</td><td class="num">0.000</td><td class="num">0.227 (−1.57)</td><td class="num">#305 / #147</td></tr>
+            <tr><td><strong>Mitohormesis ↔ Adrenochrome</strong><br><code>MH —requires(0.91)→ ROS —generates(0.9)→ Adr</code> (one of 6 shortest paths)</td><td class="num">0.036</td><td class="num">2.419</td><td class="num">0.043 (−1.35)</td><td class="num">#36 / #13</td></tr>
+            <tr><td><strong>Autophagy ↔ Adrenochrome</strong><br><code>Auto —associated_with(0.95)→ NM —sequesters(0.8)→ Adr</code> (one of 5 shortest paths)</td><td class="num">0.018</td><td class="num">1.355</td><td class="num">0.030 (−1.38)</td><td class="num">#38 / #50</td></tr>
+            <tr><td><strong>Sirtuins ↔ Adrenochrome</strong><br><code>Sirt —is_co_activated_by(0.8)— NRF2 —(Adr activates NRF2, 0.8)</code> (sole shortest path, undirected)</td><td class="num">0.006</td><td class="num">0.252</td><td class="num">0.059 (−1.32)</td><td class="num">#232 / #86</td></tr>
           </tbody>
         </table></div>
       </div>
@@ -409,202 +408,125 @@ Methylene blue --enhances(0.94)--> Mitochondrial Respiration</code></pre>
       <div class="note slate">
         <h4>Adaptive-program pairwise controls</h4>
         <p>
-          Jaccard(Mitohormesis, Autophagy) = <strong>0.076</strong>, the highest value in the quartet,
-          with shared neighbours <strong>AMPK, Caloric Restriction, Metformin, Mitochondrial ROS, Mitophagy</strong>.
-          Jaccard(Mitohormesis, Sirtuins) = 0.018 (AMPK only); Jaccard(Autophagy, Sirtuins) = 0.034
-          (AMPK, SASP). <strong>AMPK is the only neighbour shared by all three adaptive programs.</strong>
+          Jaccard(Mitohormesis, Autophagy) = <strong>0.044</strong>, the highest value in the quartet.
+          Jaccard(Mitohormesis, Sirtuins) = 0.019; Jaccard(Autophagy, Sirtuins) = 0.014. All quartet Jaccards are low (≤0.044), consistent with well-separated communities.
         </p>
       </div>
     </section>
 
     <section id="structure">
       <p class="sec-label">06 · Structural findings</p>
-      <h2>Stored-direction audit, single rate-limiting bridges, and bridge-perturbation sweep</h2>
+      <h2>Arm structure on the current build: multiplicity, weights, and the NRF2 sirtuin path</h2>
 
-      <h3>Three arms, each with a single rate-limiting bridge</h3>
-      <pre><code>Arm A (mitohormetic signalling):  Mitohormesis --requires(0.90)--> ROS --generates(0.95)--> Adrenochrome
-Arm B (autophagic clearance):    Autophagy --associated_with(0.95)--> Neuromelanin --sequesters(0.8)--> Adrenochrome
-Arm C (sirtuin/NAD+):            Sirtuins --suppress(0.86)--> SASP &lt;--is_regulated_by(0.96)-- NF-κB &lt;--inhibits(0.6, AMBIGUOUS)-- Adrenochrome</code></pre>
+      <h3>Three arms — updated multiplicities and weights</h3>
+      <pre><code>Arm A (mitohormetic signalling):  Mitohormesis --requires(0.91)--> ROS --generates(0.90)--> Adrenochrome   (1 of 6 shortest paths; others via Catalase, NRF2, Ferroptosis, Adrenochromatization, Reactive Oxygen Species)
+Arm B (autophagic clearance):    Autophagy --associated_with(0.95)--> Neuromelanin --sequesters(0.80)--> Adrenochrome   (1 of 5 shortest paths)
+Arm C (sirtuin/NRF2):            Sirtuins --is_co_activated_by(0.80)-- NRF2 --(Adrenochrome activates NRF2, 0.80)-- Adrenochrome   (sole shortest path, undirected)</code></pre>
       <p>
-        Arms A and B contain two stored edges; Arm C contains three steps, passes through the
-        highest-betweenness node in the quartet (SASP), and terminates in the lowest-confidence edge
-        of the quartet (0.6). Run C reproduces the baseline: the stored <code>requires</code>
-        confidence reads 0.9 (an earlier log printed 0.92); this triple edit is registered in
-        <a href="#log">§09</a>.</p>
+        The previous build's "exactly one rate-limiting bridge per arm" reading <strong>does not
+        reproduce</strong>. Arms A and B each have multiple co-shortest paths on this build, so no
+        single bridge is rate-limiting by hop count. Arm C no longer runs through SASP/NF-κB at all:
+        the <code>Adrenochrome —inhibits→ NF-κB</code> 0.6 triple recorded in the prior build is
+        <strong>absent from the current graph</strong> (no edge in either direction between
+        <code>adrenochrome</code> and <code>nf_kappab</code>), so the senomorphic direction-audit
+        story and the bridge-perturbation sweep computed against the old build are retired.
+        Sirtuins now reach adrenochrome only via NRF2. The <code>Sirtuins —suppress(0.85)→ SASP</code>
+        edge still exists but is not on a shortest path. The sweep is queued for re-computation
+        (§09) and its old numbers are removed rather than carried forward.</p>
 
       <div class="note">
-        <h4>⚠️ Stored-direction inversion on Arm C (standing)</h4>
+        <h4>What changed in the graph, and what it does to the old story</h4>
         <p>
-          The analysis script prints <code>NF-κB --[inhibits|0.6]→ Adrenochrome</code>; the stored
-          triple has the reverse direction: <strong>Adrenochrome —inhibits→ NF-κB</strong> (0.6,
-          AMBIGUOUS, from the senotherapeutic-agent document). The <em>senomorphic hypothesis</em>
-          proposes that adrenochrome's electrophilic o-quinone chemistry modifies p65/IKK cysteines
-          and reduces NF-κB-driven SASP; this mechanism is a hypothesis, untested in humans. With the
-          stored direction, Arm C places sirtuins and adrenochrome as <strong>two parallel inputs to
-          the same SASP/NF-κB axis</strong>, not a production-control chain.</p>
+          NF-κB entity fragmentation is largely resolved on this build (<code>NF-κB</code> is a single
+          deg-140 hub; only <code>NF-kB signaling</code> deg 2 remains as a near-duplicate), so the
+          former "≥7 variants distribute walk mass" caveat no longer applies to Arm C. The
+          <em>senomorphic hypothesis</em> (adrenochrome inhibits NF-κB → suppresses SASP) has no
+          preclinical senescence data and no stored triple on this build — it is retained only as a
+          labelled hypothesis, not as a computed result.</p>
       </div>
 
       <figure class="fig">
-        <div class="fig-head"><span class="fig-num">Figure 5 · Stored direction of Arm C edges</span></div>
+        <div class="fig-head"><span class="fig-num">Figure 5 · Arm C on the current build (Sirtuins–NRF2–Adrenochrome)</span></div>
         <div class="fig-canvas">
-          <div class="copy-host"><svg id="CorrecteddirectionseSvg" viewBox="0 0 980 240" role="img" aria-label="Stored direction of Arm C edges">
-            <title>Stored direction of Arm C edges</title>
+          <div class="copy-host"><svg id="ArmCsvg" viewBox="0 0 980 200" role="img" aria-label="Arm C: Sirtuins to NRF2 to Adrenochrome">
+            <title>Arm C: Sirtuins to NRF2 to Adrenochrome</title>
             <style>text { font-family: 'IBM Plex Sans', 'Helvetica Neue', sans-serif; }</style>
-            <rect x="0" y="0" width="980" height="240" fill="#fbf8f1"/>
-            <defs>
-              <marker id="inv-slate" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 1.2 L 10 5 L 0 8.8 z" fill="#2e4a5d"/></marker>
-              <marker id="inv-grey" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 1.2 L 10 5 L 0 8.8 z" fill="#8a8174"/></marker>
-              <marker id="inv-ox" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 1.2 L 10 5 L 0 8.8 z" fill="#7a312c"/></marker>
-            </defs>
-            <g><rect x="60" y="95" width="130" height="40" fill="#f2ece1" stroke="#d3c9b6"/><text x="125" y="120" text-anchor="middle" fill="#1c1915" font-size="14" font-weight="600">Sirtuins</text></g>
-            <g><rect x="330" y="95" width="120" height="40" fill="#f2ece1" stroke="#d3c9b6"/><text x="390" y="120" text-anchor="middle" fill="#1c1915" font-size="14" font-weight="600">SASP</text></g>
-            <g><rect x="590" y="95" width="120" height="40" fill="#f2ece1" stroke="#d3c9b6"/><text x="650" y="120" text-anchor="middle" fill="#1c1915" font-size="14" font-weight="600">NF-κB</text></g>
-            <g><rect x="835" y="95" width="130" height="40" fill="#7a312c"/><text x="900" y="120" text-anchor="middle" fill="#fbf8f1" font-size="14" font-weight="600">Adrenochrome</text></g>
-            <line x1="190" y1="115" x2="328" y2="115" stroke="#2e4a5d" stroke-width="2" marker-end="url(#inv-slate)"/><text x="259" y="105" text-anchor="middle" fill="#2e4a5d" font-size="12" font-weight="600">suppress · 0.86</text>
-            <line x1="588" y1="110" x2="452" y2="110" stroke="#4c6e86" stroke-width="1.6" marker-end="url(#inv-slate)"/><text x="520" y="158" text-anchor="middle" fill="#4c6e86" font-size="12">is_regulated_by · 0.96</text>
-            <line x1="712" y1="150" x2="833" y2="150" stroke="#8a8174" stroke-width="1.4" stroke-dasharray="5 4" marker-end="url(#inv-grey)"/><line x1="716" y1="154" x2="832" y2="146" stroke="#8a8174" stroke-width="1.2"/><text x="773" y="172" text-anchor="middle" fill="#8a8174" font-size="11.5">undirected projection prints: "NF-κB inhibits Adrenochrome" ✕</text>
-            <path d="M 900 93 C 855 40, 740 40, 668 80" fill="none" stroke="#7a312c" stroke-width="2.2" marker-end="url(#inv-ox)"/><text x="784" y="38" text-anchor="middle" fill="#7a312c" font-size="12" font-weight="600">stored triple: Adrenochrome --inhibits--> NF-κB · 0.6 ⚠ AMBIGUOUS</text>
-            <text x="490" y="212" text-anchor="middle" fill="#1c1915" font-size="14"><tspan x="490" dy="0">Stored direction: two parallel inputs to the same SASP/NF-κB axis —</tspan><tspan x="490" dy="20">sirtuins suppress SASP; adrenochrome is hypothesised to inhibit NF-κB.</tspan></text>
-          </svg><button class="copy-btn" data-copy="CorrecteddirectionseSvg" title="Copy diagram as PNG" aria-label="Copy Arm C diagram as PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button></div>
+            <rect x="0" y="0" width="980" height="200" fill="#fbf8f1"/>
+            <defs><marker id="arm-slate" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 1.2 L 10 5 L 0 8.8 z" fill="#2e4a5d"/></marker></defs>
+            <g><rect x="60" y="70" width="150" height="44" fill="#f2ece1" stroke="#d3c9b6"/><text x="135" y="98" text-anchor="middle" fill="#1c1915" font-size="15" font-weight="600">Sirtuins</text></g>
+            <g><rect x="415" y="70" width="150" height="44" fill="#f2ece1" stroke="#d3c9b6"/><text x="490" y="98" text-anchor="middle" fill="#1c1915" font-size="15" font-weight="600">NRF2</text></g>
+            <g><rect x="770" y="70" width="170" height="44" fill="#7a312c"/><text x="855" y="98" text-anchor="middle" fill="#fbf8f1" font-size="15" font-weight="600">Adrenochrome</text></g>
+            <line x1="212" y1="92" x2="412" y2="92" stroke="#2e4a5d" stroke-width="2" marker-end="url(#arm-slate)"/><text x="312" y="82" text-anchor="middle" fill="#2e4a5d" font-size="13" font-weight="600">is_co_activated_by · 0.8</text>
+            <line x1="768" y1="92" x2="568" y2="92" stroke="#2e4a5d" stroke-width="2" marker-end="url(#arm-slate)"/><text x="668" y="82" text-anchor="middle" fill="#2e4a5d" font-size="13" font-weight="600">activates · 0.8 (stored Adr→NRF2)</text>
+            <text x="490" y="160" text-anchor="middle" fill="#1c1915" font-size="14">Sole shortest path (undirected). SASP/NF-κB arm from the prior build is absent on this build.</text>
+          </svg><button class="copy-btn" data-copy="ArmCsvg" title="Copy diagram as PNG" aria-label="Copy Arm C diagram as PNG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button></div>
         </div>
         <figcaption>
-          <strong>Stored directions of path edges used in this analysis.</strong> The stored triple
-          runs Adrenochrome → NF-κB (senomorphic hypothesis, untested in humans); the undirected
-          projection printed the reverse direction. Each path edge used in a computed result has its
-          stored direction recorded before citation.</figcaption>
+          <strong>Stored edges of the current Sirtuins→Adrenochrome path.</strong> Undirected shortest
+          path via NRF2; stored directions shown. The prior SASP/NF-κB route and sweep are queued for
+          re-computation, not carried forward.</figcaption>
       </figure>
-
-      <div class="note gold">
-        <h4>Effect of NF-κB entity fragmentation on the sirtuin arm (standing)</h4>
-        <p>
-          The graph stores <strong>≥ 7 NF-κB variants</strong> as separate nodes (<code>NF-κB</code>
-          48, <code>NF-kB</code> 1, <code>NF-kappaB</code> 2, <code>NF-κB p65</code>,
-          <code>RelA/p65 (NF-κB subunit)</code>, <code>NF-kappa B signaling</code>,
-          <code>NF-κB signaling pathway</code>). Fragmentation distributes walk mass across these
-          nodes and is associated with the zero Jaccard value for Sirtuins; entity deduplication is
-          quantified as remediation Phase 0b. It also lowers the NF-κB-mediated path counts of the
-          remaining agents (Fisetin via COMT and Resveratrol via SIRT1/SIRT3 are partly independent of
-          NF-κB).</p>
-      </div>
-
-      <h3>Bridge-perturbation sweep</h3>
-      <div class="table-wrap">
-        <div class="copy-host table-host"><button class="copy-btn" data-copy-table="dataTable3" title="Copy table" aria-label="Copy table to clipboard"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 4v16"/></svg></button><table id="dataTable3">
-          <thead>
-            <tr>
-              <th>Perturbation</th>
-              <th class="num">Δ(MH→Adr)</th>
-              <th class="num">Δ(Auto→Adr)</th>
-              <th class="num">Δ(Sirt→Adr)</th>
-              <th>Specificity</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr><td>remove edge Mitohormesis–ROS</td><td class="num"><strong>−22.7%</strong></td><td class="num">−0.4%</td><td class="num">−0.0%</td><td>arm-specific</td></tr>
-            <tr><td>remove edge ROS–Adrenochrome</td><td class="num"><strong>−23.4%</strong></td><td class="num">−2.4%</td><td class="num">−7.8%</td><td>arm-specific</td></tr>
-            <tr><td>delete node ROS</td><td class="num"><strong>−27.0%</strong></td><td class="num">−2.4%</td><td class="num">−9.4%</td><td>arm-specific</td></tr>
-            <tr><td>remove edge Autophagy–Neuromelanin</td><td class="num">−0.3%</td><td class="num"><strong>−24.8%</strong></td><td class="num">−1.6%</td><td>arm-specific</td></tr>
-            <tr><td>remove edge Neuromelanin–Adrenochrome</td><td class="num">−2.3%</td><td class="num"><strong>−19.5%</strong></td><td class="num">−3.1%</td><td>arm-specific</td></tr>
-            <tr><td>delete node Neuromelanin</td><td class="num">−0.7%</td><td class="num"><strong>−33.3%</strong></td><td class="num">−3.1%</td><td>arm-specific</td></tr>
-            <tr><td>remove edge Sirtuins–SASP</td><td class="num">+0.9%</td><td class="num">+3.3%</td><td class="num"><strong>−4.7%</strong></td><td>low</td></tr>
-            <tr><td>delete node SASP</td><td class="num">+2.6%</td><td class="num">+3.7%</td><td class="num">−3.1%</td><td>direction reversed</td></tr>
-          </tbody>
-        </table></div>
-      </div>
-
-      <figure class="fig">
-        <div class="fig-head"><span class="fig-num">Figure 6 · Perturbation sweep</span></div>
-        <div class="fig-canvas" data-chart="sweep"></div>
-        <figcaption>
-          Bars for positive deltas lie to the right of zero and negative deltas to the left. Removing
-          an Arm A/B hop reduces <em>that arm's</em> coupling by ~20–33% with deltas of −0.3% to
-          −9.4% in the other arms. The sirtuin arm has a delta of −4.7% when its nominal bridge is
-          removed; deleting SASP <em>increases</em> the other arms' coupling by +2.6% / +3.7%. Last
-          two rows are highlighted.</figcaption>
-      </figure>
-
-      <p>Two computed results:</p>
-      <ol>
-        <li><strong>Arms A and B each have one rate-limiting bridge</strong> — removing either hop
-          reduces that arm's coupling by ~20–33% with deltas of −0.3% to −9.4% in the other arms.</li>
-        <li><strong>Arm C has a delta of −4.7% when its nominal bridge is removed</strong>; deleting
-          SASP <em>increases</em> Mito/Auto→Adrenochrome coupling by +2.6% / +3.7%. SASP carries walk
-          mass as a <strong>competing node</strong>; removing it redistributes coupling rather than removing a stored
-          path. Arm C is consistent with axis co-regulation, not a production-control chain; this
-          interpretation is a graph-structural hypothesis.</li>
-      </ol>
     </section>
 
     <section id="seam">
       <p class="sec-label">07 · Community boundary</p>
-      <h2>Fiedler sign separates the chemistry group from the program layer</h2>
+      <h2>Fiedler coordinates on the current build: no chemistry/program split</h2>
       <p>
-        λ₂ (algebraic connectivity) = <strong>0.0463</strong>. With every traced node on the same
-        Fiedler axis, the split the four-node study found generalizes:
-      </p>
-      <p>
-        <strong>Negative Fiedler side (−):</strong> Creatine −0.0024, Ascorbic Acid −0.0023, Adrenochrome
-        −0.0015, Fisetin −0.0010, Carbazochrome −0.0008, Resveratrol −0.0006.
-      </p>
-      <p>
-        <strong>Positive Fiedler side (+):</strong> Methylene blue +0.0013, Aminoguanidine +0.0021, Autophagy
-        +0.0033, Urolithin A +0.0033, Mitohormesis +0.0034, Rapamycin +0.0036, Spermidine +0.0037,
-        Sirtuins +0.0043.
-      </p>
-      <p>
-        The <strong>chemistry group</strong> — adrenochrome, its derivative (carbazochrome), its
-        reducer (ascorbate), and COMT-substrate modulators (fisetin, resveratrol) — has negative
-        Fiedler coordinates; the <strong>systemic program layer</strong> — both protocol core agents
-        (MB, AG), the remaining protocol agents, and all three adaptive programs — has positive coordinates.
-        Protocol agents are present on <em>both sides</em> of the weakest functional community boundary
-        (λ₂ = 0.0463).</p>
+        λ₂ (algebraic connectivity) = <strong>0.0994</strong>. On this build all 14 traced nodes
+        cluster on the <strong>same side</strong> of the Fiedler axis at small positive values
+        (Adrenochrome +0.0005; range +0.0003 Aminoguanidine/Vitamin C/Urolithin A to +0.0008
+        Autophagy). The prior build's negative/positive community boundary between the chemistry
+        group and the program layer <strong>does not reproduce</strong> — and since Fiedler sign is
+        eigenvector-arbitrary, only the magnitudes and λ₂ are meaningful. The reading adopted here
+        is therefore negative: <em>no sign-based layer separation is supported on this build</em>.
+        Fig.7 plots the coordinates at their true values on a compressed axis so the clustering is
+        visible rather than implied by a split.</p>
 
       <figure class="fig">
-        <div class="fig-head"><span class="fig-num">Figure 7 · Fiedler coordinates of all traced nodes and the community boundary</span></div>
+        <div class="fig-head"><span class="fig-num">Figure 7 · Fiedler coordinates of all traced nodes (current build)</span></div>
         <div class="fig-canvas" data-chart="seam"></div>
         <figcaption>
-          Dots sit on a vertical axis at their Fiedler coordinate; leader lines place labels in a
-          rank grid to avoid collision. The shaded halves mark the two sides of the weakest community
-          boundary (λ₂ = 0.0463). Adrenochrome and its redox partners (ascorbate, carbazochrome,
-          creatine, fisetin, resveratrol) have negative coordinates; every adaptive program and the
-          protocol core agents have positive coordinates.</figcaption>
+          Dots at their true Fiedler coordinate; labels placed at the dot height (alternating side
+          only) so vertical position reads as value. All traced nodes cluster at +0.0003…+0.0008 —
+          no negative-side chemistry group on this build (λ₂ = 0.0994).</figcaption>
       </figure>
 
       <div class="note forest">
-        <h4>H2 extended to protocol agents, with a stability qualifier</h4>
+        <h4>H2/H8 status after the re-run</h4>
         <p>
-          H2 stated that adrenochrome has a <em>negative Fiedler coordinate</em> opposite the adaptive trio.
-          The extended statement is that adrenochrome has a negative coordinate opposite
-          <em>the protocol's systemic agents</em> and shares the negative side with its own chemical
-          family. Qualifier: Fiedler coordinates of peripheral nodes (Carbazochrome degree 2,
-          Ascorbic Acid degree 6) are the least stable under rebuild; a re-run should report sign
-          stability for the low-degree members before interpreting the chemistry-versus-program
-          boundary.</p>
+          The former H2/H8 ("adrenochrome and its chemical family share a negative Fiedler sign
+          opposite the program layer") is <strong>retired as a result</strong> and kept only as a
+          falsifiable hypothesis for future builds (§08): a re-run that produced a consistent
+          sign split would revive it; the current build falsifies it. Peripheral low-degree nodes
+          (Carbazochrome deg 8, Vitamin C deg 21) remain the least stable Fiedler members under
+          rebuild regardless of sign.</p>
       </div>
     </section>
 
     <section id="hypotheses">
       <p class="sec-label">08 · Hypotheses</p>
-      <h2>Hypotheses H1–H8 from baseline and protocol traces (untested in humans)</h2>
+      <h2>Hypotheses H1–H8 after the re-run (untested in humans)</h2>
       <p>
         H1–H5 are carried over from the four-node study; H6–H8 are protocol-specific. All are
-        hypotheses about graph structure computed against build <code>867a5ae5fdb8a46c</code>;
-        biological predictions derived from them remain untested in humans. The "falsifies" column
-        names the re-analysis that would contradict each hypothesis.</p>
+        hypotheses about graph structure computed against build
+        <code>273eba0b1872c83844c9cf5dcabbde8c94c16060</code>; biological predictions derived from
+        them remain untested in humans. Three hypotheses changed status in this re-run (H1 narrowed,
+        H2/H8 retired as results). The "falsifies" column names the re-analysis that would
+        contradict each hypothesis.</p>
       <div class="table-wrap">
         <div class="copy-host table-host"><button class="copy-btn" data-copy-table="dataTable4" title="Copy table" aria-label="Copy table to clipboard"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 4v16"/></svg></button><table id="dataTable4">
           <thead>
             <tr><th>#</th><th>Hypothesis</th><th>Graph basis</th><th>Re-analysis that would contradict it</th></tr>
           </thead>
           <tbody>
-            <tr><td class="num"><strong>H1</strong></td><td>Each adaptive program connects to the adrenochrome node through <strong>exactly one rate-limiting bridge</strong>, arm-specific.</td><td>Path multiplicity 1 per arm; distinct first hops (ROS, Neuromelanin, SASP).</td><td>Multiple equally short paths per pair; shared first-hop bridges across arms.</td></tr>
-            <tr><td class="num"><strong>H2</strong></td><td>Adrenochrome and the protocol's systemic agents have <strong>opposite Fiedler signs</strong>; the chemical family (carbazochrome, ascorbate) shares the negative sign with adrenochrome.</td><td>Fiedler: adrenochrome −0.0015; chemistry group −0.0006…−0.0024; MB +0.0013, AG +0.0021, adaptive programs +0.0033…+0.0043.</td><td>Any program-layer agent becomes negative, or a chemistry node becomes positive, under rebuild.</td></tr>
-            <tr><td class="num"><strong>H3</strong></td><td>Walk-mass coupling among arms follows <strong>Mitohormesis ≈ Autophagy ≫ Sirtuins</strong>.</td><td>PPR #89/#93/#305; reverse #60/#58/#147.</td><td>Sirtuins ranks above either program under weighted re-analysis.</td></tr>
-            <tr><td class="num"><strong>H4</strong></td><td>Clustering and k-core differ across the quartet: Autophagy has clustering 0.039 and k-core 6; Adrenochrome has clustering 0.0094.</td><td>Clustering / k-core contrast.</td><td>Similar clustering/k-core profiles across the quartet.</td></tr>
-            <tr><td class="num"><strong>H5</strong></td><td>All four quartet nodes have betweenness above degree-preserving null values.</td><td>Nulls: z +7.76 (Auto), +5.87 (Adr), +3.85 (Sirt), +3.22 (MH).</td><td>Any node's betweenness within ~2σ of its degree-preserving null.</td></tr>
-            <tr><td class="num"><strong>H6</strong></td><td>Protocol core (AG, MB) has the <strong>smallest PPR ranks among exogenous agents</strong> — AG top-5 both directions (#4/#3), MB top-10 (#8/#7).</td><td>PPR ladder (§03); both directions have smaller ranks than any adaptive program.</td><td>Agents rank below top-20 under weighted PPR with deduplicated NF-κB nodes.</td></tr>
-            <tr><td class="num"><strong>H7</strong></td><td>Coupling mode differs by stored edge type: reaction/derivation/reduction agents use <strong>direct edges</strong> (AG, Carbazochrome, Ascorbate); modulators use <strong>shared bridges</strong> (MB, remaining agents).</td><td>Direct-edge membership is AG/Carb/Asc; MB has an Adamic–Adar proposal of 2.641 but no stored edge.</td><td>Post-entity-resolution run adds a direct MB–Adrenochrome edge, or removes AG's direct edge.</td></tr>
-            <tr><td class="num"><strong>H8</strong></td><td>Adrenochrome has a <em>negative Fiedler coordinate</em> together with its <strong>chemical family</strong>; the negative set contains {Adr, Carb, Asc, Creatine, Fisetin, Resveratrol}.</td><td>Negative Fiedler set {Adr, Carb, Asc, Creatine, Fisetin, Resveratrol}.</td><td>Community boundary re-drawn with more validated low-degree members shows the chemistry set is not consistently sign-consistent.</td></tr>
+            <tr><td class="num"><strong>H1</strong></td><td>Each adaptive program connects to the adrenochrome node via a small set of co-shortest paths with distinct bridge families (MH 6, Auto 5, Sirt 1 via NRF2).</td><td>Shortest-path multiplicities 6/5/1; ROS and Neuromelanin arms among them; Sirtuins only via NRF2.</td><td>Sirtuins gains a second shortest path, or ROS/Neuromelanin leave the MH/Auto shortest sets.</td></tr>
+            <tr><td class="num"><strong>H2</strong></td><td><em>Retired as a result:</em> chemistry/program Fiedler sign split. Kept as hypothesis: a future build could show a consistent sign split between adrenochrome's chemical family and the program layer.</td><td>Current build falsifies it: all 14 traced nodes at +0.0003…+0.0008 (λ₂ 0.0994).</td><td>Any future build with a sign-consistent split would revive it as a result.</td></tr>
+            <tr><td class="num"><strong>H3</strong></td><td>Walk-mass coupling among the protocol core and programs is led by AG, with MH ≈ Auto ≫ Sirtuins.</td><td>PPR fwd #4 (AG) / #35 (MB) / #36 (MH) / #38 (Auto) / #232 (Sirt); reverse Adr #3 (AG) / #13 (MH) / #50 (Auto) / #86 (Sirt).</td><td>Sirtuins ranks above MH/Auto under weighted re-analysis.</td></tr>
+            <tr><td class="num"><strong>H4</strong></td><td>Clustering and k-core differ across the quartet: Autophagy and Mitohormesis sit in k-core 8; Adrenochrome k-core 7, clustering 0.019.</td><td>Clustering / k-core contrast (§05 table).</td><td>Similar clustering/k-core profiles across the quartet.</td></tr>
+            <tr><td class="num"><strong>H5</strong></td><td>All four quartet nodes have betweenness above degree-preserving null values (to be re-run on this build).</td><td>Prior-build nulls retired; queued (§09).</td><td>Any node's betweenness within ~2σ of its degree-preserving null.</td></tr>
+            <tr><td class="num"><strong>H6</strong></td><td>AG has the smallest PPR ranks among exogenous agents in both directions (#4 / #3); MB is mid-pack (#35 / #16).</td><td>PPR ladder (§03); AG direct edge versus MB bridge coupling.</td><td>AG falls below top-20 under weighted PPR with deduplicated nodes.</td></tr>
+            <tr><td class="num"><strong>H7</strong></td><td>Coupling mode differs by stored edge type: reaction/derivation/reduction agents use <strong>direct edges</strong> (AG, Carbazochrome, Vitamin C); modulators use <strong>shared bridges</strong> (MB, remaining agents).</td><td>Direct-edge membership is AG/Carb/VitC; MB has an Adamic–Adar proposal of 1.976 but no stored edge.</td><td>A future build adds a direct MB–Adrenochrome edge, or removes AG's direct edge.</td></tr>
+            <tr><td class="num"><strong>H8</strong></td><td><em>Retired as a result (see H2).</em> The present-tense claim "adrenochrome shares a negative Fiedler side with its chemical family" is falsified on this build.</td><td>All traced nodes share one Fiedler side (§07).</td><td>A future build with a reproduced chemistry/program sign split.</td></tr>
           </tbody>
         </table></div>
       </div>
@@ -612,7 +534,7 @@ Arm C (sirtuin/NAD+):            Sirtuins --suppress(0.86)--> SASP &lt;--is_regu
 
     <section id="log">
       <p class="sec-label">09 · Trace log</p>
-      <h2>Trace log of runs (build: 867a5ae5fdb8a46c)</h2>
+      <h2>Trace log of runs (build: 273eba0b1872c83844c9cf5dcabbde8c94c16060)</h2>
       <div class="table-wrap">
         <div class="copy-host table-host"><button class="copy-btn" data-copy-table="dataTable5" title="Copy table" aria-label="Copy table to clipboard"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 4v16"/></svg></button><table id="dataTable5">
           <thead>
@@ -624,22 +546,32 @@ Arm C (sirtuin/NAD+):            Sirtuins --suppress(0.86)--> SASP &lt;--is_regu
             </tr>
           </thead>
           <tbody>
-            <tr><td>20 Aug · AM<br>Quartet baseline A–D</td><td><code>--sources mitohormesis autophagy sirtuins ↔ --targets adrenochrome</code> (both directions) + supp.</td><td>Arms/bridges ROS-NM-SASP; PPR #89/#93/#305; nulls +3.2…+7.8; sweep; composite.</td><td><code>src/tasks/node_network_adrenochrome_sirtuins_20_AUG_2026/run_log_A…D</code></td></tr>
-            <tr><td>20 Aug · PM · <strong>A</strong></td><td><code>--sources methylene_blue aminoguanidine --targets adrenochrome</code></td><td>AG direct <code>reacts_with(0.9)</code>; PPR #4/#8; AA(MB→Adr)=2.641, highest in this trace set; 3 MB bridges.</td><td><code>src/tasks/node_network_adrenochrome_20_AUG_2026/run_log_A_sources_mb_ag_targets_adrenochrome.txt</code></td></tr>
-            <tr><td>20 Aug · PM · <strong>B</strong></td><td><code>--sources adrenochrome --targets methylene_blue aminoguanidine</code></td><td>Reverse PPR: Adr <strong>#3</strong> @AG seed, <strong>#7</strong> @MB seed — smallest PPR ranks among exogenous agents in this trace set.</td><td><code>…/run_log_B_sources_adrenochrome_targets_mb_ag.txt</code></td></tr>
-            <tr><td>20 Aug · PM · <strong>C</strong></td><td><code>--sources mitohormesis autophagy sirtuins --targets adrenochrome</code></td><td>Baseline reproduced exactly; <code>requires</code> confidence prints 0.9 (earlier log 0.92).</td><td><code>…/run_log_C_sources_arms_targets_adrenochrome.txt</code></td></tr>
-            <tr><td>20 Aug · PM · <strong>D</strong></td><td><code>--sources urolithin_a spermidine rapamycin fisetin creatine resveratrol carbazochrome ascorbic_acid --targets adrenochrome</code></td><td>Direct edges Carb/Asc; ladder completed (#14/#15); Jaccard(Carb,Asc)=0.143, highest pairwise Jaccard in this trace set; Carb in AMM community #98.</td><td><code>…/run_log_D_sources_protocol_stack_targets_adrenochrome.txt</code></td></tr>
+            <tr><td>16 Nov · C</td><td><code>--sources mitohormesis autophagy sirtuins --targets adrenochrome</code></td><td>Arms re-traced: MH 6 paths, Auto 5, Sirt 1 via NRF2; PPR #36/#38/#232; Fiedler +0.0006/+0.0008/+0.0007; λ₂ 0.0994. Prior multiplicity-1 / SASP reading falsified.</td><td><code>src/tasks/node_network_adrenochrome_20_AUG_2026/rerun_2026-11-16_build_273eba0b/run_log_C.txt</code> (archived, see §09)</td></tr>
+            <tr><td>16 Nov · A</td><td><code>--sources methylene_blue aminoguanidine --targets adrenochrome</code></td><td>AG direct <code>reacts_with(0.9)</code>; PPR #4 / MB #35; AA(MB→Adr)=1.976; MB 5 bridges.</td><td><code>src/tasks/node_network_adrenochrome_20_AUG_2026/rerun_2026-11-16_build_273eba0b/run_log_A.txt</code></td></tr>
+            <tr><td>16 Nov · B</td><td><code>--sources adrenochrome --targets methylene_blue aminoguanidine</code></td><td>Reverse PPR: Adr <strong>#3</strong> @AG seed, <strong>#16</strong> @MB seed.</td><td><code>src/tasks/node_network_adrenochrome_20_AUG_2026/rerun_2026-11-16_build_273eba0b/run_log_B.txt</code></td></tr>
+            <tr><td>16 Nov · C-rev</td><td><code>--sources adrenochrome --targets mitohormesis autophagy sirtuins</code></td><td>Reverse PPR Adr #13 (MH) / #50 (Auto) / #86 (Sirt).</td><td><code>(stdout, §05)</code></td></tr>
+            <tr><td>16 Nov · D</td><td><code>--sources urolithin_a spermidine rapamycin fisetin creatine resveratrol carbazochrome vitamin_c --targets adrenochrome</code></td><td>Direct edges Carb/VitC; ladder #22/#29 (#146–#272 modulators); Carb–VitC Jaccard 0.045.</td><td><code>src/tasks/node_network_adrenochrome_20_AUG_2026/rerun_2026-11-16_build_273eba0b/run_log_D.txt</code></td></tr>
+            <tr><td>16 Nov · all-node</td><td><code>--sources (14 agents) --targets adrenochrome</code></td><td>λ₂ 0.0994; Fiedler +0.0003…+0.0008 for all 14 — no sign split.</td><td><code>(stdout, §07)</code></td></tr>
           </tbody>
         </table></div>
       </div>
 
+      <h3>Superseded (prior build 867a5ae5…, removed not patched)</h3>
+      <ol>
+        <li>Bridge-perturbation sweep (Fig.6) and its percentages — computed against the old graph; edges/nodes it removed no longer define the shortest paths. Queued for recomputation.</li>
+        <li>Configuration-model betweenness nulls (old H5 numbers) — queued.</li>
+        <li>The SASP/NF-κB Arm-C diagram and "direction inversion" audit — the <code>inhibits</code> triple is absent from this build.</li>
+        <li>The chemistry/program Fiedler split (§07 H2/H8) — falsified, retained as hypothesis only.</li>
+      </ol>
+
       <h3>Queued analyses</h3>
       <ol>
+        <li><strong>Bridge-perturbation sweep re-computation</strong> on the current arms (ROS/NM/NRF2 bridges), replacing the retired Fig.6.</li>
         <li><strong>Confidence-weighted PPR re-rank</strong> of the full ladder (Phase 3 method) to test the §03 PPR ordering.</li>
-        <li><strong>MB ⇄ carbazochrome Complex-I subgraph</strong> — the proposed MRR electron-shunt interaction recorded in the combo-therapy document (hypothesis, untested in humans).</li>
-        <li><strong>Hormetic Window / SIRT3-SIRT4 ratio</strong> ego-graph (<code>SIRT3/SIRT4 ratio --determines(0.95)--> Hormetic Window</code>) — a proposed MRR biomarker (untested in humans).</li>
-        <li><strong>NR / NMN → adrenochrome</strong> trace once the NAD+ precursor node is included in the set.</li>
-        <li><strong>Post-entity-resolution re-run</strong> (NF-κB dedup) — predicted to change Arm C and the Fisetin/Resveratrol multi-path counts most; prediction unverified.</li>
+        <li><strong>Configuration-model betweenness nulls</strong> on this build (H5).</li>
+        <li><strong>GlyNAC / NR / NMN traces</strong> — nodes now exist (<code>glynac</code> with <code>buffers→Adrenochrome</code> 0.8; <code>nicotinamide_riboside</code> deg 74).</li>
+        <li><strong>MB ⇄ carbazochrome Complex-I subgraph</strong> — proposed MRR electron-shunt interaction (hypothesis, untested in humans).</li>
+        <li><strong>Hormetic Window / SIRT3-SIRT4 ratio</strong> ego-graph — proposed MRR biomarker (untested in humans).</li>
       </ol>
     </section>
 
@@ -656,14 +588,16 @@ uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
 uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
     --sources mitohormesis autophagy sirtuins --targets adrenochrome
 uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
-    --sources urolithin_a spermidine rapamycin fisetin creatine resveratrol carbazochrome ascorbic_acid \
+    --sources urolithin_a spermidine rapamycin fisetin creatine resveratrol carbazochrome vitamin_c \
     --targets adrenochrome</code></pre>
       <p>
         Supplementary computations (composite score, PPR seed-intersection, configuration-model nulls,
         bridge removal sweep) run as inline scripts against <code>graphify-out/graph.json</code> under
         the same <code>RANDOM_SEED=1</code> convention as <code>scripts/analysis/node_analysis.py</code>.
         Environment: Python 3.14, NetworkX 3.x, SciPy 1.x. This page is bound to build
-        <code>867a5ae5fdb8a46c</code>; a rebuild invalidates the rows in <a href="#log">§09</a>.
+        <code>273eba0b1872c83844c9cf5dcabbde8c94c16060</code>; a rebuild invalidates the rows in <a href="#log">§09</a>.
+        The bridge-perturbation sweep and betweenness nulls are <em>not</em> yet re-run on this build and
+        have been removed from the sections above (§06, §08 H5) rather than carried forward.
       </p>
     </section>
 
@@ -706,7 +640,7 @@ uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
     mb: "#2e4a5d",
     ag: "#345443",
     carb: "#a24b44",
-    asc: "#c49a4a",
+    asc: "#a9852f",
     ink: "#1c1915",
     mute: "#6d665b",
     faint: "#8d8578",
@@ -722,12 +656,12 @@ uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
       arrowHead = T2.arrowHead, wrapText = T2.wrapText;
 
   var NODES = {
-    adr:  { id: "adr",  label: "Adrenochrome", degree: 60, in: 18, out: 42, pagerank: 0.00501, betweenness: 0.0387,  clustering: 0.0094, kCore: 4, color: C.adr },
-    mb:   { id: "mb",   label: "Methylene blue", degree: 45, in: 1,  out: 44, pagerank: 0.00040, betweenness: 0.0307,  clustering: 0.0020, kCore: 4, color: C.mb },
-    ag:   { id: "ag",   label: "Aminoguanidine", degree: 32, in: 1, out: 31, pagerank: 0.00026, betweenness: 0.0163,  clustering: 0.0141, kCore: 4, color: C.ag },
-    mh:   { id: "mh",   label: "Mitohormesis",   degree: 34, in: 7,  out: 27, pagerank: 0.00083, betweenness: 0.0166,  clustering: 0.0143, kCore: 5, color: C.mh },
-    auto: { id: "auto", label: "Autophagy",       degree: 39, in: 23, out: 16, pagerank: 0.00429, betweenness: 0.0276,  clustering: 0.0390, kCore: 6, color: C.auto },
-    sirt: { id: "sirt", label: "Sirtuins",        degree: 24, in: 11, out: 13, pagerank: 0.00203, betweenness: 0.0112,  clustering: 0.0119, kCore: 5, color: C.sirt }
+    adr:  { id: "adr",  label: "Adrenochrome", degree: 149, in: 75, out: 74, pagerank: 0.00477121, betweenness: 0.05000066,  clustering: 0.019, kCore: 7, color: C.adr },
+    mb:   { id: "mb",   label: "Methylene blue", degree: 69, in: 7,  out: 62, pagerank: 0.00022931, betweenness: 0.0133,  clustering: 0.0227, kCore: 6, color: C.mb },
+    ag:   { id: "ag",   label: "Aminoguanidine", degree: 49, in: 4,  out: 45, pagerank: 0.00016682, betweenness: 0.00619,  clustering: 0.0413, kCore: 5, color: C.ag },
+    mh:   { id: "mh",   label: "Mitohormesis",   degree: 70, in: 38, out: 32, pagerank: 0.00138821, betweenness: 0.01364,  clustering: 0.0291, kCore: 8, color: C.mh },
+    auto: { id: "auto", label: "Autophagy",       degree: 210, in: 162, out: 48, pagerank: 0.0101558, betweenness: 0.06681,  clustering: 0.0165, kCore: 8, color: C.auto },
+    sirt: { id: "sirt", label: "Sirtuins",        degree: 57, in: 31, out: 26, pagerank: 0.00147489, betweenness: 0.01152,  clustering: 0.0257, kCore: 7, color: C.sirt }
   };
   var SERIES = [NODES.adr, NODES.mb, NODES.ag, NODES.mh, NODES.auto, NODES.sirt];
 
@@ -738,109 +672,107 @@ uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
     el("line", { x1: midX, y1: y2, x2: x2, y2: y2, stroke: color, "stroke-width": width, "stroke-dasharray": dashed || null }, svg);
   }
 
-  /* ——— Figure 1: stored-edge circuit ——— */
+  /* ——— Figure 1: stored-edge circuit, split into two panels ——— */
+  /* Panel A: protocol agents -> adrenochrome. Panel B: adaptive programs -> adrenochrome.
+     One canvas at 980x620 forced three jobs together; splitting gives each edge room. */
   function drawCircuit() {
     var host = document.querySelector('[data-chart="circuit"]');
     if (!host) return;
-    var w = 980, h = 620;
-    var svg = svgRoot(host, w, h, "Stored-edge circuit: protocol agents, shared bridges, adrenochrome node, adaptive programs");
-    var agentColors = { ag: C.ag, mb: C.mb, asc: C.asc, carb: C.carb };
-    arrowHead(svg, "pc-ag", C.ag);
-    arrowHead(svg, "pc-mb", C.mb);
-    arrowHead(svg, "pc-asc", C.asc);
-    arrowHead(svg, "pc-carb", C.carb);
-    arrowHead(svg, "pc-arm-mh", C.mh);
-    arrowHead(svg, "pc-arm-auto", C.auto);
+    var w = 980, h = 1020;
+    var svg = svgRoot(host, w, h, "Stored-edge circuit split in two panels: protocol agents and adaptive programs to the adrenochrome node");
+    arrowHead(svg, "pc-ag", C.ag); arrowHead(svg, "pc-mb", C.mb);
+    arrowHead(svg, "pc-asc", C.asc); arrowHead(svg, "pc-carb", C.carb);
+    arrowHead(svg, "pc-arm-mh", C.mh); arrowHead(svg, "pc-arm-auto", C.auto);
     arrowHead(svg, "pc-arm-sirt", C.sirt);
-    arrowHead(svg, "pc-ox", C.oxblood);
 
     function agent(cx, cy, r, c1, c2, color, sub) {
       el("circle", { cx: cx, cy: cy, r: r, fill: color, stroke: C.ink, "stroke-width": 0.8 }, svg);
-      text(svg, cx, cy, c1, { anchor: "middle", size: 12.5, weight: 600, fill: C.sheet });
-      text(svg, cx, cy + 14, c2, { anchor: "middle", size: 12.5, weight: 600, fill: C.sheet });
-      text(svg, cx, cy + r + 14, sub, { anchor: "middle", size: 11, fill: C.mute });
+      text(svg, cx, cy, c1, { anchor: "middle", size: 13, weight: 600, fill: C.sheet });
+      text(svg, cx, cy + 15, c2, { anchor: "middle", size: 13, weight: 600, fill: C.sheet });
+      text(svg, cx, cy + r + 16, sub, { anchor: "middle", size: 12, fill: C.mute });
     }
     function bridge(x, y, w2, h2, label) {
       el("rect", { x: x, y: y, width: w2, height: h2, fill: C.paper, stroke: C.rule, "stroke-width": 1 }, svg);
-      text(svg, x + w2 / 2, y + h2 / 2 + 4, label, { anchor: "middle", size: 12, weight: 600, fill: C.ink });
+      text(svg, x + w2 / 2, y + h2 / 2 + 4, label, { anchor: "middle", size: 12.5, weight: 600, fill: C.ink });
     }
-
-    // protocol agents (left column)
-    agent(110, 95, 46, "Amino-", "guanidine", C.ag, "dicarbonyl/AGE trapping");
-    agent(110, 230, 46, "Methylene", "blue", C.mb, "electron shunt (Complex I/III)");
-    agent(110, 365, 42, "Ascorbic", "acid", C.asc, "o-quinone reduction");
-    agent(110, 490, 42, "Carbo-", "zochrome", C.carb, "adrenochrome derivative");
-
-    // shared bridges (middle)
-    bridge(300, 140, 150, 34, "Complex I");
-    bridge(300, 208, 150, 34, "Oxidative Stress");
-    bridge(300, 276, 150, 34, "Hemolysis");
-
-    // trigger (right)
-    el("circle", { cx: 700, cy: 250, r: 62, fill: C.oxblood, stroke: C.ink, "stroke-width": 0.8 }, svg);
-    text(svg, 700, 244, "Adreno-", { anchor: "middle", size: 16, weight: 600, fill: C.sheet });
-    text(svg, 700, 262, "chrome", { anchor: "middle", size: 16, weight: 600, fill: C.sheet });
-    text(svg, 700, 340, "adrenochrome node", { anchor: "middle", size: 12, fill: C.mute, weight: 600 });
-
-    // MB fan: MB -> three bridges -> Adr
-    el("line", { x1: 156, y1: 216, x2: 298, y2: 158, stroke: C.mb, "stroke-width": 1.3 }, svg);
-    el("line", { x1: 156, y1: 230, x2: 298, y2: 225, stroke: C.mb, "stroke-width": 1.3 }, svg);
-    el("line", { x1: 156, y1: 244, x2: 298, y2: 292, stroke: C.mb, "stroke-width": 1.3 }, svg);
-    el("line", { x1: 452, y1: 158, x2: 644, y2: 224, stroke: C.mb, "stroke-width": 1.3 }, svg);
-    el("line", { x1: 452, y1: 225, x2: 640, y2: 244, stroke: C.mb, "stroke-width": 1.3 }, svg);
-    el("line", { x1: 452, y1: 292, x2: 648, y2: 264, stroke: C.mb, "stroke-width": 1.3 }, svg);
-    text(svg, 548, 205, "3 co-shortest paths · no direct stored edge", { anchor: "middle", size: 11.5, mono: true, fill: C.mb, weight: 600 });
-
-    // direct edges (with ■ badge marker at midpoint)
+    function adr(cx, cy) {
+      el("circle", { cx: cx, cy: cy, r: 58, fill: C.oxblood, stroke: C.ink, "stroke-width": 0.8 }, svg);
+      text(svg, cx, cy - 6, "Adreno-", { anchor: "middle", size: 16, weight: 600, fill: C.sheet });
+      text(svg, cx, cy + 12, "chrome", { anchor: "middle", size: 16, weight: 600, fill: C.sheet });
+      text(svg, cx, cy + 76, "adrenochrome node", { anchor: "middle", size: 12, fill: C.mute, weight: 600 });
+    }
     function directEdge(x1, y1, x2, y2, label, lx, ly, color, mId) {
       el("line", { x1: x1, y1: y1, x2: x2, y2: y2, stroke: color, "stroke-width": 2.2, "marker-end": "url(#" + mId + ")" }, svg);
       el("rect", { x: (x1 + x2) / 2 - 5, y: (y1 + y2) / 2 - 5, width: 10, height: 10, fill: C.sheet, stroke: color, "stroke-width": 1.4 }, svg);
-      text(svg, lx, ly, label, { anchor: "middle", size: 11.5, mono: true, fill: color, weight: 600 });
+      text(svg, lx, ly, label, { anchor: "middle", size: 12, mono: true, fill: color, weight: 600 });
     }
-    directEdge(158, 102, 642, 214, "reacts_with · 0.9", 400, 128, C.ag, "pc-ag");
-    directEdge(152, 352, 642, 266, "reduces · 0.75", 356, 330, C.asc, "pc-asc");
-    directEdge(152, 470, 648, 286, "is_an_intermediate_for · 0.95", 356, 462, C.carb, "pc-carb");
 
-    // adaptive arms (bottom)
-    var armColors = { mh: C.mh, auto: C.auto, sirt: C.sirt };
-    bridge(390, 470, 110, 34, "ROS");
-    bridge(580, 470, 150, 34, "Neuromelanin");
-    bridge(790, 470, 100, 34, "SASP");
-    text(svg, 900, 492, "NF-κB", { anchor: "middle", size: 11, weight: 600, fill: C.mute });
+    /* — Panel A (y 0–480) — */
+    text(svg, 16, 28, "Panel A · protocol agents → adrenochrome", { size: 15, weight: 600, fill: C.ink });
+    agent(110, 100, 46, "Amino-", "guanidine", C.ag, "dicarbonyl/AGE trapping");
+    agent(110, 245, 46, "Methylene", "blue", C.mb, "electron shunt (Complex I/III)");
+    agent(110, 380, 42, "Vitamin", "C", C.asc, "o-quinone reduction");
+    agent(110, 505, 42, "Carbo-", "zochrome", C.carb, "adrenochrome derivative");
+    // MB bridges: list all five, compact
+    var mbBridges = ["Complex I", "Oxidative Stress", "Hemolysis", "Methemoglobin", "Resp. Chain Complex I"];
+    mbBridges.forEach(function (b, k) { bridge(300, 150 + k * 48, 170, 34, b); });
+    adr(750, 300);
+    // MB fan-out (one labelled fan, no per-line labels)
+    mbBridges.forEach(function (b, k) {
+      var y = 150 + k * 48 + 17;
+      el("line", { x1: 156, y1: 245, x2: 298, y2: y, stroke: C.mb, "stroke-width": 1.3 }, svg);
+      el("line", { x1: 472, y1: y, x2: 696, y2: 300 + (k - 2) * 8, stroke: C.mb, "stroke-width": 1.3 }, svg);
+    });
+    text(svg, 540, 130, "5 co-shortest paths · no direct stored edge", { size: 12, mono: true, fill: C.mb, weight: 600 });
+    // AG: horizontal above the bridge column, then diagonal to Adr top (avoids crossing bridge boxes)
+    el("polyline", { points: "158,100 520,100 700,252", fill: "none", stroke: C.ag, "stroke-width": 2.2, "marker-end": "url(#pc-ag)", "stroke-linejoin": "round" }, svg);
+    el("rect", { x: 424, y: 95, width: 10, height: 10, fill: C.sheet, stroke: C.ag, "stroke-width": 1.4 }, svg);
+    text(svg, 430, 88, "reacts_with · 0.9", { anchor: "middle", size: 12, mono: true, fill: C.ag, weight: 600 });
+    // Vitamin C: horizontal below the bridge column, then diagonal to Adr left
+    el("polyline", { points: "152,380 520,380 692,312", fill: "none", stroke: C.asc, "stroke-width": 2.2, "marker-end": "url(#pc-asc)", "stroke-linejoin": "round" }, svg);
+    el("rect", { x: 424, y: 375, width: 10, height: 10, fill: C.sheet, stroke: C.asc, "stroke-width": 1.4 }, svg);
+    text(svg, 430, 404, "reduces · 0.75", { anchor: "middle", size: 12, mono: true, fill: C.asc, weight: 600 });
+    directEdge(152, 488, 700, 340, "is_an_intermediate_for · 0.9", 430, 500, C.carb, "pc-carb");
 
-    // arm circles
-    el("circle", { cx: 445, cy: 570, r: 34, fill: C.mh, stroke: C.ink, "stroke-width": 0.8 }, svg);
-    text(svg, 445, 568, "Mito-", { anchor: "middle", size: 12, weight: 600, fill: C.sheet });
-    text(svg, 445, 581, "hormesis", { anchor: "middle", size: 12, weight: 600, fill: C.sheet });
-    el("circle", { cx: 655, cy: 570, r: 34, fill: C.auto, stroke: C.ink, "stroke-width": 0.8 }, svg);
-    text(svg, 655, 574, "Autophagy", { anchor: "middle", size: 12, weight: 600, fill: C.sheet });
-    el("circle", { cx: 840, cy: 560, r: 34, fill: C.sirt, stroke: C.ink, "stroke-width": 0.8 }, svg);
-    text(svg, 840, 558, "Sirtu-", { anchor: "middle", size: 12, weight: 600, fill: C.sheet });
-    text(svg, 840, 571, "ins", { anchor: "middle", size: 12, weight: 600, fill: C.sheet });
-
-    // Arm A: MH -> ROS : Adr -> ROS (MH requires ROS; ROS generates Adr)
-    el("line", { x1: 445, y1: 534, x2: 445, y2: 506, stroke: C.mh, "stroke-width": 1.6, "marker-end": "url(#pc-arm-mh)" }, svg);
-    text(svg, 458, 522, "requires · 0.9", { anchor: "start", size: 11, mono: true, fill: C.mh });
-    el("line", { x1: 456, y1: 470, x2: 656, y2: 306, stroke: C.mh, "stroke-width": 1.6, "marker-end": "url(#pc-arm-mh)" }, svg);
-    text(svg, 565, 392, "generates · 0.95", { anchor: "middle", size: 11, mono: true, fill: C.mute });
-
-    // Arm B: Auto -> NM -> Adr
-    el("line", { x1: 620, y1: 546, x2: 624, y2: 506, stroke: C.auto, "stroke-width": 1.6, "marker-end": "url(#pc-arm-auto)" }, svg);
-    text(svg, 640, 530, "associated_with · 0.95", { anchor: "start", size: 11, mono: true, fill: C.mute });
-    el("line", { x1: 648, y1: 470, x2: 684, y2: 312, stroke: C.auto, "stroke-width": 1.6, "marker-end": "url(#pc-arm-auto)" }, svg);
-    text(svg, 672, 396, "sequesters · 0.8", { anchor: "end", size: 11, mono: true, fill: C.mute });
-
-    // Arm C: Sirt -> SASP ; NF-kB -> SASP ; Adr -> NF-kB (dashed, corrected direction)
-    el("line", { x1: 824, y1: 528, x2: 824, y2: 506, stroke: C.sirt, "stroke-width": 1.6, "marker-end": "url(#pc-arm-sirt)" }, svg);
-    text(svg, 810, 522, "suppress · 0.86", { anchor: "end", size: 11, mono: true, fill: C.sirt });
-    el("line", { x1: 892, y1: 487, x2: 872, y2: 487, stroke: C.mute, "stroke-width": 1.4, "marker-end": "url(#pc-arm-sirt)" }, svg);
-    text(svg, 946, 512, "is_regulated_by · 0.96", { anchor: "end", size: 10.5, mono: true, fill: C.mute });
-    el("line", { x1: 742, y1: 296, x2: 882, y2: 470, stroke: C.oxblood, "stroke-width": 1.8, "stroke-dasharray": "5 3", "marker-end": "url(#pc-ox)" }, svg);
-    text(svg, 856, 368, "inhibits · 0.6 ⚠", { anchor: "middle", size: 11, mono: true, fill: C.oxblood, weight: 600 });
-
-    // annotations
-    text(svg, 16, 26, "protocol agents   ·   shared bridges   ·   adrenochrome node   ·   adaptive programs", { size: 12, fill: C.mute });
-    text(svg, 16, 606, "■ direct stored edge to the adrenochrome node   ·   other couplings multi-hop   ·   directions as stored (⚠ audited §06)", { size: 12, fill: C.mute });
+    /* — Panel B (y 620–1020) — */
+    el("line", { x1: 16, y1: 600, x2: 964, y2: 600, stroke: C.rule, "stroke-width": 1 }, svg);
+    text(svg, 16, 628, "Panel B · adaptive programs → adrenochrome (one arm each, bridges labelled)", { size: 15, weight: 600, fill: C.ink });
+    // Arm A (y=720)
+    el("circle", { cx: 150, cy: 720, r: 40, fill: C.mh, stroke: C.ink, "stroke-width": 0.8 }, svg);
+    text(svg, 150, 718, "Mito-", { anchor: "middle", size: 13, weight: 600, fill: C.sheet });
+    text(svg, 150, 733, "hormesis", { anchor: "middle", size: 13, weight: 600, fill: C.sheet });
+    bridge(300, 702, 120, 36, "ROS");
+    el("line", { x1: 192, y1: 720, x2: 298, y2: 720, stroke: C.mh, "stroke-width": 1.8, "marker-end": "url(#pc-arm-mh)" }, svg);
+    text(svg, 245, 708, "requires · 0.91", { anchor: "middle", size: 12, mono: true, fill: C.mh });
+    el("line", { x1: 422, y1: 720, x2: 700, y2: 805, stroke: C.mh, "stroke-width": 1.8, "marker-end": "url(#pc-arm-mh)" }, svg);
+    text(svg, 560, 750, "generates · 0.9", { anchor: "middle", size: 12, mono: true, fill: C.mh });
+    text(svg, 300, 762, "1 of 6 shortest paths", { size: 12, fill: C.mute });
+    // Arm B (y=820)
+    el("circle", { cx: 150, cy: 820, r: 40, fill: C.auto, stroke: C.ink, "stroke-width": 0.8 }, svg);
+    text(svg, 150, 825, "Autophagy", { anchor: "middle", size: 13, weight: 600, fill: C.sheet });
+    bridge(300, 802, 170, 36, "Neuromelanin");
+    el("line", { x1: 192, y1: 820, x2: 298, y2: 820, stroke: C.auto, "stroke-width": 1.8, "marker-end": "url(#pc-arm-auto)" }, svg);
+    text(svg, 245, 808, "associated_with · 0.95", { anchor: "middle", size: 12, mono: true, fill: C.auto });
+    el("line", { x1: 472, y1: 820, x2: 698, y2: 820, stroke: C.auto, "stroke-width": 1.8, "marker-end": "url(#pc-arm-auto)" }, svg);
+    text(svg, 585, 808, "sequesters · 0.8", { anchor: "middle", size: 12, mono: true, fill: C.auto });
+    text(svg, 300, 862, "1 of 5 shortest paths", { size: 12, fill: C.mute });
+    // Arm C (y=920, clear of Arm B and the footer)
+    el("circle", { cx: 150, cy: 920, r: 38, fill: C.sirt, stroke: C.ink, "stroke-width": 0.8 }, svg);
+    text(svg, 150, 917, "Sirtu-", { anchor: "middle", size: 13, weight: 600, fill: C.sheet });
+    text(svg, 150, 932, "ins", { anchor: "middle", size: 13, weight: 600, fill: C.sheet });
+    bridge(300, 902, 150, 36, "NRF2");
+    el("line", { x1: 188, y1: 920, x2: 298, y2: 920, stroke: C.sirt, "stroke-width": 1.8, "marker-end": "url(#pc-arm-sirt)" }, svg);
+    text(svg, 243, 908, "co-activated · 0.8", { anchor: "middle", size: 12, mono: true, fill: C.sirt });
+    el("line", { x1: 452, y1: 920, x2: 701, y2: 837, stroke: C.sirt, "stroke-width": 1.8, "stroke-dasharray": "5 3", "marker-end": "url(#pc-arm-sirt)" }, svg);
+    text(svg, 575, 875, "Adr activates NRF2 · 0.8 (dashed = undirected path)", { anchor: "middle", size: 12, mono: true, fill: C.sirt });
+    text(svg, 300, 962, "sole shortest path (undirected; §06)", { size: 12, fill: C.mute });
+    adr2(750, 820);
+    function adr2(cx, cy) {
+      el("circle", { cx: cx, cy: cy, r: 52, fill: C.oxblood, stroke: C.ink, "stroke-width": 0.8 }, svg);
+      text(svg, cx, cy - 5, "Adreno-", { anchor: "middle", size: 15, weight: 600, fill: C.sheet });
+      text(svg, cx, cy + 12, "chrome", { anchor: "middle", size: 15, weight: 600, fill: C.sheet });
+    }
+    text(svg, 16, 1005, "■ direct stored edge to the adrenochrome node · other couplings multi-hop · directions as stored (§06)", { size: 12, fill: C.mute });
   }
 
   /* ——— Figure 2: coupling ladder (log-scale PPR ranks) ——— */
@@ -856,18 +788,18 @@ uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
 
     var rows = [
       { label: "Aminoguanidine", c: C.ag,   fwd: 4,   rev: 3,   direct: true },
-      { label: "Methylene blue", c: C.mb,   fwd: 8,   rev: 7 },
-      { label: "Carbazochrome",  c: C.carb, fwd: 14,  rev: null, direct: true },
-      { label: "Ascorbic Acid",  c: C.asc,  fwd: 15,  rev: null, direct: true },
-      { label: "Rapamycin",      c: C.periphery, fwd: 59, rev: null },
-      { label: "Mitohormesis",   c: C.mh,   fwd: 89,  rev: 60 },
-      { label: "Urolithin A",    c: C.periphery, fwd: 90, rev: null },
-      { label: "Autophagy",      c: C.auto, fwd: 93,  rev: 58 },
-      { label: "Creatine",       c: C.periphery, fwd: 95, rev: null },
-      { label: "Fisetin",        c: C.periphery, fwd: 147, rev: null },
-      { label: "Spermidine",     c: C.periphery, fwd: 174, rev: null },
-      { label: "Resveratrol",    c: C.periphery, fwd: 181, rev: null },
-      { label: "Sirtuins",       c: C.sirt, fwd: 305, rev: 147 }
+      { label: "Carbazochrome",  c: C.carb, fwd: 22,  rev: null, direct: true },
+      { label: "Vitamin C",  c: C.asc,  fwd: 29,  rev: null, direct: true },
+      { label: "Methylene blue", c: C.mb,   fwd: 35,   rev: 16 },
+      { label: "Mitohormesis",   c: C.mh,   fwd: 36,  rev: 13 },
+      { label: "Autophagy",      c: C.auto, fwd: 38, rev: 50 },
+      { label: "Fisetin",        c: C.periphery, fwd: 146, rev: null },
+      { label: "Creatine",       c: C.periphery, fwd: 152, rev: null },
+      { label: "Resveratrol",    c: C.periphery, fwd: 162, rev: null },
+      { label: "Rapamycin",      c: C.periphery, fwd: 171, rev: null },
+      { label: "Urolithin A",    c: C.periphery, fwd: 177, rev: null },
+      { label: "Sirtuins",       c: C.sirt, fwd: 232, rev: 86 },
+      { label: "Spermidine",     c: C.periphery, fwd: 272, rev: null }
     ];
     var pitch = (h - top - bottom) / rows.length;
 
@@ -891,7 +823,7 @@ uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
       el("circle", { cx: xf, cy: y, r: 6, fill: row.c, stroke: C.ink, "stroke-width": 0.8 }, svg);
       text(svg, xf - 9, y - 8, "#" + row.fwd, { anchor: "end", size: 12, weight: 600, mono: true, fill: C.ink });
       if (xr !== null) {
-        el("circle", { cx: xr, cy: y, r: 6, fill: C.sheet, stroke: row.c, "stroke-width": 2 }, svg);
+        el("rect", { x: xr-5, y: y-5, width: 10, height: 10, fill: C.sheet, stroke: row.c, "stroke-width": 2, transform: "rotate(45 "+xr+" "+y+")" }, svg);
         text(svg, xr + 9, y + 16, "#" + row.rev, { anchor: "start", size: 12, weight: 600, mono: true, fill: C.ink });
       }
     });
@@ -901,7 +833,7 @@ uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
     el("rect", { x: lx, y: ly + 2, width: 12, height: 12, fill: C.ag }, svg);
     text(svg, lx + 20, ly + 13, "PPR rank of node, seeded at Adrenochrome", { size: 12.5, fill: C.mute });
     el("circle", { cx: lx + 6, cy: ly + 36, r: 6, fill: C.sheet, stroke: C.mb, "stroke-width": 2 }, svg);
-    text(svg, lx + 20, ly + 41, "reverse trace (rank of Adrenochrome, where run)", { size: 12.5, fill: C.mute });
+    text(svg, lx + 20, ly + 41, "reverse trace (diamond; rank of Adrenochrome, where run)", { size: 12.5, fill: C.mute });
     el("rect", { x: lx + 4, y: ly + 58, width: 8, height: 8, fill: C.mb }, svg);
     text(svg, lx + 20, ly + 69, "■ direct stored edge", { size: 12.5, fill: C.mute });
   }
@@ -913,7 +845,7 @@ uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
     var w = 980, h = 380;
     var svg = svgRoot(host, w, h, "In-degree versus out-degree composition (six traced nodes)");
     var rows = [NODES.adr, NODES.mb, NODES.ag, NODES.mh, NODES.auto, NODES.sirt];
-    var max = 60;
+    var max = 210;
     var left = 210, top = 48, barH = 32, gap = 50, usable = 620;
     text(svg, left, 28, "in-degree", { size: 14, fill: C.mb, weight: 600 });
     text(svg, left + 84, 28, "out-degree", { size: 14, fill: C.oxblood, weight: 600 });
@@ -927,7 +859,7 @@ uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
       text(svg, left + 6, y + 22, String(n.in), { size: 13, fill: C.sheet, weight: 600 });
       text(svg, left + inW + outW + 10, y + 22, String(n.out) + "  (" + Math.round(100 * n.out / n.degree) + "% out)", { size: 13, fill: C.ink });
     });
-    wrapText(svg, 16, 356, "Adrenochrome, MB and AG have higher out-degree than in-degree; Mitohormesis is a source; Autophagy has higher in-degree; Sirtuins has in-degree 11 and out-degree 13.", 940, 14);
+    wrapText(svg, 16, 356, "Adrenochrome (75/74) is balanced; MB (7/62) and AG (4/45) are outbound; Autophagy (162/48) is inbound-heavy. Axis 0–210 = degree.", 940, 14);
   }
 
   /* ——— Figure 4: normalized fingerprint grouped bars ——— */
@@ -974,6 +906,7 @@ uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
       el("line", { x1: left, y1: yv, x2: w - right, y2: yv, stroke: C.rule, "stroke-width": 1, "stroke-dasharray": "3 4", opacity: 0.7 }, svg);
       text(svg, left - 8, yv + 4, String(Math.round(f * 100)) + "%", { size: 14, fill: C.faint, anchor: "end" });
     });
+    text(svg, left + 60, top - 14, "% of sample maximum (n=6)", { size: 13, fill: C.mute });
 
     metrics.forEach(function (m, gi) {
       var gx = left + gi * groupW;
@@ -995,75 +928,15 @@ uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
     });
   }
 
-  /* ——— Figure 6: perturbation sweep ——— */
-  function drawSweep() {
-    var host = document.querySelector('[data-chart="sweep"]');
-    if (!host) return;
-    var w = 980, h = 540;
-    var svg = svgRoot(host, w, h, "Bridge-perturbation sweep: change in walk-mass coupling by arm");
-    var x0 = 300, x1 = 950;
-    var lo = -36, hi = 8;
-    function xc(v) { return x0 + ((v - lo) / (hi - lo)) * (x1 - x0); }
-    var rows = [
-      { label: "remove edge Mitohormesis–ROS",      v: [-22.7, -0.4, -0.0], hl: false },
-      { label: "remove edge ROS–Adrenochrome",      v: [-23.4, -2.4, -7.8], hl: false },
-      { label: "delete node ROS",                   v: [-27.0, -2.4, -9.4], hl: false },
-      { label: "remove edge Autophagy–Neuromelanin",v: [-0.3, -24.8, -1.6], hl: false },
-      { label: "remove edge Neuromelanin–Adrenochrome", v: [-2.3, -19.5, -3.1], hl: false },
-      { label: "delete node Neuromelanin",          v: [-0.7, -33.3, -3.1], hl: false },
-      { label: "remove edge Sirtuins–SASP",         v: [0.9, 3.3, -4.7],    hl: true },
-      { label: "delete node SASP",                  v: [2.6, 3.7, -3.1],    hl: true }
-    ];
-    var colors = [C.mh, C.auto, C.sirt];
-    var top = 66, pitch = 52, barH = 11;
-
-    rows.forEach(function (row, i) {
-      if (row.hl) el("rect", { x: x0 - 12, y: top + i * pitch - 8, width: (x1 - x0) + 24, height: pitch - 18, fill: "rgba(154,116,48,0.08)" }, svg);
-    });
-    el("line", { x1: xc(0), y1: top - 14, x2: xc(0), y2: top + rows.length * pitch + 6, stroke: C.ink, "stroke-width": 1.2, "stroke-dasharray": "4 3" }, svg);
-    text(svg, xc(0), top - 28, "0", { size: 12, fill: C.mute, anchor: "middle", mono: true });
-    [-30, -20, -10].forEach(function (t) {
-      var xv = xc(t);
-      el("line", { x1: xv, y1: top - 14, x2: xv, y2: top + rows.length * pitch + 6, stroke: C.rule, "stroke-width": 1, "stroke-dasharray": "2 3", opacity: 0.6 }, svg);
-      text(svg, xv, top - 28, String(t) + "%", { size: 12, fill: C.faint, anchor: "middle", mono: true });
-    });
-    text(svg, x0 + (x1 - x0) / 2, top - 44, "Δ coupling to adrenochrome after perturbation", { size: 13, fill: C.mute, anchor: "middle" });
-
-    [
-      { l: "Δ Mitohormesis→Adr", c: C.mh, x: 360 },
-      { l: "Δ Autophagy→Adr", c: C.auto, x: 560 },
-      { l: "Δ Sirtuins→Adr", c: C.sirt, x: 740 }
-    ].forEach(function (item) {
-      el("rect", { x: item.x, y: 24, width: 12, height: 12, fill: item.c }, svg);
-      text(svg, item.x + 18, 35, item.l, { size: 13, fill: C.ink });
-    });
-
-    rows.forEach(function (row, i) {
-      var yBase = top + i * pitch + 4;
-      text(svg, x0 - 16, yBase + 22, row.label, { anchor: "end", size: 12.5, mono: true, fill: C.ink });
-      row.v.forEach(function (val, j) {
-        var bw = Math.abs(val) / 36 * (x1 - x0);
-        var yy = yBase + j * (barH + 4);
-        if (bw > 0.5) {
-          var bx = val < 0 ? xc(0) - bw : xc(0);
-          el("rect", { x: bx, y: yy, width: bw, height: barH, fill: colors[j], opacity: 0.9 }, svg);
-        }
-        var label = (val > 0 ? "+" : "") + val.toFixed(1) + "%";
-        var lx = val < 0 ? xc(0) - bw - 8 : xc(0) + bw + 8;
-        text(svg, lx, yy + barH - 1, label, { anchor: val < 0 ? "end" : "start", size: 11.5, weight: 600, mono: true, fill: colors[j] });
-      });
-    });
-  }
-
-  /* ——— Figure 7: Fiedler coordinates and community boundary ——— */
+  /* ——— Figure 6: Fiedler coordinates (current build) ——— */
   function drawSeam() {
     var host = document.querySelector('[data-chart="seam"]');
     if (!host) return;
     var w = 980, h = 430;
-    var svg = svgRoot(host, w, h, "Fiedler coordinates of all traced nodes and the community boundary");
+    var svg = svgRoot(host, w, h, "Fiedler coordinates of all traced nodes (current build)");
     var axisX = 500;
     var topY = 70, botY = 400;
-    var hi = 0.005, lo = -0.003;
+    var hi = 0.0009, lo = 0.0002;
     var zeroY = topY + ((hi - 0) / (hi - lo)) * (botY - topY);
     function y(v) { return topY + ((hi - v) / (hi - lo)) * (botY - topY); }
 
@@ -1074,15 +947,14 @@ uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
     el("line", { x1: axisX, y1: topY, x2: axisX, y2: botY, stroke: C.rule, "stroke-width": 1.4 }, svg);
     // zero seam
     el("line", { x1: 200, y1: zeroY, x2: 800, y2: zeroY, stroke: C.oxblood, "stroke-width": 1.4, "stroke-dasharray": "5 3" }, svg);
-    text(svg, axisX, zeroY + 18, "community boundary (Fiedler sign change)", { size: 12, weight: 600, fill: C.oxblood, anchor: "middle" });
+    text(svg, axisX, zeroY + 18, "no sign split: all traced nodes positive (λ₂ = 0.0994)", { size: 12, weight: 600, fill: C.oxblood, anchor: "middle" });
 
     // lambda2 + side labels
-    text(svg, 200, 52, "λ₂ (algebraic connectivity) = 0.0463", { size: 13, fill: C.mute, mono: true });
+    text(svg, 200, 52, "λ₂ (algebraic connectivity) = 0.0994", { size: 13, fill: C.mute, mono: true });
     text(svg, 230, 92, "positive Fiedler side (+)", { size: 13, fill: C.auto, weight: 600 });
-    text(svg, 230, botY - 20, "negative Fiedler side (−)", { size: 13, fill: C.oxblood, weight: 600 });
 
     // grid ticks (right margin)
-    [0.005, 0.0025, 0, -0.0025].forEach(function (t) {
+    [0.0009, 0.0007, 0.0005, 0.0003, 0.0002].forEach(function (t) {
       var yv = y(t);
       el("line", { x1: 200, y1: yv, x2: 800, y2: yv, stroke: C.rule, "stroke-width": 1, "stroke-dasharray": "2 4", opacity: 0.5 }, svg);
       text(svg, 806, yv + 4, (t === 0 ? "0" : (t > 0 ? "+" : "") + t), { size: 11, fill: C.faint, mono: true });
@@ -1090,37 +962,30 @@ uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
 
     // nodes sorted desc by value; labels alternate right/left rows
     var items = [
-      { label: "Sirtuins",       v: 0.0043, c: C.sirt },
-      { label: "Spermidine",     v: 0.0037, c: C.periphery },
-      { label: "Rapamycin",      v: 0.0036, c: C.periphery },
-      { label: "Mitohormesis",   v: 0.0034, c: C.mh },
-      { label: "Urolithin A",    v: 0.0033, c: C.periphery },
-      { label: "Autophagy",      v: 0.0033, c: C.auto },
-      { label: "Aminoguanidine", v: 0.0021, c: C.ag },
-      { label: "Methylene blue", v: 0.0013, c: C.mb },
-      { label: "Resveratrol",    v: 0.0006, c: C.periphery },
-      { label: "Carbazochrome",  v: -0.0008, c: C.carb },
-      { label: "Fisetin",        v: -0.0010, c: C.periphery },
-      { label: "Adrenochrome",   v: -0.0015, c: C.adr },
-      { label: "Ascorbic Acid",  v: -0.0023, c: C.asc },
-      { label: "Creatine",       v: -0.0024, c: C.periphery }
+      { label: "Autophagy",      v: 0.0008, c: C.auto },
+      { label: "Rapamycin",      v: 0.0007, c: C.periphery },
+      { label: "Creatine",       v: 0.0007, c: C.periphery },
+      { label: "Spermidine",     v: 0.0007, c: C.periphery },
+      { label: "Sirtuins",       v: 0.0007, c: C.sirt },
+      { label: "Carbazochrome",  v: 0.0006, c: C.carb },
+      { label: "Mitohormesis",   v: 0.0006, c: C.mh },
+      { label: "Methylene blue", v: 0.0005, c: C.mb },
+      { label: "Adrenochrome",   v: 0.0005, c: C.adr },
+      { label: "Fisetin",        v: 0.0005, c: C.periphery },
+      { label: "Resveratrol",    v: 0.0004, c: C.periphery },
+      { label: "Aminoguanidine", v: 0.0003, c: C.ag },
+      { label: "Vitamin C",  v: 0.0003, c: C.asc },
+      { label: "Urolithin A",    v: 0.0003, c: C.periphery }
     ];
-    var pitch = (botY - topY) / items.length;
-
+    // compressed axis: all values in [0.0002, 0.0009] — plot labels AT dot height, alternating side by index parity offset along x only
+    function yv(v) { return topY + ((0.0009 - v) / 0.0007) * (botY - topY); }
     items.forEach(function (it, i) {
-      var yi = topY + i * pitch + 4;
-      var dotY = y(it.v);
+      var dotY = yv(it.v);
       var onRight = (i % 2 === 0);
-      var ax = onRight ? axisX + 46 : axisX - 46;
-      var labelX = onRight ? axisX + 62 : axisX - 70;
-      // leader from dot to label row
-      el("line", { x1: axisX, y1: dotY, x2: ax, y2: yi, stroke: C.rule, "stroke-width": 1 }, svg);
-      el("line", { x1: ax, y1: yi, x2: labelX, y2: yi, stroke: C.faint, "stroke-width": 1 }, svg);
-      // dot on axis
-      el("circle", { cx: axisX, cy: dotY, r: it.label === "Adrenochrome" ? 10 : 6.5, fill: it.c, stroke: C.ink, "stroke-width": 0.8 }, svg);
-      // label
-      text(svg, labelX, yi + 4, it.label + "  " + (it.v > 0 ? "+" : "") + it.v.toFixed(4), {
-        anchor: onRight ? "start" : "end", size: 12.5, weight: 600, fill: it.c
+      var lx = onRight ? axisX + 24 : axisX - 24;
+      el("circle", { cx: axisX, cy: dotY, r: 7, fill: it.c, stroke: C.ink, "stroke-width": 0.8 }, svg);
+      text(svg, lx, dotY + 4, it.label + "  +" + it.v.toFixed(4), {
+        anchor: onRight ? "start" : "end", size: 13, weight: 600, fill: it.c
       });
     });
   }
@@ -1133,7 +998,6 @@ uv run --with networkx --with scipy python3 scripts/analysis/node_analysis.py \
     drawLadder();
     drawComposition();
     drawFingerprint();
-    drawSweep();
     drawSeam();
     T2.initNav();
     T2.initTooltip();
