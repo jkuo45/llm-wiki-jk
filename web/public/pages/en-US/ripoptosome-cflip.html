@@ -1,0 +1,1414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Ripoptosome and c-FLIP — Cytosolic Death Platform, Pseudo-Caspase Rheostat, Cellular Homeostasis</title>
+<meta name="description" content="How the ~2 MDa RIPK1–FADD–caspase-8–c-FLIP ripoptosome assembles when IAPs are lost (genotoxic stress, Smac mimetics, TLR3 signaling), how the three c-FLIP isoforms set the caspase-8 rheostat between apoptosis, survival and necroptosis, and what knockout genetics reveals about the complex's role in embryonic, barrier-tissue and immune homeostasis.">
+<link rel="canonical" href="https://graph.johnnykuo.com/pages/en-US/ripoptosome-cflip.html">
+<link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/ripoptosome-cflip.html">
+<link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/ripoptosome-cflip.html">
+<link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/ripoptosome-cflip.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚖</text></svg>">
+<script type="importmap">
+{"imports":{
+  "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+  "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+}}
+</script>
+<link rel="stylesheet" href="../themes/theme-02/theme.css">
+<script src="../themes/theme-02/theme.js"></script>
+<script src="../themes/theme-02/pages-core.js"></script>
+<script src="../themes/shared/nav-auto-hide.js"></script>
+<style>
+  /* page-local palette (hexes remapped by dark.css where shared; page-local remaps at the bottom) */
+  .comparison-row { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 10px; margin: 18px 0 22px; }
+  @media (max-width: 860px) { .comparison-row { grid-template-columns: 1fr 1fr; } }
+  .comparison-cell { background: var(--sheet); border: 1px solid var(--rule); padding: 12px 14px; text-align: center; }
+  .comparison-cell .label { font-family: var(--sans); font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--mute); margin-bottom: 6px; }
+  .key-stat { font-family: var(--mono); font-size: 1.55rem; font-weight: 700; color: var(--oxblood); }
+  .key-sub { font-size: .8rem; color: var(--ink-soft); margin-top: 4px; line-height: 1.4; }
+  table.comp { width: 100%; border-collapse: collapse; font-size: 13px; margin: 12px 0 20px; }
+  table.comp th, table.comp td { border: 1px solid var(--rule); padding: 7px 10px; text-align: left; vertical-align: top; }
+  table.comp th { background: var(--paper-deep); font-size: 12px; letter-spacing: .04em; text-transform: uppercase; color: var(--mute); }
+  table.comp td .sw { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; vertical-align: -1px; }
+  .iso-L { color: #9a7430; font-weight: 700; }
+  .iso-S { color: #c1121f; font-weight: 700; }
+  /* three.js simulation figure */
+  .sim-stage { position: relative; background: var(--paper-deep); border: 1px solid var(--rule); border-radius: 2px; overflow: hidden; }
+  .sim-stage canvas { display: block; width: 100%; height: 460px; touch-action: none; }
+  @media (max-width: 720px) { .sim-stage canvas { height: 340px; } }
+  .sim-phase { position: absolute; top: 10px; left: 12px; font-family: var(--mono); font-size: 12px; color: var(--mute); background: color-mix(in srgb, var(--paper) 82%, transparent); padding: 3px 8px; border: 1px solid var(--rule); border-radius: 2px; pointer-events: none; }
+  .sim-toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 10px 0 0; }
+  .sim-toolbar .chip { font-family: var(--mono); font-size: 12px; }
+  .sim-hint { font-size: 12px; color: var(--mute); margin-left: auto; }
+  .sim-note { background: var(--sheet); border: 1px solid var(--rule); border-left: 3px solid var(--gold); padding: 12px 16px; margin: 14px 0 0; font-size: 14.5px; line-height: 1.55; }
+  .sim-note b:first-child { color: #9a7430; }
+  /* page-local dark remaps for SVG hexes not already covered by dark.css */
+  [data-theme="dark"] [stroke="#1c1915"] { stroke: #c9c9dd; }
+  [data-theme="dark"] [fill="#ff7a1a"] { fill: #ffa04d; }
+  [data-theme="dark"] [stroke="#ff7a1a"] { stroke: #ffa04d; }
+  [data-theme="dark"] [fill="#3a7d44"] { fill: #58d68d; }
+  [data-theme="dark"] [stroke="#3a7d44"] { stroke: #58d68d; }
+  [data-theme="dark"] [fill="#b08930"] { fill: #e8a33d; }
+  [data-theme="dark"] [stroke="#b08930"] { stroke: #e8a33d; }
+  [data-theme="dark"] [fill="#6a5acd"] { fill: #b07fe8; }
+  [data-theme="dark"] [stroke="#6a5acd"] { stroke: #b07fe8; }
+</style>
+<link rel="stylesheet" href="../themes/theme-02/dark.css">
+</head>
+<body>
+<a class="skip" href="#content">Skip to content</a>
+
+<nav class="site-nav" aria-label="Page">
+  <div class="wrap">
+    <a class="home" href="https://graph.johnnykuo.com/#reader">← Back</a>
+    <div class="nav-links">
+      <a href="#overview">Overview</a>
+      <a href="#platform">Platform</a>
+      <a href="#cflip">c-FLIP</a>
+      <a href="#rheostat">Rheostat</a>
+      <a href="#simulation">Simulation</a>
+      <a href="#homeostasis">Homeostasis</a>
+      <a href="#disease">Disease</a>
+      <a href="#refs">References</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">Cell-death signaling · platform biology · cellular homeostasis</p>
+    <h1>The Ripoptosome and c-FLIP</h1>
+    <p class="lede">
+      A cytosolic, death-receptor-independent signaling platform of <strong>RIPK1, FADD, caspase-8
+      and c-FLIP</strong> assembles whenever inhibitor-of-apoptosis proteins (IAPs) are lost — and
+      a catalytically inactive caspase-8 paralog, <strong>c-FLIP</strong> (CFLAR), sets the rheostat
+      that determines whether that platform drives apoptosis, is dismantled without cell death, or
+      proceeds to necroptosis. This page assembles the mechanism from the two
+      2011 discovery papers, the structural biology of the caspase-8/c-FLIP heterodimer, and the
+      knockout genetics that established the complex as a requirement for tissue homeostasis.
+    </p>
+  </div>
+</header>
+
+<div class="wrap layout">
+  <aside class="toc" aria-label="Contents">
+    <p>Contents</p>
+    <ol>
+      <li><a href="#overview">Overview</a></li>
+      <li><a href="#discovery">Discovery</a></li>
+      <li><a href="#platform">The platform</a></li>
+      <li><a href="#cflip">c-FLIP isoforms</a></li>
+      <li><a href="#rheostat">The rheostat</a></li>
+      <li><a href="#simulation">Fate simulation (3-D)</a></li>
+      <li><a href="#homeostasis">Cellular homeostasis</a></li>
+      <li><a href="#disease">Disease &amp; therapeutics</a></li>
+      <li><a href="#open">Open questions</a></li>
+      <li><a href="#refs">References</a></li>
+    </ol>
+  </aside>
+
+  <main id="content">
+
+    <!-- ==================== OVERVIEW ==================== -->
+    <section id="overview">
+      <p class="sec-label">Framing</p>
+      <h2>One platform, three settings: DED-chain dimer composition determines the outcome</h2>
+      <p>
+        In every cell that expresses TNF-family receptors, the same receptors that transduce
+        survival and inflammatory gene transcription can, within minutes, generate
+        apoptosis-executing complexes. In 2011 two groups showed that this decision does not
+        even require a receptor. When the inhibitor-of-apoptosis proteins
+        <strong>cIAP1, cIAP2 and XIAP</strong> are depleted — by genotoxic stress, by
+        Smac-mimetic drugs, or by TLR3/dsRNA signaling — a large cytosolic complex of
+        <strong>RIPK1, FADD, caspase-8, caspase-10 and c-FLIP</strong> assembles spontaneously.
+        Tenev et&nbsp;al. named it the <strong>ripoptosome</strong> (also spelled
+        <em>riptosome</em> in later literature); Feoktistova et&nbsp;al. measured it at
+        <strong>~2&nbsp;MDa</strong> by gel filtration (Tenev et al. 2011; Feoktistova et al. 2011).
+      </p>
+      <p>
+        The component that sets the platform's homeostatic function is
+        <strong>c-FLIP</strong> (FLICE-like inhibitory protein, gene <em>CFLAR</em>), a
+        gene-duplicated, catalytically inactive paralog of caspase-8. Its three
+        protein-expressed isoforms heterodimerize with caspase-8 inside the
+        platform and set what Feoktistova et&nbsp;al. called a <em>rheostat</em>: caspase-8
+        homodimers output apoptosis; caspase-8/c-FLIP<sub>L</sub> heterodimers output
+        <em>survival</em> with necroptosis actively suppressed; c-FLIP<sub>S</sub>/c-FLIP<sub>R</sub>
+        heterodimers shut caspase-8 down and let the platform default to necroptosis. Knockout
+        genetics established the physiological requirement: animals lacking caspase-8, FADD or
+        c-FLIP all die mid-gestation, and the lethal defect is not failed apoptosis but <em>unrestrained
+        necroptosis or apoptosis</em> that the caspase-8/FLIP<sub>L</sub> heterodimer normally
+        holds in check.
+      </p>
+      <div class="comparison-row">
+        <div class="comparison-cell">
+          <div class="label">Complex size</div>
+          <div class="key-stat">~2 MDa</div>
+          <p class="key-sub">Gel-filtration fractions carrying RIPK1 + caspase-8 + c-FLIP (Tenev 2011; Feoktistova 2011)</p>
+        </div>
+        <div class="comparison-cell">
+          <div class="label">c-FLIP isoforms</div>
+          <div class="key-stat">3</div>
+          <p class="key-sub">FLIP<sub>L</sub> 55&nbsp;kDa · FLIP<sub>S</sub> 26&nbsp;kDa · FLIP<sub>R</sub> 24–25&nbsp;kDa (Smyth 2020)</p>
+        </div>
+        <div class="comparison-cell">
+          <div class="label">Rheostat settings</div>
+          <div class="key-stat">3</div>
+          <p class="key-sub">Apoptosis · survival + necroptosis blockade · necroptosis (Feoktistova 2011)</p>
+        </div>
+        <div class="comparison-cell">
+          <div class="label">Developmental checkpoint</div>
+          <div class="key-stat">E10.5</div>
+          <p class="key-sub">Lethality of casp8<sup>−/−</sup>, fadd<sup>−/−</sup>, cflar<sup>−/−</sup> embryos (Kaiser 2011; Dillon 2012)</p>
+        </div>
+      </div>
+      <p>
+        Cross-references in the wiki graph:
+        <a href="https://graph.johnnykuo.com/#node=Ripoptosome">Ripoptosome</a> ·
+        <a href="https://graph.johnnykuo.com/#node=c-FLIP">c-FLIP</a> ·
+        <a href="https://graph.johnnykuo.com/#node=Caspase-8-c-FLIP%20Rheostat">Caspase-8-c-FLIP Rheostat</a> ·
+        <a href="https://graph.johnnykuo.com/#node=Necroptosis">Necroptosis</a> ·
+        <a href="https://graph.johnnykuo.com/#node=Smac%20mimetics">Smac mimetics</a>.
+        Related local pages:
+        <a href="necroptosis.html">Necroptosis</a> ·
+        <a href="apoptosis.html">Apoptosis</a> ·
+        <a href="cell-death-comparison.html">Cell-death comparison</a>.
+      </p>
+    </section>
+
+    <!-- ==================== DISCOVERY ==================== -->
+    <section id="discovery">
+      <p class="sec-label">Discovery</p>
+      <h2>Two papers, one complex — August 2011</h2>
+      <p>
+        The ripoptosome was reported back-to-back in the same issue of <em>Molecular Cell</em>.
+        Studying how the topoisomerase-II poison <strong>etoposide</strong> kills tumor cells,
+        Tenev et&nbsp;al. found a ~2&nbsp;MDa RIPK1–FADD–caspase-8 complex that formed on
+        etoposide- or doxorubicin-induced IAP depletion, without TNF, FasL, TRAIL, death receptors
+        or mitochondrial involvement. Feoktistova et&nbsp;al., studying TLR3 stimulation in
+        keratinocyte models, independently identified the same cIAP-gated complex, added
+        caspase-10 and the c-FLIP isoforms to its composition, and named caspase activity as the
+        c-FLIP-controlled rheostat.
+      </p>
+      <table class="comp">
+        <thead>
+          <tr><th>Study</th><th>System</th><th>Key contributions</th><th>Disagreement</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Tenev et al. 2011<br><em>Mol Cell</em> 43:432–448</td>
+            <td>HT1080, MDA-MB-231, HEK293 (etoposide, Smac mimetic)</td>
+            <td>~2 MDa complex; independent of TNF/TRAIL/FasL, receptors and mitochondria; IAPs ubiquitylate RIPK1 (K377) and FLIP for proteasomal destruction; etoposide converts pro-inflammatory cytokine signaling into pro-death signaling</td>
+            <td>RIPK1 <strong>kinase activity required</strong> for assembly (Nec-1 blocks formation)</td>
+          </tr>
+          <tr>
+            <td>Feoktistova et al. 2011<br><em>Mol Cell</em> 43:449–463</td>
+            <td>HaCaT, HeLa, A5RT3, primary keratinocytes (TLR3/poly(I:C), IAP antagonist)</td>
+            <td>Composition incl. caspase-10 and c-FLIP isoforms; assembly <strong>necessary but not sufficient</strong> for death; FLIP<sub>L</sub> suppresses while FLIP<sub>S</sub> promotes assembly; spontaneous formation mainly in transformed cells</td>
+            <td>Assembly <strong>independent of RIPK1 kinase activity</strong>; kinase activity functions downstream of assembly</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        The disagreement over RIPK1's kinase requirement — one group finding necrostatin-1 blocks
+        assembly, the other not — remains a genuine open point (see
+        <a href="#open">Open questions</a>) and is consistent with assembly being
+        cell-type- and stimulus-dependent. Both groups agreed on the core logic: IAPs
+        constitutively suppress assembly, RIPK1 is the scaffold, and c-FLIP determines the quality of the outcome.
+      </p>
+    </section>
+
+    <!-- ==================== PLATFORM ARCHITECTURE ==================== -->
+    <section id="platform">
+      <p class="sec-label">Architecture</p>
+      <h2>Assembly: IAP loss releases RIPK1 to nucleate the platform</h2>
+      <p>
+        At steady state, cIAP1/cIAP2 (with TRAF2) constitutively ubiquitylate a compartmentalized
+        pool of RIPK1, keeping the amount of "assembly-competent" RIPK1 low and targeting complex
+        components for proteasomal degradation — proteasome inhibition with lactacystin or MG-132
+        alone is sufficient to trigger spontaneous ripoptosome formation (Tenev et al. 2011).
+        When IAPs drop, deubiquitylated RIPK1 exposes its death domain (DD), recruits FADD by
+        DD–DD interaction, and FADD's death effector domains (DEDs) nucleate a DED chain of
+        procaspase-8, caspase-10 and c-FLIP — the same DED-chain logic used at the death-receptor
+        DISC, but executed in the cytosol, without a receptor.
+      </p>
+
+      <figure class="fig">
+        <div class="fig-head">
+          <span class="fig-num">Figure 1 · Assembly switch</span>
+        </div>
+        <div class="fig-canvas" id="fig1Canvas"></div>
+        <figcaption>
+          <strong>How to read it:</strong> left — the steady state, in which cIAP1/cIAP2/XIAP (with
+          TRAF2) keep RIPK1 ubiquitylated (K377) and primed for proteasomal destruction, so no
+          platform can nucleate. Center — the four documented triggers of IAP loss. Right — the
+          assembled ~2 MDa ripoptosome: RIPK1 scaffold (kinase domain, intermediate domain, death
+          domain), FADD bridging the DD to a DED chain that loads procaspase-8 (green),
+          procaspase-10 and the c-FLIP isoforms (amber). Schematic; domain geometry is not to
+          scale. After Tenev et al. 2011 and Feoktistova et al. 2011.
+        </figcaption>
+      </figure>
+
+      <table class="comp">
+        <thead>
+          <tr><th>Component</th><th>Role in the platform</th><th>Domains / notes</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><span class="sw" style="background:#264653"></span>RIPK1</td><td>Obligate scaffold; kinase; necroptosis effector when uncropped</td><td>Kinase + RHIM + death domain; ubiquitylated at K377 by cIAPs; *Ripk1*−/− cells cannot form the complex</td></tr>
+          <tr><td><span class="sw" style="background:#2a9d8f"></span>FADD</td><td>Adaptor bridging RIPK1's DD to the DED chain</td><td>DD + DED; same molecules reused from the DISC</td></tr>
+          <tr><td><span class="sw" style="background:#2a7a3f"></span>Procaspase-8</td><td>Apical protease; homodimers → apoptosis; heterodimers with c-FLIP → rheostat</td><td>DED1–DED2 + p18/p10 catalytic domains; cleaves RIPK1, RIPK3, CYLD, TRIF</td></tr>
+          <tr><td><span class="sw" style="background:#7b2cbf"></span>Procaspase-10</td><td>Paralogous DED caspase; accumulates in the complex when c-FLIP is low</td><td>Reported in the complex by Feoktistova et al. 2011</td></tr>
+          <tr><td><span class="sw" style="background:#e9c46a"></span>c-FLIP (CFLAR)</td><td>Pseudo-caspase rheostat — isoform ratio sets the outcome</td><td>FLIP<sub>L</sub> / FLIP<sub>S</sub> / FLIP<sub>R</sub>; heterodimerizes with caspase-8</td></tr>
+          <tr><td><span class="sw" style="background:#6a5acd"></span>cIAP1 · cIAP2 · XIAP</td><td>Constitutive brake: ubiquitylate RIPK1, caspase-8 and FLIP for proteasomal turnover</td><td>Jointly suppress assembly; all three contribute; TRAF2-dependent</td></tr>
+        </tbody>
+      </table>
+
+      <div class="note gold">
+        <h4>Documented assembly triggers</h4>
+        <p>
+          Genotoxic stress (etoposide, doxorubicin, teniposide) · Smac mimetics / IAP antagonists ·
+          TLR3–TRIF signaling (dsRNA, poly(I:C)) · proteasome inhibitors (lactacystin, MG-132) ·
+          siRNA knockdown of cIAP1 alone in cells lacking cIAP2. Spontaneous assembly in the
+          absence of stress is detected in transformed cells but not in primary human keratinocytes,
+          which carry high endogenous FLIP<sub>L</sub> (Feoktistova et al. 2011).
+        </p>
+      </div>
+    </section>
+
+    <!-- ==================== c-FLIP ==================== -->
+    <section id="cflip">
+      <p class="sec-label">The pseudo-caspase</p>
+      <h2>c-FLIP: a gene-duplicated, catalytically inactive caspase-8 paralog</h2>
+      <p>
+        <em>CFLAR</em> sits on chromosome 2q33.1 immediately beside its paralogs <em>CASP8</em> and
+        <em>CASP10</em> — a local duplication that produced the only true pseudo-caspase in the
+        human proteome (Smyth et al. 2020). The long isoform, c-FLIP<sub>L</sub> (55&nbsp;kDa, 480
+        amino acids), mirrors procaspase-8 exactly: tandem N-terminal DEDs for chain recruitment,
+        then large and small caspase-like domains. The active-site substitutions account for the
+        loss of catalytic activity —
+        the catalytic dyad of caspase-8 (His/Cys) is replaced in c-FLIP<sub>L</sub> by
+        <strong>Arg315 and Tyr360</strong> (human numbering), substitutions that are conserved
+        across vertebrates and therefore functional, not decay. A cleavage site at Asp376 lets
+        caspase-8 trim FLIP<sub>L</sub> to the DISC-retained p43-FLIP fragment.
+      </p>
+      <p>
+        The short isoforms — c-FLIP<sub>S</sub> (26&nbsp;kDa) and c-FLIP<sub>R</sub> (24–25&nbsp;kDa,
+        expressed mainly in T and B cells, e.g. Raji cells and primary T cells) — are just the two
+        DEDs plus a short C-terminal tail that drives their rapid ubiquitination and proteasomal
+        turnover. Which of the two a human cell makes is decided by a single-nucleotide polymorphism
+        in a 3′ splice site of <em>CFLAR</em>. Notably, mice do not express c-FLIP<sub>S</sub> at
+        all — the murine short isoform is c-FLIP<sub>R</sub>.
+      </p>
+
+      <figure class="fig">
+        <div class="fig-head">
+          <span class="fig-num">Figure 2 · Domain architecture</span>
+        </div>
+        <div class="fig-canvas" id="fig2Canvas"></div>
+        <figcaption>
+          <strong>How to read it:</strong> four proteins drawn to a common scale (residue ruler,
+          0–480). Caspase-8's catalytic dyad (H/C), its interdimer cleavage site (D374) and the
+          intradimer sites (D210/D216/D223, D384) mark the full processing a homodimer undergoes.
+          In c-FLIP<sub>L</sub> the dyad is replaced by Arg315/Tyr360 — a dead active site that
+          nevertheless dimerizes with caspase-8's catalytic domain — and the single cleavage site
+          at D376 produces p43-FLIP. c-FLIP<sub>S</sub>/R terminate after the DEDs with a short
+          ubiquitination-driving tail. After Safa &amp; Kanthasamy 2012 and Smyth et al. 2020.
+        </figcaption>
+      </figure>
+
+      <table class="comp">
+        <thead>
+          <tr><th>Isoform</th><th>Mass</th><th>Architecture</th><th>Effect inside the platform</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="iso-L">c-FLIP<sub>L</sub></td><td>55 kDa</td><td>DED1–DED2 + p20/p12-like pseudo-caspase domain</td><td>Heterodimer with caspase-8 keeps one active site with a restricted substrate range: cleaves RIPK1/RIPK3 → platform dismantled, necroptosis blocked, no apoptotic signal released → <strong>survival</strong>. At high density also accelerates homodimer activation (Micheau et al. 2002).</td></tr>
+          <tr><td class="iso-S">c-FLIP<sub>S</sub></td><td>26 kDa</td><td>DED1–DED2 + ~20-aa C-terminal tail</td><td>Fully inactive heterodimer; terminates DED-chain elongation; <strong>promotes</strong> ripoptosome assembly; RIPK1 is never cleaved → necroptosis whenever the RIPK1–RIPK3–MLKL axis is intact (Feoktistova et al. 2011).</td></tr>
+          <tr><td class="iso-S">c-FLIP<sub>R</sub></td><td>24–25 kDa</td><td>DED1–DED2 + short tail (different splice acceptor)</td><td>Functional equivalent of FLIP<sub>S</sub> in the rheostat; the murine short isoform; overexpression in T cells yields Fas resistance and lupus-like autoimmunity (Cell Death Dis. 2026 review).</td></tr>
+        </tbody>
+      </table>
+
+      <p>
+        Levels of every isoform are set on two timescales. Transcriptionally, <em>CFLAR</em> is an
+        NF-κB target — so TNFR1 complex-I signaling pre-loads the cell with FLIP<sub>L</sub>
+        <em>before</em> any death complex can form, a feed-forward survival loop. Post-translationally,
+        all isoforms are short-lived proteasome substrates of E3 ligases (Itch, Cbl/Cbl-b, Mind bomb 1,
+        TRAF7, CHIP, TRIM21), with half-life further tuned by PKC phosphorylation (Ser193),
+        ROS-dependent phosphorylation (Thr166) and S-nitrosylation (Cys254/259) — which is why the
+        FLIP<sub>L</sub>:FLIP<sub>S</sub> ratio, not total c-FLIP, is the predictive parameter, and
+        why the isoform ratio can change within minutes (Tsuchiya et al. 2015; Smyth et al. 2020).
+      </p>
+    </section>
+
+    <!-- ==================== RHEOSTAT ==================== -->
+    <section id="rheostat">
+      <p class="sec-label">Decision logic</p>
+      <h2>The rheostat: three settings of one caspase-8 switch</h2>
+      <p>
+        The fate decision is made by which dimers form inside the DED chain. Crystal structures of
+        the caspase-8 catalytic domain in complex with the FLIP<sub>L</sub> pseudo-catalytic domain
+        (PDB <a href="https://www.rcsb.org/structure/3H11" target="_blank" rel="noopener noreferrer">3H11</a> /
+        <a href="https://www.rcsb.org/structure/3H13" target="_blank" rel="noopener noreferrer">3H13</a>)
+        explain the first asymmetry: the heterodimer forms with lower activation energy than the
+        caspase-8 homodimer, so at low receptor occupancy the platform is heterodimer-dominated.
+        The heterodimer retains a single caspase-8 active site whose substrate pocket is narrowed
+        — it performs the interdimer cleavage of neighboring dimers but cannot complete its own
+        intradimer processing, so it stays platform-bound and never releases the p18/p10
+        heterotetramer that would start apoptosis (Micheau et al. 2002; Pop et al. 2011).
+      </p>
+
+      <figure class="fig">
+        <div class="fig-head">
+          <span class="fig-num">Figure 3 · One platform, three settings</span>
+        </div>
+        <div class="fig-canvas" id="fig3Canvas"></div>
+        <figcaption>
+          <strong>How to read it:</strong> top — the assembled platform, identical in all three
+          settings. The branch is chosen by dimer composition inside the DED chain. Left branch:
+          procaspase-8 homodimers complete interdimer (D374) and intradimer (D210/216/223/384)
+          processing, release the p18/p10 heterotetramer, and caspase-3/-7 plus Bid carry apoptosis
+          forward; RIPK1 is cleaved and the platform dismantles. Middle branch: FLIP<sub>L</sub>
+          heterodimers keep one restricted active site that cleaves RIPK1/RIPK3 but no apoptotic
+          substrates — the platform is dismantled and the cell survives with necroptosis blocked.
+          Right branch: FLIP<sub>S</sub>/R heterodimers are catalytically silent; RIPK1 persists,
+          phosphorylates RIPK3, MLKL oligomerizes and executes necroptosis. After Feoktistova et
+          al. 2011 and Smyth et al. 2020.
+        </figcaption>
+      </figure>
+
+      <blockquote class="note slate">
+        <p>
+          "When cIAPs are absent, caspase activity is the <strong>rheostat</strong> that is
+          controlled by cFLIP isoforms in the Ripoptosome and decides if cell death occurs by
+          RIP3-dependent necroptosis or caspase-dependent apoptosis."
+          <br>— Feoktistova et al., <em>Molecular Cell</em> 43:449–463 (2011)
+        </p>
+      </blockquote>
+
+      <figure class="fig">
+        <div class="fig-head">
+          <span class="fig-num">Figure 4 · Catalytic output of the heterodimer</span>
+        </div>
+        <div class="fig-canvas" id="fig4Canvas"></div>
+        <figcaption>
+          <strong>How to read it:</strong> semiquantitative bars for the unprocessed
+          caspase-8/FLIP<sub>L</sub> heterodimer, scaled to the mature caspase-8 homodimer (= 100).
+          The heterodimer retains ~15% activity on a generic tetrapeptide substrate, ~27% on RIPK1
+          — enough to cleave the necroptosis kinases — and reduced activity on apoptotic
+          executioner substrates (caspase-3, Bid; hatched bar — reduced, not quantified here; Pop
+          et al. 2011 Table 1). The FLIP<sub>S</sub>/R heterodimer has no catalytic domain at all
+          and is inactive on every substrate. This asymmetry — necroptosis substrates retained,
+          apoptotic substrates lost — is the biochemical definition of the survival setting.
+        </figcaption>
+      </figure>
+
+      <p>
+        A 2024 knockin study pinned the mechanism to a single side chain: replacing mouse
+        FLIP<sub>L</sub>'s Tyr362 (Tyr360 in humans) with the cysteine found in caspase-8 does not
+        restore FLIP protease activity — instead it <em>abolishes</em> the heterodimer's ability to
+        cleave RIPK1, releasing the necroptosis blockade; FLIP<sub>L</sub>-Y362C embryos die of
+        unconstrained necroptosis around E10.5–E11.5 (Cell Rep. 2024). The dead active site is not
+        dead weight: its aromatic ring shapes the heterodimer's restricted catalytic cleft.
+        Conversely, the heterodimer needs no interdomain proteolysis at all — non-cleavable
+        caspase-8 (D387A) cannot drive apoptosis but still blocks necroptosis when partnered with
+        FLIP<sub>L</sub> (Oberst et al. 2011; Pop et al. 2011).
+      </p>
+    </section>
+
+    <!-- ==================== SIMULATION ==================== -->
+    <section id="simulation">
+      <p class="sec-label">Interactive</p>
+      <h2>Fate simulation — set the c-FLIP isoform, watch the outcome</h2>
+      <p>
+        The animation below runs the full sequence: IAP surveillance → trigger → assembly →
+        isoform-dependent outcome. Pick the DED-chain composition; the loop then shows what the
+        same platform does with caspase-8 alone, with c-FLIP<sub>L</sub>, or with the short
+        isoforms. Geometry is schematic — spheres and boxes represent domains, not atomic
+        structure. Drag to orbit · scroll to zoom · loop ≈ 18 s per fate.
+      </p>
+      <figure class="fig">
+        <div class="fig-head">
+          <span class="fig-num">Figure 5 · Ripoptosome fate simulator (three.js)</span>
+        </div>
+        <div class="sim-stage" id="simStage">
+          <canvas id="simCanvas" aria-label="3-D schematic of ripoptosome assembly and the three c-FLIP-dependent outcomes"></canvas>
+          <div class="sim-phase" id="simPhase">loading…</div>
+        </div>
+        <div class="sim-toolbar" role="toolbar" aria-label="Simulation controls">
+          <button id="scen1" class="chip is-on" title="DED chain loaded with procaspase-8 only">1 · Caspase-8 only</button>
+          <button id="scen2" class="chip" title="DED chain alternates procaspase-8 and c-FLIP long">2 · + c-FLIP<sub>L</sub></button>
+          <button id="scen3" class="chip" title="DED chain alternates procaspase-8 and c-FLIP short">3 · + c-FLIP<sub>S/R</sub></button>
+          <button id="simPlay" class="chip is-on">⏸ Pause</button>
+          <button id="simReset" class="chip">Reset view</button>
+          <span class="sim-hint">respects prefers-reduced-motion (starts paused)</span>
+        </div>
+        <p class="sim-note" id="simNote"></p>
+        <figcaption>
+          <strong>How to read it:</strong> blue chain = RIPK1 scaffold (kinase · intermediate ·
+          death domain); teal = FADD; green spheres/boxes = procaspase-8 DEDs and catalytic
+          domains; amber = c-FLIP; purple = cIAPs (early) and RIPK3 (late); orange = MLKL
+          oligomer; the slate arc at top is the plasma membrane. In setting 2 the platform
+          disassembles after RIPK1 cleavage — no executioner caspases are released. In setting 3
+          the platform persists, RIPK3 docks, MLKL translocates to the membrane and ruptures it.
+        </figcaption>
+      </figure>
+    </section>
+
+    <!-- ==================== HOMEOSTASIS ==================== -->
+    <section id="homeostasis">
+      <p class="sec-label">Physiology</p>
+      <h2>Knockout genetics: the platform is required for development and adult tissue maintenance</h2>
+      <p>
+        Evidence that the ripoptosome functions <em>between</em> insults, not only
+        during them, is genetic. Caspase-8-, FADD- and c-FLIP-null mice all die around
+        embryonic day 10.5 with defects in yolk-sac and vascular development — and the rescue
+        crosses dissect why. Deleting RIPK3 (or MLKL) makes caspase-8- and FADD-deficient embryos
+        viable: their lethal defect was never "failure to apoptose" but <em>unrestrained
+        necroptosis</em> from a ripoptosome-like platform with no caspase-8/FLIP<sub>L</sub>
+        heterodimer to cleave RIPK1/RIPK3 (Kaiser et al. 2011; Oberst et al. 2011). c-FLIP
+        deletion, by contrast, is <em>not</em> rescued by RIPK3 loss alone — without FLIP, the
+        FADD–caspase-8 axis runs apoptosis unchecked; only removing FADD as well (triple knockout)
+        restores normal development (Dillon et al. 2012).
+      </p>
+
+      <figure class="fig">
+        <div class="fig-head">
+          <span class="fig-num">Figure 6 · Lethality and rescue matrix</span>
+        </div>
+        <div class="fig-canvas" id="fig5Canvas"></div>
+        <figcaption>
+          <strong>How to read it:</strong> each row is a knockout genotype; columns give the
+          mid-gestation outcome, the dominant death mode, and the rescued adult phenotype where
+          one exists. Red = lethal, green = viable, amber = lethal by a different mode. The matrix
+          separates the two survival jobs of the platform: the heterodimer's catalytic activity
+          (necroptosis blockade) and FLIP<sub>L</sub>'s restraint of caspase-8 (apoptosis
+          blockade). Data from Kaiser et al. 2011 (casp8 × ripk3), Oberst et al. 2011, Dillon et
+          al. 2012 (cflar rows and triple knockout).
+        </figcaption>
+      </figure>
+
+      <h3>Barrier tissues: skin, gut, liver, endothelium</h3>
+      <p>
+        Tissue-specific deletions map the same logic onto adult organs. Acute caspase-8 deletion
+        in the gut causes enterocyte death, barrier breakdown, inflammation and sepsis-like
+        mortality — rescued by RIPK3 loss; acute deletion in skin does the same locally
+        (Weinlich et al. 2013). Acute c-FLIP deletion in adult epidermis instead produces
+        TNF-dependent <em>caspase-3-positive apoptosis</em>, full-thickness epidermal loss and
+        severe dermatitis that RIPK3 loss does <strong>not</strong> rescue — mirroring the
+        developmental genetics exactly (Weinlich et al. 2013; Panayotova-Dimitrova et al. 2013).
+        In that skin model, one wild-type <em>Cflar</em> allele is sufficient to protect the
+        epidermis, and epidermal c-FLIP protein is lost in patients with toxic epidermal
+        necrolysis / Stevens–Johnson syndrome, the human diseases of massive keratinocyte
+        apoptosis (Panayotova-Dimitrova et al. 2013). Endothelial caspase-8 deletion phenocopies
+        the germline knockout, tying the E10.5 checkpoint to vascular development.
+      </p>
+
+      <h3>The immune system: heterodimer-dependent T-cell activation and proliferation</h3>
+      <p>
+        In T lymphocytes the heterodimer functions as a proliferation signal. TCR stimulation drives
+        caspase-8 and FLIP<sub>L</sub> into lipid rafts, where limited cleavage generates
+        p43-FLIP; p43-FLIP recruits RIPK1, TRAF2 and TRAF6 to launch NF-κB and ERK signaling and
+        support clonal proliferation. c-FLIP-deficient T cells proliferate poorly, produce less
+        IL-2, and fail the double-positive → single-positive thymic transition; FLIP<sub>L</sub>
+        overexpression enhances proliferation and CD25 induction after weak stimulation (Zhang &amp;
+        He 2005; Kavuri et al. 2011; Cell Death Dis. 2026 review). The isoform ratio is part of
+        immune equilibrium itself: in mice, c-FLIP<sub>R</sub> overexpression yields Fas-resistant
+        T cells and lupus-like autoimmunity, while in casp8<sup>−/−</sup>ripk3<sup>−/−</sup>
+        survivors, age-dependent accumulation of abnormal B220<sup>+</sup>CD3<sup>+</sup> T cells
+        reproduces a Fas-deficiency phenotype (Kaiser et al. 2011).
+      </p>
+
+      <div class="note forest">
+        <h4>The homeostatic reading</h4>
+        <p>
+          When IAPs are lost, RIPK1 is free to nucleate the platform. The
+          caspase-8/FLIP<sub>L</sub> heterodimer restrains it: an enzyme with sufficient activity
+          to cleave RIPK1 and RIPK3 and disassemble the platform, and insufficient activity to
+          process the executioner caspases. Every tissue that has been
+          tested — yolk-sac endothelium, gut, epidermis, hepatocytes, lymphocytes — requires this
+          restraint continuously. Reduced c-FLIP causes inflammatory tissue destruction and
+          developmental failure. Increased c-FLIP (the cancer setting) blocks death-ligand-induced
+          apoptosis in tumors. Tissue homeostasis requires c-FLIP levels between the two extremes.
+        </p>
+      </div>
+    </section>
+
+    <!-- ==================== DISEASE ==================== -->
+    <section id="disease">
+      <p class="sec-label">Pathology</p>
+      <h2>Disease relevance and therapeutic modulation</h2>
+      <p>
+        <strong>Cancer.</strong> c-FLIP is overexpressed across many tumor types and confers
+        resistance to FasL/TRAIL and to DNA-damaging chemotherapy; lowering c-FLIP protein — via
+        proteasome-sensitive turnover, HDAC inhibitors, or the cisplatin–Itch–p53 axis —
+        re-sensitizes tumor cells to death ligands (Safa &amp; Kanthasamy 2012; Tsuchiya et al.
+        2015). Smac mimetics deliberately induce ripoptosome formation; whether the tumor then
+        dies by apoptosis or by inflammatory necroptosis depends on its FLIP<sub>L</sub>:FLIP<sub>S</sub>
+        ratio and RIPK3 expression — a proposed stratification biomarker. Kinase-dead RIPK3
+        (D161N) and RIPK3 inhibitors can
+        redirect the platform toward apoptosis in a FLIP<sub>L</sub>-enhanced manner (the
+        RIPK3-inhibitor paradox). Small
+        molecules termed <em>FLIPins</em> target the caspase-8/FLIP<sub>L</sub> heterodimer
+        allosterically to re-tune DISC signaling (Cell Death Differ. 2020).
+      </p>
+      <p>
+        <strong>Inflammatory disease.</strong> The keratinocyte data connect c-FLIP loss directly
+        to human toxic epidermal necrolysis / Stevens–Johnson syndrome, and the TNF-dependence of
+        epidermal c-FLIP loss (Geserick et al. 2020) places the platform upstream of
+        cytokine-driven skin inflammation. Necroptotic output of the platform, when FLIP<sub>S</sub>
+        dominates, releases DAMPs and drives sterile inflammation — the mechanism behind the
+        "differential quality of cell death" that Feoktistova et&nbsp;al. flagged as its
+        pathophysiological consequence.
+      </p>
+      <p>
+        <strong>Genetic proof of principle.</strong> The FLIP<sub>L</sub>-Y362C knockin (Cell Rep.
+        2024) is a single-residue test: the Tyr362 side chain maintains
+        the heterodimer's restricted catalytic cleft for RIPK1 cleavage; its loss produces
+        unconstrained necroptosis and embryonic lethality (E10.5–E11.5).
+      </p>
+    </section>
+
+    <!-- ==================== OPEN QUESTIONS ==================== -->
+    <section id="open">
+      <p class="sec-label">Open questions</p>
+      <h2>What remains unsettled</h2>
+      <ul>
+        <li><strong>Is RIPK1 kinase activity required for assembly?</strong> The two discovery papers disagree (Nec-1 sensitivity differs by system); assembly may be kinase-dependent in some transformed lines and kinase-independent in others.</li>
+        <li><strong>Nomenclature.</strong> "Ripoptosome" vs "riptosome" vs TNFR1 "complex IIb" — related but distinguishable platforms; the field has not converged.</li>
+        <li><strong>Physiological assembly.</strong> Spontaneous formation is documented mainly in transformed cells; when and where primary tissues assemble the platform in vivo — outside pharmacological IAP inhibition — is not fully mapped.</li>
+        <li><strong>In-vivo stoichiometry.</strong> The FLIP<sub>L</sub>:FLIP<sub>S</sub>:procaspase-8 ratios inside a native platform have not been measured; the rheostat's quantitative midpoint is still inferred from cell lines and mathematical models.</li>
+        <li><strong>Caspase-10's role</strong> in the human complex (it accumulates when c-FLIP is knocked down) remains comparatively uncharacterized.</li>
+      </ul>
+    </section>
+
+    <!-- ==================== REFERENCES ==================== -->
+    <section id="refs">
+      <p class="sec-label">References</p>
+      <h2>Key sources</h2>
+      <ul class="refs">
+        <li>Tenev T, Bianchi K, Darding M, et al. (2011). The Ripoptosome, a signaling platform that assembles in response to genotoxic stress and loss of IAPs. <em>Mol Cell</em> 43:432–448. <a href="https://doi.org/10.1016/j.molcel.2011.06.006" target="_blank" rel="noopener noreferrer">doi:10.1016/j.molcel.2011.06.006</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/21737329/" target="_blank" rel="noopener noreferrer">PMID 21737329</a></li>
+        <li>Feoktistova M, Geserick P, Kellert B, et al. (2011). cIAPs block Ripoptosome formation, a RIP1/caspase-8 containing intracellular cell death complex differentially regulated by cFLIP isoforms. <em>Mol Cell</em> 43:449–463. <a href="https://doi.org/10.1016/j.molcel.2011.06.011" target="_blank" rel="noopener noreferrer">doi:10.1016/j.molcel.2011.06.011</a> · <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3163271/" target="_blank" rel="noopener noreferrer">PMC3163271</a></li>
+        <li>Green DR, Oberst A (2011). The ripoptosome: death decision in the cytosol. <em>Mol Cell</em> 43(3) — preview on the two discovery papers.</li>
+        <li>Kaiser WJ, Upton JW, Long AB, et al. (2011). RIP3 mediates the embryonic lethality of caspase-8-deficient mice. <em>Nature</em> 471:368–372. <a href="https://doi.org/10.1038/nature09857" target="_blank" rel="noopener noreferrer">doi:10.1038/nature09857</a></li>
+        <li>Oberst A, Dillon CP, Weinlich R, et al. (2011). Catalytic activity of the caspase-8–FLIP<sub>L</sub> complex inhibits RIPK3-dependent necrosis. <em>Nature</em> 471:363–367. <a href="https://doi.org/10.1038/nature09852" target="_blank" rel="noopener noreferrer">doi:10.1038/nature09852</a></li>
+        <li>Pop C, Felts AK, Kuiper S, et al. (2011). FLIP<sub>L</sub> induces caspase-8 activity in the absence of interdomain proteolysis. <em>J Biol Chem</em> 286:3035–3042. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4024219/" target="_blank" rel="noopener noreferrer">PMC4024219</a></li>
+        <li>Dillon CP, Oberst A, Weinlich R, et al. (2012). Survival function of the FADD–CASPASE-8–cFLIP<sub>L</sub> complex. <em>Cell Rep</em> 1:401–407. <a href="https://doi.org/10.1016/j.celrep.2012.03.010" target="_blank" rel="noopener noreferrer">doi:10.1016/j.celrep.2012.03.010</a></li>
+        <li>Micheau O, Thome M, Schneider P, et al. (2002). The long form of FLIP is an activator of caspase-8 at the Fas DISC. <em>J Biol Chem</em> 277:45162–45171.</li>
+        <li>Weinlich R, Oberst A, Dillon CP, et al. (2013). Protective roles for caspase-8 and cFLIP in adult homeostasis. <em>Cell Rep</em> 5:340–348. <a href="https://doi.org/10.1016/j.celrep.2013.08.045" target="_blank" rel="noopener noreferrer">doi:10.1016/j.celrep.2013.08.045</a></li>
+        <li>Panayotova-Dimitrova D, Feoktistova M, Ploesser M, et al. (2013). cFLIP regulates skin homeostasis and protects against TNF-induced keratinocyte apoptosis. <em>Cell Rep</em> 5:397–408. <a href="https://doi.org/10.1016/j.celrep.2013.09.035" target="_blank" rel="noopener noreferrer">doi:10.1016/j.celrep.2013.09.035</a></li>
+        <li>Kavuri SM, Geserick P, Berg D, et al. (2011). cFLIP isoforms block CD95- and TRAIL death-receptor-induced gene induction… <em>J Biol Chem</em> 286:16631–16646.</li>
+        <li>Zhang N, He YW (2005). An essential role for c-FLIP in the efficient development of mature T lymphocytes. <em>J Exp Med</em> 202:395–404.</li>
+        <li>Yeh WC, Itie A, Elia AJ, et al. (2000). Requirement for Casper (c-FLIP) in regulation of death receptor-induced apoptosis and embryonic development. <em>Immunity</em> 12:633–642.</li>
+        <li>Tsuchiya Y, Nakabayashi O, Nakano H (2015). FLIP the switch: regulation of apoptosis and necroptosis by cFLIP. <em>Int J Mol Sci</em> 16:30309–30335.</li>
+        <li>Smyth P, Sessler T, Scott CJ, Longley DB (2020). FLIP<sub>L</sub>: the pseudo-caspase. <em>FEBS J</em> 287:4246–4260. <a href="https://doi.org/10.1111/febs.15260" target="_blank" rel="noopener noreferrer">doi:10.1111/febs.15260</a></li>
+        <li>Safa AR, Kanthasamy AG (2012). c-FLIP, a master anti-apoptotic regulator. <em>Exp Oncol</em> 34:176–184. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4817998/" target="_blank" rel="noopener noreferrer">PMC4817998</a></li>
+        <li>Geserick P, Hupe M, Moulin M, et al. (2020). TNF is partially required for cell-death-triggered skin inflammation upon acute loss of cFLIP. <em>Int J Mol Sci</em> 21:8859.</li>
+        <li>Dissecting DISC regulation via pharmacological targeting of the caspase-8/c-FLIP<sub>L</sub> heterodimer (2020). <em>Cell Death Differ</em>. <a href="https://doi.org/10.1038/s41418-020-0489-0" target="_blank" rel="noopener noreferrer">doi:10.1038/s41418-020-0489-0</a></li>
+        <li>Residue Y362 is crucial for FLIP<sub>L</sub> to impart catalytic activity to pro-caspase-8 to suppress necroptosis (2024). <em>Cell Rep</em>. <a href="https://www.cell.com/cell-reports/fulltext/S2211-1247(24)01317-2" target="_blank" rel="noopener noreferrer">S2211-1247(24)01317-2</a></li>
+        <li>c-FLIP as a master regulator of immune homeostasis and disease mechanisms (2026). <em>Cell Death Dis</em>. <a href="https://doi.org/10.1038/s41419-026-08771-5" target="_blank" rel="noopener noreferrer">doi:10.1038/s41419-026-08771-5</a></li>
+      </ul>
+    </section>
+
+  </main>
+</div>
+
+<footer>
+  <div class="wrap">
+    <p>
+      Built from vault notes — <a href="https://graph.johnnykuo.com/#node=Ripoptosome">Ripoptosome</a>,
+      <a href="https://graph.johnnykuo.com/#node=c-FLIP">c-FLIP</a>,
+      <a href="https://graph.johnnykuo.com/#node=Caspase-8-c-FLIP%20Rheostat">Caspase-8-c-FLIP Rheostat</a>,
+      <a href="https://graph.johnnykuo.com/#node=Smac%20mimetics">Smac mimetics</a>,
+      <a href="https://graph.johnnykuo.com/#node=TNFR1%20complex%20I">TNFR1 complex I</a> — plus the
+      primary literature above · llm-wiki-jk · Generated 18 November 2026 · Educational content;
+      not medical advice
+    </p>
+  </div>
+</footer>
+
+<!-- ===== PAGE-SPECIFIC FIGURE CODE (SVG, via T2 helpers) ===== -->
+<script>
+(function () {
+  "use strict";
+
+  var el = T2.el, text = T2.text, svgRoot = T2.svgRoot, arrowHead = T2.arrowHead, wrapText = T2.wrapText;
+  var W = 1000;
+  var INK = "#1c1915", SOFT = "#6d665b", RULE = "#d3c9b6";
+  var C = {
+    ripk1: "#264653", fadd: "#2a9d8f", c8: "#2a7a3f", c10: "#3a7d44",
+    flip: "#e9c46a", flipTxt: "#9a7430", iap: "#6a5acd", ub: "#c49a4a",
+    apo: "#c1121f", nec: "#7b2cbf", mlkl: "#ff7a1a", surv: "#2a7a3f", paper: "#fbf8f1"
+  };
+
+  function smooth(k) { k = Math.max(0, Math.min(1, k)); return k * k * (3 - 2 * k); }
+  function centeredLines(svg, cx, cy, lines, opts) {
+    opts = opts || {};
+    var size = opts.size || 12, gap = opts.gap || 3;
+    var y0 = cy - ((lines.length - 1) * (size + gap)) / 2;
+    lines.forEach(function (l, i) { text(svg, cx, y0 + i * (size + gap), l, opts); });
+  }
+  function box(svg, x, y, w, h, fill, stroke) {
+    el("rect", { x: x, y: y, width: w, height: h, rx: 3, fill: fill, stroke: stroke || INK, "stroke-width": 1 }, svg);
+  }
+
+  /* ============ FIGURE 1 — assembly switch ============ */
+  (function () {
+    var host = document.getElementById("fig1Canvas");
+    if (!host) return;
+    var H = 430;
+    var svg = svgRoot(host, W, H, "Ripoptosome assembly switch: IAP surveillance to 2 MDa platform");
+    arrowHead(svg, "f1a", INK);
+    arrowHead(svg, "f1b", INK);
+
+    // three panels
+    var px = [30, 380, 700], pw = [300, 260, 260];
+    var heads = ["Steady state — IAP surveillance", "Triggers of IAP loss", "~2 MDa ripoptosome"];
+    heads.forEach(function (h, i) {
+      text(svg, px[i] + pw[i] / 2, 34, h, { size: 14, weight: 700, anchor: "middle", fill: INK });
+    });
+
+    /* panel 1: cIAPs ubiquitylating RIPK1 */
+    var x1 = px[0], y1 = 70;
+    box(svg, x1, y1 + 60, pw[0], 200, "var(--paper-deep)", RULE);
+    // cIAP shield trio
+    [0, 1, 2].forEach(function (i) {
+      var cx = x1 + 70 + i * 80;
+      el("circle", { cx: cx, cy: y1 + 30, r: 16, fill: C.iap, stroke: INK, "stroke-width": 1 }, svg);
+    });
+    text(svg, x1 + pw[0] / 2, y1 + 12, "cIAP1 · cIAP2 · XIAP (+ TRAF2)", { size: 12, anchor: "middle", fill: C.iap });
+    // RIPK1
+    var rk = [x1 + 80, x1 + 150, x1 + 220];
+    el("circle", { cx: rk[0], cy: y1 + 150, r: 17, fill: C.ripk1, stroke: INK }, svg);
+    el("circle", { cx: rk[1], cy: y1 + 150, r: 12, fill: C.ripk1, stroke: INK }, svg);
+    el("circle", { cx: rk[2], cy: y1 + 150, r: 15, fill: C.ripk1, stroke: INK }, svg);
+    text(svg, x1 + 150, y1 + 196, "RIPK1", { size: 12, anchor: "middle", fill: C.ripk1, weight: 700 });
+    // Ub chain onto RIPK1 K377
+    var ux = rk[0] + 6, uy = y1 + 118;
+    [[0, -18], [10, -34], [2, -50]].forEach(function (d) {
+      el("circle", { cx: ux + d[0], cy: uy + d[1], r: 6, fill: C.ub, stroke: INK }, svg);
+    });
+    text(svg, ux + 44, uy - 34, "Ub (K377)", { size: 11, fill: C.flipTxt, mono: true });
+    // proteasome
+    box(svg, x1 + 40, y1 + 235, 66, 22, "var(--sheet)", INK);
+    text(svg, x1 + 73, y1 + 250, "26S", { size: 10, anchor: "middle", mono: true, fill: SOFT });
+    el("line", { x1: rk[0], y1: y1 + 170, x2: x1 + 73, y2: y1 + 235, stroke: SOFT, "stroke-width": 1, "stroke-dasharray": "3,3" }, svg);
+    text(svg, x1 + 160, y1 + 250, "proteasomal destruction — no platform", { size: 11, fill: SOFT, mono: true });
+    text(svg, x1 + pw[0] / 2, y1 + 300, "assembly-competent RIPK1 kept near zero", { size: 11.5, anchor: "middle", fill: SOFT });
+
+    /* panel 2: triggers */
+    var x2 = px[1], y2 = 60;
+    var trig = [
+      ["Genotoxic stress", "etoposide · doxorubicin · teniposide", C.apo],
+      ["Smac mimetics", "IAP antagonists (cIAP autodestruction)", C.ub],
+      ["TLR3 – TRIF", "dsRNA · poly(I:C)", C.nec],
+      ["Proteasome inhibitors", "lactacystin · MG-132", C.iap]
+    ];
+    trig.forEach(function (t, i) {
+      var yy = y2 + 40 + i * 62;
+      box(svg, x2, yy, pw[1], 48, "var(--paper-deep)", RULE);
+      text(svg, x2 + 12, yy + 20, t[0], { size: 13, weight: 700, fill: t[2] });
+      text(svg, x2 + 12, yy + 38, t[1], { size: 11.5, fill: SOFT, mono: true });
+    });
+
+    /* panel 3: assembled platform */
+    var x3 = px[2], y3 = 70;
+    box(svg, x3 - 6, y3 + 44, pw[2] + 12, 216, "var(--paper-deep)", RULE);
+    // platform ring label
+    text(svg, x3 + pw[2] / 2, y3 + 30, "≈ 2 MDa (gel filtration)", { size: 11.5, anchor: "middle", mono: true, fill: SOFT });
+    // RIPK1 horizontal
+    var r2 = [x3 + 55, x3 + 115, x3 + 170];
+    ["kinase", "", "DD"].forEach(function (lab, i) {
+      el("circle", { cx: r2[i], cy: y3 + 130, r: i === 1 ? 11 : 16, fill: C.ripk1, stroke: INK }, svg);
+      if (lab) text(svg, r2[i], y3 + 130 + (i === 0 ? 30 : 28), lab, { size: 10.5, anchor: "middle", fill: C.ripk1, mono: true });
+    });
+    text(svg, x3 + 115, y3 + 96, "RIPK1", { size: 12, anchor: "middle", fill: C.ripk1, weight: 700 });
+    // FADD DD->DED
+    el("circle", { cx: r2[2] + 22, cy: y3 + 110, r: 10, fill: C.fadd, stroke: INK }, svg);
+    el("circle", { cx: r2[2] + 48, cy: y3 + 92, r: 8, fill: C.fadd, stroke: INK }, svg);
+    text(svg, r2[2] + 30, y3 + 140, "FADD", { size: 11, anchor: "middle", fill: C.fadd, weight: 700 });
+    // DED chain arc: caspase-8 (green), caspase-10, FLIP (amber)
+    var chain = [
+      [x3 + 190, y3 + 74, C.c8, "8"],
+      [x3 + 214, y3 + 62, C.flip, "L"],
+      [x3 + 238, y3 + 66, C.c8, "8"],
+      [x3 + 254, y3 + 84, C.c10, "10"],
+      [x3 + 226, y3 + 106, C.flip, "S"],
+      [x3 + 198, y3 + 104, C.c8, "8"]
+    ];
+    chain.forEach(function (u) {
+      el("circle", { cx: u[0], cy: u[1], r: 11, fill: u[2], stroke: INK, opacity: 0.92 }, svg);
+      text(svg, u[0], u[1] + 3.5, u[3], { size: 9, anchor: "middle", fill: "var(--sheet)", mono: true, weight: 700 });
+    });
+    text(svg, x3 + pw[2] / 2, y3 + 176, "DED chain", { size: 12, anchor: "middle", fill: SOFT, mono: true });
+    text(svg, x3 + pw[2] / 2, y3 + 200, "procaspase-8 · caspase-10 · c-FLIP", { size: 11.5, anchor: "middle", fill: INK });
+    text(svg, x3 + pw[2] / 2, y3 + 224, "death-receptor-independent", { size: 11, anchor: "middle", fill: SOFT });
+
+    /* arrows between panels */
+    [ [px[0] + pw[0] + 8, y1 + 160, px[1] - 10], [px[1] + pw[1] + 8, y2 + 160, px[2] - 12] ].forEach(function (a, i) {
+      el("line", { x1: a[0], y1: a[1], x2: a[2], y2: a[1], stroke: INK, "stroke-width": 1.6, "marker-end": "url(#" + (i ? "f1b" : "f1a") + ")" }, svg);
+    });
+
+    // footer labels under arrows
+    text(svg, (px[0] + pw[0] + px[1]) / 2, y1 + 150, "IAPs lost", { size: 11, anchor: "middle", fill: SOFT, mono: true });
+    text(svg, (px[1] + pw[1] + px[2]) / 2, y2 + 150, "RIPK1 stabilizes", { size: 11, anchor: "middle", fill: SOFT, mono: true });
+
+    // outcome strip
+    text(svg, 30, H - 24, "Outcome set by the c-FLIP rheostat inside the DED chain → apoptosis · survival · necroptosis (Figure 3)", { size: 12.5, fill: SOFT });
+  })();
+
+  /* ============ FIGURE 2 — domain architecture ============ */
+  (function () {
+    var host = document.getElementById("fig2Canvas");
+    if (!host) return;
+    var H = 430;
+    var svg = svgRoot(host, W, H, "Domain architecture of procaspase-8 and the three c-FLIP isoforms");
+    var x0 = 150, x1 = W - 40, unit = (x1 - x0) / 480; // aa scale
+
+    function aaPos(a) { return x0 + a * unit; }
+    var rows = [
+      { name: "Procaspase-8", tag: "55 kDa · CASP8", y: 90, color: C.c8, note: "catalytic dyad H317/C360 active; full processing possible" },
+      { name: "c-FLIP\u2097 (long)", tag: "55 kDa · CFLAR", y: 190, color: C.flip, note: "dyad replaced by R315 / Y360 — dead active site; D376 → p43-FLIP" },
+      { name: "c-FLIP\u209B (short)", tag: "26 kDa · CFLAR", y: 290, color: C.flip, note: "no caspase-like domain; ~20-aa tail drives ubiquitination" },
+      { name: "c-FLIP\u1D63 (Raji)", tag: "24–25 kDa · CFLAR", y: 370, color: C.flip, note: "T/B-cell restricted; SNP at 3′ splice site determines S vs R" }
+    ];
+    // shared DED spans (approx after reviews): DED1 ~1-80, DED2 ~90-175
+    var DED1 = [1, 80], DED2 = [90, 175];
+
+    // residue ruler
+    [0, 100, 200, 300, 400, 480].forEach(function (a) {
+      el("line", { x1: aaPos(a), y1: 58, x2: aaPos(a), y2: 64, stroke: INK, "stroke-width": 1 }, svg);
+      text(svg, aaPos(a), 54, String(a), { size: 10.5, anchor: "middle", mono: true, fill: SOFT });
+    });
+    el("line", { x1: x0, y1: 61, x2: x1, y2: 61, stroke: INK, "stroke-width": 1 }, svg);
+    text(svg, W - 40, 54, "residues (approx.)", { size: 10.5, anchor: "end", mono: true, fill: SOFT });
+
+    rows.forEach(function (r) {
+      // name + tag
+      text(svg, 20, r.y - 8, r.name, { size: 14, weight: 700, fill: INK });
+      text(svg, 20, r.y + 10, r.tag, { size: 10.5, mono: true, fill: SOFT });
+      // domain row (drawn at absolute y)
+      var dy = r.y - 26;
+      function d(a, b, fill, dash) {
+        el("rect", { x: aaPos(a), y: dy, width: (b - a) * unit, height: 26, rx: 3, fill: fill, stroke: INK, "stroke-width": 1, "stroke-dasharray": dash || "none" }, svg);
+      }
+      d(DED1[0], DED1[1], r.color === C.c8 ? C.c8 : C.flip);
+      d(DED2[0], DED2[1], r.color === C.c8 ? C.c8 : C.flip);
+      text(svg, aaPos(40), dy + 17, "DED1", { size: 11, anchor: "middle", fill: "var(--sheet)", weight: 700, mono: true });
+      text(svg, aaPos(132), dy + 17, "DED2", { size: 11, anchor: "middle", fill: "var(--sheet)", weight: 700, mono: true });
+      if (r.name.indexOf("Procaspase") === 0) {
+        d(200, 385, C.c8); d(385, 480, C.c8);
+        text(svg, aaPos(292), dy + 17, "p18 (large)", { size: 11, anchor: "middle", fill: "var(--sheet)", weight: 700 });
+        text(svg, aaPos(432), dy + 17, "p10", { size: 11, anchor: "middle", fill: "var(--sheet)", weight: 700 });
+        // cleavage sites
+        [[374, "D374 inter"], [384, "D384"], [210, "D210/216/223 intra"]].forEach(function (cs, i) {
+          el("line", { x1: aaPos(cs[0]), y1: dy - 4, x2: aaPos(cs[0]), y2: dy + 30, stroke: C.apo, "stroke-width": 1.4, "stroke-dasharray": "2,2" }, svg);
+          text(svg, aaPos(cs[0]) + (i === 2 ? -6 : 6), dy - 8, cs[1], { size: 10, anchor: i === 2 ? "end" : "start", fill: C.apo, mono: true });
+        });
+        // dyad
+        text(svg, aaPos(340), dy + 44, "H317 · C360 — active dyad", { size: 10.5, fill: C.c8, mono: true });
+      } else if (r.name.indexOf("(long)") > -1) {
+        d(200, 385, C.flip, "4,3"); d(385, 480, C.flip, "4,3");
+        text(svg, aaPos(292), dy + 17, "p20-like (pseudo)", { size: 10.5, anchor: "middle", fill: INK, weight: 700 });
+        text(svg, aaPos(432), dy + 17, "p12-like", { size: 10, anchor: "middle", fill: INK });
+        el("line", { x1: aaPos(376), y1: dy - 4, x2: aaPos(376), y2: dy + 30, stroke: C.apo, "stroke-width": 1.4, "stroke-dasharray": "2,2" }, svg);
+        text(svg, aaPos(376) + 6, dy - 8, "D376 → p43-FLIP", { size: 10, fill: C.apo, mono: true });
+        text(svg, aaPos(300), dy + 44, "R315 · Y360 replace the dyad (Y360 = Y362 mouse)", { size: 10.5, fill: C.flipTxt, mono: true });
+      } else {
+        // short isoforms: tail after DED2
+        var tA = 176, tB = r.name.indexOf("\u209B") > -1 ? 234 : 221;
+        d(tA, tB, C.flip, "2,2");
+        text(svg, aaPos(205), dy + 17, "tail", { size: 10, anchor: "middle", fill: INK });
+        el("text", { x: aaPos(280), y: dy + 17, "font-size": 11, "font-style": "italic", fill: SOFT }, svg).textContent = "— no caspase-like domain —";
+      }
+      text(svg, x0, dy + 44 + 14, r.note, { size: 11, fill: SOFT, mono: true, anchor: "start" });
+    });
+  })();
+
+  /* ============ FIGURE 3 — rheostat decision diagram ============ */
+  (function () {
+    var host = document.getElementById("fig3Canvas");
+    if (!host) return;
+    var H = 480;
+    var svg = svgRoot(host, W, H, "The c-FLIP rheostat: one platform, three outcomes");
+    arrowHead(svg, "f3a", INK);
+
+    // top: assembled platform
+    box(svg, 330, 40, 340, 74, "var(--paper-deep)", RULE);
+    text(svg, 500, 68, "Ripoptosome (~2 MDa)", { size: 15, anchor: "middle", weight: 700, fill: INK });
+    text(svg, 500, 90, "RIPK1 · FADD · procaspase-8 · caspase-10 · c-FLIP", { size: 12, anchor: "middle", fill: SOFT, mono: true });
+    // input label
+    text(svg, 200, 78, "IAPs lost · genotoxic stress", { size: 12, fill: SOFT, mono: true, anchor: "end" });
+    el("line", { x1: 210, y1: 74, x2: 326, y2: 74, stroke: INK, "stroke-width": 1.4, "marker-end": "url(#f3a)" }, svg);
+
+    // central dial question
+    text(svg, 500, 148, "Which dimers form in the DED chain?", { size: 13.5, anchor: "middle", weight: 700, fill: C.flipTxt });
+
+    // three branches
+    var bw = 288, bx = [30, 356, 682], by = 176;
+    var br = [
+      {
+        h: "Caspase-8 homodimers", hc: C.c8,
+        sub: "FLIP scarce or titrated out",
+        steps: ["interdimer cleavage (D374)", "intradimer cleavage (D210/216/223/384)", "p18/p10 heterotetramer released", "caspase-3/-7 + Bid activated"],
+        out: "APOPTOSIS", oc: C.apo,
+        foot: "RIPK1 cleaved → platform dismantles"
+      },
+      {
+        h: "Caspase-8 / FLIP\u2097 heterodimers", hc: C.flipTxt,
+        sub: "FLIP\u2097 at ~1:1 with procaspase-8",
+        steps: ["one active site, narrowed pocket", "interdimer cleavage of neighbors (→ p43-FLIP)", "intradimer processing impossible", "no executioner release"],
+        out: "SURVIVAL", oc: C.surv,
+        foot: "RIPK1 + RIPK3 cleaved → necroptosis blocked, platform dismantles"
+      },
+      {
+        h: "Caspase-8 / FLIP\u209B/R heterodimers", hc: C.flipTxt,
+        sub: "short isoforms dominate",
+        steps: ["no catalytic domain in FLIP protomer", "DED-chain elongation terminated", "RIPK1 never cleaved", "platform persists"],
+        out: "NECROPTOSIS", oc: C.nec,
+        foot: "RIPK1~p → RIPK3 → MLKL oligomer → membrane rupture"
+      }
+    ];
+    br.forEach(function (b, i) {
+      var x = bx[i];
+      box(svg, x, by, bw, 176, "var(--paper-deep)", RULE);
+      text(svg, x + bw / 2, by + 24, b.h, { size: 13.5, anchor: "middle", weight: 700, fill: b.hc });
+      text(svg, x + bw / 2, by + 42, b.sub, { size: 11, anchor: "middle", fill: SOFT, mono: true });
+      b.steps.forEach(function (s, j) {
+        text(svg, x + 14, by + 66 + j * 20, "· " + s, { size: 11.5, fill: INK });
+      });
+      // connector from platform
+      el("line", { x1: 500, y1: 122, x2: x + bw / 2, y2: by - 6, stroke: INK, "stroke-width": 1.3, "marker-end": "url(#f3a)" }, svg);
+      // outcome chip
+      box(svg, x + 30, by + 196, bw - 60, 40, b.oc);
+      text(svg, x + bw / 2, by + 222, b.out, { size: 15, anchor: "middle", weight: 700, fill: "var(--sheet)", mono: true });
+      el("line", { x1: x + bw / 2, y1: by + 176, x2: x + bw / 2, y2: by + 192, stroke: INK, "stroke-width": 1.4, "marker-end": "url(#f3a)" }, svg);
+      // foot
+      centeredLines(svg, x + bw / 2, by + 268, [b.foot], { size: 11, fill: SOFT, anchor: "middle" });
+    });
+    // caveat
+    text(svg, 500, H - 14, "Necroptosis default requires an intact RIPK1–RIPK3–MLKL axis; without RIPK3, a FLIP\u209B-dominated platform stalls rather than kills.", { size: 11.5, anchor: "middle", fill: SOFT });
+  })();
+
+  /* ============ FIGURE 4 — catalytic output bars ============ */
+  (function () {
+    var host = document.getElementById("fig4Canvas");
+    if (!host) return;
+    var H = 400;
+    var svg = svgRoot(host, W, H, "Relative catalytic output: caspase-8 homodimer vs FLIP-L heterodimer vs FLIP-S heterodimer");
+    arrowHead(svg, "f4a", INK);
+
+    var gx = 260, gy = 60, gh = 250, gw = 640;
+    el("line", { x1: gx, y1: gy + gh, x2: gx + gw, y2: gy + gh, stroke: INK, "stroke-width": 1.5 }, svg);
+    el("line", { x1: gx, y1: gy, x2: gx, y2: gy + gh, stroke: INK, "stroke-width": 1.5 }, svg);
+
+    // gridlines 0/25/50/75/100
+    var maxV = 110;
+    [0, 25, 50, 75, 100].forEach(function (v) {
+      var yy = gy + gh - (v / maxV) * gh;
+      el("line", { x1: gx, y1: yy, x2: gx + gw, y2: yy, stroke: RULE, "stroke-width": 1, "stroke-dasharray": v ? "3,4" : "none" }, svg);
+      text(svg, gx - 10, yy + 4, String(v), { size: 11, anchor: "end", mono: true, fill: SOFT });
+    });
+    // homodimer reference band
+    var refY = gy + gh - (100 / maxV) * gh;
+    el("line", { x1: gx, y1: refY, x2: gx + gw, y2: refY, stroke: C.c8, "stroke-width": 1.2, "stroke-dasharray": "6,4" }, svg);
+    text(svg, gx + gw - 4, refY - 8, "mature caspase-8 homodimer = 100", { size: 11, anchor: "end", fill: C.c8, mono: true });
+
+    // groups: three dimer types x three substrate classes
+    var groups = [
+      { name: "Caspase-8 homodimer", col: C.c8, vals: [100, 100, 100] },
+      { name: "Caspase-8 / FLIP\u2097 heterodimer", col: C.flip, vals: [15, 27, 4], hatch: [2] },
+      { name: "Caspase-8 / FLIP\u209B/R heterodimer", col: "#b08930", vals: [0, 0, 0] }
+    ];
+    var subs = ["generic peptide|IETD-afc", "RIPK1|(necroptosis kinase)", "casp-3 · Bid|(executioners)"];
+    var gw2 = gw / 3; // per substrate group
+    groups.forEach(function (g, gi) {
+      var cx = gx + gw2 * gi + gw2 / 2;
+      text(svg, cx, gy + gh + 22, g.name, { size: 12.5, anchor: "middle", weight: 700, fill: g.col === C.flip ? C.flipTxt : g.col });
+      subs.forEach(function (s, si) {
+        var bw2 = 46;
+        var bx = cx - bw2 / 2 + (si - 1) * 62;
+        var v = g.vals[si];
+        var bh = (v / maxV) * gh;
+        if (v > 0) {
+          el("rect", { x: bx, y: gy + gh - bh, width: bw2, height: bh, fill: g.col, stroke: INK, "stroke-width": 1, opacity: 0.9 }, svg);
+          text(svg, bx + bw2 / 2, gy + gh - bh - 7, String(v), { size: 11, anchor: "middle", mono: true, fill: INK });
+          if (g.hatch && g.hatch.indexOf(si) > -1) {
+            text(svg, bx + bw2 / 2, gy + gh - bh - 22, "reduced*", { size: 10, anchor: "middle", fill: C.apo, mono: true });
+          }
+        } else {
+          text(svg, bx + bw2 / 2, gy + gh - 8, "0", { size: 11, anchor: "middle", mono: true, fill: SOFT });
+        }
+        // substrate label under axis (three per group, small)
+        var sl = s.split("|");
+        sl.forEach(function (line, li) {
+          text(svg, bx + bw2 / 2, gy + gh + 40 + li * 13, line, { size: 9.8, anchor: "middle", fill: SOFT });
+        });
+      });
+    });
+
+    // y-axis label
+    text(svg, gx - 190, gy + gh / 2, "relative kcat / KM (% of homodimer)", { size: 12, fill: SOFT, mono: true });
+    // footnote
+    text(svg, gx, H - 16, "* not quantified here — apoptotic substrates are cleaved less efficiently than RIPK1 or HDAC7 (Pop et al. 2011, Table 1).", { size: 11, fill: SOFT });
+    text(svg, gx, H - 34, "Unprocessed (Site-1) caspase-8 partnered with FLIP\u2097 retains RIPK1-cleaving activity but not executioner-caspase activity.", { size: 11.5, fill: INK });
+  })();
+
+  /* ============ FIGURE 5 — knockout/rescue matrix ============ */
+  (function () {
+    var host = document.getElementById("fig5Canvas");
+    if (!host) return;
+    var H = 452;
+    var svg = svgRoot(host, W, H, "Knockout genetics: embryonic lethality and rescue of the ripoptosome components");
+
+    var cols = [
+      { x: 40, w: 330, label: "Genotype" },
+      { x: 370, w: 250, label: "E10.5 outcome" },
+      { x: 620, w: 140, label: "Death mode" },
+      { x: 760, w: 200, label: "Rescued adult phenotype" }
+    ];
+    var rows = [
+      { g: "casp8 \u2212/\u2212", out: ["dead", C.apo], mode: "necroptosis", adult: "—" },
+      { g: "fadd \u2212/\u2212", out: ["dead", C.apo], mode: "necroptosis", adult: "—" },
+      { g: "cflar \u2212/\u2212 (c-FLIP)", out: ["dead", C.apo], mode: "apoptosis", adult: "—" },
+      { g: "casp8 \u2212/\u2212 · ripk3 \u2212/\u2212", out: ["viable", C.surv], mode: "—", adult: "fertile; lymphadenopathy ~4 months (lpr-like)" },
+      { g: "fadd \u2212/\u2212 · ripk3 \u2212/\u2212", out: ["viable", C.surv], mode: "—", adult: "development normal (Dillon 2012)" },
+      { g: "cflar \u2212/\u2212 · ripk3 \u2212/\u2212", out: ["dead", C.flip], mode: "apoptosis", adult: "—" },
+      { g: "cflar \u2212/\u2212 · fadd \u2212/\u2212 · ripk3 \u2212/\u2212", out: ["viable", C.surv], mode: "—", adult: "normal development, size, fertility" }
+    ];
+
+    var yTop = 76, rh = 42;
+    // header
+    cols.forEach(function (c) {
+      box(svg, c.x, yTop - 32, c.w, 26, "var(--paper-deep)", INK);
+      text(svg, c.x + c.w / 2, yTop - 14, c.label, { size: 11.5, anchor: "middle", weight: 700, fill: SOFT, mono: true });
+    });
+    rows.forEach(function (r, i) {
+      var y = yTop + i * rh;
+      var bg = i % 2 ? "var(--paper-deep)" : "var(--sheet)";
+      cols.forEach(function (c, ci) {
+        box(svg, c.x, y, c.w, rh, bg, RULE);
+      });
+      // genotype (mono, bold)
+      text(svg, cols[0].x + 14, y + rh / 2 + 4, r.g, { size: 13, mono: true, weight: 700, fill: INK });
+      // outcome chip
+      var oc = r.out[1];
+      box(svg, cols[1].x + 12, y + 8, 110, rh - 16, oc);
+      text(svg, cols[1].x + 67, y + rh / 2 + 4, r.out[0], { size: 12.5, anchor: "middle", weight: 700, fill: "var(--sheet)", mono: true });
+      text(svg, cols[1].x + 140, y + rh / 2 + 4, r.out[0] === "viable" ? "rescued" : "lethal", { size: 11.5, fill: SOFT, mono: true });
+      // death mode
+      text(svg, cols[2].x + 14, y + rh / 2 + 4, r.mode, { size: 12, fill: r.mode === "necroptosis" ? C.nec : (r.mode === "apoptosis" ? C.apo : SOFT), weight: 700 });
+      // adult
+      text(svg, cols[3].x + 14, y + rh / 2 + 4, r.adult, { size: 11, fill: r.adult === "—" ? SOFT : C.surv });
+    });
+
+    // legend + reading
+    var ly = yTop + rows.length * rh + 22;
+    el("circle", { cx: 50, cy: ly, r: 7, fill: C.apo }, svg);
+    text(svg, 64, ly + 4, "lethal", { size: 11.5, fill: SOFT });
+    el("circle", { cx: 130, cy: ly, r: 7, fill: C.surv }, svg);
+    text(svg, 144, ly + 4, "viable", { size: 11.5, fill: SOFT });
+    el("circle", { cx: 214, cy: ly, r: 7, fill: C.flip }, svg);
+    text(svg, 228, ly + 4, "lethal by the second mode (apoptosis, once necroptosis is removed)", { size: 11.5, fill: SOFT });
+    text(svg, 40, ly + 26, "Reading: RIPK3 loss rescues caspase-8 and FADD deficiency (their lethal defect is unchecked necroptosis) but not c-FLIP deficiency (its lethal defect is caspase-8-driven apoptosis); only", { size: 11.5, fill: INK });
+    text(svg, 40, ly + 42, "removing FADD as well restores cflar-null development — the two functions of the FLIP\u2097 heterodimer: blocking necroptosis catalytically, restraining apoptosis stoichiometrically.", { size: 11.5, fill: INK });
+  })();
+
+  T2.initNav();
+  T2.initTooltip();
+  T2.initLightbox();
+  T2.initNavScrollHint();
+})();
+</script>
+
+<!-- ===== FATE SIMULATION (three.js, r160) ===== -->
+<script type="module">
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+
+const canvas = document.getElementById('simCanvas');
+const phaseEl = document.getElementById('simPhase');
+const noteEl = document.getElementById('simNote');
+const scenBtns = [document.getElementById('scen1'), document.getElementById('scen2'), document.getElementById('scen3')];
+const playBtn = document.getElementById('simPlay');
+
+const NOTES = {
+  1: '<b>Setting 1 — no c-FLIP.</b> Procaspase-8 homodimers complete interdimer (D374) and intradimer (D210/216/223/384) processing. The p18/p10 heterotetramer is released, caspase-3/-7 and Bid are engaged, and RIPK1 is cleaved during disassembly: the platform is dismantled as active caspase-8 is released — apoptosis.',
+  2: '<b>Setting 2 — c-FLIP\u2097 present.</b> The heterodimer forms more readily than the homodimer and keeps a single, substrate-restricted active site. It cleaves RIPK1 (and RIPK3) but cannot release an executioner signal: the platform is dismantled, both death programs are blocked, and the cell survives.',
+  3: '<b>Setting 3 — c-FLIP\u209B/R present.</b> The heterodimer has no catalytic domain at all. RIPK1 is never cleaved, the platform persists and amplifies: RIPK1 phosphorylates RIPK3, MLKL oligomerizes, translocates and ruptures the plasma membrane — inflammatory necroptosis, releasing DAMPs. Requires an intact RIPK1–RIPK3–MLKL axis.'
+};
+
+let SCEN = 1;
+let playing = !matchMedia('(prefers-reduced-motion: reduce)').matches;
+const DUR = 18;
+
+const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true });
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+renderer.setClearColor(0x000000, 0);
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(40, 1, 0.1, 100);
+const CAM0 = new THREE.Vector3(1.5, 2.4, 12.5);
+camera.position.copy(CAM0);
+const controls = new OrbitControls(camera, canvas);
+controls.enableDamping = true;
+controls.target.set(0, 0.6, 0);
+controls.autoRotate = true;
+controls.autoRotateSpeed = 0.7;
+
+scene.add(new THREE.AmbientLight(0xfff2df, 0.85));
+const key = new THREE.DirectionalLight(0xffffff, 1.0); key.position.set(5, 8, 6); scene.add(key);
+const rim = new THREE.DirectionalLight(0x88bbff, 0.45); rim.position.set(-6, 3, -5); scene.add(rim);
+
+/* helpers */
+function mesh(geo, color) {
+  const m = new THREE.Mesh(geo, new THREE.MeshStandardMaterial({ color, roughness: 0.45, metalness: 0.05, transparent: true }));
+  m.userData.base = 1;
+  return m;
+}
+const sph = (r, c) => mesh(new THREE.SphereGeometry(r, 24, 18), c);
+const boxG = (w, h, d, c) => mesh(new THREE.BoxGeometry(w, h, d), c);
+function setFade(o, f) {
+  o.traverse(n => { if (n.material) { n.material.opacity = f * (n.userData.base ?? 1); n.visible = f > 0.01; } });
+  o.userData.fade = f;
+}
+function label(txt, color, scale = 1) {
+  const c = document.createElement('canvas'); c.width = 512; c.height = 128;
+  const x = c.getContext('2d');
+  x.fillStyle = 'rgba(12,12,26,0.78)';
+  x.fillRect(64, 24, 384, 80);
+  x.strokeStyle = color; x.lineWidth = 3; x.strokeRect(64, 24, 384, 80);
+  x.font = '600 40px ui-monospace, Menlo, monospace';
+  x.fillStyle = color; x.textAlign = 'center'; x.textBaseline = 'middle';
+  x.fillText(txt, 256, 66);
+  const tex = new THREE.CanvasTexture(c); tex.anisotropy = 4;
+  const s = new THREE.Sprite(new THREE.SpriteMaterial({ map: tex, transparent: true, depthTest: false }));
+  s.scale.set(3.4 * scale, 0.85 * scale, 1);
+  return s;
+}
+const lerp = (a, b, k) => a + (b - a) * k;
+const ph = (a, b, t) => Math.max(0, Math.min(1, (t - a) / (b - a)));
+const sm = k => k * k * (3 - 2 * k);
+function v3(v, from, to, k) { v.set(lerp(from[0], to[0], k), lerp(from[1], to[1], k), lerp(from[2], to[2], k)); }
+
+/* palette */
+const P = { ripk1: 0x5b87c8, fadd: 0x40c9b8, c8: 0x4caf6d, flip: 0xe6b450, iap: 0xb07fe8, ub: 0xd9c06a, ripk3: 0xa06ee0, mlkl: 0xff8a5e, exec: 0xff5a5e, memb: 0x8fa3b8, damp: 0xff5a5e };
+
+/* platform group */
+const G = new THREE.Group(); scene.add(G);
+
+/* RIPK1: kinase — interdomain — DD */
+const ripk1 = new THREE.Group(); G.add(ripk1);
+const rKin = sph(0.62, P.ripk1); rKin.position.set(-1.15, 0, 0);
+const rInt = sph(0.4, P.ripk1); rInt.position.set(0, 0, 0);
+const rDD = sph(0.5, P.ripk1); rDD.position.set(1.05, 0, 0);
+ripk1.add(rKin, rInt, rDD);
+const rLab = label('RIPK1', '#8cc2ff', 0.9); rLab.position.set(-1.15, 1.05, 0); ripk1.add(rLab);
+
+/* RIPK1 fragments for the cleavage event */
+const frags = new THREE.Group(); G.add(frags);
+const fr1 = sph(0.32, P.ripk1), fr2 = sph(0.26, P.ripk1);
+frags.add(fr1, fr2);
+setFade(frags, 0);
+
+/* Ub chain on kinase (steady state) */
+const ub = new THREE.Group(); G.add(ub);
+[[-0.95, 0.95, 0.1], [-0.8, 1.18, 0.25], [-1.05, 1.4, 0.05]].forEach(p => {
+  const b = sph(0.13, P.ub); b.position.set(...p); ub.add(b);
+});
+
+/* IAP trio */
+const iaps = new THREE.Group(); G.add(iaps);
+[[-1.7, 2.35, -0.6, 0.45], [-0.7, 2.75, -1.0, 0.4], [-2.35, 1.85, 0.7, 0.34]].forEach(p => {
+  const s = sph(p[3], P.iap); s.position.set(p[0], p[1], p[2]); iaps.add(s);
+});
+const iapLab = label('IAPs', '#b07fe8', 0.8); iapLab.position.set(-1.6, 3.3, -0.6); iaps.add(iapLab);
+
+/* FADD */
+const fadd = new THREE.Group(); G.add(fadd);
+const fDD = sph(0.28, P.fadd), fDED = sph(0.24, P.fadd);
+fadd.add(fDD, fDED);
+const fLab = label('FADD', '#40c9b8', 0.72); fadd.add(fLab);
+const FADD_HOME = [1.05, 0.85, 0.3], FADD_ON = [1.05, 0.62, 0.0];
+fDD.position.set(...FADD_HOME); fDED.position.set(FADD_HOME[0] + 0.45, FADD_HOME[1] + 0.3, 0.2);
+fLab.position.set(FADD_HOME[0] + 0.2, FADD_HOME[1] + 0.8, 0);
+
+/* DED chain — built per scenario */
+let chain = new THREE.Group(); G.add(chain);
+const units = []; // {grp, catalytic?, scatter:[x,y,z], slot:[x,y,z]}
+function buildChain() {
+  G.remove(chain);
+  chain = new THREE.Group(); G.add(chain);
+  units.length = 0;
+  const n = 8;
+  for (let i = 0; i < n; i++) {
+    const isFlip = SCEN !== 1 && i % 2 === 1;
+    const short = SCEN === 3 && isFlip;
+    const g = new THREE.Group();
+    const ded = sph(0.3, isFlip ? P.flip : P.c8);
+    g.add(ded);
+    if (SCEN === 1 || !short) { // catalytic/pseudo-cascatalytic box for caspase-8 and FLIP_L
+      if (!isFlip) {
+        const cat = boxG(0.36, 0.36, 0.5, P.c8); cat.position.set(0, -0.55, 0); g.add(cat);
+      } else {
+        const cat = boxG(0.34, 0.34, 0.46, P.flip); cat.position.set(0, -0.55, 0); g.add(cat); // pseudo-caspase
+      }
+    }
+    // slot position: arc from FADD
+    const a = i / (n - 1);
+    const slot = [1.7 + 0.62 * Math.sin(a * 2.5) + 0.3 * a, 1.5 + 0.5 * Math.sin(a * Math.PI), 0.3 + 0.7 * Math.cos(a * 3.1) - 0.35];
+    // scatter position (cytosolic pool)
+    const scat = [4.5 + (i % 4) * 1.4, -2.6 + (i % 3) * 1.6, -3.5 + i * 0.9];
+    g.position.set(...scat);
+    g.userData = { slot, scat, isFlip };
+    chain.add(g);
+    units.push(g);
+  }
+}
+buildChain();
+
+/* platform ring marker */
+const ring = mesh(new THREE.TorusGeometry(2.35, 0.03, 12, 80), P.ripk1);
+ring.rotation.x = Math.PI / 2.3; ring.position.set(0.2, 0.9, 0);
+ring.material.opacity = 0.16; ring.userData.base = 0.16;
+G.add(ring);
+const ringLab = label('riptoptosome · ~2 MDa', '#8cc2ff', 0.85);
+ringLab.position.set(0.2, 3.0, 0); ring.add(ringLab);
+setFade(ring, 0);
+
+/* executioner caspases (apoptosis) */
+const execs = new THREE.Group(); G.add(execs);
+const execArr = [];
+for (let i = 0; i < 4; i++) {
+  const g = new THREE.Group();
+  const a = sph(0.2, P.exec), b = sph(0.2, P.exec);
+  a.position.set(-0.22, 0, 0); b.position.set(0.22, 0, 0);
+  g.add(a, b); execs.add(g); execArr.push(g);
+}
+setFade(execs, 0);
+
+/* RIPK3 + MLKL (necroptosis) */
+const ripk3 = new THREE.Group(); G.add(ripk3);
+const k3a = sph(0.46, P.ripk3), k3b = sph(0.36, P.ripk3);
+k3a.position.set(-1.15, 0.9, 0.9); k3b.position.set(-1.5, 0.4, 1.25);
+const k3Lab = label('RIPK3', '#c9a4ff', 0.8); k3Lab.position.set(-1.9, 1.5, 1.1);
+ripk3.add(k3a, k3b, k3Lab);
+setFade(ripk3, 0);
+
+const mlkl = new THREE.Group(); G.add(mlkl);
+const mlklArr = [];
+for (let i = 0; i < 4; i++) {
+  const m = sph(0.28, P.mlkl);
+  m.position.set(-1.15 + 0.5 * i, 0.9, 0.9);
+  mlkl.add(m); mlklArr.push(m);
+}
+const mLab = label('MLKL', '#ffb08a', 0.8); mLab.position.set(-0.4, 0.3, 0.9); mlkl.add(mLab);
+setFade(mlkl, 0);
+
+/* plasma membrane arc at top — breaks in scenario 3 */
+const memb = new THREE.Group(); G.add(memb);
+const membL = new THREE.Group(), membR = new THREE.Group();
+memb.add(membL, membR);
+for (let i = 0; i < 5; i++) {
+  const b = boxG(0.85, 0.16, 0.45, P.memb);
+  b.position.set(-3.6 + i * 0.92, 3.3 - Math.sin(i / 4 * Math.PI) * 0.25, 0);
+  membL.add(b);
+}
+for (let i = 0; i < 5; i++) {
+  const b = boxG(0.85, 0.16, 0.45, P.memb);
+  b.position.set(0.1 + i * 0.92, 3.3 - Math.sin(i / 4 * Math.PI) * 0.25, 0);
+  membR.add(b);
+}
+const mLab2 = label('plasma membrane', '#8fa3b8', 0.7); mLab2.position.set(0, 3.95, 0); memb.add(mLab2);
+/* DAMP dots */
+const damps = new THREE.Group(); G.add(damps);
+const dampArr = [];
+for (let i = 0; i < 6; i++) {
+  const d = sph(0.12, P.damp); d.position.set(-1.5 + i * 0.6, 3.0, 0); dampArr.push(d); damps.add(d);
+}
+setFade(damps, 0);
+
+/* outcome banner */
+const outcome = label('outcome', '#ffffff', 1.25);
+outcome.position.set(0.4, -2.6, 0); G.add(outcome);
+setFade(outcome, 0);
+const OUTCOME = { 1: ['APOPTOSIS', '#ff5a5e'], 2: ['SURVIVAL · NECROPTOSIS BLOCKED', '#7fe3a5'], 3: ['NECROPTOSIS', '#c9a4ff'] };
+
+/* trigger banner */
+const trig = label('genotoxic stress · IAPs lost', '#ffd9a0', 1.0);
+trig.position.set(-1.2, 2.9, 1.8); G.add(trig);
+setFade(trig, 0);
+
+/* ---------- update ---------- */
+let T = 0, last = performance.now();
+function setNote() { noteEl.innerHTML = NOTES[SCEN]; }
+setNote();
+
+function setPhase(txt) { phaseEl.textContent = txt; }
+
+function frame(now) {
+  requestAnimationFrame(frame);
+  const dt = Math.min((now - last) / 1000, 0.05); last = now;
+  if (playing) T = (T + dt) % DUR;
+  const t = T;
+
+  /* steady state: IAPs + Ub present until trigger */
+  const iapK = 1 - sm(ph(3, 5, t));
+  setFade(iaps, iapK);
+  setFade(ub, iapK);
+  setFade(trig, sm(ph(3.2, 4.5, t)) * (1 - sm(ph(7, 8.5, t))));
+
+  /* assembly: FADD docks, chain converges */
+  const asmK = sm(ph(5, 9, t));
+  v3(fDD.position, FADD_HOME, FADD_ON, asmK);
+  fDED.position.set(lerp(FADD_HOME[0] + 0.45, FADD_ON[0] + 0.5, asmK), lerp(FADD_HOME[1] + 0.3, FADD_ON[1] + 0.5, asmK), lerp(0.2, 0.3, asmK));
+  fLab.position.set(fDD.position.x + 0.2, fDD.position.y + 0.85, 0);
+  units.forEach(u => {
+    const k = asmK;
+    u.position.set(lerp(u.userData.scat[0], u.userData.slot[0], k), lerp(u.userData.scat[1], u.userData.slot[1], k), lerp(u.userData.scat[2], u.userData.slot[2], k));
+    u.children.forEach(c => { if (c.material) { c.material.opacity = 0.35 + 0.65 * k; c.visible = true; } });
+  });
+  setFade(ring, sm(ph(6.5, 9, t)) * (1 - outcomeFade()));
+
+  /* per-scenario outcome */
+  if (SCEN === 1) {
+    const fire = sm(ph(9.5, 10.5, t));
+    const fly = sm(ph(10.5, 13.5, t));
+    const dis = sm(ph(10, 12, t));
+    // dimer pulse
+    units.forEach((u, i) => { if (u.children[1]) { const s = 1 + 0.35 * Math.sin(t * 12) * fire * (1 - fly); u.children[1].scale.setScalar(Math.max(0.6, s)); } });
+    // platform fade + RIPK1 cleavage fragments
+    ripk1.children.forEach(c => { c.material.opacity = (1 - dis) * 1; c.visible = dis < 0.98; });
+    setFade(frags, fire * (1 - sm(ph(12.5, 14.5, t))));
+    fr1.position.set(-1.15 - fly * 2.6, fly * 1.6, fly * 1.2);
+    fr2.position.set(-0.6 + fly * 2.2, -fly * 0.6, -fly * 1.5);
+    // exec caspases fly away
+    setFade(execs, fire * (1 - sm(ph(13.5, 15, t))));
+    execArr.forEach((g, i) => {
+      const a = i / 4 * Math.PI * 2;
+      g.position.set(Math.cos(a) * fly * 5.2, -1.2 - fly * 2.2 + Math.sin(a) * 0.7, Math.sin(a) * fly * 4.4);
+      g.rotation.z = fly * a * 2;
+    });
+    setFade(ripk3, 0); setFade(mlkl, 0); setFade(damps, 0);
+    membraneIntact(1);
+  } else if (SCEN === 2) {
+    const fire = sm(ph(9.5, 10.5, t));
+    const dis = sm(ph(10.5, 12.5, t));
+    units.forEach((u, i) => { if (u.children[1]) { const s = 1 + 0.12 * Math.sin(t * 6 + i) * fire * (1 - dis); u.children[1].scale.setScalar(s); } });
+    ripk1.children.forEach(c => { c.material.opacity = 1 - dis; c.visible = dis < 0.98; });
+    setFade(frags, fire * (1 - sm(ph(12, 14, t))));
+    fr1.position.set(-1.15 - fire * 1.9, fire * 1.1, 0.9);
+    fr2.position.set(-0.75 + fire * 1.6, fire * 0.5, -0.9);
+    // calm disassembly: chain drifts slightly apart
+    units.forEach(u => { if (dis > 0) u.position.y += dis * 0.004; });
+    setFade(execs, 0); setFade(ripk3, 0); setFade(mlkl, 0); setFade(damps, 0);
+    membraneIntact(1);
+  } else {
+    const dock = sm(ph(10.5, 12, t));
+    const grow = sm(ph(12, 13, t));
+    const rup = sm(ph(13, 14.2, t));
+    setFade(ripk3, dock * (1 - sm(ph(16.5, 18, t))));
+    // RIPK3 docks onto RIPK1 kinase
+    k3a.position.set(lerp(-1.15, -1.5, dock), lerp(0.9, 0.55, dock), lerp(0.9, 0.75, dock));
+    k3b.position.set(lerp(-1.5, -1.95, dock), lerp(0.4, 0.1, dock), lerp(1.25, 1.05, dock));
+    k3Lab.position.set(lerp(-1.9, -2.3, dock), lerp(1.5, 1.25, dock), lerp(1.1, 1.0, dock));
+    // phosphorylation pulse on kinase
+    rKin.material.emissive = new THREE.Color(P.ripk3);
+    rKin.material.emissiveIntensity = 0.55 * Math.max(0, Math.sin(t * 7)) * dock;
+    setFade(mlkl, grow * (1 - sm(ph(16.5, 18, t))));
+    mlklArr.forEach((m, i) => {
+      const k = Math.max(0, grow - i * 0.18);
+      m.position.set(lerp(-1.15, -1.8 + i * 0.75, sm(k)), lerp(0.9, 2.6, sm(k)), lerp(0.9, 0.4, sm(k)));
+      m.scale.setScalar(0.3 + 0.7 * sm(k));
+    });
+    mLab.position.set(-0.4, 2.6, 0.4);
+    // membrane rupture
+    membraneIntact(1 - rup);
+    setFade(damps, rup * (1 - sm(ph(16, 17.5, t))));
+    dampArr.forEach((d, i) => {
+      const k = sm(ph(13 + i * 0.12, 15 + i * 0.12, t));
+      d.position.set(-1.5 + i * 0.6 + (i - 2.5) * k * 1.1, lerp(3.0, 2.2 - k * 2.6, k), k * (i % 2 ? 1 : -1) * 0.8);
+    });
+    setFade(execs, 0); setFade(frags, 0);
+    ripk1.children.forEach(c => { c.material.opacity = 1; c.visible = true; });
+  }
+
+  /* outcome banner */
+  const ok = sm(ph(10.5, 11.5, t)) * (1 - sm(ph(16, 17.5, t)));
+  setFade(outcome, ok);
+  if (ok > 0.05) {
+    const [txt, col] = OUTCOME[SCEN];
+    if (outcome.userData.txt !== txt) {
+      outcome.userData.txt = txt;
+      outcome.material.map.dispose();
+      const c = document.createElement('canvas'); c.width = 512; c.height = 128;
+      const x = c.getContext('2d');
+      x.fillStyle = 'rgba(12,12,26,0.82)'; x.fillRect(8, 24, 496, 80);
+      x.strokeStyle = col; x.lineWidth = 3; x.strokeRect(8, 24, 496, 80);
+      x.font = '700 38px ui-monospace, Menlo, monospace'; x.fillStyle = col; x.textAlign = 'center'; x.textBaseline = 'middle';
+      x.fillText(txt, 256, 66);
+      outcome.material.map = new THREE.CanvasTexture(c);
+    }
+  }
+
+  /* reset window: restore steady state */
+  if (t < 1.2 || t > 16.8) {
+    ripk1.children.forEach(c => { c.material.opacity = 1; c.visible = true; });
+    rKin.material.emissiveIntensity = 0;
+    setFade(frags, 0); setFade(execs, 0); setFade(ripk3, 0); setFade(mlkl, 0); setFade(damps, 0);
+    membraneIntact(1);
+  }
+
+  /* phase text */
+  if (t < 3) setPhase('T+0 · steady state — IAP surveillance of RIPK1');
+  else if (t < 5) setPhase('T+1 · trigger: genotoxic stress / Smac mimetic — IAPs degraded');
+  else if (t < 9) setPhase('T+2 · assembly: RIPK1 → FADD → DED chain (~2 MDa)');
+  else if (t < 14) setPhase('T+3 · rheostat readout: ' + ['caspase-8 homodimers — apoptosis', 'FLIP-L heterodimers — survival, necroptosis blocked', 'FLIP-S/R heterodimers — necroptosis'][SCEN - 1]);
+  else setPhase('T+4 · reset');
+
+  controls.autoRotate = playing;
+  controls.update();
+  renderer.render(scene, camera);
+
+  function outcomeFade() { return sm(ph(10.5, 11.5, t)) * (1 - sm(ph(16, 17.5, t))) * 0.9; }
+  function membraneIntact(k) {
+    const ang = (1 - k) * 0.5;
+    membL.rotation.z = ang; membL.position.x = -ang * 1.2; membL.position.y = -ang * 0.8;
+    membR.rotation.z = -ang; membR.position.x = ang * 1.2; membR.position.y = -ang * 0.8;
+  }
+}
+
+/* fit canvas */
+function fit() {
+  const r = canvas.getBoundingClientRect();
+  renderer.setSize(r.width, r.height, false);
+  camera.aspect = r.width / r.height;
+  camera.updateProjectionMatrix();
+}
+addEventListener('resize', fit);
+fit();
+
+/* controls */
+function setScenario(n) {
+  SCEN = n;
+  scenBtns.forEach((b, i) => b.classList.toggle('is-on', i === n - 1));
+  buildChain();
+  setNote();
+  T = 5.5; // restart just before assembly
+}
+scenBtns.forEach((b, i) => b.addEventListener('click', () => setScenario(i + 1)));
+playBtn.addEventListener('click', () => {
+  playing = !playing;
+  playBtn.textContent = playing ? '⏸ Pause' : '▶ Play';
+  playBtn.classList.toggle('is-on', playing);
+});
+document.getElementById('simReset').addEventListener('click', () => {
+  camera.position.copy(CAM0);
+  controls.target.set(0, 0.6, 0);
+});
+if (!playing) { playBtn.textContent = '▶ Play'; playBtn.classList.remove('is-on'); }
+
+requestAnimationFrame(frame);
+</script>
+
+<script src="../themes/theme-02/pages-svg.js"></script>
+</body>
+</html>

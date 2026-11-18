@@ -777,5 +777,23 @@
         },
         "created": "2026-11-16",
         "updated": "2026-11-16"
+    },
+    {
+        "id": "ripoptosome-cflip",
+        "active": true,
+        "langs": {
+            "en-US": {
+                "title": "The Ripoptosome and c-FLIP — Death Platform, Pseudo-Caspase Rheostat, Cellular Homeostasis",
+                "description": "How the ~2 MDa RIPK1–FADD–caspase-8–c-FLIP ripoptosome assembles when IAPs are lost (genotoxic stress, Smac mimetics, TLR3 signaling), how the three c-FLIP isoforms set the caspase-8 rheostat between apoptosis, survival and necroptosis, and what knockout genetics reveals about the complex's role in embryonic, barrier-tissue and immune homeostasis — with SVG diagrams, a catalytic-output chart, a knockout rescue matrix, and an interactive three.js fate simulation.",
+                "path": "pages/en-US/ripoptosome-cflip.html"
+            },
+            "zh-TW": {
+                "title": "ripoptosome 與 c-FLIP——細胞質死亡平台、偽 caspase 變阻器與細胞恆定",
+                "description": "~2 MDa 的 RIPK1–FADD–caspase-8–c-FLIP ripoptosome 如何在 IAP 消失時組裝（基因毒壓力、Smac 模擬物、TLR3 訊號）；三種 c-FLIP 亞型如何構成 caspase-8 變阻器，在細胞凋亡、存活與壞死性凋亡之間定調；以及基因剔除遺傳學如何揭示此複合體在胚胎、屏障組織與免疫恆定中的角色——附 SVG 圖解、催化輸出圖表、剔除救援矩陣與互動式 three.js 命運模擬。",
+                "path": "pages/zh-TW/ripoptosome-cflip.html"
+            }
+        },
+        "created": "2026-11-18",
+        "updated": "2026-11-18"
     }
 ]

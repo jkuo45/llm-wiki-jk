@@ -1,0 +1,1366 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ripoptosome 與 c-FLIP——細胞質死亡平台、偽 caspase 變阻器與細胞恆定</title>
+<meta name="description" content="~2 MDa 的 RIPK1–FADD–caspase-8–c-FLIP ripoptosome 如何在 IAP 消失時組裝（基因毒壓力、Smac 模擬物、TLR3 訊號）；三種 c-FLIP 亞型如何構成 caspase-8 變阻器，在細胞凋亡、存活與壞死性凋亡之間定調；以及基因剔除遺傳學如何揭示此複合體在胚胎、屏障組織與免疫恆定中的角色。">
+<link rel="canonical" href="https://graph.johnnykuo.com/pages/zh-TW/ripoptosome-cflip.html">
+<link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/ripoptosome-cflip.html">
+<link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/ripoptosome-cflip.html">
+<link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/ripoptosome-cflip.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚖</text></svg>">
+<script type="importmap">
+{"imports":{
+  "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+  "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+}}
+</script>
+<link rel="stylesheet" href="../themes/theme-02/theme.css">
+<script src="../themes/theme-02/theme.js"></script>
+<script src="../themes/theme-02/pages-core.js"></script>
+<script src="../themes/shared/nav-auto-hide.js"></script>
+<style>
+  /* page-local palette (hexes remapped by dark.css where shared; page-local remaps at the bottom) */
+  .comparison-row { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 10px; margin: 18px 0 22px; }
+  @media (max-width: 860px) { .comparison-row { grid-template-columns: 1fr 1fr; } }
+  .comparison-cell { background: var(--sheet); border: 1px solid var(--rule); padding: 12px 14px; text-align: center; }
+  .comparison-cell .label { font-family: var(--sans); font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--mute); margin-bottom: 6px; }
+  .key-stat { font-family: var(--mono); font-size: 1.55rem; font-weight: 700; color: var(--oxblood); }
+  .key-sub { font-size: .8rem; color: var(--ink-soft); margin-top: 4px; line-height: 1.4; }
+  table.comp { width: 100%; border-collapse: collapse; font-size: 13px; margin: 12px 0 20px; }
+  table.comp th, table.comp td { border: 1px solid var(--rule); padding: 7px 10px; text-align: left; vertical-align: top; }
+  table.comp th { background: var(--paper-deep); font-size: 12px; letter-spacing: .04em; text-transform: uppercase; color: var(--mute); }
+  table.comp td .sw { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; vertical-align: -1px; }
+  .iso-L { color: #9a7430; font-weight: 700; }
+  .iso-S { color: #c1121f; font-weight: 700; }
+  /* three.js simulation figure */
+  .sim-stage { position: relative; background: var(--paper-deep); border: 1px solid var(--rule); border-radius: 2px; overflow: hidden; }
+  .sim-stage canvas { display: block; width: 100%; height: 460px; touch-action: none; }
+  @media (max-width: 720px) { .sim-stage canvas { height: 340px; } }
+  .sim-phase { position: absolute; top: 10px; left: 12px; font-family: var(--mono); font-size: 12px; color: var(--mute); background: color-mix(in srgb, var(--paper) 82%, transparent); padding: 3px 8px; border: 1px solid var(--rule); border-radius: 2px; pointer-events: none; }
+  .sim-toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 10px 0 0; }
+  .sim-toolbar .chip { font-family: var(--mono); font-size: 12px; }
+  .sim-hint { font-size: 12px; color: var(--mute); margin-left: auto; }
+  .sim-note { background: var(--sheet); border: 1px solid var(--rule); border-left: 3px solid var(--gold); padding: 12px 16px; margin: 14px 0 0; font-size: 14.5px; line-height: 1.55; }
+  .sim-note b:first-child { color: #9a7430; }
+  /* page-local dark remaps for SVG hexes not already covered by dark.css */
+  [data-theme="dark"] [stroke="#1c1915"] { stroke: #c9c9dd; }
+  [data-theme="dark"] [fill="#ff7a1a"] { fill: #ffa04d; }
+  [data-theme="dark"] [stroke="#ff7a1a"] { stroke: #ffa04d; }
+  [data-theme="dark"] [fill="#3a7d44"] { fill: #58d68d; }
+  [data-theme="dark"] [stroke="#3a7d44"] { stroke: #58d68d; }
+  [data-theme="dark"] [fill="#b08930"] { fill: #e8a33d; }
+  [data-theme="dark"] [stroke="#b08930"] { stroke: #e8a33d; }
+  [data-theme="dark"] [fill="#6a5acd"] { fill: #b07fe8; }
+  [data-theme="dark"] [stroke="#6a5acd"] { stroke: #b07fe8; }
+</style>
+<link rel="stylesheet" href="../themes/theme-02/dark.css">
+</head>
+<body>
+<a class="skip" href="#content">跳到內容</a>
+
+<nav class="site-nav" aria-label="頁面">
+  <div class="wrap">
+    <a class="home" href="https://graph.johnnykuo.com/#reader">← 返回</a>
+    <div class="nav-links">
+      <a href="#overview">總覽</a>
+      <a href="#platform">平台</a>
+      <a href="#cflip">c-FLIP</a>
+      <a href="#rheostat">變阻器</a>
+      <a href="#simulation">模擬</a>
+      <a href="#homeostasis">恆定</a>
+      <a href="#disease">疾病</a>
+      <a href="#refs">文獻</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">細胞死亡訊號 · 平台生物學 · 細胞恆定</p>
+    <h1>Ripoptosome 與 c-FLIP</h1>
+    <p class="lede">
+      每當凋亡抑制蛋白（IAP）消失時，細胞質中一個<strong>不依賴死亡受體</strong>、由
+      <strong>RIPK1、FADD、caspase-8 與 c-FLIP</strong> 組成的訊號平台便會自發組裝——而一個
+      催化失活的 caspase-8 旁系同源物 <strong>c-FLIP</strong>（CFLAR）設定了變阻器，決定該平台
+      走向細胞凋亡、無死亡的拆除，還是壞死性凋亡。本頁由兩篇 2011 年的發現論文、
+      caspase-8/c-FLIP 異二聚體的結構生物學，以及將此複合體確立為組織恆定必要條件的
+      基因剔除遺傳學，整合出完整機制。
+    </p>
+  </div>
+</header>
+
+<div class="wrap layout">
+  <aside class="toc" aria-label="目錄">
+    <p>目錄</p>
+    <ol>
+      <li><a href="#overview">總覽</a></li>
+      <li><a href="#discovery">發現</a></li>
+      <li><a href="#platform">平台結構</a></li>
+      <li><a href="#cflip">c-FLIP 亞型</a></li>
+      <li><a href="#rheostat">變阻器</a></li>
+      <li><a href="#simulation">命運模擬（3-D）</a></li>
+      <li><a href="#homeostasis">細胞恆定</a></li>
+      <li><a href="#disease">疾病與治療</a></li>
+      <li><a href="#open">未決問題</a></li>
+      <li><a href="#refs">參考文獻</a></li>
+    </ol>
+  </aside>
+
+  <main id="content">
+
+    <!-- ==================== OVERVIEW ==================== -->
+    <section id="overview">
+      <p class="sec-label">定位</p>
+      <h2>一個平台、三種設定：DED 鏈的二聚體組成決定結果</h2>
+      <p>
+        在所有表現 TNF 家族受體的細胞中，同一批轉導存活與發炎性基因轉錄的受體，可在數分鐘內
+        生成執行細胞凋亡的複合體。2011 年兩個團隊證明，這項決定甚至不需要受體參與。當凋亡抑制蛋白
+        <strong>cIAP1、cIAP2 與 XIAP</strong> 因基因毒壓力、Smac 模擬物藥物或 TLR3/dsRNA 訊號
+        而耗盡時，一個由 <strong>RIPK1、FADD、caspase-8、caspase-10 與 c-FLIP</strong> 組成的
+        大型細胞質複合體會自發組裝。Tenev 等人將其命名為
+        <strong>ripoptosome</strong>（後續文獻亦作 <em>riptosome</em>）；Feoktistova 等人以
+        凝膠過濾測得其大小為 <strong>~2&nbsp;MDa</strong>（Tenev et al. 2011; Feoktistova et al. 2011）。
+      </p>
+      <p>
+        決定此平台恆定功能的組件是 <strong>c-FLIP</strong>（FLICE 抑制蛋白，基因
+        <em>CFLAR</em>）——一個經基因重複而來、催化失活的 caspase-8 旁系同源物。其三種
+        有蛋白表現的亞型在平台內與 caspase-8 形成異二聚體，構成 Feoktistova 等人所稱的
+        <em>變阻器</em>：caspase-8 同二聚體輸出細胞凋亡；caspase-8/c-FLIP<sub>L</sub> 異二聚體
+        在主動抑制壞死性凋亡的同時輸出<em>存活</em>；c-FLIP<sub>S</sub>/c-FLIP<sub>R</sub>
+        異二聚體則關閉 caspase-8，使平台走向預設的壞死性凋亡。基因剔除遺傳學確立了此一
+        生理必要性：缺乏 caspase-8、FADD 或 c-FLIP 的動物皆於妊娠中期死亡，且致死缺陷並非
+        細胞凋亡失敗，而是 caspase-8/FLIP<sub>L</sub> 異二聚體<em>正常情況下所壓制的失控
+        壞死性凋亡或細胞凋亡</em>。
+      </p>
+      <div class="comparison-row">
+        <div class="comparison-cell">
+          <div class="label">複合體大小</div>
+          <div class="key-stat">~2 MDa</div>
+          <p class="key-sub">凝膠過濾中同時含 RIPK1 + caspase-8 + c-FLIP 的分劃（Tenev 2011；Feoktistova 2011）</p>
+        </div>
+        <div class="comparison-cell">
+          <div class="label">c-FLIP 亞型</div>
+          <div class="key-stat">3</div>
+          <p class="key-sub">FLIP<sub>L</sub> 55&nbsp;kDa · FLIP<sub>S</sub> 26&nbsp;kDa · FLIP<sub>R</sub> 24–25&nbsp;kDa（Smyth 2020）</p>
+        </div>
+        <div class="comparison-cell">
+          <div class="label">變阻器設定</div>
+          <div class="key-stat">3</div>
+          <p class="key-sub">細胞凋亡 · 存活＋壞死性凋亡阻斷 · 壞死性凋亡（Feoktistova 2011）</p>
+        </div>
+        <div class="comparison-cell">
+          <div class="label">發育檢查點</div>
+          <div class="key-stat">E10.5</div>
+          <p class="key-sub">casp8<sup>−/−</sup>、fadd<sup>−/−</sup>、cflar<sup>−/−</sup> 胚胎的致死時間點（Kaiser 2011；Dillon 2012）</p>
+        </div>
+      </div>
+      <p>
+        知識庫圖譜交叉連結：
+        <a href="https://graph.johnnykuo.com/#node=Ripoptosome">Ripoptosome</a> ·
+        <a href="https://graph.johnnykuo.com/#node=c-FLIP">c-FLIP</a> ·
+        <a href="https://graph.johnnykuo.com/#node=Caspase-8-c-FLIP%20Rheostat">Caspase-8-c-FLIP Rheostat</a> ·
+        <a href="https://graph.johnnykuo.com/#node=Necroptosis">Necroptosis</a> ·
+        <a href="https://graph.johnnykuo.com/#node=Smac%20mimetics">Smac mimetics</a>。
+        相關本地頁面：
+        <a href="necroptosis.html">壞死性凋亡</a> ·
+        <a href="apoptosis.html">細胞凋亡</a> ·
+        <a href="cell-death-comparison.html">細胞死亡比較</a>。
+      </p>
+    </section>
+
+    <!-- ==================== DISCOVERY ==================== -->
+    <section id="discovery">
+      <p class="sec-label">發現</p>
+      <h2>兩篇論文、一個複合體——2011 年 8 月</h2>
+      <p>
+        ripoptosome 於同一期《Molecular Cell》背對背發表。Tenev 等人研究拓撲異構酶 II 抑制劑
+        <strong>etoposide</strong> 如何殺死腫瘤細胞時，發現一個 ~2&nbsp;MDa 的
+        RIPK1–FADD–caspase-8 複合體會在 etoposide 或 doxorubicin 引發的 IAP 耗盡後組裝，
+        且不需要 TNF、FasL、TRAIL、死亡受體或粒線體路徑參與。Feoktistova 等人研究角質細胞模型中
+        的 TLR3 刺激時，獨立找到同一個受 cIAP 調控的複合體，將 caspase-10 與 c-FLIP 亞型
+        納入其組成，並將 caspase 活性命名為受 c-FLIP 控制的變阻器。
+      </p>
+      <table class="comp">
+        <thead>
+          <tr><th>研究</th><th>系統</th><th>關鍵貢獻</th><th>分歧</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Tenev et al. 2011<br><em>Mol Cell</em> 43:432–448</td>
+            <td>HT1080、MDA-MB-231、HEK293（etoposide、Smac 模擬物）</td>
+            <td>~2 MDa 複合體；不依賴 TNF/TRAIL/FasL、受體與粒線體；IAP 對 RIPK1（K377）與 FLIP 泛素化並送入蛋白酶體分解；etoposide 將促發炎細胞激素訊號轉為促死亡訊號</td>
+            <td>組裝<strong>需要 RIPK1 激酶活性</strong>（Nec-1 可阻斷組裝）</td>
+          </tr>
+          <tr>
+            <td>Feoktistova et al. 2011<br><em>Mol Cell</em> 43:449–463</td>
+            <td>HaCaT、HeLa、A5RT3、初代角質細胞（TLR3/poly(I:C)、IAP 拮抗劑）</td>
+            <td>組成含 caspase-10 與 c-FLIP 亞型；組裝對死亡而言<strong>必要但不充分</strong>；FLIP<sub>L</sub> 抑制、FLIP<sub>S</sub> 促進組裝；自發性組裝主要見於轉化細胞</td>
+            <td>組裝<strong>不依賴 RIPK1 激酶活性</strong>；激酶活性作用於下游</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        兩篇論文對 RIPK1 激酶必要性的分歧——一方發現 necrostatin-1 阻斷組裝、另一方則否——
+        仍是真正的未決問題（見<a href="#open">未決問題</a>），且與組裝依細胞類型及刺激而異的
+        觀察一致。兩個團隊對核心邏輯的結論相同：IAP 是常駐抑制者、RIPK1 是支架，
+        而 c-FLIP 決定結果的性質。
+      </p>
+    </section>
+
+    <!-- ==================== PLATFORM ARCHITECTURE ==================== -->
+    <section id="platform">
+      <p class="sec-label">結構</p>
+      <h2>組裝：IAP 消失釋放 RIPK1 去核成平台</h2>
+      <p>
+        在恆定狀態下，cIAP1/cIAP2（與 TRAF2 合作）持續泛素化一個區隔化的 RIPK1 泳池，
+        將「可組裝」的 RIPK1 維持在低量，並將複合體組件送入蛋白酶體分解——單獨以 lactacystin
+        或 MG-132 抑制蛋白酶體，便足以觸發自發性 ripoptosome 形成（Tenev et al. 2011）。
+        當 IAP 下降時，去泛素化的 RIPK1 露出其死亡域（DD），以 DD–DD 交互作用招募 FADD，
+        而 FADD 的死亡效應域（DED）再成核一條由 procaspase-8、caspase-10 與 c-FLIP 構成的
+        DED 鏈——與死亡受體 DISC 相同的 DED 鏈邏輯，但在細胞質中執行，不需要受體。
+      </p>
+
+      <figure class="fig">
+        <div class="fig-head">
+          <span class="fig-num">圖 1 · 組裝開關</span>
+        </div>
+        <div class="fig-canvas" id="fig1Canvas"></div>
+        <figcaption>
+          <strong>判讀方式：</strong>左——恆定狀態，cIAP1/cIAP2/XIAP（與 TRAF2）將 RIPK1
+          泛素化（K377）並導向蛋白酶體分解，因此無法成核平台。中——四種已記載的 IAP 消失觸發。
+          右——組裝完成的 ~2 MDa ripoptosome：RIPK1 支架（激酶域、中間域、死亡域）、
+          FADD 橋接死亡域與 DED 鏈，鏈上裝載 procaspase-8（綠）、procaspase-10 與
+          c-FLIP 亞型（琥珀色）。示意圖；結構域幾何未按比例。改編自 Tenev et al. 2011
+          與 Feoktistova et al. 2011。
+        </figcaption>
+      </figure>
+
+      <table class="comp">
+        <thead>
+          <tr><th>組件</th><th>在平台中的角色</th><th>結構域／備註</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><span class="sw" style="background:#264653"></span>RIPK1</td><td>必要支架；激酶；未受切割時為壞死性凋亡效應器</td><td>激酶 + RHIM + 死亡域；K377 受 cIAP 泛素化；*Ripk1*−/− 細胞無法形成此複合體</td></tr>
+          <tr><td><span class="sw" style="background:#2a9d8f"></span>FADD</td><td>橋接 RIPK1 死亡域與 DED 鏈的接頭</td><td>DD + DED；與 DISC 使用同一批分子</td></tr>
+          <tr><td><span class="sw" style="background:#2a7a3f"></span>Procaspase-8</td><td>上游蛋白酶；同二聚體 → 細胞凋亡；與 c-FLIP 的異二聚體 → 變阻器</td><td>DED1–DED2 + p18/p10 催化域；切割 RIPK1、RIPK3、CYLD、TRIF</td></tr>
+          <tr><td><span class="sw" style="background:#7b2cbf"></span>Procaspase-10</td><td>旁系同源的 DED caspase；c-FLIP 低量時在複合體中累積</td><td>由 Feoktistova et al. 2011 報導於複合體中</td></tr>
+          <tr><td><span class="sw" style="background:#e9c46a"></span>c-FLIP（CFLAR）</td><td>偽 caspase 變阻器——亞型比例設定結果</td><td>FLIP<sub>L</sub> / FLIP<sub>S</sub> / FLIP<sub>R</sub>；與 caspase-8 形成異二聚體</td></tr>
+          <tr><td><span class="sw" style="background:#6a5acd"></span>cIAP1 · cIAP2 · XIAP</td><td>常駐抑制：將 RIPK1、caspase-8 與 FLIP 泛素化送入蛋白酶體周轉</td><td>共同抑制組裝；三者皆有貢獻；依賴 TRAF2</td></tr>
+        </tbody>
+      </table>
+
+      <div class="note gold">
+        <h4>已記載的組裝觸發</h4>
+        <p>
+          基因毒壓力（etoposide、doxorubicin、teniposide）· Smac 模擬物／IAP 拮抗劑 ·
+          TLR3–TRIF 訊號（dsRNA、poly(I:C)）· 蛋白酶體抑制劑（lactacystin、MG-132）·
+          在缺乏 cIAP2 的細胞中單獨以 siRNA 剔除 cIAP1。在無壓力情況下的自發性組裝可見於
+          轉化細胞，但不見於帶有高內生 FLIP<sub>L</sub> 的初代人類角質細胞
+          （Feoktistova et al. 2011）。
+        </p>
+      </div>
+    </section>
+
+    <!-- ==================== c-FLIP ==================== -->
+    <section id="cflip">
+      <p class="sec-label">偽 caspase</p>
+      <h2>c-FLIP：基因重複而來、催化失活的 caspase-8 旁系同源物</h2>
+      <p>
+        <em>CFLAR</em> 位於染色體 2q33.1，緊鄰其旁系同源基因 <em>CASP8</em> 與 <em>CASP10</em>
+        ——一段區域性基因重複，產生了人類蛋白質體中唯一的真偽 caspase（Smyth et al. 2020）。
+        長型亞型 c-FLIP<sub>L</sub>（55&nbsp;kDa、480 個胺基酸）完全對應 procaspase-8：
+        N 端串聯 DED 負責鏈招募，之後是大型與小型 caspase 類結構域。活性位點呈現了活性
+        喪失的成因——caspase-8 的催化二元體（His/Cys）在 c-FLIP<sub>L</sub> 中被
+        <strong>Arg315 與 Tyr360</strong>（人類編號）取代，且此取代在脊椎動物間保守，
+        因此是功能性的，而非退化殘跡。Asp376 的切割位點讓 caspase-8 可將 FLIP<sub>L</sub>
+        修剪為滯留於 DISC 的 p43-FLIP 片段。
+      </p>
+      <p>
+        短型亞型——c-FLIP<sub>S</sub>（26&nbsp;kDa）與 c-FLIP<sub>R</sub>（24–25&nbsp;kDa，
+        主要表現於 T 與 B 細胞，如 Raji 細胞與初代 T 細胞）——僅含兩個 DED 加上一段驅動
+        快速泛素化與蛋白酶體周轉的短 C 端尾。人類細胞製造 S 或 R 何者，由 <em>CFLAR</em>
+        一個 3′ 剪接位點的單一核苷酸多型性決定。值得注意的是，小鼠完全不表現
+        c-FLIP<sub>S</sub>——鼠類短型亞型是 c-FLIP<sub>R</sub>。
+      </p>
+
+      <figure class="fig">
+        <div class="fig-head">
+          <span class="fig-num">圖 2 · 結構域架構</span>
+        </div>
+        <div class="fig-canvas" id="fig2Canvas"></div>
+        <figcaption>
+          <strong>判讀方式：</strong>四個蛋白質以共同尺度繪製（殘基標尺 0–480）。
+          caspase-8 的催化二元體（H/C）、二聚體間切割位點（D374）與二聚體內位點
+          （D210/D216/D223、D384）標示同二聚體的完整切割過程。c-FLIP<sub>L</sub> 中
+          二元體由 Arg315/Tyr360 取代——一個仍能與 caspase-8 催化域二聚化的失活位點——
+          而 D376 的單一切割位點產生 p43-FLIP。c-FLIP<sub>S</sub>/R 在 DED 之後即終止，
+        僅帶一段驅動泛素化的短尾。改編自 Safa &amp; Kanthasamy 2012 與 Smyth et al. 2020。
+        </figcaption>
+      </figure>
+
+      <table class="comp">
+        <thead>
+          <tr><th>亞型</th><th>分子量</th><th>架構</th><th>平台內的效應</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="iso-L">c-FLIP<sub>L</sub></td><td>55 kDa</td><td>DED1–DED2 + p20/p12 類偽 caspase 域</td><td>與 caspase-8 的異二聚體保留一個受質範圍受限的活性位點：切割 RIPK1/RIPK3 → 平台拆除、壞死性凋亡受阻、不釋出凋亡訊號 → <strong>存活</strong>。高密度時亦可加速同二聚體活化（Micheau et al. 2002）。</td></tr>
+          <tr><td class="iso-S">c-FLIP<sub>S</sub></td><td>26 kDa</td><td>DED1–DED2 + 約 20 aa 的 C 端尾</td><td>完全無活性的異二聚體；終止 DED 鏈延伸；<strong>促進</strong> ripoptosome 組裝；RIPK1 未被切割 → 只要 RIPK1–RIPK3–MLKL 軸完整即走向壞死性凋亡（Feoktistova et al. 2011）。</td></tr>
+          <tr><td class="iso-S">c-FLIP<sub>R</sub></td><td>24–25 kDa</td><td>DED1–DED2 + 短尾（不同剪接受體）</td><td>變阻器中 FLIP<sub>S</sub> 的功能等效物；鼠類短型亞型；在 T 細胞過度表現會造成 Fas 抗性與紅斑性狼瘡樣自體免疫（Cell Death Dis. 2026 回顧）。</td></tr>
+        </tbody>
+      </table>
+
+      <p>
+        所有亞型的量由兩個時間尺度設定。轉錄層面，<em>CFLAR</em> 是 NF-κB 的目標基因——
+        因此 TNFR1 complex-I 訊號會在任何死亡複合體形成之前預先裝載 FLIP<sub>L</sub>，
+        構成前饋存活迴路。轉譯後層面，所有亞型都是短半衰期的蛋白酶體受質，對應多種 E3 連接酶
+        （Itch、Cbl/Cbl-b、Mind bomb 1、TRAF7、CHIP、TRIM21），半衰期另受 PKC 磷酸化（Ser193）、
+        ROS 依賴性磷酸化（Thr166）與 S-亞硝基化（Cys254/259）調控——這正是為何 FLIP<sub>L</sub>:FLIP<sub>S</sub>
+        比例（而非總 c-FLIP 量）是預測參數，也是此比值可在數分鐘內變動的原因
+        （Tsuchiya et al. 2015；Smyth et al. 2020）。
+      </p>
+    </section>
+
+    <!-- ==================== RHEOSTAT ==================== -->
+    <section id="rheostat">
+      <p class="sec-label">決策邏輯</p>
+      <h2>變阻器：一個 caspase-8 開關的三種設定</h2>
+      <p>
+        命運決定取決於 DED 鏈中形成何種二聚體。caspase-8 催化域與 FLIP<sub>L</sub> 偽催化域
+        複合體的晶體結構（PDB <a href="https://www.rcsb.org/structure/3H11" target="_blank" rel="noopener noreferrer">3H11</a> /
+        <a href="https://www.rcsb.org/structure/3H13" target="_blank" rel="noopener noreferrer">3H13</a>）
+        解釋了第一個不對稱性：異二聚體的形成活化能低於 caspase-8 同二聚體，因此在低受體佔用率下，
+        平台以異二聚體為主。異二聚體保留單一個 caspase-8 活性位點，但其受質口袋變窄——
+        它能對鄰近二聚體執行二聚體間切割，卻無法完成自身的二聚體內切割，因此滯留於平台上，
+        永不釋出會啟動細胞凋亡的 p18/p10 異四聚體（Micheau et al. 2002；Pop et al. 2011）。
+      </p>
+
+      <figure class="fig">
+        <div class="fig-head">
+          <span class="fig-num">圖 3 · 一個平台、三種設定</span>
+        </div>
+        <div class="fig-canvas" id="fig3Canvas"></div>
+        <figcaption>
+          <strong>判讀方式：</strong>上方——組裝完成的平台，三種設定中完全相同。分支由 DED 鏈內的
+          二聚體組成決定。左分支：procaspase-8 同二聚體完成二聚體間（D374）與二聚體內
+          （D210/216/223/384）切割，釋出 p18/p10 異四聚體，caspase-3/-7 與 Bid 將細胞凋亡
+          向前推進；RIPK1 被切割、平台拆除。中分支：FLIP<sub>L</sub> 異二聚體保留一個
+          可切割 RIPK1/RIPK3 但不切凋亡受質的受限活性位點——平台拆除，細胞存活且壞死性凋亡受阻。
+          右分支：FLIP<sub>S</sub>/R 異二聚體完全無催化活性；RIPK1 持續存在並磷酸化 RIPK3，
+          MLKL 寡聚化並執行壞死性凋亡。改編自 Feoktistova et al. 2011 與 Smyth et al. 2020。
+        </figcaption>
+      </figure>
+
+      <blockquote class="note slate">
+        <p>
+          「當 cIAP 缺席時，caspase 活性是由 ripoptosome 中 cFLIP 亞型所控制的
+          <strong>變阻器</strong>，並決定細胞死亡以 RIP3 依賴的壞死性凋亡、或 caspase 依賴的
+          細胞凋亡發生。」
+          <br>——Feoktistova et al.，《Molecular Cell》43:449–463（2011）
+        </p>
+      </blockquote>
+
+      <figure class="fig">
+        <div class="fig-head">
+          <span class="fig-num">圖 4 · 異二聚體的催化輸出</span>
+        </div>
+        <div class="fig-canvas" id="fig4Canvas"></div>
+        <figcaption>
+          <strong>判讀方式：</strong>未切割 caspase-8/FLIP<sub>L</sub> 異二聚體的半定量長條圖，
+          以成熟 caspase-8 同二聚體（= 100）為基準。異二聚體對通用四胜肽受質保留約 15% 活性、
+          對 RIPK1 約 27%——足以切割壞死性凋亡激酶——而對凋亡執行受質（caspase-3、Bid；
+          網格長條）活性降低，此處未量化（Pop et al. 2011 Table 1）。FLIP<sub>S</sub>/R
+          異二聚體完全沒有催化域，對所有受質皆無活性。此一不對稱——壞死性凋亡受質保留、
+          凋亡受質喪失——即「存活」設定的生化定義。
+        </figcaption>
+      </figure>
+
+      <p>
+        一項 2024 年的基因敲入研究將此機制定位到單一旁鏈：將小鼠 FLIP<sub>L</sub> 的 Tyr362
+        （人類 Tyr360）換成 caspase-8 上的半胱氨酸，並不會恢復 FLIP 的蛋白酶活性——反而
+        <em>消除</em>異二聚體切割 RIPK1 的能力，解除壞死性凋亡阻斷；FLIP<sub>L</sub>-Y362C
+        胚胎於 E10.5–E11.5 因失控的壞死性凋亡死亡（Cell Rep. 2024）。失活的活性位點並非
+        無用贅物：其芳香環塑造了異二聚體受限的催化裂隙。反向而言，異二聚體完全不需要
+        結構域間蛋白酶解——不可切割的 caspase-8（D387A）無法驅動細胞凋亡，但與
+        FLIP<sub>L</sub> 結合時仍可阻斷壞死性凋亡（Oberst et al. 2011；Pop et al. 2011）。
+      </p>
+    </section>
+
+    <!-- ==================== SIMULATION ==================== -->
+    <section id="simulation">
+      <p class="sec-label">互動</p>
+      <h2>命運模擬——設定 c-FLIP 亞型，觀察結果</h2>
+      <p>
+        下方動畫跑完整序列：IAP 監控 → 觸發 → 組裝 → 依亞型而定的結果。選擇 DED 鏈的組成；
+        迴圈會顯示同一個平台在「僅有 caspase-8」、「有 c-FLIP<sub>L</sub>」、「有短型亞型」
+        時分別做什麼。幾何為示意——球與方塊代表結構域，非原子結構。拖曳旋轉 · 滾輪縮放 ·
+        每個命運約 18 秒迴圈。
+      </p>
+      <figure class="fig">
+        <div class="fig-head">
+          <span class="fig-num">圖 5 · ripoptosome 命運模擬器（three.js）</span>
+        </div>
+        <div class="sim-stage" id="simStage">
+          <canvas id="simCanvas" aria-label="ripoptosome 組裝與三種 c-FLIP 依賴結果的 3-D 示意圖"></canvas>
+          <div class="sim-phase" id="simPhase">載入中…</div>
+        </div>
+        <div class="sim-toolbar" role="toolbar" aria-label="模擬控制">
+          <button id="scen1" class="chip is-on" title="DED 鏈僅裝載 procaspase-8">1 · 僅 Caspase-8</button>
+          <button id="scen2" class="chip" title="DED 鏈交替裝載 procaspase-8 與 c-FLIP 長型">2 · + c-FLIP<sub>L</sub></button>
+          <button id="scen3" class="chip" title="DED 鏈交替裝載 procaspase-8 與 c-FLIP 短型">3 · + c-FLIP<sub>S/R</sub></button>
+          <button id="simPlay" class="chip is-on">⏸ 暫停</button>
+          <button id="simReset" class="chip">重設視角</button>
+          <span class="sim-hint">尊重 prefers-reduced-motion（預設暫停）</span>
+        </div>
+        <p class="sim-note" id="simNote"></p>
+        <figcaption>
+          <strong>判讀方式：</strong>藍色鏈 = RIPK1 支架（激酶 · 中間域 · 死亡域）；青色 = FADD；
+          綠色球／盒 = procaspase-8 的 DED 與催化域；琥珀色 = c-FLIP；紫色 = cIAP（前期）與
+          RIPK3（後期）；橘色 = MLKL 寡聚體；頂部石板色弧線為細胞膜。設定 2 中，平台在 RIPK1
+          切割後拆除——不釋出執行型 caspase。設定 3 中，平台持續存在，RIPK3 靠泊，
+          MLKL 轉位至細胞膜並使其破裂。
+        </figcaption>
+      </figure>
+    </section>
+
+    <!-- ==================== HOMEOSTASIS ==================== -->
+    <section id="homeostasis">
+      <p class="sec-label">生理學</p>
+      <h2>基因剔除遺傳學：此平台為發育與成體組織維持所必需</h2>
+      <p>
+        支持 ripoptosome 在損傷<em>之外</em>也持續運作的證據來自遺傳學。caspase-8、FADD 與
+        c-FLIP 剔除小鼠皆於胚胎約第 10.5 天死亡，伴隨卵黃囊與血管發育缺陷——而救援雜交
+        實驗剖析了原因。剔除 RIPK3（或 MLKL）可使 caspase-8 與 FADD 缺陷胚胎存活：其致死
+        缺陷從來不是「無法凋亡」，而是<em>失控的壞死性凋亡</em>——一個沒有 caspase-8/FLIP<sub>L</sub>
+        異二聚體去切割 RIPK1/RIPK3 的類 ripoptosome 平台（Kaiser et al. 2011；Oberst et al. 2011）。
+        相反地，剔除 c-FLIP 無法單獨以 RIPK3 缺失救援——沒有 FLIP 時，FADD–caspase-8 軸
+        失控地執行細胞凋亡；唯有同時剔除 FADD（三重剔除）才能恢復正常發育（Dillon et al. 2012）。
+      </p>
+
+      <figure class="fig">
+        <div class="fig-head">
+          <span class="fig-num">圖 6 · 致死與救援矩陣</span>
+        </div>
+        <div class="fig-canvas" id="fig5Canvas"></div>
+        <figcaption>
+          <strong>判讀方式：</strong>每一列為一種剔除基因型；欄位依序為妊娠中期結果、優勢死亡
+          模式、以及存在時的救援後成體表現型。紅 = 致死、綠 = 存活、琥珀 = 以另一種模式致死。
+          此矩陣區分平台的兩項存活職責：異二聚體的催化活性（阻斷壞死性凋亡）與
+          FLIP<sub>L</sub> 對 caspase-8 的計量抑制（阻斷細胞凋亡）。資料來源：
+          Kaiser et al. 2011（casp8 × ripk3）、Oberst et al. 2011、Dillon et al. 2012
+          （cflar 各列與三重剔除）。
+        </figcaption>
+      </figure>
+
+      <h3>屏障組織：皮膚、腸道、肝臟、內皮</h3>
+      <p>
+        組織特異性剔除將同一套邏輯映射到成體器官。在腸道急性剔除 caspase-8 會造成腸上皮細胞
+        死亡、屏障破壞、發炎與類敗血症死亡——可由剔除 RIPK3 救援；在皮膚急性剔除則於局部
+        造成相同結果（Weinlich et al. 2013）。在成體表皮急性剔除 c-FLIP 則產生依賴 TNF 的
+        <em>caspase-3 陽性細胞凋亡</em>、全層表皮喪失與嚴重皮膚炎——剔除 RIPK3 <strong>無法</strong>
+        救援——與發育遺傳學的結果完全一致（Weinlich et al. 2013；Panayotova-Dimitrova et al. 2013）。
+        在該皮膚模型中，單一一個野生型 <em>Cflar</em> 對偶基因即足以保護表皮；而表皮 c-FLIP
+        蛋白在毒性表皮壞死溶解症／史蒂文斯－強森症候群（大量角質細胞凋亡的人類疾病）患者中
+        喪失（Panayotova-Dimitrova et al. 2013）。內皮特異性剔除 caspase-8 則重現全身剔除的
+        表現型，將 E10.5 檢查點連向血管發育。
+      </p>
+
+      <h3>免疫系統：異二聚體依賴的 T 細胞活化與增殖</h3>
+      <p>
+        在 T 淋巴細胞中，異二聚體是增殖訊號。TCR 刺激驅動 caspase-8 與 FLIP<sub>L</sub>
+        進入脂質筏，有限的切割產生 p43-FLIP；p43-FLIP 招募 RIPK1、TRAF2 與 TRAF6，
+        啟動 NF-κB 與 ERK 訊號並支持細胞增殖。c-FLIP 缺陷的 T 細胞增殖不良、IL-2 產量低，
+        且無法完成胸腺雙陽性 → 單陽性轉換；FLIP<sub>L</sub> 過度表現則增強弱刺激後的增殖與
+        CD25 誘導（Zhang &amp; He 2005；Kavuri et al. 2011；Cell Death Dis. 2026 回顧）。
+        亞型比例本身就是免疫平衡的一部分：在小鼠，c-FLIP<sub>R</sub> 過度表現造成 Fas 抗性
+        T 細胞與紅斑性狼瘡樣自體免疫；而在 casp8<sup>−/−</sup>ripk3<sup>−/−</sup> 存活鼠中，
+        B220<sup>+</sup>CD3<sup>+</sup> 異常 T 細胞隨年齡累積，重現 Fas 缺陷表現型
+        （Kaiser et al. 2011）。
+      </p>
+
+      <div class="note forest">
+        <h4>恆定層面的判讀</h4>
+        <p>
+          當 IAP 消失時，RIPK1 即可自由成核平台。caspase-8/FLIP<sub>L</sub> 異二聚體對其
+          施加制約：一個具有足夠活性切割 RIPK1 與 RIPK3 並拆解平台、卻不足以處理執行型
+          caspase 的酶。所有已測試的組織——卵黃囊內皮、腸道、表皮、肝細胞、淋巴細胞——
+          都需要此制約持續運作。c-FLIP 減少造成發炎性組織破壞與發育失敗；c-FLIP 增加
+          （癌症情境）則阻斷腫瘤的死亡配體誘導細胞凋亡。組織恆定需要 c-FLIP 介於兩個極端
+          之間。
+        </p>
+      </div>
+    </section>
+
+    <!-- ==================== DISEASE ==================== -->
+    <section id="disease">
+      <p class="sec-label">病理學</p>
+      <h2>疾病相關性與治療調節</h2>
+      <p>
+        <strong>癌症。</strong>c-FLIP 在多種腫瘤類型中過度表現，賦予對 FasL/TRAIL 與
+        DNA 損傷化療的抗性；降低 c-FLIP 蛋白——經蛋白酶體敏感性周轉、HDAC 抑制劑、或
+        cisplatin–Itch–p53 軸——可使腫瘤細胞重新對死亡配體敏感（Safa &amp; Kanthasamy 2012；
+        Tsuchiya et al. 2015）。Smac 模擬物則刻意誘導 ripoptosome 形成；腫瘤隨後死於細胞凋亡
+        或發炎性壞死性凋亡，取決於其 FLIP<sub>L</sub>:FLIP<sub>S</sub> 比例與 RIPK3 表現——
+        一項被提出的分層生物標記。激酶失活的 RIPK3（D161N）與 RIPK3 抑制劑可將平台重導向
+        細胞凋亡，且以 FLIP<sub>L</sub> 增強的方式進行（RIPK3 抑制劑悖論）。稱為
+        <em>FLIPins</em> 的小分子以異位方式作用於 caspase-8/FLIP<sub>L</sub> 異二聚體，
+        重新調校 DISC 訊號（Cell Death Differ. 2020）。
+      </p>
+      <p>
+        <strong>發炎疾病。</strong>角質細胞的數據將 c-FLIP 喪失直接連向人類毒性表皮壞死溶解症／
+        史蒂文斯－強森症候群，而表皮 c-FLIP 喪失的 TNF 依賴性（Geserick et al. 2020）將此
+        平台置於細胞激素驅動皮膚發炎的上游。當 FLIP<sub>S</sub> 佔優時，平台的壞死性凋亡輸出
+        釋出 DAMP 並驅動無菌性發炎——Feoktistova 等人所指出的「細胞死亡性質差異」的
+        病理後果。
+      </p>
+      <p>
+        <strong>原理的遺傳證據。</strong>FLIP<sub>L</sub>-Y362C 基因敲入（Cell Rep. 2024）
+        提供了單一殘基的檢驗：Tyr362 旁鏈維持異二聚體切割 RIPK1 所需的受限催化裂隙；
+        其喪失導致失控壞死性凋亡與胚胎致死（E10.5–E11.5）。
+      </p>
+    </section>
+
+    <!-- ==================== OPEN QUESTIONS ==================== -->
+    <section id="open">
+      <p class="sec-label">未決問題</p>
+      <h2>尚待解決的問題</h2>
+      <ul>
+        <li><strong>組裝是否需要 RIPK1 激酶活性？</strong>兩篇發現論文結論不一（Nec-1 敏感性隨系統而異）；組裝可能在某些轉化細胞株依賴激酶、在其他細胞不依賴。</li>
+        <li><strong>命名。</strong>「Ripoptosome」vs「riptosome」vs TNFR1「complex IIb」——相關但可區分的平台；領域尚未收斂。</li>
+        <li><strong>生理性組裝。</strong>自發性組裝主要記載於轉化細胞；初代組織在活體中——於藥理性 IAP 抑制之外——何時何地組裝此平台，尚未完全定位。</li>
+        <li><strong>活體內計量。</strong>原生平台中 FLIP<sub>L</sub>:FLIP<sub>S</sub>:procaspase-8 的比例尚未被測量；變阻器的量化中點仍由細胞株與數學模型推得。</li>
+        <li><strong>caspase-10</strong> 在人類複合體中的角色（c-FLIP 被剔除時會累積）相對上仍缺乏描述。</li>
+      </ul>
+    </section>
+
+    <!-- ==================== REFERENCES ==================== -->
+    <section id="refs">
+      <p class="sec-label">參考文獻</p>
+      <h2>主要文獻</h2>
+      <ul class="refs">
+        <li>Tenev T, Bianchi K, Darding M, et al. (2011). The Ripoptosome, a signaling platform that assembles in response to genotoxic stress and loss of IAPs. <em>Mol Cell</em> 43:432–448. <a href="https://doi.org/10.1016/j.molcel.2011.06.006" target="_blank" rel="noopener noreferrer">doi:10.1016/j.molcel.2011.06.006</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/21737329/" target="_blank" rel="noopener noreferrer">PMID 21737329</a></li>
+        <li>Feoktistova M, Geserick P, Kellert B, et al. (2011). cIAPs block Ripoptosome formation, a RIP1/caspase-8 containing intracellular cell death complex differentially regulated by cFLIP isoforms. <em>Mol Cell</em> 43:449–463. <a href="https://doi.org/10.1016/j.molcel.2011.06.011" target="_blank" rel="noopener noreferrer">doi:10.1016/j.molcel.2011.06.011</a> · <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3163271/" target="_blank" rel="noopener noreferrer">PMC3163271</a></li>
+        <li>Green DR, Oberst A (2011). The ripoptosome: death decision in the cytosol. <em>Mol Cell</em> 43(3) — 兩篇發現論文之評論。</li>
+        <li>Kaiser WJ, Upton JW, Long AB, et al. (2011). RIP3 mediates the embryonic lethality of caspase-8-deficient mice. <em>Nature</em> 471:368–372. <a href="https://doi.org/10.1038/nature09857" target="_blank" rel="noopener noreferrer">doi:10.1038/nature09857</a></li>
+        <li>Oberst A, Dillon CP, Weinlich R, et al. (2011). Catalytic activity of the caspase-8–FLIP<sub>L</sub> complex inhibits RIPK3-dependent necrosis. <em>Nature</em> 471:363–367. <a href="https://doi.org/10.1038/nature09852" target="_blank" rel="noopener noreferrer">doi:10.1038/nature09852</a></li>
+        <li>Pop C, Felts AK, Kuiper S, et al. (2011). FLIP<sub>L</sub> induces caspase-8 activity in the absence of interdomain proteolysis. <em>J Biol Chem</em> 286:3035–3042. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4024219/" target="_blank" rel="noopener noreferrer">PMC4024219</a></li>
+        <li>Dillon CP, Oberst A, Weinlich R, et al. (2012). Survival function of the FADD–CASPASE-8–cFLIP<sub>L</sub> complex. <em>Cell Rep</em> 1:401–407. <a href="https://doi.org/10.1016/j.celrep.2012.03.010" target="_blank" rel="noopener noreferrer">doi:10.1016/j.celrep.2012.03.010</a></li>
+        <li>Micheau O, Thome M, Schneider P, et al. (2002). The long form of FLIP is an activator of caspase-8 at the Fas DISC. <em>J Biol Chem</em> 277:45162–45171.</li>
+        <li>Weinlich R, Oberst A, Dillon CP, et al. (2013). Protective roles for caspase-8 and cFLIP in adult homeostasis. <em>Cell Rep</em> 5:340–348. <a href="https://doi.org/10.1016/j.celrep.2013.08.045" target="_blank" rel="noopener noreferrer">doi:10.1016/j.celrep.2013.08.045</a></li>
+        <li>Panayotova-Dimitrova D, Feoktistova M, Ploesser M, et al. (2013). cFLIP regulates skin homeostasis and protects against TNF-induced keratinocyte apoptosis. <em>Cell Rep</em> 5:397–408. <a href="https://doi.org/10.1016/j.celrep.2013.09.035" target="_blank" rel="noopener noreferrer">doi:10.1016/j.celrep.2013.09.035</a></li>
+        <li>Kavuri SM, Geserick P, Berg D, et al. (2011). cFLIP isoforms block CD95- and TRAIL death-receptor-induced gene induction… <em>J Biol Chem</em> 286:16631–16646.</li>
+        <li>Zhang N, He YW (2005). An essential role for c-FLIP in the efficient development of mature T lymphocytes. <em>J Exp Med</em> 202:395–404.</li>
+        <li>Yeh WC, Itie A, Elia AJ, et al. (2000). Requirement for Casper (c-FLIP) in regulation of death receptor-induced apoptosis and embryonic development. <em>Immunity</em> 12:633–642.</li>
+        <li>Tsuchiya Y, Nakabayashi O, Nakano H (2015). FLIP the switch: regulation of apoptosis and necroptosis by cFLIP. <em>Int J Mol Sci</em> 16:30309–30335.</li>
+        <li>Smyth P, Sessler T, Scott CJ, Longley DB (2020). FLIP<sub>L</sub>: the pseudo-caspase. <em>FEBS J</em> 287:4246–4260. <a href="https://doi.org/10.1111/febs.15260" target="_blank" rel="noopener noreferrer">doi:10.1111/febs.15260</a></li>
+        <li>Safa AR, Kanthasamy AG (2012). c-FLIP, a master anti-apoptotic regulator. <em>Exp Oncol</em> 34:176–184. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4817998/" target="_blank" rel="noopener noreferrer">PMC4817998</a></li>
+        <li>Geserick P, Hupe M, Moulin M, et al. (2020). TNF is partially required for cell-death-triggered skin inflammation upon acute loss of cFLIP. <em>Int J Mol Sci</em> 21:8859.</li>
+        <li>Dissecting DISC regulation via pharmacological targeting of the caspase-8/c-FLIP<sub>L</sub> heterodimer (2020). <em>Cell Death Differ</em>. <a href="https://doi.org/10.1038/s41418-020-0489-0" target="_blank" rel="noopener noreferrer">doi:10.1038/s41418-020-0489-0</a></li>
+        <li>Residue Y362 is crucial for FLIP<sub>L</sub> to impart catalytic activity to pro-caspase-8 to suppress necroptosis (2024). <em>Cell Rep</em>. <a href="https://www.cell.com/cell-reports/fulltext/S2211-1247(24)01317-2" target="_blank" rel="noopener noreferrer">S2211-1247(24)01317-2</a></li>
+        <li>c-FLIP as a master regulator of immune homeostasis and disease mechanisms (2026). <em>Cell Death Dis</em>. <a href="https://doi.org/10.1038/s41419-026-08771-5" target="_blank" rel="noopener noreferrer">doi:10.1038/s41419-026-08771-5</a></li>
+      </ul>
+    </section>
+
+  </main>
+</div>
+
+<footer>
+  <div class="wrap">
+    <p>
+      內容改編自知識庫筆記——<a href="https://graph.johnnykuo.com/#node=Ripoptosome">Ripoptosome</a>、
+      <a href="https://graph.johnnykuo.com/#node=c-FLIP">c-FLIP</a>、
+      <a href="https://graph.johnnykuo.com/#node=Caspase-8-c-FLIP%20Rheostat">Caspase-8-c-FLIP Rheostat</a>、
+      <a href="https://graph.johnnykuo.com/#node=Smac%20mimetics">Smac mimetics</a>、
+      <a href="https://graph.johnnykuo.com/#node=TNFR1%20complex%20I">TNFR1 complex I</a>——加上上述原始文獻 ·
+      llm-wiki-jk · 產生於 2026 年 11 月 18 日 · 教育性內容；非醫療建議
+    </p>
+  </div>
+</footer>
+
+<!-- ===== 頁面專屬圖表程式（SVG，經 T2 輔助函式） ===== -->
+<script>
+(function () {
+  "use strict";
+
+  var el = T2.el, text = T2.text, svgRoot = T2.svgRoot, arrowHead = T2.arrowHead, wrapText = T2.wrapText;
+  var W = 1000;
+  var INK = "#1c1915", SOFT = "#6d665b", RULE = "#d3c9b6";
+  var C = {
+    ripk1: "#264653", fadd: "#2a9d8f", c8: "#2a7a3f", c10: "#3a7d44",
+    flip: "#e9c46a", flipTxt: "#9a7430", iap: "#6a5acd", ub: "#c49a4a",
+    apo: "#c1121f", nec: "#7b2cbf", mlkl: "#ff7a1a", surv: "#2a7a3f", paper: "#fbf8f1"
+  };
+
+  function smooth(k) { k = Math.max(0, Math.min(1, k)); return k * k * (3 - 2 * k); }
+  function centeredLines(svg, cx, cy, lines, opts) {
+    opts = opts || {};
+    var size = opts.size || 12, gap = opts.gap || 3;
+    var y0 = cy - ((lines.length - 1) * (size + gap)) / 2;
+    lines.forEach(function (l, i) { text(svg, cx, y0 + i * (size + gap), l, opts); });
+  }
+  function box(svg, x, y, w, h, fill, stroke) {
+    el("rect", { x: x, y: y, width: w, height: h, rx: 3, fill: fill, stroke: stroke || INK, "stroke-width": 1 }, svg);
+  }
+
+  /* ============ 圖 1 — 組裝開關 ============ */
+  (function () {
+    var host = document.getElementById("fig1Canvas");
+    if (!host) return;
+    var H = 430;
+    var svg = svgRoot(host, W, H, "組裝開關：IAP 監控到 2 MDa 平台");
+    arrowHead(svg, "f1a", INK);
+    arrowHead(svg, "f1b", INK);
+
+    // three panels
+    var px = [30, 380, 700], pw = [300, 260, 260];
+    var heads = ["恆定狀態——IAP 監控", "IAP 消失的觸發", "~2 MDa ripoptosome"];
+    heads.forEach(function (h, i) {
+      text(svg, px[i] + pw[i] / 2, 34, h, { size: 14, weight: 700, anchor: "middle", fill: INK });
+    });
+
+    /* panel 1: cIAP 泛素化 RIPK1 */
+    var x1 = px[0], y1 = 70;
+    box(svg, x1, y1 + 60, pw[0], 200, "var(--paper-deep)", RULE);
+    // cIAP trio
+    [0, 1, 2].forEach(function (i) {
+      var cx = x1 + 70 + i * 80;
+      el("circle", { cx: cx, cy: y1 + 30, r: 16, fill: C.iap, stroke: INK, "stroke-width": 1 }, svg);
+    });
+    text(svg, x1 + pw[0] / 2, y1 + 12, "cIAP1 · cIAP2 · XIAP（+TRAF2）", { size: 12, anchor: "middle", fill: C.iap });
+    // RIPK1
+    var rk = [x1 + 80, x1 + 150, x1 + 220];
+    el("circle", { cx: rk[0], cy: y1 + 150, r: 17, fill: C.ripk1, stroke: INK }, svg);
+    el("circle", { cx: rk[1], cy: y1 + 150, r: 12, fill: C.ripk1, stroke: INK }, svg);
+    el("circle", { cx: rk[2], cy: y1 + 150, r: 15, fill: C.ripk1, stroke: INK }, svg);
+    text(svg, x1 + 150, y1 + 196, "RIPK1", { size: 12, anchor: "middle", fill: C.ripk1, weight: 700 });
+    // Ub chain onto RIPK1 K377
+    var ux = rk[0] + 6, uy = y1 + 118;
+    [[0, -18], [10, -34], [2, -50]].forEach(function (d) {
+      el("circle", { cx: ux + d[0], cy: uy + d[1], r: 6, fill: C.ub, stroke: INK }, svg);
+    });
+    text(svg, ux + 40, uy - 34, "Ub（K377）", { size: 11, fill: C.flipTxt, mono: true });
+    // proteasome
+    box(svg, x1 + 40, y1 + 235, 66, 22, "var(--sheet)", INK);
+    text(svg, x1 + 73, y1 + 250, "26S", { size: 10, anchor: "middle", mono: true, fill: SOFT });
+    el("line", { x1: rk[0], y1: y1 + 170, x2: x1 + 73, y2: y1 + 235, stroke: SOFT, "stroke-width": 1, "stroke-dasharray": "3,3" }, svg);
+    text(svg, x1 + 112, y1 + 250, "蛋白酶體分解——無法組裝平台", { size: 11, fill: SOFT });
+    text(svg, x1 + pw[0] / 2, y1 + 300, "可組裝的 RIPK1 維持近零", { size: 11.5, anchor: "middle", fill: SOFT });
+
+    /* panel 2: 觸發 */
+    var x2 = px[1], y2 = 60;
+    var trig = [
+      ["基因毒壓力", "etoposide · doxorubicin · teniposide", C.apo],
+      ["Smac 模擬物", "IAP 拮抗劑（cIAP 自體分解）", C.ub],
+      ["TLR3 – TRIF", "dsRNA · poly(I:C)", C.nec],
+      ["蛋白酶體抑制劑", "lactacystin · MG-132", C.iap]
+    ];
+    trig.forEach(function (t, i) {
+      var yy = y2 + 40 + i * 62;
+      box(svg, x2, yy, pw[1], 48, "var(--paper-deep)", RULE);
+      text(svg, x2 + 12, yy + 20, t[0], { size: 13, weight: 700, fill: t[2] });
+      text(svg, x2 + 12, yy + 38, t[1], { size: 11.5, fill: SOFT, mono: true });
+    });
+
+    /* panel 3: 組裝完成的平台 */
+    var x3 = px[2], y3 = 70;
+    box(svg, x3 - 6, y3 + 44, pw[2] + 12, 216, "var(--paper-deep)", RULE);
+    // platform ring label
+    text(svg, x3 + pw[2] / 2, y3 + 30, "≈ 2 MDa（凝膠過濾）", { size: 11.5, anchor: "middle", fill: SOFT });
+    // RIPK1 horizontal
+    var r2 = [x3 + 55, x3 + 115, x3 + 170];
+    ["激酶", "", "DD"].forEach(function (lab, i) {
+      el("circle", { cx: r2[i], cy: y3 + 130, r: i === 1 ? 11 : 16, fill: C.ripk1, stroke: INK }, svg);
+      if (lab) text(svg, r2[i], y3 + 130 + (i === 0 ? 30 : 28), lab, { size: 10.5, anchor: "middle", fill: C.ripk1 });
+    });
+    text(svg, x3 + 115, y3 + 96, "RIPK1", { size: 12, anchor: "middle", fill: C.ripk1, weight: 700 });
+    // FADD DD->DED
+    el("circle", { cx: r2[2] + 22, cy: y3 + 110, r: 10, fill: C.fadd, stroke: INK }, svg);
+    el("circle", { cx: r2[2] + 48, cy: y3 + 92, r: 8, fill: C.fadd, stroke: INK }, svg);
+    text(svg, r2[2] + 30, y3 + 140, "FADD", { size: 11, anchor: "middle", fill: C.fadd, weight: 700 });
+    // DED chain arc
+    var chain = [
+      [x3 + 190, y3 + 74, C.c8, "8"],
+      [x3 + 214, y3 + 62, C.flip, "L"],
+      [x3 + 238, y3 + 66, C.c8, "8"],
+      [x3 + 254, y3 + 84, C.c10, "10"],
+      [x3 + 226, y3 + 106, C.flip, "S"],
+      [x3 + 198, y3 + 104, C.c8, "8"]
+    ];
+    chain.forEach(function (u) {
+      el("circle", { cx: u[0], cy: u[1], r: 11, fill: u[2], stroke: INK, opacity: 0.92 }, svg);
+      text(svg, u[0], u[1] + 3.5, u[3], { size: 9, anchor: "middle", fill: "var(--sheet)", mono: true, weight: 700 });
+    });
+    text(svg, x3 + pw[2] / 2, y3 + 176, "DED 鏈", { size: 12, anchor: "middle", fill: SOFT });
+    text(svg, x3 + pw[2] / 2, y3 + 200, "procaspase-8 · caspase-10 · c-FLIP", { size: 11.5, anchor: "middle", fill: INK });
+    text(svg, x3 + pw[2] / 2, y3 + 224, "不依賴死亡受體", { size: 11, anchor: "middle", fill: SOFT });
+
+    /* arrows between panels */
+    [ [px[0] + pw[0] + 8, y1 + 160, px[1] - 10], [px[1] + pw[1] + 8, y2 + 160, px[2] - 12] ].forEach(function (a, i) {
+      el("line", { x1: a[0], y1: a[1], x2: a[2], y2: a[1], stroke: INK, "stroke-width": 1.6, "marker-end": "url(#" + (i ? "f1b" : "f1a") + ")" }, svg);
+    });
+
+    // footer labels under arrows
+    text(svg, (px[0] + pw[0] + px[1]) / 2, y1 + 150, "IAP 消失", { size: 11, anchor: "middle", fill: SOFT });
+    text(svg, (px[1] + pw[1] + px[2]) / 2, y2 + 150, "RIPK1 穩定累積", { size: 11, anchor: "middle", fill: SOFT });
+
+    // outcome strip
+    text(svg, 30, H - 24, "結果由 DED 鏈內的 c-FLIP 變阻器決定 → 細胞凋亡 · 存活 · 壞死性凋亡（圖 3）", { size: 12.5, fill: SOFT });
+  })();
+
+  /* ============ 圖 2 — 結構域架構 ============ */
+  (function () {
+    var host = document.getElementById("fig2Canvas");
+    if (!host) return;
+    var H = 430;
+    var svg = svgRoot(host, W, H, "Procaspase-8 與三種 c-FLIP 亞型的結構域架構");
+    var x0 = 150, x1 = W - 40, unit = (x1 - x0) / 480; // aa scale
+
+    function aaPos(a) { return x0 + a * unit; }
+    var rows = [
+      { name: "Procaspase-8", tag: "55 kDa · CASP8", y: 90, color: C.c8, note: "催化二元體 H317/C360 具活性；可完成完整切割" },
+      { name: "c-FLIP_L（長型）", tag: "55 kDa · CFLAR", y: 190, color: C.flip, note: "R315 / Y360 取代二元體——失活位點；D376 → p43-FLIP" },
+      { name: "c-FLIP_S（短型）", tag: "26 kDa · CFLAR", y: 290, color: C.flip, note: "無 caspase 類結構域；約 20 aa 尾端驅動泛素化" },
+      { name: "c-FLIP_R（Raji 型）", tag: "24–25 kDa · CFLAR", y: 370, color: C.flip, note: "限 T/B 細胞；3′ 剪接位點 SNP 決定 S 或 R" }
+    ];
+    // shared DED spans (approx after reviews): DED1 ~1-80, DED2 ~90-175
+    var DED1 = [1, 80], DED2 = [90, 175];
+
+    // residue ruler
+    [0, 100, 200, 300, 400, 480].forEach(function (a) {
+      el("line", { x1: aaPos(a), y1: 58, x2: aaPos(a), y2: 64, stroke: INK, "stroke-width": 1 }, svg);
+      text(svg, aaPos(a), 54, String(a), { size: 10.5, anchor: "middle", mono: true, fill: SOFT });
+    });
+    el("line", { x1: x0, y1: 61, x2: x1, y2: 61, stroke: INK, "stroke-width": 1 }, svg);
+    text(svg, W - 40, 54, "殘基位置（約）", { size: 10.5, anchor: "end", fill: SOFT });
+
+    rows.forEach(function (r) {
+      // name + tag
+      text(svg, 20, r.y - 8, r.name, { size: 14, weight: 700, fill: INK });
+      text(svg, 20, r.y + 10, r.tag, { size: 10.5, mono: true, fill: SOFT });
+      // domain row (drawn at absolute y)
+      var dy = r.y - 26;
+      function d(a, b, fill, dash) {
+        el("rect", { x: aaPos(a), y: dy, width: (b - a) * unit, height: 26, rx: 3, fill: fill, stroke: INK, "stroke-width": 1, "stroke-dasharray": dash || "none" }, svg);
+      }
+      d(DED1[0], DED1[1], r.color === C.c8 ? C.c8 : C.flip);
+      d(DED2[0], DED2[1], r.color === C.c8 ? C.c8 : C.flip);
+      text(svg, aaPos(40), dy + 17, "DED1", { size: 11, anchor: "middle", fill: "var(--sheet)", weight: 700, mono: true });
+      text(svg, aaPos(132), dy + 17, "DED2", { size: 11, anchor: "middle", fill: "var(--sheet)", weight: 700, mono: true });
+      if (r.name === "Procaspase-8") {
+        d(200, 385, C.c8); d(385, 480, C.c8);
+        text(svg, aaPos(292), dy + 17, "p18（大）", { size: 11, anchor: "middle", fill: "var(--sheet)", weight: 700 });
+        text(svg, aaPos(432), dy + 17, "p10", { size: 11, anchor: "middle", fill: "var(--sheet)", weight: 700 });
+        // cleavage sites
+        [[374, "D374 二聚體間"], [384, "D384"], [210, "D210/216/223 二聚體內"]].forEach(function (cs, i) {
+          el("line", { x1: aaPos(cs[0]), y1: dy - 4, x2: aaPos(cs[0]), y2: dy + 30, stroke: C.apo, "stroke-width": 1.4, "stroke-dasharray": "2,2" }, svg);
+          text(svg, aaPos(cs[0]) + (i === 2 ? -6 : 6), dy - 8, cs[1], { size: 10, anchor: i === 2 ? "end" : "start", fill: C.apo });
+        });
+        // dyad
+        text(svg, aaPos(300), dy + 44, "H317 · C360——活性二元體", { size: 10.5, fill: C.c8 });
+      } else if (r.name.indexOf("長型") > -1) {
+        d(200, 385, C.flip, "4,3"); d(385, 480, C.flip, "4,3");
+        text(svg, aaPos(292), dy + 17, "p20 類（偽）", { size: 10.5, anchor: "middle", fill: INK, weight: 700 });
+        text(svg, aaPos(432), dy + 17, "p12 類", { size: 10, anchor: "middle", fill: INK });
+        el("line", { x1: aaPos(376), y1: dy - 4, x2: aaPos(376), y2: dy + 30, stroke: C.apo, "stroke-width": 1.4, "stroke-dasharray": "2,2" }, svg);
+        text(svg, aaPos(376) + 6, dy - 8, "D376 → p43-FLIP", { size: 10, fill: C.apo });
+        text(svg, aaPos(280), dy + 44, "R315 · Y360 取代二元體（Y360 = 小鼠 Y362）", { size: 10.5, fill: C.flipTxt });
+      } else {
+        // short isoforms: tail after DED2
+        var tA = 176, tB = r.name.indexOf("短型") > -1 ? 234 : 221;
+        d(tA, tB, C.flip, "2,2");
+        text(svg, aaPos(205), dy + 17, "尾端", { size: 10, anchor: "middle", fill: INK });
+        text(svg, aaPos(300), dy + 17, "— 無 caspase 類結構域 —", { size: 11, fill: SOFT });
+      }
+      text(svg, x0, dy + 58, r.note, { size: 11, fill: SOFT, anchor: "start" });
+    });
+  })();
+
+  /* ============ 圖 3 — 變阻器決策圖 ============ */
+  (function () {
+    var host = document.getElementById("fig3Canvas");
+    if (!host) return;
+    var H = 480;
+    var svg = svgRoot(host, W, H, "c-FLIP 變阻器：一個平台、三種結果");
+    arrowHead(svg, "f3a", INK);
+
+    // top: assembled platform
+    box(svg, 330, 40, 340, 74, "var(--paper-deep)", RULE);
+    text(svg, 500, 68, "Ripoptosome（~2 MDa）", { size: 15, anchor: "middle", weight: 700, fill: INK });
+    text(svg, 500, 90, "RIPK1 · FADD · procaspase-8 · caspase-10 · c-FLIP", { size: 12, anchor: "middle", fill: SOFT, mono: true });
+    // input label
+    text(svg, 200, 78, "IAP 消失 · 基因毒壓力", { size: 12, fill: SOFT, anchor: "end" });
+    el("line", { x1: 210, y1: 74, x2: 326, y2: 74, stroke: INK, "stroke-width": 1.4, "marker-end": "url(#f3a)" }, svg);
+
+    // central question
+    text(svg, 500, 148, "DED 鏈中形成哪一種二聚體？", { size: 13.5, anchor: "middle", weight: 700, fill: C.flipTxt });
+
+    // three branches
+    var bw = 288, bx = [30, 356, 682], by = 176;
+    var br = [
+      {
+        h: "Caspase-8 同二聚體", hc: C.c8,
+        sub: "FLIP 稀少或被滴定耗盡",
+        steps: ["二聚體間切割（D374）", "二聚體內切割（D210/216/223/384）", "釋出 p18/p10 異四聚體", "活化 caspase-3/-7 與 Bid"],
+        out: "細胞凋亡", oc: C.apo,
+        foot: "RIPK1 被切割 → 平台拆除"
+      },
+      {
+        h: "Caspase-8 / FLIP_L 異二聚體", hc: C.flipTxt,
+        sub: "FLIP_L 與 procaspase-8 約 1:1",
+        steps: ["單一活性位點，口袋變窄", "切割鄰近二聚體（→ p43-FLIP）", "無法完成二聚體內切割", "不釋出執行型 caspase"],
+        out: "存活", oc: C.surv,
+        foot: "RIPK1 與 RIPK3 被切割 → 壞死性凋亡受阻，平台拆除"
+      },
+      {
+        h: "Caspase-8 / FLIP_S/R 異二聚體", hc: C.flipTxt,
+        sub: "短型亞型佔優",
+        steps: ["FLIP 無催化結構域", "終止 DED 鏈延伸", "RIPK1 未被切割", "平台持續存在"],
+        out: "壞死性凋亡", oc: C.nec,
+        foot: "RIPK1~p → RIPK3 → MLKL 寡聚 → 膜破裂"
+      }
+    ];
+    br.forEach(function (b, i) {
+      var x = bx[i];
+      box(svg, x, by, bw, 176, "var(--paper-deep)", RULE);
+      text(svg, x + bw / 2, by + 24, b.h, { size: 13.5, anchor: "middle", weight: 700, fill: b.hc });
+      text(svg, x + bw / 2, by + 42, b.sub, { size: 11, anchor: "middle", fill: SOFT });
+      b.steps.forEach(function (s, j) {
+        text(svg, x + 14, by + 66 + j * 20, "· " + s, { size: 11.5, fill: INK });
+      });
+      // connector from platform
+      el("line", { x1: 500, y1: 122, x2: x + bw / 2, y2: by - 6, stroke: INK, "stroke-width": 1.3, "marker-end": "url(#f3a)" }, svg);
+      // outcome chip
+      box(svg, x + 30, by + 196, bw - 60, 40, b.oc);
+      text(svg, x + bw / 2, by + 222, b.out, { size: 15, anchor: "middle", weight: 700, fill: "var(--sheet)" });
+      el("line", { x1: x + bw / 2, y1: by + 176, x2: x + bw / 2, y2: by + 192, stroke: INK, "stroke-width": 1.4, "marker-end": "url(#f3a)" }, svg);
+      // foot
+      centeredLines(svg, x + bw / 2, by + 268, [b.foot], { size: 11, fill: SOFT, anchor: "middle" });
+    });
+    // caveat
+    text(svg, 500, H - 14, "壞死性凋亡的預設走向需要完整 RIPK1–RIPK3–MLKL 軸；無 RIPK3 時，FLIP_S 主導的平台停滯而非致死。", { size: 11.5, anchor: "middle", fill: SOFT });
+  })();
+
+  /* ============ 圖 4 — 催化輸出長條圖 ============ */
+  (function () {
+    var host = document.getElementById("fig4Canvas");
+    if (!host) return;
+    var H = 400;
+    var svg = svgRoot(host, W, H, "相對催化輸出：同二聚體 vs FLIP_L 異二聚體 vs FLIP_S 異二聚體");
+    arrowHead(svg, "f4a", INK);
+
+    var gx = 260, gy = 60, gh = 250, gw = 640;
+    el("line", { x1: gx, y1: gy + gh, x2: gx + gw, y2: gy + gh, stroke: INK, "stroke-width": 1.5 }, svg);
+    el("line", { x1: gx, y1: gy, x2: gx, y2: gy + gh, stroke: INK, "stroke-width": 1.5 }, svg);
+
+    // gridlines 0/25/50/75/100
+    var maxV = 110;
+    [0, 25, 50, 75, 100].forEach(function (v) {
+      var yy = gy + gh - (v / maxV) * gh;
+      el("line", { x1: gx, y1: yy, x2: gx + gw, y2: yy, stroke: RULE, "stroke-width": 1, "stroke-dasharray": v ? "3,4" : "none" }, svg);
+      text(svg, gx - 10, yy + 4, String(v), { size: 11, anchor: "end", mono: true, fill: SOFT });
+    });
+    // homodimer reference band
+    var refY = gy + gh - (100 / maxV) * gh;
+    el("line", { x1: gx, y1: refY, x2: gx + gw, y2: refY, stroke: C.c8, "stroke-width": 1.2, "stroke-dasharray": "6,4" }, svg);
+    text(svg, gx + gw - 4, refY - 8, "成熟 caspase-8 同二聚體 = 100", { size: 11, anchor: "end", fill: C.c8 });
+
+    // groups
+    var groups = [
+      { name: "Caspase-8 同二聚體", col: C.c8, vals: [100, 100, 100] },
+      { name: "Caspase-8 / FLIP_L 異二聚體", col: C.flip, vals: [15, 27, 4], hatch: [2] },
+      { name: "Caspase-8 / FLIP_S/R 異二聚體", col: "#b08930", vals: [0, 0, 0] }
+    ];
+    var subs = ["通用胜肽|IETD-afc", "RIPK1|（壞死性凋亡激酶）", "casp-3 · Bid|（執行受質）"];
+    var gw2 = gw / 3; // per substrate group
+    groups.forEach(function (g, gi) {
+      var cx = gx + gw2 * gi + gw2 / 2;
+      text(svg, cx, gy + gh + 22, g.name, { size: 12.5, anchor: "middle", weight: 700, fill: g.col === C.flip ? C.flipTxt : g.col });
+      subs.forEach(function (s, si) {
+        var bw2 = 46;
+        var bx = cx - bw2 / 2 + (si - 1) * 62;
+        var v = g.vals[si];
+        var bh = (v / maxV) * gh;
+        if (v > 0) {
+          el("rect", { x: bx, y: gy + gh - bh, width: bw2, height: bh, fill: g.col, stroke: INK, "stroke-width": 1, opacity: 0.9 }, svg);
+          text(svg, bx + bw2 / 2, gy + gh - bh - 7, String(v), { size: 11, anchor: "middle", mono: true, fill: INK });
+          if (g.hatch && g.hatch.indexOf(si) > -1) {
+            text(svg, bx + bw2 / 2, gy + gh - bh - 22, "降低*", { size: 10, anchor: "middle", fill: C.apo });
+          }
+        } else {
+          text(svg, bx + bw2 / 2, gy + gh - 8, "0", { size: 11, anchor: "middle", mono: true, fill: SOFT });
+        }
+        // substrate label under axis
+        var sl = s.split("|");
+        sl.forEach(function (line, li) {
+          text(svg, bx + bw2 / 2, gy + gh + 40 + li * 13, line, { size: 9.8, anchor: "middle", fill: SOFT });
+        });
+      });
+    });
+
+    // y-axis label
+    text(svg, gx - 190, gy + gh / 2, "相對 kcat / KM（同二聚體 = 100）", { size: 12, fill: SOFT });
+    // footnote
+    text(svg, gx, H - 16, "* 此處未量化——凋亡受質的切割效率低於 RIPK1 或 HDAC7（Pop et al. 2011, Table 1）。", { size: 11, fill: SOFT });
+    text(svg, gx, H - 34, "與 FLIP_L 結合的未切割（Site-1）caspase-8 保留切割 RIPK1 的活性，但不保留切割執行型 caspase 的活性。", { size: 11.5, fill: INK });
+  })();
+
+  /* ============ 圖 6（本地編號 5）— 剔除／救援矩陣 ============ */
+  (function () {
+    var host = document.getElementById("fig5Canvas");
+    if (!host) return;
+    var H = 452;
+    var svg = svgRoot(host, W, H, "基因剔除遺傳學：胚胎致死與救援");
+
+    var cols = [
+      { x: 40, w: 330, label: "基因型" },
+      { x: 370, w: 250, label: "E10.5 結果" },
+      { x: 620, w: 140, label: "死亡模式" },
+      { x: 760, w: 200, label: "救援後成體表現型" }
+    ];
+    var rows = [
+      { g: "casp8 \u2212/\u2212", out: ["死亡", C.apo], mode: "壞死性凋亡", adult: "—" },
+      { g: "fadd \u2212/\u2212", out: ["死亡", C.apo], mode: "壞死性凋亡", adult: "—" },
+      { g: "cflar \u2212/\u2212（c-FLIP）", out: ["死亡", C.apo], mode: "細胞凋亡", adult: "—" },
+      { g: "casp8 \u2212/\u2212 · ripk3 \u2212/\u2212", out: ["存活", C.surv], mode: "—", adult: "可育；約 4 個月起淋巴結病變（類 lpr）" },
+      { g: "fadd \u2212/\u2212 · ripk3 \u2212/\u2212", out: ["存活", C.surv], mode: "—", adult: "發育正常（Dillon 2012）" },
+      { g: "cflar \u2212/\u2212 · ripk3 \u2212/\u2212", out: ["死亡", C.flip], mode: "細胞凋亡", adult: "—" },
+      { g: "cflar \u2212/\u2212 · fadd \u2212/\u2212 · ripk3 \u2212/\u2212", out: ["存活", C.surv], mode: "—", adult: "發育、體型與生育力正常" }
+    ];
+
+    var yTop = 76, rh = 42;
+    // header
+    cols.forEach(function (c) {
+      box(svg, c.x, yTop - 32, c.w, 26, "var(--paper-deep)", INK);
+      text(svg, c.x + c.w / 2, yTop - 14, c.label, { size: 11.5, anchor: "middle", weight: 700, fill: SOFT });
+    });
+    rows.forEach(function (r, i) {
+      var y = yTop + i * rh;
+      var bg = i % 2 ? "var(--paper-deep)" : "var(--sheet)";
+      cols.forEach(function (c) {
+        box(svg, c.x, y, c.w, rh, bg, RULE);
+      });
+      // genotype
+      text(svg, cols[0].x + 14, y + rh / 2 + 4, r.g, { size: 12.5, weight: 700, fill: INK });
+      // outcome chip
+      var oc = r.out[1];
+      box(svg, cols[1].x + 12, y + 8, 96, rh - 16, oc);
+      text(svg, cols[1].x + 60, y + rh / 2 + 4, r.out[0], { size: 12.5, anchor: "middle", weight: 700, fill: "var(--sheet)" });
+      text(svg, cols[1].x + 122, y + rh / 2 + 4, r.out[0] === "存活" ? "已救援" : "致死", { size: 11.5, fill: SOFT });
+      // death mode
+      text(svg, cols[2].x + 14, y + rh / 2 + 4, r.mode, { size: 12, fill: r.mode === "壞死性凋亡" ? C.nec : (r.mode === "細胞凋亡" ? C.apo : SOFT), weight: 700 });
+      // adult
+      text(svg, cols[3].x + 14, y + rh / 2 + 4, r.adult, { size: 11, fill: r.adult === "—" ? SOFT : C.surv });
+    });
+
+    // legend + reading
+    var ly = yTop + rows.length * rh + 22;
+    el("circle", { cx: 50, cy: ly, r: 7, fill: C.apo }, svg);
+    text(svg, 64, ly + 4, "致死", { size: 11.5, fill: SOFT });
+    el("circle", { cx: 120, cy: ly, r: 7, fill: C.surv }, svg);
+    text(svg, 134, ly + 4, "存活", { size: 11.5, fill: SOFT });
+    el("circle", { cx: 190, cy: ly, r: 7, fill: C.flip }, svg);
+    text(svg, 204, ly + 4, "移除壞死性凋亡後以第二種模式（細胞凋亡）致死", { size: 11.5, fill: SOFT });
+    text(svg, 40, ly + 26, "判讀：剔除 RIPK3 可救援 caspase-8 與 FADD 缺失（其致死缺陷為失控壞死性凋亡），但無法救援 c-FLIP 缺失（其缺陷為", { size: 11.5, fill: INK });
+    text(svg, 40, ly + 42, "caspase-8 驅動的細胞凋亡）；唯有同時剔除 FADD 才能恢復 cflar 剔除胚胎的發育——FLIP_L 異二聚體的兩項功能：以催化活性阻斷壞死性凋亡、以計量抑制細胞凋亡。", { size: 11.5, fill: INK });
+  })();
+
+  T2.initNav();
+  T2.initTooltip();
+  T2.initLightbox();
+  T2.initNavScrollHint();
+})();
+</script>
+
+<!-- ===== 命運模擬（three.js, r160） ===== -->
+<script type="module">
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+
+const canvas = document.getElementById('simCanvas');
+const phaseEl = document.getElementById('simPhase');
+const noteEl = document.getElementById('simNote');
+const scenBtns = [document.getElementById('scen1'), document.getElementById('scen2'), document.getElementById('scen3')];
+const playBtn = document.getElementById('simPlay');
+
+const NOTES = {
+  1: '<b>設定 1——無 c-FLIP。</b>Procaspase-8 同二聚體完成二聚體間（D374）與二聚體內（D210/216/223/384）切割，釋出 p18/p10 異四聚體，活化 caspase-3/-7 與 Bid，並在解組過程中切割 RIPK1：平台隨活性 caspase-8 釋出而拆除——細胞凋亡。',
+  2: '<b>設定 2——有 c-FLIP_L。</b>異二聚體比同二聚體更易形成，保留單一受質範圍受限的活性位點：可切割 RIPK1（與 RIPK3），但無法釋出執行訊號——平台拆除、兩種死亡程式同時受阻、細胞存活。',
+  3: '<b>設定 3——有 c-FLIP_S/R。</b>異二聚體完全不含催化結構域，RIPK1 未被切割，平台持續存在並擴大：RIPK1 磷酸化 RIPK3、MLKL 寡聚化並轉位至細胞膜造成破裂——發炎性壞死性凋亡，釋出 DAMP。需要完整 RIPK1–RIPK3–MLKL 軸。'
+};
+
+let SCEN = 1;
+let playing = !matchMedia('(prefers-reduced-motion: reduce)').matches;
+const DUR = 18;
+
+const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true });
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+renderer.setClearColor(0x000000, 0);
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(40, 1, 0.1, 100);
+const CAM0 = new THREE.Vector3(1.5, 2.4, 12.5);
+camera.position.copy(CAM0);
+const controls = new OrbitControls(camera, canvas);
+controls.enableDamping = true;
+controls.target.set(0, 0.6, 0);
+controls.autoRotate = true;
+controls.autoRotateSpeed = 0.7;
+
+scene.add(new THREE.AmbientLight(0xfff2df, 0.85));
+const key = new THREE.DirectionalLight(0xffffff, 1.0); key.position.set(5, 8, 6); scene.add(key);
+const rim = new THREE.DirectionalLight(0x88bbff, 0.45); rim.position.set(-6, 3, -5); scene.add(rim);
+
+/* helpers */
+function mesh(geo, color) {
+  const m = new THREE.Mesh(geo, new THREE.MeshStandardMaterial({ color, roughness: 0.45, metalness: 0.05, transparent: true }));
+  m.userData.base = 1;
+  return m;
+}
+const sph = (r, c) => mesh(new THREE.SphereGeometry(r, 24, 18), c);
+const boxG = (w, h, d, c) => mesh(new THREE.BoxGeometry(w, h, d), c);
+function setFade(o, f) {
+  o.traverse(n => { if (n.material) { n.material.opacity = f * (n.userData.base ?? 1); n.visible = f > 0.01; } });
+  o.userData.fade = f;
+}
+function label(txt, color, scale = 1) {
+  const c = document.createElement('canvas'); c.width = 512; c.height = 128;
+  const x = c.getContext('2d');
+  x.fillStyle = 'rgba(12,12,26,0.78)';
+  x.fillRect(64, 24, 384, 80);
+  x.strokeStyle = color; x.lineWidth = 3; x.strokeRect(64, 24, 384, 80);
+  x.font = '600 36px "PingFang TC", "Noto Sans TC", ui-monospace, Menlo, monospace';
+  x.fillStyle = color; x.textAlign = 'center'; x.textBaseline = 'middle';
+  x.fillText(txt, 256, 66);
+  const tex = new THREE.CanvasTexture(c); tex.anisotropy = 4;
+  const s = new THREE.Sprite(new THREE.SpriteMaterial({ map: tex, transparent: true, depthTest: false }));
+  s.scale.set(3.4 * scale, 0.85 * scale, 1);
+  return s;
+}
+const lerp = (a, b, k) => a + (b - a) * k;
+const ph = (a, b, t) => Math.max(0, Math.min(1, (t - a) / (b - a)));
+const sm = k => k * k * (3 - 2 * k);
+function v3(v, from, to, k) { v.set(lerp(from[0], to[0], k), lerp(from[1], to[1], k), lerp(from[2], to[2], k)); }
+
+/* palette */
+const P = { ripk1: 0x5b87c8, fadd: 0x40c9b8, c8: 0x4caf6d, flip: 0xe6b450, iap: 0xb07fe8, ub: 0xd9c06a, ripk3: 0xa06ee0, mlkl: 0xff8a5e, exec: 0xff5a5e, memb: 0x8fa3b8, damp: 0xff5a5e };
+
+/* platform group */
+const G = new THREE.Group(); scene.add(G);
+
+/* RIPK1: kinase — interdomain — DD */
+const ripk1 = new THREE.Group(); G.add(ripk1);
+const rKin = sph(0.62, P.ripk1); rKin.position.set(-1.15, 0, 0);
+const rInt = sph(0.4, P.ripk1); rInt.position.set(0, 0, 0);
+const rDD = sph(0.5, P.ripk1); rDD.position.set(1.05, 0, 0);
+ripk1.add(rKin, rInt, rDD);
+const rLab = label('RIPK1', '#8cc2ff', 0.9); rLab.position.set(-1.15, 1.05, 0); ripk1.add(rLab);
+
+/* RIPK1 fragments for the cleavage event */
+const frags = new THREE.Group(); G.add(frags);
+const fr1 = sph(0.32, P.ripk1), fr2 = sph(0.26, P.ripk1);
+frags.add(fr1, fr2);
+setFade(frags, 0);
+
+/* Ub chain on kinase (steady state) */
+const ub = new THREE.Group(); G.add(ub);
+[[-0.95, 0.95, 0.1], [-0.8, 1.18, 0.25], [-1.05, 1.4, 0.05]].forEach(p => {
+  const b = sph(0.13, P.ub); b.position.set(...p); ub.add(b);
+});
+
+/* IAP trio */
+const iaps = new THREE.Group(); G.add(iaps);
+[[-1.7, 2.35, -0.6, 0.45], [-0.7, 2.75, -1.0, 0.4], [-2.35, 1.85, 0.7, 0.34]].forEach(p => {
+  const s = sph(p[3], P.iap); s.position.set(p[0], p[1], p[2]); iaps.add(s);
+});
+const iapLab = label('IAP', '#b07fe8', 0.8); iapLab.position.set(-1.6, 3.3, -0.6); iaps.add(iapLab);
+
+/* FADD */
+const fadd = new THREE.Group(); G.add(fadd);
+const fDD = sph(0.28, P.fadd), fDED = sph(0.24, P.fadd);
+fadd.add(fDD, fDED);
+const fLab = label('FADD', '#40c9b8', 0.72); fadd.add(fLab);
+const FADD_HOME = [1.05, 0.85, 0.3], FADD_ON = [1.05, 0.62, 0.0];
+fDD.position.set(...FADD_HOME); fDED.position.set(FADD_HOME[0] + 0.45, FADD_HOME[1] + 0.3, 0.2);
+fLab.position.set(FADD_HOME[0] + 0.2, FADD_HOME[1] + 0.8, 0);
+
+/* DED chain — built per scenario */
+let chain = new THREE.Group(); G.add(chain);
+const units = [];
+function buildChain() {
+  G.remove(chain);
+  chain = new THREE.Group(); G.add(chain);
+  units.length = 0;
+  const n = 8;
+  for (let i = 0; i < n; i++) {
+    const isFlip = SCEN !== 1 && i % 2 === 1;
+    const short = SCEN === 3 && isFlip;
+    const g = new THREE.Group();
+    const ded = sph(0.3, isFlip ? P.flip : P.c8);
+    g.add(ded);
+    if (SCEN === 1 || !short) { // catalytic / pseudo-catalytic box
+      if (!isFlip) {
+        const cat = boxG(0.36, 0.36, 0.5, P.c8); cat.position.set(0, -0.55, 0); g.add(cat);
+      } else {
+        const cat = boxG(0.34, 0.34, 0.46, P.flip); cat.position.set(0, -0.55, 0); g.add(cat); // pseudo-caspase
+      }
+    }
+    // slot position: arc from FADD
+    const a = i / (n - 1);
+    const slot = [1.7 + 0.62 * Math.sin(a * 2.5) + 0.3 * a, 1.5 + 0.5 * Math.sin(a * Math.PI), 0.3 + 0.7 * Math.cos(a * 3.1) - 0.35];
+    // scatter position (cytosolic pool)
+    const scat = [4.5 + (i % 4) * 1.4, -2.6 + (i % 3) * 1.6, -3.5 + i * 0.9];
+    g.position.set(...scat);
+    g.userData = { slot, scat, isFlip };
+    chain.add(g);
+    units.push(g);
+  }
+}
+buildChain();
+
+/* platform ring marker */
+const ring = mesh(new THREE.TorusGeometry(2.35, 0.03, 12, 80), P.ripk1);
+ring.rotation.x = Math.PI / 2.3; ring.position.set(0.2, 0.9, 0);
+ring.material.opacity = 0.16; ring.userData.base = 0.16;
+G.add(ring);
+const ringLab = label('riptoptosome · ~2 MDa', '#8cc2ff', 0.85);
+ringLab.position.set(0.2, 3.0, 0); ring.add(ringLab);
+setFade(ring, 0);
+
+/* executioner caspases (apoptosis) */
+const execs = new THREE.Group(); G.add(execs);
+const execArr = [];
+for (let i = 0; i < 4; i++) {
+  const g = new THREE.Group();
+  const a = sph(0.2, P.exec), b = sph(0.2, P.exec);
+  a.position.set(-0.22, 0, 0); b.position.set(0.22, 0, 0);
+  g.add(a, b); execs.add(g); execArr.push(g);
+}
+setFade(execs, 0);
+
+/* RIPK3 + MLKL (necroptosis) */
+const ripk3 = new THREE.Group(); G.add(ripk3);
+const k3a = sph(0.46, P.ripk3), k3b = sph(0.36, P.ripk3);
+k3a.position.set(-1.15, 0.9, 0.9); k3b.position.set(-1.5, 0.4, 1.25);
+const k3Lab = label('RIPK3', '#c9a4ff', 0.8); k3Lab.position.set(-1.9, 1.5, 1.1);
+ripk3.add(k3a, k3b, k3Lab);
+setFade(ripk3, 0);
+
+const mlkl = new THREE.Group(); G.add(mlkl);
+const mlklArr = [];
+for (let i = 0; i < 4; i++) {
+  const m = sph(0.28, P.mlkl);
+  m.position.set(-1.15 + 0.5 * i, 0.9, 0.9);
+  mlkl.add(m); mlklArr.push(m);
+}
+const mLab = label('MLKL', '#ffb08a', 0.8); mLab.position.set(-0.4, 0.3, 0.9); mlkl.add(mLab);
+setFade(mlkl, 0);
+
+/* plasma membrane arc at top — breaks in scenario 3 */
+const memb = new THREE.Group(); G.add(memb);
+const membL = new THREE.Group(), membR = new THREE.Group();
+memb.add(membL, membR);
+for (let i = 0; i < 5; i++) {
+  const b = boxG(0.85, 0.16, 0.45, P.memb);
+  b.position.set(-3.6 + i * 0.92, 3.3 - Math.sin(i / 4 * Math.PI) * 0.25, 0);
+  membL.add(b);
+}
+for (let i = 0; i < 5; i++) {
+  const b = boxG(0.85, 0.16, 0.45, P.memb);
+  b.position.set(0.1 + i * 0.92, 3.3 - Math.sin(i / 4 * Math.PI) * 0.25, 0);
+  membR.add(b);
+}
+const mLab2 = label('細胞膜', '#8fa3b8', 0.7); mLab2.position.set(0, 3.95, 0); memb.add(mLab2);
+/* DAMP dots */
+const damps = new THREE.Group(); G.add(damps);
+const dampArr = [];
+for (let i = 0; i < 6; i++) {
+  const d = sph(0.12, P.damp); d.position.set(-1.5 + i * 0.6, 3.0, 0); dampArr.push(d); damps.add(d);
+}
+setFade(damps, 0);
+
+/* outcome banner */
+const outcome = label('結果', '#ffffff', 1.25);
+outcome.position.set(0.4, -2.6, 0); G.add(outcome);
+setFade(outcome, 0);
+const OUTCOME = { 1: ['細胞凋亡', '#ff5a5e'], 2: ['存活・壞死性凋亡已阻斷', '#7fe3a5'], 3: ['壞死性凋亡', '#c9a4ff'] };
+
+/* trigger banner */
+const trig = label('基因毒損傷 · IAP 消失', '#ffd9a0', 1.0);
+trig.position.set(-1.2, 2.9, 1.8); G.add(trig);
+setFade(trig, 0);
+
+/* ---------- update ---------- */
+let T = 0, last = performance.now();
+function setNote() { noteEl.innerHTML = NOTES[SCEN]; }
+setNote();
+
+function setPhase(txt) { phaseEl.textContent = txt; }
+
+function frame(now) {
+  requestAnimationFrame(frame);
+  const dt = Math.min((now - last) / 1000, 0.05); last = now;
+  if (playing) T = (T + dt) % DUR;
+  const t = T;
+
+  /* steady state: IAPs + Ub present until trigger */
+  const iapK = 1 - sm(ph(3, 5, t));
+  setFade(iaps, iapK);
+  setFade(ub, iapK);
+  setFade(trig, sm(ph(3.2, 4.5, t)) * (1 - sm(ph(7, 8.5, t))));
+
+  /* assembly: FADD docks, chain converges */
+  const asmK = sm(ph(5, 9, t));
+  v3(fDD.position, FADD_HOME, FADD_ON, asmK);
+  fDED.position.set(lerp(FADD_HOME[0] + 0.45, FADD_ON[0] + 0.5, asmK), lerp(FADD_HOME[1] + 0.3, FADD_ON[1] + 0.5, asmK), lerp(0.2, 0.3, asmK));
+  fLab.position.set(fDD.position.x + 0.2, fDD.position.y + 0.85, 0);
+  units.forEach(u => {
+    const k = asmK;
+    u.position.set(lerp(u.userData.scat[0], u.userData.slot[0], k), lerp(u.userData.scat[1], u.userData.slot[1], k), lerp(u.userData.scat[2], u.userData.slot[2], k));
+    u.children.forEach(c => { if (c.material) { c.material.opacity = 0.35 + 0.65 * k; c.visible = true; } });
+  });
+  setFade(ring, sm(ph(6.5, 9, t)) * (1 - outcomeFade()));
+
+  /* per-scenario outcome */
+  if (SCEN === 1) {
+    const fire = sm(ph(9.5, 10.5, t));
+    const fly = sm(ph(10.5, 13.5, t));
+    const dis = sm(ph(10, 12, t));
+    // dimer pulse
+    units.forEach((u, i) => { if (u.children[1]) { const s = 1 + 0.35 * Math.sin(t * 12) * fire * (1 - fly); u.children[1].scale.setScalar(Math.max(0.6, s)); } });
+    // platform fade + RIPK1 cleavage fragments
+    ripk1.children.forEach(c => { c.material.opacity = (1 - dis) * 1; c.visible = dis < 0.98; });
+    setFade(frags, fire * (1 - sm(ph(12.5, 14.5, t))));
+    fr1.position.set(-1.15 - fly * 2.6, fly * 1.6, fly * 1.2);
+    fr2.position.set(-0.6 + fly * 2.2, -fly * 0.6, -fly * 1.5);
+    // exec caspases fly away
+    setFade(execs, fire * (1 - sm(ph(13.5, 15, t))));
+    execArr.forEach((g, i) => {
+      const a = i / 4 * Math.PI * 2;
+      g.position.set(Math.cos(a) * fly * 5.2, -1.2 - fly * 2.2 + Math.sin(a) * 0.7, Math.sin(a) * fly * 4.4);
+      g.rotation.z = fly * a * 2;
+    });
+    setFade(ripk3, 0); setFade(mlkl, 0); setFade(damps, 0);
+    membraneIntact(1);
+  } else if (SCEN === 2) {
+    const fire = sm(ph(9.5, 10.5, t));
+    const dis = sm(ph(10.5, 12.5, t));
+    units.forEach((u, i) => { if (u.children[1]) { const s = 1 + 0.12 * Math.sin(t * 6 + i) * fire * (1 - dis); u.children[1].scale.setScalar(s); } });
+    ripk1.children.forEach(c => { c.material.opacity = 1 - dis; c.visible = dis < 0.98; });
+    setFade(frags, fire * (1 - sm(ph(12, 14, t))));
+    fr1.position.set(-1.15 - fire * 1.9, fire * 1.1, 0.9);
+    fr2.position.set(-0.75 + fire * 1.6, fire * 0.5, -0.9);
+    // calm disassembly: chain drifts slightly apart
+    units.forEach(u => { if (dis > 0) u.position.y += dis * 0.004; });
+    setFade(execs, 0); setFade(ripk3, 0); setFade(mlkl, 0); setFade(damps, 0);
+    membraneIntact(1);
+  } else {
+    const dock = sm(ph(10.5, 12, t));
+    const grow = sm(ph(12, 13, t));
+    const rup = sm(ph(13, 14.2, t));
+    setFade(ripk3, dock * (1 - sm(ph(16.5, 18, t))));
+    // RIPK3 docks onto RIPK1 kinase
+    k3a.position.set(lerp(-1.15, -1.5, dock), lerp(0.9, 0.55, dock), lerp(0.9, 0.75, dock));
+    k3b.position.set(lerp(-1.5, -1.95, dock), lerp(0.4, 0.1, dock), lerp(1.25, 1.05, dock));
+    k3Lab.position.set(lerp(-1.9, -2.3, dock), lerp(1.5, 1.25, dock), lerp(1.1, 1.0, dock));
+    // phosphorylation pulse on kinase
+    rKin.material.emissive = new THREE.Color(P.ripk3);
+    rKin.material.emissiveIntensity = 0.55 * Math.max(0, Math.sin(t * 7)) * dock;
+    setFade(mlkl, grow * (1 - sm(ph(16.5, 18, t))));
+    mlklArr.forEach((m, i) => {
+      const k = Math.max(0, grow - i * 0.18);
+      m.position.set(lerp(-1.15, -1.8 + i * 0.75, sm(k)), lerp(0.9, 2.6, sm(k)), lerp(0.9, 0.4, sm(k)));
+      m.scale.setScalar(0.3 + 0.7 * sm(k));
+    });
+    mLab.position.set(-0.4, 2.6, 0.4);
+    // membrane rupture
+    membraneIntact(1 - rup);
+    setFade(damps, rup * (1 - sm(ph(16, 17.5, t))));
+    dampArr.forEach((d, i) => {
+      const k = sm(ph(13 + i * 0.12, 15 + i * 0.12, t));
+      d.position.set(-1.5 + i * 0.6 + (i - 2.5) * k * 1.1, lerp(3.0, 2.2 - k * 2.6, k), k * (i % 2 ? 1 : -1) * 0.8);
+    });
+    setFade(execs, 0); setFade(frags, 0);
+    ripk1.children.forEach(c => { c.material.opacity = 1; c.visible = true; });
+  }
+
+  /* outcome banner */
+  const ok = sm(ph(10.5, 11.5, t)) * (1 - sm(ph(16, 17.5, t)));
+  setFade(outcome, ok);
+  if (ok > 0.05) {
+    const [txt, col] = OUTCOME[SCEN];
+    if (outcome.userData.txt !== txt) {
+      outcome.userData.txt = txt;
+      outcome.material.map.dispose();
+      const c = document.createElement('canvas'); c.width = 512; c.height = 128;
+      const x = c.getContext('2d');
+      x.fillStyle = 'rgba(12,12,26,0.82)'; x.fillRect(8, 24, 496, 80);
+      x.strokeStyle = col; x.lineWidth = 3; x.strokeRect(8, 24, 496, 80);
+      x.font = '700 34px "PingFang TC", "Noto Sans TC", ui-monospace, Menlo, monospace'; x.fillStyle = col; x.textAlign = 'center'; x.textBaseline = 'middle';
+      x.fillText(txt, 256, 66);
+      outcome.material.map = new THREE.CanvasTexture(c);
+    }
+  }
+
+  /* reset window: restore steady state */
+  if (t < 1.2 || t > 16.8) {
+    ripk1.children.forEach(c => { c.material.opacity = 1; c.visible = true; });
+    rKin.material.emissiveIntensity = 0;
+    setFade(frags, 0); setFade(execs, 0); setFade(ripk3, 0); setFade(mlkl, 0); setFade(damps, 0);
+    membraneIntact(1);
+  }
+
+  /* phase text */
+  if (t < 3) setPhase('T+0 · 恆定狀態——IAP 監控 RIPK1');
+  else if (t < 5) setPhase('T+1 · 觸發：基因毒壓力／Smac 模擬物——IAP 降解');
+  else if (t < 9) setPhase('T+2 · 組裝：RIPK1 → FADD → DED 鏈（~2 MDa）');
+  else if (t < 14) setPhase('T+3 · 變阻器判讀：' + ['caspase-8 同二聚體——細胞凋亡', 'FLIP_L 異二聚體——存活，壞死性凋亡受阻', 'FLIP_S/R 異二聚體——壞死性凋亡'][SCEN - 1]);
+  else setPhase('T+4 · 重置');
+
+  controls.autoRotate = playing;
+  controls.update();
+  renderer.render(scene, camera);
+
+  function outcomeFade() { return sm(ph(10.5, 11.5, t)) * (1 - sm(ph(16, 17.5, t))) * 0.9; }
+  function membraneIntact(k) {
+    const ang = (1 - k) * 0.5;
+    membL.rotation.z = ang; membL.position.x = -ang * 1.2; membL.position.y = -ang * 0.8;
+    membR.rotation.z = -ang; membR.position.x = ang * 1.2; membR.position.y = -ang * 0.8;
+  }
+}
+
+/* fit canvas */
+function fit() {
+  const r = canvas.getBoundingClientRect();
+  renderer.setSize(r.width, r.height, false);
+  camera.aspect = r.width / r.height;
+  camera.updateProjectionMatrix();
+}
+addEventListener('resize', fit);
+fit();
+
+/* controls */
+function setScenario(n) {
+  SCEN = n;
+  scenBtns.forEach((b, i) => b.classList.toggle('is-on', i === n - 1));
+  buildChain();
+  setNote();
+  T = 5.5; // restart just before assembly
+}
+scenBtns.forEach((b, i) => b.addEventListener('click', () => setScenario(i + 1)));
+playBtn.addEventListener('click', () => {
+  playing = !playing;
+  playBtn.textContent = playing ? '⏸ 暫停' : '▶ 播放';
+  playBtn.classList.toggle('is-on', playing);
+});
+document.getElementById('simReset').addEventListener('click', () => {
+  camera.position.copy(CAM0);
+  controls.target.set(0, 0.6, 0);
+});
+if (!playing) { playBtn.textContent = '▶ 播放'; playBtn.classList.remove('is-on'); }
+
+requestAnimationFrame(frame);
+</script>
+
+<script src="../themes/theme-02/pages-svg.js"></script>
+</body>
+</html>
