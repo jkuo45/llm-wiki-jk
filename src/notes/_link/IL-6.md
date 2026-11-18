@@ -2,7 +2,7 @@
 title: IL-6
 description: Interleukin-6 is a pleiotropic pro-inflammatory cytokine and a hallmark component of the SASP, acting via IL-6R/gp130 and JAK/STAT3.
 created: 2026-07-07
-updated: 2026-07-08
+updated: 2026-11-17
 aliases:
   - IL-6
   - Interleukin-6
@@ -33,12 +33,21 @@ IL-6 is secreted by [[Senescent Cells]] across essentially all models of stress-
 
 Acute IL-6 supports host defense and tissue repair, but chronic IL-6 signaling underpins [[Inflammaging]] and contributes to [[Cancer]] (e.g., STAT3-driven proliferation), [[Cardiovascular Disease]], and [[Neurodegenerative Disease]].
 
+> [!info]
+> Source: [[_document_ - Topical application of urolithin A activates mitophagy and enhances mitochondrial function to promote skin longevity|Topical UA skin study]]
+> Topical urolithin A reduced IL-6 secretion in cytokine-stimulated normal human epidermal keratinocytes and dermal fibroblasts (1 μM, in vitro), and human skin biopsies after 8 weeks of 1% urolithin A showed downregulation of chemokine-response and cytokine-production gene sets. The in vivo transcriptomic result is pathway-level, not a serum IL-6 measurement.
+
+
+
 ## Clinical / Pathological Relevance
 - Elevated circulating IL-6 is a biomarker of biological age, frailty, and [[Inflammaging]].
 - IL-6 trans-signaling is pharmacologically targeted by soluble gp130 (sgp130) and anti-IL-6R antibodies (tocilizumab) in inflammatory disease.
 - Blocking IL-6 is a [[Senomorphic Therapy|senomorphic]] strategy to blunt chronic SASP without killing senescent cells.
 
 ## Documents
+
+  - [[_document_ - Topical application of urolithin A activates mitophagy and enhances mitochondrial function to promote skin longevity|Topical UA skin study]]
+    - Topical urolithin A reduced IL-6 in stressed keratinocytes and fibroblasts and downregulated cytokine/chemokine gene sets in human skin biopsies.
 
 List of documents that mention this entity
 
@@ -52,6 +61,8 @@ List of documents that mention this entity
     - Foundational review (Coppé et al., 2010) identifying IL-6 as the most prominent SASP cytokine, with direct control by persistent DNA-damage signaling (ATM/CHK2) independent of p53. Shows IL-6 drives paracrine tumor progression through JAK/STAT3 signaling in neighboring epithelial and endothelial cells.
 
 ## Connections
+
+- [[Urolithin A]] — Topical 1% urolithin A reduced IL-6 in cytokine-stimulated keratinocytes and dermal fibroblasts (in vitro) and downregulated inflammatory gene sets in human skin.
 
 - [[SASP|Senescence-Associated Secretory Phenotype]] — IL-6 is a major SASP component; the most prominent and robustly induced cytokine
 - [[Senescent Cells]] — Produced by senescent cells across all models of stress-induced and replicative senescence

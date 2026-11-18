@@ -3,7 +3,7 @@ title: Mitochondrial Biogenesis
 description: The process by which cells increase mitochondrial mass and number through growth and division of preexisting mitochondria, driven by PGC-1α, NRF1/2, and TFEB, and coupled to sirtuin/NAD+ signaling, exercise, and caloric restriction.
 protected: false
 created: 2026-07-04
-updated: 2026-08-16
+updated: 2026-11-17
 tags:
   - biological-process
   - mitochondria
@@ -52,6 +52,11 @@ Mitochondrial biogenesis works in concert with other mitochondrial dynamics proc
 
 ## Therapeutic Modulation
 
+> [!info]
+> Source: [[_document_ - Topical application of urolithin A activates mitophagy and enhances mitochondrial function to promote skin longevity|Topical UA skin study]]
+> In a full-thickness human skin model from an aged donor, 1 μM urolithin A for 25 days significantly increased TOMM20 immunostaining in the epidermis, interpreted as increased mitochondrial biogenesis accompanying mitophagy activation. Biopsy RNA-seq after 8 weeks of 1% topical urolithin A also upregulated epidermis-development and collagen-fibril-organization programs.
+
+
 Several interventions modulate mitochondrial biogenesis:
 
 - **[[Metformin]]** — activates AMPK and PGC-1α, regulating [[Mitochondrial Dynamics]] including biogenesis in [[Heart Failure]]
@@ -71,6 +76,9 @@ Strategies to activate the PGC-1α/sirtuin axis — exercise, [[Caloric Restrict
 
 ## Documents
 
+  - [[_document_ - Topical application of urolithin A activates mitophagy and enhances mitochondrial function to promote skin longevity|Topical UA skin study]]
+    - Topical/in vitro urolithin A increased epidermal TOMM20 in aged reconstructed skin and upregulated epidermal-development gene sets in human biopsies.
+
 - [[_document_ - The role of mitochondrial dynamics in disease]]
   - Describes mitochondrial biogenesis as regulated by PGC-1α and AMPK signaling.
 - [[_document_ - MRR - mitohormesis|mitohormesis]]
@@ -87,6 +95,9 @@ Strategies to activate the PGC-1α/sirtuin axis — exercise, [[Caloric Restrict
   - SIRT1 drives mitochondrial biogenesis via PGC-1α deacetylation, supporting metabolic and cardiovascular health.
 
 ## Connections
+
+- [[TOMM20]] — Standard immunohistochemical readout for the increased mitochondrial content observed in urolithin A-treated epidermis.
+- [[Urolithin A]] — Raises TOMM20 in aged reconstructed skin while increasing mitophagy markers.
 
 - [[PGC-1α]] — master regulator linking sirtuins to biogenesis
 - [[AMPK]] — upstream activator of PGC-1α; AMPK and SIRT1 cooperate to induce biogenesis

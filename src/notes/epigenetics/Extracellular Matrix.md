@@ -2,7 +2,7 @@
 title: Extracellular Matrix
 description: The Extracellular Matrix (ECM) is a three-dimensional network of proteins and glycans that provides structural and biochemical support to surrounding cells and instructs adhesion, migration, and fate.
 created: 2024-01-01
-updated: 2026-07-06
+updated: 2026-11-17
 tags:
   - biological-molecule
 aliases: []
@@ -22,6 +22,11 @@ The ECM transmits both chemical and physical cues. Ligand binding by integrins t
 
 ## Physiological Function
 
+> [!info]
+> Source: [[_document_ - Topical application of urolithin A activates mitophagy and enhances mitochondrial function to promote skin longevity|Topical UA skin study]]
+> In a full-thickness human skin model from an aged donor, 1 μM urolithin A for 25 days increased dermal collagen III, hyaluronic acid, elastin and collagen VII protein content, and reduced MMP1. Biopsy RNA-seq after 8 weeks of 1% topical urolithin A identified collagen-fibril-organization as the most significantly upregulated pathway, with collagen I and III gene expression increased.
+
+
 The ECM maintains tissue architecture, distributes mechanical load, and forms selective barriers (e.g., [[Basal Lamina]] in kidney glomeruli and vessels). It establishes stem-cell niches that enforce [[Quiescence]] and guides morphogenesis during development. In bone, dentin, and cartilage the mineralized ECM is the principal load-bearing material.
 
 ## Pathological Relevance
@@ -30,6 +35,9 @@ Excessive deposition of ECM underlies [[Fibrosis]] in liver, lung, kidney, and h
 
 ## Documents
 
+  - [[_document_ - Topical application of urolithin A activates mitophagy and enhances mitochondrial function to promote skin longevity|Topical UA skin study]]
+    - Topical urolithin A increased collagen III/VII, hyaluronic acid and elastin in aged reconstructed skin and upregulated collagen-fibril-organization transcripts in human biopsies.
+
 List of documents that mention this entity
 
   - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
@@ -37,6 +45,9 @@ List of documents that mention this entity
 
 
 ## Connections
+
+- [[Urolithin A]] — Increased dermal collagen III, hyaluronic acid, elastin and collagen VII in aged skin models and collagen gene expression in human biopsies.
+- [[Skin Longevity]] — ECM preservation is the structural output of topical urolithin A intervention.
 
 - [[Fibroblast]] - principal ECM-producing mesenchymal cell.
 - [[Collagen]] - major load-bearing fibrous protein.

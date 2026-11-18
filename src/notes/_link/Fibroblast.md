@@ -2,7 +2,7 @@
 title: Fibroblast
 description: Mesenchymal cell that synthesizes the extracellular matrix and collagen, builds tissue stroma, and drives wound healing and fibrosis; when senescent in IPF, acquires a profibrotic SASP-driving phenotype.
 created: 2024-01-01
-updated: 2026-08-16
+updated: 2026-11-17
 tags:
   - cell-type
   - mesenchyme
@@ -22,6 +22,11 @@ protected: false
 Fibroblasts arise from embryonic mesoderm and, in many organs, from resident mesenchymal progenitor pools. They are highly heterogeneous and tissue-specific; for example, [[HFF1]] (human foreskin fibroblast) is a widely used cell-culture model. Organ-specific fibroblast subsets express distinctive marker repertoires and are imprinted by local microenvironmental cues. During injury, resident fibroblasts activate into myofibroblasts — contractile, α-smooth-muscle-actin-positive cells that close wounds but, when persistently activated, drive [[Fibrosis]].
 
 ## Functions
+
+> [!info]
+> Source: [[_document_ - Topical application of urolithin A activates mitophagy and enhances mitochondrial function to promote skin longevity|Topical UA skin study]]
+> In dermal fibroblasts from a 69-year-old donor, urolithin A rescued age-associated cytoskeletal defects: vinculin focal-adhesion particle number and the ratio of diffuse to aggregated vinculin improved, actin polymer disassembly was reduced, and MMP1 expression fell. These findings link mitochondrial quality control to maintenance of fibroblast–matrix interactions in aged skin.
+
 
 The principal role of fibroblasts is synthesis and turnover of ECM components (collagens, fibronectin, proteoglycans) and the [[Basal Lamina]] support structures. They secrete matrix metalloproteinases and their inhibitors to remodel the matrix, and release cytokines and growth factors (TGF-β, PDGF, FGF) that instruct neighboring cells. Through [[Integrin]]-mediated contacts and [[FAK Signaling]], fibroblasts sense matrix stiffness and adjust deposition accordingly.
 
@@ -48,6 +53,9 @@ Dysregulated fibroblast activation underlies organ fibrosis (liver, lung, kidney
 
 ## Documents
 
+  - [[_document_ - Topical application of urolithin A activates mitophagy and enhances mitochondrial function to promote skin longevity|Topical UA skin study]]
+    - Urolithin A rescued vinculin focal adhesions and actin organization in aged human dermal fibroblasts and lowered MMP1.
+
 List of documents that mention this entity
 
   - [[_document_ - cellular_senescence_ipf_diseases-14-00201|Cellular Senescence in IPF]]
@@ -60,6 +68,9 @@ List of documents that mention this entity
     - First described in studies of human Fibroblast that ceased proliferation following an extended cultivation (Hayflick & Moorhead; Hayflick).
 
 ## Connections
+
+- [[Urolithin A]] — Rescued age-associated vinculin focal-adhesion and actin-disassembly defects in old-donor dermal fibroblasts.
+- [[Focal Adhesion]] — Vinculin-positive adhesions were quantified as a readout of fibroblast–matrix interaction restored by urolithin A.
 
 - [[Idiopathic Pulmonary Fibrosis]] — Senescent fibroblasts are a hallmark of IPF and drive ECM deposition.
 - [[SASP]] — SASP from senescent epithelium activates fibroblasts in a paracrine loop.

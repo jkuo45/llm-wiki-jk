@@ -2,7 +2,7 @@
 title: CXCL1
 description: C-X-C motif chemokine ligand 1, an ELR+ SASP chemokine that binds CXCR2 and recruits neutrophils, amplifying senescence paracrine signaling.
 created: 2026-07-07
-updated: 2026-07-08
+updated: 2026-11-17
 tags:
   - chemokine
   - sasp
@@ -38,11 +38,22 @@ CXCL1 (C-X-C motif chemokine ligand 1), also known as GROα (growth-regulated on
 - CXCR2 antagonists (e.g., navarixin) are under investigation to blunt SASP-driven inflammation and senescence propagation.
 - CXCL1 is a candidate circulating biomarker of senescent-cell burden in inflammatory and aging-related disease.
 
+> [!info]
+> Source: [[_document_ - Topical application of urolithin A activates mitophagy and enhances mitochondrial function to promote skin longevity|Topical UA skin study]]
+> In a hydrogen-peroxide-induced senescence model of human dermal fibroblasts, urolithin A reduced CXCL1 expression while leaving p21 unchanged — a senomorphic pattern (SASP suppression without senolysis). Human skin biopsy RNA-seq after 8 weeks of 1% topical urolithin A likewise downregulated SenMayo and chemokine gene sets.
+
+
+
 ## Documents
+
+  - [[_document_ - Topical application of urolithin A activates mitophagy and enhances mitochondrial function to promote skin longevity|Topical UA skin study]]
+    - Urolithin A reduced CXCL1 in H2O2-senescent human dermal fibroblasts without changing p21; topical 1% downregulated SenMayo/chemokine sets in skin biopsies.
 
 - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review includes CXCL1 among the core ELR+ CXC SASP chemokines, secreted by senescent activated stellate cells in liver and pancreas to recruit neutrophils via CXCR2. By engaging CXCR2 on bystander cells it reinforces paracrine/bystander senescence, acting as a feed-forward amplifier of the senescent phenotype in fibrotic tissue.
 
 ## Connections
+
+- [[Urolithin A]] — Reduced CXCL1 in H2O2-induced senescent human dermal fibroblasts without changing p21, consistent with senomorphic SASP suppression.
 
 - [[CXCR2]]: CXCL1 binds to CXCR2 receptor
 - [[CXCL2]]: CXCL2 is a related SASP chemokine

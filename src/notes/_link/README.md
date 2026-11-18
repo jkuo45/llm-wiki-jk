@@ -3,14 +3,14 @@ title: Shared Entities (_link)
 aliases: []
 description: index of cross-topic shared entities and documents in the _link directory
 created: 2026-08-16
-updated: 2026-11-11
+updated: 2026-11-17
 ---
 # Shared Entities (`_link`)
 
-Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **2112 entities** in a single flat index and **35 documents**.
+Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **2119 entities** in a single flat index and **36 documents**.
 
 > [!note]
-> `_link` index. Total entities: 2112 | Documents: 35
+> `_link` index. Total entities: 2119 | Documents: 36
 >
 ## Documents
 
@@ -51,6 +51,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[_document_ - Thymic Rejuvenation and Aging\|Thymic Rejuvenation and Aging]] | The thymus is a vital organ for homeostatic maintenance of the peripheral immune system, where T cells develop and are educated before export to the periphery. Thymic involution with age reduces immune efficacy and increases susceptibility to infection, autoimmunity, and cancer. This review discusses thymic rejuvenation strategies including sex steroid ablation, cytokine therapy (IL-7, KGF, IL-22), and hormone therapy (growth hormone, ghrelin). |
 | [[_document_ - Proximity-guided graph learning reveals tumour-associated proximity antigens\|Proximity-guided graph learning reveals tumour-associated proximity antigens]] | The spatial organization of membrane proteins is an underexplored dimension of cell surface biology1,2. Spatial proximity shapes cellular function and therapeutic targetability2,3, yet efforts to identify tumour-associated antigens (TAAs) have largely focused on expression alone4. Here, we developed an industrialized surface protein proximity-mapping workflow to interrogate TAAs within their membrane microenvironments. Using this workflow, we generated 248 proximity maps across 12 receptor tyrosine kinases and 28 tumour cell systems. The resulting atlas enabled the development of MetaMap, a correlation-based analytical framework that defines spatial protein communities and infers conserved proximity relationships among non-targeted proteins, and establishes the concept of tumour-associated proximity antigens (TAPAs), a class of co-targets defined by disease-specific spatial proximity to TAAs rather than expression alone. Integrating these proximity-derived relationships within a multimodal prioritization framework, we identified and validated EGFR–CDCP1 as a TAA–TAPA pair that enhances tumour cell killing across therapeutic modalities. Together, this work advances disease-associated membrane proximity as a guiding principle for the design of precision multispecific therapeutics. A proximity-mapping atlas defines tumour-associated proximity antigens, revealing disease-associated membrane spatial communities, and identifies EGFR–CDCP1 as a co-target pair that enhances tumour killing by multispecific therapeutics. |
 | [[_document_ - The bleeding edge of NAD in human ageing\|The bleeding edge of NAD in human ageing]] | Preview-only record of a Nature Metabolism Comment on whole-blood NAD levels as a biomarker of ageing; full text is behind a subscription paywall. |
+| [[_document_ - Topical application of urolithin A activates mitophagy and enhances mitochondrial function to promote skin longevity\|Topical application of urolithin A activates mitophagy and enhances mitochondrial function to promote skin longevity]] | Urolithin A (UA, Mitopure), a postbiotic that promotes mitophagy and mitochondrial function following oral administration, was evaluated for its effects on skin health in human skin models and when applied topically to healthy subjects in randomized clinical studies. UA tested in 2D and 3D reconstructed human skin and *ex vivo* human skin explants showed enhanced mitochondrial respiration, activated mitophagy markers, reduced inflammatory mediators and senescence-associated markers, and increased proteins involved in extracellular matrix structure and epidermal differentiation. Safety was confirmed in a human repeat-insult patch test. In randomized, placebo-controlled clinical studies, UA reduced periorbital wrinkle depth after 8 weeks and attenuated UVB-induced erythema. Skin transcriptomics supported increased extracellular matrix and epidermal development programs together with decreased inflammatory and senescence-associated signaling. These findings indicate that topical UA engages cellular pathways associated with skin resilience to promote skin health and longevity. |
 
 ## Entity Notes
 
@@ -354,9 +355,11 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[CD40L\|CD40L]] | CD40L (CD154, TNFSF5) is a trimeric TNF-superfamily type II transmembrane cytokine expressed on activated CD4+ T cells that engages CD40 on B cells and antigen-presenting cells to drive germinal centre formation, class-switch recombination, and dendritic cell maturation. |
 | [[CD44\|CD44]] | CD44 variant isoforms (CD44v) partner with MUC1-C and xCT to sustain GSH and ferroptosis resistance in triple-negative breast cancer. |
 | [[Cytotoxic CD4+ T Cells]] | Effector CD4+ T cells (CD4 CTLs) expressing EOMES, CD38, CCL5, perforin and granzymes that expand during aging, accumulate in the bone marrow, and drive CCL5–CCR5-dependent myelopoiesis while retaining senescent-cell killing capacity. |
+| [[Filaggrin]] | Epidermal differentiation protein that bundles keratin filaments and supplies natural moisturizing factor; increased in aged skin by topical urolithin A. |
 | [[Formyl Peptide Receptor]] | Formyl peptide receptors (FPRs) are G-protein-coupled receptors that sense N-formyl peptides from bacteria and mitochondria, recruiting and activating innate immune cells. |
 | [[Dapansutrile]] | Dapansutrile (OLT1177) is an oral, selective NLRP3 inflammasome inhibitor that blocks NLRP3 ATPase activity and is being developed for inflammatory diseases. |
 | [[HIF2α]] | Hypoxia-inducible factor 2 alpha — activated by SIRT1 deacetylation under hypoxia, opposite to SIRT1's inhibition of HIF-1alpha; falls as NAD+ and SIRT1 decline, proposing a HIF2alpha-to-HIF1alpha switch. |
+| [[Hyaluronic Acid]] | High-molecular-weight glycosaminoglycan of the extracellular matrix that binds water, contributes to skin hydration and firmness, and declines with skin aging. |
 | [[Immunosenescence]] | Age-related decline and reprogramming of immune function, including thymic involution, naive T cell loss, accumulation of exhausted/cytotoxic effector T cells, myeloid skewing of hematopoiesis, and inflammaging. |
 | [[ITIM\|ITIM]] | Immunoreceptor tyrosine-based inhibitory motif — cytoplasmic sequence that, once phosphorylated, recruits SHP-1/SHP-2 phosphatases to deliver inhibitory signals; the shared execution mechanism of don't-eat-me receptors including SIRPα, Siglec-10, CD31, and PD-1. |
 | [[CD47\|CD47]] | CD47 is a ubiquitously expressed immunoglobulin-superfamily receptor that pairs with SIRP-alpha on myeloid cells to deliver a "don't eat me" signal suppressing phagocytosis; blockade of CD47 is a cancer and fibrosis immunotherapy strategy. |
@@ -669,6 +672,8 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Enterocloster\|Enterocloster]] | Enterocloster is a gut bacterial genus contributing to ellagitannin conversion toward urolithin A. |
 | [[Enzalutamide\|enzalutamide]] | Enzalutamide is a second-generation, nonsteroidal androgen-receptor (AR) signaling inhibitor used in castration-resistant prostate cancer (CRPC) for which drug resistance is a major clinical problem; preclinical studies show ivermectin can overcome enzalutamide resistance and synergize with docetaxel. |
 | [[Efferocytosis\|Efferocytosis]] | PS-dependent phagocytic clearance of apoptotic cells; in erythrocytes it removes eryptotic cells within minutes and reprograms macrophages toward an antiinflammatory, heme-oxygenase-1-high phenotype. |
+| [[Ki67]] | Nuclear proliferation marker present in cycling cells G1 through M and absent in quiescent cells, used to quantify epidermal proliferation in skin-aging studies. |
+| [[Keratinocyte]] | Dominant epidermal cell type forming the skin barrier through proliferation and terminal differentiation; responds to topical urolithin A with increased mitochondrial respiration, mitophagy markers, and differentiation markers. |
 | [[LCAD]] | Long-chain acyl-CoA dehydrogenase — mitochondrial beta-oxidation enzyme deacetylated and activated by SIRT3 during fasting; SIRT3 knockout accumulates fatty-acid oxidation intermediates with low ATP. |
 | [[Maraviroc]] | FDA-approved CCR5 antagonist (HIV-1 entry inhibitor) that in aged mice normalizes CCL5-CCR5-driven myelopoiesis, lowers the neutrophil-to-lymphocyte ratio and inflammaging cytokines, and improves metabolic and functional healthspan outcomes. |
 | [[miR-134]] | Brain-enriched microRNA repressed by SIRT1 to permit CREB and BDNF expression; the SIRT1–miR-134–CREB–BDNF axis promotes memory formation and synaptic plasticity. |
@@ -1856,6 +1861,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Sivelestat]] | Selective neutrophil elastase inhibitor (ONO-5046) used as a tool compound; not cited in the source review. |
 | [[sjTREC\|sjTREC]] | Single joint T cell receptor excision circle; a molecular marker for recent thymic emigrants and active thymopoiesis, used to quantify thymic output. |
 | [[Skeletal Muscle\|Skeletal Muscle]] | Overview: Skeletal Muscle is a specialized cellular or anatomical structure with defined functions in tissue organization and physiology. |
+| [[Skin Longevity]] | Maintenance of skin structure and function across aging by countering mitochondrial dysfunction, declined macroautophagy, inflammation, cellular senescence, and extracellular-matrix degradation. |
 | [[Skp2]] | F-box component of the SCF ubiquitin ligase that binds phosphorylated CDK inhibitors p27 and p21, represses the FoxO transcription factors and p53, and thereby promotes cell-cycle progression and senescence bypass. |
 | [[SLC1A5\|SLC1A5]] | SLC1A5 (ASCT2) is a glutamine transporter targeted by miR-137 in melanoma; it supports antioxidant defenses that modulate ferroptosis sensitivity. |
 | [[SLC25A1\|SLC25A1]] | Mitochondrial citrate carrier (CIC) that exports citrate from the mitochondrial matrix to the cytosol, where it is converted to acetyl-CoA by ACLY. Upregulated in cellular senescence; its inhibition suppresses the SASP and improves healthspan in aged mice. |
@@ -1967,6 +1973,8 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[TCA cycle\|TCA cycle]] | Tricarboxylic acid (Krebs) cycle, the central mitochondrial pathway oxidizing acetyl-CoA to CO2 while generating NADH, FADH2, and GTP. |
 | [[TDO\|TDO]] | Tryptophan 2,3-dioxygenase (TDO) is a hepatic heme-containing enzyme that catalyzes the same first step in the kynurenine pathway as IDO1 — converting tryptophan to N-formylkynurenine — and is primarily regulated by tryptophan concentration and glucocorticoids. |
 | [[Threonine Dehydrogenase]] | Threonine dehydrogenase (L-threonine 3-dehydrogenase) catalyses the NAD+-dependent oxidation of L-threonine to aminoacetone, ammonia and carbon dioxide, feeding aminoacetone to the methylglyoxal pathway in rodent liver. |
+| [[Topical Application]] | Delivery of an active compound to skin by direct external application, used for local bioavailability without systemic exposure in skin-longevity and dermatology studies. |
+| [[TOMM20]] | Translocase of the outer mitochondrial membrane complex used as a marker of mitochondrial mass and biogenesis; increased in epidermis by topical urolithin A. |
 | [[Triglycerides]] | Triacylglycerols are the dominant dietary and storage lipid, carried by chylomicrons and VLDL, mobilised by lipolysis, and their plasma elevation is a driver of pancreatitis and metabolic disease. |
 | [[Tissue Factor]] | Factor III, the transmembrane initiator of the extrinsic coagulation cascade that binds factor VIIa to trigger thrombin generation and, on monocytes and tumour cells, links coagulation to inflammation and cancer. |
 | [[TLR7]] | Endosomal Toll-like receptor 7 that senses single-stranded RNA in endolysosomal compartments and drives type I interferon and NF-kappaB inflammatory signalling in plasmacytoid dendritic cells and B cells. |

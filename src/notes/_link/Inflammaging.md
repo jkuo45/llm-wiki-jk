@@ -4,7 +4,7 @@ description: Inflammaging is a state of chronic, low-grade, systemic inflammatio
   that develops with advanced age and is a major risk factor for many age-related
   diseases.
 created: 2026-05-29
-updated: 2026-11-11
+updated: 2026-11-17
 tags:
   - biological-process
 aliases: []
@@ -23,6 +23,11 @@ Inflammaging contributes to the pathogenesis of various conditions, including:
 - [[Alzheimer's Disease]]
 - [[Osteoarthritis]]
 ## Mitigation
+
+> [!info]
+> Source: [[_document_ - Topical application of urolithin A activates mitophagy and enhances mitochondrial function to promote skin longevity|Topical UA skin study]]
+> Topical urolithin A reduced skin inflammation markers in human studies: 1% cream suppressed chemokine-response and cytokine-production gene sets and the SenMayo senescence gene set in forearm biopsy RNA-seq after 8 weeks, and reduced IL-6 in stressed keratinocytes and fibroblasts in vitro. The human evidence is transcriptomic and local, not a systemic inflammaging outcome.
+
 Strategies to reduce inflammaging include [[Autophagy Inducer|autophagy induction]], anti-inflammatory diets, and interventions targeting the [[Immune System]]'s rejuvenation.
 
 ## Mitochondrial Drivers of Inflammaging
@@ -78,6 +83,9 @@ Strategies to reduce inflammaging include [[Autophagy Inducer|autophagy inductio
 > Mitochondrial dysfunction is both a driver and an amplifier of inflammaging: it promotes senescence, fuels sterile inflammation through [[Damage-Associated Molecular Patterns|mitochondrial DAMP]] release, and undermines tissue repair. Persistent cytosolic [[Mitochondrial DNA|mtDNA]]–[[cGAS-STING Pathway|cGAS–STING]] signalling can sustain a SASP-like programme rather than a transient antiviral response.
 
 ## Documents
+
+  - [[_document_ - Topical application of urolithin A activates mitophagy and enhances mitochondrial function to promote skin longevity|Topical UA skin study]]
+    - Topical urolithin A downregulated chemokine/inflammation and SenMayo gene sets in human skin biopsies and reduced IL-6 in skin cells.
 - [[_document_ - Cytotoxic CD4 T cells induce age-associated myelopoiesis through CCL5-CCR5 signaling|Cytotoxic CD4 T cells induce age-associated myelopoiesis (Nat Aging 2026)]]: Nat Aging 2026 links inflammaging to hematopoietic aging: cytotoxic CD4+ T cells with mitochondrial stress produce CCL5 via STING, driving myelopoiesis and neutrophil-mediated paracrine senescence; maraviroc lowers multiple inflammaging cytokines in aged mice.
 
 List of documents that mention this entity
@@ -111,6 +119,9 @@ List of documents that mention this entity
 - [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026 — Mitochondrial dysfunction and inflammaging]]: Synthesizes mitochondrial dysfunction as an upstream driver of inflammaging via mtDAMP release, cGAS–STING/NLRP3 sensing, MiDAS, and failure of mitochondrial quality control.
 
 ## Connections
+
+- [[Urolithin A]] — Topical 1% downregulated chemokine-response and cytokine-production gene sets and SenMayo in human skin biopsies.
+- [[Skin Longevity]] — Local inflammation suppression is one of the skin-aging hallmarks addressed by topical urolithin A.
 - [[Aging]] — progressive decline in physiological function; primary risk factor
 - [[Cytokines]] — interacts with Inflammaging
 - [[IL-6]] — pleiotropic pro-inflammatory cytokine; core SASP component

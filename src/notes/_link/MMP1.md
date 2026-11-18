@@ -2,7 +2,7 @@
 title: MMP1
 description: 'Catalytic function: MMP1 is an enzyme that catalyzes biochemical reactions essential for cellular metabolism and homeostasis.'
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-11-17
 tags:
   - enzyme
 aliases: [Matrix Metalloproteinase 1, Collagenase 1]
@@ -19,11 +19,20 @@ aliases: [Matrix Metalloproteinase 1, Collagenase 1]
 
 **Clinical relevance:** Dysregulation of MMP1 activity is implicated in metabolic disorders, oxidative stress-related pathologies, and cancer. Pharmacological modulation of this enzyme represents a therapeutic strategy for diseases involving its pathway.
 
+> [!info]
+> Source: [[_document_ - Topical application of urolithin A activates mitophagy and enhances mitochondrial function to promote skin longevity|Topical UA skin study]]
+> Urolithin A reduced MMP1 expression in aged-donor human dermal fibroblasts and full-thickness skin models (1 μM), and human biopsy RNA-seq showed downregulation of matrix-degrading gene sets after 8 weeks of 1% topical urolithin A. Reduced MMP1 is one mechanism proposed for preservation of dermal collagen in skin aging.
+
+
+
 #
 
 # 
 
 ## Documents
+
+  - [[_document_ - Topical application of urolithin A activates mitophagy and enhances mitochondrial function to promote skin longevity|Topical UA skin study]]
+    - Urolithin A reduced MMP1 in aged human dermal fibroblasts and skin models; topical 1% downregulated matrix-degradation programs in human skin biopsies.
 
 List of documents that mention this entity
 
@@ -35,6 +44,9 @@ List of documents that mention this entity
 
 
 ## Connections
+
+- [[Urolithin A]] — Reduced MMP1 expression in aged human dermal fibroblasts and skin models, supporting collagen preservation.
+- [[Extracellular Matrix]] — MMP1-mediated collagen degradation is counteracted by urolithin A in skin models.
 - [[MMP1]] — related entity
 
 ## Linking Summary

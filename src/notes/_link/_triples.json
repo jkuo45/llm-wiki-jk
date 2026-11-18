@@ -94036,5 +94036,271 @@
     "source_document": "von Willebrand Factor.md",
     "created": "2026-11-10T16:49:16Z",
     "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "898f49e57f90",
+    "subject": "Urolithin A",
+    "predicate": "increases",
+    "object": "Mitochondrial Biogenesis",
+    "context": {
+      "en-US": "In a full-thickness human skin model reconstructed from an aged donor, 1 μM urolithin A for 25 days significantly increased TOMM20 immunostaining in the epidermal layer, interpreted as increased mitochondrial biogenesis accompanying mitophagy activation. Human biopsy RNA-seq after 8 weeks of 1% topical urolithin A also upregulated epidermis-development gene sets.",
+      "zh-TW": "在以老年捐贈者細胞重建的人類全層皮膚模型中，1 μM 尿石素 A 處理 25 天顯著增加表皮層 TOMM20 免疫染色，被解讀為伴随粒線體自噬活化的粒線體生成增加。人體切片 RNA-seq 在 1% 外用尿石素 A 8 週後亦上調表皮發育基因集。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Topical application of urolithin A activates mitophagy and enhances mitochondrial function to promote skin longevity.md",
+    "created": "2026-11-17T17:39:03Z",
+    "updated": "2026-11-17T17:39:03Z"
+  },
+  {
+    "id": "5c367e92f2c5",
+    "subject": "Urolithin A",
+    "predicate": "improves",
+    "object": "Mitochondrial Respiration",
+    "context": {
+      "en-US": "Low-dose urolithin A (0.5–2.5 μM, most robust at 1 μM) increased basal and maximal Seahorse oxygen-consumption rate in normal human epidermal keratinocytes. Urolithin A also rescued the impaired basal and maximal respiration of dermal fibroblasts from a 69-year-old donor toward young-donor levels. Human in vivo respiratory effects were not measured.",
+      "zh-TW": "低劑量尿石素 A（0.5–2.5 μM，1 μM 效果最明顯）增加正常人類表皮角質形成細胞的基礎與最大 Seahorse 耗氧率。尿石素 A 亦將 69 歲捐贈者真皮纖維母細胞受損的基礎與最大呼吸救援至接近年輕捐贈者水準。未測量人體活體呼吸效應。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Topical application of urolithin A activates mitophagy and enhances mitochondrial function to promote skin longevity.md",
+    "created": "2026-11-17T17:39:03Z",
+    "updated": "2026-11-17T17:39:03Z"
+  },
+  {
+    "id": "63ba3713c5c4",
+    "subject": "Urolithin A",
+    "predicate": "reduces",
+    "object": "IL-6",
+    "context": {
+      "en-US": "Urolithin A reduced IL-6 secretion in cytokine-stimulated normal human epidermal keratinocytes and dermal fibroblasts at 1 μM in vitro. In the randomized aging trial, biopsy RNA-seq after 8 weeks of 1% topical urolithin A showed downregulation of chemokine-response and cytokine-production gene sets; serum IL-6 was not reported as an endpoint.",
+      "zh-TW": "尿石素 A 在 1 μM 體外條件下降低細胞因子刺激之人類表皮角質形成細胞與真皮纖維母細胞的 IL-6 分泌。在隨機老化試驗中，1% 外用尿石素 A 8 週後切片 RNA-seq 顯示趨化因子反應與細胞因子生成基因集下調；血清 IL-6 未被列為終點。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Topical application of urolithin A activates mitophagy and enhances mitochondrial function to promote skin longevity.md",
+    "created": "2026-11-17T17:39:03Z",
+    "updated": "2026-11-17T17:39:03Z"
+  },
+  {
+    "id": "c56fbd80e1bd",
+    "subject": "Urolithin A",
+    "predicate": "reduces",
+    "object": "CXCL1",
+    "context": {
+      "en-US": "In a hydrogen-peroxide-induced senescence model of human dermal fibroblasts, urolithin A reduced expression of the SASP chemokine CXCL1 while leaving p21 unchanged, supporting senomorphic rather than senolytic activity in skin cells.",
+      "zh-TW": "在過氧化氫誘導之人類真皮纖維母細胞衰老模型中，尿石素 A 降低 SASP 趨化因子 CXCL1 的表現，但 p21 不變，支持其在皮膚細胞中為 senomorphic（抑制分泌表型）而非 senolytic（清除衰老細胞）活性。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Topical application of urolithin A activates mitophagy and enhances mitochondrial function to promote skin longevity.md",
+    "created": "2026-11-17T17:39:03Z",
+    "updated": "2026-11-17T17:39:03Z"
+  },
+  {
+    "id": "0d58641ad10e",
+    "subject": "Urolithin A",
+    "predicate": "reduces",
+    "object": "MMP1",
+    "context": {
+      "en-US": "Urolithin A reduced MMP1 expression in aged-donor human dermal fibroblasts and in aged full-thickness skin models, and biopsy RNA-seq after 8 weeks of 1% topical urolithin A downregulated matrix-degradation programs, providing a mechanism for preservation of dermal collagen.",
+      "zh-TW": "尿石素 A 降低老年捐贈者人類真皮纖維母細胞及老年全層皮膚模型中的 MMP1 表現；1% 外用尿石素 A 8 週後切片 RNA-seq 下調基質降解程式，為真皮膠原保存提供機制。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Topical application of urolithin A activates mitophagy and enhances mitochondrial function to promote skin longevity.md",
+    "created": "2026-11-17T17:39:03Z",
+    "updated": "2026-11-17T17:39:03Z"
+  },
+  {
+    "id": "e1673121c6b5",
+    "subject": "Urolithin A",
+    "predicate": "reduces",
+    "object": "p16",
+    "context": {
+      "en-US": "In an aged-donor full-thickness human skin model, 1 μM urolithin A for 25 days significantly reduced p16INK4a immunostaining (p < 0.0001) while increasing Ki67 and filaggrin, consistent with reduced epidermal senescence burden rather than senolytic clearance.",
+      "zh-TW": "在老年捐贈者全層人類皮膚模型中，1 μM 尿石素 A 處理 25 天顯著降低 p16INK4a 免疫染色（p < 0.0001），同時增加 Ki67 與絲聚蛋白，符合表皮衰老負擔下降而非 senolytic 清除。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Topical application of urolithin A activates mitophagy and enhances mitochondrial function to promote skin longevity.md",
+    "created": "2026-11-17T17:39:03Z",
+    "updated": "2026-11-17T17:39:03Z"
+  },
+  {
+    "id": "dc5e856f7854",
+    "subject": "Urolithin A",
+    "predicate": "acts_as",
+    "object": "Senomorphic",
+    "context": {
+      "en-US": "Topical urolithin A behaved as a senomorphic in human skin: it lowered CXCL1 without changing p21 in senescent dermal fibroblasts, lowered p16 in aged reconstructed epidermis, and suppressed SenMayo and chemokine gene sets in human forearm biopsies after 8 weeks of 1% treatment.",
+      "zh-TW": "外用尿石素 A 在人體皮膚中表現為 senomorphic：在衰老真皮纖維母細胞中降低 CXCL1 而不改變 p21，在老年重組表皮中降低 p16，並在 1% 處理 8 週後抑制人體前臂切片的 SenMayo 與趨化因子基因集。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Topical application of urolithin A activates mitophagy and enhances mitochondrial function to promote skin longevity.md",
+    "created": "2026-11-17T17:39:03Z",
+    "updated": "2026-11-17T17:39:03Z"
+  },
+  {
+    "id": "91ce1ca4e8bb",
+    "subject": "Urolithin A",
+    "predicate": "increases",
+    "object": "Collagen",
+    "context": {
+      "en-US": "In aged full-thickness skin models, 1 μM urolithin A increased dermal collagen III and collagen VII protein; unbiased biopsy RNA-seq after 8 weeks of 1% topical urolithin A identified collagen-fibril-organization as the most significantly upregulated pathway, including type I and III collagen genes.",
+      "zh-TW": "在老年全層皮膚模型中，1 μM 尿石素 A 增加真皮膠原蛋白 III 與 VII；1% 外用尿石素 A 8 週後的非偏倚切片 RNA-seq 將膠原纖維組織列為最顯著上調的通路，包括第一型與第三型膠原基因。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Topical application of urolithin A activates mitophagy and enhances mitochondrial function to promote skin longevity.md",
+    "created": "2026-11-17T17:39:03Z",
+    "updated": "2026-11-17T17:39:03Z"
+  },
+  {
+    "id": "dd56deb3466f",
+    "subject": "Urolithin A",
+    "predicate": "increases",
+    "object": "Hyaluronic Acid",
+    "context": {
+      "en-US": "Urolithin A at 1 μM increased hyaluronic acid staining in the dermis of an aged-donor full-thickness skin model after 25 days, alongside collagen III, elastin and collagen VII, indicating improved extracellular-matrix quality relevant to skin hydration and firmness.",
+      "zh-TW": "1 μM 尿石素 A 在老年捐贈者全層皮膚模型處理 25 天後增加真皮透明質酸染色，與膠原 III、彈性蛋白及膠原 VII 一同上升，顯示與皮膚保濕及緊緻相關的細胞外基質品質改善。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Topical application of urolithin A activates mitophagy and enhances mitochondrial function to promote skin longevity.md",
+    "created": "2026-11-17T17:39:03Z",
+    "updated": "2026-11-17T17:39:03Z"
+  },
+  {
+    "id": "b028b340e442",
+    "subject": "Urolithin A",
+    "predicate": "increases",
+    "object": "Elastin",
+    "context": {
+      "en-US": "Urolithin A at 1 μM increased dermal elastin protein content in an aged-donor full-thickness human skin model after 25 days, together with collagen III, hyaluronic acid and collagen VII.",
+      "zh-TW": "1 μM 尿石素 A 在老年捐贈者全層人類皮膚模型處理 25 天後增加真皮彈性蛋白含量，並同時增加膠原 III、透明質酸與膠原 VII。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Topical application of urolithin A activates mitophagy and enhances mitochondrial function to promote skin longevity.md",
+    "created": "2026-11-17T17:39:03Z",
+    "updated": "2026-11-17T17:39:03Z"
+  },
+  {
+    "id": "c3e6ed72ca24",
+    "subject": "Urolithin A",
+    "predicate": "protects_against",
+    "object": "UV-induced photoaging",
+    "context": {
+      "en-US": "In a randomized photodamage trial (n = 21 completers), 1% topical urolithin A reduced UVB 1.6-MED erythema by 13% versus untreated skin (p = 0.02); 0.5% was null. In reconstructed epidermis, 1% reduced UVB-induced PGE2 (p = 0.0257); in ex vivo skin it attenuated PM10+UVA-induced histone carbonylation and preserved PINK1.",
+      "zh-TW": "在隨機光損傷試驗（n = 21 完成者）中，1% 外用尿石素 A 使 UVB 1.6 MED 紅斑較未處理區降低 13%（p = 0.02），0.5% 無效。在重組表皮中 1% 降低 UVB 誘導的 PGE2（p = 0.0257）；在離體皮膚中減輕 PM10+UVA 誘導的組蛋白碳化並保留 PINK1。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Topical application of urolithin A activates mitophagy and enhances mitochondrial function to promote skin longevity.md",
+    "created": "2026-11-17T17:39:03Z",
+    "updated": "2026-11-17T17:39:03Z"
+  },
+  {
+    "id": "c550baf69723",
+    "subject": "Urolithin A",
+    "predicate": "supports",
+    "object": "Skin Longevity",
+    "context": {
+      "en-US": "Topical urolithin A acted on multiple skin-aging hallmarks in randomized trials and human skin models: it increased mitochondrial content and mitophagy markers, suppressed inflammation and senescence signatures, and preserved extracellular-matrix proteins, leading the authors to propose skin-longevity benefit. Long-term durability and skin-tissue pharmacokinetics remain untested.",
+      "zh-TW": "外用尿石素 A 在隨機試驗與人體皮膚模型中作用於多重皮膚老化標誌：增加粒線體含量與粒線體自噬標記、抑制發炎與衰老訊息、保存細胞外基質蛋白，作者據此提出皮膚長壽效益。長期持久性與皮膚組織藥物動力學仍未經檢測。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Topical application of urolithin A activates mitophagy and enhances mitochondrial function to promote skin longevity.md",
+    "created": "2026-11-17T17:39:03Z",
+    "updated": "2026-11-17T17:39:03Z"
+  },
+  {
+    "id": "85c78fa6ea59",
+    "subject": "Topical Application",
+    "predicate": "delivers",
+    "object": "Urolithin A",
+    "context": {
+      "en-US": "Direct skin delivery of 1% urolithin A in a base cream produced local clinical and transcriptomic effects without reported irritation or sensitization in HRIPT (109 completers); 0.5% was null for wrinkle depth and erythema. Skin-tissue LC-MS/MS concentrations were not quantified.",
+      "zh-TW": "以base乳膏直接皮膚遞送 1% 尿石素 A 產生局部臨床與轉錄組效應，HRIPT（109 名完成者）未報告刺激或致敏；0.5% 對皺紋深度與紅斑無效。未定量皮膚組織 LC-MS/MS 濃度。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Topical application of urolithin A activates mitophagy and enhances mitochondrial function to promote skin longevity.md",
+    "created": "2026-11-17T17:39:03Z",
+    "updated": "2026-11-17T17:39:03Z"
+  },
+  {
+    "id": "e65d5c9ee9d7",
+    "subject": "Urolithin A",
+    "predicate": "increases",
+    "object": "PINK1",
+    "context": {
+      "en-US": "PINK1 mRNA was increased in reconstructed human epidermis treated topically with 1% urolithin A for 24 hours, and PINK1 protein loss induced by PM10+UVA in ex vivo human skin was counteracted by 1% urolithin A pretreatment.",
+      "zh-TW": "外用 1% 尿石素 A 處理 24 小時增加重組人類表皮的 PINK1 mRNA；1% 尿石素 A 前處理可對抗離體人體皮膚中 PM10+UVA 誘導的 PINK1 蛋白下降。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Topical application of urolithin A activates mitophagy and enhances mitochondrial function to promote skin longevity.md",
+    "created": "2026-11-17T17:39:03Z",
+    "updated": "2026-11-17T17:39:03Z"
+  },
+  {
+    "id": "09c1b5fbeaf3",
+    "subject": "Urolithin A",
+    "predicate": "preserves",
+    "object": "Mitochondrial Quality Control",
+    "context": {
+      "en-US": "Under combined urban-dust and UVA stress in ex vivo human skin, urolithin A preserved PINK1 levels and reduced carbonylated histone-enriched proteins, indicating maintenance of mitochondrial quality control and limitation of oxidative damage to nuclear proteins.",
+      "zh-TW": "在離體人體皮膚的城市粉塵合併 UVA 壓力下，尿石素 A 保留 PINK1 水準並減少碳化的組織蛋白富集蛋白，顯示維持粒線體品質管控並限制核蛋白氧化損傷。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Topical application of urolithin A activates mitophagy and enhances mitochondrial function to promote skin longevity.md",
+    "created": "2026-11-17T17:39:03Z",
+    "updated": "2026-11-17T17:39:03Z"
+  },
+  {
+    "id": "77cdc64f4a68",
+    "subject": "Urolithin A",
+    "predicate": "increases",
+    "object": "TOMM20",
+    "context": {
+      "en-US": "Epidermal TOMM20 immunostaining was significantly increased in an aged-donor full-thickness skin model treated with 1 μM urolithin A for 25 days, used as a marker of increased mitochondrial content.",
+      "zh-TW": "老年捐贈者全層皮膚模型經 1 μM 尿石素 A 處理 25 天後，表皮 TOMM20 免疫染色顯著增加，作為粒線體含量上升的標記。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Topical application of urolithin A activates mitophagy and enhances mitochondrial function to promote skin longevity.md",
+    "created": "2026-11-17T17:39:03Z",
+    "updated": "2026-11-17T17:39:03Z"
+  },
+  {
+    "id": "92ef17532cee",
+    "subject": "Urolithin A",
+    "predicate": "increases",
+    "object": "Ki67",
+    "context": {
+      "en-US": "Ki67-positive cells per micrometre of dermal–epidermal junction were significantly increased in aged-donor full-thickness skin treated with 1 μM urolithin A for 25 days, indicating restored epidermal proliferation.",
+      "zh-TW": "老年捐贈者全層皮膚經 1 μM 尿石素 A 處理 25 天後，每微米真皮表皮交界處的 Ki67 陽性細胞顯著增加，顯示表皮增殖恢復。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Topical application of urolithin A activates mitophagy and enhances mitochondrial function to promote skin longevity.md",
+    "created": "2026-11-17T17:39:03Z",
+    "updated": "2026-11-17T17:39:03Z"
+  },
+  {
+    "id": "70735b6e4536",
+    "subject": "Urolithin A",
+    "predicate": "increases",
+    "object": "Filaggrin",
+    "context": {
+      "en-US": "Filaggrin expression increased in aged-donor full-thickness skin treated with 1 μM urolithin A for 25 days, together with keratin 10 and Ki67, consistent with enhanced epidermal terminal differentiation.",
+      "zh-TW": "老年捐贈者全層皮膚經 1 μM 尿石素 A 處理 25 天後，絲聚蛋白表現上升，並伴隨角蛋白 10 與 Ki67 增加，符合表皮終末分化增強。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Topical application of urolithin A activates mitophagy and enhances mitochondrial function to promote skin longevity.md",
+    "created": "2026-11-17T17:39:03Z",
+    "updated": "2026-11-17T17:39:03Z"
+  },
+  {
+    "id": "19fc829bb08c",
+    "subject": "Urolithin A",
+    "predicate": "reduces",
+    "object": "Prostaglandin E2",
+    "context": {
+      "en-US": "In UVB-irradiated reconstructed human epidermis, topical 1% urolithin A significantly reduced prostaglandin E2 release into culture supernatant (p = 0.0257), consistent with a local anti-inflammatory effect in photoaged skin.",
+      "zh-TW": "在 UVB 照射的重組人類表皮中，外用 1% 尿石素 A 顯著降低培養上清中的前列腺素 E2 釋放（p = 0.0257），符合光老化皮膚的局部抗發炎作用。"
+    },
+    "confidence": 0.8,
+    "source_document": "_document_ - Topical application of urolithin A activates mitophagy and enhances mitochondrial function to promote skin longevity.md",
+    "created": "2026-11-17T17:39:03Z",
+    "updated": "2026-11-17T17:39:03Z"
   }
 ]

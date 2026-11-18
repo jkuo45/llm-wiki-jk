@@ -2,7 +2,7 @@
 title: Mitochondrial Respiration
 description: Mitochondrial respiration is oxygen consumption coupled to ATP synthesis by the electron transport chain; methylene blue can enhance it when complexes are impaired.
 created: 2026-07-08
-updated: 2026-07-09
+updated: 2026-11-17
 tags:
   - biological-process
   - mitochondria
@@ -24,6 +24,11 @@ Respiration is tightly controlled by ADP availability (respiratory control): act
 
 ## Pharmacological Modulation
 
+> [!info]
+> Source: [[_document_ - Topical application of urolithin A activates mitophagy and enhances mitochondrial function to promote skin longevity|Topical UA skin study]]
+> Low-dose urolithin A (0.5–2.5 μM; most robust at 1 μM) increased basal and maximal respiration in normal human epidermal keratinocytes and rescued the impaired basal and maximal respiration of human dermal fibroblasts from a 69-year-old donor to near-young-donor levels. Measurements were Seahorse oxygen-consumption rates; human in vivo respiratory effects were not measured.
+
+
 [[Methylene blue]] is an electron cycler that can accept electrons from NADH and donate them downstream, effectively bypassing impaired Complex I/III. This restores mitochondrial respiration and oxygen consumption while reducing superoxide, a mechanism relevant in [[Mitochondrial Dysfunction]] and certain neurodegenerative states. Uncouplers and inhibitors (e.g., oligomycin, rotenone) are classical tools that dissect coupling versus ATP synthesis.
 
 ## Relevance
@@ -31,6 +36,9 @@ Respiration is tightly controlled by ADP availability (respiratory control): act
 Age-related decline in respiratory capacity contributes to fatigue, metabolic disease, and cellular senescence. Preserving efficient respiration is a core goal of [[Longevity]] and metabolic-health interventions.
 
 ## Documents
+
+  - [[_document_ - Topical application of urolithin A activates mitophagy and enhances mitochondrial function to promote skin longevity|Topical UA skin study]]
+    - Urolithin A increased basal/maximal respiration in keratinocytes and rescued respiration in aged-donor dermal fibroblasts (Seahorse OCR).
 
   - [[_document_ - Methylene Blue - StatPearls|Methylene Blue - StatPearls]]
     - Describes how MB enhances mitochondrial respiration and oxygen consumption, reducing superoxide.
@@ -42,6 +50,9 @@ Age-related decline in respiratory capacity contributes to fatigue, metabolic di
     - Links NAD+ repletion to sustained mitochondrial respiratory function.
 
 ## Connections
+
+- [[Urolithin A]] — Increased basal and maximal OCR in keratinocytes and rescued respiration in aged-donor dermal fibroblasts.
+- [[Oxygen Consumption Rate]] — The Seahorse OCR readout used to quantify urolithin A effects in skin cells.
 
   - [[Mitochondrial Electron Transport Chain]]: Core machinery of respiration.
   - [[ATP Synthase]]: Converts proton motive force into ATP.

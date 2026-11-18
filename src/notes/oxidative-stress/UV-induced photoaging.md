@@ -4,7 +4,7 @@ description: UV-induced photoaging is the premature aging of skin caused by chro
   exposure to ultraviolet (UV) radiation, primarily UVA (320–400 nm) and UVB (290–320
   nm), driven largely by ROS-mediated me...
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-11-17
 tags:
   - biological-process
 aliases: [Photoaging, Solar aging, Dermatoheliosis]
@@ -28,12 +28,25 @@ Wrinkling, dyspigmentation (solar lentigines), telangiectasias, loss of elastici
 
 ## Protection
 
+> [!info]
+> Source: [[_document_ - Topical application of urolithin A activates mitophagy and enhances mitochondrial function to promote skin longevity|Topical UA skin study]]
+> In a randomized photodamage trial (n = 21 completers), 1% topical urolithin A reduced UVB 1.6-MED erythema by 13% versus untreated skin (p = 0.02); 0.5% was null. In reconstructed human epidermis, 1% urolithin A reduced UVB-induced PGE2 (p = 0.0257). In ex vivo skin, it attenuated PM10+UVA-induced histone carbonylation and preserved PINK1, indicating protection of mitochondrial quality control under pollution/UVA stress.
+
+
 - Physical blockers (ZnO₂, TiO₂) and chemical sunscreens
 - [[Ascorbic Acid]] (Vitamin C) + [[Vitamin E]] (α-tocopherol) synergistically reduce UV-induced oxidative damage
 - [[NRF2]] activators ([[Sulforaphane]]) upregulate antioxidant defenses in the skin
 - [[Melatonin]] and [[Polyphenols]] ([[EGCG]], [[Resveratrol]]) reduce photoaging in experimental models
 
+## Documents
+
+  - [[_document_ - Topical application of urolithin A activates mitophagy and enhances mitochondrial function to promote skin longevity|Topical UA skin study]]
+    - Randomized trial of 1% topical urolithin A reduced UVB erythema; RHE/ex vivo models showed reduced PGE2, histone carbonylation and preserved PINK1.
+
 ## Connections
+
+- [[Urolithin A]] — Topical 1% reduced UVB erythema by 13% (p = 0.02) and protected PINK1 and nuclear proteins against PM10+UVA stress.
+- [[Prostaglandin E2]] — UVB-induced PGE2 in reconstructed epidermis was reduced by 1% urolithin A (p = 0.0257).
 
 - [[ROS]]: **UV-induced photoaging** is the premature aging of skin caused by chronic exposure to ultraviolet (UV) radiation, pr...
 - [[Singlet Oxygen]]: - **Singlet Oxygen Generation**: UVA radiation is absorbed by endogenous photosensitizers (porphyrins, flavins, melan...

@@ -2,7 +2,7 @@
 title: Senomorphic
 description: A senomorphic is an intervention that suppresses the senescence-associated secretory phenotype (SASP) and other detrimental features of senescent cells without necessarily inducing their death.
 created: 2026-07-09
-updated: 2026-07-09
+updated: 2026-11-17
 tags:
   - pharmacological-action
   - senescence
@@ -26,6 +26,11 @@ A **senomorphic** is an intervention that suppresses the harmful secretory and s
 
 ## Mechanisms
 
+> [!info]
+> Source: [[_document_ - Topical application of urolithin A activates mitophagy and enhances mitochondrial function to promote skin longevity|Topical UA skin study]]
+> Topical urolithin A is reported as a skin senomorphic: in H2O2-senescent human dermal fibroblasts it lowered CXCL1 without altering p21, and in aged full-thickness skin it lowered p16 while raising Ki67. Human biopsy RNA-seq after 8 weeks of 1% urolithin A showed suppression of SenMayo and chemokine gene sets without evidence of senolytic cell clearance.
+
+
 Senomorphics commonly target upstream SASP drivers such as [[mTOR]], [[NF-κB|NF-κB]], [[p38 MAPK]], and [[JAK]]/[[STAT3]]. Because they do not require cell clearance, their effect is contingent on continued presence — contrasting with the hit-and-run kinetics of [[Senolytic|senolytics]].
 
 > [!info] Source: [[_document_ - repurposing_apigen_senomorphic.09.09.611999v1.full|Repurposing apigenin for senomorphic effect in antiaging pipelines]]
@@ -38,6 +43,9 @@ The ASAP→SASP transition is also a target of other senomorphics: [[Rutin]] dis
 [[Fisetin]] exhibits both activities: it acts as a [[Senolytic|senolytic]] (clearing senescent cells) and, at lower exposure, can suppress [[SASP|Senescence-Associated Secretory Phenotype]] and [[NF-κB|NF-κB]]/[[IL-6|IL-6]] signaling consistent with a senomorphic effect. Its short elimination half-life (~3.1 h terminal) and durable benefit after dosing point primarily to the senolytic limb.
 
 ## Documents
+
+  - [[_document_ - Topical application of urolithin A activates mitophagy and enhances mitochondrial function to promote skin longevity|Topical UA skin study]]
+    - Randomized topical urolithin A trials classified the compound as senomorphic in skin: CXCL1/p16 down, p21 unchanged, SenMayo gene set suppressed.
 
   - [[_document_ - Fisetin is a senotherapeutic that extends health and lifespan|Fisetin Senotherapeutic & Lifespan]]
     - Discusses whether fisetin's durable benefit reflects senolytic clearance versus senomorphic suppression of senescence markers.
@@ -52,6 +60,9 @@ The ASAP→SASP transition is also a target of other senomorphics: [[Rutin]] dis
     - Senomorphics (mTOR/NF-κB/JAK-STAT targeting) and polyphenols suppress SASP and oxidative stress in IPF without eliminating senescent cells.
 
 ## Connections
+
+- [[Urolithin A]] — Skin senomorphic: reduces CXCL1 and p16 without changing p21; suppresses SenMayo gene sets in human skin biopsies.
+- [[Skin Longevity]] — Senomorphic suppression of SASP is one of the skin-aging hallmarks targeted by topical urolithin A.
   - [[Senolytic]]: Sister senotherapeutic strategy (cell clearance).
   - [[Senescence]]: The cellular state modulated.
   - [[SASP|Senescence-Associated Secretory Phenotype]]: Primary target of suppression.
