@@ -113,6 +113,11 @@ TNF-driven injury, at the cost of blocking anti-tumor [[Apoptosis]].
     control, with the measured copy numbers, the threshold arithmetic, and the qualifications the
     source passage requires. Interactive explorer:
     [DISC ratio & recruitment-kinetics explorer](https://graph.johnnykuo.com/pages/en-US/disc-rheostat-sim.html).
+- [[task_output_apoptosis_disc_biomarker_supply_chain_19_Nov_2026]]
+  - Task output: procurement audit of the detection routes for this switch — antibody and kit
+    catalogue numbers with list prices, live-cell reporters and biosensor platforms, lead times,
+    shipping and cold-chain constraints, and the explicit finding that c-FLIP isoform ratio and
+    c-FLIP recruitment to the DISC have no commercial detection route.
 - [[_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9|Crosstalk Among Cell Death Mechanisms (Eskander et al. 2025)]]
   - Places the rheostat in the apoptosis/necroptosis/pyroptosis crosstalk network.
 

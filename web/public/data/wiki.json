@@ -1,5 +1,5 @@
 {
-  "generated": "19_NOV_2026 01:00 PM PST",
+  "generated": "19_NOV_2026 02:57 PM PST",
   "wiki": [
     {
       "id": "wiki-index",
@@ -1197,40 +1197,6 @@
       }
     },
     {
-      "id": "Ubiquitin",
-      "langs": {
-        "en-US": {
-          "title": "Ubiquitin",
-          "description": "Ubiquitin is a conserved 76-amino-acid regulatory protein that tags substrates for proteasomal degradation or signaling; ubiquitinated inclusions mark Proteostasis failure in Neuromelanin-rich neurons of Parkinson's Disease.",
-          "created": "2026-07-04",
-          "updated": "2026-11-19",
-          "tags": [
-            "protein"
-          ],
-          "filename": "Ubiquitin.md",
-          "path": "wiki/en-US/_link/Ubiquitin.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Ubiquitin.md"
-        },
-        "zh-TW": {
-          "title": "Ubiquitin",
-          "description": "泛素是一種保守的 76 胺基酸調控蛋白，標記受質以進行蛋白酶體降解或訊號傳導；泛素化包涵體標記帕金森氏症中富神經黑色素神經元的蛋白恆定失衡。",
-          "created": "2026-07-04",
-          "updated": "2026-11-19",
-          "tags": [
-            "protein"
-          ],
-          "filename": "Ubiquitin.md",
-          "path": "wiki/zh-TW/_link/Ubiquitin.md"
-        }
-      },
-      "stats": {
-        "words": 770,
-        "images": 0,
-        "links": 52,
-        "diagrams": 0
-      }
-    },
-    {
       "id": "Apoptosis",
       "langs": {
         "en-US": {
@@ -1263,6 +1229,40 @@
         "words": 3248,
         "images": 0,
         "links": 212,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Ubiquitin",
+      "langs": {
+        "en-US": {
+          "title": "Ubiquitin",
+          "description": "Ubiquitin is a conserved 76-amino-acid regulatory protein that tags substrates for proteasomal degradation or signaling; ubiquitinated inclusions mark Proteostasis failure in Neuromelanin-rich neurons of Parkinson's Disease.",
+          "created": "2026-07-04",
+          "updated": "2026-11-19",
+          "tags": [
+            "protein"
+          ],
+          "filename": "Ubiquitin.md",
+          "path": "wiki/en-US/_link/Ubiquitin.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Ubiquitin.md"
+        },
+        "zh-TW": {
+          "title": "Ubiquitin",
+          "description": "泛素是一種保守的 76 胺基酸調控蛋白，標記受質以進行蛋白酶體降解或訊號傳導；泛素化包涵體標記帕金森氏症中富神經黑色素神經元的蛋白恆定失衡。",
+          "created": "2026-07-04",
+          "updated": "2026-11-19",
+          "tags": [
+            "protein"
+          ],
+          "filename": "Ubiquitin.md",
+          "path": "wiki/zh-TW/_link/Ubiquitin.md"
+        }
+      },
+      "stats": {
+        "words": 770,
+        "images": 0,
+        "links": 52,
         "diagrams": 0
       }
     },
@@ -1376,9 +1376,9 @@
         }
       },
       "stats": {
-        "words": 1210,
+        "words": 1273,
         "images": 0,
-        "links": 116,
+        "links": 117,
         "diagrams": 0
       }
     },
@@ -1835,6 +1835,42 @@
       }
     },
     {
+      "id": "Mitochondrial DNA",
+      "langs": {
+        "en-US": {
+          "title": "Mitochondrial DNA",
+          "description": "16.5 kb circular DNA encoding 13 OXPHOS proteins, 2 rRNAs, and 22 tRNAs; mutations linked to disease.",
+          "created": "2026-07-23",
+          "updated": "2026-11-11",
+          "tags": [
+            "mitochondria-structure",
+            "nucleic-acid"
+          ],
+          "filename": "Mitochondrial DNA.md",
+          "path": "wiki/en-US/_link/Mitochondrial%20DNA.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Mitochondrial%20DNA.md"
+        },
+        "zh-TW": {
+          "title": "Mitochondrial DNA",
+          "description": "16.5 kb 環狀 DNA，編碼 13 種 OXPHOS 蛋白、2 種 rRNA 與 22 種 tRNA；其突變與疾病相關。",
+          "created": "2026-07-23",
+          "updated": "2026-11-11",
+          "tags": [
+            "mitochondria-structure",
+            "nucleic-acid"
+          ],
+          "filename": "Mitochondrial DNA.md",
+          "path": "wiki/zh-TW/_link/Mitochondrial%20DNA.md"
+        }
+      },
+      "stats": {
+        "words": 835,
+        "images": 0,
+        "links": 71,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "PRDX1",
       "langs": {
         "en-US": {
@@ -1869,42 +1905,6 @@
         "words": 641,
         "images": 0,
         "links": 51,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "Mitochondrial DNA",
-      "langs": {
-        "en-US": {
-          "title": "Mitochondrial DNA",
-          "description": "16.5 kb circular DNA encoding 13 OXPHOS proteins, 2 rRNAs, and 22 tRNAs; mutations linked to disease.",
-          "created": "2026-07-23",
-          "updated": "2026-11-11",
-          "tags": [
-            "mitochondria-structure",
-            "nucleic-acid"
-          ],
-          "filename": "Mitochondrial DNA.md",
-          "path": "wiki/en-US/_link/Mitochondrial%20DNA.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Mitochondrial%20DNA.md"
-        },
-        "zh-TW": {
-          "title": "Mitochondrial DNA",
-          "description": "16.5 kb 環狀 DNA，編碼 13 種 OXPHOS 蛋白、2 種 rRNA 與 22 種 tRNA；其突變與疾病相關。",
-          "created": "2026-07-23",
-          "updated": "2026-11-11",
-          "tags": [
-            "mitochondria-structure",
-            "nucleic-acid"
-          ],
-          "filename": "Mitochondrial DNA.md",
-          "path": "wiki/zh-TW/_link/Mitochondrial%20DNA.md"
-        }
-      },
-      "stats": {
-        "words": 835,
-        "images": 0,
-        "links": 71,
         "diagrams": 0
       }
     },
@@ -3395,6 +3395,46 @@
       }
     },
     {
+      "id": "Heteroplasmy",
+      "langs": {
+        "en-US": {
+          "title": "Heteroplasmy",
+          "description": "The coexistence of wild-type and mutant mitochondrial DNA molecules within a single cell, tissue, or individual; the fraction of mutant genomes determines disease penetrance and is the target of mtDNA-editing therapies.",
+          "created": "2026-08-01",
+          "updated": "2026-11-11",
+          "tags": [
+            "genetic-concept",
+            "mitochondria",
+            "mitochondrial-dna",
+            "genetics"
+          ],
+          "filename": "Heteroplasmy.md",
+          "path": "wiki/en-US/_link/Heteroplasmy.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Heteroplasmy.md"
+        },
+        "zh-TW": {
+          "title": "Heteroplasmy",
+          "description": "野生型與突變型粒線體 DNA 分子共存於同一細胞、組織或個體之中；突變基因組的比例決定疾病外顯性，也是 mtDNA 編輯療法的標的。",
+          "created": "2026-08-01",
+          "updated": "2026-11-11",
+          "tags": [
+            "genetic-concept",
+            "mitochondria",
+            "mitochondrial-dna",
+            "genetics"
+          ],
+          "filename": "Heteroplasmy.md",
+          "path": "wiki/zh-TW/_link/Heteroplasmy.md"
+        }
+      },
+      "stats": {
+        "words": 871,
+        "images": 0,
+        "links": 44,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "Hyaluronic Acid",
       "langs": {
         "en-US": {
@@ -3467,46 +3507,6 @@
         "words": 307,
         "images": 0,
         "links": 18,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "Heteroplasmy",
-      "langs": {
-        "en-US": {
-          "title": "Heteroplasmy",
-          "description": "The coexistence of wild-type and mutant mitochondrial DNA molecules within a single cell, tissue, or individual; the fraction of mutant genomes determines disease penetrance and is the target of mtDNA-editing therapies.",
-          "created": "2026-08-01",
-          "updated": "2026-11-11",
-          "tags": [
-            "genetic-concept",
-            "mitochondria",
-            "mitochondrial-dna",
-            "genetics"
-          ],
-          "filename": "Heteroplasmy.md",
-          "path": "wiki/en-US/_link/Heteroplasmy.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Heteroplasmy.md"
-        },
-        "zh-TW": {
-          "title": "Heteroplasmy",
-          "description": "野生型與突變型粒線體 DNA 分子共存於同一細胞、組織或個體之中；突變基因組的比例決定疾病外顯性，也是 mtDNA 編輯療法的標的。",
-          "created": "2026-08-01",
-          "updated": "2026-11-11",
-          "tags": [
-            "genetic-concept",
-            "mitochondria",
-            "mitochondrial-dna",
-            "genetics"
-          ],
-          "filename": "Heteroplasmy.md",
-          "path": "wiki/zh-TW/_link/Heteroplasmy.md"
-        }
-      },
-      "stats": {
-        "words": 871,
-        "images": 0,
-        "links": 44,
         "diagrams": 0
       }
     },
@@ -6765,46 +6765,6 @@
       }
     },
     {
-      "id": "Siglec-10",
-      "langs": {
-        "en-US": {
-          "title": "Siglec-10",
-          "description": "Siglec-10 (SIGLEC10) is an inhibitory I-type lectin on macrophages and other leukocytes that recognizes sialylated — and via CD24, non-sialylated — \"don't-eat-me\" signals, dampening phagocytosis of viable healthy cells.",
-          "created": "2026-11-08",
-          "updated": "2026-11-08",
-          "tags": [
-            "receptor",
-            "immunology",
-            "innate-immunity",
-            "phagocytosis"
-          ],
-          "filename": "Siglec-10.md",
-          "path": "wiki/en-US/_link/Siglec-10.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Siglec-10.md"
-        },
-        "zh-TW": {
-          "title": "Siglec-10",
-          "description": "Siglec-10（SIGLEC10）是巨噬細胞與其他白血球上的抑制性 I 型凝集素，辨識唾液酸化——以及經由 CD24 的非唾液酸化——「don't-eat-me」訊號，抑制對存活健康細胞的吞噬作用。",
-          "created": "2026-11-08",
-          "updated": "2026-11-08",
-          "tags": [
-            "receptor",
-            "immunology",
-            "innate-immunity",
-            "phagocytosis"
-          ],
-          "filename": "Siglec-10.md",
-          "path": "wiki/zh-TW/_link/Siglec-10.md"
-        }
-      },
-      "stats": {
-        "words": 597,
-        "images": 0,
-        "links": 20,
-        "diagrams": 0
-      }
-    },
-    {
       "id": "Senescence",
       "langs": {
         "en-US": {
@@ -6843,6 +6803,46 @@
         "words": 3167,
         "images": 0,
         "links": 200,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Siglec-10",
+      "langs": {
+        "en-US": {
+          "title": "Siglec-10",
+          "description": "Siglec-10 (SIGLEC10) is an inhibitory I-type lectin on macrophages and other leukocytes that recognizes sialylated — and via CD24, non-sialylated — \"don't-eat-me\" signals, dampening phagocytosis of viable healthy cells.",
+          "created": "2026-11-08",
+          "updated": "2026-11-08",
+          "tags": [
+            "receptor",
+            "immunology",
+            "innate-immunity",
+            "phagocytosis"
+          ],
+          "filename": "Siglec-10.md",
+          "path": "wiki/en-US/_link/Siglec-10.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Siglec-10.md"
+        },
+        "zh-TW": {
+          "title": "Siglec-10",
+          "description": "Siglec-10（SIGLEC10）是巨噬細胞與其他白血球上的抑制性 I 型凝集素，辨識唾液酸化——以及經由 CD24 的非唾液酸化——「don't-eat-me」訊號，抑制對存活健康細胞的吞噬作用。",
+          "created": "2026-11-08",
+          "updated": "2026-11-08",
+          "tags": [
+            "receptor",
+            "immunology",
+            "innate-immunity",
+            "phagocytosis"
+          ],
+          "filename": "Siglec-10.md",
+          "path": "wiki/zh-TW/_link/Siglec-10.md"
+        }
+      },
+      "stats": {
+        "words": 597,
+        "images": 0,
+        "links": 20,
         "diagrams": 0
       }
     },
@@ -12563,46 +12563,6 @@
       }
     },
     {
-      "id": "Wolbachia",
-      "langs": {
-        "en-US": {
-          "title": "Wolbachia",
-          "description": "Wolbachia is a genus of maternally inherited endosymbiotic bacteria in the family Ehrlichiaceae (order Rickettsiales) that infects arthropods and filarial nematodes, altering host reproduction and, in filariae, providing essential metabolites as an obligate mutualist.",
-          "created": "2026-09-29",
-          "updated": "2026-09-29",
-          "tags": [
-            "organism",
-            "bacteria",
-            "endosymbiosis",
-            "parasitology"
-          ],
-          "filename": "Wolbachia.md",
-          "path": "wiki/en-US/_link/Wolbachia.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Wolbachia.md"
-        },
-        "zh-TW": {
-          "title": "Wolbachia",
-          "description": "Wolbachia 是立克次體目（Rickettsiales）艾立希氏菌科（Ehrlichiaceae）中經母系遺傳的內共生細菌屬，可感染節肢動物與絲蟲類線蟲，改變宿主生殖行為，並在絲蟲中作為專性互利共生者提供必需的代謝產物。",
-          "created": "2026-09-29",
-          "updated": "2026-09-29",
-          "tags": [
-            "organism",
-            "bacteria",
-            "endosymbiosis",
-            "parasitology"
-          ],
-          "filename": "Wolbachia.md",
-          "path": "wiki/zh-TW/_link/Wolbachia.md"
-        }
-      },
-      "stats": {
-        "words": 1402,
-        "images": 0,
-        "links": 38,
-        "diagrams": 0
-      }
-    },
-    {
       "id": "Adrenochrome",
       "langs": {
         "en-US": {
@@ -12639,6 +12599,46 @@
         "words": 1607,
         "images": 0,
         "links": 148,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Wolbachia",
+      "langs": {
+        "en-US": {
+          "title": "Wolbachia",
+          "description": "Wolbachia is a genus of maternally inherited endosymbiotic bacteria in the family Ehrlichiaceae (order Rickettsiales) that infects arthropods and filarial nematodes, altering host reproduction and, in filariae, providing essential metabolites as an obligate mutualist.",
+          "created": "2026-09-29",
+          "updated": "2026-09-29",
+          "tags": [
+            "organism",
+            "bacteria",
+            "endosymbiosis",
+            "parasitology"
+          ],
+          "filename": "Wolbachia.md",
+          "path": "wiki/en-US/_link/Wolbachia.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Wolbachia.md"
+        },
+        "zh-TW": {
+          "title": "Wolbachia",
+          "description": "Wolbachia 是立克次體目（Rickettsiales）艾立希氏菌科（Ehrlichiaceae）中經母系遺傳的內共生細菌屬，可感染節肢動物與絲蟲類線蟲，改變宿主生殖行為，並在絲蟲中作為專性互利共生者提供必需的代謝產物。",
+          "created": "2026-09-29",
+          "updated": "2026-09-29",
+          "tags": [
+            "organism",
+            "bacteria",
+            "endosymbiosis",
+            "parasitology"
+          ],
+          "filename": "Wolbachia.md",
+          "path": "wiki/zh-TW/_link/Wolbachia.md"
+        }
+      },
+      "stats": {
+        "words": 1402,
+        "images": 0,
+        "links": 38,
         "diagrams": 0
       }
     },

@@ -138,6 +138,8 @@ graph TD
 
 它明確是一個**示意性模型**：其常數並非已發表的參數組合，省略 IAP／XIAP、粒線體放大作用與 cFLIP 周轉平衡，且其時間軸以任意模型單位表示。它只重現四項定性結果——由 cFLIP 豐度設定的配體閾值（Bentele 2004）、在該閾值以下伴隨 p43-FLIP／NF-κB 訊號的存活（Lavrik 2007; Neumann 2010）、化學計量 cFLIP 與 cFLIP<sub>S/R</sub> 的封阻行為，以及 cFLIP<sub>L</sub> 對第一步切割的貢獻（Fricker 2010）。有兩項已知的假象：在飽和配體下模型變成 procaspase-8 受限，因此移除 cFLIP 在該條件下不會加速死亡；以及 cFLIP 在 FADD 處相對 procaspase-8 的 1000 倍結合速率優勢（使閾值可見）並非已發表的實測值。該頁面是單一自足檔案（無建置步驟、除滑桿外無狀態），其使用的每個常數都列於頁面自身的表格中。
 
+另有一份採購稽核（[[task_output_apoptosis_disc_biomarker_supply_chain_19_Nov_2026]]）為這些生物標記的商用偵測途徑定價。其結論是：cFLIP_L : cFLIP_S 的比例僅能在免疫印跡層級購買（Abcam ab314747 與 ab323748，為可辨識人源的重组單株抗體，且其頁面未提供敲除驗證證據），而 c-FLIP 於 DISC 的招募、p43-FLIP 這一個物種以及 DISC 化學計量則完全沒有商用偵測途徑。
+
 ## 何者可辨別剩餘的歧義
 
 - 以單細胞方式量測 DISC 佔位：同一細胞型中每細胞的 cFLIP<sub>L</sub>、cFLIP<sub>S/R</sub> 與 procaspase-8 拷貝數，理想情況下採用可分辨亞型的定量蛋白質組學，以將特定細胞株置於相圖上，而非由整體裂解液推得。

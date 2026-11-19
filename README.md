@@ -9,7 +9,7 @@
 | [adrenochrome](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/adrenochrome) [[src/notes/adrenochrome/README\|wiki]] | 19_NOV_2026 | 19 | 258 | 202,257 | 2.65 MB |
 | [autophagy](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/autophagy) [[src/notes/autophagy/README\|wiki]] | 23_OCT_2026 | 12 | 235 | 188,595 | 1.74 MB |
 | [cancer](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cancer) [[src/notes/cancer/README\|wiki]] | 19_NOV_2026 | 11 | 284 | 260,190 | 3.01 MB |
-| [cell-death](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cell-death) [[src/notes/cell-death/README\|wiki]] | 19_NOV_2026 | 14 | 106 | 140,689 | 1.99 MB |
+| [cell-death](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/cell-death) [[src/notes/cell-death/README\|wiki]] | 19_NOV_2026 | 14 | 106 | 140,742 | 1.99 MB |
 | [comt](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/comt) [[src/notes/comt/README\|wiki]] | 21_OCT_2026 | 2 | 45 | 28,241 | 0.54 MB |
 | [epigenetics](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/epigenetics) [[src/notes/epigenetics/README\|wiki]] | 17_NOV_2026 | 8 | 227 | 209,813 | 2.25 MB |
 | [hormesis](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/hormesis) [[src/notes/hormesis/README\|wiki]] | 21_OCT_2026 | 7 | 16 | 69,625 | 0.63 MB |
@@ -18,7 +18,7 @@
 | [senescence](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/senescence) [[src/notes/senescence/README\|wiki]] | 17_NOV_2026 | 19 | 89 | 188,730 | 2.67 MB |
 | [sirtuins](https://github.com/jkuo45/llm-wiki-jk/tree/dev/src/notes/sirtuins) [[src/notes/sirtuins/README\|wiki]] | 19_NOV_2026 | 21 | 176 | 323,561 | 4.10 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 19_NOV_2026 | **152** | **3788** | **3,323,428** | **40.28 MB** |
+| **subtotal** | 19_NOV_2026 | **152** | **3788** | **3,323,481** | **40.28 MB** |
 <!-- END GENERATED: summary_table -->
 
 **_\*Summary Table: notes directory only_\***
@@ -341,8 +341,9 @@ Build: 11_NOV_2026 · hash `663ac957d5242f5b`
 ## Tasks
 
 <details>
-<summary><strong>Tasks (136 total)</strong> — click to expand</summary>
+<summary><strong>Tasks (137 total)</strong> — click to expand</summary>
 
+- [task_output_apoptosis_disc_biomarker_supply_chain_19_Nov_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_apoptosis_disc_biomarker_supply_chain_19_Nov_2026.md) [[src/tasks/task_output_apoptosis_disc_biomarker_supply_chain_19_Nov_2026.md|wiki]] (19_NOV_2026 02:56 PM PST)
 - [task_output_cflip_caspase8_disc_ratio_kinetics_19_Nov_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_cflip_caspase8_disc_ratio_kinetics_19_Nov_2026.md) [[src/tasks/task_output_cflip_caspase8_disc_ratio_kinetics_19_Nov_2026.md|wiki]] (19_NOV_2026 12:54 PM PST)
 - [task_output_adrenochrome_mb_ag_protocol_review_12_Nov_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_adrenochrome_mb_ag_protocol_review_12_Nov_2026.md) [[src/tasks/task_output_adrenochrome_mb_ag_protocol_review_12_Nov_2026.md|wiki]] (19_NOV_2026 10:15 AM PST)
 - [task_output_topical_creatine_urolithin_a_17_Nov_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_topical_creatine_urolithin_a_17_Nov_2026.md) [[src/tasks/task_output_topical_creatine_urolithin_a_17_Nov_2026.md|wiki]] (17_NOV_2026 09:22 AM PST)

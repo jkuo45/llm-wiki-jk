@@ -1,5 +1,5 @@
 {
-  "generated": "19_NOV_2026 01:00 PM PST",
+  "generated": "19_NOV_2026 02:57 PM PST",
   "tasks": [
     {
       "id": "tasks-index",
@@ -22,6 +22,55 @@
           "tags": [],
           "path": "pages/tasks-index.html"
         }
+      }
+    },
+    {
+      "id": "task_output_apoptosis_disc_biomarker_supply_chain_19_Nov_2026",
+      "langs": {
+        "en-US": {
+          "title": "Apoptosis and DISC biomarker supply chain — sensors, detection, availability and pricing",
+          "description": "Procurement audit of the commercially available detection routes for the CD95 DISC / c-FLIP / caspase-8 biomarker stack: antibody and assay-kit catalogue numbers with list prices and source URLs, live-cell caspase reporters and biosensor platforms, recombinant proteins, genetic tools and chemical probes, plus lead times, shipping and cold-chain constraints, price visibility, QC documentation and discount structure. Establishes that caspase-8 activity is a stocked commercial market while isoform-resolved c-FLIP and c-FLIP recruitment to the DISC have no commercial detection route.",
+          "created": "2026-11-19",
+          "updated": "2026-11-19",
+          "tags": [
+            "task-output",
+            "cell-death",
+            "apoptosis",
+            "procurement",
+            "supply-chain",
+            "antibodies",
+            "assays",
+            "biosensors"
+          ],
+          "filename": "task_output_apoptosis_disc_biomarker_supply_chain_19_Nov_2026.md",
+          "path": "tasks/en-US/task_output_apoptosis_disc_biomarker_supply_chain_19_Nov_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_apoptosis_disc_biomarker_supply_chain_19_Nov_2026.md"
+        },
+        "zh-TW": {
+          "title": "細胞凋亡與 DISC 生物標記供應鏈——感測器、偵測、可得性與定價",
+          "description": "對 CD95 DISC／c-FLIP／caspase-8 生物標記組合之商用偵測途徑的採購稽核：含型號、目錄價與來源網址的抗體與試劑盒、活細胞 caspase 報導器與生物感測平台、重組蛋白、基因工具與化學探針，以及交期、出貨與冷鏈限制、價格透明度、QC 文件與折扣結構。確立 caspase-8 活性為一有庫存的商用市場，而異構體可分辨的 c-FLIP 與 c-FLIP 對 DISC 的招募則無任何商用偵測途徑。",
+          "created": "2026-11-19",
+          "updated": "2026-11-19",
+          "tags": [
+            "task-output",
+            "cell-death",
+            "apoptosis",
+            "procurement",
+            "supply-chain",
+            "antibodies",
+            "assays",
+            "biosensors"
+          ],
+          "filename": "task_output_apoptosis_disc_biomarker_supply_chain_19_Nov_2026.md",
+          "path": "tasks/zh-TW/task_output_apoptosis_disc_biomarker_supply_chain_19_Nov_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_apoptosis_disc_biomarker_supply_chain_19_Nov_2026.md"
+        }
+      },
+      "stats": {
+        "words": 8573,
+        "images": 0,
+        "links": 25,
+        "diagrams": 0
       }
     },
     {
@@ -61,9 +110,9 @@
         }
       },
       "stats": {
-        "words": 6226,
+        "words": 6296,
         "images": 0,
-        "links": 93,
+        "links": 94,
         "diagrams": 1
       }
     },
