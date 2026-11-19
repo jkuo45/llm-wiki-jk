@@ -1,5 +1,5 @@
 {
-  "generated": "19_NOV_2026 11:05 AM PST",
+  "generated": "19_NOV_2026 12:52 PM PST",
   "tasks": [
     {
       "id": "tasks-index",
@@ -22,6 +22,33 @@
           "tags": [],
           "path": "pages/tasks-index.html"
         }
+      }
+    },
+    {
+      "id": "task_output_cflip_caspase8_disc_ratio_kinetics_19_Nov_2026",
+      "langs": {
+        "en-US": {
+          "title": "Procaspase-8 to c-FLIP ratio and c-FLIP_L recruitment kinetics at the CD95 DISC",
+          "description": "Investigation of Section 3.1 of Tsuchiya et al. 2015 — what the procaspase-8 : c-FLIP ratio and c-FLIP_L recruitment kinetics to the DISC actually control, with the measured quantities behind each claim and the qualifications the passage requires.",
+          "created": "2026-11-19",
+          "updated": "2026-11-19",
+          "tags": [
+            "cell-death",
+            "apoptosis",
+            "necroptosis",
+            "systems-biology",
+            "mathematical-modeling"
+          ],
+          "filename": "task_output_cflip_caspase8_disc_ratio_kinetics_19_Nov_2026.md",
+          "path": "tasks/en-US/task_output_cflip_caspase8_disc_ratio_kinetics_19_Nov_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_cflip_caspase8_disc_ratio_kinetics_19_Nov_2026.md"
+        }
+      },
+      "stats": {
+        "words": 6226,
+        "images": 0,
+        "links": 93,
+        "diagrams": 1
       }
     },
     {

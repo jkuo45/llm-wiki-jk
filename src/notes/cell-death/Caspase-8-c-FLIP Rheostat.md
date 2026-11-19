@@ -3,7 +3,7 @@ title: Caspase-8-c-FLIP Rheostat
 description: The quantitative switch in which the ratio of caspase-8 homodimers to c-FLIP heterodimers at DISC, complex II and ripoptosome decides between apoptosis, necroptosis and survival.
 protected: true
 created: 2026-09-03
-updated: 2026-09-03
+updated: 2026-11-19
 tags:
   - mechanism
   - cell-death
@@ -49,6 +49,15 @@ TNFR1 complex II, and the ripoptosome.
   procaspase-8 than [[FADD]] at the [[DISC]], with very little [[c-FLIP]] — consistent with short
   DED-chain oligomers in which a ~1:1 FLIP_L:procaspase-8 ratio inhibits apoptosis while a <<1:1 ratio
   lets heterodimers *accelerate* homodimer activation.
+- **The operative ratio is local, not cytosolic.** c-FLIP blocks the DED-binding surface of FADD, so
+  the threshold is set by c-FLIP abundance versus the number of activated receptors: ~40 000 CD95
+  receptors per cell and a threshold near a ligand:receptor ratio of 1:10² (Bentele 2004), a 7.2 ng/ml
+  ligand threshold at the model's nominal c-FLIP level (Toivonen 2011), and ~320 c-FLIP_L molecules per
+  HeLa-CD95 cell (Fricker 2010).
+- **Why a scarce c-FLIP competes at all.** FLIP binds FADD's α1/α4 DED surface and procaspase-8 the
+  α2/α5 surface, so FLIP is recruited to the DISC at levels comparable to procaspase-8 despite far
+  lower cellular expression (Majkut 2014); quantitative mass spectrometry instead reports very little
+  c-FLIP in the native DISC (Schleich 2012) — an unresolved discrepancy between studies.
 - **Ligand dose.** Mathematical models (Bentele, Lavrik, Neumann, Kallenberger) show [[c-FLIP|FLIP_L]]
   concentration sets the death-ligand threshold: sub-threshold CD95L plus low FLIP_L gives
   ERK/NF-κB survival signaling; the same FLIP_L level at high ligand accelerates death.
@@ -99,6 +108,11 @@ TNF-driven injury, at the cost of blocking anti-tumor [[Apoptosis]].
 - [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]]
   - Systems review: DISC stoichiometry, ubiquitin-proteasome tuning, mathematical models, and
     conditional-knockout physiology of the switch.
+- [[task_output_cflip_caspase8_disc_ratio_kinetics_19_Nov_2026]]
+  - Task output: what the procaspase-8 : c-FLIP ratio and c-FLIP_L recruitment kinetics actually
+    control, with the measured copy numbers, the threshold arithmetic, and the qualifications the
+    source passage requires. Interactive explorer:
+    [DISC ratio & recruitment-kinetics explorer](https://graph.johnnykuo.com/pages/en-US/disc-rheostat-sim.html).
 - [[_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9|Crosstalk Among Cell Death Mechanisms (Eskander et al. 2025)]]
   - Places the rheostat in the apoptosis/necroptosis/pyroptosis crosstalk network.
 

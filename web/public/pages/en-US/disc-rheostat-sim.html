@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DISC ratio &amp; recruitment-kinetics explorer — CD95 death threshold</title>
+<meta name="description" content="Interactive, explicitly illustrative ODE model of CD95 DISC assembly: how the procaspase-8 : c-FLIP_L ratio and c-FLIP_L recruitment set the death-ligand threshold, with a three.js DISC view, branch time courses and an outcome phase diagram.">
+<link rel="canonical" href="https://graph.johnnykuo.com/pages/en-US/disc-rheostat-sim.html">
+<link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/disc-rheostat-sim.html">
+<link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/disc-rheostat-sim.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚖</text></svg>">
+<script type="importmap">
+{ "imports": { "three": "https://unpkg.com/three@0.160.0/build/three.module.js", "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/" } }
+</script>
+<link rel="stylesheet" href="../themes/theme-02/theme.css">
+<script src="../themes/theme-02/theme.js"></script>
+<script src="../themes/theme-02/pages-core.js"></script>
+<script src="../themes/shared/nav-auto-hide.js"></script>
+<style>
+  /* Page-local tokens. Series colors are data colors, remapped for dark mode
+     the same way the other three.js pages remap their SVG hexes. */
+  :root {
+    --c-c8: #2f8f4e; --c-fl: #a8791f; --c-fs: #c1562c; --c-fadd: #1d7d70;
+    --c-rec: #6b7684; --c-p43: #7a4fb5;
+    --c-apop: #c1121f; --c-surv: #2f8f4e; --c-nec: #c1562c;
+  }
+  [data-theme="dark"] {
+    --c-c8: #58d68d; --c-fl: #e8a33d; --c-fs: #ffa04d; --c-fadd: #5fe0cc;
+    --c-rec: #b9c6d8; --c-p43: #b07fe8;
+    --c-apop: #ff5a5e; --c-surv: #4caf6d; --c-nec: #ff8a5e;
+  }
+  .hero h1 { max-width: 26ch; }
+  .disc-wrap { display: grid; grid-template-columns: minmax(230px, 290px) minmax(0, 1fr); gap: 16px; align-items: start; }
+  @media (max-width: 980px) { .disc-wrap { grid-template-columns: 1fr; } }
+  .disc-panel { background: var(--sheet); border: 1px solid var(--rule); border-radius: var(--radius, 2px); padding: 14px 16px; }
+  .disc-panel h2 { margin: 0 0 10px; font-size: .82rem; text-transform: uppercase; letter-spacing: .09em; color: var(--mute); font-weight: 600; }
+  .disc-ctl { margin-bottom: 13px; }
+  .disc-ctl label { display: flex; justify-content: space-between; font-size: .85rem; color: var(--mute); margin-bottom: 4px; }
+  .disc-ctl label b { color: var(--ink); font-weight: 600; font-variant-numeric: tabular-nums; }
+  .disc-wrap input[type=range] { width: 100%; accent-color: var(--oxblood); }
+  .disc-row { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
+  .disc-wrap button { background: var(--paper); color: var(--ink); border: 1px solid var(--rule); border-radius: var(--radius, 2px); padding: 7px 11px; font-size: .84rem; cursor: pointer; font-family: var(--sans); line-height: 1.35; }
+  .disc-wrap button:hover { border-color: var(--rule-strong); }
+  .disc-outcome { margin-top: 12px; padding: 11px 12px; border: 1px solid var(--rule); border-radius: var(--radius, 2px); font-size: .95rem; font-weight: 600; }
+  .disc-detail { margin-top: 8px; font-size: .85rem; color: var(--mute); }
+  .disc-stage { position: relative; background: var(--paper-deep); border: 1px solid var(--rule); border-radius: var(--radius, 2px); overflow: hidden; }
+  .disc-stage canvas { display: block; width: 100%; height: 380px; touch-action: none; }
+  @media (max-width: 720px) { .disc-stage canvas { height: 300px; } }
+  .disc-grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 16px; }
+  @media (max-width: 980px) { .disc-grid2 { grid-template-columns: 1fr; } }
+  .disc-plot { background: var(--paper-deep); border: 1px solid var(--rule); border-radius: var(--radius, 2px); padding: 6px; }
+  .disc-plot canvas { display: block; width: 100%; height: 230px; }
+  .disc-legend { display: flex; gap: 14px; flex-wrap: wrap; font-size: .8rem; color: var(--mute); margin-top: 8px; }
+  .disc-legend .sw { display: inline-block; width: 11px; height: 11px; border-radius: 2px; margin-right: 5px; vertical-align: -1px; }
+  .disc-caveat { background: var(--sheet); border: 1px solid var(--rule); border-left: 3px solid var(--gold); padding: 12px 16px; margin: 16px 0; font-size: .92rem; line-height: 1.55; }
+  .disc-caveat b:first-child { color: var(--oxblood); }
+  .disc-table { width: 100%; border-collapse: collapse; font-size: .85rem; margin: 12px 0 18px; }
+  .disc-table th, .disc-table td { border: 1px solid var(--rule); padding: 7px 10px; text-align: left; vertical-align: top; }
+  .disc-table th { background: var(--paper-deep); font-size: .76rem; text-transform: uppercase; letter-spacing: .04em; color: var(--mute); }
+</style>
+<link rel="stylesheet" href="../themes/theme-02/dark.css">
+</head>
+<body>
+<a class="skip" href="#content">Skip to content</a>
+
+<nav class="site-nav" aria-label="Page">
+  <div class="wrap">
+    <a class="home" href="https://graph.johnnykuo.com/#reader">← Back</a>
+    <div class="nav-links">
+      <a href="#explorer">Explorer</a>
+      <a href="#model">Model</a>
+      <a href="#sources">Sources</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">CD95 signalling · DISC stoichiometry · quantitative modelling</p>
+    <h1>DISC ratio &amp; recruitment-kinetics explorer</h1>
+    <p class="lede">
+      Companion simulation for the task output <strong>“Procaspase-8 to c-FLIP ratio and c-FLIP<sub>L</sub>
+      recruitment kinetics at the CD95 DISC”</strong>. Set the c-FLIP<sub>L</sub>, c-FLIP<sub>S/R</sub>,
+      procaspase-8 and CD95L inputs and watch the death-inducing signaling complex fill: the platform is
+      read out as a <strong>competition for FADD DED-binding sites</strong>, so what decides apoptosis,
+      survival with NF-κB signalling, or a necroptosis-permissive state is the ratio of c-FLIP to
+      activated receptors — not the bulk cytosolic concentrations.
+    </p>
+  </div>
+</header>
+
+<div class="wrap page">
+  <aside class="toc" aria-label="On this page">
+    <p>Contents</p>
+    <ol>
+      <li><a href="#explorer">Explorer</a></li>
+      <li><a href="#model">Model</a></li>
+      <li><a href="#sources">Sources</a></li>
+    </ol>
+  </aside>
+
+  <main id="content">
+
+<section id="explorer">
+  <p class="sec-label">Interactive</p>
+  <h2>Set the DISC composition, read out the fate</h2>
+
+  <div class="disc-caveat">
+    <b>Illustrative model, not a reproduction.</b> The ODE system below is a deliberately small stand-in
+    whose <em>qualitative</em> behaviour reproduces four behaviours reported in the literature: a ligand threshold set by
+    c-FLIP abundance (Bentele et al. 2004), survival with p43-FLIP/NF-κB signalling below that threshold
+    (Lavrik et al. 2007; Neumann et al. 2010), the blocking behaviour of stoichiometric c-FLIP and of
+    c-FLIP<sub>S/R</sub>, and the c-FLIP<sub>L</sub> contribution to the first cleavage step
+    (Fricker et al. 2010). Rate constants are <em>not</em> the published parameter sets; the model omits
+    membrane trafficking, IAPs/XIAP, Bid-driven mitochondrial amplification and c-FLIP isoform
+    synthesis/degradation balance, and its time axis is in arbitrary model units. Do not quote its
+    numbers as measurements.
+  </div>
+
+  <div class="disc-wrap">
+    <div class="disc-panel">
+      <h2>Inputs</h2>
+      <div class="disc-ctl"><label><span>c-FLIP<sub>L</sub> (molecules/cell)</span><b id="vFL">320</b></label><input id="flL" type="range" min="0" max="100" value="40"></div>
+      <div class="disc-ctl"><label><span>c-FLIP<sub>S/R</sub> (molecules/cell)</span><b id="vFS">0</b></label><input id="flS" type="range" min="0" max="100" value="0"></div>
+      <div class="disc-ctl"><label><span>procaspase-8 (molecules/cell)</span><b id="vC8">30000</b></label><input id="c8" type="range" min="0" max="100" value="60"></div>
+      <div class="disc-ctl"><label><span>CD95L (ng/ml)</span><b id="vL">200</b></label><input id="lig" type="range" min="0" max="100" value="55"></div>
+      <div class="disc-row">
+        <button id="run">Pause</button>
+        <button id="reset">Reset</button>
+      </div>
+      <div class="disc-row" id="presets">
+        <button data-p="b">Bentele: SKW 6.4, 200 ng/ml</button>
+        <button data-p="n">Neumann: low ligand, c-FLIP<sub>L</sub> high</button>
+        <button data-p="f">Fricker: HeLa +20× c-FLIP<sub>L</sub>, 3 µg/ml</button>
+        <button data-p="s">c-FLIP<sub>S/R</sub> dominant</button>
+        <button data-p="z">No c-FLIP</button>
+      </div>
+      <div id="outcome" class="disc-outcome">—</div>
+      <div id="detail" class="disc-detail"></div>
+    </div>
+
+    <div>
+      <div class="disc-panel">
+        <h2>CD95 DISC — recruitment and processing</h2>
+        <div class="disc-stage"><canvas id="scene" aria-label="three.js view of CD95 DISC assembly"></canvas></div>
+        <div class="disc-legend">
+          <span><span class="sw" style="background:var(--c-c8)"></span>procaspase-8</span>
+          <span><span class="sw" style="background:var(--c-fl)"></span>c-FLIP<sub>L</sub></span>
+          <span><span class="sw" style="background:var(--c-fs)"></span>c-FLIP<sub>S/R</sub></span>
+          <span><span class="sw" style="background:var(--c-fadd)"></span>FADD</span>
+          <span><span class="sw" style="background:var(--c-rec)"></span>CD95</span>
+          <span><span class="sw" style="background:var(--c-p43)"></span>p43-FLIP (NF-κB branch)</span>
+        </div>
+      </div>
+      <div class="disc-grid2">
+        <div class="disc-panel">
+          <h2>Branch time courses (model time units)</h2>
+          <div class="disc-plot"><canvas id="trace" aria-label="time courses of active caspase-8, caspase-3 and p43-FLIP"></canvas></div>
+          <div class="disc-legend">
+            <span><span class="sw" style="background:var(--c-apop)"></span>active caspase-8</span>
+            <span><span class="sw" style="background:var(--c-surv)"></span>caspase-3</span>
+            <span><span class="sw" style="background:var(--c-p43)"></span>p43-FLIP (NF-κB)</span>
+          </div>
+        </div>
+        <div class="disc-panel">
+          <h2>Outcome phase diagram — click to set the point</h2>
+          <div class="disc-plot"><canvas id="phase" aria-label="outcome phase diagram over c-FLIP_L and procaspase-8"></canvas></div>
+          <div class="disc-legend">
+            <span><span class="sw" style="background:var(--c-apop)"></span>apoptosis</span>
+            <span><span class="sw" style="background:var(--c-surv)"></span>survival (NF-κB / ERK)</span>
+            <span><span class="sw" style="background:var(--c-nec)"></span>necroptosis-permissive</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="model">
+  <p class="sec-label">Assumptions</p>
+  <h2>What the model encodes</h2>
+  <p>
+    DISC binding sites = 3 × active CD95 (DED proteins exceed FADD several-fold; Schleich et al. 2012).
+    Active receptors = 40 000 × (CD95L / 1000 ng/ml), capped at 40 000 (Bentele et al. 2004 measured
+    ≈40 000 CD95 per cell and located the threshold near a ligand:receptor ratio of 1:10²). The effective
+    on-rate of c-FLIP at FADD is set 1000× above procaspase-8's, reproducing the fitted ordering of
+    Neumann et al. 2010 (procaspase-8 has the lower DISC affinity) at a magnitude the published papers do
+    not specify. c-FLIP bound to the DISC is degraded with its isoform half-life (120 min for
+    c-FLIP<sub>L</sub>, 40 min for c-FLIP<sub>S/R</sub>).
+  </p>
+  <p>
+    Two artefacts are known and worth stating: at saturating ligand the model becomes
+    procaspase-8-limited, so removing c-FLIP does not accelerate death there; and the 1000-fold on-rate
+    advantage, which is what makes the threshold visible, is not a measured value. The page is
+    self-contained — one file, no build step, no state beyond the sliders — and every constant it uses
+    is listed in the table below.
+  </p>
+
+  <table class="disc-table">
+    <tr><th>Quantity</th><th>Value used</th><th>Source</th></tr>
+    <tr><td>CD95 receptors per cell</td><td>≈40 000</td><td>Bentele et al. 2004, <em>J Cell Biol</em> 166:839–851 (PMID 15364960)</td></tr>
+    <tr><td>Ligand threshold (Bentele model, c-FLIP set to 0.2937 rel. units)</td><td>7.2 ng/ml</td><td>Toivonen et al. 2011, <em>JBC</em> 286:18375–18382 (PMID 21324892)</td></tr>
+    <tr><td>Threshold ligand:receptor ratio</td><td>≈1:10² (0.007–0.01)</td><td>Bentele et al. 2004</td></tr>
+    <tr><td>c-FLIP<sub>L</sub> molecules per cell (HeLa-CD95)</td><td>≈320</td><td>Fricker et al. 2010, <em>J Cell Biol</em> 190:377–389 (PMID 20696707)</td></tr>
+    <tr><td>c-FLIP half-lives</td><td>40 min (S/R), 120 min (L)</td><td>Poukkula et al., via Toivonen et al. 2011</td></tr>
+    <tr><td>DISC caspase-8 : FADD</td><td>≈6 : 1</td><td>Hughes et al. 2016, <em>Mol Cell</em> 61:834–849 (PMID 26990987)</td></tr>
+  </table>
+</section>
+
+<section id="sources">
+  <p class="sec-label">Provenance</p>
+  <h2>Sources and the wider claim</h2>
+  <p>
+    The modelling claims reproduced here come from the primary papers, not from the review passage under
+    investigation. Full discussion, with the claim-by-claim verification table and the post-2015
+    literature, is in the task output
+    <a href="https://graph.johnnykuo.com/#reader=task_output_cflip_caspase8_disc_ratio_kinetics_19_Nov_2026-en-US">Procaspase-8 to c-FLIP ratio and c-FLIP<sub>L</sub> recruitment kinetics at the CD95 DISC</a>.
+  </p>
+  <ul>
+    <li><a href="https://pubmed.ncbi.nlm.nih.gov/15364960/" target="_blank" rel="noopener noreferrer">Bentele et al. 2004 — threshold mechanism in CD95-induced apoptosis</a> (PMID 15364960)</li>
+    <li><a href="https://pubmed.ncbi.nlm.nih.gov/17347143/" target="_blank" rel="noopener noreferrer">Lavrik et al. 2007 — sub-threshold CD95L transduces survival signalling</a> (PMID 17347143)</li>
+    <li><a href="https://pubmed.ncbi.nlm.nih.gov/20696707/" target="_blank" rel="noopener noreferrer">Fricker et al. 2010 — pro- and anti-apoptotic roles of c-FLIP<sub>L</sub></a> (PMID 20696707)</li>
+    <li><a href="https://pubmed.ncbi.nlm.nih.gov/20212524/" target="_blank" rel="noopener noreferrer">Neumann et al. 2010 — DISC dynamics decide life and death</a> (PMID 20212524)</li>
+    <li><a href="https://pubmed.ncbi.nlm.nih.gov/26990987/" target="_blank" rel="noopener noreferrer">Hughes et al. 2016 — co-operative, hierarchical c-FLIP/caspase-8 binding</a> (PMID 26990987)</li>
+    <li><a href="https://pubmed.ncbi.nlm.nih.gov/32009295/" target="_blank" rel="noopener noreferrer">Humphreys et al. 2020 — revised DISC assembly model for FLIP<sub>L</sub></a> (PMID 32009295)</li>
+  </ul>
+</section>
+
+</main>
+</div>
+
+<script type="module">
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+
+/* ------------------------------------------------------------------ model
+   Time is in arbitrary model units (t.u.). Every constant used here is listed
+   in the sources table below.                                            */
+const P = {
+  Nrec: 40000, sitesPerFadd: 3, ligandPerRatio: 1000,
+  kOnC8: 0.001, kOnFL: 1.0, kOnFS: 0.8,
+  koffC8: 0.05, koffFL: 0.002, koffFS: 0.01,
+  kA: 2e-6, acc: 100, decC8: 0.05, thrC8: 0.15,
+  kAct: 0.05, decC3: 0.01, thrC3: 1.0,
+  kP43FLIP: 1.0, decP43FLIP: 0.05, thrFLIP: 0.05,
+  degFL: 0.0058, degFS: 0.0173,
+  dt: 0.25, T: 480
+};
+
+function run({ FL, FS, C8, L }) {
+  const ratio = L / P.ligandPerRatio;
+  const active = Math.min(P.Nrec, P.Nrec * ratio);
+  const sites = P.sitesPerFadd * active;
+  let bC8 = 0, bFL = 0, bFS = 0, c8a = 0, c3 = 0, p43fl = 0;
+  let died = false, tDeath = Infinity, peakFL = 0;
+  const trace = [];
+  const steps = Math.round(P.T / P.dt);
+  for (let i = 0; i < steps; i++) {
+    const t = i * P.dt;
+    const freeC8 = Math.max(0, C8 - bC8), freeFL = Math.max(0, FL - bFL), freeFS = Math.max(0, FS - bFS);
+    const freeSites = Math.max(0, sites - bC8 - bFL - bFS);
+    let x = P.kOnC8 * freeC8 * freeSites, y = P.kOnFL * freeFL * freeSites, z = P.kOnFS * freeFS * freeSites;
+    const tot = x + y + z;
+    if (tot > freeSites && tot > 0) { const s = freeSites / tot; x *= s; y *= s; z *= s; }
+    bC8 += P.dt * (x - P.koffC8 * bC8);
+    bFL += P.dt * (y - P.koffFL * bFL);
+    bFS += P.dt * (z - P.koffFS * bFS);
+    bFL = Math.max(0, bFL - P.dt * P.degFL * bFL);
+    bFS = Math.max(0, bFS - P.dt * P.degFS * bFS);
+    const S = Math.max(sites, 1);
+    const f8 = bC8 / S, fL = bFL / S, fS = bFS / S;
+    const pairs = active * Math.min(3, 3 * f8 * f8);   // C8-C8 adjacencies across all DISCs
+    const rCF = 2 * f8 * fL;                          // C8-cFLIP_L adjacencies per DISC
+    const drive = P.kA * pairs * (1 + P.acc * rCF);
+    c8a += P.dt * (drive - P.decC8 * c8a);
+    c3 += P.dt * (P.kAct * c8a - P.decC3 * c3);
+    p43fl += P.dt * (P.kP43FLIP * rCF - P.decP43FLIP * p43fl);
+    if (c3 > P.thrC3 && c8a > P.thrC8 && !died) { died = true; tDeath = t; }
+    peakFL = Math.max(peakFL, p43fl);
+    if (i % 4 === 0) trace.push({ t, c8a, c3, p43fl, f8, fL, fS });
+  }
+  const S = Math.max(sites, 1);
+  const f = { f8: bC8 / S, fL: bFL / S, fS: bFS / S };
+  let outcome, note;
+  if (died) {
+    outcome = 'APOPTOSIS';
+    note = `Full processing of procaspase-8 reached the amplification threshold at t ≈ ${tDeath.toFixed(0)} t.u. ` +
+      `DISC occupancy: ${(f.f8 * 100).toFixed(0)}% procaspase-8, ${(f.fL * 100).toFixed(0)}% c-FLIP_L, ${(f.fS * 100).toFixed(0)}% c-FLIP_S/R.`;
+  } else if (peakFL > P.thrFLIP) {
+    outcome = 'SURVIVAL (NF-κB / ERK branch)';
+    note = `No full caspase-8 activation, but p43-FLIP was generated (peak ${peakFL.toFixed(2)} rel. units) — the Neumann et al. 2010 route to IKK and NF-κB. ` +
+      `c-FLIP_L occupies ${(f.fL * 100).toFixed(0)}% of DISC sites versus ${(f.f8 * 100).toFixed(0)}% procaspase-8: the site ratio, not the absolute c-FLIP level, is what blocks the platform.`;
+  } else if (f.fS > 0.02) {
+    outcome = 'NECROPTOSIS-PERMISSIVE';
+    note = `c-FLIP_S/R holds ${(f.fS * 100).toFixed(0)}% of DISC sites and cannot cleave RIPK1 — apoptosis is off and the RIPK1–RIPK3–MLKL axis is unopposed (if intact).`;
+  } else {
+    outcome = 'SURVIVAL (sub-threshold, no caspase-8 activation)';
+    note = `Too few active receptors to generate active caspase-8 and no p43-FLIP signal of consequence — the Lavrik et al. 2007 regime, where the DISC still forms but ERK/NF-κB signalling dominates.`;
+  }
+  return { trace, outcome, note, tDeath, died, f, peakFL, sites, active };
+}
+
+/* ------------------------------------------------------------------- ui */
+const $ = id => document.getElementById(id);
+const els = { flL: $('flL'), flS: $('flS'), c8: $('c8'), lig: $('lig'), vFL: $('vFL'), vFS: $('vFS'), vC8: $('vC8'), vL: $('vL'), outcome: $('outcome'), detail: $('detail') };
+const FL_MAX = 120000, C8_MIN = 1000, C8_MAX = 60000, L_MIN = 1, L_MAX = 5000;
+// slider 0 => 0 molecules; 1..100 => logarithmic
+const toVal = (s, lo, hi) => s <= 0 ? 0 : Math.round(lo * Math.pow(hi / lo, (s - 1) / 99));
+const toSlider = (v, lo, hi) => v <= 0 ? 0 : Math.round(1 + 99 * Math.log(v / lo) / Math.log(hi / lo));
+function readInputs() {
+  return {
+    FL: toVal(+els.flL.value, 30, FL_MAX),
+    FS: toVal(+els.flS.value, 30, FL_MAX),
+    C8: toVal(+els.c8.value, C8_MIN, C8_MAX),
+    L: toVal(+els.lig.value, L_MIN, L_MAX)
+  };
+}
+function writeInputs(v) {
+  els.flL.value = toSlider(v.FL, 30, FL_MAX); els.flS.value = toSlider(v.FS, 30, FL_MAX);
+  els.c8.value = toSlider(v.C8, C8_MIN, C8_MAX); els.lig.value = toSlider(v.L, L_MIN, L_MAX);
+}
+function refreshLabels() {
+  const v = readInputs();
+  els.vFL.textContent = v.FL; els.vFS.textContent = v.FS; els.vC8.textContent = v.C8; els.vL.textContent = v.L;
+}
+
+/* theme-aware colours (the site switches light/dark on <html data-theme>) */
+const cssVar = name => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+const COL = {};
+function readColors() {
+  COL.c8 = cssVar('--c-c8'); COL.fl = cssVar('--c-fl'); COL.fs = cssVar('--c-fs');
+  COL.fadd = cssVar('--c-fadd'); COL.rec = cssVar('--c-rec'); COL.p43f = cssVar('--c-p43');
+  COL.apop = cssVar('--c-apop'); COL.surv = cssVar('--c-surv'); COL.nec = cssVar('--c-nec');
+  COL.rule = cssVar('--rule'); COL.mute = cssVar('--mute');
+}
+
+/* --------------------------------------------------------------- three.js */
+const canvas = $('scene');
+const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true });
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+renderer.setClearColor(0x000000, 0);
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(42, 1, 0.1, 100);
+camera.position.set(1.7, 1.15, 7.9);
+const controls = new OrbitControls(camera, canvas);
+controls.enableDamping = true; controls.target.set(1.55, 0.2, 0);
+scene.add(new THREE.AmbientLight(0xfff2df, 0.9));
+const key = new THREE.DirectionalLight(0xffffff, 1.0); key.position.set(5, 8, 6); scene.add(key);
+const rim = new THREE.DirectionalLight(0x88bbff, 0.45); rim.position.set(-6, 3, -5); scene.add(rim);
+
+const sph = (r, c) => new THREE.Mesh(new THREE.SphereGeometry(r, 20, 14), new THREE.MeshStandardMaterial({ color: c, roughness: 0.4 }));
+const box = (w, h, d, c) => new THREE.Mesh(new THREE.BoxGeometry(w, h, d), new THREE.MeshStandardMaterial({ color: c, roughness: 0.5 }));
+function label(txt, color) {
+  const c = document.createElement('canvas'); c.width = 384; c.height = 96;
+  const x = c.getContext('2d');
+  x.fillStyle = 'rgba(10,12,18,0.8)'; x.fillRect(30, 18, 324, 60);
+  x.strokeStyle = color; x.lineWidth = 3; x.strokeRect(30, 18, 324, 60);
+  x.font = '600 34px ui-monospace, Menlo, monospace'; x.fillStyle = color;
+  x.textAlign = 'center'; x.textBaseline = 'middle'; x.fillText(txt, 192, 49);
+  const tex = new THREE.CanvasTexture(c);
+  const s = new THREE.Sprite(new THREE.SpriteMaterial({ map: tex, transparent: true, depthTest: false }));
+  s.scale.set(2.2, 0.55, 1); return s;
+}
+readColors();
+const memb = box(12, 0.03, 3.4, 0xc4ccd6); memb.material.transparent = true; memb.material.opacity = 0.4; memb.position.set(1.2, -0.66, 0); scene.add(memb);
+const rec = new THREE.Group(); scene.add(rec);
+[[-0.46, 0.2], [0.46, 0.2], [0, -0.34]].forEach(p => { const m = box(0.4, 0.4, 0.4, COL.rec); m.position.set(p[0], -0.46, p[1]); rec.add(m); });
+const recLab = label('CD95', COL.rec); recLab.position.set(-1.15, -0.58, 0); rec.add(recLab);
+const fadd = new THREE.Group(); scene.add(fadd);
+[[-0.4, 0.14], [0.4, 0.14], [0, -0.24]].forEach(p => { const m = box(0.26, 0.22, 0.26, COL.fadd); m.position.set(p[0], -0.16, p[1]); fadd.add(m); });
+
+const CHAIN = 8, POOL = 10, NB = CHAIN + POOL;
+const beads = [];
+const chainSlot = i => [0.62 + i * 0.34, -0.05 + i * 0.16, 0.18 - i * 0.08];
+const poolSlot = i => [2.45 + (i % 5) * 0.44, 0.02 + Math.floor(i / 5) * 0.44, -0.8 + (i % 3) * 0.36];
+for (let i = 0; i < NB; i++) {
+  const g = new THREE.Group();
+  g.add(sph(0.16, COL.c8));
+  const cat = box(0.19, 0.17, 0.19, COL.c8); cat.position.y = -0.22; g.add(cat);
+  const slot = i < CHAIN ? chainSlot(i) : poolSlot(i - CHAIN);
+  g.userData = { slot, cat };
+  g.position.set(...slot);
+  scene.add(g); beads.push(g);
+}
+const pool = label('free cytosolic pool', COL.fl); pool.position.set(3.15, 1.6, -0.9); pool.scale.set(1.7, 0.42, 1); scene.add(pool);
+function resize3d() {
+  const w = canvas.clientWidth, h = canvas.clientHeight;
+  renderer.setSize(w, h, false); camera.aspect = w / h; camera.updateProjectionMatrix();
+}
+addEventListener('resize', resize3d);
+
+/* ------------------------------------------------------------ 2d canvases */
+const traceCv = $('trace'), phaseCv = $('phase');
+function ctx2d(cv) {
+  const dpr = Math.min(devicePixelRatio, 2), w = cv.clientWidth, h = cv.clientHeight;
+  cv.width = w * dpr; cv.height = h * dpr;
+  const x = cv.getContext('2d'); x.setTransform(dpr, 0, 0, dpr, 0, 0);
+  return { x, w, h };
+}
+function drawTrace(res) {
+  const { x, w, h } = ctx2d(traceCv);
+  x.clearRect(0, 0, w, h);
+  const L = 38, R = 16, T = 12, B = 26;
+  const pw = w - L - R, ph = h - T - B;
+  x.strokeStyle = COL.rule; x.beginPath(); x.moveTo(L, T); x.lineTo(L, T + ph); x.lineTo(L + pw, T + ph); x.stroke();
+  const maxV = Math.max(1e-6, ...res.trace.map(d => Math.max(d.c8a, d.c3, d.p43fl)));
+  const X = t => L + (t / P.T) * pw, Y = v => T + ph - (v / maxV) * ph;
+  x.fillStyle = COL.mute; x.font = '11px ui-monospace, Menlo, monospace';
+  x.fillText('0', L - 4, T + ph + 15);
+  x.fillText(`${P.T} t.u.`, L + pw - 46, T + ph + 15);
+  x.fillText(maxV.toFixed(1), 4, T + 8);
+  const line = (key, col) => {
+    x.strokeStyle = col; x.lineWidth = 2; x.beginPath();
+    res.trace.forEach((d, i) => { const px = X(d.t), py = Y(d[key]); i ? x.lineTo(px, py) : x.moveTo(px, py); });
+    x.stroke();
+  };
+  line('c8a', COL.apop); line('c3', COL.surv); line('p43fl', COL.p43f);
+  if (res.died) {
+    x.strokeStyle = COL.apop; x.setLineDash([4, 4]); x.beginPath();
+    x.moveTo(X(res.tDeath), T); x.lineTo(X(res.tDeath), T + ph); x.stroke(); x.setLineDash([]);
+  }
+}
+const GRID = { nx: 44, ny: 30 };
+const phaseKey = o => o.startsWith('APOP') ? 'apop' : o.startsWith('NEC') ? 'nec' : 'surv';
+function drawPhase() {
+  const { x, w, h } = ctx2d(phaseCv);
+  x.clearRect(0, 0, w, h);
+  const L = 46, R = 14, T = 12, B = 34;
+  const pw = w - L - R, ph = h - T - B;
+  const cellW = pw / GRID.nx, cellH = ph / GRID.ny;
+  const { L: ligand, FS } = readInputs();
+  for (let j = 0; j < GRID.ny; j++) {
+    for (let i = 0; i < GRID.nx; i++) {
+      const FL = i === 0 ? 0 : Math.round(30 * Math.pow(FL_MAX / 30, (i - 1) / (GRID.nx - 2)));
+      const C8 = Math.round(C8_MIN * Math.pow(C8_MAX / C8_MIN, 1 - j / (GRID.ny - 1)));
+      const r = run({ FL, FS, C8, L: ligand });
+      const k = phaseKey(r.outcome);
+      x.fillStyle = k === 'apop' ? COL.apop : k === 'nec' ? COL.nec : COL.surv;
+      x.fillRect(L + i * cellW, T + j * cellH, cellW + 1, cellH + 1);
+    }
+  }
+  const cur = readInputs();
+  const fx = cur.FL <= 0 ? 0 : (Math.log(cur.FL / 30) / Math.log(FL_MAX / 30)) * (GRID.nx - 2) / (GRID.nx - 1);
+  const fy = 1 - Math.log(cur.C8 / C8_MIN) / Math.log(C8_MAX / C8_MIN);
+  x.strokeStyle = COL.rule; x.lineWidth = 2;
+  x.strokeRect(L + fx * pw - 4, T + fy * ph - 4, 8, 8);
+  x.fillStyle = COL.mute; x.font = '11px ui-monospace, Menlo, monospace';
+  x.fillText('c-FLIP_L →', L + pw / 2 - 32, T + ph + 26);
+  x.save(); x.translate(13, T + ph / 2 + 34); x.rotate(-Math.PI / 2); x.fillText('procaspase-8 →', 0, 0); x.restore();
+}
+phaseCv.addEventListener('click', ev => {
+  const rect = phaseCv.getBoundingClientRect();
+  const L = 46, R = 14, T = 12, B = 34;
+  const pw = rect.width - L - R, ph = rect.height - T - B;
+  const fx = (ev.clientX - rect.left - L) / pw, fy = (ev.clientY - rect.top - T) / ph;
+  const FL = fx <= 0 ? 0 : Math.round(30 * Math.pow(FL_MAX / 30, Math.min(1, Math.max(0, fx))));
+  const C8 = Math.round(C8_MIN * Math.pow(C8_MAX / C8_MIN, Math.min(1, Math.max(0, 1 - fy))));
+  const cur = readInputs();
+  writeInputs({ FL, FS: cur.FS, C8, L: cur.L });
+  refreshLabels(); phaseDirty = true; update();
+});
+
+/* --------------------------------------------------------------- controls */
+let playing = true, res = null, phaseDirty = true, frame = 0;
+const PRESETS = {
+  b: { FL: 320, FS: 320, C8: 30000, L: 200 },
+  n: { FL: 6400, FS: 0, C8: 30000, L: 30 },
+  f: { FL: 6400, FS: 0, C8: 30000, L: 3000 },
+  s: { FL: 320, FS: 6400, C8: 30000, L: 30 },
+  z: { FL: 0, FS: 0, C8: 30000, L: 3000 }
+};
+document.querySelectorAll('#presets button').forEach(b => b.addEventListener('click', () => {
+  writeInputs(PRESETS[b.dataset.p]); refreshLabels(); phaseDirty = true; update();
+}));
+[els.flL, els.flS, els.c8, els.lig].forEach(s => s.addEventListener('input', () => { refreshLabels(); phaseDirty = true; update(); }));
+$('run').addEventListener('click', () => { playing = !playing; $('run').textContent = playing ? 'Pause' : 'Play'; });
+$('reset').addEventListener('click', () => { phaseDirty = true; update(); });
+
+function update() {
+  const r = res || run(readInputs());
+  els.outcome.textContent = r.outcome;
+  els.outcome.style.background = r.outcome.startsWith('APOP') ? 'color-mix(in srgb, var(--c-apop) 14%, transparent)'
+    : r.outcome.startsWith('NEC') ? 'color-mix(in srgb, var(--c-nec) 14%, transparent)'
+      : 'color-mix(in srgb, var(--c-surv) 14%, transparent)';
+  els.outcome.style.borderColor = r.outcome.startsWith('APOP') ? 'var(--c-apop)' : r.outcome.startsWith('NEC') ? 'var(--c-nec)' : 'var(--c-surv)';
+  els.detail.textContent = r.note;
+  drawTrace(r);
+  if (phaseDirty) { drawPhase(); phaseDirty = false; }
+}
+function paintBeads(r) {
+  const inp = readInputs();
+  const S = Math.max(r.sites, 1);
+  const bound = [
+    { n: Math.round(r.f.fL * S), col: COL.fl, cat: true },
+    { n: Math.round(r.f.fS * S), col: COL.fs, cat: false },
+    { n: Math.round(r.f.f8 * S), col: COL.c8, cat: true }
+  ];
+  const bTotal = bound.reduce((s, c) => s + c.n, 0);
+  const bScale = bTotal > CHAIN ? CHAIN / bTotal : 1;
+  const chainTokens = [];
+  for (const c of bound) for (let k = 0; k < c.n * bScale; k++) chainTokens.push(c);
+  const free = [
+    { n: Math.max(0, inp.FL - bound[0].n), col: COL.fl, cat: true },
+    { n: Math.max(0, inp.FS - bound[1].n), col: COL.fs, cat: false },
+    { n: Math.max(0, inp.C8 - bound[2].n), col: COL.c8, cat: true }
+  ];
+  const fTotal = free.reduce((s, c) => s + c.n, 0) || 1;
+  const poolTokens = [];
+  for (const c of free) for (let k = 0; k < c.n * (POOL / fTotal); k++) poolTokens.push(c);
+  beads.forEach((g, i) => {
+    const tok = i < CHAIN ? chainTokens[i] : poolTokens[i - CHAIN];
+    g.children[0].material.color.set(tok ? tok.col : COL.c8);
+    g.userData.cat.visible = !!tok && tok.cat;
+    if (g.userData.cat.visible) g.userData.cat.material.color.set(tok.col);
+    g.position.lerp(new THREE.Vector3(...g.userData.slot), 0.06);
+  });
+}
+function animate() {
+  requestAnimationFrame(animate);
+  frame++;
+  if (playing && frame % 6 === 0) { res = run(readInputs()); update(); }
+  if (res) paintBeads(res);
+  controls.update(); renderer.render(scene, camera);
+}
+// theme switch -> recolour and repaint
+new MutationObserver(() => { readColors(); phaseDirty = true; update(); }).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+
+refreshLabels(); resize3d(); res = run(readInputs()); update(); animate();
+</script>
+</body>
+</html>

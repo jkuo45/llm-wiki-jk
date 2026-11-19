@@ -824,4 +824,24 @@
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/pro-phagocytic-and-anti-phagocytic-signals.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/pro-phagocytic-and-anti-phagocytic-signals.html"/>
   </url>
+  <url>
+    <loc>https://graph.johnnykuo.com/pages/en-US/disc-rheostat-sim.html</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/disc-rheostat-sim.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/disc-rheostat-sim.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/disc-rheostat-sim.html"/>
+  </url>
+
+  <url>
+    <loc>https://graph.johnnykuo.com/pages/zh-TW/disc-rheostat-sim.html</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/disc-rheostat-sim.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/disc-rheostat-sim.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/disc-rheostat-sim.html"/>
+  </url>
+
 </urlset>

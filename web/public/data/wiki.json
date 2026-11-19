@@ -1,5 +1,5 @@
 {
-  "generated": "19_NOV_2026 11:05 AM PST",
+  "generated": "19_NOV_2026 12:52 PM PST",
   "wiki": [
     {
       "id": "wiki-index",
@@ -1339,6 +1339,32 @@
         "words": 836,
         "images": 0,
         "links": 38,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Caspase-8-c-FLIP Rheostat",
+      "langs": {
+        "en-US": {
+          "title": "Caspase-8-c-FLIP Rheostat",
+          "description": "The quantitative switch in which the ratio of caspase-8 homodimers to c-FLIP heterodimers at DISC, complex II and ripoptosome decides between apoptosis, necroptosis and survival.",
+          "created": "2026-09-03",
+          "updated": "2026-11-19",
+          "tags": [
+            "mechanism",
+            "cell-death",
+            "apoptosis",
+            "necroptosis"
+          ],
+          "filename": "Caspase-8-c-FLIP Rheostat.md",
+          "path": "wiki/en-US/cell-death/Caspase-8-c-FLIP%20Rheostat.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Caspase-8-c-FLIP%20Rheostat.md"
+        }
+      },
+      "stats": {
+        "words": 1210,
+        "images": 0,
+        "links": 116,
         "diagrams": 0
       }
     },
@@ -6765,46 +6791,6 @@
       }
     },
     {
-      "id": "P-selectin",
-      "langs": {
-        "en-US": {
-          "title": "P-selectin",
-          "description": "Platelet and endothelial adhesion molecule that mediates the platelet-neutrophil interaction required for LPS-triggered vital NETosis.",
-          "created": "2026-11-09",
-          "updated": "2026-11-09",
-          "tags": [
-            "protein",
-            "platelet",
-            "inflammation",
-            "innate-immunity"
-          ],
-          "filename": "P-selectin.md",
-          "path": "wiki/en-US/_link/P-selectin.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/P-selectin.md"
-        },
-        "zh-TW": {
-          "title": "P-selectin",
-          "description": "血小板與內皮黏附分子，介導 LPS 觸發的 vital NETosis 所需的血小板-中性粒細胞交互作用。",
-          "created": "2026-11-09",
-          "updated": "2026-11-09",
-          "tags": [
-            "protein",
-            "platelet",
-            "inflammation",
-            "innate-immunity"
-          ],
-          "filename": "P-selectin.md",
-          "path": "wiki/zh-TW/_link/P-selectin.md"
-        }
-      },
-      "stats": {
-        "words": 204,
-        "images": 0,
-        "links": 24,
-        "diagrams": 0
-      }
-    },
-    {
       "id": "Senescence",
       "langs": {
         "en-US": {
@@ -6843,6 +6829,46 @@
         "words": 3167,
         "images": 0,
         "links": 200,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "P-selectin",
+      "langs": {
+        "en-US": {
+          "title": "P-selectin",
+          "description": "Platelet and endothelial adhesion molecule that mediates the platelet-neutrophil interaction required for LPS-triggered vital NETosis.",
+          "created": "2026-11-09",
+          "updated": "2026-11-09",
+          "tags": [
+            "protein",
+            "platelet",
+            "inflammation",
+            "innate-immunity"
+          ],
+          "filename": "P-selectin.md",
+          "path": "wiki/en-US/_link/P-selectin.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/P-selectin.md"
+        },
+        "zh-TW": {
+          "title": "P-selectin",
+          "description": "血小板與內皮黏附分子，介導 LPS 觸發的 vital NETosis 所需的血小板-中性粒細胞交互作用。",
+          "created": "2026-11-09",
+          "updated": "2026-11-09",
+          "tags": [
+            "protein",
+            "platelet",
+            "inflammation",
+            "innate-immunity"
+          ],
+          "filename": "P-selectin.md",
+          "path": "wiki/zh-TW/_link/P-selectin.md"
+        }
+      },
+      "stats": {
+        "words": 204,
+        "images": 0,
+        "links": 24,
         "diagrams": 0
       }
     },
@@ -7327,44 +7353,6 @@
       }
     },
     {
-      "id": "miR-134",
-      "langs": {
-        "en-US": {
-          "title": "miR-134",
-          "description": "Brain-enriched microRNA repressed by SIRT1 to permit CREB and BDNF expression; the SIRT1–miR-134–CREB–BDNF axis promotes memory formation and synaptic plasticity.",
-          "created": "2026-11-10",
-          "updated": "2026-11-10",
-          "tags": [
-            "microRNA",
-            "brain",
-            "memory"
-          ],
-          "filename": "miR-134.md",
-          "path": "wiki/en-US/_link/miR-134.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/miR-134.md"
-        },
-        "zh-TW": {
-          "title": "miR-134",
-          "description": "受 SIRT1 抑制的腦富集微小 RNA，使 CREB 與 BDNF 表現得以發生；SIRT1–miR-134–CREB–BDNF 軸促進記憶形成與突觸可塑性。",
-          "created": "2026-11-10",
-          "updated": "2026-11-10",
-          "tags": [
-            "microRNA",
-            "brain",
-            "memory"
-          ],
-          "filename": "miR-134.md",
-          "path": "wiki/zh-TW/_link/miR-134.md"
-        }
-      },
-      "stats": {
-        "words": 162,
-        "images": 0,
-        "links": 15,
-        "diagrams": 0
-      }
-    },
-    {
       "id": "Lactotransferrin",
       "langs": {
         "en-US": {
@@ -7401,6 +7389,44 @@
         "words": 171,
         "images": 0,
         "links": 25,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "miR-134",
+      "langs": {
+        "en-US": {
+          "title": "miR-134",
+          "description": "Brain-enriched microRNA repressed by SIRT1 to permit CREB and BDNF expression; the SIRT1–miR-134–CREB–BDNF axis promotes memory formation and synaptic plasticity.",
+          "created": "2026-11-10",
+          "updated": "2026-11-10",
+          "tags": [
+            "microRNA",
+            "brain",
+            "memory"
+          ],
+          "filename": "miR-134.md",
+          "path": "wiki/en-US/_link/miR-134.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/miR-134.md"
+        },
+        "zh-TW": {
+          "title": "miR-134",
+          "description": "受 SIRT1 抑制的腦富集微小 RNA，使 CREB 與 BDNF 表現得以發生；SIRT1–miR-134–CREB–BDNF 軸促進記憶形成與突觸可塑性。",
+          "created": "2026-11-10",
+          "updated": "2026-11-10",
+          "tags": [
+            "microRNA",
+            "brain",
+            "memory"
+          ],
+          "filename": "miR-134.md",
+          "path": "wiki/zh-TW/_link/miR-134.md"
+        }
+      },
+      "stats": {
+        "words": 162,
+        "images": 0,
+        "links": 15,
         "diagrams": 0
       }
     },
@@ -10967,46 +10993,6 @@
       }
     },
     {
-      "id": "Antiphospholipid Syndrome",
-      "langs": {
-        "en-US": {
-          "title": "Antiphospholipid Syndrome",
-          "description": "Autoimmune thrombophilia defined by antiphospholipid antibodies plus arterial/venous thrombosis or pregnancy morbidity; APS patient autoantibodies induce eryptosis in healthy red cells, offering a route to the prothrombotic erythrocyte phenotype.",
-          "created": "2026-10-08",
-          "updated": "2026-10-08",
-          "tags": [
-            "disease",
-            "autoimmune",
-            "thrombosis",
-            "autoimmune-hemolytic-anemia"
-          ],
-          "filename": "Antiphospholipid Syndrome.md",
-          "path": "wiki/en-US/_link/Antiphospholipid%20Syndrome.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Antiphospholipid%20Syndrome.md"
-        },
-        "zh-TW": {
-          "title": "Antiphospholipid Syndrome（抗磷脂症候群）",
-          "description": "由抗磷脂抗體加上動脈／靜脈血栓或妊娠罹病所定義的自體免疫性血栓形成傾向；APS 患者的自體抗體在健康紅血球中誘導 eryptosis，提供通往促血栓性紅血球表型的途徑。",
-          "created": "2026-10-08",
-          "updated": "2026-10-08",
-          "tags": [
-            "disease",
-            "autoimmune",
-            "thrombosis",
-            "autoimmune-hemolytic-anemia"
-          ],
-          "filename": "Antiphospholipid Syndrome.md",
-          "path": "wiki/zh-TW/_link/Antiphospholipid%20Syndrome.md"
-        }
-      },
-      "stats": {
-        "words": 319,
-        "images": 0,
-        "links": 20,
-        "diagrams": 0
-      }
-    },
-    {
       "id": "Histone H2A",
       "langs": {
         "en-US": {
@@ -11045,6 +11031,46 @@
         "words": 1192,
         "images": 0,
         "links": 90,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Antiphospholipid Syndrome",
+      "langs": {
+        "en-US": {
+          "title": "Antiphospholipid Syndrome",
+          "description": "Autoimmune thrombophilia defined by antiphospholipid antibodies plus arterial/venous thrombosis or pregnancy morbidity; APS patient autoantibodies induce eryptosis in healthy red cells, offering a route to the prothrombotic erythrocyte phenotype.",
+          "created": "2026-10-08",
+          "updated": "2026-10-08",
+          "tags": [
+            "disease",
+            "autoimmune",
+            "thrombosis",
+            "autoimmune-hemolytic-anemia"
+          ],
+          "filename": "Antiphospholipid Syndrome.md",
+          "path": "wiki/en-US/_link/Antiphospholipid%20Syndrome.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Antiphospholipid%20Syndrome.md"
+        },
+        "zh-TW": {
+          "title": "Antiphospholipid Syndrome（抗磷脂症候群）",
+          "description": "由抗磷脂抗體加上動脈／靜脈血栓或妊娠罹病所定義的自體免疫性血栓形成傾向；APS 患者的自體抗體在健康紅血球中誘導 eryptosis，提供通往促血栓性紅血球表型的途徑。",
+          "created": "2026-10-08",
+          "updated": "2026-10-08",
+          "tags": [
+            "disease",
+            "autoimmune",
+            "thrombosis",
+            "autoimmune-hemolytic-anemia"
+          ],
+          "filename": "Antiphospholipid Syndrome.md",
+          "path": "wiki/zh-TW/_link/Antiphospholipid%20Syndrome.md"
+        }
+      },
+      "stats": {
+        "words": 319,
+        "images": 0,
+        "links": 20,
         "diagrams": 0
       }
     },
@@ -12105,6 +12131,40 @@
       }
     },
     {
+      "id": "Aging",
+      "langs": {
+        "en-US": {
+          "title": "Aging",
+          "description": "The relationship between aging and Epigenetics is a central focus of modern Geroscience. Epigenetics refers to chemical modifications to DNA and its associated proteins that regulate gene expre...",
+          "created": "2026-05-29",
+          "updated": "2026-05-29",
+          "tags": [
+            "biological-process"
+          ],
+          "filename": "Aging.md",
+          "path": "wiki/en-US/_link/Aging.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Aging.md"
+        },
+        "zh-TW": {
+          "title": "Aging（老化）",
+          "description": "老化與表觀遺傳學的關係是現代老年生物學的核心焦點。表觀遺傳學是指對 DNA 及其相關蛋白質的化學修飾，這些修飾可在不改變基因序列的情況下調節基因表現……",
+          "created": "2026-05-29",
+          "updated": "2026-05-29",
+          "tags": [
+            "biological-process"
+          ],
+          "filename": "Aging.md",
+          "path": "wiki/zh-TW/_link/Aging.md"
+        }
+      },
+      "stats": {
+        "words": 1399,
+        "images": 0,
+        "links": 77,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "Thromboembolism",
       "langs": {
         "en-US": {
@@ -12175,40 +12235,6 @@
         "words": 2194,
         "images": 0,
         "links": 213,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "Aging",
-      "langs": {
-        "en-US": {
-          "title": "Aging",
-          "description": "The relationship between aging and Epigenetics is a central focus of modern Geroscience. Epigenetics refers to chemical modifications to DNA and its associated proteins that regulate gene expre...",
-          "created": "2026-05-29",
-          "updated": "2026-05-29",
-          "tags": [
-            "biological-process"
-          ],
-          "filename": "Aging.md",
-          "path": "wiki/en-US/_link/Aging.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Aging.md"
-        },
-        "zh-TW": {
-          "title": "Aging（老化）",
-          "description": "老化與表觀遺傳學的關係是現代老年生物學的核心焦點。表觀遺傳學是指對 DNA 及其相關蛋白質的化學修飾，這些修飾可在不改變基因序列的情況下調節基因表現……",
-          "created": "2026-05-29",
-          "updated": "2026-05-29",
-          "tags": [
-            "biological-process"
-          ],
-          "filename": "Aging.md",
-          "path": "wiki/zh-TW/_link/Aging.md"
-        }
-      },
-      "stats": {
-        "words": 1399,
-        "images": 0,
-        "links": 77,
         "diagrams": 0
       }
     },
@@ -13037,6 +13063,40 @@
       }
     },
     {
+      "id": "PARP1",
+      "langs": {
+        "en-US": {
+          "title": "PARP1",
+          "description": "PARP1 (Poly [ADP-ribose] polymerase 1, 116 kDa) is a nuclear zinc-finger enzyme that detects DNA strand breaks and catalyzes the transfer of ADP-ribose units from NAD+ onto target proteins, forming poly(ADP-ribose) (PAR) chains.",
+          "created": "2024-01-01",
+          "updated": "2026-09-14",
+          "tags": [
+            "enzyme"
+          ],
+          "filename": "PARP1.md",
+          "path": "wiki/en-US/cell-death/PARP1.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/PARP1.md"
+        },
+        "zh-TW": {
+          "title": "PARP1",
+          "description": "PARP1（Poly [ADP-ribose] polymerase 1，分子量 116 kDa）是一種細胞核鋅指酵素，可偵測 DNA 鏈斷裂，並催化 ADP-核糖單元從 NAD+ 轉移至目標蛋白質，形成聚（ADP-核糖）（PAR）鏈。",
+          "created": "2024-01-01",
+          "updated": "2026-09-14",
+          "tags": [
+            "enzyme"
+          ],
+          "filename": "PARP1.md",
+          "path": "wiki/zh-TW/cell-death/PARP1.md"
+        }
+      },
+      "stats": {
+        "words": 2878,
+        "images": 0,
+        "links": 133,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "Lysosomal Storage Diseases",
       "langs": {
         "en-US": {
@@ -13071,40 +13131,6 @@
         "words": 1924,
         "images": 0,
         "links": 39,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "PARP1",
-      "langs": {
-        "en-US": {
-          "title": "PARP1",
-          "description": "PARP1 (Poly [ADP-ribose] polymerase 1, 116 kDa) is a nuclear zinc-finger enzyme that detects DNA strand breaks and catalyzes the transfer of ADP-ribose units from NAD+ onto target proteins, forming poly(ADP-ribose) (PAR) chains.",
-          "created": "2024-01-01",
-          "updated": "2026-09-14",
-          "tags": [
-            "enzyme"
-          ],
-          "filename": "PARP1.md",
-          "path": "wiki/en-US/cell-death/PARP1.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/PARP1.md"
-        },
-        "zh-TW": {
-          "title": "PARP1",
-          "description": "PARP1（Poly [ADP-ribose] polymerase 1，分子量 116 kDa）是一種細胞核鋅指酵素，可偵測 DNA 鏈斷裂，並催化 ADP-核糖單元從 NAD+ 轉移至目標蛋白質，形成聚（ADP-核糖）（PAR）鏈。",
-          "created": "2024-01-01",
-          "updated": "2026-09-14",
-          "tags": [
-            "enzyme"
-          ],
-          "filename": "PARP1.md",
-          "path": "wiki/zh-TW/cell-death/PARP1.md"
-        }
-      },
-      "stats": {
-        "words": 2878,
-        "images": 0,
-        "links": 133,
         "diagrams": 0
       }
     },
@@ -13189,48 +13215,6 @@
       }
     },
     {
-      "id": "HSF1",
-      "langs": {
-        "en-US": {
-          "title": "HSF1",
-          "description": "HSF1 (heat shock factor 1, HSTF1) is the mammalian stress-activated transcription factor that trimerises on heat and other proteotoxic stress, binds inverted NGAAN repeats in heat shock element promoters, and induces the chaperone network. It is held inactive by Hsp90 and is a validated cancer dependency.",
-          "created": "2026-07-04",
-          "updated": "2026-10-01",
-          "tags": [
-            "protein",
-            "transcription-factor",
-            "proteostasis",
-            "stress-response",
-            "cancer"
-          ],
-          "filename": "HSF1.md",
-          "path": "wiki/en-US/_link/HSF1.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/HSF1.md"
-        },
-        "zh-TW": {
-          "title": "HSF1",
-          "description": "HSF1（heat shock factor 1，HSTF1）是哺乳類的壓力活化型轉錄因子，會在熱壓力與其他蛋白毒性壓力下形成三聚體，結合熱休克元件啟動子中的反轉 NGAAN 重複序列，並誘導分子伴護蛋白網絡。它受 Hsp90 抑制而處於不活化狀態，並且是經過驗證的癌症依賴因子。",
-          "created": "2026-07-04",
-          "updated": "2026-10-01",
-          "tags": [
-            "protein",
-            "transcription-factor",
-            "proteostasis",
-            "stress-response",
-            "cancer"
-          ],
-          "filename": "HSF1.md",
-          "path": "wiki/zh-TW/_link/HSF1.md"
-        }
-      },
-      "stats": {
-        "words": 1377,
-        "images": 0,
-        "links": 59,
-        "diagrams": 0
-      }
-    },
-    {
       "id": "Parkinson's Disease",
       "langs": {
         "en-US": {
@@ -13273,6 +13257,48 @@
         "words": 1888,
         "images": 0,
         "links": 166,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "HSF1",
+      "langs": {
+        "en-US": {
+          "title": "HSF1",
+          "description": "HSF1 (heat shock factor 1, HSTF1) is the mammalian stress-activated transcription factor that trimerises on heat and other proteotoxic stress, binds inverted NGAAN repeats in heat shock element promoters, and induces the chaperone network. It is held inactive by Hsp90 and is a validated cancer dependency.",
+          "created": "2026-07-04",
+          "updated": "2026-10-01",
+          "tags": [
+            "protein",
+            "transcription-factor",
+            "proteostasis",
+            "stress-response",
+            "cancer"
+          ],
+          "filename": "HSF1.md",
+          "path": "wiki/en-US/_link/HSF1.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/HSF1.md"
+        },
+        "zh-TW": {
+          "title": "HSF1",
+          "description": "HSF1（heat shock factor 1，HSTF1）是哺乳類的壓力活化型轉錄因子，會在熱壓力與其他蛋白毒性壓力下形成三聚體，結合熱休克元件啟動子中的反轉 NGAAN 重複序列，並誘導分子伴護蛋白網絡。它受 Hsp90 抑制而處於不活化狀態，並且是經過驗證的癌症依賴因子。",
+          "created": "2026-07-04",
+          "updated": "2026-10-01",
+          "tags": [
+            "protein",
+            "transcription-factor",
+            "proteostasis",
+            "stress-response",
+            "cancer"
+          ],
+          "filename": "HSF1.md",
+          "path": "wiki/zh-TW/_link/HSF1.md"
+        }
+      },
+      "stats": {
+        "words": 1377,
+        "images": 0,
+        "links": 59,
         "diagrams": 0
       }
     },
@@ -14163,40 +14189,6 @@
       }
     },
     {
-      "id": "Biomarkers",
-      "langs": {
-        "en-US": {
-          "title": "Biomarkers",
-          "description": "In the field of Geroscience, biomarkers are essential tools for measuring the physiological state of an organism and predicting its future health outcomes. Epigenetics-based biomarkers, particu...",
-          "created": "2024-01-01",
-          "updated": "2026-10-01",
-          "tags": [
-            "biological-molecule"
-          ],
-          "filename": "Biomarkers.md",
-          "path": "wiki/en-US/_link/Biomarkers.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Biomarkers.md"
-        },
-        "zh-TW": {
-          "title": "Biomarkers",
-          "description": "在老年生物學領域，生物標記是測量一個生物體生理狀態並預測其未來健康結果的必備工具。以表觀遺傳學為基礎的生物標記，特別是…",
-          "created": "2024-01-01",
-          "updated": "2026-10-01",
-          "tags": [
-            "biological-molecule"
-          ],
-          "filename": "Biomarkers.md",
-          "path": "wiki/zh-TW/_link/Biomarkers.md"
-        }
-      },
-      "stats": {
-        "words": 570,
-        "images": 0,
-        "links": 35,
-        "diagrams": 0
-      }
-    },
-    {
       "id": "Malondialdehyde",
       "langs": {
         "en-US": {
@@ -14229,6 +14221,40 @@
         "words": 879,
         "images": 0,
         "links": 85,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Biomarkers",
+      "langs": {
+        "en-US": {
+          "title": "Biomarkers",
+          "description": "In the field of Geroscience, biomarkers are essential tools for measuring the physiological state of an organism and predicting its future health outcomes. Epigenetics-based biomarkers, particu...",
+          "created": "2024-01-01",
+          "updated": "2026-10-01",
+          "tags": [
+            "biological-molecule"
+          ],
+          "filename": "Biomarkers.md",
+          "path": "wiki/en-US/_link/Biomarkers.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Biomarkers.md"
+        },
+        "zh-TW": {
+          "title": "Biomarkers",
+          "description": "在老年生物學領域，生物標記是測量一個生物體生理狀態並預測其未來健康結果的必備工具。以表觀遺傳學為基礎的生物標記，特別是…",
+          "created": "2024-01-01",
+          "updated": "2026-10-01",
+          "tags": [
+            "biological-molecule"
+          ],
+          "filename": "Biomarkers.md",
+          "path": "wiki/zh-TW/_link/Biomarkers.md"
+        }
+      },
+      "stats": {
+        "words": 570,
+        "images": 0,
+        "links": 35,
         "diagrams": 0
       }
     },
