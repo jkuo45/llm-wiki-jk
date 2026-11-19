@@ -1,5 +1,5 @@
 {
-  "generated": "17_NOV_2026 09:18 AM PST",
+  "generated": "18_NOV_2026 12:03 PM PST",
   "tasks": [
     {
       "id": "tasks-index",
@@ -76,9 +76,9 @@
       "langs": {
         "en-US": {
           "title": "Adrenochrome, aminoguanidine and methylene blue protocol review",
-          "description": "Evidence synthesis of vault protocol documents and published web pages for adrenochrome, aminoguanidine, methylene blue and carbazochrome, with recent external research through November 2026 and cross-reference to Nesci and Algieri 2026 mitochondrial dysfunction and inflammaging review, annotated by evidence tier.",
+          "description": "Evidence synthesis of vault protocol documents and published web pages for adrenochrome, aminoguanidine, methylene blue and carbazochrome, with recent external research through November 2026, cross-reference to Nesci and Algieri 2026 mitochondrial dysfunction and inflammaging review, and — added 18_Nov_2026 — five novel longevity-directed hypotheses (HSC redox preconditioning, transient PTP1B redox switching, neuromelanin-type labile-iron buffering, self-limiting beta-2 adrenergic inactivation, MPO-activated leuco-adrenochrome prodrug) with their external component evidence and a plausibility assessment of the hypotheses against the MRR/GOPS/SRAC protocol constructs; annotated by evidence tier.",
           "created": "2026-11-12",
-          "updated": "2026-11-13",
+          "updated": "2026-11-18",
           "tags": [
             "adrenochrome",
             "aminoguanidine",
@@ -93,9 +93,9 @@
         },
         "zh-TW": {
           "title": "腎上腺色素、氨基胍與亞甲藍方案綜述",
-          "description": "彙整知識庫方案文件與公開網頁，探討腎上腺色素、氨基胍、亞甲藍與 carbazochrome，並納入截至 2026 年 11 月的近期外部研究，另與 Nesci 與 Algieri 2026 粒線體功能障礙與 inflammaging 綜述交叉比對；均標註證據層級。",
+          "description": "彙整知識庫方案文件與公開網頁，探討腎上腺色素、氨基胍、亞甲藍與 carbazochrome，並納入截至 2026 年 11 月的近期外部研究，另與 Nesci 與 Algieri 2026 粒線體功能障礙與 inflammaging 綜述交叉比對；2026-11-18 增補五個新穎長壽導向假說（造血幹細胞氧化還原預處理、短暫 PTP1B 氧化還原開關、神經黑素型不安定鐵緩衝、自我限制 β2 腎上腺素受體失活、MPO 活化 leuco-adrenochrome 前驅藥物）、其外部組成證據，以及假說對 MRR/GOPS/SRAC 協定構建的合理性評估；均標註證據層級。",
           "created": "2026-11-12",
-          "updated": "2026-11-13",
+          "updated": "2026-11-18",
           "tags": [
             "adrenochrome",
             "aminoguanidine",
@@ -110,9 +110,9 @@
         }
       },
       "stats": {
-        "words": 2714,
+        "words": 5776,
         "images": 0,
-        "links": 41,
+        "links": 70,
         "diagrams": 0
       }
     },
