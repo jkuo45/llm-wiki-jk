@@ -3,7 +3,7 @@ title: PRDX1
 description: PRDX1 (peroxiredoxin-1) is a thioredoxin-dependent peroxidase with a catalytic cysteine that acts as a fast H2O2 scavenger, a redox sensor, and a holdase chaperone, and it constrains ferroptosis by limiting lipid hydroperoxide accumulation.
 protected: false
 created: 2026-10-22
-updated: 2026-10-22
+updated: 2026-11-19
 tags: [protein, enzyme, oxidative-stress]
 url: #
 source: #
@@ -18,7 +18,7 @@ aliases: [Peroxiredoxin 1, Prdx1]
 
 ## Structure & Domains
 
-PRDX1 is a ~24 kDa homodimer. Each monomer carries two conserved cysteines: the N-terminal peroxidatic Cys52 (oxidation-prone) and the C-terminal resolving Cys173, separated by ~20 residues and buried within a thioredoxin-fold core. A long flexible C-terminal tail wraps around the partner subunit and is required for efficient thioredoxin-mediated recycling. The dimer is further wrapped into higher-order oligomers (hexamers and higher), which are catalytically competent and act as a molecular chaperone.
+PRDX1 is a ~24 kDa [[Homodimerization|homodimer]]. Each monomer carries two conserved cysteines: the N-terminal peroxidatic Cys52 (oxidation-prone) and the C-terminal resolving Cys173, separated by ~20 residues and buried within a thioredoxin-fold core. A long flexible C-terminal tail wraps around the partner subunit and is required for efficient thioredoxin-mediated recycling. The dimer is further wrapped into higher-order oligomers (hexamers and higher), which are catalytically competent and act as a molecular chaperone.
 
 ## Mechanism of Action & Pathways
 

@@ -4,7 +4,7 @@ description: Urolithin A is a postbiotic metabolite derived from ellagitannins
   (found in pomegranates and nuts) that has been shown to induce mitophagy and improve
   muscle function and longevity in various m...
 created: 2024-01-01
-updated: 2026-11-11
+updated: 2026-11-17
 tags:
   - chemical-compound
 aliases: []
@@ -22,6 +22,12 @@ Urolithin A is the most potent known natural inducer of [[Mitophagy]] — the se
 In [[C. elegans]], urolithin A extends lifespan by approximately 20% and maintains motility during aging through a [[PINK1]]-dependent mechanism. In [[Mus musculus]], urolithin A (50 mg/kg/day) improves exercise capacity (running endurance by 42%), reduces age-associated muscle weakness, and prevents the accumulation of damaged mitochondria in skeletal muscle and heart. In [[Rattus norvegicus]] models of [[Aging]], urolithin A prevents [[Mitochondrial Dysfunction]] in the brain and improves cognitive performance in the Morris water maze. In cellular models of [[Parkinson's Disease]], urolithin A rescues [[PINK1]] mutant phenotypes and protects against [[MPTP]]-induced dopaminergic neuron loss. In models of [[Atherosclerosis]], urolithin A reduces macrophage foam cell formation and plaque size by enhancing mitophagic clearance of oxidized LDL-damaged mitochondria.
 ## Clinical Trials and Human Evidence
 Phase I and II clinical trials in older adults have established the safety and tolerability of oral urolithin A (Mitopure™). A 28-day Phase I trial in sedentary older adults (60–90 years) demonstrated dose-proportional pharmacokinetics and target engagement, evidenced by reduced plasma [[Acylcarnitines]] (a biomarker of mitochondrial dysfunction) and increased mitochondrial gene expression in skeletal muscle biopsies. A 12-week Phase II trial in 60 older adults demonstrated significant improvements in muscle endurance (6-minute walk test) and reductions in [[TNFα]] and [[Interleukin-6]], consistent with anti-inflammatory and mitophagy-activating effects. A third trial showed improved grip strength and walking speed after 8 weeks of supplementation, with no serious adverse events. Ongoing trials are evaluating urolithin A in combination with exercise training and in the context of [[Sarcopenia]], [[Alzheimer's Disease]], and [[Cardiovascular Aging]].
+
+> [!info]
+> Source: [[_document_ - Topical application of urolithin A activates mitophagy and enhances mitochondrial function to promote skin longevity|Topical UA skin study]]
+> Topical urolithin A was evaluated in three registered trials (NCT05079607 HRIPT, NCT05300984 aging efficacy, NCT05300542 photodamage). In 48 middle-aged women, 1% cream for 8 weeks reduced periorbital wrinkle depth (−3.4% vs placebo +4.0%, p = 0.0437); 0.5% was null. In 21 photodamage completers, 1% reduced UVB 1.6-MED erythema by 13% (p = 0.02). Biopsy RNA-seq showed collagen-fibril-organization upregulation and downregulation of inflammation and SenMayo senescence gene sets. Skin-tissue LC-MS/MS quantification was not performed; trials were sponsor-sponsored (Amazentis/Timeline, L'Oréal).
+
+
 ## Connection to Mitochondrial Homeostasis and Adrenochrome Pathways
 Urolithin A's mitophagy-activating mechanism positions it as a complementary agent to mitohormetic strategies that enhance mitochondrial biogenesis (e.g., [[Carbazochrome]] via the [[_document_ - Mitohormetic Redox-Relay]]). While urolithin A clears damaged mitochondria, [[Carbazochrome]] and [[Adrenochrome]] at ultralow doses stimulate the production of new mitochondria through [[PGC-1α]] activation. This conceptual framework suggests a two-pronged approach: mitophagy induction (urolithin A) coupled with mitochondrial biogenesis stimulation ([[Carbazochrome]]/[[Adrenochrome]]) could synergistically rejuvenate the mitochondrial network. Urolithin A also attenuates mitochondrial ROS production, which could theoretically buffer against the pro-oxidant side effects of the [[_document_ - Mitohormetic Redox-Relay]] protocol, providing a built-in safety mechanism against excessive oxidative stress. Conversely, the protonophoric activity of urolithin A may modestly depolarize mitochondria, and the combined effect with mild uncouplers (e.g., [[Dinitrophenol]] or [[BAM15]]) warrants investigation for additive mitophagic efficacy.
 
@@ -38,6 +44,9 @@ In the Rzeski four-compound framework ([[_document_ - Natural Bioactive Compound
 > In a randomized trial of 66 older adults, urolithin A improved muscle endurance at 2 months and altered selected plasma biomarkers, but between-group differences in the primary outcomes (6-minute walk distance, maximal ATP production) were not statistically significant; the findings do not establish slowing of ageing or mitophagy mediation.
 
 ## Documents
+
+  - [[_document_ - Topical application of urolithin A activates mitophagy and enhances mitochondrial function to promote skin longevity|Topical UA skin study]]
+    - Randomized topical trials (n = 48 aging, n = 21 photodamage, HRIPT n = 109) of 1% urolithin A: wrinkle depth, UVB erythema, biopsy RNA-seq, mitophagy and ECM markers.
 
 List of documents that mention this entity
 
@@ -56,6 +65,9 @@ List of documents that mention this entity
 - [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026 — Mitochondrial dysfunction and inflammaging]]: Reports the randomized trial showing improved muscle endurance but null primary 6-min walk/ATP outcomes.
 
 ## Connections
+
+- [[Skin Longevity]] — Topical 1% urolithin A reduced wrinkle depth and UVB erythema in randomized trials and upregulated collagen-fibril-organization gene sets in skin biopsies.
+- [[Topical Application]] — Direct skin delivery achieved local effects at 1% with a null result at 0.5%, without reported irritation or sensitization.
 - [[_document_ - Mitohormetic Redox-Relay]] — interacts with Urolithin A
 - [[Carbazochrome]] — interacts with Urolithin A
 - [[Autophagy]] — cellular self-degradation pathway; clears damaged proteins and organelles

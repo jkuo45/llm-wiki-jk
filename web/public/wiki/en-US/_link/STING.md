@@ -3,7 +3,7 @@ title: STING
 description: Stimulator of interferon genes, a signaling protein that plays a key
   role in innate immunity by sensing cytosolic DNA.
 created: 2024-01-01
-updated: 2026-11-10
+updated: 2026-11-19
 tags:
   - innate-immunity
   - cgas-sting-pathway
@@ -30,7 +30,7 @@ STING is a type III transmembrane protein oriented with its N-terminus in the ER
 
 **N-terminal transmembrane domain**: Contains four transmembrane segments (TM1–TM4) that anchor STING in the ER membrane. TM4 harbors a cholesterol-binding motif that is important for STING's trafficking to the ER-Golgi intermediate compartment (ERGIC) and Golgi apparatus upon activation. The transmembrane domain is also involved in oligomerization and mediates STING's interaction with the ER-resident protein STIM1.
 
-**C-terminal STING domain (STING-CTD)**: Forms an obligate homodimer and contains the ligand-binding pocket for 2'3'-cGAMP and bacterial CDNs. The STING-CTD also encodes the TBK1-binding motif (pLxIS motif) and the IRF3-binding motif. Upon cyclic dinucleotide binding, STING-CTD undergoes a dramatic conformational change — the flexible lid region closes over the bound ligand — which repositions the TBK1-binding site and enables recruitment of [[TBK1]]. This open-to-closed lid transition is the molecular switch that initiates downstream signaling.
+**C-terminal STING domain (STING-CTD)**: Forms an obligate [[Homodimerization|homodimer]] and contains the ligand-binding pocket for 2'3'-cGAMP and bacterial CDNs. The STING-CTD also encodes the TBK1-binding motif (pLxIS motif) and the IRF3-binding motif. Upon cyclic dinucleotide binding, STING-CTD undergoes a dramatic conformational change — the flexible lid region closes over the bound ligand — which repositions the TBK1-binding site and enables recruitment of [[TBK1]]. This open-to-closed lid transition is the molecular switch that initiates downstream signaling.
 
 ## Mechanism of Action
 

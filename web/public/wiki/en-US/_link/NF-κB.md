@@ -2,7 +2,7 @@
 title: NF-κB
 description: Nuclear factor kappa-light-chain-enhancer of activated B cells (NF-κB) is a protein complex that controls transcription of DNA, cytokine production, and cell survival. It plays a central role in immunity, inflammation, and redox signaling.
 created: '2026-05-09'
-updated: '2026-09-02'
+updated: '2026-11-19'
 tags:
   - protein
   - transcription-factor
@@ -48,6 +48,10 @@ NF-κB regulates hundreds of target genes encoding:
 - **Adhesion molecules**: [[ICAM-1]], [[VCAM-1]], E-selectin
 - **Anti-apoptotic factors**: [[Bcl-2]], [[Bcl-xL]], [[c-FLIP]], [[XIAP]]
 - **Antioxidant enzymes**: [[MnSOD]], ferritin heavy chain
+
+> [!info]
+> Source: [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]]
+> NF-κB is both upstream and downstream of [[c-FLIP]]: *CFLAR* is an NF-κB target (a survival feedback loop), and c-FLIP cleavage fragments feed back into NF-κB. [[p22-FLIP]] (DED1–DED2) binds [[NEMO]]/IKKγ and potently activates the [[IKK complex]] independently of [[FADD]], while [[p43-FLIP]] recruits [[RIPK1]], TRAF2/TRAF6 and Raf-1 at the [[DISC]] to drive NF-κB and ERK activation. This makes the caspase-8/c-FLIP heterodimer a source of sub-lethal survival signaling as well as a brake on apoptosis.
 
 ## Redox-Sensitive Regulation
 
@@ -121,6 +125,8 @@ NF-κB hyperactivation is characteristic of [[Cancer]], [[Atherosclerosis]], rhe
   - Oxidants enhance inflammation via activation of kinases and transcription factors like NF-κB and AP-1.
 - [[_document_ - The Senescence-Associated Secretory Phenotype The Dark Side of Tumor Suppression|SASP: The Dark Side of Tumor Suppression]]
   - Foundational review establishing NF-κB as master regulator of SASP gene expression; p53 restrains NF-κB-mediated SASP activation.
+- [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]]
+  - c-FLIP as an NF-κB target gene and the p22-FLIP–NEMO and p43-FLIP–RIPK1/TRAF axes as FADD-independent NF-κB/ERK activators.
 
 ## Connections
 
@@ -141,6 +147,9 @@ NF-κB hyperactivation is characteristic of [[Cancer]], [[Atherosclerosis]], rhe
 - [[STING]] — estrogen represses STING via ERα–HDAC3; NF-κB and STING are co-derepressed after menopause
 - [[Inflammaging]] — chronic NF-κB activation; the post-menopausal "estrogen cliff" accelerates it
 - [[SASP|Senescence-Associated Secretory Phenotype]] — estrogen suppresses NF-κB-driven SASP; sex-dependent SASP burden
+- [[c-FLIP]] — NF-κB target gene; its fragments feed back to activate IKK/NF-κB
+- [[p22-FLIP]] — DED1–DED2 fragment that binds NEMO/IKKγ and activates NF-κB independently of FADD
+- [[p43-FLIP]] — DISC-retained fragment recruiting RIPK1/TRAF/Raf-1 for NF-κB and ERK signaling
 
 ## Linking Summary
 
@@ -148,3 +157,4 @@ NF-κB hyperactivation is characteristic of [[Cancer]], [[Atherosclerosis]], rhe
 - Sex-difference enrichment (2026-09-02): added the estrogen–ERβ–NF-κB suppression axis (bimodal IκBα/p65 mechanism, Giroux et al. 2012), the menopause-linked derepression/estrogen-cliff concept, and cross-links to [[STING]], [[IkappaBalpha]], [[Inflammaging]].
 - Suggested new entity notes to create: [[NEMO]], [[IkappaBalpha]], [[CYLD]], [[TAK1]]
 - Strong connections to strengthen: NF-κB ↔ [[Oxidative Stress]], NF-κB ↔ [[NRF2]], NF-κB ↔ [[SASP]], NF-κB ↔ [[SIRT1]]
+- Source enrichment (2026-11-19): [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]] — c-FLIP as an NF-κB target and p22-FLIP/p43-FLIP as FADD-independent NF-κB/ERK activators. New links: [[c-FLIP]], [[p22-FLIP]], [[p43-FLIP]].

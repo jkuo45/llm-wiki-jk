@@ -4,7 +4,7 @@ description: p21CIP1 (encoded by CDKN1A) is a cyclin-dependent kinase inhibitor
   that mediates DNA damage-induced cell cycle arrest and supports an early immunosurveillance SASP
   profile.
 created: 2026-07-07
-updated: 2026-11-11
+updated: 2026-11-17
 tags:
   - protein
   - senescence
@@ -27,6 +27,11 @@ p21 is transcriptionally activated by p53 in response to [[DNA Damage Response|D
 4. Mediates persistent DDR signaling to effector functions
 
 ## Role in SASP Regulation
+
+> [!info]
+> Source: [[_document_ - Topical application of urolithin A activates mitophagy and enhances mitochondrial function to promote skin longevity|Topical UA skin study]]
+> In a hydrogen-peroxide-induced senescence model of human dermal fibroblasts, urolithin A reduced the SASP chemokine CXCL1 but did not modulate p21 expression. The dissociation supports senomorphic (SASP-suppressing) rather than senolytic activity in skin cells.
+
 
 p21 supports an **early secretory phenotype** distinct from the later NF-κB-associated SASP:
 - **[[CXCL14]]**: Recruits macrophages to enforce immunosurveillance
@@ -69,6 +74,9 @@ CDKN1A is a canonical p53 target; its loss cooperates with p53 mutation in tumou
 
 ## Documents
 
+  - [[_document_ - Topical application of urolithin A activates mitophagy and enhances mitochondrial function to promote skin longevity|Topical UA skin study]]
+    - Topical urolithin A left p21 unchanged while reducing CXCL1 in senescent human dermal fibroblasts — evidence for senomorphic rather than senolytic action.
+
 List of documents that mention this entity
 
   - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|The SASP and its physiological and pathological implications]]
@@ -82,6 +90,8 @@ List of documents that mention this entity
 - [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026 — Mitochondrial dysfunction and inflammaging]]: Positions p21 as the effector of MiDAS growth arrest downstream of AMPK–p53.
 
 ## Connections
+
+- [[Urolithin A]] — Did not change p21 while reducing CXCL1 in H2O2-senescent human dermal fibroblasts, distinguishing senomorphic from senolytic activity.
 - [[Senescence]] — p21 is a core effector of DNA damage-induced cell cycle arrest
 - [[p53]] — transcriptional activator of p21
 - [[CDKN1A]] — gene encoding p21^CIP1^

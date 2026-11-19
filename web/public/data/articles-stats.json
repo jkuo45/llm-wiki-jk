@@ -1,5 +1,5 @@
 {
-  "generated": "17_NOV_2026 09:18 AM PST",
+  "generated": "19_NOV_2026 11:05 AM PST",
   "stats": {
     "sirtuin-pleiotropy": {
       "words": 2324,
@@ -128,7 +128,7 @@
       "diagrams": 6
     },
     "inside-the-cell": {
-      "words": 355,
+      "words": 382,
       "images": 0,
       "links": 15,
       "diagrams": 1
@@ -258,6 +258,12 @@
       "images": 6,
       "links": 36,
       "diagrams": 1
+    },
+    "ripoptosome-cflip": {
+      "words": 4042,
+      "images": 0,
+      "links": 51,
+      "diagrams": 6
     }
   }
 }

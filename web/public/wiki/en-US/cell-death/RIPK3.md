@@ -3,7 +3,7 @@ title: RIPK3
 description: Receptor-interacting serine/threonine-protein kinase 3 is the obligatory kinase of necroptosis, recruited by RIPK1 via RHIM-domain amyloid-like assembly and activated by phosphorylation of its own RIPK3 domain; it also drives pyroptosis through caspase-8 inhibition when necroptosis is blocked.
 protected: true
 created: 2026-07-04
-updated: 2026-10-01
+updated: 2026-11-19
 tags:
   - protein
 aliases: [Receptor-Interacting Serine/Threonine-Protein Kinase 3]
@@ -26,6 +26,10 @@ aliases: [Receptor-Interacting Serine/Threonine-Protein Kinase 3]
 > Source: [[_document_ - Necroptosis (2014), Linkermann, Green|Linkermann & Green, NEJM 2014]]
 > RIPK3 is the *defining* molecule of necroptosis: the 2014 NCD-2012-aligned definition is "necrotic cell death dependent on RIPK3" — not all necrosis. Genetic proofs: deletion of [[FADD]], [[c-FLIP]], or [[Caspase-8]] kills mice at ~e10.5, fully rescued on a RIPK3-deficient background; tissue-specific FADD/caspase-8 loss (keratinocytes, intestinal epithelium) causes disease prevented by RIPK3 ablation. Vaccinia virus is lethal in **RIPK3-deficient** but not wild-type mice. RIPK3 itself can promote inflammation independently of death (via [[Retinoic-acid-inducible protein I-like receptor|RIG-I]] and the [[NLRP3]] [[Inflammasome]]), and glomerular [[Endothelial Cells|endothelial cells]] (unlike tubular cells, mesangial cells, podocytes) express high RIPK3.
 
+> [!info]
+> Source: [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]]
+> RIPK3 kinase activity is required for the necroptosis that follows cIAP loss or MC159 vFLIP expression, but blocking it is not cleanly protective: the kinase-dead RIPK3 D161N mutant (and RIPK3 inhibitors) blocks necroptosis yet redirects the same [[Ripoptosome]]-like platform toward [[Apoptosis]], a shift enhanced by [[c-FLIP|FLIP_L]] in mouse embryonic fibroblasts. RIPK3 therefore acts as a downstream competence gate whose inhibition can convert, not simply prevent, death.
+
 ## Metabolic regulation
 
 Beyond [[MLKL]] phosphorylation, [[RIPK3]] is a metabolic regulator: it activates [[PYGL]], [[GLUL]], and [[GLUD1]], and directly phosphorylates the [[Pyruvate Dehydrogenase]] complex (E3 subunit, Thr135) to increase aerobic respiration and mitochondrial [[ROS]]. This respiratory arm feeds back on the necrosome, so blocking [[Pyruvate]] uptake via the [[MPC]] (e.g. with [[UK5099]]) suppresses TNF-induced [[Necroptosis]] (Yang et al., *Nat Cell Biol* 2018).
@@ -40,6 +44,8 @@ Beyond [[MLKL]] phosphorylation, [[RIPK3]] is a metabolic regulator: it activate
   - RHIM-mediated activation by RIPK1/ZBP1/TRIF plus context-specific regulators (RSK3, CSNK1G2) and pathogen bypass (SFTSV NSs); non-MLKL substrates CaMKII, PDC, and PGAM5.
 - [[_document_ - Necroptosis (2014), Linkermann, Green|Linkermann & Green 2014 NEJM — Necroptosis]]
   - RIPK3 as the definitional molecule of necroptosis; e10.5 lethality-rescue genetics; vaccinia-virus susceptibility of RIPK3-KO mice; glomerular-endothelial RIPK3 expression; RIPK3-linked inflammation via RIG-I/NLRP3.
+- [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]]
+  - RIPK3 kinase dependence of cIAP-loss/MC159 necroptosis; D161N or pharmacological RIPK3 inhibition redirects the ripoptosome toward c-FLIP_L-enhanced apoptosis.
 
 #
 
@@ -48,6 +54,8 @@ Beyond [[MLKL]] phosphorylation, [[RIPK3]] is a metabolic regulator: it activate
 - [[Pyruvate Dehydrogenase]] — RIPK3 substrate (E3 Thr135); couples RIPK3 to aerobic respiration and ROS
 - [[Necroptosis]] — death program driven by RIPK3-dependent necrosome assembly and metabolic amplification
 - [[MLKL]] — downstream effector also required for RIPK3 access to mitochondria-localized PDC
+- [[c-FLIP]] — isoform balance upstream of RIPK3: FLIP_L keeps RIPK1/RIPK3 cleaved and blocks necroptosis; FLIP_S licenses it
+- [[Ripoptosome]] — platform whose persistence (failure to cleave RIPK1) hands off to RIPK3
 
 ## Linking Summary
 - New links added: [[RIPK3]], [[Pyruvate Dehydrogenase]], [[Necroptosis]], [[MLKL]], [[Pyruvate]], [[MPC]], [[UK5099]], [[ROS]], [[PYGL]], [[GLUL]], [[GLUD1]]
@@ -55,4 +63,5 @@ Beyond [[MLKL]] phosphorylation, [[RIPK3]] is a metabolic regulator: it activate
 - Suggested new entity notes to create: [[PYGL]], [[GLUL]], [[GLUD1]]
 - Source enrichment (2026-09-14): [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026]] — context-specific RIPK3 regulators (RSK3, CSNK1G2, SFTSV NSs) and non-MLKL substrates (CaMKII, PDC, PGAM5). New links: [[RSK3]], [[CSNK1G2]], [[CaMKII]], [[PGAM5]], [[TRIF]].
 - Source enrichment (2026-09-14): [[_document_ - Necroptosis (2014), Linkermann, Green|Linkermann & Green 2014]] — RIPK3 as the definitional kinase; e10.5 rescue genetics; vaccinia-KO lethality; glomerular-endothelial expression; non-necroptotic inflammation via RIG-I/NLRP3. New links: [[FADD]], [[c-FLIP]], [[Caspase-8]], [[Retinoic-acid-inducible protein I-like receptor]], [[NLRP3]], [[Inflammasome]], [[Endothelial Cells]].
+- Source enrichment (2026-11-19): [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]] — RIPK3 kinase dependence of cIAP-loss/MC159 necroptosis and the D161N/ inhibitor paradox (necroptosis blocked but apoptosis favored, enhanced by FLIP_L). New links: [[Ripoptosome]].
 

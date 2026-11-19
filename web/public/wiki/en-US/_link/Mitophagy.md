@@ -4,7 +4,7 @@ description: Mitophagy is a specialized form of Selective Autophagy that targets
   damaged or dysfunctional Mitochondria for degradation. It is a critical quality
   control mechanism for maintaining mitochondri...
 created: 2024-01-01
-updated: 2026-11-11
+updated: 2026-11-17
 tags:
   - biological-process
   - mitochondria
@@ -30,6 +30,12 @@ A decline in mitophagy is associated with the accumulation of dysfunctional mito
 ## Regulation
 Mitophagy can be modulated by various factors, including energy status (via [[AMPK]]), and pharmacological agents that act as [[Autophagy Inducer|autophagy inducers]].
 The selective degradation of mitochondria by [[Autophagy]]. It is a critical quality control mechanism to remove damaged or dysfunctional mitochondria, often regulated by the [[PINK1]]/[[Parkin]] pathway.
+
+> [!info]
+> Source: [[_document_ - Topical application of urolithin A activates mitophagy and enhances mitochondrial function to promote skin longevity|Topical UA skin study]]
+> In human skin models, 1% topical urolithin A increased PINK1 and PARK2 mRNA in reconstructed epidermis and raised phospho-ubiquitin in aged-donor dermal fibroblasts to a level comparable with the FCCP positive control. Under PM10+UV-A challenge in ex vivo skin, urolithin A counteracted the stress-induced fall in PINK1. These are mitophagy-marker and -flux-protection data in skin, not direct measurement of lysosomal degradation.
+
+
 ## Pink1/Parkin Pathway Mechanism
 The PTEN-induced putative kinase 1 ([[PINK1]])/[[Parkin]] pathway is the most extensively characterized mitophagy mechanism. In healthy mitochondria, [[PINK1]] (a serine/threonine kinase) is constitutively imported into the inner mitochondrial membrane via the TOM/TIM complexes and cleaved by [[PARL]] (presenilin-associated rhomboid-like protease), followed by rapid proteasomal degradation. When mitochondria become depolarized — due to electron transport chain dysfunction, [[Mitochondrial calcium uniporter]] overload, or oxidative damage — Pink1 import is arrested at the outer mitochondrial membrane (OMM). Full-length Pink1 accumulates on the OMM, where it dimerizes and autophosphorylates, activating its kinase domain. Activated Pink1 phosphorylates both [[Parkin]] (an E3 ubiquitin ligase) at Ser65 and ubiquitin molecules at Ser65, creating a phospho-ubiquitin signal that recruits and fully activates Parkin. Parkin then ubiquitinates a network of OMM proteins, including MFN1, MFN2, and VDAC1, building ubiquitin chains that serve as a recognition signal for autophagy receptors such as p62/SQSTM1, NBR1, OPTN, and NDP52. These receptors simultaneously bind ubiquitin and LC3/GABARAP family proteins on the phagophore membrane, tethering the damaged mitochondrion to the forming autophagosome.
 ## Receptor-Mediated Mitophagy
@@ -51,6 +57,9 @@ Mitophagy efficiency declines with age, contributing to the accumulation of dysf
 > Effective mitophagic clearance requires completion of lysosomal degradation — impaired acidification or proteolytic activity can limit turnover despite upstream [[PINK1]]–[[Parkin]] signalling. Increased autophagy-marker abundance should not be equated with increased degradative flux. Mitophagic clearance restrains [[NLRP3]] inflammasome activation, and [[Mitochondrial-Derived Vesicles|mitochondrial-derived vesicles]] provide an additional cargo-disposal route.
 
 ## Documents
+
+  - [[_document_ - Topical application of urolithin A activates mitophagy and enhances mitochondrial function to promote skin longevity|Topical UA skin study]]
+    - Topical urolithin A increased PINK1/PARK2 and phospho-ubiquitin in human keratinocytes, fibroblasts and ex vivo skin, and protected PINK1 against pollution/UVA stress.
 
 List of documents that mention this entity
 
@@ -87,6 +96,9 @@ List of documents that mention this entity
 
 
 ## Connections
+
+- [[Skin Longevity]] — Topical urolithin A raised PINK1/PARK2 and phospho-ubiquitin in skin models, linking mitophagy induction to epidermal differentiation and collagen preservation.
+- [[TOMM20]] — Increased epidermal TOMM20 accompanied mitophagy-marker changes, consistent with coupled mitochondrial turnover.
 - [[Selective Autophagy]] — interacts with Mitophagy
 - [[Mitochondria]] — organelle responsible for energy production; metabolic hub
 - [[Autophagosome]] — interacts with Mitophagy
