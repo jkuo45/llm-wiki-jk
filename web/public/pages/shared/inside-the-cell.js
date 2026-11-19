@@ -77,7 +77,7 @@ const VLT = {
   'Caspase-1': 'Caspase-1', GSDMD: 'GSDMD',
   'Adrenaline-quinone': 'Adrenaline-quinone', Myeloperoxidase: 'Myeloperoxidase',
   'Redox cycle': 'Redox cycle', Polymerization: 'Polymerization', Melanins: 'Melanins',
-  Magnesium: 'Magnesium', EMT6: 'EMT6', 'Lipid Peroxidation': 'Lipid Peroxidation',
+  Magnesium: 'Magnesium', EMT6: 'EMT6',
 };
 const vlink = (n) => `[[${VLT[n] || n}]]`; // plain wikilink: context-tooltip.js renders the hover tooltip
 
@@ -114,6 +114,8 @@ export const STR = {
       ribosome: { n: 'Ribosome', s: 'Ø ≈ 25 nm (shown ×4)', d: 'Protein builders, free in cytosol and on the rough ER. ~25 nm each — thousands fit in the space of one mitochondrion.' },
       centrosome: { n: 'Centrosome + microtubules', s: 'Centrioles Ø 0.25 × 0.5 µm · microtubules Ø 25 nm', d: 'Microtubule-organizing centre: the rail network for vesicles, organelles and chromosome segregation. SIRT2 deacetylates α-tubulin on these rails and regulates autophagy via ATG4B.' },
       npc: { n: 'Nuclear pore complex', s: 'Ø ≈ 120 nm · ~2,000 per nucleus', d: 'Gated turnstiles of the nuclear envelope — proteins and RNA shuttle through; SIRT1 itself shuttles nucleus ↔ cytosol.' },
+      lipiddrop: { n: 'Lipid droplet', s: 'Ø 0.2–1 µm · neutral-lipid core in a monolayer', d: 'Triglyceride and cholesteryl-ester storage — a neutral-lipid core wrapped in a phospholipid monolayer with perilipins. Its polyunsaturated lipids are the substrate lipid peroxidation consumes in ferroptosis, and lipophagy ferries whole droplets to lysosomes for recycling.' },
+      mam: { n: 'ER–mito contact (MAM)', s: 'Gap ≈ 10–30 nm · many per cell, one shown', d: 'Mitochondria-associated membranes: ER tubules tethered to the mitochondrial outer membrane. Ca²⁺ release, lipid transfer and apoptotic signals cross this gap, and the contacts remodel with age — the smooth-ER card’s "talks to mitochondria at contact sites" made visible.' },
     },
     adrenoSteps: [
       { t: 'Adrenaline on the edge', b: 'Epinephrine (adrenaline) pools in cytosol and extracellular fluid. Trace metals, superoxide and myeloperoxidase-derived oxidants strip one electron: the semiquinone radical, then adrenaline-quinone. Green particles stream inward from outside the cell.', legend: [['#51ff9e', 'epinephrine inflow']], vault: ['Adrenochrome Pathway', 'Adrenochrome', 'Adrenaline-quinone', 'Myeloperoxidase'] },
@@ -151,10 +153,10 @@ export const STR = {
       { t: 'Feedback — the TFEB program', b: 'Starvation dephosphorylates TFEB, which enters the nucleus through the pore and switches on the CLEAR network: more lysosomes, more autophagy genes — with FOXO3a co-driving the program. Caloric restriction, intermittent fasting and spermidine all converge here; mTOR reactivation closes the loop.', legend: [['#7fd4ff', 'TFEB → nucleus'], ['#b79aff', 'lysosome biogenesis program']], vault: ['TFEB', 'Lysosome', 'Spermidine', 'FOXO3a'] },
     ],
     deathSteps: [
-      { t: 'Crossroads — one cell, many deaths', b: 'Apoptosis, ferroptosis, necroptosis, pyroptosis and parthanatos all start in this same cytosol but exit through different doors. The vault treats them as one crosstalk network — this tour walks each door in turn, all preclinical cell biology, no clinical claims.', legend: [['#ffb347', 'mitochondrial door'], ['#51ff9e', 'membrane door'], ['#b79aff', 'nuclear door']], vault: ['Regulated Cell Death', 'Apoptosis', 'Ferroptosis', 'Necroptosis', 'Parthanatos', 'Pyroptosis'] },
+      { t: 'Crossroads — one cell, many deaths', b: 'Apoptosis, ferroptosis, necroptosis, pyroptosis and parthanatos all start in this same cytosol but exit through different doors. The vault treats them as one crosstalk network — this tour walks each door in turn, all preclinical cell biology, no clinical claims. Two metabolic doors reported 2022–2023 are not yet mapped in the vault: cuproptosis — copper binding lipoylated TCA-cycle enzymes — and disulfidptosis — disulfide stress when SLC7A11-high cells are starved of glucose; SLC7A11 is the same cystine importer that sets ferroptosis susceptibility.', legend: [['#ffb347', 'mitochondrial door'], ['#51ff9e', 'membrane door'], ['#b79aff', 'nuclear door']], vault: ['Regulated Cell Death', 'Apoptosis', 'Ferroptosis', 'Necroptosis', 'Parthanatos', 'Pyroptosis', 'Copper', 'SLC7A11'] },
       { t: 'Apoptosis I — BAX/BAK open the mito door', b: 'Stress signals converge on BAX and BAK, which punch pores in the mitochondrial outer membrane. Cytochrome c spills into the cytosol — the point of no return for the intrinsic pathway. p53 sits upstream licensing this step in the vault.', legend: [['#ff5a4d', 'BAX/BAK pores'], ['#ffb347', 'cytochrome-c release']], vault: ['BAX', 'BAK', 'Cytochrome c', 'p53'] },
       { t: 'Apoptosis II — the apoptosome fires caspases', b: 'Cytochrome c plus Apaf-1 assemble the wheel-shaped apoptosome, which activates Caspase-9, which in turn fires the executioner Caspase-3. The cascade dismantles the nucleus from the inside — chromatin condenses while the membrane still holds.', legend: [['#ff8a5a', 'apoptosome → Caspase-9 → Caspase-3']], vault: ['Apaf-1', 'Apoptosome', 'Caspase-9', 'Caspase-3', 'Caspase'] },
-      { t: 'Ferroptosis — GPX4 fails, membranes rust', b: 'When glutathione runs out or GPX4 is blocked, lipid peroxides spread unchecked through membranes — iron-dependent rust instead of clean caspase cuts. The plasma membrane is the victim here; the IVM × FBZ tour ends at this same ROS threshold from the drug side.', legend: [['#ff5a4d', 'lipid peroxidation spread'], ['#51ff9e', 'GSH/GPX4 defense line']], vault: ['Ferroptosis', 'GPX4', 'Glutathione', 'Lipid Peroxidation'] },
+      { t: 'Ferroptosis — GPX4 fails, membranes rust', b: 'When glutathione runs out or GPX4 is blocked, lipid peroxides spread unchecked through membranes — the polyunsaturated lipids of the bilayer and of lipid droplets are the substrate — iron-dependent peroxidation instead of clean caspase cuts. Defense runs on two parallel axes: cytosolic GSH/GPX4 and membrane-bound FSP1, which keeps ubiquinone (CoQ10) reduced as a lipophilic radical-trapping antioxidant (iFSP1 disables it experimentally). The plasma membrane is the victim here; the IVM × FBZ tour ends at this same ROS threshold from the drug side.', legend: [['#ff5a4d', 'lipid peroxidation spread'], ['#51ff9e', 'GSH/GPX4 · FSP1/CoQ10 defenses']], vault: ['Ferroptosis', 'GPX4', 'Glutathione', 'FSP1', 'Lipid Droplet', 'Lipid Peroxidation'] },
       { t: 'Necroptosis — RIPK3–MLKL rupture the membrane', b: 'When caspase-8 is blocked, RIPK1/RIPK3 phosphorylate MLKL, which oligomerizes and punches holes in the plasma membrane from the inside. Unlike apoptosis the cell bursts — releasing DAMPs that warn neighbors. Inflammatory by design.', legend: [['#f5a65b', 'RIPK3 → MLKL pores'], ['#ff5a4d', 'membrane rupture']], vault: ['Necroptosis', 'RIPK1', 'RIPK3', 'MLKL'] },
       { t: 'Pyroptosis — NLRP3–GSDMD pores burn the membrane', b: 'Inflammasomes (e.g. NLRP3) activate Caspase-1, which cleaves gasdermin D (GSDMD): the N-fragment oligomerizes into plasma-membrane pores. IL-1β/IL-18 spill out as the cell swells and bursts — inflammatory like necroptosis, but caspase-1/gasdermin-driven.', legend: [['#f5a65b', 'NLRP3 → Caspase-1'], ['#ff5a4d', 'GSDMD pores → IL-1β release']], vault: ['Pyroptosis', 'NLRP3', 'Caspase-1', 'GSDMD', 'IL-1β'] },
       { t: 'Parthanatos — PARP1 overdrive, AIF marches north', b: 'Massive DNA damage hyperactivates PARP1, flooding the cell with PAR polymer. PAR drags apoptosis-inducing factor (AIF) out of mitochondria and into the nucleus, where chromatin is shredded caspase-independently. A mito-to-nucleus death march through the pore.', legend: [['#b79aff', 'PARP1 → PAR flood'], ['#7fd4ff', 'AIF mito → nucleus']], vault: ['Parthanatos', 'PARP1', 'AIF', 'NAD+'] },
@@ -214,6 +216,7 @@ export const STR = {
       { t: 'The roadblock — p53/p21 count the damage', b: 'Forced reprogramming trips DNA-damage surveillance: p53–p21 halt or kill cells that open too fast. This brake is why efficiency is low — and why bypassing it trades rejuvenation for cancer risk in the vault.', legend: [['#ff5a4d', 'p53/p21 brake']], vault: ['p53', 'p21', 'Reprogramming'] },
       { t: 'Nucleolar reboot — ribosomes return', b: 'The nucleolus reignites: rRNA transcription and ribosome biogenesis resume youthful output — c-Myc directly drives this Pol I program — the mirror image of the SIRT7 step in the Sirtuins tour. Protein-building capacity is an expected readout of rejuvenation.', legend: [['#d0b8ff', 'nucleolar reignition']], vault: ['Ribosome Biogenesis', 'SIRT7', 'OSKM', 'c-Myc'] },
       { t: 'Partial, not full — rejuvenate, keep identity', b: 'Transient pulses (the vault’s partial-reprogramming docs) roll the epigenetic clock back without reaching pluripotency: cells stay themselves, only younger. Washout restores the guards; senescent load falls without teratoma roulette.', legend: [['#4ad6b5', 'clock rolled back'], ['#51ff9e', 'identity kept']], vault: ['Partial Reprogramming', 'Cellular Reprogramming', 'Epigenetic Clock', 'Senescence'] },
+      { t: 'From mice to humans — OSK without c-Myc [2026 news, not in vault]', b: 'Partial reprogramming entered its first-in-human trial in 2026: ER-100 (Life Biosciences) delivers Oct4, Sox2 and Klf4 — c-Myc omitted — via intravitreal AAV2, switched on by an 8-week oral doxycycline pulse. The FDA-cleared Phase 1 targets glaucoma and NAION; the first glaucoma patient was dosed in June 2026, and the October 2026 initial report describes three dosed patients as well tolerated. The primary endpoint is safety — vision readouts remain exploratory; this is tolerability data, not yet rejuvenation evidence.', legend: [['#3ec9a7', 'OSK (no c-Myc) → retina'], ['#51ff9e', '8-week doxycycline-switchable pulse']], vault: ['Partial Reprogramming', 'Oct4', 'Sox2', 'Klf4', 'Epigenetic Clock'] },
     ],
   },
   zh: {
@@ -248,6 +251,8 @@ export const STR = {
       ribosome: { n: '核糖體', s: '直徑約 25 nm（顯示放大 ×4）', d: '蛋白質建造者，游離於胞質並附著於粗糙內質網。每個約 25 nm——一個粒線體的空間可容納數千個。' },
       centrosome: { n: '中心體與微管', s: '中心粒直徑 0.25 × 長 0.5 µm · 微管直徑 25 nm', d: '微管組織中心：囊泡、胞器與染色體分離的軌道網。SIRT2 去乙醯化這些軌道上的 α-微管蛋白，並經 ATG4B 調控自噬。' },
       npc: { n: '核孔複合體', s: '直徑約 120 nm · 每核約 2,000 個', d: '核膜的門禁——蛋白質與 RNA 經此穿梭；SIRT1 本人也在核質之間穿梭。' },
+      lipiddrop: { n: '脂滴', s: '直徑 0.2–1 µm · 磷脂單層包裹中性脂質核心', d: '三酸甘油酯與膽固醇酯的儲存——中性脂質核心外包覆磷脂單層與 perilipin 蛋白。其中的多元不飽和脂質是鐵死亡脂質過氧化所消耗的受質；脂噬（lipophagy）會將整顆脂滴運往溶酶體回收。' },
+      mam: { n: 'ER–粒線體接觸位點（MAM）', s: '間距約 10–30 nm · 每細胞多處，此處顯示一處', d: '粒線體相關膜：拴繫於粒線體外膜的內質網管束。鈣離子釋放、脂質轉移與凋亡訊號跨越此縫，且接觸位點隨年齡重塑——平滑內質網卡片所述「在接觸位點與粒線體對話」的具象化。' },
     },
     adrenoSteps: [
       { t: '邊緣的腎上腺素', b: '腎上腺素匯集於胞質與胞外液。微量金屬、超氧陰離子與髓過氧化物酶衍生氧化劑奪去一個電子：半醌自由基，再到腎上腺素醌。綠色粒子自胞外流入。', legend: [['#51ff9e', '腎上腺素流入']], vault: ['Adrenochrome Pathway', 'Adrenochrome', 'Adrenaline-quinone', 'Myeloperoxidase'] },
@@ -285,10 +290,10 @@ export const STR = {
       { t: '回饋——TFEB 計畫', b: '飢餓使 TFEB 去磷酸化，經核孔入核啟動 CLEAR 網路：更多溶酶體、更多自噬基因——FOXO3a 共同驅動此程式。熱量限制、間歇性禁食與亞精胺都匯聚於此；mTOR 再活化則關閉迴路。', legend: [['#7fd4ff', 'TFEB → 入核'], ['#b79aff', '溶酶體新生計畫']], vault: ['TFEB', 'Lysosome', 'Spermidine', 'FOXO3a'] },
     ],
     deathSteps: [
-      { t: '十字路口——一顆細胞，多種死法', b: '凋亡、鐵死亡、壞死性凋亡、焦亡與 Parthanatos（聚ADP核糖死亡）都從同一個胞質出發，卻走不同的門。知識庫把它們視為一個交互網路——本導覽逐一走過每扇門，皆為臨床前細胞生物學，不涉臨床宣稱。', legend: [['#ffb347', '粒線體之門'], ['#51ff9e', '細胞膜之門'], ['#b79aff', '細胞核之門']], vault: ['Regulated Cell Death', 'Apoptosis', 'Ferroptosis', 'Necroptosis', 'Parthanatos', 'Pyroptosis'] },
+      { t: '十字路口——一顆細胞，多種死法', b: '凋亡、鐵死亡、壞死性凋亡、焦亡與 Parthanatos（聚ADP核糖死亡）都從同一個胞質出發，卻走不同的門。知識庫把它們視為一個交互網路——本導覽逐一走過每扇門，皆為臨床前細胞生物學，不涉臨床宣稱。2022–2023 年報導的兩扇代謝之門尚未收入知識庫：cuproptosis（銅死亡）——銅結合硫辛醯化的 TCA 循環酶；disulfidptosis（雙硫死亡）——SLC7A11 高表現細胞在葡萄糖飢餓下的雙硫應激；SLC7A11 正是決定鐵死亡敏感性的胱胺酸運輸蛋白。', legend: [['#ffb347', '粒線體之門'], ['#51ff9e', '細胞膜之門'], ['#b79aff', '細胞核之門']], vault: ['Regulated Cell Death', 'Apoptosis', 'Ferroptosis', 'Necroptosis', 'Parthanatos', 'Pyroptosis', 'Copper', 'SLC7A11'] },
       { t: '凋亡 I——BAX/BAK 打開粒線體之門', b: '壓力訊號匯聚到 BAX 與 BAK，在粒線體外膜打孔。細胞色素 c 外洩到胞質——內在路徑的不歸點。知識庫中 p53 在上游為這一步放行。', legend: [['#ff5a4d', 'BAX/BAK 打孔'], ['#ffb347', '細胞色素 c 釋放']], vault: ['BAX', 'BAK', 'Cytochrome c', 'p53'] },
       { t: '凋亡 II——凋亡體點燃 caspase', b: '細胞色素 c 與 Apaf-1 組成輪狀凋亡體，活化 Caspase-9，再點燃執行者 Caspase-3。級聯由內而外拆解細胞核——染色質凝縮，而細胞膜暫時完整。', legend: [['#ff8a5a', '凋亡體 → Caspase-9 → Caspase-3']], vault: ['Apaf-1', 'Apoptosome', 'Caspase-9', 'Caspase-3', 'Caspase'] },
-      { t: '鐵死亡——GPX4 失守，膜生鏽', b: '穀胱甘肽耗竭或 GPX4 被抑制時，脂質過氧化物在膜中失控蔓延——是鐵依賴的鏽蝕，而非乾淨的 caspase 切割。受害者是細胞膜；IVM × FBZ 導覽從藥物側匯入同一個 ROS 閾值。', legend: [['#ff5a4d', '脂質過氧化蔓延'], ['#51ff9e', 'GSH/GPX4 防線']], vault: ['Ferroptosis', 'GPX4', 'Glutathione', 'Lipid Peroxidation'] },
+      { t: '鐵死亡——GPX4 失守，膜生鏽', b: '穀胱甘肽耗竭或 GPX4 被抑制時，脂質過氧化物在膜中失控蔓延——細胞膜雙層與脂滴中的多元不飽和脂質正是受質；是鐵依賴的過氧化，而非乾淨的 caspase 切割。防禦有兩條平行軸：胞質 GSH/GPX4，以及膜上 FSP1——以 NAD(P)H 維持泛醌（CoQ10）於還原態，作為脂溶性自由基捕獲抗氧化劑（iFSP1 可實驗性阻斷）。受害者是細胞膜；IVM × FBZ 導覽從藥物側匯入同一個 ROS 閾值。', legend: [['#ff5a4d', '脂質過氧化蔓延'], ['#51ff9e', 'GSH/GPX4 · FSP1/CoQ10 防線']], vault: ['Ferroptosis', 'GPX4', 'Glutathione', 'FSP1', 'Lipid Droplet', 'Lipid Peroxidation'] },
       { t: '壞死性凋亡——RIPK3–MLKL 擊破細胞膜', b: '當 caspase-8 被阻斷，RIPK1/RIPK3 磷酸化 MLKL，後者寡聚化由內向外在細胞膜打洞。與凋亡不同，細胞會爆裂——釋出 DAMPs 警告鄰居。發炎是其本意。', legend: [['#f5a65b', 'RIPK3 → MLKL 打孔'], ['#ff5a4d', '細胞膜破裂']], vault: ['Necroptosis', 'RIPK1', 'RIPK3', 'MLKL'] },
       { t: '焦亡——NLRP3–GSDMD 打孔燒膜', b: '發炎小體（如 NLRP3）活化 Caspase-1，切割 gasdermin D（GSDMD）：N 端片段寡聚化在細胞膜打孔。IL-1β/IL-18 外洩，細胞腫脹爆裂——與壞死性凋亡同樣發炎，但由 caspase-1/gasdermin 驅動。', legend: [['#f5a65b', 'NLRP3 → Caspase-1'], ['#ff5a4d', 'GSDMD 打孔 → IL-1β 釋放']], vault: ['Pyroptosis', 'NLRP3', 'Caspase-1', 'GSDMD', 'IL-1β'] },
       { t: 'Parthanatos（聚ADP核糖死亡）——PARP1 過載，AIF 北上', b: '大量 DNA 損傷過度活化 PARP1，PAR 聚合物淹沒細胞。PAR 把凋亡誘導因子（AIF）從粒線體拖入細胞核，以非 caspase 方式撕碎染色質。一場經核孔的粒線體→核死亡行軍。', legend: [['#b79aff', 'PARP1 → PAR 洪流'], ['#7fd4ff', 'AIF 粒線體 → 核']], vault: ['Parthanatos', 'PARP1', 'AIF', 'NAD+'] },
@@ -348,6 +353,7 @@ export const STR = {
       { t: '路障——p53/p21 清點損傷', b: '強制重編程觸發 DNA 損傷監視：p53–p21 叫停或清除開得太快的細胞。這道煞車是效率低落的原因——繞過它，就是以癌症風險換回春。', legend: [['#ff5a4d', 'p53/p21 煞車']], vault: ['p53', 'p21', 'Reprogramming'] },
       { t: '核仁重啟——核糖體歸來', b: '核仁重新點火：rRNA 轉錄與核糖體新生恢復年輕產量——c-Myc 直接驅動此 Pol I 程式——Sirtuins 導覽中 SIRT7 步驟的鏡像。蛋白質建造產能是回春的預期讀出。', legend: [['#d0b8ff', '核仁重新點火']], vault: ['Ribosome Biogenesis', 'SIRT7', 'OSKM', 'c-Myc'] },
       { t: '部分而非完全——回春且保有身份', b: '短暫脈衝（知識庫的部分重編程文件）把表觀遺傳時鐘撥回而不達多能性：細胞仍是自己，只是更年輕。洗脫後守衛歸位；衰老負荷下降，無需畸胎瘤輪盤。', legend: [['#4ad6b5', '時鐘撥回'], ['#51ff9e', '身份保留']], vault: ['Partial Reprogramming', 'Cellular Reprogramming', 'Epigenetic Clock', 'Senescence'] },
+      { t: '從小鼠到人體——無 c-Myc 的 OSK［2026 年新聞，未收入知識庫］', b: '部分重編程於 2026 年進入首次人體試驗：ER-100（Life Biosciences）以玻璃體內注射的 AAV2 遞送 Oct4、Sox2 與 Klf4——省去 c-Myc——並以 8 週口服多西環素脈衝開啟表現。FDA 核准的第一期試驗以青光眼與 NAION 為適應症；2026 年 6 月首位青光眼患者完成給藥，10 月的初步報告描述三名給藥患者耐受良好。主要終點為安全性——視力讀出仍屬探索性質；這是耐受性數據，尚非回春證據。', legend: [['#3ec9a7', 'OSK（無 c-Myc）→ 視網膜'], ['#51ff9e', '8 週多西環素開關脈衝']], vault: ['Partial Reprogramming', 'Oct4', 'Sox2', 'Klf4', 'Epigenetic Clock'] },
     ],
   },
 };
@@ -531,6 +537,16 @@ export function initCellPage({ lang = 'en', canvas, els }) {
     const tube = new THREE.Mesh(new THREE.TubeGeometry(c, 24, 0.09, 8), serMat);
     tube.userData.oid = 'ser'; pickMeshes.push(tube); scene.add(tube);
   }
+  /* ---- MAM: one ER tubule ending on a mitochondrion (contact gap 10–30 nm) ---- */
+  const mamMat = new THREE.MeshStandardMaterial({ color: 0xe8b96a, roughness: 0.5, emissive: 0x3a2a08, emissiveIntensity: 0.35 });
+  reg('mam', mamMat);
+  const mamMito = mitos.reduce((a, m) => (m.position.distanceTo(serBase) < a.position.distanceTo(serBase) ? m : a));
+  const mamDir = serBase.clone().sub(mamMito.position).normalize();
+  // ponytail: contact point is approximate — mito capsule axis is random, so the tube may overlap or fall short of the surface by up to ~0.5 µm.
+  const MAM = mamMito.position.clone().addScaledVector(mamDir, -0.5);
+  const mamStart = MAM.clone().addScaledVector(mamDir, 1.7).add(V3(0, 0.3, 0));
+  const mamTube = new THREE.Mesh(new THREE.TubeGeometry(new THREE.CatmullRomCurve3([mamStart, mamStart.clone().lerp(MAM, 0.5).add(V3(0.15, 0.1, 0)), MAM]), 20, 0.09, 8), mamMat);
+  tag(mamTube, 'mam'); scene.add(mamTube);
   /* ---- free + RER ribosomes (Ø25nm, shown ×4 → r=0.05) ---- */
   const ribMat = new THREE.MeshStandardMaterial({ color: 0x8fd0c8, roughness: 0.5 });
   const ribGeo = new THREE.SphereGeometry(0.05, 8, 6);
@@ -591,6 +607,15 @@ export function initCellPage({ lang = 'en', canvas, els }) {
     m.position.copy(p); m.userData.oid = 'peroxisome'; pickMeshes.push(m); scene.add(m);
     if (np === 0) peroxAnchor = p.clone();
     np++;
+  }
+  /* ---- lipid droplets (Ø 0.28–0.6 µm, true 1:1) ---- */
+  const ldMat = new THREE.MeshStandardMaterial({ color: 0xe8c96a, roughness: 0.35, emissive: 0x4a3a08, emissiveIntensity: 0.25 });
+  reg('lipiddrop', ldMat);
+  const LD = V3(-5.5, 2.2, 5.0);
+  const ldSpots = [LD, LD.clone().add(V3(1.3, 0.5, -0.7)), LD.clone().add(V3(0.4, -1.1, 0.8)), LD.clone().add(V3(1.8, 1.0, 0.3)), V3(0.8, -5.2, 3.8), V3(6.6, 0.8, 4.2)];
+  for (const p of ldSpots) {
+    const m = new THREE.Mesh(new THREE.SphereGeometry(0.14 + rnd() * 0.16, 14, 10), ldMat);
+    m.position.copy(p); tag(m, 'lipiddrop'); scene.add(m);
   }
   // neuromelanin-like pigment granules (adrenochrome tour finale, hidden otherwise)
   const pigment = new THREE.Group();
@@ -865,6 +890,7 @@ export function initCellPage({ lang = 'en', canvas, els }) {
     { cam: [NUC.x + 2, NUC.y + 2.5, NUC.z + 10], tgt: NUC.toArray(), hi: ['nucleus'], fl: [{ a: NUC.clone().add(V3(-1.5, 0, 0.5)), b: NUC.clone().add(V3(0.5, -1, 1)), color: '#ff5a4d', count: 220, spread: 0.5 }], mk: [S.oskmNuc] },
     { cam: [NUC.x - 1, NUC.y + 2, NUC.z + 9], tgt: NUC.clone().add(V3(-0.6, 0.6, 0.7)).toArray(), hi: ['nucleolus'], fl: [{ a: NUC.clone().add(V3(-1.2, 1.2, 0.5)), b: NUC.clone().add(V3(0, 0, 1)), color: '#d0b8ff', count: 220, spread: 0.4 }], mk: [S.oskmNol] },
     { cam: [0, 7, 27], tgt: [0, 0, 0], hi: ['nucleus'], fl: [{ a: NUC.clone().add(V3(-1.5, 1, 0.5)), b: NUC.clone().add(V3(1.5, -1, -0.5)), color: '#4ad6b5', count: 200, spread: 0.6 }, { a: CYTO, b: KPNB, color: '#51ff9e', count: 120, spread: 0.5 }], mk: [S.oskmNuc, S.oskmNol] },
+    { cam: [0, 7, 27], tgt: [0, 0, 0], hi: ['npc', 'nucleus'], fl: [{ a: CYTO, b: KPNB, color: '#3ec9a7', count: 220, spread: 0.5 }, { a: NUC.clone().add(V3(-1.5, 1, 0.5)), b: NUC.clone().add(V3(1.5, -1, -0.5)), color: '#51ff9e', count: 160, spread: 0.6 }], mk: [S.oskmPore, S.oskmNuc] },
   ];
   const CHORE = { adreno: ADRENO_CAM, sirtuin: SIR_CAM, combi: COMBI_CAM, auto: AUTO_CAM, death: DEATH_CAM, redox: REDOX_CAM, sasp: SASP_CAM, proto: PROTO_CAM, metab: METAB_CAM, nm: NM_CAM, comt: COMT_CAM, oskm: OSKM_CAM };
 
@@ -882,6 +908,8 @@ export function initCellPage({ lang = 'en', canvas, els }) {
     { oid: 'ribosome', fn: () => [5.6, -1.6, 3.2], dy: -12 },
     { oid: 'centrosome', fn: () => CENT.toArray(), dx: -30 },
     { oid: 'npc', fn: () => NUC.clone().add(V3(1.8, 2.2, 1.4)).toArray() },
+    { oid: 'lipiddrop', fn: () => LD.toArray(), dx: 34 },
+    { oid: 'mam', fn: () => MAM.toArray(), dy: -14 },
   ];
   const tourLabelDefs = {
     adreno: [
@@ -1168,6 +1196,8 @@ export function initCellPage({ lang = 'en', canvas, els }) {
     peroxisome: [[4, 3, 19], [2, 0, 0]], ribosome: [[5, 2, 16], [2.5, 0, 2.5]],
     centrosome: [[CENT.x + 2, CENT.y + 2, CENT.z + 10], CENT.toArray()],
     npc: [[NUC.x + 2, NUC.y + 3, NUC.z + 10], NUC.toArray()],
+    lipiddrop: [[LD.x + 2, LD.y + 2, LD.z + 9], LD.toArray()],
+    mam: [[MAM.x + 2, MAM.y + 2, MAM.z + 8], MAM.toArray()],
   };
   function focusOrganelle(oid) {
     const f = FOCUS[oid];
