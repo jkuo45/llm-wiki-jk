@@ -1,5 +1,5 @@
 {
-  "generated": "19_NOV_2026 12:52 PM PST",
+  "generated": "19_NOV_2026 01:00 PM PST",
   "tasks": [
     {
       "id": "tasks-index",
@@ -42,6 +42,22 @@
           "filename": "task_output_cflip_caspase8_disc_ratio_kinetics_19_Nov_2026.md",
           "path": "tasks/en-US/task_output_cflip_caspase8_disc_ratio_kinetics_19_Nov_2026.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_cflip_caspase8_disc_ratio_kinetics_19_Nov_2026.md"
+        },
+        "zh-TW": {
+          "title": "CD95 DISC 上的 procaspase-8 與 c-FLIP 比例及 c-FLIP_L 招募動力學",
+          "description": "對 Tsuchiya et al. 2015 第 3.1 節的調查——procaspase-8 : c-FLIP 比例與 c-FLIP_L 對 DISC 的招募動力學實際控制什麼，附上每一項主張背後的測量量，以及該段落所要求的限定條件。",
+          "created": "2026-11-19",
+          "updated": "2026-11-19",
+          "tags": [
+            "cell-death",
+            "apoptosis",
+            "necroptosis",
+            "systems-biology",
+            "mathematical-modeling"
+          ],
+          "filename": "task_output_cflip_caspase8_disc_ratio_kinetics_19_Nov_2026.md",
+          "path": "tasks/zh-TW/task_output_cflip_caspase8_disc_ratio_kinetics_19_Nov_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_cflip_caspase8_disc_ratio_kinetics_19_Nov_2026.md"
         }
       },
       "stats": {

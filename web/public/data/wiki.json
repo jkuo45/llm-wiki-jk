@@ -1,5 +1,5 @@
 {
-  "generated": "19_NOV_2026 12:52 PM PST",
+  "generated": "19_NOV_2026 01:00 PM PST",
   "wiki": [
     {
       "id": "wiki-index",
@@ -1359,6 +1359,20 @@
           "filename": "Caspase-8-c-FLIP Rheostat.md",
           "path": "wiki/en-US/cell-death/Caspase-8-c-FLIP%20Rheostat.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Caspase-8-c-FLIP%20Rheostat.md"
+        },
+        "zh-TW": {
+          "title": "Caspase-8-c-FLIP Rheostat",
+          "description": "量化開關：在 DISC、complex II 與 ripoptosome 中，caspase-8 同二聚體與 c-FLIP 異二聚體之比，決定細胞走向凋亡、壞死性凋亡或存活。",
+          "created": "2026-09-03",
+          "updated": "2026-11-19",
+          "tags": [
+            "mechanism",
+            "cell-death",
+            "apoptosis",
+            "necroptosis"
+          ],
+          "filename": "Caspase-8-c-FLIP Rheostat.md",
+          "path": "wiki/zh-TW/cell-death/Caspase-8-c-FLIP%20Rheostat.md"
         }
       },
       "stats": {

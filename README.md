@@ -343,7 +343,7 @@ Build: 11_NOV_2026 · hash `663ac957d5242f5b`
 <details>
 <summary><strong>Tasks (136 total)</strong> — click to expand</summary>
 
-- [task_output_cflip_caspase8_disc_ratio_kinetics_19_Nov_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_cflip_caspase8_disc_ratio_kinetics_19_Nov_2026.md) [[src/tasks/task_output_cflip_caspase8_disc_ratio_kinetics_19_Nov_2026.md|wiki]] (19_NOV_2026 12:51 PM PST)
+- [task_output_cflip_caspase8_disc_ratio_kinetics_19_Nov_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_cflip_caspase8_disc_ratio_kinetics_19_Nov_2026.md) [[src/tasks/task_output_cflip_caspase8_disc_ratio_kinetics_19_Nov_2026.md|wiki]] (19_NOV_2026 12:54 PM PST)
 - [task_output_adrenochrome_mb_ag_protocol_review_12_Nov_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_adrenochrome_mb_ag_protocol_review_12_Nov_2026.md) [[src/tasks/task_output_adrenochrome_mb_ag_protocol_review_12_Nov_2026.md|wiki]] (19_NOV_2026 10:15 AM PST)
 - [task_output_topical_creatine_urolithin_a_17_Nov_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_topical_creatine_urolithin_a_17_Nov_2026.md) [[src/tasks/task_output_topical_creatine_urolithin_a_17_Nov_2026.md|wiki]] (17_NOV_2026 09:22 AM PST)
 - [task_output_whole_blood_nad_biomarker_viewpoint_10_Nov_2026](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_whole_blood_nad_biomarker_viewpoint_10_Nov_2026.md) [[src/tasks/task_output_whole_blood_nad_biomarker_viewpoint_10_Nov_2026.md|wiki]] (10_NOV_2026 02:29 PM PST)
