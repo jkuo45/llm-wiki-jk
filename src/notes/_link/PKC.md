@@ -4,7 +4,7 @@ description: Protein kinase C (PKC) is a family of serine/threonine kinases clas
   into conventional (α, βI, βII, γ), novel (δ, ε, η, θ), and atypical (ζ, ι/λ) isoforms.
   PKC signaling regulates Autophag...
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-11-19
 tags:
   - enzyme
 aliases: [protein kinase C, PKC family]
@@ -19,6 +19,11 @@ aliases: [protein kinase C, PKC family]
 PKC activation (via [[PMA]] or DAG analogs) induces [[TFEB]] nuclear translocation through [[GSK3β]] inactivation and [[calcineurin]] activation. This provides a [[mTORC1]]-independent route for inducing [[Autophagy]] and lysosomal biogenesis. PKCδ and PKCθ also regulate autophagy in immune cells and cancer.
 ## Physiological Functions
 PKC isoforms control immune receptor signaling ([[T Cell]] activation via PKCθ), insulin signaling (PKCβ in [[Diabetes Mellitus]]), cardiac contraction, and neuronal plasticity. PKCβ deficiency impairs [[B Cell]] responses and antibody production.
+
+> [!info]
+> Source: [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]]
+> PKC phosphorylates Ser193 in all [[c-FLIP]] isoforms; the phospho-mimetic Ser193Asp mutation prolongs the half-life of cFLIP_S and cFLIP_R but not cFLIP_L. Phosphorylation is therefore an isoform-selective stabilizer of the short c-FLIP forms, tuning the rheostat's isoform ratio.
+
 ## Eryptosis
 PKC — specifically PKCα — is **pro-eryptotic** in erythrocytes: ATP depletion drives PKCα membrane translocation, which phosphorylates the membrane cation channel and raises cytosolic Ca2+, producing [[Scramblase]] activation and [[Phosphatidylserine]] exposure. As with [[CK1α]], PKC is largely anti-apoptotic in nucleated cells, so the sign flips in anucleate cells with a truncated effector set.
 ## Therapeutic Relevance
@@ -39,6 +44,9 @@ List of documents that mention this entity
   - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
     - In addition, SIRT1 overexpression can ameliorate Cardiac Hypertrophy induced by phenylephrine by inhibiting PKC‐ζ activation. However, some studies have shown the opposite effect.
 
+  - [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]]
+    - PKC phosphorylates c-FLIP Ser193; the phospho-mimetic Ser193Asp stabilizes cFLIP_S/R but not cFLIP_L.
+
 
 ## Connections
 - [[Autophagy]] — cellular self-degradation pathway; clears damaged proteins and organelles
@@ -49,7 +57,9 @@ List of documents that mention this entity
 - [[mTORC1]] — master regulator of anabolic-catabolic balance; inhibits autophagy
 - [[GSK3β]] — interacts with PKC
 - [[calcineurin]] — interacts with PKC
+- [[c-FLIP]] — PKC phosphorylates Ser193, stabilizing the short cFLIP_S/R isoforms
 ## Linking Summary
 - New links added: [[TFEB]], [[Autophagy]], [[GSK3β]], [[calcineurin]], [[mTORC1]], [[PMA]], [[B Cell]], [[T Cell]], [[Bcl-2]], [[Phosphorylation]], [[PKCδ]], [[PKCζ]], [[PKCι]]
   - Strong connections to strengthen: [[PKC]] ↔ [[Bcl-2]]
 - 2026-10-23: added the erythrocyte/[[Eryptosis]] role of PKCα (ATP depletion → PKCα translocation → Ca2+ rise → PS exposure).
+- Source enrichment (2026-11-19): [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]] — PKC Ser193 phosphorylation stabilizes cFLIP_S/R. New links: [[c-FLIP]].

@@ -3,7 +3,7 @@ title: JNK
 description: c-Jun N-terminal kinase (stress-activated protein kinase); a stress-activated MAPK that regulates apoptosis, proliferation, and inflammation by phosphorylating BAX, Bim, Mcl-1, and c-Jun, with context-dependent (pro-apoptotic vs pro-survival) roles in cancer.
 protected: false
 created: 2026-07-06
-updated: 2026-08-16
+updated: 2026-11-19
 tags:
   - enzyme
   - kinase
@@ -42,6 +42,10 @@ JNK exists as three genes (JNK1/MAPK8, JNK2/MAPK9, JNK3/MAPK10) with multiple sp
 > [!info] Context-Dependent Phosphorylation at Thr167
 > The same residue on [[BAX]] (Thr167) is targeted by both survival and death kinases: [[ERK2]] phosphorylation promotes survival via [[Pin1]] binding, while JNK or [[p38 MAPK]] phosphorylation promotes apoptosis. This represents a molecular coincidence detector where the cellular context (survival vs. stress signals) determines the outcome of a single phosphorylation event.
 
+> [!info]
+> Source: [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]]
+> JNK is coupled to the [[c-FLIP]] rheostat in both directions: cFLIP_L binds [[MKK7]] and inhibits JNK signaling, while JNK1-dependent [[Itch]] activation polyubiquitylates and degrades cFLIP_L during TNF-α-induced death. cFLIP downregulation therefore releases JNK and raises [[Reactive Oxygen Species|ROS]] in tumor cells. This mutual antagonism places JNK upstream and downstream of the same switch protein, so the JNK–Itch–cFLIP loop can determine whether TNF-α signaling ends in survival or death.
+
 ## Physiological & Pathological Function
 
 JNK is a sensor of [[Oxidative Stress]] and genotoxic damage, coupling these insults to either repair or death. Context determines outcome: sustained JNK in normal cells favors death (suppressing tumor initiation), whereas in established tumors chronic JNK activation can support survival, [[EMT]], and [[Metastasis]] via cytokine and AP-1 networks. In hepatocellular and other carcinomas, JNK signaling can be co-opted to enhance invasion and resistance to [[Chemotherapy]]. Conversely, JNK activation by certain cytotoxic therapies contributes to their efficacy. In neurodegeneration, JNK-mediated apoptosis contributes to neuronal death in Alzheimer's, Parkinson's, and stroke; in metabolic disease, JNK activation in obesity contributes to insulin resistance and hepatic steatosis.
@@ -64,6 +68,9 @@ JNK isoforms are pursued as targets, though isoform-specific inhibitors (e.g., S
 - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
   - p53 can act as an antioxidant factor to suppress oxidative stress by regulating redox-related proteins, including Jun N-terminal kinase (JNK).
 
+- [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]]
+  - cFLIP_L binds MKK7 and inhibits JNK; JNK1-dependent Itch degrades cFLIP_L; cFLIP loss activates JNK and raises ROS — a mutual-regulatory loop setting TNF-α fate.
+
 ## Connections
 
 - [[BAX]] — JNK phosphorylates BAX at Thr167 to promote apoptosis
@@ -81,6 +88,9 @@ JNK isoforms are pursued as targets, though isoform-specific inhibitors (e.g., S
 - [[EMT]] — Invasive program that can be promoted by chronic JNK signaling
 - [[Chemotherapy]] — Efficacy influenced by JNK-dependent death or survival
 - [[Metastasis]] — JNK signaling supports invasive phenotypes in established tumors
+- [[c-FLIP]] — cFLIP_L binds MKK7 to inhibit JNK; JNK1–Itch degrades cFLIP_L in a mutual-regulatory loop
+- [[Itch]] — JNK1-dependent E3 ligase that polyubiquitylates cFLIP_L
+- [[MKK7]] — MAP2K bound and inhibited by cFLIP_L
 
 ## Linking Summary
 
@@ -91,3 +101,4 @@ JNK isoforms are pursued as targets, though isoform-specific inhibitors (e.g., S
     - [[JNK]] ↔ [[ERK2]]
     - [[JNK]] ↔ [[Bim]]
     - [[JNK]] ↔ [[Mcl-1]]
+- Source enrichment (2026-11-19): [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]] — cFLIP_L–MKK7–JNK inhibition and JNK1–Itch–cFLIP_L degradation as a mutual-regulatory loop. New links: [[c-FLIP]], [[Itch]], [[MKK7]], [[Reactive Oxygen Species]].

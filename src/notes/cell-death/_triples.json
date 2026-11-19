@@ -9350,5 +9350,271 @@
     "source_document": "Toxoplasma gondii.md",
     "created": "2026-11-10T16:49:16Z",
     "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "id": "f0d36e3e1f0b",
+    "subject": "c-FLIP",
+    "predicate": "is_a_catalytically_inactive_homolog_of",
+    "object": "Caspase-8",
+    "context": {
+      "en-US": "c-FLIP (cellular FLICE-like inhibitory protein, encoded by CFLAR) is structurally related to procaspase-8 but carries multiple amino-acid substitutions at catalytically important residues, so it has no proteolytic activity of its own. It retains two N-terminal DEDs and a caspase-8-like domain that lacks the catalytic cysteine. Heterodimerization with procaspase-8 through DED–DED contacts is how c-FLIP controls death-receptor apoptosis, the ripoptosome, and necroptosis (Tsuchiya et al. 2015).",
+      "zh-TW": "c-FLIP（cellular FLICE-like inhibitory protein，由 CFLAR 編碼）在結構上與 procaspase-8 相關，但催化關鍵胺基酸殘基有多處取代，因此自身不具蛋白水解活性。它保留兩個 N 端 DED 與缺乏催化半胱胺酸的 caspase-8 類似結構域。c-FLIP 透過 DED–DED 接觸與 procaspase-8 形成異二聚體，藉此控制死亡受體凋亡、ripoptosome 與壞死性凋亡（Tsuchiya 等，2015）。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP.md",
+    "created": "2026-11-19T18:34:03Z",
+    "updated": "2026-11-19T18:34:03Z"
+  },
+  {
+    "id": "3bafb557fba2",
+    "subject": "CFLAR",
+    "predicate": "produces",
+    "object": "c-FLIP",
+    "context": {
+      "en-US": "The human CFLAR gene spans 14 exons on chromosome 2q33-34, adjacent to CASP8 and CASP10, an arrangement suggesting the three genes arose by ancient gene duplication. Alternative splicing produces cFLIP_L (55 kDa, DEDs plus a catalytically dead caspase-like domain), cFLIP_S (27 kDa, DEDs only), and cFLIP_R (25 kDa). cFLIP_S is absent in mice because the corresponding exon is missing; in humans SNP rs10190751 determines whether CFLAR yields cFLIP_S or cFLIP_R (Tsuchiya et al. 2015).",
+      "zh-TW": "人類 CFLAR 基因含 14 個外顯子，位於染色體 2q33-34，與 CASP8、CASP10 相鄰，此排列顯示三個基因可能源自遠古基因複製。選擇性剪接產生 cFLIP_L（55 kDa，具 DED 與無催化活性的 caspase 類似結構域）、cFLIP_S（27 kDa，僅 DED）與 cFLIP_R（25 kDa）。小鼠因缺少相應外顯子而不表現 cFLIP_S；在人類，SNP rs10190751 決定 CFLAR 產生 cFLIP_S 或 cFLIP_R（Tsuchiya 等，2015）。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP.md",
+    "created": "2026-11-19T18:34:03Z",
+    "updated": "2026-11-19T18:34:03Z"
+  },
+  {
+    "id": "c0b9241ead22",
+    "subject": "c-FLIP",
+    "predicate": "activates",
+    "object": "Caspase-8",
+    "context": {
+      "en-US": "Biochemical analysis showed that cFLIP_L is a more potent activator of procaspase-8 than procaspase-8 itself: forced-dimerization experiments demonstrated that cFLIP_L can activate procaspase-8 without interdomain cleavage and alters its substrate specificity. At the DISC, cFLIP_L heterodimers perform the rate-limiting interdimer cleavage of neighboring procaspase-8 molecules while remaining tethered and releasing no apoptotic signal, which explains how cFLIP_L can both activate and inhibit caspase-8-driven apoptosis (Tsuchiya et al. 2015).",
+      "zh-TW": "生化分析顯示 cFLIP_L 激活 procaspase-8 的能力比 procaspase-8 自身更強：強制二聚化實驗證明 cFLIP_L 可在無結構域間切割的情況下激活 procaspase-8，並改變其受質特異性。在 DISC，cFLIP_L 異二聚體執行鄰近 procaspase-8 分子的速率限制步驟（結構域間切割），同時保持膜結合且不釋放凋亡訊號，這解釋了 cFLIP_L 為何既能激活又能抑制 caspase-8 驅動的凋亡（Tsuchiya 等，2015）。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP.md",
+    "created": "2026-11-19T18:34:03Z",
+    "updated": "2026-11-19T18:34:03Z"
+  },
+  {
+    "id": "d22951115959",
+    "subject": "c-FLIP",
+    "predicate": "inhibits",
+    "object": "Caspase-8",
+    "context": {
+      "en-US": "In contrast to the long isoform, cFLIP_S and cFLIP_R consist only of DEDs and are thought to block procaspase-8 activation by heterodimerization: the inactive complex binds but cannot activate procaspase-8, and short isoforms terminate DED-chain elongation at the DISC. Quantitative models identify the procaspase-8:cFLIP ratio and cFLIP_L recruitment kinetics as the parameters that set the death-ligand threshold and the life/death decision (Tsuchiya et al. 2015).",
+      "zh-TW": "與長型異構物不同，cFLIP_S 與 cFLIP_R 僅由 DED 組成，一般認為透過異二聚化阻斷 procaspase-8 的激活：不活化複合物可結合但無法激活 procaspase-8，短型異構物並在 DISC 終止 DED 鏈延長。定量模型指出 procaspase-8:cFLIP 比例與 cFLIP_L 招募動力學是設定死亡配體閾值及生死決策的關鍵參數（Tsuchiya 等，2015）。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP.md",
+    "created": "2026-11-19T18:34:03Z",
+    "updated": "2026-11-19T18:34:03Z"
+  },
+  {
+    "id": "28264d6c2e8f",
+    "subject": "Caspase-8",
+    "predicate": "cleaves",
+    "object": "c-FLIP",
+    "context": {
+      "en-US": "Caspase-8 cleaves cFLIP_L after Asp376 (Asp377 in mouse) to generate the DISC-retained p43-FLIP fragment, and after Asp196 (human only) to generate p22-FLIP. Yu et al. found that p43-FLIP heterodimerizes more avidly with procaspase-8 than full-length cFLIP_L, and Neumann et al. identified the kinetics of cFLIP_L recruitment and p43-FLIP generation as the critical parameter of the CD95L life/death decision (Tsuchiya et al. 2015).",
+      "zh-TW": "Caspase-8 在 Asp376（小鼠為 Asp377）之後切割 cFLIP_L 產生滯留於 DISC 的 p43-FLIP 片段，並在 Asp196（僅人類）之後切割產生 p22-FLIP。Yu 等人發現 p43-FLIP 與 procaspase-8 的異二聚化親和力高於全長 cFLIP_L；Neumann 等人則指出 cFLIP_L 招募與 p43-FLIP 生成的動力學是 CD95L 生死決策的關鍵參數（Tsuchiya 等，2015）。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP.md",
+    "created": "2026-11-19T18:34:03Z",
+    "updated": "2026-11-19T18:34:03Z"
+  },
+  {
+    "id": "61d2c8135a45",
+    "subject": "c-FLIP",
+    "predicate": "interacts_with",
+    "object": "FADD",
+    "context": {
+      "en-US": "DED–DED interactions recruit cFLIP isoforms to FADD at both the DISC and the ripoptosome. Quantitative mass spectrometry found several-fold more procaspase-8 than FADD at native TRAIL- and CD95L-induced DISCs with very little cFLIP, while other models cap the (procaspase-8 + cFLIP):FADD ratio near 2:1 — so cFLIP incorporation into short DED oligomers, rather than total abundance, governs signaling output (Tsuchiya et al. 2015).",
+      "zh-TW": "DED–DED 交互作用將 cFLIP 異構物招募至 DISC 與 ripoptosome 上的 FADD。定量質譜發現在原生 TRAIL 與 CD95L 誘導的 DISC 中，procaspase-8 比 FADD 多數倍，而 cFLIP 含量極低；其他模型則將 (procaspase-8 + cFLIP):FADD 比例限制在約 2:1 — 因此決定訊號輸出的是 cFLIP 摻入短 DED 寡聚體的情形，而非總含量（Tsuchiya 等，2015）。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP.md",
+    "created": "2026-11-19T18:34:03Z",
+    "updated": "2026-11-19T18:34:03Z"
+  },
+  {
+    "id": "c847e858b19f",
+    "subject": "c-FLIP",
+    "predicate": "suppresses",
+    "object": "Apoptosis",
+    "context": {
+      "en-US": "cFLIP suppresses death-receptor apoptosis through isoform-specific complex dynamics: cFLIP_L-activated procaspase-8 stays DISC-bound and cleaves only a limited set of local substrates, while cFLIP_S/cFLIP_R block procaspase-8 processing outright. Both isoforms therefore protect T cells, hepatocytes, intestinal epithelium, and epidermis from FasL, TNF-α, and TCR-driven apoptosis (Tsuchiya et al. 2015).",
+      "zh-TW": "cFLIP 透過異構物特定的複合物動力學抑制死亡受體凋亡：cFLIP_L 激活的 procaspase-8 保持在 DISC 上，僅切割少數局部受質；cFLIP_S/cFLIP_R 則直接阻斷 procaspase-8 的處理。因此兩種異構物皆保護 T 細胞、肝細胞、腸上皮與表皮免受 FasL、TNF-α 及 TCR 驅動的凋亡（Tsuchiya 等，2015）。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP.md",
+    "created": "2026-11-19T18:34:03Z",
+    "updated": "2026-11-19T18:34:03Z"
+  },
+  {
+    "id": "82f36c3a302f",
+    "subject": "c-FLIP",
+    "predicate": "promotes",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "cFLIP_S promotes ripoptosome assembly but cannot activate procaspase-8 to inactivate RIPK1, so RIPK1 phosphorylates RIPK3, which phosphorylates MLKL to execute necroptosis. cFLIP_L opposes this by retaining enough caspase-8 activity to cleave RIPK1; RIPK3-inhibitor (D161N) apoptosis is likewise enhanced by cFLIP_L, showing that the RIPK1–RIPK3–MLKL axis and the cFLIP isoform balance are the joint determinants of fate (Tsuchiya et al. 2015).",
+      "zh-TW": "cFLIP_S 促進 ripoptosome 組裝，但無法激活 procaspase-8 使 RIPK1 失去活性，因此 RIPK1 磷酸化 RIPK3，後者再磷酸化 MLKL 以執行壞死性凋亡。cFLIP_L 則保留足夠的 caspase-8 活性切割 RIPK1 來對抗此過程；RIPK3 抑制劑（D161N）誘導的凋亡同樣被 cFLIP_L 增強，顯示 RIPK1–RIPK3–MLKL 軸與 cFLIP 異構物平衡是共同決定因素（Tsuchiya 等，2015）。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP.md",
+    "created": "2026-11-19T18:34:03Z",
+    "updated": "2026-11-19T18:34:03Z"
+  },
+  {
+    "id": "40031dd985e4",
+    "subject": "c-FLIP",
+    "predicate": "assembles_with",
+    "object": "Ripoptosome",
+    "context": {
+      "en-US": "The ripoptosome is a 2 MDa death-receptor-independent complex of RIPK1, FADD, caspase-8 and cFLIP that forms spontaneously when cIAPs are depleted by genotoxic stress or Smac mimetics. cFLIP_L/ procaspase-8 heterodimers cleave RIPK1 and disassemble the platform (survival); cFLIP_S heterodimers cannot, so the complex persists and hands off to the necrosome (Tsuchiya et al. 2015).",
+      "zh-TW": "ripoptosome 是一個 2 MDa、不依賴死亡受體的複合物，由 RIPK1、FADD、caspase-8 與 cFLIP 組成；當 cIAPs 因基因毒性壓力或 Smac 模擬物而耗盡時會自發形成。cFLIP_L/procaspase-8 異二聚體切割 RIPK1 並拆解該平台（存活）；cFLIP_S 異二聚體則不能，故複合物持續存在並交接給壞死小體（Tsuchiya 等，2015）。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP.md",
+    "created": "2026-11-19T18:34:03Z",
+    "updated": "2026-11-19T18:34:03Z"
+  },
+  {
+    "id": "1515e24effc8",
+    "subject": "Itch",
+    "predicate": "polyubiquitylates",
+    "object": "c-FLIP",
+    "context": {
+      "en-US": "Itch (AIP4), a HECT-type E3 ubiquitin ligase, is required for cFLIP_L degradation in a JNK1-dependent manner during TNF-α cell death; p53, ATM-mediated Ser161 phosphorylation, and ROS signaling also feed into the Itch–cFLIP axis. Itch is not the sole ligase: Cbl, Cbl-b, Mind bomb 1, TRAF7 and CHIP polyubiquitylate cFLIP isoforms in isoform-, cell-type- and signal-specific contexts (Tsuchiya et al. 2015).",
+      "zh-TW": "Itch（AIP4）為 HECT 型 E3 泛素連接酶，在 TNF-α 細胞死亡期間以 JNK1 依賴性方式降解 cFLIP_L；p53、ATM 介導的 Ser161 磷酸化與 ROS 訊號亦接入 Itch–cFLIP 軸。Itch 並非唯一連接酶：Cbl、Cbl-b、Mind bomb 1、TRAF7 與 CHIP 會依異構物、細胞類型與訊號情境對 cFLIP 異構物進行多聚泛素化（Tsuchiya 等，2015）。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP.md",
+    "created": "2026-11-19T18:34:03Z",
+    "updated": "2026-11-19T18:34:03Z"
+  },
+  {
+    "id": "5dd55654300a",
+    "subject": "c-FLIP",
+    "predicate": "is_degraded_by",
+    "object": "Proteasome",
+    "context": {
+      "en-US": "All cFLIP isoforms are unstable proteins with rapid turnover, and cFLIP is degraded mainly through the ubiquitin–proteasome pathway. Proteasome inhibition raises cFLIP concentration and shifts death-signal sensitivity in an isoform-specific manner; because cFLIP turnover sets the ligand threshold, this post-translational control is a primary determinant of death-receptor responses (Tsuchiya et al. 2015).",
+      "zh-TW": "所有 cFLIP 異構物皆為快速周轉的不穩定蛋白，主要經由泛素–蛋白酶體途徑降解。蛋白酶體抑制會提高 cFLIP 濃度，並以異構物特定方式改變死亡訊號敏感度；由於 cFLIP 周轉設定配體閾值，此種轉譯後控制是死亡受體反應的主要決定因素（Tsuchiya 等，2015）。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP.md",
+    "created": "2026-11-19T18:34:03Z",
+    "updated": "2026-11-19T18:34:03Z"
+  },
+  {
+    "id": "ad08fdd4d200",
+    "subject": "PKC",
+    "predicate": "phosphorylates",
+    "object": "c-FLIP",
+    "context": {
+      "en-US": "PKC phosphorylates Ser193, a residue present in all cFLIP isoforms. The phospho-mimetic Ser193Asp mutation prolonged the half-life of cFLIP_S and cFLIP_R but not cFLIP_L, identifying phosphorylation as an isoform-selective stabilizer of the short forms (Tsuchiya et al. 2015).",
+      "zh-TW": "PKC 磷酸化 Ser193，此殘基存在於所有 cFLIP 異構物中。模擬磷酸化的 Ser193Asp 突變延長了 cFLIP_S 與 cFLIP_R 的半衰期，但對 cFLIP_L 無影響，顯示磷酸化是短型異構物的選擇性穩定機制（Tsuchiya 等，2015）。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP.md",
+    "created": "2026-11-19T18:34:03Z",
+    "updated": "2026-11-19T18:34:03Z"
+  },
+  {
+    "id": "b0c49a56b981",
+    "subject": "Reactive Oxygen Species",
+    "predicate": "induces_phosphorylation_of",
+    "object": "c-FLIP",
+    "context": {
+      "en-US": "ROS generation induces phosphorylation of cFLIP_L at Thr166, which is required for subsequent polyubiquitylation at Lys167 and thus for proteasomal degradation. Conversely, nitric-oxide-driven S-nitrosylation of cFLIP_L at Cys254/Cys259 inhibits its polyubiquitylation and protects cells from CD95-induced apoptosis (Tsuchiya et al. 2015).",
+      "zh-TW": "ROS 生成會誘導 cFLIP_L 在 Thr166 磷酸化，此為後續 Lys167 多聚泛素化及蛋白酶體降解所需。相反地，一氧化氮驅動 cFLIP_L 在 Cys254/Cys259 的 S-亞硝化會抑制其多聚泛素化，保護細胞免於 CD95 誘導的凋亡（Tsuchiya 等，2015）。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP.md",
+    "created": "2026-11-19T18:34:03Z",
+    "updated": "2026-11-19T18:34:03Z"
+  },
+  {
+    "id": "89c7c064ca2d",
+    "subject": "TRIM21",
+    "predicate": "polyubiquitylates",
+    "object": "c-FLIP",
+    "context": {
+      "en-US": "The Cflip-l+46 mutant mice express cFLIP_L with a C-terminal 46-amino-acid extension from an X482W stop-codon mutation. This mutant is polyubiquitylated by the E3 ligase TRIM21 and rapidly degraded by the proteasome, and the mice die around E13.5 — a genetic demonstration that tight control of cFLIP_L stability is required for mammalian development (Tsuchiya et al. 2015).",
+      "zh-TW": "Cflip-l+46 突變小鼠因 X482W 終止密碼子突變而表現帶有 C 端 46 胺基酸延長的 cFLIP_L。此突變蛋白被 E3 連接酶 TRIM21 多聚泛素化並快速由蛋白酶體降解，小鼠約在 E13.5 死亡 — 這項遺傳學證據顯示嚴密調控 cFLIP_L 穩定性是哺乳動物發育所需（Tsuchiya 等，2015）。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP.md",
+    "created": "2026-11-19T18:34:03Z",
+    "updated": "2026-11-19T18:34:03Z"
+  },
+  {
+    "id": "aa3b0d876b64",
+    "subject": "c-FLIP",
+    "predicate": "maintains",
+    "object": "Tissue Homeostasis",
+    "context": {
+      "en-US": "Whole-body Cflip deletion is embryonic lethal (before E10.5), and lethality is not rescued by Ripk3 loss alone but by combined Fadd/Ripk3 deletion. Tissue-specific deletion increases cell death in T and B cells, liver failure, splenomegaly, and intestinal/skin inflammation; cFLIP_L transgenes protect liver, heart, gut and epidermis but cause testis atrophy and muscle aging when overexpressed, showing that isoform balance, not simply more survival signaling, preserves homeostasis (Tsuchiya et al. 2015).",
+      "zh-TW": "全身性 Cflip 缺失會導致胚胎致死（E10.5 之前），單獨缺失 Ripk3 無法挽救，但合併缺失 Fadd/Ripk3 可以。組織特異性缺失會增加 T 與 B 細胞死亡、肝衰竭、脾腫大及腸道/皮膚發炎；cFLIP_L 轉基因可保護肝、心、腸與表皮，但過度表現會造成睪丸萎縮與肌肉老化，顯示維持穩態的關鍵是異構物平衡而非單純增加存活訊號（Tsuchiya 等，2015）。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP.md",
+    "created": "2026-11-19T18:34:03Z",
+    "updated": "2026-11-19T18:34:03Z"
+  },
+  {
+    "id": "089f108f85ff",
+    "subject": "c-FLIP",
+    "predicate": "confers",
+    "object": "Chemoresistance",
+    "context": {
+      "en-US": "Overexpression of cFLIP in various cancer cells confers resistance to anticancer drugs and death ligands. Lowering cFLIP — through proteasome-sensitive turnover, cisplatin/Itch–p53 signaling, or HDAC inhibitors — re-sensitizes tumors to TRAIL and chemotherapy. Because cFLIP is intracellular, small molecules that modulate its function or stability, rather than antibodies, are the proposed therapeutic route (Tsuchiya et al. 2015).",
+      "zh-TW": "多種癌細胞中 cFLIP 過度表現會對抗癌藥物與死亡配體產生抗性。降低 cFLIP — 透過蛋白酶體敏感周轉、cisplatin/Itch–p53 訊號或 HDAC 抑制劑 — 可重新使腫瘤對 TRAIL 與化療敏感。由於 cFLIP 位於細胞內，提出的治療途徑是調節其功能或穩定性的小分子，而非抗體（Tsuchiya 等，2015）。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP.md",
+    "created": "2026-11-19T18:34:03Z",
+    "updated": "2026-11-19T18:34:03Z"
+  },
+  {
+    "id": "e73f25556992",
+    "subject": "c-FLIP",
+    "predicate": "activates",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "The cFLIP cleavage products feed survival signaling: p22-FLIP binds NEMO/IKKγ and potently activates the IKK complex/NF-κB independently of FADD, while p43-FLIP recruits RIPK1, TRAF2/TRAFF6 and Raf-1 at the DISC to drive NF-κB and ERK activation underlying FLIP_L-dependent T-cell proliferation (Tsuchiya et al. 2015).",
+      "zh-TW": "cFLIP 切割產物接入存活訊號：p22-FLIP 結合 NEMO/IKKγ 並以不依賴 FADD 的方式強力激活 IKK 複合物/NF-κB；p43-FLIP 則在 DISC 招募 RIPK1、TRAF2/TRAFF6 與 Raf-1，驅動 NF-κB 與 ERK 激活，支持 FLIP_L 依賴的 T 細胞增殖（Tsuchiya 等，2015）。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP.md",
+    "created": "2026-11-19T18:34:03Z",
+    "updated": "2026-11-19T18:34:03Z"
+  },
+  {
+    "id": "70869a3eacb4",
+    "subject": "c-FLIP",
+    "predicate": "inhibits",
+    "object": "JNK",
+    "context": {
+      "en-US": "cFLIP_L directly binds MKK7 and inhibits the JNK pathway; conversely, JNK1-dependent Itch activation degrades cFLIP_L, and cFLIP downregulation induces JNK activation and ROS accumulation in tumor cells. This mutual regulation between cFLIP and the JNK–Itch pathway is proposed to determine cell fate downstream of TNF-α (Tsuchiya et al. 2015).",
+      "zh-TW": "cFLIP_L 直接結合 MKK7 並抑制 JNK 路徑；反之，JNK1 依賴的 Itch 激活會降解 cFLIP_L，而 cFLIP 下調會在腫瘤細胞中誘導 JNK 激活與 ROS 累積。cFLIP 與 JNK–Itch 路徑之間的這種相互調控被認為決定 TNF-α 下游的細胞命運（Tsuchiya 等，2015）。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP.md",
+    "created": "2026-11-19T18:34:03Z",
+    "updated": "2026-11-19T18:34:03Z"
+  },
+  {
+    "id": "87510aa17467",
+    "subject": "TRIF",
+    "predicate": "activates",
+    "object": "Caspase-8",
+    "context": {
+      "en-US": "Beyond the DISC, dsRNA stimulation forms an atypical death complex containing TLR3, TRIF and caspase-8. Unlike the ripoptosome, this TLR3-dependent complex requires RIPK1 but not FADD to activate procaspase-8, indicating that multiple ripoptosome-like apoptosis-inducing platforms can be assembled by different stimuli (Tsuchiya et al. 2015).",
+      "zh-TW": "在 DISC 之外，dsRNA 刺激會形成包含 TLR3、TRIF 與 caspase-8 的非典型死亡複合物。與 ripoptosome 不同，此TLR3 依賴性複合物激活 procaspase-8 需要 RIPK1 而非 FADD，顯示不同刺激可組裝多種類似 ripoptosome 的凋亡誘導平台（Tsuchiya 等，2015）。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP.md",
+    "created": "2026-11-19T18:34:03Z",
+    "updated": "2026-11-19T18:34:03Z"
   }
 ]

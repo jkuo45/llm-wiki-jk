@@ -4,7 +4,7 @@ description: Reactive Oxygen Species (ROS) are highly reactive molecules contain
   oxygen, formed as natural byproducts of oxygen metabolism. They play dual roles
   as signaling molecules and agents of oxida...
 created: 2026-05-31
-updated: 2026-10-23
+updated: 2026-11-19
 tags:
   - chemical-compound
 aliases: [ROS, Reactive oxygen species, Reactive oxygen intermediates]
@@ -47,6 +47,10 @@ The use of ROS scavengers (antioxidants like Vitamin C) and hypoxic growth condi
 ## Necroptosis regulation
 
 ROS promote [[Necroptosis]] by inducing [[RIPK1]] autophosphorylation in septic cardiomyopathy and viral myocarditis — a signalling role rather than a purely damaging one, mirroring the hormetic pattern above.
+
+> [!info]
+> Source: [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]]
+> ROS also tune the [[c-FLIP]] rheostat post-translationally: ROS-induced phosphorylation of cFLIP_L at Thr166 is required for subsequent polyubiquitylation at Lys167 and proteasomal degradation. Conversely, nitric-oxide-driven S-nitrosylation at Cys254/Cys259 blocks that polyubiquitylation and protects cells from CD95-induced apoptosis — so the same protein integrates oxidative and nitrosative redox signals into a stability switch.
 
 #
 
@@ -108,6 +112,9 @@ List of documents that mention this entity
   - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease]]
     - SIRT1/SIRT6 inhibition of TNFα-induced inflammation in vascular adventitial fibroblasts proceeds through ROS and Akt signaling.
 
+  - [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]]
+    - ROS-induced Thr166 phosphorylation gates Lys167 polyubiquitylation and degradation of cFLIP_L; S-nitrosylation at Cys254/Cys259 opposes it and protects from CD95 apoptosis.
+
 ## Connections
 - [[Oxidative Stress]] ↔ Condition resulting from an imbalance between ROS production and antioxidant defenses.
 - [[Adrenochrome]] ↔ Formed via ROS-mediated oxidation of adrenaline.
@@ -119,9 +126,11 @@ List of documents that mention this entity
 - [[p53]]: Activated as a response to ROS-induced stress and DNA damage.
 - [[RIPK1]] — ROS drive RIPK1 autophosphorylation, promoting [[Necroptosis]] in septic cardiomyopathy and viral myocarditis.
 - [[Superoxide Radicals]] / [[Hydrogen Peroxide]] / [[Hydroxyl Radicals]] / [[Singlet Oxygen]] — the four canonical ROS species.
+- [[c-FLIP]] — ROS-induced Thr166 phosphorylation drives cFLIP_L polyubiquitylation and degradation; S-nitrosylation opposes it.
 
 ## Linking Summary
 - New links added: [[Reactive Oxygen Species]], [[Superoxide anion]], [[Hydrogen Peroxide]], [[Hydroxyl radical]], [[MAO]], [[Adrenochrome]], [[Oxidation]], [[Epinephrine]], [[Redox Cycling]], [[Neutrophils]], [[Myeloperoxidase]], [[Smoking]], [[Oxidative Stress]], [[Inflammation]], [[Aminochromes]], [[Superoxide Radicals]], [[Hydroxyl Radicals]], [[Apoptosis]], [[Immunity]], [[Singlet Oxygen]], [[Cellular Reprogramming]], [[OSKM]], [[DNA Damage]], [[p53]], [[Senescence]], [[Embryonic Stem Cells]], [[Pluripotency]], [[Innate Immunity]], [[Necroptosis]], [[RIPK1]]
 - Suggested new entity notes to create: [[Immunity]], [[Signaling Molecules]]
   - Strong connections to strengthen: Reactive Oxygen Species ↔ Oxidative Stress
 - 2026-10-23: merged the duplicate `ROS.md` stub into this canonical note (AGENTS §7 — one resolvable copy per entity); its necroptosis/RIPK1 content and two document references were carried over.
+- Source enrichment (2026-11-19): [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]] — redox control of c-FLIP stability (ROS/Thr166/Lys167 vs S-nitrosylation Cys254/Cys259). New links: [[c-FLIP]].

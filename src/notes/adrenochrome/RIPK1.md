@@ -2,7 +2,7 @@
 title: RIPK1
 description: RIPK1 (Receptor-interacting serine/threonine-protein kinase 1) is a 76 kDa kinase and death domain-containing protein that serves as a central molecular switch governing cell fate decisions between survival, apoptosis, and necroptosis.
 created: 2026-07-04
-updated: 2026-09-14
+updated: 2026-11-19
 tags:
   - enzyme
 aliases: []
@@ -23,6 +23,10 @@ RIPK1 sits at the apex of a signaling cascade initiated by the binding of [[TNF�
 When [[NF-κB]] signaling is impaired or deubiquitination of RIPK1 occurs, RIPK1 dissociates from Complex I and assembles into cytosolic Complex II. In Complex IIa, RIPK1 scaffolds [[FADD]] and [[caspase-8]], promoting caspase-8 dimerization and activation. Active caspase-8 cleaves downstream executioner caspases, resulting in extrinsic [[apoptosis]]. If caspase-8 activity is compromised — through pharmacological inhibition, viral inhibitors, or genetic deletion — RIPK1 instead partners with [[RIPK3]] via RHIM-mediated interactions. RIPK3 then phosphorylates MLKL, which translocates to the plasma membrane to execute [[necroptosis]], a lytic and immunogenic form of cell death.
 
 The kinase activity of RIPK1 serves as the critical switch between these outcomes. When RIPK1 kinase activity is engaged, it drives the formation of the necrosome (RIPK1–RIPK3–MLKL). Conversely, kinase-inactive RIPK1 can still scaffold survival or apoptotic complexes, underscoring the distinction between its scaffold and enzymatic functions.
+
+> [!info]
+> Source: [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]]
+> RIPK1 is the obligate scaffold of the [[Ripoptosome]]: when cIAP-mediated ubiquitination is lost (genotoxic stress, Smac mimetics, TLR3 stimulation), its death domain is exposed and binds [[FADD]], nucleating a 2 MDa RIPK1–FADD–caspase-8–[[c-FLIP]] complex. Procaspase-8 homodimers or caspase-8/FLIP_L heterodimers cleave RIPK1 to disassemble the platform (apoptosis or survival); c-FLIP_S heterodimers cannot, so RIPK1 phosphorylates [[RIPK3]] and the cell defaults to [[Necroptosis]]. The RIPK3 kinase-dead D161N mutant or RIPK3 inhibitors block necroptosis but can redirect the same platform toward apoptosis, a redirection enhanced by FLIP_L — so RIPK1's fate output depends jointly on the RIPK1–RIPK3–MLKL axis and the c-FLIP isoform balance.
 
 ## MAVS Connection
 
@@ -50,12 +54,16 @@ List of documents that mention this entity
   - Multilayered regulation of RIPK1 by DAPK1, ROS, PTPN6, PI3K/Akt, TRIM21, CYLD, and OTULIN; RIPK1 as the survival/death integrator of the necroptosis network.
 - [[_document_ - Necroptosis (2014), Linkermann, Green|Linkermann & Green 2014 NEJM — Necroptosis]]
   - Nec-1/IDO duality and solved Nec-1–RIPK1 structure; perinatal RIPK1-KO lethality suggesting an inhibitory RIPK1 state; 30-min-post-reperfusion Nec-1 failure in renal IRI; SHARPIN/LUBAC regulation.
+- [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]]
+  - RIPK1 as ripoptosome scaffold; caspase-8/FLIP_L-mediated RIPK1 cleavage as the disassembly step; c-FLIP_S-dependent diversion to necroptosis; RIPK3-D161N redirection toward apoptosis.
 
 ## Connections
 
 - [[MAVS]]: RIPK1 is recruited to MAVS aggregates on mitochondria during antiviral signaling to activate IRF3 and NF-κB for type I interferon production.
 - [[Apoptosis]]: RIPK1 scaffolds FADD and caspase-8 in Complex IIa to drive extrinsic apoptosis when NF-κB signaling is blocked.
 - [[Necroptosis]]: When caspase-8 is inhibited, RIPK1 kinase activity drives RIPK3/MLKL-dependent necroptosis.
+- [[Ripoptosome]]: RIPK1 is the obligate cytosolic scaffold whose exposed death domain recruits FADD and the caspase-8/c-FLIP DED chain.
+- [[c-FLIP]]: Caspase-8/FLIP_L heterodimers cleave RIPK1 to disassemble the ripoptosome; FLIP_S heterodimers cannot, licensing necroptosis.
 - [[NF-κB]]: Within Complex I, ubiquitinated RIPK1 recruits IKK and TAK1 to activate canonical NF-κB signaling and promote cell survival.
 - [[TNFα]]: TNFα binding to TNFR1 triggers RIPK1 recruitment and the formation of signaling complexes that dictate cell fate.
 - [[TNFR1]]: RIPK1 binds TNFR1 through its C-terminal death domain to initiate downstream signaling cascades.
@@ -69,3 +77,4 @@ List of documents that mention this entity
 - Strong connections to strengthen: [[RIPK1]] ↔ [[MAVS]], [[RIPK1]] ↔ [[TNFα]], [[RIPK1]] ↔ [[Necroptosis]], [[RIPK1]] ↔ [[NF-κB]]
 - Source enrichment (2026-09-14): [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026]] — antagonistic phospho/ubiquitin regulation (DAPK1, ROS, PTPN6, PI3K/Akt, TRIM21, CYLD, OTULIN) and species-dependent RIPK1 role in ZBP1 necroptosis. New links: [[DAPK]], [[SHP1]], [[TRIM21]], [[OTULIN]], [[PI3K]], [[Akt]], [[ZBP1]], [[ROS]].
 - Source enrichment (2026-09-14): [[_document_ - Necroptosis (2014), Linkermann, Green|Linkermann & Green 2014]] — Nec-1 as an IDO inhibitor, solved Nec-1–RIPK1 complex, potential RIPK1-inhibitory-state stabilization, post-reperfusion timing caveat, SHARPIN/LUBAC axis. New links: [[Necrostatin-1]], [[Necrostatin-1s]], [[IDO1]], [[SHARPIN]], [[NEMO]].
+- Source enrichment (2026-11-19): [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]] — RIPK1 as ripoptosome scaffold, caspase-8/FLIP_L cleavage as disassembly, FLIP_S diversion to necroptosis, and the RIPK3-D161N apoptosis-redirection paradox. New links: [[Ripoptosome]], [[c-FLIP]].

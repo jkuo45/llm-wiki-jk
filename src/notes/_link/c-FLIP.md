@@ -3,7 +3,7 @@ title: c-FLIP
 description: FLICE-like inhibitory protein (c-FLIP/CFLAR) — an enzymatically inactive caspase-8 homolog whose isoforms set the apoptose/necroptose/pyroptose switch by tuning caspase-8 activity inside death receptor and inflammasome complexes.
 protected: false
 created: 2026-08-29
-updated: 2026-09-03
+updated: 2026-11-19
 tags:
   - protein
   - cell-death
@@ -22,6 +22,15 @@ aliases:
 # c-FLIP
 
 **c-FLIP** (FLICE-like inhibitory protein, encoded by *CFLAR*) is an enzymatically inactive homolog of [[Caspase-8]] that heterodimerizes with it and thereby decides whether a death-receptor stimulus ends in [[Apoptosis]], [[Necroptosis]], or cell survival. It is the tuning knob on the caspase-8 molecular switch.
+
+## Gene & Isoforms
+
+> [!info]
+> Source: [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP]]
+> *CFLAR* spans 14 exons on human chromosome 2q33-34, adjacent to *CASP8* and *CASP10* — the three genes arose by ancient duplication. Alternative splicing yields cFLIP_L (55 kDa, two DEDs + catalytically dead caspase-like domain), cFLIP_S (27 kDa, DEDs only), and cFLIP_R (25 kDa). cFLIP_S is absent in mice (no corresponding exon); the human cFLIP_S/cFLIP_R choice is set by SNP rs10190751. Caspase-8 cleavage gives p43-FLIP (Asp376; Asp377 in mouse) and p22-FLIP (Asp196, human-only).
+
+- Isoform expression is cell-type restricted: cFLIP_R is reported in Raji and SKW6.4 lines and human primary T cells, while cFLIP_S is the splice product in rs10190751 carriers.
+- All isoforms are short-lived; the ligase set is isoform-specific (Itch→cFLIP_L, Cbl→cFLIP_S, Cbl-b/Mind bomb 1/TRAF7/CHIP→cFLIP_L), so the FLIP_L:FLIP_S ratio — not total cFLIP — is the fate-determining parameter.
 
 ## Mechanism
 

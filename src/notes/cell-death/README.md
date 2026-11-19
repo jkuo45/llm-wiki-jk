@@ -3,7 +3,7 @@ title: Cell Death
 aliases: []
 description: index of entities and documents in this directory
 created: 2026-09-07
-updated: 2026-11-09
+updated: 2026-11-19
 ---
 # Cell Death
 
@@ -17,6 +17,7 @@ updated: 2026-11-09
 | [[_document_ - Parthanatos Moura 2024 molecular mechanisms more questions than answers\|Molecular mechanisms of cell death by parthanatos: More questions than answers]] | Moura et al. 2024 mini-review of the contested downstream cascade — NAD+/glycolysis vs PAR–HK1, free ADP-ribose–TRPM2 Ca2+, Nudix–AMP–AMPK, and AIF-dependent vs AIF-independent DNA fragmentation; lists 17 open questions. |
 | [[_document_ - Necroptosis a regulated inflammatory mode of cell death\|Necroptosis: a regulated inflammatory mode of cell death]] | Dhuriya and Sharma 2018 timeline review of necroptosis molecular mechanisms and disease relevance — RIPK3/MLKL axis, non-classical necrosomes, phospho-sites, inflammation, infection, neurodegeneration. |
 | [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network\|Regulatory complexity and therapeutic targeting of the necroptosis network]] | Niu et al. 2026 review of canonical (TNFR1) and non-canonical (ZBP1, TRIF) necroptosis induction, the multilayered PTM/transcriptional regulation of RIPK1/RIPK3/MLKL, crosstalk with apoptosis/autophagy/inflammation/metabolism and PANoptosomes, and the therapeutic duality of inhibiting vs inducing necroptosis. |
+| [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP\|FLIP the Switch: Regulation of Apoptosis and Necroptosis by cFLIP]] | Tsuchiya, Nakabayashi & Nakano 2015 review of cFLIP isoforms as the survival/apoptosis/necroptosis switch — DISC stoichiometry and caspase-8 activation kinetics, ripoptosome assembly, ubiquitin-proteasome control of cFLIP stability, and conditional/isoform-specific mouse genetics. |
 | [[_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9\|Insights on the crosstalk among different cell death mechanisms]] | Comprehensive review (Cell Death Discovery 2025) of apoptosis, autophagy, mitophagy, necroptosis, pyroptosis, and ferroptosis mechanisms, inducers, inhibitors, and crosstalk among key regulators including sirtuins. |
 | [[_document_ - Ferroptosis past present and future\|Ferroptosis: past, present and future]] | Ferroptosis review: iron-dependent death with iron accumulation and lipid peroxidation; GPX4/glutathione axis, ROS accumulation, and pathophysiological relevance. |
 | [[_document_ - Necroptosis (2014), Linkermann, Green\|Necroptosis (2014), Linkermann & Green]] | Linkermann and Green 2014 review of necroptosis — regulated necrotic cell death downstream of RIPK1/RIPK3/MLKL, its inflammatory signaling, and roles in ischemia-reperfusion injury. |

@@ -2,7 +2,7 @@
 title: Ubiquitin
 description: Ubiquitin is a conserved 76-amino-acid regulatory protein that tags substrates for proteasomal degradation or signaling; ubiquitinated inclusions mark Proteostasis failure in Neuromelanin-rich neurons of Parkinson's Disease.
 created: 2026-07-04
-updated: 2026-07-07
+updated: 2026-11-19
 tags:
   - protein
 aliases: []
@@ -28,12 +28,19 @@ PD-associated gene products converge on ubiquitin-dependent pathways: parkin (an
 
 Therapeutics aimed at enhancing UPS/autophagy flux, modulating E3 ligases, or preventing α-synuclein ubiquitination are pursued for PD. Ubiquitin signatures in cerebrospinal fluid and imaging of proteostatic stress are exploratory biomarkers.
 
+> [!info]
+> Source: [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]]
+> [[c-FLIP]] illustrates signal-dependent, multi-ligase ubiquitination: Itch (HECT) targets FLIP_L in a JNK1-dependent manner, Cbl targets FLIP_S, and Cbl-b, Mind bomb 1, TRAF7 and CHIP act in isoform-, cell-type- or stimulus-specific contexts. Chain topology matters — TRAF7 assembles Lys29-, Lys33-, Lys48- and Lys63-linked chains on FLIP_L, and the atypical Lys29 linkage routes FLIP_L to lysosomal as well as proteasomal degradation. The redundancy is interpreted as tight constitutive-plus-signal control of a protein whose abundance sets the death-receptor threshold.
+
 ## Documents
 
 List of documents that mention this entity
 
   - [[_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease|Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease]]
     - publication_year=1993-511&doi=\(93\)90349-k&)\] Linking Summary: - New links added: Konstantin Nikolaevich Tretiakoff, Pale Bodies, Immunoglobulin G, Major histocompatibility complex class I, Lipofuscin, Eumelanin, Pheomelanin, L-Tyrosine, TFEB, Ambroxol, p...
+
+  - [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]]
+    - Multi-ligase, signal-dependent polyubiquitylation of c-FLIP (Itch, Cbl, Cbl-b, Mind bomb 1, TRAF7, CHIP); Lys29-linked chains route c-FLIP_L to lysosomal degradation; S-nitrosylation and phosphorylation gate the ubiquitin acceptor sites.
 
 
 ## Connections
@@ -46,8 +53,11 @@ List of documents that mention this entity
 - [[Alpha-synuclein]]: Substrate whose aggregation overwhelms UPS.
 - [[Neuromelanin]]: Pigment whose burden stresses proteostasis.
 - [[MPTP]]: Toxin disrupting ubiquitin-dependent clearance.
+- [[c-FLIP]]: Short-lived substrate polyubiquitylated by several E3 ligases (Itch, Cbl, Cbl-b, Mind bomb 1, TRAF7, CHIP).
+- [[Proteasome]]: Degrades K48-linked ubiquitinated c-FLIP and other substrates.
 
 ## Linking Summary
 - New links added: [[Ubiquitin-Proteasome System]], [[Proteostasis]], [[Parkinson's Disease]], [[Lewy Bodies]], [[Pale Bodies]], [[Alpha-synuclein]], [[Neuromelanin]], [[MPTP]], [[Mitochondrial Dysfunction]], [[Oxidative Stress]], [[Lysosomal Dysfunction]], [[Substantia Nigra Pars Compacta]].
 - Suggested new entity notes to create: [[Ubiquitination]], [[E3 Ligase]], [[Parkin]], [[UCH-L1]].
 - Strong connections to strengthen: [[Ubiquitin]] ↔ [[Ubiquitin-Proteasome System]], [[Ubiquitin]] ↔ [[Parkinson's Disease]].
+- Source enrichment (2026-11-19): [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]] — c-FLIP as a multi-ligase substrate (Itch, Cbl, Cbl-b, Mind bomb 1, TRAF7, CHIP); chain topology (Lys29 → lysosomal routing); phosphorylation/S-nitrosylation gating. New links: [[c-FLIP]], [[Proteasome]].

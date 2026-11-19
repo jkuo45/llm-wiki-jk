@@ -4,7 +4,7 @@ description: The 20S Proteasome is a core catalytic particle of the ubiquitin-pr
   system that degrades oxidized, misfolded, and damaged proteins independently of
   ubiquitination, serving as a primary ...
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-11-19
 tags:
   - biological-molecule
 aliases: [20S proteasome, Core particle, CP, 20S core particle]
@@ -31,6 +31,14 @@ Unlike the 26S proteasome (20S + 19S regulatory particles), the 20S proteasome d
 - **[[Cardiovascular Disease]]**: Oxidized LDL-induced proteasome dysfunction in endothelial cells promotes atherosclerosis.
 The [[Proteasome]] is a large multi-catalytic protease complex responsible for the degradation of ubiquitinated proteins. It is the central effector of the [[Ubiquitin-Proteasome System]] (UPS), which tags proteins with [[Ubiquitin]] for targeted destruction. Proteasomal dysfunction is implicated in [[Parkinson's Disease]], where aggregated [[Alpha-synuclein]] overwhelms the degradation machinery and contributes to [[Proteostasis]] failure.
 
+> [!info]
+> Source: [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]]
+> The [[c-FLIP]] isoforms are short-lived proteins degraded mainly by the ubiquitin–proteasome pathway, and proteasome inhibition raises c-FLIP levels and shifts death-ligand sensitivity in an isoform-specific manner (Roux). Because the c-FLIP level sets the death-receptor threshold, proteasomal turnover of c-FLIP is a fate-determining post-translational control rather than housekeeping — one reason proteasome inhibitors modulate [[TRAIL]]/Fas responses.
+
+## Documents
+
+- [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]]
+  - c-FLIP isoforms as rapidly turned-over proteasome substrates; proteasome inhibition raises c-FLIP and alters death-receptor sensitivity isoform-specifically.
 
 #
 
@@ -43,7 +51,10 @@ The [[Proteasome]] is a large multi-catalytic protease complex responsible for t
 - [[Parkinson's Disease]] — neurodegenerative disease; α-synuclein pathology; dopamine loss
 - [[Huntington's Disease]] — associated with Proteasome
 - [[Cancer]] — disease of uncontrolled cell proliferation; hallmark of aging
+- [[c-FLIP]] — short-lived substrate whose proteasomal turnover sets the death-receptor threshold
+- [[Ubiquitin]] — the tag that routes c-FLIP and other substrates to the proteasome
 ## Linking Summary
 - New links added: [[Ubiquitin Ligase]], [[Mitophagy]], [[Ubiquitin-Proteasome System]], [[Ubiquitin]], [[Parkinson's Disease]], [[Alpha-synuclein]], [[Proteostasis]]
 - Suggested new entity notes to create: [[Ubiquitin]]
   - Strong connections to strengthen: [[Proteasome]] ↔ [[Aging]], [[Proteasome]] ↔ Ubiquitin-Proteasome System
+- Source enrichment (2026-11-19): [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]] — c-FLIP isoforms as rapid proteasome substrates; proteasome inhibition raises c-FLIP and shifts death-ligand sensitivity isoform-specifically. New links: [[c-FLIP]], [[TRAIL]].
