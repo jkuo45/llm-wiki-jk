@@ -4,7 +4,7 @@ description: HIC1 (Hypermethylated in Cancer 1) is a sequence-specific zinc-fing
   transcriptional repressor containing an N-terminal POZ/BTB domain. It is a critical
   tumour suppressor gene located in a genomic...
 created: 2026-07-03
-updated: 2026-11-10
+updated: 2026-11-19
 tags:
   - protein
 aliases:
@@ -20,7 +20,7 @@ aliases:
 
 ## Structure & Domains
 
-The N-terminal POZ/BTB domain mediates homodimerization and recruitment of transcriptional corepressors (including SIRT1 and HDACs). Five C-terminal C2H2 zinc fingers mediate sequence-specific DNA binding. HIC1 frequently exists in a subnuclear body with [[p53]] and other tumor suppressors, reflecting its integrated stress-response role.
+The N-terminal POZ/BTB domain mediates [[Homodimerization|homodimerization]] and recruitment of transcriptional corepressors (including SIRT1 and HDACs). Five C-terminal C2H2 zinc fingers mediate sequence-specific DNA binding. HIC1 frequently exists in a subnuclear body with [[p53]] and other tumor suppressors, reflecting its integrated stress-response role.
 
 ## HIC1–SIRT1–p53 Feedback Loop
 

@@ -3,7 +3,7 @@ title: Caspase-8
 description: Initiator protease of the extrinsic apoptotic pathway; activated by death receptor signaling (FasL/TRAIL) and subject to regulatory phosphorylation that switches it between pro-death and pro-survival (pro-migratory) functions.
 protected: true
 created: 2026-07-06
-updated: 2026-09-03
+updated: 2026-11-19
 tags:
   - enzyme
   - apoptosis
@@ -51,7 +51,7 @@ Caspase-8 activity is regulated by several kinases through [[Phosphorylation|pho
 Beyond phosphorylation, the dominant fate-setting control is heterodimerization with [[c-FLIP]]
 (full account: [[Caspase-8-c-FLIP Rheostat]]):
 
-- **Homodimer → death.** Fully processed p18/p10 heterotetramer activates [[Caspase-3]]/[[Caspase-7]]
+- **[[Homodimerization|Homodimer]] → death.** Fully processed p18/p10 heterotetramer activates [[Caspase-3]]/[[Caspase-7]]
   and [[Bid]]; the default when death-ligand input overwhelms available c-FLIP_L.
 - **c-FLIP_L heterodimer → restrained killer.** Energetically favored over homodimers; performs
   interdimer cleavage (generating p43-FLIP) but cannot complete intradimer processing, so it stays

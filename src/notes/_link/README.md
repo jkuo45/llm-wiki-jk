@@ -3,14 +3,14 @@ title: Shared Entities (_link)
 aliases: []
 description: index of cross-topic shared entities and documents in the _link directory
 created: 2026-08-16
-updated: 2026-11-17
+updated: 2026-11-19
 ---
 # Shared Entities (`_link`)
 
-Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **2119 entities** in a single flat index and **36 documents**.
+Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **2120 entities** in a single flat index and **36 documents**.
 
 > [!note]
-> `_link` index. Total entities: 2119 | Documents: 36
+> `_link` index. Total entities: 2120 | Documents: 36
 >
 ## Documents
 
@@ -359,6 +359,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Formyl Peptide Receptor]] | Formyl peptide receptors (FPRs) are G-protein-coupled receptors that sense N-formyl peptides from bacteria and mitochondria, recruiting and activating innate immune cells. |
 | [[Dapansutrile]] | Dapansutrile (OLT1177) is an oral, selective NLRP3 inflammasome inhibitor that blocks NLRP3 ATPase activity and is being developed for inflammatory diseases. |
 | [[HIF2α]] | Hypoxia-inducible factor 2 alpha — activated by SIRT1 deacetylation under hypoxia, opposite to SIRT1's inhibition of HIF-1alpha; falls as NAD+ and SIRT1 decline, proposing a HIF2alpha-to-HIF1alpha switch. |
+| [[Homodimerization]] | Homodimerization is the assembly of two identical polypeptide chains into a symmetric complex; this note covers interface chemistry, obligate versus facultative behaviour, functional consequences documented in the vault (caspase-8 activation, STING ligand sensing, IKKalpha non-canonical NF-kB, NOS electron transfer, bHLH-LZ DNA binding), regulation, and the assays used to measure dimer state. |
 | [[Hyaluronic Acid]] | High-molecular-weight glycosaminoglycan of the extracellular matrix that binds water, contributes to skin hydration and firmness, and declines with skin aging. |
 | [[Immunosenescence]] | Age-related decline and reprogramming of immune function, including thymic involution, naive T cell loss, accumulation of exhausted/cytotoxic effector T cells, myeloid skewing of hematopoiesis, and inflammaging. |
 | [[ITIM\|ITIM]] | Immunoreceptor tyrosine-based inhibitory motif — cytoplasmic sequence that, once phosphorylated, recruits SHP-1/SHP-2 phosphatases to deliver inhibitory signals; the shared execution mechanism of don't-eat-me receptors including SIRPα, Siglec-10, CD31, and PD-1. |
