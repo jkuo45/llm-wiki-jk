@@ -1,5 +1,5 @@
 {
-  "generated": "19_NOV_2026 07:57 PM PST",
+  "generated": "19_NOV_2026 08:14 PM PST",
   "wiki": [
     {
       "id": "wiki-index",
@@ -873,6 +873,20 @@
           "filename": "MLKL.md",
           "path": "wiki/en-US/cell-death/MLKL.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/MLKL.md"
+        },
+        "zh-TW": {
+          "title": "MLKL",
+          "description": "混合譜系激酶結構域樣蛋白（MLKL）——壞死性凋亡的假激酶執行者；受 RIPK3 磷酸化後在質膜寡聚化使細胞破裂，同時也可作為 NLRP3 發炎小體活化的觸發因子。",
+          "created": "2026-08-29",
+          "updated": "2026-11-19",
+          "tags": [
+            "protein",
+            "cell-death",
+            "necroptosis",
+            "inflammation"
+          ],
+          "filename": "MLKL.md",
+          "path": "wiki/zh-TW/cell-death/MLKL.md"
         }
       },
       "stats": {
@@ -1281,6 +1295,20 @@
           "filename": "Ripoptosome.md",
           "path": "wiki/en-US/_link/Ripoptosome.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Ripoptosome.md"
+        },
+        "zh-TW": {
+          "title": "Ripoptosome",
+          "description": "一種約 2 MDa、不依賴死亡受體的細胞內複合體，由 RIPK1、FADD、caspase-8、caspase-10 與 c-FLIP 異構體組成；在 cIAPs 耗盡時形成，並在細胞凋亡與壞死性凋亡之間作出決定。",
+          "created": "2026-09-03",
+          "updated": "2026-11-19",
+          "tags": [
+            "protein-complex",
+            "cell-death",
+            "apoptosis",
+            "necroptosis"
+          ],
+          "filename": "Ripoptosome.md",
+          "path": "wiki/zh-TW/_link/Ripoptosome.md"
         }
       },
       "stats": {
@@ -1375,6 +1403,20 @@
           "filename": "TRIF.md",
           "path": "wiki/en-US/_link/TRIF.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/TRIF.md"
+        },
+        "zh-TW": {
+          "title": "TRIF",
+          "description": "含 TIR 結構域之干擾素 β 誘導銜接蛋白（TRIF/TICAM1），是 TLR3 訊號的專一銜接蛋白，也是 TLR4 訊號的一條關鍵分支，可活化 IRF3、NF-κB 與 STAT1。",
+          "created": "2026-07-08",
+          "updated": "2026-11-19",
+          "tags": [
+            "protein",
+            "adaptor-protein",
+            "innate-immunity",
+            "signaling"
+          ],
+          "filename": "TRIF.md",
+          "path": "wiki/zh-TW/_link/TRIF.md"
         }
       },
       "stats": {
@@ -1631,6 +1673,20 @@
           "filename": "Smac mimetics.md",
           "path": "wiki/en-US/cell-death/Smac%20mimetics.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Smac%20mimetics.md"
+        },
+        "zh-TW": {
+          "title": "Smac mimetics",
+          "description": "模擬 Smac/DIABLO IBM 基序的小分子 IAP 拮抗劑，可觸發 cIAP 自我毀滅，使 ripoptosome 得以組裝，並在癌症治療中使腫瘤細胞對死亡受體訊號敏感。",
+          "created": "2026-09-03",
+          "updated": "2026-11-19",
+          "tags": [
+            "drug",
+            "cell-death",
+            "apoptosis",
+            "cancer"
+          ],
+          "filename": "Smac mimetics.md",
+          "path": "wiki/zh-TW/cell-death/Smac%20mimetics.md"
         }
       },
       "stats": {
@@ -1697,6 +1753,18 @@
           "filename": "Caspase-10.md",
           "path": "wiki/en-US/cell-death/Caspase-10.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Caspase-10.md"
+        },
+        "zh-TW": {
+          "title": "Caspase-10",
+          "description": "Caspase-10 是與 Caspase-8 密切相關的起始型半胱胺酸蛋白酶，在 Fas、DR4 與 DR5 等死亡受體下游活化外源性細胞凋亡途徑。",
+          "created": "2026-07-06",
+          "updated": "2026-11-19",
+          "tags": [
+            "enzyme",
+            "apoptosis"
+          ],
+          "filename": "Caspase-10.md",
+          "path": "wiki/zh-TW/cell-death/Caspase-10.md"
         }
       },
       "stats": {
@@ -1866,6 +1934,17 @@
           "filename": "TRADD.md",
           "path": "wiki/en-US/cancer/TRADD.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cancer/TRADD.md"
+        },
+        "zh-TW": {
+          "title": "TRADD",
+          "description": "TRADD（TNFR1 相關死亡結構域蛋白）是成核 TNF 受體 1 訊號複合體的銜接蛋白，分岔為 caspase-8 驅動的細胞凋亡或 NFκB／MAPK 媒介的存活與發炎——癌細胞命運的關鍵節點。",
+          "created": "2026-07-06",
+          "updated": "2026-11-19",
+          "tags": [
+            "protein"
+          ],
+          "filename": "TRADD.md",
+          "path": "wiki/zh-TW/cancer/TRADD.md"
         }
       },
       "stats": {
@@ -1892,6 +1971,20 @@
           "filename": "TLR3.md",
           "path": "wiki/en-US/_link/TLR3.md",
           "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/TLR3.md"
+        },
+        "zh-TW": {
+          "title": "TLR3",
+          "description": "Toll 樣受體 3，一種內體模式辨識受體，可結合雙股 RNA，並專一透過 TRIF 銜接蛋白觸發抗病毒／發炎訊號。",
+          "created": "2026-07-08",
+          "updated": "2026-11-19",
+          "tags": [
+            "receptor",
+            "innate-immunity",
+            "pattern-recognition-receptor",
+            "toll-like-receptor"
+          ],
+          "filename": "TLR3.md",
+          "path": "wiki/zh-TW/_link/TLR3.md"
         }
       },
       "stats": {
