@@ -79,3 +79,71 @@ test('normal links and images still render', () => {
   assert.match(html, /<img src="https:\/\/x\.com\/a\.png"/);
   assert.match(html, /<a href="https:\/\/x\.com"/);
 });
+
+test('script: URLs in raw HTML are neutralized', () => {
+  const html = renderMarkdown('<table><tr><td><a href="javascript:alert(1)">x</a></td></tr></table>');
+  assert.ok(!/javascript:/i.test(html), 'no javascript: URL survives');
+  assert.match(html, /href="#alert\(1\)"/);
+});
+
+// --- Obsidian-style highlight: ==text== ---
+
+test('==text== renders as <mark>', () => {
+  const html = renderMarkdown('Some ==highlighted text== here.');
+  assert.match(html, /<mark>highlighted text<\/mark>/);
+});
+
+test('highlight inside inline code stays literal', () => {
+  const html = renderMarkdown('`==not highlight==`');
+  assert.match(html, /<code>==not highlight==<\/code>/);
+  assert.ok(!/<mark>/.test(html));
+});
+
+test('bare == and ==== rules are not highlights', () => {
+  assert.ok(!/<mark>/.test(renderMarkdown('a == b == c')));
+  assert.ok(!/<mark>/.test(renderMarkdown('==== separator ====')));
+});
+
+// --- Super/subscripts: <sup> / <sub> in the vault's prose ---
+
+test('<sup>/<sub> render as real tags', () => {
+  const html = renderMarkdown('cFLIP<sub>L</sub> and NAD<sup>+</sup>');
+  assert.match(html, /cFLIP<sub>L<\/sub>/);
+  assert.match(html, /NAD<sup>\+<\/sup>/);
+  assert.ok(!/&lt;sup&gt;/.test(html), 'no escaped tag left over');
+  assert.ok(!/&lt;sub&gt;/.test(html));
+});
+
+test('<sup> content is escaped — no markup injection', () => {
+  const html = renderMarkdown('<sup><b onclick=alert(1)>x</b></sup>');
+  assert.ok(!/<b /.test(html), 'no raw tag inside sup');
+  assert.match(html, /<sup>&lt;b onclick=alert\(1\)&gt;x&lt;\/b&gt;<\/sup>/);
+});
+
+test('a literal <sup> inside inline code stays literal', () => {
+  const html = renderMarkdown('`<sup>`');
+  assert.match(html, /<code>&lt;sup&gt;<\/code>/);
+});
+
+test('a wiki-link display text keeps its superscript', () => {
+  const html = renderMarkdown('[[Calcium|Ca<sup>2+</sup>]]', { wikiHref: () => 'gh' });
+  assert.match(html, /data-wiki="Calcium"/);
+  assert.match(html, />Ca<sup>2\+<\/sup><\/a>/);
+});
+
+test('a wiki-link target with a superscript stays attribute-safe', () => {
+  const html = renderMarkdown('[[Ca<sup>2+</sup>]]', { wikiHref: () => '' });
+  assert.match(html, /data-wiki="Ca&lt;sup&gt;2\+&lt;\/sup&gt;"/);
+  assert.ok(!/data-wiki="Ca<sup>/.test(html), 'raw tag in the attribute');
+});
+
+test('raw HTML tables pass through with their superscripts intact', () => {
+  const html = renderMarkdown('<table><tr><td>a<sup>1</sup></td></tr></table>');
+  assert.match(html, /<table>[\s\S]*<sup>1<\/sup>[\s\S]*<\/table>/);
+});
+
+test('a heading with a superscript slugs without the tags', () => {
+  const html = renderMarkdown('### GABA<sub>A</sub> and NMDA modulation');
+  assert.match(html, /id="gabaa-and-nmda-modulation"/);
+  assert.match(html, /GABA<sub>A<\/sub>/);
+});

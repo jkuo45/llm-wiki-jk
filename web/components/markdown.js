@@ -12,12 +12,18 @@ export function unescapeHtml(s) {
 }
 
 // Strip active HTML from an untrusted fragment: script pairs, active tags,
-// and on* handlers — quote-aware so an " onerror=x" inside alt text or a URL
-// path segment (/onerror=1.png) is left alone. Used by renderMarkdown's
-// figure/img passthrough and the LLM HTML-mode sinks in analysis.js.
+// on* handlers and script: URLs — quote-aware so an " onerror=x" inside alt
+// text or a URL path segment (/onerror=1.png) is left alone. Used by
+// renderMarkdown's figure/img/table passthrough and the LLM HTML-mode sinks in
+// analysis.js.
 export function stripUnsafeHtml(s) {
+  // script:/vbscript: URLs are neutralized BEFORE the quotes are masked —
+  // masking replaces the whole quoted value, hiding the scheme from the
+  // pattern. The scheme is replaced by "#", so the link stays inert.
+  const noScripts = String(s).replace(
+    /((?:href|src)\s*=\s*["']?\s*)(?:javascript|vbscript)\s*:/gi, '$1#');
   const quotes = [];
-  const masked = String(s).replace(/("[^"]*"|'[^']*')/g, (q) => {
+  const masked = noScripts.replace(/("[^"]*"|'[^']*')/g, (q) => {
     quotes.push(q);
     return `\u0000${quotes.length - 1}\u0000`;
   });
@@ -26,6 +32,28 @@ export function stripUnsafeHtml(s) {
     .replace(/<\/?(?:script|iframe|object|embed|link|meta|base|form)\b[^>]*>/gi, '')
     .replace(/[/\s]on\w+\s*=\s*(?:\u0000\d+\u0000|[^\s>]+)/gi, '')
     .replace(/\u0000(\d+)\u0000/g, (m, i) => quotes[+i]);
+}
+
+// Restore the <sup>/<sub> tags that esc() turned into literal text.
+// The vault uses them for super/subscripts (cFLIP<sub>L</sub>, NAD<sup>+</sup>,
+// IC<sub>50</sub>). Only the tags are unescaped — their content stays
+// escaped, so no markup can be injected.
+//
+// Call this on prose only: code spans and attribute values must keep the
+// escaped form (a literal "<sup>" inside `code` stays literal).
+export function restoreSupSub(text) {
+  return String(text)
+    .replace(/&lt;sup&gt;/g, '<sup>')
+    .replace(/&lt;\/sup&gt;/g, '</sup>')
+    .replace(/&lt;sub&gt;/g, '<sub>')
+    .replace(/&lt;\/sub&gt;/g, '</sub>');
+}
+
+// Drop <sup>/<sub> tags, keeping the text ("H<sub>2</sub>O" -> "H2O").
+// For plain-text surfaces (tooltips, context cards) the tags are noise —
+// there is no superscript to render.
+export function stripSupSub(text) {
+  return String(text).replace(/<\/?(?:sup|sub)\b[^>]*>/gi, '');
 }
 
 export function escapeRegex(s) {
@@ -73,7 +101,7 @@ export function renderMarkdown(text, opts = {}) {
   const src = raw.replace(/^> \[!(\w+)\][ \t]*([^\n]*)\n((?:>[^\n]*\n?)*)/gm, (m, type, title, body) => {
     const inner = renderMarkdown(body.replace(/^> ?/gm, ''), opts);
     const label = title.trim() || type.charAt(0).toUpperCase() + type.slice(1);
-    callouts.push(`<div class="callout callout-${type.toLowerCase()}"><div class="callout-title">${esc(label)}</div>${inner}</div>`);
+    callouts.push(`<div class="callout callout-${type.toLowerCase()}"><div class="callout-title">${restoreSupSub(esc(label))}</div>${inner}</div>`);
     return `\u0000CALLOUT${callouts.length - 1}\u0000`;
   });
   // Fenced code blocks are extracted up front into placeholders so their real
@@ -85,36 +113,72 @@ export function renderMarkdown(text, opts = {}) {
     codeBlocks.push({ lang, code: code.trim() });
     return `\u0000CODE${codeBlocks.length - 1}\u0000`;
   });
-  // Raw <figure>/<img> HTML (task outputs embed Wikimedia + ingested photos)
-  // is extracted before esc() — after code fences, so img strings inside code
-  // stay code — with stripUnsafeHtml (scripts, active tags, on* handlers);
-  // content is a local vault + ingested web docs, not arbitrary user HTML.
+  // Raw <figure>/<img>/<table> HTML (task outputs embed Wikimedia + ingested
+  // photos; ingested documents carry PMC table exports) is extracted before
+  // esc() — after code fences, so img strings inside code stay code — with
+  // stripUnsafeHtml (scripts, active tags, on* handlers); content is a local
+  // vault + ingested web docs, not arbitrary user HTML.
   const htmlBlocks = [];
-  const withImgs = fenced.replace(/<figure>[\s\S]*?<\/figure>|<img\b[^>]*>/gi, (m) => {
-    htmlBlocks.push(stripUnsafeHtml(m));
-    return `\u0000HTML${htmlBlocks.length - 1}\u0000`;
-  });
+  const withImgs = fenced.replace(
+    /<figure>[\s\S]*?<\/figure>|<img\b[^>]*>|<table\b[\s\S]*?<\/table>/gi, (m) => {
+      htmlBlocks.push(stripUnsafeHtml(m));
+      return `\u0000HTML${htmlBlocks.length - 1}\u0000`;
+    });
   let html = esc(withImgs);
-  // Wiki links: [[Entity]] / [[Entity|Display]] — resolved via opts.wikiHref.
-  // data-wiki keeps the link TARGET (the label may be the display text, as in
-  // [[Retinoblastoma Protein|Rb]]) so tooltip/modal lookups don't key on the
-  // visible text. The source is already esc()'d above, so labels are attr-safe.
+  // --- Inline syntax, in order -------------------------------------------
+  // 1. Wiki links and code spans are pulled out into placeholders first, so
+  //    the highlight pass can never rewrite text inside an attribute or
+  //    inside a code span. They are restored at the end of this block.
+  const wikiLinks = [];
   html = html.replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (m, target, display) => {
-    const label = target.trim();
-    const href = opts.wikiHref ? opts.wikiHref(label) : null;
-    const text = (display || label).trim();
-    return href
-      ? `<a class="wikilink" data-wiki="${label}" href="${href}" target="_blank" rel="noopener">${text}</a>`
-      : `<span class="wikilink" data-wiki="${label}">${text}</span>`;
+    wikiLinks.push({ label: target.trim(), text: (display || target).trim() });
+    return `\u0000WIKI${wikiLinks.length - 1}\u0000`;
   });
-  // Inline code: `...`
-  html = html.replace(/`([^`]+)`/g, '<code>$1</code>');
+  const codeSpans = [];
+  html = html.replace(/`([^`]+)`/g, (m, code) => {
+    codeSpans.push(code);
+    return `\u0000ICODE${codeSpans.length - 1}\u0000`;
+  });
+  // 2. <sup>/<sub> in prose become real tags (super/subscripts: cFLIP<sub>L</sub>,
+  //    NAD<sup>+</sup>). Code spans and wiki-link targets are placeholders by
+  //    now, so they keep the escaped — literal — form.
+  html = restoreSupSub(html);
+  // 3. Obsidian-style highlight: ==text== → <mark>.
+  //    Obsidian's rules: the content may not contain "=", may not touch
+  //    whitespace, and the delimiters may not touch a word/URL character — so
+  //    `a == b == c`, `==== rules ====` and `?q==1==2` stay literal. The
+  //    vault's PDF-extraction artifact `==> picture omitted <==` is excluded.
+  html = html.replace(/(?<![=\w\/?#&:])==([^=\n]+)==(?![=])/g, (m, hl) => {
+    if (!/^[^=\s]/.test(hl) || !/[^=\s]$/.test(hl)) return m;   // no edge whitespace
+    if (hl.startsWith('&gt;') || hl.endsWith('&lt;')) return m;  // PDF artifact
+    return `<mark>${hl}</mark>`;
+  });
+  // 4. Restore code spans, then wiki links. Wiki links: [[Entity]] /
+  //    [[Entity|Display]] — resolved via opts.wikiHref. data-wiki keeps the
+  //    link TARGET (the label may be the display text, as in
+  //    [[Retinoblastoma Protein|Rb]]) so tooltip/modal lookups don't key on
+  //    the visible text. The source is already esc()'d, so labels are
+  //    attr-safe. The display text is un-escaped for sup/sub only; the
+  //    target stays escaped so it remains a valid attribute value.
+  html = html.replace(/\u0000ICODE(\d+)\u0000/g, (m, i) => `<code>${codeSpans[+i]}</code>`);
+  html = html.replace(/\u0000WIKI(\d+)\u0000/g, (m, i) => {
+    const { label, text } = wikiLinks[+i];
+    const href = opts.wikiHref ? opts.wikiHref(label) : null;
+    const body = restoreSupSub(text);
+    return href
+      ? `<a class="wikilink" data-wiki="${label}" href="${href}" target="_blank" rel="noopener">${body}</a>`
+      : `<span class="wikilink" data-wiki="${label}">${body}</span>`;
+  });
   // Headers: #### ... (must come before bold/italic); slugged ids so the
-  // reader's section tracking / deep links work on rendered markdown.
-  html = html.replace(/^#### (.+)$/gm, (m, t) => `<h4 id="${slug(t)}">${t}</h4>`);
-  html = html.replace(/^### (.+)$/gm, (m, t) => `<h3 id="${slug(t)}">${t}</h3>`);
-  html = html.replace(/^## (.+)$/gm, (m, t) => `<h2 id="${slug(t)}">${t}</h2>`);
-  html = html.replace(/^# (.+)$/gm, (m, t) => `<h1 id="${slug(t)}">${t}</h1>`);
+  // reader's section tracking / deep links work on rendered markdown. The
+  // slug ignores the <mark> wrapper so `## ==Title==` keeps the same id as
+  // `## Title`, and the <sup>/<sub> tags so `## Ca<sup>2+</sup>` slugs as
+  // "ca2" rather than "ca-sup-2-sup".
+  const headId = (t) => slug(t.replace(/<\/?(?:mark|sup|sub)>/g, ''));
+  html = html.replace(/^#### (.+)$/gm, (m, t) => `<h4 id="${headId(t)}">${t}</h4>`);
+  html = html.replace(/^### (.+)$/gm, (m, t) => `<h3 id="${headId(t)}">${t}</h3>`);
+  html = html.replace(/^## (.+)$/gm, (m, t) => `<h2 id="${headId(t)}">${t}</h2>`);
+  html = html.replace(/^# (.+)$/gm, (m, t) => `<h1 id="${headId(t)}">${t}</h1>`);
   // Horizontal rules
   html = html.replace(/^---+$/gm, '<hr>');
   // Headings already act as visual dividers — drop <hr> that directly abuts a

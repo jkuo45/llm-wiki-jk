@@ -38,6 +38,7 @@ body {
   --line: #E2DCCE;
   --line-strong: #CCC5B2;
   --accent: #0F766E;
+  --mark: #B45309;              /* Obsidian-style ==highlight== marker */
   --link: #2563A8;
   --link-bright: #0F766E;
   --ink-hi: #22304A;

@@ -75,6 +75,11 @@ def _clean_text(value: str) -> str:
     value = re.sub(r"\*\*(.*?)\*\*", r"\1", value)
     value = re.sub(r"(?<!\*)\*(?!\*)", "", value)
     value = re.sub(r"`([^`]*)`", r"\1", value)
+    value = re.sub(r"==(.+?)==", r"\1", value)  # Obsidian-style highlight
+    # Super/subscript tags are HTML, not prose: drop the tags and keep the
+    # text ("H<sub>2</sub>O<sub>2</sub>" -> "H2O2") so no raw markup leaks
+    # into the plain-text excerpts fed to the model or the tooltips.
+    value = re.sub(r"</?(?:sup|sub)\b[^>]*>", "", value, flags=re.IGNORECASE)
     value = re.sub(r"\s*>?\s*\[![\w-]+\]\s*", " ", value)
     value = re.sub(r"\s*>", " ", value)
     value = re.sub(r"\|", " ", value)

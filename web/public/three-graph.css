@@ -29,6 +29,7 @@
   --teal: #3EC9A7;
   --ok: #3ad17a;              /* activity dot green */
   --warning: #E8A33D;         /* thinking pulse, OCR warnings */
+  --mark: #E8A33D;            /* Obsidian-style ==highlight== marker */
   --warning-ink: #2a1f0a;
   --teal-hover: #5fe3c0;
   /* Dark-theme info cursor: solid teal disc, dark "i" (tokens.css holds
@@ -232,6 +233,8 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
 #wiki-modal-body strong, #wiki-modal-body b { color: var(--ink-hi); }
 #wiki-modal-body em { color: var(--link-bright); }
 #wiki-modal-body code { background: var(--bg); padding: 1px 5px; border-radius: var(--r-sm); font-size: 13px; }
+/* Obsidian-style highlight (==text==) → <mark> */
+#wiki-modal-body mark { background: color-mix(in srgb, var(--mark) 28%, transparent); color: inherit; padding: 0 2px; border-radius: var(--r-sm); }
 #wiki-modal-body pre { background: var(--bg); padding: 12px; border-radius: var(--r-md); overflow-x: auto; margin: 10px 0; }
 #wiki-modal-body pre code { padding: 0; background: none; }
 #wiki-modal-body ul, #wiki-modal-body ol { padding-left: 20px; margin: 8px 0; }
@@ -1305,6 +1308,8 @@ body { background: var(--bg); color: var(--ink-hi); font-family: -apple-system, 
 }
 .prompt-msg.bot b { color: var(--ink-hi); }
 .prompt-msg.bot code { background: var(--bg); padding: 1px 5px; border-radius: var(--r-sm); font-size: 13px; }
+/* Obsidian-style highlight (==text==) → <mark> */
+.prompt-msg.bot mark, .prompt-html-inline mark { background: color-mix(in srgb, var(--mark) 28%, transparent); color: inherit; padding: 0 2px; border-radius: var(--r-sm); }
 .prompt-page-btn {
   display: inline-flex; align-items: center; gap: 4px; margin-top: 10px;
   background: var(--surface-sunken); border: 1px solid var(--line-strong); color: var(--link);

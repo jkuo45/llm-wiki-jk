@@ -24,7 +24,7 @@ import {
 } from './core.js';
 import { selectNode, deselectNode, setUiHooks } from './interaction.js';
 import { updateHash } from './routing.js';
-import { esc, renderMarkdown, wikiExcerpt, enhanceMermaid, enhanceImages } from './markdown.js';
+import { esc, renderMarkdown, wikiExcerpt, stripSupSub, enhanceMermaid, enhanceImages } from './markdown.js';
 import { setUiLang } from './i18n.js';
 import { registerModal, openModal } from './modal.js';
 import { h } from './ui/dom.js';
@@ -396,10 +396,11 @@ function renderNodeInfo(nodeId, actions) {
   // Context text: surface the zh-TW translation when the analysis panel is in
   // zh-TW and the node carries a real translation; otherwise the canonical
   // en-US description (which is also the zh fallback emitted by the rebuild).
+  // The card renders plain text, so drop any <sup>/<sub> tags.
   const useZh = state.analysisUiLang === 'zh-TW';
-  const description = useZh
+  const description = stripSupSub(useZh
     ? (n.description_zh_TW || descriptionMap.get(nodeId))
-    : descriptionMap.get(nodeId);
+    : descriptionMap.get(nodeId));
 
   const displayCommunity = localizedName(n.community_name);
   const commColor = LEGEND.find(c => c.cid === n.community);
@@ -485,9 +486,11 @@ function renderEdgeInfo(edge) {
       }
     });
   }
-  const edgeDesc = state.analysisUiLang === 'zh-TW'
+  // The context card is plain text (no HTML rendering), so <sup>/<sub> tags
+  // would show literally — drop them and keep the text.
+  const edgeDesc = stripSupSub(state.analysisUiLang === 'zh-TW'
     ? ((ctx && (ctx.context_zh_TW || ctx.context)) || '')
-    : ((ctx && (ctx.context || ctx.context_zh_TW)) || '');
+    : ((ctx && (ctx.context || ctx.context_zh_TW)) || ''));
 
   renderDetailCard(infoCard, {
     title: 'Relation / 關聯',
@@ -534,9 +537,9 @@ function renderCommunityInfo(cid, actions) {
   // node has no description. Mirror the node sheet's zh-TW handling.
   const descNode = (hub && hub.description) ? hub : members[0];
   const useZh = state.analysisUiLang === 'zh-TW';
-  const description = descNode
+  const description = stripSupSub(descNode
     ? (useZh ? (descNode.description_zh_TW || descNode.description || '') : (descNode.description || ''))
-    : '';
+    : '');
 
   const hubNoteHref = hub ? (noteUrl(hub.label) || (hub.source_file ? githubSourceUrl(hub.source_file) : '')) : '';
 

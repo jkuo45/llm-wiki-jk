@@ -75,6 +75,13 @@ class TestCleanText:
         out = wiki._clean_text("> [!tip]  note | with pipes")
         assert out == "note with pipes"
 
+    def test_strips_sup_sub_tags_but_keeps_text(self):
+        # Plain prose has no superscript to render — drop the tags, keep the
+        # text, so no raw markup leaks into excerpts or model context.
+        out = wiki._clean_text("H<sub>2</sub>O<sub>2</sub> and NAD<sup>+</sup>")
+        assert out == "H2O2 and NAD+"
+        assert "<sub>" not in out and "<sup>" not in out
+
 
 class TestBodyExcerpt:
     def test_first_paragraph_after_h1(self):

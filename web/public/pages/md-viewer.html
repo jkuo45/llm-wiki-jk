@@ -65,6 +65,11 @@
 .md-body ul, .md-body ol { padding-left:32px; }
 .md-body ul ul, .md-body ol ul, .md-body ul ol, .md-body ol ol { padding-left:36px; }
 .md-body code { font-size:.88em; }
+/* Obsidian-style highlight (==text==) → <mark>. */
+.md-body mark, #wiki-modal-body mark {
+  background: color-mix(in srgb, var(--amber) 28%, transparent);
+  color: inherit; padding:0 2px; border-radius:3px;
+}
 .md-body blockquote { border-left:3px solid var(--teal); margin:10px 0; padding:4px 14px; color:var(--dim); }
 .callout { border:1px solid var(--line2); border-left-width:4px; border-radius:8px;
            padding:10px 16px; margin:16px 0; background:var(--card); }
