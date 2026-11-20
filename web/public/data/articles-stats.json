@@ -1,5 +1,5 @@
 {
-  "generated": "19_NOV_2026 02:57 PM PST",
+  "generated": "19_NOV_2026 07:57 PM PST",
   "stats": {
     "sirtuin-pleiotropy": {
       "words": 2324,
@@ -266,9 +266,9 @@
       "diagrams": 6
     },
     "disc-rheostat-sim": {
-      "words": 805,
+      "words": 2684,
       "images": 0,
-      "links": 15,
+      "links": 25,
       "diagrams": 3
     }
   }

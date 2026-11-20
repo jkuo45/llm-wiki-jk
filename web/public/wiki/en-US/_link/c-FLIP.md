@@ -53,8 +53,8 @@ The full account lives at [[Caspase-8-c-FLIP Rheostat]]; the essentials:
 - **Short isoforms terminate, long isoform tethers.** FLIP_S/R incorporation caps DED-chain elongation
   at the [[DISC]]; FLIP_L promotes short-chain oligomerization while keeping the complex membrane-bound
   via its uncleavable pseudo-caspase domain (no Asp210/216/223 equivalent, no intradimer cut).
-- **Turnover resets the dial.** Rapid [[Proteasome]]-mediated degradation (Itch, Cbl/Cbl-b, Mind bomb 1,
-  TRAF7, CHIP) plus PKC/ROS phosphorylation and S-nitrosylation switches move the FLIP_L:procaspase-8
+- **Turnover resets the dial.** Rapid [[Proteasome]]-mediated degradation ([[Itch]], Cbl/Cbl-b, Mind bomb 1,
+  TRAF7, [[STUB1|CHIP]]) plus PKC/ROS phosphorylation and S-nitrosylation switches move the FLIP_L:procaspase-8
   ratio on minute timescales — the parameter every mathematical model (Bentele, Lavrik, Neumann,
   Kallenberger) identifies as fate-determining.
 - **Ripoptosome corollary.** Without cIAPs, caspase activity itself becomes the rheostat: FLIP_L
@@ -79,6 +79,9 @@ The full account lives at [[Caspase-8-c-FLIP Rheostat]]; the essentials:
 
 - [[Caspase-8-c-FLIP Rheostat]] — the dedicated hub note for the quantitative switch
 - [[FADD]] — adaptor nucleating the DED chains c-FLIP regulates
+- [[Death Effector Domain|DED]] — the tandem domain shared by c-FLIP, FADD and procaspase-8/10, through which the isoform ratio is read out
+- [[Itch]] — the JNK1-dependent E3 that polyubiquitylates cFLIP_L and thereby shifts the dial
+- [[MKK7]] — MAP2K bound and inhibited by cFLIP_L, linking the switch to the JNK arm
 - [[DISC]] — membrane platform where the isoform ratio is read out
 - [[Caspase-10]] — second paralogous partner of FLIP_L heterodimers (Beclin-1/BCLAF1 axis)
 
@@ -94,5 +97,6 @@ The full account lives at [[Caspase-8-c-FLIP Rheostat]]; the essentials:
 
 - New links added: [[Caspase-8]], [[RIPK1]], [[RIPK3]], [[Necroptosis]], [[Apoptosis]], [[NLRP3]], [[TNFα]], [[Inflammasome]], [[Sirtuin-Caspase Crosstalk]]
 - Rheostat update (03_Sep_2026): [[Caspase-8-c-FLIP Rheostat]], [[FADD]], [[DISC]], [[Caspase-10]], [[Proteasome]], [[MLKL]]; documents Micheau 2002, Feoktistova 2011, Tsuchiya 2015
-- Suggested new entity notes to create: (done 03_Sep_2026: [[Ripoptosome]])
+- Suggested new entity notes to create: (done 03_Sep_2026: [[Ripoptosome]]); (done 19_Nov_2026: [[Itch]], [[MKK7]])
+- Source enrichment (2026-11-19): [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]] — E3-ligase set made explicit (Itch→FLIP_L, Cbl→FLIP_S, Cbl-b/MIB1/TRAF7/CHIP→FLIP_L); cFLIP_L–MKK7–JNK inhibition. New links: [[Itch]], [[MKK7]], [[Death Effector Domain|DED]].
 - Strong connections to strengthen: [[c-FLIP]] ↔ [[Caspase-8]], [[c-FLIP]] ↔ [[RIPK3]]

@@ -3,7 +3,7 @@ title: Necroptosis
 description: Regulated necrotic cell death executed by the RIPK1-RIPK3-MLKL necrosome when caspase-8 is blocked; lytic and inflammatory, bridging cell death, innate immunity, and disease.
 protected: true
 created: 2026-07-04
-updated: 2026-09-14
+updated: 2026-11-19
 tags: [biological-process, cell-death, inflammation, regulated-cell-death]
 url: #
 source: #
@@ -128,6 +128,8 @@ Renal ischemia-reperfusion shows a male-biased, earlier and more sustained necro
   - Table 1 contrast of ferroptosis/apoptosis/autophagy/necroptosis; complex-I-inhibition ROS co-triggering necroptosis + ferroptosis; folic-acid AKI as ferroptosis-not-necroptosis control.
 - [[_document_ - Necroptosis a regulated inflammatory mode of cell death|Dhuriya & Sharma 2018 review]]
   - Timeline synthesis: TNFR1 Complex I/II/necrosome, non-classical TRIF/ZBP1 arms, RIPK1/RIPK3 phospho-site map, RIPK3 inflammasome scaffolding, bacterial/viral evasion, neurodegeneration (ALS/PD/MS/SCI) and Nec-1/SAHA/24S-OHC agents.
+- [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]]
+  - Necroptosis as the fate licensed when c-FLIP_S (or MC159 vFLIP) prevents caspase-8 from cleaving RIPK1 in the ripoptosome; RIPK3 kinase-activity requirement and the inhibitor paradox in which blocking RIPK3 redirects the platform toward apoptosis instead.
 - [[_document_ - RIP3 targets pyruvate dehydrogenase complex to increase aerobic respiration in TNF-induced necroptosis|Yang et al. 2018 — RIP3 targets PDC to increase aerobic respiration in TNF-induced necroptosis]]
   - RIP3 phosphorylates PDC-E3 at Thr135 to raise aerobic respiration and mitochondrial ROS, which feed back on the necrosome; blocking pyruvate uptake/MPC suppresses TNF-induced necroptosis.
 - [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026 Front Immunol]]
@@ -159,6 +161,9 @@ Renal ischemia-reperfusion shows a male-biased, earlier and more sustained necro
 - [[Regulated Cell Death]] — parent program grouping necroptosis with apoptosis, pyroptosis, and ferroptosis.
 - [[Pyruvate Dehydrogenase]] — RIPK3 substrate (E3 Thr135); converts pyruvate to acetyl-CoA to drive the respiratory–ROS amplification loop.
 - [[Pyruvate]] — Mitochondrial substrate whose oxidation and PDC-dependent catabolism promote necroptosis.
+- [[Ripoptosome]] — the platform whose persistence (RIPK1 not cleaved) is the handoff point into necroptosis
+- [[Death Effector Domain|DED]] — the assembly module shared by the DISC and the ripoptosome, and thus upstream of both branches
+- [[Itch]] — JNK1-dependent E3 whose cFLIP_L degradation shifts the balance toward caspase-8 activity
 - [[MPC]] — Mitochondrial pyruvate carrier; blocking pyruvate import suppresses the metabolic arm.
 - [[UK5099]] — Tool MPC inhibitor that suppresses necroptosis in pyruvate-dependent models (interpret with MPC-independent caveats).
 - [[TCA cycle]] — Receives PDC-derived acetyl-CoA in the respiration/ROS feedback loop.
@@ -181,4 +186,5 @@ Renal ischemia-reperfusion shows a male-biased, earlier and more sustained necro
 - Mitochondrial-metabolism enrichment (2026-09-12): added [[Pyruvate Dehydrogenase]], [[Pyruvate]], [[MPC]], [[UK5099]], [[TCA cycle]], [[Glycolysis]], [[Acetyl-CoA]], [[ROS]]; new section "Mitochondrial metabolism" (RIP3→PDC-E3 Thr135 → respiration/ROS → necrosome feedback loop; context-dependence and UK5099 selectivity caveats).
 - Sex-dimorphism enrichment (2026-09-03): male-biased RIPK1/RIPK3/p-MLKL in renal IRI, OVX-narrowed (Tran 2025, single-study, no KO causality); cardiac/cerebral/testosterone/X-linked claims excluded as unverified.
 - Source enrichment (2026-09-14): [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026]] — non-canonical ZBP1/TRIF routes and their species/context dependence, PTM regulation of RIPK1/RIPK3/MLKL, PANoptosome co-execution, and therapeutic duality. New links: [[PANoptosome]], [[CaMKII]], [[MFN2]], [[CSNK1G2]], [[RSK3]], [[BRD4]], [[HSP90β]], [[TAM Kinases]], [[TRIM21]], [[OTULIN]], [[DAPK]], [[SHP1]].
-- Source enrichment (2026-09-14): [[_document_ - Necroptosis (2014), Linkermann, Green|Linkermann & Green 2014 NEJM]] — canonical definition (RIPK3-dependence), Virchow/apoptosis history, embryo-lethality rescue (FADD/FLIP/caspase-8→RIPK3), Nec-1 IDO-duality and post-reperfusion timing caveat, regulated-necrosis umbrella and Nec-1 + SfA combination. New links: [[Mitochondrial Permeability Transition]], [[Cyclophilin D]], [[Cyclosporine A]], [[Sanglifehrin A]], [[Inflammatory Bowel Disease]], [[Crohn's Disease]], [[Sepsis]], [[SHARPIN]].
+- Source enrichment (2026-09-14): [[_document_ - Necroptosis (2014), Linkermann, Green|Linkermann & Green 2014 NEJM]] — canonical definition (RIPK3-dependence), Virchow/apoptosis history, embryo-lethality rescue (FADD/FLIP/caspase-8→RIPK3), Nec-1 IDO-duality and post-reperfusion timing caveat, regulated-neocrosis umbrella and Nec-1 + SfA combination. New links: [[Mitochondrial Permeability Transition]], [[Cyclophilin D]], [[Cyclosporine A]], [[Sanglifehrin A]], [[Inflammatory Bowel Disease]], [[Crohn's Disease]], [[Sepsis]], [[SHARPIN]].
+- Source enrichment (2026-11-19): [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]] — c-FLIP_S/MC159 licensing of RIPK1 persistence in the ripoptosome; RIPK3 kinase-activity requirement (D161N and inhibitors block necroptosis yet route toward apoptosis); c-FLIP isoform balance as the determinant of cell fate switching. New links: [[Ripoptosome]], [[Death Effector Domain|DED]], [[Itch]].

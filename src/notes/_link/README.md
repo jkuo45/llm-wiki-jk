@@ -7,10 +7,10 @@ updated: 2026-11-19
 ---
 # Shared Entities (`_link`)
 
-Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **2120 entities** in a single flat index and **36 documents**.
+Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **2123 entities** in a single flat index and **36 documents**.
 
 > [!note]
-> `_link` index. Total entities: 2120 | Documents: 36
+> `_link` index. Total entities: 2123 | Documents: 36
 >
 ## Documents
 
@@ -358,10 +358,12 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Filaggrin]] | Epidermal differentiation protein that bundles keratin filaments and supplies natural moisturizing factor; increased in aged skin by topical urolithin A. |
 | [[Formyl Peptide Receptor]] | Formyl peptide receptors (FPRs) are G-protein-coupled receptors that sense N-formyl peptides from bacteria and mitochondria, recruiting and activating innate immune cells. |
 | [[Dapansutrile]] | Dapansutrile (OLT1177) is an oral, selective NLRP3 inflammasome inhibitor that blocks NLRP3 ATPase activity and is being developed for inflammatory diseases. |
+| [[Gelsolin]] | The actin-severing and actin-binding protein that remodels the cytoskeleton in phagocytosis, is cleaved during apoptosis as a cytoskeletal disassembly substrate, and acts as a component of the Itch–p53–c-FLIP degradation complex conferring cisplatin chemoresistance. |
 | [[HIF2α]] | Hypoxia-inducible factor 2 alpha — activated by SIRT1 deacetylation under hypoxia, opposite to SIRT1's inhibition of HIF-1alpha; falls as NAD+ and SIRT1 decline, proposing a HIF2alpha-to-HIF1alpha switch. |
 | [[Homodimerization]] | Homodimerization is the assembly of two identical polypeptide chains into a symmetric complex; this note covers interface chemistry, obligate versus facultative behaviour, functional consequences documented in the vault (caspase-8 activation, STING ligand sensing, IKKalpha non-canonical NF-kB, NOS electron transfer, bHLH-LZ DNA binding), regulation, and the assays used to measure dimer state. |
 | [[Hyaluronic Acid]] | High-molecular-weight glycosaminoglycan of the extracellular matrix that binds water, contributes to skin hydration and firmness, and declines with skin aging. |
 | [[Immunosenescence]] | Age-related decline and reprogramming of immune function, including thymic involution, naive T cell loss, accumulation of exhausted/cytotoxic effector T cells, myeloid skewing of hematopoiesis, and inflammaging. |
+| [[Itch]] | The HECT-family E3 ubiquitin ligase (AIP4) that polyubiquitylates cFLIP_L in a JNK1-dependent manner, coupling TNF signaling, DNA-damage checkpoints and chemoresistance to the turnover of the caspase-8 rheostat. |
 | [[ITIM\|ITIM]] | Immunoreceptor tyrosine-based inhibitory motif — cytoplasmic sequence that, once phosphorylated, recruits SHP-1/SHP-2 phosphatases to deliver inhibitory signals; the shared execution mechanism of don't-eat-me receptors including SIRPα, Siglec-10, CD31, and PD-1. |
 | [[CD47\|CD47]] | CD47 is a ubiquitously expressed immunoglobulin-superfamily receptor that pairs with SIRP-alpha on myeloid cells to deliver a "don't eat me" signal suppressing phagocytosis; blockade of CD47 is a cancer and fibrosis immunotherapy strategy. |
 | [[CD24\|CD24]] | CD24 is a small GPI-anchored sialoprotein on developing hematopoietic and tumor cells that, in humans, binds Siglec-10 on macrophages as a potent "don't-eat-me" signal and is a cancer stem-cell marker. |
@@ -680,6 +682,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[miR-134]] | Brain-enriched microRNA repressed by SIRT1 to permit CREB and BDNF expression; the SIRT1–miR-134–CREB–BDNF axis promotes memory formation and synaptic plasticity. |
 | [[Mitochondrial-Derived Vesicles]] | Mitochondrial-derived vesicles (MDVs) are selective cargo carriers that bud from mitochondria to deliver mitochondrial components to lysosomes or export them via extracellular vesicles, influencing mitochondrial DAMP release. |
 | [[Mitochondrial RNA]] | Mitochondrial RNA (mtRNA) species, including double-stranded RNA exposed during mitochondrial stress, act as damage-associated molecular patterns that engage innate immune sensors. |
+| [[MKK7]] | MAP2K7 (MEK7), the dual-specificity MAP2K that activates JNK downstream of ASK1 and other MAP3Ks — and the kinase directly bound and inhibited by cFLIP_L, linking the caspase-8 rheostat to the JNK branch. |
 | [[Myelopoiesis]] | Production of myeloid lineage cells (granulocytes, monocytes, macrophages) from hematopoietic progenitors; biased expansion during aging via CCL5–CCR5 signaling raises the neutrophil-to-lymphocyte ratio. |
 | [[N-Formyl Peptides]] | N-formyl peptides are mitochondrial translation products with bacterial-like immunogenic features that signal through formyl peptide receptors to recruit and activate innate immune cells. |
 | [[POMC]] | Pro-opiomelanocortin — precursor polypeptide cleaved into ACTH, alpha-MSH and beta-endorphin; hypothalamic arcuate POMC neurons are a SIRT1-regulated feeding-behavior node under dietary restriction. |

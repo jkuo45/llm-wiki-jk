@@ -17,7 +17,7 @@ The **Death-Inducing Signaling Complex (DISC)** is a multi-protein assembly that
 The DISC forms on the intracellular tails of death receptors (e.g., [[Fas]], [[DR4]], [[DR5]], [[TNFR1]]) following ligand binding.
 1.  **Receptor Trimerization**: Ligand binding causes receptors to cluster.
 2.  **Adaptor Recruitment**: The adaptor protein [[FADD]] (and sometimes [[TRADD]]) is recruited to the receptor's death domain.
-3.  **Caspase Recruitment**: FADD then recruits pro-[[Caspase-8]] (or Caspase-10) molecules through death effector domain interactions.
+3.  **Caspase Recruitment**: FADD then recruits pro-[[Caspase-8]] (or Caspase-10) molecules through [[Death Effector Domain|death effector domain]] interactions.
 
 ## Function
 The primary function of the DISC is to facilitate the proximity-induced auto-activation of [[Caspase-8]]. Once activated, caspase-8 is released into the cytoplasm to activate executioner caspases like [[Caspase-3]].
@@ -48,6 +48,8 @@ List of documents that mention this entity
 - [[p43-FLIP]]: Fragment marking c-FLIP_L heterodimer firing at the DISC.
 - [[Ripoptosome]]: Receptor-independent cytosolic counterpart that mirrors DISC DED-chain assembly.
 - [[Intrinsic Pathway]]: Linked to the DISC via [[Bid]] cleavage.
+- [[Death Effector Domain|DED]]: The dimerization module through which procaspase-8, c-FLIP and FADD assemble the complex.
+- [[vFLIP]]: Viral DED mimics that occupy the same interface and block DISC output.
 
 ## Linking Summary
 - New links added: [[Apoptosis]], [[Extrinsic Pathway]], [[Fas]], [[DR4]], [[DR5]], [[TNFR1]], [[FADD]], [[TRADD]], [[Caspase-8]], [[Caspase-10]], [[Caspase-3]], [[Intrinsic Pathway]], [[Bid]]

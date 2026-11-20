@@ -2,7 +2,7 @@
 title: TRIF
 description: TIR-domain-containing adaptor protein inducing interferon-β (TRIF/TICAM1), the sole adaptor for TLR3 signaling and a key branch of TLR4 signaling that activates IRF3, NF-κB, and STAT1.
 created: 2026-07-08
-updated: 2026-09-14
+updated: 2026-11-19
 tags:
   - protein
   - adaptor-protein
@@ -67,6 +67,7 @@ The review *Pharmacological Effects of Urolithin A and Its Role in Muscle Health
 - [[TRIF]] → activates → [[NF-κB]], [[STAT1]]
 - [[Urolithin A]] → inactivates → [[TRIF]]
 - [[TRIF]] → recruits → [[RIPK1]] → seeds → [[Ripoptosome]] → decided by → [[Caspase-8-c-FLIP Rheostat]]
+- [[TRIF]] → with → [[TLR3]] → forms → atypical death complex with → [[Caspase-8]] (RIPK1-dependent, FADD-independent)
 
 ## Linking Summary
 
@@ -75,3 +76,4 @@ The review *Pharmacological Effects of Urolithin A and Its Role in Muscle Health
 - Suggested new entity notes to create: [[TLR4]]
 - Strong connections to strengthen: [[Urolithin A]] ↔ [[TRIF]]
 - Source enrichment (2026-09-14): [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026]] — TRIF–RIPK3 necroptosis downstream of TLR3/4. New links: [[TLR3]], [[TLR4]], [[MyD88]], [[Lipopolysaccharide]].
+- Source enrichment (2026-11-19): [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]] — atypical TLR3–TRIF–caspase-8 death complex requiring RIPK1 but not FADD (Estornes et al.). New links: [[Caspase-8]], [[FADD]].

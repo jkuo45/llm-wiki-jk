@@ -128,6 +128,8 @@ aliases: [Programmed Necrosis, programmed necrosis]
   - 表 1 鐵死亡/細胞凋亡/自噬/壞死性凋亡的對比；複合體 I 抑制的 ROS 共同觸發壞死性凋亡 + 鐵死亡；葉酸 AKI 作為鐵死亡而非壞死性凋亡的對照。
 - [[_document_ - Necroptosis a regulated inflammatory mode of cell death|Dhuriya & Sharma 2018 review]]
   - 時間線整合：TNFR1 複合體 I/II/壞死小體、非經典 TRIF/ZBP1 支線、RIPK1/RIPK3 磷酸化位點圖、RIPK3 炎性小體支架、細菌/病毒免疫逃逸、神經退化（ALS/PD/MS/SCI），以及 Nec-1/SAHA/24S-OHC 藥劑。
+- [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]]
+  - 當 c-FLIP_S（或 MC159 vFLIP）阻止 caspase-8 在 ripoptosome 中切割 RIPK1 時，壞死性凋亡即被許可；RIPK3 激酶活性的必要性，以及 RIPK3 抑制劑反而將平台轉向凋亡的悖論。
 - [[_document_ - RIP3 targets pyruvate dehydrogenase complex to increase aerobic respiration in TNF-induced necroptosis|Yang et al. 2018 — RIP3 targets PDC to increase aerobic respiration in TNF-induced necroptosis]]
   - RIP3 磷酸化 PDC-E3 的 Thr135 以提升有氧呼吸與粒線體 ROS，後者回饋壞死小體；阻斷丙酮酸攝入/MPC 可抑制 TNF 誘導的壞死性凋亡。
 - [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026 Front Immunol]]
@@ -159,6 +161,9 @@ aliases: [Programmed Necrosis, programmed necrosis]
 - [[Regulated Cell Death|調控性細胞死亡]] — 把壞死性凋亡與細胞凋亡、焦亡、鐵死亡歸組的母程式。
 - [[Pyruvate Dehydrogenase|丙酮酸脫氫酶]] — RIPK3 底物（E3 Thr135）；將丙酮酸轉為乙醯輔酶 A 以驅動呼吸–ROS 放大迴圈。
 - [[Pyruvate|丙酮酸]] — 其氧化與 PDC 依賴的分解代謝促進壞死性凋亡的粒線體底物。
+- [[Ripoptosome]] — 其存續（RIPK1 未被切割）即為轉入壞死性凋亡的交接點
+- [[Death Effector Domain|DED]] — DISC 與 ripoptosome 共用的組裝結構域，因而位於兩條分支之上游
+- [[Itch]] — JNK1 依賴性 E3，其對 cFLIP_L 的降解使天平偏向 caspase-8 活性
 - [[MPC]] — 粒線體丙酮酸載體；阻斷丙酮酸輸入可抑制代謝支線。
 - [[UK5099]] — 在丙酮酸依賴模型中抑制壞死性凋亡的工具性 MPC 抑制劑（解讀時需注意非 MPC 依賴的注意事項）。
 - [[TCA cycle|檸檬酸循環]] — 在呼吸/ROS 回饋迴圈中接收 PDC 產生的乙醯輔酶 A。
@@ -182,3 +187,4 @@ aliases: [Programmed Necrosis, programmed necrosis]
 - 性別二態性增補（2026-09-03）：腎臟 IRI 中偏向雄性的 RIPK1/RIPK3/p-MLKL，OVX 可縮小差距（Tran 2025，單一研究，無 KO 因果驗證）；心臟/大腦/睪固醇/X 連鎖的說法因未經證實而排除。
 - 來源增補（2026-09-14）：[[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026]] — 非經典 ZBP1/TRIF 路徑及其物種/情境依賴性、RIPK1/RIPK3/MLKL 的 PTM 調控、PANoptosome 共同執行，以及治療雙面性。新增連結：[[PANoptosome]], [[CaMKII]], [[MFN2]], [[CSNK1G2]], [[RSK3]], [[BRD4]], [[Hsp90]], [[TAM Kinases]], [[TRIM21]], [[OTULIN]], [[DAPK]], [[SHP1]]。
 - 來源增補（2026-09-14）：[[_document_ - Necroptosis (2014), Linkermann, Green|Linkermann & Green 2014 NEJM]] — 經典定義（RIPK3 依賴性）、Virchow/凋亡歷史、胚胎致死挽救（FADD/FLIP/caspase-8→RIPK3）、Nec-1 的 IDO 雙重性與再灌流後時間注意事項、調控性壞死總稱以及 Nec-1 + SfA 合併。新增連結：[[Mitochondrial Permeability Transition]], [[Cyclophilin D]], [[Cyclosporine A]], [[Sanglifehrin A]], [[Inflammatory Bowel Disease]], [[Crohn's Disease]], [[Sepsis]], [[SHARPIN]]。
+- 來源增補（2026-11-19）：[[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]] — c-FLIP_S/MC159 在 ripoptosome 中許可 RIPK1 存續；RIPK3 激酶活性必要性（D161N 與抑制劑阻斷壞死性凋亡卻轉向凋亡）；c-FLIP 異構體平衡作為細胞命運轉換的決定因子。新增連結：[[Ripoptosome]]、[[Death Effector Domain|DED]]、[[Itch]]。

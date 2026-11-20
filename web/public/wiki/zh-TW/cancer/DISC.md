@@ -16,7 +16,7 @@ aliases: []
 DISC 在配體結合後，於死亡受體（例如[[Fas]]、[[DR4]]、[[DR5]]、[[TNFR1]]）的胞內尾部形成。
 1.  **受體三聚化**：配體結合使受體聚集。
 2.  **銜接蛋白招募**：銜接蛋白[[FADD]]（有時為[[TRADD]]）被招募至受體的死亡域。
-3.  **半胱胺酸蛋白酶招募**：FADD 隨後經由死亡效應域交互作用招募 pro-[[Caspase-8]]（或 Caspase-10）分子。
+3.  **半胱胺酸蛋白酶招募**：FADD 隨後經由[[Death Effector Domain|死亡效應域]]交互作用招募 pro-[[Caspase-8]]（或 Caspase-10）分子。
 
 ## 功能
 DISC 的主要功能是促成[[Caspase-8]]的近距離誘導自我活化。一旦活化，caspase-8 被釋放至細胞質以活化[[Caspase-3]]等執行者半胱胺酸蛋白酶。
@@ -47,6 +47,8 @@ DISC 的主要功能是促成[[Caspase-8]]的近距離誘導自我活化。一�
 - [[p43-FLIP]]：標記 c-FLIP_L 異二聚體在 DISC 上啟動後留下的片段。
 - [[Ripoptosome]]：與 DISC 相對應、不依賴受體的胞質版本，同樣進行 DED 鏈組裝。
 - [[Intrinsic Pathway]]：經由[[Bid]]切割與 DISC 連結。
+- [[Death Effector Domain|DED]]：procaspase-8、c-FLIP 與 FADD 組裝此複合體所經由的二聚化結構域。
+- [[vFLIP]]：佔據同一介面並阻斷 DISC 輸出的病毒 DED 擬態蛋白。
 
 ## 連結摘要
 - 新增連結：[[Apoptosis]]、[[Extrinsic Pathway]]、[[Fas]]、[[DR4]]、[[DR5]]、[[TNFR1]]、[[FADD]]、[[TRADD]]、[[Caspase-8]]、[[Caspase-10]]、[[Caspase-3]]、[[Intrinsic Pathway]]、[[Bid]]

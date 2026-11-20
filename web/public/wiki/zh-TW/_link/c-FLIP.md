@@ -51,8 +51,8 @@ aliases:
   在高佔用率下，稀少的 FLIP_L 被滴定耗盡，剩餘的異二聚體反而*加速*同二聚體活化（Micheau 2002；Smyth 2020）。
 - **短異構體終止、長異構體栓繫。** FLIP_S/R 的納入在[[DISC]]封閉 DED 鏈延伸；FLIP_L 促進短鏈寡聚化，
   同時藉由其不可切割的假性 caspase 結構域使複合體維持膜結合（無 Asp210/216/223 對應位點，無二聚體內切割）。
-- **周轉率重設刻度。** 快速的[[Proteasome|蛋白酶體]]介導降解（Itch、Cbl/Cbl-b、Mind bomb 1、
-  TRAF7、CHIP）加上 PKC/ROS 磷酸化與 S-亞硝醯化開關，可在數分鐘的時間尺度上改變 FLIP_L:procaspase-8
+- **周轉率重設刻度。** 快速的[[Proteasome|蛋白酶體]]介導降解（[[Itch]]、Cbl/Cbl-b、Mind bomb 1、
+  TRAF7、[[STUB1|CHIP]]）加上 PKC/ROS 磷酸化與 S-亞硝醯化開關，可在數分鐘的時間尺度上改變 FLIP_L:procaspase-8
   比例——此即每個數學模型（Bentele、Lavrik、Neumann、Kallenberger）所指認的命運決定參數。
 - **Ripoptosome 推論。** 在缺乏 cIAP 時，caspase 活性本身成為變阻器：FLIP_L
   異二聚體切割[[RIPK1]]並使 ripoptosome 解組（存活），FLIP_S 異二聚體則無法（→ 經由[[RIPK3]]/[[MLKL]]走向[[Necroptosis|壞死性凋亡]]）——Feoktistova 2011。
@@ -75,6 +75,9 @@ aliases:
 
 - [[Caspase-8-c-FLIP Rheostat]] — 定量開關的專屬樞紐筆記
 - [[FADD]] — 促成 c-FLIP 所調控 DED 鏈成核的銜接蛋白
+- [[Death Effector Domain|DED]] — c-FLIP、FADD 與 procaspase-8/10 共用的串聯結構域，異構體比例即經由它被讀出
+- [[Itch]] — 以 JNK1 依賴性方式對 cFLIP_L 進行多聚泛素化、進而改變調節旋鈕的 E3 連接酶
+- [[MKK7]] — 受 cFLIP_L 結合抑制的 MAP2K，將此開關連結至 JNK 分支
 - [[DISC]] — 讀出異構體比例的膜平台
 - [[Caspase-10]] — FLIP_L 異二聚體的第二個旁系同源夥伴（Beclin-1/BCLAF1 軸）
 
@@ -90,5 +93,6 @@ aliases:
 
 - 新增連結：[[Caspase-8]]、[[RIPK1]]、[[RIPK3]]、[[Necroptosis]]、[[Apoptosis]]、[[NLRP3]]、[[TNFα]]、[[Inflammasome]]、[[Sirtuin-Caspase Crosstalk]]
 - 變阻器更新（03_Sep_2026）：[[Caspase-8-c-FLIP Rheostat]]、[[FADD]]、[[DISC]]、[[Caspase-10]]、[[Proteasome]]、[[MLKL]]；文獻 Micheau 2002、Feoktistova 2011、Tsuchiya 2015
-- 建議建立的新實體筆記：（已於 03_Sep_2026 完成：[[Ripoptosome]]）
+- 建議建立的新實體筆記：（已於 03_Sep_2026 完成：[[Ripoptosome]]）；（已於 19_Nov_2026 完成：[[Itch]]、[[MKK7]]）
+- 來源補充（2026-11-19）：[[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]] — 明確列出 E3 連接酶集合（Itch→FLIP_L，Cbl→FLIP_S，Cbl-b/MIB1/TRAF7/CHIP→FLIP_L）；cFLIP_L–MKK7–JNK 抑制。新增連結：[[Itch]]、[[MKK7]]、[[Death Effector Domain|DED]]。
 - 待強化的強連結：[[c-FLIP]] ↔ [[Caspase-8]]、[[c-FLIP]] ↔ [[RIPK3]]

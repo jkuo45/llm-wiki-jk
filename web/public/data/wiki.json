@@ -1,5 +1,5 @@
 {
-  "generated": "19_NOV_2026 02:57 PM PST",
+  "generated": "19_NOV_2026 07:57 PM PST",
   "wiki": [
     {
       "id": "wiki-index",
@@ -22,6 +22,42 @@
           "tags": [],
           "path": "pages/wiki-index.html"
         }
+      }
+    },
+    {
+      "id": "Apoptosis",
+      "langs": {
+        "en-US": {
+          "title": "Apoptosis",
+          "description": "Apoptosis (programmed cell death) is a highly regulated mechanism for removing damaged, infected, redundant, or potentially cancerous cells without inducing inflammation.",
+          "created": "2026-05-29",
+          "updated": "2026-11-19",
+          "tags": [
+            "biological-process",
+            "apoptosis"
+          ],
+          "filename": "Apoptosis.md",
+          "path": "wiki/en-US/cell-death/Apoptosis.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Apoptosis.md"
+        },
+        "zh-TW": {
+          "title": "Apoptosis",
+          "description": "凋亡（程式性細胞死亡）是一種高度受調控的機制，可在不引發發炎的情況下清除受損、感染、多餘或具潛在癌變風險的細胞。",
+          "created": "2026-05-29",
+          "updated": "2026-09-14",
+          "tags": [
+            "biological-process",
+            "apoptosis"
+          ],
+          "filename": "Apoptosis.md",
+          "path": "wiki/zh-TW/cell-death/Apoptosis.md"
+        }
+      },
+      "stats": {
+        "words": 3369,
+        "images": 0,
+        "links": 221,
+        "diagrams": 0
       }
     },
     {
@@ -283,6 +319,46 @@
         "words": 6060,
         "images": 0,
         "links": 356,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Necroptosis",
+      "langs": {
+        "en-US": {
+          "title": "Necroptosis",
+          "description": "Regulated necrotic cell death executed by the RIPK1-RIPK3-MLKL necrosome when caspase-8 is blocked; lytic and inflammatory, bridging cell death, innate immunity, and disease.",
+          "created": "2026-07-04",
+          "updated": "2026-11-19",
+          "tags": [
+            "biological-process",
+            "cell-death",
+            "inflammation",
+            "regulated-cell-death"
+          ],
+          "filename": "Necroptosis.md",
+          "path": "wiki/en-US/cell-death/Necroptosis.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Necroptosis.md"
+        },
+        "zh-TW": {
+          "title": "Necroptosis",
+          "description": "當 caspase-8 被阻斷時，由 RIPK1-RIPK3-MLKL 壞死小體執行的調控性壞死細胞死亡；具裂解性與發炎性，連結細胞死亡、先天免疫與疾病。",
+          "created": "2026-07-04",
+          "updated": "2026-09-14",
+          "tags": [
+            "biological-process",
+            "cell-death",
+            "inflammation",
+            "regulated-cell-death"
+          ],
+          "filename": "Necroptosis.md",
+          "path": "wiki/zh-TW/cell-death/Necroptosis.md"
+        }
+      },
+      "stats": {
+        "words": 2974,
+        "images": 0,
+        "links": 238,
         "diagrams": 0
       }
     },
@@ -781,6 +857,32 @@
       }
     },
     {
+      "id": "MLKL",
+      "langs": {
+        "en-US": {
+          "title": "MLKL",
+          "description": "Mixed lineage kinase domain-like protein (MLKL) — the pseudokinase executor of necroptosis; phosphorylated by RIPK3, it oligomerizes at the plasma membrane to rupture the cell, and doubles as a trigger of NLRP3 inflammasome activation.",
+          "created": "2026-08-29",
+          "updated": "2026-11-19",
+          "tags": [
+            "protein",
+            "cell-death",
+            "necroptosis",
+            "inflammation"
+          ],
+          "filename": "MLKL.md",
+          "path": "wiki/en-US/cell-death/MLKL.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/MLKL.md"
+        }
+      },
+      "stats": {
+        "words": 1092,
+        "images": 0,
+        "links": 71,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "Autophagy",
       "langs": {
         "en-US": {
@@ -1163,6 +1265,32 @@
       }
     },
     {
+      "id": "Ripoptosome",
+      "langs": {
+        "en-US": {
+          "title": "Ripoptosome",
+          "description": "A 2 MDa death-receptor-independent intracellular complex of RIPK1, FADD, caspase-8, caspase-10 and c-FLIP isoforms that forms when cIAPs are depleted and decides between apoptosis and necroptosis.",
+          "created": "2026-09-03",
+          "updated": "2026-11-19",
+          "tags": [
+            "protein-complex",
+            "cell-death",
+            "apoptosis",
+            "necroptosis"
+          ],
+          "filename": "Ripoptosome.md",
+          "path": "wiki/en-US/_link/Ripoptosome.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Ripoptosome.md"
+        }
+      },
+      "stats": {
+        "words": 803,
+        "images": 0,
+        "links": 79,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "FADD",
       "langs": {
         "en-US": {
@@ -1193,42 +1321,6 @@
         "words": 691,
         "images": 0,
         "links": 56,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "Apoptosis",
-      "langs": {
-        "en-US": {
-          "title": "Apoptosis",
-          "description": "Apoptosis (programmed cell death) is a highly regulated mechanism for removing damaged, infected, redundant, or potentially cancerous cells without inducing inflammation.",
-          "created": "2026-05-29",
-          "updated": "2026-09-14",
-          "tags": [
-            "biological-process",
-            "apoptosis"
-          ],
-          "filename": "Apoptosis.md",
-          "path": "wiki/en-US/cell-death/Apoptosis.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Apoptosis.md"
-        },
-        "zh-TW": {
-          "title": "Apoptosis",
-          "description": "凋亡（程式性細胞死亡）是一種高度受調控的機制，可在不引發發炎的情況下清除受損、感染、多餘或具潛在癌變風險的細胞。",
-          "created": "2026-05-29",
-          "updated": "2026-09-14",
-          "tags": [
-            "biological-process",
-            "apoptosis"
-          ],
-          "filename": "Apoptosis.md",
-          "path": "wiki/zh-TW/cell-death/Apoptosis.md"
-        }
-      },
-      "stats": {
-        "words": 3248,
-        "images": 0,
-        "links": 212,
         "diagrams": 0
       }
     },
@@ -1267,6 +1359,32 @@
       }
     },
     {
+      "id": "TRIF",
+      "langs": {
+        "en-US": {
+          "title": "TRIF",
+          "description": "TIR-domain-containing adaptor protein inducing interferon-β (TRIF/TICAM1), the sole adaptor for TLR3 signaling and a key branch of TLR4 signaling that activates IRF3, NF-κB, and STAT1.",
+          "created": "2026-07-08",
+          "updated": "2026-11-19",
+          "tags": [
+            "protein",
+            "adaptor-protein",
+            "innate-immunity",
+            "signaling"
+          ],
+          "filename": "TRIF.md",
+          "path": "wiki/en-US/_link/TRIF.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/TRIF.md"
+        }
+      },
+      "stats": {
+        "words": 690,
+        "images": 0,
+        "links": 90,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "DISC",
       "langs": {
         "en-US": {
@@ -1294,9 +1412,9 @@
         }
       },
       "stats": {
-        "words": 604,
+        "words": 638,
         "images": 0,
-        "links": 50,
+        "links": 53,
         "diagrams": 0
       }
     },
@@ -1417,6 +1535,46 @@
       }
     },
     {
+      "id": "c-FLIP",
+      "langs": {
+        "en-US": {
+          "title": "c-FLIP",
+          "description": "FLICE-like inhibitory protein (c-FLIP/CFLAR) — an enzymatically inactive caspase-8 homolog whose isoforms set the apoptose/necroptose/pyroptose switch by tuning caspase-8 activity inside death receptor and inflammasome complexes.",
+          "created": "2026-08-29",
+          "updated": "2026-11-19",
+          "tags": [
+            "protein",
+            "cell-death",
+            "apoptosis",
+            "necroptosis"
+          ],
+          "filename": "c-FLIP.md",
+          "path": "wiki/en-US/_link/c-FLIP.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/c-FLIP.md"
+        },
+        "zh-TW": {
+          "title": "c-FLIP",
+          "description": "FLICE 樣抑制蛋白（c-FLIP/CFLAR）——一種酵素活性缺失的 caspase-8 同源物，其異構體藉由調節死亡受體與發炎體複合體內的 caspase-8 活性，設定細胞凋亡／壞死性凋亡／焦亡的開關。",
+          "created": "2026-08-29",
+          "updated": "2026-11-19",
+          "tags": [
+            "protein",
+            "cell-death",
+            "apoptosis",
+            "necroptosis"
+          ],
+          "filename": "c-FLIP.md",
+          "path": "wiki/zh-TW/_link/c-FLIP.md"
+        }
+      },
+      "stats": {
+        "words": 1073,
+        "images": 0,
+        "links": 69,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "Regulated Cell Death",
       "langs": {
         "en-US": {
@@ -1457,42 +1615,28 @@
       }
     },
     {
-      "id": "c-FLIP",
+      "id": "Smac mimetics",
       "langs": {
         "en-US": {
-          "title": "c-FLIP",
-          "description": "FLICE-like inhibitory protein (c-FLIP/CFLAR) — an enzymatically inactive caspase-8 homolog whose isoforms set the apoptose/necroptose/pyroptose switch by tuning caspase-8 activity inside death receptor and inflammasome complexes.",
-          "created": "2026-08-29",
+          "title": "Smac mimetics",
+          "description": "Small-molecule IAP antagonists mimicking the Smac/DIABLO IBM motif that trigger cIAP auto-destruction, licensing ripoptosome assembly and death-receptor sensitization in cancer therapy.",
+          "created": "2026-09-03",
           "updated": "2026-11-19",
           "tags": [
-            "protein",
+            "drug",
             "cell-death",
             "apoptosis",
-            "necroptosis"
+            "cancer"
           ],
-          "filename": "c-FLIP.md",
-          "path": "wiki/en-US/_link/c-FLIP.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/c-FLIP.md"
-        },
-        "zh-TW": {
-          "title": "c-FLIP",
-          "description": "FLICE 樣抑制蛋白（c-FLIP/CFLAR）——一種酵素活性缺失的 caspase-8 同源物，其異構體藉由調節死亡受體與發炎體複合體內的 caspase-8 活性，設定細胞凋亡／壞死性凋亡／焦亡的開關。",
-          "created": "2026-08-29",
-          "updated": "2026-11-19",
-          "tags": [
-            "protein",
-            "cell-death",
-            "apoptosis",
-            "necroptosis"
-          ],
-          "filename": "c-FLIP.md",
-          "path": "wiki/zh-TW/_link/c-FLIP.md"
+          "filename": "Smac mimetics.md",
+          "path": "wiki/en-US/cell-death/Smac%20mimetics.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Smac%20mimetics.md"
         }
       },
       "stats": {
-        "words": 962,
+        "words": 709,
         "images": 0,
-        "links": 58,
+        "links": 70,
         "diagrams": 0
       }
     },
@@ -1535,6 +1679,30 @@
         "words": 1098,
         "images": 0,
         "links": 59,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Caspase-10",
+      "langs": {
+        "en-US": {
+          "title": "Caspase-10",
+          "description": "Caspase-10 is an initiator caspase closely related to Caspase-8 that activates the extrinsic apoptotic pathway downstream of death receptors such as Fas, DR4, and DR5.",
+          "created": "2026-07-06",
+          "updated": "2026-11-19",
+          "tags": [
+            "enzyme",
+            "apoptosis"
+          ],
+          "filename": "Caspase-10.md",
+          "path": "wiki/en-US/cell-death/Caspase-10.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Caspase-10.md"
+        }
+      },
+      "stats": {
+        "words": 835,
+        "images": 0,
+        "links": 56,
         "diagrams": 0
       }
     },
@@ -1681,6 +1849,55 @@
         "words": 376,
         "images": 0,
         "links": 10,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "TRADD",
+      "langs": {
+        "en-US": {
+          "title": "TRADD",
+          "description": "TRADD (TNFR1-associated death domain protein) is an adaptor that nucleates TNF receptor 1 signaling complexes, bifurcating into caspase-8-driven apoptosis or NFκB/ MAPK-mediated survival and inflammation — a pivotal node in cancer cell fate.",
+          "created": "2026-07-06",
+          "updated": "2026-11-19",
+          "tags": [
+            "protein"
+          ],
+          "filename": "TRADD.md",
+          "path": "wiki/en-US/cancer/TRADD.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cancer/TRADD.md"
+        }
+      },
+      "stats": {
+        "words": 741,
+        "images": 0,
+        "links": 52,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "TLR3",
+      "langs": {
+        "en-US": {
+          "title": "TLR3",
+          "description": "Toll-like receptor 3, an endosomal pattern-recognition receptor that binds double-stranded RNA and triggers antiviral/inflammatory signaling exclusively through the TRIF adaptor.",
+          "created": "2026-07-08",
+          "updated": "2026-11-19",
+          "tags": [
+            "receptor",
+            "innate-immunity",
+            "pattern-recognition-receptor",
+            "toll-like-receptor"
+          ],
+          "filename": "TLR3.md",
+          "path": "wiki/en-US/_link/TLR3.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/TLR3.md"
+        }
+      },
+      "stats": {
+        "words": 654,
+        "images": 0,
+        "links": 67,
         "diagrams": 0
       }
     },
@@ -1871,6 +2088,42 @@
       }
     },
     {
+      "id": "SIRT5",
+      "langs": {
+        "en-US": {
+          "title": "SIRT5",
+          "description": "SIRT5 (Sirtuin 5) is a mitochondrial sirtuin and the sole mammalian member of phylogenetic Class III sirtuins — a class distributed widely in all prokaryotes (both bacteria and archaea). This deep ...",
+          "created": "2026-07-02",
+          "updated": "2026-11-10",
+          "tags": [
+            "protein",
+            "nad-plus"
+          ],
+          "filename": "SIRT5.md",
+          "path": "wiki/en-US/sirtuins/SIRT5.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/SIRT5.md"
+        },
+        "zh-TW": {
+          "title": "SIRT5",
+          "description": "SIRT5（Sirtuin 5）是粒線體 sirtuin，也是系統發生第 III 類 sirtuins 在哺乳動物中的唯一成員——該類廣泛分布於所有原核生物（細菌與古菌）。這種深...",
+          "created": "2026-07-02",
+          "updated": "2026-11-10",
+          "tags": [
+            "protein",
+            "nad-plus"
+          ],
+          "filename": "SIRT5.md",
+          "path": "wiki/zh-TW/sirtuins/SIRT5.md"
+        }
+      },
+      "stats": {
+        "words": 1352,
+        "images": 0,
+        "links": 82,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "PRDX1",
       "langs": {
         "en-US": {
@@ -1905,42 +2158,6 @@
         "words": 641,
         "images": 0,
         "links": 51,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "SIRT5",
-      "langs": {
-        "en-US": {
-          "title": "SIRT5",
-          "description": "SIRT5 (Sirtuin 5) is a mitochondrial sirtuin and the sole mammalian member of phylogenetic Class III sirtuins — a class distributed widely in all prokaryotes (both bacteria and archaea). This deep ...",
-          "created": "2026-07-02",
-          "updated": "2026-11-10",
-          "tags": [
-            "protein",
-            "nad-plus"
-          ],
-          "filename": "SIRT5.md",
-          "path": "wiki/en-US/sirtuins/SIRT5.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/SIRT5.md"
-        },
-        "zh-TW": {
-          "title": "SIRT5",
-          "description": "SIRT5（Sirtuin 5）是粒線體 sirtuin，也是系統發生第 III 類 sirtuins 在哺乳動物中的唯一成員——該類廣泛分布於所有原核生物（細菌與古菌）。這種深...",
-          "created": "2026-07-02",
-          "updated": "2026-11-10",
-          "tags": [
-            "protein",
-            "nad-plus"
-          ],
-          "filename": "SIRT5.md",
-          "path": "wiki/zh-TW/sirtuins/SIRT5.md"
-        }
-      },
-      "stats": {
-        "words": 1352,
-        "images": 0,
-        "links": 82,
         "diagrams": 0
       }
     },
@@ -2371,6 +2588,84 @@
       }
     },
     {
+      "id": "Itch",
+      "langs": {
+        "en-US": {
+          "title": "Itch",
+          "description": "The HECT-family E3 ubiquitin ligase (AIP4) that polyubiquitylates cFLIP_L in a JNK1-dependent manner, coupling TNF signaling, DNA-damage checkpoints and chemoresistance to the turnover of the caspase-8 rheostat.",
+          "created": "2026-11-19",
+          "updated": "2026-11-19",
+          "tags": [
+            "enzyme",
+            "ubiquitin",
+            "cell-death",
+            "apoptosis"
+          ],
+          "filename": "Itch.md",
+          "path": "wiki/en-US/_link/Itch.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Itch.md"
+        },
+        "zh-TW": {
+          "title": "Itch",
+          "description": "HECT 家族的 E3 泛素連接酶（AIP4），以 JNK1 依賴性方式對 cFLIP_L 進行多聚泛素化，將 TNF 訊號、DNA 損傷檢查點與化療抵抗性連結至 caspase-8 變阻器的周轉。",
+          "created": "2026-11-19",
+          "updated": "2026-11-19",
+          "tags": [
+            "enzyme",
+            "ubiquitin",
+            "cell-death",
+            "apoptosis"
+          ],
+          "filename": "Itch.md",
+          "path": "wiki/zh-TW/_link/Itch.md"
+        }
+      },
+      "stats": {
+        "words": 761,
+        "images": 0,
+        "links": 46,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Death Effector Domain",
+      "langs": {
+        "en-US": {
+          "title": "Death Effector Domain",
+          "description": "The DED — the tandem death effector domains of FADD, procaspase-8/10, c-FLIP and the viral FLIPs that mediate the DED–DED dimerization underlying DISC and ripoptosome assembly, and the filament/chain models built on that interaction.",
+          "created": "2026-11-19",
+          "updated": "2026-11-19",
+          "tags": [
+            "protein-domain",
+            "cell-death",
+            "apoptosis"
+          ],
+          "filename": "Death Effector Domain.md",
+          "path": "wiki/en-US/cell-death/Death%20Effector%20Domain.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Death%20Effector%20Domain.md"
+        },
+        "zh-TW": {
+          "title": "Death Effector Domain",
+          "description": "DED — FADD、procaspase-8/10、c-FLIP 與病毒 FLIP 所共有的串聯死亡效應域，媒介 DISC 與 ripoptosome 組裝所依據的 DED–DED 二聚化，以及建立於此交互作用之上的纖維／鏈模型。",
+          "created": "2026-11-19",
+          "updated": "2026-11-19",
+          "tags": [
+            "protein-domain",
+            "cell-death",
+            "apoptosis"
+          ],
+          "filename": "Death Effector Domain.md",
+          "path": "wiki/zh-TW/cell-death/Death%20Effector%20Domain.md"
+        }
+      },
+      "stats": {
+        "words": 727,
+        "images": 0,
+        "links": 59,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "Immunosenescence",
       "langs": {
         "en-US": {
@@ -2403,6 +2698,86 @@
         "words": 639,
         "images": 0,
         "links": 63,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Gelsolin",
+      "langs": {
+        "en-US": {
+          "title": "Gelsolin",
+          "description": "The actin-severing and actin-binding protein that remodels the cytoskeleton in phagocytosis, is cleaved during apoptosis as a cytoskeletal disassembly substrate, and acts as a component of the Itch–p53–c-FLIP degradation complex conferring cisplatin chemoresistance.",
+          "created": "2026-11-19",
+          "updated": "2026-11-19",
+          "tags": [
+            "protein",
+            "cytoskeleton",
+            "cancer",
+            "cell-death"
+          ],
+          "filename": "Gelsolin.md",
+          "path": "wiki/en-US/_link/Gelsolin.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Gelsolin.md"
+        },
+        "zh-TW": {
+          "title": "Gelsolin",
+          "description": "兼具肌動蛋白切割與結合能力的蛋白，在吞噬作用中重塑細胞骨架、在細胞凋亡時作為細胞骨架解體的底物被切割，並作為 Itch–p53–c-FLIP 降解複合體的成分而賦予順鉑化療抵抗性。",
+          "created": "2026-11-19",
+          "updated": "2026-11-19",
+          "tags": [
+            "protein",
+            "cytoskeleton",
+            "cancer",
+            "cell-death"
+          ],
+          "filename": "Gelsolin.md",
+          "path": "wiki/zh-TW/_link/Gelsolin.md"
+        }
+      },
+      "stats": {
+        "words": 527,
+        "images": 0,
+        "links": 33,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "MKK7",
+      "langs": {
+        "en-US": {
+          "title": "MKK7",
+          "description": "MAP2K7 (MEK7), the dual-specificity MAP2K that activates JNK downstream of ASK1 and other MAP3Ks — and the kinase directly bound and inhibited by cFLIP_L, linking the caspase-8 rheostat to the JNK branch.",
+          "created": "2026-11-19",
+          "updated": "2026-11-19",
+          "tags": [
+            "enzyme",
+            "kinase",
+            "mapk",
+            "cell-death"
+          ],
+          "filename": "MKK7.md",
+          "path": "wiki/en-US/_link/MKK7.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/MKK7.md"
+        },
+        "zh-TW": {
+          "title": "MKK7",
+          "description": "MAP2K7（MEK7），在 ASK1 及其他 MAP3K 下游活化 JNK 的雙特異性 MAP2K——也是被 cFLIP_L 直接結合並抑制的激酶，將 caspase-8 變阻器連結至 JNK 分支。",
+          "created": "2026-11-19",
+          "updated": "2026-11-19",
+          "tags": [
+            "enzyme",
+            "kinase",
+            "mapk",
+            "cell-death"
+          ],
+          "filename": "MKK7.md",
+          "path": "wiki/zh-TW/_link/MKK7.md"
+        }
+      },
+      "stats": {
+        "words": 517,
+        "images": 0,
+        "links": 31,
         "diagrams": 0
       }
     },
@@ -4203,46 +4578,6 @@
       }
     },
     {
-      "id": "Gasdermin E",
-      "langs": {
-        "en-US": {
-          "title": "Gasdermin E",
-          "description": "Gasdermin E (GSDME, formerly DFNA5) — the pore-forming gasdermin cleaved by caspase-3 that converts apoptosis into pyroptosis; its expression level is the molecular switch deciding which death program chemotherapy triggers.",
-          "created": "2026-08-29",
-          "updated": "2026-11-11",
-          "tags": [
-            "protein",
-            "cell-death",
-            "pyroptosis",
-            "apoptosis"
-          ],
-          "filename": "Gasdermin E.md",
-          "path": "wiki/en-US/cell-death/Gasdermin%20E.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Gasdermin%20E.md"
-        },
-        "zh-TW": {
-          "title": "Gasdermin E",
-          "description": "Gasdermin E（GSDME，舊稱 DFNA5）— 由 caspase-3 切割、將細胞凋亡轉換為細胞焦亡的成孔 gasdermin；其表現量是決定化學治療觸發何種死亡程式的分子開關。",
-          "created": "2026-08-29",
-          "updated": "2026-11-11",
-          "tags": [
-            "protein",
-            "cell-death",
-            "pyroptosis",
-            "apoptosis"
-          ],
-          "filename": "Gasdermin E.md",
-          "path": "wiki/zh-TW/cell-death/Gasdermin%20E.md"
-        }
-      },
-      "stats": {
-        "words": 448,
-        "images": 0,
-        "links": 32,
-        "diagrams": 0
-      }
-    },
-    {
       "id": "PD-L1",
       "langs": {
         "en-US": {
@@ -4281,6 +4616,46 @@
         "words": 804,
         "images": 0,
         "links": 45,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Gasdermin E",
+      "langs": {
+        "en-US": {
+          "title": "Gasdermin E",
+          "description": "Gasdermin E (GSDME, formerly DFNA5) — the pore-forming gasdermin cleaved by caspase-3 that converts apoptosis into pyroptosis; its expression level is the molecular switch deciding which death program chemotherapy triggers.",
+          "created": "2026-08-29",
+          "updated": "2026-11-11",
+          "tags": [
+            "protein",
+            "cell-death",
+            "pyroptosis",
+            "apoptosis"
+          ],
+          "filename": "Gasdermin E.md",
+          "path": "wiki/en-US/cell-death/Gasdermin%20E.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Gasdermin%20E.md"
+        },
+        "zh-TW": {
+          "title": "Gasdermin E",
+          "description": "Gasdermin E（GSDME，舊稱 DFNA5）— 由 caspase-3 切割、將細胞凋亡轉換為細胞焦亡的成孔 gasdermin；其表現量是決定化學治療觸發何種死亡程式的分子開關。",
+          "created": "2026-08-29",
+          "updated": "2026-11-11",
+          "tags": [
+            "protein",
+            "cell-death",
+            "pyroptosis",
+            "apoptosis"
+          ],
+          "filename": "Gasdermin E.md",
+          "path": "wiki/zh-TW/cell-death/Gasdermin%20E.md"
+        }
+      },
+      "stats": {
+        "words": 448,
+        "images": 0,
+        "links": 32,
         "diagrams": 0
       }
     },
@@ -6291,46 +6666,6 @@
       }
     },
     {
-      "id": "Maraviroc",
-      "langs": {
-        "en-US": {
-          "title": "Maraviroc",
-          "description": "FDA-approved CCR5 antagonist (HIV-1 entry inhibitor) that in aged mice normalizes CCL5-CCR5-driven myelopoiesis, lowers the neutrophil-to-lymphocyte ratio and inflammaging cytokines, and improves metabolic and functional healthspan outcomes.",
-          "created": "2026-11-10",
-          "updated": "2026-11-10",
-          "tags": [
-            "drug",
-            "ccr5-antagonist",
-            "antiretroviral",
-            "geroscience"
-          ],
-          "filename": "Maraviroc.md",
-          "path": "wiki/en-US/_link/Maraviroc.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Maraviroc.md"
-        },
-        "zh-TW": {
-          "title": "Maraviroc",
-          "description": "核准的 CCR5 拮抗劑（HIV-1 進入抑制劑），在老齡小鼠中可使 CCL5-CCR5 驅動的骨髓生成正常化，降低嗜中性球對淋巴球比值與炎性衰老細胞因子，並改善代謝與功能性健康壽命結果。",
-          "created": "2026-11-10",
-          "updated": "2026-11-10",
-          "tags": [
-            "drug",
-            "ccr5-antagonist",
-            "antiretroviral",
-            "geroscience"
-          ],
-          "filename": "Maraviroc.md",
-          "path": "wiki/zh-TW/_link/Maraviroc.md"
-        }
-      },
-      "stats": {
-        "words": 290,
-        "images": 0,
-        "links": 13,
-        "diagrams": 0
-      }
-    },
-    {
       "id": "Streptococcus pyogenes",
       "langs": {
         "en-US": {
@@ -6367,6 +6702,46 @@
         "words": 207,
         "images": 0,
         "links": 19,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Maraviroc",
+      "langs": {
+        "en-US": {
+          "title": "Maraviroc",
+          "description": "FDA-approved CCR5 antagonist (HIV-1 entry inhibitor) that in aged mice normalizes CCL5-CCR5-driven myelopoiesis, lowers the neutrophil-to-lymphocyte ratio and inflammaging cytokines, and improves metabolic and functional healthspan outcomes.",
+          "created": "2026-11-10",
+          "updated": "2026-11-10",
+          "tags": [
+            "drug",
+            "ccr5-antagonist",
+            "antiretroviral",
+            "geroscience"
+          ],
+          "filename": "Maraviroc.md",
+          "path": "wiki/en-US/_link/Maraviroc.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Maraviroc.md"
+        },
+        "zh-TW": {
+          "title": "Maraviroc",
+          "description": "核准的 CCR5 拮抗劑（HIV-1 進入抑制劑），在老齡小鼠中可使 CCL5-CCR5 驅動的骨髓生成正常化，降低嗜中性球對淋巴球比值與炎性衰老細胞因子，並改善代謝與功能性健康壽命結果。",
+          "created": "2026-11-10",
+          "updated": "2026-11-10",
+          "tags": [
+            "drug",
+            "ccr5-antagonist",
+            "antiretroviral",
+            "geroscience"
+          ],
+          "filename": "Maraviroc.md",
+          "path": "wiki/zh-TW/_link/Maraviroc.md"
+        }
+      },
+      "stats": {
+        "words": 290,
+        "images": 0,
+        "links": 13,
         "diagrams": 0
       }
     },
@@ -9987,46 +10362,6 @@
       }
     },
     {
-      "id": "Necroptosis",
-      "langs": {
-        "en-US": {
-          "title": "Necroptosis",
-          "description": "Regulated necrotic cell death executed by the RIPK1-RIPK3-MLKL necrosome when caspase-8 is blocked; lytic and inflammatory, bridging cell death, innate immunity, and disease.",
-          "created": "2026-07-04",
-          "updated": "2026-09-14",
-          "tags": [
-            "biological-process",
-            "cell-death",
-            "inflammation",
-            "regulated-cell-death"
-          ],
-          "filename": "Necroptosis.md",
-          "path": "wiki/en-US/cell-death/Necroptosis.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Necroptosis.md"
-        },
-        "zh-TW": {
-          "title": "Necroptosis",
-          "description": "當 caspase-8 被阻斷時，由 RIPK1-RIPK3-MLKL 壞死小體執行的調控性壞死細胞死亡；具裂解性與發炎性，連結細胞死亡、先天免疫與疾病。",
-          "created": "2026-07-04",
-          "updated": "2026-09-14",
-          "tags": [
-            "biological-process",
-            "cell-death",
-            "inflammation",
-            "regulated-cell-death"
-          ],
-          "filename": "Necroptosis.md",
-          "path": "wiki/zh-TW/cell-death/Necroptosis.md"
-        }
-      },
-      "stats": {
-        "words": 2808,
-        "images": 0,
-        "links": 230,
-        "diagrams": 0
-      }
-    },
-    {
       "id": "Lipid Peroxidation",
       "langs": {
         "en-US": {
@@ -12061,6 +12396,40 @@
       }
     },
     {
+      "id": "Aging",
+      "langs": {
+        "en-US": {
+          "title": "Aging",
+          "description": "The relationship between aging and Epigenetics is a central focus of modern Geroscience. Epigenetics refers to chemical modifications to DNA and its associated proteins that regulate gene expre...",
+          "created": "2026-05-29",
+          "updated": "2026-05-29",
+          "tags": [
+            "biological-process"
+          ],
+          "filename": "Aging.md",
+          "path": "wiki/en-US/_link/Aging.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Aging.md"
+        },
+        "zh-TW": {
+          "title": "Aging（老化）",
+          "description": "老化與表觀遺傳學的關係是現代老年生物學的核心焦點。表觀遺傳學是指對 DNA 及其相關蛋白質的化學修飾，這些修飾可在不改變基因序列的情況下調節基因表現……",
+          "created": "2026-05-29",
+          "updated": "2026-05-29",
+          "tags": [
+            "biological-process"
+          ],
+          "filename": "Aging.md",
+          "path": "wiki/zh-TW/_link/Aging.md"
+        }
+      },
+      "stats": {
+        "words": 1399,
+        "images": 0,
+        "links": 77,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "HuR",
       "langs": {
         "en-US": {
@@ -12145,36 +12514,36 @@
       }
     },
     {
-      "id": "Aging",
+      "id": "Fisetin",
       "langs": {
         "en-US": {
-          "title": "Aging",
-          "description": "The relationship between aging and Epigenetics is a central focus of modern Geroscience. Epigenetics refers to chemical modifications to DNA and its associated proteins that regulate gene expre...",
-          "created": "2026-05-29",
-          "updated": "2026-05-29",
+          "title": "Fisetin",
+          "description": "Fisetin is a plant Flavonoids and antioxidant found in many fruits and vegetables, such as strawberries and apples. It has been identified as a potent senolytic agent, selectively inducing apoptosi...",
+          "created": "2026-05-25",
+          "updated": "2026-09-17",
           "tags": [
-            "biological-process"
+            "chemical-compound"
           ],
-          "filename": "Aging.md",
-          "path": "wiki/en-US/_link/Aging.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Aging.md"
+          "filename": "Fisetin.md",
+          "path": "wiki/en-US/_link/Fisetin.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Fisetin.md"
         },
         "zh-TW": {
-          "title": "Aging（老化）",
-          "description": "老化與表觀遺傳學的關係是現代老年生物學的核心焦點。表觀遺傳學是指對 DNA 及其相關蛋白質的化學修飾，這些修飾可在不改變基因序列的情況下調節基因表現……",
-          "created": "2026-05-29",
-          "updated": "2026-05-29",
+          "title": "Fisetin",
+          "description": "非瑟酮是存在於草莓、蘋果等多種水果與蔬菜的植物類黃酮與抗氧化劑，已被確認為強效的衰老細胞清除劑，可選擇性誘導衰老細胞凋亡……",
+          "created": "2026-05-25",
+          "updated": "2026-09-17",
           "tags": [
-            "biological-process"
+            "chemical-compound"
           ],
-          "filename": "Aging.md",
-          "path": "wiki/zh-TW/_link/Aging.md"
+          "filename": "Fisetin.md",
+          "path": "wiki/zh-TW/_link/Fisetin.md"
         }
       },
       "stats": {
-        "words": 1399,
+        "words": 2194,
         "images": 0,
-        "links": 77,
+        "links": 213,
         "diagrams": 0
       }
     },
@@ -12215,40 +12584,6 @@
         "words": 1772,
         "images": 0,
         "links": 57,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "Fisetin",
-      "langs": {
-        "en-US": {
-          "title": "Fisetin",
-          "description": "Fisetin is a plant Flavonoids and antioxidant found in many fruits and vegetables, such as strawberries and apples. It has been identified as a potent senolytic agent, selectively inducing apoptosi...",
-          "created": "2026-05-25",
-          "updated": "2026-09-17",
-          "tags": [
-            "chemical-compound"
-          ],
-          "filename": "Fisetin.md",
-          "path": "wiki/en-US/_link/Fisetin.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Fisetin.md"
-        },
-        "zh-TW": {
-          "title": "Fisetin",
-          "description": "非瑟酮是存在於草莓、蘋果等多種水果與蔬菜的植物類黃酮與抗氧化劑，已被確認為強效的衰老細胞清除劑，可選擇性誘導衰老細胞凋亡……",
-          "created": "2026-05-25",
-          "updated": "2026-09-17",
-          "tags": [
-            "chemical-compound"
-          ],
-          "filename": "Fisetin.md",
-          "path": "wiki/zh-TW/_link/Fisetin.md"
-        }
-      },
-      "stats": {
-        "words": 2194,
-        "images": 0,
-        "links": 213,
         "diagrams": 0
       }
     },
@@ -12445,6 +12780,46 @@
       }
     },
     {
+      "id": "Adrenochrome",
+      "langs": {
+        "en-US": {
+          "title": "Adrenochrome",
+          "description": "Adrenochrome is a chemical compound formed by the oxidation of epinephrine (adrenaline), a member of the Aminochromes family and minor metabolic byproduct rather than a primary hormone.",
+          "created": "2026-07-21",
+          "updated": "2026-08-09",
+          "tags": [
+            "chemical-compound",
+            "catecholamine",
+            "oxidation",
+            "neuromelanin"
+          ],
+          "filename": "Adrenochrome.md",
+          "path": "wiki/en-US/adrenochrome/Adrenochrome.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/Adrenochrome.md"
+        },
+        "zh-TW": {
+          "title": "Adrenochrome（腎上腺紅質）",
+          "description": "Adrenochrome（腎上腺紅質）是由腎上腺素（epinephrine，adrenaline）氧化所形成的化學化合物，屬於胺基醌（Aminochromes）家族，是次要的代謝副產物，而非主要的激素。",
+          "created": "2026-07-21",
+          "updated": "2026-08-09",
+          "tags": [
+            "chemical-compound",
+            "catecholamine",
+            "oxidation",
+            "neuromelanin"
+          ],
+          "filename": "Adrenochrome.md",
+          "path": "wiki/zh-TW/adrenochrome/Adrenochrome.md"
+        }
+      },
+      "stats": {
+        "words": 1607,
+        "images": 0,
+        "links": 148,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "Phagocytosis",
       "langs": {
         "en-US": {
@@ -12487,44 +12862,6 @@
       }
     },
     {
-      "id": "Erythronecroptosis",
-      "langs": {
-        "en-US": {
-          "title": "Erythronecroptosis",
-          "description": "RIPK1/RIPK3/MLKL-dependent regulated necrosis of mature erythrocytes — the lytic, hemolysis-like counterpart of eryptosis, triggered by Fas/FasL, CD59 ligation with pore formation, ROS, ceramide and AGEs, and mutually exclusive with eryptosis via caspase-8.",
-          "created": "2026-10-08",
-          "updated": "2026-10-08",
-          "tags": [
-            "cell-death",
-            "erythrocyte",
-            "necroptosis"
-          ],
-          "filename": "Erythronecroptosis.md",
-          "path": "wiki/en-US/cell-death/Erythronecroptosis.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Erythronecroptosis.md"
-        },
-        "zh-TW": {
-          "title": "Erythronecroptosis",
-          "description": "由 RIPK1/RIPK3/MLKL 介導的成熟紅血球受調控壞死——eryptosis 的裂解性、類溶血對應形式，由 Fas/FasL、CD59 聯結（伴隨孔洞形成）、ROS、神經醯胺與 AGEs 觸發，並經由 caspase-8 與 eryptosis 互斥。",
-          "created": "2026-10-08",
-          "updated": "2026-10-08",
-          "tags": [
-            "cell-death",
-            "erythrocyte",
-            "necroptosis"
-          ],
-          "filename": "Erythronecroptosis.md",
-          "path": "wiki/zh-TW/cell-death/Erythronecroptosis.md"
-        }
-      },
-      "stats": {
-        "words": 434,
-        "images": 0,
-        "links": 43,
-        "diagrams": 0
-      }
-    },
-    {
       "id": "MdmX",
       "langs": {
         "en-US": {
@@ -12563,42 +12900,40 @@
       }
     },
     {
-      "id": "Adrenochrome",
+      "id": "Erythronecroptosis",
       "langs": {
         "en-US": {
-          "title": "Adrenochrome",
-          "description": "Adrenochrome is a chemical compound formed by the oxidation of epinephrine (adrenaline), a member of the Aminochromes family and minor metabolic byproduct rather than a primary hormone.",
-          "created": "2026-07-21",
-          "updated": "2026-08-09",
+          "title": "Erythronecroptosis",
+          "description": "RIPK1/RIPK3/MLKL-dependent regulated necrosis of mature erythrocytes — the lytic, hemolysis-like counterpart of eryptosis, triggered by Fas/FasL, CD59 ligation with pore formation, ROS, ceramide and AGEs, and mutually exclusive with eryptosis via caspase-8.",
+          "created": "2026-10-08",
+          "updated": "2026-10-08",
           "tags": [
-            "chemical-compound",
-            "catecholamine",
-            "oxidation",
-            "neuromelanin"
+            "cell-death",
+            "erythrocyte",
+            "necroptosis"
           ],
-          "filename": "Adrenochrome.md",
-          "path": "wiki/en-US/adrenochrome/Adrenochrome.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/Adrenochrome.md"
+          "filename": "Erythronecroptosis.md",
+          "path": "wiki/en-US/cell-death/Erythronecroptosis.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Erythronecroptosis.md"
         },
         "zh-TW": {
-          "title": "Adrenochrome（腎上腺紅質）",
-          "description": "Adrenochrome（腎上腺紅質）是由腎上腺素（epinephrine，adrenaline）氧化所形成的化學化合物，屬於胺基醌（Aminochromes）家族，是次要的代謝副產物，而非主要的激素。",
-          "created": "2026-07-21",
-          "updated": "2026-08-09",
+          "title": "Erythronecroptosis",
+          "description": "由 RIPK1/RIPK3/MLKL 介導的成熟紅血球受調控壞死——eryptosis 的裂解性、類溶血對應形式，由 Fas/FasL、CD59 聯結（伴隨孔洞形成）、ROS、神經醯胺與 AGEs 觸發，並經由 caspase-8 與 eryptosis 互斥。",
+          "created": "2026-10-08",
+          "updated": "2026-10-08",
           "tags": [
-            "chemical-compound",
-            "catecholamine",
-            "oxidation",
-            "neuromelanin"
+            "cell-death",
+            "erythrocyte",
+            "necroptosis"
           ],
-          "filename": "Adrenochrome.md",
-          "path": "wiki/zh-TW/adrenochrome/Adrenochrome.md"
+          "filename": "Erythronecroptosis.md",
+          "path": "wiki/zh-TW/cell-death/Erythronecroptosis.md"
         }
       },
       "stats": {
-        "words": 1607,
+        "words": 434,
         "images": 0,
-        "links": 148,
+        "links": 43,
         "diagrams": 0
       }
     },
@@ -13665,44 +14000,6 @@
       }
     },
     {
-      "id": "Rac1",
-      "langs": {
-        "en-US": {
-          "title": "Rac1",
-          "description": "Rac1 (Ras-related C3 botulinum toxin substrate 1) is a 21 kDa Rho-family small GTPase and the ubiquitously expressed prototype of the Rac subfamily. It cycles GDP/GTP under control of GEFs, GAPs and RhoGDI, and via PAK, WAVE and NADPH oxidase controls lamellipodia, adhesion, gene expression and the respiratory burst.",
-          "created": "2026-07-04",
-          "updated": "2026-10-01",
-          "tags": [
-            "protein",
-            "signaling",
-            "gtpase"
-          ],
-          "filename": "Rac1.md",
-          "path": "wiki/en-US/_link/Rac1.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Rac1.md"
-        },
-        "zh-TW": {
-          "title": "Rac1",
-          "description": "Rac1（Ras-related C3 botulinum toxin substrate 1）是一個 21 kDa 的 Rho 家族小 GTPase，也是 Rac 亞家族中廣泛表現的原型。它在 GEF、GAP 與 RhoGDI 的調控下進行 GDP/GTP 循環，並透過 PAK、WAVE 與 NADPH 氧化酶控制偽足、黏附、基因表現與呼吸爆發。",
-          "created": "2026-07-04",
-          "updated": "2026-10-01",
-          "tags": [
-            "protein",
-            "signaling",
-            "gtpase"
-          ],
-          "filename": "Rac1.md",
-          "path": "wiki/zh-TW/_link/Rac1.md"
-        }
-      },
-      "stats": {
-        "words": 971,
-        "images": 0,
-        "links": 87,
-        "diagrams": 0
-      }
-    },
-    {
       "id": "Cyclooxygenase",
       "langs": {
         "en-US": {
@@ -13737,6 +14034,44 @@
         "words": 949,
         "images": 0,
         "links": 29,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Rac1",
+      "langs": {
+        "en-US": {
+          "title": "Rac1",
+          "description": "Rac1 (Ras-related C3 botulinum toxin substrate 1) is a 21 kDa Rho-family small GTPase and the ubiquitously expressed prototype of the Rac subfamily. It cycles GDP/GTP under control of GEFs, GAPs and RhoGDI, and via PAK, WAVE and NADPH oxidase controls lamellipodia, adhesion, gene expression and the respiratory burst.",
+          "created": "2026-07-04",
+          "updated": "2026-10-01",
+          "tags": [
+            "protein",
+            "signaling",
+            "gtpase"
+          ],
+          "filename": "Rac1.md",
+          "path": "wiki/en-US/_link/Rac1.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Rac1.md"
+        },
+        "zh-TW": {
+          "title": "Rac1",
+          "description": "Rac1（Ras-related C3 botulinum toxin substrate 1）是一個 21 kDa 的 Rho 家族小 GTPase，也是 Rac 亞家族中廣泛表現的原型。它在 GEF、GAP 與 RhoGDI 的調控下進行 GDP/GTP 循環，並透過 PAK、WAVE 與 NADPH 氧化酶控制偽足、黏附、基因表現與呼吸爆發。",
+          "created": "2026-07-04",
+          "updated": "2026-10-01",
+          "tags": [
+            "protein",
+            "signaling",
+            "gtpase"
+          ],
+          "filename": "Rac1.md",
+          "path": "wiki/zh-TW/_link/Rac1.md"
+        }
+      },
+      "stats": {
+        "words": 971,
+        "images": 0,
+        "links": 87,
         "diagrams": 0
       }
     },
@@ -14587,6 +14922,40 @@
       }
     },
     {
+      "id": "4-Hydroxynonenal",
+      "langs": {
+        "en-US": {
+          "title": "4-Hydroxynonenal",
+          "description": "4-Hydroxynonenal (4-HNE, 4-hydroxy-2-nonenal) is a highly reactive α,β-unsaturated aldehyde generated as a major end-product of n-6 polyunsaturated fatty acid (Lipid Peroxidation), particularly...",
+          "created": "2026-07-04",
+          "updated": "2026-09-24",
+          "tags": [
+            "chemical-compound"
+          ],
+          "filename": "4-Hydroxynonenal.md",
+          "path": "wiki/en-US/oxidative-stress/4-Hydroxynonenal.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/oxidative-stress/4-Hydroxynonenal.md"
+        },
+        "zh-TW": {
+          "title": "4-Hydroxynonenal",
+          "description": "4-Hydroxynonenal（4-HNE, 4-hydroxy-2-nonenal）是一種高反應活性的 α,β-不飽和醛，為 n-6 多元不飽和脂肪酸（Lipid Peroxidation）的主要終產物，特別是……",
+          "created": "2026-07-04",
+          "updated": "2026-09-24",
+          "tags": [
+            "chemical-compound"
+          ],
+          "filename": "4-Hydroxynonenal.md",
+          "path": "wiki/zh-TW/oxidative-stress/4-Hydroxynonenal.md"
+        }
+      },
+      "stats": {
+        "words": 893,
+        "images": 0,
+        "links": 84,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "MDC1",
       "langs": {
         "en-US": {
@@ -14623,40 +14992,6 @@
         "words": 1727,
         "images": 0,
         "links": 146,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "4-Hydroxynonenal",
-      "langs": {
-        "en-US": {
-          "title": "4-Hydroxynonenal",
-          "description": "4-Hydroxynonenal (4-HNE, 4-hydroxy-2-nonenal) is a highly reactive α,β-unsaturated aldehyde generated as a major end-product of n-6 polyunsaturated fatty acid (Lipid Peroxidation), particularly...",
-          "created": "2026-07-04",
-          "updated": "2026-09-24",
-          "tags": [
-            "chemical-compound"
-          ],
-          "filename": "4-Hydroxynonenal.md",
-          "path": "wiki/en-US/oxidative-stress/4-Hydroxynonenal.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/oxidative-stress/4-Hydroxynonenal.md"
-        },
-        "zh-TW": {
-          "title": "4-Hydroxynonenal",
-          "description": "4-Hydroxynonenal（4-HNE, 4-hydroxy-2-nonenal）是一種高反應活性的 α,β-不飽和醛，為 n-6 多元不飽和脂肪酸（Lipid Peroxidation）的主要終產物，特別是……",
-          "created": "2026-07-04",
-          "updated": "2026-09-24",
-          "tags": [
-            "chemical-compound"
-          ],
-          "filename": "4-Hydroxynonenal.md",
-          "path": "wiki/zh-TW/oxidative-stress/4-Hydroxynonenal.md"
-        }
-      },
-      "stats": {
-        "words": 893,
-        "images": 0,
-        "links": 84,
         "diagrams": 0
       }
     },
@@ -16061,6 +16396,40 @@
       }
     },
     {
+      "id": "mTOR",
+      "langs": {
+        "en-US": {
+          "title": "mTOR",
+          "description": "mTOR (Mechanistic Target of Rapamycin) is a protein kinase that serves as a central ''master regulator'' of cellular metabolism. It integrates signals from nutrients, growth factors, and energy s...",
+          "created": "2026-05-31",
+          "updated": "2026-07-29",
+          "tags": [
+            "protein"
+          ],
+          "filename": "mTOR.md",
+          "path": "wiki/en-US/_link/mTOR.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/mTOR.md"
+        },
+        "zh-TW": {
+          "title": "mTOR",
+          "description": "mTOR（Mechanistic Target of Rapamycin）是一種蛋白質激酶，作為細胞代謝的「總調節者」。它整合來自營養、生長因子與能量狀態的訊號……",
+          "created": "2026-05-31",
+          "updated": "2026-07-29",
+          "tags": [
+            "protein"
+          ],
+          "filename": "mTOR.md",
+          "path": "wiki/zh-TW/_link/mTOR.md"
+        }
+      },
+      "stats": {
+        "words": 1452,
+        "images": 0,
+        "links": 100,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "Antioxidant",
       "langs": {
         "en-US": {
@@ -16097,40 +16466,6 @@
         "words": 1131,
         "images": 0,
         "links": 81,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "mTOR",
-      "langs": {
-        "en-US": {
-          "title": "mTOR",
-          "description": "mTOR (Mechanistic Target of Rapamycin) is a protein kinase that serves as a central ''master regulator'' of cellular metabolism. It integrates signals from nutrients, growth factors, and energy s...",
-          "created": "2026-05-31",
-          "updated": "2026-07-29",
-          "tags": [
-            "protein"
-          ],
-          "filename": "mTOR.md",
-          "path": "wiki/en-US/_link/mTOR.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/mTOR.md"
-        },
-        "zh-TW": {
-          "title": "mTOR",
-          "description": "mTOR（Mechanistic Target of Rapamycin）是一種蛋白質激酶，作為細胞代謝的「總調節者」。它整合來自營養、生長因子與能量狀態的訊號……",
-          "created": "2026-05-31",
-          "updated": "2026-07-29",
-          "tags": [
-            "protein"
-          ],
-          "filename": "mTOR.md",
-          "path": "wiki/zh-TW/_link/mTOR.md"
-        }
-      },
-      "stats": {
-        "words": 1452,
-        "images": 0,
-        "links": 100,
         "diagrams": 0
       }
     },

@@ -5,7 +5,7 @@ description: Apoptosis (programmed cell death) is a highly regulated mechanism
   inducing inflammation.
 protected: true
 created: 2026-05-29
-updated: 2026-09-14
+updated: 2026-11-19
 tags:
   - biological-process
   - apoptosis
@@ -200,6 +200,10 @@ List of documents that mention this entity
 - [[PARP1]] — the male-preferred death effector; XY cells die via PARP-1/AIF-dependent necrosis rather than caspases
 - [[p53]] — sex-hormone-regulated switch between the senescence and apoptosis arms (E2↔p53 crosstalk; see Sex Differences)
 - [[Bcl-2]] — estrogen-driven anti-apoptotic setpoint; the molecular basis of female apoptotic resistance
+- [[c-FLIP]] — the isoform-titrated rheostat that decides whether a death-receptor stimulus ends in apoptosis, necroptosis or survival
+- [[DISC]] — the receptor-bound platform where extrinsic apoptosis is initiated
+- [[Ripoptosome]] — the receptor-independent counterpart platform; which death it executes depends on the same c-FLIP ratio
+- [[Death Effector Domain|DED]] — the shared dimerization module that assembles both platforms
 
 ## Linking Summary (Sex Differences — Cell-Death Cross-Link, 2026-09-02)
 
@@ -213,3 +217,4 @@ List of documents that mention this entity
 - Suggested new entity notes to create: [[Cytochrome c]], [[Bax]], [[Bcl-2]], [[Annexin V]], [[Caspase-3]], [[Necrosis]], [[Caspases]].
   - Strong connections to strengthen: [[Apoptosis]] ↔ [[Mitochondria]], [[Apoptosis]] ↔ Cellular Senescence, [[Apoptosis]] ↔ [[p53]], [[Apoptosis]] ↔ [[Mitochondrial Dysfunction]].
 - Source enrichment (2026-09-14): Moura et al. 2024 — ATP-switch and caspase-cleavage antagonism vs cooperative AIF/89-kDa-fragment nodes. New links: [[Parthanatos]], [[89-kDa PARP1 Fragment]], [[PARP1]].
+- Source enrichment (2026-11-19): [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]] — extrinsic apoptosis as one of three outcomes of a death-receptor stimulus, decided by c-FLIP isoform stoichiometry at the DISC and the ripoptosome; caspase-8 vs caspase-10 initiator choice across species. New links: [[c-FLIP]], [[DISC]], [[Ripoptosome]], [[Death Effector Domain|DED]].

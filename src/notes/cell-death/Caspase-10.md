@@ -3,7 +3,7 @@ title: Caspase-10
 description: Caspase-10 is an initiator caspase closely related to Caspase-8 that activates the extrinsic apoptotic pathway downstream of death receptors such as Fas, DR4, and DR5.
 protected: true
 created: 2026-07-06
-updated: 2026-07-07
+updated: 2026-11-19
 tags:
   - enzyme
   - apoptosis
@@ -30,12 +30,19 @@ Because death-receptor apoptosis is a key immune-surveillance mechanism that eli
 
 Therapeutic TRAIL receptor agonists and DR4/DR5 antibodies aim to engage the caspase-10/caspase-8 axis in cancer cells, but resistance via DISC defects limits efficacy. Restoring caspase-10 expression or circumventing the extrinsic block with [[BH3 mimetics]] that unleash intrinsic apoptosis is an active strategy. Biomarker studies correlate *CASP10* methylation or mutation with poor response to death-receptor-targeted agents, informing patient selection.
 
+> [!info]
+> Source: [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]]
+> Caspase-10 is functionally similar to caspase-8 but is absent in rodents, which is why the review treats caspase-8 as the major initiator of extrinsic apoptosis. Its relevance to the switch is that it forms part of the same DED-chain platform: procaspase-8/10 are recruited to the [[DISC]] through the [[Death Effector Domain|DED]] of [[FADD]], and the isoform balance of [[c-FLIP]] — which heterodimerizes with both paralogs — decides whether that platform releases active caspase.
+
 ## Documents
 
 List of documents that mention this entity
 
   - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
     - Caspase-2, Caspase-3, Caspase-6, Caspase-7,Caspase-8, Caspase-9 and Caspase-10). The second group can be further classified into 1) initiator caspases (e.g.
+
+  - [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]]
+    - Caspase-10 as the caspase-8 paralog on the DED-chain platform; absence in rodents, making caspase-8 the major initiator of extrinsic apoptosis.
 
   - [[_document_ - Caspase|Caspase]]
     - They are broadly categorized into initiator caspases (e.g., Caspase-2, Caspase-8, Caspase-9, Caspase-10) and executioner caspases (e.g., Caspase-3, Caspase-6, Caspase-7). Table 1.
@@ -53,9 +60,13 @@ List of documents that mention this entity
 - [[Fas]]: Death receptor recruiting caspase-10 via FADD.
 - [[DR4]] / [[DR5]]: TRAIL receptors upstream of caspase-10.
 - [[Apoptosis]]: The cell-death program executed.
+- [[c-FLIP]]: Catalytically dead paralog that heterodimerizes with caspase-10 on the DED chain and sets whether the platform fires.
+- [[Death Effector Domain|DED]]: The tandem domain that recruits procaspase-10 to FADD at the DISC.
+- [[Necroptosis]]: The fate opened when caspase-10/caspase-8 activity is blocked and [[RIPK3]] takes over.
 
 ## Linking Summary
 
 - New links added: [[Apoptosis]], [[Extrinsic Pathway]], [[DISC]], [[Fas]], [[DR4]], [[DR5]], [[Caspase-8]], [[Caspase-3]], [[Caspase-7]], [[Caspase-9]], [[BH3 mimetics]]
 - Suggested new entity notes to create: [[DISC]], [[FADD]]
 - Strong connections to strengthen: [[Caspase-10]] ↔ [[DISC]], [[Caspase-10]] ↔ [[Caspase-8]]
+- Source enrichment (2026-11-19): [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]] — caspase-10 as the caspase-8 paralog recruited to the DISC via DED; rodent absence of caspase-10. New links: [[c-FLIP]], [[Death Effector Domain|DED]], [[RIPK3]].

@@ -44,6 +44,8 @@ BCL-2 family and mitochondrial gatekeepers: [[Bcl-2 family]], [[Bcl-2]], [[Bcl-w
 
 Death-receptor and necrosome signaling: [[TNFR1]], [[TNFR1 complex I]], [[TNFR1 complex II]], [[RIPK3]], [[MLKL]], [[Fas]] (CD95), [[FasL]], [[TRAIL]], [[DR4]] (TRAIL-R1/CD261), [[DR5]] (TRAIL-R2/CD262), [[TNFR2]] (CD120b), [[Decoy Receptor]] with [[DcR1]] and [[DcR2]].
 
+Death-inducing complex assembly: [[Death Effector Domain]] (the DED dimerization module shared by FADD, procaspase-8/10, c-FLIP and vFLIP — the physical step that builds both the [[DISC]] and the [[Ripoptosome]]).
+
 Necroptosis regulators and sensors (mostly `_link/`): [[ZBP1]], [[TRIF]], [[PANoptosis]], [[PANoptosome]], [[CYLD]], [[OTULIN]], [[TRIM21]], [[RSK3]], [[CSNK1G2]], [[TAM Kinases]], [[PGAM5]], [[Pyruvate Dehydrogenase]], [[HSP90β]], [[BRD4]].
 
 Linear ubiquitination and ubiquitin signalling: [[LUBAC]] (RBR E3 ligase assembling M1-linked polyubiquitin chains on TNF-receptor complex I, the pivot between NF-κB survival signalling and necroptosis).

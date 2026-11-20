@@ -210,6 +210,10 @@ aliases: []
 - [[PARP1]] — 雄性偏好的死亡效應因子；XY 細胞經 PARP-1/AIF 依賴性壞死而非半胱天冬酶死亡
 - [[p53]] — 受性激素調控、在衰老與凋亡兩臂之間的開關（E2↔p53 交互作用；見性別差異）
 - [[Bcl-2]] — 雌激素驅動的抗凋亡設定點；雌性凋亡抗性的分子基礎
+- [[c-FLIP]] — 以異構體滴定決定死亡受體刺激走向細胞凋亡、壞死性凋亡或存活的變阻器
+- [[DISC]] — 啟動外源性凋亡的受體結合平台
+- [[Ripoptosome]] — 不依賴受體的對應平台；其執行何種死亡同樣取決於 c-FLIP 比例
+- [[Death Effector Domain|DED]] — 同時組裝 DISC 與 ripoptosome 的共用二聚化結構域
 
 ## 連結摘要（性別差異 — 細胞死亡交叉連結，2026-09-02）
 
@@ -224,3 +228,4 @@ aliases: []
 - 建議建立的新實體註記：[[Cytochrome c]], [[Bax]], [[Bcl-2]], [[Annexin V]], [[Caspase-3]], [[Necrosis]], [[Caspases]].
   - 應強化的重點連結：[[Apoptosis]] ↔ [[Mitochondria]], [[Apoptosis]] ↔ 細胞衰老, [[Apoptosis]] ↔ [[p53]], [[Apoptosis]] ↔ [[Mitochondrial Dysfunction]].
 - 來源補充（2026-09-14）：Moura et al. 2024 — ATP 開關與半胱天冬酶切割的拮抗作用，對比協作性的 AIF／89-kDa 片段節點。新增連結：[[Parthanatos]], [[89-kDa PARP1 Fragment]], [[PARP1]].
+- 來源補充（2026-11-19）：[[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]] — 外源性凋亡為死亡受體刺激三種結果之一，由 DISC 與 ripoptosome 上的 c-FLIP 異構體化學計量決定；跨物種的 caspase-8 與 caspase-10 起始者選擇。新增連結：[[c-FLIP]]、[[DISC]]、[[Ripoptosome]]、[[Death Effector Domain|DED]].

@@ -3,7 +3,7 @@ title: MLKL
 description: Mixed lineage kinase domain-like protein (MLKL) — the pseudokinase executor of necroptosis; phosphorylated by RIPK3, it oligomerizes at the plasma membrane to rupture the cell, and doubles as a trigger of NLRP3 inflammasome activation.
 protected: true
 created: 2026-08-29
-updated: 2026-09-14
+updated: 2026-11-19
 tags:
   - protein
   - cell-death
@@ -44,10 +44,16 @@ aliases:
 - **Necroptosis ↔ ferroptosis**: MLKL may deplete membrane PUFA (halting ferroptosis), while [[ACSL4]] overexpression makes membranes refractory to MLKL pores — ACSL4 knockdown inhibits ferroptosis and activates necroptosis (acute kidney failure model).
 - **Therapeutic overlap**: necrosulfonamide blocks both MLKL and GSDMD pore formation.
 
+> [!info]
+> Source: [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]]
+> The review restates the execution arm in sequence: [[RIPK1]] phosphorylates and activates [[RIPK3]], activated RIPK3 phosphorylates MLKL, and phosphorylated MLKL oligomerizes via its N-terminal four-helix bundle, translocates to the plasma membrane and forms pores there. The gate on that cascade is the [[c-FLIP]] isoform balance — FLIP_S heterodimers cannot cleave RIPK1, so the platform persists and RIPK1–RIPK3–MLKL executes necroptosis, whereas FLIP_L heterodimers cleave RIPK1 and prevent it. The functional RIPK1–RIPK3–MLKL axis is therefore required for this death program: cell lines lacking RIPK3 are resistant, and RIPK3 inhibition (chemical or the D161N active-site mutant) blocks necroptosis.
+
 ## Documents
 
 - [[_document_ - crosstalk_cell_death_mechanisms_s41420-025-02328-9|Crosstalk Among Cell Death Mechanisms (Eskander et al. 2025)]]
   - MLKL as the necroptosis executor and the crosstalk hub linking necroptosis to pyroptosis (K⁺ efflux → NLRP3), autophagy inhibition, and ferroptosis via membrane-lipid composition.
+- [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]]
+  - RIPK1→RIPK3→MLKL execution sequence with membrane pore formation; requirement of an intact RIPK1–RIPK3–MLKL axis (RIPK3-negative lines are resistant); c-FLIP isoform balance as the gate that licenses or blocks the axis.
 - [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026 Front Immunol]]
   - Multilayered MLKL regulation (BRD4 transcription, HSP90 stability, TAM-kinase/RIPK1 phosphorylation) and context-dependent/non-canonical execution (MLKL-pore-independent glaucoma axonopathy; TRPM7-linked membrane compromise).
 - [[_document_ - Necroptosis (2014), Linkermann, Green|Linkermann & Green 2014 NEJM — Necroptosis]]
@@ -65,6 +71,8 @@ aliases:
 - [[TNFα]] — the canonical death-ligand stimulus upstream of the TNFR1 necroptosis pathway
 - [[Inflammation]] — DAMP release from MLKL-driven rupture fuels inflammatory disease
 - [[Sirtuin-Caspase Crosstalk]] — MLKL extends the caspase→regulator network as the non-caspase lytic-death executor
+- [[c-FLIP]] — isoform balance gates the axis: FLIP_S licenses RIPK1 persistence, FLIP_L cleaves it
+- [[Ripoptosome]] — the platform whose survival when RIPK1 is not cleaved hands off to RIPK3–MLKL
 
 ## Linking Summary
 
@@ -73,3 +81,4 @@ aliases:
 - Strong connections to strengthen: [[MLKL]] ↔ [[RIPK3]], [[MLKL]] ↔ [[NLRP3]], [[MLKL]] ↔ [[ACSL4]]
 - Source enrichment (2026-09-14): [[_document_ - Regulatory complexity and therapeutic targeting of the necroptosis network|Niu et al. 2026]] — MLKL regulation by BRD4, HSP90, TAM kinases, and RIPK1; MLKL-pore-independent execution routes. New links: [[BRD4]], [[HSP90β]], [[TAM Kinases]].
 - Source enrichment (2026-09-14): [[_document_ - Necroptosis (2014), Linkermann, Green|Linkermann & Green 2014]] — 2014-era pseudokinase status; MLKL-KO protection in cerulein pancreatitis; necrosulfonamide as first direct MLKL inhibitor. New links: [[Necrosulfonamide]], [[Pancreatitis]].
+- Source enrichment (2026-11-19): [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]] — RIPK1→RIPK3→MLKL execution sequence with membrane pore formation; requirement of an intact RIPK1–RIPK3–MLKL axis (RIPK3-negative lines resistant); c-FLIP isoform balance as the gate. New links: [[c-FLIP]], [[Ripoptosome]].

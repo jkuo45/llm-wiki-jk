@@ -2,7 +2,7 @@
 title: TRADD
 description: TRADD (TNFR1-associated death domain protein) is an adaptor that nucleates TNF receptor 1 signaling complexes, bifurcating into caspase-8-driven apoptosis or NFκB/ MAPK-mediated survival and inflammation — a pivotal node in cancer cell fate.
 created: 2026-07-06
-updated: 2026-07-07
+updated: 2026-11-19
 tags:
   - protein
 aliases: []
@@ -28,12 +28,19 @@ TRADD expression and TNFR1 signaling modulate tumor-cell responses to TNF-relate
 
 Targeting the TNFR1/TRADD node is explored to sensitize tumors to death-receptor agonists or to dampen paracancerous inflammation. SMAC mimetics that deplete cIAPs can convert TNFR1 signaling toward caspase-8–dependent apoptosis, a strategy combined with TRAIL or [[Chemotherapy]].
 
+> [!info]
+> Source: [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]]
+> TRADD is the adaptor that couples TNFR1's death domain to FADD at the cytosolic death-inducing complex: TNFR1 trimerization exposes the DD, TRADD binds it via its own DD, and TRADD then recruits FADD, whose [[Death Effector Domain|DED]] builds the DED chain with procaspase-8 and [[c-FLIP]]. TRADD is therefore the upstream step that decides whether the assembled platform releases active caspase-8 ([[Apoptosis]]), stays restrained by [[c-FLIP|FLIP_L]], or hands off to [[RIPK3]]–[[MLKL]] ([[Necroptosis]]).
+
 ## Documents
 
 List of documents that mention this entity
 
   - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
     - These death receptors have an intracellular death domain that recruits adapter proteins such as TRADD and FADD, as well as cysteine proteases like Caspase-8 \[\]. Binding of the death ligand to the death receptor results in the formation of a
+
+  - [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]]
+    - TRADD as the DD–DD adaptor that bridges TNFR1 to FADD and the DED chain; the platform on which the c-FLIP isoform ratio sets apoptosis vs necroptosis.
 
 
 ## Connections
@@ -44,9 +51,15 @@ List of documents that mention this entity
 - [[NF-κB]]: Survival/inflammatory pathway activated by TRADD-associated Complex I.
 - [[Apoptosis]]: One of the two fates bifurcating from TRADD signaling.
 - [[Inflammation]]: TNFR1/TRADD signaling fuels tumor-associated inflammation.
+- [[c-FLIP]]: Isoform balance at the TRADD–FADD platform sets apoptosis vs necroptosis.
+- [[Death Effector Domain|DED]]: The FADD module that builds the caspase-8 chain downstream of TRADD.
+- [[RIPK3]] / [[MLKL]]: Necroptosis effectors engaged when the caspase-8 branch is blocked.
+- [[RIPK1]]: The kinase that engages TRADD at Complex I and, deubiquitinated, at Complex II.
+- [[Necroptosis]]: The third fate opened when TRADD-recruited caspase-8 is inhibited.
 
 ## Linking Summary
 
 - New links added: [[Apoptosis]], [[TNFR1]], [[FADD]], [[Caspase-8]], [[NF-κB]], [[Inflammation]], [[RIPK1]], [[Necroptosis]]
 - Suggested new entity notes to create: [[Complex I]], [[Complex II (DISC)]], [[RIPK1]]
 - Strong connections to strengthen: [[TRADD]] ↔ [[TNFR1]], [[TRADD]] ↔ [[Caspase-8]]
+- Source enrichment (2026-11-19): [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]] — TRADD as the DD–DD adaptor bridging TNFR1 to FADD and the DED chain; c-FLIP isoform ratio deciding apoptosis vs necroptosis at the TRADD platform. New links: [[c-FLIP]], [[Death Effector Domain|DED]], [[RIPK3]], [[MLKL]].

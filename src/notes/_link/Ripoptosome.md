@@ -3,7 +3,7 @@ title: Ripoptosome
 description: A 2 MDa death-receptor-independent intracellular complex of RIPK1, FADD, caspase-8, caspase-10 and c-FLIP isoforms that forms when cIAPs are depleted and decides between apoptosis and necroptosis.
 protected: false
 created: 2026-09-03
-updated: 2026-09-03
+updated: 2026-11-19
 tags:
   - protein-complex
   - cell-death
@@ -27,8 +27,8 @@ apoptosis-vs-necroptosis decision (Feoktistova et al. 2011; Tenev et al. 2011).
 - **Core:** [[RIPK1]] is the obligate scaffold — its death domain (DD) binds [[FADD]] once RIPK1 is
   deubiquitinated and its DD exposed; without RIPK1 there is no ripoptosome (hence *Ripk1⁻/⁻* mice
   are viable while *Casp8⁻/⁻*/*Fadd⁻/⁻* mice are not).
-- **DED chain:** [[FADD]] recruits procaspase-8/[[Caspase-10]]/[[c-FLIP]] via DED–DED interactions,
-  mirroring [[DISC]] assembly but in the cytosol rather than at a receptor.
+- **DED chain:** [[FADD]] recruits procaspase-8/[[Caspase-10]]/[[c-FLIP]] via DED–DED interactions
+  ([[Death Effector Domain|DED]]), mirroring [[DISC]] assembly but in the cytosol rather than at a receptor.
 - **Size:** gel filtration places the fully assembled complex at ~2 MDa (fractions containing
   RIPK1 + caspase-8 + c-FLIP); caspase-8/RIPK1 association is essentially restricted to these
   high-molecular-weight fractions.
@@ -90,6 +90,8 @@ to [[Caspase-8]] activation without TNF signaling.
 - [[Caspase-8]] / [[c-FLIP]] / [[Caspase-10]] — the DED-chain trio whose stoichiometry decides fate
 - [[cIAPs]] — E3 ligases whose presence precludes assembly
 - [[DISC]] — the receptor-bound counterpart platform
+- [[Death Effector Domain|DED]] — the shared dimerization module of the DED chain that builds the complex
+- [[TLR3]] / [[TRIF]] — a RIPK1-dependent, FADD-independent route to caspase-8 activation distinct from the ripoptosome
 - [[TNFR1 complex II]] — the related TNFR1-derived secondary complex
 - [[Necroptosis]] / [[Apoptosis]] — the two death outputs
 
@@ -99,5 +101,6 @@ to [[Caspase-8]] activation without TNF signaling.
   [[Caspase-10]], [[cIAPs]], [[DISC]], [[TNFR1 complex II]], [[Necroptosis]], [[Apoptosis]],
   [[Caspase-8-c-FLIP Rheostat]]
 - Suggested new entity notes to create: (done 03_Sep_2026: [[TRIF]], [[Smac mimetics]])
+- Source enrichment (2026-11-19): [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]] — DED-chain assembly of the ripoptosome; MC159 vFLIP promoting necroptosis via failure to cleave RIPK1; TLR3–TRIF atypical complex (RIPK1-dependent, FADD-independent). New links: [[Death Effector Domain|DED]], [[TLR3]].
 - Strong connections to strengthen: [[Ripoptosome]] ↔ [[Caspase-8-c-FLIP Rheostat]],
   [[Ripoptosome]] ↔ [[RIPK1]], [[Ripoptosome]] ↔ [[cIAPs]]

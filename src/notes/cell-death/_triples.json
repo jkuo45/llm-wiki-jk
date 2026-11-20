@@ -9616,5 +9616,61 @@
     "source_document": "_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP.md",
     "created": "2026-11-19T18:34:03Z",
     "updated": "2026-11-19T18:34:03Z"
+  },
+  {
+    "id": "bc78f4ae95b5",
+    "subject": "MKK7",
+    "predicate": "is_inhibited_by",
+    "object": "c-FLIP",
+    "context": {
+      "en-US": "cFLIP_L binds MAP kinase kinase 7 (MKK7) directly and inhibits the JNK pathway; the downregulation of cFLIP induces JNK activation and ROS accumulation in tumor cells, making the c-FLIP–MKK7–JNK–Itch loop a determinant of whether TNF-α signaling ends in survival or death (Tsuchiya et al. 2015).",
+      "zh-TW": "cFLIP_L 直接結合 MAP kinase kinase 7（MKK7）並抑制 JNK 訊號路徑；cFLIP 下調會誘發 JNK 活化與腫瘤細胞中 ROS 累積，使 c-FLIP–MKK7–JNK–Itch 環成為 TNF-α 訊號走向存活或死亡的決定因子（Tsuchiya 等，2015）。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP.md",
+    "created": "2026-11-20T03:45:49Z",
+    "updated": "2026-11-20T03:45:49Z"
+  },
+  {
+    "id": "cad872063cec",
+    "subject": "Gelsolin",
+    "predicate": "is_in_complex_with",
+    "object": "c-FLIP",
+    "context": {
+      "en-US": "Gelsolin, a regulator of actin dynamics, participates in the Itch–p53–c-FLIP degradation complex and confers chemoresistance against cisplatin in gynecologic cancers (Tsuchiya et al. 2015).",
+      "zh-TW": "Gelsolin（肌動蛋白動力學調節因子）參與 Itch–p53–cFLIP 降解複合體，並賦予婦科癌症對順鉑的化療抵抗性（Tsuchiya 等，2015）。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP.md",
+    "created": "2026-11-20T03:45:49Z",
+    "updated": "2026-11-20T03:45:49Z"
+  },
+  {
+    "id": "7ab29667f38f",
+    "subject": "Death Effector Domain",
+    "predicate": "mediates",
+    "object": "c-FLIP",
+    "context": {
+      "en-US": "The death effector domain (DED) mediates DED–DED dimerization between FADD, procaspase-8/10 and c-FLIP, the physical step that builds the DED chain of the DISC and the ripoptosome; cFLIP_S and cFLIP_R incorporate into the chain, bind procaspase-8 without activating it, and cap chain elongation (Tsuchiya et al. 2015).",
+      "zh-TW": "死亡效應域（DED）媒介 FADD、procaspase-8/10 與 c-FLIP 之間的 DED–DED 二聚化，是建構 DISC 與 ripoptosome 之 DED 鏈的物理步驟；cFLIP_S 與 cFLIP_R 併入鏈中，可結合 procaspase-8 但不活化之，並封閉鏈的延伸（Tsuchiya 等，2015）。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP.md",
+    "created": "2026-11-20T03:45:49Z",
+    "updated": "2026-11-20T03:45:49Z"
+  },
+  {
+    "id": "c742e458bf93",
+    "subject": "Death Effector Domain",
+    "predicate": "mediates",
+    "object": "FADD",
+    "context": {
+      "en-US": "The DED of FADD binds the DED of procaspase-8/10 to form the DISC; the same DED–DED interaction is used to assemble the receptor-independent ripoptosome, where FADD nucleates the DED chain after RIPK1 deubiquitination (Tsuchiya et al. 2015).",
+      "zh-TW": "FADD 的 DED 與 procaspase-8/10 的 DED 結合形成 DISC；同一 DED–DED 交互作用亦用於組裝不依賴受體的 ripoptosome，其中 FADD 在 RIPK1 去泛素化後成核 DED 鏈（Tsuchiya 等，2015）。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP.md",
+    "created": "2026-11-20T03:45:49Z",
+    "updated": "2026-11-20T03:45:49Z"
   }
 ]
