@@ -21,12 +21,12 @@
      the same way the other three.js pages remap their SVG hexes. */
   :root {
     --c-c8: #2f8f4e; --c-fl: #a8791f; --c-fs: #c1562c; --c-fadd: #1d7d70;
-    --c-rec: #6b7684; --c-p43: #7a4fb5;
+    --c-rec: #6b7684; --c-p43: #7a4fb5; --c-fr: #2f6f8f;
     --c-apop: #c1121f; --c-surv: #2f8f4e; --c-nec: #c1562c;
   }
   [data-theme="dark"] {
     --c-c8: #58d68d; --c-fl: #e8a33d; --c-fs: #ffa04d; --c-fadd: #5fe0cc;
-    --c-rec: #b9c6d8; --c-p43: #b07fe8;
+    --c-rec: #b9c6d8; --c-p43: #b07fe8; --c-fr: #7fc4e0;
     --c-apop: #ff5a5e; --c-surv: #4caf6d; --c-nec: #ff8a5e;
   }
   .hero h1 { max-width: 26ch; }
@@ -57,6 +57,29 @@
   .disc-table { width: 100%; border-collapse: collapse; font-size: .85rem; margin: 12px 0 18px; }
   .disc-table th, .disc-table td { border: 1px solid var(--rule); padding: 7px 10px; text-align: left; vertical-align: top; }
   .disc-table th { background: var(--paper-deep); font-size: .76rem; text-transform: uppercase; letter-spacing: .04em; color: var(--mute); }
+  /* isoform cards */
+  .iso-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(248px, 1fr)); gap: 13px; margin: 16px 0 10px; }
+  .iso-card { background: var(--sheet); border: 1px solid var(--rule); border-radius: var(--radius, 2px); padding: 12px 14px; }
+  .iso-card h3 { margin: 0; font-size: .95rem; display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+  .iso-size { font-size: .76rem; color: var(--mute); font-weight: 400; }
+  .iso-bar { display: flex; margin: 11px 0 3px; height: 24px; border: 1px solid var(--rule); overflow: hidden; }
+  .iso-dom { display: flex; align-items: center; justify-content: center; font-size: .68rem; letter-spacing: .03em; border-right: 1px solid var(--rule); white-space: nowrap; }
+  .iso-dom:last-child { border-right: 0; }
+  .iso-ded { background: color-mix(in srgb, var(--c-fadd) 22%, transparent); flex: 3; }
+  .iso-ded2 { background: color-mix(in srgb, var(--c-fadd) 22%, transparent); flex: 2.5; }
+  .iso-psd { background: color-mix(in srgb, var(--c-fl) 20%, transparent); flex: 4.5; }
+  .iso-psd2 { background: color-mix(in srgb, var(--c-fl) 30%, transparent); flex: 2; }
+  .iso-tail { background: color-mix(in srgb, var(--c-fs) 24%, transparent); flex: 1; }
+  .iso-tail-r { background: color-mix(in srgb, var(--c-fr) 24%, transparent); flex: 1; }
+  .iso-stub { background: color-mix(in srgb, var(--c-p43) 26%, transparent); flex: .6; }
+  .iso-cleav { position: relative; height: 15px; }
+  .iso-tick { position: absolute; top: 0; font-size: .66rem; color: var(--mute); transform: translateX(-50%); white-space: nowrap; }
+  .iso-tick::before { content: ''; position: absolute; left: 50%; top: -4px; width: 1px; height: 7px; background: var(--rule-strong); }
+  .iso-card p { font-size: .85rem; line-height: 1.5; margin: 8px 0 0; }
+  .iso-card p em { color: var(--mute); font-style: italic; }
+  .iso-load { margin-top: 10px; background: var(--paper); color: var(--ink); border: 1px solid var(--rule); border-radius: var(--radius, 2px); padding: 5px 9px; font-size: .78rem; cursor: pointer; font-family: var(--sans); }
+  .iso-load:hover { border-color: var(--rule-strong); }
+  .iso-note { font-size: .84rem; color: var(--mute); line-height: 1.55; margin: 10px 0 0; }
 </style>
 <link rel="stylesheet" href="../themes/theme-02/dark.css">
 </head>
@@ -68,6 +91,7 @@
     <a class="home" href="https://graph.johnnykuo.com/#reader">← Back</a>
     <div class="nav-links">
       <a href="#explorer">Explorer</a>
+      <a href="#isoforms">Isoforms</a>
       <a href="#model">Model</a>
       <a href="#sources">Sources</a>
     </div>
@@ -94,6 +118,7 @@
     <p>Contents</p>
     <ol>
       <li><a href="#explorer">Explorer</a></li>
+      <li><a href="#isoforms">Isoforms</a></li>
       <li><a href="#model">Model</a></li>
       <li><a href="#sources">Sources</a></li>
     </ol>
@@ -174,6 +199,210 @@
       </div>
     </div>
   </div>
+</section>
+
+<section id="isoforms">
+  <p class="sec-label">Isoforms</p>
+  <h2>One <em>CFLAR</em> locus, three proteins — plus two that only exist after cleavage</h2>
+  <p>
+    The explorer above treats c-FLIP as two species, c-FLIP<sub>L</sub> and c-FLIP<sub>S/R</sub>. That collapse is
+    convenient and defensible, but it hides three facts that matter for reading the model: the human gene
+    <em>CFLAR</em> (2q33–q34, next to <em>CASP8</em> and <em>CASP10</em>) encodes at least 13 splice transcripts
+    of which three are translated — c-FLIP<sub>L</sub> (55 kDa), c-FLIP<sub>S</sub> (27 kDa) and c-FLIP<sub>R</sub>
+    (25 kDa); all three share the same tandem death effector domains (DED1 + DED2) and differ only at the
+    C-terminus; and two further proteins, p43-FLIP and p22-FLIP, are not splice products at all but caspase-8
+    cleavage fragments of c-FLIP<sub>L</sub>. The isoform composition of a cell, not its total c-FLIP, is what
+    the DISC reads out.
+  </p>
+
+  <div class="iso-cards">
+    <article class="iso-card">
+      <h3>c-FLIP<sub>L</sub> <span class="iso-size">55 kDa · human, mouse</span></h3>
+      <div class="iso-bar" role="img" aria-label="c-FLIP_L: two death effector domains followed by a catalytically dead p20 and p12 caspase-like domain">
+        <span class="iso-dom iso-ded">DED1</span><span class="iso-dom iso-ded2">DED2</span><span class="iso-dom iso-psd">p20</span><span class="iso-dom iso-psd2">p12</span>
+      </div>
+      <div class="iso-cleav" aria-hidden="true">
+        <span class="iso-tick" style="left:46%">D196 → p22</span>
+        <span class="iso-tick" style="left:83%">D376 → p43</span>
+      </div>
+      <p>
+        Two DEDs plus a caspase-like domain whose catalytic residues are substituted, so it cleaves nothing.
+        It is nonetheless the only isoform that <em>activates</em> procaspase-8: the c-FLIP<sub>L</sub>/procaspase-8
+        heterodimer is a more efficient activator of the first cleavage step than procaspase-8 alone, and the
+        pseudo-protease domain is what lets that heterodimer cleave RIPK1. This is the isoform that restrains
+        necroptosis — and, at high local concentration, the one that blocks full caspase-8 maturation.
+      </p>
+      <button class="iso-load" data-load="L">Load into explorer</button>
+      <p class="iso-note">Explorer readout at these settings: <strong>apoptosis</strong> — a physiological c-FLIP<sub>L</sub> level does not block the platform, it accelerates the first cleavage step of procaspase-8.</p>
+    </article>
+
+    <article class="iso-card">
+      <h3>c-FLIP<sub>S</sub> <span class="iso-size">27 kDa · human only</span></h3>
+      <div class="iso-bar" role="img" aria-label="c-FLIP_S: two death effector domains followed by a short 19-residue tail">
+        <span class="iso-dom iso-ded">DED1</span><span class="iso-dom iso-ded2">DED2</span><span class="iso-dom iso-tail">19 aa</span>
+      </div>
+      <div class="iso-cleav" aria-hidden="true">
+        <span class="iso-tick" style="left:92%">D196 → p22</span>
+      </div>
+      <p>
+        The same DEDs, a 19-residue C-terminal tail, no caspase-like domain — a pure inhibitor. It occupies
+        FADD DED sites and blocks procaspase-8 dimerisation without activating it, and it cannot cleave RIPK1.
+        Apoptosis off with RIPK1 unopposed is exactly the necroptosis-permissive configuration, and c-FLIP<sub>S</sub>
+        is the isoform that creates it.
+      </p>
+      <button class="iso-load" data-load="S">Load into explorer</button>
+      <p class="iso-note">Explorer readout at these settings: <strong>necroptosis-permissive</strong> — apoptosis off, RIPK1 unopposed. Note that this needs a dominant short isoform <em>relative to the number of activated receptors</em>: at high ligand the same amount of c-FLIP<sub>S</sub> is diluted across more DISC sites.</p>
+    </article>
+
+    <article class="iso-card">
+      <h3>c-FLIP<sub>R</sub> <span class="iso-size">25 kDa · human; the murine short isoform</span></h3>
+      <div class="iso-bar" role="img" aria-label="c-FLIP_R: two death effector domains followed by a distinct C-terminal region">
+        <span class="iso-dom iso-ded">DED1</span><span class="iso-dom iso-ded2">DED2</span><span class="iso-dom iso-tail-r">R tail</span>
+      </div>
+      <p>
+        Not made by the exon-7 splice decision that produces c-FLIP<sub>S</sub>, but by retention of intron 6, so
+        whether a human makes c-FLIP<sub>S</sub> or c-FLIP<sub>R</sub> is fixed by genotype: the
+        <code>rs10190751</code> A allele yields c-FLIP<sub>R</sub>. Its anti-apoptotic activity is indistinguishable
+        from c-FLIP<sub>S</sub>, though its protein level is generally lower, and that genotype has been associated
+        with increased follicular lymphoma risk.
+      </p>
+      <button class="iso-load" data-load="R" title="The explorer lumps c-FLIP_R with c-FLIP_S: same anti-apoptotic activity, so the same input.">Load into explorer</button>
+      <p class="iso-note">Explorer readout: identical to c-FLIP<sub>S</sub>, because the model gives the two short isoforms the same anti-apoptotic behaviour.</p>
+    </article>
+
+    <article class="iso-card">
+      <h3>p43-FLIP <span class="iso-size">43 kDa · fragment of c-FLIP<sub>L</sub></span></h3>
+      <div class="iso-bar" role="img" aria-label="p43-FLIP: two death effector domains plus a truncated caspase-like remnant">
+        <span class="iso-dom iso-ded">DED1</span><span class="iso-dom iso-ded2">DED2</span><span class="iso-dom iso-psd">p20</span>
+      </div>
+      <p>
+        Produced by caspase-8 cleavage of c-FLIP<sub>L</sub> at Asp376 (Asp377 in the mouse) at the DISC. It recruits
+        TRAF2, activates IKK/NF-κB, raises ERK and caspase-8 activity and supports T-cell survival. This is the
+        species whose behaviour the explorer's p43-FLIP trace reports.
+      </p>
+      <button class="iso-load" data-load="P43">Load into explorer</button>
+      <p class="iso-note">Explorer readout at these settings: <strong>survival via the p43-FLIP/NF-κB branch</strong> — abundant c-FLIP<sub>L</sub> at low ligand saturates the DISC, blocks full caspase-8 processing and lets the c-FLIP<sub>L</sub>/procaspase-8 heterodimer be cleaved to p43-FLIP.</p>
+    </article>
+
+    <article class="iso-card">
+      <h3>p22-FLIP <span class="iso-size">22 kDa · human only</span></h3>
+      <div class="iso-bar" role="img" aria-label="p22-FLIP: two death effector domains with a short C-terminal remnant">
+        <span class="iso-dom iso-ded">DED1</span><span class="iso-dom iso-ded2">DED2</span><span class="iso-dom iso-stub">stub</span>
+      </div>
+      <p>
+        Cleaved at Asp196, between the DEDs and the caspase-like domain, out of c-FLIP<sub>L</sub> or c-FLIP<sub>S</sub>.
+        It acts in death-receptor-independent signalling, complexing with FADD and RIPK1 and promoting RIPK1
+        ubiquitylation, which feeds IKK activation. Asp196 exists only in human c-FLIP<sub>L</sub>, so mice make no
+        p22-FLIP.
+      </p>
+      <p class="iso-note">No explorer input for this one: the model has no p22-FLIP species, so this route is described but not simulated.</p>
+    </article>
+  </div>
+
+  <h3>The comparison the explorer stands in for</h3>
+  <table class="disc-table">
+    <tr><th>Isoform</th><th>Size</th><th>C-terminus</th><th>Effect on procaspase-8</th><th>RIPK1</th><th>Turnover</th><th>Species</th></tr>
+    <tr><td>c-FLIP<sub>L</sub></td><td>55 kDa</td><td>pseudo-protease p20 + p12, catalytically dead</td><td>activates the first cleavage step at low local concentration; blocks full processing at high concentration</td><td>cleaved by the caspase-8/c-FLIP<sub>L</sub> heterodimer</td><td>≈3 h</td><td>human, mouse</td></tr>
+    <tr><td>c-FLIP<sub>S</sub></td><td>27 kDa</td><td>19-residue tail</td><td>blocks dimerisation and activation</td><td>not cleaved</td><td>≈30 min</td><td>human only</td></tr>
+    <tr><td>c-FLIP<sub>R</sub></td><td>25 kDa</td><td>distinct C-terminus (intron 6 retention)</td><td>blocks dimerisation and activation</td><td>not cleaved</td><td>lower abundance than c-FLIP<sub>S</sub>; separate half-life not established here</td><td>human; a murine counterpart is the only murine short isoform</td></tr>
+    <tr><td>p43-FLIP</td><td>43 kDa</td><td>fragment of c-FLIP<sub>L</sub> at D376 (mouse D377)</td><td>holds caspase-8 in a partially processed state and raises its activity</td><td>—</td><td>short-lived</td><td>human, mouse</td></tr>
+    <tr><td>p22-FLIP</td><td>22 kDa</td><td>fragment at D196 of c-FLIP<sub>L</sub> or c-FLIP<sub>S</sub></td><td>—</td><td>promotes RIPK1 ubiquitylation in DR-independent signalling</td><td>—</td><td>human only</td></tr>
+  </table>
+  <p class="iso-note">
+    Turnover figures are the values reported in the 2026 isoform review; the explorer's own degradation constants
+    (120 min for c-FLIP<sub>L</sub>, 40 min for c-FLIP<sub>S/R</sub>) come from a different measurement cited by
+    Toivonen et al. 2011. Both sets make the short forms several-fold faster-turning-over than c-FLIP<sub>L</sub>
+    (3× in the model, 6× in the review), which is the ordering the model depends on; the absolute values differ,
+    and neither is a measurement.
+  </p>
+
+  <h3>How the isoform ratio is set</h3>
+  <p>
+    Alternative splicing of exon 7 decides whether translation continues into the caspase-like domain
+    (c-FLIP<sub>L</sub>) or stops early, leaving the 19-residue tail (c-FLIP<sub>S</sub>); retention of intron 6
+    generates c-FLIP<sub>R</sub>. Because both outcomes are drawn from the same transcript pool, the decisive
+    quantity is a <em>ratio</em>, and the strongest in vivo evidence comes from a strain difference rather than from
+    a cell line: the wild-derived MSM mouse carries a 21-bp insertion in the 3′ UTR of exon 5 of <em>Cflar</em> that
+    biases splicing toward c-FLIP<sub>L</sub> in hepatocytes, and the mice are resistant to Fas-receptor-mediated
+    liver failure, with caspase-8 held in its partially processed p43 form instead of being matured to p20/p10.
+    Upstream, <em>CFLAR</em> transcription is driven by NF-κB, NFAT and Sp1 and repressed by c-Myc and FOXO3a,
+    so inflammatory signalling raises total c-FLIP and, depending on the splicing machinery, changes its composition.
+  </p>
+
+  <h3>What each isoform does once it reaches the DISC</h3>
+  <p>
+    c-FLIP and procaspase-8 do not compete for the same surface on FADD: c-FLIP binds the α1/α4 face and
+    procaspase-8 the α2/α5 face of the FADD DED. c-FLIP therefore occupies sites efficiently despite being far
+    scarcer than procaspase-8 in the cell, which is why site ratios — not bulk concentrations — decide the outcome.
+    Long and short isoforms also act as checkpoints on DED filament assembly: they interrupt the caspase-8
+    filaments that a DED scaffold would otherwise build.
+  </p>
+  <p>
+    Read isoform by isoform, the picture is coherent. c-FLIP<sub>L</sub> at physiological levels is
+    <em>pro-apoptotic</em>, because the heterodimer it forms with procaspase-8 is a better activator of the first
+    cleavage step than procaspase-8 alone; at high local concentration it becomes anti-apoptotic, because it
+    saturates the platform and prevents full caspase-8 processing, and its cleavage products then carry the
+    NF-κB/ERK survival signal. c-FLIP<sub>S</sub> and c-FLIP<sub>R</sub> are one-directional: they block
+    procaspase-8 activation and cannot cleave RIPK1, so they leave the RIPK1–RIPK3–MLKL axis unopposed. p43-FLIP
+    turns the blocked complex into a signalling platform, and p22-FLIP does the same for RIPK1 in
+    death-receptor-independent signalling.
+  </p>
+
+  <h3>Turnover and post-translational control</h3>
+  <p>
+    All isoforms are short-lived and degraded through the ubiquitin–proteasome system, which is what makes the
+    ratio adjustable on a minutes-to-hours timescale. Lys192 and Lys195 are the critical ubiquitin acceptors that
+    set c-FLIP<sub>S</sub> turnover; phosphorylation at Ser193, a site present in every isoform, reduces
+    ubiquitylation and stabilises c-FLIP<sub>S</sub> and c-FLIP<sub>R</sub>; reactive oxygen species drive
+    Thr166 phosphorylation and Lys167 ubiquitylation of c-FLIP<sub>L</sub>; S-nitrosylation at Cys254/Cys259
+    blocks its ubiquitylation; and the E3 ligases are context-dependent — Itch downstream of JNK1 for c-FLIP<sub>L</sub>,
+    Cbl for c-FLIP<sub>S</sub>, with MIB1, TRAF7 and CHIP reported in other settings. The same sites that set
+    degradation also sit on the NF-κB-facing surface: DED1 is the binding site for NEMO/IKKγ in all FLIP proteins.
+  </p>
+
+  <h3>Species differences that block a direct mouse-to-human reading</h3>
+  <p>
+    Mice have no c-FLIP<sub>S</sub>: the exon that produces it does not exist in the mouse genome, and the only
+    murine short isoform is a c-FLIP<sub>R</sub> homologue with an overlapping but distinct C-terminus. Mouse
+    c-FLIP<sub>L</sub> carries Asp377 where human c-FLIP<sub>L</sub> carries Asp376, so p43-FLIP exists in both
+    species, but Asp196 is human-specific and p22-FLIP does not exist in mice at all. A result obtained in murine
+    cells is therefore a statement about c-FLIP<sub>L</sub> plus a murine c-FLIP<sub>R</sub>, not about the
+    human c-FLIP<sub>L</sub>/c-FLIP<sub>S</sub>/c-FLIP<sub>R</sub> triad.
+  </p>
+
+  <h3>What the explorer does and does not model</h3>
+  <ul>
+    <li>c-FLIP<sub>S</sub> and c-FLIP<sub>R</sub> share one slider because their anti-apoptotic activity is
+      indistinguishable in the published comparison; their different abundances, splicing control and turnover are
+      not represented.</li>
+    <li>p43-FLIP appears as a <em>readout</em> of c-FLIP<sub>L</sub>–procaspase-8 adjacency, not as an independent
+      species with its own recruitment; p22-FLIP and its RIPK1-ubiquitylation route are absent entirely.</li>
+    <li>Both isoforms compete for the same FADD sites with a single on-rate hierarchy, so the model cannot express
+      the distinct FADD DED surfaces (α1/α4 versus α2/α5) or the filament-checkpoint behaviour of the two isoform
+      classes.</li>
+    <li>Nothing in the model sets the isoform ratio: splicing regulation — including the MSM-type allelic shift —
+      and transcription of <em>CFLAR</em> are upstream of the sliders and outside their scope.</li>
+  </ul>
+  <p class="iso-note">
+    Legacy names for the same proteins are still in circulation and appear in the older literature: c-FLIP-α
+    (≈55 kDa) corresponds to c-FLIP<sub>L</sub> and c-FLIP-δ (25–28 kDa) to the short forms; the protein has also
+    been called CASH, CASP8AP1, CLARP, Casper, FLAME, FLIP, I-FLICE, MRIT and usurpin. Viral FLIP proteins
+    (v-FLIP) are the paralogues used as a benchmark: MC159 of molluscum contagiosum carries tandem DEDs and blocks
+    caspase-8, whereas v-FLIP/K13 of KSHV constitutively activates NF-κB and does not block Fas-induced apoptosis.
+  </p>
+  <ul class="disc-legend" style="margin-top:12px">
+    <li style="width:100%">
+      Isoform sources —
+      <a href="https://pubmed.ncbi.nlm.nih.gov/26694384/" target="_blank" rel="noopener noreferrer">Tsuchiya et al. 2015, <em>Int J Mol Sci</em> 16:26232</a> (PMID 26694384) ·
+      <a href="https://pubmed.ncbi.nlm.nih.gov/42020362/" target="_blank" rel="noopener noreferrer">Urbini et al. 2026, <em>Cell Death Dis</em> 17:533</a> (PMID 42020362) ·
+      <a href="https://pubmed.ncbi.nlm.nih.gov/18219316/" target="_blank" rel="noopener noreferrer">Ueffing et al. 2008, <em>Nature</em> 456:660</a> (PMID 18219316) ·
+      <a href="https://pubmed.ncbi.nlm.nih.gov/19439735/" target="_blank" rel="noopener noreferrer">Ueffing et al. 2009, <em>Blood</em> 114:1627</a> (PMID 19439735) ·
+      <a href="https://pubmed.ncbi.nlm.nih.gov/26798068/" target="_blank" rel="noopener noreferrer">Ram et al. 2016, <em>PNAS</em> 113:12487</a> (PMID 26798068) ·
+      <a href="https://pubmed.ncbi.nlm.nih.gov/24275659/" target="_blank" rel="noopener noreferrer">Yu et al. 2014, <em>J Biol Chem</em> 289:1183</a> (PMID 24275659) ·
+      <a href="https://pubmed.ncbi.nlm.nih.gov/31740779/" target="_blank" rel="noopener noreferrer">Kuang et al. 2020, <em>Oncogene</em> 39:418</a> (PMID 31740779) ·
+      <a href="https://pubmed.ncbi.nlm.nih.gov/23505065/" target="_blank" rel="noopener noreferrer">c-FLIP<sub>R</sub> in T-cell activation, <em>Eur J Immunol</em> 43:2197</a> (PMID 23505065)
+    </li>
+  </ul>
 </section>
 
 <section id="model">
@@ -471,6 +700,17 @@ const PRESETS = {
 };
 document.querySelectorAll('#presets button').forEach(b => b.addEventListener('click', () => {
   writeInputs(PRESETS[b.dataset.p]); refreshLabels(); phaseDirty = true; update();
+}));
+/* isoform cards -> explorer. c-FLIP_R and c-FLIP_S share a slider: same anti-apoptotic activity. */
+const ISO_LOAD = {
+  L: { FL: 320, FS: 0, C8: 30000, L: 200 },
+  S: { FL: 0, FS: 6400, C8: 30000, L: 30 },
+  R: { FL: 0, FS: 6400, C8: 30000, L: 30 },
+  P43: { FL: 6400, FS: 0, C8: 30000, L: 30 }
+};
+document.querySelectorAll('.iso-load').forEach(b => b.addEventListener('click', () => {
+  writeInputs(ISO_LOAD[b.dataset.load]); refreshLabels(); phaseDirty = true; update();
+  $('explorer').scrollIntoView({ behavior: 'smooth' });
 }));
 [els.flL, els.flS, els.c8, els.lig].forEach(s => s.addEventListener('input', () => { refreshLabels(); phaseDirty = true; update(); }));
 $('run').addEventListener('click', () => { playing = !playing; $('run').textContent = playing ? 'Pause' : 'Play'; });
