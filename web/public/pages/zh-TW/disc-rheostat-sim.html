@@ -20,12 +20,12 @@
 <style>
   :root {
     --c-c8: #2f8f4e; --c-fl: #a8791f; --c-fs: #c1562c; --c-fadd: #1d7d70;
-    --c-rec: #6b7684; --c-p43: #7a4fb5;
+    --c-rec: #6b7684; --c-p43: #7a4fb5; --c-fr: #2f6f8f;
     --c-apop: #c1121f; --c-surv: #2f8f4e; --c-nec: #c1562c;
   }
   [data-theme="dark"] {
     --c-c8: #58d68d; --c-fl: #e8a33d; --c-fs: #ffa04d; --c-fadd: #5fe0cc;
-    --c-rec: #b9c6d8; --c-p43: #b07fe8;
+    --c-rec: #b9c6d8; --c-p43: #b07fe8; --c-fr: #7fc4e0;
     --c-apop: #ff5a5e; --c-surv: #4caf6d; --c-nec: #ff8a5e;
   }
   .hero h1 { max-width: 26ch; }
@@ -56,6 +56,29 @@
   .disc-table { width: 100%; border-collapse: collapse; font-size: .85rem; margin: 12px 0 18px; }
   .disc-table th, .disc-table td { border: 1px solid var(--rule); padding: 7px 10px; text-align: left; vertical-align: top; }
   .disc-table th { background: var(--paper-deep); font-size: .76rem; text-transform: uppercase; letter-spacing: .04em; color: var(--mute); }
+  /* 亞型卡片 */
+  .iso-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(248px, 1fr)); gap: 13px; margin: 16px 0 10px; }
+  .iso-card { background: var(--sheet); border: 1px solid var(--rule); border-radius: var(--radius, 2px); padding: 12px 14px; }
+  .iso-card h3 { margin: 0; font-size: .95rem; display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+  .iso-size { font-size: .76rem; color: var(--mute); font-weight: 400; }
+  .iso-bar { display: flex; margin: 11px 0 3px; height: 24px; border: 1px solid var(--rule); overflow: hidden; }
+  .iso-dom { display: flex; align-items: center; justify-content: center; font-size: .68rem; letter-spacing: .03em; border-right: 1px solid var(--rule); white-space: nowrap; }
+  .iso-dom:last-child { border-right: 0; }
+  .iso-ded { background: color-mix(in srgb, var(--c-fadd) 22%, transparent); flex: 3; }
+  .iso-ded2 { background: color-mix(in srgb, var(--c-fadd) 22%, transparent); flex: 2.5; }
+  .iso-psd { background: color-mix(in srgb, var(--c-fl) 20%, transparent); flex: 4.5; }
+  .iso-psd2 { background: color-mix(in srgb, var(--c-fl) 30%, transparent); flex: 2; }
+  .iso-tail { background: color-mix(in srgb, var(--c-fs) 24%, transparent); flex: 1; }
+  .iso-tail-r { background: color-mix(in srgb, var(--c-fr) 24%, transparent); flex: 1; }
+  .iso-stub { background: color-mix(in srgb, var(--c-p43) 26%, transparent); flex: .6; }
+  .iso-cleav { position: relative; height: 15px; }
+  .iso-tick { position: absolute; top: 0; font-size: .66rem; color: var(--mute); transform: translateX(-50%); white-space: nowrap; }
+  .iso-tick::before { content: ''; position: absolute; left: 50%; top: -4px; width: 1px; height: 7px; background: var(--rule-strong); }
+  .iso-card p { font-size: .85rem; line-height: 1.5; margin: 8px 0 0; }
+  .iso-card p em { color: var(--mute); font-style: italic; }
+  .iso-load { margin-top: 10px; background: var(--paper); color: var(--ink); border: 1px solid var(--rule); border-radius: var(--radius, 2px); padding: 5px 9px; font-size: .78rem; cursor: pointer; font-family: var(--sans); }
+  .iso-load:hover { border-color: var(--rule-strong); }
+  .iso-note { font-size: .84rem; color: var(--mute); line-height: 1.55; margin: 10px 0 0; }
 </style>
 <link rel="stylesheet" href="../themes/theme-02/dark.css">
 </head>
@@ -67,6 +90,7 @@
     <a class="home" href="https://graph.johnnykuo.com/#reader">← 返回</a>
     <div class="nav-links">
       <a href="#explorer">探索器</a>
+      <a href="#isoforms">亞型</a>
       <a href="#model">模型</a>
       <a href="#sources">出處</a>
     </div>
@@ -91,6 +115,7 @@
     <p>目錄</p>
     <ol>
       <li><a href="#explorer">探索器</a></li>
+      <li><a href="#isoforms">亞型</a></li>
       <li><a href="#model">模型</a></li>
       <li><a href="#sources">出處</a></li>
     </ol>
@@ -167,6 +192,187 @@
       </div>
     </div>
   </div>
+</section>
+
+<section id="isoforms">
+  <p class="sec-label">亞型</p>
+  <h2>一個 <em>CFLAR</em> 基因座、三種蛋白質，加上兩種只在切割後才存在的片段</h2>
+  <p>
+    探索器把 c-FLIP 當成兩個物種處理，即 c-FLIP<sub>L</sub> 與 c-FLIP<sub>S/R</sub>。這樣的簡化既方便也站得住腳，
+    但它掩蓋了三件對判讀模型很重要的事：人類基因 <em>CFLAR</em>（2q33–q34，鄰接 <em>CASP8</em> 與 <em>CASP10</em>）
+    至少產生 13 種剪接轉錄本，其中三種會被轉譯——c-FLIP<sub>L</sub>（55 kDa）、c-FLIP<sub>S</sub>（27 kDa）與
+    c-FLIP<sub>R</sub>（25 kDa）；三者共用同一組串聯死亡效應子域（DED1 + DED2），差異只在 C 端；此外還有兩種蛋白質，
+    p43-FLIP 與 p22-FLIP，它們不是剪接產物，而是 c-FLIP<sub>L</sub> 的 caspase-8 切割片段。DISC 所讀出的，
+    是細胞的亞型組成，而非 c-FLIP 的總量。
+  </p>
+
+  <div class="iso-cards">
+    <article class="iso-card">
+      <h3>c-FLIP<sub>L</sub> <span class="iso-size">55 kDa · 人類、小鼠</span></h3>
+      <div class="iso-bar" role="img" aria-label="c-FLIP_L：兩個死亡效應子域，接著是催化殘基失活、以 p20 與 p12 組成的類 caspase 結構域">
+        <span class="iso-dom iso-ded">DED1</span><span class="iso-dom iso-ded2">DED2</span><span class="iso-dom iso-psd">p20</span><span class="iso-dom iso-psd2">p12</span>
+      </div>
+      <div class="iso-cleav" aria-hidden="true">
+        <span class="iso-tick" style="left:46%">D196 → p22</span>
+        <span class="iso-tick" style="left:83%">D376 → p43</span>
+      </div>
+      <p>
+        兩個 DED 加上一個催化殘基遭替換的類 caspase 結構域，因此它本身不切割任何底物。但它卻是唯一能
+        <em>活化</em> procaspase-8 的亞型：c-FLIP<sub>L</sub>／procaspase-8 異二聚體對 procaspase-8 第一步切割的
+        催化效率高於 procaspase-8 自身；而正是這個偽蛋白酶結構域讓該異二聚體得以切割 RIPK1。抑制壞死性凋亡的是這個亞型；
+        反過來，在局部濃度過高時，阻斷 caspase-8 完全成熟（maturation）的也是它。
+      </p>
+      <button class="iso-load" data-load="L">載入探索器</button>
+      <p class="iso-note">在此設定下的探索器判讀：<strong>凋亡</strong>——生理量的 c-FLIP<sub>L</sub> 並不會阻斷平台，反而加速 procaspase-8 的第一步切割。</p>
+    </article>
+
+    <article class="iso-card">
+      <h3>c-FLIP<sub>S</sub> <span class="iso-size">27 kDa · 僅人類</span></h3>
+      <div class="iso-bar" role="img" aria-label="c-FLIP_S：兩個死亡效應子域，接著是 19 個胺基酸的短尾端">
+        <span class="iso-dom iso-ded">DED1</span><span class="iso-dom iso-ded2">DED2</span><span class="iso-dom iso-tail">19 aa</span>
+      </div>
+      <div class="iso-cleav" aria-hidden="true">
+        <span class="iso-tick" style="left:92%">D196 → p22</span>
+      </div>
+      <p>
+        同樣的 DED、19 個胺基酸的 C 端尾端、沒有類 caspase 結構域——純粹的抑制者。它占據 FADD 的 DED 位點，
+        阻斷 procaspase-8 的二聚化卻不活化它，同時也無法切割 RIPK1。凋亡被關閉而 RIPK1 不受抑制，
+        正是壞死性凋亡許可的組合，而造成此組合的就是 c-FLIP<sub>S</sub>。
+      </p>
+      <button class="iso-load" data-load="S">載入探索器</button>
+      <p class="iso-note">在此設定下的探索器判讀：<strong>壞死性凋亡許可</strong>——凋亡關閉，RIPK1 不受抑制。
+        請注意這需要短亞型相對於「已活化受體數」佔優勢：配體較高時，同樣數量的 c-FLIP<sub>S</sub> 會被稀釋到更多 DISC 位點上。</p>
+    </article>
+
+    <article class="iso-card">
+      <h3>c-FLIP<sub>R</sub> <span class="iso-size">25 kDa · 人類；小鼠的短亞型</span></h3>
+      <div class="iso-bar" role="img" aria-label="c-FLIP_R：兩個死亡效應子域，接著是特有的 C 端區域">
+        <span class="iso-dom iso-ded">DED1</span><span class="iso-dom iso-ded2">DED2</span><span class="iso-dom iso-tail-r">R 尾端</span>
+      </div>
+      <p>
+        它不是由產生 c-FLIP<sub>S</sub> 的外顯子 7 剪接決定所形成，而是來自內含子 6 的保留，因此人類表現
+        c-FLIP<sub>S</sub> 還是 c-FLIP<sub>R</sub> 由基因型決定：<code>rs10190751</code> 的 A 等位基因會產生
+        c-FLIP<sub>R</sub>。它的抗凋亡活性與 c-FLIP<sub>S</sub> 沒有可區分的差異，但蛋白質含量一般較低；
+        而產生它的該等位基因與濾泡性淋巴瘤風險增加有關。
+      </p>
+      <button class="iso-load" data-load="R" title="探索器將 c-FLIP_R 與 c-FLIP_S 合併：兩者抗凋亡活性相同，因此輸入設定相同。">載入探索器</button>
+      <p class="iso-note">探索器判讀與 c-FLIP<sub>S</sub> 相同，因為模型賦予兩種短亞型相同的抗凋亡行為。</p>
+    </article>
+
+    <article class="iso-card">
+      <h3>p43-FLIP <span class="iso-size">43 kDa · c-FLIP<sub>L</sub> 的片段</span></h3>
+      <div class="iso-bar" role="img" aria-label="p43-FLIP：兩個死亡效應子域，加上截短的類 caspase 殘段">
+        <span class="iso-dom iso-ded">DED1</span><span class="iso-dom iso-ded2">DED2</span><span class="iso-dom iso-psd">p20</span>
+      </div>
+      <p>
+        由 caspase-8 在 DISC 上切割 c-FLIP<sub>L</sub> 的 Asp376（小鼠為 Asp377）所產生。它招募 TRAF2、活化 IKK／NF-κB，
+        提高 ERK 與 caspase-8 活性，並支持 T 細胞存活。探索器的 p43-FLIP 軌跡所呈現的，正是這個物種的行為。
+      </p>
+      <button class="iso-load" data-load="P43">載入探索器</button>
+      <p class="iso-note">在此設定下的探索器判讀：<strong>透過 p43-FLIP／NF-κB 分支的存活</strong>——低配體下過量的 c-FLIP<sub>L</sub> 占滿 DISC，
+        阻斷 caspase-8 的完全處理，同時讓 c-FLIP<sub>L</sub>／procaspase-8 異二聚體被切割成 p43-FLIP。</p>
+    </article>
+
+    <article class="iso-card">
+      <h3>p22-FLIP <span class="iso-size">22 kDa · 僅人類</span></h3>
+      <div class="iso-bar" role="img" aria-label="p22-FLIP：兩個死亡效應子域，加上短小的 C 端殘段">
+        <span class="iso-dom iso-ded">DED1</span><span class="iso-dom iso-ded2">DED2</span><span class="iso-dom iso-stub">殘段</span>
+      </div>
+      <p>
+        在 DED 與類 caspase 結構域之間的 Asp196 被切割所產生，來源可以是 c-FLIP<sub>L</sub> 或 c-FLIP<sub>S</sub>。
+        它作用於死亡受體非依賴型的訊號傳遞：與 FADD 及 RIPK1 形成複合體並促進 RIPK1 的泛素化，進而活化 IKK。
+        Asp196 僅存在於人類的 c-FLIP<sub>L</sub>，因此小鼠不會產生 p22-FLIP。
+      </p>
+      <p class="iso-note">此者沒有對應的探索器輸入：模型中沒有 p22-FLIP 這個物種，因此這條路徑只做說明而未模擬。</p>
+    </article>
+  </div>
+
+  <h3>探索器所代表的比較表</h3>
+  <table class="disc-table">
+    <tr><th>亞型</th><th>大小</th><th>C 端</th><th>對 procaspase-8 的作用</th><th>RIPK1</th><th>周轉率</th><th>物種</th></tr>
+    <tr><td>c-FLIP<sub>L</sub></td><td>55 kDa</td><td>偽蛋白酶 p20 + p12，催化殘基失活</td><td>局部濃度低時活化第一步切割；局部濃度高時阻斷完全處理</td><td>由 caspase-8／c-FLIP<sub>L</sub> 異二聚體切割</td><td>約 3 小時</td><td>人類、小鼠</td></tr>
+    <tr><td>c-FLIP<sub>S</sub></td><td>27 kDa</td><td>19 個胺基酸的尾端</td><td>阻斷二聚化與活化</td><td>不切割</td><td>約 30 分鐘</td><td>僅人類</td></tr>
+    <tr><td>c-FLIP<sub>R</sub></td><td>25 kDa</td><td>特有的 C 端（內含子 6 保留）</td><td>阻斷二聚化與活化</td><td>不切割</td><td>含量低於 c-FLIP<sub>S</sub>；此處未確立其獨立半衰期</td><td>人類；小鼠的對應物是其唯一的短亞型</td></tr>
+    <tr><td>p43-FLIP</td><td>43 kDa</td><td>c-FLIP<sub>L</sub> 在 D376（小鼠 D377）處的片段</td><td>使 caspase-8 維持於部分處理的狀態並提高其活性</td><td>—</td><td>壽命短</td><td>人類、小鼠</td></tr>
+    <tr><td>p22-FLIP</td><td>22 kDa</td><td>c-FLIP<sub>L</sub> 或 c-FLIP<sub>S</sub> 在 D196 處的片段</td><td>—</td><td>在死亡受體非依賴型訊號中促進 RIPK1 泛素化</td><td>—</td><td>僅人類</td></tr>
+  </table>
+  <p class="iso-note">
+    周轉率數值採自 2026 年的亞型綜述；探索器自身使用的降解常數（c-FLIP<sub>L</sub> 為 120 分鐘、c-FLIP<sub>S/R</sub> 為 40 分鐘）
+    則來自 Toivonen 等 2011 引述的另一項量測。兩組數值都讓短亞型的周轉速度快於 c-FLIP<sub>L</sub> 數倍
+    （模型中為 3 倍、綜述中為 6 倍），模型所依賴的正是這個次序；絕對數值彼此不同，且兩者都不是量測結果。
+  </p>
+
+  <h3>亞型比例如何被決定</h3>
+  <p>
+    外顯子 7 的選擇性剪接決定轉譯是否延伸進入類 caspase 結構域（c-FLIP<sub>L</sub>），或提早結束而留下 19 個胺基酸的尾端
+    （c-FLIP<sub>S</sub>）；內含子 6 的保留則產生 c-FLIP<sub>R</sub>。由於兩種結果來自同一批轉錄本，真正具決定性的量是一個
+    <em>比例</em>；而體內最強的證據來自品系差異而非細胞株：野生衍生的 MSM 小鼠帶有一個位於 <em>Cflar</em> 第 5 外顯子
+    3′ UTR 的 21 bp 插入，使肝細胞的剪接偏向 c-FLIP<sub>L</sub>，這些小鼠因此對 Fas 受體介導的肝衰竭具有抵抗性，
+    caspase-8 被維持在其部分處理的 p43 形式，而未成熟為 p20／p10。上游方面，<em>CFLAR</em> 的轉錄由 NF-κB、NFAT 與 Sp1 驅動，
+    並受 c-Myc 與 FOXO3a 抑制，因此發炎訊號會提高 c-FLIP 的總量，並依剪接機制之不同而改變其組成。
+  </p>
+
+  <h3>各亞型抵達 DISC 之後的作用</h3>
+  <p>
+    c-FLIP 與 procaspase-8 並不是爭奪 FADD 的同一個表面：c-FLIP 結合 DED 的 α1/α4 面，procaspase-8 結合 α2/α5 面。
+    因此即使 c-FLIP 在細胞內的數量遠少於 procaspase-8，仍能有效占據位點——這正是「位點比例」而非「總濃度」決定結果的原因。
+    長、短亞型同時也是 DED 纖維（絲狀結構）組裝的檢查點：它們會打斷 DED 骨架原本會形成的 caspase-8 纖維。
+  </p>
+  <p>
+    逐一來看各亞型，整體圖像是一致的。生理濃度的 c-FLIP<sub>L</sub> 是<em>促凋亡</em>的，因為它與 procaspase-8 形成的異二聚體
+    對第一步切割的催化效率高於 procaspase-8 自身；但在局部濃度高時，它轉為抗凋亡，因為它占滿平台、阻止 caspase-8 完全處理，
+    而由其切割產物承接 NF-κB／ERK 的存活訊號。c-FLIP<sub>S</sub> 與 c-FLIP<sub>R</sub> 則是單向的：它們阻斷 procaspase-8 的活化，
+    也無法切割 RIPK1，於是 RIPK1–RIPK3–MLKL 軸不受抑制。p43-FLIP 把被阻斷的複合體轉成訊號平台；p22-FLIP 則在死亡受體非依賴型的
+    訊號傳遞中對 RIPK1 發揮同樣作用。
+  </p>
+
+  <h3>周轉率與轉譯後修飾調控</h3>
+  <p>
+    所有亞型皆壽命短，並經由泛素－蛋白酶體系統降解，這也是比例能在數分鐘至數小時尺度上被調整的原因。
+    Lys192 與 Lys195 是決定 c-FLIP<sub>S</sub> 周轉的關鍵泛素受體；存在於所有亞型的 Ser193 被磷酸化後會降低泛素化，
+    使 c-FLIP<sub>S</sub> 與 c-FLIP<sub>R</sub> 穩定；活性氧促成 c-FLIP<sub>L</sub> 的 Thr166 磷酸化與 Lys167 泛素化；
+    C254／C259 的 S-硝基化會阻斷其泛素化；而 E3 泛素連接酶具有情境相依性——c-FLIP<sub>L</sub> 為 JNK1 下游的 Itch、
+    c-FLIP<sub>S</sub> 為 Cbl，另在其他情境中報告過 MIB1、TRAF7 與 CHIP。與降解相關的位點同時也是面向 NF-κB 的表面：
+    DED1 是所有 FLIP 蛋白與 NEMO／IKKγ 結合的位置。
+  </p>
+
+  <h3>阻礙小鼠結果直接外推至人類的物種差異</h3>
+  <p>
+    小鼠沒有 c-FLIP<sub>S</sub>：產生它的外顯子在小鼠基因組中不存在，而小鼠唯一的短亞型是 c-FLIP<sub>R</sub> 的同源物，
+    其 C 端與之重疊但不完全相同。小鼠 c-FLIP<sub>L</sub> 在人類 Asp376 的位置帶有 Asp377，因此兩物種都有 p43-FLIP；
+    但 Asp196 為人類特有，小鼠完全沒有 p22-FLIP。因此在小鼠細胞得到的結果，是關於 c-FLIP<sub>L</sub> 加上小鼠型 c-FLIP<sub>R</sub> 的陳述，
+    而非關於人類 c-FLIP<sub>L</sub>／c-FLIP<sub>S</sub>／c-FLIP<sub>R</sub> 三元組合的陳述。
+  </p>
+
+  <h3>探索器已納入與未納入的部分</h3>
+  <ul>
+    <li>c-FLIP<sub>S</sub> 與 c-FLIP<sub>R</sub> 共用同一個滑桿，因為在已發表的比較中兩者的抗凋亡活性無可區分；
+      它們不同的含量、剪接調控與周轉率並未建模。</li>
+    <li>p43-FLIP 在模型中是 c-FLIP<sub>L</sub>–procaspase-8 鄰接關係的<em>讀出量</em>，而非具有自身招募行為的獨立物種；
+      p22-FLIP 及其 RIPK1 泛素化路徑則完全缺席。</li>
+    <li>兩個亞型都以同一組結合速率階序與 procaspase-8 競爭同一批 FADD 位點，因此模型無法表現不同的 FADD DED 表面
+      （α1/α4 與 α2/α5），也無法表現兩類亞型在纖維組裝上的檢查點行為。</li>
+    <li>模型中沒有任何機制決定亞型比例：剪接調控——包括 MSM 型的等位基因偏移——以及 <em>CFLAR</em> 的轉錄都位於滑桿上游，不在範圍內。</li>
+  </ul>
+  <p class="iso-note">
+    同一批蛋白質在舊文獻中仍有其他名稱：c-FLIP-α（約 55 kDa）對應 c-FLIP<sub>L</sub>，c-FLIP-δ（25–28 kDa）對應短型；
+    此蛋白質也曾被稱為 CASH、CASP8AP1、CLARP、Casper、FLAME、FLIP、I-FLICE、MRIT 與 usurpin。病毒 FLIP 蛋白（v-FLIP）
+    則是可供對照的平行物：傳染性軟疣病毒的 MC159 帶有串聯 DED 並阻斷 caspase-8，而卡波西肉瘤相關疱疹病毒（KSHV）的
+    v-FLIP/K13 則持續活化 NF-κB，且不阻斷 Fas 誘導的凋亡。
+  </p>
+  <ul class="disc-legend" style="margin-top:12px">
+    <li style="width:100%">
+      亞型文獻來源 —
+      <a href="https://pubmed.ncbi.nlm.nih.gov/26694384/" target="_blank" rel="noopener noreferrer">Tsuchiya 等 2015，<em>Int J Mol Sci</em> 16:26232</a>（PMID 26694384）·
+      <a href="https://pubmed.ncbi.nlm.nih.gov/42020362/" target="_blank" rel="noopener noreferrer">Urbini 等 2026，<em>Cell Death Dis</em> 17:533</a>（PMID 42020362）·
+      <a href="https://pubmed.ncbi.nlm.nih.gov/18219316/" target="_blank" rel="noopener noreferrer">Ueffing 等 2008，<em>Nature</em> 456:660</a>（PMID 18219316）·
+      <a href="https://pubmed.ncbi.nlm.nih.gov/19439735/" target="_blank" rel="noopener noreferrer">Ueffing 等 2009，<em>Blood</em> 114:1627</a>（PMID 19439735）·
+      <a href="https://pubmed.ncbi.nlm.nih.gov/26798068/" target="_blank" rel="noopener noreferrer">Ram 等 2016，<em>PNAS</em> 113:12487</a>（PMID 26798068）·
+      <a href="https://pubmed.ncbi.nlm.nih.gov/24275659/" target="_blank" rel="noopener noreferrer">Yu 等 2014，<em>J Biol Chem</em> 289:1183</a>（PMID 24275659）·
+      <a href="https://pubmed.ncbi.nlm.nih.gov/31740779/" target="_blank" rel="noopener noreferrer">Kuang 等 2020，<em>Oncogene</em> 39:418</a>（PMID 31740779）·
+      <a href="https://pubmed.ncbi.nlm.nih.gov/23505065/" target="_blank" rel="noopener noreferrer">c-FLIP<sub>R</sub> 與 T 細胞活化，<em>Eur J Immunol</em> 43:2197</a>（PMID 23505065）
+    </li>
+  </ul>
 </section>
 
 <section id="model">
@@ -453,6 +659,17 @@ const PRESETS = {
 };
 document.querySelectorAll('#presets button').forEach(b => b.addEventListener('click', () => {
   writeInputs(PRESETS[b.dataset.p]); refreshLabels(); phaseDirty = true; update();
+}));
+/* 亞型卡片 → 探索器。c-FLIP_R 與 c-FLIP_S 共用一個滑桿：抗凋亡活性相同。 */
+const ISO_LOAD = {
+  L: { FL: 320, FS: 0, C8: 30000, L: 200 },
+  S: { FL: 0, FS: 6400, C8: 30000, L: 30 },
+  R: { FL: 0, FS: 6400, C8: 30000, L: 30 },
+  P43: { FL: 6400, FS: 0, C8: 30000, L: 30 }
+};
+document.querySelectorAll('.iso-load').forEach(b => b.addEventListener('click', () => {
+  writeInputs(ISO_LOAD[b.dataset.load]); refreshLabels(); phaseDirty = true; update();
+  $('explorer').scrollIntoView({ behavior: 'smooth' });
 }));
 [els.flL, els.flS, els.c8, els.lig].forEach(s => s.addEventListener('input', () => { refreshLabels(); phaseDirty = true; update(); }));
 $('run').addEventListener('click', () => { playing = !playing; $('run').textContent = playing ? '暫停' : '播放'; });
