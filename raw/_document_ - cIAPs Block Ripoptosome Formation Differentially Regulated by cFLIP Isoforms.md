@@ -26,17 +26,66 @@ type: "document"
 
 ## Abstract
 
-The intracellular regulation of cell death pathways by cIAPs has been enigmatic. Here we show that loss of cIAPs promotes the spontaneous formation of an intracellular platform that activates either apoptosis or necroptosis. This 2 MDa intracellular complex that we designate “Ripoptosome” is necessary but not sufficient for cell death. It contains RIP1, [[FADD]], caspase-8, caspase-10, and caspase inhibitor cFLIP isoforms. [[c-FLIP|cFLIPL]] prevents Ripoptosome formation, whereas, intriguingly, [[c-FLIP|cFLIPS]] promotes Ripoptosome assembly. When cIAPs are absent, caspase activity is the “rheostat” that is controlled by cFLIP isoforms in the Ripoptosome and decides if cell death occurs by [[RIPK3|RIP3]]-dependent necroptosis or caspase-dependent apoptosis. RIP1 is the core component of the complex. As exemplified by our studies for TLR3 activation, our data argue that the Ripoptosome critically influences the outcome of membrane-bound receptor triggering. The differential quality of cell death mediated by the Ripoptosome may cause important pathophysiological consequences during inflammatory responses.
+The intracellular regulation of cell death pathways by cIAPs has been enigmatic. ==Here we show that loss of cIAPs promotes the spontaneous formation of an intracellular platform that activates either apoptosis or necroptosis.== This 2 MDa intracellular complex that we designate “Ripoptosome” is necessary but not sufficient for cell death. It contains RIP1, [[FADD]], caspase-8, caspase-10, and caspase inhibitor cFLIP isoforms. [[c-FLIP|cFLIPL]] prevents Ripoptosome formation, whereas, intriguingly, [[c-FLIP|cFLIPS]] promotes Ripoptosome assembly. ==When cIAPs are absent, caspase activity is the “rheostat” that is controlled by cFLIP isoforms in the Ripoptosome and decides if cell death occurs by [[RIPK3|RIP3]]-dependent necroptosis or caspase-dependent apoptosis.== RIP1 is the core component of the complex. As exemplified by our studies for TLR3 activation, our data argue that the Ripoptosome critically influences the outcome of membrane-bound receptor triggering. The differential quality of cell death mediated by the Ripoptosome may cause important pathophysiological consequences during inflammatory responses.
+
+## Updates since 2011
+
+> [!info] Scope of this update
+> Compiled by web search on 19 November 2026 from indexed abstracts, reviews, and clinical reports. Claims are attributed to their sources; quantitative values are stated only where the source reports them. Primary data behind the 2011 paper were not re-analysed.
+
+### The ripoptosome concept was absorbed into the TNF receptor 1 complex II framework
+
+The 2011 nomenclature has not been retained in its original sense. ==Current usage of “ripoptosome” refers most often to the TNF receptor 1 complex II assembly (RIPK1–FADD–caspase-8–cFLIP), which assembles when cIAP1/2-mediated ubiquitination of RIPK1 is blocked;== the 2 MDa, TNF-independent platform characterised here is described in reviews as a complex IIb-type variant or as a TRIF-recruited necrosome (Kashkar and Pasparakis, *Molecular Cell* 2025; Newton et al., *Cell* 2024; *Frontiers in Immunology* 2026, necroptosis network review). The paper's central mechanistic claims — loss of cIAPs licenses a RIPK1 scaffold complex, and caspase-8 activity within that complex is the switch between apoptosis and necroptosis — are retained in current models of TNF signalling.
+
+### cFLIP isoform mechanism is now defined structurally
+
+Cryo-EM of the FADD–caspase-8 complex (Fox et al., *Nature Communications* 2021) and of death effector domain assembly in FADD–procaspase-8–cFLIP complexes (Yang et al., *Nature Communications* 2024) provide a structural basis for the differential behaviour reported here: cFLIPS perturbs caspase-8 DED filament formation, while cFLIPL–caspase-8 heterodimers retain catalytic activity at a level sufficient for selected substrate cleavage (including RIPK1) but not for full caspase-8 activation. This supports the “rheostat” framing of the 2011 paper at the structural level.
+
+### In vivo genetics refine the isoform claims
+
+Shaw et al. (*PNAS* 2025;122:e2415992122) reported that FLIP(L) permits apoptotic and inflammatory signalling and inhibits necroptosis in mice without caspase-8 oligomerization, consistent with the 2011 conclusion that cFLIPL restrains necroptosis while allowing limited caspase activity. Newton et al. (*Cell Death & Differentiation* 2025) reported that cFLIP suppresses caspase-1- and MLKL-independent perinatal lethality driven by auto-processing-impaired caspase-8 D387A. The 2011 question of how the stoichiometric ratio of cFLIPL and cFLIPS sets the outcome remains unresolved and is now usually framed as the ratio of caspase-8 to cFLIPL.
+
+### TLR3-induced death is not RIPK1-dependent in most cell types
+
+TLR3- and TLR4-triggered necroptosis generally proceeds through a TRIF–RIPK3 necrosome, with RIPK3 recruited through the TRIF RHIM independently of RIPK1; a RIPK1 requirement has been reported in macrophages but not in fibroblasts or endothelial cells (Kaiser et al. 2013; *Experimental & Molecular Medicine* 2022 review). This qualifies the 2011 observation that RIPK1 knockdown fully protected HaCaT cells from poly(I:C)-induced death: RIPK1 dependence is cell-type specific, and TRIF–RIPK3 can bypass it. TRIF is now itself recognised as a necroptosis scaffold, and its proteasomal turnover terminates TLR3/4 necroptosis (Zfand5-dependent TRIF degradation, *Cell Death & Disease* 2026).
+
+### RIPK1 is not only a scaffold, and RIPK3 detection remains difficult
+
+RIPK1 stabilises the human ZBP1–RIPK3 complex and promotes its polymerisation into detergent-insoluble amyloid structures, and is required for ZBP1-driven necroptosis in human cells (Amusan et al., *PLoS Biology* 2025;23:e3002845). The same polymerised, detergent-insoluble assembly is a reported feature of RIPK3-containing necrosomes, which is consistent with the 2011 report that RIPK3 could not be detected in the ripoptosome by standard immunoprecipitation.
+
+### IAP antagonism in cancer: clinical outcomes
+
+The translational proposal made in 2011 — combining TLR3 agonism with IAP antagonists — remains preclinical; no TLR3 agonist is in clinical use as an anticancer agent. The IAP antagonists themselves have produced limited clinical benefit. Birinapant phase I/II studies reported no complete or partial responses with stable disease as the best response in a minority of patients. Xevinapant (Debio 1143) improved overall survival in a phase 2 study in unresectable locally advanced head and neck squamous cell carcinoma (reported 2022), while an interim analysis of the phase 3 TrilynX study indicated the event-free survival goal was unlikely to be met. The strategy of combining a Smac mimetic with a pan-caspase inhibitor to route cells into necroptosis was explored preclinically (Brumatti et al.) but has not become standard care.
+
+### RIPK1 inhibitors: clinical translation has lagged the mechanism
+
+Necrostatin-1 and Necrostatin-1s remain standard preclinical tools. Clinically, GSK2982772 showed no benefit in rheumatoid arthritis or ulcerative colitis and its development was discontinued; DNL747 was paused in favour of DNL788; SAR443820 produced no clinical benefit in the phase 2 HIMALAYA trial in ALS, with elevated hepatic enzymes as the most common cause, and further development in ALS was not pursued (*Lancet Neurology* 2026;25:900–910). Phase 2 studies of SAR443820 in multiple sclerosis and Alzheimer’s disease continue. The finding of this paper that RIPK1 kinase activity is required for ripoptosome-driven necroptosis has therefore not yet translated into an approved therapy.
+
+### cFLIP has become a therapeutic target in its own right
+
+In B16F10 melanoma, cFLIP knockout removed resistance to TNF-induced apoptosis and prevented tumour growth in immunocompetent mice, whereas ablation of cIAP1/2 or of RIPK1 did not alter melanoma growth (Stachelscheid et al., *Cell Death & Disease* 2026;17:671). This inverts the therapeutic emphasis of the 2011 paper: rather than removing cIAPs to unleash cFLIP-controlled caspase-8 activity, current work targets cFLIP directly to permit it. cFLIP is likewise a dependency in activated B-cell-like diffuse large B-cell lymphoma, where B-cell-specific CFLAR deletion prevents tumour formation. Small molecules that disrupt the caspase-8/cFLIP(L) heterodimer (“FLIPins”) enhance death-receptor-induced necroptosis and apoptosis in pancreatic and colorectal cancer models (*Frontiers in Cell and Developmental Biology* 2024; *Communications Biology* 2024).
+
+### Points from 2011 that remain unresolved
+
+- The stoichiometry of caspase-8, cFLIPL, and cFLIPS within the assembled complex, which the paper proposed as the determinant of death quality.
+- The identity of the RIPK1 ubiquitin chains installed by cIAPs on the “modified” RIPK1 pool and the mechanism that sequesters RIPK1 into a 2 MDa compartment; related work now implicates USP13-mediated cIAP2 stabilisation and SMURF1/USP5 control of RIPK3 ubiquitination.
+- Whether spontaneous, TNF-independent complex assembly occurs in human primary cells; the 2011 data were obtained in transformed epithelial lines and primary keratinocytes.
+- Whether the RIPK3–MLKL–necroptosis axis downstream of this platform is a drug target distinct from RIPK1 kinase inhibition, given the failure of RIPK1 inhibitors in ALS and ulcerative colitis.
 
 **Graphical Abstract**
 
+![Graphical abstract](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1c4e/3163271/d64f9b20e545/fx1.jpg)
+
+[Graphical abstract on PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC3163271/)
+
 **Highlights**
 
-► Formation of the Ripoptosome, an intracellular death platform, is inhibited by cIAPs ► This high MW platform can be recruited to TLR3, leading to apoptosis or necroptosis ► cFLIPS blocks caspase-8 activity in the complex required for disassembly/stability ► cFLIPS promotes necroptosis in the absence of cIAPs
+► Formation of the Ripoptosome, an intracellular death platform, is inhibited by cIAPs ► This high MW platform can be recruited to TLR3, leading to apoptosis or necroptosis ► cFLIPS blocks caspase-8 activity in the complex required for disassembly/stability 
+► cFLIPS promotes necroptosis in the absence of cIAPs
 
 ## Introduction
 
-Cell death pathways are regulated at several different levels. Initiation points of these signals are organelles such as the mitochondria. Alternatively there are numerous examples of signaling platforms in cells named death-inducing signaling complex ([[DISC]]), TNF complex II, Apoptosome, PIDDosome, toll-like receptor (TLR) complexes, or the RIG-I complex that can initiate cell death. The longstanding observations that identical death stimuli such as TNF, TLR3 ligands, or death ligands may also activate programmed necrosis (necroptosis) depending on the cellular context complicate the understanding of cell death platforms. A contribution of another intracellular death platform containing RIP1 was proposed to be induced by excessive DNA damage requiring autocrine TNF secretion. Other studies showed that necroptosis induced by TNF requires receptor-interacting protein 3 (RIP3), which is phosphorylated and activated by RIP1. However, the regulation of apoptosis or necroptosis induced by a receptor-mediated or a genotoxic signal is far from being fully understood and is potentially of high clinical importance.
+==Cell death pathways are regulated at several different levels. Initiation points of these signals are organelles such as the mitochondria. Alternatively there are numerous examples of signaling platforms in cells named death-inducing signaling complex ([[DISC]]), TNF complex II, Apoptosome, PIDDosome, toll-like receptor (TLR) complexes, or the RIG-I complex that can initiate cell death.== The longstanding observations that identical death stimuli such as TNF, TLR3 ligands, or death ligands may also activate programmed necrosis (necroptosis) depending on the cellular context complicate the understanding of cell death platforms. ==A contribution of another intracellular death platform containing RIP1 was proposed to be induced by excessive DNA damage requiring autocrine TNF secretion. Other studies showed that necroptosis induced by TNF requires receptor-interacting protein 3 (RIP3), which is phosphorylated and activated by RIP1. However, the regulation of apoptosis or necroptosis induced by a receptor-mediated or a genotoxic signal is far from being fully understood and is potentially of high clinical importance.==
 
 The largely endosomal TLR3 recognizes virus-derived double-stranded RNA or its synthetic homolog poly(I:C) and signals for inflammatory responses through NF-κB and type I interferon induction. As other membrane-bound receptors, TLR3 has the capacity to induce apoptosis in a TIR domain-containing adaptor-inducing interferon-β (TRIF)-dependent manner. The recruitment and binding of TRIF via the RIP homotypic interaction motif (RHIM) is required for the transduction of apoptotic signals. However, the biochemical and molecular basis of TLR3-induced apoptosis or the propensity of this receptor to induce necroptosis has not been resolved to date. RIP1 also contains a C-terminal death domain (DD) and thereby interacts with the adaptor molecule [[Fas]]-associated death domain protein (FADD). In turn, FADD promotes recruitment of the initiator caspase-8 (for review, see) by homotypic interaction of the death effector domains (DEDs) of both proteins. This signaling platform initiates cell death induction, tightly regulated by antiapoptotic proteins such as cellular FLICE-inhibitory protein (cFLIP). From the 11 known cFLIP isoforms, the long (cFLIPL) and the short (cFLIPS) isoforms are prominently expressed in cultured tumor cells.
 
@@ -110,120 +159,106 @@ For the precipitation of caspase-8-bound proteins and cFLIP-bound proteins, 1 �
 
 Cellular lysates were separated on a Superose 6 HR 10/30 size-exclusion column and an AKTA Purifier protein purification system (GE Healthcare) essentially as described previously. Lysates (3–4 mg of total protein) were separated at a flow rate of 0.4 ml/min, and 0.5 ml fractions were collected at 4°C in 5% (w/v) sucrose, 20 mM HEPES, 120 mM NaCl, 2 mM EDTA, 2 mM KCl, and 1% Triton X-100 (pH 7.5). The column was calibrated with the indicated protein standards (GE Healthcare, Figure 5F). For each sample, three separate column separations were performed and repeat fractions collected in the same tubes. Aliquots (100 μl) from each fraction were retained for western blotting. For IP, fractions were then pooled (1–5, 6–10, 11–16, 17–22, and 23–28), and IPs were performed as described above followed by western blot analysis.
 
+## Figures
+
+Figure images are linked directly from PMC (PMC3163271, CC BY 3.0); no local copies are stored. This paper contains no tables.
+
+### Figure 1. IAPs Protect Cells from TLR3-Induced [[Apoptosis]] and Necroptosis
+
+![Figure 1](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1c4e/3163271/fdd76e1a8c5b/gr1.jpg)
+
+[Figure 1 on PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC3163271/figure/Fig1/)
+
+> [!abstract] Figure/Table
+> (A, B, F, and H) Cell viability was analyzed by crystal violet assay; average values of three independent experiments (±SEM) are shown.
+> (A) HaCaT, A5RT3, and MET-1 cells were pretreated with IAP antagonist and subsequently stimulated with 50 μg/ml of poly(I:C). Inset shows analysis of cellular lysates by western blotting of the respective proteins.
+> (B–D and H) Cells were stimulated as described in the Experimental Procedures.
+> (B) In the absence of cIAPs, TLR3 ligation induces cell death in a caspase- and RIP1 kinase-dependent manner.
+> (C) cIAPs suppress HMGB1 release upon TLR3 stimulation. HMGB1 release from HaCaT was detected by western blot analysis of cell-free supernatants and total cellular lysates.
+> (D) cIAPs protect cells from TLR3 ligation-induced apoptosis and necroptosis. Cell death morphology of HaCaT cells was investigated by simultaneous staining with Hoechst-33342 and SYTOX Green, immediately followed by transmission and fluorescence microscopy, respectively (Supplemental Experimental Procedures).
+> (E) TNFR1 knockdown was analyzed by western blot analysis in HaCaT cells transfected with control or TNFR1 siRNA.
+> (F) TNFR1 knockdown does not alter TLR3-induced cell death.
+> (G) Comparison of TLR3-induced caspase-8-containing complexes with TNF complex II. For analysis of caspase-8-containing complexes, caspase-8 coimmunoprecipitation (IP) was performed. Cells were prestimulated with IAP antagonist and subsequently stimulated with either poly(I:C) or TNF (10 μg/ml).
+> (H) Primary human keratinocytes (from five different donors [different symbols; the horizontal bar represents the mean of all five donors examined]) are sensitized to TLR3-induced cell death in the absence of IAP function. Either IAP antagonist (panels 3–4) or TWEAK (panels 5–6) sensitizes to TLR3-induced cell death in a TNF-independent manner (panels 7–12).
+
+### Figure 2. Increased Cell Death by Loss of cIAPs Is Regulated at the Ripoptosome; RIP1 Is Critical, whereas RIP3 or Caspase-8 Modulates the Quality of Cell Death
+
+![Figure 2](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1c4e/3163271/2271fe75f653/gr2.jpg)
+
+[Figure 2 on PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC3163271/figure/Fig2/)
+
+> [!abstract] Figure/Table
+> (A) Caspase-8 siRNA is functional as determined by western blot analysis of caspase-8 protein.
+> (B) The efficiency of RIP3 knockdown in HaCaT was analyzed by qPCR. The mean of two independent experiments (±SEM) is shown.
+> (C and D) Cells were stimulated as described in the Experimental Procedures. Cell viability was analyzed by crystal violet assay; the mean of three independent experiments (±SEM) is shown. (C) The quality of cell death induced by TLR3 in the absence of cIAPs depends on caspase-8 or/and RIP3 expression. (D) Knockdown of RIP1 protects HaCaT from TLR3-induced cell death in the absence of cIAPs. Knockdown efficiency for RIP1 was analyzed by western blot analysis (inset).
+> (E) RIP1 knockdown suppresses Ripoptosome formation. Caspase-8 immunoprecipitation (IP) was performed as outlined in the Experimental Procedures. Prolonged exposure of the blots reveals either caspase-8/RIP1 association in the unstimulated conditions or alternatively represents the background of the biochemical experiment.
+
+### Figure 3. cFLIP Suppresses Ripoptosome Formation and Apoptosis in the Absence of cIAPs
+
+![Figure 3](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1c4e/3163271/3e394ee6df00/gr3.jpg)
+
+[Figure 3 on PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC3163271/figure/Fig3/)
+
+> [!abstract] Figure/Table
+> (A) cFLIP protects from TLR3-induced cell death. A5RT3 cells were transduced with control shRNA (HRS) or cFLIP shRNA and stimulated as described in the Experimental Procedures. Cell viability was analyzed by crystal violet assay; the mean of three independent experiments (±SEM) is shown.
+> (B) cFLIP suppresses Ripoptosome formation in A5RT3 cells. Ripoptosome formation was studied by caspase-8 IP. Note the dramatic accumulation of caspase-10 upon cFLIP knockdown.
+
+### Figure 4. cFLIP Isoforms Differentially Regulate Ripoptosome Formation and Modulate the Quality of Cell Death in the Absence of cIAPs
+
+![Figure 4](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1c4e/3163271/9a0249035612/gr4.jpg)
+
+[Figure 4 on PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC3163271/figure/Fig4/)
+
+> [!abstract] Figure/Table
+> (A) The quality of cell death is differentially regulated by cFLIP isoforms. HaCaT cells were transduced with cFLIPL, cFLIPS, or vector alone and stimulated as indicated in the Experimental Procedures. Cell death was characterized by Annexin V/PI double staining, followed by FACS analysis.
+> (B) Ripoptosome formation is modulated by cFLIP isoforms in a differential manner. Ripoptosome was precipitated by caspase-8 Abs.
+> (C) Absence of spontaneous Ripoptosome formation in PK upon IAP antagonist treatment when compared to HaCaT-cFLIPs.
+
+### Figure 5. cFLIPS Promotes Spontaneous Ripoptosome Formation, a 2 MDa Complex, in the Absence of cIAPs; Ripoptosome-Induced Necroptosis Proceeds in a RIP1 Kinase- and RIP3-Dependent Manner Independent from TNF Signaling
+
+![Figure 5](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1c4e/3163271/2957f2481672/gr5.jpg)
+
+[Figure 5 on PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC3163271/figure/Fig5/)
+
+> [!abstract] Figure/Table
+> (A, B, and E) cFLIPS-HaCaT were transfected with control or TNFR1 siRNA. (A, C, and D) Cell viability was analyzed by crystal violet assay; the mean of three independent experiments (±SEM) is shown.
+> (A) Spontaneous cell death induced by cIAPs depletion in cFLIPS cells is independent from TNFR1. siRNA-transfected cells were prestimulated with IAP antagonist followed by stimulation with TNF (100 ng/ml).
+> (B) Spontaneous cell death of HaCaT-cFLIPS in the presence of IAP antagonist is independent from autocrine TNF signaling. Cells were stimulated with IAP antagonist and TNFR2-Fc, respectively. Cell death was determined by Annexin V/PI double staining followed by FACS analysis.
+> (C) Spontaneous cell death induced by cIAPs depletion in HaCaT-cFLIPS is RIP1 kinase dependent.
+> (D) Spontaneous cell death induced by cIAP depletion in HaCaT-cFLIPS is RIP3 dependent. HaCaT-cFLIPS were transfected with RIP3 siRNA or control siRNA and then treated with IAP antagonist.
+> (E) Spontaneous Ripoptosome formation in HaCaT-cFLIPS in the absence of cIAPs is independent from TNFR1 signaling. Ripoptosome formation was analyzed by caspase-8 IP in the presence of zVAD from 2 × 106 transfected cells 4 hr after IAP antagonist stimulation (200 nM).
+> (F) Inhibition of cIAPs promotes Ripoptosome formation, a 2 MDa complex. HaCaT-cFLIPS were either prestimulated with zVAD (10 μM) alone or in combination with IAP antagonist (200 nM) for 4 hr. Cellular lysates were used for chromatographic gel filtration analysis. Numbers indicate fractions collected. Fractions 3–26 were analyzed by western blotting (left panels) for the respective proteins. All fractions were subsequently pooled as indicated, and caspase-8 IP was performed as described in the Experimental Procedures. Proteins found in different pooled fractions were analyzed by western blotting.
+
+### Figure 6. Caspase Activity in the Ripoptosome Is Differentially Regulated by cFLIP Isoforms and Is Negatively Regulated by [[Proteasome]] Function
+
+![Figure 6](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1c4e/3163271/252be762ab8e/gr6.jpg)
+
+[Figure 6 on PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC3163271/figure/Fig6/)
+
+> [!abstract] Figure/Table
+> (A and C) Ripoptosome formation was studied by caspase-8 IP.
+> (A) cFLIP isoforms differentially regulate caspase activity in the Ripoptosome. HaCaT-cFLIPS cells were stimulated with IAP antagonist and zVAD for 1 hr with poly(I:C) or diluent alone.
+> (B) In the absence of cIAPs, cFLIPS but not cFLIPL blocks caspase-8 activity in the Ripoptosome. HaCaT cells were transduced with retroviral vectors containing Flag-tagged cFLIPL or cFLIPS. Cells were prestimulated with IAP antagonist alone or subsequently with poly(I:C), followed by anti-Flag IP. Asterisks indicate nonspecific binding of Abs.
+> (C) Ripoptosome formation is negatively regulated by proteasome function in HaCaT-cFLIPS. Cells were prestimulated with MG132 for 10 min followed by stimulation with IAP antagonist for 4 hr. Experiments shown in (A)–(C) were performed in the presence of zVAD (10 μM).
+
+### Figure 7. Working Model of Activation and Signaling by the Ripoptosome and Its Regulation by cFLIP Isoforms
+
+![Figure 7](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1c4e/3163271/c553e7ae971c/gr7.jpg)
+
+[Figure 7 on PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC3163271/figure/Fig7/)
+
+> [!abstract] Figure/Table
+> A fraction of RIP1 is constantly “modified” (likely by cellular stress signals) to an active conformation. cIAPs ubiquitinate “modified” RIP1 targeting it to degradation by the 26S proteasome. The unknown cellular compartment contains not only “modified” RIP1 but also caspase-8, FADD, and cFLIP. Addition of IAP antagonist leads to autoubiquitination of cIAPs and degradation. This is the signal for the formation of the Ripoptosome, a complex of “modified” RIP1, FADD, caspase-8/10, and cFLIP isoforms. The Ripoptosome can be recruited to RHIM-binding modules such as TRIF, thereby linking it to TLR3. Depending on the composition of the Ripoptosome, it activates apoptosis and/or necroptosis. Procaspase-8 homodimers within the Ripoptosome form active caspase-8 and subsequent apoptosis. cFLIPL-caspase-8 heterodimers within the Ripoptosome have enzymatic activity in the complex insufficient to generate active caspase-8 heterotetramers necessary for apoptosis induction, although sufficient for RIP1 cleavage. Caspase-8-cFLIPS heterodimer lacks proteolytic activity that is required not only for full caspase-8 activation but also for RIP1 degradation. Thus RIP1 accumulates in the Ripoptosome and initiates necroptosis via RIP3 in a RIP1 kinase-dependent manner.
+
 ## Supplemental Information
 
 Supplemental Information includes four figures, Supplemental Experimental Procedures, and Supplemental References and can be found with this article online at doi:10.1016/j.molcel.2011.06.011.
 
-> [!abstract] Figure/Table
-> IAPs Protect Cells from TLR3-Induced [[Apoptosis]] and Necroptosis
+- [Supplementary files (Figures S1–S4, Supplemental Experimental Procedures, Supplemental References) — Europe PMC archive](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3163271/supplementaryFiles?includeInlineImage=true)
+- [Article page on PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC3163271/)
 
-> [!abstract] Figure/Table
-> (A, B, F, and H) Cell viability was analyzed by crystal violet assay; average values of three independent experiments (±SEM) are shown.
+- Figure S1. TWEAK- or siRNA-mediated knockdown of cIAP1, but not cIAP2, sensitizes for TLR3-induced cell death independent of death receptor autocrine loops (Related to Figure 1)
+- Figure S2. Poly(I:C)-induced cell death requires TLR3, TRIF, and RIP1 (Related to Figure 2)
+- Figure S3. cFLIPL, but not cFLIPS protects from Ripoptosome-induced RIP3-dependent necroptosis (Related to Figure 4)
+- Figure S4. cIAPs block time-dependent formation of the Ripoptosome in HaCaT-cFLIPS and modulate TNF complex I and II formation in HaCaT (Related to Figure 5)
 
-> [!abstract] Figure/Table
-> (A) HaCaT, A5RT3, and MET-1 cells were pretreated with IAP antagonist and subsequently stimulated with 50 μg/ml of poly(I:C). Inset shows analysis of cellular lysates by western blotting of the respective proteins.
-
-> [!abstract] Figure/Table
-> (B–D and H) Cells were stimulated as described in the Experimental Procedures.
-
-> [!abstract] Figure/Table
-> (B) In the absence of cIAPs, TLR3 ligation induces cell death in a caspase- and RIP1 kinase-dependent manner.
-
-> [!abstract] Figure/Table
-> (C) cIAPs suppress HMGB1 release upon TLR3 stimulation. HMGB1 release from HaCaT was detected by western blot analysis of cell-free supernatants and total cellular lysates.
-
-> [!abstract] Figure/Table
-> (D) cIAPs protect cells from TLR3 ligation-induced apoptosis and necroptosis. Cell death morphology of HaCaT cells was investigated by simultaneous staining with Hoechst-33342 and SYTOX Green, immediately followed by transmission and fluorescence microscopy, respectively (Supplemental Experimental Procedures).
-
-> [!abstract] Figure/Table
-> (E) TNFR1 knockdown was analyzed by western blot analysis in HaCaT cells transfected with control or TNFR1 siRNA.
-
-> [!abstract] Figure/Table
-> (F) TNFR1 knockdown does not alter TLR3-induced cell death.
-
-> [!abstract] Figure/Table
-> (G) Comparison of TLR3-induced caspase-8-containing complexes with TNF complex II. For analysis of caspase-8-containing complexes, caspase-8 coimmunoprecipitation (IP) was performed. Cells were prestimulated with IAP antagonist and subsequently stimulated with either poly(I:C) or TNF (10 μg/ml).
-
-> [!abstract] Figure/Table
-> (H) Primary human keratinocytes (from five different donors [different symbols; the horizontal bar represents the mean of all five donors examined]) are sensitized to TLR3-induced cell death in the absence of IAP function. Either IAP antagonist (panels 3–4) or TWEAK (panels 5–6) sensitizes to TLR3-induced cell death in a TNF-independent manner (panels 7–12).
-
-> [!abstract] Figure/Table
-> Increased Cell Death by Loss of cIAPs Is Regulated at the Ripoptosome; RIP1 Is Critical, whereas RIP3 or Caspase-8 Modulates the Quality of Cell Death
-
-> [!abstract] Figure/Table
-> (A) Caspase-8 siRNA is functional as determined by western blot analysis of caspase-8 protein.
-
-> [!abstract] Figure/Table
-> (B) The efficiency of RIP3 knockdown in HaCaT was analyzed by qPCR. The mean of two independent experiments (±SEM) is shown.
-
-> [!abstract] Figure/Table
-> (C and D) Cells were stimulated as described in the Experimental Procedures. Cell viability was analyzed by crystal violet assay; the mean of three independent experiments (±SEM) is shown. (C) The quality of cell death induced by TLR3 in the absence of cIAPs depends on caspase-8 or/and RIP3 expression. (D) Knockdown of RIP1 protects HaCaT from TLR3-induced cell death in the absence of cIAPs. Knockdown efficiency for RIP1 was analyzed by western blot analysis (inset).
-
-> [!abstract] Figure/Table
-> (E) RIP1 knockdown suppresses Ripoptosome formation. Caspase-8 immunoprecipitation (IP) was performed as outlined in the Experimental Procedures. Prolonged exposure of the blots reveals either caspase-8/RIP1 association in the unstimulated conditions or alternatively represents the background of the biochemical experiment.
-
-> [!abstract] Figure/Table
-> cFLIP Suppresses Ripoptosome Formation and Apoptosis in the Absence of cIAPs
-
-> [!abstract] Figure/Table
-> (A) cFLIP protects from TLR3-induced cell death. A5RT3 cells were transduced with control shRNA (HRS) or cFLIP shRNA and stimulated as described in the Experimental Procedures. Cell viability was analyzed by crystal violet assay; the mean of three independent experiments (±SEM) is shown.
-
-> [!abstract] Figure/Table
-> (B) cFLIP suppresses Ripoptosome formation in A5RT3 cells. Ripoptosome formation was studied by caspase-8 IP. Note the dramatic accumulation of caspase-10 upon cFLIP knockdown.
-
-> [!abstract] Figure/Table
-> cFLIP Isoforms Differentially Regulate Ripoptosome Formation and Modulate the Quality of Cell Death in the Absence of cIAPs
-
-> [!abstract] Figure/Table
-> (A) The quality of cell death is differentially regulated by cFLIP isoforms. HaCaT cells were transduced with cFLIPL, cFLIPS, or vector alone and stimulated as indicated in the Experimental Procedures. Cell death was characterized by Annexin V/PI double staining, followed by FACS analysis.
-
-> [!abstract] Figure/Table
-> (B) Ripoptosome formation is modulated by cFLIP isoforms in a differential manner. Ripoptosome was precipitated by caspase-8 Abs.
-
-> [!abstract] Figure/Table
-> (C) Absence of spontaneous Ripoptosome formation in PK upon IAP antagonist treatment when compared to HaCaT-cFLIPs.
-
-> [!abstract] Figure/Table
-> cFLIPS Promotes Spontaneous Ripoptosome Formation, a 2 MDa Complex, in the Absence of cIAPs; Ripoptosome-Induced Necroptosis Proceeds in a RIP1 Kinase- and RIP3-Dependent Manner Independent from TNF Signaling
-
-> [!abstract] Figure/Table
-> (A, B, and E) cFLIPS-HaCaT were transfected with control or TNFR1 siRNA. (A, C, and D) Cell viability was analyzed by crystal violet assay; the mean of three independent experiments (±SEM) is shown.
-
-> [!abstract] Figure/Table
-> (A) Spontaneous cell death induced by cIAPs depletion in cFLIPS cells is independent from TNFR1. siRNA-transfected cells were prestimulated with IAP antagonist followed by stimulation with TNF (100 ng/ml).
-
-> [!abstract] Figure/Table
-> (B) Spontaneous cell death of HaCaT-cFLIPS in the presence of IAP antagonist is independent from autocrine TNF signaling. Cells were stimulated with IAP antagonist and TNFR2-Fc, respectively. Cell death was determined by Annexin V/PI double staining followed by FACS analysis.
-
-> [!abstract] Figure/Table
-> (C) Spontaneous cell death induced by cIAPs depletion in HaCaT-cFLIPS is RIP1 kinase dependent.
-
-> [!abstract] Figure/Table
-> (D) Spontaneous cell death induced by cIAP depletion in HaCaT-cFLIPS is RIP3 dependent. HaCaT-cFLIPS were transfected with RIP3 siRNA or control siRNA and then treated with IAP antagonist.
-
-> [!abstract] Figure/Table
-> (E) Spontaneous Ripoptosome formation in HaCaT-cFLIPS in the absence of cIAPs is independent from TNFR1 signaling. Ripoptosome formation was analyzed by caspase-8 IP in the presence of zVAD from 2 × 106 transfected cells 4 hr after IAP antagonist stimulation (200 nM).
-
-> [!abstract] Figure/Table
-> (F) Inhibition of cIAPs promotes Ripoptosome formation, a 2 MDa complex. HaCaT-cFLIPS were either prestimulated with zVAD (10 μM) alone or in combination with IAP antagonist (200 nM) for 4 hr. Cellular lysates were used for chromatographic gel filtration analysis. Numbers indicate fractions collected. Fractions 3–26 were analyzed by western blotting (left panels) for the respective proteins. All fractions were subsequently pooled as indicated, and caspase-8 IP was performed as described in the Experimental Procedures. Proteins found in different pooled fractions were analyzed by western blotting.
-
-> [!abstract] Figure/Table
-> Caspase Activity in the Ripoptosome Is Differentially Regulated by cFLIP Isoforms and Is Negatively Regulated by [[Proteasome]] Function
-
-> [!abstract] Figure/Table
-> (A and C) Ripoptosome formation was studied by caspase-8 IP.
-
-> [!abstract] Figure/Table
-> (A) cFLIP isoforms differentially regulate caspase activity in the Ripoptosome. HaCaT-cFLIPS cells were stimulated with IAP antagonist and zVAD for 1 hr with poly(I:C) or diluent alone.
-
-> [!abstract] Figure/Table
-> (B) In the absence of cIAPs, cFLIPS but not cFLIPL blocks caspase-8 activity in the Ripoptosome. HaCaT cells were transduced with retroviral vectors containing Flag-tagged cFLIPL or cFLIPS. Cells were prestimulated with IAP antagonist alone or subsequently with poly(I:C), followed by anti-Flag IP. Asterisks indicate nonspecific binding of Abs.
-
-> [!abstract] Figure/Table
-> (C) Ripoptosome formation is negatively regulated by proteasome function in HaCaT-cFLIPS. Cells were prestimulated with MG132 for 10 min followed by stimulation with IAP antagonist for 4 hr. Experiments shown in (A)–(C) were performed in the presence of zVAD (10 μM).
-
-> [!abstract] Figure/Table
-> Working Model of Activation and Signaling by the Ripoptosome and Its Regulation by cFLIP Isoforms
-
-> [!abstract] Figure/Table
-> A fraction of RIP1 is constantly “modified” (likely by cellular stress signals) to an active conformation. cIAPs ubiquitinate “modified” RIP1 targeting it to degradation by the 26S proteasome. The unknown cellular compartment contains not only “modified” RIP1 but also caspase-8, FADD, and cFLIP. Addition of IAP antagonist leads to autoubiquitination of cIAPs and degradation. This is the signal for the formation of the Ripoptosome, a complex of “modified” RIP1, FADD, caspase-8/10, and cFLIP isoforms. The Ripoptosome can be recruited to RHIM-binding modules such as TRIF, thereby linking it to TLR3. Depending on the composition of the Ripoptosome, it activates apoptosis and/or necroptosis. Procaspase-8 homodimers within the Ripoptosome form active caspase-8 and subsequent apoptosis. cFLIPL-caspase-8 heterodimers within the Ripoptosome have enzymatic activity in the complex insufficient to generate active caspase-8 heterotetramers necessary for apoptosis induction, although sufficient for RIP1 cleavage. Caspase-8-cFLIPS heterodimer lacks proteolytic activity that is required not only for full caspase-8 activation but also for RIP1 degradation. Thus RIP1 accumulates in the Ripoptosome and initiates necroptosis via RIP3 in a RIP1 kinase-dependent manner.
