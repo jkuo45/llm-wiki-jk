@@ -7,10 +7,10 @@ updated: 2026-11-21
 ---
 # Shared Entities (`_link`)
 
-Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **2143 entities** in a single flat index and **36 documents**.
+Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **2142 entities** in a single flat index and **36 documents**.
 
 > [!note]
-> `_link` index. Total entities: 2143 | Documents: 36
+> `_link` index. Total entities: 2142 | Documents: 36
 >
 ## Documents
 

@@ -3,7 +3,7 @@ title: Cell Death
 aliases: []
 description: index of entities and documents in this directory
 created: 2026-09-07
-updated: 2026-11-19
+updated: 2026-11-22
 ---
 # Cell Death
 
@@ -25,6 +25,7 @@ updated: 2026-11-19
 | [[_document_ - Current understanding of eryptosis supplementary material (MOESM1)\|Supplementary Material for Current understanding of eryptosis (Tkachenko et al. 2025)]] | Tkachenko et al. 2025 supplementary tables (MOESM1) — Ringer buffer compositions (S1), eryptosis modulators by target class (S2), approaches to study eryptosis inhibition (S3), 140+ compounds that significantly induce eryptosis with dose/time/Ca2+/ceramide readouts (S4), and major inhibitors with effect readouts (S5). |
 | [[_document_ - Current understanding of eryptosis mechanisms, physiological functions, role in disease, pharmacological applications, and nomenclature recommendations\|Current understanding of eryptosis: mechanisms, physiological functions, role in disease, pharmacological applications, and nomenclature recommendations]] | Tkachenko et al. 2025 consensus review — eryptosis as the Ca²⁺-driven regulated death of mature anucleate erythrocytes (Gardos K⁺ efflux, scramblase, calpain-1, PS externalisation); its distinction from apoptosis, senescence, hemolysis and erythronecroptosis; caspase-8 as the fate switch; disease roles; druggability; and the nomenclature recommendations. |
 | [[_document_ - Neutrophil Extracellular Traps in Host Defense\|Neutrophil Extracellular Traps in Host Defense]] | Burgener & Schroder 2020 review — three NETosis pathways in neutrophils (suicidal NADPH-oxidase/MPO/NE/GSDMD, noncanonical caspase-4/11/GSDMD, vital PAD4/calcium), microbe size sensing, NET composition and antimicrobial cargo, and microbial NET-evasion mechanisms. |
+| [[_document_ - cIAPs Block Ripoptosome Formation Differentially Regulated by cFLIP Isoforms\|Feoktistova et al. 2011]] | Landmark study defining the 2 MDa ripoptosome and showing caspase activity as the rheostat controlled by cFLIP isoforms deciding between apoptosis and necroptosis. |
 
 ## Entity Notes
 

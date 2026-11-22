@@ -1,9 +1,9 @@
 ---
 title: Ripoptosome
 description: A 2 MDa death-receptor-independent intracellular complex of RIPK1, FADD, caspase-8, caspase-10 and c-FLIP isoforms that forms when cIAPs are depleted and decides between apoptosis and necroptosis.
-protected: false
+protected: true
 created: 2026-09-03
-updated: 2026-11-19
+updated: 2026-11-22
 tags:
   - protein-complex
   - cell-death
@@ -34,7 +34,10 @@ apoptosis-vs-necroptosis decision (Feoktistova et al. 2011; Tenev et al. 2011).
   high-molecular-weight fractions.
 - **Regulators:** [[cIAPs]] (cIAP1/cIAP2) constitutively ubiquitinate compartmentalized RIPK1 and
   target it for degradation, precluding assembly; proteasome blockade (MG-132) alone suffices to
-  trigger spontaneous formation.
+  trigger spontaneous formation (Feoktistova et al. 2011, Results 6C).
+- **Assembly timing:** spontaneous assembly is cell-type specific — observed in HaCaT and MET-1,
+  absent in primary keratinocytes (PKs) without IAP antagonism or TWEAK (doc Results 4C; Feoktistova
+  2011).
 
 ## Mechanism of Action & Pathways
 
@@ -48,6 +51,9 @@ apoptosis-vs-necroptosis decision (Feoktistova et al. 2011; Tenev et al. 2011).
 4. **FLIP_S outcome → necroptosis.** Inactive heterodimers cannot cleave [[RIPK1]]; the platform
    persists, [[RIPK1]] phosphorylates [[RIPK3]], [[MLKL]] is recruited and executed as [[Necroptosis]].
    Formation is necessary but not sufficient for death — downstream effector competence decides.
+5. **cIAP gate.** MG-132 treatment alone triggers spontaneous assembly; combined IAP antagonism +
+   MG-132 suppresses it — cIAPs control a *compartmentalized, modified* RIPK1 pool, not bulk levels
+   (Feoktistova et al. 2011, Results 6C).
 
 > [!important] Isoform opposition
 > [[c-FLIP|FLIP_L]] *suppresses* ripoptosome formation while [[c-FLIP|FLIP_S]] *promotes* its
@@ -60,7 +66,10 @@ The ripoptosome explains the otherwise paradoxical genetics of the extrinsic pat
 caspase-8 knockouts die from unrestrained RIPK1–RIPK3 necroptosis because the ripoptosome can no
 longer be disassembled by caspase-8-mediated RIPK1 cleavage. It also converts pro-inflammatory
 cytokine signals into pro-death signals under IAP-antagonist therapy and links TLR3/dsRNA sensing
-to [[Caspase-8]] activation without TNF signaling.
+to [[Caspase-8]] activation without TNF signaling. Nec-1 (Necrostatin-1) blocks the spontaneous
+FLIP_S-driven necroptosis in keratinocytes (doc Results 5C), and RIP1 kinase activity is the
+required driver — Nec-1 and RIP3 knockdown both fully block IAP-antagonist-induced death in
+HaCaT-FLIP_S.
 
 ## Pathology & Clinical Relevance
 
@@ -104,3 +113,4 @@ to [[Caspase-8]] activation without TNF signaling.
 - Source enrichment (2026-11-19): [[_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP|Tsuchiya et al. 2015]] — DED-chain assembly of the ripoptosome; MC159 vFLIP promoting necroptosis via failure to cleave RIPK1; TLR3–TRIF atypical complex (RIPK1-dependent, FADD-independent). New links: [[Death Effector Domain|DED]], [[TLR3]].
 - Strong connections to strengthen: [[Ripoptosome]] ↔ [[Caspase-8-c-FLIP Rheostat]],
   [[Ripoptosome]] ↔ [[RIPK1]], [[Ripoptosome]] ↔ [[cIAPs]]
+- Source enrichment (2026-11-22): [[_document_ - cIAPs Block Ripoptosome Formation Differentially Regulated by cFLIP Isoforms|Feoktistova et al. 2011]] — MG-132 epistasis for the cIAP gate; spontaneous, cell-type-specific assembly (HaCaT yes, PK no); Nec-1/RIPK3 dependence of the FLIP_S route; HeLa species route via RIP3 WT/D161N (S3).

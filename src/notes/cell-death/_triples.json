@@ -9672,5 +9672,215 @@
     "source_document": "_document_ - FLIP the Switch Regulation of Apoptosis and Necroptosis by cFLIP.md",
     "created": "2026-11-20T03:45:49Z",
     "updated": "2026-11-20T03:45:49Z"
+  },
+  {
+    "id": "f12f5a41f2e3",
+    "subject": "RIPK1",
+    "predicate": "is_core_scaffold_of",
+    "object": "Ripoptosome",
+    "context": {
+      "en-US": "The ripoptosome is the intracellular death platform whose obligate core scaffold is RIPK1: without RIPK1 the complex cannot assemble, and cells are protected from TLR3-IAP-antagonist-mediated cell death by RIP1 knockdown (doc: 'RIP1 is the core component of the complex'; Results: 'Knockdown of RIP1 ... resulted in full protection from TLR3-IAP antagonist-mediated cell death').",
+      "zh-TW": "Ripoptosome 是細胞死亡平台，其核心脄架為 RIPK1：無 RIPK1 時複合體無法組裝，RIP1 敲除可保護免受 TLR3–IAP 反藥物誘導的細胞死亡（文獻：'RIP1 is the core component of the complex'；結果：'Knockdown of RIP1 ... resulted in full protection from TLR3-IAP antagonist-mediated cell death'）。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - cIAPs Block Ripoptosome Formation Differentially Regulated by cFLIP Isoforms.md",
+    "created": "2026-11-22T15:01:50Z",
+    "updated": "2026-11-22T15:01:50Z"
+  },
+  {
+    "id": "027998cf0ca2",
+    "subject": "Ripoptosome",
+    "predicate": "has_size",
+    "object": "2 MDa",
+    "context": {
+      "en-US": "The platform assembles into a ~2 MDa intracellular complex; gel filtration analysis places the fully assembled ripoptosome at fractions corresponding to a 2 MDa complex (doc Results, Figure 5F).",
+      "zh-TW": "平台組裝為約 2 MDa 的胞內複合體；凝膠過濾分析將組裝完成的 ripoptosome 放在對應 2 MDa 複合體的湯顯液中（文獻結果，圖 5F）。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - cIAPs Block Ripoptosome Formation Differentially Regulated by cFLIP Isoforms.md",
+    "created": "2026-11-22T15:01:50Z",
+    "updated": "2026-11-22T15:01:50Z"
+  },
+  {
+    "id": "766819a77912",
+    "subject": "Ripoptosome",
+    "predicate": "contains",
+    "object": "FADD",
+    "context": {
+      "en-US": "The ripoptosome contains FADD; cIAP loss increases caspase-8 association with RIPK1 and FADD inside the complex (doc abstract: 'It contains RIP1, FADD, caspase-8, caspase-10, and caspase inhibitor cFLIP isoforms').",
+      "zh-TW": "Ripoptosome 含有 FADD；cIAPs 丟失增加 caspase-8 以 RIPK1、FADD 方式與複合體內部關聯（文獻摘要：'It contains RIP1, FADD, caspase-8, caspase-10, and caspase inhibitor cFLIP isoforms'）。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - cIAPs Block Ripoptosome Formation Differentially Regulated by cFLIP Isoforms.md",
+    "created": "2026-11-22T15:01:50Z",
+    "updated": "2026-11-22T15:01:50Z"
+  },
+  {
+    "id": "a130bbbfa62a",
+    "subject": "Ripoptosome",
+    "predicate": "contains",
+    "object": "Caspase-8",
+    "context": {
+      "en-US": "The ripoptosome contains caspase-8; caspase activity within the complex is the rheostat between apoptosis and necroptosis (doc: 'It contains RIP1, FADD, caspase-8, caspase-10...'; caspase-8 activity disassembles the platform and drives apoptosis).",
+      "zh-TW": "Ripoptosome 含有 caspase-8；複合體內的 caspase 活性是凋亡與凋討亡之間的調節子（文獻：'It contains RIP1, FADD, caspase-8, caspase-10...'；caspase-8 活性拆解平台並驅動凋亡）。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - cIAPs Block Ripoptosome Formation Differentially Regulated by cFLIP Isoforms.md",
+    "created": "2026-11-22T15:01:50Z",
+    "updated": "2026-11-22T15:01:50Z"
+  },
+  {
+    "id": "a469367ec3de",
+    "subject": "Ripoptosome",
+    "predicate": "contains",
+    "object": "Caspase-10",
+    "context": {
+      "en-US": "The ripoptosome contains caspase-10; downregulation of cFLIP leads to accumulation of large amounts of caspase-10 in the ripoptosome (doc Results: 'downregulation of cFLIP led to accumulation of large amounts of caspase-10 in the Ripoptosome', Figure 3B).",
+      "zh-TW": "Ripoptosome 含有 Caspase-10；cFLIP 下調導致 ripoptosome 中大量 Caspase-10 堆積（文獻結果：'downregulation of cFLIP led to accumulation of large amounts of caspase-10 in the Ripoptosome'，圖 3B）。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - cIAPs Block Ripoptosome Formation Differentially Regulated by cFLIP Isoforms.md",
+    "created": "2026-11-22T15:01:50Z",
+    "updated": "2026-11-22T15:01:50Z"
+  },
+  {
+    "id": "a5a57165481c",
+    "subject": "Ripoptosome",
+    "predicate": "contains",
+    "object": "c-FLIP",
+    "context": {
+      "en-US": "The ripoptosome contains c-FLIP isoforms; both cFLIPL and cFLIPS are present in the assembled complex (doc: 'It contains RIP1, FADD, caspase-8, caspase-10, and caspase inhibitor cFLIP isoforms'; Results, Figure 4B: Caspase-8/RIPK1/c-FLIP complex).",
+      "zh-TW": "Ripoptosome 含有 c-FLIP 異構體；組裝複合體中同時存在 FLIPL 與 FLIPS（文獻：'It contains RIP1, FADD, caspase-8, caspase-10, and caspase inhibitor cFLIP isoforms'；結果，圖 4B：Caspase-8/RIPK1/c-FLIP 複合體）。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - cIAPs Block Ripoptosome Formation Differentially Regulated by cFLIP Isoforms.md",
+    "created": "2026-11-22T15:01:50Z",
+    "updated": "2026-11-22T15:01:50Z"
+  },
+  {
+    "id": "edba0a9e7c32",
+    "subject": "cIAPs",
+    "predicate": "inhibits",
+    "object": "Ripoptosome",
+    "context": {
+      "en-US": "cIAPs inhibit spontaneous ripoptosome assembly: cIAP1/2 constitutively ubiquitinate compartmentalized RIPK1 and target it for degradation, so cIAP loss licenses the spontaneous RIPK1-FADD-caspase-8-cFLIP platform (doc Discussion: 'Spontaneous formation of the Ripoptosome is suppressed by the E3 ubiquitin ligases cIAP1 or -2 that induce RIP1 ubiquitination and degradation').",
+      "zh-TW": "cIAPs 抑制無賴 ripoptosome 組裝：cIAP1/2 持續對隔離的 RIPK1 加募集、將其分解；cIAPs 丟失放鬆 RIPK1-FADD-caspase-8-cFLIP 平台（文獻討論：'Spontaneous formation of the Ripoptosome is suppressed by the E3 ubiquitin ligases cIAP1 or -2 that induce RIP1 ubiquitination and degradation'）。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - cIAPs Block Ripoptosome Formation Differentially Regulated by cFLIP Isoforms.md",
+    "created": "2026-11-22T15:01:50Z",
+    "updated": "2026-11-22T15:01:50Z"
+  },
+  {
+    "id": "8601ebc72aec",
+    "subject": "c-FLIP_L",
+    "predicate": "prevents_assembly_of",
+    "object": "Ripoptosome",
+    "context": {
+      "en-US": "cFLIPL prevents ripoptosome assembly; cells with high cFLIPL are resistant to ripoptosome formation and cell death (doc abstract: 'cFLIPL prevents Ripoptosome formation'; Results: 'cells with low RIP1 or high cFLIPL levels are resistant to Ripoptosome formation').",
+      "zh-TW": "cFLIPL 阻斷 ripoptosome 組裝；cFLIPL 高表現的細胞對 ripoptosome 組裝與細胞死亡具抗性（文獻摘要：'cFLIPL prevents Ripoptosome formation'；結果：'cells with low RIP1 or high cFLIPL levels are resistant to Ripoptosome formation'）。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - cIAPs Block Ripoptosome Formation Differentially Regulated by cFLIP Isoforms.md",
+    "created": "2026-11-22T15:01:50Z",
+    "updated": "2026-11-22T15:01:50Z"
+  },
+  {
+    "id": "9794ef3e694c",
+    "subject": "c-FLIP_S",
+    "predicate": "promotes_assembly_of",
+    "object": "Ripoptosome",
+    "context": {
+      "en-US": "cFLIPS promotes ripoptosome assembly; IAP antagonist treatment alone induces spontaneous complex formation in HaCaT-cFLIPS (doc abstract: 'cFLIPS promotes Ripoptosome assembly'; Results, Figure 4B).",
+      "zh-TW": "cFLIPS 促進 ripoptosome 組裝；單獨給予 IAP 反藥物即可在 HaCaT-cFLIPS 中誘導自發複合體形成（文獻摘要：'cFLIPS promotes Ripoptosome assembly'；結果，圖 4B）。"
+    },
+    "confidence": 0.95,
+    "source_document": "_document_ - cIAPs Block Ripoptosome Formation Differentially Regulated by cFLIP Isoforms.md",
+    "created": "2026-11-22T15:01:50Z",
+    "updated": "2026-11-22T15:01:50Z"
+  },
+  {
+    "id": "582f9b83cfe1",
+    "subject": "Ripoptosome",
+    "predicate": "decides_between",
+    "object": "Apoptosis and Necroptosis",
+    "context": {
+      "en-US": "The ripoptosome decides between apoptosis and necroptosis: when Caspase-8/cFLIPL heterodimers retain catalytic activity, RIPK1 is cleaved and the complex disassembles (survival); when cFLIPS heterodimers lack activity, RIPK1 accumulates, phosphorylates RIPK3, and MLKL-driven necroptosis ensues (doc abstract; Discussion: Figure 7 working model).",
+      "zh-TW": "Ripoptosome 決定凋亡與凋討亡之間：當 Caspase-8/cFLIPL 異構二聚物保留催化活性，RIPK1 被切割並拆解複合體（存活）；當 cFLIPS 異構二聚物無活性時，RIPK1 累積、磷酸化 RIPK3、MLKL 驅動的凋討亡發生（文獻摘要；討論：圖 7 工作模型）。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - cIAPs Block Ripoptosome Formation Differentially Regulated by cFLIP Isoforms.md",
+    "created": "2026-11-22T15:01:50Z",
+    "updated": "2026-11-22T15:01:50Z"
+  },
+  {
+    "id": "4ae2d2f696ce",
+    "subject": "Ripoptosome",
+    "predicate": "influences_outcome_of",
+    "object": "TLR3-mediated cell death",
+    "context": {
+      "en-US": "The ripoptosome critically influences the outcome of membrane-bound receptor triggering (doc Intro, TLR3 example); TLR3-induced death is caspase- and RIP1-kinase-dependent and independent of autocrine TNF (doc Results 1B).",
+      "zh-TW": "Ripoptosome 對膜受體觸發結局有關鍵影響（文獻引言，以 TLR3 為例）；TLR3 誘導的死亡為 caspase 依賴且 RIP1 激酶依賴，且與自分泌 TNF 無關（文獻結果 1B）。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - cIAPs Block Ripoptosome Formation Differentially Regulated by cFLIP Isoforms.md",
+    "created": "2026-11-22T15:01:50Z",
+    "updated": "2026-11-22T15:01:50Z"
+  },
+  {
+    "id": "523bf47d9b68",
+    "subject": "Ripoptosome",
+    "predicate": "recruited_to",
+    "object": "TRIF",
+    "context": {
+      "en-US": "In the absence of cIAPs the Ripoptosome spontaneously forms and facilitates subsequent recruitment to TRIF (doc Discussion; related: the TLR3–TRIF atypical complex requires RIPK1 but not FADD).",
+      "zh-TW": "在 cIAPs 丟失時，Ripoptosome 自發形成，並促進其後對 TRIF 的招募（文獻討論；相關：TLR3–TRIF 非典型複合體需要 RIPK1 但不需要 FADD）。"
+    },
+    "confidence": 0.7,
+    "source_document": "_document_ - cIAPs Block Ripoptosome Formation Differentially Regulated by cFLIP Isoforms.md",
+    "created": "2026-11-22T15:01:50Z",
+    "updated": "2026-11-22T15:01:50Z"
+  },
+  {
+    "id": "ee922d171dd3",
+    "subject": "Ripoptosome",
+    "predicate": "triggers",
+    "object": "Necroptosis",
+    "context": {
+      "en-US": "The ripoptosome triggers necroptosis when caspase activity is blocked by cFLIPS heterodimers: RIPK1 accumulates in the platform, phosphorylates RIPK3, and MLKL-driven necroptosis proceeds; Nec-1 blocks this route in HaCaT-cFLIPS (doc Discussion; Results 5C/5D).",
+      "zh-TW": "當 cFLIPS 異構二聚物阻斷 caspase 活性時，Ripoptosome 觸發凋討亡：RIPK1 在平台內累積、磷酸化 RIPK3，MLKL 驅動的凋討亡隨之進行；Nec-1 阻斷該路徑（文獻討論；結果 5C/5D）。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - cIAPs Block Ripoptosome Formation Differentially Regulated by cFLIP Isoforms.md",
+    "created": "2026-11-22T15:01:50Z",
+    "updated": "2026-11-22T15:01:50Z"
+  },
+  {
+    "id": "ae50b4136f2f",
+    "subject": "Ripoptosome",
+    "predicate": "is_disassembled_by",
+    "object": "Caspase-8-mediated RIPK1 cleavage",
+    "context": {
+      "en-US": "The ripoptosome is disassembled by complex-intrinsic caspase activity, most likely by RIPK1 cleavage (doc Discussion); zVAD blocks RIP1 cleavage and increases complex stability, and Caspase-8/cFLIPL heterodimers retain catalytic activity sufficient for RIP1 cleavage (doc Discussion, Figure 7 model).",
+      "zh-TW": "Ripoptosome 由複合體內在的 caspase 活性拆解，最可能是 RIPK1 切割（文獻討論）；zVAD 阻斷 RIP1 切割、增加複合體穩定性，且 Caspase-8/cFLIPL 異構二聚物保留足夠的催化活性來切割 RIP1（文獻討論，圖 7 模型）。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - cIAPs Block Ripoptosome Formation Differentially Regulated by cFLIP Isoforms.md",
+    "created": "2026-11-22T15:01:50Z",
+    "updated": "2026-11-22T15:01:50Z"
+  },
+  {
+    "id": "096783bdf71a",
+    "subject": "Necrostatin-1",
+    "predicate": "blocks",
+    "object": "Ripoptosome-driven Necroptosis",
+    "context": {
+      "en-US": "Nec-1 blocked poly(I:C)-induced death in the absence of cIAPs (doc Results 1B) and blocked the spontaneous necroptosis in HaCaT-cFLIPS (doc Results 5C).",
+      "zh-TW": "Nec-1 阻斷 cIAPs 丟失時的 poly(I:C)-誘導死亡（文獻結果 1B），並阻斷 HaCaT-cFLIPS 中的自發凋討亡（文獻結果 5C）。"
+    },
+    "confidence": 0.85,
+    "source_document": "_document_ - cIAPs Block Ripoptosome Formation Differentially Regulated by cFLIP Isoforms.md",
+    "created": "2026-11-22T15:01:50Z",
+    "updated": "2026-11-22T15:01:50Z"
   }
 ]
