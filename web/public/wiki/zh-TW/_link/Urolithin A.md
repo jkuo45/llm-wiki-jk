@@ -2,7 +2,7 @@
 title: Urolithin A
 description: Urolithin A 是一種源自鞣花單寧（存在於石榴與堅果中）的後生元代謝物，已被證實能在多種模式中誘導粒線體自噬，並改善肌肉功能與長壽。
 created: 2024-01-01
-updated: 2026-10-01
+updated: 2026-11-22
 tags:
   - chemical-compound
 aliases: []

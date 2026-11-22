@@ -3,7 +3,7 @@ title: Necroptosis
 description: "當 caspase-8 被阻斷時，由 RIPK1-RIPK3-MLKL 壞死小體執行的調控性壞死細胞死亡；具裂解性與發炎性，連結細胞死亡、先天免疫與疾病。"
 protected: true
 created: 2026-07-04
-updated: 2026-09-14
+updated: 2026-11-22
 tags: [biological-process, cell-death, inflammation, regulated-cell-death]
 url: #
 source: #

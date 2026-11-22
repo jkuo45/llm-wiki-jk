@@ -2,7 +2,7 @@
 title: STING
 description: 干擾素基因刺激因子（Stimulator of interferon genes），是一種透過感知細胞質 DNA 在先天免疫中扮演關鍵角色的訊號傳導蛋白。
 created: 2024-01-01
-updated: 2026-11-10
+updated: 2026-11-22
 tags:
   - innate-immunity
   - cgas-sting-pathway

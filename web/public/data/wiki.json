@@ -44,7 +44,7 @@
           "title": "Apoptosis",
           "description": "凋亡（程式性細胞死亡）是一種高度受調控的機制，可在不引發發炎的情況下清除受損、感染、多餘或具潛在癌變風險的細胞。",
           "created": "2026-05-29",
-          "updated": "2026-09-14",
+          "updated": "2026-11-22",
           "tags": [
             "biological-process",
             "apoptosis"
@@ -82,7 +82,7 @@
           "title": "Senescence-Associated Secretory Phenotype",
           "description": "衰老相關分泌表型（SASP）是衰老細胞分泌的一複雜混合物，包含細胞激素、趨化因子、生長因子、基質金屬蛋白酶、生物活性脂質、細胞外囊泡與非編碼核酸，對組織微環境介導旁分泌與全身性效應。",
           "created": "2024-01-01",
-          "updated": "2026-09-15",
+          "updated": "2026-11-22",
           "tags": [
             "biological-process",
             "senescence",
@@ -200,7 +200,7 @@
           "title": "NF-κB",
           "description": "活化 B 細胞核因子 κ 輕鏈增強子（NF-κB）是控制 DNA 轉錄、胞激素生成與細胞存活的蛋白質複合體，在免疫、發炎與氧化還原訊號中扮演核心角色。",
           "created": "2026-05-09",
-          "updated": "2026-09-02",
+          "updated": "2026-11-22",
           "tags": [
             "protein",
             "transcription-factor",
@@ -237,7 +237,7 @@
           "title": "p53",
           "description": "p53（又稱腫瘤蛋白 P53 或 TP53）是調節細胞週期、 防止癌症形成的重要腫瘤抑制蛋白，常被譽為基因組的守護者。",
           "created": "2026-05-29",
-          "updated": "2026-09-02",
+          "updated": "2026-11-22",
           "tags": [
             "protein"
           ],
@@ -271,7 +271,7 @@
           "title": "Reactive Oxygen Species",
           "description": "活性氧（ROS）是含氧的高反應性分子，為氧代謝的自然副產物。它們兼具訊號傳遞分子與氧化性損傷因子的雙重角色……",
           "created": "2026-05-31",
-          "updated": "2026-10-23",
+          "updated": "2026-11-22",
           "tags": [
             "chemical-compound"
           ],
@@ -344,7 +344,7 @@
           "title": "Necroptosis",
           "description": "當 caspase-8 被阻斷時，由 RIPK1-RIPK3-MLKL 壞死小體執行的調控性壞死細胞死亡；具裂解性與發炎性，連結細胞死亡、先天免疫與疾病。",
           "created": "2026-07-04",
-          "updated": "2026-09-14",
+          "updated": "2026-11-22",
           "tags": [
             "biological-process",
             "cell-death",
@@ -381,7 +381,7 @@
           "title": "Inflammaging",
           "description": "發炎性老化是一種隨著年齡增長而形成的慢性、低度、全身性發炎狀態，是許多年齡相關疾病的主要風險因子。",
           "created": "2026-05-29",
-          "updated": "2026-11-10",
+          "updated": "2026-11-22",
           "tags": [
             "biological-process"
           ],
@@ -416,7 +416,7 @@
           "title": "NAD+",
           "description": "NAD+（菸醯胺腺嘌呤二核苷酸）是存在於每個細胞中的關鍵輔酶，對能量代謝不可或缺，也是重要的訊號分子；它作為所有 sirtuin 酵素的必需共同受質。",
           "created": "2026-07-04",
-          "updated": "2026-09-14",
+          "updated": "2026-11-22",
           "tags": [
             "chemical-compound",
             "nad-plus"
@@ -452,7 +452,7 @@
           "title": "Mitophagy（粒線體自噬）",
           "description": "粒線體自噬是一種選擇性自噬的特化形式，針對受損或功能異常的粒線體進行降解。它是維持粒線體健康與細胞恆定的關鍵品質管制機制……",
           "created": "2024-01-01",
-          "updated": "2026-07-26",
+          "updated": "2026-11-22",
           "tags": [
             "biological-process",
             "mitochondria"
@@ -529,7 +529,7 @@
           "title": "RIPK3",
           "description": "受體交互作用型絲胺酸／蘇胺酸蛋白激酶 3 是壞死性凋亡的必需激酶，由 RIPK1 透過 RHIM 結構域的類澱粉狀組裝招募，並藉由其自身 RIPK3 結構域的磷酸化而活化；當壞死性凋亡被阻斷時，它也透過抑制 caspase-8 來驅動細胞焦亡。",
           "created": "2026-07-04",
-          "updated": "2026-10-01",
+          "updated": "2026-11-22",
           "tags": [
             "protein"
           ],
@@ -649,7 +649,7 @@
           "title": "Urolithin A",
           "description": "Urolithin A 是一種源自鞣花單寧（存在於石榴與堅果中）的後生元代謝物，已被證實能在多種模式中誘導粒線體自噬，並改善肌肉功能與長壽。",
           "created": "2024-01-01",
-          "updated": "2026-10-01",
+          "updated": "2026-11-22",
           "tags": [
             "chemical-compound"
           ],
@@ -683,7 +683,7 @@
           "title": "RIPK1",
           "description": "RIPK1（受體交互作用絲胺酸／蘇胺酸蛋白激酶 1）是分子量 76 kDa 的激酶與含死亡結構域蛋白質，作為核心分子開關，主導細胞在存活、凋亡與壞死性凋亡之間的命運決定。",
           "created": "2026-07-04",
-          "updated": "2026-09-14",
+          "updated": "2026-11-22",
           "tags": [
             "enzyme"
           ],
@@ -723,7 +723,7 @@
           "title": "cGAS-STING Pathway",
           "description": "cGAS-STING 複合體是偵測細胞質 DNA 並活化發炎性干擾素訊號的先天免疫感受器，在 SASP 活化與年齡相關發炎中扮演關鍵角色。",
           "created": "2026-07-07",
-          "updated": "2026-11-10",
+          "updated": "2026-11-22",
           "tags": [
             "biological-process",
             "senescence",
@@ -768,7 +768,7 @@
           "title": "STING",
           "description": "干擾素基因刺激因子（Stimulator of interferon genes），是一種透過感知細胞質 DNA 在先天免疫中扮演關鍵角色的訊號傳導蛋白。",
           "created": "2024-01-01",
-          "updated": "2026-11-10",
+          "updated": "2026-11-22",
           "tags": [
             "innate-immunity",
             "cgas-sting-pathway",
@@ -841,7 +841,7 @@
           "title": "AMPK",
           "description": "AMP 活化蛋白激酶（AMPK）是中央代謝感測器，藉由整合能量狀態與表觀遺傳調節，在老化（Aging）過程中扮演關鍵角色。隨著生物體老化，AMPK 的活性與反應性通常會下降，進而促成老化的各項徵象，包括表觀遺傳改變、蛋白質恆定性喪失與粒線體功能障礙。",
           "created": "2026-05-29",
-          "updated": "2026-10-02",
+          "updated": "2026-11-22",
           "tags": [
             "enzyme"
           ],
@@ -1143,7 +1143,7 @@
           "title": "p21 CIP1",
           "description": "p21CIP1（由 CDKN1A 編碼）是細胞週期依賴性激酶抑制劑，可介導 DNA 損傷誘導的細胞週期停滯，並支持具免疫監視功能的早期 SASP 表型。",
           "created": "2026-07-07",
-          "updated": "2026-09-19",
+          "updated": "2026-11-22",
           "tags": [
             "protein",
             "senescence",
@@ -1337,7 +1337,7 @@
           "title": "FADD",
           "description": "FADD（Fas-associated via death domain）是關鍵的銜接蛋白，在凋亡的外在途徑中將死亡受體連結至起始型 caspase。",
           "created": "2026-07-06",
-          "updated": "2026-10-23",
+          "updated": "2026-11-22",
           "tags": [
             "protein"
           ],
@@ -1719,7 +1719,7 @@
           "title": "Senolytics（衰老細胞清除劑）",
           "description": "一類藉由標的衰老細胞抗凋亡路徑（SCAPs），選擇性地誘導衰老細胞死亡的小分子與胜肽。",
           "created": "2024-01-01",
-          "updated": "2026-09-02",
+          "updated": "2026-11-22",
           "tags": [
             "pharmacological-action",
             "senescence",
@@ -1869,7 +1869,7 @@
           "title": "NLRP3",
           "description": "NOD-like receptor pyrin domain-containing protein 3（NLRP3，cryopyrin），為 NLRP3 發炎小體的感測器成分。它是一個由 PYD-NACHT-LRR 三部分組成的蛋白，透過「先致敏（priming）、後活化」的兩步驟過程被活化，最終導致 caspase-1 活化與細胞焦亡（pyroptosis）。",
           "created": "2026-07-04",
-          "updated": "2026-10-01",
+          "updated": "2026-11-22",
           "tags": [
             "protein",
             "inflammation",
@@ -2237,7 +2237,7 @@
           "title": "PRDX1",
           "description": "PRDX1（peroxiredoxin-1）是硫氧還蛋白依賴性過氧化物酶，具催化性半胱胺酸，作為快速 H2O2 清除劑、氧化還原感受器與 holdase 伴侶蛋白，並藉限制脂質氫過氧化物累積而抑制鐵凋亡。",
           "created": "2026-10-22",
-          "updated": "2026-10-22",
+          "updated": "2026-11-22",
           "tags": [
             "protein",
             "enzyme",
@@ -2505,7 +2505,7 @@
           "title": "HIC1",
           "description": "HIC1（Hypermethylated in Cancer 1）是一種具序列特異性的鋅指轉錄抑制因子，含 N 端 POZ/BTB 域。它是在基因體中經常發生高甲基化、突變或缺失的關鍵抑癌基因...",
           "created": "2026-07-03",
-          "updated": "2026-11-10",
+          "updated": "2026-11-22",
           "tags": [
             "protein"
           ],
@@ -2622,7 +2622,7 @@
           "title": "Gasdermin D",
           "description": "一種成孔效應蛋白，可被發炎性半胱氨酸蛋白酶切割，以執行焦亡並促進 IL-1 家族細胞激素釋放。",
           "created": "2026-07-25",
-          "updated": "2026-11-09",
+          "updated": "2026-11-22",
           "tags": [
             "protein",
             "cell-death",
@@ -3577,7 +3577,7 @@
           "title": "TLR9",
           "description": "內體 Toll 樣受體，負責感受未甲基化的 CpG DNA，並以情境相依的方式調節 cGAS 的表現。",
           "created": "2026-07-13",
-          "updated": "2026-10-08",
+          "updated": "2026-11-22",
           "tags": [
             "protein",
             "receptor",

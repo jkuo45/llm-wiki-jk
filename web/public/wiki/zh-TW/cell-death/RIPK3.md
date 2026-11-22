@@ -3,7 +3,7 @@ title: RIPK3
 description: 受體交互作用型絲胺酸／蘇胺酸蛋白激酶 3 是壞死性凋亡的必需激酶，由 RIPK1 透過 RHIM 結構域的類澱粉狀組裝招募，並藉由其自身 RIPK3 結構域的磷酸化而活化；當壞死性凋亡被阻斷時，它也透過抑制 caspase-8 來驅動細胞焦亡。
 protected: true
 created: 2026-07-04
-updated: 2026-10-01
+updated: 2026-11-22
 tags:
   - protein
 aliases: [Receptor-Interacting Serine/Threonine-Protein Kinase 3]

@@ -2,7 +2,7 @@
 title: cGAS-STING Pathway
 description: cGAS-STING 複合體是偵測細胞質 DNA 並活化發炎性干擾素訊號的先天免疫感受器，在 SASP 活化與年齡相關發炎中扮演關鍵角色。
 created: 2026-07-07
-updated: 2026-11-10
+updated: 2026-11-22
 tags:
   - biological-process
   - senescence

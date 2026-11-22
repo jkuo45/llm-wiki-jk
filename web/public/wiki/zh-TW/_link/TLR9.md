@@ -2,7 +2,7 @@
 title: TLR9
 description: 內體 Toll 樣受體，負責感受未甲基化的 CpG DNA，並以情境相依的方式調節 cGAS 的表現。
 created: 2026-07-13
-updated: 2026-10-08
+updated: 2026-11-22
 tags: [protein, receptor, innate-immunity]
 aliases: [Toll-Like Receptor 9]
 ---

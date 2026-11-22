@@ -2,7 +2,7 @@
 title: NF-κB
 description: "活化 B 細胞核因子 κ 輕鏈增強子（NF-κB）是控制 DNA 轉錄、胞激素生成與細胞存活的蛋白質複合體，在免疫、發炎與氧化還原訊號中扮演核心角色。"
 created: '2026-05-09'
-updated: '2026-09-02'
+updated: 2026-11-22
 tags:
   - protein
   - transcription-factor

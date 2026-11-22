@@ -2,7 +2,7 @@
 title: Inflammaging
 description: 發炎性老化是一種隨著年齡增長而形成的慢性、低度、全身性發炎狀態，是許多年齡相關疾病的主要風險因子。
 created: 2026-05-29
-updated: 2026-11-10
+updated: 2026-11-22
 tags:
   - biological-process
 aliases: []

@@ -2,7 +2,7 @@
 title: AMPK
 description: AMP 活化蛋白激酶（AMPK）是中央代謝感測器，藉由整合能量狀態與表觀遺傳調節，在老化（Aging）過程中扮演關鍵角色。隨著生物體老化，AMPK 的活性與反應性通常會下降，進而促成老化的各項徵象，包括表觀遺傳改變、蛋白質恆定性喪失與粒線體功能障礙。
 created: 2026-05-29
-updated: 2026-10-02
+updated: 2026-11-22
 tags:
   - enzyme
 aliases: [AMP 活化蛋白激酶, 腺苷單磷酸活化蛋白激酶, AMPK 複合體, AMPKα]

@@ -2,7 +2,7 @@
 title: NLRP3
 description: 'NOD-like receptor pyrin domain-containing protein 3（NLRP3，cryopyrin），為 NLRP3 發炎小體的感測器成分。它是一個由 PYD-NACHT-LRR 三部分組成的蛋白，透過「先致敏（priming）、後活化」的兩步驟過程被活化，最終導致 caspase-1 活化與細胞焦亡（pyroptosis）。'
 created: 2026-07-04
-updated: 2026-10-01
+updated: 2026-11-22
 tags:
   - protein
   - inflammation

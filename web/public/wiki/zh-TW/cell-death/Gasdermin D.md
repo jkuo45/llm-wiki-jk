@@ -3,7 +3,7 @@ title: Gasdermin D
 description: 一種成孔效應蛋白，可被發炎性半胱氨酸蛋白酶切割，以執行焦亡並促進 IL-1 家族細胞激素釋放。
 protected: true
 created: 2026-07-25
-updated: 2026-11-09
+updated: 2026-11-22
 tags: [protein, cell-death, inflammation, inflammasome]
 url: #
 source: #

@@ -2,7 +2,7 @@
 title: NAD+
 description: "NAD+（菸醯胺腺嘌呤二核苷酸）是存在於每個細胞中的關鍵輔酶，對能量代謝不可或缺，也是重要的訊號分子；它作為所有 sirtuin 酵素的必需共同受質。"
 created: 2026-07-04
-updated: 2026-09-14
+updated: 2026-11-22
 tags:
   - chemical-compound
   - nad-plus

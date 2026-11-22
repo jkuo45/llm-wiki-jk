@@ -2,7 +2,7 @@
 title: HIC1
 description: HIC1（Hypermethylated in Cancer 1）是一種具序列特異性的鋅指轉錄抑制因子，含 N 端 POZ/BTB 域。它是在基因體中經常發生高甲基化、突變或缺失的關鍵抑癌基因...
 created: 2026-07-03
-updated: 2026-11-10
+updated: 2026-11-22
 tags:
   - protein
 aliases:

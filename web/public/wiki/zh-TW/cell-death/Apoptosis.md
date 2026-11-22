@@ -3,7 +3,7 @@ title: Apoptosis
 description: "凋亡（程式性細胞死亡）是一種高度受調控的機制，可在不引發發炎的情況下清除受損、感染、多餘或具潛在癌變風險的細胞。"
 protected: true
 created: 2026-05-29
-updated: 2026-09-14
+updated: 2026-11-22
 tags:
   - biological-process
   - apoptosis

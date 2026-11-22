@@ -2,7 +2,7 @@
 title: Senescence-Associated Secretory Phenotype
 description: "衰老相關分泌表型（SASP）是衰老細胞分泌的一複雜混合物，包含細胞激素、趨化因子、生長因子、基質金屬蛋白酶、生物活性脂質、細胞外囊泡與非編碼核酸，對組織微環境介導旁分泌與全身性效應。"
 created: 2024-01-01
-updated: 2026-09-15
+updated: 2026-11-22
 tags:
   - biological-process
   - senescence

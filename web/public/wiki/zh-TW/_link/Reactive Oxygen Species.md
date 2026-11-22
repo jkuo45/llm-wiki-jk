@@ -2,7 +2,7 @@
 title: Reactive Oxygen Species
 description: 活性氧（ROS）是含氧的高反應性分子，為氧代謝的自然副產物。它們兼具訊號傳遞分子與氧化性損傷因子的雙重角色……
 created: 2026-05-31
-updated: 2026-10-23
+updated: 2026-11-22
 tags:
   - chemical-compound
 aliases: [ROS, Reactive oxygen species, Reactive oxygen intermediates]

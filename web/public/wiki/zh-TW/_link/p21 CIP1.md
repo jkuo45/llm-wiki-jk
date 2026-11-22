@@ -2,7 +2,7 @@
 title: p21 CIP1
 description: "p21CIP1（由 CDKN1A 編碼）是細胞週期依賴性激酶抑制劑，可介導 DNA 損傷誘導的細胞週期停滯，並支持具免疫監視功能的早期 SASP 表型。"
 created: 2026-07-07
-updated: 2026-09-19
+updated: 2026-11-22
 tags:
   - protein
   - senescence

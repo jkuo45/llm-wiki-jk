@@ -2,7 +2,7 @@
 title: RIPK1
 description: "RIPK1（受體交互作用絲胺酸／蘇胺酸蛋白激酶 1）是分子量 76 kDa 的激酶與含死亡結構域蛋白質，作為核心分子開關，主導細胞在存活、凋亡與壞死性凋亡之間的命運決定。"
 created: 2026-07-04
-updated: 2026-09-14
+updated: 2026-11-22
 tags:
   - enzyme
 aliases: []
