@@ -28,6 +28,10 @@ Curcumin is a selective [[P300]]/[[CBP]] HAT inhibitor (IC50 ~25 µM), blocking 
 
 At 10–40 µM in vitro, curcumin induces [[p16INK4A|p16^INK4a^]]-dependent senescence via oxidative stress, [[p38 MAPK]] activation, and [[SASP|Senescence-Associated Secretory Phenotype]] production.
 
+## Senescence Versus Pro-Death Autophagy — Contextual Contrast
+
+The senescence-inducing activity above — p16^INK4a^-dependent arrest with SASP and p38 MAPK signaling — contrasts with curcumin profiles where curcumin drives pro-death autophagy: the Cells 2024 review reports curcumin induces autophagy in cancer cells where it is a precursor to apoptosis; the glioma clusterin article reports curcumin-induced autophagy as a complementary mechanism of enhanced cell death; and the Dandelion root profile reports pro-death autophagy. The double-edged HAT/autophagy interplay is not fully resolved: P300/CBP HAT inhibition may suppress transcription of some autophagy-regulating factors in some cells while enhancing autophagy in others — context-dependent and unverified. TUSC2-type tumor suppressors have been reported as curcumin-responsive in the literature but are not established in this note.
+
 ## Anti-Aging Evidence
 
 Extends lifespan in _C. elegans_ (via [[DAF-16]]/[[FOXO]]), _Drosophila_ (via [[Sir2]]), and rodents (reduced cancer incidence, improved cognition).

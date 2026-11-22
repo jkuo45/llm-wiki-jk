@@ -3,14 +3,14 @@ title: Shared Entities (_link)
 aliases: []
 description: index of cross-topic shared entities and documents in the _link directory
 created: 2026-08-16
-updated: 2026-11-19
+updated: 2026-11-21
 ---
 # Shared Entities (`_link`)
 
-Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **2123 entities** in a single flat index and **36 documents**.
+Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **2143 entities** in a single flat index and **36 documents**.
 
 > [!note]
-> `_link` index. Total entities: 2123 | Documents: 36
+> `_link` index. Total entities: 2143 | Documents: 36
 >
 ## Documents
 
@@ -70,6 +70,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[5-Fluorouracil\|5-Fluorouracil]] | Fluoropyrimidine antimetabolite chemotherapy drug that inhibits thymidylate synthase and incorporates into RNA/DNA. |
 | [[5xFAD\|5xFAD]] | A transgenic mouse model of aggressive amyloid pathology used to study cGAS-STING in Alzheimer's disease. |
 | [[5Z-7-oxozeaenol\|5Z-7-oxozeaenol]] | A selective TAK1 inhibitor that diminishes the SASP by restraining the ATM-TRAF6-TAK1 axis; a pharmacological comparator for apigenin's ASAP→SASP blockade. |
+| [[6-Shogaol]] | Shogaol class of phenolic alkanones from Zingiber officinale rhizomes; depletes c-FLIP(L), induces TRAIL-dependent apoptosis, and blocks autophagy flux. |
 | [[ABCA1\|ABCA1]] | ATP-binding cassette transporter A1 (ABCA1); mediates cholesterol and phospholipid efflux to lipid-poor apoA-I, initiating HDL biogenesis and reverse cholesterol transport; regulated by LXR, PPARγ, and resveratrol; oxidatively inactivated under stress. |
 | [[ABCG1\|ABCG1]] | ATP-binding cassette transporter G1, a membrane efflux pump that exports cellular cholesterol and phospholipids to HDL particles. |
 | [[ACE Inhibitors\|ACE Inhibitors]] | A class of antihypertensive drugs that block angiotensin-converting enzyme; discussed as conventional agents with anti-aging potential via prevention of multiple age-related diseases. |
@@ -114,6 +115,8 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[AGO2\|AGO2]] | Argonaute 2, the catalytic core of the RNA-induced silencing complex (RISC) that mediates microRNA- and siRNA-guided mRNA silencing; part of the SIRT3-modulated axis with cytochrome b in diabetic cardiomyopathy. |
 | [[AICAR\|AICAR]] | 5-Aminoimidazole-4-carboxamide ribonucleotide, an AMP analog that activates AMPK and is used as a metabolic and exercise-mimetic tool compound. |
 | [[AIDS\|AIDS]] | Acquired immunodeficiency syndrome is the advanced clinical stage of untreated HIV infection, defined by severe CD4 T-cell depletion and by a set of specific opportunistic infections and malignancies; combination antiretroviral therapy prevents its development in most treated individuals. |
+| [[Ailanthus altissima\|Ailanthus Altissima]] | Stink tree, invasive tree of Central China; root bark contains the quassinoid ailanthone; induces apoptosis and represses base-excision repair via p23. |
+| [[Ailanthone]] | Pentacyclic diterpene lactone, C20 quassinoid family, from Ailanthus altissima bark; cytotoxic against MCF-7 and mechanistically characterized. |
 | [[AIM2\|AIM2]] | Cytosolic double-stranded DNA sensor that assembles an inflammasome, driving pyroptosis and inflammatory cell death. |
 | [[Akkermansia\|Akkermansia]] | Akkermansia is a genus of bacteria in the phylum Verrucomicrobia, specifically Akkermansia muciniphila, which is associated with gut health, metabolic homeostasis, and longevity. |
 | [[Akkermansia muciniphila\|Akkermansia muciniphila]] | Akkermansia muciniphila is a mucin-degrading gut bacterium enriched by berberine and associated with gut barrier integrity and metabolic health. |
@@ -184,6 +187,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[aPTT\|aPTT]] | The activated partial thromboplastin time (aPTT) is a coagulation assay that times plasma clot formation after contact activation, testing the intrinsic and common pathways (factors I, II, V, VIII, IX, X, XI, XII) and used to monitor unfractionated heparin. |
 | [[Aquaporins\|Aquaporins]] | A family of integral membrane channel proteins that conduct water (and in some cases small solutes) across cell membranes. |
 | [[Arachidonic acid\|Arachidonic acid]] | Biochemical properties: Arachidonic acid is an endogenous metabolite involved in cellular energy metabolism, redox reactions, or biosynthetic pathways. Its cellular concentration reflects metab... |
+| [[Arctium lappa]] | Burdock root (Asteraceae); root matrix contains arctigenin (lignan, docks TGFBR1), chlorogenic/caffeic acids, lupeol, ursolic acid, quercetin, and polyphenols; Tier 4 in vitro evidence. |
 | [[ARE\|ARE (Antioxidant Response Element)]] | ARE (Antioxidant Response Element) is a cis-acting regulatory element in the promoter regions of over 200 cytoprotective genes. It is the primary DNA sequence through which NRF2 drives the expr... |
 | [[Arf1]] | ADP-ribosylation factor 1, the class I small GTPase that recruits COPI coatomer to Golgi membranes and drives intra-Golgi and retrograde vesicular transport. |
 | [[Arginine Glycine Amidinotransferase\|Arginine Glycine Amidinotransferase]] | First committed enzyme of creatine synthesis, transferring amidino group from arginine to glycine. |
@@ -243,6 +247,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Bacteroidetes\|Bacteroidetes]] | Bacteroidetes is a phylum of Gram-negative, non-spore-forming, anaerobic or aerobic, and rod-shaped bacteria that are widely distributed in the environment, including the human gut. |
 | [[BAFF\|BAFF]] | B-cell activating factor (TNFSF13B), a TNF-superfamily cytokine secreted by senescent cells that reinforces the SASP and links senescence to adaptive immunity. |
 | [[Bafilomycin A1\|Bafilomycin A1]] | Chemical properties: Bafilomycin A1 is a chemical substance with defined molecular structure, functional groups, and physicochemical properties that determine its biological activity. |
+| [[Baicalin]] | Baicalin — flavone-7-O-glucuronide of Baicalein; p53-dependent G0/G1 arrest in MCF-7, STAT3 inhibition, PI3K/AKT/mTOR, autophagy, Wnt/β-catenin; QR (NAD(P)H:quinone reductase) induction (Park et al. 1998, 2004). |
 | [[Bardoxolone methyl\|Bardoxolone methyl]] | Chemical properties: Bardoxolone methyl is a chemical substance with defined molecular structure, functional groups, and physicochemical properties that determine its biological activity. |
 | [[Barrier-to-Autointegration Factor 1\|Barrier-to-Autointegration Factor 1]] | A chromatin-associated protein that binds the nuclear envelope and regulates cGAS localization and activity. |
 | [[Base Excision Repair\|Base Excision Repair]] | Definition: Base Excision Repair is a fundamental biological process that maintains cellular and organismal homeostasis. It involves coordinated molecular events regulated by signaling pathways... |
@@ -288,6 +293,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[BRG1\|BRG1]] | ATPase subunit of SWI/SNF chromatin remodelers controlling differentiation and tumor suppression. |
 | [[Bronchopulmonary Dysplasia\|Bronchopulmonary Dysplasia]] | Chronic lung disease of prematurity affecting alveolar and vascular development |
 | [[Brown Adipose Tissue\|Brown Adipose Tissue]] | Mitochondria-rich thermogenic fat that expends energy as heat via UCP1; activated by cold exposure, a classic mitohormetic stimulus. |
+| [[Brucea javanica\|Brucea Javanica]] | Fruit of Brucea javanica (Simarrobaceae) — oil emulsion used as adjuvant therapy in China; quassinoid constituents and lung-cancer meta evidence. |
 | [[BubR1\|BubR1]] | BubR1 (BUB1B) is a mitotic checkpoint serine/threonine kinase essential for the spindle assembly checkpoint; SIRT2 extends lifespan in BubR1 hypomorphic progeroid mice. |
 | [[Butyrate\|Butyrate]] | Butyrate is a four-carbon short-chain fatty acid produced by gut bacteria, known for its anti-inflammatory properties and its role as a primary energy source for colonocytes. |
 | [[c-FLIP\|c-FLIP]] | FLICE-like inhibitory protein (c-FLIP/CFLAR) — an enzymatically inactive caspase-8 homolog whose isoforms set the apoptose/necroptose/pyroptose switch by tuning caspase-8 activity inside death receptor and inflammasome complexes. |
@@ -354,7 +360,11 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[CD4+ T Cells\|CD4+ T Cells]] | CD4-positive T helper cells are central coordinators of adaptive immunity, orchestrating immune responses through cytokine production and helper functions. |
 | [[CD40L\|CD40L]] | CD40L (CD154, TNFSF5) is a trimeric TNF-superfamily type II transmembrane cytokine expressed on activated CD4+ T cells that engages CD40 on B cells and antigen-presenting cells to drive germinal centre formation, class-switch recombination, and dendritic cell maturation. |
 | [[CD44\|CD44]] | CD44 variant isoforms (CD44v) partner with MUC1-C and xCT to sustain GSH and ferroptosis resistance in triple-negative breast cancer. |
+| [[Cichorium intybus\|Cichorium Intybus]] | Chicory root (Cichorium intybus, Asteraceae); inulin composition and prebiotic effect in a DMH rat colon-cancer model. |
+| [[Curcuma longa]] | Curcuma longa (turmeric); rhizome plant; dominant phenolic compound curcumin — P300/CBP HAT inhibition → reduced H3K27ac at super-enhancers, NF-κB targets down; senescence via p16INK4A, p38 MAPK, SASP (per Curcunin). |
 | [[Cytotoxic CD4+ T Cells]] | Effector CD4+ T cells (CD4 CTLs) expressing EOMES, CD38, CCL5, perforin and granzymes that expand during aging, accumulate in the bone marrow, and drive CCL5–CCR5-dependent myelopoiesis while retaining senescent-cell killing capacity. |
+| [[Echinacea]] | Asteraceae (coneflower) root extracts of E. pallida, E. angustifolia and E. purpurea; cancer cell cytotoxicity and doxorubicin interference. |
+| [[Dandelion\|Dandelion (Taraxacum officinale)]] | Dandelion root — triterpenes, phenolic acids, flavonoids, sesquiterpene lactones, inulin; FADD/caspase-8 apoptosis with cFLIP suppression; mitochondrial ROS; pro-death autophagy; PI3K/Akt/NF-κB/STAT3 suppression; CHKA/phosphocholine interference in glycerophospholipid metabolism; low-dose rodent data; one published CMML case (n=1). |
 | [[Filaggrin]] | Epidermal differentiation protein that bundles keratin filaments and supplies natural moisturizing factor; increased in aged skin by topical urolithin A. |
 | [[Formyl Peptide Receptor]] | Formyl peptide receptors (FPRs) are G-protein-coupled receptors that sense N-formyl peptides from bacteria and mitochondria, recruiting and activating innate immune cells. |
 | [[Dapansutrile]] | Dapansutrile (OLT1177) is an oral, selective NLRP3 inflammasome inhibitor that blocks NLRP3 ATPase activity and is being developed for inflammatory diseases. |
@@ -678,6 +688,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Ki67]] | Nuclear proliferation marker present in cycling cells G1 through M and absent in quiescent cells, used to quantify epidermal proliferation in skin-aging studies. |
 | [[Keratinocyte]] | Dominant epidermal cell type forming the skin barrier through proliferation and terminal differentiation; responds to topical urolithin A with increased mitochondrial respiration, mitophagy markers, and differentiation markers. |
 | [[LCAD]] | Long-chain acyl-CoA dehydrogenase — mitochondrial beta-oxidation enzyme deacetylated and activated by SIRT3 during fasting; SIRT3 knockout accumulates fatty-acid oxidation intermediates with low ATP. |
+| [[Magnolia root bark\|Magnolia Root Bark]] | Root bark of Magnolia biondii and Magnolia delavayi (Magnoliaceae); parthenolide survey data and ACT001 semisynthesis source. |
 | [[Maraviroc]] | FDA-approved CCR5 antagonist (HIV-1 entry inhibitor) that in aged mice normalizes CCL5-CCR5-driven myelopoiesis, lowers the neutrophil-to-lymphocyte ratio and inflammaging cytokines, and improves metabolic and functional healthspan outcomes. |
 | [[miR-134]] | Brain-enriched microRNA repressed by SIRT1 to permit CREB and BDNF expression; the SIRT1–miR-134–CREB–BDNF axis promotes memory formation and synaptic plasticity. |
 | [[Mitochondrial-Derived Vesicles]] | Mitochondrial-derived vesicles (MDVs) are selective cargo carriers that bud from mitochondria to deliver mitochondrial components to lysosomes or export them via extracellular vesicles, influencing mitochondrial DAMP release. |
@@ -685,8 +696,10 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[MKK7]] | MAP2K7 (MEK7), the dual-specificity MAP2K that activates JNK downstream of ASK1 and other MAP3Ks — and the kinase directly bound and inhibited by cFLIP_L, linking the caspase-8 rheostat to the JNK branch. |
 | [[Myelopoiesis]] | Production of myeloid lineage cells (granulocytes, monocytes, macrophages) from hematopoietic progenitors; biased expansion during aging via CCL5–CCR5 signaling raises the neutrophil-to-lymphocyte ratio. |
 | [[N-Formyl Peptides]] | N-formyl peptides are mitochondrial translation products with bacterial-like immunogenic features that signal through formyl peptide receptors to recruit and activate innate immune cells. |
+| [[Parthenolide]] | Sesquiterpene lactone (α-methylene-γ-lactone) isolated from Tanacetum parthenium; covalent NF-κB pathway inhibitor via IKKβ Cys179/p65 Cys38 alkylation; studied for TRAIL/STAT3 sensitisation and as source of the ACT001 program. |
 | [[POMC]] | Pro-opiomelanocortin — precursor polypeptide cleaved into ACTH, alpha-MSH and beta-endorphin; hypothalamic arcuate POMC neurons are a SIRT1-regulated feeding-behavior node under dietary restriction. |
 | [[NDUFA9]] | Accessory subunit of mitochondrial Complex I (39-kDa subunit) deacetylated by SIRT3; part of the OXPHOS machinery regulating cellular ATP levels. |
+| [[Scutellgling baalensis]] | Scutellgling baalensis (Huang-Qin) — root of a Lamiaceae herb; flavone glycosides baicalin, baicalein, wogonin, wogonoside; apoptosis in EGFR TKI-resistant lung cancer via STAT3 inactivation (Park et al. 2021); HCC transplanted-tumour weight (Ma et al. Ann Med 55(2):2247004). |
 | [[Siglec-10\|Siglec-10]] | Siglec-10 (SIGLEC10) is an inhibitory I-type lectin on macrophages and other leukocytes that recognizes sialylated — and via CD24, non-sialylated — "don't-eat-me" signals, dampening phagocytosis of viable healthy cells. |
 | [[Eosinophilia]] | Eosinophilia is an elevated absolute eosinophil count above 0.5 x 10^9/L, graded as mild, moderate, or severe; it is a laboratory finding rather than a diagnosis, and its cause must be sought before it is treated. |
 | [[Eosinophils\|Eosinophils]] | Eosinophils are IL-5-driven granulocytes of myeloid lineage that degranulate a cationic, peroxidase-rich granule arsenal onto helminths and onto host tissue, making them simultaneously essential for parasite defence and drivers of allergic and fibrotic disease. |
@@ -1965,6 +1978,8 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Takotsubo Cardiomyopathy\|Takotsubo Cardiomyopathy]] | Acute, reversible left ventricular systolic dysfunction triggered by intense emotional or physical stress, mediated by catecholamine surge, oxidative stress, and lipid peroxidation. |
 | [[TALE\|TALE]] | Transcription activator-like effectors, natural DNA-binding repeat arrays from Xanthomonas bacteria that can be reprogrammed to recognize specific DNA sequences; the DNA-binding domain used in mitoTALENs and other gene-editing tools. |
 | [[Tamoxifen\|Tamoxifen]] | Selective estrogen receptor modulator (SERM) used in hormone-receptor-positive breast cancer; efficacy modulated by sirtuins |
+| [[Taraxasterol]] | Pentacyclic triterpene (taraxasterane family) isolated from Taraxacum root; suppresses choline kinase alpha, causes PC/SM membrane-fluidity reduction, and induces pro-death autophagy in cancer cells. |
+| [[Tanacetum parthenium]] | Feverfew (Tanacetum parthenium); perennial herb native to Europe and the Mediterranean; botanical source of the sesquiterpene lactone parthenolide. |
 | [[TARG1\|TARG1]] | TARG1 (OARD1/C6orf130) is a macrodomain ADP-ribosylhydrolase erasing Asp/Glu-MARylation and terminal PAR |
 | [[Targeted Therapy\|Targeted Therapy]] | Cancer treatment modality in which drugs are aimed at a specific molecular dependency of a tumour — an oncogene, a receptor kinase, a blood vessel, or an immune checkpoint — rather than at the nonspecific damage of rapidly dividing cells. |
 | [[TASCC\|TASCC]] | TOR-autophagy spatial coupling compartment, an mTORC1-autophagy signaling hub in senescent cells that couples amino-acid recycling to sustained SASP translation. |
@@ -1977,11 +1992,14 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[TCA cycle\|TCA cycle]] | Tricarboxylic acid (Krebs) cycle, the central mitochondrial pathway oxidizing acetyl-CoA to CO2 while generating NADH, FADH2, and GTP. |
 | [[TDO\|TDO]] | Tryptophan 2,3-dioxygenase (TDO) is a hepatic heme-containing enzyme that catalyzes the same first step in the kynurenine pathway as IDO1 — converting tryptophan to N-formylkynurenine — and is primarily regulated by tryptophan concentration and glucocorticoids. |
 | [[Threonine Dehydrogenase]] | Threonine dehydrogenase (L-threonine 3-dehydrogenase) catalyses the NAD+-dependent oxidation of L-threonine to aminoacetone, ammonia and carbon dioxide, feeding aminoacetone to the methylglyoxal pathway in rodent liver. |
+| [[Tithonia diversifolia\|Tithonia Diversifolia]] | Tithonia diversifolia (Asteraceae) shrub of Central America; sesquiterpene lactones diversifolin, diversifolin methyl ether, tirotundin; anti-inflammatory and cytotoxic activity. |
 | [[Topical Application]] | Delivery of an active compound to skin by direct external application, used for local bioavailability without systemic exposure in skin-longevity and dermatology studies. |
 | [[TOMM20]] | Translocase of the outer mitochondrial membrane complex used as a marker of mitochondrial mass and biogenesis; increased in epidermis by topical urolithin A. |
 | [[Triglycerides]] | Triacylglycerols are the dominant dietary and storage lipid, carried by chylomicrons and VLDL, mobilised by lipolysis, and their plasma elevation is a driver of pancreatitis and metabolic disease. |
 | [[Tissue Factor]] | Factor III, the transmembrane initiator of the extrinsic coagulation cascade that binds factor VIIa to trigger thrombin generation and, on monocytes and tumour cells, links coagulation to inflammation and cancer. |
 | [[TLR7]] | Endosomal Toll-like receptor 7 that senses single-stranded RNA in endolysosomal compartments and drives type I interferon and NF-kappaB inflammatory signalling in plasmacytoid dendritic cells and B cells. |
+| [[Triptolide]] | Diterpenoid triepoxide from Tripterygium wilfordii; covalently binds XPB (TFIIH), inhibits RNA Polymerase II transcription; induces autophagy/senescence; narrow therapeutic window. |
+| [[Tripterygium wilfordii]] | Chinese herb leigongteng (雷公藤); the entire plant, especially the root bark, produces triptolide, triptonide, celastrol, and pristomerin. |
 | [[TRPC6\|TRPC6]] | Ca2+-permeable transient receptor potential channel 6; mediates Ca2+ entry into human erythrocytes (TRPC4/5 in mouse), a candidate initiation route for eryptosis. |
 | [[TDP-43\|TDP-43]] | TAR DNA-binding protein 43, an RNA-binding protein whose mitochondrial mislocalization in ALS/FTD triggers cGAS-STING activation via mtDNA release. |
 | [[Telomerase\|Telomerase]] | Catalytic function: Telomerase is an enzyme that catalyzes biochemical reactions essential for cellular metabolism and homeostasis. |
@@ -2157,6 +2175,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[WI-38\|WI-38]] | A diploid human fetal lung fibroblast cell line derived by Leonard Hayflick in 1962, widely used as a model for replicative senescence and aging research; the cell line in which the ACase-ferroptosis connection was discovered. |
 | [[WIPI2\|WIPI2]] | WIPI2 is a seven-bladed beta-propeller phosphoinositide effector that binds PI(3)P via its FRRG motif and recruits the ATG12-ATG5-ATG16L1 complex to the omegasome, licensing LC3/GABARAP lipidation at the phagophore and creating a positive feedback loop with PI3KC3-C1. |
 | [[Withaferin A\|Withaferin A]] | Bioactive withanolide from Withania somnifera (ashwagandha) with anti-inflammatory, anti-fibrotic, and anti-tumor activity; exerts hepatic anti-fibrotic effects through SIRT3. |
+| [[Withania somnifera]] | Plant (ashwagandha) producing withanolide steroidal lactones from root and leaf; withaferin A mediates its anticancer and anti-fibrotic activities. |
 | [[Wnt signaling\|Wnt Signaling]] | Definition: Wnt Signaling is a fundamental biological process that maintains cellular and organismal homeostasis. It involves coordinated molecular events regulated by signaling pathways and en... |
 | [[Wnt-beta-catenin\|Wnt-beta-catenin]] | Canonical Wnt pathway stabilizing beta-catenin for proliferation and stemness programs. |
 | [[WNT16B\|WNT16B]] | A Wnt ligand and canonical SASP factor secreted by therapy-damaged stromal cells that promotes cancer therapy resistance; its expression is suppressed by apigenin. |
@@ -2176,6 +2195,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Zharp-99\|Zharp-99]] | Zharp-99 is a small-molecule RIPK3 inhibitor used preclinically to block necroptosis. |
 | [[Zinc\|Zinc]] | Zinc (Zn, atomic number 30) is an essential trace element and the second most abundant trace metal in the body, serving as a catalytic or structural cofactor for over 300 enzymes and structurally anchoring zinc-finger DNA-binding domains, with both deficiency and excess being clinically consequential. |
 | [[Zinc Finger\|Zinc Finger]] | A conserved protein structural motif in which zinc ions coordinate cysteine and histidine residues to form a compact DNA-binding domain; arrays of zinc fingers are used as programmable DNA-recognition modules in zinc finger nucleases and mitoZFNs. |
+| [[Zingiber officinale]] | Ginger rhizome — phenolic alkanones 6-gingerol, 6-shogaol, 6-paradol; in vitro TRAIL sensitisation via NF-κB/cIAP1 in gastric cancer cell lines; ACT001 as related synthetic analogue. |
 | [[Zone 2 Cardio\|Zone 2 Cardio]] | Low-to-moderate aerobic training sustained in the fat-oxidation zone; builds the mitochondrial base and supports recovery on non-hormetic days. |
 | [[Zscan4\|Zscan4]] | A transcription factor implicated in feedforward potentiation of the SASP during the transition from acute stress signaling to chronic senescence-associated secretion. |
 | [[α-Ketoglutarate\|α-Ketoglutarate]] | α-Ketoglutarate (α-KG) is a key TCA cycle intermediate derived from glutamine and glutamate; serves as a metabolic hub linking carbon metabolism to biosynthesis, epigenetic regulation, and signaling. |
