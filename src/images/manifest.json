@@ -10745,5 +10745,71 @@
         "ocr": ""
       }
     }
+  },
+  {
+    "id": "n-20261121-mitochondrial-transfer-bone-00",
+    "document": "",
+    "entities": [
+      "Mitochondria",
+      "Mitochondrial Quality Control",
+      "Mitochondrial Biogenesis",
+      "Mitophagy",
+      "SIRT3",
+      "Mitochondrial ROS",
+      "Reactive Oxygen Species",
+      "PGC-1α",
+      "Mitochondrial Complex I",
+      "NETosis",
+      "Macrophage",
+      "Platelet",
+      "Wound Healing",
+      "VEGF",
+      "TLR9",
+      "MyD88",
+      "Osteoblast",
+      "Mitochondrial Peptides",
+      "Cellular Senescence",
+      "Inflammation",
+      "NDUFS4",
+      "Mitochondrial Transfer",
+      "CpG",
+      "FPR1-3",
+      "Methionine Peptide"
+    ],
+    "tags": [
+      "oxidative-stress",
+      "mitochondria",
+      "mitochondrial-transfer",
+      "mitochondrial-quality-control",
+      "mitochondrial-biogenesis",
+      "mitophagy",
+      "mitochondrial-ros",
+      "sirt3",
+      "wound-healing",
+      "macrophage",
+      "innate-immunity",
+      "platelets"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "file": "mitochondrial_transfer_bone.png"
+      }
+    ],
+    "annotations": [],
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "author": "you",
+    "draft": false,
+    "translations": {
+      "en-US": {
+        "title": "Mitochondrial transfer in bone tissue — four-quadrant network schematic",
+        "ocr": "1 Regulate Receptor Cell Metabolism\nInset: three ATP labels, NAD and a mitochondrion, captioned NDUFS4, with an upward arrow\nNDUFS4 arrow to a green cell\nrho-zero cell (labelled \"p0 cell\")\nMitochondrial transfer (central cell to rho-zero cell)\nrho-zero tumor cells (labelled \"p0 tumor cells\")\nCell division / Migration\n\n2 Mitochondrial Quality Control Network\nMitochondrial gene expression with an upward arrow\nPGC-1a\nMitochondrial transfer (central cell to a cluster of green cells)\nMitochondrial autophagy (inset: a mitochondrion)\nEliminate senescent mitochondria\n\n3 Promote Wound Healing\nMacrophage\nTNT\nMitochondrial transfer (central cell to macrophage)\nMitochondrial transfer (macrophage to stem cells)\nMCS-Osteogenic differentiation\nPromote repair (bone)\nAntibacterial\nNeutrophil\nEndothelial progenitor cells\nVEGF\nPromote angiogenesis\nSkin damage\nPlatelet\n\n4 Immune Regulation - A Double-edged Sword\nAdipocyte\nMitochondrial transfer (adipocyte to heart)\nAntioxidant reaction with a downward arrow (heart)\nPlatelet\nTLR9-MyD88 arrow to Neutrophil\nNETosis with an upward arrow\nBacterial removal efficiency with an upward arrow\nInset: CpG DNA, Methionine peptide and a mitochondrion\nTLR9 / FPR1-3 arrow to the skin\nPro-inflammatory immune response\nFigure caption: no caption printed on the figure.\nSource: figure posted by @Madam_Mito on X (https://x.com/Madam_Mito/status/2124064109646024964), illustrating mitochondrial transfer and targeted delivery strategies in bone tissue; the post links to a review."
+      },
+      "zh-TW": {
+        "title": "骨組織中的粒線體轉移——四分支網路示意圖",
+        "ocr": "1 Regulate Receptor Cell Metabolism\n放大圖：三個 ATP 標示、NAD 與粒線體，註記 NDUFS4，附向上箭頭\nNDUFS4 箭頭指向綠色細胞\nrho-zero 細胞（圖中標為 p0 cell）\nMitochondrial transfer（中央細胞 → rho-zero 細胞）\nrho-zero 腫瘤細胞（圖中標為 p0 tumor cells）\nCell division / Migration\n\n2 Mitochondrial Quality Control Network\nMitochondrial gene expression（向上箭頭）\nPGC-1a\nMitochondrial transfer（中央細胞 → 綠色細胞群）\nMitochondrial autophagy（放大圖：一顆粒線體）\nEliminate senescent mitochondria\n\n3 Promote Wound Healing\nMacrophage\nTNT\nMitochondrial transfer（中央細胞 → 巨噬細胞）\nMitochondrial transfer（巨噬細胞 → 幹細胞）\nMCS-Osteogenic differentiation\nPromote repair（骨骼）\nAntibacterial\nNeutrophil\nEndothelial progenitor cells\nVEGF\nPromote angiogenesis\nSkin damage\nPlatelet\n\n4 Immune Regulation - A Double-edged Sword\nAdipocyte\nMitochondrial transfer（脂肪細胞 → 心臟）\nAntioxidant reaction（向下箭頭，心臟）\nPlatelet\nTLR9-MyD88 → Neutrophil\nNETosis（向上箭頭）\nBacterial removal efficiency（向上箭頭）\n放大圖：CpG DNA、Methionine peptide 與粒線體\nTLR9 / FPR1-3 → 皮膚\nPro-inflammatory immune response\n圖說：圖上未印出標題說明。\n來源：由 @Madam_Mito 發布於 X（https://x.com/Madam_Mito/status/2124064109646024964）的圖，呈現骨組織中的粒線體轉移與標靶遞送策略；貼文連結至一篇綜述。"
+      }
+    }
   }
 ]
