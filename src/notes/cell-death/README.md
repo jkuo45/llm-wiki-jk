@@ -47,6 +47,8 @@ Death-receptor and necrosome signaling: [[TNFR1]], [[TNFR1 complex I]], [[TNFR1 
 
 Death-inducing complex assembly: [[Death Effector Domain]] (the DED dimerization module shared by FADD, procaspase-8/10, c-FLIP and vFLIP — the physical step that builds both the [[DISC]] and the [[Ripoptosome]]).
 
+Keratinocyte cell line: [[HaCaT]] — spontaneously immortalized human keratinocyte; the normal-cell control in cell-death assays — spontaneous [[Ripoptosome]] assembly and RIPK1-dependent TLR3 death are observed in HaCaT but not in primary keratinocytes (Feoktistova 2011).
+
 Necroptosis regulators and sensors (mostly `_link/`): [[ZBP1]], [[TRIF]], [[PANoptosis]], [[PANoptosome]], [[CYLD]], [[OTULIN]], [[TRIM21]], [[RSK3]], [[CSNK1G2]], [[TAM Kinases]], [[PGAM5]], [[Pyruvate Dehydrogenase]], [[HSP90β]], [[BRD4]].
 
 Linear ubiquitination and ubiquitin signalling: [[LUBAC]] (RBR E3 ligase assembling M1-linked polyubiquitin chains on TNF-receptor complex I, the pivot between NF-κB survival signalling and necroptosis).
