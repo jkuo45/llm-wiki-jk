@@ -3,7 +3,7 @@ title: c-FLIP
 description: FLICE-like inhibitory protein (c-FLIP/CFLAR) — an enzymatically inactive caspase-8 homolog whose isoforms set the apoptose/necroptose/pyroptose switch by tuning caspase-8 activity inside death receptor and inflammasome complexes.
 protected: false
 created: 2026-08-29
-updated: 2026-11-19
+updated: 2026-11-21
 tags:
   - protein
   - cell-death
@@ -60,6 +60,12 @@ The full account lives at [[Caspase-8-c-FLIP Rheostat]]; the essentials:
 - **Ripoptosome corollary.** Without cIAPs, caspase activity itself becomes the rheostat: FLIP_L
   heterodimers cleave [[RIPK1]] and disassemble the ripoptosome (survival), FLIP_S heterodimers cannot
   (→ [[Necroptosis]] via [[RIPK3]]/[[MLKL]]) — Feoktistova 2011.
+
+## Root/Herb Phenolics — Independent cFLIP Modulators (In Vitro)
+
+- **Dandelion root extract** — down-regulates cFLIP at 2.5 mg/mL in HT-29 cells; activates the [[TRAIL]] extrinsic pathway (Ovadje 2016, Oncotarget, PMID 27564258).
+- **Withanolide E** (Physalis peruviana) — degrades cFLIP proteins, sensitising cells to [[TRAIL]] (Henrich 2015, Cell Death Dis, PMID 25719250).
+- **6-shogaol** — down-regulates c-FLIP(L) post-translationally via ROS-mediated cytochrome c release; verified in renal carcinoma Caki cells (Han 2015, Chem Biol Interact, PMID 25619640).
 
 ## Documents
 

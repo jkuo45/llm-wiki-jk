@@ -3,7 +3,7 @@ title: Caspase-8-c-FLIP Rheostat
 description: The quantitative switch in which the ratio of caspase-8 homodimers to c-FLIP heterodimers at DISC, complex II and ripoptosome decides between apoptosis, necroptosis and survival.
 protected: true
 created: 2026-09-03
-updated: 2026-11-19
+updated: 2026-11-21
 tags:
   - mechanism
   - cell-death
@@ -96,6 +96,10 @@ TNFR1 complex II, and the ripoptosome.
 proteasome-sensitive turnover, HDAC inhibitors, cisplatin/Itch-p53 axis — re-sensitizes tumors to
 death ligands. Conversely, stabilizing [[c-FLIP|FLIP_L]] protects liver, gut and skin epithelia from
 TNF-driven injury, at the cost of blocking anti-tumor [[Apoptosis]].
+
+## Dandelion Root Extract
+
+Dandelion root extract has reported activity on this switch: in vitro, it suppresses caspase-8/FADD-dependent [[Apoptosis]] and promotes pro-death autophagy, with cFLIP suppression at 2.5 mg/mL (Ovadje 2012, PLOS ONE). Withanolide E and 6-shogaol show a convergent cFLIP-suppressing signature in other preparations; no separate vault entries for those exist yet. Note: the [[Dandelion]] entry was added in this task, linking here and from [[Inulin]].
 
 ## Documents
 
