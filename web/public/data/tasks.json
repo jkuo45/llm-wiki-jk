@@ -1,5 +1,5 @@
 {
-  "generated": "19_NOV_2026 07:57 PM PST",
+  "generated": "22_NOV_2026 07:07 PM PST",
   "tasks": [
     {
       "id": "tasks-index",
@@ -22,6 +22,142 @@
           "tags": [],
           "path": "pages/tasks-index.html"
         }
+      }
+    },
+    {
+      "id": "task_output_autophagy_cell_death_vault_vs_medical_22_Nov_2026",
+      "langs": {
+        "en-US": {
+          "title": "Autophagy and cell death — vault versus current medical approaches",
+          "description": "Comparison of the vault's mechanistic, aging-oriented model of autophagy and cell death with current medical practice and trials: emphasis on autophagy in medicine, regulation of cell death, three meals a day versus fasting/caloric restriction, purely protective versus mitohormetic framing, and the status of adrenochrome as a proposed senotherapeutic.",
+          "created": "2026-11-22",
+          "updated": "2026-11-22",
+          "tags": [
+            "autophagy",
+            "cell-death",
+            "fasting",
+            "caloric-restriction",
+            "adrenochrome",
+            "mitohormesis",
+            "medical-therapy",
+            "senolytics"
+          ],
+          "filename": "task_output_autophagy_cell_death_vault_vs_medical_22_Nov_2026.md",
+          "path": "tasks/en-US/task_output_autophagy_cell_death_vault_vs_medical_22_Nov_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_autophagy_cell_death_vault_vs_medical_22_Nov_2026.md"
+        },
+        "zh-TW": {
+          "title": "Autophagy 與細胞死亡——vault 與當前醫療方法的比較",
+          "description": "綜合審視 vault 以機制、衰老為導向的 autophagy 與細胞死亡模型，與當前醫療實務與試驦比較：醫學界對 autophagy 的強調程度、細胞死亡調控（含性別二型性）、三餐一日式飲食與禁食／熱量限制的相對優先、純粹保護式與粒線體激效（mitohormesis）之間的差異，以及腎上腺色素作為候選衰老治療的現況。",
+          "created": "2026-11-22",
+          "updated": "2026-11-22",
+          "tags": [
+            "autophagy",
+            "cell-death",
+            "fasting",
+            "caloric-restriction",
+            "adrenochrome",
+            "mitohormesis",
+            "medical-therapy",
+            "senolytics"
+          ],
+          "filename": "task_output_autophagy_cell_death_vault_vs_medical_22_Nov_2026.md",
+          "path": "tasks/zh-TW/task_output_autophagy_cell_death_vault_vs_medical_22_Nov_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_autophagy_cell_death_vault_vs_medical_22_Nov_2026.md"
+        }
+      },
+      "stats": {
+        "words": 1628,
+        "images": 0,
+        "links": 15,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "task_output_dandelion_root_cancer_21_Nov_2026",
+      "langs": {
+        "en-US": {
+          "title": "Dandelion Root Extract in Cancer — Preclinical Mechanism Map, Human Evidence Status, and Safety Constraints",
+          "description": "Synthesis of dandelion (Taraxacum officinale / T. mongolicum) root extract anticancer evidence across cell-line and xenograft models (extrinsic apoptosis via caspase-8/FADD, mitochondrial ROS, pro-death autophagy, PI3K/Akt suppression, metabolic reprogramming), the human evidence base (one case report, one unreported Health Canada phase 1), and the interaction and estrogenicity constraints that govern any clinical use.",
+          "created": "2026-11-21",
+          "updated": "2026-11-21",
+          "tags": [
+            "task-output",
+            "dandelion",
+            "taraxacum",
+            "oncology",
+            "apoptosis",
+            "autophagy",
+            "natural-product",
+            "clinical-evidence",
+            "herb-drug-interaction"
+          ],
+          "filename": "task_output_dandelion_root_cancer_21_Nov_2026.md",
+          "path": "tasks/en-US/task_output_dandelion_root_cancer_21_Nov_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_dandelion_root_cancer_21_Nov_2026.md"
+        }
+      },
+      "stats": {
+        "words": 4269,
+        "images": 0,
+        "links": 96,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "task_output_root_herbal_oncology_analogues_21_Nov_2026",
+      "langs": {
+        "en-US": {
+          "title": "Root and Rhizome Botanicals with Dandelion-Like Anticancer Profiles — Mechanistic Analogues, Human Evidence, and the Bioavailability Failure Mode",
+          "description": "Compares roots, rhizomes, root barks and their constituents against the dandelion root extract profile (extrinsic FADD/caspase-8 apoptosis, cFLIP suppression, mitochondrial ROS, pro-death autophagy, PI3K/Akt and NF-κB/STAT3 suppression, metabolic reprogramming), covering Taraxacum-family and Asteraceae sesquiterpene lactones (parthenolide from feverfew, Magnolia root bark, Tithonia), pentacyclic triterpenes (Withania withanolides, Tripterygium celastrol, Arctium lupeol), flavone roots (Scutellaria baicalensis, turmeric, ginger shogaols), fructan roots (chicory), and quassinoid root and bark (Brucea, Ailanthus), with the human trial record for each and the shared failure of oral bioavailability.",
+          "created": "2026-11-21",
+          "updated": "2026-11-21",
+          "tags": [
+            "task-output",
+            "natural-product",
+            "oncology",
+            "dandelion",
+            "sesquiterpene-lactone",
+            "triterpene",
+            "root",
+            "pharmacokinetics",
+            "clinical-evidence"
+          ],
+          "filename": "task_output_root_herbal_oncology_analogues_21_Nov_2026.md",
+          "path": "tasks/en-US/task_output_root_herbal_oncology_analogues_21_Nov_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_root_herbal_oncology_analogues_21_Nov_2026.md"
+        }
+      },
+      "stats": {
+        "words": 7153,
+        "images": 0,
+        "links": 64,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "task_output_natural_bioactive_compounds_review_21_Nov_2026",
+      "langs": {
+        "en-US": {
+          "title": "Review of Natural Bioactive Compounds Mentioned in the Vault",
+          "description": "Inventory and coverage review of natural bioactive compounds with dedicated notes in src/notes/ (21 Nov 2026).",
+          "created": "2026-11-21",
+          "updated": "2026-11-21",
+          "tags": [
+            "review",
+            "bioactive-compounds",
+            "geroscience"
+          ],
+          "filename": "task_output_natural_bioactive_compounds_review_21_Nov_2026.md",
+          "path": "tasks/en-US/task_output_natural_bioactive_compounds_review_21_Nov_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_natural_bioactive_compounds_review_21_Nov_2026.md"
+        }
+      },
+      "stats": {
+        "words": 1050,
+        "images": 0,
+        "links": 56,
+        "diagrams": 0
       }
     },
     {
