@@ -2,13 +2,44 @@
 title: "Feoktistova 等人，Molecular Cell 2011 — 結果與討論回顧：cIAPs 由 cFLIP 亞型調控下的 Ripoptosome 組裝"
 description: "Feoktistova 等人（Molecular Cell 2011，10.1016/j.molcel.2011.06.011）結果與討論部分的摘要：cIAPs 阻斷自發 2 MDa Ripoptosome 形成；cFLIP 亞型設定凋亡與 RIPK3 依賴型壞死之間的 Caspase-8 活性擺盪器。"
 created: 2026-11-22
-updated: 2026-11-22
+updated: 2026-11-23
 type: task-output
 tags: [cell-death, ripoptosome, ciaps, cflip, apoptosis, necroptosis, 2011]
 author: []
 ---
 
 # Feoktistova 等人，Molecular Cell 2011 — 結果與討論回顧：cIAPs 由 cFLIP 亞型調控下的 Ripoptosome 組裝
+
+## 概念地圖：死亡開關機制
+
+**決策流程：組裝即授權，執行決定死亡。**
+
+```
+cIAPs present → modified RIPK1 held by the proteasome → no assembly (survival/apoptosis)
+
+cIAPs lost (Smac mimetic, TLR3/TRIF, MG132, genotoxic stress)
+  → modified RIPK1 accumulates → 2 MDa Ripoptosome "licenses" (assembly; necessary but not sufficient)
+      ├─ Caspase-8 homodimers   → cleave RIPK1 → disassemble → silent apoptosis
+      ├─ FLIP_L-dominant        → cleave RIPK1 → disassemble → survival
+      └─ FLIP_S-dominant        → no cleavage → RIPK1 → RIPK3 → MLKL → necrosome → necroptosis
+           (requires intact RIPK3 and MLKL; otherwise fully protected)
+```
+
+**術語詞典。建議順序：`[[c-FLIP]]` → `[[Caspase-8-c-FLIP Rheostat]]` → `[[Ripoptosome]]` → `[[Smac mimetics]]` → `[[Necroptosis]]` / `[[necrosome]]` / `[[MLKL]]`。每行列出該項目之深入剖析筆記。**
+
+| 術語（本文） | 深入剖析筆記 | 錨定意義 |
+|---|---|---|
+| 2 MDa Ripoptosome | [`src/notes/cell-death/Ripoptosome.md`](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Ripoptosome.md) | 隨機台內質蛋白（RIPK1, FADD, Caspase-8/10 與 c-FLIP）組裝出的死亡平台；凝膠過濾分類達約 2 MDa（fractions 4–6） |
+| "modified RIPK1 pool" | [`Ripoptosome.md`（Regulators）](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Ripoptosome.md) | 隔室化 RIPK1 子集，以蛋白酶醌式細胞凋亡蛋白（proteasome）為目標；MG132 觸發組裝 |
+| cIAP gate | [`src/notes/cell-death/cIAPs.md`](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/cIAPs.md) | E3 酵素，存在時阻止組裝；Smac mimetics 迫使其降解 |
+| cFLIPL / cFLIPS | [`src/notes/_link/c-FLIP.md`](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/c-FLIP.md) | cFLIPL = 煞車 + 組裝阻斷；cFLIPS = 組裝促進 + 凋亡/活性抑制 |
+| "FLIP_L:FLIP_S ratio, not total c-FLIP" | [`src/notes/cell-death/Caspase-8-c-FLIP%20Rheostat.md`](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Caspase-8-c-FLIP%20Rheostat.md) | 各複合體內的局部異構體對至分子畸形對濾，決定命運 |
+| "Caspase-8 activity as the rheostat" | [`Caspase-8-c-FLIP%20Rheostat.md`](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Caspase-8-c-FLIP%20Rheostat.md) | FLIP_L 異構體保留一定活性，可將 RIPK1/RIPK3 切割，低於完全活化層次 |
+| 組裝與執行 | [`Ripoptosome.md`（Mechanism step 4）](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Ripoptosome.md) | 組裝授權死亡；RIPK3/MLKL 提供執行能力 |
+| Necrosome | [`src/notes/cell-death/necrosome.md`](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/necrosome.md) | RIPK1/RIPK3/MLKL 執行複合體 |
+| MLKL | [`src/notes/cell-death/MLKL.md`](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/MLKL.md) | 執行者：N 端四路螺旋捲曲，醱酵化與 IP6 輔助的膜孔 → 滲出性 DAMP 釋放 |
+| Smac mimetics / IAP antagonists | [`src/notes/cell-death/Smac%20mimetics.md`](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Smac%20mimetics.md) | 雙齒 IBM 模擬物使 cIAP RING domain 雙向化，迅速自動修飾並降解 |
+| DAMP release, lytic vs silent | [`src/notes/cell-death/Necroptosis.md`](https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Necroptosis.md) | 滲出死亡釋放 ATP、HMGB1、粒線體 DNA、核殘骸，致發炎循環 |
 
 ## 總結
 
