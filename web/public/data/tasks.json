@@ -1,5 +1,5 @@
 {
-  "generated": "25_NOV_2026 07:11 AM PST",
+  "generated": "25_NOV_2026 07:45 AM PST",
   "tasks": [
     {
       "id": "tasks-index",
@@ -29,7 +29,7 @@
       "langs": {
         "en-US": {
           "title": "Feoktistova et al., Molecular Cell 2011 — Results and Discussion Review: Ripoptosome Assembly by cIAPs, cFLIP Isoform Regulation",
-          "description": "Results- and Discussion-section summary of Feoktistova et al., Molecular Cell 2011 (10.1016/j.molcel.2011.06.011): cellular inhibitor of apoptosis proteins (cIAPs) block spontaneous 2 MDa Ripoptosome formation; cellular FLICE-like inhibitory protein (cFLIP) isoforms set the Caspase-8 activity rheostat determining apoptosis versus receptor-interacting protein kinase 3 (RIPK3)-dependent necroptosis. Each of the six Results items carries its physiological and pathological consequences, including the downstream mixed lineage kinase domain-like protein (MLKL)-driven necroptosis in development, inflammation and disease; the Discussion is retained as a non-itemized synthesis.",
+          "description": "Results- and Discussion-section summary of Feoktistova et al., Molecular Cell 2011 (10.1016/j.molcel.2011.06.011): cellular inhibitor of apoptosis proteins (cIAPs) block spontaneous 2 MDa Ripoptosome formation; cellular FLICE-like inhibitory protein (cFLIP) isoforms set the Caspase-8 activity rheostat determining apoptosis versus receptor-interacting protein kinase 3 (RIPK3)-dependent necroptosis. Each of the six Results items carries physiological and pathological consequences; the Discussion is an outline synthesis; and a separate Male/Female section reviews the evidence for female-biased caspase-dependent death versus male-biased PARP-1/AIF death, with tissue and model limitations.",
           "created": "2026-11-22",
           "updated": "2026-11-25",
           "tags": [
@@ -40,7 +40,8 @@
             "apoptosis",
             "necroptosis",
             "2011",
-            "consequences"
+            "consequences",
+            "sex-dimorphism"
           ],
           "filename": "task_output_ripoptosome_formation_cflip_isoforms_22_Nov_2026.md",
           "path": "tasks/en-US/task_output_ripoptosome_formation_cflip_isoforms_22_Nov_2026.md",
@@ -66,9 +67,9 @@
         }
       },
       "stats": {
-        "words": 5283,
+        "words": 6291,
         "images": 0,
-        "links": 40,
+        "links": 47,
         "diagrams": 0
       }
     },
