@@ -1,5 +1,5 @@
 {
-  "generated": "23_NOV_2026 10:57 AM PST",
+  "generated": "25_NOV_2026 06:57 AM PST",
   "tasks": [
     {
       "id": "tasks-index",
@@ -29,9 +29,9 @@
       "langs": {
         "en-US": {
           "title": "Feoktistova et al., Molecular Cell 2011 — Results and Discussion Review: Ripoptosome Assembly by cIAPs, cFLIP Isoform Regulation",
-          "description": "Results- and Discussion-section summary of Feoktistova et al., Molecular Cell 2011 (10.1016/j.molcel.2011.06.011): cellular inhibitor of apoptosis proteins (cIAPs) block spontaneous 2 MDa Ripoptosome formation; cFLIP isoforms set the Caspase-8 activity rheostat determining apoptosis versus RIPK3-dependent necroptosis. Each Results and Discussion item carries its physiological and pathological consequences, including the downstream MLKL-driven necroptosis in development, inflammation and disease.",
+          "description": "Results- and Discussion-section summary of Feoktistova et al., Molecular Cell 2011 (10.1016/j.molcel.2011.06.011): cellular inhibitor of apoptosis proteins (cIAPs) block spontaneous 2 MDa Ripoptosome formation; cellular FLICE-like inhibitory protein (cFLIP) isoforms set the Caspase-8 activity rheostat determining apoptosis versus receptor-interacting protein kinase 3 (RIPK3)-dependent necroptosis. Each of the six Results items carries its physiological and pathological consequences, including the downstream mixed lineage kinase domain-like protein (MLKL)-driven necroptosis in development, inflammation and disease; the Discussion is retained as a non-itemized synthesis.",
           "created": "2026-11-22",
-          "updated": "2026-11-23",
+          "updated": "2026-11-25",
           "tags": [
             "cell-death",
             "ripoptosome",
@@ -66,9 +66,9 @@
         }
       },
       "stats": {
-        "words": 4542,
+        "words": 5283,
         "images": 0,
-        "links": 45,
+        "links": 40,
         "diagrams": 0
       }
     },
