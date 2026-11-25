@@ -1,5 +1,5 @@
 {
-  "generated": "25_NOV_2026 06:57 AM PST",
+  "generated": "25_NOV_2026 07:11 AM PST",
   "tasks": [
     {
       "id": "tasks-index",
@@ -73,6 +73,57 @@
       }
     },
     {
+      "id": "task_output_dandelion_root_cancer_21_Nov_2026",
+      "langs": {
+        "en-US": {
+          "title": "Dandelion Root Extract in Cancer — Preclinical Mechanism Map, Human Evidence Status, and Safety Constraints",
+          "description": "Synthesis of dandelion (Taraxacum officinale / T. mongolicum) root extract anticancer evidence across cell-line and xenograft models (extrinsic apoptosis via caspase-8/FADD, mitochondrial ROS, pro-death autophagy, PI3K/Akt suppression, metabolic reprogramming), the human evidence base (one case report, one unreported Health Canada phase 1), and the interaction and estrogenicity constraints that govern any clinical use.",
+          "created": "2026-11-21",
+          "updated": "2026-11-21",
+          "tags": [
+            "task-output",
+            "dandelion",
+            "taraxacum",
+            "oncology",
+            "apoptosis",
+            "autophagy",
+            "natural-product",
+            "clinical-evidence",
+            "herb-drug-interaction"
+          ],
+          "filename": "task_output_dandelion_root_cancer_21_Nov_2026.md",
+          "path": "tasks/en-US/task_output_dandelion_root_cancer_21_Nov_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_dandelion_root_cancer_21_Nov_2026.md"
+        },
+        "zh-TW": {
+          "title": "蒲公英根萃取物與癌症——臨床前機制圖譜、人體證據現況與安全限制",
+          "description": "綜整蒲公英（Taraxacum officinale／T. mongolicum）根萃取物在細胞株與異種移植模型中的抗癌證據（透過 caspase-8／FADD 的外源性細胞凋亡、粒線體 ROS、促死亡自噬、PI3K／Akt 抑制、代謝重編程），以及人體證據基礎（一篇個案報告、一項結果未公開的加拿大衛生部第 1 期試驗）與規範任何臨床使用的交互作用及雌激素活性限制。",
+          "created": "2026-11-21",
+          "updated": "2026-11-25",
+          "tags": [
+            "task-output",
+            "dandelion",
+            "taraxacum",
+            "oncology",
+            "apoptosis",
+            "autophagy",
+            "natural-product",
+            "clinical-evidence",
+            "herb-drug-interaction"
+          ],
+          "filename": "task_output_dandelion_root_cancer_21_Nov_2026.md",
+          "path": "tasks/zh-TW/task_output_dandelion_root_cancer_21_Nov_2026.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/web/public/tasks/zh-TW/task_output_dandelion_root_cancer_21_Nov_2026.md"
+        }
+      },
+      "stats": {
+        "words": 4269,
+        "images": 0,
+        "links": 96,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "task_output_autophagy_cell_death_vault_vs_medical_22_Nov_2026",
       "langs": {
         "en-US": {
@@ -118,37 +169,6 @@
         "words": 1628,
         "images": 0,
         "links": 15,
-        "diagrams": 0
-      }
-    },
-    {
-      "id": "task_output_dandelion_root_cancer_21_Nov_2026",
-      "langs": {
-        "en-US": {
-          "title": "Dandelion Root Extract in Cancer — Preclinical Mechanism Map, Human Evidence Status, and Safety Constraints",
-          "description": "Synthesis of dandelion (Taraxacum officinale / T. mongolicum) root extract anticancer evidence across cell-line and xenograft models (extrinsic apoptosis via caspase-8/FADD, mitochondrial ROS, pro-death autophagy, PI3K/Akt suppression, metabolic reprogramming), the human evidence base (one case report, one unreported Health Canada phase 1), and the interaction and estrogenicity constraints that govern any clinical use.",
-          "created": "2026-11-21",
-          "updated": "2026-11-21",
-          "tags": [
-            "task-output",
-            "dandelion",
-            "taraxacum",
-            "oncology",
-            "apoptosis",
-            "autophagy",
-            "natural-product",
-            "clinical-evidence",
-            "herb-drug-interaction"
-          ],
-          "filename": "task_output_dandelion_root_cancer_21_Nov_2026.md",
-          "path": "tasks/en-US/task_output_dandelion_root_cancer_21_Nov_2026.md",
-          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/tasks/task_output_dandelion_root_cancer_21_Nov_2026.md"
-        }
-      },
-      "stats": {
-        "words": 4269,
-        "images": 0,
-        "links": 96,
         "diagrams": 0
       }
     },
