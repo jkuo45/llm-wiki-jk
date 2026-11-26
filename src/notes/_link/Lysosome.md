@@ -4,7 +4,7 @@ description: The Lysosome is a membrane-bound organelle containing acidic hydrol
   responsible for the degradation and recycling of cellular waste. It serves as a
   central degradative center and signaling ...
 created: 2024-01-01
-updated: 2024-01-01
+updated: 2026-11-25
 tags:
   - anatomy
   - autophagy
@@ -25,6 +25,10 @@ The **Lysosome** is a membrane-bound organelle containing acidic hydrolases resp
 ## Homeostasis and Stress
 - Lysosomal health is critical for maintaining [[Cellular Homeostasis]].
 - Lysosomal dysfunction is a hallmark of [[Aging]] and various [[Metabolic Disease|metabolic]] and [[Neurodegenerative Diseases|neurodegenerative diseases]].
+
+> [!info]
+> Source: [[_document_ - Mitochondria-lysosome crosstalk in health and disease]]
+> The lysosomal response to respiratory-chain inhibition depends on stimulus duration: acute inhibition triggers lysosomal biogenesis, whereas chronic deficiency lowers lysosomal [[PtdIns(3,5)P2]], reduces hydrolytic activity, and compromises autophagic flux. Chronic [[V-ATPase]] inhibition causes mitochondrial fragmentation, respiratory impairment, and increased superoxide through functional iron deficiency. Mitochondrial proton transfer at membrane contacts contributes directly to lysosomal acidification in yeast and mammalian cells, and this mechanism declines during cellular senescence as contact number falls.
 
 
 #
@@ -56,8 +60,13 @@ List of documents that mention this entity
   - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
     - Conversely, many quiescent cell types have larger and more abundant Lysosome than their proliferative counterparts, and upregulate many lysosome-associated genes (Fujimaki et al., 2019; Kobayashi et al., 2019; Leeman et al., 2018; Liang et al., 2020; Min an...
 
+  - [[_document_ - Mitochondria-lysosome crosstalk in health and disease]]
+    - Contrasts acute and chronic mitochondrial stress on lysosomal biogenesis and hydrolysis, and describes proton transfer at M-L contacts as a contributor to lysosomal acidification that declines in senescence.
 
 ## Connections
+- [[Mitochondria]] — Acute respiratory inhibition drives lysosomal biogenesis, whereas chronic deficiency lowers PtdIns(3,5)P₂ and hydrolytic capacity; conversely, cathepsins released after lysosomal damage remodel the mitochondrial proteome
+- [[Mitochondria-Lysosome Contact Site]] — Mitochondrial proton transfer at contacts contributes to lysosomal acidification, a mechanism that declines in senescence
+- [[Iron]] — Chronic v-ATPase inhibition produces functional iron deficiency, causing mitochondrial fragmentation and increased superoxide
 - [[TFEB]] — master transcription factor for lysosomal biogenesis and autophagy
 - [[TFE3]] — interacts with Lysosome
 - [[CLEAR Element]] — interacts with Lysosome

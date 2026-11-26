@@ -2,7 +2,7 @@
 title: mTORC1
 description: mTORC1 (mechanistic target of rapamycin complex 1) is a multi-protein signaling complex that integrates nutrient, energy, and growth factor signals to coordinate cell growth, protein synthesis, and metabolism.
 created: 2024-01-01
-updated: 2026-09-02
+updated: 2026-11-25
 tags:
   - protein
 aliases: [mechanistic target of rapamycin complex 1, mTOR Complex 1, mTORC1]
@@ -74,6 +74,10 @@ mTORC1 inhibits [[Autophagy]] by phosphorylating [[ULK1]] and [[ULK2]] at Ser757
 
 ### Metabolism
 mTORC1 promotes [[Glycolysis]] via HIF-1α stabilization, increases [[Nucleotide Synthesis]] via [[ATF4]] signaling, and drives [[Mitochondrial Biogenesis]] through [[PGC-1α]] and [[YY1]] coactivation.
+
+> [!info]
+> Source: [[_document_ - Mitochondria-lysosome crosstalk in health and disease]]
+> Amino-acid activation of lysosomal mTORC1 stimulates mitochondrial activity (nutrient-induced mitochondrial activity, NiMA) in neuronal cells; in Alzheimer's disease neurons, amyloid-β oligomers disrupt this pathway through Tau-dependent mTORC1 translocation from lysosomes to the plasma membrane. Lysosomal mTORC1 also mediates the mitochondrial unfolded protein response through ATF4 phosphorylation. In mouse models of Leigh syndrome and frataxin deficiency, partial mTORC1 inhibition reduced disease burden, but [[Rapamycin]] is not effective in every mitochondrial disease, indicating an optimal signaling balance rather than universal inhibition.
 
 ### Immune Function
 mTORC1 is critical for [[T Cell]] activation, [[B Cell]] differentiation, and [[Dendritic Cell]] function. In T cells, mTORC1 promotes [[effector T cell]] (Th1, Th17) differentiation, while mTORC2 favors [[Treg]] development.
@@ -183,8 +187,13 @@ List of documents that mention this entity
 
   - [[_document_ - The-hallmarks-of-protein-and-amino-acid-restriction|The Hallmarks of Protein and Amino Acid Restriction in Aging and Longevity]]
     - Positions mTORC1 as the key amino-acid–sensing effector of dietary protein/leucine restriction; reduced mTORC1 signaling mediates many protein-restriction benefits.
+  - [[_document_ - Mitochondria-lysosome crosstalk in health and disease]]
+    - Describes lysosomal mTORC1-driven nutrient-induced mitochondrial activity, its disruption by amyloid-β in Alzheimer's neurons, mTORC1-dependent ATF4 phosphorylation in the mitoUPR, and context-dependent benefit of partial inhibition in mitochondrial disease models.
 
 ## Connections
+- [[Mitochondria]] — Lysosomal mTORC1 activation stimulates mitochondrial activity (NiMA); amyloid-β diverts mTORC1 to the plasma membrane and blocks this signal in Alzheimer's neurons
+- [[ATF4]] — Phosphorylated downstream of lysosomal mTORC1 to mediate the mitochondrial unfolded protein response
+- [[Rapamycin]] — Partial mTORC1 inhibition benefits Leigh syndrome and frataxin-deficiency models but is not universal across mitochondrial diseases
 - [[Incoherent Bivalent Motif]] — mTORC1 is the central Target node of the rapamycin hormesis motif
 - [[Biphasic Dose-Response Curve]] — rapamycin's non-monotonic efficacy (peak ~1 nM)
 - [[Saturated Enzymatic Regime]] — low-K mTORC1→S6K1/2 backward link amplifies hormesis

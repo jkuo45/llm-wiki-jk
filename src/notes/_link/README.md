@@ -3,14 +3,14 @@ title: Shared Entities (_link)
 aliases: []
 description: index of cross-topic shared entities and documents in the _link directory
 created: 2026-08-16
-updated: 2026-11-21
+updated: 2026-11-25
 ---
 # Shared Entities (`_link`)
 
-Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **2142 entities** in a single flat index and **36 documents**.
+Cross-topic shared entities referenced across topic directories. This directory is the single source of truth for entities that appear in multiple topics. Contains **2147 entities** in a single flat index and **36 documents**.
 
 > [!note]
-> `_link` index. Total entities: 2142 | Documents: 36
+> `_link` index. Total entities: 2147 | Documents: 36
 >
 ## Documents
 
@@ -254,6 +254,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[BCG\|BCG]] | Bacillus Calmette-Guérin, a live attenuated vaccine strain of Mycobacterium bovis used as the standard intravesical adjuvant for high-risk non-muscle-invasive bladder cancer, and one of the earliest demonstrations that deliberate infection can generate antitumour immunity. Its mechanisms remain incompletely defined. |
 | [[BCMA\|BCMA]] | B-cell maturation antigen (TNFRSF17, CD269) is a TNF receptor superfamily member on plasma cells that binds BAFF and transduces NF-κB survival signalling; it is the target of BCMA-directed CAR T cells and antibody-drug conjugates in multiple myeloma. |
 | [[BCR-ABL\|BCR-ABL]] | Oncogenic fusion kinase driving chronic myeloid leukemia; target of imatinib and successors. |
+| [[BDH2]] | 3-hydroxybutyrate dehydrogenase 2 that synthesizes the siderophore 2,5-DHBA and transfers lysosomal iron to mitochondria at contacts, shaping ferroptosis vulnerability. |
 | [[Benign Tumor\|Benign Tumor]] | A benign tumor (benign neoplasm) is a localized, non-metastatic proliferation; its relationship to longevity is dual — some benign lesions are tumor-suppressive fail-safes, while others (hamartomas) reflect pathological growth. |
 | [[Beta Blockers\|Beta Blockers]] | Beta blockers are adrenergic receptor antagonists that block beta-adrenergic signalling, chiefly slowing heart rate, reducing contractility and lowering blood pressure; they are cornerstone drugs in heart failure, ischaemic heart disease and arrhythmia, and their antimicrobial and anti-longevity reputations are not supported by trial data. |
 | [[Beta Diversity\|Beta Diversity]] | Beta diversity is a measure of the difference in species composition between different communities or samples, allowing for comparisons across various stages of aging or environmental conditions. |
@@ -368,6 +369,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Filaggrin]] | Epidermal differentiation protein that bundles keratin filaments and supplies natural moisturizing factor; increased in aged skin by topical urolithin A. |
 | [[Formyl Peptide Receptor]] | Formyl peptide receptors (FPRs) are G-protein-coupled receptors that sense N-formyl peptides from bacteria and mitochondria, recruiting and activating innate immune cells. |
 | [[Dapansutrile]] | Dapansutrile (OLT1177) is an oral, selective NLRP3 inflammasome inhibitor that blocks NLRP3 ATPase activity and is being developed for inflammatory diseases. |
+| [[GDAP1]] | Ganglioside-induced differentiation-associated protein 1, a mitochondrial outer-membrane protein that tethers mitochondria to lysosomes through LAMP1 and organizes redox signaling at contacts. |
 | [[Gelsolin]] | The actin-severing and actin-binding protein that remodels the cytoskeleton in phagocytosis, is cleaved during apoptosis as a cytoskeletal disassembly substrate, and acts as a component of the Itch–p53–c-FLIP degradation complex conferring cisplatin chemoresistance. |
 | [[HIF2α]] | Hypoxia-inducible factor 2 alpha — activated by SIRT1 deacetylation under hypoxia, opposite to SIRT1's inhibition of HIF-1alpha; falls as NAD+ and SIRT1 decline, proposing a HIF2alpha-to-HIF1alpha switch. |
 | [[Homodimerization]] | Homodimerization is the assembly of two identical polypeptide chains into a symmetric complex; this note covers interface chemistry, obligate versus facultative behaviour, functional consequences documented in the vault (caspase-8 activation, STING ligand sensing, IKKalpha non-canonical NF-kB, NOS electron transfer, bHLH-LZ DNA binding), regulation, and the assays used to measure dimer state. |
@@ -690,6 +692,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[LCAD]] | Long-chain acyl-CoA dehydrogenase — mitochondrial beta-oxidation enzyme deacetylated and activated by SIRT3 during fasting; SIRT3 knockout accumulates fatty-acid oxidation intermediates with low ATP. |
 | [[Magnolia root bark\|Magnolia Root Bark]] | Root bark of Magnolia biondii and Magnolia delavayi (Magnoliaceae); parthenolide survey data and ACT001 semisynthesis source. |
 | [[Maraviroc]] | FDA-approved CCR5 antagonist (HIV-1 entry inhibitor) that in aged mice normalizes CCL5-CCR5-driven myelopoiesis, lowers the neutrophil-to-lymphocyte ratio and inflammaging cytokines, and improves metabolic and functional healthspan outcomes. |
+| [[Membrane Contact Site]] | General concept of close, non-fusing apposition between two organelles that enables directed exchange of ions, lipids, and metabolites and organizes local signaling. |
 | [[miR-134]] | Brain-enriched microRNA repressed by SIRT1 to permit CREB and BDNF expression; the SIRT1–miR-134–CREB–BDNF axis promotes memory formation and synaptic plasticity. |
 | [[Mitochondrial-Derived Vesicles]] | Mitochondrial-derived vesicles (MDVs) are selective cargo carriers that bud from mitochondria to deliver mitochondrial components to lysosomes or export them via extracellular vesicles, influencing mitochondrial DAMP release. |
 | [[Mitochondrial RNA]] | Mitochondrial RNA (mtRNA) species, including double-stranded RNA exposed during mitochondrial stress, act as damage-associated molecular patterns that engage innate immune sensors. |
@@ -1929,6 +1932,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[SSRP1\|SSRP1]] | SSRP1 is the 80 kDa HMG-box subunit of the FACT chromatin transcription complex, a histone chaperone that disassembles and reassembles H2A-H2B dimers during transcription elongation and replication, and which also recognizes cisplatin-modified DNA. |
 | [[Stanniocalcin-1\|Stanniocalcin-1]] | Glycoprotein hormone that orchestrates a hormetic AMPK/SIRT3 axis mitigating oxidative stress and apoptosis; inhibits BNIP3 expression to ameliorate renal injury in diabetic models. |
 | [[Staphylococcus aureus]] | Gram-positive bacterium triggering TLR2/TLR4- and PAD4-dependent vital NETosis; SpA promotes and Eap suppresses NET formation. |
+| [[STARD3]] | Cholesterol-transport protein (MLN64) that mediates cholesterol transfer at ER-endosome and mitochondria-lysosome contacts and drives mitochondrial cholesterol accumulation in NPC1 deficiency. |
 | [[STAT\|STAT]] | Signal transducer and activator of transcription family mediating JAK-STAT signaling downstream of interferons in necroptotic inflammation. |
 | [[STAT1\|STAT1]] | STAT1 is a latent cytoplasmic transcription factor and the canonical effector of type I and type II interferon signaling. JAK phosphorylation at Tyr701 drives reciprocal SH2-phosphotyrosine dimerization, nuclear translocation and binding to GAS elements; STAT1 forms homodimers and STAT1-STAT2 heterodimers. |
 | [[STAT3\|STAT3]] | Signal transducer and activator of transcription 3 (STAT3) is a transcription factor which in humans is encoded by the *STAT3* gene. |
@@ -1988,6 +1992,7 @@ Cross-topic shared entities referenced across topic directories. This directory 
 | [[Taurine\|Taurine]] | A conditionally essential sulfur-containing amino acid with roles in bile acid conjugation, osmoregulation, calcium handling, antioxidant defense, and mitochondrial translation; declines with age and supports longevity phenotypes when supplemented. |
 | [[Tazemetostat\|Tazemetostat]] | Tazemetostat (EPZ-6438) is a first-in-class oral EZH2 inhibitor approved for epithelioid sarcoma and EZH2-mutant follicular lymphoma. |
 | [[TBARS\|TBARS]] | Thiobarbituric acid reactive substances — a colorimetric assay measuring malondialdehyde as a biomarker of lipid peroxidation. |
+| [[TBC1D15]] | RAB7 GTPase-activating protein recruited by Fis1 that resolves mitochondria-lysosome contacts, recruits DRP1 for fission, and limits injury in cardiac and seizure models. |
 | [[TBK1\|TBK1]] | TANK-binding kinase 1, an enzyme involved in the innate immune response, activated by STING and regulated by TFEB. |
 | [[TCA cycle\|TCA cycle]] | Tricarboxylic acid (Krebs) cycle, the central mitochondrial pathway oxidizing acetyl-CoA to CO2 while generating NADH, FADH2, and GTP. |
 | [[TDO\|TDO]] | Tryptophan 2,3-dioxygenase (TDO) is a hepatic heme-containing enzyme that catalyzes the same first step in the kynurenine pathway as IDO1 — converting tryptophan to N-formylkynurenine — and is primarily regulated by tryptophan concentration and glucocorticoids. |

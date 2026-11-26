@@ -2,7 +2,7 @@
 title: Mitochondria
 description: Double-membrane organelles that generate ATP via oxidative phosphorylation and regulate apoptosis, calcium, and redox signaling; their dysfunction is central to aging and is mitigated by mTOR inhibition.
 created: 2026-07-07
-updated: 2026-07-26
+updated: 2026-11-25
 tags:
   - anatomy
   - organelle
@@ -45,6 +45,10 @@ Inhibition of [[mTOR]] by [[Rapamycin]] improves the NAD⁺/NADH redox balance, 
 - Cytosolic [[Mitochondrial DNA|mtDNA]] and other mtDAMPs activate innate immune sensors, reinforcing [[SASP|senescence-associated secretory phenotype]] and chronic inflammatory tone
 - [[Mitochondria-Associated Membranes|MERCs]] between mitochondria and the [[Endoplasmic Reticulum|ER]] are remodeled in aging, weakening Ca²⁺ signaling and stress adaptation
 
+> [!info]
+> Source: [[_document_ - Mitochondria-lysosome crosstalk in health and disease]]
+> Sub-lethal lysosomal membrane permeabilization releases cathepsins that proteolytically remodel the mitochondrial proteome, including turnover of TOM20, [[MFN2]] and TIM23, independently of [[Mitophagy]], mitochondrial proteases or the proteasome, thereby reprogramming macrophage immunometabolism. After interferon-γ priming, APOL3 senses lysosomal damage and is recruited to mitochondria already undergoing BAK1/BAX-dependent outer-membrane permeabilization, where it solubilizes cardiolipin to permeabilize the inner membrane, potentiating mtDNA efflux and [[cGAS-STING Pathway|cGAS–STING]]-dependent type I interferon production. Lysosomal membrane integrity is therefore a distinct signaling platform alongside acidification and degradative capacity.
+
 ## Documents
 
 List of documents in the wiki that mention this entity
@@ -54,9 +58,14 @@ List of documents in the wiki that mention this entity
 
   - [[_document_ - Mitochondrial Drivers Stem Cell Aging Inflammaging Bautista 2026]]
     - Comprehensive review establishing mitochondria as master regulators of aging, integrating bioenergetics, redox control, stem cell fate, and innate immune signaling.
+  - [[_document_ - Mitochondria-lysosome crosstalk in health and disease]]
+    - Reports cathepsin-mediated mitochondrial proteome remodeling after sub-lethal lysosomal damage and APOL3-dependent inner-membrane permeabilization coupling lysosomal injury to mtDNA efflux and type I interferon signaling.
 
 ## Connections
 
+  - [[Lysosome]] — Sub-lethal lysosomal permeabilization releases cathepsins that turn over TOM20, MFN2 and TIM23, and APOL3 couples lysosomal injury to mtDNA efflux
+  - [[Mitochondria-Lysosome Crosstalk]] — Integrated network through which mitochondrial dysfunction propagates to lysosomal adaptation and back
+  - [[cGAS-STING Pathway]] — Activated by mtDNA efflux potentiated by APOL3 after lysosomal damage and BAK1/BAX permeabilization
   - [[mTOR]] / [[mTORC1]] — inhibition renews mitochondria
   - [[Rapamycin]] — pharmacological inducer of biogenesis
   - [[Oxidative Phosphorylation]] — core function supported

@@ -2,7 +2,7 @@
 title: Glucocerebrosidase
 description: Glucocerebrosidase (GCase) is a lysosomal enzyme responsible for the breakdown of glucosylceramide.
 created: 2026-07-04
-updated: 2026-07-07
+updated: 2026-11-25
 tags:
   - enzyme
 aliases: []
@@ -25,6 +25,10 @@ Mutations in GBA1 are the single most common genetic risk factor for [[Parkinson
 
 This GBA1–α-synuclein axis connects [[Neuromelanin]] neuron vulnerability to [[Lysosomal Dysfunction]] and [[Proteostasis]] failure. Clinically, GBA1 status influences PD age of onset, cognitive decline, and likely response to therapies. Enzyme replacement (for Gaucher disease) does not cross the blood-brain barrier, so CNS-directed strategies are under investigation: pharmacological chaperones (e.g., ambroxol) to stabilize mutant GCase, substrate reduction therapy, and gene therapies to restore GBA1 expression. GCase activity in cerebrospinal fluid and peripheral cells is also explored as a PD biomarker.
 
+> [!info]
+> Source: [[_document_ - Mitochondria-lysosome crosstalk in health and disease]]
+> GBA1 deficiency disrupts [[Mitochondria-Lysosome Contact Site|mitochondria–lysosome contact]] dynamics: dopaminergic neuronal models of [[Parkinson's Disease]] show excessive organelle tethering, impaired mitochondrial function, and defective contact-site resolution, with mitochondrial dysfunction rescued by restoring dynamics through [[TBC1D15]] overexpression. GBA1 loss also alters mitochondrial morphology and respiration, establishing that lysosomal enzyme deficiency perturbs mitochondria through non-degradative contact mechanisms in addition to impaired degradation.
+
 ## Documents
 
 List of documents that mention this entity
@@ -32,8 +36,12 @@ List of documents that mention this entity
   - [[_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease|Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease]]
     - Suggested new entity notes to create: Neuroprotection, mTOR, Glucocerebrosidase, Lysosomal Exocytosis, Antigen Presentation. Strong connections to strengthen: Neuromelanin ↔ Parkinson's Disease, Neuromelanin ↔ Pathogenic Threshold of Neuromelanin.
 
+  - [[_document_ - Mitochondria-lysosome crosstalk in health and disease]]
+    - Reports excessive mitochondria–lysosome tethering and defective contact resolution in GBA1-deficient dopaminergic models, rescued by TBC1D15 overexpression, alongside altered mitochondrial morphology and respiration.
 
 ## Connections
+- [[Mitochondria-Lysosome Contact Site]] — GBA1 deficiency prolongs tethering and impairs contact resolution in dopaminergic models, linking lysosomal enzyme loss to non-degradative mitochondrial dysfunction
+- [[TBC1D15]] — Overexpression restores physiological contact dynamics and rescues mitochondrial dysfunction in GBA1-mutant neurons
 - [[Parkinson's Disease]]: GBA1 mutations are the top genetic PD risk factor.
 - [[Alpha-synuclein]]: GCase deficiency promotes its aggregation into Lewy bodies.
 - [[Lewy Bodies]]: Proteinaceous inclusions whose formation is facilitated by low GCase.

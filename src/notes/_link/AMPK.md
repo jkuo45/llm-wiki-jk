@@ -4,7 +4,7 @@ description: AMP-activated protein kinase (AMPK) is a central metabolic sensor
   that plays a critical role in the Aging process by integrating energy status with
   epigenetic regulation. As organisms age, AMPK...
 created: 2026-05-29
-updated: 2026-11-11
+updated: 2026-11-25
 tags:
   - enzyme
 aliases: [AMP-activated protein kinase, AMP-activated protein kinase (AMPK), adenosine monophosphate-activated protein kinase, AMPK complex, AMPKα]
@@ -31,6 +31,11 @@ The decline of AMPK signaling in old age leads to several downstream epigenetic 
 *   **Loss of Proteostasis:** Reduced AMPK activity impairs [[Autophagy]], leading to the accumulation of damaged proteins.
 *   **Mitochondrial Decay:** Without AMPK-driven epigenetic activation of mitochondrial biogenesis genes, mitochondrial function declines.
 *   **[[Senescence]]:** The failure of AMPK to maintain proper chromatin structure can trigger the [[SASP|Senescence-Associated Secretory Phenotype]] (Senescence-Associated Secretory Phenotype).
+
+> [!info]
+> Source: [[_document_ - Mitochondria-lysosome crosstalk in health and disease]]
+> Acute mitochondrial stress activates AMPK and drives [[TFEB]] nuclear localization and biogenesis of both organelles, whereas chronic respiratory-chain deficiency suppresses AMPK and TFEB activity. AMPK phosphorylates FNIP1 to induce lysosomal and mitochondrial biogenesis, and activation of the AMPK/PGC-1α axis improved outcomes in rodent and cellular models of mitochondrial disease. The benefit is tissue-dependent: AMPK activation appears advantageous in skeletal muscle but potentially adverse in neuronal tissue.
+
 ## Sex Differences — Male-Biased Hepatic AMPK and the Estrogen–AMPK Axis
 
 AMPK signaling is **sexually dimorphic**, most clearly at the level of hepatic energy sensing and metabolic disease:
@@ -104,8 +109,12 @@ List of documents that mention this entity
    - [[task_output_comt_fisetin_senolytic_09_July_2026|COMT × Fisetin Research Evaluation]]
      - AMPK is listed among the longevity pathways in fisetin's network pharmacology profile (alongside mTOR, NRF2, NF-κB, PI3K). Proposed computational modeling will map fisetin's multi-target profile across these pathways using STRING and KEGG analysis.
 - [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026 — Mitochondrial dysfunction and inflammaging]]: Places AMPK at the centre of the MiDAS metabolic-signalling axis.
+  - [[_document_ - Mitochondria-lysosome crosstalk in health and disease]]
+    - Reports AMPK activation by acute mitochondrial stress and suppression in chronic disease, AMPK–FNIP1 induction of lysosomal and mitochondrial biogenesis, and tissue-dependent effects of AMPK activation in mitochondrial disease models.
 
 ## Connections
+- [[TFEB]] — Acute mitochondrial stress activates AMPK and TFEB together; chronic respiratory-chain deficiency suppresses both, preventing lysosomal adaptation
+- [[Mitochondria]] — AMPK–FNIP1 signaling induces mitochondrial and lysosomal biogenesis; tissue context determines whether AMPK activation is beneficial or adverse
 - **[[SIRT1]]**: Works in tandem with AMPK to regulate metabolism and longevity.
 - **[[Metformin]]**: A common drug used to activate AMPK and study its anti-aging effects.
 - **[[Autophagy]]**: A downstream process regulated by AMPK that is essential for cellular cleanup.

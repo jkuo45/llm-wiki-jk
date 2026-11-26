@@ -3652,5 +3652,885 @@
     "source_document": "Nucleophagy.md",
     "created": "2026-11-10T16:49:16Z",
     "updated": "2026-11-10T16:49:16Z"
+  },
+  {
+    "subject": "PINK1",
+    "predicate": "accumulates_on",
+    "object": "Mitochondria",
+    "context": {
+      "en-US": "In healthy Mitochondria, PINK1 is imported across the outer membrane in a membrane-potential-dependent manner and processed at the inner membrane. When depolarization prevents import, full-length PINK1 is not cleaved and remains on the outer membrane instead of being degraded. The review identifies this damage-dependent stabilization as the labeling step that marks a mitochondrion for PINK1/Parkin-dependent quality control and eventual lysosomal degradation.",
+      "zh-TW": "在健康的 Mitochondria 中，PINK1 以膜電位依賴的方式跨越外膜輸入，並在內膜被加工。當去極化阻止輸入時，全長 PINK1 不被切割，而是留在粒線體外膜上而非被降解。本文將這種依賴損傷的穩定化視為標記步驟，把粒線體標記為進行 PINK1/Parkin 依賴的品質管制及最終溶酶體降解的對象。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "PINK1",
+    "predicate": "recruits",
+    "object": "Parkin",
+    "context": {
+      "en-US": "PINK1 stabilized on the outer membrane of depolarized Mitochondria recruits the cytosolic E3 ubiquitin ligase Parkin. Recruitment precedes polyubiquitination of outer membrane proteins and the binding of autophagy adapters that build the autophagosome around the damaged organelle. In the review this recruitment is the canonical initiation step of PINK1/Parkin Mitophagy and is also reused on Mitochondrial-Derived Vesicles carrying oxidized cargo.",
+      "zh-TW": "穩定於去極化 Mitochondria 外膜的 PINK1 會招募細胞質 E3 泛素連接酶 Parkin。招募之後接續外膜蛋白的多泛素化，以及自噬接合蛋白的結合，後者在受損細胞器周圍構築自噬體。本文將此招募視為 PINK1/Parkin Mitophagy 的標準起始步驟，且同一機制也被用於攜帶氧化貨物的 Mitochondrial-Derived Vesicles。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "Parkin",
+    "predicate": "ubiquitinates",
+    "object": "Outer Mitochondrial Membrane",
+    "context": {
+      "en-US": "Once recruited by PINK1, Parkin polyubiquitinates multiple proteins of the Outer Mitochondrial Membrane. The ubiquitin signal is read by autophagy adapters, which promote autophagosome formation around the labeled mitochondrion and thereby commit the organelle to lysosomal degradation. The review presents this broad ubiquitination as the mechanistic link between loss of membrane potential and selective cargo recognition during Mitophagy. This ubiquitin coat also recruits the proteasome and autophagy receptors that compact the cargo into a degradation-competent autophagosome.",
+      "zh-TW": "一旦被 PINK1 招募，Parkin 會對 Outer Mitochondrial Membrane 的多種蛋白進行多泛素化。泛素訊號由自噬接合蛋白讀取，後者促進標記粒線體周圍的自噬體形成，从而使該細胞器走向溶酶體降解。本文將這種廣泛泛素化視為膜電位喪失與 Mitophagy 選擇性貨物辨識之間的機制連結。 此泛素外衣亦招募蛋白酶體與自噬受體，將貨物壓實為具降解能力的自噬體。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "Parkin",
+    "predicate": "triggers",
+    "object": "Mitophagy",
+    "context": {
+      "en-US": "Parkin activation is sufficient to trigger Mitophagy of depolarized Mitochondria by tagging outer membrane proteins for autophagic recognition. The review notes that this pathway is the most studied labeling mechanism, but that receptor-mediated routes operate in parallel. Loss of Parkin function also impairs MDV formation and mitochondrial antigen presentation, connecting the ligase to non-degradative communication as well. The ligase therefore functions as a damage-activated switch rather than a constitutive degradation signal.",
+      "zh-TW": "Parkin 活化足以透過標記外膜蛋白供自噬辨識，而觸發去極化 Mitochondria 的 Mitophagy。本文指出此路徑是研究最透徹的標記機制，但受體媒介的路徑同時並行運作。Parkin 功能喪失亦會損害 MDV 形成與粒線體抗原呈現，將此連接酶與非降解性溝通相聯繫。 因此該連接酶作為損傷活化的開關，而非持續性的降解訊號。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "BNIP3",
+    "predicate": "promotes",
+    "object": "Mitophagy",
+    "context": {
+      "en-US": "BNIP3 is a receptor-type mitophagy factor associated chiefly with stress conditions, including hypoxia. It acts at the mitochondrial outer membrane to engage the autophagic machinery and remove damaged Mitochondria. The review groups BNIP3 with FUNDC1 as stress-linked labeling mechanisms that operate independently of the PINK1/Parkin ubiquitin pathway. Its expression is induced by hypoxia, linking oxygen availability to the decision to remove mitochondria.",
+      "zh-TW": "BNIP3 是一種主要與壓力狀態（包括缺氧）相關的受體型 mitophagy 因子。它作用於粒線體外膜以接合自噬機械，並清除受損的 Mitochondria。本文將 BNIP3 與 FUNDC1 歸為壓力連動的標記機制，其運作獨立於 PINK1/Parkin 泛素路徑。 其表現由缺氧誘導，將氧氣可用性與清除粒線體的決定聯繫起來。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "NIX",
+    "predicate": "triggers",
+    "object": "Mitophagy",
+    "context": {
+      "en-US": "NIX is required for programmed Mitophagy during reticulocyte maturation, where it mediates clearance of Mitochondria in the last step of erythrocyte development. The review cites this developmental route alongside stress-induced pathways to show that mitochondrial labeling can be hardwired into a differentiation program rather than being solely a damage response. The receptor is selectively required for programmed clearance during erythroid maturation, not for bulk mitochondrial turnover.",
+      "zh-TW": "NIX 是網織紅血球成熟期間進行程序性 Mitophagy 所必需的，它在紅血球發育的最後一步媒介 Mitochondria 的清除。本文將此發育路徑與壓力誘導路徑並列，說明粒線體標記可以被內建於分化程式，而非僅是損傷反應。 此受體選擇性地為紅血球成熟期間的程序性清除所需，而非用於大量粒線體周轉。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "FUNDC1",
+    "predicate": "mediates",
+    "object": "Mitophagy",
+    "context": {
+      "en-US": "FUNDC1 is an outer mitochondrial membrane receptor that mediates Mitophagy under stress conditions. The review lists it with BNIP3 as a receptor-driven alternative to ubiquitin-dependent labeling, and notes that such receptors also intersect with mitochondrial dynamics. Its activity provides a route by which hypoxic or energetic stress is translated into selective mitochondrial removal. Its activity is regulated by phosphorylation, providing a reversible control point for hypoxic stress.",
+      "zh-TW": "FUNDC1 是粒線體外膜受體，在壓力狀態下媒介 Mitophagy。本文將其與 BNIP3 並列為受體驅動、可替代泛素依賴標記的機制，並指出此類受體也與粒線體動態交會。其活性提供了一條將缺氧或能量壓力轉譯為選擇性粒線體清除的路徑。 其活性受磷酸化調控，為缺氧壓力提供可逆的控制點。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "LC3C",
+    "predicate": "mediates",
+    "object": "Piecemeal Mitophagy",
+    "context": {
+      "en-US": "Piecemeal Mitophagy, in which only a portion of a mitochondrion is enclosed and degraded, depends specifically on the ATG8 family member LC3C rather than on GABARAP subfamily proteins. The review uses this paralog specificity to argue that distinct ATG8 proteins define mechanistically separate mitophagy sub-pathways. The finding also links partial organelle turnover to selective cargo sampling by lysosomes. The paralog specificity indicates that ATG8 proteins are not interchangeable in all selective autophagy contexts.",
+      "zh-TW": "Piecemeal Mitophagy 僅包裹並降解粒線體的一部分，其特異性地依賴 ATG8 家族成員 LC3C，而非 GABARAP 亞家族蛋白。本文以此同源蛋白特異性主張不同 ATG8 蛋白定義了機制上分離的 mitophagy 子路徑。此發現也將部分細胞器周轉與溶酶體對貨物的選擇性取樣相聯繫。 此同源蛋白特異性顯示 ATG8 蛋白並非在所有選擇性自噬情境中都可互換。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "SNARE proteins",
+    "predicate": "mediate",
+    "object": "Autophagosome-lysosome fusion",
+    "context": {
+      "en-US": "Fusion of mitochondria-containing autophagosomes with lysosomes is thought to use the same core SNARE machinery as bulk autophagy, involving STX17, SNAP29 and VAMP8 in a Rab7-dependent manner. The review states that no mitophagy-specific fusion apparatus has been established, and that preferential delivery of mitochondrial cargo to a specialized lysosomal subpopulation remains undetermined. The same fusion module is reused by MDVs bearing STX17, indicating a shared mechanism for delivering mitochondrial cargo.",
+      "zh-TW": "含粒線體的自噬體與溶酶體的融合，被認為使用與巨自噬相同的核心 SNARE 機械，涉及以 Rab7 依賴方式運作的 STX17、SNAP29 與 VAMP8。本文指出目前尚未確立 mitophagy 特異性的融合裝置，且粒線體貨物是否優先送往特化的溶酶體亞群仍未釐清。 帶有 STX17 的 MDV 也重複使用相同的融合模組，顯示遞送粒線體貨物存在共享機制。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "TLR9",
+    "predicate": "senses",
+    "object": "Mitochondrial DNA",
+    "context": {
+      "en-US": "Mitochondrial DNA delivered to lysosomes is poorly methylated, resembling bacterial DNA, and is sensed by the lysosomal microbial DNA sensor TLR9. The review frames this recognition as information transfer rather than disposal: mitochondrial macromolecules delivered by basal autophagy or Mitophagy shape lysosomal signaling. Basal autophagic delivery of Mitochondrial DNA is also reported to support lysosomal homeostasis. The sensing occurs after autophagosome-lysosome fusion, placing the lysosome at the center of this innate immune readout.",
+      "zh-TW": "送入溶酶體的 Mitochondrial DNA 甲基化程度低，類似細菌 DNA，因此被溶酶體微生物 DNA 感測器 TLR9 辨識。本文將此辨識定位為資訊傳遞而非單純處置：由基礎自噬或 Mitophagy 遞送的粒線體巨分子會塑造溶酶體訊息傳遞。基礎自噬遞送 Mitochondrial DNA 也被報告有助於維持溶酶體恆定性。 此感測發生於自噬體—溶酶體融合之後，使溶酶體位於此先天免疫讀出的中心。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "TLR7",
+    "predicate": "senses",
+    "object": "Mitochondrial RNA",
+    "context": {
+      "en-US": "Mitochondrial RNA reaching the lysosome is detected as single-stranded RNA by TLR7 and, in humans, TLR8; TLR8 appears inactive in mice. The review presents this sensing as part of the inflammatory information encoded in mitochondrial cargo. Lysosomal recognition of these nucleic acids dimerizes the receptors and initiates a downstream adaptor cascade. Species differences in TLR8 responsiveness mean that mouse models may not fully reproduce human RNA sensing.",
+      "zh-TW": "到達溶酶體的 Mitochondrial RNA 會以單股 RNA 的形式被 TLR7 以及在人類中的 TLR8 偵測；TLR8 在小鼠中似乎不具活性。本文將此感測視為粒線體貨物所編碼之發炎資訊的一部分。溶酶體對這些核酸的辨識使受體二聚化，並啟動下游接合蛋白級聯反應。 TLR8 反應性的物種差異意味著小鼠模型可能無法完整再現人類的 RNA 感測。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "TLR9",
+    "predicate": "recruits",
+    "object": "MyD88",
+    "context": {
+      "en-US": "Recognition of DNA or single-stranded RNA by lysosomal Toll-like receptors, including TLR9, induces receptor dimerization and consequent recruitment of the adaptor protein MyD88. The review places this recruitment downstream of nucleic acid sensing in the lysosome and upstream of NF-κB activation, making it the point at which mitochondrial cargo is converted into a pro-inflammatory transcriptional response. Dimerization of the ligand-bound receptor creates the platform on which the adaptor assembles.",
+      "zh-TW": "溶酶體 Toll 樣受體（包括 TLR9）對 DNA 或單股 RNA 的辨識，會誘導受體二聚化並隨之招募接合蛋白 MyD88。本文將此招募置於溶酶體核酸感測的下游、NF-κB 活化的上游，使其成為粒線體貨物被轉化為促發炎轉錄反應的關鍵節點。 配體結合後的受體二聚化提供了接合蛋白組裝的平台。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "MyD88",
+    "predicate": "activates",
+    "object": "NF-κB",
+    "context": {
+      "en-US": "MyD88 recruited by activated lysosomal Toll-like receptors activates the transcription factor NF-κB, which induces production of pro-inflammatory cytokines including TNF-α, IL-1 and IL-6. The review uses this cascade to show that mitochondrial cargo processed in lysosomes is not inert debris: it can drive inflammatory signaling in both basal and stress-induced states. The resulting cytokine output makes mitochondrial degradation an immunologically active process.",
+      "zh-TW": "被活化的溶酶體 Toll 樣受體招募的 MyD88 會活化轉錄因子 NF-κB，後者誘導促發炎細胞激素產生，包括 TNF-α、IL-1 與 IL-6。本文以此級聯反應說明在溶酶體中處理的粒線體貨物並非惰性碎屑：在基礎與壓力誘導狀態下，它都能驅動發炎訊息傳遞。 由此產生的細胞激素輸出使粒線體降解成為具有免疫活性的過程。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "VAMP7",
+    "predicate": "secretes",
+    "object": "Mitochondrial proteins",
+    "context": {
+      "en-US": "When cells cannot fuse autophagosomes with lysosomes, secretion of Mitochondrial proteins through VAMP7-dependent late endosomal trafficking is enhanced. The review describes this as an unconventional secretion route that gives mitochondrial content an alternative path to the extracellular space. The same VAMP7-dependent machinery is cited for selective packaging of proteins into extracellular vesicles. The route becomes prominent when lysosomal fusion is unavailable, indicating a compensatory export mechanism.",
+      "zh-TW": "當細胞無法讓自噬體與溶酶體融合時，透過 VAMP7 依賴的晚期末體運輸，Mitochondrial proteins 的分泌會增強。本文將其描述為一種非常規分泌路徑，使粒線體內容物得以另闢路徑到達細胞外空間。相同的 VAMP7 依賴機械也被引用於將特定蛋白選擇性包裹進細胞外囊泡。 當溶酶體融合不可用時此路徑變得顯著，顯示其為一種補償性輸出機制。"
+    },
+    "confidence": 0.7,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "Mitochondrial-Derived Vesicles",
+    "predicate": "bud_from",
+    "object": "Mitochondria",
+    "context": {
+      "en-US": "Mitochondrial-Derived Vesicles are small, roughly 70 to 100 nm cargo-selective carriers that bud from mitochondrial membranes independently of the core fission and autophagy machinery. Their biogenesis follows cargo selection, donor membrane tubulation, scission and directed trafficking to a target organelle. The review presents them as a degradative communication route from Mitochondria to lysosomes that does not require mitochondrial depolarization. The four-step sequence is conserved across the contexts examined, although the molecular determinants differ by cargo and destination.",
+      "zh-TW": "Mitochondrial-Derived Vesicles 是約 70 至 100 nm 的小型、貨物選擇性載體，從粒線體膜出芽，且獨立於核心分裂與自噬機械。其生成遵循貨物選擇、供體膜管化、斷裂及導向標靶細胞器的運輸。本文將其視為從 Mitochondria 到溶酶體的降解性溝通路徑，不需要粒線體去極化。 四個步驟的順序在所檢視的情境中守恆，儘管分子決定因子隨貨物與目的地而異。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "Mitochondrial-Derived Vesicles",
+    "predicate": "complement",
+    "object": "Mitophagy",
+    "context": {
+      "en-US": "Mitochondrial-Derived Vesicles remove segments of damaged mitochondria without degrading the whole organelle, and their production increases under cellular stress. The review reports that MDV output can compensate for loss of LC3-mediated Mitophagy, positioning the two pathways as complementary layers of mitochondrial quality control. MDV formation also rises within minutes of acute bioenergetic stress, before Mitophagy is activated. The two pathways differ in scale: MDVs remove sub-organelle portions while mitophagy clears whole organelles.",
+      "zh-TW": "Mitochondrial-Derived Vesicles 移除受損粒線體的區段，而無需降解整個细胞器；在細胞壓力下其生成增加。本文報告 MDV 輸出可補償 LC3 媒介的 Mitophagy 缺失，使兩條路徑成為互補的粒線體品質控制層級。MDV 形成在急性生物能量壓力後數分鐘內即上升，早於 Mitophagy 被活化。 兩條路徑在規模上不同：MDV 移除細胞器次區段，而 mitophagy 清除完整細胞器。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "Reactive Oxygen Species",
+    "predicate": "stimulates",
+    "object": "Mitochondrial-Derived Vesicles",
+    "context": {
+      "en-US": "Oxidative stress stimulates formation of Mitochondrial-Derived Vesicles enriched in oxidized proteins. The review states that this process depends on PINK1-dependent Parkin recruitment to the vesicles, which are also labeled with STX17. Cargo may include Mitochondrial DNA, oxidized proteins, redox enzymes and metabolic enzymes, allowing selective removal of damaged components before whole-organelle degradation is required. Oxidized cargo is thereby segregated from the rest of the organelle and routed for lysosomal disposal.",
+      "zh-TW": "氧化壓力會刺激富含氧化蛋白的 Mitochondrial-Derived Vesicles 形成。本文指出此過程依賴 PINK1 依賴的 Parkin 招募至囊泡，這些囊泡亦帶有 STX17 標記。貨物可包含 Mitochondrial DNA、氧化蛋白、氧化還原酶與代謝酶，使受損組分在需要整個細胞器降解之前被選擇性移除。 氧化貨物因此與細胞器其餘部分隔離，並被導向溶酶體處置。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "DRP1",
+    "predicate": "drives",
+    "object": "Mitochondrial-Derived Vesicles",
+    "context": {
+      "en-US": "Although MDV formation was initially thought to be independent of DRP1, newer work shows that DRP1 together with adaptors MID49, MID51 and MFF can drive biogenesis of certain TOMM20-positive Mitochondrial-Derived Vesicles. The review notes that whether this constitutes a distinct route or acts downstream of MIRO-generated vesicles remains unresolved, so the DRP1 contribution is context-dependent. The finding revises the earlier view that MDV budding is entirely independent of the fission machinery.",
+      "zh-TW": "雖然 MDV 形成最初被認為不依賴 DRP1，較新的研究顯示 DRP1 與接合蛋白 MID49、MID51 及 MFF 可共同驅動某些 TOMM20 陽性 Mitochondrial-Derived Vesicles 的生成。本文指出此機制究竟構成獨立路徑，或作用於 MIRO 生成囊泡的下游仍未解決，因此 DRP1 的貢獻具有情境依賴性。 此發現修正了早期認為 MDV 出芽完全獨立於分裂機械的觀點。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "Miro",
+    "predicate": "guides",
+    "object": "Mitochondrial-Derived Vesicles",
+    "context": {
+      "en-US": "MIRO1 and MIRO2, together with microtubule-based transport, guide protrusion and scission events during biogenesis of Mitochondrial-Derived Vesicles. The review describes this MIRO-dependent tubulation as evolutionarily ancient and proposes it as the accessory mechanism for lysosome-destined vesicles, with VPS35 serving a comparable role for peroxisome-destined vesicles. Microtubule-dependent motility couples mitochondrial protrusion formation to the scission step. The pathway appears evolutionarily ancient, with analogous protrusions described in Arabidopsis.",
+      "zh-TW": "MIRO1 與 MIRO2 連同微管基礎運輸，在 Mitochondrial-Derived Vesicles 生成期間引導突起與斷裂事件。本文描述此 MIRO 依賴的管化機制在演化上古老，並提出其為溶酶體導向囊泡的輔助機制，而 VPS35 對過氧化體導向囊泡扮演類似角色。 微管依賴的運動性將粒線體突起形成與斷裂步驟耦合。 此路徑在演化上顯得古老，在 Arabidopsis 中亦描述過類似突起。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "Mitochondrial-Derived Vesicles",
+    "predicate": "transport",
+    "object": "MFF",
+    "context": {
+      "en-US": "Mitochondrial-Derived Vesicles can carry the fission adaptor MFF to damaged lysosomes. The vesicles are targeted through a MIRO2-ITM2C tethering interaction, after which MFF recruits DRP1 to drive budding-type lysosomal fission that restores lysosomal function following hypoxia-reoxygenation stress. The review cites this as direct remodeling of the recipient organelle rather than simple cargo delivery. The tethering step depends on MIRO2 and ITM2C, which position the vesicle at the damaged lysosomal surface.",
+      "zh-TW": "Mitochondrial-Derived Vesicles 可將分裂接合蛋白 MFF 運送至受損溶酶體。囊泡透過 MIRO2-ITM2C 栓繫交互作用標靶定位，之後 MFF 招募 DRP1 驅動出芽型溶酶體分裂，在 Hypoxia-reoxygenation 壓力後恢復溶酶體功能。本文引用此作為對接受細胞器的直接重塑，而非單純貨物遞送。 栓繫步驟依賴 MIRO2 與 ITM2C，兩者將囊泡定位於受損溶酶體表面。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "STX17",
+    "predicate": "labels",
+    "object": "Mitochondrial-Derived Vesicles",
+    "context": {
+      "en-US": "A subset of Mitochondrial-Derived Vesicles generated after oxidative stress is labeled with the SNARE protein STX17. The review proposes that STX17 marks these vesicles for fusion with the lysosomal membrane in a manner analogous to autophagosome fusion, and names the HOPS complex as a delivery factor. How STX17-negative MDVs fuse with lysosomes remains poorly understood. The proposed fusion mechanism parallels autophagosome-lysosome fusion, but direct evidence for MDV fusion remains limited.",
+      "zh-TW": "氧化壓力後生成的一部分 Mitochondrial-Derived Vesicles 帶有 SNARE 蛋白 STX17 標記。本文提出 STX17 以類似自噬體融合的方式標記這些囊泡使其與溶酶體膜融合，並指出 HOPS Complex 為遞送因子。缺乏 STX17 的 MDV 如何與溶酶體融合仍所知甚少。 提出的融合機制與自噬體—溶酶體融合平行，但 MDV 融合的直接證據仍有限。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "HOPS Complex",
+    "predicate": "delivers",
+    "object": "Mitochondrial-Derived Vesicles",
+    "context": {
+      "en-US": "The HOPS complex is implicated in delivery of Mitochondrial-Derived Vesicles to the endolysosomal system, acting together with STX17. The review groups HOPS and STX17 with RAB9 and SNX9, which are implicated in vesicle formation, and states that whether these factors define a distinct biogenesis route or act downstream of MIRO-dependent trafficking remains unresolved. Delivery to the endolysosomal system positions HOPS downstream of vesicle formation and upstream of membrane fusion.",
+      "zh-TW": "HOPS Complex 與 STX17 共同作用，參與將 Mitochondrial-Derived Vesicles 遞送至內溶酶體系統。本文將 HOPS 與 STX17 和 RAB9、SNX9 歸為一組，後兩者參與囊泡形成；並指出這些因子究竟定義了獨立的生成路徑，或作用於 MIRO 依賴運輸的下游仍未解決。 向內溶酶體系統的遞送使 HOPS 位於囊泡形成下游、膜融合上游。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "MAPL",
+    "predicate": "directs",
+    "object": "Mitochondrial-Derived Vesicles",
+    "context": {
+      "en-US": "Peroxisomal delivery of Mitochondrial-Derived Vesicles has been linked to recruitment of the mitochondrial-anchored protein ligase MAPL and to VPS35-dependent transport. In contrast, MAPL-negative, TOMM20-positive vesicles have been linked to lysosomal delivery. The review cautions that MAPL and TOMM20 status are cargo-composition markers rather than fixed trafficking determinants, and that the generality of this split is unestablished. The competition between peroxisomal and lysosomal routes is thought to depend on cargo composition rather than a single sorting receptor.",
+      "zh-TW": "Mitochondrial-Derived Vesicles 的過氧化體導向運輸與粒線體錨定蛋白連接酶 MAPL 的招募及 VPS35 依賴運輸相關。相對地，MAPL 陰性、TOMM20 陽性的囊泡則與溶酶體導向相關。本文提醒 MAPL 與 TOMM20 狀態是貨物組成的標記，而非固定的運輸決定因子，且此二分法的通用性尚未確立。 過氧化體與溶酶體路徑之間的競爭被認為取決於貨物組成，而非單一分選受體。"
+    },
+    "confidence": 0.7,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "Mitochondrial-Derived Vesicles",
+    "predicate": "mediate",
+    "object": "Mitochondrial Antigen Presentation",
+    "context": {
+      "en-US": "Mitochondrial antigen presentation, or MitAP, is an immune process supported by Mitochondrial-Derived Vesicles. The review reports that in the absence of PINK1 and Parkin, MitAP is promoted by MDV formation requiring SNX9 and RAB9. This links vesicle trafficking machinery to the display of mitochondrial antigens and shows that MDVs influence immune responses beyond their quality-control role. The process links mitochondrial quality control to adaptive immunity by making mitochondrial antigens available for presentation.",
+      "zh-TW": "粒線體抗原呈現（MitAP）是一種由 Mitochondrial-Derived Vesicles 支持的免疫過程。本文報告在缺乏 PINK1 與 Parkin 時，需要 SNX9 與 RAB9 的 MDV 形成會促進 MitAP。這將囊泡運輸機械與粒線體抗原的呈現聯繫起來，並顯示 MDV 在品質管制角色之外亦影響免疫反應。 此過程透過使粒線體抗原可供呈現，將粒線體品質管制與適應性免疫聯繫起來。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "Parkin",
+    "predicate": "suppresses",
+    "object": "Mitochondrial Antigen Presentation",
+    "context": {
+      "en-US": "PINK1 and Parkin normally repress Mitochondrial Antigen Presentation; their absence permits MDV-dependent antigen presentation. The review cites this as evidence that PD-related proteins constrain immune visibility of mitochondrial components. The effect is mediated through the same SNX9- and RAB9-dependent vesicle route that operates when PINK1/Parkin labeling is lost. Loss of this repression may expose self-antigens and contribute to autoimmune features of Parkinson's Disease.",
+      "zh-TW": "PINK1 與 Parkin 通常抑制粒線體抗原呈現；兩者缺失時則容許 MDV 依賴的抗原呈現。本文引用此作為 PD 相關蛋白會限制粒線體組分免疫可見性的證據。此效果是透過在 PINK1/Parkin 標記喪失時運作的同一條 SNX9 與 RAB9 依賴囊泡路徑所媒介。 此抑制作用喪失可能暴露自身抗原，並促成 Parkinson's Disease 的自身免疫特徵。"
+    },
+    "confidence": 0.7,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "Mitochondrial-Derived Vesicles",
+    "predicate": "package_into",
+    "object": "Extracellular Vesicles",
+    "context": {
+      "en-US": "Selective sorting of mitochondrial cargo into Mitochondrial-Derived Vesicles can route that cargo into Extracellular Vesicles rather than toward multivesicular body exocytosis or lysosomal degradation. The review states that this packaging limits uncontrolled release of potentially inflammagenic mitochondrial contents. MDVs thereby act as selective communication vesicles whose cargo fate is set by physiological context. This sorting prevents uncontrolled leakage of inflammagenic mitochondrial material into the extracellular milieu.",
+      "zh-TW": "將粒線體貨物選擇性分選進入 Mitochondrial-Derived Vesicles，可使貨物導向 Extracellular Vesicles，而非 multivesicular body 外排或溶酶體降解。本文指出此種包裹限制了潛在發炎性粒線體內容物的不受控制釋放。因此 MDV 扮演選擇性溝通囊泡，其貨物命運由生理情境決定。 此種分選防止發炎性粒線體物質不受控制地洩漏到細胞外環境。"
+    },
+    "confidence": 0.7,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "Hypoxia-reoxygenation",
+    "predicate": "triggers",
+    "object": "Mitochondrial-Derived Vesicles",
+    "context": {
+      "en-US": "Hypoxia-reoxygenation stress triggers formation of Mitochondrial-Derived Vesicles that carry MFF to damaged lysosomes. The review reports that this response restores lysosomal function through MIRO2-ITM2C tethering and DRP1-dependent budding-type fission. It extends MDV-mediated communication beyond degradative transfer to direct control of lysosomal quality control during acute injury. The response is rapid and localized to lysosomes that have sustained membrane damage. The finding extends MDV biology beyond cargo disposal to active lysosomal repair.",
+      "zh-TW": "Hypoxia-reoxygenation 壓力會觸發 Mitochondrial-Derived Vesicles 形成，並將 MFF 攜帶至受損溶酶體。本文報告此反應透過 MIRO2-ITM2C 栓繫及 DRP1 依賴的出芽型分裂恢復溶酶體功能。這將 MDV 媒介的溝通從降解性轉運擴展到急性損傷期間對溶酶體品質管制的直接控制。 此反應迅速，且局限於遭受膜損傷的溶酶體。 此發現將 MDV 生物學從貨物處置擴展到主動的溶酶體修復。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "MFF",
+    "predicate": "recruits",
+    "object": "DRP1",
+    "context": {
+      "en-US": "MFF delivered by Mitochondrial-Derived Vesicles to damaged lysosomes recruits DRP1 to the lysosomal surface. DRP1 then drives budding-type lysosomal fission, an activity that restores lysosomal function after hypoxia-reoxygenation stress. The review presents this as an extramitochondrial function of a classical mitochondrial dynamics protein and as a mechanism of organelle remodeling. The resulting fission is budding-type and restores lysosomal function after the stress stimulus.",
+      "zh-TW": "由 Mitochondrial-Derived Vesicles 遞送至受損溶酶體的 MFF 會將 DRP1 招募到溶酶體表面。DRP1 隨後驅動出芽型溶酶體分裂，此活性在 Hypoxia-reoxygenation 壓力後恢復溶酶體功能。本文將其視為經典粒線體動力學蛋白的粒線體外功能，也是一種細胞器重塑機制。 由此產生的分裂屬出芽型，並在壓力刺激後恢復溶酶體功能。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "Mitochondrial-Derived Vesicles",
+    "predicate": "remodel",
+    "object": "Lysosome",
+    "context": {
+      "en-US": "Mitochondrial-Derived Vesicles remodel their target Lysosome rather than only delivering cargo to it, as shown by MFF-bearing vesicles driving lysosomal fission and restoring function after stress. The review also notes that MDV membrane fusion may alter lysosomal membrane microdomains. The fusion machinery for STX17-negative MDVs remains unidentified, so the extent of this remodeling is not fully defined. The article notes that fusion of the MDV membrane may also create localized microdomains in the lysosomal membrane.",
+      "zh-TW": "Mitochondrial-Derived Vesicles 會重塑其標靶 Lysosome，而非僅向其遞送貨物；帶有 MFF 的囊泡驅動溶酶體分裂並在壓力後恢復功能即為例證。本文亦指出 MDV 膜融合可能改變溶酶體膜微區。缺乏 STX17 的 MDV 其融合機械仍未確認，因此這種重塑的程度尚未完全界定。 文中指出 MDV 膜的融合亦可能在溶酶體膜上產生局部微區。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "Reactive Oxygen Species",
+    "predicate": "stimulates",
+    "object": "TRPML1",
+    "context": {
+      "en-US": "Mitochondrial inhibition or depolarization increases Reactive Oxygen Species and has been reported to increase TRPML1 channel activity, leading to the hypothesis that TRPML1 acts as a lysosomal ROS sensor. The review explicitly states that the responsible ROS species and whether the interaction is direct or indirect remain undetermined. It is presented as a plausible link between mitochondrial redox state and lysosomal Ca2+ release.",
+      "zh-TW": "粒線體抑制或去極化會增加 Reactive Oxygen Species，並被報告可提高 TRPML1 通道活性，因而產生 TRPML1 作為溶酶體 ROS 感測器的假說。本文明確指出負責的 ROS 種類以及交互作用是直接或間接仍未確定。此被視為粒線體氧化還原狀態與溶酶體 Ca2+ 釋放之間合理的連結。"
+    },
+    "confidence": 0.5,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "AMPK",
+    "predicate": "promotes",
+    "object": "Lysosome Biogenesis",
+    "context": {
+      "en-US": "Acute mitochondrial stress activates AMPK, which promotes TFEB-dependent Lysosome Biogenesis and lysosomal function. The review reports that AMPK stimulates lysosomal PtdIns(3,5)P2 production and downstream Ca2+ efflux, and that both AMPK and TFEB activities are downregulated during chronic mitochondrial perturbation. The pathway therefore couples transient energetic stress to adaptive lysosomal expansion. The adaptive program includes both increased lysosomal gene expression and improved hydrolytic capacity.",
+      "zh-TW": "急性粒線體壓力會活化 AMPK，後者促進 TFEB 依賴的 Lysosome Biogenesis 與溶酶體功能。本文報告 AMPK 刺激溶酶體 PtdIns(3,5)P2 生成及下游 Ca2+ 外流，且在慢性粒線體 perturbation 期間 AMPK 與 TFEB 活性皆被下調。因此該路徑將短暫能量壓力耦合至適應性溶酶體擴增。 此適應性程式包括溶酶體基因表現增加與水解能力提升。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "AMPK",
+    "predicate": "promotes",
+    "object": "Mitochondrial Biogenesis",
+    "context": {
+      "en-US": "AMPK stimulates Mitochondrial Biogenesis alongside TFEB-dependent lysosomal biogenesis, in part through phosphorylation of FNIP1. The review cites activation of the AMPK/PGC-1α axis as beneficial in cellular and mouse models of respiratory chain deficiency. Because AMPK activation may be detrimental in neuronal tissue, the review frames the outcome as tissue-specific rather than uniformly protective. The tissue dependence of the benefit is emphasized, since AMPK activation in neurons can be harmful.",
+      "zh-TW": "AMPK 刺激 Mitochondrial Biogenesis，同時也促進 TFEB 依賴的溶酶體生成，部分透過磷酸化 FNIP1。本文引用 AMPK/PGC-1α 軸的活化在呼吸鏈缺陷的細胞與小鼠模型中具有效益。由於 AMPK 活化在神經組織中可能有害，本文將結果定位為組織特異性，而非一致性的保護作用。 本文強調效益具有組織依賴性，因為神經元中 AMPK 活化可能有害。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "AMPK",
+    "predicate": "stimulates",
+    "object": "PtdIns(3,5)P2",
+    "context": {
+      "en-US": "AMPK-stimulated production of PtdIns(3,5)P2 at lysosomes promotes Ca2+ efflux through TRPML1. The review places this lipid signal upstream of calcineurin activation and TFEB dephosphorylation, making it a mechanistic bridge between energetic stress sensing and the lysosomal transcriptional response. Chronic mitochondrial defects are associated with reduced lysosomal PtdIns(3,5)P2. Reduced levels of this lipid are a consistent feature of lysosomes in chronically defective mitochondria.",
+      "zh-TW": "AMPK 刺激的溶酶體 PtdIns(3,5)P2 生成會促進 Ca2+ 透過 TRPML1 外流。本文將此脂質訊號置於 calcineurin 活化與 TFEB 去磷酸化的上游，使其成為能量壓力感測與溶酶體轉錄反應之間的機制橋樑。慢性粒線體缺陷與溶酶體 PtdIns(3,5)P2 降低相關。 此脂質水平降低是慢性缺陷粒線體中溶酶體的一致特徵。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "TRPML1",
+    "predicate": "activates",
+    "object": "calcineurin",
+    "context": {
+      "en-US": "Ca2+ efflux through lysosomal TRPML1 leads to activation of the phosphatase calcineurin. The review describes this as the calcium-dependent step that translates lysosomal ion release into dephosphorylation of TFEB and activation of the autophagic-lysosomal transcriptional program. TRPML1 stimulation is sufficient to correct several phenotypes in chronic mitochondrial disease models. The cascade provides a direct mechanistic link between lysosomal ion release and nuclear transcriptional reprogramming.",
+      "zh-TW": "透過溶酶體 TRPML1 的 Ca2+ 外流會導致磷酸酶 calcineurin 活化。本文將其描述為依賴鈣的步驟，把溶酶體離子釋放轉譯為 TFEB 的去磷酸化及自噬—溶酶體轉錄程式的活化。刺激 TRPML1 足以校正慢性粒線體疾病模型中的多種表型。 此級聯提供了溶酶體離子釋放與核轉錄重編程之間的直接機制連結。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "calcineurin",
+    "predicate": "promotes",
+    "object": "TFEB nuclear translocation",
+    "context": {
+      "en-US": "Activated calcineurin dephosphorylates TFEB, permitting its nuclear translocation and transcriptional activity. The review presents this as the downstream arm of lysosomal calcium signaling initiated by TRPML1 and reinforced by AMPK-driven PtdIns(3,5)P2 production. The result is coordinated induction of lysosomal and autophagic genes during acute mitochondrial stress. Dephosphorylation exposes the nuclear localization signal and releases TFEB from cytosolic 14-3-3 binding. The step is downstream of AMPK-driven lipid signaling and upstream of lysosomal gene induction.",
+      "zh-TW": "活化的 calcineurin 會使 TFEB 去磷酸化，允許其核轉位與轉錄活性。本文將其呈現為由 TRPML1 啟動、並由 AMPK 驅動的 PtdIns(3,5)P2 生成所強化的溶酶體鈣訊號下游分支。其結果是在急性粒線體壓力期間協同誘導溶酶體與自噬基因。 去磷酸化揭露核定位信號，並將 TFEB 從細胞質 14-3-3 結合中釋放。 此步驟位於 AMPK 驅動的脂質訊號下游、溶酶體基因誘導上游。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "TFE3",
+    "predicate": "cooperates_with",
+    "object": "TFEB",
+    "context": {
+      "en-US": "TFE3 and its close family member TFEB activate overlapping transcriptional programs of mitochondrial and lysosomal biogenesis. The review notes that both factors are engaged during acute mitochondrial stress and that their activity declines under chronic mitochondrial dysfunction. Their cooperation provides a coordinated transcriptional output from the lysosome to the mitochondrion. Both factors bind related CLEAR-type elements and drive overlapping lysosomal and metabolic gene programs.",
+      "zh-TW": "TFE3 與其密切家族成員 TFEB 活化重疊的粒線體與溶酶體生物發生轉錄程式。本文指出兩者在急性粒線體壓力期間皆被動員，而在慢性粒線體功能障礙下活性下降。兩者的協作為從溶酶體到粒線體提供協調的轉錄輸出。 兩者皆結合相關的 CLEAR 型元件，並驅動重疊的溶酶體與代謝基因程式。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "V-ATPase",
+    "predicate": "supports",
+    "object": "Iron availability",
+    "context": {
+      "en-US": "Lysosomal acidification by V-ATPase supports cellular Iron availability; chronic V-ATPase inhibition produces mitochondrial fragmentation, reduced respiratory capacity and increased superoxide through functional iron deficiency. The review also reports the opposite effect on mitochondrial membrane potential, noting that V-ATPase inhibition hyperpolarizes mitochondria by an unresolved mechanism. Both observations place the proton pump upstream of mitochondrial physiology. Chronic inhibition also causes fragmentation and respiratory loss, whereas acute inhibition can raise mitochondrial membrane potential.",
+      "zh-TW": "V-ATPase 所執行的溶酶體酸化支持細胞的 Iron 可用性；慢性抑制 V-ATPase 會透過功能性缺鐵造成粒線體斷裂、呼吸能力下降與超氧增加。本文亦報告對粒線體膜電位的相反效應，指出 V-ATPase 抑制以未釐清的機制使粒線體過極化。兩項觀察都將此質子泵置於粒線體生理的上游。 慢性抑制亦造成斷裂與呼吸喪失，而急性抑制則可提高粒線體膜電位。"
+    },
+    "confidence": 0.7,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "Lysosome",
+    "predicate": "activates",
+    "object": "Mitochondrial Unfolded Protein Response",
+    "context": {
+      "en-US": "Lysosomal acidification and nutrient signaling are required for transcriptional activation of the Mitochondrial Unfolded Protein Response during mitochondrial stress. The review cites mTORC1-dependent ATF4 phosphorylation as the mechanism by which lysosomes mediate this response. Lysosomal function is therefore necessary for the ability of Mitochondria to mount a proteostatic response to stress. The dependency on lysosomal acidification means that impaired lysosomes blunt the mitochondrial stress response.",
+      "zh-TW": "在粒線體壓力期間，溶酶體酸化與營養訊號是轉錄活化 Mitochondrial Unfolded Protein Response 所必需的。本文引用 mTORC1 依賴的 ATF4 磷酸化作為溶酶體媒介此反應的機制。因此溶酶體功能是 Mitochondria 對壓力產生蛋白恆定反應的必要條件。 此對溶酶體酸化的依賴意味著受損溶酶體會鈍化粒線體壓力反應。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "mTORC1",
+    "predicate": "mediates",
+    "object": "Nutrient-induced Mitochondrial Activity",
+    "context": {
+      "en-US": "Insulin or amino acids trigger Nutrient-induced Mitochondrial Activity by activating lysosomal rather than mitochondrial mTORC1 in neuronal cells. The review describes this as a directed lysosome-to-mitochondria signaling pathway. Nutrient-dependent activation of lysosomal mTORC1 thereby raises mitochondrial activity without requiring the kinase to act at the mitochondrial surface. The effect is described as nutrient-induced mitochondrial activity and is disrupted by amyloid-β oligomers.",
+      "zh-TW": "胰島素或胺基酸在神經細胞中透過活化溶酶體而非粒線體的 mTORC1，觸發 Nutrient-induced Mitochondrial Activity。本文將其描述為定向的溶酶體到粒線體訊息傳遞路徑。因此依賴營養的溶酶體 mTORC1 活化可提高粒線體活性，而不需要激酶作用於粒線體表面。 此效應被描述為營養誘導的粒線體活性，並受 amyloid-β 寡聚體擾亂。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "Alzheimer's Disease",
+    "predicate": "disrupts",
+    "object": "Nutrient-induced Mitochondrial Activity",
+    "context": {
+      "en-US": "In Alzheimer's Disease neurons, amyloid-β oligomers inhibit lysosomal mTORC1 activation and block Nutrient-induced Mitochondrial Activity. The review presents this as a concrete example of defective lysosome-mitochondria crosstalk contributing to pathogenesis. Loss of the nutrient-dependent signal accompanies broader lysosomal abnormalities, including enlarged lysosomes and reduced cathepsin D activity. The finding provides a mechanistic example of how defective inter-organelle signaling can drive neurodegenerative progression.",
+      "zh-TW": "在 Alzheimer's Disease 神經元中，amyloid-β 寡聚體抑制溶酶體 mTORC1 活化並阻斷 Nutrient-induced Mitochondrial Activity。本文將其視為缺陷的溶酶體—粒線體溝通促成病理的具體實例。此營養依賴訊號的喪失伴隨更廣泛的溶酶體異常，包括溶酶體增大與 cathepsin D 活性降低。 此發現提供了一個機制實例，說明缺陷的細胞器間訊號如何驅動神經退化進展。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "Tau",
+    "predicate": "relocalizes",
+    "object": "mTORC1",
+    "context": {
+      "en-US": "Amyloid-β oligomers stimulate Tau-dependent translocation of mTORC1 from lysosomes to the plasma membrane in Alzheimer's Disease neurons. Plasma membrane-localized mTORC1 activation then triggers cell cycle re-entry and neuronal cell death. The review identifies this relocalization as the step that converts a lysosomal nutrient signal into a pathogenic outcome in Alzheimer's Disease. Cell cycle re-entry is a frequent feature of Alzheimer's Disease pathogenesis and is triggered by plasma membrane mTORC1.",
+      "zh-TW": "在 Alzheimer's Disease 神經元中，amyloid-β 寡聚體刺激 Tau 依賴的 mTORC1 從溶酶體轉位至質膜。定位於質膜的 mTORC1 活化隨後觸發細胞週期再進入與神經元死亡。本文將此轉位視為在 Alzheimer's Disease 中把溶酶體營養訊號轉化為病理結果的關鍵步驟。 細胞週期再進入是 Alzheimer's Disease 病理中常見的特徵，由質膜 mTORC1 觸發。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "Cathepsins",
+    "predicate": "remodel",
+    "object": "Mitochondria",
+    "context": {
+      "en-US": "Sub-lethal lysosomal membrane permeabilization leaks Cathepsins into the cytosol, where they proteolytically remodel the mitochondrial proteome. The review reports turnover of TOM20, MFN2 and TIM23 independently of Mitophagy, mitochondrial proteases or the proteasome. This lysosome-to-mitochondria damage signal reprograms macrophage immunometabolism and host responses to infection. The proteolysis occurs independently of mitophagy, mitochondrial proteases and the proteasome. The remodeled mitochondrial proteome underlies a reprogramming of macrophage immunometabolism.",
+      "zh-TW": "亞致死性溶酶體膜通透化使 Cathepsins 洩漏到細胞質，於此對粒線體蛋白體進行蛋白水解重塑。本文報告 TOM20、MFN2 與 TIM23 的周轉獨立於 Mitophagy、粒線體蛋白酶或蛋白酶體。此溶酶體到粒線體的損傷訊號會重編程巨噬細胞的免疫代謝與宿主對感染的反應。 此蛋白水解獨立於 mitophagy、粒線體蛋白酶與蛋白酶體而發生。 被重塑的粒線體蛋白體是巨噬細胞免疫代謝重編程的基礎。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "APOL3",
+    "predicate": "senses",
+    "object": "Lysosomal membrane damage",
+    "context": {
+      "en-US": "After interferon-γ priming, the antibacterial protein APOL3 senses Lysosomal membrane damage and is recruited to Mitochondria already undergoing BAK1/BAX-dependent outer membrane permeabilization. The review describes this as active immune amplification of a lysosome-to-mitochondria damage signal. APOL3 thereby couples organelle injury to innate immune activation. The protein is recruited only after interferon-γ priming and only to mitochondria already undergoing outer membrane permeabilization.",
+      "zh-TW": "經 interferon-γ 致敏後，抗菌蛋白 APOL3 會感知 Lysosomal membrane damage，並被招募至已進行 BAK1/BAX 依賴外膜通透化的 Mitochondria。本文將其描述為對溶酶體到粒線體損傷訊號的主動免疫放大。APOL3 因此將細胞器損傷與先天免疫活化耦合。 此蛋白僅在 interferon-γ 致敏後被招募，且僅作用於已進行外膜通透化的粒線體。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "APOL3",
+    "predicate": "permeabilizes",
+    "object": "Inner Mitochondrial Membrane",
+    "context": {
+      "en-US": "Recruited APOL3 selectively permeabilizes the Inner Mitochondrial Membrane by solubilizing cardiolipin. The review reports that this potentiates Mitochondrial DNA efflux and downstream cGAS-STING-dependent Type I Interferon production. The finding places lysosomal membrane integrity, rather than acidification or degradative capacity alone, upstream of mitochondrial innate immune signaling. Cardiolipin solubilization is the specific biochemical mechanism underlying inner membrane permeabilization. The event requires BAK1/BAX-dependent outer membrane permeabilization as a prerequisite.",
+      "zh-TW": "被招募的 APOL3 透過溶解 cardiolipin，選擇性地使 Inner Mitochondrial Membrane 通透化。本文報告此作用會增強 Mitochondrial DNA 外流及下游 cGAS-STING 依賴的 Type I Interferon 產生。此發現將溶酶體膜完整性，而非僅是酸化或降解能力，置於粒線體先天免疫訊號的上游。 Cardiolipin 溶解是內膜通透化的具體生物化學機制。 此事件需要 BAK1/BAX 依賴的外膜通透化作為前提。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "cGAS-STING Pathway",
+    "predicate": "induces",
+    "object": "Type I Interferon",
+    "context": {
+      "en-US": "Mitochondrial DNA efflux caused by APOL3-mediated inner membrane permeabilization activates the cGAS-STING Pathway and downstream Type I Interferon production. The review presents this as the terminal innate immune output of lysosomal membrane damage communicated to Mitochondria. It links organelle integrity surveillance to a defined transcriptional and inflammatory program. The pathway converts a lysosome-derived damage signal into a systemic innate immune output.",
+      "zh-TW": "由 APOL3 媒介的內膜通透化所引起的 Mitochondrial DNA 外流，會活化 cGAS-STING Pathway 及下游 Type I Interferon 產生。本文將其視為傳達至 Mitochondria 的溶酶體膜損傷之終端先天免疫輸出。它將細胞器完整性監控與明確的轉錄及發炎程式聯繫起來。 此路徑將源自溶酶體的損傷訊號轉化為全身性先天免疫輸出。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "Rab7",
+    "predicate": "tethers",
+    "object": "Mitochondria-Lysosome Contact Site",
+    "context": {
+      "en-US": "Mitochondria-Lysosome Contact Site formation is Rab7-GTP dependent: lysosomal GTP-bound Rab7 binds an as-yet unidentified mitochondrial partner to promote tethering. The review states these contacts lack autophagosome markers and show no bulk content transfer, distinguishing them from Mitophagy and MDVs. Rab7 therefore sets the dynamic tethering state of the interface. The identity of the mitochondrial partner protein that binds GTP-bound Rab7 has not yet been determined.",
+      "zh-TW": "Mitochondria-Lysosome Contact Site 的形成依賴 Rab7-GTP：溶酶體上結合 GTP 的 Rab7 與尚未確認的粒線體伙伴結合以促進栓繫。本文指出這些接觸缺乏自噬體標記，且未有大量內容物轉移，因而與 Mitophagy 及 MDV 區分。因此 Rab7 設定了該界面的動態栓繫狀態。 與 GTP 結合型 Rab7 結合的粒線體伙伴蛋白身分尚未確定。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "FIS1",
+    "predicate": "recruits",
+    "object": "TBC1D15",
+    "context": {
+      "en-US": "FIS1 on the outer mitochondrial membrane promotes untethering of Mitochondria-Lysosome Contact Sites by recruiting TBC1D15, a Rab7 GTPase-activating protein. The review describes this as the counterpart to Rab7-GTP-dependent tethering. The FIS1-TBC1D15 axis therefore controls contact duration rather than cargo transfer across the interface. The untethering machinery acts on the same interface that Rab7-GTP uses to maintain tethering. The mechanism was established by showing that Fis1 recruits the GAP to the outer mitochondrial membrane.",
+      "zh-TW": "粒線體外膜上的 FIS1 透過招募 Rab7 GTPase 活化蛋白 TBC1D15，促進 Mitochondria-Lysosome Contact Site 的解栓。本文將其描述為與 Rab7-GTP 依賴栓相對應的機制。因此 FIS1-TBC1D15 軸控制的是接觸持續時間，而非跨越界面的貨物轉移。 此解栓機械作用於 Rab7-GTP 用以維持栓繫的同一界面。 該機制是透過證明 Fis1 將此 GAP 招募至粒線體外膜而確立的。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "TBC1D15",
+    "predicate": "inactivates",
+    "object": "Rab7",
+    "context": {
+      "en-US": "TBC1D15 is a Rab7 GAP recruited by FIS1 that promotes conversion of Rab7-GTP into Rab7-GDP. The review identifies this GTP hydrolysis as the biochemical trigger for dissolution of the mitochondria-lysosome tether. Inactivation of Rab7 therefore provides a rapid, reversible means of terminating contact-site signaling. Conversion to Rab7-GDP is the rate-limiting step that terminates the tethered state. The reaction converts the tether-competent GTP state into the GDP state that permits dissociation.",
+      "zh-TW": "TBC1D15 是由 FIS1 招募的 Rab7 GAP，促進 Rab7-GTP 轉化為 Rab7-GDP。本文將此 GTP 水解視為粒線體—溶酶體栓繫解散的生物化學觸發。因此使 Rab7 失活提供了一種快速、可逆的終止接觸位點訊息傳遞的方式。 轉化為 Rab7-GDP 是終止栓繫狀態的速率限制步驟。 此反應將具栓繫能力的 GTP 狀態轉化為容許解離的 GDP 狀態。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "TBC1D15",
+    "predicate": "untethers",
+    "object": "Mitochondria-Lysosome Contact Site",
+    "context": {
+      "en-US": "By hydrolyzing Rab7-GTP, TBC1D15 drives untethering of Mitochondria-Lysosome Contact Sites. The review reports that TBC1D15 overexpression rescues abnormal contact duration after myocardial infarction and during seizures, and that TBC1D15 recruits DRP1 to contact sites to drive asymmetrical mitochondrial fission. This positions TBC1D15 as a regulator of organelle dynamics at the interface. Recruitment of DRP1 by TBC1D15 links contact dissolution directly to mitochondrial fission.",
+      "zh-TW": "透過水解 Rab7-GTP，TBC1D15 驅動 Mitochondria-Lysosome Contact Site 的解栓。本文報告 TBC1D15 過表現可挽救心肌梗塞後與癲癇期間的異常接觸 duration，且 TBC1D15 招募 DRP1 至接觸位點以驅動不對稱粒線體分裂。這使 TBC1D15 成為界面處細胞器動態的調控者。 TBC1D15 對 DRP1 的招募將接觸解離與粒線體分裂直接聯繫起來。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "Mitochondria-Lysosome Contact Site",
+    "predicate": "regulates",
+    "object": "Mitochondrial Fission",
+    "context": {
+      "en-US": "Mitochondria-Lysosome Contact Sites are enriched at DRP1-positive fission sites, and their Rab7-GTP hydrolysis-dependent untethering is coupled to Mitochondrial Fission. The review states that the contacts are distinct from Mitophagy and MDVs, and that shape changes such as mega-mitochondria may increase surface area for inter-organelle contact in diseased states. DRP1 recruitment thus links the interface to fission machinery. Mega-mitochondria and donut-shaped mitochondria are proposed to increase the membrane area available for such contacts.",
+      "zh-TW": "Mitochondria-Lysosome Contact Site 富集於 DRP1 陽性的分裂位點，且其依賴 Rab7-GTP 水解的解栓與 Mitochondrial Fission 耦合。本文指出這些接觸不同於 Mitophagy 與 MDV，且如巨型粒線體等形狀變化可能增加病害狀態下細胞器間接觸的表面積。因此 DRP1 招募將界面與分裂機械聯繫起來。 巨型粒線體與甜甜圈形粒線體被認為可增加此類接觸可用的膜面積。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "GDAP1",
+    "predicate": "interacts_with",
+    "object": "LAMP1",
+    "context": {
+      "en-US": "GDAP1 contributes to mitochondria-lysosome tethering through interaction with the lysosomal membrane protein LAMP1, defining a contact class distinct from the Rab7-FIS1-TBC1D15 machinery. The review notes that GDAP1-dependent contacts form redox-sensitive microdomains and that whether they are molecularly distinct from Rab7-dependent contacts remains unknown. The interaction is implicated in axonal integrity. GDAP1-dependent contacts are redox-sensitive, suggesting that contact chemistry as well as abundance influences axonopathy.",
+      "zh-TW": "GDAP1 透過與溶酶體膜蛋白 LAMP1 交互作用，促進粒線體—溶酶體栓繫，定義了一種不同於 Rab7-FIS1-TBC1D15 機械的接觸類別。本文指出 GDAP1 依賴的接觸形成氧化還原敏感微區，且其與 Rab7 依賴接觸是否在分子上不同仍未確認。此交互作用與軸突完整性相關。 GDAP1 依賴的接觸具有氧化還原敏感性，顯示接觸化學與數量皆會影響軸突病變。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "Mitochondria-Lysosome Contact Site",
+    "predicate": "transports",
+    "object": "Calcium",
+    "context": {
+      "en-US": "Ca2+ released from the lysosome through TRPML1 is taken up by Mitochondria at Mitochondria-Lysosome Contact Sites, crossing the outer membrane through VDAC and the inner membrane through MCU. The review reports that TRPML1 mutation reduces mitochondrial Ca2+ handling, increases contact number and duration, and that complete loss causes mitochondrial calcium overload and dysfunction. The interface therefore sets mitochondrial Ca2+ dynamics.",
+      "zh-TW": "透過 TRPML1 從溶酶體釋放的 Ca2+ 在 Mitochondria-Lysosome Contact Site 處被 Mitochondria 攝取，經 VDAC 穿越外膜、經 MCU 穿越內膜。本文報告 TRPML1 突變會降低粒線體 Ca2+ 處理能力、增加接觸數量與持續時間，而完全缺失會造成粒線體鈣超載與功能障礙。因此該界面設定了粒線體 Ca2+ 動態。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "VDAC",
+    "predicate": "mediates",
+    "object": "Mitochondrial calcium uptake",
+    "context": {
+      "en-US": "VDAC1 mediates passage of lysosome-derived Ca2+ across the mitochondrial outer membrane at contact sites, with MCU handling inner membrane uptake. The review reports that this calcium transfer is altered by TRPML1 mutation and that the same VDAC/MCU route operates in disease models. VDAC thus provides the outer membrane entry point for inter-organelle calcium signaling. MCU completes the route across the inner membrane, so the two channels define the full transfer pathway.",
+      "zh-TW": "VDAC1 在接觸位點媒介溶酶體來源的 Ca2+ 穿越粒線體外膜，內膜攝取則由 MCU 負責。本文報告此鈣轉移會因 TRPML1 突變而改變，且相同的 VDAC/MCU 路徑在疾病模型中亦運作。因此 VDAC 提供了細胞器間鈣訊號傳遞的外膜入口。 MCU 完成了跨越內膜的路由，因此兩個通道定義了完整的轉移路徑。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "BDH2",
+    "predicate": "synthesizes",
+    "object": "2,5-DHBA",
+    "context": {
+      "en-US": "BDH2 localizes to Mitochondria-Lysosome Contact Sites and synthesizes 2,5-dihydroxybenzoic acid, an iron-binding siderophore. The review reports that 2,5-DHBA carries lysosomal Fe2+ into mitochondria in melanoma cells. This enzymatic step supplies the chemical vehicle for lysosome-to-mitochondria iron transfer and shapes ferroptosis vulnerability. The siderophore is produced at the contact site and is detected in melanoma cells. Its localization places iron loading directly at the organelle interface.",
+      "zh-TW": "BDH2 定位於 Mitochondria-Lysosome Contact Site，並合成 2,5-dihydroxybenzoic acid，一種結合鐵的 siderophore。本文報告 2,5-DHBA 在黑色素瘤細胞中將溶酶體 Fe2+ 攜帶進入粒線體。此酵素步驟提供了溶酶體到粒線體鐵轉移的化學載體，並塑造 ferrotosis 易感性。 此 siderophore 在接觸位點生成，並在黑色素瘤細胞中被偵測到。 其定位使鐵的裝載直接發生在細胞器界面處。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "BDH2",
+    "predicate": "transports",
+    "object": "Iron",
+    "context": {
+      "en-US": "BDH2-dependent production of 2,5-DHBA enables transfer of lysosomal Iron to mitochondria at contact sites. The review describes this route as a determinant of ferroptosis sensitivity in melanoma cell states, and contrasts it with iron transfer from transferrin-enriched endosomes. BDH2 therefore couples lysosomal iron handling to mitochondrial redox vulnerability. The route operates alongside transferrin-enriched endosome contacts, which also deliver iron to mitochondria.",
+      "zh-TW": "BDH2 依賴的 2,5-DHBA 生成使溶酶體 Iron 得以在接觸位點轉移至粒線體。本文將此路徑描述為黑色素瘤細胞狀態中 ferrotosis 敏感性的決定因素，並將其與來自 transferrin 富集內體的鐵轉移對比。因此 BDH2 將溶酶體鐵處理與粒線體氧化還原脆弱性耦合。 此路徑與 transferrin 富集內體接觸並行運作，後者亦將鐵遞送至粒線體。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "Iron",
+    "predicate": "sensitizes",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "Lysosome-to-mitochondria Iron transfer sensitizes cells to Ferroptosis; BDH2-driven transfer shapes ferroptosis vulnerability in melanoma cells. The review notes that under stress, mitochondrial dysfunction increases oxidative stress and decreases Fe2+ import efficiency through TRPML1-VDAC2/3 or BDH2. Iron handling at the interface therefore sets the threshold for ferroptotic death. Under stress, reduced Fe2+ import efficiency and increased oxidative stress lower the threshold for ferroptotic death.",
+      "zh-TW": "溶酶體到粒線體的 Iron 轉移使細胞對 Ferroptosis 敏感；BDH2 驅動的轉移塑造黑色素瘤細胞的 ferrotosis 易感性。本文指出在壓力下，粒線體功能障礙會增加氧化壓力，並降低透過 TRPML1-VDAC2/3 或 BDH2 的 Fe2+ 輸入效率。因此界面處的鐵處理設定了 ferrotosis 死亡的閾值。 在壓力下，Fe2+ 輸入效率降低與氧化壓力增加會降低 ferrotosis 死亡的閾值。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "Parkin",
+    "predicate": "stabilizes",
+    "object": "Rab7",
+    "context": {
+      "en-US": "Parkin stabilizes active GTP-bound Rab7 at Mitochondria-Lysosome Contact Sites, promoting movement of amino acids from lysosomes to mitochondria. The review cites this as a non-mitophagic function of Parkin in Parkinson's Disease and notes that PD-associated Parkin mutants fail to support MDV formation. The stabilization links lysosomal nutrient output to mitochondrial metabolism. The effect is independent of Parkin's E3 ligase role in mitophagy and is lost with Parkinson's Disease-associated mutants.",
+      "zh-TW": "Parkin 在 Mitochondria-Lysosome Contact Site 穩定具活性的 GTP 結合型 Rab7，促進胺基酸從溶酶體移動至粒線體。本文將其視為 Parkinson's Disease 中 Parkin 的非 mitophagy 功能，並指出 PD 相關 Parkin 突變體無法支持 MDV 形成。此穩定化將溶酶體營養輸出與粒線體代謝聯繫起來。 此效果獨立於 Parkin 在 mitophagy 中的 E3 連接酶角色，並隨 Parkinson's Disease 相關突變體而喪失。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "Mitochondria-Lysosome Contact Site",
+    "predicate": "transfers",
+    "object": "Amino acids",
+    "context": {
+      "en-US": "Mitochondria-Lysosome Contact Sites have been implicated in transferring Amino acids from lysosomes to Mitochondria, a process promoted by Parkin stabilization of active Rab7. The review lists this alongside calcium, iron and cholesterol exchange as evidence that the interface is a metabolic hub. It also raises the possibility of sugar metabolism involvement through TFEB-regulated HKDC1. The finding positions the contact site as a conduit for lysosomal nutrient output rather than only an ion-exchange platform.",
+      "zh-TW": "Mitochondria-Lysosome Contact Site 被認為參與將 Amino acids 從溶酶體轉移至 Mitochondria，此過程由 Parkin 穩定活性 Rab7 所促進。本文將其與鈣、鐵及膽固醇交換並列，作為該界面為代謝樞紐的證據。文中亦提出透過 TFEB 調控的 HKDC1 參與糖代謝的可能性。 此發現將接觸位點定位為溶酶體營養輸出的通道，而非僅為離子交換平台。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "STARD3",
+    "predicate": "transports",
+    "object": "Cholesterol",
+    "context": {
+      "en-US": "STARD3 is required for Mitochondria-Lysosome Contact Sites in NPC1-deficient cells and mediates transfer of Cholesterol to mitochondria. The review reports that mitochondrial cholesterol accumulation in these cells depends on STARD3, and cites additional transfer from NPC2-containing endo-lysosomes. STARD3 therefore supplies the machinery for lysosome-to-mitochondria sterol delivery when NPC1 function is lost. Its role at ER-endosome contacts is distinct from its requirement at mitochondria-lysosome contacts in NPC1-deficient cells.",
+      "zh-TW": "STARD3 在 NPC1 缺陷細胞中為 Mitochondria-Lysosome Contact Site 所必需，並媒介 Cholesterol 向粒線體的轉移。本文報告這些細胞中粒線體膽固醇累積依賴 STARD3，並引用來自含 NPC2 內溶酶體的額外轉移。因此當 NPC1 功能喪失時，STARD3 提供了溶酶體到粒線體固醇遞送的機械。 其在內質網—內體接觸中的角色，不同於在 NPC1 缺陷細胞中對粒線體—溶酶體接觸的需求。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "TM4SF5",
+    "predicate": "enriches_at",
+    "object": "Mitochondria-Lysosome Contact Site",
+    "context": {
+      "en-US": "During glucose refeeding after starvation, TM4SF5 becomes enriched at Mitochondria-Lysosome Contact Sites and supports cholesterol export from lysosomes to mitochondria. The review reports that this results in increased mitochondrial fission and decreased oxidative phosphorylation. The finding places a tetraspanin at the interface as a nutrient-responsive regulator of organelle metabolism. The metabolic consequence is a shift toward fission and away from oxidative phosphorylation after nutrient refeeding.",
+      "zh-TW": "在飢餓後重新餵食葡萄糖期間，TM4SF5 富集於 Mitochondria-Lysosome Contact Site，並支持膽固醇從溶酶體輸出至粒線體。本文報告此導致粒線體分裂增加與氧化磷酸化下降。此發現將一種四跨膜蛋白置於界面，作為依賴營養的細胞器代謝調控者。 其代謝結果是在營養重新餵食後轉向分裂、遠離氧化磷酸化。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "Mitochondria",
+    "predicate": "acidify",
+    "object": "Lysosome",
+    "context": {
+      "en-US": "Proton transfer from Mitochondria to lysosomes at membrane contact sites contributes directly to lysosomal acidification. The review reports that this mechanism becomes progressively impaired during cellular senescence because of reduced Mitochondria-Lysosome Contact Sites. The observation shows that the contact site actively sustains lysosomal function rather than only exchanging ions and metabolites. The decline of this proton transfer during senescence links mitochondrial dysfunction directly to impaired proteostasis.",
+      "zh-TW": "在膜接觸位點從 Mitochondria 到溶酶體的質子轉移，直接促成溶酶體酸化。本文報告此機制在細胞衰老期間因 Mitochondria-Lysosome Contact Site 減少而逐漸受損。此觀察顯示接觸位點主動維持溶酶體功能，而非僅交換離子與代謝物。 衰老期間此質子轉移的下降，將粒線體功能障礙直接與受損的蛋白恆定性聯繫起來。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "Mitochondria",
+    "predicate": "contacts",
+    "object": "Melanosome",
+    "context": {
+      "en-US": "Mitochondria establish dynamic physical contacts with Melanosomes, and these interactions increase during melanosome biogenesis. The review reports that disrupting MFN2 or mitochondrial ATP production impairs both contact formation and melanosome maturation. Direct membrane apposition with this Lysosome-Related Organelle therefore functions as a platform for bidirectional communication rather than reflecting simple proximity. Melanosomes are lysosome-related organelles of the endolysosomal system with specialized pigment-cell functions.",
+      "zh-TW": "Mitochondria 與 Melanosome 建立動態的物理接觸，這些交互作用在 melanosomes 生物發生期間增加。本文報告破壞 MFN2 或粒線體 ATP 生成會同時損害接觸形成與 melanosome 成熟。因此與此 Lysosome-Related Organelle 的直接膜貼近，是作為雙向溝通的平台，而非單純反映 proximity。 Melanosome 是內溶酶體系統的 lysosome-related organelle，具有特化的色素細胞功能。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "MFN2",
+    "predicate": "tethers",
+    "object": "Melanosome",
+    "context": {
+      "en-US": "MFN2 participates in a tethering complex with the ER Ca2+ sensor STIM1 that promotes mitochondria-melanosome contacts and is required for efficient Melanosome maturation. The review notes that MFN2 also mediates mitochondria-ER contacts and outer membrane fusion, and that both MFN2 and MFF, a fission factor, converge on melanosome biogenesis. Mitochondrial dynamics proteins are thereby repurposed for LRO homeostasis. STIM1-MFN2 interactions provide the tether, showing that an ER calcium sensor is repurposed for melanosome biogenesis.",
+      "zh-TW": "MFN2 與內質網 Ca2+ 感測器 STIM1 組成栓繫複合體，促進粒線體—melanosome 接觸，且為有效 Melanosome 成熟所必需。本文指出 MFN2 亦媒介粒線體—內質網接觸及外膜融合，且 MFN2 與分裂因子 MFF 皆匯聚於 melanosome 生物發生。因此粒線體動力學蛋白被重新運用於 LRO 恆定性。 STIM1-MFN2 交互作用提供了栓繫，顯示內質網鈣感測器被重新用於 melanosome 生物發生。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "MFF",
+    "predicate": "drives",
+    "object": "Melanosome maturation",
+    "context": {
+      "en-US": "MFF buds from mitochondria and localizes to Melanosomes, where it promotes actin-dependent division and maturation. The review reports that loss of MFF produces enlarged, immature Melanosomes, revealing an extramitochondrial function for a classical fission factor. Mitochondria thus regulate melanosome growth and maturation rather than degradative capacity. Actin-dependent division is the immediate downstream event, and the protein acts outside the mitochondrion.",
+      "zh-TW": "MFF 從粒線體出芽並定位於 Melanosome，於此促進依賴肌動蛋白的分裂與成熟。本文報告 MFF 缺失會產生增大、未成熟的 Melanosome，揭露經典分裂因子的粒線體外功能。因此 Mitochondria 調控 melanosome 的生長與成熟，而非降解能力。 依賴肌動蛋白的分裂是直接的下游事件，且該蛋白作用於粒線體之外。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "PIKfyve",
+    "predicate": "required_for",
+    "object": "Melanosome maturation",
+    "context": {
+      "en-US": "Phosphoinositide metabolism through PIKfyve contributes to Melanosome maturation; inhibition of PIKfyve blocks maturation and causes accumulation of immature melanosomal intermediates. The review notes that PtdIns(3,5)P2 also regulates lysosomal ion homeostasis and TRPML1-dependent Ca2+ signaling. Related lipid signaling modules have therefore been adapted to support distinct organelle functions. In canonical lysosomes the same lipid governs ion homeostasis and TRPML1-mediated calcium signaling.",
+      "zh-TW": "透過 PIKfyve 的磷脂酰肌醇代謝有助於 Melanosome 成熟；抑制 PIKfyve 會阻斷成熟並導致未成熟 melanosome 中間體累積。本文指出 PtdIns(3,5)P2 亦調控溶酶體離子恆定性與 TRPML1 依賴的 Ca2+ 訊號。因此相關脂質訊號模組已被改編以支持不同的細胞器功能。 在常規溶酶體中，同一脂質調控離子恆定性與 TRPML1 媒介的鈣訊號。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "Lysosome-Related Organelle",
+    "predicate": "clears",
+    "object": "Mitochondria",
+    "context": {
+      "en-US": "During hepatocyte dedifferentiation, mitochondria interact with specialized Lysosome-Related Organelles that mediate mitochondrial clearance independently of conventional lysosomal degradation. The review cites this as an alternative pathway for organelle remodeling during cell fate transitions. It extends mitochondria-LRO communication beyond pigment-cell melanosome biogenesis to organelle removal. The pathway is observed in hepatocytes during dedifferentiation and bypasses conventional lysosomal degradation. The mechanism broadens the functional repertoire of mitochondria-LRO communication beyond organelle biogenesis.",
+      "zh-TW": "在肝細胞去分化期間，粒線體與特化的 Lysosome-Related Organelle 交互作用，後者媒介不依賴常規溶酶體降解的粒線體清除。本文將其視為細胞命運轉換期間細胞器重塑的替代路徑。這將粒線體—LRO 溝通從色素細胞的 melanosome 生物發生擴展到細胞器移除。 此路徑見於肝細胞去分化期間，並繞過常規溶酶體降解。 此機制擴展了粒線體—LRO 溝通的功能 repertoire，超越細胞器生物發生。"
+    },
+    "confidence": 0.7,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "Mitochondrial Disease",
+    "predicate": "suppresses",
+    "object": "TFEB",
+    "context": {
+      "en-US": "In chronic Mitochondrial Disease, respiratory chain dysfunction and mtDNA depletion suppress both AMPK signaling and TFEB activity instead of activating them, preventing appropriate lysosomal adaptation. The review identifies suppression of the AMPK-TFEB axis as a central feature of chronic disease, in contrast to the adaptive activation seen after acute mitochondrial stress. Restoring lysosomal signaling is proposed as a therapeutic entry point.",
+      "zh-TW": "在慢性 Mitochondrial Disease 中，呼吸鏈功能障礙與 mtDNA 耗盡會抑制 AMPK 訊號及 TFEB 活性，而非活化兩者，從而妨礙適當的溶酶體適應。本文將 AMPK-TFEB 軸的抑制視為慢性疾病的核心特徵，與急性粒線體壓力後的適應性活化形成對比。恢復溶酶體訊號被提出作為治療切入點。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "TRPML1",
+    "predicate": "rescues",
+    "object": "Mitochondrial Disease",
+    "context": {
+      "en-US": "Stimulation of TRPML1-dependent lysosomal Ca2+ release rescues lysosomal acidification, hydrolytic capacity and mitochondrial physiology in cellular and animal models of Mitochondrial Disease. The review presents this as evidence that lysosomal dysfunction actively contributes to mitochondrial pathophysiology rather than merely reflecting bioenergetic failure. Lysosomal signaling is therefore a candidate therapeutic target. The result challenges the view that lysosomal changes are merely downstream consequences of bioenergetic failure.",
+      "zh-TW": "刺激 TRPML1 依賴的溶酶體 Ca2+ 釋放，可在 Mitochondrial Disease 的細胞與動物模型中挽救溶酶體酸化、水解能力及粒線體生理。本文以此作為溶酶體功能障礙主動促成粒線體病理生理、而非僅反映生物能量衰竭的證據。因此溶酶體訊號是候選治療標靶。 此結果挑戰了溶酶體變化僅是生物能量衰竭下游結果的觀點。"
+    },
+    "confidence": 0.7,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "Glucocerebrosidase",
+    "predicate": "mutations_predispose_to",
+    "object": "Parkinson's Disease",
+    "context": {
+      "en-US": "Mutations in GBA1, encoding the lysosomal enzyme Glucocerebrosidase, are among the strongest genetic risk factors for Parkinson's Disease. The review reports that deficiency alters mitochondrial morphology, respiration and quality control, and disrupts Mitochondria-Lysosome Contact Site dynamics with excessive tethering and defective resolution. The link is therefore both degradative and non-degradative. GBA1-mutant dopaminergic neurons show prolonged tethering that can be rescued by restoring physiological contact dynamics.",
+      "zh-TW": "編碼溶酶體酵素 Glucocerebrosidase 的 GBA1 突變，是 Parkinson's Disease 最強的遺傳風險因子之一。本文報告其缺乏會改變粒線體形態、呼吸及品質管制，並擾亂 Mitochondria-Lysosome Contact Site 動態，造成過度栓繫與解栓缺陷。因此此連結同時涉及降解性與非降解性機制。 GBA1 突變的多巴胺能神經元呈現延長的栓繫，可透過恢復生理接觸動態而挽救。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "Lysosomal Storage Diseases",
+    "predicate": "repress",
+    "object": "Mitochondrial Biogenesis",
+    "context": {
+      "en-US": "Lysosomal Storage Diseases consistently repress transcriptional programs controlling Mitochondrial Biogenesis. The review interprets this as an adaptation to defective autophagic degradation that also compromises bioenergetic capacity and contributes to disease progression. The same disorders remodel mitochondrial metabolism, dynamics and stress signaling beyond their primary degradative defect. The adaptation may reduce the burden on impaired degradation but compromises cellular bioenergetic capacity.",
+      "zh-TW": "Lysosomal Storage Diseases 一貫地抑制控制 Mitochondrial Biogenesis 的轉錄程式。本文將其解讀為對自噬降解缺陷的適應，但同時損害生物能量能力並促成疾病進展。這些疾病在主要的降解缺陷之外，亦重塑粒線體代謝、動態與壓力訊號。 此適應可能降低受損降解的負擔，但會損害細胞生物能量能力。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "Danon Disease",
+    "predicate": "impairs",
+    "object": "Mitophagy",
+    "context": {
+      "en-US": "Danon Disease is caused by LAMP2 mutation and manifests with defective autophagosome-lysosome fusion and autophagic flux. The review states that LAMP2 loss impairs lysosomal acidification and fusion, directly blocking mitophagic clearance of mitochondria and driving accumulation of dysfunctional organelles. This culminates in cardiomyocyte apoptosis and Heart Failure. Cardiac complications include hypertrophic or dilated cardiomyopathy, and hiPSC-CM models show fragmented mitochondria and elevated ROS.",
+      "zh-TW": "Danon Disease 由 LAMP2 突變引起，表現為自噬體—溶酶體融合及自噬通量缺陷。本文指出 LAMP2 缺失會損害溶酶體酸化與融合，直接阻斷粒線體的 mitophagy 清除並驅動功能失調細胞器累積。最終導致心肌細胞凋亡與 Heart Failure。 心臟併發症包括肥厚型或擴張型心肌病變，hiPSC-CM 模型顯示粒線體斷裂與 ROS 升高。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "TBC1D15",
+    "predicate": "protects_against",
+    "object": "Myocardial infarction",
+    "context": {
+      "en-US": "After acute Myocardial infarction, Mitochondria-Lysosome Contact distance decreases and duration increases; TBC1D15 overexpression rescues these structural changes and improves cardiac systolic function. The review reports that TBC1D15 recruits DRP1 to contact sites to drive asymmetrical mitochondrial fission and maintain organelle quality control. Targeted manipulation of the contact site is proposed for ischemic heart disease. The intervention improves myocardial morphology and systolic function by acting directly on contact dynamics.",
+      "zh-TW": "急性 Myocardial infarction 後，Mitochondria-Lysosome Contact 距離縮短且持續時間延長；TBC1D15 過表現可挽救這些結構變化並改善心臟收縮功能。本文報告 TBC1D15 招募 DRP1 至接觸位點，驅動不對稱粒線體分裂並維持細胞器品質管制。針對接觸位點的操控被提出用於缺血性心臟病。 此介入透過直接作用於接觸動態，改善心肌形態與收縮功能。"
+    },
+    "confidence": 0.7,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "OPA1",
+    "predicate": "promotes",
+    "object": "Ferroptosis",
+    "context": {
+      "en-US": "OPA1 promotes Ferroptosis in mouse and human models through its GTPase activity, independent of its role in mitochondrial fusion, by augmenting mitochondrial ROS and suppressing an integrated stress response. The review reports that OPA1 deficiency confers ferroptosis resistance. Because ferroptosis is regulated by lysosomal function, the findings suggest a link between OPA1 activity and lysosomal iron dynamics. Iron is efficiently shuttled between the two organelles under basal conditions.",
+      "zh-TW": "OPA1 在小鼠與人類模型中透過其 GTPase 活性促進 Ferroptosis，此作用獨立於其在粒線體融合中的角色，機制為增加粒線體 ROS 並抑制整合壓力反應。本文報告 OPA1 缺失賦予 ferrotosis 抵抗性。由於 ferrotosis 受溶酶體功能調控，這些發現提示 OPA1 活性與溶酶體鐵動態之间存在連結。 在基礎狀態下，鐵在兩個細胞器之間被有效率地穿梭。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "OPA1",
+    "predicate": "promotes",
+    "object": "Heart Failure",
+    "context": {
+      "en-US": "Stress-induced processing of long OPA1 to short OPA1 increases mitochondrial fragmentation and leads to cardiomyopathy and Heart Failure in mice. The review notes that impaired OPA1 processing aggravates mitochondrial cardiopathy in OXPHOS-deficient cardiomyocytes, with deregulated autophagy, stalled Mitophagy and prolonged mito-ER contacts. The outcome links OPA1 cleavage to cardiac organelle quality control. The processing imbalance has been attributed to a metabolic switch from fatty acid oxidation toward glucose use.",
+      "zh-TW": "壓力誘導的 long OPA1 至 short OPA1 加工會增加粒線體斷裂，並在小鼠中導致心肌病變與 Heart Failure。本文指出受損的 OPA1 加工會加劇 OXPHOS 缺陷心肌細胞的粒線體心肌病變，並伴隨自噬失調、停滯的 Mitophagy 與延長的 mito-ER 接觸。結果將 OPA1 切割與心臟細胞器品質管制聯繫起來。 此加工失衡被歸因於代謝從脂肪酸氧化轉向葡萄糖利用。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "Alpha-synuclein",
+    "predicate": "impairs",
+    "object": "Mitochondria-Lysosome Contact Site",
+    "context": {
+      "en-US": "Alpha-synuclein overexpression impairs formation of Mitochondria-Lysosome Contact Sites, disrupting mitochondrial Ca2+ uptake and buffering from lysosomes. The review contrasts this loss of contacts with the excessive tethering seen in GBA1-mutant neurons, arguing that Parkinson's Disease involves destabilization of the communication network. Both directions of contact dysregulation compromise neuronal survival. Altered contact dynamics and defective lysosomal Ca2+ signaling reinforce one another in dopaminergic neurons.",
+      "zh-TW": "Alpha-synuclein 過表現會損害 Mitochondria-Lysosome Contact Site 的形成，擾亂粒線體 Ca2+ 攝取及來自溶酶體的緩衝。本文將此接觸喪失與 GBA1 突變神經元中觀察到的過度栓繫對比，主張 Parkinson's Disease 涉及溝通網絡的失穩。兩個方向的接觸失調都會損害神經元存活。 改變的接觸動態與缺陷的溶酶體 Ca2+ 訊號在多巴胺能神經元中相互增強。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "Rab7",
+    "predicate": "mutations_cause",
+    "object": "Charcot-Marie-Tooth Disease",
+    "context": {
+      "en-US": "Mutations in RAB7 cause Charcot-Marie-Tooth disease type 2 by impairing GTP hydrolysis and increasing the length of mitochondria-lysosome contacts. The review also describes GDAP1 mutations that disrupt a distinct LAMP1-dependent class of contacts in CMT2K and CMT4A. Both genes converge on contact-site resolution as a determinant of peripheral axon integrity. Carriers of de novo RAB7 mutations develop a peripheral neuropathy linked to defective contact-site resolution.",
+      "zh-TW": "RAB7 突變透過損害 GTP 水解並增加粒線體—溶酶體接觸的長度，導致 Charcot-Marie-Tooth 疾病第二型。本文亦描述 GDAP1 突變會破壞 CMT2K 與 CMT4A 中一種不同的 LAMP1 依賴接觸類別。兩個基因皆匯聚於接觸位點的解栓，作為周邊軸突完整性的決定因素。 帶有新生 RAB7 突變的個體會發生與接觸位點解栓缺陷相關的周邊神經病變。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "Seizures",
+    "predicate": "prolong",
+    "object": "Mitochondria-Lysosome Contact Site",
+    "context": {
+      "en-US": "During seizures, Mitochondria-Lysosome Contact Site duration increases, which is associated with mitochondrial calcium overload and neuronal dysfunction. The review reports that TBC1D15 overexpression alleviates the prolonged contacts, prevents mitochondrial calcium overload and restores mitochondrial function. It identifies TBC1D15 as having a neuroprotective effect in acute neuronal injury. Mitochondrial calcium overload is a recognized contributor to neuronal dysfunction in seizure states.",
+      "zh-TW": "在 Seizures 期間，Mitochondria-Lysosome Contact Site 持續時間增加，這與粒線體鈣超載及神經元功能障礙相關。本文報告 TBC1D15 過表現可緩解接觸延長、防止粒線體鈣超載並恢復粒線體功能。這確認了 TBC1D15 在急性神經元損傷中具有神經保護作用。 粒線體鈣超載是癲癇狀態中神經元功能障礙的公認促成因素。"
+    },
+    "confidence": 0.7,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "Mitophagy",
+    "predicate": "restrains",
+    "object": "Senescence",
+    "context": {
+      "en-US": "Suppression of basal Mitophagy is sufficient to drive multiple features of cellular aging, including mitochondrial dysfunction and Senescence. The review reports that enhancing neuronal BNIP3-mediated Mitophagy delays systemic aging in Drosophila. Progressive lysosomal dysfunction further limits mitochondrial turnover, creating a feed-forward cycle of organelle damage and aging phenotypes. A p62-targeting small molecule has been reported to reverse aging phenotypes caused by suppressed basal mitophagy.",
+      "zh-TW": "抑制基礎 Mitophagy 足以驅動細胞老化的多項特徵，包括粒線體功能障礙與 Senescence。本文報告增強神經元 BNIP3 媒介的 Mitophagy 可延遲果蠅的全身性老化。進行性溶酶體功能障礙進一步限制粒線體周轉，形成細胞器損傷與老化表型的前饋循環。 一種標靶 p62 的小分子被報告可逆轉因抑制基礎 mitophagy 所造成的老化表型。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "MondoA",
+    "predicate": "decline_impairs",
+    "object": "Autophagy",
+    "context": {
+      "en-US": "Age-associated decline of the glucose-responsive transcription factor MondoA impairs Autophagy, disrupts mitochondrial homeostasis and promotes cellular senescence. The review presents this as evidence that aging progressively remodels the nutrient-sensing pathways centered on AMPK, mTORC1 and TFEB. The result is reduced adaptive capacity of both Mitochondria and lysosomes. The observation places age-related nutrient-sensing failure upstream of both autophagy loss and mitochondrial dysfunction.",
+      "zh-TW": "隨年齡下降的葡萄糖反應轉錄因子 MondoA 會損害 Autophagy、擾亂粒線體恆定性並促進細胞衰老。本文將其視為老化逐步重塑以 AMPK、mTORC1 與 TFEB 為核心的營養感測路徑的證據。其結果是 Mitochondria 與溶酶體兩者的適應能力下降。 此觀察將年齡相關的營養感測失效置於自噬喪失與粒線體功能障礙的上游。"
+    },
+    "confidence": 0.9,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
+  },
+  {
+    "subject": "Mitochondria-Lysosome Crosstalk",
+    "predicate": "declines_with",
+    "object": "Aging",
+    "context": {
+      "en-US": "Progressive deterioration of Mitochondria-Lysosome Crosstalk contributes simultaneously to several hallmarks of Aging, including mitochondrial dysfunction, disabled macroautophagy, deregulated nutrient sensing and chronic inflammation. The review argues that defects in quality control, nutrient signaling, lysosomal function and contact sites converge through this communication network. Restoring the network is proposed as a strategy for promoting healthy longevity. Defining how adaptive communication becomes maladaptive remains an open challenge for the field.",
+      "zh-TW": "Mitochondria-Lysosome Crosstalk 的進行性惡化會同時促成 Aging 的數項特徵，包括粒線體功能障礙、巨自噬失能、營養感測失調與慢性發炎。本文主張品質管制、營養訊號、溶酶體功能與接觸位點的缺陷皆透過此溝通網絡匯聚。恢復該網絡被提出作為促進健康長壽的策略。 界定適應性溝通如何轉為適應不良，仍是該領域的開放挑戰。"
+    },
+    "confidence": 0.7,
+    "source_document": "_document_ - Mitochondria-lysosome crosstalk in health and disease.md"
   }
 ]

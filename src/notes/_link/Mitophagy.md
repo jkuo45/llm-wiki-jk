@@ -4,7 +4,7 @@ description: Mitophagy is a specialized form of Selective Autophagy that targets
   damaged or dysfunctional Mitochondria for degradation. It is a critical quality
   control mechanism for maintaining mitochondri...
 created: 2024-01-01
-updated: 2026-11-17
+updated: 2026-11-25
 tags:
   - biological-process
   - mitochondria
@@ -15,6 +15,11 @@ aliases: [hypoxia-induced mitophagy]
 **Mitophagy** is a specialized form of [[Selective Autophagy]] that targets damaged or dysfunctional [[Mitochondria]] for degradation. It is a critical quality control mechanism for maintaining mitochondrial health and cellular homeostasis.
 ## Mechanism
 Mitophagy typically involves the recognition of damaged mitochondria by receptors (like PINK1/Parkin) and their subsequent engulfment by [[Autophagosome|autophagosomes]], which then fuse with [[Lysosome|lysosomes]].
+
+> [!info]
+> Source: [[_document_ - Mitochondria-lysosome crosstalk in health and disease]]
+> Mitophagy transfers information as well as cargo: poorly methylated [[Mitochondrial DNA|mtDNA]] is sensed by lysosomal [[TLR9]], and mitochondrial RNA by TLR7/TLR8, with receptor dimerization recruiting MYD88 and activating [[NF-κB]]-dependent production of TNF-α, IL-1 and IL-6. In the PINK1/Parkin route, PINK1 accumulates on depolarized mitochondria and recruits Parkin to polyubiquitinate outer-membrane proteins before autophagosome–lysosome fusion. [[Mitochondria-Lysosome Contact Site|Mitochondria–lysosome contacts]] are a separate non-degradative pathway: they lack autophagosome markers and show no bulk content transfer.
+
 ## Importance in Aging
 
 > [!info] Source: [[_document_ - The role of mitochondrial dynamics in disease]]
@@ -94,9 +99,14 @@ List of documents that mention this entity
     - It was reported that Mitophagy/autophagy blockade leads to the accumulation of damaged mitochondria generating ROS, and this in turn activates the NLRP3. For instance, a study carried out by Zhao et al.
 - [[_document_ - Mitochondrial dysfunction and inflammaging a mechanistic bridge between bioenergetic failure and senescence|Nesci & Algieri 2026 — Mitochondrial dysfunction and inflammaging]]: Adds the lysosomal-degradation caveat, mitophagy restraint of NLRP3, and mitochondrial-derived vesicles as a parallel disposal route.
 
+  - [[_document_ - Mitochondria-lysosome crosstalk in health and disease]]
+    - Reviews mitophagy as an information-transfer pathway: lysosomal TLR9/TLR7/TLR8 sensing of mitochondrial nucleic acids, and the distinction between degradative mitophagy and non-degradative M-L contacts.
 
 ## Connections
 
+- [[Mitochondria-Lysosome Contact Site]] — RAB7-dependent non-degradative interface distinct from mitophagy; it lacks autophagosome markers and bulk cargo transfer, so contact abundance is not a mitophagy readout
+- [[TLR9]] — Lysosomal sensor of poorly methylated mtDNA delivered by mitophagy; receptor dimerization recruits MYD88 and activates NF-κB-dependent cytokine production
+- [[Mitochondria-Lysosome Crosstalk]] — Mitophagy is the unidirectional degradative arm of the bidirectional organelle communication network
 - [[Skin Longevity]] — Topical urolithin A raised PINK1/PARK2 and phospho-ubiquitin in skin models, linking mitophagy induction to epidermal differentiation and collagen preservation.
 - [[TOMM20]] — Increased epidermal TOMM20 accompanied mitophagy-marker changes, consistent with coupled mitochondrial turnover.
 - [[Selective Autophagy]] — interacts with Mitophagy

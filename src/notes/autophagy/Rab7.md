@@ -2,7 +2,7 @@
 title: Rab7
 description: Rab7 is a late endosome/lysosome small GTPase that regulates autophagosome-lysosome fusion, organelle positioning, and endolysosomal maturation downstream of Rab5.
 created: 2026-07-04
-updated: 2026-07-07
+updated: 2026-11-25
 tags:
   - protein
 aliases:
@@ -26,6 +26,10 @@ Rab7 is indispensable for the fusion of mature autophagosomes with late endosome
 
 Mutations in Rab7 cause Charcot–Marie–Tooth type 2B neuropathy, reflecting its requirement in neuronal degradative traffic. Defective Rab7-mediated fusion contributes to accumulation of protein aggregates in [[Neurodegeneration]] and impairs clearance in [[Aging]]. Conversely, pathogen effectors and oncogenic signals modulate Rab7 to either evade xenophagy or sustain proliferative metabolism in [[Cancer]]. Modulators of Rab7–HOPS interaction are under investigation to restore autophagic clearance.
 
+> [!info]
+> Source: [[_document_ - Mitochondria-lysosome crosstalk in health and disease]]
+> Lysosomal GTP-bound Rab7 tethers mitochondria to lysosomes by binding an as-yet unidentified mitochondrial partner; [[Fis1]] on the outer membrane recruits [[TBC1D15]], a RAB7 GAP, converting RAB7-GTP to RAB7-GDP and dissolving the contact. Charcot–Marie–Tooth type 2 mutations that impair RAB7 GTP hydrolysis lengthen mitochondrial contacts, while [[Parkin]] stabilizes active GTP-bound RAB7 to promote amino-acid transfer at these interfaces.
+
 ## Documents
 
 List of documents that mention this entity
@@ -33,9 +37,15 @@ List of documents that mention this entity
   - [[_document_ - Lysosome biogenesis Regulation and functions|Lysosome biogenesis Regulation and functions]]
     - To deliver endosomal proteins to lysosomes, early endosomes undergo conversion to late endosomes, which is marked by switching of the early endosome–specific Rab5 and PtdIns3P to late endosome-specific Rab7 and PtdIns(3,5)P2; Gillooly et al., 2000; Huotari ...
 
+  - [[_document_ - Mitochondria-lysosome crosstalk in health and disease]]
+    - Describes RAB7-GTP tethering of M-L contacts, Fis1–TBC1D15-dependent untethering, CMT2 effects of impaired GTP hydrolysis, and Parkin stabilization of RAB7 for amino-acid transfer.
 
 ## Connections
 
+- [[Mitochondria-Lysosome Contact Site]] — GTP-bound Rab7 tethers the interface to an unidentified mitochondrial partner; GTP hydrolysis dissolves the contact
+- [[Fis1]] — Outer-membrane adaptor that recruits TBC1D15 to convert Rab7-GTP to GDP and terminate tethering
+- [[Parkin]] — Stabilizes GTP-bound Rab7 at contacts, promoting lysosome-to-mitochondria amino-acid transfer
+- [[TBC1D15]] — RAB7 GAP that resolves contacts and couples untethering to DRP1-dependent fission
 - [[Lysosome]]: Rab7 localizes to late endosomes/lysosomes and drives fusion.
 - [[Autophagosome]]: Rab7 mediates its fusion with lysosomes.
 - [[FYCO1]]: Plus-end motor adaptor recruited by Rab7.

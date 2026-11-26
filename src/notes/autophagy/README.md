@@ -3,7 +3,7 @@ title: Autophagy
 aliases: []
 description: index of entities and documents in this directory
 created: 2026-07-04
-updated: 2026-10-23
+updated: 2026-11-25
 ---
 # Autophagy
 
@@ -15,6 +15,7 @@ updated: 2026-10-23
 | [[_document_ - Autophagy takes it all – autophagy inducers target immune aging\|Autophagy takes it all – autophagy inducers target immune aging]] | Autophagy, as the key nutrient recycling pathway, enables eukaryotic cells to adapt to surging cellular stress during aging and, thereby, delays age-associated deterioration. Autophagic flux declines with age and, in turn, decreases in autophagy ... |
 | [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery\|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]] | Transcription factor EB (TFEB), known as a major transcriptional regulator of the autophagy-lysosomal pathway, regulates target gene expression by binding to coordinated lysosomal expression and regulation (CLEAR Element) elements. TFEB are regulated by multiple links, such as transcriptional regulation, post-transcriptional regulation, translational-level regulation, post-translational modification (PTM), and nuclear competitive regulation. Targeted regulation of TFEB has been victoriously used as a treatment strategy in several disease models such as ischemic injury, Lysosomal Storage Disorders (LSDs), cancer, metabolic disorders, neurodegenerative diseases, and Inflammation. In this review, we aimed to elucidate the regulatory mechanism of TFEB and its applications in several disease models by targeting the regulation of TFEB as a treatment strategy. |
 | [[_document_ - Lysosome biogenesis Regulation and functions\|Lysosome biogenesis: Regulation and functions]] | Yang and Wang review the mechanisms regulating lysosome biogenesis and functions during the cellular response to diverse environmental cues and in organismal development and aging. |
+| [[_document_ - Mitochondria-lysosome crosstalk in health and disease\|Mitochondria-lysosome crosstalk in health and disease]] | Review of mitochondria–lysosome communication mechanisms — membrane contact sites, bidirectional signaling (ROS, amino acids, lysosomal Ca2+, AMPK/mTORC1/TFEB), and mitochondria-derived vesicles / mitophagy — and how disruption contributes to mitochondrial disorders, lysosomal storage diseases, neurodegeneration, cardiovascular disease, and aging. |
 | [[_document_ - MXL-3 and HLH-30 transcriptionally link lipolysis and autophagy to nutrient availability\|MXL-3 and HLH-30 transcriptionally link lipolysis and autophagy to nutrient availability]] | Fat is stored or mobilized according to food availability. Malfunction of the mechanisms that ensure this coordination underlie metabolic diseases in humans. In mammals, lysosomal and autophagic function is required for normal fat storage and ... |
 | [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS\|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]] | In recent years, our vision of lysosomes has drastically changed. From being considered as mere degradative compartments, they are now recognized as key players in many cellular processes. The ability of lysosomes to respond to different stimuli ... |
 | [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting\|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]] | Each cell is equipped with a conserved housekeeping mechanism, known as autophagy, to recycle exhausted materials and dispose of injured organelles via lysosomal degradation. Autophagy is an early-stage cellular response to stress stimuli in both ... |
@@ -118,6 +119,9 @@ updated: 2026-10-23
 | [[Rab5]] | protein | Rab5 is a small GTPase that acts as the master regulator of early endosome fusion, motility, and maturation, handing off to Rab7 and intersecting with autophagic membrane traffic. |
 | [[Rab7]] | protein | Rab7 is a late endosome/lysosome small GTPase that regulates autophagosome-lysosome fusion, organelle positioning, and endolysosomal maturation downstream of Rab5. |
 | [[Lysosomal Localization]] | biological-process | Lysosomal localization refers to the recruitment or positioning of proteins on the lysosome membrane, which for TFEB is required for its phosphorylation by mTORC1 and is regulated by GSK3β. |
+| [[Mitochondria-Lysosome Crosstalk]] | biological-process | Synthesis of degradative and non-degradative communication between mitochondria and lysosomes, including membrane contacts and signaling, in physiology, disease, and aging. |
+| [[Mitochondria-Lysosome Contact Site]] | biological-process | Molecular composition and exchange functions of the RAB7- and GDAP1-dependent interfaces where mitochondria and lysosomes exchange ions, lipids, metabolites, and protons. |
+| [[Lysosome-Related Organelle]] | biological-process | Endolysosome-derived organelles with cell-type-specific functions, their biogenesis, and the communication established between them and mitochondria. |
 
 ### Lysosome, Lipid, Peroxisome & Organelle Catabolism
 
@@ -152,6 +156,7 @@ updated: 2026-10-23
 | [[PtdIns4P]] | biological-molecule | Phosphatidylinositol 4-phosphate is an abundant phosphoinositide concentrated in the Golgi and trans-Golgi network, where it recruits coat adaptors and oxysterol-binding proteins to drive lipid countertransport, lysosomal repair, and autophagosome formation. |
 | [[Ferritinophagy]] | biological-process | Ferritinophagy is the cargo-receptor-mediated selective autophagic degradation of ferritin, mediated by NCOA4, which liberates free iron from storage and thereby sets the threshold for ferroptosis. |
 | [[HOPS Complex]] | protein-complex | The HOPS complex is a conserved six-subunit homotypic fusion and protein sorting tethering complex, built on a VPS16-VPS33-VPS18-VPS11 core, that couples Rab7-GTP on late endosomes and lysosomes to SNARE assembly and membrane fusion. |
+| [[Melanosome]] | organelle | Melanocyte lysosome-related organelle in which melanin is synthesized and stored, and whose biogenesis is controlled by mitochondria-derived contacts and fission machinery. |
 
 ### Autophagy Regulators: Kinases, Signaling & PTMs
 

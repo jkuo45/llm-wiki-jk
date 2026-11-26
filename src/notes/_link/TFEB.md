@@ -8,7 +8,7 @@ tags:
   - transcription-factor
   - autophagy
   - lysosome-biogenesis
-updated: 2024-01-01
+updated: 2026-11-25
 ---
 # TFEB
 [[TFEB]] (Transcription Factor EB) is a master regulator of the autophagy-lysosome pathway. It coordinates the expression of genes involved in lysosomal biogenesis, [[Autophagy]], and lysosomal exocytosis. Overexpression of TFEB has been shown to promote the clearance of [[Neuromelanin]] and protect against neurodegeneration in models of [[Parkinson's Disease]].
@@ -19,6 +19,11 @@ updated: 2024-01-01
 - Along with [[TFE3]], TFEB activates genes involved in lysosome biogenesis and [[Autophagosome]] maturation.
 - Its activity is regulated by nuclear-cytoplasmic shuttling, which is controlled by its phosphorylation state.
 - Under nutrient-rich conditions, [[mTORC1]] phosphorylates TFEB, sequestering it in the cytoplasm. Under starvation or stress, TFEB is dephosphorylated (e.g., by [[calcineurin]]) and translocates to the nucleus.
+
+> [!info]
+> Source: [[_document_ - Mitochondria-lysosome crosstalk in health and disease]]
+> Acute mitochondrial stress promotes [[AMPK]] signaling and TFEB nuclear localization and transcriptional activity, whereas chronic respiratory-chain dysfunction downregulates both AMPK and TFEB, preventing lysosomal adaptation. TFEB transcriptionally regulates HKDC1, a hexokinase-domain protein required to maintain both mitochondrial and lysosomal homeostasis and to prevent cellular senescence. TFEB therefore relays mitochondrial state to the lysosomal compartment as well as controlling lysosomal gene expression.
+
 ## Biosynthesis
 - Its efficient biosynthesis is enabled by the active (hypusinated) translation factor [[eIF5A]].
 - [[Spermidine]] facilitates this process by acting as a donor for eIF5A hypusination.
@@ -54,8 +59,12 @@ List of documents that mention this entity
   - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
     - Additionally, SIRT2 directly binds to the 3'UTR of TFEB and facilitates its mRNA stability.
 
+  - [[_document_ - Mitochondria-lysosome crosstalk in health and disease]]
+    - Reports AMPK–TFEB activation in acute mitochondrial stress versus suppression in chronic disease, and TFEB-dependent transcription of HKDC1 required for both mitochondrial and lysosomal homeostasis.
 
 ## Connections
+- [[AMPK]] — Acute mitochondrial stress activates AMPK and promotes TFEB nuclear localization; chronic respiratory-chain dysfunction suppresses both, blocking lysosomal adaptation
+- [[HKDC1]] — TFEB target encoding a hexokinase-domain protein required for mitochondrial and lysosomal homeostasis and prevention of cellular senescence
 - [[Autophagy]] — cellular self-degradation pathway; clears damaged proteins and organelles
 - [[Neuromelanin]] — interacts with TFEB
 - [[Parkinson's Disease]] — neurodegenerative disease; α-synuclein pathology; dopamine loss
