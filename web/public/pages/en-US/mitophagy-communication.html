@@ -14,6 +14,7 @@
 <link rel="stylesheet" href="../themes/theme-02/dark.css">
 <script src="../themes/theme-02/theme.js"></script>
 <script src="../themes/theme-02/pages-core.js"></script>
+<script src="../themes/shared/nav-auto-hide.js"></script>
 <script src="../themes/theme-01/context-tooltip.js"></script>
 <script type="importmap">
 {"imports":{
@@ -38,7 +39,9 @@
   }
   body{font-family:var(--sans);font-size:15px;line-height:1.55}
   .ml-wrap{width:min(1320px,100% - 24px);margin-inline:auto;padding:18px 0 30px}
-  .ml-back{display:inline-flex;align-items:center;gap:6px;font-family:var(--ml-mono);font-size:11px;letter-spacing:.04em;text-transform:uppercase;text-decoration:none;margin-bottom:14px}
+  main section[id]{scroll-margin-top:64px}
+  /* stage.css sets .wrap to column; the theme's site-nav expects a single row. */
+  .site-nav .wrap{flex-direction:row}
   .ml-hero{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(260px,.65fr);gap:28px;align-items:end;padding:8px 0 20px;border-bottom:1px solid var(--rule)}
   .ml-kicker{font-family:var(--ml-mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--mute);margin:0 0 6px}
   h1{font-family:var(--serif);font-size:clamp(2rem,4.6vw,3.65rem);line-height:1.02;letter-spacing:-.025em;margin:0 0 10px;font-weight:600}
@@ -196,8 +199,20 @@
 </head>
 <body>
 <a class="skip" href="#content">Skip to content</a>
+<nav class="site-nav" aria-label="Page">
+  <div class="wrap">
+    <a class="home" href="../index.html">← Articles</a>
+    <div class="nav-links">
+      <a href="#frame">Bin vs network</a>
+      <a href="#atlas">Routes</a>
+      <a href="#scale">Scale</a>
+      <a href="#dossiers">Dossiers</a>
+      <a href="#claims">Claims</a>
+      <a href="#glossary">Acronyms</a>
+    </div>
+  </div>
+</nav>
 <div class="ml-wrap">
-  <a class="ml-back" href="../index.html">← Articles</a>
   <main id="content">
     <header class="ml-hero">
       <div>
@@ -212,7 +227,7 @@
       </div>
     </header>
 
-    <section class="ml-frame" aria-labelledby="ml-frame-heading">
+    <section class="ml-frame" id="frame" aria-labelledby="ml-frame-heading">
       <div class="ml-frame-head">
         <h2 id="ml-frame-heading">Bin versus network</h2>
         <p>Two models of the same observation</p>
@@ -244,6 +259,7 @@
       <p class="ml-frame-note">Degradative mitophagy is Route A — one branch, not the whole system. The bin framing collapses the entire relationship into its single most destructive output, so it predicts neither the non-destructive routes nor the observation that restoring communication ([[TRPML1]] agonism, lysosomal-pH correction, balanced [[AMPK]]–[[mTORC1|mTOR complex 1 (mTORC1)]]) rescues mitochondrial phenotypes in defined models. Two molecular details remain unresolved: the mitochondrial RAB7 partner and the proton-conducting channel at the contact.</p>
     </section>
 
+    <section id="atlas" aria-label="Communication routes atlas">
     <nav class="ml-tabs" role="tablist" aria-label="Communication routes">
       <button class="ml-tab" id="tab-0" role="tab" aria-selected="true" aria-controls="ml-lens" data-mode="0">
         <span class="ml-tab-no">A</span><span class="ml-tab-copy"><strong>Label &amp; engulf</strong><small>whole-organelle mitophagy</small></span>
@@ -301,8 +317,9 @@
         <p class="ml-verified" id="ml-verified"></p>
       </aside>
     </div>
+    </section>
 
-    <section aria-labelledby="ml-scale-heading">
+    <section id="scale" aria-labelledby="ml-scale-heading">
       <div class="ml-section-head">
         <h2 id="ml-scale-heading">Scale ledger</h2>
         <p>Bar length is proportional to the structure's long axis.<br>Denominator: a 2 µm mitochondrion.</p>
@@ -318,7 +335,7 @@
       <p class="ml-note">The 3D scene uses measured proportions (1 unit = 1 µm): organelles, vesicles, and the 10–30 nm contact gap are scaled relative to one another. The 100 nm scale bar, labels, and hover text identify the components; the scale ledger lists measured ranges. Geometry remains illustrative, and particle paths encode direction rather than kinetics.</p>
     </section>
 
-    <section aria-labelledby="ml-dossier-heading">
+    <section id="dossiers" aria-labelledby="ml-dossier-heading">
       <div class="ml-section-head">
         <h2 id="ml-dossier-heading">Route dossiers</h2>
         <p>Molecular anchors, measured quantities, assay caveats,<br>and the observation that would falsify each route.</p>
@@ -451,7 +468,7 @@
       <strong>Text equivalent.</strong> Route A: PINK1 stabilizes on depolarized mitochondria and recruits Parkin; OMM ubiquitination recruits autophagy adapters, a mitophagosome forms, and STX17–SNAP29–VAMP8/RAB7-dependent fusion delivers cargo to lysosomes. Route B: MDVs sort selected cargo; MFF-bearing vesicles can recruit DRP1 to damaged lysosomes. Route C: contacts exchange Ca2+, iron, amino acids, cholesterol, and protons without bulk transfer. Route D: acute stress activates AMPK–TFEB/TRPML1 adaptation; chronic stress suppresses these programs. The claim cards below carry the same content. The scene replays every route at measured proportions (1 unit = 1 µm), including a 90 nm MDV and a 10–30 nm contact gap. The scale ledger lists each structure's measured size.
     </div>
 
-    <section aria-labelledby="ml-claims-heading">
+    <section id="claims" aria-labelledby="ml-claims-heading">
       <div class="ml-section-head">
         <h2 id="ml-claims-heading">The six claims to carry away</h2>
         <p>Evidence grades refer to the review's synthesis.<br>No cell animation is clinical evidence.</p>
@@ -484,7 +501,7 @@
       </div>
     </section>
 
-    <section aria-labelledby="ml-glossary-heading">
+    <section id="glossary" aria-labelledby="ml-glossary-heading">
       <div class="ml-section-head">
         <h2 id="ml-glossary-heading">Acronyms and abbreviations</h2>
         <p>Expanded at first use in the prose above.<br>Hover a linked term for its wiki note.</p>
@@ -1264,6 +1281,8 @@ $('ml-play').textContent=playing?'Pause':'Play';
 $('ml-play').setAttribute('aria-pressed',String(playing));
 updateScaleBar();
 T2.initTooltip();
+T2.initNav();
+T2.initNavScrollHint();
 requestAnimationFrame(animate);
 </script>
 </body>
