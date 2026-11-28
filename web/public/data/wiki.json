@@ -25,6 +25,368 @@
       }
     },
     {
+      "id": "Membrane Contact Site",
+      "langs": {
+        "en-US": {
+          "title": "Membrane Contact Site",
+          "description": "General concept of close, non-fusing apposition between two organelles that enables directed exchange of ions, lipids, and metabolites and organizes local signaling.",
+          "created": "2026-11-25",
+          "updated": "2026-11-25",
+          "tags": [
+            "scientific-concept",
+            "membrane-contact-sites"
+          ],
+          "filename": "Membrane Contact Site.md",
+          "path": "wiki/en-US/_link/Membrane Contact Site.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Membrane Contact Site.md"
+        },
+        "zh-TW": {
+          "title": "Membrane Contact Site",
+          "description": "兩個胞器在緊密並置但不發生膜融合的一般概念，可定向交換離子、脂質與代謝物，並組織局部訊號傳導。",
+          "created": "2026-11-25",
+          "updated": "2026-11-25",
+          "tags": [
+            "scientific-concept",
+            "membrane-contact-sites"
+          ],
+          "filename": "Membrane Contact Site.md",
+          "path": "wiki/zh-TW/_link/Membrane Contact Site.md"
+        }
+      },
+      "stats": {
+        "words": 828,
+        "images": 0,
+        "links": 38,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "GDAP1",
+      "langs": {
+        "en-US": {
+          "title": "GDAP1",
+          "description": "Ganglioside-induced differentiation-associated protein 1, a mitochondrial outer-membrane protein that tethers mitochondria to lysosomes through LAMP1 and organizes redox signaling at contacts.",
+          "created": "2026-11-25",
+          "updated": "2026-11-25",
+          "tags": [
+            "gene",
+            "protein"
+          ],
+          "filename": "GDAP1.md",
+          "path": "wiki/en-US/_link/GDAP1.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/GDAP1.md"
+        },
+        "zh-TW": {
+          "title": "GDAP1",
+          "description": "神經節苷脂誘導分化相關蛋白 1，一種粒線體外膜蛋白，透過 LAMP1 將粒線體拴連至溶酶體，並在接觸處組織氧化還原訊號傳導。",
+          "created": "2026-11-25",
+          "updated": "2026-11-25",
+          "tags": [
+            "gene",
+            "protein"
+          ],
+          "filename": "GDAP1.md",
+          "path": "wiki/zh-TW/_link/GDAP1.md"
+        }
+      },
+      "stats": {
+        "words": 447,
+        "images": 0,
+        "links": 22,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Lysosome",
+      "langs": {
+        "en-US": {
+          "title": "Lysosome",
+          "description": "The Lysosome is a membrane-bound organelle containing acidic hydrolases",
+          "created": "2024-01-01",
+          "updated": "2026-11-25",
+          "tags": [
+            "anatomy",
+            "autophagy",
+            "lysosome"
+          ],
+          "filename": "Lysosome.md",
+          "path": "wiki/en-US/_link/Lysosome.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Lysosome.md"
+        },
+        "zh-TW": {
+          "title": "Lysosome",
+          "description": "溶酶體是含有酸性水解酶的膜結合胞器，負責降解與回收細胞廢物。它是細胞中樞性的降解中心與訊號傳導樞紐。",
+          "created": "2024-01-01",
+          "updated": "2026-11-25",
+          "tags": [
+            "anatomy",
+            "autophagy",
+            "lysosome"
+          ],
+          "filename": "Lysosome.md",
+          "path": "wiki/zh-TW/_link/Lysosome.md"
+        }
+      },
+      "stats": {
+        "words": 804,
+        "images": 0,
+        "links": 60,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Mitochondria",
+      "langs": {
+        "en-US": {
+          "title": "Mitochondria",
+          "description": "Double-membrane organelles that generate ATP via oxidative phosphorylation and regulate apoptosis, calcium, and redox signaling; their dysfunction is central to aging and is mitigated by mTOR inhibition.",
+          "created": "2026-07-07",
+          "updated": "2026-11-25",
+          "tags": [
+            "anatomy",
+            "organelle",
+            "mitochondrial"
+          ],
+          "filename": "Mitochondria.md",
+          "path": "wiki/en-US/_link/Mitochondria.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Mitochondria.md"
+        },
+        "zh-TW": {
+          "title": "Mitochondria",
+          "description": "雙層膜胞器，透過氧化磷酸化產生 ATP，並調控凋亡、鈣與氧化還原訊號傳導；其功能障礙是老化的核心，並可透過 mTOR 抑制而緩解。",
+          "created": "2026-07-07",
+          "updated": "2026-11-25",
+          "tags": [
+            "anatomy",
+            "organelle",
+            "mitochondrial"
+          ],
+          "filename": "Mitochondria.md",
+          "path": "wiki/zh-TW/_link/Mitochondria.md"
+        }
+      },
+      "stats": {
+        "words": 779,
+        "images": 0,
+        "links": 69,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Glucocerebrosidase",
+      "langs": {
+        "en-US": {
+          "title": "Glucocerebrosidase",
+          "description": "Glucocerebrosidase (GCase) is a lysosomal enzyme responsible for the breakdown of glucosylceramide.",
+          "created": "2026-07-04",
+          "updated": "2026-11-25",
+          "tags": [
+            "enzyme"
+          ],
+          "filename": "Glucocerebrosidase.md",
+          "path": "wiki/en-US/neuromelanin/Glucocerebrosidase.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/neuromelanin/Glucocerebrosidase.md"
+        },
+        "zh-TW": {
+          "title": "Glucocerebrosidase",
+          "description": "葡萄糖腦苷脂酶（GCase）是一種溶酶體酶，負責分解葡萄糖神經醯胺。",
+          "created": "2026-07-04",
+          "updated": "2026-11-25",
+          "tags": [
+            "enzyme"
+          ],
+          "filename": "Glucocerebrosidase.md",
+          "path": "wiki/zh-TW/neuromelanin/Glucocerebrosidase.md"
+        }
+      },
+      "stats": {
+        "words": 625,
+        "images": 0,
+        "links": 39,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "TRPML1",
+      "langs": {
+        "en-US": {
+          "title": "TRPML1",
+          "description": "TRPML1 (Mucolipin-1) is a lysosomal calcium channel that regulates",
+          "created": "2026-07-04",
+          "updated": "2026-11-25",
+          "tags": [
+            "ion-channel"
+          ],
+          "filename": "TRPML1.md",
+          "path": "wiki/en-US/autophagy/TRPML1.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/autophagy/TRPML1.md"
+        },
+        "zh-TW": {
+          "title": "TRPML1",
+          "description": "TRPML1（Mucolipin-1）是一種溶酶體鈣通道，調控 Ca2+ 從溶酶體管腔流出，對溶酶體生成、運輸與重塑不可或缺。",
+          "created": "2026-07-04",
+          "updated": "2026-11-25",
+          "tags": [
+            "ion-channel"
+          ],
+          "filename": "TRPML1.md",
+          "path": "wiki/zh-TW/autophagy/TRPML1.md"
+        }
+      },
+      "stats": {
+        "words": 535,
+        "images": 0,
+        "links": 28,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Mitochondria-Lysosome Crosstalk",
+      "langs": {
+        "en-US": {
+          "title": "Mitochondria-Lysosome Crosstalk",
+          "description": "Synthesis of degradative and non-degradative communication between mitochondria and lysosomes, including membrane contacts and signaling, in physiology, disease, and aging.",
+          "created": "2026-11-25",
+          "updated": "2026-11-25",
+          "tags": [
+            "biological-process",
+            "mitochondria",
+            "lysosome",
+            "membrane-contact-sites"
+          ],
+          "filename": "Mitochondria-Lysosome Crosstalk.md",
+          "path": "wiki/en-US/autophagy/Mitochondria-Lysosome Crosstalk.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/autophagy/Mitochondria-Lysosome Crosstalk.md"
+        },
+        "zh-TW": {
+          "title": "Mitochondria-Lysosome Crosstalk",
+          "description": "粒線體與溶酶體之間降解性與非降解性溝通的綜合，包含膜接觸與訊號傳導，以及其在生理、疾病與老化中的角色。",
+          "created": "2026-11-25",
+          "updated": "2026-11-25",
+          "tags": [
+            "biological-process",
+            "mitochondria",
+            "lysosome",
+            "membrane-contact-sites"
+          ],
+          "filename": "Mitochondria-Lysosome Crosstalk.md",
+          "path": "wiki/zh-TW/autophagy/Mitochondria-Lysosome Crosstalk.md"
+        }
+      },
+      "stats": {
+        "words": 1327,
+        "images": 0,
+        "links": 81,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Lysosome-Related Organelle",
+      "langs": {
+        "en-US": {
+          "title": "Lysosome-Related Organelle",
+          "description": "Endolysosome-derived organelles with cell-type-specific functions, their biogenesis, and the communication established between them and mitochondria.",
+          "created": "2026-11-25",
+          "updated": "2026-11-25",
+          "tags": [
+            "biological-process",
+            "lysosome"
+          ],
+          "filename": "Lysosome-Related Organelle.md",
+          "path": "wiki/en-US/autophagy/Lysosome-Related Organelle.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/autophagy/Lysosome-Related Organelle.md"
+        },
+        "zh-TW": {
+          "title": "Lysosome-Related Organelle",
+          "description": "源自內溶酶體、具細胞類型特異性功能的胞器，其生成以及與粒線體建立的溝通。",
+          "created": "2026-11-25",
+          "updated": "2026-11-25",
+          "tags": [
+            "biological-process",
+            "lysosome"
+          ],
+          "filename": "Lysosome-Related Organelle.md",
+          "path": "wiki/zh-TW/autophagy/Lysosome-Related Organelle.md"
+        }
+      },
+      "stats": {
+        "words": 793,
+        "images": 0,
+        "links": 39,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Rab7",
+      "langs": {
+        "en-US": {
+          "title": "Rab7",
+          "description": "Rab7 is a late endosome/lysosome small GTPase that regulates autophagosome-lysosome fusion, organelle positioning, and endolysosomal maturation downstream of Rab5.",
+          "created": "2026-07-04",
+          "updated": "2026-11-25",
+          "tags": [
+            "protein"
+          ],
+          "filename": "Rab7.md",
+          "path": "wiki/en-US/autophagy/Rab7.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/autophagy/Rab7.md"
+        },
+        "zh-TW": {
+          "title": "Rab7",
+          "description": "Rab7 是一種晚期內吞體／溶酶體小 GTPase，調控自噬體–溶酶體融合、胞器定位，以及 Rab5 下游的內溶酶體成熟。",
+          "created": "2026-07-04",
+          "updated": "2026-11-25",
+          "tags": [
+            "protein"
+          ],
+          "filename": "Rab7.md",
+          "path": "wiki/zh-TW/autophagy/Rab7.md"
+        }
+      },
+      "stats": {
+        "words": 600,
+        "images": 0,
+        "links": 36,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Melanosome",
+      "langs": {
+        "en-US": {
+          "title": "Melanosome",
+          "description": "Melanocyte lysosome-related organelle in which melanin is synthesized and stored, and whose biogenesis is controlled by mitochondria-derived contacts and fission machinery.",
+          "created": "2026-11-25",
+          "updated": "2026-11-25",
+          "tags": [
+            "organelle",
+            "lysosome"
+          ],
+          "filename": "Melanosome.md",
+          "path": "wiki/en-US/autophagy/Melanosome.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/autophagy/Melanosome.md"
+        },
+        "zh-TW": {
+          "title": "Melanosome",
+          "description": "黑色素細胞中的溶酶體相關胞器，黑色素於其中合成與儲存，其生成受粒線體衍生接觸與分裂機器控制。",
+          "created": "2026-11-25",
+          "updated": "2026-11-25",
+          "tags": [
+            "organelle",
+            "lysosome"
+          ],
+          "filename": "Melanosome.md",
+          "path": "wiki/zh-TW/autophagy/Melanosome.md"
+        }
+      },
+      "stats": {
+        "words": 648,
+        "images": 0,
+        "links": 34,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "ITM2C",
       "langs": {
         "en-US": {
