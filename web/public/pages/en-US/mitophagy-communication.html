@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Mitophagy at the Contact Boundary — An Interactive Communication Atlas</title>
+<title>Mitophagy at the Contact Boundary — An Interactive Communication Explainer</title>
 <meta name="description" content="An original three.js explainer of mitochondria–lysosome communication: PINK1–Parkin mitophagy, mitochondrial-derived vesicles, membrane contact-site exchange, and acute-to-chronic signaling — with an animated true-scale mode (1 unit = 1 µm), a to-scale size ledger, and per-route dossiers (molecular anchors, measured quantities, assay caveats, falsifiers). Literature verified through 2026-11-27.">
 <link rel="canonical" href="https://graph.johnnykuo.com/pages/en-US/mitophagy-communication.html">
 <link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/mitophagy-communication.html">
@@ -57,7 +57,7 @@
   .ml-tab-copy{display:flex;flex-direction:column;line-height:1.2}
   .ml-tab-copy strong{font-size:12.5px;font-weight:600}
   .ml-tab-copy small{font-family:var(--ml-mono);font-size:9.5px;color:var(--mute);margin-top:3px}
-  .ml-atlas{display:grid;grid-template-columns:minmax(0,1fr) 350px;gap:14px;align-items:stretch}
+  .ml-scene{display:grid;grid-template-columns:minmax(0,1fr) 350px;gap:14px;align-items:stretch}
   .ml-stage-card{position:relative;border:1px solid var(--rule);border-radius:var(--r-lg);overflow:hidden;background:var(--ml-stage);box-shadow:0 18px 45px rgba(15,20,35,.14)}
   .ml-stage{position:relative;height:clamp(460px,54vw,620px);overflow:hidden;background:radial-gradient(circle at 50% 45%,#16233a 0%,#0b1220 68%)}
   .ml-stage canvas{display:block;width:100%;height:100%;touch-action:none}
@@ -164,7 +164,7 @@
   .ml-dossier .ml-falsify{border-left:3px solid var(--gold);padding-left:10px}
   .ml-dossier code{font-family:var(--ml-mono);font-size:10.5px;background:var(--paper);border:1px solid var(--rule);border-radius:var(--r-sm);padding:1px 4px}
   @media(max-width:1050px){
-    .ml-atlas{grid-template-columns:1fr}
+    .ml-scene{grid-template-columns:1fr}
     .ml-lens{display:grid;grid-template-columns:1fr 1fr;gap:0 24px}
     .ml-lens-head,.ml-lens h2,.ml-claim,.ml-molecules{grid-column:1}
     .ml-steps{grid-column:2;grid-row:1 / span 4}
@@ -204,7 +204,7 @@
     <a class="home" href="../index.html">← Articles</a>
     <div class="nav-links">
       <a href="#frame">Bin vs network</a>
-      <a href="#atlas">Routes</a>
+      <a href="#routes">Routes</a>
       <a href="#scale">Scale</a>
       <a href="#dossiers">Dossiers</a>
       <a href="#claims">Claims</a>
@@ -259,7 +259,7 @@
       <p class="ml-frame-note">Degradative mitophagy is Route A — one branch, not the whole system. The bin framing collapses the entire relationship into its single most destructive output, so it predicts neither the non-destructive routes nor the observation that restoring communication ([[TRPML1]] agonism, lysosomal-pH correction, balanced [[AMPK]]–[[mTORC1|mTOR complex 1 (mTORC1)]]) rescues mitochondrial phenotypes in defined models. Two molecular details remain unresolved: the mitochondrial RAB7 partner and the proton-conducting channel at the contact.</p>
     </section>
 
-    <section id="atlas" aria-label="Communication routes atlas">
+    <section id="routes" aria-label="Communication routes">
     <nav class="ml-tabs" role="tablist" aria-label="Communication routes">
       <button class="ml-tab" id="tab-0" role="tab" aria-selected="true" aria-controls="ml-lens" data-mode="0">
         <span class="ml-tab-no">A</span><span class="ml-tab-copy"><strong>Label &amp; engulf</strong><small>whole-organelle mitophagy</small></span>
@@ -275,11 +275,11 @@
       </button>
     </nav>
 
-    <div class="ml-atlas">
+    <div class="ml-scene">
       <section class="ml-stage-card" aria-label="Interactive three-dimensional illustration">
         <div class="ml-stage" id="ml-stage">
           <canvas id="ml-canvas" aria-label="Three-dimensional mitochondrion and lysosome communication model. Use the route tabs and timeline controls to explore the mechanisms."></canvas>
-          <div class="ml-route-flag" id="ml-route-flag"><i></i><span>loading atlas…</span></div>
+          <div class="ml-route-flag" id="ml-route-flag"><i></i><span>loading routes…</span></div>
           <div class="ml-state-split" id="ml-state-split" hidden>
             <span id="ml-state-acute">acute · adaptive</span>
             <span id="ml-state-chronic" class="chronic">chronic · maladaptive</span>

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>接觸邊界的粒線體自噬 — 互動式溝通圖譜</title>
+<title>接觸邊界的粒線體自噬 — 互動式溝通解說</title>
 <meta name="description" content="以 three.js 原創製作的粒線體–溶酶體溝通圖解：PINK1–Parkin 粒線體自噬、粒線體衍生囊泡、膜接觸位點交換，以及急性至慢性訊號傳遞；包含動畫真實尺度模式（1 單位 = 1 µm）、等比例尺度對照表，以及各路徑檔案（分子錨點、測量量、分析法限制、可證偽觀察）。文獻查核至 2026-11-27。">
 <link rel="canonical" href="https://graph.johnnykuo.com/pages/zh-TW/mitophagy-communication.html">
 <link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/mitophagy-communication.html">
@@ -58,7 +58,7 @@
   .ml-tab-copy{display:flex;flex-direction:column;line-height:1.2}
   .ml-tab-copy strong{font-size:12.5px;font-weight:600}
   .ml-tab-copy small{font-family:var(--ml-mono);font-size:9.5px;color:var(--mute);margin-top:3px}
-  .ml-atlas{display:grid;grid-template-columns:minmax(0,1fr) 350px;gap:14px;align-items:stretch}
+  .ml-scene{display:grid;grid-template-columns:minmax(0,1fr) 350px;gap:14px;align-items:stretch}
   .ml-stage-card{position:relative;border:1px solid var(--rule);border-radius:var(--r-lg);overflow:hidden;background:var(--ml-stage);box-shadow:0 18px 45px rgba(15,20,35,.14)}
   .ml-stage{position:relative;height:clamp(460px,54vw,620px);overflow:hidden;background:radial-gradient(circle at 50% 45%,#16233a 0%,#0b1220 68%)}
   .ml-stage canvas{display:block;width:100%;height:100%;touch-action:none}
@@ -165,7 +165,7 @@
   .ml-dossier .ml-falsify{border-left:3px solid var(--gold);padding-left:10px}
   .ml-dossier code{font-family:var(--ml-mono);font-size:10.5px;background:var(--paper);border:1px solid var(--rule);border-radius:var(--r-sm);padding:1px 4px}
   @media(max-width:1050px){
-    .ml-atlas{grid-template-columns:1fr}
+    .ml-scene{grid-template-columns:1fr}
     .ml-lens{display:grid;grid-template-columns:1fr 1fr;gap:0 24px}
     .ml-lens-head,.ml-lens h2,.ml-claim,.ml-molecules{grid-column:1}
     .ml-steps{grid-column:2;grid-row:1 / span 4}
@@ -205,7 +205,7 @@
     <a class="home" href="../index.html">← 文章列表</a>
     <div class="nav-links">
       <a href="#frame">垃圾桶與網絡</a>
-      <a href="#atlas">路徑</a>
+      <a href="#routes">路徑</a>
       <a href="#scale">尺度</a>
       <a href="#dossiers">檔案</a>
       <a href="#claims">主張</a>
@@ -260,7 +260,7 @@
       <p class="ml-frame-note">降解性粒線體自噬是路徑 A——只是一個分支，而非整個系統。「垃圾桶」框架把整段關係壓縮成最具破壞性的單一輸出，因此既無法預測非破壞性路徑，也無法解釋恢復溝通（[[TRPML1]] 激動、溶酶體 pH 校正、平衡的 [[AMPK]]–[[mTORC1|mTOR 複合物 1（mTORC1）]]）在特定模型中挽救粒線體表型的觀察。仍有兩個分子細節未解決：粒線體的 RAB7 搭檔，以及接觸位點的質子傳導通道。</p>
     </section>
 
-    <section id="atlas" aria-label="溝通路徑圖譜">
+    <section id="routes" aria-label="溝通路徑">
     <nav class="ml-tabs" role="tablist" aria-label="溝通路徑">
       <button class="ml-tab" id="tab-0" role="tab" aria-selected="true" aria-controls="ml-lens" data-mode="0">
         <span class="ml-tab-no">A</span><span class="ml-tab-copy"><strong>標記與包裹</strong><small>完整胞器粒線體自噬</small></span>
@@ -276,11 +276,11 @@
       </button>
     </nav>
 
-    <div class="ml-atlas">
+    <div class="ml-scene">
       <section class="ml-stage-card" aria-label="互動式三維示意圖">
         <div class="ml-stage" id="ml-stage">
           <canvas id="ml-canvas" aria-label="粒線體與溶酶體溝通的三維模型。使用路徑分頁與時間軸控制項探索機制。"></canvas>
-          <div class="ml-route-flag" id="ml-route-flag"><i></i><span>正在載入圖譜…</span></div>
+          <div class="ml-route-flag" id="ml-route-flag"><i></i><span>正在載入路徑…</span></div>
           <div class="ml-state-split" id="ml-state-split" hidden>
             <span id="ml-state-acute">急性 · 適應性</span>
             <span id="ml-state-chronic" class="chronic">慢性 · 失調性</span>
