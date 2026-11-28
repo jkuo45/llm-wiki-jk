@@ -25,6 +25,334 @@
       }
     },
     {
+      "id": "ITM2C",
+      "langs": {
+        "en-US": {
+          "title": "ITM2C",
+          "description": "Integral membrane protein 2C that docks MFF-bearing mitochondrial-derived vesicles to damaged lysosomes through MIRO2, enabling DRP1-mediated lysosomal fission.",
+          "created": "2026-11-27",
+          "updated": "2026-11-27",
+          "tags": [
+            "protein",
+            "vesicle-trafficking"
+          ],
+          "filename": "ITM2C.md",
+          "path": "wiki/en-US/_link/ITM2C.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/ITM2C.md"
+        },
+        "zh-TW": {
+          "title": "ITM2C",
+          "description": "整合膜蛋白 2C，透過 MIRO2 將帶有 MFF 的粒線體衍生囊泡對接至受損溶酶體，進而使 DRP1 介導的溶酶體分裂得以發生。",
+          "created": "2026-11-27",
+          "updated": "2026-11-27",
+          "tags": [
+            "protein",
+            "vesicle-trafficking"
+          ],
+          "filename": "ITM2C.md",
+          "path": "wiki/zh-TW/_link/ITM2C.md"
+        }
+      },
+      "stats": {
+        "words": 308,
+        "images": 0,
+        "links": 21,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "TBC1D17",
+      "langs": {
+        "en-US": {
+          "title": "TBC1D17",
+          "description": "TBC-domain GTPase-activating protein that acts with TBC1D15 to hydrolyse RAB7-GTP and terminate mitochondria–lysosome contacts.",
+          "created": "2026-11-27",
+          "updated": "2026-11-27",
+          "tags": [
+            "protein",
+            "gap"
+          ],
+          "filename": "TBC1D17.md",
+          "path": "wiki/en-US/_link/TBC1D17.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/TBC1D17.md"
+        },
+        "zh-TW": {
+          "title": "TBC1D17",
+          "description": "具 TBC 結構域的 GTPase 活化蛋白，與 TBC1D15 一同水解 RAB7-GTP 並終止粒線體–溶酶體接觸。",
+          "created": "2026-11-27",
+          "updated": "2026-11-27",
+          "tags": [
+            "protein",
+            "gap"
+          ],
+          "filename": "TBC1D17.md",
+          "path": "wiki/zh-TW/_link/TBC1D17.md"
+        }
+      },
+      "stats": {
+        "words": 267,
+        "images": 0,
+        "links": 18,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "TAX1BP1",
+      "langs": {
+        "en-US": {
+          "title": "TAX1BP1",
+          "description": "Autophagy receptor that bridges ubiquitinated mitochondrial outer-membrane proteins to LC3/GABARAP and participates in PINK1–Parkin mitophagy.",
+          "created": "2026-11-27",
+          "updated": "2026-11-27",
+          "tags": [
+            "protein",
+            "autophagy-receptor"
+          ],
+          "filename": "TAX1BP1.md",
+          "path": "wiki/en-US/_link/TAX1BP1.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/TAX1BP1.md"
+        },
+        "zh-TW": {
+          "title": "TAX1BP1",
+          "description": "自噬受體，將泛素化的粒線體外膜蛋白橋接至 LC3/GABARAP，並參與 PINK1–Parkin 粒線體自噬。",
+          "created": "2026-11-27",
+          "updated": "2026-11-27",
+          "tags": [
+            "protein",
+            "autophagy-receptor"
+          ],
+          "filename": "TAX1BP1.md",
+          "path": "wiki/zh-TW/_link/TAX1BP1.md"
+        }
+      },
+      "stats": {
+        "words": 277,
+        "images": 0,
+        "links": 36,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "TLR8",
+      "langs": {
+        "en-US": {
+          "title": "TLR8",
+          "description": "Endosomal toll-like receptor 8 that recognizes single-stranded mitochondrial RNA and signals through MYD88–NF-κB to induce inflammatory cytokines.",
+          "created": "2026-11-27",
+          "updated": "2026-11-27",
+          "tags": [
+            "protein",
+            "immune-receptor"
+          ],
+          "filename": "TLR8.md",
+          "path": "wiki/en-US/_link/TLR8.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/TLR8.md"
+        },
+        "zh-TW": {
+          "title": "TLR8",
+          "description": "內體 toll 樣受體 8，辨識單股粒線體 RNA，並透過 MYD88–NF-κB 訊號傳導誘發發炎性細胞激素。",
+          "created": "2026-11-27",
+          "updated": "2026-11-27",
+          "tags": [
+            "protein",
+            "immune-receptor"
+          ],
+          "filename": "TLR8.md",
+          "path": "wiki/zh-TW/_link/TLR8.md"
+        }
+      },
+      "stats": {
+        "words": 253,
+        "images": 0,
+        "links": 23,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "2,5-DHBA",
+      "langs": {
+        "en-US": {
+          "title": "2,5-DHBA",
+          "description": "2,5-dihydroxybenzoic acid, a siderophore synthesized by BDH2 that carries lysosomal Fe²⁺ into mitochondria at contact sites.",
+          "created": "2026-11-27",
+          "updated": "2026-11-27",
+          "tags": [
+            "metabolite",
+            "iron-metabolism"
+          ],
+          "filename": "2,5-DHBA.md",
+          "path": "wiki/en-US/_link/2,5-DHBA.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/2,5-DHBA.md"
+        },
+        "zh-TW": {
+          "title": "2,5-DHBA",
+          "description": "2,5-二羥基苯甲酸，由 BDH2 合成的鐵載體，在接觸位點將溶酶體 Fe²⁺ 攜帶至粒線體。",
+          "created": "2026-11-27",
+          "updated": "2026-11-27",
+          "tags": [
+            "metabolite",
+            "iron-metabolism"
+          ],
+          "filename": "2,5-DHBA.md",
+          "path": "wiki/zh-TW/_link/2,5-DHBA.md"
+        }
+      },
+      "stats": {
+        "words": 270,
+        "images": 0,
+        "links": 26,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "BDH2",
+      "langs": {
+        "en-US": {
+          "title": "BDH2",
+          "description": "3-hydroxybutyrate dehydrogenase 2 that synthesizes the siderophore 2,5-DHBA and transfers lysosomal iron to mitochondria at contacts, shaping ferroptosis vulnerability.",
+          "created": "2026-11-25",
+          "updated": "2026-11-25",
+          "tags": [
+            "enzyme",
+            "iron-metabolism"
+          ],
+          "filename": "BDH2.md",
+          "path": "wiki/en-US/_link/BDH2.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/BDH2.md"
+        },
+        "zh-TW": {
+          "title": "BDH2",
+          "description": "3-羥基丁酸去氫酶 2，合成鐵載體 2,5-DHBA，並在接觸位點將溶酶體鐵轉運至粒線體，影響鐵死亡易感性。",
+          "created": "2026-11-25",
+          "updated": "2026-11-25",
+          "tags": [
+            "enzyme",
+            "iron-metabolism"
+          ],
+          "filename": "BDH2.md",
+          "path": "wiki/zh-TW/_link/BDH2.md"
+        }
+      },
+      "stats": {
+        "words": 502,
+        "images": 0,
+        "links": 28,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "STARD3",
+      "langs": {
+        "en-US": {
+          "title": "STARD3",
+          "description": "Cholesterol-transport protein (MLN64) that mediates cholesterol transfer at ER-endosome and mitochondria-lysosome contacts and drives mitochondrial cholesterol accumulation in NPC1 deficiency.",
+          "created": "2026-11-25",
+          "updated": "2026-11-25",
+          "tags": [
+            "protein",
+            "lipid-transport"
+          ],
+          "filename": "STARD3.md",
+          "path": "wiki/en-US/_link/STARD3.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/STARD3.md"
+        },
+        "zh-TW": {
+          "title": "STARD3",
+          "description": "膽固醇轉運蛋白（MLN64），介導內質網–內體及粒線體–溶酶體接觸位點的膽固醇轉運，並在 NPC1 缺乏時驅動粒線體膽固醇累積。",
+          "created": "2026-11-25",
+          "updated": "2026-11-25",
+          "tags": [
+            "protein",
+            "lipid-transport"
+          ],
+          "filename": "STARD3.md",
+          "path": "wiki/zh-TW/_link/STARD3.md"
+        }
+      },
+      "stats": {
+        "words": 543,
+        "images": 0,
+        "links": 25,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "TBC1D15",
+      "langs": {
+        "en-US": {
+          "title": "TBC1D15",
+          "description": "RAB7 GTPase-activating protein recruited by Fis1 that resolves mitochondria-lysosome contacts, recruits DRP1 for fission, and limits injury in cardiac and seizure models.",
+          "created": "2026-11-25",
+          "updated": "2026-11-25",
+          "tags": [
+            "protein",
+            "gap"
+          ],
+          "filename": "TBC1D15.md",
+          "path": "wiki/en-US/_link/TBC1D15.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/TBC1D15.md"
+        },
+        "zh-TW": {
+          "title": "TBC1D15",
+          "description": "由 Fis1 招募的 RAB7 GTPase 活化蛋白，可解除粒線體–溶酶體接觸、招募 DRP1 進行分裂，並在心臟與癲癇模型中限制損傷。",
+          "created": "2026-11-25",
+          "updated": "2026-11-25",
+          "tags": [
+            "protein",
+            "gap"
+          ],
+          "filename": "TBC1D15.md",
+          "path": "wiki/zh-TW/_link/TBC1D15.md"
+        }
+      },
+      "stats": {
+        "words": 531,
+        "images": 0,
+        "links": 28,
+        "diagrams": 0
+      }
+    },
+    {
+      "id": "Mitochondria-Lysosome Contact Site",
+      "langs": {
+        "en-US": {
+          "title": "Mitochondria-Lysosome Contact Site",
+          "description": "Molecular composition and exchange functions of the RAB7- and GDAP1-dependent interfaces where mitochondria and lysosomes exchange ions, lipids, metabolites, and protons.",
+          "created": "2026-11-25",
+          "updated": "2026-11-25",
+          "tags": [
+            "biological-process",
+            "membrane-contact-sites",
+            "mitochondria",
+            "lysosome"
+          ],
+          "filename": "Mitochondria-Lysosome Contact Site.md",
+          "path": "wiki/en-US/autophagy/Mitochondria-Lysosome Contact Site.md",
+          "github": "https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/autophagy/Mitochondria-Lysosome Contact Site.md"
+        },
+        "zh-TW": {
+          "title": "Mitochondria-Lysosome Contact Site",
+          "description": "RAB7 與 GDAP1 依賴介面的分子組成與交換功能，粒線體與溶酶體在此交換離子、脂質、代謝物與質子。",
+          "created": "2026-11-25",
+          "updated": "2026-11-25",
+          "tags": [
+            "biological-process",
+            "membrane-contact-sites",
+            "mitochondria",
+            "lysosome"
+          ],
+          "filename": "Mitochondria-Lysosome Contact Site.md",
+          "path": "wiki/zh-TW/autophagy/Mitochondria-Lysosome Contact Site.md"
+        }
+      },
+      "stats": {
+        "words": 1074,
+        "images": 0,
+        "links": 67,
+        "diagrams": 0
+      }
+    },
+    {
       "id": "Apoptosis",
       "langs": {
         "en-US": {
