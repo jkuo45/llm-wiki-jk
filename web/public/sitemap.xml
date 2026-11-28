@@ -854,4 +854,22 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/disc-rheostat-sim.html"/>
   </url>
 
+<url>
+    <loc>https://graph.johnnykuo.com/pages/en-US/toll-like-receptors.html</loc>
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/toll-like-receptors.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/toll-like-receptors.html"/>
+</url>
+<url>
+    <loc>https://graph.johnnykuo.com/pages/zh-TW/toll-like-receptors.html</loc>
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/toll-like-receptors.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/toll-like-receptors.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/toll-like-receptors.html"/>
+</url>
+
 </urlset>

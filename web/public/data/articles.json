@@ -840,7 +840,14 @@
         "title": "Toll-like receptors across primary vault topics",
         "description": "TLR structure, PAMP/DAMP sensing, MyD88 vs TRIF signaling, and measured interactions of TLRs with senescence/SASP, autophagy/mitophagy, sirtuins, oxidative stress, hormesis/trained immunity, epigenetics, cell death, cancer, adrenochrome, neuromelanin, and COMT in this vault; web-verified 2024-2026 updates; research gaps. Evidence-tiered; research and educational synthesis, not medical advice.",
         "path": "pages/en-US/toll-like-receptors.html"
+      },
+      "zh-TW": {
+        "title": "Toll-like receptors — 跨越 vault 主要主題",
+        "description": "TLR 結構、PAMP/DAMP 辨識、MyD88 與 TRIF 訊號傳遞，以及 TLR 與本 vault 之衰老/SASP、自噬/mitophagy、sirtuins、氧化壓力、毒物興奮效應/訓練性免疫、表觀遺傳學、細胞死亡、癌症、腎上腺色素、神經黑色素與 COMT 等主題的實測交互作用；經網路查核的 2024-2026 年更新；研究缺口。附證據層級；研究與教育性整理，非醫療建議。",
+        "path": "pages/zh-TW/toll-like-receptors.html"
       }
-    }
+    },
+    "created": "2026-11-27",
+    "updated": "2026-11-27"
   }
 ]

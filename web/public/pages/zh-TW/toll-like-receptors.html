@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Toll-like receptors — 跨越 vault 主要主題</title>
+<meta name="description" content="TLR 結構、PAMP/DAMP 辨識、MyD88 與 TRIF 訊號傳遞，以及 TLR 與本 vault 之衰老/SASP、自噬/mitophagy、sirtuins、氧化壓力、毒物興奮效應/訓練性免疫、表觀遺傳學、細胞死亡、癌症、腎上腺色素、神經黑色素與 COMT 等主題的實測交互作用；經網路查核的 2024-2026 年更新；研究缺口。附證據層級；研究與教育性整理，非醫療建議。">
+<link rel="canonical" href="https://graph.johnnykuo.com/pages/zh-TW/toll-like-receptors.html">
+<link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/toll-like-receptors.html">
+<link rel="alternate" hreflang="zh-TW" href="https://graph.johnnykuo.com/pages/zh-TW/toll-like-receptors.html">
+<link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/toll-like-receptors.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛡</text></svg>">
+<link rel="stylesheet" href="../themes/theme-01/pages.css">
+<link rel="stylesheet" href="../themes/theme-01/pages-light.css" id="theme-light">
+<link rel="stylesheet" href="../themes/theme-01/pages-article.css">
+<script src="../themes/theme-01/page-theme.js"></script>
+<script src="../themes/shared/nav-auto-hide.js"></script>
+<style>
+  /* page-specific only — shared components live in themes/theme-01/ */
+  a.wikilink{ color:var(--teal); }
+  .tlr-fig{ width:100%; max-width:1040px; height:auto; display:block; margin:22px auto 8px; border:1px solid var(--line); border-radius:10px; background:#fff; }
+  .figcap{ font-size:.92rem; line-height:1.55; color:var(--muted,#555); max-width:1040px; margin:0 auto 30px; }
+  /* page-specific spacing — matches the section rhythm of the theme's
+     article pages (section padding + border) with a readable text cadence */
+  main{ padding-bottom:52px; }
+  main > p{ margin:0 0 16px; line-height:1.72; }
+  main > section{ padding:26px 0 14px; }
+  main > section + section{ margin-top:8px; }
+  main > section > h2{ margin:0 0 16px; }
+  main > section h3{ margin:30px 0 10px; }
+  main > section p{ margin:0 0 16px; line-height:1.72; }
+  main > section ul, main > section ol{ margin:0 0 18px; padding-left:24px; }
+  main > section li{ margin:0 0 11px; line-height:1.68; }
+  main > section li > ul, main > section li > ol{ margin:9px 0 4px; }
+  main > section li > p{ margin:0 0 8px; }
+  main > section table{ margin:6px 0 20px; font-size:.86rem; }
+  main > section th, main > section td{ padding:10px 12px; white-space:normal; vertical-align:top; }
+  main > section hr{ margin:26px 0; border:0; border-top:1px solid var(--line); }
+
+  .figcap strong{ color:var(--ink,#222); }
+  .tier{ font-family:var(--mono); font-size:.72rem; border:1px solid currentColor; border-radius:3px; padding:0 5px; white-space:nowrap; }
+  table{ font-size:.9rem; }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a id="back-home" class="back-home" href="../index.html" title="返回文章索引">&#8592; 返回</a>
+    <a class="n" href="#scope-and-summary">範圍</a>
+    <a class="n" href="#tlr-architecture-and-ligands">結構</a>
+    <a class="n" href="#signaling-myd88-vs-trif">訊號</a>
+    <a class="n" href="#interactions-across-primary-vault-topics">主題</a>
+    <a class="n" href="#web-verified-updates-2024-2026">更新</a>
+    <a class="n" href="#research-gaps">缺口</a>
+    <a class="n" href="#references-and-provenance">來源</a>
+  </div>
+</nav>
+
+<header>
+  <div class="wrap">
+    <div class="kicker">先天免疫 · 模式辨識 · Vault 主題整理 · 2026 年 11 月</div>
+    <h1 id="toll-like-receptors-across-primary-vault-topics">Toll-like receptors — 跨越 vault 主要主題</h1>
+    <p class="lead" style="margin-top:14px;">TLR 結構、PAMP/DAMP 辨識、MyD88 與 TRIF 訊號傳遞，以及 TLR 與本 vault 主要主題的實測交互作用——衰老/SASP、自噬/mitophagy、sirtuins、氧化壓力、毒物興奮效應/訓練性免疫、表觀遺傳學、細胞死亡、癌症、腎上腺色素、神經黑色素、COMT。附證據層級；經網路查核的 2024-2026 年更新；研究缺口。</p>
+    <p class="src">研究與教育性整理 · 非醫療建議 · vault 優先 ＋ 網路查核 · 每項主張標示層級與來源</p>
+  </div>
+</header>
+
+<main class="wrap"><p>27_Nov_2026 05:45 PM PST</p>
+<p>研究與教育性整理，非醫療建議。</p>
+<p>下文採用的證據層級（research-scientist 慣例）：<strong>層級 1</strong> 人體隨機對照試驗；<strong>層級 2</strong> 人體觀察性／非隨機研究；<strong>層級 3</strong> 動物體內；<strong>層級 4</strong> 體外／離體；<strong>層級 5</strong> 機制推理或推測。來源標記： (vault: …note…) 表示出自本 vault 的筆記； (web …) 表示 2026-11-27 取回、經網路查核的 2024-2026 年來源；未標記者為一般生物醫學知識； unverified 表示無法查證。本頁內容皆未經獨立重測。動物結果以「在囓齒類中」表述，體外結果以「體外」表述，不以適用於人類的動詞描述動物或體外結果。</p>
+
+<section id="scope-and-summary">
+<h2>範圍與摘要</h2>
+<p>本頁考察 Toll-like receptor（TLR）家族，並聚焦於本 vault 主要主題範圍內的交互作用：衰老、自噬、sirtuins、氧化壓力、毒物興奮效應、細胞死亡、癌症、表觀遺傳學、腎上腺色素、神經黑色素、comt。標準實體筆記為 <a class="wikilink" data-wiki="Toll-like Receptor" title="Toll-like Receptor — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Toll-like%20Receptor.md" target="_blank" rel="noopener noreferrer">Toll-like Receptor</a>；各受體另有個別筆記：<a class="wikilink" data-wiki="TLR2" title="TLR2 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/TLR2.md" target="_blank" rel="noopener noreferrer">TLR2</a>、<a class="wikilink" data-wiki="TLR3" title="TLR3 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/TLR3.md" target="_blank" rel="noopener noreferrer">TLR3</a>、<a class="wikilink" data-wiki="TLR4" title="TLR4 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/TLR4.md" target="_blank" rel="noopener noreferrer">TLR4</a>、<a class="wikilink" data-wiki="TLR7" title="TLR7 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/TLR7.md" target="_blank" rel="noopener noreferrer">TLR7</a>、<a class="wikilink" data-wiki="TLR8" title="TLR8 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/TLR8.md" target="_blank" rel="noopener noreferrer">TLR8</a>、<a class="wikilink" data-wiki="TLR9" title="TLR9 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/TLR9.md" target="_blank" rel="noopener noreferrer">TLR9</a>（本 vault 另見 `_link/TLR1.md`、`_link/TLR6.md`；該兩篇筆記的標準標題為 TLR1／TLR6）。本 vault 是以長壽為導向的生物醫學語料庫，而非免疫學專著；TLR 事實分散於各主題筆記、`_link/` 與 `_document_` 來源，並無單一整理完善的 TLR 語料。</p>
+<p>本 vault 已確立者（主要依據；見 <a class="wikilink" data-wiki="Toll-like Receptor" title="Toll-like Receptor — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Toll-like%20Receptor.md" target="_blank" rel="noopener noreferrer">Toll-like Receptor</a> 及各主題段落）：人類十個 TLR；PAMP 與 DAMP 雙重辨識；MyD88 與 TRIF 分流；區室化的 TLR4；內體酸化；衰老中由 <a class="wikilink" data-wiki="TLR2" title="TLR2 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/TLR2.md" target="_blank" rel="noopener noreferrer">TLR2</a> 驅動的 <a class="wikilink" data-wiki="SASP" title="SASP — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/SASP.md" target="_blank" rel="noopener noreferrer">SASP</a>，包含 cGAS–STING → <a class="wikilink" data-wiki="TLR2" title="TLR2 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/TLR2.md" target="_blank" rel="noopener noreferrer">TLR2</a> + <a class="wikilink" data-wiki="NF-κB" title="NF-κB — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/NF-κB.md" target="_blank" rel="noopener noreferrer">NF-κB</a> → SASP 正回饋迴路；mitophagy／MDV 將 <a class="wikilink" data-wiki="Mitochondrial DNA" title="Mitochondrial DNA — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Mitochondrial%20DNA.md" target="_blank" rel="noopener noreferrer">mtDNA</a> 送至溶酶體 <a class="wikilink" data-wiki="TLR9" title="TLR9 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/TLR9.md" target="_blank" rel="noopener noreferrer">TLR9</a>，並將 mtRNA 送至 <a class="wikilink" data-wiki="TLR7" title="TLR7 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/TLR7.md" target="_blank" rel="noopener noreferrer">TLR7</a>／<a class="wikilink" data-wiki="TLR8" title="TLR8 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/TLR8.md" target="_blank" rel="noopener noreferrer">TLR8</a>；基礎自噬清除 TLR 配體；自噬缺陷使 TLR9 訊號延長；<a class="wikilink" data-wiki="TLR2" title="TLR2 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/TLR2.md" target="_blank" rel="noopener noreferrer">TLR2</a>／<a class="wikilink" data-wiki="SIRT1" title="SIRT1 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/SIRT1.md" target="_blank" rel="noopener noreferrer">SIRT1</a>／NF-κB 抗發炎軸；TLR→<a class="wikilink" data-wiki="NOX2" title="NOX2 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/oxidative-stress/NOX2.md" target="_blank" rel="noopener noreferrer">NOX2</a>→ROS；氧化壓力活化 TLR；<a class="wikilink" data-wiki="CD36" title="CD36 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/CD36.md" target="_blank" rel="noopener noreferrer">CD36</a> 為 TLR2/6 共同受體；TLR 驅動的 <a class="wikilink" data-wiki="Trained Immunity" title="Trained Immunity — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/hormesis/Trained%20Immunity.md" target="_blank" rel="noopener noreferrer">Trained Immunity</a>，具「低劑量急性訓練、高劑量慢性耐受」的二分；TLR3→TRIF→caspase-8 與 TLR3/4→TRIF→RIPK3→necroptosis；TLR 對 <a class="wikilink" data-wiki="NLRP3 Inflammasome" title="NLRP3 Inflammasome — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/NLRP3%20Inflammasome.md" target="_blank" rel="noopener noreferrer">NLRP3 Inflammasome</a> 的致敏（priming）；癌症中 TLR2→SASP；TLR 致效劑免疫療法；細胞重編程中 TLR 相關的先天免疫活化；細胞外神經黑色素經 TLR 與清除受體活化小膠細胞；腎上腺色素／IL-1β 軸中的 NLRP3 致敏。經網路查核的 2024-2026 年更新與精確缺口，列於「經網路查核的更新（2024-2026）」與「研究缺口」兩節。</p>
+</section>
+
+<section id="tlr-architecture-and-ligands">
+<h2>TLR 結構與配體</h2>
+<p>TLR 是 <a class="wikilink" data-wiki="Innate Immune System" title="Innate Immune System — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Innate%20Immune%20System.md" target="_blank" rel="noopener noreferrer">Innate Immune System</a> 的第一型跨膜糖蛋白。每個受體具有 N 端馬蹄形白胺酸富集重複（LRR）胞外域（19-25 個 LRR，每個約 24 aa，motif 為 LxxLxLxxN；兩端由 LRR-NT／LRR-CT 蓋帽封閉）、單次跨膜 α 螺旋段，以及 C 端 Toll/IL-1 受體（TIR）域（約 200 aa）用以招募接合蛋白。配體誘發的二聚化（同型或異型；TLR1/TLR2、TLR2/TLR6、TLR4）或構形改變，使 TIR 域得以進行 TIR–TIR 同型接合蛋白結合。（vault：<a class="wikilink" data-wiki="Toll-like Receptor" title="Toll-like Receptor — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Toll-like%20Receptor.md" target="_blank" rel="noopener noreferrer">Toll-like Receptor</a>；網路：Kawai 與 Akira 系列 2024，DOI 10.1016/j.immuni.2024.03.004）</p>
+<p>人類受體數量。人類表現十個功能性 TLR，即 TLR1-TLR10。TLR11 在人類為無功能偽基因；小鼠另有 TLR11-TLR13（小鼠共 12 個成員；小鼠 TLR8 的配體辨識與人類不同，見「物種注意事项」）。TLR1-TLR10 的定位分為細胞表面型（TLR1、TLR2、TLR4、TLR5、TLR6、TLR10）與內體型（TLR3、TLR7、TLR8、TLR9；內體 TLR 需酸化環境；UNC93B1 負責內體 TLR 的運送；蛋白水解切割使其具訊號傳遞能力；內體 TLR7/9 會運送至溶酶體相關胞器以啟動 IRF7 與第一型干擾素輸出）。</p>
+<p>配體（vault：<a class="wikilink" data-wiki="Toll-like Receptor" title="Toll-like Receptor — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Toll-like%20Receptor.md" target="_blank" rel="noopener noreferrer">Toll-like Receptor</a>、<a class="wikilink" data-wiki="PAMP" title="PAMP — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cancer/PAMP.md" target="_blank" rel="noopener noreferrer">PAMP</a>、<a class="wikilink" data-wiki="DAMP" title="DAMP — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cancer/DAMP.md" target="_blank" rel="noopener noreferrer">DAMP</a>；網路 2024-2025；多為層級 4，治療用途者為層級 1／2）：</p>
+<table>
+<thead>
+<tr>
+<th>受體</th>
+<th>PAMP 配體</th>
+<th>DAMP／自身配體（vault ＋網路）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>TLR1/TLR2</td>
+<td>三醯基脂肽</td>
+<td>氧化脂質；<a class="wikilink" data-wiki="CD36" title="CD36 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/CD36.md" target="_blank" rel="noopener noreferrer">CD36</a> 相關配體</td>
+</tr>
+<tr>
+<td>TLR2</td>
+<td>二醯基脂肽（與 TLR6 協同）、肽聚醣、LTA、酵母聚糖、脂蛋白</td>
+<td>HMGB1、SAA1/SAA2、熱休克蛋白、oxLDL、mtDNA 相關貨載、神經黑色素（與清除受體協同）</td>
+</tr>
+<tr>
+<td>TLR2/TLR6</td>
+<td>二醯基脂肽、LTA、酵母聚糖</td>
+<td>oxLDL、經 <a class="wikilink" data-wiki="CD36" title="CD36 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/CD36.md" target="_blank" rel="noopener noreferrer">CD36</a> 的類澱粉β胜肽；腸道 LTA 作用於衰老細胞（癌症 vault 筆記）</td>
+</tr>
+<tr>
+<td>TLR4</td>
+<td>LPS（革蘭氏陰性菌；MD-2 + CD14 + LBP），亦含部分病毒／真菌成分</td>
+<td>HMGB1（與 <a class="wikilink" data-wiki="RAGE" title="RAGE — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/RAGE.md" target="_blank" rel="noopener noreferrer">RAGE</a> 協同）、S100、熱休克蛋白、纖維蛋白原、氧化磷脂、類澱粉β胜肽、mtDNA（罕見路徑）、腎上腺色素衍生氧化損傷產物（推論，未經查證）</td>
+</tr>
+<tr>
+<td>TLR5</td>
+<td>鞭毛蛋白</td>
+<td>自身配體未經查證</td>
+</tr>
+<tr>
+<td>TLR3</td>
+<td>dsRNA、poly(I:C)</td>
+<td>內源性 dsRNA；自體免疫中的自身 RNA</td>
+</tr>
+<tr>
+<td>TLR7</td>
+<td>ssRNA（GU -rich）、imiquimod／resiquimod</td>
+<td>自身 ssRNA；mtRNA；溶酶體 RNA 降解產物（RNase T2 + PLD）；氧化 DNA 與 ssRNA 的組合；自體免疫中與 XIST 相連的 TLR7 逃脫（vault 表觀遺傳學筆記）</td>
+</tr>
+<tr>
+<td>TLR8</td>
+<td>ssRNA（人類；小鼠 TLR8 無活性）</td>
+<td>自身 ssRNA；mtRNA；RNA 片段；TLR8 驅動的 TFEB→自噬（vault ＋網路）</td>
+</tr>
+<tr>
+<td>TLR9</td>
+<td>CpG DNA（低甲基化）</td>
+<td>低甲基化 CpG mtDNA；核／粒線體自身 DNA；被導向內體的 CCF；作為共同 DAMP 的 TFAM；反轉錄子 DNA；CpG-ODN 治療</td>
+</tr>
+<tr>
+<td>TLR10</td>
+<td>未知；有 TLR1/TLR2 異二聚體的報告</td>
+<td>具功能活性；確切配體仍未定；抗發炎報告未經查證</td>
+</tr>
+</tbody>
+</table>
+<p>配體表之注意。所報告的 DAMP 關聯並非已確立的受體–配體對：蛋白質類 DAMP（如 HMGB1、熱休克蛋白）是否直接結合 TLR2／TLR4 仍受嚴格檢視（2026 综述；DOI 10.1007/s44466-026-00040-6）。核酸類配體（CpG DNA、ssRNA／dsRNA、低甲基化 mtDNA／mtRNA）則有直接結構與突變證據。</p>
+<svg class="tlr-fig" xmlns="http://www.w3.org/2000/svg" width="1040" height="660" viewBox="0 0 1040 660" font-family="PingFang TC, Heiti TC, Noto Sans TC, Microsoft JhengHei, DejaVu Sans, Helvetica, Arial, sans-serif">
+  <title>TLR architecture and the two adaptor branches</title>
+  <desc>Figure 1. Left-to-right conserved architecture of a Toll-like receptor: PAMP or DAMP, leucine-rich-repeat ectodomain, single transmembrane helix, cytoplasmic TIR domain, adaptor recruitment. Below, two parallel vertical branches: the MyD88 branch and the TRIF branch, each with its own receptor input, adaptor, kinase chain and transcriptional output.</desc>
+  <defs><marker id="a1" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#333"/></marker></defs>
+  <rect x="0" y="0" width="1040" height="660" fill="#ffffff"/>
+
+  <text x="24" y="34" font-size="19" font-weight="bold" fill="#1b1b1b">圖 1 — TLR 結構與兩條接合蛋白分支</text>
+  <text x="24" y="56" font-size="12.5" fill="#5a5a5a">示意圖；無量化數據。配體、接合蛋白與輸出如正文所述。</text>
+
+  <text x="24" y="88" font-size="14" font-weight="bold" fill="#444">保守結構 — 由左至右的單一路徑</text>
+  <g fill="#1b1b1b">
+    <rect x="24" y="100" width="150" height="62" rx="8" fill="#fff6e0" stroke="#b08a2a"/>
+    <text x="99" y="124" font-size="13.5" font-weight="bold" text-anchor="middle">PAMP / DAMP</text>
+    <text x="99" y="143" font-size="12" text-anchor="middle">LPS、脂肽、</text>
+    <text x="99" y="158" font-size="12" text-anchor="middle">CpG DNA、ssRNA</text>
+
+    <rect x="206" y="100" width="230" height="62" rx="8" fill="#dce9f7" stroke="#4a7ab5"/>
+    <text x="321" y="124" font-size="13.5" font-weight="bold" text-anchor="middle">LRR 胞外域</text>
+    <text x="321" y="143" font-size="12" text-anchor="middle">19–25 個重複；配體結合</text>
+    <text x="321" y="158" font-size="12" text-anchor="middle">與受體二聚化</text>
+
+    <rect x="468" y="100" width="170" height="62" rx="8" fill="#fde9d9" stroke="#c07a3a"/>
+    <text x="553" y="124" font-size="13.5" font-weight="bold" text-anchor="middle">跨膜區</text>
+    <text x="553" y="143" font-size="12" text-anchor="middle">單一 α 螺旋</text>
+
+    <rect x="670" y="100" width="180" height="62" rx="8" fill="#e2efdc" stroke="#5a8a4a"/>
+    <text x="760" y="124" font-size="13.5" font-weight="bold" text-anchor="middle">胞質 TIR</text>
+    <text x="760" y="143" font-size="12" text-anchor="middle">約 200 aa 接合</text>
+    <text x="760" y="158" font-size="12" text-anchor="middle">平台</text>
+
+    <rect x="882" y="100" width="134" height="62" rx="8" fill="#f0ecf8" stroke="#7a5aa8"/>
+    <text x="949" y="124" font-size="13.5" font-weight="bold" text-anchor="middle">接合蛋白</text>
+    <text x="949" y="141" font-size="12" text-anchor="middle">招募</text>
+    <text x="949" y="156" font-size="12" text-anchor="middle">（TIR–TIR）</text>
+  </g>
+  <g stroke="#333" stroke-width="1.5" marker-end="url(#a1)">
+    <line x1="176" y1="131" x2="202" y2="131"/>
+    <line x1="438" y1="131" x2="464" y2="131"/>
+    <line x1="640" y1="131" x2="666" y2="131"/>
+    <line x1="852" y1="131" x2="878" y2="131"/>
+  </g>
+
+  <line x1="24" y1="188" x2="1016" y2="188" stroke="#d4d4d4"/>
+  <text x="24" y="214" font-size="14" font-weight="bold" fill="#444">接合蛋白分支 — 兩列各自獨立，無共用連線</text>
+
+  <g fill="#1b1b1b" text-anchor="middle">
+    <rect x="24" y="228" width="476" height="44" rx="8" fill="#fdf2f2" stroke="#b55a5a"/>
+    <text x="262" y="256" font-size="13">TLR1/2/4/5/6/10（表面）· TLR7/8/9（內體）</text>
+
+    <rect x="24" y="288" width="476" height="44" rx="8" fill="#fdf2f2" stroke="#b55a5a"/>
+    <text x="262" y="316" font-size="13">MAL/TIRAP（TLR2、TLR4）→ MyD88 → myddosome</text>
+
+    <rect x="24" y="348" width="476" height="44" rx="8" fill="#fdf2f2" stroke="#b55a5a"/>
+    <text x="262" y="376" font-size="13">IRAK4 / IRAK1 → TRAF6 → TAK1</text>
+
+    <rect x="24" y="408" width="476" height="44" rx="8" fill="#fdf2f2" stroke="#b55a5a"/>
+    <text x="262" y="436" font-size="13">IKK → NF-κB &#160;·&#160; MAPK → AP-1</text>
+
+    <rect x="24" y="468" width="476" height="44" rx="8" fill="#f9e3e3" stroke="#b55a5a"/>
+    <text x="262" y="496" font-size="13">細胞激素、趨化激素、NLRP3 致敏</text>
+
+    <rect x="540" y="228" width="476" height="44" rx="8" fill="#f2f2fd" stroke="#5a5ab5"/>
+    <text x="778" y="256" font-size="13">TLR3 &#160;·&#160; 內吞後的 TLR4</text>
+
+    <rect x="540" y="288" width="476" height="44" rx="8" fill="#f2f2fd" stroke="#5a5ab5"/>
+    <text x="778" y="316" font-size="13">TRIF（TLR3 直接；TLR4 經 TRAM）</text>
+
+    <rect x="540" y="348" width="476" height="44" rx="8" fill="#f2f2fd" stroke="#5a5ab5"/>
+    <text x="778" y="376" font-size="13">TRAF3 → TBK1 / IKKε → IRF3</text>
+
+    <rect x="540" y="408" width="476" height="44" rx="8" fill="#f2f2fd" stroke="#5a5ab5"/>
+    <text x="778" y="436" font-size="13">IFN-β、第一型干擾素</text>
+
+    <rect x="540" y="468" width="476" height="44" rx="8" fill="#e3e3fa" stroke="#5a5ab5"/>
+    <text x="778" y="496" font-size="13">TRIF → TRAF6 / NF-κB · RIPK3 / caspase-8</text>
+  </g>
+  <g stroke="#333" stroke-width="1.5" marker-end="url(#a1)">
+    <line x1="262" y1="274" x2="262" y2="284"/>
+    <line x1="262" y1="334" x2="262" y2="344"/>
+    <line x1="262" y1="394" x2="262" y2="404"/>
+    <line x1="262" y1="454" x2="262" y2="464"/>
+    <line x1="778" y1="274" x2="778" y2="284"/>
+    <line x1="778" y1="334" x2="778" y2="344"/>
+    <line x1="778" y1="394" x2="778" y2="404"/>
+    <line x1="778" y1="454" x2="778" y2="464"/>
+  </g>
+
+  <rect x="24" y="530" width="992" height="82" rx="8" fill="#f7f7f7" stroke="#b0b0b0"/>
+  <text x="42" y="554" font-size="12.5" fill="#2b2b2b">煞車機制：A20 · miR-146a · MyD88-S · SIGIRR · SARM1 · SOCS1/3 · TIR 域可逆乙醯化</text>
+  <text x="42" y="576" font-size="12.5" fill="#2b2b2b">配體可得性：溶酶體 DNase II、RNase T2、PLD3/PLD4 · SLC29A3 介導核苷輸出 · 酸化</text>
+  <text x="42" y="598" font-size="12.5" fill="#2b2b2b">TLR4 注意：表面 MyD88 與內體 TRIF 兩支可為彼此獨立的結果，並非必須依序進行（EMBO Rep 2025）。</text>
+  <text x="24" y="640" font-size="12" fill="#666">顏色僅用於區分功能模組；不代表任何量化尺度。</text>
+</svg></p>
+<p class="figcap"><strong>圖 1.</strong> 單一 TLR 家族成員的結構與其兩條接合蛋白分支。<em>圖說：</em>最上列為受體的物理結構——位於單一跨膜螺旋之上的配體結合 LRR 胞外域，胞質 TIR 域則以 TIR–TIR 同型接觸停靠接合蛋白。下半部拆成兩列永不合流：除 TLR3 外的所有 TLR 皆經 MAL/TIRAP → MyD88 → IRAK4/IRAK1 → TRAF6 → TAK1 傳訊，產生 NF-κB 與 AP-1 輸出並使 NLRP3 得以致敏；TLR3 與內吞後的 TLR4 則經 TRIF → TRAF3 → TBK1/IKKε → IRF3 傳訊，產生第一型干擾素，TRIF 同時連到 TRAF6／NF-κB 與 RIPK3／caspase-8 的細胞死亡路徑。灰色帶列出煞車機制與決定配體可得性的調控（溶酶體核酸酶、酸化）；TLR4 的注意說明兩條分支不必依固定順序進行。圖中任何數值皆非測量結果。</p>
+</section>
+
+<section id="signaling-myd88-vs-trif">
+<h2>訊號傳遞：MyD88 與 TRIF</h2>
+<p>四個 TIR 接合蛋白：<a class="wikilink" data-wiki="MyD88" title="MyD88 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/MyD88.md" target="_blank" rel="noopener noreferrer">MyD88</a>、MAL/TIRAP、<a class="wikilink" data-wiki="TRIF" title="TRIF — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/TRIF.md" target="_blank" rel="noopener noreferrer">TRIF</a>、TRAM。兩條級聯（vault：<a class="wikilink" data-wiki="Toll-like Receptor" title="Toll-like Receptor — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Toll-like%20Receptor.md" target="_blank" rel="noopener noreferrer">Toll-like Receptor</a>、<a class="wikilink" data-wiki="Myddosome" title="Myddosome — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/Myddosome.md" target="_blank" rel="noopener noreferrer">Myddosome</a>、<a class="wikilink" data-wiki="MyD88" title="MyD88 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/MyD88.md" target="_blank" rel="noopener noreferrer">MyD88</a>、<a class="wikilink" data-wiki="TRIF" title="TRIF — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/TRIF.md" target="_blank" rel="noopener noreferrer">TRIF</a>；網路：Fitzgerald & Kagan 2020；2024-2025 综述 DOI 10.1186/s12929-025-01151-9、10.1002/mco2.70308）：</p>
+<ul>
+<li><strong>MyD88 依賴</strong>——除 TLR3 外的所有 TLR。TIR→（TLR2/4 另需 MAL/TIRAP）→MyD88 自我組裝（靜息狀態即成簇；短型異構體 MyD88-S 具抑制作用）→myddosome（MyD88·<a class="wikilink" data-wiki="IRAK4" title="IRAK4 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/IRAK4.md" target="_blank" rel="noopener noreferrer">IRAK4</a>·IRAK1/2；超分子組裝中心）→<a class="wikilink" data-wiki="TRAF6" title="TRAF6 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/TRAF6.md" target="_blank" rel="noopener noreferrer">TRAF6</a> K63 多聚泛素化→TAK1→IKK→<a class="wikilink" data-wiki="NF-κB" title="NF-κB — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/NF-κB.md" target="_blank" rel="noopener noreferrer">NF-κB</a>；TAK1→MAPK（p38/ERK/JNK）→AP-1。輸出：促發炎細胞激素（<a class="wikilink" data-wiki="TNF-alpha" title="TNF-alpha — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/TNF-alpha.md" target="_blank" rel="noopener noreferrer">TNF-α</a>、<a class="wikilink" data-wiki="IL-1β" title="IL-1β — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/IL-1β.md" target="_blank" rel="noopener noreferrer">IL-1β</a>、IL-6）、趨化激素、NLRP3 致敏。<strong>內體型 TLR7/8/9：</strong>myddosome 先在早期內體形成（NF-κB），再由 AP-3 運送至溶酶體相關胞器 ＋ TRAF3 → IRF7/IRF3 → 第一型干擾素（尤其在漿細胞樣樹突細胞；網路 2025 DOI 10.1186/s12929-025-01151-9）。</li>
+<li><strong>TRIF 依賴</strong>——TLR3，以及內體中的 TLR4。TLR3→TRIF 直接（無 TRAM）；TLR4 在內吞後（CD14/Rab11a）→TRAM→TRIF。TRIF→TRAF3→TBK1/IKKε→IRF3→IFN-β；TRIF→TRAF6→NF-κB。</li>
+<li><strong>TLR4 的區室化訊號傳遞。</strong>細胞膜：MAL+MyD88→早期 NF-κB。內體：TRAM+TRIF→IRF3→IFN-β（vault：<a class="wikilink" data-wiki="Toll-like Receptor" title="Toll-like Receptor — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Toll-like%20Receptor.md" target="_blank" rel="noopener noreferrer">Toll-like Receptor</a>）。<strong>更正：</strong>在人類細胞中，內吞與內體 TLR4 訊號是彼此獨立且可分離的結果；「依序兩階段」模型屬簡化，並非普遍成立的耦聯（EMBO Rep 2025，DOI 10.1038/s44319-025-00444-2）。</li>
+</ul>
+<p><strong>TLR3–TRIF 與細胞死亡的連結</strong>（vault cell-death ＋ cancer ＋ adrenochrome；網路 2025 DOI 10.1186/s12929-025-01151-9）：TRIF 具有 RHIM；TLR3–TRIF 招募 <a class="wikilink" data-wiki="RIPK1" title="RIPK1 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/RIPK1.md" target="_blank" rel="noopener noreferrer">RIPK1</a>→caspase-8（不依賴 FADD；非典型凋亡；vault <a class="wikilink" data-wiki="FADD" title="FADD — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cancer/FADD.md" target="_blank" rel="noopener noreferrer">FADD</a>、<a class="wikilink" data-wiki="Caspase-8" title="Caspase-8 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Caspase-8.md" target="_blank" rel="noopener noreferrer">Caspase-8</a>）；TLR3/4–TRIF 招募 <a class="wikilink" data-wiki="RIPK3" title="RIPK3 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/RIPK3.md" target="_blank" rel="noopener noreferrer">RIPK3</a>→necrosome→necroptosis（此路徑不需 RIPK1；vault <a class="wikilink" data-wiki="Necroptosis" title="Necroptosis — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Necroptosis.md" target="_blank" rel="noopener noreferrer">Necroptosis</a>；ZBP1 為不同路徑）。</p>
+<p><strong>負向調控。</strong><a class="wikilink" data-wiki="A20" title="A20 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/oxidative-stress/A20.md" target="_blank" rel="noopener noreferrer">A20</a>（TNFAIP3；編輯 K63／線型泛素；NF-κB 煞車；vault oxidative-stress）、miR-146a（作用於 TRAF6/IRAK1；由 NF-κB 誘導；網路）、MyD88-S（阻斷 IRAK4 招募；網路）、SIGIRR/TIR8（vault <a class="wikilink" data-wiki="MyD88" title="MyD88 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/MyD88.md" target="_blank" rel="noopener noreferrer">MyD88</a>；抑制 MyD88 依賴的 TLR/IL-1R）、<a class="wikilink" data-wiki="SARM1" title="SARM1 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/SARM1.md" target="_blank" rel="noopener noreferrer">SARM1</a>（TIR 接合蛋白；抑制 TRIF；vault `_link/SARM1`；注意 SARM1 在細胞死亡中另有獨立的 mitophagy／necroptosis 角色——機制不同）、SOCS1/SOCS3（下游 IRF7 降解；vault senescence ＋網路）、誘導 A20、IRAK-M、OTULIN/CYLD 泛素編輯（vault cell-death；網路）、DNase II／DNase1L3／TREX1／Dnase2a 清除 DNA（抗 cGAS；TLR9 需要已降解的 DNA；網路 2023-2025）、RNase T2 + PLD 的雙重角色（生成 TLR7 配體；藉降解 dsRNA 負向調控 TLR3；網路 DOI 10.1093/jb/mvaf011）、PLD3/PLD4（抑制 TLR7/9 ＋ cGAS；同時正向生成 TLR7 配體；網路）、TFAM 的兩個 LIR motif → LC3B 核質體自噬清除 mtDNA（網路 2024）、Retromer → 溶酶體 mtDNA 周轉（網路 DOI 10.1126/sciadv.adr6415）、OCRL（自噬體－溶酶體融合／TLR9 調控；vault 自噬筆記）。</p>
+<p><strong>轉譯後調控</strong>（網路查核 2024-2025）。TLR4-MAL-MyD88 訊號複合體中 TIR 域離胺酸殘基的可逆乙醯化，可調控組裝與敗血症中的 M1 巨噬細胞極化；被提出作為治療標的（EMBO J 2024，DOI 10.1038/s44318-024-00237-8）。<a class="wikilink" data-wiki="SIRT1" title="SIRT1 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/SIRT1.md" target="_blank" rel="noopener noreferrer">SIRT1</a> 去乙醯化 NF-κB p65 K310（及其他 NF-κB 位點；降低轉錄；vault sirtuins 筆記 ＋網路 2023-2024）；SIRT1→NLRP3↓（網路）；見「sirtuins」一節。磷酸化／泛素化層另行調節 myddosome 動力學（IRAK1 過度磷酸化→降解；TRAF6 約 24 小時的蛋白酶體下调；vault <a class="wikilink" data-wiki="MyD88" title="MyD88 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/MyD88.md" target="_blank" rel="noopener noreferrer">MyD88</a>）。</p>
+<p><strong>內體與溶酶體的核酸處理決定配體可得性</strong>（網路 2024-2025）。溶酶體 DNase II ＋ RNase T2 ＋ PLD ＋ PLD3/4 生成 ssDNA／ssRNA 配體；SLC29A3 負責核苷輸出；溶酶體核酸／代謝物累積（「溶酶體核酸壓力」）依累積中間產物而定，可活化或抑制 TLR3/7/8/9 ＋ cGAS-STING（DOI 10.1093/jb/mvaf011）；TLR9 需要經 DNase II 處理的 DNA（在 DNase II 缺失細胞中，未降解 DNA 的累積不會有效活化 TLR9，卻會驅動 cGAS-STING——人類 DNase II 缺失所造成的致死性貧血由 STING 而非 TLR9 驅動；網路）。</p>
+<p><strong>物種注意。</strong>人類 TLR8 對 ssRNA 有反應；小鼠 TLR8 功能上無活性（5-aa motif；Nunes 等 2024 EMBO Rep，vault 自噬筆記已引；網路）。TLR7/8 的物種差異使小鼠到人體的轉譯產生混淆。mtRNA→TLR8 另需 RNase 6 處理，並受 RNA 2'-O-甲基化抑制（網路 2024；vault 自噬筆記）。人類 TLR9 除內質網／內體路徑外，亦可結合於紅血球（vault <a class="wikilink" data-wiki="Erythrocytes" title="Erythrocytes — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/Erythrocytes.md" target="_blank" rel="noopener noreferrer">Erythrocytes</a> ＋網路 2025）。</p>
+</section>
+
+<section id="interactions-across-primary-vault-topics">
+<h2>與 vault 各主要主題的交互作用</h2>
+<svg class="tlr-fig" xmlns="http://www.w3.org/2000/svg" width="1040" height="790" viewBox="0 0 1040 790" font-family="PingFang TC, Heiti TC, Noto Sans TC, Microsoft JhengHei, DejaVu Sans, Helvetica, Arial, sans-serif">
+  <title>TLR interactions with primary vault topics</title>
+  <desc>Figure 2. A vertical spine labelled TLR signalling connects, through short horizontal arrows, to eleven topic cards: senescence and SASP, autophagy and mitophagy, sirtuins, oxidative stress, hormesis and trained immunity, epigenetics, cell death, cancer, adrenochrome, neuromelanin, and COMT. Each card names the mechanism that links that vault topic to TLR signalling.</desc>
+  <defs><marker id="a2" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#555"/></marker></defs>
+  <rect x="0" y="0" width="1040" height="790" fill="#ffffff"/>
+
+  <text x="24" y="34" font-size="19" font-weight="bold" fill="#1b1b1b">圖 2 — TLR 與 vault 主要主題的交互作用</text>
+  <text x="24" y="56" font-size="12.5" fill="#5a5a5a">示意圖；無權重。機制標籤摘要自 vault 筆記；各項主張的證據層級見正文。</text>
+
+  <rect x="494" y="80" width="52" height="580" rx="10" fill="#222"/>
+  <text x="520" y="370" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle" dominant-baseline="central" transform="rotate(-90 520 370)">TLR 訊號傳遞</text>
+
+  <g>
+    <rect x="24" y="88" width="442" height="98" rx="9" fill="#fdf2f2" stroke="#b55a5a"/>
+    <text x="42" y="114" font-size="14.5" font-weight="bold" fill="#8a2a2a">衰老 / SASP</text>
+    <text x="42" y="138" font-size="12.5" fill="#2b2b2b">衰老細胞中 TLR2 上調；</text>
+    <text x="42" y="157" font-size="12.5" fill="#2b2b2b">血清澱粉樣蛋白 A → TLR2 → NF-κB 迴路；</text>
+    <text x="42" y="176" font-size="12.5" fill="#2b2b2b">cGAS–STING 驅動 TLR2 转錄</text>
+    <line x1="494" y1="137" x2="470" y2="137" stroke="#555" stroke-width="1.5" marker-end="url(#a2)"/>
+
+    <rect x="574" y="88" width="442" height="98" rx="9" fill="#eef6ee" stroke="#5a8a4a"/>
+    <text x="592" y="114" font-size="14.5" font-weight="bold" fill="#2a6a2a">自噬 / mitophagy</text>
+    <text x="592" y="138" font-size="12.5" fill="#2b2b2b">mtDNA → TLR9；mtRNA → TLR7/8；</text>
+    <text x="592" y="157" font-size="12.5" fill="#2b2b2b">粒線體衍生囊泡；</text>
+    <text x="592" y="176" font-size="12.5" fill="#2b2b2b">基礎自噬清除 TLR 配體</text>
+    <line x1="546" y1="137" x2="570" y2="137" stroke="#555" stroke-width="1.5" marker-end="url(#a2)"/>
+
+    <rect x="24" y="204" width="442" height="98" rx="9" fill="#f0ecf8" stroke="#7a5aa8"/>
+    <text x="42" y="230" font-size="14.5" font-weight="bold" fill="#5a3a8a">Sirtuins（SIRT1）</text>
+    <text x="42" y="254" font-size="12.5" fill="#2b2b2b">TLR2 / SIRT1 / NF-κB 軸；</text>
+    <text x="42" y="273" font-size="12.5" fill="#2b2b2b">p65 K310 去乙醯化；</text>
+    <text x="42" y="292" font-size="12.5" fill="#2b2b2b">NLRP3 受抑制；NAD+ → SIRT1 → IFN</text>
+    <line x1="494" y1="253" x2="470" y2="253" stroke="#555" stroke-width="1.5" marker-end="url(#a2)"/>
+
+    <rect x="574" y="204" width="442" height="98" rx="9" fill="#fff6e0" stroke="#b08a2a"/>
+    <text x="592" y="230" font-size="14.5" font-weight="bold" fill="#8a6a1a">氧化壓力</text>
+    <text x="592" y="254" font-size="12.5" fill="#2b2b2b">TLR → NOX2 → ROS 爆發；</text>
+    <text x="592" y="273" font-size="12.5" fill="#2b2b2b">oxLDL 經 CD36 → TLR2/TLR6；</text>
+    <text x="592" y="292" font-size="12.5" fill="#2b2b2b">ROS/DAMP → TLR；NRF2 ↔ NF-κB</text>
+    <line x1="546" y1="253" x2="570" y2="253" stroke="#555" stroke-width="1.5" marker-end="url(#a2)"/>
+
+    <rect x="24" y="320" width="442" height="98" rx="9" fill="#e8f4f4" stroke="#4a8a8a"/>
+    <text x="42" y="346" font-size="14.5" font-weight="bold" fill="#1a6a6a">毒物興奮效應 / 訓練性免疫</text>
+    <text x="42" y="370" font-size="12.5" fill="#2b2b2b">低劑量、急性：mTORC1/HIF-1α、H3K4me3；</text>
+    <text x="42" y="389" font-size="12.5" fill="#2b2b2b">高劑量、慢性：AMPK/SIRT1/自噬；</text>
+    <text x="42" y="408" font-size="12.5" fill="#2b2b2b">耐受與 inflammaging</text>
+    <line x1="494" y1="369" x2="470" y2="369" stroke="#555" stroke-width="1.5" marker-end="url(#a2)"/>
+
+    <rect x="574" y="320" width="442" height="98" rx="9" fill="#f0ecf8" stroke="#7a5aa8"/>
+    <text x="592" y="346" font-size="14.5" font-weight="bold" fill="#5a3a8a">表觀遺傳學</text>
+    <text x="592" y="370" font-size="12.5" fill="#2b2b2b">TLR 驅動的染色質與代謝</text>
+    <text x="592" y="389" font-size="12.5" fill="#2b2b2b">記憶；XIST–TLR7 逃脫；</text>
+    <text x="592" y="408" font-size="12.5" fill="#2b2b2b">sirtuin 對 NF-κB 的去乙醯化</text>
+    <line x1="546" y1="369" x2="570" y2="369" stroke="#555" stroke-width="1.5" marker-end="url(#a2)"/>
+
+    <rect x="24" y="436" width="442" height="98" rx="9" fill="#f2f2fd" stroke="#5a5ab5"/>
+    <text x="42" y="462" font-size="14.5" font-weight="bold" fill="#2a2a8a">細胞死亡</text>
+    <text x="42" y="486" font-size="12.5" fill="#2b2b2b">TLR3 → TRIF → caspase-8（不需 FADD）；</text>
+    <text x="42" y="505" font-size="12.5" fill="#2b2b2b">TLR3/4 → TRIF → RIPK3 necroptosis；</text>
+    <text x="42" y="524" font-size="12.5" fill="#2b2b2b">PANoptosis；壞死釋放 DAMP</text>
+    <line x1="494" y1="485" x2="470" y2="485" stroke="#555" stroke-width="1.5" marker-end="url(#a2)"/>
+
+    <rect x="574" y="436" width="442" height="98" rx="9" fill="#fdf2f2" stroke="#b55a5a"/>
+    <text x="592" y="462" font-size="14.5" font-weight="bold" fill="#8a2a2a">癌症</text>
+    <text x="592" y="486" font-size="12.5" fill="#2b2b2b">肝細胞癌中 TLR2 → SASP；</text>
+    <text x="592" y="505" font-size="12.5" fill="#2b2b2b">PAMP → 腫瘤發生；TLR7/9 致效劑；</text>
+    <text x="592" y="524" font-size="12.5" fill="#2b2b2b">抗腫瘤與促腫瘤雙重角色</text>
+    <line x1="546" y1="485" x2="570" y2="485" stroke="#555" stroke-width="1.5" marker-end="url(#a2)"/>
+
+    <rect x="24" y="552" width="442" height="98" rx="9" fill="#fff6e0" stroke="#b08a2a"/>
+    <text x="42" y="578" font-size="14.5" font-weight="bold" fill="#8a6a1a">腎上腺色素</text>
+    <text x="42" y="602" font-size="12.5" fill="#2b2b2b">TLR/NLRP3 致敏；TRAF6；IL-1β；</text>
+    <text x="42" y="621" font-size="12.5" fill="#2b2b2b">RIPK1 支架；直接 TLR 配體</text>
+    <text x="42" y="640" font-size="12.5" fill="#2b2b2b">結合未經查證</text>
+    <line x1="494" y1="601" x2="470" y2="601" stroke="#555" stroke-width="1.5" marker-end="url(#a2)"/>
+
+    <rect x="574" y="552" width="442" height="98" rx="9" fill="#f4f4f4" stroke="#8a8a8a"/>
+    <text x="592" y="578" font-size="14.5" font-weight="bold" fill="#333333">神經黑色素</text>
+    <text x="592" y="602" font-size="12.5" fill="#2b2b2b">死亡多巴胺能神經元釋出的</text>
+    <text x="592" y="621" font-size="12.5" fill="#2b2b2b">色素經清除受體與 TLR 活化</text>
+    <text x="592" y="640" font-size="12.5" fill="#2b2b2b">小膠細胞</text>
+    <line x1="546" y1="601" x2="570" y2="601" stroke="#555" stroke-width="1.5" marker-end="url(#a2)"/>
+  </g>
+
+  <rect x="290" y="684" width="460" height="82" rx="9" fill="#e8f4f4" stroke="#4a8a8a"/>
+  <text x="520" y="712" font-size="13" font-weight="bold" fill="#1a6a6a" text-anchor="middle">COMT — 兒茶酚胺清除限制</text>
+  <text x="520" y="731" font-size="13" font-weight="bold" fill="#1a6a6a" text-anchor="middle">氧化兒茶酚胺的 DAMP 負荷</text>
+  <text x="520" y="752" font-size="12" fill="#3a3a3a" text-anchor="middle">層級 5 推論；vault 中無直接 TLR 邊</text>
+  <line x1="520" y1="660" x2="520" y2="682" stroke="#555" stroke-width="1.5" marker-end="url(#a2)"/>
+  <text x="24" y="784" font-size="12" fill="#666">箭頭由中央 TLR 脊線向外指向各主題；表示已記載的交互作用，而非作用方向。</text>
+</svg></p>
+<p class="figcap"><strong>圖 2.</strong> TLR 訊號如何連結到本 vault 的每個主要主題。<em>圖說：</em>深色直立脊線代表共用的 TLR 訊號節點；每條水平箭頭由脊線向外指向一張主題卡片，因此箭頭標示的是「有紀錄的交互作用」，而非作用方向。卡片文字給出承載該連結的機制，而非主題摘要。顏色僅用於群組相關主題（衰老與癌症、sirtuins 與表觀遺傳學、氧化壓力與腎上腺色素）。COMT 卡片置於脊線下方，因其連結屬推論：COMT 限制氧化兒茶酚胺的受質池，理論上會降低進入 TLR 分支的 DAMP 量，但 vault 並無直接的 COMT–TLR 邊。神經退化相關的神經黑色素訊號，在受體亞型層級同樣未定案。各項主張的證據層級見對應主題段落。</p>
+<p>來源順序：各主題事實以 vault 優先；明確標示的網路更新為 2024-2026 年；明確標示的推論為層級 5。vault 圖譜確認了樞紐連通性（graphify：Toll-like Receptor 連向 NF-κB、inflammation、TLR3、TLR2、SIRT1、NLRP3、mtDNA、mitophagy、SASP、cGAS-STING、trained immunity 等；graphify-out/graph.json，4756 個節點）。</p>
+<h3 id="senescence-and-sasp">衰老與 SASP</h3>
+<p>（vault 主題：`src/notes/senescence/`；<a class="wikilink" data-wiki="Cellular Senescence" title="Cellular Senescence — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Cellular%20Senescence.md" target="_blank" rel="noopener noreferrer">Cellular Senescence</a>、<a class="wikilink" data-wiki="SASP" title="SASP — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/SASP.md" target="_blank" rel="noopener noreferrer">SASP</a>、<a class="wikilink" data-wiki="Senescence" title="Senescence — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/Senescence.md" target="_blank" rel="noopener noreferrer">Senescence</a>、<a class="wikilink" data-wiki="Inflammaging" title="Inflammaging — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Inflammaging.md" target="_blank" rel="noopener noreferrer">Inflammaging</a>）</p>
+<ul>
+<li><a class="wikilink" data-wiki="TLR2" title="TLR2 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/TLR2.md" target="_blank" rel="noopener noreferrer">TLR2</a> 在衰老細胞中上調，且為免疫調節型 <a class="wikilink" data-wiki="SASP" title="SASP — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/SASP.md" target="_blank" rel="noopener noreferrer">SASP</a> 所必需（層級 3/4；vault SASP；網路 Science Advances 2019 DOI 10.1126/sciadv.aaw0254）。</li>
+<li><strong>cGAS–STING → TLR2 ＋ NF-κB ＋ SAA 正回饋。</strong>與衰老相關的 DAMP——胞質染色質片段（CCF）、mtDNA、被動員的反轉錄子、經 RIG-I 感測的胞質 RNA、HMGB1、SAA1/SAA2——啟動 cGAS→cGAMP→STING→NF-κB；STING 隨後驅動 TLR2 转錄 ＋ A-SAA；TLR2 辨識 A-SAA → NF-κB → 促發炎 SASP（vault <a class="wikilink" data-wiki="SASP" title="SASP — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/SASP.md" target="_blank" rel="noopener noreferrer">SASP</a>、<a class="wikilink" data-wiki="cGAS-STING Pathway" title="cGAS-STING Pathway — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/cGAS-STING%20Pathway.md" target="_blank" rel="noopener noreferrer">cGAS-STING Pathway</a>、<a class="wikilink" data-wiki="HMGB1" title="HMGB1 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/HMGB1.md" target="_blank" rel="noopener noreferrer">HMGB1</a>；網路 2019 ＋ 2025；「腸道菌群衍生 LTA 作用於衰老肝星狀細胞 → TLR2→COX-2→PGE2」的免疫抑制輸出變體，網路 2022/2025 癌症－衰老综述）。TLR2 敲低／敲除可降低 p16/p21 ＋ SASP；TLR2 過量表現→細胞週期停滯 ＋ 衰老標記（層級 3/4；網路）。</li>
+<li><a class="wikilink" data-wiki="TLR7" title="TLR7 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/TLR7.md" target="_blank" rel="noopener noreferrer">TLR7</a> 慢性活化→衰老 ＋ 類 SASP 輸出（vault TLR7；網路 2025 核酸型 TLR 综述）。在與衰老相關的情境中，TLR9 ＋ STING 對 IFN-γ 具有加成作用（網路 2023）。</li>
+<li><strong>老化肝臟中的腸道衍生 TLR2 配體（2026）。</strong>老年人與高齡小鼠的循環 TLR2 配體皆升高；高齡小鼠肝臟 Tlr2 增加；Tlr2 缺失或使用 TLR2 抑制劑 ortho-vanillin 可降低小鼠肝臟衰老／纖維化標記；LTA 在體外人類 PBMC 中提高 p16/p21 mRNA（DOI 10.1186/s11658-026-00881-4 PMID 41772418；層級 3 ＋ 層級 4 ＋ 人體觀察；取回文本未量化樣本數）。</li>
+<li><strong>發炎小體。</strong>與衰老相關的 DAMP ＋ TLR/NF-κB 使 NLRP3 致敏（訊號 1；上调 NLRP3 ＋ pro-IL-1β ＋ pro-IL-18；藉去泛素化取得致敏；vault <a class="wikilink" data-wiki="Inflammasome" title="Inflammasome — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/Inflammasome.md" target="_blank" rel="noopener noreferrer">Inflammasome</a>、<a class="wikilink" data-wiki="NLRP3 Inflammasome" title="NLRP3 Inflammasome — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/NLRP3%20Inflammasome.md" target="_blank" rel="noopener noreferrer">NLRP3 Inflammasome</a>、adrenochrome <a class="wikilink" data-wiki="NLRP3 Inflammasome" title="NLRP3 Inflammasome — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/NLRP3%20Inflammasome.md" target="_blank" rel="noopener noreferrer">NLRP3 Inflammasome</a>、sirtuins 筆記）；訊號 2（ATP→P2X7、結晶、mtDNA、mtROS、oxLDL…）→caspase-1→IL-1β/IL-18 ＋ pyroptosis。SASP 需要 <a class="wikilink" data-wiki="MyD88" title="MyD88 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/MyD88.md" target="_blank" rel="noopener noreferrer">MyD88</a>（vault senescence MyD88；OIS Myddosome 筆記）。衰老細胞會活化鄰近巨噬細胞（vault `_document_ - Senecent cell activate neighboring macrophages.md`）；SASP 驅動的清除與促癌 SASP 的雙面性（vault；網路 2025 Genes & Dev）。</li>
+<li><strong>更新（網路 2025）。</strong>老化細胞中的 cGAS-STING 可在不經典型 cGAMP→STING 磷酸化→PNC 運輸的情況下活化 SASP／IFN（「非典型 cGAS–STING」；STING 停留在內質網／核膜並與染色質結合；老化、衰老與早老症細胞的典型反應下降；藥理抑制可改善早老症；PNAS 2025 DOI 10.1073/pnas.2424666122）。此與 TLR2 的關係並不等同：典型的 STING→TLR2-SAA 迴路是另一條路徑；非典型 cGAS-STING 並不會併入 TLR2。</li>
+<li><strong>senolytic／senomorphic 的脈絡（vault）。</strong>TLR 相關節點與 senolytics／senomorphics（<a class="wikilink" data-wiki="Senolytic Therapy" title="Senolytic Therapy — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/senescence/Senolytic%20Therapy.md" target="_blank" rel="noopener noreferrer">senolytics</a>）相鄰；vault 中並無以 TLR 為標的的 senolytic 確立。</li>
+</ul>
+<h3 id="autophagy-and-mitophagy">自噬與 mitophagy</h3>
+<p>（vault 主題：`src/notes/autophagy/`；<a class="wikilink" data-wiki="Autophagy" title="Autophagy — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/autophagy/Autophagy.md" target="_blank" rel="noopener noreferrer">Autophagy</a>、<a class="wikilink" data-wiki="Mitophagy" title="Mitophagy — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Mitophagy.md" target="_blank" rel="noopener noreferrer">Mitophagy</a>、<a class="wikilink" data-wiki="TFEB" title="TFEB — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/TFEB.md" target="_blank" rel="noopener noreferrer">TFEB</a>；細胞死亡中的自噬連結）</p>
+<ul>
+<li><strong>Mitophagy 是資訊傳遞，不只是降解</strong>（vault <a class="wikilink" data-wiki="Mitophagy" title="Mitophagy — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Mitophagy.md" target="_blank" rel="noopener noreferrer">Mitophagy</a>；`autophagy/Mitochondria-Lysosome Crosstalk.md`；網路 2024-2025）。受損粒線體→PINK1/Parkin→自噬體→溶酶體；低甲基化 mtDNA（類細菌 CpG）→溶酶體 TLR9；mtRNA→TLR7/8；MyD88→NF-κB→TNF-α/IL-1/IL-6。</li>
+<li><strong>粒線體衍生囊泡</strong>（MDV；約 70-100 nm）可獨立於核心分裂／自噬而出芽；能在不需去極化的情況下將 mtDNA/mtRNA 送至溶酶體；retromer／fumarate 路徑（網路 DOI 10.1126/sciadv.adr6415；vault）。</li>
+<li><strong>基礎自噬清除 TLR 配體並維持溶酶體恆態</strong>；自噬體→溶酶體融合可在 OCRL 調控下觸發 TLR9（vault 自噬筆記；網路 2016 Nat Cell Biol；2025 溶酶體核酸壓力综述）。</li>
+<li><strong>自噬缺陷會延長或活化 TLR 訊號。</strong>LC3B−/− B 細胞：內體→溶酶體成熟延遲→TLR9-NF-κB 延長 ＋ 訊號終止減少（層級 3；網路 2024 Int Immunol）。OPA1 缺失導致 mitophagy 未完成→mtDNA→TLR9 NF-κB 肌肉病（層級 3；網路）。IRGM1 缺失使粒線體加速送至溶酶體→由 mtRNA 驅動 TLR7 而非 TLR9 的 IFN-I 反應（層級 3；網路）。ATG7 敲除／bafilomycin 使胞質 mtDNA 上升；TFAM-LIR2 核質體自噬可阻止 mtDNA→cGAS-STING 與 mtDNA→TLR9 外漏（層級 4；網路 2024）。自噬亦限制發炎小體（vault 自噬筆記 ＋ senescence Inflammasome）。</li>
+<li><strong>TFEB/TFE3</strong>（溶酶體／自噬的主控轉錄因子）。TLR 配體 ＋ 活菌→TFE3 核轉位；不依賴 mTORC1；TFEB ＋ TFE3 功能重疊；驅動自噬／溶酶體生成 ＋ 免疫基因；去除二者可降低 TLR 誘導的細胞激素／趨化激素（層級 3/4；vault `autophagy/_document_ - TFEB AND TFE3…` ＋ <a class="wikilink" data-wiki="TFEB" title="TFEB — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/TFEB.md" target="_blank" rel="noopener noreferrer">TFEB</a>；網路 Pastore 2016）。TLR8→TFEB→自噬為 HIV 複製所需；其後 Nef→Beclin→mTOR→TFEB 滞留使自噬下調（層級 3；vault ＋網路）。MyD88 依賴的 TLR 訊號可調控促進 mitophagy 的蛋白與抗凋亡蛋白（網路 2024 MyD88 综述）。</li>
+<li><strong>自噬調控的 TLR 訊號終止 ＋ PANoptosis</strong>（見「細胞死亡」）。</li>
+</ul>
+<h3 id="sirtuins">sirtuins</h3>
+<p>（vault 主題：`src/notes/sirtuins/`；<a class="wikilink" data-wiki="SIRT1" title="SIRT1 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/SIRT1.md" target="_blank" rel="noopener noreferrer">SIRT1</a>；NAD+ 代謝；另見 `_link/NAD+`）</p>
+<ul>
+<li><strong>TLR2/SIRT1/NF-κB。</strong><a class="wikilink" data-wiki="SIRT1" title="SIRT1 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/SIRT1.md" target="_blank" rel="noopener noreferrer">SIRT1</a> 透過 TLR2/SIRT1/NF-κB 抵消 IL-1β 所介導的促發炎壓力；SIRT1 對 IL-1β 驅動的促發炎壓力具抗發炎作用；在囓齒類中，SIRT1 缺失使發炎上升；resveratrol 使黏附分子下降、SIRT1 上升並改善存活；SIRT1 可抑制 TLR4→NF-κB→NLRP3 的致敏（vault sirtuins IL-1R.md ＋ `_document_ - sirtuins in health and disease s41392-022-01257-8.md`；<a class="wikilink" data-wiki="Resveratrol" title="Resveratrol — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Resveratrol.md" target="_blank" rel="noopener noreferrer">Resveratrol</a>；層級 2/3；網路）。</li>
+<li><strong>機制。</strong><a class="wikilink" data-wiki="SIRT1" title="SIRT1 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/SIRT1.md" target="_blank" rel="noopener noreferrer">SIRT1</a> 去乙醯化 NF-κB p65 K310→降低促發炎基因轉錄；亦作用於 AP-1、HIF-1α；並在發炎啟動子处進行組蛋白去乙醯化（vault ＋網路 2023-2024 ＋ 2025）。SIRT1 活化 <a class="wikilink" data-wiki="NRF2" title="NRF2 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/NRF2.md" target="_blank" rel="noopener noreferrer">NRF2</a> 抗氧化訊號同時壓抑 NF-κB（網路 2023）。SIRT1→NLRP3 衰減（網路 2023）。NAD+ → SIRT1：提升 NAD+ 可削弱對照與 SLE 單核球中 TLR4 誘導的第一型 IFN（層級 3 ＋ 層級 2 鄰近；JCI 2022；網路；vault sirtuins 筆記）。</li>
+<li><strong>更新（網路 2024）。</strong>PNPLA7（patatin-like phospholipase）受 LPS/TLR4 下調→SIRT1↓→p65 乙醯化↑→M1 極化；PNPLA7 在不影響巨噬細胞基礎活性的前提下調節 TLR4 下游（層級 4 ＋ 層級 3；DOI 10.3390/ijms232314983）。</li>
+<li><strong>更新（網路 2024）。</strong>TLR4 TIR 域的可逆乙醯化與 SIRT1 對 p65 的去乙醯化是不同層次；兩者都是 TLR4→NF-κB 輸出上的轉譯後調控層；SIRT1 是否直接去乙醯化 TLR4／MAL／TIRAP 的 TIR 域未經查證。</li>
+<li><strong>其他 sirtuin。</strong>SIRT6 具抗發炎作用（vault sirtuins 筆記）；SIRT3 經由抑制 mitophagy／ROS／NLRP3 而與粒線體抗發炎相關（vault；並非經查證的直接 TLR 標的）；vault 未查證 SIRT3／SIRT6 有直接 TLR 結合。</li>
+</ul>
+<h3 id="oxidative-stress">氧化壓力</h3>
+<p>（vault 主題：`src/notes/oxidative-stress/`；<a class="wikilink" data-wiki="Oxidative Stress" title="Oxidative Stress — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/oxidative-stress/Oxidative%20Stress.md" target="_blank" rel="noopener noreferrer">Oxidative Stress</a>、<a class="wikilink" data-wiki="Reactive Oxygen Species" title="Reactive Oxygen Species — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Reactive%20Oxygen%20Species.md" target="_blank" rel="noopener noreferrer">Reactive Oxygen Species</a>、<a class="wikilink" data-wiki="Mitohormesis" title="Mitohormesis — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Mitohormesis.md" target="_blank" rel="noopener noreferrer">Mitohormesis</a>）</p>
+<ul>
+<li><strong>ROS↔TLR 雙向關係。</strong>TLR 活化→吞噬體上的 <a class="wikilink" data-wiki="NOX2" title="NOX2 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/oxidative-stress/NOX2.md" target="_blank" rel="noopener noreferrer">NOX2</a>／<a class="wikilink" data-wiki="NADPH Oxidase" title="NADPH Oxidase — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/oxidative-stress/NADPH%20Oxidase.md" target="_blank" rel="noopener noreferrer">NADPH Oxidase</a> 組裝→超氧陰離子→H2O2→次氯酸，形成殺菌性爆發（vault 筆記報告每 10^6 細胞最高約 2-4 nmol O2•−/min；vault `oxidative-stress/Immunity.md`、`Phagocytes.md`）；反過來，氧化壓力會活化 TLR；ROS-DAMP；mtDNA/mtROS→TLR9/NLRP3。TLR 訊號需要 TRAF6 的 K63 泛素；TIR 域中對氧化還原敏感的半胱胺酸是已記載的調控層（一般知識；TLR4 TIR 乙醯化 2024 屬另一層；vault 中無 REDOX 對照表）。</li>
+<li><strong>CD36。</strong><a class="wikilink" data-wiki="CD36" title="CD36 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/CD36.md" target="_blank" rel="noopener noreferrer">CD36</a> 為 TLR2/6 的共同受體；oxLDL ＋ 類澱粉β胜肽造成無菌性發炎；CD36 啟動子受 NF-κB／<a class="wikilink" data-wiki="PPARγ" title="PPARγ — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/PPARγ.md" target="_blank" rel="noopener noreferrer">PPARγ</a> 的氧化還原調控；CD36 本身受 oxLDL／TNF-α／IL-1β／TGF-β 誘導（vault `oxidative-stress/CD36 Receptor.md`；`_link/CD36`；網路 trained-immunity DAMPs）。</li>
+<li><strong>A20。</strong><a class="wikilink" data-wiki="A20" title="A20 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/oxidative-stress/A20.md" target="_blank" rel="noopener noreferrer">A20</a> 為雙功能泛素編輯酶，可終止 TLR／TNF／IL-1R／NOD 的輸出；防止慢性發炎（vault `oxidative-stress/A20.md`；網路 MyD88 综述）。</li>
+<li><strong>粒線體損傷→TLR。</strong>粒線體功能失調→胞質 mtDNA ＋ mtRNA ＋ mtROS→TLR7/8/9 ＋ cGAS-STING ＋ NLRP3；mitophagy 加以 restrain；低甲基化 mtDNA 的 CpG；TFAM；TREX1；DNase2（vault；網路 2024-2025）。</li>
+<li><strong>腎上腺色素／神經黑色素面向</strong>（本 vault）。氧化兒茶酚胺路徑產生 DAMP，餵入 TLR／NLRP3 分支；見 Adrenochrome、Neuromelanin、COMT。vault 未查證「腎上腺色素→TLR4」的直接配體宣稱；該連結為層級 5 推論，源自一般性氧化 DAMP→TLR4 證據。</li>
+</ul>
+<h3 id="hormesis-and-trained-immunity">毒物興奮效應與訓練性免疫</h3>
+<p>（vault 主題：`src/notes/hormesis/`；<a class="wikilink" data-wiki="Hormesis" title="Hormesis — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Hormesis.md" target="_blank" rel="noopener noreferrer">Hormesis</a>、<a class="wikilink" data-wiki="Trained Immunity" title="Trained Immunity — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/hormesis/Trained%20Immunity.md" target="_blank" rel="noopener noreferrer">Trained Immunity</a>、<a class="wikilink" data-wiki="Mitohormesis" title="Mitohormesis — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Mitohormesis.md" target="_blank" rel="noopener noreferrer">Mitohormesis</a>；`_link/Inflammaging`）</p>
+<ul>
+<li><strong>TLR 配體是激效觸發因子。</strong>訓練性免疫（<a class="wikilink" data-wiki="Trained Immunity" title="Trained Immunity — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/hormesis/Trained%20Immunity.md" target="_blank" rel="noopener noreferrer">Trained Immunity</a>，先天免疫記憶）：回復恆態後再遭遇刺激→反應增強（訓練）或減弱（耐受）。TLR 訊號驅動表觀遺傳 ＋ 代謝重編程（vault；網路查核 2025 eLife 综述「Toll-like receptors in the trained immunity era」DOI 10.7554/eLife.106443；層級 2/3 ＋ 層級 4）。</li>
+<li><strong>劑量／時程二分</strong>（vault Trained Immunity ＋網路）。低劑量急性 DAMP／PAMP→訓練：mTORC1/HIF-1α、PI3K/AKT、Warburg 糖解、脂肪酸合成；H3K4me3 ＋ H3K4me1/H3K27ac、潛伏增強子、fumarate→KDM5 抑制、mevalonate/IGF1R（statins 可阻斷）、miR-9-5p 對比 miR-146a、G9a 抑制可增強；與 SIRT1 相關。高劑量慢性→耐受：AMPK/SIRT1/<a class="wikilink" data-wiki="Autophagy" title="Autophagy — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/autophagy/Autophagy.md" target="_blank" rel="noopener noreferrer">Autophagy</a>、OXPHOS／脂肪酸氧化、抑制性標記；內毒素耐受；vault ＋網路。</li>
+<li><strong>DAMP 細節</strong>（vault Trained Immunity；網路查核 2025 eLife）。oxLDL 經 CD36→TLR4-mTOR；HMGB1 取決於情境（RAGE-AMPK/SIRT1 對比 mTOR；劑量）；血紅素經 SYK，不依賴 mTOR；MSU／尿酸經 mTOR/NLRP3；mtDNA/TLR9-STING 走向自噬—耐受；S100A4；高血糖經 Runx1；SCFA／類黃酮；Nrf2 與 HIF-1α ＋ NF-κB 的交互作用。</li>
+<li><strong>TLR 致效劑作為訓練性免疫誘導物 ＋ 疫苗佐劑。</strong>CpG/TLR9、imiquimod/TLR7、BCG TLR2/4、MPL/TLR4、β-glucan Dectin-1+TLR 佐強；癌症 ＋ 感染性疾病（vault ＋網路 2025 eLife ＋治療層級 1/2；見「癌症」）。</li>
+<li><strong>慢性／低度→inflammaging。</strong>慢性 TLR ＋ DAMP ＋ SASP ＋ mtDNA ＋ 微生物組→<a class="wikilink" data-wiki="Inflammaging" title="Inflammaging — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Inflammaging.md" target="_blank" rel="noopener noreferrer">Inflammaging</a>；老化 pDC 的第一型 IFN 減少（IRF7↓；vault senescence；網路 2025 免疫衰老综述）。</li>
+<li><strong>與毒物興奮效應的連結</strong>（vault）。Trained immunity 即 <a class="wikilink" data-wiki="Hormesis" title="Hormesis — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Hormesis.md" target="_blank" rel="noopener noreferrer">Hormesis</a> 的免疫學對應物；Hormetic Window（<a class="wikilink" data-wiki="Hormetic Window" title="Hormetic Window — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Hormetic%20Window.md" target="_blank" rel="noopener noreferrer">Hormetic Window</a>）；預適應；運動／飲食性激效；與 mitohormesis 的 ROS 訊號相鄰。</li>
+</ul>
+<svg class="tlr-fig" xmlns="http://www.w3.org/2000/svg" width="960" height="470" viewBox="0 0 960 470" font-family="PingFang TC, Heiti TC, Noto Sans TC, Microsoft JhengHei, DejaVu Sans, Helvetica, Arial, sans-serif">
+  <title>Schematic TLR dose and duration versus net response</title>
+  <desc>Figure 3. A schematic dose-response curve for TLR signalling. The horizontal axis is ligand dose or exposure duration; the vertical axis is the net response on rechallenge. The left, low and acute zone is labelled trained immunity with the associated mTORC1/HIF-1α and H3K4me3/H3K27ac programme. The right, high and chronic zone is labelled tolerance plus inflammaging, with AMPK/SIRT1/autophagy, repressive marks, reduced IRF7 and a drifting inflamed baseline. The curve is schematic; no dose or effect size is asserted.</desc>
+  <rect x="0" y="0" width="960" height="470" fill="#ffffff"/>
+  <text x="24" y="34" font-size="19" font-weight="bold" fill="#1b1b1b">圖 3 — TLR 劑量與時程對淨反應（示意圖）</text>
+  <text x="24" y="56" font-size="12.5" fill="#5a5a5a">非測量數據。分區依據 vault Trained Immunity 筆記與 2025 eLife 综述；拐點劑量依情境而定。</text>
+
+  <rect x="90" y="86" width="260" height="270" fill="#e8f4f4" opacity="0.45"/>
+  <rect x="350" y="86" width="566" height="270" fill="#fdf2f2" opacity="0.4"/>
+  <line x1="90" y1="356" x2="916" y2="356" stroke="#222" stroke-width="1.6"/>
+  <line x1="90" y1="356" x2="90" y2="86" stroke="#222" stroke-width="1.6"/>
+  <line x1="90" y1="250" x2="916" y2="250" stroke="#b5b5b5" stroke-dasharray="5 4"/>
+  <text x="910" y="243" font-size="12" text-anchor="end" fill="#808080">恆態基線</text>
+  <line x1="350" y1="86" x2="350" y2="356" stroke="#9a9a9a" stroke-dasharray="4 4"/>
+
+  <path d="M90,250 C150,250 165,158 235,158 C295,158 325,244 395,254 C465,264 505,300 595,300 C680,300 730,272 916,256" fill="none" stroke="#1a6a6a" stroke-width="2.8"/>
+  <path d="M595,300 C685,298 780,272 916,256" fill="none" stroke="#8a2a2a" stroke-width="1.7" stroke-dasharray="7 4"/>
+
+  <text x="220" y="106" font-size="14" font-weight="bold" fill="#1a6a6a" text-anchor="middle">低劑量、急性 — 訓練性免疫</text>
+  <text x="220" y="129" font-size="12.5" fill="#2b2b2b" text-anchor="middle">mTORC1 / HIF-1α 糖解轉移</text>
+  <text x="220" y="149" font-size="12.5" fill="#2b2b2b" text-anchor="middle">H3K4me3 配合 H3K27ac；潛伏增強子</text>
+  <text x="220" y="169" font-size="12.5" fill="#2b2b2b" text-anchor="middle">fumarate → KDM5 抑制；SIRT1 / NAD+</text>
+
+  <text x="633" y="106" font-size="14" font-weight="bold" fill="#8a2a2a" text-anchor="middle">高劑量、慢性 — 耐受 ＋ INFLAMMAGING</text>
+  <text x="633" y="129" font-size="12.5" fill="#2b2b2b" text-anchor="middle">AMPK / SIRT1 / 自噬；OXPHOS 與脂肪酸氧化</text>
+  <text x="633" y="149" font-size="12.5" fill="#2b2b2b" text-anchor="middle">抑制性標記；內毒素耐受</text>
+  <text x="633" y="169" font-size="12.5" fill="#2b2b2b" text-anchor="middle">老化 pDC：IRF7↓、IFN-I↓；持續 DAMPs</text>
+
+  <text x="235" y="194" font-size="12.5" fill="#1a6a6a" text-anchor="middle">激效高峰</text>
+  <text x="440" y="278" font-size="12.5" fill="#5a5a5a" text-anchor="middle">回復恆態</text>
+  <text x="690" y="326" font-size="12.5" fill="#8a2a2a" text-anchor="middle">虛線：慢性發炎的基線漂移</text>
+
+  <text x="503" y="382" font-size="13" text-anchor="middle" fill="#222">TLR 配體劑量／暴露時程（內源性 DAMP ＋ PAMP 負荷）</text>
+  <text x="36" y="221" font-size="13" text-anchor="middle" fill="#222" transform="rotate(-90 36 221)">再刺激時的淨反應</text>
+  <text x="24" y="420" font-size="12" fill="#666">依 vault 激效筆記重建的示意圖；未主張任何數值劑量、時程或效應量。</text>
+  <text x="24" y="444" font-size="12" fill="#666">水平虛線：未受刺激前的恆態反應。實線：經指定暴露後的淨反應。</text>
+</svg></p>
+<p class="figcap"><strong>圖 3.</strong> 激效框架下的 TLR 訊號劑量－時程示意。<em>圖說：</em>水平軸為累積的 TLR 配體暴露，垂直軸為再刺激時量得的淨反應。青綠區為低劑量或急性暴露窗口，此時 mTORC1/HIF-1α 驅動的糖解與 H3K4me3/H3K27ac 開放式染色質重編程產生訓練性免疫。玫瑰區為高劑量或慢性窗口，此時 AMPK/SIRT1/自噬與抑制性標記產生耐受與下降的干擾素輸出，而持續的自體損傷使基線上移，進入 inflammaging（虛線段）。實線為淨反應；灰色虛線標示未受刺激時的基線。該曲線是依 vault 激效邏輯重建的示意圖，並非測量數據：未主張任何劑量、時程或效應量，且拐點取決於細胞型態、配體與讀出方式。</p>
+<h3 id="epigenetics">表觀遺傳學</h3>
+<p>（vault 主題：`src/notes/epigenetics/`；<a class="wikilink" data-wiki="Epigenetic Alterations" title="Epigenetic Alterations — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Epigenetic%20Alterations.md" target="_blank" rel="noopener noreferrer">Epigenetic Alterations</a>、<a class="wikilink" data-wiki="Epigenetic Alterations" title="Epigenetic Alterations — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Epigenetic%20Alterations.md" target="_blank" rel="noopener noreferrer">Epigenetic Alterations</a>；`epigenetics/Innate Immunity.md`）</p>
+<ul>
+<li><strong>TLR 驅動的表觀遺傳記憶＝訓練性免疫核心</strong>（見上；vault hormesis ＋網路 2025 eLife；層級 2/3/4）。TLR 誘導的染色質重塑 ＋ 代謝物驅動的表觀遺傳修飾調控。</li>
+<li><strong>重編程中的先天免疫。</strong>細胞重編程的障礙：胞質 DNA 感測（cGAS-STING）＋ TLR 訊號→第一型 IFN ＋ 發炎性細胞激素；先天免疫活化降低效率（vault `epigenetics/Innate Immunity.md`；層級 4 ＋ 層級 3）。</li>
+<li><strong>sirtuin 去乙醯化層。</strong><a class="wikilink" data-wiki="SIRT1" title="SIRT1 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/sirtuins/SIRT1.md" target="_blank" rel="noopener noreferrer">SIRT1</a> 對 p65 K310 的作用 ＋ 發炎啟動子处的組蛋白去乙醯化；NAD+ 依賴的發炎表觀遺傳調控；SASP 的表觀遺傳調控（vault senescence ＋ sirtuins；網路 2023-2024）。</li>
+<li><strong>TLR7 逃脫。</strong>Xist-RNP 的女性偏向自體免疫與 TLR7 逃脫 ＋ 雌激素並存（vault `epigenetics/XIST.md`；層級 2/3；vault 已引 Chang 等 Cell 2024）。</li>
+<li><strong>與衰老相關的表觀遺傳變化與 TLR 感測互相作用</strong>（SASP 調控；DNA 甲基化／反轉錄子動員餵入 TLR9/cGAS；vault senescence ＋網路 2024-2025）。</li>
+</ul>
+<h3 id="cell-death">細胞死亡</h3>
+<p>（vault 主題：`src/notes/cell-death/`；adrenochrome RIPK1/NLRP3；<a class="wikilink" data-wiki="Necroptosis" title="Necroptosis — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Necroptosis.md" target="_blank" rel="noopener noreferrer">Necroptosis</a>、<a class="wikilink" data-wiki="Apoptosis" title="Apoptosis — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Apoptosis.md" target="_blank" rel="noopener noreferrer">Apoptosis</a>、<a class="wikilink" data-wiki="Pyroptosis" title="Pyroptosis — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Pyroptosis.md" target="_blank" rel="noopener noreferrer">Pyroptosis</a>、<a class="wikilink" data-wiki="Ferroptosis" title="Ferroptosis — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Ferroptosis.md" target="_blank" rel="noopener noreferrer">Ferroptosis</a>、<a class="wikilink" data-wiki="Caspase-8" title="Caspase-8 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/Caspase-8.md" target="_blank" rel="noopener noreferrer">Caspase-8</a>、<a class="wikilink" data-wiki="RIPK1" title="RIPK1 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/RIPK1.md" target="_blank" rel="noopener noreferrer">RIPK1</a>、<a class="wikilink" data-wiki="RIPK3" title="RIPK3 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cell-death/RIPK3.md" target="_blank" rel="noopener noreferrer">RIPK3</a>、<a class="wikilink" data-wiki="FADD" title="FADD — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cancer/FADD.md" target="_blank" rel="noopener noreferrer">FADD</a>、<a class="wikilink" data-wiki="Cytoplasmic Chromatin Fragments" title="Cytoplasmic Chromatin Fragments — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Cytoplasmic%20Chromatin%20Fragments.md" target="_blank" rel="noopener noreferrer">Cytoplasmic Chromatin Fragments</a>）</p>
+<ul>
+<li><strong>TLR3→TRIF→caspase-8 非典型凋亡：</strong>需 RIPK1，不需 FADD（vault cell-death FADD、Death Effector Domain、adrenochrome RIPK1；網路 2025）。</li>
+<li><strong>TLR3/4→TRIF→RIPK3 necroptosis：</strong>RHIM；necrosome；TRIF 路徑中不需 RIPK1；與 ZBP1/DAI 路徑不同（vault Necroptosis；網路 2025）。</li>
+<li><strong>PANoptosis。</strong>透過 PANoptosome 整合凋亡 ＋ pyroptosis ＋ necroptosis；vault cell-death ＋網路列出 TLR／TNF／IFN／ZBP1／NLRP3 等觸發；並非 TLR 專屬。</li>
+<li><strong>Pyroptosis。</strong>TLR 致敏的 NLRP3→caspase-1→gasdermin D；SIRT1 具抑制作用（vault ＋網路；SIRT1/p65/NLRP3 2023-2024）。TLR ＋ mtDNA／ROS 作為訊號 2。</li>
+<li><strong>壞死／DAMP 迴路。</strong>壞死性死亡釋放 DAMP（HMGB1、mtDNA、mtRNA、ATP、尿酸、S100、熱休克蛋白、CCF、反轉錄子 DNA）→TLR（＋cGAS-STING ＋ NLRP3 ＋ RAGE）→發炎；胞葬作用／吞噬性清除 ＋ NETosis（vault cell-death ＋ cancer DAMP；網路 2024-2025）。</li>
+<li><strong>自噬性細胞死亡 對比 自噬調控的發炎。</strong><a class="wikilink" data-wiki="Autophagy" title="Autophagy — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/autophagy/Autophagy.md" target="_blank" rel="noopener noreferrer">Autophagy</a> 可清除 TLR 配體並終止 TLR9；自噬性細胞死亡與保護性自噬不同；TLR-myddosome 本身亦受自噬調控（vault Autophagy-cell-death 連結 ＋網路）。</li>
+<li><strong>Eryptosis／紅血球。</strong>紅血球 TLR9 ＋ 細胞外 DNA ＋ 表現磷脂醯絲胺酸的細胞，在腎上腺色素／神經黑色素相鄰的細胞死亡情境中與 DAMP 清除交會（vault Eryptosis、Erythrocytes；網路 2025）。</li>
+</ul>
+<h3 id="cancer">癌症</h3>
+<p>（vault 主題：`src/notes/cancer/`；<a class="wikilink" data-wiki="Cancer" title="Cancer — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cancer/Cancer.md" target="_blank" rel="noopener noreferrer">Cancer</a>、<a class="wikilink" data-wiki="PAMP" title="PAMP — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cancer/PAMP.md" target="_blank" rel="noopener noreferrer">PAMP</a>、<a class="wikilink" data-wiki="DAMP" title="DAMP — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cancer/DAMP.md" target="_blank" rel="noopener noreferrer">DAMP</a>、<a class="wikilink" data-wiki="HMGB1" title="HMGB1 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/HMGB1.md" target="_blank" rel="noopener noreferrer">HMGB1</a>、<a class="wikilink" data-wiki="Tumor Microenvironment" title="Tumor Microenvironment — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/cancer/Tumor%20Microenvironment.md" target="_blank" rel="noopener noreferrer">Tumor Microenvironment</a>；衰老－癌症連結）</p>
+<ul>
+<li><strong>雙刃劍。</strong>TLR 既可抗腫瘤也可促腫瘤；取決於情境／細胞型態／NF-κB 平衡；慢性 對比 急性（vault cancer；網路 2025 MedComm DOI 10.1002/mco2.70308；層級 1-3 ＋ 層級 4）。</li>
+<li><strong>PAMP→腫瘤發生。</strong>慢性感染的 TLR 活化→發炎→腫瘤發生（H. pylori→胃癌、HPV→子宮頸癌、HBV/HCV→HCC；vault PAMP；層級 2）。腸道菌群 LPS／LTA→TLR2/4→SASP/HCC（vault；網路）。</li>
+<li><strong>TLR2→SASP。</strong>衰老肝星狀細胞 TLR2→NF-κB→SASP；肥胖相關 LTA；PGE2 免疫抑制；HCC（vault Hepatocellular Carcinoma；網路 2017/2022/2025；層級 2/3）。</li>
+<li><strong>DAMP→TLR。</strong>所報告的 HMGB1→TLR4＋RAGE 與熱休克蛋白→TLR 連結，作為直接配體對仍有爭議；壞死→DAMP 與衰老→SASP→TLR2 則在路徑層級獲得支持（vault DAMP；癌症衰老；網路 2026）。</li>
+<li><strong>TLR 致效劑免疫療法</strong>（標示處為層級 1/2；vault ＋網路 2024-2025）。imiquimod（TLR7）已核准用於基底細胞癌 ＋ 日光性角化症；CpG-ODN（TLR9）可腔內注射並作為疫苗佐劑（CpG 1018 Heplisav-B）；BCG（TLR2/4）；MPL（TLR4，HPV／HepB 疫苗）；與免疫檢查點抑制劑的組合；奈米遞送；注意：促腫瘤的發炎情境。</li>
+<li><strong>TLR 拮抗。</strong>在慢性發炎驅動的癌症中具抗發炎／抗腫瘤作用；TLR4 阻斷在敗血症的轉譯教訓（eritoran 在 1961 名敗血症成人的第三期試驗中未降低死亡；vault ＋ 2026 综述；層級 1）；截至 2026 年，並無任何 TLR 拮抗劑獲准臨床使用（DOI 10.3389/fimmu.2026.1761361）。</li>
+</ul>
+<h3 id="adrenochrome">腎上腺色素</h3>
+<p>（vault 主題：`src/notes/adrenochrome/`；<a class="wikilink" data-wiki="Adrenochrome" title="Adrenochrome — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/Adrenochrome.md" target="_blank" rel="noopener noreferrer">Adrenochrome</a>、adrenochrome_inflammaging、<a class="wikilink" data-wiki="IL-1β" title="IL-1β — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/IL-1β.md" target="_blank" rel="noopener noreferrer">IL-1β</a>、<a class="wikilink" data-wiki="TRAF6" title="TRAF6 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/TRAF6.md" target="_blank" rel="noopener noreferrer">TRAF6</a>、<a class="wikilink" data-wiki="RIPK1" title="RIPK1 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/RIPK1.md" target="_blank" rel="noopener noreferrer">RIPK1</a>）</p>
+<ul>
+<li><strong>氧化兒茶酚胺→inflammaging 的受質。</strong>腎上腺色素（氧化的腎上腺素）在氧化壓力下形成；vault 將腎上腺色素／神經黑色素 ＋ inflammaging 並置；並無獨立的臨床 TLR 宣稱。</li>
+<li><strong>腎上腺色素筆記中的 TLR 相關事實。</strong>TLR 致效劑／TNFα／IL-1β 使 NLRP3 致敏（訊號 1；NF-κB；NLRP3＋pro-IL-1β＋pro-IL-18；BRCC3 去泛素化；vault `adrenochrome/NLRP3 Inflammasome.md`；senescence Inflammasome；層級 4）。訊號 2 不變。TRAF6 位於 MyD88-IRAK／RIG-I/MAVS／CD40／RANK／TNFR 的匯流處；腎上腺色素相鄰的發炎性 DAMP 會在 TLR 致敏階段進入（推論）。<a class="wikilink" data-wiki="RIPK1" title="RIPK1 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/adrenochrome/RIPK1.md" target="_blank" rel="noopener noreferrer">RIPK1</a> 支架；TLR3 刺激解除 cIAP 抑制→ripoptosome；TLR3→TRIF→caspase-8；necroptosis 交互作用（vault `adrenochrome/RIPK1.md`；cell-death；層級 4）。<a class="wikilink" data-wiki="IL-1β" title="IL-1β — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/IL-1β.md" target="_blank" rel="noopener noreferrer">IL-1β</a> 成熟需要 pro-IL-1β（TLR／NOD 致敏）＋ NLRP3 ＋ caspase-1（vault `adrenochrome/Interleukin 1β.md`）。紅血球 TLR9 ＋ 細胞外 DNA（vault `adrenochrome/Erythrocytes.md`）。</li>
+<li><strong>腎上腺色素→TLR 的直接配體結合：未經查證</strong>（僅屬層級 5 推論，經由氧化 DAMP→TLR4/2 ＋ NLRP3 致敏）。</li>
+<li><strong>COMT 連結</strong>（本 vault `comt/`）。腎上腺色素形成↔兒茶酚胺氧化；<a class="wikilink" data-wiki="COMT" title="COMT — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/comt/COMT.md" target="_blank" rel="noopener noreferrer">COMT</a> 清除降低受質；vault 未查證直接的 COMT→TLR 邊；可推論氧化 DAMP 的 TLR 負荷下降。</li>
+</ul>
+<h3 id="neuromelanin">神經黑色素</h3>
+<p>（vault 主題：`src/notes/neuromelanin/`；<a class="wikilink" data-wiki="Neuromelanin" title="Neuromelanin — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/neuromelanin/Neuromelanin.md" target="_blank" rel="noopener noreferrer">Neuromelanin</a>、`neuromelanin/Microgliosis.md`）</p>
+<ul>
+<li><strong>死亡多巴胺能神經元釋出的細胞外神經黑色素</strong>是經清除受體 ＋ TLR 活化小膠細胞的強力刺激物（vault Microgliosis.md；層級 3/4；TLR4/2 的專一性未在 vault 中定案；就確切受體歸屬而言為層級 5）。</li>
+<li><strong>神經退化中的小膠細胞增生／inflammaging</strong>；腎上腺色素／神經黑色素的兒茶酚胺氧化主題；TLR 相鄰的 NLRP3 致敏；vault 未查證神經黑色素→特定 TLR 亞型的宣稱。</li>
+</ul>
+<h3 id="comt">COMT</h3>
+<p>（vault 主題：`src/notes/comt/`；<a class="wikilink" data-wiki="COMT" title="COMT — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/comt/COMT.md" target="_blank" rel="noopener noreferrer">COMT</a>、<a class="wikilink" data-wiki="Dopamine" title="Dopamine — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/Dopamine.md" target="_blank" rel="noopener noreferrer">Dopamine</a>；腎上腺色素連結）</p>
+<ul>
+<li><strong>兒茶酚-O-甲基轉移酶</strong>對兒茶酚胺（dopamine／norepinephrine／epinephrine）進行 O-甲基化→降低可被氧化為腎上腺色素／醌類的反應性兒茶酚量→降低 TLR／cGAS／NLRP3 分支上游的氧化 DAMP 形成。</li>
+<li><strong>vault 的 COMT 主題在其非文件筆記中沒有直接的 TLR 邊</strong>；該連結為層級 5 推論，經由氧化壓力→DAMP→TLR。COMT 基因型／藥理對 TLR 訊號的影響：未經查證。</li>
+</ul>
+</section>
+
+<section id="web-verified-updates-2024-2026">
+<h2>經網路查核的更新（2024-2026）</h2>
+<p>於 2026-11-27 以網路搜尋取回；PMID／DOI 依來源所印；未經獨立複核。這些內容為補充，並非取代 vault 內容。其他處的一般性知識另行標示。</p>
+<ol>
+<li><strong>TLR4 訊號複合體 TIR 域的乙醯化。</strong>LPS 誘導 TLR4-Mal-MyD88 中 TIR 域的可逆乙醯化；調控 M1 極化；治療標的（EMBO J 2024；DOI 10.1038/s44318-024-00237-8；層級 4 ＋ 層級 3）。</li>
+<li><strong>SIRT1 p65 K310 ＋ NLRP3 ＋ NAD+。</strong>SIRT1 去乙醯化 p65 K310；降低促發炎輸出；SIRT1→NLRP3↓；NAD+→SIRT1→TLR4 第一型 IFN↓（SLE 與對照單核球）；PNPLA7→SIRT1→p65 軸（層級 2-4；2022-2024；來源：DOI 10.1186/s12964-023-01177-2；DOI 10.1371/journal.pone.0046364（SIRT1 活化劑，來源引用）；DOI 10.3390/ijms21113858 PMID 32485811；JCI 2022 132:e139828；DOI 10.3390/ijms232314983 PMID 36499308；DOI 10.1007/s00011-024-01890-9）。</li>
+<li><strong>內體與溶酶體的核酸處理。</strong>RNase T2 ＋ PLD 生成 TLR7 配體（Immunity 2024；DOI 僅見於來源引用）；RNase T2 亦負向調控 TLR3；PLD3/PLD4 抑制 TLR7/9 ＋ cGAS，同時正向生成 TLR7 配體；DNase II → TLR9 對比 cGAS-STING；SLC29A3；溶酶體核酸壓力（J Biochem 2025 PMID 40037613；DOI 10.1093/jb/mvaf011；層級 3-4 ＋ 人體遺傳學）。</li>
+<li><strong>Mitophagy→TLR 運送。</strong>TFAM LIR1/LIR2 核質體自噬阻止 mtDNA→cGAS-STING ＋ TLR9（2024）；Retromer 溶酶體 mtDNA 周轉（Science Advances 2025 DOI 10.1126/sciadv.adr6415）；OPA1；IRGM1→TLR7；LC3B 延長 TLR9；老化 pDC 的 IRF7↓（層級 3-4 ＋ 人體觀察）。</li>
+<li><strong>TLR 驅動的訓練性免疫。</strong>eLife 2025 综述 DOI 10.7554/eLife.106443：表觀遺傳 ＋ 代謝重編程；訓練 對比 耐受；TLR 致效劑佐劑；慢性發炎。（層級 1-3 ＋ 層級 4。）</li>
+<li><strong>衰老／老化中的非典型 cGAS-STING。</strong>老化、衰老與早老症細胞中典型的 cGAMP／STING-PNC 減少；STING 位於內質網／核膜並與染色質結合；SASP／IFN 依賴 cGAS ＋ STING；藥理抑制可改善早老症（PNAS 2025 DOI 10.1073/pnas.2424666122；層級 3 ＋ 層級 4）。並不消除 TLR2 迴路。</li>
+<li><strong>TLR2-SAA 回饋。</strong>cGAS-STING→NF-κB→TLR2＋SAA1/SAA2→TLR2→SASP；Science Advances 2019 ＋ 2025 再分析（層級 3-4）。</li>
+<li><strong>MyD88 調控。</strong>MyD88 靜息成簇；myddosome；MyD88-S；A20；miR-146a；NF-κB 依賴；蛋白質去穩定化可減輕巨噬細胞抗凋亡的保護作用；MyD88 調控 NLRP3 ＋ mitophagy 蛋白 ＋ 抗凋亡蛋白（層級 4 ＋ 層級 3；2024；DOI 10.1186/s12964-024-01930-1）。</li>
+<li><strong>TLR3–TRIF 細胞死亡路徑。</strong>TLR3→TRIF→RIPK1→caspase-8（不依賴 FADD）；TLR3/4→TRIF→RIPK3 necroptosis；TLR3-TRIF-RIPK1-TRAF6（2025；層級 4）。</li>
+<li><strong>癌症免疫療法。</strong>2025 TLR 雙重角色综述；imiquimod TLR7 層級 1 核准；CpG TLR9 佐劑 層級 1；BCG／MPL；抗 TLR 拮抗研究；eritoran 的敗血症結果為層級 1 陰性（未必適用於癌症）。</li>
+<li><strong>物種。</strong>人類 TLR8 對 ssRNA 有活性；小鼠 TLR8 無活性；RNase 6 ＋ 2'-O-甲基化；TLR8 配體 motif（2024 EMBO Rep；vault）。</li>
+<li><strong>vault 內部不一致（非網路來源）。</strong>`_link/Toll-like Receptor.md` 稱「人類具 10 個功能性 TLR（TLR1–TLR10）」，卻在內體表列出 TLR11；人類 TLR11 為偽基因／無功能；小鼠有 TLR11-13。標記為待更新 vault。</li>
+<li><strong>2026 年綜述。</strong>TLR4 综述：並無已核准的 TLR 拮抗劑；eritoran 第三期 n=1961 未見死亡效益（Front Immunol 2026，DOI 10.3389/fimmu.2026.1761361）。先天免疫廣義综述：保守的 LRR–TM–TIR 結構；TLR2/1 與 TLR2/6 的配體辨別；TLR10 具功能活性但配體未定（STTT 2026，DOI 10.1038/s41392-026-02920-0）。TLR 综述：多層調控（轉譯後修飾、表觀遺傳重編程、代謝重接線、訊號凝聚體、選擇性剪接）；蛋白質類 DAMP 存在爭議（Immunity &amp; Inflammation 2026，DOI 10.1007/s44466-026-00040-6 PMID 42052154）。</li>
+<li><strong>2026：老化肝臟中的 TLR2。</strong>腸道衍生 LTA／TLR2 軸驅動肝臟衰老與纖維化；小鼠中 TLR2 缺失與 ortho-vanillin 降低相關標記（DOI 10.1186/s11658-026-00881-4 PMID 41772418）。</li>
+<li><strong>2026：內體藥理學。</strong>ENDOtollins 抑制 Munc13-4–STX7 交互作用，降低內溶酶體流動並抑制原代樹突細胞的 TLR3/7/9 反應，並降低小鼠 CpG 引發的全身性發炎（Nat Chem Biol 2026，DOI 10.1038/s41589-026-02181-6；層級 3/4）。</li>
+<li><strong>2026：TLR 促效／拮抗。</strong>腫瘤內 TLR7 ＋ TLR4 共同致效於 CT26 小鼠中增強抗腫瘤反應，但未做正式的協同分析（Front Immunol 2026，DOI 10.3389/fimmu.2026.1911644；層級 3）。TLR7/8 拮抗劑 621 提升 IL-10、Treg 與 M2 巨噬細胞，並緩解小鼠 DSS 結腸炎（ACS Pharmacol Transl Sci 2026，DOI 10.1021/acsptsci.5c00604；層級 3/4）。BMS-986256 進入臨床的說法出自 2026 年會議摘要——完整報告未經查證。</li>
+</ol>
+</section>
+
+<section id="research-gaps">
+<h2>研究缺口</h2>
+<p>保留證據的問題；非醫療建議。區分「未知」與「vault 未涵蓋」。</p>
+<p>分子機制缺口</p>
+<ul>
+<li><strong>蛋白質類 DAMP 的專一性。</strong>HMGB1 與熱休克蛋白是否直接結合 TLR 仍有爭議；其作用是經受體介導，或在核酸／DAMP 複合體下游，仍未定案（DOI 10.1007/s44466-026-00040-6）。</li>
+<li><strong>TLR10。</strong>配體、接合蛋白偏好、訊號輸出與生理角色皆未知；抗發炎與促發炎報告未解（vault ＋ 層級 4/5）。</li>
+<li><strong>TLR1 的功能</strong>相對 TLR1/TLR2 抑或任何獨特配體；vault 與文獻皆稀少。</li>
+<li><strong>衰老情境中典型與非典型 cGAS-STING 對 TLR2／TLR7／TLR9 的交互作用。</strong>確切分工；非典型 cGAS-STING 與 TLR2-SAA 是平行抑或依序；組織／細胞型態專一性；與早老症的關聯（網路 2025；vault）。</li>
+<li><strong>降解型 對比 訊號型溶酶體。</strong>是什麼決定內溶酶體維持降解功能，或轉為 TLR 訊號胞器；同一囊泡中選擇 TLR7 或 TLR9 的驅動因素（網路 2024）；與溶酶體核酸壓力输出的關係。</li>
+<li><strong>mtDNA 與 mtRNA 的分工。</strong>是什麼路徑使 mtDNA→TLR9、mtRNA→TLR7/8，或進入胞質 cGAS/RIG-I/NLRP3；偏好機制；TFAM、TREX1、DNase II、Dnase2a、PLD3/4、RNase T2、RNase 6 與甲基化的角色（網路 2024-2025；vault）。</li>
+<li><strong>基礎自噬與壓力性 mitophagy 的取捨。</strong>何時基礎自噬降低 TLR 配體，何時壓力性 mitophagy 反而把自身配體送至 TLR；淨發炎的正負號；衰老與訓練性免疫的情境（vault；網路 2024-2025）。</li>
+<li><strong>激效窗口的量化。</strong>TLR 訓練、耐受與 inflammaging 的確切劑量／時程拐點；細胞型態；急性 對比 慢性；內源性 對比 外源性配體比例（vault Trained Immunity ＋網路 2025 eLife；此處僅為示意）。</li>
+<li><strong>轉譯後調控地圖。</strong>TLR／TIR／接合蛋白的完整激酶、乙醯化與泛素磷酸化對照；SIRT1 是否直接去乙醯化 TLR4／TIRAP／MyD88，或僅作用於 p65；與 TLR4 TIR 乙醯化的關係（網路 2024；vault）。</li>
+<li><strong>內體 TLR 的物種轉譯。</strong>人類 對比 小鼠的 TLR8 ＋ TLR7 差異；TLR10 的人鼠差異；小鼠模型低估人類內體 TLR 輸出（vault ＋網路 2024）。</li>
+<li><strong>老化細胞中的 TLR-IFN 對比 TLR-NF-κB。</strong>免疫衰老使第一型 IFN 減少（IRF7↓）並伴隨持續的 NF-κB／inflammaging；細胞型態；與衰老中 TLR9／TLR7 的關係（vault ＋網路 2025）。</li>
+</ul>
+<p>衰老／SASP 缺口</p>
+<ul>
+<li><strong>TLR2 與 cGAS-STING 對 SASP 起始的相對貢獻</strong>，依誘導方式而異（OIS 對比 DNA 損傷 對比 複製性 對比 粒線體）；TLR2 是否一律位於下游抑或平行；在體外人類驗證以 TLR2 為標的的 senolytic／senomorphic 尚不存在（vault；網路 2024-2025；層級 3-4 ＋ 待研究）。</li>
+<li><strong>TLR2→PGE2 免疫抑制</strong> 對比 促發炎 SASP 的平衡；癌症中的腸道 LTA 衰老細胞（網路；vault）。</li>
+<li><strong>TLR7 慢性衰老的機制深度</strong>；SASP 組成變化。</li>
+<li><strong>抗發炎 SASP</strong>（IL-10、GDF15 等）與 TLR 分支的交互作用（vault ＋網路 2025）。</li>
+</ul>
+<p>自噬缺口</p>
+<ul>
+<li><strong>OCRL／UNC93B1／retromer／AP-3／TFAM／IRGM1</strong> 對 TLR 訊號振幅 相對 時程的量化貢獻；組織情境（網路 2023-2025；vault）。</li>
+<li><strong>TFEB/TFE3 的 TLR 誘發、mTORC1 非依賴性活化機制</strong>；免疫 ＋ 溶酶體基因的全部標的重疊；病原體的反制措施（vault ＋網路）。</li>
+<li><strong>MDV 生成路徑</strong>：fumarate 對比 ROS 對比 壓力；溶酶體、內體與細胞外囊泡的輸出（網路 2025；vault）。</li>
+<li><strong>自噬作為 TLR 終止劑或放大器的角色</strong>，依細胞型態 ＋ 慢性程度而定；自噬性細胞死亡與 TLR 調控分開處理。</li>
+</ul>
+<p>Sirtuins／NAD+ 缺口</p>
+<ul>
+<li><strong>SIRT1 在 TLR 訊號複合體中 p65 以外的直接標的</strong>；NAD+ 的區室化；SIRT1 與 NF-κB 的拮抗動力學；NAD+→TLR4-IFN 的臨床關聯；resveratrol 的機制專一性（vault ＋網路 2022-2024）。</li>
+<li><strong>SIRT3／SIRT6 的直接 TLR 邊</strong> 對比 經 ROS／NLRP3 的間接關係；vault 未查證。</li>
+</ul>
+<p>氧化壓力／激效缺口</p>
+<ul>
+<li><strong>TLR TIR 半胱胺酸的氧化還原調控</strong> ＋ 與 TIR 乙醯化的交互作用；Nrf2／NF-κB 交互作用動力學；NOX2 與 mtROS 來源的區分；激效性 ROS 窗口 對比 TLR 激效窗口的共同調控（vault ＋網路；層級 4/5）。</li>
+<li><strong>CD36 的路由細節</strong>：oxLDL 對比 類澱粉β胜肽 對比 LTA；TLR2/6 與清除受體的雙重性。</li>
+</ul>
+<p>細胞死亡缺口</p>
+<ul>
+<li><strong>TLR→細胞死亡 對比 TLR→發炎的決策邏輯</strong>（c-FLIP、cIAP、RIPK1 磷酸化、泛素、caspase-8 可用量；在 cell-death vault 中已知，但未針對 TLR 製圖）；PANoptosis 中的 TLR 貢獻；ZBP1 與 TRIF 的平行性。</li>
+<li><strong>Pyroptosis</strong>：TLR→NLRP3→gasdermin D 對比其他 gasdermin；SIRT1 的量化影響。</li>
+</ul>
+<p>癌症缺口</p>
+<ul>
+<li><strong>促腫瘤 對比 抗腫瘤的 TLR</strong>，依受體／細胞／情境分別釐清；慢性 對比 急性；TLR2→SASP 的雙面性；腫瘤內致效劑 對比 拮抗劑；imiquimod／CpG／BCG 之外的人體臨床持久反應；與免疫檢查點抑制劑組合的持久終點。</li>
+<li><strong>TLR4 在癌症中的雙重性</strong>；eritoran 式拮抗在癌症中的應用，對比敗血症的教訓。</li>
+</ul>
+<p>vault 專屬缺口（語料庫層面，而非文獻）</p>
+<ul>
+<li><strong>沒有專門的免疫學主題</strong>；TLR 事實分散於 `_link`、各主題筆記、`_document_`、`src/tasks`。</li>
+<li><strong>`_link/Toll-like Receptor.md`</strong>：人類 TLR11 的不一致；人類 10 個 對比 小鼠 12 個；缺 SARM1／UNC93B1／RNase-T2／PLD3-4／TFAM／LC3B-TLR9／TIR 乙醯化／SIRT1-p65K310 等條目；缺證據層級表；本頁檢查時未將 TLR1／TLR6 筆記驗證為獨立的 `_link` 標題（repo 清單中確有 `_link/TLR1.md`／`_link/TLR6.md`；連結前請先確認標準標題）。</li>
+<li><strong>腎上腺色素／神經黑色素／COMT 主題</strong> 中並無經 vault 查證的腎上腺色素或神經黑色素直接 TLR 配體邊；神經黑色素→TLR 亞型未定案；COMT→TLR 屬推論。</li>
+<li><strong>激效的 TLR 段落</strong>集中於 `hormesis/Trained Immunity.md`；vault 未量化激效性 TLR 劑量曲線（此處的示意 SVG 並非數據）。</li>
+<li><strong>Sirtuins 中 TLR1／TLR2／NF-κB 三元組稀少</strong>；NAD+→SIRT1→TLR4-IFN 來自網路，尚未成為 vault 筆記。</li>
+</ul>
+</section>
+
+<section id="updates-to-vault-where-necessary">
+<h2>vault 必要更新之處</h2>
+<p>以下為具體且最小的編修建議（此處並未套用；本頁即為新產出）：</p>
+<ol>
+<li><strong>`_link/Toll-like Receptor.md`</strong>：自人類表中移除 TLR11（人類偽基因，僅小鼠有）；釐清人類 10 個 ＋ 小鼠 12 個；新增 <a class="wikilink" data-wiki="SARM1" title="SARM1 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/SARM1.md" target="_blank" rel="noopener noreferrer">SARM1</a>、UNC93B1、TIR 乙醯化（2024）、RNase T2／PLD／PLD3-4、TFAM→TLR9、OCRL、SIGIRR（部分已有）、MyD88-S、IRAK-M；更新 `updated`。</li>
+<li><strong>自 `_link/Toll-like Receptor.md` 的 `## Connections` 交叉連結本頁。</strong></li>
+<li><strong>衰老：</strong>確認 <a class="wikilink" data-wiki="TLR2" title="TLR2 — vault note" href="https://github.com/jkuo45/llm-wiki-jk/blob/dev/src/notes/_link/TLR2.md" target="_blank" rel="noopener noreferrer">TLR2</a>-SAA ＋ 非典型 cGAS-STING 的區別；註明 TLR2→COX2／PGE2。</li>
+<li><strong>自噬：</strong>mtDNA→TLR9／7-8 的內容已充足；新增 TFAM-LIR ＋ retromer ＋ LC3B 訊號終止 ＋ IRGM1→TLR7 等條目。</li>
+<li><strong>sirtuins：</strong>新增 p65 K310、NAD+→TLR4-IFN、PNPLA7；標註 SIRT1 直接作用於 TIR 尚未查證。</li>
+<li><strong>荷爾蒙 hormesis Trained Immunity.md：</strong>內容已充足；新增 2025 eLife 引文。</li>
+<li><strong>細胞死亡：</strong>TLR3→TRIF→caspase-8 ＋ TLR3/4→TRIF→RIPK3 已具備；若未處處標明，補上 RHIM ＋ 不依賴 FADD 的精確表述。</li>
+<li><strong>癌症：</strong>更新 TLR2-SAA ＋ TLR7/9 致效劑的臨床現況。</li>
+<li><strong>腎上腺色素／神經黑色素／COMT：</strong>標註直接 TLR 配體狀態為未經查證；保留 NLRP3 致敏 ＋ TRAF6 ＋ RIPK1 ＋ 清除受體－TLR 的連結。</li>
+</ol>
+</section>
+
+<section id="references-and-provenance">
+<h2>參考文獻與來源</h2>
+<p><strong>取用順序：</strong>vault 優先（`src/notes`、`_link`、各主題 README.md、`_document_`），其後對 `graphify-out/graph.json` 執行 graphify query（4756 個節點；`graphify-out/GRAPH_REPORT.md`），再以網路搜尋（2026-11-27）。PMID／DOI 依取回來源所印；無法確認者標為「unverified」；一切皆未經獨立重測。證據層級定義見上文。</p>
+<h3 id="vault-primary-sources-exact-note-filenames-canonical-wiki-link-targets-verified-to-resolve">Vault 主要來源（確切筆記檔名；標準 wiki-link 目標已驗證可解析）</h3>
+<p>`_link/Toll-like Receptor.md`、`_link/TLR2.md`、`_link/TLR3.md`、`_link/TLR4.md`、`_link/TLR7.md`、`_link/TLR8.md`、`_link/TLR9.md`、`_link/TLR1.md`、`_link/TLR6.md`、`senescence/MyD88.md`、`_link/TRIF.md`、`senescence/Myddosome.md`、`_link/NF-κB.md`、`_link/IRAK4.md`、`adrenochrome/TRAF6.md`、`_link/SARM1.md`、`oxidative-stress/A20.md`、`sirtuins/SIRT1.md`、`_link/NRF2.md`、`autophagy/Autophagy.md`、`_link/Mitophagy.md`、`_link/TFEB.md`、`autophagy/Mitochondria-Lysosome Crosstalk.md`、`autophagy/_document_ - Mitochondria-lysosome crosstalk in health and disease.md`、`autophagy/_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS.md`、`senescence/SASP.md`、`senescence/Inflammasome.md`、`_link/NLRP3.md`、`adrenochrome/NLRP3 Inflammasome.md`、`_link/Cellular Senescence.md`、`senescence/Senescence.md`、`_link/Inflammaging.md`、`sirtuins/IL-1R.md`、`sirtuins/_document_ - sirtuins in health and disease s41392-022-01257-8.md`、`oxidative-stress/Oxidative Stress.md`、`_link/Reactive Oxygen Species.md`、`oxidative-stress/NOX2.md`、`oxidative-stress/NADPH Oxidase.md`、`_link/CD36.md`、`oxidative-stress/CD36 Receptor.md`、`oxidative-stress/Immunity.md`、`oxidative-stress/Phagocytes.md`、`_link/Hormesis.md`、`hormesis/Trained Immunity.md`、`_link/Mitohormesis.md`、`_link/Inflammation.md`、`_link/Innate Immune System.md`、`_link/Epigenetic Alterations.md`、`epigenetics/Innate Immunity.md`、`epigenetics/XIST.md`、`cell-death/Necroptosis.md`、`cell-death/Apoptosis.md`、`cell-death/Pyroptosis.md`、`cell-death/Ferroptosis.md`、`cell-death/Caspase-8.md`、`cell-death/RIPK3.md`、`cell-death/FADD.md`、`cell-death/Death Effector Domain.md`、`cell-death/Eryptosis.md`、`adrenochrome/RIPK1.md`、`cancer/Cancer.md`、`cancer/PAMP.md`、`cancer/DAMP.md`、`_link/HMGB1.md`、`cancer/Hepatocellular Carcinoma.md`、`adrenochrome/Adrenochrome.md`、`adrenochrome/Interleukin 1β.md`、`_link/IL-1β.md`、`adrenochrome/Erythrocytes.md`、`neuromelanin/Neuromelanin.md`、`neuromelanin/Microgliosis.md`、`comt/COMT.md`、`_link/Mitochondrial DNA.md`、`_link/Mitochondrial RNA.md`、`_link/Lipopolysaccharide.md`、`_link/cGAS-STING Pathway.md`、`_link/cGAS.md`、`_link/STING.md`、`_link/Senolytics.md`、`src/tasks/adrenchrome_inflammaging/`。<em>注意：存在兩個「Innate…」檔案——`_link/Innate Immune System.md` 與 `epigenetics/Innate Immunity.md`。</em></p>
+<h3 id="web-verified-2024-2026-retrieved-2026-11-27-doipmid-as-printed-quotunverifiedquot-otherwise">經網路查核的 2024-2026 年來源（取回於 2026-11-27；DOI／PMID 依所印；其餘標為「unverified」）</h3>
+<ul>
+<li><strong>TLR 综述。</strong>DOI 10.1016/j.immuni.2024.03.004（Immunity 2024 S1074-7613(24)00122-5）；DOI 10.1007/s00018-025-05631-x；DOI 10.3390/ijms25095037（僅印出 URL；DOI 未經查證）；DOI 10.3389/fimmu.2024.1494017；DOI 10.1007/s11427-024-2822-5。</li>
+<li><strong>核酸型 TLR。</strong>DOI 10.1186/s12929-025-01151-9。</li>
+<li><strong>訓練性免疫。</strong>eLife 2025，article 106443，https://elifesciences.org/articles/106443，發表於 2025-09-02（DOI 未經查證；取回文本未印出）。</li>
+<li><strong>TLR 免疫療法。</strong>DOI 10.1002/mco2.70308 PMID 40727252 PMCID PMC12301172。</li>
+<li><strong>TLR4 TIR 乙醯化。</strong>DOI 10.1038/s44318-024-00237-8（EMBO J 2024）。</li>
+<li><strong>MyD88。</strong>DOI 10.1186/s12964-024-01930-1。</li>
+<li><strong>SIRT1。</strong>DOI 10.1186/s12964-023-01177-2；DOI 10.3389/fcell.2024.1405546；DOI 10.3389/fimmu.2024.1422541；DOI 10.3390/ijms232314983 PMID 36499308 PMCID PMC9739533；DOI 10.3390/ijms21113858 PMID 32485811；DOI 10.3389/fimmu.2024.1448535 PMID 39372420 PMCID PMC11449768；DOI 10.1371/journal.pone.0046364（來源引用；PMID 未經查證）；DOI 10.1016/j.cellsig.2013.06.007 PMID 23770291；JCI 2022 132:e139828（PMID 未經查證）；僅印出 DOI S0048969724025385（ScienceDirect；完整 DOI 未經查證）；DOI 10.1007/s00011-024-01890-9（2024 年 SIRT1／Nrf2／HO-1 痛風性關節炎；來源引用 PNPLA7）。</li>
+<li><strong>衰老／cGAS-STING。</strong>DOI 10.1126/sciadv.aaw0254（Science Advances 2019）；DOI 10.1073/pnas.2424666122（PNAS 2025）；Immunity 2024 S1074-7613(24)00095-5（僅期刊編號，DOI 未經查證）；DOI 10.1007/s10522-025-10353-5；DOI 10.3389/fimmu.2023.1132653；DOI 10.1002/1878-0261.13268；Genes &amp; Development 2025 39(15-16):923（DOI 未經查證）。</li>
+<li><strong>粒線體核酸／mitophagy。</strong>International Immunology 2024 37(3):133（僅期刊與頁碼，DOI 未經查證）；DOI 10.1186/s12964-025-02042-0；DOI 10.1186/s12967-025-07392-4；DOI 10.1016/j.heliyon.2024.e24029；DOI 10.1146/annurev-biochem-032620-104401；DOI 10.1093/jb/mvaf011 PMID 40037613 PMCID PMC12319223；DOI 10.1126/sciadv.adr6415；DOI 10.1038/ncb3386 PMID 27398910；自噬來源 s44321-026-00556-9（完整 DOI 未經查證）；Nat Cell Biol 2016 18:839-850；EMBO Rep 2024 25:4674-4692；Immunity 2024 57(7):1482-1496.e14；DOI 10.3389/fcell.2024.1287447。</li>
+<li><strong>TLR8 物種差異。</strong>Mol Immunol 2010 47:1083-1090 DOI 10.1016/j.molimm.2009.11.003；EMBO Rep 2024；vault 已引 Nunes 等 2024。</li>
+<li><strong>2026。</strong>DOI 10.3389/fimmu.2026.1761361；DOI 10.1038/s41392-026-02920-0；DOI 10.1007/s44466-026-00040-6 PMID 42052154；DOI 10.1186/s11658-026-00881-4 PMID 41772418；DOI 10.1038/s41589-026-02181-6；DOI 10.3389/fimmu.2026.1911644；DOI 10.1021/acsptsci.5c00604。</li>
+</ul>
+<p>上述未印出 PMID／DOI 者，依期刊 ＋ 年份 ＋ 頁碼引用；對外引用前請重新查證。</p>
+</section>
+</main>
+
+<footer class="wrap">
+  <p>Vault 連結會在 GitHub 開啟對應筆記。SVG 內不含 wiki 連結。每項主張均標示證據層級與來源；非醫療建議。</p>
+</footer>
+</body>
+</html>
