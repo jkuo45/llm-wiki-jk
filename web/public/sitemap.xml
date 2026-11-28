@@ -3,6 +3,15 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
 <url>
+    <loc>https://graph.johnnykuo.com/pages/en-US/mitophagy-communication.html</loc>
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/mitophagy-communication.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/mitophagy-communication.html"/>
+  </url>
+
+<url>
     <loc>https://graph.johnnykuo.com/pages/en-US/ripoptosome-cflip.html</loc>
     <lastmod>2026-11-18</lastmod>
     <changefreq>monthly</changefreq>

@@ -813,5 +813,18 @@
     },
     "created": "2026-11-19",
     "updated": "2026-11-19"
+  },
+  {
+    "id": "mitophagy-communication",
+    "active": true,
+    "langs": {
+      "en-US": {
+        "title": "Mitophagy at the Contact Boundary — A Communication Atlas",
+        "description": "An original three.js explainer of mitochondria–lysosome communication: PINK1–Parkin mitophagy, mitochondrial-derived vesicles, membrane contact-site exchange, and acute-to-chronic signaling — with an animated true-scale mode (1 unit = 1 µm), a to-scale size ledger, and per-route dossiers (molecular anchors, measured quantities, assay caveats, falsifiers). Literature verified through 2026-11-27.",
+        "path": "pages/en-US/mitophagy-communication.html"
+      }
+    },
+    "created": "2026-11-27",
+    "updated": "2026-11-27"
   }
 ]

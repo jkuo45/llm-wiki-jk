@@ -1,0 +1,1270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mitophagy at the Contact Boundary — An Interactive Communication Atlas</title>
+<meta name="description" content="An original three.js explainer of mitochondria–lysosome communication: PINK1–Parkin mitophagy, mitochondrial-derived vesicles, membrane contact-site exchange, and acute-to-chronic signaling — with an animated true-scale mode (1 unit = 1 µm), a to-scale size ledger, and per-route dossiers (molecular anchors, measured quantities, assay caveats, falsifiers). Literature verified through 2026-11-27.">
+<link rel="canonical" href="https://graph.johnnykuo.com/pages/en-US/mitophagy-communication.html">
+<link rel="alternate" hreflang="en" href="https://graph.johnnykuo.com/pages/en-US/mitophagy-communication.html">
+<link rel="alternate" hreflang="x-default" href="https://graph.johnnykuo.com/pages/en-US/mitophagy-communication.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔬</text></svg>">
+<link rel="stylesheet" href="../themes/theme-02/theme.css">
+<link rel="stylesheet" href="../shared/stage.css">
+<link rel="stylesheet" href="../themes/theme-02/dark.css">
+<script src="../themes/theme-02/theme.js"></script>
+<script src="../themes/theme-02/pages-core.js"></script>
+<script src="../themes/theme-01/context-tooltip.js"></script>
+<script type="importmap">
+{"imports":{
+  "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+  "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+}}
+</script>
+<style>
+  :root{
+    --ml-stage:#0b1220;
+    --ml-stage-ink:#eef4ff;
+    --ml-mito:#e8794f;
+    --ml-lyso:#8b7cf6;
+    --ml-cargo:#f2cf72;
+    --ml-ca:#63b3ff;
+    --ml-fe:#f6ad55;
+    --ml-h:#ef7cbf;
+    --ml-aa:#68d391;
+    --ml-accent:#7a312c;
+    --ml-mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+    --ml-sans:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  }
+  body{font-family:var(--sans);font-size:15px;line-height:1.55}
+  .ml-wrap{width:min(1320px,100% - 24px);margin-inline:auto;padding:18px 0 30px}
+  .ml-back{display:inline-flex;align-items:center;gap:6px;font-family:var(--ml-mono);font-size:11px;letter-spacing:.04em;text-transform:uppercase;text-decoration:none;margin-bottom:14px}
+  .ml-hero{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(260px,.65fr);gap:28px;align-items:end;padding:8px 0 20px;border-bottom:1px solid var(--rule)}
+  .ml-kicker{font-family:var(--ml-mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--mute);margin:0 0 6px}
+  h1{font-family:var(--serif);font-size:clamp(2rem,4.6vw,3.65rem);line-height:1.02;letter-spacing:-.025em;margin:0 0 10px;font-weight:600}
+  .ml-dek{font-family:var(--serif);font-size:clamp(1rem,1.5vw,1.25rem);line-height:1.5;color:var(--ink-soft);margin:0;max-width:70ch}
+  .ml-meta{display:flex;flex-wrap:wrap;gap:8px;justify-content:flex-end}
+  .ml-badge{font-family:var(--ml-mono);font-size:10px;letter-spacing:.04em;text-transform:uppercase;border:1px solid var(--rule-strong);border-radius:var(--r-pill);padding:6px 10px;background:var(--sheet);white-space:nowrap}
+  .ml-badge b{color:var(--accent)}
+  .ml-tabs{display:flex;gap:8px;overflow-x:auto;scrollbar-width:thin;padding:14px 0 10px}
+  .ml-tab{flex:1 0 205px;min-height:52px;display:flex;align-items:center;gap:10px;text-align:left;border:1px solid var(--rule);background:var(--sheet);color:var(--ink);border-radius:var(--r-md);padding:9px 12px;cursor:pointer;transition:border-color .18s,background .18s,transform .18s}
+  .ml-tab:hover{border-color:var(--rule-strong);transform:translateY(-1px)}
+  .ml-tab[aria-selected="true"]{border-color:var(--accent);background:color-mix(in srgb,var(--accent) 7%,var(--sheet));box-shadow:inset 0 0 0 1px var(--accent)}
+  .ml-tab-no{font-family:var(--ml-mono);font-size:11px;color:var(--accent);font-weight:500}
+  .ml-tab-copy{display:flex;flex-direction:column;line-height:1.2}
+  .ml-tab-copy strong{font-size:12.5px;font-weight:600}
+  .ml-tab-copy small{font-family:var(--ml-mono);font-size:9.5px;color:var(--mute);margin-top:3px}
+  .ml-atlas{display:grid;grid-template-columns:minmax(0,1fr) 350px;gap:14px;align-items:stretch}
+  .ml-stage-card{position:relative;border:1px solid var(--rule);border-radius:var(--r-lg);overflow:hidden;background:var(--ml-stage);box-shadow:0 18px 45px rgba(15,20,35,.14)}
+  .ml-stage{position:relative;height:clamp(460px,54vw,620px);overflow:hidden;background:radial-gradient(circle at 50% 45%,#16233a 0%,#0b1220 68%)}
+  .ml-stage canvas{display:block;width:100%;height:100%;touch-action:none}
+  .ml-stage::after{content:"";position:absolute;inset:0;pointer-events:none;box-shadow:inset 0 0 90px rgba(0,0,0,.42)}
+  .ml-route-flag{position:absolute;left:14px;top:14px;z-index:4;display:flex;gap:8px;align-items:center;font-family:var(--ml-mono);font-size:10px;letter-spacing:.05em;text-transform:uppercase;color:var(--ml-stage-ink);background:rgba(6,10,20,.72);border:1px solid rgba(255,255,255,.16);border-radius:var(--r-pill);padding:6px 11px;pointer-events:none;max-width:calc(100% - 72px)}
+  .ml-route-flag i{width:7px;height:7px;border-radius:50%;background:var(--ml-cargo);box-shadow:0 0 12px currentColor}
+  .ml-copy{position:absolute;right:12px;top:12px;z-index:6;width:38px;height:38px;display:grid;place-items:center;color:var(--ml-stage-ink);background:rgba(6,10,20,.72);border:1px solid rgba(255,255,255,.18);border-radius:var(--r-md);cursor:pointer}
+  .ml-copy:hover{background:rgba(25,35,55,.92)}
+  .ml-copy svg{width:18px;height:18px}
+  .ml-scale{position:absolute;right:14px;bottom:76px;z-index:4;font-family:var(--ml-mono);font-size:9px;line-height:1.4;color:rgba(238,244,255,.72);text-align:right;pointer-events:none;max-width:190px}
+  .ml-scale b{display:block;font-weight:400;letter-spacing:.02em}
+  .ml-scale span{display:block;width:56px;height:7px;border-left:1.5px solid currentColor;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;margin:4px 0 0 auto;transition:width .12s ease}
+  .ml-legend{position:absolute;left:14px;bottom:50px;z-index:4;display:flex;flex-wrap:wrap;gap:6px 12px;max-width:calc(100% - 100px);pointer-events:none}
+  .ml-legend span{display:inline-flex;align-items:center;gap:5px;font-family:var(--ml-mono);font-size:9px;color:rgba(238,244,255,.75);background:rgba(6,10,20,.52);padding:3px 7px;border-radius:var(--r-pill)}
+  .ml-legend i{width:7px;height:7px;border-radius:50%;display:inline-block}
+  .ml-transport{position:absolute;left:12px;right:12px;bottom:10px;z-index:5;display:flex;align-items:center;gap:8px;padding:7px 8px;border:1px solid rgba(255,255,255,.14);border-radius:var(--r-md);background:rgba(6,10,20,.8);backdrop-filter:blur(8px)}
+  .ml-transport button{height:32px;min-width:32px;border:1px solid rgba(255,255,255,.18);border-radius:var(--r-sm);background:rgba(255,255,255,.05);color:var(--ml-stage-ink);font-family:var(--ml-mono);font-size:10px;padding:0 9px;cursor:pointer;white-space:nowrap}
+  .ml-transport button:hover,.ml-transport button[aria-pressed="true"]{border-color:rgba(255,255,255,.42);background:rgba(255,255,255,.11)}
+  .ml-transport button:disabled{opacity:.32;cursor:not-allowed;border-color:rgba(255,255,255,.1);background:transparent}
+  .ml-transport input[type="range"]:disabled{opacity:.32;cursor:not-allowed}
+  .ml-transport input[type="range"]{flex:1;min-width:50px;accent-color:var(--ml-cargo);height:4px;cursor:pointer}
+  .ml-time{font-family:var(--ml-mono);font-size:9px;color:rgba(238,244,255,.72);min-width:72px;text-align:right;white-space:nowrap}
+  .ml-tip{position:absolute;z-index:8;display:none;max-width:250px;padding:9px 11px;border:1px solid rgba(255,255,255,.2);border-radius:var(--r-md);background:rgba(8,13,25,.94);color:var(--ml-stage-ink);font-size:11.5px;line-height:1.45;pointer-events:none;box-shadow:0 12px 32px rgba(0,0,0,.35)}
+  .ml-tip b{display:block;font-family:var(--ml-mono);font-size:10.5px;letter-spacing:.03em;color:var(--ml-cargo);margin-bottom:3px}
+  .ml-state-split{position:absolute;left:50%;top:14px;transform:translateX(-50%);z-index:4;display:flex;gap:6px;pointer-events:none}
+  .ml-state-split span{font-family:var(--ml-mono);font-size:9px;letter-spacing:.03em;padding:5px 9px;border-radius:var(--r-pill);border:1px solid rgba(255,255,255,.15);background:rgba(6,10,20,.65);color:rgba(238,244,255,.48)}
+  .ml-state-split span.is-active{color:#baf5d4;border-color:#58d68d;background:rgba(35,110,75,.62)}
+  .ml-state-split span.chronic.is-active{color:#ffd0c9;border-color:#ff6b61;background:rgba(130,40,32,.62)}
+  .ml-state-split[hidden]{display:none!important}
+  .ml-label{font-family:var(--ml-mono);font-size:9.5px;letter-spacing:.02em;color:var(--ml-stage-ink);background:rgba(6,10,20,.78);border:1px solid rgba(255,255,255,.18);border-radius:var(--r-sm);padding:4px 7px;white-space:nowrap;pointer-events:none;box-shadow:0 4px 12px rgba(0,0,0,.24)}
+  .ml-label.accent{border-color:rgba(242,207,114,.55);color:#f8e3a8}
+  .ml-label.blue{border-color:rgba(99,179,255,.55);color:#b9ddff}
+  .ml-label.pink{border-color:rgba(239,124,191,.55);color:#ffc5e8}
+  .ml-label.ml-hidden{display:none!important}
+  @media(max-width:720px){.ml-label-minor{display:none!important}}
+  .ml-lens{border:1px solid var(--rule);border-radius:var(--r-lg);background:var(--sheet);padding:18px 18px 16px;display:flex;flex-direction:column;min-width:0;overflow-y:auto}
+  .ml-lens-head{display:flex;justify-content:space-between;gap:8px;align-items:center;margin-bottom:12px}
+  .ml-route-no{font-family:var(--ml-mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
+  .ml-tier{font-family:var(--ml-mono);font-size:9px;letter-spacing:.04em;text-transform:uppercase;padding:4px 8px;border:1px solid var(--rule-strong);border-radius:var(--r-pill);color:var(--mute)}
+  .ml-lens h2{font-family:var(--serif);font-size:1.65rem;line-height:1.15;letter-spacing:-.015em;margin:0 0 10px}
+  .ml-claim{font-size:14px;line-height:1.55;margin:0 0 13px;color:var(--ink-soft)}
+  .ml-molecules{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:15px}
+  .ml-molecules code{font-family:var(--ml-mono);font-size:9.5px;padding:4px 7px;border-radius:var(--r-sm);border:1px solid var(--rule);background:var(--paper);color:var(--ink-soft)}
+  .ml-steps{list-style:none;padding:0;margin:0 0 15px;counter-reset:mlstep}
+  .ml-steps li{position:relative;padding:0 0 11px 29px;font-size:12px;line-height:1.5;color:var(--ink-soft);counter-increment:mlstep;opacity:.48;transition:opacity .18s,color .18s}
+  .ml-steps li::before{content:counter(mlstep,decimal-leading-zero);position:absolute;left:0;top:0;font-family:var(--ml-mono);font-size:9.5px;color:var(--accent)}
+  .ml-steps li.is-active{opacity:1;color:var(--ink)}
+  .ml-steps li.is-active::after{content:"";position:absolute;left:19px;top:5px;width:5px;height:5px;border-radius:50%;background:var(--accent)}
+  .ml-caveat{margin-top:auto;padding:11px 12px;border-left:3px solid var(--gold);background:color-mix(in srgb,var(--gold) 7%,var(--paper));border-radius:0 var(--r-sm) var(--r-sm) 0}
+  .ml-caveat h3{font-family:var(--ml-mono);font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;margin:0 0 4px;color:var(--ink-soft)}
+  .ml-caveat p{font-size:11.5px;line-height:1.5;color:var(--ink-soft);margin:0}
+  .ml-verified{font-family:var(--ml-mono);font-size:9px;line-height:1.5;color:var(--mute);margin:12px 0 0}
+  /* Bin vs network framing — the interpretive key before the four routes. */
+  .ml-frame{margin:20px 0 2px}
+  .ml-frame-head{display:flex;justify-content:space-between;align-items:end;gap:16px;margin:0 0 12px}
+  .ml-frame-head h2{font-family:var(--serif);font-size:1.7rem;line-height:1.15;margin:0}
+  .ml-frame-head p{font-family:var(--ml-mono);font-size:9.5px;color:var(--mute);margin:0}
+  .ml-frame-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+  .ml-frame-card{border:1px solid var(--rule);border-radius:var(--r-md);background:var(--sheet);padding:16px 18px}
+  .ml-frame-card.is-network{border-color:var(--accent);background:color-mix(in srgb,var(--accent) 6%,var(--sheet))}
+  .ml-frame-tag{font-family:var(--ml-mono);font-size:9.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--mute);margin:0 0 7px}
+  .ml-frame-card h3{font-family:var(--serif);font-size:1.3rem;line-height:1.2;margin:0 0 8px}
+  .ml-frame-card p:not(.ml-frame-tag){font-size:12.5px;line-height:1.55;color:var(--ink-soft);margin:0 0 9px}
+  .ml-frame-card ul{margin:0;padding-left:16px;display:grid;gap:5px}
+  .ml-frame-card li{font-size:11.5px;line-height:1.5;color:var(--ink-soft)}
+  .ml-frame-note{font-size:12px;line-height:1.6;color:var(--ink-soft);margin:12px 0 0;padding-left:12px;border-left:3px solid var(--gold)}
+  .ml-glossary{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:5px 22px}
+  .ml-glossary li{font-size:11.5px;line-height:1.5;color:var(--ink-soft)}
+  .ml-glossary b{font-family:var(--ml-mono);font-size:10.5px;font-weight:500;color:var(--accent)}
+  .ml-section-head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin:30px 0 12px;padding-top:18px;border-top:1px solid var(--rule)}
+  .ml-section-head h2{font-family:var(--serif);font-size:1.7rem;line-height:1.15;margin:0}
+  .ml-section-head p{font-family:var(--ml-mono);font-size:9.5px;color:var(--mute);margin:0;text-align:right}
+  .ml-claims{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+  .ml-claim-card{border:1px solid var(--rule);border-radius:var(--r-md);background:var(--sheet);padding:14px 15px;display:grid;grid-template-columns:44px minmax(0,1fr);gap:12px;align-items:start}
+  .ml-claim-card svg{width:44px;height:44px;color:var(--accent)}
+  .ml-claim-card h3{font-family:var(--serif);font-size:1.02rem;line-height:1.25;margin:0 0 5px}
+  .ml-claim-card p{font-size:11.5px;line-height:1.55;color:var(--ink-soft);margin:0}
+  .ml-claim-card small{display:block;font-family:var(--ml-mono);font-size:8.5px;letter-spacing:.04em;text-transform:uppercase;color:var(--mute);margin-top:7px}
+  .ml-source{display:flex;flex-wrap:wrap;gap:10px 22px;align-items:center;margin-top:20px;padding-top:13px;border-top:1px solid var(--rule);font-family:var(--ml-mono);font-size:9.5px;line-height:1.6;color:var(--mute)}
+  .ml-source a{color:var(--accent)}
+  .ml-source strong{font-weight:500;color:var(--ink-soft)}
+  .ml-fallback{margin:14px 0 0;padding:12px 14px;border:1px solid var(--rule);border-radius:var(--r-md);background:var(--paper);font-size:12px;color:var(--ink-soft)}
+  /* Scale ledger — bars proportional to the longest structure (1–2 µm mitochondrion). */
+  .ml-ruler{list-style:none;padding:0;margin:0;display:grid;gap:7px;border:1px solid var(--rule);border-radius:var(--r-md);background:var(--sheet);padding:15px 16px}
+  .ml-ruler li{display:grid;grid-template-columns:minmax(132px,190px) minmax(0,1fr) auto;gap:10px;align-items:center}
+  .ml-ruler-name{font-size:11.5px;color:var(--ink-soft)}
+  .ml-ruler-bar{height:9px;min-width:2px;border-radius:var(--r-pill)}
+  .ml-ruler b{font-family:var(--ml-mono);font-size:10px;font-weight:400;color:var(--mute);white-space:nowrap}
+  .ml-ruler li.is-tiny .ml-ruler-name{color:var(--accent)}
+  .ml-note{font-family:var(--ml-mono);font-size:9.5px;line-height:1.6;color:var(--mute);margin:10px 0 0}
+  /* Route dossiers */
+  .ml-dossiers{margin-top:10px;display:grid;gap:8px}
+  .ml-dossier{border:1px solid var(--rule);border-radius:var(--r-md);background:var(--sheet)}
+  .ml-dossier summary{cursor:pointer;padding:12px 15px;font-family:var(--serif);font-size:1.02rem;line-height:1.3;display:flex;justify-content:space-between;gap:12px;align-items:baseline;list-style:none}
+  .ml-dossier summary::-webkit-details-marker{display:none}
+  .ml-dossier summary::after{content:"+";font-family:var(--ml-mono);font-size:13px;color:var(--accent);flex:0 0 auto}
+  .ml-dossier[open] summary::after{content:"–"}
+  .ml-dossier summary small{font-family:var(--ml-mono);font-size:9px;letter-spacing:.04em;text-transform:uppercase;color:var(--mute);font-weight:400;margin-left:auto;padding-left:10px}
+  .ml-dossier-body{padding:2px 15px 15px;display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px 24px}
+  .ml-dossier-body > div{min-width:0}
+  .ml-dossier h3{font-family:var(--ml-mono);font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--mute);margin:0 0 5px}
+  .ml-dossier p,.ml-dossier li{font-size:12px;line-height:1.55;color:var(--ink-soft);margin:0}
+  .ml-dossier ul{margin:0;padding-left:15px;display:grid;gap:4px}
+  .ml-dossier .ml-falsify{border-left:3px solid var(--gold);padding-left:10px}
+  .ml-dossier code{font-family:var(--ml-mono);font-size:10.5px;background:var(--paper);border:1px solid var(--rule);border-radius:var(--r-sm);padding:1px 4px}
+  @media(max-width:1050px){
+    .ml-atlas{grid-template-columns:1fr}
+    .ml-lens{display:grid;grid-template-columns:1fr 1fr;gap:0 24px}
+    .ml-lens-head,.ml-lens h2,.ml-claim,.ml-molecules{grid-column:1}
+    .ml-steps{grid-column:2;grid-row:1 / span 4}
+    .ml-caveat,.ml-verified{grid-column:1 / -1}
+    .ml-hero{grid-template-columns:1fr}
+    .ml-meta{justify-content:flex-start}
+  }
+  @media(max-width:720px){
+    .ml-wrap{width:min(100% - 16px,1320px);padding-top:10px}
+    h1{font-size:2.1rem}
+    .ml-frame-grid{grid-template-columns:1fr}
+    .ml-frame-head{align-items:start;flex-direction:column;gap:4px}
+    .ml-frame-head p{text-align:left}
+    .ml-glossary{grid-template-columns:1fr}
+    .ml-stage{height:440px}
+    .ml-transport{gap:5px;left:8px;right:8px}
+    .ml-transport button{padding:0 7px;font-size:9px}
+    .ml-time{min-width:58px;font-size:8px}
+    .ml-legend{max-width:calc(100% - 28px);bottom:52px}
+    .ml-scale{display:none}
+    .ml-state-split{top:54px;left:12px;transform:none;flex-direction:column}
+    .ml-lens{display:flex}
+    .ml-steps{grid-column:auto;grid-row:auto}
+    .ml-claims{grid-template-columns:1fr}
+    .ml-section-head{align-items:start;flex-direction:column;gap:4px}
+    .ml-section-head p{text-align:left}
+  }
+  @media(prefers-reduced-motion:reduce){
+    *{scroll-behavior:auto!important;transition:none!important}
+  }
+</style>
+</head>
+<body>
+<a class="skip" href="#content">Skip to content</a>
+<div class="ml-wrap">
+  <a class="ml-back" href="../index.html">← Articles</a>
+  <main id="content">
+    <header class="ml-hero">
+      <div>
+        <p class="ml-kicker">Crosstalk mechanism</p>
+        <h1>Mitophagy is a network,<br>not a bin.</h1>
+        <p class="ml-dek">A mitochondrion can be engulfed, sampled, or coupled to a lysosome without losing its identity. Explore four communication routes — and the moment an acute adaptation becomes a chronic failure.</p>
+      </div>
+      <div class="ml-meta" aria-label="Evidence and provenance">
+        <span class="ml-badge"><b>Tier 3</b> · cell &amp; animal models</span>
+        <span class="ml-badge">Published · 17 Nov 2026</span>
+        <span class="ml-badge">Verified · 27 Nov 2026</span>
+      </div>
+    </header>
+
+    <section class="ml-frame" aria-labelledby="ml-frame-heading">
+      <div class="ml-frame-head">
+        <h2 id="ml-frame-heading">Bin versus network</h2>
+        <p>Two models of the same observation</p>
+      </div>
+      <div class="ml-frame-grid">
+        <article class="ml-frame-card">
+          <p class="ml-frame-tag">The disposal picture</p>
+          <h3>One organelle is cargo; the other is the bin</h3>
+          <p>Classical [[Mitophagy|mitophagy]] is drawn as a one-way pipe. Loss of membrane potential blocks [[PINK1|PINK1 (PTEN-induced kinase 1)]] import; PINK1 phosphorylates [[Ubiquitin|ubiquitin]] and [[Parkin]] at Ser65, outer-membrane proteins are ubiquitinated, receptors such as [[Optineurin]], [[NDP52]] and [[p62|p62/SQSTM1]] connect them to [[LC3]]/[[GABARAP]], and [[STX17]]–[[SNAP29]]–[[VAMP8]] with [[Rab7|RAB7]] fuses the [[Autophagosome|mitophagosome]] to a [[Lysosome|lysosome]]. The output is always hydrolysis and the cargo loses its identity.</p>
+          <ul>
+            <li>One route: tag → engulf → deliver.</li>
+            <li>One direction: cargo → lysosome.</li>
+            <li>One outcome: the organelle is erased.</li>
+          </ul>
+        </article>
+        <article class="ml-frame-card is-network">
+          <p class="ml-frame-tag">The communication picture</p>
+          <h3>The regulated unit is the relationship</h3>
+          <p>The same [[Mitochondria|mitochondrion]]–[[Lysosome|lysosome]] pair is coupled through four parallel routes. Material and signals move in both directions, most exchanges are non-destructive, and the response is set by stimulus duration and tissue context.</p>
+          <ul>
+            <li>Four routes: degradation (A), selective [[Mitochondrial-Derived Vesicles|mitochondrial-derived vesicles (MDVs)]] (B), contact exchange (C), transcriptional signaling (D).</li>
+            <li>Two directions: lysosome → mitochondrion Ca²⁺ via [[TRPML1]]–[[VDAC]]–[[MCU|mitochondrial calcium uniporter (MCU)]], Fe²⁺ via [[BDH2]]/[[2,5-DHBA|2,5-dihydroxybenzoic acid (2,5-DHBA)]], amino acids and cholesterol via [[STARD3]]/[[NPC1]]; mitochondrion → lysosome electron-transport-chain protons.</li>
+            <li>Non-destructive sampling: vesicles carry 70–150 nm selected cargo, and [[MFF|mitochondrial fission factor (MFF)]]-bearing vesicles recruit [[DRP1|dynamin-related protein 1 (DRP1)]] to damaged lysosomes for budding-type fission. Neither organelle is erased.</li>
+            <li>Cargo becomes information: lysosomal processing of [[Mitochondrial DNA|mitochondrial DNA]] and mitochondrial RNA engages [[TLR9]]/[[TLR8]] and [[MyD88]]–[[NF-κB|NF-κB (nuclear factor kappa B)]].</li>
+            <li>Duration sets the sign: acute stress activates [[AMPK|AMP-activated protein kinase (AMPK)]]–[[TFEB|transcription factor EB (TFEB)]] and TRPML1–[[Calcineurin|calcineurin]]; persistent dysfunction suppresses those programs and lowers [[PtdIns(3,5)P2|phosphatidylinositol 3,5-bisphosphate (PtdIns(3,5)P2)]] and hydrolysis.</li>
+          </ul>
+        </article>
+      </div>
+      <p class="ml-frame-note">Degradative mitophagy is Route A — one branch, not the whole system. The bin framing collapses the entire relationship into its single most destructive output, so it predicts neither the non-destructive routes nor the observation that restoring communication ([[TRPML1]] agonism, lysosomal-pH correction, balanced [[AMPK]]–[[mTORC1|mTOR complex 1 (mTORC1)]]) rescues mitochondrial phenotypes in defined models. Two molecular details remain unresolved: the mitochondrial RAB7 partner and the proton-conducting channel at the contact.</p>
+    </section>
+
+    <nav class="ml-tabs" role="tablist" aria-label="Communication routes">
+      <button class="ml-tab" id="tab-0" role="tab" aria-selected="true" aria-controls="ml-lens" data-mode="0">
+        <span class="ml-tab-no">A</span><span class="ml-tab-copy"><strong>Label &amp; engulf</strong><small>whole-organelle mitophagy</small></span>
+      </button>
+      <button class="ml-tab" id="tab-1" role="tab" aria-selected="false" aria-controls="ml-lens" data-mode="1">
+        <span class="ml-tab-no">B</span><span class="ml-tab-copy"><strong>Selective vesicles</strong><small>cargo routing + lysosome fission</small></span>
+      </button>
+      <button class="ml-tab" id="tab-2" role="tab" aria-selected="false" aria-controls="ml-lens" data-mode="2">
+        <span class="ml-tab-no">C</span><span class="ml-tab-copy"><strong>Contact-site exchange</strong><small>ions, lipids, metabolites, protons</small></span>
+      </button>
+      <button class="ml-tab" id="tab-3" role="tab" aria-selected="false" aria-controls="ml-lens" data-mode="3">
+        <span class="ml-tab-no">D</span><span class="ml-tab-copy"><strong>Acute → chronic</strong><small>same signal, opposite outcome</small></span>
+      </button>
+    </nav>
+
+    <div class="ml-atlas">
+      <section class="ml-stage-card" aria-label="Interactive three-dimensional illustration">
+        <div class="ml-stage" id="ml-stage">
+          <canvas id="ml-canvas" aria-label="Three-dimensional mitochondrion and lysosome communication model. Use the route tabs and timeline controls to explore the mechanisms."></canvas>
+          <div class="ml-route-flag" id="ml-route-flag"><i></i><span>loading atlas…</span></div>
+          <div class="ml-state-split" id="ml-state-split" hidden>
+            <span id="ml-state-acute">acute · adaptive</span>
+            <span id="ml-state-chronic" class="chronic">chronic · maladaptive</span>
+          </div>
+          <button class="ml-copy" id="ml-copy" type="button" title="Save the current view as PNG" aria-label="Save current view as PNG">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          </button>
+          <div class="ml-tip" id="ml-tip"></div>
+          <div class="ml-legend" id="ml-legend"></div>
+          <div class="ml-scale"><b id="ml-scale-text">schematic · not to scale</b><span id="ml-scale-bar"></span></div>
+          <div class="ml-transport" role="group" aria-label="Animation controls">
+            <button id="ml-play" type="button" aria-pressed="true">Pause</button>
+            <input id="ml-scrub" type="range" min="0" max="1000" value="0" aria-label="Mechanism timeline">
+            <span class="ml-time" id="ml-time">T+ 0%</span>
+            <button id="ml-labels" type="button" aria-pressed="true">Labels</button>
+            <button id="ml-rotate" type="button" aria-pressed="false">Rotate</button>
+            <button id="ml-reset" type="button">Reset</button>
+          </div>
+        </div>
+      </section>
+
+      <aside class="ml-lens" id="ml-lens" role="tabpanel" aria-live="polite" aria-labelledby="tab-0">
+        <div class="ml-lens-head">
+          <span class="ml-route-no" id="ml-route-no">Route A · degradative</span>
+          <span class="ml-tier" id="ml-tier">Tier 3</span>
+        </div>
+        <h2 id="ml-title">A damaged segment is labeled, enclosed, and delivered</h2>
+        <p class="ml-claim" id="ml-claim"></p>
+        <div class="ml-molecules" id="ml-molecules" aria-label="Key molecules"></div>
+        <ol class="ml-steps" id="ml-steps" aria-label="Mechanism steps"></ol>
+        <div class="ml-caveat">
+          <h3>What this does not establish</h3>
+          <p id="ml-caveat"></p>
+        </div>
+        <p class="ml-verified" id="ml-verified"></p>
+      </aside>
+    </div>
+
+    <section aria-labelledby="ml-scale-heading">
+      <div class="ml-section-head">
+        <h2 id="ml-scale-heading">Scale ledger</h2>
+        <p>Bar length is proportional to the structure's long axis.<br>Denominator: a 2 µm mitochondrion.</p>
+      </div>
+      <ul class="ml-ruler">
+        <li><span class="ml-ruler-name">Mitochondrion, length</span><span class="ml-ruler-bar" style="width:100%;background:#e8794f"></span><b>1–2 µm</b></li>
+        <li><span class="ml-ruler-name">Mitophagosome, diameter</span><span class="ml-ruler-bar" style="width:75%;background:#f2cf72"></span><b>0.5–1.5 µm</b></li>
+        <li><span class="ml-ruler-name">Lysosome, diameter</span><span class="ml-ruler-bar" style="width:25%;background:#8b7cf6"></span><b>0.1–0.5 µm</b></li>
+        <li><span class="ml-ruler-name">Mitochondrial-derived vesicle</span><span class="ml-ruler-bar" style="width:7.5%;background:#f0a36b"></span><b>70–150 nm</b></li>
+        <li><span class="ml-ruler-name">Crista width</span><span class="ml-ruler-bar" style="width:2%;background:#ffb07a"></span><b>20–40 nm</b></li>
+        <li class="is-tiny"><span class="ml-ruler-name">Contact-site gap</span><span class="ml-ruler-bar" style="width:1.5%;background:#63b3ff"></span><b>10–30 nm</b></li>
+      </ul>
+      <p class="ml-note">The 3D scene uses measured proportions (1 unit = 1 µm): organelles, vesicles, and the 10–30 nm contact gap are scaled relative to one another. The 100 nm scale bar, labels, and hover text identify the components; the scale ledger lists measured ranges. Geometry remains illustrative, and particle paths encode direction rather than kinetics.</p>
+    </section>
+
+    <section aria-labelledby="ml-dossier-heading">
+      <div class="ml-section-head">
+        <h2 id="ml-dossier-heading">Route dossiers</h2>
+        <p>Molecular anchors, measured quantities, assay caveats,<br>and the observation that would falsify each route.</p>
+      </div>
+      <div class="ml-dossiers">
+        <details class="ml-dossier" open>
+          <summary>Route A · Label, engulf, deliver <small>Tier 3</small></summary>
+          <div class="ml-dossier-body">
+            <div>
+              <h3>Molecular anchors</h3>
+              <ul>
+                <li><b>[[PINK1|PINK1 (PTEN-induced kinase 1)]]</b> accumulates on the outer mitochondrial membrane when import is blocked by loss of membrane potential; it phosphorylates [[Ubiquitin|ubiquitin]] at Ser65 and [[Parkin]] at Ser65 of its Ubl domain.</li>
+                <li><b>[[Parkin]]</b> (465 aa, RING-between-RING E3) extends ubiquitin chains on outer-membrane substrates including [[MFN1]]/[[MFN2]], [[VDAC|VDAC1]] and [[TOM20]].</li>
+                <li>Receptors <b>[[Optineurin|OPTN]], [[NDP52]]/CALCOCO2, [[TAX1BP1]], [[NBR1]], [[p62|p62/SQSTM1]]</b> bind ubiquitin and [[LC3]]/[[GABARAP]] through LIR motifs.</li>
+                <li>Fusion uses the <b>[[STX17]]–[[SNAP29]]–[[VAMP8]]</b> SNARE complex with [[HOPS Complex|HOPS]] and [[Rab7|RAB7]].</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Measured quantities</h3>
+              <ul>
+                <li>Mitophagosome diameter 0.5–1.5 µm; lysosome 0.1–0.5 µm.</li>
+                <li>Mitochondrial diameter 0.5–1 µm; length 1–2 µm in typical somatic cells.</li>
+                <li>[[Mitochondrial DNA|mtDNA]] copy number 10²–10⁴ per cell, so one engulfed organelle carries tens to hundreds of genomes.</li>
+              </ul>
+              <h3 style="margin-top:10px">Assay caveat</h3>
+              <p>LC3-II immunoblot and GFP-LC3 puncta counts cannot separate increased delivery from blocked degradation. Flux requires a tandem mCherry-GFP-LC3 reporter plus a lysosomal inhibitor (bafilomycin A1) or a pulse-chase mito-Keima readout.</p>
+            </div>
+            <div>
+              <h3>What would falsify it</h3>
+              <p class="ml-falsify">A depolarized mitochondrion cleared without detectable ubiquitin recruitment, or mitophagosome–lysosome fusion that proceeds with [[STX17]] and [[Rab7|RAB7]] both depleted.</p>
+              <h3 style="margin-top:10px">Primary sources</h3>
+              <p>Narendra 2008 · Matsuda 2010 · Koyano 2014 · Lazarou 2015 · Itakura 2012</p>
+            </div>
+          </div>
+        </details>
+
+        <details class="ml-dossier" open>
+          <summary>Route B · Selective vesicles, then remodelling <small>Tier 3</small></summary>
+          <div class="ml-dossier-body">
+            <div>
+              <h3>Molecular anchors</h3>
+              <ul>
+                <li>[[Mitochondrial-Derived Vesicles|MDVs]] bud from the outer membrane or intermembrane space without dissolving the organelle; several populations form in <code>ATG5</code>/<code>ATG7</code>-null cells.</li>
+                <li>Oxidized-cargo MDVs require <b>[[PINK1]]/[[Parkin]]</b> and <b>[[STX17]]</b>; the vesicle carries the oxidized protein, not the whole organelle.</li>
+                <li>An <b>[[MFF|MFF (mitochondrial fission factor)]]</b>-bearing population docks damaged lysosomes through <b>[[Miro|MIRO2]]–[[ITM2C]]</b> and delivers MFF, which recruits <b>[[DRP1|DRP1 (dynamin-related protein 1)]]</b> for budding-type lysosomal fission.</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Measured quantities</h3>
+              <ul>
+                <li>Vesicle diameter 70–150 nm — roughly one quarter to one eighth of a lysosome.</li>
+                <li>Lysosomal fission daughters 100–300 nm.</li>
+                <li>MFF is a ~38 kDa outer-membrane adaptor; DRP1 is a ~80 kDa mechanochemical GTPase.</li>
+              </ul>
+              <h3 style="margin-top:10px">Assay caveat</h3>
+              <p>MDV fractions overlap in density with exosomes and other small extracellular vesicles. Protease protection plus a matrix marker (and a non-mitochondrial vesicle control) is required before a mitochondrial origin is claimed.</p>
+            </div>
+            <div>
+              <h3>What would falsify it</h3>
+              <p class="ml-falsify">A single genetic lesion that abolishes every MDV population while leaving mitochondrial function and lysosomal fission intact.</p>
+              <h3 style="margin-top:10px">Primary sources</h3>
+              <p>Soubannier 2012 · McLelland 2014 · Luo 2026 (Nat Cell Biol)</p>
+            </div>
+          </div>
+        </details>
+
+        <details class="ml-dossier" open>
+          <summary>Route C · Contact-site exchange <small>Tier 3</small></summary>
+          <div class="ml-dossier-body">
+            <div>
+              <h3>Molecular anchors</h3>
+              <ul>
+                <li>Lysosomal <b>[[Rab7|RAB7-GTP]]</b> promotes tethering. <b>[[FIS1]]</b> recruits <b>[[TBC1D15]]</b> (and [[TBC1D17]]), whose GAP domain hydrolyses RAB7-GTP and terminates the contact.</li>
+                <li><b>[[HOPS Complex|HOPS]]</b> contributes a bridging function at the interface.</li>
+                <li>A <b>Gαq–FIS1–TBC1D15/17</b> release complex is reported in a November 2026 preprint — not peer reviewed, and not yet independently replicated.</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Cargo, with direction</h3>
+              <ul>
+                <li>Ca²⁺: lysosome → mitochondrion via [[TRPML1]] → [[VDAC|VDAC1]] → [[MCU|MCU (mitochondrial calcium uniporter)]].</li>
+                <li>Fe²⁺: [[BDH2]]-derived [[2,5-DHBA|2,5-DHBA (2,5-dihydroxybenzoic acid)]] carries [[Iron]] into the mitochondrial matrix.</li>
+                <li>Amino acids: [[Parkin]]–[[Rab7|RAB7]] interface. Cholesterol: [[STARD3]]/[[NPC1]], context-dependent.</li>
+                <li>H⁺: electron-transport-chain-derived protons reach the lysosomal lumen; the conducting channel is unidentified and VDAC1 is only a candidate.</li>
+              </ul>
+              <h3 style="margin-top:10px">Measured quantities</h3>
+              <p>Contact gap 10–30 nm; lysosomal pH 4.5–5.0. Direct lysosome→mitochondria Ca²⁺ transfer was not detectable in one 2026 triple-negative breast cancer model under Ca²⁺-free conditions.</p>
+            </div>
+            <div>
+              <h3>What would falsify it</h3>
+              <p class="ml-falsify">Identification of the mitochondrial RAB7 partner, or lysosomal pH rescue that persists after the mitochondrial proton source is removed.</p>
+              <h3 style="margin-top:10px">Primary sources</h3>
+              <p>Yamano 2014 · Yamano 2018 · Tian 2026 (Cell Reports) · Liu 2026 (Molecular Cell)</p>
+            </div>
+          </div>
+        </details>
+
+        <details class="ml-dossier" open>
+          <summary>Route D · Duration sets the sign <small>Tier 3–4</small></summary>
+          <div class="ml-dossier-body">
+            <div>
+              <h3>Molecular anchors</h3>
+              <ul>
+                <li><b>[[mTORC1|mTORC1 (mechanistic target of rapamycin complex 1)]]</b> phosphorylates [[TFEB]] at S211, creating a [[14-3-3]] site that holds TFEB in the cytoplasm.</li>
+                <li><b>[[AMPK|AMPK (AMP-activated protein kinase)]]</b> phosphorylates TFEB at S466/S467 (mouse numbering) and promotes nuclear import.</li>
+                <li><b>[[TRPML1]]</b>–Ca²⁺–<b>[[Calcineurin|calcineurin]]</b> dephosphorylates TFEB; <b>[[PIKfyve]]</b> synthesises [[PtdIns(3,5)P2]] from PtdIns3P.</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Measured quantities</h3>
+              <ul>
+                <li>[[Glucocerebrosidase|GBA1]]-mutant dopaminergic neurons: lysosomal pH 4.89–5.06 versus 4.74–4.77 in controls; basal oxygen consumption rate ~40% lower.</li>
+                <li>Both phenotypes were rescued by [[Rapamycin|rapamycin]] or acidic nanoparticles through [[mTORC1]]-dependent [[V-ATPase]] assembly (Sheshadri 2026).</li>
+              </ul>
+              <h3 style="margin-top:10px">Assay caveat</h3>
+              <p>Lysosomal pH probes (LysoSensor, Oregon Green dextran) are sensitive to probe loading and photobleaching. A pH claim needs a calibration curve and a V-ATPase-inhibitor control in the same experiment.</p>
+            </div>
+            <div>
+              <h3>What would falsify it</h3>
+              <p class="ml-falsify">A chronic mitochondrial-disease model in which [[mTORC1]] inhibition worsens lysosomal hydrolysis, or a tissue where chronic stress raises rather than lowers [[PtdIns(3,5)P2]].</p>
+              <h3 style="margin-top:10px">Primary sources</h3>
+              <p>Settembre 2012 · Medina 2015 · Sheshadri 2026 (Transl Neurodegener)</p>
+            </div>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <div class="ml-fallback" id="ml-fallback">
+      <strong>Text equivalent.</strong> Route A: PINK1 stabilizes on depolarized mitochondria and recruits Parkin; OMM ubiquitination recruits autophagy adapters, a mitophagosome forms, and STX17–SNAP29–VAMP8/RAB7-dependent fusion delivers cargo to lysosomes. Route B: MDVs sort selected cargo; MFF-bearing vesicles can recruit DRP1 to damaged lysosomes. Route C: contacts exchange Ca2+, iron, amino acids, cholesterol, and protons without bulk transfer. Route D: acute stress activates AMPK–TFEB/TRPML1 adaptation; chronic stress suppresses these programs. The claim cards below carry the same content. The scene replays every route at measured proportions (1 unit = 1 µm), including a 90 nm MDV and a 10–30 nm contact gap. The scale ledger lists each structure's measured size.
+    </div>
+
+    <section aria-labelledby="ml-claims-heading">
+      <div class="ml-section-head">
+        <h2 id="ml-claims-heading">The six claims to carry away</h2>
+        <p>Evidence grades refer to the review's synthesis.<br>No cell animation is clinical evidence.</p>
+      </div>
+      <div class="ml-claims">
+        <article class="ml-claim-card">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="10" cy="24" r="6"/><circle cx="38" cy="24" r="6"/><path d="M16 24h16M20 18l4-6 4 6M20 30l4 6 4-6"/><circle cx="24" cy="24" r="3" fill="currentColor" stroke="none"/></svg>
+          <div><h3>The network is the unit of regulation</h3><p>[[Mitochondria]] and [[Lysosome|lysosomes]] coordinate through [[Mitochondria-Lysosome Contact Site|contacts]], vesicles, diffusible signals, and signaling cascades. Disease often disrupts the relationship rather than one organelle alone.</p><small>Review synthesis · Tier 2–3</small></div>
+        </article>
+        <article class="ml-claim-card">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 8c10 8 14 24 24 32M36 8C26 16 22 32 12 40M14 12h6m4 8h6m4 8h6M14 36h6m4-8h6m4-8h6"/><path d="M5 24h8m22 0h8"/></svg>
+          <div><h3>Cargo can be information</h3><p>Poorly methylated [[Mitochondrial DNA|mtDNA]] engages [[TLR9]] and mitochondrial RNA engages [[TLR7]]/[[TLR8]]. [[MyD88|MYD88]]–[[NF-κB]] signaling links lysosomal cargo processing to inflammatory cytokine production.</p><small>Cell-culture mechanism · Tier 3</small></div>
+        </article>
+        <article class="ml-claim-card">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><ellipse cx="15" cy="24" rx="10" ry="7"/><circle cx="33" cy="17" r="4"/><circle cx="34" cy="30" r="5"/><path d="M20 22h7m-3-3 3 3-3 3M33 22v3"/></svg>
+          <div><h3>Vesicles remodel, not only deliver</h3><p>[[Mitochondrial-Derived Vesicles|MDVs]] selectively package mitochondrial cargo. [[MFF]]-bearing vesicles target damaged lysosomes through [[Miro|MIRO2]]–[[ITM2C]], where MFF recruits [[DRP1]] for budding-type lysosomal fission.</p><small>Primary cell-based study · Tier 3</small></div>
+        </article>
+        <article class="ml-claim-card">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 14c8-6 13 6 21 0s13 6 17 0M5 34c8-6 13 6 21 0s13 6 17 0"/><path d="M15 18v12m9-12v12m9-12v12"/><circle cx="15" cy="22" r="2" fill="currentColor"/><circle cx="24" cy="27" r="2" fill="currentColor"/><circle cx="33" cy="21" r="2" fill="currentColor"/></svg>
+          <div><h3>Contacts exchange without fusion</h3><p>[[TRPML1]]–[[VDAC|VDAC1]]–[[MCU]] Ca²⁺, [[BDH2]]/[[2,5-DHBA|2,5-DHBA (2,5-dihydroxybenzoic acid)]] iron, amino acids, cholesterol, and electron-transport-chain-derived protons can move across a contact without bulk membrane fusion.</p><small>Multiple cell models · Tier 3</small></div>
+        </article>
+        <article class="ml-claim-card">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 37h36M10 32c8-2 10-22 18-22s10 20 14 20"/><path d="M22 8v31" stroke-dasharray="2 3"/><circle cx="19" cy="20" r="3" fill="currentColor" stroke="none"/></svg>
+          <div><h3>Duration flips the sign</h3><p>Acute respiratory-chain stress activates [[AMPK]]–[[TFEB]] and [[TRPML1]]-dependent adaptation. Persistent dysfunction suppresses the same programs and lowers lysosomal [[PtdIns(3,5)P2]] and hydrolysis.</p><small>Cellular + animal models · Tier 3–4</small></div>
+        </article>
+        <article class="ml-claim-card">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M8 36h32M24 36V12M13 20h22M10 13l14-7 14 7"/><circle cx="14" cy="20" r="4"/><circle cx="34" cy="20" r="4"/><path d="M24 12v8"/></svg>
+          <div><h3>Restore communication, not one organelle</h3><p>[[TRPML1]] agonism, lysosomal-pH correction, and balanced [[AMPK]]–[[mTORC1]] signaling rescue mitochondrial phenotypes in defined models. Effects remain tissue- and disease-dependent.</p><small>Therapeutic hypothesis · Tier 3–4</small></div>
+        </article>
+      </div>
+    </section>
+
+    <section aria-labelledby="ml-glossary-heading">
+      <div class="ml-section-head">
+        <h2 id="ml-glossary-heading">Acronyms and abbreviations</h2>
+        <p>Expanded at first use in the prose above.<br>Hover a linked term for its wiki note.</p>
+      </div>
+      <ul class="ml-glossary">
+        <li><b>[[2,5-DHBA|2,5-DHBA]]</b> — 2,5-dihydroxybenzoic acid</li>
+        <li><b>[[AMPK|AMPK]]</b> — AMP-activated protein kinase</li>
+        <li><b>[[DRP1|DRP1]]</b> — dynamin-related protein 1</li>
+        <li><b>ETC</b> — electron transport chain</li>
+        <li><b>[[TFEB|TFEB]]</b> — transcription factor EB</li>
+        <li><b>[[HOPS Complex|HOPS]]</b> — homotypic fusion and protein sorting complex</li>
+        <li><b>[[ITM2C|ITM2C]]</b> — integral membrane protein 2C</li>
+        <li><b>LIR</b> — LC3-interacting region</li>
+        <li><b>[[LC3|LC3]]</b> — microtubule-associated protein 1 light chain 3</li>
+        <li><b>[[MFF|MFF]]</b> — mitochondrial fission factor</li>
+        <li><b>[[Mitochondrial-Derived Vesicles|MDV]]</b> — mitochondrial-derived vesicle</li>
+        <li><b>[[Mitochondrial DNA|mtDNA]]</b> — mitochondrial DNA</li>
+        <li><b>[[mTORC1|mTORC1]]</b> — mechanistic target of rapamycin complex 1</li>
+        <li><b>[[MyD88|MYD88]]</b> — myeloid differentiation primary response 88</li>
+        <li><b>[[NF-κB|NF-κB]]</b> — nuclear factor kappa B</li>
+        <li><b>OMM</b> — outer mitochondrial membrane</li>
+        <li><b>[[PINK1|PINK1]]</b> — PTEN-induced kinase 1</li>
+        <li><b>[[PtdIns(3,5)P2|PtdIns(3,5)P2]]</b> — phosphatidylinositol 3,5-bisphosphate</li>
+        <li><b>[[Rab7|RAB7]]</b> — Ras-related protein 7</li>
+        <li><b>SNARE</b> — SNAP receptor</li>
+        <li><b>TLR</b> — Toll-like receptor (TLR7, TLR8, TLR9)</li>
+        <li><b>[[TRPML1|TRPML1]]</b> — transient receptor potential mucolipin 1</li>
+        <li><b>[[V-ATPase|V-ATPase]]</b> — vacuolar H⁺-ATPase</li>
+        <li><b>[[VDAC|VDAC]]</b> — voltage-dependent anion channel</li>
+      </ul>
+    </section>
+
+    <footer class="ml-source">
+      <span><strong>Source review</strong> · Callender, Afroz &amp; Raimundo (2026) · <a href="https://doi.org/10.1038/s44321-026-00556-9" target="_blank" rel="noopener noreferrer">EMBO Molecular Medicine</a></span>
+      <span><strong>Currency check</strong> · literature through 27 Nov 2026</span>
+      <span>Illustrative geometry; particle paths encode direction, not kinetics or stoichiometry. Components are drawn at measured relative proportions (1 unit = 1 µm).</span>
+    </footer>
+  </main>
+</div>
+
+<script type="module">
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { CSS2DRenderer, CSS2DObject } from 'three/addons/renderers/CSS2DRenderer.js';
+
+const $ = (id) => document.getElementById(id);
+const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+const MODES = [
+  {
+    route:'Route A · degradative',
+    flag:'PINK1–Parkin · label → engulf → fuse',
+    title:'A damaged segment is labeled, enclosed, and delivered',
+    tier:'Tier 3',
+    claim:'[[PINK1]] accumulation on depolarized [[Mitochondria]] recruits [[Parkin]]. [[Ubiquitin]] on the outer membrane recruits autophagy adapters; a [[Autophagosome|mitophagosome]] encloses the cargo and fuses with a [[Lysosome|lysosome]] through [[STX17]]–[[SNAP29]]–[[VAMP8]] in a [[Rab7|RAB7]]-dependent manner.',
+    molecules:['PINK1','Parkin','ubiquitin','STX17','SNAP29','VAMP8','RAB7'],
+    steps:['Membrane potential falls; PINK1 is no longer imported and accumulates on the OMM.','Parkin is recruited and polyubiquitinates OMM proteins.','Autophagy adaptors connect the labeled segment to the forming autophagosome.','The mitophagosome closes and moves to a lysosome.','SNARE fusion delivers mitochondrial cargo for hydrolysis.'],
+    caveat:'The review does not establish whether mitophagosomes use a dedicated lysosomal subpopulation, whether extra fusion labeling is required, or how mtDNA processing differs from bulk cargo. More LC3 or p62 alone is not evidence of increased flux.',
+    verified:'Review + established mitophagy literature · checked 2026-11-27',
+    duration:18,
+    legend:[['#e8794f','damaged mitochondrial segment'],['#f2cf72','autophagosome membranes'],['#8b7cf6','lysosome']]
+  },
+  {
+    route:'Route B · vesicular',
+    flag:'MDVs · sort cargo → route → remodel',
+    title:'Small vesicles carry selected cargo — and can rebuild the target organelle',
+    tier:'Tier 3',
+    claim:'[[Mitochondrial-Derived Vesicles|MDVs]] are ~70–100 nm cargo-selective carriers. Oxidative-stress MDVs are enriched in oxidized cargo through [[PINK1]]/[[Parkin]] and [[STX17]]; an [[MFF]]-bearing population uses [[Miro|MIRO2]]–[[ITM2C]] to reach damaged lysosomes and recruit [[DRP1]] for budding-type fission.',
+    molecules:['MDVs','MIRO1/2','DRP1','STX17','HOPS','MFF','ITM2C'],
+    steps:['The mitochondrial membrane selects a cargo population and tubulates.','Scission releases a small vesicle without depolarizing or degrading the whole mitochondrion.','Microtubule-based transport and route-specific adapters direct the vesicle.','MFF-bearing vesicles dock damaged lysosomes through MIRO2–ITM2C.','MFF recruits DRP1; budding-type fission releases functional daughter lysosomes.'],
+    caveat:'Whether one core biogenesis mechanism produces all MDV populations remains unresolved. The fusion machinery for STX17-negative MDVs is unknown, and chronic-disease remodeling of the acute MDV program has not been defined.',
+    verified:'Luo et al., Nat Cell Biol (2026) corroborates the ITM2C–MIRO2–MFF–DRP1 axis.',
+    duration:16,
+    legend:[['#e8794f','MDV membrane'],['#f2cf72','selected cargo'],['#8b7cf6','lysosome / daughters']]
+  },
+  {
+    route:'Route C · contact site',
+    flag:'RAB7 tethers · exchange without bulk transfer',
+    title:'Two membranes stay close while ions, lipids, metabolites, and protons cross',
+    tier:'Tier 3',
+    claim:'Lysosomal [[Rab7|RAB7-GTP]] promotes tethering; [[FIS1]] recruits [[TBC1D15]] to hydrolyze RAB7 and release the contact. The interface supports [[TRPML1]]–[[VDAC|VDAC1]]–[[MCU]] Ca²⁺ entry, [[BDH2]]/[[2,5-DHBA|2,5-DHBA]] iron transfer, [[Parkin]]–RAB7 amino-acid transfer, [[STARD3]] cholesterol transfer, and mitochondrial proton donation.',
+    molecules:['RAB7','FIS1','TBC1D15','TRPML1','VDAC1','MCU','BDH2','STARD3'],
+    steps:['RAB7-GTP on the lysosome binds an as-yet unidentified mitochondrial partner.','FIS1 recruits TBC1D15, which hydrolyzes RAB7-GTP and promotes untethering.','TRPML1 releases Ca2+; VDAC1 and MCU mediate mitochondrial uptake.','BDH2-derived 2,5-DHBA carries Fe2+; STARD3 transfers cholesterol in defined contexts.','Electron-transport-chain-derived protons contribute to lysosomal acidification.'],
+    caveat:'The mitochondrial RAB7-binding partner and the proton-conducting channel are unidentified. Direct lysosome-to-mitochondria Ca2+ transfer was not detectable in one 2026 TNBC model under Ca2+-free conditions, so the route is context-dependent.',
+    verified:'Tian et al., Cell Reports (2026) + Liu et al., Molecular Cell (2026) corroborate proton donation.',
+    duration:14,
+    legend:[['#63b3ff','Ca2+'],['#f6ad55','Fe2+ / 2,5-DHBA'],['#f2cf72','cholesterol'],['#68d391','amino acids'],['#ef7cbf','H+']]
+  },
+  {
+    route:'Route D · signaling',
+    flag:'stimulus duration · adaptive → maladaptive',
+    title:'The same organelle stress can restore homeostasis or dismantle it',
+    tier:'Tier 3–4',
+    claim:'Acute respiratory-chain inhibition triggers lysosomal biogenesis through [[AMPK]]–[[TFEB]] and [[Reactive Oxygen Species|ROS]]–[[TRPML1]] signaling. Chronic respiratory-chain deficiency, [[Mitochondrial DNA|mtDNA]] loss, or impaired dynamics suppress these programs, lower lysosomal [[PtdIns(3,5)P2]] and hydrolytic activity, and establish a self-reinforcing cycle.',
+    molecules:['AMPK','TFEB','TFE3','TRPML1','PtdIns(3,5)P2','calcineurin','mTORC1'],
+    steps:['Acute stress raises mitochondrial ROS and activates AMPK.','TRPML1-mediated Ca2+ release activates calcineurin and TFEB nuclear localization.','TFEB/TFE3 expand lysosomal and mitochondrial biogenesis programs.','Persistent dysfunction suppresses AMPK–TFEB and lowers PtdIns(3,5)P2.','Hydrolysis and autophagic flux fall; defective mitochondria further impair lysosomes.'],
+    caveat:'Direct oxidant activation of TRPML1 is demonstrated in inside-out patches, but the endogenous ROS species and in-vivo directness remain unresolved. mTORC1 inhibition is beneficial in several mitochondrial disease models and harmful in others; tissue context matters.',
+    verified:'Sheshadri et al., Transl Neurodegener (2026) links constitutive mTORC1 to V-ATPase failure in GBA1-PD neurons.',
+    duration:20,
+    legend:[['#63b3ff','acute signaling'],['#ef7cbf','persistent stress'],['#68d391','adaptive program'],['#ff6b61','maladaptive program']]
+  }
+];
+
+const stage = $('ml-stage');
+const canvas = $('ml-canvas');
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(0x0b1220);
+scene.fog = new THREE.FogExp2(0x0b1220, 0.035);
+
+const camera = new THREE.PerspectiveCamera(40, 1, 0.1, 80);
+camera.position.set(0, 3.2, 11.8);
+const renderer = new THREE.WebGLRenderer({ canvas, antialias:true, preserveDrawingBuffer:true });
+renderer.setPixelRatio(Math.min(devicePixelRatio || 1, 2));
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+renderer.toneMapping = THREE.ACESFilmicToneMapping;
+renderer.toneMappingExposure = 1.12;
+const controls = new OrbitControls(camera, canvas);
+controls.enableDamping = true;
+controls.dampingFactor = 0.06;
+controls.minDistance = 6.5;
+controls.maxDistance = 18;
+controls.maxPolarAngle = Math.PI * 0.78;
+controls.autoRotateSpeed = 0.55;
+controls.target.set(0, 0, 0);
+
+const labelRenderer = new CSS2DRenderer();
+labelRenderer.domElement.style.position = 'absolute';
+labelRenderer.domElement.style.inset = '0';
+labelRenderer.domElement.style.pointerEvents = 'none';
+stage.appendChild(labelRenderer.domElement);
+
+scene.add(new THREE.HemisphereLight(0x9bb8ff, 0x1b1020, 1.5));
+const key = new THREE.DirectionalLight(0xffffff, 2.4);
+key.position.set(4, 7, 6);
+scene.add(key);
+const rim = new THREE.PointLight(0x6b7fff, 9, 18, 2);
+rim.position.set(-4, 2, -3);
+scene.add(rim);
+const warm = new THREE.PointLight(0xff8b5c, 8, 14, 2);
+warm.position.set(-3, -1, 2);
+scene.add(warm);
+
+const grid = new THREE.GridHelper(26, 26, 0x243651, 0x14243a);
+grid.position.y = -2.1;
+grid.material.transparent = true;
+grid.material.opacity = 0.42;
+scene.add(grid);
+
+const dustGeo = new THREE.BufferGeometry();
+const dust = [];
+for (let i=0;i<260;i++) dust.push((Math.random()-.5)*20,(Math.random()-.5)*11,(Math.random()-.5)*14-3);
+dustGeo.setAttribute('position', new THREE.Float32BufferAttribute(dust,3));
+const dustPoints = new THREE.Points(dustGeo, new THREE.PointsMaterial({color:0x8ea5cb,size:0.028,transparent:true,opacity:0.38,depthWrite:false}));
+scene.add(dustPoints);
+
+const clickable = [];
+function hint(mesh, title, text){ mesh.userData.hint = {title,text}; clickable.push(mesh); return mesh; }
+function label(text, cls=''){
+  const el = document.createElement('div');
+  el.className = 'ml-label' + (cls ? ' '+cls : '');
+  el.textContent = text;
+  return new CSS2DObject(el);
+}
+function addLabel(parent, text, pos, cls=''){
+  const obj = label(text, cls);
+  obj.position.copy(pos);
+  parent.add(obj);
+  return obj;
+}
+function material(color, opts={}){
+  return new THREE.MeshPhysicalMaterial({color,roughness:0.38,metalness:0.03,transparent:true,opacity:0.9,clearcoat:0.28,...opts});
+}
+
+// Two layouts drive the same animation. `schematic` is the tuned illustration;
+// `true` sets 1 world unit = 1 µm, so every route plays at measured proportions.
+const LAYOUTS={
+  schematic:{
+    mitoX:-2.8,mitoY:0.15,lysoX:2.8,lysoY:0.12,
+    mitoContactX:-2.35,lysoContactX:2.35,
+    mitoScale:[1,1,1],lysoScale:1,autoScale:1,daughterScale:1,
+    autoStart:-1.25,autoEnd:1.05,autoY:0.15,autoY2:0.12,autoZ:0.15,
+    mdv:{sx:-1.1,sxs:0.35,sy:-0.35,sys:0.32,sz:0.45,szs:0.2,
+         ex:1.58,ey:-0.45,eys:0.36,ez:0.25,ezs:0.25,
+         mx:0.35,my:0.9,mys:0.35,mz:0.9},
+    mdvBase:1,mdvBaseMff:1,
+    tetherA:-0.55,tetherB:1.55,tetherMidX:0.1,tetherSpread:0.62,tetherBulge:0.12,
+    tetherZ:0.35,tetherMidZ:0.5,tetherR:0.026,
+    cLabelX:0.55,cLabelSpread:1,cLabelZScale:1,
+    streamA:1.55,streamB:-0.55,streamY0:0.1,streamY1:-0.05,
+    streamMidX:0.45,streamArcY:0.85,streamArcJitter:0.15,streamMidZ:1.05,streamZ:0.5,streamR:0.055,
+    fragX:-4.1,fragStep:0.75,fragY:-0.55,fragYStep:0.4,fragScale:1,fragZ:0.2,fragWobble:1,
+    rosFrom:-3.6,rosSpan:5.3,rosY:-0.1,rosYS:0.5,rosZS:0.45
+  },
+  true:{
+    mitoX:-0.76,mitoY:-0.14*(0.7/1.56),lysoX:0.16,lysoY:0,
+    mitoContactX:-0.76,lysoContactX:0.16,
+    mitoScale:[1.5/4.7,0.7/1.56,0.7/1.68],lysoScale:0.3/2.6,autoScale:0.8/2.38,daughterScale:2.7,
+    autoStart:-0.42,autoEnd:0.1,autoY:0,autoY2:0,autoZ:0,
+    mdv:{sx:-0.34,sxs:0.08,sy:-0.08,sys:0.1,sz:0.06,szs:0.03,
+         ex:0.12,ey:-0.04,eys:0.06,ez:0.03,ezs:0.04,
+         mx:-0.05,my:0.26,mys:0.06,mz:0.14},
+    mdvBase:0.25,mdvBaseMff:0.205,
+    tetherA:-0.035,tetherB:0.035,tetherMidX:0,tetherSpread:0.09,tetherBulge:0.006,
+    tetherZ:0.03,tetherMidZ:0.04,tetherR:0.0035,
+    cLabelX:0.05,cLabelSpread:0.3,cLabelZScale:0.25,
+    streamA:0.16,streamB:-0.34,streamY0:0.02,streamY1:-0.02,
+    streamMidX:-0.05,streamArcY:0.22,streamArcJitter:0.05,streamMidZ:0.16,streamZ:0.08,streamR:0.012,
+    fragX:-1.05,fragStep:0.24,fragY:-0.3,fragYStep:0.15,fragScale:0.14,fragZ:0.1,fragWobble:0.12,
+    rosFrom:-1.45,rosSpan:1.95,rosY:0,rosYS:0.22,rosZS:0.16
+  }
+};
+let LAY=LAYOUTS.schematic;
+
+// Mitochondrion: deformed outer membrane + cristae tracks.
+const mito = new THREE.Group();
+mito.position.set(-2.8,0.15,0);
+scene.add(mito);
+const mitoGeo = new THREE.SphereGeometry(1,48,32);
+const mp = mitoGeo.attributes.position;
+for (let i=0;i<mp.count;i++){
+  const x=mp.getX(i), y=mp.getY(i), z=mp.getZ(i);
+  mp.setY(i,y + 0.14*(1-x*x));
+  mp.setZ(i,z*(0.93+0.07*(1-x*x)));
+}
+mitoGeo.computeVertexNormals();
+const mitoMat = material(0xd96f45,{emissive:0x5a1d0c,emissiveIntensity:0.34,opacity:0.9});
+const mitoMesh = hint(new THREE.Mesh(mitoGeo,mitoMat),'Mitochondrion','A damaged segment is the cargo in Route A; the same organelle can be sampled by MDVs or coupled through contact sites.');
+mitoMesh.scale.set(2.35,0.78,0.84);
+mito.add(mitoMesh);
+const matrixMat = material(0x7d2c1c,{emissive:0x3d1008,emissiveIntensity:0.25,opacity:0.34});
+const matrix = new THREE.Mesh(new THREE.SphereGeometry(1,32,20),matrixMat);
+matrix.scale.set(1.9,0.48,0.52);
+mito.add(matrix);
+const cristaMat = material(0xffb07a,{emissive:0x9b3e1b,emissiveIntensity:0.55,opacity:0.85});
+for(let j=0;j<5;j++){
+  const pts=[];
+  for(let i=0;i<=9;i++){
+    const x=-1.62+i*0.36;
+    pts.push(new THREE.Vector3(x,(j-2)*0.13+Math.sin(i*1.25+j*0.8)*0.065,Math.cos(i*0.95+j)*0.16));
+  }
+  const curve=new THREE.CatmullRomCurve3(pts);
+  mito.add(new THREE.Mesh(new THREE.TubeGeometry(curve,44,0.036,5,false),cristaMat));
+}
+const mitoLabel = addLabel(mito,'MITOCHONDRION',new THREE.Vector3(-1.6,1.12,0.1),'accent');
+
+// Lysosome: translucent shell + luminal contents.
+const lyso = new THREE.Group();
+lyso.position.set(2.8,0.12,0);
+scene.add(lyso);
+const lysoMat = material(0x7566dc,{emissive:0x2b1f77,emissiveIntensity:0.45,opacity:0.68,transmission:0.12,thickness:0.55,clearcoat:0.65});
+const lysoMesh = hint(new THREE.Mesh(new THREE.SphereGeometry(1.3,44,32),lysoMat),'Lysosome','The degradative endpoint, a source of ions and metabolites, and an organelle whose acidification depends partly on mitochondrial proton donation.');
+lyso.add(lysoMesh);
+const lumenMat = new THREE.MeshBasicMaterial({color:0x2a235f,transparent:true,opacity:0.24,side:THREE.BackSide});
+lyso.add(new THREE.Mesh(new THREE.SphereGeometry(1.17,36,24),lumenMat));
+const cargoColors=[0x68d391,0xf2cf72,0x8b7cf6,0x63b3ff];
+for(let i=0;i<20;i++){
+  const r=0.07+Math.random()*0.13;
+  const m=new THREE.Mesh(new THREE.IcosahedronGeometry(r,1),material(cargoColors[i%4],{emissive:cargoColors[i%4],emissiveIntensity:0.2,opacity:0.8}));
+  const u=Math.random()*Math.PI*2, v=Math.acos(2*Math.random()-1), rr=Math.cbrt(Math.random())*0.93;
+  m.position.set(rr*Math.sin(v)*Math.cos(u),rr*Math.cos(v),rr*Math.sin(v)*Math.sin(u));
+  lyso.add(m);
+}
+const lysoLabel = addLabel(lyso,'LYSOSOME',new THREE.Vector3(0.1,1.58,0.05),'blue');
+const phRingMat = new THREE.MeshBasicMaterial({color:0x68d391,transparent:true,opacity:0.6});
+const phRing = new THREE.Mesh(new THREE.TorusGeometry(1.42,0.025,8,72),phRingMat);
+phRing.rotation.x=Math.PI/2;
+lyso.add(phRing);
+// PtdIns(3,5)P2 domain on the limiting membrane; it contracts under chronic stress.
+const pipMat=new THREE.MeshBasicMaterial({color:0x68d391,transparent:true,opacity:0.55});
+const pipRing=new THREE.Mesh(new THREE.TorusGeometry(1.52,0.05,8,64,Math.PI*0.9),pipMat);
+pipRing.rotation.set(Math.PI/2,0,Math.PI*0.55);
+lyso.add(pipRing);
+
+// Autophagosome: two crescent membranes enclosing a cargo segment.
+const auto = new THREE.Group();
+auto.visible=false;
+scene.add(auto);
+const autoOuterMat=material(0xf2cf72,{emissive:0x8f6e16,emissiveIntensity:0.48,opacity:0.82,side:THREE.DoubleSide});
+const autoInnerMat=material(0xffe9a8,{emissive:0xa47c1e,emissiveIntensity:0.35,opacity:0.56,side:THREE.DoubleSide});
+const autoOuter=hint(new THREE.Mesh(new THREE.TorusGeometry(1.03,0.16,14,56,Math.PI*1.7),autoOuterMat),'Autophagosome','A double-membrane enclosure around selected mitochondrial cargo. The crescent is an illustrative cutaway, not a literal geometry.');
+autoOuter.rotation.z=-Math.PI*0.85;
+auto.add(autoOuter);
+const autoInner=new THREE.Mesh(new THREE.TorusGeometry(0.86,0.09,12,56,Math.PI*1.7),autoInnerMat);
+autoInner.rotation.z=-Math.PI*0.85;
+auto.add(autoInner);
+const autoCargo=new THREE.Mesh(new THREE.SphereGeometry(1,28,20),mitoMat);
+autoCargo.scale.set(0.62,0.3,0.32);
+auto.add(autoCargo);
+const autoLabel=addLabel(auto,'MITOPHAGOSOME',new THREE.Vector3(0,1.36,0),'accent');
+const lc3Label=addLabel(auto,'LC3-II · LIR adapters',new THREE.Vector3(0,-1.26,0),'accent');
+
+// PINK1 / Parkin markers on the mitochondrial surface.
+const markers=new THREE.Group();
+markers.visible=false;
+mito.add(markers);
+const pinkMat=new THREE.MeshBasicMaterial({color:0x63b3ff});
+const parkMat=new THREE.MeshBasicMaterial({color:0xff6b61});
+for(let i=0;i<16;i++){
+  const a=(i/16)*Math.PI*2;
+  const m=new THREE.Mesh(new THREE.SphereGeometry(0.055,8,6),i%3===0?parkMat:pinkMat);
+  m.position.set(Math.cos(a)*1.75,Math.sin(a)*0.62,Math.sin(a*1.7)*0.5+0.25);
+  markers.add(m);
+}
+const markerLabel=addLabel(markers,'PINK1 / Parkin labels',new THREE.Vector3(0.7,0.95,0.7),'blue');
+
+// MDVs and their paths.
+const mdv=new THREE.Group();
+mdv.visible=false;
+scene.add(mdv);
+const mdvMat=material(0xf0a36b,{emissive:0x8b3e17,emissiveIntensity:0.4,opacity:0.9});
+const mdvVesicles=[];
+for(let i=0;i<6;i++){
+  const ves=hint(new THREE.Mesh(new THREE.SphereGeometry(i===2?0.22:0.14,16,12),mdvMat),i===2?'MFF-bearing MDV':'MDV',i===2?'Carries the fission adaptor MFF to a damaged lysosome.':'Cargo-selective vesicle that buds independently of core autophagy machinery.');
+  ves.userData.offset=i/6;
+  ves.userData.base=1;
+  mdv.add(ves);
+  mdvVesicles.push(ves);
+  const cargo=new THREE.Mesh(new THREE.SphereGeometry(i===2?0.1:0.055,10,8),new THREE.MeshBasicMaterial({color:0xf2cf72}));
+  ves.add(cargo);
+}
+let mdvPaths=[];
+function buildMdvPaths(){
+  mdvPaths=[];
+  const m=LAY.mdv;
+  for(let i=0;i<6;i++){
+    const start=new THREE.Vector3(m.sx+Math.sin(i)*m.sxs,m.sy+(i%3)*m.sys,m.sz+Math.cos(i)*m.szs);
+    const end=new THREE.Vector3(m.ex,m.ey+(i%3)*m.eys,m.ez+Math.sin(i)*m.ezs);
+    const mid=new THREE.Vector3(m.mx,m.my+Math.sin(i)*m.mys,m.mz);
+    mdvPaths.push(new THREE.QuadraticBezierCurve3(start,mid,end));
+  }
+}
+const mffLabel=addLabel(mdv,'MFF CARGO',new THREE.Vector3(0.1,1.15,0.75),'accent');
+// Transport caption for the MDV corridor (no filament drawn: microtubules are below the resolution of this scene).
+const mtLabel=addLabel(mdv,'microtubule-based transport → ITM2C docking',new THREE.Vector3(0.35,-0.62,0.2),'blue');
+
+// Contact tethers and exchange streams — rebuilt whenever the layout changes.
+const contact=new THREE.Group();
+contact.visible=false;
+scene.add(contact);
+const tethers=new THREE.Group(); contact.add(tethers);
+const streamsGroup=new THREE.Group(); contact.add(streamsGroup);
+const tetherMat=new THREE.MeshBasicMaterial({color:0x63b3ff,transparent:true,opacity:0.55});
+const contactLabelY=[1.32,1.02,0.55,-0.05,-0.58,-1.02];
+const contactLabelZ=[0.45,0.5,0.85,0.85,0.85,0.6];
+const contactLabels=[
+  addLabel(contact,'ETC-derived H+ → lysosome',new THREE.Vector3(0.6,1.32,0.45),'pink'),
+  addLabel(contact,'RAB7–FIS1–TBC1D15',new THREE.Vector3(0.55,1.02,0.5),'blue'),
+  addLabel(contact,'TRPML1 → VDAC1 → MCU',new THREE.Vector3(0.55,0.55,0.85),'blue'),
+  addLabel(contact,'BDH2 / 2,5-DHBA · Fe2+',new THREE.Vector3(0.6,-0.05,0.85),'accent'),
+  addLabel(contact,'STARD3 · cholesterol',new THREE.Vector3(0.55,-0.58,0.85),'accent'),
+  addLabel(contact,'contact gap 10–30 nm',new THREE.Vector3(0.55,-1.02,0.6),'pink')
+];
+
+const streams=[];
+function clearGroup(g){
+  while(g.children.length){
+    const c=g.children.pop();
+    c.traverse(o=>{
+      if(o.userData.hint){
+        const i=clickable.indexOf(o);
+        if(i>=0) clickable.splice(i,1);
+      }
+      if(o.geometry) o.geometry.dispose();
+    });
+  }
+}
+function makeStream(color,count,reverse=false,kind=''){
+  const group=new THREE.Group();
+  const mat=new THREE.MeshBasicMaterial({color,transparent:true,opacity:0.95});
+  const particles=[];
+  const curve=new THREE.QuadraticBezierCurve3(
+    new THREE.Vector3(reverse?LAY.streamB:LAY.streamA,LAY.streamY0,LAY.streamZ),
+    new THREE.Vector3(LAY.streamMidX,LAY.streamArcY+Math.random()*LAY.streamArcJitter,LAY.streamMidZ),
+    new THREE.Vector3(reverse?LAY.streamA:LAY.streamB,LAY.streamY1,LAY.streamZ)
+  );
+  for(let i=0;i<count;i++){
+    const p=hint(new THREE.Mesh(new THREE.SphereGeometry(LAY.streamR,8,6),mat),kind,kind==='Proton transfer'?'Mitochondrial electron-transport-chain-derived protons contribute to lysosomal acidification; the conducting channel is not identified.':'Particle direction encodes transfer at a contact site; speed and quantity are illustrative.');
+    p.userData.phase=i/count;
+    group.add(p); particles.push(p);
+  }
+  streamsGroup.add(group);
+  streams.push({group,particles,curve,reverse});
+}
+function buildContact(){
+  clearGroup(tethers);
+  clearGroup(streamsGroup);
+  streams.length=0;
+  for(let i=0;i<5;i++){
+    const y=-LAY.tetherSpread+i*(LAY.tetherSpread/2);
+    const curve=new THREE.CatmullRomCurve3([
+      new THREE.Vector3(LAY.tetherA,y,LAY.tetherZ),
+      new THREE.Vector3(LAY.tetherMidX,y+Math.sin(i)*LAY.tetherBulge,LAY.tetherMidZ),
+      new THREE.Vector3(LAY.tetherB,y,LAY.tetherZ)
+    ]);
+    tethers.add(new THREE.Mesh(new THREE.TubeGeometry(curve,22,LAY.tetherR,5,false),tetherMat));
+  }
+  contactLabels.forEach((obj,i)=>obj.position.set(LAY.cLabelX,contactLabelY[i]*LAY.cLabelSpread,contactLabelZ[i]*LAY.cLabelZScale));
+  makeStream(0x63b3ff,9,false,'Ca2+');
+  makeStream(0xf6ad55,8,false,'Fe2+ / 2,5-DHBA');
+  makeStream(0xf2cf72,7,false,'Cholesterol');
+  makeStream(0x68d391,7,false,'Amino acids');
+  makeStream(0xef7cbf,10,true,'Proton transfer');
+}
+
+// Chronic-damage fragments and ROS.
+const chronic=new THREE.Group();
+chronic.visible=false;
+scene.add(chronic);
+const fragMat=material(0xa44b32,{emissive:0x5a1409,emissiveIntensity:0.4,opacity:0.72});
+for(let i=0;i<5;i++){
+  const f=new THREE.Mesh(new THREE.SphereGeometry(0.45+Math.random()*0.2,20,14),fragMat);
+  f.scale.set(1.4,0.6,0.7);
+  f.position.set(-4.1+i*0.75,-0.55+(i%2)*0.4,0.2);
+  f.userData.base=f.position.clone();
+  chronic.add(f);
+}
+const rosMat=new THREE.MeshBasicMaterial({color:0xff6b61,transparent:true,opacity:0.8});
+const ros=[];
+for(let i=0;i<22;i++){
+  const p=new THREE.Mesh(new THREE.SphereGeometry(0.035+Math.random()*0.025,6,5),rosMat);
+  p.userData.phase=Math.random();
+  chronic.add(p); ros.push(p);
+}
+
+// MFF-driven lysosomal daughter buds.
+const daughters=new THREE.Group();
+daughters.visible=false;
+lyso.add(daughters);
+for(let i=0;i<3;i++){
+  const d=new THREE.Mesh(new THREE.SphereGeometry(0.32,18,14),lysoMat.clone());
+  d.position.set(-1.15+i*0.12,0.65-i*0.55,0.1);
+  d.userData.base=d.position.clone();
+  daughters.add(d);
+}
+const drpRing=new THREE.Mesh(new THREE.TorusGeometry(0.44,0.045,8,32),new THREE.MeshBasicMaterial({color:0xf2cf72,transparent:true,opacity:0.8}));
+drpRing.position.set(-1.18,0.5,0.15);
+drpRing.rotation.y=Math.PI/2;
+daughters.add(drpRing);
+
+// Secondary labels are hidden on narrow screens to keep the small stage readable.
+[markerLabel,lc3Label,mtLabel,contactLabels[1],contactLabels[2],contactLabels[3],contactLabels[4]].forEach(obj=>obj.element.classList.add('ml-label-minor'));
+
+let currentMode=0;
+let progress=0;
+let playing=!reducedMotion;
+let labelsOn=true;
+let trueScale=true;
+let last=performance.now();
+let stepIndex=-1;
+let lastAspect=0;
+
+function syncRouteVisibility(){
+  auto.visible=currentMode===0;
+  markers.visible=currentMode===0;
+  mdv.visible=currentMode===1;
+  daughters.visible=currentMode===1;
+  contact.visible=currentMode===2;
+  chronic.visible=currentMode===3;
+  pipRing.visible=currentMode===3;
+  $('ml-state-split').hidden=currentMode!==3;
+}
+
+function updateScaleBar(){
+  const bar=$('ml-scale-bar'), txt=$('ml-scale-text');
+  if(!trueScale){txt.textContent='schematic · not to scale';bar.style.width='56px';return;}
+  const dist=camera.position.distanceTo(controls.target);
+  const umPerPx=(2*dist*Math.tan(camera.fov*Math.PI/360))/stage.clientHeight;
+  bar.style.width=Math.max(12,Math.round(0.1/umPerPx))+'px';
+  txt.textContent='100 nm';
+}
+
+function frameTrueScale(){
+  const fov=camera.fov*Math.PI/180;
+  const distV=0.6/Math.tan(fov/2);
+  const distH=1.25/(Math.tan(fov/2)*Math.max(camera.aspect,0.2));
+  const dist=Math.max(distV,distH)*1.08;
+  controls.target.set(-0.6,0,0);
+  camera.position.set(-0.6,0.3,dist);
+  controls.minDistance=dist*0.3;
+  controls.maxDistance=dist*4;
+  controls.update();
+}
+
+function positionChronicFragments(){
+  chronic.children.forEach((f,i)=>{
+    if(!f.isMesh || !f.userData.base) return;
+    f.position.set(LAY.fragX+i*LAY.fragStep,LAY.fragY+(i%2)*LAY.fragYStep,LAY.fragZ);
+    f.userData.base=f.position.clone();
+    f.scale.set(1.4*LAY.fragScale,0.6*LAY.fragScale,0.7*LAY.fragScale);
+  });
+}
+
+function applyLayout(on){
+  trueScale=on;
+  LAY=on?LAYOUTS.true:LAYOUTS.schematic;
+
+  mito.scale.set(...LAY.mitoScale);
+  lyso.scale.setScalar(LAY.lysoScale);
+  auto.scale.setScalar(LAY.autoScale);
+  mito.position.set(LAY.mitoX,LAY.mitoY,0);
+  lyso.position.set(LAY.lysoX,LAY.lysoY,0);
+  mdvVesicles.forEach((ves,i)=>{ves.userData.base=i===2?LAY.mdvBaseMff:LAY.mdvBase;});
+  drpRing.scale.setScalar(LAY.daughterScale);
+  mffLabel.position.set(LAY.mdv.mx,on?0.48:1.15,on?0.14:0.75);
+  mtLabel.position.set(on?0.22:0.35,on?-0.42:-0.62,0.2);
+
+  mitoLabel.element.textContent=on?'MITOCHONDRION · 1.5 × 0.7 µm':'MITOCHONDRION';
+  lysoLabel.element.textContent=on?'LYSOSOME · ⌀ 0.3 µm':'LYSOSOME';
+  autoLabel.element.textContent=on?'MITOPHAGOSOME · ⌀ 0.8 µm':'MITOPHAGOSOME';
+  mffLabel.element.textContent=on?'MFF MDV · ⌀ 90 nm':'MFF CARGO';
+  contactLabels[5].element.textContent=on?'contact gap 10–30 nm':'contact gap 10–30 nm (drawn wider)';
+
+  buildMdvPaths();
+  buildContact();
+  positionChronicFragments();
+  if(on){
+    frameTrueScale();
+    grid.visible=false;
+    dustPoints.visible=false;
+  }else{
+    controls.minDistance=6.5;
+    controls.maxDistance=18;
+    grid.visible=true;
+    dustPoints.visible=true;
+    resetView();
+  }
+  syncRouteVisibility();
+  applyLabelVisibility();
+  updateScaleBar();
+  updateTimeline();
+}
+
+function setMode(index){
+  currentMode=index;
+  progress=0;
+  stepIndex=-1;
+  syncRouteVisibility();
+  mito.visible=true;
+  lyso.visible=true;
+  mitoMat.opacity=index===3?0.28:0.9;
+  cristaMat.opacity=index===3?0.35:0.85;
+  matrixMat.opacity=index===3?0.15:0.34;
+  lysoMesh.material.opacity=0.68;
+  phRingMat.color.set(0x68d391);
+  phRingMat.opacity=0.6;
+  pipMat.opacity=0.55;
+  pipRing.visible=index===3;
+  autoLabel.element.style.opacity='1';
+  applyLabelVisibility();
+  document.querySelectorAll('.ml-tab').forEach((b,i)=>b.setAttribute('aria-selected',String(i===index)));
+  $('ml-lens').setAttribute('aria-labelledby','tab-'+index);
+  const m=MODES[index];
+  $('ml-route-no').textContent=m.route;
+  $('ml-tier').textContent=m.tier;
+  $('ml-title').textContent=m.title;
+  $('ml-claim').textContent=m.claim;
+  $('ml-caveat').textContent=m.caveat;
+  $('ml-verified').textContent=m.verified;
+  $('ml-route-flag').querySelector('span').textContent=m.flag;
+  $('ml-molecules').replaceChildren(...m.molecules.map(x=>{const c=document.createElement('code');c.textContent=x;return c;}));
+  $('ml-steps').replaceChildren(...m.steps.map(x=>{const li=document.createElement('li');li.textContent=x;return li;}));
+  $('ml-legend').replaceChildren(...m.legend.map(([c,t])=>{const s=document.createElement('span');const i=document.createElement('i');i.style.background=c;s.append(i,document.createTextNode(t));return s;}));
+  updateTimeline();
+}
+
+function ease(x){return x*x*(3-2*x);}
+function lerp(a,b,t){return a+(b-a)*t;}
+function updateTimeline(){
+  const t=progress;
+  $('ml-scrub').value=String(Math.round(t*1000));
+  $('ml-time').textContent='T+ '+Math.round(t*100)+'%';
+  const steps=[...$('ml-steps').children];
+  const idx=Math.min(steps.length-1,Math.floor(t*steps.length));
+  if(idx!==stepIndex){
+    stepIndex=idx;
+    steps.forEach((li,i)=>li.classList.toggle('is-active',i===idx));
+  }
+  if(currentMode===0){
+    const appear=ease(Math.min(1,t/0.22));
+    markers.scale.setScalar(0.7+appear*0.3);
+    auto.visible=t>0.12;
+    const move=ease((t-0.16)/0.64);
+    auto.position.set(lerp(LAY.autoStart,LAY.autoEnd,move),lerp(LAY.autoY,LAY.autoY2,move),LAY.autoZ);
+    auto.rotation.set(0.08+move*0.15,0.35,0);
+    auto.scale.setScalar(LAY.autoScale*(0.66+move*0.35));
+    const fuse=Math.max(0,(t-0.82)/0.18);
+    autoOuterMat.opacity=0.82*(1-fuse*0.72);
+    autoInnerMat.opacity=0.56*(1-fuse*0.72);
+    lysoMesh.scale.setScalar(1+Math.sin(fuse*Math.PI)*0.08);
+    autoLabel.element.style.opacity=String(1-fuse);
+  } else if(currentMode===1){
+    mdvVesicles.forEach((ves,i)=>{
+      const local=(t*1.3+ves.userData.offset)%1;
+      ves.position.copy(mdvPaths[i%mdvPaths.length].getPoint(local));
+      ves.scale.setScalar(ves.userData.base*(0.75+Math.sin(local*Math.PI)*0.35));
+    });
+    const dock=ease(Math.max(0,(t-0.58)/0.22));
+    daughters.children.forEach((d,i)=>{
+      if(!d.isMesh || !d.userData.base) return;
+      const off=dock*(0.55+i*0.12);
+      d.position.copy(d.userData.base);
+      d.position.x-=off;
+      d.position.y+=(i-1)*off*0.22;
+      d.scale.setScalar(LAY.daughterScale*(0.65+dock*0.35));
+    });
+    drpRing.material.opacity=Math.sin(Math.min(1,dock)*Math.PI)*0.9;
+  } else if(currentMode===2){
+    streams.forEach(s=>{
+      s.particles.forEach(p=>{
+        const q=(t*0.9+p.userData.phase)%1;
+        p.position.copy(s.curve.getPoint(s.reverse?1-q:q));
+        const pulse=0.65+Math.sin(q*Math.PI)*0.5;
+        p.scale.setScalar(pulse);
+      });
+    });
+    const breathe=0.94+Math.sin(t*Math.PI*2)*0.025;
+    tetherMat.opacity=0.35+breathe*0.25;
+  } else {
+    const chronicPhase=ease(Math.max(0,(t-0.46)/0.3));
+    phRingMat.color.set(chronicPhase>0.5?0xff6b61:0x68d391);
+    phRingMat.opacity=0.45+chronicPhase*0.35;
+    pipMat.opacity=(1-chronicPhase)*0.6;
+    lysoMesh.material.opacity=0.68-chronicPhase*0.18;
+    $('ml-state-acute').classList.toggle('is-active',chronicPhase<0.5);
+    $('ml-state-chronic').classList.toggle('is-active',chronicPhase>=0.5);
+    ros.forEach((p,i)=>{
+      const q=(t*0.65+p.userData.phase)%1;
+      p.position.set(LAY.rosFrom+q*LAY.rosSpan,LAY.rosY+Math.sin(q*8+i)*LAY.rosYS,Math.cos(q*6+i)*LAY.rosZS);
+      p.material.opacity=0.35+chronicPhase*0.6;
+      p.scale.setScalar(0.7+chronicPhase*0.8);
+    });
+    chronic.children.forEach((f,i)=>{
+      if(!f.isMesh || !f.userData.base) return;
+      f.position.x=f.userData.base.x+Math.sin(t*2+i)*0.08*LAY.fragWobble;
+      f.position.y=f.userData.base.y+Math.cos(t*2+i)*0.06*LAY.fragWobble;
+    });
+  }
+}
+
+function applyLabelVisibility(){
+  const show=(obj,on)=>{
+    const visible=labelsOn&&on;
+    obj.visible=visible;
+    obj.element.classList.toggle('ml-hidden',!visible);
+  };
+  show(mitoLabel,true);
+  show(lysoLabel,true);
+  show(autoLabel,currentMode===0);
+  show(lc3Label,currentMode===0);
+  show(markerLabel,currentMode===0);
+  show(mffLabel,currentMode===1);
+  show(mtLabel,currentMode===1);
+  contactLabels.forEach(obj=>show(obj,currentMode===2));
+}
+
+function resize(){
+  const w=stage.clientWidth,h=stage.clientHeight;
+  camera.aspect=w/h;
+  camera.updateProjectionMatrix();
+  renderer.setSize(w,h,false);
+  labelRenderer.setSize(w,h);
+  if(trueScale && Math.abs(camera.aspect-lastAspect)>0.02) frameTrueScale();
+  lastAspect=camera.aspect;
+  updateScaleBar();
+}
+new ResizeObserver(resize).observe(stage);
+resize();
+
+function resetView(){
+  if(trueScale){frameTrueScale();return;}
+  camera.position.set(0,3.2,11.8);
+  controls.target.set(0,0,0);
+  controls.update();
+}
+function togglePlay(){
+  playing=!playing;
+  $('ml-play').textContent=playing?'Pause':'Play';
+  $('ml-play').setAttribute('aria-pressed',String(playing));
+}
+function toggleLabels(){
+  labelsOn=!labelsOn;
+  labelRenderer.domElement.style.display=labelsOn?'':'none';
+  applyLabelVisibility();
+  $('ml-labels').setAttribute('aria-pressed',String(labelsOn));
+}
+
+document.querySelectorAll('.ml-tab').forEach(b=>b.addEventListener('click',()=>setMode(Number(b.dataset.mode))));
+$('ml-play').addEventListener('click',togglePlay);
+$('ml-labels').addEventListener('click',toggleLabels);
+$('ml-rotate').addEventListener('click',()=>{
+  controls.autoRotate=!controls.autoRotate;
+  $('ml-rotate').setAttribute('aria-pressed',String(controls.autoRotate));
+});
+$('ml-reset').addEventListener('click',()=>{resetView();progress=0;updateTimeline();});
+controls.addEventListener('end',updateScaleBar);
+$('ml-scrub').addEventListener('input',e=>{progress=Number(e.target.value)/1000;playing=false;$('ml-play').textContent='Play';$('ml-play').setAttribute('aria-pressed','false');updateTimeline();});
+$('ml-copy').addEventListener('click',()=>{
+  renderer.render(scene,camera);
+  canvas.toBlob(blob=>{
+    if(!blob) return;
+    const a=document.createElement('a');
+    a.href=URL.createObjectURL(blob);
+    a.download='mitophagy-communication-route-'+String.fromCharCode(65+currentMode)+'.png';
+    a.click();
+    setTimeout(()=>URL.revokeObjectURL(a.href),1000);
+  },'image/png');
+});
+addEventListener('keydown',e=>{
+  if(e.target.matches('input,textarea,select')) return;
+  if(e.code==='Space'){e.preventDefault();togglePlay();}
+  if(e.key==='ArrowRight'){e.preventDefault();setMode((currentMode+1)%MODES.length);}
+  if(e.key==='ArrowLeft'){e.preventDefault();setMode((currentMode-1+MODES.length)%MODES.length);}
+  if(e.key.toLowerCase()==='r') resetView();
+  if(e.key.toLowerCase()==='l') toggleLabels();
+});
+
+const raycaster=new THREE.Raycaster();
+const pointer=new THREE.Vector2();
+// Info-sign cursor for hoverable 3D objects; `help` is the question-mark fallback.
+const INFO_CURSOR='url("data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2724%27 height=%2724%27 viewBox=%270 0 24 24%27%3E%3Ccircle cx=%2712%27 cy=%2712%27 r=%2710%27 fill=%27%23f2cf72%27 stroke=%27%230b1220%27 stroke-width=%272%27/%3E%3Ctext x=%2712%27 y=%2717%27 text-anchor=%27middle%27 font-family=%27sans-serif%27 font-size=%2715%27 font-weight=%27bold%27 fill=%27%230b1220%27%3Ei%3C/text%3E%3C/svg%3E") 12 12, help';
+let dragging=false;
+canvas.addEventListener('pointerdown',()=>{dragging=true;$('ml-tip').style.display='none';});
+addEventListener('pointerup',()=>{dragging=false;});
+canvas.addEventListener('pointermove',e=>{
+  if(dragging) return;
+  const rect=canvas.getBoundingClientRect();
+  pointer.set(((e.clientX-rect.left)/rect.width)*2-1,-((e.clientY-rect.top)/rect.height)*2+1);
+  raycaster.setFromCamera(pointer,camera);
+  const hits=raycaster.intersectObjects(clickable,false).filter(h=>h.object.visible&&h.object.parent?.visible!==false);
+  const tip=$('ml-tip');
+  if(!hits.length){tip.style.display='none';canvas.style.cursor='grab';return;}
+  const h=hits[0].object.userData.hint;
+  if(!h){return;}
+  tip.replaceChildren();
+  const b=document.createElement('b');b.textContent='ⓘ  '+h.title;
+  const p=document.createElement('span');p.textContent=h.text;
+  tip.append(b,p);
+  tip.style.display='block';
+  const x=Math.min(e.clientX-rect.left+14,rect.width-265);
+  const y=Math.min(e.clientY-rect.top+14,rect.height-110);
+  tip.style.left=Math.max(8,x)+'px';
+  tip.style.top=Math.max(8,y)+'px';
+  canvas.style.cursor=INFO_CURSOR;
+});
+canvas.addEventListener('pointerleave',()=>{$('ml-tip').style.display='none';});
+
+function animate(now){
+  const dt=Math.min(0.05,(now-last)/1000);last=now;
+  if(playing){
+    progress=(progress+dt/MODES[currentMode].duration)%1;
+    updateTimeline();
+  }
+  // The schematic spreads organelles apart for legibility; true scale keeps their measured gap.
+  const targetMito=currentMode===2?LAY.mitoContactX:LAY.mitoX;
+  const targetLyso=currentMode===2?LAY.lysoContactX:LAY.lysoX;
+  mito.position.x=lerp(mito.position.x,targetMito,0.06);
+  lyso.position.x=lerp(lyso.position.x,targetLyso,0.06);
+  dustPoints.rotation.y+=dt*0.006;
+  controls.update();
+  renderer.render(scene,camera);
+  labelRenderer.render(scene,camera);
+  requestAnimationFrame(animate);
+}
+
+const params=new URLSearchParams(location.search);
+const requestedMode=Number(params.get('mode'));
+const initialMode=Number.isInteger(requestedMode)&&requestedMode>=0&&requestedMode<MODES.length?requestedMode:0;
+applyLayout(params.get('scale')!=='0');
+setMode(initialMode);
+const requestedTime=Number(params.get('t'));
+if(Number.isFinite(requestedTime)&&params.has('t')){
+  progress=Math.max(0,Math.min(0.999,requestedTime));
+  playing=false;
+  updateTimeline();
+}
+$('ml-play').textContent=playing?'Pause':'Play';
+$('ml-play').setAttribute('aria-pressed',String(playing));
+updateScaleBar();
+T2.initTooltip();
+requestAnimationFrame(animate);
+</script>
+</body>
+</html>
