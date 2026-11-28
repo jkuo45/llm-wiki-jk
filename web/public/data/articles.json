@@ -819,12 +819,12 @@
     "active": true,
     "langs": {
       "en-US": {
-        "title": "Mitophagy at the Contact Boundary — A Communication Explainer",
+        "title": "Mitophagy Communication Network",
         "description": "An original three.js explainer of mitochondria–lysosome communication: PINK1–Parkin mitophagy, mitochondrial-derived vesicles, membrane contact-site exchange, and acute-to-chronic signaling — with an animated true-scale mode (1 unit = 1 µm), a to-scale size ledger, and per-route dossiers (molecular anchors, measured quantities, assay caveats, falsifiers). Literature verified through 2026-11-27.",
         "path": "pages/en-US/mitophagy-communication.html"
       },
       "zh-TW": {
-        "title": "粒線體自噬於接觸邊界 — 通訊解說",
+        "title": "粒線體自噬通訊網路",
         "description": "原創 three.js 互動解說，介紹粒線體與溶酶體的通訊：PINK1–Parkin 粒線體自噬、粒線體衍生囊泡、膜接觸位點交換（Ca2+、鐵、膽固醇、胺基酸、質子），以及急性到慢性的 AMPK–TFEB／TRPML1 訊號；內含動畫等比例模式（1 單位 = 1 µm）、等比例尺寸表，以及每條路徑的資料夾（分子錨點、實測數值、檢測注意事項、反證條件）。文獻查核至 2026-11-27。",
         "path": "pages/zh-TW/mitophagy-communication.html"
       }
